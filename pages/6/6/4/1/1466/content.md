@@ -148,11 +148,15 @@ A second wave of results relates uniform spaces to [[pseudometric spaces]] (like
 By this result, the results mentioned above on completions of uniform spaces may be proved by appeal to similar results for (pseudo)metric spaces.
 
 
-Finally, we mention the special case of compact spaces:
+We also mention the special case of compact spaces:
 
 * A [[compact Hausdorff space]] $X$ admits a unique uniformity whose corresponding topology is the topology of $X$. The entourages of this uniformity are precisely the neighborhoods of the diagonal in $X \times X$.
 
 It follows then that if $X, Y$ are uniform spaces with $X$ compact Hausdorff and if $f\colon X \to Y$ is continuous, then $f$ is uniformly continuous.
+
+Finally, uniform spaces and uniformly continuous maps form a [[category]] $Unif$.  This category admits a [[closed monoidal category|closed monoidal structure]] in which the function-space $[X,Y]$ is the set of uniformly continuous maps $X\to Y$ with the uniformity of [[uniform convergence]] (mentioned above).  The corresponding tensor product is called the "semi-uniform product", and is *not* [[symmetric monoidal category|symmetric]], because the evaluation map $X \to [[X,Y],Y]$ is not generally uniformly continuous.  See [Isbell, Chapter III, particularly Theorem 26 p46](#Isbell)
+
+On the other hand, $Unif$ also has a different closed *symmetric* monoidal structure in which the internal-hom $\{X,Y\}$ is the space of uniformly continuous functions with the uniformity of *pointwise* convergence, i.e. the subspace uniformity induced by the product uniformity on $Y^X$.  See [Isbell, exercise III.7, p53](#Isbell)
 
 
 ## Variations
@@ -228,7 +232,7 @@ In all these cases, in order to recover the correct notion of morphism abstractl
 
 * P. Samuel, _Ultrafilters and compactifications of uniform spaces_, Trans. Amer. Math. Soc. __64__ (1948) 100--132
 
-* J. R. Isbell, _Uniform spaces_, Math. Surveys __12__, Amer. Math. Soc. 1964
+* {#Isbell} J. R. Isbell, _Uniform spaces_, Math. Surveys __12__, Amer. Math. Soc. 1964
 
 * T. E. Gantner and R. C. Steinlage, _Characterizations of quasi-uniformities_, J. London Math Soc (2) 5 (1972) (defines quasi-uniformities using covers)
  {#GS72}
