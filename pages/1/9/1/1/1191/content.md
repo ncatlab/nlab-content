@@ -48,3 +48,5 @@ The proof that a Tarski-[[Grothendieck universe]] is equivalently a set of $\kap
 * Andreas Blass, Ioanna M. Dimitriou, Benedikt L&#246;we, _Inaccessible cardinals without the axiom of choice_, Fund. Math. 194 (2007) 179-189 [pdf](http://journals.impan.gov.pl/cgi-bin/fm/pdf?fm194-2-03) 
 
 > Abstract: We consider four notions of strong inaccessibility that are equivalent in ZFC and show that they are not equivalent in ZF. 
+
+[[!redirects inaccessible cardinals]]
