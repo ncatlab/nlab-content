@@ -22,7 +22,7 @@ The concept of a **Yoneda structure** provides in a general 2-categorical settin
 
 The axioms of a Yoneda structure are out to capture the properties of the presheaf construction with [[CAT]] replaced by general 2-category $\mathcal{K}$. In order to handle size issues a class of "legitimate" or "amissible" 0-cells is singled out in $|\mathcal{K}|$ as well as a class of 1-cells that behave well with respect to this class and the presheaf construction. In fact, it suffices to describe the "admissible" 1-cells since one can then identify the admissible 0-cells with the admissible identity 1-cells.
 
-In $CAT$ relative to the usual presheaf construction one should think of the [[locally small category|locally small categories]] as the admissible 0-cells i.e. those categories $\mathcal{C}$ with all Hom-sets $\mathcal{C}(x,y)$ contained in a category $Set$ of "small" sets itself contained as object in a larger [[Grothendieck universe]] $U_0$. In this setting admissible functors $f:\mathcal{A}\to\mathcal{B}$ are those with all relative Hom-sets $\mathcal{B}(f(a),b)\in Set$. Furthermore, one can show ([Freyd-Street 1995](FS95)) that _a category $\mathcal{C}\in CAT$ is small i.e. $|\mathcal{C}|\in Set$ precisely if $\mathcal{C}$ and $Set^{\mathcal{C}^{op}}$ are locally small_.
+In $CAT$ relative to the usual presheaf construction one should think of the [[locally small category|locally small categories]] as the admissible 0-cells i.e. those categories $\mathcal{C}$ with all Hom-sets $\mathcal{C}(x,y)$ contained in a category $Set$ of "small" sets itself contained as object in a larger [[Grothendieck universe]] $U_0$. In this setting admissible functors $f:\mathcal{A}\to\mathcal{B}$ are those with all relative Hom-sets $\mathcal{B}(f(a),b)\in Set$. Furthermore, one can show ([Freyd-Street 1995](FS95)) that _a category_ $\mathcal{C}\in CAT$ _is small_ i.e. $|\mathcal{C}|\in Set$ precisely if $\mathcal{C}$ and $Set^{\mathcal{C}^{op}}$ _are locally small_.
 
 Admissible functors $f$ in this sense in $CAT$ are closed under precomposition not only among themselves but with respect to arbitrary (composable) $g$ since the relative Hom-sets $\mathcal{B}(f{}g(x),b)$ are simply a subclass of $\mathcal{B}(f(a),b)$ namely those for which $a\in im(g)$. Whence these "relatively small" functors form a [[right ideal]]. Given the close connection between [[KZ doctrines]] and Yoneda structures it will nevertheless be useful to consider the more general case of closure in itself under composition as well, a situation which we acknowledge terminologically with the prefix "proto".
 
@@ -321,11 +321,11 @@ A 1-cell $h:X\to Y$ between two P-cocomplete objects $X$, $Y$ is called a _P-hom
 ###### Proposition
 Given a KZ-doctrine $(P,y)$ on $\mathcal{K}$. The following are equivalent:
 
-* $X\in|\mathcal{K}|$ is P-cocomplete;
+* $A\in|\mathcal{K}|$ is P-cocomplete;
 
-* $y_X:X\to P(X)$ has a left adjoint with invertible counit;
+* $y_A:A\to P(A)$ has a left adjoint with invertible counit;
 
-* $X$ is the underlying object of a pseudoalgebra.
+* $A$ is the underlying object of a pseudoalgebra.
 
 =--
 
