@@ -37,18 +37,18 @@ There is an identical definition internal to any [[2-category]], which reproduce
 
 We work in any 2-category.  First, we observe:
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 If $(f,g,\eta,\varepsilon)$ is an adjoint equivalence, then so is $(g,f,\varepsilon^{-1},\eta^{-1})$.
 =--
 
-Therefore, in an adjoint equivalence, each functor is both the left and the right adjoint of the other (i.e. it is an [[ambidextrous adjunction]]).
+Therefore, in an adjoint equivalence, each functor is both the [[left adjoint]]  and the [[right adjoint]] of the other (i.e. it is an [[ambidextrous adjunction]]).
 
 The definition as given above is also redundant:
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
-If $(f,g,\eta,\varepsilon)$ is any equivalence, then it satisfies one zigzag identity iff it satisfies the other.
+If $(f,g,\eta,\varepsilon)$ is any equivalence, then it satisfies one [[zigzag identity]] iff it satisfies the other.
 =--
 
 
@@ -72,12 +72,14 @@ then we can verify the other as follows.  (The first step uses the inverse of th
 
 Furthermore, although an adjoint equivalence is a "stronger" or "more structured" notion than a mere equivalence, the property of "being adjoint equivalent" is no stronger a condition than "being equivalent," since every equivalence may be refined to an adjoint equivalence by modifying one of the natural isomorphisms involved.  More specifically:
 
-+--{: .un_theorem}
++--{: .num_theorem}
 ###### Theorem
 If $f\colon X\to Y$ is a morphism which is an equivalence, then given any morphism $g\colon Y\to X$ and any isomorphism $\eta\colon 1 \cong g f$, there exists a unique 2-isomorphism $\varepsilon\colon f g \cong 1$ such that $(f,g,\eta,\varepsilon)$ is an adjoint equivalence.
 =--
+
 +--{: .proof}
 ###### Proof
+
 Since $f$ is an equivalence, there exists a $g'$ and isomorphisms $f g' \cong 1$ and $1\cong g' f$.  However, we also have $g \cong g f g' \cong g'$, so the isomorphism $f g' \cong 1$ also induces an isomorphism $f g\cong 1$, which we denote $\xi$.  Now $\eta$ and $\xi$ may not satisfy the zigzag identities, but if we define $\varepsilon$ as follows:
 $$
 f g
@@ -149,3 +151,9 @@ In [[higher category theory]], one expects to have a similar "fully coherent" no
 * For [[quasicategories]], the theorem is true, where an "adjoint equivalence" means simply a map out of the [[nerve]] of the [[interval groupoid]]; see [[equivalence in a quasicategory]].
 
 [[!redirects adjoint equivalences]]
+
+[[!redirects adjoint equivalence of categories]]
+[[!redirects adjoint equivalences of categories]]
+
+
+
