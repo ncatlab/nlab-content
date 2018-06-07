@@ -841,7 +841,7 @@ Here are some useful specifics:
 * [Use basic Markdown syntax](http://daringfireball.net/projects/markdown/syntax)
 * [Make tables, footnotes, etc](http://maruku.rubyforge.org/maruku.html#extra)
 * [Add definitions and theorems](http://golem.ph.utexas.edu/instiki/show/Theorems)
-* [Add metadata to your markup](http://maruku.rubyforge.org/proposal.html)
+* [Add metadata to your markup](https://golem.ph.utexas.edu/~distler/maruku/proposal.html)
 * [Type itex equations](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html)
 * [Use wiki syntax](http://golem.ph.utexas.edu/instiki/show/Syntax#wiki)
 * [Embed SVG in equations](http://golem.ph.utexas.edu/instiki/show/SVG)
