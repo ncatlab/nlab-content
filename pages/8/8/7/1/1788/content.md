@@ -1,4 +1,10 @@
+
+
+
+
+
 #centered table test
+
 
 ## uncentered
 
@@ -21,3 +27,8 @@ the above table is wrapped with `+-- {: .cent}`
 to get this to actually center I added a CSS rule via with the Firefox extension Stylus
 
 `div.cent table {margin-left: auto; margin-right: auto}`
+
+|   column header 1 | column header 2 |
+|-------------------|-----------------|
+|   item            | item            |
+{: style='margin:auto; color: blue'}
