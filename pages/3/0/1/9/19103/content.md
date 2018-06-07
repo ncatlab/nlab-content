@@ -7,3 +7,5 @@
 * [[nonabelian T-duality]]
 
 category: people
+
+[[!redirects Konstantinos Sfetsos]]
