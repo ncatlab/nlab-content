@@ -2821,7 +2821,7 @@ $$
 
 whose [[objects]] are the [[enriched functors]] $\mathcal{C} \overset{F}{\to} \mathcal{D}$ and whose [[morphisms]] are the [[enriched natural transformations]] between these (Def. \ref{EnrichedNaturalTransformation}).
 
-In the case that $\mathcal{V} = $ [[Set]], via Def. \ref{ExamplesOfCosmoi}, with $Set$-enriched categories identified with plain categories via Example \ref{SetEnrichedCategoriesArePlainCategories], this coincides with the [[functor category]] from Example \ref{FunctorCategory}.
+In the case that $\mathcal{V} = $ [[Set]], via Def. \ref{ExamplesOfCosmoi}, with $Set$-enriched categories identified with plain categories via Example \ref{SetEnrichedCategoriesArePlainCategories}, this coincides with the [[functor category]] from Example \ref{FunctorCategory}.
 
 Notice that, at this point, $[\mathcal{C}, \mathcal{D}]$ is a plain [[category]], not itself a $\mathcal{V}$-[[enriched category]], unless $\mathcal{V} = $ [[Set]]. But it may be enhanced to one, this is Def. \ref{PointedTopologicalFunctorCategory} below.
 
@@ -3153,11 +3153,11 @@ Conversely, example \ref{NaturalTransformationsViaEnds} says that [[ends]] over 
 
 +-- {: .num_defn #PointedTopologicalFunctorCategory}
 ###### Definition
-**([[enriched functor category]])**
+**([[enriched presheaf category]])**
 
-For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}), let $\mathcal{C}$ be a [[small category|small]] $\mathcal{V}$-[[enriched category]]. 
+For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}), let $\mathcal{C}$ be a [[small category|small]] $\mathcal{V}$-[[enriched category]] (Def. \ref{TopEnrichedCategory}). 
 
-Then the $\mathcal{V}$-[[enriched functor category]] $[\mathcal{C}, \mathcal{V}]$ is the following $\mathcal{V}$-[[enriched category]] (Def. \ref{TopEnrichedCategory})
+Then the $\mathcal{V}$-[[enriched presheaf category]] $[\mathcal{C}, \mathcal{V}]$ is $\mathcal{V}$-[[enriched functor category]] from $\mathcal{C}$ to $\mathcal{V}$, hence is the following $\mathcal{V}$-[[enriched category]] (Def. \ref{TopEnrichedCategory})
 
 1. the [[objects]] are the $\mathcal{C}$-[[enriched functors]] $\mathcal{C} \overset{F}{\to}\mathcal{V}$ (Def. \ref{TopologicallyEnrichedFunctor});
 
@@ -3165,7 +3165,7 @@ Then the $\mathcal{V}$-[[enriched functor category]] $[\mathcal{C}, \mathcal{V}]
 
    \[
      \label{HomObjectOfEnrichedFunctorCategoryViaEnd}
-     [\mathcal{C},Top^{\ast/}_{cg}](F,G)
+     [\mathcal{C}, \mathcal{V}}](F,G)
        \;\coloneqq\;
      \int_{c\in \mathcal{C}} [F(c),G(c)]
    \]
@@ -3207,6 +3207,8 @@ Then the $\mathcal{V}$-[[enriched functor category]] $[\mathcal{C}, \mathcal{V}]
 By Example \ref{NaturalTransformationsViaEnds}, the underlying plain category (Example \ref{UnderlyingCategoryOfTopEnrichedCategory}) of this [[enriched functor category]] is the plain [[functor category]] of [[enriched functors]] from Example \ref{CategoryOfEnrichedFunctors}.
 
 =--
+
+
 
 
 +-- {: .num_prop #YonedaReductionTopological}
@@ -3528,7 +3530,7 @@ $$
   [K, \big( [\mathcal{C}, \mathcal{C}](X,Y) \big) ]
 $$
 
-for all $X,Y \in [\mathcal{C},mathcal{V}]$ and all $K \in \mathcal{C}$, 
+for all $X,Y \in [\mathcal{C}, \mathcal{V}]$ and all $K \in \mathcal{C}$, 
 where $(-)^K$ is the [[powering]] and $(-)\cdot K$ the [[tensoring]] from Def. \ref{TensoringAndPoweringOfTopologicallyEnrichedCopresheaves}.
 
 In particular there is the composite natural isomorphism
@@ -3618,25 +3620,30 @@ $$
 
 +-- {: .num_prop #TopologicalLeftKanExtensionBCoend}
 ###### Proposition
-**(left Kan extension via coends)**
+**([[Kan extension]])**
 
-For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}),  $\mathcal{C}, \mathcal{D}$ be [[small category|small]] $\mathcal{V}$-[[enriched categories]] (Def. \ref{TopEnrichedCategory}) and let
+For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}), let $\mathcal{C}, \mathcal{D}$ be [[small category|small]] $\mathcal{V}$-[[enriched categories]] (Def. \ref{TopEnrichedCategory}) and let
 
 $$
   p \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}
 $$
 
-be amn [[enriched functor]] (Def. \ref{TopologicallyEnrichedFunctor}). Then precomposition with $p$ constitutes a functor
+be a $\mathcal{V}$-[[enriched functor]] (Def. \ref{TopologicallyEnrichedFunctor}). Then precomposition with $p$ constitutes a functor between the corresponding $\mathcal{V}$-[[enriched presheaf categories]] (Def. \ref{PointedTopologicalFunctorCategory}) 
 
-$$
+\[
+  \label{PrecompositionFunctorOnEnrichedPresheaves}
   p^\ast
   \;\colon\;
-  [\mathcal{D}, \mathcal{V}]
-  \longrightarrow
-  [\mathcal{C}, \mathcal{V}]
-$$
+  \array{
+    [\mathcal{D}, \mathcal{V}]
+    &\longrightarrow&  
+    [\mathcal{C}, \mathcal{V}]
+    \\
+    G &\mapsto& G \circ p
+  }
+\]
 
-$G\mapsto G\circ p$. This functor has a [[left adjoint]] $Lan_p$ (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}), called **left [[Kan extension]]** along $p$
+1. This [[enriched functor]] $p^\ast$ (eq:PrecompositionFunctorOnEnrichedPresheaves) has a [[enriched adjunction|enriched left adjoint]] $Lan_p$ (Def. \ref{EnrichedAdjunction}), called **left [[Kan extension]]** along $p$
 
 $$
   [\mathcal{D}, \mathcal{V}]
@@ -3647,7 +3654,7 @@ $$
   [\mathcal{C}, \mathcal{V}]
 $$
 
-which is given objectwise by a [[coend]] (def. \ref{EndAndCoendInTopcgSmash}):
+which is given objectwise by the [[coend]] (def. \ref{EndAndCoendInTopcgSmash}):
 
 $$
   (Lan_p F)
@@ -3659,12 +3666,35 @@ $$
   \,.
 $$
 
+1. The [[enriched functor]] $p^\ast$ (eq:PrecompositionFunctorOnEnrichedPresheaves) has a [[enriched adjunction|enriched right adjoint]] $Ran_p$ (Def. \ref{EnrichedAdjunction}), called **right [[Kan extension]]** along $p$
+
+$$
+  [\mathcal{C}, \mathcal{V}]
+    \underoverset
+      {\underset{Ran_p}{\longrightarrow}}
+      {\overset{p^\ast}{\longleftarrow}}
+      {\bot}
+  [\mathcal{D}, \mathcal{V}]
+$$
+
+which is given objectwise by the [[end]] (def. \ref{EndAndCoendInTopcgSmash}):
+
+$$
+  (Ran_p F)
+  \;\colon\;
+  d
+  \;\mapsto \;
+  \underset{c\in \mathcal{C}}{\int}
+   [\mathcal{D}(d,p(c)), F(c)] 
+  \,.
+$$
+
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Use the expression of natural transformations in terms of ends (example \ref{NaturalTransformationsViaEnds} and def. \ref{PointedTopologicalFunctorCategory}), then use the respect of $[-,-]$ for ends/coends (remark \ref{MappingSpacePreservesEnds}),  use the [[internal-hom]] [[adjunction]] (eq:InternalHomAdjunction), use the [[Fubini theorem]] (prop. \ref{CoendsCommuteWithEachOther}) and finally use [[Yoneda reduction]] (prop. \ref{YonedaReductionTopological}) to obtain a sequence of [[natural isomorphisms]] as follows:
+Use the expression of [[enriched natural transformations]] in terms of [[coends (example \ref{NaturalTransformationsViaEnds} and def. \ref{PointedTopologicalFunctorCategory}), then use the respect of $[-,-]$ for ends/coends (remark \ref{MappingSpacePreservesEnds}),  use the [[internal-hom]] [[adjunction]] (eq:InternalHomAdjunction), use the [[Fubini theorem]] (prop. \ref{CoendsCommuteWithEachOther}) and finally use [[Yoneda reduction]] (prop. \ref{YonedaReductionTopological}) to obtain a sequence of [[natural isomorphisms]] as follows:
 
 $$
   \begin{aligned}
@@ -3716,6 +3746,48 @@ $$
   [\mathcal{C}, \mathcal{V}](F,p^\ast G)
   \end{aligned}
   \,.
+$$
+
+and similarly:
+
+$$
+  \begin{aligned}
+    [\mathcal{D}, \mathcal{V}]( G,\, Ran_p F  )
+    & \simeq
+    \underset{d \in \mathcal{D}}{\int}
+    [ G(d) ,\, (Ran_p F)(d), \, ]
+    \\
+    & \simeq
+    \underset{d \in \mathcal{D}}{\int}
+    \left[ G(d) 
+      ,\, 
+       \underset{c\in \mathcal{C}}{\int}
+       [\mathcal{D}(d,p(c)), F(c)] 
+    \right]
+    \\
+    & \simeq
+    \underset{d \in \mathcal{D}}{\int}
+    \underset{c\in \mathcal{C}}{\int}
+    \left[  
+      G(d) \otimes \mathcal{D}(d,p(c)),\, F(c)
+    \right]
+    \\
+    & \simeq
+    \underset{c\in \mathcal{C}}{\int}
+    \left[  
+      \overset{d \in \mathcal{D}}{\int}
+      G(d) \otimes \mathcal{D}(d,p(c)),\, F(c)
+    \right]
+    \\
+    & \simeq
+    \underset{c \in \mathcal{D}}{\int}
+    \left[   
+      G(p(c)),\, F(c)
+    \right]
+    \\
+    & \simeq
+    [\mathcal{C}, \mathcal{V}]( p^\ast G , F )
+  \end{aligned}
 $$
 
 =--
