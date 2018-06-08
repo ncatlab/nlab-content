@@ -17,9 +17,9 @@ A shorter algebraic proof is given in
 
 * V. Bavula, _The ${Jacobian Conjecture}_{2n}$ implies the ${Dixmier Problem}_n$_, [math.AG/0512250](http://arxiv.org/abs/math/0512250)
 
-A claim of a pretty short proof of the general case of Jacobian conjecture (no essential error found so far?) is in
+There is a recent proof of related Kontsevich's statement on automorphisms of Weyl algebra
 
-* Dang Vu Giang, _The Jacobian conjecture is simple and true_, [http://arxiv.org/abs/0912.1924](http://arxiv.org/abs/0912.1924)
+* Alexei Kanel-Belov, Andrey Elishev, Jie-Tai Yu, _Automorphisms of Weyl Algebra and a Conjecture of Kontsevich_, [arxiv/1802.01225](https://arxiv.org/abs/1802.01225)
 
 There is an interesting blog discussion, from the point of view of [[algebraic geometry]]:
 
