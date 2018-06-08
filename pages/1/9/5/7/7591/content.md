@@ -41,16 +41,17 @@ $$
 
 of $A$ is the [[(∞,1)-pullback]] $GL_1(A)$ in
 
-$$
+\[
+  \label{GL1AsPullback}
   \array{
     GL_1(A) &\to& \Omega^\infty A
     \\
-    \downarrow && \downarrow
+    \downarrow &(pb)& \downarrow
     \\
     (\pi_0 \Omega^\infty A)^\times &\to& \pi_0 \Omega^\infty A
   }
   \,.
-$$
+\]
 
 =--
 
