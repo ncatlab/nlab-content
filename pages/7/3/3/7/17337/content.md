@@ -2,6 +2,8 @@
 
 In [[type theory]], **type refinement** is a term initially coined to refer to "datasort refinements", sub-datatypes induced by refining the set of available constructors, but later broadened to include "index refinements".
 
+Refinement types are present in languages like LiquidHaskell and F-star. Refinement types are similar to coercions and subset types.
+
 ###Related concepts
 * [[intrinsic and extrinsic views of typing]]
 
@@ -16,4 +18,4 @@ In [[type theory]], **type refinement** is a term initially coined to refer to "
 * [[Frank Pfenning]], _Church and Curry: Combining Intrinsic
 and Extrinsic Typing_, ([pdf](https://www.cs.cmu.edu/~fp/papers/andrews08.pdf))
 * [[Paul-André Melliès]], [[Noam Zeilberger]], _Type refinement and monoidal closed bifibrations_, [arXiv:1310.0263](http://arxiv.org/abs/1310.0263)
-* [[Paul-André Melliès]], [[Noam Zeilberger]], _Functors are Type Refinement Systems_, ([pdf](http://noamz.org/papers/funts.pdf))
+* [[Paul-André Melliès]], [[Noam Zeilberger]], _Functors are Type Refinement Systems_, ([pdf](http://noamz.org/papers/funts.pdf) , [HAL](https://hal.inria.fr/hal-01096910))
