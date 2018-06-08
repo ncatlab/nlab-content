@@ -19,7 +19,7 @@
 
 ## Idea
 
-A **sufficiently cohesive topos** is a [[topos]] that has enough connected objects in the sense that every object embeds into a [[connected object]].
+A **sufficiently cohesive topos** is a cohesive [[topos]] that has enough connected objects in the sense that every object embeds into a [[connected object]].
 
 This can be viewed as a strong form of [[cohesive topos|cohesiveness]] in the context of [[William Lawvere|Lawvere's]] axiomatic approach to [[gros toposes]]. In fact, in Lawvere ([1986](#Law86)) a big topos of spaces was  defined as (one equivalent to) a sufficiently cohesive topos.
 
@@ -162,7 +162,7 @@ A weakly cohesive topos $\mathcal{E}$ is sufficiently cohesive iff all injective
 
 In a sufficiently cohesive topos the subobject classifier is obviously connected since $\Omega=\Omega^1$. It is the aim of this section to prove that in a weakly cohesive topos the converse holds as well: $\Omega$ is connected iff $\Omega$ is contractible.
 
-Before embarking on a proof let us consider two examples that illustrate that the concept of sufficient cohesion results from the interplay between the _connectedness_ of the subobject classifier and the _exactness_ properties of the components functor $p_!$:
+Before embarking on a proof let us consider two examples that suggest that the concept of sufficient cohesion results from the interplay between the _connectedness_ of the subobject classifier and the _exactness_ properties of the components functor $p_!$:
 
 +-- {: .num_example}
 ###### (Non)examples
@@ -241,10 +241,10 @@ One can use connectors to define a (generalized) homotopy relation between maps 
 ###### Definition 
 Let $I$ be a connector. Two parallel maps $f,g:A\to B$ are called _I-homotopic_, in signs: $f\sim_I g$, if there exists a map $h:A\times I\to B$ with the property that
 $$f=h\circ\langle id_A, t_0\circ !_A\rangle\quad and\quad g=h\circ\langle id_A, t_1\circ !_A\rangle\quad.$$
-(In this case, $h$ is also called an (I-)homotopy between $f$ and $g$.)
+(In this case, $h$ is also called an ($I$-)homotopy between $f$ and $g$.)
 =--
 
-The following result brings together the two crucial ingredients for the equivalence between contractability and connectedness of $\Omega$, namely, the preservation of finite products by $p_!$ and $p_!(\Omega)=1$.
+The following result brings together two ingredients for the equivalence between contractability and connectedness of $\Omega$, namely, the preservation of finite products by $p_!$ and $p_!(\Omega)=1$.
 
 +-- {: .num_prop #homotopy_components}
 ###### Proposition
