@@ -238,3 +238,9 @@ The generalization to a bicategory-like notion ("extension systems") appears in
 * {#Street74} [[Ross Street]], *Elementary cosmoi I*, Category Seminar (Proc. Sem., Sydney, 1972/1973), 134–180, Lecture Notes in Math., vol. 420, Springer, Berlin, 1974.
 
 [[!redirects closed categories]]
+[[!redirects symmetric closed category]]
+[[!redirects symmetric closed categories]]
+[[!redirects semiclosed category]]
+[[!redirects semiclosed categories]]
+[[!redirects semi-closed category]]
+[[!redirects semi-closed categories]]
