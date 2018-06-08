@@ -212,6 +212,16 @@ That it appears earliest at 3-loops was established in
 
 Specifically for [[N=8 d=4 supergravity]] there is evidence that it might be finite at all loops. See the references [there](4-dimensional+supergravity#PerturbativeQuantumSupergravityN8).
 
+### From string field theory
+
+Derivation of [[graviton]]-[[scattering amplitudes]] from [[string field theory]]:
+
+* [[Taejin Lee]], _Gravitational Scattering Amplitudes and Closed String Field Theory in the Proper-Time Gauge_, EPJ Web of Conferences 168, 07004 (2018) ([doi:10.1051/epjconf/201816807004](https://doi.org/10.1051/epjconf/201816807004))
+
+* [[Taejin Lee]], _Four-Graviton Scattering and String Path Integral in the Proper-time gauge_ ([arXiv:1806.02702](https://arxiv.org/abs/1806.02702))
+
+
+
 [[!redirects perturbative quantum gravity]]
 
 [[!redirects pQG]]
