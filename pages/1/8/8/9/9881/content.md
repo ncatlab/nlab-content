@@ -225,6 +225,14 @@ See also
 
 * [[Ashoke Sen]], _Supersymmetry Restoration in Superstring Perturbation Theory_ ([arXiv:1508.02481](http://arxiv.org/abs/1508.02481))
 
+### Graviton scattering
+
+Computation of [[graviton]] scattering amplitudes ([[perturbative quantum gravity]]):
+
+* [[Taejin Lee]], _Gravitational Scattering Amplitudes and Closed String Field Theory in the Proper-Time Gauge_, EPJ Web of Conferences 168, 07004 (2018) ([doi:10.1051/epjconf/201816807004](https://doi.org/10.1051/epjconf/201816807004))
+
+* [[Taejin Lee]], _Four-Graviton Scattering and String Path Integral in the Proper-time gauge_ ([arXiv:1806.02702](https://arxiv.org/abs/1806.02702))
+
 
 
 ### More
