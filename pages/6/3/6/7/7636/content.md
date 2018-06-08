@@ -474,14 +474,17 @@ See also
 
 * [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], _The homotopy theory of type theories_ ([arXiv:1610.00037](https://arxiv.org/abs/1610.00037))
 
-* {#KapulkinSzumilo17} [[Chris Kapulkin]], [[Karol Szumi?o]], _Internal Language of Finitely Complete $(\infty,1)$-categories_ ([arXiv:1709.09519](https://arxiv.org/abs/1709.09519))
+* {#KapulkinSzumilo17} [[Chris Kapulkin]], [[Karol Szumilo]], _Internal Language of Finitely Complete $(\infty,1)$-categories_ ([arXiv:1709.09519](https://arxiv.org/abs/1709.09519))
+
+* {#Isaev16} [[Valery Isaev]], _Algebraic Presentations of Dependent Type Theories_ ([arXiv:1602.08504](https://arxiv.org/abs/1602.08504))
+
+* {#Isaev18} [[Valery Isaev]], _Morita equivalences between algebraic dependent type theories_ ([arXiv:1804.05045](https://arxiv.org/abs/1804.05045))
 
 Models specifically in ([[constructive set theory|constructive]]) [[cubical sets]] are discussed in
 
 * {#BezemCoquandHuber13} Marc Bezem, [[Thierry Coquand]], Simon Huber, _A model of type theory in cubical sets_, 2013  ([web](http://drops.dagstuhl.de/opus/volltexte/2014/4628/), [pdf](http://drops.dagstuhl.de/opus/volltexte/2014/4628/pdf/7.pdf))
 
 * {#KaposiAltenkirch14} Ambrus Kaposi, [[Thorsten Altenkirch]], _A syntax for cubical type theory_ ([pdf](http://mazzo.li/dump/aim-kaposi-pres.pdf))
-
 
 * {#Docherty14} Simon Docherty, _A model of type theory in cubical sets with connection_, 2014 ([pdf](http://www.illc.uva.nl/Research/Publications/Reports/MoL-2014-12.text.pdf))
 
