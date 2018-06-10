@@ -1,3 +1,4 @@
+
 # Boolean rings
 * table of contents
 {: toc}
@@ -49,6 +50,7 @@ This extends to an equivalence of [[concrete category|concrete categories]]; tha
 
 Here is a very convenient result: although a Boolean ring $R$ is a [[rig]] in two different ways (as a ring or as a distributive lattice), these have the same concept of [[ideal]]!
 
+
 ## Examples
 
 The most common example is the [[power set]] $P(S)$ of any set $S$. It is a Boolean ring with [[symmetric difference]] as the addition and the intersection of sets as the multiplication. 
@@ -58,9 +60,10 @@ The most common example is the [[power set]] $P(S)$ of any set $S$. It is a Bool
 
 Back in the day, the term 'ring' meant (more often than now is the case) a possibly *non*unital ring; that is a [[semigroup]], rather than a [[monoid]], in [[Ab]].  This terminology applied also to Boolean rings, and it changed even more slowly.  Thus older books will make a distinction between 'Boolean ring' (meaning an idempotent semigroup in $Ab$) and 'Boolean algebra' (meaning an idempotent monoid in $Ab$), in addition to (or even instead of) the difference between $+$ and $\vee$ as fundamental operation.  This distinction survives most in the terminology of $\sigma$-[[sigma-ring|rings]] and $\sigma$-[[sigma-algebra|algebras]].
 
+
 ## Analogues
 
-Inasmuch as a [[semilattice]] is a commutative idempotent monoid, a Boolean ring may be defined as a semilattice in $Ab$.  However, with Boolean rings, we do not need to hypothesize commutativity; it follows.
+Inasmuch as a [[semilattice]] is a commutative idempotent monoid, a Boolean ring may be defined as a semilattice in $Ab$.  However, with Boolean rings, we do not need to hypothesize commutativity; it follows.  That is, any idempotent monoid in $Ab$ is commutative; indeed, any idempotent [[magma]] in $Ab$ is commutative.
 
 
 [[!redirects Boolean ring]]
