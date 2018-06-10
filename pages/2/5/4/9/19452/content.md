@@ -1379,7 +1379,7 @@ This equivalent perspective on adjoint functors makes manifest that adjoint func
 
 +-- {: .num_prop #AdjointFunctorFromObjectwiseRepresentingObject}
 ###### Proposition
-**(adjoint functor from objectwise [[representing objects]])**
+**([[adjoint functor]] from objectwise [[representing objects]])**
 
 A [[functor]] $L \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ has a [[right adjoint]] $R \;\colon\; \mathcal{D} \to \mathcal{C}$, according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}, already if 
 for all [[objects]] $d \in \mathcal{D}$ there is an object $R(d) \in \mathcal{C}$ such that there is a [[natural isomorphism]]
@@ -1640,10 +1640,21 @@ which completes this to an [[adjoint equivalence of categories]] (Def. \ref{Adjo
 
 ## Basic notions of Categorical algebra
 
+We have seen that the existence of [[Cartesian products]] in a [[category]] $\mathcal{C}$ equips is with a [[functor]] of the form
 
+$$
+  \mathcal{C} \times \mathcal{C}
+    \overset{ (-) \times (-) }{\longrightarrow}
+  \mathcal{C}
+$$
+
+which is directly analogous to the operation of [[multiplication]] in an [[associative algebra]] or even just in a [[semigroup]] (or [[monoid]]), just "[[categorification|categorified]]" (Example \ref{CartesianMonoidalCategory} below). This is made precise by the concept of a _[[monoidal category]]_ (Def. \ref{MonoidalCategory} below).
+
+This relation between [[category theory]] and [[algebra]] leads to the fields of _[[categorical algebra]]_ and of _[[universal algebra]]_. Here we are mainly intersted in [[monoidal categories]] as a foundations for [[enriched category theory]], to which we turn [below](#EnrichedCategories).
+
+$\,$
 
 ### Monoidal categories
-
 
 +-- {: .num_defn #MonoidalCategory}
 ###### Definition
@@ -1916,7 +1927,7 @@ In analogy to the [[coherence theorem for monoidal categories]] (remark \ref{Coh
 
 +-- {: .num_defn #ClosedMonoidalCategory}
 ###### Definition
-**([[closed monoidal category]])**
+**([[symmetric monoidal category|symmetric]] [[closed monoidal category]])**
 
 Given a [[symmetric monoidal category]] $\mathcal{C}$ with [[tensor product]] $\otimes$ (def. \ref{SymmetricMonoidalCategory}) it is called a _[[closed monoidal category]]_ if for each $Y \in \mathcal{C}$ the [[functor]] $Y \otimes(-)\simeq (-)\otimes Y$ has a [[right adjoint]], denoted $hom(Y,-)$
 
@@ -1924,7 +1935,7 @@ Given a [[symmetric monoidal category]] $\mathcal{C}$ with [[tensor product]] $\
   \label{InternalHomAdjunction}
   \mathcal{C}
     \underoverset
-      {\underset{hom(Y,-)}{\longrightarrow}}
+      {\underset{ [Y,-]}{\longrightarrow}}
       {\overset{(-) \otimes Y}{\longleftarrow}}
       {\bot}
   \mathcal{C}
@@ -1936,7 +1947,7 @@ hence if there are [[natural bijections]]
 $$
   Hom_{\mathcal{C}}(X \otimes Y, Z)
    \;\simeq\;
-  Hom_{\mathcal{C}}{C}(X, hom(Y,Z))
+  Hom_{\mathcal{C}}{C}(X, [Y,Z])
 $$
 
 for all objects $X,Z \in \mathcal{C}$.
@@ -1944,14 +1955,15 @@ for all objects $X,Z \in \mathcal{C}$.
 Since for the case that $X = 1$ is the [[tensor unit]] of $\mathcal{C}$ this means that
 
 $$
-  Hom_{\mathcal{C}}(1,hom(Y,Z)) \simeq Hom_{\mathcal{C}}(Y,Z)
+  Hom_{\mathcal{C}}(1, [Y,Z]) \simeq Hom_{\mathcal{C}}(Y,Z)
   \,,
 $$
 
-the object $hom(Y,Z) \in \mathcal{C}$ is an enhancement of the ordinary [[hom-set]] $Hom_{\mathcal{C}}(Y,Z)$ to an object in $\mathcal{C}$.
+the object $[Y,Z] \in \mathcal{C}$ is an enhancement of the ordinary [[hom-set]] $Hom_{\mathcal{C}}(Y,Z)$ to an object in $\mathcal{C}$.
 Accordingly, it is also called the **[[internal hom]]** between $Y$ and $Z$.
 
 =--
+
 
 +-- {: .num_example #SetIsCartesianClosed}
 ###### Example
@@ -1961,32 +1973,82 @@ The [[category]] [[Set]] of all [[sets]] (Example \ref{CategoryOfAllSets}) equip
 
 =--
 
++-- {: .num_example #ExampleAbelianGroupsOfMonoidalCategory}
+###### Example
+**([[tensor product]] of [[abelian groups]] is [[closed monoidal category]] [[symmetric monoidal category|symmetric]] [[monoidal category]]-[[structure]])**
 
-In a [[closed monoidal category]], the adjunction isomorphism (eq:HomIsomorphismForAdjointFunctors) between [[tensor product]] and [[internal hom]] even holds internally:
+The category [[Ab]] of [[abelian groups]] (as in Example \ref{ExamplesOfConcreteCategories}) becomes a [[symmetric monoidal category]] (Def. \ref{SymmetricMonoidalCategory}) with [[tensor product]] the actual [[tensor product of abelian groups]] $\otimes_{\mathbb{Z}}$ and with [[tensor unit]] the additive group $\mathbb{Z}$ of [[integers]]. Again the [[associator]], [[unitor]] and [[braiding]] isomorphism are the evident ones coming from the underlying sets, as in example \ref{TopAsASymmetricMonoidalCategory}.
 
-+-- {: .num_prop #TensorHomAdjunctionIsoInternally}
+This is a [[closed monoidal category]] with [[internal hom]] $hom(A,B)$ being the set of [[homomorphisms]] $Hom_{Ab}(A,B)$ equipped with the pointwise group structure for $\phi_1, \phi_2 \in Hom_{Ab}(A,B)$ then $(\phi_1 + \phi_2)(a) \coloneqq \phi_1(a) + \phi_2(b) \; \in B$.
+
+This is the archetypical case that motivates the notation "$\otimes$" for the pairing operation in a [[monoidal category]].
+
+=--
+
+
+The [[internal hom]] (Def. \ref{ClosedMonoidalCategory}) turns out to share all the abstract properties of the ordinary (external) [[hom-functor]] (Def. \ref{HomFunctor}), even though this is not completely manifest from its definition. We make this explicit by the following three propositions.
+
++-- {: .num_prop #InternalHomBifunctor}
 ###### Proposition
+**([[internal hom]] [[bifunctor]])**
 
-In a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}) there are [[natural isomorphisms]]
+For $\mathcal{C}$ a [[closed monoidal category]] (Def. \ref{ClosedMonoidalCategory}), there is a unique [[functor]] (Def. \ref{Functors}) out of the [[product category]] (Def. \ref{ProductCategory}) of $\mathcal{C}$ with its [[opposite category]] (Def. \ref{OppositeCategory})
 
 $$
-  hom(X \otimes Y, Z)
-   \;\simeq\;
-  hom(X, hom(Y,Z))
+  [-,-]
+  \;\colon\;
+  \mathcal{C}^{op} \times \mathcal{C}
+    \longrightarrow
+  \mathcal{C}
 $$
 
-whose image under $Hom_{\mathcal{C}}(1,-)$ are the defining [[natural bijections]] of def. \ref{ClosedMonoidalCategory}.
+such that for each $X \in \mathcal{C}$ it coincides with the [[internal hom]] $[X,-]$ (eq:InternalHomAdjunction) as a functor in the second variable, and such that there is a [[natural isomorphism]]
+
+$$
+  Hom(X, [Y,Z])
+  \;\simeq\;
+  Hom(X \otimes Y, Z)
+$$
+
+which is natural not only in $X$ and $Z$, but also in $Y$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Let $A \in \mathcal{C}$ be any object. By applying the defining natural bijections twice, there are composite natural bijections
+We have a natural isomorphism for each fixed $Y$, and hence in particular for fixed $Y$ and fixed $Z$ by (eq:InternalHomAdjunction). With this the statement follows by Prop. \ref{AdjointFunctorFromObjectwiseRepresentingObject}.
+
+=--
+
+
+In fact the 3-variable adjunction from Prop. \ref{InternalHomBifunctor} even holds internally:
+
+
++-- {: .num_prop #TensorHomAdjunctionIsoInternally}
+###### Proposition
+**(internal tensor/hom-adjunction)**
+
+In a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}) there are [[natural isomorphisms]]
+
+$$
+  [X \otimes Y, Z]
+   \;\simeq\;
+  [X, [Y,Z]]
+$$
+
+whose image under $Hom_{\mathcal{C}}(1,-)$ (see also Example \ref{ChangeOfCosmosFromVToSet} below) are the defining [[natural bijections]] of Prop. \ref{InternalHomBifunctor}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $A \in \mathcal{C}$ be any object. By applying the natural bijections from Prop. \ref{InternalHomBifunctor}, there are composite [[natural bijections]]
 
 $$
   \begin{aligned}
-    Hom_{\mathcal{C}}(A , hom(X \otimes Y, Z))
+    Hom_{\mathcal{C}}(A , [X \otimes Y, Z])
     & \simeq
     Hom_{\mathcal{C}}(A \otimes (X \otimes Y), Z)
     \\
@@ -1994,21 +2056,20 @@ $$
     Hom_{\mathcal{C}}((A \otimes X)\otimes Y, Z)
     \\
     & \simeq
-    Hom_{\mathcal{C}}(A \otimes X, hom(Y,Z))
+    Hom_{\mathcal{C}}(A \otimes X, [Y,Z])
     \\
     & \simeq
-    Hom_{\mathcal{C}}(A, hom(X,hom(Y,Z)))
+    Hom_{\mathcal{C}}(A, [X, [Y,Z]])
   \end{aligned}
-  \,.
 $$
 
-Since this holds for all $A$, the [[Yoneda lemma]] (the [[fully faithful functor|fully faithfulness]] of the [[Yoneda embedding]]) says that there is an isomorphism $hom(X\otimes Y, Z) \simeq hom(X,hom(Y,Z))$. Moreover, by taking $A = 1$ in the above and using the left [[unitor]] isomorphisms $A \otimes (X \otimes Y) \simeq X \otimes Y$ and $A\otimes X \simeq X$  we get a [[commuting diagram]]
+Since this holds for all $A$, the [[fully faithful functor|fully faithfulness]] of the [[Yoneda embedding]] (Prop. \ref{YonedaEmbedding}) says that there is an isomorphism $[ X\otimes Y, Z ] \simeq [X, [Y,Z]]$. Moreover, by taking $A = 1$ in the above and using the left [[unitor]] isomorphisms $A \otimes (X \otimes Y) \simeq X \otimes Y$ and $A\otimes X \simeq X$  we get a [[commuting diagram]]
 
 $$
   \array{
-    Hom_{\mathcal{C}}(1,hom(X\otimes Y, ))
+    Hom_{\mathcal{C}}(1, [X\otimes Y, Z ))
       &\overset{\simeq}{\longrightarrow}&
-    Hom_{\mathcal{C}}(1,hom(X,hom(Y,Z)))
+    Hom_{\mathcal{C}}(1, [X, [Y,Z]])
     \\
     {}^{\mathllap{\simeq}}\downarrow
       &&
@@ -2016,27 +2077,70 @@ $$
     \\
     Hom_{\mathcal{C}}(X \otimes Y, Z)
      &\overset{\simeq}{\longrightarrow}&
-    Hom_{\mathcal{C}}(X, hom(Y,Z))
+    Hom_{\mathcal{C}}(X, [Y,Z])
   }
   \,.
 $$
 
 =--
 
+Also the key respect of [[hom-functors]] for [[limits]] is inherited by [[internal hom]]-functors
 
++-- {: .num_prop #InternalHomPreservesLimits}
+###### Proposition
+**([[internal hom]] preserves [[limits]])**
 
-+-- {: .num_example #ExampleAbelianGroupsOfMonoidalCategory}
-###### Example
-**([[tensor product]] of [[abelian groups]] is [[monoidal category]]-[[structure]])**
-
-The category [[Ab]] of [[abelian groups]] (as in Example \ref{ExamplesOfConcreteCategories}) becomes a [[symmetric monoidal category]] (Def. \ref{SymmetricMonoidalCategory}) with [[tensor product]] the actual [[tensor product of abelian groups]] $\otimes_{\mathbb{Z}}$ and with [[tensor unit]] the additive group $\mathbb{Z}$ of [[integers]]. Again the [[associator]], [[unitor]] and [[braiding]] isomorphism are the evident ones coming from the underlying sets, as in example \ref{TopAsASymmetricMonoidalCategory}.
-
-This is a [[closed monoidal category]] with [[internal hom]] $hom(A,B)$ being the set of [[homomorphisms]] $Hom_{Ab}(A,B)$ equipped with the pointwise group structure for $\phi_1, \phi_2 \in Hom_{Ab}(A,B)$ then $(\phi_1 + \phi_2)(a) \coloneqq \phi_1(a) + \phi_2(b) \; \in B$.
-
-This is the archetypical case that motivates the notation "$\otimes$" for the pairing operation in a [[monoidal category]]:
+Let $\mathcal{C}$ be a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] with [[internal hom]]-[[bifunctor]] $[-,-]$ (Prop. \ref{InternalHomBifunctor}). Then this bifunctor preserves [[limits]] in the first variable, and sends colimits in the second variable to limits.
 
 =--
 
+
++-- {: .proof}
+###### Proof
+
+For $X \in \mathcal{X}$ any object, $[X,-]$ is a [[right adjoint]] by definition, and hence preserves limits by _[[adjoints preserve (co)limits]]_.
+
+For the other case, let $Y \;\colon\; \mathcal{L} \to \mathcal{C}$ be a [[diagram]] in $\mathcal{C}$, and let $C \in \mathcal{C}$ be any object. Then there are isomorphisms
+
+$$
+  \begin{aligned}
+    Hom_{\mathcal{C}}(C, \underset{\underset{j \in \mathcal{J}}{\longrightarrow}}{\lim} Y(j), X )
+    & \simeq
+    Hom_{\mathcal{C}}( C \otimes \underset{\underset{j \in \mathcal{J}}{\longrightarrow}}{\lim} Y(j), X )
+    \\
+    & \simeq
+    Hom_{\mathcal{C}}( \underset{\underset{j \in \mathcal{J}}{\longrightarrow}}{\lim} (C \otimes Y(j)), X )   
+    \\
+    & \simeq
+    \underset{\underset{j \in \mathcal{J}}{\longleftarrow}}{\lim}
+    Hom_{\mathcal{C}}( (C \otimes Y(j)), X )    
+    \\
+    & \simeq
+    \underset{\underset{j \in \mathcal{J}}{\longleftarrow}}{\lim}
+    Hom_{\mathcal{C}}( C, [Y(j), X] )    
+    \\
+    & \simeq
+    Hom_{\mathcal{C}}( C, \underset{\underset{j \in \mathcal{J}}{\longleftarrow}}{\lim} [Y(j), X] )    
+  \end{aligned}
+$$
+
+which are [[natural isomorphism|natural]] in $C \in \mathcal{C}$, where we used that the ordinary [[hom-functor]] respects (co)limits as shown, and that the left adjoint $C \otimes (-)$ preserves colimits.
+
+Hence by the [[fully faithful functor|fully faithfulness]] of the [[Yoneda embedding]], there is an isomorphism
+
+$$
+  \left[ \underset{\underset{j \in \mathcal{J}}{\longrightarrow}}{\lim} Y(j), X \right]  
+  \overset{\simeq}{\longrightarrow}
+  \underset{\underset{j \in \mathcal{J}}{\longleftarrow}}{\lim} [Y(j), X] 
+  \,.
+$$
+
+
+=--
+
+$\,$
+
+Now that we have seen [[monoidal categories]] with various extra [[properties]], we next look at [[functors]] which preserve these:
 
 +-- {: .num_defn #LaxMonoidalFunctor}
 ###### Definition
@@ -2245,7 +2349,7 @@ $$
 ### Enriched categories
  {#EnrichedCategories}
 
-The plain definition of [[categories]] in Def. \ref{Categories} is phrased in terms of [[sets]]. Via Example \ref{CategoryOfAllSets} this assigns a special role to the category [[Set]] of all sets, as the "base" on top, or the "[[cosmos]]" inside which [[category theory]] takes place. For instance, the fact that [[hom-sets]] in a plain [[category]] are, indeed, sets, is what makes the [[hom-functor]] (Example \ref{HomFunctor}) take values in [[Set]], and this, in turn, governs the form of the all-important [[Yoneda lemma]] (Prop. \ref{YonedaLemma}) and [[Yoneda embedding]] (Prop. \ref{YonedaEmbedding}) as statements about [[presheaves]] of sets (Example \ref{CategoryOfPresheaves}).
+The plain definition of [[categories]] in Def. \ref{Categories} is phrased in terms of [[sets]]. Via Example \ref{CategoryOfAllSets} this assigns a special role to the category [[Set]] of all sets, as the "base" on top, or the "[[cosmos]]" inside which [[category theory]] takes place. For instance, the fact that [[hom-sets]] in a plain [[category]] are indeed sets, is what makes the [[hom-functor]] (Example \ref{HomFunctor}) take values in [[Set]], and this, in turn, governs the form of the all-important [[Yoneda lemma]] (Prop. \ref{YonedaLemma}) and [[Yoneda embedding]] (Prop. \ref{YonedaEmbedding}) as statements about [[presheaves]] of sets (Example \ref{CategoryOfPresheaves}).
 
 At the same time, [[category theory]] witnesses the utility of abstracting away from concrete choices to their abstract properties that are actually used in constructions. This makes it natural to ask if one could replace the category [[Set]] by some other category $\mathcal{V}$ which could similarly serve as a "[[cosmos]]" inside which category theory may be developed.
 
@@ -2945,9 +3049,9 @@ $$
 ### Enriched (co)ends
  {#TopologicalEndsAndCoends}
 
-For working with [[enriched categories]] (Def. \ref{TopEnrichedCategory}) , a certain shape of [[limits]]/[[colimits]] is particularly relevant: these are called _[[ends]]_ and _[[coends]]_. We here introduce these and then derive some of their basic properties, such as notably the expression for [[left Kan extension]] in terms of [[coends]] (prop. \ref{TopologicalLeftKanExtensionBCoend} below). 
+For working with [[enriched categories]] (Def. \ref{TopEnrichedCategory}) , a certain shape of [[limits]]/[[colimits]] is particularly relevant: these are called _[[ends]]_ and _[[coends]]_ (Def. \ref{EndAndCoendInTopcgSmash} below). We here introduce these and then derive some of their basic properties, such as notably the expression for [[Kan extension]] in terms of ([[coends|co-]])[[ends]] (prop. \ref{TopologicalLeftKanExtensionBCoend} below). 
 
-
+$\,$
 
 
 
@@ -3477,7 +3581,7 @@ Because [[limits]] commute with limits, and [[colimits]] commute with colimits.
 ###### Remark
 **([[internal hom]] preserves [[ends]])**
 
-Let $\mathcal{V}$ be a [[cosmos]] (Def. \ref{Cosmos}). Since the [[internal hom]]-functor in $\mathcal{V}$ (Def. \ref{ClosedMonoidalCategory}) preserves [[limits]] in both variables, in particular it preserves [[ends]] (Def. \ref{EndAndCoendInTopcgSmash}) in the second variable, and sends coends in the second variable to ends:
+Let $\mathcal{V}$ be a [[cosmos]] (Def. \ref{Cosmos}). Since the [[internal hom]]-functor in $\mathcal{V}$ (Def. \ref{ClosedMonoidalCategory}) preserves [[limits]] in both variables (Prop. \ref{InternalHomPreservesLimits}), in particular it preserves [[ends]] (Def. \ref{EndAndCoendInTopcgSmash}) in the second variable, and sends coends in the second variable to ends:
 
 For all [[small category|small]] $\mathcal{C}$-[[enriched categories]], $\mathcal{V}$-[[enriched functors]] $F \;\colon\; \mathcal{C}^{op} \otimes \mathcal{C} \to \mathcal{V}$ (Def. \ref{TopologicallyEnrichedFunctor}) and all [[objects]] $X \in \mathcal{V}$ we have [[natural isomorphisms]]
 
@@ -4012,6 +4116,15 @@ The presheaf $\mathbf{Y}$ is called a _[[sheaf]]_ if for every [[object]] $X \in
   \big)
   \,.
 \]
+
+The [[full subcategory]] (Def. \ref{FullyFaithfulFunctor}) of the [[category of presheaves]] over a given [[site]] $\mathcal{C}$, on those that are sheaves is the _[[category of sheaves]]_, denoted
+
+$$
+  Sh(\mathcal{C})
+    \overset{\phantom{AAAA}}{\hookrightarrow}
+  [\mathcal{c}^{op}, Set]
+  \,.
+$$
 
 =--
 
