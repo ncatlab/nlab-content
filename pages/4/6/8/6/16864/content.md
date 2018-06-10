@@ -36,15 +36,23 @@ _Adjoint logic_ or _adjoint type theory_ is [[formal logic]] or [[type theory]] 
 
 * J. Reed, _A judgemental deconstruction of modal logic_, 2009,  ([pdf](http://www.cs.cmu.edu/~jcreed/papers/jdml2.pdf))
 
-An adjoint logic version of [[homotopy type theory]] giving [[cohesive homotopy type theory]] is in 
+A framework for ([[homotopy type theory|homotopy]]-)[[type theory|type theoretic]] adjoint lgic ([[modal type theory]]) is discussed, in various stages of generality, in
 
 * [[Mike Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_ ([arXiv:1509.07584](http://arxiv.org/abs/1509.07584))
 
-For a more general framework see
+  (specifically for [[cohesive homotopy type theory]])
 
 * {#LicataShulman} [[Dan Licata]], [[Mike Shulman]], _Adjoint logic with a 2-category of modes_, in _[Logical Foundations of Computer Science 2016](http://lfcs.info/lfcs-2016/)_ ([pdf](http://dlicata.web.wesleyan.edu/pubs/ls15adjoint/ls15adjoint.pdf), [slides](http://dlicata.web.wesleyan.edu/pubs/ls15adjoint/ls15adjoint-lfcs-slides.pdf))
 
-* [[Daniel Licata]], [[Mike Shulman]], and [[Mitchell Riley]], _A Fibrational Framework for Substructural and Modal Logics (extended version)_, ([pdf](http://dlicata.web.wesleyan.edu/pubs/lsr17multi/lsr17multi-ex.pdf))
+  (for [[modal type theory|modal]] [[unary type theory]])
+
+* [[Daniel Licata]], [[Mike Shulman]], and [[Mitchell Riley]], _A Fibrational Framework for Substructural and Modal Logics (extended version)_, in Proceedings of 2nd International Conference on Formal Structures for Computation and Deduction (FSCD 2017) ([doi: 10.4230/LIPIcs.FSCD.2017.25](http://drops.dagstuhl.de/opus/volltexte/2017/7740/), [pdf](http://dlicata.web.wesleyan.edu/pubs/lsr17multi/lsr17multi-ex.pdf))
+
+  (for [[modal type theory|modal]] [[simple type theory]])
+
+Review includes
+
+* {#Licata18} [[Dan Licata]], _Synthetic Mathematics in Modal Dependent Type Theories_, tutorial at _[Types, Homotopy Theory and Verification](https://www.him.uni-bonn.de/programs/current-trimester-program/types-sets-constructions/workshop-types-homotopy-type-theory-and-verification/)_, 2018 ([pdf](http://dlicata.web.wesleyan.edu/pubs/lsr17multi/him-tutorial.pdf))
 
 [[!redirects adjoint logics]]
 
