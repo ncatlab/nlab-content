@@ -162,10 +162,10 @@ A weakly cohesive topos $\mathcal{E}$ is sufficiently cohesive iff all injective
 
 In a sufficiently cohesive topos the subobject classifier is obviously connected since $\Omega=\Omega^1$. It is the aim of this section to prove that in a weakly cohesive topos the converse holds as well: $\Omega$ is connected iff $\Omega$ is contractible.
 
-Before embarking on a proof let us consider two examples that suggest that the concept of sufficient cohesion results from the interplay between the _connectedness_ of the subobject classifier and the _exactness_ properties of the components functor $p_!$:
+Before embarking on a proof let us consider two non-examples that display varied behaviors in respect to the  _connectedness_ of the subobject classifier and the _exactness_ properties of the components functor $p_!$:
 
 +-- {: .num_example}
-###### (Non)examples
+###### Example
 The [[Sierpinski topos]] $Set^\to$ is weakly cohesive over $Set$ since there exists a string of adjoint functors $L\dashv\Pi\dashv\Delta\dashv\Gamma\dashv B: Set\to Set^\to$ with 
 
 * $L(Z)=\emptyset \to Z$
@@ -179,11 +179,17 @@ The [[Sierpinski topos]] $Set^\to$ is weakly cohesive over $Set$ since there exi
 * $B(Z)=Z\to 1$.
 
 The Nullstellensatz fails as does the continuity principle. As a right adjoint $\Pi$ preserves all limits and the terminal object in particular whence $1$ is connected in $Set^\to$. Since the underlying category $\to$ satisfies the [[Ore condition]] trivially, it follows then from a general result[^bouquet] of Lawvere that $\Omega$ is not connected[^bouquet] and, accordingly, that the _Sierpinski topos is not sufficiently cohesive!_
-
-On the other hand, the topos of [[quiver|quivers]] $Set^\rightrightarrows$ has a connected subobject classifier but lacks the right adjoint $B$ nor does its connected components functor $\Pi$ preserve finite products. $\qed$
 =--
 
 [^bouquet]: (Theorem 12.2.3 in La Palme Reyes et al. ([2004](#RRZ04), p.221)). Of course, this can also easily be proved directly or read off the concrete objects and properties worked out in La Palme Reyes et al. (2004) where the Sierpinski topos is called the category of bouquets.
+
++-- {: .num_example}
+###### Example
+
+On the other hand, the topos of [[quiver|quivers]] $Set^\rightrightarrows$ has a connected subobject classifier but lacks the right adjoint $p^!$ nor does its connected components functor $p_!$ preserve finite products.
+
+However, $p_!$ preserves finite products with the subobject classifier $\Omega$ since the latter has arcs between all nodes in both directions. This implies that the proof of proposition \ref{homotopy_components} below still goes through and since this is the only argument that hinges on exactness properties of $p_!$ and nothing hinges on (the existence of) the right adjoint $p^!$ at all, the conclusions from \ref{connected_truth} hold as well: _the subobject classifier of $Set^\rightrightarrows$ is not only connected but contractible!_ In other words, despite not being sufficiently cohesive $Set^\rightrightarrows$ nevertheless has enough contractible objects.
+=--
 
 Recall that in any topos, the subobject classifier $\Omega$ has two points $\mathsf{true},\mathsf{false}$ fitting into the following pullback diagram (which is an equaliser diagram as well) due to the classifying property of $\Omega$ for the monomorphism $0\to 1$:
 
