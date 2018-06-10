@@ -186,9 +186,9 @@ The Nullstellensatz fails as does the continuity principle. As a right adjoint $
 +-- {: .num_example}
 ###### Example
 
-On the other hand, the topos of [[quiver|quivers]] $Set^\rightrightarrows$ has a connected subobject classifier but lacks the right adjoint $p^!$ nor does its connected components functor $p_!$ preserve finite products.
+On the other hand, consider the [[Quiv|topos of directed graphs]] $Set^\rightrightarrows$: it lacks the right adjoint $p^!$ to the section functor $p_*$ but has a connected components functor $p_!$ and the [[Quiv#Omega_graph|subobject classifier for directed graphs]] $\Omega$ is connected.
 
-However, $p_!$ preserves finite products with the subobject classifier $\Omega$ since the latter has arcs between all nodes in both directions. This implies that the proof of proposition \ref{homotopy_components} below still goes through and since this is the only argument that hinges on exactness properties of $p_!$ and nothing hinges on (the existence of) the right adjoint $p^!$ at all, the conclusions from \ref{connected_truth} hold as well: _the subobject classifier of $Set^\rightrightarrows$ is not only connected but contractible!_ In other words, despite not being sufficiently cohesive $Set^\rightrightarrows$ nevertheless has enough contractible objects.
+Although $p_!$ does not preserve finite products in general, it nevertheless preserves finite products with the subobject classifier $\Omega$ since $\Omega$ has arcs between all nodes in both directions. This implies that the proof of proposition \ref{homotopy_components} below still goes through and since this is the only argument that hinges on exactness properties of $p_!$ and nothing hinges on (the existence of) the right adjoint $p^!$ at all, the conclusions from \ref{connected_truth} hold as well: _the subobject classifier of $Set^\rightrightarrows$ is not only connected but contractible!_ In other words, despite not being sufficiently cohesive $Set^\rightrightarrows$ nevertheless has enough contractible objects.
 =--
 
 Recall that in any topos, the subobject classifier $\Omega$ has two points $\mathsf{true},\mathsf{false}$ fitting into the following pullback diagram (which is an equaliser diagram as well) due to the classifying property of $\Omega$ for the monomorphism $0\to 1$:
