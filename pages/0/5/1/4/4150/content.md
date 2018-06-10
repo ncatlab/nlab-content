@@ -1,7 +1,11 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Higher algebra
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
@@ -14,9 +18,19 @@
 
 ## Idea
 
-Categorical algebra is the study of [[Lawvere theory|algebras]] over [[algebraic theories]], [[algebra over a monad|algebras over]] [[monads]] , and [[algebra over an operad|algebras over]] [[operads]].
+Broadly speaking, _categorical algebra_ is _[[algebra]]_ seen from and generalized via the point of view of [[category theory]]. 
+Thus it studies those aspects of categorical and category-like constructions which are in the spirit of pure algebra. 
 
-__Categorical algebra__ is the appropriate generalization of algebra to [[category theory|category theoretic]] context. Thus it studies those aspects of categorical and category-like constructions which are in the spirit of pure algebra. 
+First and foremost this includes the study of [[monoidal category]] theory, and the corresponding notionas of [[monoid objects]], [[module objects]].
+
+More generally, it is about the study of 
+
+1. [[Lawvere theory|algebras over]] [[algebraic theories]], 
+
+1. [[algebra over a monad|algebras over]] [[monads]], 
+
+1. [[algebra over an operad|algebras over]] [[operads]].
+
 
 ## Related concepts
 
@@ -24,4 +38,8 @@ __Categorical algebra__ is the appropriate generalization of algebra to [[catego
 
 ## References
 
-* [[Francis Borceux]], _Handbook of categorical algebra_, III Vols. 
+* [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, III Vols. 
+
+See also 
+
+* Wikipedia, _[Categorical algebra](https://en.wikipedia.org/wiki/Categorical_algebra)_
