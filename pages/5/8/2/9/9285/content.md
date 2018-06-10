@@ -84,6 +84,8 @@ such that
 
 * [[(infinity,1)-module]], [[(infinity,n)-module]]
 
+* [[categorical algebra]]
+
 [[!redirects module objects]]
 
 [[!redirects module in a monoidal category]]
