@@ -128,6 +128,8 @@ Hence the third item above, the [[Yoneda lemma]], implies the claim.
 
 ## Related entries
 
+* [[hom-functor preserves limits]]
+
 * [[interactions of images and pre-images with unions and intersections]]
 
 * [[limits and colimits by example]]
