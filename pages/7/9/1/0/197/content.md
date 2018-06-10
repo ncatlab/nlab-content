@@ -43,7 +43,7 @@ Being a presheaf topos has a lot of nice consequences and instantly yields answe
 
 In the following subsections some of the topos structure in $Quiv$ is worked out explicitly. 
 
-### The subobject classifier
+### The subobject classifier{#Omega_graph}
 
 Knowing the subobjects of the representable functors in turn allows us to calculate the structure of the [[subobject classifier]] $\Omega$ since they correspond to the elements of the value of $\Omega$ at the corresponding objects of $X^{op}$ i.e. the set of vertices of $\Omega$ is $\Omega(0)=\{\emptyset,\bullet\}$ and the set of edges is $\Omega(1)=\{empty, x, y, (x, y), (x \stackrel{e}{\to} y)\}$.
 
