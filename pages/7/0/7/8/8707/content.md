@@ -40,6 +40,9 @@ At least in many cases, modalities in type theory are identified with [[monads (
 
 See for instance ([Benton-Bierman-de Paiva, section 3.2](#BentonBiermanPaiva)), ([Kobayashi](#Kobayashi)), ([Gabbay-Nanevski, section 8](#GabbayNanevski)), ([Gaubault-Larrecq, Goubault, section 5.1](#Gaubault-LarrecqGoubault)), ([Park-Harper, section 2.6](#ParkHarper)), ([Shulman](#Shulman)) as examples of the first, and ([Moggi, def. 4.7](#Moggi)), ([Awodey-Birkedal, section 4.2](#AwodeyBirkedal)) as examples of the second.
 
+### Relation to endo-adjunctions
+An endo-adjunction on a [[lex category]] gives rise to a modal type theory satisfying the modal axiom K; see [dependent right adjoint](#dradjoint). This also gives rise to a sound sound and complete interpretation of Fitch-style modal $\lambda$-calculus.
+
 ## Examples
 
 ### Geometric modality -- Grothendieck topology
@@ -144,10 +147,6 @@ reviewed in
 
 * {#Goldblatt} [[Robert Goldblatt]], _Grothendieck topology as geometric modality_, Mathematical Logic Quarterly, Volume 27, Issue 31-35, pages 495&#8211;529, (1981)
  
-
-
-
-
 Modal type theory with an eye towards [[homotopy type theory]] is discussed in 
 
 * [[UF-IAS-2012]], _[Modal type theory](http://uf-ias-2012.wikispaces.com/Modal+type+theory)_
@@ -222,6 +221,7 @@ A modality in the [[internal language]] of a [[local topos]] is discussed in sec
 
 * {#LicataHarper} [[Dan Licata]], [[Robert Harper]], _A Monadic Formalization of ML5_ ([arXiv:1009.2793](http://arxiv.org/abs/1009.2793))
  
+* {#dradjoint} Ranald Clouston, Bassel Mannaa, Rasmus Ejlers Møgelberg, Andrew M. Pitts, Bas Spitters, _Modal Dependent Type Theory and Dependent Right Adjoints_ [Arxiv](https://arxiv.org/abs/1804.05236), 2018
 
 A list of related references is also kept at
 
