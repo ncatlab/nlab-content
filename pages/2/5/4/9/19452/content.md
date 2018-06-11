@@ -2090,7 +2090,23 @@ Also the key respect of [[hom-functors]] for [[limits]] is inherited by [[intern
 ###### Proposition
 **([[internal hom]] preserves [[limits]])**
 
-Let $\mathcal{C}$ be a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] with [[internal hom]]-[[bifunctor]] $[-,-]$ (Prop. \ref{InternalHomBifunctor}). Then this bifunctor preserves [[limits]] in the first variable, and sends colimits in the second variable to limits.
+Let $\mathcal{C}$ be a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] with [[internal hom]]-[[bifunctor]] $[-,-]$ (Prop. \ref{InternalHomBifunctor}). Then this bifunctor preserves [[limits]] in the second variable, and sends colimits in the first variable to limits:
+
+$$
+  [X, \underset{\underset{j \in \mathcal{J}}{\longrightarrow}}{\lim} Y(j)]
+  \;\simeq\;
+  \underset{\underset{j \in \mathcal{J}}{\longrightarrow}}{\lim} [X, Y(j)]
+$$
+
+and
+
+$$
+  [\underset{\underset{j \in \mathcal{J}}{\longrightarrow}}{\lim} Y(j),X]
+  \;\simeq\;
+  \underset{\underset{j \in \mathcal{J}}{\longleftarrow}}{\lim} [Y(j),X]  
+$$
+
+
 
 =--
 
@@ -3762,7 +3778,8 @@ $$
 
 which is given objectwise by the [[coend]] (def. \ref{EndAndCoendInTopcgSmash}):
 
-$$
+\[
+  \label{FormulaLeftKanExtensionByCoend}
   (Lan_p F)
   \;\colon\;
   d
@@ -3770,7 +3787,7 @@ $$
   \overset{c\in \mathcal{C}}{\int}
    \mathcal{D}(p(c),d) \otimes F(c)
   \,.
-$$
+\]
 
 1. The [[enriched functor]] $p^\ast$ (eq:PrecompositionFunctorOnEnrichedPresheaves) has a [[enriched adjunction|enriched right adjoint]] $Ran_p$ (Def. \ref{EnrichedAdjunction}), called **right [[Kan extension]]** along $p$
 
@@ -3785,7 +3802,8 @@ $$
 
 which is given objectwise by the [[end]] (def. \ref{EndAndCoendInTopcgSmash}):
 
-$$
+\[
+  \label{FormulaRightKanExtensionByEnd}
   (Ran_p F)
   \;\colon\;
   d
@@ -3793,6 +3811,25 @@ $$
   \underset{c\in \mathcal{C}}{\int}
    [\mathcal{D}(d,p(c)), F(c)] 
   \,.
+\]
+
+In summary, this means that the [[enriched functor]] 
+
+$$
+  \mathcal{C} 
+    \overset{p}{\longrightarrow}
+  \mathcal{D}
+$$
+
+induces, via [[Kan extension]], an [[adjoint triple]] of [[enriched functors]]
+
+$$ 
+  Lan_p \;\dashv\; p^\ast \;\dashv\; Ran_p
+  \;\colon\;
+  [\mathcal{C},\mathcal{V}]    
+     \leftrightarrow
+  [\mathcal{D}, \mathcal{V}]
+  \,.  
 $$
 
 =--
@@ -3895,6 +3932,72 @@ $$
     [\mathcal{C}, \mathcal{V}]( p^\ast G , F )
   \end{aligned}
 $$
+
+=--
+
++-- {: .num_example #CoendFormulaForPresheavesOfSets}
+###### Example
+**([[coend]] formula for left [[Kan extension]] of ordinary [[presheaves]])**
+
+Consider the [[cosmos]] to be $\mathcal{V} =$ [[Set]], via Example \ref{ExamplesOfCosmoi}, so that [[small category|small]] $\mathcal{V}$-[[enriched categories]] (Def. \ref{TopEnrichedCategory}) are just a plain [[small category]] (Def. \ref{Categories}) by Example \ref{SetEnrichedCategoriesArePlainCategories}, and $\mathcal{V}$-[[enriched presheaves]] (Example \ref{EnrichedPresheaf}) are just plain [[presheaves]] (Example \ref{CategoryOfPresheaves}).
+
+Then for any plain [[functor]] (Def. \ref{Functors})
+
+$$
+  \mathcal{C}^{op}
+    \overset{\phantom{AA} p \phantom{AA}}{\longrightarrow}
+  (\mathcal{C}')^{op}
+$$
+
+the general formula (eq:FormulaLeftKanExtensionByCoend) for [[left Kan extension]]
+
+$$
+  [\mathcal{C}^{op},Set]
+  \overset{Lan_p}{\longrightarrow}
+  [(\mathcal{C}')^{op}, Set]
+$$
+
+is
+
+$$
+  (Lan_p F)(c') \simeq \int^{c \in C} C'(c', p(c)) \times F(c)
+  \,.
+$$
+
+Using here the [[Yoneda lemma]] (Prop. \ref{YonedaLemma}) to rewrite $F(c) \simeq Hom_{PSh(C)}(c,F)$, this is
+
+$$
+  (Lan_p F)(c') \simeq \int^{c \in C} Hom_{C'}(c', p(c)) \times Hom_{PSh(C)}(c,F)
+  \,.
+$$
+
+Hence this [[coend]]-set consists of [[equivalence classes]] of [[pairs]] of [[morphisms]]
+
+$$
+   (c' \to p(c), c \to F)
+$$
+
+where two such are regarded as equivalent whenever there is $f \colon c'_1 \to c'_2$ such that 
+
+$$
+  \array{
+    && c'
+    \\
+    & \swarrow && \searrow
+    \\
+    p(c_1) && \stackrel{p(f)}{\longrightarrow} && p(c_2)
+    \\
+    c_1 && \stackrel{f}{\longrightarrow} && c_2
+    \\
+    & \searrow && \swarrow
+    \\
+    && F
+  }
+  \,.
+$$
+
+This is particularly suggestive when $p$ is a [[full subcategory]] inclusion (Def. \ref{FullyFaithfulFunctor}). For in that case we may imagine that a representative pair $(c' \to p(c), c \to F)$ is a stand-in for the actual pullback of elements of $F$ along the would-be composite "$c'\to c \to F$", only that this composite need not be defined. But the above equivalence relation is precisely that under which this composite would be invariant.
+
 
 =--
 
