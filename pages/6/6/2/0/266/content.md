@@ -631,7 +631,7 @@ For $F : C \to D$ a $\mathcal{V}$-[[enriched functor]] between [[small category|
       Id \stackrel{\simeq}{\to} F^* \circ Lan_{F}
    $$ 
 
-   whence it follows (see the basic properties of [[adjoint functor]]s) that $Lan_F : [C,\mathcal{V}] \to [D,\mathcal{V}]$ is itself a [[full and faithful functor]].
+   whence it follows (by [this property](adjoint+functor#FullyFaithfulAndInvertibleAdjoints) of [[adjoint functor]]s) that $Lan_F : [C,\mathcal{V}] \to [D,\mathcal{V}]$ is itself a [[full and faithful functor]].
 
 =-- 
 
