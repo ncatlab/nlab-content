@@ -1,3 +1,4 @@
+[[!redirects geometry of physics -- A first idea of quantum field theory]]
 
 <img src="https://ncatlab.org/schreiber/files/HamburgAnnouncement.jpg" width="850" >
 
@@ -7,6 +8,12 @@ of [[relativistic quantum field theory|relativistic]] [[perturbative quantum fie
 that arise as the [[perturbative quantum field theory|perturbative]] [[quantization]] of _[[Lagrangian field theories]]_
 -- such as [[quantum electrodynamics]], [[quantum chromodynamics]], and [[perturbative quantum gravity]]
 appearing in the [[standard model of particle physics]].
+
+$\,$
+
+> This is one chapter of _[[geometry of physics]]_.
+
+> Previous chapters: _[[geometry of physics -- smooth sets|smooth sets]]_, _[[geometry of physics -- supergeometry|supergeometry]]_.
 
 $\,$
 
