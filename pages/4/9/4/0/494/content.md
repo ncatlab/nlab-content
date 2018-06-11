@@ -862,7 +862,7 @@ The formulations in terms of liftings generalize to [[relative adjoint|relative 
  {#Properties}
 
 
-### General
+### Basic properties
 
 +-- {: .num_prop #UniquenessOfAdjoints}
 ###### Proposition
@@ -993,7 +993,6 @@ Let $L \dashv R$ be a pair of adjoint functors (Def. \ref{AdjointFunctorsInTerms
 
   * $R$ is an [[equivalence of categories|equivalence]].
 
-
 =--
 
 +-- {: .proof}
@@ -1011,7 +1010,7 @@ $$
   Hom(L R x , a ) \stackrel{\simeq}{\to} Hom(R x, R a)
 $$ 
 
-and that, by the formula for [[adjunct]]s and the [[zig-zag identity]], this is  such that the composite
+and that, by the formula for [[adjuncts]] and the [[zig-zag identity]], this is  such that the composite
 
 $$
  R_{x,a} :  Hom(x,a) \to Hom(L R x, a) \stackrel{\simeq}{\to}
