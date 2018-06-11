@@ -33,6 +33,10 @@ Precursor in 1-[[category theory]] include
 
 The theory is general, but the focus of the examples and applications is on [[derived algebraic geometry]]/[[E-∞ geometry]].
 
+Apparently a version of this is to eventually appear as:
+
+* [[Jacob Lurie]], part I _Fundamentals of Spectral Algebraic Geometry_, of: _[[Spectral Algebraic Geometry]]_
+
 ## Survey ##
 
 A survey is at [[A Survey of Elliptic Cohomology - the derived moduli stack of derived elliptic curves]] in the section [notions of space](http://ncatlab.org/nlab/show/A+Survey+of+Elliptic+Cohomology+-+the+derived+moduli+stack+of+derived+elliptic+curves#notions_of_space_4).
@@ -57,3 +61,5 @@ A survey is at [[A Survey of Elliptic Cohomology - the derived moduli stack of d
       * [[derived Deligne-Mumford stack]]
 
     * [[derived smooth manifold]]
+
+category: reference
