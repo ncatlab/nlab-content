@@ -6,7 +6,7 @@ $\,$
 > this entry is one section of "[[geometry of physics -- supergeometry and superphysics]]"
 > which is one chapter of "[[geometry of physics]]"
 
-> previous section: _[[geometry of physics -- superalgebra]]_
+> previous sections: _[[geometry of physics -- superalgebra|superalgebra]]_, _[[geometry of physics -- categories and toposes|categories and toposes]]_
 
 > next section: _[[geometry of physics -- supersymmetry]]_
 
