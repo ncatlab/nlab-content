@@ -111,11 +111,17 @@ Categories of models of finitary essentially algebraic theories are precisely eq
 ## References
  {#References}
 
-* [[Peter Freyd]], _Aspects of Topoi_, Bull. Austr. Math. Soc. 7, pp. 1--76, 467--80. 1972 ([pdf](http://journals.cambridge.org/article_S0004972700045408))
+Freyd first introduced essentially algebraic theories here:
+
+* [[Peter Freyd]], _Aspects of Topoi_, Bull. Austr. Math. Soc. 7, pp. 1--76, 467--80. 1972 ([pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B65FB15DCD85C816F31D9C87D355AD24/S0004972700044828a.pdf/aspects-of-topoi.pdf))
 
 * [[Ji?í Adámek]],  M. H&#233;bert,  [[Ji?í Rosický]], _On essentially algebraic theories and their generalizations_, Algebra Universalis, August 1999, Volume 41, Issue 3, pp 213-227
 
 * {#AdamekRosicky} [[Ji?í Adámek]], [[Ji?í Rosický]], section 3.D of _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
+
+A nice equivalent formulation can be found in
+
+* [[Erik Palmgren]], [[Steve Vickers]] Partial Horn logic and cartesian categories. Annals of Pure and Applied Logic, 145(2007), 314-355. ([pdf](http://www2.math.uu.se/~palmgren/partialalgebras_pre.pdf))
  
 [[!redirects essentially algebraic]]
 [[!redirects essentially algebraic theory]]
