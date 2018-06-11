@@ -1,6 +1,6 @@
-__Tom Leinster__ is a mathematician at the University of Glasgow. 
+__Tom Leinster__ is a mathematician at the University of Edinburgh. 
 
-* [web](http://www.maths.gla.ac.uk/~tl)
+* [web](http://www.maths.ed.ac.uk/~tl/)
 
 * _Higher operads, higher categories_, London Math. Soc. Lec. Note Series __298__, [math.CT/0305049](http://arxiv.org/abs/math.CT/0305049)
 
