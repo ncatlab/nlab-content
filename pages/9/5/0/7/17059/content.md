@@ -1,4 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+This page is to record material related to:
+
 * [[Jacob Lurie]], 
 
   _Spectral Algebraic Geometry_ 
@@ -14,6 +31,8 @@ on [[spectral algebraic geometry]].
 * 1 Schemes and Deligne-Mumford Stacks
 * 2 Quasi-Coherent Sheaves
 * 3 Spectral Algebraic Spaces
+
+(see also _[[Structured Spaces]]_)
 
 #### II Proper Morphisms
 * 4 Morphisms of Finite Presentation
@@ -59,5 +78,6 @@ on [[spectral algebraic geometry]].
 * C Prestable $\infty$-Categories
 * D Descent for Modules and Linear $\infty$-Categories
 * E Profinite Homotopy Theory
+
 
 category: reference
