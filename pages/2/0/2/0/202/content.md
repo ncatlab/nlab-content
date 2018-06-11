@@ -40,7 +40,7 @@ Let $i: H \to G$ be monic, and let $\pi: G \to G/H$ be the canonical [[surjectiv
 
 $$(g \cdot f)(g') = f(g' g).$$ 
 
-For any $f \in A^G$, the function $d_f: G \to A^G$ defined by $d_f(g) = g f - f$ defines a [[derivation]], i.e., a map satisfying the equation $d_f(g g') = g d_f(g') + d_f(g)$. Consider now the wreath product, i.e., the [[semidirect product]] $A^G \rtimes G$, where the multiplication is defined by $(f, g) \cdot (f', g') = (f + g f', g g')$. By the derivation equation, we have a homomorphism $\phi: G \to A^G \rtimes G$ defined by $\phi(g) \coloneqq (d_{j \pi}(g), g)$, and there is a second homomorphism $\psi: G \to A^G \rtimes G$ defined by $\psi(g) \coloneqq (0, g)$. We claim that $i: H \to G$ is the equalizer of the pair $\phi, \psi$. For, 
+For any $f \in A^G$, the function $d_f: G \to A^G$ defined by $d_f(g) = g f - f$ defines a [[derivation]], i.e., a map satisfying the equation $d_f(g g') = g d_f(g') + d_f(g)$. Consider now the wreath product, i.e., the [[semidirect product]] $A^G \rtimes G$, where the multiplication is defined by $(f, g) \cdot (f', g') = (g f' + f, g g')$. By the derivation equation, we have a homomorphism $\phi: G \to A^G \rtimes G$ defined by $\phi(g) \coloneqq (d_{j \pi}(g), g)$, and there is a second homomorphism $\psi: G \to A^G \rtimes G$ defined by $\psi(g) \coloneqq (0, g)$. We claim that $i: H \to G$ is the equalizer of the pair $\phi, \psi$. For, 
 
 $$\array{ 
 d_{j\pi}(g) = 0 & \text{iff} & (\forall_{g': G})\; g\cdot j\pi(g') = j\pi(g') \\ 
