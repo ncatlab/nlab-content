@@ -231,7 +231,7 @@ $$
   \;\colon\;
   [\mathcal{D}^{op},\mathcal{V}]
     \longrightarrow
-  [\mathcal{V}^{op},\mathcal{V}]  
+  [\mathcal{C}^{op},\mathcal{V}]  
 $$
 
 between the precomposition on [[enriched presheaves]] with one functor and the left/right [[Kan extension]] of the other.
