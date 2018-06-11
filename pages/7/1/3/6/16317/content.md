@@ -214,3 +214,6 @@ With this the rightmost adjoint quadruple gives the [[Aufhebung]] of $\Re \dashv
 
 [[!redirects super infinity-group]]
 [[!redirects super infinity-groups]]
+
+[[!redirects super differential homotopy type]]
+[[!redirects super differential homotopy types]]
