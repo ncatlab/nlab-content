@@ -16,23 +16,28 @@
 
 > This entry is one chapter of the entry _[[geometry of physics]]_.
 
+> previous chapter: _[[geometry of physics -- categories and toposes|categories and toposes]]_,
+
+> next chapter: _[[geometry of physics -- smooth sets|smooth sets]]_
+
+
+As discussed in the chapter _[[geometry of physics -- categories and toposes|categories and toposes]]_, every kind of _[[geometry]]_ is modeled on a collection of [[generator|archetypical]] basic [[spaces]] and geometric [[homomorphisms]] between them. In [[differential geometry]] the archetypical spaces are the abstract standard [[Cartesian space|Cartesian coordinate systems]], denoted $\mathbb{R}^n$ (in every [[dimension]] $n \in \mathbb{N}$). The geometric homomorphism between them are [[smooth functions]] $\mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$, hence smooth (and possibly degenerate) [[coordinate transformations]].
+
+Here we introduce the basic concept, organizing them in the [[category]] [[CartSp]] of [[Cartesian spaces]] (Prop. \ref{CartSpCategory} below.) We highlight three classical theorems about [[smooth functions]] in Prop. \ref{AlgebraicFactsOfDifferentialGeometry} below, which look innocent but play a decisive role in setting up [[synthetic differential geometry|synthetic differential]] [[supergeometry]] based on the concept of abstract smooth coordinate systems.
+
+At this point these are not yet coordinate systems _on_ some other space. But by applying the general machine of [[geometry of physics -- categories and toposes|categories and toposes]] to these, a concept of [[generalized spaces]] modeled on these abstract coordinate systems is induced. These are the _[[smooth sets]]_ discussed in the next chapter  _[[geometry of physics -- smooth sets]]_.
+
+
 #Contents#
 * table of contents
 {:toc}
 
-## **Coordinate systems**
- {#CoordinateSystems}
-
-Every kind of _[[geometry]]_ is modeled on a collection of [[generator|archetypical]] basic [[spaces]] and geometric [[homomorphisms]] between them. In [[differential geometry]] the archetypical spaces are the abstract standard [[Cartesian space|Cartesian coordinate systems]], denoted $\mathbb{R}^n$, in every [[dimension]] $n \in \mathbb{N}$, and the geometric homomorphism between them are [[smooth functions]] $\mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$, hence smooth (and possibly degenerate) [[coordinate transformations]].
-
-Here we discuss the central aspects of the nature of such abstract coordinate systems in themselves. At this point these are not yet coordinate systems _on_ some other space. That is instead the topic of the next section _[Smooth spaces](#SmoothSpaces)_.
-
-### Model Layer
+## Abstract coordinate systems
  {#CoordinateSystemsLayerMod}
 
 In this [Mod Layer ](#LayerMod) we discuss the [[concrete particulars]] of _[[coordinate systems]]_: the [[continuum]] [[real line]] $\mathbb{R}$, the [[Cartesian spaces]] $\mathbb{R}^n$ formed from it and the [[smooth functions]] between these.
 
-#### The continuum real (world-)line
+### The continuum real line
  {#TheContinuumRealWorldLine}
 
 The fundamental premise of [[differential geometry]] as a model of [[geometry]] in [[physics]] is the following.
@@ -64,7 +69,7 @@ we discuss below in _[Geometric quantization](GeometricQuantization)_ how not ju
 This is the motivation for studying models of physics in geometry modeled on the [[continuum]] [[real line]]. On the other hand, in all of what follows our discussion is set up such as to be _maximally independent_ of this specific choice (this is what _[[topos theory]]_ accomplishes for us, discussed below _[Smooth spaces -- Semantic Layer](#SmoothSpacesLayerSem)_). If we do desire to consider another choice of archetypical spaces for the geometry of physics we can simply "change the [[site]]", as discussed [below](#SmoothSpacesLayerSem) and many of the constructions, propositions and theorems in the following will continue to hold. This is notably what we do below in _[Supergeometric coordinate systems](#SupergeometricCoordinateSystems)_ when we generalize the present discussion to a flavor of differential geometry that also formalizes the notion of [[fermion]] [[particles]]: "differential [[supergeometry]]".
 
 
-#### Cartesian spaces and smooth functions
+### Cartesian spaces and smooth functions
  {#CartesianSpaces}
 
 
@@ -216,10 +221,111 @@ $$
 
 =--
 
+
+
+### The magic properties of smooth functions
+ {#PropertiesOfSmoothFunctions}
+
+Below we encounter generalizations of ordinary [[differential geometry]] that include explicit "[[infinitesimals]]" in the guise of _[[infinitesimally thickened points]]_, as well as "super-graded infinitesimals", in the guise of _[[superpoints]]_ (necessary for the
+description of [[fermion fields]] such as the [[Dirac field]]). As we discuss [below](#FieldBundles), these structures are
+naturally incorporated into [[differential geometry]] in just the same way as [[Grothendieck]]
+introduced them into [[algebraic geometry]] (in the guise of "[[formal schemes]]"),
+namely in terms of [[formal dual|formally dual]] [[rings of functions]] with [[nilpotent ideals]].
+That this also works well for [[differential geometry]] rests on the following three
+basic but important properties, which say that [[smooth functions]] behave "more algebraically"
+than their definition might superficially suggest:
+
+
++-- {: .num_prop #AlgebraicFactsOfDifferentialGeometry}
+###### Proposition
+**(the three magic algebraic properties of [[differential geometry]])**
+
+1. **[[embedding of smooth manifolds into formal duals of R-algebras|embedding of Cartesian spaces into formal duals of R-algebras]]**
+
+   For $X$ and $Y$ two [[Cartesian spaces]], the [[smooth functions]] $f \colon X \longrightarrow Y$
+   between them (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}) are in [[natural bijection]] with their
+   induced algebra [[homomorphisms]] $C^\infty(X) \overset{f^\ast}{\longrightarrow} C^\infty(Y)$ (example \ref{AlgebraOfSmoothFunctionsOnCartesianSpaces}), so that
+   one may equivalently handle [[Cartesian spaces]] entirely via their $\mathbb{R}$-algebras of smooth functions.
+
+   Stated more [[category theory|abstractly]], this means equivalently that the [[functor]] $C^\infty(-)$ that
+   sends a [[smooth manifold]] $X$ to its $\mathbb{R}$-[[associative algebra|algebra]]
+   $C^\infty(X)$ of [[smooth functions]] (example \ref{AlgebraOfSmoothFunctionsOnCartesianSpaces}) is a _[[fully faithful functor]]_:
+
+   $$
+     C^\infty(-)
+     \;\colon\;
+     SmthMfd \overset{\phantom{AAAA}}{\hookrightarrow} \mathbb{R} Alg^{op}
+     \,.
+   $$
+
+   ([Kolar-Slovak-Michor 93, lemma 35.8, corollaries 35.9, 35.10](embedding+of+smooth+manifolds+into+formal+duals+of+R-algebras#KolarSlovakMichor93))
+
+
+1. **[[smooth Serre-Swan theorem|embedding of smooth vector bundles into formal duals of R-algebra modules]]**
+
+   For $E_1 \overset{vb_1}{\to} X$ and $E_2 \overset{vb_2}{\to} X$ two [[vector bundle]] (def. \ref{VectorBundle})
+   there is then a [[natural bijection]] between vector bundle [[homomorphisms]] $f \colon E_1 \to E_2$
+   and the [[homomorphisms]] of [[modules]] $f_\ast \;\colon\; \Gamma_X(E_1) \to \Gamma_X(E_2)$
+   that these induces between the [[spaces of sections]] (example \ref{ModuleOfSectionsOfAVectorBundle}).
+
+   More [[category theory|abstractly]] this means that the [[functor]] $\Gamma_X(-)$ is a [[fully faithful functor]]
+
+   $$
+     \Gamma_X(-) \;\colon\; VectBund_X \overset{\phantom{AAAA}}{\hookrightarrow} C^\infty(X) Mod
+   $$
+
+   ([Nestruev 03, theorem 11.29](smooth+Serre-Swan theorem#Nestruev03))
+
+   Moreover, the [[modules]] over the $\mathbb{R}$-algebra $C^\infty(X)$
+   of [[smooth functions]] on $X$ which arise this way as [[sections]] of [[smooth vector bundles]] over
+   a [[Cartesian space]] $X$
+   are precisely the [[finitely generated module|finitely generated]] [[free modules]] over $C^\infty(X)$.
+
+   ([Nestruev 03, theorem 11.32](smooth+Serre-Swan theorem#Nestruev03))
+
+
+1. **[[derivations of smooth functions are vector fields|vector fields are derivations of smooth functions]]**.
+
+   For $X$ a [[Cartesian space]] (example \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}),
+   then any [[derivation]] $D \colon  C^\infty(X) \to C^\infty(X)$ on
+   the $\mathbb{R}$-[[associative algebra|algebra]]
+   $C^\infty(X)$ of [[smooth functions]] (example \ref{AlgebraOfSmoothFunctionsOnCartesianSpaces}) is given by [[differentiation]] with respect to a uniquely defined smooth [[tangent vector field]]: The function that regards [[tangent vector fields]]
+   with [[derivations]] from example \ref{TangentVectorFields}
+
+   $$
+     \array{
+       \Gamma_X(T X)
+         &\overset{\phantom{A}\simeq\phantom{A}}{\longrightarrow}&
+       Der(C^\infty(X))
+       \\
+       v &\mapsto& D_v
+     }
+   $$
+
+   is in fact an [[isomorphism]].
+
+   (This follows directly from the _[[Hadamard lemma]]_.)
+
+=--
+
+Actually all three statements in prop. \ref{AlgebraicFactsOfDifferentialGeometry}
+hold not just for [[Cartesian spaces]], but generally for [[smooth manifolds]] (def./prop. \ref{SmoothManifoldInsideDiffeologicalSpaces} below; if only we generalize in the second statement from [[free modules]] to [[projective modules]].
+However for our development here it is useful to first focus on just [[Cartesian spaces]] and then bootstrap
+the theory of [[smooth  manifolds]] and much more from that, which we do [below](#FieldBundles).
+
+
+## The category of abstract coordinate systems
+ {#CoordinateSystemsLayerSem}
+
+Here we make explicit the _[[category]]_ formed by abstract coordinate systems (Prop. \ref{CartSpCategory} below) and mention some of its basic properties. This will serve the discussion of [[smooth sets]] as the _[[sheaves]]_ on the category of abstract coordinate systems, in the next chapter _[[geometry of physics -- smooth sets]]_.
+
+$\,$
+
 +-- {: .num_prop #CartSpCategory}
 ###### Propositions
+**(the [[category]] [[CartSp]] of abstract [[coordinate systems]]/[[Cartesian spaces]])**
 
-Abstract coordinate systems according to prop. \ref{CartesianSpacesAndSmoothFunctions} form a _[[category]]_ 
+Abstract coordinate systems according to prop. \ref{CartesianSpacesAndSmoothFunctions} form a _[[category]]_ ([this def.](geometry+of+physics+--+Categories+and+Toposes#Categories))
 -- to be denoted _[[CartSp]]_ -- whose
 
 * [[objects]] are the abstract coordinate systems $\mathbb{R}^{n}$ (the [[class]] of objects is the [[set]] $\mathbb{N}$ of [[natural numbers]] $n$);
@@ -265,37 +371,7 @@ such that
 =--
 
 
-#### The fundamental theorems about smooth functions
- {#PropertiesOfSmoothFunctions}
-
-The special properties [[smooth functions]] that make them play an important role different from other classes of functions are the following.
-
-1. existence of [[bump functions]] and [[partitions of unity]]
-
-1. the [[Hadamard lemma]] and [[Borel's theorem]]
-
-Or maybe better put: what makes smooth functions special is that the first of these properties holds, while the second is still retained.
-
-(...)
-
-+-- {: bluebox }
-###### 
-
-This ends the "Model layer"-part of the discussion of coordinate systems. In the [Semantics layer below](#CoordinateSystemsLayerSem) we continue with a more sophisticated perspective on this topic. The reader wishing to stick to more elementary discussion for the moment should skip ahead to the next "Model layer"-discussion [of Smooth spaces below](#SmoothSpaces).
-
-=--
-
-### Semantic Layer
- {#CoordinateSystemsLayerSem}
-
-In this [Sem Layer](#LayerSem) we discuss the [[concrete general]] aspects of _abstract [[coordinate systems]]_, def. \ref{CartesianSpacesAndSmoothFunctions}: the fact that they naturally form: 
-
-1. an _[[algebraic theory]]_, 
-
-1. a _[[site]]_.
-
-
-#### The algebraic theory of smooth algebras
+### The algebraic theory of smooth algebras
  {#TheAlgebraicTheoryOfSmoothAlgebras}
 
 +-- {: .num_prop}
@@ -436,7 +512,7 @@ As the notation suggests, we may think of $C^\infty(D)$ as the functions on a fi
 
 
 
-#### The coverage of differentially good open covers
+### The coverage of differentially good open covers
  {#CoverageOfDifferentiallyGoodOpenCovers}
 
 We discuss a standard structure of a _[[site]]_ on the category [[CartSp]]. Following _[[Sketches of an Elephant|Johnstone -- Sketches of an Elephant]]_, it will be useful and convenient to regard a site as a ([[small site|small]]) category equipped with a _[[coverage]]_. This generates a genuine [[Grothendieck topology]], but need not itself already be one.
@@ -484,8 +560,7 @@ that identifies the $k$-fold intersection with a Cartesian space itself.
 +-- {: .num_remark}
 ###### Remark
 
-Differentiably good covers are useful for computations. Their full impact is however on the [[homotopy theory]] of [[simplicial presheaves]] over [[CartSp]]. This we discuss further below, around 
-prop. \ref{DifferentiablyGoodCoverGivesSPlitHyperCoverOverCartSp}.
+Differentiably good covers are useful for computations. Their full impact is however on the [[homotopy theory]] of [[simplicial presheaves]] over [[CartSp]]. This we discuss in the chapter on [[geometry of physics -- smooth homotopy types|smooth homotopy types]], around [this prop.](geometry+of+physics+--+smooth homotopy types#DifferentiablyGoodCoverGivesSPlitHyperCoverOverCartSp).
 
 =--
 
@@ -639,7 +714,7 @@ This means that for every sheaf-theoretic construction to follow we can just as 
 
 =--
 
-#### The slice category 
+### The slice category 
  {#SliceCategories}
 
 (...)
@@ -650,13 +725,16 @@ This means that for every sheaf-theoretic construction to follow we can just as 
 
 (...)
 
+$\,$
 
-### Syntactic Layer
+## Syntactic Layer
  {#CoordinateSystemsLayerSyn}
 
 In this [Syn Layer](#LayerSyn) we discuss the [[abstract generals]] of _abstract [[coordinate systems]]_, def. \ref{CartesianSpacesAndSmoothFunctions}: the [[internal language]] of a category with [[products]], which is _[[type theory]]_ with _[[product types]]_.
 
-#### Judgments about types and terms
+> This is rough, needs further development.
+
+### Judgments about types and terms
  {#Judgments}
 
 We now introduce a different _notation_ for [[objects]] and [[morphisms]] in a [[category]] (such as the category [[CartSp]] of def. \ref{CartSpCategory}). This notation is designed to, eventually, make more transparent what exactly it is that happens when we [[deductive reasoning|reason deductively]] about [[objects]] and [[morphisms]] of a [[category]]. 
@@ -778,7 +856,7 @@ being the [[judgment]] which expresses that $y(x)$ is a [[term in context]] of a
 
 
 
-#### Natural deduction rules for product types
+### Natural deduction rules for product types
  {#NaturalDeductionRulesForProductTypes}
 
 With the [above symbolic notation](#Judgments) for making [[judgments]] about the presence of [[objects]] and [[morphisms]] in a [[category]] $\mathcal{C}$, we now consider a system of rule of [[deduction]]  that tells us how we may _process_ these symbols (how to do _[[computations]]_) such that the new symbols we obtain in turn express new objects and new morphisms in $\mathcal{C}$ that we can build out of the given ones by _[[universal constructions]]_ in the sense of [[category theory]]. 
@@ -910,13 +988,13 @@ This concluces the description of the [[natural deduction]] about [[objects]], [
 In the [next section](#SmoothSpaces) we promote our running example category $\mathcal{C}$, which admits only very few [[universal constructions]] (just [[products]]), to a richer category, the [[sheaf topos]] over it. That richer category then accordingly comes with a richer [[syntax]] of [[natural deduction]] inside it, namely with full [[dependent type theory]]. This we discuss in the [Syn Layer below](#SmoothSpacesLayerSyn).
 
 
-#### Natural deduction rules for dependent sum types
+### Natural deduction rules for dependent sum types
  {#DependentSumTypes}
 
 (...) [[dependent sum type]] (...)
 
 
-#### Dictionary: type theory / category theory
+### Dictionary: type theory / category theory
  {#DictionaryTypeTheoryCategoryTheory}
 
 
