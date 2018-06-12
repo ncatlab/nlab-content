@@ -341,6 +341,11 @@ All of these justify the rules for the exponentials, so again we see that there 
 
 * [[linear type theory]]
 
+* [[light logic]]
+
+  * [[light linear logic]]
+  * [[soft linear logic]]
+
 * [[proof net]]
 
 * [[linearly distributive category]]
