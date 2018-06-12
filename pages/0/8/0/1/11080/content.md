@@ -82,13 +82,16 @@ In the [Sem Layer](SmoothSpacesLayerSem) we discuss smooth sets as a _[[topos]]_
 
 In this [Model Layer](geometry+of+physics#Layers) we discuss concretely the definition of [[smooth sets]] and of  [[homomorphisms]] between them,  together with basic examples and properties.
 
+
 #### Plots of smooth sets and their gluing
  {#PlotsOfSmoothSpacesAndTheirGluing}
 
-The general kind of "[[smooth space]]" that we want to consider is a [[type|something]] that can be _probed_ by laying out coordinate systems as in [this definition](geometry+of+physics+--+coordinate+systems#CartesianSpaces)  inside it, and that can be obtained by _gluing_ all the possible coordinate systems in it together.
+The general kind of "[[smooth space]]" that we want to consider is a [[type|something]] that can be _probed_ by laying out [[coordinate systems]]   inside it, as in [this definition](geometry+of+physics+--+coordinate+systems#CartesianSpaces), and which may be reconstructed by _gluing_ all the possible coordinate systems in it together.
 
-At this point we want to impose no further conditions on a "space" than this. In particular we do not assume that we know beforehand a [[set]] of [[points]] underlying $X$. Instead, we define smooth sets $X$ entirely _operationally_ as something about which we can ask "Which ways are there to lay out $\mathbb{R}^n$ inside $X$?" and such that there is a self-consistent answer to this question. The following definitions make precise what we mean by this. The reader wishing to see more motivational discussion first might look at _[[motivation for sheaves, cohomology and higher stacks|conceptual exposition]]_.
+At this point we want to impose no further conditions on a "space" than this. In particular we do not assume that we know beforehand a [[set]] of [[points]] underlying $X$. Instead, we define [[smooth sets]] $X$ (Def. \ref{SmoothSpace}, below) entirely _operationally_ as something about which we may ask "Which ways are there to lay out $\mathbb{R}^n$ inside $X$?" and such that there is a self-consistent answer to this question. 
 
+By the discussion in the chapter _[[geometry of physics -- categories and toposes|categories and toposes]]_, this means that we should define a _[[smooth set]]_ to be a [[sheaf]] on a [[site]] of [[Cartesian spaces]].
+The following definitions spell this out.  
 
 The idea of the following definitions may be summarized like this:
 
