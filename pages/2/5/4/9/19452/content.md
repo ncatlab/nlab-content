@@ -363,6 +363,19 @@ such that
 =--
 
 
++-- {: .num_example #CategoriesOfSmallCategories}
+###### Example
+**([[categories]] of [[small categories]] and of [[small groupoids]])**
+
+It is clear that [[functors]] (Def. \ref{Functors}) have a [[composition]] operation given componentwise by the [[composition]] of their component functions. Accordingly, this composition is [[unitality|unital]] and [[associativity|associative]]. This means that there is 
+
+1. the [[category]] (Def. \ref{Categories}) _[[Cat]]_ whose [[objects]] are [[small categories]] (Def. \ref{SmallCategory}) and whose [[morphisms]] are [[functors]] (Def. \ref{Functors}) between these
+
+1. the [[category]] (Def. \ref{Categories}) _[[Grpd]]_ whose [[objects]] are [[small groupoids|small]] [[groupoids]] (Def. \ref{Groupoid}) and whose [[morphisms]] are [[functors]] (Def. \ref{Functors}) between these.
+
+=--
+
+
 +-- {: .num_example #HomFunctor}
 ###### Example
 **([[hom-functor]])**
@@ -4512,6 +4525,7 @@ Most (if not all) introductions to [[sheaf theory]] insist on motivating the con
 
 =--
 
+
 +-- {: .num_defn #Coverage}
 ###### Definition
 **([[coverage]] and [[site]])**
@@ -4569,6 +4583,7 @@ To see that these coverings satisfy the condition (eq:ConditionOnCoverage): The 
 
 Example \ref{DifferentiablyGoodOpenCoversOfSmoothManifolds} is further developed in the chapter _[[geometry of physics -- smooth homotopy types|on smooth homotopy types]]_.
 
+### Sheaves
 
 +-- {: .num_defn #CompatibleElements}
 ###### Definition
@@ -4781,11 +4796,32 @@ The first of these says that the [[internal language]] is [[dependent type theor
 (...)
 
 
-### Simplicial presheaves
+### Stacks
 
-In order to understand the sheaf condition (eq:SheafCondition) better, it is useful to introduce _[[simplicial sets]]_.
+In order to understand the sheaf condition (eq:SheafCondition) better, it is useful to consider [[Cech groupoids]].
 
++-- {: .num_defn #PresheafOfGroupoids}
+###### Definition
+**([[presheaves of groupoids]])**
 
+For $\mathcal{C}$ a [[small category]] (Def. \ref{SmallCategory}) the [[functor category]] (Example \ref{FunctorCategory}) 
+
+$$
+  [\mathcal{C}^{op}, Grpd]
+$$
+
+from the [[opposite category]] of $\mathcal{C}$ (Example \ref{OppositeCategory}) to the category [[Grpd]] of [[small groupoid|small]] [[groupoids]] (Example \ref{CategoriesOfSmallCategories}) may be thought of as the category of _[[presheaves of groupoids]]_. In fact fact there is the comparison [[adjunction]] with the actual [[category of presheaves]] (Example \ref{CategoryOfPresheaves})
+
+$$
+  [\mathcal{C}^{op}, Set]
+    \underoverset
+      {\underset{\phantom{AAAA}}{\hookrightarrow}}
+      {\overset{\pi_0}{\longleftarrow}}
+      {\bot}
+  [\mathcal{C}^{op}, Grpd]
+$$
+
+=--
 
 
 
