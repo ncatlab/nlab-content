@@ -38,12 +38,13 @@ $$
   Presheaves
 $$ 
 
-
 relates (higher) [[presheaves]] with (higher) [[copresheaves]] on a given ([[higher category theory|higher]]) [[category]] $C$: this is called **Isbell conjugation** or **Isbell duality** (after [[John Isbell]]).
 
 To the extent that this adjunction descends to presheaves that are ([[higher topos theory|higher]]) [[sheaves]] and copresheaves that are ([[(infinity,1)-algebraic theory|higher]]) [[algebra over an algebraic theory|algebras]] this duality relates [[higher geometry]] with [[higher algebra]].
 
 Objects preserved by the [[monad]] of this adjunction are called **Isbell self-dual**.
+
+Under the interpretation of [[presheaves]] as generalized [[spaces]] and [[copresheaves]] as generalized [[quantities]] modeled on $C$ ([Lawvere 86](#Lawvere86), see at _[[space and quantity]]_), Isbell duality is the archetype of the [[duality]] between [[geometry]] and [[algebra]] that permeates mathematics (such as [[Gelfand duality]] or the [[embedding of smooth manifolds into formal duals of R-algebras]].)
 
 ## Definition
 
@@ -574,7 +575,7 @@ The original articles on Isbell duality and the [[Isbell envelope]] are
 
 More recent discussion is in
 
-* [[Bill Lawvere]], p. 17 of _Taking categories seriously_, Reprints in Theory and Applications of Categories, No. 8 (2005) pp. 1-24 ([web](http://tac.mta.ca/tac/reprints/articles/8/tr8abs.html))
+* {#Lawvere86} [[William Lawvere]], p. 17 of _Taking categories seriously_, Revista Colombiana de Matematicas, XX (1986) 147-178, reprinted as: Reprints in Theory and Applications of Categories, No. 8 (2005) pp. 1-24 ([web](http://tac.mta.ca/tac/reprints/articles/8/tr8abs.html))
 
 * [[Michael Barr]], John Kennison, R. Raphael, Isbell Duality, Theory and Applications of Categories, Vol. 20, 2008, No. 15, pp 504-542. ([web](http://www.tac.mta.ca/tac/volumes/20/15/20-15abs.html))
 
@@ -590,19 +591,26 @@ Isbell conjugacy for [[(∞,1)-presheaves]] over the [[(∞,1)-category]] of dua
 
 in 
 
-* [[nLab:Bertrand Toën]], _Champs affines_ ([arXiv:math/0012219](http://arxiv.org/abs/math/0012219))
-{#Toen}
+* {#Toen} [[nLab:Bertrand Toën]], _Champs affines_ ([arXiv:math/0012219](http://arxiv.org/abs/math/0012219))
+
 
 Isbell self-dual [[∞-stack]]s over duals of commutative [[associative algebra]]s are called _affine stacks_ . They are characterized as those objects that are _small_ in a sense and local with respect to the [[cohomology]] with coefficients in the canonical [[line object]].
 
 A generalization of this latter to $\infty$-stacks over duals of [[algebra over a Lawvere theory|algebras over arbitrary abelian Lawvere theories]] is the content of 
 
-* [[Herman Stel]], _$\infty$-Stacks and their function algebras -- with applications to $\infty$-Lie theory_ , master thesis (2010) ([[schreiber:master thesis Stel|web]])
-{#Stel}
+* {#Stel} [[Herman Stel]], _$\infty$-Stacks and their function algebras -- with applications to $\infty$-Lie theory_ , master thesis (2010) ([[schreiber:master thesis Stel|web]])
 
 See also
 
 * MathOverflow: [theme-of-isbell-duality](http://mathoverflow.net/questions/84641/theme-of-isbell-duality)
+
 * R.J Wood, _Some remarks on total categories_, J. Algebra __75_:2, 1982, 538&#8211;545 <a href="http://dx.doi.org/10.1016/0021-8693(82)90055-2">doi</a>
 
+[[!redirects Isbell dualities]]
+
 [[!redirects Isbell conjugation]]
+[[!redirects Isbell conjugations]]
+
+[[!redirects Isbell adjunction]]
+[[!redirects Isbell adjunctions]]
+
