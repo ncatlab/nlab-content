@@ -20,7 +20,7 @@ Let $C$ be a category with a [[pretopology]] $J$ (i.e. a [[site]]) and $a$ an ob
 
 The [[topos]] of [[sheaves]] on the little site is the [[petit topos]] of $a$.
 
-A little site may sometimes be called a _small site_, but it\'s probably best to save that name for a site which is a [[small category]].
+A little site may sometimes be called a _[[small site]]_, but it\'s probably best to save that name for a site which is a [[small category]].
 
 
 ## Definition
@@ -56,9 +56,6 @@ such that $v_0 \to u_0$ is an element of a covering family of $u_0$, so the arro
 
 [[!redirects little site]]
 [[!redirects little sites]]
-
-[[!redirects small site]]
-[[!redirects small sites]]
 
 [[!redirects petit site]]
 [[!redirects petit sites]]
