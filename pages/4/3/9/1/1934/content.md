@@ -62,13 +62,15 @@ In good cases, the intrinsic properties of $X$ do not depend on whether one rega
 
 ## Related entries
 
+* [[functorial geometry]], [[space and quantity]]
+
 * [[cohesive topos]]
 
-* [[sufficiently cohesive topos]]
+  * [[sufficiently cohesive topos]]
 
-* [[infinitesimal cohesive (infinity,1)-topos]]
+  * [[infinitesimal cohesive (infinity,1)-topos]]
 
-* [[quality type]]
+  * [[quality type]]
 
 * [[étendue]]
 
