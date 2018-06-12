@@ -35,17 +35,15 @@ An _integral curve_ or _flow line_ of the vector field $v$ is a [[differentiable
 $$
   \gamma
     \;\colon\;
-  \mathbb{R}
-    \subset 
     U
     \longrightarrow
   X    
 $$
 
-for $U \subset \mathbb{R}$ an [[open interval]]  with the property that its [[tangent vector]] at any $t \in \mathbb{R}$ equals the value of the vector field $v$ at the point $\gamma(t)$:
+for $U \subset \mathbb{R}$ an [[open interval]]  with the property that its [[tangent vector]] at any $t \in U$ equals the value of the vector field $v$ at the point $\gamma(t)$:
 
 $$
-  \underset{t \in \mathbb{R}}{\forall}
+  \underset{t \in U}{\forall}
   \left(
      d \gamma_t = v_{\gamma(t)}
   \right)
