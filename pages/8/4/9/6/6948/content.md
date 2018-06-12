@@ -125,6 +125,10 @@ is the set of [[section]]s of the [[bundle]] $2 \mathbb{N} \hookrightarrow \math
 
 * [[necessity]]
 
+* [[existential quantifier]]
+
+* [[generalized quantifier]]
+
 ## References
 
 The observation that [[substitution]] forms an [[adjoint pair]]/[[adjoint triple]] with the existential/universal quantifiers is due to
