@@ -46,7 +46,81 @@ Hence the initial object may also be viewed as the [[colimit]] over the [[empty 
 
 An initial object $\emptyset$ is called a **[[strict initial object]]** if any morphism $x\to \emptyset$ must be an [[isomorphism]].  The initial objects of a poset, of $Set$, $Cat$, $Top$, and of any [[topos]] (in fact, any [[extensive category]], or any [[cartesian closed category]]) are strict.  At the other extreme, a [[zero object]] is only a strict initial object if the category is trivial (equivalent to the [[terminal category]]).
 
-## Cones over the identity
+## Properties
+
+### Left adjoints to constant functors
+
+
++-- {: .num_prop }
+###### Proposition
+
+Let $\mathcal{C}$ be a [[category]].
+
+1. The following are equivalent:
+
+   1. $\mathcal{C}$ has a [[terminal object]];
+
+   1. the unique [[functor]] $\mathcal{C} \to \ast$ to the [[terminal category]] has a [[right adjoint]]
+
+      $$
+        \ast 
+          \underoverset
+             {\underset{}{\longrightarrow}}
+             {\overset{}{\longleftarrow}}
+             {\bot}
+        \mathcal{C}
+      $$
+
+    Under this equivalence, the [[terminal object]] is identified with the image under the right adjoint of the unique object of the [[terminal category]].
+
+1. Dually, the following are equivalent:
+
+   1. $\mathcal{C}$ has an [[initial object]];
+
+   1. the unique [[functor]] $\mathcal{C} \to \ast$ to the [[terminal category]] has a [[left adjoint]]
+
+      $$
+        \mathcal{C}
+          \underoverset
+             {\underset{}{\longrightarrow}}
+             {\overset{}{\longleftarrow}}
+             {\bot}
+        \ast
+      $$
+
+    Under this equivalence, the [[initial object]] is identified with the image under the left adjoint of the unique object of the [[terminal category]].
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Since the unique [[hom-set]] in the [[terminal category]] is [[generalized the|the]] [[singleton]], the hom-isomorphism characterizing the [[adjoint functors]] is directly the [[universal property]] of an [[initial object]] in $\mathcal{C}$
+ 
+$$
+  Hom_{\mathcal{C}}( L(\ast) , X )
+  \;\simeq\;
+  Hom_{\ast}( \ast, R(X) ) 
+  =
+  \ast 
+$$
+
+or of a [[terminal object]]
+
+$$
+  Hom_{\mathcal{C}}( X , R(\ast) )
+  \;\simeq\;
+  Hom_{\ast}( L(X), \ast ) = \ast
+  \,,
+$$
+
+respectively.
+
+=--
+
+
+### Cones over the identity
  {#ConesOverTheIdentity}
 
 By definition, an initial object is equipped with a universal [[cocone]] under the unique functor $\emptyset\to C$ from the [[empty category]].  On the other hand, if $I$ is initial, the unique morphisms $!: I \to x$ form a cone *over* the [[identity functor]], i.e. a natural transformation $\Delta I \to Id_C$ from the [[constant functor]] at the initial object to the identity functor.  In fact this is almost another characterization of an initial object:
