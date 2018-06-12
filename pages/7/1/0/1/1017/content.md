@@ -34,6 +34,9 @@ The term 'point' is often used for a [[global element]]; that is the meaning, fo
 
 [[!include homotopy n-types - table]]
 
+### As directed homotopy types
+
+* [[terminal category]]
 
 ### As geometric objects
 
