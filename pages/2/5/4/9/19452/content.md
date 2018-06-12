@@ -208,6 +208,19 @@ If a [[category]] $\mathcal{C}$ (Def. \ref{Categories}) happens to have as [[cla
 
 =--
 
+As usual, there are some trivial examples, that are however useful to make explicit for the development of the theory:
+
++-- {: .num_example #InitialCategoryAndTerminalCategory}
+###### Example
+**([[initial category]] and [[terminal category]])**
+
+1. The _[[terminal category]]_ $\ast$ is [[generalized the|the]] [[category]] (Def. \ref{Categories}) whose [[class]] of [[objects]] is [[generalized the|the]] [[singleton]] [[set]], and which has a single [[morphism]] on this object, necessarily the [[identity morphism]].
+
+1. The _[[initial category]]_ or _[[empty category]]_ $\emptyset$ is the [[category]] (Def. \ref{Categories}) whose [[class]] of [[objects]] is the [[empty set]], and which, hence, has no morphism whatsoever.
+
+Clearly, these are [[small categories]] (Def. \ref{SmallCategory}).
+
+=--
 
 +-- {: .num_defn #Isomorphism}
 ###### Definition
