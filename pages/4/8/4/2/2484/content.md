@@ -53,6 +53,8 @@ The functor which sends $R$ to the points of the projective space $\mathbb{P}^n_
 
 * [[gros topos]]
 
+* [[space and quantity]]
+
 ## References
 
 The original idea is advertized in
