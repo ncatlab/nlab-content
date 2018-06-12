@@ -16,7 +16,11 @@
 
 ## Definition
 
-The __empty category__ is [[the]] [[category]] with no [[objects]] (and hence no [[morphisms]]).  It is a [[groupoid]], so we may call it the __empty groupoid__.  One can similarly speak of the __empty $n$-category__, the __empty $\infty$-groupoid__, etc etc etc.
+The __empty category__ is [[the]] [[category]] with no [[objects]], and hence no [[morphisms]], i.e. the catgegory whose [[class]] of objects is the [[empty set]].
+
+This is the [[initial object]] in [[Cat]].
+
+This is a [[groupoid]], so we may call it the __empty groupoid__.  One may similarly speak of the __empty [[n-category]]__, the __empty [[infinity-groupoid]]__, etc etc etc.
 
 ## Properties
 
@@ -26,10 +30,18 @@ The empty category is [[initial object|initial]] in [[Cat]] (as well as [[Grpd]]
 
 ## Related concepts
 
+* [[empty space]]
+
 * [[empty diagram]]
+
+* [[terminal category]]
+
 
 
 [[!redirects empty category]]
 [[!redirects empty categories]]
 [[!redirects empty groupoid]]
 [[!redirects empty groupoids]]
+
+[[!redirects initial category]]
+[[!redirects initial categories]]
