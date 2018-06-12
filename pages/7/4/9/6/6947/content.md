@@ -150,7 +150,11 @@ Notice that before the $(-1)$-truncation the operation remembers not just _that_
 
 * [[possibility]]
 
+* [[universal quantifier]]
+
 * [[elimination of quantifiers]]
+
+* [[generalized quantifier]]
 
 ## References
 
