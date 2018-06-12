@@ -108,6 +108,8 @@ In classical mathematics, at least, formulas with unbounded quantifiers can be c
 
 * [[elimination of quantifiers]]
 
+* [[generalized quantifier]]
+
 ## References
 
 The identification of universal/existential quantification with [[adjoints]] of [[substitution]]/[[context extension]] ([[dependent product]]/[[dependent sum]]) originates around
