@@ -1,10 +1,4 @@
 
-> This entry contains one chapter of the material at _[[geometry of physics]]_.
-
-> previous chapters: _[[ geometry of physics -- coordinate systems|coordinate systems]]_, _[[geometry of physics -- categories and toposes|categories and toposes]]_
-
-> next chapters: _[[geometry of physics -- differential forms|differential forms]]_, _[[geometry of physics -- differentiation|differentiation]]_, _[[geometry of physics -- smooth homotopy types|smooth homotopy types]]_
-
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -21,8 +15,14 @@
 =--
 
 
+> This entry one chapter of _[[geometry of physics]]_.
 
-This chapter introduces a generalized kind of [[sets]] equipped with [[smooth structure]], to be called _[[smooth sets]]_ or _smooth [[homotopt 0-types|0-types]]_.
+> previous chapters: _[[ geometry of physics -- coordinate systems|coordinate systems]]_, _[[geometry of physics -- categories and toposes|categories and toposes]]_
+
+> next chapters: _[[geometry of physics -- differential forms|differential forms]]_, _[[geometry of physics -- differentiation|differentiation]]_, _[[geometry of physics -- smooth homotopy types|smooth homotopy types]]_
+
+
+This chapter introduces a generalized kind of [[sets]] equipped with [[smooth structure]], to be called _[[smooth sets]]_ or _smooth [[homotopy 0-types|0-types]]_.
 
 The definition (Def. \ref{SmoothSpace} below) subsumes that of [[smooth manifolds]], [[Fréchet manifolds]] and [[diffeological spaces]] but is both simpler and more powerful: smooth sets are simply [[sheaves]] on the [[gros site]] of [[Cartesian Spaces]] spring and as such form a nice [[category]] -- a [[topos]] -- and this contains as [[full subcategories]] the more "tame" objects such as smooth manifolds and diffeological spaces.
 
@@ -64,11 +64,6 @@ Since historically grown terminology will never be fully logically consistent, a
 
 =--
 
-In the section _[Coordinate systems](#CoordinateSystems)_ we have set up the archetypical [[spaces]] of [[differential geometry]]. Here we now define in terms of these the most general _[[smooth sets]]_ that differential geometry can deal with. We also discuss basic properties of these smooth sets, all in the [Mod Layer](#SmoothSpacesLayerMod).
-
-In the [Sem Layer](SmoothSpacesLayerSem) we discuss smooth sets as a _[[topos]]_ and in fact as a _[[cohesive topos]]_. This is essentially the stage on which all of the fellowing developments take place. Or rather, the refinement of this to a _[[(infinity,1)-topos|higher topos]]_ is, which we discuss further below in the chapter _[Smooth ∞-Groupoids](#SmoothnGroupoids)_.
-
-
 
 
 #Contents#
@@ -78,10 +73,10 @@ In the [Sem Layer](SmoothSpacesLayerSem) we discuss smooth sets as a _[[topos]]_
 
 
 
-## Smooth set
+## Smooth sets
  {#SmoothSpacesLayerMod}
 
-In this [Model Layer](geometry+of+physics#Layers) we discuss concretely the definition of [[smooth sets]] and of  [[homomorphisms]] between them,  together with basic examples and properties.
+In the section _[Coordinate systems](#CoordinateSystems)_ we have set up the archetypical [[spaces]] of [[differential geometry]]. Here we now define in terms of these the most general _[[smooth sets]]_ that differential geometry can deal with. 
 
 
 ### Plots of smooth sets and their gluing
@@ -814,6 +809,7 @@ This ends the Model-layer discussion of smooth sets. We now pass to a more advan
  {#SmoothSpacesLayerSem}
  {#ToposOfSmoothSpaces}
 
+
 In the language of [[geometry of physics -- categories and toposes|categories and toposes]], we may summarize the concept of [[smooth sets]] as follows:
 
 +-- {: .num_prop #SmoothSetsAreSheavesOnCartSp}
@@ -849,13 +845,15 @@ This is a straightforward matter of matching definitions. We spell it out:
 =--
 
 
-The [[sheaf topos]], def. \ref{SheafToposAsSubtopos}, of [[smooth sets]] enjoys a few crucial properties: it is
+The [[sheaf topos]] of [[smooth sets]] from Prop. \ref{SmoothSetsAreSheavesOnCartSp} enjoys a few crucial properties: it is
 
 * a [[locally connected topos|locally connected]] and [[connected topos]]
 
 * a [[local topos]]
 
-* a [[cohesive topos]]. This we discuss in the remainder of this [Semantic Layer](#LayerSem).
+* a [[cohesive topos]]. 
+
+This we now explain and discuss in the remainder of this section.
 
 
 ### Connectedness
