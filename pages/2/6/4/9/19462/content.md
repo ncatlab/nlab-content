@@ -15,9 +15,9 @@
 
 ## Idea
 
-**Generalized quantifiers** were introduced into [[model theory]] by the Polish Logician A. Mostowski in order to supplement the usual existential and universal quantifiers of [[first-order logic|first-order predicate logic]] with the aim to circumvent shortcomings concerning expressivity and categoricity.
+**Generalized quantifiers** were introduced into [[model theory]] by the Polish Logician A. Mostowski in order to supplement the usual [[existential quantifier|existential]] and [[universal quantifiers]] of [[first-order logic|first-order predicate logic]] with the aim to circumvent shortcomings concerning expressivity and categoricity.
 
-Their use for the semantic analysis of natural language determiners in the footsteps of [[Richard Montague]] revolutionized [[linguistics]] in the early 1970s.
+Their use for the [[semantics|semantic]] analysis of natural language determiners in the footsteps of [[Richard Montague]] revolutionized [[linguistics]] in the early 1970s.
 
 ## Related entries
 
