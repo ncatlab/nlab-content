@@ -158,6 +158,8 @@ By a similar argument, (if ZFC is consistent) there are models $M'$ of classical
 
 * [[abstract model theory]]
 
+* [8generalized quantifier]]
+
 * [[nonstandard analysis]], [[set theory]], [[foundations and logic]], [[algebraic set theory]], [[forcing]], [[o-minimal structure]]
 
 * [[Lascar group]]
