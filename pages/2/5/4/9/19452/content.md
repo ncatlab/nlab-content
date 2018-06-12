@@ -11,9 +11,11 @@ $\,$
 
 [[category theory|Category theory]] and [[topos theory]] concern the general abstract structure underlying [[algebra]], [[geometry]] and [[logic]] and are ubiquituous in and indispensible for organizing concpetual mathematical frameworks.
 
-We give here an introduction to the basic concepts and results of _[[category theory]]_ and of _[[topos theory]]_, aimed at providing background for the [[synthetic differential geometry|synthetic]] and [[higher differential geometry|higher]] [[geometry of physics -- supergeometry|supergeometry]] of relevance in formulations of fundamental [[physics]] (such as used in the chapters _[[geometry of physics -- A first idea of quantum field theory|on quantum field theory]]_ and _[[geometry of physics -- fundamental super p-branes|on fundamental super p-branes]]_).
+We give here an introduction to the basic concepts and results of _[[category theory]]_ and of _[[topos theory]]_, aimed at providing background for the [[synthetic differential geometry|synthetic]] and [[higher differential geometry|higher]] [[geometry of physics -- supergeometry|supergeometry]] of relevance in formulations of fundamental [[physics]], such as used in the chapters _[[geometry of physics -- perturbative quantum field theory|on perturbative quantum field theory]]_ and _[[geometry of physics -- fundamental super p-branes|on fundamental super p-branes]]_.
 
-One motivation for [[category theory]] and [[topos theory]] is _a posteriori_: As a matter of experience, there is just no other toolbox that allows one to really understand and handle the [[higher differential geometry|higher]] [[supergeometry]] of relevance in [[physics]].
+This means that we emphasize the interpretation of _[[presheaves]]_ (Example \ref{CategoryOfPresheaves} and Example \ref{EnrichedPresheaf} below) on some _[[site]]_ (Def. \ref{Coverage} below) as _[[generalized spaces]]_ modeled on the objects in the site ([Lawvere 86, p. 17](space+and+quantity#Lawvere86)), and we highlight that, from this perspective, the notorious core result of category theory called the _[[Yoneda lemma]]_ (Prop. \ref{YonedaLemma} below), or the _[[Yoneda embedding]]_ (Prop. \ref{YonedaEmbedding} below), as well as the core concept of [[topos theory]], namely the [[sheaf|sheaf condition]] (Def. \ref{Sheaf} below) express nothing but the consistency of this concept of _[[generalized spaces]]_. This is the perspective of _[[functorial geometry]]_ ([Grothendieck 65](#functorial+geometry#Grothendieck65)).  (For more exposition of this point see also at _[[motivation for sheaves, cohomology and higher stacks]]_.)
+
+Hence one motivation for [[category theory]] and [[topos theory]] is _a posteriori_: As a matter of experience, there is just no other toolbox that allows one to really understand and handle the [[higher differential geometry|higher]] [[supergeometry]] of relevance in [[physics]]. Similar comments apply to a wealth of other topics of mathematics.
 
 We offer also an _a priori_ motivation: _Category theory is the theory of duality._
 
@@ -27,7 +29,7 @@ Historically, [[category theory]] was introduced in order to make precise the co
 
 | $\phantom{A}$ hierarchy of concepts $\phantom{A}$  | $\phantom{A}$ [[category theory]] $\phantom{A}$ | [[enriched category theory]] |
 |------------------------|------------|--------------------------|
-| $\phantom{A}$ [[equivalence of categories]] $\phantom{A}$ | $\phantom{A}$ Def. \ref{EquivalenceOfCategories} $\phantom{A}$ | $\phantom{A}$ Def. \ref{EnrichedEquivalenceOfCategories} $\phantom{A}$ |
+| $\phantom{A}$ [[adjoint equivalence]] $\phantom{A}$ | $\phantom{A}$ Def. \ref{AdjointEquivalenceOfCategories} $\phantom{A}$ | $\phantom{A}$ Def. \ref{EnrichedEquivalenceOfCategories} $\phantom{A}$ |
 | $\phantom{A}$ [[adjoint functor|adjunction]] / [[duality]] $\phantom{A}$  | $\phantom{A}$ Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} $\phantom{A}$ |  $\phantom{A}$ Def. \ref{EnrichedAdjunction} $\phantom{A}$  |
 | $\phantom{A}$ [[natural transformation]] $\phantom{A}$ | $\phantom{A}$ Def. \ref{NaturalTransformations} $\phantom{A}$ |  $\phantom{A}$ Def. \ref{EnrichedNaturalTransformation} $\phantom{A}$ |
 | $\phantom{A}$ [[functor]] $\phantom{A}$ | $\phantom{A}$ Def. \ref{Functors} $\phantom{A}$ |  $\phantom{A}$ Def. \ref{TopologicallyEnrichedFunctor} $\phantom{A}$ |
@@ -56,6 +58,9 @@ This suggests that there may be a deeper relation here between the superficially
 In this respect it is worth noticing that core structure of string/M-theory arises via universal constructions from the [[superpoint]] (as explained in the chapter _[[geometry of physics -- fundamental super p-branes|on fundamental super p-branes]]_), while the superpoint itself arises, in a sense made precise by [[category theory]], "from nothing", by a system of twelve [[adjunctions]] (explained in the chapter [[geometry of physics -- supergeometry|on supergeometry]]). 
 
 Here we introduce the requisites for understanding these statements.
+
+
+
 
 #Contents#
 * table of contents
@@ -692,11 +697,11 @@ This functor is called the _[[Yoneda embedding]]_, due to Prop. \ref{YonedaEmbed
 
 +-- {: .num_remark #PresaheavesAsGeneralizedSpaces}
 ###### Remark
-**([[presheaves]] as generalized spaces)**
+**([[presheaves]] as [[generalized spaces]])**
 
-If a given [[category]] $\mathcal{C}$ (Def. \ref{Categories}) is thought of as a category of _[[spaces]]_ of sorts, as those in Example \ref{SpacesViaAlgebrasOfFunctions}, then it will be most useful to think of the corresponding [[category of presheaves]] $[\mathcal{C}^{op}, Set]$ (Def. \ref{CategoryOfPresheaves}) as a category of _generalized spaces probe-able by_ the test spaces in $\mathcal{C}$.
+If a given [[category]] $\mathcal{C}$ (Def. \ref{Categories}) is thought of as a category of _[[spaces]]_ of sorts, as those in Example \ref{SpacesViaAlgebrasOfFunctions}, then it will be most useful to think of the corresponding [[category of presheaves]] $[\mathcal{C}^{op}, Set]$ (Def. \ref{CategoryOfPresheaves}) as a category of _[[generalized spaces]] probe-able by_ the test spaces in $\mathcal{C}$ ([Lawvere 86, p. 17](space+and+quantity#Lawvere86)).
 
-Namely, imagine a generalized space $\mathbf{X}$ which is at least probe-able by spaces in $\mathcal{C}$. This should mean that for each [[object]] $c \in \mathcal{C}$ there is some [[set]] of geometric maps "$c \to \mathcal{X}$". Here the quotation marks are to warn us that, at this point, $\mathbf{X}$ is not defined yet, and even if it were, it is not expected to be an object of $\mathcal{C}$, so that, at this point, an actual morphism from $c$ to $\mathbf{X}$ is not defined. But we may anyway consider some set
+Namely, imagine a [[generalized space]] $\mathbf{X}$ which is at least probe-able by spaces in $\mathcal{C}$. This should mean that for each [[object]] $c \in \mathcal{C}$ there is some [[set]] of geometric maps "$c \to \mathcal{X}$". Here the quotation marks are to warn us that, at this point, $\mathbf{X}$ is not defined yet, and even if it were, it is not expected to be an object of $\mathcal{C}$, so that, at this point, an actual morphism from $c$ to $\mathbf{X}$ is not defined. But we may anyway consider some set
 
 
 \[
@@ -737,6 +742,8 @@ Hence the incarnation of $X \in \mathcal{C}$ as a generalized space probe-able b
 At this point, however, a serious consistency condition arises: The "ordinary spaces" now exist as objects of two different categories, on the one hand there is the original $X \in \mathcal{C}$, on the other hand there is its Yoneda image $y(X) \in [\mathcal{C}^{op}, Set]$ in the category of generalized spaces, and we need to know that these two perspectives are compatible, notably that maps $X \to Y$ between ordinary spaces are the same whether viewed in $\mathcal{C}$ or in the more general context of $[\mathcal{C}^{op}, Set]$. 
 
 That this, too, holds true, is the statement of the _[[Yoneda embedding]]_, which we discuss as Prop. \ref{YonedaEmbedding} below.
+
+Eventually one will want to impose one more consistency condition, namely a _[[sheaf|sheaf condition]]_ (Def. \ref{Sheaf} below). This is what leads over from [[category]] theory to [[topos theory]] [below](#BasicNotionsOfToposTheory).
 
 =--
 
@@ -4365,8 +4372,9 @@ where in the second step we used the assumption of [[fully faithful functor|full
 
 
 ## Basic notions of Topos theory
+  {#BasicNotionsOfToposTheory}
 
-We have explained in Remark \ref{PresaheavesAsGeneralizedSpaces} how [[presheaves]] on a [[category]] $\mathcal{C}$ may be thought of as _generalized spaces probe-able by the objects of $\mathcal{C}$_, and that two consistency conditions on this interpretation are provided by the [[Yoneda lemma]] (Prop. \ref{YonedaLemma}) and the resulting [[Yoneda embedding]] (Prop. \ref{YonedaEmbedding}). Here we turn to a third consistency condition that one will want to impose:
+We have explained in Remark \ref{PresaheavesAsGeneralizedSpaces} how [[presheaves]] on a [[category]] $\mathcal{C}$ may be thought of as _[[generalized spaces]] probe-able by the objects of $\mathcal{C}$_, and that two consistency conditions on this interpretation are provided by the [[Yoneda lemma]] (Prop. \ref{YonedaLemma}) and the resulting [[Yoneda embedding]] (Prop. \ref{YonedaEmbedding}). Here we turn to a third consistency condition that one will want to impose:
 
 If the [[objects]] of $\mathcal{C}$ are thought of as [[spaces]] of sorts, then there is typically a concept of _locality_ in these spaces, reflected by a notion of what it means to _[[cover]]_ a given space by ("smaller") spaces (a _[[coverage]]_, Def. \ref{Coverage} below).
 
