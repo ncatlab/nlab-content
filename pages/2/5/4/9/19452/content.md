@@ -1785,6 +1785,58 @@ which completes this to an [[adjoint equivalence of categories]] (Def. \ref{Adjo
 =--
 
 
+### Localization
+
++-- {: .num_defn #ReflectiveSubcategory}
+###### Definition
+**([[reflective subcategory]])**
+
+A [[fully faithful functor]] 
+
+$$
+  \mathcal{C}
+  \hookrightarrow
+  \mathcal{D}
+$$
+
+hence a [[full subcategory]]-inclusion (Def. \ref{FullyFaithfulFunctor}) is called a _[[reflective subcategory]] inclusion_ if this functor has a [[left adjoint]] (def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets})
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{\phantom{AA} \iota \phantom{AA}}{\hookrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\bot}
+  \mathcal{D}
+$$
+
+Here the [[left adjoint]] is also called the _[[reflector]]_.
+
+=--
+
++-- {: .num_example #ReflectiveSubcategoryInclusionOfSetsIntoGroupoids}
+###### Example
+**([[reflective subcategory]] inclusion of [[sets]] into [[small groupoid|small]] [[groupoids]])**
+
+There is a [[reflective subcategory]]-inclusion (Def. \ref{ReflectiveSubcategory})
+
+$$
+  Set
+    \underoverset
+     {\underset{\phantom{AAAA}}{\hookrightarrow}}
+     {\overset{\pi_0}{\longleftarrow}}
+     {\bot}
+  Grp
+$$
+
+of the [[category of sets]] (Example \ref{CategoryOfAllSets}) into the [[category]] [[Grpd]] (Example \ref{CategoriesOfSmallCategories}) of [[small groupoids|small]] [[groupoids]] (Example \ref{Groupoid}) where
+
+* the [[right adjoint]] [[full subcategory]] inclusion (Def. \ref{FullyFaithfulFunctor}) sends a [[set]] $S$ to the [[groupoid]] with set of objects being $S$, and the only [[morphisms]] being the [[identity morphisms]] on these objects (also called the _[[discrete groupoid]]_ on $S$, but this terminology is ambiguous)
+
+* the [[left adjoint]] [[reflector]] sends a [[small groupoid|small]] [[groupoid]] $\mathcal{G}$ to its set of [[connected components]], namely to the set of [[equivalence classes]] under the [[equivalence relation]] on the set of [[objects]], which regards two objects as equivalent, if there is any [[morphism]] between them.
+
+=--
+
 
 
 ## Basic notions of Categorical algebra
@@ -2119,6 +2171,17 @@ Accordingly, it is also called the **[[internal hom]]** between $Y$ and $Z$.
 **([[Set]] is a [[cartesian closed category]])**
 
 The [[category]] [[Set]] of all [[sets]] (Example \ref{CategoryOfAllSets}) equipped with its [[cartesian monoidal category]]-structure (Example \ref{CartesianMonoidalCategory}) is a [[closed monoidal category]] (Def. \ref{ClosedMonoidalCategory}), hence a _[[cartesian closed category]_. The [[Cartesian product]] is the original [[Cartesian product]] of sets, and the [[internal hom]] is the [[function set]] $[X,Y]$ of functions from $X$ to $Y$
+
+=--
+
++-- {: .num_example #GrpdIsACartesianClosedCategory}
+###### Example
+**([[Grpd]] is a [[cartesian closed category]])**
+
+The [[category]] [[Grpd]] (Example \ref{CategoriesOfSmallCategories}) of all [[small groupoid|small]] [[groupoids]] (Example \ref{Groupoid}) is a 
+[[cartesian monoidal category]]-structure (Example \ref{CartesianMonoidalCategory}) with [[Cartesian product]] given by forming [[product categories]] (Example \ref{ProductCategory}).
+This yields a [[closed monoidal category]] (Def. \ref{ClosedMonoidalCategory}), hence a [[cartesian closed category]]: the [[internal hom]] is given by the [[functor category]] construction (Example \ref{FunctorCategory}).
+
 
 =--
 
@@ -2536,11 +2599,11 @@ A _[[Jean Benabou|Bénabou]] [[cosmos]] for [[enriched category theory]]_, or ju
 ###### Example
 **(examples of [[cosmoi]] for [[enriched category theory]])**
 
-The following are examples of [[cosmoi]] (Def. \ref{Cosmos})
+The following are examples of [[cosmoi]] (Def. \ref{Cosmos}):
 
-1. [[Set]] (Def. \ref{CategoryOfAllSets}) equipped with its [[cartesian monoidal category]]-structure (Example \ref{SetIsCartesianClosed})
+1. [[Set]] (Def. \ref{CategoryOfAllSets}) equipped with its [[cartesian closed category]]-structure (Example \ref{SetIsCartesianClosed})
 
-1. [[sSet]] ...
+1. [[Grpd]] (Def. \ref{CategoriesOfSmallCategories}) equipped with its [[cartesian closed category]]-structure (Example \ref{GrpdIsACartesianClosedCategory}).
 
 =--
 
@@ -4583,7 +4646,7 @@ To see that these coverings satisfy the condition (eq:ConditionOnCoverage): The 
 
 Example \ref{DifferentiablyGoodOpenCoversOfSmoothManifolds} is further developed in the chapter _[[geometry of physics -- smooth homotopy types|on smooth homotopy types]]_.
 
-### Sheaves
+### Descent
 
 +-- {: .num_defn #CompatibleElements}
 ###### Definition
@@ -4633,7 +4696,9 @@ $$
   Set
 $$
 
-for the set of [[matching families]] for the given presheaf and covering.
+for the set of [[matching families]] for the given presheaf and covering. 
+
+This is also called the _[[descent object]]_ of $\mathbf{Y}$ for _[[descent]]_ along the [[covering]] $\{U_i \overset{\iota_i}{\to}X\}$.
 
 =--
 
@@ -4797,71 +4862,34 @@ The first of these says that the [[internal language]] is [[dependent type theor
 (...)
 
 
-### Stacks
+### Codescent
 
 In order to understand the sheaf condition (eq:SheafCondition) better, it is useful to consider [[Cech groupoids]].
 
-+-- {: .num_defn #ReflectiveSubcategory}
-###### Definition
-**([[reflective subcategory]])**
-
-A [[fully faithful functor]] 
-
-$$
-  \mathcal{C}
-  \hookrightarrow
-  \mathcal{D}
-$$
-
-hence a [[full subcategory]]-inclusion (Def. \ref{FullyFaithfulFunctor}) is called a _[[reflective subcategory]] inclusion_ if this functor has a [[left adjoint]] (def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets})
-
-$$
-  \mathcal{C}
-    \underoverset
-      {\underset{\phantom{AA} \iota \phantom{AA}}{\hookrightarrow}}
-      {\overset{L}{\longleftarrow}}
-      {\bot}
-  \mathcal{D}
-$$
-
-Here the [[left adjoint]] is also called the _[[reflector]]_.
-
-=--
-
-+-- {: .num_example #ReflectiveSubcategoryInclusionOfSetsIntoGroupoids}
-###### Example
-**([[reflective subcategory]] inclusion of [[sets]] into [[small groupoid|small]] [[groupoids]])**
-
-There is a [[reflective subcategory]]-inclusion (Def. \ref{ReflectiveSubcategory})
-
-$$
-  Set
-    \underoverset
-     {\underset{\phantom{AAAA}}{\hookrightarrow}}
-     {\overset{\pi_0}{\longleftarrow}}
-     {\bot}
-  Grp
-$$
-
-of the [[category of sets]] (Example \ref{CategoryOfAllSets}) into the [[category]] [[Grpd]] of [[small groupoids|small]] [[groipoids]] (Example \ref{Groupoid}) where
-
-* the [[right adjoint]] [[full subcategory]] inclusion (Def. \ref{FullyFaithfulFunctor}) sends a [[set]] $S$ to the [[groupoid]] with set of objects being $S$, and the only [[morphisms]] being the [[identity morphisms]] on these objects (also called the _[[discrete groupoid]]_ on $S$, but this terminology is ambiguous)
-
-* the [[left adjoint]] [[reflector]] sends a [[small groupoid|small]] [[groupoid]] $\mathcal{G}$ to its set of [[connected components]], namely to the set of [[equivalence classes]] under the [[equivalence relation]] on the set of [[objects]], which regards two objects as equivalent, if there is any [[morphism]] between them.
-
-=--
 
 +-- {: .num_defn #PresheafOfGroupoids}
 ###### Definition
 **([[presheaves of groupoids]])**
-
+/
 For $\mathcal{C}$ a [[small category]] (Def. \ref{SmallCategory}) the [[functor category]] (Example \ref{FunctorCategory}) 
 
 $$
   [\mathcal{C}^{op}, Grpd]
 $$
 
-from the [[opposite category]] of $\mathcal{C}$ (Example \ref{OppositeCategory}) to the category [[Grpd]] of [[small groupoid|small]] [[groupoids]] (Example \ref{CategoriesOfSmallCategories}) may be thought of as the category of _[[presheaves of groupoids]]_. In fact there is the [[reflective subcategory]]-inclusion (Def. \ref{ReflectiveSubcategory}) of the [[category of presheaves]] (Example \ref{CategoryOfPresheaves})
+from the [[opposite category]] of $\mathcal{C}$ (Example \ref{OppositeCategory}) to the category [[Grpd]] of [[small groupoid|small]] [[groupoids]] (Example \ref{CategoriesOfSmallCategories}) may be thought of as the category of _[[presheaves of groupoids]]_. 
+
+By Example \ref{ExamplesOfCosmoi} we may regard [[Grpd]] as a [[cosmos]] for [[enriched category theory]]. Since the inclusion $Set \hookrightarrow Grpd$ (Example \ref{ReflectiveSubcategoryInclusionOfSetsIntoGroupoids}) is a morphism of cosmoi (...), the category $\mathcal{C}$ may be thought of as a [[Grpd]]-[[enriched category]] (Def. \ref{TopEnrichedCategory}) and then a functor $\mathcal{C}^{op} \to Grpd$ is equivalently a [[Grpd]]-[[enriched functor]] (Def. \ref{TopologicallyEnrichedFunctor}).
+
+This means that the plain [[category of functors]] $[\mathcal{C}^{op}, Grpd]$ enriches to [[Grpd]]-[[enriched category]] of [[Grpd]]-[[enriched presheaves]] (Example \ref{EnrichedPresheaf}).
+
+=--
+
++-- {: .num_example #PresaheavesOfSetsReflectiveInPresheavesOfGroupoids}
+###### Example
+**([[presheaves]] of [[sets]] form [[reflective subcategory]] of [[presheaves of groupoids]])**
+
+Let $\mathcal{C}$ be a [[small category]] (Def. \ref{SmallCategory}). There is the [[reflective subcategory]]-inclusion (Def. \ref{ReflectiveSubcategory}) of the [[category of presheaves]] over $\mathcal{C}$ (Example \ref{CategoryOfPresheaves}) into the category of [[presheaves of groupoids]] over $\mathcal{C}$ (Def. \ref{PresheafOfGroupoids})
 
 $$
   [\mathcal{C}^{op}, Set]
@@ -4876,8 +4904,9 @@ which is given over each object of $\mathcal{C}$ by the reflective inclusion of 
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #CechGroupoid}
 ###### Example
+**([[Cech groupoid]])**
 
 Let $\mathcal{C}$ be a [[site]] (Def. \ref{Coverage}), and $X \in \mathcal{C}$ an [[object]] of that site. For each [[covering]] family $\{ U_i \overset{\iota_i}{\to} X\}$ of $X$ in the given [[coverage]], the _[[Cech groupoid]]_ is the [[presheaf of groupoids]] (Def. \ref{PresheafOfGroupoids})
 
@@ -4930,7 +4959,63 @@ precisely if
 
 =--
 
-Condition (eq:CechMatchingCondition) for [[morphisms]] in the [[Cech groupoid]] to be well-defined is verbatim the condition(eq:MatchingCondition) in the definition of [[matching families]]. Indeed, [[Cech groupoids]] serve to conveniently summarize (and then generalize) the [[sheaf|sheaf condition]] (Def. \ref{Sheaf})
+Condition (eq:CechMatchingCondition) for [[morphisms]] in the [[Cech groupoid]] to be well-defined is verbatim the condition (eq:MatchingCondition) in the definition of [[matching families]]. Indeed, [[Cech groupoids]] serve to conveniently summarize (and then generalize) the [[sheaf|sheaf condition]]  (Def. \ref{Sheaf})
+
++-- {: .num_example }
+###### Proposition
+**([[Cech groupoid]] co-represents [[matching families]])**
+
+For [[Grpd]] regarded as a [[cosmos]] (Example \ref{ExamplesOfCosmoi}), and $\mathcal{C}$ a [[site]] (Def. \ref{Coverage}), let
+
+$$
+  \mathbf{Y} \in [\mathcal{C}^{op}, Set] \hookrightarrow [\mathcal{C}^{op}, Grpd]
+$$
+
+be a [[presheaf]] on $\mathcal{C}$ (Example \ref{CategoryOfPresheaves}), regarded as a [[Grpd]]-[[enriched presheaf]] via Example \ref{PresaheavesOfSetsReflectiveInPresheavesOfGroupoids}, let $X \in \mathcal{C}$ be any [[object]] and $\{U_i \overset{\iota_i}{\to} X\}_i$ a [[covering]] family (Def. \ref{Coverage}) with induced [[Cech groupoid]] $C(\{U_i\}_i)$ (Example \ref{CechGroupoid}).
+
+Then there is an [[isomorphism]]
+
+$$
+  [\mathcal{C}^{op},Grpd]
+  \left(
+    C\left(\{U_i\}_i\right), \, \mathbf{Y}
+  \right)
+  \;\simeq\;
+  Match\left( \{U_i\}_i, \, \mathbf{Y} \right)
+$$
+
+between the [[hom-object|hom-groupoid]] of [[Grpd]]-[[enriched presheaves]] (Def. \ref{PointedTopologicalFunctorCategory}) and the set of [[matching families]] (Def. \ref{CompatibleElements}).
+
+Since hence the Cech-groupoid co-represents the [[descent object]], it is sometimes called the _[[codescent object]]_ along the given covering.
+
+Moreover, under this identification the canonical morphism $C\left( \{U_i\}_i \right) \overset{p_{\{U_i\}_i}}{\longrightarrow} X$ induces the comparison morphism (eq:SheafComparison)
+
+$$
+  \array{    
+    [\mathcal{C}^{op}, Grpd]\left( X, \, \mathbf{Y} \right)
+    & \simeq &
+    \mathbf{Y}(X) 
+    \\
+    {}^{
+      \mathllap{
+        [\mathcal{C}^{op}, Grpd](p_{\{U_i\}_i}, \mathbf{Y})
+      }
+    }\downarrow && \downarrow
+    \\
+    [\mathcal{C}^{op},Grpd]
+    \left(
+      C\left(\{U_i\}_i\right), \, \mathbf{Y}
+    \right)
+    &\simeq&
+    Match\left( \{U_i\}_i, \, \mathbf{Y} \right)
+  }
+  \,.
+$$
+
+In conclusion, this means that the [[presheaf]] $\mathbf{Y}$ is a [[sheaf]] (Def. \ref{Sheaf}) precisely if homming Cech groupoid projections into it produces an isomorphism.
+
+=--
+
 
 (...)
 
