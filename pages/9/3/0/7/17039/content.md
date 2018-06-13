@@ -58,6 +58,8 @@ on current developments regarding foundations of [[geometry]] in [[mathematics]]
 
 ([video recording](https://www.youtube.com/watch?v=4sZDmiVOhaA))
 
+(lecture notes [pdf](http://math.huji.ac.il/~piz/documents/AITD.pdf))
+
 ## 2. Spaces with categories of points
 
 ### Geometric aspects of topos theory in relation with logical doctrines (Andr&#233; Joyal)
