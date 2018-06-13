@@ -141,7 +141,7 @@ of $\mathbb{R}$-[[associative algebras|algebras]] of [[smooth functions]] with [
 $$
   \mathcal{O}(\mathbb{R}^{p\vert q})
     \;\coloneqq\;
-  C^\infty(\mathbb{R}^q) \otimes_{\mathbb{R}} \wedge^\bullet (\mathbb{R}^\ast)^q
+  C^\infty(\mathbb{R}^p) \otimes_{\mathbb{R}} \wedge^\bullet (\mathbb{R}^\ast)^q
   \,.
 $$
 
@@ -1573,7 +1573,7 @@ We now discuss [[mapping spaces]] in [[supergeometry]]. These are interesting in
 
 1. for the theory -- mapping spaces nicely exhibit the usage and the power of the [[functor of points]] perspective (remark \ref{ASheafAsASpace});
 
-1. for applications -- in[[physics]] a [[superfield]] is really a [[generalized element]] of a mapping space, and hence  the [[phase spaces]] of interest in [[physics]] are [[mapping spaces]] (in the generality of spaces of [[spaces of sections]], namely of a [[field bundle]]).
+1. for applications -- in [[physics]] a [[superfield]] is really a [[generalized element]] of a mapping space, and hence  the [[phase spaces]] of interest in [[physics]] are [[mapping spaces]] (in the generality of spaces of [[spaces of sections]], namely of a [[field bundle]]).
 
 The key idea is that [[sets]] of functions between sets have the following [[universal property]]:
 
