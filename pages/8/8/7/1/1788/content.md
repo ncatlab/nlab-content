@@ -1,7 +1,3 @@
-Test!....
-
-
-
 $$
   \begin{aligned}
     [\mathcal{D}, \mathcal{V}]( G,\, Ran_p F  )
