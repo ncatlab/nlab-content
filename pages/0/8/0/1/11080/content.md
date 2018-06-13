@@ -254,10 +254,11 @@ If $X$ is supposed to be consistently probable by coordinate systems, then it mu
 A pre-smooth set $X$, def. \ref{SmoothPreSpace} is a **[[smooth set]]** if for all differentially good open covers $\{U_i \to \mathbb{R}^n\}$ 
 (def. \ref{DifferentiallyGoodOpenCover}) the canonical comparison function of remark \ref{NaiveDescentMorphism} from plots to glued plots is a [[bijection]]
 
-$$
+\[
+  \label{ConditionSmoothSet}
   X(\mathbb{R}^n) \stackrel{\simeq}{\longrightarrow} GluedPlots(\{U_i \to \mathbb{R}^n\}, X)
   \,.
-$$
+\]
 
 =--
 
@@ -836,44 +837,35 @@ This is a straightforward matter of matching definitions. We spell it out:
 
 * a _[[smooth set]]_, def. \ref{SmoothSpace}, is equivalently a presheaf on [[CartSp]] ([this prop.](geometry+of+physics+--+coordinate+systems#CartSpCategory)) which is a [[sheaf]] ([this def.](geometry+of+physics+--+Categories+and+Toposes#Sheaf)) with respect to the [[coverage]] ([this def.](geometry+of+physics+--+Categories+and+Toposes#Coverage)) of differentially [[good open cover]] (def. \ref{DifferentiallyGoodOpenCover}):
 
-  * the set of "glued plots", def. \ref{MatchingFamiliesOfPlots} is the set of [[matching families]] ([this def.](geometry+of+physics+--+Categories+and+Toposes#CompatibleElements)), also called the _[[descent object]]_;
+  * the set of "glued plots" (def. \ref{MatchingFamiliesOfPlots}) is the set of [[matching families]] ([this def.](geometry+of+physics+--+Categories+and+Toposes#CompatibleElements))
 
-  * the canonical morphism of remark \ref{NaiveDescentMorphism} is the [[descent morphism]];
+  * the comparison morphism from global plots  to glued plots of remark \ref{NaiveDescentMorphism} is the comparison map from to [[matching families]] ([here](geometry+of+physics+--+categories+and+toposes#eq:SheafComparison));
 
-  * the condition that it be an isomorphism (for each differentially good open cover, def. \ref{DifferentiallyGoodOpenCover}) is the [[descent]]- or [[sheaf]] condition ([here](geometry+of+physics+--+Categories+and+Toposes#eq:SheafCondition))
+  * the condition (eq:ConditionSmoothSet) that this be a [[bijection]] is the _[[sheaf|sheaf condition]]_  ([here](geometry+of+physics+--+Categories+and+Toposes#eq:SheafCondition)).
 
 =--
 
 
-The [[sheaf topos]] of [[smooth sets]] from Prop. \ref{SmoothSetsAreSheavesOnCartSp} enjoys a few crucial properties: it is
-
-* a [[locally connected topos|locally connected]] and [[connected topos]]
-
-* a [[local topos]]
-
-* a [[cohesive topos]]. 
-
-This we now explain and discuss in the remainder of this section.
-
-
-+-- {: .num_lemma}
++-- {: .num_lemma #AdjointQuadrupleOnPreSmoothSets}
 ###### Lemma
+**([[adjoint quadruple]] of pre-smooth sets)**
 
-There is an [[adjoint quadruple]] of [[functors]] between the [[category of presheaves]] over [[CartSp]] and the [[category of sets]]
+There is an [[adjoint quadruple]] of [[functors]] between pre-smooth sets (Def. \ref{SmoothPreSpace}) hence, by Prop. \ref{SmoothSetsAreSheavesOnCartSp} the [[category of presheaves]] over [[CartSp]], and the [[category of sets]]
 
-$$
+\[
+  \label{PreaheafAdjointQuadruple}
   [CartSp^{op}, Set]
     \array{
-      \overset{\phantom{AA} \Pi_0 \phantom{AA}}{\longrightarrow}
+      \overset{\phantom{AAA} \Pi_0 \phantom{AAA}}{\longrightarrow}
       \\
       \overset{\phantom{AA} Disc \phantom{AA} }{\longleftarrow}
       \\
-      \overset{\phantom{AA} \Gamma \phantom{AA} }{\longrightarrow}
+      \overset{\phantom{AAA} \Gamma \phantom{AAA} }{\longrightarrow}
       \\
       \overset{\phantom{AA} coDisc \phantom{AA} }{\longleftarrow}
     }
-  [\ast, Set] = Set
-$$
+  [\ast, Set] \simeq Set
+\]
 
 such that 
 
@@ -892,7 +884,7 @@ such that
 +-- {: .proof}
 ###### Proof
 
-Since [[CartSp]] has a [[terminal object]], given by the [[point]] $\ast =\mathbb{R}^0 \on CartSp$, there is an [[adjoint pair]] of [[functors]] between $CartSp$ and the [[terminal category]] ([this Example](geometry+of+physics+--+Categories+and+Toposes#InitialCategoryAndTerminalCategory))
+Since [[CartSp]] has a [[terminal object]], given by the [[point]] $\ast = \mathbb{R}^0 \on CartSp$, there is an [[adjoint pair]] of [[functors]] between $CartSp$ and the [[terminal category]] ([this Example](geometry+of+physics+--+Categories+and+Toposes#InitialCategoryAndTerminalCategory))
 
 $$
   \ast
@@ -920,19 +912,17 @@ This finally implies that also $coDisc$ is fully faithful, by [this prop.](geome
 
 (...)
 
-This motivates to ask for [[coverages]] on $\mathcal{C}$ such that these [[adjoint quadruples]] descend to [[categories of presheaves]] to the [[categories of sheaves]]:
+Lemma \ref{AdjointQuadrupleOnPreSmoothSets} in fact holds with [[CartSp]] replaced by any [[small category]] $\mathcal{C}$ with a [[terminal object]], since this is the only property of [[CartSp]] that was used in the proof. This motivates to ask for [[coverages]] on $\mathcal{C}$ such that the [[adjoint quadruple]] (eq:PreaheafAdjointQuadruple) restricts from [[categories of presheaves]] to the corresponding [[categories of sheaves]]. The following definition spells out one sufficient condition for this to happen:
 
 +-- {: .num_defn #OneCohesiveSite}
 ###### Definition
 **([[1-cohesive site]])**
 
-We call a [[site]] $\mathcal{C}$ _[[1-cohesive site|1-cohesive]] over [[Grpd]]_ if the following conditions are satisfied:
- 
-1. $\mathcal{C}$ has [[finite products]];
-  
-1. for every [[covering]] family $\{U_i \to X\}_i$ in $\mathcal{C}$ the [[Cech groupoid]] $C(\{U_i\}_i) \in [C^{op}, Grpd]$ has, as a [[presheaf of groupoids]], as [[objects]] and [[morphisms]] [[coproducts]] of [[representable functor]], such that:
+We call a [[site]] $\mathcal{C}$ ([this def.](geometry+of+physics+--+categories+and+toposes#Coverage)) _[[1-cohesive site|1-cohesive]] over [[Grpd]]_ if the following conditions are satisfied:
+   
+1. For every [[covering]] family $\{U_i \to X\}_i$ in the given [[coverage]] on  $\mathcal{C}$ the induced [[Cech groupoid]] $C(\{U_i\}_i) \in [C^{op}, Grpd]$ ([this def.](geometry+of+physics+--+categories+and+toposes#CechGroupoid)) has,  as an [[internal groupoid]] in [[presheaves]] (...) not only the object of objects but also that of morphsims a [[coproduct]] of [[representable functors]], such that
 
-   1. the [[groupoid]] obtained by replacing each copy of a representable by a point is [[contractible]] ([[equivalence of categories]] to the [[point]], i.e. to the [[terminal groupoid]]:
+   1. the [[groupoid]] obtained by replacing each copy of a representable by a point is [[contractible]] ([[equivalence of categories|equivalent]] to the [[point]], i.e. to the [[terminal groupoid]]:
 
       $$
         \underset{\underset{\mathcal{C}}{\longrightarrow}}{\lim} 
@@ -941,7 +931,7 @@ We call a [[site]] $\mathcal{C}$ _[[1-cohesive site|1-cohesive]] over [[Grpd]]_ 
          \ast
       $$
 
-   1. the [[groupoid]] of sets of points in $C(\{U_i\})$ is [[equivalence of categories|equivalent]] the set of points of $X$:
+   1. the [[groupoid]] of sets of points ([[global elements]]) in $C(\{U_i\})$ is [[equivalence of categories|equivalent]] the set of points of $X$:
 
       $$
         \underset{\underset{\mathcal{C}}{\longleftarrow}}{\lim} C(\{U_i\})
@@ -949,7 +939,10 @@ We call a [[site]] $\mathcal{C}$ _[[1-cohesive site|1-cohesive]] over [[Grpd]]_ 
         Hom_{\mathcal{C}}(\ast,X)
         \,.
       $$
-  
+ 
+1. the [[category]] $\mathcal{C}$ has [[finite products]];
+
+ 
 =--
 
 (...)
