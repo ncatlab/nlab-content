@@ -191,24 +191,24 @@ On the other hand, if the Vop&#283;nka scheme also fails, then there will be exp
 
 The relation to the theory of [[locally presentable categories]] is the contents of chapter 6 of
 
-* [[Jiri Adamek]], [[Ji?í Rosický]], _[[Locally presentable and accessible categories]]_,  London Mathematical Society Lecture Note Series 189
+* [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_,  London Mathematical Society Lecture Note Series 189
 {#AdamekRosicky}
 
 The relation to [[combinatorial model categories]] is discussed in
 
-* [[Ji?í Rosický]], _Are all cofibrantly generated model categories combinatorial?_ ([ps](http://www.math.muni.cz/~rosicky/papers/cof1.ps))
+* [[Jiří Rosický]], _Are all cofibrantly generated model categories combinatorial?_ ([ps](http://www.math.muni.cz/~rosicky/papers/cof1.ps))
 {#Rosicky}
 
 The implication of VP on [[homotopy theory]], [[model categories]] and [[cohomology localization]] are discussed in the following articles
 
-* [[Ji?í Rosický]], [[Walter Tholen]], _Left-determined model categories and universal homotopy theories_  Transactions of the American Mathematical Society
+* [[Jiří Rosický]], [[Walter Tholen]], _Left-determined model categories and universal homotopy theories_  Transactions of the American Mathematical Society
 Vol. 355, No. 9 (Sep., 2003), pp. 3611-3623 ([JSTOR](http://www.jstor.org/stable/1194855)).
 {#RosickyTholen}
 
 * [[Carles Casacuberta]], Dirk Scevenels, [[Jeff Smith]], _Implications of large-cardinal principles in homotopical localization_  Advances in Mathematics
 Volume 197, Issue 1, 20 October 2005, Pages 120-139 
 
-* Joan Bagaria, [[Carles Casacuberta]], Adrian Mathias, [[Jiri Rosicky]] _Definable orthogonality classes in accessible categories are small_, [arXiv](http://arxiv.org/abs/1101.2792)
+* Joan Bagaria, [[Carles Casacuberta]], Adrian Mathias, [[Jiří Rosicky]] _Definable orthogonality classes in accessible categories are small_, [arXiv](http://arxiv.org/abs/1101.2792)
 {#BagariaCasacubertaMathiasRosicky}
 
 category: foundational axiom
