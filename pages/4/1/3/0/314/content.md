@@ -16,6 +16,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -476,12 +477,14 @@ Let $D$ be a small category and let $D'$ be any category. Let $C$ be a category 
 * these limits are computed objectwise ("pointwise") in $C$:  for $F : D^{op} \to [D',C]$ a functor we have for all $d' \in D'$ that $(lim F)(d') \simeq lim (F(-)(d'))$. Here the limit on the right is in $C$.
 =--
 
-### Compatibility with adjoints
+### Compatibility with universal constructions
+ {#CompatibilityAmongUniversalConstructions}
 
-+-- {: .un_prop}
-###### Proposition -- right adjoints commute with limits
++-- {: .num_prop #RightAdjointsPreserveLimits}
+###### Proposition
+**([[right adjoints preserve limits]])
 
-Let $R : C \to C'$ be a functor that is [[right adjoint]] to some functor $L : C' \to C$. Let $D$ be a small category such that $C$ admits limits of shape $D$. Then $R$ [[preserved limit|commutes with]] $D$-shaped limits in $C$ in that
+Let $R \;\colon\; C \to C'$ be a [[functor]] that is [[right adjoint]] to some functor $L : C' \to C$. Let $D$ be a [[small category]] such that $C$ admits [[limits]] of shape $D$. Then $R$ [[preserved limit|commutes with]] $D$-shaped limits in $C$ in that
 
 for $F : D^{op} \to C$ some diagram, we have
 
@@ -494,7 +497,8 @@ $$
 +-- {: .proof}
 ######Proof
 
-Using the adjunction isomorphism and the above fact that Hom commutes with limits, one obtains for every $c' \in C'$
+Using the adjunction isomorphism and the above fact that [[hom-functor preserves limits]], one obtains for every $c' \in C'$
+
 $$
 \begin{aligned}
   C'(c', R (lim F)) & \simeq C(L(c'), lim F)
@@ -510,37 +514,47 @@ $$
 $$
 
 Since this holds naturally for every $c'$, the [[Yoneda lemma|Yoneda lemma, corollary II]] on uniqueness of representing objects implies that $R (lim F) \simeq lim (G \circ F)$.
+
 =--
 
-### Commutativity with limits and colimits
 
 
++-- {: .num_prop #LimitsCommuteWithLimits}
+###### Proposition
+**([[limits commute with limits]])**
 
-+-- {: .un_prop}
-###### Proposition -- small limits commute with small limits
+Let $D$ and $D'$ be [[small categories]] and let $C$ be
+a category which admits [[limits]] of shape $D$ as well as
+[[limits]] of shape $D'$. Then these limits commute with each other, in that 
+for $F : D^{op} \times {D'}^{op} \to C$ a [[functor]] , with corresponding induced functors $F_D : {D'}^{op} \to [D^{op},C]$ and $F_{D'} : {D}^{op} \to [{D'}^{op},C]$, then the canonical comparison morphism 
 
-Let $D$ and $D'$ be small catgeories and let $C$ be
-a category which admits limits of shape $D$ as well as
-limits of shape $D'$. Then these limits commute with each other, in that 
-
-for $F : D^{op} \times {D'}^{op} \to C$ a functor , with corresponding induced functors $F_D : {D'}^{op} \to [D^{op},C]$ and $F_{D'} : {D}^{op} \to [{D'}^{op},C]$, then
-$$
+\[
+  \label{ComparisonMorphismForCommutingLimits}
   lim F \simeq lim_{D}  (lim_{D'} F_D )
   \simeq
    lim_{D'}  (lim_{D} F_{D'} )
-  \,.
-$$
+\]
+
+is an [[isomorphism]].
+
 =--
 
 +-- {: .proof}
 ######Proof
 
-This follows from the above proposition and the characterization of the limit as right adjoint to the functor $const$ defined above in the section on adjoints.
+Since the [[limit]]-construction is the [[right adjoint]] functor to the [[constant functor|constant]] [[diagram]]-functor, this is a special case of _[[right adjoints preserve limits]]_ (Prop. \ref{RightAdjointsPreserveLimits}).
+
 =--
 
-See [[limits and colimits by example]] for what this formula says for instance for the special case $C =$ [[Set]].
+See [[limits and colimits by example]] for what formula (eq:ComparisonMorphismForCommutingLimits) says for instance for the special case $C =$ [[Set]].
 
-In general limits do not commute with colimits. But under a number of special conditions of interest they do. More on that at [[commutativity of limits and colimits]].
++-- {: .num_remark}
+###### Remark
+**(general non-commutativity of limits with colimits)**
+
+In general limits do _not_ commute with [[colimits]]. But under a number of special conditions of interest they do. Special cases and concrete examples are discussed at _[[commutativity of limits and colimits]]_.
+
+=--
 
 
 ## Related concepts
