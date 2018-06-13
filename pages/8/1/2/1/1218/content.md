@@ -16,7 +16,7 @@
 {:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea
@@ -516,19 +516,24 @@ A textbook about [[differential geometry]] formulated in terms of diffeological 
 
 * {#PIZ} [[Patrick Iglesias-Zemmour]], _Diffeology_, Mathematical Surveys and Monographs, AMS (2013) ([web](http://math.huji.ac.il/~piz/Site/The%20Book.html), [publisher](http://www.ams.org/bookstore-getitem/item=SURV-185))
  
-The term "diffeological space" originates in the work of this author.
-
-The thesis
+The term "diffeological space" originates here. The thesis
 
 * [[Patrick Iglesias-Zemmour]], _Fibrations diff&#233;ologiques et Homotopie_,  PhD thesis (1985) [pdf](http://math.huji.ac.il/~piz/documents/TheseEtatPI.pdf)
 
 contains some useful material that hasn't yet made it into the book. 
 
-The embedding of [[Banach manifolds]] into the category of diffeological spaces is due to 
+Exposition and lecture notes are in 
 
-* [[Richard Hain]], _A characterization of smooth functions defined on a Banach space_,  Proc. Amer. Math. Soc. 77 (1979), 63-67 ([web](http://www.ams.org/journals/proc/1979-077-01/S0002-9939-1979-0539632-8/home.html), [pdf](http://www.ams.org/journals/proc/1979-077-01/S0002-9939-1979-0539632-8/S0002-9939-1979-0539632-8.pdf))
- {#Hain}
+* [[Patrick Iglesias-Zemmour]], _Diffeologies_, talk at _[[New Spaces for Mathematics and Physics]]_, IHP Paris 2015 ([video recording](https://www.youtube.com/watch?v=4sZDmiVOhaA))
 
+* {#IglesiasZemmour18} [[Patrick Iglesias-Zemmour]], _An introduction to diffeology_, lecture at _[Modern Mathematics Methods in Physics:
+Diffeology, Categories and Toposes
+and Non-commutative Geometry Summer School](http://www.nesinkoyleri.org/eng/events-detail.php?egitimkod=203)_, 2018, to appear in _[[New Spaces for Mathematics and Physics]]_ ([pdf](http://math.huji.ac.il/~piz/documents/AITD.pdf))
+
+The [[full subcategory]]-inclusion of [[Banach manifolds]] into the category of diffeological spaces is due to 
+
+* {#Hain} [[Richard Hain]], _A characterization of smooth functions defined on a Banach space_,  Proc. Amer. Math. Soc. 77 (1979), 63-67 ([web](http://www.ams.org/journals/proc/1979-077-01/S0002-9939-1979-0539632-8/home.html), [pdf](http://www.ams.org/journals/proc/1979-077-01/S0002-9939-1979-0539632-8/S0002-9939-1979-0539632-8.pdf))
+ 
 The (non-full) embedding of [[locally convex vector spaces]] and [[Michal-Bastiani smooth maps]] into diffeological spaces is discussed around corollary 3.14 in 
 
 * {#KrieglMichor} [[Andreas Kriegl]], [[Peter Michor]]: _[[The convenient setting of global analysis]]_, AMS (1997) 
@@ -537,7 +542,7 @@ That there are diffeologically-smooth maps between locally convex vector spaces 
 
 * {#Glockner06} Helge Gl&#246;ckner, _Discontinuous non-linear mappings on locally convex direct limits_, Publ. Math. Debrecen 68 (2006) 1-13, [arXiv:math/0503387](http://arxiv.org/abs/math/0503387).
 
-The embedding of [[Fréchet manifolds]] into diffeological spaces is discussed in 
+The [[full subcategory]]-inclusion of [[Fréchet manifolds]] into diffeological spaces is discussed in 
 
 * M. V. Losik, _Fr&#233;chet manifolds as diffeological spaces_, Soviet. Math. 5 (1992)  
 
@@ -549,7 +554,6 @@ and reviewed in section 3 of
 The proof can in fact be deduced from th&#233;or&#232;me 1 of
 
 * {#Frolicher} [[Alfred Frölicher]], _Applications lisses entre espaces et vari&#233;t&#233;s de Fr&#233;chet_, C. R. Acad. Sci. Paris S&#233;r. I Math. **293** (1981), no. 2, 125&#8211;127. [BnF](http://gallica.bnf.fr/ark:/12148/bpt6k5533894s/f31.image)
-
 
 The preservation of [[mapping spaces]] under this embedding is due to
 
@@ -567,10 +571,6 @@ Some [[homotopy theory]] modeled on diffeological spaces instead of on [[topolog
 Discussion in the context of applications to [[continuum mechanics]] is in 
 
 * [[William Lawvere]], [[Stephen Schanuel]] (eds.), _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982, Lecture Notes in Mathematics 1174, 986  
-
-Expository survey includes
-
-* [[Patrick Iglesias-Zemmour]], _Diffeologies_, talk at _[[New Spaces for Mathematics and Physics]]_, IHP Paris 2015 ([video recording](https://www.youtube.com/watch?v=4sZDmiVOhaA))
 
 
 [[!redirects diffeological space]]
