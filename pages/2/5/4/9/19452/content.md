@@ -2176,11 +2176,16 @@ The [[category]] [[Set]] of all [[sets]] (Example \ref{CategoryOfAllSets}) equip
 
 +-- {: .num_example #GrpdIsACartesianClosedCategory}
 ###### Example
-**([[Grpd]] is a [[cartesian closed category]])**
+**([[Cat]] and [[Grpd]] are [[cartesian closed category]])**
 
-The [[category]] [[Grpd]] (Example \ref{CategoriesOfSmallCategories}) of all [[small groupoid|small]] [[groupoids]] (Example \ref{Groupoid}) is a 
+The [[category]] [[Cat]] (Example \ref{CategoriesOfSmallCategories}) of all [[small categories]] (Example \ref{SmallCategory}) is a 
 [[cartesian monoidal category]]-structure (Example \ref{CartesianMonoidalCategory}) with [[Cartesian product]] given by forming [[product categories]] (Example \ref{ProductCategory}).
-This yields a [[closed monoidal category]] (Def. \ref{ClosedMonoidalCategory}), hence a [[cartesian closed category]]: the [[internal hom]] is given by the [[functor category]] construction (Example \ref{FunctorCategory}).
+
+
+Inside this, the [[full subcategory]] [[Grpd]] (Example \ref{CategoriesOfSmallCategories}) of all [[small groupoid|small]] [[groupoids]] (Example \ref{Groupoid}) is itself a 
+[[cartesian monoidal category]]-structure (Example \ref{CartesianMonoidalCategory}) with [[Cartesian product]] given by forming [[product categories]] (Example \ref{ProductCategory}).
+
+In both cases this yields a [[closed monoidal category]] (Def. \ref{ClosedMonoidalCategory}), hence a [[cartesian closed category]]: the [[internal hom]] is given by the [[functor category]] construction (Example \ref{FunctorCategory}).
 
 
 =--
@@ -3392,6 +3397,57 @@ $$
 The argument that shows the preservation of colimits by $L$ is analogous.
 
 =--
+
+
++-- {: .num_prop #LimitsCommuteWithLimits}
+###### Proposition
+**([[limits commute with limits]])**
+
+Let $\mathcal{D}$ and $\mathcal{D}'$ be [[small categories]] (Def. \ref{SmallCategory}) and let $\mathcal{C}$ be a [[category]] (Def. \ref{Categories}) which admits [[limits]] of shape $\mathcal{D}$ as well as [[limits]] of shape $\mathcal{D}'$. Then these limits "commute" with each other, in that 
+for $F \;\colon\; \mathcal{D} \times {\mathcal{D}'} \to \mathcal{C}$ a [[functor]] (hence a [[diagram]] of shape the [[product category]]), with corresponding [[adjunct]] functors (via Example \ref{GrpdIsACartesianClosedCategory})
+
+$$
+  {\mathcal{D}'} 
+    \overset{F_{\mathcal{D}}}{\longrightarrow} 
+  [\mathcal{D},\mathcal{C}]
+  \phantom{AAA}
+  {\mathcal{D}} 
+    \overset{F_{\mathcal{D}'}}{\longrightarrow} 
+  [{\mathcal{D}'},   \mathcal{C}]
+$$
+
+we have that the canonical comparison morphism 
+
+\[
+  \label{ComparisonMorphismForCommutingLimits}
+  lim F \simeq lim_{\mathcal{D}}  (lim_{\mathcal{D}'} F_{\mathcal{D}} )
+  \simeq
+   lim_{\mathcal{D}'}  (lim_{\mathcal{D}} F_{\mathcal{D}'} )
+\]
+
+is an [[isomorphism]].
+
+=--
+
++-- {: .proof}
+######Proof
+
+Since the [[limit]]-construction is the [[right adjoint]] functor to the [[constant functor|constant]] [[diagram]]-functor, this is a special case of _[[right adjoints preserve limits]]_ (Prop. \ref{AdjointsPreserveCoLimits}).
+
+=--
+
+
+See _[[limits and colimits by example]]_ for what formula (eq:ComparisonMorphismForCommutingLimits) says for instance for the special case $\mathcal{C} =$ [[Set]].
+
++-- {: .num_remark}
+###### Remark
+**(general non-commutativity of limits with colimits)**
+
+In general limits do _not_ commute with [[colimits]]. But under a number of special conditions of interest they do. Special cases and concrete examples are discussed at _[[commutativity of limits and colimits]]_.
+
+=--
+
+
 
 
 ### Enriched (co)ends
@@ -5088,14 +5144,14 @@ $$
   \end{aligned}
 $$
 
-Here we used: first that the [[internal hom]]-functor turns colimits in its first argument into limits (Prop. \ref{InternalHomPreservesLimits}), then that [[limits commute with limits]], and finally the [[enriched Yoneda lemma]] (Prop. \ref{YonedaReductionTopological}), which here is, via Example \ref{NaturalTransformationsViaEnds}, just the plain [[Yoneda lemma]] (Prop. \ref{YonedaLemma}). The end result is hence the same [[Cartesian product]] set that also the set of matching families is defined to be a subset of, in (eq:SetOfMatching).
+Here we used: first that the [[internal hom]]-functor turns colimits in its first argument into limits (Prop. \ref{InternalHomPreservesLimits}), then that [[limits commute with limits]] (Prop. \ref{LimitsCommuteWithLimits}), hence that in particular [[ends]] commute with [[products]] , and finally the [[enriched Yoneda lemma]] (Prop. \ref{YonedaReductionTopological}), which here is, via Example \ref{NaturalTransformationsViaEnds}, just the plain [[Yoneda lemma]] (Prop. \ref{YonedaLemma}). The end result is hence the same [[Cartesian product]] set that also the set of matching families is defined to be a subset of, in (eq:SetOfMatching).
 
 This shows that an element in 
 $ \int_{V \in \mathcal{C}}
     \left[
       C\left(\{U_i\}_i\right)(V), \, \mathbf{Y}(V)
     \right]
-$ is a [[tuple]] $(\phi_i \in \mathbf{Y}(U_i))_i$, subject to some condition. This condition is that for each $V \in \mathcal{C}$ the tuple defines a [[functor]] of [[groupoids]]
+$ is a [[tuple]] $(\phi_i \in \mathbf{Y}(U_i))_i$, subject to some condition. This condition is that for each $V \in \mathcal{C}$ the assignment 
 
 $$
   \array{
@@ -5111,6 +5167,8 @@ $$
   }
 $$
 
+constitutes a [[functor]] of [[groupoids]].
+
 By definition of the [[Cech groupoid]], and since the [[codomain]] is a just [[set]] regarded as a [[groupoid]], this is the case precisely if
 
 $$
@@ -5119,10 +5177,10 @@ $$
   \mathbf{Y}(\kappa_j)(\phi_j)
   \phantom{AAAA}
   \text{for all}\, i,j
-  \,.
+  \,,
 $$
 
-This is exactly the condition (eq:GluingCondition) that makes $(\phi_i)_i$ a matching family.
+which is exactly the condition (eq:GluingCondition) that makes $(\phi_i)_i$ a matching family.
 
 =--
 
