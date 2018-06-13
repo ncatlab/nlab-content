@@ -230,7 +230,11 @@ Examples for presheaves are abundant. Here is a non-representative selection of 
 
 * [[(2,1)-presheaf]]
 
+  [[presheaf of groupoids]]
+
 * [[(∞,1)-presheaf]]
+
+  [[simplicial presheaf]]
  
 * [[(∞,n)-presheaf]]
 
