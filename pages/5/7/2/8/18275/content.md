@@ -6,8 +6,14 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
 =--
 =--
+=--
+
+
 
 
 #Contents#
@@ -130,6 +136,8 @@ Hence the third item above, the [[Yoneda lemma]], implies the claim.
 
 * [[hom-functor preserves limits]]
 
+* [[limits preserve limits]]
+
 * [[interactions of images and pre-images with unions and intersections]]
 
 * [[limits and colimits by example]]
@@ -140,3 +148,5 @@ Hence the third item above, the [[Yoneda lemma]], implies the claim.
 
 [[!redirects left adjoints preserve colimits]]
 [[!redirects right adjoints preserve limits]]
+
+
