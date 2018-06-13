@@ -251,11 +251,11 @@ $$
 
 =--
 
-Also the key respect of [[hom-functors]] for [[limits]] is inherited by [[internal hom]]-functors
+Also the key respect of [[hom-functors]] for [[limits]] is inherited by [[internal hom]]-functors:
 
 +-- {: .num_prop #InternalHomPreservesLimits}
 ###### Proposition
-**([[internal hom]] preserves [[limits]])**
+**([[internal hom-functor preserves limits]])**
 
 Let $\mathcal{C}$ be a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] with [[internal hom]]-[[bifunctor]] $[-,-]$ (Prop. \ref{InternalHomBifunctor}). Then this bifunctor preserves [[limits]] in the second variable, and sends colimits in the first variable to limits:
 
