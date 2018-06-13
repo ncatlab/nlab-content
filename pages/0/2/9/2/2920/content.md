@@ -1206,7 +1206,7 @@ If one assumes [[large cardinal]] axioms then the existence of Bousfield localiz
 +-- {: .num_theorem}
 ###### Theorem
 
-[[Vop?nka's principle]] implies the statement:
+[[Vopěnka's principle]] implies the statement:
 
 Let $C$ be a [[left proper model category|left proper]] [[combinatorial model category]] and $Z \in Mor(C)$ a [[class]] of [[morphism]]s. Then the [[Bousfield localization of model categories|left Bousfield localization]] $L_Z W$ exists.
 
@@ -1423,9 +1423,9 @@ Bousfield localization_ ([pdf](http://www.math.harvard.edu/~clarkbar/complete.pd
 
 in terms of [[enriched model category|enriched]] [[tractable model category|tractable model categories]].
 
-The relation to [[Vop?nka's principle]] is discussed in
+The relation to [[Vopěnka's principle]] is discussed in
 
-* [[Ji?í Rosický]], [[Walter Tholen]], _Left-determined model categories and universal homotopy theories_,  Transactions of the American Mathematical Society
+* [[Jiří Rosický]], [[Walter Tholen]], _Left-determined model categories and universal homotopy theories_,  Transactions of the American Mathematical Society
 Vol. 355, No. 9 (Sep., 2003), pp. 3611-3623 ([JSTOR](http://www.jstor.org/stable/1194855)).
 {#RosickyTholen}
 
