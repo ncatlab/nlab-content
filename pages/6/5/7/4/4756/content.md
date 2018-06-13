@@ -30,9 +30,11 @@ The [[∞-stackification]] of a $(2,1)$-presheaf is a certain [[2-sheaf]] or [[s
 
 * [[presheaf]]
 
-* **(2,1)-presheaf**, [[indexed category]], 
+* **(2,1)-presheaf**
 
-  [[(2,1)-sheaf]], [[2-sheaf]], [[stack]]
+  [[presheaf of groupoids]] 
+
+  [[(2,1)-sheaf]], [[2-sheaf]], [[indexed category]],  [[stack]]
 
 * [[(∞,1)-presheaf]]
 
