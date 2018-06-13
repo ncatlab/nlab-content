@@ -43,7 +43,7 @@ In the literature this is traditionally glossed over, but this is in fact a subt
 
 =--
 
-Due to this subtly, it is instructive to make explicit the following definition:
+Due to this subtlety, it is instructive to make explicit the following definition:
 
 +-- {: .num_defn #DifferentiablyGoodOpenCover}
 ###### Definition
