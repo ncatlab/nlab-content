@@ -61,7 +61,13 @@ $$
 
 ## Related concepts
 
-
 * [[model structure on simplicial groupoids]]
+
+## References
+
+A [[model category]]-[[structure]] on catgegories of presheaves of groupoids, modeling [[(2,1)-categories]] of [[stacks]] the way that the [[model structure on simplicial presheaves]] model [[(∞,1)-categories]] of [[∞-stacks]] is discussed in 
+
+* {#Hollander01} [[Sharon Hollander]], _A homotopy theory for stacks_, Israel Journal of Mathematics, 163(1), 93-124 ([arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247))
+
 
 [[!redirects presheaf of groupoids]]
