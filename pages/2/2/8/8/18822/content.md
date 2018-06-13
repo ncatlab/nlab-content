@@ -329,7 +329,7 @@ operator that sends vertical 1-forms to horizontal 1-forms and vanishes on
 horizontal 1-forms. Therefore it is sufficient to see that this operator
 in fact also vanishes on all vertical 1-forms. But for this it is
 sufficient that it commutes with the vertical derivative.
-This we check by [[Cartan calculus]], using $[d,\delta] = 0$ and $[d, \iota_{\hat v_i}]$, by assumption:
+This we check by [[Cartan calculus]], using $[d,\delta] = 0$ and $[d, \iota_{\hat v_i}]=0$, by assumption:
 
 $$
   \begin{aligned}
