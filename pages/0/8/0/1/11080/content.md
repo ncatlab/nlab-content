@@ -1143,6 +1143,59 @@ is an isomorphism.
 
 =--
 
+
++-- {: .num_defn #CohesiveModalities}
+###### Definition
+
+Given a [[cohesive topos]] (Def. \ref{CohesiveTopos}), its [[adjoint quadruple]] of functors to and from [[Set]]
+
+$$
+  \label{CohesopmAdjointQuadruple}
+  \mathbf{H}
+    \array{
+      \overset{\phantom{AAA} \Pi_0 \phantom{AAA}}{\longrightarrow}
+      \\
+      \overset{\phantom{AA} Disc \phantom{AA} }{\hookleftarrow}
+      \\
+      \overset{\phantom{AAA} \Gamma \phantom{AAA} }{\longrightarrow}
+      \\
+      \overset{\phantom{AA} coDisc \phantom{AA} }{\hookleftarrow}
+    }
+  Set
+$$
+
+induce, by [[composition]] of functors, an [[adjoint triple]] of [[endofunctors]]
+
+$$
+  \mathbf{H}
+    \array{
+      \overset{ &#643; \;\coloneqq\; Disc \circ \Pi_0  }{\hookleftarrow}
+      \\
+      \overset{\flat \;\coloneqq\; Disc \circ \Gamma  }{\longrightarrow}
+      \\
+      \overset{ \sharp \;\coloneqq\; coDisc\circ \Gamma }{\hookleftarrow}
+    }
+  \mathbf{H}
+  \,.
+$$
+
+These inherit further [[structure]]: The [[adjunction units]] and [[adjunction counits]] ([this def.](geometry+of+physics+--+categories+and+toposes#AdjunctionUnitFromHomIsomorphism)) of the original [[adjoint quadruple]] induce [[natural transformations]]
+
+$$
+  \array{
+    X & \overset{}{\longrightarrow} & {&#643;} X
+    \\
+    \flat X &\overset{}{\longrightarrow}& X
+    \\
+    X &\overset{decohese_X}{\longrightarrow}&
+  }
+$$
+
+(...)
+
+=--
+
+
 $\,$
 
 ### Cohesion on smooth sets
