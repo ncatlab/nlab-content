@@ -48,8 +48,11 @@ In $Set$, [[filtered category|filtered]] colimits commute with finite limits.  I
 By the above remarks, it follows that filtered colimits commute with finite limits in any [[Grothendieck topos]].
 
 ### Sifted colimits commute with finite products
+  {#SiftedColimitsCommuteWithFiniteProducts}
 
-Again in $Set$ (and hence also in any topos), [[sifted category|sifted colimits]] commute with finite products. In fact, this is usually taken to be the definition of a [[sifted category]], and then a theorem of Gabriel and Ulmer characterizes sifted categories as those for which the diagonal functor $C \to C \times C$ is a [[final functor]].
+Again in [[Set]] (and hence also in any [[topos]]), [[sifted category|sifted colimits]] commute with [[finite products]]. In fact, this is usually taken to be the definition of a [[sifted category]], and then a theorem of [Gabriel-Ulmer 71](sifted+colimit#GabrielUlmer71) characterizes sifted categories as those for which the [[diagonal functor]] $C \to C \times C$ is a [[final functor]].
+
+As a special case, [[categories with finite products are cosifted]].
 
 For more on this see at _[[distributivity of products and colimits]]_.
 
@@ -104,3 +107,4 @@ In general, for any class of limits $\Phi$, one may consider the class of all co
 [[!redirects commutativity of colimits with limits]]
 [[!redirects commutativity of a colimit with a limit]]
 
+[[!redirects limits commuting with colimits]]
