@@ -1,8 +1,12 @@
-\[
-  \label{SheafIsLocalObjectWithRespectToCechCovers}
-  \mathbf{Y}
-  \,\text{is a sheaf}
-  \phantom{AA}
-  \Leftrightarrow
-  \, \text{is iso, for all covering families} \, \{U_i \to X\}
-\]
+
+
+
+
+$$
+  \underset{\underset{CartSp^{op}}{\longrightarrow}}{\lim}
+  C(\{U_i\}_i)
+  & \simeq
+  \left( 
+  \right)
+  \,.
+$$
