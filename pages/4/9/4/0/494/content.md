@@ -652,13 +652,13 @@ $\,$
 ###### Definition
 **(universal arrow)**
 
-Given a [[functor]] $R \;\colon\; \mathcal{D} \to \mathcal{C}$, and and object $c\in \mathcal{C}$, a _universal arrow_ from $c$ to $R$ is an [[initial object]] of the [[comma category]] $(c/R)$.  This means that it consists of 
+Given a [[functor]] $R \;\colon\; \mathcal{D} \to \mathcal{C}$, and an object $c\in \mathcal{C}$, a _universal arrow_ from $c$ to $R$ is an [[initial object]] of the [[comma category]] $(c/R)$.  This means that it consists of 
 
 1. an [[object]] $L(c)\in \mathcal{D}$ 
 
 1. a [[morphism]] $\eta_c \;\colon\; c \to R(L(c))$, to be called the _[[adjunction unit|unit]]_,
 
-such that for any $d\in \mathcal{D}$, any morphism $f \colon c\to R(d)$ factors through the unit $\eta_c$ as 
+such that for any $d\in \mathcal{D}$, any morphism $f \colon c\to R(d)$ factors through this unit $\eta_c$ as 
 
 \[
   \label{UniversalArrowFactorization}
@@ -688,7 +688,7 @@ Let $R \;\colon\; \mathcal{D} \to \mathcal{C}$ be a [[functor]]. Then the follow
 
 1. $R$ has a [[left adjoint]] functor $L \colon \mathcal{C} \to \mathcal{D}$ according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets},
 
-1. for every object $c \in \mathcal{C}$ there is a universal arrow $c \overset{\eta_c}{\longrightarrow} R(L(c))$, according to Def. \ref{UniversalArrow}.
+1. for every [[object]] $c \in \mathcal{C}$ there is a universal arrow $c \overset{\eta_c}{\longrightarrow} R(L(c))$, according to Def. \ref{UniversalArrow}.
 
 =--
 
@@ -1287,7 +1287,14 @@ See also
   
 
 [[!redirects adjoint functors]]
-[[!redirects adjoint pair of functors]]
-[[!redirects universal arrow]]
 
+[[!redirects adjoint pair of functors]]
+[[!redirects adjoint pairs of functors]]
+
+[[!redirects universal arrow]]
 [[!redirects universal arrows]]
+
+[[!redirects universal morphism]]
+[[!redirects universal morphisms]]
+
+
