@@ -41,7 +41,9 @@ In detail this means that $C$ is
 
   * it has a [[terminal object]] $*$;
 
-  * it is a [[cosifted category]] (for instance in that it has all [[finite limit|finite]] [[products]]);
+  * it is a [[cosifted category]] 
+
+    (for instance in that it has all [[finite products]], see at _[[categories with finite products are cosifted]]_);
   
   * for every [[covering]] family $\{U_i \to U\}$ in $C$ 
 
