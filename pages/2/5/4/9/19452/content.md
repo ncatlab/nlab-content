@@ -5057,6 +5057,26 @@ $$
 
 =--
 
++-- {: .num_example #TrivialCoverage}
+###### Example
+**([[trivial coverage]])**
+
+For $\mathcal{C}$ a [[small category]] (Def. \ref{SmallCategory}), the _trivial coverage_ on it is the [[coverage]] (Def. \ref{Coverage}) with no [[covering]] families at all, meaning that the [[sheaf|sheaf condition]] (Def. \ref{Sheaf}) over the resulting [[site]] is empty, in that _every_ [[presheaf]] is a [[sheaf]] for this coverage.
+
+Hence the [[category of presheaves]] $[\mathcal{C}^{op},Set]$ (Example \ref{CategoryOfPresheaves}) over a site $\mathcal{C}_{triv}$ with trivial coverage is already the corresponding [[category of sheaves]], hence the corresponding [[sheaf topos]]:
+
+$$
+  Sh\left( \mathcal{C}_{triv}\right)
+  \;\simeq\;
+  [\mathcal{C}^{op}, Set]
+  \,.
+$$
+
+
+=--
+
+
+
 (...)
 
 +-- {: .num_defn #SheafToposAsSubtopos}
