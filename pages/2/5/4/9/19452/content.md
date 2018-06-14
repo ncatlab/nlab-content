@@ -161,7 +161,7 @@ such that:
 
 The archetypical example of a [[category]] is the [[category of sets]]:
 
-+-- {: .num_example #CategoryOfAllSets}
++-- {: .num_example #CategoryOfSets}
 ###### Example
 **([[Set|category of all sets]])**
 
@@ -688,7 +688,7 @@ $$
   \,,
 $$
 
-hence out of the [[opposite category]] of $\mathcal{C}$ (Def. \ref{OppositeCategory}), into the [[category of sets]] (Example \ref{CategoryOfAllSets}) is also called a _[[presheaf]]_ (for reasons discussed below) _on $\mathcal{C}$_ or _over $\mathcal{C}$_.
+hence out of the [[opposite category]] of $\mathcal{C}$ (Def. \ref{OppositeCategory}), into the [[category of sets]] (Example \ref{CategoryOfSets}) is also called a _[[presheaf]]_ (for reasons discussed below) _on $\mathcal{C}$_ or _over $\mathcal{C}$_.
 
 The corresponding [[functor category]] (Example \ref{FunctorCategory})
 
@@ -1830,7 +1830,7 @@ $$
   Grp
 $$
 
-of the [[category of sets]] (Example \ref{CategoryOfAllSets}) into the [[category]] [[Grpd]] (Example \ref{CategoriesOfSmallCategories}) of [[small groupoids|small]] [[groupoids]] (Example \ref{Groupoid}) where
+of the [[category of sets]] (Example \ref{CategoryOfSets}) into the [[category]] [[Grpd]] (Example \ref{CategoriesOfSmallCategories}) of [[small groupoids|small]] [[groupoids]] (Example \ref{Groupoid}) where
 
 * the [[right adjoint]] [[full subcategory]] inclusion (Def. \ref{FullyFaithfulFunctor}) sends a [[set]] $S$ to the [[groupoid]] with set of objects being $S$, and the only [[morphisms]] being the [[identity morphisms]] on these objects (also called the _[[discrete groupoid]]_ on $S$, but this terminology is ambiguous)
 
@@ -2171,7 +2171,7 @@ Accordingly, it is also called the **[[internal hom]]** between $Y$ and $Z$.
 ###### Example
 **([[Set]] is a [[cartesian closed category]])**
 
-The [[category]] [[Set]] of all [[sets]] (Example \ref{CategoryOfAllSets}) equipped with its [[cartesian monoidal category]]-structure (Example \ref{CartesianMonoidalCategory}) is a [[closed monoidal category]] (Def. \ref{ClosedMonoidalCategory}), hence a _[[cartesian closed category]_. The [[Cartesian product]] is the original [[Cartesian product]] of sets, and the [[internal hom]] is the [[function set]] $[X,Y]$ of functions from $X$ to $Y$
+The [[category]] [[Set]] of all [[sets]] (Example \ref{CategoryOfSets}) equipped with its [[cartesian monoidal category]]-structure (Example \ref{CartesianMonoidalCategory}) is a [[closed monoidal category]] (Def. \ref{ClosedMonoidalCategory}), hence a _[[cartesian closed category]_. The [[Cartesian product]] is the original [[Cartesian product]] of sets, and the [[internal hom]] is the [[function set]] $[X,Y]$ of functions from $X$ to $Y$
 
 =--
 
@@ -2583,7 +2583,7 @@ $$
 ### Enriched categories
  {#EnrichedCategories}
 
-The plain definition of [[categories]] in Def. \ref{Categories} is phrased in terms of [[sets]]. Via Example \ref{CategoryOfAllSets} this assigns a special role to the category [[Set]] of all sets, as the "base" on top, or the "[[cosmos]]" inside which [[category theory]] takes place. For instance, the fact that [[hom-sets]] in a plain [[category]] are indeed sets, is what makes the [[hom-functor]] (Example \ref{HomFunctor}) take values in [[Set]], and this, in turn, governs the form of the all-important [[Yoneda lemma]] (Prop. \ref{YonedaLemma}) and [[Yoneda embedding]] (Prop. \ref{YonedaEmbedding}) as statements about [[presheaves]] of sets (Example \ref{CategoryOfPresheaves}).
+The plain definition of [[categories]] in Def. \ref{Categories} is phrased in terms of [[sets]]. Via Example \ref{CategoryOfSets} this assigns a special role to the category [[Set]] of all sets, as the "base" on top, or the "[[cosmos]]" inside which [[category theory]] takes place. For instance, the fact that [[hom-sets]] in a plain [[category]] are indeed sets, is what makes the [[hom-functor]] (Example \ref{HomFunctor}) take values in [[Set]], and this, in turn, governs the form of the all-important [[Yoneda lemma]] (Prop. \ref{YonedaLemma}) and [[Yoneda embedding]] (Prop. \ref{YonedaEmbedding}) as statements about [[presheaves]] of sets (Example \ref{CategoryOfPresheaves}).
 
 At the same time, [[category theory]] witnesses the utility of abstracting away from concrete choices to their abstract properties that are actually used in constructions. This makes it natural to ask if one could replace the category [[Set]] by some other category $\mathcal{V}$ which could similarly serve as a "[[cosmos]]" inside which category theory may be developed.
 
@@ -2607,7 +2607,7 @@ A _[[Jean Benabou|Bénabou]] [[cosmos]] for [[enriched category theory]]_, or ju
 
 The following are examples of [[cosmoi]] (Def. \ref{Cosmos}):
 
-1. [[Set]] (Def. \ref{CategoryOfAllSets}) equipped with its [[cartesian closed category]]-structure (Example \ref{SetIsCartesianClosed})
+1. [[Set]] (Def. \ref{CategoryOfSets}) equipped with its [[cartesian closed category]]-structure (Example \ref{SetIsCartesianClosed})
 
 1. [[Grpd]] (Def. \ref{CategoriesOfSmallCategories}) equipped with its [[cartesian closed category]]-structure (Example \ref{GrpdIsACartesianClosedCategory}).
 
@@ -4932,7 +4932,9 @@ The first of these says that the [[internal language]] is [[dependent type theor
 
 ### Codescent
 
-In order to understand the sheaf condition (eq:SheafCondition) better, it is useful to consider [[Cech groupoids]] (Def. \ref{CechGroupoid}) below. These are really _[[presheaves of groupoids]]_, and so we first make explicit this special case of the general concept of [[enriched presheaves]]:
+In order to understand the sheaf condition (eq:SheafCondition) better, it is useful to consider [[Cech groupoids]] (Def. \ref{CechGroupoid} below). These are really _[[presheaves of groupoids]]_ (Def. \ref{PresheafOfGroupoids} below), a special case of the general concept of [[enriched presheaves]]. The key property of the [[Cech groupoid]] is that it co-represents the [[sheaf|sheaf condition]] (Prop. \ref{CechGroupoidCoRepresents} below). It is in this incarnation that the concept of sheaf seamlessly generalizes to [[homotopy theory]] via "[[higher stacks]]".
+
+$\,$
 
 
 +-- {: .num_defn #PresheafOfGroupoids}
@@ -4953,25 +4955,32 @@ This means that the plain [[category of functors]] $[\mathcal{C}^{op}, Grpd]$ en
 
 Hence we may speak of _[[presheaves of groupoids]]_.
 
-Notice that from every presheaf of groupoids $\mathbf{Y} \in [\mathcal{C}^{op}, Grpd]$ we may collect its ordinary _presheaf of objects_
+=--
 
-$$
-  Obj_{\mathbf{Y}(-)}
-  \in
-  [\mathcal{C}^{op}, Set]
-$$
++-- {: .num_remark}
+###### Remark
+**([[presheaves of groupoids]] as [[internal groupoids]] in [[presheaves]])**
 
-as well as its _presheaf of morphisms_
+From every [[presheaf of groupoids]] $\mathbf{Y} \in [\mathcal{C}^{op}, Grpd]$ (Def. \ref{PresheafOfGroupoids}), we obtain two ordinary [[presheaves]] of sets (Def. \ref{CategoryOfPresheaves}) called the
 
-$$
-  Mor_{\mathbf{Y}(-)}
-  \;\coloneqq\;
-  \underbrace{
-    \underset{x,y \in Obj_{\mathbf{Y}(-)}}{\coprod}  
-    Hom_{{\mathbf{Y}(-)}}
-  \;\colon\;
-  [\mathcal{C}^{op}, Set]  
-$$
+* _presheaf of objects_
+
+  $$
+    Obj_{\mathbf{Y}(-)}
+    \in
+    [\mathcal{C}^{op}, Set]
+  $$
+
+* the _presheaf of morphisms_
+
+  $$
+    Mor_{\mathbf{Y}(-)}
+    \;\coloneqq\;
+     \underset{x,y \in Obj_{\mathbf{Y}(-)}}{\coprod}  
+      Hom_{{\mathbf{Y}(-)}}
+    \;\colon\;
+    [\mathcal{C}^{op}, Set]  
+  $$
 
 In more abstract language this assignment constitutes an [[equivalence of categories]]
 
@@ -4985,15 +4994,22 @@ In more abstract language this assignment constitutes an [[equivalence of catego
     \mathbf{Y}
       &\mapsto&
     \left(
-      Obj_{\mathbf{Y}(-)}
-      , 
-      \underset{
-        Mor_{\mathbf{Y}(-)}
-      }{
-      \underbrace{
-        \underset{x,y \in Obj_{\mathbf{Y}(-)}}{\coprod}  
-        Hom_{{\mathbf{Y}(-)}}
-      }}
+      \array{
+       \underset{  
+          Mor_{\mathbf{Y}(-)}
+        }{
+        \underbrace{
+          \underset{x,y \in Obj_{\mathbf{Y}(-)}}{\coprod}  
+          Hom_{{\mathbf{Y}(-)}}
+        }}
+        \\
+        {}^{\mathllap{ (x \overset{f}{\to}y) \mapsto x }}\big\downarrow
+        \;\;\;\;
+        \uparrow^{\marhral{ x \mapsto x \overset{id_x}{\to} x }}
+        \;\;\; \big\downarrow^{ \mathrlap{ (x \overset{f}{\to} y) \mapsto y } }
+        \\
+        Obj_{\mathbf{Y}(-)}
+      }
     \right)
   }
   \,.
