@@ -4602,6 +4602,54 @@ where in the second step we used the assumption of [[fully faithful functor|full
 =--
 
 
++-- {: .num_lemma #ColimitOfRepresentableIsSingleton}
+###### Lemma
+**([[colimit]] of representable is [[singleton]])**
+
+Let $\mathcal{C}$ be a [[small category]] (Def. \ref{SmallCategory}). Then the [[colimit]] of a [[representable presheaf]] (Def. \ref{CategoryOfPresheaves}), regarded as a [[functor]]
+
+$$
+  y(c) \;\colon\; \mathcal{C}^{op} \longrightarrow Set
+$$
+
+is [[generalized the|the]] [[singleton]] set.
+
+\[
+  \label{ColimitOfRepresentableIsSingleton}
+  \underset{\underset{\mathcal{D}^{op}}{\longrightarrow}}{\lim} y(c)
+  \;\simeq\;
+  \ast
+  \,.
+\]
+
+=--
+
++-- {: .proof}
+###### Proof
+
+One way to see this is to regard the colimit as the [[left Kan extension]] (Prop. \ref{TopologicalLeftKanExtensionBCoend}) along the unique functor $\mathcal{C}^{op} \overset{p}{\to} \ast$ to the [[terminal category]] (Def. \ref{InitialCategoryAndTerminalCategory}). By the formula (eq:FormulaLeftKanExtensionByCoend) this is
+
+$$
+  \begin{aligned}
+    \underset{\underset{\mathcal{D}^{op}}{\longrightarrow}}{\lim}
+    y(c)
+    & \simeq
+    \int^{c_1 \in \mathcal{C}} 
+      \underset{const_\ast(c_1)}{\underbrace{\ast(-,p(c_1))}} \times y(c)(c_1)
+    \\
+    & \simeq
+    \int^{c_1 \in \mathcal{C}} const_\ast(c_1) \times \mathcal{C}(c_1,c) 
+    \\
+    & \simeq const_\ast(c)
+    \\
+    & \simeq \ast
+  \end{aligned}
+$$
+
+where we made explicit the [[constant functor]] $const_\ast \;\colon\; \mathcal{C} \to Set$, constant on the [[singleton]] set $\ast$, and then applied the [[co-Yoneda lemma]] (Prop. \ref{TopologicalCoYonedaLemma}).
+
+=--
+
 +-- {: .num_prop #CategoriesWithFiniteProductsAreCosifted}
 ###### Proposition
 **([[categories with finite products are cosifted]]**
@@ -4690,38 +4738,7 @@ $$
 
 where the first step expands out both presheaves as colimits of representables separately, via the [[co-Yoneda lemma]] (Prop. \ref{TopologicalCoYonedaLemma}), the second step uses that the [[Cartesian product]] of presheaves is a two-variable [[left adjoint]] (by the [[symmetric monoidal category|symmetric]] [[closed monoidal structure on presheaves]]) and [[adjoints preserve (co-)limits|as such preserves colimits]] (in particular [[coends]]) in each [[variable]] separately (Prop. \ref{AdjointsPreserveCoLimits}), and under the brace we use the defining [[universal property]] of the [[Cartesian products]], assumed to exist in $\mathcal{C}$.
 
-Now observe that the [[colimit]] of a [[representable presheaf]] is the [[singleton]].
-
-\[
-  \label{ColimitOfRepresentableIsSingleton}
-  \underset{\underset{\mathcal{D}^{op}}{\longrightarrow}}{\lim} y(c)
-  \;\simeq\;
-  \ast
-  \,.
-\]
-
-One way to see this is to regard the colimit as the [[left Kan extension]] (Prop. \ref{TopologicalLeftKanExtensionBCoend}) along the unique functor $\mathcal{C}^{op} \overset{p}{\to} \ast$ to the [[terminal category]]. By the formula (eq:FormulaLeftKanExtensionByCoend) this is
-
-$$
-  \begin{aligned}
-    \underset{\underset{\mathcal{D}^{op}}{\longrightarrow}}{\lim}
-    y(c)
-    & \simeq
-    \int^{c_1 \in \mathcal{C}} 
-      \underset{const_\ast(c_1)}{\underbrace{\ast(-,p(c_1))}} \times y(c)(c_1)
-    \\
-    & \simeq
-    \int^{c_1 \in \mathcal{C}} const_\ast(c_1) \times \mathcal{C}(c_1,c) 
-    \\
-    & \simeq const_\ast(c)
-    \\
-    & \simeq \ast
-  \end{aligned}
-$$
-
-where we made explicit the [[constant functor]] $const_\ast \;\colon\; \mathcal{C} \to Set$, constant on the [[singleton]] set $\ast$, and then applied the [[co-Yoneda lemma]] (Prop. \ref{TopologicalCoYonedaLemma}).
-
-Using this, we compute for $\mathbf{X}, \mathbf{Y} \in [\mathcal{C}^{op}, Set]$ the following sequence of [[natural isomorphisms]]:
+With this, we have the following sequence of [[natural isomorphisms]]:
 
 $$
   \begin{aligned}
@@ -4785,7 +4802,7 @@ $$
   \end{aligned}
 $$
 
-Here the first step is (eq:OnSiteWithProductsExpandProductOfPresheaves), the second uses that [[colimits commute with colimits]] (Prop. \ref{LimitsCommuteWithLimits}), the third uses again that the [[Cartesian product]] respects colimits in each variable separately, the fourth is (eq:ColimitOfRepresentableIsSingleton), the last step is again the respect for colimits of the Cartesian product in each variable separately.
+Here the first step is (eq:OnSiteWithProductsExpandProductOfPresheaves), the second uses that [[colimits commute with colimits]] (Prop. \ref{LimitsCommuteWithLimits}), the third uses again that the [[Cartesian product]] respects colimits in each variable separately, the fourth is by Lemma \ref{ColimitOfRepresentableIsSingleton}, the last step is again the respect for colimits of the Cartesian product in each variable separately.
 
 =--
 
