@@ -106,3 +106,7 @@ A nerve theorem for categories has been proved in
 
 
 * Kohei Tanaka, _Cech complexes for covers of small categories_, Homology, Homotopy and Applications 19(1), (2017), pp. 281-291. [ArXiv Abstract 1508.03688](https://arxiv.org/abs/1508.03688)
+
+[[!redirects nerve theorems]]
+
+[[!redirects Borsuk's nerve theorem]]
