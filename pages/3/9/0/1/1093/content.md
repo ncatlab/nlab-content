@@ -434,6 +434,10 @@ Every sheaf topos satisfies the following [[exactness properties]]. it is an
 
 ## Related concepts
 
+* [[coverage]]
+
+  [[trivial coverage]]
+
 * **category of sheaves**
 
 * [[(∞,1)-category of (∞,1)-sheaves]].
