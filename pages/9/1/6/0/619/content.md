@@ -225,7 +225,7 @@ This is [AdamekRosicky, theorem 6.28](#AdamekRosicky)
 
 +-- {: .num_theorem}
 ###### Theorem
-The strong [[Vop?nka's principle]] is equivalent to:
+The strong [[Vopenka's principle]] is equivalent to:
 
 For $C$ a [[locally presentable category]],  every [[full subcategory]] $D \hookrightarrow C$ which is closed under [[limit]]s is a reflective subcategory; further on, $D$ is then also locally presentable.
 =--
@@ -339,11 +339,11 @@ But an object in a reflective subcategory is necessarily isomorphic to its image
 
 ## References
 
-* [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol.1, p. 196.
- {#Borceux}
+* {#Borceux} [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol.1, p. 196.
+ 
 
-* [[Jiri Adamek|Ji?í Adamek]], [[Ji?í Rosický]], _[[Locally presentable and accessible categories]]_ London Mathematical Society Lecture Note Series 189
- {#AdamekRosicky}
+* {#AdamekRosicky} [[Jiri Adamek|Ji?í Adamek]], [[Jirí Rosický]], _[[Locally presentable and accessible categories]]_ London Mathematical Society Lecture Note Series 189
+ 
 
 * Springer eom: [reflective subcategory](http://eom.springer.de/r/r080550.htm)
 
@@ -352,8 +352,8 @@ But an object in a reflective subcategory is necessarily isomorphic to its image
 
 The relation of exponential ideals to [[reflective subcategories]] is discussed in section A4.3.1 of 
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
-  {#Johnstone}
+* {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+  
 
 Reflective and coreflective subcategories of presheaf categories are discussed in
 
@@ -361,8 +361,8 @@ Reflective and coreflective subcategories of presheaf categories are discussed i
 
 Related discussion of [[reflective sub-(∞,1)-categories]] is in 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ 
 
 The example of affine schemes in [[noncommutative algebraic geometry]] is in 
 
@@ -375,9 +375,3 @@ The example of affine schemes in [[noncommutative algebraic geometry]] is in
 
 [[!redirects reflective subcategories]]
 [[!redirects reflexive subcategory]]
-[[!redirects coreflector]]
-[[!redirects coreflectors]]
-[[!redirects coreflection]]
-[[!redirects coreflections]]
-[[!redirects coreflective subcategory]]
-[[!redirects coreflective subcategories]]
