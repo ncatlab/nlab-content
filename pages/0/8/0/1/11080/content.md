@@ -22,6 +22,10 @@
 > next chapters: _[[geometry of physics -- differential forms|differential forms]]_, _[[geometry of physics -- differentiation|differentiation]]_, _[[geometry of physics -- smooth homotopy types|smooth homotopy types]]_
 
 
+$\,$
+
+$\,$
+
 This chapter introduces a generalized kind of [[sets]] equipped with [[smooth structure]], to be called _[[smooth sets]]_ or _smooth [[homotopy 0-types|0-types]]_.
 
 The definition (Def. \ref{SmoothSpace} below) subsumes that of [[smooth manifolds]], [[Fréchet manifolds]] and [[diffeological spaces]] but is both simpler and more powerful: smooth sets are simply [[sheaves]] on the [[gros site]] of [[Cartesian Spaces]] spring and as such form a nice [[category]] -- a [[topos]] -- and this contains as [[full subcategories]] the more "tame" objects such as smooth manifolds and diffeological spaces.
@@ -833,7 +837,7 @@ $$
 
 This is a straightforward matter of matching definitions. We spell it out:
 
-* A _pre-smooth set_, def. \ref{SmoothPreSpace} is equivalently a [[presheaf]] ([this Example](geometry+of+physics+--+Categories+and+Toposes#CategoryOfPresheaves)) on [[CartSp]] ([this prop.](geometry+of+physics+--+coordinate+systems#CartSpCategory)), hence a [[functor]] ([this def.](geometry+of+physics+--+Categories+and+Toposes#Functors)) $X : CartSp^{op} \to Set$ from the [[category]] [[CartSp]] to the [[category of sets]] ([this Example](geometry+of+physics+--+Categories+and+Toposes#CategoryOfAllSets));
+* A _pre-smooth set_, def. \ref{SmoothPreSpace} is equivalently a [[presheaf]] ([this Example](geometry+of+physics+--+Categories+and+Toposes#CategoryOfPresheaves)) on [[CartSp]] ([this prop.](geometry+of+physics+--+coordinate+systems#CartSpCategory)), hence a [[functor]] ([this def.](geometry+of+physics+--+Categories+and+Toposes#Functors)) $X : CartSp^{op} \to Set$ from the [[category]] [[CartSp]] to the [[category of sets]] ([this Example](geometry+of+physics+--+Categories+and+Toposes#CategoryOfSets));
 
 * a _[[smooth set]]_, def. \ref{SmoothSpace}, is equivalently a presheaf on [[CartSp]] ([this prop.](geometry+of+physics+--+coordinate+systems#CartSpCategory)) which is a [[sheaf]] ([this def.](geometry+of+physics+--+Categories+and+Toposes#Sheaf)) with respect to the [[coverage]] ([this def.](geometry+of+physics+--+Categories+and+Toposes#Coverage)) of differentially [[good open cover]] (def. \ref{DifferentiallyGoodOpenCover}):
 
@@ -845,12 +849,17 @@ This is a straightforward matter of matching definitions. We spell it out:
 
 =--
 
+$\,$
 
-+-- {: .num_lemma #AdjointQuadrupleOnPreSmoothSets}
+### Cohesive toposes
+
++-- {: .num_lemma #PresheavesAdjointQuadrupleOnSiteWithTerminalObject}
 ###### Lemma
-**([[adjoint quadruple]] of pre-smooth sets)**
+**([[adjoint quadruple]] of [[presheaves]] over [[site]] with [[terminal objects]])**
 
-There is an [[adjoint quadruple]] of [[functors]] between pre-smooth sets (Def. \ref{SmoothPreSpace}) hence, by Prop. \ref{SmoothSetsAreSheavesOnCartSp} the [[category of presheaves]] over [[CartSp]], and the [[category of sets]]
+Let $\mathcal{C}$ be a [[small category]] with [[finite products]] (hence with a [[terminal object]] $\ast \in \mathcal{C}$ and for any two [[objects]] $X,Y \in \mathcal{C}$ their [[Cartesian product]] $X \times Y \in \mathcal{C}$).
+
+Then there is an [[adjoint quadruple]] of [[functors]] between the [[category of presheaves]] over $\mathcal{C}$ ([this def.](geometry+of+physics+--+categories+and+toposes#CategoryOfPresheaves)), and the [[category of sets]] ([this Def.](geometry+of+physics+--+categories+and+toposes#CategoryOfSets))
 
 \[
   \label{PreaheafAdjointQuadruple}
@@ -864,67 +873,93 @@ There is an [[adjoint quadruple]] of [[functors]] between pre-smooth sets (Def. 
       \\
       \overset{\phantom{AA} coDisc \phantom{AA} }{\longleftarrow}
     }
-  [\ast, Set] \simeq Set
+  Set
 \]
 
-such that 
+such that:
 
-1. the functor
-
+1. the functor $\Gamma$ sends a [[presheaf]] $\mathbf{Y}$ to its set of [[global sections]], which here is its value on the terminal object:
+   
    $$
-     \Gamma(\mathbf{X}) = Hom(\ast, \mathbf{X}) =  \mathbf{X}(\ast)
+     \begin{aligned}
+       \Gamma \mathbf{Y}
+       & =
+       \underset{\underset{\mathcal{C}}{\longleftarrow}}{\lim}
+       \mathbf{Y}
+       \\
+       & \simeq 
+       \mathbf{Y}(\ast)
+     \end{aligned}
    $$
 
-   sends a [[presheaf]] (pre-smooth set) $\mathbf{X}$ to the set $\mathbf{X}(\ast)$ of its plots on the [[point]] $\ast = \mathbb{R}^0$;
+1. $Disc$ and $coDisc$ are [[full and faithful functors]] ([this def.](geometry+of+physics+--+categories+and+toposes#FullyFaithfulFunctor)).
 
-1. $Disc$ and $coDisc$ are [[full and faithful functors]].
+1. $\Pi_0$ preserves [[finite products]]: 
+
+   for $\mathbf{X}, \mathbf{Y} \in [\mathcal{C}^{op}, Set]$, we have a [[natural bijection]]
+  
+   $$
+     \Pi_0(\mathbf{X} \times \mathbf{Y}) 
+     \;\simeq\; 
+     \Pi_0(\mathbf{X}) \times \Pi_0(\mathbf{Y})
+     \,.
+   $$
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Since [[CartSp]] has a [[terminal object]], given by the [[point]] $\ast = \mathbb{R}^0 \on CartSp$, there is an [[adjoint pair]] of [[functors]] between $CartSp$ and the [[terminal category]] ([this Example](geometry+of+physics+--+Categories+and+Toposes#InitialCategoryAndTerminalCategory))
+The existence of the [[terminal object]] in $\mathcal{C}$ means equivalently, by ([this Example](geometry+of+physics+--+Categories+and+Toposes#InitialCategoryAndTerminalCategory)), that there is an [[adjoint pair]] of [[functors]] between $\mathcal{C}$ and the [[terminal category]] ([this def.](geometry+of+physics+--+categories+and+toposes#InitialCategoryAndTerminalCategory)):
 
 $$
   \ast
     \underoverset
     {\underset{}{\hookrightarrow}}
-    {\overset{}{\longleftarrow}}
+    {\overset{p}{\longleftarrow}}
     {\bot}
-   CartSp
+   \mathcal{C}
 $$
 
-whose [[right adjoint]] takes the unique object of the terminal category to that terminal object ([this Example](geometry+of+physics+--+Categories+and+Toposes#InitialAndTerminalObjectInTermsOfAdjunction)).
+whose [[right adjoint]] takes the unique object of the terminal category to that terminal object.
 
-From this it follows (by [this example](geometry+of+physics+--+Categories+and+Toposes#KanExtensionOfAdjointPairIsAdjointQuadruple)) that [[Kan extension]] produces an [[adjoint quadruple]] of functors, with 
+From this it follows (by [this example](geometry+of+physics+--+Categories+and+Toposes#KanExtensionOfAdjointPairIsAdjointQuadruple)) that [[Kan extension]] produces an [[adjoint quadruple]] of functors between the [[category of presheaves]] $[\mathcal{C}^{op}, Set]$ and $[\ast, Set] \simeq Set$, as shown, where 
 
-1. $\Gamma$ the operation of pre-composition with the terminal object inclusion $\ast \hookrightarrow CartSp$
+1. $\Gamma$ is the operation of pre-composition with the terminal object inclusion $\ast \hookrightarrow \mathcal{C}$
 
-1. $Disc$ the [[left Kan extension]] along the inclusion $\ast \hookrightarrow CartSp$ of the terminal object. 
+1. $Disc$ is the [[left Kan extension]] along the inclusion $\ast \hookrightarrow \mathcal{C}$ of the terminal object. 
 
 The former is manifestly the operation of evaluating on the terminal object.
-Moreover, since the terminal object inclusion is manifestly a [[fully faithful functor]] ([this def.](geometry+of+physics+--+Categories+and+Toposes#FullyFaithfulFunctor)), it follows that also its [[left Kan extension]] $Disc$ is fully faithful  ([this prop.](geometry+of+physics+--+Categories+and+Toposes#LeftKanExtensionAlongFullyFaithfulFunctor)).
+Moreover, since the terminal object inclusion is manifestly a [[fully faithful functor]] ([this def.](geometry+of+physics+--+Categories+and+Toposes#FullyFaithfulFunctor)), it follows that also its [[left Kan extension]] $Disc$ is fully faithful  ([this prop.](geometry+of+physics+--+Categories+and+Toposes#LeftKanExtensionAlongFullyFaithfulFunctor)). This implies that also $coDisc$ is fully faithful, by [this prop.](geometry+of+physics+--+Categories+and+Toposes#FullyFaithfulAdjointTriple).
 
-This finally implies that also $coDisc$ is fully faithful, by [this prop.](geometry+of+physics+--+Categories+and+Toposes#FullyFaithfulAdjointTriple).
+Equivalently, $Disc \simeq p^\ast$ is the [[constant functor|constant]] [[diagram]]-assigning functor. By uniqueness of adjoints ([this prop.](geometry+of+physics+--+categories+and+toposes#UniquenessOfAdjoints)) implies that $\Pi_0$ is the functor that sends a presheaf, regarded as a [[functor]] $\mathbf{Y} \;\colon\; \mathcal{C}^{op} \to Set$, to its [[colimit]] 
+
+$$
+  \Pi_0(\mathbf{Y})
+  \;=\;
+  \underset{\underset{\mathcal{C}}{\longrightarrow]}{\lim} \mathbf{Y}
+  \,.
+$$
+
+The fact that this indeed preserves products follows from the assumption that $\mathcal{C}$ has [[finite products]], since [[categories with finite products are cosifted]] ([this prop.](geometry+of+physics+--+categories+and+toposes#CategoriesWithFiniteProductsAreCosifted))
 
 =--
 
-(...)
-
-Lemma \ref{AdjointQuadrupleOnPreSmoothSets} in fact holds with [[CartSp]] replaced by any [[small category]] $\mathcal{C}$ with a [[terminal object]], since this is the only property of [[CartSp]] that was used in the proof. This motivates to ask for [[coverages]] on $\mathcal{C}$ such that the [[adjoint quadruple]] (eq:PreaheafAdjointQuadruple) restricts from [[categories of presheaves]] to the corresponding [[categories of sheaves]]. The following definition spells out one sufficient condition for this to happen:
 
 +-- {: .num_defn #OneCohesiveSite}
 ###### Definition
-**([[1-cohesive site]])**
+**([[cohesive site]])**
 
-We call a [[site]] $\mathcal{C}$ ([this def.](geometry+of+physics+--+categories+and+toposes#Coverage)) _[[1-cohesive site|1-cohesive]] over [[Grpd]]_ if the following conditions are satisfied:
-   
+We call a [[site]] $\mathcal{C}$ ([this def.](geometry+of+physics+--+categories+and+toposes#Coverage)) _[[cohesive site|cohesive]] over [[Grpd]]_ if the following conditions are satisfied:
+
+1. The [[category]] $\mathcal{C}$ has [[finite products]] (as in Lemma \ref{PresheavesAdjointQuadrupleOnSiteWithTerminalObject}).
+ 
 1. For every [[covering]] family $\{U_i \to X\}_i$ in the given [[coverage]] on  $\mathcal{C}$ the induced [[Cech groupoid]] $C(\{U_i\}_i) \in [C^{op}, Grpd]$ ([this def.](geometry+of+physics+--+categories+and+toposes#CechGroupoid)) has,  as an [[internal groupoid]] in [[presheaves]] (...) not only the object of objects but also that of morphsims a [[coproduct]] of [[representable functors]], such that
 
-   1. the [[groupoid]] obtained by replacing each copy of a representable by a point is [[contractible]] ([[equivalence of categories|equivalent]] to the [[point]], i.e. to the [[terminal groupoid]]:
+   1. the [[groupoid]] obtained by replacing each copy of a representable by a point is [[contractible]] ([[equivalence of categories|equivalent]] to the [[point]] is connected
 
       $$
+        \pi_0
         \underset{\underset{\mathcal{C}}{\longrightarrow}}{\lim} 
          C(\{U_i\}) 
          \;\simeq\;
@@ -940,7 +975,6 @@ We call a [[site]] $\mathcal{C}$ ([this def.](geometry+of+physics+--+categories+
         \,.
       $$
  
-1. the [[category]] $\mathcal{C}$ has [[finite products]];
 
  
 =--
@@ -1175,7 +1209,9 @@ $$
 
 where $[X,Y]_{Sh(CartSp)}$ is the [[internal hom]] in the [[cartesian closed category]] $Sh(CartSp)$.
 
+(...)
 
+$\,$
 
 
 
