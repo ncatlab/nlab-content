@@ -31,11 +31,12 @@ Let $C$ be a [[small site|small]] [[site]], i.e. a [[small category]] equipped w
 
 1. Every object $U\in C$ admits a [[global section]] $*\to U$.
 
-1. $C$ is a [[cosifted category]].
+1. $C$ is a [[cosifted category]] 
+
+   (for instance in that it has all [[finite products]], see at _[[categories with finite products are cosifted]]_).
 
 =--
 
-Notice that if $C$ has finite [[product]]s then it is also cosifted.
 
 ## Properties
 
