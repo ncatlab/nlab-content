@@ -1179,17 +1179,19 @@ $$
   \,.
 $$
 
-These inherit further [[structure]]: The [[adjunction units]] and [[adjunction counits]] ([this def.](geometry+of+physics+--+categories+and+toposes#AdjunctionUnitFromHomIsomorphism)) of the original [[adjoint quadruple]] induce [[natural transformations]]
+These inherit further [[structure]] and [[properties]]: 
 
-$$
-  \array{
-    X & \overset{}{\longrightarrow} & {&#643;} X
-    \\
-    \flat X &\overset{}{\longrightarrow}& X
-    \\
-    X &\overset{decohese_X}{\longrightarrow}&
-  }
-$$
+1. The [[adjunction units]] and [[adjunction counits]] ([this def.](geometry+of+physics+--+categories+and+toposes#AdjunctionUnitFromHomIsomorphism)) of the original [[adjoint quadruple]] induce [[natural transformations]] for all $X \in \mathbf{H}$
+
+   $$
+     \array{
+       X & \overset{}{\longrightarrow} & {&#643;} X
+       \\
+       \flat X &\overset{}{\longrightarrow}& X
+       \\
+       X &\overset{decohese_X}{\longrightarrow}& \sharp X
+     }
+   $$
 
 (...)
 
