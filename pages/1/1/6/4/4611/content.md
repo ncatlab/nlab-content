@@ -88,6 +88,8 @@ Since a category with finite coproducts is nonempty (it has an [[initial object]
 
 =--
 
+We make this special case more explicit below in Example \ref{CategoriesWithFiniteProductsAreCosifted}.
+
 ## Examples
 
 +-- {: .num_example #ReflexiveCoequalizerDiagram}
@@ -126,6 +128,35 @@ Every [[filtered category]] is sifted.
 Since [[filtered colimits]] commute even with all [[finite limits]], they in particular commute with [[finite products]].
 
 =--
+
++-- {: .num_example #CategoriesWithFiniteProductsAreCosifted}
+###### Example
+**([[categories with finite products are cosifted]]**
+
+Let $\mathcal{C}$ be a [[small category]] which has [[finite products]]. Then $\mathcal{C}$ is a _[[cosifted category]]_, equivalently its [[opposite category]] $\mathcal{C}^{op}$ is a _[[sifted category]]_, equivalently [[colimits]] over $\mathcal{C}^{op}$ with values in [[Set]] are _[[sifted colimits]]_, equivalently [[colimits]] over $\mathcal{C}^{op}$ with values in [[Set]] _[[limits commuting with colimits|commute]] with [[finite products]]_, as follows:
+
+For $\mathbf{X}, \mathbf{Y} \in [\mathcal{C}^{op}, Set]$ to [[functors]] on the [[opposite category]] of $\mathcal{C}$ (hence two [[presheaves]] on $\mathcal{C}$) we have a [[natural isomorphism]]
+
+$$
+  \underset{\underset{\mathcal{C}^{op}}{\longrightarrow}}{\lim}
+  \left(
+    \mathbf{X} \times \mathbf{Y}
+  \right)
+  \;\simeq\;
+  \left(
+    \underset{\underset{\mathcal{C}^{op}}{\longrightarrow}}{\lim}
+    \mathbf{X}
+  \right)
+  \times
+  \left(
+    \underset{\underset{\mathcal{C}^{op}}{\longrightarrow}}{\lim}
+    \mathbf{Y}
+  \right)
+  \,.
+$$ 
+
+=--
+
 
 ## Related concepts
 
