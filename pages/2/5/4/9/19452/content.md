@@ -14,7 +14,7 @@ $\,$
 
 We give here an introduction to the basic concepts and results of _[[category theory]]_ and of _[[topos theory]]_, aimed at providing background for the [[synthetic differential geometry|synthetic]] and [[higher differential geometry|higher]] [[geometry of physics -- supergeometry|supergeometry]] of relevance in formulations of fundamental [[physics]], such as used in the chapters _[[geometry of physics -- perturbative quantum field theory|on perturbative quantum field theory]]_ and _[[geometry of physics -- fundamental super p-branes|on fundamental super p-branes]]_.
 
-This means that we emphasize the interpretation of _[[presheaves]]_ (Example \ref{CategoryOfPresheaves} and Example \ref{EnrichedPresheaf} below) on some _[[site]]_ (Def. \ref{Coverage} below) as _[[generalized spaces]]_ modeled on the objects in the site ([Lawvere 86, p. 17](space+and+quantity#Lawvere86)), and we highlight that, from this perspective, the notorious core result of category theory called the _[[Yoneda lemma]]_ (Prop. \ref{YonedaLemma} below), or the _[[Yoneda embedding]]_ (Prop. \ref{YonedaEmbedding} below), as well as the core concept of [[topos theory]], namely the [[sheaf|sheaf condition]] (Def. \ref{Sheaf} below) express nothing but the consistency of this concept of _[[generalized spaces]]_. This is the perspective of _[[functorial geometry]]_ ([Grothendieck 65](#functorial+geometry#Grothendieck65)).  (For more exposition of this point see also at _[[motivation for sheaves, cohomology and higher stacks]]_.)
+This means that we emphasize the interpretation of _[[presheaves]]_ (Example \ref{CategoryOfPresheaves} and Example \ref{EnrichedPresheaf} below) on some _[[site]]_ (Def. \ref{Coverage} below) as **[[generalized spaces]]** modeled on the objects in the site ([Lawvere 86, p. 17](space+and+quantity#Lawvere86)). Accordingly, we highlight (Remark \ref{PresaheavesAsGeneralizedSpaces} below) that, from this perspective, the notorious core result of [[category theory]] called the _[[Yoneda lemma]]_ (Prop. \ref{YonedaLemma} below), or the _[[Yoneda embedding]]_ (Prop. \ref{YonedaEmbedding} below), as well as the core concept of [[topos theory]], namely the [[sheaf|sheaf condition]] (Def. \ref{Sheaf} below) express nothing but the consistency of the concept of [[generalized spaces]]. This is the perspective of _[[functorial geometry]]_ ([Grothendieck 65](#functorial+geometry#Grothendieck65)).  (For more exposition of this point see also at _[[motivation for sheaves, cohomology and higher stacks]]_.)
 
 Hence one motivation for [[category theory]] and [[topos theory]] is _a posteriori_: As a matter of experience, there is just no other toolbox that allows one to really understand and handle the [[higher differential geometry|higher]] [[supergeometry]] of relevance in [[physics]]. Similar comments apply to a wealth of other topics of mathematics.
 
@@ -28,9 +28,9 @@ Historically, [[category theory]] was introduced in order to make precise the co
 
 
 
-| $\phantom{A}$ hierarchy of concepts $\phantom{A}$  | $\phantom{A}$ [[category theory]] $\phantom{A}$ | [[enriched category theory]] |
+| $\phantom{A}$ hierarchy of concepts $\phantom{A}$  | $\phantom{A}$ [[category theory]] $\phantom{A}$ | $\phantom{A}$ [[enriched category theory]] $\phantom{A}$ |
 |------------------------|------------|--------------------------|
-| $\phantom{A}$ [[adjoint equivalence]] $\phantom{A}$ | $\phantom{A}$ Def. \ref{AdjointEquivalenceOfCategories} $\phantom{A}$ | $\phantom{A}$ Def. \ref{EnrichedEquivalenceOfCategories} $\phantom{A}$ |
+| $\phantom{A}$ [[adjoint equivalence]] / $\phantom{A}$ <br/> $\phantom{AA}$ [[adjoint equivalence|dual equivalence]] $\phantom{AA}$ | $\phantom{A}$ Def. \ref{AdjointEquivalenceOfCategories} $\phantom{A}$ | $\phantom{A}$ Def. \ref{EnrichedEquivalenceOfCategories} $\phantom{A}$ |
 | $\phantom{A}$ [[adjoint functor|adjunction]] / [[duality]] $\phantom{A}$  | $\phantom{A}$ Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} $\phantom{A}$ |  $\phantom{A}$ Def. \ref{EnrichedAdjunction} $\phantom{A}$  |
 | $\phantom{A}$ [[natural transformation]] $\phantom{A}$ | $\phantom{A}$ Def. \ref{NaturalTransformations} $\phantom{A}$ |  $\phantom{A}$ Def. \ref{EnrichedNaturalTransformation} $\phantom{A}$ |
 | $\phantom{A}$ [[functor]] $\phantom{A}$ | $\phantom{A}$ Def. \ref{Functors} $\phantom{A}$ |  $\phantom{A}$ Def. \ref{TopologicallyEnrichedFunctor} $\phantom{A}$ |
@@ -53,14 +53,17 @@ The idea of _[[duality in string theory]]_ refers to different perspectives on p
 But one of the basic results of category theory (Prop. \ref{EveryEquivalenceOfCategoriesComesFromAnAdjointEquivalence}, below) is that equivalence is indeed a special case of adjunction. This allows to explore the possibility that there is more than a coincidence of terms.
 
 Of course the usage of the term _[[duality in string theory]]_ is too loose for one to expect to be able to refine each occurrence of the term in the literature to a mathematical adjunction. However, we will see mathematical formalizations of core aspects of
-key string-theoretic dualities, such as _[[topological T-duality]]_ and the _[[duality between M-theory and type IIA string theory]]_, in terms of adjunctions. Indeed, at the heart of these _[[dualities in string theory]]_ is the phenomenon of _[[double dimensional reduction]]_, which turns out to be formalized by one of the most fundamental adjunctions in ([[higher category theory|higher]] [[category theory]] ([[base change]] along the point inclusion into a [[classifying space]]).
+key string-theoretic dualities, such as _[[topological T-duality]]_ and the _[[duality between M-theory and type IIA string theory]]_, in terms of [[adjunctions]]. Indeed, at the heart of these _[[dualities in string theory]]_ is the phenomenon of _[[double dimensional reduction]]_, which turns out to be formalized by one of the most fundamental adjunctions in ([[higher category theory|higher]] [[category theory]] ([[base change]] along the point inclusion into a [[classifying space]]). All this is discussed in the chapter on _[[geometry of physics -- fundamental super p-branes|fundamental super p-branes]]_.
+
 This suggests that there may be a deeper relation here between the superficially alien uses of the word "duality", that is worth exploring.
 
-In this respect it is worth noticing that core structure of string/M-theory arises via universal constructions from the [[superpoint]] (as explained in the chapter _[[geometry of physics -- fundamental super p-branes|on fundamental super p-branes]]_), while the superpoint itself arises, in a sense made precise by [[category theory]], "from nothing", by a system of twelve [[adjunctions]] (explained in the chapter [[geometry of physics -- supergeometry|on supergeometry]]). 
+In this respect it is worth noticing that core structure of string/M-theory arises via [[universal constructions]] from the [[superpoint]] (as explained in the chapter _[[geometry of physics -- fundamental super p-branes|on fundamental super p-branes]]_), while the superpoint itself arises, in a sense made precise by [[category theory]], "from nothing", by a system of twelve [[adjunctions]] (explained in the chapter [[geometry of physics -- supergeometry|on supergeometry]]). 
+
+$\,$
 
 Here we introduce the requisites for understanding these statements.
 
-
+$\,$
 
 
 #Contents#
@@ -4394,6 +4397,11 @@ This is particularly suggestive when $p$ is a [[full subcategory]] inclusion (De
 
 =--
 
+### Properties
+
+We collect here statement and proof of some key properties of the various [[universal constructions]] considered above.
+
+$\,$
 
 +-- {: .num_prop #LeftKanExtensionPreservesRepresentableFunctors}
 ###### Proposition
@@ -4593,6 +4601,197 @@ where in the second step we used the assumption of [[fully faithful functor|full
 
 =--
 
+
++-- {: .num_prop #CategoriesWithFiniteProductsAreCosifted}
+###### Proposition
+**([[categories with finite products are cosifted]]**
+
+Let $\mathcal{C}$ be a [[small category]] (Def. \ref{SmallCategory}) which has [[finite products]]. Then $\mathcal{C}$ is a _[[cosifted category]]_, equivalently its [[opposite category]] $\mathcal{C}^{op}$ is a _[[sifted category]]_, equivalently [[colimits]] over $\mathcal{C}^{op}$ with values in [[Set]] are _[[sifted colimits]]_, equivalently [[colimits]] over $\mathcal{C}^{op}$ with values in [[Set]] _[[limits commuting with colimits|commute]] with [[finite products]]_, as follows:
+
+For $\mathbf{X}, \mathbf{Y} \in [\mathcal{C}^{op}, Set]$ to [[functors]] on the [[opposite category]] of $\mathcal{C}$ (hence two [[presheaves]] on $\mathcal{C}$, Example \ref{CategoryOfPresheaves}) we have a [[natural isomorphism]] (Def. \ref{NaturalTransformations})
+
+$$
+  \underset{\underset{\mathcal{C}^{op}}{\longrightarrow}}{\lim}
+  \left(
+    \mathbf{X} \times \mathbf{Y}
+  \right)
+  \;\simeq\;
+  \left(
+    \underset{\underset{\mathcal{C}^{op}}{\longrightarrow}}{\lim}
+    \mathbf{X}
+  \right)
+  \times
+  \left(
+    \underset{\underset{\mathcal{C}^{op}}{\longrightarrow}}{\lim}
+    \mathbf{Y}
+  \right)
+$$ 
+
+between the [[colimit]] of their [[Cartesian product]] and the [[Cartesian product]] of their separate [[colimits]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+First observe that for $\mathbf{X}, \mathbf{Y} \in [\mathcal{C}^{op}, Set]$ two [[presheaves]], their [[Cartesian product]] is a [[colimit]] over [[representable presheaf|presheaves represented]] by Cartesian products in $\mathcal{C}$. Explicity, using [[coend]]-notation, we have:
+
+\[
+  \label{OnSiteWithProductsExpandProductOfPresheaves}
+  \mathbf{X} \times \mathbf{Y}
+  \;\simeq\;
+  \int^{c_1,c_2 \in \mathcal{C}}
+  y(c_1 \times c_2) \times \mathbf{X}(c_1) \times \mathbf{Y}(c_2)
+  \,,
+\]
+
+where $y \;\colon\; \mathcal{C} \hookrightarrow [\mathcal{C}^{op}, Set]$ denotes the [[Yoneda embedding]].
+
+This is due to the following sequence of [[natural isomorphisms]]:
+
+$$
+  \begin{aligned}
+    (\mathbf{X} \times \mathbf{Y})(c)
+    & \simeq
+    \left(
+      \int^{c_1 \in \mathcal{C}}
+      \mathcal{C}(c,c_1) \times \mathbf{X}(c_1)
+    \right)
+    \times
+    \left(
+      \int^{c_2 \in \mathcal{C}}
+      \mathcal{C}(c,c_2) \times \mathbf{Y}(c_2)
+    \right)
+    \\
+    & \simeq
+    \int^{c_1 \in \mathcal{C}}
+    \int^{c_2 \in \mathcal{C}}
+    \underset{
+      \simeq \mathcal{c}(c, c_1 \times c_2)
+    }{
+    \underbrace{
+      \mathcal{C}(c,c_1) \times \mathcal{C}(c,c_2)
+    }}
+    \times 
+    \left( 
+      \mathbf{X}(c_1) \times \mathbf{X}(c_2)
+    \right)
+    \\
+    & \simeq
+    \int^{c_1 \in \mathcal{C}}
+    \int^{c_2 \in \mathcal{C}}
+    \mathcal{C}(c,c_1 \times c_2)
+    \times 
+       \mathbf{X}(c_1) \times \mathbf{X}(c_2)
+    \,,
+  \end{aligned}
+$$
+
+where the first step expands out both presheaves as colimits of representables separately, via the [[co-Yoneda lemma]] (Prop. \ref{TopologicalCoYonedaLemma}), the second step uses that the [[Cartesian product]] of presheaves is a two-variable [[left adjoint]] (by the [[symmetric monoidal category|symmetric]] [[closed monoidal structure on presheaves]]) and [[adjoints preserve (co-)limits|as such preserves colimits]] (in particular [[coends]]) in each [[variable]] separately (Prop. \ref{AdjointsPreserveCoLimits}), and under the brace we use the defining [[universal property]] of the [[Cartesian products]], assumed to exist in $\mathcal{C}$.
+
+Now observe that the [[colimit]] of a [[representable presheaf]] is the [[singleton]].
+
+\[
+  \label{ColimitOfRepresentableIsSingleton}
+  \underset{\underset{\mathcal{D}^{op}}{\longrightarrow}}{\lim} y(c)
+  \;\simeq\;
+  \ast
+  \,.
+\]
+
+One way to see this is to regard the colimit as the [[left Kan extension]] (Prop. \ref{TopologicalLeftKanExtensionBCoend}) along the unique functor $\mathcal{C}^{op} \overset{p}{\to} \ast$ to the [[terminal category]]. By the formula (eq:FormulaLeftKanExtensionByCoend) this is
+
+$$
+  \begin{aligned}
+    \underset{\underset{\mathcal{D}^{op}}{\longrightarrow}}{\lim}
+    y(c)
+    & \simeq
+    \int^{c_1 \in \mathcal{C}} 
+      \underset{const_\ast(c_1)}{\underbrace{\ast(-,p(c_1))}} \times y(c)(c_1)
+    \\
+    & \simeq
+    \int^{c_1 \in \mathcal{C}} const_\ast(c_1) \times \mathcal{C}(c_1,c) 
+    \\
+    & \simeq const_\ast(c)
+    \\
+    & \simeq \ast
+  \end{aligned}
+$$
+
+where we made explicit the [[constant functor]] $const_\ast \;\colon\; \mathcal{C} \to Set$, constant on the [[singleton]] set $\ast$, and then applied the [[co-Yoneda lemma]] (Prop. \ref{TopologicalCoYonedaLemma}).
+
+Using this, we compute for $\mathbf{X}, \mathbf{Y} \in [\mathcal{C}^{op}, Set]$ the following sequence of [[natural isomorphisms]]:
+
+$$
+  \begin{aligned}
+    \underset{\underset{\mathcal{D}^{op}}{\longrightarrow}}{\lim}
+    \left(
+      \mathbf{X} \times \mathbf{Y}
+    \right)
+    & 
+    \simeq 
+    \underset{\underset{\mathcal{D}^{op}}{\longrightarrow}}{\lim}
+    \int^{c_1,c_2 \in \mathcal{C}}
+    y(c_1 \times c_2) \times \mathbf{X}(c_1) \times \mathbf{Y}(c_2)  
+    \\
+    & \simeq
+    \int^{c_1,c_2 \in \mathcal{C}}
+    \underset{\underset{\mathcal{D}^{op}}{\longrightarrow}}{\lim}
+    \left(
+      y(c_1 \times c_2) \times \mathbf{X}(c_1) \times \mathbf{Y}(c_2)  
+    \right)
+    \\
+    & \simeq
+    \int^{c_1,c_2 \in \mathcal{C}}
+    \left(
+      \underset{
+        \simeq \ast
+      }{
+      \underbrace{
+        \underset{\underset{\mathcal{D}^{op}}{\longrightarrow}}{\lim}
+        y(c_1 \times c_2) 
+      }}
+    \right)
+    \times \mathbf{X}(c_1) \times \mathbf{Y}(c_2)  
+    \\
+    & \simeq
+    \int^{c_1,c_2 \in \mathcal{C}}
+    \left( 
+      \mathbf{X}(c_1) \times \mathbf{Y}(c_2)  
+    \right)
+    \\
+    & \simeq
+    \left(
+      \int^{c_1\in \mathcal{C}}
+      \mathbf{X}(c_1) 
+    \right)
+    \times 
+    \left(
+      \int^{c_2\in \mathcal{C}}
+      \mathbf{Y}(c_2)  
+    \right)
+    \\
+    & \simeq
+    \left(
+      \underset{\underset{\mathcal{C}^{op}}{\longrightarrow}}{\lim}
+      \mathbf{X}
+    \right)
+    \times
+    \left(
+      \underset{\underset{\mathcal{C}^{op}}{\longrightarrow}}{\lim}
+      \mathbf{Y}
+    \right)
+  \end{aligned}
+$$
+
+Here the first step is (eq:OnSiteWithProductsExpandProductOfPresheaves), the second uses that [[colimits commute with colimits]] (Prop. \ref{LimitsCommuteWithLimits}), the third uses again that the [[Cartesian product]] respects colimits in each variable separately, the fourth is (eq:ColimitOfRepresentableIsSingleton), the last step is again the respect for colimits of the Cartesian product in each variable separately.
+
+=--
+
+
+
+$\,$
 
 
 ## Basic notions of Topos theory
