@@ -1,3 +1,24 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Topos theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+#### Locality and descent
++--{: .hide}
+[[!include descent and locality - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 Classically, the theory of [[stacks]] was motivated by the study of [[moduli problems]] for which objects are classified up to [[isomorphism]].  Higher stacks are a generalization where objects are classified up to some notion of [[equivalence]], like [[complexes]] up to [[quasi-isomorphism]], [[topological spaces]] up to [[weak homotopy equivalence]], or [[abelian categories]] up to [[equivalence of categories]].
