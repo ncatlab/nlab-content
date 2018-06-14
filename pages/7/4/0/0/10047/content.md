@@ -40,6 +40,8 @@ If $C$ is a [[poset]], then $Ind(C) = Idl(C)$ is its category of [[ideals]].  Th
 
   * Similarly, a [[Grothendieck (∞,1)-topos]] is a continuous $(\infty,1)$-category if and only if it is an exponentiable object, in the appropriate sense, in the $(\infty,1)$-category of $(\infty,1)$-toposes and geometric morphisms.
 
+* In general, a locally small category $C$ is continuous if and only if it is a retract of a category of the form $Ind(D)$ where the functors preserve filtered colimits.
+
 ## Wavy arrows
 
 If $C$ is continuous, with $L:C\to Ind(C)$ the left adjoint of $\colim$, and $x,y\in C$, we define a **wavy arrow** $x\rightsquigarrow y$ to be a morphism $\hat{x} \to L(y)$ in $Ind(C)$.  This is a categorification of the [[way-below relation]] on a continuous poset: when $C$ is a poset we have a wavy arrow $x\rightsquigarrow y$ just when $x\ll y$.  But unlike in the posetal case, it is not clear how to define wavy arrows unless $C$ is continuous (whereas $\ll$ can be defined in any poset with directed joins).  However, see [[totally distributive category]].
