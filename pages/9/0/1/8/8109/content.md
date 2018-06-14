@@ -140,6 +140,8 @@ it follows that in principle one may study a spectrum $X$ by understanding all i
 ## References 
  {#References}
 
+### Stable case
+
 A quick idea is given in section 6 of 
 
 * [[Mark Mahowald]], [[Doug Ravenel]], _Towards  a Global Understanding of the Homotopy Groups of Spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/global.pdf))
@@ -191,6 +193,14 @@ February 1999, Volume 135, Issue 3, pp 743-788 ([pdf](http://hopf.math.purdue.ed
 Categorical [[ultraproducts]] are used to provide asymptotic approximations in
 
 * Tobias Barthel, Tomer Schlank, Nathaniel Stapleton, _Chromatic homotopy theory is asymptotically algebraic_, ([arXiv:1711.00844](https://arxiv.org/abs/1711.00844))
+
+### Unstable case
+
+There are also chromatic approximations in ordinary (not [[stabilization|stabilized]]) [[homotopy theory]]:
+
+* {#Heuts18} [[Gijs Heuts]], _Lie algebras and $v_n$-periodic spaces_ ([arXiv:1803.06325](https://arxiv.org/abs/1803.06325))
+
+* {#LurieHopkins18} [[Jacob Lurie]], [[Michael Hopkins]], _Unstable Chromatic Homotopy Theory_, lecture notes 2018 ([web](http://math.harvard.edu/~lurie/Thursday2017.html))
 
 [[!redirects chromatic level]]
 [[!redirects chromatic filtration]]
