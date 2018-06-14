@@ -40,7 +40,7 @@ If $C$ is a [[poset]], then $Ind(C) = Idl(C)$ is its category of [[ideals]].  Th
 
   * Similarly, a [[Grothendieck (∞,1)-topos]] is a continuous $(\infty,1)$-category if and only if it is an exponentiable object, in the appropriate sense, in the $(\infty,1)$-category of $(\infty,1)$-toposes and geometric morphisms.
 
-* In general, a [[locally small category]] $C$ is continuous if and only if it is a [[retract]] of a category $Ind(D)$ of [[ind-objects]], where the functors exhibiting the retract preserve [[filtered colimits]] (Johnstone-Joyal Theorem 2.8).
+* In general, a [[locally small category]] $C$ is continuous if and only if it is a [[retract]] of a category $Ind(D)$ of [[ind-objects]], where the functors exhibiting the retract preserve [[filtered colimits]] ([Johnstone-Joyal 82, Theorem 2.8](#JohnstoneJoyal82)).
 
 ## Wavy arrows
 
@@ -71,7 +71,7 @@ However, if $\tilde{C}(x,y)$ denotes the set of wavy arrows, then the compositio
 
 * [[Jiří Adámek]], [[F. William Lawvere]], [[Jiří Rosický]], _Continuous categories revisited_ , TAC **11** no.11 (2003) pp.252-282. ([abstract](http://www.tac.mta.ca/tac/volumes/11/11/11-11abs.html))
 
-* [[Peter Johnstone]] and [[Andre Joyal]], *Continuous categories and exponentiable toposes*, JPAA 25 (1982), [doi (free PDF)](http://dx.doi.org/10.1016/0022-4049%2882%2990083-4)
+* {#JohnstoneJoyal82} [[Peter Johnstone]], [[Andre Joyal]], *Continuous categories and exponentiable toposes*, JPAA 25 (1982), [doi (free PDF)](http://dx.doi.org/10.1016/0022-4049%2882%2990083-4)
 
 * [[Mathieu Anel]], Damien Lejay, _Exponentiable Higher Toposes_ , arXiv:1802.10425 (2018). ([abstract](https://arxiv.org/abs/1802.10425))
 
