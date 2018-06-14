@@ -298,7 +298,7 @@ Let $\mathcal{C}$ be a [[category]]. Then its _[[opposite category]]_ $\mathcal{
 
 * $Obj_{\mathcal{C}^{op}} \;\coloneqq\; Obj_{\mathcal{C}}$;
 
-* $Hom_{\mathcal{C}^{op}}(X,y) \;\coloneqq\; Hom_{\mathcal{C}}(Y,X)$.
+* $Hom_{\mathcal{C}^{op}}(X,Y) \;\coloneqq\; Hom_{\mathcal{C}}(Y,X)$.
 
 =--
 
