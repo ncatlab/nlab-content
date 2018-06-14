@@ -81,3 +81,5 @@ In general limits do _not_ commute with [[colimits]]. But under a number of spec
 
 
 [[!redirects limits preserve limits]]
+
+[[!redirects colimits commute with colimits]]
