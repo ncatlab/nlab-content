@@ -2172,7 +2172,7 @@ $$
   }
 $$
 
-implies that also $R(\widetilde f) = \iota(widetilde f)$ is the unique morphism making that triangle commute. 
+implies that also $R(\widetilde f) = \iota(\widetilde f)$ is the unique morphism making that triangle commute. 
 
 Similarly for the converse: The assumption on a [[modal operator]] $\bigcirc$ is just so as to make its unit $\eta$ be a [[universal morphism]] (Def. \ref{UniversalArrow}) into the inclusion functor $\iota$ of its [[essential image]].
 
@@ -2184,7 +2184,7 @@ Similarly for the converse: The assumption on a [[modal operator]] $\bigcirc$ is
 
 Let $\mathcal{D}$ be a [[category]] (Def. \ref{Categories}). 
 
-For $\bigcirc$ a [[modal operator]] on $\mathcal{D}$, with unit $\eta$ (Def. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}), it is _[[idempotent monad|idempotent]]_, in that there is a [[natural isomorphism]] (Def. \ref{NaturalTransformations}) 
+For $\bigcirc$ a [[modal operator]] on $\mathcal{D}$, with unit $\eta$ (Def. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}), it is _[[idempotent monad|idempotent]]_, in that it is [[natural isomorphism|naturally isomorphic]] (Def. \ref{NaturalTransformations}) to the [[composition]] with itself:
 
 $$
   \bigcirc \;\simeq\; \bigcirc \bigcirc
@@ -2213,7 +2213,7 @@ $$
 $$
 
 
-[[formal dual|Dually]], for $\Box$ a [[cpmodal operator]] on $\mathcal{D}$, with counit $\epsilon$ (Def. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}), it is _[[idempotent monad|idempotent]]_, in that there is a [[natural isomorphism]] (Def. \ref{NaturalTransformations}) 
+[[formal dual|Dually]], for $\Box$ a [[comodal operator]] on $\mathcal{D}$, with counit $\epsilon$ (Def. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}), it is _[[idempotent monad|idempotent]]_, in that it is [[natural isomorphism|naturally isomorphic]] (Def. \ref{NaturalTransformations}) to the [[composition]] with itsef:
 
 $$
   \Box \circ \Box
@@ -2278,7 +2278,9 @@ $$
   \;=\;
   id_{L(X)}
   \phantom{AA} \text{and} \phantom{AA}
-  \iota( \epsilon_Y )\circ \eta_{iota(Y)}
+  \iota( \epsilon_Y )\circ \eta_{\iota(Y)}
+  \;=\;
+  id_{\iota(Y)}
   \,.
 $$
 
@@ -2296,17 +2298,40 @@ Let $\mathcal{D}$ be a [[category]] (Def. \ref{Categories}).
 
 For $\bigcirc$ a [[modal operator]] on $\mathcal{D}$ (Def. \ref{ModalOperator}), we say:
 
-1. a $\bigcirc$-[[modal object]] is an object $X \in \mathcal{D}$ such that the following conditions hold (which are all equivalent, by Prop. \ref{ModalOpIdempotent})
+1. a _$\bigcirc$-[[modal object]]_ is an [[object]] $X \in \mathcal{D}$ such that the following conditions hold (which are all equivalent, by Prop. \ref{ModalOpIdempotent}):
 
-   * it is in the $\bigcirc$-[[essential image]]: $X \in Im( \bigcirc ) \hookrightarrow Im( \bigcirc )$, 
+   * it is in the $\bigcirc$-[[essential image]]: $X \in Im( \bigcirc ) \hookrightarrow \mathcal{D}$, 
 
-   * it is isomorphic to its own $\bigcirc$-image: $X \simeq \bigcirc X$,
+   * it is isomorphic to its own $\bigcirc$-[[image]]: $X \simeq \bigcirc X$,
 
    * specifically its $\bigcirc$-unit is an isomorphism $\eta_X \;\colon\; X \overset{\simeq}{\to} \bigcirc X$.
 
-1. a $\bigcirc$-[[submodal object]] is a [[subobject]] of a $\bigcirc$-[[modal object]], hence an object $X \in \mathcal{D}$ equipped with a [[monomorphism]] into a $\bigcirc$-modal object.
+1. a _$\bigcirc$-[[modal object|submodal object]]_ is an [[object]] $X \in \mathcal{D}$, such that 
+
+   * its $\bigcirc$-unit is a monomorphism: $\eta_X \;\colon\; X \hookrightarrow \bigcirc X$.
+
+[[formal duality|Dually]]:
+
+For $\Box$ a [[comodal operator]] on $\mathcal{D}$ (Def. \ref{ModalOperator}), we say:
+
+1. a _$\Box$-[[comodal object]]_ is an [[object]] $X \in \mathcal{D}$ such that the following conditions hold (which are all equivalent, by Prop. \ref{ModalOpIdempotent}):
+
+   * it is in the $\Box$-[[essential image]]: $X \in Im( \Box ) \hookrightarrow \mathcal{D}$, 
+
+   * it is isomorphic to its own $\Box$-[[image]]: $\Box X \simeq X$,
+
+   * specifically its $\Box$-counit is an isomorphism $\epsilon_X \;\colon\; \Box X \overset{\simeq}{\longrightarrow} X$
+
+1. a _$\Box$-[[comodal object|subcomodal object]]_ is an [[object]] $X \in \mathcal{D}$, such that 
+
+   * its $\Box$-counit is an [[epimorphism]]: $\epsilon_X \;\colon\; \Box X \overset{epi}{\longrightarrow} X$.
+
 
 =--
+
+(...)
+
+$\,$
 
 ## Basic notions of Categorical algebra
 
@@ -2320,7 +2345,9 @@ $$
 
 which is directly analogous to the operation of [[multiplication]] in an [[associative algebra]] or even just in a [[semigroup]] (or [[monoid]]), just "[[categorification|categorified]]" (Example \ref{CartesianMonoidalCategory} below). This is made precise by the concept of a _[[monoidal category]]_ (Def. \ref{MonoidalCategory} below).
 
-This relation between [[category theory]] and [[algebra]] leads to the fields of _[[categorical algebra]]_ and of _[[universal algebra]]_. Here we are mainly intersted in [[monoidal categories]] as a foundations for [[enriched category theory]], to which we turn [below](#EnrichedCategories).
+This relation between [[category theory]] and [[algebra]] leads to the fields of _[[categorical algebra]]_ and of _[[universal algebra]]_. 
+
+Here we are mainly interested in [[monoidal categories]] as a foundations for [[enriched category theory]], to which we turn [below](#EnrichedCategories).
 
 $\,$
 
