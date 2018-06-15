@@ -1205,7 +1205,8 @@ Then
 
 1. The [[adjunction unit]] and [[adjunction counit]] satisfy the [[triangle identities]], saying that
 
-   $$
+   \[
+      \label{TriangleIdentities}
       id_{L(c)}
       \;\colon\;
       L(c) 
@@ -1213,7 +1214,7 @@ Then
       L(R(L(c))) 
         \overset{\epsilon_{L(c)}}{\longrightarrow}
       L(c)
-   $$
+   \]
 
    and
 
@@ -2058,14 +2059,12 @@ Let $\mathcal{D}$ be a [[category]] (Def. \ref{Categories}). Then
        }
      $$
 
-For $\bigcirc$ a [[modal operator]], we call the [[objects]] in $Im( \bigcirc ) \hookrightarrow \mathcal{D}$ its _[[modal objects]]_, and for $\Box$ a [[comodal operator]] we call the [[objects]] in $Im( \Box )$ its _[[comodal objects]]_.
-
 =--
 
 
 +-- {: .num_prop #ModalOperatorsEquivalentToReflectiveSubcategories}
 ###### Proposition
-**([[modal operators]] equivalent to [[reflective subcatgegories]])**
+**([[modal operators]] equivalent to [[reflective subcategories]])**
 
 If 
 
@@ -2179,8 +2178,135 @@ Similarly for the converse: The assumption on a [[modal operator]] $\bigcirc$ is
 
 =--
 
-(...)
++-- {: .num_prop #ModalOpIdempotent}
+###### Proposition
+**([[modal operator]] is [[idempotent]])**
 
+Let $\mathcal{D}$ be a [[category]] (Def. \ref{Categories}). 
+
+For $\bigcirc$ a [[modal operator]] on $\mathcal{D}$, with unit $\eta$ (Def. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}), it is _[[idempotent monad|idempotent]]_, in that there is a [[natural isomorphism]] (Def. \ref{NaturalTransformations}) 
+
+$$
+  \bigcirc \;\simeq\; \bigcirc \bigcirc
+  \,.
+$$
+
+In fact, the image under $\bigcirc$ of its unit is such an isomorphism
+
+$$
+  \bigcirc\left( X \overset{\eta_X}{\to} \bigcirc X \right)
+  \;\;\colon\;\;
+  \bigcirc X 
+    \overset{\simeq}{\longrightarrow}
+  \bigcirc ( \bigcirc X )
+$$
+
+as is its unit on its image
+
+$$
+  \eta_{\bigcirc X}
+  \;\;\colon\;\;
+  \bigcirc X 
+    \overset{\simeq}{\longrightarrow}
+  \bigcirc ( \bigcirc X )
+  \,.
+$$
+
+
+[[formal dual|Dually]], for $\Box$ a [[cpmodal operator]] on $\mathcal{D}$, with counit $\epsilon$ (Def. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}), it is _[[idempotent monad|idempotent]]_, in that there is a [[natural isomorphism]] (Def. \ref{NaturalTransformations}) 
+
+$$
+  \Box \circ \Box
+  \;\simeq\;
+  \Box
+  \,.
+$$
+
+In fact, the image under $\Box$ of its counit is such an isomorphism
+
+$$
+  \Box\left(  \Box X \overset{\epsilon_X}{\to} X \right)
+  \;\;\colon\;\;
+  \Box (\Box X)
+    \overset{\simeq}{\longrightarrow}
+  \Box X
+$$
+
+as is its counit on its image
+
+$$
+  \epsilon_{\Box X}
+  \;\;\colon\;\;
+  \Box ( \Box X )
+    \overset{\simeq}{\longrightarrow}
+  \Box X
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We discuss the first case. The second is [[formal dual|formally dual]].
+
+By Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}, the modal operator is equivalent to the composite $\iota \circ L$ obtained from the [[reflective subcategory]]-inclusion (Def. \ref{ReflectiveSubcategory}) of its [[essential image]] of [[modal objects]]:
+
+$$
+  Im(\bigcirc)
+    \underoverset
+      {\underset{\phantom{AA}\iota \phantom{AA}}{\hookrightarrow}}
+      {\overset{\phantom{AA}L \phantom{AA} }{\longleftarrow}}
+      {\bot}
+  \mathcal{D}
+  \,.
+$$
+
+and its unit is the corresponding [[adjunction unit]] (Def. \ref{AdjunctionUnitFromHomIsomorphism})
+
+$$
+  X \overset{\eta_X}{\longrightarrow} \iota \circ L
+  \,.
+$$
+
+Hence it is sufficient to show that the morphisms and $L( \eta_X )$ and $\eta_{\iota Y}$ are isomorphisms.
+
+Now, the [[triangle identities]] (eq:TriangleIdentities) for the [[adjunction]] $L \dashv \iota$, which hold by Prop. \ref{GeneralAdjunctsInTermsOfAdjunctionUnitCounit}, say that their [[composition]] with the [[adjunction counit]] is the [[identity morphism]]
+
+$$
+  \epsilon_{L(\eta_X)} \circ L(\eta_X)
+  \;=\;
+  id_{L(X)}
+  \phantom{AA} \text{and} \phantom{AA}
+  \iota( \epsilon_Y )\circ \eta_{iota(Y)}
+  \,.
+$$
+
+But by Prop. \ref{FullyFaithfulAndInvertibleAdjoints}, the counit $\epsilon$ is a [[natural isomorphism]], since $\iota$ is [[fully faithful functor|fully faithful]]. Hence we may cancel it on both sides of the [[triangle identities]] and find that $L(\eta_X)$ and $\eta_{\iota(Y)}$ are indeed isomorphisms.
+
+
+
+=--
+
++-- {: .num_defn #ModalObjects}
+###### Definition
+**([[modal objects]])**
+
+Let $\mathcal{D}$ be a [[category]] (Def. \ref{Categories}).
+
+For $\bigcirc$ a [[modal operator]] on $\mathcal{D}$ (Def. \ref{ModalOperator}), we say:
+
+1. a $\bigcirc$-[[modal object]] is an object $X \in \mathcal{D}$ such that the following conditions hold (which are all equivalent, by Prop. \ref{ModalOpIdempotent})
+
+   * it is in the $\bigcirc$-[[essential image]]: $X \in Im( \bigcirc ) \hookrightarrow Im( \bigcirc )$, 
+
+   * it is isomorphic to its own $\bigcirc$-image: $X \simeq \bigcirc X$,
+
+   * specifically its $\bigcirc$-unit is an isomorphism $\eta_X \;\colon\; X \overset{\simeq}{\to} \bigcirc X$.
+
+1. a $\bigcirc$-[[submodal object]] is a [[subobject]] of a $\bigcirc$-[[modal object]], hence an object $X \in \mathcal{D}$ equipped with a [[monomorphism]] into a $\bigcirc$-modal object.
+
+=--
 
 ## Basic notions of Categorical algebra
 
@@ -6228,8 +6354,9 @@ We pronounce these as follows:
 |--------------------|-------------------|--------------------|
 |   $\phantom{A}$  $&#643; \;\coloneqq\; Disc \circ Pi_0$  $\phantom{A}$ | $\phantom{A}$ $\flat \;\coloneqq\; Disc \circ \Gamma$ $\phantom{A}$  | $\phantom{A}$ $\sharp \;\coloneqq\; coDisc \circ \Gamma $ $\phantom{A}$  |
 
-
 =--
+
+
 
 
 (...)
