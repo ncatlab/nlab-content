@@ -27,9 +27,11 @@ The following provides more details. For technical help with special features of
 ## Software required to use the $n$Lab
 {#software}
 
-The $n$Lab displays mathematical symbols using [MathML](http://en.wikipedia.org/wiki/MathML).  Displaying MathML requires support from your web browser.  The browser with the best support for MathML is [Firefox](http://www.mozilla.com/firefox/), especially if you install the [STIX fonts](http://www.mozilla.org/projects/mathml/fonts/).  Firefox is a great browser in many other ways too, so if you aren't using it, why not give it a try?
+The $n$Lab serves mathematical symbols as [MathML](http://en.wikipedia.org/wiki/MathML).   Presently the only browser with _native_ MathML support is [Firefox](http://www.mozilla.com/firefox/), which works especially well if you install the [STIX fonts](http://www.mozilla.org/projects/mathml/fonts/). 
 
-Recent versions of Opera also apparently support MathML, but as a blog post on [Jacques Distler's Musings](http://golem.ph.utexas.edu/~distler/blog/archives/001588.html) points out, this may not work properly.  For InternetExplorer, one needs to install the [MathPlayer](http://www.dessci.com/en/products/mathplayer/) plugin. Download is quick and easy and free, but installation may require Administrator privileges on your computer.  Other browsers such as Safari and Chrome seemingly do not support MathML at present.
+Essentially all other browsers fall back to rendering MathML, and hence $n$Lab pages, using the [MathJax](https://www.mathjax.org/) [polyfill](https://en.wikipedia.org/wiki/Polyfill_(programming)). This works well for small pages, but takes up to many minutes for rendering on larger pages.
+ 
+Some versions of Opera also apparently support MathML, but as a blog post on [Jacques Distler's Musings](http://golem.ph.utexas.edu/~distler/blog/archives/001588.html) points out, this may not work properly.  For InternetExplorer, one used to need to install the [MathPlayer](http://www.dessci.com/en/products/mathplayer/) plugin. Download is quick and easy and free, but installation may require Administrator privileges on your computer.  Other browsers such as Safari and Chrome seemingly do not support MathML at present.
 
 ## How to search the nLab & nForum from firefox ##
 
