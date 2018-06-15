@@ -12,10 +12,11 @@ If you need it, here is my email:  droberts.[fifth and largest-known [[Fermat pr
 
 ## Writing
 
-### Preprints
+### Preprints/Notes
 
 * _Extending Whitney's extension theorem_, [arXiv:1801.04126](https://arxiv.org/abs/1801.04126). Joint with [[Alexander Schmeding]].
 
+* _Class forcing and topos theory_, notes from my 2015 talk at IHES, doi:[10.4225/55/5b2252e3092af](https://doi.org/10.4225/55/5b2252e3092af)
 
 ### Papers
 
@@ -82,7 +83,7 @@ Appears in: Gazette of the Australian Mathematical Society, Vol. 41 (2014) No. 5
 
 ## Selected Talks 
 
-* _The stack of smooth maps from a manifold to a differentiable stack is differentiable_, [Topology in Australia and South Korea](https://cgp.ibs.re.kr/conferences/Topology_in_Australia_and_South_Korea/), POSTECH. 23 April 2018.
+* _The stack of smooth maps from a manifold to a differentiable stack is differentiable_, [Topology in Australia and South Korea](https://cgp.ibs.re.kr/conferences/Topology_in_Australia_and_South_Korea/), POSTECH. 23 April 2018. ([Video](https://cgp.ibs.re.kr/activities/seminars/283/2145), requires flash)
 
 * _Constructions in lower dimensional higher geometry_, [Gauge theory and higher geometry](http://iga.adelaide.edu.au/workshops/MKM60/), University of Adelaide. 29 November 2017.
 
@@ -94,7 +95,7 @@ Appears in: Gazette of the Australian Mathematical Society, Vol. 41 (2014) No. 5
 
 * _Smooth mapping orbifolds_, [Differential geometry seminar](http://maths.adelaide.edu.au/news/geometry.html), University of Adelaide. 20 May 2016.
 
-* _Class forcing and topos theory_, [Topos a IHES](https://indico.math.cnrs.fr/event/747/), IHES, 27 November 2015. ([Abstract](https://indico.math.cnrs.fr/event/747/session/0/contribution/27/material/1/0.pdf)), ([Video](https://youtu.be/4AaSySq8-GQ))
+* _Class forcing and topos theory_, [Topos a IHES](https://indico.math.cnrs.fr/event/747/), IHES, 27 November 2015. ([Abstract](https://indico.math.cnrs.fr/event/747/session/0/contribution/27/material/1/0.pdf)), ([Video](https://youtu.be/4AaSySq8-GQ)), ([Notes](https://doi.org/10.4225/55/5b2252e3092af))
 
 * _Homogeneous string connections_, [2015 Annual Meeting of the Australian Mathematical Society](http://www.flinders.edu.au/science_engineering/csem/research/centres/fmsl/austms2015/), 1 October 2015. ([Abstract](http://www.mathematics.org.au/sys/talks/talk.php?talk=2764&conf_id=26))
 
