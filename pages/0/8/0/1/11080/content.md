@@ -1765,7 +1765,70 @@ The [[concrete objects]] in the [[cohesive topos]] of [[smooth sets]] are precis
 (...)
 
 
-$\,$
++-- {: .num_defn #DiffeologicalSpace}
+###### Definition
+**([[diffeological space]] (e.g. [Iglesias Zemmour 18, def. 2 and 5](diffeological+space#IglesiasZemmour18)))**
+
+A _[[diffeological space]]_ $\mathbf{X}$ is 
+
+1. a [[set]] $X \in Set$, called the _underlying set_ of the diffeological space;
+
+1. for each [[open subset]] $U \subset E^n$ of some [[Euclidean space]] $E^n$, for any $n \in \mathbb{N}$, a [[subset]]
+
+   $$
+     \mathbf{X}(U) \subset Hom_{Set}(U, X)
+   $$ 
+
+   of the [[function set]] of [[functions]] of [[sets]] from $U$ to $X$, called the set of _plots_ of $\mathbf{X}$ by $U$;
+
+such that for every open subset $U$ as above
+
+1. the set $\mathbf{X}(U)$ contains all the [[constant functions]]
+
+   $$
+     X \overset{const}{\hookrightarrow} X(U) \hookrightarrow Hom_{Set}(U,X)
+   $$
+
+1. for every [[function]] $\phi \;\colon\; U \to X$ and for every [[open cover]] $\{U_i \overset{\iota_i}{\to} U\}$, if each [[restriction]] $\phi\vert_{U_i}$ is in $X(U_i)$, then \phi \in \mathbf{X}(U)$;
+
+1. for all plots $\phi \in \mathbf{X}(U)$, all open subsets $V$ of any [[Euclidean space]], and all [[smooth functions]] $V \overset{f}{\to} U$, we have
+
+   $$
+     \phi \circ f   \;\in\; \mathbf{X}(V)
+     \,.
+   $$
+
+Moreover, for  $\mathbf{X}$ and $\mathbf{Y}$ two [[diffeological spaces]], as above,  then a _smooth map_ between them 
+
+$$
+  \mathbf{X} \overset{f}{\longrightarrow} \mathbf{Y}
+$$
+
+is a [[function]] of underlying sets
+
+$$
+  X \overset{\phantom{A} f \phantom{A}}{\longrightarrow} Y
+  \;\;\in\;\;
+  Set
+$$
+
+such that for each plot $\phi \in \mathbf{X}(U)$ of $\mathbf{X}$ the [[composition]] with that function is a plot of $\mathbf{Y}$:
+
+$$
+  f \circ \phi \;\in\; \mathbf{X}(U)
+  \,.
+$$
+
+This defines a [[category]] $DiffeologicalSpace$ (Def. \ref{geometry+of+physics+--+categories+and+toposes#Categories}) whose [[objects]] are the diffeological spaces, whose [[morphisms]] are the smooth maps between them, with [[composition]] of morphisms the ordinary composition of functions of underlying sets.
+
+=--
+
++-- {: .num_lemma }
+###### Lemma
+
+Let 
+
+=--
 
 ### Differential forms
 
