@@ -20,10 +20,8 @@ At the moment, this is a "place holder" page.  I ([[Andrew Stacey]]) want to lea
 
 We consider the category of [[Banach spaces]] with linear [[short maps]].  That is, this is the category $\operatorname{Ban}$ with:
 
-<dl markdown="1"><dd>Objects</dd>
-<dt>Banach spaces over $\mathbb{R}$</dt>
-<dd>Morphisms $E \to F$</dd>
-<dt>Linear short maps.  That is, bounded linear transformations $T \colon E \to F$ such that $\|T\| \le 1$</dt></dl>
+* Objects: Banach spaces over $\mathbb{R}$
+* Morphisms $E \to F$: Linear short maps.  That is, bounded linear transformations $T \colon E \to F$ such that $\|T\| \le 1$
 
 We define a functor $B \colon \operatorname{Ban} \to \operatorname{Set}$ sending a Banach space to its unit ball.  Since linear short maps $E \to F$ take the unit ball of $E$ into the unit ball of $F$, this is well-defined.
 
@@ -69,7 +67,7 @@ AS: To be continued ...
 
 The above is essentially [[Andrew Stacey|my]] "notes" on reading the following (and whatever necessary to understand the following):
 
-Section 4.4 of _Toposes, Triples, and Theories_ by Barr and Wells
+Section 4.4 of _Toposes, Triples, and Theories_ by Barr and Wells ([TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html))
 
 
 ## References
