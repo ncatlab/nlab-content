@@ -55,6 +55,9 @@ The term "anti-modal type" appears in
 [[!redirects co-modal type]]
 [[!redirects co-modal types]]
 
+[[!redirects comodal object]]
+[[!redirects comodal objects]]
+
 
 [[!redirects anti-modal object]]
 [[!redirects anti-modal objects]]
