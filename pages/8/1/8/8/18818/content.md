@@ -1539,7 +1539,7 @@ usual matrix product.
 **([[real spin representations]] via [[normed division algebras]])**
 
 The map $\Gamma$ in def. \ref{CliffordAlgebraInTermsOfNormedDivisionAlgebra} gives a [[representation]] of the [[Clifford algebra]]
-$Cl(\mathbb{R}^{dim_{\mathbb{R}}}(\mathbb{K}+1,1)  )$
+$Cl(\mathbb{R}^{dim_{\mathbb{R}}(\mathbb{K})+1,1}  )$
 ([this def.](geometry+of+physics+--+supersymmetry#CliffordAlgebra)), i.e of
 
 1. $Cl(\mathbb{R}^{2,1})$ for $\mathbb{K} = \mathbb{R}$;
