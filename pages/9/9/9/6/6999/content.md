@@ -21,7 +21,7 @@
 
 For $\Gamma : \mathcal{E} \to \mathcal{B}$ a [[functor]] we say that it _has [[codiscrete object]]s_ if it has a  [[full and faithful functor|full and faithful]] [[right adjoint]] $coDisc : \mathcal{B} \hookrightarrow \mathcal{E}$. 
 
-This is for instance the case for the [[global section]] [[geometric morphism]] of a [[local topos]] $ (Disc \dashv \Gamma \dashv coDisc) \mathcal{E} \to \mathcal{B}$. 
+This is for instance the case for the [[global section]] [[geometric morphism]] of a [[local topos]] $ (Disc \dashv \Gamma \dashv coDisc) \;\colon\; \mathcal{E} \to \mathcal{B}$. 
 
 In this situation, we say that a  **concrete object** $X \in \mathcal{E}$ is one for which the $(\Gamma \dashv coDisc)$-[[unit of an adjunction]] is a [[monomorphism]].
 
