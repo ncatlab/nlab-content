@@ -1760,10 +1760,6 @@ $\,$
 
 ### Diffeological spaces
 
-The [[concrete objects]] in the [[cohesive topos]] of [[smooth sets]] are precisely the [[diffeological spaces]].
-
-(...)
-
 
 +-- {: .num_defn #DiffeologicalSpace}
 ###### Definition
@@ -1781,17 +1777,17 @@ A _[[diffeological space]]_ $\mathbf{X}$ is
 
    of the [[function set]] of [[functions]] of [[sets]] from $U$ to $X$, called the set of _plots_ of $\mathbf{X}$ by $U$;
 
-such that for every open subset $U$ as above
+such that for every open subset $U$ as above the following conditions hold:
 
-1. the set $\mathbf{X}(U)$ contains all the [[constant functions]]
+1. the set of plots $\mathbf{X}(U)$ contains all the [[constant functions]]
 
    $$
-     X \overset{const}{\hookrightarrow} X(U) \hookrightarrow Hom_{Set}(U,X)
+     X \overset{const}{\hookrightarrow} \mathbf{X}(U) \hookrightarrow Hom_{Set}(U,X)
    $$
 
-1. for every [[function]] $\phi \;\colon\; U \to X$ and for every [[open cover]] $\{U_i \overset{\iota_i}{\to} U\}$, if each [[restriction]] $\phi\vert_{U_i}$ is in $X(U_i)$, then \phi \in \mathbf{X}(U)$;
+1. for every [[function]] $\phi \;\colon\; U \to X$ and for every [[open cover]] $\{U_i \overset{\iota_i}{\to} U\}$, if each [[restriction]] is a plot, $\phi\vert_{U_i} \in \mathbf{X}(U_i)$, then $\phi$ itself is a plot: $\phi \in \mathbf{X}(U)$;
 
-1. for all plots $\phi \in \mathbf{X}(U)$, all open subsets $V$ of any [[Euclidean space]], and all [[smooth functions]] $V \overset{f}{\to} U$, we have
+1. for all plots $\phi \in \mathbf{X}(U)$, all open subsets $V$ of any [[Euclidean space]], and all [[smooth functions]] $V \overset{f}{\to} U$, we have, the composition is again a plot
 
    $$
      \phi \circ f   \;\in\; \mathbf{X}(V)
@@ -1823,12 +1819,98 @@ This defines a [[category]] $DiffeologicalSpace$ (Def. \ref{geometry+of+physics+
 
 =--
 
-+-- {: .num_lemma }
-###### Lemma
++-- {: .num_prop }
+###### Proposition
 
-Let 
+The category of [[diffeological spaces]] (Def. \ref{DiffeologicalSpace}) is a [[full subcategory]] of the category of [[smooth sets]] (Def. \ref{CategoryOfSmoothSets}).
+
+Moreover, in terms of the [[cohesive topos|cohesive]] structure on the category of smooth sets (Prop. \ref{SmoothSetsFormACohesiveTopos}) the diffeological spaces are precisely the _[[concrete objects]]_ ([this def.](geometry+of+physics+--+categories+and+toposes#CohesiveModalities)) among the [[smooth sets]].
 
 =--
+
+
++-- {: .proof}
+###### Proof
+
+By exactly the same unwinding of Definitions as in Prop. \ref{SmoothSetsAreSheavesOnCartSp}, the assignment of sets of plots 
+
+$$
+  U \mapsto \mathbf{X}(U)
+$$
+
+of a diffeological space $\mathbf{X}$, according to Def. \ref{DiffeologicalSpace} constitutes a [[sheaf]] ([this Def.](geometry+of+physics+--+categories+and+toposes#Sheaf)) on the [[site]] $EuclOp$ of [[open subsets]] of [[Euclidean spaces]]:
+
+* the third clause in Def. \ref{DiffeologicalSpace} says that the assignment of sets of plots is a [[presheaf]]
+
+* the second clause says that this presheaf satisfies the [[sheaf|sheaf condition]]
+
+* while the first clause is an extra condition, singling out diffeological spaces among all sheaves.
+
+Under this identification, the definition of a smooth map of diffeological spaces in Def. \ref{DiffeologicalSpace} says that it is equivalently a morphism of presheaves, hence of sheaves. This establishe a [[full subcategory]]-inclusion
+
+$$
+  DiffeologicalSpace
+    \hookrightarrow
+  Sh(EuclOp)
+  \,.
+$$
+
+But by ... the restriction from the site $EuclOp$ of all open subsets of Euclidean spaces to that of just the site [[CartSp]] of [[Cartesian spaces]] is an [[equivalence of categories]] between the corresponding [[sheaf toposes]].
+
+This yields the full subcategory inclusion
+
+$$
+  DiffeologicalSpace
+   \hookrightarrow
+  Sh(EuclOp)
+    \simeq
+  Sh(CartSp)
+    \simeq
+  SmoothSet
+$$
+
+where the last equivalence is Prop. \ref{SmoothSetsAreSheavesOnCartSp}.
+
+It remains to see that under this inclusion, the diffeological spaces are identified with the [[concrete objects]] among the smooth set.
+
+By definition, a smooth set $\mathbf{X} \in SmoothSet$ is concrete, precisely if its [[sharp modality|sharp]]-unit is a [[monomorphism]]
+
+$$
+  \mathbf{X}  
+    \overset{\phantom{A} \eta_X^\sharp \phantom{A}}{\hookrightarrow}
+  \sharp \mathbf{X}
+$$ 
+
+Now a morphism of sheaves is a monomorphism, precisely if for each object $U \in CartSp$ in the site, its component function
+
+$$
+  \mathbf{X}(U)
+    \overset{\phantom{A} \eta_X^\sharp(U) \phantom{A}}{\hookrightarrow}
+  (\sharp \mathbf{X})(U)
+$$ 
+
+is an [[injective function]]. By the [[Yoneda lemma]] and adjunction hom-isomorphism, this is equivalently 
+
+$$
+  \mathbf{X}(U)
+  \simeq
+  Hom_{SmoothSet}(U, \mathbf{X})
+    \overset{\phantom{AAAA}}{\hookrightarrow}
+  Hom_{SmoothSet}( U , coDisc \Gamma \mathbf{X})
+  \simeq
+  Hom_{Set}(\Gamma U , \Gamma \mathbf{X})
+  \,.
+$$ 
+
+This being an injection, hence a subset inclusion, is precisely the condition for $\mathbf{X}(U)$ to be the set of plots of a diffeological space,
+with $X \coloneqq \Gamma \mathbf{X}$ its underlying set.
+
+
+=--
+
+(...)
+
+$\,$
 
 ### Differential forms
 
