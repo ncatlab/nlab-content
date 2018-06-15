@@ -6394,6 +6394,34 @@ We pronounce these as follows:
 |--------------------|-------------------|--------------------|
 |   $\phantom{A}$  $&#643; \;\coloneqq\; Disc \circ Pi_0$  $\phantom{A}$ | $\phantom{A}$ $\flat \;\coloneqq\; Disc \circ \Gamma$ $\phantom{A}$  | $\phantom{A}$ $\sharp \;\coloneqq\; coDisc \circ \Gamma $ $\phantom{A}$  |
 
+and we refer to the corresspondin [[modal objects]] (Def. \ref{ModalObjects}) as follows:
+
+* a [[flat modality|flat]]-[[comodal object]]
+
+  $$
+    \flat X \underoverset{\simeq}{\phantom{A}\epsilon^\flat_X \phantom{A}}{\longrightarrow} X
+  $$
+
+  is called a _[[discrete object]]_;
+
+* a [[sharp modality|sharp]]-[[modal object]] 
+
+  $$
+    X \underoverset{\simeq}{\phantom{A}\eta^\sharp_X\phantom{A}}{\longrightarrow} \sharp X
+  $$
+
+  is called a _[[codiscrete object]]_;
+
+* a [[sharp modality|sharp]]-[[modal objects|submodal object]]
+
+  $$
+    X \underoverset{mono}{\phantom{A}\eta^\sharp_X\phantom{A}}{\longrightarrow} \sharp X
+  $$
+
+  is a _[[concrete object]]_.
+
+
+
 =--
 
 
