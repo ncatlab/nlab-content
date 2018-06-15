@@ -1186,7 +1186,7 @@ $\delta \phi^a_{,\mu_1 \cdots \mu_k}$ for $k \geq 1$,
 and so the remaining terms are proportional to $\delta \phi^a$, as claimed:
 
 $$
-  \mathbf{d}L + d \Theta_{BFV}
+  \mathbf{d}\mathbf{L} + d \Theta_{BFV}
   =
   \underset{
     = \delta_{EL}\mathbf{L}
