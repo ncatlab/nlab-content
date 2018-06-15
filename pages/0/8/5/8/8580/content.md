@@ -148,10 +148,6 @@ $\,$
 
 1. [Smooth sets](#SmoothSpaces)
 
-1. [Differential forms](#DifferentialForms)
-
-1. [Differentiation](#Differentiation)
-
 1. [Homotopy types](#HomotopyTypes)
 
 1. [Smooth homotopy types](#SmoothnGroupoids)
@@ -550,11 +546,7 @@ We now end this introduction and overview and turn to the in-depth account of _g
 We begin by laying the foundations of [[differential geometry]]. Doing this in the natural abstract way seamlessly leads over to the foundations of [[higher differential geometry]] (see also _[[motivation for higher differential geometry]]_). Once this is set up, we discuss the fundamental constructions: [[groups]], [[actions]]/[[representations]], [[fiber bundles]], [[connection on a bundle|connections]], [[Chern-Weil theory]].
 
 
-1. [Smooth spaces](#SmoothSpaces)
-
-1. [Differential forms](#DifferentialForms)
-
-1. [Differentiation](#Differentiation)
+1. [Smooth sets](#SmoothSpaces)
 
 1. [Homotopy types](#HomotopyTypes)
 
@@ -596,22 +588,10 @@ We begin by laying the foundations of [[differential geometry]]. Doing this in t
 This chapter is as _[[geometry of physics -- Categories and Toposes]]_
 
 
-## **Smooth spaces**
+## **Smooth set**
  {#SmoothSpaces}
 
 This chapter is at _[[geometry of physics -- smooth sets]]_.
-
-
-## **Differential forms**
- {#DifferentialForms}
-
-
-This chapter is at _[[geometry of physics -- differential forms]]_.
-
-## **Differentiation**
- {#Differentiation}
-
-This chapter is at _[[geometry of physics -- differentiation]]_.
 
 ## **Homotopy types**
  {#HomotopyTypes}
