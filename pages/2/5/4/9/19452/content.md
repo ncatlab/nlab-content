@@ -5588,10 +5588,64 @@ $$
   \,.
 $$
 
+=--
+
++-- {: .num_example #InducedCoverage}
+###### Example
+**([[induced coverage]])
+
+Let $\mathcal{C}$ be a [[site]] (Def. \ref{Coverage}). Then a [[full subcategory]] (Def. \ref{FullyFaithfulFunctor})
+
+$$
+  \mathcal{D} 
+    \hookrightarrow
+  \mathcal{C}
+$$
+
+becomes a [[site]] itself, whose [[coverage]] consists of those [[coverings]] $\{U_i \overset{\iota_i}{\to} Y\}$ in $\mathcal{C}$ that happen to be in $\mathcal{D} \hookrightarrow \mathcal{C}$.
+
 
 =--
 
 
++-- {: .num_defn #DenseSubsite}
+###### Definition
+**([[dense subsite]])**
+
+Let $\mathcal{C}$ and $\mathcal{D}$ be [[sites]] (Def. \ref{Coverage}) with a a [[full subcategory]]-inclusion (Def. \ref{FullyFaithfulFunctor})
+
+$$
+  \mathcal{D} 
+    \hookrightarrow
+  \mathcal{C}
+$$
+
+such that the the coverings of $\mathcal{D}$ refine the [[induced coverage]] (Def. \ref{InducedCoverage}).
+
+This is called a _[[dense subsite]]_ if every [[object]] $X \in \mathcal{C}$ has a [[covering]] $\{U_i \overset{\iota_i}{\to} X\}_i$ such that for all $i$ the patches are in the subcategory:
+
+$$
+  U_i \;\in\; \mathcal{D} \hookrightarrow \mathcal{C}
+  \,.
+$$
+ 
+=--
+
++-- {: .num_prop #ComparisonLemma}
+###### Proposition
+**([[comparison lemma]])**
+
+Let $\mathcal{D} \overset{\iota}{\hookrightarrow} \mathcal{C}$ be a [[dense subsite]] inclusion (def. \ref{DenseSubsite}). Then [[precomposition]] with $\iota$ induces an [[equivalence of categories]] (Def. \ref{EquivalenceOfCategories}) between their [[categories of sheaves]] (Def. \ref{Sheaf}):
+
+$$
+  \iota^\ast 
+    \;\colon\;
+  Sh(\mathcal{C})
+    \overset{\simeq}{\longrightarrow}
+  Sh(\mathcal{D})
+$$
+
+=--
 
 (...)
 
