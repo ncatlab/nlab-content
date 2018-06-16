@@ -1966,9 +1966,9 @@ $$
   }
 $$
 
-which is the component function of the [[functor]] $\Gamma \;\colon\; SmoothSet \to Set$, which acts by point evaluation.
+which is the component function of the [[functor]] $\Gamma \;\colon\; SmoothSet \to Set$, that acts by point evaluation.
 
-Hence we need to show that this function is equal to that given by postcomposition with the $(\Gamma \dashv coDisc)$-[[adjunction unit]], followed by forming the $(\Gamma \dashv coDisc)$-[[adjunct]]
+Hence we need to show that this function is equal to that given by postcomposition with the $(\Gamma \dashv coDisc)$-[[adjunction unit]], followed by forming the $(\Gamma \dashv coDisc)$-[[adjunct]]:
 
 \[
   \label{PostcompositionWithEtaAsGamma}
@@ -1981,19 +1981,20 @@ For this, let $f \in Hom_{SmoothSet}( y(U), \mathbf{X} )$ be any element, and co
 $$
   \array{
     Hom_{Set}( \Gamma \mathbf{X} , \Gamma \mathbf{X} )
-    &\overset{\widetilde (-)}{\longrightarrow}&
+    &\overset{\widetilde {(-)}}{\longrightarrow}&
     Hom_{SmoothSet}( \mathbf{X}, coDisc \Gamma \mathbf{X} )
     \\
     {}^{\mathllap{ Hom_{SmoothSet}(\Gamma(f), \mathbf{X}) }}
     \big\downarrow
     &&
+    \!\!\!\!\!
     \big\downarrow^{\mathrlap{ Hom_{SmoothSet}( f, coDisc \Gamma \mathbf{X} ) }}
     \\
     Hom_{Set}( \Gamma y(U), \Gamma \mathbf{X} )
     &\overset{\widetilde{ (-) }}{\longleftarrow}&
     Hom_{SmoothSet}( y(U), coDisc \Gamma \mathbf{X} )
   }
-  \phantom{AAAA}
+  \phantom{AAAAA}
   \array{
     \{ \Gamma \mathbf{X} \overset{id}{\to} \Gamma \mathbf{X}\}
     &\longrightarrow&
@@ -2009,11 +2010,10 @@ $$
   }
 $$
 
-and chase the [[identity morphism]] in the top left set through this diagram, as shown on the right. This gives rise to the [[adjunction unit]] as shown in the top right (by [this def.](geometry+of+physics+--+categories+and+toposes#AdjunctionUnitFromHomIsomorphism)), and hence to the composite $\eta_{\mathbf{X}}\circ f $ in the bottom right. The image of that in the bottom left is, by definition, the [[adjunct]], and hence the [[commuting saquare|commutativity]] of this square yields (eq:PostcompositionWithEtaAsGamma).
+and chase the [[identity morphism]] in the top left set through this diagram, as shown on the right. This gives rise to the [[adjunction unit]] as shown in the top right (by [this def.](geometry+of+physics+--+categories+and+toposes#AdjunctionUnitFromHomIsomorphism)), and hence to the composite $\eta_{\mathbf{X}}\circ f $ in the bottom right. The image of that in the bottom left is, by definition, the [[adjunct]], and hence the [[commuting square|commutativity]] of this square yields (eq:PostcompositionWithEtaAsGamma).
 
 =--
 
-(...)
 
 $\,$
 
