@@ -27,7 +27,7 @@ $true : * \to \Omega$ such that every [[monomorphism]] $A \hookrightarrow B$ in 
 
 In this sense $\Omega$ is the [[classifying space|classifying object]] for subobjects and $true : * \to \Omega$ the _generic_ subobject.
 
-That the existence of a subobject classifier in a category is a very powerful property that induces much other structure lies at the heart of [[topos theory]].
+The existence of a subobject classifier in a category is a powerful property which induces much other structure that lies at the heart of [[topos theory]].
 
 By restricting the class of monomorphism appropriately, the concept can be relativized to the concept of an _**M**-subobject classifier_[^weak]: e.g. demanding only classification of strong monomorphisms leads to [[quasitopos|quasitoposes]].
 
