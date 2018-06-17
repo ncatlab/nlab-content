@@ -37,6 +37,7 @@ This yields the relatively young subjects of symplectic and contact topologies, 
 
 ## Related entries
 
+* [[Sard's theorem]], [[transversality]], [[Thom's transversality theorem]]
 * [[Reeb sphere theorem]]
 
 * [[low dimensional topology]]
@@ -54,3 +55,9 @@ Though some of the basic results, methods and conjectures of differential topolo
 * T. Br&#246;cker, K. J&#228;nich, C. B. Thomas, M. J. Thomas, _Introduction to differentiable topology_, 1982 (translated from German 1973 edition; $\exists$ also 1990 German 2nd edition)
 
 * [[R. Bott]], L. W. Tu, _Differential forms in algebraic topology_, Graduate Texts in Math. __82__, Springer 1982. xiv+331 pp.
+
+* [[Victor Guillemin]], Alan Pollack, _Differential topology_, Prentice-Hall
+
+* [[M. M. Postnikov]], _Introduction to Morse theory_ (in Russian)
+
+* J. Milnor, _Lectures on h-cobordism_ 
