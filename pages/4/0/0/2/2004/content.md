@@ -249,10 +249,10 @@ Discussion for [[(infinity,1)-monads]] realized in the context of [[quasi-catego
 
 [[!redirects Eilenberg-Moore categories]]
 
-[[!redirects Eilenberg?Moore category]]
+[[!redirects Eilenberg-Moore category]]
 [[!redirects Eilenberg--Moore category]]
 [[!redirects Eilenberg-Moore object]]
-[[!redirects Eilenberg?Moore object]]
+[[!redirects Eilenberg-Moore object]]
 [[!redirects Eilenberg--Moore object]]
 [[!redirects Alg(T)]]
 [[!redirects T-Alg]]
