@@ -1229,7 +1229,7 @@ is an _[[on-shell]] [[polynomial observable]]_ if it is the [[restriction]] of a
 
 $$
   \array{
-    \Gamma_{\Sigma}(E)_{\delta_{EL}\mathbf{L} = 0} &\overset{\phantom{A}A\phantom{A}}{\longrightarrow}&
+    \Gamma_{\Sigma}(E)_{\delta_{EL}\mathbf{L} = 0} &\overset{\phantom{A}A\phantom{A}}{\longrightarrow}& \mathbb{C}
     \\
     \downarrow & \nearrow_{\mathrlap{A_{off}}}
     \\
