@@ -18,7 +18,7 @@
 
 It is a common experience in [[mathematics]] that phenomena ("problems") are usefully decomposed into a "local" and a "global" aspect of rather different nature.
 
-In as far as the situation has an interpretation in [[geometry]] then the local aspect is typically given by the [[formal neighbourhoods]] of all [[points]], while the global aspect is given by the underlying [[topology]]/[[homotopy type]]. The following provides some examples.
+In as far as the situation has an interpretation in [[geometry]] then the local aspect is typically given by the ([[formal neighbourhoods|formal]]) [[neighbourhoods]] of all [[points]], while the global aspect is given by the underlying [[topology]]/[[homotopy type]]. The following provides some examples.
 
 ### In number theory and algebraic geometry
 
@@ -36,6 +36,9 @@ The [[FRS-theorem]] shows that every [[rational 2d CFT]] is decomposed into loca
 
 (...)
 
+## Related concepts
+
+* [[descent]]
 
 ## References
 
@@ -43,5 +46,8 @@ The [[FRS-theorem]] shows that every [[rational 2d CFT]] is decomposed into loca
 
 * Wikipedia, _[Hasse principle](https://en.wikipedia.org/wiki/Hasse_principle)_
 
+[[!redirects local-to-global principle]]
+
 [[!redirects Hasse principle]]
 [[!redirects Hasse local-global principle]]
+
