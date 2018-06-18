@@ -19,8 +19,6 @@
 
 For any [[2-category]], $K$, there is a 2-category $Adj(K)$ composed of the objects of $K$, [[adjunctions]] in $K$, and adjunction morphisms.
 
-$Adj(K)$ is equivalent to the 2-category of 2-functors from [[Adj]] to $K$.
-
 $Adj(Adj(K))$ is formed by the [[adjoint triples]] of $K$.
 
-The inclusion of $Mnd$, the free monad, in $Adj$ induces a 2-functor from the 2-category of adjunctions in $K$ to the 2-category of monads in $K$. The adjoints to this 2-functor are the [[Kleisli category|Kleisli]] and [[Eilenberg-Moore category|Eilenberg-Moore]] constructions on monads in $K$. 
+Morphisms in $Adj(K)$ are 2-functors from [[Adj]] to $K$. The inclusion of $Mnd$, the free monad, in $Adj$ induces a 2-functor from the 2-category of adjunctions in $K$ to the 2-category of monads in $K$. The adjoints to this 2-functor are the [[Kleisli category|Kleisli]] and [[Eilenberg-Moore category|Eilenberg-Moore]] constructions on monads in $K$. 
