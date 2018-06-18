@@ -2555,3 +2555,5 @@ The notion of forming [[petit topos|petit]] $(\infty,1)$-toposes of &#233;tale o
 [[!redirects differential cohesive infinity-toposes]]
 
 [[!redirects cohesive (infinity,1)-topos -- infinitesimal cohesion]] 
+
+[[!redirects differentially cohesive topos]]
