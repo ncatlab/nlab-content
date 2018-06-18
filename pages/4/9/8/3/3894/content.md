@@ -553,9 +553,12 @@ Some discussion in [[higher differential geometry]] is in section 4.4.2 of
 
 * _[[schreiber:differential cohomology in a cohesive topos]]_
 
-Formalization in [[homotopy type theory]] is in 
+Formalization in [[modal type theory|modal]] [[homotopy type theory]] is in 
 
 * {#Wellen17} [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, 2017
+
+* {#Wellen18} [[Felix Wellen]], _[[schreiber:Cartan Geometry in Modal Homotopy Type Theory]]_ ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966))
+
 
 [[!redirects G-structures]]
 
