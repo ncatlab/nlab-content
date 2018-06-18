@@ -125,6 +125,8 @@ This is a semi-norm on $V$.
 
 * [[Hahn-Banach theorem]]
 
+The (open or closed) [[unit ball]] of a seminormed vector space is a [[convex set]], a [[balanced set]] and an [[absorbing set]]. The first two of these properties make the unit ball (or even any ball of positive radius) an [[absolutely convex set]]. 
+
 
 ### Uniqueness {#dreamUnique}
 
