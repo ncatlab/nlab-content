@@ -1036,6 +1036,7 @@ and hence it is sufficient to see that this is a [[left inverse]] to (eq:HomFunc
 
 
 ### Adjunctions
+  
 
 We discuss four equivalent definitions of [[adjunctions]]:
 
@@ -2841,13 +2842,13 @@ $$
 
 =--
 
-Also the key respect of [[hom-functors]] for [[limits]] is inherited by [[internal hom]]-functors
+Also the key [[hom-functor preserves limit|respect]] of the [[hom-functor]] for [[limits]] is inherited by [[internal hom]]-functors
 
 +-- {: .num_prop #InternalHomPreservesLimits}
 ###### Proposition
 **([[internal hom]] preserves [[limits]])**
 
-Let $\mathcal{C}$ be a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] with [[internal hom]]-[[bifunctor]] $[-,-]$ (Prop. \ref{InternalHomBifunctor}). Then this bifunctor preserves [[limits]] in the second variable, and sends [[colimits]] in the first variable to limits:
+Let $\mathcal{C}$ be a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] with [[internal hom]]-[[bifunctor]] $[-,-]$ (Prop. \ref{InternalHomBifunctor}). Then this bifunctor [[preserved limit|preserves]] [[limits]] in the second variable, and sends [[colimits]] in the first variable to limits:
 
 $$
   [X, \underset{\underset{j \in \mathcal{J}}{\longleftarrow}}{\lim} Y(j)]
@@ -2897,7 +2898,7 @@ $$
   \end{aligned}
 $$
 
-which are [[natural isomorphism|natural]] in $C \in \mathcal{C}$, where we used that the ordinary [[hom-functor]] respects (co)limits as shown, and that the left adjoint $C \otimes (-)$ preserves colimits.
+which are [[natural isomorphism|natural]] in $C \in \mathcal{C}$, where we used that the ordinary [[hom-functor preserves limits]] (Prop. \ref{HomFunctorPreservesLimits}), and that the left adjoint $C \otimes (-)$ preserves colimits, since [[left adjoints preserve colimits]] (Prop. \ref{AdjointsPreserveCoLimits}).
 
 Hence by the [[fully faithful functor|fully faithfulness]] of the [[Yoneda embedding]], there is an isomorphism
 
@@ -3816,9 +3817,190 @@ $$
 
 ## Universal constructions
 
-### (Co)Limits
+What makes [[category theory]] be _theory_, as opposed to just a language, is the concept of _[[universal constructions]]_. This refers to the idea of [[objects]] with a prescribed [[property]] which are _universal_ with this property, in that they "know about" or "subsume" every other object with that same kind of property. Category theory allows to make precise what this means, and then to discover and prove theorems about it.
 
-(...)
+Universal constructions are all over the place in [[mathematics]]. Iteratively finding the universal constructions in a prescribed situation essentially amounts to systematically following the unravelling of the given situation or problem or theory that one is studying.
+
+There are several different formulations of the concept of [[universal constructions]], discussed below:
+
+* _[Limits and colimits](#LimitsAndColimits)_
+
+* _[Ends and coends](#TopologicalEndsAndCoends)_
+
+* _[Left and right Kan extensions](#KanExtension)_
+
+But these three kinds of constructions all turn out to be special cases of each other, hence they really reflect different perspectives on a single topic of universal constructions. In fact, all three are also special cases of the concept of [[adjunction]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}), thus re-amplifying that [[category]] theory is really the theory of [[adjunctions]] and hence if we follow ([Lambek 82](adjoint+functor#Lambek82))of [[duality]].
+
+$\,$
+
+### Limits and colimits
+ {#LimitsAndColimits}
+  
+
++-- {: .num_defn #Limits}
+###### Definition
+**([[limit]] and [[colimit]])**
+
+Let $\mathcal{C}$ be a [[small category]] (Def. \ref{SmallCategory}), and let $\mathcal{D}$ be any [[category]] (Def. \ref{Categories}). In this case one also says that a [[functor]]
+
+$$
+  F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}
+$$
+
+is a _[[diagram]] of shape $\mathcal{C}$ in $\mathcal{D}$_.
+
+Recalling the [[functor category]] (Example \ref{FunctorCategory}) $[\mathcal{C}, \mathcal{D}]$, there is the _[[constant diagram]]-functor_
+
+$$
+  const
+  \;\colon\;
+  \mathcal{D}
+  \longrightarrow
+  [\mathcal{C}, \mathcal{D}]
+$$
+
+which sends an [[object]] $X \in \mathcal{D}$ to the [[functor]] that sends every $c \in \mathcal{C}$ to $X$, and every [[morphism]] in $\mathcal{C}$ to the [[identity morphism]] on $X$. Accordingly, every morphism in $\mathcal{D}$ is sent by $const$ to the [[natural transformation]] (Def. \ref{NaturalTransformations}) all whose components are equal to that morphism.
+
+Now:
+
+1. if $const$ has a [[right adjoint]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}), this is called the construction of forming the _limiting [[cone]] of $\mathcal{C}$-shaped diagrams in $\mathcal{D}$_, or just _[[limit]]_ (or _[[inverse limit]]_) for short, and denoted
+
+   $$
+     \underset{\underset{\mathcal{C}}{\longleftarrow}}{\lim}
+     \;\colon\;
+     [\mathcal{C}, \mathcal{D}] \longrightarrow \mathcal{D}
+   $$
+
+1. if $const$ has a [[left adjoint]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}), this is called the construction of forming the _colimiting [[cocone]] of $\mathcal{C}$-shaped diagrams in $\mathcal{D}$_, or just _[[colimit]]_ (or _[[direct limit]]_) for short, and denoted
+
+   $$
+     \underset{\underset{\mathcal{C}}{\longrightarrow}}{\lim}
+     \;\colon\;
+     [\mathcal{C}, \mathcal{D}] \longrightarrow \mathcal{D}
+   $$
+
+$$
+  [\mathcal{C}, \mathcal{D}]
+    \array{
+       \overset{ \phantom{AA}\underset{\underset{\mathcal{C}}{\longrightarrow}}{\lim} \phantom{AA} }{\longrightarrow}
+       \\
+       \overset{\phantom{AA} const \phantom{AA} }{ \longleftarrow }
+       \\
+       \overset{ \phantom{AA} \underset{\underset{\mathcal{C}}{\longleftarrow}}{\lim}  \phantom{AA}}{\longrightarrow}       
+    }
+  \mathcal{D} 
+  \,. 
+$$
+
+
+=--
+
++-- {: .num_prop #HomFunctorPreservesLimits}
+###### Proposition
+**([[hom-functor preserves limits]])**
+
+Let $\mathcal{C}$ be a [[category]] and write
+
+$$
+
+  Hom_{\mathcal{C}}
+   \;\colon\;
+  \mathcal{C}^{op} \times \mathcal{C}
+   \longrightarrow
+  Set
+$$
+
+for its [[hom-functor]]. This [[preserved limit|preserves]] [[limits]] (Def. \ref{Limits}) in both its arguments (recalling that a limit in the [[opposite category]] $\mathcal{C}^{op}$ is a [[colimit]] in $\mathcal{C}$).
+
+More in detail, let $X_\bullet \colon \mathcal{I} \longrightarrow \mathcal{C}$ be a [[diagram]]. Then:
+
+1. If the [[limit]] $\underset{\longleftarrow}{\lim}_i X_i$ exists in $\mathcal{C}$ then for all $Y \in \mathcal{C}$ there is a [[natural isomorphism]]
+
+   $$
+     Hom_{\mathcal{C}}\left(Y, \underset{\longleftarrow}{\lim}_i X_i \right)
+     \simeq
+     \underset{\longleftarrow}{\lim}_i \left( Hom_{\mathcal{C}}\left( Y, X_i \right) \right)
+      \,,
+   $$
+
+   where on the right we have the limit over the diagram of [[hom-sets]] given by 
+   
+   $$
+     Hom_{\mathcal{C}}(Y,-) \circ X \;\colon\; \mathcal{I} \overset{X}{\longrightarrow} \mathcal{C} \overset{Hom_{\mathcal{C}}(Y,-)  }{\longrightarrow} Set\,.
+   $$
+
+1. If the [[colimit]] $\underset{\longrightarrow}{\lim}_i X_i$ exists in $\mathcal{C}$ then for all $Y \in \mathcal{C}$ there is a [[natural isomorphism]]
+
+   $$
+     Hom_{\mathcal{C}}\left(\underset{\longrightarrow}{\lim}_i X_i ,Y\right)
+     \simeq
+     \underset{\longleftarrow}{\lim}_i \left( Hom_{\mathcal{C}}\left( X_i , Y\right) \right)
+      \,,
+   $$
+
+   where on the right we have the limit over the diagram of [[hom-sets]] given by 
+   
+   $$
+     Hom_{\mathcal{C}}(-,Y) \circ X \;\colon\; \mathcal{I}^{op} \overset{X}{\longrightarrow} \mathcal{C}^{op} \overset{Hom_{\mathcal{C}}(-,Y)  }{\longrightarrow} Set\,.
+   $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We give the proof of the first statement. The proof of the second statement is [[formal dual|formally dual]].
+
+First observe that, by the very definition of [[limit|limiting]] [[cones]], maps out of some $Y$ into them are in natural bijection
+with the set $Cones\left(Y, X_\bullet \right)$ of cones over the diagram $X_\bullet$ with tip $Y$:
+
+$$
+  Hom\left(
+    Y,
+    \underset{\longleftarrow}{\lim}_{i} X_i
+  \right)
+    \;\simeq\;
+  Cones\left(
+    Y, X_\bullet
+  \right)
+  \,.
+$$
+
+Hence it remains to show that there is also a natural bijection like so:
+
+$$
+  Cones\left(
+    Y,
+    X_\bullet
+  \right)
+    \;\simeq\;
+  \underset{\longleftarrow}{\lim}_{i} \left( Hom(Y,X_i) \right)
+  \,.
+$$
+
+Now, again by the very definition of limiting cones, a single element in the limit on the right is equivalently a cone of the form
+
+$$
+  \left\{
+  \array{
+    && \ast
+    \\
+    & {}^{\mathllap{const_{p_i}}}\swarrow && \searrow^{\mathrlap{const_{p_j}}}
+    \\
+    Hom(Y,X_i)
+     && \underset{X_\alpha \circ (-)}{\longrightarrow} &&
+    Hom(Y,X_j)
+  }
+  \right\}_{i, j \in Obj(\mathcal{I}), \alpha \in Hom_{\mathcal{I}}(i,j) }
+  \,.
+$$
+
+This is equivalently for each object $i \in \mathcal{I}$ a choice of morphism $p_i \colon Y \to X_i$ , such that  for each pair of objects $i,j \in \mathcal{I}$
+and each $\alpha \in Hom_{\mathcal{I}}(i,j)$ we have $X_\alpha \circ p_i = p_j$. And indeed, this is precisely the characterization of an element in the
+set $  Cones\left( Y, X_\bullet\} \right)$.
+
+=--
+
 
 
 +-- {: .num_example #InitialAndTerminalObjectInTermsOfAdjunction}
@@ -3896,9 +4078,9 @@ respectively.
 
 Let $(L \dashv R) \colon \mathcal{D} \to \mathcal{C}$ be a pair of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}). Then
 
-* $L$ [[preserved limit|preserves]] all [[colimits]] that exist in $\mathcal{C}$, 
+* $L$ [[preserved limit|preserves]] all [[colimits]] (Def. \ref{Limits}) that exist in $\mathcal{C}$, 
 
-* $R$ preserves all [[limits]] in $\mathcal{D}$.  
+* $R$ preserves all [[limits]] (Def. \ref{Limits}) in $\mathcal{D}$.  
 
 =--
 
@@ -3925,7 +4107,7 @@ $$
   \end{aligned}
 $$
 
-where we used the hom-isomorphism (eq:HomIsomorphismForAdjointFunctors) and the fact that any [[hom-functor]] preserves limits (see there). Because this is natural in $x$ the [[Yoneda lemma]] implies that we have an [[isomorphism]]
+where we used the hom-isomorphism (eq:HomIsomorphismForAdjointFunctors) and the fact that any [[hom-functor preserves limits]] (Def. \ref{HomFunctorPreservesLimits}). Because this is natural in $x$ the [[Yoneda lemma]] implies that we have an [[isomorphism]]
 
 $$
   R {\lim_\leftarrow}_i y_i
@@ -3943,7 +4125,7 @@ The argument that shows the preservation of colimits by $L$ is analogous.
 ###### Proposition
 **([[limits commute with limits]])**
 
-Let $\mathcal{D}$ and $\mathcal{D}'$ be [[small categories]] (Def. \ref{SmallCategory}) and let $\mathcal{C}$ be a [[category]] (Def. \ref{Categories}) which admits [[limits]] of shape $\mathcal{D}$ as well as [[limits]] of shape $\mathcal{D}'$. Then these limits "commute" with each other, in that 
+Let $\mathcal{D}$ and $\mathcal{D}'$ be [[small categories]] (Def. \ref{SmallCategory}) and let $\mathcal{C}$ be a [[category]] (Def. \ref{Categories}) which admits [[limits]] (Def. \ref{Limits}) of shape $\mathcal{D}$  as well as [[limits]] of shape $\mathcal{D}'$. Then these limits "commute" with each other, in that 
 for $F \;\colon\; \mathcal{D} \times {\mathcal{D}'} \to \mathcal{C}$ a [[functor]] (hence a [[diagram]] of shape the [[product category]]), with corresponding [[adjunct]] functors (via Example \ref{GrpdIsACartesianClosedCategory})
 
 $$
@@ -3990,10 +4172,10 @@ In general limits do _not_ commute with [[colimits]]. But under a number of spec
 
 
 
-### Enriched (co)ends
+### Ends and coends
  {#TopologicalEndsAndCoends}
 
-For working with [[enriched categories]] (Def. \ref{TopEnrichedCategory}) , a certain shape of [[limits]]/[[colimits]] is particularly relevant: these are called _[[ends]]_ and _[[coends]]_ (Def. \ref{EndAndCoendInTopcgSmash} below). We here introduce these and then derive some of their basic properties, such as notably the expression for [[Kan extension]] in terms of ([[coends|co-]])[[ends]] (prop. \ref{TopologicalLeftKanExtensionBCoend} below). 
+For working with [[enriched categories]] (Def. \ref{TopEnrichedCategory}) , a certain shape of [[limits]]/[[colimits]] (Def. \ref{Limits}) is particularly relevant: these are called _[[ends]]_ and _[[coends]]_ (Def. \ref{EndAndCoendInTopcgSmash} below). We here introduce these and then derive some of their basic properties, such as notably the expression for [[Kan extension]] in terms of ([[coends|co-]])[[ends]] (prop. \ref{TopologicalLeftKanExtensionBCoend} below). 
 
 $\,$
 
@@ -4168,7 +4350,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The underlying pointed set functor $Hom_{\mathcal{V}}(1,-)\colon \mathcal{V}\to Set$ [[preserved limit|preserves]] all [[limits]]. Therefore there is an [[equalizer]] diagram in [[Set]] of the form
+The underlying pointed set functor $Hom_{\mathcal{V}}(1,-)\colon \mathcal{V}\to Set$ [[preserved limit|preserves]] all [[limits]], since [[hom-functors preserve limits]] (Prop. \ref{HomFunctorPreservesLimits}). Therefore there is an [[equalizer]] diagram in [[Set]] of the form
 
 $$
   Hom_{\mathcal{V}}\left(1,
@@ -4670,6 +4852,7 @@ $\,$
 
 
 ### Kan extensions
+  {#KanExtension}
 
 
 +-- {: .num_prop #TopologicalLeftKanExtensionBCoend}
