@@ -76,9 +76,14 @@ At the time no such axiomatisation is fully worked out, but in 2009 [[Mike Shulm
 
 We can see here how at the end Lawvere's idea of internal set-theoretic 'foundations' resurfaces. Such a level of _discreteness_ seems to be pervasive in this context and e.g. the approach of Przybylek (2014) to the concept of internal 2-cartesian closure takes discreteness as a starting point.
 
+### Remark
+
+Note that already B. Walters and R. Street conceived of their work on [[Yoneda structure|Yoneda structures]] in the early 1970s as a 2-dimensional version of ETCC (cf. Walters [1971](#W71)).
+
 ## Related entries
 
 * [[ETCS]]
+* [[Yoneda structure]]
 * [[Functorial Semantics of Algebraic Theories]]
 * [[foundations of mathematics]]
 
@@ -152,5 +157,8 @@ See also
 * M. R. Pryzbylek, _Logical systems I: Lambda calculi through discreteness_, arxiv:1306.3703v3 (2014). ([pdf](http://arxiv.org/pdf/1306.3703v3))
 
 * [[Jim Lambek]], [[Phil Scott]], *Reflections on Categorical Foundations of Mathematics*, pp.171-185 in  Sommaruga (ed.), _Foundational Theories of Classical and Constructive Mathematics_,  Springer New York 2011. ([draft](https://www.site.uottawa.ca/~phil/papers/LS11.final.pdf)) {#LS11}
+
+* {#W71}[[Bob Walters]], _Yoneda 2Categories_ , talk at the University of New South Wales December !971. ([manuscript](https://dl.dropboxusercontent.com/u/92056191/Archive/temporary_new_material/yoneda.pdf))
+
 
 [[!redirects elementary theory of the 2-category of categories]]
