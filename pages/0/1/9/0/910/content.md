@@ -145,7 +145,11 @@ Finally, this all remains true if we also impose the weak Hausdorff, or Hausdorf
 
 Unfortunately neither of the above categories is [[locally
 cartesian closed category|locally
-cartesian closed]]. There is still a lot of work on fibred exponential
+cartesian closed]].
+
+However, if $K$ is the category of not-necessarily-weak-Hausdorff k-spaces, and $A$ and $B$ are k-spaces that are weak Hausdorff, then the pullback functor $K/B\to K/A$ has a right adjoint. This is what May and Sigurdsson used in their book _Parametrized homotopy theory_.
+
+There is still a lot of work on fibred exponential
 laws and their applications. One reason for the success and
 difficulties is that it is easy to give a topology on the space of
 closed subsets of a space $X$ by regarding this as the space of maps
