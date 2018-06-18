@@ -21,7 +21,7 @@
 
 ## Idea
 
-One of the basic facts of [[category theory]] is that the [[hom-functor]] on a [[category]] $\mathcal{C}$ preserve [[limits]] in both [[variables]] (remembering that a limit in the first variable, due to contravariance, is actually a [[colimit]] in $\mathcal{C}$).
+One of the basic facts of [[category theory]] is that the [[hom-functor]] on a [[category]] $\mathcal{C}$ [[preserved limit|preserve]] [[limits]] in both [[variables]] (remembering that a limit in the first variable, due to contravariance, is actually a [[colimit]] in $\mathcal{C}$).
 
 ## Statement
 
@@ -29,7 +29,7 @@ One of the basic facts of [[category theory]] is that the [[hom-functor]] on a [
 
 +-- {: .num_prop #HomFunctorPreservesLimits}
 ###### Proposition
-**(hom-functor preserves limits)**
+**([[hom-functor]] [[preserved limit|preserves]] [[limits]])**
 
 Let $\mathcal{C}$ be a [[category]] and write
 
@@ -42,7 +42,7 @@ $$
   Set
 $$
 
-for its [[hom-functor]]. This preserves [[limits]] in both its arguments (recalling that a limit in the [[opposite category]] $\mathcal{C}^{op}$ is a [[colimit]] in $\mathcal{C}$).
+for its [[hom-functor]]. This [[preserved limit|preserves]] [[limits]] in both its arguments (recalling that a limit in the [[opposite category]] $\mathcal{C}^{op}$ is a [[colimit]] in $\mathcal{C}$).
 
 More in detail, let $X_\bullet \colon \mathcal{I} \longrightarrow \mathcal{C}$ be a [[diagram]]. Then:
 
@@ -75,9 +75,6 @@ More in detail, let $X_\bullet \colon \mathcal{I} \longrightarrow \mathcal{C}$ b
    $$
      Hom_{\mathcal{C}}(-,Y) \circ X \;\colon\; \mathcal{I}^{op} \overset{X}{\longrightarrow} \mathcal{C}^{op} \overset{Hom_{\mathcal{C}}(-,Y)  }{\longrightarrow} Set\,.
    $$
-
-
-
 
 =--
 
@@ -133,7 +130,6 @@ $$
 This is equivalently for each object $i \in \mathcal{I}$ a choice of morphism $p_i \colon Y \to X_i$ , such that  for each pair of objects $i,j \in \mathcal{I}$
 and each $\alpha \in Hom_{\mathcal{I}}(i,j)$ we have $X_\alpha \circ p_i = p_j$. And indeed, this is precisely the characterization of an element in the
 set $  Cones\left( Y, X_\bullet\} \right)$.
-
 
 =--
 
