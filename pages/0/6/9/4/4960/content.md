@@ -1966,7 +1966,7 @@ This builds on a series of precursors of attempts to identify axiomatics for [[g
 
 In
 
-* [[William Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ [[Como]] (1990)
+* {#Lawvere91} [[William Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_, [[Como]] 1991
 
 the term _category of Being_ is used for a notion resembling that of a cohesive topos (with an [[adjoint quadruple]] but not considering _pieces have points_ or _discrete objects are concrete_). Behaviour of objects with respect to the extra left adjoined is interpreted in terms of properties of _Becoming_. The terminology here is probably inspired from
 
