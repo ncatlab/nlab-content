@@ -216,7 +216,7 @@ as a [[full subcategory]] of the [[opposite category]] of [[differential-graded 
 
 
 
-Equivalently, a super Lie algebra is a "super-representable" Lie algebra [[internalization|internal]] to the [[cohesive (∞,1)-topos]] [[Super∞Grpd]] over the site of [[super points]] ([Sachse 08](#Sachse08)). 
+Equivalently, a super Lie algebra is a "super-representable" Lie algebra [[internalization|internal]] to the [[cohesive (∞,1)-topos]] [[Super∞Grpd]] over the site of [[super points]] ([Sachse 08, Section 3.2, towards cor. 3.3](#Sachse08)). 
 
 See the discussion at [[superalgebra]] for details on this.
 
