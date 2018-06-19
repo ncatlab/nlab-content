@@ -774,16 +774,59 @@ Since a [[fully faithful functor]]/[[full subcategory]]-embedding $\mathcal{C} \
 
 $\,$
 
+**[[infinitesimally thickened points]] and [[formal Cartesian spaces]]**
+
+The [[category]] of _[[infinitesimally thickened points]]_ is, by definition, the [[full subcategory]] (Example \ref{FullSubcategoryOnClassOfObjects}) of the [[opposite category]] (Example \ref{OppositeCategory}) of that of [[commutative algebras]] (Example \ref{ExamplesOfConcreteCategories}) over the [[real numbers]]
+
+$$
+  \array{
+    InfThckPoint
+    &\overset{\phantom{AAAA}}{\hookrightarrow}&
+    Alg_{\mathbb{R}}^{op}
+    \\
+    \mathbb{D} &\mapsto& C^\infty(\mathbb{D}) 
+    \\
+    &&   \coloneqq \mathbb{R} \oplus V
+  }
+$$
+
+on those with a unique [[maximal ideal]] $V$ which is a finite-[[dimensional]] as an $\mathbb{R}$-[[vector space]] and a [[nilradical]]: for each $a \in V$ there exists $n \in \mathbb{N}$ such that $a^n = 0$.
+
+
+The [[category]] of _[[formal Cartesian spaces]]_ is, by definition, the [[full subcategory]] (Example \ref{FullSubcategoryOnClassOfObjects}) of the [[opposite category]] (Example \ref{OppositeCategory}) of that of [[commutative algebras]] (Example \ref{ExamplesOfConcreteCategories}) over the [[real numbers]]
+
+$$
+  \array{
+    FormalCartSp
+    &\overset{\phantom{AAAA}}{\hookrightarrow}&
+    Alg_{\mathbb{R}}^{op}
+    \\
+    \mathbb{R}^n \times \mathbb{D} 
+      &\mapsto& 
+    C^\infty(\mathbb{R}^n \times \mathbb{D}) 
+    \\
+    &&  \coloneqq C^\infty(\mathbb{R}^n) \otimes_{\mathbb{R}}(\mathbb{R} \oplus V)
+  }
+$$
+
+on those which are [[tensor products of algebras]], of an [[algebra of functions|algebra of]] [[smooth functions]] on a [[Cartesian space]] $\mathbb{R}^n$, for some $n \in \mathbb{Z}$, and the algebra of functions on an [[infinitesimally thickened point]].
+
+Notice that the [[formal Cartesian spaces]] $\mathbb{R}^{n\vert q}$ are fully _defined_ by this assignment.
+
+
+
+$\,$
+
 **[[super points]] and [[super Cartesian spaces]]**
 
 The [[category]] of **[[super points]]** is _by definition_, the [[full subcategory]] (Example \ref{FullSubcategoryOnClassOfObjects}) 
-of the [[opposite category]] (Example \ref{OppositeCategory}) of that of [[associative algebras]] (Example \ref{ExamplesOfConcreteCategories}) over the [[real numbers]]
+of the [[opposite category]] (Example \ref{OppositeCategory}) of that of [[supercommutative algebras]] (Example \ref{ExamplesOfConcreteCategories}) over the [[real numbers]]
 
 $$
   \array{
     SuperPoint
      &\overset{\phantom{AAAA}}{\hookrightarrow}&
-    Alg_{\mathbb{R}}^{op}
+    sCAlg_{\mathbb{R}}^{op}
     \\
     \mathbb{R}^{0\vert q}
     &\mapsto&
@@ -805,7 +848,7 @@ $$
   \array{
     SuperCartSp
     &\overset{\phantom{AAAA}}{\hookrightarrow}&
-    Alg_{\mathbb{R}}^{op}
+    sCAlg_{\mathbb{R}}^{op}
     \\
     \mathbb{R}^{n\vert q} 
     &\maspto&
@@ -965,6 +1008,102 @@ whose components (eq:NaturalTransformationComponent) are the [[compositions]] of
        &\underset{\rho_Y}{\longrightarrow}& H(Y)
   }
 \]
+
+=--
+
+
++-- {: .num_example #ReductionOnFormalCartesianSpace}
+###### Example
+**([[reduction modality|reduction]] of [[formal Cartesian spaces]])**
+
+On the [[category]] [[FormalCartSp]] of [[formal Cartesian spaces]] Example \ref{SpacesViaAlgebrasOfFunctions}, consider the [[endofunctor]]
+
+$$
+  \array{
+    FormalCartSp
+      &\overset{ \phantom{AA}\Re \phantom{AA} }{\longrightarrow}&
+    FormalCartSp
+    \\
+    \mathbb{R}^n \times \mathbb{D}
+    &\mapsto&
+    \mathbb{R}^n
+  }
+$$
+
+which sends each [[Cartesian product]] of a [[Cartesian space]] with an [[infinitesimally thickened point]] to that [[Cartesian space]] alone, forgetting the [[infinitesimally thickened point]]-factor. Moreover, on [[morphisms]] this functor is defined via the [[retraction]]
+
+$$
+  \array{
+    id \colon
+    & 
+    \mathbb{R}^n 
+    &\overset{i}{\longrightarrow}&
+    \mathbb{R}^n \times \mathbb{D}
+    &\overset{r}{\longrightarrow}&
+    \mathbb{R}^n
+    \\
+    & 
+    C^\infty(\mathbb{R}^n)
+    &\underoverset{\text{projection}}{\text{quotient}}{\longleftarrow}&
+    C^\infty(\mathbb{R}^n) \otimes_{\mathbb{R}} (R \oplus V)
+    &\underoverset{}{f \mapsto f \otimes 1}{\longleftarrow}&
+  }
+$$
+
+as 
+
+$$
+  \array{
+     C^\infty(\mathbb{R}^n \times \mathbb{D})
+       && 
+     C^\infty(\mathbb{R}^n)
+       &\overset{r}{\longleftarrow}&
+     C^\infty( \mathbb{R}^n \times \mathbb{D} )
+     \\
+     {}^{\mathllap{ f^\ast }}\big\uparrow
+       &&
+     {}^{ \Re( f^\ast ) }\big\uparrow
+       && 
+     \big\uparrow^{ \mathrlap{ f^\ast } }
+     \\
+     C^\infty(\mathbb{R}^{n'} \times {\mathbb{D}}')
+       &&
+     C^\infty(\mathbb{R}^{n'}) 
+       &\overset{i}{\longrightarrow}&
+     C^\infty( \mathbb{R}^{n'}  \times {\mathbb{D}}')
+  }
+$$
+
+Then there is a [[natural transformation]] (Def. \ref{NaturalTransformations}) from this functor to the [[identity functor]]
+
+$$
+  \Re 
+    \overset{ \phantom{A} \eta^{\Re} \phantom{A} }{\longrightarrow}
+  Id
+$$
+
+whose components inject the underlying Cartesian space along the unit point inclusion of the [[infinitesimally thickened point]]:
+
+$$
+  \array{
+    \Re\left( \mathbb{R}^n \times \mathbb{D} \right)
+    &
+      \coloneqq
+    &
+    \mathbb{R}^n 
+    &\overset{ \phantom{A} \eta^\Re_{\mathbb{R}^n \times \mathbb{D}} }{\longrightarrow}&
+    & 
+    \mathbb{R}^n \times \mathbb{D}
+    \\
+    C^\infty(\mathbb{R}^n \times \mathbb{D})/(V)
+    &=&
+    C^\infty(\mathbb{R}^n)
+    &\underoverset{\text{projection}}{ \text{quotient} }{\longleftarrow}&
+    C^\infty(\mathbb{R}^n) \otimes_{\mathbb{R}} (\mathbb{R} \oplus V)
+    & = 
+    C^\infty(\mathbb{R}^n \times \mathbb{D}) 
+  }
+$$
 
 =--
 
