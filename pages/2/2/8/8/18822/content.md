@@ -932,10 +932,10 @@ $$
 ###### Example
 **([[evolutionary derivative]] of [[Lagrangian function]])**
 
-Over [[Minkowski spacetime]] $\Sigma$ (def. \ref{MinkowskiSpacetime}), let $\mathbf{L} = L dvol \in \Omega^{p,0}_\Sigma(E)$ be a [[Lagrangian density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}), with coefficient function regarded as a field-dependent section (def. \ref{FieldDependentSections}) of the [[trivial bundle|trivial]] [[real line bundle]]:
+Over [[Minkowski spacetime]] $\Sigma$ (def. \ref{MinkowskiSpacetime}), let $\mathbf{L} = L dvol \in \Omega^{p+1,0}_\Sigma(E)$ be a [[Lagrangian density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}), with coefficient function regarded as a field-dependent section (def. \ref{FieldDependentSections}) of the [[trivial bundle|trivial]] [[real line bundle]]:
 
 $$
-  L \;\in \; \Gamma_{J^\infty_\Sigma}(E)(\Sigma \times \mathbb{R})
+  L \;\in \; \Gamma_{J^\infty_\Sigma}(\Sigma \times \mathbb{R})
   \,,
 $$
 
