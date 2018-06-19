@@ -1030,7 +1030,7 @@ $$
   }
 $$
 
-which sends each [[Cartesian product]] of a [[Cartesian space]] with an [[infinitesimally thickened point]] to that [[Cartesian space]] alone, forgetting the [[infinitesimally thickened point]]-factor. Moreover, on [[morphisms]] this functor is defined via the [[retraction]]
+which sends each [[formal Cartesian space]] to the underlying ordinary [[Cartesian space]], forgetting the [[infinitesimally thickened point]]-factor. Moreover, on [[morphisms]] this functor is defined via the [[retraction]]
 
 $$
   \array{
@@ -1044,9 +1044,10 @@ $$
     \\
     & 
     C^\infty(\mathbb{R}^n)
-    &\underoverset{\text{projection}}{\text{quotient}}{\longleftarrow}&
+    &\underoverset{\text{quotient projection}}{i^\ast}{\longleftarrow}&
     C^\infty(\mathbb{R}^n) \otimes_{\mathbb{R}} (R \oplus V)
-    &\underoverset{}{f \mapsto f \otimes 1}{\longleftarrow}&
+    &\underoverset{f \mapsto f \otimes 1}{r^\ast}{\longleftarrow}&
+    C^\infty(\mathbb{R}^n)
   }
 $$
 
@@ -1055,24 +1056,34 @@ as
 $$
   \array{
      C^\infty(\mathbb{R}^n \times \mathbb{D})
-       && 
+       &\phantom{AAA}&&
      C^\infty(\mathbb{R}^n)
-       &\overset{r}{\longleftarrow}&
+       &\overset{i^\ast}{\longleftarrow}&
      C^\infty( \mathbb{R}^n \times \mathbb{D} )
      \\
      {}^{\mathllap{ f^\ast }}\big\uparrow
-       &&
-     {}^{ \Re( f^\ast ) }\big\uparrow
+       && &
+     {}^{ \mathllap{\Re( f^\ast ) \coloneqq i^\ast \circ f^\ast \circ r^\ast } }\big\uparrow
        && 
      \big\uparrow^{ \mathrlap{ f^\ast } }
      \\
      C^\infty(\mathbb{R}^{n'} \times {\mathbb{D}}')
-       &&
+       &&&
      C^\infty(\mathbb{R}^{n'}) 
-       &\overset{i}{\longrightarrow}&
+       &\overset{r^\ast}{\longrightarrow}&
      C^\infty( \mathbb{R}^{n'}  \times {\mathbb{D}}')
   }
 $$
+
+This is indeed functorial due to the fact that any algebra [[homomorphism]] $f^\ast$ needs to send nilpotent elements to nilpoten elements, so that the following identity holds:
+
+\[
+  \label{ProjectingOutNilpotentsLater}
+  i^\ast \circ f^\ast 
+  \;=\;
+  i^\ast \circ f^\ast \circ i^\ast \circ r^\ast
+  \,.
+\]
 
 Then there is a [[natural transformation]] (Def. \ref{NaturalTransformations}) from this functor to the [[identity functor]]
 
@@ -1087,23 +1098,28 @@ whose components inject the underlying Cartesian space along the unit point incl
 $$
   \array{
     \Re\left( \mathbb{R}^n \times \mathbb{D} \right)
-    &
       \coloneqq
     &
     \mathbb{R}^n 
     &\overset{ \phantom{A} \eta^\Re_{\mathbb{R}^n \times \mathbb{D}} }{\longrightarrow}&
-    & 
     \mathbb{R}^n \times \mathbb{D}
     \\
-    C^\infty(\mathbb{R}^n \times \mathbb{D})/(V)
-    &=&
+    &
     C^\infty(\mathbb{R}^n)
-    &\underoverset{\text{projection}}{ \text{quotient} }{\longleftarrow}&
-    C^\infty(\mathbb{R}^n) \otimes_{\mathbb{R}} (\mathbb{R} \oplus V)
-    & = 
+    &\overset{i^\ast}{\longleftarrow}&
     C^\infty(\mathbb{R}^n \times \mathbb{D}) 
+    \\
+    &
+    {}^{ \mathllap{ i^\ast \circ f^\ast \circ r^\ast } }\big\uparrow && \big\uparrow^{\mathrlap{ f^\ast }}
+    \\
+    &
+    C^\infty(\mathbb{R}^{n'})
+    &\overset{i^\ast}{\longleftarrow}&
+    C^\infty(\mathbb{R}^{n'} \times \mathbb{D}') 
   }
 $$
+
+The commutativity of this naturality square commutes is again the identity (eq:ProjectingOutNilpotentsLater).
 
 =--
 
