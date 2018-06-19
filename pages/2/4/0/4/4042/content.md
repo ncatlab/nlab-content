@@ -85,3 +85,5 @@ Perhaps the most general [[set theory|set-theoretically]] based construction of 
 [[!redirects free monads]]
 [[!redirects algebraically-free monad]]
 [[!redirects algebraically-free monads]]
+[[!redirects algebraically free monad]]
+[[!redirects algebraically free monads]]
