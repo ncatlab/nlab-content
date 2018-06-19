@@ -83,7 +83,7 @@ This site of definition appears in [Kock, Reyes](#KockReyes). The original defin
 +-- {: .num_defn}
 ###### Definition
 
-The [[(∞,1)-topos]] of [[(∞,1)-sheaves]] over $FormalCartSp$ is that of _[[formal smooth ∞-grouopoids]]_
+The [[(∞,1)-topos]] of [[(∞,1)-sheaves]] over $FormalCartSp$ is that of _[[formal smooth ∞-groupoids]]_
 
 $$
   FormSmooth\infty Grpd \coloneqq Sh_\infty(FormalCartSp)
@@ -110,4 +110,5 @@ and with a corrected definition of the site of definition in
 
 * {#KockReyes} [[Anders Kock]], [[Gonzalo Reyes]], _Corrigendum and addenda to: Convenient vector spaces embed into the Cahiers topos_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 27 no. 1 (1986), p. 3-17 ([numdam](http://www.numdam.org/item?id=CTGDC_1987__28_2_99_0))
  
-
+[[!redirects formal Cartesian space]]
+[[!redirects formal Cartesian spaces]]
