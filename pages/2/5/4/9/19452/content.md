@@ -257,6 +257,45 @@ This is the motivation for the terminology "categories", as the examples in Exam
 
 Some terminology:
 
+
++-- {: .num_defn #CommutingDiagram}
+###### Definition
+**([[commuting diagram]])**
+
+Let $\mathcal{C}$ be a [[category]] (Def. \ref{Categories}), then a [[directed graph]] with [[edges]] labeled by [[morphisms]] of the category is called a _[[commuting diagram]]_ if for any two [[vertices]] any two ways of passing along edges from one to the other yields the same [[composition]] of the corresponding [[morphisms]]. 
+
+For example, a _commuting triangle_ is
+
+$$
+  f = h \circ g
+  \phantom{AAAAAA}
+  \array{
+    && X
+    \\
+    & {}^{\mathllap{ g }}\swarrow && \searrow^{ \mathrlap{ f } }
+    \\
+    Y && \underset{\phantom{A}h\phantom{A}}{\longrightarrow}  && Z
+  }
+$$
+
+while a _[[commuting square]]_ is
+
+$$
+  g_1 \circ f_1
+  \;=\;
+  g_2 \circ f_2
+  \phantom{AAAAAA}
+  \array{
+    X &\overset{\phantom{A}f_1\phantom{A}}{\longrightarrow}& Y_1
+    \\
+    {}^{ \mathllap{f_2} }\big\downarrow && \big\downarrow^{\mathrlap{ g_1 }}
+    \\
+    Y_2 &\underset{\phantom{A}g_2\phantom{A}}{\longrightarrow}&  Z  
+  }
+$$
+
+=--
+
 +-- {: .num_defn #SmallCategory}
 ###### Definition
 **([[small category]])**
@@ -792,7 +831,7 @@ The starting point of [[algebraic geometry]] is to consider _[[affine schemes]]_
   \,.
 \]
 
-(The immediate identification (eq:FormalDualsOfCommutativeRings) is often obscured by the definition of [[affine schemes]] as [[locally ringed spaces]]. While the latter is much more complicated, at face value, in the end it yields an [[equivalence of categories|equivalent]] [[category]] (Def. \ref{EquivalenceOfCategories} below) to the simple [[formal dual|formal dualization]] in (eq:FormalDualsOfCommutativeRings). As early as 1973 [[Alexander Grothendieck]] had urged to abandon the more complicated definition in favor of the simpler one (see [Lawvere 03](functorial+geometry#Lawvere16Quote).)
+(The immediate identification (eq:FormalDualsOfCommutativeRings) is often obscured by the definition of [[affine schemes]] as [[locally ringed spaces]]. While the latter is much more complicated, at face value, in the end it yields an [[equivalence of categories|equivalent]] [[category]] (Def. \ref{EquivalenceOfCategories} below) to the simple [[formal dual|formal dualization]] in (eq:FormalDualsOfCommutativeRings). Already in 1973 [[Alexander Grothendieck]] had urged to abandon, as a foundational concept, the more complicated definition in favor of the simpler one (see [Lawvere 03](functorial+geometry#Lawvere16Quote).)
 
 =--
 
@@ -803,8 +842,26 @@ $\,$
 ### Natural transformations and presheaves
  {#NaturalTransformationsAndPresheaves}
 
+Given a system of ([[homomorphism|homo-]])[[morphisms]] ("transformations") in some [[category]] (Def. \ref{Categories})
 
+$$
+  F_X \overset{\phantom{A}\eta_X\phantom{A}}{\longrightarrow} G_X
+$$
 
+between [[objects]] that depend on some [[variable]] $X$, hence that are values of [[functors]] of $X$ (Def. \ref{Functors}), one says that this is _natural_, hence a _[[natural transformation]]_ (Def. \ref{NaturalTransformations} below) if it is compatible with ([[homomorphism|homo-]])[[morphisms]] of the variable itself.
+
+These [[natural transformations]] are the evident [[homomorphisms]] between [[functors]]
+
+$$
+  F \overset{\phantom{A}\eta\phantom{A}}{\longrightarrow} G
+  \,,
+$$
+
+and hence there is a _[[category of functors]]_ between any two [[categories]] (Example \ref{FunctorCategory} below).
+
+A key class of such [[functor categories]] are those between an [[opposite category]] $\mathcal{C}^{op}$ and the base [[category of sets]], these are also called _[[categories of presheaves]]_ (Example \ref{CategoryOfPresheaves} below). It makes good sense (Remark \ref{PresaheavesAsGeneralizedSpaces} below) to think of these as categories of "generalized objects of $\mathcal{C}$", a perspective which is made precise by the statement of the _[[Yoneda lemma]]_ (Prop. \ref{YonedaLemma} below) and the resulting _[[Yoneda embedding]]_ (Prop. \ref{YonedaEmbedding} below). This innocent-looking lemma is the heart that makes [[category theory]] tick.
+
+$\,$
 
 +-- {: .num_defn #NaturalTransformations}
 ###### Definition
@@ -832,7 +889,7 @@ is
 
 such that
 
-* for each [[morphism]] $X \overset{f}{\longrightarrow} Y$ we have
+* for each [[morphism]] $X \overset{f}{\longrightarrow} Y$ we have a [[commuting square]] (Def. \ref{CommutingDiagram}) of the form
 
   \[
     \label{Naturality}
@@ -850,6 +907,8 @@ such that
        F(Y) &\underset{\eta_Y}{\longrightarrow}& G(Y)
     }
   \]
+
+  (sometimes called the _naturality square_ of the natural transformation).
 
 If all the component morphisms $\eta_X$ are [[isomorphisms]] (Def. \ref{Isomorphism}), then the natural transformation $\eta$ is called a _[[natural isomorphism]]_.
 
@@ -1106,7 +1165,7 @@ $$
 
 and the [[identity morphism]] $id_X$ on $X$ is a canonical element in the set on the left. The statement to be proven is hence equivalently that for every element in $\mathbf{Y}(X)$ there is precisely one $\eta$ such that this element equals $\eta_X(id_X)$.
 
-Now the condition to be satisfied by $\eta$ is that it makes its [[naturality squares]] (eq:Naturality) commute. This includes those of the form
+Now the condition to be satisfied by $\eta$ is that it makes its [[naturality squares]] (eq:Naturality) commute (Def. \ref{CommutingDiagram}). This includes those of the form
 
 $$
   \array{
@@ -1153,7 +1212,7 @@ $$
   \,.
 $$
 
-As the diagram chase of elements on the right shows, this commutativity fixes $\eta_Y(f)$ for all $Y \in \mathcal{C}$ and all $f \in Hom_{\mathcal{C}}(Y,X)$ uniquely in terms of the element $\eta_{X}(id_X)$.
+As the diagram chase of elements on the right shows, this commutativity (Def. \ref{CommutingDiagram}) fixes $\eta_Y(f)$ for all $Y \in \mathcal{C}$ and all $f \in Hom_{\mathcal{C}}(Y,X)$ uniquely in terms of the element $\eta_{X}(id_X)$.
 
 It remains only to see that there is no condition on the element $\eta_X(id_X)$, hence that with $\eta_Y(f)$ defined this way, the commutativity of all the remaining naturality squares is implies: The general naturality square for a morphism $Y_2 \overset{g}{\longrightarrow} Y_1$ is of the form
 
@@ -1272,6 +1331,7 @@ and hence it is sufficient to see that this is a [[left inverse]] to (eq:HomFunc
 
 =--
 
+$\,$
 
 
 ### Adjunctions
@@ -1362,7 +1422,7 @@ Naturality here means that for every [[morphism]] $g \colon c_2 \to c_1$ in $\ma
   }
 \]
 
-[[commuting square|commutes]] (see also at _[[hom-functor]]_ for the definition of the vertical maps here). 
+[[commuting square|commutes]] (Def. \ref{CommutingDiagram}), where the vertical morphisms are given by the [[hom-functor]] (Example \ref{HomFunctor}).
 
 Explicitly, this commutativity, in turn, means that for every morphism $f \;\colon\; L(c_1) \to d_1$ with [[adjunct]] $\widetilde f \;\colon\; c_1 \to R(d_1)$, the adjunct of the [[composition]] is
 
