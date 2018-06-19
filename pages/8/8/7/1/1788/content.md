@@ -1,45 +1,153 @@
-| $\phantom{A}$[[category theory]] <br/> $\phantom{A}$and <br/> $\phantom{A}$[[topos theory]] |   | $\phantom{A}$[[geometry]] of [[generalized spaces]] <br/> $\phantom{A}$probe-able by given model [[spaces]] |
-|-------|--|---------|
-| $\phantom{A}$[[representable presheaf]]$\phantom{A}$ | $\phantom{A}$Expl. \ref{CategoryOfPresheaves}$\phantom{A}$ |  $\phantom{A}$model [[space]] regarded as [[generalized space]] |
-| $\phantom{A}$[[Yoneda lemma]] | $\phantom{A}$Prop. \ref{YonedaLemma}$\phantom{A}$  |  $\phantom{A}$sets of probes of [[generalized spaces]] really are <b/> $\phantom{A}$sets of maps from model [[spaces]] $\phantom{A}$ |
-| $\phantom{A}$[[Yoneda embedding]] $\phantom{A}$ | $\phantom{A}$Prop. \ref{YonedaEmbedding}$\phantom{A}$ |  $\phantom{A}$nature of model [[spaces]] is preserved when <br/> $\pahntom{A}$regarding them as [[generalized spaces]] $\phantom{A}$ |
-| $\phantom{A}$[[sheaf|sheaf condition]] | $\phantom{A}$Def. \ref{Sheaf}$\phantom{A}$ <br/> $\phantom{A}$Prop. \ref{CechGroupoidCoRepresents}$\phantom{A}$ | $\phantom{A}$plots of [[generalized spaces]] satisfy [[local-to-global principle]] $\phantom{A}$ |
 
-\[
-  \label{YonedaFunctor}
-  \array{
-    y & \colon &
-    \mathcal{C}
-      &\longrightarrow&
-    [\mathcal{C}^{op}, Set]
-    \\
-    \\
-    && && && c_1 &\overset{g}{\longrightarrow}& c_2
-    \\
-    &&
-    X
-    &\mapsto&
-    Hom_{\mathcal{C}}(-,X) 
-     &\phantom{AA}\colon\phantom{AA}& 
-    Hom_{\mathcal{C}}(c_1,X) 
-      &\overset{Hom_{\mathcal{C}}( g, X ) }{\longleftarrow}& 
-    Hom_{\mathcal{C}}(c_2, X)
-    \\
-    &&
-    {}^{\mathllap{ f }}\big\downarrow
-    &&
-    \big\downarrow^{ \mathrlap{ Hom_{\mathcal{C}}(-,f) } } 
-    &&
-    \big\downarrow^{ \mathrlap{ Hom_{\mathcal{C}}( c_2, f )  } } 
-    && 
-    \big\downarrow^{ \mathrlap{ Hom_{\mathcal{C}}(c_1,f) } }
-    \\
-    &&
-    Y &\mapsto& 
-    Hom_{\mathcal{C}}(-,Y) 
-      &\phantom{AA}\colon\phantom{AA}& 
-    Hom_{\mathcal{C}}(c_1,Y) 
-      &\overset{Hom_{\mathcal{C}}( g, Y ) }{\longleftarrow}& 
-    Hom_{\mathcal{C}}(c_2, Y)
-  } 
-\]
+
++-- {: .num_example #SliceCategory}
+###### Example
+**([[slice category]])**
+
+Let $\mathcal{C}$ be a [[category]], and let $c \in \mathcal{C}$ be any [[object]]. Then 
+
+1. The _[[slice category]]_ (or "[[overcategory]]") $\mathcal{C}_{/c}$ is the [[category]] whose [[objects]] are the [[morphisms]] $X \overset{f}{\to} c$ in $\mathcal{C}$, into $c$, and whose [[morphisms]] $(X_1,f_1) \to (X_2,f_2)$ are the [[morphisms]] $X_1 \overset{g}{\longrightarrow} X_2$ in $\mathcal{C}$ that make a commuting triangle (Def. \ref{CommutingDiagram}):
+
+   $$
+     f_2\circ g
+     \;=\;
+     f_1
+     \phantom{AAAAAA}
+     \array{
+        X_1 
+          && 
+          \overset{\phantom{AA} g \phantom{AA}}{\longrightarrow} 
+          &&
+        X_2
+        \\
+        & {}_{\mathllap{f_1}}\searrow && \swarrow_{\mathrlap{f_2}}
+        \\
+        && c
+     }
+   $$
+
+   Hence there is a canonical [[functor]] 
+
+   $$
+     \array{
+       \mathcal{C}_{/c} 
+       &\overset{}{\longrightarrow}& 
+       \mathcal{C}
+     }
+   $$
+
+   given by forgetting the morphisms to $c$.
+
+
+1. The _[[coslice category]]_ (or "[[undercategory]]") $\mathcal{C}^{c/}$ is the [[category]] whose [[objects]] are the [[morphisms]] $c \overset{f}{\to} X$ in $\mathcal{C}$, out of $c$, and whose [[morphisms]] $(X_1,f_1) \to (X_2,f_2)$ are the [[morphisms]] $X_1 \overset{g}{\longrightarrow} X_2$ in $\mathcal{C}$ that make a commuting triangle (Def. \ref{CommutingDiagram}):
+
+   $$
+     f_2\circ g
+     \;=\;
+     f_1
+     \phantom{AAAAAA}
+     \array{
+        && c
+        \\
+        & {}^{\mathllap{f_1}}\swarrow && \searrow^{\mathrlap{f_2}}
+        \\
+        X_1 
+          && 
+          \underset{\phantom{AA} g \phantom{AA}}{\longrightarrow} 
+          &&
+        X_2
+     }
+   $$
+
+   Again, there is a canonical [[functor]] 
+
+   $$
+     \array{
+       \mathcal{C}_{c/} 
+       &\overset{}{\longrightarrow}& 
+       \mathcal{C}
+     }
+   $$
+
+   given by forgetting the morphisms to $c$.
+
+
+=--
+
+More generally:
+
+
+
++-- {: .num_example #SliceCategory}
+###### Example
+**([[slice category]])**
+
+Let $\mathcal{C}$ be a [[category]], and let $c \in \mathcal{C}$ be any [[object]]. Then 
+
+1. Then _[[slice category]]_ (or "[[overcategory]]") $\mathcal{C}_{/c}$ is the [[category]] whose [[objects]] are the [[morphisms]] $X \overset{f}{\to} c$ in $\mathcal{C}$, into $c$, and whose [[morphisms]] $(X_1,f_1) \to (X_2,f_2)$ are the [[morphisms]] $X_1 \overset{g}{\longrightarrow} X_2$ in $\mathcal{C}$ that make a commuting triangle (Def. \ref{CommutingDiagram}):
+
+   $$
+     f_2\circ g
+     \;=\;
+     f_1
+     \phantom{AAAAAA}
+     \array{
+        X_1 
+          && 
+          \overset{\phantom{AA} g \phantom{AA}}{\longrightarrow} 
+          &&
+        X_2
+        \\
+        & {}_{\mathllap{f_1}}\searrow && \swarrow_{\mathrlap{f_2}}
+        \\
+        && c
+     }
+   $$
+
+   There is a canonical [[functor]] 
+
+   $$
+     \array{
+       \mathcal{C}_{/c} 
+       &\overset{}{\longrightarrow}& 
+       \mathcal{C}
+     }
+   $$
+
+   given by forgetting the morphisms to $c$.
+
+
+1. The _[[coslice category]]_ (or "[[undercategory]]") $\mathcal{C}^{c/}$ is the [[category]] whose [[objects]] are the [[morphisms]] $c \overset{f}{\to} X$ in $\mathcal{C}$, out of $c$, and whose [[morphisms]] $(X_1,f_1) \to (X_2,f_2)$ are the [[morphisms]] $X_1 \overset{g}{\longrightarrow} X_2$ in $\mathcal{C}$ that make a commuting triangle (Def. \ref{CommutingDiagram}):
+
+   $$
+     f_2\circ g
+     \;=\;
+     f_1
+     \phantom{AAAAAA}
+     \array{
+        && c
+        \\
+        & {}^{\mathllap{f_1}}\swarrow && \searrow^{\mathrlap{f_2}}
+        \\
+        X_1 
+          && 
+          \underset{\phantom{AA} g \phantom{AA}}{\longrightarrow} 
+          &&
+        X_2
+     }
+   $$
+
+   Again, there is a canonical [[functor]] 
+
+   $$
+     \array{
+       \mathcal{C}^{c/} 
+       &\overset{}{\longrightarrow}& 
+       \mathcal{C}
+     }
+   $$
+
+   given by forgetting the morphisms to $c$.
+
+
+=--
