@@ -5,7 +5,7 @@
 
 ##Idea
 
-A well-generated [[triangulated category]] is a strengthening of the notion of [[compactly generated triangulated category]] which was introduced by [Neeman, 2001](#Neeman).  The following definition is from ([Krause](#Krause)) and is somewhat shorter and more natural than Neeman's original definition.
+A well-generated [[triangulated category]] is a generalization of the notion of [[compactly generated triangulated category]] which was introduced by [Neeman, 2001](#Neeman).  The following definition is from ([Krause](#Krause)) and is somewhat shorter and more natural than Neeman's original definition.
 
 ##Definition
 
@@ -22,11 +22,11 @@ Let $T$ be a [[triangulated category]] with arbitrary [[coproducts]]. Then $T$ i
 
 =--
 
-We recall that to say an object $S$ is $\alpha$-small in a triangulated category is to say that every map $S\to\coprod_J X_j$ factors through some $S\to\coprod_I X_j$ whenever $\vert I\vert \lt \alpha$ with $I$ a subset of $J$.
+We recall that an object $S$ in a triangulated category is $\alpha$-small if every map $S\to\coprod_J X_j$ factors through $\coprod_I X_j$ for some $I \subseteq J$ with $\vert I\vert \lt \alpha$.
 
 ##References
 
-* Henning Krause, _On Neeman's Well Generated Triangulated Categories_, Documenta Mathenatica 6 (2001) ([pdf](http://www.math.uiuc.edu/documenta/vol-06/07.pdf)).
+* Henning Krause, _On Neeman's Well Generated Triangulated Categories_, Documenta Mathenatica 6 (2001) ([pdf](https://www.math.uni-bielefeld.de/documenta/vol-06/07.pdf)).
  {#Krause}
 
 * [[Amnon Neeman]], _Triangulated Categories_, Annals of Mathematics Studies 148, Princeton
