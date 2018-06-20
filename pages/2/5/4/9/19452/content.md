@@ -4547,8 +4547,9 @@ $\,$
   
 Maybe the most hands-on version of [[universal constructions]] are _[[limits]]_ (Def. \ref{Limits} below), which is short for _limiting [[cones]]_ (Remark \ref{LimitingCones} below). The [[formal duality|formally dual]] concept is called _[[colimits]]_ (which are hence [[limits]] in an [[opposite category]]). Other terminology is in use, too:
 
-| $\phantom{A}$ [[limit]] $\phantom{A}$ | $\phantom{A}$ [[colimit]] $\phantom{A}$ |
+| $\phantom{A}$ $\underset{\longleftarrow}{\lim}$ $\phantom{A}$ | $\phantom{A}$ $\underset{\longrightarrow}{\lim}$ $\phantom{A}$ |
 |-----------|---------------|
+| $\phantom{A}$ [[limit]] $\phantom{A}$ | $\phantom{A}$ [[colimit]] $\phantom{A}$ |
 | $\phantom{A}$ [[inverse limit]] $\phantom{A}$ | $\phantom{A}$ [[direct limit]]$\phantom{A}$  |
 
 There is a variety of different kinds of [[limits]]/[[colimits]], depending on the [[diagram]] shape that they are limiting (co-)cones over. This includes [[universal constructions]] known as _[[equalizers]]_, _[[products]]_, _[[fiber products]]/[[pullbacks]]_, _[[filtered limits]]_ and various others, all of which are basic tools frequently used whenever [[category theory]] applies.
