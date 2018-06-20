@@ -231,7 +231,7 @@ See also the references at _[[Diaconescu's theorem]]_.
 
 Some categorically-oriented articles discussing torsors are
 
-* [[Tomasz Brzezi?ski]], _On synthetic interpretation of quantum principal bundles_, AJSE D - Mathematics 35(1D): 13-27, 2010 [arXiv:0912.0213](http://arxiv.org/abs/0912.0213)
+* [[Tomasz Brzeziński]], _On synthetic interpretation of quantum principal bundles_, AJSE D - Mathematics 35(1D): 13-27, 2010 [arXiv:0912.0213](http://arxiv.org/abs/0912.0213)
 
 * D. H. Van Osdol, _Principal homogeneous objects as representable functors_,
 Cahiers Topologie G&#233;om. Diff&#233;rentielle 18 (1977), no. 3, 271--289, [numdam](http://www.numdam.org/item?id=CTGDC_1977__18_3_271_0)
