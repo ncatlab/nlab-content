@@ -339,6 +339,8 @@ All of these justify the rules for the exponentials, so again we see that there 
 
 ## Related concepts
 
+* [[bounded linear logic]]
+
 * [[linear type theory]]
 
 * [[light logic]]
