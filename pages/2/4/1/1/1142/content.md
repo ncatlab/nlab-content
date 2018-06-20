@@ -19,42 +19,53 @@
 
 ## Idea
 
-As every [[topos]], the category $PSh(X)$ of [[presheaf|presheaves]] is  [[cartesian monoidal category|cartesian]] [[closed monoidal category|closed monoidal]].
+As every [[topos]], a  [[category of presheaves]] is  [[cartesian monoidal category|cartesian]] [[closed monoidal category|closed monoidal]].
 
 ## Definition
 
-Let $S$ be a [[category]]. 
 
-The standard **monoidal**  structure on presheaves $PSh := [S^{op}, Set]$ is the  [[cartesian monoidal category|cartesian monoidal structure]]. 
-
-Recalling that [[limit]]s of [[presheaf|presheaves]] are computed objectwise, this is the pointwise [[cartesian monoidal category|cartesian]] product in [[Set]]: for two presheaves $F, G$ their product presheaf $F \times G$ is given by
-
-$$
-  F \times G = U \mapsto
-  F(U) \times G(U)
-  \,,
-$$
-
-where on the right the product is in [[Set]].
-
-
-+-- {: .num_prop}
++-- {: .num_prop }
 ###### Proposition
 
-The corresponding **[[internal hom]]**
+Let $\mathcal{C}$ be a [[category]] and write $[\mathcal{C}^{op}, Set]$ for its [[category of presheaves]].
 
-$$
-  [-,-] : PSh^{op} \times PSh \to PSh
-$$
+This is 
 
-exists and is given by
+1. a [[cartesian monoidal category]], whose [[Cartesian product]] is given objectwise in $\mathcal{C}$ by the [[Cartesian product]] in [[Set]]:
 
-$$
-  [F,G] = U \mapsto Hom_{PSh}( Y(U)\times F, G )
-  \,,
-$$
+   for $\mathbf{X}, \mathbf{Y} \in [\mathcal{C}^{op}, Set]$, their [[Cartesian product]] $\mathbf{X} \times \mathbf{Y}$ exists and is given by
 
-where $Y : S \to [S^{op}, Set]$ is the [[Yoneda embedding]].
+   $$
+     \mathbf{X} \times \mathbf{X}
+     \;\;\colon\;\;
+     \array{
+       c_1 &\mapsto& \mathbf{X}(c_1) \times \mathbf{Y}(c_1)
+       \\
+       {}^{\mathllap{f}}\big\downarrow 
+         &&
+       \big\uparrow^{ \mathrlap{ \mathbf{X}(f) \times \mathbf{Y}(f) } }
+       \\
+       c_2 &\mapsto& \mathbf{X}(c_2) \times \mathbf{Y}(c_2)
+     }
+   $$
+
+1. a [[cartesian closed category]], whose [[internal hom]] is given for $\mathbf{X}, \mathbf{Y} \in [\mathcal{C}^{op}, Set]$ by
+
+   $$
+     [\mathbf{X}, \mathbf{Y}]
+     \;\;\colon\;\;
+     \array{
+       c_1 &\mapsto& Hom_{[\mathcal{C}^{op}, Set]}( y(c_1) \times \mathbf{X}, \mathbf{y} )
+       \\
+       {}^{ \mathllap{ f } }\big\downarrow 
+         &&
+       \big\uparrow^{ \mathrlap{ Hom_{[\mathcal{C}^{op}, Set]}( y(f) \times \mathbf{X}, \mathbf{y} ) } }
+       \\
+       c_2 &\mapsto& Hom_{[\mathcal{C}^{op}, Set]}( y(c_2) \times \mathbf{X}, \mathbf{y} )       
+     }
+   $$
+
+   Here $y \;\colon\; \mathcal{C} \to [\mathcal{C}^{op}, Set]$ denotes the [[Yoneda embedding]] and $Hom_{[\mathcal{C}^{op}, Set]}(-,-)$ is the [[hom-functor]] on the [[category of presheaves]].
 
 =--
 
@@ -62,7 +73,9 @@ where $Y : S \to [S^{op}, Set]$ is the [[Yoneda embedding]].
 +-- {: .proof}
 ###### Proof
 
-First assume that $[F,G]$ exists, so that by the
+The first statement is a special case of the general fact that [[limits of presheaves are computed objectwise]].
+
+For the second statement, first assume that $[F,G]$ exists, so that by the
 [[adjoint functor|hom-adjunction isomorphism]]  we have
 $Hom(R, [F,G]) \simeq Hom(R \times F, G)$. In particular, for each [[representable functor]] $R = Y(U)$ (with $Y$ the [[Yoneda embedding]]) and using the [[Yoneda lemma]] we get
 
@@ -75,7 +88,7 @@ $$
   \,.
 $$
 
-So if the [[internal hom]] exists, it has to be of the form given. It remains to show that with this definition $[F,-]$ really is [[right adjoint]] to $-\otimes F$.
+So if the [[internal hom]] exists, it has to be of the form given. It remains to show that with this definition $[F,-]$ really is [[right adjoint]] to $- \times F$.
 
 =--
 
