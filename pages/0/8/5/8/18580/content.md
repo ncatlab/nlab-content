@@ -1,4 +1,16 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+
 # Floors and ceilings
 * table of contents
 {: toc}
@@ -21,6 +33,136 @@ $$ \{x\} = x - [x] .$$
 
 One must of course prove that the floor of $x$ exists; this fails in [[constructive mathematics]], although the floor of $x$ exists for [[full set|almost all]] $x$, and all of these functions can still be defined as continuous maps between appropriate [[locales]].
 
+## Properties
+
+### As adjoint functors
+  {#AsAdjointFunctors}
+
+We discuss how the floor and celing functions are left and right [[adjoint functors]] to the inclusion of the [[integers]] into the [[real numbers]], if both are regarded as [[posets]], and hence as [[categories]].
+
++-- {: .num_example #PartiallyOrderedSetsAsSmallCategories}
+###### Example
+**([[preordered sets]] as [[thin categories]])**
+
+Let $(S, \leq)$ be a [[preordered set]]. Then this induces a [[small category]] whose [[set]] of [[objects]] is $S$, and which has precisely one morphism $x \to y$ whenever $x \leq y$, and no such morphism otherwise:
+
+\[
+  \label{RelationsAsMorphismInPartiallyOrderedSet}
+  x \overset{\exists !}{\to} y
+  \phantom{AAA}
+  \text{precisely if}
+  \phantom{AAA}
+  x \leq y
+\]
+
+Conversely, every [[small category]] with at most one morphism from any object to any other, called a _[[thin category]]_, induces on its set of objects the [[structure]] of a  [[partially ordered set]] via (eq:RelationsAsMorphismInPartiallyOrderedSet).
+
+Here the [[axioms]] for [[preordered sets]] and for [[categories]] match as follows:
+
+| |  $\phantom{A}$[[reflexive relation|reflexivity]]$\phantom{A}$ | $\phantom{A}$[[transitive relation|transitivity]]$\phantom{A}$ |
+|----|-----|------|
+| $\phantom{A}$[[partially ordered sets]]$\phantom{A}$ | $\phantom{A}$ $x \leq x$ $\phantom{A}$ | $\phantom{A}$ $(x \leq y \leq z) \Rightarrow (x \leq z)$ $\phantom{A}$ |
+| $\phantom{A}$[[thin categories]]$\phantom{A}$ | $\phantom{A}$[[identity morphisms]]$\phantom{A}$ | $\phantom{A}$[[composition]]$\phantom{A}$ |
+{: style='margin:auto}
+
+=--
+
++-- {: .num_prop #FloorAndCeilingAsAdjointFunctors}
+###### Proposition
+**([[floor]] and [[ceiling]] as [[adjoint functors]])**
+
+Consider the canonical inclusion
+
+$$
+  \mathbb{Z}_{\leq} 
+    \overset{\phantom{AA}\iota \phantom{AA}}{\hookrightarrow} 
+  \mathbb{R}_{\leq}
+$$
+
+of the [[integers]] into the [[real numbers]], both regarded as [[preorders]] in the standard way ("lower or equal"). Regarded as [[full subcategory]]-inclusion of the corresponding [[thin categories]], via Example \ref{PartiallyOrderedSetsAsSmallCategories}, this inclusion functor has both a left and right [[adjoint functor]]:
+
+* the [[left adjoint]] to $\iota$ is the [[ceiling function]]
+
+* the [[right adjoint]] to $\iota$ is the [[floor function]]
+
+\[
+  \label{AdjointTriple}
+  \lceil(-)\rceil \;\;\dashv\;\; \iota \;\;\dashv\;\; \lfloor (-) \rfloor
+  \,.
+\]
+
+Hence this induces an [[adjoint modality]], as discussed there. 
+
+The [[adjunction unit]] and [[adjunction counit]] express that each real number is in between its floor and ceiling
+
+$$
+  \iota \lfloor x \rfloor \;\leq\; x \;\leq\; \iota \lceil x \rceil
+$$
+
+Hence the [[modal objects]] in both cases are the [[integers]] among the [[real numbers]], while every real number is ceiling-submodal and floor-supmodal.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First of all, observe that we indeed have [[functors]]
+
+$$
+  \lfloor(-)\rfloor \;,\;
+  \lceil(-)\rceil
+  \;\;\colon\;
+  \mathbb{R}
+    \longrightarrow
+  \mathbb{Z}
+$$
+
+since floor and ceiling preserve the ordering relation.
+
+Now in view of the identification of [[preorders]] with [[thin categories]] in Example \ref{PartiallyOrderedSetsAsSmallCategories}, the hom-isomorphism defining [[adjoint functors]] of the form $\iota \dashv \lfloor(-)\rfloor$ says for all $n \in \mathbb{Z}$ and $x \in \mathbb{R}$, that we have
+
+$$
+  \underset{ \in \mathbb{Z}}{\underbrace{n \leq \lfloor x \rfloor}}
+  \;\Leftrightarrow\;
+  \underset{ \in \mathbb{R}}{\underbrace{n \leq x }}
+  \,.
+$$
+
+This is clearly already the defining condition on the [[floor]] function $\lfloor x \rfloor$. 
+
+Similarly, the  hom-isomorphism defining [[adjoint functors]] of the form $\lceil(-)\rceil \dashv \iota$ says that for all $n \in \mathbb{Z}$ and $x \in \mathbb{R}$, we have
+
+$$
+  \underset{ \in \mathbb{Z}}{\underbrace{\lceil x \rceil \leq n}}
+  \;\Leftrightarrow\;
+  \underset{ \in \mathbb{R}}{\underbrace{x \leq n }}
+  \,.
+$$
+
+This is evidently already the defining condition on the [[floor]] function $\lfloor x \rfloor$. 
+
+
+Notice that in both cases the condition of a _[[natural isomorphism]]_ in both variables, as required for an [[adjunction]], is automatically satisfied: For let $x \leq x'$ and $n' \leq n$, then naturality means, again in view of the identifications in Example \ref{PartiallyOrderedSetsAsSmallCategories}, that
+
+$$
+  \array{ 
+    (n \leq \lfloor x \rfloor) &\Leftrightarrow& (n \leq x)
+    \\
+    \Downarrow && \Downarrow
+    \\
+    (n' \leq \lfloor x' \rfloor) &\Leftrightarrow& (n' \leq x')
+    \\
+    \\
+    \in \mathbb{Z} && \in \mathbb{R}
+  }
+$$ 
+
+where the logical implications are equivalently functions between [[sets]] that are either [[empty set|empty]] or [[singletons]]. But Functions between such sets are unique, when they exist.
+
+=--
+
+
+
 
 ## References
 
@@ -28,7 +170,7 @@ Wikipedia summarizes the basic properties:
 
 * English Wikipedia. Floor and ceiling functions. [Web](https://en.wikipedia.org/wiki/Floor_and_ceiling_functions).
 
-I ([[Toby Bartels]]) use the floor and ceiling functions to relate integrals and series when teaching Calculus; see throughout Chapter 3 of these notes (soon to be replaced by an updated version):
+The following text uses the floor and ceiling functions to relate [[integrals]] and [[series]] when teaching [[differential calculus]]; see throughout Chapter 3 of these notes:
 
 * Toby Bartels. One-variable Calculus for Calculus 2. [Web](http://tobybartels.name/MATH-1700/2017WN/calcbook/) (the first set of notes at that link).
 
