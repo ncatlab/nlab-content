@@ -4732,15 +4732,15 @@ A [[functor]] $R \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ (Def. \ref{
 
 1. $R$ [[preserved limit|preserves]] all [[limits]] (Def. \ref{Limits}) that exist in $\mathcal{C}$; 
 
-1. for each [[object]] $d \in \mathcal{D}$, the [[limit]] (Def. \ref{Limits}) of the canonical functor (eq:CanonicalFunctorOutOfCommaCategoryOfcOverF)
+1. for each [[object]] $d \in \mathcal{D}$, the [[limit]] (Def. \ref{Limits}) of the canonical functor (eq:CanonicalFunctorOutOfCommaCategoryOfcOverF) out of the [[comma category]] (Example \ref{CommaCategoryWithOneSideConstant})
 
    $$
      d/R \longrightarrow \mathcal{C}
    $$
 
-   out of the [[comma category]] (Example \ref{CommaCategoryWithOneSideConstant}) exists.
+   exists.
 
-In this case the [[left adjoint]] on $d$ is given by that limit:
+In this case the value of the [[left adjoint]] $L$ on $d$ is given by that limit:
 
 \[
   \label{FormulaForLeftAdjointByPointwiseLimit}
@@ -4782,7 +4782,7 @@ By the assumption that $R$ preserves all limits that exist, we have
 Since the $d \overset{f}{\to} R(d)$ constitute a [[cone]] over the [[diagram]] of the $R(d)$, there is universal morphism
 
 $$
-  d \overset{\phantom{AA} d \phantom{AA}}{\longrightarrow} R(L(d))
+  d \overset{\phantom{AA} \eta_d \phantom{AA}}{\longrightarrow} R(L(d))
   \,.
 $$
 
