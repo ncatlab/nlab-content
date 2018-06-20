@@ -89,6 +89,8 @@ Recall that the universal property for $\mathbb{N}$ states that for data $g_0\co
 
 * [[partial recursive function]], [[recursive subset]]
 
+* [[guarded recursion]]
+
 Dually, there is a notion of [[corecursion]] on a [[coinduction|coinductive structure]]. 
 
 [[!include computable mathematics -- table]]
