@@ -680,6 +680,21 @@ for a unique $\widetilde f  \;\colon\; L(c) \longrightarrow d$, to be called the
 
 (e.g [Borceux, vol 1, Def. 3.1.1](#Borceux))
 
+
++-- {: .num_prop #UniversalMorphismsAreInitialObjectsInCommaCategory}
+###### Proposition
+**([[universal morphisms]] are [[initial objects]] in the [[comma category]])**
+
+Let $\mathcal{C} \overset{R}{\longrightarrow} \mathcal{D}$ be a [[functor]] and $d \in \mathcal{D}$ an [[object]]. Then the following are equivalent:
+
+1. $d \overset{\eta_d}{\to} R(c)$ is a [[universal morphism]] into $R(c)$ (Def. \ref{UniversalArrow});
+
+1. $(d, \eta_d)$ is the [[initial object]] in the [[comma category]] $d/R$.
+
+
+=--
+
+
 +-- {: .num_prop #CollectionOfUniversalArrowsEquivalentToAdjointFunctor}
 ###### Proposition
 **(collection of [[universal arrows]] equivalent to [[adjoint functor]])**
@@ -1091,47 +1106,94 @@ Using the given [[isomorphism]], we may transfer the [[comonad]] structure on $L
 ### Pointwise expression
  {#PointwiseExpression}
 
-Let $R : D \to C$ be a [[right adjoint]] [[functor]] such that
 
-* $C$ is a [[locally small category]], 
 
-* $D$ has all small [[limit]]s.
++-- {: .num_prop #PointwiseExpressionOfLeftAdjoints}
+###### Proposition
+**(pointwise expression of [[left adjoints]] in terms of [[limits]] over [[comma categories]])**
 
-Then the value of the left adjoint $L : C \to D$ on any object $c$ may be computed by a [[limit]]:
+A [[functor]] $R \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$  has a [[left adjoint]] $L \;\colon\; \mathcal{D} \longrightarrow \mathcal{C}$ precisely if 
+
+1. $R$ [[preserved limit|preserves]] all [[limits]] that exist in $\mathcal{C}$; 
+
+1. for each [[object]] $d \in \mathcal{D}$, the [[limit]] of the canonical functor out of the [[comma category]] of $R$ under $d$
+
+   $$
+     d/R \longrightarrow \mathcal{C}
+   $$
+
+   exists.
+
+In this case the value of the [[left adjoint]] $L$ on $d$ is given by that limit:
+
+\[
+  \label{FormulaForLeftAdjointByPointwiseLimit}
+  L(d)
+  \;\simeq\;
+  \underset{\underset{ \left( c,  \array{ d \\ \downarrow^{\mathrlap{f}} \\ R(c) } \right)  \in d/R }{\longleftarrow}}{\lim} c
+\]
+
+=--
+
+
+(e.g. [[Categories Work|MacLane, chapter X, theorem 2]])
+
+
++-- {: .proof}
+###### Proof
+
+First assume that the left adjoint exist. Then 
+
+1. $R$ is a [[right adjoint]] and hence preserves limits since all [[right adjoints preserve limits]];
+
+1. by Prop. \ref{CollectionOfUniversalArrowsEquivalentToAdjointFunctor} the [[adjunction unit]] provides a [[universal morphism]] $\eta_d$ into $L(d)$, and hence, by Prop. \ref{UniversalMorphismsAreInitialObjectsInCommaCategory}, exhibits $(L(d), \eta_d)$ as the [[initial object]] of  the [[comma category]] $d/R$. The limit over any category with an initial object exists, as it is given by that initial object.
+
+Conversely, assume that the two conditions are satisfied and let $L(d)$ be given by (eq:FormulaForLeftAdjointByPointwiseLimit). We need to show that this yields a left adjoint.
+
+By the assumption that $R$ preserves all limits that exist, we have
+
+\[
+  \label{RAppliedtoFormulaForLeftAdjointByPointwiseLimit}
+  \array{
+    R(L(d))
+    & =
+    R\left(
+    \underset{\underset{ \left( c,  \array{ d \\ \downarrow^{\mathrlap{f}} \\ R(c) } \right)  \in d/R }{\longleftarrow}}{\lim} c
+  \right)
+   \\
+   & \simeq
+    \underset{\underset{ \left( c,  \array{ d \\ \downarrow^{\mathrlap{f}} \\ R(c) } \right)  \in d/R }{\longleftarrow}}{\lim} R(c)
+  }
+\]
+
+Since the $d \overset{f}{\to} R(d)$ constitute a [[cone]] over the [[diagram]] of the $R(d)$, there is universal morphism
 
 $$
-  L c \simeq \lim_{c\to R d} d
-$$
-
-over the [[comma category]] $c/R$ (whose objects are pairs $(d,f:c\to R d)$ and whose morphisms are arrows $d\to d'$ in $D$ making the obvious triangle commute in $C$) of the projection functor
-
-$$
-  L c = \lim_{\leftarrow} (c/R \to D )
+  d \overset{\phantom{AA} \eta_d \phantom{AA}}{\longrightarrow} R(L(d))
   \,.
 $$
 
-Because with this there is for every $d$ an obvious morphism
+By Prop. \ref{CollectionOfUniversalArrowsEquivalentToAdjointFunctor} it is now sufficient to show that $\eta_d$ is a [[universal morphism]] into $L(d)$, hence that for all $c \in \mathcal{C}$ and $d \overset{g}{\longrightarrow} R(c)$ there is a unique morphism $L(d) \overset{\widetilde f}{\longrightarrow} c$ such that
 
 $$
-  L R d \stackrel{=}{\to} \lim_{R d \to R d'} d' \to d
+  \array{
+    && d
+    \\
+    & {}^{\mathllap{ \eta_d }}\swarrow && \searrow^{\mathrlap{f}}
+    \\
+    R(L(d)) && \underset{\phantom{AA}R(\widetilde f)\phantom{AA}}{\longrightarrow} && R(c)
+    \\
+    L(d) 
+      &&\underset{\phantom{AA}\widetilde f\phantom{AA}}{\longrightarrow}&&
+    c
+  }
 $$
 
-(the component map over $d$ of the limiting [[cone]]) while moreover because $R$ preserves limits, we have an [[isomorphism]]
+By Prop. \ref{UniversalMorphismsAreInitialObjectsInCommaCategory}, this is equivalent to $(L(d), \eta_d)$ being the [[initial object]] in the [[comma category]] $c/R$, which in turn is equivalent to it being the [[limit]] of the [[identity functor]] on $c/R$. But this follows directly from the limit formulas (eq:FormulaForLeftAdjointByPointwiseLimit) and (eq:RAppliedtoFormulaForLeftAdjointByPointwiseLimit).
 
-$$
-  R L c \simeq \lim_{c\to R d} R d
-$$ 
+=--
 
-and hence an obvious morphism of [[cone]] tips
-
-$$
- c \to R L c
- \,.
-$$  
-
-It is easy to check that these would be the unit and counit of an [[adjunction]] $L\dashv R$.
-
-See [[adjoint functor theorem]] for more.
+See at _[[adjoint functor theorem]]_ for more.
 
 
 ### Relation to monads
