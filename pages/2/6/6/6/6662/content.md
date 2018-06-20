@@ -190,7 +190,7 @@ where
 +-- {: .num_example #EInfinityFrobeniusReducesToOrdinaryFrobenius}
 ###### Example
 
-Let $A \in CRing$ be an ordinary [[commutative ring]] and write $H A$ for its [[Eilenberg-MacLane spectrum]]. Then for $p$ a [[prime number]] the Frobenius homomorphsm from def. \ref{EInfinityFrobenius}
+Let $A \in CRing$ be an ordinary [[commutative ring]] and write $H A$ for its [[Eilenberg-MacLane spectrum]]. Then for $p$ a [[prime number]] the Frobenius homomorphism from def. \ref{EInfinityFrobenius}
 
 $$  
   H A \longrightarrow H A^{t C_p}
@@ -305,6 +305,9 @@ Discussion for [[E-infinity rings]] via [[Tate spectra]] is due to
 
 * {#NikolausScholze17} [[Thomas Nikolaus]], [[Peter Scholze]], _On topological cyclic homology_ ([arXiv:1707.01799](https://arxiv.org/abs/1707.01799))
 
+A brief discussion in the context of algebraic geometry over rigs is in
+
+* [[William Lawvere]], _Core Varieties, Extensivity, and Rig Geometry_ , TAC **20** no.14 (2008) pp.497-503. ([abstract](http://www.tac.mta.ca/tac/volumes/20/14/20-14abs.html))
 
 [[!redirects Frobenius morphisms]]
 
