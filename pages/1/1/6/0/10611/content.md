@@ -105,6 +105,8 @@ $$
 
 * [[affine modality]]
 
+* [[graded modality]]
+
 ## Related concepts
 
 * [[de dicto and de re]]
