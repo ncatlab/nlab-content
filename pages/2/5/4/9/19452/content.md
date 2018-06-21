@@ -4551,6 +4551,7 @@ Maybe the most hands-on version of [[universal constructions]] are _[[limits]]_ 
 |-----------|---------------|
 | $\phantom{A}$ [[limit]] $\phantom{A}$ | $\phantom{A}$ [[colimit]] $\phantom{A}$ |
 | $\phantom{A}$ [[inverse limit]] $\phantom{A}$ | $\phantom{A}$ [[direct limit]]$\phantom{A}$  |
+{: style='margin:auto}
 
 There is a variety of different kinds of [[limits]]/[[colimits]], depending on the [[diagram]] shape that they are limiting (co-)cones over. This includes [[universal constructions]] known as _[[equalizers]]_, _[[products]]_, _[[fiber products]]/[[pullbacks]]_, _[[filtered limits]]_ and various others, all of which are basic tools frequently used whenever [[category theory]] applies.
 
@@ -4737,7 +4738,7 @@ $$
     \\
     && \big\downarrow^{ \mathrlap{ \widetilde i } }
     \\
-    && \underset{longleftarrow}{\lim} F
+    && \underset{\longleftarrow}{\lim} F
     \\
     & {}^{\mathllap{ \epsilon_F(c_1) } }\swarrow && \searrow^{\mathrlap{ \epsilon_F(c_2) }}
     \\
@@ -4753,133 +4754,180 @@ Hence a _limit cone_ is a cone over $F$, such that every other cone factors thro
 =--
 
 
-+-- {: .num_remark #LimitingCones}
-###### Remark
-**([[limit|limiting]] [[cones]])
++-- {: .num_example}
+###### Example
+**([[limits of presheaves are computed objectwise]])**
 
-Unwinding Definition \ref{Limits} of [[limits]] and [[colimits]], it says the following.
-
-First of all, for $d \in \mathcal{D}$ any [[object]] and $F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ any [[functor]], a [[natural transformation]] (Def. \ref{NaturalTransformations}) of the form
-
-\[
-  \label{ConeAsNaturalTransformation}
-  const_d \overset{i}{\longrightarrow} F
-\]
-
-has component morphisms
+Let $\mathcal{C}$ be a [[category]] and write $[\mathcal{C}^{op}, Set]$ for its [[category of presheaves]] (Example \ref{CategoryOfPresheaves}). Let moreover $\mathcal{D}$ be a [[small category]] and consider any [[functor]]
 
 $$
-  \array{
-     d
-     \\
-     \big\downarrow^{\mathrlap{i_c}}
-     \\
-     F(c)
-  }
+  F \;\colon\; \mathcal{D} \longrightarrow [\mathcal{C}^{op}, \mathcal{D}]
+  \,,
 $$
 
-in $\mathcal{D}$, for each $c \in \mathcal{C}$, and the naturality condition (eq:Naturality) says that these form a [[commuting diagram]] (Def. \ref{CommutingDiagram}) of the form
+hence a $\mathcal{D}$-shaped [[diagram]] in the [[category of presheaves]]. 
 
-\[
-  \label{ConeInComponents}
-  \array{ 
-    && d
-    \\
-    & {}^{\mathllap{ i_{c_1} } }\swarrow && \searrow^{\mathrlap{ i_{c_2} }}
-    \\
-    F(c_1) 
-      && \underset{ \phantom{AA} F(f) \phantom{AA} }{\longrightarrow}
-    F(c_2)
-  }
-\]
+Then
 
-for each morphism $c_1 \overset{f}{\to} c_2$ in $\mathcal{C}$. Due to the look of this [[diagram]], one also calls such a natural transformation a _[[cone]]_ over the functor $F$.
+1. The [[limit]] (Def. \ref{Limits}) of $F$ exists, and is the [[presheaf]] which over any [[object]] $c \in \mathcal{C}$ is given by the [[limit]] in [[Set]] of the values of the presheaves at $c$:
 
-Now the [[counit of an adjunction|counit]] (Def. \ref{AdjunctionUnitFromHomIsomorphism}) of the $(const \dashv \underset{\longleftarrow}{\lim})$-[[adjunction]] (eq:LimitAndColimitAdj) is a [[natural transformation]] of the form
-
-\[
-  const_{\underset{\longleftarrow}{\lim} F}
-  \overset{ \phantom{AA} \epsilon_{F} \phantom{AA} }{\longrightarrow}
-  F
-\]
-
-and hence is, in components, a [[cone]] (eq:ConeInComponents) over $F$:
-
-\[
-  \label{LimitCone}
-  \array{ 
-    && \underset{longleftarrow}{\lim} F
-    \\
-    & {}^{\mathllap{ \epsilon_F(c_1) } }\swarrow && \searrow^{\mathrlap{ \epsilon_F(c_2) }}
-    \\
-    F(c_1) 
-      && \underset{ \phantom{AA} F(f) \phantom{AA} }{\longrightarrow}
-    F(c_2)
-  }
-\]
-
-But the [[universal property]] of [[adjunctions]] says that this is a very special cone: By Prop. \ref{CollectionOfUniversalArrowsEquivalentToAdjointFunctor} the defining property of the limit is equivalently that for every natural transformation of the form (eq:ConeAsNaturalTransformation), hence for every [[cone]] of the form (eq:ConeInComponents), there is a _unique_ natural transformation
-
-$$
-  \array{
-    const_d
-    &\overset{\widetilde i}{\Rightarrow}&
-    const_{ \underset{ \longleftarrow }{\lim} }
-  }
-$$
-
-which, due to constancy of the two functors applied in the naturality condition (eq:Naturality), has a constant component morphism
-
-$$
-  d \overset{ \widetilde i }{\longrightarrow}
-$$
-
-such that
-
-$$
-  \array{
-    const_d
-    && \overset{\widetilde i}{\longrightarrow} && 
-    const_{ \underset{\longleftarrow}{\lim} F }
-    \\
-    & {}_{\mathllap{ \epsilon_F }} \searrow && \swarrow_{ \mathrlap{i} }
-    \\
-    && F
-  }
-$$
-
-hence such that this factors the given [[cone]] (eq:ConeInComponents) through the special cone (eq:LimitCone):
-
-$$
-  \array{ 
-    && d
-    \\
-    & {}^{\mathllap{ i_{c_1} } }\swarrow && \searrow^{\mathrlap{ i_{c_2} }}
-    \\
-    F(c_1) 
-      && \underset{ \phantom{AA} F(f) \phantom{AA} }{\longrightarrow}
-    F(c_2)
-  }
-  \phantom{AAA} = \phantom{AAA}
-  \array{ 
-    && d
-    \\
-    && \big\downarrow^{ \mathrlap{ \widetilde i } }
-    \\
-    && \underset{longleftarrow}{\lim} F
-    \\
-    & {}^{\mathllap{ \epsilon_F(c_1) } }\swarrow && \searrow^{\mathrlap{ \epsilon_F(c_2) }}
-    \\
-    F(c_1) 
-      && \underset{ \phantom{AA} F(f) \phantom{AA} }{\longrightarrow}
-    F(c_2)
-  }
-  
-$$
+   $$
+     \left(
+       \underset{\underset{d \in \mathcal{D}}{\longleftarrow}}{\lim}
+       F(d)
+     \right)(c)
+     \;\simeq\;
+     \underset{\underset{d \in \mathcal{D}}{\longleftarrow}}{\lim}
+      F(d)(c)
+   $$
 
 
+1. The [[colimit]] (Def. \ref{Limits}) of $F$ exists, and is the [[presheaf]] which over any [[object]] $c \in \mathcal{C}$ is given by the [[colimit]] in [[Set]] of the values of the presheaves at $c$:
+
+   $$
+     \left(
+       \underset{\underset{d \in \mathcal{D}}{\longrightarrow}}{\lim}
+       F(d)
+     \right)(c)
+     \;\simeq\;
+     \underset{\underset{d \in \mathcal{D}}{\longrightarrow}}{\lim}
+      F(d)(c)
+   $$
 
 =--
+
+
++-- {: .proof}
+###### Proof
+
+We discuss the case of limits, the other case is [[formal duality|formally dual]].
+
+Observe that there is a canonical [[equivalence of categories|equivalence]] (Def. \ref{EquivalenceOfCategories})
+
+$$
+  [\mathcal{D}, [\mathcal{C}^{op}, \Set]]
+  \simeq
+  [\mathcal{D} \times \mathcal{C}^{op}, Set]
+$$
+
+where $\mathcal{D} \times \mathcal{C}^{op}$ is the [[product category]].
+
+This makes manifest that a [[functor]] $F \;\colon\; \mathcal{D} \to [\mathcal{C}^{op}, Set]$ is equivalently a [[diagram]] of the form
+
+$$
+  \array{ 
+    &&
+    \vdots && && \vdots
+    \\
+    && \big\downarrow && &&  \big\downarrow
+    \\
+    \cdots &\longrightarrow&
+    F(d_1)(c_2) 
+      && \overset{\phantom{AA}}{\longrightarrow} && 
+    F(d_2)(c_2)
+      &\longrightarrow&
+      \cdots 
+    \\
+    &&
+    \big\downarrow && &&  \big\downarrow
+    \\
+    \cdots
+    &\longrightarrow&
+    F(d_1)(c_1) 
+      && \overset{\phantom{AA}}{\longrightarrow} && 
+    F(d_2)(c_1)
+      &\longrightarrow&
+      \cdots
+    \\
+    &&
+    \big\downarrow && && \big\downarrow
+    \\
+    && \vdots && &&  \vdots
+  }
+$$
+
+
+Then observe that taking the limit of each "horizontal row" in such a diagram indead does yield a presheaf on $\mathcal{C}$, in that the construction extends from objects to morphisms, and uniquely so:
+This is because for any [[morphism]] $c_1 \overset{g}{\to} c_2$ in $\mathcal{C}$, a [[cone]] over $F(-)(c_2)$ (Remark \ref{LimitingCones}) induces a cone over $F(-)(c_1)$, by vertical composition with $F(-)(g)$
+
+$$
+  \array{ 
+    && 
+    \underset{\underset{d \in \mathcal{D}}{\longleftarrow}}{lim}
+    F(d)(c_2)
+    \\
+    & {}^{ }\swarrow && \searrow
+    \\
+    F(d_1)(c_2) 
+      && \overset{\phantom{AA}}{\longrightarrow} && 
+    F(d_2)(c_2)
+    \\
+    {}^{\mathllap{F(d_1)(g)}}\big\downarrow 
+      && && 
+    \big\downarrow^{\mathrlap{F(d_2)(g)}}
+    \\
+    F(d_1)(c_1) 
+      && \overset{\phantom{AA}}{\longrightarrow} && 
+    F(d_2)(c_1)
+  }
+$$
+
+From this, the universal property of limits of sets (as in Remark \ref{LimitingCones}) implies that there is a _unique_ morphism between the pointwise limits which constitutes a presheaf over $\mathcal{C}$
+
+$$
+  \array{
+    \underset{\underset{d \in \mathcal{D}}{\longleftarrow}}{lim}
+    F(d)(c_2)
+    \\
+    \big\downarrow^{\mathrlap{ 
+      \underset{\underset{d \in \mathcal{D}}{\longleftarrow}}{lim}
+      F(d)(g)
+    }}
+    \\
+    \underset{\underset{d \in \mathcal{D}}{\longleftarrow}}{lim}
+    F(d)(c_1)   
+  }
+$$
+
+and that is the tip of a cone over the diagram $F(-)$ in presheaves.
+
+Hence it remains to see that this cone of presheaves is indeed universal. 
+
+Now if $I$ is any other cone over $F$ in the category of presheaves, then by the universal property of the pointswise limits, there is for each $c \in \mathcal{C}$ a unique morphism of cones in sets
+
+$$
+  I(c) 
+    \longrightarrow 
+    \underset{\underset{d \in \mathcal{D}}{\longleftarrow}}{lim}
+   F(d)(c)
+   \,.
+$$
+
+Hence there is at most one morphisms of cones of presheaves, namely if these components make all their naturality squares commute. 
+
+
+$$
+  \array{
+    I(c_2) 
+      &\longrightarrow& 
+      \underset{\underset{d \in \mathcal{D}}{\longleftarrow}}{lim}
+     F(d)(c_2)
+     \\
+     \big\downarrow && \big\downarrow
+     \\
+    I(c_1) 
+      &\longrightarrow& 
+      \underset{\underset{d \in \mathcal{D}}{\longleftarrow}}{lim}
+     F(d)(c_1) 
+   }
+   \,.
+$$
+
+But since everything else commutes, the two ways of going around this diagram constitute two morphisms from a cone over $F(-)(c_1)$ to the limit cone over $F(-)(c_1)$, and hence they must be equal, by the universal property of limits.
+
+=--
+
+
 
 
 
