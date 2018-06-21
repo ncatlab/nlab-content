@@ -54,7 +54,7 @@ We offer also an _a priori_ motivation: _Category theory is the theory of dualit
 
 <div style="float:right;margin:0 10px 10px 0;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Cup_or_faces_paradox.svg/450px-Cup_or_faces_paradox.svg.png" width="200"></div>
 
-_[[duality|Duality]]_ is of course an ancient notion in [[philosophy]]. At least as a term, it makes a curious re-appearance in the conjectural [[theory (physics)|theory]] of fundamental [[physics]] formerly known as _[[string theory]]_. In both cases, the literature left some room in delineating what precisely is meant. But the philosophically inclined mathematician could notice (see [Lambek 82](adjoint+functor#Lambek82)) that an excellent candidate to make precise the idea of _[[duality]]_ is the mathematical concept of _[[adjoint functor|adjunction]]_, from [[category theory]].
+_[[duality|Duality]]_ is of course an ancient notion in [[philosophy]]. At least as a term, it makes a curious re-appearance in the conjectural [[theory (physics)|theory]] of fundamental [[physics]] formerly known as _[[string theory]]_. In both cases, the literature left some room in delineating what precisely is meant. But the philosophically inclined mathematician could notice (see [Lambek 82](adjoint+functor#Lambek82)) that an excellent candidate to make precise the idea of _[[duality]]_ is the mathematical concept of _[[adjoint functor|adjunction]]_, from [[category theory]]. This is particularly pronounced for _[[adjoint triples]]_ (Remark \ref{AdjointTriples} below) and their induced [[adjoint modalities]] (Example \ref{AdjointModality} below).
 
 Historically, [[category theory]] was introduced in order to make precise the concept of _[[natural transformation]]_: The concept of _[[functors]]_ was introduced just so as to support that of natural transformations, and the concept of _[[categories]]_ only served that of functors (see e.g. [Freyd 65, Part II](category+theory#Freyd65)). But natural transformations are what allows us to define, in turn, the concept of _[[adjoint functors]]_, also called _[[adjunctions]]_ between categories. All the deep concepts of category theory (such as _[[representable functors]]_, _[[Yoneda embedding]]_, _[[Kan extensions]]_, hence _[[limits]]_ and _[[colimits]]_, to be introduced below) are special cases of [[adjoint functor]] constructions -- hence of dualities, if we follow [Lambek 82](adjoint+functor#Lambek82). Therefore it makes sense to regard category theory, to a large extent, as the **theory of adjunctions**, hence the **theory of duality**:
 
@@ -1531,6 +1531,7 @@ $\,$
 ### Adjunctions
   {#Adjunctions}
   
+The concepts of [[categories]], [[functors]] and [[natural transformations]] constiture the "language of categories". This language now allows to formulate the concept of _[[adjunction]]_ (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} below) which is arguably what [[category theory]], as a theory, is all about. 
 
 We discuss four equivalent definitions of [[adjunctions]]:
 
@@ -1547,6 +1548,7 @@ Then we discuss some key properties:
 1. uniqueness of adjoints (Prop. \ref{UniquenessOfAdjoints} below),
 
 1. epi/mono/iso-characterization of adjunction (co-)units (Prop. \ref{FullyFaithfulAndInvertibleAdjoints} below).
+
 
 $\,$
 
@@ -1673,6 +1675,47 @@ according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}, one s
 
 =--
 
++-- {: .num_remark #AdjointTriples}
+###### Remark
+**([[adjoint triples]])**
+
+It happens that there are subsequence [[adjoint functors]]:
+
+If two functors are [[adjoint functors|adjoint]] to each other as in Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}, we also say that we have an _[[adjoint pair]]_:
+
+$$
+  L \;\dashv\; R
+  \,.
+$$
+
+If one of these has yet another adjoint in the other direction, we speak of an _[[adjoint triple]]_
+
+\[
+  \label{AdjointTriple}
+  L \;\dashv\; C \;\dashv\; R
+  \,.
+\]
+
+Similarly there are [[adjoint quadruples]], etc.
+
+Notice that in the case of an [[adjoint triple]] (eq:AdjointTriple), the [[adjunction unit]] of $C \dashv R$ and the [[adjunction counit]] of $L \dashv R$ (Def. \ref{AdjunctionUnitFromHomIsomorphism}) provide, for each object $X$ in the [[domain]] of $C$, a [[diagram]]
+
+\[
+  \label{OppositeExtremesAdjointTriple}
+  L(C(X))
+   \overset{ \phantom{AA} \epsilon_X \phantom{AA} }{\longrightarrow}
+  X
+    \overset{ \phantom{AA} \eta_X \phantom{AA} }{\longrightarrow}
+  R(C(X))
+\]
+
+which is usefully thought of as exhibiting the nature of $X$ as being in between two _opposite extreme aspects_ $L(C(X))$ and $R(C(X))$ of $X$. This is illustrated by the following examples, and formalized by the concept of _[[modalities]]_ that we turn to in Def. \ref{ModalOperator} below.
+
+
+
+=--
+
+
 
 +-- {: .num_example #FloorAndCeilingAsAdjointFunctors}
 ###### Example
@@ -1692,16 +1735,19 @@ of the [[integers]] into the [[real numbers]], both regarded as [[preorders]] in
 
 * the [[right adjoint]] to $\iota$ is the [[floor function]];
 
+forming an [[adjoint triple]] (Def. \ref{AdjointTriples})
+
 \[
-  \label{AdjointTriple}
+  \label{FloorCeilingAdjointTriple}
   \lceil(-)\rceil \;\;\dashv\;\; \iota \;\;\dashv\;\; \lfloor (-) \rfloor
   \,.
 \]
 
-The [[adjunction unit]] and [[adjunction counit]] express that each real number is in between its floor and ceiling
+The [[adjunction unit]] and [[adjunction counit]] express that each real number is in between its "opposite extreme integer aspects" (eq:OppositeExtremesAdjointTriple) given by floor and ceiling
 
 $$
   \iota \lfloor x \rfloor \;\overset{\epsilon_X}{\leq}\; x \;\overset{\eta_x}{\leq}\; \iota \lceil x \rceil
+  \,.
 $$
 
 =--
@@ -1764,7 +1810,44 @@ Here the logical implications are equivalently functions between [[sets]] that a
 
 =--
 
++-- {: .num_example}
+###### Example
 
+Consider the "[[forgetful functor]]" $Top \overset{U}{\longrightarrow} Set$ from the [[category]] [[Top]] of [[topological spaces]] (Example \ref{ExamplesOfConcreteCategories}) to the [[category of sets]] (Def. \ref{CategoryOfSets}) which sends every [[topological space]] to its underlying [[set]].
+
+This has 
+
+* a [[left adjoint]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) $Disc$ which equips a set with its [[discrete topology]],
+
+* a [[right adjoint]] $coDisc$ which equips a set with the [[codiscrete topology]].
+
+These hence form an [[adjoint triple]] (Remark \ref{AdjointTriples})
+
+$$
+  Disc 
+  \;\dashv\;
+  U
+  \;\dashv\;
+  coDisc
+  \,.
+$$
+
+Hence the [[adjunction unit]] of $Disc \dashv U$ and the [[adjunction counit]] of $U \dashv coDisc$ exhibit every [[topological space|topology]] on a given set as "in between the opposite extremes" (eq:OppositeExtremesAdjointTriple) of the discrete and the co-discrete
+
+$$
+  Disc(U(X))
+    \overset{\epsilon}{\longrightarrow}
+  X
+    \overset{\eta}{\longrightarrow}
+  coDisc(U(X))
+  \,.
+$$
+
+=--
+
+$\,$
+
+We now consider a sequence of equivalent reformulations of the condition of adjointness.
 
 +-- {: .num_prop #GeneralAdjunctsInTermsOfAdjunctionUnitCounit}
 ###### Proposition
@@ -3056,38 +3139,37 @@ For $\Box$ a [[comodal operator]] on $\mathcal{D}$ (Def. \ref{ModalOperator}), w
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #AdjointModality}
 ###### Example
+**([[adjoint modality]])**
 
-Consider the [[adjoint triple]] of inclusion of the [[integers]] into the [[real numbers]] with [[floor]] and [[ceiling]] function, from Example \ref{FloorAndCeilingAsAdjointFunctors}:
-
+Let $L \;\dashv\; C \;\dashv\; R $ be an [[adjoint triple]] (Remark \ref{AdjointTriples}) such that $L$ and $R$ are [[fully faithful functors]] (necessarily bothm by Prop. \ref{FullyFaithfulAdjointTriple}). Then, by Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}, there are induced [[modal operators]]
 
 $$
-  \lceil(-)\rceil \;\;\dashv\;\; \iota \;\;\dashv\;\; \lfloor (-) \rfloor
+  \bigcirc \;\coloneqq\; L \circ C
+  \phantom{AA}
+  \Box \;\coloneqq\; R \circ C
+$$
+
+which themselves form am [[adjoint pair]]
+
+$$
+  \bigcirc \;\dashv\; \Box
+  \,,
+$$
+
+hence called an _[[adjoint modality]]_. The [[adjunction unit]] and [[adjunction counit]] as in (eq:AdjointTriples) may now be read as exhibiting each object $X$ in the [[domain]] of $C$ as "in between the opposite extremes of its $\bigcirc$-modal aspect and its $\Box$-modal aspect"
+
+$$
+  \bigcirc X
+    \overset{\phantom{AA}\epsilon^\bigcirc_X \phantom{AA}}{\longrightarrow}
+  X
+    \overset{\phantom{AA}\eta^{\Box}_X\phantom{AA}}{\longrightarrow}
+  \Box X
   \,.
 $$
 
-By Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories} this defines a [[modality]]
-
-$$
-  \iota \lceil(-)\rceil \;\colon\; \mathbb{R}_{\leq} \to \mathbb{R}_{\leq}
-$$
-
-and a [[comodality]]
-
-$$
-  \iota \lfloor(-)\rfloor \;\colon\; \mathbb{R}_{\leq} \to \mathbb{R}_{\leq}
-  \,.
-$$
-
-The ([[comodal object|co-]])[[modal objects]] in both cases are the [[integers]] among the [[real  numbers]], while every real number is ceiling-submodal and floor-supmodal 
-
-$$
-  \iota \lfloor x \rfloor \;\overset{\epsilon_X}{\leq}\; x \;\overset{\eta_x}{\leq}\; \iota \lceil x \rceil
-$$
-
-
-
+A [[formal duality|formally dual]] situation arises when $C$ is [[fully faithful functor|fully faithful]].
 
 
 =--
@@ -6272,7 +6354,7 @@ $$
   \mathcal{D}
 $$
 
-induces, via [[Kan extension]], an [[adjoint triple]] of [[enriched functors]]
+induces, via [[Kan extension]], an [[adjoint triple]] (Remark \ref{AdjointTriples}) of [[enriched functors]]
 
 \[
   \label{KanExtensionAdjointTriple}
@@ -6462,7 +6544,7 @@ $\,$
 ###### Proposition
 **([[fully faithful functor|fully faithful]] [[adjoint triple]])**
 
-Let $F \dashv G \dashv H$ be an [[adjoint triple]] of [[adjoint functors]]. Then $F$ is a [[fully faithful functor]] (Def. \ref{FullyFaithfulFunctor}) precisely when $H$ is. (see [this prop.](adjoint+triple#FullyFaithful))
+Let $F \dashv G \dashv H$ be an [[adjoint triple]] (Remark \ref{AdjointTriples}). Then $F$ is a [[fully faithful functor]] (Def. \ref{FullyFaithfulFunctor}) precisely when $H$ is. (see [this prop.](adjoint+triple#FullyFaithful)).
 
 =--
 
@@ -6556,7 +6638,7 @@ $$
 
 between the precomposition on [[enriched presheaves]] with one functor and the left/right [[Kan extension]] of the other (Def. \ref{TopologicalLeftKanExtensionBCoend}).
 
-By essential uniqueness of [[adjoint functors]], this means that the two [[adjoint triples]] (eq:KanExtensionAdjointTriple) of $q$ and $p$ 
+By essential uniqueness of [[adjoint functors]], this means that the two [[adjoint triples]] (Remark \ref{AdjointTriples}) given by [[Kan extension]] (eq:KanExtensionAdjointTriple) of $q$ and $p$ 
 
 $$
   \array{
@@ -6566,7 +6648,7 @@ $$
   }
 $$
 
-merge into an [[adjoint quadruple]]
+merge into an [[adjoint quadruple]] (Remark \ref{AdjointTriples})
 
 $$
   \array{
@@ -7903,7 +7985,7 @@ $\,$
 ###### Definition
 **([[cohesive topos]])**
 
-A [[sheaf topos]] $\mathbf{H}$ (Def. \ref{Sheaf}) is called a _[[cohesive topos]]_ if there is a [[adjoint quadruple|quadruple]] of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) to the [[category of sets]] (Example \ref{CategoryOfSets})
+A [[sheaf topos]] $\mathbf{H}$ (Def. \ref{Sheaf}) is called a _[[cohesive topos]]_ if there is a [[adjoint quadruple|quadruple]] (Remark \ref{AdjointTriples}) of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) to the [[category of sets]] (Example \ref{CategoryOfSets})
 
 \[
   \label{CohesopmAdjointQuadruple}
@@ -7937,7 +8019,7 @@ such that:
 
 Let $\mathcal{C}$ be a [[small category]] (Def. \ref{SmallCategory}) with [[finite products]] (hence with a [[terminal object]] $\ast \in \mathcal{C}$ and for any two [[objects]] $X,Y \in \mathcal{C}$ their [[Cartesian product]] $X \times Y \in \mathcal{C}$).
 
-Then there is an [[adjoint quadruple]] of [[functors]] between the [[category of presheaves]] over $\mathcal{C}$ (Example \ref{CategoryOfPresheaves}), and the [[category of sets]] (Example \ref{CategoryOfSets})
+Then there is an [[adjoint quadruple]] (Remark \ref{AdjointTriples}) of [[functors]] between the [[category of presheaves]] over $\mathcal{C}$ (Example \ref{CategoryOfPresheaves}), and the [[category of sets]] (Example \ref{CategoryOfSets})
 
 \[
   \label{PreaheafAdjointQuadruple}
@@ -8004,7 +8086,7 @@ $$
 
 whose [[right adjoint]] takes the unique object of the terminal category to that terminal object.
 
-From this it follows, by Example \ref{KanExtensionOfAdjointPairIsAdjointQuadruple}, that [[Kan extension]] produces an [[adjoint quadruple]] of functors between the [[category of presheaves]] $[\mathcal{C}^{op}, Set]$ and $[\ast, Set] \simeq Set$, as shown, where 
+From this it follows, by Example \ref{KanExtensionOfAdjointPairIsAdjointQuadruple}, that [[Kan extension]] produces an [[adjoint quadruple]] (Remark \ref{AdjointTriples}) of functors between the [[category of presheaves]] $[\mathcal{C}^{op}, Set]$ and $[\ast, Set] \simeq Set$, as shown, where 
 
 1. $\Gamma$ is the operation of pre-composition with the terminal object inclusion $\ast \hookrightarrow \mathcal{C}$
 
@@ -8186,9 +8268,9 @@ is an isomorphism.
 
 +-- {: .num_defn #CohesiveModalities}
 ###### Definition
-**([[adjoint triple]] of [[modal operators]] on [[cohesive topos]])**
+**([[adjoint triple]] of [[adjoint modality|adjoint]] [[modal operators]] on [[cohesive topos]])**
 
-Given a [[cohesive topos]] (Def. \ref{CohesiveTopos}), its [[adjoint quadruple]] of functors to and from [[Set]]
+Given a [[cohesive topos]] (Def. \ref{CohesiveTopos}), its [[adjoint quadruple]] (Remark \ref{AdjointTriples}) of functors to and from [[Set]]
 
 $$
   \label{CohesopmAdjointQuadruple}
@@ -8207,7 +8289,7 @@ $$
   Set
 $$
 
-induce, by [[composition]] of functors, an [[adjoint triple]] of [[endofunctors]]
+induce, by [[composition]] of functors, an [[adjoint triple]] (Remark \ref{AdjointTriples}) of [[adjoint modalities]] (Example \ref{AdjointModality}):
 
 $$
   &#643; \dashv \flat \dashv \sharp
@@ -8378,12 +8460,9 @@ $$
 
 +-- {: .num_defn #CohesiveModalities}
 ###### Definition
-**([[adjoint triple]] of [[modal operators]] on [[differentially cohesive topos]])**
+**([[adjoint triple]] of [[adjoint modality|adjoint]] [[modal operators]] on [[differentially cohesive topos]])**
 
-Given a [[differentially cohesive topos]] $\mathbf{H}$ over $\mathbf{H}_{red}$ (Def. \ref{DifferentialCohesion}), its [[adjoint quadruple]] of functors to and from the [[cohesive topos]] $\mathbf{H}_{red}$ (Def. \ref{}CohesiveTopos)
-
-
-induce, by [[composition]] of functors, an [[adjoint triple]] of [[endofunctors]]
+Given a [[differentially cohesive topos]] $\mathbf{H}$ over $\mathbf{H}_{red}$ (Def. \ref{DifferentialCohesion}), its [[adjoint quadruple]] of functors to and from the [[cohesive topos]] $\mathbf{H}_{red}$ (Def. \ref{CohesiveTopos}) induce, by [[composition]] of functors, an [[adjoint triple]] (Remark \ref{AdjointTriples}) of [[adjoint modalities]] (Example \ref{AdjointModality}):
 
 $$
   \Re \dashv \Im \dashv \&
@@ -8437,3 +8516,4 @@ and we refer to the corressponding [[modal objects]] (Def. \ref{ModalObjects}) a
 
 [[!redirects geometry of physics -- categories and toposes]]
 
+pr
