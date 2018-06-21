@@ -251,7 +251,7 @@ The Frobenius as a morphism (natural transformation) of (affine) group schemes i
 
 +-- {: .num_remark}
 ###### Remark
-For any commutative affine [[group scheme]] $G$ the Frobenius- and the [[Verschiebung morphism]] correspond by ''completed [[Cartier duality|Cartier duality]]''; i.e. we have
+For any commutative affine [[group scheme]] $G$ the Frobenius- and the [[Verschiebung morphism]] correspond by "completed [[Cartier duality|Cartier duality]]''; i.e. we have
 
 $$\hat D(V_G)=F_{\hat D(G)}$$
 =--
