@@ -46,19 +46,19 @@ $$
 where the horizontal arrows are the natural bijections given by the adjunctions. [Eilenberg and Moore](#EilenbergMoore) would write $\phi\dashv\psi$ and talk about "adjointness for morphisms" (of functors), which is of course relative to the given adjunctions among functors. MacLane calls the correspondence *conjugation* ([[Categories for Working Mathematician]], 99-102).  It is a special case, of a general construction of [[mate]]s, in terminology of Australian category school. 
 
 If $\eta,\eta'$ and $\epsilon,\epsilon'$ are their 
-[[unit of an adjunction|unit]] and counit of course the upper arrow is $(S M\stackrel{f}\to N)\mapsto Tf\circ \eta_M$ and the lower arrow $(S'M\stackrel{g}\to N)\mapsto T'g\circ\eta'_M$. Thus the condition renders as 
+[[unit of an adjunction|unit]] and counit of course the upper arrow is $(S M\stackrel{f}\to N)\mapsto T f\circ \eta_M$ and the lower arrow $(S'M\stackrel{g}\to N)\mapsto T'g\circ\eta'_M$. Thus the condition renders as 
 
-$$T'(f\circ\phi_M)\circ\eta'_M = \psi_N\circ Tf\circ\eta_M$$ 
+$$T'(f\circ\phi_M)\circ\eta'_M = \psi_N\circ T f\circ\eta_M$$ 
 
 or $T'f\circ T'\phi_M\circ\eta'_M = T'f\circ \psi_{SM}\circ\eta_M$. Given $\phi$, the uniqueness of $B(-,\psi)$ is clear from the above [[diagram]], as the horizontal arrows are [[isomorphism|invertible]]. $B(-,\psi)$ determines $\psi$, namely $\psi_N = B(-,\psi)(id_N)$. For the existence of $\psi$ (given $\phi$) satisfying the above equation, one proposes that $\psi$ is the composition
 $\psi  = T'\epsilon \circ T'\phi T \circ \eta'T$, i.e.
 
 $$
-T\stackrel{\eta' T}\longrightarrow T'S' T\stackrel{T'\psi T}\longrightarrow T'ST \stackrel{T'\epsilon}\longrightarrow T'
+T\stackrel{\eta' T}\longrightarrow T'S' T\stackrel{T'\psi T}\longrightarrow T' S T \stackrel{T'\epsilon}\longrightarrow T'
 $$
 and checks that it works. The inverse is similarly given by the composition
 $$
-S'\stackrel{S'\eta}\longrightarrow S' TS\stackrel{S'\psi S}\longrightarrow S'T'S\stackrel{\epsilon' S}\longrightarrow S
+S'\stackrel{S'\eta}\longrightarrow S' T S\stackrel{S'\psi S}\longrightarrow S'T'S\stackrel{\epsilon' S}\longrightarrow S
 $$
 
 This correspondence now enables in our special case to dualize $\mu^T$ to $\delta^G$, and similarly unit to the counit. 
@@ -71,7 +71,7 @@ Every [[adjoint triple]] $F^*\dashv F_* \dashv F^!$ induces an [[adjoint pair]] 
 
 Given a small category $A$, the category $End(A)$ of endofunctors and natural transformations of endofunctors (with vertical composition as composition) is monoidal with respect to the composition as the tensor product of objects (endofunctor) and Godement product (horizontal composition) as the tensor product of morphisms (natural transformations). Hence we can consider operads and algebras over operads, as well as, dually, coalgebras over cooperads; or some other framework for general algebras and coalgebras (or even props). 
 
-In any case, given an adjunction $T\dashv G$, operations $T^n\to T$ dualize to cooperations $G\to G^n$, and more generally multioperations $T^k\to T^l$ dualize to the multioperations $T^l\to T^k$. We would like to sketch the proof that the identities for operations on $T$, correspond to the identities on cooperations on $G$ (and more generally there is a duality among the identities for multioperations). This is essentially the consequence of 
+In any case, given an adjunction $T\dashv G$, operations $T^n\to T$ dualize to cooperations $G\to G^n$, and more generally multioperations $T^k\to T^l$ dualize to the multioperations $G^l\to G^k$. We would like to sketch the proof that the identities for operations on $T$, correspond to the identities on cooperations on $G$ (and more generally there is a duality among the identities for multioperations). This is essentially the consequence of 
 
 
 __Lemma.__ ([[Zoran Škoda|Zoran]]) Given the adjunction $T\dashv G$ with unit $\eta$ and counit $\epsilon$, and the sequence
