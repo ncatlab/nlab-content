@@ -33,11 +33,22 @@ This makes use of the following curious dictionary between [[category theory]]/[
 | $\phantom{A}$super cohesion$\phantom{A}$ |  | $\phantom{A}$[[generalized spaces]] obey <br/> $\phantom{A}$principles of [[supergeometry]] |
 {: style='margin:auto}
  
+The perspective is that of _[[functorial geometry]]_ ([Grothendieck 65](#functorial+geometry#Grothendieck65)).  (For more exposition of this point see also at _[[motivation for sheaves, cohomology and higher stacks]]_.) This dictionary implies a wealth of useful tools for handling and reasoning about [[geometry]]:
 
+We discuss [below](#BasicNotionsOfToposTheory) that [[sheaf toposes]], regarded as [[categories]] of [[generalized spaces]], are "convenient contexts" for geometry (Prop. \ref{PropertiesOfSheafToposes} below), in the technical sense that they provide just the right kind of generalization that makes all desireable constructions on spaces actually exist:
 
-This is the perspective of _[[functorial geometry]]_ ([Grothendieck 65](#functorial+geometry#Grothendieck65)).  (For more exposition of this point see also at _[[motivation for sheaves, cohomology and higher stacks]]_.)
+| $\phantom{A}$[[sheaf topos]]$\phantom{A}$ | $\phantom{A}$as [[category]] of [[generalized spaces]] $\phantom{A}$ |
+|-----------------|-----------------|
+| $\phantom{A}$[[Yoneda embedding]]: $\phantom{A}$ | $\phantom{A}$contains and generalizes ordinary [[spaces]] $\phantom{A}$ | 
+| $\phantom{A}$has all [[limits]]: $\phantom{A}$ | $\phantom{A}$contains all [[Cartesian products]] and [[intersections]] $\phantom{A}$ |
+| $\phantom{A}$has all [[colimits]]: $\phantom{A}$ | $\phantom{A}$contains all [[disjoint unions]] and [[quotients]] |
+| $\phantom{A}$[[cartesian closed category|cartesian closure]]: $\phantom{A}$ | $\phantom{A}$contains all [[mapping spaces]]$\phantom{A}$ |
+| $\phantom{A}$[[locally cartesian closed category|local cartesian closure]]: $\phantom{A}$ | $\phantom{A}$contains all [[fiber]]-wise [[mapping spaces]] $\phantom{A}$ |
+{: style='margin:auto}
 
-Hence one motivation for [[category theory]] and [[topos theory]] is _a posteriori_: As a matter of experience, there is just no other toolbox that allows one to really understand and handle the [[higher differential geometry|higher]] [[supergeometry]] of relevance in [[physics]]. Similar comments apply to a wealth of other topics of mathematics.
+Notably [[mapping spaces]] play a pivotal role in [[physics]], in the guise of [[spaces of field histories]], but fall outside the applicability of traditional formulations of [[geometry]] based on just [[manifolds]]. But [[topos theory]] ensures their existence and provides the relevant infrastructure, for instance for the construction of [[transgression of differential forms]] to mapping spaces of [[smooth sets]] that is the basis for [[sigma-model]]-[[field theories]].
+ 
+Hence one motivation for [[category theory]] and [[topos theory]] is _a posteriori_: As a matter of experience, there is just no other toolbox that allows one to really understand and handle the [[geometry of physics]]. Similar comments apply to a wealth of other topics of mathematics.
 
 We offer also an _a priori_ motivation: _Category theory is the theory of duality._
 
@@ -4746,9 +4757,7 @@ Maybe the most hands-on version of [[universal constructions]] are _[[limits]]_ 
 
 There is a variety of different kinds of [[limits]]/[[colimits]], depending on the [[diagram]] shape that they are limiting (co-)cones over. This includes [[universal constructions]] known as _[[equalizers]]_, _[[products]]_, _[[fiber products]]/[[pullbacks]]_, _[[filtered limits]]_ and various others, all of which are basic tools frequently used whenever [[category theory]] applies.
 
-A key fact of [[category theory]] is the [[right adjoints preserve limits]] and [[left adjoints preserve colimits]] (Prop. \ref{AdjointsPreserveCoLimits} below).
-
-A partial converse to this statement is that if a [[functor]] preserves [[limits]]\[[colimits]], then its [[adjoint functor]] is, if it exists, objectwise given by a [[limit]]/[[colimit]] over a [[comma category]] under/over the given functor (Prop. \ref{PointwiseExpressionOfLeftAdjoints} below). Since these [[comma categories]] are in general not [[small categories|small]], this involves set-theoretic size subtleties that are dealt with by the _[[adjoint functor theorem]]_ (Remark \ref{AdjointFunctorTheorem} below). We discuss in detail a very special but also very useful special case of this in Prop. \ref{TopologicalLeftKanExtensionBCoend}, further below.
+A key fact of [[category theory]], regarding [[limits]], is that [[right adjoints preserve limits]] and [[left adjoints preserve colimits]] (Prop. \ref{AdjointsPreserveCoLimits} below). This will be used all the time. A partial converse to this statement is that if a [[functor]] preserves [[limits]]/[[colimits]], then its [[adjoint functor]] is, if it exists, objectwise given by a [[limit]]/[[colimit]] over a [[comma category]] under/over the given functor (Prop. \ref{PointwiseExpressionOfLeftAdjoints} below). Since these [[comma categories]] are in general not [[small categories|small]], this involves set-theoretic size subtleties that are dealt with by the _[[adjoint functor theorem]]_ (Remark \ref{AdjointFunctorTheorem} below). We discuss in detail a very special but also very useful special case of this in Prop. \ref{TopologicalLeftKanExtensionBCoend}, further below.
 
 $\,$ 
 
@@ -7285,6 +7294,46 @@ $$
   }
 $$
 
+
+=--
+
+$\,$
+
+We discuss some of the key properties of [[sheaf toposes]]:
+
++-- {: .num_prop #PropertiesOfSheafToposes}
+###### Proposition
+**(convenience of [[sheaf toposes]])**
+
+Let $\mathcal{C}$ be a [[site]] (Def. \ref{Coverage}) and  $Sh(\mathcal{C})$ its [[sheaf topos]] (Def. \ref{Sheaf}). Then:
+
+1. All [[limits]] (Def. \ref{Limits}) exist in $Sh(\mathcal{C})$, and they are computed as limits of presheaves, via Example \ref{LimitsOfPresheavesAreComputedObjectwise}.
+
+1. All [[colimits]] (Def. \ref{Limits}) exist in $Sh(\mathcal{C})$ and they are given by the [[sheafification]] of the same colimits computed in the [[category of presheaves]], via Example \ref{LimitsOfPresheavesAreComputedObjectwise}.
+
+1. The [[cartesian monoidal category|cartesian]] (Example \ref{CartesianMonoidalCategory}) [[closed monoidal category]]-structure (Def. \ref{ClosedMonoidalCategory}) on the [[category of presheaves]] $[\mathcal{C}^{op}, Set]$ from Example \ref{CartesianClosedMonoidalnessOfCategoriesOfPresheaves} restricts to sheaves: 
+
+   $$
+     Sh(\mathcal{C})
+       \underoverset
+         {\underset{[\mathbf{X}, -]}{\longrightarrow}}
+         {\overset{\mathbf{X} \times (-)}{\longleftarrow}}
+         {}
+     Sh(\mathcal{C})
+   $$
+
+   In particular, for $\mathbf{X}, \mathbf{Y} \in Sh(\mathcal{C})$ two [[sheaves]], their [[internal hom]] $[\mathbf{X}, \mathbf{Y}] \in Sh(\mathcal{C})$ is a [[sheaf]] given by
+
+   $$
+     [\mathbf{X}, \mathbf{Y}]
+     \;\colon\;
+     U
+     \;\mapsto\;
+     Hom_{Sh(\mathcal{C})}( y(U) \mathbf{X}, \mathbf{Y} )     
+     \,,
+   $$
+
+   where $y(U)$ is the [[representable presheaf|presheaf represented]] by $U \in \mathcal{C}$ (Example \ref{RepresentablePresheaves}).
 
 
 =--
