@@ -138,6 +138,8 @@ Hence the third item above, the [[Yoneda lemma]], implies the claim.
 
 * [[limits preserve limits]]
 
+* [[limits of presheaves are computed objectwise]]
+
 * [[interactions of images and pre-images with unions and intersections]]
 
 * [[limits and colimits by example]]
