@@ -3411,6 +3411,13 @@ $$
 the object $[Y,Z] \in \mathcal{C}$ is an enhancement of the ordinary [[hom-set]] $Hom_{\mathcal{C}}(Y,Z)$ to an object in $\mathcal{C}$.
 Accordingly, it is also called the **[[internal hom]]** between $Y$ and $Z$.
 
+The [[adjunction counit]] (Def. \ref{AdjunctionUnitFromHomIsomorphism}) in this case is called the _[[evaluation]] morphism_
+
+\[
+  \label{EvaluationMorphism}
+  X \otimes [X,Y] \overset{ev}{\longrightarrow} Y
+\]
+
 =--
 
 
@@ -3418,23 +3425,7 @@ Accordingly, it is also called the **[[internal hom]]** between $Y$ and $Z$.
 ###### Example
 **([[Set]] is a [[cartesian closed category]])**
 
-The [[category]] [[Set]] of all [[sets]] (Example \ref{CategoryOfSets}) equipped with its [[cartesian monoidal category]]-structure (Example \ref{CartesianMonoidalCategory}) is a [[closed monoidal category]] (Def. \ref{ClosedMonoidalCategory}), hence a _[[cartesian closed category]_. The [[Cartesian product]] is the original [[Cartesian product]] of sets, and the [[internal hom]] is the [[function set]] $[X,Y]$ of functions from $X$ to $Y$
-
-=--
-
-+-- {: .num_example #GrpdIsACartesianClosedCategory}
-###### Example
-**([[Cat]] and [[Grpd]] are [[cartesian closed category]])**
-
-The [[category]] [[Cat]] (Example \ref{CategoriesOfSmallCategories}) of all [[small categories]] (Example \ref{SmallCategory}) is a 
-[[cartesian monoidal category]]-structure (Example \ref{CartesianMonoidalCategory}) with [[Cartesian product]] given by forming [[product categories]] (Example \ref{ProductCategory}).
-
-
-Inside this, the [[full subcategory]] (Example \ref{FullSubcategoryOnClassOfObjects}) [[Grpd]] (Example \ref{CategoriesOfSmallCategories}) of all [[small groupoid|small]] [[groupoids]] (Example \ref{Groupoid}) is itself a 
-[[cartesian monoidal category]]-structure (Example \ref{CartesianMonoidalCategory}) with [[Cartesian product]] given by forming [[product categories]] (Example \ref{ProductCategory}).
-
-In both cases this yields a [[closed monoidal category]] (Def. \ref{ClosedMonoidalCategory}), hence a [[cartesian closed category]]: the [[internal hom]] is given by the [[functor category]] construction (Example \ref{FunctorCategory}).
-
+The [[category]] [[Set]] of all [[sets]] (Example \ref{CategoryOfSets}) equipped with its [[cartesian monoidal category]]-structure (Example \ref{CartesianMonoidalCategory}) is a [[closed monoidal category]] (Def. \ref{ClosedMonoidalCategory}), hence a _[[cartesian closed category]]_. The [[Cartesian product]] is the original [[Cartesian product]] of sets, and the [[internal hom]] is the [[function set]] $[X,Y]$ of functions from $X$ to $Y$
 
 =--
 
@@ -3450,6 +3441,206 @@ This is the archetypical case that motivates the notation "$\otimes$" for the pa
 
 =--
 
+
++-- {: .num_example #GrpdIsACartesianClosedCategory}
+###### Example
+**([[Cat]] and [[Grpd]] are [[cartesian closed categories]])**
+
+The [[category]] [[Cat]] (Example \ref{CategoriesOfSmallCategories}) of all [[small categories]] (Example \ref{SmallCategory}) is a 
+[[cartesian monoidal category]]-structure (Example \ref{CartesianMonoidalCategory}) with [[Cartesian product]] given by forming [[product categories]] (Example \ref{ProductCategory}).
+
+
+Inside this, the [[full subcategory]] (Example \ref{FullSubcategoryOnClassOfObjects}) [[Grpd]] (Example \ref{CategoriesOfSmallCategories}) of all [[small groupoid|small]] [[groupoids]] (Example \ref{Groupoid}) is itself a 
+[[cartesian monoidal category]]-structure (Example \ref{CartesianMonoidalCategory}) with [[Cartesian product]] given by forming [[product categories]] (Example \ref{ProductCategory}).
+
+In both cases this yields a [[closed monoidal category]] (Def. \ref{ClosedMonoidalCategory}), hence a [[cartesian closed category]]: the [[internal hom]] is given by the [[functor category]] construction (Example \ref{FunctorCategory}).
+
+
+=--
+
++-- {: .num_example #CartesianClosedMonoidalnessOfCategoriesOfPresheaves}
+###### Example
+**([[categories of presheaves are cartesian closed]])**
+
+Let $\mathcal{C}$ be a [[category]] and write $[\mathcal{C}^{op}, Set]$ for its [[category of presheaves]] (Example \ref{CategoryOfPresheaves}).
+
+This is 
+
+1. a [[cartesian monoidal category]] (Example \ref{CartesianMonoidalCategory}), whose [[Cartesian product]] is given objectwise in $\mathcal{C}$ by the [[Cartesian product]] in [[Set]]:
+
+   for $\mathbf{X}, \mathbf{Y} \in [\mathcal{C}^{op}, Set]$, their [[Cartesian product]] $\mathbf{X} \times \mathbf{Y}$ exists and is given by
+
+   $$
+     \mathbf{X} \times \mathbf{Y}
+     \;\;\colon\;\;\phantom{A}
+     \array{
+       c_1 &\mapsto& \mathbf{X}(c_1) \times \mathbf{Y}(c_1)
+       \\
+       {}^{\mathllap{f}}\big\downarrow 
+         &&
+       \big\uparrow^{ \mathrlap{ \mathbf{X}(f) \times \mathbf{Y}(f) } }
+       \\
+       c_2 &\mapsto& \mathbf{X}(c_2) \times \mathbf{Y}(c_2)
+     }
+   $$
+
+1. a [[cartesian closed category]] (Def. \ref{ClosedMonoidalCategory}), whose [[internal hom]] is given for $\mathbf{X}, \mathbf{Y} \in [\mathcal{C}^{op}, Set]$ by
+
+   $$
+     [\mathbf{X}, \mathbf{Y}]
+     \;\;\colon\;\;\phantom{A}
+     \array{
+       c_1 &\mapsto& Hom_{[\mathcal{C}^{op}, Set]}( y(c_1) \times \mathbf{X}, \mathbf{y} )
+       \\
+       {}^{ \mathllap{ f } }\big\downarrow 
+         &&
+       \big\uparrow^{ \mathrlap{ Hom_{[\mathcal{C}^{op}, Set]}( y(f) \times \mathbf{X}, \mathbf{y} ) } }
+       \\
+       c_2 &\mapsto& Hom_{[\mathcal{C}^{op}, Set]}( y(c_2) \times \mathbf{X}, \mathbf{y} )       
+     }
+   $$
+
+   Here $y \;\colon\; \mathcal{C} \to [\mathcal{C}^{op}, Set]$ denotes the [[Yoneda embedding]] and $Hom_{[\mathcal{C}^{op}, Set]}(-,-)$ is the [[hom-functor]] on the [[category of presheaves]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first statement is a special case of the general fact that [[limits of presheaves are computed objectwise]] (Example \ref{LimitsOfPresheavesAreComputedObjectwise}).
+
+For the second statement, first assume that $[\mathbf{X}, \mathbf{Y}]$ does exist. Then by the adjunction hom-isomorphism (eq:HomIsomorphismForAdjointFunctors) we have for any other presheaf $\mathbf{Z}$ a [[natural isomorphism]] of the form
+
+\[
+  \label{InternalHomIsoInPresheaves}
+  Hom_{[\mathcal{C}^{op}, Set]}(\mathbf{Z}, [\mathbf{X},\mathbf{Y}]) 
+    \;\simeq\; 
+  Hom_{[\mathcal{C}^{op}, Set]}(\mathbf{Z} \times \mathbf{X}, \mathbf{Y})
+  \,.
+\]
+
+This holds in particular for $\mathbf{Z} = y(c)$ a [[representable presheaf]] (Example \ref{RepresentablePresheaves}) and so the [[Yoneda lemma]] (Prop. \ref{YonedaLemma}) implies that if it exists, then $[\mathbf{X}, \mathbf{Y}]$ must have the claimed form:
+
+$$
+  \begin{aligned}
+    [\mathbf{X}, \mathbf{Y}](c)
+    & \simeq
+    Hom_{[\mathcal{C}^{op}, Set]}( y(c), [\mathbf{X}, \mathbf{Y}] )
+    \\
+    & \simeq Hom_{ [\mathcal{C}^{op}, Set] }( y(c) \times \mathbf{X}, \mathbf{Y} )
+    \,.
+  \end{aligned}
+$$
+
+Hence it remains to show that this formula does make (eq:InternalHomIsoInPresheaves) hold generally.
+
+For this we use the equivalent characterization of [[adjoint functors]] from Prop. \ref{CollectionOfUniversalArrowsEquivalentToAdjointFunctor}, in terms of the [[adjunction counit]] providing a system of [[universal arrows]] (Def. \ref{UniversalArrow}).
+
+Define a would-be [[adjunction counit]], hence a would-be _[[evaluation]]_ morphism (eq:EvaluationMorphism), by
+
+$$
+  \array{
+    \mathbf{X} \times [\mathbf{X} , \mathbf{Y}]
+    &\overset{ev}{\longrightarrow}&
+    \mathbf{Y}
+    \\
+    \mathbf{X}(c) \times Hom_{[\mathcal{C}^{op}, Set]}(y(c) \times \mathbf{X}, \mathbf{Y})
+    &\overset{ev_c}{\longrightarrow}&
+    \mathbf{Y}(c)
+    \\
+    (x, \phi) &\mapsto& \phi_c( id_c, x )
+  }
+$$
+
+Then it remains to show that for every morphism of presheaves of the form
+$ \mathbf{X} \times \mathbf{A} \overset{\phantom{A}f\phantom{A}}{\longrightarrow} \mathbf{Y} $ there is a _unique_  morphism 
+$\widetilde f \;\colon\; \mathbf{A} \longrightarrow [\mathbf{X}, \mathbf{Y}]$ such that
+
+\[
+  \label{UniversalArrowConditionForEvaluationMapInPresheaves}
+  \array{
+    \mathbf{X} \times \mathbf{A}
+    && \overset{ \mathbf{X} \times \widetilde f  }{\longrightarrow} && 
+    \mathbf{X} \times [\mathbf{X}, \mathbf{Y}]
+    \\
+    & {}_{\mathllap{ \mathrlap{f} }}\searrow 
+      && 
+    \swarrow_{ \mathrlap{  ev } }
+    \\
+    && \mathbf{Y}
+  }
+\]
+
+The [[commuting diagram|commutativity]] of this diagram means in components at $c \in \mathcal{C}$ that, that for all $x \in \mathbf{X}(c)$ and $a \in \mathbf{A}(c)$ we have
+
+$$
+  \begin{aligned}
+    ev_c( x, \widetilde f_c(a) )
+    & \coloneqq
+    (\widetilde f_c(a))_c( id_c, x )
+    \\
+    & = f_c( x, a )
+  \end{aligned}
+$$
+
+Hence this fixes the component $\widetilde f_c(a)_c$ when its first argument is the [[identity morphism]] $id_c$. But let $g \;\colon\; d \to c$ be any morphism and chase $(id_c, x )$ through the naturality diagram for $\widetilde f_c(a)$:
+
+$$
+  \array{
+    Hom_{\mathcal{C}}(c,c) \times \mathbf{X}(c)
+    &\overset{ (\widetilde f_c(a))_c }{\longrightarrow}&
+    \mathbf{Y}(c) 
+    \\
+    {}^{\mathllap{ g^\ast }}\big\downarrow
+     &&
+    \big\downarrow^{\mathrlap{ g^\ast }}
+    \\
+    Hom_{\mathcal{C}}(d,c) \times \mathbf{X}(d)
+    &\overset{ (\widetilde f_c(a))_d }{\longrightarrow}&
+    \mathbf{Y}(d) 
+  }
+  \phantom{AAAA}
+  \array{
+    \{ (id_c, x ) \} &\longrightarrow& \{ f_c( x, a ) \}
+    \\
+    \big\downarrow && \big\downarrow 
+    \\
+    \{ (g, g^\ast(x)) \}  &\longrightarrow& \{ f_d( g^\ast(x), g^\ast(a) ) \}
+  }
+$$
+
+This shows that $(\widetilde f_c(a))_d$ is fixed to be given by
+
+\[
+  \label{ComponentFormulaForEvaluationMapInPresheaves}
+  (\widetilde f_c(a))_d( g, x' )
+  \;=\;
+  f_d( x', g^\ast(a) )
+\]
+
+at least on those pairs $(g,x')$ such that $x'$ is in the image of $g^\ast$.
+
+But, finally, $(\widetilde f_c(a))_d$ is also natural in $c$
+
+$$
+  \array{
+    \mathbf{A}(c)
+    &\overset{ \widetilde f_c }{\longrightarrow}& [\mathbf{X},\mathbf{Y}](c)
+    \\
+    {}^{\mathllap{g^\ast}}\big\downarrow && \big\downarrow^{\mathrlap{g^\ast}}
+    \\
+    \mathbf{A}(d)
+    &\overset{ \widetilde f_d }{\longrightarrow}& [\mathbf{X},\mathbf{Y}](d)
+  }
+$$
+
+which implies that (eq:ComponentFormulaForEvaluationMapInPresheaves) must hold generally. Hence naturality implies that (eq:UniversalArrowConditionForEvaluationMapInPresheaves) indeed has a unique solution.
+
+=--
+
+
+
+$\,$
 
 The [[internal hom]] (Def. \ref{ClosedMonoidalCategory}) turns out to share all the abstract properties of the ordinary (external) [[hom-functor]] (Def. \ref{HomFunctor}), even though this is not completely manifest from its definition. We make this explicit by the following three propositions.
 
@@ -4754,7 +4945,7 @@ Hence a _limit cone_ is a cone over $F$, such that every other cone factors thro
 =--
 
 
-+-- {: .num_example}
++-- {: .num_example #LimitsOfPresheavesAreComputedObjectwise}
 ###### Example
 **([[limits of presheaves are computed objectwise]])**
 
