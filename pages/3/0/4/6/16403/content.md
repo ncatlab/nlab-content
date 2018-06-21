@@ -19070,7 +19070,7 @@ In conclusion we have found that there are _resolution functors_ that embed $\ma
 In the next section we discuss the general properties of this "homotopically correct context": the [[nLab:derived category]].
 
 ### Derived functors
- {#DerivedFunctors}
+ {#AbelianDerivedFunctors}
 
 In the previous section we have seen how the entire category $\mathcal{A}$ (= $R$[[nLab:Mod]]) embeds into its [[nLab:derived category]], the category of degreewise [[nLab:injective object|injective]] [[nLab:cochain complexes]]
 
