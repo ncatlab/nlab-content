@@ -1255,34 +1255,6 @@ The classical model structure on [[simplicial sets]], $sSet_{Quillen}$, has the 
 
 =--
 
-### Quillen equivalence with $Top_{Quillen}$
-
-+-- {: .num_theorem}
-###### Theorem
-
-The [[singular simplicial complex]]/[[geometric realization]]-[[nerve and realization|adjunction]] of example \ref{TopologicalRealizationOfSimplicialSets}
-constitutes a [[Quillen equivalence]] of the classical model structure $sSet_{Quillen}$ of def. \ref{ClassesOfMorphismsOnsSetQuillen} with the  [[classical model structure on topological spaces]]:
-
-$$
-  ({\vert -\vert}\dashv Sing)
-  : 
-  Top_{Quillen}
-  \stackrel{\overset{{\vert -\vert}}{\leftarrow}}{\underset{Sing}{\to}}
-  sSet_{Quillen}
-$$
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-First of all, the adjunction is indeed a [[Quillen adjunction]]: prop. \ref{SingDetextsAndReflectsFibrations} says in particular that $Sing(-)$ takes [[Serre fibrations]] to [[Kan fibrations]] and prop. \ref{TopologicalRealizationOfsSetLandsInCWComplexes} gives that ${\vert-\vert}$ sends monomorphisms of simplicial sets to [[relative cell complexes]].
-
-Now prop. \ref{UnitOfSingularNerveAndRealizationIsWEOnKanComplexes} says that the derived adjunction unit and counit are weak equivalences, and hence the Quillen adjunction is a Quillen equivalence.
-
-=--
-
 ## Properties
 
 ### Basic properties
@@ -1389,6 +1361,35 @@ The Quillen model structure is both left and right [[proper model category|prope
 * $Ex^\infty : sSet \to Kan$, where $Kan$ is the category of [[Kan complexes]].
 
 This may be found, for instance, in II.8.6--7 of [Goerss-Jardine](model+structure+on+simplicial+sets#GoerssJardine).  Another proof may be found in [Moss](model+structure+on+simplicial+sets#Moss), and a different proof of properness may be found in [Cisinski, Prop. 2.1.5](model+structure+on+simplicial+sets#Cisinski06).
+
+
+### Quillen equivalence with $Top_{Quillen}$
+
++-- {: .num_theorem}
+###### Theorem
+
+The [[singular simplicial complex]]/[[geometric realization]]-[[nerve and realization|adjunction]] of example \ref{TopologicalRealizationOfSimplicialSets}
+constitutes a [[Quillen equivalence]] of the classical model structure $sSet_{Quillen}$ of def. \ref{ClassesOfMorphismsOnsSetQuillen} with the  [[classical model structure on topological spaces]]:
+
+$$
+  ({\vert -\vert}\dashv Sing)
+  : 
+  Top_{Quillen}
+  \stackrel{\overset{{\vert -\vert}}{\leftarrow}}{\underset{Sing}{\to}}
+  sSet_{Quillen}
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First of all, the adjunction is indeed a [[Quillen adjunction]]: prop. \ref{SingDetextsAndReflectsFibrations} says in particular that $Sing(-)$ takes [[Serre fibrations]] to [[Kan fibrations]] and prop. \ref{TopologicalRealizationOfsSetLandsInCWComplexes} gives that ${\vert-\vert}$ sends monomorphisms of simplicial sets to [[relative cell complexes]].
+
+Now prop. \ref{UnitOfSingularNerveAndRealizationIsWEOnKanComplexes} says that the derived adjunction unit and counit are weak equivalences, and hence the Quillen adjunction is a Quillen equivalence.
+
+=--
 
 
 
