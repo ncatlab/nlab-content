@@ -32,17 +32,25 @@ The functor $F$ __preserves__ the limit $(x,\eta)$ if $(F(x),F\cdot\eta)$ is a l
 
 Dually, $F$ __preserves__ a [[colimit]] of $J$ if $F^\op\colon C^\op \to D^\op$ preserves it as a limit of $J^\op\colon I^\op \to C^\op$.
 
-If $F$ preserves all limits or colimits of a given type (i.e. over a given category $I$), we simply say that $F$ preserves that sort of limit (e.g. $F$ preserves products, $F$ preserves equalizers, etc.).
+For instance:
 
+* Let $I$ be the [[empty category]], so that a limit of the unique functor $J\colon I \to C$ is a [[terminal object]] $1$.  Then $F$ preserves this terminal object if and only if $F(1)$ is a terminal object of $D$.
 
-## Examples
+* Let $I$ be the [[discrete category]] $\mathbf{2}$, so that $J$ picks out two objects $a$ and $b$ of $C$ and the limit of $J$ is a [[product]] $a \times b$ of $a$ and $b$.  Note that this product comes equipped with product projections $\pi\colon a \times b \to a$ and $\rho\colon a \times b \to b$.  Then $F$ preserves this product if and only if $F(a \times b)$ is a product of $F(a)$ and $F(b)$ and furthermore the product projections are $F(\pi)$ and $F(\rho)$.
 
-Let $I$ be the [[empty category]], so that a limit of the unique functor $J\colon I \to C$ is a [[terminal object]] $1$.  Then $F$ preserves this terminal object if and only if $F(1)$ is a terminal object of $D$.
-
-Let $I$ be the [[discrete category]] $\mathbf{2}$, so that $J$ picks out two objects $a$ and $b$ of $C$ and the limit of $J$ is a [[product]] $a \times b$ of $a$ and $b$.  Note that this product comes equipped with product projections $\pi\colon a \times b \to a$ and $\rho\colon a \times b \to b$.  Then $F$ preserves this product if and only if $F(a \times b)$ is a product of $F(a)$ and $F(b)$ and furthermore the product projections are $F(\pi)$ and $F(\rho)$.
+If $F$ preserves all limits or colimits of a given type (i.e. over a given category $I$), we simply say that $F$ preserves that sort of limit (e.g. $F$ preserves [[products]], $F$ preserves [[equalizers]], etc.).
 
 A functor that preserves all small limits in $C$ that exist is called a __[[continuous functor]]__.  Usually this term is only used when $C$ has all small limits, i.e. is a [[complete category]].
 
+
+## Examples
+  {#Examples}
+
+* [[limits preserve limits]]
+
+* [[adjoints preserve (co-)limits]]
+
+* [[hom-functor preserves limits]]
 
 ## Preservation of weighted limits
 
