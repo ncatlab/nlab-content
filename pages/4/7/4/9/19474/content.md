@@ -1,9 +1,11 @@
 
 ##Idea
 
-**Guarded recursion** is a method for ensuring that self-referential descriptions of objects define a unique object. The recursion is "guarded" by a *later* [[modality]]. (There are other forms of guarded recursion which act through syntactic restriction.)
+**Guarded recursion** is a method for ensuring that self-referential descriptions of objects define a unique object. The recursion is typical "guarded" by a *later* [[modality]], ensuring *productivity* of programs. (There are other forms of guarded recursion which act through syntactic restriction.)
 
 ##References
+
+* Robert Atkey, Conor McBride, _Productive Coprogramming with Guarded Recursion_, ([Productive Coprogramming with Guarded Recursion](https://bentnib.org/productive.pdf))
 
 * Aleš Bizjak, _On Semantics and Applications of Guarded Recursion_, ([PhD thesis](http://www.cs.au.dk/~abizjak/documents/thesis/semantics-applications-gr.pdf))
 
