@@ -41,7 +41,7 @@ such that
 
 ## Properties
 
-The [[Duskin nerve]] operation identifies bigroupoids with 3-[[coskeletal]] [[Kan complex]]es.
+The [[Duskin nerve]] operation identifies bigroupoids with certain 3-[[coskeletal]] [[Kan complex]]es.
 
 [[!redirects bigroupoid]]
 [[!redirects bigroupoids]]
