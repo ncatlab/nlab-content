@@ -440,6 +440,8 @@ Every sheaf topos satisfies the following [[exactness properties]]. it is an
 
 * **category of sheaves**
 
+* [[category of sheaves on a topological space]]
+
 * [[(∞,1)-category of (∞,1)-sheaves]].
 
 
