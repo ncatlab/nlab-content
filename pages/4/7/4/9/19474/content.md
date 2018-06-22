@@ -8,3 +8,7 @@
 * Aleš Bizjak, _On Semantics and Applications of Guarded Recursion_, ([PhD thesis](http://www.cs.au.dk/~abizjak/documents/thesis/semantics-applications-gr.pdf))
 
 * Ranald Clouston, Aleš Bizjak, Hans Bugge Grathwohl, Lars Birkedal, _The Guarded Lambda-Calculus: Programming and Reasoning with Guarded Recursion for Coinductive Types_, ([arXiv:1606.09455](https://arxiv.org/abs/1606.09455))
+
+* Adrien Guatto, _A Generalized Modality for Recursion: Extended version_, ([pdf](https://arxiv.org/pdf/1805.11021.pdf))
+
+* Nakano Hiroshi, 2000, _A Modality for Recursion_. In Logic in Computer Science (LICS’00). ([pdf](https://pdfs.semanticscholar.org/a177/47f98e5b821f03ec8be858794f2f83a683b7.pdf))
