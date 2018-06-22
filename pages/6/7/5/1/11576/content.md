@@ -80,7 +80,36 @@ $$
 
 Observe then finally that since $f^\ast$ is a [[full and faithful functor|full and faithful]] [[left adjoint|left]] and [[right adjoint]], the points-to-pieces transform is an [[epimorphism]]/[[isomorphism]]/[[monomorphism]] precisely if its [[adjunct]] $f_\ast X \longrightarrow f_! X$ is, respectively.
 
+If this adjunct 
+
+$$
+  \flat X 
+    \overset{\epsilon^{\flat}}{\longrightarrow} 
+  X 
+    \overset{\eta^\sharp}{\longrightarrow}
+  \sharp X
+$$
+
+is a monomorphism, we say that _[[discrete objects]] are [[concrete objects|concrete]]_.
+
 =--
+
+## Relation to points to co-pieces
+
++-- {: .num_prop #PiecesHavePointsIfDiscreteObjectsAreConcrete}
+###### Proposition
+**([[pieces have points]] iff [[discrete objects are concrete]])**
+
+For a [[cohesive topos]] $\mathbf{H}$, the the following two conditions are equivalent:
+
+1. _pieces have points_, i.e. $\flat X \to X \to &#643;$ is an [[epimorphism]] for all $X \in \mathbf{H}$;
+
+1. _[[discrete objects]] are [[concrete objects|concrete]]_, i.e. $\flat X \overset{ \eta^{\sharp}_{\flat X} }{\longrightarrow} \sharp \flat X$ is a [[monomorphism]].
+
+=--
+
+See at _[[cohesive topos]]_ [this prop.](cohesive+topos#PiecesHavePointsEquivalentToDiscreteObjectsAreConcrete).
+
 
 ## Relation to Aufhebung of the initial opposition
  {#RelationToAufhebung}
@@ -157,3 +186,5 @@ In [[infinitesimal cohesion]] the points-to-pieces transform in an [[equivalence
 
 [[!redirects pieces have points]]
 [[!redirects pieces-have-points]]
+
+[[!redirects discrete objects are concrete]]
