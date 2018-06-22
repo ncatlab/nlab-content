@@ -69,6 +69,11 @@ and has been re-emphasized in various forms in the writing of [[William Lawvere]
 
 * {#Lawvere16} [[William Lawvere]], email to [[Adeel Khan]], March 2016 ([web excerpt](https://nforum.ncatlab.org/discussion/7521/functorial-geometry/?Focus=69419#Comment_69419))
 
+A historical analysis of the Grothendieck's lectures and their precedents is in
+
+* {#McLarty18} [[Colin McLarty]], _Grothendieck's 1973 topos lectures_, Séminaire Lectures grothendieckiennes, 3 May (2018) ([YouTube video](https://www.youtube.com/watch?v=hhWT5V0oaSI))
+
+
 See also
 
 * [[Michel Demazure]], [[Pierre Gabriel]], _Introduction to algebraic geometry and algebraic groups_, North-Holland Mathematics Studies
