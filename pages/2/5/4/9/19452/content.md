@@ -7009,7 +7009,7 @@ One could call this the condition of _locality of probes of generalized spaces p
 ###### Remark
 **Warning**
 
-Most (if not all) introductions to [[sheaf theory]] insist on motivating the concept from the special case of sheaves on [[topological spaces]]. This is good motivation for what Grothendieck called "[[petit topos]]"-theory. The motivation above, instead, naturally leads to the "[[gros topos]]"-perspective, which is more useful for discussing the [[synthetic differential geometry|synthetic]] [[higher differential geometry|higher]] [[geometry of physics -- supergeometry|supergeometry]] of [[physics]]. In fact, this is the perspective of _[[functorial geometry]]_ that has been highlighted since [Grothendieck 65](functorial+geometry#Grothendieck65), but which has maybe remained underappreciated.
+Most (if not all) introductions to [[sheaf theory]] insist on motivating the concept from the special case of [[sheaves on a topological spaces]] (Example \ref{SheafOnATopologicalSpace} below). This is good motivation for what Grothendieck called "[[petit topos]]"-theory. The motivation above, instead, naturally leads to the "[[gros topos]]"-perspective, as in Example \ref{SmoothSetAnnounced} below, which is more useful for discussing the [[synthetic differential geometry|synthetic]] [[higher differential geometry|higher]] [[geometry of physics -- supergeometry|supergeometry]] of [[physics]]. In fact, this is the perspective of _[[functorial geometry]]_ that has been highlighted since [Grothendieck 65](functorial+geometry#Grothendieck65), but which has maybe remained underappreciated.
 
 =--
 
@@ -7021,6 +7021,9 @@ $\,$
 
 ### Descent
 
+Here we introduce the [[sheaf]]-condition (Def. \ref{Sheaf} below) in its component-description via [[matching families]] (Def. \ref{CompatibleElements} below). Then we consider some of the general key properties of the resulting [[categories of sheaves]], such as notably their "convenience", in the technical sense of Prop. \ref{PropertiesOfSheafToposes} below.
+
+$\,$
 
 +-- {: .num_defn #Coverage}
 ###### Definition
@@ -7059,9 +7062,22 @@ such that
     }
   \] 
 
-A [[small category]] $\mathcal{C}$ equipped with a [[coverage]] is called a _[[site]]_.
+A [[small category]] $\mathcal{C}$ equipped with a [[coverage]] is called a _[[site]]_. 
+=--
+
++-- {: .num_example #CanonicalCoverageOnTopologicalSpaces}
+###### Example
+**(canonical [[coverage]] on [[topological spaces]])**
+
+The [[category]] [[Top]] of (small) [[topological spaces]] (Example \ref{ExamplesOfConcreteCategories}) carries a [[coverage]] (Def. \ref{Coverage}) whose [[coverings]] are the usal [[open covers]] of topological spaces.
+
+The condition (eq:ConditionOnCoverage) on a coverage is met, since the [[preimages]] of [[open subsets]] under a [[continuous function]] $f$ are again [[open subsets]], so that the preimages of an open cover consistitute an open cover of the [[domain]], such that the [[commuting diagram]]-condition (eq:ConditionOnCoverage) is immediage.
+
+Similarly, for $X \in Top$ a fixed topological space, there is the [[site]] $Op(X)$ whose underlying [[category]] is the _[[category of opens]]_ of $X$, which is the [[thin category]] (Example \ref{PartiallyOrderedSetsAsSmallCategories}) of [[open subsets]] of $X$ and subset inclusions, and whose [[coverings]] are again the [[open covers]].
+
 
 =--
+
 
 +-- {: .num_example #DifferentiablyGoodOpenCoversOfSmoothManifolds}
 ###### Example
@@ -7069,7 +7085,7 @@ A [[small category]] $\mathcal{C}$ equipped with a [[coverage]] is called a _[[s
 
 The [[category]] [[SmthMfd]] of [[smooth manifold]] (Example \ref{ExamplesOfConcreteCategories}) carries a [[coverage]] (Def. \ref{Coverage}), where for $X \in SmthMfd$ any [[smooth manifold]] of [[dimension]] $D \in \mathbb{N}$, its [[coverings]] are collections of [[smooth functions]] from the [[Cartesian space]] $\mathbb{R}^D$ to $X$ whose [[image]] is the inclusion of an [[open ball]].
 
-Hence these are the usual _[[open covers]]_ of $X$, but with the extra condition that every pathch is [[diffeomorphism|diffeomorphic]] to a Cartesian space (hence to a smooth [[open ball]]).
+Hence these are the usual _[[open covers]]_ of $X$, but with the extra condition that every patch is [[diffeomorphism|diffeomorphic]] to a Cartesian space (hence to a smooth [[open ball]]).
 
 One may further constrain this and ask that also all the non-empty finite [[intersections]] of these open balls are [[diffeomorphism|diffeomorphic]] to open balls. These are the _differentiably [[good open covers]]_.
 
@@ -7244,7 +7260,49 @@ Hence the [[category of sets]] is a [[sheaf topos]].
 
 =--
 
++-- {: .num_example #SheafOnATopologicalSpace}
+###### Example
+**([[sheaves on a topological space]])**
 
+In the literature, the concept of (pre-)sheaf (Def. \ref{Sheaf}) is sometimes not define relative to a [[site]], but relative to a [[topological space]]. But the latter is a special case: For $X$ a [[topological space]], consider its [[category of open subsets]] $Op(X)$ from Example \ref{CanonicalCoverageOnTopologicalSpaces}, with [[coverage]] given by the usual [[open covers]]. Then a "[[sheaf on a topological space|sheaf on this topological space]]" is a sheaf, in the sense of Def. \ref{Sheaf}, on this site of opens. One writes
+
+$$
+  Sh(X)
+    \;\coloneqq\;
+  Sh(Op(X))
+   \overset{\phantom{AA}}{\hookrightarrow}
+  [Op(X)^{op}, Set]
+  \,,
+$$
+
+for short.  The [[sheaf toposes]] arising this way are also called _[[spatial toposes]]_. These are _[[petit toposes]]_.
+
+=--
+
++-- {: .num_example #AbelianSheaves}
+###### Example
+**([[abelian sheaves]])**
+
+In the literature, sometimes sheaves are understood by default as taking values not in the [[category of sets]], but in the category of [[abelian groups]]. Combined with Example \ref{SheafOnATopologicalSpace} this means that some authors really mean "sheaf of abelian groups of the site of opens of a topological space", when they write just "sheaf".
+
+But for $\mathcal{S}$ any [[mathematical structure]], a sheaf of $\mathcal{S}$-structured sets is equivalently an $\mathcal{S}$-structure [[internalization|internal]] to the [[category of sheaves]] according to Def. \ref{Sheaf}. In particular [[sheaves of abelian groups]] are equivalently abelian [[group objects]] in the category of sheaves of sets as discussed here. 
+
+=--
+
++-- {: .num_example #SmoothSetAnnounced}
+###### Example
+**([[smooth sets]])**
+
+Consider the [[site]] [[SmthMfd]] of _all_ [[smooth manifolds]], from Example \ref{DifferentiablyGoodOpenCoversOfSmoothManifolds}. The [[category of sheaves]] over this (Def. \ref{Sheaf}) is [[equivalence of categories|equivalent]] to the category of _[[smooth sets]]_, discussed in the chapter _[[geometry of physics -- smooth sets]]_:
+
+$$
+  Sh(SmthMfd) \;\simeq\; SmoothSet
+  \,.
+$$
+
+This is a _[[gros topos]]_.
+
+=--
 
 +-- {: .num_prop #Sheafification}
 ###### Proposition
