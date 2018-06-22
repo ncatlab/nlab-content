@@ -232,6 +232,8 @@ The [[Cartesian space]] $\mathbb{R}^n$ with its standard notion of open subsets 
 
 * [[fractal]]
 
+* [[sheaf on a topological space]]
+
 ## References
 
 See at _[[topology]]_.
