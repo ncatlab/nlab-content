@@ -152,7 +152,7 @@ A **morphism of directed topological spaces**  $f : (X, d X)\to (Y , d Y)$ is a 
 
 ### Streams
 
-A different definition comes from Sanjeevi Krishnan, _A Convenient Category of Locally Preordered Spaces_, Applied Categorical Structures, 2009, vol. 17, no 5, p. 445-466 ([arxiv](https://arxiv.org/abs/0709.3646)):
+A different definition comes from [[Sanjeevi Krishnan]], _A Convenient Category of Locally Preordered Spaces_, Applied Categorical Structures, 2009, vol. 17, no 5, p. 445-466 ([arxiv](https://arxiv.org/abs/0709.3646)):
 
 __Definition__ A **stream** is a tuple $X, \leq_{-}$, where $\leq_{-}$ assigns to each open subset $U \subset X$ a preorder $\leq_U$, such that:
 $$\leq_{\bigcup_i U_i} = \bigvee_i \leq_{U_i}$$
