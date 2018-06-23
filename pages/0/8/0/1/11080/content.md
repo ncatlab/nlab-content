@@ -1861,7 +1861,7 @@ $$
     \\
     \{ \Gamma y(U) \overset{\Gamma(f)}{\to} \Gamma \mathbf{X} \}
     &\longleftarrow&
-    \{ y(U) \overset{\eta_{\mathbf{X}} \circ f}{\longrightarrow} \}    
+    \{ y(U) \overset{\eta_{\mathbf{X}} \circ f}{\longrightarrow} coDisc \Gamma \mathbf{X} \}    
   }
 $$
 
