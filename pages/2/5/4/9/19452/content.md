@@ -457,13 +457,15 @@ There is a range of constructions that provide new categories from given ones:
 
 +-- {: .num_example #OppositeCategory}
 ###### Example
-**([[opposite category]])**
+**([[opposite category]] and [[formal duality]])**
 
 Let $\mathcal{C}$ be a [[category]]. Then its _[[opposite category]]_ $\mathcal{C}^{op}$ has the same [[objects]] as $\mathcal{C}$, but the direction of the [[morphisms]] is reversed. Accordingly, [[composition]] in the [[opposite category]] $\mathcal{C}^{op}$ is that in $\mathcal{C}$, but with the order of the arguments reversed:
 
 * $Obj_{\mathcal{C}^{op}} \;\coloneqq\; Obj_{\mathcal{C}}$;
 
 * $Hom_{\mathcal{C}^{op}}(X,Y) \;\coloneqq\; Hom_{\mathcal{C}}(Y,X)$.
+
+Hence for every statementa about some [[category]] $\mathcal{C}$ there is a corresponding "dual" statement about its opposite category, which is "the same but with the direction of all morphisms reversed". This relation is known as _[[formal duality]].
 
 =--
 
@@ -844,7 +846,7 @@ These two statements, expressing categories of [[spaces]] as [[full subcategorie
 
 $\,$
 
-Since a [[fully faithful functor]]/[[full subcategory]]-embedding $\mathcal{C} \hookrightarrow \mathcal{D}$ exhibits the [[objects]] of $\mathcal{D}$ as a consistent generalization of the objects of $\mathcal{C}$, one may turn these examples around and _define_ more general kinds of [[spaces]] as _[[formal duality|formal duals]]_ to certain [[algebras]]:
+Since a [[fully faithful functor]]/[[full subcategory]]-embedding $\mathcal{C} \hookrightarrow \mathcal{D}$ exhibits the [[objects]] of $\mathcal{D}$ as a consistent generalization of the objects of $\mathcal{C}$, one may turn these examples around and _define_ more general kinds of [[spaces]] as _[[formal duality|formal duals]]_ (Example \ref{OppositeCategory}) to certain [[algebras]]:
 
 $\,$
 
@@ -938,7 +940,7 @@ $\,$
 
 **[[affine schemes]] and [[commutative algebras]]**
 
-The starting point of [[algebraic geometry]] is to consider _[[affine schemes]]_ as the [[formal duals]] of [[finitely generated object|finitely generated]] [[commutative algebras]] over some [[algebraically closed field|algebraically closed]] [[ground field]] $\mathbb{K}$:
+The starting point of [[algebraic geometry]] is to consider _[[affine schemes]]_ as the [[formal duals]] (Example \ref{OppositeCategory}) of [[finitely generated object|finitely generated]] [[commutative algebras]] over some [[algebraically closed field|algebraically closed]] [[ground field]] $\mathbb{K}$:
 
 \[
   \label{FormalDualsOfCommutativeRings}
@@ -948,7 +950,7 @@ The starting point of [[algebraic geometry]] is to consider _[[affine schemes]]_
   \,.
 \]
 
-(The immediate identification (eq:FormalDualsOfCommutativeRings) is often obscured by the definition of [[affine schemes]] as [[locally ringed spaces]]. While the latter is much more complicated, at face value, in the end it yields an [[equivalence of categories|equivalent]] [[category]] (Def. \ref{EquivalenceOfCategories} below) to the simple [[formal dual|formal dualization]] in (eq:FormalDualsOfCommutativeRings). Already in 1973 [[Alexander Grothendieck]] had urged to abandon, as a foundational concept, the more complicated definition in favor of the simpler one (see [Lawvere 03](functorial+geometry#Lawvere16Quote).)
+(The immediate identification (eq:FormalDualsOfCommutativeRings) is often obscured by the definition of [[affine schemes]] as [[locally ringed spaces]]. While the latter is much more complicated, at face value, in the end it yields an [[equivalence of categories|equivalent]] [[category]] (Def. \ref{EquivalenceOfCategories} below) to the simple [[formal dual|formal dualization]] (Example \ref{OppositeCategory}) in (eq:FormalDualsOfCommutativeRings). Already in 1973 [[Alexander Grothendieck]] had urged to abandon, as a foundational concept, the more complicated definition in favor of the simpler one (see [Lawvere 03](functorial+geometry#Lawvere16Quote).)
 
 =--
 
@@ -2651,7 +2653,7 @@ Every [[left adjoint]] functor (Def. \ref{AdjointFunctorsInTermsOfNaturalBijecti
 
 This is immediate from the adjunction hom-isomorphism (eq:HomIsomorphismForAdjointFunctors), but we spell it out:
 
-We consider the first case, the second is [[formal duality|formally dual]].
+We consider the first case, the second is [[formal duality|formally dual]] (Example \ref{OppositeCategory}).
 So let $R \;\colon\; \mathcal{C} \to \mathcal{D}$ be a [[right adjoint functor]] with [[left adjoint]] $L$.
 
 Let $\ast \in \mathcal{C}$ be a [[terminal object]] (Def. \ref{InitialObject}). We need to show that for every [[object]] $d \in \mathcal{D}$ the [[hom-set]]  $Hom_{\mathcal{D}}(d,R(\ast)) \simeq \ast$ is a [[singleton]]. But by the hom-isomorphism (eq:HomIsomorphismForAdjointFunctors) we have a [[bijection]]
@@ -3133,7 +3135,7 @@ $$
 $$
 
 
-[[formal dual|Dually]], for $\Box$ a [[comodal operator]] on $\mathcal{D}$, with counit $\epsilon$ (Def. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}), it is _[[idempotent monad|idempotent]]_, in that it is [[natural isomorphism|naturally isomorphic]] (Def. \ref{NaturalTransformations}) to the [[composition]] with itsef:
+[[formal dual|Formally dually]], for $\Box$ a [[comodal operator]] on $\mathcal{D}$, with counit $\epsilon$ (Def. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}), it is _[[idempotent monad|idempotent]]_, in that it is [[natural isomorphism|naturally isomorphic]] (Def. \ref{NaturalTransformations}) to the [[composition]] with itsef:
 
 $$
   \Box \circ \Box
@@ -3168,7 +3170,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-We discuss the first case. The second is [[formal dual|formally dual]].
+We discuss the first case, the second is [[formal dual|formally dual]] (Example \ref{OppositeCategory}).
 
 By Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}, the modal operator is equivalent to the composite $\iota \circ L$ obtained from the [[reflective subcategory]]-inclusion (Def. \ref{ReflectiveSubcategory}) of its [[essential image]] of [[modal objects]]:
 
@@ -3230,7 +3232,7 @@ For $\bigcirc$ a [[modal operator]] on $\mathcal{D}$ (Def. \ref{ModalOperator}),
 
    * its $\bigcirc$-unit is a [[monomorphism]] (Def. \ref{Monomorphism}): $\eta_X \;\colon\; X \hookrightarrow \bigcirc X$.
 
-[[formal duality|Dually]]:
+[[formal duality|Dually]] (Example \ref{OppositeCategory}):
 
 For $\Box$ a [[comodal operator]] on $\mathcal{D}$ (Def. \ref{ModalOperator}), we say:
 
@@ -3279,7 +3281,7 @@ $$
   \,.
 $$
 
-A [[formal duality|formally dual]] situation arises when $C$ is [[fully faithful functor|fully faithful]]. 
+A [[formal duality|formally dual]] situation (Example \ref{OppositeCategory}) arises when $C$ is [[fully faithful functor|fully faithful]]. 
 
 =--
 
@@ -5098,7 +5100,7 @@ $\,$
 ### Limits and colimits
  {#LimitsAndColimits}
   
-Maybe the most hands-on version of [[universal constructions]] are _[[limits]]_ (Def. \ref{Limits} below), which is short for _limiting [[cones]]_ (Remark \ref{LimitingCones} below). The [[formal duality|formally dual]] concept is called _[[colimits]]_ (which are hence [[limits]] in an [[opposite category]]). Other terminology is in use, too:
+Maybe the most hands-on version of [[universal constructions]] are _[[limits]]_ (Def. \ref{Limits} below), which is short for _limiting [[cones]]_ (Remark \ref{LimitingCones} below). The [[formal duality|formally dual]] concept (Example \ref{OppositeCategory}) is called _[[colimits]]_ (which are hence [[limits]] in an [[opposite category]]). Other terminology is in use, too:
 
 | $\phantom{A}$ $\underset{\longleftarrow}{\lim}$ $\phantom{A}$ | $\phantom{A}$ $\underset{\longrightarrow}{\lim}$ $\phantom{A}$ |
 |-----------|---------------|
@@ -5325,7 +5327,7 @@ Let $\mathcal{C}$ be a [[category]], and let $\ast \in \mathcal{C}$ be an [[obje
 
 1. $\ast$ is the [[limit]] of [[generalized the|the]] [[empty category|empty]] [[diagram]].
 
-And [[formal dual|formally dual]]: Let $\emptyset \in \mathcal{C}$ be an object. The following are equivalent:
+And [[formal dual|formally dual]] (example \ref{OppositeCategory}): Let $\emptyset \in \mathcal{C}$ be an object. The following are equivalent:
 
 1. $\emptyset$ is an [[initial object]] of $\mathcal{C}$ (Def. \ref{InitialObject});
 
@@ -5336,7 +5338,7 @@ And [[formal dual|formally dual]]: Let $\emptyset \in \mathcal{C}$ be an object.
 +-- {: .proof}
 ###### Proof
 
-We discuss the case of the [[terminal object]]. The other case is [[formal duality|formally dual]].
+We discuss the case of the [[terminal object]], the other case is [[formal duality|formally dual]] (Example \ref{OppositeCategory}).
 
 It suffices to observe that a [[cone]] over the [[empty category|empty]] [[diagram]] (Remark \ref{LimitingCones}) is clearly just a plain [[object]] of $\mathcal{C}$. Hence a morphism of such cones is just a plain morphism of $\mathcal{C}$. This way the condition on a limiting cone is now manifestly the same as the condition on a terminal object.
 
@@ -5485,7 +5487,7 @@ Then
 +-- {: .proof}
 ###### Proof
 
-We discuss the case of limits, the other case is [[formal duality|formally dual]].
+We discuss the case of limits, the other case is [[formal duality|formally dual]] (Example \ref{OppositeCategory}).
 
 Observe that there is a canonical [[equivalence of categories|equivalence]] (Def. \ref{EquivalenceOfCategories})
 
@@ -5670,7 +5672,7 @@ More in detail, let $X_\bullet \colon \mathcal{I} \longrightarrow \mathcal{C}$ b
 +-- {: .proof}
 ###### Proof
 
-We give the proof of the first statement. The proof of the second statement is [[formal dual|formally dual]].
+We give the proof of the first statement, the proof of the second statement is [[formal dual|formally dual]] (Example \ref{OppositeCategory}).
 
 First observe that, by the very definition of [[limit|limiting]] [[cones]], maps out of some $Y$ into them are in natural bijection
 with the set $Cones\left(Y, X_\bullet \right)$ of cones over the diagram $X_\bullet$ with tip $Y$:
@@ -6290,7 +6292,7 @@ In this form the statement is also known as **[[Yoneda reduction]]**.
 
 =--
 
-Now that [[natural transformations]] are expressed in terms of [[ends]] (example \ref{NaturalTransformationsViaEnds}), as is the [[enriched Yoneda lemma]] (prop. \ref{YonedaReductionTopological}), it is natural to consider the [[formal duality|dual]] statement involving [[coends]]:
+Now that [[natural transformations]] are expressed in terms of [[ends]] (example \ref{NaturalTransformationsViaEnds}), as is the [[enriched Yoneda lemma]] (prop. \ref{YonedaReductionTopological}), it is natural to consider the [[formal duality|dual]] statement (Example \ref{OppositeCategory}) involving [[coends]]:
 
 +-- {: .num_prop #TopologicalCoYonedaLemma}
 ###### Proposition
