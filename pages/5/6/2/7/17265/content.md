@@ -823,7 +823,7 @@ $$
   \,.
 $$
 
-Because $S^{n-1} \to S^{n-1}\times I$ is a $J_{Top}$-[[relative cell complex]] and $f$ is a [[Serre fibraiton]] (see there), this has a [[lift]] 
+Because $S^{n-1} \to S^{n-1}\times I$ is a $J_{Top}$-[[relative cell complex]] and $f$ is a [[Serre fibration]] (see there), this has a [[lift]] 
 
 $$
   \tilde \eta \;\colon\; S^{n-1} \times I \longrightarrow X
