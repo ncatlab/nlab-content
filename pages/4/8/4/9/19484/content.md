@@ -400,7 +400,7 @@ and we refer to the corresponding [[modal objects]] (Def. \ref{ModalObjects}) as
 
 Let $\mathbf{H}$ be a [[cohesive topos]] (Def. \ref{CohesiveTopos}). Then the following conditions are equivalent:
 
-1. **[[pieces have points]]**: For every [[object]] $X \in \mathbf{H}$, the $\flat$-[[counit of an adjunction]] [[composition|composed]] with the &#643;-[[unit of an adjunction|unit]]
+1. **[[pieces have points]]**: For every [[object]] $X \in \mathbf{H}$, _comparison of extremes_-transformation (eq:OppositeExtrmeComparison) for the $(&#643;, \dashv \flat)$-[[adjoint modality]] (eq:OppositeExtrmeComparison), hence the $\flat$-[[counit of an adjunction]] [[composition|composed]] with the &#643;-[[unit of an adjunction|unit]]
 
    $$
      \flat X
@@ -411,19 +411,6 @@ Let $\mathbf{H}$ be a [[cohesive topos]] (Def. \ref{CohesiveTopos}). Then the fo
    $$
 
    is an [[epimorphism]] (Def. \ref{Monomorphism})
-
-1. For every [[object]] $X \in \mathbf{H}$, the $\flat$-[[counit of an adjunction]] [[composition|composed]] with the $\sharp$-[[unit of an adjunction|unit]]
-
-   $$
-     \flat X
-       \overset{ \phantom{AA} \epsilon^\flat_X \phantom{AA} }{\longrightarrow}
-     X
-       \overset{ \phantom{AA} \epsilon^\sharp_X \phantom{AA} }{\longrightarrow}
-     \sharp X
-   $$
-
-   is a [[monomorphism]] (Def. \ref{Monomorphism})
-
 
 1. **[[discrete objects are concrete]]**: For every [[object]] $X \in \mathbf{H}$, we have that its [[discrete object]] $\flat X$ is a [[concrete object]] (Def. \ref{CohesiveModalities}).
 
@@ -438,6 +425,45 @@ Let $\mathbf{H}$ be a [[cohesive topos]] (Def. \ref{CohesiveTopos}). Then the fo
 
 =--
 
++-- {: .proof}
+###### Proof
+
+The comparison morphism $ptp_{\mathbf{H}}$ is a special case of that discussed in Prop. \ref{OppositeExtrmeComparison}. First observe, in the notation there, that
+
+$$
+  ptp_{\mathbf{H}} \;\; \text{is epi}
+  \phantom{AAA}
+  \text{iff}
+  \phantom{AAA}
+  ptp_{\mathbf{B}} \;\; \text{is epi}
+  \,.
+$$
+
+In one direction, assume that $ptp_{\mathbf{B}}$ is an epimorphism. By (eq:PiecesToPointsFromBase) we have $ptp_{\mathbf{H}} = Disc(ptp_{\mathbf{B}})$, but $Disc$ is a [[left adjoint]] and left adjoints preserve monomorphisms (Prop. \ref{LeftAdjointFunctorPreservesEpi}).
+
+In the other direction, assume that $ptp_{\mathbf{H}}$ is an epimorphism. By (eq:PointsToPiecesInTheBase) and (eq:AdjunctOfptpH) we see that $ptp_{\mathbf{B}}$ is re-obtained from this by applying $\Gamma$ and then composition with isomorphisms. But $\Gamma$ is again a left adjoint, and hence preserves epimorphism by Prop. \ref{LeftAdjointFunctorPreservesEpi}, as does composition with isomorphisms.
+
+By applying (eq:PointsToPiecesInTheBase) again, we find in particular that _[[pieces have points]]_ is also equivalent to $\Pi \epsilon^\flat_{Disc S}$ being an epimorphism, for all $S \in \mathbf{B}$. But this is equivalent to
+
+$$
+  Hom_{\mathbf{B}}(\Pi \epsilon^\flat_{\mathbf{X}}, S)
+  =
+  Hom_{\mathbf{\mathbf{H}}}(\epsilon^\flat_{\mathbf{X}}, Disc(S))  
+$$
+
+being a [[monomorphism]] for all $S$ (by adjunction isomorphism (eq:HomIsomorphismForAdjointFunctors) and definition of [[epimorphism]], Def. \ref{Monomorphism}).
+
+Now by Lemma \ref{ReExpressingMiddleFunctorInAdjointTriple}, this is equivalent to
+
+$$
+  Hom_{\mathbf{H}}( \mathbf{X}, \eta^\sharp_{Disc(S)} )
+$$
+
+being an injection for all $\mathbf{X}$, which, by Def. \ref{Monomorphism}, is equivalent to $\eta^\sharp_{Disc(S)}$ being a monomorphism, hence to _[[discrete objects are concrete]]_.
+
+This establishes the equivalence between the first two items.
+
+=--
 
 
 +-- {: .num_prop #QuasitoposOfConcreteObjects}
