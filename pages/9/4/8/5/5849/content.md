@@ -140,7 +140,7 @@ are defined to be the equal composites of the sides of these diagrams.
 
 =--
 
-This appears as ([Johnstone, lemma 2.1, corollary 2.2](#Johnstone)).
+This appears as ([Johnstone 11, lemma 2.1, corollary 2.2](#Johnstone11)).
 
 +-- {: .num_prop #TheEpiAndTheMono}
 ###### Proposition
@@ -157,7 +157,7 @@ The following conditions are equivalent:
 
 =--
 
-This appears as ([Johnstone, lemma 2.3](#Johnstone)).
+This appears as ([Johnstone 11, lemma 2.3](#Johnstone11)).
 
 
 
@@ -317,8 +317,8 @@ This shows the first statement, which, by essential uniqueness of adjoints, impl
 
 ## References
 
-* [[Peter Johnstone]], _Remarks on punctual local connectedness_ ([tac](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html))
-{#Johnstone}
+* {#Johnstone11} [[Peter Johnstone]], _Remarks on punctual local connectedness_, Theory and Applications of Categories, Vol. 25, 2011, No. 3, pp 51-63.  ([tac](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html))
+
 
 
 [[!redirects adjoint quadruples]]
