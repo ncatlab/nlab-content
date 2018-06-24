@@ -282,7 +282,7 @@ then the following [[composition|composites]] of unit/counit components are equa
 
 =--
 
-([Johnstone, lemma 2.1](#Johnstone))
+([Johnstone 11, lemma 2.1](#Johnstone11))
 
 +-- {: .proof}
 ###### Proof
@@ -309,8 +309,8 @@ $$
     && && \Pi X
     \\
     & {}_{\mathllap{ \Pi \eta^{&#643;}_X }}\searrow
-    && \swarrow_{\mathrlap{ \Pi \epsilon^{\flat}_{Disc \Pi X} }}
-    && {}_{\mathllap{ \Pi Disc \eta^\flat_{\Pi X} }}\nwarrow
+    && {}^{\mathllap{iso}}\swarrow_{\mathrlap{ \Pi \epsilon^{\flat}_{Disc \Pi X} }}
+    && {}_{\mathllap{ \Pi Disc \eta^\flat_{\Pi X} }}\nwarrow^{\mathrlap{iso}}
     && \nearrow_{\mathrlap{ \epsilon^{&#643;}_{\Pi X} }}
     \\
     && \Pi Disc \Pi X
@@ -329,7 +329,11 @@ This commutes, because:
 
 1. the bottom commuting triangle is the image under $\Pi$ of the [[zig-zag identity]] for $(Disc \dashv \Gamma)$ on $\Pi X$.
 
-Finally, also the total bottom composite is the [[identity morphism]] $id_{\Pi X}$, due to the [[zig-zag identity]] for $(&#643; \dashv Disc)$.
+Finally, notice that 
+
+1. the total bottom composite is the [[identity morphism]] $id_{\Pi X}$, due to the [[zig-zag identity]] for $(Disc \dashv \Gamma)$;
+
+1. also the other two morphism in the bottom triangle are [[isomorphisms]], as shown, due to the [[idempotent monad|idempoency]] of the $(Disc-\Gamma)$-adjunction
 
 Therefore the total composite from $\Pi Disc \Gamma X \to \Gamma Disc \Pi X$ along the bottom part of the diagram equals the left hand side of (eq:CoincidenceOfNaturalTransformationsForAdjointTriple), while the composite along the top part of the diagram clearly equals the right hand side of (eq:CoincidenceOfNaturalTransformationsForAdjointTriple).
 
@@ -435,6 +439,8 @@ hence
 Either of these morphisms we call the _[[points-to-pieces transform]]_.
 
 =--
+
+The first statement is due to ([Johnstone 11, Corollary 2.2](#Johnstone11)).
 
 +-- {: .proof}
 ###### Proof
@@ -922,7 +928,7 @@ also is
 
 =--
 
-The statement of the first items appears as ([Johnstone, prop. 1.6](#Johnstone)). The last item is then a consequence by definition.
+The statement of the first items appears as ([Johnstone 11, prop. 1.6](#Johnstone11)). The last item is then a consequence by definition.
 
 +-- {: .num_prop #HyperconnectivityAndPiecesHavePoints}
 ###### Proposition
@@ -945,7 +951,7 @@ is equivalent to the condition that it
 
 =--
 
-This is ([Johnstone, theorem 3.4](#Johnstone)).
+This is ([Johnstone 11, theorem 3.4](#Johnstone11)).
 
 ### Subcategories of discrete and codiscrete objects
 
@@ -2299,7 +2305,7 @@ where (on p. 9) it is suggested that "almost any" [[extensive category]]  may be
 
 An analysis of the interdependency of the axioms on a cohesive topos is in
 
-* {#Johnstone} [[Peter Johnstone]], _Remarks on punctual local connectedness_ ([tac](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html))
+* {#Johnstone11} [[Peter Johnstone]], _Remarks on punctual local connectedness_, Theory and Applications of Categories, Vol. 25, 2011, No. 3, pp 51-63.  ([tac](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html))
 
 Discussion of "sufficient cohesion" is in 
 
