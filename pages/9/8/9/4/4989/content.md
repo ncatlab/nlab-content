@@ -46,7 +46,7 @@ Let $C$ be a [[small site|small]] [[site]], i.e. a [[small category]] equipped w
 ###### Proposition
 
 For $C$ a cohesive site, the [[category of sheaves]] $Sh(C)$ on $C$ 
-is a [[cohesive topos]] over [[Set]] for which _cohesive pieces have points_ .
+is a [[cohesive topos]] over [[Set]] for which _[[pieces have points]]_ .
 
 =--
 
