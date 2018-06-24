@@ -125,6 +125,7 @@ The superscript "${}^\infty$" in "$C^\infty(\mathbb{R})$" refers to the order of
 
 +-- {: .num_defn #CartesianSpaceAndHomomorphism}
 ###### Definition
+**([[Cartesian spaces]] and [[smooth functions]])**
 
 For $n \in \mathbb{N}$, the **[[Cartesian space]]** $\mathbb{R}^n$ is the set
 
@@ -146,7 +147,7 @@ $$
 
 for the function such that $p^k(x^1, \cdots, x^n) = x^k$.
 
-A **[[homomorphism]]** of Cartesian spaces is a [[smooth function]]
+A **[[homomorphism]]** of Cartesian spaces is a _[[smooth function]]_
 
 $$
   f : \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}
@@ -290,10 +291,7 @@ than their definition might superficially suggest:
 
 1. **[[smooth Serre-Swan theorem|embedding of smooth vector bundles into formal duals of R-algebra modules]]**
 
-   For $E_1 \overset{vb_1}{\to} X$ and $E_2 \overset{vb_2}{\to} X$ two [[vector bundle]] (def. \ref{VectorBundle})
-   there is then a [[natural bijection]] between vector bundle [[homomorphisms]] $f \colon E_1 \to E_2$
-   and the [[homomorphisms]] of [[modules]] $f_\ast \;\colon\; \Gamma_X(E_1) \to \Gamma_X(E_2)$
-   that these induces between the [[spaces of sections]] (example \ref{ModuleOfSectionsOfAVectorBundle}).
+   For $E_1 \overset{vb_1}{\to} X$ and $E_2 \overset{vb_2}{\to} X$ two [[vector bundle]] there is then a [[natural bijection]] between vector bundle [[homomorphisms]] $f \colon E_1 \to E_2$ and the [[homomorphisms]] of [[modules]] $f_\ast \;\colon\; \Gamma_X(E_1) \to \Gamma_X(E_2)$ that these induces between the [[spaces of sections]].
 
    More [[category theory|abstractly]] this means that the [[functor]] $\Gamma_X(-)$ is a [[fully faithful functor]]
 
@@ -301,23 +299,22 @@ than their definition might superficially suggest:
      \Gamma_X(-) \;\colon\; VectBund_X \overset{\phantom{AAAA}}{\hookrightarrow} C^\infty(X) Mod
    $$
 
-   ([Nestruev 03, theorem 11.29](smooth+Serre-Swan theorem#Nestruev03))
+   ([Nestruev 03, theorem 11.29](smooth+Serre-Swan+theorem#Nestruev03))
 
    Moreover, the [[modules]] over the $\mathbb{R}$-algebra $C^\infty(X)$
    of [[smooth functions]] on $X$ which arise this way as [[sections]] of [[smooth vector bundles]] over
    a [[Cartesian space]] $X$
    are precisely the [[finitely generated module|finitely generated]] [[free modules]] over $C^\infty(X)$.
 
-   ([Nestruev 03, theorem 11.32](smooth+Serre-Swan theorem#Nestruev03))
+   ([Nestruev 03, theorem 11.32](smooth+Serre-Swan+theorem#Nestruev03))
 
 
 1. **[[derivations of smooth functions are vector fields|vector fields are derivations of smooth functions]]**.
 
-   For $X$ a [[Cartesian space]] (example \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}),
+   For $X$ a [[Cartesian space]] (Def. \ref{CartesianSpaceAndHomomorphism}),
    then any [[derivation]] $D \colon  C^\infty(X) \to C^\infty(X)$ on
    the $\mathbb{R}$-[[associative algebra|algebra]]
-   $C^\infty(X)$ of [[smooth functions]] (example \ref{AlgebraOfSmoothFunctionsOnCartesianSpaces}) is given by [[differentiation]] with respect to a uniquely defined smooth [[tangent vector field]]: The function that regards [[tangent vector fields]]
-   with [[derivations]] from example \ref{TangentVectorFields}
+   $C^\infty(X)$ of [[smooth functions]] is given by [[differentiation]] with respect to a uniquely defined smooth [[tangent vector field]]: The function that regards [[tangent vector fields]] as [[derivations]]
 
    $$
      \array{
@@ -912,7 +909,7 @@ The idea of the following definition is to say that whatever a [[homomorphism]] 
 ###### Definition
 **([[homomorphisms]] of [[smooth sets]] -- smooth functions)**
 
-Let $X$ and $Y$ be two [[smooth sets[[, def. \ref{SmoothSpace}. Then a [[homomorphism]] of _[[smooth function]]_ $f \colon X \to Y$ between them is
+Let $X$ and $Y$ be two [[smooth sets]], def. \ref{SmoothSpace}. Then a [[homomorphism]] of _[[smooth function]]_ $f \colon X \to Y$ between them is
 
 * for each abstract coordinate system $\mathbb{R}^n$ (hence for each $n \in \mathbb{N}$) a [[function]]
 
@@ -1429,6 +1426,11 @@ The [[category]] $SmoothSet$ of [[smooth sets]] (Def. \ref{CategoryOfSmoothSets}
   Set
 \]
 
+Moreover, this cohesive topos satisfies the following equivalent conditions (from [this Prop.](geometry+of+physics+-+cohesive+toposes#PiecesHavePoints)):
+
+1. _[[pieces have points]]_,
+
+1. _[[discrete objects are concrete]]_.
 
 =--
 
@@ -1588,7 +1590,7 @@ $$
   \,.
 $$
 
-
+Finally to see that _[[pieces have points]]_ and _[[discrete objects are concrete]]_ is satisfied, it is sufficient to observe, by [this prop.](geometry+of+physics+-+cohesive+toposes#CohesiveSiteSuchThatDiscreteObjectsAreConcrete) that for each $n \in \mathbb{N}$, the [[hom set]] $Hom_{CartSp}(\ast, \mathbb{R}^n)$ is [[inhabited set|non-empty]]. 
 
 =--
 
@@ -1841,9 +1843,52 @@ Hence, by (eq:DecohesAsGammacoDiscUnit), we need to show that
 
 But this holds as a general fact about [[adjunctions]] (a special case of [this Example](geometry+of+physics+–+basic+notions+of+category+theory#ReExpressingMiddleFunctorInAdjointTriple)).
 
-
 =--
 
+By [this prop.](geometry+of+physics+-+categories+and+toposes#QuasitoposOfConcreteObjects) it follows that
+
++-- {: .num_prop #ReflectiveInclusionOfDiffeologicalSpacesinSmoothSets}
+###### Proposition
+**([[reflective subcategory|reflective]] inclusion of [[diffeological spaces]] inside [[smooth sets]])**
+
+The [[category]] of [[diffeological spaces]] (Def. \ref{DiffeologicalSpace}) is "in between" the [[category of sets]] ([this Example](geometry+of+physics+--+categories+and+toposes#CategoryOfSets)) and the category of [[smooth sets]] (Def. \ref{CategoryOfSmoothSets}) as exhibited by the following system of [[adjoint functors]]:
+
+$$
+  \array{
+     \\
+     \phantom{a}
+     \\
+     \phantom{A}
+     \\
+     \Gamma \;\dashv\; coDisc
+  }
+  \;\;\colon\;\;
+  SmoothSet
+  \array{
+    \phantom{\overset{ \phantom{AA} \Pi_0 \phantom{AA} }{\longrightarrow}}
+    \\
+    \phantom{\overset{ \phantom{AA} Disc \phantom{AA} }{\hookleftarrow}}
+    \\
+    \overset{\phantom{AA} conc \phantom{AA}}{\longrightarrow}
+    \\
+    \overset{\phantom{AA} \iota_{conc} \phantom{AA}}{\hookleftarrow}
+  }
+  DiffeologicalSpaces
+  \array{
+    \overset{ \phantom{AA} \Pi_0 \phantom{AA} }{\longrightarrow}
+    \\
+    \overset{ \phantom{AA} Disc \phantom{AA} }{\hookleftarrow}
+    \\
+    \overset{\phantom{AA}\Gamma \phantom{AA}}{\longrightarrow}
+    \\
+    \overset{\phantom{AA}coDisc\phantom{AA}}{\hookleftarrow}
+  }
+  Set
+$$
+
+where on the left we have a [[reflective subcategory]] with reflector being _[[concretification]]_, and on the right we have the [[corestriction|co]][[restriction]] of the [[adjoint quadruple]] from (eq:SheafToposAdjointQuadruple).
+
+=--
 
 $\,$
 
@@ -2253,7 +2298,7 @@ This is captured by the following definition.
 ###### Definition
 **([[concrete object|concrete]] [[moduli space]] of [[differential forms]] on a [[smooth set]])** 
 
-For $X \in SmoothSet$ any [[smooth set]] and $n \in \mathbb{N}$, the _smooth space of differential $n$-forms_ $\mathbf{\Omega}^n(X)$ on $X$ is the [[concretification]], def. \ref{ConcreteObjectsAndConcretification}, of the smooth mapping space $[X, \Omega^n]$, def. \ref{SmoothFunctionSpace}, into the smooth moduli space of differential $n$-forms, def. \ref{SmoothModuliSpaceOfnForms}:
+For $X \in SmoothSet$ any [[smooth set]] and $n \in \mathbb{N}$, the _smooth space of differential $n$-forms_ $\mathbf{\Omega}^n(X)$ on $X$ is the [[concretification]] (Prop. \ref{ReflectiveInclusionOfDiffeologicalSpacesinSmoothSets}) of the smooth mapping space $[X, \Omega^n]$, def. \ref{SmoothFunctionSpace}, into the smooth moduli space of differential $n$-forms, def. \ref{SmoothModuliSpaceOfnForms}:
 
 $$
   \mathbf{\Omega}^n(X)_{conc} \; \coloneqq \; Conc([X, \Omega^n])
@@ -2273,8 +2318,7 @@ are indeed smooth differential $n$-forms on $X \times \mathbb{R}^k$ which are su
 +-- {: .proof}
 ###### Proof (sketch)
 
-By def. \ref{Decohese}, def. \ref{ConcreteObjectsAndConcretification} and 
-prop. \ref{DecohesOverASiteWithTerminalObject} the set of plots of $\mathbf{\Omega}^n(X)$ over $\mathbb{R}^k$ is the [[image]] of the [[function]]
+By the proof of [this Prop.](geometry+of+physics+--+categories+and+toposes#QuasitoposOfConcreteObjects) spring the set of plots of $\mathbf{\Omega}^n(X)$ over $\mathbb{R}^k$ is the [[image]] of the [[function]]
 
 $$
   \Omega^n(X \times \mathbb{R}^k)
