@@ -476,6 +476,8 @@ For yet another introduction to model categories, with an eye towards their use 
 [[!redirects model categories]]
 [[!redirects model structure]]
 [[!redirects model structures]]
+[[!redirects Quillen model structure]]
+[[!redirects Quillen model structures]]
 [[!redirects Quillen model category]]
 [[!redirects closed model category]]
 [[!redirects closed Quillen model category]]
