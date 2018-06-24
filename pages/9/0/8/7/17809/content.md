@@ -5711,5 +5711,5 @@ A neat collection of background on the real [[normed division algebras]] themsel
 
 The derivation of the process of higher invariant extensions that leads from the [[superpoint]] to [[11-dimensional supergravity]]:
 
-* {#MTheoryFromTheSuperpoint} [[John Huerta]], [[Urs Schreiber]], _[[schreiber:M-Theory from the Superpoint]]_ ([arXiv:1702.01774](https://arxiv.org/abs/1702.01774))
+* {#MTheoryFromTheSuperpoint} [[John Huerta]], [[Urs Schreiber]], _[[schreiber:M-Theory from the Superpoint]]_, Letters in Mathematical Physics, 2018 ([arXiv:1702.01774](https://arxiv.org/abs/1702.01774))
 
