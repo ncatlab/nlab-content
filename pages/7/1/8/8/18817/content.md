@@ -886,14 +886,14 @@ than their definition might superficially suggest:
      \Gamma_X(-) \;\colon\; VectBund_X \overset{\phantom{AAAA}}{\hookrightarrow} C^\infty(X) Mod
    $$
 
-   ([Nestruev 03, theorem 11.29](smooth+Serre-Swan theorem#Nestruev03))
+   ([Nestruev 03, theorem 11.29](smooth+Serre-Swan+theorem#Nestruev03))
 
    Moreover, the [[modules]] over the $\mathbb{R}$-algebra $C^\infty(X)$
    of [[smooth functions]] on $X$ which arise this way as [[sections]] of [[smooth vector bundles]] over
    a [[Cartesian space]] $X$
    are precisely the [[finitely generated module|finitely generated]] [[free modules]] over $C^\infty(X)$.
 
-   ([Nestruev 03, theorem 11.32](smooth+Serre-Swan theorem#Nestruev03))
+   ([Nestruev 03, theorem 11.32](smooth+Serre-Swan+theorem#Nestruev03))
 
 
 1. **[[derivations of smooth functions are vector fields|vector fields are derivations of smooth functions]]**.
