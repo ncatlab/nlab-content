@@ -56,7 +56,6 @@ If $C$ is not small, then its free cocompletion still exists, but it is not the 
 
 ### Proving the theorem
 
-Okay, now let's stop fiddling around and try to prove the bloody Theorem:
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -78,8 +77,7 @@ Moreover, $\widehat{F}$ is unique up to natural isomorphism.
 
 =--
 
-There are probably lots of ways to prove it, but let's take a simple-minded approach that mimics the obvious proof of the Decategorified Theorem.  We proved the Decategorified Theorem by finding a formula for the map we needed.  So
-let's try to write a _formula_ for $\widehat{F}$, based on three ideas:
+There are probably lots of ways to prove it, but let's take a simple-minded approach that mimics the obvious proof of the Decategorified Theorem.  We proved the Decategorified Theorem by finding a formula for the map we needed.  So let's try to write a _formula_ for $\widehat{F}$, based on three ideas:
 
 1. Since the triangle commutes, we know what $\widehat{F}$ should do to guys in the image of $Y$.  Namely:
 $$\widehat{F}(Y(x)) = F(x)$$
@@ -87,7 +85,7 @@ $$\widehat{F}(Y(x)) = F(x)$$
 1. We know that $\widehat{F}$ preserves colimits.
 1. We know that every object in $\widehat{A}$ is a colimit of guys in the image of $Y$.  (Such guys are called [[representable functor|representable]].)
 
-Maybe you don't actually _know_ fact 3, but it's true.  If you don't know why, don't worry --- you'll soon find out!
+The key fact in item 3 is also called the _[[co-Yoneda lemma]]_. For more see there, or see below.
 
 These three facts are already enough to determine $\widehat{F}$ on objects.   
 
