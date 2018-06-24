@@ -58,7 +58,7 @@ A bifibration $F:E\to B$ such that $F^{op}:E^{op}\to B$ is a bifibration as well
 
 ## Bifibration of model categories
 
-In ([CagneMelli&egrave;s](#CagMell)) the authors develop a notion of **Quillen bifibration** which combines the two notions of Grothendieck bifibration and of [[Quillen model structure]], establishing conditions for when in a bifibration model structures on the fibers and on the base combine to give one on the total category. 
+In ([CagneMelli&egrave;s](#CagMell)) the authors develop a notion of **Quillen bifibration** which combines the two concepts of Grothendieck bifibration and [[Quillen model structure]], establishing conditions for when in a bifibration model structures on all the fibers and on the base combine to give one on the total category. 
 
 ## Bifibration of bicategories
 
