@@ -1845,11 +1845,11 @@ But this holds as a general fact about [[adjunctions]] (a special case of [this 
 
 =--
 
-By [this prop.](geometry+of+physics+-+categories+and+toposes#QuasitoposOfConcreteObjects) it follows that
+By [this prop.](geometry+of+physics+--+categories+and+toposes#QuasitoposOfConcreteObjects) it follows that
 
 +-- {: .num_prop #ReflectiveInclusionOfDiffeologicalSpacesinSmoothSets}
 ###### Proposition
-**([[reflective subcategory|reflective]] inclusion of [[diffeological spaces]] inside [[smooth sets]])**
+**([[reflective subcategory|reflection]] of [[diffeological spaces]] in [[cohesive topos]] of [[smooth sets]])**
 
 The [[category]] of [[diffeological spaces]] (Def. \ref{DiffeologicalSpace}) is "in between" the [[category of sets]] ([this Example](geometry+of+physics+--+categories+and+toposes#CategoryOfSets)) and the category of [[smooth sets]] (Def. \ref{CategoryOfSmoothSets}) as exhibited by the following system of [[adjoint functors]]:
 
@@ -1873,7 +1873,7 @@ $$
     \\
     \overset{\phantom{AA} \iota_{conc} \phantom{AA}}{\hookleftarrow}
   }
-  DiffeologicalSpaces
+  DiffeologicalSpace
   \array{
     \overset{ \phantom{AA} \Pi_0 \phantom{AA} }{\longrightarrow}
     \\
@@ -1886,7 +1886,7 @@ $$
   Set
 $$
 
-where on the left we have a [[reflective subcategory]] with reflector being _[[concretification]]_, and on the right we have the [[corestriction|co]][[restriction]] of the [[adjoint quadruple]] from (eq:SheafToposAdjointQuadruple).
+where on the left we have a [[reflective subcategory]] with reflector being _[[concretification]]_ ([this prop.](geometry+of+physics+--+categories+and+toposes#QuasitoposOfConcreteObjects)), and on the right we have the [[corestriction|co]][[restriction]] of the [[adjoint quadruple]] of [[cohesion]] from (eq:SheafToposAdjointQuadruple).
 
 =--
 
