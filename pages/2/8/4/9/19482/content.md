@@ -1373,15 +1373,15 @@ As a conceptually important corollary we obtain:
 ###### Proposition
 **([[category of presheaves]] is [[free co-completion]])**
 
-For $\mathcal{C}$ a [[small category]] (Def. \ref{SmallCategory}), its [[Yoneda embedding]] $\mathcal{C} \overset{y}{\hookrightarrow} [\mathcal{C}^{op}, Set]$ (Prop. \ref{YonedaEmbedding}) exhibits the [[category of presheaves]] $[\mathcal{C}^{op}, Set]$ (Example \ref{CategoryOfPresheaves}) as the _[[free co-completion]]_ of $\mathcal{C}$ under forming [[colimits]] (Def. \ref{Limits}), in that it is a [[universal morphism]], as in Def. \ref{UniversalArrow}  but "up to natural isomorphism", into a categgory with all colimits (by Example \ref{LimitsOfPresheavesAreComputedObjectwise}) in the following sense:
+For $\mathcal{C}$ a [[small category]] (Def. \ref{SmallCategory}), its [[Yoneda embedding]] $\mathcal{C} \overset{y}{\hookrightarrow} [\mathcal{C}^{op}, Set]$ (Prop. \ref{YonedaEmbedding}) exhibits the [[category of presheaves]] $[\mathcal{C}^{op}, Set]$ (Example \ref{CategoryOfPresheaves}) as the _[[free co-completion]]_ of $\mathcal{C}$ under forming [[colimits]] (Def. \ref{Limits}), in that it is a [[universal morphism]], as in Def. \ref{UniversalArrow}  but "up to natural isomorphism", into a category with all colimits (by Example \ref{LimitsOfPresheavesAreComputedObjectwise}) in the following sense:
 
 1. for $\mathcal{D}$ any [[category]] with all [[colimits]] (Def. \ref{Limits});
 
 1. for $F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ any [[functor]];
 
-there is a [[functor]] $\widetilde F \;\colon\; [\mathcal{C}^{op}, Set] \longrightarrow \mathcal{D}$ such that
+there is a [[functor]] $\widetilde F \;\colon\; [\mathcal{C}^{op}, Set] \longrightarrow \mathcal{D}$, unique up to [[natural isomorphism]] such that
 
-1. $\widetilde F$ [[[reserved limit|preserves]] all [[colimits]],
+1. $\widetilde F$ [[preserved limit|preserves]] all [[colimits]],
 
 1. $\widetilde F$ [[extension|extends]] $F$ through the [[Yoneda embedding]], in that the following [[commuting diagram|diagram commutes]], up to [[natural isomorphism]] (Def. \ref{NaturalTransformations}):
 
@@ -1397,8 +1397,11 @@ $$
   }
 $$
 
-=--
 
+Hence when interpreting [[presheaves]] as [[generalized spaces]], this says that "generalized spaces are precisely what is obtained from allowing arbitrary gluings of ordinary spaces", see also Remark \ref{OrdinarySpacesAreGeneratorsAndRelationsForGeneralizedSpaces} below.
+
+
+=--
 
 +-- {: .proof}
 ###### Proof
@@ -1409,6 +1412,21 @@ The last condition says that $\widetilde F$ is fixed on [[representable presheav
   \label{YonedaRestriction}
   \widetilde F( y(c) ) \simeq F(c)
   \,.
+\]
+
+and in fact [[natural isomorphism|naturally]] so:
+
+\[
+  \label{FunctorialYonedaRestriction}
+  \array{
+    c_1&&
+    \widetilde F( y(c_1) ) &\simeq& F(c_1)
+    \\
+    {}^{\mathllap{f}}\big\downarrow
+     && {}^{\mathllap{ F(y(f)) }}\big\downarrow && \big\downarrow^{\mathrlap{ F(f) }}
+    \\
+    c_2 && \widetilde F (y(c_2)) &\simeq& F(c_2)
+  }
 \]
 
 But the [[co-Yoneda lemma]] (Prop. \ref{TopologicalCoYonedaLemma}) expresses every [[presheaf]] $\mathbf{X} \in [\mathcal{C}^{op}, Set]$ as a [[colimit]] of [[representable presheaves]] (in the special case of enrichment over $Set$, Example \ref{coYonedaLemmaOverSet})
