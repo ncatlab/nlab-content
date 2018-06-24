@@ -35,7 +35,7 @@ The further [[stacky quotient]] of $G(\mathbf{Q})\backslash G(\mathbf{A})$ by $G
 
 * Wikipedia, _[Tamagawa numbers](http://en.wikipedia.org/wiki/Tamagawa_number#Tamagawa_numbers)_, _[Weil conjecture on Tamagawa numbers](http://en.wikipedia.org/wiki/Weil_conjecture_on_Tamagawa_numbers)_
 
-* {#Bloch80} [[Spencer Bloch]], _A note on height pairings, Tamagwawa numbers, and the Birch and Swinnerton-Dyer conjecture_, Inventiones math. 58, 65-76 (1980) ([[BlochTamagawa.pdf:file]])
+* {#Bloch80} [[Spencer Bloch]], _A note on height pairings, Tamagawa numbers, and the Birch and Swinnerton-Dyer conjecture_, Invent. Math. 58, 65-76 (1980) ([[BlochTamagawa.pdf:file]])
 
 * [[Jacob Lurie]], _Tamagawa Numbers via Nonabelian Poincare Duality_, Lecture notes ([web](http://www.math.harvard.edu/~lurie/283.html))
 
