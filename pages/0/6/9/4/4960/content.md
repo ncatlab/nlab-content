@@ -363,7 +363,7 @@ $$
 
 (for instance a [[cohesive topos]] over some [[base topos]] $\mathbf{B}$).
 
-Then for all $X \in \mathbf{X}$ the following two [[natural transformations]], constructed from the [[adjunction units]]/[[adjunction counit|counits]] and their [[inverse morphisms]] (using [[idempotent monad|idempotency]]), are equal:
+Then for all $X \in \mathbf{H}$ the following two [[natural transformations]], constructed from the [[adjunction units]]/[[adjunction counit|counits]] and their [[inverse morphisms]] (using [[idempotent monad|idempotency]]), are equal:
 
 \[
   \label{PointsToPiecesInTheBase}
