@@ -110,7 +110,7 @@ A historical analysis of Grothendieck's 1973 Buffalo lecture series on toposes a
 
 * {#McLarty18} [[Colin McLarty]], _Grothendieck's 1973 topos lectures_, Séminaire Lectures grothendieckiennes, 3 May (2018) ([YouTube video](https://www.youtube.com/watch?v=hhWT5V0oaSI))
 
-* _[The peripatetic seminar on sheaves and logic 1976-1999](http://www.wra1th.plus.com/gcw/rants/math/PSSL/index.html)_
+* _[The peripatetic seminar on sheaves and logic 1976-1999](http://www.wra1th.plus.com/gcw/math/PSSL/index.html)_
 
 [[!redirects Sheaf and Topos Theory]]
 [[!redirects sheaf theory]]
