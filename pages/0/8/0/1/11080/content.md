@@ -1409,9 +1409,9 @@ $\,$
 ###### Proposition
 **([[smooth sets]] form a [[cohesive topos]])**
 
-The [[site]] [[CartSp]] (Prop. \ref{TheDifferentiallyGoodOpenCoverCoverage}) is a [[cohesive site]] [this Def.](#OneCohesiveSite), hence its [[sheaf topos]] is a [[cohesive topos]] (by [this Prop.](CategoriesOfSheavesOnCohesiveSiteIsCohesive)). Under the identification of Prop. \ref{SmoothSetsAreSheavesOnCartSp}, this means that:
+The [[site]] [[CartSp]] (Prop. \ref{TheDifferentiallyGoodOpenCoverCoverage}) is a [[cohesive site]] ([this Def.](geometry+of+physics+--+categories+and+toposes#OneCohesiveSite)), hence its [[sheaf topos]] is a [[cohesive topos]] (by [this Prop.](CategoriesOfSheavesOnCohesiveSiteIsCohesive)). Under the identification of Prop. \ref{SmoothSetsAreSheavesOnCartSp}, this means that:
 
-The [[category]] $SmoothSet$ of [[smooth sets]] (Def. \ref{CategoryOfSmoothSets}) is a [[cohesive topos]] ([this Def.](geometry+of+physics+--+categories+and+toposes#CohesiveTopos))
+The [[category]] [[SmoothSet]] of [[smooth sets]] (Def. \ref{CategoryOfSmoothSets}) is a [[cohesive topos]] ([this Def.](geometry+of+physics+--+categories+and+toposes#CohesiveTopos)):
 
 \[
   \label{SheafToposAdjointQuadruple}
