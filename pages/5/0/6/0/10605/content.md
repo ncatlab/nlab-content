@@ -76,14 +76,19 @@ Hegel wrote (according to [this](http://en.wikipedia.org/wiki/Georg_Wilhelm_Frie
 * [[Adjointness in Foundations]]
 
 
+
 ## References
+
+Discussion of the possible formalization of [[dialectics]] and [[duality]] by the concept of _[[adjunction]]_ ([[adjoint functors]]) is in
 
 * {#Lambek} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co. (1981)
 
-  (on the formalization of [[duality]] via [[adjunctions]] in [[category theory]])
+based on discussion with [[William Lawvere]], who in turn took hints from
 
 * [[Hegel]], _[[Science of Logic]]_
 
+Comparative discussion with [[taoism]] is in 
 
+* {#Butti13} Elena Butti, _A comparison between Heraclitus' "Logos" and Lao-Tzu's "Tao"_, Ephemeris 2013 ([[Butti13.pdf:file]])
 
 category: people
