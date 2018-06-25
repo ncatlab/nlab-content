@@ -50,6 +50,9 @@ on the history of [[philosophy]], presented, essentially, as a progression of ph
 ### C. Subdivisions, sources, methods of the history of philosophy
 
 ### Oriental philosophy
+ {#OrientalPhilosophy}
+  
+(...)
 
 ## First part: Greek philosophy
 
