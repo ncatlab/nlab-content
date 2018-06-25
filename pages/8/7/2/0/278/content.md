@@ -81,11 +81,17 @@ Similarly, standard models of [[synthetic differential geometry]] in [[higher ge
   
   * [[Fréchet manifolds]]
 
+$\,$
+
  local model                |   global geometry
 ----------------------------|-----------------
  [[Klein geometry]]         |   [[Cartan geometry]]
  [[Klein 2-geometry]]       |   [[Cartan 2-geometry]]
  [[higher Klein geometry]]  |   [[higher Cartan geometry]]
+
+$\,$
+
+[[!include geometries of physics -- table]]
 
 
 ## References
