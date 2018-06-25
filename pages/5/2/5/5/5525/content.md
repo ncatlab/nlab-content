@@ -290,7 +290,7 @@ by simplicial topological bundles principal over
 
 * [[discrete groupoid]]
 
-* **discrete ∞-groupoid**
+[[!include geometries of physics -- table]]
 
 ## References
 
@@ -341,3 +341,7 @@ where much of the above material is taken from.
 
 [[!redirects geometrically discrete homotopy type]]
 [[!redirects geometrically discrete homotopy types]]
+
+[[!redirects Discrete∞Groupoid]]
+[[!redirects Discrete∞Groupoids]]
+[[!redirects Discrete∞Grpd]]
