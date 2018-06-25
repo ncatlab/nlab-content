@@ -1,5 +1,12 @@
 # test centering a `<p>` of 2 images
 
+## Spacing via CSS
+
++--
+<span style='margin-right:50px;'>[[adjunction-up-string.png:pic]]</span> [[adjunction-down-string.png:pic]] 
+=--
+{: style='text-align:center'}
+
 ## 2 images in a row
 
 [[adjunction-up-string.png:pic]]  [[adjunction-down-string.png:pic]]
@@ -92,7 +99,6 @@
 
 
 ## end
-
 
 
 
