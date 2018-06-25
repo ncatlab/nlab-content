@@ -115,6 +115,22 @@ Notice that the identity map is clearly completely positive and trace preserving
 
 See also [[extremal quantum channels]] and [[graphical quantum channels]].
 
+## Universal property
+
+The category of natural numbers and quantum channels between them is a [[semicartesian monoidal category]] with the monoidal structure given by multiplication of numbers. Being semicartesian, the monoidal unit (the number $1$) has a unique morphism to it from any object: this morphism is the trace. 
+
+In fact, this category has the universal property of the semicartesian reflection of the monoidal category of isometries. This is the category whose objects are natural numbers, considered as Hilbert spaces, and whose morphisms are isometries between them, where an [[isometry]] $m\to n$ is an $m\times n$ complex matrix $V$ such that $VV*=I$. 
+In detail, the universal property says that for any strict semicartesian monoidal category $\mathcal{D}$ and any monoidal functor $\mathbf{Isometries}\to \mathcal{D}$, there is a unique symmetric monoidal functor making the following diagram commute:
+$$
+\array{
+\mathbf{Isometries} &\rightarrow& \mathbf{Quantum Channels} \\
+&\searrow&\downarrow\\
+&& \mathcal{D}
+}
+$$
+
+This fits a physical intuition as follows. Suppose that the isometries are a model of reality, as in the the many worlds interpretation and the Church of the larger Hilbert space. But in practice the observer cannot access the entirety of reality, and so some bits are hidden. The canonical way to model this hiding is to do it freely, which is to form the semicartesian reflection.
+
 
 ## Examples
 
@@ -185,6 +201,10 @@ This is further explored in
  {#CoeckeHeunen11}
 
 * [[Bob Coecke]], [[Chris Heunen]], [[Aleks Kissinger]], _Categories of Quantum and Classical Channels_ ([arXiv:1305.3821](http://arxiv.org/abs/1305.3821))
+
+For the universal property, see
+
+* Mathieu Huot, Sam Staton, _Universal properties in quantum theory_ (QPL 2018) ([pdf](https://www.mathstat.dal.ca/qpl2018/papers/QPL_2018_paper_68.pdf)).
 
 [[!redirects quantum channel]]
 [[!redirects quantum channels]]
