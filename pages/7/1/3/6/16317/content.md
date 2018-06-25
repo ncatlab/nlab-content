@@ -217,3 +217,6 @@ With this the rightmost adjoint quadruple gives the [[Aufhebung]] of $\Re \dashv
 
 [[!redirects super differential homotopy type]]
 [[!redirects super differential homotopy types]]
+
+[[!redirects SuperFormalSmooth∞Groupoid]]
+[[!redirects SuperFormalSmooth∞Groupoids]]
