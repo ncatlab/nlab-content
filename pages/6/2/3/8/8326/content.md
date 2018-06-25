@@ -1365,7 +1365,7 @@ $$
 
 ###### &#201;tal&#233;
 
-Continuing the process, we posit a furrther opposition of moments lifting the previous ones.
+Continuing the process, we posit a further opposition of moments lifting the previous ones.
 
 $$
   \array{
