@@ -1068,6 +1068,8 @@ $\{$[[diffeological spaces]]$\}$
  $\hookrightarrow$
 $\{$[[smooth sets]]$\}$
  $\hookrightarrow$
+$\{$[[formal smooth sets]]$\}$
+ $\hookrightarrow$
 $\{$[[super formal smooth sets]]$\}$
 
 and similarly for their supergeometric version (which we turn to below, def. \ref{FormalSmoothSets})
@@ -1191,7 +1193,7 @@ a [[good open cover]] as in def. \ref{SiteCartSp}.
 
 In analogy with def. \ref{Smooth0Type} we say that
 
-1. a [[sheaf]] on $FormalCartSp$ is a **formal smooth set** or **formal smooth [[0-type]]** and we write
+1. a [[sheaf]] on $FormalCartSp$ is a **[[formal smooth set]]** or **formal smooth [[0-type]]** and we write
 
   $$
     FormalSmooth0Type \coloneqq FormalSmoothSet \coloneqq Sh(FormalCartSp)
@@ -1209,8 +1211,8 @@ In analogy with def. \ref{Smooth0Type} we say that
 
 =--
 
-The category of formal smooth sets from def. \ref{FormalSmoothSets} is often known as the _[[Cahiers topos]]_. It was introduced in ([Dubuc 79](Cahiers+topos#Dubuc79)) as a well-adapted model for the [[Kock-Lawvere axioms]] for [[synthetic differential geometry]].
-The category of super formal smooth sets from def. \ref{FormalSmoothSets} was considered in [Yetter 88](#Yetter88), called the _super Dubuc topos_ there.
+The category of [[formal smooth sets]] from def. \ref{FormalSmoothSets} is often known as the _[[Cahiers topos]]_. It was introduced in ([Dubuc 79](Cahiers+topos#Dubuc79)) as a well-adapted model for the [[Kock-Lawvere axioms]] for [[synthetic differential geometry]].
+The category of [[super formal smooth sets]] from def. \ref{FormalSmoothSets} was considered in [Yetter 88](#Yetter88), called the _super Dubuc topos_ there.
 
 We have now defined four sites
 and considered the corresponding [[categories of sheaves]] (noticing that $Sh(\ast) = $ [[Set]])
@@ -1235,7 +1237,7 @@ extends to their categories of sheaves.
 ###### Proposition
 
 There exists an essentially unique system of [[functors]] between the categories of [[sets]],
-[[smooth sets]] (def. \ref{Smooth0Type}), formal smooth sets and super formal smooth sets (def. \ref{FormalSmoothSets})
+[[smooth sets]] (def. \ref{Smooth0Type}), [[formal smooth sets]] and [[super formal smooth sets]] (def. \ref{FormalSmoothSets})
 as shown in the second and third row of the following diagram, such that
 
 1. every morphism _below_ another morphism is [[right adjoint]] to the top morphism;
@@ -1456,7 +1458,7 @@ $$
   SuperFormalSmoothSet \longrightarrow SuperFormalSmoothSet
 $$
 
-and think of as the operation of reduction on generalized super formal smooth sets.
+and think of as the operation of reduction on generalized [[super formal smooth sets]].
 
 Notice that [[reflective subcategory]] embeddings
 
@@ -1572,28 +1574,9 @@ $$
 
 
 [Below](#Supermanifolds) we use these operations to identify within all generalized superspaces those that are [[supermanifolds]].
-But first we consider now some important constructions of super formal smooth sets, namely [[mapping spaces]].
+But first we consider now some important constructions of [[super formal smooth sets]], namely [[mapping spaces]].
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+$\,$
 
 
 
@@ -2068,8 +2051,7 @@ This is enough to find what its [[right adjoint]] operation $\Im$ is doing:
 +-- {: .num_prop #ImAction}
 ###### Proposition
 
-For $X \in SuperFormalSmoothSet$ (def. \ref{FormalSmoothSets}), then $\Im X$ is the super formal smooth set
-whose [[functor of points]] is given by
+For $X \in SuperFormalSmoothSet$ (def. \ref{FormalSmoothSets}), then $\Im X$ is the [[super formal smooth set]] whose [[functor of points]] is given by
 
 $$
   \Im X
@@ -2111,7 +2093,7 @@ $$
 =--
 
 Proposition \ref{ImAction} means that for $X$ for instance an ordinary [[smooth manifold]]
-(regarded as a super formal smooth set via prop. \ref{SmoothSetsContainSmoothManifolds})
+(regarded as a [[super formal smooth set]] via prop. \ref{SmoothSetsContainSmoothManifolds})
 then $\Im X$ is a rather exotic kind of [[generalized smooth space]]: it has the same finite smooth curves and other
 finite smooth shapes as $X$ does, but every _infinitesimal_ curve or shape inside it is necessarily constant.
 A good way to think about this (which is also the precise way to think about it, if we speak in the [[internal language]]
