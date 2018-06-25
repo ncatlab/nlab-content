@@ -418,11 +418,11 @@ $$
 
 =--
 
-Beware that 
+Beware that
 
-1. $\overset{\rightsquigarrow}{(-)}$ is the [[formal dual]] of $(-)/(-)_{odd}$, 
+1. $\overset{\rightsquigarrow}{(-)}$ is the [[formal dual]] of $(-)/(-)_{odd}$,
 
-1. $\overset{\rightrightarrows}{(-)}$ is the [[formal dual]] of $(-)_{even}$. 
+1. $\overset{\rightrightarrows}{(-)}$ is the [[formal dual]] of $(-)_{even}$.
 
 That they change position in the diagrams is because we always draw [[left adjoints]] on top of [[right adjoints]] and  the handedness of [[adjoints]] changes as we pass to [[opposite categories]].
 
@@ -488,13 +488,13 @@ that the canonical [[coordinate]] function $\epsilon$ on it takes values "so tin
 We will write
 
 $$
-  \mathbb{D}^1 
+  \mathbb{D}^1
     \;\coloneqq\; Spec(\mathbb{R}[\epsilon]/(\epsilon^2))
   \;\in\;
   Aff(sVect_k)
 $$
 
-for the [[space]] [[formal dual|formally dual]] to this [[algebra of dual numbers]] and think of it as the _1-dimensional first order [[infinitesimal disk]]_.  
+for the [[space]] [[formal dual|formally dual]] to this [[algebra of dual numbers]] and think of it as the _1-dimensional first order [[infinitesimal disk]]_.
 
 
 =--
@@ -528,17 +528,17 @@ We call this the [[category]] of _[[infinitesimally thickened points]]_.
 
 Alternative terminology:
 
-1. In [[synthetic differential geometry]] these algebras are called [[Weil algebra|Weil algebras]]**, 
+1. In [[synthetic differential geometry]] these algebras are called [[Weil algebra|Weil algebras]]**,
 
 1. in [[algebraic geometry]] they are known as _[[local ring|local]] [[real numbers|real]] [[Artin algebras]]_.
 
 Write moreover
 
 $$
-  FormalCartSp 
-   \;\coloneqq\; 
-  CartSp \rtimes InfPoint 
-   \overset{\phantom{AAAA}}{\hookrightarrow} 
+  FormalCartSp
+   \;\coloneqq\;
+  CartSp \rtimes InfPoint
+   \overset{\phantom{AAAA}}{\hookrightarrow}
   CAlg_{\mathbb{R}}^{op}
 $$
 
@@ -660,7 +660,7 @@ $$
     \underoverset
       {\underset{\phantom{AA}\Re \phantom{AA}}{\longleftarrow}}
       {\overset{\phantom{AA}\iota \phantom{AA}}{\hookrightarrow}}
-      {\bot}}}
+      {\bot}
   FormalCartSp
 $$
 
@@ -754,7 +754,7 @@ where $V$ is a [[nilpotent ideal]] of [[finite number|finite]] [[dimension]] ove
 
 =--
 
-One place in the literature where such [[super formal Cartesian spaces]] are made explicit is in [Konechny-Schwarz 97](#KonechnySchwarz97). 
+One place in the literature where such [[super formal Cartesian spaces]] are made explicit is in [Konechny-Schwarz 97](#KonechnySchwarz97).
 
 Just as formal Cartesian spaces may be thought of as local model spaces for [[synthetic differential geometry]], [[super formal Cartesian spaces]] may be thought of as a model for [[synthetic differential supergeometry]].
 This we come to [below](#SuperSmoothSets).
@@ -882,22 +882,22 @@ $$
 ## Super smooth sets
  {#SuperSmoothSets}
 
-[Above](#CoordinareSystemsSuperCartesianSpaces) we discussed ([[formal manifold|formal]]) [[super Cartesian spaces]]. What we are after is geometry which is "locally modeled" on these. In order to do so we
+[Above](#CoordinareSystemsSuperCartesianSpaces) we discussed ([[formal manifold|formal]]) [[super Cartesian spaces]]. What we are after is geometry of [[generalized space]] which is "locally modeled" on these, in the sense explained in the chapter _[[geometry of physics -- categories and toposes|on categories and toposes]]_ . In order to do so we
 
-1. consider very general [[superspaces]] whose collection forms a "good category" (the [[sheaf topos]] over super Cartesian space) in that lots of [[universal constructions]] on general superspaces ([[limits]], [[colimits]]) still yield general superspaces;
+1. consider [[generalized space|generalized]] [[superspaces]] whose collection forms a "good category" (the [[sheaf topos]] over super Cartesian space) in that lots of [[universal constructions]] on general superspaces ([[limits]], [[colimits]]) still yield general superspaces;
 
 2. use special properties of this nice category ([[differential cohesion]]) in order to characterize and construct the good, tame superspaces, such as actual [[supermanifolds]].
 
 
-The construction proceeds in direct anology to the non-super version discussed at _[[geometry of physics -- smooth sets]]_
-and at _[[geometry of physics -- manifolds and orbifolds]]_. For reference we first briefly recall this bosonic situation.
+The construction proceeds in direct anology to the non-super version discussed in the chapters _[[geometry of physics -- smooth sets|on smooth sets]]_ and _[[geometry of physics -- manifolds and orbifolds|on manifolds and orbifolds]]_. For reference we first briefly recall this [[bosonic modality|bosonic]] situation.
 
-The following simple definitions \ref{Smooth0Type} and \ref{FormalSmoothSets} are key to the whole theory. They embody the perspective of _[[functorial geometry]]_ ([Grothendieck 65](#Grothendieck65)).
+The following simple definitions \ref{SmoothSet} and \ref{FormalSmoothSets} are key to the whole theory. They embody the perspective of _[[functorial geometry]]_ ([Grothendieck 65](#Grothendieck65)).
 See remark \ref{ASheafAsASpace} below for exegesis and illustration.
 
 
 +-- {: .num_defn #SiteCartSp}
 ###### Definition
+**([[CartSp]])**
 
 Write [[CartSp]] for the [[category]] of [[Cartesian space]] $\mathbb{R}^n$ for $n \in\mathbb{N}$ with [[smooth functions]] between them. Say that a collection of morphisms $\{U_i \to X\}$ in $CartSp$ is [[covering]] if this is a [[good open cover]] in that every finite non-empty intersection of the charts is [[diffeomorphism|diffeomorphic]] to a Cartesian space.
 This defines a [[coverage]] on [[CartSp]] and hence makes it a [[site]].
@@ -905,16 +905,17 @@ This defines a [[coverage]] on [[CartSp]] and hence makes it a [[site]].
 =--
 
 
-+-- {: .num_defn #Smooth0Type}
++-- {: .num_defn #SmoothSet}
 ###### Definition
+**([[smooth set]])**
 
-We say a _[[smooth set]]_ or _smooth 0-type_ is a [[sheaf]] on $CartSp$, write
+We say a _[[smooth set]]_ ([this Def.](geometry+of+physics+--+smooth sets#CategoryOfSmoothSets)) is, equivalently, a [[sheaf]] on [[CartSp]] (Def. \ref{SiteCartSp}), according to [this Prop.](geometry+of+physics+--+smooth sets#SmoothSetsAreSheavesOnCartSp). We write
 
 $$
- Smooth0Type \coloneqq Sh(CartSp)
+ SmoothSet \;\coloneqq\; Sh(CartSp)
 $$
 
-for the [[sheaf topos]] of all these.
+for the [[sheaf topos]] ([this Def.](geometry+of+physics+--+categories+and+toposes#Sheaf)) of smooth set.
 
 =--
 
@@ -922,9 +923,9 @@ for the [[sheaf topos]] of all these.
 ###### Remark
 **([[functorial geometry]])**
 
-The useful way to think of def. \ref{Smooth0Type} in the present context is as defining a kind of [[generalized smooth space]] which is _defined_ by which smooth functions from Cartesian spaces it receives (see also at _[[motivation for sheaves, cohomology and higher stacks]]_ for more exposition of this point).
+The useful way to think of def. \ref{SmoothSet} in the present context is as defining a kind of [[generalized smooth space]] which is _defined_ by which smooth functions from Cartesian spaces it receives (see also at _[[motivation for sheaves, cohomology and higher stacks]]_ for more exposition of this point).
 
-Namely a smooth set $X$ in the sense of def. \ref{Smooth0Type} is first of all a rule
+Namely a smooth set $X$ in the sense of def. \ref{SmoothSet} is first of all a rule
 
 $$
   \mathbb{R}^p \mapsto  X(\mathbb{R}^p) \in Set
@@ -998,7 +999,7 @@ One also says that $X$ [[representable functor|represents]] a sheaf on $CartSp$,
 This defines a [[full subcategory]] inclusion of Cartesian spaces into smooth sets
 
 $$
-  y \;\colon\; CartSp \hookrightarrow Smooth0Type
+  y \;\colon\; CartSp \hookrightarrow SmoothSet
 $$
 
 called the _[[Yoneda embedding]]_.
@@ -1013,18 +1014,18 @@ which assigns actual sets of smooth functions.
 
 Notice that since Cartesian spaces (and smooth manifolds) themselves are understood as special cases of smooth sets, there now appears an
 actual concept of smooth functions of the form $\mathbb{R}^n \to X$, for every smooth set $X$, without quotation marks:
-namely this is a morphism in the category $Smooth0Type$ of smooth sets.
+namely this is a morphism in the category $SmoothSet$ of smooth sets.
 
 Now there might be a worry: given any smooth set $X$ and any Cartesian space $\mathbb{R}^n$, we seem to have _two different_
 concepts of what the set of smooth functions from $\mathbb{R}^n$ to $X$ is: the set $X(\mathbb{R}^n)$
-of "smooth functions by fiat" (maps with quotation marks) and the actual [[hom-set]] $Hom_{Smooth0Type}(\mathbb{R}^n, X)$
+of "smooth functions by fiat" (maps with quotation marks) and the actual [[hom-set]] $Hom_{SmoothSet}(\mathbb{R}^n, X)$
 (maps without quotation mark).
 
 That these two sets are in fact in [[natural bijection]], hence that the interpretation of a sheaf $X$ as a generalized smooth space
 is consistent, is the statement of the _[[Yoneda lemma]]_:
 
 $$
-  Hom_{Smooth0Type}(\mathbb{R}^n, X)
+  Hom_{SmoothSet}(\mathbb{R}^n, X)
   \;
     \simeq
   \;
@@ -1048,6 +1049,7 @@ $$
 
 +-- {: .num_remark #GeneralizedSpaces}
 ###### Remark
+**([[generalized spaces]])**
 
 The strategy is now to work in the nice category $SmoothSets$ of [[generalized smooth spaces]] (a [[topos]]),
 and find in there [[full subcategories]] of more specific types of smooth spaces having extra properties which one may need in given applications. There is a long list of such subcategories of relevance, some of these we briefly discuss now:
@@ -1090,27 +1092,32 @@ $\{$[[super formal smooth sets|super smooth sets]]$\}$ .
 
 +-- {: .num_prop #SmoothSetsContainSmoothManifolds}
 ###### Proposition
+**([[smooth manifolds]] and [[Fréchet manifolds]] [[fully faithful functor|fully faithful]] among [[smooth sets]])**
 
-Write $SmoothMfd$ for the [[category]] of [[smooth manifolds]] with [[smooth functions]] between them. Then the construction
-that sends a smooth manifold $X$ to the [[smooth set]] (def. \ref{Smooth0Type})
+
+Write [[SmoothMfd]] for the [[category]] of [[smooth manifolds]] with [[smooth functions]] between them. Then the construction
+that sends a smooth manifold $X$ to the [[smooth set]] (def. \ref{SmoothSet})
 given by the rule (via remark \ref{ASheafAsASpace})
 
 $$
   \mathbb{R}^n \mapsto C^\infty(\mathbb{R}^n, X)
 $$
 
-defines a [[full subcategory]] inclusion
+constitutes a [[full subcategory]] inclusion ([this Def.](geometry+of+physics+--+categories+and+toposes#FullyFaithfulFunctor))
 
 $$
-  SmoothMfd \hookrightarrow SmoothSet
+  SmoothMfd \phantom{AAAA}{\hookrightarrow} SmoothSet
   \,.
 $$
 
-More generally, write $FrechetMfd$ for the [[category]] of [[Fréchet manifolds]],
-which generalizes smooth manifolds to possibly [[infinite-dimensional manifold|infinite-dimensional]] smooth manifolds
+More generally, write $FrechetMfd$ for the [[category]] of [[Fréchet manifolds]] and [[smooth functions]] between these, which generalizes smooth manifolds to possibly [[infinite-dimensional manifold|infinite-dimensional]] smooth manifolds
 
 $$
-  CartSp \hookrightarrow SmoothMfd \hookrightarrow FrechetMfd
+  CartSp 
+   \overset{\phantom{AAAA}}{\hookrightarrow} 
+  SmoothMfd 
+    \overset{\phantom{AAAA}}{\hookrightarrow} 
+  FrechetMfd
   \,.
 $$
 
@@ -1120,10 +1127,10 @@ $$
   \mathbb{R}^n \mapsto C^\infty(\mathbb{R}^n, X)
 $$
 
-defines a [[fully faithful functor]]
+defines a [[fully faithful functor]] ([this Example](geometry+of+physics+--+categories+and+toposes#FullyFaithfulFunctor))
 
 $$
-  FrechetMfd \hookrightarrow SmoothSet
+  FrechetMfd \overset{\phantom{AAAA}}{\hookrightarrow} SmoothSet
   \,,
 $$
 
@@ -1137,8 +1144,10 @@ into the category of [[diffeological spaces]]. But these in turn fully embed int
 
 +-- {: .num_defn #DiffeologicalSpace}
 ###### Definition
+**([[diffeological spaces]])**
 
-A **[[diffeological space]]** $X$ is a [[smooth set]] (def. \ref{Smooth0Type}) which is [[concrete sheaf|concrete]].
+A **[[diffeological space]]** $X$ ([this Def.](geometry+of+physics+--+smooth sets#DiffeologicalSpace)) is a [[smooth set]] (def. \ref{SmoothSet}) which is [[concrete sheaf|concrete]] ([this def.](geometry+of+physics+--+categories+and+toposes#CohesiveModalities)).
+
 This means that there exists a [[set]] $X_s \in $ [[Set]] such that the sets of smooth maps from Cartesian spaces $\mathbb{R}^n$ into $X$ are [[natural transformation|naturally]] [[subset|subsets]] of the set of maps from the underlying set $\mathbb{R}^n_s \in Set$ of the Cartesian space
 to this set:
 
@@ -1150,10 +1159,10 @@ $$
 Write
 
 $$
-  DiffeologicalSpace \hookrightarrow SmoothSet
+  DiffeologicalSpace \overset{\phantom{AAAA}}{\hookrightarrow} SmoothSet
 $$
 
-for the [[full subcategory]] of such spaces in smooth sets.
+for the [[full subcategory]] of such [[diffeological spaces]] among [[smooth sets]].
 
 =--
 
@@ -1191,12 +1200,12 @@ $$
 
 a [[good open cover]] as in def. \ref{SiteCartSp}.
 
-In analogy with def. \ref{Smooth0Type} we say that
+In analogy with def. \ref{SmoothSet} we say that
 
 1. a [[sheaf]] on $FormalCartSp$ is a **[[formal smooth set]]** or **formal smooth [[0-type]]** and we write
 
   $$
-    FormalSmooth0Type \coloneqq FormalSmoothSet \coloneqq Sh(FormalCartSp)
+    FormalSmoothSet \coloneqq FormalSmoothSet \coloneqq Sh(FormalCartSp)
   $$
 
   for the [[sheaf topos]] of all of these;
@@ -1204,7 +1213,7 @@ In analogy with def. \ref{Smooth0Type} we say that
 1. a [[sheaf]] on $FormalCartSp$ is a **[[super formal smooth set]]** or **super formal smooth [[0-type]]** and we write
 
   $$
-    SuperFormalSmooth0Type \coloneqq SuperFormalSmoothSet \coloneqq Sh(FormalCartSp)
+    SuperFormalSmoothSet \coloneqq SuperFormalSmoothSet \coloneqq Sh(FormalCartSp)
   $$
 
   for the [[sheaf topos]] of all of these;
@@ -1237,40 +1246,35 @@ extends to their categories of sheaves.
 ###### Proposition
 
 There exists an essentially unique system of [[functors]] between the categories of [[sets]],
-[[smooth sets]] (def. \ref{Smooth0Type}), [[formal smooth sets]] and [[super formal smooth sets]] (def. \ref{FormalSmoothSets})
+[[smooth sets]] (def. \ref{SmoothSet}), [[formal smooth sets]] and [[super formal smooth sets]] (def. \ref{FormalSmoothSets})
 as shown in the second and third row of the following diagram, such that
 
-1. every morphism _below_ another morphism is [[right adjoint]] to the top morphism;
+1. every [[pair]] of consecutive [[functors]] is an [[adjoint pair]] ([this Def.](geometry+of+physics+--+categories+and+toposes#AdjointFunctorsInTermsOfNaturalBijectionOfHomSets)), with the functor above being [[left adjoint]] and the functor below being [[right adjoint]]
 
-1. on [[representables]] the top two functors on the left, the top two functors in the middle,
-and the top three functors on the right coincide with the corresponding functors between [[sites]] shown
-   in the first row (from prop. \ref{SystemOfSites}):
+1. on [[representables]] the top two functors on the left, the top two functors in the middle, and the top three functors on the right coincide with the corresponding functors between [[sites]] shown in the first row (from prop. \ref{SystemOfSites}):
 
 <img src="https://ncatlab.org/nlab/files/AjunctionsForSuperCohesion.png" width="600">
 
 In such a situation we also say that in the third row
 
-1. the bottom four functors exhibit $SuperFormalSmoothSet$ as a  [[cohesive topos]] relative to [[Set]];
+1. the bottom four functors exhibit [[SuperFormalSmoothSet]] as a  [[cohesive topos]] ([this Def.](geometry+of+physics+--+categories+and+toposes#CohesiveTopos))
 
-1. the middle four functors exhibit $SuperFormalSmoothSet$ as an  _elastic topos_ relative to $SmoothSet$ ([[differential cohesion]]);
+1. the middle four functors exhibit [[SuperFormalSmoothSet]] as [[differentially cohesive topos]] (elastic topos) relative to [[SmoothSet]] ([this Def.](https://ncatlab.org/nlab/show/geometry+of+physics+--+categories+and+toposes#DifferentialCohesion));
 
-1. the top four functors exhibit $SuperFormalSmoothSet$ as a _solid topos_ relative to $FormalSmoothSet$.
+1. the top four functors exhibit $SuperFormalSmoothSet$ as _solid topos_ relative to $FormalSmoothSet$ (...)
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-The functors between the [[sheaf toposes]] are given by left and right [[Kan extensions]] of sheaves along the
-functors between the [[sites]]:
+The functors between the [[sheaf toposes]] are given by left and right [[Kan extensions]] ([this Def.](geometry+of+physics+--+categories+and+toposes#TopologicalLeftKanExtensionBCoend)) of sheaves along the functors between the [[sites]]:
 
-For a single functor $F \colon \mathcal{C} \to \mathcal{D}$ precomposition with this functor
-defines a functor of presheaves of the form $F^\ast \colon PSh(\mathcal{D}) \to PSh(\mathcal{C})$ and this has both a [[left adjoint]]
-and a [[right adjoint]] called the left and right [[Kan extension]] $F_!$ and $F^\ast$, respectively
-(forming an [[adjoint triple]]):
+For a single functor $F \colon \mathcal{C} \to \mathcal{D}$ precomposition with this functor defines a functor of presheaves of the form $F^\ast \colon PSh(\mathcal{D}) \to PSh(\mathcal{C})$ and this has both a [[left adjoint]]
+and a [[right adjoint]] called the left and right [[Kan extension]] $F_!$ and $F^\ast$, respectively (forming an [[adjoint triple]]):
 
 $$
-  PSh(\mathcal{C})
+  [\mathcal{C}^{op}, Set]
   \;
     \array{
      {\overset{\phantom{AA}F_!\,\phantom{AA}}{\longrightarrow}}
@@ -1280,7 +1284,7 @@ $$
      {\underset{\phantom{AA}F_\ast\phantom{AA}}{\longrightarrow}}
     }
   \;
-  PSh(\mathcal{D})
+  [\mathcal{D}^{op}, Set]
   \,.
 $$
 
@@ -1753,7 +1757,7 @@ $$
 By prop. \ref{SheavesHomInternal} the rule for the [[smooth set]] $[\mathbb{D}^1,X]$ is
 
 $$
-  \mathbb{R}^n \mapsto Hom_{Smooth0Type}( \mathbb{R}^n \times \mathbb{D}^1, X )
+  \mathbb{R}^n \mapsto Hom_{SmoothSet}( \mathbb{R}^n \times \mathbb{D}^1, X )
   \,.
 $$
 
