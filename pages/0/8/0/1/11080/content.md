@@ -2166,10 +2166,12 @@ We may unwind this definition to a very explicit description of differential for
 
 Notice that differential 0-forms are equivalently smooth $\mathbb{R}$-valued functions.
 
-+-- {: .num_prop #SpaceOf0FormsIsRealLine}
-###### Proposition
++-- {: .num_example #SpaceOf0FormsIsRealLine}
+###### Examples
 
-$\Omega^0 \simeq \mathbb{R}$
+$$
+  \Omega^0 \;\simeq\; \mathbb{R}
+$$
 
 =--
 
