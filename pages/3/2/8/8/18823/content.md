@@ -2061,7 +2061,7 @@ on the [[jet bundle]] of $E$ is the [[topological closure]] of the maximal subse
 such that the restriction of $A$ to the jet bundle restrited to this subset vanishes:
 
 $$
-  supp_\Sigma(A) \coloneqq Cl( \{ x \in \Sigma |  \iota_{\{x\}^\ast A = 0} \} )
+  supp_\Sigma(A) \coloneqq Cl( \{ x \in \Sigma |  \iota_{\{x\}}^\ast A = 0 \} )
 $$
 
 We write
