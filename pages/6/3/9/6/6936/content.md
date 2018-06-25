@@ -13,9 +13,6 @@
 =--
 =--
 
-
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -27,6 +24,8 @@
 While HITs are already useful in [[extensional type theory]], they are most useful and powerful in [[homotopy type theory]], where they allow the construction of [[cell complexes]], [[homotopy colimits]], [[n-truncated|truncations]], [[Bousfield localization of model categories|localizations]], and many other objects from classical [[homotopy theory]].
 
 Defining what a HIT is "in general" is an open research problem.  One mostly precise proposal may be found in ([ShulmanLumsdaine16](#ShulmanLumsdaine16)).  A more syntactic description of a class of HITs may be found in ([Brunerie16](#Brunerie16)). A solution to this problem should determine how to define the concept of an [[elementary (∞,1)-topos]].
+
+See also [[homotopytypetheory:higher inductive type]].
 
 ## Examples
 
@@ -198,6 +197,8 @@ Since the basepoints of the types $(L X)_n$ are induced from those of each $X_n$
 
 Finally, the fourth through seventh constructors say that $L X$ is a spectrum, by giving [[h-isomorphism]] data: a retraction and a section for each glue map $(L X)_n \to \Omega (L X)_{n+1}$.  We could use adjoint equivalence data as we did for localization, but this approach avoids the presence of level-3 path constructors.  (We could have used h-iso data in localization too, thereby avoiding even level-2 constructors there.)  It is important, in general, to use a sort of equivalence data which forms an [[h-prop]]; otherwise we would be adding [[stuff, structure, property|structure]] rather than merely the property of such-and-such map being an equivalence.
 
+## Semantics
+See Lumsdaine and Shulman.
 
 ## Related concepts
 
@@ -216,11 +217,9 @@ Expositions include
 
 * [[Peter LeFanu Lumsdaine]], _Higher Inductive Types: The circle and friends, axiomatically_ ([pdf](http://pages.cpsc.ucalgary.ca/~robin/FMCS/FMCS2011/Lumsdaine_slides.pdf))
 
-* [[Mike Shulman]], _Inductive and higher inductive types_ talk slides (2012) ([pdf](http://www.sandiego.edu/~shulman/hottminicourse2012/04induction.pdf))
+Semantics
 
-* [[UF-IAS-2012]], _[Higher Inductive Types](http://uf-ias-2012.wikispaces.com/Higher+Inductive+Types)_
-
-* [[Egbert Rijke]], [[Bas Spitters]], _Higher inductive types_, talk notes (May 2013) ([pdf](http://www.cs.ru.nl/~spitters/presentation_HITs.pdf))
+[[Peter LeFanu Lumsdaine]], [[Mike Shulman]], _Semantics of higher inductive types_, [arxiv](https://arxiv.org/abs/1705.07088)
 
 Details are in 
 
