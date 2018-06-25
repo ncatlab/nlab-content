@@ -1742,7 +1742,7 @@ Here the logical implications are equivalently functions between [[sets]] that a
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #DiscreteTopologicalSpaces}
 ###### Example
 **([[discrete topological space|discrete]] and [[codiscrete topological spaces]])**
 
