@@ -19,7 +19,7 @@
 
 ## Definition
 
-A [[differential form]] $\omega \in \Omega^n(X)$ on a [[Riemannian manifold]] $(X,g)$ is called a **harmonic fom** if it is in the [[kernel]] of the [[Laplace operator]] $\Delta_g$ of $X$ in that $\Delta \omega = (d + d^\dagger)^2 \omega = 0$.
+A [[differential form]] $\omega \in \Omega^n(X)$ on a [[Riemannian manifold]] $(X,g)$ is called a **harmonic form** if it is in the [[kernel]] of the [[Laplace operator]] $\Delta_g$ of $X$ in that $\Delta \omega = (d + d^\dagger)^2 \omega = 0$.
 
 ## Properties
 
