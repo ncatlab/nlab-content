@@ -198,7 +198,7 @@ Since the basepoints of the types $(L X)_n$ are induced from those of each $X_n$
 Finally, the fourth through seventh constructors say that $L X$ is a spectrum, by giving [[h-isomorphism]] data: a retraction and a section for each glue map $(L X)_n \to \Omega (L X)_{n+1}$.  We could use adjoint equivalence data as we did for localization, but this approach avoids the presence of level-3 path constructors.  (We could have used h-iso data in localization too, thereby avoiding even level-2 constructors there.)  It is important, in general, to use a sort of equivalence data which forms an [[h-prop]]; otherwise we would be adding [[stuff, structure, property|structure]] rather than merely the property of such-and-such map being an equivalence.
 
 ## Semantics
-See Lumsdaine and Shulman.
+See ([Lumsdaine-Shulman17](#LumsdaineShulman17)).
 
 ## Related concepts
 
@@ -217,13 +217,9 @@ Expositions include
 
 * [[Peter LeFanu Lumsdaine]], _Higher Inductive Types: The circle and friends, axiomatically_ ([pdf](http://pages.cpsc.ucalgary.ca/~robin/FMCS/FMCS2011/Lumsdaine_slides.pdf))
 
-Semantics
+Details of the semantics are in 
 
-[[Peter LeFanu Lumsdaine]], [[Mike Shulman]], _Semantics of higher inductive types_, [arxiv](https://arxiv.org/abs/1705.07088)
-
-Details are in 
-
-* {#ShulmanLumsdaine17} [[Mike Shulman]], [[Peter LeFanu Lumsdaine]], _Semantics of higher inductive types_ ([arXiv:1705.07088](https://arxiv.org/abs/1705.07088), talk slides [pdf](http://home.sandiego.edu/~shulman/papers/cellcxs.pdf))
+* {#LumsdaineShulman17} [[Peter LeFanu Lumsdaine]] [[Mike Shulman]], _Semantics of higher inductive types_ ([arXiv:1705.07088](https://arxiv.org/abs/1705.07088), talk slides [pdf](http://home.sandiego.edu/~shulman/papers/cellcxs.pdf))
 
 with precurors in
 
