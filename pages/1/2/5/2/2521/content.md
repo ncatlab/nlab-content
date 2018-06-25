@@ -31,8 +31,6 @@ For more see at _[[geometry of physics -- supergeometry]]_.
 
 * [[superpoint]]
 
-* [[super ∞-groupoid]], [[smooth super ∞-groupoid]], [[super smooth ∞-groupoid]]
-
 * [[superspace]]
 
   * [[supermanifold]], [[super scheme]]
@@ -54,6 +52,8 @@ For more see at _[[geometry of physics -- supergeometry]]_.
 * [[super-Cartan geometry]]
 
   * [[superconformal geometry]]
+
+[[!include geometries of physics -- table]]
 
 ## References
  {#References}
