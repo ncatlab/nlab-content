@@ -95,7 +95,11 @@ The answer is known, alternatively, as ([[nLab:higher geometry|higher]]) _[[nLab
 
 In this lecture series we try to give a self-contained introduction to [[nLab:higher differential geometry|higher differential]] [[nLab:supergeometry]] this way, following [[schreiber:differential cohomology in a cohesive topos|Schreiber 13]]. We begin at the beginning, with introducing relevant basics of [[nLab:category theory]] and [[nLab:topos theory]] and will provide brief indication of real-world applications to [[nLab:perturbative quantum field theory]] and [[nLab:fundamental super p-branes]].
 
-The [[nLab:higher differential geometry]] which we lay out subsumes various special cases that are discussed separately in the literature. Notably [[diffeological spaces]] find home and company here:  We explain how these are equivalently the _[[nLab:concrete objects]]_ among the the [[nLab:bosonic]] [[nLab:smooth set|smooth]] [[nLab:h-sets]]:
+The [[nLab:higher differential geometry]] which we lay out subsumes various special cases that are discussed separately in the literature:
+
+[[!include geometries of physics -- table]]
+
+Notably [[diffeological spaces]] find home and company here:  We explain how these are equivalently the _[[nLab:concrete objects]]_ among the the [[nLab:bosonic]] [[nLab:smooth set|smooth]] [[nLab:h-sets]]:
 
 $$
   \array{
