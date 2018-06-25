@@ -1227,6 +1227,3 @@ and the formalization in [[homotopy type theory]] is in
 
 * {#Wellen17} [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, PhD Thesis, 2017
 
-
-[[!redirects formal smooth set]]
-[[!redirects formal smooth sets]]
