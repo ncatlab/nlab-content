@@ -1643,8 +1643,6 @@ Notice that in the case of an [[adjoint triple]] (eq:AdjointTriple), the [[adjun
 
 which is usefully thought of as exhibiting the nature of $X$ as being in between two _opposite extreme aspects_ $L(C(X))$ and $R(C(X))$ of $X$. This is illustrated by the following examples, and formalized by the concept of _[[modalities]]_ that we turn to in Def. \ref{ModalOperator} below.
 
-
-
 =--
 
 
@@ -3354,6 +3352,26 @@ and canonical [[natural transformation]] between opposite extreme aspects given 
 \]
 
 =--
+
+
++-- {: .num_prop #FullyFaithfulAdjointTriple}
+###### Proposition
+**([[fully faithful functor|fully faithful]] [[adjoint triple]])**
+
+Let $L \dashv C \dashv R$ be an [[adjoint triple]] (Remark \ref{AdjointTriples}). Then the following are equivalent:
+
+1. $L$ is a [[fully faithful functor]];
+
+1. $R$ is a [[fully faithful functor]],
+
+1. $(\Box \;\coloneqq\; L \circ C) \dashv (\bigcirc \;\coloneqq\; R \circ C)$ is an [[adjoint modality]] (Def. \ref{FullyFaithfulAdjointTriple}).
+
+
+=--
+
+For **proof** see [this prop.](adjoint+triple#FullyFaithful).
+
+
 
 In order to analyze (in Prop. \ref{ComparisonMorphismBetweenOppositeExtremes}  below) the comparison morphism of opposite extreme aspects (eq:OppositeExtrmeComparison) induced by an [[adjoint modality]] (Def. \ref{AdjointModality}), we need the following technical Lemma:
 
