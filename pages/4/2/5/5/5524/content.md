@@ -1016,19 +1016,10 @@ $$
 
 * [[cohesive (∞,1)-topos]]
 
-  * [[discrete ∞-groupoid]]
-
   * [[Euclidean-topological ∞-groupoid]]
 
-  * [[smooth ∞-groupoid]]
+[[!include geometries of physics -- table]]
 
-  * **formal smooth ∞-groupoid**
-
-  * [[super ∞-groupoid]]
-
-  * [[smooth super ∞-groupoid]]
-
-  * [[synthetic differential super ∞-groupoid]]
 
 ## References
 
@@ -1118,4 +1109,6 @@ following
 
 [[!redirects SynthDiff∞Grpd]]
 
+[[!redirects FormalSmooth∞Groupoid]]
+[[!redirects FormalSmooth∞Groupoids]]
 [[!redirects FormalSmooth∞Grpd]]
