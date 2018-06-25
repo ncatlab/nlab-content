@@ -711,14 +711,7 @@ $$
 
 ## Related concepts
 
-
-* [[supergeometry]]
-
-* [[super smooth set]]
-
-* [[smooth super infinity-groupoid]]
-
-* [[super formal smooth infinity-groupoid]]
+[[!include geometries of physics -- table]]
 
 * [[super-Cartan geometry]]
 
@@ -731,7 +724,7 @@ $$
   Springer-Verlag, 1998, Lecture Notes in Physics, 509 , J. Wess and V. Akulov (editors)([arXiv:hep-th/9706003](http://arxiv.org/abs/hep-th/9706003))
 
   _Theory of $(k \oplus l|q)$-dimensional supermanifolds_ Sel. math., New ser. 6 (2000) 471 - 486
-  {#KonechnySchwarz}A summary/review is in the appendix of
+
 
 
 [[!redirects super Cartesian spaces]]
@@ -749,3 +742,5 @@ $$
 [[!redirects super formal Cartesian space]]
 [[!redirects super formal Cartesian spaces]]
 
+[[!redirects SuperFormalCartSp]]
+[[!redirects SuperFormalCartSpace]]
