@@ -13,6 +13,10 @@ For example, the [[exponential modality]] of [[linear logic]] $!$ has a graded c
 
 * Dominic Orchard, Vilem-Benjamin Liepelt, _Gram:  A linear functional language with graded modal types_, ([extended abstract](https://www.cs.ox.ac.uk/conferences/fscd2017/preproceedings_unprotected/TLLA_Orchard.pdf))
 
+* Marco Gaboardi, Shin-ya Katsumata, Dominic Orchard, Flavien Breuvart, Tarmo Uustalu, _Combining Effects and Coeffects via Grading_, ([pdf](https://www.cs.kent.ac.uk/people/staff/dao7/publ/combining-effects-and-coeffects-icfp16.pdf))
+
+* Shin-ya Katsumata, _A Double Category Theoretic Analysis of Graded Linear Exponential Comonads_, ([doi](https://doi.org/10.1007/978-3-319-89366-2_6))
+
 For discussion [[philosophy]] and linguistics, see
 
 * Patrick Grosz, _Grading Modality: A New Approach to Modal Concord and its Relatives_, ([paper](https://www.univie.ac.at/sub14/proc/grosz.pdf))
