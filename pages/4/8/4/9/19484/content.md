@@ -839,7 +839,6 @@ for the [[adjoint quadruple]] exhibiting the [[cohesion]] of $\mathbf{H}$ itself
 <img src="https://ncatlab.org/nlab/files/ProgressionOfSubcategoriesDifferentialCohesion.jpg" width="400">
 </center>
 
-
 =--
 
 +-- {: .proof}
@@ -858,11 +857,11 @@ follows from the essential uniqueness of the [[global section]]-[[geometric morp
 
 =--
 
-+-- {: .num_defn #CohesiveModalities}
++-- {: .num_defn #DiffCohesiveModalities}
 ###### Definition
-**([[adjoint modalities]] on [[differentially cohesive topos]])**
+**([[adjoint modalities]] on [[elastic topos]])**
 
-Given a [[differentially cohesive topos]] $\mathbf{H}$ over $\mathbf{H}_{red}$ (Def. \ref{DifferentialCohesion}), [[composition]] of the functors in Lemma \ref{ProgressionOfSubcategoriesOfElasticTopos} yields, via Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}, the following [[adjoint modalities]] (Def. \ref{AdjointModality})
+Given an [[elastic topos]] ([[differentially cohesive topos]]) $\mathbf{H}$ over $\mathbf{H}_{red}$ (Def. \ref{DifferentialCohesion}), [[composition]] of the functors in Lemma \ref{ProgressionOfSubcategoriesOfElasticTopos} yields, via Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}, the following [[adjoint modalities]] (Def. \ref{AdjointModality})
 
 $$
   \Re \dashv \Im \dashv \&
@@ -879,8 +878,7 @@ $$
   \,.
 $$
 
-Since $\iota_{inf}$ and $i\ast$ are [[fully faithful functors]] by assumption,
-these are ([[comodal operator|co-]])[[modal operators]] (Def. \ref{ModalOperator}) on the [[cohesive topos]], by (Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}).
+Since $\iota_{inf}$ and $Disc_{inf}$ are [[fully faithful functors]] by assumption, these are ([[comodal operator|co-]])[[modal operators]] (Def. \ref{ModalOperator}) on the [[cohesive topos]], by (Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}).
 
 We pronounce these as follows:
 
@@ -917,16 +915,14 @@ and we refer to the corresponding [[modal objects]] (Def. \ref{ModalObjects}) as
 ###### Proposition
 **(progresssion of [[adjoint modalities]] on [[elastic topos]])**
 
-Let $\mathbf{H}$ be an [[elastic topos]] (Def. \ref{DifferentialCohesion}) and consider the [[adjoint modalities]] from Def. \ref{CohesiveModalities} and Def. \ref{CohesiveModalities}:
+Let $\mathbf{H}$ be an [[elastic topos]] (Def. \ref{DifferentialCohesion}) and consider the corresponding [[adjoint modalities]] from Def. \ref{CohesiveModalities} and Def. \ref{DiffCohesiveModalities}:
 
 
 | $\phantom{A}$ [[shape modality]] $\phantom{A}$ | $\phantom{A}$ [[flat modality]] $\phantom{A}$ | $\phantom{A}$ [[sharp modality]] $\phantom{A}$ |
 |--------------------|-------------------|--------------------|
 |   $\phantom{A}$  $&#643; \;\coloneqq\; Disc \circ Pi_0$  $\phantom{A}$ | $\phantom{A}$ $\flat \;\coloneqq\; Disc \circ \Gamma$ $\phantom{A}$  | $\phantom{A}$ $\sharp \;\coloneqq\; coDisc \circ \Gamma $ $\phantom{A}$  |
-{: style='margin:auto}
-
+|   |    |   |
 | $\phantom{A}$ [[reduction modality]] $\phantom{A}$ | $\phantom{A}$ [[infinitesimal shape modality]] $\phantom{A}$ | $\phantom{A}$ [[infinitesimal flat modality]] $\phantom{A}$ |
-|--------------------|-------------------|--------------------|
 |   $\phantom{A}$  $\Re \;\coloneqq\; \iota_{inf} \circ \Pi_{inf}$  $\phantom{A}$ | $\phantom{A}$ $\Im \;\coloneqq\; Disc_{inf} \circ \Pi_{inf}$ $\phantom{A}$  | $\phantom{A}$ $ \& \;\coloneqq\; Disc_{inf} \circ \Gamma_{inf} $ $\phantom{A}$  |
 {: style='margin:auto}
 
@@ -975,9 +971,10 @@ $$
   \text{and}
   \phantom{AAA}
   \Gamma_{inf} Disc_{inf} \;\simeq\; id
+  \,,
 $$
 
-which holds by Prop. \ref{FullyFaithfulAndInvertibleAdjoints}, since $Disc_{inf}$ is a [[fully faithful functor]] and $\Pi_{inf}$, $i_$ are ([[coreflective subcategory|co-]])[[reflective subcategory|reflectors]] for it, respectively:
+which holds by Prop. \ref{FullyFaithfulAndInvertibleAdjoints}, since $Disc_{inf}$ is a [[fully faithful functor]] and $\Pi_{inf}$, Gamma_{inf}$ are ([[coreflective subcategory|co-]])[[reflective subcategory|reflectors]] for it, respectively:
 
 $$
   \begin{aligned}
@@ -986,7 +983,7 @@ $$
     &
     =
      Disc_{inf} \Gamma_{inf}
-    \underset{ i_{\ast} Disc_{red} }{\underbrace{\;\;\;\Disc\;\;\;}} \Gamma
+    \underset{ Disc_{inf} Disc_{red} }{\underbrace{\;\;\;\Disc\;\;\;}} \Gamma
     \\
     & =
     \underset{
@@ -1103,17 +1100,23 @@ $$
 
 has a [[right adjoint]]
 
+exhibiting also $\mathbf{H}$ as being being an [[elastic topos]] over $\mathbf{H}_{red}$, via 
+
 $$
-  \mathbf{H}_{red}
-    \underoverset
-      {\underset{\phantom{AA}\Gamma_{sup}\phantom{AA}}{\longleftarrow}}
-      {\overset{ Disc_{sup} Disc_{inf} }{\hookrightarrow}}
-      {\bot}
-  \mathbf{H}
+  \iota_{sup} \iota_{inf}
+  \;\dashv\;
+  Pi_{inf}\Pi_{sup}
+  \;\dashv\;
+  Disc_{sup} Disc_{inf}  
+  \;\dashv\;
+  \Gamma_{sup}
+  \,.
 $$
 
 
 =--
+
+
 
 +-- {: .num_lemma #ProgressionOfSubcategoriesOfSolidTopos}
 ###### Lemma
@@ -1191,5 +1194,155 @@ for the [[adjoint quadruple]] exhibiting the [[cohesion]] of $\mathbf{H}$ itself
 
 =--
 
++-- {: .proof}
+###### Proof
+
+As in the proof of Prop. \ref{ProgressionOfSubcategoriesOfElasticTopos},  this is immediate by the essential uniqueness of adjoints (Prop. \ref{UniquenessOfAdjoints}) and of the [[global section]]-[[geometric morphism]] (Example \ref{GlobalSectionsGeometricMorphism}).
+
+=--
+
++-- {: .num_defn #SuperDiffCohesiveModalities}
+###### Definition
+**([[adjoint modalities]] on [[solid topos]])** 
+
+Given a [[solid topos]] $\mathbf{H}$ over $\mathbf{H}_{bos}$ (Def. \ref{SuperDifferentialCohesion}), [[composition]] of the functors in Lemma \ref{ProgressionOfSubcategoriesOfSolidTopos} yields, via Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}, the following [[adjoint modalities]] (Def. \ref{AdjointModality})
+
+$$
+  \rightrightarrows
+  \;\dashv\;
+  \rightsquigarrow
+  \;\dashv\;
+  Rh
+  \;\;\colon\;\;
+  \mathbf{H}
+    \array{
+      \overset{ \rightrightarrows \;\coloneqq\; \iota_{sup} \circ even  }{\longleftarrow}
+      \\
+      \overset{\rightsquigarrow \;\coloneqq\; \iota_{sup} \circ \Pi_{sup}  }{\longrightarrow}
+      \\
+      \overset{ Rh \;\coloneqq\; Disc_{sup}  \circ \Pi_{sup} }{\longleftarrow}
+    }
+  \mathbf{H}
+  \,.
+$$
+
+s
+Since $\iota_{sup}$ and $Disc_{sup}$ are [[fully faithful functors]] by assumption,
+these are ([[comodal operator|co-]])[[modal operators]] (Def. \ref{ModalOperator}) on the [[cohesive topos]], by (Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}).
+
+We pronounce these as follows:
+
+| $\phantom{A}$ [[fermionic modality]] $\phantom{A}$ | $\phantom{A}$ [[bosonic modality]] $\phantom{A}$ | $\phantom{A}$ [[rheonomy modality]] $\phantom{A}$ |
+|--------------------|-------------------|--------------------|
+|   $\phantom{A}$  $\rightrightarrows \;\coloneqq\; \iota_{sup} \circ even$  $\phantom{A}$ | $\phantom{A}$ $\rightsquigarrow \;\coloneqq\; Disc_{sup} \circ \Pi_{sup}$ $\phantom{A}$  | $\phantom{A}$ $ Rh \;\coloneqq\; Disc_{sup} \circ \Pi_{sup} $ $\phantom{A}$  |
+{: style='margin:auto}
+
+and we refer to the corresponding [[modal objects]] (Def. \ref{ModalObjects}) as follows:
+
+* a [[bosonic modality|bosonic]]-[[comodal object]]
+
+  $$
+    \overset{\rightsquigarrow}{X}
+      \underoverset{\simeq}{\epsilon^\rightsquigarrow_X}{\longrightarrow}
+    X
+  $$
+
+  is called a _[[bosonic object]]_;
+
+
+=--
+
+
++-- {: .num_prop #ProgressionOfModalitiesOnElasticTopos}
+###### Proposition
+**(progresssion of [[adjoint modalities]] on [[solid topos]])**
+
+Let $\mathbf{H}$ be a [[solid topos]] (Def. \ref{SuperDifferentialCohesion}) and consider the [[adjoint modalities]] from Def. \ref{CohesiveModalities}, Def. \ref{DiffCohesiveModalities} and Def. \ref{SuperDiffCohesiveModalities}:
+
+
+| $\phantom{A}$ [[shape modality]] $\phantom{A}$ | $\phantom{A}$ [[flat modality]] $\phantom{A}$ | $\phantom{A}$ [[sharp modality]] $\phantom{A}$ |
+|--------------------|-------------------|--------------------|
+|   $\phantom{A}$  $&#643; \;\coloneqq\; Disc \Pi$  $\phantom{A}$ | $\phantom{A}$ $\flat \;\coloneqq\; Disc \circ \Gamma$ $\phantom{A}$  | $\phantom{A}$ $\sharp \;\coloneqq\; coDisc \circ \Gamma $ $\phantom{A}$  |
+|   |   |   |
+| $\phantom{A}$ **[[reduction modality]]** $\phantom{A}$ | $\phantom{A}$ **[[infinitesimal shape modality]]** $\phantom{A}$ | $\phantom{A}$ **[[infinitesimal flat modality]]** $\phantom{A}$ |
+|   $\phantom{A}$  $\Re \;\coloneqq\; \iota_{sup} \iota_{inf} \circ \Pi_{inf}Pi_{sup}$  $\phantom{A}$ | $\phantom{A}$ $\Im \;\coloneqq\; Disc_{sup} Disc_{inf} \circ \Pi_{inf} \Pi_{sup}$ $\phantom{A}$  | $\phantom{A}$ $ \& \;\coloneqq\; Disc_{sup} Disc_{inf} \circ \Gamma_{inf}\Gamma_{sup} $ $\phantom{A}$  |
+|   |    |    |
+| $\phantom{A}$ **[[fermionic modality]]** $\phantom{A}$ | $\phantom{A}$ **[[bosonic modality]]** $\phantom{A}$ | $\phantom{A}$ **[[rheonomy modality]]** $\phantom{A}$ |
+|   $\phantom{A}$  $\rightrightarrows \;\coloneqq\; \iota_{sup} \circ even$  $\phantom{A}$ | $\phantom{A}$ $\rightsquigarrow \;\coloneqq\; Disc_{sup} \circ \Pi_{sup}$ $\phantom{A}$  | $\phantom{A}$ $ Rh \;\coloneqq\; Disc_{sup} \circ \Pi_{sup} $ $\phantom{A}$  |
+{: style='margin:auto}
+
+Then these arrange into the following progression, via the [[preorder]] on modalities from Def. \ref{PreorderOnModalities}
+
+$$
+  \array{    
+    id &\dashv& id
+    \\
+    \vee && \vee
+    \\
+    \rightrightarrows && \rightsquigarrow && Rh
+    \\
+    && \vee && \vee
+    \\
+    && \Re &\dashv& \Im &\dashv& \&
+    \\
+    && && \vee && \vee
+    \\
+    && && &#643; &\dashv& \flat &\dashv& \sharp
+    \\
+    && && && \vee && \vee
+    \\
+    && && && \emptyset &\dashv& id
+  }
+$$
+
+where we display also the [[adjoint modalities]]  at the [[bottom]] $\emptyset \dashv \ast$ and the [[top]] $id \dashv id$   (Example \ref{InitialAndFinalAdjointModality}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The proof is directly analogous to that of Prop. \ref{ProgressionOfModalitiesOnElasticTopos}:
+
+$$
+  \begin{aligned}
+    Rh \Im 
+    & =
+    Disc_{sup} 
+    \underset{
+      \simeq id
+    }{
+    \underbrace{
+      \Pi_{sup} Disc_{sup}
+    } 
+    }
+    Disc_{inf} \Pi_{inf} \Pi_{sup}
+    \\
+    & \simeq 
+    Disc_{sup} Disc_{inf} \Pi_{inf} \Pi_{sup}
+    \\
+    & = \Im
+  \end{aligned}
+$$
+
+and
+
+$$
+  \begin{aligned}
+    \rightsquigarrow \Re
+    & =
+    \iota_{sup} 
+    \underset{\simeq id}{\underbrace{
+    \Pi_{sup} \iota_{sup}}}
+    \iota_{inf} \Pi_{inf}\Pi_{sub}
+    \\
+    & \simeq
+    \iota_{sup} \iota_{inf} \Pi_{inf} \Pi_{sub}    
+    \\
+    & \simeq \Re
+  \end{aligned}
+$$
+
+=--
 
 (...)
