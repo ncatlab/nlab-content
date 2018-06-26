@@ -760,10 +760,10 @@ $\,$
 ###### Definition
 **([[differentially cohesive topos]])**
 
-Let $\mathbf{H}_{red}$ be a [[cohesive topos]] (Def. \ref{CohesiveTopos}). Then a [[differentially cohesive topos]] over $\mathbf{H}_{red}$ is another [[cohesive topos]] $\mathbf{H}$, equipped with an [[adjoint quadruple|quadrupe]] of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) of the form
+Let $\mathbf{H}_{red}$ be a [[cohesive topos]] (Def. \ref{CohesiveTopos}). Then a [[differentially cohesive topos]] over $\mathbf{H}_{red}$ is another [[cohesive topos]] $\mathbf{H}$, equipped with an [[adjoint quadruple|quadruple]] of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) of the form
 
 $$
-  \mathbf{H}
+  \mathbf{H}_{red}
     \array{
       \overset{\phantom{AA} i_! \phantom{AA} }{\hookrightarrow}
       \\
@@ -773,10 +773,11 @@ $$
       \\
       \overset{\phantom{AA} i^! \phantom{AA} }{\longleftarrow}
     }
-  \mathbf{H}_{red}
+  \mathbf{H}
 $$
 
 =--
+
 
 +-- {: .num_defn #CohesiveModalities}
 ###### Definition
@@ -789,11 +790,11 @@ $$
   \;\;\colon\;\;
   \mathbf{H}
     \array{
-      \overset{ \Re \;\coloneqq\; i_! \circ i^\ast  }{\hookleftarrow}
+      \overset{ \Re \;\coloneqq\; i_! \circ i^\ast  }{\longleftarrow}
       \\
       \overset{\flat \;\coloneqq\; i_\ast \circ i^\ast  }{\longrightarrow}
       \\
-      \overset{ \sharp \;\coloneqq\; i_\ast  \circ i^! }{\hookleftarrow}
+      \overset{ \sharp \;\coloneqq\; i_\ast  \circ i^! }{\longleftarrow}
     }
   \mathbf{H}
   \,.
