@@ -181,6 +181,7 @@ For reference, recall:
 
 +-- {: .num_defn #SuperCartesianSpace}
 ###### Definition
+**([[Grassmann algebra]])**
 
 For $q\in \mathbb{N}$, the real [[Grassmann algebra]]
 
@@ -259,7 +260,9 @@ $C^\infty(\mathbb{R}^{p|q})$.
 Moreover, we write
 
 $$
-  CartSp \hookrightarrow SuperCartSp
+  CartSp 
+    \overset{\phantom{AAAA}}{\hookrightarrow}
+  SuperCartSp
 $$
 
 for the [[full subcategory]] on ordinary [[Cartesian spaces]] with [[smooth functions]] between them. These are the "abstract coordinate charts" from the discussion at _[[geometry of physics -- smooth sets]]_,
@@ -270,15 +273,19 @@ Recall the two magic algebraic properties of [[smooth functions]] that make the 
 
 1. (**[[embedding of smooth manifolds into formal duals of R-algebras]]**)
 
-   The functor that assigns [[algebra of functions|algebras of]] [[smooth function]] to [[smooth manifolds]]
+   The [[functor]] that assigns [[algebra of functions|algebras of]] [[smooth functions]] to [[smooth manifolds]]
 
    $$
-     C^\infty(-) \;\colon\; SmthMfd \hookrightarrow CAlg_{\mathbb{R}}^{op}
-      \hookrightarrow
-      sCAlg_{\mathbb{R}}^{op}
+     C^\infty(-) 
+       \;\colon\; 
+     SmthMfd 
+      \overset{\phantom{AAAA}}{\hookrightarrow} 
+     CAlg_{\mathbb{R}}^{op}
+      \overset{\phantom{AAAA}}{\hookrightarrow}
+     sCAlg_{\mathbb{R}}^{op}
    $$
 
-   is [[fully faithful functor|fully faithful]].
+   is [[fully faithful functor|fully faithful]] ([this Def.](geometry+of+physics+--+categories+and+toposes#FullyFaithfulFunctor)).
 
 1. (**[[smooth Serre-Swan theorem]]**)
 
@@ -2568,19 +2575,37 @@ It is immediate to generalize this to [[supergeometry]], one just needs to be su
 
 +-- {: .num_defn #SuperDeRhamComplex}
 ###### Definition
+**([[de Rham complex]] of [[super differential forms]])**
 
-The de Rham complex of [[super differential forms]] $\Omega^\bullet(\mathbb{R}^{p|q})$ on a [[super Cartesian space]] $\mathbb{R}^{p|q}$ is the $(\mathbb{Z},\mathbb{Z}_2)$-bigraded commutative algebra
+The [[de Rham complex]] of [[super differential forms]] $\Omega^\bullet(\mathbb{R}^{p|q})$ on a [[super Cartesian space]] $\mathbb{R}^{p|q}$ is the $(\mathbb{Z},\mathbb{Z}_2)$-bigraded commutative algebra
+
 
 $$
-  \Omega^\bullet(\mathbb{R}^{p|q})
-  =
-  C^\infty(\mathbb{R}^{p|q})
-    \otimes_{\mathbb{R}}
-   \wedge^\bullet \langle
-      \mathbf{d}x^1, \cdots, \mathbf{d}x^p,
-      \;
-      \mathbf{d}\theta^1, \cdots, \mathbf{d}\theta^q
-   \rangle
+  \array{
+    &
+    \Omega^\bullet(\mathbb{R}^{p|q})
+     &=&
+     C^\infty(\mathbb{R}^{p|q})
+      &
+       \otimes_{\mathbb{R}}
+      &
+      \wedge^\bullet \langle
+      &
+       \mathbf{d}x^1, \cdots, \mathbf{d}x^p,
+      &
+        \mathbf{d}\theta^1, \cdots, \mathbf{d}\theta^q
+      &
+     \rangle
+     \\
+     \text{bidegree:}
+     &
+     &&
+     (0,even)
+     &&&
+     (1,even)
+     &
+     (1,odd)
+  }
 $$
 
 whose [[differential]] is defined in degree-0 by
