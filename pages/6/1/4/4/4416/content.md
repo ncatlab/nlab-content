@@ -1,4 +1,10 @@
-_Francis Borceux_ is a category theorist at Louvain (Belgium). He wrote a 3-volume 
+_Francis Borceux_ is a [[category theory|category theorist]] at Louvain (Belgium). 
+
+* [Mathematics Genealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=111971)
+
+## Writings
+
+Borceux wrote a 3-volume 
 
 * __[[Handbook of Categorical Algebra]]__
 
@@ -9,6 +15,11 @@ He coauthored books
 * F. Borceux, [[Dominique Bourn]], _[[Borceux-Bourn|Mal'cev, protomodular, homological and semi-abelian categories]]_, Mathematics and Its Applications __566__, Kluwer 2004
 
 * Francis Borceux, Gilberte Van den Bossche, _Algebra in a localic topos with applications to ring theory_, Lecture Notes in Mathematics __1038__, Springer 1983, ix+240 pp. [MR85h:18005](http://www.ams.org/mathscinet-getitem?mr=724431)
+
+Introduction to [[topos theory]]:
+
+* [[Francis Borceux]], _Some glances at topos theory_ , lecture notes Como 2018. ([pdf](http://tcsc.lakecomoschool.org/files/2018/06/Como2018.pdf))
+
 
 Some other papers
 
