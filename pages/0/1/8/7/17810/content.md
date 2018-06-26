@@ -1,14 +1,12 @@
 
 
-$\,$
+> this entry is the first section of "[[geometry of physics -- supergeometry and superphysics|supergeometry and superphysics]]",
 
-$\,$
-
-
-> this entry is the first section of "[[geometry of physics -- supergeometry and superphysics]]",
 > which itself is one chapter of "[[geometry of physics]]"
 
-> next section: _[[geometry of physics -- supergeometry]]_
+> next section: _[[geometry of physics -- supergeometry|supergeometry]]_
+
+> previous chapter: _[[geometry of physics -- categories and toposes|categories and toposes]]_
 
 $\,$
 
@@ -23,17 +21,14 @@ In [[nLab:Klein geometry]] and [[nLab:Cartan geometry]] the fundamental geometri
 {:toc}
 
 
-The beauty of [[supercommutative superalgebra]] is that it is just [[commutative algebra]]
-"[[internalization|internal]]" to the [[tensor category]] of [[super vector spaces]].
-For instance an (affine algebraic) [[supergroup]] (i.e. a super [[symmetry group|symmetry-group]], i.e. a [[supersymmetry|super-symmetry]] group)
+The beauty of [[supercommutative superalgebra]] (Def. \ref{SupercommutativeSuperalgebra} below) is that it is just [[commutative algebra]] "[[internalization|internal]]" to the [[tensor category]] of [[super vector spaces]]. (See the chapter _[[geometry of physics -- categories and toposes|on categories and toposes]]_ for the basic concepts of [[categories]] and [[monoidal categories]]). For instance an (affine algebraic) [[supergroup]] (i.e. a super [[symmetry group|symmetry-group]], i.e. a [[supersymmetry|super-symmetry]] group)
 is just a [[commutative Hopf algebra]] internal to super vector spaces.
-The beauty of [[super vector spaces]], in turn, is that these are just $\mathbb{Z}/2$-[[graded vector spaces]]
-equipped with the _unique_ non-trivial [[symmetric monoidal category|symmetric braiding]].
-Better yet, _all_ [[tensor categories]] subject to a mild size constraint are [[equivalence of categories|equivalently]]
-[[categories of representations]] of [[supergroups]]. This is the main theorem of this section, theorem \ref{TheTheorem}
-below ([[Deligne's theorem on tensor categories]]).
+The beauty of [[super vector spaces]], in turn, is that these are just $\mathbb{Z}/2$-[[graded vector spaces]] equipped with the _unique_ non-trivial [[symmetric monoidal category|symmetric braiding]].
+Better yet, _all_ [[tensor categories]] subject to a mild size constraint are [[equivalence of categories|equivalently]] [[categories of representations]] of [[supergroups]]. This is the main theorem of this section, theorem \ref{TheTheorem} below ([[Deligne's theorem on tensor categories]]).
 
+<center>
 <img src="https://ncatlab.org/schreiber/files/DeligneSuperFiberFunctor.png" width="600">
+</center>
 
 Here we introduce and explain all this.
 
@@ -91,7 +86,7 @@ the theorem and give some broad indication as to how the proof proceeds in the l
 +-- {: .num_defn #VectorSpaces}
 ###### Definition
 
-For $k$ a [[field]], we write $Vect_k$ for the [[category]] whose
+For $k$ a [[field]], we write [[Vect]]${}_k$ for the [[category]] ([this Def.](geometry+of+physics+--+categories+and+toposes#Categories)) whose
 
 * [[objects]] are $k$-[[vector spaces]];
 
@@ -108,7 +103,7 @@ Of course the category [[Vect]] has some special properties. Not only are its ob
 +-- {: .num_defn #AdditiveAndAbelianCategories}
 ###### Definition
 
-Let $\mathcal{C}$ be a [[category]].
+Let $\mathcal{C}$ be a [[category]] ([this Def.](geometry+of+physics+--+categories+and+toposes#Categories)).
 
 1. Say that $\mathcal{C}$ has **[[direct sums]]** if it has [[finite products]] and [[finite coproducts]] and if the canonical comparison  morphism between these is an [[isomorphism]]. We write $V \oplus W$ for the direct sum of two objects of $\mathcal{C}$.
 
@@ -214,11 +209,12 @@ More abstractly this means that the [[tensor product of vector spaces]] is the v
 
 =--
 
-The existence of the [[tensor product of vector spaces]], def. \ref{TensorProductOfVectorSpaces}, equips the category [[Vect]] of vector spaces with extra structure, which is a "[[categorification]]" of the familiar structure of a [[semi-group]]. One also says "[[monoid]]" for [[semi-group]] and therefore [[categories]] equipped with a [[tensor product]] operation are also called  _[[monoidal categories]]_:
+The existence of the [[tensor product of vector spaces]], def. \ref{TensorProductOfVectorSpaces}, equips the category [[Vect]] of vector spaces with extra structure, which is a "[[categorification]]" of the familiar structure of a [[semi-group]]. One also says "[[monoid]]" for [[semi-group]] and therefore [[categories]] equipped with a [[tensor product]] operation are also called  _[[monoidal categories]]_ ([this Def.](geometry+of+physics+--+categories+and+toposes#MonoidalCategory)):
 
 
 +-- {: .num_defn #MonoidalCategory}
 ###### Definition
+**([[monoidal category]])**
 
 A **[[monoidal category]]** is a [[category]] $\mathcal{C}$ equipped with
 
@@ -322,6 +318,7 @@ As expected, we have the following basic example:
 
 +-- {: .num_example #VectAsAMonoidalCategory}
 ###### Example
+**([[monoidal category]] of [[vector spaces]])** 
 
 For $k$ a [[field]], the category [[Vect]]${}_k$ of $k$-[[vector spaces]] becomes a [[monoidal category]] (def. \ref{MonoidalCategory}) as follows
 
@@ -358,6 +355,7 @@ But the point of the abstract definition of [[monoidal categories]] is that ther
 
 +-- {: .num_example #GradedVectorSpacesAsAMonoidaCategory}
 ###### Example
+**([[monoidal categories]] of [[graded vector spaces]])**
 
 Let $G$ be a [[group]] (or in fact just a [[monoid]]/[[semi-group]]). A **$G$-[[graded vector space]]** $V$ is a [[direct sum]] of vector spaces labeled by the elements in $G$:
 
@@ -473,10 +471,11 @@ Just as for an [[associative algebra]] it is sufficient to demand $1 a = a$ and 
 The above discussion makes it clear that a [[monoidal category]] is like a [[monoid]]/[[semi-group]], but "[[categorified]]". Accordingly we may consider additional properties of [[monoids]]/[[semi-groups]] and correspondingly lift them to monoidal categories. A key such property is _[[commutative ring|commutativity]]_. But while for a monoid commutativity is just an extra [[property]], for a [[monoidal category]] it involves choices of commutativity-[[isomorphisms]] and hence is [[stuff, structure and property|extra structure]].
 We will see [below](#SuperGroupsAsSuperHopfAlgebras) that this is the very source of [[superalgebra]].
 
-The [[categorification]] of "commutativity" comes in two stages: [[braiding]] and [[symmetric monoidal category|symmetric braiding]].
+The [[categorification]] of "commutativity" comes in two stages: [[braiding]] and [[symmetric monoidal category|symmetric braiding]] ([this Def.](geometry+of+physics+--+categories+and+toposes#BraidedMonoidalCategory) and [this Def.](geometry+of+physics+--+categories+and+toposes#SymmetricMonoidalCategory)).
 
 +-- {: .num_defn #BraidedMonoidalCategory}
 ###### Definition
+**([[braided monoidal category]])**
 
 A **[[braided monoidal category]]**, is a [[monoidal category]] $\mathcal{C}$ (def. \ref{MonoidalCategory}) equipped with a [[natural isomorphism]]
 
@@ -1838,6 +1837,7 @@ Example \ref{MonoidsInVectAreAssociativeAlgebras} motivates the following defini
 
 +-- {: .num_defn #SupercommutativeSuperalgebra}
 ###### Definition
+**([[supercommutative superalgebra]])**
 
 A **[[supercommutative superalgebra]]** is a [[commutative monoid]] (def. \ref{MonoidsInMonoidalCategory}) in the [[symmetric monoidal category|symmetric monoidal]] [[category of super vector spaces]] (def. \ref{CategoryOfSuperVectorSpaces}). We write $sCAlg_k$ for the [[category]] of [[supercommutative superalgebras]] with the induced [[homomorphisms]] between them:
 
@@ -2448,8 +2448,8 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-Beware that there is also the concept of $\mathbb{Z$-graded objects in the category of super vector spaces,
-which is not equivalent to the concept in def. \ref{SuperZGradedVectorSpaces}.
+Beware that there is also the concept of $\mathbb{Z}$-[[graded objects]] [[internalization|internal]] to the category of [[super vector spaces]].
+This is _not_ equivalent to the concept in def. \ref{SuperZGradedVectorSpaces}.
 
 =--
 
@@ -2477,7 +2477,7 @@ $$
   \,.
 $$
 
-These are often called _$\mathbb{Z}$-graded commutative algebras_.
+These are often called _$\mathbb{Z}$-[[graded commutative algebras]]_.
 
 =--
 
@@ -2489,10 +2489,8 @@ commutative algebras in [[homological algebra]] and in [[stable homotopy theory]
 +-- {: .num_example}
 ###### Example
 
-The [[category of chain complexes]] $Ch_\bullet(k)$ becomes a [[closed monoidal category|closed]]
-[[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory}, def. \ref{ClosedMonoidalCategory})
-with [[tensor product of chain complexes]] given degreewise by the tensor product of
-underlying $\mathbb{Z}$-[[graded vector spaces]] (example \ref{GradedVectorSpacesAsAMonoidaCategory})
+The [[category of chain complexes]] $Ch_\bullet(k)$ becomes a [[closed monoidal category|closed]] [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory}, def. \ref{ClosedMonoidalCategory})
+with [[tensor product of chain complexes]] given degreewise by the tensor product of underlying $\mathbb{Z}$-[[graded vector spaces]] (example \ref{GradedVectorSpacesAsAMonoidaCategory})
 and with [[differential]] given on elements in homogeneous degree by
 
 $$
@@ -2504,7 +2502,7 @@ $$
   \,.
 $$
 
-See at _[[schreiber:HAI|Introduction to Homological Algebra]]_ the section _[Categories of chain complexes](https://ncatlab.org/schreiber/show/Introduction+to+Homological+algebra#CategoriesOfChainComplexes)_.
+See at the chapter _[[geometry of physics -- homotopy types|on homotopy types]]_ the section _[Categories of chain complexes](geometry+of+physics+--+homotopy+types#CategoriesOfChainComplexes)_.
 
 A __[[differential graded-commutative algebra]] is a [[commutative monoid]] in $Ch(k)_\bullet$
 (def. \ref{MonoidsInMonoidalCategory}).
