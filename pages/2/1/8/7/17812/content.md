@@ -1090,95 +1090,15 @@ $\{$[[super formal smooth sets|super smooth sets]]$\}$ .
 
 
 
-+-- {: .num_prop #SmoothSetsContainSmoothManifolds}
-###### Proposition
-**([[smooth manifolds]] and [[Fréchet manifolds]] [[fully faithful functor|fully faithful]] among [[smooth sets]])**
 
-
-Write [[SmoothMfd]] for the [[category]] of [[smooth manifolds]] with [[smooth functions]] between them. Then the construction
-that sends a smooth manifold $X$ to the [[smooth set]] (def. \ref{SmoothSet})
-given by the rule (via remark \ref{ASheafAsASpace})
-
-$$
-  \mathbb{R}^n \mapsto C^\infty(\mathbb{R}^n, X)
-$$
-
-constitutes a [[full subcategory]] inclusion ([this Def.](geometry+of+physics+--+categories+and+toposes#FullyFaithfulFunctor))
-
-$$
-  SmoothMfd \phantom{AAAA}{\hookrightarrow} SmoothSet
-  \,.
-$$
-
-More generally, write $FrechetMfd$ for the [[category]] of [[Fréchet manifolds]] and [[smooth functions]] between these, which generalizes smooth manifolds to possibly [[infinite-dimensional manifold|infinite-dimensional]] smooth manifolds
-
-$$
-  CartSp 
-   \overset{\phantom{AAAA}}{\hookrightarrow} 
-  SmoothMfd 
-    \overset{\phantom{AAAA}}{\hookrightarrow} 
-  FrechetMfd
-  \,.
-$$
-
-For $X,Y$ two [[Fréchet manifolds]], write again $C^\infty(X,Y)$ for the set of smooth functions between them. Then the same kind of construction as before, sending a Fr&#233;chet manifold to the rule
-
-$$
-  \mathbb{R}^n \mapsto C^\infty(\mathbb{R}^n, X)
-$$
-
-defines a [[fully faithful functor]] ([this Example](geometry+of+physics+--+categories+and+toposes#FullyFaithfulFunctor))
-
-$$
-  FrechetMfd \overset{\phantom{AAAA}}{\hookrightarrow} SmoothSet
-  \,,
-$$
-
-hence a [[full subcategory]] inclusion.
-
-=--
-
-The first statement in prop. \ref{SmoothSetsContainSmoothManifolds} is immediate. A **proof** of the second statement is due to ([Losik 94, theorem 3.1.1](diffeological+space#Losik)),
-see [this prop.](diffeological+space#FrechetEmbedding). Or rather, what Losik proves is that this construction gives a full embedding
-into the category of [[diffeological spaces]]. But these in turn fully embed into smooth sets:
-
-+-- {: .num_defn #DiffeologicalSpace}
-###### Definition
-**([[diffeological spaces]])**
-
-A **[[diffeological space]]** $X$ ([this Def.](geometry+of+physics+--+smooth sets#DiffeologicalSpace)) is a [[smooth set]] (def. \ref{SmoothSet}) which is [[concrete sheaf|concrete]] ([this def.](geometry+of+physics+--+categories+and+toposes#CohesiveModalities)).
-
-This means that there exists a [[set]] $X_s \in $ [[Set]] such that the sets of smooth maps from Cartesian spaces $\mathbb{R}^n$ into $X$ are [[natural transformation|naturally]] [[subset|subsets]] of the set of maps from the underlying set $\mathbb{R}^n_s \in Set$ of the Cartesian space
-to this set:
-
-$$
-  X(\mathbb{R}^n) \hookrightarrow Hom_{Set}(\mathbb{R}^n_s, X_s)
-  \,.
-$$
-
-Write
-
-$$
-  DiffeologicalSpace \overset{\phantom{AAAA}}{\hookrightarrow} SmoothSet
-$$
-
-for the [[full subcategory]] of such [[diffeological spaces]] among [[smooth sets]].
-
-=--
-
-By the strategy of remark \ref{GeneralizedSpaces} we now pass to generalized spaces which are locally modeled not
-just on plain Cartesian spaces, but also on [[formal smooth manifold|formal]] Cartesian spaces and on
-[[super Cartesian spaces]].
+By the strategy of remark \ref{GeneralizedSpaces} we now pass to generalized spaces which are locally modeled not just on plain Cartesian spaces, but also on [[formal Cartesian spaces]] and [[super formal Cartesian spaces]]
 
 
 +-- {: .num_defn #FormalSmoothSets}
 ###### Definition
 **([[super formal smooth sets]])**
 
-Define a [[coverage]] on the categories $FormalCartSp$ (def. \ref{FormalCartSp})
-and on $SuperFormalCartSp$ (def. \ref{SuperFormalCartSp}) by declaring the [[covering]]
-families of any object $\mathbb{R}^n \times \mathbb{D}$ (hence for $\mathbb{D}$
-with $\mathcal{O}(\mathbb{D}) = (\mathbb{R} \oplus V)$ any infinitesimally thickened
+Define a [[coverage]] on the categories $FormalCartSp$ (def. \ref{FormalCartSp}) and on $SuperFormalCartSp$ (def. \ref{SuperFormalCartSp}) by declaring the [[covering]] families of any object $\mathbb{R}^n \times \mathbb{D}$ (hence for $\mathbb{D}$ with $\mathcal{O}(\mathbb{D}) = (\mathbb{R} \oplus V)$ any infinitesimally thickened
 superpoint) to be those of the form
 
 $$
@@ -1239,17 +1159,15 @@ $$
 
 Moreover, by prop. \ref{SystemOfSites} these four sites form a [[filtration]] of the site $SuperFormalCartSp$
 by consecutively smaller subsites, where each inclusion is either [[reflective subcategory|reflective]]
-or [[coreflective subcategory|coreflective]] or both. The following states how this filtration of sites
-extends to their categories of sheaves.
+or [[coreflective subcategory|coreflective]] or both. The following states that this filtration of sites extends to their categories of sheaves.
 
 
 
 +-- {: .num_prop #SuperSmoothSetsSystemOfAdjunctions}
 ###### Proposition
-**(system of [[adjoint functors]] on [[SuperFormalSmoothSet]])**
+**(progression of ([[coreflective subcategory|co-]])[[reflective subcategories]] of [[SuperFormalSmoothSet]])**
 
-There exists an essentially unique system of [[functors]] between the categories of [[sets]],
-[[smooth sets]] (def. \ref{SmoothSet}), [[formal smooth sets]] and [[super formal smooth sets]] (def. \ref{FormalSmoothSets})
+There exists an essentially unique system of [[functors]] between the categories of [[sets]], [[smooth sets]] (def. \ref{SmoothSet}), [[formal smooth sets]] and [[super formal smooth sets]] (def. \ref{FormalSmoothSets})
 as shown in the second and third row of the following diagram, such that
 
 1. every [[pair]] of consecutive [[functors]] is an [[adjoint pair]] ([this Def.](geometry+of+physics+--+categories+and+toposes#AdjointFunctorsInTermsOfNaturalBijectionOfHomSets)), with the functor above being [[left adjoint]] and the functor below being [[right adjoint]]
@@ -1267,7 +1185,7 @@ In such a situation we also say that in the third row
 
 1. the middle four functors exhibit [[SuperFormalSmoothSet]] as [[differentially cohesive topos]] (elastic topos) relative to [[SmoothSet]] ([this Def.](https://ncatlab.org/nlab/show/geometry+of+physics+--+categories+and+toposes#DifferentialCohesion));
 
-1. the top four functors exhibit $SuperFormalSmoothSet$ as _solid topos_ relative to [[FormalSmoothSet]] (...)
+1. the top four functors exhibit $SuperFormalSmoothSet$ as _solid topos_ relative to [[FormalSmoothSet]] ([this Def.](geometry+of+physics+--+categories+and+toposes#SuperDifferentialCohesion))
 
 =--
 
