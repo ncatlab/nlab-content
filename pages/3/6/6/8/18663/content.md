@@ -76,3 +76,7 @@ of period 2.
 [[!redirects adjoint n-tuples]]
 [[!redirects distributive adjoint string]]
 [[!redirects distributive adjoint strings]]
+
+[[!redirects adjoint quintuple]]
+[[!redirects adjoint quintuples]]
+
