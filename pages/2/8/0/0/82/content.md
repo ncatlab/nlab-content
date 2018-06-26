@@ -46,10 +46,15 @@ There are always two ways to think of topos theory: as being
 
 ### Introductions
 
+A gentle basic introduction is 
 
-Introductions include 
+* [[John Baez]], [Topos Theory in a Nutshell](http://math.ucr.edu/home/baez/topos.html).
 
-* [[Ross Street]], _A survey of topos theory_ (notes for students, 1978) [pdf](http://www.math.mq.edu.au/~street/ToposSurvey.pdf)
+A quick introduction of the basic facts of [[Grothendieck topos]] theory is chapter I, "Background in topos theory" in 
+
+* [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ Lecture Notes in Mathematics 1616, Springer (1995).
+
+Other introductions include 
 
 * [[Tom Leinster]], _[[Leinster2010|An informal introduction to topos theory]]_ (2010)
 
@@ -59,50 +64,54 @@ Introductions include
 
 ### Textbooks
 
-A standard textbook is
+The mother of it all though not exactly a textbook
 
-* [[Peter Johnstone]], _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977, xxiii+367 pp.
+* {#SGA4} [[Michael Artin|M.Artin]], [[Alexander Grothendieck|A.Grothendieck]], [[J. L. Verdier]] (eds.), _Théorie des Topos et Cohomologie Etale des Schémas - SGA 4_ , LNM **269** Springer Heidelberg 1972.
+
+A still very useful reference is the monograph
+
+* [[Peter Johnstone]], _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977, xxiii+367 pp. (Available as Dover Reprint, Mineola 2014)
 
 This later grew into the more detailed
 
 * [[Peter Johnstone]], [[Elephant|Sketches of an elephant: a topos theory compendium]]
 
-A quick introduction of the basic facts of [[Grothendieck topos]] theory is chapter I, "Background in topos theory" in 
-
-* [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ Lecture Notes in Mathematics 1616, Springer (1995)
-
-A standard textbook on this case is
+Maybe the standard modern textbook on Grothendieck toposes is
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
-Introducing even category theory from the scratch while still managing to cover considerable ground, the following textbook is the _royal road to topos theory_ for people with some background in [[first-order logic]]:
+A thorough but clear first introduction to topos theory is
+
+* [[Francis Borceux]], _Handbook of Categorical Algebra 3 - Categories of Sheaves_ , Cambridge UP 1994.
+
+Introducing even category theory from the scratch while still managing to cover some ground, the following textbook is the _royal road to topos theory_ for people with some background in [[first-order logic]]:
 
 * {#Goldblatt84} R. Goldblatt, _Topoi - The Categorical Analysis of Logic_ , 2nd ed. North-Holland Amsterdam 1984. (Dover reprint New York 2006; [project euclid](http://projecteuclid.org/euclid.bia/1403013939))
 
+Similarly, the following monograph develops topos theory to considerable depth without categorical prerequisites
 
-A gentle basic introduction is 
+* [[Michael Barr]], [[Charles Wells]], _Toposes, Triples and Theories_ , Springer Heidelberg 1985. (Available as [TAC reprint no.12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html) 2005)
 
-* [[John Baez]], [Topos Theory in a Nutshell](http://math.ucr.edu/home/baez/topos.html).
+See also 
 
-A quick introduction of the basic facts of [[Grothendieck topos]] theory is chapter I, "Background in topos theory" in 
+* [[Olivia Caramello]], _Theories, Sites, Toposes_, Oxford UP 2017.
 
-* [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ Lecture Notes in Mathematics 1616, Springer (1995)
 
+### Course notes
 
 A survey is in
 
 * [[Ross Street]], _A survey of topos theory_ (notes for students, 1978) [pdf](http://www.math.mq.edu.au/~street/ToposSurvey.pdf)
 
-See also 
+A nice and concise introduction is available in
 
-* [[Olivia Caramello]], _Theories, Sites, Toposes_, Oxford 2017
-
-
-### Course notes
+* [[Francis Borceux]], _Some glances at topos theory_ , lecture notes Como 2018. ([pdf](http://tcsc.lakecomoschool.org/files/2018/06/Como2018.pdf))
 
 * [[Ieke Moerdijk]], [[Jaap van Oosten]], _Topos theory_ Master Class notes (2007) ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/toposmoeder.pdf))
 
 ### History
+
+* {#Lawvere00}[[F. William Lawvere]], *Comments on the development of topos theory*, pp.715-734 in Pier (ed.),  _Development of Mathematics 1950 - 2000_ , Birkh&#228;user Basel 2000. ([tac reprint](http://www.tac.mta.ca/tac/reprints/articles/24/tr24abs.html))
 
 * [[Colin McLarty]], _The Uses and Abuses of the History of Topos Theory_ , Brit. J. Phil. Sci., 41 (1990) ([JSTOR](http://www.jstor.org/stable/687825)) [PDF](http://bjps.oxfordjournals.org/content/41/3/351.full.pdf)
 
