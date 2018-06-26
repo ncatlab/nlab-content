@@ -210,13 +210,13 @@ see also
 
 Further discussion is in
 
-* [[Ronnie Brown]], Peter Higgins, _On the connections between the second relative homotopy groups of some related spaces_,  _Proc. London Math.  Soc._ (3) 36 (1978) 193-212.
+* [[Ronnie Brown]], [[Philip Higgins]], _On the connections between the second relative homotopy groups of some related spaces_,  _Proc. London Math.  Soc._ (3) 36 (1978) 193-212.
 
 * [[Ronnie Brown]], _Groupoids and crossed objects in algebraic topology_,  _Homology, Homotopy and Applications_, 1 (1999) 1-78.
 
 * {#Janelidze_03} [[George Janelidze]], _Internal crossed modules_, Georgian Mathematical Journal **10** (2003) pp 99-114. ([EuDML](https://eudml.org/doc/51553))
 
-* [[Ronnie Brown]], Peter Higgins, and R. Sivera, _[[Nonabelian Algebraic Topology]]: Filtered spaces, Crossed Complexes, Cubical Homotopy Groupoids_, EMS Tracts in Mathematics, Vol. 15, (Autumn 2010).
+* [[Ronnie Brown]], [[Philip Higgins]], and R. Sivera, _[[Nonabelian Algebraic Topology]]: Filtered spaces, Crossed Complexes, Cubical Homotopy Groupoids_, EMS Tracts in Mathematics, Vol. 15, (Autumn 2010).
 
 
 
