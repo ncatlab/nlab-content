@@ -126,19 +126,15 @@ or, equivalently, like so:
 
 As [[string diagrams]], the triangle identities appear as the action of "pulling zigzags straight" (hence the name):
 
-
-[[adjunction-up-string.png:pic]]$\quad\quad\quad\quad$[[adjunction-down-string.png:pic]]
-{: style='text-align:center'}
-
++--
+<span style='margin-right: 50px'>[[adjunction-up-string.png:pic]]</span>[[adjunction-down-string.png:pic]]
+=-- {: style='text-align:center'}
 
 With labels left implicit, this notation becomes very economical:
 
-[[adjunction-up-string-minimal.png:pic]], 
-$\quad\quad\quad\quad$
-[[adjunction-down-string-minimal.png:pic]].
-{: style='text-align:center'}
-
-
++--
+<span style='margin-right: 50px'>[[adjunction-up-string-minimal.png:pic]],</span> [[adjunction-down-string-minimal.png:pic]].
+=-- {: style='text-align:center'}
 
 ## Related concepts
 
