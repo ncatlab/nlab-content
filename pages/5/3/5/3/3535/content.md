@@ -4,7 +4,7 @@ Philip J. Higgins (born 1926, died March 25, 2015) was a British  mathematician,
 1201-561X, reprint of the 1971 original _Notes on categories and groupoids_, (Van Nostrand 
 Reinhold, London; MR0327946) with a new preface by the author. 
 
-and for his long standing collaboration with [[Ronnie Brown]] on [[nonabelian algebraic topology]], see [here](http://www.bangor.ac.uk/~mas010/nonab-a-t.html).
+and for his long standing collaboration with [[Ronnie Brown]] on [[nonabelian algebraic topology]], see [here](http://groupoids.org.uk/nonab-a-t.html).
 
 His earlier paper
 
