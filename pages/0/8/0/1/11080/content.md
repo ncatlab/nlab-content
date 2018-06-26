@@ -2081,7 +2081,7 @@ More abstractly, this just says that $\Omega^1(\mathbb{R}^k)$ is the [[free modu
 
 =--
 
-The following definition captures the idea that if $\mathbf{d} x^i$ is a measure for displacement along the $x^i$-[[coordinate]], and $\mathbf{d}x^j$ a measure for displacement along the $x^j$ coordinate, then there should be a way te get a measure, to be called $\mathbf{d}x^i \wedge \mathbf{d} x^j$, for infinitesimal _surfaces_ (squares) in the $x^i$-$x^j$-plane. And this should keep track of the [[orientation]] of these squares, whith 
+The following definition captures the idea that if $\mathbf{d} x^i$ is a measure for displacement along the $x^i$-[[coordinate]], and $\mathbf{d}x^j$ a measure for displacement along the $x^j$ coordinate, then there should be a way te get a measure, to be called $\mathbf{d}x^i \wedge \mathbf{d} x^j$, for infinitesimal _surfaces_ (squares) in the $x^i$-$x^j$-plane. And this should keep track of the [[orientation]] of these squares, with 
 
 $$
   \mathbf{d}x^j \wedge \mathbf{d}x^i = - \mathbf{d}x^i \wedge \mathbf{d} x^j
@@ -2151,15 +2151,15 @@ of def. \ref{DifferentialnForms} together with the [[pullback of differential fo
 
 $$
   \array{
-    \mathbb{R}^{k_1} &\mapsto & \Omega^1(\mathbb{R}^{k_1})
+    \mathbb{R}^{k_1} &\mapsto & \Omega^n(\mathbb{R}^{k_1})
     \\
     \uparrow^{\mathrlap{f}} && \downarrow^{\mathrlap{f^*}}
     \\
-    \mathbb{R}^{k_2} &\mapsto& \Omega^1(\mathbb{R}^{k_2})
+    \mathbb{R}^{k_2} &\mapsto& \Omega^n(\mathbb{R}^{k_2})
   }
 $$
 
-constitutes a [[smooth set]] in the sense of def. \ref{SmoothSpace}, which we denote bu
+constitutes a [[smooth set]] in the sense of def. \ref{SmoothSpace}, which we denote by
 
 $$
   \mathbf{\Omega}^n(-) \;\in\; SmoothSet
