@@ -1,6 +1,7 @@
 
-## Cohesive toposes
-  {#Cohesive}
+## Gros toposes
+ {#GrosToposes}
+
 
 We have seen roughly two different kinds of [[sheaf toposes]]:
 
@@ -28,6 +29,8 @@ There is a further progression of [[adjoint modalities]] (Def. \ref{AdjointModal
 $\,$
 
 
+### Cohesive toposes
+ {#Cohesive}
 
 +-- {: .num_defn #CohesiveTopos}
 ###### Definition
@@ -37,11 +40,11 @@ A [[sheaf topos]] $\mathbf{H}$ (Def. \ref{Sheaf}) is called a _[[cohesive topos]
 
 \[
   \label{CohesopmAdjointQuadruple}
-  \Pi_0 \dashv Disc \dashv \Gamma \dashv coDisc
+  \Pi \dashv Disc \dashv \Gamma \dashv coDisc
   \;\;\colon\;\;
   \mathbf{H}
     \array{
-      \overset{\phantom{AAA} \Pi_0 \phantom{AAA}}{\longrightarrow}
+      \overset{\phantom{AAA} \Pi \phantom{AAA}}{\longrightarrow}
       \\
       \overset{\phantom{AA} Disc \phantom{AA} }{\hookleftarrow}
       \\
@@ -56,7 +59,7 @@ such that:
 
 1. $Disc$ and $coDisc$ are [[full and faithful functors]] (Def. \ref{FullyFaithfulFunctor})
 
-1. $\Pi_0$ [[preserved limit|preserves]] [[finite products]].
+1. $\Pi$ [[preserved limit|preserves]] [[finite products]].
 
 =--
 
@@ -73,7 +76,7 @@ Then there is an [[adjoint quadruple]] (Remark \ref{AdjointTriples}) of [[functo
   \label{PreaheafAdjointQuadruple}
   [\mathcal{C}, Set]
     \array{
-      \overset{\phantom{AAA} \Pi_0 \phantom{AAA}}{\longrightarrow}
+      \overset{\phantom{AAA} \Pi \phantom{AAA}}{\longrightarrow}
       \\
       \overset{\phantom{AA} Disc \phantom{AA} }{\hookleftarrow}
       \\
@@ -103,14 +106,14 @@ such that:
 
 1. $Disc$ and $coDisc$ are [[full and faithful functors]] (Def. \ref{FullyFaithfulFunctor}).
 
-1. $\Pi_0$ preserves [[finite products]]:
+1. $\Pi$ preserves [[finite products]]:
 
    for $\mathbf{X}, \mathbf{Y} \in [\mathcal{C}^{op}, Set]$, we have a [[natural bijection]]
 
    $$
-     \Pi_0(\mathbf{X} \times \mathbf{Y})
+     \Pi(\mathbf{X} \times \mathbf{Y})
      \;\simeq\;
-     \Pi_0(\mathbf{X}) \times \Pi_0(\mathbf{Y})
+     \Pi(\mathbf{X}) \times \Pi(\mathbf{Y})
      \,.
    $$
 
@@ -143,11 +146,11 @@ From this it follows, by Example \ref{KanExtensionOfAdjointPairIsAdjointQuadrupl
 The former is manifestly the operation of evaluating on the terminal object.
 Moreover, since the terminal object inclusion is manifestly a [[fully faithful functor]] (Def. \ref{FullyFaithfulFunctor}), it follows that also its [[left Kan extension]] $Disc$ is fully faithful  (Prop. \ref{LeftKanExtensionAlongFullyFaithfulFunctor}). This implies that also $coDisc$ is fully faithful, by (Prop. \ref{FullyFaithfulAdjointTriple}).
 
-Equivalently, $Disc \simeq p^\ast$ is the [[constant functor|constant]] [[diagram]]-assigning functor. By uniqueness of adjoints (Prop. \ref{UniquenessOfAdjoints}) implies that $\Pi_0$ is the functor that sends a presheaf, regarded as a [[functor]] $\mathbf{Y} \;\colon\; \mathcal{C}^{op} \to Set$, to its [[colimit]]
+Equivalently, $Disc \simeq p^\ast$ is the [[constant functor|constant]] [[diagram]]-assigning functor. By uniqueness of adjoints (Prop. \ref{UniquenessOfAdjoints}) implies that $\Pi$ is the functor that sends a presheaf, regarded as a [[functor]] $\mathbf{Y} \;\colon\; \mathcal{C}^{op} \to Set$, to its [[colimit]]
 
 \[
   \label{Pi0IsColimit}
-  \Pi_0(\mathbf{Y})
+  \Pi(\mathbf{Y})
   \;=\;
   \underset{\underset{\mathcal{C}^{op}}{\longrightarrow}}{\lim} \mathbf{Y}
   \,.
@@ -448,7 +451,7 @@ By applying (eq:PointsToPiecesInTheBase) again, we find in particular that _[[pi
 $$
   Hom_{\mathbf{B}}(\Pi \epsilon^\flat_{\mathbf{X}}, S)
   =
-  Hom_{\mathbf{\mathbf{H}}}(\epsilon^\flat_{\mathbf{X}}, Disc(S))  
+  Hom_{\mathbf{\mathbf{H}}}(\epsilon^\flat_{\mathbf{X}}, Disc(S))
 $$
 
 being a [[monomorphism]] for all $S$ (by adjunction isomorphism (eq:HomIsomorphismForAdjointFunctors) and definition of [[epimorphism]], Def. \ref{Monomorphism}).
@@ -469,7 +472,7 @@ This establishes the equivalence between the first two items.
 ###### Proposition
 **([[cohesive site]] such that [[pieces have points]]/[[discrete objects are concrete]])**
 
-Let $\mathcal{C}$ be a [[cohesive site]] (Def. \ref{OneCohesiveSite}), such that 
+Let $\mathcal{C}$ be a [[cohesive site]] (Def. \ref{OneCohesiveSite}), such that
 
 * for every [[object]] $X \in \mathcal{C}$, there is at least one [[morphism]] $\ast \overset{\exists}{\to} X$ from [[generalized the|the]] [[terminal object]] to $X$, hence such that the [[hom set]] $Hom_{\mathcal{C}}(\ast, X)$ is [[inhabited set|non-empty]].
 
@@ -503,16 +506,16 @@ Now, by the proof of Prop. \ref{CategoriesOfSheavesOnCohesiveSiteIsCohesive}, th
 
 $$
   \array{
-    S 
+    S
      & \longrightarrow&
     Hom_{Set}\left( Hom_{\mathcal{C}}(\ast, X), S \right)
     \\
-    s &\mapsto& const_s 
-  } 
+    s &\mapsto& const_s
+  }
 $$
 
 This function is [[injective function|injective]] precisely if $Hom_{\mathcal{C}}(\ast, X)$ is [[inhabited set|non-empty]], which is true by assumption.
- 
+
 
 =--
 
@@ -755,62 +758,138 @@ The equivalence of the first two follows with ([Johnstone, lemma 2.1, corollary 
 
 $\,$
 
+### Elastic toposes
+ {#ElasticToposes}
 
 +-- {: .num_defn #DifferentialCohesion}
 ###### Definition
-**([[differentially cohesive topos]])**
+**([[elastic topos]])**
 
-Let $\mathbf{H}_{red}$ be a [[cohesive topos]] (Def. \ref{CohesiveTopos}). Then a [[differentially cohesive topos]] over $\mathbf{H}_{red}$ is another [[cohesive topos]] $\mathbf{H}$, equipped with an [[adjoint quadruple|quadruple]] of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) of the form
+Let $\mathbf{H}_{red}$ be a [[cohesive topos]] (Def. \ref{CohesiveTopos}). Then an _[[elastic topos]]_ or _[[differentially cohesive topos]]_ over $\mathbf{H}_{red}$ is another [[cohesive topos]] $\mathbf{H}$, equipped with a [[adjoint quadruple|quadruple]] of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) of the form
 
 $$
   \mathbf{H}_{red}
     \array{
-      \overset{\phantom{AA} i_! \phantom{AA} }{\hookrightarrow}
+      \overset{\phantom{AA} \iota_{inf} \phantom{AA} }{\hookrightarrow}
       \\
-      \overset{\phantom{AA} i^\ast \phantom{AA} }{\longleftarrow}
+      \overset{\phantom{AA} \Pi_{inf} \phantom{AA} }{\longleftarrow}
       \\
-      \overset{\phantom{AA} i_\ast \phantom{AA} }{\hookrightarrow}
+      \overset{\phantom{AA} Disc_{inf} \phantom{AA} }{\hookrightarrow}
       \\
-      \overset{\phantom{AA} i^! \phantom{AA} }{\longleftarrow}
+      \overset{\phantom{AA} \Gamma_{inf} \phantom{AA} }{\longleftarrow}
     }
   \mathbf{H}
 $$
 
 =--
 
++-- {: .num_lemma #ProgressionOfSubcategoriesOfElasticTopos}
+###### Lemma
+**(progression of ([[coreflective subcategory|co-]])[[reflective subcategories]] of [[elastic topos]])**
+
+Let $\mathbf{H}$ be an [[elastic topos]] (Def. \ref{DifferentialCohesion}) over a [[cohesive topos]] $\mathbf{H}_{red}$ (Def. \ref{CohesiveTopos}):
+
+$$
+  Set
+    \array{
+      \overset{\phantom{A} \Pi_{red} \phantom{A} }{\longleftarrow}
+      \\
+      \overset{\phantom{A} Disc_{red} \phantom{A} }{\hookrightarrow}
+      \\
+      \overset{\phantom{A} \Gamma_{red} \phantom{A} }{\longleftarrow}
+      \\
+      \overset{\phantom{A} coDisc_{red} \phantom{A} }{\hookrightarrow}
+    }
+  \mathbf{H}_{red}
+    \array{
+      \overset{\phantom{AA} \iota_{inf} \phantom{AA} }{\hookrightarrow}
+      \\
+      \overset{\phantom{AA} \Pi_{inf} \phantom{AA} }{\longleftarrow}
+      \\
+      \overset{\phantom{AA} Disc_{inf} \phantom{AA} }{\hookrightarrow}
+      \\
+      \overset{\phantom{AA} \Gamma_{inf} \phantom{AA} }{\longleftarrow}
+      \\
+      \phantom{A}
+      \\
+      \phantom{a}
+    }
+  \mathbf{H}
+$$
+
+and write
+
+$$
+  Set
+    \array{
+      \overset{\phantom{AA} \Pi \phantom{AA} }{\longleftarrow}
+      \\
+      \overset{\phantom{AA} Disc \phantom{AA} }{\hookrightarrow}
+      \\
+      \overset{\phantom{AA} \Gamma \phantom{AA} }{\longleftarrow}
+      \\
+      \overset{\phantom{AA} coDisc \phantom{AA} }{\hookrightarrow}
+    }
+  \mathbf{H}
+$$
+
+for the [[adjoint quadruple]] exhibiting the [[cohesion]] of $\mathbf{H}$ itself. Then these adjoint functors fit into the following [[diagram]]
+
+<center>
+<img src="https://ncatlab.org/nlab/files/ProgressionOfSubcategoriesDifferentialCohesion.jpg" width="400">
+</center>
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The identification
+
+$$
+  (Disc \dashv \Gamma)
+  \;\simeq\;
+  ( Disc_{inf} \circ Disc_{red} \,\dashv\, \Gamma_{red} \circ \Gamma_{inf} )
+$$
+
+
+follows from the essential uniqueness of the [[global section]]-[[geometric morphism]] (Example \ref{GlobalSectionsGeometricMorphism}). This implies the identifications $\Pi \simeq \Pi_{red} \circ \Pi_{inf}$ by essential uniqueness of [[adjoints]] (Prop. \ref{UniquenessOfAdjoints}).
+
+=--
 
 +-- {: .num_defn #CohesiveModalities}
 ###### Definition
-**([[adjoint triple]] of [[adjoint modality|adjoint]] [[modal operators]] on [[differentially cohesive topos]])**
+**([[adjoint modalities]] on [[differentially cohesive topos]])**
 
-Given a [[differentially cohesive topos]] $\mathbf{H}$ over $\mathbf{H}_{red}$ (Def. \ref{DifferentialCohesion}), its [[adjoint quadruple]] of functors to and from the [[cohesive topos]] $\mathbf{H}_{red}$ (Def. \ref{CohesiveTopos}) induce, by [[composition]] of functors, an [[adjoint triple]] (Remark \ref{AdjointTriples}) of [[adjoint modalities]] (Def. \ref{AdjointModality}):
+Given a [[differentially cohesive topos]] $\mathbf{H}$ over $\mathbf{H}_{red}$ (Def. \ref{DifferentialCohesion}), [[composition]] of the functors in Lemma \ref{ProgressionOfSubcategoriesOfElasticTopos} yields, via Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}, the following [[adjoint modalities]] (Def. \ref{AdjointModality})
 
 $$
   \Re \dashv \Im \dashv \&
   \;\;\colon\;\;
   \mathbf{H}
     \array{
-      \overset{ \Re \;\coloneqq\; i_! \circ i^\ast  }{\longleftarrow}
+      \overset{ \Re \;\coloneqq\; \iota_{inf} \circ \Pi_{inf}  }{\longleftarrow}
       \\
-      \overset{\flat \;\coloneqq\; i_\ast \circ i^\ast  }{\longrightarrow}
+      \overset{\Im \;\coloneqq\; Disc_{inf} \circ \Pi_{inf}  }{\longrightarrow}
       \\
-      \overset{ \sharp \;\coloneqq\; i_\ast  \circ i^! }{\longleftarrow}
+      \overset{ \& \;\coloneqq\; Disc_{inf}  \circ \Gamma_{inf} }{\longleftarrow}
     }
   \mathbf{H}
   \,.
 $$
 
-Since $i_!$ and $i\ast$ are [[fully faithful functors]] by assumption,
+Since $\iota_{inf}$ and $i\ast$ are [[fully faithful functors]] by assumption,
 these are ([[comodal operator|co-]])[[modal operators]] (Def. \ref{ModalOperator}) on the [[cohesive topos]], by (Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}).
 
 We pronounce these as follows:
 
 | $\phantom{A}$ [[reduction modality]] $\phantom{A}$ | $\phantom{A}$ [[infinitesimal shape modality]] $\phantom{A}$ | $\phantom{A}$ [[infinitesimal flat modality]] $\phantom{A}$ |
 |--------------------|-------------------|--------------------|
-|   $\phantom{A}$  $\Re \;\coloneqq\; i_! \circ i^\ast$  $\phantom{A}$ | $\phantom{A}$ $\Im \;\coloneqq\; i_\ast \circ i^\ast$ $\phantom{A}$  | $\phantom{A}$ $ \& \;\coloneqq\; i_\ast \circ i^! $ $\phantom{A}$  |
+|   $\phantom{A}$  $\Re \;\coloneqq\; \iota_{inf} \circ \Pi_{inf}$  $\phantom{A}$ | $\phantom{A}$ $\Im \;\coloneqq\; Disc_{inf} \circ \Pi_{inf}$ $\phantom{A}$  | $\phantom{A}$ $ \& \;\coloneqq\; Disc_{inf} \circ \Gamma_{inf} $ $\phantom{A}$  |
 {: style='margin:auto}
 
-and we refer to the corressponding [[modal objects]] (Def. \ref{ModalObjects}) as follows:
+and we refer to the corresponding [[modal objects]] (Def. \ref{ModalObjects}) as follows:
 
 * a [[reduction modality|reduction]]-[[comodal object]]
 
@@ -832,3 +911,285 @@ and we refer to the corressponding [[modal objects]] (Def. \ref{ModalObjects}) a
 
 
 =--
+
+
++-- {: .num_prop #ProgressionOfModalitiesOnElasticTopos}
+###### Proposition
+**(progresssion of [[adjoint modalities]] on [[elastic topos]])**
+
+Let $\mathbf{H}$ be an [[elastic topos]] (Def. \ref{DifferentialCohesion}) and consider the [[adjoint modalities]] from Def. \ref{CohesiveModalities} and Def. \ref{CohesiveModalities}:
+
+
+| $\phantom{A}$ [[shape modality]] $\phantom{A}$ | $\phantom{A}$ [[flat modality]] $\phantom{A}$ | $\phantom{A}$ [[sharp modality]] $\phantom{A}$ |
+|--------------------|-------------------|--------------------|
+|   $\phantom{A}$  $&#643; \;\coloneqq\; Disc \circ Pi_0$  $\phantom{A}$ | $\phantom{A}$ $\flat \;\coloneqq\; Disc \circ \Gamma$ $\phantom{A}$  | $\phantom{A}$ $\sharp \;\coloneqq\; coDisc \circ \Gamma $ $\phantom{A}$  |
+{: style='margin:auto}
+
+| $\phantom{A}$ [[reduction modality]] $\phantom{A}$ | $\phantom{A}$ [[infinitesimal shape modality]] $\phantom{A}$ | $\phantom{A}$ [[infinitesimal flat modality]] $\phantom{A}$ |
+|--------------------|-------------------|--------------------|
+|   $\phantom{A}$  $\Re \;\coloneqq\; \iota_{inf} \circ \Pi_{inf}$  $\phantom{A}$ | $\phantom{A}$ $\Im \;\coloneqq\; Disc_{inf} \circ \Pi_{inf}$ $\phantom{A}$  | $\phantom{A}$ $ \& \;\coloneqq\; Disc_{inf} \circ \Gamma_{inf} $ $\phantom{A}$  |
+{: style='margin:auto}
+
+Then these arrange into the following progression, via the [[preorder]] on modalities from Def. \ref{PreorderOnModalities}
+
+$$
+  \array{
+    \Re &\dashv& \Im &\dashv& \&
+    \\
+    && \vee && \vee
+    \\
+    && &#643; &\dashv& \flat &\dashv& \sharp
+    \\
+    && && \vee && \vee
+    \\
+    && && \emptyset &\dashv& id
+  }
+$$
+
+where we display also the [[bottom]] [[adjoint modality]] $\emptyset \dashv \ast$ (Example \ref{InitialAndFinalAdjointModality}), for completeness.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We need to show, for all $X \in \mathbf{H}$, that
+
+1. $\flat X$ is an $\&$-[[modal object]] (Def. \ref{ModalObjects}), hence that
+
+   $$
+     \& \flat X  \;\simeq\; X
+   $$
+
+1. $&#643; X$ is an $\Im$-[[modal object]] (Def. \ref{ModalObjects}), hence that
+
+   $$
+     \Im &#643; X  \;\simeq\; X
+   $$
+
+After unwinding the definitions of the modal operators Def. \ref{CohesiveModalities} and Def. \ref{CohesiveModalities}, and using their re-identification from Lemma \ref{ProgressionOfSubcategoriesOfElasticTopos}, this comes down to the fact that
+
+$$
+  \Pi_{inf} Disc_{inf} \;\simeq\; id
+  \phantom{AAA}
+  \text{and}
+  \phantom{AAA}
+  \Gamma_{inf} Disc_{inf} \;\simeq\; id
+$$
+
+which holds by Prop. \ref{FullyFaithfulAndInvertibleAdjoints}, since $Disc_{inf}$ is a [[fully faithful functor]] and $\Pi_{inf}$, $i_$ are ([[coreflective subcategory|co-]])[[reflective subcategory|reflectors]] for it, respectively:
+
+$$
+  \begin{aligned}
+    \underset{Disc_{inf} \Gamma_{inf}}{\underbrace{\;\;\;\&\;\;\;}}
+    \underset{Disc \Gamma }{\underbrace{\;\;\;\flat\;\;\;}}
+    &
+    =
+     Disc_{inf} \Gamma_{inf}
+    \underset{ i_{\ast} Disc_{red} }{\underbrace{\;\;\;\Disc\;\;\;}} \Gamma
+    \\
+    & =
+    \underset{
+      \simeq Disc
+    }{
+    \underbrace{
+      Disc_{inf} \underset{\simeq id}{\underbrace{\Gamma_{inf} Disc_{inf}}} Disc_{red}
+    }}
+    \; \Gamma
+    \\
+    & \simeq
+    \underset{ Disc }{\underbrace{ Disc_{inf} Disc_{red} }} \Gamma \mathbf{X}
+    \\
+    & =
+    Disc \Gamma
+    \\
+    & = \flat
+  \end{aligned}
+$$
+
+and
+
+$$
+  \array{
+    \underset{
+      Disc_{inf} \Pi_{inf}
+    }{
+    \underbrace{
+      \;\;\;\Im\;\;\;
+    }}
+    \underset{
+      Disc \Pi
+    }{
+    \underbrace{
+      \;\;\;&#643;\;\;\;
+    }
+    }
+    & =
+    Disc_{inf}
+    \Pi_{inf}
+    \underset{
+      Disc_{inf} Disc_{red}
+    }{
+    \underbrace{
+      \;\;\;Disc\;\;\;
+   }
+   }
+   \Pi
+   \\
+   & =
+   \underset{
+     \simeq Disc
+   }{
+   \underbrace{
+   Disc_{inf}
+   \underset{
+     \simeq id
+   }{
+   \underbrace{
+     \Pi_{inf}
+     Disc_{inf}
+   }
+   }
+   Disc_{red}
+   }
+   }
+   \Pi
+   \\
+   & \simeq
+   Disc
+   \Pi
+   \\
+   & =
+   &#643;
+  }
+$$
+
+=--
+
+$\,$
+
+### Solid toposes
+  {#SolidToposes}
+
++-- {: .num_defn #SuperDifferentialCohesion}
+###### Definition
+**([[solid topos]])**
+
+Let $\mathbf{H}_{bos}$ be an [[elastic topos]] (Def. \ref{DifferentialCohesion}) over a [[cohesive topos]] $\mathbf{H}_{red}$ (Def. \ref{CohesiveTopos}). Then a _[[solid topos]]_ or _[[super-differentially cohesive topos]]_ over $\mathbf{H}_{bos}$ is another [[cohesive topos]] $\mathbf{H}$, equipped with a [[adjoint quadruple|quadruple]] of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) of the form
+
+$$
+  \mathbf{H}_{bos}
+    \array{
+      \overset{\phantom{A} even \phantom{A} }{\longleftarrow}
+      \\
+      \overset{\phantom{AA} \iota_{inf} \phantom{AA} }{\hookrightarrow}
+      \\
+      \overset{\phantom{AA} \Pi_{inf} \phantom{AA} }{\longleftarrow}
+      \\
+      \overset{\phantom{AA} Disc_{inf} \phantom{AA} }{\hookrightarrow}
+    }
+  \mathbf{H}
+$$
+
+such that the composite functor 
+
+$$
+  \mathbf{H}_{red}
+    \overset{ \phantom{AA} Disc_{inf} \phantom{AA} }{\hookrightarrow}
+  \mathbf{H}_{bos}
+    \overset{ \phantom{AA} Disc_{sup} \phantom{AA} }{\hookrightarrow}
+  \mathbf{H}
+$$
+
+has a [[right adjoint]]
+
+$$
+  \mathbf{H}_{red}
+    \underoverset
+      {\underset{\phantom{AA}\Gamma_{sup}\phantom{AA}}{\longleftarrow}}
+      {\overset{ Disc_{sup} Disc_{inf} }{\hookrightarrow}}
+      {\bot}
+  \mathbf{H}
+$$
+
+
+=--
+
++-- {: .num_lemma #ProgressionOfSubcategoriesOfSolidTopos}
+###### Lemma
+**(progression of ([[coreflective subcategory|co-]])[[reflective subcategories]] of [[solid topos]])**
+
+Let $\mathbf{H}$ be a [[solid topos]] (Def. \ref{SuperDifferentialCohesion}) over an [[elastic topos]] $\mathbf{H}_{red}$ (Def. \ref{DifferentialCohesion}):
+
+$$
+  Set
+    \array{
+      \overset{\phantom{A} \Pi_{red} \phantom{A} }{\longleftarrow}
+      \\
+      \overset{\phantom{A} Disc_{red} \phantom{A} }{\hookrightarrow}
+      \\
+      \overset{\phantom{A} \Gamma_{red} \phantom{A} }{\longleftarrow}
+      \\
+      \overset{\phantom{A} coDisc_{red} \phantom{A} }{\hookrightarrow}
+    }
+  \mathbf{H}_{red}
+    \array{
+      \overset{\phantom{AA} \iota_{inf} \phantom{AA} }{\hookrightarrow}
+      \\
+      \overset{\phantom{AA} \Pi_{inf} \phantom{AA} }{\longleftarrow}
+      \\
+      \overset{\phantom{AA} Disc_{inf} \phantom{AA} }{\hookrightarrow}
+      \\
+      \overset{\phantom{AA} \Gamma_{inf} \phantom{AA} }{\longleftarrow}
+      \\
+      \phantom{A}
+      \\
+      \phantom{A}
+    }
+  \mathbf{H}_{bos}
+    \array{
+      \overset{\phantom{AA} even \phantom{AA} }{\longleftarrow}
+      \\
+      \overset{\phantom{AA} \iota_{sup} \phantom{AA} }{\hookrightarrow}
+      \\
+      \overset{\phantom{AA} \Pi_{sup} \phantom{AA} }{\longleftarrow}
+      \\
+      \overset{\phantom{AA} Disc_{sup} \phantom{AA} }{\hookrightarrow}
+      \\
+      \overset{\phantom{AA} \Gamma_{sup} \phantom{AA} }{\longleftarrow}
+      \\
+      \phantom{A}
+      \\
+      \phantom{A}
+      \\
+      \phantom{A}
+    }
+  \mathbf{H}
+$$
+
+and write
+
+$$
+  Set
+    \array{
+      \overset{\phantom{AA} \Pi \phantom{AA} }{\longleftarrow}
+      \\
+      \overset{\phantom{AA} Disc \phantom{AA} }{\hookrightarrow}
+      \\
+      \overset{\phantom{AA} \Gamma \phantom{AA} }{\longleftarrow}
+      \\
+      \overset{\phantom{AA} coDisc \phantom{AA} }{\hookrightarrow}
+    }
+  \mathbf{H}
+$$
+
+for the [[adjoint quadruple]] exhibiting the [[cohesion]] of $\mathbf{H}$ itself. Then these adjoint functors fit into the following [[diagram]]
+
+<center>
+<img src="https://ncatlab.org/nlab/files/ProgressionSubcategoriesSuperCohesion.jpg" width="540">
+</center>
+
+=--
+
+
+(...)
