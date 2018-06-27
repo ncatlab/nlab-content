@@ -765,21 +765,25 @@ $\,$
 ###### Definition
 **([[elastic topos]])**
 
-Let $\mathbf{H}_{red}$ be a [[cohesive topos]] (Def. \ref{CohesiveTopos}). Then an _[[elastic topos]]_ or _[[differentially cohesive topos]]_ over $\mathbf{H}_{red}$ is another [[cohesive topos]] $\mathbf{H}$, equipped with a [[adjoint quadruple|quadruple]] of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) of the form
+Let $\mathbf{H}_{red}$ be a [[cohesive topos]] (Def. \ref{CohesiveTopos}). Then an _[[elastic topos]]_ or _[[differentially cohesive topos]]_ over $\mathbf{H}_{red}$ is a [[sheaf topos]] $\mathbf{H}$ which is
 
-$$
-  \mathbf{H}_{red}
-    \array{
-      \overset{\phantom{AA} \iota_{inf} \phantom{AA} }{\hookrightarrow}
-      \\
-      \overset{\phantom{AA} \Pi_{inf} \phantom{AA} }{\longleftarrow}
-      \\
-      \overset{\phantom{AA} Disc_{inf} \phantom{AA} }{\hookrightarrow}
-      \\
-      \overset{\phantom{AA} \Gamma_{inf} \phantom{AA} }{\longleftarrow}
-    }
-  \mathbf{H}
-$$
+1. a [[cohesive topos]] over [[Set]],
+
+1. equipped with a [[adjoint quadruple|quadruple]] of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) to $\mathbf{H}_{red}$ of the form
+
+   $$
+     \mathbf{H}_{red}
+       \array{
+         \overset{\phantom{AA} \iota_{inf} \phantom{AA} }{\hookrightarrow}
+         \\
+         \overset{\phantom{AA} \Pi_{inf} \phantom{AA} }{\longleftarrow}
+         \\
+         \overset{\phantom{AA} Disc_{inf} \phantom{AA} }{\hookrightarrow}
+         \\
+         \overset{\phantom{AA} \Gamma_{inf} \phantom{AA} }{\longleftarrow}
+       }
+     \mathbf{H} 
+   $$
 
 =--
 
@@ -833,7 +837,7 @@ $$
   \mathbf{H}
 $$
 
-for the [[adjoint quadruple]] exhibiting the [[cohesion]] of $\mathbf{H}$ itself. Then these adjoint functors fit into the following [[diagram]]
+for the [[adjoint quadruple]] exhibiting the [[cohesion]] of $\mathbf{H}$ itself. Then these adjoint functors arrange and decompose as in the following [[diagram]]
 
 <center>
 <img src="https://ncatlab.org/nlab/files/ProgressionOfSubcategoriesDifferentialCohesion.jpg" width="400">
@@ -915,7 +919,11 @@ and we refer to the corresponding [[modal objects]] (Def. \ref{ModalObjects}) as
 ###### Proposition
 **(progresssion of [[adjoint modalities]] on [[elastic topos]])**
 
-Let $\mathbf{H}$ be an [[elastic topos]] (Def. \ref{DifferentialCohesion}) and consider the corresponding [[adjoint modalities]] from Def. \ref{CohesiveModalities} and Def. \ref{DiffCohesiveModalities}:
+Let $\mathbf{H}$ be an [[elastic topos]] (Def. \ref{DifferentialCohesion}) and consider the corresponding [[adjoint modalities]] which it inherits
+
+1. for being a [[cohesive topos]], from Def. \ref{CohesiveModalities},
+
+1. for being an [[elastic topos]], from Def. \ref{DiffCohesiveModalities}:
 
 
 | $\phantom{A}$ [[shape modality]] $\phantom{A}$ | $\phantom{A}$ [[flat modality]] $\phantom{A}$ | $\phantom{A}$ [[sharp modality]] $\phantom{A}$ |
@@ -974,7 +982,7 @@ $$
   \,,
 $$
 
-which holds by Prop. \ref{FullyFaithfulAndInvertibleAdjoints}, since $Disc_{inf}$ is a [[fully faithful functor]] and $\Pi_{inf}$, Gamma_{inf}$ are ([[coreflective subcategory|co-]])[[reflective subcategory|reflectors]] for it, respectively:
+which holds by Prop. \ref{FullyFaithfulAndInvertibleAdjoints}, since $Disc_{inf}$ is a [[fully faithful functor]] and $\Pi_{inf}$, $Gamma_{inf}$ are ([[coreflective subcategory|co-]])[[reflective subcategory|reflectors]] for it, respectively:
 
 $$
   \begin{aligned}
@@ -1072,46 +1080,29 @@ $\,$
 ###### Definition
 **([[solid topos]])**
 
-Let $\mathbf{H}_{bos}$ be an [[elastic topos]] (Def. \ref{DifferentialCohesion}) over a [[cohesive topos]] $\mathbf{H}_{red}$ (Def. \ref{CohesiveTopos}). Then a _[[solid topos]]_ or _[[super-differentially cohesive topos]]_ over $\mathbf{H}_{bos}$ is another [[cohesive topos]] $\mathbf{H}$, equipped with a [[adjoint quadruple|quadruple]] of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) of the form
+Let $\mathbf{H}_{bos}$ be an [[elastic topos]] (Def. \ref{DifferentialCohesion}) over a [[cohesive topos]] $\mathbf{H}_{red}$ (Def. \ref{CohesiveTopos}). Then a _[[solid topos]]_ or _[[super-differentially cohesive topos]]_ over $\mathbf{H}_{bos}$ is a [[sheaf topos]] $\mathbf{H}$, which is 
 
-$$
-  \mathbf{H}_{bos}
-    \array{
-      \overset{\phantom{A} even \phantom{A} }{\longleftarrow}
-      \\
-      \overset{\phantom{AA} \iota_{inf} \phantom{AA} }{\hookrightarrow}
-      \\
-      \overset{\phantom{AA} \Pi_{inf} \phantom{AA} }{\longleftarrow}
-      \\
-      \overset{\phantom{AA} Disc_{inf} \phantom{AA} }{\hookrightarrow}
-    }
-  \mathbf{H}
-$$
+1. a [[cohesive topos]] over [[Set]] (Def. \ref{CohesiveTopos}),
 
-such that the composite functor 
+1. an [[elastic topos]] over $\mathbf{H}_{red}$,
 
-$$
-  \mathbf{H}_{red}
-    \overset{ \phantom{AA} Disc_{inf} \phantom{AA} }{\hookrightarrow}
-  \mathbf{H}_{bos}
-    \overset{ \phantom{AA} Disc_{sup} \phantom{AA} }{\hookrightarrow}
-  \mathbf{H}
-$$
+1. equipped with a [[adjoint quadruple|quadruple]] of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) to $\mathbf{H}_{bos}$ of the form
 
-has a [[right adjoint]]
+   $$
+     \mathbf{H}_{bos}
+       \array{
+         \overset{\phantom{A} even \phantom{A} }{\longleftarrow}
+         \\
+         \overset{\phantom{AA} \iota_{sup} \phantom{AA} }{\hookrightarrow}
+         \\
+         \overset{\phantom{AA} \Pi_{sup} \phantom{AA} }{\longleftarrow}
+         \\
+         \overset{\phantom{AA} Disc_{sup} \phantom{AA} }{\hookrightarrow}
+       }
+     \mathbf{H}
+   $$
 
-exhibiting also $\mathbf{H}$ as being being an [[elastic topos]] over $\mathbf{H}_{red}$, via 
-
-$$
-  \iota_{sup} \iota_{inf}
-  \;\dashv\;
-  Pi_{inf}\Pi_{sup}
-  \;\dashv\;
-  Disc_{sup} Disc_{inf}  
-  \;\dashv\;
-  \Gamma_{sup}
-  \,.
-$$
+   hence with $\iota_{sup}$ and $Disc_{sup}$ being [[fully faithful functors]] (Def. \ref{FullyFaithfulFunctor}).
 
 
 =--
@@ -1147,7 +1138,7 @@ $$
       \\
       \phantom{A}
       \\
-      \phantom{A}
+      \phantom{A \atop A}
     }
   \mathbf{H}_{bos}
     \array{
@@ -1163,34 +1154,53 @@ $$
       \\
       \phantom{A}
       \\
-      \phantom{A}
+      \phantom{A \atop A}
       \\
-      \phantom{A}
+      \phantom{A \atop A}
     }
   \mathbf{H}
 $$
 
-and write
+Then these adjoint functors arrange and decompose as shown in the following [[diagram]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/ProgressionSubcategoriesSuperCohesion.jpg" width="540">
+</center>
+
+Here the composite [[adjoint quadruple]]
 
 $$
   Set
     \array{
-      \overset{\phantom{AA} \Pi \phantom{AA} }{\longleftarrow}
+      \overset{\Pi \simeq \Pi_{red}\Pi_{inf} \Pi_{sup} }{\longleftarrow}
       \\
-      \overset{\phantom{AA} Disc \phantom{AA} }{\hookrightarrow}
+      \overset{Disc = Disc_{sup} Disc_{inf} Disc_{red}}{\hookrightarrow}
       \\
-      \overset{\phantom{AA} \Gamma \phantom{AA} }{\longleftarrow}
+      \overset{\Gamma = \Gamma_{sup} \Gamma_{inf} \Gamma_{red} }{\longleftarrow}
       \\
       \overset{\phantom{AA} coDisc \phantom{AA} }{\hookrightarrow}
     }
   \mathbf{H}
 $$
 
-for the [[adjoint quadruple]] exhibiting the [[cohesion]] of $\mathbf{H}$ itself. Then these adjoint functors fit into the following [[diagram]]
+exhibits the [[cohesion]] of $\mathbf{H}$ over [[Set]], and the composite adjoint quadruple
 
-<center>
-<img src="https://ncatlab.org/nlab/files/ProgressionSubcategoriesSuperCohesion.jpg" width="540">
-</center>
+$$
+  \mathbf{H}_{red}
+    \array{
+      \overset{\iota_{sup} \iota_{inf}}{\hookrightarrow}
+      \\
+      \overset{\Pi_{inf} \Pi_{sup} }{\longleftarrow}
+      \\
+      \overset{Disc_{inf} Disc_{red}}{\hookrightarrow}
+      \\
+      \overset{ \Gamma_{sup} }{\longleftarrow}
+    }
+  \mathbf{H}
+$$
+
+exhibits the [[elastic topos|elasticity]] of $\mathbf{H}$ over $\mathbf{H}_{red}$.
+
 
 =--
 
@@ -1226,7 +1236,6 @@ $$
   \,.
 $$
 
-s
 Since $\iota_{sup}$ and $Disc_{sup}$ are [[fully faithful functors]] by assumption,
 these are ([[comodal operator|co-]])[[modal operators]] (Def. \ref{ModalOperator}) on the [[cohesive topos]], by (Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}).
 
@@ -1239,7 +1248,8 @@ We pronounce these as follows:
 
 and we refer to the corresponding [[modal objects]] (Def. \ref{ModalObjects}) as follows:
 
-* a [[bosonic modality|bosonic]]-[[comodal object]]
+
+* a $\rightsquigarrow$-[[comodal object]]
 
   $$
     \overset{\rightsquigarrow}{X}
@@ -1249,6 +1259,16 @@ and we refer to the corresponding [[modal objects]] (Def. \ref{ModalObjects}) as
 
   is called a _[[bosonic object]]_;
 
+* a $Rh$-[[modal object]]
+
+  $$
+    X
+      \underoverset{\simeq}{ \eta^{Rh}_X}{\longrightarrow}
+    Rh X
+  $$
+
+  is called a _rheonomic object_;
+
 
 =--
 
@@ -1257,7 +1277,13 @@ and we refer to the corresponding [[modal objects]] (Def. \ref{ModalObjects}) as
 ###### Proposition
 **(progresssion of [[adjoint modalities]] on [[solid topos]])**
 
-Let $\mathbf{H}$ be a [[solid topos]] (Def. \ref{SuperDifferentialCohesion}) and consider the [[adjoint modalities]] from Def. \ref{CohesiveModalities}, Def. \ref{DiffCohesiveModalities} and Def. \ref{SuperDiffCohesiveModalities}:
+Let $\mathbf{H}$ be a [[solid topos]] (Def. \ref{SuperDifferentialCohesion}) and consider the [[adjoint modalities]] which it inherits 
+
+1. for being a [[cohesive topos]], from Def. \ref{CohesiveModalities}, 
+
+1. for being an [[elastic topos]], from Def. \ref{DiffCohesiveModalities},
+
+1. for being a [[solid topos]], from Def. \ref{SuperDiffCohesiveModalities}:
 
 
 | $\phantom{A}$ [[shape modality]] $\phantom{A}$ | $\phantom{A}$ [[flat modality]] $\phantom{A}$ | $\phantom{A}$ [[sharp modality]] $\phantom{A}$ |
@@ -1271,7 +1297,7 @@ Let $\mathbf{H}$ be a [[solid topos]] (Def. \ref{SuperDifferentialCohesion}) and
 |   $\phantom{A}$  $\rightrightarrows \;\coloneqq\; \iota_{sup} \circ even$  $\phantom{A}$ | $\phantom{A}$ $\rightsquigarrow \;\coloneqq\; Disc_{sup} \circ \Pi_{sup}$ $\phantom{A}$  | $\phantom{A}$ $ Rh \;\coloneqq\; Disc_{sup} \circ \Pi_{sup} $ $\phantom{A}$  |
 {: style='margin:auto}
 
-Then these arrange into the following progression, via the [[preorder]] on modalities from Def. \ref{PreorderOnModalities}
+Then these arrange into the following progression, via the [[preorder]] on modalities from Def. \ref{PreorderOnModalities}:
 
 $$
   \array{    
@@ -1279,7 +1305,7 @@ $$
     \\
     \vee && \vee
     \\
-    \rightrightarrows && \rightsquigarrow && Rh
+    \rightrightarrows &\bot& \rightsquigarrow &\bot& Rh
     \\
     && \vee && \vee
     \\
@@ -1295,14 +1321,20 @@ $$
   }
 $$
 
-where we display also the [[adjoint modalities]]  at the [[bottom]] $\emptyset \dashv \ast$ and the [[top]] $id \dashv id$   (Example \ref{InitialAndFinalAdjointModality}).
+where we are displaying, for completeness, also the [[adjoint modalities]]  at the [[bottom]] $\emptyset \dashv \ast$ and the [[top]] $id \dashv id$   (Example \ref{InitialAndFinalAdjointModality}).
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-The proof is directly analogous to that of Prop. \ref{ProgressionOfModalitiesOnElasticTopos}:
+By Prop. \ref{ProgressionOfModalitiesOnElasticTopos}, it just remains to show that for all [[objects]] $X \in \mathbf{H}$
+
+1. $\Im X$ is an $Rh$-[[modal object]], hence $Rh \Im X \simeq X$,
+
+1. $\Re X$ is a [[bosonic object]], hence $\overset{\rightsquigarrow}{\Re X} \simeq \Re X$.
+
+The proof is directly analogous to that of Prop. \ref{ProgressionOfModalitiesOnElasticTopos}, now using the decompositions from Lemma \ref{ProgressionOfSubcategoriesOfSolidTopos}:
 
 $$
   \begin{aligned}
@@ -1313,7 +1345,7 @@ $$
       \simeq id
     }{
     \underbrace{
-      \Pi_{sup} Disc_{sup}
+      \Pi_{sup} \;\; Disc_{sup}
     } 
     }
     Disc_{inf} \Pi_{inf} \Pi_{sup}
@@ -1333,7 +1365,7 @@ $$
     & =
     \iota_{sup} 
     \underset{\simeq id}{\underbrace{
-    \Pi_{sup} \iota_{sup}}}
+    \Pi_{sup} \;\; \iota_{sup}}}
     \iota_{inf} \Pi_{inf}\Pi_{sub}
     \\
     & \simeq
