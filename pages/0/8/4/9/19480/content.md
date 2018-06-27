@@ -1457,6 +1457,39 @@ and hence it is sufficient to see that this is a [[left inverse]] to (eq:HomFunc
 
 =--
 
+As a direct corollary we obtain the following alternative characterization of [[isomorphisms]], to be compared with the definition of [[epimorphisms]]/[[monomorphisms]] in Def. \ref{Monomorphism}:
+
++-- {: .num_example #YonedaCharacterizationOfIsomorphism}
+###### Example
+**([[isomorphism]] via [[bijection]] of [[hom-sets]])**
+
+Let $\mathcal{C}$ be a [[category]] (Def. \ref{Categories}), let $X, Y \in Obj_{X}$ be a [[pair]] of [[objects]], and let $X \overset{f}{\to} Y \;\; \in Hom_{\mathcal{C}}(X,Y)$ be a [[morphism]] between them. Then the following are equivalent:
+
+1. $X \overset{f}{\to} Y$ is an [[isomorphism]] (Def. \ref{Isomorphism}),
+
+1. the [[hom-functors]] into and out of $f$ take values in [[bijections]] of [[hom-sets]]: i.e. for all [[objects]] $A \in Obj_{\mathcal{C}}$, we have
+
+   $$
+     Hom_{\mathcal{C}}(A,f)
+     \;\colon\;
+     Hom_{\mathcal{C}}(A,X) 
+       \overset{\simeq}{\longrightarrow}
+     Hom_{\mathcal{C}}(A,Y)
+   $$
+
+   and
+
+   $$
+     Hom_{\mathcal{C}}(f,A)
+     \;\colon\;
+     Hom_{\mathcal{C}}(Y,A) 
+       \overset{\simeq}{\longrightarrow}
+     Hom_{\mathcal{C}}(X,A)
+   $$
+
+=--
+
+
 $\,$
 
 
@@ -1776,10 +1809,57 @@ $$
 
 =--
 
-+-- {: .num_example #ReExpressingMiddleFunctorInAdjointTriple}
-###### Example
++-- {: .num_lemma #ReExpressingMiddleFunctorInAdjointTriple}
+###### Lemma
+**(pre/post-[[composition]] with ([[adjunction counit|co-]])[[adjunction unit|unit]] followed by [[adjunct]] is [[adjoint functor]])**
 
-Consider an [[adjoint triple]] (Remark \ref{AdjointTriples})
+If a [[functor]] $c$ is a [[right adjoint]]
+
+$$
+  L \dashv C
+  \;\;\colon\;\;
+  \mathcal{C}
+    \array{
+      \overset{\phantom{AA} L \phantom{AA} }{\longleftarrow}
+      \\
+      \underset{\phantom{AA} C \phantom{AA} }{\longrightarrow}
+    }
+  \mathcal{D}
+$$
+
+of a [[adjoint pair|pair]] of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}), then application of the [[functor]] $C$ on any [[morphism]] $X \overset{f}{\to} Y \;\;\in \mathcal{C}$ is equal the joint operation of
+[[composition|pre-composition]] with the $(L \dashv C)$-[[adjunction counit]] $\epsilon^\flat_{X}$ (Def. \ref{AdjunctionUnitFromHomIsomorphism}), followed by passing to the  $(L \dashv C)$-[[adjunct]]:
+
+$$
+  \widetilde{\eta^\sharp_{Y} \circ (-)}
+  \;=\;
+  C_{X, Y}  
+$$
+
+Dually, if $C$ is a [[left adjoint]]
+
+$$
+  C \dashv R
+  \;\;\colon\;\;
+  \mathcal{C}
+    \array{
+      \overset{\phantom{AA} C \phantom{AA} }{\longrightarrow}
+      \\
+      \underset{\phantom{AA} R \phantom{AA} }{\longleftarrow}
+    }
+  \mathcal{D}
+$$
+
+then its action on any [[morphism]] $X \overset{f}{\to} Y \;\;\in \mathcal{C}$ equals the joint operation of [[composition|post-composition]] with the $(C \dashv R)$-[[adjunction unit]] $\eta^{ \sharp }_{Y}$ (Def. \ref{AdjunctionUnitFromHomIsomorphism}), followed by passing to the $(C \dashv R)$-[[adjunct]]:
+
+$$
+  C_{X, Y}
+  \;=\;
+  \widetilde{ (-) \circ \epsilon^\flat_{X} }
+  \,.
+$$
+
+In particular, if $C$ is the middle functor in an [[adjoint triple]] (Remark \ref{AdjointTriples})
 
 $$
   L \dashv C \dashv R
@@ -1795,11 +1875,7 @@ $$
   \mathcal{D}
 $$
 
-Then application of the [[functor]] $C$ on any [[morphism]] $X \overset{f}{\to} Y \;\;\in \mathcal{C}$ is equal both to the operations of
-
-1. [[composition|pre-composition]] with the $(L \dashv C)$-[[adjunction counit]] $\epsilon^\flat_{X}$ (Def. \ref{AdjunctionUnitFromHomIsomorphism}), followed by passing to the  $(L \dashv C)$-[[adjunct]];
-
-1. [[composition|post-composition]] with the $(C \dashv R)$-[[adjunction unit]] $\eta^{ \sharp }_{Y}$ (Def. \ref{AdjunctionUnitFromHomIsomorphism}), followed by passing to the $(C \dashv R)$-[[adjunct]]:
+then these two operations coincide:
 
 \[
   \label{PostcompositionWithEtaAsGamma}
@@ -2541,11 +2617,24 @@ But then the uniqueness statement of Prop. \ref{AdjointFunctorFromObjectwiseRepr
 
 +-- {: .num_prop #FullyFaithfulAndInvertibleAdjoints}
 ###### Proposition
-**(characterization of epi/mono/iso (co-)unit of adjunction)**
+**(characterization of [[epimorphism|epi]]/[[monomorphism|mono]]/[[isomorphism|iso]] [[adjunction counit|(co-)]][[adjunction unit|unit]] of [[adjunction]])**
 
-Let $L \dashv R$ be a pair of adjoint functors (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}). Then the following holds:
+Let 
 
-* $R$ is [[faithful functor|faithful]] precisely if the component of the [[unit of an adjunction|counit]] over every object $x$ is an [[epimorphism]] $L R x \stackrel{}{\to} x $ (Def. \ref{Monomorphism});
+$$
+  L \dashv R
+  \;\colon\;
+  \mathcal{D}
+    \underoverset
+      {\underset{\phantom{A}R\phantom{A}}{\longrightarrow}}
+      {\overset{\phantom{A}L\phantom{A}}{\longleftarrow}}
+      {\bot}
+  \mathcal{C}
+$$ 
+
+be a pair of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}). Then the following statements are true
+
+* $R$ is [[faithful functor|faithful]] precisely if the component of the [[unit of an adjunction|counit]] on object $x$ is an [[epimorphism]] $L R x \stackrel{}{\to} x $ (Def. \ref{Monomorphism});
 
 * $R$ is [[full functor|full]] precisely if the component of the [[unit of an adjunction|counit]] over every object $x$ is a [[split monomorphism]] $L R x \stackrel{}{\to} x $;
 
@@ -2578,69 +2667,8 @@ Let $L \dashv R$ be a pair of adjoint functors (Def. \ref{AdjointFunctorsInTerms
 +-- {: .proof}
 ###### Proof
 
-For the characterization of faithful $R$ by epi counit components, use from Def. \ref{Monomorphism} that $L R x \to x$ being an epimorphism means that the induced [[function]]
+This follows directly by Lemma \ref{ReExpressingMiddleFunctorInAdjointTriple}, using the definition of epi/monomorphism (Def. \ref{Monomorphism}) and the characterization of [[isomorphism]] from Example \ref{YonedaCharacterizationOfIsomorphism}.
 
-$$
-  Hom(x, a) \to Hom(L R x, a)
-$$
-
-is an [[injection]] for all objects $a$. By the adjunction hom-isomorphism (eq:HomIsomorphismForAdjointFunctors)
-
-$$
-  Hom(L R x , a ) \stackrel{\simeq}{\to} Hom(R x, R a)
-  \,,
-$$
-
-the formula for [[adjuncts]] (Prop. \ref{GeneralAdjunctsInTermsOfAdjunctionUnitCounit}) and the [[triangle identity]] (eq:TriangleIdentities), this is  such that the composite
-
-$$
- R_{x,a} :  Hom(x,a) \to Hom(L R x, a) \stackrel{\simeq}{\to}
-    Hom(R x, R a)
-$$
-
-is the component map of the functor $R$:
-
-$$
-  \begin{aligned}
-    (x \stackrel{f}{\to} a) & \mapsto
-    (L R x \to x \stackrel{f}{\to} a)
-    \\
-    & \mapsto
-    (R L R x \to R x \stackrel{R f}{\to} R a)
-    \\
-    & \mapsto
-    (R x \to R L R x \to R x \stackrel{R f}{\to} R a)
-    \\
-    & = (R x \stackrel{R f}{\to} R a)
-  \end{aligned}
-  \,.
-$$
-
-Therefore $R_{x,a}$ is injective for all $x,a$, hence $R$ is faithful, precisely if $L R x \to x$ is an epimorphism for all $x$. The characterization of $R$ full is just the same reasoning applied to the fact that $\epsilon_x \colon L R x \to x$ is a [[split monomorphism]] iff for all objects $a$ the induced function
-\[
-  Hom(x, a) \to Hom(L R x, a)
-\]
-is a surjection.
-
-For the characterization of faithful $L$ by monic units notice that analogously (as discussed at [[monomorphism]]) $x \to R L x$ is a monomorphism if for all objects $a$ the function
-
-$$
-  Hom(a,x ) \to Hom(a, R L x)
-$$
-
-is an injection. Analogously to the previous argument we find that this is equivalent to
-
-$$
-  L_{a,x} : Hom(a,x ) \to Hom(a, R L x) \stackrel{\simeq}{\to} Hom(L a, L x)
-$$
-
-being an injection. So $L$ is faithful precisely if all $x \to R L x$ are monos. For $L$ full, it's just the same applied to $x \to R L x$ [[split epimorphism]] iff the induced function
-$$
-  Hom(a,x ) \to Hom(a, R L x)
-$$
-is a surjection, for all objects $a$.
-
-The proof of the other statements proceeds analogously.
 
 =--
 
