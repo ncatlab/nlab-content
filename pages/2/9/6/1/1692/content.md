@@ -194,6 +194,8 @@ One of the simplest occurrences of Chu space constructions, and the one explored
 * [[Michael Barr]], [The Chu construction: history of an idea](http://www.math.mcgill.ca/barr/papers/chu-hist.pdf), in TAC 17 (2006-2007), special volume, _Chu spaces: theory and applications_.
 * [Guide to Papers on Chu spaces](http://chu.stanford.edu/guide.html)
 
+* [[Vaughan Pratt]], *Linear process algebra*, [pdf](http://boole.stanford.edu/pub/bhub.pdf), uses $Chu(Set,K)$ where $K$ is a 4-element set to model concurrency.
+
 For a categorification, see 
 
 * {#Shulman17} Mike Shulman, _The 2-Chu Construction_, ([blog post](https://golem.ph.utexas.edu/category/2017/11/the_2chu_construction.html))
