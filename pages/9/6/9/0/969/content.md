@@ -183,6 +183,8 @@ See also [[localization of a simplicial model category]].
 
 * [[localizing subcategory]], [[localizer]]
 
+* [[localization at an object]]
+
 * [[monoidal localization]]
 
 * [[simplicial localization]]
