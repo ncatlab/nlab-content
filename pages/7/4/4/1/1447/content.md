@@ -61,8 +61,10 @@ and let $W \subset Mor(E)$ be the class of morphisms sent by $f^*$ to isomorphis
 ###### Theorem
 
 We have:
+
 * $F$ is equivalent to the [[localization]] $E[W]^{-1}$;
-* $F$ is equivalent to the full [[subcategory]] of $E$ on $W$-[[local objects]].
+
+* $F$ is equivalent to the [[full subcategory]] of $E$ on $W$-[[local objects]].
 
 =--
 
@@ -228,7 +230,7 @@ For every object $a \in E$
 +-- {: .proof}
 ###### Proof
 
-This follows from the zig-zag identities
+This follows from the [[triangle identities]]
 of the [[adjoint functors]]. 
 
 $$
@@ -476,17 +478,17 @@ $$
     & =    
     \stackrel{\rho_a}{\to}
     \stackrel{\eta_a}{\to}
-    \underbrace{
+    \underset{id}{\underbrace{
       \stackrel{\rho_a}{\to} 
        \stackrel{\lambda_a}{\to}
-    }_{Id}
+    }}
    \\
     & = 
     \stackrel{\rho_a}{\to}
-    \underbrace{
+    \underset{id}{\underbrace{
       \stackrel{\eta_a}{\to}
       \stackrel{\rho_a}{\to} 
-    }_{Id}
+    }}
     \stackrel{\lambda_a}{\to}
     \\
     &=
