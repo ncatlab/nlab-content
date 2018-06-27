@@ -818,6 +818,7 @@ of affine schemes into [[affine superschemes]] from prop. \ref{AdjointCylinderOn
 and the terminal inclusion of prop. \ref{ReflectionOfPointInCartSp}
 combine to give the following system of [[adjoint functors]] on our local model spaces
 
+
 $$
   \array{
    { \text{}  \atop { \text{discrete} \atop {\text{geometry}} } }
@@ -831,42 +832,39 @@ $$
    \\
    \ast
    &
-    \underoverset
-      {\hookrightarrow}
-      {\overset{\pi}{\longleftarrow}}
-      {}
+   \array{
+     \overset{\phantom{AA}\Pi\phantom{AA}}{\longleftarrow}
+     \\
+     \overset{\phantom{AA}Disc\phantom{AA}}{\hookrightarrow}
+   }
    &
   CartSp
    &
-    \underoverset
-      {\underset{\Re}{\longleftarrow}}
-      {\overset{}{\hookrightarrow}}
-      {}
+   \array{
+     \overset{\phantom{AA}\iota_{inf}\phantom{AA}}{\hookrightarrow}
+     \\
+     \overset{\phantom{AA}\Pi_{inf}\phantom{AA}}{\longleftarrow}
+     \\
+     \phantom{A}
+     \\
+     \phantom{A \atop A}
+   }
    &
   FormalCartSp
   &
-    \underoverset
-      {\underset
-        {
-          \phantom{AA}
-          \overset
-            {\phantom{A}}
-            {\overset{\rightsquigarrow}{(-)}}
-          \phantom{AA}
-         }
-         {\longleftarrow}
-      }
-      {\overset
-         {
-          \phantom{AA}
-           \underset
-            {\phantom{A}}
-            { \overset{\rightrightarrows}{(-)} }
-          \phantom{AA}
-        }
-        {\longleftarrow}
-      }
-      {\hookrightarrow}
+   \array{
+     \overset{\phantom{AA}even\phantom{AA}}{\longleftarrow}
+     \\
+     \overset{\phantom{AA}\iota_{sup}\phantom{AA}}{\hookrightarrow}
+     \\
+     \overset{\phantom{AA}\Pi_{sup}\phantom{AA}}{\longleftarrow}
+     \\
+     \phantom{A}
+     \\
+     \phantom{A \atop A}
+     \\
+     \phantom{A \atop A}
+   }
   &
   SuperFormalCartSp
   }
@@ -1167,6 +1165,8 @@ or [[coreflective subcategory|coreflective]] or both. The following states that 
 ###### Proposition
 **(progression of ([[coreflective subcategory|co-]])[[reflective subcategories]] of [[SuperFormalSmoothSet]])**
 
+The [[sheaf topos]] [[SuperFormalSmoothSet]] (Def. \ref{FormalSmoothSets}) is a _[[solid topos]]_ over [[FormalSmoothSet]], in that:
+
 There exists an essentially unique system of [[functors]] between the categories of [[sets]], [[smooth sets]] (def. \ref{SmoothSet}), [[formal smooth sets]] and [[super formal smooth sets]] (def. \ref{FormalSmoothSets})
 as shown in the second and third row of the following diagram, such that
 
@@ -1192,7 +1192,63 @@ In such a situation we also say that in the third row
 +-- {: .proof}
 ###### Proof
 
-That we have [[adjoint quadruples]] between [[presheaf toposes]] in the second row is by [this Example](geometry+of+physics+--+categories+and+toposes#KanExtensionOfAdjointPairIsAdjointQuadruple) in the chapter _[[geometry of physics -- categories and toposes|on categories and toposes]]_. 
+The system of functors between sites in Prop. \ref{SystemOfSites}
+
+
+
+$$
+  \array{
+   { \text{}  \atop { \text{discrete} \atop {\text{geometry}} } }
+   &&
+   {\text{} \atop {\text{differential} \atop \text{geometry}}}
+   &&
+   {\text{formal} \atop {\text{differential} \atop {geometry}}}
+   &&
+   {\text{super} \atop {\text{differential} \atop \text{geometry}}}
+   \\
+   \\
+   \ast
+   &
+   \array{
+     \overset{\phantom{AA}\Pi\phantom{AA}}{\longleftarrow}
+     \\
+     \overset{\phantom{AA}Disc\phantom{AA}}{\hookrightarrow}
+   }
+   &
+  CartSp
+   &
+   \array{
+     \overset{\phantom{AA}\iota_{inf}\phantom{AA}}{\hookrightarrow}
+     \\
+     \overset{\phantom{AA}\Pi_{inf}\phantom{AA}}{\longleftarrow}
+     \\
+     \phantom{A}
+     \\
+     \phantom{A \atop A}
+   }
+   &
+  FormalCartSp
+  &
+   \array{
+     \overset{\phantom{AA}even\phantom{AA}}{\longleftarrow}
+     \\
+     \overset{\phantom{AA}\iota_{sup}\phantom{AA}}{\hookrightarrow}
+     \\
+     \overset{\phantom{AA}\Pi_{sup}\phantom{AA}}{\longleftarrow}
+     \\
+     \phantom{A}
+     \\
+     \phantom{A \atop A}
+     \\
+     \phantom{A \atop A}
+   }
+  &
+  SuperFormalCartSp
+  }
+  \,.
+$$
+
+induces the claimed [[adjoint quadruples]] between [[presheaf toposes]] in the second row, by [[Kan extension]] ([this Example](geometry+of+physics+--+categories+and+toposes#KanExtensionOfAdjointPairIsAdjointQuadruple) in the chapter _[[geometry of physics -- categories and toposes|on categories and toposes]]_). 
 
 That the [[adjoint quadruple]] on the left ([[corestriction|co-]])[[restriction|restricts]] to [[sheaves]], exhibiting [[SmoothSet]] as a [[cohesive topos]], is [this Prop.](geometry+of+physics+--+smooth+sets#SmoothSetsFormACohesiveTopos) in the chapter [[geometry of physics -- smooth sets|on smooth sets]].
 
