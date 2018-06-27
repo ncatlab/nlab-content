@@ -19,7 +19,7 @@
 
 ## Idea
 
-The concept of _[[solid topos]]_ is meant to be a characterization of _[[gros toposes]]_ which further refines that of [[elastic toposes]] and [[cohesive toposes]]. The idea is that we may consistently regarded the [[objects]] of such toposes as [[generalized spaces]] for some flavor of [[geometry]], and that the axioms on the topos determine aspects of the geometric nature of these [[generalized spaces]], as follows:
+The concept of _[[solid topos]]_ is meant to be a characterization of _[[gros toposes]]_ which further refines that of [[elastic toposes]] and [[cohesive toposes]]. The idea is that we may consistently regard the [[objects]] of such toposes as [[generalized spaces]] for some flavor of [[geometry]], and that the axioms on the topos determine aspects of the geometric nature of these [[generalized spaces]], as follows:
 
 | $\phantom{A}$[[gros topos]]$\phantom{A}$ | $\phantom{A}$[[generalized spaces]] obey...$\phantom{A}$ |
 |-----|-----|
@@ -199,7 +199,7 @@ We pronounce these as follows:
 
 | $\phantom{A}$ [[fermionic modality]] $\phantom{A}$ | $\phantom{A}$ [[bosonic modality]] $\phantom{A}$ | $\phantom{A}$ [[rheonomy modality]] $\phantom{A}$ |
 |--------------------|-------------------|--------------------|
-|   $\phantom{A}$  $\rightrightarrows \;\coloneqq\; \iota_{sup} \circ even$  $\phantom{A}$ | $\phantom{A}$ $\rightsquigarrow \;\coloneqq\; Disc_{sup} \circ \Pi_{sup}$ $\phantom{A}$  | $\phantom{A}$ $ Rh \;\coloneqq\; Disc_{sup} \circ \Pi_{sup} $ $\phantom{A}$  |
+|   $\phantom{A}$  $\rightrightarrows \;\coloneqq\; \iota_{sup} \circ even$  $\phantom{A}$ | $\phantom{A}$ $\rightsquigarrow \;\coloneqq\; \iota_{sup} \circ \Pi_{sup}$ $\phantom{A}$  | $\phantom{A}$ $ Rh \;\coloneqq\; Disc_{sup} \circ \Pi_{sup} $ $\phantom{A}$  |
 {: style='margin:auto}
 
 and we refer to the corresponding [[modal objects]] ([this Def.](geometry+of+physics+--+categories+and+toposes#ModalObjects)) as follows:
@@ -246,10 +246,10 @@ Let $\mathbf{H}$ be a [[solid topos]] (Def. \ref{SuperDifferentialCohesion}) and
 |   $\phantom{A}$  $&#643; \;\coloneqq\; Disc \Pi$  $\phantom{A}$ | $\phantom{A}$ $\flat \;\coloneqq\; Disc \circ \Gamma$ $\phantom{A}$  | $\phantom{A}$ $\sharp \;\coloneqq\; coDisc \circ \Gamma $ $\phantom{A}$  |
 |   |   |   |
 | $\phantom{A}$ **[[reduction modality]]** $\phantom{A}$ | $\phantom{A}$ **[[infinitesimal shape modality]]** $\phantom{A}$ | $\phantom{A}$ **[[infinitesimal flat modality]]** $\phantom{A}$ |
-|   $\phantom{A}$  $\Re \;\coloneqq\; \iota_{sup} \iota_{inf} \circ \Pi_{inf}Pi_{sup}$  $\phantom{A}$ | $\phantom{A}$ $\Im \;\coloneqq\; Disc_{sup} Disc_{inf} \circ \Pi_{inf} \Pi_{sup}$ $\phantom{A}$  | $\phantom{A}$ $ \& \;\coloneqq\; Disc_{sup} Disc_{inf} \circ \Gamma_{inf}\Gamma_{sup} $ $\phantom{A}$  |
+|   $\phantom{A}$  $\Re \;\coloneqq\; \iota_{sup} \iota_{inf} \circ \Pi_{inf}\Pi_{sup}$  $\phantom{A}$ | $\phantom{A}$ $\Im \;\coloneqq\; Disc_{sup} Disc_{inf} \circ \Pi_{inf} \Pi_{sup}$ $\phantom{A}$  | $\phantom{A}$ $ \& \;\coloneqq\; Disc_{sup} Disc_{inf} \circ \Gamma_{inf}\Gamma_{sup} $ $\phantom{A}$  |
 |   |    |    |
 | $\phantom{A}$ **[[fermionic modality]]** $\phantom{A}$ | $\phantom{A}$ **[[bosonic modality]]** $\phantom{A}$ | $\phantom{A}$ **[[rheonomy modality]]** $\phantom{A}$ |
-|   $\phantom{A}$  $\rightrightarrows \;\coloneqq\; \iota_{sup} \circ even$  $\phantom{A}$ | $\phantom{A}$ $\rightsquigarrow \;\coloneqq\; Disc_{sup} \circ \Pi_{sup}$ $\phantom{A}$  | $\phantom{A}$ $ Rh \;\coloneqq\; Disc_{sup} \circ \Pi_{sup} $ $\phantom{A}$  |
+|   $\phantom{A}$  $\rightrightarrows \;\coloneqq\; \iota_{sup} \circ even$  $\phantom{A}$ | $\phantom{A}$ $\rightsquigarrow \;\coloneqq\; \iota_{sup} \circ \Pi_{sup}$ $\phantom{A}$  | $\phantom{A}$ $ Rh \;\coloneqq\; Disc_{sup} \circ \Pi_{sup} $ $\phantom{A}$  |
 {: style='margin:auto}
 
 Then these arrange into the following progression, via the [[preorder]] on modalities from [this Def.](geometry+of+physics+--+categories+and+toposes#PreorderOnModalities):
@@ -260,7 +260,7 @@ $$
     \\
     \vee && \vee
     \\
-    \rightrightarrows &\bot& \rightsquigarrow &\bot& Rh
+    \rightrightarrows &\dashv& \rightsquigarrow &\dashv& Rh
     \\
     && \vee && \vee
     \\
@@ -272,7 +272,7 @@ $$
     \\
     && && && \vee && \vee
     \\
-    && && && \emptyset &\dashv& id
+    && && && \emptyset &\dashv& \ast
   }
 $$
 
