@@ -124,13 +124,15 @@ in $C = [S^{op},Set]$ with respect to the given [[Grothendieck topology]] on $S$
 
 ## References ##
 
-The above definition is due to Gabriel and Zisman in the book 
+The above definition is due to 
 
 * [[Pierre Gabriel]], [[Michel Zisman]], _[[Calculus of fractions and homotopy theory]]_, _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. Springer, New York (1967). 
 
 See also
 
 * [[Frank Adams]], part III, section 14 of _[[Stable homotopy and generalised homology]]_, 1974
+
+* {#Borceux94} [[Francis Borceux]], vol 1, chapter 5 of: _[[Handbook of Categorical Algebra]], Cambridge University Press (1994)
 
 [[!redirects left calculus of fractions]]
 [[!redirects right calculus of fractions]]
