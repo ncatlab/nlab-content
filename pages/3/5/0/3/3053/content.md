@@ -54,7 +54,7 @@ If the fibration is even a bifibration, there is a particularly elegant algebrai
 Fibrations and opfibrations on a category $C$ (or more generally an object of a suitable 2-category) are the algebras for a pair of pseudomonads.  If $C$ has pullbacks, there is a [[pseudo-distributive law]] between these pseudomonads, whose joint algebras are the bifibrations satisfying the [[Beck-Chevalley condition]]; see [(von Glehn)](#vonGlehn).
 
 ## Remark
-A bifibration $F:E\to B$ such that $F^{op}:E^{op}\to B$ is a bifibration as well is called a _trifibration_ (cf. Pavlovi&#263; 1990, p.315).
+A bifibration $F:E\to B$ such that $F^{op}:E^{op}\to B$ is a bifibration as well is called a [[trifibration]] (cf. Pavlovi&#263; 1990, p.315).
 
 ## Bifibration of model categories
 
