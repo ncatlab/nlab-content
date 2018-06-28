@@ -59,7 +59,7 @@ Thus, a motivic space over $S$ is an [[(∞,1)-presheaf]] $F$ on $Sm/S$ such tha
 * $F$ is an [[(∞,1)-sheaf]] for the [[Nisnevich topology]]
 * $F$ is _$\mathbb{A}^1$-homotopy invariant_: for every $X\in Sm/S$, the projection $X\times\mathbb{A}^1\to X$ induces an [[equivalence]] $F(X)\simeq F(X\times\mathbb{A}^1$).
 
-As for any [[homotopy localization]], the inclusion $\mathrm{H}(S)\subset PSh(Sm/S)$ admits a [[left adjoint]] [[localization functor]], and one can show that it preserves finite (∞,1)-products. This allows us to regard any presheaf on (or object of) $Sm/S$ as an object of $\mathrm{H}(S)$.
+As for any [[homotopy localization]], the inclusion $\mathrm{H}(S)\subset PSh(Sm/S)$ admits a [[left adjoint]] [[localization functor]], and one can show that it preserves finite (∞,1)-products.
 
 The (∞,1)-category $\mathrm{H}(S)$ is a [[locally presentable (∞,1)-category|locally presentable]] and [[locally cartesian closed (∞,1)-category|locally cartesian closed]] (∞,1)-category. However, it is not an [[(∞,1)-topos]] (see Remark 3.5 in [Spitzweck-&#216;stv&#230;r, _Motivic twisted K-theory_, pdf](http://arxiv.org/pdf/1008.4915v1.pdf))
 
