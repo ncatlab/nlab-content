@@ -243,29 +243,32 @@ Let for the remainder of this section an infinitesimal neighbourhood $\mathbf{H}
 More generally we may ask for a sequence of differential inclusions of $\infty$-toposes as above, reflecting ever higher orders of infinitesimals, hence notably a progression 
 
 $$
-  &#643; 
+  &#643;
   \lt
   \Im
-  = 
-  \Im_{(0)}
-  \lt 
-  \Im_{(1)}
+  =
+  \Im_{(\infty)}
+  \lt
+  \cdots
+  \lt
+  \Im_{(3)}
   \lt
   \Im_{(2)}
-  \lt 
-  \Im_{(3)}
-  \lt 
-  \cdots
-  \lt 
+  \lt
+  \Im_{(1)}
+  \lt
   id
 $$
 
 of [[infinitesimal shape modalities]] of various order, yielding a further factorization of the shape unit as
 
 $$
-  X \to \cdots \to \Im_{(3)}X \to \Im_{(2)}X \to \Im_{(1)}X \to \Im X \to &#643; X
+  X \to \Im_{(1)}X \to \Im_{(2)}X 
+   \to \Im_{(3)} X  \to \cdots \to \Im X \to &#643; X
   \,.
 $$
+
+
 
 =--
 
@@ -2515,6 +2518,7 @@ See at _[[differential cohesion and idelic structure]]_.
 The material discussed here corresponds to the most part to sections 3.5 and 3.10 of
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+
 
 For references on the general notion of _[[cohesive (∞,1)-topos]]_, see there.
 
