@@ -22,7 +22,7 @@
 
 Given a [[commutative ring]] $R$ and an $R$-[[associative algebra|algebra]] $A$, this algebra is _finitely generated over $R$_ if it is a [[quotient]] of a [[polynomial ring]] $R[x_1, \cdots, x_n]$ on finitely many variables.
 
-If moreover $A = R[x_1, \cdots, x_n]/(f_1, \cdots, f_k)$ for a finite number of [[polynomials]] $f_i$, then $A$ is called _finiteley presented_.
+If moreover $A = R[x_1, \cdots, x_n]/(f_1, \cdots, f_k)$ for a finite number of [[polynomials]] $f_i$, then $A$ is called _finitely presented_.
 
 =--
 
