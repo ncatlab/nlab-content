@@ -1,5 +1,3 @@
-[[!redirects correspondence]]
-[[!redirects span]]
 
 > This entry is about the notion of spans/correspondences which generalizes that of _[[relations]]_. For spans in [[vector spaces]] or [[modules]], see _[[linear span]]_.
 
@@ -216,29 +214,30 @@ The relationship between spans and [[bimodules]] is briefly discussed in
 
 The relation to [[van Kampen colimits]] is discussed in 
 
-* [[Pawel Sobocinski]], Tobias Heindel, _Being Van Kampen is a universal property_, ([arXiv:1101.4594](http://arxiv.org/abs/1101.4594))
- {#SobocinskiHeindel11}
+* {#SobocinskiHeindel11} [[Pawel Sobocinski]], Tobias Heindel, _Being Van Kampen is a universal property_, ([arXiv:1101.4594](http://arxiv.org/abs/1101.4594))
+ 
 
 The [[universal property]] of categories of spans is discussed in 
 
-* R. Dawson, [[Robert Paré]], [[Dorette Pronk]], _Universal properties of Span_, Theory and Appl. of Categories __13__, 2004, No. 4, 61-85, [TAC](http://www.tac.mta.ca/tac/volumes/13/4/13-04abs.html), [MR2005m:18002](http://www.ams.org/mathscinet-getitem?mr=2116323)
-  {#DawsonParePronk04}
+* {#DawsonParePronk04} R. Dawson, [[Robert Paré]], [[Dorette Pronk]], _Universal properties of Span_, Theory and Appl. of Categories __13__, 2004, No. 4, 61-85, [TAC](http://www.tac.mta.ca/tac/volumes/13/4/13-04abs.html), [MR2005m:18002](http://www.ams.org/mathscinet-getitem?mr=2116323)
+  
 
 
-* R. Dawson, [[Robert Paré]], [[Dorette Pronk]], _The span construction_, Theory Appl. Categ. __24__ (2010), No. 13, 302&#8211;377, [TAC](http://www.tac.mta.ca/tac/volumes/24/13/24-13abs.html) [MR2720187](http://www.ams.org/mathscinet-getitem?mr=2720187)
-  {#DawsonParePronk10}
+*  {#DawsonParePronk10} R. Dawson, [[Robert Paré]], [[Dorette Pronk]], _The span construction_, Theory Appl. Categ. __24__ (2010), No. 13, 302&#8211;377, [TAC](http://www.tac.mta.ca/tac/volumes/24/13/24-13abs.html) [MR2720187](http://www.ams.org/mathscinet-getitem?mr=2720187)
+ 
 
 The structure of a [[k-tuply monoidal (n,r)-category|monoidal]] [[tricategory]] on spans in [[2-categories]] is discussed in  
 
-* [[Alex Hoffnung]], _Spans in 2-Categories: A monoidal tricategory_ ([arXiv:1112.0560](http://arxiv.org/abs/1112.0560))
- {#Hoffnung}
+* {#Hoffnung} [[Alex Hoffnung]], _Spans in 2-Categories: A monoidal tricategory_ ([arXiv:1112.0560](http://arxiv.org/abs/1112.0560))
+ 
 
 Generally, an [[(∞,n)-category of spans]] is indicated in section 3.2 of
 
-* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
+ 
 
 [[!redirects spans]]
+
 [[!redirects correspondence]]
 [[!redirects correspondences]]
 
