@@ -128,6 +128,8 @@ On the other hand, many commonly encountered factorization systems are not refle
 
 * [[closure operator]]
 
+* [[reflective localization]]
+
 ## References
 
 The basic theory is developed in
