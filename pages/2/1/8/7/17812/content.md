@@ -1682,9 +1682,8 @@ $$
   X \in SmoothMfd \hookrightarrow SuperFormalSmoothSet
 $$
 
-a [[smooth manifold]], regarded as a [[super formal smooth set]] via prop. \ref{SmoothSetsContainSmoothManifolds},
-the [[internal hom]] out of $\mathbb{D}^1$ with this basepoint is the smooth [[tangent bundle]] of $X$
-(again under the embedding of prop. \ref{SmoothSetsContainSmoothManifolds}):
+a [[smooth manifold]], regarded as a [[super formal smooth set]] ([this Prop.](geometry+of+physics+--+smooth sets#InclusionOfSmoothManifoldsIntoSmoothSets)),
+the [[internal hom]] out of $\mathbb{D}^1$ with this basepoint is the smooth [[tangent bundle]] of $X$ (again under the embedding of [this Prop.](geometry+of+physics+--+smooth sets#InclusionOfSmoothManifoldsIntoSmoothSets)):
 
 $$
   \array{
@@ -1734,7 +1733,8 @@ at which this tangent vector is based. This shows that the vertical map in the a
 
 Example \ref{CorepresentingTangentSpace} is a key observation that motivated the development of
 [[synthetic differential geometry]] ([[Toposes of laws of motion|Lawvere 97]]).
-We may also consider the following super-geometric version
+
+The following is the supergeometric analog of this situation:
 
 
 +-- {: .num_example #MappingSpaceOddTangentBundle}
@@ -1762,9 +1762,8 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Let $\mathbb{R}^n$ be a bosonic Cartesian space.
-By prop. \ref{SheavesHomInternal} the value of the smooth set $[\mathbb{R}^{0\vert 1}, X]$
-on this is
+Let $\mathbb{R}^n$ be a [[bosonic object|bosonic]] [[Cartesian space]].
+By prop. \ref{SheavesHomInternal} the set of plots of the smooth set $[\mathbb{R}^{0\vert 1}, X]$ on this test space is
 
 $$
   [\mathbb{R}^{0\vert 1},X](\mathbb{R}^n)
@@ -1791,7 +1790,7 @@ But then consider probes parameterized by the [[superpoint]] $\mathbb{R}^{0\vert
 $$
   \begin{aligned}
     [\mathbb{R}^{0\vert 1},X](\mathbb{R}^{n\vert 1})
-    & =
+    & \simeq
     Hom( \mathbb{R}^{n\vert 2}, X )
     \\
     & \simeq
@@ -1809,14 +1808,23 @@ $$
   \,,
 $$
 
-where we used the adjunction $\rightrightarrows \dashv \rightsquigarrow$ from
-prop. \ref{SuperSmoothSetsSystemOfAdjunctions}, Prop. \ref{ProgressionOfIdempotentEndofunctors},
-then example \ref{EvenPartOfDimTwoSuperpoint} and finally example \ref{CorepresentingTangentSpace}.
-
+where we used the [[adjunction]] $\rightrightarrows \dashv \rightsquigarrow$ from prop. \ref{SuperSmoothSetsSystemOfAdjunctions}, Prop. \ref{ProgressionOfIdempotentEndofunctors}, then example \ref{EvenPartOfDimTwoSuperpoint} and finally example \ref{CorepresentingTangentSpace}.
 
 =--
 
-More generally, this is the concept if [[superfields]] as used in the [[physics]] literature:
+
+Notice the curious difference between the bosonic and the odd-graded version of the [[synthetic tangent bundle]] as seen by its [[algebra of functions]]
+
+* $[[\mathbb{D}^1, X], \mathbb{R}] \;\simeq\; C^\infty(T X)$
+
+* $[[\mathbb{R}^{0\vert 1}, X], \mathbb{R}] \simeq \Omega^\bullet(X)$
+
+In the first case the, smooth functions on the [[tangent bundle]] $T X$ do not know about the linear structure on [[fibers]]. But in the second case, they do: the [[differential forms]] in the second case appear as the sub-space of that of all smooth functions on those which are graded [[polynomials]] (over the algebra of smooth functions on $X$) in fiber-wise _[[linear functions]]_.
+
+$\,$
+
+
+More generally, this is the concept if _[[superfields]]_ as used in the [[physics]] literature:
 
 +-- {: .num_example #Superfields}
 ###### Example
