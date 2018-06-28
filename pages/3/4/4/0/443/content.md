@@ -88,7 +88,7 @@ one has to move to the [[Eilenberg-Moore category]] of the [[powerset]] [[monad]
 viz., the category of complete [[suplattices]].
 
 ### Weak equalizers and completion
-As $Rel$ has _weak_ [[equalizers]], one can take its
+As $Rel$ has _[[weak limit|weak]]_ [[equalizers]], one can take its
 [[exact completion]]. This happens to be the category of complete
 sup-lattices and sup-preserving maps. And the tensor product on $Rel$
 extends to the [[exact completion]]. 
