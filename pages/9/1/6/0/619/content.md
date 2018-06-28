@@ -70,7 +70,7 @@ $$
 
 =--
 
-This reflection is sometimes called a [[localization]], although sometimes this term is reserved for the case when the functor $T$ is [[exact functor|left exact]].
+This reflection is sometimes called a _[[localization]]_ (due to [this Prop.](reflective+localization#ReflectiveSubcategoriesAreLocalizations) at _[[reflective localization]]_), although sometimes this term is reserved for the case when the functor $T$ is [[exact functor|left exact]].
 
 +-- {: .num_defn }
 ###### Definition
@@ -111,9 +111,11 @@ the following are equivalent:
 
 =--
 
-This is due to [[Gabriel-Zisman]], (proposition 1.3, page 7).
+This is due to ([prop. 1.3, page 7](#GabrielZisman67)). For details see at _[[reflective localization]]_. spring
 
-This is a well-known set of equivalences concerning [[idempotent monads]]. The essential point is that a reflective subcategory $i: B \to A$ is [[monadic functor|monadic]], i.e., realizes $B$ as the category of algebras for the monad $i r$ on $A$, where $r: A \to B$ is the reflector. 
+
+
+This is a well-known set of equivalences concerning [[idempotent monads]]. The essential point is that a reflective subcategory $i: B \to A$ is [[monadic functor|monadic]], i.e., realizes $B$ as the category of [[algebra over a monad|algebras for the monad]] $i r$ on $A$, where $r: A \to B$ is the reflector. 
 
 See also the related discussion at [[reflective sub-(infinity,1)-category]].
 
@@ -330,6 +332,8 @@ But an object in a reflective subcategory is necessarily isomorphic to its image
 
 * [[localization]], [[locally presentable category]]
 
+* [[reflective localization]]
+
 * [[reflective sub-(infinity,1)-category]]
 
 * [[adjoint cylinder]], describing the situation when the reflector has a further left adjoint
@@ -339,10 +343,12 @@ But an object in a reflective subcategory is necessarily isomorphic to its image
 
 ## References
 
+* {#GabrielZisman67} [[Pierre Gabriel]], [[Michel Zisman]], _[[Calculus of fractions and homotopy theory]]_, Springer 1967 ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf))
+
 * {#Borceux} [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol.1, p. 196.
  
 
-* {#AdamekRosicky} [[Jiri Adamek|Ji?í Adamek]], [[Jirí Rosický]], _[[Locally presentable and accessible categories]]_ London Mathematical Society Lecture Note Series 189
+* {#AdamekRosicky} [[Jiri Adamek|Jiri Adamek]], [[Jirí Rosický]], _[[Locally presentable and accessible categories]]_ London Mathematical Society Lecture Note Series 189
  
 
 * Springer eom: [reflective subcategory](http://eom.springer.de/r/r080550.htm)
