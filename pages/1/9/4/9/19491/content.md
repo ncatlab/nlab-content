@@ -21,13 +21,13 @@ The **dual fibration** of a (Grothendieck) [[Grothendieck fibration|fibration]] 
 
 ## Definition
 
-Let $p : E \to B$ be a fibration, and let $F : B^{op} \to Cat$  be the corresponding [[indexed category]]. The dual fibration $p^* : E^* \to B$ can be defined as the fibration associated (via the [[Grothendieck construction]]) to the composite
+Let $p : E \to B$ be a fibration, and let $F : B^{op} \to Cat$  be the corresponding [[indexed category]]. The dual fibration $p^d : E^d \to B$ can be defined [(Borceux)](#Borceux) as the fibration associated (via the [[Grothendieck construction]]) to the composite
 
 $$
- B^{op} \stackrel{F}{\longrightarrow} Cat \stackrel{(-)^*}{\longrightarrow} Cat
+ B^{op} \stackrel{F}{\longrightarrow} Cat \stackrel{(-)^{op}}{\longrightarrow} Cat
 $$
 
-where $(-)^* : Cat \to Cat$ is the operation sending any category to its opposite (note this operation preserves the direction of the 1-cells, although it reverses the direction of the 2-cells in Cat).
+where $(-)^{op} : Cat \to Cat$ is the operation sending any category to its opposite (note this operation preserves the direction of the 1-cells, although it reverses the direction of the 2-cells in Cat). (See [Borceux](#Borceux) reference.) Alternatively, the dual fibration may be defined in more elementary terms as a category with the same objects as $E$, and whose morphisms are equivalence classes of [[spans]] $R \stackrel{v}{\longleftarrow} X \stackrel{h}{\longrightarrow} S$ where $v$ is _vertical_ (i.e., $p(v) = id$) and $h$ is _horizontal_ (i.e., $p$-[[cartesian morphism|cartesian]]). (See [Pavlovic](#Pavlovic90) and [Kock](#AKock15) references.)
 
 ## References
 
