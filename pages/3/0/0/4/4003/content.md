@@ -182,6 +182,8 @@ See also
 
 * [[Mark Weber]], *Polynomials in categories with pullbacks*, [TAC](http://tac.mta.ca/tac/volumes/30/16/30-16abs.html)
 
+* Charles Walker, *Universal properties of polynomials*, [arxiv](https://arxiv.org/abs/1806.10477)
+
 [[!redirects polynomial functor]]
 [[!redirects polynomial functors]]
 [[!redirects polynomial endofunctor]]
