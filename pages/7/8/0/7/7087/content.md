@@ -318,7 +318,15 @@ $$
 
 and the fact that the [[hom-functor]] takes [[isomorphisms]] to [[bijections]].
 
-For the second statement, consider the case that $Y$ is $W$-local. Since by [[idempotent monad|idempotency]] the [[adjunction unit]] $\eta_Y$ is in $W$, this implies that we have a [[bijection]] of the form
+For the second statement, consider the case that $Y$ is $W$-local. Observe that then $Y$ is also local with respect to the class 
+
+$$
+  W_{sat} \;\coloneqq\; L^{-1}(Isos)
+$$ 
+
+of _all_ morphisms that are inverted by $L$ (the "[[saturated class of morphisms]]"): For consider the [[hom-functor]] $\mathcal{C} \overset{Hom_{\mathcal{C}}(-,Y)}{\longrightarrow} Set^{op}$ to the [[opposite category|opposite]] of the [[category of sets]]. But assumption on $Y$ this takes elements in $W$ to isomorphisms. Hence, by the defining [[universal property]] of the [[localization]]-functor $L$, it factors through $L$, up to [[natural isomorphism]]. 
+
+Since by [[idempotent monad|idempotency]] the [[adjunction unit]] $\eta_Y$ is in $W_{sat}$, this implies that we have a [[bijection]] of the form
 
 $$
   Hom_{\mathcal{C}}( \eta_Y, Y )
@@ -336,7 +344,7 @@ $$
   \,.
 $$
 
-But by [[2-out-of-3]] this implies that $\eta_Y^{-1} \in W$. Since the first item above shows that $\iota L(Y)$ is $W$-local, this allows to apply this same kind of argument again, 
+But by [[2-out-of-3]] this implies that $\eta_Y^{-1} \in W_{sat}$. Since the first item above shows that $\iota L(Y)$ is $W_{sat}$-local, this allows to apply this same kind of argument again, 
 
 
 $$
