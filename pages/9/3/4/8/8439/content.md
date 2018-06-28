@@ -194,5 +194,8 @@ Other references:
 * Bruno Xavier, Carlos Olarte, Giselle Reis, Vivek Nigam, *Mechanizing Linear Logic in Coq*, [pdf](http://www.cs.cmu.edu/~iliano/projects/metaCLF2/inc/dl/papers/lsfa17.pdf)
  {#XORN18}
 
+* Mary Southern, Gopalan Nadathur, *Towards a Logic for Reasoning About LF Specifications*, [arxiv](https://arxiv.org/abs/1806.10199)
+
+
 [[!redirects logical frameworks]]
 [[!redirects higher-order abstract syntax]]
