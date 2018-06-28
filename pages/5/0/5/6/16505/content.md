@@ -19,7 +19,7 @@ This page collects material related to
 
   ([web](http://www.readbookonline.net/read/62308/109598/))
 
-on [[formal logic]] as a tool in [[philosophy]], criticizing the "old old logic",  [[Aristotle's logic]] of [[syllogism]], [[Hegel]]'s [[metaphysics|metaphysical]] "[[objective logic]]" ([I]({#OnHegelsLogicI}), [II]({#OnHegelsLogicII}), [III]({#OnHegelsLogicIII})), and championing ([I](#ConclusionAndOutlook)) the "new logic" (modern [[predicate logic]]) initiated by [[Peano]] and [[Frege]] ([I](#EnterPeanoFrege)).
+on [[formal logic]] as a tool in [[philosophy]], criticizing the "old old logic",  [[Aristotle's logic]] of [[syllogism]], [[Hegel]]'s [[metaphysics|metaphysical]] "[[objective logic]]" ([I](#OnHegelsLogicI), [II](#OnHegelsLogicII), [III](#OnHegelsLogicIII)), and championing ([I](#ConclusionAndOutlook)) the "new logic" (modern [[predicate logic]]) initiated by [[Peano]] and [[Frege]] ([I](#EnterPeanoFrege)).
 
 ***
 
