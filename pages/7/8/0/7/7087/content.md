@@ -10,6 +10,8 @@
 =--
 
 
+## Idea
+
 A [[localization]] is called **reflective** if the [[full subcategory]] of [[local objects]] is a [[reflective subcategory]]/[[reflective sub-(∞,1)-category]].
 
 [[!redirects reflective localizations]]
