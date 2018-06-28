@@ -68,6 +68,15 @@ There is an evident generalization of the [[orbit category]] of a fixed group to
 
 =--
 
+
+
++-- {: .num_remark}
+###### Remark
+
+More generally, an analog of Elemendorf's theorm holds in situations covered by [[Parametrized Higher Category Theory and Higher Algebra]] where the orbit category for $G$ is replaced by any atomic orbital $(\infty, 1)$-category.
+
+=--
+
 ## Model category presentation / Quillen equivalence
  {#ModelCategoryPresentation}
 
