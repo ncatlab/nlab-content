@@ -60,6 +60,11 @@ is the [[internal hom]] object in the category of [[supermanifold]]s of maps fro
 
 The existence of the structure of an [[NQ-supermanifold]] is from this point of view a consequence of the fact that $[\mathbb{R}^{0|1},X]$ naturally carries an action of the [[endomorphism]] object $End(\mathbb{R}^{0|1})$.  For more on this see [[NQ-supermanifold]].
 
+## References
+
+* [[geometry of physics -- supergeometry]] the section _[Super mapping spaces](geometry+of+physics+--+supergeometry#SuperMappingSpaces)_
+
+
 [[!redirects shifted tangent bundles]]
 
 
