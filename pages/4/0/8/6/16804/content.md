@@ -62,8 +62,7 @@ The symmetric group $S_n$ acts freely on the domain $[0,1] + \dots + [0,1]$ of a
 
 Equivalently, a rooted chord diagram of order $n$ is a way of arranging the elements of $[0,2n-1]$ into a collection of (necessarily mutually disjoint) ordered pairs $(D_{10}, D_{11}), \dots, (D_{n0},D_{n1})$, where $D_{i0} \lt D_{i1}$ for each $1 \le i \le n$.
 
-Equivalently, a rooted chord diagram of order $n$ is a [[shuffle]] of $n$ distinct 2-letter words $x x$, $y y$, $z z$, etc., considered up to [[alpha-conversion]].
-(Under this view, a rooted chord diagram can also be thought of/referred to as a **double-occurrence word**.)
+Equivalently, a rooted chord diagram of order $n$ is a [[shuffle]] of $n$ distinct 2-letter words $\bar x x$, $\bar y y$, $\bar z z$, etc., considered up to [[alpha-conversion]]. Under this view, rooted chord diagrams are also sometimes referred to as **double-occurrence words**. (For example, the rooted chord diagram in the illustration above can be encoded as the double-occurrence word $\bar x \bar y x y \bar z z$.)
 
 ### Unrooted chord diagrams
 
@@ -104,11 +103,11 @@ $$
   i_D(x) = \begin{cases}y & (x,y) \in D \\ y & (y,x) \in D\end{cases}
 $$
 and conversely, any such involution uniquely determines a rooted chord diagram up to isomorphism.
-In particular, there are
+In particular, there are a double-factorial number
 $$
  (2n-1)!! = (2n-1)(2n-3)\cdots 1
 $$
-distinct isomorphism classes of rooted chord diagrams of order $n$.
+of distinct isomorphism classes of rooted chord diagrams of order $n$.
 
 ### Symmetries
 
@@ -126,10 +125,10 @@ Finally, fixing a [[base point]] on the original knot gives rise to a Gauss diag
 
 Once again, this geometric object can be abstracted into a purely combinatorial one, called the _Gauss code_ of the knot (diagram).
 To construct the Gauss code, begin by assigning arbitrary labels to the crossings, then run the length of the knot (starting at some arbitrary base point) and output the name of each crossing as you visit it, together with a [[bit]] (or two bits in the case of a framed knot) specifying whether you are at an over-crossing or an under-crossing (of positive or negative writhe).
-(In this notation, the involution on the points of the underlying chord diagram is encoded implicitly as a double-occurrence word.)
+The underlying (rooted) chord diagram of the knot is thus encoded as a double-occurrence word.
 
 Polyak and Viro called these "Gauss diagrams" after [[Carl Gauss]], who apparently studied the question of which chord diagrams arise from immersions of circles (see the chapter titled "Gauss is back: curves in the plane" of Ghys's _[A singular mathematical promenade](#Ghys16)_).
-This question also played a foundational role in [[virtual knot theory]] &mdash; indeed, according to [Kauffman (1999)](#Kauffman1999), the "fundamental combinatorial motivation" for the definition of virtual knots was the idea that it should be possible to interpret an _arbitrary_ Gauss diagram as encoding a knot (now no longer seen as an embedding of $S^1$ into $\mathbb{R}^3$, but into a thickened surface of arbitrary genus).
+This question also played a foundational role in [[virtual knot theory]] &mdash; indeed, according to [Kauffman (1999)](#Kauffman1999), the "fundamental combinatorial motivation" for the definition of virtual knots was the idea that it should be possible to interpret an _arbitrary_ Gauss diagram as encoding a knot, now no longer seen as an embedding of $S^1$ into $\mathbb{R}^3$, but into a thickened surface of arbitrary genus.
 
 ## Chord diagrams of singular knots
 
@@ -163,9 +162,9 @@ For the relationship to Gauss diagrams in classical and [[virtual knot theory]],
 
 * [Gauss codes](http://katlas.org/wiki/Gauss_Codes) at the Knot Atlas.
 
-For the connection to [[Vassiliev invariants]] of [[singular knots]], see Chapter 6 of:
+For the connection to [[Vassiliev invariants]] of [[singular knots]], see:
 
-* {#LandoZvonkin} [[Sergei K. Lando]] and [[Alexander K. Zvonkin]], _Graphs on Surfaces and Their Applications_, Springer, 2004.
+* {#LandoZvonkin} [[Sergei K. Lando]] and [[Alexander K. Zvonkin]], _Graphs on Surfaces and Their Applications_, Springer, 2004. (Chapter 6.)
 
 * {#Bar-Natan1995} [[Dror Bar-Natan]], On the Vassiliev knot invariants, _Topology_ 34 (1995), 423-472. ([html](http://www.math.toronto.edu/~drorbn/papers/OnVassiliev/))
 
