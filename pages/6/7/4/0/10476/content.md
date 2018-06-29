@@ -219,7 +219,7 @@ Discussion in the broader context of [[global equivariant homotopy theory]] is i
 
 Some of the categorical aspects of ELmendorf's theorem are examined in
 
-+ [[Jean-Marc Cordier]], [[Timothy Porter]], _Categorical Aspects of Equivariant Homotopy_, Proc. ECCT, Applied Cat.Structures, 4 (1996) 195 - 212.
+* {#CordierPorter96} [[Jean-Marc Cordier]], [[Timothy Porter]], _Categorical Aspects of Equivariant Homotopy_, Applied Cat.Structures, **4** (1996) 195 - 212. doi:[10.1007/BF00122252](https://doi.org/10.1007/BF00122252) (Proceedings of the European Colloquium of Category Theory, 1994)
 
 
 A recent n-cat café discussion initiated by [[John Huerta]] and probing some of its uses in Mathematical Physics, can be found [here](https://golem.ph.utexas.edu/category/2018/06/elmendorfs_theorem.html#more).
