@@ -20,7 +20,7 @@
 
 ## Idea
 
-[[localization|Localizations]] of categories and higher categories in the sense of [[left adjoint]] functors $L : C \to C'$ to inclusions $C' \hookrightarrow C$ of full subcategories (as in particular for [[geometric embeddings]]) are characterized by the collection $S \subset Mor(C)$ of morphisms of $C$ which are sent by $L$ to isomorphisms, or more generally to equivalences, as well as by the collection of objects which are _local_ with respect to these morphisms, in that these morphisms behave as equivalences with respect to homming into objects.
+[[reflective localization|Reflective localizations]] of categories and higher categories in the sense of [[left adjoint]] functors $L : C \to C'$ to inclusions $C' \hookrightarrow C$ of full subcategories (as in particular for [[geometric embeddings]]) are characterized by the collection $S \subset Mor(C)$ of morphisms of $C$ which are sent by $L$ to isomorphisms, or more generally to equivalences, as well as by the collection of objects which are _local_ with respect to these morphisms, in that these morphisms behave as equivalences with respect to homming into objects.
 
 
 
