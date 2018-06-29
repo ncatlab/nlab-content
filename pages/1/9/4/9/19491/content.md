@@ -27,7 +27,13 @@ $$
  B^{op} \stackrel{F}{\longrightarrow} Cat \stackrel{(-)^{op}}{\longrightarrow} Cat
 $$
 
-where $(-)^{op} : Cat \to Cat$ is the operation sending any category to its opposite (note this operation preserves the direction of the 1-cells, although it reverses the direction of the 2-cells in Cat). (See [Borceux](#Borceux) reference.) Alternatively, the dual fibration may be defined in more elementary terms as a category with the same objects as $E$, and whose morphisms are equivalence classes of [[spans]] $R \stackrel{v}{\longleftarrow} X \stackrel{h}{\longrightarrow} S$ where $v$ is _vertical_ (i.e., $p(v) = id$) and $h$ is _horizontal_ (i.e., $p$-[[cartesian morphism|cartesian]]). (See [Pavlovic](#Pavlovic90) and [Kock](#AKock15) references.)
+where $(-)^{op} : Cat \to Cat$ is the operation sending any category to its opposite (note this operation preserves the direction of the 1-cells, although it reverses the direction of the 2-cells in Cat). (See [Borceux](#Borceux) reference.) Alternatively, the dual fibration may be defined in more elementary terms as a category with the same objects as $E$, and whose morphisms are equivalence classes of [[spans]] $L \stackrel{v}{\longleftarrow} X \stackrel{h}{\longrightarrow} R$ where $v$ is _vertical_ (i.e., $p(v) = id$) and $h$ is _horizontal_ (i.e., $p$-[[cartesian morphism|cartesian]]). (See [Pavlovic](#Pavlovic90) and [Kock](#AKock15) references.)
+
+## Related concepts
+
+* [[hyperdoctrine]]
+
+* [[trifibration]]
 
 ## References
 
