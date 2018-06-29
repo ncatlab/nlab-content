@@ -4138,21 +4138,68 @@ Finally, since $L$ is [[essentially surjective functor]], by [[idempotent monad|
 ###### Definition
 **([[local object]])**
 
-Let $W \subset \mathcal{C}$ be a [[category with weak equivalences]] (Def. \ref{CategoryWithWeakEquivalences}). Then an [[object]] $X \in \mathcal{C}$ is called a _$W$-[[local object]]_ if for all $A \overset{w}{\to} B \; \in W$ the [[hom-functor]] (Example \ref{HomFunctor}) from $w$ into $X$ yields a [[bijection]]:
+
+
+Let $\mathcal{C}$ be a [[category]] (Def. \ref{Categories}) and let $S \subset Mor_{\mathcal{C}}$ be a set of [[morphisms]]. Then an [[object]] $X \in \mathcal{C}$ is called an _$S$-[[local object]]_ if for all $A \overset{s}{\to} B \; \in S$ the [[hom-functor]] (Def. \ref{HomFunctor}) from $s$ into $X$ yields a [[bijection]]
 
 $$
-  Hom_{\mathcal{C}}(w,X)
+  Hom_{\mathcal{C}}(s,X)
   \;\colon\;
   Hom_{\mathcal{C}}(B,X)
    \overset{ \phantom{AA} \simeq \phantom{AA} }{\longrightarrow}
   Hom_{\mathcal{C}}(A,X)
+  \,,
+$$
+
+hence if every morphism $A \overset{f}{\longrightarrow} X$ [[extension|extends]] uniquely along $w$ to $B$:
+
+$$
+  \array{
+    A &\overset{\phantom{A}f\phantom{A}}{\longrightarrow}& X
+    \\
+    {}^{\mathllap{w}}\big\downarrow & \nearrow_{\mathrlap{ \exists! }}
+    \\
+    B
+  }
+$$
+
+We write 
+
+\[
+  \label{FullSubcategoryOfSLocalObjects}
+  \mathcal{C}_S
+  \overset{\phantom{AA}\iota\phantom{AA}}{\hookrightarrow}
+  \mathcal{C}
+\]
+
+for the [[full subcategory]] (Example \ref{FullSubcategoryOnClassOfObjects}) of $S$-local objects.
+
+=--
+
+
++-- {: .num_defn #LocalizationAtACollectionOfMorphisms}
+###### Definition
+**([[reflective subcategory|reflection]] onto [[full subcategory]] of [[local objects]])**
+
+Let $\mathcal{C}$ be a [[category]] and set $S \subset Mor_{\mathcal{C}}$ be a sub-[[class]] of its [[morphisms]]. Then the _reflection onto local $S$-objects_ (often just called "localization at the collection $S$" is, if it exists, a [[left adjoint]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) $L$ to the [[full subcategory]]-inclusion of the $S$-[[local objects]] (eq:FullSubcategoryOfSLocalObjects):
+
+$$
+  \mathcal{C}_S
+    \underoverset
+      {\underset{\iota}{\hookrightarrow}}
+      {\overset{\phantom{AA}L\phantom{AA}}{\longleftarrow}}
+      {\bot}
+  \mathcal{C}
+  \,.
 $$
 
 =--
 
+
 +-- {: .num_prop #ReflectiveLocalizationGivenByLocalObjects}
 ###### Proposition
-**([[reflective localization]] is given by the [[local objects]])**
+**([[reflective localization]] [[reflective subcategory|reflects]] onto [[full subcategory]] of [[local objects]])**
+
 
 Let $W \subset \mathcal{C}$ be a [[category with weak equivalences]] (Def. \ref{CategoryWithWeakEquivalences}). If its [[reflective localization]] (Def. \ref{LocalizationOfACategory}) exists
 
@@ -4165,7 +4212,7 @@ $$
   \mathcal{C}
 $$
 
-then $\mathcal{C}[W^{-1}] \overset{\iota}{\hookrightarrow} \mathcal{C}$ is [[equivalence of categories|equivalently]] the inclusion of the [[full subcategory]] (Example \ref{FullSubcategoryOnClassOfObjects}) on the $W$-[[local objects]] (Def. \ref{LocalObjects}).
+then $\mathcal{C}[W^{-1}] \overset{\iota}{\hookrightarrow} \mathcal{C}$ is [[equivalence of categories|equivalently]] the inclusion of the [[full subcategory]] (Example \ref{FullSubcategoryOnClassOfObjects}) on the $W$-[[local objects]] (Def. \ref{LocalObjects}), and hence $L$ is equivalently reflection onto the $W$-local objects, according to Def. \ref{LocalizationAtACollectionOfMorphisms}.
 
 =--
 
