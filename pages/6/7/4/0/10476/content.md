@@ -217,7 +217,7 @@ Discussion in the broader context of [[global equivariant homotopy theory]] is i
 
 * {#Rezk14} [[Charles Rezk]], _[[Global Homotopy Theory and Cohesion]]_ (2014)
 
-Some of the categorical aspects of ELmendorf's theorem are examined in
+Some of the categorical aspects of Elmendorf's theorem are examined in
 
 * {#CordierPorter96} [[Jean-Marc Cordier]], [[Timothy Porter]], _Categorical Aspects of Equivariant Homotopy_, Applied Cat.Structures, **4** (1996) 195 - 212. doi:[10.1007/BF00122252](https://doi.org/10.1007/BF00122252) (Proceedings of the European Colloquium of Category Theory, 1994)
 
