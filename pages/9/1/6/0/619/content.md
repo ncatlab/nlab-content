@@ -85,6 +85,7 @@ If the reflector $T$ is [[faithful functor|faithful]], the reflection is called 
 
 +-- {: .num_prop #CharacterizationByLocalization}
 ###### Proposition
+**(equivalent characterizations)**
 
 Given any pair of [[adjoint functors]]
 
@@ -111,9 +112,16 @@ the following are equivalent:
 
 =--
 
-This is due to ([prop. 1.3, page 7](#GabrielZisman67)). For details see at _[[reflective localization]]_. spring
+This is originally due to ([Gabriel-Zisman 67, prop. 1.3, page 7](#GabrielZisman67)). 
 
++-- {: .proof}
+###### Proof
 
+The equivalence of 1) and 2) is [this prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints). The equivalence of 1) and 3) is [this Prop.](idempotent+monad#EquivalentConditions).
+
+For the last item see at _[[reflective localization]]_. 
+
+=--
 
 This is a well-known set of equivalences concerning [[idempotent monads]]. The essential point is that a reflective subcategory $i: B \to A$ is [[monadic functor|monadic]], i.e., realizes $B$ as the category of [[algebra over a monad|algebras for the monad]] $i r$ on $A$, where $r: A \to B$ is the reflector. 
 
