@@ -23,7 +23,7 @@
 There are many ways to describe a $*$-autonomous category; here are a few:
 
 * it is a [[monoidal category]] in which all objects have "duals", but in a weaker sense than in a [[compact closed category]].
-* it is a [[closed monoidal category]] in which the internal-hom can be expressed in terms of the tensor product in a particular way.
+* it is a [[closed monoidal category]] in which the [[internal-hom]] can be expressed in terms of the tensor product in a particular way.
 * it is a [[linearly distributive category]] in which all objects have "duals" in an appropriate linearly distributive sense.
 * it is a semantics for classical multiplicative [[linear logic]].
 * it is a representable [[star-polycategory]].
@@ -32,6 +32,8 @@ There are many ways to describe a $*$-autonomous category; here are a few:
 In particular, it has two monoidal structures $\otimes$ and $\parr$, as in a linearly distributive category.  However, because of the dualization operation $(-)^\ast$, each of them determines the other by a "multiplicative [[de Morgan's laws|de Morgan]] duality": $A\parr B \cong (A^\ast \otimes B^\ast)^\ast$.  Thus, in the definition we only have to refer to one monoidal structure.
 
 A $\ast$-autonomous category is a special case of the notion of [[star-autonomous pseudomonoid]] (a.k.a. Frobenius pseudomonoid, since it categorifies a [[Frobenius algebra]]) in a [[monoidal bicategory]].
+
+[Regarding the use of "autonomous", this was once used as a bare adjective to describe a [[closed monoidal category]], or sometimes a [[compact closed monoidal category]], but is rarely used in this way today. It has been suggested that in these cases with internal-hom objects the category is autonomous or "sufficient unto itself" without needing hom-sets, or suchlike.]
 
 ## Definition ##
 
