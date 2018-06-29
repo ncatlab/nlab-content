@@ -374,7 +374,7 @@ $$
     \underoverset
       {\underset{\phantom{AA}(-)_{even}\phantom{AA}}{\longleftarrow}}
       {\overset{\phantom{AA}(-)/(-)_{odd}\phantom{AA}}{\longleftarrow}}
-      {\overset{\phantom{AAA}\iota^{op}\phantom{AAAA}}{\hookrightarrow}}
+      {\overset{\phantom{AAAA}\iota^{op}\phantom{AAAA}}{\hookrightarrow}}
   sCAlg_k
   \,.
 $$
@@ -384,19 +384,17 @@ $$
 The [[formal dual]] ([this Def.](geometry+of+physics+--+categories+and+toposes#OppositeCategory)) of this statement is that [[affine superschemes]] are related to ordinary [[affine schemes]] over $\mathbb{R}$ by an [[adjoint modality]] of this form
 
 $$
-  \overset{\rightrightarrows}{(-)}
+  even
     \;\dashv\;
-  \iota
-    \;\;
-  \overset{\rightsquigarrow}{(-)}
+  \iota_{sup}
+    \;\;\colon\;\;
+  Disc_{sup}
   Aff(Vect_k)
     \underoverset
       {\underset
         {
           \phantom{AA}
-          \overset
-            {\phantom{A}}
-            {\overset{\rightsquigarrow}{(-)}}
+            \Pi_{sup}
           \phantom{AA}
          }
          {\longleftarrow}
@@ -404,14 +402,12 @@ $$
       {\overset
          {
           \phantom{AA}
-           \underset
-            {\phantom{A}}
-            { \overset{\rightrightarrows}{(-)} }
+           even
           \phantom{AA}
         }
         {\longleftarrow}
       }
-      {\overset{ \phantom{AA} \iota \phantom{AA} }{\hookrightarrow}}
+      {\overset{ \phantom{AAA} \iota \phantom{AAA} }{\hookrightarrow}}
   Aff(sVect_k)
   \,.
 $$
@@ -420,46 +416,21 @@ $$
 
 Beware that
 
-1. $\overset{\rightsquigarrow}{(-)}$ is the [[formal dual]] of $(-)/(-)_{odd}$,
+1. $\Pi_{sup}$ is the [[formal dual]] of $(-)/(-)_{odd}$,
 
-1. $\overset{\rightrightarrows}{(-)}$ is the [[formal dual]] of $(-)_{even}$.
+1. $even$ is the [[formal dual]] of $(-)_{even}$.
 
 That they change position in the diagrams is because we always draw [[left adjoints]] on top of [[right adjoints]] and  the handedness of [[adjoints]] changes as we pass to [[opposite categories]].
 
 
-
-The notation in prop. \ref{AdjointCylinderOnSuperAffines} is to serve as a convenient mnemonic for the nature of these functors:
-
-In a [[Feynman diagram]]
-
-1. a single [[fermion]] is denoted by a solid arrow "$\to$" and the functor
-$\overset{\rightrightarrows}{(-)}$ produces a space whose [[algebra of functions]] is generated over
-smooth functions by the product of _two_ fermionic functions;
-
-1. a single [[boson]] is denoted by a wiggly arrow $\rightsquigarrow$ and the functor
-   denoted by this symbol produces a spaces whose [[algebra of functions]] contains only the
-   bosonic smooth functions, no odd-graded functions.
-
-
-This highlights an important point: while the image of a [[super Cartesian space]] under $\rightsquigarrow$
-is an ordinary [[Cartesian space]]
-
-$$
-   \overset{\rightsquigarrow}{\mathbb{R}^{p\vert q}}
-   \simeq
-   \mathbb{R}^p
-$$
-
-its image under $\overset{\rightrightarrows}{(-)}$ is a bosonic space, but not an ordinary manifold. For example:
-
 +-- {: .num_example #EvenPartOfDimTwoSuperpoint}
 ###### Example
 
-The [[algebra of functions]] on $\overset{\rightrightarrows}{\mathbb{R}^{0\vert 2}}$ is
+The [[algebra of functions]] on $even({\mathbb{R}^{0\vert 2}})$ is
 
 $$
   \begin{aligned}
-   \mathcal{O}\left( \overset{\rightrightarrows}{\mathbb{R}^{0\vert 2}}\right)
+   \mathcal{O}\left( even({\mathbb{R}^{0\vert 2}})\right)
     & =
    \mathcal{O}(\mathbb{R}^{0\vert 2})_{even}
    \\
@@ -508,16 +479,24 @@ In generalization of this we make the following definitions:
 Write
 
 $$
-  InfPoint \overset{\phantom{AAA}}{\hookrightarrow} CAlg_{\mathbb{R}}^{op}
+  \array{
+    InfPoint 
+      &\overset{\phantom{AAA}}{\hookrightarrow}&
+    CAlg_{\mathbb{R}}^{op}
+    \\
+    \mathbb{D}_V
+    &\mapsto&
+    \mathbb{R} \oplus V
+  }
 $$
 
 for the [[full subcategory]] ([this Example](geometry+of+physics+--+categories+and+toposes#FullSubcategoryOnClassOfObjects)) of the [[opposite category]] ([this Example](geometry+of+physics+--+categories+and+toposes#OppositeCategory)) of [[commutative algebras]] over $\mathbb{R}$ on [[formal duals]]
 $\mathbb{D}$ of [[commutative algebras]] over the [[real numbers]] of the form
 
 $$
-  \mathcal{O}(\mathbb{D})
+  \mathcal{O}(\mathbb{D}_V)
     \;\coloneqq\;
-  \mathbb{R}\oplus V
+  (\mathbb{R}\oplus V)
   \,,
 $$
 
@@ -535,11 +514,15 @@ Alternative terminology:
 Write moreover
 
 $$
-  FormalCartSp
-   \;\coloneqq\;
-  CartSp \rtimes InfPoint
-   \overset{\phantom{AAAA}}{\hookrightarrow}
-  CAlg_{\mathbb{R}}^{op}
+  \array{
+    FormalCartSp
+     &\overset{\phantom{AAAA}}{\hookrightarrow}&
+    CAlg_{\mathbb{R}}^{op}
+    \\
+    \mathbb{R}^n \times \mathbb{D}_V
+    &\mapsto&
+    C^\infty(\mathbb{R}^n) \otimes_{\mathbb{R}} (\mathbb{R} \oplus V)
+  }
 $$
 
 for the [[full subcategory]] on [[formal duals]] $\mathbb{R}^n \times \mathbb{D}$ of those algebras which are [[tensor products]] of commutative $\mathbb{R}$-algebras of the form
@@ -658,8 +641,8 @@ has a [[left adjoint]] ([this Def.](geometry+of+physics+–+basic+notions+of+cat
 $$
   CartSp
     \underoverset
-      {\underset{\phantom{AA}\Re \phantom{AA}}{\longleftarrow}}
-      {\overset{\phantom{AA}\iota \phantom{AA}}{\hookrightarrow}}
+      {\underset{\phantom{AA}\Pi_{inf} \phantom{AA}}{\longleftarrow}}
+      {\overset{\phantom{AA}\iota_{inf} \phantom{AA}}{\hookrightarrow}}
       {\bot}
   FormalCartSp
 $$
@@ -667,7 +650,7 @@ $$
 given by
 
 $$
-  \Re(\mathbb{R}^n \times \mathbb{D}) \coloneqq \mathbb{R}^n
+  \Pi_{inf}(\mathbb{R}^n \times \mathbb{D}) \coloneqq \mathbb{R}^n
   \,.
 $$
 
@@ -739,18 +722,32 @@ of ordinary [[Cartesian spaces]] with an [[infinitesimally thickened point]] tha
 Write
 
 $$
-  SuperFormalCartSp
-    \overset{ \phantom{AA} \iota \phantom{AA} }{\hookrightarrow}
-  sCAlg_{\mathbb{R}}^{op}
+  \array{
+    SuperFormalCartSp
+      &\overset{ \phantom{AA} \iota \phantom{AA} }{\hookrightarrow}&
+    sCAlg_{\mathbb{R}}^{op}
+    \\
+    \mathbb{R}^{n\vert q} \times \mathbb{D}_V
+    =
+    \mathbb{R}^n \times \mathbb{R}^{0 \vert q}  \times \mathbb{D}_V
+    &
+    \mapsto
+    &
+    C^\infty( \mathbb{R}^{n} )
+    \otimes_{\mathbb{R}}
+    \wedge^\bullet( \mathbb{R}^q )
+    \otimes_{\mathbb{R}}
+    (\mathbb{R} \oplus V)
+  }
 $$
 
-for the [[full subcategory]] ([this Example](geometry+of+physics+--+categories+and+toposes#FullSubcategoryOnClassOfObjects)) of that of the [[opposite category]] of [[supercommutative superalgebras]] on those of the form
+for the [[full subcategory]] ([this Example](geometry+of+physics+--+categories+and+toposes#FullSubcategoryOnClassOfObjects)) of that of the [[opposite category]] of [[supercommutative superalgebras]] on those which are [[tensor product of algebras|tensor products of commutative algebras]] of 
 
-$$
-  C^\infty(\mathbb{R}^p) \otimes_{\mathbb{R}} (\mathbb{R} \oplus V)
-$$
+1. the [[algebra of functions|algebra of]] [[smooth functions]] on a [[Cartesian space]],
 
-where $V$ is a [[nilpotent ideal]] of [[finite number|finite]] [[dimension]] over $\mathbb{R}$.
+1. a [[Grassmann algebra]] (Def. \ref{SuperCartesianSpace}),
+
+1. a [[Weil algebra]] (Def. \ref{FormalCartSp})
 
 =--
 
@@ -783,7 +780,7 @@ $$
   \;
     \underoverset
       {\underset{}{\hookrightarrow}}
-      {\overset{\pi}{\longleftarrow}}
+      {\overset{\Pi}{\longleftarrow}}
       {}
   \;CartSp
 $$
@@ -805,11 +802,11 @@ $\mathbb{R}^n \to \mathbb{R}^0$.
 =--
 
 In conclusion, the various [[extra structures]] on local model spaces (abstract coordinate systems) which we
-considered are organized in the following [[diagram]].
+considered are organized in the following [[diagram]]:
 
 +-- {: .num_prop #SystemOfSites}
 ###### Proposition
-
+**(progression of ([[coreflective subcategory|co-]])[[reflective subcategory|reflective]] [[site]]-inclusions)**
 
 The [[coreflective subcategory]] inclusion of [[Cartesian spaces]] into
 [[formal manifold|formal]] [[Cartesian spaces]] from prop. \ref{CartSpCoreflectiveInclusion}
@@ -1269,17 +1266,17 @@ The diagram in the third row states that two extra adjoints to _composites_ of t
    $$
      CartSp
      \array{
-       \overset{\phantom{A}\iota_{formal}\phantom{A}}{\hookrightarrow}
+       \overset{\phantom{A}\iota_{inf}\phantom{A}}{\hookrightarrow}
        \\
-       \overset{\phantom{AA} \Re \phantom{AA}}{\longleftarrow} 
+       \overset{\phantom{AA} \Pi_{inf} \phantom{AA}}{\longleftarrow} 
        \\
-       \phantom{\overset{\phantom{AA} \Re \phantom{AA}}{\longleftarrow}}     
+       \phantom{\overset{\phantom{AA} \Pi_{sup} \phantom{AA}}{\longleftarrow}}     
      }
      FormalCartSp
      \array{
-       \overset{\phantom{A}\iota_{super}\phantom{A}}{\hookrightarrow}
+       \overset{\phantom{A}\iota_{sup}\phantom{A}}{\hookrightarrow}
        \\
-       \overset{\phantom{AA} \Re \phantom{AA}}{\longleftarrow} 
+       \overset{\phantom{AA} \Pi_{sup} \phantom{AA}}{\longleftarrow} 
        \\
        \phantom{\overset{\phantom{AA} \overset{\rightrightarrows}{(-)} \phantom{AA}}{\longleftarrow}}     
      }
@@ -1293,7 +1290,7 @@ The diagram in the third row states that two extra adjoints to _composites_ of t
    Moreover, the [[composition|composite]] 
 
    $$
-     Disc_{SuperFormalSmoothSet}
+     Disc
      \;\colon\;
      Set 
        \hookrightarrow 
@@ -1309,7 +1306,7 @@ The diagram in the third row states that two extra adjoints to _composites_ of t
    $$
      \array{
         Set 
-          &\overset{Disc_{SuperFormalSmoothSet}}{\longrightarrow}&
+          &\overset{Disc}{\longrightarrow}&
         SuperFormalSmoothSet
         \\
         S &\mapsto& const_S
@@ -1321,7 +1318,7 @@ The diagram in the third row states that two extra adjoints to _composites_ of t
    This implies, again by uniqueness of adjoints ([this Prop.](geometry+of+physics+--+categories+and+toposes#UniquenessOfAdjoints)) that the composite functor $Set\longleftarrow SuperFormalSmoothSet$ from the previous item is in fact the functor $\Gamma_{SuperFormalSmoothSet}$ from the [[cohesive topos]]-structure on [[SuperFormalSmoothSet]] and hence, finally, that there is the bottom right adjoint 
 
    $$
-     coDisc_{SuperFormalSmoothSet} \;\colon\; Set \overset{\phantom{AA}}{\hookrightarrow} SuperFormalSmoothSet
+     coDisc \;\colon\; Set \overset{\phantom{AA}}{\hookrightarrow} SuperFormalSmoothSet
    $$ 
 
    as claimed.
@@ -1348,14 +1345,16 @@ while retaining their relation to each other and to the respective
 inclusions, and such that yet further operations accompanying them are induced.
 
 To record what all these operations are, it is useful to compose the
-functors above in pairs, with one funtor projecting down to the left, and the next one including back with either a left or right adjoint of the projection.
+functors above in pairs, with one functor projecting down to the left, and the next one including back with either a left or right adjoint of the projection.
 
 For example given a [[generalized space|generalized]] [[superspace]], then
 applying the top-most functor in prop. \ref{SuperSmoothSetsSystemOfAdjunctions} to it
-yields its underlying bi-fermionic formal smooth space, regarded as an object in [[FormalSmoothSet]]. But if we work in [[supergeometry]], then we want this result to be understood as a superspace again, one that just so happens to have no odd directions, so we re-include it by the inclusion right adjoint to the top projection. This composite operation of projection and re-embedding defines a _[[modal operator]]_ ([this Def.](geometry+of+physics+--+categories+and+toposes#ModalOperator)), on [[SuperFormalSmoothSet]], which, following prop. \ref{AdjointCylinderOnSuperAffines}, we should denote by
+yields its underlying bi-fermionic formal smooth space, regarded as an object in [[FormalSmoothSet]]. But if we work in [[supergeometry]], then we want this result to be understood as a superspace again, one that just so happens to have no odd directions, so we re-include it by the inclusion right adjoint to the top projection. This composite operation of projection and re-embedding defines a _[[modal operator]]_ ([this Def.](geometry+of+physics+--+categories+and+toposes#ModalOperator)), on [[SuperFormalSmoothSet]], which we denote by
 
 $$
   \overset{\rightrightarrows}{(-)}
+  \;\coloneqq\;
+  \iota_{sup} \circ even
   \;\colon\;
   SuperFormalSmoothSet
     \overset{\phantom{AAAA}}{\longrightarrow}
@@ -1367,6 +1366,8 @@ Similarly, composing the projection which is the left Kan extension of the under
 
 $$
   \overset{\rightsquigarrow}{(-)}
+  \coloneqq
+  \iota_{sup} \circ \Pi_{sup}
   \;\colon\;
   SuperFormalSmoothSet
     \longrightarrow
@@ -1389,7 +1390,10 @@ Later we will see that this further opration is related to the concept of "[[rhe
 we denote it by
 
 $$
-  Rh\;\colon\; SuperFormalSmoothSet \longrightarrow SuperFormalSmoothSet
+  Rh
+  \;\coloneqq\;
+  Disc_{sup} \circ \Pi_{sup}
+  \;\colon\; SuperFormalSmoothSet \longrightarrow SuperFormalSmoothSet
   \,.
 $$
 
@@ -1409,6 +1413,8 @@ we should call
 
 $$
   \Re
+  \coloneqq
+  \iota_{inf} \circ \Pi_{inf}
   \;\colon\;
   SuperFormalSmoothSet \longrightarrow SuperFormalSmoothSet
 $$
@@ -1455,8 +1461,15 @@ We may proceed this way with all the remaining functors in prop. \ref{SuperSmoot
 turning them into [[endofunctors]] on $SuperFormalCartSp$ which are all related to each other by
 [[adjunctions]] or by this inclusion relation of projection operators.
 
-The result is a system of 9 endofunctors, or 12 if we inclue the [[bottom]] [[adjoint modality]] and the [[top]] [[adjoint modality]] ([this Example](geometry+of+physics+--+categories+and+toposes#InitialAndFinalAdjointModality)). They form the following diagram and this defines our notation for the remaining ones not
-given a name yet:
+The result is a system of 9 endofunctors, or 12 if we inclue the [[bottom]] [[adjoint modality]] and the [[top]] [[adjoint modality]] ([this Example](geometry+of+physics+--+categories+and+toposes#InitialAndFinalAdjointModality)):
+
+| $\phantom{A}$ [[shape modality]] $\phantom{A}$ | $\phantom{A}$ [[flat modality]] $\phantom{A}$ | $\phantom{A}$ [[sharp modality]] $\phantom{A}$ |
+|--------------------|-------------------|--------------------|
+|   $\phantom{A}$  $&#643; \;\coloneqq\; Disc \circ \Pi_0$  $\phantom{A}$ | $\phantom{A}$ $\flat \;\coloneqq\; Disc \circ \Gamma$ $\phantom{A}$  | $\phantom{A}$ $\sharp \;\coloneqq\; coDisc \circ \Gamma $ $\phantom{A}$  |
+|   |    |   |
+| $\phantom{A}$ [[reduction modality]] $\phantom{A}$ | $\phantom{A}$ [[infinitesimal shape modality]] $\phantom{A}$ | $\phantom{A}$ [[infinitesimal flat modality]] $\phantom{A}$ |
+|   $\phantom{A}$  $\Re \;\coloneqq\; \iota_{inf} \circ \Pi_{inf}$  $\phantom{A}$ | $\phantom{A}$ $\Im \;\coloneqq\; Disc_{inf} \circ \Pi_{inf}$ $\phantom{A}$  | $\phantom{A}$ $ \& \;\coloneqq\; Disc_{inf} \circ \Gamma_{inf} $ $\phantom{A}$  |
+{: style='margin:auto}
 
 +-- {: .num_prop #ProgressionOfIdempotentEndofunctors}
 ###### Proposition
@@ -1522,6 +1535,91 @@ $$
     && \emptyset &\dashv& \ast
   }
 $$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+This follows with Prop. \ref{SuperSmoothSetsSystemOfAdjunctions} by [this Prop.](geometry+of+physics+--+categories+and+toposes#ProgressionOfModalitiesOnSolidTopos)
+
+=--
+
+The following statement is a [[0-truncated object|0-truncated]] shadow of the [[differential geometry|differential geometric]] analog of the concept of _[[A1-homotopy theory|A1-localization]]_:
+
+
+
++-- {: .num_prop #BosonicModalityOnSuperFormalSmoothSetsIsSuperpointLocalization}
+###### Proposition
+**([[rheonomy modality]] on [[super formal smooth sets]] is $\mathbb{R}^{0\vert 1}$-[[reflective localization|localization]])**
+
+The [[reflective subcategory]]-inclusion from Prop. \ref{SuperSmoothSetsSystemOfAdjunctions}
+
+$$
+  FormalSmoothSet
+    \underoverset
+      {\underset{ \phantom{A}Disc_{sup}\phantom{A} }{\hookrightarrow}}
+      {\overset{\Pi_{sup}}{\longleftarrow}}
+      {\bot}
+  SuperFormalSmooth
+$$
+
+of [[formal smooth sets]] inside [[super formal smooth sets]], exhibits the _[[reflective subcategory|reflection]] on $\mathbb{R}^{0\vert 1}$-[[local objects]]_ ([this Def.](geometry+of+physics+--+categories+and+toposes#LocalizationAtACollectionOfMorphisms)) for $\mathbb{R}^{0\vert 1}$ the [[superpoint]], in the sense of [[localization at an object]]:
+
+$$
+  \rightsquigarrow \;\simeq\; L_{\mathbb{R}^{0\vert 1}}
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+The proof is directly analogous to that of the analogous statement in the chapter _[[geometry of physics -- smooth sets|on smooth sets]]_,  [this Prop](geometry+of+physics+--+smooth+sets#ShapeModalityOnSmoothSetsIsR1Localization).
+
+As in that proof, the $\mathbb{R}^{0\vert 1}$-[[local objects]] among all [[super formal smooth sets]] are equivalently those which are [[local objects]] with respect to the following [[small set]] of morphisms:
+
+$$
+  \left\{
+    \mathbb{R}^{n} \times \mathbb{D}_V \times \mathbb{R}^{0\vert q + 1}
+    \longrightarrow
+    \mathbb{R}^{n} \times \mathbb{D}_V \times \mathbb{R}^{0\vert q}
+  \right\}
+  \,.
+$$
+
+By [[induction]] over $q \in \mathbb{N}$, these are equivalently the objects which are local with respect to the following small set:
+
+$$
+  \left\{
+    \mathbb{R}^{n} \times \mathbb{D}_V \times \mathbb{R}^{0\vert q}
+    \longrightarrow
+    \mathbb{R}^{n} \times \mathbb{D}_V
+  \right\}
+  \,.
+$$
+
+But these are manifestly the objects $A \in SuperFormalSmoothSet$ which are in the image of $Disc_{sup}$:
+
+$$
+  \begin{aligned}
+    Hom\left(
+      \mathbb{R}^{n} \times \mathbb{D}_V \times \mathbb{R}^{0\vert q}, 
+      Disc(B)
+    \right)
+    & \simeq
+  Hom\left(
+    \Pi_{sup}(\mathbb{R}^{n} \times \mathbb{D}_V \times \mathbb{R}^{0\vert q}), B
+    \right)
+    \\
+    & \simeq
+    Hom\left(\mathbb{R}^{n} \times \mathbb{D}_V), B\right)
+  \end{aligned}  
+$$
+
 
 =--
 
