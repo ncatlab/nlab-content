@@ -34,7 +34,7 @@ In terms of [[type theory]] idempotent monads interpret (co-)[[modal operators]]
 ## Definition 
 
 
-+-- {: .num_defn}
++-- {: .num_defn #IdempotentMonad}
 ###### Definition
 
 An __idempotent monad__  is a [[monad]] $(T,\mu,\eta)$ on a [[category]] $C$ such that one (hence all) of the following equivalent statements are true:
@@ -55,8 +55,15 @@ An __idempotent monad__  is a [[monad]] $(T,\mu,\eta)$ on a [[category]] $C$ suc
 
 e.g. ([Borceux, prop. 4.3.2](#Borceux)).
 
++-- {: .num_prop #EquivalentConditions}
+###### Proposition
+
+The conditons in Def. \ref{IdempotentMonad} are indeed equivalent.
+
+=--
+
 +-- {: .proof}
-###### Proof of equivalence (in more than one way).
+###### Proof (in more than one way).
 
 $1\Rightarrow 2$ is trivial.
 
