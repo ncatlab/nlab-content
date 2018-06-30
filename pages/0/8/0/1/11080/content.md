@@ -1640,7 +1640,7 @@ We claim that a [[smooth set]] $A$ is a [[local object]] with respect to this cl
   \left\{
      \mathbb{R}^n \times \mathbb{R}^1 
      \overset{p_1}{\longrightarrow}
-     \mathbb{R}^1
+     \mathbb{R}^n
   \right\}_{n \in \mathbb{N}}
 \]
 
