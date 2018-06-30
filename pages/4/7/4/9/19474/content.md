@@ -17,6 +17,8 @@
 
 * Lars Birkedal, Ales Bizjak, Ranald Clouston, Hans Bugge Grathwohl, [[Bas Spitters]], Andrea Vezzosi, _Guarded cubical type theory_ [arxiv](https://arxiv.org/abs/1611.09263)
 
+* [[Jon Sterling]], Robert Harper, _Guarded Computational Type Theory_ [arxiv](https://arxiv.org/abs/1804.09098)
+
 A general calculus for dependent modal type theories.
 
 *  Ranald Clouston, Bassel Mannaa, Rasmus Ejlers Møgelberg, Andrew M. Pitts, [[Bas Spitters]], _Modal Dependent Type Theory and Dependent Right Adjoints_ [arxiv](https://arxiv.org/abs/1804.05236)
