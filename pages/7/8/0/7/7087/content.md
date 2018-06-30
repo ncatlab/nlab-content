@@ -22,7 +22,9 @@ In fact every [[reflective subcategory]] inclusion exhibits a reflective localiz
 
 For reflective localizations the localized category has a particularly useful description (Prop. \ref{ReflectiveLocalizationGivenByLocalObjects} below): It is equivalent to the [[full subcategory]] of _[[local objects]]_ (Def. \ref{LocalObjects} below). 
 
-Sometimes reflective localizations are understood as the default concept of localization, in fact often reflection onto the [[full subcategory]] of [[local objects]] (Def. \ref{LocalizationAtACollectionOfMorphisms} below) is understood by default.  Notably [[left Bousfield localizations]] are [[presentable (infinity,1)-category|presentations]] of reflective [[localizations of (∞,1)-categories]].
+Therefore, sometimes reflective localizations at a class $S$ or morphism are understood as the default concept of localization, in fact often reflection onto the [[full subcategory]] of $S$-[[local objects]] (Def. \ref{LocalizationAtACollectionOfMorphisms} below) is understood by default.  Notably [[left Bousfield localizations]] are [[presentable (infinity,1)-category|presentations]] of reflective [[localizations of (∞,1)-categories]] in this sense. 
+
+These reflections onto $S$-local objects satisfy the universal property of an $S$-[[localization]] (only) for all _[[left adjoint]]_ functors that invert the class $S$ (Prop. \ref{ReflectionOntoLocalObjectsIsLocalizationWithRespectToLeftAdjoints} below). 
 
 
 ## Definition
@@ -413,6 +415,55 @@ $\,$
 
 * For a left exact reflective localization, the class of morphisms that is inverted forms a left-[[multiplicative system]]. For the moment see  at _[[geometric embedding]]_ for details on this.
 
+
+
++-- {: .num_prop #ReflectionOntoLocalObjectsIsLocalizationWithRespectToLeftAdjoints}
+###### Proposition
+**([[reflective subcategory|reflection]] onto [[local objects]] in [[localization]] with respect to [[left adjoints]])**
+
+Let $\mathcal{C}$ be a [[category]] and let $S \subset Mor_{\mathcal{C}}$ be a [[class]] of [[morphisms]] in $\mathcal{C}$. Then the [[reflective subcategory|reflection]] onto the $S$-[[local objects]] (Def. \ref{LocalizationAtACollectionOfMorphisms}) 
+satisfies, if it exists, the [[universal property]] of a [[localization of categories]] (Def. \ref{LocalizationOfACategory}) with respect to _[[left adjoint]]_ functors inverting $S$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Write
+
+$$
+  \mathcal{C}_S 
+    \underoverset
+      {\underset{ \phantom{AA}\iota\phantom{AA} }{\hookrightarrow}}
+      {\overset{\phantom{AA}L\phantom{AA}}{\longleftarrow}}
+      {\bot}
+  \mathcal{C}
+$$
+
+for the [[reflective subcategory]]-inclusion of the $S$-[[local objects]].
+
+Say that a [[morphism]] $f$ in $\mathcal{C}$ is an _$S$-[[local morphism]]_ if for every $S$-[[local object]] $A \in \mathcal{C}$ the [[hom-functor]] from $f$ to $A$ yields a [[bijection]] $Hom_{\mathcal{C}}(f,A)$.
+Notice that, by the [[Yoneda embedding]] for $\mathcal{C}_S$, the $S$-[[local morphisms]] are precisely the morphisms that are taken to isomorphisms by the reflector $L$.
+
+Now let 
+
+$$
+  (F \dashv G)
+  \;\colon\;
+  \mathcal{C} 
+    \underoverset
+      {\underset{G}{\longleftarrow}}
+      {\overset{ \phantom{AA} F \phantom{AA} }{\longrightarrow}}
+      {\bot}
+   \mathcal{D}
+$$
+
+be a pair of [[adjoint functors]], such that the [[left adjoint]] $F$ inverts the morphisms in $S$. By the adjunction hom-isomorphism it follows that $G$ takes values in $S$-[[local objects]]. This in turn implies, now via the [[Yoneda embedding]] for $\mathcal{D}$, that $F$ inverts all $S$-[[local morphisms]], and hence all morphisms that are inverted by $L$. 
+
+Thus the essentially unique factorization of $F$ through $L$ now follows by Prop. \ref{ReflectiveSubcategoriesAreLocalizations}.
+
+
+=--
 
 ## Related concepts
 
