@@ -710,7 +710,7 @@ The first and third Quillen adjunction here is a [[Quillen equivalence]] if $S$ 
 
 =--
 
-## Proerties
+## Properties
 
 ### As an (op)lax $\infty$-colimit
 
