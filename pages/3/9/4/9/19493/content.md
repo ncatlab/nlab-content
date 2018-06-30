@@ -5,8 +5,7 @@ $$\partial_\varphi :H\to D_\varphi,$$
 such that, given any $\varphi$-derivation, $f_1:H\to M$, for $M$ a $G$-module, there is a unique $G$-module morphism, $\overline{f_1}: D_\varphi\to M$ such that $f_1= \overline{f_1}\circ \partial_\varphi$.
 
 ##Examples
-* If $\varphi$ is the identity morphism on $G$ then the augmentation ideal, $I(G)$ together with 
-
+* If $\varphi$ is the identity morphism on $G$ then the augmentation ideal, $I(G)$, together with 
 
 $$d_G:G\to I(G)$$
 
