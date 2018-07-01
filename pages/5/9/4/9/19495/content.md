@@ -8,6 +8,7 @@ An **inverse EI (∞,1)-category** is an EI (∞,1)-category which is also an [[
 
 * For a [[compact Lie group]] $G$ the opposite of the [[orbit category]].
 * The category of finite sets and surjective maps.
+* An EI (∞,1)-category with finitely many objects.
 
 ##Related concepts
 
