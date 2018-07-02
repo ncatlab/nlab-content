@@ -97,7 +97,7 @@ where $M^{'} = Hom(M, \mathbb{G}_{m, X})$. This resembles Poincar&#233; duality 
 * {#Koberda08} Thomas Koberda, _Class Field Theory and the MKR Dictionary
 for Knots_, ([pdf](http://users.math.yale.edu/users/koberda/minorthesis.pdf))
 
-* {#Morin06} Baptiste Morin, _Applications of an Equivariant Etale Cohomology to Arithmetic Topology_, [arxiv:0602064](http://arxiv.org/abs/math/0602064) 
+* {#Morin06} [[Baptiste Morin]], _Applications of an Equivariant Etale Cohomology to Arithmetic Topology_, [arxiv:0602064](http://arxiv.org/abs/math/0602064) and  Utilisation d'une cohomologie étale équivariante en topologie arithmétique, Compositio Math. 144 (2008), no. 1, 32-60.
 
 * {#Morishita09} Masanori Morishita, _Analogies between Knots and Primes, 3-Manifolds and Number Rings_, ([arxiv:0904.3399](http://arxiv.org/abs/0904.3399))
 
