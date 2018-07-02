@@ -257,6 +257,8 @@ Proposals for a genuine [[syntax]] for dependent linear type theory are in
 
 * {#KPB15} [[Neelakantan Krishnaswami]], Pierre Pradic, [[Nick Benton]], _Integrating Dependent and Linear Types_, POPL 15  ([pdf](http://www.cs.bham.ac.uk/~krishnan/dlnl-paper.pdf))
 
+* [[Martin Lundfall]], _A diagram model of linear dependent type theory_, ([arXiv:1806.09593](https://arxiv.org/abs/1806.09593))
+
 
 [[!redirects dependent linear type theories]]
 
