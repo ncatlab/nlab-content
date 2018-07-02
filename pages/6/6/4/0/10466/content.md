@@ -26,7 +26,7 @@
 
 ## Idea 
 
-What is called _global equivariant homotopy theory_ is a variant of [[equivariant cohomology]] in [[homotopy theory]] where [[pointed object|pointed]] [[topological spaces]]/[[homotopy types]] are equipped with $G$-[[infinity-actions]] "for all [[compact Lie groups]] $G$ at once".
+What is called _global equivariant homotopy theory_ is a variant of [[equivariant cohomology]] in [[homotopy theory]] where [[pointed object|pointed]] [[topological spaces]]/[[homotopy types]] are equipped with $G$-[[infinity-actions]] "for all [[compact Lie groups]] $G$ at once", or more generally for a [[global family]].
 
 Sometimes this is referred to just as "global homotopy theory", leaving the equivariance implicit. There is also a [[stabilization|stable]] version involving [[spectra]] equipped with [[infinity-actions]], see at _[[global equivariant stable homotopy theory]]_.
 
