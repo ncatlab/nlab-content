@@ -108,6 +108,8 @@ Further development includes
 
 * Peng Dai, [[Warren Siegel]], _Worldline Green Functions for Arbitrary Feynman Diagrams_, Nucl.Phys.B770:107-122,2007 ([arXiv:hep-th/0608062](https://arxiv.org/abs/hep-th/0608062))
 
+* S. A. Franchino-Viñas, S. Mignemi, _Worldline Formalism in Snyder Spaces_ ([arXiv:1806.11467](https://arxiv.org/abs/1806.11467))
+
 A list of more literature is at
 
 * The Tangent Bundle, _[QFT Worldline formalism](http://www.physics.thetangentbundle.net/wiki/Quantum_field_theory/worldline_formalism)_
