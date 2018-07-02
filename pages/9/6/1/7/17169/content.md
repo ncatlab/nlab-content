@@ -118,7 +118,7 @@ $$
     \array{
       \pi_n(E_0) & for \; n \geq 0
       \\
-      \pi_0(E_n) & for \;n \leq 0
+      \pi_0(E_{-n}) & for \;n \leq 0
     }
   \right.
 $$
