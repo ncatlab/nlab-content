@@ -10,9 +10,26 @@
 
 $\,$
 
-Traditionally, [[mathematics]] and [[physics]] have been [[foundations|founded]] on [[set theory]] whose concept of _[[set]]_ is that of "bags of points". 
+***
 
-But fundamental [[physics]] is governed by the _[[gauge principle]]_ which says that given any two things, such as two [[field histories]] $x$ and $y$, it is in general wrong to ask whether they are [[equality|equal]] or not, instead one has to ask where there is a _[[gauge transformation]]_ 
+$\,$
+
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
+Traditionally, [[mathematics]] and [[physics]] have been [[foundations|founded]] on [[set theory]], whose concept of _[[sets]]_ is that of "bags of distinguishable points". 
+
+But fundamental [[physics]] is governed by the _[[gauge principle]]_. This says that given any two "things", such as two [[field histories]] $x$ and $y$, it is in general wrong to ask whether they are [[equality|equal]] or not, instead one has to ask where there is a _[[gauge transformation]]_ 
 
 $$
   x \stackrel{\gamma}{\longrightarrow} y
@@ -20,1292 +37,68 @@ $$
 
 between them. In mathematics this is called a _[[homotopy]]_.
 
-This principle applies also to [[gauge transformations]]/[[homotopies]] themselves, and thus leads to _[[gauge-of-gauge transformations]]_/_[[homotopies of homotopies]]_
+This principle applies also to [[gauge transformations]]/[[homotopies]] themselves, and thus leads to _[[gauge-of-gauge transformations]]_ or _[[homotopies of homotopies]]_
 
 <center><img src="https://ncatlab.org/nlab/files/2Cell.jpg" width = "200"></center>
 
-and so on to ever _[[higher gauge transformations]]_/_[[higher homotopies]]_:
+and so on to ever _[[higher gauge transformations]]_ or _[[higher homotopies]]_:
 
 <center>
   <img src="https://ncatlab.org/nlab/files/3Cell.jpg" width = "200">
 </center>
 
-This means that what $x$ an $y$ here are [[elements]] of is not really a [[set]] in the sense of [[set theory]]. Instead, such a collection of [[elements]] with higher order [[gauge transformations]]/[[homotopies]] between them is called a _[[homotopy type]]_.
+This shows that what $x$ an $y$ here are [[elements]] of is not really a [[set]] in the sense of [[set theory]]. Instead, such a collection of [[elements]] with [[higher gauge transformations]]/[[higher homotopies]] between them is called a _[[homotopy type]]_.
 
-Hence the theory of [[homotopy types]] --  _[[homotopy theory]]_ -- is much like [[set theory]], but with the concept of [[gauge transformation]]/[[homotopy]] being built right into its [[foundations]].
+Hence the theory of [[homotopy types]] --  _[[homotopy theory]]_ -- is much like [[set theory]], but with the concept of [[gauge transformation]]/[[homotopy]] built right into its [[foundations]]. Homotopy theory is gauged mathematics.
 
-In the special case of a [[homotopy type]] with a single [[element]] $x$, the [[gauge transformations]] necessarily go from $x$ to itself and hence form a _[[group]] of [[symmetries]]_ of $x$. If there are higher order [[gauge-of-gauge transformations]]/[[homotopies of homotopies]] between these [[symmetry]] [[group]]-elements one speaks of _[[2-groups]]_, _[[3-groups]]_, ... _[[n-groups]]_, and eventually of _[[∞-groups]]_. 
+A [[classical model structure on topological spaces|classical model]] for [[homotopy types]] are simply [[topological spaces]]: Their points represent the elements, the [[continuous map|continuous]] [[paths]] between points represent the [[gauge transformations]], and continuous deformations of paths represent [[higher gauge transformations]]. A central result of [[homotopy theory]] is the [[proof]] of the _[[homotopy hypothesis]]_, which says that under this identification [[homotopy types]] are [[Quillen equivalence|equivalent]] to [[topological spaces]] viewed, in turn, up to "[[weak homotopy equivalence]]".
 
-Since, generally, there is more than one element in a [[homotopy type]], these are like "groups with several elements", and as such they are called _[[groupoids]]_. If there are higher order [[gauge-of-gauge transformations]]/[[homotopies of homotopies]] between the transformations in such a groupoid, one speaks of _[[2-groupoids]]_, _[[3-groupoids]]_, ... _[[n-groupoids]]_, and eventually of _[[∞-groupoids]]_.
+In the special case of a [[homotopy type]] with a single [[element]] $x$, the [[gauge transformations]] necessarily go from $x$ to itself and hence form a _[[group]] of [[symmetries]]_ of $x$. 
 
-Hence [[homotopy types]] are equivalently [[∞-groupoids]]. In fact, in a self-reflective manner, there are many different but _[[equivalence of (∞,1)-categories|equivalent]]_ incarnations of [[homotopy theory]].
+<center>
+<img src="https://ncatlab.org/nlab/files/GroupActing.jpg" width="80">
+</center>
 
-We discuss
+This way [[homotopy theory]] subsumes [[group theory]].
+
+If there are higher order [[gauge-of-gauge transformations]]/[[homotopies of homotopies]] between these [[symmetry]] [[group]]-elements, then one speaks of _[[2-groups]]_, _[[3-groups]]_, ... _[[n-groups]]_, and eventually of _[[∞-groups]]_. When [[homotopy types]] are represented by [[topological spaces]], then [[∞-groups]] are represented by [[topological groups]].
+
+This way [[homotopy theory]] subsumes parts of [[topological group|topological]] [[group theory]].
+
+Since, generally, there is more than one element in a [[homotopy type]], these are like "groups with several elements", and as such they are called _[[groupoids]]_. 
+
+If there are higher order [[gauge-of-gauge transformations]]/[[homotopies of homotopies]] between the transformations in such a [[groupoid]], one speaks of _[[2-groupoids]]_, _[[3-groupoids]]_, ... _[[n-groupoids]]_, and eventually of _[[∞-groupoids]]_. The plain [[sets]] are recovered as the special case of [[0-groupoids]].
+
+Due to the higher orders $n$ appearing here, [[mathematical structures]] based not on [[sets]] but on [[homotopy types]] are also called _[[schreiber:Higher Structures|higher structures]]_.
+
+Hence [[homotopy types]] are equivalently _[[∞-groupoids]]_. This perspective makes explicit that [[homotopy types]] are the unification of plain [[sets]] with the concept of [[gauge transformation|gauge]]-[[symmetry]] [[groups]].
+
+An efficient way of handling [[∞-groupoids]] is in their explicit guise as _[[Kan complexes]]_; these are the non-abelian generalization of the _[[chain complexes]]_ used in [[homological algebra]]. Indeed, _[[chain homotopy]]_ is a special case of the general concept of [[homotopy]], and hence [[homological algebra]] forms but a special abelian corner within [[homotopy theory]]. Conversely, [[homotopy theory]] may be understood as the non-abelian generalization of [[homological algebra]].
+
+Hence, in a self-reflective manner, there are many different but _[[equivalence of (∞,1)-categories|equivalent]]_ incarnations of [[homotopy theory]]. Below we discuss in turn
 
 * _[Abstract homotopy theory](#AbstractHomotopyTheory)_
 
-  The general principle, formalized via [[model categories]].
+  The general principle of homotopy theory, formalized via _[[model categories]]_, short for "[[categories]] of models for [[homotopy types]]".
 
 * _[Topological homotopy theory](#TopologicalHomotopyTheory)_
 
-  Homotopy theory modeled on [[topological spaces]], the original sense of _[[homotopy types]]_. This is the incarnation of [[homotopy theory]] most familiar from traditional [[point-set topology]], such as [[covering space]]-theory.
+  Homotopy theory modeled on [[topological spaces]]. This is the [[classical model structure on topological spaces|classical model]] of [[homotopy theory]] familiar from traditional [[point-set topology]], such as [[covering space]]-theory.
 
 * _[Simplicial homotopy theory](#SimplicialHomotopyTheory)_.
 
-  Homotopy theory modeled on [[simplicial sets]]. The [[fibrant objects]] are the [[Kan complexes]]. This is [[Quillen equivalence|Quillen equivalent]] to topological homotopy theory, hence makes explicit that [[homotopy theory]] is not really about [[topological spaces]], but about the [[∞-groupoids]].
+  Homotopy theory modeled on [[simplicial sets]], whose [[fibrant objects]] are the [[Kan complexes]]. This [[simplicial homotopy theory]] is [[Quillen equivalence|Quillen equivalent]] to [[topological homotopy theory]] (the "[[homotopy hypothesis]]"), which makes explicit that [[homotopy theory]] is not really about [[topological spaces]], but about the [[∞-groupoids]] that these represent.
 
 * _[Abelian homtopy theory](#AbelianHomotopyTheory)_.
 
-  Homotopy theory modeled on [[chain complexes]]. In this context the [[homotopy category]] is known as the _[[derived category]]_.
+  Homotopy theory modeled on [[chain complexes]], which are the "abelian" [[Kan complexes]], as made prices by the _[[Dold-Kan correspondence]]_. In this context the [[homotopy category]] is known as the _[[derived category]]_. Various concepts in [[homotopy theory]] inherit their name from this special case, notably the concept of _[[derived functors]]_.
 
 $\,$
+
 
 #Contents#
 * table of contents
 {:toc}
-
-$\,$
-
-
-
-## Motivation
-
-The basic principle of [[homotopy theory]] happens to be well familiar in [[physics]], just in slight disguise: it is the ([[higher gauge theory|higher]]) _[[gauge principle]]_. This we explain in
-
-* _[Motivation from physics: The gauge principle](#TheGaugePrinciple)_.
-
-As it goes, this profound and yet simple fact is less widely appreciated than a rather sophisticated phenomenon which is but a special case of this: the appearance of [[derived categories]] of [[branes]] in [[topological string theory]]
-
-* _[Motivation from physics: Derived categories of branes](#DerivedCategoriesOfBranes)_
-
-The historical route in [[mathematics]] that lead to modern [[homotopy theory]] so happens to run via the study of [[ordinary cohomology]] and [[ordinary homology]] ([[singular homology]]) of [[topological spaces]], structures that happen to recognize of a topological space only the [[homotopy type]] that it _represents_ via the [[singular simplicial complex]] construction. This traditional route we recall in
-
-* _[Motivation from topologogy: Singular homology](#SimplicialHomology)_.
-
-While standard and traditional, this story hides a bit how utmost fundamental the principles of [[homotopy theory]] are and tends to misleadingly suggest that homotopy theory is a sub-topic of [[topology]]. Contrary to that, inspection of the [[foundations of mathematics]] reveals the foundational nature of homotopy theory. This we indicate in
-
-* _[Motivation from first principles: Homtopy type-theory](#MotivationFromFirstPrinciples)_.
-
-
-
-### Motivation from physics
-
-#### The gauge principle
- {#MotivationFromGaugePrinciple}
-
-One of the fundamental principles of modern physics is the _[[gauge principle]]_. It says that every [[field (physics)|field]] configuration in physics -- hence absolutely everything in physics -- is, in general, a _[[gauge field]]_ configuration. This in turn means that given two field configurations $\Phi_1$ and $\Phi_2$, then it makes no sense to ask whether they are _[[equality|equal]]_ or not. Instead what makes sense to ask for is a [[gauge transformation]] $g$ that, if it exists, exhibits $\Phi_1$ as being gauge [[equivalence|equivalent]] to $\Phi_2$ via $g$:
-
-$$
-  \Phi_1 \underoverset{\simeq}{g}{\longrightarrow} \Phi_2
-  \,.
-$$
-
-This satisfies obvious rules, so obvious that physics textbooks usually don't bother to mention this. First of all, if there is yet another field configuration $\Phi_3$ and a gauge transformation $g'$ from $\Phi_2$ to $\Phi_3$, then there is also the [[composition|composite]] gauge transformation
-
-$$
-  g' \circ g
-  \Phi_1 \underoverset{\simeq}{g}{\longrightarrow} \Phi_2
-  \underoverset{\simeq}{g'}{\longrightarrow}
-  \Phi_3
-$$
-
-and this [[composition]] is [[associative]].
-
-Moreover, these being [[equivalences]] means that they have [[inverses]],
-
-$$
-  \Phi_2 \underoverset{\simeq}{g^{-1}}{\longrightarrow} \Phi_1
-$$
-
-such that the compositions
-
-$$
-  \Phi_1 \underoverset{\simeq}{g}{\longrightarrow} \Phi_2
-  \underoverset{\simeq}{g^{-1}}{\longrightarrow}
-  \Phi_1
-$$
-
-and
-
-$$
-  \Phi_1 \underoverset{\simeq}{g}{\longrightarrow} \Phi_2
-  \underoverset{\simeq}{g^{-1}}{\longrightarrow}
-  \Phi_1
-$$
-
-equal the [[identity]] transformation.
-
-Obvious as this may be, in [[mathematics]] such [[structure]] gets a name: this is a _[[groupoid]]_ or _[[homotopy 1-type]]_ whose _[[objects]]_ are [[field (physics)|field configurations]] and whose _[[morphisms]]_ are [[gauge transformations]].
-
-But notice that in the last statement above about inverses, we were actually violating the [[gauge principle]]: we asked for a gauge transformation of the form $g^{-1}\circ g$ (transforming one way and then just transforming back) to be [[equality|equal]] to the identity transformation $id$.
-
-But the gauge principle applies also to gauge transformations themselves. This is the content of [[higher gauge theory]]. For instance a 2-form gauge field such as the [[Kalb-Ramond field]] has [[gauge-of-gauge transformations]]. In the physics literature these are best known in their [[infinitesimal]] approximation, which are called [[ghost-of-ghost fields]] (for some historical reasons). In fact physicists know the [[infinitesimal]] "[[Lie algebroid]]" version of [[Lie groupoids]] and their higher versions as [[BRST complexes]].
-
-This means that in general it makes no sense to ask whether two gauge transformations are equal or not. What makes sense is to ask for a [[gauge-of-gauge transformation]] that turns one into the other
-
-$$
-  \array{
-     \Phi_1 & \stackrel{g}{\longrightarrow} & \Phi_2
-     \\
-     & \Downarrow^{\mathrlap{\simeq}}
-     \\
-     \Phi_1 & \underset{g'}{\longrightarrow} & \Phi_2
-  }
-  \,.
-$$
-
-Now it is clear that gauge-of-gauge transformations may be composed with each other, and that, being [[equivalences]], they have inverses under this composition. Moreover, this composition of gauge-of-gauge transformations is to be compatible with the already existing composition of the first order gauge transformations themselves.
-This structure, when made explicit, is in mathematics called a _[[2-groupoid]]_ or _[[homotopy 2-type]]_.
-
-But now it is clear that this pattern continues: next we may have a yet [[higher gauge theory]], for instance that of a 3-form [[C-field]], and then there are third order gauge transformations which we must use to identify, when possible, second order gauge transformations. They may in turn be composed and have inverses under this composition, and the resulting structure, when made explicit, is called a _[[3-groupoid]]_ or _[[homotopy 3-type]]_.
-
-This logic of the [[gauge principle]] keeps applying, and hence we obtain an infinite sequence of concepts, which at stage $n \in \mathbb{N}$ are called _[[n-groupoids]]_ or _[[homotopy n-types]]_. The limiting case where we never assume that some high order gauge-of-gauge transformation has no yet higher order transformations between them, the structure in this limiting case accordingly goes by the name of _[[infinity-groupoid]]_ or just _[[homotopy type]]_.
-
-The mathematics theory of these systems of higher-order gauge-of-gauge transformations is called _[[homotopy theory]]_ or _[[higher category theory]]_ in the flavor of _[[(infinity,1)-category theory]]_.
-
-More motivation and exposition along these lines is at
-
-* _[[schreiber:Higher field bundles for gauge fields]]_.
-
-* _[[prequantum field theory]]_
-
-#### Derived categories of branes
- {#DerivedCategoriesOfBranes}
-
-...[[topological string]]... [[TCFT]] ... [[homological mirror symmetry]] ...
-
-
-
-### Motivation from topology: Singular homology
- {#SimplicialHomology}
-
-
-This section recalls how the "abelianization" of a [[topological space]] by _[[nLab:singular chains]]_ gives rise to the notion of _[[nLab:chain complexes]]_ and their _[[nLab:homology]]_.
-
-This proceeds in three steps: given a [[topological space]], first one passes to the collection of [[simplices]] in it (the curves, triangles, tetrahedra, ...) which together form a _[[simplicial set]]_. Then one "linearizes" this by forming the [[free abelian groups]] on the simplices to obtain a [[simplicial abelian group]]. Finally one turns the resulting [[simplicial abelian group]] into a [[chain complex]].
-
-Below in _[Dold-Kan correspondence](#DoldKanCorrespondence)_ we see that this last step is an [[equivalence of categories|equivalent reformulation]], and that from any chain complex (in non-negative degree) one may re-obtain the [[simplicial abelian group]] that it corresponds to. Further below in _[Kan complexes](#KanComplexes)_ we see that (forgetting the group structure on these), these are _[[Kan complexes]]_ and as such objects in [[simplicial homotopy theory]]. This we then turn to further below in _[Simplicial homotopy theory](#SimplicialHomotopyTheory)_.
-
-
-#### Singular simplicial set
- {#SingularSimplicialSet}
-
-
-+-- {: .num_defn #TopologicalSimplex}
-###### Definition
-
-For $n \in \mathbb{N}$, the **[topological n-simplex](simplex#TopologicalSimplex)** is,
-up to [[nLab:homeomorphism]], the [[nLab:topological space]] whose underlying set is the subset
-
-$$
-  \Delta^n \coloneqq
-  \{
-    \vec x \in \mathbb{R}^{n+1}
-    |
-    \sum_{i = 0 }^n x_i = 1 \; and \;
-    \forall i . x_i \geq 0
-  \}
-  \subset \mathbb{R}^{n+1}
-$$
-
-of the [[nLab:Cartesian space]] $\mathbb{R}^{n+1}$, and whose topology is the  [[nLab:subspace topology]] induces from the canonical topology in $\mathbb{R}^{n+1}$.
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-The [[coordinate]] expression in def. \ref{TopologicalSimplex} -- also known as _[barycentric coordinates](simplex#BarycentricCoordinates)_ -- is evidently just one of many possible ways to present topological $n$-simplices. Another common choice are what are called _[Cartesian coordinates](simplex#CartesianCoordinates)_. Of course nothing of relevance will depend on which choice of coordinate presentation is used, but some are more convenient in some situations than others.
-
-=--
-
-+-- {: .num_example}
-###### Example
-
-For $n = 0$ this is the [[nLab:point]], $\Delta^0 = *$.
-
-For $n = 1$ this is the standard [[nLab:interval object]] $\Delta^1 = [0,1]$.
-
-For $n = 2$ this is the filled triangle.
-
-For $n = 3$ this is the filled tetrahedron.
-
-=--
-
-
-+-- {: .num_defn #FaceInclusionInBarycentricCoords}
-###### Definition
-
-For $n \in \mathbb{N}$, $\n \geq 1$ and $0 \leq k \leq n$, the
-**$k$th $(n-1)$-face (inclusion)**  of the topological $n$-simplex, def. \ref{TopologicalSimplex}, is the subspace inclusion
-
-$$
-  \delta_k : \Delta^{n-1} \hookrightarrow \Delta^n
-$$
-
-induced under the coordinate presentation of def. \ref{TopologicalSimplex},
-by the inclusion
-
-$$
-  \mathbb{R}^n \hookrightarrow \mathbb{R}^{n+1}
-$$
-
-which "omits" the $k$th canonical coordinate:
-
-$$
-  (x_0, \cdots , x_{n-1}) \mapsto (x_0, \cdots, x_{k-1} , 0 , x_{k}, \cdots, x_{n-1})
-  \,.
-$$
-
-=--
-
-+-- {: .num_example}
-###### Example
-
-The inclusion
-
-$$
-  \delta_0 : \Delta^0 \to \Delta^1
-$$
-
-is the inclusion
-
-$$
-  \{1\} \hookrightarrow [0,1]
-$$
-
-of the "right" end of the standard interval. The other inclusion
-
-$$
-  \delta_1 : \Delta^0 \to \Delta^1
-$$
-
-is that of the "left" end $\{0\} \hookrightarrow [0,1]$.
-
-=--
-
-+-- {: .num_defn #DegeneracyProjectionsInBarycentricCoords}
-###### Definition
-
-For $n \in \mathbb{N}$ and $0 \leq k \lt n$ the **$k$th degenerate $(n)$-simplex (projection)** is the surjective map
-
-$$
-  \sigma_k : \Delta^{n} \to \Delta^{n-1}
-$$
-
-induced under the [barycentric coordinates](simplex#BarycentricCoordinates) of def. \ref{TopologicalSimplex} under the surjection
-
-$$
-  \mathbb{R}^{n+1} \to \mathbb{R}^n
-$$
-
-which sends
-
-$$
-  (x_0, \cdots, x_n) \mapsto (x_0, \cdots, x_{k} + x_{k+1}, \cdots, x_n)
-  \,.
-$$
-
-=--
-
-+-- {: .num_defn #SingularSimplex}
-###### Definition
-
-For $X \in $ [[Top]] a [[topological space]] and $n \in \mathbb{N}$ a [[natural number]], a **singular $n$-simplex** in $X$ is a [[nLab:continuous map]]
-
-$$
-  \sigma : \Delta^n \to X
-$$
-
-from the topological $n$-simplex, def. \ref{TopologicalSimplex}, to $X$.
-
-Write
-
-$$
-  (Sing X)_n \coloneqq Hom_{Top}(\Delta^n , X)
-$$
-
-for the set of singular $n$-simplices of $X$.
-
-=--
-
-
-So to a [[nLab:topological space]] $X$ is associated a sequence of sets
-
-$$
-  (Sing X)_n \coloneqq Hom_{Top}(\Delta^n, X)
-$$
-
-of [[nLab:singular simplices]]. Since the topological $n$-simplices $\Delta^n$ from def. \ref{TopologicalSimplex} sit inside each other by the face inclusions of def. \ref{FaceInclusionInBarycentricCoords}
-
-$$
-  \delta_k : \Delta^{n-1} \to \Delta^{n}
-$$
-
-and project onto each other by the degeneracy maps, def. \ref{DegeneracyProjectionsInBarycentricCoords}
-
-$$
-  \sigma_k : \Delta^{n+1} \to \Delta^n
-$$
-
-we dually have functions
-
-$$
-  d_k \coloneqq Hom_{Top}(\delta_k, X) : (Sing X)_n \to (Sing X)_{n-1}
-$$
-
-that send each singular $n$-simplex to its $k$-face and functions
-
-$$
-  s_k \coloneqq Hom_{Top}(\sigma_k,X) : (Sing X)_{n} \to (Sing X)_{n+1}
-$$
-
-that regard an $n$-simplex as beign a degenerate ("thin") $(n+1)$-simplex.
-All these sets of simplicies and face and degeneracy maps between them form the following structure.
-
-+-- {: .num_defn #SimplicialSet}
-###### Definition
-
-A **[[simplicial set]]** $S \in sSet$ is
-
-* for each $n \in \mathbb{N}$ a [[set]] $S_n \in Set$ -- the **set of $n$-[[simplices]]**;
-
-* for each [[nLab:injective map]] $\delta_i : \overline{n-1} \to \overline{n}$ of [[nLab:totally ordered sets]] $\bar n \coloneqq \{ 0 \lt 1 \lt \cdots \lt n \}$
-
-  a [[nLab:function]] $d_i : S_{n} \to S_{n-1}$ -- the $i$th **face map** on $n$-simplices;
-
-* for each [[nLab:surjective map]] $\sigma_i : \overline{n+1} \to \bar n$ of [[nLab:totally ordered sets]]
-
-  a [[nLab:function]] $\sigma_i : S_{n} \to S_{n+1}$ -- the $i$th **degeneracy map** on $n$-simplices;
-
-such that these functions satisfy the _[[nLab:simplicial identities]]_.
-
-=--
-
-+-- {: .num_prop #SimplicialIdentities}
-###### Proposition
-
-These face and degeneracy maps satisfy the following **simplicial identities**   (whenever the maps are composable as indicated):
-
-1. $ d_i \circ d_j  = d_{j-1} \circ d_i$ if $i \lt j$,
-
-1. $s_i \circ s_j  = s_j \circ s_{i-1}$ if $i \gt j$.
-
-1. $d_i \circ s_j =  \left\{ \array{ s_{j-1} \circ d_i &  if \;  i \lt j \\ id & if  \;  i = j \; or \; i = j+1 \\ s_j \circ d_{i-1} &  if i \gt j+1 } \right. $
-
-=--
-
-It is straightforward to check by explicit inspection that the evident injection and restriction maps between the sets of [[nLab:singular simplices]] make $(Sing X)_\bullet$ into a simplicial set. We now briefly indicate a systematic way to see this using basic [[nLab:category theory]], but the reader already satisfied with this statement should skip ahead to the _[Singular chain complex](#MotivationSingularChainComplex)_.
-
-+-- {: .num_defn}
-###### Definition
-
-The **[[nLab:simplex category]]** $\Delta$ is the [[nLab:full subcategory]] of [[nLab:Cat]] on the free categories of the form
-
-$$
-  \begin{aligned}
-    [0] & \coloneqq \{0\}
-    \\
-    [1] & \coloneqq \{0 \to 1\}
-    \\
-   [2] & \coloneqq \{0 \to 1 \to 2\}
-   \\
-   \vdots
-   \end{aligned}
-  \,.
-$$
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-This is called the "simplex category" because we are to think of the object $[n]$ as being the "[[nLab:spine]]" of the $n$-[[nLab:simplex]]. For instance for $n = 2$ we think of $0 \to 1 \to 2$ as the "spine" of the triangle. This becomes clear if we don't just draw the morphisms that _generate_ the category $[n]$, but draw also all their composites. For instance for $n = 2$ we have_
-
-$$
-  [2]
-  =
-  \left\{
-  \array{
-     && 1
-     \\
-     & \nearrow && \searrow
-     \\
-    0 &&\to&& 2
-  }
-  \right\}
-  \,.
-$$
-
-=--
-
-+-- {: .num_prop}
-###### Proposition
-
-A [[nLab:functor]]
-
-$$
-  S : \Delta^{op} \to Set
-$$
-
-from the [[nLab:opposite category]] of the [[nLab:simplex category]] to the category [[nLab:Set]] of sets is canonically identified with a [[nLab:simplicial set]], def. \ref{SimplicialSet}.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-One checks by inspection that the simplicial identities
-characterize precisely the behaviour of the morphisms in
-$\Delta^{op}([n],[n+1])$ and $\Delta^{op}([n],[n-1])$.
-
-=--
-
-This makes the following evident:
-
-+-- {: .num_example #StandardCosimplicialTopologicalSpace}
-###### Example
-
-The [[nLab:topological simplices]] from def. \ref{TopologicalSimplex} arrange into a _[[nLab:cosimplicial object]] in [[nLab:Top]]_, namely a [[nLab:functor]]
-
-$$
-  \Delta^\bullet : \Delta \to Top
-  \,.
-$$
-
-=--
-
-With this now the structure of a simplicial set on $(Sing X)_\bullet$ is manifest: it is just the _[[nLab:nerve]]_ of $X$ with respect to $\Delta^\bullet$, namely:
-
-+-- {: .num_defn}
-###### Definition
-
-For $X$ a [[topological space]] its **[[nLab:singular simplicial complex|simplicial set of singular simplicies]]**  (often called the **[[nLab:singular simplicial complex]]**)
-
-$$
-  (Sing X)_\bullet : \Delta^{op} \to Set
-$$
-
-is given by composition of the functor from example \ref{StandardCosimplicialTopologicalSpace} with the [[nLab:hom functor]] of [[nLab:Top]]:
-
-$$
-  (Sing X) : [n] \mapsto Hom_{Top}( \Delta^n , X )
-  \,.
-$$
-
-=--
-
-+-- {: .num_remark}
-###### Remark (aside)
-
-It turns out that that [[nLab:homotopy type]] of the topological space $X$ is entirely captured by its singular simplicial complex $Sing X$ (this is the content of the _[[nLab:homotopy hypothesis]]-theorem_).
-
-=--
-
-#### Singular chain complex
- {#MotivationSingularChainComplex}
-
-Now we [[nLab:abelian group|abelianize]] the singular simplicial complex $(Sing X)_\bullet$ in order to make it _simpler_ and hence more tractable.
-
-
-+-- {: .num_defn #FormalLinearCombination}
-###### Definition
-
-A **formal linear combination** of elements of a [[nLab:set]]
-$S \in $ [[nLab:Set]] is a [[nLab:function]]
-
-$$
-  a : S \to \mathbb{Z}
-$$
-
-such that only finitely many of the values $a_s \in \mathbb{Z}$ are non-zero.
-
-Identifying an element $s \in S$ with the function
-$S \to \mathbb{Z}$, which sends $s$ to $1 \in \mathbb{Z}$ and all other elements to 0, this is written as
-
-$$
-  a = \sum_{s \in S} a_s \cdot s
-  \,.
-$$
-
-In this expression one calls $a_s \in \mathbb{Z}$ the [[nLab:coefficient]] of $s$ in the formal linear combination.
-
-=--
-
-+-- {: .num_defn #GroupOfFormalLinearCombinations}
-###### Remark
-
-For $S \in $ [[nLab:Set]], the **group of formal linear combinations** $\mathbb{Z}[S]$ is the [[nLab:group]] whose underlying [[nLab:set]] is that of formal linear combinations,
-def. \ref{FormalLinearCombination}, and whose group operation is
-the pointwise addition in $\mathbb{Z}$:
-
-$$
-  (\sum_{s \in S} a_s \cdot s)
-  +
-  (\sum_{s \in S} b_s \cdot s)
-  =
-  \sum_{s \in S} (a_s + b_s) \cdot s
-  \,.
-$$
-
-=--
-
-For the present purpose the following statement may be regarded as just introducing different terminology for the group of formal linear combinations:
-
-+-- {: .num_prop #FreeAbelianGroup}
-###### Proposition
-
-The group $\mathbb{Z}[S]$ is the **[[nLab:free abelian group]]** on $S$.
-
-=--
-
-+-- {: .num_defn }
-###### Definition
-
-For $S_\bullet$ a [[nLab:simplicial set]], def. \ref{SimplicialSet}, the free abelian group $\mathbb{Z}[S_n]$ is called the group of (simplicial) **$n$-chains** on $S$.
-
-=--
-
-
-+-- {: .num_defn }
-###### Definition
-
-For $X$ a [[topological space]], an $n$-chain on the [[nLab:singular simplicial complex]] $Sing X$ is called a **singular $n$-chain** on $X$.
-
-=--
-
-This construction makes the sets of simplices into abelian groups. But this allows to _formally add_ the different face maps in the simplicial set to one single boundary map:
-
-+-- {: .num_defn #TheAlternatingFaceMapDifferential}
-###### Definition
-
-For $S$ a [[nLab:simplicial set]], its **alternating face map differential** in degree $n$ is the linear map
-
-$$
-  \partial : \mathbb{Z}[S_n] \to \mathbb{Z}[S_{n-1}]
-$$
-
-defined on [[nLab:basis]] elements $\sigma \in S_n$ to be the alternating sum of the simplicial face maps:
-
-\[
-  \label{AlternatingFaceMapDifferential}
-  \partial \sigma \coloneqq \sum_{k = 0}^n (-1)^k d_k \sigma
-  \,.
-\]
-
-=--
-
-
-+-- {: .num_prop }
-###### Proposition
-
-The simplicial identity, prop. \ref{SimplicialIdentities} part 1), implies that the alternating sum boundary map of def. \ref{TheAlternatingFaceMapDifferential} squares to 0:
-
-$$
-  \partial \circ \partial = 0
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By linearity, it is sufficient to check this on a basis element $\sigma \in S_n$. There we compute as follows:
-
-$$
-  \begin{aligned}
-    \partial \partial \sigma
-    & =
-    \partial \left(
-      \sum_{j = 0}^n (-1)^j d_j \sigma
-    \right)
-    \\
-    & =
-    \sum_{j=0}^n \sum_{i = 0}^{n-1} (-1)^{i+j} d_i d_j \sigma
-    \\
-     & =
-     \sum_{0 \leq i \lt j \leq n} (-1)^{i+j} d_i d_j \sigma
-     +
-     \sum_{0 \leq j \leq i \lt n} (-1)^{i + j} d_i d_j \sigma
-     \\
-     & =
-     \sum_{0 \leq i \lt j \leq n} (-1)^{i+j} d_{j-1} d_i \sigma
-     +
-     \sum_{0 \leq j \leq i \lt n} (-1)^{i + j} d_i d_j \sigma
-     \\
-     & =
-     -
-     \sum_{0 \leq i \leq j \lt n} (-1)^{i+j} d_{j} d_i \sigma
-     +
-     \sum_{0 \leq j \leq i \lt n} (-1)^{i + j} d_i d_j \sigma
-     \\
-     & = 0
-  \end{aligned}
-  \,.
-$$
-
-Here
-
-1. the first equality is (eq:AlternatingFaceMapDifferential);
-
-1. the second is (eq:AlternatingFaceMapDifferential) together with the linearity of $d$;
-
-1. the third is obtained by decomposing the sum into two summands;
-
-1. the fourth finally uses the simplicial identity prop. \ref{SimplicialIdentities} (1) in the first summand;
-
-1. the fifth relabels the summation index $j$ by $j +1$;
-
-1. the last one observes that the resulting two summands are negatives of each other.
-
-=--
-
-+-- {: .num_example #BasicExamplesOfChainBoundaries}
-###### Example
-
-Let $X$ be a [[topological space]]. Let $\sigma^1 : \Delta^1 \to X$
-be a singular 1-simplex, regarded as a 1-chain
-
-$$
-  \sigma^1 \in C_1(X)
-  \,.
-$$
-
-Then its [[nLab:boundary]] $\partial \sigma \in H_0(X)$ is
-
-$$
-  \partial \sigma^1 = \sigma(0)  -\sigma(1)
-$$
-
-or graphically (using notation as for [[nLab:orientals]])
-
-$$
-  \partial
-  \left(
-    \sigma(0) \stackrel{\sigma}{\to} \sigma(1)
-  \right)
-  =
-  (\sigma(0)) - (\sigma(1))
-  \,.
-$$
-
-In particular $\sigma$ is a 1-[[nLab:cycle]] precisely if $\sigma(0) = \sigma(1)$, hence precisely if $\sigma$ is a [[nLab:loop space|loop]].
-
-Let $\sigma^2 : \Delta^2 \to X$ be a singular 2-chain. The boundary is
-
-$$
-  \partial
-  \left(
-    \array{
-       && \sigma(1)
-       \\
-       & {}^{\mathllap{\sigma(0,1)}}\nearrow
-       & \Downarrow^{\mathrlap{\sigma}}&
-       \searrow^{\mathrlap{\sigma^{1,2}}}
-       \\
-       \sigma(0) &&\underset{\sigma(0,2)}{\to}&& \sigma(2)
-    }
-  \right)
-  =
-  \left(
-    \array{
-       && \sigma(1)
-       \\
-       & {}^{\mathllap{\sigma(0,1)}}\nearrow
-       & &
-       \\
-       \sigma(0)
-    }
-  \right)
-  -
-  \left(
-    \array{
-       &&
-       \\
-       &
-       & &
-       \\
-       \sigma(0) &\underset{\sigma(0,2)}{\to}& \sigma(2)
-    }
-  \right)
-  +
-  \left(
-    \array{
-       && \sigma(1)
-       \\
-       &
-       & &
-       \searrow^{\mathrlap{\sigma^{1,2}}}
-       \\
-       && && \sigma(2)
-    }
-  \right)
-  \,.
-$$
-
-Hence the boundary of the boundary is:
-
-$$
-  \begin{aligned}
-  \partial \partial \sigma
-  &=
-  \partial
-  \left(
-  \left(
-    \array{
-       && \sigma(1)
-       \\
-       & {}^{\mathllap{\sigma(0,1)}}\nearrow
-       & &
-       \\
-       \sigma(0)
-    }
-  \right)
-  -
-  \left(
-    \array{
-       &&
-       \\
-       &
-       & &
-       \\
-       \sigma(0) &\underset{\sigma(0,2)}{\to}& \sigma(2)
-    }
-  \right)
-  +
-  \left(
-    \array{
-       && \sigma(1)
-       \\
-       &
-       & &
-       \searrow^{\mathrlap{\sigma^{1,2}}}
-       \\
-       && && \sigma(2)
-    }
-  \right)  \right)
-  \\
-  & =
-  \left(
-    \array{
-       &&
-       \\
-       &
-       & &
-       \\
-       \sigma(0)
-    }
-  \right)
-  -
-  \left(
-    \array{
-       && \sigma(1)
-       \\
-       &
-       & &
-       \\
-
-    }
-  \right)
-  -
-  \left(
-    \array{
-       &&
-       \\
-       &
-       & &
-       \\
-       \sigma(0) &&
-    }
-  \right)
-  +
-  \left(
-    \array{
-       &&
-       \\
-       &
-       & &
-       \\
-       && \sigma(2)
-    }
-  \right)
-  +
-  \left(
-    \array{
-       && \sigma(1)
-       \\
-       &
-       & &
-       \\
-       && &&
-    }
-  \right)
-  -
-  \left(
-    \array{
-       &&
-       \\
-       &
-       & &
-       \\
-       && && \sigma(2)
-    }
-  \right)
-  \\
-  & = 0
-  \end{aligned}
-$$
-
-=--
-
-+-- {: .num_defn #ComplexOfChainsOnASimplicialSet}
-###### Definition
-
-For $S$ a [[nLab:simplicial set]], we call the collection
-
-1. of [[nLab:abelian groups]] of chains $C_n(S) \coloneqq \mathbb{Z}[S_n]$,
-   prop. \ref{FreeAbelianGroup};
-
-1. and boundary homomorphisms $\partial_n : C_{n+1}(S) \to C_n(X)$, def. \ref{TheAlternatingFaceMapDifferential}
-
-(for all $n \in \mathbb{N}$) the **[[nLab:alternating face map complex|alternating face map chain complex]]** of $S$:
-
-$$
-  C_\bullet(S)
-  =
-  [
-    \cdots
-     \stackrel{\partial_2}{\to}
-    \mathbb{Z}[S_2]
-     \stackrel{\partial_1}{\to}
-    \mathbb{Z}[S_1]
-     \stackrel{\partial_0}{\to}
-    \mathbb{Z}[S_0]
-  ]
-  \,.
-$$
-
-
-Specifically for $S = Sing X$ we call this the **[[nLab:singular chain complex]]** of $X$.
-
-=--
-
-This motivates the general definition:
-
-+-- {: .num_defn #ChainComplexes}
-###### Definition
-
-A _[[nLab:chain complex]] of [[nLab:abelian groups]]_ $C_\bullet$ is a collection
-$\{C_n \in Ab\}_{n}$ of abelian groups together with group homomorphisms $\{\partial_n : C_{n+1} \to C_n\}$ such that $\partial \circ \partial = 0$.
-
-=--
-
-We turn to this definition in more detail in the [below](#CategoriesOfChainComplexes). The thrust of this construction lies in the fact that the chain complex $C_\bullet(Sing X)$ remembers the [[nLab:abelianization|abelianized]] [[nLab:fundamental group]] of $X$, as well as aspects of the higher [[nLab:homotopy groups]]: in its _[[nLab:chain homology]]_.
-
-+-- {: .num_defn }
-###### Definition
-
-For $C_\bullet(S)$ a chain complex as in def. \ref{ComplexOfChainsOnASimplicialSet}, and for $n \in \mathbb{N}$ we say
-
-* an $n$-[[nLab:chain]] of the form $\partial \sigma \in C(S)_n$ is an **$n$-[[nLab:boundary]]**;
-
-* a [[nLab:chain]] $\sigma \in C_n(S)$ is an **$n$-[[nLab:cycle]]** if $\partial \sigma = 0$
-
-  (every 0-chain is a 0-cycle).
-
-By linearity of $\partial$ the boundaries and cycles form abelian sub-groups of the group of chains, and we write
-
-$$
-  B_n \coloneqq im(\partial_n) \subset C_n(S)
-$$
-
-for the group of $n$-boundaries, and
-
-$$
-  Z_n \coloneqq ker(\partial_n) \subset C_(S)
-$$
-
-for the group of $n$-cycles.
-
-
-=--
-
-+-- {: .num_remark }
-###### Remark
-
-This means that a [[nLab:singular chain]] is a [[nLab:cycle]] if the formal linear combination of the oriented [[nLab:boundaries]] of all its constituent [[nLab:singular simplices]] sums to 0.
-
-=--
-
-
-+-- {: .num_remark }
-###### Remark
-
-More generally, for $R$ any unital [[nLab:ring]] one can form the degreewise [[nLab:free module]] $R[Sing X]$ over $R$. The corresponding homology is the _singular homology with coefficients in $R$, denoted $H_n(X,R)$. This generality we come to below in the next section.
-
-=--
-
-
-
-+-- {: .num_defn #SingularHomology}
-###### Definition
-
-For $C_\bullet(S)$ a chain complex as in def. \ref{ComplexOfChainsOnASimplicialSet} and for $n \in \mathbb{N}$, the **degree-$n$ [[nLab:chain homology]] group**
-$H_n(C(S)) \in Ab$ is the [[nLab:quotient group]]
-
-$$
-  H_n(C(S)) \coloneqq \frac{ker(\partial_{n-1})}{im(\partial_n)}
-  =
-  \frac{Z_n}{B_n}
-$$
-
-of the $n$-[[nLab:cycles]] by the $n$-[[nLab:boundaries]] -- where for $n = 0$ we declare that $\partial_{-1} \coloneqq 0$ and hence $Z_0 \coloneqq C_0$.
-
-Specifically, the [[nLab:chain homology]] of $C_\bullet(Sing X)$ is called the **[[nLab:singular homology]]** of the [[nLab:topological space]] $X$.
-
-
-=--
-
-One usually writes $H_n(X, \mathbb{Z})$ or just $H_n(X)$ for the singular homology of $X$ in degree $n$.
-
-+-- {: .num_remark }
-###### Remark
-
-So $H_0(C_\bullet(S)) = C_0(S)/im(\partial_0)$.
-
-=--
-
-+-- {: .num_example }
-###### Example
-
-For $X$ a [[nLab:topological space]] we have that the degree-0 singular homology
-
-$$
-  H_0(X) \simeq \mathbb{Z}[\pi_0(X)]
-$$
-
-is the [[nLab:free abelian group]] on the set of [[nLab:connected components]] of $X$.
-
-=--
-
-+-- {: .num_example #FundamentalClass}
-###### Example
-
-For $X$ a [[connected topological space|connected]], [[nLab:orientation|orientable]] [[manifold]] of [[dimension]] $n$ we have
-
-$$
-  H_n(X) \simeq \mathbb{Z}
-  \,.
-$$
-
-The precise choice of this [[nLab:isomorphism]] is a choice of [[nLab:orientation]] on $X$. With a choice of orientation, the element $1 \in \mathbb{Z}$ under this identification is called the **[[nLab:fundamental class]]**
-
-$$
-  [X] \in H_n(X)
-$$
-
-of the manifold $X$.
-
-=--
-
-
-+-- {: .num_defn #PushforwardOfChains}
-###### Definition
-
-Given a [[nLab:continuous map]] $f : X \to Y$ between [[nLab:topological spaces]],
-and given $n \in \mathbb{N}$, every singular $n$-simplex $\sigma : \Delta^n \to X$ in $X$ is sent to a singular $n$-simplex
-
-$$
-  f_* \sigma : \Delta^n \stackrel{\sigma}{\to} X \stackrel{f}{\to} Y
-$$
-
-in $Y$. This is called the **push-forward** of $\sigma$ along $f$. Accordingly there is a push-forward map on groups of singular chains
-
-$$
-  (f_*)_n : C_n(X) \to C_n(Y)
-  \,.
-$$
-
-=--
-
-+-- {: .num_prop #PushForwardChainMap}
-###### Proposition
-
-These push-forward maps make all diagrams of the form
-
-$$
-  \array{
-     C_{n+1}(X) &\stackrel{(f_*)_{n+1}}{\to}& C_{n+1}(Y)
-     \\
-     \downarrow^{\mathrlap{\partial^X_n}} && \downarrow^{\mathrlap{\partial^Y_n}}
-     \\
-     C_n(X) &\stackrel{(f_*)_n}{\to}& C_n(Y)
-  }
-$$
-
-commute.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-It is in fact evident that push-forward yields a functor of [[nLab:singular simplicial complexes]]
-
-$$
- f_* : Sing X \to Sing Y
- \,.
-$$
-
-From this the statement follows since $\mathbb{Z}[-] : sSet \to sAb$ is a functor.
-
-=--
-
-Therefore we have an "abelianized analog" of the notion of [[nLab:topological space]]:
-
-+-- {: .num_defn }
-###### Definition
-
-For $C_\bullet, D_\bullet$ two [[nLab:chain complexes]], def. \ref{ChainComplexes}, a [[nLab:homomorphism]] between them -- called a **[[nLab:chain map]]** $f_\bullet : C_\bullet \to D_\bullet$  -- is for each $n \in \mathbb{N}$ a homomorphism $f_n : C_n \to D_n$ of abelian groups, such that $f_n \circ \partial^C_n = \partial^D_n \circ f_{n+1}$:
-
-$$
-  \array{
-    \vdots && \vdots
-    \\
-    \downarrow^{\mathrlap{\partial^C_{n+1}}}
-    &&
-    \downarrow^{\mathrlap{\partial^D_{n+1}}}
-    \\
-    C_{n+1} &\stackrel{f_{n+1}}{\to}& D_{n+1}
-    \\
-    \downarrow^{\mathrlap{\partial^C_n}}
-    &&
-    \downarrow^{\mathrlap{\partial^D_n}}
-    \\
-    C_{n} &\stackrel{f_{n}}{\to}& D_{n}
-    \\
-    \downarrow^{\mathrlap{\partial^C_{n-1}}}
-    &&
-    \downarrow^{\mathrlap{\partial^D_{n-1}}}
-    \\
-    \vdots && \vdots
-  }
-  \,.
-$$
-
-
-=--
-
-Composition of such chain maps is given by degreewise composition of their components. Clearly, chain complexes with chain maps between them hence form a [[nLab:category]] -- the _[[nLab:category of chain complexes]]_ in [[nLab:abelian groups]], --  which we write
-
-$$
-  Ch_\bullet(Ab))
-  \in
-  Cat
-  \,.
-$$
-
-Accordingly we have:
-
-+-- {: .num_prop #SingularHomologyAsAFunctor}
-###### Proposition
-
-Sending a topological space to its singular chain complex $C_\bullet(X)$, def. \ref{ComplexOfChainsOnASimplicialSet}, and a continuous map to its push-forward chain map,
-prop. \ref{PushForwardChainMap}, constitutes a [[nLab:functor]]
-
-$$
-  C_\bullet(-) : Top \to Ch_\bullet(Ab)
-$$
-
-from the category [[nLab:Top]] of topological spaces and continuous maps, to the [[nlaB:category of chain complexes]].
-
-In particular for each $n \in \mathbb{N}$ singular homology extends to a [[nLab:functor]]
-
-$$
-  H_n(-) : Top \to Ab
-  \,.
-$$
-
-=--
-
-
-We close this section by stating the basic properties of [[nLab:singular homology]], which make precise the sense in which it is an abelian approximation to the [[nLab:homotopy type]] of $X$. The proof of these statements requires some of the tools of homological algebra that we develop in the later chapters, as well as some tools in [[nLab:algebraic topology]].
-
-+-- {: .num_prop }
-###### Proposition
-
-If $f : X \to Y$ is a [[nLab:continuous map]] between [[nLab:topological spaces]] which is a [[nLab:weak homotopy equivalence]], then the induced morphism on singular homology groups
-
-$$
-  H_n(f) : H_n(X) \to H_n(Y)
-$$
-
-is an [[nLab:isomorphism]].
-
-=--
-
-(A proof (via [[nLab:CW approximations]]) is spelled out for instance in ([Hatcher, prop. 4.21](#Hatcher))).
-
-We therefore also have an "abelian analog" of weak homotopy equivalences:
-
-+-- {: .num_defn }
-###### Definition
-
-For $C_\bullet, D_\bullet$ two [[nLab:chain complexes]],
-a [[nLab:chain map]] $f_\bullet : C_\bullet \to D_\bullet$ is called a **[[nLab:quasi-isomorphism]]** if it induces [[nLab:isomorphisms]] on all [[nLab:homology groups]]:
-
-$$
-  f_n : H_n(C) \stackrel{\simeq}{\to} H_n(D)
-  \,.
-$$
-
-
-=--
-
-In summary: **chain homology sends [[nLab:weak homotopy equivalences]] to [[nLab:quasi-isomorphisms]]**. Quasi-isomorphisms of chain complexes are the abelianized analog of weak homotopy equivalences of topological spaces.
-
-In particular we have the analog of prop. \ref{ReflexiveAndTransitiveButNotSymmetric}:
-
-+-- {: .num_prop #ReflexiveAndTransitiveButNotSymmetric}
-###### Proposition
-
-The [[nLab:relation]] "There exists a [[nLab:quasi-isomorphism]] from $C_\bullet$ to $D_\bullet$." is a [[nLab:reflexive relation|reflexive]] and [[nLab:transitive relation]], but it is not a [[nLab:symmetric relation]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Reflexivity and transitivity are evident. An explicit counter-example
-showing the non-symmetry is the [[nLab:chain map]]
-
-$$
-  \array{
-     \cdots &\to& 0 &\to& \mathbb{Z} &\stackrel{\cdot 2}{\to}& \mathbb{Z} &\to& 0 &\to& \cdots
-     \\
-     \cdots && \downarrow && \downarrow && \downarrow && \downarrow && \cdots
-     \\
-     \cdots &\to& 0 &\to& 0 &\to& \mathbb{Z}/2\mathbb{Z} &\to& 0 &\to& \cdots
-  }
-$$
-
-from the chain complex concentrated on the morphism of multiplication by 2 on integers, to the chain complex concentrated on the [[nLab:cyclic group of order 2]].
-
-
-This clearly induces an isomorphism on all homology groups. But there is not even a non-zero chain map in the other direction, since there is no non-zero group homomorphism $\mathbb{Z}/2\mathbb{Z} \to \mathbb{Z}$.
-
-=--
-
-Accordingly, as for [[nLab:homotopy types]] of topological spaces, in [[nLab:homological algebra]] one regards two [[nLab:chain complexes]]
-$C_\bullet$, $D_\bullet$ as essentially equivalent -- "of the same weak homology type" -- if there is a [[zigzag]] of quasi-isomorphisms
-
-$$
-  C_\bullet \leftarrow \to \leftarrow \cdots \to D_\bullet
-$$
-
-between them. This is made precise by the central notion of the _[[nLab:derived category]]_ of chain complexes. We turn to this below in section _[Derived categories and derived functors](#DerivedCategoriesAndDerivedFunctors)_.
-
-
-But quasi-isomorphisms are a little _coarser_ than weak homotopy equivalences. The singular chain functor $C_\bullet(-)$ forgets some of the information in the [[nLab:homotopy types]] of topological spaces. The following series of statements characterizes to some extent what exactly is lost when passing to singular homology, and which information is in fact retained.
-
-First we need a comparison map:
-
-+-- {: .num_defn #HurewiczHomomorphism}
-###### Definition
-**(Hurewicz homomorphism)**
-
-For $(X,x)$ a [[nLab:pointed object|pointed]] [[nLab:topological space]], the **Hurewicz homomorphism** is the [[nLab:function]]
-
-$$
-  \Phi : \pi_k(X,x) \to H_k(X)
-$$
-
-from the $k$th [[nLab:homotopy group]] of $(X,x)$ to the $k$th [[nLab:singular homology]] group defined by sending
-
-$$
-  \Phi : (f : S^k \to X)_{\sim} \mapsto f_*[S_k]
-$$
-
-a representative singular $k$-sphere $f$ in $X$ to the push-forward along $f$ of the [[nLab:fundamental class]] $[S_k] \in H_k(S^k)$, example \ref{FundamentalClass}.
-
-
-=--
-
-+-- {: .num_prop }
-###### Proposition
-
-For $X$ a [[nLab:topological space]] the Hurewicz homomorphism in degree 0 exhibits an [[nLab:isomorphism]] between the [[nLab:free abelian group]] $\mathbb{Z}[\pi_0(X)]$ on the set of path [[nLab:connected components]] of $X$ and the degree-0 singular homlogy:
-
-$$
-  \mathbb{Z}[\pi_0(X)]
-   \simeq
-  H_0(X)
-  \,.
-$$
-
-=--
-
-
-Since a [[nLab:homotopy group]] in positive degree depends on the [[nLab:homotopy type]] of the [[nLab:connected component]] of the base point, while the singular homology does not depend on a basepoint, it is interesting to compare these groups only for the case that $X$ is connected.
-
-+-- {: .num_prop }
-###### Proposition
-
-For $X$ a [[nLab:path-connected topological space]] the [[nLab:Hurewicz homomorphism]]
-in degree 1
-
-$$
-  \Phi : \pi_1(X,x) \to H_1(X)
-$$
-
-is [[nLab:surjection|surjective]]. Its [[nLab:kernel]] is the [[nLab:commutator subgroup]]
-of $\pi_1(X,x)$. Therefore it induces an [[nLab:isomorphism]] from the [[nLab:abelianization]] $\pi_1(X,x)^{ab} \coloneqq \pi_1(X,x)/[\pi_1,\pi_1]$:
-
-
-$$
-  \pi_1(X,x)^{ab}
-  \stackrel{\simeq}{\to}
-  H_1(X)
-  \,.
-$$
-
-=--
-
-For higher connected $X$ we have the
-
-+-- {: .num_theorem}
-###### Theorem
-
-If $X$ is [[nLab:n-connected object in an (infinity,1)-topos|(n-1)-connected]] for $n \geq 2$ then
-
-$$
-  \Phi : \pi_n(X,x) \to H_n(X)
-$$
-
-is an [[nLab:isomorphism]].
-
-=--
-
-This is known as the _[[nLab:Hurewicz theorem]]_.
-
-This gives plenty of motivation for studying
-
-1. [[nLab:chain complexes]]
-
-1. [[nLab:chain homology]]
-
-1. [[nLab:quasi-isomorphism]]
-
-of chain complexes. This is essentially what [[nLab:homological algebra]] is about. In the next section we start to develop these notions more systematically.
-
-### Motivation from first principles: Homotopy type-theory
- {#MotivationFromFirstPrinciples}
-
-(...[[type theory]]... [[identity type]]... [[homotopy type theory]]...)
-
-
-
 
 
 $\,$
@@ -1314,28 +107,12 @@ $\,$
 ## Abstract homotopy theory
  {#AbstractHomotopyTheory}
 
-Above we saw some first models for [[homotopy types]] as well as some basic constructions on them.
-Another model for [[homotopy types]] are [[topological spaces]].
-In order to turn these models into a full blown _[[homotopy theory]]_ one needs some
-further tools. One of these toolsets is _[[model category]]_ theory. Here we introduce the
-classical homotopy theory of topological spaces and along with it the concept of [[model categories]].
+Ideally, abstract homotopy theory would simply be a complete replacement of [[set theory]], obtained by _removing_ the assumption of strict [[equality]], relaxing it to [[gauge equivalence]]/[[homotopy]]. As such, abstract homotopy theory would be part and parcel of the [[foundations of mathematics]] themselves, not requiring any further discussion. This ideal perspective is the promise of _[[homotopy type theory]]_ and may become full practical reality in the next decades.
 
+Until then, abstract homotopy theory has to be formulated on top of the traditional [[foundations of mathematics]] provided by [[set theory]], much like one may have to run a Linux emulator on a Windows machine, if one does happen to be stuck with the latter.
 
-$\,$
+A very convenient and powerful such emulator for homotopy theory within set theory is _[[model categories|model category theory]]_, originally due to [Quillen 67](#Quillen67) and highly developed since. This we introduce here. 
 
-In the [above](#BackgroundOnTopologicalHomotopyTheoryFromAlgebraicTopology) we discussed three classes of [[continuous functions]] between [[topological spaces]]
-
-1. [[weak homotopy equivalences]];
-
-1. [[relative cell complexes]];
-
-1. [[Serre fibrations]]
-
-and we saw first aspects of their interplay via [[lifting properties]].
-
-A fundamental insight due to ([Quillen 67](#Quillen67)) is that in fact _all_ constructions in [[homotopy theory]] are elegantly expressible via just the abstract interplay of these classes of morphisms. This was distilled in ([Quillen 67](#Quillen67)) into a small set of [[axioms]] called a **[[model category]] structure** (because it serves to make all [[objects]] be _models_ for [[homotopy types]].)
-
-This _abstract homotopy theory_ is the royal road for handling any flavor of [[homotopy theory]], in particular the [[stable homotopy theory]] that we are after in _[[Introduction to Stable homotopy theory -- 1|Part 1]]_. Here we discuss the basic constructions and facts in abstract homotopy theory, then [below](#TheClassicalModelStructureOfTopologicalSpaces) we conclude section P1) by showing that the above system of classes of maps of topological spaces is indeed an example.
 
 **Literature** ([Dwyer-Spalinski 95](#DwyerSpalinski95))
 
@@ -1347,7 +124,7 @@ $\,$
 
 A **[[category with weak equivalences]]** is
 
-1. a [[category]] $\mathcal{C}$;
+1. a [[category]] $\mathcal{C}$ ([this Def.](geometry+of+physics+--+categories+and+toposes#Categories));
 
 1. a sub-[[class]] $W \subset Mor(\mathcal{C})$ of its [[morphisms]];
 
@@ -14593,6 +13370,1130 @@ Now prop. \ref{UnitOfSingularNerveAndRealizationIsWEOnKanComplexes} says that th
  {#AbelianHomotopyTheory}
 
 We introduce _[Categories of chain complexes](#CategoriesOfChainComplexes)_. In _[Homology exact sequences](#HomotopyHomologyFiberSequence)_ we find that this is all secretly controled by the phenomenon of [[chain homotopy]] and [[quasi-isomorphism]]. Strictly speaking these two phenomena point beyond plain [[nLab:category theory]] to the richer context of general abstract _[[nLab:homotopy theory]]_. Here we discuss properties of the category of chain complexes from this genuine homotopy-theoretic point of view. The result of passing the category of chain complexes to genuine homotopy theory is called the [[nLab:derived category]] (of the underlying [[nLab:abelian category]] $\mathcal{A}$, say of [[nLab:modules]]) and we start in [7)](#ChainHomotopyAndResolution) with a motivation of the phenomenon of this "homotopy derivation" and the discussion of the necessary _[[nLab:resolutions]]_ of chain complexes. This naturally gives rise to the general notion of [[nLab:derived functors]] which we discuss in [8)](#ExamplesOfDerivedFunctors). Examples of these are ubiquituous in [[nLab:homological algebra]], but as in ordinary [[nLab:enriched category theory]] two stand out as being of more fundamental importance, the derived functor "[[nLab:Ext]]" of the [[nLab:hom-functor]] and the derived functor "[[nLab:Tor]]" of the [[nLab:tensor product]] functor. Their properties and uses we discuss in _[Examples of derived functors](#ExamplesOfDerivedFunctors)_.
+
+
+### Motivation from topology: Singular homology
+ {#SimplicialHomology}
+
+
+This section recalls how the "abelianization" of a [[topological space]] by _[[singular chains]]_ gives rise to the notion of _[[nLab:chain complexes]]_ and their _[[homology]]_.
+
+This proceeds in three steps: given a [[topological space]], first one passes to the collection of [[simplices]] in it (the curves, triangles, tetrahedra, ...) which together form a _[[simplicial set]]_. Then one "linearizes" this by forming the [[free abelian groups]] on the simplices to obtain a [[simplicial abelian group]]. Finally one turns the resulting [[simplicial abelian group]] into a [[chain complex]].
+
+Below in _[Dold-Kan correspondence](#DoldKanCorrespondence)_ we see that this last step is an [[equivalence of categories|equivalent reformulation]], and that from any chain complex (in non-negative degree) one may re-obtain the [[simplicial abelian group]] that it corresponds to. Further below in _[Kan complexes](#KanComplexes)_ we see that (forgetting the group structure on these), these are _[[Kan complexes]]_ and as such objects in [[simplicial homotopy theory]]. This we then turn to further below in _[Simplicial homotopy theory](#SimplicialHomotopyTheory)_.
+
+
+#### Singular simplicial set
+ {#SingularSimplicialSet}
+
+
++-- {: .num_defn #TopologicalSimplex}
+###### Definition
+
+For $n \in \mathbb{N}$, the **[topological n-simplex](simplex#TopologicalSimplex)** is,
+up to [[nLab:homeomorphism]], the [[nLab:topological space]] whose underlying set is the subset
+
+$$
+  \Delta^n \coloneqq
+  \{
+    \vec x \in \mathbb{R}^{n+1}
+    |
+    \sum_{i = 0 }^n x_i = 1 \; and \;
+    \forall i . x_i \geq 0
+  \}
+  \subset \mathbb{R}^{n+1}
+$$
+
+of the [[nLab:Cartesian space]] $\mathbb{R}^{n+1}$, and whose topology is the  [[nLab:subspace topology]] induces from the canonical topology in $\mathbb{R}^{n+1}$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The [[coordinate]] expression in def. \ref{TopologicalSimplex} -- also known as _[barycentric coordinates](simplex#BarycentricCoordinates)_ -- is evidently just one of many possible ways to present topological $n$-simplices. Another common choice are what are called _[Cartesian coordinates](simplex#CartesianCoordinates)_. Of course nothing of relevance will depend on which choice of coordinate presentation is used, but some are more convenient in some situations than others.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $n = 0$ this is the [[nLab:point]], $\Delta^0 = *$.
+
+For $n = 1$ this is the standard [[nLab:interval object]] $\Delta^1 = [0,1]$.
+
+For $n = 2$ this is the filled triangle.
+
+For $n = 3$ this is the filled tetrahedron.
+
+=--
+
+
++-- {: .num_defn #FaceInclusionInBarycentricCoords}
+###### Definition
+
+For $n \in \mathbb{N}$, $\n \geq 1$ and $0 \leq k \leq n$, the
+**$k$th $(n-1)$-face (inclusion)**  of the topological $n$-simplex, def. \ref{TopologicalSimplex}, is the subspace inclusion
+
+$$
+  \delta_k : \Delta^{n-1} \hookrightarrow \Delta^n
+$$
+
+induced under the coordinate presentation of def. \ref{TopologicalSimplex},
+by the inclusion
+
+$$
+  \mathbb{R}^n \hookrightarrow \mathbb{R}^{n+1}
+$$
+
+which "omits" the $k$th canonical coordinate:
+
+$$
+  (x_0, \cdots , x_{n-1}) \mapsto (x_0, \cdots, x_{k-1} , 0 , x_{k}, \cdots, x_{n-1})
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+The inclusion
+
+$$
+  \delta_0 : \Delta^0 \to \Delta^1
+$$
+
+is the inclusion
+
+$$
+  \{1\} \hookrightarrow [0,1]
+$$
+
+of the "right" end of the standard interval. The other inclusion
+
+$$
+  \delta_1 : \Delta^0 \to \Delta^1
+$$
+
+is that of the "left" end $\{0\} \hookrightarrow [0,1]$.
+
+=--
+
++-- {: .num_defn #DegeneracyProjectionsInBarycentricCoords}
+###### Definition
+
+For $n \in \mathbb{N}$ and $0 \leq k \lt n$ the **$k$th degenerate $(n)$-simplex (projection)** is the surjective map
+
+$$
+  \sigma_k : \Delta^{n} \to \Delta^{n-1}
+$$
+
+induced under the [barycentric coordinates](simplex#BarycentricCoordinates) of def. \ref{TopologicalSimplex} under the surjection
+
+$$
+  \mathbb{R}^{n+1} \to \mathbb{R}^n
+$$
+
+which sends
+
+$$
+  (x_0, \cdots, x_n) \mapsto (x_0, \cdots, x_{k} + x_{k+1}, \cdots, x_n)
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #SingularSimplex}
+###### Definition
+
+For $X \in $ [[Top]] a [[topological space]] and $n \in \mathbb{N}$ a [[natural number]], a **singular $n$-simplex** in $X$ is a [[nLab:continuous map]]
+
+$$
+  \sigma : \Delta^n \to X
+$$
+
+from the topological $n$-simplex, def. \ref{TopologicalSimplex}, to $X$.
+
+Write
+
+$$
+  (Sing X)_n \coloneqq Hom_{Top}(\Delta^n , X)
+$$
+
+for the set of singular $n$-simplices of $X$.
+
+=--
+
+
+So to a [[nLab:topological space]] $X$ is associated a sequence of sets
+
+$$
+  (Sing X)_n \coloneqq Hom_{Top}(\Delta^n, X)
+$$
+
+of [[nLab:singular simplices]]. Since the topological $n$-simplices $\Delta^n$ from def. \ref{TopologicalSimplex} sit inside each other by the face inclusions of def. \ref{FaceInclusionInBarycentricCoords}
+
+$$
+  \delta_k : \Delta^{n-1} \to \Delta^{n}
+$$
+
+and project onto each other by the degeneracy maps, def. \ref{DegeneracyProjectionsInBarycentricCoords}
+
+$$
+  \sigma_k : \Delta^{n+1} \to \Delta^n
+$$
+
+we dually have functions
+
+$$
+  d_k \coloneqq Hom_{Top}(\delta_k, X) : (Sing X)_n \to (Sing X)_{n-1}
+$$
+
+that send each singular $n$-simplex to its $k$-face and functions
+
+$$
+  s_k \coloneqq Hom_{Top}(\sigma_k,X) : (Sing X)_{n} \to (Sing X)_{n+1}
+$$
+
+that regard an $n$-simplex as beign a degenerate ("thin") $(n+1)$-simplex.
+All these sets of simplicies and face and degeneracy maps between them form the following structure.
+
++-- {: .num_defn #SimplicialSet}
+###### Definition
+
+A **[[simplicial set]]** $S \in sSet$ is
+
+* for each $n \in \mathbb{N}$ a [[set]] $S_n \in Set$ -- the **set of $n$-[[simplices]]**;
+
+* for each [[nLab:injective map]] $\delta_i : \overline{n-1} \to \overline{n}$ of [[nLab:totally ordered sets]] $\bar n \coloneqq \{ 0 \lt 1 \lt \cdots \lt n \}$
+
+  a [[nLab:function]] $d_i : S_{n} \to S_{n-1}$ -- the $i$th **face map** on $n$-simplices;
+
+* for each [[nLab:surjective map]] $\sigma_i : \overline{n+1} \to \bar n$ of [[nLab:totally ordered sets]]
+
+  a [[nLab:function]] $\sigma_i : S_{n} \to S_{n+1}$ -- the $i$th **degeneracy map** on $n$-simplices;
+
+such that these functions satisfy the _[[nLab:simplicial identities]]_.
+
+=--
+
++-- {: .num_prop #SimplicialIdentities}
+###### Proposition
+
+These face and degeneracy maps satisfy the following **simplicial identities**   (whenever the maps are composable as indicated):
+
+1. $ d_i \circ d_j  = d_{j-1} \circ d_i$ if $i \lt j$,
+
+1. $s_i \circ s_j  = s_j \circ s_{i-1}$ if $i \gt j$.
+
+1. $d_i \circ s_j =  \left\{ \array{ s_{j-1} \circ d_i &  if \;  i \lt j \\ id & if  \;  i = j \; or \; i = j+1 \\ s_j \circ d_{i-1} &  if i \gt j+1 } \right. $
+
+=--
+
+It is straightforward to check by explicit inspection that the evident injection and restriction maps between the sets of [[nLab:singular simplices]] make $(Sing X)_\bullet$ into a simplicial set. We now briefly indicate a systematic way to see this using basic [[nLab:category theory]], but the reader already satisfied with this statement should skip ahead to the _[Singular chain complex](#MotivationSingularChainComplex)_.
+
++-- {: .num_defn}
+###### Definition
+
+The **[[nLab:simplex category]]** $\Delta$ is the [[nLab:full subcategory]] of [[nLab:Cat]] on the free categories of the form
+
+$$
+  \begin{aligned}
+    [0] & \coloneqq \{0\}
+    \\
+    [1] & \coloneqq \{0 \to 1\}
+    \\
+   [2] & \coloneqq \{0 \to 1 \to 2\}
+   \\
+   \vdots
+   \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This is called the "simplex category" because we are to think of the object $[n]$ as being the "[[nLab:spine]]" of the $n$-[[nLab:simplex]]. For instance for $n = 2$ we think of $0 \to 1 \to 2$ as the "spine" of the triangle. This becomes clear if we don't just draw the morphisms that _generate_ the category $[n]$, but draw also all their composites. For instance for $n = 2$ we have_
+
+$$
+  [2]
+  =
+  \left\{
+  \array{
+     && 1
+     \\
+     & \nearrow && \searrow
+     \\
+    0 &&\to&& 2
+  }
+  \right\}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+A [[nLab:functor]]
+
+$$
+  S : \Delta^{op} \to Set
+$$
+
+from the [[nLab:opposite category]] of the [[nLab:simplex category]] to the category [[nLab:Set]] of sets is canonically identified with a [[nLab:simplicial set]], def. \ref{SimplicialSet}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+One checks by inspection that the simplicial identities
+characterize precisely the behaviour of the morphisms in
+$\Delta^{op}([n],[n+1])$ and $\Delta^{op}([n],[n-1])$.
+
+=--
+
+This makes the following evident:
+
++-- {: .num_example #StandardCosimplicialTopologicalSpace}
+###### Example
+
+The [[nLab:topological simplices]] from def. \ref{TopologicalSimplex} arrange into a _[[nLab:cosimplicial object]] in [[nLab:Top]]_, namely a [[nLab:functor]]
+
+$$
+  \Delta^\bullet : \Delta \to Top
+  \,.
+$$
+
+=--
+
+With this now the structure of a simplicial set on $(Sing X)_\bullet$ is manifest: it is just the _[[nLab:nerve]]_ of $X$ with respect to $\Delta^\bullet$, namely:
+
++-- {: .num_defn}
+###### Definition
+
+For $X$ a [[topological space]] its **[[nLab:singular simplicial complex|simplicial set of singular simplicies]]**  (often called the **[[nLab:singular simplicial complex]]**)
+
+$$
+  (Sing X)_\bullet : \Delta^{op} \to Set
+$$
+
+is given by composition of the functor from example \ref{StandardCosimplicialTopologicalSpace} with the [[nLab:hom functor]] of [[nLab:Top]]:
+
+$$
+  (Sing X) : [n] \mapsto Hom_{Top}( \Delta^n , X )
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark (aside)
+
+It turns out that that [[nLab:homotopy type]] of the topological space $X$ is entirely captured by its singular simplicial complex $Sing X$ (this is the content of the _[[nLab:homotopy hypothesis]]-theorem_).
+
+=--
+
+#### Singular chain complex
+ {#MotivationSingularChainComplex}
+
+Now we [[nLab:abelian group|abelianize]] the singular simplicial complex $(Sing X)_\bullet$ in order to make it _simpler_ and hence more tractable.
+
+
++-- {: .num_defn #FormalLinearCombination}
+###### Definition
+
+A **formal linear combination** of elements of a [[nLab:set]]
+$S \in $ [[nLab:Set]] is a [[nLab:function]]
+
+$$
+  a : S \to \mathbb{Z}
+$$
+
+such that only finitely many of the values $a_s \in \mathbb{Z}$ are non-zero.
+
+Identifying an element $s \in S$ with the function
+$S \to \mathbb{Z}$, which sends $s$ to $1 \in \mathbb{Z}$ and all other elements to 0, this is written as
+
+$$
+  a = \sum_{s \in S} a_s \cdot s
+  \,.
+$$
+
+In this expression one calls $a_s \in \mathbb{Z}$ the [[nLab:coefficient]] of $s$ in the formal linear combination.
+
+=--
+
++-- {: .num_defn #GroupOfFormalLinearCombinations}
+###### Remark
+
+For $S \in $ [[nLab:Set]], the **group of formal linear combinations** $\mathbb{Z}[S]$ is the [[nLab:group]] whose underlying [[nLab:set]] is that of formal linear combinations,
+def. \ref{FormalLinearCombination}, and whose group operation is
+the pointwise addition in $\mathbb{Z}$:
+
+$$
+  (\sum_{s \in S} a_s \cdot s)
+  +
+  (\sum_{s \in S} b_s \cdot s)
+  =
+  \sum_{s \in S} (a_s + b_s) \cdot s
+  \,.
+$$
+
+=--
+
+For the present purpose the following statement may be regarded as just introducing different terminology for the group of formal linear combinations:
+
++-- {: .num_prop #FreeAbelianGroup}
+###### Proposition
+
+The group $\mathbb{Z}[S]$ is the **[[nLab:free abelian group]]** on $S$.
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+For $S_\bullet$ a [[nLab:simplicial set]], def. \ref{SimplicialSet}, the free abelian group $\mathbb{Z}[S_n]$ is called the group of (simplicial) **$n$-chains** on $S$.
+
+=--
+
+
++-- {: .num_defn }
+###### Definition
+
+For $X$ a [[topological space]], an $n$-chain on the [[nLab:singular simplicial complex]] $Sing X$ is called a **singular $n$-chain** on $X$.
+
+=--
+
+This construction makes the sets of simplices into abelian groups. But this allows to _formally add_ the different face maps in the simplicial set to one single boundary map:
+
++-- {: .num_defn #TheAlternatingFaceMapDifferential}
+###### Definition
+
+For $S$ a [[nLab:simplicial set]], its **alternating face map differential** in degree $n$ is the linear map
+
+$$
+  \partial : \mathbb{Z}[S_n] \to \mathbb{Z}[S_{n-1}]
+$$
+
+defined on [[nLab:basis]] elements $\sigma \in S_n$ to be the alternating sum of the simplicial face maps:
+
+\[
+  \label{AlternatingFaceMapDifferential}
+  \partial \sigma \coloneqq \sum_{k = 0}^n (-1)^k d_k \sigma
+  \,.
+\]
+
+=--
+
+
++-- {: .num_prop }
+###### Proposition
+
+The simplicial identity, prop. \ref{SimplicialIdentities} part 1), implies that the alternating sum boundary map of def. \ref{TheAlternatingFaceMapDifferential} squares to 0:
+
+$$
+  \partial \circ \partial = 0
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By linearity, it is sufficient to check this on a basis element $\sigma \in S_n$. There we compute as follows:
+
+$$
+  \begin{aligned}
+    \partial \partial \sigma
+    & =
+    \partial \left(
+      \sum_{j = 0}^n (-1)^j d_j \sigma
+    \right)
+    \\
+    & =
+    \sum_{j=0}^n \sum_{i = 0}^{n-1} (-1)^{i+j} d_i d_j \sigma
+    \\
+     & =
+     \sum_{0 \leq i \lt j \leq n} (-1)^{i+j} d_i d_j \sigma
+     +
+     \sum_{0 \leq j \leq i \lt n} (-1)^{i + j} d_i d_j \sigma
+     \\
+     & =
+     \sum_{0 \leq i \lt j \leq n} (-1)^{i+j} d_{j-1} d_i \sigma
+     +
+     \sum_{0 \leq j \leq i \lt n} (-1)^{i + j} d_i d_j \sigma
+     \\
+     & =
+     -
+     \sum_{0 \leq i \leq j \lt n} (-1)^{i+j} d_{j} d_i \sigma
+     +
+     \sum_{0 \leq j \leq i \lt n} (-1)^{i + j} d_i d_j \sigma
+     \\
+     & = 0
+  \end{aligned}
+  \,.
+$$
+
+Here
+
+1. the first equality is (eq:AlternatingFaceMapDifferential);
+
+1. the second is (eq:AlternatingFaceMapDifferential) together with the linearity of $d$;
+
+1. the third is obtained by decomposing the sum into two summands;
+
+1. the fourth finally uses the simplicial identity prop. \ref{SimplicialIdentities} (1) in the first summand;
+
+1. the fifth relabels the summation index $j$ by $j +1$;
+
+1. the last one observes that the resulting two summands are negatives of each other.
+
+=--
+
++-- {: .num_example #BasicExamplesOfChainBoundaries}
+###### Example
+
+Let $X$ be a [[topological space]]. Let $\sigma^1 : \Delta^1 \to X$
+be a singular 1-simplex, regarded as a 1-chain
+
+$$
+  \sigma^1 \in C_1(X)
+  \,.
+$$
+
+Then its [[nLab:boundary]] $\partial \sigma \in H_0(X)$ is
+
+$$
+  \partial \sigma^1 = \sigma(0)  -\sigma(1)
+$$
+
+or graphically (using notation as for [[nLab:orientals]])
+
+$$
+  \partial
+  \left(
+    \sigma(0) \stackrel{\sigma}{\to} \sigma(1)
+  \right)
+  =
+  (\sigma(0)) - (\sigma(1))
+  \,.
+$$
+
+In particular $\sigma$ is a 1-[[nLab:cycle]] precisely if $\sigma(0) = \sigma(1)$, hence precisely if $\sigma$ is a [[nLab:loop space|loop]].
+
+Let $\sigma^2 : \Delta^2 \to X$ be a singular 2-chain. The boundary is
+
+$$
+  \partial
+  \left(
+    \array{
+       && \sigma(1)
+       \\
+       & {}^{\mathllap{\sigma(0,1)}}\nearrow
+       & \Downarrow^{\mathrlap{\sigma}}&
+       \searrow^{\mathrlap{\sigma^{1,2}}}
+       \\
+       \sigma(0) &&\underset{\sigma(0,2)}{\to}&& \sigma(2)
+    }
+  \right)
+  =
+  \left(
+    \array{
+       && \sigma(1)
+       \\
+       & {}^{\mathllap{\sigma(0,1)}}\nearrow
+       & &
+       \\
+       \sigma(0)
+    }
+  \right)
+  -
+  \left(
+    \array{
+       &&
+       \\
+       &
+       & &
+       \\
+       \sigma(0) &\underset{\sigma(0,2)}{\to}& \sigma(2)
+    }
+  \right)
+  +
+  \left(
+    \array{
+       && \sigma(1)
+       \\
+       &
+       & &
+       \searrow^{\mathrlap{\sigma^{1,2}}}
+       \\
+       && && \sigma(2)
+    }
+  \right)
+  \,.
+$$
+
+Hence the boundary of the boundary is:
+
+$$
+  \begin{aligned}
+  \partial \partial \sigma
+  &=
+  \partial
+  \left(
+  \left(
+    \array{
+       && \sigma(1)
+       \\
+       & {}^{\mathllap{\sigma(0,1)}}\nearrow
+       & &
+       \\
+       \sigma(0)
+    }
+  \right)
+  -
+  \left(
+    \array{
+       &&
+       \\
+       &
+       & &
+       \\
+       \sigma(0) &\underset{\sigma(0,2)}{\to}& \sigma(2)
+    }
+  \right)
+  +
+  \left(
+    \array{
+       && \sigma(1)
+       \\
+       &
+       & &
+       \searrow^{\mathrlap{\sigma^{1,2}}}
+       \\
+       && && \sigma(2)
+    }
+  \right)  \right)
+  \\
+  & =
+  \left(
+    \array{
+       &&
+       \\
+       &
+       & &
+       \\
+       \sigma(0)
+    }
+  \right)
+  -
+  \left(
+    \array{
+       && \sigma(1)
+       \\
+       &
+       & &
+       \\
+
+    }
+  \right)
+  -
+  \left(
+    \array{
+       &&
+       \\
+       &
+       & &
+       \\
+       \sigma(0) &&
+    }
+  \right)
+  +
+  \left(
+    \array{
+       &&
+       \\
+       &
+       & &
+       \\
+       && \sigma(2)
+    }
+  \right)
+  +
+  \left(
+    \array{
+       && \sigma(1)
+       \\
+       &
+       & &
+       \\
+       && &&
+    }
+  \right)
+  -
+  \left(
+    \array{
+       &&
+       \\
+       &
+       & &
+       \\
+       && && \sigma(2)
+    }
+  \right)
+  \\
+  & = 0
+  \end{aligned}
+$$
+
+=--
+
++-- {: .num_defn #ComplexOfChainsOnASimplicialSet}
+###### Definition
+
+For $S$ a [[nLab:simplicial set]], we call the collection
+
+1. of [[nLab:abelian groups]] of chains $C_n(S) \coloneqq \mathbb{Z}[S_n]$,
+   prop. \ref{FreeAbelianGroup};
+
+1. and boundary homomorphisms $\partial_n : C_{n+1}(S) \to C_n(X)$, def. \ref{TheAlternatingFaceMapDifferential}
+
+(for all $n \in \mathbb{N}$) the **[[nLab:alternating face map complex|alternating face map chain complex]]** of $S$:
+
+$$
+  C_\bullet(S)
+  =
+  [
+    \cdots
+     \stackrel{\partial_2}{\to}
+    \mathbb{Z}[S_2]
+     \stackrel{\partial_1}{\to}
+    \mathbb{Z}[S_1]
+     \stackrel{\partial_0}{\to}
+    \mathbb{Z}[S_0]
+  ]
+  \,.
+$$
+
+
+Specifically for $S = Sing X$ we call this the **[[nLab:singular chain complex]]** of $X$.
+
+=--
+
+This motivates the general definition:
+
++-- {: .num_defn #ChainComplexes}
+###### Definition
+
+A _[[nLab:chain complex]] of [[nLab:abelian groups]]_ $C_\bullet$ is a collection
+$\{C_n \in Ab\}_{n}$ of abelian groups together with group homomorphisms $\{\partial_n : C_{n+1} \to C_n\}$ such that $\partial \circ \partial = 0$.
+
+=--
+
+We turn to this definition in more detail in the [below](#CategoriesOfChainComplexes). The thrust of this construction lies in the fact that the chain complex $C_\bullet(Sing X)$ remembers the [[nLab:abelianization|abelianized]] [[nLab:fundamental group]] of $X$, as well as aspects of the higher [[nLab:homotopy groups]]: in its _[[nLab:chain homology]]_.
+
++-- {: .num_defn }
+###### Definition
+
+For $C_\bullet(S)$ a chain complex as in def. \ref{ComplexOfChainsOnASimplicialSet}, and for $n \in \mathbb{N}$ we say
+
+* an $n$-[[nLab:chain]] of the form $\partial \sigma \in C(S)_n$ is an **$n$-[[nLab:boundary]]**;
+
+* a [[nLab:chain]] $\sigma \in C_n(S)$ is an **$n$-[[nLab:cycle]]** if $\partial \sigma = 0$
+
+  (every 0-chain is a 0-cycle).
+
+By linearity of $\partial$ the boundaries and cycles form abelian sub-groups of the group of chains, and we write
+
+$$
+  B_n \coloneqq im(\partial_n) \subset C_n(S)
+$$
+
+for the group of $n$-boundaries, and
+
+$$
+  Z_n \coloneqq ker(\partial_n) \subset C_(S)
+$$
+
+for the group of $n$-cycles.
+
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+This means that a [[nLab:singular chain]] is a [[nLab:cycle]] if the formal linear combination of the oriented [[nLab:boundaries]] of all its constituent [[nLab:singular simplices]] sums to 0.
+
+=--
+
+
++-- {: .num_remark }
+###### Remark
+
+More generally, for $R$ any unital [[nLab:ring]] one can form the degreewise [[nLab:free module]] $R[Sing X]$ over $R$. The corresponding homology is the _singular homology with coefficients in $R$, denoted $H_n(X,R)$. This generality we come to below in the next section.
+
+=--
+
+
+
++-- {: .num_defn #SingularHomology}
+###### Definition
+
+For $C_\bullet(S)$ a chain complex as in def. \ref{ComplexOfChainsOnASimplicialSet} and for $n \in \mathbb{N}$, the **degree-$n$ [[nLab:chain homology]] group**
+$H_n(C(S)) \in Ab$ is the [[nLab:quotient group]]
+
+$$
+  H_n(C(S)) \coloneqq \frac{ker(\partial_{n-1})}{im(\partial_n)}
+  =
+  \frac{Z_n}{B_n}
+$$
+
+of the $n$-[[nLab:cycles]] by the $n$-[[nLab:boundaries]] -- where for $n = 0$ we declare that $\partial_{-1} \coloneqq 0$ and hence $Z_0 \coloneqq C_0$.
+
+Specifically, the [[nLab:chain homology]] of $C_\bullet(Sing X)$ is called the **[[nLab:singular homology]]** of the [[nLab:topological space]] $X$.
+
+
+=--
+
+One usually writes $H_n(X, \mathbb{Z})$ or just $H_n(X)$ for the singular homology of $X$ in degree $n$.
+
++-- {: .num_remark }
+###### Remark
+
+So $H_0(C_\bullet(S)) = C_0(S)/im(\partial_0)$.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+For $X$ a [[nLab:topological space]] we have that the degree-0 singular homology
+
+$$
+  H_0(X) \simeq \mathbb{Z}[\pi_0(X)]
+$$
+
+is the [[nLab:free abelian group]] on the set of [[nLab:connected components]] of $X$.
+
+=--
+
++-- {: .num_example #FundamentalClass}
+###### Example
+
+For $X$ a [[connected topological space|connected]], [[nLab:orientation|orientable]] [[manifold]] of [[dimension]] $n$ we have
+
+$$
+  H_n(X) \simeq \mathbb{Z}
+  \,.
+$$
+
+The precise choice of this [[nLab:isomorphism]] is a choice of [[nLab:orientation]] on $X$. With a choice of orientation, the element $1 \in \mathbb{Z}$ under this identification is called the **[[nLab:fundamental class]]**
+
+$$
+  [X] \in H_n(X)
+$$
+
+of the manifold $X$.
+
+=--
+
+
++-- {: .num_defn #PushforwardOfChains}
+###### Definition
+
+Given a [[nLab:continuous map]] $f : X \to Y$ between [[nLab:topological spaces]],
+and given $n \in \mathbb{N}$, every singular $n$-simplex $\sigma : \Delta^n \to X$ in $X$ is sent to a singular $n$-simplex
+
+$$
+  f_* \sigma : \Delta^n \stackrel{\sigma}{\to} X \stackrel{f}{\to} Y
+$$
+
+in $Y$. This is called the **push-forward** of $\sigma$ along $f$. Accordingly there is a push-forward map on groups of singular chains
+
+$$
+  (f_*)_n : C_n(X) \to C_n(Y)
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #PushForwardChainMap}
+###### Proposition
+
+These push-forward maps make all diagrams of the form
+
+$$
+  \array{
+     C_{n+1}(X) &\stackrel{(f_*)_{n+1}}{\to}& C_{n+1}(Y)
+     \\
+     \downarrow^{\mathrlap{\partial^X_n}} && \downarrow^{\mathrlap{\partial^Y_n}}
+     \\
+     C_n(X) &\stackrel{(f_*)_n}{\to}& C_n(Y)
+  }
+$$
+
+commute.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is in fact evident that push-forward yields a functor of [[nLab:singular simplicial complexes]]
+
+$$
+ f_* : Sing X \to Sing Y
+ \,.
+$$
+
+From this the statement follows since $\mathbb{Z}[-] : sSet \to sAb$ is a functor.
+
+=--
+
+Therefore we have an "abelianized analog" of the notion of [[nLab:topological space]]:
+
++-- {: .num_defn }
+###### Definition
+
+For $C_\bullet, D_\bullet$ two [[nLab:chain complexes]], def. \ref{ChainComplexes}, a [[nLab:homomorphism]] between them -- called a **[[nLab:chain map]]** $f_\bullet : C_\bullet \to D_\bullet$  -- is for each $n \in \mathbb{N}$ a homomorphism $f_n : C_n \to D_n$ of abelian groups, such that $f_n \circ \partial^C_n = \partial^D_n \circ f_{n+1}$:
+
+$$
+  \array{
+    \vdots && \vdots
+    \\
+    \downarrow^{\mathrlap{\partial^C_{n+1}}}
+    &&
+    \downarrow^{\mathrlap{\partial^D_{n+1}}}
+    \\
+    C_{n+1} &\stackrel{f_{n+1}}{\to}& D_{n+1}
+    \\
+    \downarrow^{\mathrlap{\partial^C_n}}
+    &&
+    \downarrow^{\mathrlap{\partial^D_n}}
+    \\
+    C_{n} &\stackrel{f_{n}}{\to}& D_{n}
+    \\
+    \downarrow^{\mathrlap{\partial^C_{n-1}}}
+    &&
+    \downarrow^{\mathrlap{\partial^D_{n-1}}}
+    \\
+    \vdots && \vdots
+  }
+  \,.
+$$
+
+
+=--
+
+Composition of such chain maps is given by degreewise composition of their components. Clearly, chain complexes with chain maps between them hence form a [[nLab:category]] -- the _[[nLab:category of chain complexes]]_ in [[nLab:abelian groups]], --  which we write
+
+$$
+  Ch_\bullet(Ab))
+  \in
+  Cat
+  \,.
+$$
+
+Accordingly we have:
+
++-- {: .num_prop #SingularHomologyAsAFunctor}
+###### Proposition
+
+Sending a topological space to its singular chain complex $C_\bullet(X)$, def. \ref{ComplexOfChainsOnASimplicialSet}, and a continuous map to its push-forward chain map,
+prop. \ref{PushForwardChainMap}, constitutes a [[nLab:functor]]
+
+$$
+  C_\bullet(-) : Top \to Ch_\bullet(Ab)
+$$
+
+from the category [[nLab:Top]] of topological spaces and continuous maps, to the [[nlaB:category of chain complexes]].
+
+In particular for each $n \in \mathbb{N}$ singular homology extends to a [[nLab:functor]]
+
+$$
+  H_n(-) : Top \to Ab
+  \,.
+$$
+
+=--
+
+
+We close this section by stating the basic properties of [[nLab:singular homology]], which make precise the sense in which it is an abelian approximation to the [[nLab:homotopy type]] of $X$. The proof of these statements requires some of the tools of homological algebra that we develop in the later chapters, as well as some tools in [[nLab:algebraic topology]].
+
++-- {: .num_prop }
+###### Proposition
+
+If $f : X \to Y$ is a [[nLab:continuous map]] between [[nLab:topological spaces]] which is a [[nLab:weak homotopy equivalence]], then the induced morphism on singular homology groups
+
+$$
+  H_n(f) : H_n(X) \to H_n(Y)
+$$
+
+is an [[nLab:isomorphism]].
+
+=--
+
+(A proof (via [[nLab:CW approximations]]) is spelled out for instance in ([Hatcher, prop. 4.21](#Hatcher))).
+
+We therefore also have an "abelian analog" of weak homotopy equivalences:
+
++-- {: .num_defn }
+###### Definition
+
+For $C_\bullet, D_\bullet$ two [[nLab:chain complexes]],
+a [[nLab:chain map]] $f_\bullet : C_\bullet \to D_\bullet$ is called a **[[nLab:quasi-isomorphism]]** if it induces [[nLab:isomorphisms]] on all [[nLab:homology groups]]:
+
+$$
+  f_n : H_n(C) \stackrel{\simeq}{\to} H_n(D)
+  \,.
+$$
+
+
+=--
+
+In summary: **chain homology sends [[nLab:weak homotopy equivalences]] to [[nLab:quasi-isomorphisms]]**. Quasi-isomorphisms of chain complexes are the abelianized analog of weak homotopy equivalences of topological spaces.
+
+In particular we have the analog of prop. \ref{ReflexiveAndTransitiveButNotSymmetric}:
+
++-- {: .num_prop #ReflexiveAndTransitiveButNotSymmetric}
+###### Proposition
+
+The [[nLab:relation]] "There exists a [[nLab:quasi-isomorphism]] from $C_\bullet$ to $D_\bullet$." is a [[nLab:reflexive relation|reflexive]] and [[nLab:transitive relation]], but it is not a [[nLab:symmetric relation]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Reflexivity and transitivity are evident. An explicit counter-example
+showing the non-symmetry is the [[nLab:chain map]]
+
+$$
+  \array{
+     \cdots &\to& 0 &\to& \mathbb{Z} &\stackrel{\cdot 2}{\to}& \mathbb{Z} &\to& 0 &\to& \cdots
+     \\
+     \cdots && \downarrow && \downarrow && \downarrow && \downarrow && \cdots
+     \\
+     \cdots &\to& 0 &\to& 0 &\to& \mathbb{Z}/2\mathbb{Z} &\to& 0 &\to& \cdots
+  }
+$$
+
+from the chain complex concentrated on the morphism of multiplication by 2 on integers, to the chain complex concentrated on the [[nLab:cyclic group of order 2]].
+
+
+This clearly induces an isomorphism on all homology groups. But there is not even a non-zero chain map in the other direction, since there is no non-zero group homomorphism $\mathbb{Z}/2\mathbb{Z} \to \mathbb{Z}$.
+
+=--
+
+Accordingly, as for [[nLab:homotopy types]] of topological spaces, in [[nLab:homological algebra]] one regards two [[nLab:chain complexes]]
+$C_\bullet$, $D_\bullet$ as essentially equivalent -- "of the same weak homology type" -- if there is a [[zigzag]] of quasi-isomorphisms
+
+$$
+  C_\bullet \leftarrow \to \leftarrow \cdots \to D_\bullet
+$$
+
+between them. This is made precise by the central notion of the _[[nLab:derived category]]_ of chain complexes. We turn to this below in section _[Derived categories and derived functors](#DerivedCategoriesAndDerivedFunctors)_.
+
+
+But quasi-isomorphisms are a little _coarser_ than weak homotopy equivalences. The singular chain functor $C_\bullet(-)$ forgets some of the information in the [[nLab:homotopy types]] of topological spaces. The following series of statements characterizes to some extent what exactly is lost when passing to singular homology, and which information is in fact retained.
+
+First we need a comparison map:
+
++-- {: .num_defn #HurewiczHomomorphism}
+###### Definition
+**(Hurewicz homomorphism)**
+
+For $(X,x)$ a [[nLab:pointed object|pointed]] [[nLab:topological space]], the **Hurewicz homomorphism** is the [[nLab:function]]
+
+$$
+  \Phi : \pi_k(X,x) \to H_k(X)
+$$
+
+from the $k$th [[nLab:homotopy group]] of $(X,x)$ to the $k$th [[nLab:singular homology]] group defined by sending
+
+$$
+  \Phi : (f : S^k \to X)_{\sim} \mapsto f_*[S_k]
+$$
+
+a representative singular $k$-sphere $f$ in $X$ to the push-forward along $f$ of the [[nLab:fundamental class]] $[S_k] \in H_k(S^k)$, example \ref{FundamentalClass}.
+
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+For $X$ a [[nLab:topological space]] the Hurewicz homomorphism in degree 0 exhibits an [[nLab:isomorphism]] between the [[nLab:free abelian group]] $\mathbb{Z}[\pi_0(X)]$ on the set of path [[nLab:connected components]] of $X$ and the degree-0 singular homlogy:
+
+$$
+  \mathbb{Z}[\pi_0(X)]
+   \simeq
+  H_0(X)
+  \,.
+$$
+
+=--
+
+
+Since a [[nLab:homotopy group]] in positive degree depends on the [[nLab:homotopy type]] of the [[nLab:connected component]] of the base point, while the singular homology does not depend on a basepoint, it is interesting to compare these groups only for the case that $X$ is connected.
+
++-- {: .num_prop }
+###### Proposition
+
+For $X$ a [[nLab:path-connected topological space]] the [[nLab:Hurewicz homomorphism]]
+in degree 1
+
+$$
+  \Phi : \pi_1(X,x) \to H_1(X)
+$$
+
+is [[nLab:surjection|surjective]]. Its [[nLab:kernel]] is the [[nLab:commutator subgroup]]
+of $\pi_1(X,x)$. Therefore it induces an [[nLab:isomorphism]] from the [[nLab:abelianization]] $\pi_1(X,x)^{ab} \coloneqq \pi_1(X,x)/[\pi_1,\pi_1]$:
+
+
+$$
+  \pi_1(X,x)^{ab}
+  \stackrel{\simeq}{\to}
+  H_1(X)
+  \,.
+$$
+
+=--
+
+For higher connected $X$ we have the
+
++-- {: .num_theorem}
+###### Theorem
+
+If $X$ is [[nLab:n-connected object in an (infinity,1)-topos|(n-1)-connected]] for $n \geq 2$ then
+
+$$
+  \Phi : \pi_n(X,x) \to H_n(X)
+$$
+
+is an [[nLab:isomorphism]].
+
+=--
+
+This is known as the _[[nLab:Hurewicz theorem]]_.
+
+This gives plenty of motivation for studying
+
+1. [[nLab:chain complexes]]
+
+1. [[nLab:chain homology]]
+
+1. [[nLab:quasi-isomorphism]]
+
+of chain complexes. This is essentially what [[homological algebra]] is about. In the next section we start to develop these notions more systematically.
 
 
 
