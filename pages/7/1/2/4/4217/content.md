@@ -67,6 +67,10 @@ $$ \begin {gathered}
    \frac { \Gamma \vdash q } { \Gamma \vdash p \vee q } \; \text {introduction 1} \\
 \end {gathered} $$
 
+## Related concepts
+
+[[!include logic symbols -- table]]
+
 
 [[!redirects disjunction]]
 [[!redirects logical disjunction]]
