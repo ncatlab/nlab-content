@@ -89,7 +89,7 @@ A striking consequence is that, both in [[nLab:higher geometry]] as well as in [
 
 What, then, _is_ the [[nLab:geometry of physics|geometry of fundamental physics]]?
 
-The right framework to answer questions like this has been _urged_ by [[nLab:Alexander Grothendieck]] already in [Grothendieck 73](functorial+geometry#Grothendieck73) (see [Lawvere 16](https://ncatlab.org/nlab/show/functorial+geometry#Lawvere16Quote)) and has been much expanded on by [[nLab:William Lawvere]] (e.g. [[nLab:Toposes of laws of motion|Lawvere 97]], [[nLab:Some Thoughts on the Future of Category Theory|Lawvere 91]]) and has an evident lift to [[nLab:higher geometry]] ([[nLab:Structured Spaces|Lurie 09]], [S. 13](https://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos)), but has remained somewhat of a "public secret": 
+The right framework to answer questions like this has been _urged_ by [[nLab:Alexander Grothendieck]] already in [Grothendieck 73](functorial+geometry#Grothendieck73) (see [Lawvere 03](functorial+geometry#Lawvere16Quote)) and has been much expanded on by [[nLab:William Lawvere]] (e.g. [[nLab:Toposes of laws of motion|Lawvere 97]], [[nLab:Some Thoughts on the Future of Category Theory|Lawvere 91]]) and has an evident lift to [[nLab:higher geometry]] ([[nLab:Structured Spaces|Lurie 09]], [S. 13](https://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos)), but has remained somewhat of a "public secret": 
 
 The answer is known, alternatively, as ([[nLab:higher geometry|higher]]) _[[nLab:functorial geometry]]_ (Grothendieck) or _[[nLab:synthetic differential geometry]] in [[nLab:gros toposes]]_ (Lawvere), or variants thereof.
 
