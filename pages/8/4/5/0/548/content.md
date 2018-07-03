@@ -361,6 +361,8 @@ For smooth 2-groups, useful examples of the above are smooth refinements of vari
 
   [[smooth 2-group]]
 
+[[!include homotopy n-types - table]]
+
 
 ## References 
  {#References}
