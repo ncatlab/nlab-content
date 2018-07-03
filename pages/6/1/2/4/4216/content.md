@@ -79,6 +79,9 @@ The rules above are written so as to remain valid in logics without the [[exchan
 
 * in [[linear logic]]: _[[multiplicative conjunction]]_
 
+[[!include logic symbols -- table]]
+
+
 [[!redirects and]]
 [[!redirects logical conjunction]]
 [[!redirects logical conjunctions]]
