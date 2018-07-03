@@ -1,4 +1,7 @@
 
+[[GroupActing.jpg:file]]
+<img src="https://ncatlab.org/nlab/files/GroupActing.jpg" width="100">
+
 $$
   \bigcirc\!\!\!\!\!\!\!\!\mathbb{R}^{0\vert 1}
 $$
