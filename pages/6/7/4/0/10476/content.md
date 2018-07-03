@@ -162,6 +162,10 @@ $$
 
 ([Guillou, prop. 3.15](#Guillou))
 
+## Generalizations
+
+Elmendorf's theorem can be generalized to the case when we consider only a family $\mathcal{H}$ of closed subgroups of $G$ rather than all of them; see [Stephan](#Stephan10).
+
 
 ## Related concepts
 
@@ -221,7 +225,8 @@ Some of the categorical aspects of Elmendorf's theorem are examined in
 
 * {#CordierPorter96} [[Jean-Marc Cordier]], [[Timothy Porter]], _Categorical Aspects of Equivariant Homotopy_, Applied Cat.Structures, **4** (1996) 195 - 212. doi:[10.1007/BF00122252](https://doi.org/10.1007/BF00122252) (Proceedings of the European Colloquium of Category Theory, 1994)
 
-
 A recent n-cat café discussion initiated by [[John Huerta]] and probing some of its uses in Mathematical Physics, can be found [here](https://golem.ph.utexas.edu/category/2018/06/elmendorfs_theorem.html#more).
+
+* {#Stephan10} Marc Stephan, *Elmendorf’s Theorem via Model Categories*, [pdf](http://web.math.ku.dk/~jg/students/stephan.msproject.2010.pdf), 2010
 
 [[!redirects Elmendorf theorem]]
