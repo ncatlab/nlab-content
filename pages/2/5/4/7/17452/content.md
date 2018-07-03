@@ -72,7 +72,9 @@ In linear logic, these two sets of rules are no longer equivalent: additivity an
 
 In particular, note that the traditional argument for [[ex contradictione quodlibet]] depends fundamentally on having a single disjunction that obeys both additivity and the disjunctive syllogism.  (More simply, linear logic also distinguishes between the additive [[falsity]] --- the unit for the additive disjunction --- which satisfies [[ex falso quodlibet]], and the multiplicative falsity --- the unit for the multiplicative disjunction --- which doesn't.)  Thus, one might expect linear logic to be a [[paraconsistent logic]], and indeed it is (in an appropriate sense).  
 
+## Related concepts
 
+[[!include logic symbols -- table]]
 
 [[!redirects multiplicative disjunction]]
 [[!redirects multiplicative disjunctions]]
