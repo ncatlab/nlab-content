@@ -51,9 +51,16 @@ This matches the [[intuitionistic mathematics|intuitionistic]] notion of negatio
 
 ## Related entries
 
+* [[double negation]]
+
 * [[complement]]
+
 * [[co-Heyting negation]]
+
 * [[adjoint cylinder]]
+
+
+[[!include logic symbols -- table]]
 
 
 ## References
