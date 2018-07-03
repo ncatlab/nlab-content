@@ -446,7 +446,7 @@ Obviously these actions are free. Moreover, it is also not hard to see that $\sq
 
 ##### Composition
 
-Given a bibundle functor $E: G\to H$ and a bibundle functor $F: H\to K$ between Lie groupoids, the composition $E\circ F: G\to K$ is the quotient manifold $E\times_{H_0} F/H_1$ equipped by remained $G$ and $K$ action. Here $H$ acts on $E\times_{H_0} F$ from right by $(x, y)\cdot h_1=(x\cdot h_1^{-1}, y \cdot h_1)$. It is free and proper because the right action of $H$  on $E$ is so. Then $G$ action and $K$ action descend to the quotient $E\times_{H_0} F/H_1$. Moreover, those who free and proper is (are), remains so. 
+Given a bibundle functor $E: G\to H$ and a bibundle functor $F: H\to K$ between Lie groupoids, the composition $E\circ F: G\to K$ is the quotient manifold $E\times_{H_0} F/H_1$ equipped with the remaining $G$ and $K$ action. Here $H$ acts on $E\times_{H_0} F$ from right by $(x, y)\cdot h_1=(x\cdot h_1^{-1}, y \cdot h_1)$. It is free and proper because the right action of $H$  on $E$ is so. Then $G$ action and $K$ action descend to the quotient $E\times_{H_0} F/H_1$. Moreover, those who free and proper is (are), remains so. 
 
 Thus bibundle functors compose to a bibundle functor, and Morita bibundles compose to a Morita bibundle.
 
@@ -729,44 +729,44 @@ and this identification makes $N$ into a $C^\ast(\mathcal{G}_\bullet)-C^\ast(\ma
 
 Groupoid bibundles were first considered for [[foliation groupoids]] in 
 
-* [[Michel Hilsum]] and [[Georges Skandalis]], _Morphismes K-orientes d'espaces de feuilles et functorialite en theorie de Kasparov_. Ann. Scient. Ec. Norm. Sup. 20 (1987), 325&#8211;390. ([numdam](http://www.numdam.org/item?id=ASENS_1987_4_20_3_325_0))
- {#HilsumSkandalis}
+* {#HilsumSkandalis} [[Michel Hilsum]] and [[Georges Skandalis]], _Morphismes K-orientes d'espaces de feuilles et functorialite en theorie de Kasparov_. Ann. Scient. Ec. Norm. Sup. 20 (1987), 325&#8211;390. ([numdam](http://www.numdam.org/item?id=ASENS_1987_4_20_3_325_0))
+ 
 
 The generalization to arbitrary [[topological groupoids]] was considered in
 
-* [[André Haefliger]], _Groupo&#239;des d'holonomie et classifiants_, Ast&#233;risque 116 (1984), 70&#8211;97.
- {#Haefliger84}
+* {#Haefliger84} [[André Haefliger]], _Groupo&#239;des d'holonomie et classifiants_, Ast&#233;risque 116 (1984), 70&#8211;97.
+ 
 
-* [[Jean Pradines]], _Morphisms between spaces of leaves viewed as fractions_. Cahiers Top. G&#233;om. Diff. Cat. XXX-3 (1989), 229&#8211;246
- {#Pradines89}
+* {#Pradines89} [[Jean Pradines]], _Morphisms between spaces of leaves viewed as fractions_. Cahiers Top. G&#233;om. Diff. Cat. XXX-3 (1989), 229&#8211;246
+ 
 
-* M. Hilsum and [[Georges Skandalis]], _Morphismes K-orientes d'espaces de feuilles et functorialite en theorie de Kasparov_. Ann. Scient. Ec. Norm. Sup. 20 (1987), 325&#8211;390.
- {#HilsumSkandalis87b}
+* {#HilsumSkandalis87b} M. Hilsum and [[Georges Skandalis]], _Morphismes K-orientes d'espaces de feuilles et functorialite en theorie de Kasparov_. Ann. Scient. Ec. Norm. Sup. 20 (1987), 325&#8211;390.
+ 
 
 and independently in [[topos theory]] in
 
-* [[Marta Bunge]], _An application of descent to a classification theorem. Math. Proc. Cambridge Phil. Soc. 107 (1990), 59&#8211;79.
- {#Bunge90}
+* {#Bunge90} [[Marta Bunge]], _An application of descent to a classification theorem. Math. Proc. Cambridge Phil. Soc. 107 (1990), 59&#8211;79.
+ 
 
-* [[Ieke Moerdijk]], _Classifying toposes and foliations_. Ann. Inst. Fourier, Grenoble 41, 1 (1991), 189&#8211;209.
- {#Moerdijk91}
+* {#Moerdijk91} [[Ieke Moerdijk]], _Classifying toposes and foliations_. Ann. Inst. Fourier, Grenoble 41, 1 (1991), 189&#8211;209.
+ 
 
 Groupoid bibundles are used in the context of [[groupoid convolution algebras]] as geometric analogs of [[bimodules]] in 
 
-* [[Paul Muhly]], [[Jean Renault]], and D. Williams, _Equivalence and isomorphism for groupoid C&#8727;-algebras_, J. Operator Th. 17 (1987), 3&#8211;22.
- {#MuhlyRenaultWilliams}
+* {#MuhlyRenaultWilliams} [[Paul Muhly]], [[Jean Renault]], and D. Williams, _Equivalence and isomorphism for groupoid C&#8727;-algebras_, J. Operator Th. 17 (1987), 3&#8211;22.
+ 
 
 * [[Klaas Landsman]], _The Muhly-Renault-Williams theorem for Lie groupoids and its classical counterpart_, Lett. Math. Phys. 54 (2000), no. 1, 43&#8211;59. ([arXiv:math-ph/0008005](http://arxiv.org/abs/math-ph/0008005))
  {#Landsman}
  {#Landsman00}
 
-* [[Janez Mr?un]], _Stability and invariants of Hilsum-Skandalis maps_ ([arXiv:math/0506484](http://arxiv.org/abs/math/0506484))
- {#Mrcun05}
+* {#Mrcun05} [[Janez Mrcun]], _Stability and invariants of Hilsum-Skandalis maps_ ([arXiv:math/0506484](http://arxiv.org/abs/math/0506484))
+ 
 
 A review of [[Lie groupoid]]-bibundles and maps of [[differentiable stacks]] is in section 2 of 
 
-* [[Christian Blohmann]], _Stacky Lie groups_, Int. Mat. Res. Not. (2008) Vol. 2008: article ID rnn082 ([arXiv:math/0702399](http://arxiv.org/abs/math/0702399))
- {#Blohmann}
+* {#Blohmann} [[Christian Blohmann]], _Stacky Lie groups_, Int. Mat. Res. Not. (2008) Vol. 2008: article ID rnn082 ([arXiv:math/0702399](http://arxiv.org/abs/math/0702399))
+ 
 
 Discussion of [[Lie group cohomology]] and the [[string 2-group]] [[infinity-group extension]] in terms of Lie groupoid bibundles is in
 
@@ -787,8 +787,8 @@ See also
 
 For groupoid bibundles between [[étale Lie groupoids]] the assignment of the [[groupoid convolution algebra]]-[[bimodule]] to them is shown to be [[functor|functorial]] in 
 
-* [[Janez Mr?un]], _Functoriality of the bimodule associated to a Hilsum-Skandalis map_. K-Theory 18 (1999) 235&#8211;253.
- {#Mrcun99}
+* {#Mrcun99} [[Janez Mrcun]], _Functoriality of the bimodule associated to a Hilsum-Skandalis map_. K-Theory 18 (1999) 235&#8211;253.
+ 
 
 For more references along these lines see for the moment at [groupoid convolution algebra -- Extension to bibundles and bimodules](http://ncatlab.org/nlab/show/category+algebra#ExtensionToBibundlesAndBimodules)
 
