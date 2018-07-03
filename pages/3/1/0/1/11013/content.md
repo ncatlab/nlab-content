@@ -5,7 +5,11 @@ This page collects links related to the text
 
   _Adjointness in Foundations_, 
 
-  ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
+  Dialectica 23 (1969), 281-296, 
+
+  Reprints in Theory and Applications of Categories, No. 16 (2006), pp 1-16 (revised 2006-10-30)
+
+  ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html))
 
 on [[foundations of mathematics]] in [[categorical logic]] and the role of [[adjoints]] in the formalization of [[quantifiers]] ([[base change]]). The main point is that the logical operations on [[propositions]]
 
