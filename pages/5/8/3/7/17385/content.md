@@ -82,7 +82,8 @@ in learning the subject rather then only the goals and supposed content matter. 
 * Ralph A. Raimi, [Whatever Happened to the New Math?](http://www.math.rochester.edu/people/faculty/rarm/smsg.html)
 * [[Richard Askey]], _Good intentions are not enough_, [pdf](http://www.math.wisc.edu/~askey/ask-gian.pdf)
 * Mariya Boyko, _The "New Math" Movement in the U.S. vs Kolmogorov's Math Curriculum Reform in the U.S.S.R._, [html](https://mariyaboyko12.wordpress.com/2013/08/03/the-new-math-movement-in-the-u-s-vs-kolmogorovs-math-curriculum-reform-in-the-u-s-s-r)
-* R. Balian, A. Connes, Bismut, Lafforgue, Serre, [pdf](https://www.laurentlafforgue.org/textes/SavoirsFondamentaux.pdf) about state of scientific part of education in France
+* R. Balian, A. Connes, Bismut, Lafforgue, Serre, _Les savoirs fondamentaux
+au service de l'avenir scientifique et technique_, [pdf](https://www.laurentlafforgue.org/textes/SavoirsFondamentaux.pdf), a text lamenting the current state of the scientific part of education in France
 
 
 ### Other references
