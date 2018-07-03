@@ -13,6 +13,7 @@
 | $\phantom{A}$$\Leftrightarrow$ | $\phantom{A}$[[logical equivalence]] | 
 | $\phantom{A}$$\not$ | $\phantom{A}$[[negation]] |
 | $\phantom{A}$$\neq$ | $\phantom{A}$[[negation]] of [[equality]]$\phantom{A}$ |
+| $\phantom{A}$$\notin$ | $\phantom{A}$[[negation]] of [[element]] [[relation]] $\phantom{A}$ |
 | $\phantom{A}$$\exists$ | $\phantom{A}$[[existential quantification]]$\phantom{A}$ |  
 | $\phantom{A}$$\forall$ | $\phantom{A}$[[universal quantification]]$\phantom{A}$ |  
 | $\phantom{A}$$\wedge$ | $\phantom{A}$[[logical conjunction]] | 
