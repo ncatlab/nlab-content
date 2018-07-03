@@ -93,6 +93,9 @@ In [Lowe10](#Lowe10) and [Lowe12](#Lowe12) a yet more general construction is co
 * Michael L&#246;we, *Refined graph rewriting in Span-categories*, 2012, [springerlink](https://link.springer.com/chapter/10.1007/978-3-642-33654-6_8)
  {#Lowe12}
 
+* Nicolas Behr, Pawel Sobocinski, *Rule Algebras for Adhesive Categories*, [arXiv:1807.00785](https://arxiv.org/abs/1807.00785)
+
+
 
 [[!redirects graph rewriting]]
 [[!redirects double pushout graph rewriting]]
