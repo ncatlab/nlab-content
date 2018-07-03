@@ -607,13 +607,13 @@ Conversely, it makes sense to _define_ [[structured sets]] in general to be the 
 ###### Example
 **([[spaces]] seen via their [[algebras of functions]])**
 
-In any given context of [[geometry]], there is typically a [[functor]] which sends any [[space]] of the given kind to its [[algebra of functions]], and which sends an map (i.e. [[homomorphism]]) between the given spaces to the algebra [[homomorphism]] given by precomposition with that map. Schematically:
+In any given context of [[geometry]], there is typically a [[functor]] which sends any [[space]] of the given kind to its [[algebra of functions]], and which sends a map (i.e. [[homomorphism]]) between the given spaces to the algebra [[homomorphism]] given by precomposition with that map (a [[hom-functor]], Def. \ref{HomFunctor}). Schematically:
 
 $$
   \array{
-    \left\{
+    \big\{
       \text{geometric spaces}
-    \right\}
+    \big\}
     &
     \overset{
       \text{algebra of functions}
@@ -621,9 +621,9 @@ $$
       \longrightarrow
     }
     &
-    \left\{
+    \big\{
       \text{algebras}
-    \right\}^{op}
+    \big\}^{op}
     \\
     \\
     X_1 &\mapsto& FunctionsOn(X_1)
@@ -1132,7 +1132,7 @@ is hence called the _[[category of presheaves]]_ over $\mathcal{C}$.
 ###### Example
 **([[representable presheaves]])**
 
-Given a [[category]] $\mathcal{C}$ (Def. \ref{Categories}), the [[hom-functor]] (Example \ref{HomFunctor}) gives the following [[functor]] (Def. \ref{Functors}) from $\mathcal{C}$ to its [[category of presheaves]] (Def. \ref{CategoryOfPresheaves}):
+Given a [[category]] $\mathcal{C}$ (Def. \ref{Categories}), the [[hom-functor]] (Example \ref{HomFunctor}) induces the following [[functor]] (Def. \ref{Functors}) from $\mathcal{C}$ to its [[category of presheaves]] (Def. \ref{CategoryOfPresheaves}):
 
 \[
   \label{YonedaFunctor}
