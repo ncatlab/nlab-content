@@ -199,6 +199,8 @@ The notion of sequent was introduced in section 2.3 of ([Gentzen 1935](#Gentzen)
 
 * [[cut rule]]
 
+[[!include logic symbols -- table]]
+
 ## References
 
 In section 2.3
