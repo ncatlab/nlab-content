@@ -47,9 +47,12 @@ _Bull. London Math. Soc._ **38** (2006), no. 1, 1&#8211;33.  [MR2201600](http://
 * Terry Gannon, _Moonshine beyond the Monster: The Bridge Connecting Algebra, Modular Forms and Physics_, Cambridge Monographs on Mathematical Physics, Cambridge University Press, Cambridge, Massachusetts 2006. [MR2257727](http://www.ams.org/mathscinet-getitem?mr=2257727)
 * Koichiro Harada, _"Moonshine" of finite groups_.
 EMS Series of Lectures in Mathematics. European Mathematical Society (EMS), Z&#252;rich, 2010. viii+76 pp. [MR2722318](http://www.ams.org/mathscinet-getitem?mr=2722318)
+
 * Griess, Robert L., Jr.; Lam, Ching Hung "A moonshine path from E8 to the Monster." _J. Pure Appl. Algebra_ 215 (2011), no. 5, 927&#8211;948 [MR2747229](http://www.ams.org/mathscinet-getitem?mr=2747229) [arXiv:0910.2057v2](http://arxiv.org/abs/0910.2057v2) [math.GR]
+
 * Jae-Hyun Yang "Kac-Moody algebras, the Monstrous Moonshine, Jacobi forms and infinite products." _Number theory, geometry and related topics_ (Iksan City, 1995), 13&#8211;82, Pyungsan Inst. Math. Sci., Seoul, 1996. [MR1404967](http://www.ams.org/mathscinet-getitem?mr=1404967) [arXiv:math/0612474v2](http://arxiv.org/abs/math/0612474) [math.NT]
 
+* Vassilis Anagiannis, Miranda C. N. Cheng, _TASI Lectures on Moonshine_ ([arXiv:1807.00723](https://arxiv.org/abs/1807.00723))
 
 ### Historical References 
 
