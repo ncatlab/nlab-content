@@ -118,6 +118,8 @@ By contrast, in a [[definitional set theory]], an equality relation is *structur
 
 * [[equivalence of (∞,1)-categories]]
 
+[[!include logic symbols -- table]]
+
 
 ## References
 
