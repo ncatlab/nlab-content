@@ -115,7 +115,7 @@ The following monograph is in progress (and as of early 2016, recently completed
 
 Videos from a seminar at the Newton Institute:
 
-* Newton Instititute Programme Jan-April 2013: Grothendieck-Teichm&#252;ller Groups, Deformation and Operads, [seminars](http://www.newton.ac.uk/programmes/GDO/seminars/index.html) (some with videos)
+* Newton Instititute Programme Jan-April 2013: Grothendieck-Teichm&#252;ller Groups, Deformation and Operads, [seminars](https://www.newton.ac.uk/event/gdo/seminars) (some with videos)
 
 
 ## References
