@@ -36,7 +36,7 @@ One may argue that [[category theory]] and [[type theory]] serve as formalizatio
 ## Formalization in category theory and type theory
  {#FormalizationInCategoryTheoryAndTypeTheory}
 
-Since in a [[category]], the nature of any [[object]] is determined only by the system of  _[[morphisms]]_ which relate this object to the other objects of the category, and not by how the object itself is presented (if it is at all), it may be argued that [[category theory]] provides a formalization of philosophical structuralism, at least in the [[philosophy of mathematics]] ([Awodey 96](#Awodey96), [Awodey 03](#Awodey03)). [Yuri Manin]] says (citation?) that category theory regards objects as part of a "society". (See also at _[[objective logic]]_ for more on categorical logic and philosophical notions.)
+Since in a [[category]], the nature of any [[object]] is determined only by the system of  _[[morphisms]]_ which relate this object to the other objects of the category, and not by how the object itself is presented (if it is at all), it may be argued that [[category theory]] provides a formalization of philosophical structuralism, at least in the [[philosophy of mathematics]] ([Awodey 96](#Awodey96), [Awodey 03](#Awodey03)). [[Yuri Manin]] says (citation?) that category theory regards objects as part of a "society". (See also at _[[objective logic]]_ for more on categorical logic and philosophical notions.)
 
 Notice that the terminology _[[morphism]]_ of course originates in _[[homomorphism]]_, since the morphisms in a category of [[mathematical structures]] (such as [[groups]], [[modules]], etc.) are precisely the maps of the underlying [[sets]] that preserve this structure.
 
@@ -59,11 +59,9 @@ Notably in [[homotopy type theory]] with [[univalence]], which is the [[internal
 
 ## References
 
-* wikipedia [structuralism](http://en.wikipedia.org/wiki/Structuralism)
+* {#Awodey96} [[Steve Awodey]], _Structure in mathematics and logic: a categorical perspective_, Philosophia Mathematica (3), vol. 4,  p. 209-237, 1996 ([doi:10.1093/philmat/4.3.209](https://doi.org/10.1093/philmat/4.3.209))
 
-* {#Awodey96} [[Steve Awodey]], _Structure in mathematics and logic: a categorical perspective_, Philosophia Mathematica (3), vol. 4,  p. 209-237 (1996)
-
-* {#Awodey03} [[Steve Awodey]], _An Answer to Hellman's Question: "Does Category Theory Provide a Foundation for Mathematical Structuralism?_, 2003 ([pdf](http://www.andrew.cmu.edu/user/awodey/preprints/awodeyVhellman.pdf))
+* {#Awodey03} [[Steve Awodey]], _An Answer to Hellman's Question: "Does Category Theory Provide a Foundation for Mathematical Structuralism?"_, 2003 ([pdf](http://www.andrew.cmu.edu/user/awodey/preprints/awodeyVhellman.pdf), [doi:10.1093/philmat/12.1.54](https://doi.org/10.1093/philmat/12.1.54))
 
 * {#MacLarty04} [[Colin McLarty]], 2004, _Exploring Categorical Structuralism_, Philosophia Mathematica, 12, 37&#8211;53 ([pdf](http://www.cwru.edu/artsci/phil/PMExploring.pdf))
  
@@ -72,5 +70,10 @@ Notably in [[homotopy type theory]] with [[univalence]], which is the [[internal
 * {#Awodey15} [[Steve Awodey]], _Structuralism, Invariance and Univalence_, 2014 ([pdf](https://www.andrew.cmu.edu/user/awodey/preprints/siu.pdf))
 
 * {#Corfield15} [[David Corfield]], _Expressing 'The Structure of' in Homotopy Type Theory_, 2015 ([pdf](https://dl.dropboxusercontent.com/u/16936016/The_Structure.pdf))
+
+See also
+
+* Wikipedia, _[Structuralism](http://en.wikipedia.org/wiki/Structuralism)_
+
 
 category: philosophy
