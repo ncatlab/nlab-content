@@ -7,15 +7,19 @@
 =--
 =--
 =--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+##Idea 
+
 **$\infty Grpd$** is the [[(∞,1)-category]] of [[∞-groupoid]]s, i.e. of [[(∞,0)-categories]].
 
 It is the full [[sub-quasi-category|subcategory]] of [[(∞,1)Cat]] on those [[(∞,1)-categories]] that are [[∞-groupoid]]s.
 
 It is also the archetypical [[(∞,1)-topos]].
-
-#Contents#
-* table of contents
-{:toc}
 
 ## Incarnations
 
@@ -95,7 +99,7 @@ The statement for the colimit is corollary 3.3.4.6 in [[Higher Topos Theory|HTT]
 
 ##Subcategories
 
-The [[n-truncated object of an (infinity,1)-category|n-truncated objects]] of $\infty Grpd$ are the [[n-groupoid]]s. (including [[(-1)-groupoid]]s and the [[(-2)-groupoid]]).
+The [[n-truncated object of an (infinity,1)-category|n-truncated objects]] of $\infty Grpd$ are the [[n-groupoid]]s (including [[(-1)-groupoid]]s and the [[(-2)-groupoid]]).
 
 ## Related categories
 
@@ -110,11 +114,11 @@ The [[n-truncated object of an (infinity,1)-category|n-truncated objects]] of $\
 category: category
 
 [[!redirects ∞Grpd]]
-[[!redirects ? Grpd]]
+[[!redirects ∞ Grpd]]
 [[!redirects ∞-Grpd]]
 [[!redirects infinity-Grpd]]
-[[!redirects ?Gpd]]
-[[!redirects ? Gpd]]
+[[!redirects ∞Gpd]]
+[[!redirects ∞ Gpd]]
 [[!redirects ∞-Gpd]]
 [[!redirects infinity-Gpd]]
 [[!redirects Infinity-Gpd]]
