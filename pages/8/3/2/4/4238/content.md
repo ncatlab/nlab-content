@@ -258,7 +258,7 @@ formalizing at least aspects of the observations in
 * {#Witten92} [[Edward Witten]], _Chern-Simons Gauge Theory As A String Theory_ ([arXiv:hep-th/9207094](http://arxiv.org/abs/hep-th/9207094))
  
 
-* P.A. Grassi, G. Policastro, _Super-Chern-Simons Theory as Superstring Theory_ ([arXiv:hep-th/0412272](http://arxiv.org/abs/hep-th/0412272))
+* P.A. Grassi, [[Giuseppe Policastro]], _Super-Chern-Simons Theory as Superstring Theory_ ([arXiv:hep-th/0412272](http://arxiv.org/abs/hep-th/0412272))
 
 Discussion of how the [[second quantization]] of the [[B-model]] yields [[Kodeira-Spencer gravity]]/[[BCOV theory]] is in 
 
