@@ -2709,6 +2709,7 @@ $$
 
 +-- {: .num_defn #QuillenEquivalence}
 ###### Definition
+**([[Quillen equivalence]])**
 
 For $\mathcal{C}, \mathcal{D}$ two [[model categories]],  a [[Quillen adjunction]] (def.\ref{QuillenAdjunction})
 
