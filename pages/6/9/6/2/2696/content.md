@@ -40,7 +40,7 @@ Using the [[homotopy hypothesis]]-theorem this may be reformulated:
 +-- {: .num_cor }
 ###### Corollary
 
-In the [[(∞,1)-category]] [[? Grpd]] every [[weak homotopy equivalence]] is a [[homotopy equivalence]].
+In the [[(∞,1)-category]] [[∞Grpd]] every [[weak homotopy equivalence]] is a [[homotopy equivalence]].
 
 =--
 
