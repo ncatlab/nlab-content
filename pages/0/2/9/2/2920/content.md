@@ -85,7 +85,7 @@ It follows directly that
 
 =--
 
-and a very special one: the category $C^\circ$ _modeled_ by a model category $C$ is its [[full subcategory]] on fibrant-cofibrant objects. Under left Bousfield localization the fibrant-cofibrant objects of $C_{loc}$ are a subcollection of those of $C$, so that we have the full subcategory
+and a very special one: With $C^\circ$ the [[full subcategory]] on fibrant-cofibrant objects, under left Bousfield localization the fibrant-cofibrant objects of $C_{loc}$ are a subcollection of those of $C$, so that we have the full subcategory
 
 $$
   (C_{loc})^\circ \subset C^\circ
@@ -96,7 +96,7 @@ Moreover, as we shall see, every object in $C$ is weakly equivalent in $C_{loc}$
 
 +-- {: .standout}
 
-Bousfield localization is a model category version of reflecting onto a [[reflective subcategory]].
+Bousfield localization is a model category version of _reflection onto [[local objects]]_, in the sense discussed at _[[reflective localization]]_.
 
 =--
 
@@ -970,7 +970,7 @@ If $C$ is a
 
 * [[combinatorial model category]]
 
-* and $S \subset Mor(C)$ is a small [[set]] of morphisms,
+* and $S \subset Mor(C)$ is a [[small set]] of morphisms,
 
 then the left Bousfield localization $L_S C$ does exist as a [[combinatorial model category]].
 
