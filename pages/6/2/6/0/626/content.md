@@ -180,6 +180,10 @@ For [[closed monoidal categories]] in
 * Francois Lamarche, *Proof Nets for Intuitionistic Linear Logic: Essential nets*, 2008 [pdf](http://hal.inria.fr/docs/00/34/73/36/PDF/prfnet1.pdf)
  {#Lamarche08}
 
+For [[biclosed monoidal categories]] in
+
+* [[Bob Coecke]], Edward Grefenstette, and [[Mehrnoosh Sadrzadeh]], *Lambek vs. Lambek: Functorial vector space semantics and string diagrams for Lambek calculus*, 2013 [link](https://www.sciencedirect.com/science/article/pii/S0168007213000626)
+
 For [[linearly distributive categories]] in 
 
 * [[Richard Blute]] and [[Robin Cockett]] and [[R.A.G. Seely]] and [[Todd Trimble]], *Natural deduction and coherence for weakly distributive categories.
