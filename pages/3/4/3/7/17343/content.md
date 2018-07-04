@@ -10111,7 +10111,7 @@ Let $\mathcal{C}$ be a model category and let $f \colon X \to Y$ be morphism in 
 
    where each morphism is the [[homotopy fiber]] (def. \ref{HomotopyFiber}) of the following one: the **[[homotopy fiber sequence]]** of $f$. Here $\overline{\Omega}f$ denotes $\Omega f$ followed by forming inverses with respect to the group structure on $\Omega(-)$ from prop. \ref{LoopingAsFunctorOnHomotopyCategory}.
 
-Moreover, for $A\in \mathcal{C}^{\ast/}$ any object, then there is a [[long exact sequence]]
+   Moreover, for $A\in \mathcal{C}^{\ast/}$ any object, then there is a [[long exact sequence]]
 
    $$
      \cdots
