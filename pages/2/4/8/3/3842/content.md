@@ -46,7 +46,7 @@ An object in this category is a [[presheaf]]. See there for more details.
     [-,Set] : Cat \to Topos
   $$
 
-  from the [[2-category]] [[Cat]] to the [[2-category]] [[Topos]]. (See at [[geometric morphism]] the section _<a href="http://nlab.mathforge.org/nlab/show/geometric+morphism#BetweenPresheafToposes">Between presheaf toposes</a>_ for details).
+  from the [[2-category]] [[Cat]] to the [[2-category]] [[Topos]]. (See at [[geometric morphism]] the section [Between presheaf toposes](geometric+morphism#BetweenPresheafToposes) for details.)
 
 * A [[reflective subcategory]] of a category of presheaves is a [[locally presentable category]] if it is closed under $\kappa$-[[directed colimit]]s for some [[regular cardinal]] $\kappa$ (the embedding is an [[accessible functor]]).
 
