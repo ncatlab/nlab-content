@@ -260,9 +260,9 @@ Also the key respect of [[hom-functors]] for [[limits]] is inherited by [[intern
 Let $\mathcal{C}$ be a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] with [[internal hom]]-[[bifunctor]] $[-,-]$ (Prop. \ref{InternalHomBifunctor}). Then this bifunctor preserves [[limits]] in the second variable, and sends colimits in the first variable to limits:
 
 $$
-  [X, \underset{\underset{j \in \mathcal{J}}{\longrightarrow}}{\lim} Y(j)]
+  [X, \underset{\underset{j \in \mathcal{J}}{\longleftarrow}}{\lim} Y(j)]
   \;\simeq\;
-  \underset{\underset{j \in \mathcal{J}}{\longrightarrow}}{\lim} [X, Y(j)]
+  \underset{\underset{j \in \mathcal{J}}{\longleftarrow}}{\lim} [X, Y(j)]
 $$
 
 and
