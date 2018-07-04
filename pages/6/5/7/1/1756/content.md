@@ -194,6 +194,7 @@ The following proposition states conditions under which a Quillen adjunction may
 
 +-- {: .num_prop #RecognitionOfSimplicialQuillenAdjunctions}
 ###### Proposition
+**(recognition of [[simplicial Quillen adjunctions]])**
 
 If $C$ and $D$ are [[simplicial model categories]] and $D$ is a left [[proper model category]], then an [[sSet]]-enriched adjunction
 
