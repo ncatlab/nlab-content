@@ -1,6 +1,6 @@
 
 
-> This entry contains one chapter of _[[geometry of physics]]_, see there for context and background.
+> This entry is one chapter of _[[geometry of physics]]_.
 
 > previous chapter: _[[geometry of physics -- categories and toposes|categories and toposes]]_,
 
@@ -113,7 +113,7 @@ Until then, abstract homotopy theory has to be formulated on top of the traditio
 
 A very convenient and powerful such emulator for homotopy theory within set theory is _[[model categories|model category theory]]_, originally due to [Quillen 67](#Quillen67) and highly developed since. This we introduce here. 
 
-The idea is to consider ordinary [[categories]] ([this Def.](geometry+of+physics+--+categories+and+toposes#Categories)) but with the understanding that some of its [[morphisms]] 
+The idea is to consider ordinary [[categories]] ([this Def.](geometry+of+physics+--+categories+and+toposes#Categories)) but with the understanding that some of their [[morphisms]] 
 
 $$
   X 
@@ -121,7 +121,7 @@ $$
   Y
 $$
 
-should be, or would be, _[[homotopy equivalences]]_ (Def. \ref{HomotopyEquivalence}), namely similar to [[isomorphisms]] (Def. \ref{geometry+of+physics+--+categories+and+toposes#Isomorphism}), but satisfying the two [[equations]] defining an actual isomorphism 
+should be _[[homotopy equivalences]]_ (Def. \ref{HomotopyEquivalence}), namely similar to [[isomorphisms]] ([this Def.](geometry+of+physics+--+categories+and+toposes#Isomorphism)), but not necessarily satisfying the two [[equations]] defining an actual isomorphism 
 
 $$
   f^{-1} \circ f \;=\; id_{X}
@@ -129,24 +129,25 @@ $$
   f \circ f^{-1} \;=\; id_Y
 $$ 
 
-only with [[equality]] relaxed to [[gauge transformation]]/[[homotopy]]
+but intended to satisfy this only with [[equality]] relaxed to [[gauge transformation]]/[[homotopy]]:
 
-$$
+\[
+  \label{HomotopyEquivalenceCondition}
   f^{-1} \circ f \;\overset{gauge}{\Rightarrow}\; id_{X}
   \phantom{AAAA}
   f \circ f^{-1} \;\overset{gauge}{\Rightarrow}\; id_Y
   \,.
-$$ 
+\] 
 
 Such _would-be homotopy equivalences_ are called _[[weak equivalences]]_ (Def. \ref{CategoryWithWeakEquivalences} below). 
 
 In principle, this information already defines a [[homotopy theory]] by a construction called _[[simplicial localization]]_, which turns [[weak equivalences]] into actual [[homotopy equivalences]] in a suitable way (Remark \ref{SimplicialLocalizationOutlook} below). 
 
-However, without further tools this construction is very unwieldy. The extra structure of a _[[model category]]_ (Def. \ref{ModelCategory} below) on top of a [[category with weak equivalences]] provides the missing tools in an elegant way.
+However, without further tools this construction is very unwieldy. The extra structure of a _[[model category]]_ (Def. \ref{ModelCategory} below) on top of a [[category with weak equivalences]] provides a set of tools.
 
-The idea here is to abstract (in Def. \ref{LeftAndRightHomotopyInAModelCategory} below) from the evident concepts in [[topological homotopy theory]] of _[[left homotopy]]_ (Def. \ref{LeftHomotopy}) and _[[right homotopy]]_ (Def. \ref{RightHomotopy}) between [[continuous functions]]: These are provided by continuous functions out of a [[cylinder|cylinder space]] $Cyl(X)  = X \times [0,1]$ or into a [[path path]] $Path(X) = X^{[0,1]}$, respectively, where in both cases the [[interval|interval space]] $[0,1]$ serves to parameterize the relevant [[gauge transformation]]/[[homotopy]].
+The idea here is to abstract (in Def. \ref{LeftAndRightHomotopyInAModelCategory} below) from the evident concepts in [[topological homotopy theory]] of _[[left homotopy]]_ (Def. \ref{LeftHomotopy}) and _[[right homotopy]]_ (Def. \ref{RightHomotopy}) between [[continuous functions]]: These are provided by continuous functions out of a [[cylinder|cylinder space]] $Cyl(X)  = X \times [0,1]$ or into a [[path space]] $Path(X) = X^{[0,1]}$, respectively, where in both cases the [[interval|interval space]] $[0,1]$ serves to parameterize the relevant [[gauge transformation]]/[[homotopy]].
 
-Now a little reflection shows that what really matters in this construction of [[homotopies]] in [[topological homotopy theory]] is that the [[path space]] factors the [[diagonal morphism]] from a space $X$ to its [[Cartesian product]] as
+Now a little reflection shows (this was the seminal insight of [Quillen 67](#Quillen67)) that what really matters in this construction of homotopies is that the [[path space]] factors the [[diagonal morphism]] from a space $X$ to its [[Cartesian product]] as
 
 $$
   diag_X 
@@ -170,6 +171,13 @@ $$
   X
 $$
 
+where in both cases "[[fibration]]" means something like _well behaved [[surjection]]_, while "[[cofibration]]" means something like _satisfying the [[lifting property]] (Def. \ref{LiftingAndExtension} below) against fibrations that are also weak equivalences_.
+
+Such factorizations subject to lifting properties is what the definition of _[[model category]]_ axiomatizes, in some generality. That this indeed provides a good toolbox for handling [[homotopy equivalences]] is shown by the _[[Whitehead theorem]] in [[model categories]]_ (Lemma \ref{WhiteheadTheoremInModelCategories} below), which exhibits all [[weak equivalences]] as actual [[homotopy equivalences]] after passage to "good representatives" of objects (fibrant/cofibrant [[resolutions]], Def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} below). Accordingly, the first theorem of model category theory ([Quillen 67, I.1 theorem 1](#Quillen67), reproduced as Theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory} below), provides a tractable expression for the [[hom-sets]] modulo [[homotopy equivalence]] of the underlying [[category with weak equivalences]] in terms of actual morphisms out of [[cofibrant resolutions]] into [[fibrant resolutions]] (Lemma \ref{HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory} below).
+
+This is then generally how [[model category]]-theory serves as a model for [[homotopy theory]]: All homotopy-theoretic constructions, such as that of [[long homotopy fiber sequences]] (Prop. \ref{LongFiberSequence} below), are reflected via constructions of ordinary [[category theory]] but applied to suitably [[resolution|resolved objects]].
+
+$\,$
 
 
 **Literature** ([Dwyer-Spalinski 95](#DwyerSpalinski95))
@@ -261,6 +269,7 @@ We now dicuss the concept of [[weak factorization systems]] appearing in def. \r
 
 +-- {: .num_defn #LiftingAndExtension}
 ###### Definition
+**([[lift]] and [[extension]])**
 
 Let $\mathcal{C}$ be any [[category]].
 Given a [[diagram]] in $\mathcal{C}$ of the form
@@ -400,7 +409,7 @@ By precomposition, this induces [[functors]] $d_i  \colon \mathcal{C}^{\Delta[2]
 +-- {: .num_defn #FunctorialWeakFactorizationSystem}
 ###### Definition
 
-A weak factorization system, def. \ref{WeakFactorizationSystem}, is called a **functorial weak factorization system** if the factorization of morphisms may be chosen to be a [[functorial factorization]] $fact$, def. \ref{FunctorialFactorization}, i.e. such that $d_2 \circ fact$ lands in $Proj$ and $d_0\circ fact$ in $Inj$.
+A [[weak factorization system]], def. \ref{WeakFactorizationSystem}, is called a **functorial weak factorization system** if the factorization of morphisms may be chosen to be a [[functorial factorization]] $fact$, def. \ref{FunctorialFactorization}, i.e. such that $d_2 \circ fact$ lands in $Proj$ and $d_0\circ fact$ in $Inj$.
 
 =--
 
@@ -1529,9 +1538,9 @@ We now spell out that def. \ref{HomotopyCategoryOfAModelCategory} indeed satisfi
 
 +-- {: .num_lemma #WhiteheadTheoremInModelCategories}
 ###### Lemma
-**([[Whitehead theorem]] in model categories)**
+**([[Whitehead theorem]] in [[model categories]])**
 
-Let $\mathcal{C}$ be a [[model category]]. A [[weak equivalence]] between two objects which are both fibrant and cofibrant is a [[homotopy equivalence]].
+Let $\mathcal{C}$ be a [[model category]]. A [[weak equivalence]] between two objects which are both [[fibrant object|fibrant]] and [[cofibrant object|cofibrant]] is a [[homotopy equivalence]] (eq:HomotopyEquivalenceCondition).
 
 =--
 
@@ -1581,6 +1590,7 @@ which [[commuting square|commutes]] due to $f^{-1}$ being a genuine right invers
 
 +-- {: .num_defn #FibrantCofibrantReplacementFunctorToHomotopyCategory}
 ###### Definition
+**([[fibrant resolution]] and [[cofibrant resolution]])**
 
 Given a [[model category]] $\mathcal{C}$, consider a _choice_ for each object $X \in \mathcal{C}$ of
 
@@ -1775,6 +1785,7 @@ such that
 
 +-- {: .num_theorem #UniversalPropertyOfHomotopyCategoryOfAModelCategory}
 ###### Theorem
+**(convenient [[localization]] of [[model categories]])**
 
 For $\mathcal{C}$ a [[model category]], the functor $\gamma_{P,Q}$ in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} (for any choice of $P$ and $Q$) exhibits $Ho(\mathcal{C})$ as indeed being the [[localization]] of the underlying [[category with weak equivalences]] at its weak equivalences, in the sense of def. \ref{HomotopyCategoryOfACategoryWithWeakEquivalences}:
 
@@ -1986,6 +1997,7 @@ The following says that for computing the hom-sets in the [[homotopy category of
 
 +-- {: .num_lemma #HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory}
 ###### Lemma
+**([[hom-sets]] of [[homotopy category]] via mapping [[cofibrant resolutions]] into [[fibrant resolutions]])**
 
 For $X, Y \in \mathcal{C}$ with $X$ cofibrant and $Y$ fibrant, and for $P, Q$ fibrant/cofibrant replacement functors as in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}, then the morphism
 
@@ -5134,6 +5146,7 @@ $$
 
 +-- {: .num_prop #LongFiberSequence}
 ###### Proposition
+**([[long homotopy fiber sequences]])**
 
 Let $\mathcal{C}$ be a model category and let $f \colon X \to Y$ be morphism in the pointed homotopy category $Ho(\mathcal{C}^{\ast/})$ (prop. \ref{ModelStructureOnSliceCategory}). Then:
 
@@ -5156,7 +5169,7 @@ Let $\mathcal{C}$ be a model category and let $f \colon X \to Y$ be morphism in 
 
    where each morphism is the [[homotopy fiber]] (def. \ref{HomotopyFiber}) of the following one: the **[[homotopy fiber sequence]]** of $f$. Here $\overline{\Omega}f$ denotes $\Omega f$ followed by forming inverses with respect to the group structure on $\Omega(-)$ from prop. \ref{LoopingAsFunctorOnHomotopyCategory}.
 
-Moreover, for $A\in \mathcal{C}^{\ast/}$ any object, then there is a [[long exact sequence]]
+   Moreover, for $A\in \mathcal{C}^{\ast/}$ any object, then there is a [[long exact sequence]]
 
    $$
      \cdots
