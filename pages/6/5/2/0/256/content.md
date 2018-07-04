@@ -33,7 +33,7 @@ An endomorphism monoid is a special case of a monoid structure on an [[end]] con
 +-- {: .num_prop}
 ###### Proposition
 
-If the universal object $(End(d),a)$ exists then there is a unique structure of an [[internal structure|internal]] monoid $\mu: End(d) \otimes End(d) \to End(d)$, such that the map $a: End(d) \otimes d \to d$ is an [[action]]. 
+If the universal object $(End(d),a)$ exists then there is a unique structure of an [[internalization|internal]] monoid $\mu: End(d) \otimes End(d) \to End(d)$, such that the map $a: End(d) \otimes d \to d$ is an [[action]]. 
 =--
 
 +-- {: .num_prop} 
