@@ -163,7 +163,7 @@ Ours is the age to figure this out.
 
 The early history of the subject is outlined in 
 
-* [[Rudolf Haag]], _Early papers on quantum field theory (1992-1930)_ ([pdf](https://link.springer.com/content/pdf/bfm%3A978-3-642-70078-1%2F1%2F1.pdf))
+* [[Rudolf Haag]], _Early papers on quantum field theory (1929-1930)_ ([pdf](https://link.springer.com/content/pdf/bfm%3A978-3-642-70078-1%2F1%2F1.pdf))
 
 * [Scharf 95, section 0.0](#Scharf95)
 
