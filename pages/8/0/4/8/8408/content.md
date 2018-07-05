@@ -17,3 +17,5 @@ Equivariance is compatibility with a [[group]] [[action]]. See at _[[equivariant
 
 * [[principle of equivalence]]
 
+[[!redirects equivariant]]
+
