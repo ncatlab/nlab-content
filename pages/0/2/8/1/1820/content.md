@@ -600,14 +600,17 @@ or definition 1.3 in
 
 Smith's theorem appears as proposition ([Lurie, A.2.6.8](#Lurie))  and as ([Barwick, prop. 1.7](#Barwick)).
 
-Dugger's theorem is in 
+Dugger's theorem is due to
 
 * {#Dugger} [[Daniel Dugger]], _Combinatorial model categories have presentations_ ([arXiv](http://arxiv.org/abs/math/0007068))
  
-
 based on results in
 
 * {#DuggerUniversalHomotopy} [[Dan Dugger]], _[[Universal homotopy theories]]_
+
+The [[homotopy category]] of all combinatorial model categories is discussed in
+
+* Olivier Renaudin, _Theories homotopiques de Quillen combinatoires et derivateurs de Grothendieck_ ([arXiv:0603339](https://arxiv.org/abs/math/0603339))
  
 See also 
 
