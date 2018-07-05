@@ -16,7 +16,15 @@
 
 ## Definition
 
-An _EI-category_ is a [[category]] in which every [[endomorphism]] is an [[isomorphism]]. Given such a category, $C$, the set of isomorphism classes $[x]$ of objects $x$ in $C$ forms a [[poset]] under the relation $[x] \leq [y]$ if and only if there is a morphism $x \to y$.
+An _EI-category_ is a [[category]] in which every [[endomorphism]] is an [[isomorphism]]. Given such a category, $C$, the [[set]] of [[isomorphism classes]] $[x]$ of [[objects]] $x \in C$ forms a [[partially ordered set]] under the [[relation]] 
+
+$$
+  [x] \leq [y] 
+  \phantom{AA} \text{if and only if}
+  \phantom{AA} 
+  \text{there is a morphism}\; x \to y
+$$
+
 
 Similarly an _EI $(\infty,1)$-category_ is an [[(∞,1)-category]] in which every [[endomorphism]] is an [[equivalence in an (∞,1)-category]].
 
@@ -38,9 +46,9 @@ Let $\mathcal{S}$ be a set of subgroups of a group $G$.
 
 ## Representation theory
 
-A finite EI-category contains finitely many morphisms. The [[category algebra]] of a finite EI-category, $C$, for a fixed base ring $k$ is denoted $k C$ and has as basis the set of morphisms in $C$ with multiplication induced by composition of morphisms. It is thus a generalization of the [[group algebra]] of a finite group, the path algebra of a finite quiver without oriented cycles or the incidence algebra of a finite poset. There is a stratification of $k C$ of length equal to the number of isomorphism classes in the category.
+A finite EI-category contains finitely many morphisms. The [[category algebra]] $k C$ of a finite EI-category, $C$, for a fixed [[base ring]] $k$  and has as [[linear basis|basis]] the set of morphisms in $C$ with multiplication induced by composition of morphisms. It is thus a generalization of the [[group algebra]] of a [[finite group]], the [[path algebra]] of a finite [[quiver]] without oriented cycles or the incidence algebra of a finite poset. There is a stratification of $k C$ of depth equal to the number of isomorphism classes in the category.
 
-The category of modules over the category algebra $k C$ is equivalent to the category of $k$-linear representations of $C$, i.e., the functor category $Fun(C, Mod k)$.
+The [[category of modules]] over the [[category algebra]] $k C$ is equivalent to the category of $k$-[[linear representations]] of $C$, i.e., the [[functor category]] $Fun(C, Mod k)$.
 
 ## Related concepts
 
