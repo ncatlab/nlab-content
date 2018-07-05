@@ -2474,7 +2474,7 @@ Now since $F$ is assumed to preserve fibrant objects, $F(P(X))$ is fibrant in $\
 ### Quillen adjunctions
  {#QuillenAdjunctions}
 
-In practice it turns out to be useful to arrange for the assumptions in corollary \ref{LeftAndRightDerivedFunctors} to be satisfied by pairs of [[adjoint functors]]. Recall that this is a pair of [[functors]] $L$ and $R$ going back and forth between two categories
+In practice it turns out to be useful to arrange for the assumptions in corollary \ref{LeftAndRightDerivedFunctors} to be satisfied by pairs of [[adjoint functors]] ([this Def.](geometry+of+physics+--+categories+and+toposes#AdjointFunctorsInTermsOfNaturalBijectionOfHomSets)). Recall that this is a pair of [[functors]] $L$ and $R$ going back and forth between two categories
 
 $$
   \mathcal{C}
@@ -2514,7 +2514,7 @@ $$
   \,.
 $$
 
-We write $(L \dashv R)$ to indicate an adjunction and call $L$ the _[[left adjoint]]_ and $R$ the _[[right adjoint]]_ of the adjoint pair.
+We write $(L \dashv R)$ to indicate such an [[adjunction]] and call $L$ the _[[left adjoint]]_ and $R$ the _[[right adjoint]]_ of the adjoint pair.
 
 The archetypical example of a pair of adjoint functors is that consisting of forming [[Cartesian products]] $Y \times (-)$ and forming [[mapping spaces]] $(-)^Y$, as in the category of [[compactly generated topological spaces]] of def. \ref{kTop}.
 
@@ -2542,8 +2542,9 @@ Adjunction units and counits turn out to encode the [[adjuncts]] of all other mo
 
 +-- {: .num_defn #QuillenAdjunction}
 ###### Definition
+**([[Quillen adjunction]])**
 
-Let $\mathcal{C}, \mathcal{D}$ be [[model categories]]. A pair of [[adjoint functors]] between them
+Let $\mathcal{C}, \mathcal{D}$ be [[model categories]]. A pair of [[adjoint functors]] ([this Def.](geometry+of+physics+--+categories+and+toposes#AdjointFunctorsInTermsOfNaturalBijectionOfHomSets)) between them
 
 $$
   (L \dashv R)
@@ -2651,6 +2652,7 @@ Second, with $Y$ cofibrant then also $Y \sqcup Cyl(Y)$ is a cofibrantion, since 
 
 +-- {: .num_prop #QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}
 ###### Proposition
+**([[Quillen adjunction]] descends to [[homotopy categories]])**
 
 For $\mathcal{C} \underoverset{\underoverset{R}{\bot}{\longrightarrow}}{\overset{L}{\longleftarrow}}{} \mathcal{D}$ a [[Quillen adjunction]], def. \ref{QuillenAdjunction}, then also the corresponding left and right [[derived functors]], def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}, via cor. \ref{LeftAndRightDerivedFunctors}, form a pair of [[adjoint functors]]
 
@@ -2706,6 +2708,8 @@ $$
 $$
 
 =--
+
+The following is the analog of [[adjoint equivalence of categories]] ([this Def.](geometry+of+physics+--+categories+and+toposes#AdjointEquivalenceOfCategories)) for [[model categories]].
 
 +-- {: .num_defn #QuillenEquivalence}
 ###### Definition
