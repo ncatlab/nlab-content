@@ -33,7 +33,7 @@ The quick abstract definition of a simplicial set goes as follows:
 
 A **simplicial set**  is a [[presheaf]] on the [[simplex category]] $\Delta$, that is, a [[functor]] $X : \Delta^{op} \to Sets$ from the [[opposite category]] of the [[simplex category]] to the category [[Set]] of [[sets]]; equivalently this a [[simplicial object]] in [[Set]].
 
-Equipped with the standard [[homomorphisms]] of [[presheaves]] as morphisms (namely [[natural transformations]] of the corresponding [[functors]]), simplicial sets form the category [[sSet]] (also called $SSet$ or $sSet$). 
+Equipped with the standard [[homomorphisms]] of [[presheaves]] as morphisms (namely [[natural transformations]] of the corresponding [[functors]]), simplicial sets form the category [[sSet]] (denoted both  $SSet$ or $sSet$). 
 
 
 =--
