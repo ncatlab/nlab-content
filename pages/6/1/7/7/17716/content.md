@@ -29,15 +29,15 @@ For $G$ a [[finite group]], various concepts in [[equivariant homotopy theory]] 
 {#AtomicOrbital}
  An important ingredient of this program is the concept of an _atomic orbital $\infty$-category_ which is defined in terms of two important properties of the [[orbit category]] of $G$:
 
-1. **Orbital**: Fiber products of representable presheaves are finite disjoint unions of representable presheaves (a restatement of the fact that the category of finite $G$-sets has pullbacks ([Mackey decomposition](double+coset#MackeyFormula)), so a version of the [[Beck-Chevalley condition]];
+1. **Orbital**: Fiber products of representable presheaves are finite disjoint unions of representable presheaves, a restatement of the fact that the category of finite $G$-sets has pullbacks ([Mackey decomposition](double+coset#MackeyFormula)), so a version of the [[Beck-Chevalley condition]];
 
 1. **Atomic**: The triviality of retracts (that is every retraction is an equivalence).
 
 Examples of such $(\infty, 1)$-categories satisfying these two properties include: 
 
-1. [[orbit categories]] of finite groups, 
+1. [[orbit categories]] of finite groups; 
 
-1. more generally, orbit categories of [[profinite groups]] (where the [[stabilizers]] are required to be [[open subset|open]]) 
+1. more generally, orbit categories of [[profinite groups]] (where the [[stabilizers]] are required to be [[open subset|open]]); 
 
 1. locally finite groups (where the stabilizers are required to be finite); 
 
