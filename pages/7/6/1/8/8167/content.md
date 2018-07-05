@@ -43,3 +43,6 @@ The original articles are
 
 * [[Steven Weinberg]], Phys. Rev. D 26, 287 (1982)
 
+A [[geometric engineering]] of the MSSM in [[F-theory]] (see at [[string phenomenology]]) is claimed in 
+
+* {#CLLO18} [[Mirjam Cvetič]], Ling Lin, Muyang Liu, Paul-Konstantin Oehlmann, _An F-theory Realization of the Chiral MSSM with $\mathbb{Z}_2$-Parity_ ([arXiv:1807.01320](https://arxiv.org/abs/1807.01320))
