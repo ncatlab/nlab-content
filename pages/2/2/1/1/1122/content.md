@@ -1,15 +1,18 @@
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Category Theory
+#### 2-Category theory
 +--{: .hide}
-[[!include category theory - contents]]
+[[!include 2-category theory - contents]]
 =--
 =--
 =--
 
+
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ##Idea
@@ -66,6 +69,8 @@ The resulting localization is equivalent to the bicategory of [[anafunctor|anafu
 
 ##Related entries
 
+* [[localization of a 2-category]]
+
 * [[category of fractions]]
 * [[localization]]
 * [[bicategory]]
@@ -80,7 +85,7 @@ The resulting localization is equivalent to the bicategory of [[anafunctor|anafu
 
 * [[Dorette A. Pronk]], _Etendues and stacks as bicategory of fractions_ , Comp. Math. **102** 3 (1996) pp.243-303. ([pdf](http://archive.numdam.org/ARCHIVE/CM/CM_1996__102_3/CM_1996__102_3_243_0/CM_1996__102_3_243_0.pdf))
 
-* [[David Roberts]], _Internal categories, anafunctors and localisations_, TAC **26** (2012) pp.788-829. ([pdf](http://www.tac.mta.ca/tac/volumes/26/29/26-29.pdf)) {#Roberts12}
+* {#Roberts12} [[David Roberts]], _Internal categories, anafunctors and localisations_, TAC **26** (2012) pp.788-829. ([pdf](http://www.tac.mta.ca/tac/volumes/26/29/26-29.pdf)) {#Roberts12}
 
 * M. Tommasini, _A bicategory of reduced orbifolds from the point of view of differential geometry_ , arXiv:1304.6959 (2013). ([pdf](http://arxiv.org/pdf/1304.6959))
 
