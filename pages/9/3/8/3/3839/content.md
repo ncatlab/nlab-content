@@ -3,7 +3,7 @@
 
 This entry is about the article
 
-* [[Dan Dugger]], _Combinatorial model categories have presentations_ ([arXiv](http://arxiv.org/abs/math/0007068)), Adv. Math. 164 (2001), no. 1, 177-201
+* [[Dan Dugger]], _Combinatorial model categories have presentations_, Adv. Math. 164 (2001), no. 1, 177-201 ([arXiv:math/0007068](http://arxiv.org/abs/math/0007068))
 
   **Abstract** _We show that every combinatorial model category can be obtained, up to Quillen equivalence, by localizing a model category of diagrams of simplicial sets. This says that any combinatorial model category can be built up from a category of "generators" and a set of "relations" --- that is, any combinatorial model category has a presentation._ 
 
@@ -37,7 +37,7 @@ Notice (as discussed at the relevant entries) that
     \,.
   $$
 
-Under this correspondence, Dugger's theorem is precisely the [[model category]]-theoretic analog of the theorem that every [[locally presentable (∞,1)-category]] $D$ is a [[localization of an (∞,1)-category|(∞,1)-categorical localization]] of an [[(∞,1)-category of (∞,1)-presheaves]]
+Under this correspondence, [[Dugger's theorem]] is precisely the [[model category]]-theoretic analog of the theorem that every [[locally presentable (∞,1)-category]] $D$ is a [[localization of an (∞,1)-category|(∞,1)-categorical localization]] of an [[(∞,1)-category of (∞,1)-presheaves]]
 
 $$
   D \stackrel{\overset{L}{\leftarrow}}{\underset{}{\hookrightarrow}}
@@ -45,7 +45,7 @@ $$
   \,.
 $$
 
-This [[(∞,1)-category]] theortic interpretation of Dugger's theorem is proposition A.3.7.6 in 
+This [[(∞,1)-category]] theortic interpretation of [[Dugger's theorem]] is proposition A.3.7.6 in 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
