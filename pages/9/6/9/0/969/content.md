@@ -169,6 +169,10 @@ Localization is especially well developed in abelian setup where several competi
 
 The notion of localization of a category has analogs in [[higher category theory]].
 
+For [[2-categories]]:
+
+* [[2-localization]]
+
 For [[(∞,1)-categories]] and the special case of reflective embeddings this is discussed in
 
 * [[localization of an (∞,1)-category]].
