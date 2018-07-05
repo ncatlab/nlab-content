@@ -9,13 +9,17 @@ Equivariance is compatibility with a [[group]] [[action]]. See at _[[equivariant
 
 ## Related concepts
 
+* [[general covariance]], [[gauge invariance]], [[principle of equivalence]]
+
 * [[equivariant cohomology]]
 
-* [[general covariance]]
+* [[equivariant homotopy theory]]
 
-* [[gauge invariance]]
+* [[equivariant stable homotopy theory]]
 
-* [[principle of equivalence]]
+* [[global equivariant stable homotopy theory]]
+
+* [[rational equivariant stable homotopy theory]]
 
 [[!redirects equivariant]]
 
