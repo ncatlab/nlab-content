@@ -18,7 +18,7 @@
 
 A _combinatorial model category_ is a particularly tractable [[model category]] structure. (Notice however that there is also the, closely related, technical notion of a [[tractable model category]]).
 
-Being combinatorial means that there is very strong control over the cofibrations in these model structures: there is a [[set]] (meaning small set, not proper [[class]]) of [[cofibrantly generated model category|generating (acyclic) cofibrations]], and all objects, in particular the domains and codomains of these cofibrations, are [[small object]]s.
+Being combinatorial means that there is very strong control over the cofibrations in these model structures: there is a [[set]] (meaning [[small set]], not a [[proper class]]) of [[cofibrantly generated model category|generating (acyclic) cofibrations]], and all objects, in particular the domains and codomains of these cofibrations, are [[small object]]s.
 
 So as a slogan we have that
 
