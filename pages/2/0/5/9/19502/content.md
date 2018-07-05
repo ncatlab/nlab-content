@@ -20,8 +20,9 @@ The evident generalization of the concept of _[[localization of categories]]_ fr
 
 ## Definition
 
-+-- {: .num_defn}
++-- {: .num_defn #2Localization}
 ###### Definition
+**(localization of a 2-category)**
 
 Let $\mathcal{C}$ be a [[2-category]] and let $W \subset 1Mor(\mathcal{C})$ be a sub-[[class]] of its [[1-morphisms]]. 
 
@@ -49,12 +50,75 @@ such that
 
    from the [[2-functor 2-category]] from $\mathcal{C}[W^{-1}]$ to $\mathcal{D}$ to the [[full sub-2-category]] of the [[2-functor 2-category]] from $\mathcal{C}$ to $\mathcal{D}$ on those [[2-functors]] that send element of $W$ to [[equivalences in a 2-category|equivalences]].
 
+=--
+
+## Examples
+
+### Homotopy 2-category of combinatorial model categories
+
++-- {: .num_example #2CategoryOfModelCategories}
+###### Definition
+**(the [[2-category]] of ([[combinatorial model category|combinatoria]] [[model categories]])**
+
+Write 
+
+1. $ModCat$ for the [[2-category]] whose [[objects]] are [[model categories]], [[1-morphisms]] are [[left adjoint]] [[functors]] of [[Quillen adjunctions]] and [[2-morphisms]] are [[natural transformations]].
+
+1. $CombModCat \subset ModCat$ for the [[full sub-2-category]] on the [[combinatorial model categories]].
 
 =--
+
++-- {: .num_remark #LocalPresentationOfCombinatorialModelCategories}
+###### Remark
+**(local presentation of combinatorial model categories)**
+
+By [[Dugger's thereom]], we may choose for every $\mathcal{C} \in CombModCat$ a [[simplicial set]] $\mathcal{S}$ and a [[Quillen equivalence]]
+
+$$
+  \mathcal{C}^p
+  \;\coloneqq\;
+  [\mathcal{S}^{op}, sSet]_{proj,loc}
+  \overset{\simeq_{Qu}}{\longrightarrow}
+  \mathcal{C}
+$$ 
+
+from the local projective [[model structure on sSet-enriched presheaves]] over $\mathcal{S}$.
+
+=--
+
++-- {: .num_theorem #Homotopy2CategoryOf2CatOfCombinatorialModelCategories}
+###### Theorem
+**(the [[homotopy 2-category]] of [[combinatorial model categories]])**
+
+The [[2-localization]] (Def. \ref{2Localization}) 
+
+$$
+  CombModCat\big[\{QuillenEquivalences\}^{-1}\big]
+$$ 
+
+of the [[2-category]] of [[combinatorial model categories]] (Def. \ref{2CategoryOfModelCategories}) at the [[Quillen equivalences]] exists. Up to [[equivalence of 2-categories]], it has the same [[objects]] as $CombModCat$ and for any $\mathcal{C}, \mathcal{D} \in CombModCat$ its [[hom-category]] is the [[localization of categories]] 
+
+$$
+  CombModCat\big[\{QuillenEquivalences\}^{-1}\big](\mathcal{C}, \mathcal{D})
+  \;\simeq\;
+  ModCat( \mathcal{C}^p, \mathcal{D}^p )\big[\{QuillenHomotpies\}^{-1}\big]
+$$
+
+of the category of [[left Quillen functors]] and [[natural transformations]] between local presentations $\mathcal{C}^p$ and $\mathcal{D}^p$ (Remark \ref{LocalPresentationOfCombinatorialModelCategories}) at those [[natural transformation]] that on [[cofibrant objects]] have components that are [[weak equivalences]] ("Quillen homotopies").
+
+=--
+
+This is the statement of [Renaudin 06, theorem 2.3.2](#Renaudin06).
+
+
+
+
 
 ## Related concepts
 
 * [[bicategory of fractions]]
+
+* [[homotopy 2-category]]
 
 
 ## References
