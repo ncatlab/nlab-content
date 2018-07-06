@@ -39,6 +39,10 @@ For example:
 
 * Working in a [[over category|slice category]] $C/b$, a global element of the object $\pi: e \to b$ is a map into it from the terminal object $1_b: b \to b$; i.e., a [[right inverse]] for $\pi$.  In the context of [[bundles]], a global element of a bundle is called a *[[global section]]*.
 
+If $C$ does not have a terminal object, we can still define a global element of $x\in C$ to be a global element of the [[represented functor|represented]] [[presheaf]] $C(-,x) \in [C^{op},Set]$.  Since the [[Yoneda embedding]] $x \mapsto C(-,x)$ is fully faithful and preserves any [[limits]] that exist in $C$, including terminal objects, if $C$ does have a terminal object then this definition coincides with the more naive one.
+
+If we unravel the general definition more explicitly, it says that a global element of $x$ consists of, for every object $i\in C$, a morphism $e_x : i\to x$ (i.e. a [[generalized element]] of $x$ at stage $i$), such that for any morphism $f:i\to j$ we have $e_j \circ f = e_i$.
+
 
 ## Variations
 
