@@ -27,6 +27,8 @@ which is important for us. Unfortunately, in the departments of the applied math
 
 Wikipedia: [applied mathematics](http://en.wikipedia.org/wiki/Applied_mathematics)
 
+As, if and when applications of the nPOV to areas traditionally called 'applied mathematics', we cordially invite practitioners to contribute se that those developments may be recorded and developed here. Recent developments of category theoretical methods and insights to areas of Chemistry and Biology are being discussed in [Azimuth](https://johncarlosbaez.wordpress.com/).
+
 category: applications
 [[!redirects applied math]]
 [[!redirects applied maths]]
