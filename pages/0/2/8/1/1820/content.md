@@ -571,6 +571,8 @@ See [[combinatorial simplicial model category]].
 
 ## Related concepts
 
+* [[Ho(CombModCat)]]
+
 * [[Cisinski model structure]]
 
 [[!include locally presentable categories - table]]
