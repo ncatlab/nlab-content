@@ -8037,13 +8037,16 @@ Conversely, when $K$ is a Kan complex, there is a natural bijection between $\pi
 ###### Theorem
 
 The [[singular simplicial complex]]/[[geometric realization]]-[[nerve and realization|adjunction]] of example \ref{TopologicalRealizationOfSimplicialSets}
-constitutes a [[Quillen equivalence]] of the classical model structure $sSet_{Quillen}$ of def. \ref{ClassesOfMorphismsOnsSetQuillen} with the  [[classical model structure on topological spaces]]:
+constitutes a [[Quillen equivalence]] between the [[classical model structure on simplicial sets]] $sSet_{Quillen}$ of def. \ref{ClassesOfMorphismsOnsSetQuillen} and the  [[classical model structure on topological spaces]]:
 
 $$
   ({\vert -\vert}\dashv Sing)
-  : 
+  \;\colon\;
   Top_{Quillen}
-  \stackrel{\overset{{\vert -\vert}}{\leftarrow}}{\underset{Sing}{\to}}
+    \underoverset
+      {\underset{Sing}{\longrightarrow}}
+      {\overset{{\vert -\vert}}{\longleftarrow}}
+      {\phantom{{}_{Q}}\simeq_{Q}}
   sSet_{Quillen}
 $$
 
