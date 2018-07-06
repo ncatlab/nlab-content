@@ -94,13 +94,13 @@ from the local projective [[model structure on sSet-enriched presheaves]] over $
 The [[2-localization]] (Def. \ref{2Localization}) 
 
 $$
-  CombModCat\big[\{QuillenEquivalences\}^{-1}\big]
+  CombModCat\big[QuillenEquivalences^{-1}\big]
 $$ 
 
 of the [[2-category]] of [[combinatorial model categories]] (Def. \ref{2CategoryOfModelCategories}) at the [[Quillen equivalences]] exists. Up to [[equivalence of 2-categories]], it has the same [[objects]] as $CombModCat$ and for any $\mathcal{C}, \mathcal{D} \in CombModCat$ its [[hom-category]] is the [[localization of categories]] 
 
 $$
-  CombModCat\big[\{QuillenEquivalences\}^{-1}\big](\mathcal{C}, \mathcal{D})
+  CombModCat\big[QuillenEquivalences^{-1}\big](\mathcal{C}, \mathcal{D})
   \;\simeq\;
   ModCat( \mathcal{C}^p, \mathcal{D}^p )\big[\{QuillenHomotpies\}^{-1}\big]
 $$
@@ -112,6 +112,33 @@ of the category of [[left Quillen functors]] and [[natural transformations]] bet
 This is the statement of [Renaudin 06, theorem 2.3.2](#Renaudin06).
 
 
+
+For $\mathcal{C}$ a [[2-category]] write
+
+1. $\mathcal{C}_0$ for the 1-category obtained dy discarding all [[2-morphisms]];
+
+1. $\pi_0^{iso}(\mathcal{C})$ for the [[1-category]] obtained by identifying isomorphic [[2-morphisms]].
+
+
+
++-- {: .num_prop}
+###### Proposition
+
+The composite 1-functor
+
+$$
+  CombModCat_0
+   \longrightarrow
+  \pi_0^{iso}(CombModCat)
+    \overset{\pi_0^{iso}(\gamma)}{\longrightarrow}
+  \pi_0^{iso}( CombModCat[QuillenEquivalences^{-1}] )
+$$
+
+induced from the [[2-localization]] of Theorem \ref{Homotopy2CategoryOf2CatOfCombinatorialModelCategories} exhibits the ordinary [[localization of a category]] of the 1-category $CombModCat$ at the [[Quillen equivalences]].
+
+=--
+
+This is the statement of [Renaudin 06, cor. 2.3.8](#Renaudin06).
 
 
 
