@@ -147,3 +147,7 @@ For their interpretation in the more general context of [[(infinity,1)-category 
 
 
 [[!redirects simplicial presheaves]]
+
+[[!redirects category of simplicial presheaves]]
+[[!redirects categories of simplicial presheaves]]
+
