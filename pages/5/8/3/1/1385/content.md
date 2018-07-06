@@ -223,6 +223,8 @@ For instance with $Pr(\infty,1)Cat$ regarded as $\infty Vect$, for any [[∞-gro
 
 ## Related concepts
 
+* [[Ho(CombModCat)]]
+
 * [[2Ab]], [[2Ring]]
 
 ## References
