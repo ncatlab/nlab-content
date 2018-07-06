@@ -1,4 +1,16 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
 ## Related concepts
 
 * [[coupling constant]]
@@ -21,3 +33,6 @@ On computation of Yukawa coupling in [[heterotic string theory]]:
 
 [[!redirects Yukawa coupling constant]]
 [[!redirects Yukawa coupling constants]]
+
+[[!redirects Yukawa interaction]]
+[[!redirects Yukawa interactions]]
