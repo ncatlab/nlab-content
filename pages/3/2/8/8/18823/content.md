@@ -1903,7 +1903,7 @@ or the [[Dirac equation]] (example \ref{GreenHyperbolicDiracOperator}). Then:
 
    $$
      \label{PolynomialOnShellObservablesArePolynomialOffShellobservableModuloTheEquationsOfMotion}
-     PolyObObs(E,\mathbf{L})
+     PolyObs(E,\mathbf{L})
      \simeq
      PolyObs(E)/im(P)
      \,.
