@@ -15,7 +15,7 @@ It turns out that these relations are reflected by special properties of an [[ad
 | $\phantom{A}\mathbf{H} \underoverset{\underset{\phantom{AAA}}{\longrightarrow}}{\overset{}{\longleftarrow}}{\simeq} [\mathcal{C}^{op},Set]$  | $\phantom{A}\mathbf{H} \underoverset{\underset{\phantom{AAAA}}{\hookrightarrow}}{\overset{}{\longleftarrow}}{\bot} [\mathcal{C}^{op}, Set]$ | $\phantom{A}\mathbf{H} \underoverset{\underset{\text{accessible}}{\hookrightarrow}}{\overset{}{\longleftarrow}}{\bot} [\mathcal{C}^{op}, Set]$ | $\phantom{A}\mathbf{H} \underoverset{\underset{\text{accessible}}{\hookrightarrow}}{\overset{\text{left exact}}{\longleftarrow}}{\bot} [\mathcal{C}^{op}, Set]$ |
 | $\phantom{A}$Prop. \ref{FreeCocompletion}$\phantom{A}$ | $\phantom{A}$Def. \ref{ReflectiveSubcategory}$\phantom{A}$  | $\phantom{A}$Def. \ref{LocallyPresentableCategory}$\phantom{A}$ | $\phantom{A}$Prop. \ref{SheafToposViaLexReflection}$\phantom{A}$ |
 
-
+$\,$
 
 +-- {: .num_remark #SheafConditionAsLocality}
 ###### Remark
@@ -689,7 +689,7 @@ We discuss some of the key properties of [[sheaf toposes]]:
 
 +-- {: .num_prop #PropertiesOfSheafToposes}
 ###### Proposition
-**(convenience of [[sheaf toposes]])**
+**([[sheaf toposes]] are [[cosmoi]])**
 
 Let $\mathcal{C}$ be a [[site]] (Def. \ref{Coverage}) and  $Sh(\mathcal{C})$ its [[sheaf topos]] (Def. \ref{Sheaf}). Then:
 
@@ -737,6 +737,7 @@ Let $\mathcal{C}$ be a [[site]] (Def. \ref{Coverage}) and  $Sh(\mathcal{C})$ its
 
    where $y(U)$ is the [[representable presheaf|presheaf represented]] by $U \in \mathcal{C}$ (Example \ref{RepresentablePresheaves}).
 
+This may be summarized by saying that every [[sheaf topos]] (in particular every [[category of presheaves]], by Example \ref{TrivialCoverage}) is a [[cosmos]] for [[enriched category theory]] (Def. \ref{Cosmos}).
 
 =--
 
