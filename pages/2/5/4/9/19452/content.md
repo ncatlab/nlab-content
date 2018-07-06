@@ -160,7 +160,7 @@ $\,$
 
 $\,$
 
-## Basic concepts of homotopy theory
+## Basic notions of homotopy theory
 
 Traditionally, [[mathematics]] and [[physics]] have been [[foundations|founded]] on [[set theory]], whose concept of _[[sets]]_ is that of "bags of distinguishable points". 
 
@@ -2748,7 +2748,7 @@ $$
 
 =--
 
-The following is the analog of [[adjoint equivalence of categories]] (Def. \ref{AdjointEquivalenceOfCategories}) for [[model categories]].
+The following is the analog of [[adjoint equivalence of categories]] (Def. \ref{AdjointEquivalenceOfCategories}) for [[model categories]]:
 
 +-- {: .num_defn #QuillenEquivalence}
 ###### Definition
@@ -4972,10 +4972,10 @@ For the second statement: functorially choose a factorization of the two right v
 =--
 
 
+$\,$
 
 
-
-### Long sequences
+### Long fiber sequences
  {#LongSequences}
 
 The ordinary [[fiber]], example \ref{FiberAndCofiberInPointedObjects}, of a morphism has the property that taking it _twice_ is always trivial:
@@ -5457,6 +5457,187 @@ $$
 behaves like one degree in an [additive](Introduction+to+Stable+homotopy+theory+--+S#WedgeAxiom) [[reduced cohomology theory]] ([def.](Introduction+to+Stable+homotopy+theory+--+S#ReducedGeneralizedCohomology)). The [[Brown representability theorem]] ([thm.](Introduction+to+Stable+homotopy+theory+--+S#BrownRepresentabilityTraditional)) implies that all additive reduced cohomology theories are degreewise representable this way ([prop.](Introduction+to+Stable+homotopy+theory+--+S#AdditiveReducedCohomologyTheoryRepresentedByOmegaSpectrum)).
 
 =--
+
+$\,$
+
+
+## Basic notions of higher topos theory
+
+
+### Local presentation
+
+The analog of the notion of [[locally presentable categories]] (Def. \ref{LocallyPresentableCategory}) for [[model categories]] are _[[combinatorial model categories]]_ (Def. \ref{CombinatorialModelCategory}) below. In addition to the ordinary condition of presentability of the underlying category, these are required to be _[[cofibrantly generated model category|cofibrant generation]]_ (Def. \ref{CofibrantlyGeneratedModelCategory} below) in that all [[cofibrations]] are [[retracts]] of [[relative cell complex]]-inclusions:
+
++-- {: .num_defn #CofibrantlyGeneratedModelCategory}
+###### Definition
+**([[cofibrantly generated model category]])**
+
+A [[model category]] $\mathcal{C}$ (def. \ref{ModelCategory}) is called **cofibrantly generated** if there exists two [[small set|small]] [[subsets]]
+
+$$
+  I, J \subset Mor(\mathcal{C})
+$$
+
+of its class of [[morphisms]], such that
+
+1. $I$ and $J$ have small domains according to def. \ref{ClassOfMorphismsWithSmallDomains},
+
+1.  the (acyclic) cofibrations of $\mathcal{C}$ are precisely the [[retracts]], of $I$-[[relative cell complexes]] ($J$-relative cell complexes), def. \ref{TopologicalCCellComplex}.
+
+=--
+
++-- {: .num_prop #CofibrantlyGeneratedModelCategoryLifting}
+###### Proposition
+
+For $\mathcal{C}$ a [[cofibrantly generated model category]], def. \ref{CofibrantlyGeneratedModelCategory}, with generating (acylic) cofibrations $I$ ($J$), then its classes $W, Fib, Cof$ of weak equivalences, fibrations and cofibrations are equivalently expressed as [[injective or projective morphisms]] (def. \ref{LiftingAndExtension}) this way:
+
+
+1. $Cof = (I Inj) Proj$
+
+1. $W \cap Fib = I Inj$;
+
+1. $W \cap Cof = (J Inj) Proj$;
+
+1. $Fib = J Inj$;
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is clear from the definition that $I \subset (I Inj) Proj$, so that the closure property of prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms} gives an inclusion
+
+$$
+  Cof \subset (I Inj) Proj
+  \,.
+$$
+
+For the converse inclusion, let $f \in (I Inj) Proj$. By the [[small object argument]], prop. \ref{SmallObjectArgument}, there is a factorization $f\colon \overset{\in I Cell}{\longrightarrow}\overset{I Inj}{\longrightarrow}$. Hence by assumption and by the [[retract argument]] lemma \ref{RetractArgument}, $f$ is a retract of an $I$-relative cell complex, hence is in $Cof$.
+
+This proves the first statement. Together with the closure properties of prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms}, this implies the second claim.
+
+The proof of the third and fourth item is directly analogous, just with $J$ replaced for $I$.
+
+=--
+
++-- {: .num_defn #CombinatorialModelCategory}
+###### Definition
+**([[combinatorial model category]])**
+
+A _[[combinatorial model category]]_ is a [[model category]] (Def. \ref{ModelCategory}) which is 
+
+1. [[locally presentable category|locally presentable]] (Def. \ref{LocallyPresentableCategory})
+
+1. [[cofibrantly generated model category]] (Def. \ref{CofibrantlyGeneratedModelCategory})
+
+=--
+
++-- {: .num_defn #BousfieldLocalizationOfModelCategories}
+###### Definition
+**([[left Bousfield localization]])**
+
+A **[[left Bousfield localization of model categories|left Bousfield localization]]** $\mathcal{C}_{loc}$ of a [[model category]] $\mathcal{C}$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) is another model category structure on the same underlying category with the same cofibrations,
+
+$$
+  Cof_{loc} = Cof
+$$
+
+but more weak equivalences
+
+$$
+  W_{loc} \supset W
+  \,.
+$$
+
+=--
+
+Notice that:
+
++-- {: .num_prop #BasicPropertiesOfLectBousfieldLocalizations}
+###### Proposition
+
+Given a [[left Bousfield localization of model categories|left Bousfield localization]] $\mathcal{C}_{loc}$ of $\mathcal{C}$ as in def. \ref{BousfieldLocalizationOfModelCategories}, then
+
+1. $Fib_{loc} \subset Fib$;
+
+1. $W_{loc} \cap Fib_{loc} = W \cap Fib$;
+
+1. the identity functors constitute a [[Quillen adjunction]]
+
+   $$
+     \mathcal{C}_{loc}
+       \underoverset
+         {\underset{id}{\longrightarrow}}
+         {\overset{id}{\longleftarrow}}
+         {\bot}
+     \mathcal{C}
+     \,.
+   $$
+
+1. the induced adjunction of [[derived functors]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)) exhibits a [[reflective subcategory]] inclusion of [[homotopy category of a model category|homotopy categories]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory))
+
+   $$
+     Ho(\mathcal{C}_{loc})
+       \underoverset
+         {\underset{\mathbb{R} id}{\longrightarrow}}
+         {\overset{\mathbb{L}id}{\longleftarrow}}
+         {\bot}
+     Ho(\mathcal{C})
+     \,.
+   $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Regarding the first two items:
+
+Using the properties of the [[weak factorization systems]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#WeakFactorizationSystem)) of (acyclic cofibrations, fibrations) and (cofibrations, acyclic fibrations) for both model structures we get
+
+$$
+  \begin{aligned}
+    Fib_{loc}
+      &=
+    (Cof_{loc} \cap W_{loc})Inj
+    \\
+      &\subset
+    (Cof_{loc} \cap W)Inj
+    \\
+      & =
+    Fib
+  \end{aligned}
+$$
+
+and
+
+$$
+  \begin{aligned}
+    Fib_{loc} \cap W_{loc}
+      & =
+    Cof_{loc} Inj
+    \\
+      & =
+    Cof \, Inj
+    \\
+      & =
+    Fib \cap W
+  \end{aligned}
+ \,.
+$$
+
+Regarding the third point:
+
+By construction, $id \colon \mathcal{C} \to \mathcal{C}_{loc}$ preserves cofibrations and acyclic cofibrations, hence is a left Quillen functor.
+
+Regarding the fourth point:
+
+Since $Cof_{loc} = Cof$ the notion of [[left homotopy]] in $\mathcal{C}_{loc}$ is the same as that in $\mathcal{C}$, and hence the inclusion of the subcategory of local cofibrant-fibrant objects into the homotopy category of the original cofibrant-fibrant objects is clearly a full inclusion. Since $Fib_{loc} \subset Fib$ by the first statement, on these cofibrant-fibrant objects the [[right derived functor]] of the identity is just the identity and hence does exhibit this inclusion.
+The left adjoint to this inclusion is given by $\mathbb{L}id$, by the general properties of Quillen adjunctions ([prop](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)).
+
+=--
+
 
 
 [[!redirects geometry of physics -- categories and toposes]]
