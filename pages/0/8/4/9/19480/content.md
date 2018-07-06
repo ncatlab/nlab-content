@@ -343,7 +343,7 @@ Even though [[groupoids]] (Def. \ref{Groupoid}) are special cases of [[categorie
 
 (In applications in [[homotopy theory]], groupoids are considered mostly in the case that the [[class]] $Obj_{\mathcal{C}}$ of [[objects]] is in fact a [[set]]: _[[small groupoids]]_, Def. \ref{SmallCategory}).
 
-For this reason we will not have more to say about [[groupoids]] here, and instead relegate their discussion to the chapter [[geometry of physics -- homotopy types|on homotopy theory]].
+For this reason we will not have more to say about [[groupoids]] here, and instead relegate their discussion to the section on homotopy theory, further [below](#BasicNotionsOfHomotopyTheory).
 
 =--
 
