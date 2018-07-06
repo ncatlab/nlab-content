@@ -333,7 +333,7 @@ Every [[sheaf topos]] is locally presentable.
 
 =--
 
-This appears for instance as ([Borceux, prop. 3.4.16, page 220](#Borceux)). It follows directly with prop. \ref{AsLocalizationOfPresheafCategories} and using that every [[sheaf topos]] is an  accessibly embedded [[subtopos]] of a [[presheaf topos]]
+This appears for instance as ([Borceux, prop. 3.4.16, page 220](#Borceux)). It follows directly with prop. \ref{AsLocalizationOfPresheafCategories} and using that every [[sheaf topos]] is an  accessibly embedded [[subtopos]] of a [[presheaf topos]] (see at _[[sheaf toposes are equivalently the left exact reflective subcategories of presheaf toposes]]_)
 
 The main ingredient of a direct proof is:
 
