@@ -190,19 +190,25 @@ That there are $10^{hundreds}$ different flux compactifications was maybe first 
 
 * [[Raphael Bousso]], [[Joseph Polchinski]], _Quantization of Four-form Fluxes and Dynamical Neutralization of the Cosmological Constant_ ([arXiv:hep-th/0004134](http://arxiv.org/abs/hep-th/0004134))
 
-The idea became popular in discussion of the [[cosmological constant]] with the articles
-
-* [[Leonard Susskind]], _The Anthropic Landscape of String Theory_ ([arXiv:hep-th/0302219](http://arxiv.org/abs/hep-th/0302219))
+The idea became popular in discussion of the [[cosmological constant]] with the alleged construction of a large set of metastable [[de Sitter spacetime]]-vacua in
 
 * {#KKLT03} [[Shamit Kachru]], [[Renata Kallosh]], [[Andrei Linde]], [[Sandip  Trivedi]], _de Sitter Vacua in String Theory_, Phys. Rev. D68:046005, 2003 ([arXiv:hep-th/0301240](http://arxiv.org/abs/hep-th/0301240))
 
   ("KKLT", a good quick review is in [Danielsson-VanRiet 18 section 2.5.1](#DanielssonVanRiet18), also [Ibanez-Uranga 12, section 15.3.1](#IbanezUranga12))
+
+and the amplification of the complication of the [KKLT 03](#KKLT03)-construction its alleged vastness in
+
+* {#Susskind03} [[Leonard Susskind]], _The Anthropic Landscape of String Theory_, in B. Carr (ed.) _Universe or multiverse_, 247-266 ([arXiv:hep-th/0302219](http://arxiv.org/abs/hep-th/0302219))
+
+  "The vacua in [KKLT 03](#KKLT03) are not at all simple.  They are jury-rigged, [Rube Goldberg contraptions](https://en.wikipedia.org/wiki/Rube_Goldberg_machine) that could hardly have fundamental significance." (p. 5)
 
 * [[Joseph Polchinski]], _The Cosmological Constant and the String Landscape_ ([arXiv:hep-th/0603249](http://arxiv.org/abs/hep-th/0603249))
 
 Review includes
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 15.3 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
+
+(Beware that the approach of [KKLT 03](#KKLT03) is argued to be false in [DanielssonVanRiet 18](#Danielsson-VanRiet18) and is being abandoned in [Obied-Ooguri-Spodyneiko-Vafa 18](#ObiedOoguriSpodyneikoVafa18), [Danielsson et. al 18](#de+Sitter+spacetime#BDDGS18)).
 
 
 The specific (but arbitrary) value  "$10^{500}$" for the typical number of flux compactification, which became iconic in public discussion of the issue, originates in 
