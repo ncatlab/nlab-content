@@ -97,6 +97,8 @@ As a partial converse to the above, if $C$ and $[C,Set]$ are locally small, then
 
 ## Related concepts
 
+* [[2-functor 2-category]]
+
 * [[(infinity,1)-category of (infinity,1)-functors]]
 
 [[!redirects functor category]]
