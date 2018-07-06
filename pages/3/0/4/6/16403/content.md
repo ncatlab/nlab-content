@@ -1,4 +1,18 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 ## Basic notions of homotopy theory
+  {#BasicNotionsOfHomotopyTheory}
 
 Traditionally, [[mathematics]] and [[physics]] have been [[foundations|founded]] on [[set theory]], whose concept of _[[sets]]_ is that of "bags of distinguishable points". 
 
@@ -23,6 +37,44 @@ and so on to ever _[[higher gauge transformations]]_ or _[[higher homotopies]]_:
 This shows that what $x$ an $y$ here are [[elements]] of is not really a [[set]] in the sense of [[set theory]]. Instead, such a collection of [[elements]] with [[higher gauge transformations]]/[[higher homotopies]] between them is called a _[[homotopy type]]_.
 
 Hence the theory of [[homotopy types]] --  _[[homotopy theory]]_ -- is much like [[set theory]], but with the concept of [[gauge transformation]]/[[homotopy]] built right into its [[foundations]]. Homotopy theory is gauged mathematics.
+
+
+A [[classical model structure on topological spaces|classical model]] for [[homotopy types]] are simply [[topological spaces]]: Their points represent the elements, the [[continuous map|continuous]] [[paths]] between points represent the [[gauge transformations]], and continuous deformations of paths represent [[higher gauge transformations]]. A central result of [[homotopy theory]] is the [[proof]] of the _[[homotopy hypothesis]]_, which says that under this identification [[homotopy types]] are [[Quillen equivalence|equivalent]] to [[topological spaces]] viewed, in turn, up to "[[weak homotopy equivalence]]".
+
+In the special case of a [[homotopy type]] with a single [[element]] $x$, the [[gauge transformations]] necessarily go from $x$ to itself and hence form a _[[group]] of [[symmetries]]_ of $x$. 
+
+<center>
+<img src="https://ncatlab.org/nlab/files/GroupActing.jpg" width="80">
+</center>
+
+This way [[homotopy theory]] subsumes [[group theory]].
+
+If there are higher order [[gauge-of-gauge transformations]]/[[homotopies of homotopies]] between these [[symmetry]] [[group]]-elements, then one speaks of _[[2-groups]]_, _[[3-groups]]_, ... _[[n-groups]]_, and eventually of _[[∞-groups]]_. When [[homotopy types]] are represented by [[topological spaces]], then [[∞-groups]] are represented by [[topological groups]].
+
+This way [[homotopy theory]] subsumes parts of [[topological group|topological]] [[group theory]].
+
+Since, generally, there is more than one element in a [[homotopy type]], these are like "groups with several elements", and as such they are called _[[groupoids]]_ (Def. \ref{Groupoid}). 
+
+If there are higher order [[gauge-of-gauge transformations]]/[[homotopies of homotopies]] between the transformations in such a [[groupoid]], one speaks of _[[2-groupoids]]_, _[[3-groupoids]]_, ... _[[n-groupoids]]_, and eventually of _[[∞-groupoids]]_. The plain [[sets]] are recovered as the special case of [[0-groupoids]].
+
+Due to the higher orders $n$ appearing here, [[mathematical structures]] based not on [[sets]] but on [[homotopy types]] are also called _[[schreiber:Higher Structures|higher structures]]_.
+
+Hence [[homotopy types]] are equivalently _[[∞-groupoids]]_. This perspective makes explicit that [[homotopy types]] are the unification of plain [[sets]] with the concept of [[gauge transformation|gauge]]-[[symmetry]] [[groups]].
+
+An efficient way of handling [[∞-groupoids]] is in their explicit guise as _[[Kan complexes]]_ (Def. \ref{KanComplexe} below); these are the non-abelian generalization of the _[[chain complexes]]_ used in [[homological algebra]]. Indeed, _[[chain homotopy]]_ is a special case of the general concept of [[homotopy]], and hence [[homological algebra]] forms but a special abelian corner within [[homotopy theory]]. Conversely, [[homotopy theory]] may be understood as the non-abelian generalization of [[homological algebra]].
+
+Hence, in a self-reflective manner, there are many different but _[[equivalence of (∞,1)-categories|equivalent]]_ incarnations of [[homotopy theory]]. Below we discuss in turn:
+
+
+* _[Topological homotopy theory](#TopologicalHomotopyTheory)_
+
+  [[∞-groupoids]] modeled by [[topological spaces]]. This is the [[classical model structure on topological spaces|classical model]] of [[homotopy theory]] familiar from traditional [[point-set topology]], such as [[covering space]]-theory.
+
+* _[Simplicial homotopy theory](#SimplicialHomotopyTheory)_.
+
+  [[∞-groupoids]] modeled on [[simplicial sets]], whose [[fibrant objects]] are the [[Kan complexes]]. This [[simplicial homotopy theory]] is [[Quillen equivalence|Quillen equivalent]] to [[topological homotopy theory]] (the "[[homotopy hypothesis]]"), which makes explicit that [[homotopy theory]] is not really about [[topological spaces]], but about the [[∞-groupoids]] that these represent.
+
+$\,$
 
 Ideally, abstract homotopy theory would simply be a complete replacement of [[set theory]], obtained by _removing_ the assumption of strict [[equality]], relaxing it to [[gauge equivalence]]/[[homotopy]]. As such, abstract homotopy theory would be part and parcel of the [[foundations of mathematics]] themselves, not requiring any further discussion. This ideal perspective is the promise of _[[homotopy type theory]]_ and may become full practical reality in the next decades.
 
@@ -7556,63 +7608,12 @@ This is the "Whitehead theorem in model categories", lemma \ref{WhiteheadTheorem
 =--
 
 
-In proving theorem \ref{TopQuillenModelStructure} we have in fact shown a bit more that stated. Looking back, all the structure of $Top_{Quillen}$ is entirely induced by the set $I_{Top}$ (def. \ref{TopologicalGeneratingCofibrations}) of generating cofibrations and the set $J_{Top}$ (def. \ref{TopologicalGeneratingAcyclicCofibrations}) of generating acyclic cofibrations (whence the terminology). This phenomenon will keep recurring and will keep being useful as we construct further model categories, such as the [[classical model structure on pointed topological spaces]] (def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces}), the [[projective model structure on enriched functors|projective model structure on topological functors]] (thm. \ref{ProjectiveModelStructureOnTopologicalFunctors}), and finally various [[model structures on spectra]] which we turn to in the [[Introduction to Stable homotopy theory -- 1|section on stable homotopy theory]].
+In proving theorem \ref{TopQuillenModelStructure} we have in fact shown a bit more that stated. Looking back, all the structure of $Top_{Quillen}$ is entirely induced by the set $I_{Top}$ (def. \ref{TopologicalGeneratingCofibrations}) of generating cofibrations and the set $J_{Top}$ (def. \ref{TopologicalGeneratingAcyclicCofibrations}) of generating acyclic cofibrations (whence the terminology). This situation is usefully summarized by the concept of _[[cofibrantly generated model category]]_ (Def. \ref{CofibrantlyGeneratedModelCategory}).
 
-Therefore we make this situation explicit:
-
-+-- {: .num_defn #CofibrantlyGeneratedModelCategory}
-###### Definition
-
-A [[model category]] $\mathcal{C}$ (def. \ref{ModelCategory}) is called **cofibrantly generated** if there exists two subsets
-
-$$
-  I, J \subset Mor(\mathcal{C})
-$$
-
-of its class of morphisms, such that
-
-1. $I$ and $J$ have small domains according to def. \ref{ClassOfMorphismsWithSmallDomains},
-
-1.  the (acyclic) cofibrations of $\mathcal{C}$ are precisely the [[retracts]], of $I$-[[relative cell complexes]] ($J$-relative cell complexes), def. \ref{TopologicalCCellComplex}.
-
-=--
-
-+-- {: .num_prop #CofibrantlyGeneratedModelCategoryLifting}
-###### Proposition
-
-For $\mathcal{C}$ a cofibrantly generated model category, def. \ref{CofibrantlyGeneratedModelCategory}, with generating (acylic) cofibrations $I$ ($J$), then its classes $W, Fib, Cof$ of weak equivalences, fibrations and cofibrations are equivalently expressed as [[injective or projective morphisms]] (def. \ref{LiftingAndExtension}) this way:
+This phenomenon will keep recurring and will keep being useful as we construct further model categories, such as the [[classical model structure on pointed topological spaces]] (def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces}), the [[projective model structure on enriched functors|projective model structure on topological functors]] (thm. \ref{ProjectiveModelStructureOnTopologicalFunctors}), and finally various [[model structures on spectra]] which we turn to in the [[Introduction to Stable homotopy theory -- 1|section on stable homotopy theory]]. 
 
 
-1. $Cof = (I Inj) Proj$
-
-1. $W \cap Fib = I Inj$;
-
-1. $W \cap Cof = (J Inj) Proj$;
-
-1. $Fib = J Inj$;
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-It is clear from the definition that $I \subset (I Inj) Proj$, so that the closure property of prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms} gives an inclusion
-
-$$
-  Cof \subset (I Inj) Proj
-  \,.
-$$
-
-For the converse inclusion, let $f \in (I Inj) Proj$. By the [[small object argument]], prop. \ref{SmallObjectArgument}, there is a factorization $f\colon \overset{\in I Cell}{\longrightarrow}\overset{I Inj}{\longrightarrow}$. Hence by assumption and by the [[retract argument]] lemma \ref{RetractArgument}, $f$ is a retract of an $I$-relative cell complex, hence is in $Cof$.
-
-This proves the first statement. Together with the closure properties of prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms}, this implies the second claim.
-
-The proof of the third and fourth item is directly analogous, just with $J$ replaced for $I$.
-
-=--
-
-
+$\,$
 
 ### The classical homotopy category
  {#TheClassicalHomotopyCategory}
@@ -10652,7 +10653,7 @@ $$
 
 +-- {: .num_prop #SimplicialSetsAsPresheavesOnTheSimplexCategory}
 ###### Proposition
-**([[simplicial sets]] as [[presheaves]] on the [[simplex category]])**
+**([[simplicial sets]] are [[presheaves]] on the [[simplex category]])**
 
 A [[functor]] 
 
@@ -10670,6 +10671,8 @@ $$
   [\Delta^{op}, Set]
   \,.
 $$
+
+In particular this means that [[sSet]] is a [[cosmos]] for [[enriched category theory]] (Example \ref{ExamplesOfCosmoi}), by Prop. \ref{PropertiesOfSheafToposes}.
 
 =--
 
@@ -11142,6 +11145,7 @@ respectively.
 
 +-- {: .num_defn #KanComplexe}
 ###### Definition
+**([[Kan complex]])**
 
 A _[[Kan complex]]_ is a [[simplicial set]] $S$ that satisfies the _Kan condition_,
 
@@ -13280,9 +13284,18 @@ $\,$
 ## Basic notions of higher topos theory
 
 
-### Local presentation
+### Locally presentable $(\infty,1)$-Categories
+ {#LocallyPresentbableInfinityCategories}
 
-The analog of the notion of [[locally presentable categories]] (Def. \ref{LocallyPresentableCategory}) for [[model categories]] are _[[combinatorial model categories]]_ (Def. \ref{CombinatorialModelCategory}) below. In addition to the ordinary condition of presentability of the underlying category, these are required to be _[[cofibrantly generated model category|cofibrant generation]]_ (Def. \ref{CofibrantlyGeneratedModelCategory} below) in that all [[cofibrations]] are [[retracts]] of [[relative cell complex]]-inclusions:
+The analog of the notion of [[locally presentable categories]] (Def. \ref{LocallyPresentableCategory}) for [[model categories]] are _[[combinatorial model categories]]_ (Def. \ref{CombinatorialModelCategory}) below. In addition to the ordinary condition of presentability of the underlying category, these are required to be _[[cofibrantly generated model category|cofibrant generation]]_ (Def. \ref{CofibrantlyGeneratedModelCategory} below) in that all [[cofibrations]] are [[retracts]] of [[relative cell complex]]-inclusions.
+
+That this is indeed the correct [[model category]]-analog of [[locally presentable categories]] is the statement of [[Dugger's theorem]] (Def. \ref{DuggerTheorem} below). 
+
+Hence as we pass to the [[localization of a category|localization]] of the [[very large category]] of [[combinatorial model categories]] at the [[Quillen equivalences]], we obtain a [[homotopy theory|homotopy-theoretic]] refinement of the [[very large category]] [[PrCat]] of [[locally presentable categories]]: [[Ho(CombModCat)]] (Def. \ref{HoCombModCat}). An [[object]] in [[Ho(CombModCat)]] we also refer to as a _[[locally presentable (∞,1)-category]]_, and a [[morphism]] in [[Ho(CombModCat)]] we also refer to as the [[equivalence class]] of an _[[(∞,1)-colimit]]-[[preserved limit|preserving]] [[(∞,1)-functor]]_.
+
+
+
+$\,$
 
 +-- {: .num_defn #CofibrantlyGeneratedModelCategory}
 ###### Definition
@@ -13375,7 +13388,7 @@ This is called the _[[category of simplicial presheaves]]_ on $\mathcal{C}$.
 ###### Proposition
 **([[model categories of simplicial presheaves]])**
 
-Let $\mathcal{C}$ be a [[small category]] (Def. \ref{SmallCategory}). Then the [[category of simplical presheaves]] $[\mathcal{C}^{op}, sSet]$ (Example \ref{CategoriesOfSimplicialPresheaves}) carries the following two [[structures]] of a [[model category]] (Def. \ref{ModelCategory})
+Let $\mathcal{C}$ be a [[small category]] (Def. \ref{SmallCategory}). Then the [[category of simplicial presheaves]] $[\mathcal{C}^{op}, sSet]$ (Example \ref{CategoriesOfSimplicialPresheaves}) carries the following two [[structures]] of a [[model category]] (Def. \ref{ModelCategory})
 
 1. the _[[projective model structure on simplicial presheaves]]_
 
@@ -13441,7 +13454,7 @@ Given a [[left Bousfield localization of model categories|left Bousfield localiz
      \,.
    $$
 
-1. the induced adjunction of [[derived functors]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)) exhibits a [[reflective subcategory]] inclusion of [[homotopy category of a model category|homotopy categories]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory))
+1. the induced adjunction of [[derived functors]] (Prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}) exhibits a [[reflective subcategory]] inclusion of [[homotopy category of a model category|homotopy categories]] (Def. \ref{HomotopyCategoryOfAModelCategory})
 
    $$
      Ho(\mathcal{C}_{loc})
@@ -13506,7 +13519,7 @@ The left adjoint to this inclusion is given by $\mathbb{L}id$, by the general pr
 
 The following proposition says that Definition \ref{CombinatorialModelCategory} of [[combinatorial model categories]] is indeed the suitable analog of Def. \ref{LocallyPresentableCategory} of [[locally presentable categories]]:
 
-+-- {: .num_example #DuggerTheorem}
++-- {: .num_prop #DuggerTheorem}
 ###### Proposition
 **([[Dugger's theorem]])**
 
@@ -13531,3 +13544,76 @@ Let $\mathcal{C}$ be a [[combinatorial model category]] (Def. \ref{Combinatorial
 
 
 =--
+
++-- {: .num_defn #HoCombModCat}
+###### Definition
+**([[presentable (∞,1)-categories]])**
+
+Write $CombModCat$ for the [[very large category]] whose [[objects]] are [[combinatorial model categories]] (Def. \ref{CombinatorialModelCategory}) and whose morphisms are [[left Quillen functors]] between them (Def. \ref{QuillenAdjunction}).
+
+We write
+
+[[Ho(CombModCat)]] $\coloneqq CombModCat\big[ QuillenEquivs^{-1}\big]$
+
+for its [[localization]] (Def. \ref{LocalizationOfACategory}) at the [[Quillen equivalences]] (Def. \ref{QuillenEquivalence}).
+
+An [[object]] in [[Ho(CombModCat)]] we also refer to as a _[[locally presentable (∞,1)-category]]_, and a [[morphism]] in [[Ho(CombModCat)]] we also refer to as the [[equivalence class]] of an _[[(∞,1)-colimit]]-[[preserved limit|preserving]] [[(∞,1)-functor]]_.
+
+=--
+
+$\,$
+
+### $(\infty,1)$-Toposes
+
+The characterization of [[sheaf toposes are equivalently the left exact reflective subcategories of presheaf toposes|sheaf toposes as the left exact reflective localizations of presheaf toposes]] (Prop. \ref{SheafToposViaLexReflection}) now has an immediate generalization from the realm of [[locally presentable categories]] to that of [[combinatorial model categories]] and their corresponding [[locally presentable (∞,1)-categories]] (Def. \ref{HoCombModCat}): This yields concept of [[model toposes]] and [[(∞,1)-toposes]] (Def. \ref{ModelTopos} below).
+
+$\,$
+
++-- {: .num_prop #ModelTopos}
+###### Definition
+**([[model topos]] and [[(∞,1)-topos]])**
+
+A [[combinatorial model category]] (Def. \ref{CombinatorialModelCategory}) is a _[[model topos]]_ if it has a presentation via [[Dugger's theorem]] (Prop. \ref{DuggerTheorem})
+
+\[
+  \label{LexBousfieldLocalizationOfSimplicialPresheaves}
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj,S}
+     \underoverset
+       {\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}}
+       {\overset{id}{\longleftarrow}}
+       {\bot_{Qu}}
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj}  
+\]
+
+such that the [[left derived functor]] $\mathbb{L}id$ preserves [[finite limit|finite]] [[homotopy limits]].
+
+We denote the image of such a [[combinatorial model category]] under the [[localization of a category|localization]] [[functor]] $\gamma$ in [[Ho(CombModCat)]] (Def. \ref{HoCombModCat}) by
+
+$$
+  Sh_\infty(\mathcal{C})
+  \;\coloneqq\;
+  \gamma([\mathcal{C}^{op}, sSet_{Qu}]_{proj,S})
+  \;\in\;
+  Ho(CombModCat)
+$$
+
+and call this an _[[(∞,1)-topos]]_ over a [[site]] $\mathcal{C}$.
+Moreover, we denote the image of the defining [[Quillen adjunction]] (eq:LexBousfieldLocalizationOfSimplicialPresheaves) in [[Ho(CombModCat)]] by
+
+$$
+  Sh_\infty(\mathcal{C})
+    \underoverset
+      {\underset{\phantom{AAAA}}{\hookrightarrow}}
+      {\overset{lex}{\longleftarrow}}
+      {\bot}
+  PSh_\infty(\mathcal{C})
+  \;\;
+  \in
+  Ho(CombModCat)
+  \,.
+$$
+
+=--
+
+
+
