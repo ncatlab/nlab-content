@@ -55,6 +55,7 @@ such that
 ## Examples
 
 ### Homotopy 2-category of combinatorial model categories
+  {#Homotopy2CategoryOfCombinatorialModelCategories}
 
 +-- {: .num_example #2CategoryOfModelCategories}
 ###### Definition
@@ -72,7 +73,7 @@ Write
 ###### Remark
 **(local presentation of combinatorial model categories)**
 
-By [[Dugger's thereom]], we may choose for every $\mathcal{C} \in CombModCat$ a [[simplicial set]] $\mathcal{S}$ and a [[Quillen equivalence]]
+By [[Dugger's theorem]], we may choose for every $\mathcal{C} \in CombModCat$ a [[simplicial set]] $\mathcal{S}$ and a [[Quillen equivalence]]
 
 $$
   \mathcal{C}^p
