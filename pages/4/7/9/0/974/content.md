@@ -389,13 +389,13 @@ See at _[Functor category -- Local presentability](http://ncatlab.org/nlab/show/
 
 The definition is due to
 
-* P. Gabriel and F. Ulmer, _Lokal pr&#228;sentierbare Kategorien_, Springer LNM 221, 1971
-{#GabrielUlmer}
+* {#GabrielUlmer} [[Pierre Gabriel]], [[Friedrich Ulmer]], _Lokal pr&#228;sentierbare Kategorien_, Springer LNM 221, 1971
+
 
 The standard textbook is
 
-* [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
- {#AdamekRosicky}
+* {#AdamekRosicky} [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
+ 
 
 
 More details are in 
@@ -405,8 +405,8 @@ More details are in
 
 Some further discussion is in 
 
-* [[Francis Borceux]], _Handbook of Categorical Algebra: III Categories of Sheaves_ (proposition 3.4.16), page 220. 
-{#Borceux}
+* {#Borceux} [[Francis Borceux]], _[[Handbook of Categorical Algebra]]: III Categories of Sheaves_ (proposition 3.4.16), page 220. 
+
 
 See also section A.1.1 of 
 
