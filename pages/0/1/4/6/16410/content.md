@@ -50,11 +50,13 @@ A [[no-go theorem]] for [[KK-compactifications]] down to de Sitter spacetime cla
 
 * {#MaldacenaNunez01} [[Juan Maldacena]], Carlos Nunez, _Supergravity description of field theories on curved manifolds and a no go theorem_, Int.J.Mod.Phys. A16 (2001) 822-855 ([arXiv:hep-th/0007018](https://arxiv.org/abs/hep-th/0007018))
 
-Discussion in [[quantum gravity]] includes
+Discussion of de Sitter spacetime in [[quantum gravity]] includes
 
-* {#Witten01} [[Edward Witten]], _Quantum Gravity In De Sitter Space_ ([arXiv:hep-th/0106109](http://lanl.arxiv.org/abs/hep-th/0106109))
+* {#Witten01} [[Edward Witten]], _Quantum Gravity In De Sitter Space_, talk at [Strings 2001](http://theory.tifr.res.in/strings/),  ([arXiv:hep-th/0106109](http://lanl.arxiv.org/abs/hep-th/0106109))
 
-* {#Rejeraman16} [[Arvind Rajaraman]], _de Sitter Space is Unstable in Quantum Gravity_ ([arXiv:1608.07237](http://arxiv.org/abs/1608.07237))
+* Dietmar Klemm, Luciano Vanzo, _Aspects of Quantum Gravity in de Sitter Spaces_, Journal of Cosmology and Astroparticle Physics, Volume 2004, November 2004 ([arXiv:hep-th/0407255](https://arxiv.org/abs/hep-th/0407255))
+
+* {#Rajaraman16} [[Arvind Rajaraman]], _de Sitter Space is Unstable in Quantum Gravity_, Phys. Rev. D 94, 125025 (2016) ([arXiv:1608.07237](http://arxiv.org/abs/1608.07237))
 
 
 Discussion of de Sitter [[perturbative string theory vacua]] and their role (or not) in the [[landscape of string theory vacua]] is in
