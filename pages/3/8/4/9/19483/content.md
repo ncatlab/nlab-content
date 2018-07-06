@@ -2,7 +2,20 @@
 ## Basic notions of Topos theory
   {#BasicNotionsOfToposTheory}
 
-We have explained in Remark \ref{PresaheavesAsGeneralizedSpaces} how [[presheaves]] on a [[category]] $\mathcal{C}$ may be thought of as _[[generalized spaces]] probe-able by the objects of $\mathcal{C}$_, and that two consistency conditions on this interpretation are provided by the [[Yoneda lemma]] (Prop. \ref{YonedaLemma}) and the resulting [[Yoneda embedding]] (Prop. \ref{YonedaEmbedding}). Here we turn to a third consistency condition that one will want to impose:
+We have explained in Remark \ref{PresaheavesAsGeneralizedSpaces} how [[presheaves]] on a [[category]] $\mathcal{C}$ may be thought of as _[[generalized spaces]] probe-able by the objects of $\mathcal{C}$_, and that two consistency conditions on this interpretation are provided by the [[Yoneda lemma]] (Prop. \ref{YonedaLemma}) and the resulting [[Yoneda embedding]] (Prop. \ref{YonedaEmbedding}). Here we turn to a third consistency condition that one will want to impose, namely a _locality_ or _gluing condition_ (Remark \ref{SheafConditionAsLocality} below), to be called the _[[sheaf]]_ condition (Def. \ref{SheafConditionAsLocality} below).
+
+More in detail, we had seen that any [[category of presheaves]] $[\mathcal{C}^{op}, Set]$ is the [[free cocompletion]] of the given [[small category]] $\mathcal{C}$ (Prop. \ref{FreeCocompletion}) and hence exhibits [[generalized spaces]] $\mathbf{X} \in [\mathcal{C}^{op}, Set]$ as being glued or _[[generators and relations|generated]]_ form the "ordinary spaces" $X \in \mathcal{C}$. Further conditions to be imposed now will impose _[[generators and relations|relations]]_ among these generators, such as the locality relation embodied by the [[sheaf]]-condition.
+
+It turns out that these relations are reflected by special properties of an [[adjunction]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) that relates [[generalized spaces]] to ordinary [[spaces]]:
+
+**[[generalized spaces]] via [[generators and relations]]:**
+
+| $\phantom{A}$[[free cocompletion]]$\phantom{A}$ <br/> $\phantom{A}=$[[category of presheaves|presheaves]]$\phantom{A}$  | $\phantom{A}$[[reflective subcategory]]$\phantom{A}$ <br/> $\phantom{A}$of [[category of presheaves|presheaves]]$\phantom{A}$ | $\phantom{A}$[[locally presentable category|loc. presentable category]]$\phantom{A}$ | $\phantom{A}$[[sheaf topos]]$\phantom{AAAA}$ |  
+|-----|---|-------|------|
+| $\phantom{A}\mathbf{H} \underoverset{\underset{\phantom{AAA}}{\longrightarrow}}{\overset{}{\longleftarrow}}{\simeq} [\mathcal{C}^{op},Set]$  | $\phantom{A}\mathbf{H} \underoverset{\underset{\phantom{AAAA}}{\hookrightarrow}}{\overset{}{\longleftarrow}}{\bot} [\mathcal{C}^{op}, Set]$ | $\phantom{A}\mathbf{H} \underoverset{\underset{\text{accessible}}{\hookrightarrow}}{\overset{}{\longleftarrow}}{\bot} [\mathcal{C}^{op}, Set]$ | $\phantom{A}\mathbf{H} \underoverset{\underset{\text{accessible}}{\hookrightarrow}}{\overset{\text{left exact}}{\longleftarrow}}{\bot} [\mathcal{C}^{op}, Set]$ |
+| $\phantom{A}$Prop. \ref{FreeCocompletion}$\phantom{A}$ | $\phantom{A}$Def. \ref{ReflectiveSubcategory}$\phantom{A}$  | $\phantom{A}$Def. \ref{LocallyPresentableCategory}$\phantom{A}$ | $\phantom{A}$Prop. \ref{SheafToposViaLexReflection}$\phantom{A}$ |
+
+
 
 +-- {: .num_remark #SheafConditionAsLocality}
 ###### Remark
@@ -728,22 +741,6 @@ Let $\mathcal{C}$ be a [[site]] (Def. \ref{Coverage}) and  $Sh(\mathcal{C})$ its
 =--
 
 
-(...)
-
-+-- {: .num_theorem}
-###### Theorem
-**([[Giraud's theorem]])**
-
-A [[sheaf topos]] is equivalently a [[presentable category]] with
-
-1. [[universal colimits]],
-
-1. [[effective quotients]],
-
-1. [[disjoint coproducts]].
-
-=--
-
 $\,$
 
 
@@ -1118,3 +1115,79 @@ $$
 which is exactly the condition (eq:GluingCondition) that makes $(\phi_i)_i$ a matching family.
 
 =--
+
+$\,$
+
+### Local presentation
+
+We now discuss a more abstract characterization of [[sheaf toposes]], in terms of properties enjoyed by the [[adjunction]] that relates them to the corresponding [[categories of presheaves]].
+
++-- {: .num_defn #LocallyPresentableCategory}
+###### Definition
+**([[locally presentable category]])**
+
+A [[category]] $\mathbf{H}$ (Def. \ref{Categories}) is called _[[locally presentable category|locally presentable]]_ if there exists a [[small category]] $\mathcal{C}$ (Def. \ref{SmallCategory}) and a [[reflective subcategory]]-inclusion of $\mathcal{C}$ into its [[category of presheaves]] (Example \ref{CategoryOfPresheaves})
+
+$$
+  \mathbf{H}
+    \underoverset
+      {\underset{\text{acc}}{\hookrightarrow}}
+      {\overset{\phantom{AA}L\phantom{AA}}{\longleftarrow}}
+      {\bot}
+  [\mathcal{C}^{op}, Set]
+$$
+
+such that the inclusion functor is an _[[accessible functor|accessible functor]]_ in that it preserves $\kappa$-[[filtered colimits]] for some [[regular cardinal]] $\kappa$.
+
+=--
+
+
++-- {: .num_prop #GiraudTheorem}
+###### Proposition
+**([[Giraud's theorem]])**
+
+A [[sheaf topos]] (Def. \ref{Sheaf}) is equivalently a [[locally presentable category]] (Def. \ref{LocallyPresentableCategory}) with
+
+1. [[universal colimits]],
+
+1. [[effective quotients]],
+
+1. [[disjoint coproducts]].
+
+=--
+
+
++-- {: .num_prop #SheafToposViaLexReflection}
+###### Proposition
+**([[sheaf toposes are equivalently the left exact reflective subcategories of presheaf toposes]])**
+
+Let $(\mathcal{C}, \tau)$ be a [[site]] (Def. \ref{Coverage}). 
+Then the [[full subcategory]] inclusion $i \colon Sh(\mathcal{C},\tau) \hookrightarrow PSh(\mathcal{C})$ of its [[sheaf topos]] (Def. \ref{Sheaf}) into its [[category of presheaves]] is a [[reflective subcategory]] inclusion (Def. \ref{ReflectiveSubcategory}) 
+
+$$
+  Sh(\mathcal{C},\tau)
+   \underoverset
+     {\underset{\iota}{\hookrightarrow}}
+     {\overset{\phantom{AA}L\phantom{AA}}{\longleftarrow}}
+     {\bot}
+  PSh(\mathcal{C})
+$$
+
+such that:
+
+1. the inclusion $\iota$ is an [[accessible functor]], thus exhibiting $Sh(\mathcal{C},\tau)$ as a [[locally presentable category]] (Def. \ref{LocallyPresentableCategory})
+
+1. the reflector $L \colon PSh(\mathcal{C})  \to Sh(\mathcal{C})$ (which is [[sheafification]], Prop. \ref{Sheafification}) preserves [[finite limits]].
+
+Conversely, every [[sheaf topos]] arises this way: Given a [[small category]] $\mathcal{C}$ there is a [[bijection]] between 
+
+1. the [[equivalence classes]] of left exact reflective subcategories $\mathcal{E} \hookrightarrow PSh(\mathcal{C})$ of the [[category of presheaves]] 
+
+1. [[Grothendieck topologies]] $\tau$ on $\mathcal{C}$, 
+
+which is such that $\mathcal{E} \simeq Sh(\mathcal{C}, \tau)$. 
+
+=--
+
+(e.g. [Borceux 94, prop. 3.5.4, cor. 3.5.5](sheaf+toposes+are+equivalently+the+left+exact+reflective+subcategories+of+presheaf+toposes#Borceux94))
+
