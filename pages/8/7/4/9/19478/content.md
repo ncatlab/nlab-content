@@ -1,4 +1,3 @@
-[[!redirects sheaves on a topological space]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -94,6 +93,8 @@ Examples of spatial toposes which are not _manifestly_ spatial, by usual their d
 
 * {#MacLaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
+[[!redirects sheaves on a topological space]]
+[[!redirects sheaves on topological spaces]]
 
 [[!redirects category of sheaves on a locale]]
 [[!redirects categories of sheaves on a locale]]
