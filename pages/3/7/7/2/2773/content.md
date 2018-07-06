@@ -1,7 +1,21 @@
-* toc
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
 {: toc}
 
-# Definition of Ho(Cat)
+## Definition of Ho(Cat)
 
 **Ho(Cat)** is a name for the [[homotopy category]] of [[Cat]].  That is, $Ho(Cat)$ is the [[category]]
 
@@ -20,7 +34,7 @@ This is an instance of a general construction which, given a [[2-category]], or 
 
 It can also be viewed as an instance of the homotopy category of a [[model category]] (or more generally a [[category with weak equivalences]]).  The category $Ho(Cat)$ as defined above is equivalent to the category obtained from $Cat$ by forcing all [[equivalences of categories]] to be isomorphisms (by [[localization|localizing]]).  This is for the same reason that the category $hTop$ of [[topological spaces]] and [[homotopy]] classes of [[continuous maps]] is equivalent to the category obtained from $Top$ by inverting the homotopy equivalences (namely, the existence of [[cylinder objects]] and/or [[path objects]]).  Indeed, a [[cylinder object]] for a category $C$ is the [[product category]] $C \times I$ where $I$ is the category with two objects 0 and 1 and an isomorphism $0 \to 1$.  It is not difficult to see that an isomorphism of functors is the same as a [[homotopy]] of functors with the respect to the [[canonical model structure]] on $Cat$.
 
-# Subcategories of Ho(Cat)
+## Subcategories of Ho(Cat)
 
 Some notable full subcategories of $Ho(Cat)$ include
 
@@ -28,7 +42,7 @@ Some notable full subcategories of $Ho(Cat)$ include
 * The category whose objects are [[groups]] and whose morphisms are [[conjugacy class]]es of [[group homomorphism]]s.  This can be identified with the full subcategory of $Ho(Gpd)$ whose objects are the connected groupoids.  This category sometimes arises in the study of [[gerbes]].
 
 
-# Ho(Cat)-categories
+## Ho(Cat)-categories
 
 Like the homotopy category of any model category, $Ho(Cat)$ has [[products]] and [[coproducts]], and is in particular a [[cartesian monoidal category]].  Therefore, we can talk about categories [[enriched category|enriched over]] $Ho(Cat)$.  Such a "$Ho(Cat)$-category" consists of
 
@@ -45,7 +59,7 @@ Although $Ho(Cat)$-categories are not very useful, there are some interesting th
 * Any [[2-functor]] between bicategories which induces an equivalence of underlying $Ho(Cat)$-categories is in fact itself an equivalence of bicategories (or "biequivalence").
 
 
-# Other limits and colimits {#OtherLimits}
+## Other limits and colimits {#OtherLimits}
 
 Although $Ho(Cat)$ has products and coproducts, like most homotopy categories it is not well-endowed with other [[limits]].  The following concrete example shows that it (and also $Ho(Gpd)$) fails to have [[pullbacks]].
 
@@ -73,8 +87,10 @@ Let $c_1$ be such that $f(c_1)=b$.  If $g(c_1)$ is not the identity, let $c=c_1$
 
 Since all the categories involved were groupoids (except possibly $P$), the same argument shows that $Ho(Gpd)$ doesn't have pullbacks.  Moreover, basically the same argument, regarding groupoids as connected 1-types, shows that the homotopy category of topological spaces doesn't have pullbacks either (in this case the final contradiction is derived from $\pi_1(P)$ instead of $P$ itself).
 
-## See also
+## Related concepts
 
 * [[canonical model structure]]
+
+* [[Ho(CombModCat)]]
 
 category: category
