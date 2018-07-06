@@ -59,7 +59,7 @@ such that
 
 +-- {: .num_example #2CategoryOfModelCategories}
 ###### Definition
-**(the [[2-category]] of ([[combinatorial model category|combinatoria]] [[model categories]])**
+**(the [[2-category]] of [[combinatorial model category|combinatoria]] [[model categories]])**
 
 Write 
 
@@ -115,7 +115,7 @@ This is the statement of [Renaudin 06, theorem 2.3.2](#Renaudin06).
 
 For $\mathcal{C}$ a [[2-category]] write
 
-1. $\mathcal{C}_0$ for the 1-category obtained dy discarding all [[2-morphisms]];
+1. $\mathcal{C}_0$ for the 1-category obtained by discarding all [[2-morphisms]];
 
 1. $\pi_0^{iso}(\mathcal{C})$ for the [[1-category]] obtained by identifying isomorphic [[2-morphisms]].
 
@@ -134,7 +134,7 @@ $$
   \pi_0^{iso}( CombModCat[QuillenEquivalences^{-1}] )
 $$
 
-induced from the [[2-localization]] of Theorem \ref{Homotopy2CategoryOf2CatOfCombinatorialModelCategories} exhibits the ordinary [[localization of a category]] of the 1-category $CombModCat$ at the [[Quillen equivalences]].
+induced from the [[2-localization]] of Theorem \ref{Homotopy2CategoryOf2CatOfCombinatorialModelCategories} exhibits the ordinary [[localization of a category]] of the 1-category $CombModCat$ at the [[Quillen equivalences]], hence [[Ho(CombModCat)]].
 
 =--
 
@@ -151,9 +151,13 @@ This is the statement of [Renaudin 06, cor. 2.3.8](#Renaudin06).
 
 ## References
 
-* {#Renaudin06} Olivier Renaudin, section 1.2 of _Theories homotopiques de Quillen combinatoires et derivateurs de Grothendieck_ ([arXiv:math/0603339](https://arxiv.org/abs/math/0603339))
+* {#Renaudin06} [[Olivier Renaudin]], section 1.2 of _Theories homotopiques de Quillen combinatoires et derivateurs de Grothendieck_ ([arXiv:math/0603339](https://arxiv.org/abs/math/0603339))
 
 [[!redirects localizations of a 2-category]]
+
+[[!redirects 2-localization of a 2-category]]
+[[!redirects 2-localizations of a 2-category]]
+[[!redirects 2-localizations 2-categories]]
 
 [[!redirects 2-localization]]
 [[!redirects 2-localizations]]
