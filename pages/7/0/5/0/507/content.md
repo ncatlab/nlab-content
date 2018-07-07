@@ -297,11 +297,14 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 * [[sheaf]]
 
-* [[category of sheaves]]
+* [[category of sheaves]], 
 
-* [[Grothendieck topos]]
+* [[Grothendieck topos]], [[sheaf topos]]
 
   * [[Giraud's theorem]]
+
+  * [[sheaf toposes are equivalently the left exact reflective subcategories of presheaf toposes]]
+
 
 * [[subcanonical topology]], [[canonical topology]]
 
