@@ -69,6 +69,10 @@ Survey and discussion includes
 
 * [[Gian Francesco Giudice]], _The Dawn of the Post-Naturalness Era_ ([arXiv:1710.07663](https://arxiv.org/abs/1710.07663))
 
+An attempt to make the notion precise is due to
+
+* Greg Anderson, Diego Castano, _Measures of fine tuning_, Phys. Lett.B 347:300-308, 1995 ([arXiv:hep-ph/9409419](https://arxiv.org/abs/hep-ph/9409419))
+
 Critical comments are in
 
 * {#Wilson04} [[Kenneth Wilson]], _The Origins of Lattice Gauge Theory_, ([arXiv:hep-lat/0412043](http://arxiv.org/abs/hep-lat/0412043))
@@ -77,6 +81,7 @@ Critical comments are in
 
 * {#Kane17} [[Gordon Kane]], _String theory and the real world_, Morgan & Claypool, 2017 (<a href="http://iopscience.iop.org/book/978-1-6817-4489-6">doi:0.1088/978-1-6817-4489-6</a>)
 
+* [[James Wells]], _Naturalness, Extra-Empirical Theory Assessments, and the Implications of Skepticism_ ([arXiv:1806.07289](https://arxiv.org/abs/1806.07289))
 
 See also
 
