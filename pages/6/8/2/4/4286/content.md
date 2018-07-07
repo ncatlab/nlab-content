@@ -68,6 +68,8 @@ Some candidate [[astrophysics|astrophysical]] objects which seem to point to bla
 
 * [[Penrose-Hawking singularity theorem]], [[cosmic censorship hypothesis]]
 
+* [[extremal black hole]]
+
 * [[generalized second law of thermodynamics]]
 
 * [[black hole information paradox]]
