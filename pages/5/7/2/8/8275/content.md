@@ -152,10 +152,10 @@ It follows that in the preorder of syntopogenous structures on $X$, the symmetri
 
 Finally, for any function $f:X\to Y$, the preimage function $f^*$, mapping syntopogenous structures on $Y$ to those on $X$, preserves all of these coreflections.  Therefore, the full subcategories of
 
-* simple,
+* simple (i.e. quasi-proximity),
 * symmetric,
 * perfect, and
-* biperfect
+* biperfect (i.e. quasi-uniformity)
 
 syntopogenous spaces are all coreflective in $STpg$, with coreflections written $(-)^t$, $(-)^s$, $(-)^p$, and $(-)^b$ respectively.
 
@@ -167,7 +167,7 @@ In general, of course, coreflections into distinct subcategories do not commute 
 
 syntopogenous spaces are all coreflective in $STpg$, with coreflections $(-)^{t s}$, $(-)^{t p}$, and $(-)^{t b}$ respectively.  Finally, it is evident by construction that $(-)^b$ preserves symmetry, so the full subcategories of
 
-* symmetric biperfect, and
+* symmetric biperfect (i.e. uniformity), and
 * simple symmetric biperfect (i.e. setoids)
 
 syntopogenous spaces are also both coreflective in $STpg$, with coreflections $(-)^{s b}$ and $(-)^{t s b}$ respectively.
