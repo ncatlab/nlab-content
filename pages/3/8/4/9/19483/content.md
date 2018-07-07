@@ -1138,7 +1138,7 @@ $$
   [\mathcal{C}^{op}, Set]
 $$
 
-such that the inclusion functor is an _[[accessible functor|accessible functor]]_ in that it preserves $\kappa$-[[filtered colimits]] for some [[regular cardinal]] $\kappa$.
+such that the inclusion functor is an _[[accessible functor|accessible functor]]_ in that it [[[preserved limit|preserves]] $\kappa$-[[filtered colimits]] for some [[regular cardinal]] $\kappa$.
 
 =--
 
@@ -1178,16 +1178,25 @@ such that:
 
 1. the inclusion $\iota$ is an [[accessible functor]], thus exhibiting $Sh(\mathcal{C},\tau)$ as a [[locally presentable category]] (Def. \ref{LocallyPresentableCategory})
 
-1. the reflector $L \colon PSh(\mathcal{C})  \to Sh(\mathcal{C})$ (which is [[sheafification]], Prop. \ref{Sheafification}) preserves [[finite limits]].
+1. the reflector $L \colon PSh(\mathcal{C})  \to Sh(\mathcal{C})$ (which is [[sheafification]], Prop. \ref{Sheafification}) is [[left exact functor|left exact]] ("lex") in that it [[preserved limit|preserves]] [[finite limits]].
 
-Conversely, every [[sheaf topos]] arises this way: Given a [[small category]] $\mathcal{C}$ there is a [[bijection]] between 
+Conversely, every [[sheaf topos]] arises this way. Hence [[sheaf toposes]] $\mathbf{H}$ are equivalently 
 
-1. the [[equivalence classes]] of left exact reflective subcategories $\mathcal{E} \hookrightarrow PSh(\mathcal{C})$ of the [[category of presheaves]] 
+1. the [[left exact functor|left exact]]-[[reflective subcategory|reflectively]] and [[accessible functor|accessibly]]-embedded [[full subcategories]] of [[presheaf toposes]];
 
-1. [[Grothendieck topologies]] $\tau$ on $\mathcal{C}$, 
+1. the [[left exact functor|left exact]]-[[reflective subcategory|reflectively]]-embedded [[locally presentable category|locally presentbale]] [[full subcategories]] of [[categories of presheaves]]:
 
-which is such that $\mathcal{E} \simeq Sh(\mathcal{C}, \tau)$. 
 
+$$
+  \mathbf{H}
+   \underoverset
+     {\underset{\phantom{AA}acc\phantom{AA}}{\hookrightarrow}}
+     {\overset{\phantom{AA}lex\phantom{AA}}{\longleftarrow}}
+     {\bot}
+  PSh(\mathcal{C})
+$$
+
+ 
 =--
 
 (e.g. [Borceux 94, prop. 3.5.4, cor. 3.5.5](sheaf+toposes+are+equivalently+the+left+exact+reflective+subcategories+of+presheaf+toposes#Borceux94))
