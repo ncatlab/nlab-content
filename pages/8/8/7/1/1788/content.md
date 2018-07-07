@@ -22,6 +22,9 @@ $$
       {\overset{L}{\longleftarrow}}
       {\bot}
   Sh_\infty(\mathcal{C})
+  \;\;
+  \in
+  Ho(CombModCat)
 $$
 
 hence the [[left Bousfield localization]] of [[model categories]]
@@ -33,6 +36,9 @@ $$
       {\overset{id}{\longleftarrow}}
       {\phantom{{}_{Qu}}\bot_{Qu}}
   [\mathcal{C}^{op}, sSet_{Qu}]_{proj,loc}
+  \;\;
+  \in 
+  CombModCat
 $$
 
 at the set of morphisms
