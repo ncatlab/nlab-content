@@ -42,6 +42,7 @@ Bunched logics naturally have semantics in categories with more than one [[monoi
 * [[separation logic]]
 * [[display logic]]
 * [[substructural logic]]
+* [[monoidal topos]]
 
 ## References
 
