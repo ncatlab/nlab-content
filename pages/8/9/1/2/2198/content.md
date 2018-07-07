@@ -115,6 +115,8 @@ On the other side, if we start with $\bowtie$ then by a round-trip we obtain $A\
 
 In other words, the two constructively reasonable ways to define a (quasi-)proximity space give the same result in the Decomposable case.
 
+On the other hand, the Decomposability axiom is very strong, constructively; as noted [below](#Uniform), the standard way to make a proximity space from a uniform space does not satisfy it.  Thus constructive treatments of proximity such as [Bridges-Vita](#BridgesVita) have usually not included Decomposability, instead using the weaker Transitivity axiom (called the *Efremovic property* in [Bridges-Vita](#BridgesVita)).
+
 
 ## Relations to other topological structures
 
@@ -168,9 +170,9 @@ The arguments for proximal apartness spaces are essentially the same.
 Conversely, if $X$ is a completely regular topological space, then the above definition that $A \bowtie B$ iff they are separated by a continuous function $f: X\to [0,1]$ is also constructively valid, and produces a proximity space satisfying Symmetry and Decomposability.
 
 
-### Uniform spaces
+### Uniform spaces {#Uniform}
 
-If $Y$ is a [[uniform space]], then for all $A, B \subseteq Y$ let $A \;\delta\; B$ iff $V \cap (A \times B)$ is [[inhabited set|inhabited]] for every [[entourage]] (aka vicinity) $V$. This defines a biperfect proximity structure on $Y$.  In terms of the other relations, this means $A\bowtie B$ iff $V \cap (A \times B) = \emptyset$ for some entourage $V$, and $A\ll B$ iff $V[A] \subseteq B$, where $V[A] = \{ y \mid \exists x\in A, (x,y)\in V \}$.
+If $Y$ is a [[uniform space]], then for all $A, B \subseteq Y$ let $A \;\delta\; B$ iff $V \cap (A \times B)$ is [[inhabited set|inhabited]] for every [[entourage]] (aka vicinity) $V$. This defines a biperfect proximity structure on $Y$.  In terms of the other relations, this means $A\bowtie B$ iff $V \cap (A \times B) = \emptyset$ for some entourage $V$, and $A\ll B$ iff $V[A] \subseteq B$ for some entourage $V$, where $V[A] = \{ y \mid \exists x\in A, (x,y)\in V \}$.
 
 [[uniformly continuous map|Uniformly continuous functions]] are proximally continuous for the induced proximities, so we have a functor $Unif \to Prox$ over $Set$.  Moreover, the composite $Unif \to Prox \to Top$ is the usual "underlying topology" functor of a uniform space, i.e. the topology induced by the uniformity and the topology induced by the proximity structure are the same.
 
@@ -186,8 +188,9 @@ The relation between quasi-uniformities and quasi-proximities is similar.
 
 In [[constructive mathematics]], all three of the relations $\delta,\bowtie,\ll$ may be defined as above from a uniformity.  All the axioms of all three kinds of proximity are then provable, except Binary Additivity for $\delta$, Strong Symmetry for $\ll$, and (Local) Decomposability.  Local Decomposability follows from [[uniform regularity]] for the uniform space, but Decomposability seems unobtainable in this way; it seems to assert [[located subspace|locatedness]] of all subsets.
 
-However, there is a different way to obtain a proximity underlying a uniformity: define $A\bowtie B$ if there is a uniformly continuous function $f: X\to [0,1]$ such that $f(x) = 0$ for $x \in A$ and $f(x) = 1$ for $x \in B$.  Classically, this is equivalent to the usual definition, by the usual proof that any unform space is completely regular.  Constructively, it (and a similar definition for $\ll$) yields a proximity space satisfying Decomposability, which has the same underlying topology *if* our original uniform space was already [[completely regular space|completely regular]].
+Moreover, constructively not every $\bowtie$- or $\ll$-proximity is induced by a uniformity in this way.  Consider, on an inhabited set $X$, the relation $A\bowtie B$ defined to mean $A = \emptyset \vee B=\emptyset$.  This is a $\bowtie$-proximity, but if it is induced by a uniformity, then [[weak excluded middle]] holds.  To see this, given a proposition $P$, fix $\xi\in X$ and let $A = \{ x \mid x=\xi \wedge P\}$ and $B = \{x \mid x=\xi \wedge \neg P\}$.  Then $A\times B = \emptyset$, hence $A\bowtie B$ in any proximity defined from a uniformity; but to say $A = \emptyset \vee B=\emptyset$ is weak excluded middle for $P$.  (This example is from [Bridges and Vita](#BridgesVita).)
 
+However, there is a different way to obtain a proximity underlying a uniformity: define $A\bowtie B$ if there is a uniformly continuous function $f: X\to [0,1]$ such that $f(x) = 0$ for $x \in A$ and $f(x) = 1$ for $x \in B$.  Classically, this is equivalent to the usual definition, by the usual proof that any uniform space is completely regular.  Constructively, it (and a similar definition for $\ll$) yields a proximity space satisfying Decomposability, which has the same underlying topology *if* our original uniform space was already [[completely regular space|completely regular]].  It seems possible that at least with [[countable choice]], we could show that every Decomposable proximity space arises from a uniform space in this way.
 
 ### Syntopogenous spaces
 
@@ -230,7 +233,9 @@ Symmetry probably doesn\'t fit into this picture very well, but who knows?
 
 *  R. Engelking, _General topology_, chapter 8.
 
-*  [[Douglas Bridges]] et al, _Apartness, topology, and uniformity: a constructive view_, [pdf](http://www.math.canterbury.ac.nz/mathlsv/dagstuhl01.pdf)
+*  [[Douglas Bridges]], Peter Schuster, and Luminita Vita, _Apartness, topology, and uniformity: a constructive view_, [pdf](http://www.math.canterbury.ac.nz/mathlsv/dagstuhl01.pdf)
+
+* {#BridgesVita} [[Douglas Bridges]] and Luminita Vita, *Apartness and Uniformity: a constructive development* 
 
 *  S. A. Naimpally and B. D. Warrack, _Proximity spaces_, Cambridge University Press 1970
 
