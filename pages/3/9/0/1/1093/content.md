@@ -291,7 +291,7 @@ Categories of sheaves are examples of [[categories]] that are [[topos]]es: they 
 =--
 
 This appears for instance as 
-([Johnstone, corollary 2.1.11](#Johnstone)).
+([Johnstone, corollary C.2.1.11](#Johnstone)).
 
 
 ### As accessible reflective subcategories
