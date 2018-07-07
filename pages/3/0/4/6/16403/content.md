@@ -13561,6 +13561,36 @@ An [[object]] in [[Ho(CombModCat)]] we also refer to as a _[[locally presentable
 
 =--
 
+In order to get good control over [[left Bousfield localization]] (Def. \ref{BousfieldLocalizationOfModelCategories}) and hence over [[presentable (∞,1)-categories]] (Def. \ref{HoCombModCat}) we need the analog of Prop. \ref{ReflectiveLocalizationGivenByLocalObjects}, saying that [[reflective localiztion]] are reflections onto their [[full subcategories]] of [[local objects]]. For this, in turn, we need a good handle on the [[(infinity,1)-categorical hom-space|hom-infinity-groupoids]]:
+
++-- {: .num_defn #SimplicialModelCategory}
+###### Definition
+**([[simplicial model category]])**
+
+An _[[classical model structure on simplicial sets|sSet]]${}_{Quillen}$-[[enriched model category]]_ or _[[simplicial model category]]_, for short is a [[category]] $\mathcal{C}$ (Def. \ref{Categories}) equipped with
+
+1. the [[structure]] of an [[sSet]]-[[enriched category]] (Def. \ref{TopEnrichedCategory} via Example \ref{UnderlyingCategoryOfTopEnrichedCategory}), with [[sSet]] (Def. \ref{sSet}), equipped with its canonical [[structure]] of a [[cosmos]] from Prop. \ref{PropertiesOfSheafToposes}, Example \ref{ExamplesOfCosmoi}, and with compatible [[powering]] and [[copowering]] over [[sSet]];
+
+1. the [[structure]] of a [[model category]] (Def. \ref{ModelCategory})
+
+such that these two structures are compatible in the following way:
+
+* for every [[cofibration]] $X \to Y$ and every [[fibration]] $A \to B$ in $\mathcal{C}$, the induced [[pullback powering]]-morphism
+
+  $$
+    \mathcal{C}(Y,A)
+      \longrightarrow
+     \mathcal{C}(X,A) 
+       \underset{\mathcal{C}(X,B)}{\times}
+     \mathcal{C}(Y,B)
+  $$
+
+  is a [[Kan fibration]], and is a [[weak homotopy equivalence]] as soon as one of the two morphisms is a [[weak equivalence]] in $\mathcal{C}$.
+
+=--
+
+(...)
+
 $\,$
 
 ### $(\infty,1)$-Toposes
@@ -13583,6 +13613,8 @@ A [[combinatorial model category]] (Def. \ref{CombinatorialModelCategory}) is a 
        {\overset{id}{\longleftarrow}}
        {\bot_{Qu}}
   [\mathcal{C}^{op}, sSet_{Qu}]_{proj}  
+  \;\;
+  \in CombModCat
 \]
 
 such that the [[left derived functor]] $\mathbb{L}id$ preserves [[finite limit|finite]] [[homotopy limits]].
@@ -13615,5 +13647,5 @@ $$
 
 =--
 
-
+(...)
 
