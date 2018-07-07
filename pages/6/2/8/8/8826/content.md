@@ -1,4 +1,7 @@
 [[!redirects knowledge in a multiagent system]]
+# Multiagent systems
+* table of contents
+{:toc}
 
 
 ##Idea 
@@ -51,10 +54,29 @@ true),
 * positive introspection (they know what they know) 
 
 and
+
 *  negative introspection (they know what they do not know). 
 
 These
 properties are reflected in the axiom system for the logic.  For more on this see   the entry [[the logic S5(m)|S5(n)]].
+
+##Models for these logics 
+
+
+The classical models for multimodal logics, and for $S5_n$ and its extensions in particular, are combinatorial models known as [[Kripke frames]] and, for $S5_n$, Kripke equivalence frames.  These consist of a set $W$, called the _set of possible worlds_, and $n$-equivalence relations $\sim_i$, one for each agent.  The interpretation of $\sim_i$ is that if $w_1$, $w_2$ are two possible worlds and $w_1\sim_i w_2$, then agent $i$ cannot tell these two worlds apart.
+
+##Interpreted systems
+
+ Fagin, Halpern, Moses and Vardi, in various combinations, have put forward a simpler combinatorial model known as an _interpreted system_.  These have the same formal expressive power as Kripke frames, but are nearer the intuition of interacting agents than is the more abstract Kripke model.
+
+ As before one has a set, $A = \{1,2, \ldots, n\}$, of agents, and now one assumes each agent $i$ can be in any state of a set $L_i$ of local states.  In addition one assumes given a set $L_e$ of possible states of the `environment'.  More formally:
+ 
++-- {: .un_defn}
+###### Definition
+
+A set of global states (SGS) for an interpreted system is a subset $S$ of the product $L_e \times L_1 \times \ldots \times L_n$ with each $L_e$, $L_i$ non-empty.  If $S = L_e \times L_1 \times \ldots \times L_n$, then the SGS is called a _hypercube_.
+=--
+
 ##References
 
 ###Wikipedia 
