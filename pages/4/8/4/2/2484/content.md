@@ -23,7 +23,7 @@ In [[algebraic geometry]], there are two equivalent ways of looking at a [[schem
 
 1. as an object of the [[gros topos]] of [[sheaves]] on the [[site]] of [[commutative rings]] (with [[étale topology]] or [[Zariski topology]]) satisfying the condition that it is covered by [[representable functor|representables]] via [[open maps]].
 
-In other words, a [[scheme]] may be identified with the [[sheaf]] it [[representable functor|represents]]; this sheaf is often called the _functor of points_ of the scheme.
+In other words, according to viewpoint (2), a [[scheme]] may be identified with the [[sheaf]] it [[representable functor|represents]]; this sheaf is often called the _functor of points_ of the scheme.
 
 To see this, note that by the [[Yoneda lemma]] a [[scheme]] may be identified with the [[sheaf]] it [[representable functor|represents]] on the gros [[Zariski site]] of [[schemes]]; and since any scheme admits an affine open cover, the [[comparison lemma]] says that [[sheaves]] on the [[site]] of all schemes may be identified with [[sheaves]] on the [[site]] of [[affine schemes]].
 
@@ -37,7 +37,7 @@ and in [Lawvere 16](#Lawvere16):
 
 > Grothendieck’s advice in his Colloquium talk was that 1960 ingredients (like Zariski opens etc.) are easily extracted from the category of functors, when needed.
 
-Of course, this functorial perspective e generalizes to other kinds of [[geometry]] and even [[higher geometry]], the general perspective being known as _[[synthetic differential geometry]]_ or similar.  For discussion of functorial ([[higher differential geometry|higher]]) [[differential geometry]] see for instance at _[[smooth set]]_ ([[smooth ∞-groupoid]]), for discussion of functorial [[supergeometry]] see at _[[super formal smooth set]]_ ([[super formal smooth ∞-groupoid]]).
+Of course, this functorial perspective generalizes to other kinds of [[geometry]] and even [[higher geometry]], the general perspective being known as _[[synthetic differential geometry]]_ or similar.  For discussion of functorial ([[higher differential geometry|higher]]) [[differential geometry]] see for instance at _[[smooth set]]_ ([[smooth ∞-groupoid]]), for discussion of functorial [[supergeometry]] see at _[[super formal smooth set]]_ ([[super formal smooth ∞-groupoid]]).
 
 ##Example
 
@@ -69,6 +69,9 @@ and has been re-emphasized in various forms in the writing of [[William Lawvere]
 
 * {#Lawvere16} [[William Lawvere]], email to [[Adeel Khan]], March 2016 ([web excerpt](https://nforum.ncatlab.org/discussion/7521/functorial-geometry/?Focus=69419#Comment_69419))
 
+For a pedagogical discussion of the advantages and disadvantages of teaching the functor of points approach, see
+
+* Secret blogging seminar, _Algebraic geometry without prime ideals_, ([blog discussion](https://sbseminar.wordpress.com/2009/08/06/algebraic-geometry-without-prime-ideals/))
 
 See also
 
