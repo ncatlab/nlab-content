@@ -341,7 +341,7 @@ This and much more history is recalled in
 
 * [[Benjamin Pierce]], _Basic category theory for computer scientists_.
 
-* [[Michael Barr]], [[Charles Wells]], _Category theory for computing science_.  [free online](ftp://ftp.math.mcgill.ca/barr/pdffiles/ctcs.pdf), also in [TAC Reprints](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html).
+* [[Michael Barr]], [[Charles Wells]], _Category theory for computing science_.  [free online](http://www.math.mcgill.ca/barr/papers/ctcs.pdf), also in [TAC Reprints](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html).
 
 * [[Bodo Pareigis]], _Categories and functors_
 
