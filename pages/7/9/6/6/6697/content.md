@@ -67,8 +67,9 @@ Asymptotically anti-de Sitter spaces play a central role in the realization of t
 
 * Wikipedia (English): [anti de Sitter space](http://en.wikipedia.org/wiki/Anti_de_Sitter_space)
 
-
 * Abdelghani Zeghib, _On closed anti de Sitter spacetimes_, Math. Ann. 310, 695&#8211;716 (1998) ([pdf](http://www.umpa.ens-lyon.fr/~zeghib/Anti.de.Sitter.pdf))
+
+* Leszek M. Sokolowski, _The bizarre anti-de Sitter spacetime_, International Journal of Geometric Methods in Modern Physics 13 no.9 (2016) 1630016 ([arXiv:1611.01118](https://arxiv.org/abs/1611.01118))
 
 [[!redirects anti de Sitter space]]
 [[!redirects anti de Sitter spaces]]
