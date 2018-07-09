@@ -7609,6 +7609,10 @@ Early work basing [[perturbative quantum field theory]] on the concept of the S-
 
 This proposal was vocally promoted as the "bootstrap program" by [[Geoffrey Chew]] and [[Stanley Mandelstam]] (see [Chew 70](#Chew70)).
 
+An account of the history of the contributions by [[Tullio Regge]] is in
+
+* {#Bottino18} Alessandro Bottino, _A retrospective look at Regge poles_ ([arXiv:1807.02456](https://arxiv.org/abs/1807.02456))
+
 Textbooks account of this axiomatic approach to defining the S-matrix (i.e. not proceeding via [[Lagrangian field theory]] but via analyticity axioms) is
 
 * {#EdenLadshoffOlivePolkinhorne66} Eden, Landshoff, [[David Olive]], [[John Polkinghorne]], _The Analytic S-matrix_, Cambridge 1966 ([pdf](http://assets.cambridge.org/97805210/48699/sample/9780521048699ws.pdf))
