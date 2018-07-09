@@ -28,6 +28,15 @@ They are closely related to [[superconformal]] symmetry (e.g. [DAuria-Ferrara-Ll
 
 * $\mathfrak{osp}(1\vert 32)$ is a limiting case of the [[M-theory super Lie algebra]] ([Fernandez-Izquierdo-Olmo 15](#FernandezIzquierdoOlmo15)). Further relation also to the [[type II supersymmetry algebra]] had been discussed in ([Bergshoess-Proeyen 00](#BergshoessProeyen00)).
 
+* The [[super anti de Sitter spacetimes]] are quotients of orthosymplictic super Lie groups:
+
+| $\phantom{A}$$d$$\phantom{A}$ | $\phantom{A}$[[super anti de Sitter spacetime]]$\phantom{A}$ |
+|-----|---|
+| $\phantom{A}$4$\phantom{A}$ | $\;\;\;\;\frac{OSp(8\vert4)}{Spin(3,1) \times SO(7)}\;\;\;\;$ |
+| $\phantom{A}$5$\phantom{A}$ | $\;\;\;\;\frac{SU(2,2 \vert 5)}{Spin(4,1)\times SO(5)}\;\;\;\;$ |
+| $\phantom{A}$7$\phantom{A}$ | $\;\;\;\;\frac{OSp(6,2 \vert 4)}{Spin(6,1) \times SO(4)}\;\;\;\;$ |
+
+
 ## Related concepts
 
 * [[orthogonal Lie algebra]]
@@ -78,3 +87,8 @@ The [[representation theory]] of the orthosymplectic group is discussed in
 
 [[!redirects orthosymplectic super group]]
 [[!redirects orthosymplectic super groups]]
+
+
+[[!redirects orthosymplectic super Lie group]]
+[[!redirects orthosymplectic super Lie groups]]
+
