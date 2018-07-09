@@ -43,7 +43,7 @@ Realizability originates with the interpretation of [[intuitionistic mathematics
 
 A historical survey of realizability (including [[realizability topos|categorical realizability]]) is in
 
-* {#vanOosten00} [[Jaap van Oosten]], _Realizability: An Historical Essay_, 2000 ([link](http://www.staff.science.uu.nl/~ooste110/realizability/history.ps.gz))
+* {#vanOosten00} [[Jaap van Oosten]], _Realizability: An Historical Essay_, 2000 ([link](http://www.staff.science.uu.nl/~ooste110/realizability/history.ps.gz), [pdf](https://pdfs.semanticscholar.org/0eb4/60525d1580fb9f184b43b974499bce2a2ea7.pdf))
 
 A quick survey is in
 
