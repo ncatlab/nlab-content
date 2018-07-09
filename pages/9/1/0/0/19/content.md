@@ -74,7 +74,7 @@ The archetypical example of a category is the category [[Set]] of [[set]]s and [
 
 The classical examples of categories are [[concrete category|concrete categories]] whose [[object]]s are [[stuff, structure, property|sets with extra structure]] and whose [[morphism]]s are structure preserving functions of sets, such as [[Top]], [[Grp]], [[Vect]].  These are the examples from which the term _category_ derives: these categories literally _categorize_ mathematical structures by packing structures of the same _type_ (same category) and structure preserving mappings between them into a single whole structure, a category.
 
-But by far not all categories are of this type and categories are much more versatile than these classical examples suggest. After all, a [[category]] is just a [[quiver]] (a [[directed graph]]) with a notion of composition of its edges. As such it generalizes the concepts of [[monoid]] and [[poset]]. If the category is a [[groupoid]] it generalizes the concept of [[group]] (in a sense called [[horizontal categorification]]).  Thinking of a category as a generalized poset is particularly useful when studying [[limits]] and [[adjoint functors|adjunctions]].
+But it is far from the case that all categories are of this type. Categories are much more versatile than these classical examples suggest. After all, a [[category]] is just a [[quiver]] (a [[directed graph]]) with a notion of composition of its edges. As such it generalizes the concepts of [[monoid]] and [[poset]]. If the category is a [[groupoid]], it generalizes the concept of [[group]] (in a sense called [[horizontal categorification]]) and also the concept of [[equivalence relation]].  Thinking of a category as a generalized poset is particularly useful when studying [[limits]] and [[adjoint functors|adjunctions]].
 
 Archetypical examples of non-[[concrete category|concrete]] categories are the [[fundamental groupoid]] of a [[topological space]] and the [[fundamental category]] of a [[directed space]]. 
 
@@ -103,7 +103,6 @@ This trinity of concepts
 
 1. [[category]]
 
-
 1. [[functor]]
 
 1. [[natural transformation]]
@@ -120,7 +119,7 @@ In [[higher category theory]] this continues with
 +-- {: .un_remark}
 ###### Conceptual unification ####
 
-A major driving force behind the development of category theory is its ability to abstract and unify concepts. General statements about categories apply to each specific [[concrete category]] of mathematical structures. The general notion of [[universal construction]]s in categories, such as [[representable functor]]s, [[adjoint functor]]s  and [[limit]]s, turns out to prevail throughout mathematics and manifest itself in myriads of special examples.
+A major driving force behind the development of category theory is its ability to abstract and unify concepts. General statements about categories apply to each specific [[concrete category]] of mathematical structures. The general notion of [[universal constructions]] in categories, such as [[representable functors]], [[adjoint functors]]  and [[limits]], turns out to prevail throughout mathematics and manifest itself in myriads of special examples.
 
 =--
 
@@ -148,7 +147,7 @@ The vast applicability and expressiveness of category theory leads to the observ
 
 ### Presheaves
 
-Much of the power of category theory rests in the fact that it reflects on itself. For instance that [[functor]]s between two categories form themselves a category: the [[functor category]]. 
+Much of the power of category theory rests in the fact that it reflects on itself. For instance that [[functors]] between two categories form themselves a category: the [[functor category]]. 
 
 This leads to the notion of [[presheaf categories]] and [[sheaf toposes]]. Much of category theory is [[topos theory]].
 
@@ -156,15 +155,15 @@ Under [[Isbell duality]] this sets the stage for everything in mathematics relat
 
 ### Universal constructions
 
-Elementary as it is, the definition of a [[category]] supports a powerful set of constructions: [[universal construction]]s. These include
+Elementary as it is, the definition of a [[category]] supports a powerful set of constructions: [[universal constructions]]. These include
 
-* [[limit]]s and [[colimit]];
+* [[limit]] and [[colimit]];
 
 * [[adjunction]];
 
 * [[Kan extension]]
 
-* [[end]]s and [[coend]]s.
+* [[end]] and [[coend]].
 
 All these are special cases of each other and thus reflect different aspect of one single phenomenon. Applying category theory means applying these constructions in specific situations and using general abstract theorems for deducing statements about concrete contexts.
 
@@ -218,7 +217,7 @@ Outside of pure mathematics, category theory finds major applications in
 
 Here set theory is assumed to be a theory of the usual concept of sets, that is *material* [[set theory]].
 
-No one of these is more fundamental than the other as a foundation of mathematics. Category theory is a holistic (structural) approach to mathematics that can (through such methods as Lawvere\'s [[ETCS]]) provide [[foundations]] of mathematics and (through [[algebraic set theory]]) reproduce all the different axiomatic set theories; elementary category theory does not need the concept of set to be formulated. Set theory is an analytic approach (element-wise) and can reproduce category theory by simply defining all the concepts in the usual way, as long as one include a technique to handle large categories (for instance by using [[class]]es instead of sets, or by including as an axiom that an uncountable [[inaccessible cardinal]] exists or even that [[Grothendieck universe]]s exist). 
+No one of these is more fundamental than the other as a foundation of mathematics. Category theory is a holistic (structural) approach to mathematics that can (through such methods as Lawvere's [[ETCS]]) provide [[foundations]] of mathematics and (through [[algebraic set theory]]) reproduce all the different axiomatic set theories; elementary category theory does not need the concept of set to be formulated. Set theory is an analytic approach (element-wise) and can reproduce category theory by simply defining all the concepts in the usual way, as long as one include a technique to handle large categories (for instance by using [[class]]es instead of sets, or by including as an axiom that an uncountable [[inaccessible cardinal]] exists or even that [[Grothendieck universe]]s exist). 
 
 |Set theory| |Category theory|
 |----------|-|---------------|
