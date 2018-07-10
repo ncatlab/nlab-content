@@ -1,19 +1,37 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The [[anti de Sitter group]] $SO(2,D-1)$ admits "ultra-short" [[unitary representations]] that admit no [[Minkowski spacetime]]-limit (along the [[Lie algebra contraction]]). For $D= 4$ these were first discussed by [Dirac 63](#Dirac63) and named _singletons_. 
+The [[anti de Sitter group]] $SO(2,D-1)$ has "ultra-short" [[unitary representations]] that admit no [[Minkowski spacetime]]-limit (along the [[Lie algebra contraction]]). For $D = 4$ these were first discussed by [Dirac 63](#Dirac63) and named _singletons_. 
 
-In ([Fronsdal 81](#Fronsdal81), [Flato-Fronsdal 81](#FlatoFronsdal81)) it was observed that these representations may naturally be understood as associated with the [[asymptotic boundary]] of [[anti de Sitter spacetime]].
+More generally, given a (non-[[compact Lie group|compact]]) [[Lie group]] $G$ admitting [[lowest weight representation]] with [[maximal compact subgroup]] of the form $H \times U(1)$ for some other [[compact Lie group]] $H$, the _oscillator method_ is to describe [[unitary representation]] by realizing the generators of $G$ as [[creation and annihilation operators]] on some [[Fock space]], and have them transform in the (anti-)[[fundamental representation]] of $H$. Then a _singleton representation_ is one where the generators are realized as the creators and annihilators of a single oscillator, and there are typically two of these (usually the scalar and spinor representations, in a physical language).
+
+A _doubleton representation_ is one where the generators are realized as two sets of oscillators, and so forth.
+
+## In AdS/CFT
+
+In ([Fronsdal 81](#Fronsdal81), [Flato-Fronsdal 81](#FlatoFronsdal81), [Angelopoulos-Flato-Fronsdal-Sternheimer 81](#AngelopoulosFlatoFronsdalSternheimer81)) it was observed that these representations may naturally be understood as arising in [[free field theory]] on the [[asymptotic boundary]] of [[anti de Sitter spacetime]].
 
 Analogous statements hold true for the [[super anti de Sitter group]] (e.g. [Gunyadin 89](#Gunyadin89))
 
 Based on this observation, it was conjectured in [Duff 88, p. 29-30](#Duff88) that the singleton representation of $SO(3,2)$ is realized by the [[field (physics)|field]] content of the [[worldvolume]]-theory of a [[Green-Schwarz sigma model|fundamental]] [[M2-brane]] stretched along the [[asymptotic boundary]] of [[anti de Sitter spacetime]] factor $AdS_{4}$ in a [[Freund-Rubin compactification]] of [[11-dimensional supergravity]]. [^Dirac ]
 
-[^Dirac:] Curiously, also the idea of a fundamental [[membrane]] is due to [[Paul Dirac]] ([Dirac 62](supermembrane#Dirac62))
+[^Dirac]: Curiously, also the idea of a fundamental [[membrane]] is due to [[Paul Dirac]] ([Dirac 62](supermembrane#Dirac62))
 
 This conjecture was shown to be true in ... and is a pre-cursor of what is now known as the _[[AdS-CFT correspondence]]_ (see [Duff 98](#Duff98) for review). See also at _[super p-brane -- As part of the AdS-CFT correspondence](Green-Schwarz+action+functional#AsPartOfTheAdSCFTCorrespodence)_.
 
@@ -22,9 +40,13 @@ This conjecture was shown to be true in ... and is a pre-cursor of what is now k
 
 * {#Dirac63} [[Paul Dirac]], _A remarkable representation of the 3+2 de Sitter group_, Journal of Mathematical Physics, 4(7), 901-909, 1963 ([doi:10.1063/1.1704016](https://aip.scitation.org/doi/pdf/10.1063/1.1704016))
 
-* {#Fronsdal81} C. Fronsdal, _Dirac supermultiplet_, Phys. Rev. D26 (1982) 1988
+* {#Fronsdal81} [[Christian Fronsdal]], _Dirac supermultiplet_, Phys. Rev. D26 (1982) 1988
 
-* {#FlatoFronsdal81} [[Moshe Flato]], C. Fronsdal, _Quantum field theory of singletons. The rac, J. Math. Phys. 22 (1981) 1100.
+* {#FlatoFronsdal81} [[Moshe Flato]], [[Christian Fronsdal]], _Quantum field theory of singletons. The rac, J. Math. Phys. 22 (1981) 1100.
+
+* {#AngelopoulosFlatoFronsdalSternheimer81} E. Angelopoulos, [[Moshe Flato]], [[Christian Fronsdal]], [[Daniel Sternheimer]], _Massless Particles, Conformal Group, and De Sitter Universe_, Phys. Rev. D23 (1981) 1278
+
+* [[Sergio Ferrara]], [[Christian Fronsdal]], _Conformal Maxwell theory as a singleton field theory on $AdS_5$, IIB three-branes and duality_, Class.Quant.Grav.15:2153-2164, 1998 ([arXiv:hep-th/9712239](https://arxiv.org/abs/hep-th/9712239))
 
 * {#Gunyadin89} [[Murat Günaydin]], _Singleton And Doubleton Supermultiplets Of Space-time Supergroups And Infinite Spin Superalgebras_, 1989 ([spire:282501](http://inspirehep.net/record/282501/))
 
