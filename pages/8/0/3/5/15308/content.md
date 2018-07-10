@@ -6,4 +6,6 @@
 
 * [[deformation quantization]]
 
+* [[singleton representation]]
+
 category: people
