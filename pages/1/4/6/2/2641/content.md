@@ -116,6 +116,10 @@ for its [[stabilizer subgroup]] (often called _the little group_ in this context
 
 * [[finite-dimensional representation of the Poincaré group]]
 
+* unitary representations of the [[anti de Sitter group]],
+
+  [[singleton representation]]
+
 ## References
 
 The observation that the irreps of the Poincar&#233; group correspond to [[fundamental particles]] ([[Wigner classification]]) is due to
