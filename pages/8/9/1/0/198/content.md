@@ -95,9 +95,12 @@ There are also enriched, $k$-linear and other versions, hence one can talk about
 
 * [[character]]
 
+* [[singleton representation]]
+
 * [[equivariant homotopy theory]], [[global equivariant homotopy theory]]
 
 * [[equivariant stable homotopy theory]], [[global equivariant stable homotopy theory]]
+
 
 [[!include homotopy type representation theory -- table]]
 
