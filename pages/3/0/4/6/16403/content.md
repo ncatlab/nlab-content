@@ -1014,7 +1014,7 @@ $$
   \right\}
 $$
 
-be the set of **all** ways to find a $C$-cell attachment in $f$, and consider the [[pushout]] $\hat X$ of the [[coproduct]] of morphisms in $C$ over all these:
+be the [[set]] of **all** ways to find a $C$-cell attachment in $f$, and consider the [[pushout]] $\hat X$ of the [[coproduct]] of morphisms in $C$ over all these:
 
 $$
   \array{
@@ -13373,6 +13373,13 @@ A _[[combinatorial model category]]_ is a [[model category]] (Def. \ref{ModelCat
 
 =--
 
++-- {: .num_prop #ClassicalModelStructureOnSimplicialSetsIsCombinatorial}
+###### Example
+**([[classical model structure on simplicial sets]] is [[combinatorial model category]])**
+
+The [[classical model structure on simplicial sets]] (Def. \ref{ClassesOfMorphismsOnsSetQuillen}) $sSet_{Qu}$ is a [[combinatorial model category]] (Def. \ref{CombinatorialModelCategory}).
+
+=--
 
 +-- {: .num_example #CategoriesOfSimplicialPresheaves}
 ###### Example
@@ -13415,6 +13422,83 @@ Let $\mathcal{C}$ be a [[small category|small]] (Def. \ref{SmallCategory}) [[sSe
 
 =--
 
++-- {: .num_prop #SomeProjectivelyCofibrantSimplicialPresheaves}
+###### Proposition
+**(some [[projective model structure on simplicial presheaves|projectively]] [[cofibrant object|cofibrant]] [[simplicial presheaves]])**
+
+Let $\mathcal{C}$ be a [[small category|small]] (Def. \ref{SmallCategory}). Then a sufficient condition for a [[simplicial presheaf]] over $\mathcal{C}$ (Def. \ref{sSet}) 
+
+$$
+  \mathbf{X} 
+  \;\in\;
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+$$
+
+to be a [[cofibrant object]] with respect to the _projective_ [[model structure on simplicial presheaves]] (Prop. \ref{ModelCategoriesOfSimplicialPresheaves}) is that
+
+1. $\mathbf{X}$ is degreewise a [[coproduct]] of [[representable presheaves]]
+
+   $$
+     \mathbf{X}_k \;\simeq\; \underset{i_k}{\coprod} y(X_{i_k})
+   $$
+
+1. the [[degeneracy maps]] are inclusions of [[direct summands]].
+
+In particular every [[representable presheaf]], regarded as a simplicially constant simplicial presheaf, is projectively cofibrant.
+
+=--
+
+([[Universal Homotopy Theories|Dugger 00, section 9, lemma 2.7]])
+
++-- {: .num_example #HomotopyLimitOfSimplicialSets}
+###### Example
+**([[homotopy limit]] of [[simplicial sets]])**
+
+Let $\mathcal{C}$ be a [[small category]] (Def. \ref{SmallCategory}) and consider the [[limit]]/[[colimit]] [[adjoint functors]] (Def. \ref{Limits}) with values in [[simplicial sets]] (Def. \ref{sSet}). These are [[Quillen adjunctions]] (Def. \ref{QuillenAdjunction}) for the injective/projective [[model structure on simplicial presheaves]] (Prop. \ref{ModelCategoriesOfSimplicialPresheaves}), respectively:
+
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    \underoverset
+      {\underset{\phantom{AA}const\phantom{AA}}{\longleftarrow}}
+      {\overset{ \underset{\longrightarrow}{\lim} }{\longrightarrow}}
+      {\bot_{Qy}}
+  sSet_{Qu}
+  \phantom{AAAA}
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    \underoverset
+      {\underset{ \underset{\longleftarrow}{\lim} }{\longrightarrow}}
+      {\overset{\phantom{AA}const\phantom{AA}}{\longleftarrow}}
+      {\bot_{Qy}}
+  sSet_{Qu}
+  \,.
+$$
+
+(Since $const$ evidently preserves weak equivalences in any case, and preserves fibrations for the projective model structure and cofibrations for the injective model structure.)
+
+The corresponding [[derived functors]] (Def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}) are called 
+
+* the _[[homotopy limit]]_ functor
+
+  $$
+    \mathbb{R}\underset{\longleftarrow}{\lim}
+    \;\colon\;
+    Ho([\mathcal{C}^{op}, sSet_{Qu}])
+    \longrightarrow
+    Ho(sSet)
+  $$
+
+
+* the _[[homotopy colimit]]_ functor
+
+  $$
+    \mathbb{R}\underset{\longrightarrow}{\lim}
+    \;\colon\;
+    Ho([\mathcal{C}^{op}, sSet_{Qu}])
+    \longrightarrow
+    Ho(sSet)
+  $$
+
+=--
 
 The following concept of [[left Bousfield localization]] is the analog for [[model categories]] of the concept of reflection onto [[local objects]] (Def. \ref{LocalizationAtACollectionOfMorphisms}):
 
@@ -13556,7 +13640,7 @@ Let $\mathcal{C}$ be a [[combinatorial model category]] (Def. \ref{Combinatorial
 
 +-- {: .num_defn #HoCombModCat}
 ###### Definition
-**([[presentable (∞,1)-categories]])**
+**([[homotopy category]] of [[presentable (∞,1)-categories]])**
 
 Write $CombModCat$ for the [[very large category]] whose [[objects]] are [[combinatorial model categories]] (Def. \ref{CombinatorialModelCategory}) and whose morphisms are [[left Quillen functors]] between them (Def. \ref{QuillenAdjunction}).
 
@@ -13566,7 +13650,33 @@ We write
 
 for its [[localization]] (Def. \ref{LocalizationOfACategory}) at the [[Quillen equivalences]] (Def. \ref{QuillenEquivalence}).
 
-An [[object]] in [[Ho(CombModCat)]] we also refer to as a _[[locally presentable (∞,1)-category]]_, and a [[morphism]] in [[Ho(CombModCat)]] we also refer to as the [[equivalence class]] of an _[[(∞,1)-colimit]]-[[preserved limit|preserving]] [[(∞,1)-functor]]_.
+We say:
+
+* an [[object]] in [[Ho(CombModCat)]] is a _[[locally presentable (∞,1)-category]]_, 
+
+* a [[morphism]] in [[Ho(CombModCat)]] is the _[[equivalence class]] of an _[[(∞,1)-colimit]]-[[preserved limit|preserving]] [[(∞,1)-functor]]_;
+
+* an [[isomorphism]] in [[Ho(CombModCat)]] is an _[[equivalence of (∞,1)-categories]]_.
+
+=--
+
+The following example is the genralization of the [[category of sets]] (Def. \ref{CategoryOfSets}) as we pass to [[homotopy theory]]:
+
++-- {: .num_example #InfinityGroupoid}
+###### Example
+**([[∞Grpd]])**
+
+The image of the [[classical model structure on simplicial sets]] $sSet_{Qu}$ (Def. \ref{ClassesOfMorphismsOnsSetQuillen}), which is [[combinatorial model category]] by example \ref{ClassicalModelStructureOnSimplicialSetsIsCombinatorial}, under the [[localization]] to [[Ho(CombModCat)]] (Def. \ref{HoCombModCat}), we call the [[presentable (∞,1)-category]] of _[[∞-groupoids]]_:
+
+$$
+  \array{
+    CombModCat 
+    &\overset{\phantom{AA}\gamma\phantom{AA}}{\longrightarrow}&
+    Ho(CombModCat)
+    \\
+    sSet_{Qu} &\mapsto& \infty Grpd
+  }
+$$
 
 =--
 
@@ -13598,11 +13708,23 @@ such that these two structures are compatible in the following way:
 
 =--
 
-+-- {: .num_example #SimplicialPresheavesIsProperCombinatorialSimplicial}
-###### Example
++-- {: .num_prop #SimplicialPresheavesIsProperCombinatorialSimplicial}
+###### Proposition
 **([[model structure on simplicial presheaves]] is [[left proper model category|left proper]] [[combinatorial model category|combinatorial]] [[simplicial model category]])**
 
-Let $\mathcal{C}$ be a [[small category|small]] (Def. \ref{SmallCategory}) [[sSet]]-[[enriched category]] (Def. \ref{TopEnrichedCategory} with Example \ref{ExamplesOfCosmoi}). Then the injective and projective [[model structure on simplicial presheaves]] over $\mathcal{C}$ (Prop. \ref{ModelCategoriesOfSimplicialPresheaves}) are
+Let $\mathcal{C}$ be a [[small category|small]] (Def. \ref{SmallCategory}) [[sSet]]-[[enriched category]] (Def. \ref{TopEnrichedCategory} with Example \ref{ExamplesOfCosmoi}). Then the injective and projective [[model structure on simplicial presheaves]] over $\mathcal{C}$ (Prop. \ref{ModelCategoriesOfSimplicialPresheaves}) 
+
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+  \;,
+  \phantom{A}
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+  \;\;\;
+  \in 
+  CombModCat
+$$
+
+are
 
 1. [[proper model categories]] (Def. \ref{RightProperModelCategory}),
 
@@ -13673,13 +13795,13 @@ The following is the [[model category]]-analog of the characterization from Prop
 ###### Proposition
 **(existence of [[left Bousfield localization]] for [[left proper model category|left proper]] [[simplicial model category|simplicial]] [[combinatorial model categories]])**
 
-Let $\mathcal{C}$ be a [[combinatorial model category]] (Def. \ref{CombinatorialModelCategory}) which is [[left proper]] (Def. \ref{RightProperModelCategory}) and [[simplicial model category|simplicial]] (Def. \ref{SimplicialModelCategory}), and let $S \subset Mor_{\mathcal{C}}$ be a [[small set]] of its [[morphisms]].
+Let $\mathcal{C}$ be a [[combinatorial model category]] (Def. \ref{CombinatorialModelCategory}) which is [[left proper model category|left proper]] (Def. \ref{RightProperModelCategory}) and [[simplicial model category|simplicial]] (Def. \ref{SimplicialModelCategory}), and let $S \subset Mor_{\mathcal{C}}$ be a [[small set]] of its [[morphisms]].
 
 Then the [[left Bousfield localization]] (Def. \ref{BousfieldLocalizationOfModelCategories}) of $\mathcal{C}$ _at $S$_, namely at the class of $S$-[[local morphisms]] (Def. \ref{DerivedLocalObjects}) exist, to be denoted $L_S \mathcal{C}$, and it has the following properties:
 
 1. $L_S \mathcal{C}$ is itself a [[left proper model category|left proper]] [[simplicial model category|simplicial]] [[combinatorial model category]];
 
-1. the [[fibrant objects]] of $L_S \mathca{C}$ are precisely those fibrant objects of $\mathcal{C}$ which in addition are $S$-[[local objects]] (Def. \ref{DerivedLocalObjects}).
+1. the [[fibrant objects]] of $L_S \mathcal{C}$ are precisely those fibrant objects of $\mathcal{C}$ which in addition are $S$-[[local objects]] (Def. \ref{DerivedLocalObjects}).
 
 =--
 
@@ -13702,6 +13824,33 @@ for all $X \in \mathcal{S}$.
 
 =--
 
+
++-- {: .num_prop #RecognitionOfSimplicialQuillenAdjunction}
+###### Proposition
+**(recognition of [[simplicial Quillen adjunctions]])**
+
+Let $\mathcal{C}$ and $\mathcal{D}$ be two [[simplicial model categories]] (Def. \ref{SimplicialModelCategory}) such that $\mathcal{D}$ is also a [[left proper model category]] (Def. \ref{RightProperModelCategory}). Then for an [[sSet]]-[[enriched adjunction]] (Def. \ref{EnrichedAdjunction}) of the form
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{R}{\longrightarrow}}
+      {\overset{\phantom{AA}L\phantom{AA}}{\longleftarrow}}
+      {\bot}
+  \mathcal{D}
+$$
+
+to be [[Quillen adjunction]] (Def. \ref{QuillenAdjunction}, hence a _[[simplicial Quillen adjunction]]_) it is sufficient that the following two conditions hold:
+
+1. $L$ preserves [[cofibrations]],
+
+1. $R$ preserves [[fibrant objects]]
+
+(i.e. this already implies that $R$ preserves all [[fibrations]]).
+
+=--
+
+([[Higher Topos Theory|Lurie HTT, cor. A.3.7.2]])
 
 
 (...)
@@ -13762,7 +13911,7 @@ $$
 
 =--
 
-The following construction generalizes the _[[Cech groupoid]]_ (Example \ref{CechGroupoid}) as [[gropoids]] are generalized to [[Kan complexes]] (Def. \ref{KanComplexe}):
+The following construction generalizes the _[[Cech groupoid]]_ (Example \ref{CechGroupoid}) as [[groupoids]] are generalized to [[Kan complexes]] (Def. \ref{KanComplexe}):
 
 +-- {: .num_example}
 ###### Example
@@ -13813,10 +13962,20 @@ Let $\mathcal{C}$ be a [[site]] (Def. \ref{Coverage}) and let
 
 $$
   S 
+  \;\coloneqq\;
+  \big\{
+    C(\{U_i\})
+    \overset{p_{\{U_i\}}}{\longrightarrow}
+    y(X)
+    \;\vert\;
+    \{U_i \overset{\iota_i}{\to} X\}_i
+    \;
+    \text{covering}
+  \big\}
   \subset Mor_{[\mathcal{C}^{op}, sSet]}
 $$ 
 
-be the set of [[projections]] (eq:CechNerveProjection) out of the [[Cech nerves]] (Example \ref{example}) for [[coverings]] of all [[objects]] in the site, as a subset of the class of morphisms of [[simplicial presheaves]] over $\mathcal{C}$ (Example \ref{CategoriesOfSimplicialPresheaves})
+be the [[set]] of [[projections]] (eq:CechNerveProjection) out of the [[Cech nerves]] (Example \ref{example}) for [[coverings]] of all [[objects]] in the site, as a subset of the class of morphisms of [[simplicial presheaves]] over $\mathcal{C}$ (Example \ref{CategoriesOfSimplicialPresheaves})
 
 
 Then the [[left Bousfield localization]] (Def. \ref{ExistenceOfLeftBousfieldLocalization}) 
