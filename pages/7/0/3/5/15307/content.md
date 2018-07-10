@@ -6,6 +6,8 @@
 
 * [[deformation quantization]]
 
+* [[singleton representation]]
+
 category: people
 
 [[!redirects Moshe Flato]]
