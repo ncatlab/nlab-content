@@ -96,7 +96,7 @@ The relationship in [[string theory]] via [[octonion]] algebra between the NRS [
 
 The relation of the division algebras to ordinary (Lie algebraic) extensions of the [[super Poincare Lie algebra]] is discussed in
 
-* Jerzy Lukierski, Francesco Toppan, _Generalized Space-time Supersymmetries, Division Algebras and Octonionic M-theory_ ([pdf](http://cbpfindex.cbpf.br/publication_pdfs/NF00102.2010_08_03_10_47_48.pdf))
+* Jerzy Lukierski, Francesco Toppan, _Generalized Space-time Supersymmetries, Division Algebras and Octonionic M-theory_ ([arXiv:hep-th/0203149](https://arxiv.org/abs/hep-th/0203149), [pdf](http://cbpfindex.cbpf.br/publication_pdfs/NF00102.2010_08_03_10_47_48.pdf))
 
 * A. Anastasiou, L. Borsten, [[Mike Duff]], L. J. Hughes, S. Nagy, _An octonionic formulation of the M-theory algebra_ ([arXiv:1402.4649](http://arxiv.org/abs/1402.4649))
 
