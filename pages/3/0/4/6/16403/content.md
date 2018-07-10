@@ -13390,6 +13390,7 @@ This is called the _[[category of simplicial presheaves]]_ on $\mathcal{C}$.
 
 =--
 
+
 +-- {: .num_prop #ModelCategoriesOfSimplicialPresheaves}
 ###### Proposition
 **([[model categories of simplicial presheaves]])**
@@ -13668,7 +13669,7 @@ Let $\mathcal{C}$ be a [[simplicial model category]] (Def. \ref{SimplicialModelC
 
 The following is the [[model category]]-analog of the characterization from Prop. \ref{ReflectiveLocalizationGivenByLocalObjects} of [[reflective localizations]] as reflections onto [[local objects]]: 
 
-+-- {: .num_prop }
++-- {: .num_prop #ExistenceOfLeftBousfieldLocalization}
 ###### Proposition
 **(existence of [[left Bousfield localization]] for [[left proper model category|left proper]] [[simplicial model category|simplicial]] [[combinatorial model categories]])**
 
@@ -13758,6 +13759,90 @@ $$
   Ho(CombModCat)
   \,.
 $$
+
+=--
+
+The following construction generalizes the _[[Cech groupoid]]_ (Example \ref{CechGroupoid}) as [[gropoids]] are generalized to [[Kan complexes]] (Def. \ref{KanComplexe}):
+
++-- {: .num_example}
+###### Example
+**([[Cech nerve]])**
+
+Let $\mathcal{C}$ be a [[site]] (Def. \ref{Coverage}). Then for every [[object]] $X \in \mathcal{C}$ and every [[covering]] $\{U_i \overset{\iota_i}{\to}X\}$ there is a [[simplicial presheaf]] (Example \ref{CategoriesOfSimplicialPresheaves})
+
+$$
+  C(\{U_i\})
+  \;\in\;
+  [\mathcal{C}^{op}, sSet]
+$$
+
+which in degree $k$ is given by the [[disjoint union]] of the $k$-fold [[fiber products]] of [[presheaves]] over $y(X)$ of the patches $y(U_i) \in [\mathcal{C}^{op}, Set]$ of the cover, regarded as [[presheaves]] under the [[Yoneda embedding]] (Prop. \ref{YonedaEmbedding})
+
+$$
+  C(\{U_i\})_k
+  \;\coloneqq\;
+  \underset{i_1, \cdots, i_k}{\coprod}
+  y(U_{i_1}) \times_{y(X)} y(U_{i_2})  \times_{y(X)} 
+   \cdots 
+   \times_{y(X)}  y(U_{i_k})
+  \,.
+$$ 
+
+The [[face maps]] are the evident [[projection]] morphisms, and the [[degeneracy maps]] the evident [[diagonal]] morphisms.
+
+This is called the _[[Cech nerve]]_ of the given cover.
+
+By the definition of [[fiber products]] there is a canonical morphism of [[simplicial presheaves]] from the [[Cech nerve]] to $y(X)$
+
+\[
+  \label{CechNerveProjection}
+  C(\{U_i\})
+    \overset{p_{\{U_i\}}}{\longrightarrow}
+  y(X)
+\]
+
+=--
+
+The following is the generalization of Prop. \ref{CechGroupoidCoRepresents}, saying that [[Cech nerves]] are [[codescent]]-objects for [[(∞,1)-sheaves]]:
+
++-- {: .num_prop #TopologicalLocalization}
+###### Proposition
+**([[topological localization]])**
+
+Let $\mathcal{C}$ be a [[site]] (Def. \ref{Coverage}) and let 
+
+$$
+  S 
+  \subset Mor_{[\mathcal{C}^{op}, sSet]}
+$$ 
+
+be the set of [[projections]] (eq:CechNerveProjection) out of the [[Cech nerves]] (Example \ref{example}) for [[coverings]] of all [[objects]] in the site, as a subset of the class of morphisms of [[simplicial presheaves]] over $\mathcal{C}$ (Example \ref{CategoriesOfSimplicialPresheaves})
+
+
+Then the [[left Bousfield localization]] (Def. \ref{ExistenceOfLeftBousfieldLocalization}) 
+of the [[projective model structure on simplicial presheaves]] (Prop. \ref{ModelCategoriesOfSimplicialPresheaves}), to be denoted 
+
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj, loc}
+    \underoverset
+      {\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}}
+      {\overset{id}{\longleftarrow}}
+      {\bot_{Qu}}
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj}  
+$$
+
+is left exact, in that it exhibits a [[model topos]] according to Def. \ref{ModelTopos}, hence in that its image in [[Ho(CombModCat)]] is an [[(∞,1)-topos]]
+
+$$
+  Sh_\infty(\mathcal{C})
+   \underoverset
+    {\underset{\phantom{AA}\iota\phantom{AA}}{\hookrightarrow}}
+    {\overset{lex}{\longleftarrow}}
+    {\bot}
+  PSh_\infty(\mathcal{C})
+  \,.
+$$
+
 
 =--
 
