@@ -10,5 +10,7 @@
 
 * [[4d supergravity Lie 2-algebra]]
 
+* [[singleton representation]]
+
 category: people
 
