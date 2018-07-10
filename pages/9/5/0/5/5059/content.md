@@ -811,7 +811,7 @@ Moreover, the near-horizon geoemtries of these [[black branes]] is always [[anti
 
 Therefore it is natural to consider the perturbation of the Green-Schwarz sigma-models around their asymptotic embeddings into AdS spaces, hence effectively the perturbation theory of the degrees of freedom at those naked singularity at which the corresponding black brane sits.
 
-After [[diffeomorphism]] [[gauge fixing]] one finds that the resulting field theories now on the $p$-brane [[worldvolumes]] are precisely the [[superconformal field theories]] for all the  [allowed superconformal supersymmetries](supersymmetry#ClassificationSuperconformalInDimgt2)
+After [[diffeomorphism]] [[gauge fixing]] one finds that the resulting field theories now on the $p$-brane [[worldvolumes]] are precisely the [[superconformal field theories]] for all the  [allowed superconformal supersymmetries](supersymmetry#ClassificationSuperconformalInDimgt2) (see also at _[[singleton representation]]_):
 
 | $d$ | $N$ | [[superconformal super Lie algebra]] | [[R-symmetry]] | [[brane]] [[worldvolume]] theory |
 |-----|-----|--|---|--|
