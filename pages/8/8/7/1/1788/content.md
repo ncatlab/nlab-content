@@ -79,8 +79,8 @@ in that the ([[constant functor]] $\dashv$ [[limit]])-[[adjunction]] ([this Def.
   \label{QuillenEquivalenceInABousfLocalization}
   [\mathcal{C}^{op}, sSet_{Qu}]_{proj,loc,\mathbb{A}}
     \underoverset
-      {\underset{ \underset{\longleftarrow}{\lim} = ev_{\ast}}{\longrightarrow}}
-      {\overset{ const }{\longleftarrow}}
+      {\underset{ \phantom{AA}const\phantom{AA} }{\longleftarrow}}
+      {\overset{ \underset{\longrightarrow}{\lim} }{\longrightarrow}}
       {\bot}
   sSet_{Qu}    
   \;\;\;\;
@@ -95,18 +95,20 @@ is a [[Quillen equivalence]] ([this Def.](geometry+of+physics+--+homotopy+types#
 +-- {: .proof}
 ###### Proof
 
-First to see that (eq:QuillenEquivalenceInABousfLocalization) is a [[Quillen adjunction]]. By ... we have a [[simplicial Quillen adjunction]] before localization
+First to see that (eq:QuillenEquivalenceInABousfLocalization) is a [[Quillen adjunction]]: Since we have a [[simplicial Quillen adjunction]] before localization
 
 $$
   [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
     \underoverset
-      {\underset{ \underset{\longleftarrow}{\lim} = ev_{\ast}}{\longrightarrow}}
-      {\overset{ const }{\longleftarrow}}
+      {\underset{ const }{\longleftarrow}}
+      {\overset{ \underset{\longrightarrow}{\lim} }{\longrightarrow}}
       {\bot}
   sSet_{Qu}    
 $$
 
-and hence by [this Prop.](Quillen+adjunction#RecognitionOfSimplicialQuillenAdjunctions) it is sufficient to see that $const$ sends [[Kan complexes]] to fibrant objects in $[\mathcal{C}^{op}, sSet_{Qu}]_{proj,loc,\mathbb{A}}$. But constant presheaves are Cech-local by the discussion at _[[∞-cohesive site]]_ and are triviallay $\mathbb{A}$-local.
+(by [this Example](geometry+of+physics+--+categories+and+toposes#HomotopyLimitOfSimplicialSets)) and since both [[model categories]] here are [[left proper model category|left proper]] [[simplicial model categories]] (by [this Prop.](geometry+of+physics+--+categories+and+toposes#SimplicialPresheavesIsProperCombinatorialSimplicial)), and since [[left Bousfield localization]] does not change the class of [[cofibrations]] ([this Def.](geometry+of+physics+--+categories+and+toposes#BousfieldLocalizationOfModelCategories)) it is sufficient to show that $const$ preserves [[fibrant objects]] (by [this Prop.](geometry+of+physics+--+categories+and+toposes#RecognitionOfSimplicialQuillenAdjunction)).
+
+By [this Prop.](geometry+of+physics+--+categories+and+toposes#ExistenceOfLeftBousfieldLocalization) this means to check that constant [[simplicial presheaves]] are both Cech-local and $\mathbb{A}$-local. The first of these is proven at _[[∞-cohesive site]]_, the second is immediate.
 
 Now to see that this Quillen adjunction is a [[Quillen equivalence]]...
 
