@@ -13,4 +13,6 @@ One of the co-discoverers of [[supergravity]] ([[4d supergravity]]):
 
 * [[Starobinsky model of cosmic inflation]]
 
+* [[singleton representation]]
+
 category: people
