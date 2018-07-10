@@ -44,3 +44,6 @@ briefly reviewed in
 
 
 [[!redirects conformal transformations]]
+
+[[!redirects special conformal transformation]]
+[[!redirects special conformal transformations]]
