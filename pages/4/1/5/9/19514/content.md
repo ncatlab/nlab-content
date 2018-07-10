@@ -20,7 +20,7 @@ This conjecture was shown to be true in ... and is a pre-cursor of what is now k
 
 ## References
 
-* {#Dirac63} [[Paul Dirac]], _A remarkable representation of the 3+2 de Sitter group_ Journal of Mathematical Physics, 4(7), 901-909, 1963 ([doi:10.1063/1.1704016](https://aip.scitation.org/doi/pdf/10.1063/1.1704016))
+* {#Dirac63} [[Paul Dirac]], _A remarkable representation of the 3+2 de Sitter group_, Journal of Mathematical Physics, 4(7), 901-909, 1963 ([doi:10.1063/1.1704016](https://aip.scitation.org/doi/pdf/10.1063/1.1704016))
 
 * {#Fronsdal81} C. Fronsdal, _Dirac supermultiplet_, Phys. Rev. D26 (1982) 1988
 
