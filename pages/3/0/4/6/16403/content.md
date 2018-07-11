@@ -1410,10 +1410,11 @@ We discuss the construction that takes a [[model category]], def. \ref{ModelCate
 
 +-- {: .num_defn #HomotopyCategoryOfAModelCategory}
 ###### Definition
+**([[homotopy category of a model category]])**
 
 Let $\mathcal{C}$ be a [[model category]], def. \ref{ModelCategory}. Write $Ho(\mathcal{C})$ for the [[category]] whose
 
-* [[objects]] are those objects of $\mathcal{C}$ which are both fibrant and cofibrant;
+* [[objects]] are those objects of $\mathcal{C}$ which are both [[fibrant object|fibrant]] and [[cofibrant object|cofibrant]];
 
 * [[morphisms]] are the [[homotopy classes]] of morphisms of $\mathcal{C}$, hence the [[equivalence classes]] of morphism under the equivalence relation of prop. \ref{BetweenCofibFibLeftAndRightHomotopyAreEquivalentEquivalenceRelations};
 
@@ -1679,6 +1680,7 @@ Such $\eta$ is called a _[[natural isomorphism]]_ if its $\eta_c$ are [[isomorph
 
 +-- {: .num_defn #HomotopyCategoryOfACategoryWithWeakEquivalences}
 ###### Definition
+**([[localization of a category]] [[category with weak equivalences]])**
 
 For $\mathcal{C}$ a [[category with weak equivalences]], its  **[[localization]] at the weak equivalences** is, if it exists,
 
@@ -1825,12 +1827,12 @@ up to [[natural isomorphism]].
 
 =--
 
-In general, the localization $\mathcal{C}[W^{-1}]$ of a [[category with weak equivalences]] $(\mathcal{C},W)$ (def. \ref{HomotopyCategoryOfACategoryWithWeakEquivalences}) may invert _more_ morphisms than just those in $W$. However, if the category admits the structure of a [[model category]] $(\mathcal{C},W,Cof,Fib)$, then its localization precisely only inverts the weak equivalences.
+In general, the localization $\mathcal{C}[W^{-1}]$ of a [[category with weak equivalences]] $(\mathcal{C},W)$ (def. \ref{HomotopyCategoryOfACategoryWithWeakEquivalences}) may invert _more_ morphisms than just those in $W$. However, if the category admits the structure of a [[model category]] $(\mathcal{C},W,Cof,Fib)$, then its localization precisely only inverts the weak equivalences:
 
 +-- {: .num_prop #MorphismIsWeakEquivalenceIfIsoInHomotopyCategoryForQuillen}
 ###### Proposition
 
-Let $\mathcal{C}$ be a [[model category]] (def. \ref{ModelCategory}) and let $\gamma \;\colon\; \mathcal{C} \longrightarrow Ho(\mathcal{C})$ be its [[localization]] functor (def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}, theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory}). Then a morphism $f$ in $\mathcal{C}$ is a weak equivalence precisely if $\gamma(f)$ is an isomorphism in $Ho(\mathcal{C})$.
+Let $\mathcal{C}$ be a [[model category]] (def. \ref{ModelCategory}) and let $\gamma \;\colon\; \mathcal{C} \longrightarrow Ho(\mathcal{C})$ be its [[localization]] functor (def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}, theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory}). Then a morphism $f$ in $\mathcal{C}$ is a [[weak equivalence]] precisely if $\gamma(f)$ is an [[isomorphism]] in $Ho(\mathcal{C})$.
 
 =--
 
@@ -2497,7 +2499,7 @@ $$
     \underoverset
       {\underset{R}{\longrightarrow}}
       {\overset{L}{\longleftarrow}}
-      {\bot_{Qu}}
+      {{}_{\phantom{Qu}}\bot_{Qu}}
   \mathcal{D}
 $$
 
@@ -2596,67 +2598,8 @@ Second, with $Y$ cofibrant then also $Y \sqcup Cyl(Y)$ is a cofibrantion, since 
 
 =--
 
-+-- {: .num_prop #QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}
-###### Proposition
-**([[Quillen adjunction]] descends to [[homotopy categories]])**
 
-For $\mathcal{C} \underoverset{\underset{R}{\longrightarrow}}{\overset{L}{\longleftarrow}}{{}_{\phantom{Qu}}\bot_{Qu}}\mathcal{D}$ a [[Quillen adjunction]], def. \ref{QuillenAdjunction}, then also the corresponding left and right [[derived functors]], def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}, via cor. \ref{LeftAndRightDerivedFunctors}, form a pair of [[adjoint functors]]
-
-$$
-  Ho(\mathcal{C})
-    \underoverset
-      {\underset{\mathbb{R}R}{\longrightarrow}}
-      {\overset{\mathbb{L}L}{\longleftarrow}}
-      {\bot}
-  Ho(\mathcal{D})
-  \,.
-$$
-
-=--
-
-([Quillen 67, I.4 theorem 3](model+category#Quillen67))
-
-+-- {: .proof}
-###### Proof
-
-By def. \ref{LeftAndRightDerivedFunctorsOnModelCategories} and lemma \ref{HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory} it is sufficient to see that for $X, Y \in \mathcal{C}$ with $X$ cofibrant and $Y$ fibrant, then there is a [[natural bijection]]
-
-\[
-  \label{HomIsomorphismForDerivedQuillenAdjunctionOnHomotopyCategory}
-  Hom_{\mathcal{C}}(L X , Y)/_\sim
-   \simeq
-  Hom_{\mathcal{C}}(X, R Y)/_\sim
-  \,.
-\]
-
-Since by the [[adjoint functor|adjunction isomorphism]] for $(L \dashv R)$ such a natural bijection exists before passing to homotopy classes $(-)/_\sim$, it is sufficient to see that this respects homotopy classes. To that end, use from lemma \ref{LeftRightQuillenFunctorsPreserveCyclinderPathSpaceObjects} that with $Cyl(Y)$ a [[cylinder object]] for $Y$, def. \ref{PathAndCylinderObjectsInAModelCategory}, then $L(Cyl(Y))$ is a cylinder object for $L(Y)$. This implies that left homotopies
-
-$$
-  (f \Rightarrow_L g) \;\colon\;  L X \longrightarrow Y
-$$
-
-given by
-
-$$
- \eta \;\colon\; Cyl(L X) =  L Cyl(X) \longrightarrow Y
-$$
-
-are in bijection to left homotopies
-
-$$
-  (\tilde f \Rightarrow_L \tilde g) \;\colon\; X \longrightarrow R Y
-$$
-
-given by
-
-$$
-  \tilde \eta \;\colon\; Cyl(X) \longrightarrow R X
-  \,.
-$$
-
-=--
-
-The following is the analog of [[adjunction unit]] and [[adjunction counit]] (Def. \ref{AdjunctionUnitFromHomIsomorphism})
+The following is the analog of [[adjunction unit]] and [[adjunction counit]] (Def. \ref{AdjunctionUnitFromHomIsomorphism}):
 
 +-- {: .num_defn #DerivedAdjunctionUnit}
 ###### Definition
@@ -2711,9 +2654,210 @@ be a [[Quillen adjunction]] (Def. \ref{QuillenAdjunction}). Then
 
    1. $\emptyset \underoverset{\in Cof_{\mathcal{D}}}{i_{R(P(c))}}{\longrightarrow} Q(R(P(c))) \underoverset{\in W_{\mathcal{D}} \cap Fib_{\mathcal{D}}}{p_X}{\longrightarrow} R(P(c))$ is a [[cofibrant resolution]] in $\mathcal{D}$ (Def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}).
 
+=--
+
+
++-- {: .num_prop #QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}
+###### Proposition
+**([[Quillen adjunction]] descends to [[homotopy categories]])**
+
+For $\mathcal{C} \underoverset{\underset{R}{\longrightarrow}}{\overset{L}{\longleftarrow}}{{}_{\phantom{Qu}}\bot_{Qu}}\mathcal{D}$ a [[Quillen adjunction]], def. \ref{QuillenAdjunction}, then also the corresponding left and right [[derived functors]], def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}, via cor. \ref{LeftAndRightDerivedFunctors}, form a pair of [[adjoint functors]]
+
+$$
+  Ho(\mathcal{C})
+    \underoverset
+      {\underset{\mathbb{R}R}{\longrightarrow}}
+      {\overset{\mathbb{L}L}{\longleftarrow}}
+      {\bot}
+  Ho(\mathcal{D})
+  \,.
+$$
+
+Moreover, the [[adjunction unit]] and [[adjunction counit]] of this derived adjunction are the images of the [[derived adjunction unit]] and [[derived adjunction counit]] (Def. \ref{DerivedAdjunctionUnit}) under the [[localization]] functors (Theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory}).
 
 
 =--
+
+([Quillen 67, I.4 theorem 3](model+category#Quillen67))
+
++-- {: .proof}
+###### Proof
+
+For the first statement, by def. \ref{LeftAndRightDerivedFunctorsOnModelCategories} and lemma \ref{HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory} it is sufficient to see that for $X, Y \in \mathcal{C}$ with $X$ cofibrant and $Y$ fibrant, then there is a [[natural bijection]]
+
+\[
+  \label{HomIsomorphismForDerivedQuillenAdjunctionOnHomotopyCategory}
+  Hom_{\mathcal{C}}(L X , Y)/_\sim
+   \simeq
+  Hom_{\mathcal{C}}(X, R Y)/_\sim
+  \,.
+\]
+
+Since by the [[adjoint functor|adjunction isomorphism]] for $(L \dashv R)$ such a natural bijection exists before passing to homotopy classes $(-)/_\sim$, it is sufficient to see that this respects homotopy classes. To that end, use from lemma \ref{LeftRightQuillenFunctorsPreserveCyclinderPathSpaceObjects} that with $Cyl(Y)$ a [[cylinder object]] for $Y$, def. \ref{PathAndCylinderObjectsInAModelCategory}, then $L(Cyl(Y))$ is a cylinder object for $L(Y)$. This implies that left homotopies
+
+$$
+  (f \Rightarrow_L g) \;\colon\;  L X \longrightarrow Y
+$$
+
+given by
+
+$$
+ \eta \;\colon\; Cyl(L X) =  L Cyl(X) \longrightarrow Y
+$$
+
+are in bijection to left homotopies
+
+$$
+  (\tilde f \Rightarrow_L \tilde g) \;\colon\; X \longrightarrow R Y
+$$
+
+given by
+
+$$
+  \tilde \eta \;\colon\; Cyl(X) \longrightarrow R X
+  \,.
+$$
+
+This establishes the adjunction. Now regarding the (co-)units:
+We show this for the adjunction unit, the case of the adjunction counit is [[formal duality|formally dual]].
+
+First observe that for $d \in \mathcal{D}_c$, then the defining [[commuting square]] for the [[left derived functor]] from def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}
+
+$$
+  \array{
+    \mathcal{D}_c &\overset{L}{\longrightarrow}& \mathcal{C}
+    \\
+    {}^{\mathllap{\gamma_P}}\downarrow
+      &\swArrow_{\simeq}&
+    \downarrow^{\mathrlap{\gamma_{P,Q}}}
+    \\
+    Ho(\mathcal{D}) &\underset{\mathbb{L}L}{\longrightarrow}& Ho(\mathcal{C})
+  }
+$$
+
+(using fibrant and [[fibrant replacement|fibrant/cofibrant replacement functors]] $\gamma_P$, $\gamma_{P,Q}$ from def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} with their universal property from theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory}, corollary \ref{HomotopyCategoryOfSubcategoriesOfModelCategoriesOnGoodObjects}) gives that
+
+$$
+  (\mathbb{L} L ) d \simeq P L P d \simeq P L d \;\;\;\; \in Ho(\mathcal{C})
+  \,,
+$$
+
+where the second isomorphism holds because the left Quillen functor $L$ sends the acyclic cofibration $j_d \colon d \to P d$ to a weak equivalence.
+
+The adjunction unit of $(\mathbb{L}L \dashv \mathbb{R}R)$ on $P d \in Ho(\mathcal{C})$ is the image of the identity under
+
+$$
+  Hom_{Ho(\mathcal{C})}((\mathbb{L}L) P d, (\mathbb{L} L) P d)
+  \overset{\simeq}{\to}
+  Hom_{Ho(\mathcal{C})}(P d, (\mathbb{R}R)(\mathbb{L}L) P d)
+  \,.
+$$
+
+By the above and the proof of prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}, that adjunction isomorphism is equivalently that of $(L \dashv R)$ under the isomorphism
+
+$$
+  Hom_{Ho(\mathcal{C})}(P L d , P L d)
+    \overset{Hom(j_{L d}, id)}{\longrightarrow}
+  Hom_{\mathcal{C}}(L d, P L d)/_\sim
+$$
+
+of lemma \ref{HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory}. Hence the [[derived adjunction unit]] (Def. \ref{DerivedAdjunctionUnit}) is the $(L \dashv R)$-[[adjunct]] of
+
+$$
+  L d
+    \overset{j_{L d}}{\longrightarrow}
+  P L d
+    \overset{id}{\to}
+  P L d
+  \,,
+$$
+
+which indeed (by the formula for [[adjuncts]], Prop. \ref{GeneralAdjunctsInTermsOfAdjunctionUnitCounit}) is the [[derived adjunction unit]]
+
+$$
+  X
+    \overset{\eta}{\longrightarrow}
+  R L d
+    \overset{R (j_{L d})}{\longrightarrow}
+  R P L d
+  \,.
+$$
+
+
+=--
+
+The following is the analog of [[coreflective subcategory|co-]][[reflective subcategories]] (Def. \ref{ReflectiveSubcategory}) for [[model categories]]:
+
++-- {: .num_defn #QuillenReflection}
+###### Definition
+**([[Quillen reflection]])**
+
+Let $\mathcal{C}$ and $\mathcal{D}$ be [[model categories]] (Def. \ref{ModelCategory}), and let
+
+$$
+  \mathcal{C}  
+    \underoverset
+      {\underset{\phantom{AA}R\phantom{AA}}{\longrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\bot_{Qu}}
+  \mathcal{D}
+$$
+
+be a [[Quillen adjunction]] between them (Def. \ref{QuillenAdjunction}). Then this may be called 
+
+1. a _Quillen reflection_ if the [[derived adjunction counit]] (Def. \ref{DerivedAdjunctionUnit}) is componentwise a [[weak equivalence]];
+
+1. a _Quillen co-reflection_ if the [[derived adjunction unit]] (Def. \ref{DerivedAdjunctionUnit}) is componentwise a [[weak equivalence]].
+
+=--
+
++-- {: .num_prop #QuillenReflectionViaReflectionOfHomotopyCategories}
+###### Proposition
+**(characterization of [[Quillen reflections]])**
+
+Let
+
+$$
+  \mathcal{C}  
+    \underoverset
+      {\underset{\phantom{AA}R\phantom{AA}}{\longrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\bot_{Qu}}
+  \mathcal{D}
+$$
+
+be a [[Quillen adjunction]] (Def. \ref{QuillenAdjunction}) and write
+
+$$
+  Ho(\mathcal{C})
+    \underoverset
+      {\underset{\phantom{AA}\mathbb{R}R\phantom{AA}}{\longrightarrow}}
+      {\overset{\mathbb{L}L}{\longleftarrow}}
+      {\bot_{Qu}}
+  Ho(\mathcal{D})
+$$
+
+for the induced [[adjoint pair]] of [[derived functors]] on the [[homotopy category of a model category|homotopy categories]], from Prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}.
+
+Then 
+
+1. $(L \underset{Qu}{\dashv} R)$ is a [[Quillen reflection]] (Def. \ref{QuillenReflection}) precisely if $(\mathbb{L}L \dashv \mathbb{R}R)$ is a [[reflective subcategory]]-inclusion (Def. \ref{ReflectiveSubcategory});
+
+1. $(L \underset{Qu}{\dashv} R)$ is a [[Quillen co-reflection]]] (Def. \ref{QuillenReflection}) precisely if $(\mathbb{L}L \dashv \mathbb{R}R)$ is a [[co-reflective subcategory]]-inclusion (Def. \ref{ReflectiveSubcategory});
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By Prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories} the components of the [[adjunction unit]]/[[adjunction counit|counit]] of $(\mathbb{L}L \dashv \mathbb{R}R)$ are precisely the images under [[localization]] of the [[derived adjunction unit]]/[[derived adjunction counit|counit]] of $(L \underset{Qu}{\dashv} R)$. Moreover, by Prop. \ref{MorphismIsWeakEquivalenceIfIsoInHomotopyCategoryForQuillen} the localization functor of a [[model category]] inverts precisely the [[weak equivalences]]. Hence the adjunction (co-)unit of $(\mathbb{L}L \dashv \mathbb{R}R)$ is an isomorphism if and only if the derived (co-)unit of $(L \underset{Qu}{\dashv} R)$ is a weak equivalence, respectively.
+
+With this the statement reduces to the characterization of (co-)reflections via invertible units/counits, respectively, from Prop. \ref{FullyFaithfulAndInvertibleAdjoints}.
+
+=--
+
+
 
 The following is the analog of [[adjoint equivalence of categories]] (Def. \ref{AdjointEquivalenceOfCategories}) for [[model categories]]:
 
@@ -2726,9 +2870,9 @@ For $\mathcal{C}, \mathcal{D}$ two [[model categories]] (Def. \ref{ModelCategory
 $$
   \mathcal{C}
     \underoverset
-      {\underset{R}{\longrightarrow}}
+      {\underset{\phantom{AA}R\phantom{AA}}{\longrightarrow}}
       {\overset{L}{\longleftarrow}}
-      {\bot_{Qu}}
+      {{}_{\phantom{Qu}}\bot_{Qu}}
   \mathcal{D}
 $$
 
@@ -2738,8 +2882,8 @@ $$
   \mathcal{C}
     \underoverset
       {\underset{R}{\longrightarrow}}
-      {\overset{L}{\longleftarrow}}
-      {\simeq_{\mathrlap{Q}}}
+      {\overset{\phantom{AA}L\phantom{AA}}{\longleftarrow}}
+      {{}_{\phantom{Qu}}\simeq_{Qu}}
   \mathcal{D}
   \,,
 $$
@@ -2813,70 +2957,7 @@ The conditions in def. \ref{QuillenEquivalence} are indeed all equivalent.
 
 That $1) \Leftrightarrow 2)$ follows from prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories} (if in an adjoint pair one is an equivalence, then so is the other).
 
-To see the equivalence $1),2) \Leftrightarrow 3)$, notice ([prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints)) that a pair of [[adjoint functors]] is an [[equivalence of categories]] precisely if both the [[adjunction unit]] and the [[adjunction counit]] are [[natural isomorphisms]]. Hence it is sufficient to show that the [[derived adjunction unit]]/[[derived adjunction counit]] (Def. \ref{DerivedAdjunctionUnit}) indeed represent the [[adjunction unit|adjunction (co-)unit]] of $(\mathbb{L}L \dashv \mathbb{R}R)$ in the [[homotopy category of a model category|homotopy category]].
-We show this now for the adjunction unit, the case of the adjunction counit is formally dual.
-
-To that end, first observe that for $d \in \mathcal{D}_c$, then the defining commuting square for the left derived functor from def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}
-
-$$
-  \array{
-    \mathcal{D}_c &\overset{L}{\longrightarrow}& \mathcal{C}
-    \\
-    {}^{\mathllap{\gamma_P}}\downarrow
-      &\swArrow_{\simeq}&
-    \downarrow^{\mathrlap{\gamma_{P,Q}}}
-    \\
-    Ho(\mathcal{D}) &\underset{\mathbb{L}L}{\longrightarrow}& Ho(\mathcal{C})
-  }
-$$
-
-(using fibrant and fibrant/cofibrant replacement functors $\gamma_P$, $\gamma_{P,Q}$ from def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} with their universal property from theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory}, corollary \ref{HomotopyCategoryOfSubcategoriesOfModelCategoriesOnGoodObjects}) gives that
-
-$$
-  (\mathbb{L} L ) d \simeq P L P d \simeq P L d \;\;\;\; \in Ho(\mathcal{C})
-  \,,
-$$
-
-where the second isomorphism holds because the left Quillen functor $L$ sends the acyclic cofibration $j_d \colon d \to P d$ to a weak equivalence.
-
-The adjunction unit of $(\mathbb{L}L \dashv \mathbb{R}R)$ on $P d \in Ho(\mathcal{C})$ is the image of the identity under
-
-$$
-  Hom_{Ho(\mathcal{C})}((\mathbb{L}L) P d, (\mathbb{L} L) P d)
-  \overset{\simeq}{\to}
-  Hom_{Ho(\mathcal{C})}(P d, (\mathbb{R}R)(\mathbb{L}L) P d)
-  \,.
-$$
-
-By the above and the proof of prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}, that adjunction isomorphism is equivalently that of $(L \dashv R)$ under the isomorphism
-
-$$
-  Hom_{Ho(\mathcal{C})}(P L d , P L d)
-    \overset{Hom(j_{L d}, id)}{\longrightarrow}
-  Hom_{\mathcal{C}}(L d, P L d)/_\sim
-$$
-
-of lemma \ref{HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory}. Hence the [[derived adjunction unit]] (Def. \ref{DerivedAdjunctionUnit}) is the $(L \dashv R)$-[[adjunct]] of
-
-$$
-  L d
-    \overset{j_{L d}}{\longrightarrow}
-  P L d
-    \overset{id}{\to}
-  P L d
-  \,,
-$$
-
-which indeed (by the formula for [[adjuncts]]) is
-
-$$
-  X
-    \overset{\eta}{\longrightarrow}
-  R L d
-    \overset{R (j_{L d})}{\longrightarrow}
-  R P L d
-  \,.
-$$
+To see the equivalence $1),2) \Leftrightarrow 3)$, notice ([prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints)) that a pair of [[adjoint functors]] is an [[equivalence of categories]] precisely if both the [[adjunction unit]] and the [[adjunction counit]] are [[natural isomorphisms]]. Hence it is sufficient to see that the [[derived adjunction unit]]/[[derived adjunction counit]] (Def. \ref{DerivedAdjunctionUnit}) indeed represent the [[adjunction unit|adjunction (co-)unit]] of $(\mathbb{L}L \dashv \mathbb{R}R)$ in the [[homotopy category of a model category|homotopy category]]. But this is the statement of Prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}.
 
 To see that $4) \Rightarrow 3)$:
 
@@ -2890,7 +2971,7 @@ $$
   R P L X
 $$
 
-by assumption 4) this is again a weak equivalence, which is the requirement for the derived unit in 3). Dually for derived counit.
+by assumption 4) this is again a weak equivalence, which is the requirement for the [[derived adjunction unit]] in 3). Dually for [[derived adjunction counit]].
 
 To see $3) \Rightarrow 4)$:
 
@@ -14453,11 +14534,9 @@ $$
 
 such that 
 
-1. $Disc$ and $coDisc$ are [[homotopically fully faithful]] in that 
+1. $(Disc \dashv \Gamma)$ is a [[Quillen coreflection]] (Def. \ref{QuillenReflection});
 
-   1. the [[derived adjunction unit]] (Def. \ref{DerivedAdjunctionUnit}) of $(Disc \dashv \Gamma)$ is a [[weak equivalence]];
-
-   1. the [[derived adjunction counit]] (Def. \ref{DerivedAdjunctionUnit}) of  $(\Gamma \dashv coDisc)$ is a [[weak equivalence]];
+1. $(\Gamma \dashv coDisc)$ is a [[Quillen reflection]] (Def. \ref{QuillenReflection});
 
 1. $\Pi$ preserves [[finite products]].
 
@@ -14570,7 +14649,7 @@ Hence we need to see that each consecutive [[pair]] of [[functors]] constitutes 
 
 That the top [[adjoint triple]] $(\Pi \dashv const \dashv \Gamma)$ is a [[Quillen adjoint triple]] is in fact Example \ref{HomotopyLimitOfSimplicialSets}. Moreover, $\Gamma$ is given by point evaluation, it is immediate that this is not just a [[left Quillen functor]] but also a [[right Quillen functor]] with respect to the injective model structure. 
 
-It only remains to see that $Disc$ and $coDisc$ are homotopy fully faithful.
+It only remains to see the [[Quillen reflection|Quillen (co-)reflectivity]]:
 
 The [[derived adjunction unit]] for $(Disc \dashv \Gamma)$ has components
 
@@ -14582,7 +14661,7 @@ $$
   \Gamma (P Disc S)
 $$
 
-Here the [[adjunction unit]] itself is an [[isomorphism]], since $Disc$ is a [[fully faithful functor]]. Moreover, since $\Gamma$ is given by evaluation on the terminal object, and since weak equivalences of simplicial presheaves are objectwise weak equialences, also $\Gamma(j_{Disc(S)})$ is a weak equivalence, and hence so is the composite derived adjunction unit.
+Here the [[adjunction unit]] $\eta_S$ itself is an [[isomorphism]], by Prop. \ref{FullyFaithfulAndInvertibleAdjoints}, since $Disc$ is a [[fully faithful functor]]. Moreover, since $\Gamma$ is given by evaluation on the terminal object, and since weak equivalences of simplicial presheaves are objectwise weak equialences (Prop. \ref{ModelCategoriesOfSimplicialPresheaves}), also $\Gamma(j_{Disc(S)})$ is a weak equivalence, and hence so is the composite derived adjunction unit.
 
 Similarly, the [[derived adjunction counit]] for $(\Gamma \dashv coDisc)$ has components
 
