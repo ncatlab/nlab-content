@@ -199,6 +199,7 @@ The monad $G F$ is left adjoint to the comonad $H G$, with the structure maps be
 
 * [[affine morphism]], [[affine localization]] 
 
+* [[Quillen adjoint triple]]
 
 ## References
 
