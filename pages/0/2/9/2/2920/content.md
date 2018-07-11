@@ -621,8 +621,8 @@ $$
 $$
 
 But now since the vertical morphisms are weak equivalences,
-this means that already the fibrant replacement $X \to X^{fib}$
-is isomorphic, in the homotopy category, to the derived unit, i.e. applying the [[localization]] $\ell$ to the above diagram in $\mathcal{C}$ yields the diagram
+this means that already the [[fibrant replacement]] $X \to X^{fib}$
+is isomorphic, in the [[homotopy category of a model category|homotopy category]], to the [[derived adjunction unit]], i.e. applying the [[localization]] $\ell$ to the above diagram in $\mathcal{C}$ yields the diagram
 
 $$
   \array{
@@ -917,7 +917,7 @@ This is due to Hirschhorn.
 If the left Bousfield localization exists, i.e. $L_S C$ is indeed a [[model category]] with the above definitions of cofibrations and weak equivalences, then it is indeed a [[localization of a model category]] in that there is a _left Quillen functor_
 
 $$
-  j : C \to L_S C
+  j \colon C \to L_S C
 $$
 
 (i.e. $j$ preserves cofibrations and trivial cofibrations and has a [[right adjoint]])
@@ -925,7 +925,7 @@ $$
 such that the total left [[derived functor]]
 
 $$
-  L j : Ho C \to Ho L_S C
+  L j \colon Ho C \to Ho L_S C
 $$
 
 takes the images of $S \subset Mor(C)$ in $Ho(C)$ to [[isomorphism]]s
