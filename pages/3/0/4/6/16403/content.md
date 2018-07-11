@@ -2405,18 +2405,18 @@ Now since $F$ is assumed to preserve fibrant objects, $F(P(X))$ is fibrant in $\
 ### Quillen adjunctions
  {#QuillenAdjunctions}
 
-In practice it turns out to be useful to arrange for the assumptions in corollary \ref{LeftAndRightDerivedFunctors} to be satisfied by pairs of [[adjoint functors]] ([this Def.](geometry+of+physics+--+categories+and+toposes#AdjointFunctorsInTermsOfNaturalBijectionOfHomSets)). Recall that this is a pair of [[functors]] $L$ and $R$ going back and forth between two categories
+In practice it turns out to be useful to arrange for the assumptions in corollary \ref{LeftAndRightDerivedFunctors} to be satisfied by pairs of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}). Recall that this is a pair of [[functors]] $L$ and $R$ going back and forth between two categories
 
 $$
   \mathcal{C}
     \underoverset
       {\underset{R}{\longrightarrow}}
       {\overset{L}{\longleftarrow}}
-      {}
+      {\bot}
   \mathcal{D}
 $$
 
-such that there is a [[natural bijection]] between [[hom-sets]] with $L$ on the left and those with $R$ on the right:
+such that there is a [[natural bijection]] between [[hom-sets]] with $L$ on the left and those with $R$ on the right (eq:HomIsomorphismForAdjointFunctors):
 
 $$
   \phi_{d,c}
@@ -2426,7 +2426,7 @@ $$
   Hom_{\mathcal{D}}(d, R(c))
 $$
 
-for all objects $d\in \mathcal{D}$ and $c \in \mathcal{C}$. This being natural means that $\phi \colon Hom_{\mathcal{D}}(L(-),-) \Rightarrow Hom_{\mathcal{C}}(-, R(-))$ is a [[natural transformation]], hence that for all morphisms $g \colon d_2 \to d_1$ and $f \colon c_1 \to c_2$ the following is a [[commuting square]]:
+for all objects $d\in \mathcal{D}$ and $c \in \mathcal{C}$. This being _[[natural transformation|natural]]_ (Def. \ref{NaturalTransformations}) means that $\phi \colon Hom_{\mathcal{D}}(L(-),-) \Rightarrow Hom_{\mathcal{C}}(-, R(-))$ is a [[natural transformation]], hence that for all morphisms $g \colon d_2 \to d_1$ and $f \colon c_1 \to c_2$ the following is a [[commuting square]]:
 
 $$
   \array{
@@ -2549,8 +2549,10 @@ Now by repeatedly applying (i) and (ii), all four conditions in question are see
 
 =--
 
+
 +-- {: .num_lemma #LeftRightQuillenFunctorsPreserveCyclinderPathSpaceObjects}
 ###### Lemma
+**([[right Quillen functors]] preserve [[path space objects]])**
 
 Let $\mathcal{C} \stackrel{\overset{L}{\longleftarrow}}{\underoverset{R}{\bot}{\longrightarrow}} \mathcal{D}$ be a [[Quillen adjunction]], def. \ref{QuillenAdjunction}.
 
@@ -2844,14 +2846,15 @@ In certain situations the conditions on a Quillen equivalence simplify. For inst
 
 +-- {: .num_prop #InCaseTheRightAdjointCreatesWeakEquivalences}
 ###### Proposition
+**(recognition of [[Quillen equivalences]])**
 
-If in a [[Quillen adjunction]]  $ \array{\mathcal{C} &\underoverset{\underset{R}{\to}}{\overset{L}{\leftarrow}}{\bot}& \mathcal{D}}$ (def. \ref{QuillenAdjunction}) the [[right adjoint]] $R$ "creates weak equivalences" (in that a morphism $f$ in $\mathcal{C}$ is a weak equivalence precisly if $U(f)$ is) then $(L \dashv R)$ is a [[Quillen equivalence]] (def. \ref{QuillenEquivalence}) precisely already if for all cofibrant objects $d \in \mathcal{D}$ the plain [[adjunction unit]]
+If in a [[Quillen adjunction]]  $ \array{\mathcal{C} &\underoverset{\underset{R}{\to}}{\overset{L}{\leftarrow}}{\bot}& \mathcal{D}}$ (def. \ref{QuillenAdjunction}) the [[right adjoint]] $R$ "creates weak equivalences" (in that a morphism $f$ in $\mathcal{C}$ is a weak equivalence precisly if $U(f)$ is) then $(L \dashv R)$ is a [[Quillen equivalence]] (def. \ref{QuillenEquivalence}) precisely already if for all [[cofibrant objects]] $d \in \mathcal{D}$ the plain [[adjunction unit]]
 
 $$
   d \overset{\eta}{\longrightarrow} R (L (d))
 $$
 
-is a weak equivalence.
+is a [[weak equivalence]].
 
 =--
 
@@ -2930,6 +2933,86 @@ $$
 
 But $p_{R(c)}$ is a weak equivalence by definition of cofibrant replacement.
 
+
+=--
+
+The following is the analog of [[adjoint triples]], [[adjoint quadruples]] (Remark \ref{AdjointTriples}), etc. for [[model categories]]:
+
++-- {: .num_defn #QuillenAdjointTriple}
+###### Definition
+**([[Quillen adjoint triple]])**
+
+Let $\mathcal{C}$, $\mathcal{D}$ be two [[categories]] (Def. \ref{Categories}) and let
+
+\[
+  \label{AdjointTripleUnderlyingQuillenAdjointTriple}
+  \mathcal{C}
+    \array{
+       \overset{\phantom{AA}L\phantom{AA}}{\longrightarrow}
+       \\
+       \overset{\phantom{AA}C\phantom{AA}}{\longleftarrow}
+       \\
+       \overset{\phantom{AA}R\phantom{AA}}{\longrightarrow}
+    }
+  \mathcal{D}
+\]
+
+be an [[adjoint triple]] of [[functors]] between them (Remark \ref{AdjointTriples}).
+
+Let moreover $\mathcal{C}_1, \mathcal{C}_2$ and $\mathcal{D}_1$, $\mathcal{D}_2$ be [[model category]] [[structures]] on $\mathcal{C}$ and $\mathcal{D}$, respectively (Def. \ref{ModelCategory}), such that the [[identity functors]] constitute [[Quillen equivalences]] (Def. \ref{QuillenEquivalence})
+
+$$
+  \mathcal{C}_1
+    \underoverset
+      {\underset{\phantom{AA}id_{\mathcal{C}}\phantom{AA}}{\longrightarrow}}
+      {\overset{id_{\mathcal{C}}}{\longleftarrow}}
+      {\simeq_{Qu}}
+  \mathcal{C}_2
+  \,,
+  \phantom{AAAA}
+  \mathcal{D}_1
+    \underoverset
+      {\underset{\phantom{AA}id_{\mathcal{C}}\phantom{AA}}{\longrightarrow}}
+      {\overset{id_{\mathcal{C}}}{\longleftarrow}}
+      {\simeq_{Qu}}
+  \mathcal{D}_2
+$$
+
+Then (eq:AdjointTripleUnderlyingQuillenAdjointTriple) is a _[[Quillen adjoint triple]]_ if 
+
+1. $C$ is a [[right Quillen functor]] (Def. \ref{QuillenAdjunction}) with respect to $\mathcal{C}_1$ and $\mathcal{D}_1$;
+
+1. $C$ is a [[right Quillen functor]] (Def. \ref{QuillenAdjunction}) with respect to $\mathcal{C}_2$ and $\mathcal{D}_2$.
+
+
+$$
+  \array{
+    \mathcal{C}_1
+      &
+      \underoverset
+        {\underset{\phantom{AA}C\phantom{AA}}{\longleftarrow}}
+        {\overset{ L }{\longrightarrow}}
+        {\bot_{Qu}}
+      &
+    \mathcal{D}_1
+    \\
+    {}^{\mathllap{id}}\Big\downarrow {}^{\underset{Qu}{\simeq}} \Big\uparrow{}^{\mathrlap{id}}
+    &&
+    {}^{\mathllap{id}}\Big\downarrow {}^{\underset{Qu}{\simeq}}\Big\uparrow{}^{\mathrlap{id}}
+    \\
+    \mathcal{C}_2
+      &
+      \underoverset
+        {\underset{ \underset{ r }{\longrightarrow}}
+        {\overset{\phantom{AA}C\phantom{AA}}{\longleftarrow}}
+        {\bot_{Qu}}
+      &
+    \mathcal{D}_2
+  }  
+$$
+
+
+Similarly for [[adjoint quadruples]] etc.
 
 =--
 
@@ -14265,6 +14348,87 @@ to be a weak equivalence, it is now sufficient to see that the value of a [[cofi
 
 =--
 
+$\,$
+
+## Gros $(\infty,1)$-Toposes
+
+The following is the analog of Example \ref{PresheavesAdjointQuadrupleOnSiteWithTerminalObject}
+
++-- {: .num_example #simplicialPresheavesAdjointQuadrupleOnSiteWithTerminalObject}
+###### Example
+**([[Quillen adjoint quadruple]] on [[simplicial presheaves]] over [[site]] with [[finite products]])**
+
+Let $\mathcal{C}$ be a [[small category]] (Def. \ref{SmallCategory}) with [[finite products]] (hence with a [[terminal object]] $\ast \in \mathcal{C}$ and for any two [[objects]] $X,Y \in \mathcal{C}$ their [[Cartesian product]] $X \times Y \in \mathcal{C}$). By Example \ref{InitialAndTerminalObjectInTermsOfAdjunction} the [[terminal object]] is witnessed by an [[adjunction]]
+
+\[
+  \label{SiteAdjunctionForInfinityPresheafCohesion}
+  \ast 
+    \underoverset
+     {\underset{}{\hookrightarrow}}
+     {\overset{\phantom{AAAA}}{\longleftarrow}}
+     {\bot}
+  \mathcal{C}
+\]
+
+
+Consider the [[category of simplicial presheaves]] $[\mathcal{C}^{op}, sSet]$ (Example \ref{CategoriesOfSimplicialPresheaves}) with its projective and injective [[model structure on simplicial presheaves]] (Prop. \ref{ModelCategoriesOfSimplicialPresheaves}).
+ 
+Then [[Kan extension]] (Prop. \ref{TopologicalLeftKanExtensionBCoend}) [[enriched category theory|enriched]] over [[sSet]] (Example \ref{ExamplesOfCosmoi}) along the [[adjoint pair]] (eq:SiteAdjunctionForInfinityPresheafCohesion) yields a [[simplicial Quillen adjunction|simplicial]] [[Quillen adjoint quadruple]] (Def. \ref{QuillenAdjointTriple})
+
+\[
+  \label{PreaheafAdjointQuadruple}
+  [\mathcal{C}^{op}, Set_{Qu}]
+    \array{
+      \overset{\phantom{AAA} \Pi \phantom{AAA}}{\longrightarrow}
+      \\
+      \overset{\phantom{AA} Disc \phantom{AA} }{\hookleftarrow}
+      \\
+      \overset{\phantom{AAA} \Gamma \phantom{AAA} }{\longrightarrow}
+      \\
+      \overset{\phantom{AA} coDisc \phantom{AA} }{\hookleftarrow}
+    }
+  sSet_{Qu}
+\]
+
+
+such that:
+
+1. the functor $\Gamma$ sends a [[simplicial presheaf]] $\mathbf{Y}$ to its [[simplicial set]] of [[global sections]], which here is its value on the [[terminal object]]:
+
+   \[
+     \label{CohesiveGlobalSectionsGivenByPointEvaluationModelCat}
+     \begin{aligned}
+       \Gamma \mathbf{Y}
+       & =
+       \underset{\underset{\mathcal{C}}{\longleftarrow}}{\lim}
+       \mathbf{Y}
+       \\
+       & \simeq
+       \mathbf{Y}(\ast)
+     \end{aligned}
+   \]
+
+1. $Disc$ and $coDisc$ are [[full and faithful functors]] in that
+
+   1. The [[derived adjunction unit]] of $(\Pi \dashv Disc)$ is a [[weak equivalence]];
+
+   1. the [[derived adjunction unit]] of $(\Gamma \dashv coDisc)$ is a [[weak equivalence]];
+
+1. $\Pi$ preserves [[finite products]]:
+
+   for $\mathbf{X}, \mathbf{Y} \in [\mathcal{C}^{op}, Set]$, we have a [[natural isomorphism]]
+
+   $$
+     \Pi(\mathbf{X} \times \mathbf{Y})
+     \;\simeq\;
+     \Pi(\mathbf{X}) \times \Pi(\mathbf{Y})
+     \,.
+   $$
+
+Hence the [[category of simplicial presheaves]] over a [[small category]] with [[finite products]], a [[cohesive (∞,1)-topos]] (Def. \ref{CohesiveModelTopos}).
+
+
+=--
 
 (...)
 
