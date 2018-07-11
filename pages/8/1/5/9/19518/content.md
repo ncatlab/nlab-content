@@ -1,5 +1,19 @@
 
-> under construction
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * table of contents
@@ -35,77 +49,50 @@ be a [[Quillen adjunction]] between them. Then this may be called
 
 ## Properties
 
-+-- {: .num_remark }
-###### Remark
-
-Let $(L \underset{Qu}{\dashv} R)$ be a [[Quillen adjunction]]. 
-The following are equivalent: 
-
-1. $(L \underset{Qu}{\dashv} R)$ is both a Quillen reflection and Quillen co-reflection (Def. \ref{QuillenReflection});
-
-1. $(L \underset{Qu}{\dashv} R)$ is a [[Quillen equivalence]].
-
-=--
-
-
-+-- {: .num_prop}
++-- {: .num_prop }
 ###### Proposition
 
-Let $(L \underset{Qu}{\dashv} R)$ be a [[Quillen adjunction]] and let
+Let
+
+$$
+  \mathcal{C}  
+    \underoverset
+      {\underset{\phantom{AA}R\phantom{AA}}{\longrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\bot_{Qu}}
+  \mathcal{D}
+$$
+
+be a [[Quillen adjunction]] and write
 
 $$
   Ho(\mathcal{C})
     \underoverset
       {\underset{\phantom{AA}\mathbb{R}R\phantom{AA}}{\longrightarrow}}
       {\overset{\mathbb{L}L}{\longleftarrow}}
-      {\bot}
+      {\bot_{Qu}}
   Ho(\mathcal{D})
 $$
 
-be the induced [[adjoint pair]] of [[derived functors]] on the [[homotopy category of a model category|homotopy categories]] ([this Prop.](geometry+of+physics+--+categories+and+toposes#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)).
+for the induced [[adjoint pair]] of [[derived functors]] on the [[homotopy category of a model category|homotopy categories]] ([this Prop.](geometry+of+physics+--+categories+and+toposes#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)).
 
-* If $(L \underset{Qu}{\dashv} R)$ is a Quillen reflection, then $(\mathbb{L}L \dashv \mathbb{R}R)$ is a [[reflective subcategory]]-inclusion;
+Then 
 
-* If $(L \underset{Qu}{\dashv} R)$ is a Quillen coreflection, then $(\mathbb{L}L \dashv \mathbb{R}R)$ is a [[co-reflective subcategory]]-inclusion;
+1. $(L \underset{Qu}{\dashv} R)$ is a Quillen reflection precisely if $(\mathbb{L}L \dashv \mathbb{R}R)$ is a [[reflective subcategory]]-inclusion;
+
+1. $(L \underset{Qu}{\dashv} R)$ is a Quillen co-reflection precisely if $(\mathbb{L}L \dashv \mathbb{R}R)$ is a [[co-reflective subcategory]]-inclusion;
+
+1. $(L \underset{Qu}{\dashv} R)$ is a [[Quillen equivalence]] precisely if $(\mathbb{L}L \dashv \mathbb{R}R)$ is an [[equivalence of categories]].
 
 =--
+
 
 +-- {: .proof}
 ###### Proof
 
-By the proof of [this Prop.](geometry+of+physics+--+categories+and+toposes#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories), the adjunction hom-isomorphism 
+By [this Prop.](geometry+of+physics+--+categories+and+toposes#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories) the components of the [[adjunction unit]]/[[adjunction counit|counit]] of $(\mathbb{L}L \dashv \mathbb{R}R)$ are precisely the images under [[localization]] of the [[derived adjunction unit]]/[[derived adjunction counit|counit]] of $(L \underset{Qu}{\dashv} R)$. Moreover, by [this Prop.](geometry+of+physics+--+categories+and+toposes#MorphismIsWeakEquivalenceIfIsoInHomotopyCategoryForQuillen) the localization functor of a [[model category]] inverts precisely the [[weak equivalences]]. Hence the adjunction (co-)unit of $(\mathbb{L}L \dashv \mathbb{R}R)$ is an isomorphism if and only if the derived (co-)unit of $(L \underset{Qu}{\dashv} R)$ is a weak equivalence, respectively.
 
-$$
-  Hom_{Ho(\mathcal{C})}(\mathbb{L}L(d),c)
-    \simeq
-  Hom_{Ho(\mathcal{D})}(d,\mathbb{R}R(c))  
-$$
-
-of the derived adjunction $(\mathbb{L}L \dashv \mathbb{R}R)$ on homotopy categories is just that of the plain adjunction $(L \dashv R)$ for $Q c$ a [[cofibrant replacement]] and $P d$ a fibrant replacement, quotiented by the homotopy relation:
-
-$$
-  \widetilde{(-)}
-  \;\colon\;
-  Hom_{\mathcal{C}}(L Q d ,P c)/\sim
-    \simeq
-  Hom_{Ho(\mathcal{D})}(Q d, R P c)/\sim 
-$$
-
-Hence the [[adjunction unit]] of the derived adjunction $(\mathbb{L}L \dashv \mathbb{R}R)$ is, up to composition with [[isomorphisms]], the ordinary [[adjunct]] $\widetilde{j_{L Q X}}$ of a [[fibrant replacement]] comparison morphism
-
-$$
-  L Q X \underoverset{\in W_{\mathcal{C}}}{j_{L Q X}}{\longrightarrow} P L Q X
-  \;\;\;
-  \in
-  Hom_{\mathcal{C}}(L Q X ,P Y)/\sim
-$$
-
-By the formula for [[adjuncts]], this is 
-
-$$
-  ...
-$$
-
+With this the statement reduces to the characterization of (co-)reflections via invertible units/counits, respectively ([this Prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints)).
 
 =--
 
