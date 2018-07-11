@@ -267,6 +267,7 @@ $$
 =--
 
 ### As $(\infty,1)$-categories presented by combinatorial simplicial model categories
+ {#PresentedByCombinatorialSimplicialModelCategories}
 
 By prop. \ref{EquivalentCharacterizations}
 locally presentable $(\infty,1)$-categories are equivalently those [[(∞,1)-categories]] which are _presented_ by a [[combinatorial simplicial model category]] $C$ in that they are the full [[simplicially enriched category|simplicial subcategory]] $C^\circ \hookrightarrow C$ on fibrant-cofibrant objects of $C$ (or, equivalently, the [[quasi-category]] associated to this [[simplicially enriched category]]).
@@ -276,8 +277,7 @@ locally presentable $(\infty,1)$-categories are equivalently those [[(∞,1)-cat
 
 Under this presentation, [[equivalence of (∞,1)-categories]] between locally presentable $(\infty,1)$-categories corresponds to [[zigzags]] of [[Quillen equivalences]] between presenting [[combinatorial simplicial model category|combinatorial simplicial model categories]]:
 
-$C^\circ$ and $D^\circ$ are equivalent as $(\infty,1)$-categories precisely
-if there exists a chain of simplicial Quillen equivalence
+$C^\circ$ and $D^\circ$ are [[equivalence of (∞,1)-categories|equivalent as (∞,1)-categories]] precisely if they are connected by a [[zig-zag]] of [[simplicial Quillen adjunction|simplicial]] [[Quillen equivalences]]
 
 $$
   C 
