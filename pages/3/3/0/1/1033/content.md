@@ -24,17 +24,22 @@
 +-- {: .num_defn}
 ###### Definition
 
-In a [[category]] with a [[terminal object]] $1$, the **cokernel** of a [[morphism]] $f : A \to B$ is the [[pushout]] $coker(f)$ in
+In a [[category]] with a [[terminal object]] $1$, the **cokernel** of a [[morphism]] $f : A \to B$ is the [[pushout]] 
 
 $$
+  coker(f)
+    \;\coloneqq\; 
+  1 \underset{A}{\sqcup} B
+  \phantom{AAAAAA}
   \array{
-    A &\stackrel{f}{\to}& B
+    A &\stackrel{f}{\longrightarrow}& B
     \\
-    \downarrow && \downarrow^{\mathrlap{i}}
+    \big\downarrow &{}^{(po)}& \big\downarrow
     \\
-    1 &\to& coker(f)
+    1 
+      &\longrightarrow& 
+    coker(f)
   }
-  \,.
 $$
 
 =--
