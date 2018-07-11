@@ -71,7 +71,7 @@ such that:
 
 +-- {: .num_example #PresheavesAdjointQuadrupleOnSiteWithTerminalObject}
 ###### Example
-**([[adjoint quadruple]] of [[presheaves]] over [[site]] with [[terminal objects]])**
+**([[adjoint quadruple]] of [[presheaves]] over [[site]] with [[finite products]])**
 
 Let $\mathcal{C}$ be a [[small category]] (Def. \ref{SmallCategory}) with [[finite products]] (hence with a [[terminal object]] $\ast \in \mathcal{C}$ and for any two [[objects]] $X,Y \in \mathcal{C}$ their [[Cartesian product]] $X \times Y \in \mathcal{C}$).
 
@@ -79,7 +79,7 @@ Then there is an [[adjoint quadruple]] (Remark \ref{AdjointTriples}) of [[functo
 
 \[
   \label{PreaheafAdjointQuadruple}
-  [\mathcal{C}, Set]
+  [\mathcal{C}^{op}, Set]
     \array{
       \overset{\phantom{AAA} \Pi \phantom{AAA}}{\longrightarrow}
       \\
