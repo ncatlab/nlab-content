@@ -1,6 +1,6 @@
 
 
-* [website](http://www.math.kit.edu/iag3/~wellen/de)
+* [website](http://www.andrew.cmu.edu/user/fwellen/)
 
 * _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_ 
 
