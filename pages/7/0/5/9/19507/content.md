@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -17,17 +16,15 @@
 
 ## Idea
 
-The analog of _[[functor category]]_ as [[categories]] are generalized to _[[2-categories]]_.
+The analog of _[[functor category]]_ as [[categories]] are generalized to ([[strict 2-category|strict]] or [[bicategory|weak]]) _[[2-categories]]_.  There are various versions of this depending on how strict the functors and the transformations between them are.  In general, for $\mathcal{C}$ and $\mathcal{D}$ two [[2-categories]], their _functor 2-category_ is the 2-category whose
 
-For $\mathcal{C}$ and $\mathcal{D}$ two [[2-categories]], their _2-functor 2-category_ (or _[[bifunctor]] [[bicategory]]_ ) is the 2-category whose
+1. [[objects]] are strict, pseudo, lax, or colax [[2-functors]] from $\mathcal{C}$ to $\mathcal{D}$,
 
-1. [[objects]] are [[2-functors]] from $\mathcal{C}$ to $\mathcal{D}$,
+1. [[1-morphisms]] are [[strict 2-natural transformation|strict]], [[pseudonatural transformation|pseudo]], [[lax natural transformation|lax]], or colax natural transformations of 2-functors;
 
-1. [[1-morphisms]] are [[pseudonatural transformations]] of 2-functors;
+1. [[2-morphisms]] are [[modifications]] between these.
 
-1. [[2-morphisms]] are [[modifications]] of pseudonatural transformations
-
-Such 2-functor 2-categories are the [[hom-objects]] in the [[3-category]] [[2Cat]].
+Such functor 2-categories are the [[hom-objects]] in various versions of the [[3-category]] [[2Cat]].
 
 ## Related concepts
 
@@ -36,6 +33,9 @@ Such 2-functor 2-categories are the [[hom-objects]] in the [[3-category]] [[2Cat
 * [[(infinity,1)-category of (infinity,1)-functors]] 
 
 
+[[!redirects functor 2-categories]]
+
+[[!redirects 2-functor 2-category]]
 [[!redirects 2-functor 2-categories]]
 
 [[!redirects bifunctor bicategory]]
