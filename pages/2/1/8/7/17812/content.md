@@ -1508,7 +1508,7 @@ We have a system of [[adjoint modalities]] ([this Def.](geometry+of+physics+--+c
 
 Moreover, the progression exhibits [[Aufhebung]] ([this Def.](geometry+of+physics+--+categories+and+toposes#Aufhebung), [this Remark](geometry+of+physics+--+categories+and+toposes#TrivialAufhebung)) at each stage, as indicated.
 
-Finally, the [[rheonomy modality]]  is [[homotopy localization]] at $\mathbb{R}^{0\vert 1}$ (the [[superpoint]]) in the sense of [this Def.](geometry+of+physics+--+categories+and+toposes#LocalizationAtACollectionOfMorphisms):
+Finally, the [[rheonomy modality]]  is [[homotopy localization]] at $\mathbb{R}^{0\vert 1}$ (the [[superpoint]]) in the sense of [this Def.](geometry+of+physics+--+categories+and+toposes#HomotopyLocalizationOn1Categories):
 
 $$
   Rh \simeq \bigcirc\!\!\!\!\!\!\!\!\mathbb{R}^{0\vert 1}
