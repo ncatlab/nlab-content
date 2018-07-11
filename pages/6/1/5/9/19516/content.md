@@ -100,6 +100,11 @@ whose components are [[homotopy equivalences]].
 
 ## Examples 
 
+
++-- {: .num_example #HomotopyLimitQuillenAdjointTriple}
+###### Example
+**([[Quillen adjoint triple]] of [[homotopy limits]]/[[homotopy colimits|colimits]] of [[simplicial sets]])**
+
 Let $\mathcal{C}$ be a [[small category]], and write $[\mathcal{C}^{op}, sSet_{Qu}]_{proj/inj}$ for the projective/injective [[model structure on simplicial presheaves]] over $\mathcal{C}$, which participate in a [[Quillen equivalence]] of the form 
 
 $$
@@ -165,6 +170,7 @@ $$
   Ho(sSet)
 $$ 
 
+=--
 
 [[!redirects Quillen adjoint triples]]
 
