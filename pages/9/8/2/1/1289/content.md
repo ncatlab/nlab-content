@@ -61,11 +61,13 @@ This is ([AdamekRosicky, theorem 6.28](#AdamekRosicky)).
 
 * In a [[recollement]] situation, we have several reflectors and coreflectors. We have a reflective and coreflective subcategory $i_*: A' \hookrightarrow A$ with reflector $i^*$ and coreflector $i^!$. The functor $j^*$ is both a reflector for the reflective subcategory $j_*: A'' \hookrightarrow A$, and a coreflector for the coreflective subcategory $j_!: A'' \hookrightarrow A$.
 
+## Related concepts
+
+* [[Quillen coreflection]]
 
 ## References
 
-* [[Jiri Adamek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, London Mathematical Society Lecture Note Series 189
-{#AdamekRosicky}
+* {#AdamekRosicky} [[Jiri Adamek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, London Mathematical Society Lecture Note Series 189
 
 * Robert El Bashir, Jiri Velebil, _Simultaneously Reflective And Coreflective Subcategories of Presheaves_ ([TAC](http://www.tac.mta.ca/tac/volumes/10/16/10-16abs.html))
 
@@ -74,6 +76,8 @@ This is ([AdamekRosicky, theorem 6.28](#AdamekRosicky)).
 [[!redirects coreflective embedding]]
 [[!redirects coreflective embeddings]]
 
+[[!redirects co-reflective subcategory]]
+[[!redirects co-reflective subcategories]]
 
 [[!redirects coreflector]]
 [[!redirects coreflectors]]
