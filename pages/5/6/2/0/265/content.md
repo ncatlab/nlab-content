@@ -308,7 +308,9 @@ Passage to left derived functors is a [[pseudofunctor]] from a [[2-category]] of
 
 * [[delta-functor]]
 
-* [[adjoint  (∞,1)-functor]]
+* [[adjoint (∞,1)-functor]]
+
+* [[derived adjunction unit]]
 
 * [[homotopy limit]], [[homotopy colimit]], [[homotopy Kan extension]]
 
