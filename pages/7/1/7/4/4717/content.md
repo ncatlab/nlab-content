@@ -55,6 +55,8 @@ Every [[adjunction]] $(L \dashv R)$ gives rise to a [[monad]] $T \coloneqq R \ci
 
   * **unit of an adjunction**
 
+    [[derived adjunction unit]]
+
   * [[unit of a monad]]
 
 * [[adjunct]]
