@@ -339,9 +339,27 @@ The sub-[[2-category]] of "[[locally presentable category|locally presentable]]"
 
 This is shown in ([Renaudin](#Renaudin)).  See at [[Ho(CombModCat)]] for more.
 
-Notice every [[locally presentable (∞,1)-category]] are precisely the [[(∞,1)-categories]] that arise, up to [[equivalence of (∞,1)-categories]] as [[simplicial localiations]] of [[combinatorial model categories]]. Hence this theorem suggests that there is, at least, an [[equivalence of 2-categories]] between the [[2-category]] of presentable derivators and the [[homotopy 2-category]] of the [[(∞,2)-category]] [[Pr(∞,1)Cat]] However, an actual proof of this seems to be missing.
+Notice every [[locally presentable (∞,1)-category]] are precisely the [[(∞,1)-categories]] that arise, up to [[equivalence of (∞,1)-categories]] as [[simplicial localizations]] of [[combinatorial model categories]]. Hence this theorem suggests that there is, at least, an [[equivalence of 2-categories]] between the [[2-category]] of presentable derivators and the [[homotopy 2-category]] of the [[(∞,2)-category]] [[Pr(∞,1)Cat]] However, an actual proof of this seems to be missing.
 
  
+As a corollary, we obtain a canonical comparison [[functor]]
+
+$$
+  Ho(PrDer)
+  \longrightarrow
+  Ho(Pr(\infty,1)Cat)
+$$
+
+from the homotopy category presentable derivators with left adjoint morphisms, to the [[homotopy category of an (∞,1)-category]] of [[Pr(∞,1)Cat]].
+
+This is induced by the [[universal property]] of the [[2-localization of a 2-category|2-localization]] from the fact that the functor $L^H$ that forms [[simplicial localizations]] 
+
+$$
+  L^H \;\colon\; CombModCat \longrightarrow Ho(Pr(\infty,1)Cat)
+$$
+
+sends [[Quillen equivalences]] to [[equivalence of (∞,1)-categories]] (see [there](locally presentable infinity-category#PresentedByCombinatorialSimplicialModelCategories)).
+
 
 ## Related pages
 
