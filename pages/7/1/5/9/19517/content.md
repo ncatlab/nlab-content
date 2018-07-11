@@ -79,11 +79,10 @@ be a [[Quillen adjunction]]. Then
 
 * A [[Quillen adjunction]] is a [[Quillen equivalence]] precisely if both its derived adjunction units and derived adjunction counit at [[weak equivalences]].
 
-* A [[simplicial Quillen adjunction]] exhibits 
+* A [[simplicial Quillen adjunction]] is a [[Quillen reflection]] precisely if the components of its derived adjunction counit are [[weak equivalences]].
 
-  * its [[right Quillen functor]] as being [[homotopically fully faithful]] if the derived adjunction counit is a weak equivalence;
+* A [[simplicial Quillen adjunction]] is a [[Quillen co-reflection]] precisely if the components of its derived adjunction unit are [[weak equivalences]].
 
-  * its [[left Quillen functor]] as being [[homotopically fully faithful]] if the derived adjunction unit is a weak equivalence.
 
 
 ## Related concepts
