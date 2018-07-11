@@ -39,6 +39,13 @@ Some of the above material is taken from [[joyalscatlab:Michael Boardman|Joyal's
 
 * Tribute to Mike Boardman from [[Peter May]], [web](http://hopf.math.purdue.edu/May/boardman.txt). 
 
+and Rainer Vogt's article (with self explanatory title):
+
+* {#VogtMemory} Rainer Vogt, _My time as Mike Boardman's student and our work on infinite loop spaces_ ([[VogtMemory.pdf:file]])
+
+
+
+
 category:people
 
 [[!redirects Michael Boardman]]
