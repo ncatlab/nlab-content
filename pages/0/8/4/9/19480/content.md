@@ -4280,18 +4280,31 @@ $$
   \,.
 $$
 
-Of particular interest is the situation where an [[object]] $\mathbb{A}$ is fixed and $S$ is the [[class]] of [[morphisms]] of the form
+=--
+
+A class of examples is the following, which comes to its full nature (only) after passage to [[homotopy theory]] (Example \ref{HomotopyLocalizationOfCombinatorialModelCategories} below):
+
++-- {: .num_defn #HomotopyLocalizationOn1Categories}
+###### Definition
+**([[homotopy localization]] of [[1-categories]])**
+
+Let $\mathcal{C}$ be a [[category]], let $\mathbb{A} \in \mathcal{C}$ be an [[object]], and consider the class of [[morphisms]] given by [[projection]] out of the [[Cartesian product]] with $\mathbb{A}$, of all objects $X \in \mathcal{C}$:
 
 $$
   X \times \mathbb{A} 
     \overset{p_1}{\longrightarrow}
   X
+  \,.
 $$
 
-for all objects $X \in \mathcal{C}$. If the corresponding [[reflective subcategory|reflection]] onto the [[full subcategory]] of [[local objects]] exists, we say this is _[[homotopy localization]]_ at that object (see also Example \ref{HomotopyLocalizationOfCombinatorialModelCategories} below), and denote the reflector by 
+If the corresponding [[reflective subcategory|reflection]] onto the [[full subcategory]] of [[local objects]] (Def. \ref{LocalizationAtACollectionOfMorphisms}) exists, we say this is _[[homotopy localization]]_ at that object , and denote the [[modal operator]] corresponding to this (via Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}) by
 
 $$
   \bigcirc\!\!\!\!\!\!\!\!\mathbb{A}
+  \;\colon\;
+  \mathcal{C}
+  \longrightarrow 
+  \mathcal{C}
   \,.
 $$
 
