@@ -13668,11 +13668,17 @@ Moreover, the [[identity functors]] constitute a [[Quillen equivalence]] (Def. \
   [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
 \]
 
-In particular this means that 
+=--
+
++-- {: .num_remark #ProjectiveCofibrationIsObjectwiseCofibration}
+###### Remark
+
+The [[Quillen adjunction]] (eq:QuillenEquivalenceBetweenInjectiveAndProjective) in Prop. \ref{ModelCategoriesOfSimplicialPresheaves}
+implies in particular that
 
 1. every projective cofibration is in particular an objectwise cofibration;
 
-1. every injective fibration is in particular an objectwise fibration.
+1. every injective fibration is in particular an objectwise fibration;
 
 =--
 
@@ -14047,7 +14053,7 @@ $$
 
 The following is the [[model category]]-analog of the concept of _[[local objects]]_ from Def. \ref{LocalObjects}:
 
-+-- {: .num_def #DerivedLocalObjects}
++-- {: .num_defn #DerivedLocalObjects}
 ###### Definition
 **([[local objects]] and [[local morphisms]] in a [[model category]])**
 
@@ -14236,7 +14242,7 @@ $$
 
 The following construction generalizes the _[[Cech groupoid]]_ (Example \ref{CechGroupoid}) as [[groupoids]] are generalized to [[Kan complexes]] (Def. \ref{KanComplexe}):
 
-+-- {: .num_example}
++-- {: .num_example #CechNerve}
 ###### Example
 **([[Cech nerve]])**
 
@@ -14521,11 +14527,11 @@ $$
       \array{
         \overset{\phantom{AA}\Pi\phantom{AA}}{\longrightarrow}
         \\
-        \overset{\phantom{A}Disc\phantom{A}}{\longleftarrow}
+        \overset{\phantom{A}Disc\phantom{A}}{\hookleftarrow}
         \\
         \overset{\phantom{AA}\Gamma\phantom{AA}}{\longrightarrow}
         \\
-        \overset{\phantom{A}coDisc\phantom{A}}{\longleftarrow}
+        \overset{\phantom{A}coDisc\phantom{A}}{\hookleftarrow}
         \\
       }
     sSet_{Qu}
@@ -14647,7 +14653,7 @@ $$
 
 Hence we need to see that each consecutive [[pair]] of [[functors]] constitutes a [[Quillen adjunction]] alternatively for the injective and the projective [[model structure on simplicial presheaves]].
 
-That the top [[adjoint triple]] $(\Pi \dashv const \dashv \Gamma)$ is a [[Quillen adjoint triple]] is in fact Example \ref{HomotopyLimitOfSimplicialSets}. Moreover, $\Gamma$ is given by point evaluation, it is immediate that this is not just a [[left Quillen functor]] but also a [[right Quillen functor]] with respect to the injective model structure. 
+That the top [[adjoint triple]] $(\Pi \dashv const \dashv \Gamma)$ is a [[Quillen adjoint triple]] is in fact Example \ref{HomotopyLimitOfSimplicialSets}. Moreover, $\Gamma$ is given by point evaluation, it is immediate that this is not just a [[right Quillen functor]] but also a [[left Quillen functor]] with respect to the injective model structure (evidently) but also with respect to the projective model structure (be Remark \ref{ProjectiveCofibrationIsObjectwiseCofibration}). 
 
 It only remains to see the [[Quillen reflection|Quillen (co-)reflectivity]]:
 
@@ -14677,9 +14683,133 @@ where now the ordinary [[adjunction counit]] is an isomorphism, since $coDisc$ i
 
 =--
 
++-- {: .num_defn #InfinityCohesiveSite}
+###### Definition
+**([[∞-cohesive site]])**
+
+We call a [[site]] $\mathcal{C}$ (Def. \ref{Coverage}) _[[∞-cohesive site|∞-cohesive]]_ if the following conditions are satisfied:
+
+1. The [[category]] $\mathcal{C}$ has [[finite products]];
+
+1. For every [[covering]] family $\{U_i \to X\}_i$ in the given [[coverage]] on $\mathcal{C}$, the induced [[Cech nerve]] [[simplicial presheaf]] (Example \ref{CechNerve}) $C(\{U_i\}) \in [\mathcal{C}^{op}, sSet]$ satisfies the following conditions
+
+   1. $C(\{U_i\})$ is a [[cofibrant object]] in the [[projective model structure on simplicial presheaves]] $[\mathcal{C}^{op}, sSet_{Qu}]_{proj}$ (Prop. \ref{ModelCategoriesOfSimplicialPresheaves})
+
+   1. The [[simplicial set]] obtained as the degreewise [[colimit]] over the [[Cech nerve]] is [[weak homotopy equivalence|weakly homotopy equivalent]] to the point
+
+      $$
+        \underset{
+          \underset{
+            \mathcal{C}^{op}
+          }{\longrightarrow}
+        }{\lim} C(\{U_i\}) 
+        \simeq 
+        \ast
+      $$
+
+   1. The [[simplicial set]] obtained at the degreewise [[limit]] over the [[Cech nerve]] is [[weak homotopy equivalence|weakly homotopy equivalent]] to the underlying set of points of $X$:
+
+      $$
+        \underset{\underset{\mathcal{C}^{op}}{\longleftarrow}}{C(\{U_i\})}
+        \simeq
+        Hom_{\mathcal{C}}(\ast, X)
+        \,.
+      $$
+
+=--
+
+The following is the analog of Prop. \ref{CategoriesOfSheavesOnCohesiveSiteIsCohesive}:
+
++-- {: .num_prop #OverInfinityCohesiveSiteCohesiveInfinityTopos}
+###### Proposition
+**([[(∞,1)-topos]] over [[∞-cohesive site]] is [[cohesive (∞,1)-topos]])**
+
+Let $\mathcal{C}$ be an [[∞-cohesive site]] (Def. \ref{InfinityCohesiveSite}). Then the [[(∞,1)-topos]] (Def. \ref{ModelTopos}) over it, obtained by [[topological localization]] (Prop. \ref{TopologicalLocalization}) is a [[cohesive (∞,1)-topos]] (Def. \ref{CohesiveInfinityTopos}).
+
+=--
 
 
++-- {: .proof}
+###### Proof
 
+By Example \ref{simplicialPresheavesAdjointQuadrupleOnSiteWithTerminalObject} we have the required [[Quillen adjoint quadruple]] on the projective [[model structure on simplicial presheaves]], i.e. before [[left Bousfield localization]] at the [[Cech nerve]] projections 
+
+$$
+  [\mathcal{C}^{op}, Set_{Qu}]
+    \array{
+      \overset{\phantom{AAA} \Pi \phantom{AAA}}{\longrightarrow}
+      \\
+      \overset{\phantom{AA} Disc \phantom{AA} }{\hookleftarrow}
+      \\
+      \overset{\phantom{AAA} \Gamma \phantom{AAA} }{\longrightarrow}
+      \\
+      \overset{\phantom{AA} coDisc \phantom{AA} }{\hookleftarrow}
+    }
+  sSet_{Qu}
+$$
+
+Hence it remains to see that these [[Quillen adjunctions]] pass to the local model structures $[\mathcal{C}^{op}, Set_{Qu}]_{proj/inj, loc}$ from Prop. \ref{TopologicalLocalization}, and that $Disc$ and $coDisc$ then still participate in [[Quillen reflection|Quillen (co-)reflections]].
+
+By Prop. \ref{SimplicialPresheavesIsProperCombinatorialSimplicial} and Prop. \ref{ExistenceOfLeftBousfieldLocalization} all model structures involved are [[left proper model category|left proper]] [[simplicial model categories]], and hence we may appeal to Prop. \ref{RecognitionOfSimplicialQuillenAdjunction} for recognition of the required [[Quillen adjunctions]]. Since, moreover, [[left Bousfield localization]] does not change the class of [[cofibrations]] (Def. \ref{BousfieldLocalizationOfModelCategories}), this means that we are reduced to checking that all [[right Quillen functors]] in the above global [[Quillen adjoint quadruple]] preserve [[fibrant objects]] with respect to the local model structure.
+
+For the Quillen adjunctions 
+
+$$
+  (\Pi \dashv Disc), (\Gamma \dashv coDisc)
+  \;\colon\;
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+  \leftrightarrow
+  sSet_{Qu}
+$$ 
+
+this means to check that for every [[Kan complex]] $S \in sSet$ the [[simplicial presheaves]] $Disc(S)$ and $coDisc(S)$ are derived-[[local objects]] (Def. \ref{DerivedLocalObjects}, Prop. \ref{ExistenceOfLeftBousfieldLocalization}) with respect to the [[Cech nerve]] projections. Since $Disc$ and $coDisc$ are [[right Quillen functors]] with respect to the global model projective model structure, $Disc(S)$ and $coDisc(S)$ are globally projectively fibrant simplicial presheaves. Since, moreover, $C(\{U_i\})$ is projectively cofibrant by assumption, and since the representables $X \in \mathcal{C}$ are projectively cofibrant by Prop. \ref{SomeProjectivelyCofibrantSimplicialPresheaves}, the value of the [[derived hom-functor]] reduces to that of the ordinary [[enriched hom-functor]], and hence the condition is that 
+
+$$
+  \array{
+  [\mathcal{C}^{op}, sSet]( X, Disc(S) )
+    &\overset{\in W}{\longrightarrow}&
+  [\mathcal{C}^{op}, sSet]( C(\{U_i\}), Disc(S) )
+  \\
+  [\mathcal{C}^{op}, sSet]( X, coDisc(S) )
+    &\overset{\in W}{\longrightarrow}&
+  [\mathcal{C}^{op}, sSet]( C(\{U_i\}), coDisc(S) )
+  }
+$$
+
+are weak equivalences. But now by the ordinary adjunction hom-isomorphism (eq:HomIsomorphismForAdjointFunctors), these are identified with
+
+$$
+  \array{
+  [\mathcal{C}^{op}, sSet]( \underset{\longrightarrow}{\lim} X, S )
+    &\overset{\in W}{\longrightarrow}&
+  [\mathcal{C}^{op}, sSet]( \underset{\longrightarrow}{\lim}C(\{U_i\}), S )
+  \\
+  [\mathcal{C}^{op}, sSet]( \underset{\longleftarrow}{\lim}X, S )
+    &\overset{\in W}{\longrightarrow}&
+  [\mathcal{C}^{op}, sSet]( \underset{\longleftarrow}{\lim}C(\{U_i\}), S )
+  }
+$$
+
+Since the [[colimit]] of a [[representable]] is the singleton (Lemma \ref{ColimitOfRepresentableIsSingleton}) and since the [[limit]] over the opposite of a category with terming object is evaluation at that object, this in turn is equivalent to 
+
+$$
+  \array{
+  [\mathcal{C}^{op}, sSet]( \ast, S )
+    &\overset{\in W}{\longrightarrow}&
+  [\mathcal{C}^{op}, sSet]( \underset{\longrightarrow}{\lim}C(\{U_i\}), S )
+  \\
+  [\mathcal{C}^{op}, sSet]( Hom_{\mathcal{C}}(\ast, X), S )
+    &\overset{\in W}{\longrightarrow}&
+  [\mathcal{C}^{op}, sSet]( \underset{\longleftarrow}{\lim}C(\{U_i\}), S )
+  }
+$$
+
+Here we recognize the [[internal hom]] in [[simplicial sets]] from the weak equivalences of the definition of an _[[∞-cohesive site]]_ (Def. \ref{InfinityCohesiveSite}), which necessarily go between cofibrant simplicial sets, into a fibrant simplicial set $S$. Hence this is the [[derived hom-functor]] (Def. \ref{DerivedHomFunctorPOnSimplicialModelCategory}) in the [[classical model structure on simplicial sets]]. Since the latter is a [[simplicial model category]] (Def. \ref{SimplicialModelCategory}) by Prop. \ref{SimplicialPresheavesIsProperCombinatorialSimplicial}, these morphisms are indeed weak equivalences of simplicial sets.
+
+This establishes that $(\Pi \dashv Disc)$ and $(\Gamma \dashv \coDisc)$ descent to Quillen adjunctions on the local model structure. Finally, it is immediate that $\Gamma$ preserves fibrant objects, and hence also $(Disc \dashv \Gamma)$ passes to the local model structure.
+
+
+=--
 
 (...)
 
