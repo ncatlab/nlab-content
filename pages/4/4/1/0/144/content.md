@@ -34,13 +34,13 @@ Very generally, following [Lawvere 86](#Lawvere86):
 
   $X \;\colon\; C^{op} \to $ [[Set]]:
 
-  we think of each such presheaf as being a rule that assigns to each test space $U \in C$ the set $X(U)$ of allowed maps _from_ $U$ into the would-be space $X$ (this is really the perspective of [[functorial geometry]], originally due to [Grothendieck 65](functorial+geometry#Grothendieck65)); 
+  we think of each such presheaf as being a rule that assigns to each test space $U \in C$ the set $X(U)$ of allowed maps from $U$ _into_ the would-be space $X$ (this is really the perspective of [[functorial geometry]], originally due to [Grothendieck 65](functorial+geometry#Grothendieck65)); 
 
 * a generalized [[quantity]] modeled on $C$ is a [[copresheaf]] on $C$, i.e. a [[functor]] of the form 
 
   $A \;\colon\; C \to Set$:
 
-  we think of each such copresheaf $A$ as a rule that assigns to each test space $U \in C$ the set $A(U)$ of allowed maps from a would-be space _into_ $U$, hence as the collection of $U$-valued _functions_ on $X$. Since a function on a point is a "quantity", these are generalized quantities.
+  we think of each such copresheaf $A$ as a rule that assigns to each test space $U \in C$ the set $A(U)$ of allowed maps _from_ the would-be space $A$ into $U$, hence as the collection of $U$-valued _functions_ on $A$. Since a function on a point is a "quantity", these are generalized quantities.
 
 One may view the _[[Yoneda lemma]]_ and the resulting _[[Yoneda embedding]]_ as expressing consistency conditions on this perspective: The [[Yoneda lemma]] says that the prescribed rule for how to test a generalized space $X$ by a test space $U$ turns out to coincide with the actual maps from $U$ to $X$, when $U$ is itself regarded as a generalized space, and the [[Yoneda embedding]] says that, as a result, the nature of maps between test spaces does not depend on whether we regard these as test spaces or as generalized spaces.
 
