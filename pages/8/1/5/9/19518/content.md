@@ -47,6 +47,15 @@ be a [[Quillen adjunction]] between them. Then this may be called
 
 =--
 
++-- {: .num_defn #Bousfield}
+###### Example
+
+1. A [[left Bousfield localization]] is a Quillen reflection.
+
+1. A [[right Bousfield localization]] is a Quillen coreflection.
+
+=--
+
 ## Properties
 
 +-- {: .num_prop }
