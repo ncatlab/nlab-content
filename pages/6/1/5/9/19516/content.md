@@ -41,7 +41,7 @@ A _Quillen adjoint triple_ may be defined to be:
      \mathcal{D}_1
    $$
 
-1. a [[natural isomorphism]] (at least)
+1. a [[natural isomorphism]] 
 
    $$
      \array{
@@ -49,9 +49,9 @@ A _Quillen adjoint triple_ may be defined to be:
          &\overset{\mathbb{R}C_1}{\longrightarrow}&
        Ho(\mathcal{D}_1)
        \\
-       \simeq
+       \big\downarrow\mathrlap{\simeq}
        & \swArrow &
-       \simeq
+       \big\downarrow\mathrlap{\simeq}
        \\
        Ho(\mathcal{C}_2)
          &\underset{\mathbb{L}C_2}{\longrightarrow}&
@@ -76,6 +76,27 @@ $$
   \;
   Ho(\mathcal{D})
 $$
+
+If $\mathcal{C}$ and $\mathcal{D}$ are equipped with the structure of [[simplicial model categories]] with $\mathcal{C}^\circ$ and $\mathcal{D}^\circ$ denoting their [[full subcategories|full]] [[Kan complex]]-[[enriched category|enriched]] subcategories on the fibrant-and-cofibrant object, we should say that a _simplicial Quillen adjoint triple_ are [[simplicial Quillen adjunctions]], as above, together with an [[enriched natural transformation]]
+
+   $$
+     \array{
+       \mathcal{C}^\circ_1
+         &\overset{\mathbb{R}C_1}{\longrightarrow}&
+       \mathcal{D}^\circ_1
+       \\
+       {}^{\mathllap{\simeq}}\big\downarrow
+       & \swArrow &
+       \big\downarrow\mathrlap{}^{\simeq}
+       \\
+       \mathcal{C}^\circ_2
+         &\underset{\mathbb{L}C_2}{\longrightarrow}&
+       \mathcal{D}^\circ_2      
+     }
+   $$
+
+whose components are [[homotopy equivalences]].
+
 
 ## Examples 
 
