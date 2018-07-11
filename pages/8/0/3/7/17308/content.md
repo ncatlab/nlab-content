@@ -699,21 +699,21 @@ is called a **[[Quillen equivalence]]** if the following equivalent conditions h
       \,.
    $$
 
-1. For every cofibrant object $d\in \mathcal{C}$, the composite 
+1. For every cofibrant object $d\in \mathcal{C}$, the [[derived adjunction unit]], hence the composite 
 
    $$
      d \longrightarrow R(L(d)) \longrightarrow R(L(d)^{fib})
    $$ 
 
-   (of the [[adjunction unit]] with any fibrant replacement) is a weak equivalence. 
+   (of the [[adjunction unit]] with any [[fibrant replacement]]) is a [[weak equivalence]]. 
 
-  1. For every fibrant object $c \in \mathcal{C}$, the composite 
+  1. For every fibrant object $c \in \mathcal{C}$ the [[derived adjunction counit]], hence the composite 
   
      $$
        L(R(c)^{cof}) \longrightarrow L(R(c)) \longrightarrow c
      $$ 
 
-     (of the [[adjunction counit]] with any cofibrant replacement) is a weak equivalence in $D$.
+     (of the [[adjunction counit]] with any [[cofibrant replacement]]) is a [[weak equivalence]].
 
 =--
 
