@@ -67,7 +67,7 @@ The proof proceeds (the way Dugger presents it, at least) in roughly three steps
    $$
 
 
-   induced by the above statement from the inclusion $i : B_\lambda^{cof} \hookrightarrow B$ exhibits $B$ as a homotopy-[[reflective subcategory]] in that the [[derived functor|derived]] counit $ \hat i \circ Q \circ R \stackrel{\simeq}{\to} Id$ ($Q$ some cofibrant replacement functor) is a [[natural transformation|natural]] weak equivalence on fibrant objects (recall from [[adjoint functor]] the characterization of adjoints to full and faithful functors).
+   induced by the above statement from the inclusion $i : B_\lambda^{cof} \hookrightarrow B$ exhibits $B$ as a homotopy-[[reflective subcategory]] in that the [[derived adjunction counit]] $ \hat i \circ Q \circ R \stackrel{\simeq}{\to} Id$ ($Q$ some cofibrant replacement functor) is a [[natural transformation|natural]] [[weak equivalence]] on fibrant objects (recall from [[adjoint functor]] the characterization of adjoints to full and faithful functors).
 
 1. Define $S$ to be the set of morphisms in $[(C_\lambda^{cof})^{op}, sSet]$ that the left [[derived functor]] $\hat i \circ Q$ of $\hat i$ (here $Q$ is some cofibrant replacement functor) sends to weak equivalences in $B$. Then form the left [[Bousfield localization of model categories|Bousfield localization]] $L_S [(C_\lambda^{cof})^{op},sSet]_{proj}$ with respect to this set of morphisms and prove that this is [[Quillen equivalence|Quillen equivalent]] to $B$.
 
