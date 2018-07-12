@@ -717,6 +717,16 @@ is called a **[[Quillen equivalence]]** if the following equivalent conditions h
 
 =--
 
+## Further properties
+
+This construction extends to a [[double pseudofunctor]]
+
+$$
+  Ho \;\colon\; ModCat_{dbl} \longrightarrow Sq(Cat)
+$$
+
+on the [[double category of model categories]] ([this Prop.](double+category+of+model+categories#HomotopyDoublePseudofunctor)).
+
 ## Related concepts
 
 * [[monoidal homotopy category of a monoidal model category]]
