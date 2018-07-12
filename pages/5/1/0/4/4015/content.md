@@ -16,7 +16,7 @@ Let $B$ be a collection of finite sequences of bits (or _bitlists_), that is a [
 
 We are interested in these three properties of $B$:
 
-*  $B$ is _[[decidable subset|decidable]]_:  For every finite sequence $u$, either $u \in B$ or $u \notin B$.  (This is trivial in [[classical logic]] will will hold constructively only for some subsets $B$.)
+*  $B$ is _[[decidable subset|decidable]]_:  For every finite sequence $u$, either $u \in B$ or $u \notin B$.  (This is trivial in [[classical logic]] but will hold constructively only for some subsets $B$.)
 *  $B$ is _barred_:  For every infinite sequence $\alpha$, $\alpha$ bars $B$.
 *  $B$ is _uniform_:  For some natural number $M$, for every infinite sequence $\alpha$, if $\alpha$ bars $B$ at all, then $\alpha$ $n$-bars $B$ for some $n \leq M$.
 
@@ -73,6 +73,8 @@ It follows from any of these statements:
 *  As a locale, [[Baire space of irrational numbers|Baire space]] has enough points.
 *  Every pointwise-continuous function on Cantor space is uniformly continuous.
 *  Every pointwise-continuous function on the unit interval is uniformly continuous.
+*  Every [[uniformity]] (or indeed any [[metric]]) compatible with the usual topology of Cantor space is [[totally bounded space|totally bounded]].
+*  The property of being "complete and totally bounded", i.e. [[Bishop-compact]], is invariant under topological homemorphism between uniform (or metric) spaces.
 
 I need to figure out how it relates to the various versions of [[Konig's lemma|König's Lemma]], as well as these statements (which are mutually equivalent):
 
@@ -107,9 +109,9 @@ I need to read the relevant parts here:
 
 More links that I need to keep in mind:
 
-*  &lt;http://golem.ph.utexas.edu/category/2008/12/the_status_of_coalgebra.html>
-*  &lt;http://www.jaist.ac.jp/is/labs/ishihara-lab/wcalm2010/berger.pdf>
-*  &lt;http://www.cairn.info/revue-internationale-de-philosophie-2004-4-page-483.htm>
+*  <http://golem.ph.utexas.edu/category/2008/12/the_status_of_coalgebra.html>
+*  <http://www.jaist.ac.jp/is/labs/ishihara-lab/wcalm2010/berger.pdf>
+*  <http://www.cairn.info/revue-internationale-de-philosophie-2004-4-page-483.htm>
 
 Also:
 
