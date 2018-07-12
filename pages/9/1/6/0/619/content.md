@@ -342,7 +342,7 @@ But an object in a reflective subcategory is necessarily isomorphic to its image
 
 * [[reflective localization]]
 
-* [[Quillen reflection]]
+* [[Quillen reflection]], [[left Bousfield localization]]
 
 * [[reflective sub-(infinity,1)-category]]
 
