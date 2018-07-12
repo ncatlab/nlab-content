@@ -65,7 +65,9 @@ Notably [[mapping spaces]] play a pivotal role in [[physics]], in the guise of [
  
 In conclusion, one motivation for [[category theory]] and [[topos theory]] is _a posteriori_: As a matter of experience, there is just no other toolbox that allows to deeply understand and handle the [[geometry of physics]]. Similar comments apply to a wealth of other topics of mathematics.
 
-We offer also an _a priori_ motivation: _Category theory is the theory of duality._
+We offer also an _a priori_ motivation: 
+
+{#CategoryTheoryIsTheoryOfDuality} _Category theory is the theory of duality._
 
 <div style="float:right;margin:0 10px 10px 0;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Cup_or_faces_paradox.svg/450px-Cup_or_faces_paradox.svg.png" width="200"></div>
 
