@@ -116,6 +116,10 @@ The rules for $W$-types in extensional type theory are the following:
 (1) $W$-formation rule
 $$\frac{A:Type\; x:A\vdash B(x):Type}{(W x:A)B(x):Type}$$
 
++--{: .query}
+[[Andreas Abel]]: A and B are used exactly the other way round in the introductory text to this page.  (Before, A was the arity, now B is the arity.)  Harmonize!?
+=--
+
 In the following we will sometimes abbreviate $(W x:A)B(x)$ by $W$.
 
 (2) $W$-introduction rule
