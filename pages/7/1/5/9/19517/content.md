@@ -79,17 +79,19 @@ be a [[Quillen adjunction]]. Then
 
 * A [[Quillen adjunction]] is a [[Quillen equivalence]] precisely if both its derived adjunction units and derived adjunction counit at [[weak equivalences]].
 
-* A [[simplicial Quillen adjunction]] is a [[Quillen reflection]] precisely if the components of its derived adjunction counit are [[weak equivalences]].
+* A [[Quillen adjunction]] is a [[Quillen reflection]] precisely if the components of its derived adjunction counit are [[weak equivalences]].
 
-* A [[simplicial Quillen adjunction]] is a [[Quillen co-reflection]] precisely if the components of its derived adjunction unit are [[weak equivalences]].
+* A [[Quillen adjunction]] is a [[Quillen co-reflection]] precisely if the components of its derived adjunction unit are [[weak equivalences]].
 
 
 
 ## Related concepts
 
+* [[adjunction unit]]
+
 * [[derived functor]]
 
-* [[Quillen equivalence]]
+* [[Quillen equivalence]], [[Quillen reflection]]
 
 [[!redirects derived adjunction units]]
 
