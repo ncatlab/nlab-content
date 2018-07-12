@@ -43,7 +43,11 @@ The correct statement of this relation turns out to be that quantum corrections 
 
 The original article is
 
-* {#RyuTakayanagi06} [[Shinsei Ryu]], [[Tadashi Takayanagi]], _Holographic Derivation of Entanglement Entropy from AdS/CFT_, Phys.Rev.Lett.96:181602,2006 ([arXiv:hep-th/0603001](https://arxiv.org/abs/hep-th/0603001))
+* {#RyuTakayanagi06} [[Shinsei Ryu]], [[Tadashi Takayanagi]], _Holographic Derivation of Entanglement Entropy from AdS/CFT_, Phys. Rev. Lett. 96:181602, 2006 ([arXiv:hep-th/0603001](https://arxiv.org/abs/hep-th/0603001))
+
+A proposal for a conceptual explanation is made in 
+
+* Aitor Lewkowycz, [[Juan Maldacena]], _Generalized gravitational entropy_, J. High Energ. Phys. (2013) 2013: 90 ([arXiv:1304.4926](https://arxiv.org/abs/1304.4926))
 
 Review is in
 
