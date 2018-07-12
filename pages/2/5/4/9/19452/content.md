@@ -98,7 +98,7 @@ Therefore it makes sense to regard category theory as the **theory of adjunction
 
 | $\phantom{A}$hierarchy of concepts$\phantom{A}$  | $\phantom{A}$[[category theory]]$\phantom{A}$ | $\phantom{A}$[[enriched category theory|enriched]]$\phantom{A}$ | $\phantom{A}$[[model category|homotopical]]$\phantom{A}$ |
 |------------------------|------------|--------------------------|------|
-| $\phantom{A}$[[adjoint triple|adjunction of adjunction]]$\phantom{A}$ <br/> $\phantom{AA}$[[adjoint triple|duality of dualities]]$\phantom{A}$ | $\phantom{A}$Def. \ref{AdjunctionofAdjunction}$\phantom{A}$ |   |  $\phantom{A}$Def. \ref{QuillenAdjointTriple}$\phantom{A}$ |  
+| $\phantom{A}$[[adjoint triple|adjunction of adjunctions]]$\phantom{A}$ <br/> $\phantom{AA}$[[adjoint triple|duality of dualities]]$\phantom{A}$ | $\phantom{A}$Def. \ref{AdjunctionofAdjunction}$\phantom{A}$ |   |  $\phantom{A}$Def. \ref{QuillenAdjointTriple}$\phantom{A}$ |  
 | $\phantom{A}$ [[adjoint equivalence]]$\phantom{A}$ <br/> $\phantom{AA}$[[adjoint equivalence|dual equivalence]] $\phantom{AA}$ | $\phantom{A}$ Def. \ref{AdjointEquivalenceOfCategories} $\phantom{A}$ | $\phantom{A}$ Def. \ref{EnrichedEquivalenceOfCategories} $\phantom{A}$ | $\phantom{A}$Def. \ref{QuillenEquivalence} |
 | $\phantom{A}$ [[adjoint functor|adjunction]]$\phantom{A}$ <br/> $\phantom{AA}$[[duality]]$\phantom{A}$  | $\phantom{A}$ Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} $\phantom{A}$ |  $\phantom{A}$ Def. \ref{EnrichedAdjunction} $\phantom{A}$  |  $\phantom{A}$Def. \ref{QuillenAdjunction} | 
 | $\phantom{A}$ [[natural transformation]] $\phantom{A}$ | $\phantom{A}$ Def. \ref{NaturalTransformations} $\phantom{A}$ |  $\phantom{A}$ Def. \ref{EnrichedNaturalTransformation} $\phantom{A}$ |  |
