@@ -121,38 +121,33 @@ $$
 Moreover, the [[constant functor|constant diagram]]-assigning functor
 
 $$
-  [\mathcal{C}^{op}, sSet_{Qu}] \overset{const}{\longleftarrow} sSet_{Qu}
+  [\mathcal{C}^{op}, sSet] \overset{const}{\longleftarrow} sSet
 $$
 
 is clearly a [[left Quillen functor]] for the injective model structure, and a [[right Quillen functor]] for the projective model structure.
 
-Therefore we have a Quillen adjoint triple of the form
+In summary, this means that in the [[double category of model categories]] we have a 2-cell of the form
 
 $$
   \array{
-    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
-      &
-      \underoverset
-        {\underset{\phantom{AA}const\phantom{AA}}{\longleftarrow}}
-        {\overset{ \underset{\longrightarrow}{\lim} }{\longrightarrow}}
-        {\bot_{Qu}}
-      &
     sSet_{Qu}
+      &\overset{const}{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
     \\
-    {}^{\mathllap{id}}\Big\downarrow {}^{\underset{Qu}{\simeq}} \Big\uparrow{}^{\mathrlap{id}}
-    &&
-    {}^{\mathllap{id}}\Big\downarrow {}^{\underset{Qu}{\simeq}}\Big\uparrow{}^{\mathrlap{id}}
+    {}^{\mathllap{const}}
+    \big\downarrow
+      &\swArrow_{\mathrlap{id}}& 
+    \big\downarrow{}^{ \mathrlap{ id } }
     \\
     [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
-      &
-      \underoverset
-        {\underset{ \underset{\longleftarrow}{\lim} }{\longrightarrow}}
-        {\overset{\phantom{AA}const\phantom{AA}}{\longleftarrow}}
-        {\bot_{Qu}}
-      &
-    sSet_{Qu}
-  }  
+    &\underset{id}{\longrightarrow}& 
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+  }
 $$
+
+Therefore we have a Quillen adjoint triple of the form
+
+(...)
 
 The induced [[adjoint triple]] of [[derived functors]] on the [[homotopy category of a model category|homotopy categories]] (via [this Prop.](geometry+of+physics+--+categories+and+toposes#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)) is the [[homotopy colimit]]/[[homotopy limit]] adjoint triple
 
