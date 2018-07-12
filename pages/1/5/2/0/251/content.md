@@ -1,18 +1,18 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Topos Theory
-#### Higher Algebra
+#### 2-Category theory
 +--{: .hide}
-[[!include topos theory - contents]]
-[[!include higher algebra - contents]]
+[[!include 2-category theory - contents]]
 =--
 =--
 =--
 
+
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -22,10 +22,10 @@ A **double category** $D$ is an [[internal category]] in [[Cat]].   Similarly, a
 
 However, these definitions obscure the essential symmetry of the concepts.  We think of a double category $D_1 \rightrightarrows D_0$ as having
 
-* *objects*: the objects  of $D_0$
-* *vertical arrows*: the morphisms of $D_0$
-* *horizontal arrows*: the objects of $D_1$
-* *squares* or *2-cells*: the morphisms of $D_1$.
+* *[[objects]]*: the objects  of $D_0$
+* *[[vertical morphisms]]*: the morphisms of $D_0$
+* *[[horizontal morphisms]]*: the objects of $D_1$
+* *[[2-morphisms]]* or *squares* or *2-cells*: the morphisms of $D_1$.
 
 We may picture a 2-cell in a double category as a square:
 
@@ -75,7 +75,7 @@ A double category is an important special case of an [[n-fold category]], namely
 
 * There is a double category $MonCat$ whose objects are [[monoidal categories]], whose horizontal arrows are [[lax monoidal functor]]s, whose vertical arrows are [[colax monoidal functor]]s, and whose 2-cells are generalized [[monoidal natural transformation]]s.  An analogous double category can be constructed involving the algebras for any [[2-monad]]; see [[double category of algebras]].
 
-* There is a double category $Model$ whose objects are [[model categories]], whose horizontal arrows are right [[Quillen functor]]s, whose vertical arrows are left Quillen functors, and whose 2-cells are arbitrary natural transformations.  Passage to [[derived functors]] is a functor on this double category.  More generally, we can define a double category of [[homotopical categories]] and "left derivable" and "right derivable" functors.
+* There is a [[double category of model categories]] whose [[objects]] are [[model categories]], whose horizontal morp are right [[Quillen functor]]s, whose vertical arrows are left Quillen functors, and whose 2-cells are arbitrary natural transformations.  Passage to [[derived functors]] is a functor on this double category.  More generally, we can define a double category of [[homotopical categories]] and "left derivable" and "right derivable" functors.
 
 
 ## Weakenings ##
