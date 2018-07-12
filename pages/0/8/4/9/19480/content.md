@@ -2974,6 +2974,85 @@ $$
 
 =--
 
+Example \ref{AdjunctionofAdjunction} suggest to consider a slight variant of the concept of [[strict 2-categories]] which allows to make the duality between [[left adjoints]] and [[right adjoints]] explicit:
+
++-- {: .num_defn #DoubleCategory}
+###### Definition
+**([[double category]])**
+
+A _[[double category]]_ $\mathcal{C}$ is
+
+1. a [[pair]] of [[categories]] $\mathcal{C}_h$, $\mathcal{C}_v$ (Def. \ref{Categories}) which share the same class of objects: $Obj_{\mathcal{C}_1} = Obj_{\mathcal{C}_2}$, to be called the class $Obj_{\mathcal{C}}$ of _objects of $\mathcal{C}$_
+
+   where the [[morphisms]] of $\mathcal{C}_h$ are to be called the _[[horizontal morphisms]]_ of $\mathcal{C}$,
+
+   while the [[morphisms]] of $\mathcal{C}_v$ are to be called the _[[vertical morphisms]]_ of $\mathcal{C}$,
+
+1. for each [[quadruple]] of [[objects]] $a,b,c,d,e \in Obj_{\mathcal{C}}$ and [[pairs]] of [[pairs]] of horizontal/vertical morphisms of the form
+
+   $$
+     \array{
+       a &\overset{f \in \mathcal{C}_h}{\longrightarrow}& b
+       \\
+       {}^{\mathllap{h \in \mathcal{C}_v}}\big\downarrow && \big\downarrow{}^{\mathrlap{k \in \mathcal{C}_v}}
+       \\
+       c &\underset{g \in \mathcal{C}_h}{\longrightarrow}&
+     }
+   $$
+
+   a [[set]] $2Hom(f,g,h,k)$, to be called the set of _[[2-morphisms]]_ of $\mathcal{C}$ between the given [[1-morphisms]], whose elements we denote by
+
+   $$
+     \array{
+       a &\overset{f \in \mathcal{C}_h}{\longrightarrow}& b
+       \\
+       {}^{\mathllap{h \in \mathcal{C}_v}}\big\downarrow 
+       &\swArrow& \big\downarrow{}^{\mathrlap{k \in \mathcal{C}_v}}
+       \\
+       c &\underset{g \in \mathcal{C}_h}{\longrightarrow}& d
+     }
+   $$
+
+1. a horizontal and a vertical [[composition operation]] of 2-morphisms which is [[unitality]] and [[associativity|associative]] in both directions in the evident way, which respects composition in $\mathcal{C}_h$ and $\mathcal{C}_v$, and such that horizontal and vertical composition commute over each other in the evident way.
+
+=--
+
++-- {: .num_example #DoubleCategoryOfSquares}
+###### Example
+**([[double category of squares]] of a [[strict 2-category]])**
+
+Let $\mathcal{C}$ be a [[strict 2-category]] (Def. \ref{Strict2Categories}). Then its _[[double category of squares]]_ $Sq(\mathcal{C})$ is the [[double category]] (Def. \ref{DoubleCategory}) whose
+
+* [[objects]] are those of $\mathcal{C}$;
+
+* [[horizontal morphisms]] and [[vertical morphisms]] are both the [[1-morphisms]] of $\mathcal{C}$;
+
+* [[2-morphisms]] 
+
+  $$
+    \array{
+      a &\overset{f \in \mathcal{C}_h}{\longrightarrow}& b
+      \\
+      {}^{\mathllap{h \in \mathcal{C}_v}}\big\downarrow 
+        &{}^{\mathllap{\phi}}\swArrow& 
+      \big\downarrow{}^{\mathrlap{k \in \mathcal{C}_v}}
+      \\
+      c &\underset{g \in \mathcal{C}_h}{\longrightarrow}& d
+    }
+  $$
+
+  are the [[2-morphisms]] of $\mathcal{C}$ between the evident composites of 1-morphisms:
+
+
+  $$
+    k \circ f \overset{\phi}{\Rightarrow} g\circ h
+  $$
+
+and composition is given by the evident compositions in $\mathcal{C}$.
+
+=--
+
+
 $\,$
 
 ### Equivalences
@@ -4665,7 +4744,6 @@ $$
 be a pair of [[adjoint functors]], such that the [[left adjoint]] $F$ inverts the morphisms in $S$. By the adjunction hom-isomorphism (eq:HomIsomorphismForAdjointFunctors) it follows that $G$ takes values in $S$-[[local objects]]. This in turn implies, now via the [[Yoneda embedding]] for $\mathcal{D}$, that $F$ inverts all $S$-[[local morphisms]], and hence all morphisms that are inverted by $L$. 
 
 Thus the essentially unique factorization of $F$ through $L$ now follows by Prop. \ref{ReflectiveSubcategoriesAreLocalizations}.
-
 
 =--
 
