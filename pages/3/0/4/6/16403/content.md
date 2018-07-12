@@ -2795,7 +2795,7 @@ This suggests to regard passage to [[homotopy category of a model category|homot
 ###### Definition
 **([[double category]] of [[model categories]])**
 
-The ([[very large category|very large]]) _[[double category]] of [[model categories]]_ $ModCat_{dbl}$ has 
+The ([[very large category|very large]]) _[[double category]] of [[model categories]]_ $ModCat_{dbl}$ is the [[double category]] (Def. \ref{DoubleCategoryOfSquares}) that has
 
 1. as [[objects]]: [[model categories]] $\mathcal{C}$ (Def. \ref{ModelCategory});
 
@@ -2837,7 +2837,7 @@ $$
   F \;\colon\; ModCat_{dbl} \longrightarrow Sq(Cat)
 $$
 
-to the [[double category of squares]] in the [[2-category of categories]], which forgets the [[model category]]-[[structure]] and the [[Quillen functor]]-[[property]].
+to the [[double category of squares]] (Example \ref{DoubleCategoryOfSquares}) in the [[2-category of categories]] (Example \ref{2CategoryOfCategories}), which forgets the [[model category]]-[[structure]] and the [[Quillen functor]]-[[property]].
 
 The following records the 2-functorility of sending [[Quillen adjunctions]] to [[adjoint pairs]] of [[derived functors]] (Prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}):
 
@@ -2851,7 +2851,7 @@ $$
   Ho(-) \;\colon\; ModCat_{dbl} \longrightarrow Sq(Cat)
 $$
 
-from the [[double category of model categories]] (Def. \ref{DoubleCategoryOfModelCategories}) to the [[double category of squares]] in the [[2-category]] [[Cat]], which sends
+from the [[double category of model categories]] (Def. \ref{DoubleCategoryOfModelCategories}) to the [[double category of squares]] (Example \ref{DoubleCategoryOfSquares}) in the [[2-category]] [[Cat]] (Example \ref{2CategoryOfCategories}), which sends
 
 1. a [[model category]] $\mathcal{C}$ to its [[homotopy category of a model category]] (Def. \ref{HomotopyCategoryOfAModelCategory});
 
