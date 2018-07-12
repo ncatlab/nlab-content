@@ -57,7 +57,7 @@ A double category is an important special case of an [[n-fold category]], namely
 
 ## Examples ##
 
-* If $C$ is a [[2-category]], we have a double category $Sq(C)$ whose objects are those of $C$, both of whose types of morphisms are the morphisms in $C$, and whose squares are 2-cells in $C$ with their source and target both decomposed as a composite of two morphisms.  (These squares are sometimes called *quintets* $(\alpha,f,g,h,k)$ where $\alpha\colon f g \to h k$, and so this double category is said to be a [[quintet construction]].)
+* If $C$ is a [[2-category]], there is its _[[double category of squares]]_ $Sq(C)$ whose objects are those of $C$, both of whose types of morphisms are the morphisms in $C$, and whose squares are [[2-morphisms]] in $C$ with their source and target both decomposed as a composite of two morphisms.  (These squares are sometimes called *quintets* $(\alpha,f,g,h,k)$ where $\alpha\colon f g \to h k$, and so this double category is said to be a [[quintet construction]].)
 
   (In this example, the two edge categories coincide.  Double categories with this property are called **edge-symmetric**.)
 
@@ -177,7 +177,9 @@ Finally, if we want to discuss [[weighted limits]] and colimits in double catego
 
 * [[2-category equipped with proarrows]], [[framed bicategory]]
 
-* [[double functor]], [[vertical transformation]], [[horizontal transformation]]
+* [[double functor]], [[double pseudofunctor]]
+
+* [[vertical transformation]], [[horizontal transformation]]
 
 * [[double profunctor]]
 
@@ -187,6 +189,12 @@ Finally, if we want to discuss [[weighted limits]] and colimits in double catego
 
 
 ## References ##
+
+The concept goes back to 
+
+* {#Ehresmann63} [[Charles Ehresmann]], _Catégories structurées_, Annales scientifiques de l'École Normale Supérieure. Vol. 80. No. 4. Elsevier, 1963 ([EUDML:81794](https://eudml.org/doc/urn:eudml:doc:81794))
+
+See also 
 
 * [[The Catsters]], Double Categories ([YouTube](http://www.youtube.com/watch?v=kiCZiSA2W3Q&feature=channel_page)).
 
