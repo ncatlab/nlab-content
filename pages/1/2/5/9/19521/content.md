@@ -161,11 +161,11 @@ For the [[derived natural transformation]] $Ho(\phi)$ in (eq:DerivedNaturalTrans
 
 $$
   R_2 Q L_1 c
-    \overset{}{\longrightarrow}
+    \overset{ R_2 p_{L_1 c} }{\longrightarrow}
   R_2 L_1 c
    \overset{\phi}{\longrightarrow}
   L_2 R_1 c
-    \longrightarrow
+    \overset{ L_2 j_{R_1 c} }{\longrightarrow}
   L_2 P R_1 c  
 $$ 
 
