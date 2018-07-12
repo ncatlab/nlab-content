@@ -1,17 +1,12 @@
 
-$$
-  \array{
-    sSet_{Qu}
-      &\overset{const}{\longrightarrow}&
-    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
-    \\
-    {}^{\mathllap{const}}
-    \big\downarrow
-      &\swArrow_{\mathrlap{id}}& 
-    \big\downarrow{}^{ \mathrlap{ id } }
-    \\
-    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
-    &\underset{id}{\longrightarrow}& 
-    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
-  }
-$$
+   $$
+     \array{
+       \mathcal{C}
+       &\overset{R_1}{\longrightarrow}&
+       \mathcal{D}
+       \\
+       {}^{\mathllap{L_1}}\downarrow 
+         &\swArrow_{\mathrlap{\phi}}& 
+       \Downarrow{}^{\mathrlap{L_2}}
+     }
+   $$
