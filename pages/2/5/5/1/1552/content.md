@@ -91,6 +91,8 @@ Many of these full subcategories of $Gau$ and $QGau$ are [[reflective subcategor
 
 *  Eric Schechter; 1997; [[HAF|Handbook of Analysis and its Foundations]]; Academic Press, 1st ed (1996).
 
+* {#ShulmanSOI} [[Mike Shulman]], *The shape of infinity*, [arxiv](https://arxiv.org/abs/1209.2735)
+
 
 [[!redirects gauge space]]
 [[!redirects gauge spaces]]
