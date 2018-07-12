@@ -122,9 +122,12 @@ By the [[axiom of choice]], the two definitions of $Cat$ as a $2$-[[2-category|c
 
 See also the references at _[[category]]_ and _[[category theory]]_.
 
-Discussion of (certain) [[pushout]]s in $Cat$ is in 
+Discussion of (certain) [[pushouts]] in $Cat$ is in 
 
-* John Macdonald, Laura Scull, _Amalgamations of categories_ ([pdf](http://faculty.fortlewis.edu/Scull_L/pushouts.pdf))
-{#MacdonalScull}
+* {#MacdonalScull} John Macdonald, Laura Scull, _Amalgamations of categories_ ([pdf](http://faculty.fortlewis.edu/Scull_L/pushouts.pdf))
+
 
 category: category
+
+[[!redirects category of categories]]
+[[!redirects 2-category of categories]]
