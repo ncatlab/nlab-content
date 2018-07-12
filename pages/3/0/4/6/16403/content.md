@@ -1831,6 +1831,7 @@ In general, the localization $\mathcal{C}[W^{-1}]$ of a [[category with weak equ
 
 +-- {: .num_prop #MorphismIsWeakEquivalenceIfIsoInHomotopyCategoryForQuillen}
 ###### Proposition
+**([[localization]] of [[model categories]] inverts precisely the [[weak equivalences]])**
 
 Let $\mathcal{C}$ be a [[model category]] (def. \ref{ModelCategory}) and let $\gamma \;\colon\; \mathcal{C} \longrightarrow Ho(\mathcal{C})$ be its [[localization]] functor (def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}, theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory}). Then a morphism $f$ in $\mathcal{C}$ is a [[weak equivalence]] precisely if $\gamma(f)$ is an [[isomorphism]] in $Ho(\mathcal{C})$.
 
@@ -2565,39 +2566,6 @@ Now by repeatedly applying (i) and (ii), all four conditions in question are see
 =--
 
 
-+-- {: .num_lemma #LeftRightQuillenFunctorsPreserveCyclinderPathSpaceObjects}
-###### Lemma
-**([[right Quillen functors]] preserve [[path space objects]])**
-
-Let $\mathcal{C} \stackrel{\overset{L}{\longleftarrow}}{\underoverset{R}{\bot}{\longrightarrow}} \mathcal{D}$ be a [[Quillen adjunction]], def. \ref{QuillenAdjunction}.
-
-1. For $X \in \mathcal{C}$ a fibrant object and $Path(X)$ a [[path space object]] (def. \ref{PathAndCylinderObjectsInAModelCategory}), then $R(Path(X))$ is a path space object for $R(X)$.
-
-1. For $X \in \mathcal{C}$ a cofibrant object and $Cyl(X)$ a [[cylinder object]] (def. \ref{PathAndCylinderObjectsInAModelCategory}), then $L(Cyl(X))$ is a path space object for $L(X)$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Consider the second case, the first is [[formal dual|formally dual]].
-
-First Observe that  $L(Y \sqcup Y) \simeq L Y \sqcup L Y$ because $L$ is [[left adjoint]] and hence preserves [[colimits]], hence in particular [[coproducts]].
-
-Hence
-
-$$
-  L(\X \sqcup X \overset{\in Cof}{\to} Cyl(X))
-  =
-  (L(X) \sqcup L(X) \overset{\in Cof}{\to } L (Cyl(X)))
-$$
-
-is a cofibration.
-
-Second, with $Y$ cofibrant then also $Y \sqcup Cyl(Y)$ is a cofibrantion, since $Y \to Y \sqcup Y$ is a cofibration (lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation}). Therefore by [[Ken Brown's lemma]] (prop. \ref{KenBrownLemma}) $L$ preserves the weak equivalence $Cyl(Y) \overset{\in W}{\longrightarrow} Y$.
-
-=--
-
 
 The following is the analog of [[adjunction unit]] and [[adjunction counit]] (Def. \ref{AdjunctionUnitFromHomIsomorphism}):
 
@@ -2653,6 +2621,41 @@ be a [[Quillen adjunction]] (Def. \ref{QuillenAdjunction}). Then
    1. $c \underoverset{\in W_{\mathcal{C}} \cap Cof_{\mathcal{C}}}{j_c}{\longrightarrow} P c \underoverset{\in Fib_{\mathcal{C}}}{q_c}{\longrightarrow} \ast$ is a [[fibrant resolution]] in $\mathcal{C}$ (Def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory});
 
    1. $\emptyset \underoverset{\in Cof_{\mathcal{D}}}{i_{R(P(c))}}{\longrightarrow} Q(R(P(c))) \underoverset{\in W_{\mathcal{D}} \cap Fib_{\mathcal{D}}}{p_{R(P(c))}}{\longrightarrow} R(P(c))$ is a [[cofibrant resolution]] in $\mathcal{D}$ (Def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}).
+
+=--
+
+We will see that [[Quillen adjunctions]] induce ordinary [[adjoint pairs]] of [[derived functors]] on [[homotopy category of a model category|homotopy categories]] (Prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}). For this we first consider the following technical observation:
+
++-- {: .num_lemma #LeftRightQuillenFunctorsPreserveCyclinderPathSpaceObjects}
+###### Lemma
+**([[right Quillen functors]] preserve [[path space objects]])**
+
+Let $\mathcal{C} \stackrel{\overset{L}{\longleftarrow}}{\underoverset{R}{\bot}{\longrightarrow}} \mathcal{D}$ be a [[Quillen adjunction]], def. \ref{QuillenAdjunction}.
+
+1. For $X \in \mathcal{C}$ a fibrant object and $Path(X)$ a [[path space object]] (def. \ref{PathAndCylinderObjectsInAModelCategory}), then $R(Path(X))$ is a path space object for $R(X)$.
+
+1. For $X \in \mathcal{C}$ a cofibrant object and $Cyl(X)$ a [[cylinder object]] (def. \ref{PathAndCylinderObjectsInAModelCategory}), then $L(Cyl(X))$ is a path space object for $L(X)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the second case, the first is [[formal dual|formally dual]].
+
+First Observe that  $L(Y \sqcup Y) \simeq L Y \sqcup L Y$ because $L$ is [[left adjoint]] and hence preserves [[colimits]], hence in particular [[coproducts]].
+
+Hence
+
+$$
+  L(\X \sqcup X \overset{\in Cof}{\to} Cyl(X))
+  =
+  (L(X) \sqcup L(X) \overset{\in Cof}{\to } L (Cyl(X)))
+$$
+
+is a cofibration.
+
+Second, with $Y$ cofibrant then also $Y \sqcup Cyl(Y)$ is a cofibrantion, since $Y \to Y \sqcup Y$ is a cofibration (lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation}). Therefore by [[Ken Brown's lemma]] (prop. \ref{KenBrownLemma}) $L$ preserves the weak equivalence $Cyl(Y) \overset{\in W}{\longrightarrow} Y$.
 
 =--
 
@@ -2783,8 +2786,163 @@ $$
   \,.
 $$
 
+=--
+
+This suggests to regard passage to [[homotopy category of a model category|homotopy categories]] and [[derived functors]] as itself being a suitable [[functor]] from a category of [[model categories]] to the [[category of categories]]. Due to the role played by the distinction between [[left Quillen functors]] and [[right Quillen functors]], this is usefully formulated as a [[double functor]]:
+
+
++-- {: .num_defn #DoubleCategoryOfModelCategories}
+###### Definition
+**([[double category]] of [[model categories]])**
+
+The ([[very large category|very large]]) _[[double category]] of [[model categories]]_ $ModCat_{dbl}$ has 
+
+1. as [[objects]]: [[model categories]] $\mathcal{C}$ (Def. \ref{ModelCategory});
+
+1. as [[vertical morphisms]]: [[left Quillen functors]] $\mathcal{C} \overset{L}{\longrightarrow} \mathcal{E}$ (Def. \ref{QuillenAdjunction});
+
+1. as [[horizontal morphisms]]: [[right Quillen functors]] $\mathcal{C} \overset{R}{\longrightarrow}\mathcal{D}$ (Def. \ref{QuillenAdjunction});
+
+1. as [[2-morphisms]] [[natural transformations]] between the [[composition|composites]] of underlying [[functors]]:
+
+   $$
+     L_2\circ R_1
+       \overset{\phi}{\Rightarrow}
+     R_2\circ L_1
+     \phantom{AAAAA}
+     \array{
+       \mathcal{C}
+         &\overset{\phantom{AA}R_1\phantom{AA}}{\longrightarrow}&
+       \mathcal{D}
+       \\
+       {}^{\mathllap{L_1}}\Big\downarrow
+       &{}^{\mathllap{ \phi }}\swArrow&
+       \Big\downarrow{}^{\mathrlap{L_2}}
+       \\
+       \mathcal{C}
+         &\underset{\phantom{AA}R_2\phantom{AA}}{\longrightarrow}&
+       \mathcal{D}
+     }
+   $$
+
+and [[composition]] is given by ordinary [[composition]] of [[functors]], horizontally and vertically, and by [[whiskering]]-composition of [[natural transformations]].
 
 =--
+
+([Shulman 07, Example 4.6](double+category+of+model+categories#Shulman07))
+
+There is hence a [[forgetful functor|forgetful]] [[double functor]]
+
+$$
+  F \;\colon\; ModCat_{dbl} \longrightarrow Sq(Cat)
+$$
+
+to the [[double category of squares]] in the [[2-category of categories]], which forgets the [[model category]]-[[structure]] and the [[Quillen functor]]-[[property]].
+
+The following records the 2-functorility of sending [[Quillen adjunctions]] to [[adjoint pairs]] of [[derived functors]] (Prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}):
+
++-- {: .num_prop #HomotopyDoublePseudofunctor}
+###### Proposition
+**(homotopy [[double pseudofunctor]] on the [[double category of model categories]])**
+
+There is a [[double pseudofunctor]]
+
+$$
+  Ho(-) \;\colon\; ModCat_{dbl} \longrightarrow Sq(Cat)
+$$
+
+from the [[double category of model categories]] (Def. \ref{DoubleCategoryOfModelCategories}) to the [[double category of squares]] in the [[2-category]] [[Cat]], which sends
+
+1. a [[model category]] $\mathcal{C}$ to its [[homotopy category of a model category]] (Def. \ref{HomotopyCategoryOfAModelCategory});
+
+1. a [[left Quillen functor]] (Def. \ref{QuillenAdjunction}) to its [[left derived functor]] (Def. \ref{LeftAndRightDerivedFunctorsOnModelCategories});
+
+1. a [[right Quillen functor]] (Def. \ref{QuillenAdjunction}) to its [[right derived functor]] (Def. \ref{LeftAndRightDerivedFunctorsOnModelCategories});
+
+1. a [[natural transformation]]
+
+   $$
+     \array{
+       \mathcal{C}
+       &\overset{R_1}{\longrightarrow}&
+       \mathcal{D}
+       \\
+       {}^{\mathllap{L_1}}\Big\downarrow 
+         &{}^{\mathllap{ \phi }}\swArrow& 
+       \Big\downarrow{}^{\mathrlap{L_2}}
+       \\
+       \mathcal{E}
+       &\underset{R_2}{\longrightarrow}&
+       \mathcal{F}  
+     }
+   $$
+
+   to the "[[derived natural transformation]]"
+
+   $$
+     \array{
+       Ho(\mathcal{C})
+       &\overset{\mathbb{R}R_1}{\longrightarrow}&
+       Ho(\mathcal{D})
+       \\
+       {}^{\mathllap{\mathbb{L}L_1}}\Big\downarrow 
+         &\overset{Ho(\phi)}{\swArrow}& 
+       \Big\downarrow{}^{\mathrlap{\mathbb{L}L_2}}
+       \\
+       Ho(\mathcal{E})
+       &\underset{\mathbb{R}R_2}{\longrightarrow}&
+       Ho(\mathcal{F})  
+     }
+   $$
+
+   given by the [[zig-zag]]
+
+   \[
+     \label{DerivedNaturalTransformation}
+     Ho(\phi)
+     \;\colon\;
+     L_2 Q R_1 P
+     \overset{}{\longleftarrow}
+     L_2 Q R_1 Q P
+     \longrightarrow
+     L_2 R_1 Q P 
+     \overset{\phi}{\longrightarrow}
+     R_2 L_1 Q P 
+     \longrightarrow
+     R_2 P L1 Q P 
+     \longleftarrow
+     R_2 R L_1 Q
+     \,,
+   \]
+
+    where the unlabeled morphisms are induced by [[fibrant resolution]] $c \to P c$ and [[cofibrant resolution]] $Q c \to c$, respectively (Def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}).
+
+=--
+
+([Shulman 07, Theorem 7.6](double+category+of+model+categories#Shulman07))
+
++-- {: .num_lemma #DerivedNaturalTransformationUpToIsos}
+###### Lemma
+
+For the [[derived natural transformation]] $Ho(\phi)$ in (eq:DerivedNaturalTransformation) to be invertible in the [[homotopy category of a model category|homotopy category]], it is sufficient that for every [[object]] $c \in \mathcal{C}$ which is both [[fibrant object|fibrant]] and [[cofibrant object|cofibrant]] the following composite [[natural transformation]] 
+
+$$
+  R_2 Q L_1 c
+    \overset{ R_2 p_{L_1 c} }{\longrightarrow}
+  R_2 L_1 c
+   \overset{\phi}{\longrightarrow}
+  L_2 R_1 c
+    \overset{ L_2 j_{R_1 c} }{\longrightarrow}
+  L_2 P R_1 c  
+$$ 
+
+(of $\phi$ with images of [[fibrant resolution]]/[[cofibrant resolution]], Def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}) is invertible in the [[homotopy category of a model category|homotopy category]], hence that the three components are [[weak equivalences]] (via Prop. \ref{MorphismIsWeakEquivalenceIfIsoInHomotopyCategoryForQuillen}).
+
+=--
+
+([Shulman 07, Remark 7.2](double+category+of+model+categories#Shulman07))
+
+
 
 The following is the analog of [[coreflective subcategory|co-]][[reflective subcategories]] (Def. \ref{ReflectiveSubcategory}) for [[model categories]]:
 
