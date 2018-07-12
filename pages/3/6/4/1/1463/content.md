@@ -74,7 +74,7 @@ Various characterisations of [[compact spaces]] are equivalent to the ultrafilte
 
 *  More generally, if every ultrafilter on a [[convergence space]] $X$ is convergent, then $X$ is compact.  (The converse is immediate.)
 
-*  A [[uniform space]] is compact if it is complete and totally bounded.  (The converse is immediate.)
+*  A [[uniform space]] is compact if it is [[complete space|complete]] and [[totally bounded space|totally bounded]] (i.e. it is [[Bishop-compact]]).  (The converse is immediate.)
 
 These classical results in analysis are equivalent to the ultrafilter theorem in a [[Boolean topos]] with [[natural numbers object]]:
 
