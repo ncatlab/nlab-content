@@ -110,7 +110,7 @@ from the double category of model categories (Def. \ref{DoubleCategoryOfModelCat
      }
    $$
 
-   to the "derived natural transformation"
+   to the "[[derived natural transformation]]"
 
    $$
      \array{
@@ -130,7 +130,10 @@ from the double category of model categories (Def. \ref{DoubleCategoryOfModelCat
 
    given by the [[zig-zag]]
 
-   $$
+   \[
+     \label{DerivedNaturalTransformation}
+     Ho(\phi)
+     \;\colon\;
      L_2 Q R_1 P
      \overset{}{\longleftarrow}
      L_2 Q R_1 Q P
@@ -143,13 +146,35 @@ from the double category of model categories (Def. \ref{DoubleCategoryOfModelCat
      \longleftarrow
      R_2 R L_1 Q
      \,,
-   $$
+   \]
 
     where the unlabeled morphisms are induced by [[fibrant resolution]] $c \to P c$ and [[cofibrant resolution]] $Q c \to c$, respectively.
 
 =--
 
 ([Shulman 07, Theorem 7.6](#Shulman07))
+
++-- {: .num_prop #DerivedNaturalTransformationUpToIsos}
+###### Proposition
+
+For the [[derived natural transformation]] $Ho(\phi)$ in (eq:DerivedNaturalTransformation) to be invertible in the [[homotopy category of a model category|homotopy category]], it is sufficient that for every [[object]] $c \in \mathcal{C}$ which is both [[fibrant object|fibrant]] and [[cofibrant object|cofibrant]] the following [[natural transformation]] 
+
+$$
+  R_2 Q L_1 c
+    \overset{}{\longrightarrow}
+  R_2 L_1 c
+   \overset{\phi}{\longrightarrow}
+  L_2 R_1 c
+    \longrightarrow
+  L_2 P R_1 c  
+$$ 
+
+is invertible in the homotopy category, hence that the three components are [[weak equivalences]].
+
+=--
+
+([Shulman 07, Remark 7.2](#Shulman07))
+
 
 ## Related concepts
 
@@ -160,3 +185,6 @@ from the double category of model categories (Def. \ref{DoubleCategoryOfModelCat
 * {#Shulman07} [[Michael Shulman]], _Comparing composites of left and right derived functors_, New York Journal of Mathematics 17 (2011), 75-125 ([arXiv:0706.2868](https://arxiv.org/abs/0706.2868))
 
 [[!redirects double categories of model categories]]
+
+[[!redirects derived natural transformation]]
+[[!redirects derived natural transformations]]
