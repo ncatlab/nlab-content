@@ -161,11 +161,13 @@ The statement of the Quillen adjunctions appears as [[Higher Topos Theory|HTT, p
 
 =--
 
+In fact homotopy Kan extension forms as above forms a [[Quillen adjoint triple]]. See [there](Quillen+adjoint+triple#QuillenAdjointTripleHomotopyKanExtension).
+
 
 +-- {: .num_defn}
 ###### Definition
 
-Since intrinsically Kan extensions, as every universal construciton, are supposed to be only defined up to weak equivalence, it is sometimes useful to make the extra freedom of choosing any weakly equivalent object explicit by the following definition.
+Since, intrinsically, Kan extensions, as every [[universal construction]], are supposed to be only defined up to weak equivalence, it is sometimes useful to make the extra freedom of choosing any weakly equivalent object explicit by the following definition.
 
 Given $F \in [C,A]$ and $G \in [C',A]$ and a morphism $\eta : G \to f_* F$, we say that $\eta$ **exhibits $G$ as a homotopy right Kan extension** of $F$ if for some injectively fibrant replacement $F \to \hat F$ the composite morphism $G \to f_* F \to f_* \hat F$ is a weak equivalence.
 
