@@ -25,15 +25,19 @@ In later editions the title has been changed. The most recent, third edition is
 
 * _Gauge Field Theories: Spin One and Spin Two: 100 Years After General Relativity_, [Dover](http://store.doverpublications.com/0486805247.html), 2016,
 
-with extra chapter 6: _Non-geometric general relativity_. 
+with extra chapter 6: _Non-geometric general relativity_, based (it seems) on the article 
 
-The analogous discussion of [[quantum electrodynamics]] in in
+* {#Scharf13} [[Günter Scharf]], _Inhomogeneous cosmology in the cosmic rest frame without dark stuff_ ([arXiv:1312.2695](https://arxiv.org/abs/1312.2695))
+
+The analogous discussion of [[quantum electrodynamics]] via [[causal perturbation theory]] is in
 
 * [[Günter Scharf]],  _[[Finite Quantum Electrodynamics -- The Causal Approach]]_,  Springer 1995
 
-## Related textbooks
+## Related textbooks and lecture notes
 
 * {#Rejzner16} [[Katarzyna Rejzner]], _[[Perturbative Algebraic Quantum Field Theory]]_, Mathematical Physics Studies, Springer 2016 ([web](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
+
+* _[[geometry of physics -- perturbative quantum field theory]]_
 
 * [[Michael Dütsch]], _[[From classical field theory to perturbative quantum field theory]]_, 2018
 
