@@ -2448,7 +2448,7 @@ $$
     Hom_{\mathcal{D}}(d_2, R(c_2))
   }
   \,.
-$$
+/$$
 
 We write $(L \dashv R)$ to indicate such an [[adjunction]] and call $L$ the _[[left adjoint]]_ and $R$ the _[[right adjoint]]_ of the adjoint pair.
 
@@ -2831,7 +2831,7 @@ and [[composition]] is given by ordinary [[composition]] of [[functors]], horizo
 
 ([Shulman 07, Example 4.6](double+category+of+model+categories#Shulman07))
 
-There is hence a [[forgetful functor|forgetful]] [[double functor]]
+There is hence a [[forgetful functor|forgetful]] [[double functor]] (Remark \ref{StrictAndWeak2Functors})
 
 $$
   F \;\colon\; ModCat_{dbl} \longrightarrow Sq(Cat)
@@ -2839,13 +2839,13 @@ $$
 
 to the [[double category of squares]] (Example \ref{DoubleCategoryOfSquares}) in the [[2-category of categories]] (Example \ref{2CategoryOfCategories}), which forgets the [[model category]]-[[structure]] and the [[Quillen functor]]-[[property]].
 
-The following records the 2-functorility of sending [[Quillen adjunctions]] to [[adjoint pairs]] of [[derived functors]] (Prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}):
+The following records the 2-functoriality of sending [[Quillen adjunctions]] to [[adjoint pairs]] of [[derived functors]] (Prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}):
 
 +-- {: .num_prop #HomotopyDoublePseudofunctor}
 ###### Proposition
 **(homotopy [[double pseudofunctor]] on the [[double category of model categories]])**
 
-There is a [[double pseudofunctor]]
+There is a [[double pseudofunctor]] (Remark \ref{StrictAndWeak2Functors})
 
 $$
   Ho(-) \;\colon\; ModCat_{dbl} \longrightarrow Sq(Cat)
@@ -3254,79 +3254,257 @@ The following is the analog of [[adjoint triples]], [[adjoint quadruples]] (Rema
 ###### Definition
 **([[Quillen adjoint triple]])**
 
-Let $\mathcal{C}$, $\mathcal{D}$ be two [[categories]] (Def. \ref{Categories}) and let
-
-\[
-  \label{AdjointTripleUnderlyingQuillenAdjointTriple}
-  \mathcal{C}
-    \array{
-       \overset{\phantom{AA}L\phantom{AA}}{\longrightarrow}
-       \\
-       \overset{\phantom{AA}C\phantom{AA}}{\longleftarrow}
-       \\
-       \overset{\phantom{AA}R\phantom{AA}}{\longrightarrow}
-    }
-  \mathcal{D}
-\]
-
-be an [[adjoint triple]] of [[functors]] between them (Remark \ref{AdjointTriples}).
-
-Let moreover $\mathcal{C}_1, \mathcal{C}_2$ and $\mathcal{D}_1$, $\mathcal{D}_2$ be [[model category]] [[structures]] on $\mathcal{C}$ and $\mathcal{D}$, respectively (Def. \ref{ModelCategory}), such that the [[identity functors]] constitute [[Quillen equivalences]] (Def. \ref{QuillenEquivalence})
+Let $\mathcal{C}_1, \mathcal{C}_2, \mathcal{D}$ be [[model categories]] (Def. \ref{ModelCategory}), where $\mathcal{C}_1$ and $\mathcal{C}_2$ share the same underlying [[category]] $\mathcal{C}$, and such that the [[identity functor]] on $\mathcal{C}$ constitutes a [[Quillen equivalence]] (Def. \ref{QuillenEquivalence}):
 
 $$
+  \mathcal{C}_2 
+    \underoverset
+      {\underset{ \phantom{AA}id\phantom{AA} }{\longrightarrow}}
+      {\overset{ \phantom{AA}id\phantom{AA} }{\longleftarrow}}
+      {{}_{\phantom{Qu}}\bot_{Qu}}
   \mathcal{C}_1
-    \underoverset
-      {\underset{\phantom{AA}id_{\mathcal{C}}\phantom{AA}}{\longrightarrow}}
-      {\overset{id_{\mathcal{C}}}{\longleftarrow}}
-      {\simeq_{Qu}}
-  \mathcal{C}_2
-  \,,
-  \phantom{AAAA}
-  \mathcal{D}_1
-    \underoverset
-      {\underset{\phantom{AA}id_{\mathcal{C}}\phantom{AA}}{\longrightarrow}}
-      {\overset{id_{\mathcal{C}}}{\longleftarrow}}
-      {\simeq_{Qu}}
-  \mathcal{D}_2
 $$
 
-Then (eq:AdjointTripleUnderlyingQuillenAdjointTriple) is a _[[Quillen adjoint triple]]_ if 
+Then 
 
-1. $C$ is a [[right Quillen functor]] (Def. \ref{QuillenAdjunction}) with respect to $\mathcal{C}_1$ and $\mathcal{D}_1$;
+1. a _[[Quillen adjoint triple]]_ of the form
 
-1. $C$ is a [[right Quillen functor]] (Def. \ref{QuillenAdjunction}) with respect to $\mathcal{C}_2$ and $\mathcal{D}_2$.
+   $$
+     \mathcal{C}_{1/2}
+       \array{
+         \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{L}{\longrightarrow}
+         \\
+         \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{C}{\longleftarrow}
+         \\
+         \overset{\phantom{AA}R\phantom{AA}}{\longrightarrow}
+         \\
+       }
+     \mathcal{D}
+   $$ 
+
+   is diagrams in the [[double category of model categories]] (Def. \ref{DoubleCategoryOfModelCategories}) of the form
+
+   $$
+     \array{
+       && 
+       \mathcal{C}_1
+       &\overset{ \phantom{AA}id\phantom{AA} }{\longrightarrow}&
+       \mathcal{C}_2
+       \\
+       && 
+       {}^{\mathllap{ L }}\Big\downarrow 
+       &{}^{\mathllap{\eta}}\swArrow&
+       \Big\downarrow{}^{\mathrlap{id}}
+       \\
+       \mathcal{C}_2    
+        &\overset{ \phantom{A}R\phantom{A} }{\longrightarrow}&
+       \mathcal{D}
+        &\overset{\phantom{A}C\phantom{A}}{\longrightarrow}&
+       \mathcal{C}_1
+       \\
+       {}^{\mathllap{ id }}\Big\downarrow
+       & {}^{\mathllap{\epsilon}}\swArrow &
+       {}^{\mathllap{C}}
+       \Big\downarrow
+         &\swArrow_{\mathrlap{id}}& 
+       \Big\downarrow{}^{ \mathrlap{ id } }
+       \\
+       \mathcal{C}_2
+       &\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}&
+       \mathcal{C}_2
+       &\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}& 
+       \mathcal{C}_2
+     }
+   $$
+
+   such that $\eta$ is the [[unit of an adjunction]] and $\epsilon$ the [[counit of an adjunction]], thus exhibiting [[Quillen adjunctions]] 
+
+   $$
+     \array{
+       \mathcal{C}_1
+         \underoverset
+           {\underset{C}{\longleftarrow}}
+           {\overset{L}{\longrightarrow}}
+           {{}_{\phantom{Qu}}\bot_{Qu}}
+       \mathcal{D}
+       \\
+       \\
+       \mathcal{C}_2
+         \underoverset
+           {\underset{R}{\longrightarrow}}
+           {\overset{C}{\longleftarrow}}
+           {{}_{\phantom{Qu}}\bot_{Qu}}
+       \mathcal{D}
+     }
+   $$
+
+   and such that the [[derived natural transformation]] $Ho(id)$ of the bottom right square (eq:DerivedNaturalTransformation) is invertible (a [[natural isomorphism]]);
+   
+
+1. a _[[Quillen adjoint triple]]_ of the form
+
+   $$
+     \mathcal{C}_{1/2}
+       \array{
+         \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{L}{\longleftarrow}
+         \\
+         \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{C}{\longrightarrow}
+         \\
+         \overset{\phantom{AA}R\phantom{AA}}{\longleftarrow}
+         \\
+       }
+     \mathcal{D}
+   $$ 
+
+   is diagram in the [[double category of model categories]] (Def. \ref{DoubleCategoryOfModelCategories}) of the form
+
+   $$
+     \array{
+       \mathcal{C}_2
+       &\overset{ \phantom{AA} id \phantom{AA} }{\longrightarrow}& 
+       \mathcal{C}_1   
+       &\overset{ \phantom{AA}id\phantom{AA} }{\longrightarrow}&
+       \mathcal{C}_1
+       \\
+       {}^{\mathllap{id}}
+       \Big\downarrow
+         &{}^{ \mathllap{ id } }\swArrow& 
+       \Big\downarrow{}^{ \mathrlap{ C } }
+        & {}^{ \mathllap{\epsilon} }\swArrow &  
+       \Big\downarrow{}^{\mathrlap{id}}
+       \\
+       \mathcal{C}_2
+       &\underset{ \phantom{A}C\phantom{A} }{\longrightarrow}&
+       \mathcal{D}
+       &\underset{R}{\longrightarrow}&
+       \mathcal{C}_1
+       \\
+       {}^{\mathllap{id}}\Big\downarrow 
+         &{}^{\mathllap{ \epsilon }}\swArrow& 
+       \Big\downarrow{}^{\mathrlap{L}}
+       \\
+       \mathcal{C}_2
+       &\underset{ \phantom{AA}id\phantom{AA} }{\longrightarrow}&
+       \mathcal{C}_2
+     }
+   $$
+
+   such that $\eta$ is the [[unit of an adjunction]] and $\epsilon$ the [[counit of an adjunction]], thus exhibiting [[Quillen adjunctions]] 
+
+   $$
+     \array{
+       \mathcal{C}_2
+         \underoverset
+           {\underset{C}{\longrightarrow}}
+           {\overset{L}{\longleftarrow}}
+           {{}_{\phantom{Qu}}\bot_{Qu}}
+       \mathcal{D}
+       \\
+       \\
+       \mathcal{C}_1
+         \underoverset
+           {\underset{R}{\longleftarrow}}
+           {\overset{C}{\longrightarrow}}
+           {{}_{\phantom{Qu}}\bot_{Qu}}
+       \mathcal{D}
+     }
+   $$
+
+   and such that the [[derived natural transformation]] $Ho(id)$ of the top left square square ([here](double+category+of+model+categories#DerivedNaturalTransformation)) is invertible (a [[natural isomorphism]]).
 
 
-$$
-  \array{
-    \mathcal{C}_1
-      &
-      \underoverset
-        {\underset{\phantom{AA}C\phantom{AA}}{\longleftarrow}}
-        {\overset{ L }{\longrightarrow}}
-        {\bot_{Qu}}
-      &
-    \mathcal{D}_1
-    \\
-    {}^{\mathllap{id}}\Big\downarrow {}^{\underset{Qu}{\simeq}} \Big\uparrow{}^{\mathrlap{id}}
-    &&
-    {}^{\mathllap{id}}\Big\downarrow {}^{\underset{Qu}{\simeq}}\Big\uparrow{}^{\mathrlap{id}}
-    \\
-    \mathcal{C}_2
-      &
-      \underoverset
-        {\underset{ \underset{ r }{\longrightarrow}}
-        {\overset{\phantom{AA}C\phantom{AA}}{\longleftarrow}}
-        {\bot_{Qu}}
-      &
-    \mathcal{D}_2
-  }  
-$$
+If a Quillen adjoint triple of the first kind overlaps with one of the second kind
 
+   $$
+     \mathcal{C}_{1/2}
+       \array{
+         \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{L_1 \phantom{= A_a}}{\longrightarrow}
+         \\
+         \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{C_1 = L_2}{\longleftarrow}
+         \\
+         \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{R_1 = C_2}{\longrightarrow}
+         \\
+         \overset{\phantom{A_a = } R_2}{\longleftarrow}
+         \\
+       }
+     \mathcal{D}
+   $$ 
 
-Similarly for [[adjoint quadruples]] etc.
+we speak of a _[[Quillen  adjoint quadruple]]_, and so forth.
 
 =--
+
+
++-- {: .num_prop #QuillenAdjointTripleInducesAdjointTripleOfDerivedFunctors}
+###### Proposition
+**([[Quillen adjoint triple]] induces [[adjoint triple]] of [[derived functors]] on [[homotopy category of a model category|homotopy categories]])**
+
+Given a [[Quillen adjoint triple]] (Def. \ref{QuillenAdjointTriple}), the induced [[derived functors]] (Def. \ref{DerivedFunctorOfAHomotopicalFunctor}) on the [[homotopy category of a model category|homotopy categories]] form an ordinary [[adjoint triple]] (Remark \ref{AdjointTriples}): 
+
+$$
+  \mathcal{C}_{1/2}
+     \array{
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{L}{\longrightarrow}
+      \\
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{C}{\longleftarrow}
+      \\
+      \overset{\phantom{AA}R\phantom{AA}}{\longrightarrow}
+      \\
+    }
+  \mathcal{D}
+  \phantom{AAAA}
+  \overset{Ho(-)}{\mapsto}
+  \phantom{AAAA}
+  Ho(\mathcal{C})
+     \array{
+      \underoverset{{}_{\phantom{Qu}}\bot_{\phantom{Qu}}}{\mathbb{L}L}{\longrightarrow}
+      \\
+      \underoverset{{}_{\phantom{Qu}}\bot_{\phantom{Qu}}}{\mathbb{L}C \simeq \mathbb{R}C}{\longleftarrow}
+      \\
+      \overset{\phantom{AA}\mathbb{R}R\phantom{AA}}{\longrightarrow}
+      \\
+    }
+  Ho(\mathcal{D})
+$$ 
+
+$\,$
+
+$$
+  \mathcal{C}_{1/2}
+    \array{
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{L}{\longrightarrow}
+      \\
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{C}{\longleftarrow}
+      \\
+      \overset{\phantom{AA}R\phantom{AA}}{\longrightarrow}
+      \\
+    }
+  \mathcal{D}
+  \phantom{AAAA}
+  \overset{Ho(-)}{\mapsto}
+  \phantom{AAAA}
+  Ho(\mathcal{C})
+    \array{
+      \underoverset{{}_{\phantom{Qu}}\bot_{\phantom{Qu}}}{\mathbb{L}L}{\longrightarrow}
+      \\
+      \underoverset{{}_{\phantom{Qu}}\bot_{\phantom{Qu}}}{\mathbb{L}C \simeq \mathbb{R}C}{\longleftarrow}
+      \\
+      \overset{\phantom{AA}\mathbb{R}R\phantom{AA}}{\longrightarrow}
+      \\
+    }
+  Ho(\mathcal{D})
+$$ 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows immediately from the fact that passing to [[homotopy categories of model categories]] is a [[double pseudofunctor]] from the [[double category of model categories]] to the [[double category of squares]] in [[Cat]] (Prop. \ref{HomotopyDoublePseudofunctor}).
+
+=--
+
+
 
 $\,$
 
@@ -13691,7 +13869,7 @@ $\,$
 ## Basic notions of higher topos theory
 
 
-### Locally presentable $(\infty,1)$-Categories
+### Locally presentable $\infty$-Categories
  {#LocallyPresentbableInfinityCategories}
 
 The analog of the notion of [[locally presentable categories]] (Def. \ref{LocallyPresentableCategory}) for [[model categories]] are _[[combinatorial model categories]]_ (Def. \ref{CombinatorialModelCategory}) below. In addition to the ordinary condition of presentability of the underlying category, these are required to be _[[cofibrantly generated model category|cofibrant generation]]_ (Def. \ref{CofibrantlyGeneratedModelCategory} below) in that all [[cofibrations]] are [[retracts]] of [[relative cell complex]]-inclusions.
@@ -13842,6 +14020,171 @@ implies in particular that
 
 =--
 
+
+The following is the analog of the [[limit]]/[[colimit]] [[adjoint triple]] of   Def. \ref{Limits}:
+
++-- {: .num_example #HomotopyLimitOfSimplicialSets}
+###### Example
+**([[Quillen adjoint triple]] of [[homotopy limits]]/[[homotopy colimits|colimits]] of [[simplicial sets]])**
+
+Let $\mathcal{C}$ be a [[small category]] (Def. \ref{SmallCategory}) and consider the [[limit]]/[[colimit]] [[adjoint functors]] (Def. \ref{Limits}) with values in [[simplicial sets]] (Def. \ref{sSet}). These are [[Quillen adjunctions]] (Def. \ref{QuillenAdjunction}) for the injective/projective [[model structure on simplicial presheaves]] (Prop. \ref{ModelCategoriesOfSimplicialPresheaves}), respectively:
+
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    \underoverset
+      {\underset{\phantom{AA}const\phantom{AA}}{\longleftarrow}}
+      {\overset{ \underset{\longrightarrow}{\lim} }{\longrightarrow}}
+      {\bot_{Qy}}
+  sSet_{Qu}
+  \phantom{AAAA}
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    \underoverset
+      {\underset{ \underset{\longleftarrow}{\lim} }{\longrightarrow}}
+      {\overset{\phantom{AA}const\phantom{AA}}{\longleftarrow}}
+      {\bot_{Qy}}
+  sSet_{Qu}
+  \,.
+$$
+
+This holds because $const$ evidently preserves weak equivalences in any case, and preserves fibrations for the projective model structure and cofibrations for the injective model structure. 
+
+The corresponding [[derived functors]] (Def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}) are called 
+
+* the _[[homotopy limit]]_ functor
+
+  $$
+    \mathbb{R}\underset{\longleftarrow}{\lim}
+    \;\colon\;
+    Ho([\mathcal{C}^{op}, sSet_{Qu}])
+    \longrightarrow
+    Ho(sSet)
+  $$
+
+
+* the _[[homotopy colimit]]_ functor
+
+  $$
+    \mathbb{R}\underset{\longrightarrow}{\lim}
+    \;\colon\;
+    Ho([\mathcal{C}^{op}, sSet_{Qu}])
+    \longrightarrow
+    Ho(sSet)
+  $$
+
+Recall by Prop. \ref{ModelCategoriesOfSimplicialPresheaves}  the [[Quillen equivalence]] of the form 
+
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    \underoverset
+      {\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}}
+      {\overset{\phantom{AA}id\phantom{AA}}{\longleftarrow}}
+      {\simeq_{Qu}}
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+$$
+
+This means that in the [[double category of model categories]] (Def. \ref{DoubleCategoryOfModelCategories}) we have a [[2-morphism]] of the form
+
+$$
+  \array{
+    sSet_{Qu}
+      &\overset{const}{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    \\
+    {}^{\mathllap{const}}
+    \Big\downarrow
+      &\swArrow_{\mathrlap{id}}& 
+    \Big\downarrow{}^{ \mathrlap{ id } }
+    \\
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    &\underset{id}{\longrightarrow}& 
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+  }
+$$
+
+Moreover, the [[derived natural transformation]] $Ho(id)$ of this square is invertible, if for every [[Kan complex]] $X$
+
+$$
+  Q const X
+    \overset{}{\longrightarrow}
+  const X
+    \longrightarrow
+  P const X  
+$$ 
+
+is a [[weak homotopy equivalence]] (by Prop. \ref{DerivedNaturalTransformationUpToIsos}), which here is trivially the case.
+
+Therefore we have a [[Quillen adjoint triple]] (Def. \ref{QuillenAdjointTriple}) of the form
+
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj/inj}
+    \array{
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{\underset{\longrightarrow}{\lim}}{\longrightarrow}
+      \\
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{const}{\longleftarrow}
+      \\
+      \overset{\underset{\longleftarrow}{\lim}}{\longrightarrow}
+      \\
+    }
+  sSet_{Qu}
+$$ 
+
+witnessed by the following diagram in the [[double category of model categories]]
+
+$$
+  \array{
+    && 
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    &\overset{ \phantom{AA}id\phantom{AA} }{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}    
+    \\
+    && 
+    {}^{\mathllap{ \underset{\longrightarrow}{\lim} }}\Big\downarrow 
+    &{}^{\mathllap{\eta}}\swArrow&
+    \Big\downarrow{}^{\mathrlap{id}}
+    \\
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}    
+     &\overset{ \phantom{A}\underset{\longleftarrow}{\lim}\phantom{A} }{\longrightarrow}&
+    sSet_{Qu}
+      &\overset{\phantom{A}const\phantom{A}}{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    \\
+    {}^{\mathllap{ id }}\Big\downarrow
+    & {}^{\mathllap{\epsilon}}\swArrow &
+    {}^{\mathllap{const}}
+    \big\downarrow
+      &\swArrow_{\mathrlap{id}}& 
+    \big\downarrow{}^{ \mathrlap{ id } }
+    \\
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    &\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    &\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}& 
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+  }
+$$
+
+The induced [[adjoint triple]] of [[derived functors]] on the [[homotopy category of a model category|homotopy categories]] (via Prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}) is hence 
+
+$$
+  Ho([\mathcal{C}^{op}, sSet])
+  \;
+    \array{
+       \overset{\phantom{AA}\mathbb{L}\underset{\longrightarrow}{\lim}\phantom{AA}}{\longrightarrow}
+       \\
+       \overset{\phantom{AA}const\phantom{AA}}{\longleftarrow}
+       \\
+       \overset{\phantom{AA}\mathbb{R}\underset{\longleftarrow}{\lim}\phantom{AA}}{\longrightarrow}
+    }
+  \;
+  Ho(sSet)
+$$ 
+
+=--
+
+
+
+
+
 +-- {: .num_prop #SomeProjectivelyCofibrantSimplicialPresheaves}
 ###### Proposition
 **(some [[projective model structure on simplicial presheaves|projectively]] [[cofibrant object|cofibrant]] [[simplicial presheaves]])**
@@ -13869,60 +14212,6 @@ In particular every [[representable presheaf]], regarded as a simplicially const
 =--
 
 ([[Universal Homotopy Theories|Dugger 00, section 9, lemma 2.7]])
-
-The following is the analog of Def. \ref{Limits}:
-
-+-- {: .num_example #HomotopyLimitOfSimplicialSets}
-###### Example
-**([[homotopy limits]] of [[simplicial sets]])**
-
-Let $\mathcal{C}$ be a [[small category]] (Def. \ref{SmallCategory}) and consider the [[limit]]/[[colimit]] [[adjoint functors]] (Def. \ref{Limits}) with values in [[simplicial sets]] (Def. \ref{sSet}). These are [[Quillen adjunctions]] (Def. \ref{QuillenAdjunction}) for the injective/projective [[model structure on simplicial presheaves]] (Prop. \ref{ModelCategoriesOfSimplicialPresheaves}), respectively:
-
-$$
-  [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
-    \underoverset
-      {\underset{\phantom{AA}const\phantom{AA}}{\longleftarrow}}
-      {\overset{ \underset{\longrightarrow}{\lim} }{\longrightarrow}}
-      {\bot_{Qy}}
-  sSet_{Qu}
-  \phantom{AAAA}
-  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
-    \underoverset
-      {\underset{ \underset{\longleftarrow}{\lim} }{\longrightarrow}}
-      {\overset{\phantom{AA}const\phantom{AA}}{\longleftarrow}}
-      {\bot_{Qy}}
-  sSet_{Qu}
-  \,.
-$$
-
-This holds because $const$ evidently preserves weak equivalences in any case, and preserves fibrations for the projective model structure and cofibrations for the injective model structure. Since the [[identity functor]] constitutes a [[Quillen equivalence]] between the injective and the projective [[model structure on simplicial presheaves]] (Prop. \ref{ModelCategoriesOfSimplicialPresheaves}),  this is in fact a [[Quillen adjoint triple]] (Def. \ref{QuillenAdjointTriple}).
-
-
-The corresponding [[derived functors]] (Def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}) are called 
-
-* the _[[homotopy limit]]_ functor
-
-  $$
-    \mathbb{R}\underset{\longleftarrow}{\lim}
-    \;\colon\;
-    Ho([\mathcal{C}^{op}, sSet_{Qu}])
-    \longrightarrow
-    Ho(sSet)
-  $$
-
-
-* the _[[homotopy colimit]]_ functor
-
-  $$
-    \mathbb{R}\underset{\longrightarrow}{\lim}
-    \;\colon\;
-    Ho([\mathcal{C}^{op}, sSet_{Qu}])
-    \longrightarrow
-    Ho(sSet)
-  $$
-
-
-=--
 
 The following concept of [[left Bousfield localization]] is the analog for [[model categories]] of the concept of reflection onto [[local objects]] (Def. \ref{LocalizationAtACollectionOfMorphisms}):
 
@@ -14026,7 +14315,7 @@ $$
 
 Next to see that the [[identity functor]] constitutes a [[Quillen adjunction]] (Def. \ref{QuillenAdjunction}): By construction, $id \colon \mathcal{C} \to \mathcal{C}_{loc}$ preserves cofibrations and acyclic cofibrations, hence is a left Quillen functor.
 
-To see that the [[derived adjunction counit]] (Def. \ref{DerivedAdjunctionUnit})  is a [[weak equialence]]:
+To see that the [[derived adjunction counit]] (Def. \ref{DerivedAdjunctionUnit})  is a [[weak equivalence]]:
 
 Since we have an [[adjoint pair]] of [[identity functors]], the ordinary [[adjunction counit]] is the [[identity morphisms]] and hence the [[derived adjunction counit]] on a [[fibrant object]] $c$ is just a [[cofibrant resolution]]-morphism 
 
@@ -14392,7 +14681,7 @@ $$
 
 $\,$
 
-### $(\infty,1)$-Toposes
+### $\infty$-Toposes
 
 The characterization of [[sheaf toposes are equivalently the left exact reflective subcategories of presheaf toposes|sheaf toposes as the left exact reflective localizations of presheaf toposes]] (Prop. \ref{SheafToposViaLexReflection}) now has an immediate generalization from the realm of [[locally presentable categories]] to that of [[combinatorial model categories]] and their corresponding [[locally presentable (∞,1)-categories]] (Def. \ref{HoCombModCat}): This yields concept of [[model toposes]] and [[(∞,1)-toposes]] (Def. \ref{ModelTopos} below).
 
@@ -14719,7 +15008,13 @@ to be a weak equivalence, it is now sufficient to see that the value of a [[cofi
 
 $\,$
 
-## Gros $(\infty,1)$-Toposes
+## Gros $\infty$-Toposes
+
+We have established above enough [[higher category theory]]/[[homotopy theory]] that it is now fairly straightforward to generalize the discussion of [[gros toposes]] to [[model toposes]]/[[(∞,1)-toposes]].
+
+$\,$
+
+The following is the analog of Def. \ref{CohesiveTopos}:
 
 +-- {: .num_defn #CohesiveInfinityTopos}
 ###### Definition
@@ -14729,13 +15024,13 @@ An [[(∞,1)-topos]] $\mathbf{H}$ (Def. \ref{ModelTopos}) is called a _[[cohesiv
 
 $$
   \array{
-    [\mathcal{C}^{op}, sSet_{Qu}]
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj/inj}
       \array{
-        \overset{\phantom{AA}\Pi\phantom{AA}}{\longrightarrow}
+        \underoverset{{}_{\phantom{A}}\bot_{Qu}}{\phantom{AA}\Pi\phantom{AA}}{\longrightarrow}
         \\
-        \overset{\phantom{A}Disc\phantom{A}}{\hookleftarrow}
+        \underoverset{{}_{\phantom{A}}\bot_{Qu} }{\phantom{A}Disc\phantom{A}}{\hookleftarrow}
         \\
-        \overset{\phantom{AA}\Gamma\phantom{AA}}{\longrightarrow}
+        \underoverset{{}_{\phantom{A}}\bot_{Qu}}{\phantom{AA}\Gamma\phantom{AA}}{\longrightarrow}
         \\
         \overset{\phantom{A}coDisc\phantom{A}}{\hookleftarrow}
         \\
@@ -14779,13 +15074,13 @@ Then [[Kan extension]] (Prop. \ref{TopologicalLeftKanExtensionBCoend}) [[enriche
 
 \[
   \label{PreaheafAdjointQuadruple}
-  [\mathcal{C}^{op}, Set_{Qu}]
+  [\mathcal{C}^{op}, Set_{Qu}]_{proj/inj}
     \array{
-      \overset{\phantom{AAA} \Pi \phantom{AAA}}{\longrightarrow}
+      \underoverset{{}_{\phantom{A}}\bot_{Qu}}{\phantom{AAA} \Pi \phantom{AAA}}{\longrightarrow}
       \\
-      \overset{\phantom{AA} Disc \phantom{AA} }{\hookleftarrow}
+      \underoverset{{}_{\phantom{A}}\bot_{Qu}}{\phantom{AA} Disc \phantom{AA} }{\hookleftarrow}
       \\
-      \overset{\phantom{AAA} \Gamma \phantom{AAA} }{\longrightarrow}
+      \underoverset{{}_{\phantom{A}}\bot_{Qu}}{\phantom{AAA} \Gamma \phantom{AAA} }{\longrightarrow}
       \\
       \overset{\phantom{AA} coDisc \phantom{AA} }{\hookleftarrow}
     }
@@ -14810,24 +15105,14 @@ such that:
      \end{aligned}
    \]
 
-1. $Disc$ and $coDisc$ are [[full and faithful functors]] in that
 
-   1. The [[derived adjunction unit]] of $(\Pi \dashv Disc)$ is a [[weak equivalence]];
+1. $(Disc \dashv \Gamma)$ is a [[Quillen coreflection]] (Def. \ref{QuillenReflection})
 
-   1. the [[derived adjunction unit]] of $(\Gamma \dashv coDisc)$ is a [[weak equivalence]];
+1. $(\Gamma \dashv coDisc)$ is a [[Quillen reflection]] (Def. \ref{QuillenReflection});
 
-1. $\Pi$ preserves [[finite products]]:
+1. $\Pi$ [[preserved limit|preserves]] [[finite products]]:
 
-   for $\mathbf{X}, \mathbf{Y} \in [\mathcal{C}^{op}, Set]$, we have a [[natural isomorphism]]
-
-   $$
-     \Pi(\mathbf{X} \times \mathbf{Y})
-     \;\simeq\;
-     \Pi(\mathbf{X}) \times \Pi(\mathbf{Y})
-     \,.
-   $$
-
-Hence the [[category of simplicial presheaves]] over a [[small category]] with [[finite products]], a [[cohesive (∞,1)-topos]] (Def. \ref{CohesiveInfinityTopos}).
+Hence the [[category of simplicial presheaves]] over a [[small category]] with [[finite products]] is a [[cohesive (∞,1)-topos]] (Def. \ref{CohesiveInfinityTopos}).
 
 =--
 
@@ -14835,15 +15120,7 @@ Hence the [[category of simplicial presheaves]] over a [[small category]] with [
 +-- {: .proof}
 ###### Proof
 
-The [[adjoint quadruple]] of ordinary [[functors]] exists as in Example \ref{PresheavesAdjointQuadrupleOnSiteWithTerminalObject}. Notice that this is such that 
-
-$$
-  \Gamma(\mathbf{X})
-  =
-  \mathbf{X}(\ast)
-$$
-
-is given by evaluation on the [[terminal object]] of the site.
+The [[adjoint quadruple]] of ordinary [[functors]] exists as in Example \ref{PresheavesAdjointQuadrupleOnSiteWithTerminalObject}. 
 
 Moreover, by Prop. \ref{ModelCategoriesOfSimplicialPresheaves} we
 have the injective and projective [[model structure on simplicial presheaves]] related by a  [[Quillen equivalence]] of the form
@@ -14859,7 +15136,99 @@ $$
 
 Hence we need to see that each consecutive [[pair]] of [[functors]] constitutes a [[Quillen adjunction]] alternatively for the injective and the projective [[model structure on simplicial presheaves]].
 
-That the top [[adjoint triple]] $(\Pi \dashv const \dashv \Gamma)$ is a [[Quillen adjoint triple]] is in fact Example \ref{HomotopyLimitOfSimplicialSets}. Moreover, $\Gamma$ is given by point evaluation, it is immediate that this is not just a [[right Quillen functor]] but also a [[left Quillen functor]] with respect to the injective model structure (evidently) but also with respect to the projective model structure (be Remark \ref{ProjectiveCofibrationIsObjectwiseCofibration}). 
+That the top [[adjoint triple]] $(\Pi \dashv const \dashv \Gamma)$ is a [[Quillen adjoint triple]] is in fact Example \ref{HomotopyLimitOfSimplicialSets}. 
+
+To see the bottom [[Quillen adjoint triple]], notice from Example \ref{PresheavesAdjointQuadrupleOnSiteWithTerminalObject} that over a site with terminal object
+
+$$
+  \Gamma(\mathbf{X})
+  =
+  \mathbf{X}(\ast)
+$$
+
+is given by evaluation on that[[terminal object]].
+
+Hence in this case $\underset{\longleftarrow}{\lim} =\Gamma$ is also a [[left Quillen functor]] on the projective model structure (using that $id : [\mathcal{C}^{op}, sSet_{Qu}]_{proj} \to [\mathcal{C}^{op}, sSet_{Qu}]_{inj}$ is also left Quillen, as above) and hence we get a further Quillen adjoint triple
+
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj/proj}
+    \array{
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{const}{\longleftarrow}
+      \\
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{\underset{\longleftarrow}{\lim}=\Gamma}{\longrightarrow}
+      \\
+      \overset{coconst}{\longleftarrow}
+      \\
+    }
+  sSet_{Qu}
+$$ 
+ 
+witnessed by the following diagram in the [[double category of model categories]]
+
+
+$$
+  \array{
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    &\overset{ \phantom{AA} id \phantom{AA} }{\longrightarrow}& 
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}   
+    &\overset{ \phantom{AA}id\phantom{AA} }{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    \\
+    {}^{\mathllap{id}}
+    \Big\downarrow
+      &{}^{ \mathllap{ id } }\swArrow& 
+    \Big\downarrow{}^{ \mathrlap{ \underset{\longleftarrow}{\lim}=\Gamma } }
+      & {}^{ \mathllap{\epsilon} }\swArrow &
+    \Big\downarrow{}^{\mathrlap{id}}
+    \\
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    &\underset{ \phantom{A}\underset{\longleftarrow}{\lim}=\Gamma\phantom{A} }{\longrightarrow}&
+    sSet_{Qu}
+    &\underset{coconst}{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    \\
+    {}^{\mathllap{id}}\Big\downarrow 
+      &{}^{\mathllap{ \epsilon }}\swArrow& 
+    \Big\downarrow{}^{\mathrlap{const}}
+    \\
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    &\underset{ \phantom{AA}id\phantom{AA} }{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+  }
+$$
+
+
+Moreover, the [[derived natural transformation]] $Ho(id)$ of the top left square is invertible, if for every injectively fibrant simplicial presheaf $\mathbf{X}$ the composite
+
+$$
+  \Gamma Q_{inj} \mathbf{X}
+    \overset{}{\longrightarrow}
+  \Gamma \mathbf{X}
+    \longrightarrow
+  \Gamma P_{proj} \mathbf{X}  
+$$ 
+
+is a [[weak equivalence]] (by [this Prop.](double+category+of+model+categories#DerivedNaturalTransformationUpToIsos)), which here is trivially the case.
+
+
+This establishes the [[Quillen adjoint quadruple]]
+
+
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj/inj}
+    \array{
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{\phantom{AA}\underset{\longrightarrow}{\lim}\phantom{AA}}{\longrightarrow}
+      \\
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{\phantom{AA}const\phantom{AA}}{\longleftarrow}
+      \\
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{ \phantom{AA}\underset{\longleftarrow}{\lim}\phantom{AA} }{\longrightarrow}
+      \\
+      \overset{\phantom{A}coconst\phantom{A} }{\longleftarrow}
+      \\
+    }
+  sSet_{Qu}
+$$ 
+
 
 It only remains to see the [[Quillen reflection|Quillen (co-)reflectivity]]:
 
@@ -14873,7 +15242,7 @@ $$
   \Gamma (P Disc S)
 $$
 
-Here the [[adjunction unit]] $\eta_S$ itself is an [[isomorphism]], by Prop. \ref{FullyFaithfulAndInvertibleAdjoints}, since $Disc$ is a [[fully faithful functor]]. Moreover, since $\Gamma$ is given by evaluation on the terminal object, and since weak equivalences of simplicial presheaves are objectwise weak equialences (Prop. \ref{ModelCategoriesOfSimplicialPresheaves}), also $\Gamma(j_{Disc(S)})$ is a weak equivalence, and hence so is the composite derived adjunction unit.
+Here the [[adjunction unit]] $\eta_S$ itself is an [[isomorphism]], by Prop. \ref{FullyFaithfulAndInvertibleAdjoints}, since $Disc$ is a [[fully faithful functor]]. Moreover, since $\Gamma$ is given by evaluation on the terminal object, and since weak equivalences of simplicial presheaves are objectwise weak equivalences (Prop. \ref{ModelCategoriesOfSimplicialPresheaves}), also $\Gamma(j_{Disc(S)})$ is a weak equivalence, and hence so is the composite derived adjunction unit.
 
 Similarly, the [[derived adjunction counit]] for $(\Gamma \dashv coDisc)$ has components
 
@@ -14888,6 +15257,8 @@ $$
 where now the ordinary [[adjunction counit]] is an isomorphism, since $coDisc$ is a [[fully faithful functor]], and by the same argument as before, $\Gamma( p_{Q coDisc S} )$ is a weak equivalence.
 
 =--
+
+The following is the analog od Def. \ref{OneCohesiveSite}:
 
 +-- {: .num_defn #InfinityCohesiveSite}
 ###### Definition
