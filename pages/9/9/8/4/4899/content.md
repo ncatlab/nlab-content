@@ -16,11 +16,12 @@ See also [[math blogs]], [[math archives]] and the top page [[math resources]]. 
 * table of contents
 {:toc}
 
-## Main math societies and department list
+## Main math societies and lists
 
 * [ams](http://www.ams.org) American Mathematical Society
 * [imu](http://www.mathunion.org) International Mathematical Union
 * [ems](http://www.emis.de) European Mathematical Society
+* [siam](https://www.siam.org) Society for industrial and applied mathematics
 * long [list of math societies](http://www.mathontheweb.org/mathweb/mi-sao.html) at (former AMS's) [Math on the Web](http://www.mathontheweb.org) 
 * [list of mathematics departments](http://www.mathontheweb.org/mathweb/mi-depts.html) at Math On the Web
 
