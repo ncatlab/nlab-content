@@ -147,6 +147,14 @@ But since also $[\mathcal{C}^{op}, sSet_{Qu}]_{inj} \overset{id}{\to} [\mathcal{
 
 This demonstrates the above square.
 
+
+
+Finally to check that $Ho(id)$ is invertible
+
+
+But since $\mathbf{X}$ 
+
+
 Hence in conclusion, we have a [[Quillen adjoint quadruple]]
 
 $$
@@ -160,5 +168,180 @@ $$
       \\
       \overset{ \phantom{A_a \simeq } R_\ast }{\longrightarrow}
     }
-  [\mathcal{D}^{op}, sSet]
+  [\mathcal{D}^{op}, sSet]_{proj}
 $$
+
+
+$\,$
+
+Now let 
+
+$$
+  \ast
+    \array{
+      \phantom{\underoverset{\bot}{\phantom{AA}\iota_{inf}\phantom{AA}}{\hookrightarrow}}
+      \\
+      \underoverset{\bot}{\phantom{AA}\Pi\phantom{AA}}{\longleftarrow}
+      \\
+      \underoverset{}{\phantom{A}Disc\phantom{A}}{\hookrightarrow}
+    }
+  CartSp
+    \array{
+      \underoverset{\bot}{\phantom{AA}\iota_{inf}\phantom{AA}}{\hookrightarrow}
+      \\
+      \underoverset{}{\phantom{AA}\Pi_{inf}\phantom{AA}}{\longleftarrow}
+      \\
+      \phantom{\underoverset{}{\phantom{A}Disc\phantom{A}}{\hookrightarrow}}
+    }
+  FormalCartSp
+$$
+
+This induces [[Quillen adjoint quadruples]] of the form
+
+$$
+  sSet_{Qu}
+  \;\;
+    \array{
+      \phantom{\underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ \iota_{inf} }{\hookrightarrow}}
+      \\
+      \underoverset{\phantom{{}_{Qu}}\bot_{Qu} }{ \Pi }{\longleftarrow}
+      \\
+      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ Disc }{\hookrightarrow}
+      \\
+      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ \Gamma }{\hookleftarrow}
+      \\
+      \overset{ coDisc }{\longrightarrow}
+    }
+  \;\;
+  [CartSp^{op}, sSet_{Qu}]_{proj/inj}
+  \;\;
+    \array{
+      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ \iota_{inf} }{\hookrightarrow}
+      \\
+      \underoverset{\phantom{{}_{Qu}}\bot_{Qu} }{ \Pi_{inf} }{\longleftarrow}
+      \\
+      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ Disc_{inf} }{\hookrightarrow}
+      \\
+      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ \Gamma_{inf} }{\longleftarrow}
+      \\
+      \phantom{\overset{ coDisc }{\longrightarrow}}
+    }
+  \;\;
+  [FormalCartSp^{op}, sSet_{Qu}]_{proj}
+$$
+
+
+Finally let
+
+$$
+  \ast
+    \array{
+      \phantom{\underoverset{\bot}{\phantom{AA}even\phantom{AA}}{\longleftarrow}}      
+      \\
+      \phantom{\underoverset{\bot}{\phantom{AA}\iota_{inf}\phantom{AA}}{\hookrightarrow}}
+      \\
+      \underoverset{\bot}{\phantom{AA}\Pi\phantom{AA}}{\longleftarrow}
+      \\
+      \underoverset{}{\phantom{A}Disc\phantom{A}}{\hookrightarrow}
+    }
+  CartSp
+    \array{
+      \phantom{\underoverset{\bot}{\phantom{AA}even\phantom{AA}}{\longleftarrow}}      
+      \\
+      \underoverset{\bot}{\phantom{AA}\iota_{inf}\phantom{AA}}{\hookrightarrow}
+      \\
+      \underoverset{}{\phantom{AA}\Pi_{inf}\phantom{AA}}{\longleftarrow}
+      \\
+      \phantom{\underoverset{}{\phantom{A}Disc\phantom{A}}{\hookrightarrow}}
+    }
+  FormalCartSp
+    \array{
+      \underoverset{\bot}{\phantom{AA}even\phantom{AA}}{\longleftarrow}      
+      \\
+      \underoverset{\bot}{\phantom{AA}\iota_{sup}\phantom{AA}}{\hookrightarrow}      
+      \\
+      \underoverset{}{\phantom{AA}\Pi_{sup}\phantom{AA}}{\longleftarrow}
+      \\
+      \phantom{\underoverset{}{\phantom{A}Disc\phantom{A}}{\hookrightarrow}}
+    }
+  SuperFormalCartSp
+$$
+
+This induces [[Quillen adjoint quadruples]] of the form
+
+$$
+  sSet_{Qu}
+  \;\;
+    \array{
+      \phantom{\underoverset{\phantom{{}_{Qu}}\bot_{Qu} }{ even }{\longleftarrow}}
+      \\
+      \phantom{\underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ \iota_{inf} }{\hookrightarrow}}
+      \\
+      \underoverset{\phantom{{}_{Qu}}\bot_{Qu} }{ \Pi }{\longleftarrow}
+      \\
+      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ Disc }{\hookrightarrow}
+      \\
+      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ \Gamma }{\longleftarrow}
+      \\
+      \overset{ coDisc }{\hookrightarrow}
+    }
+  \;\;
+  [CartSp^{op}, sSet_{Qu}]_{proj/inj}
+  \;\;
+    \array{
+      \phantom{\underoverset{\phantom{{}_{Qu}}\bot_{Qu} }{ even }{\longleftarrow}}
+      \\
+      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ \iota_{inf} }{\hookrightarrow}
+      \\
+      \underoverset{\phantom{{}_{Qu}}\bot_{Qu} }{ \Pi_{inf} }{\longleftarrow}
+      \\
+      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ Disc_{inf} }{\hookrightarrow}
+      \\
+      \underoverset{ \phantom{\phantom{{}_{Qu}}\bot_{Qu}} }{ \Gamma_{inf} }{\longleftarrow}
+      \\
+      \phantom{\overset{ coDisc }{\longrightarrow}}
+    }
+  \;\;
+  [FormalCartSp^{op}, sSet_{Qu}]_{proj}
+  \;\;
+    \array{
+      \underoverset{\phantom{{}_{Qu}}\bot_{Qu} }{ even }{\longleftarrow}
+      \\
+      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ \iota_{sup} }{\hookrightarrow}
+      \\
+      \underoverset{\phantom{{}_{Qu}}\bot_{Qu} }{ \Pi_{sup} }{\longleftarrow}
+      \\
+      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ Disc_{sup} }{\hookrightarrow}
+      \\
+      \underoverset{ \phantom{\phantom{{}_{Qu}}\bot_{Qu}} }{ \Gamma_{sup} }{\longleftarrow}
+      \\
+      \phantom{\overset{ coDisc }{\longrightarrow}}
+    }
+  \;\;
+  [SuperFormalCartSp^{op}, sSet_{Qu}]_{proj/inj}
+$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
