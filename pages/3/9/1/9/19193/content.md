@@ -34,6 +34,8 @@ See also [Illustris Project Website](#IllustrisProjectWebsite): _[What are we le
 
 ## Related concepts
 
+* [[inhomogeneous cosmology]]
+
 * [[observable universe]]
 
 * [[dark matter]]
