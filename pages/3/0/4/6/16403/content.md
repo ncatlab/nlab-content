@@ -785,7 +785,7 @@ Given a [[model category]] in the sense of def. \ref{ModelCategory}, then its cl
 
 =--
 
-([Joyal, prop. E.1.3](#Joyal))
+([Joyal, prop. E.1.3](model+category#Joyal))
 
 
 +-- {: .proof}
@@ -5995,13 +5995,14 @@ $\,$
 
 
 ## $\infty$-Groupoids I): Topological homotopy theory
+  {#TopologicalHomotopyTheory}
 
 This section first recalls relevant concepts from actual [[topology]] ("[[point-set topology]]") and highlights facts that motivate the axiomatics of [[model categories]] [below](#ModelCategoryTheory). We prove two technical lemmas (lemma \ref{CompactSubsetsAreSmallInCellComplexes} and lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}) that serve to establish the abstract homotopy theory of topological spaces [further below](#TheClassicalModelStructureOfTopologicalSpaces).
 
 
 Then we discuss how the category [[Top]] of [[topological spaces]] satisfies the axioms of abstract homotopy theory ([[model category]]) theory, def. \ref{ModelCategory}.
 
-**Literature** ([Hirschhorn 15](#Hirschhorn15))
+**Literature** ([Hirschhorn 15](classical+model+structure+on+topological+spaces#Hirschhorn15))
 
 
 $\,$
@@ -11009,7 +11010,7 @@ $\,$
 
 
 ## $\infty$-Groupoids II): Simplicial homotopy theory
- {#spSimplicialHomotopyTheory}
+ {#SimplicialHomotopyTheory}
 
 With [[groupoids]] and [[chain complexes]] we have seen two kinds of objects which support concepts of [[homotopy theory]], such as a concept of [[homotopy equivalence]] between them ([[equivalence of groupoids]] on the one hand, and [[quasi-isomorphism]] on the other). In some sense these two cases are opposite extremes in the more general context of [[homotopy theory]]:
 
@@ -11603,7 +11604,7 @@ $$
 
 =--
 
-(e.g. [Goerss-Jardine 99, p. 26](#GoerssJardine99))
+(e.g. [Goerss-Jardine 99, p. 26](classical+model+structure+on+simplicial+sets#GoerssJardine99))
 
 +-- {: .num_remark}
 ###### Remark 
@@ -11621,7 +11622,7 @@ choice of representatives $f$, $g$ and of the extension $\theta$.
 
 =--
 
-e.g. ([Goerss-Jardine 99, lemma 7.1](#GoerssJardine99))
+e.g. ([Goerss-Jardine 99, lemma 7.1](classical+model+structure+on+simplicial+sets#GoerssJardine99))
 
 
 +-- {: .num_lemma}
@@ -11631,7 +11632,7 @@ The product operation in def. \ref{ProductOnSimplicialHomotopyGroups} yields a [
 
 =--
 
-e.g. ([Goerss-Jardine 99, theorem 7.2](#GoerssJardine99))
+e.g. ([Goerss-Jardine 99, theorem 7.2](classical+model+structure+on+simplicial+sets#GoerssJardine99))
 
 +-- {: .num_remark}
 ###### Remark 
@@ -11968,7 +11969,7 @@ Let $p \colon X \longrightarrow Y$ be a [[Kan fibration]], def. \ref{KanFibratio
 
 =--
 
-(e.g. [Goerss-Jardine 99, chapter I, lemma 10.6](#GoerssJardine99))
+(e.g. [Goerss-Jardine 99, chapter I, lemma 10.6](classical+model+structure+on+simplicial+sets#GoerssJardine99))
 
 
 While [[simplicial sets]] have the advantage of being purely combinatorial structures, the [[singular simplicial complex]] of any given [[topological space]], def. \ref{SingularSimplicialComplex} is in general a huge simplicial set which does not lend itself to detailed inspection. The following is about small models.
@@ -12022,7 +12023,7 @@ The [[pullback]] (in [[sSet]]) of a [[minimal Kan fibration]], def. \ref{Minimal
 
 ... [[anodyne extensions]]...
 
-([Goerss-Jardine 99, chapter I, section 4](#GoerssJardine99), [Joyal-Tierney 05, section 31](#JoyalTierney05))
+([Goerss-Jardine 99, chapter I, section 4](classical+model+structure+on+simplicial+sets#GoerssJardine99), [Joyal-Tierney 05, section 31](classical+model+structure+on+simplicial+sets#JoyalTierney05))
 
 
 +-- {: .num_prop #KanFibrationHasMinimalStrongDeformationRetract}
@@ -12032,7 +12033,7 @@ For every [[Kan fibration]], def. \ref{KanFibration}, there exists a fiberwise [
 
 =--
 
-(e.g. [Goerss-Jardine 99, chapter I, prop. 10.3](#GoerssJardine99), [Joyal-Tierney 05, theorem 3.3.1, theorem 3.3.3](#JoyalTierney05)).
+(e.g. [Goerss-Jardine 99, chapter I, prop. 10.3](classical+model+structure+on+simplicial+sets#GoerssJardine99), [Joyal-Tierney 05, theorem 3.3.1, theorem 3.3.3](classical+model+structure+on+simplicial+sets#JoyalTierney05)).
 
 +-- {: .proof}
 ###### Proof idea
@@ -12048,7 +12049,7 @@ A morphism between [[minimal Kan fibrations]], def. \ref{MinimalKanFibration}, w
 
 =--
 
-(e.g. [Goerss-Jardine 99, chapter I, lemma 10.4](#GoerssJardine99))
+(e.g. [Goerss-Jardine 99, chapter I, lemma 10.4](classical+model+structure+on+simplicial+sets#GoerssJardine99))
 
 +-- {: .proof}
 ###### Proof idea
@@ -12064,7 +12065,7 @@ Every [[minimal Kan fibration]], def. \ref{MinimalKanFibration}, over a [[connec
 
 =--
 
-(e.g. [Goerss-Jardine 99, chapter I, corollary 10.8](#GoerssJardine99))
+(e.g. [Goerss-Jardine 99, chapter I, corollary 10.8](classical+model+structure+on+simplicial+sets#GoerssJardine99))
 
 +-- {: .proof}
 ###### Proof
@@ -13609,7 +13610,7 @@ in example \ref{TopologicalRealizationOfSimplicialSets} takes values in [[CW-com
 
 =--
 
-(e.g. [Goerss-Jardine 99, chapter I, prop. 2.3](#GoerssJardine99))
+(e.g. [Goerss-Jardine 99, chapter I, prop. 2.3](classical+model+structure+on+simplicial+sets#GoerssJardine99))
 
 Thus for a topological space $X$ the [[adjunction counit]] $\epsilon_X \colon {\vert Sing X\vert} \longrightarrow X$ of the [[nerve and realization]]-adjunction is a candidate for a replacement of $X$ by a CW-complex. For this, $\epsilon_X$ should be at least a [[weak homotopy equivalence]], i.e. induce [[isomorphisms]] on all [[homotopy groups]]. Since homotopy groups are built from maps into $X$ out of [[compact topological spaces]] it is plausible that this works if the topology of $X$ is entirely detected by maps out of compact topological spaces into $X$. Topological spaces with this property are called [[compactly generated topological spaces|compactly generated]].
 
@@ -13728,7 +13729,7 @@ of a [[minimal Kan fibration]], def. \ref{MinimalKanFibration} is a [[Serre fibr
 
 =--
 
-This is due to ([[Calculus of fractions and homotopy theory|Gabriel-Zisman 67]]). See for instance ([Goerss-Jardine 99, chapter I, corollary 10.8, theorem 10.9](#GoerssJardine99)).
+This is due to ([[Calculus of fractions and homotopy theory|Gabriel-Zisman 67]]). See for instance ([Goerss-Jardine 99, chapter I, corollary 10.8, theorem 10.9](classical+model+structure+on+simplicial+sets#GoerssJardine99)).
 
 +-- {: .proof}
 ###### Proof idea
@@ -13744,7 +13745,7 @@ The [[geometric realization]], example \ref{TopologicalRealizationOfSimplicialSe
 
 =--
 
-This is due to ([Quillen 68](Kan+fibration#Quillen68)). See for instance ([Goerss-Jardine 99, chapter I, theorem 10.10](#GoerssJardine99)).
+This is due to ([Quillen 68](Kan+fibration#Quillen68)). See for instance ([Goerss-Jardine 99, chapter I, theorem 10.10](classical+model+structure+on+simplicial+sets#GoerssJardine99)).
 
 
 
@@ -13770,7 +13771,7 @@ is a [[weak homotopy equivalence]]
 
 =--
 
-e.g. ([Goerss-Jardine 99, chapter I, prop. 11.1 and p. 63](#GoerssJardine99)).
+e.g. ([Goerss-Jardine 99, chapter I, prop. 11.1 and p. 63](classical+model+structure+on+simplicial+sets#GoerssJardine99)).
 
 +-- {: .proof}
 ###### Proof idea
@@ -13831,7 +13832,7 @@ The **acyclic fibrations** in $sSet_{Quillen}$(i.e. the maps that are both fibra
 
 =--
 
-This appears spelled out for instance as ([Goerss-Jardine 99, theorem 11.2](#GoerssJardine99)).
+This appears spelled out for instance as ([Goerss-Jardine 99, theorem 11.2](classical+model+structure+on+simplicial+sets#GoerssJardine99)).
 
 
 In fact:
@@ -14445,6 +14446,30 @@ $$
   [\mathcal{D}^{op}, sSet]_{proj}
 $$
 
+Notice that the bottom adjoint triple $R_! \dashv R^\ast \dashv R_{\ast}$ is now realized differently by [[Quillen functors]] than in what results by applying Example \ref{QuillenAdjointTripleHomotopyKanExtension} to $R$: In the first case $R_!$ is regarded as a [[right Quillen functor]] between the projective model structures, while in the second case it is regarded as a [[left Quillen functor]] between the projective model structures.
+But by Example \ref{DerivedFunctorOfLeftRightQuillenFunctor} this does not affect the [[derived functor]] of $R_!$, up to [[natural isomorphism]]:
+
+$$
+  \array{
+    [\mathcal{D}^{op}, sSet_{Qu}]_{proj}
+      &\overset{\phantom{A}R_! \simeq L^\ast\phantom{A}}{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    \\
+    {}^{\mathllap{R_! \simeq L^\ast}}\Big\downarrow 
+      &{}^{id}\swArrow& 
+    \Big\downarrow{}^{\mathrlap{id}}
+    \\
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+      &\underset{\phantom{A}id\phantom{A}}{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+  }
+  \phantom{AAA}
+  \overset{Ho(-)}{\mapsto}
+  \phantom{AAA}
+  \mathbb{R}_{proj,proj}R_! \simeq \mathbb{L}_{proj,proj} R_!
+$$
+
+Hence by essential uniqueness of adjoints (Prop. \ref{UniquenessOfAdjoints}) also the other derived functors of the bottom Quillen adjoint triple agree, up to natural isomorphism, for both ways of regarding it. 
 
 =--
 
@@ -15669,6 +15694,10 @@ This establishes that $(\Pi \dashv Disc)$ and $(\Gamma \dashv \coDisc)$ descent 
 
 
 =--
+
+$\,$
+
+
 
 (...)
 
