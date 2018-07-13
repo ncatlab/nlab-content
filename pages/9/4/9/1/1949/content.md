@@ -31,7 +31,7 @@ Vol. 1
 Vol. 2 
 
 * [[Pierre Cartier]], Andr&#233; Voros, Une nouvelle interpr&#233;tation de la formule des traces de Selberg (pp. 1--67)
-* C. Contou-Carr&#232;re, Jacobiennes g&#233;n&#233;ralis&#233;es globales relatives (pp. 69--109)
+* [[Carlos Contou-Carrere]], Jacobiennes g&#233;n&#233;ralis&#233;es globales relatives (pp. 69--109)
 * [[Pierre Deligne]], [[Catégories Tannakiennes]] (pp. 111--195)
 * Torsten Ekedahl, On the adic formalism (pp. 197--218)
 * [[Gerd Faltings]], $F$-isocrystals on open varieties: results and conjectures (pp. 219--248)
