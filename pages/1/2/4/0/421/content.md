@@ -263,7 +263,7 @@ for the [[continuous function]] given in the standard coordinates by
 $$
   (x_0, \cdots, x_{n})
   \mapsto
-  (x_0, x_0 + x_1, \cdots, \sum_{i = 0}^k x_i, \cdots, \sum_{i = 0}^n x_i)
+  (x_0, x_0 + x_1, \cdots, \sum_{i = 0}^k x_i, \cdots, \sum_{i = 0}^{n-1} x_i)
   \,.
 $$
 
