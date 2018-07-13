@@ -36,7 +36,7 @@ In this guise the Koszul complex appears prominently in [[Lagrangian field theor
 
 Let $R$ be a [[unital ring]].
 
-Consider also a finite [[sequence]] $(x_1,\ldots,x_r)$ of [[elements]] $x_i R$. 
+Consider also a finite [[sequence]] $(x_1,\ldots,x_r)$ of [[elements]] $x_i \in R$. 
 
 Given any [[center|central element]] $x\in Z(R)$, one can define a two term [[cochain complex]]
 
