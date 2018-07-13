@@ -630,8 +630,86 @@ $$
 
 =--
 
++-- {: .num_example #QuillenAdjointQuadrupleOfHomotopyKanExtensionAlongAdjointPair}
+###### Example
+**([[Quillen adjoint triple]] of [[homotopy Kan extension]] of [[simplicial presheaves]] along [[adjoint pair]])**
+
+Now let 
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{\phantom{AA}R\phantom{AA}}{\longleftarrow}}
+      {\overset{\phantom{AA}L\phantom{AA}}{\longrightarrow}}
+      {\bot}
+  \mathcal{D}
+$$
+
+be a [[adjoint pair|pair]] of [[adjoint functors]]. By [[Kan extension]] this induces an [[adjoint quadruple]] between [[categories of simplicial presheaves]]
+
+$$
+  [\mathcal{C}^{op}, sSet]
+    \array{
+      \underoverset{\bot \phantom{\simeq A_a}}{ L_! \phantom{\simeq A_a} }{\longrightarrow}
+      \\
+      \underoverset{\bot \phantom{\simeq} \bot }{ L^\ast \simeq R_! }{\longleftarrow}
+      \\
+      \underoverset{\phantom{A_a \simeq}\bot}{ L_\ast \simeq R^\ast }{\longrightarrow}
+      \\
+      \overset{ \phantom{A_a \simeq } R_\ast }{\longrightarrow}
+    }
+  [\mathcal{D}^{op}, sSet]
+$$
+
+By the previous example the top three of these form a [[Quillen adjoint triple]]. To see that the bottom three form another, compatible [[Quillen adjoint triple]], we need to show that the following is a [[2-morphism]] in the [[double category of model categories]]:
+
+$$
+  \array{
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    &\overset{ \phantom{AA} id \phantom{AA} }{\longrightarrow}& 
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}   
+    \\
+    {}^{\mathllap{id}}
+    \Big\downarrow
+      &{}^{ \mathllap{ id } }\swArrow& 
+    \Big\downarrow{}^{ R^\ast }
+    \\
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    &\underset{ \phantom{AA}R^\ast\phantom{AA} }{\longrightarrow}&
+    [\mathcal{D}^{op}, sSet_{Qu}]_{proj}
+  }
+$$
+
+But since $R^\ast \mathbf{X} = \mathbf{X}(R(-))$ is given by precomposition, this functor preserves all object-wise cofibrations/fibrations weak equivalences, and hence is
+
+1. a [[left Quillen functor]] $[\mathcal{C}^{op}, sSet_{Qu}]_{inj} \overset{R^\ast}{\to} [\mathcal{D}^{op}, sSet_{Qu}]_{inj}$;
+
+1. a [[right Quillen functor]] $[\mathcal{C}^{op}, sSet_{Qu}]_{proj} \overset{R^\ast}{\to} [\mathcal{D}^{op}, sSet_{Qu}]_{proj}$;
+
+But since also $[\mathcal{C}^{op}, sSet_{Qu}]_{inj} \overset{id}{\to} [\mathcal{C}^{op}, sSet_{Qu}]_{proj}$ is a right Quillen functor, the second point implies that $R^\ast$ is also 
+
+1. a [[right Quillen functor]] $[\mathcal{C}^{op}, sSet_{Qu}]_{inj} \overset{R^\ast}{\to} [\mathcal{D}^{op}, sSet_{Qu}]_{proj}$.
+
+This demonstrates the above square.
+
+Hence in conclusion, we have a [[Quillen adjoint quadruple]]
+
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj/inj}
+    \array{
+      \underoverset{\phantom{{}_{Qu}}\bot_{Qu} }{ L_! \phantom{\simeq A_a} }{\longrightarrow}
+      \\
+      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ L^\ast \simeq R_! }{\longleftarrow}
+      \\
+      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ L_\ast \simeq R^\ast }{\longrightarrow}
+      \\
+      \overset{ \phantom{A_a \simeq } R_\ast }{\longrightarrow}
+    }
+  [\mathcal{D}^{op}, sSet]
+$$
 
 
+=--
 
 [[!redirects Quillen adjoint triples]]
 
