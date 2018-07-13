@@ -53,14 +53,11 @@ A quintet construction is at least morally a [[left adjoint]] to a functor that 
 
 ## References
 
-The concept is announced in
-
+The concept is due to 
 
 * [[Charles Ehresmann]], _Catégorie double des quintettes; applications covariantes, C. R. A. S. Paris 256 (1963), 1891-1894._ and in [volume III](http://ehres.pagesperso-orange.fr/C.E.WORKS_fichiers/Ehresmann_C.-Oeuvres_III_1.pdf) in his collected works.
 
-* {#Ehresmann63} [[Charles Ehresmann]], _Catégories structurées_, Annales scientifiques de l'École Normale Supérieure. Vol. 80. No. 4. Gauthier-Villars, 1963 ([EUDML:81794](https://eudml.org/doc/urn:eudml:doc:81794))
-
-It appears spelled out for instance in
+It appears spelled out also in
 
 * {#BastianiEhresmann74} A. Bastiani, [[Charles Ehresmann]], pages 272-273 of  _Multiple functors. I. Limits relative to double categories_, Cah. Top. G&#233;om. Diff&#233;r. Cat&#233;g. 15 (1974) 215&#8211;292
 
