@@ -26,9 +26,11 @@ The second book
 
 applies [[causal perturbation theory]] to perturbative [[Yang-Mills theory]] ([[quantum chromodynamics]]) and to perturbative [[quantum gravity]].
 
-## Related textbooks
+## Related textbooks and lecture notes
 
 * {#Rejzner16} [[Katarzyna Rejzner]], _[[Perturbative Algebraic Quantum Field Theory]]_, Mathematical Physics Studies, Springer 2016 ([web](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
+
+* _[[geometry of physics -- perturbative quantum field theory]]_
 
 * [[Michael Dütsch]], _[[From classical field theory to perturbative quantum field theory]]_, 2018
 
