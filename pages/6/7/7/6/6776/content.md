@@ -3,7 +3,7 @@ __Macdonald polynomials__ are a generalization of a [[Schur function]]s; they un
 Given a [[partition]] $\lambda$, one defines a shift operator $T_{q,x_i}$ which maps $f = f(x_1,\ldots, x_n)$ to $f(x_1,\ldots, x_{i-1}, q x_i, x_{i+1},\ldots,x_n)$ and the operators $D_r$, $r = 0, 1, \ldots, n$ via
 
 $$
-D_i = t^{\frac{r(r-1)}{2}} \sum_{I\subset \{1,\ldots,n\}, |I| = r} \prod_{i\in I, j\notin I} \frac{t x_i-x_j}{x_i-x_j}\prod_{i\in I} T_{q, x_i},
+D_r = t^{\frac{r(r-1)}{2}} \sum_{I\subset \{1,\ldots,n\}, |I| = r} \prod_{i\in I, j\notin I} \frac{t x_i-x_j}{x_i-x_j}\prod_{i\in I} T_{q, x_i},
 $$
 and the corresponding generating series $D := \sum_{r=0}^n D_r u^r$. 
 
