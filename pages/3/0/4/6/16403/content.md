@@ -14355,6 +14355,20 @@ But since also $[\mathcal{C}^{op}, sSet_{Qu}]_{inj} \overset{id}{\to} [\mathcal{
 
 This demonstrates the above square.
 
+Finally to check its [[derived natural transformation]] $Ho(id)$ is 
+invertible: By Prop. \ref{DerivedNaturalTransformationUpToIsos} this is equivalent, in the present situation, to the condition that for each [[simplical presheaf]] $\mathbf{X}$ that is both fibrant and cofibrant, the composite
+
+$$
+  R^\ast Q \mathbf{X}
+    \overset{ R^\ast p_{\mathbf{X}} }{\longrightarrow}
+  R^\ast \mathbf{X}
+    \overset{ R^\ast j_{\mathbf{X}} }{\longrightarrow}
+  R^\ast P \mathbf{X} 
+$$ 
+
+is a weak equivalence. But we have already seen that $R^\ast$ preserves all weak equivalences, hence this is the case. (In fact, since $\mathbf{X}$ is already fibrant and cofibrant, both the [[fibrant resolution]] morphism $j_{\mathbf{X}}$ as well as the [[cofibrant resolution]] morphism $p_{\mathbf{X}}$ may be taken to be [[identity morphisms]].)
+
+
 Hence in conclusion, we have a [[Quillen adjoint quadruple]] (Def. \ref{QuillenAdjointQuadrupleOfHomotopyKanExtensionAlongAdjointPair}) of the form:
 
 $$
@@ -14368,7 +14382,7 @@ $$
       \\
       \overset{ \phantom{A_a \simeq } R_\ast }{\longrightarrow}
     }
-  [\mathcal{D}^{op}, sSet]
+  [\mathcal{D}^{op}, sSet]_{proj}
 $$
 
 
