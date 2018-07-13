@@ -18,7 +18,7 @@ The graded [[Hopf algebra]] of **noncommutative symmetric functions**, $\NSymm$,
 1. As an algebra, it is $\mathbb{Z}\langle Z_1, Z_2, \dots \rangle$, the free algebra in countably many indeterminants over $\mathbb{Z}$.
 1. The comultiplication is given by $\Delta Z_n = \sum_{i + j = n} Z_i \otimes Z_j$, where $Z_0 = 1$.
 1. The counit is $\epsilon(Z_n) = 0$ for $n \ge 1$.
-1. The antipode is $\iota(Z_n) = \sum_{wt(\alpha) = n} (-1)^{length(\alpha)} Z_\alpha$, where $\alpha = [\alpha_1, \dotsc, \alpha_k]$ is a word in $\{1,2,\dots\}$ with $length(\alpha) = k$ and $wt(\alpha) = \sum \alpha_i$.
+1. The antipode is $\iota(Z_n) = \sum_{wt(\alpha) = n} (-1)^{length(\alpha)} Z_\alpha$, where $\alpha = [\alpha_1, \cdots, \alpha_k]$ is a word in $\{1,2,\dots\}$ with $length(\alpha) = k$ and $wt(\alpha) = \sum \alpha_i$.
 1. The degree of $Z_n$ is $n$.
 =--
 
