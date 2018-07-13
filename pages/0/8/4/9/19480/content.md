@@ -1496,9 +1496,18 @@ $\,$
 ### Adjunctions
   {#Adjunctions}
 
-The concepts of [[categories]], [[functors]] and [[natural transformations]] constiture the "language of categories". This language now allows to formulate the concept of _[[adjunction]]_ (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} below) which is arguably what [[category theory]], as a theory, is all about.
+The concepts of [[categories]], [[functors]] and [[natural transformations]] constiture the "language of categories". This language now allows to formulate the concept of _[[adjoint functors]]_ (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) and more generally that of _[[adjunctions]]_ (Def. \ref{AdjunctionInA2Category} below. This is concept that [[category theory]], as a theory, is all about.
 
-We discuss four equivalent definitions of [[adjunctions]]:
+Part of the data involved in an [[adjunction]] is its _[[adjunction unit]]_ and _[[adjunction counit]]_ (Def. \ref{AdjunctionUnitFromHomIsomorphism} below) and depending on their behaviour special cases of [[adjunctions]] are identified (Prop. \ref{FullyFaithfulAndInvertibleAdjoints} below), which we discuss in detail in following sections:
+
+|   |    |    |
+|---|----|----|
+| $\phantom{A}$**[[adjunction]]**$\phantom{A}$ <br/> $\phantom{A}$Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}, Def. \ref{AdjunctionInA2Category}$\phantom{A}$  |  |  $\phantom{A}$[[adjunction unit|unit]] is [[isomorphism|iso]]:$\phantom{A}$  | 
+|  |  | $\phantom{A}$[[coreflective subcategory|coreflection]]$\phantom{A}$ <br/> $\phantom{A}$Def. \ref{ReflectiveSubcategory}$\phantom{A}$ | 
+| $\phantom{A}$[[adjunction counit|counit]] is [[isomorphism|iso]]:$\phantom{A}$ | $\phantom{A}$[[reflective subcategory|reflection]]$\phantom{A}$ <br/> $\phantom{A}$Def. \ref{ReflectiveSubcategory} | $\phantom{A}$[[adjoint equivalence of categories|adjoint equivalence]]$\phantom{A}$ <br/> $\phantom{A}$Def. \ref{AdjointEquivalenceOfCategories}$\phantom{A}$  |  
+{: style='margin:auto}
+
+We now discuss four equivalent definitions of [[adjoint functors]]:
 
 1. via hom-isomorphism (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} below);
 
@@ -1660,6 +1669,8 @@ If one of these has yet another adjoint in the other direction, we speak of an _
   L \;\dashv\; C \;\dashv\; R
   \,.
 \]
+
+Below in Example \ref{AdjunctionofAdjunction} we identify adjoint triples as _adjunctions of adjunctions_.
 
 Similarly there are [[adjoint quadruples]], etc.
 
@@ -2632,35 +2643,29 @@ $$
   \mathcal{C}
 $$ 
 
-be a pair of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}). Then the following statements are true
+be a pair of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}). 
 
-* $R$ is [[faithful functor|faithful]] precisely if the component of the [[unit of an adjunction|counit]] on object $x$ is an [[epimorphism]] $L R x \stackrel{}{\to} x $ (Def. \ref{Monomorphism});
+Recall the definition of 
 
-* $R$ is [[full functor|full]] precisely if the component of the [[unit of an adjunction|counit]] over every object $x$ is a [[split monomorphism]] $L R x \stackrel{}{\to} x $;
+1. [[adjunction unit]]/[[adjunction counit|counit]], from Def. \ref{AdjunctionUnitFromHomIsomorphism})
 
-* $L$ is [[faithful functor|faithful]] precisely if the component of the [[unit of an adjunction|unit]] over every object $x$ is a [[monomorphism]] $x \hookrightarrow R L x $;
+1. [[faithful functor|faithful]]/[[fully faithful functor]] from Def. \ref{FullyFaithfulFunctor}
 
-* $L$ is [[full functor|full]] precisely if the component of the [[unit of an adjunction|unit]] over every object $x$ is a [[split epimorphism]] $x \to R L x $;
+1. [[monomorphism|mono]]/[[epimorphism|epi]]/[[isomorphism]] from Def. \ref{Isomorphism} and Def. \ref{Monomorphism}.
+ 
+The following holds:
+
+* $R$ is [[faithful functor|faithful]] precisely if all components of the [[unit of an adjunction|counit]] are [[epimorphisms]] $L R(c) \underoverset{\phantom{A}epi\phantom{A}}{\eta_c}{\to} c$;
+
+* $L$ is [[faithful functor|faithful]] precisely if all components of the [[adjunction unit|unit]] are [[monomorphisms]] $d \underoverset{mono}{\eta_d}{\to} R L(d)$
+
 
 * $R$ is [[full and faithful functor|full and faithful]]
-  (exhibits a [[reflective subcategory]])
-  precisely if
-  the [[unit of an adjunction|counit]] is a [[natural isomorphism]]
-  $\epsilon : L \circ R \stackrel{\simeq}{\to} Id_D$
+  (exhibits a _[[reflective subcategory]]_, Def. \ref{ReflectiveSubcategory})
+  precisely if all components of the [[adjunction counit|counit]] are [[isomorphisms]] $L R(c) \underoverset{\phantom{A}iso\phantom{A}}{\eta_c}{\to} c$
 
 * $L$ is [[full and faithful functor|full and faithful]]
-  (exhibits a [[coreflective subcategory]]) precisely if
-  the [[unit of an adjunction|unit]]
-  is a natural isomorphism
-  $\eta : Id_C \stackrel{\simeq}{\to} R \circ L$.
-
-* The following are equivalent:
-
-  * $L$ and $R$ are both [[full and faithful functor|full and faithful]];
-
-  * $L$ is an [[equivalence of categories|equivalence]];
-
-  * $R$ is an [[equivalence of categories|equivalence]].
+  (exhibits a [[coreflective subcategory]], def. \ref{ReflectiveSubcategory}) precisely if all component of the [[adjunction unit|unit]] are [[isomorphisms]] $d \underoverset{\phantom{A}iso\phantom{A}}{\eta_d}{\to} R L(d)$.
 
 =--
 
@@ -2669,8 +2674,18 @@ be a pair of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBije
 
 This follows directly by Lemma \ref{ReExpressingMiddleFunctorInAdjointTriple}, using the definition of epi/monomorphism (Def. \ref{Monomorphism}) and the characterization of [[isomorphism]] from Example \ref{YonedaCharacterizationOfIsomorphism}.
 
-
 =--
+
+To complete this pattern, we will see below in Prop. \ref{EveryEquivalenceOfCategoriesComesFromAnAdjointEquivalence} that following are equivalent:
+
+* the [[adjunction unit|unit]] and [[adjunction counit|counit]] are both [[natural isomorphism]], hence $L$ and $R$ are both [[full and faithful functor|fully faithful]];
+
+* $L$ is an [[equivalence of categories|equivalence]] (Def. \ref{EquivalenceOfCategories});
+
+* $R$ is an [[equivalence of categories|equivalence]] (Def. \ref{EquivalenceOfCategories})
+
+* $L \dashv R$ is an [[adjoint equivalence]] (Def. \ref{AdjointEquivalenceOfCategories}).
+
 
 +-- {: .num_prop #LeftAdjointFunctorPreservesEpi}
 ###### Proposition
@@ -3063,7 +3078,7 @@ $$
   \mathcal{C} \overset{F}{\longrightarrow} \mathcal{D}
 $$ 
 
-between them, namely [[functions]] on [[objects]], [[1-morphisms]] and [[2-morphsims]] which respect all the [[composition]] operations and [[identity morphisms]].
+between them, namely [[functions]] on [[objects]], [[1-morphisms]] and [[2-morphisms]] which respect all the [[composition]] operations and [[identity morphisms]].
 
 These are also called _[[strict 2-functors]]_. 
 
@@ -3091,7 +3106,13 @@ $\,$
 ### Equivalences
  {#Equivalences}
 
+We have seen [[functors]] (Def. \ref{Functors}) as the [[homomorphisms]] between [[categories]] (Def. \ref{Categories}). But functors themselves are identified only up to [[natural isomorphism]] (Def. \ref{NaturalTransformations}), reflective the fact that they are the [[1-morphisms]] in a [[2-category]] of categories (Example \ref{2CategoryOfCategories}). This means that in identifying two categories, we should not just ask for _[[isomorphisms]]_ between them, hence for a [[functor]] between them that has a strict [[inverse morphism]], but just for an inverse up to [[natural isomorphism]]. 
 
+This is called an _[[equivalence of categories]]_ (Def. \ref{EquivalenceOfCategories} below). A particularly well-behaved equivalence of categories is an equivalence exhibited by an [[adjoint pair]] of functors, called an _[[adjoint equivalence of categories]]_ (Def. \ref{AdjointEquivalenceOfCategories} below). In fact every [[equivalence of categories]] may be improved to an [[adjoint equivalence]] (Prop. \ref{EveryEquivalenceOfCategoriesComesFromAnAdjointEquivalence}).
+
+$\,$
+
+ 
 +-- {: .num_defn #AdjointEquivalenceOfCategories}
 ###### Definition
 **([[adjoint equivalence of categories]])**
