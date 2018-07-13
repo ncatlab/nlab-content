@@ -19,7 +19,7 @@
 
 ## Idea
 
-A **pseudofunctor** is a specific algebraic notion of _weak $2$-[[2-functor|functor]]_ between [[bicategory|bicategories]] (including [[strict 2-category|strict 2-categories]]), i.e. a functor which preserves composition and identities only up to [[coherent]] specified [[isomorphism]].
+A **pseudofunctor** is a specific algebraic notion of _weak [[2-functor]]_ between [[bicategory|bicategories]] (including [[strict 2-category|strict 2-categories]]), i.e. a [[2-functor]] which preserves [[composition]] and [[identity morphism|identities]] of [[1-morphisms]] only up to [[coherent]] specified 2-[[isomorphism]]. (In contrast to _[[strict 2-functors]]_.)
 
 
 In general, there is not much reason to say "pseudofunctor" instead of "functor," since by far the most important type of functor between arbitrary bicategories is weak.  However, if the domain and codomain are known to be [[strict 2-category|strict 2-categories]] (including ordinary $1$-[[1-category|categories]]), it can be helpful to say "pseudofunctor" or "weak functor" to emphasize that it is not a [[strict 2-functor]].  Note that if the codomain is a $1$-category, then there is no difference.
@@ -134,6 +134,9 @@ Historically the term 'pseudofunctor' was conceived by [[Grothendieck]] who weak
 [[!redirects pseudo functors]]
 [[!redirects pseudo-functor]]
 [[!redirects pseudo-functors]]
+
+[[!redirects weak 2-functor]]
+[[!redirects weak 2-functors]]
 
 [[!redirects homomorphism of bicategories]]
 [[!redirects homomorphisms of bicategories]]
