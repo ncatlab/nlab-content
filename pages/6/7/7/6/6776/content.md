@@ -37,7 +37,7 @@ J. Reine Angew. Math. 482 (1997), 177&#8211;189, [doi](http://dx.doi.org/10.1515
 * Anton Gerasimov, Dimitri Lebedev, Sergey Oblezin, _Baxter operator formalism for Macdonald polynomials_. [arxiv/1204.0926](http://arxiv.org/abs/1204.0926)
 * Persi Diaconis, [[Arun Ram]], _A probabilistic interpretation of the Macdonald polynomials_, [arxiv/1007.4779](http://arxiv.org/abs/1007.4779)
 * Anton Khoroshkin, _Highest weight categories and Macdonald polynomials_, [arxiv/1312.7053](http://arxiv.org/abs/1312.7053)
-
+*  E. Carlsson, E. Gorsky, A. Mellit, The $\mathbf{A}_{q,t}$ algebra and parabolic flag Hilbert schemes [arxiv/1710.01407](https://arxiv.org/abs/1710.01407);  A. Garsia, A. Mellit, _Five-term relation and Macdonald polynomials_, [arxiv/1604.08655](https://arxiv.org/abs/1604.08655); A. Mellit, _Plethystic identities and mixed Hodge structures of character varieties_, [arxiv/1603.00193](https://arxiv.org/abs/1603.00193) 
 
 category: algebra, combinatorics
 [[!redirects Macdonald polynomials]]
