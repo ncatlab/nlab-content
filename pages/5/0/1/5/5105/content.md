@@ -66,6 +66,9 @@ In particular, an "internal (bi)equivalence" in $Gray$ consists of *strict* $2$-
 [[!redirects equivalence of bicategories]]
 [[!redirects equivalences of bicategories]]
 
+[[!redirects eqivalence of 2-categories]]
+[[!redirects eqivalences of 2-categories]]
+
 [[!redirects equivalence of 2-groupoids]]
 [[!redirects equivalences of 2-groupoids]]
 [[!redirects equivalence of bigroupoids]]
