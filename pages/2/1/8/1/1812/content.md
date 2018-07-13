@@ -87,3 +87,7 @@ Apparently there is no written account by [[Jean Bénabou]] of his definition of
 [[!redirects Bénabou cosmos]]
 [[!redirects Benabou cosmoi]]
 [[!redirects Bénabou cosmoi]]
+
+[[!redirects cosmos for enriched category theory]]
+[[!redirects cosmoi for enriched category theory]]
+
