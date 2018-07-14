@@ -31,7 +31,7 @@ $${}^sr r^{-1} = 1$$
 
 so ${}^sr. r^{-1}$ is an identity.  In fact, there will be a unique $z\in F$
 with $r = z^q$, $q$ maximal with this property.  This $z$ is called the
-_root of_$r$ and if $q > 1$, $r$ is called a _proper power.
+_root of_ $r$ and if $q > 1$, $r$ is called a _proper power.
 
 ##References:
 
