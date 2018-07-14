@@ -25,11 +25,11 @@ identities.
 ##Example
 
 Suppose $r\in R$, but it is a power of some element $s\in F$, i.e., $r = s^m$.
-Of course, $ rs = sr$ and 
+Of course, $ r s = s r$ and 
 
-$${}^sr r^{-1} = 1$$
+$${}^s r r^{-1} = 1$$
 
-so ${}^sr. r^{-1}$ is an identity.  In fact, there will be a unique $z\in F$
+so ${}^s r. r^{-1}$ is an identity.  In fact, there will be a unique $z\in F$
 with $r = z^q$, $q$ maximal with this property.  This $z$ is called the
 _root of_ $r$ and if $q > 1$, $r$ is called a _proper power.
 
