@@ -11,5 +11,6 @@
 
 * [[Hadamard distribution]]
 
+* [[inhomogeneous cosmology]]
 
 category: people
