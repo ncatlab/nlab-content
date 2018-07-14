@@ -7,4 +7,6 @@
 
 * [[inhomogeneous cosmology]]
 
+* [[standard model of cosmology]]
+
 category: people
