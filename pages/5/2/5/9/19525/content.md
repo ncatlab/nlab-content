@@ -3,7 +3,7 @@ C. Contou Carrère was a student of [[Alexander Grothendieck]]. His thesis is
 
 * _Géométrie des groupes réductifs, lieu singulier et résolutions équivariantes de leurs variétés de Schubert_
 
-Later he will develop the theory of relative Jacobians, this work is summarized in 
+Later he will develop the theory of [[Jacobian variety|relative Jacobians]], this work is summarized in 
 
 * _[Jacobiennes généralisées globales relatives](https://link.springer.com/chapter/10.1007/978-0-8176-4575-5_2)_, _[Jacobienne locale d'une courbe formelle relative](http://www.numdam.org/item/RSMUP_2013__130__1_0)_
 
