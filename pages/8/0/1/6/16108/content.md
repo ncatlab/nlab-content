@@ -86,7 +86,7 @@ then label the relators $r_x= [y,z]$, $r_y=[z,x]$, $r_z= [x,y]$.
 
  There is an identity:
 $$[[x,y],{}^y z].[[y,z],{}^z x].[[z,x],{}^x y] =1$$
- which is easily checked to hold just by expanding it out and cancelling terms. This is one of the (many) forms of the well-known identity known variously as the {Hall-Witt identity_, the _Jacobi-Hall-Witt identity_, the _Jacobi identity_, and various variants of these.
+ which is easily checked to hold just by expanding it out and cancelling terms. This is one of the (many) forms of the well-known identity known variously as the _Hall-Witt identity_, the _Jacobi-Hall-Witt identity_, the _Jacobi identity_, and various variants of these.
  There is thus a word,
 
 $$[r_z,{}^y z].[r_x,{}^z x].[r_y,{}^x y] $$
