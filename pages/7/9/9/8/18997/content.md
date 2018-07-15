@@ -15,7 +15,7 @@ J.H.C.Whitehead, ICM 1950).
 >Compute the set of homotopy classes of maps, $[X,Y]$, in terms of the
 classifying data for $X$, $Y$.
 
-He had already started on this program in two (famous) papers [[Combinatorial homotopy I]] and [[Combinatorial homotopy II]].  The term _combinatorial homotopy_ was, it seems, in part inspired by the similar usage in _combinatorial_ group theory.
+He had already started on this program in two (famous) papers [[Combinatorial homotopy I]] and [[Combinatorial homotopy II]].  The term _combinatorial homotopy_ was, it seems, in part inspired by the similar usage in _[[combinatorial group theory]]_ and his hope would seem to have been that the ideas from the theory of group presentations would allow new insights on combinatorially defined 'complexes'.
 
 ## References
 
