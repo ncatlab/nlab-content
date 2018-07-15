@@ -19,6 +19,8 @@
 
 The Jacobi identity is an important equational identity that holds in [[Lie algebras]] and is also of interest in other [[nonassociative algebra|algebras]].  It can be generalised to [[higher algebra]]s.
 
+There is a non-additive non-abelian form of the Jacobi identity that occurs in considering certain examples in [[identities among relations]] in the presentation of certain groups. There it is also called the Hall-Witt identity.
+
 
 ## For $1$-algebras
 
@@ -83,6 +85,10 @@ where $\delta$ is the differential.
 
 On the other hand, in terms of the [[Chevalley-Eilenberg algebra]] this is still encoded in just $d \circ d  = 0$ (see there for details).
 
+
+##Related entries
+
+* [[identity among the relations]] 
 
 [[!redirects Jacobi identity]]
 [[!redirects Jacobi identities]]
