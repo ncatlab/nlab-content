@@ -118,5 +118,6 @@ Note the [[Cayley quiver]] of this presentation is infinite.
 
 *  [[J.-L. Loday]], 2000, _Homotopical Syzygies_, in _Une dégustation topologique: Homotopy theory in the Swiss Alps_, volume 265 of Contemporary Mathematics, 99 – 127, AMS.
 
-
 [[!redirects identities among relations]] 
+[[!redirects identities among relations]] 
+[[!redirects identities among the relations]] 
