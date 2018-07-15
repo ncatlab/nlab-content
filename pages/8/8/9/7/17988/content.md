@@ -92,7 +92,7 @@ See also
 
 The suggestion that asymptotic safety explains the observed [[mass]] of the [[Higgs particle]] is attributed to
 
-* {#ShaposhnikovWetterich09} M. Shaposhnikov and C. Wetterich, _Asymptotic safety of gravity and the Higgs boson mass_, Phys. Lett. B 683 (2010) 196 ([arXiv:0912.0208](https://arxiv.org/abs/0912.0208))
+* {#ShaposhnikovWetterich09} M. Shaposhnikov, [[Christof Wetterich]], _Asymptotic safety of gravity and the Higgs boson mass_, Phys. Lett. B 683 (2010) 196 ([arXiv:0912.0208](https://arxiv.org/abs/0912.0208))
 
 but see p. 17 of
 
