@@ -32,7 +32,15 @@ $$
   f^\ast \dashv (f_\ast = f_!) \dashv f^!
   \;\colon\;
   \mathcal{X}
-    \stackrel{\overset{f^\ast}{\leftarrow}}{\stackrel{\overset{f_\ast = f_! }{\longrightarrow}}{\underset{f^!}{\leftarrow}}}
+   \;
+    \array{
+     \overset{f^\ast}{\longleftarrow}
+     \\
+     \overset{f_\ast = f_! }{\longrightarrow}
+     \\
+     \overset{f^!}{\longleftarrow}
+    }
+    \;
   \mathcal{Y}
   \,.
 $$
@@ -52,7 +60,10 @@ $$
   (f^\ast \dashv f_\ast) 
    \;\colon\;
    QCoh(X)
-    \stackrel{\overset{f^\ast}{\leftarrow}}{\underset{f_\ast}{\longrightarrow}}
+    \underoverset 
+     \overset{f^\ast}{\longleftarrow}
+     \overset{f_\ast}{\longrightarrow}
+     {\bot}
    QCoh(Y)
   \,.
 $$
@@ -64,7 +75,15 @@ $$
   (f^\ast \dashv f_\ast \dashv f^!) 
    \;\colon\;
    QCoh(X)
-    \stackrel{\overset{f^\ast}{\leftarrow}}{\stackrel{\overset{f_\ast}{\longrightarrow}}{\underset{f^!}{\leftarrow}}}
+    \;
+    \array{
+      \overset{f^\ast}{\longleftarrow}
+      \\
+      \overset{f_\ast}{\longrightarrow}
+      \\
+      \overset{f^!}{\longleftarrow}
+     }
+   \;
    QCoh(Y)
   \,.
 $$
@@ -117,6 +136,6 @@ A clear discussion of axioms of [[six operations]], their specialization to Grot
 * H. Fausk, P. Hu, [[Peter May]],  _Isomorphisms between left and right adjoints_, Theory and Applications of Categories , Vol. 11, 2003, No. 4, pp 107-131. ([TAC](http://www.tac.mta.ca/tac/volumes/11/4/11-04abs.html), [pdf](http://www.math.uiuc.edu/K-theory/0573/FormalFeb16.pdf))
  {#May05}
 
-* [[Paul Balmer]], [[Ivo Dell'Ambrogio]], [[Beren Sanders]], _Grothendieck-Neeman duality and the Wirthm&#252;ller isomorphism_, [arXiv:1501.01999](http://arxiv.org/abs/1501.01999).
+* {#BalmerDellAmbrogioSanders15} [[Paul Balmer]], [[Ivo Dell'Ambrogio]], [[Beren Sanders]], _Grothendieck-Neeman duality and the Wirthm&#252;ller isomorphism_, [arXiv:1501.01999](http://arxiv.org/abs/1501.01999).
 
 [[!redirects Grothendieck contexts]]
