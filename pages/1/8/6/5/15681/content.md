@@ -23,5 +23,6 @@ This is hence a conjecture about [[special values of L-functions]]. It influence
 
 * {#Bloch80} [[Spencer Bloch]], _A note on height pairings, Tamagwawa numbers, and the Birch and Swinnerton-Dyer conjecture_, Inventiones math. 58, 65-76 (1980) ([[BlochTamagawa.pdf:file]])
 
+* Conrad, Venkatesh, et al., _BSD Seminar_ _[Introduction to the BSD conjecture](http://math.stanford.edu/~conrad/BSDseminar/Notes/L1.pdf)_, _[All lecture notes](http://math.stanford.edu/~conrad/BSDseminar/Notes/)_
 [[!redirects BSD conjecture]]
 [[!redirects BSD-conjecture]]
