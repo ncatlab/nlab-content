@@ -19,7 +19,7 @@ Consider one of the standard presentations of $S_3$, $ (a,b  :  a^3, b^2, (ab)^2
 The Cayley graph is easy to draw.  There are two triangles corresponding to $1\to a\to a^^2$ and its translate by $b$ flipping the orientation, and three 2-cycles, $1\to b\to 1$, $a\to ab\to a$ and $a^2\to a^2b\to a^2$.
 
 Looking at the presentation it leads to a free group, $F$, on the generators, $a$ and $b$, so $F$ is free of rank 2, but the normal closure of the relations $N(R)$ is a subgroup of $F$, so it must be
-free as well, by the [[Nielsen-Schreier theorem]].  Its rank will be 7, given by the [[Nielsen index formula]].
+free as well, by the [[Nielsen-Schreier theorem]].  Its rank will be 7, given by the [[Nielsen-Schreier theorem|Schreier index formula]].
 
 This can also be seen geometrically, as it will be the [[fundamental group]] of the Cayley quiver, also called the  Cayley graph, of the
 presentation.  This group is free on generators corresponding to edges outside 
