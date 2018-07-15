@@ -19,7 +19,7 @@ He had already started on this program in two (famous) papers [[Combinatorial ho
 
 ## References
 
-* [[J. H. C. Whitehead]], 1950,_Algebraic Homotopy Theory_, in Proc. Int. Cong. of Mathematics, Harvard, volume 2, 354 – 357. 51
+* [[J. H. C. Whitehead]], 1950, _Algebraic Homotopy Theory_ , in Proc. Int. Cong. of Mathematics, Harvard, volume 2, 354 – 357. 51
 
 * J. H. C. Whitehead, _Combinatorial homotopy I_ , Bull. Amer. Math. Soc, 55, (1949), 213–245.
 
