@@ -22,7 +22,7 @@
 Every [[subgroup]] $H$ of a [[discrete group|discrete]] [[free group]] $G$ is itself a [[free group]]. Moreover, if $G$ is free on $k$ generators and $H$ has index $n$ in $G$, then $H$ is free on $n k - n + 1$ generators. 
 
 =-- 
-
+The second part of this yields what is called the _Schreier index formula_.
 
 This has a number of different proofs. The first proof, perhaps nowadays the most familiar proof, is based on covering space theory (in particular, covering spaces of topological graphs). The second proof is quite similar in spirit but is based on groupoids (another way of viewing homotopy 1-types), and has the advantage that it circumvents the point-set topology considerations inherent to covering space theory. 
 
@@ -62,7 +62,9 @@ The original algebraic proof of theorem \ref{NielsenSchreierTheorem} was rather 
 The above simple [[homotopy theory|homotopy-theoretic]] proof was indicated in ([Higgins](#Higgins)), also ([Gilbert-Porter](#GilbrtPorter)).
 
 =--
+##Related entries
 
+* [[Cayley graph]]
 
 
 ## Related concepts
