@@ -6,7 +6,7 @@ $$1\to N \to F \to G \to 1,$$
 
 where $F = F(X)$, the free group on the set $X$, $R$ is a 
 subset of $F$ and $N = N(R)$ is the normal closure in $F$ of the set $R$.  The group, 
-$F$, acts on $N$ by conjugation: ${}^u c = ucu^{-1}$,  $c\in N$, $u \in F$, and the elements of $N$ are words in the conjugates of the elements of $R$:
+$F$, acts on $N$ by conjugation: ${}^u c = u c u^{-1}$,  $c\in N$, $u \in F$, and the elements of $N$ are words in the conjugates of the elements of $R$:
 
 $$c = {}^{u_1}(r_1^{\varepsilon_1}){}^{u_2}(r_2^{\varepsilon_2})\ldots 
 {}^{u_n}(r_n^{\varepsilon_n}),$$
@@ -19,8 +19,9 @@ Why is this then different from the situation with the 'presentation', $( a : a 
 To get around that mess, the 
 free group on the generators, $F(X)$, was introduced and, of course, in $F(\{a\})$, $a^3$ is not 1. The relation is thus thought of as being a piece of data that is giving the instruction to rewrite that element to 1.
 
- An analogous free algebraic device, namely [[free crossed module]]s on the presentation can be introduced  to handle the 
-identities. 
+ An analogous free algebraic device, namely a [[free crossed module]] on the presentation can be introduced  to handle the identities. 
+
+Before giving the formal definition we will look at some examples.
 
 
 ##Example (Proper powers)
@@ -34,7 +35,7 @@ so ${}^s r. r^{-1}$ is an identity.  In fact, there will be a unique $z\in F$
 with $r = z^q$, $q$ maximal with this property.  This $z$ is called the
 _root of_ $r$ and if $q > 1$, $r$ is called a _proper power.
 
-##Example (Standard presentation of $S_3$
+##Example (Standard presentation of $S_3$)
 
 Here we take up the example from [[Cayley graph]]:
 
@@ -69,6 +70,42 @@ a product of paths around the inner parts of the graph,
 e.g. $(a b a b) b^{-1} a^{-1} b^{-1} (b b) (b^{-1}a^{-1} b^{-1} a^{-1}) \ldots $ and so
 on, thus $r$ can be written in a non-trivial way as a product of conjugates
 of $r$, $s$ and $t$. (An explicit identity constructed like this is given in the paper by Brown and Huebschmann (see below).)
+
+##Example (Free Abelian group $\mathbb{Z}^3$)
+
+
+n a presentation of the free Abelian group on 3 generators, one would expect
+the commutators,  $[x,y]$, $ [x,z]$ and $[y,z]$.  There is a well-known identity,
+that expands out to give an identity among these
+relations (again see Brown-Huebschman (below), p.154, or Loday, (again below) for a complete treatment.)
+
+
+In a bit more  detail, look at this as a _presented group_, 
+$$G=\mathbb{Z}^{3}=\langle x,y,z\mid [y,z],[z,x],[x,y]\rangle$$
+then label the relators $r_x= [y,z]$, $r_y=[z,x]$, $r_z= [x,y]$.
+
+ There is an identity:
+$$[[x,y],{}^y z].[[y,z],{}^z x].[[z,x],{}^x y] =1$$
+ which is easily checked to hold just by expanding it out and cancelling terms. This is one of the (many) forms of the well-known identity known variously as the {Hall-Witt identity_, the _Jacobi-Hall-Witt identity_, the _Jacobi identity_, and various variants of these.
+ There is thus a word,
+
+$$[r_z,{}^y z].[r_x,{}^z x].[r_y,{}^x y] $$
+
+which can be written out as a product of conjugates of the three relations, $r_x$, $r_y$ and $r_z$, and which evaluates to 1 when considered as an element of $F(x,y,z)$. It is thus another case of an _identity among the relations_ for this presented group. 
+ 
+Note the [[Cayley quiver]] of this presentation is infinite.
+
+##Definition
+
+(to be added)
+
+##Related entries
+
+* [[Cayley graph]]
+
+* [[homotopical syzygy]]
+
+* [[homological syzygy]]
 
 
 
