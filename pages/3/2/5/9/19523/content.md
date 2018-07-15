@@ -22,7 +22,7 @@
 
 ## Idea
 
-What is called _inhomogeneous cosmology_ is the study of [[cosmology]] via cosmological solutions to [[Einstein's equations]], _whithout_ assuming or constraining these solutions to be spatially homogeneous (in the technical sense).
+What is called _inhomogeneous cosmology_ is the study of [[cosmology]] via cosmological solutions to [[Einstein's equations]], _without_ assuming or constraining these solutions to be spatially homogeneous (in the technical sense).
 
 This is in contrast to the [[standard model of cosmology]], based on [[FRW model]]-type solutions to [[Einstein's equations]], where [[spacetime]] _is_ assumed to be spatially homogeneous. 
 
@@ -39,7 +39,7 @@ Inhomogeneity effects seen in numerical simulations are discussed in [ACDDK 17](
 Review of attitudes in the community towards this issues is in [Belejko-Korzyński 16](#BelejkoKorzynski16). 
 
 
-If the apparent small positive [[cosmological constant]] ([[dark energy]]) were but an artifact of neglecting backreaction of inhomegeneities, some theoretical puzzlements regarding [[quantum gravity]] on [[de Sitter spacetimes]] would disappear (see [Rajaraman 16](de+Sitter+spacetime#Rajaraman16) for general discussion and [Danielsson-VanRiet 18, p. 27](#DanielssonVanRiet18) for discussion of [[perturbative string theory vacua]]).
+If the apparent small positive [[cosmological constant]] ([[dark energy]]) were but an artifact of neglecting backreaction of inhomogeneities, some theoretical puzzlements regarding [[quantum gravity]] on [[de Sitter spacetimes]] would disappear (see [Rajaraman 16](de+Sitter+spacetime#Rajaraman16) for general discussion and [Danielsson-VanRiet 18, p. 27](#DanielssonVanRiet18) for discussion of [[perturbative string theory vacua]]).
 
 
 ## The "backreaction debate"
