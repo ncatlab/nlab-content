@@ -348,7 +348,7 @@ Hence:
 +-- {: .num_cor}
 ###### Corollary
 
-If if in prop. \ref{ModuleProp} there is just one compact generator $P \in \mathcal{C}$, then there is a one-object $Sp$-enriched category, hence an [[A-infinity algebra]] $A$, which is the [[endomorphisms]] $A \simeq End_{\mathcal{C}}(P)$, and the [[stable model category]] is its [[category of modules]]:
+If in prop. \ref{ModuleProp} there is just one compact generator $P \in \mathcal{C}$, then there is a one-object $Sp$-enriched category, hence an [[A-infinity algebra]] $A$, which is the [[endomorphisms]] $A \simeq End_{\mathcal{C}}(P)$, and the [[stable model category]] is its [[category of modules]]:
 
 $$
   \mathcal{C} \simeq_Q A Mod
