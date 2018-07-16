@@ -792,6 +792,119 @@ Let $\mathbf{H}_{red}$ be a [[cohesive topos]] (Def. \ref{CohesiveTopos}). Then 
 
 =--
 
++-- {: .num_defn #ElasticSite}
+###### Definition
+**([[elastic site]])**
+
+For $\mathcal{C}_{red}$ a [[cohesive site]] (Def. \ref{OneCohesiveSite}), an _infinitesimal neighbourhood site_ of $\mathcal{C}_{red}$ is a [[coreflective subcategory]]-inclusion into another [[cohesive site]] $\mathcal{C}$
+
+$$
+  \mathcal{C}_{red}
+    \underoverset
+      {\underset{\phantom{AA}\Pi_{inf}\phantom{AA}}{\longleftarrow}}
+      {\overset{\iota_{inf}}{\hookrightarrow}}
+      {\bot}
+  \mathcal{C}
+$$
+
+such that
+
+1. both $\iota_{inf}$ and $\Pi_{inf}$ send [[covers]] to [[covers]];
+
+1. if $\{ U_i \overset{\iota_i}{\to} X \}$ is a covering family in $\mathcal{C}_{red}$, and $p(\widehat X) \longrightarrow X$ is any morphism in $\mathcal{C}_{red}$, then there is a covering familiy $\{ \widehat U_i \overset{\widehat\iota_j}{\to} \widehat X \}$ such that for all $i$ there is a $j$ and a commuting square
+
+   $$
+     \array{
+       p(\widehat U_j) &\longrightarrow& U_i
+       \\
+       {}^{\mathllap{ \widehat\iota_j }}\Big\downarrow 
+         && 
+       \Big\downarrow{}^{\mathrlap{ \iota_i }}
+       \\
+       p(\widehat X) &\longrightarrow& X
+     }
+   $$
+
+We also call this an _[[elastic site]]_, for short.
+
+=--
+
++-- {: .num_prop #}
+###### Proposition
+
+Let 
+
+$$
+  \mathcal{C}_{red}
+    \underoverset
+      {\underset{\phantom{AA}\Pi_{inf}\phantom{AA}}{\longleftarrow}}
+      {\overset{\iota_{inf}}{\hookrightarrow}}
+      {\bot}
+  \mathcal{C}
+$$
+
+be an [[elastic site]] (Def. \ref{ElasticSite}). Then [[Kan extension]] (Prop. \ref{geometry+of+physics+--+categories+and+toposes#TopologicalLeftKanExtensionBCoend}) induces on the corresponding [[sheaf toposes]]
+
+$$
+  \mathbf{H}_{red}
+  \;\coloneqq\;
+  Sh(\mathcal{C}_{red})
+  \,,
+  \phantom{AAAA}
+  \mathbf{H}
+    \;\coloneqq\;
+  Sh(\mathcal{C})
+$$
+
+the structure of an [[elastic topos]] (Def. \ref{DifferentialCohesion}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By Example \ref{geometry+of+physics+--+categories+and+toposes#KanExtensionOfAdjointPairIsAdjointQuadruple} we have an [[adjoint quadruple]] as required between the [[categories of presheaves]]
+
+$$
+  Sh(\mathcal{C}_{red})
+    \underoverset
+      {\underset{\phantom{AA}\iota_{\mathcal{C}_{red}}\phantom{AA} }{\hookrightarrow}}
+      {\overset{L_{\mathcal{C}_{red}}}{\longleftarrow}}
+      {\bot}
+  [\mathcal{C}_{red}^{op}, Set]
+    \array{
+      \underoverset{\bot}{ \iota_{inf} }{\longrightarrow}
+      \\
+      \underoverset{\bot}{ \phantom{AA} \Pi_{inf} \phantom{AA} }{\longleftarrow}
+      \\
+      \underoverset{\bot}{ \phantom{A}Disc_{inf}\phantom{A} }{\longrightarrow}
+      \\
+      \overset{ \Gamma_{inf} }{\longleftarrow}
+    }
+  [\mathcal{C}^{op}, Set]
+    \underoverset
+      {\underset{\phantom{AA} \iota_{\mathcal{C} \phantom{AA} }}{\hookleftarrow}}
+      {\overset{L_{\mathcal{C}}}{\longrightarrow}}  
+      {\bot}
+  Sh(\mathcal{C})
+$$
+
+Here we denote [[left Kan extension]] along a functor by the same symbol as that functor, which is consistent by Prop. \ref{LeftKanExtensionPreservesRepresentableFunctors}.
+
+Hence it is sufficient to see that this [[corestriction|co-]][[restriction|restricts]] to sheaves. 
+
+That $\Pi_{inf}$ and $Disc_{inf}$ preserves sheaves is immediate from the adjunction isomorphism for $\iota_{inf} \dashv \Pi_{inf}$ and for $\Pi_{inf} \dashv Disc_{int}$, respectively, and the assumption that $i_{inf}$ and $\Pi_{inf}$ preserve covering families. 
+
+Moreover, we have that $L_{\mathcal{C}} \circ \iota_{inf}$ is a left adjoint to $\Pi_{inf} \circ \iota_{\mathcal{C}}$, and so by the previous statement this adjunction restricts to sheaves on $\mathcal{C}_{red}$.
+
+It remains to see that $\Gamma_{inf}\mathbf{X}$ is a sheaf on $\mathcal{C}_{red}$ if $\mathbf{X}$ is a sheaf on $\mathcal{C}$. (...) 
+
+
+
+
+
+=--
+
 +-- {: .num_lemma #ProgressionOfSubcategoriesOfElasticTopos}
 ###### Lemma
 **(progression of ([[coreflective subcategory|co-]])[[reflective subcategories]] of [[elastic topos]])**
