@@ -7,7 +7,7 @@ In that vein, I just introduced the term 'punny', although it is a clich&#233;.
 
 * A. [[Grothendieck]], _Hodge's general conjecture is false for trivial reasons_, Topology 8: 299--303 (1969). 
 
-* Arne Str&#248;m, _The homotopy category is a homotopy category_, Arch. Math. (Basel) 23 (1972), 435--441.
+* Arne Str&#248;m, _The homotopy category is a homotopy category_, Arch. Math. (Basel) 23 (1972), 435--441 [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/Strom.pdf)
 
 * V. A. Hinich, V. V. Schechtman, _On homotopy limit of homotopy algebras_, $K$-theory, arithmetic and geometry (Moscow, 1984--1986), 240--264, Lecture Notes in Math., 1289, Springer, Berlin, 1987.
 
@@ -25,6 +25,11 @@ In that vein, I just introduced the term 'punny', although it is a clich&#233;.
 
 Several more candidates of similar character are listed in the responses to MO question [most-memorable-titles](http://mathoverflow.net/questions/44326/most-memorable-titles).
 See also MathOverflow [parodies-of-abstruse-mathematical-writing](http://mathoverflow.net/questions/199926/parodies-of-abstruse-mathematical-writing).
+
+This one is a little bit out of the category but has a point:
+
+* Martin A. Schwartz, _The importance of stupidity in scientific research_ (essay) Journal of Cell Science 2008 121: 1771 [doi](https://dx.doi.org/10.1242/jcs.033340)
+
 
 [[!redirects pun title]]
 
