@@ -1984,7 +1984,7 @@ Then the [[left Kan extension]] $Lan_p$ (Prop. \ref{TopologicalLeftKanExtensionB
 +-- {: .proof}
 ###### Proof
 
-By the [[coend]] forumla (eq:FormulaLeftKanExtensionByCoend) have naturally in $d' \in \mathcal{D}$ the expression
+By the [[coend]] formula (eq:FormulaLeftKanExtensionByCoend) we have, naturally in $d' \in \mathcal{D}$, the expression
 
 $$
   \begin{aligned}
@@ -2126,12 +2126,25 @@ $$
   \,.
 $$
 
+hence, by Prop. \ref{FullyFaithfulAndInvertibleAdjoints}, 
+
+$$
+  [\mathcal{C}^{op}, Set]
+  \overset{\phantom{AA} Lan_p \phantom{AA}}{\hookrightarrow}
+  [\mathcal{D}^{op}, Set]
+$$
+
+is a [[fully faithful functor]].
+
+
+
+
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By the [[coend]] forumla (eq:FormulaLeftKanExtensionByCoend) have naturally in $d' \in \mathcal{D}$ the left Kan extension of any $F \;\colon\; \mathcal{C} \to \mathcal{V}$ on the image of $p$ is
+By the [[coend]] formula (eq:FormulaLeftKanExtensionByCoend) we have, naturally in $d' \in \mathcal{D}$, the left Kan extension of any $F \;\colon\; \mathcal{C} \to \mathcal{V}$ on the image of $p$ is
 
 $$
   \begin{aligned}
