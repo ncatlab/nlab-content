@@ -14258,7 +14258,7 @@ $$
   \mathcal{D}
 $$
 
-be a [[functor]] between them. By [[Kan extension]] [[enriched category|enriched]] over [[sSet]] (Example \ref{ExamplesOfCosmoi})  this induces an [[adjoint triple]] between [[categories of simplicial presheaves]] (Prop. \ref{TopologicalLeftKanExtensionBCoend}):
+be a [[functor]] between them. By [[Kan extension]] [[enriched category|enriched]] over [[sSet]] (Example \ref{ExamplesOfCosmoi}) induces an [[adjoint triple]] between [[categories of simplicial presheaves]] (Prop. \ref{TopologicalLeftKanExtensionBCoend}):
 
 $$
   [\mathcal{C}^{op}, sSet]
@@ -15064,6 +15064,36 @@ By the definition of [[fiber products]] there is a canonical morphism of [[simpl
   y(X)
 \]
 
+We call this the _Cech nerve projection_. 
+
+More generally, for 
+
+$$
+  \mathbf{Y} \overset{f}{\longrightarrow} \mathbf{X}
+  \;\;\;
+  \in
+  [\mathcal{C}^{op}, Set]
+$$
+
+any morphism of [[presheaves]], there is the correspnding [[Cech nerve]] [[simplicial presheaf]]
+
+$$
+  C(f) \in [\mathcal{C}^{op}, sSet]
+$$
+
+which in degree $k$ is the $k$-fold [[fiber product]] of $f$ with itself:
+
+$$
+  C(f)_k \;\coloneqq\;
+  \underset{
+    k \; \text{factors}
+  }{
+  \underbrace{
+    \mathbf{Y} \times_{\mathbf{X}} \cdots \times_{\mathbf{X}} \mathbf{Y}
+  }}
+  \,.
+$$
+
 =--
 
 The following is the generalization of Prop. \ref{CechGroupoidCoRepresents}, saying that [[Cech nerves]] are [[codescent]]-objects for [[(∞,1)-sheaves]]:
@@ -15295,6 +15325,34 @@ $$
 to be a weak equivalence, it is now sufficient to see that the value of a [[cofibrant replacement]] $p_{\mathbf{X}}$ on $\mathbb{A}^0$ is a weak equivalence. But by definition of the weak equivalences of simplicial presheaves these are objectwise weak equivalences.
 
 =--
+
++-- {: .num_prop #CechNerveProjectionOfLocalEpimorphismIsLocalWeakEquivalence}
+###### Proposition
+**([[Cech nerve]]-projection of [[local epimorphism]] is [[local weak equivalence]])**
+
+Let $\mathcal{C}$ be a [[site]] (Def. \ref{Coverage}) and let 
+
+$$
+  \mathbf{Y} \overset{\phantom{A}f\phantom{A}}{\longrightarrow} \mathbf{X}
+  \;\;\;
+  \in [\mathcal{C}^{op}, Set]
+$$
+
+be a [[local epimorphism]] (Def. \ref{LocalEpimorphism}) in its [[category of presheaves]]. Then the corresponding [[Cech nerve]]-projection (Def. \ref{CechNerve}) 
+
+$$
+  C(f) \overset{}{\longrightarrow} \mathbf{X}
+  \;\;\;
+  \in [\mathcal{C}^{op}, sSet_{Qu}]_{proj,loc}
+$$
+
+is a [[weak equivalence]] in the local projective [[model structure on simplicial presheaves]] (Prop. \ref{TopologicalLocalization}).
+
+
+=--
+
+([Dugger-Hollander-Saksen 02, corollary A.3](local+epimorphism#DuggerHollanderIsaksen02))
+
 
 $\,$
 
@@ -15698,6 +15756,146 @@ This establishes that $(\Pi \dashv Disc)$ and $(\Gamma \dashv \coDisc)$ descent 
 $\,$
 
 
+### Elastic $\infty$-Toposes
+
+
++-- {: .num_defn #ElasticSite}
+###### Definition
+**([[∞-elastic site]])**
+
+For $\mathcal{C}_{red}$ an [[∞-cohesive site]] (Def. \ref{InfinityCohesiveSite}), an _infinitesimal neighbourhood site_ of $\mathcal{C}_{red}$ is a [[coreflective subcategory]]-inclusion into another [[∞-cohesive site]] $\mathcal{C}$
+
+$$
+  \mathcal{C}_{red}
+    \underoverset
+      {\underset{\phantom{AA}\Pi_{inf}\phantom{AA}}{\longleftarrow}}
+      {\overset{\iota_{inf}}{\hookrightarrow}}
+      {\bot}
+  \mathcal{C}
+$$
+
+such that
+
+1. both $\iota_{inf}$ and $\Pi_{inf}$ send [[covers]] to [[covers]];
+
+1. the [[left Kan extension]] of $\iota_{inf}$ [[preserved limit|preserves]] [[fiber products]] $y(U_i) \times_{y(X)} y(u_j)$ of morphisms in a [[covering]] $\{U_i \overset{\iota_i}{\to} X\}$;
+
+1. if $\{ U_i \overset{\iota_i}{\to} X \}$ is a covering family in $\mathcal{C}_{red}$, and $p(\widehat X) \longrightarrow X$ is any morphism in $\mathcal{C}_{red}$, then there is a covering familiy $\{ \widehat U_i \overset{\widehat\iota_j}{\to} \widehat X \}$ such that for all $i$ there is a $j$ and a commuting square
+
+   $$
+     \array{
+       p(\widehat U_j) &\longrightarrow& U_i
+       \\
+       {}^{\mathllap{ \widehat\iota_j }}\Big\downarrow 
+         && 
+       \Big\downarrow{}^{\mathrlap{ \iota_i }}
+       \\
+       p(\widehat X) &\longrightarrow& X
+     }
+   $$
+
+We also call this an _[[∞-elastic site]]_, for short.
+
+=--
+
+
++-- {: .num_prop #}
+###### Proposition
+
+Let 
+
+$$
+  \mathcal{C}_{red}
+    \underoverset
+      {\underset{\phantom{AA}\Pi_{inf}\phantom{AA}}{\longleftarrow}}
+      {\overset{\iota_{inf}}{\hookrightarrow}}
+      {\bot}
+  \mathcal{C}
+$$
+
+be an [[∞-elastic site]] (Def. \ref{ElasticSite}). Then [[Kan extension]] (Prop. \ref{geometry+of+physics+--+categories+and+toposes#TopologicalLeftKanExtensionBCoend}) [[enriched category theory|enriched]] over [[sSet]] (Example \ref{})  induces on the corresponding [[cohesive (infinity,1)-toposes|cohesive]] [[model toposes]] (Prop. \ref{OverInfinityCohesiveSiteCohesiveInfinityTopos}) a [[Quillen adjoint quadruple]] (Def. \ref{QuillenAdjointTriple})
+
+$$
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj/inj,loc}
+    \array{
+      \underoverset{\bot}{\iota_{inf}}{\hookrightarrow}
+      \\
+      \underoverset{\bot}{\Pi_{inf}}{\longleftarrow}
+      \\
+      \underoverset{\bot}{Disc_{inf}}{\hookrightarrow}
+      \\
+      \overset{\Gamma_{inf}}{\longleftarrow}
+    }
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj,loc}
+  \;\;\;
+  \in CombModCat
+  \,.
+$$
+
+We say that the corresponding [[adjoint quadruple]] in [[Ho(CombModCat)]] exhibits  the structure of an [[elastic (∞,1)-topos]] (Def. \ref{DifferentialCohesion}).
+
+$$
+  \mathbf{H}_{red}
+    \array{
+      \underoverset{\bot}{\iota_{inf}}{\hookrightarrow}
+      \\
+      \underoverset{\bot}{\Pi_{inf}}{\longleftarrow}
+      \\
+      \underoverset{\bot}{Disc_{inf}}{\hookrightarrow}
+      \\
+      \overset{\Gamma_{inf}}{\longleftarrow}
+    }
+  \mathbf{G}
+  \;\;\;
+  \in Ho(CombModCat)
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By Example \ref{geometry+of+physics+--+categories+and+toposes#KanExtensionOfAdjointPairIsAdjointQuadruple} we have an [[adjoint quadruple]] as required between the [[categories of presheaves]]
+
+$$
+  Sh(\mathcal{C}_{red})
+    \underoverset
+      {\underset{\phantom{AA}\iota_{\mathcal{C}_{red}}\phantom{AA} }{\hookrightarrow}}
+      {\overset{L_{\mathcal{C}_{red}}}{\longleftarrow}}
+      {\bot}
+  [\mathcal{C}_{red}^{op}, Set]
+    \array{
+      \underoverset{\bot}{ \iota_{inf} }{\longrightarrow}
+      \\
+      \underoverset{\bot}{ \phantom{AA} \Pi_{inf} \phantom{AA} }{\longleftarrow}
+      \\
+      \underoverset{\bot}{ \phantom{A}Disc_{inf}\phantom{A} }{\longrightarrow}
+      \\
+      \overset{ \Gamma_{inf} }{\longleftarrow}
+    }
+  [\mathcal{C}^{op}, Set]
+    \underoverset
+      {\underset{\phantom{AA} \iota_{\mathcal{C} \phantom{AA} }}{\hookleftarrow}}
+      {\overset{L_{\mathcal{C}}}{\longrightarrow}}  
+      {\bot}
+  Sh(\mathcal{C})
+$$
+
+Here we denote [[left Kan extension]] along a functor by the same symbol as that functor, which is consistent by Prop. \ref{LeftKanExtensionPreservesRepresentableFunctors}.
+
+Hence it is sufficient to see that this [[corestriction|co-]][[restriction|restricts]] to sheaves. 
+
+That $\Pi_{inf}$ and $Disc_{inf}$ preserves sheaves is immediate from the adjunction isomorphism for $\iota_{inf} \dashv \Pi_{inf}$ and for $\Pi_{inf} \dashv Disc_{int}$, respectively, and the assumption that $i_{inf}$ and $\Pi_{inf}$ preserve covering families. 
+
+Moreover, we have that $L_{\mathcal{C}} \circ \iota_{inf}$ is a left adjoint to $\Pi_{inf} \circ \iota_{\mathcal{C}}$, and so by the previous statement this adjunction restricts to sheaves on $\mathcal{C}_{red}$.
+
+It remains to see that $\Gamma_{inf}\mathbf{X}$ is a sheaf on $\mathcal{C}_{red}$ if $\mathbf{X}$ is a sheaf on $\mathcal{C}$. This follows by Prop. \ref{CechNerveProjectionOfLocalEpimorphismIsLocalWeakEquivalence} using that, by assumption, $Disc_{inf}$ sends [[Cech nerves]] of covering families to [[Cech nerves]] (Example \ref{CechNerve}) of [[local epimorphisms]].
+
+=--
+
+$\,$
 
 (...)
 
