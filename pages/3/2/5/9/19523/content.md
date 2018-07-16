@@ -33,13 +33,26 @@ It has been shown that the effect of such backreaction is small or invisible if 
 
 The [[standard model of cosmology]] assumes that such inhomogeneities may be neglected to zeroth order, and studies [[structure formation]] as a perturbation about a spatially homogeneous [[FRW model]] [[background field|background]] [[spacetime]].
 
-Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15](standard+model+of+cosmology#BCKRW15)) related to _[[dark energy]]_ (a [[cosmological constant]], and possibly related issues such as [[cosmic inflation]]), it has been suggested that these may be but an artifact of the overly idealistic approximation of cosmic homogeneity, and that a more accurate inhomogeneous cosmology would not need to assume any [[dark energy]] (e.g. [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Rasanen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Buchert 11](#Buchert11), [Buchert-Rasanen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Moffat 16](#Moffat16)).
+Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15](standard+model+of+cosmology#BCKRW15)) related to _[[dark energy]]_ (a [[cosmological constant]], and possibly related issues such as [[cosmic inflation]]), it has been suggested that these may be but an artifact of the overly idealistic approximation of cosmic homogeneity, and that a more accurate inhomogeneous cosmology would not need to assume any [[dark energy]] (e.g. [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Räsänen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Buchert 11](#Buchert11), [Buchert-Räsänen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Moffat 16](#Moffat16)).
 
-Qualitatively the effect may be understood as follows:
+{#Qualitative} A qualitative discussion of how inhomogeneity may cause accelerated cosmic expansion is given in [Räsänen 10, section 3: "Understanding acceleration"](#Rasanen10):
 
-> In general, underdense regions $[$"voids"$]$ are negatively curved and expand faster than the average, while overdense regions are positively curved and expand slower. ([Rasanen 03, p. 15](#Rasanen03))
+> In general, underdense regions $[$"voids"$]$ are negatively curved and expand faster than the average, while overdense regions are positively curved and expand slower. ([Räsänen 03, p. 15](#Rasanen03))
 
-> $[...]$ as the volume occupied by $[$inhomogeneous$]$ structures grows (along with the density contrast of typical structures), the expansion rate becomes dominated by voids, since their volume is large ([Rasanen 03, p. 25](#Rasanen03))
+> $[...]$ as the volume occupied by $[$inhomogeneous$]$ structures grows (along with the density contrast of typical structures), the expansion rate becomes dominated by voids, since their volume is large $[...]$ overdense regions slow down more as their density contrast grows, and eventually they turn around and collapse to form stable structures. Underdense regions become ever emptier, and their deceleration decreases. Regions thus become more differentiated, and the variance of the expansion rate grows. ([Räsänen 03, p. 25](#Rasanen03))
+
+> In an inhomogeneous space, different regions expand at different rates.  Regions with faster expansion rate increase their volume more rapidly, by definition. Therefore the fraction of volume in faster expanding regions
+rises, so the average expansion rate can rise ([Räsänen 10, p. 8](#Rasanen10))
+
+> The acceleration is not due to regions speeding up locally, but due to the slower region becoming less represented in the average. First the overdense region brings down the expansion rate, but its fraction of the volume falls because of the slower expansion, so eventually the underdense region takes over and the average expansion rate rises.
+
+> $[...]$ After the overdense region stops being important, the expansion rate will be given by the underdense region alone, and the expansion will again decelerate. Acceleration is a transient phenomenon associated with the volume becoming dominated by the underdense region. 
+
+> $[...]$ Whether the expansion accelerates depends on how rapidly the faster expanding regions catch up with the slower ones, roughly speaking by how steeply the $H t$ curve rises.  This is why the variance contributes positively to acceleration: the larger the variance, the bigger the difference between fast and slow regions, and the more rapidly the fast regions take over.  
+
+> $[...]$ So there is no ambiguity:  accelerated average expansion due to inhomogeneities is possible. The question is whether the distribution of structures in the universe is such that this mechanism is realised ([Räsänen 10, p. 10](#Rasanen10))
+
+
 
 Survey of the field of inhomogeneous cosmology and of attitudes in the community towards open issues is in [Belejko-Korzyński 16](#BelejkoKorzynski16).
 
@@ -47,9 +60,9 @@ If the apparent small positive [[cosmological constant]] ([[dark energy]]) were 
 
 ## Numerical simulation
 
-Numerical simulations of inhomogeneous cosmology are in their infancy (see [Belejko-Korzyński 16, p. 7](#BelejkoKorzynski16)), but include the following: [Clesse-Roisin-Füzfa 17](#ClesseRoisinFufza17), [ACDDK 17](#ACDDK17), [Montanari-Rasanen 17](#MontanariRasanen17). 
+Numerical simulations of inhomogeneous cosmology are in their infancy (see [Belejko-Korzyński 16, p. 7](#BelejkoKorzynski16)), but include the following: [Clesse-Roisin-Füzfa 17](#ClesseRoisinFufza17), [ACDDK 17](#ACDDK17), [Montanari-Räsänen 17](#MontanariRasanen17). 
 
-The conclusion in [Montanari-Rasanen 17, p. 20](#MontanariRasanen17) is as follows:
+The conclusion in [Montanari-Räsänen 17, p. 20](#MontanariRasanen17) is as follows:
 
 > $[$the model$]$ shows an increase of the expansion rate of the right order of magnitude, compared to observations, at late times. $[...]$. It is nontrivial that the right order of magnitude in the amplitude and roughly  right timescale of the change in the expansion rate follow simply from the known physics of structure formation. However, the model has shortcomings that would need to be overcome for the results to be more than suggestive.
 
@@ -80,7 +93,7 @@ A particular class of exactly soluable simple examples of inhomogeneous cosmolog
 
 It has been argued (e.g. [Moffat 16, p. 2](#Moffat16)) that the apparent unlikeliness of such a "spatial coincidence" is relativized in view of the observed  "temporal coincidence" that cosmic acceleration seems to start roughly with the onset of [[structure formation]] (the "coincidence problem" of cosmology), and the perceived fine-tuning of the [[cosmological constant]] required in the [[standard model of cosmology]].
 
-However, this may be over-interpreting the realism of these simple models. According to [Rasanen 03, p. 15](#Rasanen03):
+However, this may be over-interpreting the realism of these simple models. According to [Räsänen 03, p. 15](#Rasanen03):
 
 > In order to evaluate the importance of backreaction in the real universe, we need statistical knowledge about complex configurations of dust, not exact information about simplified models.
 
@@ -101,7 +114,9 @@ However, this may be over-interpreting the realism of these simple models. Accor
 
 * {#BuchertLarenaAlimi06} [[Thomas Buchert]], Julien Larena, Jean-Michel Alimi, _Correspondence between kinematical backreaction and scalar field cosmologies - the 'morphon field'_, Class. Quant. Grav.23:6379-6408, 2006 ([arXiv:gr-qc/0606020](https://arxiv.org/abs/gr-qc/0606020))
 
-* {#Rasanen08} Syksy Rasanen, _Evaluating backreaction with the peak model of structure formation_, JCAP 0804:026,2008 ([arXiv:0801.2692](https://arxiv.org/abs/0801.2692))
+* {#Rasanen08} Syksy Räsänen, _Evaluating backreaction with the peak model of structure formation_, JCAP 0804:026,2008 ([arXiv:0801.2692](https://arxiv.org/abs/0801.2692))
+
+* {#Rasenen10} Syksy Räsänen, _Backreaction as an alternative to dark energy and modified gravity_ ([arXiv:1012.0784](https://arxiv.org/abs/1012.0784))
 
 * {#GreenWald10} Stephen R. Green, [[Robert Wald]], _A new framework for analyzing the effects of small scale inhomogeneities in cosmology_, Phys.Rev.D83:084020, 2011 ([arXiv:1011.4920](https://arxiv.org/abs/1011.4920))
 
@@ -122,13 +137,15 @@ However, this may be over-interpreting the realism of these simple models. Accor
 * {#GreenWald16} Stephen Green, [[Robert Wald]], _A Simple, Heuristic Derivation of our "No Backreaction" Results_, Classical and Quantum Gravity, Volume 33, Number 12, 2016 ([arXiv:1601.06789](https://arxiv.org/abs/1601.06789))
 
 
-* {#MontanariRasanen17} Francesco Montanari, Syksy Rasanen, _Evaluating backreaction with the ellipsoidal collapse model_, JCAP12(2017)008 ([arXiv:1710.02451](https://arxiv.org/abs/1710.02451))
+* {#MontanariRasanen17} Francesco Montanari, Syksy Räsänen, _Evaluating backreaction with the ellipsoidal collapse model_, JCAP12(2017)008 ([arXiv:1710.02451](https://arxiv.org/abs/1710.02451))
 
 
 
 See also 
 
 * Wikipedia, _[Inhomogeneous cosmology](https://en.wikipedia.org/wiki/Inhomogeneous_cosmology)_
+
+* Wikipedia, _[Accelerating expansion of the universe -- Alternative theories](https://en.wikipedia.org/wiki/Accelerating_expansion_of_the_universe#Alternative_theories)_
 
 
 ### Effective dark energy from inhomogeneity
@@ -139,7 +156,7 @@ See also
 
 * {#Schwarz02} Dominik J. Schwarz, _Accelerated expansion without dark energy_ ([arXiv:astro-ph/0209584](https://arxiv.org/abs/astro-ph/0209584))
 
-* {#Rasanen03} Syksy Rasanen, _Dark energy from backreaction_, JCAP 0402:003, 2004 ([arXiv:astro-ph/0311257](https://arxiv.org/abs/astro-ph/0311257))
+* {#Rasanen03} Syksy Räsänen, _Dark energy from backreaction_, JCAP 0402:003, 2004 ([arXiv:astro-ph/0311257](https://arxiv.org/abs/astro-ph/0311257))
 
 
 * {#AlnesAmarzguiouiGron06} H. Alnes, M. Amarzguioui and O. Gron, _An inhomogeneous alternative to dark energy?_, Phys. Rev. D 73, 083519 (2006) ([arXiv:astro-ph/0512006](https://arxiv.org/abs/astro-ph/0512006))
@@ -159,7 +176,7 @@ Dark Energy?_, 2009 ([[NotariInhomogeneousCosmology.pdf:file]])
 * Michael Blomqvist, _Inhomogeneous cosmologies with clustered dark energy or a local matter void_,  2010 ([web](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A353689&dswid=2010))
 
 
-* {#BuchertRasanen11} [[Thomas Buchert]], Syksy Rasanen, _Backreaction in late-time cosmology_, Annual Review of Nuclear and Particle Science 62 (2012) 57-79 ([arXiv:1112.5335](https://arxiv.org/abs/1112.5335))
+* {#BuchertRasanen11} [[Thomas Buchert]], Syksy Räsänen, _Backreaction in late-time cosmology_, Annual Review of Nuclear and Particle Science 62 (2012) 57-79 ([arXiv:1112.5335](https://arxiv.org/abs/1112.5335))
 
 
 * {#BelejkoKorzynski16} Krzysztof Bolejko, Mikołaj Korzyński, _Inhomogeneous cosmology and backreaction: Current status and future prospects_, Int. J. Mod. Phys. D 26, 1730011 (2017) ([arXiv:1612.08222](https://arxiv.org/abs/1612.08222))
