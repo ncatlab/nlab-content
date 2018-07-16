@@ -24,7 +24,7 @@ Noncommutative algebraic geometry extends the [[algebraic geometry|algebraic geo
 ### Relation to ordinary algebraic geometry
  {#RelationToOrdinaryAlgebraicGeometry}
 
-The direct "naive" generalization of Grothendieck-style [[algebraic geometry]] via [[sheaves]] on a [[site]] ([[Zariski site]], [[etale site]] etc.) of [[commutative rings]]-[[opposite category|op]] to non-commutative rings does not work, for reasons discussed in some detail in ([Reyes 12](#Reyes12)). This is the reason why non-commutative algebraic geometry is phrased in other terms, mostly in terms of [[monoidal categories]] "of ([[quasicoherent sheaf|quasicoherent]]) [[abelian sheaves]]" ("[[2-rings]]").
+The direct "naive" generalization of Grothendieck-style [[algebraic geometry]] via [[sheaves]] on a [[site]] ([[Zariski site]], [[etale site]] etc.) of [[commutative rings]]-[[opposite category|op]] to non-commutative rings does not work, for reasons discussed in some detail in ([Reyes 12](#Reyes12)). This is the reason why non-commutative algebraic geometry is phrased in other terms, mostly in terms of [[monoidal categories]] "of ([[quasicoherent sheaf|quasicoherent]]) [[abelian sheaves]]" ("[[2-rings]]"). See at _[[2-algebraic geometry]]_ for more.
 
 ### Relation to noncommutative geometry a la Connes 
 
@@ -124,7 +124,7 @@ Another big source of examples is deformation quantization and related topics in
 
 * [[D. Kaledin]], _Tokyo lectures "Homological methods in non-commutative geometry"_, [pdf](http://imperium.lenin.ru/~kaledin/tokyo/final.pdf), [TeX](http://imperium.lenin.ru/~kaledin/tokyo/final.tex)
 
-* [[Zoran ?koda]], _Some equivariant constructions in noncommutative algebraic geometry_, Georgian Mathematical Journal 16 (2009), No. 1, 183&#8211;202, [arXiv:0811.4770](http://arxiv.org/abs/0811.4770); preprint MPIM2009-3.
+* [[Zoran Skoda]], _Some equivariant constructions in noncommutative algebraic geometry_, Georgian Mathematical Journal 16 (2009), No. 1, 183&#8211;202, [arXiv:0811.4770](http://arxiv.org/abs/0811.4770); preprint MPIM2009-3.
 
 * MathOverflow, [Theories of Noncommutative Geometry](http://mathoverflow.net/questions/10512/theories-
 of-noncommutative-geometry)
