@@ -205,7 +205,7 @@ So we show that $F$ is necessarily a morphisms of sites:
 
 1. since the [[Yoneda embedding]] and [[sheafification]] as well as [[inverse image]]s preserve finite limits, so does $f^* j_{\mathcal{C}}$ and hence $F$ preserves finite limits, hence is a [[flat functor]];
 
-1. $f^* h_{\mathcal{C}}$ preserves [[covering]]s (maps them to [[epimorphism]]s in $Sh(D, K)$) and since $K$ is assumed to be subcanonical it follows from prop. \ref{CharacterizationOfSubcanonicalSites} that $j_{\mathcal{D}}$ also reflects covers. Therefore $F$ preserves covers.
+1. $f^* h_{\mathcal{C}}$ preserves [[covering]]s (maps them to [[epimorphism]]s in $Sh(D, K)$) and since $K$ is assumed to be subcanonical it follows from [this prop.](site#CharacterizationOfSubcanonicalSites) that $j_{\mathcal{D}}$ also reflects covers. Therefore $F$ preserves covers.
 
 =--
 
