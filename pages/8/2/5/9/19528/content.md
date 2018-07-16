@@ -11,3 +11,5 @@
 * [[Scott Carter]], Seiichi Kamada, Masahico Saito, _Surfaces in 4-Space_, 2004, Springer.
 
 [[!redirects M. Saito]]
+
+category: people
