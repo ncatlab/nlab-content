@@ -25,3 +25,8 @@ In the context of [[simplicial model category|simplicial model categories]]
 The model category theoretic notion is discussed in section A.3.7 of
 
 * [[Jacob Lurie]], [[Higher Topos Theory]] .
+
+[[!redirects local equivalences]]
+
+[[!redirects local weak equivalence]]
+[[!redirects local weak equivalences]]
