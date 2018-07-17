@@ -2571,5 +2571,16 @@ The notion of forming [[petit topos|petit]] $(\infty,1)$-toposes of &#233;tale o
 [[!redirects elastic (∞,1)-topos]]
 [[!redirects elastic (∞,1)-toposes]]
 
+[[!redirects elastic (infinity,1)-topos]]
+[[!redirects elastic (infinity,1)-toposes]]
+
+
 [[!redirects ∞-elastic site]]
 [[!redirects ∞-elastic sites]]
+
+[[!redirects elastic model topos]]
+[[!redirects elastic model toposes]]
+
+
+
+
