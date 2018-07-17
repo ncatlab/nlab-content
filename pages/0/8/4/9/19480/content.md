@@ -1092,7 +1092,7 @@ $$
   }
 $$
 
-The commutativity of this naturality square commutes is again the identity (eq:ProjectingOutNilpotentsLater).
+The commutativity of this naturality square is again the identity (eq:ProjectingOutNilpotentsLater).
 
 =--
 
