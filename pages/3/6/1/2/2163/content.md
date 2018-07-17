@@ -178,7 +178,7 @@ The [[Thom group]] $\mathcal{N}_*$ of cobordism classes of unoriented compact sm
 
 A classical reference is
 
-* [[Robert Stong}], _Notes on cobordism theory_, Princeton University Press 1968 (Russian transl., Mir 1973) ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [publisher page](http://press.princeton.edu/titles/6465.html))
+* [[Robert Stong]], _Notes on cobordism theory_, Princeton University Press 1968 (Russian transl., Mir 1973) ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [publisher page](http://press.princeton.edu/titles/6465.html))
 
 The [GMTW theorem](#GMTWTheorem) about the [[homotopy type]] of the cobordisms category with topological structures on the cobordisms appears in 
 
