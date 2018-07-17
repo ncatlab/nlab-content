@@ -1525,9 +1525,29 @@ which [[commuting square|commutes]] due to $f^{-1}$ being a genuine right invers
 
 Given a [[model category]] $\mathcal{C}$, consider a _choice_ for each object $X \in \mathcal{C}$ of
 
-1. a factorization $\emptyset \underoverset{\in Cof}{i_X}{\longrightarrow} Q X \underoverset{\in W \cap Fib}{p_X}{\longrightarrow} X$ of the [[initial object|initial morphism]], such that when $X$ is already cofibrant then $p_X = id_X$;
+1. a factorization 
 
-1. a factorization $X \underoverset{\in W \cap Cof}{j_X}{\longrightarrow} P X \underoverset{\in Fib}{q_X}{\longrightarrow} \ast$ of the [[terminal object|terminal morphism]], such that when $X$ is already fibrant then $j_X = id_X$.
+   $$
+     \emptyset 
+       \underoverset{\phantom{A}\in Cof\phantom{A}}{i_X}{\longrightarrow} 
+     Q X 
+       \underoverset{\in W \cap Fib}{p_X}{\longrightarrow} 
+     X
+   $$ 
+
+   of the [[initial object|initial morphism]] (Def. \ref{InitialObject}), such that when $X$ is already cofibrant then $p_X = id_X$;
+
+1. a factorization 
+
+   $$
+     X 
+       \underoverset{\in W \cap Cof}{j_X}{\longrightarrow} 
+     P X 
+       \underoverset{\phantom{A} \in Fib \phantom{A}}{q_X}{\longrightarrow} 
+     \ast
+   $$ 
+
+   of the [[terminal object|terminal morphism]] (Def. \ref{InitialObject}), such that when $X$ is already fibrant then $j_X = id_X$.
 
 Write then
 
