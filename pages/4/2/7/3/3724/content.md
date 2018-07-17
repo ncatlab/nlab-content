@@ -150,9 +150,11 @@ The basic theory also generalises immediately to any unbounded, [[dense order|de
 
 ## References
 
-*  [[Richard Dedekind]]; 1872; _Stetigkeit und irrationale Zahlen_:
+* [[Richard Dedekind]]; 1872; _Stetigkeit und irrationale Zahlen_:
    *  [Google Books](http://books.google.com/books?id=AO4GAAAAYAAJ) (in Fraktur font),
    *  [retyped](http://www.math.ru.nl/werkgroepen/gmfw/bronnen/dedekind2.html) 
+* [[Richard Dedekind]], _Continuity and irrational numbers_, in Essays on the Theory of Numbers (trans. W. Beman), 1901 ([Project Gutenberg](http://www.gutenberg.org/ebooks/21016))
+
 *  [[Paul Taylor]]; 2007--2009(?); [Dedekind cuts](http://www.paultaylor.eu/ASD/dedras/classical)
 *  _[[HAF]]_, 4.31--4.39
 
