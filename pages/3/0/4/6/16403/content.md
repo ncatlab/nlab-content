@@ -112,7 +112,7 @@ Such _would-be homotopy equivalences_ are called _[[weak equivalences]]_ (Def. \
 
 In principle, this information already defines a [[homotopy theory]] by a construction called _[[simplicial localization]]_, which turns [[weak equivalences]] into actual [[homotopy equivalences]] in a suitable way. 
 
-However, without further tools this construction is very unwieldy. The extra structure of a _[[model category]]_ (Def. \ref{ModelCategory} below) on top of a [[category with weak equivalences]] provides a set of tools.
+However, without further tools this construction is unwieldy. The extra structure of a _[[model category]]_ (Def. \ref{ModelCategory} below) on top of a [[category with weak equivalences]] provides a set of tools.
 
 The idea here is to abstract (in Def. \ref{LeftAndRightHomotopyInAModelCategory} below) from the evident concepts in [[topological homotopy theory]] of _[[left homotopy]]_ (Def. \ref{LeftHomotopy}) and _[[right homotopy]]_ (Def. \ref{RightHomotopy}) between [[continuous functions]]: These are provided by continuous functions out of a [[cylinder|cylinder space]] $Cyl(X)  = X \times [0,1]$ or into a [[path space]] $Path(X) = X^{[0,1]}$, respectively, where in both cases the [[interval|interval space]] $[0,1]$ serves to parameterize the relevant [[gauge transformation]]/[[homotopy]].
 
@@ -14802,7 +14802,7 @@ are
 Let $\mathcal{C}$ be a [[simplicial model category]] (Def. \ref{SimplicialModelCategory}). Then the [[right derived functor]] (Def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}) of the [[enriched hom-functor]] is called the _[[derived hom-functor]]_
 
 $$
-  \mathbb{R}Hom
+  \mathbb{R}[-,-]
   \;\colon\;
   Ho(\mathcal{C}^{op} \times \mathcal{C})
   \longrightarrow
@@ -15743,7 +15743,6 @@ $\,$
 ### Elastic $\infty$-Toposes
 
 
-
 +-- {: .num_defn #InfinityElasticSite}
 ###### Definition
 **([[∞-elastic site]])**
@@ -15765,7 +15764,7 @@ such that
 
 1. the [[left Kan extension]] of $\iota_{inf}$ [[preserved limit|preserves]] [[fiber products]] $y(U_i) \times_{y(X)} y(u_j)$ of morphisms in a [[covering]] $\{U_i \overset{\iota_i}{\to} X\}$;
 
-1. if $\{ U_i \overset{\iota_i}{\to} X \}$ is a covering family in $\mathcal{C}_{red}$, and $p(\widehat X) \longrightarrow X$ is any morphism in $\mathcal{C}_{red}$, then there is a covering familiy $\{ \widehat U_i \overset{\widehat\iota_j}{\to} \widehat X \}$ such that for all $i$ there is a $j$ and a commuting square
+1. if $\{ U_i \overset{\iota_i}{\to} X \}$ is a covering family in $\mathcal{C}_{red}$, and $p(\widehat X) \longrightarrow X$ is any morphism in $\mathcal{C}_{red}$, then there is a covering familiy $\{ \widehat U_i \overset{\widehat\iota_j}{\to} \widehat X \}$ such that for all $i$ there is a $j$ and a [[commuting square]] of the form
 
    \[
      \label{LiftingOfCoversThroughPiInfInElasticSite}
@@ -15785,9 +15784,9 @@ We also call this an _[[∞-elastic site]]_, for short.
 =--
 
 
-+-- {: .num_prop #ElasticInfinityTopos}
++-- {: .num_prop #ElasticModelTopos}
 ###### Proposition
-**([[elastic (∞,1)-topos]])**
+**([[elastic model topos]])**
 
 Let 
 
@@ -15821,7 +15820,7 @@ $$
   \,.
 $$
 
-We say that the corresponding [[adjoint quadruple]] in [[Ho(CombModCat)]] exhibits  the structure of an [[elastic (∞,1)-topos]] (Def. \ref{DifferentialCohesion}).
+We say that the corresponding [[adjoint quadruple]] in [[Ho(CombModCat)]] exhibits  the structure of an _[[elastic model topos]]_.
 
 $$
   \mathbf{H}_{red}
@@ -15906,6 +15905,180 @@ $$
 is a weak equivalence. With this, the fact (Prop. \ref{SimplicialPresheavesIsProperCombinatorialSimplicial} with Prop. \ref{ExistenceOfLeftBousfieldLocalization}) that $[\mathcal{C}^{op}, sSet_{Qu}]_{inj, loc}$ is a [[simplicial model category]] (Def. \ref{SimplicialModelCategory}) implies that $[C(\{Disc_{inf} U_i\}) \to Disc_{inf} X, \mathbf{X}]$ is a weak equivalence.
 
 =--
+
+$\,$
+
+### Solid $\infty$-Toposes
+
+
++-- {: .num_defn #InfinitySolidSite}
+###### Definition
+**([[∞-solid site]])**
+
+For 
+$
+  \mathcal{C}_{red}
+    \underoverset
+      {\underset{\phantom{AA}\Pi_{inf}\phantom{AA}}{\longleftarrow}}
+      {\overset{\iota_{inf}}{\hookrightarrow}}
+      {\bot}
+  \mathcal{C}_{inf}
+$
+an [[∞-elastic site]] (Def. \ref{InfinityElasticSite}) over an _[[∞-cohesive site]]_ (Def. \ref{InfinityCohesiveSite}), a _super-infinitesimal neighbourhood site_ is a [[reflective subcategory|reflective]]/[[coreflective subcategory]]-inclusion into another [[∞-elastic site]] $
+  \mathcal{C}_{red}
+    \underoverset
+      {\underset{\phantom{AA}\Pi_{inf}\phantom{AA}}{\longleftarrow}}
+      {\overset{\iota_{inf}}{\hookrightarrow}}
+      {\bot}
+  \mathcal{C}
+$
+
+
+$$
+  \ast
+    \array{
+      \phantom{\underoverset{\bot}{\phantom{AA}even\phantom{AA}}{\longleftarrow}}      
+      \\
+      \phantom{\underoverset{\bot}{\phantom{AA}\iota_{inf}\phantom{AA}}{\hookrightarrow}}
+      \\
+      \underoverset{\bot}{\phantom{AA}\Pi\phantom{AA}}{\longleftarrow}
+      \\
+      \underoverset{}{\phantom{A}Disc\phantom{A}}{\hookrightarrow}
+    }
+  \mathcal{C}_{red}
+    \array{
+      \phantom{\underoverset{\bot}{\phantom{AA}even\phantom{AA}}{\longleftarrow}}      
+      \\
+      \underoverset{\bot}{\phantom{AA}\iota_{inf}\phantom{AA}}{\hookrightarrow}
+      \\
+      \underoverset{}{\phantom{AA}\Pi_{inf}\phantom{AA}}{\longleftarrow}
+      \\
+      \phantom{\underoverset{}{\phantom{A}Disc\phantom{A}}{\hookrightarrow}}
+    }
+  \mathcal{C}_{inf}
+    \array{
+      \underoverset{\bot}{\phantom{AA}even\phantom{AA}}{\longleftarrow}      
+      \\
+      \underoverset{\bot}{\phantom{AA}\iota_{sup}\phantom{AA}}{\hookrightarrow}      
+      \\
+      \underoverset{}{\phantom{AA}\Pi_{sup}\phantom{AA}}{\longleftarrow}
+      \\
+      \phantom{\underoverset{}{\phantom{A}Disc\phantom{A}}{\hookrightarrow}}
+    }
+  \mathcal{C}_{sup}
+$$
+
+such that
+
+1. all of $even$, $\iota_{sup}$ and $\Pi_{inf}$ send [[covers]] to [[covers]];
+
+1. the [[left Kan extension]] of $even$ [[preserved limit|preserves]] [[fiber products]] $y(U_i) \times_{y(X)} y(u_j)$ of morphisms in a [[covering]] $\{U_i \overset{\iota_i}{\to} X\}$;
+
+=--
+
+
++-- {: .num_prop #ElasticInfinityTopos}
+###### Proposition
+**([[solid model topos]])**
+
+Let 
+
+$$
+  \ast
+    \array{
+      \phantom{\underoverset{\bot}{\phantom{AA}even\phantom{AA}}{\longleftarrow}}      
+      \\
+      \phantom{\underoverset{\bot}{\phantom{AA}\iota_{inf}\phantom{AA}}{\hookrightarrow}}
+      \\
+      \underoverset{\bot}{\phantom{AA}\Pi\phantom{AA}}{\longleftarrow}
+      \\
+      \underoverset{}{\phantom{A}Disc\phantom{A}}{\hookrightarrow}
+    }
+  \mathcal{C}_{red}
+    \array{
+      \phantom{\underoverset{\bot}{\phantom{AA}even\phantom{AA}}{\longleftarrow}}      
+      \\
+      \underoverset{\bot}{\phantom{AA}\iota_{inf}\phantom{AA}}{\hookrightarrow}
+      \\
+      \underoverset{}{\phantom{AA}\Pi_{inf}\phantom{AA}}{\longleftarrow}
+      \\
+      \phantom{\underoverset{}{\phantom{A}Disc\phantom{A}}{\hookrightarrow}}
+    }
+  \mathcal{C}_{inf}
+    \array{
+      \underoverset{\bot}{\phantom{AA}even\phantom{AA}}{\longleftarrow}      
+      \\
+      \underoverset{\bot}{\phantom{AA}\iota_{sup}\phantom{AA}}{\hookrightarrow}      
+      \\
+      \underoverset{}{\phantom{AA}\Pi_{sup}\phantom{AA}}{\longleftarrow}
+      \\
+      \phantom{\underoverset{}{\phantom{A}Disc\phantom{A}}{\hookrightarrow}}
+    }
+  \mathcal{C}_{sup}
+$$
+
+be an [[∞-solid site]] (Def. \ref{InfinitySolidSite}). Then [[Kan extension]] (Prop. \ref{geometry+of+physics+--+categories+and+toposes#TopologicalLeftKanExtensionBCoend}) [[enriched category theory|enriched]] over [[sSet]] (Example \ref{ExamplesOfCosmoi})  induces on the corresponding [[elastic (infinity,1)-toposes|elastic]] [[model toposes]] (Prop. \ref{ElasticModelTopos}) a further [[Quillen adjoint quadruple]] (Def. \ref{QuillenAdjointTriple}) of the form
+
+
+$$
+  sSet_{Qu}
+  \;\;
+    \array{
+      \phantom{\underoverset{\phantom{{}_{Qu}}\bot_{Qu} }{ even }{\longleftarrow}}
+      \\
+      \phantom{\underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ \iota_{inf} }{\hookrightarrow}}
+      \\
+      \underoverset{\phantom{{}_{Qu}}\bot_{Qu} }{ \Pi }{\longleftarrow}
+      \\
+      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ Disc }{\hookrightarrow}
+      \\
+      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ \Gamma }{\longleftarrow}
+      \\
+      \overset{ coDisc }{\hookrightarrow}
+    }
+  \;\;
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj/inj}
+  \;\;
+    \array{
+      \phantom{\underoverset{\phantom{{}_{Qu}}\bot_{Qu} }{ even }{\longleftarrow}}
+      \\
+      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ \iota_{inf} }{\hookrightarrow}
+      \\
+      \underoverset{\phantom{{}_{Qu}}\bot_{Qu} }{ \Pi_{inf} }{\longleftarrow}
+      \\
+      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ Disc_{inf} }{\hookrightarrow}
+      \\
+      \underoverset{ \phantom{\phantom{{}_{Qu}}\bot_{Qu}} }{ \Gamma_{inf} }{\longleftarrow}
+      \\
+      \phantom{\overset{ coDisc }{\longrightarrow}}
+    }
+  \;\;
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{proj}
+  \;\;
+    \array{
+      \underoverset{\phantom{{}_{Qu}}\bot_{Qu} }{ even }{\longleftarrow}
+      \\
+      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ \iota_{sup} }{\hookrightarrow}
+      \\
+      \underoverset{\phantom{{}_{Qu}}\bot_{Qu} }{ \Pi_{sup} }{\longleftarrow}
+      \\
+      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ Disc_{sup} }{\hookrightarrow}
+      \\
+      \underoverset{ \phantom{\phantom{{}_{Qu}}\bot_{Qu}} }{ \Gamma_{sup} }{\longleftarrow}
+      \\
+      \phantom{\overset{ coDisc }{\longrightarrow}}
+    }
+  \;\;
+  [\mathcal{C}_{sup}^{op}, sSet_{Qu}]_{proj/inj}
+$$
+
+We say that the corresponding [[adjoint quadruple]] in [[Ho(CombModCat)]] exhibits  the structure of an _[[solid model topos]]_.
+
+
+
+=--
+
+
 
 $\,$
 
