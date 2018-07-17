@@ -96,12 +96,23 @@ Other examples include:
 
 * [[fibrant type]]
 
+* [[functorial factorization]]
 
 [[!redirects fibrant object]]
 [[!redirects fibrant objects]]
+
 [[!redirects cofibrant object]]
 [[!redirects cofibrant objects]]
+
+[[!redirects fibrant and cofibrant object]]
+[[!redirects fibrant and cofibrant objects]]
+
+
 [[!redirects fibrancy]]
 [[!redirects cofibrancy]]
+
 [[!redirects fibrant]]
 [[!redirects cofibrant]]
+
+
+
