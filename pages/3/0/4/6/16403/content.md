@@ -5690,7 +5690,7 @@ $$
   \,.
 $$
 
-One may show that just like the fiber is the _universal_ solution to making such a commuting square (a [[pullback]] [[limit|limit cone]] def. \ref{LimitsAndColimits}), so the homotopy fiber is the universal solution up to homotopy to make such a commuting square up to homotopy -- a [[homotopy pullback]] [[homotopy limit|homotopy limit cone]].
+One may show that just like the fiber is the _universal_ solution to making such a commuting square (a [[pullback]] [[limit|limit cone]] def. \ref{Limits}), so the homotopy fiber is the universal solution up to homotopy to make such a commuting square up to homotopy -- a [[homotopy pullback]] [[homotopy limit|homotopy limit cone]].
 
 Now just like ordinary [[pullbacks]] satisfy the [[pasting law]] saying that attaching two pullback squares gives a pullback rectangle, the analogue is true for homotopy pullbacks. This implies that if we take the homotopy fiber of a homotopy fiber, thereby producing this double homotopy pullback square
 
@@ -6016,61 +6016,8 @@ Throughout, let _[[Top]]_ denote the [[category]] whose [[objects]] are [[topolo
 
 To begin with, we recall some basics on [[universal constructions]] in [[Top]]: [[limits]] and [[colimits]] of [[diagrams]] of [[topological spaces]]; [[exponential objects]].
 
-Generally, recall:
 
-+-- {: .num_defn #LimitsAndColimits}
-###### Definition
-
-A **[[diagram]]** in a [[category]] $\mathcal{C}$ is a [[small category]] $I$ and a [[functor]]
-
-$$
-  X_\bullet
-  \;\colon\;
-  I \longrightarrow \mathcal{C}
-$$
-
-$$
-  (i \overset{\phi}{\longrightarrow} j)
-  \;
-  \mapsto
-  ( X_i \overset{X(\phi)}{\longrightarrow} X_j)
-  \,.
-$$
-
-A **[[cone]]** over this diagram is an object $Q$ equipped with morphisms $p_i \colon Q \longrightarrow X_i$ for all $i \in I$, such that all these triangles commute:
-
-$$
-  \array{
-     && Q
-     \\
-     & {}^{\mathllap{p_i}}\swarrow && \searrow^{\mathrlap{p_j}}
-     \\
-     X_i && \underset{X(\phi)}{\longrightarrow} && X_j
-  }
-  \,.
-$$
-
-Dually, a **[[co-cone]]** under the diagram is $Q$ equipped with morphisms $q_i \colon X_i \longrightarrow Q$ such that all these triangles commute
-
-$$
-  \array{
-    X_i && \overset{X(\phi)}{\longrightarrow} && X_j
-    \\
-    & {}_{\mathllap{q_i}}\searrow && \swarrow_{\mathrlap{q_j}}
-    \\
-    && Q
-  }
-  \,.
-$$
-
-A **[[limit]]** over the diagram is a universal cone, denoted $\underset{\longleftarrow}{\lim}_{i \in I} X_i$, that is: a cone such that every other cone uniquely factors through it $Q \longrightarrow \underset{\longleftarrow}{\lim}_{i \in I} X_i$, making all the resulting triangles commute.
-
-Dually, a **[[colimit]]** over the diagram is a universal co-cone, denoted $\underset{\longrightarrow}{\lim}_{i \in I} X_i$.
-
-=--
-
-
-We now discuss limits and colimits in $\mathcal{C}= $ [[Top]]. The key for understanding these is the fact that there are initial and final topologies:
+We now discuss [[limits]] and [[colimits]] (Def. \ref{Limits}) in $\mathcal{C}= $ [[Top]]. The key for understanding these is the fact that there are initial and final topologies:
 
 +-- {: .num_defn #InitialAndFinalTopologies}
 ###### Definition
@@ -6162,7 +6109,7 @@ Let $I$ be a [[small category]] and let $X_\bullet \colon I \longrightarrow Top$
 +-- {: .proof}
 ###### Proof
 
-The required [[universal property]] of $\left(\underset{\longleftarrow}{\lim}_{i \in I} S_i,\; \tau_{initial}(\{p_i\}_{i \in I})\right)$ (def. \ref{LimitsAndColimits}) is immediate: for
+The required [[universal property]] of $\left(\underset{\longleftarrow}{\lim}_{i \in I} S_i,\; \tau_{initial}(\{p_i\}_{i \in I})\right)$ (def. \ref{Limits}) is immediate: for
 
 $$
   \array{
@@ -10763,7 +10710,7 @@ is also also known as the **strict [[model structure for excisive functors]]**. 
 
 One consequence of theorem \ref{ProjectiveModelStructureOnTopologicalFunctors} is the model category theoretic incarnation of the theory of _[[homotopy colimits]]_.
 
-Observe that ordinary [[limits]] and [[colimits]] (def. \ref{LimitsAndColimits}) are equivalently characterized in terms of [[adjoint functors]]:
+Observe that ordinary [[limits]] and [[colimits]] (def. \ref{Limits}) are equivalently characterized in terms of [[adjoint functors]]:
 
 Let $\mathcal{C}$ be any [[category]] and let $I$ be a [[small category]]. Write $[I,\mathcal{C}]$ for the corresponding [[functor category]]. We may think of its objects as $I$-shaped [[diagrams]] in $\mathcal{C}$, and of its morphisms as homomorphisms of these diagrams.  There is a canonical functor
 
@@ -14454,7 +14401,7 @@ But since also $[\mathcal{C}^{op}, sSet_{Qu}]_{inj} \overset{id}{\to} [\mathcal{
 This demonstrates the above square.
 
 Finally to check its [[derived natural transformation]] $Ho(id)$ is 
-invertible: By Prop. \ref{DerivedNaturalTransformationUpToIsos} this is equivalent, in the present situation, to the condition that for each [[simplical presheaf]] $\mathbf{X}$ that is both fibrant and cofibrant, the composite
+invertible: By Prop. \ref{DerivedNaturalTransformationUpToIsos} this is equivalent, in the present situation, to the condition that for each [[simplicial presheaf]] $\mathbf{X}$ that is both fibrant and cofibrant, the composite
 
 $$
   R^\ast Q \mathbf{X}
@@ -15796,7 +15743,8 @@ $\,$
 ### Elastic $\infty$-Toposes
 
 
-+-- {: .num_defn #ElasticSite}
+
++-- {: .num_defn #InfinityElasticSite}
 ###### Definition
 **([[∞-elastic site]])**
 
@@ -15852,7 +15800,7 @@ $$
   \mathcal{C}
 $$
 
-be an [[∞-elastic site]] (Def. \ref{ElasticSite}). Then [[Kan extension]] (Prop. \ref{geometry+of+physics+--+categories+and+toposes#TopologicalLeftKanExtensionBCoend}) [[enriched category theory|enriched]] over [[sSet]] (Example \ref{ExamplesOfCosmoi})  induces on the corresponding [[cohesive (infinity,1)-toposes|cohesive]] [[model toposes]] (Prop. \ref{OverInfinityCohesiveSiteCohesiveInfinityTopos}) a [[Quillen adjoint quadruple]] (Def. \ref{QuillenAdjointTriple})
+be an [[∞-elastic site]] (Def. \ref{InfinityElasticSite}). Then [[Kan extension]] (Prop. \ref{geometry+of+physics+--+categories+and+toposes#TopologicalLeftKanExtensionBCoend}) [[enriched category theory|enriched]] over [[sSet]] (Example \ref{ExamplesOfCosmoi})  induces on the corresponding [[cohesive (infinity,1)-toposes|cohesive]] [[model toposes]] (Prop. \ref{OverInfinityCohesiveSiteCohesiveInfinityTopos}) a [[Quillen adjoint quadruple]] (Def. \ref{QuillenAdjointTriple})
 
 $$
   [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj/inj,loc}
