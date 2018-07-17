@@ -450,8 +450,103 @@ $$
 
 where $p_{R P(d)}$ exhibits [[cofibrant resolution]] in $\mathcal{C}_2$ and hence is an [[acyclic fibration]] in $\mathcal{C}_2$. Since $\mathcal{C}_2 \overset{id}{\to} \mathcal{C}_1$ is a [[right Quillen functor]], this is also an [[acyclic fibration]] in $\mathcal{C}_1$, and since $C$ is also a [[right Quillen functor]] with respect to $\mathcal{C}_1$, the comparison morphism $C\left( p_{R P(d)} \right)$ is an acyclic fibration in $\mathcal{D}$, hence in particular a weak equivalence.
 
+=--
+
++-- {: .num_lemma #AltCompositeDerivedFunctorsOfQuillenAdjointTriple}
+###### Lemma
+
+Let 
+
+$$
+  \mathcal{C}_{1/2}
+    \array{
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{L}{\longleftarrow}
+      \\
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{C}{\longrightarrow}
+      \\
+      \overset{\phantom{AA}R\phantom{AA}}{\longleftarrow}
+      \\
+    }
+  \mathcal{D}
+$$ 
+
+be a [[Quillen adjoint triple]] (Def. \ref{QuillenAdjointTriple}) 
+
+Then 
+
+1. on [[cofibrant objects]] the composite [[derived functor]] 
+
+   $$
+     \Box 
+     \;\coloneqq\;
+     \mathbb{L}_ L \circ \mathbb{R}_1 C (c)
+   $$ 
+   
+   is equivalent to $\mathbb{R}_1(L \circ C)$, and under this identification the [[derived adjunction counit]] is given by the plain [[adjunction counit]] on [[cofibrant objects]]; 
+
+1. on [[fibrant objects]] the composite [[derived functor]] 
+
+   $$
+     \bigcirc
+       \;\coloneqq\; 
+     \mathbb{R}_2 R \circ \mathbb{L}_2 C(c)
+   $$ 
+   
+   is equivalent to $\mathbb{L}( R \circ C )$, and under this identification the [[derived adjunction unit]] is given by the plain [[adjunction unit]] on [[fibrant objects]].
 
 =--
+
++-- {: .proof}
+###### Proof
+
+
+For the first claim:
+
+A priori, the full derived functor is given by
+
+$$
+  \mathbb{L}_1 L \circ \mathbb{R}_1 C (c)
+  \;\simeq\;
+  L Q_ C P_1 (c)
+$$
+
+The comparison morphism is
+
+$$
+  L Q C P_1 (c)
+    \overset{ L\left(  p_{C P_1(c)} \right) }{\longrightarrow}
+  L C P_1 (c)
+  \,,
+$$
+
+where $p_{C P(c)}$ is an [[acyclic fibration]] in $\mathcal{D}$.
+
+By the assumption that $c$ is a [[cofibrant object]] in $\mathcal{C}_1$, it follows that also $P(c)$ is a cofibrant object in $\mathcal{C}_1$.
+Since $\mathcal{C}_1 \overset{id}{\to} \mathcal{C}_2$ is a [[left Quillen functor]], it follows that $P(c)$ is also cofibrant in $\mathcal{C}_2$. But since $C$ is also a [[left Quillen functor]] with respect to $\mathcal{C}_2$, this implies that $C P_1(c)$ is cofibrant in $\mathcal{D}$. This means that we may assume $p_{C P_1(c)}$ to be the [[identity morphism]]. This proves the claim.
+
+For the second claim:
+
+A priori, the full derived functor is given by
+
+$$
+  \mathbb{R}_2 R \circ \mathbb{L}_2 C(c)
+  \;\simeq\;
+  R P C Q_2(c)
+$$
+
+The comparison morphism is
+
+$$
+  R C Q_2(c)
+    \overset{ R( j_{C Q_2(c)} ) }{\longrightarrow}
+  R P C Q_2(c)
+$$
+
+But since $c$ is assumed to be a [[fibrant object]], also $Q_2(c)$ is fibrant in $\mathcal{C}_2$. Since $\mathcal{C}_2 \overset{id}{\to}$ is a [[right Quillen functor]], this implies that $Q_2 (c)$ is also fibrant in $\mathcal{C}_1$. But since $C$ is also a [[right Quillen functor]] with respect to $\mathcal{C}_1$, this implies that $C Q_2(c)$ is fibrant in $\mathcal{D}$. This finally means that we may assume $j_{C Q_2(c)}$ to be the [[identity morphism]]. Hence the claim follows.
+
+
+=--
+
 
 +-- {: .num_prop #DerivedModalityFromQuillenAdjointTriple}
 ###### Proposition
