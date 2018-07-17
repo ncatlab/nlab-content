@@ -321,7 +321,7 @@ Then
      \mathbb{R}_1 C\circ \mathbb{L}_1 L
    $$ 
    
-   is equivalent to the [[left derived functor]] $\mathbb{L}_1( C \circ L )$, and under this identification the [[derived adjunction unit]] is given by the plain [[adjunction unit]] on [[cofibrant objects]]; 
+   is equivalent to $\mathbb{L}_1(C \circ L)$, and under this identification the [[derived adjunction unit]] is given by the plain [[adjunction unit]] on [[cofibrant objects]]; 
 
 1. the composite [[derived functor]] 
 
@@ -329,13 +329,35 @@ Then
      \Box \;\coloneqq\; \mathbb{L}_2 C\circ \mathbb{R}_2 R
    $$ 
    
-   is equivalent to the [[right derived functor]] $\mathbb{R}( C \circ R )$, and under this identification the [[derived adjunction counit]] is given by the plain [[adjunction counit]] on [[fibrant objects]].
+   is equivalent to $\mathbb{R}_2( C \circ R )$, and under this identification the [[derived adjunction counit]] is given by the plain [[adjunction counit]] on [[fibrant objects]].
 
 =--
 
 
 +-- {: .proof}
 ###### Proof
+
+We will denote [[cofibrant resolutions]] by
+
+$$
+  \emptyset 
+    \underoverset{\phantom{A}\in Cof\phantom{A}}{i_X}{\longrightarrow} 
+  Q X 
+    \underoverset{\in W \cap Fib}{p_X}{\longrightarrow} 
+  X
+$$ 
+
+and [[fibrant resolutions]] by 
+
+$$
+  X 
+    \underoverset{\in W \cap Cof}{j_X}{\longrightarrow} 
+  P X 
+    \underoverset{\phantom{A} \in Fib \phantom{A}}{q_X}{\longrightarrow} 
+  \ast
+$$ 
+
+(as in [this Def.](geometry+of+physics+--+categories+and+toposes#FibrantCofibrantReplacementFunctorToHomotopyCategory)).
 
 First regard the case shown on the left.
 
@@ -355,7 +377,7 @@ $$
   C L Q_1(c) \overset{ C (j_{L Q(c)}) }{\longrightarrow} C P L Q_1(c)
 $$
 
-where $j_{L Q(-)}$ exhibits [[fibrant resolution]] in $\mathcal{D}$ and hence is an [[acyclic cofibration]] in $\mathcal{D}$.
+where $j_{L Q(c)}$ exhibits [[fibrant resolution]] in $\mathcal{D}$ and hence is an [[acyclic cofibration]] in $\mathcal{D}$.
 
 Therefore, since $C$ is also a left Quillen functor with respect to $\mathcal{C}_2$, the comparison morphism $C\left(j_{L Q(c)}\right)$ is an acyclic cofibration in $\mathcal{C}_2$, hence in particular a [[weak equivalence]] in $\mathcal{C}_2$. By the assumption that the weak equivalences coincide, this is a weak equivalence in $\mathcal{C}_1$.
 
@@ -391,48 +413,49 @@ For the first claim:
 A priori, the derived functor is
 
 $$
-  \mathbb{R}_1 C \circ \mathbb{L}_1 L (c)
+  \mathbb{R}_1 C \circ \mathbb{L}_1 L (d)
   \;=\;
-  C P_1 L Q (c)
+  C P_1 L Q (d)
   \,.
 $$
 
 The comparison morphism is
 
 $$
-  C L Q (c)
-    \overset{ C\left( (j_1)_{L Q(c)} \right) }{\longrightarrow}
-  C P_1 L Q (c)
+  C L Q (d)
+    \overset{ C\left( (j_1)_{L Q(d)} \right) }{\longrightarrow}
+  C P_1 L Q (d)
 $$
 
-where $(j_1)_{L Q(c)}$ exhibits [[fibrant resolution]] in $\mathcal{C}_1$, hence is an [[acyclic cofibration]] in $\mathcal{C}_1$. But since $\mathcal{C}_1 \overset{id}{\to} \mathcal{C}_2$ is a left Quillen functor, this is also an acyclic cofibration in $\mathcal{C}_2$, and since $C$ is a left Quillen functor with respect to $\mathcal{C}_2$, the comparison morphism $C\left((j_1)_{L Q(c)}\right)$ is a weak equivalence in $\mathcal{D}$.
+where $(j_1)_{L Q(d)}$ exhibits [[fibrant resolution]] in $\mathcal{C}_1$, hence is an [[acyclic cofibration]] in $\mathcal{C}_1$. But since $\mathcal{C}_1 \overset{id}{\to} \mathcal{C}_2$ is a left Quillen functor, this is also an acyclic cofibration in $\mathcal{C}_2$, and since $C$ is a left Quillen functor with respect to $\mathcal{C}_2$, the comparison morphism $C\left((j_1)_{L Q(d)}\right)$ is a weak equivalence in $\mathcal{D}$.
 
 For the second claim:
 
 A priori, the derive functor is
 
 $$
-  \mathbb{L}_2 C \circ \mathbb{R}_2 R (c)
+  \mathbb{L}_2 C \circ \mathbb{R}_2 R (d)
   \;\simeq\;
-  C Q_2 R P (c)
+  C Q_2 R P (d)
   \,.
 $$
 
 The comparison morphism is
 
 $$
-  C Q_2 R P (c)
-   \overset{C\left( p_{R P(c)} \right)}{\longrightarrow}
-  C R P (c)   
+  C Q_2 R P (d)
+   \overset{C\left( p_{R P(d)} \right)}{\longrightarrow}
+  C R P (d)   
 $$
 
-where $p_{R P(c)}$ exhibits [[cofibrant resolution]] in $\mathcal{C}_2$ and hence is an [[acyclic fibration]] in $\mathcal{C}_2$. Since $\mathcal{C}_2 \overset{id}{\to} \mathcal{C}_1$ is a [[right Quillen functor]], this is also an [[acyclic fibration]] in $\mathcal{C}_1$, and since $C$ is also a [[right Quillen functor]] with respect to $\mathcal{C}_1$, the comparison morphism $C\left( p_{R P(c)} \right)$ is an acyclic fibration in $\mathcal{D}$, hence in particular a weak equivalence.
+where $p_{R P(d)}$ exhibits [[cofibrant resolution]] in $\mathcal{C}_2$ and hence is an [[acyclic fibration]] in $\mathcal{C}_2$. Since $\mathcal{C}_2 \overset{id}{\to} \mathcal{C}_1$ is a [[right Quillen functor]], this is also an [[acyclic fibration]] in $\mathcal{C}_1$, and since $C$ is also a [[right Quillen functor]] with respect to $\mathcal{C}_1$, the comparison morphism $C\left( p_{R P(d)} \right)$ is an acyclic fibration in $\mathcal{D}$, hence in particular a weak equivalence.
 
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #DerivedModalityFromQuillenAdjointTriple}
 ###### Proposition
+**(derived modality from Quillen adjoint triple)**
 
 Let 
 
@@ -447,34 +470,58 @@ $$
       \\
     }
   \mathcal{D}
+  \phantom{AAA}
+  \text{or}
+  \phantom{AA}
+  \mathcal{C}_{1/2}
+    \array{
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{L}{\longleftarrow}
+      \\
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{C}{\longrightarrow}
+      \\
+      \overset{\phantom{AA}R\phantom{AA}}{\longleftarrow}
+      \\
+    }
+  \mathcal{D}
 $$ 
 
-be a [[simplicial Quillen adjunction|simplicial]] [[Quillen adjoint triple]] (Def. \ref{QuillenAdjointTriple}) such that the model structures $\mathcal{C}_1$ and $\mathcal{C}_2$ have the same class of weak equivalences, 
+be a [[simplicial Quillen adjunction|simplicial]] [[Quillen adjoint triple]] (Def. \ref{QuillenAdjointTriple}) such that the model structures $\mathcal{C}_1$ and $\mathcal{C}_2$ have the same class of weak equivalences. 
 
-and let $C$ be a [[fully faithful functor]]. 
-
-Then for every fibrant and cofibrant $Y \in \mathcal{D}$ we have 
-
-1. the map on [[derived hom-functors]] given by precomposition with the [[derived adjunction unit]]
+1. If $C$ is a [[fully faithful functor]], write
 
    $$
-     \mathbb{R}Hom(\bigcirc X, C Y)
-     \longrightarrow 
-     \mathbb{R}Hom( X, C Y ) 
+     \bigcirc \;\coloneqq\;
+     \mathbb{R}_1 C \circ \mathbb{L}_1 L
+     \phantom{AAA}
+     \Box \;\coloneqq\;
+     \mathbb{L}_2 C \circ \mathbb{R}_2 R
    $$
 
-   is a weak equivalence;
+   for the composite [[derived functors]].
+
+   Then for every [[fibrant object|fibrant]] and [[cofibrant object|cofibrant]] $Y \in \mathcal{D}$ we have: 
+
+   1. the map on [[derived hom-functors]] given by precomposition with the [[derived adjunction unit]]
+
+      $$
+        \mathbb{R}hom(\bigcirc X, C Y)
+        \longrightarrow 
+        \mathbb{R}hom( X, C Y ) 
+      $$
+
+      is a [[weak equivalence]] in the [[classical model structure on simplicial sets]] $sSet_{Qu}$;
 
 
-1. the map on [[derived hom-functors]] given by postcomposition with the [[derived adjunction counit]]
+   1. the map on [[derived hom-functors]] given by postcomposition with the [[derived adjunction counit]]
 
-   $$
-     \mathbb{R}Hom( C Y, X ) 
-      \longrightarrow
-     \mathbb{R}Hom(C Y, \Box X)
-   $$
+      $$
+        \mathbb{R}hom( C Y, X ) 
+         \longrightarrow
+        \mathbb{R}hom(C Y, \Box X)
+      $$
 
-   is a weak equivalence;
+      is a [[weak equivalence]] in the [[classical model structure on simplicial sets]] $sSet_{Qu}$.
+
 
 =--
 
