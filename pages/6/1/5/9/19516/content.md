@@ -26,14 +26,15 @@ The concept of [[adjoint triples]] generalized form [[adjoint functors]] to [[Qu
 
 Let $\mathcal{C}_1, \mathcal{C}_2, \mathcal{D}$ be [[model categories]], where $\mathcal{C}_1$ and $\mathcal{C}_2$ share the same underlying [[category]] $\mathcal{C}$, and such that the [[identity functor]] on $\mathcal{C}$ constitutes a [[Quillen equivalence]]
 
-$$
+\[
+  \label{EquivForQuillenAdjointTriple}
   \mathcal{C}_2 
     \underoverset
       {\underset{ \phantom{AA}id\phantom{AA} }{\longrightarrow}}
       {\overset{ \phantom{AA}id\phantom{AA} }{\longleftarrow}}
       {{}_{\phantom{Qu}}\bot_{Qu}}
   \mathcal{C}_1
-$$
+\]
 
 Then 
 
@@ -277,8 +278,13 @@ This follows immediately from the fact that passing to [[homotopy categories of 
 
 =--
 
+
 ### Derived adjoint modality
  {#DerivedAdjointModality}
+
+We discuss how the [[derived functors]] of a [[simplicial Quillen adjunction|simplicial]] [[Quillen adjoint triple]] combine to a pair of derived modal operators (Prop. \ref{DerivedModalityFromQuillenAdjointTriple} below) which are adjoint in the sense of [[adjoint (∞,1)-functors]] (Prop. \ref{DerivedModalityFromQuillenAdjointTriple} below). Moreover, on suitably [[fibrant and cofibrant objects]] these derived modal operators are represented by the ordinary [[modal operators]] associated with the orinary [[adjoint triple]] (Lemma \ref{CompositeDerivedFunctorsOfQuillenAdjointTriple} and Lemma \ref{AltCompositeDerivedFunctorsOfQuillenAdjointTriple} below).
+
+
 
 +-- {: .num_lemma #CompositeDerivedFunctorsOfQuillenAdjointTriple}
 ###### Lemma
@@ -326,7 +332,9 @@ Then
 1. the composite [[derived functor]] 
 
    $$
-     \Box \;\coloneqq\; \mathbb{L}_2 C\circ \mathbb{R}_2 R
+     \Box 
+       \;\coloneqq\; 
+     \mathbb{L}_2 C\circ \mathbb{R}_2 R
    $$ 
    
    is equivalent to $\mathbb{R}_2( C \circ R )$, and under this identification the [[derived adjunction counit]] is given by the plain [[adjunction counit]] on [[fibrant objects]].
@@ -479,7 +487,11 @@ Then
    $$
      \Box 
      \;\coloneqq\;
-     \mathbb{L}_ L \circ \mathbb{R}_1 C (c)
+     \mathbb{L}_1 L \circ \mathbb{R}_1 C (c)
+     \;\colon\;
+     Ho(\mathcal{C})
+       \longrightarrow
+     Ho(\mathcal{C})
    $$ 
    
    is equivalent to $\mathbb{R}_1(L \circ C)$, and under this identification the [[derived adjunction counit]] is given by the plain [[adjunction counit]] on [[cofibrant objects]]; 
@@ -490,6 +502,11 @@ Then
      \bigcirc
        \;\coloneqq\; 
      \mathbb{R}_2 R \circ \mathbb{L}_2 C(c)
+     \;\colon\;
+     Ho(\mathcal{C})
+       \longrightarrow
+     Ho(\mathcal{C})
+     \;\;
    $$ 
    
    is equivalent to $\mathbb{L}( R \circ C )$, and under this identification the [[derived adjunction unit]] is given by the plain [[adjunction unit]] on [[fibrant objects]].
@@ -507,7 +524,7 @@ A priori, the full derived functor is given by
 $$
   \mathbb{L}_1 L \circ \mathbb{R}_1 C (c)
   \;\simeq\;
-  L Q_ C P_1 (c)
+  L Q C P_1 (c)
 $$
 
 The comparison morphism is
@@ -594,7 +611,7 @@ be a [[simplicial Quillen adjunction|simplicial]] [[Quillen adjoint triple]] (De
 
    for the composite [[derived functors]].
 
-   Then for every [[fibrant object|fibrant]] and [[cofibrant object|cofibrant]] $Y \in \mathcal{D}$ we have: 
+   Then for every [[fibrant and cofibrant object]] $Y \in \mathcal{D}$ we have: 
 
    1. the map on [[derived hom-functors]] given by precomposition with the [[derived adjunction unit]]
 
@@ -617,6 +634,42 @@ be a [[simplicial Quillen adjunction|simplicial]] [[Quillen adjoint triple]] (De
 
       is a [[weak equivalence]] in the [[classical model structure on simplicial sets]] $sSet_{Qu}$.
 
+1. If $L$ and $R$ are [[fully faithful functors]] and for the case of the Quillen adjoint triple on the right, write
+
+
+   $$
+     \Box \;\coloneqq\;
+     \mathbb{L}_1 L\circ \mathbb{R}_1 C
+     \phantom{AAA}
+     \bigcirc \;\coloneqq\;
+     \mathbb{R}_2 R \circ \mathbb{L}_2 C
+   $$
+
+   for the composite derived functors
+
+   Then for every [[fibrant and cofibrant object]] $Y_{1,2} \in \mathcal{C}_{1,2}$ we have: 
+
+   1. the map on [[derived hom-functors]] given by precomposition with the [[derived adjunction unit]]
+
+      $$
+        \mathbb{R}hom(\bigcirc X, C Y_2)
+        \longrightarrow 
+        \mathbb{R}hom( X, C Y_2 ) 
+      $$
+
+      is a [[weak equivalence]] in the [[classical model structure on simplicial sets]] $sSet_{Qu}$;
+
+
+   1. the map on [[derived hom-functors]] given by postcomposition with the [[derived adjunction counit]]
+
+      $$
+        \mathbb{R}hom( C Y_1, X ) 
+         \longrightarrow
+        \mathbb{R}hom(C Y_1, \Box X)
+      $$
+
+      is a [[weak equivalence]] in the [[classical model structure on simplicial sets]] $sSet_{Qu}$.
+
 
 =--
 
@@ -624,10 +677,157 @@ be a [[simplicial Quillen adjunction|simplicial]] [[Quillen adjoint triple]] (De
 ###### Proof
 
 
-By Lemma \ref{CompositeDerivedFunctorsOfQuillenAdjointTriple}, the derived adjunction unit is the plain [[adjunction unit]], up to weak equivalence. Hence the statement follows with the corresponding statement for (co-)reflective subcategories.
+By Lemma \ref{CompositeDerivedFunctorsOfQuillenAdjointTriple}, the [[derived adjunction unit|derived adjunction (co-)unit]] in each case is the plain [[adjunction unit|adjunction (co-)unit]], up to weak equivalence. Hence the statement follows with the corresponding statement for (co-)reflective subcategories.
 
 =--
 
++-- {: .num_prop}
+###### Proposition
+**(derived adjoint modality from Quillen adjoint triple)**
+
+Given [[simplicial model category|simplicial]] [[Quillen adjoint triples]]
+
+$$
+  \mathcal{C}_{1/2}
+    \array{
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{L}{\longrightarrow}
+      \\
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{C}{\longleftarrow}
+      \\
+      \overset{\phantom{AA}R\phantom{AA}}{\longrightarrow}
+      \\
+    }
+  \mathcal{D}
+  \phantom{AAA}\text{or}\phantom{AAA}
+  \mathcal{C}_{1/2}
+    \array{
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{L}{\longleftarrow}
+      \\
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{C}{\longrightarrow}
+      \\
+      \overset{\phantom{AA}R\phantom{AA}}{\longleftarrow}
+      \\
+    }
+  \mathcal{D}
+$$ 
+
+the composite [[derived functors]] 
+
+$$
+  \bigcirc \;\coloneqq\;
+  \mathbb{R}_1 C \circ \mathbb{L}_1 L
+  \phantom{AAA}
+  \Box \;\coloneqq\;
+  \mathbb{L}_2 C \circ \mathbb{R}_2 R
+$$
+
+satisfy the hom-equivalence of a pair of [[adjoint (∞,1)-functors]] $\bigcirc \dashv \Box$ with respect to the [[derived hom-functor]], in that for all $X,Y$ in the [[homotopy category of a model category|homotopy category]] there is a [[weak equivalence]]
+
+$$
+  \mathbb{R}hom( \bigcirc X, Y )
+  \overset{\in W}{\longrightarrow}
+  \mathbb{R}hom( X, \Box Y )
+  \,.
+$$
+
+Similarly, for a [[Quillen adjoint triple]] of the form
+
+$$
+  \mathcal{C}_{1/2}
+    \array{
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{L}{\longleftarrow}
+      \\
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{C}{\longrightarrow}
+      \\
+      \overset{\phantom{AA}R\phantom{AA}}{\longleftarrow}
+      \\
+    }
+  \mathcal{D}
+$$
+
+the [[derived functors]]
+
+$$
+  \Box 
+  \;\coloneqq\;
+  \mathbb{L}_1 L\circ \mathbb{R}_1 C
+  \,,
+  \phantom{AAAA}
+  \bigcirc 
+  \;\coloneqq\;
+  \mathbb{R}_2 R \circ \mathbb{L}_2 C
+$$
+
+satisfy
+
+$$
+  \mathbb{R}hom( \Box X, Y )
+  \overset{\in W}{\longrightarrow}
+  \mathbb{R}hom( X, \bigcirc Y )
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+In the cases where $X$ and $Y$ are objects of $Ho(\mathcal{D})$ choose [[fibrant and cofibrant objects|fibrant and cofibrant]] representatives in $\mathcal{D}$, which we denote by the same symbols. 
+
+In the cases where $X,Y$ are objects of $\mathcal{C}$, choose $X$ to be a [[fibrant and cofibrant object]] with respect to $\mathcal{C}_1$ and $Y$ a [[fibrant and cofibrant object]] with respect to $\mathcal{C}_2$.
+
+Then by Lemma \ref{CompositeDerivedFunctorsOfQuillenAdjointTriple} and Lemma \ref{AltCompositeDerivedFunctorsOfQuillenAdjointTriple}, in each case the derived [[modal operators]] are represented on these objects by the ordinary modal operators
+
+We discuss the first case, with the Quillen adjoint triple on the left. The other cases are directly analogous.
+
+Let $X$ be a [[fibrant and cofibrant object|fibrant and cofibrant]] representative in $\mathcal{C}_1$ and $Y$ be [[fibrant and cofibrant object|
+fibrant and cofibrant]] representative in $\mathcal{C}_2$. By lemma \ref{CompositeDerivedFunctorsOfQuillenAdjointTriple}, on these the derived modal operators are represented by the plain [[modal operators]]
+
+$$
+  \bigcirc X \simeq C L X
+  \,,
+  \phantom{AA}
+  \Box Y \simeq C R Y
+  \;\;\in\;
+  Ho(\mathcal{C})
+  \,.
+$$
+
+Moreover,
+
+1. $C L X$ is cofibrant in $\mathcal{C}_1$, and hence also in $\mathcal{C}_2$;
+
+1. $C R Y$ is fibrant in $\mathcal{C}_2$ and hence in $\mathcal{C}_1$ 
+
+where we used (eq:EquivForQuillenAdjointTriple).
+
+This means that the [[derived hom-functor]], computed either with respect to $\mathcal{C}_1$ or $\mathcal{C}_2$, is given on these objects, up to weak equivalence, by the ordinary [[sSet]]-[[enriched hom-functor]] 
+
+$$
+  \mathcal{C}(-,-)
+  \;\colon\;
+  \mathcal{C}^{op} \times \mathcal{C}
+  \longrightarrow
+  sSet
+$$
+
+Hence using the adjunction hom-isomorphisms for the ordinart [[enriched adjunctions]] $(L \dashv C \dashv R)$ we obtain the following sequences of [[weak homotopy equivalences]]:
+
+$$
+  \begin{aligned}
+    \mathbb{R}hom( \bigcirc X, Y )
+    & \simeq_W
+    \mathcal{C}( C L X, Y )
+    \\
+    & \simeq
+    \mathcal{C}( X, C R Y )
+    \\
+    & \simeq_W
+    \mathbb{R}hom(X, \Box Y)
+  \end{aligned}
+$$
+
+=--
 
 
 ## Examples 
