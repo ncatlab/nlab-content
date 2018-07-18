@@ -14747,19 +14747,87 @@ An _[[classical model structure on simplicial sets|sSet]]${}_{Quillen}$-[[enrich
 
 such that these two structures are compatible in the following way:
 
-* for every [[cofibration]] $X \to Y$ and every [[fibration]] $A \to B$ in $\mathcal{C}$, the induced [[pullback powering]]-morphism of [[hom-objects|hom]]-[[simplicial sets]]
+* for every [[cofibration]] $X \overset{f}{\to} Y$ and every [[fibration]] $A \overset{g}{\to} B$ in $\mathcal{C}$, the induced [[pullback powering]]-morphism of [[hom-objects|hom]]-[[simplicial sets]]
 
-  $$
+  \[
+    \label{SimplicialModelCategoryComparisonMorphism}
     \mathcal{C}(Y,A)
       \longrightarrow
      \mathcal{C}(X,A) 
        \underset{\mathcal{C}(X,B)}{\times}
      \mathcal{C}(Y,B)
-  $$
+  \]
 
   is a [[Kan fibration]] (Def. \ref{KanFibration}), and is a [[weak homotopy equivalence]] (Def. \ref{WeakHomotopyEquivalence}) as soon as one of the two morphisms is a [[weak equivalence]] in $\mathcal{C}$.
 
 =--
+
++-- {: .num_example}
+###### Example
+
+Let $\mathcal{C}$ be a [[simplicial model category]] (Def. \ref{SimplicialModelCategory}). 
+
+If $B \in \mathcal{C}$ is a [[cofibrant object]], then the [[enriched hom-functor]] out of $X$
+
+$$
+  \mathcal{C}(B,-)
+  \;\colon\; 
+  \mathcal{C}
+    \longrightarrow
+  sSet_{Qu}
+$$
+
+preserves [[fibrations]] and [[acyclic fibrations]]. 
+
+If $X \in \mathcal{C}$ is a [[fibrant object]], then the [[enriched hom-functor]] into $X$
+
+$$
+  \mathcal{C}(-,X)
+  \;\colon\; 
+  \mathcal{C}^{op}
+    \longrightarrow
+  sSet_{Qu}
+$$
+
+preserves [[fibrations]] and [[acyclic fibrations]] (hence sends [[cofibrations]] and [[acyclic cofibrations]] in $\mathcal{C}$ to fibrations and acyclic fibrations, respectively, in the [[classical model structure on simplicial sets]]).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+In the first case, consider the comparison morphism (eq:SimplicialModelCategoryComparisonMorphism) for $A =\emptyset$ the [[initial object]], in the second case consider it for $Y = \ast$ the [[terminal object]].
+
+
+=--
+
++-- {: .num_defn #DerivedHomFunctorPOnSimplicialModelCategory}
+###### Definition
+**([[derived hom-functor]])**
+
+Let $\mathcal{C}$ be a [[simplicial model category]] (Def. \ref{SimplicialModelCategory}). 
+
+The [[right derived functor]] (Def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}) of the [[enriched hom-functor]] is called the _[[derived hom-functor]]_
+
+$$
+  \mathbb{R}hom
+  \;\colon\;
+  Ho(\mathcal{C})^{op} \times Ho(\mathcal{C})
+  \longrightarrow
+  Ho(sSet_{Quillen})
+$$
+
+In the presence of [[functorial factorization|functorial]] [[cofibrant resolution]] $Q$ and [[fibrant resolution]] $P$ (Def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}) this is given by the ordinary [[enriched hom-functor]] $\mathcal{C}(-,-)$ as
+
+$$
+  \mathbb{R}hom(X,Y)
+  \;\simeq\;
+  \mathcal{C}(Q X, P Y)
+  \,.
+$$
+
+=--
+
 
 +-- {: .num_prop #RecognitionOfSimplicialQuillenAdjunction}
 ###### Proposition
@@ -14815,30 +14883,6 @@ are
 
 =--
 
-+-- {: .num_defn #DerivedHomFunctorPOnSimplicialModelCategory}
-###### Definition
-**([[derived hom-functor]])**
-
-Let $\mathcal{C}$ be a [[simplicial model category]] (Def. \ref{SimplicialModelCategory}). Then the [[right derived functor]] (Def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}) of the [[enriched hom-functor]] is called the _[[derived hom-functor]]_
-
-$$
-  \mathbb{R}[-,-]
-  \;\colon\;
-  Ho(\mathcal{C}^{op} \times \mathcal{C})
-  \longrightarrow
-  Ho(sSet_{Quillen})
-$$
-
-In the presence of [[functorial factorization|functorial]] [[cofibrant resolution]] $Q$ and [[fibrant resolution]] $P$ (Def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}) this is given by the ordinary [[enriched hom-functor]] $\mathcal{C}(-,-)$ as
-
-$$
-  \mathbb{R}Hom(X,Y)
-  \;\simeq\;
-  \mathcal{C}(Q X, P Y)
-  \,.
-$$
-
-=--
 
 The following is the [[model category]]-analog of the concept of _[[local objects]]_ from Def. \ref{LocalObjects}:
 
@@ -16104,4 +16148,4 @@ $\,$
 
 (...)
 
- 
+ d
