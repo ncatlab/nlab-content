@@ -2235,7 +2235,7 @@ Let $\mathcal{C}$ be a [[model category]] with [[full subcategories]] $\mathcal{
      F \;\colon\; \mathcal{C}_c \longrightarrow \mathcal{D}
    $$
 
-   is a [[homotopical functor]], def. \ref{HomotopicalFunctor}, already if it sends [[acylic cofibrations]] to [[weak equivalences]].
+   is a [[homotopical functor]], def. \ref{HomotopicalFunctor}, already if it sends [[acyclic cofibrations]] to [[weak equivalences]].
 
 =--
 
@@ -10361,7 +10361,7 @@ Let $\mathcal{C}$ be a [[topologically enriched category]], def. \ref{TopEnriche
      \,.
    $$
 
-   This is called the **[[tensoring]]** of $[\mathcal{C},Top_{cg}]$ over $Top_{cg}$.
+   This is called the **[[tensoring]]** of $[\mathcal{C},Top_{cg}]$ over $Top_{cg}$ (Def. \ref{TensoringAndPoweringOfTopologicallyEnrichedCopresheaves}).
 
 1. Define a functor
 
@@ -10401,7 +10401,7 @@ Analogously, for $\mathcal{C}$ a pointed [[topologically enriched category]], de
      \,.
    $$
 
-   This is called the **smash [[tensoring]]** of $[\mathcal{C},Top^{\ast/}_{cg}]$ over $Top^{\ast/}_{cg}$.
+   This is called the **smash [[tensoring]]** of $[\mathcal{C},Top^{\ast/}_{cg}]$ over $Top^{\ast/}_{cg}$ (Def. \ref{TensoringAndPoweringOfTopologicallyEnrichedCopresheaves}).
 
 1. Define a functor
 
@@ -14741,7 +14741,9 @@ In order to get good control over [[left Bousfield localization]] (Def. \ref{Bou
 
 An _[[classical model structure on simplicial sets|sSet]]${}_{Quillen}$-[[enriched model category]]_ or _[[simplicial model category]]_, for short is a [[category]] $\mathcal{C}$ (Def. \ref{Categories}) equipped with
 
-1. the [[structure]] of an [[sSet]]-[[enriched category]] (Def. \ref{TopEnrichedCategory} via Example \ref{UnderlyingCategoryOfTopEnrichedCategory}), with [[sSet]] (Def. \ref{sSet}), equipped with its canonical [[structure]] of a [[cosmos]] from Prop. \ref{PropertiesOfSheafToposes}, Example \ref{ExamplesOfCosmoi}, and with compatible [[powering]] and [[copowering]] over [[sSet]];
+1. the [[structure]] of an [[sSet]]-[[enriched category]] (Def. \ref{TopEnrichedCategory} via Example \ref{UnderlyingCategoryOfTopEnrichedCategory}), which is also [[tensored and cotensored category|tensored and cotensored]] over [[sSet]] (Def. \ref{TensoringAndPoweringOfTopologicallyEnrichedCopresheaves})
+
+   (with [[sSet]] (Def. \ref{sSet}), equipped with its canonical [[structure]] of a [[cosmos]] from Prop. \ref{PropertiesOfSheafToposes}, Example \ref{ExamplesOfCosmoi}),
 
 1. the [[structure]] of a [[model category]] (Def. \ref{ModelCategory})
 
@@ -14762,42 +14764,103 @@ such that these two structures are compatible in the following way:
 
 =--
 
-+-- {: .num_example}
-###### Example
++-- {: .num_prop #InSimplicialModelCategoryEnrichedHomIsHomotopical}
+###### Proposition
+**(in [[simplicial model category]] [[enriched hom-functor]] out of [[cofibrant object|cofibrant]] into [[fibrant object|fibrant]] is [[homotopical functor]])**
+
 
 Let $\mathcal{C}$ be a [[simplicial model category]] (Def. \ref{SimplicialModelCategory}). 
 
-If $B \in \mathcal{C}$ is a [[cofibrant object]], then the [[enriched hom-functor]] out of $X$
+If $Y \in \mathcal{C}$ is a [[cofibrant object]], then the [[enriched hom-functor]] (Example \ref{EnrichedHomFunctor}) out of $X$
 
 $$
-  \mathcal{C}(B,-)
+  \mathcal{C}(Y,-)
   \;\colon\; 
   \mathcal{C}
     \longrightarrow
   sSet_{Qu}
 $$
 
-preserves [[fibrations]] and [[acyclic fibrations]]. 
+preserves [[fibrations]] and [[acyclic fibrations]].
 
-If $X \in \mathcal{C}$ is a [[fibrant object]], then the [[enriched hom-functor]] into $X$
+If $A \in \mathcal{C}$ is a [[fibrant object]], then the [[enriched hom-functor]] (Example \ref{EnrichedHomFunctor}) into $X$
 
 $$
-  \mathcal{C}(-,X)
+  \mathcal{C}(-,A)
   \;\colon\; 
   \mathcal{C}^{op}
     \longrightarrow
   sSet_{Qu}
 $$
 
-preserves [[fibrations]] and [[acyclic fibrations]] (hence sends [[cofibrations]] and [[acyclic cofibrations]] in $\mathcal{C}$ to fibrations and acyclic fibrations, respectively, in the [[classical model structure on simplicial sets]]).
+sends [[cofibrations]] and [[acyclic cofibrations]] in $\mathcal{C}$ to fibrations and acyclic fibrations, respectively, in the [[classical model structure on simplicial sets]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-In the first case, consider the comparison morphism (eq:SimplicialModelCategoryComparisonMorphism) for $A =\emptyset$ the [[initial object]], in the second case consider it for $Y = \ast$ the [[terminal object]].
+In the first case, consider the comparison morphism (eq:SimplicialModelCategoryComparisonMorphism) for $X =\emptyset$ the [[initial object]], in the second case consider it for $B = \ast$ the [[terminal object]] (Def. \ref{InitialObject})
 
+Since $\mathcal{C}$ is a [[tensored and cotensored category]], Prop. \ref{InTensoredCotensoredCategoryInitialObjectIsEnrichedInitial} says that 
+
+$$
+  \mathcal{C}(\emptyset, -)
+  \;\simeq\;
+  \ast
+  \phantom{AA}
+  \text{and}
+  \phantom{AA}
+  \mathcal{C}(-,\ast)
+  \;\ast\;
+  \;\;\;
+  \in sSet
+  \,.
+$$
+
+This means that in the first case the comparison morphism 
+$$
+    \mathcal{C}(Y,A)
+      \longrightarrow
+     \mathcal{C}(X,A) 
+       \underset{\mathcal{C}(X,B)}{\times}
+     \mathcal{C}(Y,B)
+$$
+(eq:SimplicialModelCategoryComparisonMorphism) becomes equal to the top morphism in the following diagram 
+
+$$
+  \array{
+    \mathcal{C}(Y,A)
+       &\overset{\mathcal{C}(Y,g)}{\longrightarrow}&
+    \mathcal{C}(Y,B)
+    \\
+    \Big\downarrow
+      &&
+    \Big\downarrow
+    \\
+    \ast &\underset{\phantom{AAA}}{\longrightarrow}& \ast
+  }
+$$
+
+while in the second case it becomes equal to the left morphism in
+
+$$
+  \array{
+    \mathcal{C}(Y,A)
+       &\overset{\phantom{\mathcal{C}(Y,g)}}{\longrightarrow}&
+    \ast
+    \\
+    {}^{\mathllap{ \mathcal{C}(f,A) }}\Big\downarrow
+      &&
+    \Big\downarrow
+    \\
+    \mathcal{C}(X,A) 
+      &\underset{\phantom{AAA}}{\longrightarrow}& 
+    \ast
+  }
+$$
+
+Hence the claim follows by the defining condition on the comparison morphism in a [[simplicial model category]].
 
 =--
 
@@ -14807,7 +14870,7 @@ In the first case, consider the comparison morphism (eq:SimplicialModelCategoryC
 
 Let $\mathcal{C}$ be a [[simplicial model category]] (Def. \ref{SimplicialModelCategory}). 
 
-The [[right derived functor]] (Def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}) of the [[enriched hom-functor]] is called the _[[derived hom-functor]]_
+By Prop. \ref{InSimplicialModelCategoryEnrichedHomIsHomotopical} and by [[Ken Brown's lemma]] (Prop. \ref{KenBrownLemma}), the [[enriched hom-functor]]  (Example \ref{EnrichedHomFunctor}) has a [[right derived functor]] (Def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}) when its first argument is [[cofibrant object|cofibrant]] or its second argument is [[fibrant object|fibrant]]. The combination is called the _[[derived hom-functor]]_
 
 $$
   \mathbb{R}hom
@@ -15752,7 +15815,7 @@ $$
   sSet_{Qu}
 $$ 
 
-this means to check that for every [[Kan complex]] $S \in sSet$ the [[simplicial presheaves]] $Disc(S)$ and $coDisc(S)$ are derived-[[local objects]] (Def. \ref{DerivedLocalObjects}, Prop. \ref{ExistenceOfLeftBousfieldLocalization}) with respect to the [[Cech nerve]] projections. Since $Disc$ and $coDisc$ are [[right Quillen functors]] with respect to the global model projective model structure, $Disc(S)$ and $coDisc(S)$ are globally projectively fibrant simplicial presheaves. Since, moreover, $C(\{U_i\})$ is projectively cofibrant by assumption, and since the representables $X \in \mathcal{C}$ are projectively cofibrant by Prop. \ref{SomeProjectivelyCofibrantSimplicialPresheaves}, the value of the [[derived hom-functor]] reduces to that of the ordinary [[enriched hom-functor]], and hence the condition is that 
+this means to check that for every [[Kan complex]] $S \in sSet$ the [[simplicial presheaves]] $Disc(S)$ and $coDisc(S)$ are derived-[[local objects]] (Def. \ref{DerivedLocalObjects}, Prop. \ref{ExistenceOfLeftBousfieldLocalization}) with respect to the [[Cech nerve]] projections. Since $Disc$ and $coDisc$ are [[right Quillen functors]] with respect to the global model projective model structure, $Disc(S)$ and $coDisc(S)$ are globally projectively fibrant simplicial presheaves. Since, moreover, $C(\{U_i\})$ is projectively cofibrant by assumption, and since the representables $X \in \mathcal{C}$ are projectively cofibrant by Prop. \ref{SomeProjectivelyCofibrantSimplicialPresheaves}, the value of the [[derived hom-functor]] reduces to that of the ordinary [[enriched hom-functor]] (Def. \ref{EnrichedHomFunctor}), and hence the condition is that 
 
 $$
   \array{
