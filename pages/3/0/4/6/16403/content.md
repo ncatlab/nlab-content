@@ -14361,7 +14361,7 @@ The following is the [[homotopy theory|homotopy-theoretic]] analog of Example \r
 
 +-- {: .num_example #QuillenAdjointQuadrupleOfHomotopyKanExtensionAlongAdjointPair}
 ###### Example
-**([[Quillen adjoint triple]] of [[homotopy Kan extension]] of [[simplicial presheaves]] along [[adjoint pair]])**
+**([[Quillen adjoint quadruple]] of [[homotopy Kan extension]] of [[simplicial presheaves]] along [[adjoint pair]])**
 
 Now let 
 
@@ -14374,7 +14374,7 @@ $$
   \mathcal{D}
 $$
 
-be a [[adjoint pair|pair]] of [[adjoint functors]]. By [[Kan extension]] [[enriched category|enriched]] over [[sSet]] (Example \ref{ExamplesOfCosmoi})  this induces an [[adjoint quadruple]] between [[categories of simplicial presheaves]] (Prop. \ref{KanExtensionOfAdjointPairIsAdjointQuadruple})
+be a [[adjoint pair|pair]] of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}). By [[Kan extension]] [[enriched category|enriched]] over [[sSet]] (Example \ref{ExamplesOfCosmoi})  this induces an [[adjoint quadruple]] between [[categories of simplicial presheaves]] (Prop. \ref{KanExtensionOfAdjointPairIsAdjointQuadruple})
 
 $$
   [\mathcal{C}^{op}, sSet]
@@ -15511,6 +15511,59 @@ such that the functor $C$ is left and right Quillen with respect to both $\mathc
 By Lemma \ref{CompositeDerivedFunctorsOfQuillenAdjointTriple}, the [[derived adjunction unit|derived adjunction (co-)unit]] in each case is the plain [[adjunction unit|adjunction (co-)unit]], up to weak equivalence. Hence the statement follows with the corresponding statement for (co-)reflective subcategories.
 
 =--
+
+
++-- {: .num_example #DerivedModalOperatorsFromKanExtensionAlongAdjointPair}
+###### Example
+**(derived [[modal operators]] from [[Kan extension]] along [[adjoint pair]])**
+
+Let $\mathcal{C}$ and $\mathcal{D}$ be [[small categories]] (Def. \ref{SmallCategory}) and let 
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{\phantom{AA}R\phantom{AA}}{\longleftarrow}}
+      {\overset{\phantom{AA}L\phantom{AA}}{\longrightarrow}}
+      {\bot}
+  \mathcal{D}
+$$
+
+be a [[adjoint pair|pair]] of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}). By [[Kan extension]] [[enriched category|enriched]] over [[sSet]] (Example \ref{ExamplesOfCosmoi})  this induces an [[adjoint quadruple]] between [[categories of simplicial presheaves]] (Prop. \ref{KanExtensionOfAdjointPairIsAdjointQuadruple})
+
+$$
+  [\mathcal{C}^{op}, sSet]
+    \array{
+      \underoverset{\bot \phantom{\simeq A_a}}{ L_! \phantom{\simeq A_a} }{\longrightarrow}
+      \\
+      \underoverset{\bot \phantom{\simeq} \bot }{ L^\ast \simeq R_! }{\longleftarrow}
+      \\
+      \underoverset{\phantom{A_a \simeq}\bot}{ L_\ast \simeq R^\ast }{\longrightarrow}
+      \\
+      \overset{ \phantom{A_a \simeq } R_\ast }{\longrightarrow}
+    }
+  [\mathcal{D}^{op}, sSet]
+$$
+
+By Prop. \ref{QuillenAdjointQuadrupleOfHomotopyKanExtensionAlongAdjointPair} this is a [[Quillen adjoint quadruple]] (Def. \ref{QuillenAdjointTriple}). By Prop. \ref{QuillenAdjointTripleInducesAdjointTripleOfDerivedFunctors} this induces an [[adjoint quadruple]] of [[derived functors]] on [[homotopy category of a model category|homotopy categories]], which in turn, by composition, induce two [[adjoint triples]]
+
+$$
+  Ho([\mathcal{C}^{op}, sSet])
+    \array{
+      \underoverset{\bot}{\phantom{AA}\bigcirc\phantom{AA}}{\longrightarrow}
+      \\
+      \underoverset{\bot}{\phantom{AA}\Box\phantom{AA}}{\longleftarrow}
+      \\
+      \underoverset{\bot}{\phantom{AA}\lozenge\phantom{AA}}{\longrightarrow}
+    }
+  Ho([\mathcal{C}^{op}, sSet])
+$$
+
+and similarly on $Ho([\mathcal{D}^{op}, sSet])$.
+
+All these are _derived [[modal operators]]_ according to Def. \ref{DerivedModalOperator}.
+
+=--
+
 
 
 
