@@ -1570,7 +1570,54 @@ $$
 
 
 
-With this [[coend]] calculus in hand, there is an elegant proof of the defining [[universal property]] of the smash [[tensoring]] and [[powering]]  [[enriched presheaves]] (Def. \ref{TensoringAndPoweringOfTopologicallyEnrichedCopresheaves}):
+With this [[coend]] calculus in hand, there is an elegant proof of the defining [[universal property]] of the smash [[tensoring]] and [[powering]]  [[enriched presheaves]]
+
++-- {: .num_defn #TensoringAndPoweringOfTopologicallyEnrichedCopresheaves}
+###### Definition
+**([[tensoring]] and [[powering]] of [[enriched presheaves]])**
+
+Let $\mathcal{C}$ be a $\mathcal{V}$-[[enriched category]], def. \ref{TopEnrichedCategory}, with $[\mathcal{C}, \mathcal{V}]$ its [[functor category]] of [[enriched functors]] (Example \ref{CategoryOfEnrichedFunctors}).
+
+1. Define a [[functor]]
+
+   $$
+     (-)\cdot(-)
+       \;\colon\;
+     [\mathcal{C}, \mathcal{V}] \times \mathcal{V}
+      \longrightarrow
+     [\mathcal{C}, \mathcal{V}]
+   $$
+
+   by forming objectwise [[tensor products]]
+
+   $$
+     F \cdot X \;\colon\; c \mapsto F(c) \otimes X
+     \,.
+   $$
+
+   This is called the **[[tensoring]]** of $[\mathcal{C}, \mathcal{V}]$ over $\mathcal{V}$.
+
+1. Define a functor
+
+   $$
+     (-)^{(-)}
+       \;\colon\;
+     \mathcal{V}^{op} \times [\mathcal{C}, \mathcal{V}]
+       \longrightarrow
+     [\mathcal{C}, \mathcal{V}]
+   $$
+
+   by forming objectwise [[internal homs]] (Def. \ref{ClosedMonoidalCategory})
+
+   $$
+     F^X \;\colon\; c \mapsto [X,F(c)]
+     \,.
+   $$
+
+   This is called the **[[powering]]** of $[\mathcal{C}, \mathcal{V}]$ over $\mathcal{V}$.
+
+
+=--
 
 +-- {: .num_prop #UniversalPropertyOfTensoringAndPoweringOfFunctorsToTopcg}
 ###### Proposition
@@ -1679,6 +1726,172 @@ $$
 $$
 
 =--
+
+$\,$
+
+### Tensoring and cotensoring
+
+We make explicit the general concept of which Prpp. \ref{UniversalPropertyOfTensoringAndPoweringOfFunctorsToTopcg} provides a key class of examples:
+
+$\,$
+
+
++-- {: .num_defn #TensoringAndCotensoring}
+###### Definition
+**([[tensoring]] and [[cotensoring]])**
+
+For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}) let $\mathcal{C}$ be a $\mathcal{V}$-[[enriched category]] (Def. \ref{TopEnrichedCategory}). Recall the [[enriched hom-functors]] (Example \ref{EnrichedHomFunctor})
+
+$$
+  \mathcal{C}(-,-)
+  \;\colon\;
+  \mathcal{C}^{op} \times \mathcal{C} \longrightarrow \mathcal{V}
+$$
+
+and (via Example \ref{TopkAsATopologicallyEnrichedCategory})
+
+$$
+  \mathcal{V}(-,-)
+  =
+  [-,-]
+  \;\colon\;
+  \mathcal{V}^{op} \times \mathcal{V} \longrightarrow \mathcal{V}
+  \,.
+$$
+
+
+1. A _[[powering]]_ (or _[[cotensoring]]_) of $\mathcal{C}$ over $\mathcal{V}$ is 
+
+   1. a [[functor]] (Def. \ref{Functors})
+
+      $$
+        [-,-] 
+        \;\colon\;
+        \mathcal{V}^{op} \times \mathcal{C} \longrightarrow \mathcal{C}
+      $$
+
+   1. for each $v \in \mathcal{V}$ a [[natural isomorphism]] (Def. \ref{NaturalTransformations}) of the form
+
+      \[
+        \label{NaturalIsomorphismForCotensoring}
+        \mathcal{V}(v, \mathcal{C}(c_1,c_2)  )
+        \;\simeq\;
+        \mathcal{C}(c_1,[v,c_2])
+      \]
+
+1. A _[[copowering]]_ (or _[[tensoring]]_) of $\mathcal{C}$ over $\mathcal{V}$ is 
+
+   1. a [[functor]] (Def. \ref{Functors})
+
+      $$
+        (-)\otimes(-)
+        \;\colon\;
+        \mathcal{V} \times \mathcal{C} \longrightarrow \mathcal{C}
+      $$
+
+   1. for each $v \in \mathcal{V}$ a [[natural isomorphism]] (Def. \ref{NaturalTransformations}) of the form
+
+      \[
+        \label{NaturalIsomorphismForTensoring}
+        \mathcal{C}(v \otimes c_1, c_2)
+        \;\simeq\;
+        \mathcal{V}(v, \mathcal{C}(c_1,c_2)  )
+      \]
+
+If $\mathcal{C}$ is equipped with a (co-)powering it is called _(co-)powered_
+over $\mathcal{V}$.
+
+=--
+
++-- {: .num_prop #TensoringLeftAdjointToCotensoring}
+###### Proposition
+**([[tensoring]] [[left adjoint]] to [[cotensoring]])**
+
+For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}) let $\mathcal{C}$ be a $\mathcal{V}$-[[enriched category]] (Def. \ref{TopEnrichedCategory}).
+
+If $\mathcal{C}$ is both [[tensored and cotensored category|tensored and cotensored]] over $\mathcal{V}$ (Def. \ref{TensoringAndCotensoring}), then for fixed $v \in \mathcal{V}$ the operations of [[tensoring]] with $v$ and of [[cotensoring]] with $\mathcal{V}$ form a pair of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets})
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{ [v,-] }{\longrightarrow}}
+      {\overset{ v \otimes (-) }{\longleftarrow}}
+      {\phantom{AA}\bot\phantom{AA}}
+  \mathcal{C}
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The hom-isomorphism (eq:HomIsomorphismForAdjointFunctors) characterizing the pair of [[adjoint functors]] is provided by the [[composition]] of 
+the [[natural isomorphisms]] (eq:NaturalIsomorphismForCotensoring) and (eq:NaturalIsomorphismForTensoring):
+
+$$
+  \array{
+    \mathcal{C}(v \otimes c_1, c_2)
+    \;\simeq\;
+    \mathcal{V}(v, \mathcal{C}(c_1,c_2)  )
+    \;\simeq\;
+    \mathcal{C}(c_1,[v,c_2])
+  }
+$$
+
+=--
+
+
++-- {: .num_prop #InTensoredCotensoredCategoryInitialObjectIsEnrichedInitial}
+###### Proposition
+**(in [[tensored and cotensored categories]] [[initial object|initial]]/[[terminal objects]] are enriched initial/terminal)**
+
+For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}) let $\mathcal{C}$ be a $\mathcal{V}$-[[enriched category]] (Def. \ref{TopEnrichedCategory}).
+
+If $\mathcal{C}$ is both [[tensored and cotensored category|tensored and cotensored]] over $\mathcal{V}$ (Def. \ref{TensoringAndCotensoring}) then 
+
+1. an [[initial object]] $\emptyset$ (Def. \ref{InitialObject}) of the underlying [[category]] of $\mathcal{C}$ (Example \ref{UnderlyingCategoryOfTopEnrichedCategory}) is also enriched initial, in that the [[hom-object]] out of it is the [[terminal object]] $\ast$ of $\mathcal{V}$
+
+   $$
+     \mathcal{C}(\emptyset, c) \;\simeq\; \ast
+   $$
+
+1. a [[terminal object]] $\ast$ (Def. \ref{InitialObject}) of the underlying category of $\mathcal{C}$ (Example \ref{UnderlyingCategoryOfTopEnrichedCategory}) is also enriched terminal, in that the [[hom-object]] into it is the [[terminal object]] of $\mathcal{V}$:
+
+   $$
+     \mathcal{C}(c, \ast) \;\simeq\; \ast
+   $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We discuss the first claim, the second is [[formal duality|formally dual]].
+
+By prop. \ref{TensoringLeftAdjointToCotensoring}, tensoring is a [[left adjoint]]. Since [[left adjoints preserve colimits]] (Prop. \ref{AdjointsPreserveCoLimits}), and since an [[initial object]] is the [[colimit]] over the [[initial category|empty diagram]] (Example \ref{TerminalObjectIsEmptyLimit}), it follows that 
+
+$$
+  v \otimes \emptyset \;\simeq\; \emptyset
+$$
+
+for all $v \in \mathcal{V}$, in particular for $\emptyset \in \mathcal{V}$. Therefore the natural isomorphism (eq:NaturalIsomorphismForTensoring) implies for all $v \in \mathcal{V}$ that 
+
+$$
+  \mathcal{C}(\emptyset, c)
+  \;\simeq\;
+  \mathcal{C}( \emptyset \otimes \emptyset, c )
+  \;\simeq\;
+  \mathcal{V}( \emptyset, \mathcal{C}(\emptyset, c) )
+  \;\simeq\;
+  \ast
+$$
+
+where in the last step we used that the [[internal hom]] $\mathcal{V}(-,-) = [-,-]$ in $\mathcal{V}$ sends [[colimits]] in its first argument to [[limits]] (Prop. \ref{InternalHomPreservesLimits}) and used that a terminal object is [[generalized the|the]] [[limit]] over the [[empty category|empty diagram]] (Example \ref{TerminalObjectIsEmptyLimit}).
+
+=--
+
+  
+
 
 $\,$
 
