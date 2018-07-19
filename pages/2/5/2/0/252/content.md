@@ -47,6 +47,12 @@ Or if $\mathcal{V}$=[[topological spaces]] such that $\mathcal{C}$ is [[topologi
 
 * [[derived hom-space]]
 
+* [[hom-functor]]
+
+* [[enriched hom-functor]], [[internal hom-functor]]
+
+* [[derived hom-functor]]
+
 
 
 [[!include homotopy-homology-cohomology]]
