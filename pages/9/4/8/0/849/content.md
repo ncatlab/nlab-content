@@ -761,6 +761,14 @@ This is a Banach space and makes $Ban$ into a [[closed category]].
 
 ## Related concepts
 
+* [[hom-set]], [[hom-object]]
+
+* [[hom-functor]]
+
+* [[enriched hom-functor]]
+
+* [[derived hom-functor]]
+
 * [[function type]]
 
   * [[implication]], [[linear implication]]
@@ -802,3 +810,11 @@ A discussion query (R. Brown, T. Bartels, M. Shulman) about internal hom is at $
 
 [[!redirects exponential law]]
 [[!redirects exponential laws]]
+
+[[!redirects internal hom-functor]]
+[[!redirects internal hom-functors]]
+[[!redirects internal hom functor]]
+[[!redirects internal hom functors]]
+
+
+
