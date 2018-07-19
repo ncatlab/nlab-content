@@ -55,7 +55,7 @@ Surveys include
 
 * [[Minhyong Kim]], _Brief superficial remarks on Shinichi Mochizuki's Interuniversal Teichmueller Theory (IUTT), version 1_, 10/11/2015, ([pdf](http://people.maths.ox.ac.uk/kimm/papers/pre-iutt.pdf)).
 
-* [[Taylor Duypuy]], Hodge Theaters: _[A First Look at the Big Hodge Theater](https://www.youtube.com/watch?v=V_tWUswSUoo)_,  _[ Confused Groups and Torsors](https://www.youtube.com/watch?v=8yacRMVIIHs&list=PLJmfLfPx1OecDVF-VgXNeCfAlisy74PHt)_
+* [[Taylor Dupuy]], Hodge Theaters: _[A First Look at the Big Hodge Theater](https://www.youtube.com/watch?v=V_tWUswSUoo)_,  _[ Confused Groups and Torsors](https://www.youtube.com/watch?v=8yacRMVIIHs&list=PLJmfLfPx1OecDVF-VgXNeCfAlisy74PHt)_
 
 *  [RIMS/Symmetries and Correspondences workshop](https://www.maths.nottingham.ac.uk/personal/ibf/files/kyoto.iut.html): _[Inter-universal Teichm&#252;ller Theory Summit 2016](https://www.maths.nottingham.ac.uk/personal/ibf/files/iut-kyoto-pr.html)_
 
