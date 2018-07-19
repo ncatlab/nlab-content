@@ -104,10 +104,11 @@ $$
 
 =--
 
-It follows:
+It follows that:
 
-+-- {: .num_prop }
++-- {: .num_prop #InTensoredCotensoredCategoryInitialObjectIsEnrichedInitial}
 ###### Proposition
+**(in [[tensored and cotensored categories]] [[initial object|initial]]/[[terminal objects]] are enriched initial/terminal)**
 
 If $\mathcal{C}$ is both [[tensored and cotensored category|tensored and cotensored]] over $\mathcal{V}$ then 
 
@@ -167,6 +168,13 @@ The [[symmetric monoidal category|symmetric]] [[closed monoidal category]] $\mat
 For $\mathcal{C}$ a [[small category|small]] $\mathcal{V}$-[[enriched category]], the $\mathcal{V}$-enriched [[category of enriched presheaves]] $[\mathcal{C}^{op}, \mathcal{V}]$ is tensored and cotensored ([this Prop.](geometry+of+physics+--+categories+and+toposes#UniversalPropertyOfTensoringAndPoweringOfFunctorsToTopcg))
 
 =--
+
+## Related concepts
+
+* [[enriched model category]]
+
+
+
 
 [[!redirects powered and copowered categories]]
 
