@@ -97,6 +97,8 @@ The next two classes of examples are covered in Kelly's book (see references).
 
 ## Related concepts
 
+* [[tensored and cotensored category]]
+
 * **copower**, [[(∞,1)-copower]]
 
 * [[power]]
