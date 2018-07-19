@@ -176,6 +176,15 @@ where $j$ is the [[Yoneda embedding]]. Profunctors $\mathbf{F} : C^{op} \times C
 
 ## Related concepts
 
+* [[hom-set]], [[hom-object]]
+
+* [[hom-functor]]
+
+* [[enriched hom-functor]], [[internal hom-functor]]
+
+* [[derived hom-functor]]
+
+
 [[!include homotopy-homology-cohomology]]
 
 
