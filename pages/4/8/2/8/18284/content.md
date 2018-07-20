@@ -18,7 +18,7 @@
 * table of contents 
 {:toc}
 
-This page will collect some technical material concerning [[colimits]] of [[normal spaces]] as computed in [[Top]]. 
+This page will collect some technical material concerning [[colimits]] of [[normal spaces]] as computed in [[Top]]. Here "normal" means $T_4$, i.e., we assume as part of normality that points are closed. 
 
 In particular it shows that [[CW-complexes are paracompact Hausdorff spaces|CW-complexes are normal spaces]] (theorem \ref{CWComplexesAreNormal} below). 
 
