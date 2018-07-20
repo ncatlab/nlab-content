@@ -209,6 +209,8 @@ Likewise if there is a [[cylinder functor]], one gets functorially defined [[cyl
 
 * [[homotopy relative boundary]]
 
+* [[isotopy]], [[smooth isotopy]]
+
 * [[higher homotopy]]
 
 * [[homotopy class]]
