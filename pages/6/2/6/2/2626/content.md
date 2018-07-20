@@ -25,7 +25,7 @@ The theory of knots is very visual. It can provide a link between the concrete a
 
 A knot is a [[smooth map|smooth]] (or PL) [[embedding]] of the [[circle]] $S^1$ into $\mathbb{R}^3$, or equivalently into the $3$-[[sphere]] $S^3$ (one can also consider knots in other [[3-manifold]]s).
 
-Typically, knots are considered up to [[ambient isotopy]].
+Typically, knots are considered up to [[ambient isotopy]] (or [[smooth isotopy]]).
 
 Knots that are ambient isotopic are often said to have the *same knot type* or to be *in the same isotopy class*.
 
@@ -71,6 +71,8 @@ The study of knots is very pictorial.  There are various knot-related SVGs that 
 * [[SVG images]]
 
 ## Related concepts
+
+* [[isotopy]], [[smooth isotopy]]
 
 * [[MKR dictionary]] in [[arithmetic topology]]
 
