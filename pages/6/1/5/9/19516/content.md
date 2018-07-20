@@ -27,6 +27,7 @@ Currently, this page is primarily about a very restrictive case where only one o
 
 +-- {: .num_defn #QuillenAdjointTriple}
 ###### Definition
+**(Quillen adjoint triple)**
 
 Let $\mathcal{C}_1, \mathcal{C}_2, \mathcal{D}$ be [[model categories]], where $\mathcal{C}_1$ and $\mathcal{C}_2$ share the same underlying [[category]] $\mathcal{C}$, and such that the [[identity functor]] on $\mathcal{C}$ constitutes a [[Quillen equivalence]]
 
@@ -111,6 +112,355 @@ we speak of a _Quillen [[adjoint quadruple]]_, and so forth.
 
 =--
 
+
+## Examples 
+
+### Homotopy (co-)limits
+
++-- {: .num_example #HomotopyLimitQuillenAdjointTriple}
+###### Example
+**([[Quillen adjoint triple]] of [[homotopy limits]]/[[homotopy colimits|colimits]] of [[simplicial sets]])**
+
+Let $\mathcal{C}$ be a [[small category]], and write $[\mathcal{C}^{op}, sSet_{Qu}]_{proj/inj}$ for the projective/injective [[model structure on simplicial presheaves]] over $\mathcal{C}$, which participate in a [[Quillen equivalence]] of the form 
+
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    \underoverset
+      {\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}}
+      {\overset{\phantom{AA}id\phantom{AA}}{\longleftarrow}}
+      {\simeq_{Qu}}
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+$$
+
+(by [this Prop.](geometry+of+physics+--+categories+and+toposes#ModelCategoriesOfSimplicialPresheaves)).
+
+Moreover, the [[constant functor|constant diagram]]-assigning functor
+
+$$
+  [\mathcal{C}^{op}, sSet] \overset{const}{\longleftarrow} sSet
+$$
+
+is clearly a [[left Quillen functor]] for the injective model structure, and a [[right Quillen functor]] for the projective model structure.
+
+Together this means that in the [[double category of model categories]] we have a [[2-morphism]] of the form
+
+$$
+  \array{
+    sSet_{Qu}
+      &\overset{const}{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    \\
+    {}^{\mathllap{const}}
+    \Big\downarrow
+      &\swArrow_{\mathrlap{id}}& 
+    \Big\downarrow{}^{ \mathrlap{ id } }
+    \\
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    &\underset{id}{\longrightarrow}& 
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+  }
+$$
+
+Moreover, the [[derived natural transformation]] $Ho(id)$ of this square is invertible, if for every [[Kan complex]] $X$
+
+$$
+  Q const X
+    \overset{}{\longrightarrow}
+  const X
+    \longrightarrow
+  P const X  
+$$ 
+
+is a [[weak homotopy equivalence]] (by [this Prop.](double+category+of+model+categories#DerivedNaturalTransformationUpToIsos)), which here is trivially the case.
+
+Therefore we have a Quillen adjoint triple of the form
+
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj/inj}
+    \array{
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{\underset{\longrightarrow}{\lim}}{\longrightarrow}
+      \\
+      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{const}{\longleftarrow}
+      \\
+      \overset{\underset{\longleftarrow}{\lim}}{\longrightarrow}
+      \\
+    }
+  sSet_{Qu}
+$$ 
+
+witnessed by the following diagram in the [[double category of model categories]]
+
+$$
+  \array{
+    && 
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    &\overset{ \phantom{AA}id\phantom{AA} }{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}    
+    \\
+    && 
+    {}^{\mathllap{ \underset{\longrightarrow}{\lim} }}\Big\downarrow 
+    &{}^{\mathllap{\eta}}\swArrow&
+    \Big\downarrow{}^{\mathrlap{id}}
+    \\
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}    
+     &\overset{ \phantom{A}\underset{\longleftarrow}{\lim}\phantom{A} }{\longrightarrow}&
+    sSet_{Qu}
+      &\overset{\phantom{A}const\phantom{A}}{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    \\
+    {}^{\mathllap{ id }}\Big\downarrow
+    & {}^{\mathllap{\epsilon}}\swArrow &
+    {}^{\mathllap{const}}
+    \big\downarrow
+      &\swArrow_{\mathrlap{id}}& 
+    \big\downarrow{}^{ \mathrlap{ id } }
+    \\
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    &\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    &\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}& 
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+  }
+$$
+
+The induced [[adjoint triple]] of [[derived functors]] on the [[homotopy category of a model category|homotopy categories]] (via [this Prop.](geometry+of+physics+--+categories+and+toposes#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)) is the [[homotopy colimit]]/[[homotopy limit]] adjoint triple
+
+$$
+  Ho([\mathcal{C}^{op}, sSet])
+  \;
+    \array{
+       \overset{\phantom{AA}\mathbb{L}\underset{\longrightarrow}{\lim}\phantom{AA}}{\longrightarrow}
+       \\
+       \overset{\phantom{AA}const\phantom{AA}}{\longleftarrow}
+       \\
+       \overset{\phantom{AA}\mathbb{R}\underset{\longleftarrow}{\lim}\phantom{AA}}{\longrightarrow}
+    }
+  \;
+  Ho(sSet)
+$$ 
+
+=--
+
+
+
+### Homotopy Kan extension
+
+More generally:
+
++-- {: .num_example #QuillenAdjointTripleHomotopyKanExtension}
+###### Example
+**([[Quillen adjoint triple]] of [[homotopy Kan extension]] of [[simplicial presheaves]])**
+
+Let $\mathcal{C}$ and $\mathcal{D}$ be [[small categories]], and let 
+
+$$
+  \mathcal{C}
+    \overset{\phantom{AA}F\phantom{AA}}{\longrightarrow}
+  \mathcal{D}
+$$
+
+be a [[functor]] between them. By [[Kan extension]] this induces an [[adjoint triple]] between [[categories of simplicial presheaves]]:
+
+$$
+  [\mathcal{C}^{op}, sSet]
+    \array{
+      \underoverset{\bot}{ \phantom{AA}F_!\phantom{AA}  }{\longrightarrow}
+      \\
+      \underoverset{\bot}{ \phantom{AA}F^\ast\phantom{AA}  }{\longleftarrow}
+      \\
+      \overset{ \phantom{AA}F_\ast\phantom{AA}  }{\longrightarrow}
+    }
+  [\mathcal{D}^{op}, sSet]
+$$
+
+where 
+
+$$
+  F^\ast \mathbf{X}
+  \;\coloneqq\;
+  \mathbf{X}(F(-))
+$$
+
+is the operation of precomposition with $F$. This means that $F^\ast$ preserves all objectwise cofibrations/fibrations/weak equivalences. Hence it is 
+
+1. a [[right Quillen functor]] $[\mathcal{D}^{op}, sSet]_{proj} \overset{F^\ast}{\to} [\mathcal{C}^{op}, sSet_{Qu}]_{proj}$;
+
+1. a [[left Quillen functor]] $[\mathcal{D}^{op}, sSet]_{inj} \overset{F^\ast}{\to} [\mathcal{C}^{op}, sSet_{Qu}]_{inj}$;
+
+and since 
+
+$$
+  [\mathcal{D}^{op}, sSet]_{inj}
+    \underoverset
+      {\underset{id}{\longrightarrow}}
+      {\overset{id}{\longleftarrow}}
+      {\phantom{AA}\bot\phantom{AA}}
+  [\mathcal{D}^{op}, sSet]_{proj} 
+$$ 
+
+is also a [[Quillen adjunction]], these imply that $F^\ast$ is also 
+
+* a [[right Quillen functor]] $[\mathcal{D}^{op}, sSet]_{inj} \overset{F^\ast}{\to} [\mathcal{C}^{op}, sSet_{Qu}]_{proj}$.
+
+
+* a [[left Quillen functor]] $[\mathcal{D}^{op}, sSet]_{proj} \overset{F^\ast}{\to} [\mathcal{C}^{op}, sSet_{Qu}]_{inj}$.
+
+In summary this means that we have [[2-morphisms]] in the [[double category of model categories]] of the following form:
+
+$$
+  \array{
+    [\mathcal{D}^{op}, sSet_{Qu}]_{proj}
+      &\overset{\phantom{AA}F^\ast\phantom{AA}}{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    \\
+    {}^{\mathllap{F^\ast}}
+    \Big\downarrow
+      &\swArrow_{\mathrlap{id}}& 
+    \Big\downarrow{}^{ \mathrlap{ id } }
+    \\
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    &\underset{id}{\longrightarrow}& 
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+  }
+  \phantom{AAA}
+  \text{and}
+  \phantom{AAA}
+  \array{
+    [\mathcal{D}^{op}, sSet_{Qu}]_{inj}
+      &\overset{\phantom{AA}F^\ast\phantom{AA}}{\longrightarrow}&
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    \\
+    {}^{\mathllap{F^\ast}}
+    \Big\downarrow
+      &\swArrow_{\mathrlap{id}}& 
+    \Big\downarrow{}^{ \mathrlap{ id } }
+    \\
+    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    &\underset{id}{\longrightarrow}& 
+    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+  }
+$$
+
+To check that the corresponding [[derived natural transformations]] $Ho(id)$ are [[natural isomorphisms]], we need to check (by [this Prop.](double+category+of+model+categories#DerivedNaturalTransformationUpToIsos)) that the composites
+
+
+$$
+  Q_{inj} F^\ast \mathbf{X}
+    \overset{ p_{F^\ast \mathbf{X}} }{\longrightarrow}
+  F^\ast \mathbf{X}
+    \overset{ j_{F^\ast \mathbf{X}} }{\longrightarrow}
+  P_{proj} F^\ast \mathbf{X}  
+$$ 
+
+are invertible in the [[homotopy category of a model category|homotopy category]] $Ho([\mathcal{C}^{op}, sSet_{Qu}]_{inj/proj})$, for all fibrant-cofibrant simplicial presheaves $\mathbf{X}$ in $[\mathcal{C}^{op}, sSet_{Qu}]_{proj/inj}$. But this is immediate, since the two factors are weak equivalences, by definition of [[fibrant resolution|fibrant/cofibrant resolution]].
+
+Hence we have a [[Quillen adjoint triple]] (Def. \ref{QuillenAdjointTriple}) of the form
+
+\[
+  \label{QuillenAdjointTripleFromKanExtensionOfSimplicialPresheaves}
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj/inj}
+    \array{
+       \underoverset{\bot}{\phantom{AA}F_!\phantom{AA}}{\longrightarrow}
+       \\
+       \underoverset{\bot}{\phantom{AA}F^\ast\phantom{AA}}{\longleftarrow}
+       \\
+       \underoverset{\bot}{\phantom{AA}F_\ast\phantom{AA}}{\longrightarrow}
+    }
+  [\mathcal{D}^{op}, sSet_{Qu}]_{proj}
+  \phantom{AAA}
+  \text{and}
+  \phantom{AAA}
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj/inj}
+    \array{
+       \underoverset{\bot}{\phantom{AA}F_!\phantom{AA}}{\longrightarrow}
+       \\
+       \underoverset{\bot}{\phantom{AA}F^\ast\phantom{AA}}{\longleftarrow}
+       \\
+       \underoverset{\bot}{\phantom{AA}F_\ast\phantom{AA}}{\longrightarrow}
+    }
+  [\mathcal{D}^{op}, sSet_{Qu}]_{inj}
+\]
+
+The corresponding derived [[adjoint triple]] on [[homotopy category of a model category|homotopy categories]] (Prop. \ref{QuillenAdjointTripleInducesAdjointTripleOfDerivedFunctors}) is that of _[[homotopy Kan extension]]_:
+
+
+$$
+  Ho([\mathcal{C}^{op}, sSet])
+    \array{
+      \underoverset{\bot \phantom{\simeq A_a}}{ \phantom{A}\mathbb{L}F_! \phantom{\simeq A_a}\phantom{A}  }{\longrightarrow}
+      \\
+      \underoverset{\phantom{\simeq A_a} \bot}{ \phantom{A}\mathbb{R}F^\ast \simeq \mathbb{L}F^\ast\phantom{A}  }{\longleftarrow}
+      \\
+      \overset{ \phantom{A} \phantom{A_a \simeq} \mathbb{R}F_\ast\phantom{A}  }{\longrightarrow}
+    }
+  Ho([\mathcal{D}^{op}, sSet])
+$$
+
+=--
+
++-- {: .num_example #QuillenAdjointQuadrupleOfHomotopyKanExtensionAlongAdjointPair}
+###### Example
+**([[Quillen adjoint quadruple]] of [[homotopy Kan extension]] of [[simplicial presheaves]] along [[adjoint pair]])**
+
+Now let 
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{\phantom{AA}R\phantom{AA}}{\longleftarrow}}
+      {\overset{\phantom{AA}L\phantom{AA}}{\longrightarrow}}
+      {\bot}
+  \mathcal{D}
+$$
+
+be a [[adjoint pair|pair]] of [[adjoint functors]]. By [[Kan extension]] this induces an [[adjoint quadruple]] between [[categories of simplicial presheaves]]
+
+$$
+  [\mathcal{C}^{op}, sSet]
+    \array{
+      \underoverset{\bot \phantom{\simeq A_a}}{ L_! \phantom{\simeq A_a} }{\longrightarrow}
+      \\
+      \underoverset{\bot \phantom{\simeq} \bot }{ L^\ast \simeq R_! }{\longleftarrow}
+      \\
+      \underoverset{\phantom{A_a \simeq}\bot}{ L_\ast \simeq R^\ast }{\longrightarrow}
+      \\
+      \overset{ \phantom{A_a \simeq } R_\ast }{\longrightarrow}
+    }
+  [\mathcal{D}^{op}, sSet]
+$$
+
+By the previous example the top three as well as the bottom three of these form [[Quillen adjoint triples]] in two ways (eq:QuillenAdjointTripleFromKanExtensionOfSimplicialPresheaves). If for the two three we choose the first version, and for the bottom three the second version from (eq:QuillenAdjointTripleFromKanExtensionOfSimplicialPresheaves), then these combine to a Quillen [[adjoint quadruple]]
+
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{L_! \phantom{= A_a}}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{D}^{op}, sSet_{Qu}]_{proj}
+$$
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{L^\ast = R_!}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{D}^{op}, sSet_{Qu}]_{proj}
+$$
+$$
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    \underoverset
+      {\underset{\phantom{A=} R_\ast}{\longleftarrow}}
+      {\overset{L_\ast = R^\ast}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{D}^{op}, sSet_{Qu}]_{inj}
+$$
+
+
+=--
+
+
+
 ## Properties
 
 ### Derived adjoint triple
@@ -170,74 +520,35 @@ We discuss how the [[derived functors]] of a [[simplicial Quillen adjunction|sim
 ###### Lemma
 **(composite [[derived functors]] of [[Quillen adjoint triple]])**
 
-Consider a [[Quillen adjoint triple]]
+
+Consider a [[Quillen adjoint triple]] (Def. \ref{QuillenAdjointTriple})
 
 $$
-  \mathcal{C}_{1/2}
-    \array{
-      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{L}{\longrightarrow}
-      \\
-      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{C}{\longleftarrow}
-      \\
-      \overset{\phantom{AA}R\phantom{AA}}{\longrightarrow}
-    }
+  \mathcal{C}_1
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{L}{\longrightarrow}}
+      {{}_{\phantom{Qu}}\bot_{Qu}}
   \mathcal{D}
-  \phantom{AA}\text{or}\phantom{AA}
-  \mathcal{C}_{1/2}
-    \array{
-      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{L}{\longleftarrow}
-      \\
-      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{C}{\longrightarrow}
-      \\
-      \overset{\phantom{AA}R\phantom{AA}}{\longleftarrow}
-    }
+$$
+$$
+  \mathcal{C}_2
+    \underoverset
+      {\underset{R}{\longrightarrow}}
+      {\overset{C}{\longleftarrow}}
+      {{}_{\phantom{Qu}}\bot_{Qu}}
   \mathcal{D}
-$$ 
+$$
 
-and assume that $C$ is a left and right Quillen functor for both model structures $\mathcal{C}_1$, $\mathcal{C}_2$.
 
-Then 
+such that the two model structures $\mathcal{C}_1$ and $\mathcal{C}_2$ on the category $\mathcal{C}$ share the same class of [[weak equivalences]].
 
-1. the composite [[derived functor]]
+Then:
 
-   $$
-     \bigcirc_L
-     \;\coloneqq\;
-     \mathbb{R}C \circ \mathbb{L} L
-   $$
+1. the [[derived adjunction unit]] of $(L \dashv C)$ in $\mathcal{C}_1$ differs only by a [[weak equivalence]] from the plain [[adjunction unit]].
 
-   is equivalent to $\mathbb{L}(C \circ L)$, and under this identification the [[derived adjunction unit]] is given by the plain [[adjunction unit]] on [[cofibrant objects]];
+1. the [[derived adjunction counit]] of $(C \dashv R)$ differs only by a [[weak equivalence]] form the plain [[adjunction counit]].
 
-1. the composite [[derived functor]]
-
-   $$
-     \Box_R 
-     \;\coloneqq\;
-     \mathbb{L} C\circ \mathbb{R} R
-   $$
-
-   is equivalent to $\mathbb{R}(C \circ R)$, and under this identification the [[derived adjunction counit]] is given by the plain [[adjunction counit]] on [[fibrant objects]]l;
-
-1. on [[cofibrant objects]] the composite [[derived functor]] 
-
-   $$
-     \Box_L 
-     \;\coloneqq\;
-     \mathbb{L} L \circ \mathbb{R} C
-   $$
-
-   is equivalent to $\mathbb{R}(L \circ C)$, and under this identification the [[derived adjunction counit]] is given by the plain [[adjunction counit]] on [[cofibrant objects]];
-
-1. on [[fibrant objects]] the composite [[derived functor]] 
-
-   $$
-     \bigcirc_R
-       \;\coloneqq\; 
-     \mathbb{R}_2 R \circ \mathbb{L}_2 C
-     \;\;
-   $$ 
-   
-   is equivalent to $\mathbb{L}_2( R \circ C )$, and under this identification the [[derived adjunction unit]] is given by the plain [[adjunction unit]] on [[fibrant objects]].
 
 =--
 
@@ -245,142 +556,30 @@ Then
 +-- {: .proof}
 ###### Proof
 
-In the first two cases, the assumption on $C$ means that it takes the resolution weak equivalence to a weak equivalence, so that it may be omitted, up to isomorphism in the [[homotopy category of a model category|homotopy category]].
-
-In the second two cases, the assumption on $C$ implies that the result of applying $C$ is already (co-)fibrant in the relevant model structure, so that the following resolution morphism may be taken to be the identity morphism.
-
-In the following we make this proof more explicit. We will denote [[cofibrant resolutions]] by
+The [[derived adjunction unit]] is on cofibrant objects $c \in \mathcal{C}_1$ given by
 
 $$
-  \emptyset 
-    \underoverset{\phantom{A}\in Cof\phantom{A}}{i_X}{\longrightarrow} 
-  Q X 
-    \underoverset{\in W \cap Fib}{p_X}{\longrightarrow} 
-  X
-$$ 
-
-and [[fibrant resolutions]] by 
-
-$$
-  X 
-    \underoverset{\in W \cap Cof}{j_X}{\longrightarrow} 
-  P X 
-    \underoverset{\phantom{A} \in Fib \phantom{A}}{q_X}{\longrightarrow} 
-  \ast
-$$ 
-
-(as in [this Def.](geometry+of+physics+--+categories+and+toposes#FibrantCofibrantReplacementFunctorToHomotopyCategory)).
-
-Consider the first claim, for the situation on the left.
-
-A priori, the full derived functor is given by
-
-$$
-  \mathbb{R} C \circ \mathbb{L}_1L (c)
-  \;=\;
-  C P L Q_1 (c)
+  c 
+    \overset{\eta_c}{\longrightarrow}
+  C L (c)
+    \overset{ C(j_{L(c)}) }{\longrightarrow}
+  C P L (c)
 $$
 
-The comparison morphism is
+Here the [[fibrant resolution]]-morphism $j_{P(c)}$ is an [[acyclic cofibration]] in $\mathcal{D}$. Since $C$ is also a [[left Quillen functor]] $\mathcal{D} \overset{C}{\to} \mathcal{C}_2$, the comparison morphism $C(j_{L(c)})$ is an [[acyclic cofibration]] in $\mathcal{C}_2$, hence in particular a weak equivalence in $\mathcal{C}_2$ and therefore, by assumption, also in $\mathcal{C}_1$.
+
+The [[derived adjunction counit]] of the second adjunction is
 
 $$
-  C L Q_1(c) \overset{ C (j_{L Q(c)}) }{\longrightarrow} C P L Q_1(c)
+  C Q R (c)
+    \overset{ C(p_{R(c)}) }{\longrightarrow}
+  C R (c) 
+    \overset{ \epsilon_c }{\longrightarrow}
+  c
 $$
 
-where $j_{L Q(c)}$ exhibits [[fibrant resolution]] in $\mathcal{D}$ and hence is an [[acyclic cofibration]] in $\mathcal{D}$.
+Here the [[cofibrant resolution]]-morphisms $p_{R(c)}$ is an [[acyclic fibration]] in $\mathcal{D}$. Since $C$ is also a [[right Quillen functor]] $\mathcal{D} \overset{C}{\to} \mathcal{C}_1$, the comparison morphism $C(p_{R(c)})$ is an acyclic fibration in $\mathcal{C}_1$, hence in particular a weak equivalence there, hence, by assumption, also a weak equivalence in $\mathcal{C}_2$.
 
-Therefore, since $C$ is also a left Quillen functor with respect to $\mathcal{C}_1$, the comparison morphism $C\left(j_{L Q(c)}\right)$ is an acyclic cofibration in $\mathcal{C}_1$, hence in particular a [[weak equivalence]] in $\mathcal{C}_1$. 
-
-Since the [[derived adjunction unit]] on $Q_1(c)$ is the composition of the plain [[adjunction unit]] with this comparison morphism the claim follows.
-
-For the second claim, for the situation on the left:
-
-A priori, the full derived functor is given by
-
-$$
-  \mathbb{L}_2 C\circ \mathbb{R}_2 R (c)
-  \;\simeq\;
-  C Q R P_2 (c)
-  \,.
-$$
-
-The comparison morphism is 
-
-$$
-  C Q R P_2 (c)
-    \overset{ C\left( p_{R P_2(c)}  \right) }{\longrightarrow}
-  C R P_2 (c)
-$$
-
-Here $p_{R P_2(c)}$ is an [[acyclic fibration]]  in $\mathcal{D}$. Since $C$ is also a [[right Quillen functor]] with respect to $\mathcal{C}_2$, the comparison morphism $C\left( p_{R P_2(c)} \right)$ is an [[acyclic fibration]] in $\mathcal{C}_1$, hence in particular a [[weak equivalence]] in $\mathcal{C}_2$. 
-
-Since the [[derived adjunction counit]] on $P_2(c)$ is the composition of the plain [[adjunction counit]] with this comparison morphism the claim follows.
-
-Consider the third claim, for the situation on the left:
-
-A priori, the composite derived functor is
-
-$$
-  \mathbb{L} L \circ \mathbb{R} C (d)
-  \;\simeq\;
-  L Q_1  C P (d)
-  \,.
-$$
-
-The comparison morphism is of the form
-
-$$
-  L Q_1  C P (d)  
-    \overset{ L((p_1)_{C P (d)}) }{\longrightarrow}
-  L C P (d)  
-  \,.
-$$
-
-But since $d$ is assumed to be cofibrant, so is $P(d)$ and since $C$ is assumed to be left Quillen for $\mathcal{C}_1$, also $C P(d)$ is cofibrant in $\mathcal{C}_1$. Therefore the comparison morphism may be taken to be the identity.
-
-Consider the fourth claim, for the situation on the left:
-
-A priori, the composite derived functor is
-
-$$
-  \mathbb{R} R\circ \mathbb{L} C (d)
-  \;\simeq\;
-  R P_2 C Q (d)
-$$
-
-The comparison morphism is
-
-$$
-  R C Q (d)
-    \overset{ R\left( (j_2)_{C Q (d)} \right) }{\longrightarrow}
-  R P_2 C Q (d)
-  \,.
-$$
-
-But since $d$ is assumed to be fibrant, and since $C$ is assumed to be right Quillen with respect to $\mathbb{C}_2$, also $C Q (d)$ is fibrant in $\mathcal{C}_2$, and hence we may take the comparison morphism to be the identity.
-
-Consider the first claim, for the siuation on the right:
-
-A priori, the composite derived functor is
-
-$$
-  \mathbb{R}C  \circ \mathbb{L}L (d)
-  \;\simeq\;
-  C P_2 L Q(d)
-  \,.
-$$
-
-The comparison morphism is
-
-$$
-  C L Q(d)
-    \overset{ C\left( (j_2)_{L Q(d)} \right) }{\longrightarrow}
-  C P_2 L Q(d)
-$$
-
-where $(j_2)_{L Q(d)}$ is an [[acyclic cofibration]] in $\mathcal{C}_2$. But since $C$ is assumed to be a left Quillen functor with respect to $\mathcal{C}_2$, also the comparison morphism is an acyclic cofibration in $\mathcal{C}_2$, hence in particular a weak equivalence.
-
-And so forth.
 
 =--
 
@@ -645,465 +844,6 @@ $$
 
 =--
 
-
-## Examples 
-
-### Homotopy (co-)limits
-
-+-- {: .num_example #HomotopyLimitQuillenAdjointTriple}
-###### Example
-**([[Quillen adjoint triple]] of [[homotopy limits]]/[[homotopy colimits|colimits]] of [[simplicial sets]])**
-
-Let $\mathcal{C}$ be a [[small category]], and write $[\mathcal{C}^{op}, sSet_{Qu}]_{proj/inj}$ for the projective/injective [[model structure on simplicial presheaves]] over $\mathcal{C}$, which participate in a [[Quillen equivalence]] of the form 
-
-$$
-  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
-    \underoverset
-      {\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}}
-      {\overset{\phantom{AA}id\phantom{AA}}{\longleftarrow}}
-      {\simeq_{Qu}}
-  [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
-$$
-
-(by [this Prop.](geometry+of+physics+--+categories+and+toposes#ModelCategoriesOfSimplicialPresheaves)).
-
-Moreover, the [[constant functor|constant diagram]]-assigning functor
-
-$$
-  [\mathcal{C}^{op}, sSet] \overset{const}{\longleftarrow} sSet
-$$
-
-is clearly a [[left Quillen functor]] for the injective model structure, and a [[right Quillen functor]] for the projective model structure.
-
-Together this means that in the [[double category of model categories]] we have a [[2-morphism]] of the form
-
-$$
-  \array{
-    sSet_{Qu}
-      &\overset{const}{\longrightarrow}&
-    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
-    \\
-    {}^{\mathllap{const}}
-    \Big\downarrow
-      &\swArrow_{\mathrlap{id}}& 
-    \Big\downarrow{}^{ \mathrlap{ id } }
-    \\
-    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
-    &\underset{id}{\longrightarrow}& 
-    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
-  }
-$$
-
-Moreover, the [[derived natural transformation]] $Ho(id)$ of this square is invertible, if for every [[Kan complex]] $X$
-
-$$
-  Q const X
-    \overset{}{\longrightarrow}
-  const X
-    \longrightarrow
-  P const X  
-$$ 
-
-is a [[weak homotopy equivalence]] (by [this Prop.](double+category+of+model+categories#DerivedNaturalTransformationUpToIsos)), which here is trivially the case.
-
-Therefore we have a Quillen adjoint triple of the form
-
-$$
-  [\mathcal{C}^{op}, sSet_{Qu}]_{proj/inj}
-    \array{
-      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{\underset{\longrightarrow}{\lim}}{\longrightarrow}
-      \\
-      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{const}{\longleftarrow}
-      \\
-      \overset{\underset{\longleftarrow}{\lim}}{\longrightarrow}
-      \\
-    }
-  sSet_{Qu}
-$$ 
-
-witnessed by the following diagram in the [[double category of model categories]]
-
-$$
-  \array{
-    && 
-    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
-    &\overset{ \phantom{AA}id\phantom{AA} }{\longrightarrow}&
-    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}    
-    \\
-    && 
-    {}^{\mathllap{ \underset{\longrightarrow}{\lim} }}\Big\downarrow 
-    &{}^{\mathllap{\eta}}\swArrow&
-    \Big\downarrow{}^{\mathrlap{id}}
-    \\
-    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}    
-     &\overset{ \phantom{A}\underset{\longleftarrow}{\lim}\phantom{A} }{\longrightarrow}&
-    sSet_{Qu}
-      &\overset{\phantom{A}const\phantom{A}}{\longrightarrow}&
-    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
-    \\
-    {}^{\mathllap{ id }}\Big\downarrow
-    & {}^{\mathllap{\epsilon}}\swArrow &
-    {}^{\mathllap{const}}
-    \big\downarrow
-      &\swArrow_{\mathrlap{id}}& 
-    \big\downarrow{}^{ \mathrlap{ id } }
-    \\
-    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
-    &\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}&
-    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
-    &\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}& 
-    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
-  }
-$$
-
-The induced [[adjoint triple]] of [[derived functors]] on the [[homotopy category of a model category|homotopy categories]] (via [this Prop.](geometry+of+physics+--+categories+and+toposes#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)) is the [[homotopy colimit]]/[[homotopy limit]] adjoint triple
-
-$$
-  Ho([\mathcal{C}^{op}, sSet])
-  \;
-    \array{
-       \overset{\phantom{AA}\mathbb{L}\underset{\longrightarrow}{\lim}\phantom{AA}}{\longrightarrow}
-       \\
-       \overset{\phantom{AA}const\phantom{AA}}{\longleftarrow}
-       \\
-       \overset{\phantom{AA}\mathbb{R}\underset{\longleftarrow}{\lim}\phantom{AA}}{\longrightarrow}
-    }
-  \;
-  Ho(sSet)
-$$ 
-
-=--
-
-
-+-- {: .num_example #QuillenAdjointQuadrupleOverSiteWithTerminalObject}
-###### Example
-**([[homotopy limit|limit]]/[[homotopy colimit|colimit]] [[Quillen adjoint quadruple]] over [[site]] with [[terminal object]])**
-
-If $\mathcal{C}$ has a [[terminal object]] $\ast \in \mathcal{C}$, then 
-
-$$
-  \underset{\longleftarrow}{\lim}
-  = \Gamma
-  \;\colon\;
-  [\mathcal{C}^{op}, sSet]
-  \longrightarrow
-  sSet
-$$
-
-is given by evaluation on that terminal object
-
-$$
-  \Gamma(\mathbf{X}) \coloneqq \mathbf{X}(\ast)  
-$$
-
-and this operation has a further [[right adjoint]]
-
-$$
-  coconst \;\colon\; sSet \longrightarrow [\mathcal{C}^{op}, sSet]
-$$
-
-given by [[right Kan extension]] along the terminal object inclusion.
-
-Hence in this case $\underset{\longleftarrow}{\lim} =\Gamma$ is also a [[left Quillen functor]] on the projective model structure (using that $id : [\mathcal{C}^{op}, sSet_{Qu}]_{proj} \to [\mathcal{C}^{op}, sSet_{Qu}]_{inj}$ is also left Quillen, as above) and hence we get a further Quillen adjoint triple
-
-$$
-  [\mathcal{C}^{op}, sSet_{Qu}]_{inj/proj}
-    \array{
-      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{const}{\longleftarrow}
-      \\
-      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{\underset{\longleftarrow}{\lim}=\Gamma}{\longrightarrow}
-      \\
-      \overset{coconst}{\longleftarrow}
-      \\
-    }
-  sSet_{Qu}
-$$ 
- 
-witnessed by the following diagram in the [[double category of model categories]]
-
-
-$$
-  \array{
-    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
-    &\overset{ \phantom{AA} id \phantom{AA} }{\longrightarrow}& 
-    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}   
-    &\overset{ \phantom{AA}id\phantom{AA} }{\longrightarrow}&
-    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
-    \\
-    {}^{\mathllap{id}}
-    \Big\downarrow
-      &{}^{ \mathllap{ id } }\swArrow& 
-    \Big\downarrow{}^{ \mathrlap{ \underset{\longleftarrow}{\lim}=\Gamma } }
-      & {}^{ \mathllap{\epsilon} }\swArrow &
-    \Big\downarrow{}^{\mathrlap{id}}
-    \\
-    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
-    &\underset{ \phantom{A}\underset{\longleftarrow}{\lim}=\Gamma\phantom{A} }{\longrightarrow}&
-    sSet_{Qu}
-    &\underset{coconst}{\longrightarrow}&
-    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
-    \\
-    {}^{\mathllap{id}}\Big\downarrow 
-      &{}^{\mathllap{ \epsilon }}\swArrow& 
-    \Big\downarrow{}^{\mathrlap{const}}
-    \\
-    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
-    &\underset{ \phantom{AA}id\phantom{AA} }{\longrightarrow}&
-    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
-  }
-$$
-
-
-Moreover, the [[derived natural transformation]] $Ho(id)$ of the top left square is invertible, if for every injectively fibrant simplicial presheaf $\mathbf{X}$ the composite
-
-$$
-  \Gamma Q_{inj} \mathbf{X}
-    \overset{}{\longrightarrow}
-  \Gamma \mathbf{X}
-    \longrightarrow
-  \Gamma P_{proj} \mathbf{X}  
-$$ 
-
-is a [[weak equivalence]] (by [this Prop.](double+category+of+model+categories#DerivedNaturalTransformationUpToIsos)), which here is trivially the case.
-
-
-Hence in this case we have a [[Quillen adjoint quadruple]]
-
-
-$$
-  [\mathcal{C}^{op}, sSet_{Qu}]_{proj/inj}
-    \array{
-      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{\phantom{AA}\underset{\longrightarrow}{\lim}\phantom{AA}}{\longrightarrow}
-      \\
-      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{\phantom{AA}const\phantom{AA}}{\longleftarrow}
-      \\
-      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{ \phantom{AA}\underset{\longleftarrow}{\lim}\phantom{AA} }{\longrightarrow}
-      \\
-      \overset{\phantom{A}coconst\phantom{A} }{\longleftarrow}
-      \\
-    }
-  sSet_{Qu}
-$$ 
-
-witnessing the [[model topos]] over a [[site]] with [[terminal object]] as being [[cohesive (infinity,1)-topos|cohesive]].
-
-=--
-
-### Homotopy Kan extension
-
-More generally:
-
-+-- {: .num_example #QuillenAdjointTripleHomotopyKanExtension}
-###### Example
-**([[Quillen adjoint triple]] of [[homotopy Kan extension]] of [[simplicial presheaves]])**
-
-Let $\mathcal{C}$ and $\mathcal{D}$ be [[small categories]], and let 
-
-$$
-  \mathcal{C}
-    \overset{\phantom{AA}F\phantom{AA}}{\longrightarrow}
-  \mathcal{D}
-$$
-
-be a [[functor]] between them. By [[Kan extension]] this induces an [[adjoint triple]] between [[categories of simplicial presheaves]]:
-
-$$
-  [\mathcal{C}^{op}, sSet]
-    \array{
-      \underoverset{\bot}{ \phantom{AA}F_!\phantom{AA}  }{\longrightarrow}
-      \\
-      \underoverset{\bot}{ \phantom{AA}F^\ast\phantom{AA}  }{\longleftarrow}
-      \\
-      \overset{ \phantom{AA}F_\ast\phantom{AA}  }{\longrightarrow}
-    }
-  [\mathcal{D}^{op}, sSet]
-$$
-
-where 
-
-$$
-  F^\ast \mathbf{X}
-  \;\coloneqq\;
-  \mathbf{X}(F(-))
-$$
-
-is the operation of precomposition with $F$. This means that $F^\ast$ preserves all objectwise cofibrations/fibrations/weak equivalences. Hence it is 
-
-1. a [[right Quillen functor]] $[\mathcal{D}^{op}, sSet]_{proj} \overset{F^\ast}{\to} [\mathcal{C}^{op}, sSet_{Qu}]_{proj}$;
-
-1. a [[left Quillen functor]] $[\mathcal{D}^{op}, sSet]_{inj} \overset{F^\ast}{\to} [\mathcal{C}^{op}, sSet_{Qu}]_{inj}$;
-
-and since 
-
-$$
-  [\mathcal{D}^{op}, sSet]_{inj}
-    \underoverset
-      {\underset{id}{\longrightarrow}}
-      {\overset{id}{\longleftarrow}}
-      {\phantom{AA}\bot\phantom{AA}}
-  [\mathcal{D}^{op}, sSet]_{proj} 
-$$ 
-
-is also a [[Quillen adjunction]], these imply that $F^\ast$ is also 
-
-* a [[right Quillen functor]] $[\mathcal{D}^{op}, sSet]_{inj} \overset{F^\ast}{\to} [\mathcal{C}^{op}, sSet_{Qu}]_{proj}$.
-
-
-* a [[left Quillen functor]] $[\mathcal{D}^{op}, sSet]_{proj} \overset{F^\ast}{\to} [\mathcal{C}^{op}, sSet_{Qu}]_{inj}$.
-
-In summary this means that we have [[2-morphisms]] in the [[double category of model categories]] of the following form:
-
-$$
-  \array{
-    [\mathcal{D}^{op}, sSet_{Qu}]_{proj}
-      &\overset{\phantom{AA}F^\ast\phantom{AA}}{\longrightarrow}&
-    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
-    \\
-    {}^{\mathllap{F^\ast}}
-    \Big\downarrow
-      &\swArrow_{\mathrlap{id}}& 
-    \Big\downarrow{}^{ \mathrlap{ id } }
-    \\
-    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
-    &\underset{id}{\longrightarrow}& 
-    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
-  }
-  \phantom{AAA}
-  \text{and}
-  \phantom{AAA}
-  \array{
-    [\mathcal{D}^{op}, sSet_{Qu}]_{inj}
-      &\overset{\phantom{AA}F^\ast\phantom{AA}}{\longrightarrow}&
-    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
-    \\
-    {}^{\mathllap{F^\ast}}
-    \Big\downarrow
-      &\swArrow_{\mathrlap{id}}& 
-    \Big\downarrow{}^{ \mathrlap{ id } }
-    \\
-    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
-    &\underset{id}{\longrightarrow}& 
-    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
-  }
-$$
-
-To check that the corresponding [[derived natural transformations]] $Ho(id)$ are [[natural isomorphisms]], we need to check (by [this Prop.](double+category+of+model+categories#DerivedNaturalTransformationUpToIsos)) that the composites
-
-
-$$
-  Q_{inj} F^\ast \mathbf{X}
-    \overset{ p_{F^\ast \mathbf{X}} }{\longrightarrow}
-  F^\ast \mathbf{X}
-    \overset{ j_{F^\ast \mathbf{X}} }{\longrightarrow}
-  P_{proj} F^\ast \mathbf{X}  
-$$ 
-
-are invertible in the [[homotopy category of a model category|homotopy category]] $Ho([\mathcal{C}^{op}, sSet_{Qu}]_{inj/proj})$, for all fibrant-cofibrant simplicial presheaves $\mathbf{X}$ in $[\mathcal{C}^{op}, sSet_{Qu}]_{proj/inj}$. But this is immediate, since the two factors are weak equivalences, by definition of [[fibrant resolution|fibrant/cofibrant resolution]].
-
-Hence we have a [[Quillen adjoint triple]] (Def. \ref{QuillenAdjointTriple}) of the form
-
-\[
-  \label{QuillenAdjointTripleFromKanExtensionOfSimplicialPresheaves}
-  [\mathcal{C}^{op}, sSet_{Qu}]_{proj/inj}
-    \array{
-       \underoverset{\bot}{\phantom{AA}F_!\phantom{AA}}{\longrightarrow}
-       \\
-       \underoverset{\bot}{\phantom{AA}F^\ast\phantom{AA}}{\longleftarrow}
-       \\
-       \underoverset{\bot}{\phantom{AA}F_\ast\phantom{AA}}{\longrightarrow}
-    }
-  [\mathcal{D}^{op}, sSet_{Qu}]_{proj}
-  \phantom{AAA}
-  \text{and}
-  \phantom{AAA}
-  [\mathcal{C}^{op}, sSet_{Qu}]_{proj/inj}
-    \array{
-       \underoverset{\bot}{\phantom{AA}F_!\phantom{AA}}{\longrightarrow}
-       \\
-       \underoverset{\bot}{\phantom{AA}F^\ast\phantom{AA}}{\longleftarrow}
-       \\
-       \underoverset{\bot}{\phantom{AA}F_\ast\phantom{AA}}{\longrightarrow}
-    }
-  [\mathcal{D}^{op}, sSet_{Qu}]_{inj}
-\]
-
-The corresponding derived [[adjoint triple]] on [[homotopy category of a model category|homotopy categories]] (Prop. \ref{QuillenAdjointTripleInducesAdjointTripleOfDerivedFunctors}) is that of _[[homotopy Kan extension]]_:
-
-
-$$
-  Ho([\mathcal{C}^{op}, sSet])
-    \array{
-      \underoverset{\bot \phantom{\simeq A_a}}{ \phantom{A}\mathbb{L}F_! \phantom{\simeq A_a}\phantom{A}  }{\longrightarrow}
-      \\
-      \underoverset{\phantom{\simeq A_a} \bot}{ \phantom{A}\mathbb{R}F^\ast \simeq \mathbb{L}F^\ast\phantom{A}  }{\longleftarrow}
-      \\
-      \overset{ \phantom{A} \phantom{A_a \simeq} \mathbb{R}F_\ast\phantom{A}  }{\longrightarrow}
-    }
-  Ho([\mathcal{D}^{op}, sSet])
-$$
-
-=--
-
-+-- {: .num_example #QuillenAdjointQuadrupleOfHomotopyKanExtensionAlongAdjointPair}
-###### Example
-**([[Quillen adjoint quadruple]] of [[homotopy Kan extension]] of [[simplicial presheaves]] along [[adjoint pair]])**
-
-Now let 
-
-$$
-  \mathcal{C}
-    \underoverset
-      {\underset{\phantom{AA}R\phantom{AA}}{\longleftarrow}}
-      {\overset{\phantom{AA}L\phantom{AA}}{\longrightarrow}}
-      {\bot}
-  \mathcal{D}
-$$
-
-be a [[adjoint pair|pair]] of [[adjoint functors]]. By [[Kan extension]] this induces an [[adjoint quadruple]] between [[categories of simplicial presheaves]]
-
-$$
-  [\mathcal{C}^{op}, sSet]
-    \array{
-      \underoverset{\bot \phantom{\simeq A_a}}{ L_! \phantom{\simeq A_a} }{\longrightarrow}
-      \\
-      \underoverset{\bot \phantom{\simeq} \bot }{ L^\ast \simeq R_! }{\longleftarrow}
-      \\
-      \underoverset{\phantom{A_a \simeq}\bot}{ L_\ast \simeq R^\ast }{\longrightarrow}
-      \\
-      \overset{ \phantom{A_a \simeq } R_\ast }{\longrightarrow}
-    }
-  [\mathcal{D}^{op}, sSet]
-$$
-
-By the previous example the top three as well as the bottom three of these form [[Quillen adjoint triples]] in two ways (eq:QuillenAdjointTripleFromKanExtensionOfSimplicialPresheaves). If for the two three we choose the first version, and for the bottom three the second version from (eq:QuillenAdjointTripleFromKanExtensionOfSimplicialPresheaves), then these combine to a Quillen [[adjoint quadruple]]
-
-$$
-  [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
-    \underoverset
-      {{\longleftarrow}}
-      {\overset{L_! \phantom{= A_a}}{\longrightarrow}}
-      {\phantom{{}_{Qu}}\bot_{Qu}}
-  [\mathcal{D}^{op}, sSet_{Qu}]_{proj}
-$$
-$$
-  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
-    \underoverset
-      {{\longrightarrow}}
-      {\overset{L^\ast = R_!}{\longleftarrow}}
-      {\phantom{{}_{Qu}}\bot_{Qu}}
-  [\mathcal{D}^{op}, sSet_{Qu}]_{proj}
-$$
-$$
-  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
-    \underoverset
-      {\underset{\phantom{A=} R_\ast}{\longleftarrow}}
-      {\overset{L_\ast = R^\ast}{\longrightarrow}}
-      {\phantom{{}_{Qu}}\bot_{Qu}}
-  [\mathcal{D}^{op}, sSet_{Qu}]_{inj}
-$$
-
-
-=--
 
 ## Related concepts
 
