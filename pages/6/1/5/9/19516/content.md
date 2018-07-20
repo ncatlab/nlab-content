@@ -1077,9 +1077,6 @@ $$
 
 By the previous example the top three as well as the bottom three of these form [[Quillen adjoint triples]] in two ways (eq:QuillenAdjointTripleFromKanExtensionOfSimplicialPresheaves). If for the two three we choose the first version, and for the bottom three the second version from (eq:QuillenAdjointTripleFromKanExtensionOfSimplicialPresheaves), then these combine to a Quillen [[adjoint quadruple]]
 
-
-Hence we have a [[Quillen adjoint quadruple]] of the form 
-
 $$
   [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
     \underoverset
