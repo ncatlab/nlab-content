@@ -2,26 +2,72 @@
 
 $$
   \array{
-  [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+  \phantom{
+  sSet_{Qu}
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{\Pi_{red}}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}      
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj}
+    \underoverset
+      {\underset{id}{\longleftarrow}}
+      {\overset{id}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\simeq_{Qu} }
+  }
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj}
     \underoverset
       {{\longleftarrow}}
       {\overset{L_! \phantom{= A_a}}{\longrightarrow}}
       {\phantom{{}_{Qu}}\bot_{Qu}}
-  [\mathcal{D}^{op}, sSet_{Qu}]_{proj}
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{proj}
   \\
-  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+  sSet_{Qu}
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{\Pi_{red}}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}      
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj}
+    \underoverset
+      {\underset{id}{\longleftarrow}}
+      {\overset{id}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\simeq_{Qu} }
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{inj}
     \underoverset
       {{\longrightarrow}}
       {\overset{L^\ast = R_!}{\longleftarrow}}
       {\phantom{{}_{Qu}}\bot_{Qu}}
-  [\mathcal{D}^{op}, sSet_{Qu}]_{proj}
-  \\
-  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{proj}
     \underoverset
-      {\underset{\phantom{A=} R_\ast}{\longleftarrow}}
+      {\underset{id}{\longrightarrow}}
+      {\overset{id}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\simeq_{Qu} }
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{proj}
+  \\
+  sSet_{Qu}
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{Disc_{red}}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{inj}
+    \underoverset
+      {{\longleftarrow}}
       {\overset{L_\ast = R^\ast}{\longrightarrow}}
       {\phantom{{}_{Qu}}\bot_{Qu}}
-  [\mathcal{D}^{op}, sSet_{Qu}]_{inj}
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj}
+  \\
+  sSet_{Qu}
+    \underoverset
+      {\underset{coDisc_{red}}{\longrightarrow}}
+      {\overset{\Gamma_{red}}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}      
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{inj}
+  \phantom{
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{L_\ast = R^\ast}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj}
+  }
   }
 $$
 
