@@ -519,7 +519,6 @@ A similar argument should show that we get an adjoint triple between the [[(infi
 ###### Lemma
 **([[derived adjunction units]] of [[Quillen adjoint triple]])**
 
-
 Consider a [[Quillen adjoint triple]] (Def. \ref{QuillenAdjointTriple})
 
 $$
@@ -621,23 +620,14 @@ $$
   Ho(\mathcal{D})
 $$
 
-Then the following holds:
-
-1. If $C$ is a [[fully faithful functor]], then so is its [[derived functor]] $\mathbb{L}C \simeq \mathbb{R}C$;
-
-1. if $L$ and $R$ are [[fully faithful functors]] (necessarily jointly, by [this Prop.](adjoint+triple#FullyFaithful)), then so are their [[derived functors]] $\mathbb{L}L$ and $\mathbb{R}R$.
-
-In summary this means that if an [[adjoint modality]] is induced by an [[adjoint triple]] which lifts to a [[Quillen adjoint triple]], then the corresponding [[Quillen adjunctions]] are [[Quillen reflection|Quillen (co-)reflections]] and the corresponding [[derived functors]] induce themselves an [[adjoint modality]].
+Then if  $L$ and $R$ are [[fully faithful functors]] (necessarily jointly, by [this Prop.](adjoint+triple#FullyFaithful)), then so are their [[derived functors]] $\mathbb{L}L$ and $\mathbb{R}R$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-First consider the case that $C$ is fully faithful. By Lemma \ref{DerivedAdjunctionUnitOfQuillenAdjointTriple} the [[derived adjunction counit]] of $C \dashv R$ is, up to weak equivalence, the ordinary [[adjunction counit]]. But the latter is an [[isomorphism]], since $C$ is fully faithful (by [this Prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints)). In summary this means that the [[derived adjunction unit]] of $(C \dashv R)$ is a weak equivalence, hence that its image in the homotopy category is an isomorphism. But the latter is the ordinary [[adjunction unit]] of $\mathbb{L}C \dashv \mathbb{R}R$ (by [this Prop.](geometry+of+physics+--+categories+and+toposes#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)), and hence the claim follows again by [that Prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints).
-
-Now consider the case that $L$ and $R$ are fully faithful. By [this Prop.](adjoint+triple#FullyFaithful) it is sufficient to show that $\mathbb{L}L$ is fully faithful. But this is implied as in the previous argument: Lemma \ref{DerivedAdjunctionUnitOfQuillenAdjointTriple} implies that the [[derived adjunction unit]] of $(L \dashv C)$ is a weak equivalence, which means that the actual adjunction unit of $(\mathbb{L}L \dashv \mathbb{R}C)$ is an isomorphism, which implies the claim by [that Prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints).
-
+By Lemma \ref{DerivedAdjunctionUnitOfQuillenAdjointTriple} the [[derived adjunction counit]] of $C \dashv R$ is, up to weak equivalence, the ordinary [[adjunction counit]]. But the latter is an [[isomorphism]], since $R$ is fully faithful (by [this Prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints)). In summary this means that the [[derived adjunction unit]] of $(C \dashv R)$ is a weak equivalence, hence that its image in the homotopy category is an isomorphism. But the latter is the ordinary [[adjunction unit]] of $\mathbb{L}C \dashv \mathbb{R}R$ (by [this Prop.](geometry+of+physics+--+categories+and+toposes#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)), and hence the claim follows again by [that Prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints).
 
 =--
 
