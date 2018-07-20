@@ -1,22 +1,30 @@
 
+
 $$
   \array{
-    \overset{\rightsquigarrow}{X} 
-      &\overset{ \phantom{AA}\overset{\rightsquigarrow}{\eta^{\Im}_X}\phantom{AA} }{\longrightarrow}&
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{L_! \phantom{= A_a}}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{D}^{op}, sSet_{Qu}]_{proj}
+  \\
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{L^\ast = R_!}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{D}^{op}, sSet_{Qu}]_{proj}
+  \\
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    \underoverset
+      {\underset{\phantom{A=} R_\ast}{\longleftarrow}}
+      {\overset{L_\ast = R^\ast}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{D}^{op}, sSet_{Qu}]_{inj}
   }
 $$
 
-
-
-$\mathcal{C}$ and $\mathcal{D}$ be [[small categories]], and let 
-
-$$
-  \mathcal{C}
-    \overset{\phantom{AA}F\phantom{AA}}{\longrightarrow}
-  \mathcal{D}
-$$
-
-be a [[functor]] between them. By [[Kan extension]] this induces an [[adjoint triple]] between [[categories of simplicial presheaves]]:
 
 $$
   [\mathcal{C}^{op}, sSet]
