@@ -16416,22 +16416,79 @@ $$
 be an [[∞-elastic site]] (Def. \ref{InfinityElasticSite}). Then [[Kan extension]] (Prop. \ref{geometry+of+physics+--+categories+and+toposes#TopologicalLeftKanExtensionBCoend}) [[enriched category theory|enriched]] over [[sSet]] (Example \ref{ExamplesOfCosmoi})  induces on the corresponding [[cohesive (infinity,1)-toposes|cohesive]] [[model toposes]] (Prop. \ref{OverInfinityCohesiveSiteCohesiveInfinityTopos}) a [[Quillen adjoint quadruple]] (Def. \ref{QuillenAdjointTriple})
 
 $$
-  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj/inj,loc}
-    \;\;
-    \array{
-      \underoverset{\phantom{AA}\bot\phantom{AA}}{\iota_{inf}}{\hookrightarrow}
-      \\
-      \underoverset{\phantom{AA}\bot\phantom{AA}}{\Pi_{inf}}{\longleftarrow}
-      \\
-      \underoverset{\phantom{AA}\bot\phantom{AA}}{Disc_{inf}}{\hookrightarrow}
-      \\
-      \underoverset{\phantom{AA}\phantom{\bot}\phantom{AA}}{\Gamma_{inf}}{\longleftarrow}
-    }
-    \;\;
-  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj,loc}
-  \;\;\;
-  \in CombModCat
-  \,.
+  \array{
+  \phantom{
+  sSet_{Qu}
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{\Pi_{red}}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}      
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj \atop loc}
+    \underoverset
+      {\underset{id}{\longleftarrow}}
+      {\overset{id}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\simeq_{Qu} }
+  }
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj \atop loc}
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{\iota_{inf}}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{proj \atop loc}
+  \\
+  sSet_{Qu}
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{\Pi_{red}}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}      
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj \atop loc}
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{id}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\simeq_{Qu} }
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{inj \atop loc}
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{ \Pi_{inf} }{\longleftarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{proj \atop loc}
+  \\
+  sSet_{Qu}
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{Disc_{red}}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{inj \atop loc}
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{id}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\simeq_{Qu} }
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj \atop loc}
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{ Disc_{inf} }{\longrightarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj \atop loc}
+  \\
+  sSet_{Qu}
+    \underoverset
+      {\underset{coDisc_{red}}{\longrightarrow}}
+      {\overset{\Gamma_{red}}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}      
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{inj \atop loc}
+    \underoverset
+      {\phantom{\underset{id}{\longrightarrow}}}
+      {\overset{id}{\phantom{\longleftarrow}}}
+      {\phantom{\phantom{{}_{Qu}}\simeq_{Qu}} }
+  \phantom{
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj \atop loc}
+  }
+    \underoverset
+      {\phantom{{\longleftarrow}}}
+      {\overset{ \Gamma_{inf} }{\phantom{\longrightarrow}}}
+      {\phantom{\phantom{{}_{Qu}}\bot_{Qu}}}
+  \phantom{[\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj \atop loc}}
+  }
 $$
 
 We say that the corresponding [[adjoint quadruple]] in [[Ho(CombModCat)]] exhibits  the structure of an _[[elastic model topos]]_.
