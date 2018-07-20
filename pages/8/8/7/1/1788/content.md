@@ -1,5 +1,12 @@
 
-Let 
+$$
+  \array{
+    \overset{\rightsquigarrow}{X} 
+      &\overset{ \phantom{AA}\overset{\rightsquigarrow}{\eta^{\Im}_X}\phantom{AA} }{\longrightarrow}&
+  }
+$$
+
+
 
 $\mathcal{C}$ and $\mathcal{D}$ be [[small categories]], and let 
 
