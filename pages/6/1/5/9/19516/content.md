@@ -11,6 +11,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -176,52 +177,22 @@ is a [[weak homotopy equivalence]] (by [this Prop.](double+category+of+model+cat
 Therefore we have a Quillen adjoint triple of the form
 
 $$
-  [\mathcal{C}^{op}, sSet_{Qu}]_{proj/inj}
-    \array{
-      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{\underset{\longrightarrow}{\lim}}{\longrightarrow}
-      \\
-      \underoverset{{}_{\phantom{Qu}}\bot_{Qu}}{const}{\longleftarrow}
-      \\
-      \overset{\underset{\longleftarrow}{\lim}}{\longrightarrow}
-      \\
-    }
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+    \underoverset
+       {{\longleftarrow}}
+       {\overset{ \underset{\longrightarrow}{\lim} }{\longrightarrow}}
+       {\phantom{{}_{Qu}}\bot_{Qu} }
   sSet_{Qu}
 $$ 
-
-witnessed by the following diagram in the [[double category of model categories]]
-
 $$
-  \array{
-    && 
-    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
-    &\overset{ \phantom{AA}id\phantom{AA} }{\longrightarrow}&
-    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}    
-    \\
-    && 
-    {}^{\mathllap{ \underset{\longrightarrow}{\lim} }}\Big\downarrow 
-    &{}^{\mathllap{\eta}}\swArrow&
-    \Big\downarrow{}^{\mathrlap{id}}
-    \\
-    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}    
-     &\overset{ \phantom{A}\underset{\longleftarrow}{\lim}\phantom{A} }{\longrightarrow}&
-    sSet_{Qu}
-      &\overset{\phantom{A}const\phantom{A}}{\longrightarrow}&
-    [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
-    \\
-    {}^{\mathllap{ id }}\Big\downarrow
-    & {}^{\mathllap{\epsilon}}\swArrow &
-    {}^{\mathllap{const}}
-    \big\downarrow
-      &\swArrow_{\mathrlap{id}}& 
-    \big\downarrow{}^{ \mathrlap{ id } }
-    \\
-    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
-    &\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}&
-    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
-    &\underset{\phantom{AA}id\phantom{AA}}{\longrightarrow}& 
-    [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
-  }
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
+    \underoverset
+       {\underset{ \underset{\longleftarrow}{\lim} }{\longrightarrow}}
+       {\overset{const}{\longleftarrow}}
+       {\phantom{{}_{Qu}}\bot_{Qu} }
+  sSet_{Qu}
 $$
+
 
 The induced [[adjoint triple]] of [[derived functors]] on the [[homotopy category of a model category|homotopy categories]] (via [this Prop.](geometry+of+physics+--+categories+and+toposes#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)) is the [[homotopy colimit]]/[[homotopy limit]] adjoint triple
 
@@ -582,9 +553,9 @@ Here the [[cofibrant resolution]]-morphisms $p_{R(c)}$ is an [[acyclic fibration
 =--
 
 
-+-- {: .num_prop #DerivedModalityFromQuillenAdjointTriple}
-###### Proposition
-**(derived modality from Quillen adjoint triple)**
++-- {: .num_lemma #DerivedModalityFromQuillenAdjointTriple}
+###### Lemma
+**([[fully faithful functors]] in [[Quillen adjoint triple]])**
 
 Consider a [[Quillen adjoint triple]] (Def. \ref{QuillenAdjointTriple}) 
 
@@ -605,33 +576,144 @@ $$
   \mathcal{D}
 $$
 
-with derived adjoint triple from Prop. \ref{QuillenAdjointTripleInducesAdjointTripleOfDerivedFunctors} 
-
-$$
-  Ho(\mathcal{C})
-     \array{
-      \underoverset{{}_{\phantom{Qu}}\bot_{\phantom{Qu}}}{\mathbb{L}L}{\longrightarrow}
-      \\
-      \underoverset{{}_{\phantom{Qu}}\bot_{\phantom{Qu}}}{\mathbb{L}C \simeq \mathbb{R}C}{\longleftarrow}
-      \\
-      \overset{\phantom{AA}\mathbb{R}R\phantom{AA}}{\longrightarrow}
-      \\
-    }
-  Ho(\mathcal{D})
-$$
-
-Then if  $L$ and $R$ are [[fully faithful functors]] (necessarily jointly, by [this Prop.](adjoint+triple#FullyFaithful)), then so are their [[derived functors]] $\mathbb{L}L$ and $\mathbb{R}R$.
+If $L$ and $R$ are [[fully faithful functors]] (necessarily jointly, by [this Prop.](adjoint+triple#FullyFaithful)), then so are their [[derived functors]] $\mathbb{L}L$ and $\mathbb{R}R$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
+We discuss that $R$ being fully faithful implies that $\mathbb{R}R$ is fully faithful. Since also the [[derived functors]] form an [[adjoint triple]] (by Prop. \ref{QuillenAdjointTripleInducesAdjointTripleOfDerivedFunctors}), this will imply the claim also for $L$ and $\mathbb{L}L$.
+
 By Lemma \ref{DerivedAdjunctionUnitOfQuillenAdjointTriple} the [[derived adjunction counit]] of $C \dashv R$ is, up to weak equivalence, the ordinary [[adjunction counit]]. But the latter is an [[isomorphism]], since $R$ is fully faithful (by [this Prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints)). In summary this means that the [[derived adjunction unit]] of $(C \dashv R)$ is a weak equivalence, hence that its image in the homotopy category is an isomorphism. But the latter is the ordinary [[adjunction unit]] of $\mathbb{L}C \dashv \mathbb{R}R$ (by [this Prop.](geometry+of+physics+--+categories+and+toposes#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)), and hence the claim follows again by [that Prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints).
 
 =--
 
++-- {: .num_prop #DerivedAdjointModalityFromQuillenAdjointQuadruple}
+###### Lemma
+**([[fully faithful functors]] in [[Quillen adjoint quadruple]])**
 
+Given a [[Quillen adjoint quadruple]] (Def. \ref{QuillenAdjointTriple})
+
+$$
+  \mathcal{C}_1
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{L \phantom{= A}}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  \mathcal{D}_1
+$$
+$$
+  \mathcal{C}_2
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{C = L'}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  \mathcal{D}_1
+$$
+$$
+  \mathcal{C}_2
+    \underoverset
+      {\underset{\phantom{A=} R'}{\longleftarrow}}
+      {\overset{R = C'}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  \mathcal{D}_2
+$$
+
+if any of the four functors is [[fully faithful functor]], then so is its [[derived functor]].
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Observing that each of the four functors is either the leftmost or the rightmost adjoint in the top or the bottom [[adjoint triple]] within the [[adjoint quadruple]], the claim follows by Lemma \ref{DerivedAdjointModalityFromQuillenAdjointQuadruple}.
+
+=--
+
+In summary
+
++-- {: .num_prop}
+###### Proposition
+
+Given a [[Quillen adjoint quadruple]] (Def. \ref{QuillenAdjointTriple})
+
+$$
+  \mathcal{C}_1
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{L \phantom{= A}}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  \mathcal{D}_1
+$$
+$$
+  \mathcal{C}_2
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{C = L'}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  \mathcal{D}_1
+$$
+$$
+  \mathcal{C}_2
+    \underoverset
+      {\underset{\phantom{A=} R'}{\longleftarrow}}
+      {\overset{R = C'}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  \mathcal{D}_2
+$$
+
+then the corresponding [[derived functors]] form an [[adjoint quadruple]]
+
+$$
+  Ho(\mathcal{C})
+    \array{
+      \underoverset{\phantom{AA}\bot\phantom{AA}}{ 
+        \mathbb{L}L
+      }{\longrightarrow}
+      \\
+      \underoverset{\phantom{AA}\bot\phantom{AA}}{ 
+        \mathbb{L}C \simeq \mathbb{R}C \simeq \mathbb{L}L'
+      }{\longleftarrow}
+      \\
+      \underoverset{\phantom{AA}\bot\phantom{AA}}{ 
+        \mathbb{R}R \simeq \mathbb{L}C' \simeq \mathbb{R}C'
+      }{\longrightarrow}
+      \\
+      \underoverset{\phantom{AA}\phantom{\bot}\phantom{AA}}{ 
+        \mathbb{R}R'
+      }{\longleftarrow}
+    }
+  Ho(\mathcal{D})
+$$
+
+Moreover, if one of the functors in the [[Quillen adjoint quadruple]] is a [[fully faithful functor]], then so is the corresponding [[derived functor]]. 
+
+Hence if the original [[adjoint quadruple]] induces an [[adjoint modality]] on $\mathcal{C}$
+
+$$
+  \bigcirc \dashv \Box \dashv \lozenge
+$$
+
+or on $\mathcal{D}$
+
+$$
+  \Box \dashv \bigcirc \dashv \triangle
+$$
+
+then so do the corresponding [[derived functors]] on the [[homotopy category of a model category|homotopy categories]], respectively.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The existence of the derived [[adjoint quadruple]] followy by Prop. \ref{QuillenAdjointTripleInducesAdjointTripleOfDerivedFunctors} and by uniqueness of adjoints ([this Prop.](adjoint+functor#UniquenessOfAdjoints)).
+
+The statement about fully faithful functors is Lemma \ref{DerivedAdjointModalityFromQuillenAdjointQuadruple}. The reformulation in terms of [[adjoint modalities]] is by [this Prop.](geometry+of+physics+--+categories+and+toposes#ModalOperatorsEquivalentToReflectiveSubcategories)
+
+=--
 
 ## Related concepts
 
