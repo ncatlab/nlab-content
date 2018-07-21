@@ -166,7 +166,9 @@ $\,$
 
 $\,$
 
+[[!include geometry of physics -- basic notions of higher topos theory]]
 
+$\,$
 
 
 [[!redirects geometry of physics -- categories and toposes]]
