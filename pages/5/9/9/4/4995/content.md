@@ -1407,3 +1407,6 @@ Exposition is at
 
 [[!redirects cohesive homotopy theory]]
 [[!redirects cohesive homotopy theories]]
+
+[[!redirects cohesive model topos]]
+[[!redirects cohesive model toposes]]
