@@ -1574,7 +1574,7 @@ By Lemma \ref{DerivedAdjunctionUnitOfQuillenAdjointTriple} the [[derived adjunct
 =--
 
 
-+-- {: .num_prop #DerivedAdjointModalityFromQuillenAdjointQuadruple}
++-- {: .num_lemma #DerivedAdjointModalityFromQuillenAdjointQuadruple}
 ###### Lemma
 **([[fully faithful functors]] in [[Quillen adjoint quadruple]])**
 
@@ -2145,11 +2145,11 @@ $\,$
 
 ### Cohesive $\infty$-Toposes
 
-The following is the analog of Def. \ref{CohesiveTopos}:
+The following is a refinement to [[homotopy theory]] of the notion of _[[cohesive topos]]_ (Def. \ref{CohesiveTopos}):
 
 +-- {: .num_defn #CohesiveInfinityTopos}
 ###### Definition
-**([[cohesive (∞,1)-topos]])**
+**([[cohesive model topos]])**
 
 An [[(∞,1)-topos]] $\mathbf{H}$ (Def. \ref{ModelTopos}) is called a _[[cohesive (∞,1)-topos]]_ if it is presented by a [[model topos]] $[\mathcal{C}^{op}, sSet_{Qu}]_{loc}$ (Def. \ref{ModelTopos}) which admits a [[Quillen adjoint quadruple]] (Def. \ref{QuillenAdjointTriple}) to the [[classical model category of simplicial sets]] (Def. \ref{ClassesOfMorphismsOnsSetQuillen}) of the form
 
@@ -2180,7 +2180,7 @@ such that
 
 =--
 
-The following is the analog of Example \ref{PresheavesAdjointQuadrupleOnSiteWithTerminalObject}
+The following is the analog of Example \ref{PresheavesAdjointQuadrupleOnSiteWithTerminalObject}:
 
 +-- {: .num_example #simplicialPresheavesAdjointQuadrupleOnSiteWithTerminalObject}
 ###### Example
@@ -2264,35 +2264,11 @@ $$
 
 given by inclusion of the [[terminal object]] (Example \ref{InitialAndTerminalObjectInTermsOfAdjunction}).
 
-It only remains to see the [[Quillen reflection|Quillen (co-)reflectivity]]:
-
-The [[derived adjunction unit]] for $(Disc \dashv \Gamma)$ has components
-
-$$
-  S 
-    \overset{\eta_S}{\longrightarrow} 
-  \Gamma Disc S
-    \overset{\Gamma ( j_{Disc(S)} )}{\longrightarrow}
-  \Gamma (P Disc S)
-$$
-
-Here the [[adjunction unit]] $\eta_S$ itself is an [[isomorphism]], by Prop. \ref{FullyFaithfulAndInvertibleAdjoints}, since $Disc$ is a [[fully faithful functor]]. Moreover, since $\Gamma$ is given by evaluation on the terminal object, and since weak equivalences of simplicial presheaves are objectwise weak equivalences (Prop. \ref{ModelCategoriesOfSimplicialPresheaves}), also $\Gamma(j_{Disc(S)})$ is a weak equivalence, and hence so is the composite derived adjunction unit.
-
-Similarly, the [[derived adjunction counit]] for $(\Gamma \dashv coDisc)$ has components
-
-$$
-  \Gamma ( Q coDisc S )
-    \overset{ \Gamma( p_{Q coDisc S} ) }{\longrightarrow}
-  \Gamma coDisc S
-    \overset{\epsilon_{S}}{\longrightarrow}
-  S
-$$
-
-where now the ordinary [[adjunction counit]] is an isomorphism, since $coDisc$ is a [[fully faithful functor]], and by the same argument as before, $\Gamma( p_{Q coDisc S} )$ is a weak equivalence.
+Since the plain [[adjoint quadruple]] has $(\Pi \dashv \Disc)$ a [[reflective subcategory]] inclusion and $(Disc \dashv \Gamma)$ a [[coreflective subcategory]] inclusion (Example \ref{PresheavesAdjointQuadrupleOnSiteWithTerminalObject}) the Quillen (co-)reflection follows by Prop. \ref{DerivedAdjointModalitiesFromFullyFaithfulQuillenAdjointQuadruples}
 
 =--
 
-The following is the analog od Def. \ref{OneCohesiveSite}:
+The following is a refinement to [[homotopy theory]] of the notion of _[[cohesive site]]_ (Def. \ref{OneCohesiveSite}):
 
 +-- {: .num_defn #InfinityCohesiveSite}
 ###### Definition
@@ -2333,7 +2309,7 @@ The following is the analog of Prop. \ref{CategoriesOfSheavesOnCohesiveSiteIsCoh
 
 +-- {: .num_prop #OverInfinityCohesiveSiteCohesiveInfinityTopos}
 ###### Proposition
-**([[(∞,1)-topos]] over [[∞-cohesive site]] is [[cohesive (∞,1)-topos]])**
+**([[model topos]] over [[∞-cohesive site]] is [[cohesive model topos]])**
 
 Let $\mathcal{C}$ be an [[∞-cohesive site]] (Def. \ref{InfinityCohesiveSite}). Then the [[(∞,1)-topos]] (Def. \ref{ModelTopos}) over it, obtained by [[topological localization]] (Prop. \ref{TopologicalLocalization}) is a [[cohesive (∞,1)-topos]] (Def. \ref{CohesiveInfinityTopos}).
 
@@ -2419,13 +2395,186 @@ Here we recognize the [[internal hom]] in [[simplicial sets]] from the weak equi
 
 This establishes that $(\Pi \dashv Disc)$ and $(\Gamma \dashv \coDisc)$ descent to Quillen adjunctions on the local model structure. Finally, it is immediate that $\Gamma$ preserves fibrant objects, and hence also $(Disc \dashv \Gamma)$ passes to the local model structure.
 
+=--
+
+The following is the analog in [[homotopy theory]] of the [[cohesion|cohesive]] [[adjoint modalities]] from Def. \ref{CohesiveModalities}:
+
++-- {: .num_defn #DerivedCohesiveModalities}
+###### Definition
+**([[adjoint triple]] of [[derived functor|derived]] [[adjoint modality|adjoint]] [[modal operators]] on [[homotopy category of a model category|homotopy category]] of [[cohesive model topos]])**
+
+Given a [[cohesive model topos]] (Def. \ref{CohesiveInfinityTopos}), its [[adjoint quadruple]] (Remark \ref{AdjointTriples}) of [[derived functor]] between [[homotopy category of a model category|homotopy categorues]] (via Prop. \ref{QuillenAdjointTripleInducesAdjointTripleOfDerivedFunctors})
+
+$$
+  \label{CohesopmAdjointQuadruple}
+  \Pi \dashv Disc \dashv \Gamma \dashv coDisc
+  \;\;\colon\;\;
+  Ho([\mathcal{C}^{op}, sSet_{Qu}]_{loc})
+    \array{
+      \overset{\phantom{AAA} \Pi_0 \phantom{AAA}}{\longrightarrow}
+      \\
+      \overset{\phantom{AA} Disc \phantom{AA} }{\hookleftarrow}
+      \\
+      \overset{\phantom{AAA} \Gamma \phantom{AAA} }{\longrightarrow}
+      \\
+      \overset{\phantom{AA} coDisc \phantom{AA} }{\hookleftarrow}
+    }
+  Ho(sSet)
+$$
+
+induce, by [[composition]] of functors, an [[adjoint triple]] (Remark \ref{AdjointTriples}) of [[adjoint modalities]] (via Prop. \ref{DerivedAdjointModalitiesFromFullyFaithfulQuillenAdjointQuadruples}):
+
+$$
+  &#643; \dashv \flat \dashv \sharp
+  \;\;\colon\;\;
+  Ho([\mathcal{C}^{op}, sSet_{Qu}]_{loc})
+    \array{
+      \overset{ &#643; \;\coloneqq\; Disc \circ \Pi_0  }{\hookleftarrow}
+      \\
+      \overset{\flat \;\coloneqq\; Disc \circ \Gamma  }{\longrightarrow}
+      \\
+      \overset{ \sharp \;\coloneqq\; coDisc\circ \Gamma }{\hookleftarrow}
+    }
+  Ho([\mathcal{C}^{op}, sSet_{Qu}]_{loc})
+  \,.
+$$
+
+Since $Disc$ and $coDisc$ are [[fully faithful functors]] by assumption,
+these are ([[comodal operator|co-]])[[modal operators]] (Def. \ref{ModalOperator}), (by Prop. \ref{DerivedAdjointModalitiesFromFullyFaithfulQuillenAdjointQuadruples} and Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}).
+
+We pronounce these as follows:
+
+| $\phantom{A}$ [[shape modality]] $\phantom{A}$ | $\phantom{A}$ [[flat modality]] $\phantom{A}$ | $\phantom{A}$ [[sharp modality]] $\phantom{A}$ |
+|--------------------|-------------------|--------------------|
+|   $\phantom{A}$  $&#643; \;\coloneqq\; Disc \circ \Pi_0$  $\phantom{A}$ | $\phantom{A}$ $\flat \;\coloneqq\; Disc \circ \Gamma$ $\phantom{A}$  | $\phantom{A}$ $\sharp \;\coloneqq\; coDisc \circ \Gamma $ $\phantom{A}$  |
+{: style='margin:auto}
+
+
+and we refer to the corresponding [[modal objects]] (Def. \ref{ModalObjects}) as follows:
+
+* a [[flat modality|flat]]-[[comodal object]]
+
+  $$
+    \flat X \underoverset{\simeq}{\phantom{A}\epsilon^\flat_X \phantom{A}}{\longrightarrow} X
+  $$
+
+  is called a _[[discrete object]]_;
+
+* a [[sharp modality|sharp]]-[[modal object]]
+
+  $$
+    X \underoverset{\simeq}{\phantom{A}\eta^\sharp_X\phantom{A}}{\longrightarrow} \sharp X
+  $$
+
+  is called a _[[codiscrete object]]_;
+
+* a [[sharp modality|sharp]]-[[modal objects|submodal object]]
+
+  $$
+    X \underoverset{mono}{\phantom{A}\eta^\sharp_X\phantom{A}}{\longrightarrow} \sharp X
+  $$
+
+  is a _[[concrete object]]_.
 
 =--
+
 
 $\,$
 
 
 ### Elastic $\infty$-Toposes
+
+The following is a refinement to [[homotopy theory]] of the notion of _[[elastic topos]]_ (Def. \ref{DifferentialCohesion}):
+
++-- {: .num_defn #ElasticModelTopos}
+###### Definition
+**([[elastic model topos]]
+
+Given a [[cohesive model topos]] $[\mathcal{C}_{red}^{op}, sSet_{Qu}]_{{proj/inj} \atop loc}$ (Def. \ref{CohesiveInfinityTopos}), a _[[differential cohesion|differentially cohesive]]_ or _[[elastic model topos]]_ over it is another cohesive model topos $[\mathcal{C}_{red}^{op}, sSet_{Qu}]_{{proj/inj} \atop loc}$ equipped with a system of [[Quillen adjoint quadruples]] (Def. \ref{QuillenAdjointTriple}) of the form
+
+$$
+  \array{
+  \phantom{
+  sSet_{Qu}
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{\Pi_{red}}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}      
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj \atop loc}
+    \underoverset
+      {\underset{id}{\longleftarrow}}
+      {\overset{id}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\simeq_{Qu} }
+  }
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj \atop loc}
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{\iota_{inf}}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{proj \atop loc}
+  \\
+  sSet_{Qu}
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{\Pi_{red}}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}      
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj \atop loc}
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{id}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\simeq_{Qu} }
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{ \Pi_{inf} }{\longleftarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{proj \atop loc}
+  \\
+  sSet_{Qu}
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{Disc_{red}}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{id}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\simeq_{Qu} }
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{ Disc_{inf} }{\longrightarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
+  \\
+  sSet_{Qu}
+    \underoverset
+      {\underset{coDisc_{red}}{\longrightarrow}}
+      {\overset{\Gamma_{red}}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}      
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
+    \underoverset
+      {\phantom{\underset{id}{\longrightarrow}}}
+      {\overset{id}{\phantom{\longleftarrow}}}
+      {\phantom{\phantom{{}_{Qu}}\simeq_{Qu}} }
+  \phantom{
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
+  }
+    \underoverset
+      {\phantom{{\longleftarrow}}}
+      {\overset{ \Gamma_{inf} }{\phantom{\longrightarrow}}}
+      {\phantom{\phantom{{}_{Qu}}\bot_{Qu}}}
+   \phantom{[\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}}
+  }
+$$
+
+such that 
+
+1. $(\iota_{inf} \dashv \Pi_{inf})$ is a [[Quillen coreflection]] (Def. \ref{QuillenReflection});
+
+1. $(\Pi_{inf} \dashv Disc_{inf})$ is a [[Quillen reflection]] (Def. \ref{QuillenReflection}).
+
+=--
 
 
 +-- {: .num_defn #InfinityElasticSite}
@@ -2469,9 +2618,9 @@ We also call this an _[[∞-elastic site]]_, for short.
 =--
 
 
-+-- {: .num_prop #ElasticModelTopos}
++-- {: .num_prop #ModelToposOverInfinityElasticSiteIsElasticModelTopos}
 ###### Proposition
-**([[elastic model topos]])**
+**([[model topos]] over [[∞-elastic site]] is [[elastic model topos]])**
 
 Let 
 
@@ -2484,104 +2633,7 @@ $$
   \mathcal{C}
 $$
 
-be an [[∞-elastic site]] (Def. \ref{InfinityElasticSite}). Then [[Kan extension]] (Prop. \ref{geometry+of+physics+--+categories+and+toposes#TopologicalLeftKanExtensionBCoend}) [[enriched category theory|enriched]] over [[sSet]] (Example \ref{ExamplesOfCosmoi})  induces on the corresponding [[cohesive (infinity,1)-toposes|cohesive]] [[model toposes]] (Prop. \ref{OverInfinityCohesiveSiteCohesiveInfinityTopos}) a [[Quillen adjoint quadruple]] (Def. \ref{QuillenAdjointTriple})
-
-$$
-  \array{
-  \phantom{
-  sSet_{Qu}
-    \underoverset
-      {{\longrightarrow}}
-      {\overset{\Pi_{red}}{\longleftarrow}}
-      {\phantom{{}_{Qu}}\bot_{Qu}}      
-  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj \atop loc}
-    \underoverset
-      {\underset{id}{\longleftarrow}}
-      {\overset{id}{\longrightarrow}}
-      {\phantom{{}_{Qu}}\simeq_{Qu} }
-  }
-  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj \atop loc}
-    \underoverset
-      {{\longleftarrow}}
-      {\overset{\iota_{inf}}{\longrightarrow}}
-      {\phantom{{}_{Qu}}\bot_{Qu}}
-  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{proj \atop loc}
-  \\
-  sSet_{Qu}
-    \underoverset
-      {{\longrightarrow}}
-      {\overset{\Pi_{red}}{\longleftarrow}}
-      {\phantom{{}_{Qu}}\bot_{Qu}}      
-  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj \atop loc}
-    \underoverset
-      {{\longleftarrow}}
-      {\overset{id}{\longrightarrow}}
-      {\phantom{{}_{Qu}}\simeq_{Qu} }
-  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{inj \atop loc}
-    \underoverset
-      {{\longrightarrow}}
-      {\overset{ \Pi_{inf} }{\longleftarrow}}
-      {\phantom{{}_{Qu}}\bot_{Qu}}
-  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{proj \atop loc}
-  \\
-  sSet_{Qu}
-    \underoverset
-      {{\longleftarrow}}
-      {\overset{Disc_{red}}{\longrightarrow}}
-      {\phantom{{}_{Qu}}\bot_{Qu}}
-  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{inj \atop loc}
-    \underoverset
-      {{\longrightarrow}}
-      {\overset{id}{\longleftarrow}}
-      {\phantom{{}_{Qu}}\simeq_{Qu} }
-  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj \atop loc}
-    \underoverset
-      {{\longleftarrow}}
-      {\overset{ Disc_{inf} }{\longrightarrow}}
-      {\phantom{{}_{Qu}}\bot_{Qu}}
-  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj \atop loc}
-  \\
-  sSet_{Qu}
-    \underoverset
-      {\underset{coDisc_{red}}{\longrightarrow}}
-      {\overset{\Gamma_{red}}{\longleftarrow}}
-      {\phantom{{}_{Qu}}\bot_{Qu}}      
-  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{inj \atop loc}
-    \underoverset
-      {\phantom{\underset{id}{\longrightarrow}}}
-      {\overset{id}{\phantom{\longleftarrow}}}
-      {\phantom{\phantom{{}_{Qu}}\simeq_{Qu}} }
-  \phantom{
-  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj \atop loc}
-  }
-    \underoverset
-      {\phantom{{\longleftarrow}}}
-      {\overset{ \Gamma_{inf} }{\phantom{\longrightarrow}}}
-      {\phantom{\phantom{{}_{Qu}}\bot_{Qu}}}
-  \phantom{[\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj \atop loc}}
-  }
-$$
-
-We say that the corresponding [[adjoint quadruple]] in [[Ho(CombModCat)]] exhibits  the structure of an _[[elastic model topos]]_.
-
-$$
-  \mathbf{H}_{red}
-    \;\;
-    \array{
-      \underoverset{\phantom{AA}\bot\phantom{AA}}{\iota_{inf}}{\hookrightarrow}
-      \\
-      \underoverset{\phantom{AA}\bot\phantom{AA}}{\Pi_{inf}}{\longleftarrow}
-      \\
-      \underoverset{\phantom{AA}\bot\phantom{AA}}{Disc_{inf}}{\hookrightarrow}
-      \\
-      \underoverset{\phantom{AA}\phantom{\bot}\phantom{AA}}{\Gamma_{inf}}{\longleftarrow}
-    }
-    \;\;
-  \mathbf{H}
-  \;\;\;
-  \in Ho(CombModCat)
-  \,.
-$$
+be an [[∞-elastic site]] (Def. \ref{InfinityElasticSite}). Then [[Kan extension]] (Prop. \ref{TopologicalLeftKanExtensionBCoend}) [[enriched category theory|enriched]] over [[sSet]] (Example \ref{ExamplesOfCosmoi})  induces on the corresponding [[cohesive (infinity,1)-toposes|cohesive]] [[model toposes]] (Prop. \ref{OverInfinityCohesiveSiteCohesiveInfinityTopos}) the structure of an [[elastic model topos]] (Def. \ref{ElasticModelTopos}).
 
 
 =--
@@ -2592,24 +2644,33 @@ $$
 By Example \ref{QuillenAdjointQuadrupleOfHomotopyKanExtensionAlongAdjointPair} we have a [[Quillen adjoint quadruple]] for the global [[projective model structure on simplicial presheaves]] of the form
 
 $$
-  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj/inj}
-  \;
-    \array{
-      \underoverset{\phantom{AA}\bot\phantom{AA}}{ \iota_{inf} }{\longrightarrow}
-      \\
-      \underoverset{\phantom{AA}\bot\phantom{AA}}{ \phantom{AA} \Pi_{inf} \phantom{AA} }{\longleftarrow}
-      \\
-      \underoverset{\phantom{AA}\bot\phantom{AA}}{ \phantom{A}Disc_{inf}\phantom{A} }{\longrightarrow}
-      \\
-      \underoverset{\phantom{AA}\phantom{\bot}\phantom{AA}}{ \Gamma_{inf} }{\longleftarrow}
-    }
-   \;
+  [\mathcal{C}^{op}_{red}, sSet_{Qu}]_{proj}
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{ \iota_{inf} }{\longrightarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
   [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+$$
+$$
+  [\mathcal{C}^{op}_{red}, sSet_{Qu}]_{inj}
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{C = L'}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj}
+$$
+$$
+  [\mathcal{C}^{op}_{red}, sSet_{Qu}]_{inj}
+    \underoverset
+      {\underset{\phantom{A=} R'}{\longleftarrow}}
+      {\overset{R = C'}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj}
 $$
 
 Here we denote [[left Kan extension]] along a functor by the same symbol as that functor, which is consistent by Prop. \ref{LeftKanExtensionPreservesRepresentableFunctors}.
 
-By Prop. \ref{SimplicialPresheavesIsProperCombinatorialSimplicial} both [[model categories]] appearing here are [[left proper model category|left proper]] [[simplicial model categories]], and by Def. \ref{BousfieldLocalizationOfModelCategories} [[left Bousfield localization]] retains the [[class]] of [[cofibrations]].  Therefore Prop. \ref{RecognitionOfSimplicialQuillenAdjunction} says that to see that this is also a [[Quillen adjoint quadruple]] for the [[local model structure on simplicial presheaves]] (Prop. \ref{TopologicalLocalization}) it is sufficient that, for each [[Quillen adjunction]], the [[right adjoint]] preserves [[fibrant objects]], hence Cech-[[local objects]] (Def. \ref{DerivedLocalObjects}).
+By Prop. \ref{SimplicialPresheavesIsProperCombinatorialSimplicial} all [[model categories]] appearing here are [[left proper model category|left proper]] [[simplicial model categories]], and by Def. \ref{BousfieldLocalizationOfModelCategories} [[left Bousfield localization]] retains the [[class]] of [[cofibrations]].  Therefore Prop. \ref{RecognitionOfSimplicialQuillenAdjunction} says that to see that this is also a [[Quillen adjoint quadruple]] for the [[local model structure on simplicial presheaves]] (Prop. \ref{TopologicalLocalization}) it is sufficient that, for each [[Quillen adjunction]], the [[right adjoint]] preserves [[fibrant objects]], hence Cech-[[local objects]] (Def. \ref{DerivedLocalObjects}).
 
 For each [[right adjoint]] $R$ here this means to consider any [[covering]] $\{U_i \overset{}{\to} X\}$ (either in $\mathcal{C}_{red}$ or in $\mathcal{C}$) with induced [[Cech nerve]] $C(\{U_i\})$ (Example \ref{CechNerve}) and to check that for a fibrant object $\mathbf{X}$ in the global projective/injective [[model structure on simplicial presheaves]], that 
 
@@ -2619,7 +2680,7 @@ $$
 
 is a [[weak equivalence]]. Notice that this is indeed already the image under the correct [[derived hom-functor]], Def. \ref{DerivedHomFunctorPOnSimplicialModelCategory}, since both [[sites]] are assumed to be [[∞-cohesive sites]] (Def. \ref{InfinityCohesiveSite}), which means in particular that $C(\{U_i\})$ is projectively cofibrant, and hence also injectively cofibrant, by Prop. \ref{ModelCategoriesOfSimplicialPresheaves}.
 
-Now by the [[enriched adjunction]]-isomorphism (eq:eq:EnrichedAdjunctionIsomorphism) this means equivalently that 
+Now by the [[enriched adjunction]]-isomorphism (eq:EnrichedAdjunctionIsomorphism) this means equivalently that 
 
 \[
   \label{LocalityForInfinityCohesiveSite}
@@ -2648,9 +2709,275 @@ is a weak equivalence. With this, the fact (Prop. \ref{SimplicialPresheavesIsPro
 
 =--
 
+The following is a refinement to [[homotopy theory]] of the [[adjoint modalities]] on an [[elastic topos]] from Def. \ref{DiffCohesiveModalities}:
+
++-- {: .num_defn #DerivedDiffCohesiveModalities}
+###### Definition
+**([[derived functor|derived]] [[adjoint modalities]] on [[elastic model topos]])**
+
+Given an [[elastic model topos]] (def. \ref{ElasticModelTopos}), [[composition]] composition of the [[derived functors]] (Prop. \ref{QuillenAdjointTripleInducesAdjointTripleOfDerivedFunctors}) yields via Prop. \ref{DerivedAdjointModalitiesFromFullyFaithfulQuillenAdjointQuadruples} and Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}, the following [[adjoint modalities]] (Def. \ref{AdjointModality}) on the [[homotopy category of a model category|homotopy category]] (Def. \ref{HomotopyCategoryOfAModelCategory})
+
+$$
+  \Re \dashv \Im \dashv \&
+  \;\;\colon\;\;
+  Ho([\mathcal{C}^{op}, sSet]_{loc})
+    \array{
+      \overset{ \Re \;\coloneqq\; \iota_{inf} \circ \Pi_{inf}  }{\longleftarrow}
+      \\
+      \overset{\Im \;\coloneqq\; Disc_{inf} \circ \Pi_{inf}  }{\longrightarrow}
+      \\
+      \overset{ \& \;\coloneqq\; Disc_{inf}  \circ \Gamma_{inf} }{\longleftarrow}
+    }
+  Ho([\mathcal{C}^{op}, sSet]_{loc})
+  \,.
+$$
+
+Since $\iota_{inf}$ and $Disc_{inf}$ are [[fully faithful functors]] by assumption, these are ([[comodal operator|co-]])[[modal operators]] (Def. \ref{ModalOperator}) on the [[cohesive topos]], by (Prop. \ref{  Ho([\mathcal{C}^{op}, sSet]_{loc})
+} and Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}).
+
+We pronounce these as follows:
+
+| $\phantom{A}$ [[reduction modality]] $\phantom{A}$ | $\phantom{A}$ [[infinitesimal shape modality]] $\phantom{A}$ | $\phantom{A}$ [[infinitesimal flat modality]] $\phantom{A}$ |
+|--------------------|-------------------|--------------------|
+|   $\phantom{A}$  $\Re \;\coloneqq\; \iota_{inf} \circ \Pi_{inf}$  $\phantom{A}$ | $\phantom{A}$ $\Im \;\coloneqq\; Disc_{inf} \circ \Pi_{inf}$ $\phantom{A}$  | $\phantom{A}$ $ \& \;\coloneqq\; Disc_{inf} \circ \Gamma_{inf} $ $\phantom{A}$  |
+{: style='margin:auto}
+
+and we refer to the corresponding [[modal objects]] (Def. \ref{ModalObjects}) as follows:
+
+* a [[reduction modality|reduction]]-[[comodal object]]
+
+  $$
+    \Re X
+      \underoverset{\simeq}{\epsilon^\Re_X}{\longrightarrow}
+    X
+  $$
+
+  is called a _[[reduced object]]_;
+
+* an [[infinitesimal shape modality|infinitesimal shape]]-[[modal object]]
+
+  $$
+    X \underoverset{\simeq}{\phantom{A}\eta^\Im_X\phantom{A}}{\longrightarrow} \Im X
+  $$
+
+  is called a _[[coreduced object]]_.
+
+
+=--
+
+
++-- {: .num_prop #DefivedProgressionOfModalitiesOnElasticTopos}
+###### Proposition
+**(progression of [[derived functor|derived]] [[adjoint modalities]] on [[elastic model topos]])**
+
+Let $[\mathcal{C}^{op}, sSet]_{{proj/inj} \atop loc}$ be an [[elastic model topos]] (Def. \ref{ElasticModelTopos}) and consider the corresponding [[derived functor|derived]] [[adjoint modalities]] which it inherits
+
+1. for being a [[cohesive topos]], from Def. \ref{DerivedCohesiveModalities},
+
+1. for being an [[elastic topos]], from Def. \ref{DerivedDiffCohesiveModalities}:
+
+
+| $\phantom{A}$ [[shape modality]] $\phantom{A}$ | $\phantom{A}$ [[flat modality]] $\phantom{A}$ | $\phantom{A}$ [[sharp modality]] $\phantom{A}$ |
+|--------------------|-------------------|--------------------|
+|   $\phantom{A}$  $&#643; \;\coloneqq\; Disc \circ \Pi$  $\phantom{A}$ | $\phantom{A}$ $\flat \;\coloneqq\; Disc \circ \Gamma$ $\phantom{A}$  | $\phantom{A}$ $\sharp \;\coloneqq\; coDisc \circ \Gamma $ $\phantom{A}$  |
+|   |    |   |
+| $\phantom{A}$ [[reduction modality]] $\phantom{A}$ | $\phantom{A}$ [[infinitesimal shape modality]] $\phantom{A}$ | $\phantom{A}$ [[infinitesimal flat modality]] $\phantom{A}$ |
+|   $\phantom{A}$  $\Re \;\coloneqq\; \iota_{inf} \circ \Pi_{inf}$  $\phantom{A}$ | $\phantom{A}$ $\Im \;\coloneqq\; Disc_{inf} \circ \Pi_{inf}$ $\phantom{A}$  | $\phantom{A}$ $ \& \;\coloneqq\; Disc_{inf} \circ \Gamma_{inf} $ $\phantom{A}$  |
+{: style='margin:auto}
+
+Then these arrange into the following progression, via the [[preorder]] on modalities from Def. \ref{PreorderOnModalities}
+
+$$
+  \array{
+    \Re &\dashv& \Im &\dashv& \&
+    \\
+    && \vee && \vee
+    \\
+    && &#643; &\dashv& \flat &\dashv& \sharp
+    \\
+    && && \vee && \vee
+    \\
+    && && \emptyset &\dashv& \ast
+  }
+$$
+
+where we display also the [[bottom]] [[adjoint modality]] $\emptyset \dashv \ast$ (Example \ref{InitialAndFinalAdjointModality}), for completeness.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is just as in Prop. \ref{ProgressionOfModalitiesOnElasticTopos}.
+
+=--
+
+
 $\,$
 
 ### Solid $\infty$-Toposes
+ {#SolidModelToposes}
+
+The following is a refinement to [[homotopy theory]] of the notion of _[[solid topos]]_ (Def. \ref{SuperDifferentialCohesion}):
+
++-- {: .num_defn #SolidModelTopos}
+###### Definition
+**([[solid model topos]])**
+
+Given an [[elastic model topos]] $[\mathcal{C}^{op}_{inf}, sSet_{Qu}]_{{proj/inj} \atop loc}$ (Def. \ref{ElasticModelTopos}) a _[[solid model topos]]_ over it is another [[elastic model topos]] $[\mathcal{C}^{op}, sSet_{Qu}]_{{proj/inj} \atop loc}$ and a system of [[Quillen adjoint quadruples]] (Def. \ref{QuillenAdjointTriple}) as follows 
+
+$$
+  \array{
+  \phantom{
+  sSet_{Qu}
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{\Pi_{red}}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}      
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj \atop loc}
+    \underoverset
+      {\underset{id}{\longleftarrow}}
+      {\overset{id}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\simeq_{Qu} }
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj \atop loc}
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{\iota_{inf}}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{proj \atop loc}
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{id}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\simeq_{Qu} }
+  }
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{proj \atop loc}
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{even}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{C}^{op}, sSet_{Qu}]_{proj \atop loc}
+  \\
+  \phantom{
+  sSet_{Qu}
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{\Pi_{red}}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}      
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj \atop loc}
+    \underoverset
+      {\underset{id}{\longleftarrow}}
+      {\overset{id}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\simeq_{Qu} }
+  }
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj \atop loc}
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{\iota_{inf}}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{proj \atop loc}
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{id}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\simeq_{Qu} }
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{proj \atop loc}
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{\iota_{sup}}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
+  \\
+  sSet_{Qu}
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{\Pi_{red}}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}      
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj \atop loc}
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{id}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\simeq_{Qu} }
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{ \Pi_{inf} }{\longleftarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{proj \atop loc}
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{id}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\simeq_{Qu} }
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{\Pi_{sup}}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
+  \\
+  sSet_{Qu}
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{Disc_{red}}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{id}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\simeq_{Qu} }
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{ Disc_{inf} }{\longrightarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
+    \underoverset
+      {{\longrightarrow}}
+      {\overset{\;\;id}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\simeq_{Qu} }
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
+    \underoverset
+      {{\longleftarrow}}
+      {\overset{\;Disc_{sup}}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
+  \\
+  sSet_{Qu}
+    \underoverset
+      {\underset{coDisc_{red}}{\longrightarrow}}
+      {\overset{\Gamma_{red}}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}      
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
+    \underoverset
+      {\phantom{\underset{id}{\longrightarrow}}}
+      {\overset{id}{\phantom{\longleftarrow}}}
+      {\phantom{\phantom{{}_{Qu}}\simeq_{Qu}} }
+  \phantom{
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
+  }
+    \underoverset
+      {\phantom{{\longleftarrow}}}
+      {\overset{ \Gamma_{inf} }{\phantom{\longrightarrow}}}
+      {\phantom{\phantom{{}_{Qu}}\bot_{Qu}}}
+   \phantom{[\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}}
+    \underoverset
+      {\underset{}{\phantom{\longrightarrow}}}
+      {\overset{id}{\phantom{\longleftarrow}}}
+      {\phantom{\phantom{{}_{Qu}}\simeq_{Qu} }}
+  \phantom{[\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{proj \atop loc}}
+    \underoverset
+      {\phantom{{\longleftarrow}}}
+      {\overset{\Gamma_{sup}}{\phantom{\longrightarrow}}}
+      {\phantom{\phantom{{}_{Qu}}\bot_{Qu}}}
+  \phantom{[\mathcal{C}^{op}, sSet_{Qu}]_{proj \atop loc}}
+  }
+$$
+
+such that
+
+1. $(even \dashv \iota_{sup})$ is a [[Quillen reflection]] (def. \ref{QuillenReflection});
+
+1. $(\iota_{sup} \dashv \Pi_{sup})$ is a [[Quillen coreflection]].
+
+=--
 
 
 +-- {: .num_defn #InfinitySolidSite}
@@ -2719,9 +3046,9 @@ such that
 =--
 
 
-+-- {: .num_prop #ElasticInfinityTopos}
++-- {: .num_prop #ModelToposOverInfinitySolidSiteIsSolidModelTopos}
 ###### Proposition
-**([[solid model topos]])**
+**([[model topos]] over [[∞-solid site]] is [[solid model topos]])**
 
 Let 
 
@@ -2759,67 +3086,133 @@ $$
   \mathcal{C}_{sup}
 $$
 
-be an [[∞-solid site]] (Def. \ref{InfinitySolidSite}). Then [[Kan extension]] (Prop. \ref{geometry+of+physics+--+categories+and+toposes#TopologicalLeftKanExtensionBCoend}) [[enriched category theory|enriched]] over [[sSet]] (Example \ref{ExamplesOfCosmoi})  induces on the corresponding [[elastic (infinity,1)-toposes|elastic]] [[model toposes]] (Prop. \ref{ElasticModelTopos}) a further [[Quillen adjoint quadruple]] (Def. \ref{QuillenAdjointTriple}) of the form
-
-
-$$
-  sSet_{Qu}
-  \;\;
-    \array{
-      \phantom{\underoverset{\phantom{{}_{Qu}}\bot_{Qu} }{ even }{\longleftarrow}}
-      \\
-      \phantom{\underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ \iota_{inf} }{\hookrightarrow}}
-      \\
-      \underoverset{\phantom{{}_{Qu}}\bot_{Qu} }{ \Pi }{\longleftarrow}
-      \\
-      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ Disc }{\hookrightarrow}
-      \\
-      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ \Gamma }{\longleftarrow}
-      \\
-      \overset{ coDisc }{\hookrightarrow}
-    }
-  \;\;
-  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{proj/inj}
-  \;\;
-    \array{
-      \phantom{\underoverset{\phantom{{}_{Qu}}\bot_{Qu} }{ even }{\longleftarrow}}
-      \\
-      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ \iota_{inf} }{\hookrightarrow}
-      \\
-      \underoverset{\phantom{{}_{Qu}}\bot_{Qu} }{ \Pi_{inf} }{\longleftarrow}
-      \\
-      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ Disc_{inf} }{\hookrightarrow}
-      \\
-      \underoverset{ \phantom{\phantom{{}_{Qu}}\bot_{Qu}} }{ \Gamma_{inf} }{\longleftarrow}
-      \\
-      \phantom{\overset{ coDisc }{\longrightarrow}}
-    }
-  \;\;
-  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{proj}
-  \;\;
-    \array{
-      \underoverset{\phantom{{}_{Qu}}\bot_{Qu} }{ even }{\longleftarrow}
-      \\
-      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ \iota_{sup} }{\hookrightarrow}
-      \\
-      \underoverset{\phantom{{}_{Qu}}\bot_{Qu} }{ \Pi_{sup} }{\longleftarrow}
-      \\
-      \underoverset{ \phantom{{}_{Qu}}\bot_{Qu} }{ Disc_{sup} }{\hookrightarrow}
-      \\
-      \underoverset{ \phantom{\phantom{{}_{Qu}}\bot_{Qu}} }{ \Gamma_{sup} }{\longleftarrow}
-      \\
-      \phantom{\overset{ coDisc }{\longrightarrow}}
-    }
-  \;\;
-  [\mathcal{C}_{sup}^{op}, sSet_{Qu}]_{proj/inj}
-$$
-
-We say that the corresponding [[adjoint quadruple]] in [[Ho(CombModCat)]] exhibits  the structure of an _[[solid model topos]]_.
-
+be an [[∞-solid site]] (Def. \ref{InfinitySolidSite}). Then [[Kan extension]] (Prop. \ref{TopologicalLeftKanExtensionBCoend}) [[enriched category theory|enriched]] over [[sSet]] (Example \ref{ExamplesOfCosmoi})  induces on the corresponding [[elastic model toposes]] (Prop. \ref{ElasticModelTopos}) the structure of a [[solid model topos]] (Def. \ref{SolidModelTopos}).
 
 
 =--
 
+The following is a refinement to [[homotopy theory]] of the [[modal operators]] on a [[solid topos]] from Def. \ref{SuperDiffCohesiveModalities}:
+
++-- {: .num_defn #DerivedSuperDiffCohesiveModalities}
+###### Definition
+**([[derived functor|derived]] [[adjoint modalities]] on [[solid model topos]])** 
+
+Given a [[solid model topos]] $[\mathcal{C}^{op}, sSet_{Qu}]_{{proj/inj} \atop loc}$ (Def. \ref{SolidModelTopos}), [[composition]] of [[derived functors]] via Prop. \ref{DerivedAdjointModalitiesFromFullyFaithfulQuillenAdjointQuadruples} and Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}, the following [[adjoint modalities]] (Def. \ref{AdjointModality})
+
+$$
+  \rightrightarrows
+  \;\dashv\;
+  \rightsquigarrow
+  \;\dashv\;
+  Rh
+  \;\;\colon\;\;
+  \mathbf{H}
+    \array{
+      \overset{ \rightrightarrows \;\coloneqq\; \iota_{sup} \circ even  }{\longleftarrow}
+      \\
+      \overset{\rightsquigarrow \;\coloneqq\; \iota_{sup} \circ \Pi_{sup}  }{\longrightarrow}
+      \\
+      \overset{ Rh \;\coloneqq\; Disc_{sup}  \circ \Pi_{sup} }{\longleftarrow}
+    }
+  \mathbf{H}
+  \,.
+$$
+
+Since $\iota_{sup}$ and $Disc_{sup}$ are [[fully faithful functors]] by assumption,
+these are ([[comodal operator|co-]])[[modal operators]] (Def. \ref{ModalOperator}) on the [[cohesive topos]], by (Prop. \ref{DerivedAdjointModalitiesFromFullyFaithfulQuillenAdjointQuadruples} and Prop. \ref{ModalOperatorsEquivalentToReflectiveSubcategories}).
+
+We pronounce these as follows:
+
+| $\phantom{A}$ [[fermionic modality]] $\phantom{A}$ | $\phantom{A}$ [[bosonic modality]] $\phantom{A}$ | $\phantom{A}$ [[rheonomy modality]] $\phantom{A}$ |
+|--------------------|-------------------|--------------------|
+|   $\phantom{A}$  $\rightrightarrows \;\coloneqq\; \iota_{sup} \circ even$  $\phantom{A}$ | $\phantom{A}$ $\rightsquigarrow \;\coloneqq\; \iota_{sup} \circ \Pi_{sup}$ $\phantom{A}$  | $\phantom{A}$ $ Rh \;\coloneqq\; Disc_{sup} \circ \Pi_{sup} $ $\phantom{A}$  |
+{: style='margin:auto}
+
+and we refer to the corresponding [[modal objects]] (Def. \ref{ModalObjects}) as follows:
+
+
+* a $\rightsquigarrow$-[[comodal object]]
+
+  $$
+    \overset{\rightsquigarrow}{X}
+      \underoverset{\simeq}{\epsilon^\rightsquigarrow_X}{\longrightarrow}
+    X
+  $$
+
+  is called a _[[bosonic object]]_;
+
+* a $Rh$-[[modal object]]
+
+  $$
+    X
+      \underoverset{\simeq}{ \eta^{Rh}_X}{\longrightarrow}
+    Rh X
+  $$
+
+  is called a _rheonomic object_;
+
+
+=--
+
+
++-- {: .num_prop #ProgressionOfModalitiesOnSolidTopos}
+###### Proposition
+**(progression of [[adjoint modalities]] on [[solid topos]])**
+
+Let $[\mathcal{C}^{op}, sSet_{Qu}]_{{proj/inj} \atop lco}$ be a [[solid model topos]] (Def. \ref{SolidModelTopos}) and consider the [[adjoint modalities]] which it inherits 
+
+1. for being a [[cohesive topos]], from Def. \ref{DerivedCohesiveModalities}, 
+
+1. for being an [[elastic topos]], from Def. \ref{DerivedDiffCohesiveModalities},
+
+1. for being a [[solid topos]], from Def. \ref{DerivedSuperDiffCohesiveModalities}:
+
+
+| $\phantom{A}$ [[shape modality]] $\phantom{A}$ | $\phantom{A}$ [[flat modality]] $\phantom{A}$ | $\phantom{A}$ [[sharp modality]] $\phantom{A}$ |
+|--------------------|-------------------|--------------------|
+|   $\phantom{A}$  $&#643; \;\coloneqq\; Disc \Pi$  $\phantom{A}$ | $\phantom{A}$ $\flat \;\coloneqq\; Disc \circ \Gamma$ $\phantom{A}$  | $\phantom{A}$ $\sharp \;\coloneqq\; coDisc \circ \Gamma $ $\phantom{A}$  |
+|   |   |   |
+| $\phantom{A}$ **[[reduction modality]]** $\phantom{A}$ | $\phantom{A}$ **[[infinitesimal shape modality]]** $\phantom{A}$ | $\phantom{A}$ **[[infinitesimal flat modality]]** $\phantom{A}$ |
+|   $\phantom{A}$  $\Re \;\coloneqq\; \iota_{sup} \iota_{inf} \circ \Pi_{inf}\Pi_{sup}$  $\phantom{A}$ | $\phantom{A}$ $\Im \;\coloneqq\; Disc_{sup} Disc_{inf} \circ \Pi_{inf} \Pi_{sup}$ $\phantom{A}$  | $\phantom{A}$ $ \& \;\coloneqq\; Disc_{sup} Disc_{inf} \circ \Gamma_{inf}\Gamma_{sup} $ $\phantom{A}$  |
+|   |    |    |
+| $\phantom{A}$ **[[fermionic modality]]** $\phantom{A}$ | $\phantom{A}$ **[[bosonic modality]]** $\phantom{A}$ | $\phantom{A}$ **[[rheonomy modality]]** $\phantom{A}$ |
+|   $\phantom{A}$  $\rightrightarrows \;\coloneqq\; \iota_{sup} \circ even$  $\phantom{A}$ | $\phantom{A}$ $\rightsquigarrow \;\coloneqq\; \iota_{sup} \circ \Pi_{sup}$ $\phantom{A}$  | $\phantom{A}$ $ Rh \;\coloneqq\; Disc_{sup} \circ \Pi_{sup} $ $\phantom{A}$  |
+{: style='margin:auto}
+
+Then these arrange into the following progression, via the [[preorder]] on modalities from Def. \ref{PreorderOnModalities}:
+
+$$
+  \array{    
+    id &\dashv& id
+    \\
+    \vee && \vee
+    \\
+    \rightrightarrows &\dashv& \rightsquigarrow &\dashv& Rh
+    \\
+    && \vee && \vee
+    \\
+    && \Re &\dashv& \Im &\dashv& \&
+    \\
+    && && \vee && \vee
+    \\
+    && && &#643; &\dashv& \flat &\dashv& \sharp
+    \\
+    && && && \vee && \vee
+    \\
+    && && && \emptyset &\dashv& \ast
+  }
+$$
+
+where we are displaying, for completeness, also the [[adjoint modalities]]  at the [[bottom]] $\emptyset \dashv \ast$ and the [[top]] $id \dashv id$   (Example \ref{InitialAndFinalAdjointModality}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is just as in Prop. \ref{ProgressionOfModalitiesOnSolidTopos}.
+
+=--
 
 
 $\,$
