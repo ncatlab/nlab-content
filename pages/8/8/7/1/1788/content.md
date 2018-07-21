@@ -58,7 +58,7 @@ $$
       {{\longleftarrow}}
       {\overset{\iota_{sup}}{\longrightarrow}}
       {\phantom{{}_{Qu}}\bot_{Qu}}
-  [\mathcal{C}^{op}, sSet_{Qu}]_{inj \atop loc}
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
   \\
   sSet_{Qu}
     \underoverset
@@ -70,7 +70,7 @@ $$
       {{\longleftarrow}}
       {\overset{id}{\longrightarrow}}
       {\phantom{{}_{Qu}}\simeq_{Qu} }
-  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{inj \atop loc}
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
     \underoverset
       {{\longrightarrow}}
       {\overset{ \Pi_{inf} }{\longleftarrow}}
@@ -80,70 +80,68 @@ $$
       {{\longleftarrow}}
       {\overset{id}{\longrightarrow}}
       {\phantom{{}_{Qu}}\simeq_{Qu} }
-  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj \atop loc}
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
     \underoverset
       {{\longrightarrow}}
       {\overset{\Pi_{sup}}{\longleftarrow}}
       {\phantom{{}_{Qu}}\bot_{Qu}}
-  [\mathcal{C}^{op}, sSet_{Qu}]_{inj \atop loc}
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
   \\
   sSet_{Qu}
     \underoverset
       {{\longleftarrow}}
       {\overset{Disc_{red}}{\longrightarrow}}
       {\phantom{{}_{Qu}}\bot_{Qu}}
-  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{inj \atop loc}
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
     \underoverset
       {{\longrightarrow}}
       {\overset{id}{\longleftarrow}}
       {\phantom{{}_{Qu}}\simeq_{Qu} }
-  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj \atop loc}
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
     \underoverset
       {{\longleftarrow}}
       {\overset{ Disc_{inf} }{\longrightarrow}}
       {\phantom{{}_{Qu}}\bot_{Qu}}
-  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj \atop loc}
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
     \underoverset
-      {\phantom{\longrightarrow}}
-      {\overset{\;\;id}{\phantom{\longleftarrow}}}
-      {\phantom{\phantom{{}_{Qu}}\simeq_{Qu}} }
-  \phantom{[\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{proj \atop loc}}
+      {{\longrightarrow}}
+      {\overset{\;\;id}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\simeq_{Qu} }
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
     \underoverset
-      {\phantom{\longleftarrow}}
-      {\overset{\;Disc_{sup}}{\phantom{\longrightarrow}}}
-      {\phantom{\phantom{{}_{Qu}}\bot_{Qu}}}
-  \phantom{[\mathcal{C}^{op}, sSet_{Qu}]_{proj \atop loc}}
+      {{\longleftarrow}}
+      {\overset{\;Disc_{sup}}{\longrightarrow}}
+      {\phantom{{}_{Qu}}\bot_{Qu}}
+  [\mathcal{C}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
   \\
   sSet_{Qu}
     \underoverset
       {\underset{coDisc_{red}}{\longrightarrow}}
       {\overset{\Gamma_{red}}{\longleftarrow}}
       {\phantom{{}_{Qu}}\bot_{Qu}}      
-  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{inj \atop loc}
+  [\mathcal{C}_{red}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
     \underoverset
       {\phantom{\underset{id}{\longrightarrow}}}
       {\overset{id}{\phantom{\longleftarrow}}}
       {\phantom{\phantom{{}_{Qu}}\simeq_{Qu}} }
   \phantom{
-  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj \atop loc}
+  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}
   }
     \underoverset
       {\phantom{{\longleftarrow}}}
       {\overset{ \Gamma_{inf} }{\phantom{\longrightarrow}}}
       {\phantom{\phantom{{}_{Qu}}\bot_{Qu}}}
-  \phantom{
-    [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj \atop loc}
+   \phantom{[\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{inj\phantom{r} \atop loc}}
     \underoverset
-      {\underset{}{\longrightarrow}}
-      {\overset{id}{\longleftarrow}}
-      {\phantom{{}_{Qu}}\simeq_{Qu} }
-  [\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{proj \atop loc}
+      {\underset{}{\phantom{\longrightarrow}}}
+      {\overset{id}{\phantom{\longleftarrow}}}
+      {\phantom{\phantom{{}_{Qu}}\simeq_{Qu} }}
+  \phantom{[\mathcal{C}_{inf}^{op}, sSet_{Qu}]_{proj \atop loc}}
     \underoverset
-      {{\longleftarrow}}
-      {\overset{\iota_{sup}}{\longrightarrow}}
-      {\phantom{{}_{Qu}}\bot_{Qu}}
-  [\mathcal{C}^{op}, sSet_{Qu}]_{proj \atop loc}
-  }
+      {\phantom{{\longleftarrow}}}
+      {\overset{\Gamma_{sup}}{\phantom{\longrightarrow}}}
+      {\phantom{\phantom{{}_{Qu}}\bot_{Qu}}}
+  \phantom{[\mathcal{C}^{op}, sSet_{Qu}]_{proj \atop loc}}
   }
 $$
 
