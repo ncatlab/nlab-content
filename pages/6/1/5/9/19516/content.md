@@ -683,7 +683,7 @@ This follows immediately from the fact that passing to [[homotopy categories of 
 
 =--
 
-A similar argument should show that we get an adjoint triple between the [[(infinity,1)-categories]]presented by the model categories.  We can therefore apply all $(\infty,1)$-category theoretic arguments.  But in what follows, we prove some basic facts about $(\infty,1)$-adjoint triples instead using model-categorical arguments.
+A similar argument should show that we get an adjoint triple between the [[(infinity,1)-categories]] presented by the model categories.  We can therefore apply all $(\infty,1)$-category theoretic arguments.  But in what follows, we prove some basic facts about $(\infty,1)$-adjoint triples instead using model-categorical arguments.
 
 
 ### Derived adjoint modality
