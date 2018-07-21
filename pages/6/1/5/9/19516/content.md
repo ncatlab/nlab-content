@@ -796,7 +796,7 @@ By Lemma \ref{DerivedAdjunctionUnitOfQuillenAdjointTriple} the [[derived adjunct
 =--
 
 
-+-- {: .num_prop #DerivedAdjointModalityFromQuillenAdjointQuadruple}
++-- {: .num_lemma #DerivedAdjointModalityFromQuillenAdjointQuadruple}
 ###### Lemma
 **([[fully faithful functors]] in [[Quillen adjoint quadruple]])**
 
