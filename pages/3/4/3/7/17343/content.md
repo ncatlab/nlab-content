@@ -6932,7 +6932,7 @@ and the conclusion follows by the same kind of reasoning.
 +-- {: .num_remark}
 ###### Remark
 
-In [[model category]] theory the property in proposition \ref{PushoutProductInTopCGSendsCofCofToCof} is referred to as saying that the model category $(Top_{cg})_{Quillen}$ from theorem \ref{ModelStructureOnTopcg}
+In [[model category]] theory the property in proposition \ref{PushoutProductInTopCGSendsCofCofToCof} is referred to as saying that the model category $(Top_{cg})_{Quillen}$ from theorem \ref{ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces}
 
 1. is a [[monoidal model category]] with respect to the [[Cartesian product]] on $Top_{cg}$;
 
