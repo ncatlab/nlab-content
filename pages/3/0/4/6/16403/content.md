@@ -2334,6 +2334,7 @@ Let $\mathcal{C}, \mathcal{D}$ be [[model categories]] and consider $F \colon \m
 
 +-- {: .num_example #ComputationOfLeftRightDerivedFunctorsViaResolutions}
 ###### Proposition
+**(construction of left/right [[derived functors]])**
 
 Let $F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ be a functor between two [[model categories]] (def. \ref{ModelCategory}).
 
@@ -3231,6 +3232,30 @@ $$
 where $P f$ is any lift constructed as in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}.
 
 This exhibits the bottom left morphism as the [[derived adjunction unit]] (Def. \ref{DerivedAdjunctionUnit}), hence a weak equivalence by assumption. But since $f$ was a weak equivalence, so is $P f$ (by [[two-out-of-three]]).  Thereby also $R P f$ and $R j_Y$, are weak equivalences by [[Ken Brown's lemma]] \ref{KenBrownLemma} and the assumed fibrancy of $c$. Therefore by [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) also the [[adjunct]] $\tilde f$ is a weak equivalence.
+
+=--
+
++-- {: .num_example #TrivialQuillenEquivalence}
+###### Example
+**(trivial [[Quillen equivalence]])**
+
+Let $\mathcal{C}$ be a [[model category]] (Def. \ref{ModelCategory}). Then the [[identity functor]] on $\mathcal{C}$ constitutes a [[Quillen equivalence]] (Def. \ref{QuillenEquivalence}) from $\mathcal{C}$ to itself:
+
+$$
+  \mathcal{C}  
+    \underoverset
+      {\underset{id}{\longrightarrow}}
+      {\overset{id}{\longleftarrow}}
+      {\phantom{{}_{Qu}}\simeq_{Qu}}
+  \mathcal{C}
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+From prop. \ref{ComputationOfLeftRightDerivedFunctorsViaResolutions} it is clear that in this case the [[derived functors]] $\mathbb{L}id$ and $\mathbb{R}id$ both are themselves the [[identity functor]] on the [[homotopy category of a model category]], hence in particular are an [[equivalence of categories]].
 
 =--
 
