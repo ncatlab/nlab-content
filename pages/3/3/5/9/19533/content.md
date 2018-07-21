@@ -32,7 +32,7 @@ there is a natural [[continuous function]] $Imm(M,N) \to Imm^f(M,N)$, sending an
 
 Smale and Hirsch established that when $M$ is compact, and also either $M$ is  _open_ (in the sense that the complement of the boundary has no compact component) or $dim(M) \lt dim(N)$, then the map $Imm(M,N) \to Imm^f(M,N)$ is a [[weak  homotopy equivalence]].
 
-When combined with the result that $Imm^f(S^k,\mathbb{R}^{n+k}) \to Map(S^k, V_n(\mathbb{R}^{n+k}))$ can be shown to be a homotopy equivalence, where $V_n(\mathbb{R}^{n+k})$ is the Stiefel manifold of $n$-frames in $\mathbb{R}^{n+k}$, the previous result establishes that isotopy classes of immersions of $S^k$ into $\mathbb{R}^{n+k}$ are in bijection with $\pi_k V_n(\mathbb{R}^{n+k})$.
+When combined with the result that $Imm^f(S^k,\mathbb{R}^{n+k}) \to Map(S^k, V_k(\mathbb{R}^{n+k}))$ can be shown to be a homotopy equivalence, where $V_k(\mathbb{R}^{n+k})$ is the Stiefel manifold of $k$-frames in $\mathbb{R}^{n+k}$, the previous result establishes that isotopy classes of immersions of $S^k$ into $\mathbb{R}^{n+k}$ are in bijection with $\pi_k V_k(\mathbb{R}^{n+k})$.
 
 
 ##References
