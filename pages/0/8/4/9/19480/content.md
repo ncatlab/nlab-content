@@ -694,13 +694,13 @@ $\,$
 
 **[[affine schemes]] and [[commutative algebras]]**
 
-The starting point of [[algebraic geometry]] is to consider _[[affine schemes]]_ as the [[formal duals]] (Example \ref{OppositeCategory}) of [[finitely generated object|finitely generated]] [[commutative algebras]] over some [[algebraically closed field|algebraically closed]] [[ground field]] $\mathbb{K}$:
+The starting point of [[algebraic geometry]] is to consider _[[affine schemes]]_ as the [[formal duals]] (Example \ref{OppositeCategory}) of [[finitely generated object|finitely generated]] [[nLab:reduced ring|reduced]] [[commutative algebras]] over some [[algebraically closed field|algebraically closed]] [[ground field]] $\mathbb{K}$:
 
 \[
   \label{FormalDualsOfCommutativeRings}
   Aff_{\mathbb{K}}
    \;\;\coloneqq\;\;
-  CAlg_{\mathbb{K}}^{op}
+  CAlg^{fin,red}_{\mathbb{K}}^{op}
   \,.
 \]
 
