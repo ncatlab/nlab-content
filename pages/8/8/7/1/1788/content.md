@@ -1,4 +1,3 @@
-
 [[BasicExamplesOfConcreteCategories.jpg:file]]
 
 $$
