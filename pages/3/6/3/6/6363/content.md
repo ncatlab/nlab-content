@@ -194,6 +194,8 @@ Since [[locally compact Hausdorff spaces are equivalently open subspaces of comp
 
 With due care on defining the right morphisms, the duality generalizes also to [[locally compact topological spaces]]. See for instance ([Brandenburg 07](#Brandenburg07)).
 
+The duality also works with [[real numbers]] instead of [[complex numbers]] ([Johnstone 82, chapter IV](#Johnstone82))
+
 For an overview of other generalizations see also [this MO discussion](http://mathoverflow.net/a/82960/381).
 
 =--
@@ -229,9 +231,12 @@ The analogous statement in [[differential geometry]]:
 
 * [[embedding of smooth manifolds into formal duals of R-algebras]]
 
+
 ## References
 
 Textbook accounts include
+
+* {#Johnstone82} [[Peter Johnstone]], section IV.4 of _[[Stone Spaces]]_, Cambridge Studies in Advanced Mathematics 3, Cambridge University Press 1982. xxi+370 pp. MR85f:54002, reprinted 1986.
 
 * [[Nicolaas Landsman|N. P. Landsman]], _Mathematical topics between classical and quantum mechanics_, Springer Monographs in Mathematics 1998. xx+529 pp. [MR2000g:81081](http://www.ams.org/mathscinet-getitem?mr=1662141) [doi](http://dx.doi.org/10.1007/978-1-4612-1680-3)
 
@@ -243,13 +248,13 @@ An exposition that explicitly gives Gelfand duality as an [[equivalence of categ
 
 Careful discussion of the duality for the more general case of [[locally compact topological spaces]] includes
 
-* {#Brandenburg07} [[Martin Brandenburg]], _Gefand-Dualit&#228;t ohne 1_, 2007 ([web](http://www.matheplanet.com/matheplanet/nuke/html/article.php?sid=1111))
+* {#Brandenburg07} [[Martin Brandenburg]], _Gelfand-Dualit&#228;t ohne 1_, 2007 ([web](http://www.matheplanet.com/matheplanet/nuke/html/article.php?sid=1111))
 
 Some other generalized contexts for Gelfand duality:
 
 * [[Hans Porst]], Manfred B. Wischnewsky, _Every topological category is convenient for Gelfand duality_, Manuscripta mathematica __25__:2, (1978) pp 169-204 
 
-* H. Heunen, [[Klaas Landsman]], [[Bas Spitters]], S. Wolters, _The Gelfand spectrum of a noncommutative $C^\ast$-algebra_, J. Aust. Math. Soc. __90__ (2011), 39&#8211;52 [doi](http://dx.doi.org/10.1017/S1446788711001157) [pdf](http://www.math.ru.nl/~landsman/LandsmanCarey60.pdf)
+* [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], Sander Wolters, _The Gelfand spectrum of a noncommutative $C^\ast$-algebra_, J. Aust. Math. Soc. __90__ (2011), 39&#8211;52 [doi](http://dx.doi.org/10.1017/S1446788711001157) [pdf](http://www.math.ru.nl/~landsman/LandsmanCarey60.pdf)
 
 *  [[Christopher J. Mulvey]], _A generalisation of Gelfand duality_, J. Algebra 56, n. 2, (1979) 499&#8211;505 <a href="http://dx.doi.org/10.1016/0021-8693(79)90352-1">doi</a>
 
