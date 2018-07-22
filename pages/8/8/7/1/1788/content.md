@@ -1,4 +1,6 @@
 
+[[BasicExamplesOfConcreteCategories.jpg:file]]
+
 $$
   \array{
   \phantom{
