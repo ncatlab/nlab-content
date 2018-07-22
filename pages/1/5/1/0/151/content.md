@@ -136,7 +136,7 @@ to [[Set]], which are represented by objects $a \in C$, $\hat a \in D$ with the 
 
 * {#LawvereRosebrugh} [[William Lawvere]], [[Bob Rosebrugh]], chaper 7 of _Sets for Mathematics_ ([web](http://www.mta.ca/~rrosebru/setsformath/))
 
-* H.-E. Porst, W. Tholen, _Concrete Dualities_ in _Category Theory at Work_, Herrlich, Porst (eds.) [pdf](http://www.heldermann.de/R&E/RAE18/ctw07.pdf)
+* {#PorstTholen91} [[Hans-E. Porst]], [[Walter Tholen]], _Concrete Dualities_ in H. Herrlich, [[Hans-E. Porst]] (eds.) _Category Theory at Work_, Heldermann Verlag 1991 ([pdf](http://www.heldermann.de/R&E/RAE18/ctw07.pdf))
 
 * {#Lambek81} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co. (1981)
 
