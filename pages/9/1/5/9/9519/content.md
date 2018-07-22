@@ -40,7 +40,13 @@ A [[Banach algebra]] is in particular a topological algebra.
 
 * [[dense subalgebra]]
 
+* [[C*-algebra]]
+
 ## References
+
+
+* {#DubucPorta71} [[Eduardo Dubuc]], [[Horacio Porta]], _Convenient categories of topological algebras_, Bull. Amer. Math. Soc., Volume 77, Number 6 (1971), 975-979 ([Euclid:1183533170](https://projecteuclid.org/euclid.bams/1183533170))
+
 
 * [[eom]], _[Topological algebra](http://www.encyclopediaofmath.org/index.php/Topological_algebra)_
 
