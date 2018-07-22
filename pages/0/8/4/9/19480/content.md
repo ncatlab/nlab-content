@@ -147,7 +147,7 @@ More generally all kind of _sets with [[structure]]_, in the sense going back to
 
 For $\mathcal{S}$ a kind of [[mathematical structure]], there is the [[category]] (Def. \ref{Categories}) $\mathcal{S}Set$ whose [[objects]] are the corresponding [[structured sets]], and whose [[morphisms]] are the corresponding structure [[homomorphisms]], hence the [[functions]] of underlying sets which respect the given structure.
 
-Basic examples of [[concrete categories]] include the following:
+{#BasicExamplesOfConcreteCategories} Basic examples of [[concrete categories]] include the following:
 
 | $\phantom{A}$[[concrete category]]$\phantom{A}$ | $\phantom{A}$[[objects]]$\phantom{A}$ | $\phantom{A}$[[morphisms]]$\phantom{A}$ |
 |-----------------------|-------------|---------------|
@@ -157,6 +157,8 @@ Basic examples of [[concrete categories]] include the following:
 | $\phantom{A}$[[Vect]]  | $\phantom{A}$[[vector spaces]]$\phantom{A}$ | $\phantom{A}$[[linear functions]]$\phantom{A}$ |
 | $\phantom{A}$[[Grp]]   | $\phantom{A}$[[groups]]$\phantom{A}$ | $\phantom{A}$[[group homomorphisms]]$\phantom{A}$ |
 | $\phantom{A}$[[Alg]]   | $\phantom{A}$[[algebras]]$\phantom{A}$ | $\phantom{A}$[[algebra homomorphism]]$\phantom{A}$ |
+{: style='margin:auto}
+
 
 =--
 
