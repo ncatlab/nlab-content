@@ -24,7 +24,7 @@ This entry collects links for the book
 
   ([pdf](http://wolfweb.unr.edu/homepage/bruceb/Book6.pdf))
 
-on [[operator K-theory]] and [[KK-theory]].
+on [[operator algebra]], [[operator K-theory]] and [[KK-theory]].
 
 #Contents#
 * table of contents
