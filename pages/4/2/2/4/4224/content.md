@@ -23,7 +23,7 @@
 
 ## Idea
 
-Stone duality is a subject comprising various [[dualities]] between [[space and quantity]] in the area of general [[topology]] and topological algebra.
+Stone duality is a subject comprising various [[dualities]] between [[space and quantity]] in the area of [[general topology]] and topological [[algebra]].
 
 
 
@@ -134,6 +134,8 @@ The corresponding fact is also notably false for [[groupoids]], i.e. $Gpd(Stone)
 * [[syntax - semantics duality]]
 
 * [[abstract Stone duality]]
+
+* [[Gelfand duality]]
 
 ## References
 
