@@ -27,16 +27,31 @@ The [[equivalences of categories]] that arise from fixed points of adjunctions t
 
 If $F \colon \mathcal{D} \longrightarrow \mathcal{C}$ is [[left adjoint]] to $G  \colon \mathcal{C} \longrightarrow \mathcal{D}$, then we take the [[fixed points of the endofunctor]] $F G$ to be those [[objects]] of $\mathcal{C}$ on which the [[counit of an adjunction|counit]] $\epsilon$ is an [[isomorphism]], and take the fixed points of $G F$ to be those objects of $\mathcal{D}$ on which the [[unit of an adjunction|unit]] $\eta$ is an isomorphism. The [[triangle identities]] then imply that $F$ and $G$ induce an [[equivalence of categories]] between the [[full subcategories]] of fixed points of $F G$ and the fixed points of $G F$. 
 
-## Remarks
+## Properties
 
 * If the adjunction is [[idempotent adjunction|idempotent]], then the fixed objects in $\mathcal{C}$ are precisely those of the form $G d$, and dually the fixed objects in $\mathcal{D}$ are those of the form $F c$.  Indeed, this is essentially the definition of an idempotent adjunction.
+
+## Examples
+ {#Examples}
+
+### Gelfand duality
+ {#GelfandDuality}
+
+[[Gelfand duality]] is the fixed point equivalence of an adjunction between [[compactly generated topological spaces|compactly generated]] [[Hausdorff spaces]] and [[topological algebras]] over the [[complex numbers]], given by using the [[complex numbers]] as [[dualizing object]] ([Porst-Tholen 91, section 4-c](#PorstTholen91)).
 
 ## Related concepts
 
 * [[nucleus of a profunctor]]
+
+## References
+
+* {#PorstTholen91} [[Hans-E. Porst]], [[Walter Tholen]], _Concrete Dualities_ in H. Herrlich, [[Hans-E. Porst]] (eds.) _Category Theory at Work_, Heldermann Verlag 1991 ([pdf](http://www.heldermann.de/R&E/RAE18/ctw07.pdf))
 
 
 [[!redirects fixed points of an equivalence]]
 
 [[!redirects center of an adjunction]]
 [[!redirects centers of adjunctions]]
+
+[[!redirects fixed point equivalence of an adjunction]]
+[[!redirects fixed point equivalences of adjunctions]]
