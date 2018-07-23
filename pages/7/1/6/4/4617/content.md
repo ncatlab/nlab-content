@@ -1175,6 +1175,8 @@ The structure of a [[simplicial model category]] is described in detail at [[mod
 
 * [[geometric stack]], [[geometric ∞-stack]]
 
+* [[Lie integration]]
+
 ## References
 
 The Quillen adjunction over abelian $T$-algebras that we consider generalizes that discussed in 
