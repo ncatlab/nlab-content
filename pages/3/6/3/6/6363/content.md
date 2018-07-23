@@ -233,6 +233,7 @@ The analogous statement in [[differential geometry]]:
 
 * [[embedding of smooth manifolds into formal duals of R-algebras]]
 
+[[!include Isbell duality - table]]
 
 ## References
 
