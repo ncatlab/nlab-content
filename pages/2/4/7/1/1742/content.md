@@ -27,7 +27,7 @@ The __triangle identities__ or __zigzag identities__ are identities characterize
 
 Consider:
 
-1. $C, D$ be two [[categories]], or, generally, two [[objects]] of a give [[2-category]];
+1. $C, D$ be two [[categories]], or, generally, two [[objects]] of a given [[2-category]];
 
 1. $L: C \to D$ and $R : D \to C$ two [[functors]] between these, or generally [[1-morphisms]] in the ambient [[2-category]];
 
