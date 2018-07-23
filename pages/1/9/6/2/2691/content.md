@@ -15,7 +15,7 @@
 
 ## Idea 
 
-A [[model category]] structure on a category of [[dg-algebra]]s tends to present an [[(∞,1)-category]] of [[∞-algebra over an (∞,1)-algebraic theory|∞-algebras]]. 
+A [[model category]] structure on a category of [[differential graded algebras]] or more specifically on a [[category of differential graded-commutative]] tends to present an [[(∞,1)-category]] of [[∞-algebra over an (∞,1)-algebraic theory|∞-algebras]]. 
 
 For dg-algebras bounded in negative or positive degrees, the [[monoidal Dold-Kan correspondence]] asserts that their model category structures are [[Quillen equivalence|Quillen equivalent]] to the corresponding [[model structure on simplicial algebras|model structure on (co)simplicial algebras]]. This case plays a central role in [[rational homotopy theory]].
 
@@ -1229,7 +1229,7 @@ over a field $k$ of characteristic 0 constitute a presentation of
 
 
 
-The cofibrantly generated model structure on **commutative** [[dg-algebras]] is surveyed usefully for instance on p. 6 of 
+The cofibrantly generated model structure on [[differential graded-commutative algebras]] is surveyed usefully for instance on p. 6 of 
 
 * {#Hess06} [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626))
 
@@ -1263,28 +1263,28 @@ more on this).
 
 Disucssion of the model structure on unbounded dg-algebras over a field of characteristic 0 is in 
 
-* [[Bertrand Toën]], [[Gabriele Vezzosi]], _HAG II, geometric stacks and applicatons_ ([arXiv:math/0404373v4](http://arxiv.org/abs/math/0404373v4))
-{#ToenVezzosi}
+* {#ToenVezzosi} [[Bertrand Toën]], [[Gabriele Vezzosi]], _HAG II, geometric stacks and applicatons_ ([arXiv:math/0404373v4](http://arxiv.org/abs/math/0404373v4))
+
 
 A general discussion of algebras over an operad in unbounded chain complexes is in
 
-* [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
-{#Hinich}
+* {#Hinich} [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
+
 
 A survey of some useful facts with an eye towards [[dg-geometry]] is in
 
-* [[Kai Behrend]], _Differential graded schemes I: prefect resolving algebras_ ([arXiv:0212225](http://arxiv.org/abs/math/0212225))
-{#Behrend}
+* {#Behrend} [[Kai Behrend]], _Differential graded schemes I: prefect resolving algebras_ ([arXiv:0212225](http://arxiv.org/abs/math/0212225))
+
 
 Discussion of cofibrations in unbounded dg-algebras are in 
 
-* [[Bernhard Keller]], _$A_\infty$-algebras, modules and functor categories_ ([pdf](http://www.math.jussieu.fr/~keller/publ/ainffun.pdf))
-{#Keller}
+* {#Keller} [[Bernhard Keller]], _$A_\infty$-algebras, modules and functor categories_ ([pdf](http://www.math.jussieu.fr/~keller/publ/ainffun.pdf))
+
 
 The derived copowering of unbounded commutative dg-algebras over $sSet$ is discussed (somewhat implicitly) in
 
-* [[Grégory Ginot]], Thomas Tradler, Mahmoud Zeinalian, _Derived higher Hochschild homology, topological chiral homology and factorization algebras_, ([arxiv/1011.6483](http://arxiv.org/abs/1011.6483))
-{#GinotTradlerZeinalian}
+* {#GinotTradlerZeinalian} [[Grégory Ginot]], Thomas Tradler, Mahmoud Zeinalian, _Derived higher Hochschild homology, topological chiral homology and factorization algebras_, ([arxiv/1011.6483](http://arxiv.org/abs/1011.6483))
+
 
 The _commutative_ product on the dg-algebra of the higher order Hochschild complex is discussed in
 
@@ -1325,7 +1325,14 @@ Discussion of [[homotopy limits]] and [[homotopy colimits]] of dg-algebras is in
 [[!redirects model structure on dgc-algebras]]
 [[!redirects model structures on dgc-algebras]]
 
-
 [[!redirects projective model structure on dgc-algebras]]
 [[!redirects projective model structures on dgc-algebras]]
+
+[[!redirects projective model structure on connective dgc-algebras]]
+[[!redirects projective model structures on connective dgc-algebras]]
+
+
+[[!redirects model structure on dgc-algebras]]
+[[!redirects model structures on dgc-algebras]]
+
 
