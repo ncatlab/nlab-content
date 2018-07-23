@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -37,6 +37,10 @@ $$
 $$
 
 This, or rather its [[geometric realization]] to a [[rational topological space]], is the Sullivan construction.
+
+## Related concepts
+
+* [[Lie integration]]
 
 ## References
 
