@@ -55,6 +55,11 @@ For more see at _[[geometry of physics -- supergeometry]]_.
 
 [[!include geometries of physics -- table]]
 
+$\,$
+
+[[!include Isbell duality - table]]
+
+
 ## References
  {#References}
 
