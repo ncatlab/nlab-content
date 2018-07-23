@@ -69,3 +69,11 @@ Related discussion to the case of [[manifolds with corners]] is in
 
 [[!redirects manifold with corners]]
 [[!redirects manifolds with corners]]
+
+[[!redirects manifold with boundaries and corners]]
+[[!redirects manifolds with boundaries and corners]]
+
+[[!redirects smooth manifold with boundaries and corners]]
+[[!redirects smooth manifolds with boundaries and corners]]
+
+
