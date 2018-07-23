@@ -46,6 +46,8 @@ Every commutative C*-algebra is a [[nuclear C*-algebra]].
 
 * [[KK-bootstrap category]]
 
+* [[noncommutative topology]]
+
 [[!redirects commutative C-star-algebra]]
 [[!redirects commutative C-star-algebras]]
 [[!redirects commutative C-star algebra]]
