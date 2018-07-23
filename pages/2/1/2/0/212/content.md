@@ -47,6 +47,8 @@ to the category [[Bimod]], which sends algebra homomorphisms $f : A \to B$ to th
 
 * [[Mod]], [[2Mod]], [[nMod]]
 
+* [[dgcAlg]]
+
 * [[Eilenberg-Moore category]]
 
 category: category
