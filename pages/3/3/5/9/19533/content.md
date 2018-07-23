@@ -23,7 +23,7 @@ A **formal immersion** $F$ of one [[smooth manifold]], $M$, into another, $N$, i
 
 That is, $F$ consists of a [[smooth function]] $f \;\colon\; M \to N$ and a [[homomorphism]] of [[vector bundles]] $F \;\colon\; T M\to T N$ covering $f$ such that the [[linear function]] $F|_{x} \;\colon\; T_x M \to T_{f(x)} N$ is  an [[injective function]] for every point $x$ in $M$. 
 
-Write $Imm^f(M,N)$ for the space of such formal immersions. There is a [[fibration]] over $Map(M, N)$, where the fiber over $f$ is $Hom^{inj}_{Vect_M}(T M, f^{\ast}T N)$.
+Write $Imm^f(M,N)$ for the space of such formal immersions. There is a [[fibration]] over $Map(M, N)$, whose [[fiber]] over $f$ is $Hom^{inj}_{Vect_M}(T M, f^{\ast}T N)$.
 
 ## Relation to immersions
 
