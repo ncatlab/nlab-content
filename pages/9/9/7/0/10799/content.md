@@ -290,7 +290,7 @@ $$
   \mathbb{A}_k \coloneqq \underset{v \in P}{\prod} k_v
 $$
 
-where the restriction is to elements $(x_v)_{v\in P}$ of the actual [[product]] whose components have [[norm]] at most unity -- ${\vert x_v\vert} \leq 1$, except for a most a [[finite number]] of $v$. 
+where the restriction is to elements $(x_v)_{v\in P}$ of the actual [[product]] whose components have [[norm]] at most unity -- ${\vert x_v\vert} \leq 1$, except for at most a [[finite number]] of $v$. 
 
 This is topologized in the same way as discussed [above](#ForAnyNumberField).
 
