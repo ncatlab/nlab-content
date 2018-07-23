@@ -23,7 +23,9 @@ A **formal immersion** $F$ of one [[smooth manifold]], $M$, into another, $N$, i
 
 That is, $F$ consists of a [[smooth function]] $f \;\colon\; M \to N$ and a [[homomorphism]] of [[vector bundles]] $F \;\colon\; T M\to T N$ covering $f$ such that the [[linear function]] $F|_{x} \;\colon\; T_x M \to T_{f(x)} N$ is  an [[injective function]] for every point $x$ in $M$. 
 
-Write $Imm^f(M,N)$ for the space of such formal immersions. There is a [[fibration]] over $Map(M, N)$, whose [[fiber]] over $f$ is $Hom^{inj}_{Vect_M}(T M, f^{\ast}T N)$.
+Write $Imm^f(M,N)$ for the space of such formal immersions. There is a [[fibration]] over the space of smooth functions from $M$ to $N$, $Map^{sm}(M, N)$, forgetting the bundle homomorphism, whose [[fiber]] over $f$ is $Hom^{inj}_{Vect_M}(T M, f^{\ast}T N)$.
+
+**Note**: Some authors define formal immersions in terms of continuous functions (e.g., [Laudenbach17, p. 6](#Laudenbach17)). However, the space $Map^{sm}(M, N)$ is homotopy equivalent to the space of all continuous functions, $Map(M, N)$, due to integrating against a smoothing kernel. 
 
 ## Relation to immersions
 
@@ -38,5 +40,9 @@ When combined with the result that $Imm^f(S^k,\mathbb{R}^{n+k}) \to Map(S^k, V_k
 ##References
 
 * [[John Francis]], _The h-principle, lectures 1 and 2: overview_, ([pdf](https://sites.math.northwestern.edu/~jnkf/classes/hprin/1overview.pdf))
+
+* Konrad Voelkel and Helene Sigloch, _Homotopy sheaves and h-principles_, ([pdf](https://www.konradvoelkel.com/wp-content/uploads/homotopy-sheaves.pdf))
+
+* {#Laudenbach17} Francois Laudenbach, _René Thom and an anticipated h-principle_, ([arXiv:1703.08108](https://arxiv.org/abs/1703.08108))
 
 [[!redirects formal immersions of smooth manifolds]]
