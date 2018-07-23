@@ -210,6 +210,10 @@ The [[Dold?Kan correspondence]] is the nerve/realization adjunction for the [[ho
 
 * The induced realization is the normalized [[Moore complex]] functor extended from $\Delta$ to all [[simplicial sets]].
 
+### Higher Lie integration / smooth Sullivan construction
+
+see at _[[Lie integration]]_ [this Prop.](Lie+integration#LieIntegrationIsRightQuillenFunctor)
+
 ### Simplicial models for $(\infty,1)$-categories 
 
 The canonical cosimplicial [[simplicially enriched category]]
