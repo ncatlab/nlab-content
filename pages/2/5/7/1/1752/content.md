@@ -15,7 +15,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea ##
@@ -304,3 +304,10 @@ Its analog for sheaves, theorem 2.1 there, is due to
 That the local projective model structure (directly defined) is indeed the left Bousfield localization of the global projective model structure is lemma 4.3 there.
 
 [[!redirects local model structures on simplicial presheaves]]
+
+[[!redirects injective local model structure on simplicial presheaves]]
+[[!redirects injective local model structures on simplicial presheaves]]
+
+
+[[!redirects projective local model structure on simplicial presheaves]]
+[[!redirects projective local model structures on simplicial presheaves]]
