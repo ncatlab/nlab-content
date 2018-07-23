@@ -238,7 +238,7 @@ The analogous statement in [[differential geometry]]:
 
 Formulation of Gelfand duality in terms of [[category theory]] ([[adjoint functors]], [[monads]] ("triples") and [[adjoint equivalences]]) originates with
 
-* {#Negropontis71} Joan W. Negrepontis, _Duality in analysis from the point of view of triples_, Journal of Algebra, 19 (2): 228–253, (1971) ([doi:10.1016/0021-8693(71)90105-0](https://doi.org/10.1016/0021-8693(71)90105-0), ISSN 0021-8693, MR 0280571)
+* {#Negropontis71} Joan W. Negrepontis, _Duality in analysis from the point of view of triples_, Journal of Algebra, 19 (2): 228–253, (1971) (<a href="https://doi.org/10.1016/0021-8693(71)90105-0">doi</a>, ISSN 0021-8693, MR 0280571)
 
 Quick exposition is in
 
@@ -263,7 +263,7 @@ Careful discussion of the duality for the more general case of [[locally compact
 
 following
 
-* {#DubucPorta71} [[Eduardo Dubuc]], [[Horacio Porta]], _Convenient categories of topological algebras_, Bull. Amer. Math. Soc., Volume 77, Number 6 (1971), 975-979 ([Euclid:1183533170](https://projecteuclid.org/euclid.bams/1183533170))
+* {#DubucPorta71} [[Eduardo Dubuc]], [[Horacio Porta]], _Convenient categories of topological algebras_, Bull. Amer. Math. Soc., Volume 77, Number 6 (1971), 975-979 [euclid](https://projecteuclid.org/euclid.bams/1183533170)
 
 
 
