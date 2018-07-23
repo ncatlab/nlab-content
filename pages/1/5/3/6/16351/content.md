@@ -70,6 +70,9 @@ The analogous statement in [[topology]] is:
 
 * [[Gelfand duality]]
 
+[[!include Isbell duality - table]]
+
+
 
 
 ## References
