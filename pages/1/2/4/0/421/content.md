@@ -325,7 +325,7 @@ As $n$ varies, this forms the [[singular simplicial complex]] of $X$.
 
 ### Relation to globes
 
-The [[orientals]] related simplices to [[globes]].
+The [[orientals]] relate simplices to [[globes]].
 
 ## Related concepts
 
@@ -337,6 +337,16 @@ The [[orientals]] related simplices to [[globes]].
 * [[horn]], [[boundary of a simplex]], [[spine]]
 
 * [[differential forms on simplices]]
+
+* [[simplicial set]]
+
+  * [[simplicial complex]]
+
+  * [[Kan complex]]
+ 
+  * [[weak Kan complex]]
+
+* [[simplicial category]]
 
 * [[globe]], 
 
@@ -360,6 +370,12 @@ The [[orientals]] related simplices to [[globes]].
 
 [[!redirects k-simplex]]
 [[!redirects k-simplices]]
+
+[[!redirects 1-simplex]]
+[[!redirects 1-simplices]]
+
+[[!redirects 2-simplex]]
+[[!redirects 2-simplices]]
 
 
 [[!redirects n-simplex]]
