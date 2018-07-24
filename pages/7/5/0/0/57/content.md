@@ -417,14 +417,14 @@ from the [[product category]] of the [[category]] [[CartSp]] of [[Cartesian spac
 There is a [[Quillen adjunction]]
 
 $$
-  [CartSp^{op},sSet_{Qu}]_{proj,loc}
+  dgcAlg^{op}_{\mathbb{R}, \geq 0, proj}
     \;
     \underoverset
       {\underset{ Spec }{\longrightarrow}}
       {\overset{ \mathcal{O} }{\longleftarrow}}
-      {\phantom{AA}\bot\phantom{AA}}
+      {\phantom{A}\phantom{{}_{Qu}}\bot_{Qu}\phantom{A}}
     \;
-  dgcAlg^{op}_{\mathbb{R}, \geq 0, proj}
+  [CartSp^{op},sSet_{Qu}]_{proj,loc}
 $$
 
 between
