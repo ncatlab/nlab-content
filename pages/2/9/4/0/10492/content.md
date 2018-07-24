@@ -61,7 +61,7 @@ $$
 
 A proof of prop. \ref{SpectraAsExcisiveFunctors} passing through [[model category]] [[presentable (infinity,1)-category|presentations]] for excisive $\infty$-functors and of the [[Bousfield-Friedlander model structure]] for [[sequential spectra]] is due to ([Lydakis 98](#Lydakis98)), see at _[[model structure for excisive functors]]_ at _[Relation to BF-model structure on sequential spectra](model+structure+for+excisive+functors#ModelStructureForSpectra)_.
 
-The idea of the euivalence is as follows. Let $E$ be a reduced excisive functor.
+The idea of the equivalence is as follows. Let $E$ be a reduced excisive functor.
 For each $n \in \mathbb{N}$, write $S^n \in \infty Grpd_{fin}^{\ast/}$ for the [[n-sphere]] and write $E_{n} \coloneqq E(S^n)$. We have the homotopy pushout squares
 
 $$
