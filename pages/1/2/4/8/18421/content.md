@@ -38,7 +38,7 @@ There are different choices of [[sites]] $Top_{sm}$ to make. For instance
 
 1. taking $Top_{sm}$ be the the subcategory of topological [[Cartesian spaces]] yield a concept of [[Euclidean-topological infinity-groupoids]].
 
-These two hapenns to constitute [[cohesive ∞-toposes]], due to the local contractibility of the objects in the site.
+These two happen to constitute [[cohesive ∞-toposes]], due to the local contractibility of the objects in the site.
 
 ## Related concepts
 
