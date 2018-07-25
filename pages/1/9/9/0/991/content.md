@@ -22,7 +22,7 @@ This has been abstracted and extended to [[homotopy]] and also in the direction 
 
 The term '[[?ech nerve|nerve of a covering]]' has been used from the  late 
 1920s for a construction that starts with a space and an open cover of it and builds a [[simplicial complex]]. 
-Historically these data were organized as a [[simplicial complex]], rather than a [[simplicial set]]. The idea had been parallely worked out by [[Eduard Cech|?ech]] and P.S. Aleksandrov
+Historically these data were organized as a [[simplicial complex]], rather than a [[simplicial set]]. The idea had been independently worked out by [[Eduard Cech|Čech]] and [[P. S. Aleksandrov]]
 so one often talks about Aleksandrov--&#268;ech (co)homology. There was an alternative approach described by Vietoris (1927), which led to what is known as [[Vietoris homology]]  There are separate entries in nlab for [[Cech homology|?ech homology]]
 and [[?ech cohomology]]. The first is not exact, and so is  not really
 a homology theory in the sense of Steenrod--Eilenberg axioms. It is also not the (Alexander--Spanier) dual of &#268;ech cohomology.  The two problems  can be avoided at the same time using coherent homotopy theory. The resulting homology is one which is exact.  It also is one that satisfies the wedge axiom, and then it is the unique such theory, nowadays sometimes called [[strong homology]] and in special cases it reduces to what was called [[Steenrod-Sitnikov homology]] (but which was originally constructed in a different way).
@@ -31,7 +31,8 @@ a homology theory in the sense of Steenrod--Eilenberg axioms. It is also not the
 
 ##Nerve of an open cover##
 +--{: .un_defn}
-######Definition######
+######Definition###### 
+([[Pavel Sergeevič Aleksandrov]], 1926)
 Given a (compact) space $X$ and a (finite) open cover, $\alpha$, of $X$, we can
 form a [[simplicial set]], $C(X,\alpha)$, called the *nerve of the cover* whose $n$-[[simplex|simplices]] are $(n + 1)$-strings
 of open sets  from $\alpha$, i.e. $\langle U_0, \ldots, U_n\rangle$, each $U_i \in \alpha$,
@@ -48,11 +49,12 @@ $V$, but independent 'up to homotopy' (see below).
 =--
 
 ##Application of &#268;ech methods##
+
 Applying one's favourite homotopy
 functor, $F : \mathbf{S}\to \mathbf{A}$, to each $C(X,\alpha)$ and to these homotopy
 classes of induced transition maps, yields an inverse  system of objects in
 $\mathbf{A}$, i.e.,  a
-[[pro-object]]  in $\mathbf{A}$, but the $C(X,\alpha)$ by themselves do _not_ define a pro-object in the category of simplicial sets. They do form a pro-object in $Ho(sSets)$, or alternative, a 'coherent pro-object' in $sSets$, (see [[?ech homotopy]] for more discussion on this point.)
+[[pro-object]]  in $\mathbf{A}$, but the $C(X,\alpha)$ by themselves do _not_ define a pro-object in the category of simplicial sets. They do form a pro-object in $Ho(sSets)$, or alternative, a 'coherent pro-object' in $sSets$, (see [[Čech homotopy]] for more discussion on this point.)
 
 
 ### &#268;ech homology and cohomology ###
@@ -63,18 +65,18 @@ homology to a much wider class of spaces.  Lefschetz, without the language of
 category theory, studied, again in the 1930s, the formal properties of inverse 
 systems of polyhedra and maps between them and his student Christie looked at the homotopy groups in this setting.  
 
-* see [[?ech cohomology]] and [[?ech homotopy]] for more on this.
+* see [[Čech cohomology]] and [[Čech homotopy]] for more on this.
 
 ### Shape theory as a &#268;ech homotopy theory ###
 
 Borsuk (1968) developed [[shape theory]], which although initially very geometric in flavour turned out also to be described in terms of Christie's
 theory of the "&#268;ech extensions" of homotopy theory. 
 
-The first papers on this approach were by [[Tim Porter]]. They used the [[Vietoris complex]] of a space relative to an open cover as well as the [[?ech complex]] itself.  (By [[Dowker's Theorem]] the two complexes give the same information up to homotopy, but the [[Vietoris complex]] is a functor on the category of covers, having values in the category of simplicial sets, whilst the &#268;ech complex does not give so nice a structure as most naturally it takes values in the homotopy category of simplicial sets. In fact, that functor can be rigidified but this requires a certain amount of work.)
+The first papers on this approach were by [[Tim Porter]]. They used the [[Vietoris complex]] of a space relative to an open cover as well as the [[Čech complex]] itself.  (By [[Dowker's Theorem]] the two complexes give the same information up to homotopy, but the [[Vietoris complex]] is a functor on the category of covers, having values in the category of simplicial sets, whilst the &#268;ech complex does not give so nice a structure as most naturally it takes values in the homotopy category of simplicial sets. In fact, that functor can be rigidified but this requires a certain amount of work.)
 
-Porter also gave a partial solution to the problem of the stability of a space, that is whether it has the same &#268;ech homotopy as a polyhedron. The methods developed for that problem then suggested the existence of a homotopy theory for pro-simplicial sets related to homotopy coherence.  That observation was also made by Edwards and Hastings, who proposed a strong shape theory based on what they termed [[Steenrod homotopy]]. This relates to [[Alexander-∞ech duality|Steenrod-Sitnikov homology]].
+Porter also gave a partial solution to the problem of the stability of a space, that is whether it has the same &#268;ech homotopy as a polyhedron. The methods developed for that problem then suggested the existence of a homotopy theory for pro-simplicial sets related to homotopy coherence.  That observation was also made by Edwards and Hastings, who proposed a strong shape theory based on what they termed [[Steenrod homotopy]]. This relates to [[Alexander-Čech duality|Steenrod-Sitnikov homology]].
 
-(See [[shape theory]] and [[?ech homotopy]] for references and more on this area).
+(See [[shape theory]] and [[Čech homotopy]] for references and more on this area).
 
 
 ### &#268;ech-like methods in algebraic geometry ###
