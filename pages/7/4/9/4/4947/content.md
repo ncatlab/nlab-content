@@ -1,4 +1,6 @@
 
+>  For comparison of subsets of open subsets, see instead at _[[finer topology]]_.
+
 # Coarse topology
 * table of contents
 {: toc}
