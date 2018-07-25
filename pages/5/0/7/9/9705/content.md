@@ -13,6 +13,8 @@ One considers a fixed partial differential relation (see [[differential equation
 
 For example, in the case of holomorphic fiber bundles $R$ may be the Cauchy-Riemann relation, thus the question is if there is a deformation of a continuous section into a holomorphic one. In other words, one wants to reduce the problem of existence of maps of certain type to the analogous topological problem. Applications include results on the spaces of immersions, submersions, k-mersions, holomorphic maps, symplectic and isometric embeddings, contact structures and so on. 
 
+[[Mikhail Gromov]] demonstrated the result that if $B$ is an open $n$-manifold, and if $R$ is open as a subspace of $X^{(r)}$ and is $Diff(B)$-invariant, then $R$ satisfies the $h$-principle.
+
 ##  General methods
 
 Gromov introduced many techniques of proving the h-principle including the method of microflexible/continuous sheaves, the methods of convex integration and the removal of singularities.  
