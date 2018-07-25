@@ -15,7 +15,9 @@
 
 ## Idea
 
-Discussion of [[superalgebra]] and [[supergeometry]] involves, by definition, crucial minus signs appearing in certain expressions. While there is a systematic rule for these, when superalgebra/supergeometry is combined with other topics that crucially involve their own signs, such as [[homological algebra]], or ordering of terms, such as in [[noncommutative algebra]], then the combined sign rule may appear intricate. This page here is meant to explicitly list some common expressions with their signs, for easy reference. We follow the article ([Deligne-Freed 99](#DeligneFreed99)) which has the same goal.
+Discussion of [[superalgebra]] and [[supergeometry]] involves, by definition, crucial minus signs appearing in certain expressions. While there is a systematic rule for these, when superalgebra/supergeometry is combined with other topics that crucially involve their own signs, such as [[homological algebra]], or ordering of terms, such as in [[noncommutative algebra]], then the combined sign rule may appear intricate. This page here is meant to explicitly list two equivalent sign rules for easy reference. We follow ([Deligne-Freed 99](#DeligneFreed99)) which has the same goal.
+
+
 
 The main point to notice is that for algebraic terms that have both a [[homological algebra|homological degree]] $n \in \mathbb{Z}$ and a super-degree $\sigma \in \mathbb{Z}_2$ the "internalization sign rule" for the sign when exchanging two such elements is
 
@@ -57,6 +59,7 @@ $$
 
 This we discuss below in _[The super odd sign rule](#SuperOddConvention)_.
 
+In [Deligne-Morgan 99](#DeligneMorgan99), the two sign rules are referred to as _Deligne's convention_ (for the internalization rule) and _Bernstein's convention_ (for the super odd sign rule).
 
 ## The sign rule from internalization
  {#TheSignRuleFromInternalization}
@@ -602,13 +605,21 @@ Volume 296, Issue 4, 25 January 1988 (<a href="http://dx.doi.org/10.1016/0550-32
 
     which in turn appears in 
 
-    * [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D.R. Morrison, [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+    * [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], [[John Morgan]], [[David Morrison]], [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
 
 And with explicit acknowledgement that there is also the alternative super odd sign rule in:
+
+* {#DeligneMorgan99} [[Pierre Deligne]], [[John Morgan]], _Notes on supersymmetry_, remark 1.2.8 in [[NotesOnNotesOnSupersymmetry.pdf:file]]
+
+  in [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], [[John Morgan]], [[David Morrison]], [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
 
 * {#Freed01} [[Daniel Freed]], bottom of p. 48 in _Classical field theory and Supersymmetry_, IAS/Park City Mathematics Series Volume 11, 2001 ([pdf](https://www.ma.utexas.edu/users/dafr/pcmi.pdf))
 
 ### Super odd sign rule
+
+* [Deligne-Morgan 99](#DeligneMorgan99), remark 1.2.8 in [[NotesOnNotesOnSupersymmetry.pdf:file]]
 
 ...
 
