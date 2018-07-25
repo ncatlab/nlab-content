@@ -152,6 +152,11 @@
 
 #### specific
 
+* [[model structure on dg-algebras|model structure on differential-graded commutative algebras]]
+
+* [[model structure on differential graded-commutative superalgebras]]
+
+
 * [[model structure on dg-algebras over an operad|on dg-algebras over an operad]]
 
   * [[model structure on dg-algebras|on dg-algebras]] and on [[simplicial ring|on simplicial rings]]/[[model structure on cosimplicial rings|on cosimplicial rings]] 
