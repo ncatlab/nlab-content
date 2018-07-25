@@ -18,14 +18,14 @@
 =--
 
 # Sets
-
-The concept of _set_ appears in several different guises in [[mathematics]], and particularly in [[category theory]].
-
 * table of contents
 {: toc}
 
 
 ## What should a set be?
+
+The concept of _set_ appears in several different guises in [[mathematics]], and particularly in [[category theory]].
+
 
 It is common to use [[foundations of mathematics]] in which 'set' is an undefined term; this is [[set theory]] as a foundation.  In a [[pure set|pure]] [[material set theory]] like [[ZFC]], every object is a set.  Even in a [[structural set theory|structural approach]] such as [[ETCS]], it is common for every object to be a [[structured set]] in some way or another.
 
