@@ -109,7 +109,8 @@ An immersion $f : X \to Y$ is precisely a _local [[embedding of smooth manifolds
 The related concept of [[formal immersion of smooth manifolds]], defined as an injective bundle morphism $T M \to T N$ between tangent bundles, is in some ways easier to study, in the sense that the collection of all such formal immersions, $Imm^f(M, N)$, is simpler to analyze. Then under some conditions on $M$ and $N$ (see there), it is the case that the map $Imm(M, N) \to \Imm^f(M, N)$ is a [[weak homotopy equivalence]]. This is a case of the [[h-principle]].
 
 
-### Characterization in infinitesimal cohesion
+### Characterization in differential cohesion
+ {#InDifferentialCohesion}
 
 A [[smooth function]] $f : X \to Y$ between [[smooth manifolds]] is canonically regarded as a morphism in the [[cohesive (∞,1)-topos]] [[SynthDiff∞Grpd]]. With respect to the canonical [[infinitesimal cohesion|infinitesimal neighbourhood inclusion]] $i : $ [[Smooth∞Grpd]] $\hookrightarrow$ [[SynthDiff∞Grpd]] there is a notion of [[formally unramified morphism]] in $SynthDiff\infty Grpd$.
 
