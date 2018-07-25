@@ -15,7 +15,39 @@
 
 ## Definition
 
-Given a [[topological space]] $X$ in the sense of ([Bourbaki 71](#Bourbaki71)) (that is, a set $X$ and a topology $\tau_X$) and a [[subset]] $Y$ of $X$, a topology $\tau_Y$ on $Y$ is said to be the topology **induced** from $\tau_X$ by the [[inclusion function|set inclusion]] $Y \hookrightarrow X$ if $\tau_Y = \tau_X \cap_{pw} \{Y\} \coloneqq \{ U \cap Y | U\in\tau_X\}$. In other words, $\tau_Y$ is the smallest topology on $Y$ such that the inclusion $Y \hookrightarrow X$ is [[continuous map|continuous]] (the [[initial topology]] on that map). The pair $(Y,\tau_Y)$ is then said to be a *topological [[subspace]]* of $(X,\tau_X)$. The induced topology is for that reason sometimes called the **subspace topology** on $Y$. 
+
++-- {: .num_defn #SubspaceTopology}
+###### Definition
+**([[topological subspace|subspace topology]])**
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/OpenSubsetsOfSquareInsidePlane.png" width="200">
+</div>
+
+Let $(X, \tau_X)$ be a [[topological space]], and let $S \subset X$ be a [[subset]] of its underlying [[set]]. Then the corresponding _[[topological subspace]]_ has $S$ as its underlying set, and its [[open subsets]] are those subsets of $S$ which arise as restrictions of open subsets of $X$ (i.e. [[intersections]] of open subsets of $X$ with $S$):
+
+$$
+  \left(
+    U_S \subset S\,\,\text{open}
+  \right)
+    \,\Leftrightarrow\,
+  \left(
+     \underset{U_X \in \tau_X}{\exists} \left( U_S = U_X \cap S \right)
+  \right)
+  \,.
+$$
+
+
+In other words, $\tau_Y$ is the [[finer topology|smallest topology]] on $Y$ such that the inclusion $Y \hookrightarrow X$ is [[continuous map|continuous]] (the [[initial topology]] on that map). 
+
+The picture on the right shows two open subsets inside the [[square]], regarded as a [[topological subspace]] of the [[plane]] $\mathbb{R}^2$:
+
+> graphics grabbed from [Munkres 75](#Munkres75)
+
+
+=--
+
+The pair $(Y,\tau_Y)$ is then said to be a *topological [[subspace]]* of $(X,\tau_X)$. The induced topology is for that reason sometimes called the **subspace topology** on $Y$. 
 
 A continuous function that factors as a [[homeomorphism]] onto its [[image]] equipped with the subspace topology is called an _[[embedding of topological spaces]]_.
 
@@ -23,7 +55,7 @@ A property of topological spaces is said to be **hereditary** if its satisfactio
 
 ## Examples
 
-* The open  subsets of a [[closed interval]] $[0,1] \subset \mathbb{R}$ regarded as a topological subspace of the [[real line]] equipped with its [[Euclidean space|Euclidean]] [[metric topology]] is generated from the [[sub-base of a topology|sub-base]] $\beta = \{ [0, a) ,(a,1]\}_{a \in [0,1]}$.
+* The [[open subsets]] of a [[closed interval]] $[0,1] \subset \mathbb{R}$ regarded as a topological subspace of the [[real line]] equipped with its [[Euclidean space|Euclidean]] [[metric topology]] is generated from the [[sub-base of a topology|sub-base]] $\beta = \{ [0, a) ,(a,1]\}_{a \in [0,1]}$.
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/OpenSubsetsOfSquareInsidePlane.png" width="200">
@@ -35,7 +67,100 @@ The image on the right shows open subsets in the closed square $[0,1]^2$, regard
 
 ## Properties 
 
-A subspace $i: Y \hookrightarrow X$ is **closed** if $Y$ is closed as a subset of $X$ (or if $i$ is a [[closed map]]), and is **open** if $Y$ is open as a subset of $X$ (or if $i$ is an [[open map]]). 
+### Universal property
+ {#UniversalProperty}
+
++-- {: .num_prop #UniversalPropertyOfSupspaceInclusion}
+###### Proposition
+**([[universal property]] of [[subspace topology]])**
+
+
+Let $U \overset{i}{\longrightarrow} X$ be an [[injective function|injective]] [[continuous function]] between [[topological spaces]]. Then this is a [[topological subspace|subspace inclusion]] (Def. \ref{SubspaceTopology}) precisely if it satisfies the following [[universal property]]: 
+
+* For $Z$ any topological space, a [[function]] $Z \overset{f}{\longrightarrow} U$ is [[continuous function|continuous]] precisely of $i \circ f$ is continuous
+
+  $$
+    \array{
+       Z &\overset{f}{\longrightarrow}& U
+       \\
+       &{}_{\mathllap{i \circ f}}\searrow& \Big\downarrow{}^{\mathrlap{i}}
+       \\
+       && X
+    }
+  $$
+
+=--
+
+The elementary **proof** is spelled out, for instance, in [Terilla 14, theorem 1](#Terilla14). Of course this is just another way to speak of the [[initial topology]].
+
+The universal characterization of Prop. \ref{UniversalPropertyOfSupspaceInclusion} lends itself to formalization via axioms for [[cohesion]]:
+
++-- {: .num_defn}
+###### Definition
+**([[sharp modality]] on [[topological spaces]])**
+
+Let 
+
+$$
+  Set
+    \underoverset 
+      {\underset{coDisc}{\longrightarrow}}
+      {\overset{\Gamma}{\longleftarrow}}
+      {\bot}
+  Top
+$$
+
+be the pair of [[adjoint functors]] given by sending a [[topological space]] $X$ to its underlying [[set]] $\Gamma(X)$, and by equipping a [[set]] $S$ with the [[codiscrete topology]] making it a [[codiscrete space]] $coDisc(X)$.
+
+Write
+
+$$
+  \sharp \;\coloneqq\; coDisc \circ \Gamma
+  \;\colon\;
+  Top
+    \longrightarrow
+  Top
+$$
+
+for the induced [[modal operator]] on [[Top]] ([[sharp modality]]). We write
+
+$$
+  id \overset{\eta^{\sharp}}{\longrightarrow} \sharp 
+$$
+
+for the [[unit of an adjunction|unit]] morphism of this [[adjunction]].
+
+=--
+
++-- {: .num_prop #UniversalPropertyViaSharpModality}
+###### Proposition
+
+Let $U \overset{i}{\longrightarrow} X$ be an [[injective function|injective]] [[continuous function]] between [[topological spaces]]. Then this is a [[topological subspace|subspace inclusion]] (Def. \ref{SubspaceTopology}) precisely if its [[naturality square]] of the $\sharp$-[[unit of an adjunction|unit]] 
+
+$$
+  \array{
+    U &\overset{ \eta^\sharp_U }{\longrightarrow}& \sharp U
+    \\
+    {}^{\mathllap{i}}\Big\downarrow && \Big\downarrow{}^{\mathrlap{\sharp i}}
+    \\
+    X &\underset{\eta^\sharp_X}{\longrightarrow}& \sharp X
+  }
+$$
+
+is a [[pullback]] square.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[universal property]] of a [[pullback]]/[[fiber product]] and the nature of $\sharp$, we have $U \simeq X \times_{\sharp X} \sharp U$ precisely if continuous functions out of some topological space $Z$ into $U$ are in [[natural bijection]] with continuous functions  $Z \to X$ whose underlying function $Z \to X \to \sharp X$ factors through the underlying function of $i$. This implies the statement by Prop. \ref{UniversalPropertyOfSupspaceInclusion}.
+
+=--
+
+### General
+
+A subspace $i: Y \hookrightarrow X$ is **closed** if $Y$ is [[closed subset|closed]] as a subset of $X$ (or if $i$ is a [[closed map]]), and is **open** if $Y$ is open as a subset of $X$ (or if $i$ is an [[open map]]). 
 
 
 +-- {: .num_prop #TopologicalEmbeddingsAreTheRegularMonos} 
@@ -96,6 +221,10 @@ A topology may be induced by more than a [[function]] other than a subset inclus
 ## References
 
 * {#Bourbaki71} [[Nicolas Bourbaki]], _Elements of Mathematics -- General topology_, 1971, 1990
+
+* {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall (1975, 2000)
+
+* {#Terilla14} [[John Terilla]],  _Notes on categories, the subspace topology and the product topology_ 2014 ([pdf](https://math.mit.edu/~jhirsh/terilla_subspace_quotient.pdf))
 
 [[!redirects subspace topology]]
 [[!redirects subspace topologies]]
