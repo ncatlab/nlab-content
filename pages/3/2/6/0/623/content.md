@@ -598,7 +598,8 @@ Original sources are
 
 There is also a never published
 
-* Seminar on algebraic homotopy theory.  Princeton 1956. Mimeographed notes.
+* [[John C. Moore]], _Algebraic homotopy theory_.  Princeton 1956. Mimeographed notes.
+[PDF](https://dmitripavlov.org/scans/moore-algebraic-homotopy-theory.pdf)
 
 A proof by Cartan is in
 
