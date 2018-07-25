@@ -199,18 +199,22 @@ $$
 
 Indeed, when the Fermat theory is that of [[generalized smooth algebra|C-infinity rings]], then this notion of K&#228;hler differentials does coincide with the ordinary notion of smooth [[differential form|1-form]]. The same is not true, in general, if one instead forms ring-theoretic K&#228;hler differentials. 
 
+## Related concepts
+
+* [[model structure on differential graded-commutative superalgebras]]
+
 
 ## References
 
 The original reference is
 
-* [[Eduardo Dubuc]], [[Anders Kock]], _On 1-form classifiers_, Comm. Alg. __12__  (1984),  no. 11-12, 1471--1531 ([pdf](http://home.imf.au.dk/kock/DK84.pdf))
- {#DubucKock84}
+* {#DubucKock84} [[Eduardo Dubuc]], [[Anders Kock]], _On 1-form classifiers_, Comm. Alg. __12__  (1984),  no. 11-12, 1471--1531 ([pdf](http://home.imf.au.dk/kock/DK84.pdf))
+ 
 
 Parts of the above material are a summary of the following talk:
 
-* [[Anders Kock]], _K&#228;hler differentials for Fermat theories_, talk at  _Fields Workshop on Smooth Structures in Logic, Category Theory and Physics_, May 1, 2009, University of Ottawa.  ([abstract](http://aix1.uottawa.ca/~scpsg/Fields09/smooth.abstracts.html))
-  {#Kock09}
+* {#Kock09} [[Anders Kock]], _K&#228;hler differentials for Fermat theories_, talk at  _Fields Workshop on Smooth Structures in Logic, Category Theory and Physics_, May 1, 2009, University of Ottawa.  ([abstract](http://aix1.uottawa.ca/~scpsg/Fields09/smooth.abstracts.html))
+  
 
 For more, see:
 
