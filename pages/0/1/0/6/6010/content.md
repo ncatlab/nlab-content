@@ -20,6 +20,8 @@ Embeddings of [[differentiable manifolds]] are [[submanifold]] inclusions.
 
 ## Definition
 
+### Classical definition
+
 +-- {: .num_defn #SmoothManifoldsEmbedding}
 ###### Definition
 **(embedding of smooth manifolds)**
@@ -33,6 +35,59 @@ An _[[embedding]] of [[smooth manifolds]]_ is a [[smooth function]] $f : X \hook
 A _closed embedding_ is an embedding such that the image $f(X) \subset Y$ is a [[closed subset]].
 
 =--
+
+### Synthetic definition in differential cohesion
+ {#SyntheticDefinitionInDifferentialCohesion}
+
+The classical definition \ref{SmoothManifoldsEmbedding} should have the following axiomatization in [[differential cohesive (infinity,1)-topos|differentially cohesive infinity-topos theory]], where one assumes the following system of [[adjoint modalities]]
+
+$$
+  \array{
+    && \Re &\dashv& \Im &\dashv& \&
+    \\
+    && && \vee && \vee
+    \\
+    && && &#643; &\dashv&  \flat &\dashv& \sharp
+  }
+$$
+
+We will use explicitly the [[sharp modality]] $\sharp$ and the [[infinitesimal shape modality]] $\Im$.
+
+Then given a morphism $U \overset{i}{\longrightarrow} X$ we have
+
+1. $i$ being a [[monomorphism]] means that it is a [[monomorphism in an (infinity,1)-category]]
+
+1. $i$ being an [[immersion]] means (by [this Discussion](immersion+of+smooth+manifolds#InDifferentialCohesion)) that it is a [[formally unramified morphism]] in that the comparison morphism
+
+   $$
+     U \longrightarrow X \times_{\Im X} \Im(U)
+   $$
+
+   into the [[pullback]] along the $\Im$-[[unit of an adjunction|unit]] is a monomorphism;
+
+1. $i$ being an [[embedding]] means (by [this Discussion](subspace+topology#UniversalProperty)) that the comparison morphism
+
+   $$
+      U \longrightarrow X \times_{\sharp X} \sharp X
+   $$
+
+   is an [[equivalence in an (infinity,1)-category|equivalence]].
+
+In terms of [[cohesive homotopy type theory]] this should mean that the [[characteristic function]]
+
+$$
+  \chi_U \;\colon\; X \longrightarrow Type
+$$
+
+to the [[type universe]], of $U$ regarded as a [[dependent type]] over $X$, satisfies:
+
+1. it factors through the [[universe of propositions]] $Prop$, hence of $\vert -\vert_{-1}$-[[modal types]] (where $\vert-\vert_{-1}$ is the [[n-truncation modality|(-1)-truncation modality]]);
+
+1. it factors through the universe of $\Im$-[[submodal types]];
+
+1. it factors through the universe of $\sharp$-[[modal types]].
+
+(...)
 
 
 ## Examples
@@ -201,6 +256,7 @@ For every [[smooth manifold]] $X$ of dimension $n$ (Hausdorff, sigma-compact), t
 In fact this bound is minimal, there are smooth manifolds of dimension $n$ which have no embdding into $\mathbb{R}^k$ for $k \lt 2n$.
 
 =--
+
 
 
 ## Space of Embeddings ##
