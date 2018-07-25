@@ -679,7 +679,7 @@ For an explanation of how the category $\Delta$ and the nerve construction arise
 
 ### Historical note
 
-The notion of the nerve of a category seems to be due to Grothendieck, which is in turn based on the nerve of a covering from 1926 work of [[P. S. Alexandroff]]. One of the first papers to consider the properties of the nerve and to apply it to problems in algebraic topology was
+The notion of the nerve of a category seems to be due to Grothendieck, which is in turn based on the nerve of a covering from 1926 work of [[Pavel Sergeevič Aleksandrov]]. One of the first papers to consider the properties of the nerve and to apply it to problems in algebraic topology was
 
 * [[Graeme Segal]],  _Classifying spaces and spectral sequences,_ Inst. Hautes &#201;tudes Sci. Publ. Math. No. 34 (1968) 105-112.
 
