@@ -17,13 +17,16 @@
 This entry collects linked keywords for the book
 
 * [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, 
-[[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  
+[[David Kazhdan]], [[John Morgan]], [[David Morrison]] and [[Edward Witten]], eds.  
 
   _Quantum Fields and Strings, A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
 on [[quantum field theory]] and [[string theory]].
 
+
 Parts of this appear separately elsewhere, for instance
+
+* [[Pierre Deligne]], [[John Morgan]], _Notes on supersymmetry_ ([[NotesOnNotesOnSupersymmetry.pdf:file]])
 
 * [[Pierre Deligne]], [[Daniel Freed]], _Supersolutions_ ([arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094)).
 
