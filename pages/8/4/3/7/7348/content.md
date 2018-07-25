@@ -106,7 +106,7 @@ An immersion $f : X \to Y$ is precisely a _local [[embedding of smooth manifolds
 
 ### Relation to formal immersions
 
-The related concept of [[formal immersion of smooth manifolds]], defined as an injective bundle morphism $T M \to T N$ between tangent bundles, is in some ways easier to study, in the sense that the collection of all such formal immersions, $Imm^f(M, N)$, is simpler to analyze. Then under some conditions on $M$ and $N$ (see there), it is the case that the map $Imm(M, N) \to \Imm^f(M, N)$ is a [[weak homotopy equivalence]].
+The related concept of [[formal immersion of smooth manifolds]], defined as an injective bundle morphism $T M \to T N$ between tangent bundles, is in some ways easier to study, in the sense that the collection of all such formal immersions, $Imm^f(M, N)$, is simpler to analyze. Then under some conditions on $M$ and $N$ (see there), it is the case that the map $Imm(M, N) \to \Imm^f(M, N)$ is a [[weak homotopy equivalence]]. This is a case of the [[h-principle]].
 
 
 ### Characterization in infinitesimal cohesion
