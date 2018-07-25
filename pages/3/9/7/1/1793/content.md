@@ -969,6 +969,8 @@ For $R$ any ring, there is the [[Eilenberg-MacLane spectrum]] $H R$. This is an 
 
 ## Related concepts
 
+* [[model structure on chain complexes of super vector spaces]]
+
 * [[model structure on dg-modules]]
 
 * [[model structure on dg-algebras]]
