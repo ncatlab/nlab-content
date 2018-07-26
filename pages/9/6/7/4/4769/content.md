@@ -164,6 +164,8 @@ Some nice historical notes are in
 
 
 [[!redirects exponent]]
+[[!redirects exponents]]
+
 [[!redirects exponentiation]]
 [[!redirects exponential]]
 [[!redirects exponentials]]
