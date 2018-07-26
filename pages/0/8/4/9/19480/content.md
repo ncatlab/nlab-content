@@ -694,17 +694,17 @@ $\,$
 
 **[[affine schemes]] and [[commutative algebras]]**
 
-The starting point of [[algebraic geometry]] is to consider _[[affine schemes]]_ as the [[formal duals]] (Example \ref{OppositeCategory}) of [[finitely generated object|finitely generated]] [[nLab:reduced ring|reduced]] [[commutative algebras]] over some [[algebraically closed field|algebraically closed]] [[ground field]] $\mathbb{K}$:
+The starting point of [[algebraic geometry]] is to consider _[[affine schemes]]_ as the [[formal duals]] (Example \ref{OppositeCategory}) of [[finitely generated object|finitely generated]] [[commutative algebras]] over some [[algebraically closed field|algebraically closed]] [[ground field]] $\mathbb{K}$:
 
 \[
   \label{FormalDualsOfCommutativeRings}
   Aff_{\mathbb{K}}
    \;\;\coloneqq\;\;
-  CAlg^{fin,red}_{\mathbb{K}}^{op}
+  CAlg^{fin}_{\mathbb{K}}^{op}
   \,.
 \]
 
-Beware that the immediate identification (eq:FormalDualsOfCommutativeRings) is often obscured by the definition of [[affine schemes]] as [[locally ringed spaces]]. While the latter is much more complicated, at face value, in the end it yields an [[equivalence of categories|equivalent]] [[category]] (Def. \ref{EquivalenceOfCategories} below) to the simple [[formal dual|formal dualization]] (Example \ref{OppositeCategory}) in (eq:FormalDualsOfCommutativeRings). Already in 1973 [[Alexander Grothendieck]] had urged to abandon, as a foundational concept, the more complicated definition in favor of the simpler one in (eq:FormalDualsOfCommutativeRings), see [Lawvere 03](functorial+geometry#Lawvere16Quote).
+Beware that the immediate identification (eq:FormalDualsOfCommutativeRings) is often obscured by the definition of [[affine schemes]] as [[locally ringed spaces]]. While the latter is much more complicated, at face value, in the end it yields an [[equivalence of categories|equivalent]] [[category]] (Def. \ref{EquivalenceOfCategories} below) to the simple [[formal dual|formal dualization]] (Example \ref{OppositeCategory}) in (eq:FormalDualsOfCommutativeRings), see [here](affine+scheme#AffineSchemesFullSubcategoryOfOppositeOfRings). Already in 1973 [[Alexander Grothendieck]] had urged to abandon, as a foundational concept, the more complicated definition in favor of the simpler one in (eq:FormalDualsOfCommutativeRings), see [Lawvere 03](functorial+geometry#Lawvere16Quote).
 
 
 $\,$
