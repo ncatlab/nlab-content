@@ -5,6 +5,11 @@
 
 * [[string theory]]
 
-* [[2d CFT]]
+* [[2d SCFT]]
+
+* [[NSR superstring]]
+
+* [[picture number]]
+
 
 category: people
