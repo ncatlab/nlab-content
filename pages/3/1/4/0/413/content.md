@@ -70,7 +70,13 @@ the wedge product $d \theta \wedge d\theta$ is non-vanishing, since $d \theta$ i
 
 ## References
 
+Discussion with an eye towards [[quantization]] of the [[superstring]] is in 
+
 * [[Alexander Belopolsky]], _De Rham Cohomology of the Supermanifolds and Superstring BRST Cohomology_, Phys.Lett. B403 (1997) 47-50 ([arXiv:hep-th/9609220](http://arxiv.org/abs/hep-th/9609220))
+
+Discussion with an eye towards [[superstring field theory]] is in
+
+* R. Catenacci, P.A. Grassi, S. Noja, _Superstring Field Theory, Superforms and Supergeometry_ ([arXiv:1807.09563](https://arxiv.org/abs/1807.09563))
 
 [[!redirects differential forms on supermanifolds]]
 
