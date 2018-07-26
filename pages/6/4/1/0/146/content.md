@@ -222,6 +222,7 @@ Examples for presheaves are abundant. Here is a non-representative selection of 
 ... etc. pp.
 
 
+
 ## Related concepts
 
 * **presheaf**
