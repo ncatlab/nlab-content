@@ -1,4 +1,5 @@
 
+
 | $\phantom{A}$[[nLab:geometry]]$\phantom{A}$  | $\phantom{A}$[[nLab:category]]$\phantom{A}$ | $\phantom{A}$[[nLab:dual category]]$\phantom{A}$ |  $\phantom{A}$[[nLab:algebra]]$\phantom{A}$ |
 |--------------------|--|------------------|---|
 | $\phantom{A}$[[nLab:topology]]$\phantom{A}$ | $\phantom{A}$$\phantom{NC}TopSpaces_{H,cpt}$$\phantom{A}$ | $\phantom{A}$$\overset{\text{<a href="https://ncatlab.org/nlab/show/Gelfand+duality">Gelfand duality</a>}}{\simeq} TopAlg^{op}_{C^\ast, comm}$$\phantom{A}$ | $\phantom{A}$[[nLab:commutative C*-algebra|comm. C*-algebra]]$\phantom{A}$ |
