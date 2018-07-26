@@ -504,7 +504,7 @@ and further detailed analysis is in
 
 A [[schreiber:∞-Chern-Simons theory]]-type formulation of closed superstring field theory analogous to the bosonic version in ([Zwiebach 93](#Zwiebach93)) is in 
 
-* {#JurcoMuenster13} [[Branislav Jur?o]], Korbinian Muenster, _Type II Superstring Field Theory: Geometric Approach and Operadic Description_, JHEP 1304:126 (2013) [arXiv/1303.2323](http://arxiv.org/abs/1303.2323) <a href="http://dx.doi.org/10.1007/JHEP04(2013)126">doi</a>
+* {#JurcoMuenster13} [[Branislav Jurco]], Korbinian Muenster, _Type II Superstring Field Theory: Geometric Approach and Operadic Description_, JHEP 1304:126 (2013) [arXiv/1303.2323](http://arxiv.org/abs/1303.2323) <a href="http://dx.doi.org/10.1007/JHEP04(2013)126">doi</a>
  
 
 based on 
@@ -517,6 +517,9 @@ See also
 
 * {#ErlerKonopkaSach14} [[Theodore Erler]], Sebastian Konopka, [[Ivo Sachs]], _NS-NS Sector of Closed Superstring Field Theory_, JHEP08(2014)158 ([arXiv:1403.0940](http://arxiv.org/abs/1403.0940))
 
+For discussion of [[differential forms on supermanifolds]] in this context, see also
+
+* R. Catenacci, P.A. Grassi, S. Noja, _Superstring Field Theory, Superforms and Supergeometry_ ([arXiv:1807.09563](https://arxiv.org/abs/1807.09563))
 
 
 The introduction of ([Jurco-Muenster13](#JurcoMuenster13)) has a useful survey of the previous attempt, which we quote now:
