@@ -30,4 +30,6 @@ In [[Vect]] or [[Mod]], the braiding maps elements $a\otimes b$ of a [[tensor pr
 
 For the [[tensor product of chain complexes]] or that of [[super vector spaces]] there is in addition a sign $a \otimes b \mapsto (-1)^{deg(a) deg(b)} (b \otimes a)$.
 
+For more see at _[[signs in supergeometry]]_.
+
 [[!redirects braidings]]
