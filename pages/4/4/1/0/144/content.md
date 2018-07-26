@@ -232,6 +232,7 @@ With the advent of [[Higher Topos Theory]] abstract concepts of _space and quant
 * [[geometry of physics -- categories and toposes]]
 
 
+
 ## References
 
 The general perspective is due to 
