@@ -86,3 +86,15 @@ An exposition of the standard lore is in
 A general abstract discussion in terms of [[D-module]] theory is in 
 
 * [[Frédéric Paugam]], _Homotopical Poisson Reduction of gauge theories_ ([pdf](http://people.math.jussieu.fr/~fpaugam/documents/homotopical-poisson-reduction-of-gauge-theories.pdf))
+
+
+Geometric discussion of [[picture number]] appearing in the context of [[integration over supermanifolds]] (and originally seen in the [[quantization]] of the [[NSR superstring]], crucial in [[superstring field theory]]) is due to 
+
+* {#Belopolsky97b} [[Alexander Belopolsky]], _Picture changing operators in supergeometry and superstring theory_ ([arXiv:hep-th/9706033](https://arxiv.org/abs/hep-th/9706033))
+
+and further amplified in 
+
+* {#Witten12} [[Edward Witten]], appendix D of _Notes On Super Riemann Surfaces And Their Moduli_ ([arXiv:1209.2459](http://arxiv.org/abs/1209.2459))
+
+* {#CatenacciGrassiNoja18} R. Catenacci, P.A. Grassi, S. Noja, _Superstring Field Theory, Superforms and Supergeometry_ ([arXiv:1807.09563](https://arxiv.org/abs/1807.09563))
+
