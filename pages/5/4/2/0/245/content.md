@@ -218,3 +218,7 @@ Eventually we should include all these diagrams here, along with the definition 
 [[!redirects braided categories]]
 [[!redirects braided tensor category]]
 [[!redirects braided tensor categories]]
+
+[[!redirects hexagon identity]]
+[[!redirects hexagon identities]]
+
