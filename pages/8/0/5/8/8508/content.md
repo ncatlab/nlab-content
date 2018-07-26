@@ -60,7 +60,7 @@ The concept of super Riemann surfaces originates with the following articles:
 Further discussion of the [[moduli space]] of super Riemann surfaces includes the following:
 
 
-* [[Edward Witten]], _Notes On Super Riemann Surfaces And Their Moduli_ ([arXiv:1209.2459](http://arxiv.org/abs/1209.2459))
+* {#Witten12} [[Edward Witten]], _Notes On Super Riemann Surfaces And Their Moduli_ ([arXiv:1209.2459](http://arxiv.org/abs/1209.2459))
 
 * {#DonagiWitten15} [[Ron Donagi]], [[Edward Witten]], _Supermoduli Space Is Not Projected_, Proc.Symp.Pure Math. 90 (2015) 19-72 ([arXiv:1304.7798](http://arxiv.org/abs/1304.7798))
 
