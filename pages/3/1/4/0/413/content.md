@@ -38,7 +38,9 @@ For $\mathbf{X}$ a supermanifold with function algebra $C^\infty(\mathbf{X})$, t
 
 For more see at _[[super Cartesian space]]_ and at _[[signs in supergeometry]]_.
 
-The equivalent of the [[de Rham complex]] in supergeometry is indexed by two indices and so is a [[double complex]]. This first index denotes the form degree, while the second index denotes what is called the *picture number*.
+If a choice of _integral top-forms_ is made, needed for a notion of _[[integration over supermanifolds]]_, then there is an additional grading by "[[picture number]]" ([Belopolsky 97b](#Belopolsky97b), [Witten 12](#Witten12)), see ([Catenacci-Grassi-Noja 18 (5.8) to (5.12)](#CatenacciGrassiNoja18)).
+
+
 
 ## Examples {#Examples}
 
@@ -76,9 +78,16 @@ Discussion with an eye towards [[quantization]] of the [[superstring]] is in
 
 * [[Alexander Belopolsky]], _De Rham Cohomology of the Supermanifolds and Superstring BRST Cohomology_, Phys.Lett. B403 (1997) 47-50 ([arXiv:hep-th/9609220](http://arxiv.org/abs/hep-th/9609220))
 
-Discussion with an eye towards [[superstring field theory]] is in
+Geometric discussion of [[picture number]] appearing in the context of [[integration over supermanifolds]] (and originally seen in the [[quantization]] of the [[NSR superstring]], crucial in [[superstring field theory]]) is due to 
 
-* R. Catenacci, P.A. Grassi, S. Noja, _Superstring Field Theory, Superforms and Supergeometry_ ([arXiv:1807.09563](https://arxiv.org/abs/1807.09563))
+* {#Belopolsky97b} [[Alexander Belopolsky]], _Picture changing operators in supergeometry and superstring theory_ ([arXiv:hep-th/9706033](https://arxiv.org/abs/hep-th/9706033))
+
+and further amplified in 
+
+
+* {#Witten12} [[Edward Witten]], appendix D of _Notes On Super Riemann Surfaces And Their Moduli_ ([arXiv:1209.2459](http://arxiv.org/abs/1209.2459))
+
+* {#CatenacciGrassiNoja18} R. Catenacci, P.A. Grassi, S. Noja, _Superstring Field Theory, Superforms and Supergeometry_ ([arXiv:1807.09563](https://arxiv.org/abs/1807.09563))
 
 [[!redirects differential forms on supermanifolds]]
 
