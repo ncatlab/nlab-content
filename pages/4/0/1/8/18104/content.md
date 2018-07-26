@@ -43,3 +43,5 @@ For example, the standard proofs of the [[irrational number|irrationality]] of $
 * Wikipedia, _[Proof by contradiction](https://en.wikipedia.org/wiki/Proof_by_contradiction)_
 
 [[!redirects proof by contradiction]]
+[[!redirects proof of negation]]
+[[!redirects refutation by contradiction]]
