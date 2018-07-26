@@ -22,6 +22,7 @@ $$ Scheme(-,Y)|_{Aff^{op}} = h_Y|_{Aff^{op}} = h_Y|_{CRing} : CRing\to Set,$$
 
 and the functor $Y\mapsto h_Y|_{CRing}$ from schemes to presheaves on $Aff$ is [[fully faithful functor|fully faithful]]. Thus the general schemes if defined as ringed spaces, indeed form a full subcategory of the category of presheaves on $Aff$. 
 
+
 There is an analogue of this theorem for relative [[noncommutative scheme]]s in the sense of Rosenberg. 
 
 +-- {: .num_remark}
