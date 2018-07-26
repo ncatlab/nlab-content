@@ -517,7 +517,13 @@ See also
 
 * {#ErlerKonopkaSach14} [[Theodore Erler]], Sebastian Konopka, [[Ivo Sachs]], _NS-NS Sector of Closed Superstring Field Theory_, JHEP08(2014)158 ([arXiv:1403.0940](http://arxiv.org/abs/1403.0940))
 
-For discussion of [[differential forms on supermanifolds]] in this context, see also
+Interpretation of [[picture number]] as a grading on [[differential forms on supermanifolds]] induced from a choice of[[integration over supermanifolds|integral top form]] is due to 
+
+* [[Alexander Belopolsky]], _Picture changing operators in supergeometry and superstring theory_ ([arXiv:hep-th/9706033](http://arxiv.org/abs/hep-th/9706033)).
+
+and has been further amplified in
+
+* {#Witten12} [[Edward Witten]], appendix D of _Notes On Super Riemann Surfaces And Their Moduli_ ([arXiv:1209.2459](http://arxiv.org/abs/1209.2459))
 
 * R. Catenacci, P.A. Grassi, S. Noja, _Superstring Field Theory, Superforms and Supergeometry_ ([arXiv:1807.09563](https://arxiv.org/abs/1807.09563))
 
@@ -570,12 +576,12 @@ in the bosonic case, but a Ramond puncture describes a divisor on a super Rieman
 
 A given background provides forms on super moduli space 
 
-* A. Belopolsky, _New Geometrical Approach to Superstrings_ ([arXiv:hep-th/9703183](http://arxiv.org/abs/hep-th/9703183))
+* [[Alexander Belopolsky]], _New Geometrical Approach to Superstrings_ ([arXiv:hep-th/9703183](http://arxiv.org/abs/hep-th/9703183))
 
 * L. Alvarez-Gaume, P. Nelson, C. Gomez, G. Sierra, C. Vafa, _Fermionic strings in the operator formalism_, Nuclear Physics B, Volume 311, Issue 2.
 
 in the sense of [[integration over supermanifolds|geometric integration theory on supermanifolds]], and in particular the geometric meaning
-of picture changing operators has been clarified 
+of [[picture changing operators]] has been clarified 
 
 * [[Alexander Belopolsky]], _Picture changing operators in supergeometry and superstring theory_ ([arXiv:hep-th/9706033](http://arxiv.org/abs/hep-th/9706033)).
 
