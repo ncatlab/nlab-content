@@ -8,19 +8,19 @@
 
 ### General
 
-An __affine scheme__ is a [[scheme]] that as a [[sheaf]] on the [[opposite category]] [[CRing]]${}^{op}$ of commutative [[ring]]s (or equivalently as a sheaf on the subcategory of finitely presented rings) is [[representable functor|representable]]. In a [[ringed space]] picture an affine scheme is a [[locally ringed space]] which is locally isomorphic to the [[prime spectrum]] of a commutative ring. Affine schemes form a full subcategory $Aff\hookrightarrow Scheme$ of the category of schemes.
+An __affine scheme__ is a [[scheme]] that as a [[sheaf]] on the [[opposite category]] [[CRing]]${}^{op}$ of commutative [[ring]]s (or equivalently as a sheaf on the subcategory of finitely presented rings) is [[representable functor|representable]]. In a [[ringed space]] picture an affine scheme is a [[locally ringed space]] which is locally isomorphic to the [[prime spectrum]] of a commutative ring. Affine schemes form a [[full subcategory]] $Aff\hookrightarrow Scheme$ of the category of schemes.
 
-The correspondence $Y\mapsto Spec(\Gamma_Y \mathcal{O}_Y)$ extends to a functor $Scheme\to Aff$. The __fundamental theorem on morphisms of schemes__ says that there is a bijection  
+The correspondence $Y\mapsto Spec(\Gamma_Y \mathcal{O}_Y)$ extends to a [[functor]] $Scheme\to Aff$. The __fundamental theorem on morphisms of schemes__ (see [below](#IsbellDuality)) says that there is a bijection  
 
 $$
-CRing(R, \Gamma_Y\mathcal{O}_Y) \cong Scheme(Y, Spec R).
+  CRing(R, \Gamma_Y\mathcal{O}_Y) \cong Scheme(Y, Spec R).
 $$
 
 In other words, for fixed $Y$, and for varying $R$ there is a restricted functor  
 
 $$ Scheme(-,Y)|_{Aff^{op}} = h_Y|_{Aff^{op}} = h_Y|_{CRing} : CRing\to Set,$$ 
 
-and the functor $Y\mapsto h_Y|_{CRing}$ from schemes to presheaves on $Aff$ is [[fully faithful functor|fully faithful]]. Thus the general schemes if defined as ringed spaces, indeed form a full subcategory of the category of presheaves on $Aff$. 
+and the functor $Y\mapsto h_Y|_{CRing}$ from schemes to presheaves on $Aff$ is [[fully faithful functor|fully faithful]]. Thus the general schemes if defined as ringed spaces, indeed form a full subcategory of the category of presheaves on $Aff$. See at _[[functorial geometry]]_.
 
 
 There is an analogue of this theorem for relative [[noncommutative scheme]]s in the sense of Rosenberg. 
@@ -39,6 +39,44 @@ Relative affine scheme is a concrete way to represent an [[affine morphism]] of 
 
 ## Properties
 
+### Isbell duality
+  {#IsbellDuality}
+
++-- {: .num_prop #AffineSchemesFullSubcategoryOfOppositeOfRings}
+###### Proposition
+**([[affine schemes]] form [[full subcategory]] of [[opposite category|opposite]] of [[rings]])**
+
+The [[functor]]
+
+$$
+  \mathcal{O}
+  \;\colon\;
+  Schemes_{Aff}
+    \longrightarrow
+  Ring^{op}
+$$
+
+from affine schemes to their global [[rings of functions]] is a [[fully faithful functor]].
+
+
+=--
+
+(e.g. [Hartschorne 77, chapter II, prop. 2.3](#Hartschorne77))
+
++-- {: .num_remark}
+###### Remark
+**([[Isbell duality]] between [[geometry]] and [[algebra]])**
+
+
+Prop. \ref{AffineSchemesFullSubcategoryOfOppositeOfRings} is the analog in [[algebraic geometry]] of similar statements of [[Isbell duality]] between [[geometry]] and [[algebra]], such as [[Gelfand duality]] or [[Milnor's exercise]].
+
+=--
+
+[[!include Isbell duality - table]]
+
+
+
+
 ### Affine Serre's theorem
 
  [[affine Serre's theorem|Affine Serre's theorem]]
@@ -52,7 +90,8 @@ ${}_R Mod\to Qcoh(Spec R)$ between the category of $R$-modules and the category 
 
 ## References
 
-* Robin Hartshorne, _Algebraic geometry_
+* {#Hartschorne66} Robin Hartshorne, _Algebraic geometry_, Springer 1977
+
 * Demazure, Gabriel, _Algebraic groups_
 
 category: algebraic geometry
