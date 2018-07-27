@@ -10,7 +10,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -19,7 +18,7 @@
 
 A _symmetric monoidal functor_ is a [[functor]] $F : C \to D$ between [[symmetric monoidal category|symmetric monoidal categories]] that is a [[monoidal functor]] which respects the symmetry on both sides.
 
-## Defnition
+## Definition
 
 A [[monoidal functor]] $F : (C,\otimes) \to (D, \otimes)$ between [[symmetric monoidal categories]] is **symmetric** if for all $A,B \in C$ the diagram
 
@@ -37,11 +36,50 @@ $$
 
 commutes, where $\sigma$ denotes the symmetry isomorphism both of $C$ and $D$.
 
-
+As long as it goes between symmetric monoidal categories a symmetric monoidal functor is the same as a [[braided monoidal functor]]. 
 
 ## Properties
 
-As long as it goes between symmetric monoidal categories a symmetric monoidal functor is the same as a [[braided monoidal functor]]. 
++-- {: .num_prop #SymmetricMonoidalFunctorInducesFunctorOnCommutativeMonoids}
+###### Proposition
+**([[symmetric monoidal functor]] induces [[functor]] on [[commutative monoid in a symmetric monoidal category|commutative monoids]])**
+
+
+A symmetric monoidal functor 
+
+$$
+  \left(\mathcal{C}_1, \otimes_1, \tau_1\right)
+  \longrightarrow
+  \left(\mathcal{C}_2, \otimes_2, \tau_2\right)
+$$
+
+between two symmetric monoidal categories canonically preserves [[commutative monoid in a symmetric monoidal category|commutative monoids]] and extends to a functor between categories of commutative monoids (see [here](geometry+of+physics+--+categories+and+toposes#MonoidsPreservedByLaxMonoidalFunctor) for more)
+
+$$
+  CMon\left(\mathcal{C}_1, \otimes_1, \tau_1\right)
+  \longrightarrow
+  CMon\left(\mathcal{C}_2, \otimes_2, \tau_2\right)
+$$
+
+=--
+
+## Examples 
+
++-- {: .num_example #IdentityFunctorOnCategoryOfChainComplexesOfSuperVectorSpaces}
+###### Example
+**([[identity functor]] on [[category of chain complexes of super vector spaces]])**
+
+The [[category of chain complexes of super vector spaces]] $Ch(Supervect)$ equipped with the [[tensor product of chain complexes]] carries two [[symmetric monoidal category|symmetric]] [[braidings]], $\tau_{Deligne}$ and $\tau_{Bernst}$ ([this Prop.](chain+complex+in+super+vector+spaces#SymmetricStructureOnCategoryOfChainComplexesOfSuperVectorSpaces)). The [[identity functor]] on $Ch(SuperVect)$ carries the structure of a [[strong monoidal functor|strong]] symmetric monoidal functor with respect to these two, making them equivalent. By Prop. \ref{SymmetricMonoidalFunctorInducesFunctorOnCommutativeMonoids} this in turn induces an [[equivalence of categories|equivalence]] on the catories of commutative monoids, which in this case are [[differential graded-commutative superalgebras]], with one of two equivalent grading conventions
+
+$$
+  dgcsAlg_{Deligne} \;\simeq\; dgcsAlg_{Bernstein}
+$$
+
+[[!include sign rules in homological superalgebra -- table]]
+
+
+
+=--
 
 
 ## Related concepts
