@@ -88,18 +88,12 @@ This has the possibility of leading to computations, by applying [[van Kampen th
 * [[n-types cover]]
 
 
-
 [[!redirects n-type]]
 [[!redirects n-types]]
 
 [[!redirects homotopy n-types]]
 [[!redirects homotopy n-types]]
 
-
-[[!redirects 1-type]]
-[[!redirects 1-types]]
-[[!redirects homotopy 1-type]]
-[[!redirects homotopy 1-types]]
 
 [[!redirects 2-type]]
 [[!redirects 2-types]]
