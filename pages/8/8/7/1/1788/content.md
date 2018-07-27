@@ -4,3 +4,4 @@
 
 [[maths]]
 
+$\color{blue}{ABC}$
