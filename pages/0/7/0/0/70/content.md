@@ -33,7 +33,6 @@ The general concept is that of
 
 * [[cellular set]]
 
-
-[[!redirects ∞-category]]
-[[!redirects ∞-categories]]
+[[!redirects ω-category]]
+[[!redirects ω-categories]] 
 [[!redirects omega-categories]]
