@@ -43,4 +43,6 @@ There are further aspects to this relationship; for instance, the [[van Kampen t
 
 [[!include homotopy n-types - table]]
 
+[[!redirects 1-type]]
+[[!redirects 1-types]]
 [[!redirects homotopy 1-types]]
