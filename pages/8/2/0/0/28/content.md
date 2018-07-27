@@ -1728,8 +1728,3 @@ Categories, 7 (2005) pp 1--195. ([web] (http://www.tac.mta.ca/tac/reprints/artic
 
 [[!redirects tame groupoid]]
 [[!redirects tame groupoids]]
-
-[[!redirects 1-type]]
-[[!redirects 1-types]]
-[[!redirects homotopy 1-type]]
-[[!redirects homotopy 1-types]] 
