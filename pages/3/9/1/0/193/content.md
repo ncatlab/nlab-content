@@ -234,6 +234,7 @@ See also
 
 * Catsters, _Adjunctions_ ([YouTube](http://www.youtube.com/watch?v=loOJxIOmShE&feature=channel_page))
 
+-
 
 [[!redirects adjoint pair]]
 [[!redirects adjoint pairs]]
