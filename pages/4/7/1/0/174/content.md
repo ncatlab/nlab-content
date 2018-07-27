@@ -269,7 +269,6 @@ More along these lines is in
 
 See also [[division algebras and supersymmetry]].
 
-
 ### Branes ending on branes
 
 * [[Andrew Strominger]], _Open P-Branes_, Phys. Lett. B383:44-47,1996 ([arXiv:hep-th/9512059](http://arxiv.org/abs/hep-th/9512059))
