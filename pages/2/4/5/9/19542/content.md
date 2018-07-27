@@ -15,7 +15,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -173,6 +172,29 @@ In both cases this holds because already the relevant [[exponents]] are equal in
 
 =--
 
++-- {: .num_remark #Parity}
+###### Remark
+**([[parity]])**
+
+For the [[symmetric monoidal category|symmetric]] [[braiding]] $\tau_{Bernst}$ in Prop. \ref{SymmetricStructureOnCategoryOfChainComplexesOfSuperVectorSpaces} it makes sense to name the additive [[group homomorphism]]
+
+$$
+  \array{
+    \mathbb{Z} \times (\mathbb{Z}/2)
+    &\overset{ parity }{\longrightarrow}&
+    \mathbb{Z}/2
+    \\
+    (n , \sigma) &\mapsto& \sigma + n \, mod \, 2
+  }
+$$
+
+This is called _[[parity]]_ in parts of the literature (following [AKSZ 95](#AKSZ+sigma-model#AKSZ)). With this notation the Bernstein braiding in Prop. \ref{SymmetricStructureOnCategoryOfChainComplexesOfSuperVectorSpaces} is simply
+
+* $\tau_{Bernst} \;\colon\; v \otimes w \mapsto (-1)^{ parity(v) parity(w) } w \otimes v$.
+
+Notice that for the other symmetric braiding $\tau_{Deligne}$, the concept of parity does not play any intrinsic role.
+
+=--
 
 +-- {: .num_prop #EquivalenceTwoSymmetricMonoidalStructuresOnChSuperVect}
 ###### Proposition
@@ -366,7 +388,7 @@ $$
     \left(  Ch(SuperVect), \otimes, \tau_{Bernst} \right)
 $$
 
-there is an induced [[equivalence of categories]] of the corresponding [[commutative monoids in a symmetric monoidal category|symmetric monoids]]
+there is (via [this Prop.](symmetric+monoidal+functor#SymmetricMonoidalFunctorInducesFunctorOnCommutativeMonoids)) an induced [[equivalence of categories]] of the corresponding [[commutative monoids in a symmetric monoidal category|symmetric monoids]]
 
 $$
     ComMon\left(  Ch(SuperVect), \otimes, \tau_{Deligne} \right)
