@@ -2,4 +2,4 @@
 
 [[monoidal category]]
 
-[[!include monoidal category]]
+[[maths]]
