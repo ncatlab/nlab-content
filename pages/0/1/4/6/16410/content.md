@@ -67,6 +67,8 @@ Discussion of de Sitter [[perturbative string theory vacua]] and their role (or 
 
   (problems with [KKLT 03](landscape+of+string+theory+vacua#KKLT03))
 
+* {#vanRiet18} Thomas van Riet, _Is dS space in the Swampland_, talk at [StringPheno18](http://sp18.fuw.edu.pl/) ([pdf slides](http://sp18.fuw.edu.pl/wp-content/uploads/participants-database/thomasvanriet.pdf))
+
 * {#BDDGS18} Souvik Banerjee, [[Ulf Danielsson]], Giuseppe Dibitetto, Suvendu Giri, Marjorie Schillo, _Emergent de Sitter cosmology from decaying AdS_ ([arXiv:1807.01570](https://arxiv.org/abs/1807.01570))
 
 
