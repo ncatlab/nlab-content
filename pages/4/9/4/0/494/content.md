@@ -1354,7 +1354,7 @@ See also
 
 * [[The Catsters]] ([list](http://www.youtube.com/view_play_list?p=54B49729E5102248))
 
-  
+-  
 
 [[!redirects adjoint functors]]
 
