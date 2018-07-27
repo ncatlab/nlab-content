@@ -5,10 +5,4 @@
 | $\phantom{A}$$\sigma = even$$\phantom{A}$ | $\phantom{A}$[[commutative algebra]]$\phantom{A}$ | $\phantom{A}$[[differential graded-commutative algebra]]$\phantom{A}$ |
 | $\phantom{A}$$\sigma\;$  arbitrary$\phantom{A}$ |  $\phantom{A}$e.g. [[Grassmann algebra]]$\phantom{A}$ | $\phantom{A}$[[differential graded-commutative superalgebra]]$\phantom{A}$ |
 
-
-[[some_random_page]]
-
 [[monoidal category]]
-
-[[maths]]
-
