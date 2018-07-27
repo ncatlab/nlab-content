@@ -69,6 +69,14 @@ The following are [[semifree differential graded-commutative algebras]]:
 
 * The [[Chevalley-Eilenberg algebra]] of a [[Lie algebra]] or more generally of an [[L-infinity algebra]] or [[Lie infinity-algebroid|L-infinity algebroid]] is a differential-graded-commutative algebra, that of a [[super L-infinity algebra]] is a differential graded-commutative superalgebra.
 
+
+|  |  |  |
+|---|----|---|
+| $\phantom{A}$[bi-degree](chain+complex+in+super+vector+spaces#ChainComplexesOfSuperVectorSpaces)$\phantom{A}$<br/> $\phantom{A}$$(n,\sigma) \in \mathbb{Z} \times \mathbb{F}_2$$\phantom{A}$ | $\phantom{A}$$n = 0$$\phantom{A}$ | $\phantom{A}$$n\;$  arbitrary$\phantom{A}$ | 
+| $\phantom{A}$$\sigma = even$$\phantom{A}$ | $\phantom{A}$[[commutative algebra]]$\phantom{A}$ | $\phantom{A}$[[differential graded-commutative algebra]]$\phantom{A}$ |
+| $\phantom{A}$$\sigma\;$  arbitrary$\phantom{A}$ |  $\phantom{A}$e.g. [[Grassmann algebra]]$\phantom{A}$ | $\phantom{A}$[[differential graded-commutative superalgebra]]$\phantom{A}$ |
+
+
 ## Related concepts
 
 * [[category of dgc-algebras]]
