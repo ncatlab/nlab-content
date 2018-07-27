@@ -48,7 +48,7 @@ such that the following [[coherence law]]s are satisfied in  $C$ (throughout we 
       \Downarrow^{V(f,g)}
      &\searrow^{V(g)}& \downarrow^{\mathrlap{\phi(t)}} 
      \\
-     V(r) &&\underset{V( g\circ f)}{\to}&& V(s)
+     V(r) &&\underset{V( g\circ f)}{\to}&& V(t)
    }
     \;\;\;
     =
