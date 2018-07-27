@@ -36,7 +36,7 @@ A [[topological space]] is called _countably compact_ if every [[open cover]] co
 
 +-- {: .num_prop} 
 ###### Proposition 
-A countably compact space is a [[limit compact space]]. 
+A countably compact space is a [[limit point compact space]]. 
 =-- 
 
 +-- {: .proof} 
@@ -63,7 +63,7 @@ $$\emptyset = V_0 \subset V_1 \subset V_2 \subset \ldots$$
 
 are strict. Thus for each $n \geq 1$ we may pick a point $x_n \in V_n \setminus V_{n-1}$. Observe that if $m \lt n$, then $x_n \notin V_m$. 
 
-Since $X$ is $T_1$ (points are closed), the set $W_m = V_m \cap \neg \{x_1, \ldots, x_{m-1}\}$ is an open neighborhood of $x_m$ that does not contain $x_n$ whenever $m \lt n$, and does not contain $x_n$ for $n \lt m$. Thus every point $x_m$ is open relative to $A = \{x_1, x_2, \ldots\}$, i.e., $A$ is a discrete subspace. 
+Since $X$ is $T_1$ (points are closed), the set $W_m = V_m \cap \neg \{x_1, \ldots, x_{m-1}\}$ is an open neighborhood of $x_m$ that does not contain $x_n$ whenever $n \gt m$, and does not contain $x_n$ for $n \lt m$. Thus every point $x_m$ is open relative to $A = \{x_1, x_2, \ldots\}$, i.e., $A$ is a discrete subspace. 
 
 Finally, any point $x \notin A$ belongs to some $V_n$, and then $V_n \cap \neg \{x_1, \ldots x_n\}$ is an open neighborhood of $x$ that doesn't intersect $A$. Thus $A$ is an infinite closed discrete subspace, meaning that $X$ is not limit point compact. 
 =-- 
