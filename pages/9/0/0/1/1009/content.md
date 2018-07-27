@@ -289,7 +289,7 @@ In the broader context of smooth [[higher geometry]] this is discussed in sectio
 
 Discussion of [[boundary conditions]] for the AKSZ sigma model includes
 
-* [[Peter Bouwknegt]], [[Branislav Jur?o]], _AKSZ construction of topological open $p$-brane action and Nambu brackets_, [arxiv/1110.0134](http://arxiv.org/abs/1110.0134)
+* [[Peter Bouwknegt]], [[Branislav Jurco]], _AKSZ construction of topological open $p$-brane action and Nambu brackets_, [arxiv/1110.0134](http://arxiv.org/abs/1110.0134)
 
 * {#IkedaXu13} [[Noriaki Ikeda]], Xiaomeng Xu, _Canonical functions and differential graded symplectic pairs in supergeometry and AKSZ sigma models with boundary_ ([arXiv:1301.4805](http://arxiv.org/abs/1301.4805))
 
