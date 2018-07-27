@@ -26,7 +26,7 @@ A [[topological space]] is called _countably compact_ if every [[open cover]] co
 
 ## Examples
 
-* A [[compact space]] is *a fortiori* countably compact. 
+* A [[compact space]] is _a fortiori_ countably compact. 
 
 * A [[sequentially compact space]] is countably compact. 
 
