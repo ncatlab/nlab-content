@@ -337,6 +337,8 @@ A newer observation that received much more attention is
 
 * String Phenomenology 2014 ([home page](http://stringpheno2014.ictp.it))
 
+* String Phenomenology 2018 ([home page](http://sp18.fuw.edu.pl/))
+
 
 
 ### String cosmic inflation
