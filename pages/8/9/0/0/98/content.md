@@ -10,8 +10,6 @@
 =--
 
 
-
-
 # Contents
 * tic
 {:toc}
@@ -297,7 +295,14 @@ If $N$ is itself a [[chain complex]], then this is called a [[BV-BRST formalism|
 
 * [[∞-Lie algebra cohomology]]
 
+* [[super L-∞ algebra]]
+
 * **Chevalley-Eilenberg algebra**
+
+  * [[differential graded-commutative algebra]]
+
+  * [[differential graded-commutative superalgebra]]
+
 
 * [[Weil algebra]]
 
