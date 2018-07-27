@@ -550,7 +550,9 @@ $$
   V_n = (V_n)_{even} \oplus (V_n)_{odd} \;\in SuperVect
 $$
 
-and may regard $V_\bullet$ equivalently as a $\mathbb{Z} \times (\mathbb{Z}/2)$-[[graded object|graded]] [[vector space]] equipped with a [[differential]] of degree $(1,even)$. For $v \in V$ an element in definite ("homogeneous") degree, we denote this degree by
+where we write the elements of the [[group of order two]] as $\mathbb{Z}/2 =\{even, odd\}$, with $even$ being the [[neutral element]].
+
+Hence we may regard any $V_\bullet \in Ch(SuperVect)$ equivalently as a $\mathbb{Z} \times (\mathbb{Z}/2)$-[[graded object|graded]] [[vector space]] equipped with a [[differential]] of degree $(1,even)$. For $v \in V$ an element in definite ("homogeneous") bi-degree, we denote this degree by
 
 \[
   \label{BidegreeOnChainComplexOfSuperVectorSpaces}
@@ -575,11 +577,11 @@ $$
 ###### Proposition
 **([[symmetric monoidal category|symmetric monoidal]] [[structure]] on [[category of chain complexes of super vector spaces]])**
 
-The [[monoidal category|monoidal]] [[category of chain complexes of super vector spaces]] $(Ch(SuperVect), \otimes)$ from Def. \ref{ChainComplexesOfSuperVectorSpaces} becomes a [[symmetric monoidal category|symmetric monoidal]] with each of the following two [[braiding]] [[isomorphisms]], defined on tensor products of elements in homogenous bi-degree (eq:(eq:BidegreeOnChainComplexOfSuperVectorSpaces)) as follows:
+The [[monoidal category|monoidal]] [[category of chain complexes of super vector spaces]] $(Ch(SuperVect), \otimes)$ from Def. \ref{ChainComplexesOfSuperVectorSpaces} becomes a [[symmetric monoidal category|symmetric monoidal]] with each of the following two [[braiding]] [[isomorphisms]], defined on tensor products of elements in homogenous bi-degree (eq:BidegreeOnChainComplexOfSuperVectorSpaces) as follows:
 
 1. $\tau_{Deligne} \;\colon\; v \otimes w \mapsto (-1)^{ (n_v n_w + \sigma_v \sigma_w) } w \otimes v$;
 
-1. $\tau_{Bern} \;\colon\; v \otimes w \mapsto (-1)^{ (n_v + \sigma_v) (n_w + \sigma_w) } w \otimes v$.
+1. $\tau_{Bernst} \;\colon\; v \otimes w \mapsto (-1)^{ (n_v + \sigma_v) (n_w + \sigma_w) } w \otimes v$.
 
 Here in the exponents we are using the canonical [[ring]]-[[structure]] on the [[integers]] $\mathbb{Z}$ and on the [[prime field]] $\mathbb{Z}/2 = \mathbb{F}_2$, the implicit [[ring homomorphism]] $\mathbb{Z} \to \mathbb{Z}/2$ and we understand that $(-1)^{even} = 1$ and $(-1)^{odd} = -1$.
 
@@ -588,27 +590,27 @@ Here in the exponents we are using the canonical [[ring]]-[[structure]] on the [
 +-- {: .proof}
 ###### Proof
 
-Since the expressions for both sign factors are symmetric in $v$ and $w$ in both cases, it is clear that $\tau_{w,v} \circ \tau_{v,w} = id_{v \otimes w}$ in both cases. Hence if $\tau$ is indeed a [[braiding]], then it is [[symmetric monoidal category|symmetruc]].
+Since the expressions for both sign factors are symmetric in $v$ and $w$ in both cases, it is clear that $\tau_{w,v} \circ \tau_{v,w} = id_{v \otimes w}$ in both cases. Hence if $\tau$ is indeed a [[braiding]], then it is [[symmetric monoidal category|symmetric]].
 
 To see that $\tau$ is indeed a [[braiding]] in each case, we need to check the [[hexagon identities]]
 
 $$
   \array{
-   (x \otimes y) \otimes z 
-   &\stackrel{a_{x,y,z}}{\to}&
-   x \otimes (y \otimes z)
-   &\stackrel{\tau_{x,y \otimes z}}{\to}&
-   (y \otimes z) \otimes x
+   (V_1 \otimes V_2) \otimes V_3 
+   &\overset{a_{V_1, V_2, V_3}}{\longrightarrow}&
+   V_1 \otimes (V_2 \otimes V_3)
+   &\overset{\tau_{V_1,V_2 \otimes V_3}}{\longrightarrow}&
+   (V_2 \otimes V_3) \otimes V_1
    \\
-   \downarrow^{tau_{x,y}\otimes Id}
+   \Big\downarrow{}^{\tau_{V_1,V_2}\otimes Id}
    &&&&
-   \downarrow^{a_{y,z,x}}
+   \Big\downarrow{}^{a_{V_2,V_3,V_1}}
    \\
-   (y \otimes x) \otimes z
-   &\stackrel{a_{y,x,z}}{\to}&
-   y \otimes (x \otimes z)
-   &\stackrel{Id \otimes \tau_{x,z}}{\to}&
-   y \otimes (z \otimes x)
+   (V_2 \otimes V_1) \otimes V_3
+   &\overset{a_{V_2,V_1,V_3}}{\longrightarrow}&
+   V_2 \otimes (V_1 \otimes V_3)
+   &\overset{Id \otimes \tau_{V_1,V_3}}{\longrightarrow}&
+   V_2 \otimes (V_3 \otimes V_1)
   }
 $$
 
@@ -616,28 +618,28 @@ and
 
 $$
   \array{
-   x \otimes (y \otimes z) 
-   &\stackrel{a^{-1}_{x,y,z}}{\to}&
-   (x \otimes y) \otimes z
-   &\stackrel{\tau_{x \otimes y, z}}{\to}&
-   z \otimes (x \otimes y)
+   V_1 \otimes (V_2 \otimes V_3) 
+   &\overset{a^{-1}_{V_1,V_2,V_3}}{\longrightarrow}&
+   (V_1 \otimes V_2) \otimes V_3
+   &\overset{\tau_{V_1 \otimes V_2, V_3}}{\longrightarrow}&
+   V_3 \otimes (V_1 \otimes V_2)
    \\
-   \downarrow^{Id \otimes B_{y,z}}
+   \Big\downarrow{}^{id \otimes \tau_{V_2,V_3}}
    &&&&
-   \downarrow^{a^{-1}_{z,x,y}}
+   \Big\downarrow{}^{a^{-1}_{V_3,V_1,V_2}}
    \\
-   x \otimes (z \otimes y)
-   &\stackrel{a^{-1}_{x,z,y}}{\to}&
-   (x \otimes z) \otimes y
-   &\stackrel{\tau_{x,z} \otimes Id}{\to}&
-   (z \otimes x) \otimes y
+   V_1 \otimes (V_3 \otimes V_2)
+   &\overset{a^{-1}_{V_1,V_3,V_2}}{\longrightarrow}&
+   (V_1 \otimes V_3) \otimes V_2
+   &\overset{\tau_{V_1,V_3} \otimes id}{\longrightarrow}&
+   (V_3 \otimes V_1) \otimes V_2
   }
-  \,,
+  \,.
 $$
 
-Since $\tau$ differs only by multiplication by a sign from the trivial braiding, we just need to check that the signs picked up in going both ways around these diagrams agree. 
+Since $\tau$ differs only by multiplication by a sign from the standard symmetric braiding on the [[category of vector spaces]], which does satisfy its hexagon identities, it just remains to check that these sign factors picked up in going both ways around these diagrams agree. 
 
-Hence for $\tau_{Deligne}$ the two hexagon identities are equivalent to the condition
+Hence for $\tau_{Deligne}$ the two hexagon identities are equivalent to the conditions
 
 $$
   (-1)^{ n_1 (n_2 + n_3) + \sigma_1( \sigma_2 + \sigma_3 )  }
@@ -653,7 +655,7 @@ $$
   (-1)^{ n_1 n_3 + \sigma_1 \sigma_3 + n_2 n_3 + \sigma_2 \sigma_3 }
 $$
 
-while for $\tau_{Bern}$ they are equivalent to the condition
+while for $\tau_{Bernst}$ they are equivalent to the conditions
 
 $$
   (-1)^{ (n_1 + \sigma_1)( n_2 + \sigma_2 + n_3 + \sigma_3  ) }
@@ -669,6 +671,8 @@ $$
   (-1)^{ (n_1 + \sigma_1)(n_3 + \sigma_3) + (n_2 + \sigma_2)(n_3 + \sigma_3) }
 $$
 
+for all triples of bi-degrees $(n_i, \sigma_i) \in \mathbb{Z} \times (\mathbb{Z}/2)$.
+
 In both cases this holds because already the relevant [[exponents]] are equal in each case, by the [[distributive law]] for [[multiplication]] and [[addition]] in $\mathbb{Z}/2 = \mathbb{F}_2$.
 
 =--
@@ -678,19 +682,19 @@ In both cases this holds because already the relevant [[exponents]] are equal in
 **(the two [[symmetric monoidal category|symmetric monoidal]] [[structures]] on the [[category of chain complexes of super vector spaces]] are equivalence)**
 
 
-The two [[symmetric monoidal category]] [[structures]] $\tau_{Deligne}$ and $\tau_{Bern}$ on the [[monoidal category|monoidal]] [[category of chain complexes of super vector spaces]] $(Ch(SuperVect), \otimes)$ from Prop. \ref{SymmetricStructureOnCategoryOfChainComplexesOfSuperVectorSpaces} are equivalent
+The two [[symmetric monoidal category]] [[structures]] $\tau_{Deligne}$ and $\tau_{Bernst}$ on the [[monoidal category|monoidal]] [[category of chain complexes of super vector spaces]] $(Ch(SuperVect), \otimes)$ from Prop. \ref{SymmetricStructureOnCategoryOfChainComplexesOfSuperVectorSpaces} are equivalent
 
 $$
   \tau_{Deligne}
   \;\simeq\;
-  \tau_{Bern}
+  \tau_{Bernst}
 $$
 
-in that the [[identity functor]] on  $Ch(SuperVect)$ equipped with the following monoidal [[natural isomorphism]] 
+in that the [[identity functor]] $Ch(SuperVect) \overset{\mu}{\longrightarrow} Ch(SuperVect)$ equipped with the following monoidal [[natural isomorphism]] 
 
 $$
   \array{
-    id(V) \otimes id(W) \longrightarrow id(V \otimes W)
+    id(V) \otimes id(W) \overset{\mu}{\longrightarrow} id(V \otimes W)
     \\
     v \otimes w
     \;\mapsto\;
@@ -698,12 +702,14 @@ $$
   }
 $$
 
+(the second line shows its action on elements of homogeneous bidegree $(n,\sigma) \in \mathbb{Z} \times (\mathbb{Z}/2)$)
+
 becomes a [[nLab:strong monoidal functor|strong]] [[symmetric monoidal functor]] 
 
 $$
   (Ch(SuperVect), \otimes, \tau_{Deligne})
-  \overset{id}{\longrightarrow}
-  (Ch(SuperVect), \otimes, \tau_{Bern})
+  \underoverset{\simeq}{(id,\mu)}{\longrightarrow}
+  (Ch(SuperVect), \otimes, \tau_{Bernst})
   \,.
 $$
 
@@ -718,25 +724,25 @@ First to see that we have a [[strong monoidal functor]], we need to check the [[
 
 $$
   \array{
-    (id(x) \otimes id(y)) \otimes id(z)
-      &\underoverset{\simeq}{a_{id(x),id(y),id(z)}}{\longrightarrow}&
-    id(x) \otimes( id(y)\otimes id(z) )
+    (id(V_1) \otimes id(V_2)) \otimes id(V_3)
+      &\underoverset{\simeq}{a_{id(V_1),id(V_2),id(V_3)}}{\longrightarrow}&
+    id(V_1) \otimes( id(V_2)\otimes id(V_3) )
     \\
-    {}^{\mathllap{\mu_{x,y} \otimes id}}\downarrow 
+    {}^{\mathllap{\mu_{V_1,V_2} \otimes id}}\downarrow 
       && 
-    \downarrow^{\mathrlap{id\otimes \mu_{y,z}}}
+    \Big\downarrow{}^{\mathrlap{id\otimes \mu_{V_2,V_3}}}
     \\
-    id(x \otimes y) \otimes F(z)
+    id(V_1 \otimes V_2) \otimes id(V_3)
      &&
-    id(x) \otimes id(y \otimes z)
+    id(V_1) \otimes id(V_2 \otimes V_3)
     \\
-    {}^{\mathllap{\mu_{x \otimes y , z} } }\downarrow 
+    {}^{\mathllap{\mu_{V_1 \otimes V_2 , V_3} } }\Big\downarrow 
       && 
-    \downarrow^{\mathrlap{\mu_{ x, y \otimes z  }}}
+    \Big\downarrow^{\mathrlap{\mu_{ V_1, V_2 \otimes V_3  }}}
     \\
-    id( ( x \otimes y ) \otimes z  )
-      &\underset{id(a_{x,y,z})}{\longrightarrow}&
-    id( x \otimes ( y \otimes z ) )
+    id( ( V_1 \otimes V_2 ) \otimes V_3  )
+      &\underset{id(a_{V_1,V_2,V_3})}{\longrightarrow}&
+    id( V_1 \otimes ( V_2 \otimes V_3 ) )
   }
   \,,
 $$
@@ -746,17 +752,17 @@ and the [[unitality]] conditions
 
 $$
   \array{
-    1 \otimes id(x)
+    1 \otimes id(V)
       &\overset{\epsilon \otimes id}{\longrightarrow}&
-    id(1) \otimes id(x)
+    id(1) \otimes id(V)
     \\
-    {}^{\mathllap{\ell_{id(x)}}}\downarrow 
+    {}^{\mathllap{\ell_{id(V)}}}\Big\downarrow 
       && 
-    \downarrow^{\mathrlap{\mu_{1, x }}}
+    \Big\downarrow{}^{\mathrlap{\mu_{1, V }}}
     \\
-    id(x) 
-      &\overset{id(\ell_x )}{\longleftarrow}&
-    id(1 \otimes x  )
+    id(V) 
+      &\overset{id(\ell_V )}{\longleftarrow}&
+    id(1 \otimes V  )
   }
 $$
 
@@ -764,69 +770,74 @@ and
 
 $$
   \array{
-    id(x) \otimes  1
+    id(V) \otimes  1
       &\overset{id \otimes \epsilon }{\longrightarrow}&
-    id(x) \otimes  id(1) 
+    id(V) \otimes  id(1) 
     \\
-    {}^{\mathllap{r_{id(x)}}}\downarrow 
+    {}^{\mathllap{r_{id(V)}}}\Big\downarrow 
       && 
-    \downarrow^{\mathrlap{\mu_{x, 1 }}}
+    \Big\downarrow{}^{\mathrlap{\mu_{V, 1 }}}
     \\
-    id(x) 
-      &\overset{F(r_x )}{\longleftarrow}&
-    id(x \otimes 1  )
+    id(V) 
+      &\overset{F(r_V )}{\longleftarrow}&
+    id(V \otimes 1  )
   }
   \,,
 $$
 
-As in the proof of Prop. \ref{SymmetricStructureOnCategoryOfChainComplexesOfSuperVectorSpaces} it is sufficient to check that the signs picked up agree in each cases.
+Since $\mu$ differs from the trivial monoidal isomorphism only by the sign factor, this is equivalent to the condition that the sign factors picked up in going both ways around these diagrams agree.
 
 For [[associativity]] this is the condition
 
 $$
   (-1)^{
-    n_x \sigma_y + (n_x + n_y)\sigma_z
+    n_1 \sigma_2 + (n_1 + n_2)\sigma_3
   }
   \;=\;
   (-1)^{
-    n_y \sigma_z + n_x (\sigma_y + \sigma_z)
+    n_2 \sigma_3 + n_1 (\sigma_2 + \sigma_3)
   }
 $$
 
-which hold, because it already holds for the [[exponents]] themselves, as an identity in $\mathbb{F}_2$.
+for all bi-degrees $(n_i, \sigma_i) \in \mathbb{Z} \times (\mathbb{Z}/2)$,
+which holds, because it already holds for the [[exponents]] themselves, as an identity in $\mathbb{Z}/2 =\mathbb{F}_2$.
 
-Finally, the [[unitality]] condition says that the signs given by $\mu_{1,x}$ and $\mu_{x,1}$ is the the trivial sign $(-1)^0 = 1$. This is indeed the case because the [[tensor unit]] is in degree $(0,even) \in \mathbb{Z} \times (\mathbb{Z}/2)$. 
+For the [[unitality]] condition this is the statement that the sign given by $\mu_{1,x}$ and $\mu_{x,1}$ is the the trivial sign $(-1)^0 = 1$. This is indeed the case because the [[tensor unit]] is in degree $0 = (0,even) \in \mathbb{Z} \times (\mathbb{Z}/2)$.
 
-Now to see that we have a [[symmetric monoidal functor]], we need to show that it intertwines the [[braiding]] isomorphisms
+Now to see that we have a [[symmetric monoidal functor]], we need to show that it intertwines the two [[symmetric monoidal category|symmetruc]] [[braiding]] [[isomorphisms]]
 
 
 $$
   \array{
-    id(V) \otimes id(W) &\stackrel{\tau_{Bern}}{\to}& id(W) \otimes id(V)
+    id(V_1) \otimes id(V_2) 
+      &\stackrel{\tau_{Bernst}}{\longrightarrow}& id(V_2) \otimes id(V_1)
     \\
-    {}^{\mathllap{\mu_{V,W}}}\Big\downarrow 
+    {}^{\mathllap{\mu_{V_1,V_2}}}\Big\downarrow 
     && 
-    \Big\downarrow^{\mathrlap{\mu_{W,V}}}
+    \Big\downarrow{}^{\mathrlap{\mu_{V_2,V_1}}}
     \\
-    id(V\otimes W) &\stackrel{id(\tau_{Deligne})}{\to}& if(W \otimes V)
+    id(V_1\otimes V_2) 
+      &\overset{id(\tau_{Deligne})}{\longrightarrow}& if(W \otimes V)
   }
 $$
 
-Here this is equivalent to the following condition on the signs:
+As before, this is equivalent to a condition on the signs picked up both ways, which reads:
 
 $$
-  (-1)^{ (n_v + \sigma_v)(n_w + \sigma_w) + n_w \sigma_v}
+  (-1)^{ (n_1 + \sigma_1)(n_2 + \sigma_2) + n_2 \sigma_1}
   \;=\;
-  (-1)^{ n_v \sigma_w + n_v n_w + \sigma_v \sigma_w }
+  (-1)^{ n_1 \sigma_2 + n_1 n_2 + \sigma_1 \sigma_2 }
   \,.
 $$
 
-Inspection shows that this is indeed the case. (The two signs of $\tau_{Deligne}$ and $\tau_{Bern}$ differ by the "mixed terms" that are produced in [[distributivity|multiplying out]] $(n_v + \sigma_v)(n_w + \sigma_w)$ and these mixed terms is just what $\mu$ provides.)
+Inspection shows that this is indeed the case: 
+
+The two signs of $\tau_{Deligne}$ and $\tau_{Bernst}$ differ by the "mixed terms" that are produced in [[distributivity|multiplying out]] $(n_v + \sigma_v)(n_w + \sigma_w)$ and these two mixed terms is just what the two occurences $\mu$ provides (using that $+1 = -1 \in \mathbb{F}_2$).
 
 
 =--
 
-
+$\,$
 
 ### Equivalence of super Lie algebra cohomology in both conventions
  {#EquivalenceOfSuperLieAlgebraCohomology}
