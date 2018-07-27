@@ -10,7 +10,7 @@ While for manifolds there is a [[Poincare duality|Poincaré duality]] relating h
 
 * wikipedia: [intersection homology](http://en.wikipedia.org/wiki/Intersection_homology)
 
-* F. Kirwan, J. Woolf, _An introduction to intersection homology_,  Chapman & Hall/CRC, 2006. [MR2006k:32061](http://www.ams.org/mathscinet-getitem?mr=2207421)
+* {#KirwanWoolf06} F. Kirwan, [[Jonathan Woolf]], _An introduction to intersection homology_,  Chapman & Hall/CRC, 2006. [MR2006k:32061](http://www.ams.org/mathscinet-getitem?mr=2207421)
 
 * A. Borel et al. _Intersection cohomology_, Notes on the seminar held at the University of Bern, 1983. Progress in Math. __50__, Birkh&#228;user 1984 [MR88d:32024](http://www.ams.org/mathscinet-getitem?mr=788171) 
 
