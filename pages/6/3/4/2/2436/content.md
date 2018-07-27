@@ -797,6 +797,8 @@ By the above definition, any structure in $sVect$ works just like the correspond
 
 * [[super vector bundle]]
 
+* [[chain complex of super vector spaces]]
+
 * [[model structure on chain complexes of super vector spaces]]
 
 * [[superalgebra]], [[supercommutative superalgebra]], [[differential graded-commutative superalgebra]], 
