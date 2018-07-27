@@ -16,12 +16,20 @@
 
 ## Definition
 
+### In Sets
+
 A _commutative monoid_ is a [[monoid]] where the multiplication satisfies the commutative law:
 $$x y = y x.$$
 
 Alternatively, just as a [[monoid]] can be seen as a [[category]] with one object, a commutative monoid can be seen as a [[bicategory]] with one object and one morphism (or equivalently, a [[monoidal category]] with one object).
 
 Commutative monoids with [[homomorphisms]] between them form a _[[category of commutative monoids]]_.
+
+### In any symmetric monoidal category
+
+
+More generally, the concept makes sense [[internalization|internal]] to any [[symmetric monoidal category]]. See at _[[commutative monoid in a symmetric monoidal category]]_ for details.
+
 
 ## Examples
 
@@ -30,6 +38,15 @@ Commutative monoids with [[homomorphisms]] between them form a _[[category of co
 * The [[natural numbers]] (together with 0) form a commutative monoid under addition.
 
 * Every bounded [[semilattice]] is an _idempotent_ commutative monoid, and every idempotent commutative monoid yields a semilattice, (see that entry).
+
+Examples of [[commutative monoids in a symmetric monoidal category]]:
+
+1. A commutative monoid in the [[symmetric monoidal category|symmetric monoidal]] [[category of vector spaces]] is a [[commutative algebra]];
+
+1. A commutative monoid in the [[symmetric monoidal category|symmetric monoidal]] [[category of chain complexes]] of vector spaces is a [[differential graded-commutative algebra]];
+
+1. A commutative monoid in the [[symmetric monoidal category|symmetric monoidal]] [[category of chain complexes of super vector spaces]] is a [[differential graded-commutative superalgebra]].
+
 
 ## Related concepts
 
