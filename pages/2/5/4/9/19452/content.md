@@ -1,3 +1,4 @@
+
 > This entry is one chapter of _[[geometry of physics]]_.
 
 > next chapters: _[[geometry of physics -- smooth sets|smooth sets]]_, _[[geometry of physics -- supergeometry|supergeometry]]_ 
