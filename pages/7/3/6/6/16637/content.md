@@ -116,6 +116,22 @@ $$
 (e.g. [Lotay 12, def.2.4](#Lotay12))
 
 
+
+## Related concepts
+
+
+* [[2-sphere]]
+
+* [[3-sphere]]
+
+* [[4-sphere]]
+
+* [[6-sphere]]
+
+* [[n-sphere]]
+
+
+
 ## References
 
 * [[Martin Cederwall]], Christian R. Preitschopf, _The Seven-sphere and its Kac-Moody Algebra_, Commun. Math. Phys. 167 (1995) 373-394 ([arXiv:hep-th/9309030](http://arxiv.org/abs/hep-th/9309030))
