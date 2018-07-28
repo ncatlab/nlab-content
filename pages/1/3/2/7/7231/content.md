@@ -192,6 +192,10 @@ Furthermore there is a [[subgroup]] $SU(3) \hookrightarrow G_2$ whose [[intersec
 The [[Weyl group]] of $G_2$ is the [[dihedral group]] of [[order of a group|order]] 12. (see e.g. [Ishiguro, p. 3](#Ishiguro)).
 
 
+$\,$
+
+The [[coset space]] $G_2/SU(3)$ is the [[6-sphere]]. See there for pointers.
+
 ### Relation to higher prequantum geometry
 
 The 3-form $\omega$ from def. \ref{As2PlectomorphismsOnR7} we may regard as equipping $\mathbb{R}^7$ with [[n-plectic geometry|2-plectic structure]]. From this point of view $G_2$ is the linear subgroup of the [[2-plectomorphism group]], hence (up to the translations) the image of the [[Heisenberg group]] of $(\mathbb{R}^7, \omega)$ in the symplectomorphism group.
