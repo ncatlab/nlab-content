@@ -1,4 +1,3 @@
-
 ## Basic notions of Category theory
   {#BasicNotionsOfCategoryTheory}
 
