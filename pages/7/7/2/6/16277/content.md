@@ -37,5 +37,4 @@ For a recent assessment of his contribution see
 
 * V. H&#246;sle, _Hegels System - Der Idealismus der Subjektivit&#228;t und das Problem der Intersubjektivit&#228;t_ , Meiner Hamburg 1998.
 
-
 category:people
