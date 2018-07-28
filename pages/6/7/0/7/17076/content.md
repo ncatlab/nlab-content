@@ -17,4 +17,14 @@ The [[quotient]] of that by the [[binary icosahedral group]] is the [[Poincaré 
 
 * [[Hopf fibration]]
 
+
+* [[2-sphere]]
+
+* [[6-sphere]]
+
+* [[7-sphere]]
+
+* [[n-sphere]]
+
+
 [[!redirects 3-spheres]]
