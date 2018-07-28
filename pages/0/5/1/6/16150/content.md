@@ -30,5 +30,3 @@ Section 2.3 of
 Paragraph 3.5 of
 
 * {#Keller2006} [[Bernhard Keller]], _On differential graded categories_, [arXiv:math/0601185](http://arxiv.org/abs/math/0601185).
-
-[[!redirects perfect dg-modules]]
