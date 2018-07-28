@@ -3,7 +3,6 @@
 
 We introduce here the basic notions of [[category theory]], along with examples and motivation from [[geometry]]:
 
-
 1. _[Categories and functors](#CategoriesAndFunctors)_
 
 1. _[Natural transformations and presheaves](#NaturalTransformationsAndPresheaves)_
