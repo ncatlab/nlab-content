@@ -1,4 +1,3 @@
 
 [[small groupoids]]
 
-[[monoidal category]]
