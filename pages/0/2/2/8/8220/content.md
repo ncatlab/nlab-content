@@ -31,7 +31,6 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[length 
 
 * [[FRW model]], [[standard model of cosmology]]
 
-
 * [[inhomogeneous cosmology]]
 
 * [[structure formation]]
@@ -53,6 +52,8 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[length 
 * [[quantum cosmology]], [[quantum gravity]]
 
 * [[brane gas cosmology]]
+
+* [intersecting D-brane model cosmology](intersecting+D-brane+model#Cosmology)
 
 * [string theory FAQ -- Does string theory tell us anything about cosmology?](string+theory+FAQ#InsightsIntoCosmology)
 
