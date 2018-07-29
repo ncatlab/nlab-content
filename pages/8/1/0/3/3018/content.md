@@ -50,7 +50,7 @@ in which the two instances of $y$ are linked by a U-shape. This gives a transfor
 \[ \label{extranaturality} eval_{x, y} (x^g \otimes y) = eval_{x, y'} (x^{y'} \otimes g): x^{y'} \otimes y \to x \]
 
 <center>
-<img src="http://younesse.net/assets/nLab/extranatural+transformation/svg/extranaturality.svg" title="Xy-Pic code available by replacing /svg/img.svg by /img.md in the image URL" width="350"/>
+<img src="http://younesse.net/assets/nLab/extranatural+transformation/svg/extranaturality_counit.svg" title="Xy-Pic code available by replacing /svg/img.svg by /img.md in the image URL" width="350"/>
 </center>
 
 and we say in this case that $eval_{x, y}$ is **extranatural** in $y$. Notice how the extranatural variable $y$ in $eval_{x, y}$ appears once covariantly [in the tensor factor] and once contravariantly [in the exponent], but together on the same side of the arrow [here the domain]. (There is a nice string diagram picture for (eq:extranaturality) which the reader might like to draw at this point.) 
@@ -68,6 +68,10 @@ $$coeval_{x, y}: x \to (x \otimes y)^y$$
 where again $y$ appears once covariantly and once contravariantly, this time on the codomain side. The extranaturality in $y$ is the condition
 
 $$(x \otimes g)^{y} coeval_{x, y} = (x \otimes y')^g coeval_{x, y'}$$
+
+<center>
+<img src="http://younesse.net/assets/nLab/extranatural+transformation/svg/extranaturality_unit.svg" title="Xy-Pic code available by replacing /svg/img.svg by /img.md in the image URL" width="350"/>
+</center>
 
 for every arrow $g: y \to y'$. 
 
@@ -154,12 +158,20 @@ $$\beta_{\underbrace{x, \ldots, x}_{n}} \alpha_{\underbrace{x, \ldots, x}_{n+1}}
 is extranatural in $x$.
 =--
 
+<center>
+<img src="http://younesse.net/assets/nLab/extranatural+transformation/svg/extranatural+transformation_stalactites.svg" width="450"/>
+</center>
+
 +-- {: .un_lemma}
 ###### Lemma 2 ("stalagmites")
 Let $G \colon \underbrace{C^{op} \times C \times \cdots \times C^{op} \times C}_{2n} \to D$ and $H \colon C^{op} \times C \to D$ be functors.  If $\alpha_{y_1, \ldots, y_n} \colon F \to G(y_1, y_1, \ldots, y_n, y_n)$ (for some object $F$ of $D$) is extranatural in $y_1, \ldots, y_n$, and $\beta_{x, y_1, \ldots, y_{n-1}, z} \colon G(x, y_1, y_1, \ldots, y_{n-1}, y_{n-1} ,z) \to H(x,z)$ is natural in $x, z$ and extranatural in $y_1, \ldots, y_{n-1}$, then 
 $$\beta_{\underbrace{x, \ldots, x}_{n+1}} \alpha_{\underbrace{x, \ldots, x}_{n}} \colon F \to H(x, x)$$ 
 is extranatural in $x$. 
 =--
+
+<center>
+<img src="http://younesse.net/assets/nLab/extranatural+transformation/svg/extranatural+transformation_stalagmites.svg" width="450"/>
+</center>
 
 +-- {: .un_lemma}
 ###### Lemma 3 ("yanking")
@@ -168,6 +180,11 @@ Let $F, H$ be functors of the form $C \to D$, and let $G: \underbrace{C \times C
 $$\beta_{\underbrace{x, \ldots, x}_{n+1}} \alpha_{\underbrace{x, \ldots x}_{n+1}}: F(x) \to H(x)$$ 
 is natural in $x$. 
 =--
+
+<center>
+<img src="http://younesse.net/assets/nLab/extranatural+transformation/svg/extranatural+transformation_yanking.svg" width="450"/>
+</center>
+
 
 In fact, these lemmas essentially capture "all possible" ways in which extranatural transformations can be composed.  The general statement, which is obtained by combining these, is that if the graphs representing the two transformations can be composed without creating any cycles, then the transformations can be composed. In some detail, if there are no cycles in the composed graph, then it can be shown that each connected components has one of the forms of the compositions in Lemma 1-3.  It then follows from the lemmas (and from the fact that extranaturality can be determined by separation of variables) that each connected component can be replaced by a single edge, and the resulting graph defines the type of the composed transformation.
 
