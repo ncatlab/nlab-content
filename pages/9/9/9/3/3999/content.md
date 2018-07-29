@@ -21,7 +21,7 @@ A [[topological space]] is called _sequentially compact_ if every [[sequence]] o
 
 [[compact space|Compactness]] is an extremely useful concept in [[topology]].  The basic idea is that a [[topological space]] is [[compact space|compact]] if it isn't "fuzzy around the edges".
 
-Whilst one can study a topological space by itself, it is often useful to probe it with known spaces.  A common choice for topological spaces, and in particular metric spaces, is to use the natural numbers, and the 1-point compactification of the natural numbers.  This is more traditionally known as studying the topology using sequences and convergent sequences.
+Whilst one can study a topological space by itself, it is often useful to probe it with known spaces.  A common choice for topological spaces, and in particular metric spaces, is to use the natural numbers $\mathbb{N}$, and the [[one-point compactification]] $\mathbb{N} \cup \{*\}$ of the natural numbers.  This is more traditionally known as studying the topology using sequences and convergent sequences.
 
 Thus one can ask, "Can I detect compactness using probes from $\mathbb{N}$, and $\mathbb{N} \cup \{*\}$?".  The short answer to this is "No", but that just reveals that the question was too restrictive.  Rather, one should ask "What does compactness look like if all I'm allowed to use are probes from $\mathbb{N}$ and $\mathbb{N} \cup \{*\}$?".  The answer to that question is "sequential compactness".
 
@@ -108,7 +108,7 @@ Let $(x_n)_{n: \mathbb{N}}$ be the sequence in $X$ given by the [[duality|double
 
 $$\mathbb{N} \to 2^{2^\mathbb{N}},$$ 
 
-i.e., define $x_n$ to have coordinate at $f: \mathbb{N} \to 2$ given by $(x_n)_f = f(n)$. We claim this sequence has no subsequence that converges in $X$, so that $X$ is not sequentially compact. We will argue by contradiction (technically what follows is a [[proof of negation]] that on its own is constructively valid, although the part of the argument above that invokes the Tychonoff theorem is not constructive). 
+i.e., define $x_n$ to have coordinate at $f: \mathbb{N} \to 2$ given by $(x_n)_f = f(n)$. We claim this sequence has no subsequence that converges in $X$, so that $X$ is not sequentially compact. We will argue by contradiction. (This [[refutation by contradiction]], refuting sequential compactness, is [[constructive logic|constructively valid]]. The argument above that affirms compactness, via the Tychonoff theorem, is not constructive.) 
 
 Suppose instead some subsequence $(x_{(n_k)})_{k \in \mathbb{N}}$ converges to some $x \in X$. Choose any $f: \mathbb{N} \to 2$ that is not eventually constant on the subsequence $(n_k)_{k: \mathbb{N}}$; for example, define $f: \mathbb{N} \to 2$ by $f(n_k) = k\; mod\; 2$, else $f(n) = 0$ if $n$ does not appear in the subsequence. Consider the open set $U_f = \{x_f\} \times \prod_{g: g \neq f} \{0, 1\}$, which is an open neighborhood of $x$. In order to have $x_{n_k} \in U_f$ for all $k \geq k_0$, we'd have to have $f(n_k) = x_f$ for all $k \geq k_0$, in other words $f$ would be eventually constant on the subsequence $n_k$. Contradiction.
 
