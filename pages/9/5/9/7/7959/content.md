@@ -13,13 +13,14 @@
 =--
 =--
 
-# Contents
+# Contents #
 * table of contents
-{: toc}
+{:toc}
+
 
 ## Idea
 
-_String phenomenology_ is [[phenomenology]] in [[particle physics]] based on [[model (in particle physics)|models]] that are derived or at least motivated from [[string theory]] (as [[effective QFTs]] from string [[vacua]]).
+_String phenomenology_ is [[phenomenology]] in [[particle physics]] and [[cosmology]] based on [[model (in particle physics)|models]] that are derived or at least motivated from [[string theory]] (as [[effective QFTs]] from string [[vacua]]).
 
 Broadly speaking, _string phenomenology_ refers to investigations of the connection of [[string theory]] to experimentally observed [[physics]]. More restrictively it refers to constructions of string theory [[vacua]] whose [[effective field theory]] reproduces the [[standard model of particle physics]] and/or the [[standard model of cosmology]].
 
@@ -123,6 +124,10 @@ See for instance ([MRS 09](#MRS09)) and citations given there.
 ## References
 
 ### Surveys
+
+Useful broad survey is in 
+
+* Fernando Marchesano, _String phenomenology today_, talk at _[StringPheno14](http://stringpheno2014.ictp.it)_ ([pdf](https://indico.cern.ch/event/366801/contributions/1784430/attachments/729154/1000461/MarchesanoHEP.pdf))
 
 Technical surveys on particle physics string phenomenology include
 
@@ -359,6 +364,7 @@ On stringy [[axion]] [[phenomenology]]:
 * Joseph P. Conlon, M.C. David Marsh, _Searching for a 0.1-1 keV Cosmic Axion Background_ ([arXiv:1305.3603](http://arxiv.org/abs/1305.3603))
 
   > Primordial decays of [[string theory]] [[moduli stabilization|moduli]] at $z \sim 10^{12}$ naturally generate a [[dark radiation]] Cosmic Axion Background (CAB) with $0.1 - 1 keV$ energies. This CAB can be detected through axion-[[photon]] conversion in astrophysical [[magnetic fields]] to give quasi-thermal excesses in the extreme ultraviolet and soft X-ray bands. Substantial and observable luminosities may be generated even for axion-photon couplings $\ll 10^{-11} GeV^{-1}$. We propose that axion-photon conversion may explain the observed excess emission of soft X-rays from galaxy clusters, and may also contribute to the diffuse unresolved cosmic X-ray background. We list a number of correlated predictions of the scenario. 
+
 
 
 [[!redirects string phenonemology]]
