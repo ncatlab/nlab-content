@@ -132,6 +132,12 @@ In general, some of the NS5 sit away from the [[O8-plane]], while some sit on to
 For lift to [[M-theory on G2-manifolds]] (e.g. [[G2-MSSM]]): e.g. [BCLS 05, section 2.9](#BCLS05)
 
 
+### Cosmology
+ {#Cosmology}
+
+Since the [[near horizon geometry]] of [[black branes]] is the [[Cartesian product]] of [[anti de Sitter spaces]] with the unit $n$-sphere around the brane, the [[cosmology]] of these intersecting D-brane models realizes the [[observable universe]] on the asymptotic boundary of an [[anti de Sitter spacetime]]. Models roughly of this kind are known as [[Randall-Sundrum models]] (see for instance [Kaloper 04](#Kaloper04), [Flachi-Minamitsuji 09](#FlachiMinamitsuji09)).
+
+
 ## References
 
 
@@ -206,7 +212,11 @@ Intersection with [[O8-planes]]/[[D8-branes]] is discussed in
 
 * {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_ ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
 
+Discussion of [[cosmology]] includes
 
+* {#Kaloper04} Nemanja Kaloper, _Origami World_, JHEP 0405 (2004) 061 ([arXiv:hep-th/0403208](https://arxiv.org/abs/hep-th/0403208))
+
+* {#FlachiMinamitsuji09} Antonino Flachi, Masato Minamitsuji, _Field localization on a brane intersection in anti-de Sitter spacetime_, Phys.Rev.D79:104021, 2009 ([arXiv:0903.0133](https://arxiv.org/abs/0903.0133))
 
 [[!redirects intersecting D-brane models]]
 
