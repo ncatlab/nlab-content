@@ -86,9 +86,12 @@ It turns out that an algebraically-free monad on $F$ is also [[free object|free]
 
 =--
 
-## Related concepts
+## Relationship to inductive types
 
-* [[initial algebra of an endofunctor]]
+The [[initial algebra of an endofunctor]] provides [[categorical semantics]] for [[inductive types]]. 
+
+
+## Related concepts
 
 * [[free monad]]
 
@@ -128,3 +131,4 @@ The relation to [[free monads]] is discussed in
 [[!redirects algebras for endofunctors]]
 [[!redirects algebras over functors]]
 [[!redirects algebras over endofunctors]]
+[[!redirects F-algebra]]
