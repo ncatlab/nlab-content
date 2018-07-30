@@ -7,21 +7,19 @@ $$
       {\overset{ \mathcal{O} }{\longleftarrow}}
       {\phantom{A}\phantom{{}_{Qu}}\bot_{Qu}\phantom{A}}
     \;
-  [SuperFormalCartSp^{op},sSet_{Qu}]_{proj,loc}
+  [SuperCartSp^{op},sSet_{Qu}]_{proj,loc}
     \;
     \underoverset
       {\underset{\Gamma}{\longrightarrow}}
-      {\overset{const}{\longrightarrow}}
+      {\overset{const}{\longleftarrow}}
       {\phantom{A}\phantom{{}_{Qu}}\bot_{Qu}\phantom{A}}
     \;
   sSet_{Qu}
+    \;
+    \underoverset
+      {\underset{Sing}{\longleftarrow}}
+      {\overset{{\vert- \vert}}{\longrightarrow}}
+      {\phantom{A}\phantom{{}_{Qu}}\bot_{Qu}\phantom{A}}
+    \;
+  Top_{Qu}
 $$
-
-#Contents#
-* table of contents
-{:toc}
-
-## Abc
-
-[[small groupoids]]
-
