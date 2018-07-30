@@ -27,7 +27,7 @@ A & \overset{f}{\to} & C
 
 Of course, lifts typically don't literally exist in the sense of an equation $p \circ \widetilde{f} = f$ or an [[isomorphism]] $p \circ \widetilde{f} \cong f$. But in good situations, one may have the next best thing: a [[2-morphism|2-cell]] $p \circ \widetilde{f} \Rightarrow f$ which is universal among 2-cells of this form. This gives the notion of _right_ Kan lift. The notion of _left_ Kan lift is similar, but with 2-cells in the opposite direction. 
 
-### terminology ###
+### Terminology ###
 
 Usually, when working within a 2-categorical context, Kan lifts are simply refered to as _lifts/liftings_, just as what happens with [[Kan extension|Kan extensions]].
 
@@ -35,7 +35,7 @@ Usually, when working within a 2-categorical context, Kan lifts are simply refer
 
 As in the discussion at [[Kan extension]], there is a local notion of Kan lift and a global notion. Expanding on the informal description above, we give the local notion first, followed by the (conceptually more perspicuous) global notion in terms of [[adjoint functor]]s. 
 
-#### Local description ####
+### Local description ###
 
 Given 1-cells $p: B \to C$, $f: A \to C$ in a [[bicategory]], a **right Kan lift** of $f$ through $p$, denoted $Rift_p f$, is a 1-cell $\widetilde{f}: A \to B$ equipped with a 2-cell 
 
@@ -57,7 +57,7 @@ $$\zeta: \widetilde{f} \Rightarrow g$$
 
 such that $(p \circ \zeta) \bullet \eta = \theta$. 
 
-#### Global description #### 
+### Global description ### 
 
 Given $p: B \to C$ and a 0-cell $A$ in a bicategory, if the right Kan lift $Rift_p f$ exists for any $f: A \to C$, then we speak of a **global** Kan lift. When this is the case, we may define a functor between hom-categories 
 
