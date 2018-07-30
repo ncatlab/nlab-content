@@ -22,7 +22,7 @@ A morphism $f : A \to B$ of $P_F$-valued sets consists of
 2. Such that if $x F(f_0) y$ then $\alpha_A(x) \leq_{P} \alpha_B(y)$
 
 This gives a category of $P_F$-valued sets using relational composition.
-We can further get a [[double category]] of $P_F$-valued sets by noticing that the category structure above is the horizontal category of the [[comma double category]] of $F$ and $P$ viewed as a lax double functor from $1$ to the double category of sets and relations.
+We can further get a [[double category]] of $P_F$-valued sets by noticing that the category structure above is the horizontal category of a [[comma double category]], see there for more detail.
 
 ## Examples
 
