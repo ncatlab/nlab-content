@@ -87,7 +87,6 @@ The following are [[semifree differential graded-commutative algebras]]:
 
 * [[model structure on differential graded-commutative superalgebras]]
 
-
 * [[rational homotopy theory]]
 
 * [[monoidal Dold-Kan correspondence]]
