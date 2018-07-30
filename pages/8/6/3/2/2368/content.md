@@ -61,7 +61,7 @@ Similarly, just as an ordinary [[ring]] is a [[monoid]] in the category $Mod_\ma
 ### For excisive functors
 
 
-##### Topological ends and coends
+#### Topological ends and coends
  {#TopologicalEndsAndCoends}
 
 For working with pointed [[topologically enriched functors]], a certain shape of [[limits]]/[[colimits]] is particularly relevant: these are called (pointed topological enriched) _[[ends]]_ and _[[coends]]_. We here introduce these and then derive some of their basic properties, such as notably the expression for topological [[left Kan extension]] in terms of [[coends]] (prop. \ref{TopologicalLeftKanExtensionBCoend} below). Further below it is via left Kan extension along the ordinary smash product of pointed topological spaces ("[[Day convolution]]") that the [[symmetric monoidal smash product of spectra]] is induced.
