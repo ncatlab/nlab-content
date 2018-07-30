@@ -46,7 +46,7 @@ Typically the way that the strong Nullstellensatz is proved is by reduction to t
 
 One weak version of the Nullstellensatz says the following (e.g. [theorem 3.99.1 here](http://www.math.unipd.it/~frank/ALGANT/2010/Notes/7-12.pdf)).
 
-For $k$ an [[algebraically closed field]] and $I$ a proper [[ideal]] in the [[polynomial ring]] $k[X_1, \cdots, X_n]$, then the set $V(I)$ (of $n$-[[tuples]] $x = (x_i) \in k^n$ such that all polynomials in $I$ vanish when evaluated on these $x$) is an [[inhabited set]].
+For $k$ an [[algebraically closed field]] and $I$ a proper [[ideal]] in the [[polynomial ring]] $k[X_1, \cdots, X_n]$, the set $V(I)$ (of $n$-[[tuples]] $x = (x_i) \in k^n$ such that all polynomials in $I$ vanish when evaluated on these $x$) is an [[inhabited set]].
 
 Before giving a proof, we remark (in view of more abstract formulations to come later) that an element of $V(I)$ is just a $k$-[[associative algebra|algebra]] [[homomorphism]] of the form
 
@@ -65,6 +65,8 @@ $$
 Moreover, since $Spec(k)$ is the [[terminal object]] in this context, such a map is the same as a "point", a [[global element]] of $Spec(k[X_1, \cdots, X_n]/I)$.
 
 Hence in this form the Nullstellensatz simply says that (for $k$ algebraically closed) affine schemes have points. This formulation of the Nullstellensatz leads one to a [more general abstract formulation](#GeneralAbstract). 
+
+We turn now to the proof of the weak Nullstellensatz. 
 
 +-- {: .num_lemma #uncountable} 
 ###### Lemma 
