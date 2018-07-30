@@ -26,7 +26,7 @@ A [[morphism]] $f:X\to Y$ of [[schemes]] is **smooth** if
 
 Smoothness of a morphism is a higher dimensional analogue of the notion of a morphism being [[etale morphism|étale]] (which is a smooth morphism of relative dimension $0$), but stronger than the notion of [[formally smooth morphism|formal smoothness]]. 
 
-#### Smoothness versus formal smoothness 
+### Smoothness versus formal smoothness 
 
 For a morphism $f:X\to Y$ of schemes, and $x$ a point of $X$, the following are equivalent
 
