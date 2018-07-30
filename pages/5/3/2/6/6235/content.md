@@ -1,14 +1,3 @@
-
-+-- {: .rightHandSide}
-+-- {: .toc .clickDown tabindex="0"}
-### Context
-#### Functorial analysis
-+-- {: .hide}
-[[!include Functorial analysis - contents]]
-=--
-=--
-=--
-
 # Functorial analysis
 * table of contents
 {: toc}
