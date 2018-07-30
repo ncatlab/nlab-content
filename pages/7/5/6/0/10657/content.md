@@ -24,7 +24,8 @@ For any [[algebra|algebraic]] object, such as an [[associative algebra]], [[grou
 
 ## Examples
 
-For $G$ a [[perfect group]]. The _universal [[central extension]]_ of $G$ is the essentially unique [[group]] $K$ that is a [[Schur covering group]] of $G$.
+
+For $G$ a [[discrete group]] which is [[perfect group|perfect]], the _universal [[central extension]]_ of $G$ is the essentially unique [[group]] $K$ that is a [[Schur covering group]] of $G$.
 
 
 ## Properties
@@ -47,9 +48,13 @@ Discussion in [[semi-abelian categories]]:
 
 * Jose Casas, Tim Van der Linden, _A relative theory of universal central extensions_ ([arXiv:0908.3762](https://arxiv.org/abs/0908.3762))
 
-### For groups
+### For discrete groups
 
 * groupprops wiki _[Universal central extension](http://groupprops.subwiki.org/wiki/Universal_central_extension)_
+
+### For Lie groups
+
+* [[Karl-Hermann Neeb]], _Universal Central Extensions of Lie Groups_,  Acta Applicandae Mathematicae (2002) 73: 175 (<a href="https://doi.org/10.1023/A:1019743224737">doi:10.1023/A:1019743224737</a>)
 
 ### For super Lie algebras
 
