@@ -44,7 +44,7 @@ the conditions and to have the language for various constructions
 (say vanishing conditions, conditions on characteristic class,
 dual classes, products).
 
-#### The idea of functorial invariants
+### The idea of functorial invariants
 
 The basic idea of the functorial method for the problem of existence of morphisms is the following: 
 If $F:A\to B$ is a [[functor]] 
