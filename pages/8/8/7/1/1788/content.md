@@ -23,5 +23,3 @@ $$
     \;
   Top_{Qu}
 $$
-
-[[some_new_page]]
