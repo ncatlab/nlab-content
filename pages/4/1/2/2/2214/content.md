@@ -496,7 +496,7 @@ The announcement of the change to [the Forum](http://www.math.ntnu.no/~stacey/Ma
 
   * further expanded [[category theory - contents]] and added it as floating table of contents to more entries
 
-    (any volunteers for similar floating tables of contents such as [[topos theory - contents]], [[enriched category theory - contents]]?)
+    (any volunteers for similar floating tables of contents such as [[topos theory - contents]], [[enriched category theory contents]]?)
 
 * [[Jon Awbrey]] added a subsection on categorical precursors to the References Section of [[category theory]], but that's already such a huge article that people may prefer to spin off a new page if it goes past a few links.
 
