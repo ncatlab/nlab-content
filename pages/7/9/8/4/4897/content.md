@@ -19,7 +19,7 @@ We list archives of **online** books and videos, not the catalogues of physical 
 
 ## Archives of articles, books, proceedings, videos
 
-#### Math and physics only (or mainly)
+### Math and physics only (or mainly)
 
 * [arXiv](http://arxiv.org) archive of free preprints (math, physics, computational linguistics)
 
@@ -62,7 +62,7 @@ We list archives of **online** books and videos, not the catalogues of physical 
 * [Aarhus](http://math.au.dk/forskning/publikationer/instituttets-serier/year/2010/series/pp/) math institute, preprints and dissertations
 * encyclopaedias in Russian online: [dic.academic.ru](http://dic.academic.ru)
 
-#### General archives: not math/physics centered
+### General archives: not math/physics centered
 
 * [JSTOR](http://www.jstor.org) -- a big repository of past issues of main, mainly American and English journals -- requires institution subscription
 * [DigiZeitschrift](http://www.digizeitschriften.de), Das Deutsche Digitale Zeitschriftenarchiv; includes [39 math journals](http://www.digizeitschriften.de/main/searchcol/?tx_goobit3_search[extquery]=DOCSTRCT%3Aperiodical&DC=510.mathematics)
