@@ -1586,7 +1586,7 @@ But examples of fundamental importance include for instance
 
 * **group extension**, [[∞-group extension]]
 
-   [[Ext-group]], [[central extension]]
+   [[Ext-group]], [[central extension]], [[maximal central extension]]
 
   * [[Baer sum]]
 
