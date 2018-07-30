@@ -1,22 +1,11 @@
 
 
-+-- {: .rightHandSide}
-+-- {: .toc .clickDown tabindex="0"}
-###Context###
-#### Homotopy theory
-+--{: .hide}
-[[!include homotopy - contents]]
-=--
-=--
-=--
-
-
 ## Basic notions of homotopy theory
   {#BasicNotionsOfHomotopyTheory}
 
 Traditionally, [[mathematics]] and [[physics]] have been [[foundations|founded]] on [[set theory]], whose concept of _[[sets]]_ is that of "bags of distinguishable points". 
 
-But fundamental [[physics]] is governed by the _[[gauge principle]]_. This says that given any two "things", such as two [[field histories]] $x$ and $y$, it is in general wrong to ask whether they are [[equality|equal]] or not, instead one has to ask where there is a _[[gauge transformation]]_ 
+But fundamental [[physics]] is governed by the _[[gauge principle]]_. This says that given any two "things", such as two [[field history|field histories]] $x$ and $y$, it is in general wrong to ask whether they are [[equality|equal]] or not, instead one has to ask where there is a _[[gauge transformation]]_ 
 
 $$
   x \stackrel{\gamma}{\longrightarrow} y
