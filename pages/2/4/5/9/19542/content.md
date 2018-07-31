@@ -15,13 +15,14 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A _[[chain complex]]_ $V_\bullet$ of [[super vector spaces]] is for each $n \in \mathbb{Z}$ a [[super  vector space]] $V_n = (V_n)_\even \oplus (V_n)_odd$, equipped with a [[differential]], hence for each $n \in \mathbb{Z}$ a [[morphism]] $\partial_n \;\colon\; V_{n+1} \to V_n$ of [[super vector spaces]] such that $\partial \circ \partial = 0$.
+A _[[chain complex]]_ $V_\bullet$ of [[super vector spaces]] is for each $n \in \mathbb{Z}$ a [[super vector space]] $V_n = (V_n)_\even \oplus (V_n)_odd$, equipped with a [[differential]], hence for each $n \in \mathbb{Z}$ a [[morphism]] $\partial_n \;\colon\; V_{n+1} \to V_n$ of [[super vector spaces]] such that $\partial \circ \partial = 0$.
 
 The [[category]] $Ch(SuperVect)$ of chain complexes of super vector space is much like the [[category of chain complexes]] $Ch(Vect)$ of ordinary [[vector spaces]], in particular in that it carries the [[tensor product of chain complexes]] that makes it a [[monoidal category]]. But there is a non-trivial [[symmetric monoidal category|symmetric]] [[braiding]] on $Ch(SuperVect)$ which involves not just the signs used in the braiding in $Ch(Vect)$, but also the signs involved in the defining nonp-trivial braiding on [[super vector space|SuperVect]]. The [[commutative monoid in a symmetric monoidal category|commutative monoids]] with respect to this symmetric braiding on $Ch(SuperVect)$ are the [[differential graded-commutative superalgebras]].
 
