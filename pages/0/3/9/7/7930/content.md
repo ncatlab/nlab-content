@@ -1848,6 +1848,7 @@ A clean summary of the relation of the real representation to [[Hermitian forms]
 
 * {#BaezHuerta10} [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry II_, Adv. Math. Theor. Phys. 15 (2011), 1373-1410  ([arXiv:1003.34360](http://arxiv.org/abs/1003.3436))
 
+
 [[!redirects spin representations]]
 
 [[!redirects spinor representation]]
