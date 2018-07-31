@@ -1384,7 +1384,7 @@ $$
 $$
 
 Hence we see that restricting a smooth function to the infinitesimal neighbourhood of a point is
-equivalent to restricting attention to its [[Taylor series|] to the given order at that point:
+equivalent to restricting attention to its [[Taylor series]] to the given order at that point:
 
 
 $$
