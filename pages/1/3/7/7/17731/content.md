@@ -1868,7 +1868,7 @@ Hence in the case of $\omega = c_2^{IIA}$ we identify the new generator with $e^
 
 The other two cases are directly analogous.
 
-=---
+=--
 
 Recall the following (e.g. from [FSS 16](#FiorenzaSatiSchreiber16) and references given there):
 
@@ -2164,6 +2164,7 @@ The above discussion of cocycles on super-Minkowski spacetimes draws from
 * {#FiorenzaSatiSchreiber13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_, International Journal of Geometric Methods in Modern Physics Volume 12, Issue 02 (2015) 1550018 ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
 
 * {#FiorenzaSatiSchreiber16} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Rational sphere valued supercocycles in M-theory]]_, ([arXiv:1606.03206](https://arxiv.org/abs/1606.03206)) 
+
 
 
 
