@@ -16,7 +16,7 @@
 
 [[connective spectrum|Connective spectra]] form a [[coreflective sub-(∞,1)-category]] of the [[(∞,1)-category of spectra]]. The [[right adjoint|right]] [[adjoint (∞,1)-functor]] from spectra to connective spectra is called the _[[connective cover]]_ construction.
 
-The analogous statement holds true for [[module spectra]] and for [[algebra spectra]] ([Baker-Richter 05](#BakerRichter05), [Lurie, prop. 8.1.3.13](#Lurie))
+The analogous statement holds true for [[module spectra]] and for [[algebra spectra]] ([Baker-Richter 05](#BakerRichter05), [Lurie, prop. 7.1.3.13](#Lurie))
 
 ## Related concepts
 
