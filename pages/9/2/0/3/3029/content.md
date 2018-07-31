@@ -1321,7 +1321,7 @@ Thus we obtain
 
 Two extensions of a group $B$ by group $K$ with
 corresponding systems $(\psi,\chi)$ and $(\psi',\chi')$ are
-equivalent iff there is a [[homomorphism}}
+equivalent iff there is a [[homomorphism]]
 $\lambda: B \rightarrow K$ such that
 the relations \eqref{equiv1}
 and \eqref{equiv2} are valid.
@@ -1670,8 +1670,6 @@ Extensions of [[supergroups]] are discussed in
 [[!redirects extension of groups]]
 [[!redirects extensions of groups]]
 
-[[!redirects central extension]]
-[[!redirects central extensions]]
 [[!redirects central extension of groups]]
 [[!redirects central extensions of groups]]
 
