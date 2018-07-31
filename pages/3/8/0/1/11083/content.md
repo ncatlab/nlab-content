@@ -53,7 +53,7 @@ This remarkable matching of [[higher gauge theory]] and [[homotopy type theory]]
 ## Smooth 1-groupoids
 
 
-#### Motivation: Fields and gauge transformations in electromagnetism
+### Motivation: Fields and gauge transformations in electromagnetism
  {#GaugeTransformationsInElectromagnetism}
 
 The mathematical concept of _[[smooth groupoid]]_ is well familiar, in slight disguise, in basic _[[gauge theory]]_. Here we make this explicit for basic [[electromagnetism]]. For more exposition and details along these lines see
