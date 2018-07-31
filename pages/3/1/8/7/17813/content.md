@@ -170,7 +170,7 @@ This we discuss in
 
 * _[The super D-branes and the M5-brane](#TheSuperDBranes)_
 
-This gives a tree of consecutive higher central [[super Lie n-algebra]] extensions, originating from the [[superpoint]]:
+This gives a tree of consecutive invariant [[universal higher central extensions]] of [[super Lie n-algebras]], originating from the [[superpoint]]:
 the _[[schreiber:brane bouquet]]_. Next we [[descent|descend]] these iterated central extensions to  single but non-central
 higher cocycles. The result turns out to be the image in [[rational homotopy theory]] of the classifying maps of the
 [[background fields]] in [[string theory]]/[[M-theory]]: the [[B-field]]-twisted [[RR-fields]] and the M-flux fields.
@@ -1245,7 +1245,7 @@ $$
 
 =--
 
-As a slogan: _The higher central extensions classified by higher cocycles are their homotopy fibers._
+As a slogan: _The [[higher central extensions]] classified by higher cocycles are their [[homotopy fibers]]._
 
 
 +-- {: .num_example}
@@ -3897,10 +3897,9 @@ On the right this is the [[higher WZW term]].
 
 
 
-This way we may finally continue the progression of invariant central extensions to higher central extensions:
+This way we may finally continue the progression of invariant [[central extensions]] to [[higher central extensions]]:
 
-Recall from prop. \ref{HomotopyFibersOfLInfinityCocycles} that and how higher cocycles
-classify higher central extensions.
+Recall from prop. \ref{HomotopyFibersOfLInfinityCocycles} that and how higher cocycles classify [[higher central extensions]].
 
 
 +-- {: .num_defn #TheMembraneAndStringCocycles}
@@ -4017,8 +4016,7 @@ $\,$
 
 $\,$
 
-(While every extension displayed is a maximal invariant higher central extension, not all invariant higher central extensions are displayed.
-For instance there are string and membrane GS-WZW-terms / cocycles also on the lower dimensional super-Minkowski spacetimes ("non-critical"), e.g. the [[super 1-brane in 3d]] and the [[super 2-brane in 4d]].)
+(While every extension displayed is an invariant [[universal higher central extension]], not all invariant [[universal higher central extensions]] are displayed. For instance there are string and membrane GS-WZW-terms / cocycles also on the lower dimensional super-Minkowski spacetimes ("non-critical"), e.g. the [[super 1-brane in 3d]] and the [[super 2-brane in 4d]].)
 
 $\,$
 
@@ -4748,9 +4746,7 @@ $$
 
 =--
 
-So in conclusion, by forming
-iterated (maximal) invariant higher central extensions
-of the superpoint, there emrges first [[spacetime]] and then the fundamental [[p-branes]] that propagate in spacetime.
+So in conclusion, by forming iterated invariant [[universal higher central extensions]] of the [[superpoint]], there emerges first [[spacetime]] and then the fundamental [[p-branes]] that propagate in spacetime.
 
 $\,$
 
@@ -4826,9 +4822,7 @@ $$
 ###### Remark
 **(brane intersection laws)**
 
-In addition to reflecting all the brane speciees, the above [[schreiber:brane bouquet]]
-knows the _brane intersection laws_:
-there is a morphism $p_2\mathfrak{brane} \longrightarrow p_1 \mathfrak{brane}$
+In addition to reflecting all the brane speciees, the above [[schreiber:brane bouquet]] knows the _brane intersection laws_: there is a morphism $p_2\mathfrak{brane} \longrightarrow p_1 \mathfrak{brane}$
 precisely if the given species of $p_1$-branes may end on the given species of $p_2$-branes
 (more discussion of this is in [Fiorenza-Sati-Schreiber 13, section 3](#FSS13)).
 
