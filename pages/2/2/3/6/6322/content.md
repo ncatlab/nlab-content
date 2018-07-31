@@ -71,6 +71,7 @@ Introductions include
 
 * Particle Data Group, _Quantum Chromodynamics_ ([pdf](http://pdg.lbl.gov/2015/reviews/rpp2015-rev-qcd.pdf))
 
+
 Rigorous construction as a [[perturbative quantum field theory]] via [[causal perturbation theory]] is discussed in
 
 * {#Scharf01} [[Günter Scharf]], chapter 3 of _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
@@ -79,6 +80,10 @@ Rigorous construction as a [[perturbative quantum field theory]] via [[causal pe
 Discussion of on-shell methods in QCD [[perturbation theory]] includes
 
 * [[Zvi Bern]], [[Lance Dixon]], [[David Kosower]], _On-Shell Methods in Perturbative QCD_ ([arXiv:0704.2798](http://arxiv.org/abs/0704.2798))
+
+See also
+
+* Bo-Lun Du, Xing-Gang Wu, Jian-Ming Shen, Stanley J. Brodsky, _Extending the Predictive Power of Perturbative QCD_ ([arXiv:1807.11144](https://arxiv.org/abs/1807.11144))
 
 
 [[!redirects quantum chromodynamics]]
