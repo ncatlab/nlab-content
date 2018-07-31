@@ -897,7 +897,7 @@ In [[double field theory]]:
 
 * [[Andreas Deser]], [[Jim Stasheff]], _Even symplectic supermanifolds and double field theory_, Communications in Mathematical Physics November 2015, Volume 339, Issue 3, pp 1003-1020 ([arXiv:1406.3601](http://arxiv.org/abs/1406.3601))
 
-* [[Olaf Hohm]], [[Barton Zwiebach]], _$L_\infty$ Algebras and Field Theory_ ([arXiv:1701.08824](https://arxiv.org/abs/1701.08824))
+* {#HohmZwiebach17} [[Olaf Hohm]], [[Barton Zwiebach]], _$L_\infty$ Algebras and Field Theory_ ([arXiv:1701.08824](https://arxiv.org/abs/1701.08824))
 
 
 
