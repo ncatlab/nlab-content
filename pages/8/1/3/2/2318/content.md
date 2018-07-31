@@ -42,7 +42,7 @@ $$
 The names "Spin" and "String" both derive from the role these structures play in [[quantum field theory]]: a [[spin structure]] is required on $X$ for it to serve as a target space for spinning particles (superparticles), while a [[string structure]] is required for it to serves as a target for "spinning strings" -- superstrings -- (see [[heterotic string theory]] for more).
 Topologists just say (said) $O(n)\langle 2\rangle$ for $Spin(n)$ and $O(n)\langle 6\rangle$ for $String(n)$, respectively. 
 
-They wrote $O(n)\langle 8\rangle$ for the next step in the [[Whitehead tower]] of $O(n)$ (note that this is only the _next_ step for $n \gt 6$; for lower $n$ there are intermediate steps, as can be seen in the table at [[orthogonal group#HomotopyGroups|orthogonal group]]).
+They wrote $O(n)\langle 8\rangle$ for the next step in the [[Whitehead tower]] of $O(n)$ (note that this is only the _next_ step for $n \gt 6$; for lower $n$ there are intermediate steps, as can be seen in the table at [orthogonal group](orthogonal+group#HomotopyGroups)).
 
 It was [[Hisham Sati]] who first realized that a lift of the [[tangent bundle]] $T X$ to this highly connected structure group is related to $X$ serving as a target for "spinning 5-branes" -- super-5-branes -- in what is called [[dual heterotic string theory]]. Following the history of the term [[String group]] he gave the topological group $O(n)\langle 8\rangle$ the name [[Fivebrane group]]:  $Fivebrane(n)$.
 
