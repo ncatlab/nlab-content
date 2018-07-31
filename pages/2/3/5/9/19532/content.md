@@ -1,5 +1,4 @@
 
-
 $\,$
 
 ## Basic notions of higher topos theory
