@@ -75,7 +75,7 @@ such that
        &&
        \mathfrak{g} \otimes_k \mathfrak{g} \otimes_k \mathfrak{g}
        \\
-       & {}_{\mathllap{[-,[-,-]]} - [[-,-],-] }\searrow && \swarrow_{\mathrlap{[-,[-,-]]}}
+       & {}_{\mathllap{\left[-,\left[-,-\right]\right]} - \left[\left[-,-\right],-\right] }\searrow && \swarrow_{\mathrlap{\left[-,\left[-,-\right]\right]}}
        \\
        && \mathfrak{g}
      }
@@ -420,3 +420,7 @@ Discussion of  [[Lie algebra extensions]] for super Lie algebras includes
 
 [[!redirects Lie superalgebra]]
 [[!redirects super Lie algebras]]
+
+[[!redirects super Lie bracket]]
+[[!redirects super Lie brackets]]
+
