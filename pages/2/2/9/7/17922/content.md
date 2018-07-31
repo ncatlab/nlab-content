@@ -9,6 +9,7 @@
 A _super vielbein_ is the analogue of a _[[vielbein]]_ in [[supergeometry]].
 
 
+
 ## The canonical super vielbein
 
 Let $N$ be a [[real spin representation]] and let $(x^a, \theta^\alpha)$ be the canonical [[coordinates]] on the [[supermanifold]] $\mathbb{R}^{d-1,1\vert N}$ underlying the [[super Minkowski spacetime]] super translation group. Then the canonical super vielbein is the $\mathbb{R}^{d-1,1\vert N}$-valued [[super differential form]] with components
