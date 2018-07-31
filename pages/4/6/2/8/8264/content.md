@@ -80,6 +80,8 @@ see _[[Starobinsky model of cosmic inflation]]_
 
 * Jerome Martin, Christophe Ringeval, Vincent Vennin, _Encyclopaedia Inflationaris_ ([arXiv:1303.3787](http://arxiv.org/abs/1303.3787))
 
+* Jerome Martin, _The Theory of Inflation_ ([arXiv:1807.11075](https://arxiv.org/abs/1807.11075))
+
 * Wikipedia, _[Inflation (cosmology)](http://en.wikipedia.org/wiki/Inflation_%28cosmology%29)_
 
 ### Original articles
