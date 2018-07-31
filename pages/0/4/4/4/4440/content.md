@@ -213,7 +213,7 @@ A discussion of stacks over [[1-sites]] in terms of their [[Grothendieck constru
 
 The above text involves content transferred from 
 
-* [[Michael Shulman]], _[[michaelshulamn:2-site]]_
+* [[Michael Shulman]], _[[michaelshulman:2-site]]_
 
 2-sites were earlier considered in
 
