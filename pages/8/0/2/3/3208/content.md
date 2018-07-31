@@ -25,6 +25,7 @@ In [[mathematical logic]], a _theory_ is a formal [[language]] used to precisely
 
 In principle also all other notions of _theory_, such as in the sense of [[physics]] should be special cases of this, but in practice of course there are many systems called "theories" which are not (yet) as fully formalized as in mathematical logic.
 
+
 ## Definition
 
 There are several different viewpoint on theories:
@@ -188,7 +189,7 @@ are discussed at _[[fully formal ETCS]]_.
 
 ## Models for a theory
 
-#### Set-theoretic models for a first-order theory in syntactic approach
+### Set-theoretic models for a first-order theory in syntactic approach
 
 The basic concept is of a structure for a first-order language $L$: a set $M$ together with an interpretation of $L$ in $M$. A theory is specified by a language and a set of sentences in $L$. An $L$-structure $M$ is a __model__ of $T$ if for every sentence $\phi$ in $T$, its interpretation in $M$, $\phi^M$ is true ("$\phi$ holds in $M$"). We say that $T$ is __consistent__ or satisfiable (relative to the universe in which we do [[model theory]]) if there exist at least one model for $T$ (in our universe). Two theories, $T_1$, $T_2$ are said to be __equivalent__ if they have the same models. 
 
