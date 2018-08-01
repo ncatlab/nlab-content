@@ -546,7 +546,7 @@ $$
 
 This follows from the $(\Pi \dashv Disc)$-[[adjunction]] and the [above proposition](#StrucGeometricHomotopy) asserting that $|\Pi(X_\bullet)| \simeq |X_\bullet|$ is the ordinary [[geometric realization of simplicial topological spaces]].
 
-=---
+=--
 
 
 
@@ -5734,7 +5734,7 @@ For more see [[connection on a smooth principal ∞-bundle]].
 
 ### Higher holonomy and Chern-Simons functional {#StrucChernSimons}
 
-* [[scheiber:∞-Chern-Simons theory]]
+* [[schreiber:∞-Chern-Simons theory]]
 
 
 
