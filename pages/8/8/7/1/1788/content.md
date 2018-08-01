@@ -1,6 +1,7 @@
-#Contents
-* table of contents
-{: toc}
+
+$\phantom{AAA}$$\array{ U_1 &\mapsto& \text{"Maps(}U_1,\mathbf{X}\text{)"} \\ {}^{\mathllap{\phi}}\Big\downarrow && \Big\uparrow{}^{  \mathrlap{ Maps(\phi,\mathbf{X}) \;\;\text{"precomposition with}\; \phi\text{"}  } } \\ U_2 &\mapsto& \text{"Maps(}U_2,\mathbf{X}\text{)"}  }$
+
+
 $$
   dgcAlg^{op}_{\mathbb{R}, \geq 0, proj}
     \;
