@@ -39,7 +39,7 @@ One axiomatization is [[cohesion]] and [[differential cohesion]].
 
 ## Examples
 
-* [[Smooth∞Grpd]], [[SynthDiff∞Grpd]].
+* [[Smooth∞Grpd]], [[SuperFormalSmooth∞Grpd]].
 
 * [[Lie 2-groupoid]]
 
@@ -62,6 +62,10 @@ One axiomatization is [[cohesion]] and [[differential cohesion]].
 Exposition is in 
 
 * [[Urs Schreiber]], _[[schreiber:Higher Structures|Higher Structures in Mathematics and Physics]]_, talk at [Oberwolfach Workshop 1651a](https://www.mfo.de/occasion/1651a/www_view), 2016 Dec. 18-23
+
+Details are in 
+
+* _[[geometry of physics]]_, [[geometry of physics -- categories and toposes|categories and toposes]], ...
 
 The most classical aspect of higher differential geometry is the theory of [[orbifolds]], [[Lie groupoids]] and [[Lie algebroids]] and their application in [[foliation theory]]. Original reference here include
 
