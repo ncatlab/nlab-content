@@ -889,6 +889,7 @@ The [[Dirac operator]] $D$ squaring to a Green hyperbolic operator is itself Gre
 
 * {#Khavkine14} [[Igor Khavkine]], _Covariant phase space, constraints, gauge and the Peierls formula_, Int. J. Mod. Phys. A, 29, 1430009 (2014) ([arXiv:1402.1282](https://arxiv.org/abs/1402.1282))
 
+
 [[!redirects Green hyperbolic partial differential equations]]
 
 [[!redirects Green hyperbolic differential equation]]
