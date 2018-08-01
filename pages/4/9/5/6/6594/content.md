@@ -14,7 +14,7 @@
 =--
 #### Differential cohomology
 +--{: .hide}
-[[!include differential cohomologFy - contents]]
+[[!include differential cohomology - contents]]
 =--
 =--
 =--
