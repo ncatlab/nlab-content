@@ -386,7 +386,7 @@ some sectors of Number Theory_  (2011) ([pdf](http://empslocal.ex.ac.uk/people/s
 
 A proposal for a construction as a [[higher gauge theory]] for [[differential string structure|string 2-connections]] is due to 
 
-* {#SaemannSchmidt17b} [[Christian Saemann]], Lennart Schmidt, _An M5-Brane Model_ ([arXiv:1712.06623](https://arxiv.org/abs/1712.06623))
+* {#SaemannSchmidt17b} [[Christian Saemann]], Lennart Schmidt, _Towards an M5-Brane Model I: A 6d Superconformal Field Theory_, J. Math. Phys. 59 (2018) 043502 ([arXiv:1712.06623](https://arxiv.org/abs/1712.06623))
 
 based on 
 
