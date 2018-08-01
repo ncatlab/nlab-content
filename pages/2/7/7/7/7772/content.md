@@ -1,3 +1,4 @@
+
 We describe the relation of certain classes of group schemes.
 
 The page numbering refers to the text:
@@ -17,8 +18,8 @@ $$0\to G^{ex}\to G\to G_{ex}\to 0$$
 |-------|-------|-------|-------|--------|
 | [[formal group scheme|formal k-group]] | [[connected group scheme|connected]] | [[étale group scheme|étale]] | | p.34 |
 | [[finite k-group]] | [[infinitesimal group scheme|infinitesimal]] | &#233;tale | splits if $k$ is perfect |p.35 |
-| [[affine group scheme|affine k-group]] | [[multiplicative group scheme|multiplicative]] | [[unipotent group scheme|unipotent | splits if $k$ is perfect | p.39 |
-| connected formal $k$-group | $G_{red}$ is [[smooth group scheme|smooth]] | $G/G_{red}$ is infinitesimal |p.43 |  |
+| [[affine group scheme|affine k-group]] | [[multiplicative group scheme|multiplicative]] | [[unipotent group scheme|unipotent]] | splits if $k$ is perfect | p.39 |
+| connected formal $k$-group | $G_{red}$ is [[smooth group scheme|smooth]] | $G/G_{red}$ is infinitesimal | | p.43 |
 
 +-- {: .num_defn}
 ###### Definition
