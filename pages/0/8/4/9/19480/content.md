@@ -1162,9 +1162,9 @@ Given a [[category]] $\mathcal{C}$ (Def. \ref{Categories}), the [[hom-functor]] 
     &&
     \big\downarrow^{ \mathrlap{ Hom_{\mathcal{C}}(-,f) } }
     &&
-    \big\downarrow^{ \mathrlap{ Hom_{\mathcal{C}}( c_2, f )  } }
+    \big\downarrow^{ \mathrlap{ Hom_{\mathcal{C}}( c_1, f )  } }
     &&
-    \big\downarrow^{ \mathrlap{ Hom_{\mathcal{C}}(c_1,f) } }
+    \big\downarrow^{ \mathrlap{ Hom_{\mathcal{C}}(c_2,f) } }
     \\
     &&
     Y &\mapsto&
