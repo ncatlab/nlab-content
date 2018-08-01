@@ -22,7 +22,7 @@ For every [[Cauchy surface]] $\Sigma_p \hookrightarrow \Sigma$ the [[restriction
 
 For a [[sigma model]] field theory a field history may be thought of as a _trajectory_.
 
-For more see at _[[A first idea of quantum field theory]]_ the chapter _[Fields](geometry+of+physics+--+A+first+idea+of+quantum+field+theory#Fields)_.
+For more see at _[[geometry of physics -- perturbative quantum field theory]]_ the chapter _[Fields](geometry+of+physics+--+A+first+idea+of+quantum+field+theory#Fields)_.
 
 ## Related concepts
 
