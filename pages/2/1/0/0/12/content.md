@@ -1,4 +1,4 @@
-This is a timeline of [[category theory]] and related mathematics.  For discussion about its aims and possible guidelines for people who wish to work on it, see the bottom.
+This is a timeline of [[category theory]] and related mathematics.
 
 
 #Timeline#
@@ -16,7 +16,7 @@ This is a timeline of [[category theory]] and related mathematics.  For discussi
 |1929| |[[Walther Mayer]]| |[[chain complexes]]|
 |1930| |[[Ernst Zermelo]]--[[Abraham Fraenkel]]| |Statement of the final [[ZFC|ZF-axioms]] of [[set theory]] after being first stated in 1908 and improved upon since then|
 |1932| |[Georges de Rham]| |de Rham theorem: For a smooth manifold the de Rham cohomology is isomorphic to the singular cohomology with coefficients in R.|
-|1932| |[[Eduard ?ech]]| |[[?ech cohomology]], [[homotopy group|higher homotopy groups]] of a [[topological space]] though nobody paid attention because they were all abelian.|
+|1932| |[[Eduard Čech]]| |[[Čech cohomology]], [[homotopy group|higher homotopy groups]] of a [[topological space]] though nobody paid attention because they were all abelian.|
 |1933| |[[Solomon Lefschetz]]| |[[singular homology]] of a [[topological space]]|
 |1934| |[[Reinhold Baer]]| |Ext groups, Ext functor (for abelian groups and with different notation)|
 |1935| |[[Witold Hurewicz]]| |[[homotopy group|higher homotopy groups]] of a [[topological space]]|
@@ -27,7 +27,7 @@ This is a timeline of [[category theory]] and related mathematics.  For discussi
 |1940| |[[Kurt Gödel]]--[[Paul Bernays]]| |[[proper class]]es|
 |1940| |[[Heinz Hopf]]| |[[Hopf algebra]]s|
 |1941| |[[Witold Hurewicz]]| |first [[fundamental theorem of homological algebra]]: Given a short [[exact sequence]] of spaces there exists a connecting homomorphism such that the long sequence of [[cohomology group]]s of the spaces is exact|
-|1942| |[[Samuel Eilenberg]]--[[Saunders Mac Lane]]| |universal coefficient theorem for [[?ech cohomology]], later this became the general [[universal coefficient theorem]]. The notations $Hom$ and $Ext$ first appear in their paper|
+|1942| |[[Samuel Eilenberg]]--[[Saunders Mac Lane]]| |universal coefficient theorem for [[Čech cohomology]], later this became the general [[universal coefficient theorem]]. The notations $Hom$ and $Ext$ first appear in their paper|
 |1943| |[[Norman Steenrod]]| |[[homology with local coefficients]]|
 |1943| |[[Israel Gelfand]]--[[Mark Naimark]]| |[[Gelfand-Naimark theorem]] (sometimes called Gelfand isomorphism theorem): The category $Haus$ of locally compact [[Hausdorff space]]s with continuous proper maps as morphisms is equivalent to the category $C^* Alg$ of commutative $C^*$-algebras with proper $*$-homomorphisms as morphisms|
 |1944| |[[Garrett Birkhoff]]--[[Øystein Ore]]| |[[Galois connection]]s generalizing the Galois correspondence: a pair of [[adjoint functor]]s between two [[categories]] that arise from [[partially ordered sets]] (in modern formulation)|
@@ -226,7 +226,7 @@ This is a timeline of [[category theory]] and related mathematics.  For discussi
 |1990| | Alexei Bondal-[[Mikhail Kapranov]]| |[[enhanced triangulated categories|Enhanced triangulated categories]]|
 |1990| |[[Peter Freyd]]| |[[Allegory (category theory)|Allegories (category theory)]]: An abstraction of the [[category of sets and relations]] as morphisms, it bears the same resemblance to binary relations as categories do to functions and sets. It is a category in which one has in addition to composition a unary operation reciprocation R&#176; and a partial binary operation intersection R &#8745; S, like in the category of sets with relations as morphisms (instead of functions) for which a number of axioms are required. It generalizes the [[relation algebra]] to relations between different sorts.|
 |1990| |[[Nicolai Reshetikhin]]-[[Vladimir Turaev]]-[[Edward Witten]]| |[[Reshetikhin-Turaev-Witten invariant]]s of knots from [[modular tensor category|modular tensor categories]] of representations of [[quantum group]]s|
-|1990| |Cartier et al.| |[[Grothendieck Festschrift]] in 3 volumes with historical contributions including Thomason-Troubaugh article on algebraic K-theory; [[Deligne: Categories Tannakiennes]]  and Breen's "Bitorseurs et cohomologie nonabeliennes"|
+|1990| |Cartier et al.| |[[Grothendieck Festschrift]] in 3 volumes with historical contributions including Thomason-Troubaugh article on algebraic K-theory; [[Catégories Tannakiennes|Deligne: Categories Tannakiennes]]  and Breen's "Bitorseurs et cohomologie nonabeliennes"|
 |1991| |[[Jean-Yves Girard]]| |[[Polarization (logic)|Polarization]] of [[linear logic]]|
 |1991| |[[Ross Street]]| |[[Parity complex]]es. A parity complex generates a free [[∞-category]]|
 |1991| |[[Andre Joyal]]-[[Ross Street]]| |Formalization of Penrose [[string diagram]]s to calculate with [[abstract tensor]]s in various [[monoidal category|monoidal categories]] with extra structure. The calculus now depend on the connection with [[low dimensional topology]]|
@@ -309,8 +309,7 @@ This is a timeline of [[category theory]] and related mathematics.  For discussi
 |2008| |[[Bruce Bartlett]]| |Primacy of the point hypothesis: An n-dimensional unitary extended TQFT is completely described by the n-Hilbert space it assigns to a point. This is a reformulation of the [[cobordism hypothesis]]|
 |2008| |[[Ieke Moerdijk]]-[[Clemens Berger]]| |Extends and improved the definition of [[Reedy category]] to become invariant under [[equivalence of categories]]|
 |2008| |[[Valery Lunts]]-[[Dmitri Orlov]]| |The derived categories of coherent sheaves on quasiprojective varieties have unique [[enhanced triangulated category|dg-enhancements]]|
-|2008| |Mike Hopkins-[[Jacob Lurie]]| |
-[[On the Classification of Topological Field Theories|Detailed outline of proof of]] [[John Baez|Baez]]-[[James Dolan|Dolan]] [[generalized tangle hypothesis|tangle hypothesis]] and [[John Baez|Baez]]-[[James Dolan|Dolan]] [[cobordism hypothesis]] which classify [[FQFT|extended TQFT]] in all dimensions|
+|2008| |Mike Hopkins-[[Jacob Lurie]]| | [[On the Classification of Topological Field Theories|Detailed outline of proof of]] [[John Baez|Baez]]-[[James Dolan|Dolan]] [[generalized tangle hypothesis|tangle hypothesis]] and [[John Baez|Baez]]-[[James Dolan|Dolan]] [[cobordism hypothesis]] which classify [[FQFT|extended TQFT]] in all dimensions|
 
 #Unclassifiable by year#
 * EGA (&#201;l&#233;ments de g&#233;om&#233;trie alg&#233;brique)
@@ -329,145 +328,9 @@ and for closely related timeline of homological algebra a comprehensive 40-page 
 #References#
 $[1]$ On the theory of elimination, Cambridge and Dublin Math. J. 3, 116-120
 
-+-- {: .query}
-Rafael: Zoran &#352;koda, you have to be more precise.
-Koszul resolutions of what?
-Notion of exactness for what?
-
-Zoran: he does one VERY complex calculation in which he masterly uses constructions involving organizational principles as above, without modern words and general definitions. The article is reproduced in the book Gel'fand, [[Kapranov]], Zelevinsky which is about the current state of the art in similar computations and which can explain more. 
-=--
-
-+-- {: .query}
-_Rafael Borowiecki_: Me and _Zoran &#352;koda_ are arguing if to keep this first entry in the timeline. See [[2009 September changes]] 2009-09-04 for the start of the discussion (that could be moved here). I am waiting to hear what others think about it.
-
-_Rafael_: After thinking a bit more about it, it comes down to the same as i wrote above. Koszul resolution of whitch algebra? Is it a particular kind of Koszul algebra for starter? Otherwise the explanation is no real main theorem of the paper. It is not closed. I suppose the exactness would be for the Koszul resolution.
-
-Then, this theorem is by far the most specialized result in the timeline. So i see it as the least important result in the timeline. If it would at least be a theory of determinants of complexes or inspired this theory, it would be worth mentioning, but it's not. There are too many particular cases and results to start to include them, the idea was at least to include the most important events in category theory and the related disciplines.
-
-_Zoran_: I am not talking Koszul algebras of Priddy but the older Koszul resolutions in the subject of [[commutative algebra]]. Of course, Koszul pair of the symmetric vs. exterior algebra is behind the classical Koszul resolutions; but the resolutions are typically, like in Cayley's work, resolutions of modules of finite type over reduced f.g. commutative algebras. Thus take any projective variety and a coherent sheaf on it and you are in the setup of this paper. The paper starts with a notion of resolution in about this setup, then develops Koszul resolutions and calculations with determinants which express the bases of the modules which appear in the resolution. This is very general. Gel'fand, Kapranov, Zelevinsky in their book dedicate chapter 2 (and 3.4) to "Cayley method" and say this about the paper: "The method goes back to the remarkable paper by Cayley [Ca4] on elimination theory, in which the foundations were laid for what is now called homological algebra." But what happened with your too shy question/suggestion to include also Galois ? By the way what does it mean "categorical quantization" in 1978 entry ?
-Never heard.
-
-_Rafael_: I am thinking how to include what you wrote above in the Cayley entry. But not right now. Perhaps you can do it better. I am thinking more about if it is right to call it a foundation of homological algebra. In this way one could say that Gauss by Gauss elimination (i think it is the first general method) founded higher dimensional linear algebra. Hmm. I would say that more is needed for a foundation than a calculation. Cayley is doing homological algebra by a general calculation and not developing a new theory. A theory have several interacting definitions and theorems and so on. But i must think more about it.
-
-Categorical quantization means the 1995 (unfortunately empty) Valentin Lychagin entry in the timelie. The idea is that quantization is a functor from the category of integrable Poisson manifolds and symplectomorphisms to the category of separable C$^*$-algebras and $*$-homomorphisms. The object function of the functor is deformation quantization and the morphism function of the functor is geometric quantization. I don't remember the reference but i think it is one of his papers [here](http://www.math.uit.no/seminar/preprints.html).
-
-Well, you did have better motivation than me to include Galois theory. If i write it, it will be one short sentence since i am writing other entries now, so i suggest you write it to show some of its categorical flavour, but not as incomplete as the Cayley entry. I mean leaving questions begging to be answered in the entry.
-=--
-
 $[2]$  in his thesis on abelian categories 1962, Bull. Soc. Math. France 
 
-Zoran: No, thesis is 1960. The reprint as a paper is 1962 about which we do have a separate nlab entry which is quoted above with the link hence no need for imprecise footnote heee; Verdier's thesis on triangulated categories has been published in a journal about 30 years after the fact.
 
 $[3]$ "Coherent sheaves on Pn and problems in linear algebra", Funktsional. Anal. I Prilozhen. 12 (3): 68&#8211;69
 
-+-- {: .query}
-Rafael: Zoran &#352;koda, Which is the other paper?
-You have to be more precise with the names.
-Joseph Bernstein? Israel Gel'fand? Gel'fand who?
-Lets stick to one year per event.
-
-Zoran: No, Beilinson's work has been published in two papers in separate years; one of the two is written as an accompanying paper to BGG paper (BGG is the abbreviation to search for, BGG resolutions etc; B is Joseph Bernstein of course, G and G are both Gelfands, father and son, Israel Moiseevich and Sergej Israelovich). The references and the work of Beilinson cited and build upon in reference cited in nlab link within above 1990 entry on Bondal-Kapranov. I think that 1980 is too late for attribution to Mebkhout's thesis, which is earlier than Kashiwara's work by 1-2 years. Voevodsky's work is largely built in mid 1990-s (with ideas of his approach starting in late 1980s). 1995 attributes the notion of categorification to Crane; Toen gave a talk that Ehresmann invented and systematically used the notion, but I am not sure if he used the WORD or only the philosophy of it, somebody should check that with French school. One of the major missing points of the list above is that seminal works of Duskin are completely not mentioned, including his pioneering works on higher groupoids and higher torsors in simplicial language; similarly contributions of say Marta Bunge, Dedecker, Getzler... But I am not enthusiastic about pinning history to something as untrue as trying to fit into single years, and would much  rather instead more work on other nlab entries. 
-
-_Toby_:  What is the purpose of the timeline?  If it\'s to know when things were done, not so much when they were published, then we should generally put entries in the earliest appropriate date; I think that this is what John would like to get out of this article.  But if we want to note the publishing date of every paper, then many ideas will be spread out over many dates.  Even if we want to know when ideas came, there may still be a range of dates from first glimmer to final working out.
-=--
-
-$4$ Cartan Seminaire writing up sheaf theory in 1948 for the first time
-
-+--{.query}
-Zoran: this is [CartanSem 1948-1949](http://www.numdam.org/numdam-bin/feuilleter?id=SHC_1948-1949__1_). I see no sheaf theory explicitly introduced. 
-
-_Rafael_: I don't see anything there, the page is missing. In this case i have a [reference](http://en.wikipedia.org/wiki/Sheaf_theory) i trusted. Where this author have his reference i have no idea.
-
-Zoran: oops one character too long, try [again](http://www.numdam.org/numdam-bin/feuilleter?id=SHC_1948-1949__1_)
-
-_Rafael_: Alas, don't forget i don't know french. When i read the entry i interpret it as it was written on a blackboard. But something as important as this should be in the proceedings. I also know that some concepts such as the Schwartzian derivative are well hidden in their first appearance. I am open to remove entries, so if you know you are right remove it.
-
-Zoran: In fact I believe you are right, that Cartan seminars had sheaves in 1948; thsi is what I recall from my earlier readings, but it is not in the writeup of the seminars as it stands; I do not know what is the reference. Maybe we should look in Serre's FAC paper where he should have quoted earlier papers on sheaf theory.
-
-Zoran: Here is the key! The 1948/9 acad year volume of Cartan seminar has 11 exposes, as on numdam. Weibel in his historical survey says that exposes 12-17 in mimeographed version had sheaf theory and that those exposes were abandoned, hence not published for real later and that Cartan again in 1950/51 a reworked version is published as exposes 14-20 (the latter are at numdam). Now timeline has 3 years as 3 contributions of Cartan 1948, 1950, 1951; at least the latter two for one academic year of the same volume of publications is not sensitive. 
-
-_Rafael_: Yes, this is something to include :) Good detective work. Here is another. Is it necessary that the variety is Noetherian in the Serre-Swan theorem? It don't say so for instance [here](http://info.fuw.edu.pl/~pmh/seminar.html)
-
-_Zoran_ In Serre's paper, says and uses noetherian. In a manuscript book on alg K-theory, Weibel quotes several related conditions, I think one detail is even there not precise, we had short nonconclusive correspondence on that. I should remember and look in my 2 years or so old letters on that. Another issue is 1964 item on sites. As there is a reference (I have a copy) M, Artin, Grothendieck topologies (mimeographed notes), Harvard University, Cambridge, Mass., 1962. than the year should be before 1962. One should compare descent chapters in FGA which are earlier; Grothendieck created descent theory to do it for qcoh sheaves in faithfully flat Grothendieck topology, so my suspicion would be even as early as 1959, but I am not sure; this is just a response without looking.
-
-_Rafael_: After much work i found two references. [Hazevinkel](http://eom.springer.de/S/s085660.htm) which gives 1963. And [Planetmath](http://planetmath.org/encyclopedia/Site.html) suggesting SGA4. Wikipedia gives SGA4 is from 1963-1964 which fits. Even if i am unsure if these are the reference i used in the timeline they all fit.
-=--
-
-
-
-#Discussion#
-
-###Concerning an update from Wikipedia###
-
-+-- {: .query}
-
-_Rafael_: I have been writing on a new version of this timeline in wikipedia and i can handle the migration to nLab now. Except maby for some formulas. But how do i handle to update most of 1500 links!?
-
-=--
-
-###Concerning the Desire for References###
-
-Rafael: John, if you need references a priority is needed for which references to include first.
-
-[[John Baez|John]]: I would really like to know who first defined (strict) 2-categories, and in precisely what book or paper!  I have a fairly large number of references already, [here](http://math.ucr.edu/home/baez/history.pdf) and in some [other expository papers](http://math.ucr.edu/home/baez/rosetta.pdf).  If I had more time I would transfer a lot of these references to the $n$Lab --- though I see on the $n$Forum that Andrew Stacey wants to improve our facilities for dealing with references, and maybe I should wait for that.   
-
-In general, people will consult this timeline if they want to know when something was done, but such people often also want to know _where_ it was done.  And, no scholar worth his salt would accept a date without any way to check whether it's correct.
-
-Rafael:
-The first reference i found was your "An introduction to n-categories" that states that strict 2-categories where first defined by C. Ehresmann in 1965 and by 1962 (page 12). I must have reasoned that since you mention two years and also speak about strict n-categories that were defined in 1965 you must mean that strict 2-categories were defined in 1962, and adopted it in the timeline.
-
-A further search found "A 2-categories companion" - Stephen Lack, where he states that C. Ehresmann defined strict 2-categories in reference 13 which is the 1965 "Categories et structures". I have changed the year in the timeline.
-
-Then i think you are missing one of the big points with the timeline: to find things (mostly explanations) that are hard to find elsewhere. This might not seem hard to experts in category theory but for the rest "nonexperts" it is. I know how much time i have spend on it. For instance first i could not find any definition of a $A_\infty$-category for a long time. Then i found 9 definitions (excluding nLab)! Only 2 of them completely agreed! I had to actually make a table with all the differences to compare them. I think i got it right.
-
-
-###Concerning the Desire for 'Milestones'###
-
-[[Urs Schreiber|Urs]]: I am very fond of the aim of this entry. I suggest, though (and might start implementing that when I find time), that we try to split, for the reader's convenience, a list of true generally accepted _milestone_ constributions that indicate the big stepts forward, from a a list that rather aims to give a somewhat complete list of all contributions of some relevance.
-
-Rafael: Why not splitting?  The table will grow larger and a split will be necessary soon anyway. I just hope everyone agrees what the milestones are.
-
-: [[John Baez|John]] We won't agree on the milestones, but we can have fun arguing about it.  I think this page here should include _lots_ of developments, with just a little text about each one, so people can find out when things happened.  Another entry, called something like "Milestones in Category Theory and Related Mathematics", could be more selective.  We should not remove information from this big list, but we can copy "milestones" to a shorter list.
-
-: When writing papers it's often nice to refer to the article or book where a concept was first developed.  So, I want to have this information in the $n$Lab eventually.  In particular, if we claim that multiple categories were invented in 1963 by Ehresmann, we should have a reference somewhere to back up this claim.  But maybe that reference should appear in the (not-yet-existent) page on multiple categories.  That will prevent this page from becoming unnecessarily long.
-
-[[David Corfield|David]]: I can see the milestone list being contentious. Anyway far more important to improve this timeline first. We could do with some experts looking it over. I'm sure most would include the effective topos concept much sooner than the quantum topos. I've transported out some of the material for a couple of lengthy entries, e.g., AST. It looks better to have entries of comparable length and with no breaks in the table, e.g., to define cosmoses.
-
-[[John Baez|John]]: I've deleted the entry on 'quantum topos', since in fact most experts are very doubtful that a correct definition has been found for this notion, and they're even uncertain such a notion deserves to exist. Let's stick to concepts that are fairly widely considered to be fruitful.
-
-:Rafael:
-I don't mind deleting it. But i am also curious what is wrong with the definition
-
-[[Urs Schreiber|Urs]]: that sounds good. Maybe I was thinking that "timeline of category theory" sounds like it shouldn't contain just every little bit. So maybe if and when we split, is there any majority for keeping this title here for the _short_ list and another title for the long list, maybe _literature list of category theory_ or the like?
-
-[[John Baez|John]]:  Right now I don't feel this timeline contains too much minor stuff.  It mostly just contains stuff that's very important to the history of categories and related math.   I might take out a few things, but mostly I'd feel the need to add things to get a reasonably full timeline.
-
-I might shorten some of the entries though: the longer ones seem to be on topics that Rafael knows more about, so their length doesn't seem proportional to their importance.  I also don't think there need to be 5 entries devoted to my first paper with Jim Dolan!
-
-Someday someone (maybe Andrew Stacey) will create an easy way for us to dump bibliographical information into the $n$Lab, and then maybe we can grow an enormous 'literature list' without doing too much work.  
-
-Rafael: I actually had the idea to collect John's first paper in a separate entry. If i don't find a way to do line breaks a separate page is needed for it. The same goes for pursuing stacks! I am very interesting to hear what you have in mind to add! I would edit more (especially clean up links and style in the timeline) but nLab is too slow for me to edit efficiently.
-
-_Toby_:  See [[Bibliography]] for the beginnings of a literature list.
-
-Jim Stasheff: Is bibtex incompatible with this wiki?
-The nice lines separating entries on screen do not print.
-It would be better (but too late?) if the person's name was aligned with the first line of the Event.
-
-_Toby_:  Yet another reason for formatting this all as a list, I think.
-
-[[Todd Trimble]]: Can I ask what organizational principles people are using to compile this list? My impression is that huge swaths are being left out (for example, last time I looked I didn't see where monads/triples were introduced, and I didn't see the 1965 Eilenberg-Moore paper). 
-
-I like the idea of a page with a shorter list of major themes in category theory, each of which could have its own timeline page, rather than some huge monolithic entry on a subject so huge and multifarious as category theory. 
-
-[[Rafael Borowiecki]]: It is me who is writing this timeline here and at wikipedia, but i like when other people improve it. I have no real principles except to only include the most important events. The wikipedia timeline have at the beginning an explanation for "related", this is a kind of organizational principle. The wikipedia timeline is much bigger (and contain nLabs version) and i plane to move it to nLab, but you won't be able to see it until four days or so. It might include what you are missing. I also have a list of things to include. Monads are included here in 1958. The 1965 Eilenberg-Moore paper i don't know what it is but i might recognize it when i see/hear about it. Please explain. As well as more that you see is missing.
-
-The size of the timeline is a difficult issue since it is a matter of taste. But lets compare advantages vs. disadvantages. I say it is easier to load and search in one page. But the real problem is to classify the entries. Wikipedia gives a try but there will be entries that are outside it or difficult to classify such as Pursuing stacks, is it category theory or topology or algebraic geometry? An advantage of the split is a classification and hence that the reader can choose which subject he wants to read. Anyway, if the split could be done i still would prefer to have the subtimelines on one page. So far at least, maby i change my mind when each of them is as long as this one here at nLab. 
-
-[[Todd Trimble]]: Thanks, Rafael. It's clear that you've put a great deal of work into this and the one over at wikipedia, and I'm sure this work has been beneficial to you personally. I'll see what I can do to help. 
-
-I wouldn't consider myself a connoisseur of timelines, but the main benefit I would hope to draw from one is a coherent sense of a particular historical development; it seems to me it would be hard for _anyone_ to attain that coherent sense from a timeline of such an intricately branched field as category theory, no matter how skillfully it was compiled. There are just way too many threads going on -- too many _dimensions_ -- to mesh well with the single dimension of time. That of course is why I thought breaking it down into major branches and subbranches would be more useful for most readers, although it may be too late for that now. 
-
-You're absolutely right -- I overlooked the 1958 entry on Godement's 'standard constructions'. The 1965 paper by Eilenberg and (J.C.) Moore is Adjoint functors and triples, Illinois J. Math. 9, 381-395. It gives the very important category of algebras construction (aka Eilenberg-Moore construction) among other things, which led to other studies on monadicity, including for example the Beck conditions and Manes' theorem (1968 or 1969) that compact Hausdorff spaces are monadic over sets. The tie-in between algebraic theories and monads was one of the major developments of the 1960's (as you point out in the 1958 entry, but those points came into fruition after 1958). 
-
-One theme I see little mention of is coherence theorems and their interaction with categorical proof theory -- starting with Lambek's groundbreaking rendition of Gentzen cut elimination in categorical terms. So far I see only the 1963 entry on Mac Lane's Rice Studies paper. (Incidentally, I have a lot of trouble believing that credit is due to Lambek and P.J. Scott for observing that 'fundamental theorem of topology' listed under 1986.) 
+$[4]$ Cartan Seminaire writing up sheaf theory in 1948 for the first time
