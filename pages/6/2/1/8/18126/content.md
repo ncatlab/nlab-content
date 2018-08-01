@@ -11779,7 +11779,7 @@ Regarding the second statement: That $U \subset X$ is open means that there exis
 ###### Example
 **([[one-point compactification]] of [[Euclidean space]] is the [[n-sphere]] )**
 
-For $n \in \mathbb{N}$ the [[n-sphere]] with its standard [[topological space|topology]] (e.g. as a [[subspace]] of the [[Euclidean space]] $\mathbb{R}^{n+1}$ with its [[metric topology]]) is [[homeomorphism|homeomorphic]] to the [[one-point compactification]] (def. \ref{OnePointExtension}) of the [[Euclidean space] $\mathbb{R}^n$
+For $n \in \mathbb{N}$ the [[n-sphere]] with its standard [[topological space|topology]] (e.g. as a [[subspace]] of the [[Euclidean space]] $\mathbb{R}^{n+1}$ with its [[metric topology]]) is [[homeomorphism|homeomorphic]] to the [[one-point compactification]] (def. \ref{OnePointExtension}) of the [[Euclidean space]] $\mathbb{R}^n$
 
 $$
   S^n \simeq (\mathbb{R}^n)^\ast
