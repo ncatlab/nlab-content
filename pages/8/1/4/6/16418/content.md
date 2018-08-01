@@ -95,7 +95,7 @@ They are closely related to [[superconformal]] symmetry (e.g. [DAuria-Ferrara-Ll
 
 ### Representation theory
 
-The [[representation theory]] ([[singleton representations]]) of the orthosymplectic group is discussed in
+The [[representation theory]] ([[singleton representation|singleton representations]]) of the orthosymplectic group is discussed in
 
 * {#NicolaiSezgin84} [[Hermann Nicolai]], [[Ergin Sezgin]], _Singleton representations of $Osp(N,4)$_,  Physics Letters B, Volume 143, Issues 4&#8211;6, 16 August 1984, Pages 389-395
 
