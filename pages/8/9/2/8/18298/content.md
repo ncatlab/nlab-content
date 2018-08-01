@@ -2480,6 +2480,5 @@ Lecture notes with an eye towards [[topological K-theory]] is in
 * {#Hatcher} [[Allen Hatcher]], chapter 1 of _Vector bundles and K-Theory_, (partly finished book) [web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html)
 
 
-
-
 [[!redirects topological vector bundles]] 
+
