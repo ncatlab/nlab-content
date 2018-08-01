@@ -338,7 +338,7 @@ are precisely the [[diffeological spaces]].
 ## Structures in the cohesive $(\infty,1)$-topos $Smooth \infty Grpd$ {#InfSheavesOnCartSp}
 
 We discuss the general abstract 
-<a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#Structures">structures in a cohesive (∞,1)-topos</a> realized in $Smooth \infty Grpd$.
+<a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Structures">structures in a cohesive (∞,1)-topos</a> realized in $Smooth \infty Grpd$.
 
 
 This section is at
