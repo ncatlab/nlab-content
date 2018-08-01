@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Graph theory
++-- {: .hide}
+[[!include graph theory - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
