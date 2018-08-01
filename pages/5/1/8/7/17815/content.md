@@ -26,6 +26,7 @@ Since super smooth sets contain [[infinitesimal spaces]], it makes good sense to
 
 For details see at _[[geometry of physics -- supergeometry]]_.
 
+
 ## Related concepts
 
 [[!include geometries of physics -- table]]
