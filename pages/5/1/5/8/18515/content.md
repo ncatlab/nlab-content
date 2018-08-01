@@ -14,6 +14,8 @@
 =--
 
 
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -27,6 +29,7 @@ Here a _[[vacuum state]]_ is supposed to be a [[quantum state]] that expresses t
 On [[Minkowski spacetime]] the _vacuum state_ for a [[free field theory]] is the standard Hadamard state (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} below). On general [[globally hyperbolic spacetimes]] there are always Hadamard states ([Radzikowski 96](#Radzikowski96), see def. \ref{HadamardDistribution} below),  and they do play the role of the vacuum state in  the construction of [[AQFT on curved spacetimes]], see at _[[locally covariant perturbative AQFT]]_. Notably the choice of such a Hadamard state fixes the _[[Feynman propagator]]_, hence the [[time-ordered product]] of [[quantum observables]] and thus the [[perturbative quantum field theory|perturbative]] [[S-matrix]] away from coinciding interaction points (the [[extension of distributions|extension of these distributions]] to coinciding interaction points is the process of [[renormalization]]).
 
 However, since on a general [[globally hyperbolic spacetime]] there is no globally well-defined concept of [[particles]], there is in general no concept of vacuum state. But under good conditions (such as existence of suitable [[timelike]] [[Killing vectors]]) one may identify Hadamard states which deserve to be thought of as vacuum states ([Brum-Fredenhagen 13](#BrumFredenhagen13)).
+
 
 Hadamard states are mathematically characterized as follows:
 
