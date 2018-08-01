@@ -609,7 +609,7 @@ The following definition and proposition provides information on what the genera
 ###### Defintion
 **([[generalized cover]])**
 
-Let $C$ be a [[site]]. A **[[local epimorphism]]** (or **[[generalized cover]]**) in $sPSh(C)$ is a morphism $f : E \to B$ of simplicial presheaves with the property that for every [[nab:representable functor|representable]] $U$ and every morphism $j(U) \to B$ there exists a [[covering]] [[sieve]] $\{U_i \to U\}$ such that for every $U_i \to U$ the composite $U_i \to U \to B$ has a lift $\sigma$ through $f$ 
+Let $C$ be a [[site]]. A **[[local epimorphism]]** (or **[[generalized cover]]**) in $sPSh(C)$ is a morphism $f : E \to B$ of simplicial presheaves with the property that for every [[representable functor|representable]] $U$ and every morphism $j(U) \to B$ there exists a [[covering]] [[sieve]] $\{U_i \to U\}$ such that for every $U_i \to U$ the composite $U_i \to U \to B$ has a lift $\sigma$ through $f$ 
 
 $$
   \array{
