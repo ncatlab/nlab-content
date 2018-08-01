@@ -61,8 +61,7 @@ of that meaning.
 
 Attempts to bring both views together in a theory of [[type refinement]]:
 
-* [[Frank Pfenning]], _Church and Curry: Combining Intrinsic
-and Extrinsic Typing_, [pdf](https://www.cs.cmu.edu/~fp/papers/andrews08.pdf)
+* [[Frank Pfenning]], _Church and Curry: Combining Intrinsic and Extrinsic Typing_, ([pdf](https://www.cs.cmu.edu/~fp/papers/andrews08.pdf))
 * [[Paul-André Melliès]], [[Noam Zeilberger]], _Functors are Type Refinement Systems_, ([pdf](http://noamz.org/papers/funts.pdf))
 
 [[!redirects intrinsic type]]
