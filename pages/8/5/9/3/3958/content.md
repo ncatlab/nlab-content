@@ -18,6 +18,8 @@
 =--
 
 
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -26,6 +28,7 @@
 
 
 A [[differentiable manifold]] is a [[topological space]] which is _locally_ [[homeomorphism|homeomorphic]] to a [[Euclidean space]] (a [[topological manifold]]) and such that the [[gluing functions]] which relate these Euclidean [[local charts]] to each other are [[differentiable functions]], for a fixed degree of differentiability. If one considers arbitrary differentiablity, then one speaks of _smooth manifolds_. For a general discussion see at _[[manifold]]_.
+
 
 Differential and smooth manifolds are the basis for much of [[differential geometry]]. They are the analogs in differential geometry of what [[schemes]] are in [[algebraic geometry]].
 
