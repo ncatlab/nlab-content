@@ -22,7 +22,16 @@ In [[type theory]] the kind of [[type]] corresponding in [[categorical semantics
 
 ### From higher inductive types
 
-Quotient type may be constructed as [[higher inductive types]]. See [here](higher+inductive+type#QuotientsOfSets)
+Quotient type may be constructed as [[higher inductive types]]. See [here](higher+inductive+type#QuotientsOfSets).
+
+#### History and effectiveness
+
+This notion of quotient type predates the general notion of higher inductive type, however; it appears already in [Martin Hofmann's thesis](#HofmannThesis).
+
+Hofmann works in a theory that includes a [[type of propositions]] $Prop$ that may be assumed to satisfy [[proof irrelevance]] --- for instance, it might be the universe of [[h-propositions]] --- and considers the *effectiveness* of quotient types only for quotients of Prop-valued [[equivalence relations]].  This corresponds to the correct categorical notion of effectiveness (see [[Barr-exact category]]) and (as Hofmann noted) is provable in the presence of [[propositional extensionality]] (which in turn follows from the [[univalence axiom]]).
+
+However, before the introduction of homotopy type theory and the realization of the importance of homotopy levels such as [[h-propositions]], some authors considered also quotients of arbitrary $Type$-valued "equivalence relations" (i.e. [[setoids]]).  [Maietti](#Maietti99) shows, by adapting [Diaconescu's argument](/nlab/show/excluded+middle#RelationToTheAxiomOfChoice), that "effectiveness" for quotients of this sort of "equivalence relation" implies the law of [[excluded middle]].
+
 
 ### From univalence
  {#FromUnivalence}
@@ -75,8 +84,14 @@ fibration" should be defined using right homot equivs.
 
 ## References
 
+### As a higher inductive type
+
+* {#HofmannThesis} [[Martin Hofmann]], *Extensional concepts in intensional type theory*, Ph.D. Thesis, University of Edinburgh, 1995 (see page 111).
+
+* {#Maietti99} [[Maria Emilia Maietti]], *About effective quotients in constructive type theory*, in "Types for proofs and programs", 1999
+
 ### From univalence
- {#FromUnivalence}
+ {#FromUnivalenceReferences}
 
 The argument that adding [[univalence]] (plus universe resizing) to [[Martin-Löf type theory]] implies the existence of quotient types is attributed to Voevodsky in places like here: [pdf, slides 41 & 61](http://benedikt-ahrens.de/talks/IRIT_slides.pdf).
   
