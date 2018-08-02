@@ -151,15 +151,13 @@ Modal type theory with an eye towards [[homotopy type theory]] is discussed in
 
 * [[UF-IAS-2012]], _[Modal type theory](http://uf-ias-2012.wikispaces.com/Modal+type+theory)_
 
-Formalization of modalities in [[homotopy type theory]] is discussed 
-
+Formalization of modalities in [[homotopy type theory]] ([[modal homotopy type theory]]) is discussed in
 
 * {#Shulman} [[Mike Shulman]], _Higher modalities_, talk at [[UF-IAS-2012]], October 2012  ([pdf](http://uf-ias-2012.wikispaces.com/file/view/modalitt.pdf))
 
 * {#RSS} [[Egbert Rijke]], [[Mike Shulman]], [[Bas Spitters]], _Modalities in homotopy type theory_ [arXiv](https://arxiv.org/abs/1706.07526)
 
 * [[Mike Shulman]], _[http://homotopytypetheory.org/2015/07/05/modules-for-modalities/](http://homotopytypetheory.org/2015/07/05/modules-for-modalities/)_  (2015)
-
 
 * [[Egbert Rijke]], [[Bas Spitters]], around def. 1.11 of _Sets in homotopy type theory_ ([arXiv:1305.3835](http://arxiv.org/abs/1305.3835))
 
@@ -169,7 +167,10 @@ and specifically in [[cohesive homotopy type theory]] in
 
 * [[Urs Schreiber]], [[Michael Shulman]], _[[schreiber:Quantum gauge field theory in Cohesive homotopy type theory]]_, in [[Ross Duncan]], [[Prakash Panangaden]] (eds.) _Proceedings 9th Workshop on Quantum Physics and Logic_, Brussels, Belgium, 10-12 October 2012 ([arXiv:1408.0054](http://arxiv.org/abs/1408.0054))
 
-* [[Michael Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_ ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584))
+* [[Michael Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, Mathematical Structures in Computer Science 28.6 (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584))
+
+* {#Wellen18} [[Felix Wellen]], _[[schreiber:thesis Wellen|Cartan Geometry in Modal Homotopy Type Theory]]_ ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966), [thesis pdf](http://www.math.kit.edu/iag3/~wellen/media/diss.pdf))
+
 
 Monadic modal type theory with [[idempotent monads]]/monadic reflection is discussed in
 
