@@ -1,5 +1,6 @@
 Finished.
 
+
 $
   \underset{ 
      \color{blue} \text{Sullivan de Rham adjunction}
