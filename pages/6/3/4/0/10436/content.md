@@ -210,8 +210,7 @@ the statement appeared also as
 
 and an announcement was given in
 
-* {#Lumsdaine13} [[Peter LeFanu Lumsdaine]], _The Blakers-Massey theorem in homotopy type theory_ talk at [Conference on Type Theory, Homotopy Theory and Univalent Foundations](http://www.crm.cat/en/Activities/Pages/ActivityFoldersAndPages/Curs%202013-2014/CHomotopy/chomotopy.aspx) (2013) ([talk abstracts pdf]( http://www.crm.cat/en/Activities/Documents/AbstractsTypeTheory.pdf
-)).
+* {#Lumsdaine13} [[Peter LeFanu Lumsdaine]], _The Blakers-Massey theorem in homotopy type theory_ talk at [Conference on Type Theory, Homotopy Theory and Univalent Foundations](http://www.crm.cat/en/Activities/Pages/ActivityFoldersAndPages/Curs%202013-2014/CHomotopy/chomotopy.aspx) (2013) ([talk abstracts pdf](http://www.crm.cat/en/Activities/Documents/AbstractsTypeTheory.pdf)).
 
 A writeup finally appeared as
 
