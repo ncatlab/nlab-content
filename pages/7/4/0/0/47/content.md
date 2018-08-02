@@ -33,7 +33,7 @@ Instiki can run multiple Wikis ("Webs" in the Instiki Parlance). Urs, John and D
 
 These two features provide the possibility for single-author areas, where one person (or persons: whoever has the requisite password) is in authorial control.
 
-Here is [[baez:HomePage|John's area]].
+Here is [[johnbaez:HomePage|John's area]].
 
 #### Importing CSS ####
 
