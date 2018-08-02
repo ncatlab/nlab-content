@@ -48,7 +48,7 @@ This means that for [[Green hyperbolic differential equation|Green hyperbolic]] 
 the [[Poisson bracket]], and hence the infinitesimal [[quantization]] of the theory, is all encoded in the
 [[causal propagator]]. Therefore here we analyze the [[causal propagator]], as well as its variant [[propagators]], in detail.
 
-The main tool for these computations is _[[Fourier analysis]]_ (reviewed [below](#FourierAnalysis)) by which [[field histories]], [[observables]] and [[propagators]] on [[Minkowski spacetime]] are decomposed as [[superpositions]] of [[plane waves]] of various [[frequencies]], [[wave lengths]] and [[wave vector]]-[[direction of a vector|direction]]. Using this, all [[propagators]] are exhibited as those [[superpositions]]
+The main tool for these computations is _[[Fourier transform|Fourier analysis]]_ (reviewed [below](#FourierAnalysis)) by which [[field histories]], [[observables]] and [[propagators]] on [[Minkowski spacetime]] are decomposed as [[superpositions]] of [[plane waves]] of various [[frequencies]], [[wave lengths]] and [[wave vector]]-[[direction of a vector|direction]]. Using this, all [[propagators]] are exhibited as those [[superpositions]]
 of [[plane waves]] which satisfy the [[dispersion relation]] of the given [[equation of motion]], relating [[plane wave]] [[frequency]]
 to [[wave length]].
 
@@ -96,14 +96,14 @@ $\,$
 
 $\,$
 
-**[[Fourier analysis]] and [[plane wave]] modes**
+**[[Fourier transform|Fourier analysis]] and [[plane wave]] modes**
  {#FourierAnalysis}
 
 
 By definition, the [[equations of motion]] of [[free field theories]] (def. \ref{FreeFieldTheory}) are [[linear partial differential equations]]
 and hence lend themselves to _[[harmonic analysis]]_, where all [[field histories]] are decomposed into
 [[superpositions]] of [[plane waves]] via _[[Fourier transform]]_. Here we briefly survey the relevant definitions
-and facts of [[Fourier analysis]].
+and facts of [[Fourier transform|Fourier analysis]].
 
 In [[formal duality]] to the [[harmonic analysis]] of the [[field histories]] themselves,
 also the linear [[observables]] (def. \ref{LinearObservables}) on the [[space of field histories]], hence
@@ -830,7 +830,7 @@ $\,$
 
 A _[[distribution]]_ (def. \ref{LinearObservablesAreTheCompactlySupportedDistributions}) or _[[generalized function]]_ (prop. \ref{DistributionsAreGeneralizedFunctions}) is like a [[smooth function]] which may have "[[singularities]]", namely points at which it values or that of its [[derivative of a distribution|derivatives]] "become infinite". Conversely, [[smooth functions]] are the [[non-singular distributions]] (prop. \ref{DistributionsAreGeneralizedFunctions}). The collection of points around which a distribution is singular (i.e. not [[non-singular distribution|non-singular]]) is called its _[[singular support]]_ (def. \ref{SingularSupportOfADistribution} below).
 
-The [[Fourier transform of distributions]] (def. \ref{FourierTransformOnTemperedDistributions}) decomposes a [[generalized function]] into the [[plane wave]] modes that it is made of (def. \ref{PlaneWaves}). The [[Paley-Wiener-Schwartz theorem]] (prop. \ref{DecayPropertyOfFourierTransformOfCompactlySupportedFunctions} below) says that the singular nature of a [[compactly supported distribution]] may be read off from this [[Fourier mode]] decomposition:  Singularities correspond to large contributions by Fourier modes of high [[frequency]] and small [[wavelength]], hence to large "[[ultraviolet divergence|ultraviolet]]" (UV) contributions (remark \ref{UltravioletDivergencesFromPaleyWiener} below). Therefore the [[singular support]] of a distribution is the set of points around which the Fourier transform does not sufficiently decay "in the UV".
+The [[Fourier transform of distributions]] (def. \ref{FourierTransformOnTemperedDistributions}) decomposes a [[generalized function]] into the [[plane wave]] modes that it is made of (def. \ref{PlaneWaves}). The [[Paley-Wiener-Schwartz theorem]] (prop. \ref{DecayPropertyOfFourierTransformOfCompactlySupportedFunctions} below) says that the singular nature of a [[compactly supported distribution]] may be read off from this [[Fourier transform|Fourier mode]] decomposition:  Singularities correspond to large contributions by Fourier modes of high [[frequency]] and small [[wavelength]], hence to large "[[ultraviolet divergence|ultraviolet]]" (UV) contributions (remark \ref{UltravioletDivergencesFromPaleyWiener} below). Therefore the [[singular support]] of a distribution is the set of points around which the Fourier transform does not sufficiently decay "in the UV".
 
 But since the [[Fourier transform]] is a function of the full [[wave vector]] of the [[plane wave]] modes (def. \ref{PlaneWaves}),  not just of the [[frequency]]/[[wavelength]], but also of the [[direction of a vector|direction]] of the wave vector, this means that it contains _[[direction of a vector|directional]] information_ about the singularities: A distribution may have UV-singularities at some point and in some [[wave vector]] [[direction of a vector|direction]], but maybe not in other [[direction of a vector|directions]].
 
@@ -1338,7 +1338,7 @@ $$
 
 for all $x \in K$ and all cotangent vectors $k$ to $x$.
 
-A [[Fourier integral]] operator $Q$ is of _[[symbol class]]_ $L^m = L^m_{1,0}$ if it is of the form
+A [[Fourier transform|Fourier integral]] operator $Q$ is of _[[symbol class]]_ $L^m = L^m_{1,0}$ if it is of the form
 
    $$
      Q f (x)
@@ -1380,7 +1380,7 @@ $\,$
 **[[Cauchy principal value]]**
  {#CauchyPrincipalValues}
 
-An important application of the [[Fourier analysis]] of [[distributions]] is the class of distributions known
+An important application of the [[Fourier transform|Fourier analysis]] of [[distributions]] is the class of distributions known
 broadly as _[[Cauchy principal values]]_. Below we will find that these control the detailed nature of the
 various [[propagators]] of [[free field theories]], notably the [[Feynman propagator]] is manifestly a [[Cauchy principal value]] (prop. \ref{FeynmanPropagatorAsACauchyPrincipalvalue} and def. \ref{FeynmanPropagatorForDiracOperatorOnMinkowskiSpacetime} below),
 but also the [[singular support]] properties of the [[causal propagator]] and the [[Wightman propagator]] are governed by
@@ -1789,7 +1789,7 @@ where we used that the [[derivative]] of the [[arctan]] function is $\frac{d}{ d
 
 +-- {: .num_example #FourierIntegralFormulaForStepFunction}
 ###### Example
-**([[Fourier integral]] formula for [[step function]])**
+**([[Fourier transform|Fourier integral]] formula for [[step function]])**
 
 
 The [[Heaviside distribution]] $\Theta \in \mathcal{D}'(\mathbb{R})$ is equivalently the following [[Cauchy principal value]] (def. \ref{CauchyPrincipalValueAsDistributionOnRealLine}):
