@@ -50,6 +50,10 @@ Review includes
 
 * [[Bhargav Bhatt]], _Lecture notes for a class on perfectoid spaces_, ([pdf](http://www-personal.umich.edu/~bhattb/teaching/mat679w17/lectures.pdf))
 
-* [[Peter Scholze]], _Perfectoid spaces: a survey_, [arXiv](http://arxiv.org/abs/1303.5948).
+* [[Peter Scholze]], _Perfectoid spaces: a survey_ ([arXiv:1303.5948](http://arxiv.org/abs/1303.5948))
+
+See also 
+
+* Wikipedia, _[Perfectoid space](https://en.wikipedia.org/wiki/Perfectoid_space)_
 
 [[!redirects perfectoid spaces]]
