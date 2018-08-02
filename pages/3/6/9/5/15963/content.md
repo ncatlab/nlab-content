@@ -1,5 +1,3 @@
-
-
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_Fourman)
 
 ## related $n$Lab entries
@@ -11,3 +9,5 @@
 * [[smooth structure on a topos]]
 
 category: people
+
+[[!redirects Mike Fourman]]
