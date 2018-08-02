@@ -76,11 +76,11 @@ Textbook accounts are in
 
 For more see at _[Cartan connection -- References](Cartan+connection#References)_.
 
-Discussion in [[modal type theory|modal]] [[homotopy type theory]] is in
+Discussion in [[modal homotopy type theory]] is in
 
 * {#Wellen17} [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, 2017
 
-* {#Wellen18} [[Felix Wellen]], _[[schreiber:Cartan Geometry in Modal Homotopy Type Theory]]_ ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966))
+* {#Wellen18} [[Felix Wellen]], _Cartan Geometry in Modal Homotopy Type Theory_ ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966))
 
 
 See also
