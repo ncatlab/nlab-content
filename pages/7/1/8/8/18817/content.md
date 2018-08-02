@@ -923,7 +923,7 @@ than their definition might superficially suggest:
 Actually all three statements in prop. \ref{AlgebraicFactsOfDifferentialGeometry}
 hold not just for [[Cartesian spaces]], but generally for [[smooth manifolds]] (def./prop. \ref{SmoothManifoldInsideDiffeologicalSpaces} below; if only we generalize in the second statement from [[free modules]] to [[projective modules]].
 However for our development here it is useful to first focus on just [[Cartesian spaces]] and then bootstrap
-the theory of [[smooth  manifolds]] and much more from that, which we do [below](#FieldBundles).
+the theory of [[smooth manifolds]] and much more from that, which we do [below](#FieldBundles).
 
 
 $\,$
