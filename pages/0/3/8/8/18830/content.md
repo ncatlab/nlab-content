@@ -19,6 +19,7 @@ $\,$
 
 In the [previous chapter](#Quantization) we discussed _[[quantization]]_ of linear [[phase spaces]], which turns the [[algebra of observables]] into a [[noncommutative algebra]] of [[quantum observables]]. Here we apply this to the [[covariant phase spaces]] of [[gauge fixing|gauge fixed]] [[free field theory|free]] [[Lagrangian field theories]] (as discussed in the chapter _[Gauge fixing](#GaugeFixing)_), obtaining genuine [[quantum field theory]] for [[free fields]].
 
+
 For this purpose we first need to find a sub-algebra of all observables which is large enough to contain all [[local observables]] (such as the [[phi^n interaction]], example \ref{InWickAlgebraphinInteraction} below, and the [[electron-photon interaction]], example \ref{InWickAlgebraElectronPhotonInteraction} below) but small enough for the [[star product]] [[deformation quantization]] to meet [[Hörmander's criterion]] for absence of [[UV-divergences]] (remark \ref{UltravioletDivergencesFromPaleyWiener}). This does exist (example \ref{PointwiseProductsOfFieldObservablesAdiabaticallySwitchedIsMicrocausal} below): It is called the algebra of _[[microcausal polynomial observables]]_ (def. \ref{MicrocausalObservable} below).
 
 [[!include perturbative observables -- table]]
