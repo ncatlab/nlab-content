@@ -4,7 +4,8 @@
 ###Context###
 #### Homotopy theory
 +--{: .hide}
-[[!include homotopy - contents]]=--
+[[!include homotopy - contents]]
+=--
 =--
 =--
 
@@ -14,7 +15,7 @@
 
 ## Idea
 
-Simplicial sets generalize the idea of [[simplicial complex]]es: a _simplicial set_ is like a combinatorial space built up out of gluing abstract [[simplex|simplices]] to each other. Equivalently, it is an object equipped with a rule for how to consistently map the objects of the [[simplex category]] into it.
+Simplicial sets generalize the idea of [[simplicial complexes]]: a _simplicial set_ is like a combinatorial space built up out of gluing abstract [[simplex|simplices]] to each other. Equivalently, it is an object equipped with a rule for how to consistently map the objects of the [[simplex category]] into it.
 
 More concretely, a simplicial set $S$ is a collection of [[sets]] $S_n$ for $n \in \mathbb{N}$, so that elements in $S_n$ are to be thought of as $n$-[[simplex|simplices]], equipped with a rule that says:
 
@@ -22,6 +23,7 @@ More concretely, a simplicial set $S$ is a collection of [[sets]] $S_n$ for $n \
 * which $(n+1)$-simplices are [[thin element|thin]] in that they are really just $n$-simplices regarded as degenerate $(n+1)$-simplices.
 
 One of the main uses of simplicial sets is as combinatorial _models_ for  the (weak) [[homotopy type]] of [[topological spaces]]. They can also be taken as models for [[∞-groupoids]]. This is encoded in the [[model structure on simplicial sets]]. For more reasons why simplicial sets see MathOverflow [here](http://mathoverflow.net/questions/58497/is-there-a-high-concept-explanation-for-why-simplicial-leads-to-homotopy-theor).
+
 
 ## Definition
  {#Definition}
