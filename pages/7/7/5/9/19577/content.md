@@ -69,7 +69,11 @@ $$
 
 ## Related concepts
 
+* [[universal central extension]], [[maximal central extension]]
+
 * [[higher central extension]]
+
+* [[universal higher central extension]]
 
 ## References
 
