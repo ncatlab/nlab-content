@@ -2,6 +2,7 @@
  {#ReducedPhaseSpace}
 
 
+
 In this chapter we discuss these topics:
 
 * Global gauge reduction for strictly [[invariant]] functions ([[action functionals]]):
