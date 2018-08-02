@@ -75,7 +75,7 @@ Note that $(-)^+ : PSh(C) \to SepPSh(C)$ is not left adjoint to the inclusion $\
 
 The plus construction can be described in the [[internal language]] of the presheaf topos $PSh(C)$. For a presheaf $A$, seen as a set from the internal point of view, the separated presheaf $A^+$ is given by the internal expression
 $$ A^+ = \{ K \subseteq A \,|\, j(K\,\text{ is a singleton}) \}/{\sim}, $$
-where $\sim$ is the equivalence relation given by $K \sim L$ if and only if $j(K = L)$ and $j$ is the [[Lawvere?Tierney topology]] describing the subtopos $Sh(C) \hookrightarrow PSh(C)$.
+where $\sim$ is the equivalence relation given by $K \sim L$ if and only if $j(K = L)$ and $j$ is the [[Lawvere-Tierney topology]] describing the subtopos $Sh(C) \hookrightarrow PSh(C)$.
 
 With this internal description, the verification of the properties of the plus construction becomes an exercise with sets and subsets (instead of colimits).
 
