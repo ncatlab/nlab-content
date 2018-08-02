@@ -18,3 +18,5 @@ see also his
 * [[linear logic]], [[linear type theory]]
 
 category: people
+
+[[!redirects Rick Blute]]
