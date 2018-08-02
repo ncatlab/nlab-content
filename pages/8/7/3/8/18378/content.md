@@ -14,20 +14,15 @@
 
 ## Idea {#sec:org4b65bd2}
 
-In the same way that in [[nonstandard
-analysis]] one passes to [[elementary
-extension|elementary extensions]] of the field
-$\mathbb{R}$ which realizes more [[type (in model
-theory)|types]] (in particular the types of infinite and
+In the same way that in [[nonstandard analysis]] one passes to [[elementary extension|elementary extensions]] of the field
+$\mathbb{R}$ which realizes more [[type (in model theory)|types]] (in particular the types of infinite and
 infinitesimal numbers), one can extend the standard model
-$(\mathbb{N}, 0, 1, +, \times, S)$ of first-order [[Peano
-arithmetic]] to proper elementary extensions that have
+$(\mathbb{N}, 0, 1, +, \times, S)$ of first-order [[Peano arithmetic]] to proper elementary extensions that have
 infinite natural numbers.
 
 These "points at infinity" that live in the nonstandard part tend to
 embody the uniform behavior of the numbers from the standard part. (For
-example, by [[compactness
-theorem|compactness]], the twin prime conjecture is true
+example, by [[compactness theorem|compactness]], the twin prime conjecture is true
 if and only if in some nonstandard model of arithmetic there exists just
 a single pair of nonstandard twin primes, and similarly Dirichlet's
 theorem on arithmetic progressions can be reformulated as saying that
@@ -43,8 +38,7 @@ model* $(\mathbb{N}, 0, 1, +, \times, S)$ of first-order
 
 ## Examples {#sec:orgc18facb}
 
--   In the same way the [[hyperreal
-    numbers]] are obtained by taking a countable
+-   In the same way the [[hyperreal numbers]] are obtained by taking a countable
     ultrapower $\mathbb{R}^{\mathcal{U}}$ of $\mathbb{R}$, we can obtain
     the **hypernatural numbers** by taking a countable ultrapower
     $\mathbb{N}^{\mathcal{U}}$.
@@ -147,20 +141,16 @@ Again by the [[Los ultraproduct theorem]], the arithmetic operations in $^*\math
 
 ## Countable nonstandard models of arithmetic {#sec:org8d7c98e}
 
-Peano arithmetic is the quintessential [[stability in
-model theory|unstable theory]], and so there are plenty of
-countable nonstandard models of [[Peano
-arithmetic]] ($2^{\aleph_0}$-many.) One can
-see this directly by [[type (in model
-theory)|omitting]] the types of nonstandard numbers whose
+Peano arithmetic is the quintessential [[stability in model theory|unstable theory]], and so there are plenty of
+countable nonstandard models of [[Peano arithmetic]] ($2^{\aleph_0}$-many.) One can
+see this directly by [[type (in model theory)|omitting]] the types of nonstandard numbers whose
 only finite prime divisors is an arbitrary set of finite primes.
 
 By the discussion above, the nonstandard part is linearly ordered and
 can be partitioned into copies of $\mathbb{Z}$, and in fact these copies
 of $\mathbb{Z}$ are densely ordered without endpoints.
 
-Since the [[DLO|theory of dense linear orders without
-endpoints]] has the unique countable model
+Since the [[DLO|theory of dense linear orders without endpoints]] has the unique countable model
 $(\mathbb{Q}, &lt;)$, this means that for any countable nonstandard
 model of arithmetic, the order type of the nonstandard part is
 $\mathbb{Q} \mathbb{Z}$, i.e. $\mathbb{Q}$, but every time there's a
