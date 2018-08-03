@@ -54,7 +54,7 @@ The concept of super Riemann surfaces originates with the following articles:
 * [[Yuri Manin]], _Critical Dimensions of String Theories and the Dualizing Sheaf on the Moduli Space of (Super) Curves_, Funct.Anal.Appl., 20:244-245, 
 1987
 
-* S. B. Giddings and P. Nelson, _The Geometry of super Riemann surfaces_, Commun. Math. Phys., 116, (1988), 607
+* [[Steve Giddings]], P. Nelson, _The Geometry of super Riemann surfaces_, Commun. Math. Phys., 116, (1988), 607
 
 
 Further discussion of the [[moduli space]] of super Riemann surfaces includes the following:
