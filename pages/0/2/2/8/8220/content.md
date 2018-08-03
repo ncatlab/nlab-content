@@ -51,6 +51,10 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[length 
 
 * [[quantum cosmology]], [[quantum gravity]]
 
+* [[Kaluza-Klein compactification]]
+
+* [[Randall-Sundrum model]]
+
 * [[brane gas cosmology]]
 
 * [intersecting D-brane model cosmology](intersecting+D-brane+model#Cosmology)
