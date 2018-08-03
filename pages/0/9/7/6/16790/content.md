@@ -21,9 +21,9 @@ The [[spacetime]] geometry of a [[black hole]] or [[black brane]] close to the [
 
 * [[anti-de Sitter spacetime]]
 
-## References
+* [[asymptotic boundary]]
 
-* Wikipedia, _[Near-horizon metric](https://en.wikipedia.org/wiki/Near-horizon_metric)_
+## References
 
 * Hari K. Kunduri, James Lucietti, _Classification of Near-Horizon Geometries of Extremal Black Holes_ ([web](http://relativity.livingreviews.org/Articles/lrr-2013-8/title.html))
 
@@ -55,6 +55,11 @@ A decent account is in
 The observation that the resulting [[isometry group]] is the bosonic body of one of the [[orthosymplectic super groups]] is due to
 
 * P. Claus, [[Renata Kallosh]], J. Kumar, [[Paul Townsend]], [[Antoine Van Proeyen]], _Conformal Theory of M2, D3, M5 and D1+D5 Branes_, JHEP 9806 (1998) 004 ([arXiv:hep-th/9801206](https://arxiv.org/abs/hep-th/9801206))
+
+See also
+
+* Wikipedia, _[Near-horizon metric](https://en.wikipedia.org/wiki/Near-horizon_metric)_
+
 
 [[!redirects near-horizon geometries]]
 
