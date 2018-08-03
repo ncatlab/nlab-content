@@ -27,6 +27,8 @@ More in detail, in the [[first order formulation of gravity]] the [[field (physi
 
 * [[AdS-CFT correspondence]]
 
+* [[Randall-Sundrum model]]
+
 * [[Chern-Simons gravity]]
 
 [[!include local and global geometry - table]]
