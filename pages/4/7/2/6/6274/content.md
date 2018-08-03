@@ -19,7 +19,7 @@ A _conformal structure_ on a [[manifold]] is the structure of a [[Riemannian met
 
 In terms of [[Cartan geometry]] conformal structure is expressed by [[conformal connections]], conformal geometry is a special case of  [[parabolic geometry]] and hence of [[Cartan geometry]].
 
-In the context of [[quantum field theory]] conformal structure underlies the formulation of [[conformal field theory]]. Due to the coincidence of the [[conformal group]] of [[Minkowski spacetime]] of [[dimension]] $d$ with the [[anti de Sitter group]] of [[anti de Sitter spacetime]] in dimension $d+1$ there is a close relation between certain [[conformal field theories]] and certain theories of [[gravity]]. This is the content of the _[[AdS-CFT correspondence]]_. This works most accurately in the context of [[supergeometry]], hence for [[superconformal groups]] acting on the asymptotic boundary of [[super anti de Sitter spacetimes]].
+In the context of [[quantum field theory]] conformal structure underlies the formulation of [[conformal field theory]]. Due to the coincidence of the [[conformal group]] of [[Minkowski spacetime]] of [[dimension]] $d$ with the [[anti de Sitter group]] of [[anti de Sitter spacetime]] in dimension $d+1$ there is a close relation between certain [[conformal field theories]] and certain theories of [[gravity]]. This is the content of the _[[AdS-CFT correspondence]]_. This works most accurately in the context of [[supergeometry]], hence for [[superconformal groups]] acting on the [[asymptotic boundary]] of [[super anti de Sitter spacetimes]].
 
 ## Related concepts
 
