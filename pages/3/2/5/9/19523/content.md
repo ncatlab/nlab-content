@@ -23,7 +23,7 @@
 
 What is called _inhomogeneous cosmology_ is the study of [[cosmology]] via cosmological solutions to [[Einstein's equations]], _without_ assuming or constraining these solutions to be spatially homogeneous (in the technical sense).
 
-This is in contrast to the [[standard model of cosmology]], based on [[FRW model]]-type solutions to [[Einstein's equations]], where [[spacetime]] _is_ assumed to be spatially homogeneous. 
+This is in contrast to the [[standard model of cosmology]], based on [[FRW model]]-type solutions to [[Einstein's equations]], where [[spacetime]] _is_ assumed to be spatially homogeneous (an assumption also known as the _cosmological principle_). 
 
 Of course the [[observable universe]] is clearly not _exactly_ homogeneous (due to initial [[CMB]] fluctuation and ensuing [[structure formation]]), but the question is whether on cosmic [[scales]] the deviation from homogeneity is small enough that it may be neglected, to first approximation, for the purpose of modelling cosmological evolution, or whether it exerts relevant "backreaction" on the global evolution of spacetime.
 
@@ -33,7 +33,7 @@ It has been shown that the effect of such backreaction is small or invisible if 
 
 The [[standard model of cosmology]] assumes that such inhomogeneities may be neglected to zeroth order, and studies [[structure formation]] as a perturbation about a spatially homogeneous [[FRW model]] [[background field|background]] [[spacetime]].
 
-Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15](standard+model+of+cosmology#BCKRW15)) related to _[[dark energy]]_ (a [[cosmological constant]], and possibly related issues such as [[cosmic inflation]]), it has been suggested that these may be but an artifact of the overly idealistic approximation of cosmic homogeneity, and that a more accurate inhomogeneous cosmology would not need to assume any [[dark energy]] (e.g. [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Räsänen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Buchert 11](#Buchert11), [Buchert-Räsänen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Moffat 16](#Moffat16)).
+Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15](standard+model+of+cosmology#BCKRW15)) related to _[[dark energy]]_ (a [[cosmological constant]], and possibly related issues such as [[cosmic inflation]]), it has been suggested that these may be but an artifact of the overly idealistic approximation of cosmic homogeneity, and that a more accurate inhomogeneous cosmology would not need to assume any [[dark energy]]/[[cosmological constant]]  (e.g. [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Räsänen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Buchert 11](#Buchert11), [Buchert-Räsänen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Smoller-Temple-Vogler 14](#SmollerTempleVogler14), [Moffat 16](#Moffat16)).
 
 {#Qualitative} A qualitative discussion of how inhomogeneity may cause accelerated cosmic expansion is given in [Räsänen 10, section 3: "Understanding acceleration"](#Rasanen10):
 
@@ -52,7 +52,10 @@ rises, so the average expansion rate can rise ([Räsänen 10, p. 8](#Rasanen10))
 
 > $[...]$ So there is no ambiguity:  accelerated average expansion due to inhomogeneities is possible. The question is whether the distribution of structures in the universe is such that this mechanism is realised ([Räsänen 10, p. 10](#Rasanen10))
 
+{#AbstractSmollerTempleVogler14} An analytic proof of this qualitative picture is claimed in [Smoller-Temple-Vogler 14](#SmollerTempleVogler14):
 
+> Our analysis is based on the discovery of a closed ansatz for perturbations of the SM during the p$ = 0$ epoch of the Big Bang which triggers instabilities that create unexpectedly large regions of accelerated uniform expansion  within  Einstein’s  original  theory  without  the  cosmological constant.  We prove that these accelerated regions introduce
+precisely the same range of corrections to redshift vs luminosity as are produced by the cosmological constant in the theory of Dark Energy. 
 
 Survey of the field of inhomogeneous cosmology and of attitudes in the community towards open issues is in [Belejko-Korzyński 16](#BelejkoKorzynski16).
 
@@ -87,9 +90,15 @@ A seminal theoretical argument that it _is_ consistent to neglect cosmic inhomog
 
 > This, in principle, ends the debate about whether backreaction has been excluded as a dark energy candidate: the Green and Wald formalism does not apply to the main body of backreaction research; backreaction remains a viable dark energy candidate.
 
-For more see [Coley 18, section 3.5](#Coley18):
+Accordingly, the review [Coley 18, section 3.5](#Coley18) of [[mathematical physics|mathematical]] [[general relativity]] regards the issue as open:
 
 > An important open question in cosmology is whether averaging of inhomogeneities can lead to significant backreaction effects on very large scales. (p. 28)
+
+
+Indeed, [Smoller-Temple-Vogler 14](#SmollerTempleVogler14) claim an analytic solution which does exhibit inhomogeneity effects mimicking dark energy (see [above](#AbstractSmollerTempleVogler14)).  Also relativistic numerical simulation, albeit in their infancy, seem to exhibit noticeable backreaction (see [above](#NumericalSimulation)).
+
+
+
 
 ## Lemaitre-Tolman-Bondi models
  {#LemaitreTolmanBondi}
@@ -185,6 +194,7 @@ Dark Energy?_, 2009 ([[NotariInhomogeneousCosmology.pdf:file]])
 
 * {#BuchertRasanen11} [[Thomas Buchert]], Syksy Räsänen, _Backreaction in late-time cosmology_, Annual Review of Nuclear and Particle Science 62 (2012) 57-79 ([arXiv:1112.5335](https://arxiv.org/abs/1112.5335))
 
+* {#SmollerTempleVogler14} Joel Smoller, Blake Temple, Zeke Vogler, _An Instability of the Standard Model Creates the Anomalous Acceleration Without Dark Energy_, Proceedings of the Royal Society A, 2017 ([arXiv:1412.4001](https://arxiv.org/abs/1412.4001), [10.1098/rspa.2016.0887](http://rspa.royalsocietypublishing.org/content/473/2207/20160887), detailed talk slides: [[Temple16.pdf:file]], talk [recording I](https://www.youtube.com/watch?v=fV8KPj8vmGw), [recording II](http://cdsweb.cern.ch/record/1371553))
 
 * {#BelejkoKorzynski16} Krzysztof Bolejko, Mikołaj Korzyński, _Inhomogeneous cosmology and backreaction: Current status and future prospects_, Int. J. Mod. Phys. D 26, 1730011 (2017) ([arXiv:1612.08222](https://arxiv.org/abs/1612.08222))
 
