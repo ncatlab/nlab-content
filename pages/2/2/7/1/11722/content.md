@@ -13,8 +13,40 @@ The [[Pavel Urysohn|Urysohn]] [[metrization theorem]] states that a [[second-cou
 
 The proof can be divided into three parts. Recall that "second-countable" means having a countable base. All spaces considered are assumed to be $T_1$ (points are closed), so that "regular" means regular Hausdorff. 
 
-* A regular space with a countable basis is normal. 
+1. A [[regular space]] with a countable base is [[normal space|normal]]. 
 
-* (See [[Urysohn lemma]]) A normal space $X$ is completely regular, i.e., given a point $x \in X$ and an open set $U \subseteq X$ containing $x$, there exists a continuous function $f: X \to [0, 1]$ such that $f(x) = 1$ and $f(x) = 0$ for $x \notin U$. 
+1. A normal space $X$ is a [[completely regular space]], i.e., given a point $x \in X$ and an open set $U \subseteq X$ containing $x$, there exists a continuous function $f: X \to [0, 1]$ such that $f(x) = 1$ and $f(x) = 0$ for $x \notin U$. 
 
-* A completely regular space $X$ with a countable basis can be embedded in $[0, 1]^\mathbb{N}$. Since $[0, 1]^\mathbb{N}$ is metrizable, so is $X$. 
+1. A completely regular space $X$ with a countable base can be embedded in the [[Hilbert cube]] $[0, 1]^\mathbb{N}$. Since $[0, 1]^\mathbb{N}$ is metrizable, so is $X$. 
+
+The second assertion being proved at [[Urysohn lemma]], we prove the first and third assertions. 
+
++-- {: .num_prop} 
+###### Proposition 
+A regular space $X$ with a countable base is normal. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Let $A, B$ be disjoint [[closed sets]] of $X$. The collection of [[open sets]] $U$ such that $U \cap A$ is inhabited and $\widebar{U} \cap B = \emptyset$ is, by regularity, an open covering of $A$. By second-countability, we may index it as $U_1, U_2, \ldots$. Similarly, there is a countable open covering $V_1, V_2, \ldots$ of $B$ such that $\widebar{V_k} \cap A = \emptyset$. 
+
+Now form open sets $Y_n \coloneqq U_n \cap \bigcap_{k=1}^n \neg \widebar{V_k}$ and $Z_n = V_n \cap \bigcap_{k=1}^n \neg \widebar{U_k}$. It is clear that the $Y_n$ cover $A$ and the $Z_n$ cover $B$. Moreover, $Y_m \cap Z_n = \emptyset$ for all $m, n$. For if $m \geq n$ say, then 
+
+$$Y_m \cap Z_n \subseteq Y_m \cap V_n \subseteq Y_m \cap \widebar{V_n} \subseteq U_m \cap \neg \widebar{V_n} \cap \widebar{V_n} = \emptyset.$$ 
+
+It follows that $\bigcup_m Y_m$ and $\bigcup_n Z_n$ are disjoint open sets containing $A$ and $B$, respectively. This completes the proof. 
+=-- 
+
++-- {: .num_prop} 
+###### Proposition 
+A completely regular space $X$ with countable base can be embedded in $[0, 1]^\mathbb{N}$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+$X$ has a countable base $\mathcal{B}$. The set $S = \{(U, V) \in \mathcal{B} \times \mathcal{B}: \widebar{U} \cap \widebar{V} = \emptyset\}$ is countable. For each $s = (U, V) \in S$ there is by the Urysohn lemma a continuous map $g_s: X \to [0, 1]$ such that $g_s$ is identically $0$ on $\widebar{U}$ and identically $1$ on $\widebar{V}$. The map 
+
+$$g: X \to [0,1]^S: x \mapsto (s \mapsto g_s(x))$$ 
+
+is a continuous injection, since if $x \neq y$, we can find neighborhoods $U$ of $x$ and $V$ of $y$ such that $\widebar{U} \cap \widebar{V} = \emptyset$, so that $g_s(x) = 0$ differs from $g_s(y) = 1$ for $s = (U, V)$, whence $g(x) \neq g(y)$. The subspace topology on $X$ induced from the monomorphism $g$ is contained in the given topology of $X$, simply by continuity of $g$. On the other hand, if $W$ is an open neighborhood of $x$ in $X$, there exists a smaller open neighborhood $U \in \mathcal{B}$ and $s \in S$ such that $g_s(x) = 1$ and $g_s$ is identically $0$ outside $U$. Provided that $g_s(x) - g_s(y) \lt 1$, we see $g_s(y) \neq 0$, so $y \in U$. In other words, letting $\pi_s: [0, 1]^S \to [0, 1]$ be the evident projection, we have $g_s = \pi_s \circ g$, so that the inverse image under $g$ of the subbase element $\pi_s^{-1}((0, 1])$ is $g_s^{-1}((0, 1]) \subseteq U \subseteq W$. This shows that the subspace topology induced by $g$ contains the topology of $X$. It follows that $g: X \to [0, 1]^S \cong [0, 1]^\mathbb{N}$ is an embedding into the [[Hilbert cube]]. 
+=-- 
