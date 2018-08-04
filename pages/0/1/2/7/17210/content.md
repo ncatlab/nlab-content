@@ -57,7 +57,7 @@ $$
     (a_n)_{n \in \mathbb{N}} 
   \mapsto  
     (a_n - f_n(a_{n+1}))_{n \in \mathbb{N}}.
-
+$$
 =--
 
 +-- {: .num_remark #LimitAsKernelAnalogousToLim1}
