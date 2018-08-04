@@ -127,7 +127,9 @@ and if $d(C_1, x_2) \leq d(C_2, x_1)$ say, then $d(x_2, x_1) = d(x_1, x_2) \lt d
 
 Every [[regular space|regular]] [[second countable space]] is normal. 
 
-=--
+=-- 
+
+See [[Urysohn metrization theorem]] for details. 
 
 +-- {: .num_prop}
 ###### Proposition
@@ -190,6 +192,12 @@ Indeed, let $\infty \in \widebar{\omega_1}$ be the unique point in the [[complem
 
 This example also shows that general subspaces of normal spaces need not be normal, since $\omega_1 \times \widebar{\omega_1}$ is an open subspace of the compact Hausdorff space $\widebar{\omega_1} \times \widebar{\omega_1}$, which is itself normal. 
 
++-- {: .num_example} 
+###### Counter-Example 
+An uncountable product of infinite discrete spaces $X$ is not normal. More generally, a product of $T_1$ spaces $X_i$ uncountably many of which are not [[limit point compact|limit point compact space]] is not normal. 
+
+Indeed, by a simple application of Remark \ref{retracts} below and the fact that closed subspaces of normal Hausdorff spaces are normal Hausdorff, it suffices to see that the archetypal example $\mathbb{N}^{\omega_1}$ is not normal. For a readable and not overly long account of this result, see [Dan Ma's blog](https://dantopology.wordpress.com/2009/10/13/the-uncountable-product-of-the-countable-discrete-space-is-not-normal/). 
+=-- 
 
 
 +-- {: .num_example}
@@ -317,7 +325,12 @@ In fact the Tietze extension theorem can serve as a basis of a [[category theory
 ### The category of normal spaces
  {#CategoryOfNormalSpaces}
 
-Although normal spaces are "[[nice topological spaces]]" (being for example [[Tychonoff spaces]], by [[Urysohn's lemma]]), the [[category]] of normal topological spaces with [[continuous maps]] between them seems not to be very well-behaved. (Cf. the rule of thumb expressed in [[dichotomy between nice objects and nice categories]].) It admits [[equalizers]] of pairs of maps $f, g: X \rightrightarrows Y$ (computed as in $Top$ or $Haus$; one uses the easy fact that closed subspaces of normal spaces are normal). However it curiously does not have [[products]] -- or at least it is not closed under products in $Top$, as shown by Counter-Example \ref{Morse}. It follows that this category is not a [[reflective subcategory]] of $Top$, as $Haus$ is. 
+Although normal (Hausdorff) spaces are "[[nice topological spaces]]" (being for example [[Tychonoff spaces]], by [[Urysohn's lemma]]), the [[category]] of normal topological spaces with [[continuous maps]] between them seems not to be very well-behaved. (Cf. the rule of thumb expressed in [[dichotomy between nice objects and nice categories]].) It admits [[equalizers]] of pairs of maps $f, g: X \rightrightarrows Y$ (computed as in $Top$ or $Haus$; one uses the easy fact that closed subspaces of normal spaces are normal). However it curiously does not have [[products]] -- or at least it is not closed under products in $Top$, as shown by Counter-Example \ref{Morse}. It follows that this category is not a [[reflective subcategory]] of $Top$, as $Haus$ is. 
+
++-- {: .num_remark #retracts} 
+###### Remark 
+A small saving grace is that the category of normal spaces is [[Cauchy complete category|Cauchy complete]], in fact is closed under retracts in $Top$. This is the case whether or not the Hausdorff condition is included. (If $r: Y \to X$ retracts $i: X \to Y$, then $r$ is a quotient map and $i$ is a subspace inclusion. If $A, B$ are closed and disjoint in $X$, then $r^{-1}(A), r^{-1}(B)$ are closed and disjoint in $Y$. Separate them by disjoint open sets $U \supseteq r^{-1}(A), V \supseteq r^{-1}(B)$ in $Y$; then $i^{-1}(U), i^{-1}(V)$ are disjoint open sets separating $i^{-1} r^{-1}(A) = A, i^{-1} r^{-1}(B) = B$ in $X$.) 
+=--
 
 More at the page _[[colimits of normal spaces]]_. 
 
