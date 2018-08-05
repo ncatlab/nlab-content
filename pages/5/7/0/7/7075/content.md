@@ -177,10 +177,15 @@ The Hopf fibrations over other [[normed division algebras]] also figure in the m
 * [[quaternionic Hopf fibration]]
 
 ## References
+  {#References}
 
 Reviews include
 
 * _[Third homotopy group of the sphere and Hopf fibration](https://chiasme.wordpress.com/2014/01/04/third-homotopy-group-of-the-sphere-and-hopf-fibration/)_
+
+For more discussion in [[homotopy type theory]] see also at 
+
+* [HoTT Wiki](https://ncatlab.org/homotopytypetheory/show/HomePage), _[[homotopytypetheory:Hopf fibration]]_
 
 [[!redirects Hopf fibrations]]
 
