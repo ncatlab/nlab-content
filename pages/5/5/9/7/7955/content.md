@@ -6,7 +6,7 @@ George Boole (2 November 1815 &#8211; 8 December 1864) was a mathematician and l
 
 * [St Andrews History archive article](http://www-history.mcs.st-andrews.ac.uk/Biographies/Boole.html)
 
-* [UCC page](http://www.ucc.ie/academic/undersci/pages/sci_georgeboole.htm)
+* [Boole page, UCC](https://georgeboole200.ucc.ie/boole/)
 
 * [Boole archive (UCC)](http://booleweb.ucc.ie/index.php?pageID=264)
 
