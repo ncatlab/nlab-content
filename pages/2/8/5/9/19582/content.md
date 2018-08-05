@@ -62,6 +62,10 @@ However, the second conclusion here is evaded by a change of spacetime signature
 
 * [[Itzhak Bars]], _S-Theory_, Phys.Rev. D55 (1997) 2373-2381 ([arXiv:hep-th/9607112](https://arxiv.org/abs/hep-th/9607112))
 
+* Hitoshi Nishino, _Supergravity in 10 + 2 Dimensions as Consistent Background for Superstring_, ([arXiv:hep-th/9703214](https://arxiv.org/abs/hep-th/9703214))
+
+* Hitoshi Nishino, _N=2 Chiral Supergravity in (10 + 2)-Dimensions As Consistent Background for Super (2 + 2)-Brane_, ([arXiv:hep-th/9706148](https://arxiv.org/abs/hep-th/9706148))
+
 
 * Stephen Hewson, _On supergravity in $(10,2)$_ ([arXiv:hep-th/9908209](https://arxiv.org/abs/hep-th/9908209))
 
