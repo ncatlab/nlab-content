@@ -31,6 +31,7 @@ $$\id_A \subseteq R$$
 
   * [[symmetric relation]]
 
+* [[first law of thought]]
 
 [[!redirects reflexive relation]]
 [[!redirects reflexive relations]]
