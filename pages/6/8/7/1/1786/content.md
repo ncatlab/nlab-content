@@ -63,6 +63,10 @@ Given an [[A-∞ space]] in the [[(∞,1)-category]] [[∞Grpd]]/[[Top]], its im
 
 Further discussion of this is also at _[loop space -- Homotopy associative structure](loop+space#AInfinityStructure)_
 
+## H-Spaces in Homotopy Type theory
+
+See: [[homotopytypetheory:H-space]]
+
 ## Related concepts
 
 * [[topological monoid]]
