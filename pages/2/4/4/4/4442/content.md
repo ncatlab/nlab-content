@@ -192,6 +192,8 @@ One proposal for a formalization of a toy version in the context of [[AQFT]] is 
 
 * [[Randall-Sundrum model]]
 
+* [[Sachdev-Ye-Kitaev model]]
+
 * [[p-adic AdS-CFT]]
 
 [[!include table of branes]]
@@ -343,6 +345,13 @@ Discussion of [[event horizons]] of [[black holes]] in terms of AdS/CFT (the "[[
 
 * Kyriakos Papadodimas, Suvrat Raju, _An Infalling Observer in AdS/CFT_ ([arXiv:1211.6767](http://arxiv.org/abs/1211.6767))
 
+To [[black hole]] interiors:
+
+* [[Juan Maldacena]], _Toy models for black holes II_, talk at PiTP 2018 _From QBits to spacetime_ ([recording](https://video.ias.edu/PiTP/2018/0726-JuanMaldacena))
+
+> The [[SYK model]] gives us a glimpse into the interior of an [[extremal black hole]]...That's the feature of SYK that I find most interesting...It is a feature this model has, that I think no other model has
+
+
 #### To particle physics
 
 * [[Joseph Polchinski]], [[Matthew Strassler]], _Hard Scattering and Gauge/String Duality_, Phys.Rev.Lett.88:031601,2002, ([arXiv:hep-th/0109174](http://lanl.arxiv.org/abs/hep-th/0109174))
@@ -354,7 +363,11 @@ Application of [[AdS-CFT in condensed matter physics]] goes back to
 
 * [[Giuseppe Policastro]], D.T. Son, A.O. Starinets, _Shear viscosity of strongly coupled N=4 supersymmetric Yang-Mills plasma_, Phys. Rev. Lett.87:081601, 2001 ([arXiv:hep-th/0104066](http://arxiv.org/abs/hep-th/0104066))
 
-Reviews include the following:
+A comprehensive textbook account is in
+
+* {#HartnollLucasSachdev16} Sean A. Hartnoll, Andrew Lucas, [[Subir Sachdev]], _Holographic quantum matter_, MIT Press 2018 ([arXiv:1612.07324](https://arxiv.org/abs/1612.07324), [publisher](https://mitpress.ublish.com/book/holographic-quantum-matter))
+
+Further reviews include the following:
 
 * A S T Pires, _Ads/CFT correspondence in condensed matter_ ([arXiv:1006.5838](http://arxiv.org/abs/1006.5838))
 
