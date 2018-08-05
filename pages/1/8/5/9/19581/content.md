@@ -36,7 +36,7 @@ Being metabelian is [[hereditary property|hereditary]] and [[cohereditary proper
 
 ## Examples
 
-Every group of [[cardinality|order]] less than $24$ is meatabelian; the smallest non-metabelian group is the [[symmetric group]] $S_4$.
+Every group of [[cardinality|order]] less than $24$ is metabelian; the smallest non-metabelian group is the [[symmetric group]] $S_4$.
 
 
 ## References
