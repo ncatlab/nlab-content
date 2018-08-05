@@ -53,6 +53,8 @@ However, the second conclusion here is evaded by a change of spacetime signature
 
 ## References
 
+* [[Leonardo Castellani]], [[Pietro Fré]], F. Giani, K. Pilch, [[Peter van Nieuwenhuizen]], _Beyond $d=11$ Supergravity and Cartan Integrable Systems_, Phys.Rev. D26 (1982) 1481 ([spire:11999](http://inspirehep.net/record/11999))
+
 
 * [[Miles Blencowe]], [[Michael Duff]], _Supermembranes and the signature of spacetime_, Nucl.Phys. B310 (1988) 387-404, ([inspire](http://inspirehep.net/record/262142/))
 
@@ -61,6 +63,7 @@ However, the second conclusion here is evaded by a change of spacetime signature
 * [[Itzhak Bars]], _S-Theory_, Phys.Rev. D55 (1997) 2373-2381 ([arXiv:hep-th/9607112](https://arxiv.org/abs/hep-th/9607112))
 
 
+* Stephen Hewson, _On supergravity in $(10,2)$_ ([arXiv:hep-th/9908209](https://arxiv.org/abs/hep-th/9908209))
 
 * [[Leonardo Castellani]], _A locally supersymmetric SO(10,2) invariant action for D=12 supergravity_, ([arXiv:1705.00638](https://arxiv.org/abs/1705.00638))
 
