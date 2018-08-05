@@ -15,7 +15,7 @@ The [[Green-Schwarz action functional|Green-Schwarz type]] super $p$-[[brane]] [
 | 4 | | [[super 1-brane in 4d|*]]  | [[super 2-brane in 4d|*]]   | |   |  |   |   |   |   |   
 | 3 | | [[super 1-brane in 3d|*]]  |  | |   |  |   |   |   |   |
 
-(The first colums follow the [[exceptional spinors table]].)
+(The first columns follow the [[exceptional spinors table]].)
 
 The corresponding exceptional [[super L-∞ algebra]] [[∞-Lie algebra cohomology|cocycles]] (schematically, without prefactors):
 
