@@ -179,6 +179,8 @@ See also at _[[flux compactification]]_ and _[[landscape of string theory vacua]
 
 * [[F'-theory]]
 
+* [[12-dimensional supergravity]]
+
 [[!include F-theory compactifications -- table]]
 
 
