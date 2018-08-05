@@ -284,11 +284,17 @@ For the moment see the remarks/references on supergravity at _[[exceptional geom
 
 ## Examples
 
-For supergravity Lagrangians "of ordinary type" it turns out that  
+The usual [[folklore]] is that for supergravity Lagrangians "of ordinary type" it turns out that  
 
 * $N = 1$ [[11-dimensional supergravity]] 
 
-is the highest dimension possible. All lower dimensional theories in this class appear as [[KK-compactifications]] of this theory or are [[deformations]] of such:
+is the highest dimension possible, but see also at 
+
+* [[12-dimensional supergravity]]
+
+for some qualification.
+
+All lower dimensional theories in this class appear as [[KK-compactifications]] of this theory or are [[deformations]] of such:
 
 * [[10-dimensional supergravity]] 
 
