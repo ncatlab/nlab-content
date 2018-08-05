@@ -314,6 +314,10 @@ In dimension $(1+0)$ supergravity coupled to [[sigma-model]] fields is the [[spi
 
 In dimension $(1+1)$ supergravity coupled to [[sigma-model]] fields is the [[spinning string]]/[[NSR superstring]].
 
+In non-Lorenzian signature it is also possible to consider
+
+* [[12-dimensional supergravity]] 
+
 ## Phenomenology
 
 Discussion of evidence for supergravity from [[experiment]]/[[phenomenology]] includes the following:
@@ -519,6 +523,8 @@ Discussion of implications of supergravity for [[phenomenology]]/[[cosmology]] i
 
 [[!redirects supergravity]]
 [[!redirects supergravities]]
+[[!redirects Supergravity]]
+
 
 
 [[!redirects super-gravity]]
