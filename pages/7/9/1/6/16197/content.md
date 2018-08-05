@@ -166,6 +166,8 @@ and is further developed in the following articles:
 
 * Andrea Addazi, [[Sergei Ketov]], _Energy conditions in Starobinsky supergravity_ ([arXiv:1701.02450](https://arxiv.org/abs/1701.02450))
 
+* Hiroyuki Abe, Yermek Aldabergenov, Shuntaro Aoki, [[Sergei Ketov]], _Massive vector multiplet with Dirac-Born-Infeld and new Fayet-Iliopoulos terms in supergravity_ ([arXiv:1808.00669](https://arxiv.org/abs/1808.00669))
+
 ### Embedding into superstring theory
  {#ReferencesEmbeddingIntoStringTheory}
 
