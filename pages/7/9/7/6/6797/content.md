@@ -88,7 +88,7 @@ Expression in terms of [[AKSZ sigma-models]] is discussed in
 
 [[Chern-Simons theory]] for higher spin fields is discussed in 
 
-* M P Blencowe, _A consistent interacting massless higher-spin field theory in $D=2+1$_ Classical and quantum gravity, volume 6 no 4 (1998)
+* [[Miles Blencowe]], _A consistent interacting massless higher-spin field theory in $D=2+1$_ Classical and quantum gravity, volume 6 no 4 (1998)
 
 * E. S. Fradkin,  V. Ya. Linetsky, _a Superconformal Theory of Massless Higher Spin Fields in D=2+1_ ([web](http://adsabs.harvard.edu/abs/1989MPLA....4..731F))
 
