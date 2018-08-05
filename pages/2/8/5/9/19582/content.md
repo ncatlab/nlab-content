@@ -30,7 +30,7 @@
 
 ## Idea
 
-There is a sensible [[theory (physics)|theory]] of [[supergravity]] in a total of 12 [[spacetime]] [[dimensions]]. Even though this requires an exotic non-[[Lorentzian signature]] of $(10,2)$ (hence with a "2-dimensional [[time]]") it has been argued that this is a better starting point for obtaining low-dimensional [[supergravity]] theory by [[KK-compactification]], since it yields some lower-dimensional theories that are missed when starting with [[11-dimensional supergravity]].
+There is a sensible [[theory (physics)|theory]] of [[supergravity]] in a total of 12 [[spacetime]] [[dimensions]]. Even though this requires an exotic non-[[Lorentzian signature]] of $(10,2)$ (hence with a "2-dimensional [[time]]") it has been argued that this is a better starting point for obtaining low-dimensional [[supergravity]] theory by [[KK-compactification]], since it yields some lower-dimensional theories that are missed when starting with [[11-dimensional supergravity]], notably [[type IIB supergravity]] in 10dimensions (e.g. [Nishino 97b](#Nishino97b)).
 
 It is an oft-repeated [[folklore]] that the highest number of [[spacetime]] [[dimensions]] for [[supergravity]] to make sense is 11, realized by [[11-dimensional supergravity]]. However, there are some assumptions that go into this conclusion. First of all, the argument goes that after [[KK-compactification]] to 4-dimensions there must not appear [[supermultiplets]] with [[mass]]-less fields of [[spin]] $\gt 2$, since another [[folklore]] argument states that [[quantum field theory]] in $3+1$ dimensions with fields of spin larger than 2 is inconsistent. 
 
@@ -47,29 +47,50 @@ This, in turn, requires, by the rules of [[KK-compactification]], that
 However, the second conclusion here is evaded by a change of spacetime signature: The [[irreducible representation|irreducible]] [[real spin representation]] of $Spin(10,2)$ still happens to be of dimension 32 and still [[branching rule|branches]] as $\mathbf{32} \mapsto 8 \cdot \mathbf{4}$.
 
 
+## Properties
+
+### The $2+1$-brane in $10+2$ dimensions
+ {#The21Brane}
+
+There is supposed to be a consistent fundamental [[super p-brane]] on $10+2$-dimensional supergravity backgrounds, whose [[double dimensional reduction]] yields the [[M2-brane]] in [[11-dimensional supergravity]] and further the [[superstrings]] not just of [[type IIA supergravity]] but also (?) of [[type IIB supergravity]]. The [[worldvolume]] of this [[p-brane]] has 4 spacetime dimensions with signature $(2,2)$. Therefore some authors refer to this as a "2+2"-brane, even though this does not mesh well with the naming convention of $p$-branes in Lorentzian signature. Since Lorentzian $p$-branes have $(p+1)$-dimensional worldvolume, the systematic naming here would be "2+1"-brane.
+
+See ([Blencowe-Duff 88, section 7](#BlencoweDuff88), [Hewson-Perry 96](#HewsonPerry96), [Nishino 97b](#Nishino97b))
+
 ## Related concepts
 
 * [[F-theory]]
 
 ## References
 
+### General
+
 * [[Leonardo Castellani]], [[Pietro Fré]], F. Giani, K. Pilch, [[Peter van Nieuwenhuizen]], _Beyond $d=11$ Supergravity and Cartan Integrable Systems_, Phys.Rev. D26 (1982) 1481 ([spire:11999](http://inspirehep.net/record/11999))
-
-
-* [[Miles Blencowe]], [[Michael Duff]], _Supermembranes and the signature of spacetime_, Nucl.Phys. B310 (1988) 387-404, ([inspire](http://inspirehep.net/record/262142/))
 
 * [[Itzhak Bars]], _Supersymmetry, p-brane duality and hidden space-time dimensions_, Phys. Rev. D54, 5203 (1996) ([arXiv: hep-th/9604139](https://arxiv.org/abs/hep-th/9604139)). 
 
 * [[Itzhak Bars]], _S-Theory_, Phys.Rev. D55 (1997) 2373-2381 ([arXiv:hep-th/9607112](https://arxiv.org/abs/hep-th/9607112))
 
-* Hitoshi Nishino, _Supergravity in 10 + 2 Dimensions as Consistent Background for Superstring_, ([arXiv:hep-th/9703214](https://arxiv.org/abs/hep-th/9703214))
+* {#Nishino97} [[Hitoshi Nishino]], _Supergravity in 10 + 2 Dimensions as Consistent Background for Superstring_, ([arXiv:hep-th/9703214](https://arxiv.org/abs/hep-th/9703214))
 
-* Hitoshi Nishino, _N=2 Chiral Supergravity in (10 + 2)-Dimensions As Consistent Background for Super (2 + 2)-Brane_, ([arXiv:hep-th/9706148](https://arxiv.org/abs/hep-th/9706148))
+* {#Nishino97b} [[Hitoshi Nishino]], _N=2 Chiral Supergravity in (10 + 2)-Dimensions As Consistent Background for Super (2 + 2)-Brane_, Phys. Lett. B437 (1998) 303-314 ([arXiv:hep-th/9706148](https://arxiv.org/abs/hep-th/9706148))
+
+* {#Nishino98} [[Hitoshi Nishino]], _Supergravity Theories in $D \geq 12$ Coupled to Super p-Branes_, Nucl.Phys. B542 (1999) 217-261 ([arXiv:hep-th/9807199](https://arxiv.org/abs/hep-th/9807199))
 
 
 * Stephen Hewson, _On supergravity in $(10,2)$_ ([arXiv:hep-th/9908209](https://arxiv.org/abs/hep-th/9908209))
 
+* Tatsuya Ueno, _BPS States in 10+2 Dimensions_, JHEP 0012:006, 2000 ([arXiv:hep-th/9909007](https://arxiv.org/abs/hep-th/9909007))
+
 * [[Leonardo Castellani]], _A locally supersymmetric SO(10,2) invariant action for D=12 supergravity_, ([arXiv:1705.00638](https://arxiv.org/abs/1705.00638))
 
+### On the $2+1$-brane in $10+2$ dimensions
+
+* {#BlencoweDuff88} [[Miles Blencowe]], [[Mike Duff]], _Supermembranes and the Signature of Space-time_, Nucl. Phys. B310 (1988) 387-404 ([spire:262142](inspirehep.net/record/262142), <a href="https://doi.org/10.1016/0550-3213(88)90155-1">10.1016/0550-3213(88)90155-1</a>, [pdf](http://inspirehep.net/record/262142/files/cer-000099708.pdf))
+
+* {#HewsonPerry96} S. F. Hewson, M. J. Perry, _The twelve dimensional super $(2+2)$-brane_, Nucl.Phys. B492 (1997) 249-277 ([arXiv:hep-th/9612008](https://arxiv.org/abs/hep-th/9612008))
+
+* [Nishino 97b](#Nishino97b)
+
 [[!redirects 12d supergravity]]
+
 
