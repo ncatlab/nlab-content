@@ -45,7 +45,7 @@
 <div markdown="1">[Edit this sidebar](/nlab/edit/enriched+category+theory+contents)</div>
 
 
-
+[[!redirects enriched category theory - contents]]
 
 
 
