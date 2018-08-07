@@ -1,4 +1,16 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -6,7 +18,19 @@
 
 ## Idea
 
-[[arithmetic|Arithmetic]] with [[cardinals]]. A kind of [[transfinite arithmetic]].
+Cardinal arithmetic is an [[arithmetic]] with [[cardinals]], which generalizes the ordinary [[arithmetic]] of [[natural numbers]] to non-[[finite set|finite numbers]].
+
+The idea is that on [[finite sets]], whose [[cardinalities]] are [[natural numbers]], the usual operations of [[arithmetic]] -- [[addition]], [[multiplication]] and [[exponentiation]] -- are represented on [[finite sets]] by basic operations of [[set theory]], namely forming [[disjoint union]] of sets, forming [[Cartesian product]] of sets and forming [[function sets]] of sets. 
+
+| $\phantom{A}$[[natural numbers]]$\phantom{A}$ | $\phantom{A}$[[finite sets]]$\phantom{A}$ |
+|---------------------|-----------------|
+| $\phantom{A}$[[addition]]$\phantom{A}$ | $\phantom{A}$[[disjoint union]]$\phantom{A}$ | 
+| $\phantom{A}$[[multiplication]]$\phantom{A}$ | $\phantom{A}$[[Cartesian product]]$\phantom{A}$ |
+| $\phantom{A}$[[exponentiation]]$\phantom{A}$ | $\phantom{A}$[[function sets]]$\phantom{A}$ | 
+
+(Here passing from the left to the right column is an example of _[[vertical categorification|categorification]]_, while passing from right to left is an example _[[decategorification]]_.)
+
+But the operations on sets on the right directly generalize from [[finite sets]] to general sets, hence from sets whose [[cardinality]] is a [[natural number]] to [[infinite cardinals]]. Therefore cardinal arithmetic is also called a _[[transfinite arithmetic]]_.
 
 ### Definition
 
@@ -72,6 +96,17 @@ The __[[successor]]__ of a well-ordered cardinal $\kappa$ is the smallest well-o
 
 ## References
 
-Lecture notes include
+Traditional lecture notes include
+
+* Alexandru Baltag, _Axiomatix set  theory lecture 8: Cardinal arithmetic_ ([pdf](http://www.vub.ac.be/CLWF/SS/Sets8.pdf))
 
 * _Cardinal arithmetic_ ([pdf](https://www.math.ksu.edu/~nagy/real-an/ap-b-card.pdf))
+
+See also 
+
+* Planetmath, _[cardinal arithmetic](http://planetmath.org/cardinalarithmetic)_
+
+The point of view of [[categorification]] is amplified in 
+
+* [[Emily Riehl]], _Categorifying cardinal arithmetic_ ([pdf](http://www.math.jhu.edu/~eriehl/arithmetic.pdf))
+
