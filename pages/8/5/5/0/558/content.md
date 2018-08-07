@@ -137,7 +137,7 @@ This induces an [[equivalence of (∞,1)-categories]] of the corresponding [[pre
 
 ### For algebraic Kan complexes {#ForAlgebraicKanComplexes}
 
-An [[algebraic Kan complex]] is an [[algebraic definition of higher categories|algebraic definition of higher groupoids]] obtained by taking the ordinary definition of [[Kan complex]] and equipping these with _choices_ of [[horn]]-fillers. These choice encode specified composition operations, specified [[associator]]s for these, specified _pentagonators_ and so on.
+An [[algebraic Kan complex]] is an [[algebraic definition of higher categories|algebraic definition of higher groupoids]] obtained by taking the ordinary definition of [[Kan complex]] and equipping these with _choices_ of [[horn]]-fillers. These choices encode specified composition operations, specified [[associator]]s for these, specified _pentagonators_ and so on.
 
 Algebraic Kan complexes constitute a genuine algebraic model in that they are precisely the [[algebras over a monad]] on [[sSet]].
 
