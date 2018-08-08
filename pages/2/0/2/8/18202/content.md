@@ -16,7 +16,7 @@
 
 ## Idea
 
-The _free category_ on a "set of arrows", hence on a [[directed graph]], is the [[category]] whose [[morphisms]] are the [[tuples]] of composable arrows, hence the morphisms [[free construction|freely generated]] from these arrows. These morphisms may also be thought of as the "paths" that one may trace out in the directed graph by traversing in each step along along an arrow, and therefore free categories are also called _[[path categories]]_.
+The _free category_ on a "set of arrows", hence on a [[directed graph]], is the [[category]] whose [[morphisms]] are the [[tuples]] of composable arrows, hence the morphisms [[free construction|freely generated]] from these arrows. These morphisms may also be thought of as the "paths" that one may trace out in the directed graph by traversing in each step along an arrow, and therefore free categories are also called _[[path categories]]_.
 
 More formally, there is a [[forgetful functor]] from the [[1-category]] of [[categories]] to that of [[directed graphs]], and the free category construction is the [[left adjoint]] to this functor.
 
