@@ -5,3 +5,4 @@
 category: people
 
 [[!redirects Dan Grayson]]
+[[!redirects Daniel R. Grayson]]
