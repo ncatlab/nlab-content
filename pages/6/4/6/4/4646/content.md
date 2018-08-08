@@ -131,7 +131,7 @@ $$
 where the first term is the standard [[kinetic action]]. If $\nabla$ is a (nontrivial) connection on a trivial bundle, then, as described [below](#Of1Form) it is encoded by a [[differential form]] $A \in \Omega^1(X)$ -- called the _vector potential_  in physics -- and we have
 
 $$
-  tra_\nabla(\gamma) = \exp(i \int_{0,1]} \gamma^* A)
+  tra_\nabla(\gamma) = \exp(i \int_[0,1]} \gamma^* A)
   \,.
 $$
 
@@ -261,6 +261,5 @@ For more see the references at [[connection on a bundle]].
 
 A discussion of parallel transport in the [[tangent bundle]] in terms of [[synthetic differential geometry]] (motivated by a discussion of [[gravity]]) is in 
 
-* [[Gonzalo Reyes]], _General Relativity: Affine connections, parallel
-transport and sprays_ ([pdf](https://marieetgonzalo.files.wordpress.com/2009/01/affineconnections.pdf))
+* [[Gonzalo Reyes]], _General Relativity: Affine connections, parallel transport and sprays_ ([pdf](https://marieetgonzalo.files.wordpress.com/2009/01/affineconnections.pdf))
 
