@@ -5,7 +5,7 @@
 
 ## Idea
 
-A _strict morphism_ is a [[morphism]] for which the notion of [[image]] and [[coimage]] coincide.
+A _strict morphism_ is a [[morphism]] for which the notion of [[regular image]] and [[regular coimage]] coincide.
 
 
 Compare with [[strict epimorphism]].
@@ -16,7 +16,7 @@ Compare with [[strict epimorphism]].
 
 Let $C$ be a category with finite [[limits]] and [[colimits]]. Let $f : c \to d$ be a [[morphism]] in $C$.
 
-Recall that the [[image]] of $f$ is the [[limit]] 
+Recall that the [[regular image]] of $f$ is the [[limit]] 
 
 $$
   Im f \simeq lim( d \rightrightarrows d \sqcup_c d )
@@ -25,7 +25,7 @@ $$
 
 i.e. the [[equalizer]] of $d \rightrightarrows d \sqcup_c d$,
 
-while the [[coimage]] is the [[colimit]]
+while the [[regular coimage]] is the [[colimit]]
 
 $$
   Coim f \simeq colim( c \times_d c \rightrightarrows c)
