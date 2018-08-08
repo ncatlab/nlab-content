@@ -72,7 +72,7 @@ One speaks of this process of categorification using weak internalization of dia
 
 In the sense of "weakly internalizing in a higher categorical context" we have the following examples of categorification:
 
-* the categorification of [[sheaf]] is [[stack]], 2-stack, 3, stack, ... [[∞-stack]].
+* the categorification of [[sheaf]] is [[stack]], 2-stack, 3-stack, ... [[∞-stack]].
 
 * accordingly, the categorification of ([[sheaf]]-)[[topos]] is ([[stack]]-)2-topos, ... [[∞-stack]] [[(∞,1)-topos]]
 
