@@ -1,3 +1,4 @@
+
 <div style="float:right;margin:0 20px 10px 20px;"><img  border="1" height="225" width="225" src="https://ncatlab.org/nlab/files/DavidRoberts2014.jpg" alt="David Roberts speaking at Herriot-Watt, June 2014" title="Speaking at Herriot-Watt, June 2014"/></div>
 
 I am currently a Research Associate (that is, a postdoc) at the [Institute for Geometry and its Applications](http://www.iga.adelaide.edu.au/) in the [School of Mathematical Sciences](http://maths.adelaide.edu.au/) at the University of Adelaide.
@@ -8,11 +9,13 @@ I was a Research Associate (i.e. a postdoc) at the University of Adelaide from O
 
 You may also find me on: [MathSciNet](https://www.ams.org/mathscinet/search/author.html?mrauthid=788905)|[Google Scholar](https://scholar.google.com.au/citations?user=KGianq8AAAAJ&hl=en)|[MathOverflow](https://mathoverflow.net/users/4177/david-roberts)|[arXiv](https://arxiv.org/a/roberts_d_1.html)|[ORCiD](http://orcid.org/0000-0002-3478-0522)|[Publons](https://publons.com/a/430214/)|[theHigherGeometer](https://thehighergeometer.wordpress.com/)
 
-If you need it, here is my email:  droberts.[fifth and largest-known [[Fermat prime]] ]@gmail.[etc]
+If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat prime]])@gmail.[etc]
 
 ## Writing
 
 ### Preprints/Notes
+
+* _The construction of formal anafunctors_ (Coming soon!)
 
 * _Extending Whitney's extension theorem_, [arXiv:1801.04126](https://arxiv.org/abs/1801.04126). Joint with [[Alexander Schmeding]].
 
@@ -58,7 +61,6 @@ Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny 
 
 ### In preparation
 
-* _Strict 2-sites, $J$-spans and localisations_.
 
 * _Two rational maps that generate $\pi_1^s$_ (working title)
 
