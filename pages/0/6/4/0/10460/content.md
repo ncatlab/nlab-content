@@ -6,7 +6,7 @@
 
 ## Idea
 
-The _Walker-Wang model_ is a [[model (in theoretical physics)]] which is a [[4d TQFT]] analog of the [[Levin-Wen model]] [[3d TQFT]]. It should be closely related to the [[Crane-Yetter model]]. It is speculated to have some application to [[topological insulators]] in [[solid state physics]].
+The _Walker-Wang model_ is a [[model (in theoretical physics)]] which is a [[4d TQFT]] analog of the [[Levin-Wen model]] [[3d TQFT]]. It is the [[Hamiltonian]] formulation of the TQFT whose [[partition function]] formulation is the [[Crane-Yetter model]]. It is speculated to have some application to [[topological insulators]] in [[solid state physics]].
 
 ## References
 
