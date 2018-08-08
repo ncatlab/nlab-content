@@ -1,4 +1,4 @@
-[[!redirects Fermat prime]]
+
 A **Fermat number** is a number of the form
 $$
 F_k = 2^{2^k}+1
@@ -33,3 +33,5 @@ The following page lists heuristic arguments as to the finiteness of the Fermat 
 New factors of composite Fermat numbers are announced here:
 
 * FermatSearch.org [News](http://www.fermatsearch.org/news.html)
+
+[[!redirects Fermat prime]]
