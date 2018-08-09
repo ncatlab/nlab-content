@@ -24,11 +24,11 @@ In the context of [[algebraic quantum field theory]] the structure of the local 
 
 Traditionally local nets of observables are assumed to take values in [[C*-algebras]], but the basic form of the axioms does not actually refer to [[topology|topological]] structure on the algebras, and makes sense more generally.
 
-In particular in [[perturbative quantum field theory]] made precise via [[causal perturbation theory]], the [[algebras of quantum observables]] are taken to be [[formal power series algebras]] (reflecting the [[infinitesimal]] nature of [[perturbation theory]]) and one _derives_ from [[causal additivity]] of the [[S-matrix]] that the perturbative [[quantum observables]] form a local not of formal power series algebras (see at _[S-matrix -- Causal locality and Quantum observables](S-matrix#CausalLocality)_). Accordingly, this infinitesimal/pertrubative version of [[AQFT]] is called _[[perturbative AQFT]]_.
+In particular in [[perturbative quantum field theory]] made precise via [[causal perturbation theory]], the [[algebras of quantum observables]] are taken to be [[formal power series algebras]] (reflecting the [[infinitesimal]] nature of [[perturbation theory]]) and one _derives_ from [[causal additivity]] of the [[S-matrix]] that the perturbative [[quantum observables]] form a local net of formal power series algebras (see at _[S-matrix -- Causal locality and Quantum observables](S-matrix#CausalLocality)_). Accordingly, this infinitesimal/perturbative version of [[AQFT]] is called _[[perturbative AQFT]]_.
 
-Other variants may be considered. For [[AQFT on curved spacetimes]] one generalizes from observables associated with regions of [[Minkowski spacetime]] toobsrvables associated with more general [[globally hyperbolic spacetimes]]. Combining this with perturbation theory is then called _[[locally covariant perturbative AQFT]]_.
+Other variants may be considered. For [[AQFT on curved spacetimes]] one generalizes from observables associated with regions of [[Minkowski spacetime]] to observables associated with more general [[globally hyperbolic spacetimes]]. Combining this with perturbation theory is then called _[[locally covariant perturbative AQFT]]_.
 
-Moreover, if [[gauge theory]] with nontrivial global [[gauge field]] configurations is to be considered ([[instantons]]) then one may show that one needs to consider some kind of [[homotopy theory|homotopy theoretic]] local nets of _[[homotopical algebras]]_. See at _[[homotopical AQFT]]_.
+Moreover, if [[gauge theory]] with nontrivial global [[gauge field]] configurations is to be considered ([[instantons]]) then one may show that one needs to consider some kind of [[homotopy theory|homotopy theoretic]] local nets of _[[homotopical algebras]]_. See at _[[homotopical algebraic quantum field theory]]_.
 
 
 
