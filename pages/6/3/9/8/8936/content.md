@@ -16,7 +16,7 @@
 
 ## Idea
 
-In [[type theory]] what is called the _UIP axiom_, the axiom of _uniqueness of identity proofs_ is an [[axiom]] that when added to [[intensional type theory]] turns it into [[extensional type theory]].
+In [[type theory]] what is called the _UIP axiom_, the axiom of _uniqueness of identity proofs_ is an [[axiom]] that when added to [[intensional type theory]] turns it into a [[extensional type theory|propositionally extensional type theory]].
 
 The axiom asserts that any two [[terms]] of the same [[identity type]] 
 $Id_A(x,y)$ are themselves [[propositional equality|propositionally equal]] (in the corresponding higher identity type).
@@ -25,16 +25,40 @@ This is contrary to the [[univalence]] axiom, which makes sense only in the abse
 
 ## Statement
 
++-- {: .num_defn}
+###### Definition
+
+The _UIP axiom_ posits that the type 
+
 $$
-  UIP
+\underset{A \colon Type}{\prod} 
+\underset{x,y \colon A}{\prod}
+\underset{p,q \colon Id_A(x,y)}{\prod}
+Id_{Id_A(x,y)}(p,q)
+$$
+
+has a term. In other words, we add to our type theory the rule
+
+$$
+\frac{}{
+  uip
   \colon
   \underset{A \colon Type}{\prod} 
   \underset{x,y \colon A}{\prod}
   \underset{p,q \colon Id_A(x,y)}{\prod}
-  [ Id_{Id_A(x,y)}(p,q) ]
-  \,.
+  Id_{Id_A(x,y)}(p,q)}
 $$
 
+or a variant of it, such as the following.
+
+$$
+\frac{A \colon Type, x, y \colon A \vdash p, q \colon Id_A(x,y)}{
+  uip
+  \colon
+  Id_{Id_A(x,y)}(p,q)}
+$$
+
+=--
 
 ## Related concepts
 
