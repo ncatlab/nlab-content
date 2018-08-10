@@ -29,7 +29,7 @@ _Functorial quantum field theory_ or FQFT for short, is one of the two approache
 
 ### As an axiomatization of the path integral and S-Matrix
 
-The axioms of FQFT may be understood as formulating the basic properties that the [[path integral]] or [[S-matrix]] involked in [[physics]] ought to satisfy, if they had been given a precise definition.
+The axioms of FQFT may be understood as formulating the basic properties that the [[path integral]] or [[S-matrix]] invoked in [[physics]] ought to satisfy, if they had been given a precise definition.
 
 Much work in [[quantum field theory]] is based on arguments invoking the concept of the [[path integral]]. While in the physics literature this is usually not a well defined object, it is generally assumed to satisfy a handful of properties, notably the _sewing laws_. These say, roughly, that the path integral over a domain $\Sigma$ which decomposes into subdomains $\Sigma_1$ and $\Sigma_2$ is the same as the path integral over $\Sigma_1$ composed with that over $\Sigma_2$.
 
