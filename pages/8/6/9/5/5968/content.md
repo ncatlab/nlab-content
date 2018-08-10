@@ -405,7 +405,7 @@ For 1-parameter groups of symmetries in classical mechanics, the formulation and
 
 For more general case see for instance the books by [[Peter Olver]].
 
-The Hamitlonian Noether theorem is also reviewed in a broader context of mathematical physics as theorem 7.3.2 in 
+The Hamiltonian Noether theorem is also reviewed in a broader context of mathematical physics as theorem 7.3.2 in 
 
 * [[Frédéric Paugam]], _Towards the mathematics of quantum field theory_ ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/Towards-the-maths-of-QFT.pdf))
 
