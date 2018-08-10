@@ -32,7 +32,7 @@ Some computational aspects of general motives have been investigated in the case
 
 ## Necessary tools
 
-Since the space $X$ to be used is given by a non-linear equation, it is not directly adapted to the use of computational methods. One will thus need to extract linear invariants from $X$, by the use of a kind of  `differential calculus` (in Quillen's sense, i.e., using a convenient [[tangent (infinity,1)-category]]) and/or the definition of convenient `cohomological invariants`.
+Since the space $X$ to be used is given by a non-linear equation, it is not directly adapted to the use of computational methods. One will thus need to extract linear invariants from $X$, by the use of a kind of 'differential calculus' (in Quillen's sense, i.e., using a convenient [[tangent (infinity,1)-category]]) and/or the definition of convenient 'cohomological invariants.
 
 It seems that &#233;tale cohomological methods, that were originally used by Grothendieck and Deligne (and more recently, Laumon) to prove the full Weil conjectures, are not so easy to implement on a computer (see however the book of Edixhoven and Couveignes). It seems that "[[p-adic]] methods", based on p-adic differential calculus and Fourier transform, and now completely developed by Berthelot, Lestum, Caro and Kedlaya (p-adic proof of the Weil-conjectures) are better adapted to computations (e.g., of L-functions over finite fields, i.e., characteristic polynomials of frobenius acting on cohomology).
 
