@@ -37,7 +37,7 @@ The __Hartogs number__ of $S$ is this well-ordered set, the set of all order typ
 
 There are other ways to encode $\aleph(S)$. A subset $A \subseteq S$ with a well-ordering can be specified through the collection of its initial segments or [[lower set|down-sets]], i.e., a suitable family of subsets of $S$ named by an [[element]] of $P P(S)$. Thus the set of well-orderings of subsets of $S$ can be defined as a suitable subset of $P P(S)$. Similarly, an equivalence class of such structures corresponding to a given order type is also definable as a subset of $P P(S)$, i.e., is named by a suitable element of $P P P(S)$, so $\aleph(S)$ which is the set of such equivalence classes is definable as a subset of $P P P(S)$. 
 
-All of the defining formulas in this description involve only bounded quantification, i.e., can be expressed in the language of [[ZFC|BZC]] or in [[ETCS]]. The proof that $\aleph(S)$ is well-ordered (by existence of $P$-coalgebra morphisms between representatives of order types) can be enacted in these theories without using the axiom of choice, hence the basic theory of $\aleph(S)$ can be carried out in BZ (bounded Zermelo set theory, without choice). 
+All of the defining formulas in this description involve only bounded quantification, i.e., can be expressed in the language of [[ZFC|BZC]] or in [[ETCS]]. The proof that $\aleph(S)$ is well-ordered (by existence of $P$-[coalgebra](https://ncatlab.org/nlab/show/well-founded+relation#coalgebraic_formulation) morphisms between representatives of order types) can be enacted in these theories without using the axiom of choice, hence the basic theory of $\aleph(S)$ can be carried out in BZ (bounded Zermelo set theory, without choice). 
 
 ## Properties
 
@@ -54,7 +54,7 @@ As observed before, $\aleph(S)$ is well-ordered. Suppose there were an injection
 
 $$j: I \hookrightarrow \aleph(S)$$ 
 
-which takes $x \in I$ to (the order type of) $\{y \in I: y \lt x\}$. Since there can be at most one initial segment inclusion between well-orders, $j$ must coincide with the isomorphism $i^{-1}$, which is onto. This means $I$ itself must be of the form $I = \{y \in I: y \lt x\}$ for some $x \in I$, which in turn implies $x \lt x$, a contradiction. 
+which takes $x \in I$ to (the order type of) $\{y \in I: y \lt x\}$. Since there can be at most one initial segment inclusion between well-orders (cf. [simulation](https://ncatlab.org/nlab/show/well-founded+relation#simulations)), $j$ must coincide with the isomorphism $i^{-1}$, which is onto. This means $I$ itself, as an order type, must be of the form $I = \{y \in I: y \lt x\}$ for some $x \in I$, which in turn implies $x \lt x$, a contradiction. 
 =-- 
 
 According to this theorem, using the usual ordering of cardinal numbers, $\kappa^+ \nleq \kappa$.  So if this $\leq$ is a [[total order]] (a statement equivalent to the [[axiom of choice]]), we can say that $\kappa^+ \gt \kappa$.
