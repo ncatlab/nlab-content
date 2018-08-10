@@ -60,3 +60,5 @@ From Riemann Surfaces to Complex Spaces
 Norbert Schappacher
 
 On the History of Hilbert's Twelfth Problem
+
+[[!redirects Matériaux pour l’histoire des mathématiques au XXe siècle]]
