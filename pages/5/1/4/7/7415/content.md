@@ -43,3 +43,5 @@ towards a so-called "tame" topology.
 
 
 * [MO discussion](http://mathoverflow.net/q/24900/381)
+
+[[!redirects Esquisse d’un programme]]
