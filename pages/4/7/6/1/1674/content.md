@@ -27,7 +27,7 @@ Assuming the [[axiom of choice]], it is the smallest [[ordinal number]] whose ca
 
 ## Definition
 
-We will define the Hartogs number as a [[functor]]ial operation from [[sets]] to [[well-ordered sets]].  The operation on numbers is just a round-about way of talking about the same thing.
+We will define the Hartogs number as a [[functor|functorial]] operation from [[sets]] to [[well-ordered sets]].  The operation on numbers is just a round-about way of talking about the same thing.
 
 So let $S$ be a set.  Without the axiom of choice (or more precisely, the [[well-ordering theorem]]), it may not be possible to well-order $S$ itself, but we can certainly well-order some [[subsets]] of $S$.  On the other hand, if we can well-order $S$ (or a subset), then there may be many different ways to do so, even non[[isomorphism|isomorphic]] ways.  So to begin with, let us form the collection of all well-ordered subsets of $S$, that is the subset of
 $$ \coprod_{A: \mathcal{P}S} \mathcal{P}(A \times A) ,$$
@@ -41,7 +41,23 @@ All of the defining formulas in this description involve only bounded quantifica
 
 ## Properties
 
-There is no [[injection]] to $S$ from $\aleph(S)$; this theorem is to [[Cantor's theorem]] as [[Burali-Forti's paradox]] is to [[Russell's paradox]].  That is, using the usual ordering of cardinal numbers, $\kappa^+ \nleq \kappa$.  So if this $\leq$ is a [[total order]] (a statement equivalent to the [[axiom of choice]]), we can say that $\kappa^+ \gt \kappa$.
++-- {: .num_theorem} 
+###### Theorem 
+There is no [[injection]] to $S$ from $\aleph(S)$. 
+=--
+
+This theorem is to [[Cantor's theorem]] as [[Burali-Forti's paradox]] is to [[Russell's paradox]]. This observation alone hints how the proof goes: 
+
++-- {: .proof} 
+###### Proof 
+As observed before, $\aleph(S)$ is well-ordered. Suppose there were an injection $i: \aleph(S) \to S$; then $i$ gives a bijection of $\aleph(S)$ onto its image $I$. By transport of structure, $I$ uniquely admits a well-ordering for which $i$ is an isomorphism of well-ordered sets. Using this well-ordering, there is an initial segment inclusion 
+
+$$j: I \hookrightarrow \aleph(S)$$ 
+
+which takes $x \in I$ to (the order type of) $\{y \in I: y \lt x\}$. Since there can be at most one initial segment inclusion between well-orders, $j$ must coincide with the isomorphism $i^{-1}$, which is onto. This means $I$ itself must be of the form $I = \{y \in I: y \lt x\}$ for some $x \in I$, which in turn implies $x \lt x$, a contradiction. 
+=-- 
+
+According to this theorem, using the usual ordering of cardinal numbers, $\kappa^+ \nleq \kappa$.  So if this $\leq$ is a [[total order]] (a statement equivalent to the [[axiom of choice]]), we can say that $\kappa^+ \gt \kappa$.
 
 Even without choice, however, we can say this:  If $\alpha$ is an ordinal number such that $|\alpha| \nleq \kappa$, then $\kappa^+ \leq \alpha$.  (Notice that we\'ve shifted our thinking of the Hartogs number from a cardinal to an ordinal.)  That is, $\kappa^+$ is the smallest ordinal number whose cardinal number is not at most $\kappa$.  This doesn\'t use any form of choice except for [[excluded middle]]; we only need choice to conclude that $|\kappa^+| \gt \kappa$.
 
