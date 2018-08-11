@@ -22,8 +22,8 @@
 
 An **equivalence of $2$-categories** is the appropriate notion of [[equivalence of categories|equivalence]] between [[2-categories]].  As used on the nLab, where all [[n-categories]] are usually by default "weak," this consists of:
 
-* (Weak) [[2-functors]] (aka [[pseudofunctors]]) $F\colon C\to D$ and $G\colon D\to C$, and
-* [[pseudonatural transformations]] $G \circ F \to Id_C$ and $F \circ G \to Id_D$ which are themselves [[equivalences]], i.e. there are pseudonatural transformations forming their inverses up to isomorphism.
+* (Weak) [[2-functors]] (aka [[pseudofunctors]]) ${}\;F\colon C\to D$ and $G\colon D\to C$, and
+* [[pseudonatural transformations]]  $G \circ F \to Id_C$ and $F \circ G \to Id_D$ which are themselves [[equivalences]], i.e. there are pseudonatural transformations forming their inverses up to isomorphism.
 
 In the literature this sort of equivalence is often called a **biequivalence**, as it has traditionally been associated with [[bicategories]], the standard algebraic definition of weak $2$-category.  There is a stricter notion of equivalence for strict $2$-categories, which traditionally is called just a *$2$-equivalence* and which on the nLab is called a [[strict 2-equivalence]].
 
