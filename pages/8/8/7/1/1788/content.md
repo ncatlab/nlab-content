@@ -5,7 +5,7 @@ This implies in particular that
 $\phantom{AAAAA}$hence in particular [[nLab:higher central extensions]]
 
 $\phantom{AAAA}$$
-  \array{
+  \array{----
   Super L_\infty Algebras && SuperSpaces
   \\
   \array{
@@ -39,6 +39,3 @@ $
 [[some_picture.png|alt_text:pic]]
 
 Test
-
- [[logic]]                      |   [[category theory]]                     |  [[type theory]]
---------------------------------|-------------------------------------------|--------------------------------
