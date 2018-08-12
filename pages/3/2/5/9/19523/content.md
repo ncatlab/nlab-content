@@ -33,7 +33,7 @@ It has been shown that the effect of such backreaction is small or invisible if 
 
 The [[standard model of cosmology]] assumes that such inhomogeneities may be neglected to zeroth order, and studies [[structure formation]] as a perturbation about a spatially homogeneous [[FRW model]] [[background field|background]] [[spacetime]].
 
-Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15](standard+model+of+cosmology#BCKRW15)) related to _[[dark energy]]_ (a [[cosmological constant]], and possibly related issues such as [[cosmic inflation]]), it has been suggested that these may be but an artifact of the overly idealistic approximation of cosmic homogeneity, and that a more accurate inhomogeneous cosmology would not need to assume any [[dark energy]]/[[cosmological constant]]  (e.g. [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Räsänen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Buchert 11](#Buchert11), [Buchert-Räsänen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Smoller-Temple-Vogler 14](#SmollerTempleVogler14), [Moffat 16](#Moffat16)).
+Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15](standard+model+of+cosmology#BCKRW15), [Riess et. al. 16](#RiessEtAl16)) related to _[[dark energy]]_ (a [[cosmological constant]], and possibly related issues such as [[cosmic inflation]]), it has been suggested that these may be but an artifact of the overly idealistic approximation of cosmic homogeneity, and that a more accurate inhomogeneous cosmology would not need to assume any [[dark energy]]/[[cosmological constant]]  (e.g. [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Räsänen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Buchert 11](#Buchert11), [Buchert-Räsänen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Smoller-Temple-Vogler 14](#SmollerTempleVogler14), [Moffat 16](#Moffat16)).
 
 {#Qualitative} A qualitative discussion of how inhomogeneity may cause accelerated cosmic expansion is given in [Räsänen 10, section 3: "Understanding acceleration"](#Rasanen10):
 
@@ -75,6 +75,8 @@ Dependency of results on the choice of [[gauge fixing]] is highlighted in [ACDDK
 > We then show numerical results from the fully relativistic weak field $N$-body code _gevolution_. (p.2)
 
 > $[...]$ The conclusion of this work is therefore that there are gauges which are relatively close to what observers measure and in these gauges backreaction is small. We used the example of Poisson gauge, but there would be others, e.g. geodesic light cone gauge [53, 54]. However, comoving synchronous gauge is not well suited to describe observations in the late time clumpy universe.  In this gauge backreaction becomes large and the gauge actually breaks down during structure formation. (p. 4)
+
+The simulations in [Odderskov-Koksbang-Hannestad 16](#OdderskovKoksbangHannestad16), [Macpherson-Lasky-Price 18](#MacphersonLaskyPrice18) show noticeable but small effects of inhomogeneity, possibly explaining parts but not all of the measured discrepancy reported in [Riess et. al. 16](#RiessEtAl16).
 
 
 ## The "backreaction debate"
@@ -200,6 +202,10 @@ Dark Energy?_, 2009 ([[NotariInhomogeneousCosmology.pdf:file]])
 
 * {#SmollerTempleVogler14} Joel Smoller, Blake Temple, Zeke Vogler, _An Instability of the Standard Model Creates the Anomalous Acceleration Without Dark Energy_, Proceedings of the Royal Society A, 2017 ([arXiv:1412.4001](https://arxiv.org/abs/1412.4001), [10.1098/rspa.2016.0887](http://rspa.royalsocietypublishing.org/content/473/2207/20160887), detailed talk slides: [[Temple16.pdf:file]], talk [recording I](https://www.youtube.com/watch?v=fV8KPj8vmGw), [recording II](http://cdsweb.cern.ch/record/1371553))
 
+* {#OdderskovKoksbangHannestad16} I. Odderskov, S. M. Koksbang, S. Hannestad, _The Local Value of $H_0$ in an Inhomogeneous Universe_, JCAP02(2016)001 ([arXiv:1601.07356](https://arxiv.org/abs/1601.07356))
+
+* {#RiessEtAl16} Adam G. Riess et al., _A 2.4% Determination of the Local Value of the Hubble Constant_,  The Astrophysical Journal, Volume 826, Number 1 ([arXiv:1604.01424](https://arxiv.org/abs/1604.01424))
+
 * {#BelejkoKorzynski16} Krzysztof Bolejko, Mikołaj Korzyński, _Inhomogeneous cosmology and backreaction: Current status and future prospects_, Int. J. Mod. Phys. D 26, 1730011 (2017) ([arXiv:1612.08222](https://arxiv.org/abs/1612.08222))
 
 
@@ -208,6 +214,8 @@ Dark Energy?_, 2009 ([[NotariInhomogeneousCosmology.pdf:file]])
 * {#ACDDK17} Julian Adamek, Chris Clarkson, David Daverio, Ruth Durrer, Martin Kunz, _Safely smoothing spacetime: backreaction in relativistic cosmological simulations_ ([arXiv:1706.09309](https://arxiv.org/abs/1706.09309))
 
 * {#DanielssonVanRiet18} [[Ulf Danielsson]], Thomas Van Riet,  _What if string theory has no de Sitter vacua?_ ([arXiv:1804.01120](https://arxiv.org/abs/1804.01120))
+
+* {#MacphersonLaskyPrice18} Hayley Macpherson, Paul D. Lasky, Daniel J. Price, _The trouble with Hubble: Local versus global expansion rates in inhomogeneous cosmological simulations with numerical relativity_ ([arXiv:1807.01714](https://arxiv.org/abs/1807.01714))
 
 ### Lemaitre-Tolman-Bondi models
 
