@@ -38,4 +38,4 @@ $
 
 [[some_picture.png|alt_text:pic]]
 
-Test
+<span class="mathematics">Test</span>
