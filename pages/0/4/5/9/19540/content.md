@@ -47,6 +47,9 @@ A unified treatmeant generalizing to arbitary super [[Fermat theories]] is in
 [[!redirects model structure on dg-supercommutative superalgebras]]
 [[!redirects model structures on dg-supercommutative superalgebras]]
 
+[[!redirects model structure on dgc-superalgebras]]
+[[!redirects model structures on dgc-superalgebras]]
+
 
 [[!redirects model structure on dg-superalgebras]]
 [[!redirects model structures on dg-superalgebras]]
