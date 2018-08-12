@@ -5,30 +5,30 @@
 +**[[relation between type theory and category theory|relation type theory/category theory]]**
 
 
- [[logic]] | [[category theory]] | [[type theory]]
-|---|---|---|
- [[true]] | [[terminal object]]/[[(-2)-truncated object]] |  [[h-level 0]]-[[type]]/[[unit type]] 
- [[false]]|   [[initial object]]        |  [[empty type]]
- [[proposition]]|   [[(-1)-truncated object]]   | [[h-proposition]], [[mere proposition]] 
- [[proof]] |   [[generalized element]]    | [[program]]
- [[cut rule]]  |   [[composition]] of [[classifying morphisms]] / [[pullback]] of [[display maps]]        |   [[substitution]]
- [[cut elimination]] for [[implication]]           |   [[counit]] for hom-tensor adjunction           |   [[beta reduction]]
-introduction rule for [[implication]]              |   [[unit]] for hom-tensor adjunction            |   [[eta conversion]]
- [[logical conjunction]]                |   [[product]]                   |  [[product type]]
- [[disjunction]]                |   [[coproduct]] ([[(-1)-truncation]] of) | [[sum type]] ([[bracket type]] of)
- [[implication]]                |   [[internal hom]]                        |  [[function type]]
- [[negation]]                   |   [[internal hom]] into [[initial object]] | [[function type]] into [[empty type]]
- [[universal quantification]]   |   [[dependent product]]                   |[[dependent product type]]      
- [[existential quantification]] |   [[dependent sum]] ([[(-1)-truncation]] of) | [[dependent sum type]] ([[bracket type]] of)
- [[equivalence]]                |   [[path space object]]                   | [[identity type]]
- [[equivalence class]]   |  [[quotient]]                   |   [[quotient type]]
- [[induction]]                  |   [[colimit]]                | [[inductive type]], [[W-type]], [[M-type]]
- higher [[induction]]       |   [[(infinity,1)-colimit|higher colimit]] | [[higher inductive type]]
-   [[completely presented set]]  | [[discrete object]]/[[0-truncated object]]    |  [[h-level 2]]-[[type]]/[[preset]]/[[h-set]]
-   [[set]]  |  [[groupoid object in an (infinity,1)-category|internal 0-groupoid]]   | [[Bishop set]]/[[setoid]]
- [[universe]] | [[object classifier]] | [[type of types]] 
- [[modality]] | [[closure operator]], ([[idempotent monad|idemponent]]) [[monad]] | [[modal type theory]], [[monad (in computer science)]]
- [[linear logic]] | ([[symmetric monoidal category|symmetric]], [[closed monoidal category|closed]]) [[monoidal category]] | [[linear type theory]]/[[quantum computation]]
- [[proof net]] | [[string diagram]] | [[quantum circuit]]
- (absence of) [[contraction rule]] | (absence of) [[diagonal]] | [[no-cloning theorem]]
-    |  [[synthetic mathematics]]  |  [[domain specific embedded programming language]]  |
+| [[logic]] | [[category theory]] | [[type theory]] |
+|-----------|---------------------|-----------------|
+| [[true]]  | [[terminal object]]/[[(-2)-truncated object]] | [[h-level 0]]-[[type]]/[[unit type]] | 
+| [[false]] | [[initial object]] | [[empty type]] |
+| [[proposition]] | [[(-1)-truncated object]] | [[h-proposition]], [[mere proposition]] |
+| [[proof]] | [[generalized element]] | [[program]] |
+| [[cut rule]] | [[composition]] of [[classifying morphisms]] / [[pullback]] of [[display maps]] | [[substitution]] |
+| [[cut elimination]] for [[implication]] | [[counit]] for hom-tensor adjunction | [[beta reduction]] |
+| introduction rule for [[implication]] | [[unit]] for hom-tensor adjunction | [[eta conversion]] |
+| [[logical conjunction]] | [[product]] | [[product type]] |
+| [[disjunction]] | [[coproduct]] ([[(-1)-truncation]] of) | [[sum type]] ([[bracket type]] of) |
+| [[implication]] | [[internal hom]] | [[function type]] |
+| [[negation]] |   [[internal hom]] into [[initial object]] | [[function type]] into [[empty type]] |
+| [[universal quantification]] | [[dependent product]] | [[dependent product type]] |     
+| [[existential quantification]] | [[dependent sum]] ([[(-1)-truncation]] of) | [[dependent sum type]] ([[bracket type]] of) |
+| [[equivalence]] | [[path space object]] | [[identity type]] |
+| [[equivalence class]] | [[quotient]] | [[quotient type]] |
+| [[induction]] | [[colimit]] | [[inductive type]], [[W-type]], [[M-type]] |
+|higher [[induction]] |  [[(infinity,1)-colimit|higher colimit]] | [[higher inductive type]] |
+| [[completely presented set]] | [[discrete object]]/[[0-truncated object]]    | [[h-level 2]]-[[type]]/[[preset]]/[[h-set]] |
+| [[set]] | [[groupoid object in an (infinity,1)-category|internal 0-groupoid]] | [[Bishop set]]/[[setoid]] |
+| [[universe]] | [[object classifier]] | [[type of types]] |
+| [[modality]] | [[closure operator]], ([[idempotent monad|idemponent]]) [[monad]] | [[modal type theory]], [[monad (in computer science)]] |
+| [[linear logic]] | ([[symmetric monoidal category|symmetric]], [[closed monoidal category|closed]]) [[monoidal category]] | [[linear type theory]]/[[quantum computation]] |
+| [[proof net]] | [[string diagram]] | [[quantum circuit]] |
+| (absence of) [[contraction rule]] | (absence of) [[diagonal]] | [[no-cloning theorem]] |
+| |  [[synthetic mathematics]]  |  [[domain specific embedded programming language]] |
