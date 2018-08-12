@@ -79,7 +79,7 @@ According to [[Kant]] the _categories of pure understanding_  are (forming what 
 
    * [[possibility]]
 
-   * actuality (_Wirklichkeit_)
+   * actuality (*Wirklichkeit*)
 
    * [[necessity]]
 
