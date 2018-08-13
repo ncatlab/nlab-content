@@ -57,7 +57,7 @@ Given a fibration $p:E\to B$, we obtain a pseudofunctor $B^{op}\to Cat$ by sendi
 
 * fibrations over $B$, morphisms of fibrations over $Id_B$, and 2-cells over $id_{Id_B}$, and
 
-* [[pseudofunctors]] $B^{op}\to Cat$, [[pseudonatural transformations]], and [[modifications]].
+* [[pseudofunctors]]   $ B^{op}\to Cat$, [[pseudonatural transformations]], and [[modifications]].
 
 In fact, this is an instance of the general theory of representability for [[generalized multicategories]].  There is a monad $T$ whose pseudoalgebras are pseudofunctors $B^{op}\to Cat$, and whose "generalized multicategories" are functors $E\to B$.  Such a multicategory is "representable" precisely when it is a fibration, and moreover there is an induced monad $\hat{T}$ on $Cat/B$ which is [[lax-idempotent 2-monad|colax-idempotent]] and whose pseudoalgebras are precisely the fibrations.
 
