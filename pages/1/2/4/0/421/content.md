@@ -15,7 +15,7 @@
 
 ## Idea
 
-The _cellular simplex_ is one of the basic [[geometric shapes for higher structures]]. Variants of the same `shape archetype' exist in several settings, e.g., that of [[simplicial sets]], the topological /cellular one, and categorical contexts, plus others.
+The _cellular simplex_ is one of the basic [[geometric shapes for higher structures]]. Variants of the same `shape archetype' exist in several settings, e.g., that of a [[simplicial set]], the topological /cellular one, and categorical contexts, plus others.
 
 ## Definitions
  {#Definition}
