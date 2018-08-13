@@ -4,11 +4,3 @@ Victor Porton is the owner of a [math site](http://www.mathematics21.org/) with 
 
 category: people
 
-[[!redirects VictorPorton]]
-[[!redirects Victor Porton]]
-
-[[!redirects generalized continuity]]
-
-[[!redirects circuitoid]]
-[[!redirects circuitoids]]
-[[!redirects Circuitoids]]
