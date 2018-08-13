@@ -123,8 +123,6 @@ The form of [[shape theory]] developed by  Marde&#353;i&#263; and Segal, at abou
 
 * [[pro-homotopy theory]], [[profinite completion of a group]]
 
-* [[ind-pro-object]]
-
 ## References
 
 * [[Alexander Grothendieck]], _Techniques de d&#233;scente et th&#233;or&#232;mes d'existence en g&#233;om&#233;trie alg&#233;brique, II: le th&#233;or&#232;me d'existence en th&#233;orie formelle des modules_, Seminaire Bourbaki __195__, 1960, [(pdf)](http://archive.numdam.org/article/SB_1958-1960__5__369_0.pdf).
