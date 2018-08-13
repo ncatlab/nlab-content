@@ -1,8 +1,16 @@
 under construction
 
+## Idea
+
 Gelfand and Kolmogorov proved in 1939 that a compact Hausdorff topological space $X$ can be canonically embedded into the infinite&#8208;dimensional vector space $C(X)^*$, the dual space of the algebra of continuous functions $C(X)$, as an "algebraic variety", specified by an infinite system of quadratic equations.
 
 Buchstaber and Rees have extended this to all [[symmetric power]]s $Sym_n(X)$ using their notion of the Frobenius $n$&#8208;homomorphisms.
+
+## Related concepts
+
+* [[Gelfand-Kolmogorov theorem]]
+
+## References
 
 * Victor M. Buchstaber, [[Elmer G. Rees]], _The Gelfand map and symmetric products_, Selecta Math. 8 (2002), no. 4, 523&#8211;535; ...,
 Russian Math. Surveys __59__ (1(355)):125&#8211;145, 2004; _Frobenius n-homomorphisms, transfers and branched coverings_, Math. Proc. Cambr. Phil. Soc. 2007, arXiv:math.RA/0608120 .
