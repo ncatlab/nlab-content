@@ -3,4 +3,4 @@ Sarah Whitehouse is a professor at the University of Sheffield.
 
 * [Home Page](http://www.sarah-whitehouse.staff.shef.ac.uk/)
 
-category : people
+category: people
