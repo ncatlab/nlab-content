@@ -202,14 +202,17 @@ Local Solutions_ ([arXiv:0806.0605](http://arxiv.org/abs/0806.0605))
 
 * [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _The Threebrane Soliton of the M-Fivebrane_ ([arXiv:hep-th/9710033](http://arxiv.org/abs/hep-th/9710033))
 
-### Relation to extended TQFT
+### Extended TQFT and quantum anomalies
 
-Relation to [[extended TQFT]] is discussed in
+Relation to [[extended TQFT]] and [[quantum anomalies]] (motivated via [[M5-brane]] lore) is discussed in
 
 * [[Dan Freed]], _[[4-3-2 8-7-6]]_
 
-* [[David Ben-Zvi]], _Algebraic geometry of topological field theories_, talk at _[Reimagining the Foundations of Algebraic Topology
-April 07, 2014 - April 11, 2014](https://www.msri.org/workshops/689)_ ([web video](https://www.msri.org/workshops/689/schedules/18216))
+* [[David Ben-Zvi]], _Algebraic geometry of topological field theories_, talk at _[Reimagining the Foundations of Algebraic Topology April 07, 2014 - April 11, 2014](https://www.msri.org/workshops/689)_ ([web video](https://www.msri.org/workshops/689/schedules/18216))
+
+* [[Samuel Monnier]], _The global anomalies of (2,0) superconformal field theories in six dimensions_, JHEP09(2014)088 ([arXiv:1406.4540](https://arxiv.org/abs/1406.4540))
+
+* {#Monnier17} [[Samuel Monnier]], _The anomaly field theories of six-dimensional (2,0) superconformal theories_ ([arXiv:1706.01903](https://arxiv.org/abs/1706.01903))
 
 [[!redirects 6d (2,0)-susy QFT]]
 [[!redirects 6d (2,0)-superconformal QFT]]
