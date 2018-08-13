@@ -26,6 +26,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -214,6 +215,8 @@ Gelfand duality can be extended by [[horizontal categorification]] to define the
 ## Related concepts
 
 * [[Isbell duality]]
+
+  * [[Gelfand-Kolmogorov theorem]]
 
   * **Gelfand duality**, [[constructive Gelfand duality theorem|constructive Gelfand duality]]
 
