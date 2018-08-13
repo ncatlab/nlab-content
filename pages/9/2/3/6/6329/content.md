@@ -141,7 +141,7 @@ Subtleties with the Schr&#246;dinger picture for [[field theory]] in [[spacetime
 
 A note on how the Schr&#246;dinger picture in the form of [[extended quantum field theory|extended]] [[FQFT]] on [[Lorentzian manifold]]s is related to the Heisenberg picture in the form of [[AQFT]] is in 
 
-* [[Urs Schreiber]],  _[[schreiber:AQFTfromFQFT.pdf:file]]_ , Communications in Mathematical Physics, Volume 291, Issue 2 (2009), pp.357-401 
+* [[Urs Schreiber]], _[[schreiber:AQFTfromFQFT.pdf:file]]_, Communications in Mathematical Physics, Volume 291, Issue 2 (2009), pp.357-401 
 
 
 [[!redirects dynamical picture]]
