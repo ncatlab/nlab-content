@@ -215,7 +215,7 @@ $$
     Hypothesis pt : BG.
 
     Definition flat_dR : #Type
-      := ipullback ([[fun _:unit => pt]]) (from_flat ([BG])).
+      := ipullback (<nowiki>[[fun _:unit => pt]]</nowiki>) (from_flat ([BG])).
 
 ### Differential cohomology
 
