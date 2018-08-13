@@ -53,7 +53,7 @@ $$\label{4}\tilde U(\alpha)(\langle A,a\rangle)=\langle U(\alpha)(A),A(\alpha\to
 
 for $\alpha:J\to I$ in $C$. The map $p_U:\tilde U\to U$ sends $\langle A,a\rangle$ to $A$. $p_U$ is generic for maps with $\mathcal{U}$-small fibers. These maps are up to isomorphism precisely those which can be obtained as pullback of $p_U$ along some morphism in $\hat C$.
 
-For $C=\Delta$ we apapt this idea in such a way that $p_U$ is generic for Kan fibrations with $\mathcal{U}$-small fibers. We redefine in this case
+For $C=\Delta$ we adapt this idea in such a way that $p_U$ is generic for Kan fibrations with $\mathcal{U}$-small fibers. We redefine in this case
 
 $$\label{formula5}U([n])=\{A\in \mathcal{U}^{\Delta/[n])^{op}} | P_A\,\text{ is a Kan fibration }\,\}$$
 
