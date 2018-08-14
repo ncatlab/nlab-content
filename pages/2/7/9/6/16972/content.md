@@ -25,7 +25,7 @@
 
 ## Idea
 
-The _quaternionic Hopf fibration_ is the [[Hopf fibration]] induced by the [[]quaternions]], hence it is the [[fibration]]
+The _quaternionic Hopf fibration_ is the [[Hopf fibration]] induced by the [[quaternions]], hence it is the [[fibration]]
 
 
 $$
