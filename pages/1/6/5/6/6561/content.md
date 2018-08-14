@@ -91,18 +91,21 @@ Famously the solutions to [[self-dual Yang-Mills theory]] in [[dimension]] 4 can
 
 ### General
 
-The first indication of a 6d theory with a self-dual 2-form field appears in section 1 of 
+The first indication of a 6d theory with a self-dual 2-form field appears in  
 
-* {#Witten95} [[Edward Witten]], _Some comments on string dynamics_ ([hepth/9507121](http://arxiv.org/abs/hep-th/9507121))
+* {#Witten95} [[Edward Witten]], section 1 of _Some comments on string dynamics_ ([hepth/9507121](http://arxiv.org/abs/hep-th/9507121))
 
 Derivation of the abelian 6d theory to low order as the small fluctuations of the [[Green-Schwarz sigma-model]] of the [[M5-brane]] around a solution embedding as the asymptotic boundary of the [[AdS-spacetime]] [[near-horizon geometry]] of a [[black brane|black]] 5-brane is due to 
 
 * {#ClausKalloshProeyen97} P. Claus, [[Renata Kallosh]], [[Antoine Van Proeyen]], _M 5-brane and superconformal $(0,2)$ tensor multiplet in 6 dimensions_, Nucl.Phys. B518 (1998) 117-150 ([arXiv:hep-th/9711161](http://arxiv.org/abs/hep-th/9711161))
 
-Surveys include
+Construction from [[F-theory]] [[KK-compactification]] is reviewed in 
 
-* {#Moore}[[Greg Moore]], _On the role of six&#8208;dimensional $(2,0)$-theories in recent developments in
-Physical Mathematics_ , talk at Strings2011 ([pdf slides](http://www.physics.rutgers.edu/~gmoore/Strings2011FinalPDF.pdf))
+* [[Jonathan Heckman]], Tom Rudelius, _Top Down Approach to 6D SCFTs_ ([arXiv:1805.06467](https://arxiv.org/abs/1805.06467))
+
+General survey includes
+
+* {#Moore}[[Greg Moore]], _On the role of six&#8208;dimensional $(2,0)$-theories in recent developments in Physical Mathematics_, talk at [Strings 2011](http://www2.physics.uu.se/external/strings2011/) ([pdf slides](http://www.physics.rutgers.edu/~gmoore/Strings2011FinalPDF.pdf))
   
 * [[Greg Moore]], _Applications of the six-dimensional (2,0) theories to Physical Mathematics_, [Felix Klein lectures Bonn (2012)](http://www.hcm.uni-bonn.de/events/eventpages/felix-klein-lectures/applications-of-the-six-dimensional-20-theories-to-physical-mathematics/) ([pdf](http://www.physics.rutgers.edu/~gmoore/FelixKleinLectureNotes.pdf))
 
