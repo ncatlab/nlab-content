@@ -15,7 +15,7 @@
 
 ## Idea
 
-The term _$\omega$-category_ is used more or less synonymous with _[[∞-category]]_ , though the two terms appear with different frequency in different parts of the literature.
+The term _$\omega$-category_ is used more or less synonymously with _[[∞-category]]_, though the two terms appear with different frequency in different parts of the literature.
 
 Originally, $\omega$-categories were introduced as
 
@@ -36,3 +36,4 @@ The general concept is that of
 [[!redirects ω-category]]
 [[!redirects ω-categories]] 
 [[!redirects omega-categories]]
+[[!redirects (∞,∞)-categories]]
