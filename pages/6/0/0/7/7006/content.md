@@ -43,7 +43,7 @@ One candidate for full [[omega-categories]] i.e. [[(∞,∞)-categories]] is _[[
 
 * [[Emily Riehl]] and [[Mike Shulman]], _A type theory for synthetic ∞-categories_, Higher Structures, 2017, [arxiv](https://arxiv.org/abs/1705.07442)
 
-* [[Paige North]], _Towards a directed homotopy type theory_, ([arXiv:1807.10566](https://arxiv.org/abs/1807.10566))
+* [[Paige Randall North]], _Towards a directed homotopy type theory_, ([arXiv:1807.10566](https://arxiv.org/abs/1807.10566))
 
 [[!redirects directed homotopy type theories]]
 
