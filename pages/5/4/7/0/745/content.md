@@ -12,7 +12,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -20,7 +19,6 @@
 ## Idea ##
 
 The _comma category_ of two [[functors]] $f : C \to E$ and $g : D \to E$ is a [[category]] like an [[arrow category]] of $E$ where all arrows have their [[source]] in the image of $f$ and their [[target]] in the image of $g$ (and the morphisms between arrows keep track of how these sources and targets are in these images). It can also be seen a kind of [[2-limit]]: a [[directed homotopy theory|directed]] refinement of the [[homotopy pullback]] of two functors between [[groupoids]].
-
 
 ## Definition
 
@@ -32,22 +30,13 @@ We discuss three equivalent definitions of comma categories
 
 * [As a 2-limit](#AsA2Limit)
 
-+-- {: .num_remark}
-###### Remark
-
-The terminology "comma category" is a holdover from the original notation $(f,g)$ for such a category, which generalises $(x,y)$ or $C(x,y)$ for a [[hom-set]].
-This is rarely used any more. More common modern notations for the comma category are $(f/g)$, which we will use on this page, and $(f\downarrow g)$.
-
-=--
+\begin{rmk} The terminology "comma category" is a holdover from the original notation $(f,g)$ for such a category, which generalises $(x,y)$ or $C(x,y)$ for a [[hom-set]]. This is rarely used any more. More common modern notations for the comma category are $(f/g)$, which we will use on this page, and $(f\downarrow g)$. \end{rmk}
 
 
 ### Via components: the objectwise definition
  {#InComponents}
 
-+-- {: .num_defn}
-###### Definition
-
-If $f:C\to E$ and $g:D\to E$ are [[functors]], their **comma category** is the category $(f/g)$ whose
+\begin{defn} If $f:C\to E$ and $g:D\to E$ are [[functors]], their **comma category** is the category $(f/g)$ whose
 
 * [[objects]] are triples $(c,d,\alpha)$ where $c\in C$, $d\in D$, and $\alpha:f(c)\to g(d)$ is a morphism in $E$, and whose
 
@@ -76,7 +65,7 @@ $$
 
 * [[composition]] of morphisms is given on components by composition in $C$ and $D$.
 
-=--
+\end{defn}
 
 The definition of $(f/g)$ is now complete.  In addition, there are two canonical [[forgetful functors]] defined on the comma category:
 
