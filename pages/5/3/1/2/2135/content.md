@@ -397,6 +397,8 @@ A [[structured (∞,1)-topos]] $(\mathcal{X}, \mathcal{O})$ is a **$\mathcal{G}$
 
 ## Related concepts
 
+* [[space form]]
+
 * [[gros topos]], 
 
 * [[geometric homotopy type theory]], [[cohesive homotopy type theory]]
