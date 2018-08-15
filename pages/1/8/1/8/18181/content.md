@@ -50,6 +50,8 @@ Compare to the identification of concepts with the [[types]] in the sense of [[t
 
 * Wikipedia, _[Critique of Pure Reason](https://en.wikipedia.org/wiki/Critique_of_Pure_Reason)_
 
+* [english translation](http://www.gutenberg.org/files/4280/4280-h/4280-h.htm) by [J. M. D. Meiklejohn](https://en.wikipedia.org/wiki/John_Meiklejohn)
+
 
 
 category: reference
