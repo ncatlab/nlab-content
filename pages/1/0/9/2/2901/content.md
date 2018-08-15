@@ -130,6 +130,8 @@ The significance of this result is that EPG is a complete and decidable theory, 
 
 * [[trigonometry]]
 
+* [[space form]]
+
 * [[Riemannian geometry]]
 
 [[!include local and global geometry - table]]
