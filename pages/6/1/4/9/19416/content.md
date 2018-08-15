@@ -28,23 +28,13 @@ The _hypothèse inspiratrice_ can be proven relatively easily if one re-formulat
 
 ## Proof of the analogous statement for the category of sets
 
-+-- {: .num_prop}
-###### Proposition
+\begin{prpn} The category of auto-equivalences of [[Set]] is equivalent to the final category. \end{prpn}
 
-The category of auto-equivalences of [[Set]] is equivalent to the final category.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Any equivalence of categories preserves [[colimit|colimits]]. Since [[Set]] is the [[free co-completion]] of the final category $1_{\mathsf{Cat}}$, and since $1_{\mathsf{Cat}}$ is sent to $1_{\mathsf{Set}}$ under the Yoneda embedding, any auto-equivalence $F$ of [[Set]] is determined uniquely, up to isomorphism, by $F(1_{\mathsf{Set}})$. 
+\begin{proof} Any equivalence of categories preserves [[colimit|colimits]]. Since [[Set]] is the [[free co-completion]] of the final category $1_{\mathsf{Cat}}$, and since $1_{\mathsf{Cat}}$ is sent to $1_{\mathsf{Set}}$ under the Yoneda embedding, any auto-equivalence $F$ of [[Set]] is determined uniquely, up to isomorphism, by $F(1_{\mathsf{Set}})$. 
 
 Now, equivalences of categories also preserve [[final object|final objects]]. Thus we have that $F(1_{\mathsf{Set}}) = 1_{\mathsf{Set}}$ for all $F$.
 
-The proposition follows immediately from these two observations.    
-
-=--
+The proposition follows immediately from these two observations. \end{proof}
 
 This argument is rather canonical. In principle, it 'should' lift to a proof of the hypothèse inspiratrice, simply by replacing set-theoretic notions by homotopy-theoretic ones: colimits by homotopy colimits, and so on. And this does work, but with the caveat that such a proof can only be formulated if one works inside 'homotopy category theory' rather than ordinary category theory. 
 
