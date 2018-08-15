@@ -328,7 +328,7 @@ A development and exposition of the general setup taking Makkai's and Bartels' m
 
 and a purely formal construction using 2-categories appears in the notes
 
-* {#Roberts18} [[David Roberts]], _The construction of formal anafunctors_ (2018) doi:[10.25909/5b6cfd1a73e55](https://doi.org/10.25909/5b6cfd1a73e55)
+* {#Roberts18} [[David Roberts]], _The construction of formal anafunctors_ (2018) arXiv:[1808.04552](https://arxiv.org/abs/1808.04552), doi:[10.25909/5b6cfd1a73e55](https://doi.org/10.25909/5b6cfd1a73e55)
 
 See also
 
