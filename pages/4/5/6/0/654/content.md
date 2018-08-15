@@ -88,7 +88,7 @@ For $V$ a general symmetric [[closed monoidal category]] the full bicategory of 
 
 * $2$-morphisms are natural transformations.
 
-Notice that all $V$-categories $Mod_C$ of modules over a $V$-category $C$ are naturally [[copower|tensored]] over $V$ and hence are [[monoidal category modules]] over $V$. In analogy to how a vector space $W$ (a $k$-module) is equipped with a basis by finding a set $S$ such that $W \simeq [S,k]$, we can think of a general [[monoidal category module]] $W$ over $V$ to be equipped with a basis by providing an [[equivalence]] $W \simeq [C,V]$, for some $V$-category $V$. In this sense $V-Mod$ is the category of $V$ 2-vector spaces with basis.
+Notice that all $V$-categories $Mod_C$ of modules over a $V$-category $C$ are naturally [[copower|tensored]] over $V$ and hence are [[monoidal category modules]] over $V$. In analogy to how a vector space $W$ (a $k$-module) is equipped with a basis by finding a set $S$ such that $W \simeq [S,k]$, we can think of a general [[monoidal category module]] $W$ over $V$ to be equipped with a basis by providing an [[equivalence]] $W \simeq [C,V]$, for some $V$-category $C$. In this sense $V-Mod$ is the category of $V$ 2-vector spaces with basis.
 
 All of the examples on this page are special cases of this one.
 
