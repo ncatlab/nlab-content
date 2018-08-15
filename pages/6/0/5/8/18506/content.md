@@ -15,6 +15,7 @@
 =--
 
 
+
 # Contents
 * table of contents
 {: toc}
@@ -28,11 +29,21 @@ The classical space forms are the [[cosets]] of the [[n-sphere]] $S^n$ or the [[
 
 The [[properly discontinuous action|properly discontinuous]] [[free action|free]] [[quotient space|quotients]] of [[n-spheres]] by [[discrete groups]] of [[isometries]] are also called _[[spherical space forms]]_. The classification of these was raised as an open problem by [Killing 1891](#Killing1891) and a complete solution was finally compiled by ([Wolf 74](#Wolf74)). For more on this see at _[[group actions on n-spheres]]_.
 
-##Related concepts
+## Related entries
 
 * [[locally Klein geometry]]
 
-##References
+* [[Bertrand Russell]], _[[An Essay on the Foundations of Geometry]]_
+
+| [[synthetic geometry]]  |
+|-------------------------|
+| [[Euclidean geometry]]  |
+| [[hyperbolic geometry]] |
+| [[elliptic geometry]]   |
+
+
+## References
+
 
 * {#Killing1891} [[Wilhelm Killing]], _Ueber die Clifford-Klein’schen Raumformen_, Math. Ann. 39 (1891), 257–278
 
@@ -49,3 +60,6 @@ The [[properly discontinuous action|properly discontinuous]] [[free action|free]
 
 [[!redirects Clifford-Klein space form]]
 [[!redirects Clifford-Klein space forms]]
+
+[[!redirects space form]]
+[[!redirects space forms]]
