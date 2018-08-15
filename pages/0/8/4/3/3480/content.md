@@ -136,7 +136,7 @@ $$
 which evaluates a functor $\rho : \mathbf{B}G^{op} \to Set$ on the unique object of $\mathbf{B}G$. By the [[Yoneda lemma]] this is the same as homming out of the functor [[representable functor|represented by]] that unique object
 
 $$
-  Func(i,Set) = Hom_{PSh(\mathbf{B}G)}(Y_{\mathbf{B}G}) {*}, -)
+  Func(i,Set) = Hom_{PSh(\mathbf{B}G)}(Y_{\mathbf{B}G} {*}, -)
   \,,
 $$
 
