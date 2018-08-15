@@ -76,7 +76,7 @@ They were also independently introduced and studied by [[Magnus Forrester-Barker
 ## $2$-modules and $2$-linear maps as algebras and bimodules
  {#AbstractApproach}
 
-It is possible to conceive of 2-vector spaces of the Kapranov--Voevodsky and Baez--Crans type from a single unified perspective. Namely, by regarding the [[ground field]] itself as a [[discrete category]] we can think of it as a [[monoidal category]]. A $Disc(k)$-module category is a category whose space of objects and space of morphisms are both $k$-modules &#8211; ordinary vector spaces! &#8211; such that all structure morphisms (source, target, identity, composition) respect the $k$-action &#8211; hence are linear maps. This are categories internal to $\Vect_k$ which are equivalent to chain complexes of vector spaces concentrated in degree 0 and 1.
+It is possible to conceive of 2-vector spaces of the Kapranov--Voevodsky and Baez--Crans type from a single unified perspective. Namely, by regarding the [[ground field]] itself as a [[discrete category]] we can think of it as a [[monoidal category]]. A $Disc(k)$-module category is a category whose space of objects and space of morphisms are both $k$-modules &#8211; ordinary vector spaces! &#8211; such that all structure morphisms (source, target, identity, composition) respect the $k$-action &#8211; hence are linear maps. These are categories internal to $\Vect_k$ which are equivalent to chain complexes of vector spaces concentrated in degree 0 and 1.
 
 In other words, a Baez--Crans $2$-vector space can be thought of as a Kapranov--Voevodsky $2$-vector space, if one 'categorifies' the ground field by simply regarding it as a discrete monoidal category. 
 
