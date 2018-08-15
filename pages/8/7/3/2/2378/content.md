@@ -159,7 +159,7 @@ We conclude that we can take the required $U'$ of the beginning of the proof to 
 +-- {: .num_prop #alphainvfIsContinuous}
 ###### Proposition 
 
-Let $(X, \mathcal{O}_{X})$, $(Y, \mathcal{O}_{Y})$, and     $(Z, \mathcal{O}_{Z})$ be [[topological spaces]]. Suppose that $(X, \mathcal{O}_{X})$ is locally compact. Let $f : X \rightarrow Z^{Y}$ be a continuous map, where $Z^{Y}$ is equipped with the compact-open topology $\mathcal{O}_{Z^{Y}}$. Then the map $\alpha^{-1}_{f} : X \times Y \rightarrow Z$ given by $(x,y) \mapsto \big( f(x) \big)(y)$ is continuous, where $X \times Y$ is equipped with the [[product topology]] $\mathcal{O}_{X \times Y}$. 
+Let $(X, \mathcal{O}_{X})$, $(Y, \mathcal{O}_{Y})$, and     $(Z, \mathcal{O}_{Z})$ be [[topological spaces]]. Suppose that $(Y, \mathcal{O}_{Y})$ is locally compact. Let $f : X \rightarrow Z^{Y}$ be a continuous map, where $Z^{Y}$ is equipped with the compact-open topology $\mathcal{O}_{Z^{Y}}$. Then the map $\alpha^{-1}_{f} : X \times Y \rightarrow Z$ given by $(x,y) \mapsto \big( f(x) \big)(y)$ is continuous, where $X \times Y$ is equipped with the [[product topology]] $\mathcal{O}_{X \times Y}$. 
 
 =--
 
