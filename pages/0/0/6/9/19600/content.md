@@ -17,7 +17,7 @@ In his early philosophical work Russell concerned himself with German [[idealism
 
 > ... when we talk of divers spaces, we mean only parts of one and the same space.
 
-In the essay under consideration Russell proposes an alternative version of Kants argument that continues the notion of a space, a "form of externality", that is given a priori. About this space three properties can be deduced a priori (constant [[curvature]], [[finite number|finite]] [[dimension|dimensionality]], and existence of straight [[lines]]). At the end of his essay Russel recapulates:
+In the essay under consideration Russell proposes an alternative version of Kants argument that continues the idea of a space given a priori, but only as a "form of externality" and not a concrete perception of a space. About this space three properties can be deduced a priori (constant [[curvature]], [[finite number|finite]] [[dimension|dimensionality]], and existence of straight [[lines]]). At the end of his essay Russel recapulates:
 
 
 > ...
