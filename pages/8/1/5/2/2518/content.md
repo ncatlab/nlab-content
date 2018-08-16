@@ -90,6 +90,11 @@ which became one chapter in
 
 * [[Univalent Foundations Project]], _[[Homotopy Type Theory – Univalent Foundations of Mathematics]]_
 
+Relation to [[material set theory]] is discussed in
+
+* {#Shulman18} [[Michael Shulman]], _Comparing material and structural set theories_ ([arXiv:1808.05204](https://arxiv.org/abs/1808.05204))
+
+
 See also
 
 * {#Benacerraf65} P. Benacerraf, _What numbers could not be_, The Philosophical Review Vol. 74, No. 1, Jan., 1965  {#WhatNumbersCouldNotBe}
