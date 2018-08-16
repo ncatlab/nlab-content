@@ -47,13 +47,8 @@ From the defining [[universal property]] of the [[limit]] it follows directly th
 
 The dual concept is that of a [[regular epimorphism]].
 
-+-- {: .num_remark}
-###### Remark
-
-Beware that ([CassidyHebertKelly](#CassidyHebertKelly)) use `regular monomorphism' in a more general way: for them, a regular monomorphism is by definition the joint equalizer or an arbitrary family of parallel pairs of morphisms with common domain.
-This concept is sometimes called [[strict monomorphism]], dual to the more commonly used [[strict epimorphism]].
-
-=--
+\begin{rmk} Beware that ([CassidyHebertKelly](#CassidyHebertKelly)) use 'regular monomorphism' in a more general way: for them, a regular monomorphism is by definition the joint equalizer or an arbitrary family of parallel pairs of morphisms with common domain.
+This concept is sometimes called [[strict monomorphism]], dual to the more commonly used [[strict epimorphism]]. \end{rmk}
 
 ## Properties
 
