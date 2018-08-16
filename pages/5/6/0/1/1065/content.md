@@ -107,7 +107,7 @@ Other textbooks include
 
 * I. Bucur, A. Deleanu, _Introduction to the theory of categories and functors_, 1968
 
-* S. I . Gelfand, [[Yu. I. Manin]], _Methods of homological algebra_
+* [[Sergei Gelfand]], [[Yuri Manin]], _Methods of homological algebra: 2nd edition_, Springer, 2002.
 
 See also
 
