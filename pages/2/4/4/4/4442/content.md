@@ -336,6 +336,10 @@ An explicit relalization of the [[Green-Schwarz action functional]] of the [[M5-
 * {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
 
 
+### Generalizations
+
+* Gianluca Grignani, Troels Harmark, Andrea Marini, Marta Orselli, _The Born-Infeld/Gravity Correspondence_, Phys. Rev. D 94, 066009 (2016) ([arXiv:1602.01640](https://arxiv.org/abs/1602.01640))
+
 ### Applications
  {#Appications}
 
