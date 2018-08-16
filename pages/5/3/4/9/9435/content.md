@@ -30,7 +30,6 @@ These in turn are special cases of [[L-∞ algebra cohomology|L-∞ algebra exte
 
 [[!include geometric quantization extensions - table]]
 
-
 ## References
 
 The traditional Kostant-Souriau extension appears for instance prop. 2.3.9 in 
