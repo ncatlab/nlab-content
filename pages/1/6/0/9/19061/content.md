@@ -11,6 +11,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -44,5 +45,9 @@ Review includes
 See also
 
 * {#FraserManolopoulosSfetsos18} Benjo Fraser, Dimitrios Manolopoulos, [[Konstantinos Sfetsos]], _Non-Abelian T-duality and Modular Invariance_ ([arXiv:1805.03657](https://arxiv.org/abs/1805.03657))
+
+Discussion of the duality at the level of [[type II supergravity]] [[equations of motion]] is (using [[Riemannian geometry]] of [[Courant algebroids]]) due to
+
+* [[Branislav Jurco]], [[Jan Vysoky]], _Poisson-Lie T-duality of String Effective Actions: A New Approach to the Dilaton Puzzle_, Journal of Geometry and Physics Volume 130, August 2018, Pages 1-26 ([arXiv:1708.04079](https://arxiv.org/abs/1708.04079))
 
 [[!redirects nonabelian T-duality]]
