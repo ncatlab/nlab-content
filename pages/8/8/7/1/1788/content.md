@@ -15,5 +15,870 @@ Hello
 
 Theorem \ref{SomeImportantTheorem} is quite significant.
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometric quantization
++--{: .hide}
+[[!include geometric quantization - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Geometric quantization is one formalization of the notion of _[[quantization]]_ of a [[classical mechanical system]]/[[classical field theory]] to a [[quantum mechanical system]]/[[quantum field theory]]. In comparison to _[[deformation quantization]]_ it focuses on [[spaces of states]], hence on the [[Schrödinger picture]] of [[quantum mechanics]].
+
+### Ingredients
+
+With a [[symplectic manifold]] regarded as a [[classical mechanical system]], _geometric quantization_ produces [[quantization]] of this to a [[quantum mechanical system]] by 
+
+1. realize the [[symplectic form]] as the [[curvature]] of a $U(1)$-[[principal bundle]] with [[connection on a bundle|connection]] (which requires the form to have integral [[periods]]): called the [[prequantum circle bundle]];
+
+1. choose a [[polarization]] -- a splitting of the abstract [[phase space]] into "coordinates" and "momenta";
+
+and then form
+
+1. a [[Hilbert space]] of [[states]] as the space of [[sections]] of the [[associated bundle|associated]] [[line bundle]] which depend only on the "coordinates" (not on the "momenta");
+
+1. associate with every function on the symplectic manifold -- every [[Hamiltonian]] -- a [[linear operator]] on this Hilbert space.
+
+### History and variants
+ {#HistoryAndVariants}
+
+The approach is due to [[Alexandre Kirillov]] ("[[orbit method]]"), [[Bertram Kostant]] and [[Jean-Marie Souriau]]. See the [References](#ReferencesGeneral) below. It is closely related to [[Berezin quantization]] and the subject of [[coherent states]].
 
 
+<img src="http://ncatlab.org/nlab/files/SouriauPrequantumFlowChart.jpg" alt="Prequantum flow chart" />
+
+([Souriau 74, fig 1](#Souriau74))
+
+
+In a long term project [[Alan Weinstein]] and many of his students have followed the idea that the true story behind geometric quantization crucially involves [[symplectic Lie groupoids]]: [[higher symplectic geometry]]. See [[geometric quantization of symplectic groupoids]] for more on this. 
+
+More generally, there is _[[higher geometric quantization]]_.
+
+
+### Overview 
+
+> This overview is taken from ([Baez](#Baez)).
+
+_Geometric quantization_ is a tool for understanding the relation between [[classical physics]] and [[quantum field theory|quantum physics]]. Here's a brief sketch of how it goes. 
+
+1. We start with a *classical [[phase space]]*: mathematically, this is a [[manifold]] $X$ with a [[symplectic geometry|symplectic structure]] $\omega$.
+
+1. Then we do *prequantization*: this gives us a Hermitian [[line bundle]] $L$ over $X$, equipped with a $U(1)$ [[connection on a bundle|connection]] $D$ whose curvature equals $i \omega$. $L$ is called the **[[prequantum line bundle]]**.
+
+   **Warning:** we can only do this step if $\omega$ satisfies the *Bohr--Sommerfeld condition*, which says that $\omega/2\pi$ defines an [[integral cohomology]] class. If this condition holds, $L$ and $D$ are determined up to [[isomorphism]], but not canonically.
+
+1. The [[Hilbert space]] $H_0$ of square-integrable [[section]]s of $L$ is called the *prequantum Hilbert space*. This is not yet the Hilbert space of our quantized theory -- it's too big. But it's a good step in the right direction. In particular, we can *prequantize classical observables*: there's a map sending any smooth function on $X$ to an operator on $H_0$. This map takes [[Poisson bracket]]s to [[commutator]]s, just as one would hope. The formula for this map involves the [[connection on a bundle|connection]] $D$.
+
+1. To cut down the prequantum Hilbert space, we need to choose a *[[polarization]]*, say $P$. What's this? Well, for each point $x \in X$, a polarization picks out a certain subspace $P_x$ of the complexified [[tangent bundle|tangent space]] at $x$. We define the *quantum Hilbert space*, $H$, to be the space of all square-integrable sections of $L$ that give zero when we take their [[covariant derivative]] at any point $x$ in the direction of any vector in $P_x$. The quantum Hilbert space is a subspace of the prequantum Hilbert space.
+
+   **Warning:** for $P$ to be a polarization, there are some crucial technical conditions we impose on the subspaces $P_x$. First, they must be *isotropic*: the complexified symplectic form $\omega$ must vanish on them. Second, they must be *Lagrangian*: they must be maximal isotropic subspaces. Third, they must vary smoothly with $x$. And fourth, they must be *integrable*.
+
+1. The easiest sort of polarization to understand is a *real polarization*. This is where the subspaces $P_x$ come from subspaces of the tangent space by complexification. It boils down to this: a [[real polarization]] is an [[integrable distribution]] $P$ on the classical phase space where each space $P_x$ is [[Lagrangian subspace]] of the [[tangent space]] $T_x X$.
+
+1. To understand this rigamarole, one must study examples! First, it's good to understand how good old *Schr&#246;dinger quantization* fits into this framework. Remember, in Schr&#246;dinger quantization we take our classical [[phase space]] $X$ to be the [[cotangent bundle]] $T^* M$ of a [[manifold]] $M$ called the *classical configuration space*. We then let our quantum Hilbert space be the space of all [[square-integrable functions]] on $M$.
+
+   Modulo some technical trickery, we get this example when we run the above machinery and use a certain god-given real polarization on $X = T^*M$, namely the one given by the vertical vectors.
+
+1. It's also good to study the *Bargmann--Segal representation*, which we get by taking $X = \mathbb{C}^n$ with its god-given symplectic structure (the imaginary part of the inner product) and using the god-given *K&#228;hler polarization*. When we do this, our quantum Hilbert space consists of analytic functions on $\mathbb{C}^n$ which are square-integrable with respect to a Gaussian measure centered at the origin.
+
+1. The next step is to *quantize classical observables*, turning them into linear operators on the quantum Hilbert space $H$. Unfortunately, we can't quantize all such observables while still sending [[Poisson bracket]]s to [[commutator]]s, as we did at the prequantum level. So at this point things get trickier and my brief outline will stop. Ultimately, the reason for this problem is that quantization is not a [[functor]] from the [[category]] of symplectic manifolds to the category of Hilbert spaces -- but for that one needs to learn a bit about [[category theory]]. 
+
+### Basic Jargon 
+
+Here are some definitions of important terms. Unfortunately they are defined using other terms that you might not understand. If you are really mystified, you need to read some books on [[differential geometry]] and the math of [[classical mechanics]] before proceeding.
+
+* **complexification**: We can tensor a real vector space with the complex numbers and get a complex vector space; this process is called complexification. For example, we can complexify the tangent space at some point of a manifold, which amounts to forming the space of complex linear combinations of tangent vectors at that point.
+
+* **distribution**: The word "distribution" means many different things in mathematics, but here's one: a "distribution" $V$ on a manifold $X$ is a choice of a subspace $V_x$ of each tangent space $T_p X$, where the choice depends smoothly on $x$.
+
+* **Hamiltonian vector field**: Given a manifold $X$ with a symplectic structure $\omega$, any smooth function $f: X \to \mathbb{R}$ can be thought of as a "Hamiltonian", meaning physically that we think of it as the energy function and let it give rise to a flow on $X$ describing the time evolution of states. Mathematically speaking, this flow is generated by a vector field $v(f)$ called the "Hamiltonian vector field" associated to $f$. It is the unique vector field such that
+
+  $$
+    \omega(-, v(f)) = d f
+  $$
+
+  In other words, for any vector field $u$ on $X$ we have
+
+  $$
+    \omega(u,v(f)) = d f(u) = u f
+  $$
+
+
+  The vector field $v(f)$ is guaranteed to exist by the fact that $\omega$ is nondegenerate.
+
+* **[[integrable distribution]]**: A [[distribution of subspaces]] of the [[tangent bundle]] on a [[smooth manifold]] $X$ is "integrable" if at least locally, there is a [[foliation]] of $X$ by submanifolds such that $V_x$ is the tangent space of the submanifold containing the point $x$.
+
+* **[[integral cohomology]] class**: Any closed [[differential p-form]] on a [[smooth manifold]] $M$ defines an element of the $p$th [[de Rham cohomology]] of $M$. This is a finite-dimensional vector space, and it contains a lattice called the $p$th integral [[cohomology group]] of $M$. We say a cohomology class is integral if it lies in this lattice. Most notably, if you take any $U(1)$ [[connection on a bundle|connection]] on any Hermitian line bundle over $M$, its curvature $2$-form will define an integral cohomology class once you divide it by $2 \pi i$. This cohomology class is called the first [[Chern class]], and it serves to determine the line [[bundle]] up to [[isomorphism]].
+
+* **[[Poisson bracket]]s**: Given a symplectic structure on a manifold $M$ and given two smooth functions on that manifold, say $f$ and $g$, there's a trick for getting a new smooth function $\{f,g\}$ on the manifold, called the Poisson bracket of $f$ and $g$.
+
+  This trick works as follows: given any smooth function $f$ we can take its differential $d f$, which is a $1$-form. Then there is a unique vector field $v(f)$, the Hamiltonian vector field associated to $f$, such that
+
+  $$
+    \omega(-,v(f)) = d f
+  $$
+
+   Using this we define
+
+   $$
+     \{f,g\} = \omega(v(f),v(g))
+   $$
+
+   It's easy to check that we also have $\{f,g\} = d g(v(f)) = v(f) g$. So $\{f,g\}$ says how much $g$ changes as we differentiate it in the direction of the Hamiltonian vector field generated by $f$.
+
+   In the familiar case where $M$ is $\mathbb{R}^{2n}$ with momentum and position coordinates $p_i$, $q_i$, the Poisson brackets of $f$ and $g$ work out to be
+
+   $$
+     \{f,g\} = \sum_i \frac{d f}{d p_i} \frac{d g}{d q_i} - \frac{d f}{d q_i}\frac{d g}{d p_i}
+   $$
+
+* **square-integrable sections**: We can define an inner product on the sections of a Hermitian line bundle over a manifold $X$ with a symplectic structure. The symplectic structure defines a volume form which lets us do the necessary integral. A section whose inner product with itself is finite is said to be square-integrable. Such sections form a Hilbert space $H_0$ called the "prequantum Hilbert space". It is a kind of preliminary version of the Hilbert space we get when we quantize the classical system whose phase space is $X$.
+
+* **symplectic structure**: A symplectic structure on a manifold $M$ is a closed $2$-form $\omega$ which is nondegenerate in the sense that for any nonzero tangent vector $u$ at any point of $M$, there is a tangent vector $u$ at that point for which $w(u,v)$ is nonzero.
+
+* **$U(1)$ [[connection on a bundle|connection]]**: The [[group]] $U(1)$ is the group of unit complex numbers. Given a complex line bundle $L$ with an inner product on each fiber $L_x$, a $U(1)$ connection on $L$ is a connection such that parallel translation preserves the inner product.
+
+* **vertical vectors**: Given a bundle $E$ over a manifold $M$, we say a tangent vector to some point of $E$ is vertical if it projects to zero down on $M$. 
+
+
+
+## Definition
+
+Geometric quantization involves two steps
+
+1. [Geometric prequantization](#GeometricPrequantization)
+
+1. [Geometric quantization proper](#GeometricQuantizationProper).
+
+### Geometric prequantization 
+ {#GeometricPrequantization}
+
+##### Prequantum line bundle
+
+Given the [[symplectic form]] $\omega$, a 
+[[prequantum circle bundle]] for it is a 
+[[circle n-bundle with connection|circle bundle with connection]] whose [[curvature]] is $\omega$. 
+
+In other words, prequantization is a lift of $\omega$ through the curvature-[[exact sequence]] of [[ordinary differential cohomology]] (see there).
+
+The multiple of the [[Chern class]] of this line bundle is identified with the inverse _[[Planck constant]]_.
+
+
+#### Prequantum states
+
+A _prequantum state_ is a [[section]] of the [[prequantum bundle]].
+
+This becomes a _[[quantum spate]]_ or [[wavefunction]] if [[polarization|polarized]] (...).
+
+#### Prequantum operators
+
+Let $\nabla : X \to \mathbf{B} U(1)_{conn}$ be a
+[[prequantum line bundle]] $E \to X$ [[connection on a bundle|with connection]] for $\omega$. Write $\Gamma_X(E)$ for its space of smooth [[sections]], the _[[prequantum space of states]]_.
+
+
++-- {: .num_defn #PrequantumOperator}
+###### Definition
+**([[prequantum operators]])**
+
+For $f \in C^\infty(X, \mathbb{C})$ a function on phase space, the corresponding **[[quantum operator (in geometric quantization)|quantum operator]]** is the linear map
+
+$$
+  \hat f \colon \Gamma_X(E) \to \Gamma_X(E)
+$$
+
+given by
+
+$$
+  \label{FormulaForPrequantumOperator}
+  \psi \mapsto -i \nabla_{v_f} \psi + f \cdot \psi
+  \,,
+$$
+
+where 
+
+* $v_f$ is the [[Hamiltonian vector field]]
+corresponding to $f$;
+
+* $\nabla_{v_f} : \Gamma_X(E) \to \Gamma_X(E)$ is the [[covariant derivative]] of sections along $v_f$ for the given choice of prequantum connection;
+
+* $f \cdot (-) : \Gamma_X(E) \to \Gamma_X(E)$ is the operation of degreewise multiplication pf sections.
+
+=--
+
++-- {: .num_remark #OriginOfTheFormulaForPrequantumOperators}
+###### Remark
+**(origin of the formulas for [[prequantum operators]])*+
+
+The formula (eq:FormulaForPrequantumOperator) may look a bit mysterious on first sight. The correction term to the [[covariant derivative]] appearing in this formula is ultimately due to the fact that with $v$ the [[Hamiltonian vector field]] corresponding to a [[Hamiltonian]] $H_v$ via
+
+$$
+  \iota_v \omega = d H_v
+$$
+
+then the [[Lie derivative]] of $\theta$ (the symplectic potentiation, related by $d \theta = \omega$) is
+
+$$
+  \mathcal{L}_v \theta = d \tilde H_v
+$$
+
+for 
+
+$$
+  \tilde H_v = H_v + \iota_v \theta
+  \,.
+$$
+
+Here the second term on the right is what yields the [[covariant derivative]] in (eq:FormulaForPrequantumOperator), while the first summand is the correction term in (eq:FormulaForPrequantumOperator).
+
+A derivation of these formulas from first principles is given in ([Fiorenza-Rogers-Schreiber 13a](#FiorenzaRogersSchreiber13a), example 3.2.3 and remark 3.3.16).
+
+=--
+
+### Geometric quantization
+ {#GeometricQuantizationProper}
+
+Given a [[prequantum bundle]] as above, the actual step of genuine _geometric quantization_ consists first of forming _half_ its space of sections in a certain sense. Physically this means passing to the space of [[wavefunctions]] that depend only on [[canonical coordinates]] but not on [[canonical momenta]]. Second, [[subgroups]] of the group of (exponentiated) [[prequantum operators]] are made to descend to this space of quantum states, these are the [[quantum operators]] or [[quantum observables]].
+
+#### Quantum states
+ {#QuantumStates}
+
+Historically, the traditional way to formalize the formation of the [[space of quantum states]] is as a 3-step process
+
+1. choose a [Polarization](#Polarizations);
+
+1. choose a [Metaplectic correction](#MetaplecticCorrection);
+
+1. form the induced [[space of quantum states]] as the space of polarized sections of the [[prequantum line bundle]] tensored a certain half-form bundle.
+
+This we discuss at 
+
+* _[Quantum state space as space of polarized sections](#Polarizations)_
+
+This traditional route via polarizations and metaplectic corrections has the disadvantage that mathematically it is not a very natural operation.  However, under mild conditions it turns out to be [[equivalence|equivalent]] to the following mathematically very natural construction
+
+1. choose a [[KU-orientation]], hence a  [[spin^c structure]] of $X$ compatible with the given prequantum bundle;
+
+1. take the space of quantum states to be the [[push-forward in generalized cohomology|push-forward]] in [[complex K-theory]] of the [[prequantum line bundle]] to the point, hence the [[index]] of the [[spin^c Dirac operator]] twisted by the [[prequantum line bundle]].
+
+This general _[[geometric quantization by push-forward]]_ is discussed below at  
+
+* _[Quantum space of states as index of a Dirac operator](#AsIndexOfSpinCDiracOperator)_.
+
+In the special case that the [[prequantum line bundle]] admits a [[Kähler polarization]] this [[geometric quantization by push-forward|push-forward quantization]] has a direct expression in terms of the [[complex geometry|complex]] [[abelian sheaf cohomology]] and of the [[Dolbeault operator]] of the prequantum [[holomorphic line bundle]]. Now the choice of [[metaplectic correction]] is precisely a  [[spin structure]] (a "[[Theta characteristic]]") and the [[index]] is now that of the [[Dolbeault-Dirac operator]] which is equivalently just the [[Euler characteristic]] of the holomorphic [[abelian sheaf cohomology]] of the [[prequantum line bundle]]. This complex Dolbeault quantization case we discuss in 
+
+* _[Quantum state space as Euler characteristic of prequantum sheaf cohomology](#EulerCharacteristicOfSheafCohomology)_
+
+and
+
+* _[Quantum state space as index of the Dolbeault-Dirac operator](#IndexOfDolbeaultDiracOperator)_.
+
+
+##### Quantum state space as space of polarized sections 
+ {#Polarizations}
+
+For $(X, \omega)$ a [[symplectic manifold]], choose a [[Kähler polarization]], hence an involutive Lagrangian subbundle $\mathcal{P} \subset T_{\mathcal{C}} X$ such that $\mathcal{P} \cap \overline{\mathcal{P}} = 0$.
+Choose moreover a [[metaplectic correction]] of $\mathcal{P}$. This defines the [[half-density]] bundle $\sqrt{\Omega \mathcal{P}}$ along $\mathcal{P}$. 
+
+Let now $(L,\nabla)$ be a [[prequantum line bundle]] for $(X,\omega)$.
+
++-- {: .num_defn #PolarizedQuantumStates}
+###### Definition
+
+The [[space of quantum states]] of the prequantum bundle defined by the choice of [[Kähler polarization]] $\mathcal{P}$ and [[metaplectic correction]] $\sqrt{\Omega \mathcal{P}}$ is the space of [[sections]] of the [[tensor product]] $L \otimes \sqrt{\Omega \mathcal{P}}$ which are [[covariant derivative]] covariantly constant with respect to $\nabla$ along $\overline{\mathcal{P}}$ and square integrable with respect to the induced [[integration]] over $X/\overline{\mathcal{P}}$:
+
+$$
+  \mathcal{H}_{pol}
+  \colon
+  L^2
+  \left(
+  \left\{
+   \psi \in \Gamma(L \otimes \sqrt{\Omega \mathcal{P}})
+   \;|\;
+   \nabla_{\overline{\mathcal{P}}} \psi = 0
+  \right\}
+  \right)
+  \,.
+$$
+
+=--
+
+For instance ([Bates-Weinstein, def. 7.17](#BatesWeinstein)).
+
++-- {: .num_remark}
+###### Remark
+
+In the case of [[Kähler polarization]] it is useful to write $\Omega^{n,0}$ for the [[canonical line bundle]] of the polarization and $\sqrt{\Omega^{n,0}}$ for the corresponding choice of [[metaplectic correction]]/[[Theta characteristic]].
+
+=--
+
+##### Quantum state space as Euler characteristic of prequantum sheaf cohomology
+ {#EulerCharacteristicOfSheafCohomology}
+
+Let $(X,\omega)$ be a _[[compact topological space]]_ [[symplectic manifold]], $L_\omega$ a [[prequantum line bundle]], $\mathcal{P}$ a [[Kähler polarization]] and $\sqrt{\Omega^{n,0}}$ a [[metaplectic correction]].
+
++-- {: .num_defn #EulerQuantumStates}
+###### Definition
+
+The corresponding Euler quantum Hilbert space  is the [[virtual vector space]]
+
+$$
+  \mathcal{H}_{Euler}
+  \coloneqq
+  \bigoplus_{k = 0}^{n} (-1)^k \, H^{0,k}(X,L_\omega \otimes \sqrt{\Omega^{n,0}})
+  \,,
+$$
+
+which is the alternating [[direct sum]] of the [[Dolbeault cohomology]] space of $X$ with [[coefficients]] in the [[tensor product]] $L_\omega \otimes \sqrt{\Omega^{n,0}}$ of the [[prequantum line bundle]] with the [[metaplectic correction]]/[[Theta characteristic]].
+
+=--
+
+
++-- {: .num_remark #SectionsAndEulerQuantizationCoincidesOnPositiveBundles}
+###### Remark
+
+The [[Kodaira vanishing theorem]] asserts that if $L_\omega \sqrt{\Omega^{n,0}}^{-1}$ is a [[positive line bundle]] 
+then all the higher [[cohomology groups]] in the above expression vanish. Therefore in this case the definition coincides with that via polarizations in def. \ref{PolarizedQuantumStates} above.
+
+$$
+  \left(
+    L_\omega \otimes \sqrt{\Omega^{n,0}}^{-1}
+    \;
+    positive
+  \right)
+  \Rightarrow
+  \left(
+    \mathcal{H}_{pol} \simeq \mathcal{H}_{Euler}
+  \right)
+  \,.
+$$
+
+=--
+
+
+##### Quantum state space as space of polarized sections 
+ {#Polarizations}
+
+For $(X, \omega)$ a [[symplectic manifold]], choose a [[Kähler polarization]], hence an involutive Lagrangian subbundle $\mathcal{P} \subset T_{\mathcal{C}} X$ such that $\mathcal{P} \cap \overline{\mathcal{P}} = 0$.
+Choose moreover a [[metaplectic correction]] of $\mathcal{P}$. This defines the [[half-density]] bundle $\sqrt{\Omega \mathcal{P}}$ along $\mathcal{P}$. 
+
+Let now $(L,\nabla)$ be a [[prequantum line bundle]] for $(X,\omega)$.
+
++-- {: .num_defn #PolarizedQuantumStates}
+###### Definition
+
+The [[space of quantum states]] of the prequantum bundle defined by the choice of [[Kähler polarization]] $\mathcal{P}$ and [[metaplectic correction]] $\sqrt{\Omega \mathcal{P}}$ is the space of [[sections]] of the [[tensor product]] $L \otimes \sqrt{\Omega \mathcal{P}}$ which are [[covariant derivative]] covariantly constant with respect to $\nabla$ along $\overline{\mathcal{P}}$ and square integrable with respect to the induced [[integration]] over $X/\overline{\mathcal{P}}$:
+
+$$
+  \mathcal{H}_{pol}
+  \colon
+  L^2
+  \left(
+  \left\{
+   \psi \in \Gamma(L \otimes \sqrt{\Omega \mathcal{P}})
+   \;|\;
+   \nabla_{\overline{\mathcal{P}}} \psi = 0
+  \right\}
+  \right)
+  \,.
+$$
+
+=--
+
+For instance ([Bates-Weinstein, def. 7.17](#BatesWeinstein)).
+
++-- {: .num_remark}
+###### Remark
+
+In the case of [[Kähler polarization]] it is useful to write $\Omega^{n,0}$ for the [[canonical line bundle]] of the polarization and $\sqrt{\Omega^{n,0}}$ for the corresponding choice of [[metaplectic correction]]/[[Theta characteristic]].
+
+=--
+
+##### Quantum state space as Euler characteristic of prequantum sheaf cohomology
+ {#EulerCharacteristicOfSheafCohomology}
+
+Let $(X,\omega)$ be a _[[compact topological space]]_ [[symplectic manifold]], $L_\omega$ a [[prequantum line bundle]], $\mathcal{P}$ a [[Kähler polarization]] and $\sqrt{\Omega^{n,0}}$ a [[metaplectic correction]].
+
++-- {: .num_defn #EulerQuantumStates}
+###### Definition
+
+The corresponding Euler quantum Hilbert space  is the [[virtual vector space]]
+
+$$
+  \mathcal{H}_{Euler}
+  \coloneqq
+  \bigoplus_{k = 0}^{n} (-1)^k \, H^{0,k}(X,L_\omega \otimes \sqrt{\Omega^{n,0}})
+  \,,
+$$
+
+which is the alternating [[direct sum]] of the [[Dolbeault cohomology]] space of $X$ with [[coefficients]] in the [[tensor product]] $L_\omega \otimes \sqrt{\Omega^{n,0}}$ of the [[prequantum line bundle]] with the [[metaplectic correction]]/[[Theta characteristic]].
+
+=--
+
+
++-- {: .num_remark #SectionsAndEulerQuantizationCoincidesOnPositiveBundles}
+###### Remark
+
+The [[Kodaira vanishing theorem]] asserts that if $L_\omega \sqrt{\Omega^{n,0}}^{-1}$ is a [[positive line bundle]] 
+then all the higher [[cohomology groups]] in the above expression vanish. Therefore in this case the definition coincides with that via polarizations in def. \ref{PolarizedQuantumStates} above.
+
+$$
+  \left(
+    L_\omega \otimes \sqrt{\Omega^{n,0}}^{-1}
+    \;
+    positive
+  \right)
+  \Rightarrow
+  \left(
+    \mathcal{H}_{pol} \simeq \mathcal{H}_{Euler}
+  \right)
+  \,.
+$$
+
+=--
+
+
+
+##### Quantum state space as index of Dolbeault-Dirac operator
+ {#IndexOfDolbeaultDiracOperator}
+
+Suppose again that $(X,\omega, L_\omega)$ is equipped with a [[Kähler polarization]]. 
+
+We need the following general fact on [[spin structures]] over [[Kähler manifolds]].
+
++-- {: .num_prop #SpinStructuresOnKaehlerManifolds}
+###### Proposition
+
+A choice of [[spin structure]] on the [[Kähler manifold]] $X$ (of real dimension $2n$) is equivalently a choice of [[square root]] ("[[Theta characteristic]]") $\sqrt{\Omega^{n,0}}$ of the [[canonical line bundle]] $\Omega^{n,0}$. 
+
+Given such a choice, there is a [[natural isomorphism]] between the [[spinor bundle]] $S_X$ and the (anti-)holomorphic form bundle tensored by this square root
+
+$$
+  S \simeq \Omega^{0,\bullet} \otimes \sqrt{\Omega^{n,0}}
+ \,.
+$$
+
+Finally, the corresponding [[Dirac operator]] is the [[Dolbeault-Dirac operator]] $\overline{\partial} + \overline{\partial}^\ast$.
+
+=--
+
+See at _[spin structure -- Over a K&#228;hler manifold](spin+structure#OverAKahlerManifold)_.
+
++-- {: .num_remark}
+###### Remark
+
+It follows that the [[Dirac operator]] on $X$ which is twisted by the [[connection on a bundle|connection]] $\nabla$ on the [[prequantum line bundle|prequantum]] [[holomorphic line bundle]] $L_\omega$ is of the form
+
+$$
+  \overline{\partial}_\nabla + \overline{\partial}^\ast_\nabla
+  \;\colon\;
+  \Omega^{0,even/odd}\left(X, \;L_\omega \otimes \sqrt{\Omega^{n,0}}\right)
+  \to 
+  \Omega^{0,odd/even}\left(X, \; L_\omega \otimes \sqrt{\Omega^{n,0}}\right)
+  \,.
+$$
+
+Observe how from the point of view of just the [[Dolbeault operator]], this is twisting not just by the prequantum line bundle itself but by the _[[metaplectic correction|metaplectically corrected]]_ prequantum line bundle $L_\omega \otimes \sqrt{\Omega^{n,0}}$, while from the point of view of the [[Dirac operator]] it is just twisting by $L_\omega$, since tensoring with the square root line bundle $\sqrt{\Omega^{n,0}}$ induces the isomorphism between the antiholomorphic differential form bundle and the actual [[spinor bundle]] over the [[Kähler manifold]].
+
+=--
+
++-- {: .num_defn #DolbeaultDiracSpacesOfStates}
+###### Definition
+
+The *Dolbeault-Dirac* space of quantum states of $(X,\omega, L_\omega)$ is the [[index]] of the $L_\omega$-twisted [[Dolbeault-Dirac operator]] (the [[Todd genus]])
+
+$$
+  \mathcal{H}_{DolbDir} 
+    \coloneqq
+  index( \overline{\partial}_\nabla + \overline{\partial}_\nabla^\ast )
+  \,.
+$$
+
+=--
+
++-- {: .num_remark #DolbeaultDiracAgreesWithEuler}
+###### Remark
+
+This definition agrees with that by [[abelian sheaf cohomology]] in def. \ref{EulerQuantumStates}
+
+$$
+  \mathcal{H}_{Euler} \simeq \mathcal{H}_{DolbDirac}
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+What before in the quantization prescription [by polarization](#Polarizations) and [by abelian sheaf cohomology](#EulerCharacteristicOfSheafCohomology) was the "[[metaplectic correction]]" introduced "by hand" is now naturally part of the [[isomorphism]] of prop. \ref{SpinStructuresOnKaehlerManifolds} which identifies the [[Dirac operator]] with the [[Dolbeault-Dirac operator]].
+
+=--
+
+
+##### Quantum state spaces as index of the $Spin^c$-Dirac operator
+ {#AsIndexOfSpinCDiracOperator}
+
+Finally we come to the true definition of geometric quantization, the most general and at the same time most natural one which contains the above as special cases. 
+
+The actual definition is def. \ref{KTheoreticQuantization} below. Here we lead up to it by spelling out the ingredients. 
+
+We need the following general facts about [[spin^c Dirac operators]].
+
++-- {: .num_defn #SpinCAndDeterminantLineBundle}
+###### Definition
+
+For $n \in \mathbb{N}$, the [[spin^c]]-[[Lie group]] $Spin^c(n)$  is equivalently
+
+* the [[tensor product]] of the ordinary [[spin group]] $Spin(n)$ with the [[circle group]] over the [[group of order 2]]
+
+  $$
+    Spin^c \simeq Spin(n) \underset{\mathbb{Z}_2}{\times} U(1)
+  $$
+
+* the [[loop space object]] 
+
+  $$
+    Spin^c \simeq \Omega \mathbf{B} Spin^c
+  $$
+
+  of the [[homotopy fiber product]] of the universal smooth [[second Stiefel-Whitney class]] and the mod-2 reduction of the universal [[first Chern class]] in [[smooth infinity-groupoids]]:
+
+  $$
+    \array{
+      \mathbf{B}Spin^c(n) &\stackrel{det}{\to}& \mathbf{B}U(1)
+      \\
+      \downarrow &\swArrow_\simeq& \downarrow^{\mathrlap{\mathbf{c}_1 \, mod \, 2}}
+      \\
+      \mathbf{B}SO(n) &\stackrel{\mathbf{w}_2}{\to}& \mathbf{B}^2 \mathbb{Z}_2
+    }
+    \,.
+  $$
+
+Here the top horizontal map is called the universal _[[determinant line bundle]]_ map.
+
+=--
+
+See at _[[spin^c group]]_ for more details.
+
++-- {: .num_remark #SpinCInComponents}
+###### Remark
+
+It follows that if we represent elements of $Spin^c(n) \simeq SO(n) \underset{\mathbb{Z}_2}{\times} U(1)$ as [[equivalence classes]] of pairs $(g,c)$, then the [[determinant line bundle]] map of def. \ref{SpinCAndDeterminantLineBundle} is given by
+
+$$
+  det \;\colon \; (g,c) \mapsto 2c
+  \,,
+$$
+
+where on the right we write the group operation in the [[abelian group]] $U(1)$ additively.
+
+This factor of 2 on the right is crucial in all of the following. 
+
+=--
+
++-- {: .num_defn #SpinCStructure}
+###### Definition
+
+Let $X$ be an [[orientation|oriented]] [[smooth manifold]]. A smooth [[spin^c structure]] on $X$ is a lift $\hat \tau_X$ of the classifying map $\tau_X \colon X \to \mathbf{B} SO(n)$ of its [[tangent bundle]] through the left vertical map in def. \ref{SpinCAndDeterminantLineBundle}
+
+$$
+  \array{
+    && \mathbf{B} Spin^c(n)
+    \\
+    & {}^{\mathllap{\hat \tau_X}}\nearrow & \downarrow
+    \\
+    X &\stackrel{\tau_X}{\to}& \mathbf{B}SO(n)
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_remark #SpinCWithDivisibleDetIsSpinTensorLine}
+###### Remark
+
+In words this says that a [[spin^c structure]] on an oriented manifold $X$ is a choice of [[circle group]]-[[principal bundle]] or equivalenty of hermitian [[complex line bundle]] such that its [[first Chern class]] modulo 2 equals the [[second Stiefel-Whitney class]] $w_2$ of $X$. If this second Stiefel-Whitney class vanishes (as an element in $H^2(X,\mathbb{Z}_2)$) this means that $X$ has a genuine _[[spin structure]]_. So in other words whenever the [[determinant line bundle]] of a [[spin^c structure]] (in the sens of def. \ref{SpinCAndDeterminantLineBundle}) has a [[first Chern class]] that is divisible by 2, then there is an actual [[spin^c structure]].
+
+We can formalize this statement as follows: there is a [[commuting square]] of the form
+
+$$
+  \array{
+     \mathbf{B}( Spin(n) \times U(1) ) &\stackrel{((2 \cdot)\circ p_2}{\to}&
+     \mathbf{B}U(1)
+     \\
+     \downarrow && \downarrow^{\mathrlap{\mathbf{c}_1 \, mod\, 2}}
+     \\
+     \mathbf{B}SO(n) &\stackrel{\mathbf{w}^2}{\to}& \mathbf{B}^2 \mathbb{Z}_2
+  }
+$$
+
+similar to the one in def. \ref{SpinCAndDeterminantLineBundle} but crucially different in that here we have just the [[cartesian product]] of $Spin(n)$ with $U(1)$ in the top left. In the standard presentation of these objects this diagram commutes on the nose (filled by a canonical [[homotopy]]) simply because both ways to go from the top left to the bottom right hit $0 \in \mathbb{Z}_2$: the left-bottom one because $\mathbf{B}Spin(n)$ is essentially by definition such that the second SW class trivializes on it, and the top-right one because first multiplying by 2 and then reducing mod 2 is 0. 
+
+Since the diagram commutes, the [[universal property]] of the above [[homotopy pullback]] says that there is a canonically induced map
+
+$$
+  (p_1, p_2) \;\colon\; Spin(n) \times U(1) \to Spin^c(n)
+  \,.
+$$
+
+Of course this is just the evident [[quotient]] [[projection]] which on elements is simply the identity
+
+$$
+  (g,c) \mapsto (g,c)
+  \,,
+$$
+
+only that on the right we regard the pair $(g,c)$ as a placeholder for its [[equivalence class]] in the [[tensor product]] over $\mathbb{Z}_2$.
+
+Moreover, the [[universal property]] of the [[homotopy pullback]] says that every [[spin^c structure]] $\hat \tau_c$ whose underlying [[determinant line bundle]] is such that its [[first Chern class]] is divisible by 2 actually factors through this map, hence that _it is just the product of an ordinary $Spin$-principal bundle with a circle bundle_.
+
+$$
+  \array{
+    \mathbf{B}(Spin(n) \times U(1)) &\stackrel{p_2}{\to}& \mathbf{B}U(1)
+    \\
+    {}^{\mathllap{(p_1,p_2)}}\downarrow && \downarrow^{\mathbf{B}(2 \cdot)}
+    \\
+    \mathbf{B}Spin^c(n) &\stackrel{det}{\to}& \mathbf{B}U(1)
+    \\
+    \downarrow &(pb)& \downarrow^{\mathrlap{c_1\,mod\,2}}
+    \\
+    \mathbf{B}SO(n) &\stackrel{\mathbf{w}_2}{\to}& \mathbf{B}^2 \mathbb{Z}_2
+  }
+  \,.
+$$
+
+This is the crucial relation by which the K-theoretic quantization will harmonize with the above Euler- and Dolbeault- quantization, discussed below.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+For $n \in \mathbb{N}$ an even number, write 
+
+$$
+  \Delta_n \simeq \mathbb{C}^{2^{n/2}}
+$$ 
+
+for the canonical complex [[spin representation]], which decomposes into two chiral [[irreducible representations]]
+
+$$
+  \Delta_n \simeq \Delta_n^+ \oplus \Delta_n^-
+  \,.
+$$
+
+Then the **canonical [[spin^c]]-[[representation]]** 
+
+$$
+  \rho \colon Spin^c(n) \times \Delta_n \to \Delta_n
+$$
+
+is the one given in the components of remark \ref{SpinCInComponents} by
+
+$$
+  ((g,c), \psi) \mapsto (g(\psi)) \cdot c
+$$
+
+(first act with the spin-component in the usual way and then multiply by $c \in U(1) \hookrightarrow \mathbb{C}$).
+
+
+=--
+
+As discussed at _[[representation]]_ we may think of this as a morphism of [[smooth groupoids]] ([[stacks]]) of the form
+
+$$
+  \rho \colon \mathbf{B} Spin^c(n) \to \mathbb{C}\mathbf{Mod} \simeq \mathbb{C}\mathbf{Vect}
+  \,.
+$$
+ 
++-- {: .num_defn #SpinCSpinorBundle}
+###### Definition
+
+Given a [[spin^c structure]] $\hat \tau_X \colon X \to \mathbf{B}Spin^c(n)$, def. \ref{SpinCStructure}, the **[[associated bundle|associated]] [[spinor bundle]]** is the one modulated by
+
+$$
+  S^c
+  \colon
+  X \stackrel{\hat \tau_X}{\to} \mathbf{B}Spin^c(n)
+  \stackrel{\rho}{\to} \mathbb{C}\mathbf{Vect}
+  \,.
+$$
+
+=--
+
+Crucial for the comparison of the K-theoretic quantization to be defined in a moment and the above Euler/Dolbeault quantization is the following:
+
++-- {: .num_remark #SpinCSpinorsAsTensorProductWhenDetDivisible}
+###### Remark
+
+By remark \ref{SpinCWithDivisibleDetIsSpinTensorLine} it follows that in the case that the [[determinant line bundle]] of the [[spin^c structure]] is divisible by 2, hence in the case that $c_1(det(\hat \tau_X)) = 0 \,mod\, 2 \in H^2(X,\mathbb{Z}_2)$, then the $Spin^c$-[[spinor bundle]] of def. \ref{SpinCSpinorBundle} is just the [[tensor product]] of the ordinary underlying [[spinor bundle]] with _half_ the [[determinant line bundle]]:
+
+$$
+  \left( c_1(det(\hat \tau_X)) = 0 \,mod\, 2 \right)
+  \;\Rightarrow\;
+  \left(S^c \simeq S \otimes \sqrt{det(\hat \tau_X)}\right)
+  \,.
+$$
+
+=--
+
+
+
+Let now $(X,\omega)$ be a ([[presymplectic manifold|pre-]])[[symplectic manifold]] and let $(L_{\omega}, \nabla)$ be a [[prequantum line bundle]]. 
+
+
++-- {: .num_defn #KTheoreticQuantization}
+###### Definition
+
+Given a [[spin^c structure]] $\hat \tau_X$ on $X$ whose underlying [[determinant line bundle]] coincides, up to equivalence, with $(L_\omega)^{\otimes^2}$, then the _[[spin^c quantization]]_ of this prequantum data is the [[index]] of the corresponding [[spin^c Dirac operator]] $D_{\mathbf{c}}$:
+
+$$
+  \mathcal{H}_{K} \coloneqq index(D_{\mathbf{c}})
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This is equivalently the [[fiber integration in generalized cohomology|push-forward]] in [[complex K-theory]] of the [[prequantum line bundle]] to the point. 
+
+Moreover, on [[cocycles]] this push-forward is expressed by the traditional construction of [[Hilbert spaces]] [[space of quantum states|of quantum states]]:
+
+let $X$ be a manifold equipped with a [[Riemannian metric]], a  [[spinor bundle]] and a [[Dirac operator]] $D \colon \Gamma(S) \to \Gamma(S)$. Then the corresponding [[K-homology]] cycle is:
+
+1. the [[Hilbert space]] $L^2(S)$ of [[square integrable function|square integrable]] [[sections]] of the [[spinor bundle]];
+
+1. equipped with the [[action]] by fiberwise multiplication of the [[C*-algebra]] $C_0(X)$ [[algebra of functions|of functions]] [[vanishing at infinity]] 
+
+   $$
+     C_0(X) \to \mathcal{B}(L^2(S))
+   $$
+
+   (which is by [[bounded operators]])
+
+1. and equipped with the [[Dirac operator]] $D$ as the $\mathbb{Z}_2$-graded [[Fredholm operator]] defining the [[K-homology]] class.
+
+Together with is equivalent an element
+
+$$
+  [D, L^2(S)] \in KK(C_0(X), \mathbb{C})
+  \,.
+$$
+
+Postcomposition of K-theory classes $[\xi] \in KK(\mathbb{C}, C_0(X))$ with this map is the [[fiber integration in generalized cohomology|push-forward]]/[[index]] map in K-theory.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This definition does not assume any choice of [[polarization]], nor any choice of [[complex structure]] etc. On the other hand, every choice of [[almost complex structure]] (hence in particular of [[Kähler polarization]]) does induce a [[spin^c structure]], as discussed there. See also ([Borthwick-Uribe 96](#BorthwickUribe96)).
+
+=--
+
+So then we can compare:
+
++-- {: .num_prop}
+###### Proposition
+
+If a choice of [[Kähler polarization]] exists on the [[compact topological space|compact]] [[prequantum geometry]] $(X,L_\omega)$, then the K-theoretic quantization of def. \ref{KTheoreticQuantization} coincides with the Dolbeault-Dirac quantization of def. \ref{DolbeaultDiracSpacesOfStates} and hence, by remark \ref{DolbeaultDiracAgreesWithEuler}, with the Euler-characteristic definition, def. \ref{EulerQuantumStates}, so that all the respectives [[spaces of quantum states]] agree:
+
+$$
+  \left(\left(X,\omega\right) \; Kaehler\right)
+  \;\Rightarrow\;
+  \left(
+  \mathcal{H}_K 
+   \simeq 
+  \mathcal{H}_{DolbDirac} 
+   \simeq 
+  \mathcal{H}_{Euler}
+  \right)
+  \,.
+$$
+
+=--
+
+This is to some extent discussed for instance in ([Hochs 08, lemma 3.32](#Hochs08), [Paradan 09, prop. 2.2](#Paradan09)).
+
++-- {: .proof}
+###### Proof
+
+Let $\sqrt{\Omega^n,0}$ be a choice of [[square root]] ([[Theta characteristic]]) of the [[canonical line bundle]], which according to \ref{SpinStructuresOnKaehlerManifolds} is a choice of [[spin structure]] in the [[Kähler manifold]]. Then by that same proposition the corresponding [[spinor bundle]] is [[isomorphism|isomorphic]] to 
+
+$$
+  S \simeq \Omega^{0,\bullet} \otimes \sqrt{\Omega^{n,0}}
+$$
+
+and so the corresponding $L_\omega$-twisted spinor bundle is
+
+$$
+  \begin{aligned}
+   S \otimes L_\omega & \simeq
+   \left(\Omega^{0,\bullet} \otimes \sqrt{\Omega^{n,0}}\right)
+    \otimes L_\omega
+    \\
+    & \simeq
+   \Omega^{0,\bullet} \otimes \left(\sqrt{\Omega^{n,0}}
+    \otimes L_\omega\right)
+  \end{aligned}
+  \,,
+$$
+
+where we have re-bracheted just for emphasis of how the [[metaplectic correction]] appears as part of the [[spinor bundle]].
+
+At the same time, by remark \ref{SpinCSpinorsAsTensorProductWhenDetDivisible} we have that under this assumption that an actual spin structure exists, the $Spin^c$-[[spinor bundle]] is isomorphic to 
+
+$$
+  S^c \simeq S \otimes L_\omega
+  \,.
+$$
+
+So the two spinor bundles agree. It is now sufficient to observe that under this identification both the [[Dolbeault-Dirac operator]] as well as the [[spin^c Dirac operator]] have the same [[symbol of a differential operator|symbol]] to conclude that they have the same [[index]].
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The assumption in the above that we do have a [[spin structure]] is only for comparison with the Euler-/ Dolbeault-quantization. It is not necessary for the K-theoretic geometric quantization by [[spin^c structure]]. 
+
+In the general case the [[determinant line bundle]] of the [[spin^c structure]] may not admit a square root. (Its failure of having a square root will be compensated precisely by the failure of there being a genuine [[spin structure]].) Still, by the above discussion the [[index]] of the corresponding [[spin^c structure]] is like a quantization of a would-be square root of the determinant line bundle in this case.  
+
+=--
+
+
+#### Quantum operators / observables
+ {#QuantumOperators}
+
+
+Given a [[Hamiltonian action]] on the [[symplectic manifold]] by a [[Lie group]] $G$, we can apply the above [[geometric quantization by push-forward|K-theoretic quantization by push-foward]] in $G$-[[equivariant K-theory]], to 
+
+$$
+  K_G(\ast) \simeq K(\ast//G) \simeq R(G)
+$$ 
+
+This is the [[representation ring]] of $G$ and hence yields not just a [[Hilbert space]], but a Hilbert space equipped with a $G$-[[action]]. This is the action by [[quantum operators]], quantizing the $G$-actions. Generalized orientation theory give the necessary condition for this quantization to exist: $X$ needs to be oriented not just in [[K-theory]] ([[spin^c structure]]) but in $G$-[[equivariant K-theory]] (equivariant [[spin^c structure]]).
+
+So the geometric quantization of observables is essentially what mathematically is known as [[Dirac induction]].
+
+
+###
