@@ -79,15 +79,15 @@ $$
   \,.
 $$
 
-Notice that $1440 = 6 x 8 x 30$. So
+Notice that $1440 = 6 \times 8 \times 30$. So
 
 $$
-  p_2 - (\frac{1}{2}p_2)^2 = 6 ( (\frac{1}{2}p_1)^2 - 30 x 8 I) 
+  p_2 - (\frac{1}{2}p_2)^2 = 6 ( (\frac{1}{2}p_1)^2 - 30 \times 8 I) 
 $$
 
-is divisble by 6. 
+is divisible by 6. 
 
-Assume that $(\frac{1}{2}p_1)$ is further divisble by 2 (see the relevant discussion at _[[M5-brane]]_).
+Assume that $(\frac{1}{2}p_1)$ is further divisible by 2 (see the relevant discussion at _[[M5-brane]]_).
 
 $$
   (\frac{1}{2}p_1) = 2 x
@@ -97,7 +97,7 @@ $$
 Then the above becomes
 
 $$
-  p_2 - (\frac{1}{2}p_2)^2 = 24 ( x^2 - 30 x 2 I) 
+  p_2 - (\frac{1}{2}p_2)^2 = 24 ( x^2 - 30 \times 2 I) 
 $$
 
 and hence then $p_2 + (\frac{1}{2}p_1)^2$ is divisible at least by 24.
