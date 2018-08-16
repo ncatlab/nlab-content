@@ -16,6 +16,12 @@ Frequently in material set theory one takes everything to be a [[pure set]], inc
 
 ## References
 
+Relation to [[structural set theory]] is discussed in
+
+* {#Shulman18} [[Michael Shulman]], _Comparing material and structural set theories_ ([arXiv:1808.05204](https://arxiv.org/abs/1808.05204))
+
+See also
+
 * {#Friedman1997} [[Harvey Friedman]] (1997). [Foundational Completeness](https://cs.nyu.edu/pipermail/fom/1997-November/000143.html). FOM, 1997 November.
   
 
