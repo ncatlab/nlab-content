@@ -33,7 +33,7 @@ $$
   \,,
 $$
 
-where the first sum is the [[Feynman perturbation series]] itself and where the terms with a [[analytic function|non-analytic]] dependence of the form $\exp(-A/g)$ or $\exp(-A/g)$ are the contributions of the [[instantons]]. Since all the [[derivatives]] of the functions $g \mapsto e^{-1/g}$ or $$g \mapsto e^{-1/g^2}$$ vanish at [[coupling constant]] $g = 0$, the [[Taylor series]] of this part of the observble does not appear in [[perturbative QFT]], even though it is present. Therefore this is called a _non-perturbative effect_.
+where the first sum is the [[Feynman perturbation series]] itself and where the terms with a [[analytic function|non-analytic]] dependence of the form $\exp(-A/g)$ or $\exp(-A/g)$ are the contributions of the [[instantons]]. Since all the [[derivatives]] of the functions $g \mapsto e^{-1/g}$ or $g \mapsto e^{-1/g^2}$ vanish at [[coupling constant]] $g = 0$, the [[Taylor series]] of this part of the observble does not appear in [[perturbative QFT]], even though it is present. Therefore this is called a _non-perturbative effect_.
 
 Related is _[[resurgence theory]]_. See also at _[perturbation theory -- Divergence/convergence](perturbation+theory#DivergenceConvergence)_ for more.
 
@@ -95,8 +95,7 @@ Reviews specifically in [[type II string theory]] include
 
 * Hugo Looyestijn, _Non-perturbative effects in type IIA string theory_, Master Thesis 2006 ([pdf](http://testweb.science.uu.nl/ITF/teaching/2006/Looyestijn.pdf))
 
-* [[Angel Uranga]], _Non-perturbative effects and D-brane instanton resummation
-in string theory_ ([[UrangaNonPerturbativeBrane.pdf:file]], [pdf](https://indico.cern.ch/event/75810/contributions/1250733/attachments/1050849/1498253/uranga.pdf))
+* [[Angel Uranga]], _Non-perturbative effects and D-brane instanton resummation in string theory_ ([[UrangaNonPerturbativeBrane.pdf:file]], [pdf](https://indico.cern.ch/event/75810/contributions/1250733/attachments/1050849/1498253/uranga.pdf))
 
 ### In M-Theory
 
