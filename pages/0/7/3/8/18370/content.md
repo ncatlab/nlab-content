@@ -7,4 +7,6 @@
 
 * [[Gopakumar-Vafa invariant]]
 
+* [[higher spin gauge theory]]
+
 category: people
