@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
 #### Enriched category theory
 +--{: .hide}
 [[!include enriched category theory contents]]
