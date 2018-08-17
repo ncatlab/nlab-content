@@ -305,7 +305,7 @@ _Urs says:_ I haven't checked the details. But he is looking at derived homs of 
 
 The term "anafunctor" was introduced by Michael Makkai in
 
-* Makkai, [Avoiding the axiom of choice in general category theory](http://www.math.mcgill.ca/makkai/anafun/) 
+* [[Michael Makkai]], _Avoiding the axiom of choice in general category theory_, Journal of Pure and Applied Algebra **108** isse 2 (1996) pp 109-173, doi:[10.1016/0022-4049(95)00029-1](https://doi.org/10.1016/0022-4049%2895%2900029-1), ([author's page](http://www.math.mcgill.ca/makkai/anafun/)) 
 {#Makkai}
 
 motivated in part to complete the analogy prophase:anaphase::profunctor:??.
