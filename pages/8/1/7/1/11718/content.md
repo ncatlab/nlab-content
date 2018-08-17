@@ -7,5 +7,7 @@
 
 * [[dual graviton]]
 
+* [[higher spin gauge theory]]
+
 category: people
 
