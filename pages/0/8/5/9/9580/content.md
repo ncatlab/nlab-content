@@ -30,17 +30,17 @@ The collection of module categories over a monoidal category forms a [[2-categor
 
 ## Definition
 
-Let $\mathcal{M}$ be a monoidal category and $B\mathcal{M}$ its [[delooping]] as a [[bicategory]]. A (left) module category is then simply a 2-functor $B\mathcal{M} \to \mathcal{Cat}$.
+Let $\mathcal{M}$ be a monoidal category and $B\mathcal{M}$ its [[delooping]] as a [[bicategory]]. A (left) module category is then simply a 2-functor $B\mathcal{M} \to Cat$.
 
 Written out, this amounts to:
 
 * A category $\mathcal{C}$
-* A monoidal functor $\mathcal{M} \to \mathcal{End}(\mathcal{C})$
+* A monoidal functor $\mathcal{M} \to End(\mathcal{C})$
 
 Further expanding this definition, we have the following data:
 
 * A category $\mathcal{C}$
-* A functor $- \triangleright -\colon \mathcal{C} \times \mathcal{M} \to \mathcal{M}$
+* A functor $- \triangleright -\colon \mathcal{M} \times \mathcal{C} \to \mathcal{C}$
 * A natural isomorphism $\alpha_{A,B,X}\colon A \triangleright (B \triangleright X) \to (A \otimes B) \triangleright X$ satisfying a pentagon axiom involving the associator of $\mathcal{M}$
 * A natural isomorphism $\lambda_X\colon I \triangleright X \to X$, where $I$ is the monoidal unit of $\mathcal{M}$, compatible with the left unitor of $\mathcal{M}$.
 
