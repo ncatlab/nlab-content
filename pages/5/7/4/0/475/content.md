@@ -59,7 +59,7 @@ This, and that the monoidal bicategory is even symmetric monoidal is given by th
 
 The original source is
 
-* Gordon, Power, Street, _Coherence for tricategories_, Mem. Amer. Math Soc. 117 (1995) no 558 
+* [[Robert Gordon]], [[John Power]], [[Ross Street]], _Coherence for tricategories_, Mem. Amer. Math Soc. 117 (1995) no 558 
 
 This was refined in the thesis
 
