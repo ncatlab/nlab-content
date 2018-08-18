@@ -219,4 +219,8 @@ Application of Mackey functors to the theory of [[motives]] includes
 
 * {#KahnYamazaki11} [[Bruno Kahn]], Takao Yamazaki, _Voevodsky's motives and Weil reciprocity_, Duke Mathematical Journal 162, 14 (2013) 2751-2796 ([arXiv:1108.2764](http://arxiv.org/abs/1108.2764))
 
+Categorification to Mackey 2-functors can be found in 
+
+* Paul Balmer, Ivo Dell'Ambrogio, _Mackey 2-functors and Mackey 2-motives_, ([arXiv:1808.04902](https://arxiv.org/abs/1808.04902))
+
 [[!redirects Mackey functors]]
