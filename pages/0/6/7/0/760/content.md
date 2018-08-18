@@ -27,7 +27,7 @@ We say that:
 
 * the pair $(r,m)$ is a __[[split idempotent|splitting]]__ of the [[idempotent]] $m \circ r\colon B \to B$.
 
-A split monomorphism in $C$ can be equivalently defined as a morphism $m\colon A \to B$ such that for every [[object]] $X\colon C$, the [[function]] $C(m,X)$ is a [[surjection]] in $\mathbf{Set}$; the preimage of $1_A$ under $C(m,A)$ yields a retraction $r$.
+A split monomorphism in $C$ can be equivalently defined as a morphism $m\colon A \to B$ such that for every [[object]] $X\colon C$, the [[function]] $C(m,X)$ is a [[surjection]] in $\mathbf{Set}$; a preimage of $1_A$ under $C(m,A)$ yields a retraction $r$.
 
 Alternatively, it is also possible to define a split monomorphism as an __absolute monomorphism__: a morphism such that for every functor $F$ out of $C$, $F(m)$ is a [[monomorphism]].  From the definition as a morphism having a retraction, it is obvious that any split monomorphism is absolute; conversely, that the image of $m$ under the [[representable functor]] $C(1,A)$ is a monomorphism reduces to the characterization above.
 
