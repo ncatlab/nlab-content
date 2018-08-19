@@ -43,10 +43,10 @@ The **signature** of a $(p,q)$-shuffle is the [[signature of a permutation|signa
 
 Two other equivalent (and dual) ways of defining the notion of $(p,q)$-shuffle are as follows (e.g. [Hoffbeck-Moerdijk 17, section 1.1](#HoffbeckMoerdijk17)):
 
-* Consider $p$ and $q$ as the [[linear orders]] $[1,p] = \{ 1 \lt \dots \lt p \}$ and $[1,q] = \{ 1 \lt \dots \lt q \}$. Then a $(p,q)$-shuffle is a way of extending the [[partial order]] on the [[coproduct]] $[1,p] + [1,q]$ to a linear order, or equivalently, a [[surjective]] [[monotone function]]
-$$[1,p] + [1,q] \to [1,p+q].$$
-* Consider $p$ and $q$ as [[non-empty]] [[linear orders]] $[0,p] = \{ 0 \lt \dots \lt p \}$ and $[0,q] = \{ 0 \lt \dots \lt q \}$. Then a $(p,q)$-shuffle is a [[maximal chain]] within the [[product]] [[partial order]] $[0,p] \times [0,q]$, or equivalently, an [[injective]] [[monotone function]]
-$$[0,p+q] \to [0,p] \times [0,q].$$
+* Consider $p$ and $q$ as the [[linear orders]] $(p) = \{ 1 \lt \dots \lt p \}$ and $(q) = \{ 1 \lt \dots \lt q \}$. Then a $(p,q)$-shuffle is a way of extending the [[partial order]] on the [[coproduct]] $(p) + (q)$ to a linear order, or equivalently, a [[surjective]] [[monotone function]]
+$$(p) + (q) \to (p+q).$$
+* Consider $p$ and $q$ as [[non-empty]] [[linear orders]] $[p] = \{ 0 \lt \dots \lt p \}$ and $[q] = \{ 0 \lt \dots \lt q \}$. Then a $(p,q)$-shuffle is a [[maximal chain]] within the [[product]] [[partial order]] $[p] \times [q]$, or equivalently, an [[injective]] [[monotone function]]
+$$[p+q] \to [p] \times [q].$$
 
 ### Unshuffles 
 
