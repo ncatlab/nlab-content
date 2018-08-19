@@ -36,7 +36,7 @@ In "synthetic" approaches to the formulation of [[theories]] in [[mathematics]] 
 
 Often the "synthetic approach" is just referred to as "axiomatic". For instance [[model categories]] were introduced as "axiomatic homotopy theory" and indeed they may be regarded as providing a synthetic axiomatization of [[homotopy theory]], which is not based on (but does subsume) the tradtional "point-set model" provided by [[topological spaces]].
 
-* With the advent of [[homotopy type theory]], which may be regarded to some extent as a further abstraction of axioms similar to those of model categories, it became more common to speak of this as "synthetic homotopy theory" (e.g. in the [[Homotopy Type Theory -- Univalent Foundations of Mathematics|HoTT book]]).
+* With the advent of [[homotopy type theory]], which may be regarded to some extent as a further abstraction of axioms similar to those of model categories, it became more common to speak of this as "synthetic homotopy theory", as, for exampl, in the [[Homotopy Type Theory -- Univalent Foundations of Mathematics|HoTT book]]. For a list of work carried out in homotopy type theory, see [[mathematics presented in homotopy type theory]].
 
 * [[synthetic differential topology]]
 
