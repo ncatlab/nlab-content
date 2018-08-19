@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -125,6 +126,10 @@ Discussion in [[rational homotopy theory]]/[[dg-geometry]] is in
 * [[Ernesto Lupercio]], Camilo Rengifo, [[Bernardo Uribe]], _T-duality and exceptional generalized geometry through symmetries of dg-manifolds_ ([arXiv:1208.6048](https://arxiv.org/abs/1208.6048))
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]_ ([arXiv:1611.06536](https://arxiv.org/abs/1611.06536))
+
+reviewed in 
+
+* {#Fiorenza18} [[Domenico Fiorenza]], _T-duality in rational homotopy theory_, talk at _[38th Srni Winter School on Geometry and Physics](http://conference.math.muni.cz/srni/files/archiv/2018/)_, 2018 ([[FiorenzaSrni2018.pdf:file]])
 
 The refinement of topological T-duality to [[differential cohomology]], hence to an operation on the [[differential K-theory]] classes that model the [[RR-field]] is in
 
