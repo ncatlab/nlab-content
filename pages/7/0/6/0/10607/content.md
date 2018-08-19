@@ -175,7 +175,7 @@ $$
   \,,
 $$
 
-where the first inequality is an equality precisely if $n$ is even, while the second is an equality precisely if $n$ is odd. Hence this provides candidate [[unit of an adjunction|unit]] $\eta$ and [[counit of an adjunction|counit]].
+where the first inequality is an equality precisely if $n$ is even, while the second is an equality precisely if $n$ is odd. Hence this provides a candidate [[unit of an adjunction|unit]] $\eta$ and [[counit of an adjunction|counit]] $\epsilon$.
 
 Hence by [this characterization](adjoint+functor#UniversalArrow) of [[adjoint functors]] 
 
