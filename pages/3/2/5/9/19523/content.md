@@ -57,6 +57,11 @@ rises, so the average expansion rate can rise ([Räsänen 10, p. 8](#Rasanen10))
 > Our analysis is based on the discovery of a closed ansatz for perturbations of the SM during the p$ = 0$ epoch of the Big Bang which triggers instabilities that create unexpectedly large regions of accelerated uniform expansion  within  Einstein’s  original  theory  without  the  cosmological constant.  We prove that these accelerated regions introduce
 precisely the same range of corrections to redshift vs luminosity as are produced by the cosmological constant in the theory of Dark Energy. 
 
+A similar conclusion is reached in [Sarkar et al. 18](#SarkarEtAl18), which in [Sarkar 18, slide 44](#Sarkar18) is summarized as follows:
+
+> There is a dipole in the recession velocities of host galaxies of supernovae $\Rightarrow$ we are in a "bulk flow" stretching out _well_ beyond the expected scale ($\sim 100 Mpc$) at which the universe is expected to become statistically homogeneous. The inference that the Hubble expansion rate is accelerating may be an artefact of the local bulk flow $[...]$ The "standard" assumptions of exact isotropy and homogeneity are _questionable $[...]$
+
+
 Survey of the field of inhomogeneous cosmology and of attitudes in the community towards open issues is in [Belejko-Korzyński 16](#BelejkoKorzynski16).
 
 If the apparent small positive [[cosmological constant]] ([[dark energy]]) were but an artifact of neglecting backreaction of inhomogeneities, some theoretical puzzlements regarding [[quantum gravity]] on [[de Sitter spacetimes]] would disappear (see [Rajaraman 16](de+Sitter+spacetime#Rajaraman16) for general discussion and [Danielsson-VanRiet 18, p. 27](#DanielssonVanRiet18) for discussion of [[perturbative string theory vacua]]).
@@ -98,6 +103,7 @@ Accordingly, the review [Coley 18, section 3.5](#Coley18) of [[mathematical phys
 
 
 Indeed, [Smoller-Temple-Vogler 14](#SmollerTempleVogler14) claim an analytic solution which does exhibit inhomogeneity effects mimicking dark energy (see [above](#AbstractSmollerTempleVogler14)).  Also relativistic numerical simulation, albeit in their infancy, seem to exhibit noticeable backreaction (see [above](#NumericalSimulation)).
+
 
 
 
@@ -190,7 +196,7 @@ See also
 
 * {#Buchert07} [[Thomas Buchert]], _Dark Energy from structure: a status report_, Gen.Rel.Grav.40:467-527, 2008 ([arXiv:0707.2153](http://xxx.lanl.gov/abs/0707.2153))
 
-* {#Sarkar08} Subir Sarkar, _Is the evidence for dark energy secure?_, Gen. Rel. Grav.40:269-284, 2008 ([arXiv:0710.5307](https://arxiv.org/abs/0710.5307))
+* {#Sarkar08} [[Subir Sarkar]], _Is the evidence for dark energy secure?_, Gen. Rel. Grav.40:269-284, 2008 ([arXiv:0710.5307](https://arxiv.org/abs/0710.5307))
 
 * Alessio Notari, _Can an Inhomogeneous Universe mimic
 Dark Energy?_, 2009 ([[NotariInhomogeneousCosmology.pdf:file]])
@@ -217,8 +223,9 @@ Dark Energy?_, 2009 ([[NotariInhomogeneousCosmology.pdf:file]])
 
 * {#MacphersonLaskyPrice18} Hayley Macpherson, Paul D. Lasky, Daniel J. Price, _The trouble with Hubble: Local versus global expansion rates in inhomogeneous cosmological simulations with numerical relativity_ ([arXiv:1807.01714](https://arxiv.org/abs/1807.01714))
 
-* Sarkar, arXiv:1808:04597
+* {#SarkarEtAl18} J. Colin, R. Mohayaee, M. Rameez, [[Subir Sarkar]], _Apparent cosmic acceleration due to local bulk flow_ ([arXiv:1808.04597](https://arxiv.org/abs/1808.04597))
 
+* {#Sarkar18} [[Subir Sarkar]], _Is the universe isotropic?_, talk at _[Current Themes in High Energy Physics and Cosmology 2018](https://indico.nbi.ku.dk/event/973/)_ ([pdf](https://indico.nbi.ku.dk/event/973/contributions/8344/attachments/2648/3858/Sarkar_Copenhagen18_cosmo.pdf))
 
 ### Lemaitre-Tolman-Bondi models
 
