@@ -70,3 +70,5 @@ since an arbitrary multichain $x_0 \le x_1 \le \cdots \le x_n$ of length $n$ can
 
 * Joseph P. S. Kung, [[Gian-Carlo Rota]], Catherine H. Yan. Combinatorics: The Rota Way. Cambridge, 2009.
 {#KungRotaYan}
+
+category: combinatorics
