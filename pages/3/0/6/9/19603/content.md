@@ -47,6 +47,6 @@ Work which uses [[modal homotopy type theory]], with, for example,  [[modalities
 
 * [[Michael Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, arXiv:1509.07584
 * [[Felix Wellen]], _Cartan Geometry in Modal Homotopy Type Theory_, arXiv:1806.05966
-* [[Felix Wellen]], Cohesive Covering Theory (Extended Abstract), ([https://hott-uf.github.io/2018/abstracts/HoTTUF18\_paper\_15.pdf](pdf))
+* [[Felix Wellen]], _Cohesive Covering Theory (Extended Abstract)_, ([pdf](https://hott-uf.github.io/2018/abstracts/HoTTUF18\_paper\_15.pdf))
 
 See also [[schreiber:Some thoughts on the future of modal homotopy type theory]].
