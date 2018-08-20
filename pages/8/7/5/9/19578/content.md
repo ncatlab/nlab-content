@@ -46,11 +46,19 @@ The model was introduced in
 
 * {#RandallSundrum99b} Lisa Randall, Raman Sundrum, _An Alternative to Compactification_, Phys.Rev.Lett.83:4690-4693,1999 ([arXiv:hep-th/9906064](https://arxiv.org/abs/hep-th/9906064))
 
+A different but similar approach is the GRS model due to
+
+* {#GRS00} Ruth Gregory, Valery A. Rubakov, Sergei M. Sibiryakov, _Opening up extra dimensions at ultra-large scales_, Phys.Rev.Lett. 84 (2000) 5928-5931 ([arXiv:hep-th/0002072](https://arxiv.org/abs/hep-th/0002072))
+
+* Csaba Csaki, Joshua Erlich, Timothy J. Hollowood, _Quasi-Localization of Gravity by Resonant Modes_, Phys. Rev. Lett.84:5932-5935, 2000 ([arXiv:hep-th/0002161](https://arxiv.org/abs/hep-th/0002161))
+
 Review includes
 
 * Yoonbai Kim, Chong Oh Lee, Ilbong Lee, JungJai Lee, _Brane World of Warp Geometry: An Introductory Review_, J. Kor. Astron. Soc. 37 (2004) 1-14 ([arXiv:hep-th/0307023](https://arxiv.org/abs/hep-th/0307023))
 
-Discusion of relation to [[string theory]] originates around
+Discussion of relation to [[string theory]] originates around
+
+* {#Witten00} [[Edward Witten]], from p. 8 on in _The Cosmological Constant From The Viewpoint Of String Theory_, in _Sources and detection of dark matter and dark energy in the universe_, Springer 2001. 27-36. ([arXiv:hep-ph/0002297](https://arxiv.org/abs/hep-ph/0002297))
 
 *  [[Steven Giddings]], [[Shamit Kachru]], [[Joseph Polchinski]], _Hierarchies from Fluxes in String Compactifications_, Phys. Rev. D66:106006, 2002 ([arXiv:hep-th/0105097](https://arxiv.org/abs/hep-th/0105097))
 
@@ -72,4 +80,11 @@ with further developments including
 
 [[!redirects RS model]]
 [[!redirects RS models]]
+[[!redirects RS-model]]
+[[!redirects RS-models]]
+
+[[!redirects GRS model]]
+[[!redirects GRS models]]
+[[!redirects GRS-model]]
+[[!redirects GRS-models]]
 
