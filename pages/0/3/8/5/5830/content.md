@@ -114,6 +114,10 @@ As a foundation for mathematics whose basic objects are higher groupoids, homoto
 
 * Several variants of the [[axiom of choice]].
 
+Additionally, since homotopy type theory as the internal language of $(\infty, 1)$-toposes is not classical, it is possible to add classically inconsistent axioms, just as, say, the [[Kock-Lawvere axiom]] may be added to ordinary topos theory.
+
+* Axiom R ([Shulman 15](cohesive+homotopy+type+theory/Shulman15))
+
 ### Relation to representation theory
 
 [[!include homotopy type representation theory -- table]]
