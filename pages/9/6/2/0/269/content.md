@@ -8,12 +8,7 @@
 
 ## Definition
 
-+-- {: .num_defn}
-###### Notation
-
-We make use of the notation of [[category of cubes]].
-
-=--
+\begin{notn} We make use of the notation of [[category of cubes]]. \end{notn}
 
 +-- {: .num_defn}
 ###### Definition
