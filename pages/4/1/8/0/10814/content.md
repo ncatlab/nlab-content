@@ -18,8 +18,6 @@
 =--
 
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -32,17 +30,13 @@ The term _double field theory_ has come to be used for [[field theory]] ([[prequ
 ### Para-hermitian geometry
 The use of para-hermitian geometry in Double Field Theory was introduced by Izu Vaisman in ([I.Vaisman 2012](#Vaisman)), then by David Svoboda.
 
-######Definition
-An _almost para-complex manifold_ is a [[manifold]] $M$ equipped with a vector bundle endomorphism $F\in\mathrm{End}(TM)$ such that $F^2=1$ and its $\pm 1$ eigenbundles $T^\pm M$ have same rank. 
+\begin{defn} An _almost para-complex manifold_ is a [[manifold]] $M$ equipped with a vector bundle endomorphism $F\in\mathrm{End}(TM)$ such that $F^2=1$ and its $\pm 1$ eigenbundles $T^\pm M$ have same rank. \end{defn}
 
-######Definition
-The _para-complex projectors_ are the canonical projectors onto $T^\pm M$ defined by $P_\pm = \frac{1}{2}(1\pm F)$ 
+\begin{defn} The _para-complex projectors_ are the canonical projectors onto $T^\pm M$ defined by $P_\pm = \frac{1}{2}(1\pm F)$ \end{defn} 
 
-######Definition
-A $\pm$_-para-complex manifold_ is an almost para-complex manifold $(M,F)$ such that $T^\pm M$ of $F$ is Frobenius integrable as a distribution. A _para-complex_ manifold is a manifold that is both $+$-para-complex and $-$-para-complex.
+\begin{defn} A $\pm$_-para-complex manifold_ is an almost para-complex manifold $(M,F)$ such that $T^\pm M$ of $F$ is Frobenius integrable as a distribution. A _para-complex_ manifold is a manifold that is both $+$-para-complex and $-$-para-complex. \end{defn}
 
-######Remark
-A doubled manifold $M$ equipped with the $O(d,d)$-structure $\eta$ carries a natural almost para-hermitian structure. On patches $U$ with coordinates $(x^\mu,\tilde{x}_\mu)$ we have the canonical para-complex structure
+\begin{rmk} A doubled manifold $M$ equipped with the $O(d,d)$-structure $\eta$ carries a natural almost para-hermitian structure. On patches $U$ with coordinates $(x^\mu,\tilde{x}_\mu)$ we have the canonical para-complex structure
 $$F\frac{\partial}{\partial x^\mu} = \frac{\partial}{\partial x^\mu},\,\, F\frac{\partial}{\partial \tilde{x}_\mu} = - \frac{\partial}{\partial \tilde{x}_\mu}$$
 with eigenbundles 
 
@@ -54,8 +48,7 @@ with associated foliations
 
 * $\mathcal{F}_+=\{x^\mu = \mathrm{const}\}$,
 
-* $\mathcal{F}_-=\{\tilde{x}_\mu = \mathrm{const}\}$.
-
+* $\mathcal{F}_-=\{\tilde{x}_\mu = \mathrm{const}\}$. 
 
 
 In analogy with [[complex geometry]], if we define $\Omega^{r,s}(M)$ as the space of sections of $\Lambda^r(T^+M)\wedge\Lambda^s(T^-M)$, we have the decomposition
@@ -83,13 +76,11 @@ $$
     \mathcal{L}^\pm_{X_\pm}\xi = (\mathrm{d}^\pm\iota_{X_\pm} + \iota_{X_\pm}\mathrm{d}^\pm)\xi
 $$
 for any vector $X_\pm\in\Gamma(T^\pm M)$ and $\xi\in\Omega^{r,s}(M)$.
+\end{rmk}
 
+\begin{defn} An _almost para-hermitian manifold_ is an almost para-complex manifold $M$ equipped with a compatible metric, i.e a symmetric tensor $\eta\in\mathrm{Sym}^2(TM)$ such that $\eta(F\cdot\,,F\cdot\,)=-\eta(\,\cdot\,,\,\cdot\,)$. \end{defn}
 
-######Definition
-An _almost para-hermitian manifold_ is an almost para-complex manifold $M$ equipped with a compatible metric, i.e a symmetric tensor $\eta\in\mathrm{Sym}^2(TM)$ such that $\eta(F\cdot\,,F\cdot\,)=-\eta(\,\cdot\,,\,\cdot\,)$.
-
-######Remark
-The contraction with the metric $\eta$ defines two isomorphisms 
+\begin{rmk} The contraction with the metric $\eta$ defines two isomorphisms 
     $$\phi^\pm : T^\pm M \rightarrow (T^\mp M)^\ast$$
 by 
 
@@ -103,10 +94,9 @@ This can be used to define a new couple of isomorphisms
 $$
     \Phi^\pm : TM \longrightarrow T^\pm M\oplus(T^\pm M)^\ast 
 $$
-that maps a vector a vector $X=X_++X_-$ with $X_\pm\in T^\pm M$ into $X_+ + X_-^\flat$.
+that maps a vector a vector $X=X_++X_-$ with $X_\pm\in T^\pm M$ into $X_+ + X_-^\flat$. \end{rmk}
 
-######Definition
-A _para-hermitian manifold_ is an almost para-hermitian manifold $(M,\eta,F)$ such that $(M,F)$ is a para-complex manifold.
+\begin{defn} A _para-hermitian manifold_ is an almost para-hermitian manifold $(M,\eta,F)$ such that $(M,F)$ is a para-complex manifold. \end{defn}
 
 
 ###Foliated Courant algebroid and spacetime
@@ -136,12 +126,9 @@ $$
 $$
 where $X\in TM$ is split in $X_\pm=P_\pm X$. 
 
-######Remark
-Since $M$ is assumed $+$-para-hermitian, $T^+ M\oplus (T^+ M)^\ast$ can be written as $T\mathcal{F}_+\oplus T^\ast\mathcal{F}_+$. Therefore we constructed an isomorphism between the Courant algebroid on the whole $TM$ and the generalized tangent bundle $T\mathcal{F}_+\oplus T^\ast\mathcal{F}_+$ of the foliation. In other terms para-hermitian geometry of the doubled manifold $M$ reduces to Generalized Geometry of physical spacetime.
+\begin{rmk} Since $M$ is assumed $+$-para-hermitian, $T^+ M\oplus (T^+ M)^\ast$ can be written as $T\mathcal{F}_+\oplus T^\ast\mathcal{F}_+$. Therefore we constructed an isomorphism between the Courant algebroid on the whole $TM$ and the generalized tangent bundle $T\mathcal{F}_+\oplus T^\ast\mathcal{F}_+$ of the foliation. In other terms para-hermitian geometry of the doubled manifold $M$ reduces to Generalized Geometry of physical spacetime. \end{rmk}
 
-######Remark
-The same argument can be clearly applied to $T^-M$ too.
-
+\begin{rmk} The same argument can be clearly applied to $T^-M$ too. \end{rmk}
 
 ###C-bracket
 In previous section we assumed that the $+1$-eigenbundle $T^+M$ is integrable. This is equivalent to assuming that there exists a well defined foliation that can be interpreted as the physical spacetime. However it is possible to construct a more general bracket that does not require such an assumption, but only an almost para-complex structure. Therefore it works even when a global physical spacetime foliation is not defined. This is achieved by Vaisman with the definition of _C-bracket_ by using a generalization of the notion of Levi-Civita connection (look ([I.Vaisman 2012](#Vaisman))).
@@ -167,7 +154,6 @@ For example for a symplectic space $(\mathbb{R}^{2d},\omega=\mathrm{d}x^\mu\wedg
 Heuristically, in geometrical quantization we make a choice of a couple of lagrangian foliations $\mathcal{F}_\pm$ to "select" a physical spacetime $\mathcal{F}_+$ from the whole symplectic-covariant theory on $M$.
 
 Similarly in DFT, when $M$ is an (integrable) para-hermitian manifold we make a choice of a couple of lagrangian foliations $\mathcal{F}_\pm$ to "select" a physical spacetime $\mathcal{F}_+$ from the whole T-duality-covariant theory on $M$.
-
 
 ## Related concepts
 
