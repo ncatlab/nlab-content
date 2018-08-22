@@ -25,7 +25,6 @@ To discuss images in a category $C$, we must first fix a notion of [[subobject]]
 
 Note that in this generality, a given morphism may or may not have an image, although if it does, it is unique up to isomorphism by universality.  In many cases, images can be constructed out of [[limits]] and [[colimits]] in the ambient category.  In particular, in a [[regular category]], images (relative to all monomorphisms) can be constructed as the [[quotient object]] of a [[kernel pair]].
 
-
 ## Definition
 
 Let $C$ be a [[category]], let $M\subset Mono(C)$ be a subclass of the monomorphisms in $C$, and let $f: c \to d$ be a [[morphism]] in $C$.  The ($M$)-**image** of $f$ is the smallest $M$-[[subobject]] $im(f) \hookrightarrow d$ through which $f$ factors (if it exists). The factorizing morphism $c \to im(f)$ is sometimes called the **corestriction** of $f$ (or **coastriction**, see [mathoverflow](http://mathoverflow.net/questions/29911/whats-the-notation-for-a-function-restricted-to-a-subset-of-the-codomain/65813#65813)):
@@ -39,7 +38,6 @@ This can be phrased equivalently as follows.  Let $C/d$ be the [[slice category]
 $$C/d \to M/d$$ 
 
 to the inclusion $M/d \hookrightarrow C/d$.  More generally, an image of a single morphism $f\colon c\to d$ is a [[universal arrow]] from $f$ to this inclusion.
-
 
 ## Examples
 
