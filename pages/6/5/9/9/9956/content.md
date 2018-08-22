@@ -1,5 +1,5 @@
 
-David Berman is reader in theoretical [[physics]] at Queen Mary College, London.
+David Berman is professor in theoretical [[physics]] at Queen Mary University of London.
 
 * [webpage](http://www.strings.ph.qmul.ac.uk/~dsb/)
 
