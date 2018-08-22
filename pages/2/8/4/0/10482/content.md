@@ -200,7 +200,7 @@ $$
 $$
 
 $$
-  e^a \coloneqq \mathbf{d}x^a + \theta \Gamma^a \mathbf{d}\theta
+  e^a \coloneqq \mathbf{d}x^a + \bar{\theta} \Gamma^a \mathbf{d}\theta
   \,.
 $$
 
