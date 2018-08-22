@@ -150,6 +150,14 @@ As the set of all formulae in $\mathcal{L}_\omega(n)$ satisfies the conditions f
  
 =--
 
+### Common modal axioms
+
+* ([[axiom K (modal logic)|K]]) $\Box(A \to B) \to \Box A \to \Box B$
+* (M) $\Box A \to A$
+* (4) $\Box A \to \Box \Box A$
+* (5) $\lozenge A \to \Box \lozenge A$
+* (B) $A \to \Box \lozenge A$
+
 ## Examples
  {#Examples}
 
