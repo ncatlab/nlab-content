@@ -127,6 +127,17 @@ If the apparent small positive [[cosmological constant]] were but an artifact of
 
 ## References
 
+### Observation
+
+Cautioning against the interpretation of type Ia [[supernovae]] as indicative of a small positive cosmoplogical constant ([[de Sitter spacetime]]) as in the current [[standard model of cosmology]] includes the following (see also at [[inhomogeneous cosmology]]):
+
+* [[Subir Sarkar]], _Is the evidence for dark energy secure?_, Gen. Rel. Grav. 40:269-284, 2008 ([arXiv:0710.5307](https://arxiv.org/abs/0710.5307))
+
+* {#NielsenGuffantiSarkar16} J. T. Nielsen, A. Guffanti & [[Subir Sarkar]], _Marginal evidence for cosmic acceleration from Type Ia supernovae_, Nature Scientific Reports volume 6, Article number: 35596 (2016) ([arXiv:1506.01354](https://arxiv.org/abs/1506.01354), [web discussion](https://4gravitons.wordpress.com/2016/11/11/a-response-from-nielsen-guffanti-and-sarkar/))
+
+* Koushik Dutta, Ruchika, Anirban Roy, Anjan A. Sen, M.M. Sheikh-Jabbari, _Negative Cosmological Constant is Consistent with Cosmological Data_ ([arXiv:1808.06623](https://arxiv.org/abs/1808.06623))
+
+
 
 ### In pAQFT
  {#ReferencedInpAQFT}
@@ -166,6 +177,8 @@ Discussion specifically for the [[standard model of cosmology]] is in
 
 
 ### In inhomogeneous cosmology
+
+Discussion of the cosmological constant as an artefact of [[inhomogeneous cosmology]] (see there for more) includes the following
 
 * {#Buchert07} [[Thomas Buchert]], _Dark Energy from structure: a status report_, Gen.Rel.Grav.40:467-527, 2008 ([arXiv:0707.2153](http://xxx.lanl.gov/abs/0707.2153))
 
