@@ -1,14 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 Given a smooth [[Riemann surface]] $\Sigma$ with complex structure $j$, and an [[almost complex manifold]] $M$ with almost complex structure $J$, 
-a __pseudoholomorphic__ curve is a smooth map
+a __pseudoholomorphic__ curve (or J-holomorphic curve) is a smooth map
 $f:\Sigma\to M$ whose differential commutes with the almost complex structure in the sense that the equation
 $$
 J\circ d f = d f\circ j
 $$
-holds. One can also consider a [[symplectic manifold]] $(N,\omega)$ instead of $M$, in which case on chooses an almost complex structure compatible with the symplectic form $\omega$.
+holds. One can also consider a [[symplectic manifold]] $(N,\omega)$ instead of $M$, in which case one chooses an almost complex structure compatible with the symplectic form $\omega$.
 
 A more general notion is of a pseudoholomorphic map. 
 
-Counting pseudoholomorphic curves with constraints to obtain topological invariants has been pioneered by Gromov and later Floer. 
+Counting pseudoholomorphic curves with constraints to obtain topological invariants has been pioneered by [[Mikhail Gromov]] and later [[Andreas Floer]]. 
 
 ## References
 
@@ -24,3 +42,7 @@ Adv. Stud. Pure Math. __31__, 75&#8211;91. Math. Soc. Japan, Tokyo, 2001.
 * Brett Parker, _Integral counts of pseudo-holomorphic curves_, [arxiv/1309.0585](http://arxiv.org/abs/1309.0585)
  
 [[!redirects pseudo-holomorphic curve]] 
+[[!redirects pseudo-holomorphic curves]] 
+[[!redirects pseudoholomorphic curves]] 
+[[!redirects J-holomorphic curve]] 
+[[!redirects J-holomorphic curves]] 
