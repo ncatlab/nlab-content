@@ -1,4 +1,3 @@
-
 **[[Isbell duality]] between [[algebra]] and [[geometry]]**
 
 
