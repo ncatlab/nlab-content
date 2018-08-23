@@ -26,7 +26,7 @@ Contrast [[polymorphism|polymorphic type theory]], where types depend on a conte
 
 * W. Farmer, _The seven virtues of simple type theory_, Journal of Applied Logic, Vol. 6, No. 3. (September 2008), pp. 267&#8211;286.
 
-* J. Roger Hindley, _Basic Simple Type Theory_, Cambridge University Press, 2008, ([review pdf](http://www.iwu.edu/~htiede/papers/pdf/jolli-review.pdf))
+* J. Roger Hindley, _Basic Simple Type Theory_, Cambridge University Press, 2008
 
 
 [[!redirects simple type theories]]
