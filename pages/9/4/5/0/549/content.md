@@ -147,7 +147,7 @@ $$
   \\
   \downarrow && \downarrow^{\mathrlap{a_1}}
   \\
-  L_{(I/f)} &\to& Z_0 \coprod_{K_{(I/f)}} L_{(I/f)}
+  L_{(I/f)} &\to& Z_0 \coprod_{L_{(I/f)}} K_{(I/f)}
   =: Z_1
   \\
   &&& \searrow^{\mathrlap{q_1}}
