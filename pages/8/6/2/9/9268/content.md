@@ -34,6 +34,7 @@ If the underlying type of manifolds is [[Banach manifold]], then one speaks of _
 
   * [[symplectomorphism group]], [[quantomorphism group]]
 
+* [[Butcher group]]
 
 ## References
 
