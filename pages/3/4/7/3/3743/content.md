@@ -73,7 +73,7 @@ Again within the context of higher dimensional forms of rewriting, [[Tibor Beke]
 
 There is a preprint by [[Samuel Mimram]]
 
-* _Towards Higher dimensional rewriting theory_, [preprint](http://www.pps.univ-paris-diderot.fr/~smimram/docs/mimram_thdrt.pdf)
+* _Towards 3-Dimensional Rewriting Theory_, ([arXiv:1403.4094](https://arxiv.org/abs/1403.4094))
 
 category: combinatorics, algebra, computer science, logic
 [[!redirects rewriting]]
