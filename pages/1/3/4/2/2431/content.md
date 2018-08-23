@@ -53,7 +53,7 @@ In particular, there is no Brown representability theorem for functors from the 
  {#ClassicalFormulation}
 
 
-Let $Ho(Top_*^c)$ denote the [[homotopy category]] of connected [[pointed topological spaces]] under [[weak homotopy equivalence]] --- or equivalently the homotopy category of pointed connected [[CW complexes]] under [[homotopy equivalence]].  Then $Ho(Top_*^c)$ has [[coproducts]] (given by [[wedge sums]]) and also [[weak limit|weak pushouts]] (namely, [[homotopy pushouts]]).
+Let $Ho(Top_*^c)$ denote the [[homotopy category]] of connected [[pointed topological spaces]] under [[weak homotopy equivalence]] --- or equivalently the homotopy category of pointed connected [[CW complexes]] under [[homotopy equivalence]].  Then $Ho(Top_*^c)$ has [[coproducts]] (given by [[wedge sums]]) and also [[weak limit|weak pushouts]] (namely, [[homotopy pushouts]], see at [weak limit](weak+limit#RelationToHomotopyLimits)).
 
 +-- {: .num_theorem #ClassicalBrownRepresentabilityTheorem}
 ###### Theorem
