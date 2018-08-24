@@ -60,3 +60,6 @@ and further discussion of this relating to the [[geometric Langlands corresponde
 
 
 [[!redirects 't Hooft operators]]
+
+[[!redirects 't Hooft operator]]
+[[!redirects 't Hooft operators]]
