@@ -16,7 +16,7 @@
 
 ## Idea
 
-A microbundle is something like an approximation to the notion of [[vector bundle]]: a locally trivial [[bundle]] $E \to X$ of topological spaces that has a [[section]]. Indeed, as observed by Milnor,  every vector bundle gives an example of a microbundle (for a modern treatment see [Kupers18, Example 27.2.3](#Kupers18)).
+A microbundle is something like an approximation to the notion of [[vector bundle]]: a locally trivial [[bundle]] $E \to X$ of topological spaces that has a [[section]]. Indeed, as observed by Milnor,  every vector bundle gives an example of a microbundle (for a modern treatment see [Kupers18, Example 27.2.3](#Kupers18) or Lurie's course, [Topics in Geometric Topology, Lecture 10](http://www.math.harvard.edu/~lurie/937notes/937Lecture10.pdf)).
 
 ## Definition
 
