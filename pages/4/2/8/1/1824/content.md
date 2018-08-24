@@ -16,7 +16,7 @@
 
 ## Idea
 
-A microbundle is something like an approximation to the notion of [[vector bundle]]: a locally trivial [[bundle]] $E \to X$ of topological spaces that has a [[section]]. Indeed, every vector bundle is an example of a microbundle ([Kupers18, Example 27.2.3](#Kupers18)).
+A microbundle is something like an approximation to the notion of [[vector bundle]]: a locally trivial [[bundle]] $E \to X$ of topological spaces that has a [[section]]. Indeed, as observed by Milnor,  every vector bundle gives an example of a microbundle (for a modern treatment see [Kupers18, Example 27.2.3](#Kupers18)).
 
 ## Definition
 
@@ -64,13 +64,19 @@ If $M$ is a smooth manifold, then the tangent microbundle is equivalent to the t
 
 Microbundles were defined by [[John Milnor]].  The original paper can be found [here](http://www.maths.ed.ac.uk/~aar/papers/micro001.pdf).
 
+Classic treatments of their elementary theory include:
+
+* [[N. H. Kuiper]] and [[Richard Lashof|R. K. Lashof]], _Microbundles and Bundles I. Elementary Theory_, Invent. Math., 1, (1966), 1 – 17. 
+
+* [[N. H. Kuiper]] and [[Richard Lashof|R. K. Lashof]], _Microbundles and Bundles II. Semisimplicial Theory_, Invent. Math., 1, (1966), 243 – 259.
+
 Useful references are for instance
 
 * [[Jacob Lurie]], Spring 2009, [Topics in Geometric Topology](http://www.math.harvard.edu/~lurie/937.html)
 
 * S. Buoncristiano, 2003, [Fragments of geometric topology from the sixties](http://www.emis.de/journals/GT/gtmcontents6.html).
 
-* {#Kupers18} Alexander Kupers, _Lectures on diffeomorphisms groups of manifolds_, ([pdf](http://www.math.harvard.edu/~kupers/teaching/272x/book.pdf))
+* {#Kupers18} [[Alexander Kupers]], _Lectures on diffeomorphisms groups of manifolds_, ([pdf](http://www.math.harvard.edu/~kupers/teaching/272x/book.pdf))
 
 
 [[!redirects tangent microbundle]]
