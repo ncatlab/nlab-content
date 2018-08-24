@@ -67,6 +67,8 @@ Examples and applications of such cone branes, in the context of [[M-theory on G
 
 ## Related concepts
 
+* [[piecewise flat spacetime]]
+
 * [[anti-de Sitter spacetime]]
 
 * [[asymptotic boundary]]
@@ -144,6 +146,13 @@ See also
 
 [[!redirects far-horizon metric]]
 [[!redirects far-horizon metrices]]
+
+[[!redirects far-horizon limit]]
+[[!redirects far-horizon limits]]
+
+[[!redirects far horizon limit]]
+[[!redirects far horizon limits]]
+
 
 [[!redirects cone brane]]
 [[!redirects cone branes]]
