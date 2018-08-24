@@ -180,6 +180,9 @@ For [[closed monoidal categories]] in
 * Francois Lamarche, *Proof Nets for Intuitionistic Linear Logic: Essential nets*, 2008 [pdf](http://hal.inria.fr/docs/00/34/73/36/PDF/prfnet1.pdf)
  {#Lamarche08}
 
+* Ralf Hinze, *Kan Extensions for Program Optimisation, Or:
+Art and Dan Explain an Old Trick*, [pdf](http://www.cs.ox.ac.uk/ralf.hinze/Kan.pdf)
+
 For [[biclosed monoidal categories]] in
 
 * [[Bob Coecke]], Edward Grefenstette, and [[Mehrnoosh Sadrzadeh]], *Lambek vs. Lambek: Functorial vector space semantics and string diagrams for Lambek calculus*, 2013 [link](https://www.sciencedirect.com/science/article/pii/S0168007213000626)
