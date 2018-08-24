@@ -33,6 +33,8 @@ Three examples of cones that [[simply-connected]] [[G2-manifolds]] seem to be kn
 
 * [[M-theory on G2-manifolds]]
 
+* [[piecewise flat spacetime]]
+
 * [[Sasakian manifold]]
 
 * [[conical space]]
