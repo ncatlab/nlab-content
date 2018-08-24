@@ -74,7 +74,7 @@ More explicitly for various component-realizations of principal connections, thi
    In this form the definition is due to ([Ehresmann 50](#Ehresmann50)), recalled in ([Marle 14, def. 4](#Marle14)). Often this definition is stated by describing $i^\ast A$ directly without mentioning of $A$, e.g. ([Sharpe 97, section 5.3, def. 3.1](#Sharpe), [Cap-Slov&#225;k 09, 1.5.1](#CapSlovak09)). Beware that $A$ is a [[principal connection]] but $i^\ast A$ is not.
 
 
-1. In terms of **[[Cech cohomology|Cech]] [[cocycle]] data**, def. \ref{Traditional} says that an $(H\hookrightarrow G)$-Cartan connection is a cover $\{U_i \to X\}$ equipped with 1-forms $A_i \in \Omega^1(U_i, \mathfrak{g})$ and with transition functions $h_{i j} \in C^\infty(U_i \cap U_j, h)$ such that
+1. In terms of **[[Cech cohomology|Cech]] [[cocycle]] data**, def. \ref{Traditional} says that an $(H\hookrightarrow G)$-Cartan connection is a cover $\{U_i \to X\}$ equipped with 1-forms $A_i \in \Omega^1(U_i, \mathfrak{g})$ and with transition functions $h_{i j} \in C^\infty(U_i \cap U_j, H)$ such that
 
    * $h_{i j} h_{j k} = h_{i k}$ on $U_i \cap U_j \cap U_k$;
 
