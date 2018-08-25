@@ -33,6 +33,53 @@ More generally, one may define the anti de Sitter space of signature $(p,q)$ as 
 
 ## Properties
 
+### Coordinate charts
+
+(...)
+
+in _horospheric coordinates_ the AdS [[metric tensor]] is
+
+$$
+  g_{AdS}
+  \;=\;
+  \frac{1}{z^2}
+  \left(
+    g_{(\mathbb{R}^{p,1})} + (d z)^2 
+  \right)
+$$
+
+In terms of
+
+$$
+  y \coloneqq 1/z 
+$$
+
+this becomes
+
+$$
+  g_{AdS}
+  \;=\;
+  y^2 \, g_{(\mathbb{R}^{p,1})} + \frac{1}{y^2}(d y)^2 
+$$
+
+and with 
+
+$$
+  y \coloneqq \tfrac{1}{n} r^n
+$$
+
+for $n \neq 0$
+
+we get
+
+$$
+  g_{AdS}
+  \;=\;
+  \tfrac{1}{n^2}r^{2n} \, g_{(\mathbb{R}^{p,1})} + \frac{1}{r^2}(d r)^2 
+$$
+
+
+
 ### Conformal boundary
 
 (...)
@@ -84,3 +131,7 @@ Asymptotically anti-de Sitter spaces play a central role in the realization of t
 
 [[!redirects AdS-spacetime]]
 [[!redirects AdS-spacetimes]]
+
+[[!redirects horospheric coordinates]]
+[[!redirects horospheric coordinate chart]]
+[[!redirects horospheric coordinate charts]]
