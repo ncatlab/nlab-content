@@ -45,6 +45,8 @@ $\,$
 
 * [[singularity]]
 
+* [[conical singularity]]
+
 * [[quiver gauge theory]]
 
 * [[M-theory on G2-manifolds]]
