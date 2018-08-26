@@ -1,3 +1,13 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Combinatorics
++-- {: .hide}
+[[!include combinatorics - contents]]
+=--
+=--
+=--
+
 The Chu-Vandermonde identity is a basic identity in the [[combinatorics]] of [[binomial coefficients]]. It can be summarized as a [[polynomial]] identity 
 
 $$\sum_{j=0}^n \binom{x}{j} \binom{y}{n-j} = \binom{x+y}{n}$$ 
