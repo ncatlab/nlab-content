@@ -2,10 +2,15 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Combinatorics
++-- {: .hide}
+[[!include combinatorics - contents]]
+=--
 #### Group Theory
 +-- {: .hide}
 [[!include group theory - contents]]
 =--
+### Context
 =--
 =--
 
@@ -19,7 +24,7 @@ Classically, a __permutation__ on a [[set]] $X$ can be thought of in one of two 
 For a set that is already equipped with a canonical ordering (such as a finite [[ordinal]] $X = \{1,\dots,n\}$), these two ways of defining permutations are interchangeable, but they correspond to different abstract [[structures]] that are more salient in different contexts.
 Typically, the definition of permutations-as-[[automorphisms]] is important in [[group theory]], while the definition of permutations-as-linear-orders is more common in [[combinatorics]].
 
-In the theory of [[operads]], the first view of permutations is used as part of the definition of a [[symmetric operad]], while the second view is used in defining the symmetric operad _of_ permutations.
+In the theory of [[operads]], the first view of permutations is required as part of the definition of a [[symmetric operad]], while the second view is used in defining the symmetric operad _of_ permutations.
 
 ## Definitions
 
