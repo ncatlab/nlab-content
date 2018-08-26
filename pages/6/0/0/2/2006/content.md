@@ -20,7 +20,7 @@
 
 ## Idea
 
-Given a [[monad]] $T$ on some [[category]] $\mathcal{C}$, then its _Kleisli category_ is the [[full subcategory]] of the [[Eilenberg–Moore category]] of $T$, hence the category of [[algebras over a monad|T-algebras]], on those that are _[[free construction|free]]_ [[algebra for a monad|T-algebras]] (free $T$-[[modules]]).
+Given a [[monad]] $T$ on some [[category]] $\mathcal{C}$, then its _Kleisli category_ is the [[full subcategory]] of the [[Eilenberg-Moore category]] of $T$, hence the category of [[algebras over a monad|T-algebras]], on those that are _[[free construction|free]]_ [[algebra for a monad|T-algebras]] (free $T$-[[modules]]).
 
 Explicitly one may describe the _Kleisli category_ of $T$ to have as [[objects]] the objects of $\mathcal{C}$, and a morphism $X \to Y$ in the Kleisli category is a morphism in $\mathcal{C}$ of the form $X \to T(Y)$ in $\mathcal{C}$. The monad structure induces a natural [[composition]] of such "$T$-shifted" morphisms.
 
@@ -46,7 +46,7 @@ A __free $\mathbf{T}$-[[algebra|algebra over a monad]]__ (or free $\mathbf{T}$-m
 +-- {: .num_defn}
 ###### Definition
 
-The __Kleisli category__ $C_{\mathbf{T}}$ of the monad $\mathbf{T}$   the [[subcategory]] of the [[Eilenberg–Moore category]] $C^{\mathbf{T}}$
+The __Kleisli category__ $C_{\mathbf{T}}$ of the monad $\mathbf{T}$   the [[subcategory]] of the [[Eilenberg-Moore category]] $C^{\mathbf{T}}$
 on the free $\mathbf{T}$-algebras.
 
 =--
@@ -118,7 +118,7 @@ This Kleisli composition plays an important role in [[computer science]]; for th
 
 ### Universal properties
 
-In more general 2-categories the [[universal properties]] of [[Kleisli objects]] are dual to the universal properties of [[Eilenberg-Moore category#Definition|Eilenberg–Moore objects]].
+In more general 2-categories the [[universal properties]] of [[Kleisli objects]] are dual to the universal properties of [[Eilenberg-Moore category#Definition|Eilenberg-Moore objects]].
 
 In particular, $C_{\mathbf{T}}$ is [[initial object|initial]] in the [[adjoint functor#RelationToMonads|category of adjunctions]] for $\mathbf{T}$ (whereas $C^{\mathbf{T}}$ is [[terminal objects|terminal]]). For a proof, see _[[Category Theory in Context]]_ Proposition 5.2.12.
 
