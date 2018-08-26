@@ -11,6 +11,8 @@ For example, in defining a [[category]], one could use an "unbiased" definition 
 
 As a special case of this, we have perhaps the prototypical example of a binary/nullary pair sufficing to generate all finite instances of some structure: the [[natural numbers]] themselves (the arities of the operations that we are considering) are the [[free monoid]] on one generator, and thus are freely associatively produced from that one generator (aka, $1$) using only binary and nullary addition.
 
+Sometimes it is too easy to write a definition that involves only the binary condition; writing an unbiased definition can make it easier to notice the corresponding nullary condition.  Compare when things are [[too simple to be simple]].
+
 
 ## When a nullary operation does not exist
 
