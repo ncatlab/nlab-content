@@ -65,8 +65,7 @@ Any smooth or PL link $L$ is equivalent under an arbitrarily small rotation of $
 
 A proof can be found in Crowell and Fox (page 7). 
 
-\begin{terminology} A _knot diagram_ is a link diagram which arises from a projection of a [[knot]]. 
-\end{terminology}
+\begin{terminology} A _knot diagram_ is a link diagram which arises from a projection of a [[knot]].\end{terminology}
 
 ## Related concepts
 
