@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Combinatorics
++-- {: .hide}
+[[!include combinatorics - contents]]
+=--
 #### Modalities, Closure and Reflection
 +-- {: .hide}
 [[!include modalities - contents]]
