@@ -18,86 +18,78 @@
 
 ## Idea
 
-The _Reidemeister moves_ are elementary, local changes to [[knot]] or [[link]] [[knot diagram|diagrams]] preserving the topology.  
+The _Reidemeister moves_ are local changes to [[link diagrams]] which can be realised as [[isotopy|isotopies]] between the link diagrams from which they arise. Because of Reidemeister's theorem, Theorem \ref{TheoremReidemeister}, they are of fundamental importance in knot theory, allowing knots and links to be treated purely combinatorially and diagrammatically. 
 
-These moves were given in the book by [Reidemeister](#Reidemeister).
-
+The moves were introduced in the book [Reidemeister](#Reidemeister). 
 
 ## Definition
 
-We define the Reidemeister moves in terms of link diagrams.
+The convention below is that part of a [[link diagram]] is shown with the 'move' indicated, but that outside that, the diagram of the link is unchanged. As usual in knot theory, everything is up to [[planar isotopy]].
 
-The conventions are that part of the diagram is shown with the 'move' indicated, but that outside that, the diagram of the link is unchanged and that no other part of the diagram appears at the crossings that are changed by that move. 
-
-
-+-- {: .un_remark}
-###### Note
-In manipulating a link diagram, the changes obtained by elongating part of the diagram, rotating it, deforming the plane, etc., are not counted as changing the structure of the diagram provided they do not change any crossing, and so they may be done without comment.  The 'moves' outlined here do change things locally near crossings.
-=--
-
-
-### First Reidemeister moves (R1)
-
-The local configurations
+\begin{defn} The _first Reidemeister move_, or _R1 move_, allows either of the following replacements of a fragment of a link diagram to be made.
 
 [[!include Reidemeister move 1 - SVG]]
 
+\end{defn}
 
-are interchangable;
-
-### Second Reidemeister moves (R2)
-The configurations
+\begin{defn} The _second Reidemeister move_, or _R2 move_, allows either of the following replacements of a fragment of a link diagram to be made.
 
 [[!include Reidemeister move 2 - SVG]]
 
+\end{defn}
 
-
-are interchangeable;
-
-### Third Reidemeister move (R3)
-The configurations
+\begin{defn} The _third Reidemeister move_, or _R3 move_, allows the following replacement of a fragment of a link diagram to be made.
 
 [[!include Reidemeister move 3 - SVG]]
 
-are interchangeable.
+\end{defn}
 
-Often the terminology is used that two link diagrams, $D$ and $D'$ are  _isotopic_ or _isotopic by moves_ if $D$ can be transformed into $D'$ by some sequence of the three Reidemeister moves, R1, R2 and R3. They are called _regularly isotopic_ if the transformation can be done without using R1.  It is clear that both isotopy and regular isotopy give equivalence relations on link diagrams.
+\begin{defn} A pair of link diagrams $D$ and $D'$ are  _isotopic_, or _isotopic by moves_, or _equivalent_ if there is a finite sequence of the moves R1, R2 and R3 taking $D$ to $D'$ up to planar isotopy. \end{defn} 
 
-The following theorem is a form of Reidemeister's theorem:
+\begin{defn} A pair of link diagrams $D$ and $D'$ are  _regularly isotopic_ if there is a finite sequence of the moves R2 and R3 taking $D$ to $D'$ up to [[planar isotopy]]. \end{defn}
 
-## Properties
-##Reidemeister's Theorem
-+-- {: .un_theorem}
-###### Theorem
-Two [[knot diagram]]s correspond to isotopic knots precisely if they can be connected by a sequence of applications of the three Reidemeister moves.
-=--
-The corresponding statement for [[links]] and link diagram is also true.
+\begin{rmk} Both isotopy and and regular isotopy define equivalence relations on link diagrams. \end{rmk}
 
+\begin{rmk} There are a number of variants of the R3 move. All of them can be obtained as a finite sequence of the Reidemeister moves as defined above. \end{rmk}
 
+##Reidemeister's theorem
 
-Because of this, we can hope to use the Reidemeister moves to verify invariance of a potential [[link invariant]]. For instance, as none of the moves alters the number of components of a link diagram, the number of components is an isotopy invariant (which is not at all surprising!) We can conclude that the [[Hopf link]] and the [[Borromean rings]] are not isotopic. 
+The following crucial theorem establishes that the Reidemeister moves are of central significance in knot theory.
 
-A deeper observation is that the [[linking number]] is a link invariant, for which see that entry.
+\begin{thm} \label{TheoremReidemeister} Let $L_{1}$ and $L_{2}$ be [[links]], and let $D_{1}$ and $D_{2}$ be [[link diagrams]] of $L_{1}$ and $L_{2}$ respectively. Then $D_{1}$ and $D_{2}$ are equivalent if and only if $L_{1}$ is [[isotopy|isotopic]] to $L_{2}$. \end{thm}
 
+The key idea of the proof is that of subdivision. Working piecewise-linearly, one can reduce to the consideration of a few 'minimal' moves on knot diagrams, which one shows can be obtained as a finite sequence of Reidemeister moves. See for example section 2.1 of [Kauffman](#KauffmanKnotDiagrammatics).
+
+##Consequences of Reidemeister's theorem
+
+Because of Theorem \ref{TheoremReidemeister}, we can use the Reidemeister moves to verify invariance of a potential [[link invariant]]. For instance, as none of the moves alters the number of components of a link diagram, the number of components is an isotopy invariant (which is not at all surprising!). We can conclude that the [[Hopf link]] and the [[Borromean rings]] are not isotopic. 
+
+A slightly deeper observation is that the [[linking number]] is a link invariant, for which see that entry.
 
 [[colourable knot|3-colourability]] is a [[knot invariant]] as is easy to check. This shows, for instance, that the trefoil knot is not equivalent to the unknot, and hence shows, very simply, that non-trivial knots exist. It also shows that the figure eight knot is not equivalent to the trefoil.
 
-(Links to other instances of this sort of argument will get put here later on.)
-
-
-   
 ## References
-One of the original sources is:
+The original source is the following.
 
 * [[K. Reidemeister]], _Knotentheorie,_ Ergebnisse der Mathematik (1932)
 {#Reidemeister}
 
-Simple examples of invariants under the Reidemeister Moves are given in, for instance,
+Simple examples of invariants under the Reidemeister Moves are given in, for instance, the following.
 
- * [[N. D. Gilbert]] and [[T. Porter]], Knots and Surfaces, Oxford U.P., 1994.
+* [[N. D. Gilbert]] and [[T. Porter]], _Knots and Surfaces_, Oxford U.P., 1994.
 
-Most modern texts on [[Knot Theory]] will contain discussions of the Reidemeister Moves.
+* {#KauffmanKnotDiagrammatics}
+ [[Louis Kauffman | Louis H. Kauffman]], _Knot diagrammatics_, Handbook of knot theory, Elsevier, 233 - 318, 2005 [arXiv:math/0410329](https://arxiv.org/abs/math/0410329)
+
+Most texts on [[Knot Theory]] contain discussions of the Reidemeister Moves.
 
 category: knot theory
 
 [[!redirects Reidemeister moves]]
+[[!redirects Reidemeister's theorem]]
+[[!redirects first Reidemeister move]]
+[[!redirects R1 move]]
+[[!redirects second Reidemeister move]]
+[[!redirects R2 move]]
+[[!redirects third Reidemeister move]]
+[[!redirects R3 move]]
