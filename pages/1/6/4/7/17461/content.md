@@ -1,3 +1,13 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Combinatorics
++-- {: .hide}
+[[!include combinatorics - contents]]
+=--
+=--
+=--
+
 __Combinatorial design__ is a generic term for combinatorial structures described by families of finite sets satisfying some symmetries or other combinatorial properties of mutual arrangement. For example, the __block designs__ generically describe a set with family of subsets satisfying some combinatorial properties. 
 
 A concrete structures of this kind are block $t$-designs: if $t$ is an integer 
