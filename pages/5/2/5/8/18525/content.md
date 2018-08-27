@@ -17,7 +17,7 @@
 ## Definition
 
 
-Let $X$ be a [[smooth manifold]] and let $D$ be a [[differential operator]] on (smooth [[sections]] of) the [[trivial line bundle]] over $X$ (or more generallya [[properly supported pseudo-differential operator]]). Then the [[principal symbol]] $q(D)$ of $D$ is equivalently a [[smooth function]] on the [[cotangent bundle]] $T^\ast X$ (by [this example](symbol+of+a+differential+operator#BicharacteristicFlow)). With the [[cotangent bundle]] canonically regarded as a [[symplectic manifold]], let 
+Let $X$ be a [[smooth manifold]] and let $D$ be a [[differential operator]] on (smooth [[sections]] of) the [[trivial line bundle]] over $X$ (or more generally a [[properly supported pseudo-differential operator]]). Then the [[principal symbol]] $q(D)$ of $D$ is equivalently a [[smooth function]] on the [[cotangent bundle]] $T^\ast X$ (by [this example](symbol+of+a+differential+operator#BicharacteristicFlow)). With the [[cotangent bundle]] canonically regarded as a [[symplectic manifold]], let 
 
 $$
   v_{q(D)} \in \Gamma\left(T\left(T^\ast X\right) \right)
