@@ -21,5 +21,5 @@ But check out [this discussion](https://nforum.ncatlab.org/discussion/4861/model
 
 ## References
 
-* [[Benno van den Berg]], _A note on semisimplicial sets_, 2013 ([pdf](http://uf-ias-2012.wikispaces.com/file/view/semisimplicialsets.pdf/421930564/semisimplicialsets.pdf))
+* [[Benno van den Berg]], _A note on semisimplicial sets_, 2013 ([pdf](https://ncatlab.org/ufias2012/files/semisimplicialsets.pdf))
  {#vandenBerg}
