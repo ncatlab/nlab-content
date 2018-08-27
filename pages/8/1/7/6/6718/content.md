@@ -27,7 +27,7 @@ Theoretically, the observer outside an event horizon will observe [[Bekenstein-H
 
 ## Related concepts
 
-* [[Cachy horizon]]
+* [[Cauchy horizon]]
 
 * [[naked singularity]]
 
