@@ -4,4 +4,6 @@ Since 2001 I have been a full-time parent; I presently live in Connecticut and c
 
 A few of my older scribblings can be found [here](http://math.ucr.edu/home/baez/trimble); some more recent ones are at my nLab web [here](https://ncatlab.org/toddtrimble/published/HomePage). 
 
+I can be reached at topological-dot-musings-at (insert gmail extension). 
+
 category: people
