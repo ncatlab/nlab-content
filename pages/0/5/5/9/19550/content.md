@@ -12,10 +12,10 @@ _Prime ideals_ are supposed to be a generalization of [[prime numbers]] from ele
 +-- {: .num_defn #rig}
 ###### Definition
 
-Let $R$ be a [[rig]] (assumed unital and associative as usual), and let $I$ be a [[two-sided ideal]] in $R$.  Then $I$ is __prime__ if $I$ is [[proper ideal|proper]] and $x \in I$ or $y \in I$ whenever $x a y \in P$ for all $a$:
-$$ (\forall\, a,\; x a y \in P) \;\Rightarrow\; (x \in P \;\vee\; y \in P) .$$
-Also, $I$ is __completely prime__ if $I$ is proper and $x \in I$ or $y \in I$ whenever $x y \in P$:
-$$ x y \in P \;\Rightarrow\; (x \in P \;\vee\; y \in P) .$$
+Let $R$ be a [[rig]] (assumed unital and associative as usual), and let $P$ be a [[two-sided ideal]] in $R$.  Then $P$ is __prime__ if $P$ is [[proper ideal|proper]] and $x$ or $y$ belongs to $P$ whenever $x a y$ does for all $a$:
+$$ \forall\, x \in R,\; \forall\, y \in R,\; (\forall\, a \in R,\; x a y \in P) \;\Rightarrow\; x \in P \;\vee\; y \in P .$$
+Also, $P$ is __completely prime__ if $P$ is proper and $x$ or $y$ belongs to $P$ whenever $x y$ does:
+$$ \forall\, x \in R,\; \forall\, y \in R,\; x y \in P \;\Rightarrow\; x \in P \;\vee\; y \in P .$$
 =--
 
 Note that every completely prime ideal is prime (using that $R$ is unital).  The converse holds if the rig is commutative (using that $P$ is an ideal).  So in [[commutative algebra]] one usually uses the (simpler) definition of completely prime ideal as the definition of prime ideal.
@@ -23,9 +23,32 @@ Note that every completely prime ideal is prime (using that $R$ is unital).  The
 +-- {: .num_defn #commrig}
 ###### Definition
 
-Let $R$ be a [[commutative rig]], and let $I$ be an [[ideal]] in $R$.  Then $I$ is __prime__ if $I$ is [[proper ideal|proper]] and $x \in I$ or $y \in I$ whenever $x y \in P$:
-$$ x y \in P \;\Rightarrow\; (x \in P \;\vee\; y \in P) .$$
+Let $R$ be a [[commutative ring|commutative]] rig, and let $P$ be an [[ideal]] in $R$.  Then $P$ is __prime__ if $P$ is [[proper ideal|proper]] and $x$ or $y$ belongs to $P$ whenever $x y$ does:
+$$ \forall\, x \in R,\; \forall\, y \in R,\; x y \in P \;\Rightarrow\; x \in P \;\vee\; y \in P .$$
 =--
+
+Essentially the same definition applies in [[order theory]], using the analogy (which is more than an analogy in the case of a [[distributive lattice]]) between multiplication in a rig and the [[meet]] in an order:
+
++-- {: .num_defn #lattice}
+Let $R$ be a [[lattice]], and let $P$ be an [[ideal]] in $R$.  Then $P$ is __prime__ if $P$ is [[proper ideal|proper]] and $x$ or $y$ belongs to $P$ whenever their meet does:
+$$ \forall\, x \in R,\; \forall\, y \in R,\; x \wedge y \in P \;\Rightarrow\; x \in P \;\vee\; y \in P .$$
+=--
+
+There is an infinitary version of this that is called 'complete' but is *not* equivalent to the notion in Definition \ref{rig} of a completely prime ideal from the noncommutative theory:
++-- {: .num_defn #complattice}
+Let $R$ be a [[complete lattice]], and let $P$ be an [[ideal]] in $R$.  Then $P$ is __completely prime__ if some element belongs to $P$ whenever the meet of a subset of $R$ does:
+$$ \forall\, X \subseteq R,\; \bigwedge X \in P \;\Rightarrow\; \exists\, x \in R,\; x \in X \;\wedge\; x \in P .$$
+=--
+With a little sublety, this makes sense even when [[meets]] (and [[joins]]) don't always exist:
+
++-- {: .num_defn #preorder}
+Let $R$ be a [[preorder]], and let $P$ be an ideal in $R$.  Then $P$ is __prime__ if $P$ is [[proper ideal|proper]] and $x$ or $y$ belongs to $P$ whenever every $z$ that precedes both $x$ and $y$ does:
+$$ \forall\, x \in R,\; \forall\, y \in R,\; (\forall\, z \in R,\; z \leq x \;\Rightarrow\; z \in I) \;\Rightarrow\; (\forall\, z \in R,\; z \leq y \;\Rightarrow\; z \in I) \;\Rightarrow\; x \in P \;\vee\; y \in P .$$
+Also, $P$ is __completely prime__ if $P$ if some element belongs to $P$ whenever every $z$ that precedes every element of a subset of $R$ does:
+$$ \forall\, X \subseteq R,\; (\forall\, z \in R,\; (\forall\, x \in R,\; x \in X \;\Rightarrow\; z \leq x) \;\Rightarrow\; z \in I) \;\Rightarrow\; \exists\, x \in R,\; x \in X \;\wedge\; x \in P .$$
+=--
+
+
 
 ## Still editing
 
@@ -40,3 +63,10 @@ In the commutative case, we can characterize an ideal $I$ as prime if it is prop
 *  In a lattice (simplifying the proset version to look like the rig version), $x \in I$ or $y \in I$ if $x \wedge y \in I$.
 
 For noncommutative rigs, however, a two-sided ideal $P$ is prime if it satisfies a weaker binary condition: $(\forall_{x: R} a x b \in P) \Rightarrow a \in P \vee b \in P$. For example, in a [[matrix ring]] $M_n(k)$ over a field $k$, the zero ideal is prime under our definition (really because a matrix ring is a [[simple ring]], where the zero ideal is a maximal ideal), but $a b = 0$ does not imply $a = 0$ or $b = 0$. When the stronger binary condition is satisfied, we say $P$ is __completely prime__.  (But in order theory, this means a completely irreducible ideal; see below.)
+
+
+[[!redirects prime ideal]]
+[[!redirects prime ideals]]
+
+[[!redirects completely prime ideal]]
+[[!redirects completely prime ideals]]
