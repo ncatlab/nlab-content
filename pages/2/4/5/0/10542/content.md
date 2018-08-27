@@ -385,7 +385,7 @@ where the [[quotient group|quotient]] is by the [[cyclic group|cyclic]] [[subgro
 
 This was claimed without proof in [Dubois-Violette & Todorov 18](#DuboisVioletteTodorov18).
 
-\begin{proof} By (eq:MatrixMultiplicationRepresentationOfiFixingJordanAutomorphism) it is clear that the subgroup in question is that represented by those [[pairs]] $(A,B) \in SU(3) \times SU(3)$ for which $A$ is $(1 + 2)$-block diagonal. Such matrices $A$ form the [[subgroup]] of $SU(3)$ of [[matrices]] that may be written in the form
+\begin{proof} By Prop. \ref{JordanAlgebraAutomorphismsFixingAnImaginaryOctonion} (eq:MatrixMultiplicationRepresentationOfiFixingJordanAutomorphism) it is clear that the subgroup in question is that represented by those [[pairs]] $(A,B) \in SU(3) \times SU(3)$ for which $A$ is $(1 + 2)$-block diagonal. Such matrices $A$ form the [[subgroup]] of $SU(3)$ of [[matrices]] that may be written in the form
 
 $$
   diag\left(
