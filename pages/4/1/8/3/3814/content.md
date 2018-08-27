@@ -35,6 +35,40 @@ As a [[quantum field theory]], the standard model is in particular a [[Yang-Mill
 
 Although there are several approaches to formulate a mathematically precise definition of what a [[quantum field theory]] is, there is no rigorous formulation (yet) that comprises the whole standard model. 
 
+## Properties
+
+### Gauge group
+  {#GaugeGroup}
+
+The _exact_ [[gauge group]] of the standard model is not quite the [[product group]]
+
+$$
+  U(1) \times SU(2) \times SU(3)
+$$
+
+of the [[circle group]] with [[special unitary groups]], but is the [[quotient group]] 
+
+$$
+  G_{SM} 
+  \;=\;
+  \big(
+    U(1) \times SU(2) \times SU(3)
+  \big)
+  / \mathbb{Z}_6
+$$
+
+of that by a [[cyclic group]] $\mathbb{Z}_6 \subset U(1) \times SU(2) \times SU(3)$ which is the [[subgroup]] [[generators and relations|generated]] from an element of the form
+
+$$
+  (q_6, q_2 \mathbf{1}_2, q_3 \mathbf{1}_3) \;\in\;
+  U(1) \times SU(2) \times SU(3)
+  \,,
+$$
+
+where $q_n \in U(1)$ denotes an $n$th [[primitive root of unity]].
+
+(e.g. ([HMY 13, p. 2](#HMY13))).
+
 ## Variations and generalizations
 
 There is a plethora of attempts and suggestions for variations and generalizations of the standard model into models that are conceptually more satisfying from the point of view of models in theoretical physics. 
@@ -134,6 +168,10 @@ A historical account is in
 There are tons of textbooks about the standard model, so any recommendation is hopelessly biased. The following textbook is a short and relativly easy introduction that nevertheless covers a lot of ground:
 
 * Cottingham, W. Noel; Greenwood, Derek A.: _An introduction to the standard model of particle physics_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1126.81002&format=complete))
+
+See also
+
+* {#HMY13} Takaaki Hashimoto, Mamoru Matsunaga, Kenta Yamamoto, _Quantization of hypercharge in gauge groups locally isomorphic but globally nonisomorphic to $SU(3)_c \times SU(2)_L \times U(1)_Y$_ ([arXiv:1302.0669](https://arxiv.org/abs/1302.0669))
 
 For further references see [[quantum field theory]] and the Wikipedia entry
 
