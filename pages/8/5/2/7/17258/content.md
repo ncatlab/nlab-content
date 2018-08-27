@@ -215,7 +215,7 @@ $$
 
 * [[quasicategory]]
 
-## Link
+## Links
 
 * Wikipedia entry: kinship ([link](https://en.wikipedia.org/wiki/Kinship))
 
