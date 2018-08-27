@@ -308,35 +308,37 @@ hence of possibly "non-linear" $\infty$-representations. (See at _[[∞-action]]
 
 2-representations of [[2-groups]] and [[Lie 2-group]]s such as the [[string 2-group]] on [[2-vector space]]s are disscussed in
 
-* [[Urs Schreiber]], _AQFT from $n$-functorial QFT_ 
+* {#Schreiber}[[Urs Schreiber]], _AQFT from $n$-functorial QFT_ 
   ([arXiv:0806.1079](http://arxiv.org/abs/0806.1079)) (appendix)
-{#Schreiber}
 
-* [[John Baez]], Aristide Baratin, Laurent Freidel, Derek Wise, _Infinite-Dimensional Representations of 2-Groups_ ([arXiv:0812.4969](http://arxiv.org/abs/0812.4969))
-{#BaezBaratinFreidelWise}
+
+* {#BaezBaratinFreidelWise} [[John Baez]], Aristide Baratin, Laurent Freidel, Derek Wise, _Infinite-Dimensional Representations of 2-Groups_ ([arXiv:0812.4969](http://arxiv.org/abs/0812.4969))
+
 
 References for 2- and 3-representatons of [[path n-groupoid]]s are at [[higher parallel transport]].
 
 $\infty$-Representations of [[groupoids]] and [[Lie algebroid]]s on $(\infty,1)$-categories of chain complexes are discussed under the term  _representations up to homotopy_ in
 
-* [[Camilo Arias Abad]], [[Marius Crainic]] , _Representations up to homotopy and Bott's spectral sequence for Lie groupoids_ ([arXiv](http://arxiv.org/abs/0911.2859))
-{#AbadCrainic}
+* {#AbadCrainic} [[Camilo Arias Abad]], [[Marius Crainic]] , _Representations up to homotopy and Bott's spectral sequence for Lie groupoids_ ([arXiv](http://arxiv.org/abs/0911.2859))
+
 
 A discussion of quasicoherent $\infty$-stacks and D-modules in the context of [[representation theory]] is for instance in
 
-* [[David Ben-Zvi]], [[David Nadler]], 
+* {#Ben-ZviNadler} [[David Ben-Zvi]], [[David Nadler]], 
 
   _The character theory of a complex group_ ([arXiv:0904.1247](http://arxiv.org/abs/0904.1247))
 
   _Loop Spaces and Representations_ ([arXiv:1004.5120](http://arxiv.org/abs/1004.5120))
-{#Ben-ZviNadler}
+
 
 
 
 [[!redirects ∞-representation]]
-
 [[!redirects ∞-representations]]
 [[!redirects infinity-representations]]
+
+[[!redirects ∞-representation]]
+[[!redirects ∞-representations]]
 
 
 [[!redirects representation up to homotopy]]
