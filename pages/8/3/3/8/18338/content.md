@@ -59,8 +59,12 @@ which may be subtly mocking.
 These three terms can be distinguished in the following way:
 
 * The definition of a single function or operation is "canonical" if there are "no arbitrary choices" involved in it, or more precisely if the end result is independent of any arbitrary choices that we had to make in defining it.  In category theory, we generally consider something "canonical" if this independence is "up to unique isomorphism" in an appropriate sense, such as the definition of [[generalized the|the]] limit functor on a category with limits.
-* The definition of a function taking the [[objects]] of a category into the objects of another is _functorial_ if we have also supplied a function on morphisms making it into a [[functor]], or more loosely uf such a function exists (although in practice one always has a particular such function in mind).
+* The definition of a function taking the [[objects]] of a category into the objects of another is _functorial_ if we have also supplied a function on morphisms making it into a [[functor]], or more loosely if such a function exists (although in practice one always has a particular such function in mind).
 * The definition of a function taking the objects of one category into morphisms of another is _natural_ if it forms a natural isomorphism between two functors (generally assumed to be given).
+
+In particular, the adjectives "functorial" and "natural" in general apply to different  classes of things.
+
+See [[non-canonical isomorphism]] for examples of *natural* isomorphisms that are not *canonical*.
 
 ## Examples
 
