@@ -455,7 +455,7 @@ $$
        \\
        \mathbb{Q}_p/\mathbb{Z}_p & if\; n= -2
        \\
-       \mathbb{Z}/p^{k+1}\mathbb{Z} & if\; n+1 = (p-1)p^k m \;with\; m \neq 0\;mod\;p
+       \mathbb{Z}/p^{k+1}\mathbb{Z} & if\; n+1 = 2(p-1)p^k m \;with\; m \neq 0\;mod\;p
         \\
         0 & otherwise
     }
@@ -465,7 +465,7 @@ $$
 
 =--
 
-This appears as ([Lurie 10, theorem 6](#Lurie))
+This appears as ([Lurie 10, theorem 6](#Lurie)) (note that there are two typos: first, the theorem is stated with $L_{K(1)} \mathbb{S}$ rather than $L_{E(1)} \mathbb{S}$, and second, it should be $n+1 = 2(p-1)p^k m$ but the $2$ is missing.)
 
 
 +-- {: .num_defn }
