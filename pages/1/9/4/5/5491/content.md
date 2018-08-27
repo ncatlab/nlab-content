@@ -106,7 +106,7 @@ $$
 in the [[(2,1)-topos]] $Sh_{(2,1)}(C)$ is a _smooth representation_ of $G$, in that the linear automorphisms $\rho(g) : V \to V$ depend smoothly on the point $g \in G$. 
 
 
-We can recover the underlying ordinary representation by applying the [[global section]] functor $\Gamma : Sh_{(2,1)}(C) \to Grpd$. This is given by evaluating every thing on the [[terminal object]] ${*} \in C*, which here is just the ordinary [[point]], regarded as a smmoth manifold.
+We can recover the underlying ordinary representation by applying the [[global section]] functor $\Gamma : Sh_{(2,1)}(C) \to Grpd$. This is given by evaluating every thing on the [[terminal object]] ${*} \in C$, which here is just the ordinary [[point]], regarded as a smmoth manifold.
 
 This yields the underlying bare representation
 
@@ -179,7 +179,7 @@ This way of thinking of representations has an immediate generalization to [[hig
 
 To start with the simple discussion over the point again, a model for a notion of a category of $\infty$-modules that is useful is an [[(∞,1)-category]] $Ch_\bullet(k)$ that is [[presentable (∞,1)-category|presented]] by a [[model structure on chain complexes]].
 
-If again $G$ is a [[discrete group]], then an  [[(∞,1)-functor]] (equivalently: a "strong homotopy-functor" or ""homotopy coherent functor, see there for details)
+If again $G$ is a [[discrete group]], then an  [[(∞,1)-functor]] (equivalently: a "strong homotopy-functor" or "homotopy coherent functor", see there for details)
 
 $$
   \rho : \mathbf{B}G \to Ch_\bullet(k)
@@ -331,15 +331,8 @@ A discussion of quasicoherent $\infty$-stacks and D-modules in the context of [[
   _Loop Spaces and Representations_ ([arXiv:1004.5120](http://arxiv.org/abs/1004.5120))
 
 
-
-
-[[!redirects ∞-representation]]
-[[!redirects ∞-representations]]
 [[!redirects infinity-representations]]
-
 [[!redirects ∞-representation]]
 [[!redirects ∞-representations]]
-
-
 [[!redirects representation up to homotopy]]
 [[!redirects representations up to homotopy]]
