@@ -121,7 +121,7 @@ If a [[category]] with finite [[coproducts]] and [[products]] carries any [[natu
 
 =--
 
-([Lack 09, theorem 5](#Lack09)).
+([Lack 09, theorem 5](#Lack09)).  See [[non-canonical isomorphism]] for more.
 
 
 ### Biproducts imply enrichment -- Relation to additive categories
