@@ -430,3 +430,5 @@ See also
 
 
 [[!redirects fundamental theorem of finite abelian groups]]
+
+[[!redirects fundamental theorem of cyclic groups]]
