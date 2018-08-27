@@ -23,7 +23,7 @@ Don Knuth proposed that every professor should be required to have both a "major
 
 ##What you can find here and on my personal pages##
 
-I have given a summary in my [private $n$Lab area](http://ncatlab.org/timporter/show/HomePage) of some of the research area that I have worked in with references for further 'enlightenment'. Some of these are in areas that continue to interest me, and I have various 'projects' and lists of 'work in progress' there as well, some of which are mentioned below.
+I have given a summary in my [private $n$Lab area](http://ncatlab.org/timporter/show/HomePage) of some of the research area that I have worked in with references for further 'enlightenment'. Some of these are in areas that continue to interest me, and I have various 'projects' and lists of 'work in progress' there as well, some of which are mentioned below. Some more recent ones have been added (August 2018).
 
 
 I am writing a series of notes on the theory and application of crossed gadgetry in algebra and topology, and some parts of these notes (approximately first 10 chapters) have been made available on the web at various times. I am currently trying to write new sections on the links between homotopy quantum field theory and non-Abelian cohomology.
