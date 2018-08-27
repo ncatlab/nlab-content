@@ -262,6 +262,7 @@ see also
 
 * [[Igor Bandos]], [[Jose de Azcarraga]], Jose Izquierdo, Jerzy Lukierski, _BPS states in M-theory and twistorial constituents_, Phys.Rev.Lett.86:4451-4454,2001 ([arXiv:hep-th/0101113](https://arxiv.org/abs/hep-th/0101113))
 
+* U. Gran, [[Jan Gutowski]], [[George Papadopoulos]], _Classification, geometry and applications of supersymmetric backgrounds_ ([arXiv:1808.07879](https://arxiv.org/abs/1808.07879))
 
 
 Discussion in the context of multiple [[M2-branes]] in the  [[BLG model]] is in
