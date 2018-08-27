@@ -55,8 +55,7 @@ Generalizing in another direction, internalized isofibrations are the fibrations
 
 For groupoids the definition appears (called "star surjectivity" there) on p. 105 (3 of 30) in
 
-* {#Brown70} [[Ronnie Brown]], _Fibrations of groupoids_, Journal of Algebra
-Volume 15, Issue 1, May 1970, Pages 103-132
+* {#Brown70} [[Ronnie Brown]], _Fibrations of groupoids_, Journal of Algebra Volume 15, Issue 1, May 1970, Pages 103-132 doi:[10.1016/0021-8693(70)90089-X](https://doi.org/10.1016/0021-8693%2870%2990089-X), [author's pdf](http://groupoids.org.uk/pdffiles/fibrationsgpds.pdf)
 
 
 [[!redirects isofibrations]]
