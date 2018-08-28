@@ -15,19 +15,74 @@
 
 ## Idea
 
-The [[standard model of particle physics]] asserts that the fundamental quantum [[field (physics)|physical fields]] and [[particles]] are modeled as [[sections]] of and [[connection on a bundle|connections]] on a [[vector bundle]] that is [[associated bundle|associated]] to a $G$-[[principal bundle]], where the [[Lie group]] $G$ -- called the [[gauge group]] -- is  the [[product]] of ([[special unitary group|special]]) [[unitary groups]] $G = SU(3) \times SU(2) \times U(1)$ (or rather a [[quotient]] of this by the [[cyclic group]] $Z/6$) and where the [[representation]] of $G$ used to form the associated vector bundle looks fairly ad hoc on first sight.
+### General idea
 
-A **grand unified theory** ("GUT" for short) in this context is an attempt to realize the standard model as sitting inside a conceptually simpler [[model (in particle physics)|model]], in particular one for which the [[gauge group]] is a bigger but _simpler_ group $\hat{G}$, preferably a [[simple Lie group]] in the technical sense, which contains $G$ as a [[subgroup]]. Such a grand unified theory would be [[phenomenology|phenomenologically]] viable if a process of [[spontaneous symmetry breaking]] at some high [[energy]] scale -- the "GUT scale" -- would reduce the model back to the [[standard model of particle physics]] without adding spurious extra effects that would not be in agreement with existing observations in [[experiment]].
+The [[standard model of particle physics]] asserts that the fundamental quantum [[field (physics)|physical fields]] and [[particles]] are modeled as [[sections]] of and [[connection on a bundle|connections]] on a [[vector bundle]] that is [[associated bundle|associated]] to a $G$-[[principal bundle]], where the [[Lie group]] $G$ -- called the [[gauge group]] -- is  the [[product]] of ([[special unitary group|special]]) [[unitary groups]] $G = SU(3) \times SU(2) \times U(1)$ (or rather a [[quotient]] of this by the [[cyclic group]] $Z/6$, see [there](standard+model+of+particle+physics#GaugeGroup)) and where the [[representation]] of $G$ used to form the [[associated bundle|associated]] [[vector bundle]] looks fairly ad hoc on first sight.
 
-The terminology "grand unified" here refers to the fact that such a single simple group $\hat{G}$ would unify the fundamental [[forces]] of [[electromagnetism]], the [[weak nuclear force]] and the [[strong nuclear force]] in a way that generalizes the way in which the [[electroweak field]] already unifies the weak force and electromagnetism, and electromagnetism already unifies, as the word says, electricity and magnetism.
+A **grand unified theory** ("GUT" for short) in this context is an attempt to realize the standard model as sitting inside a conceptually simpler [[model (in particle physics)|model]], in particular one for which the [[gauge group]] is a bigger but _simpler_ group $\hat{G}$, preferably a _[[simple Lie group]]_ in the technical sense, which contains $G$ as a [[subgroup]]. Such a grand unified theory would be [[phenomenology|phenomenologically]] viable if a process of [[spontaneous symmetry breaking]] at some high [[energy]] scale -- the "GUT scale" -- would reduce the model back to the [[standard model of particle physics]] without adding spurious extra effects that would not be in agreement with existing observations in [[experiment]].
 
-Historically, the most studied choices of GUT-groups $G$ are [[special unitary group|SU(5)]], [[spin group|Spin(10)]] (in the physics literature often referred to as [[special orthogonal group|SO(10)]]) and [[E6]] (review includes [Witten 86, sections 1 and 2](#Witten86)). 
+The terminology "grand unified" here refers to the fact that such a single simple group $\hat{G}$ would unify the fundamental [[forces]] of [[electromagnetism]], the [[weak nuclear force]] and the [[strong nuclear force]] in a way that generalizes the way in which the [[electroweak field]] already unifies the [[weak nuclear force]] and [[electromagnetism]], and electromagnetism already unifies, as the word says, electricity and magnetism.
 
-It so happens that, mathematically, the sequence [[special unitary groups|SU(5)]], [[spin group|Spin(10)]], [[E6]] naturally continues (each step by consecutively adding a node to the [[Dynkin diagrams]]) with the [[exceptional Lie groups]] [[E7]], [[E8]] that naturally appear in [[heterotic string theory|heterotic]] [[string phenomenology]] (exposition is in [Witten 02a](#Witten02a)) and conjecturally further via the [[U-duality]] [[Kac-Moody groups]] [[E9]], [[E10]], [[E11]] that are being argued to underly [[M-theory]]. In the context of [[F-theory]] model building, also properties of the observes [[Yukawa couplings]] may point to exceptional GUT groups ([Zoccarato 14, slide 11](#Zoccarato14), [Vafa 15, slide 11](#Vafa15)).
 
 Since no GUT model has been fully validated yet (but see for instance [Fong-Meloni 14](#FongMeloni14)), GUTs are [[model (physics)|models]] "beyond the [[standard model of particle physics|standard model]]". Often quantum physics "beyond the standard model" is expected to also say something sensible about [[quantum gravity]] and hence unify not just the three gauge forces but also the fourth known fundamental force, which is [[gravity]]. Models that aim to do all of this would then "unify" the entire content of the [[standard model of particle physics]] plus the [[standard model of cosmology]], hence "everything that is known about fundamental physics" to date. Therefore such theories are then sometimes called a _[[theory of everything]]_. 
 
 (Here it is important to remember the context, both "grand unified" and "of everything" refers to aspects of presently available models of fundamental physics, and not to deeper philosophical questions of [[ontology]].)
+
+
+### The $SU(5)$-GUT
+  {#IdeaofSU5GUT}
+
+The argument for the hypothesis of "grand unification" is fairly compelling if one asks for _[[simple objects|simple algebraic structures]]_ in the technical sense ([[simple Lie groups]] and their [[irreducible representations]]): 
+
+The _exact_ gauge group of the [[standard model of particle physics]] is really a [[quotient group]] 
+
+$$
+  G_{SM}
+  \;=\; 
+  \big( U(1) \times SU(2) \times SU(3) \big) / \mathbb{Z}_6
+  \,,
+$$
+
+where the [[cyclic group]] $\mathbb{Z}_6$ [[free action|acts freely]], hence exhibiting a subtle global twist in the gauge structure. This seemingly ad hoc group turns out to be [[isomorphism|isomorphic]] to the [[subgroup]]
+
+$$
+  \underset{
+    \simeq \big( U(1) \times SU(2) \times SU(3) \big) / \mathbb{Z}_6  }{
+  \underbrace{
+    S \big( U(2) \times U(3)\big)
+  }}
+  \;\subset\;
+  SU(5)
+$$
+
+of [[special unitary group|SU(5)]] (see [Baez-Huerta 09, p. 33-36](#BaezHuerta09)). The latter happens to be a [[simple Lie group]], thus exhibiting the exact standard model Lie group as being "simply" a "(2+3)-breaking" of a [[simple Lie group]].
+
+Moreover, the [[gauge group]]-[[representation]] $V_{SM}$ that captures one [[generation of fundamental particles]] of the [[standard model of particle physics]], which looks fairly ad hoc as a representation of $G_{SM}$ (e.g. [Baez-Huerta 09, table 1](#BaezHuerta09)), but as a representation of $SU(5)$ it is simply 
+
+$$
+  V_{SM} \simeq \Lambda \mathbb{C}^5
+$$ 
+
+(see [Baez-Huerta 09, p. 36-41](#BaezHuerta09)).
+
+
+### The $Spin(10)$-GUT (known as "$SO(10)$")
+
+There is a further inclusion $SU(5) \hookrightarrow Spin(10)$ into the [[spin group]] in 10 (Euclidean) dimensions (still a [[simple Lie group]]), and one [[generation of fundamental particles]] regarded as an $SU(5)$-[[representation]] $\Lambda \mathbb{C}^5$ as [above](#IdeaofSU5GUT) extends to a [[spin representation]] (see [Baez-Huerta 09, theorem 2](#BaezHuerta09)). This has the aesthetically pleasing effect that under this identification the 1-generation rep $V_{SM}$ is now identified as
+
+$$
+  V_{SM} \;\simeq\; \mathbf{16} \oplus \overline{\mathbf{16}}
+$$
+
+namely as the [[direct sum]] of [[generalized the|the]] two (complex) [[irreducible representations]] of $Spin(10)$, together being the [[Dirac representation]] of $Spin(10)$.
+
+Again, this means that under the embedding of the gauge group $G_{SM}$ all the way into the [[simple Lie group]] $Spin(10)$, its ingredients become _simpler_, not just in a naive sense, but in the technical mathematical sense of _[[simple objects|simple algebraic objects]]_.
+
+### Exceptional series GUTs
+
+This way, the most studied choices of GUT-groups $G$ are [[special unitary group|SU(5)]], [[spin group|Spin(10)]] (in the physics literature often referred to as [[special orthogonal group|SO(10)]]) and [[E6]] (review includes [Witten 86, sections 1 and 2](#Witten86)). 
+
+It so happens that, mathematically, the sequence [[special unitary groups|SU(5)]], [[spin group|Spin(10)]], [[E6]] naturally continues (each step by consecutively adding a node to the [[Dynkin diagrams]]) with the [[exceptional Lie groups]] [[E7]], [[E8]] that naturally appear in [[heterotic string theory|heterotic]] [[string phenomenology]] (exposition is in [Witten 02a](#Witten02a)) and conjecturally further via the [[U-duality]] [[Kac-Moody groups]] [[E9]], [[E10]], [[E11]] that are being argued to underly [[M-theory]]. In the context of [[F-theory]] model building, also properties of the observes [[Yukawa couplings]] may point to exceptional GUT groups ([Zoccarato 14, slide 11](#Zoccarato14), [Vafa 15, slide 11](#Vafa15)).
 
 ## Properties
 
