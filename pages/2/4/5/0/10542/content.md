@@ -318,7 +318,7 @@ which is [[generators and relations|generated]] by the [[pair]] of [[diagonal ma
     e^{2\pi i \tfrac{1}{3}}   \mathbf{1}_3
     \;,\;
     e^{2\pi i \tfrac{1}{3}}  \mathbf{1}_3
-  \right)
+  \right)/
   \;\in \;
   SU(3) \times SU(3)
   \,.
@@ -327,6 +327,7 @@ which is [[generators and relations|generated]] by the [[pair]] of [[diagonal ma
 =--
 
 ([Yokota 09, theorem 2.12.2](#Yokota09))
+
 
 \begin{prpn} \label{StabilizerOf4dMinkowskiInsideOctonionicAlbertAlgebra} The further [[subgroup]] of
 $
@@ -352,6 +353,8 @@ $$
     Mat_{3 \times 3}(V)
   }}
 $$
+
+(hence, by the [above](#RelationTo10dSuperSpacetime), a 4d [[Minkowski spacetime]] (incarnated via its [[Pauli matrices]]) inside the 10d [[Minkowski spacetime]] inside the octonionic Albert algebra)
 
 is
 
