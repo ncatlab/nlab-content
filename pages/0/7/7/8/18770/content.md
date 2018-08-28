@@ -32,7 +32,7 @@ SDT uses the representability of germs by an object defined intrinsically as the
 
 * [[Marta Bunge]], Felipe Gago, _Synthetic aspects of $C^\infty$-mapping II: Mather's theorem for infinitesimally represented germs_, Journal of Pure and Applied Algebra 55 (1988)  213-250 North-Holland ([doi:10.1016/0022-4049(88)90117-X](https://doi.org/10.1016/0022-4049%2888%2990117-X))
 
-* [[Marta Bunge]], Felipe Gago, Ana Maria San Luis, _Synthetic Differential Topology_, Cambridge, to appear April 2018
+* [[Marta Bunge]], Felipe Gago, Ana Maria San Luis, _Synthetic Differential Topology_, 2018, ([CUP](http://www.cambridge.org/gb/academic/subjects/mathematics/logic-categories-and-sets/synthetic-differential-topology)) ([excerpt](http://assets.cambridge.org/97811084/47232/excerpt/9781108447232_excerpt.pdf))
 
 
 
