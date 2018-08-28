@@ -21,13 +21,22 @@ Membrane [[instantons]] are constituted by [[supermembranes]] ([[M2-branes]])  [
 Basically the effect is that the [[action functional]] of the given [[11-dimensional supergravity]] is multiplied by the exponentiated [[Nambu-Goto action]] of the [[wrapped brane|wrapping]] membrane configurations $\phi \colon \Sigma \to X$. These are of the form (e.g. [Harvey-Moore 99, (4.13)](#HarveyMoore99), [Atiyah-Witten 01 (4.17)](#AtiyahWitten01), [Curio 02, (2.15)](#Curio02))
 
 $$
-  \exp(i \int_{\Sigma} (\phi^\ast C + i \ell^{-3} vol(\phi^\ast g)))
+  \exp(i T \int_{\Sigma} (\phi^\ast C + i \ell^{-3} vol(\phi^\ast g)))
   \,,
 $$
 
-where $C$ is the background [[supergravity C-field]], $g$ the background [[metric]] and $vol$ its [[volume form]], $\ell$ is the [[Planck length]] of [[11-dimensional supergravity]].  
+where $\ell$ is the [[Planck length]] of [[11-dimensional supergravity]], $T = 1/\ell^3$ is the membrane [[tension]], $C$ is the [[background field|background]] [[supergravity C-field]], $g$ the background [[metric]] and $vol$ its [[volume form]], .  
+
+## Properties
+
+### Relation to worldsheet and D-brane instantons
+
+Under the [[duality between M-theory and type IIA string theory]], membrane instantons become string [[worldsheet instantons]] or [[D-brane]] instantons, depending on whether they [[wrapped brane]] wrape the M-theory circle fiber or not. See at _[[non-perturbative effect]]_ the section _[Worldsheet and brane instantons](https://ncatlab.org/nlab/show/non-perturbative+effect#WorldsheetAndBraneInstantons)_ for more.
+
+### Relation to complex volume
 
 When here $(\Sigma, \phi^\ast g)$ is a [[hyperbolic 3-manifold]] and $\phi^\ast C = CS(\omega)$ is the [[Chern-Simons form|Chern-Simons invariant]] then this is the exponentiated "[[complex volume]]" of $\Sigma$[^footnote].
+
 
 ## related concepts
 
