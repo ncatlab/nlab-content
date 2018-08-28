@@ -49,6 +49,8 @@ The [[space]] of all these is the _[[space of trajectories]]_ (space of historie
 
   * [[genus]]
 
+* [[worldsheet instanton]]
+
 * [[world sheets for world sheets]]
   
 [[!redirects worldline]]
