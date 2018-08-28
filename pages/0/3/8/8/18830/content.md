@@ -94,7 +94,7 @@ Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]]
 ###### Definition
 **([[microcausal observable|microcausal]] [[polynomial observables]])**
 
-Let $E \overset{fb}{\to}$ be [[field bundle]] which is a [[vector bundle]], over some [[spacetime]] $\Sigma$.
+Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] which is a [[vector bundle]], over some [[spacetime]] $\Sigma$.
 
 A [[polynomial observable]] (def. \ref{PolynomialObservables}) 
 
