@@ -148,6 +148,8 @@ Then they comment on Martinec's account above, and other's, by saying:
 
   [[extended field theory]]
 
+* [[string theory FAQ]]: _[Is string theory causal, given that it is not local on the string scale?](string+theory+FAQ#IsStringTheoryCausal)_
+
 
 ## References
 
@@ -185,7 +187,7 @@ Discussion of causality in [[string theory]] includes the following:
 
 A brief look at the causality property of the string 2-point function is in
 
-* {#Martinec95} [[Emil Martinec]], _Strings and Causality_ ([pdf](cds.cern.ch/record/569030/files/9311129.pdf)) in L. Baulieu, V.  Dotsenko, V. Kazakov, P. Windey (eds.) Quantum Field Theory and String Theory , NATO ASI Series B: Physics Vol. 328 (1995)
+* {#Martinec95} [[Emil Martinec]], _Strings and Causality_ ([pdf](http://cds.cern.ch/record/569030/files/9311129.pdf)) in L. Baulieu, V.  Dotsenko, V. Kazakov, P. Windey (eds.) Quantum Field Theory and String Theory , NATO ASI Series B: Physics Vol. 328 (1995)
 
 An in-depth discussion of causality of the [[string scattering amplitude|string scattering]] [[S-matrix]] via [[open string field theory]] is in
 
@@ -194,6 +196,10 @@ An in-depth discussion of causality of the [[string scattering amplitude|string 
 This rediscovered some facts that had earlier been noticed in
 
 * M. Maeno, _Canonical quantization of Witten's string field theory using midpoint light-cone time_, Phys. Rev. D43 no. 12 (1991).
+
+See also
+
+* Gianluca Calcagni, Leonardo Modesto, _Nonlocality in string theory_, J. Phys. A: Math. Theor. 47 (2014) 355402 ([arXiv:1310.4957](https://arxiv.org/abs/1310.4957))
 
 Discussion in theories with [[higher curvature corrections]] of the gravitational background and in [[string theory]] includes
 
