@@ -30,8 +30,7 @@ Mathematical Society, 1975.
 
 * [[Mamuka Jibladze]], [[Teimuraz Pirashvili]], _Quillen cohomology and Baues-Wirsching cohomology of algebraic theories_  Cah. Topol. G&#233;om. Diff&#233;r. Cat&#233;g.  47  (2006),  no. 3, 163--205, [numdam](http://www.numdam.org/item?id=CTGDC_2006__47_3_163_0)
 
-* [[Teimuraz Pirashvili]], Mar&#237;a Julia Redondo, _Cohomology of the Grothendieck construction_  Manuscripta Math. __120__  (2006),  no. 2, 
-151--162, [doi](http://dx.doi.org/10.1007/s00229-006-0634-1)
+* [[Teimuraz Pirashvili]], Mar&#237;a Julia Redondo, _Cohomology of the Grothendieck construction_  Manuscripta Math. __120__  (2006),  no. 2, 151--162, [doi](http://dx.doi.org/10.1007/s00229-006-0634-1)
 
 Relation with Andre-Quillen cohomology and $(S,O)$-cohomology of Dwyer-Kan is elucidated in 
 
