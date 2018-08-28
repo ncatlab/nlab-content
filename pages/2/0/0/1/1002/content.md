@@ -54,6 +54,16 @@ A topological proof of this fact has been given by Richter (see references).
 This gives one universal characterization of the ultrafilter endofunctor. This theorem implies that there is precisely one [[monad]] structure on $\beta$, and that if $F\colon Set \to Set$ is a monad which preserves finite coproducts, then the unique transformation $F \to \beta$ is a morphism of monads. 
 
 
+### Ultrafilters and presheaves
+
+\begin{theorem}
+(Garner, 2018, \cite{Garner}.)
+The category of [[endofunctors]] $Set \to Set$ that preserve [[finite coproducts]]
+is equivalent to the category of [[presheaves of sets]] on the Blass category $UF$ of ultrafilters.
+The ultrapower functor with respect to an ultrafilter $U$
+corresponds to the representable functor of $U$.
+\end{theorem}
+
 ### Ultrafilters and codensity 
 
 Another known universal characterization of the ultrafilter monad is via the concept of [[codensity monads]]. (This fact was recently (June 2011) mentioned by [[Tom Leinster]] at the categories list, but it also appears sparsely in the literature; see for instance _Algebraic Theories_, exercise 3.2.12(e).) 
@@ -183,6 +193,11 @@ If $X$ is an [[infinite set]] of cardinality $\kappa$, then the number of ultraf
 * [[Tom Leinster]], _Definition of ultrafilter_ .([blog post](http://golem.ph.utexas.edu/category/2011/07/definitions_of_ultrafilter.html))
 
 * H. Volger, _Ultrafilters, ultrapowers and finiteness in a topos_ , JPAA **6** (1975) pp.345-356.
+
+\bibitem{Garner}
+Richard Garner,
+_Ultrafilters, finite coproducts and locally connected classifying toposes_,
+[arXiv:1808.08687](https://arxiv.org/abs/1808.08687).
 
 
 [[!redirects ultrafilter]]
