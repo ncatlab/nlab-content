@@ -1,4 +1,4 @@
-**Marta Bunge** is a Canadian mathematician. Her research includes fibered categories, stacks and groupoids, topos theory, geometric Galois theory of covering spaces...
+**Marta Bunge** is a Canadian mathematician. Her research includes fibered categories, stacks and groupoids, topos theory, geometric Galois theory of covering spaces, [[synthetic differential topology]], ...
 
 * [homepage](http://www.math.mcgill.ca/~bunge)
 * _Categories of Set-Valued Functors_, thesis, University of Pennsylvania, 1966
@@ -18,6 +18,8 @@ J. Pure Appl. Algebra __105__ (1995), no. 3, 233&#8211;249, [MR96i:18004](http:/
 * _Classifying toposes and fundamental localic groupoids_, Category theory 1991 (Montreal, PQ, 1991), 75--96, CMS Conf. Proc. __13__, Amer. Math. Soc. 1992.
 
 * Marta Bunge, [[Claudio Hermida]], _Pseudomonodacity and 2-stack completions_, in Models, Logics, and Higher-Dimensional Categories, CRM Proceedings and Lecture Notes __53__, pp. 29-54, Amer. Math. Soc. 2011. 
+
+* [[Marta Bunge]], Felipe Gago, Ana Maria San Luis, _Synthetic Differential Topology_, 2018, ([CUP](http://www.cambridge.org/gb/academic/subjects/mathematics/logic-categories-and-sets/synthetic-differential-topology))
 
 Marta Bunge reported at the category conference in Calais in June 2008 about her joint work with Claudio Hermida about some aspects of Diaconescu-type results in categorical dimension 2. Her slides from Calais can be found [here](http://saxo.univ-littoral.fr/CT08/slides/Bunge.pdf).  There are also some conjectural statements about higher n, with an interesting definition when an n-functor between strict n-categories should be called a fibered n-category. 
 
