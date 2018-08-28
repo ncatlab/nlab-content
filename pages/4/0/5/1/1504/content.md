@@ -795,7 +795,7 @@ Analogous discussion including also brane/[[anti-brane]] pairs in [[superstring]
 
 ### Relation to higher spin gauge theory
 
-The idea that [[higher spin gauge theory]] appears as the limiting case of string field theory where the string tension vanishes goes back to 
+The idea that [[higher spin gauge theory]] appears as the limiting case of string field theory where the [[string tension]] vanishes goes back to 
 
 * {#HenneauxTeitelboim87} [[Marc Henneaux]], [[Claudio Teitelboim]], section 2 of _First And Second Quantized Point Particles Of Any Spin_, in [[Claudio Teitelboim]], [[Jorge Zanelli]] (eds.) _Santiago 1987, Proceedings, Quantum mechanics of fundamental systems 2_, pp. 113-152. Plenum Press.
 
