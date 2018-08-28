@@ -78,6 +78,8 @@ $$
 
 * [[Planck mass]]
 
+* [[string length]]
+
 * [string theory -- scales](string+theory#scales)
 
 ## References
