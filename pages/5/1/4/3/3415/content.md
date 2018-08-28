@@ -171,7 +171,7 @@ This is ([JoTi, prop 1.20](#JoyalTierney))
 
 ## Related concepts
 
-A similar model for [[(∞,n)-categories]] is disucssed at
+A similar model for [[(∞,n)-categories]] is discussed at
 
 * [[model structure on cellular sets]]
 
