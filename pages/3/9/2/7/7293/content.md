@@ -182,7 +182,7 @@ for all $n,k \in \mathbb{N}$ satisfying the following conditions:
 
 1. for $n = 0$ it is the [[identity]];
 
-1. if $n \gt deg(x)$ then $Sq^n(X) = 0$;
+1. if $n \gt deg(x)$ then $Sq^n(x) = 0$;
 
 1. for $k = n$ the morphism $Sq^n : B^n \mathbb{Z}_2 \to B^{2n} \mathbb{Z}_2$ is the [[cup product]] $x \mapsto x \cup x$;
 
