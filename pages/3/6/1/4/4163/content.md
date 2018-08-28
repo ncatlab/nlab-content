@@ -48,6 +48,10 @@ While this establishes a rigorous construction of perturbative quantum field the
 This suggests that the construction of the full [[non-perturbative quantum field theory]] ought to be given by a [[strict deformation quantization]] of the [[covariant phase space]]. But presently no example of such for non-trivial interaction in [[spacetime]] [[dimension]] $\geq 4$ is known.
 In particular the [[phenomenology|phenomenologically]] interesting case of a complete construction of interacting field theories on 4-dimensional spacetimes is presently unknown. For the case of [[Yang-Mills theory]] this open problem to go beyond perturbative quantum field theory is one of the "Millenium Problems" (see at _[[quantization of Yang-Mills theory]]_). For the case of [[quantum gravity]] this is possibly the $10^4$-year problem that the field is facing. But observe that as a perturbative ([[effective quantum field theory|effective]]") quantum field theory, [[quantum gravity]] does fit into the framework of  perturbative QFT, is mathematically well-defined and makes predictions, see the references [there](quantum%20gravity#ReferencesAsAnEffectiveFieldTheory).
 
+## Details
+
+A comprehensive introduction is at _[[geometry of physics -- perturbative quantum field theory]]_.
+
 
 ## Properties
 
