@@ -100,7 +100,7 @@ A [[polynomial observable]] (def. \ref{PolynomialObservables})
 
 $$
   \begin{aligned}
-    A)
+    A
      & = \phantom{+}
     \alpha^{(0)}
     \\
@@ -524,7 +524,7 @@ $$
   \,.
 $$
 
-Here $S_1 {\vee\!\!\!\wedge} S_2$ is the [[causal order]] relation ("$S_1$ does not intersect the [[past cone]] of $S_2$"). Beware that for general [[pairs]] $(S_1, S-2)$ of subsets neither $S_1 {\vee\!\!\!\wedge} S_2$ nor $S_2 {\vee\!\!\!\wedge} S_1$.
+Here $S_1 {\vee\!\!\!\wedge} S_2$ is the [[causal order]] relation ("$S_1$ does not intersect the [[past cone]] of $S_2$"). Beware that for general [[pairs]] $(S_1, S_2)$ of subsets neither $S_1 {\vee\!\!\!\wedge} S_2$ nor $S_2 {\vee\!\!\!\wedge} S_1$.
 
 =--
 
@@ -659,7 +659,7 @@ $$
     \\
     {}^{\mathllap{\mathcal{T} \otimes \mathcal{T}}}_\simeq\Big\downarrow
       &&
-    \downarrow^{\mathrlap{\mathcal{T}}}_\simeq
+    \Big\downarrow{}^{\mathrlap{\mathcal{T}}}_\simeq
     \\
     PolyObs(E)_{reg}[ [\hbar] ]
       \otimes
@@ -800,7 +800,7 @@ It is traditional to use the following alternative notation for the product stru
    $$
 
 Under [[representation]] of the [[Wick algebra]] on a [[Fock space|Fock]] [[Hilbert space]] by [[linear operators]]
-the first product become the _[[operator product]]_, while the second becomes the operator poduct applied after
+the first product becomes the _[[operator product]]_, while the second becomes the operator poduct applied after
 suitable re-ordering, called "[[normal-ordered product|normal odering]]" of the factors.
 
 Disregarding the [[Fock space]]-representation, which is [[faithful representation|faithful]], we may still
@@ -997,7 +997,7 @@ The function $\langle -\rangle_0$ is
 where $(-)^\ast$ denotes componet-wise [[complex conjugation]].
 
 
-This means that $\langle -\rangle_{0}$ is a [[state on a star-algebra|states]] on the [[Wick algebra|Wick]] [[star-algebra]] $\left( (PolyObs(E,\mathbf{L}))_{mc}[ [\hbar] ], \star_H\right)$ (prop. \ref{MoyalStarProductOnMicrocausal}). One says that
+This means that $\langle -\rangle_{0}$ is a [[state on a star-algebra|state]] on the [[Wick algebra|Wick]] [[star-algebra]] $\left( (PolyObs(E,\mathbf{L}))_{mc}[ [\hbar] ], \star_H\right)$ (prop. \ref{MoyalStarProductOnMicrocausal}). One says that
 
 * $\langle - \rangle_0$ is a _[[Hadamard vacuum state]]_;
 
@@ -1050,7 +1050,7 @@ $$
    \,dvol_\Sigma(x_2)
 $$
 
-in the [[Wightman propagator]], which is the value of the [[Hadamard vacuum state]] from prop. \ref{WickAlgebraCanonicalState}
+in the [[Wightman propagator]], which is the value of the [[Hadamard vacuum state]] from prop. \ref{WickAlgebraCanonicalState}:
 
 $$
   A_1 \star_H A_2
@@ -1220,7 +1220,7 @@ So far we have discussed the plain (graded-commutative) [[algebra of quantum obs
 ###### Proposition
 **(global [[BV-differential]] on [[Wick algebra]])**
 
-Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] (def. \ref{FreeFieldTheory}) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ (def. \ref{GaugeFixingLagrangianDensity}) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$ (remark \ref{FieldBundleBVBRST}). Let $\Delta_H$ be a compatible [[Wightman propagator]] (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}).
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] (def. \ref{FreeFieldTheory}) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ (def. \ref{GaugeFixingLagrangianDensity}) on a graded [[BV-BRST formalism|BV-BRST]] [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$ (remark \ref{FieldBundleBVBRST}). Let $\Delta_H$ be a compatible [[Wightman propagator]] (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}).
 
 Then the global [[BV-differential]] $\{-S',(-)\}$ (def. \ref{ComplexBVBRSTGlobal}) restricts from [[polynomial observables]] to a linear map on [[microcausal polynomial observables]] (def. \ref{MicrocausalObservable})
 
@@ -1266,7 +1266,7 @@ where $P$ is a [[differential operator]]. By [[partial integration]] this transl
 
 Now by prop. \ref{RetainsOrShrinksWaveFrontSetDifferentialOperator} the application of $P^\ast$ retains or shrinks the [[wave front set]] of the distributional coefficient, hence it preserves the microcausality condition (def. \ref{MicrocausalObservable}). This makes $\{-S',(-)\}$ restrict to microcausal polynomial observables.
 
-To see that $\{-S',(-)\}$ thus restricted is a [[derivation]] of the Wick algebra product, it is sufficient to see that its [[commutators]] with the [[Wightman propagator]] vanishes in each argument:
+To see that $\{-S',(-)\}$ thus restricted is a [[derivation]] of the Wick algebra product, it is sufficient to see that its [[commutators]] with the [[Wightman propagator]] vanish in each argument:
 
 $$
   \left[
@@ -1420,11 +1420,11 @@ $$
   \end{aligned}
 $$
 
-and similarly for the other order of the tensor products. Here term over the brace vanishes by the fact that the Wightman propagator is a solution to the homogeneous equations of motion by prop. \ref{OnMinkowskiWightmanIsDistributionalSolutionToKleinGordon}.
+and similarly for the other order of the tensor products. Here the term over the brace vanishes by the fact that the Wightman propagator is a solution to the homogeneous equations of motion by prop. \ref{OnMinkowskiWightmanIsDistributionalSolutionToKleinGordon}.
 
 =--
 
-To analyze the behaviour of the free quantum BV-differential in general and specifically after passing to [[interacting field theory]] (below in chapter _[Interacting quantum fields](#InteractingQuantumFields)_) it is useful to re-express is in terms of the incarnation of the global [[antibracket]] with respect not to the pointwise product of observables, but the [[time-ordered product]]:
+To analyze the behaviour of the free quantum BV-differential in general and specifically after passing to [[interacting field theory]] (below in chapter _[Interacting quantum fields](#InteractingQuantumFields)_) it is useful to re-express it in terms of the incarnation of the global [[antibracket]] with respect not to the pointwise product of observables, but the [[time-ordered product]]:
 
 +-- {: .num_defn #AntibracketTimeOrdered}
 ###### Definition
@@ -1461,7 +1461,9 @@ $$
       &\overset{\{-,-\}}{\longrightarrow}&
     PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
     \\
-    {}^{\mathllap{\mathcal{T}}}_{\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{\mathcal{T}}}_\simeq
+    {}^{\mathllap{\mathcal{T}}}_{\mathllap{\simeq}}\Big\downarrow 
+      && 
+    \Big\downarrow{}^{\mathrlap{\mathcal{T}}}_\simeq
     \\
     PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
       \otimes
@@ -1498,9 +1500,9 @@ $$
      &\overset{ \{-S',-\} }{\longrightarrow}&
     PoyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
     \\
-    {}^{\mathllap{\mathcal{T}}}\downarrow
+    {}^{\mathllap{\mathcal{T}}}\Big\downarrow
       &&
-    \downarrow^{\mathrlap{\mathcal{T}}}
+    \Big\downarrow{}^{\mathrlap{\mathcal{T}}}
     \\
     PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
      &\overset{ \{-S',-\}_{\mathcal{T}} }{\longrightarrow}&
@@ -1553,7 +1555,7 @@ $$
 ###### Definition
 **([[BV-operator]] for [[gauge fixing|gauge fixed]] [[free field theory|free]] [[Lagrangian field theory]])**
 
-Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] (def. \ref{FreeFieldTheory}) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ (def. \ref{GaugeFixingLagrangianDensity}) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$ (remark \ref{FieldBundleBVBRST}) and with corresponding gauge-fixed global [[BV-BRST differential]] on graded [[regular polynomial observables]]
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] (def. \ref{FreeFieldTheory}) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ (def. \ref{GaugeFixingLagrangianDensity}) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$ (remark \ref{FieldBundleBVBRST}) and with corresponding [[gauge fixing|gauge-fixed]] global [[BV-BRST differential]] on graded [[regular polynomial observables]]
 
 $$
   \{-S' + S'_{BRST}, -\}
@@ -1907,7 +1909,7 @@ $\,$
 **[[Schwinger-Dyson equation]]**
   {#SchwingerDysonEquation}
 
-A special case of the general occurence of the [[BV-operator]] is the following important property of [[on-shell]] [[time-ordered products]]:
+A special case of the general occurrence of the [[BV-operator]] is the following important property of [[on-shell]] [[time-ordered products]]:
 
 +-- {: .num_prop #DysonSchwinger}
 ###### Proposition
@@ -2129,3 +2131,7 @@ is  the [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] (for t
 $\,$
 
 This concludes our discussion of the [[algebra of quantum observables]] for [[free field theories]]. In the [next chapter](#InteractingQuantumFields) we discuss the [[perturbative QFT]] of [[interacting field theories]] as [[deformations]] of such free quantum field theories.
+
+$\,$
+
+$\,$
