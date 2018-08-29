@@ -100,6 +100,7 @@ Given a [[set]] $X$ and a collection $\mathcal{M}$ of [[subsets]] $S \subseteq X
    2.  If $S$ is in $\mathcal{M}$, then so is its [[complement]] $\neg{S}$.
    3.  If $S_1, S_2, S_3, \ldots$ are in $\mathcal{M}$, then so is their [[union]] $\bigcup_i S_i$.
 
+
    And again we could again just as easily use [[intersection]] as union, even in the infinitary axiom.  That is, a $\delta$-algebra is automatically a $\sigma$-algebra, because $\bigcup_i S_i = \neg\bigcap_i \neg{S_i}$.
 
 
