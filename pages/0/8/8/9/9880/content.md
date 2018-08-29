@@ -150,7 +150,7 @@ The non-perturbative effects in [[QCD]] are in
 
 and in ([[super Yang-Mills theory|super]]-)[[Yang-Mills theory]] and [[string theory]] is in
 
-* [[Marcos Mariño]], _Lectures on non-perturbative effects in large N gauge theories, matrix models and strings_ ([arXiv:1206.6272](http://arxiv.org/abs/1206.6272))
+* [[Marcos Mariño]], _Lectures on non-perturbative effects in large N gauge theories, matrix models and strings_, Fortschritte der Physik 62.5‐6 (2014): 455-540 ([arXiv:1206.6272](http://arxiv.org/abs/1206.6272))
 
 * {#Marino15} [[Marcos Mariño]], _Non-perturbative effects in string theory and AdS/CFT_, [Spring School on Superstring Theory and Related Topics 2015](http://indico.ictp.it/event/a14251/)  ([[MarinoNonPerturbative.pdf:file]], [pdf](http://indico.ictp.it/event/a14251/session/89/contribution/401/material/0/0.pdf))
 
@@ -178,7 +178,7 @@ Reviews specifically in [[type II string theory]] include
 
 ### In M-Theory
 
-The relation of non-pertrubative effects in string theory to [[M-theory]] goes back to
+The relation of non-perturbative effects in string theory to [[M-theory]] goes back to
 
 * {#Witten95} [[Edward Witten]], section 2.2 of _[[String Theory Dynamics In Various Dimensions]]_, Nucl.Phys.B443:85-126,1995 ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
 
