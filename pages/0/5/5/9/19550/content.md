@@ -5,7 +5,7 @@
 
 ## Idea
 
-_Prime ideals_ are supposed to be a generalization of [[prime numbers]] from elements of the [[ring]] of [[integers]] to [[ideals]] in the sense of 'ideal elements' of an arbitrary [[ring]] (usually [[commutative ring|commutative]], but also possibly something more general than a ring).  It\'s not clear that they do so; [[maximal ideals]] and [[irreducible ideals]] may do a better job.  (In particular, [[zero]] is *not* a prime number, and the [[zero ideal]] of $\mathbb{Z}$ is neither maximal nor irreducible; however, it *is* prime.)  Nevertheless, they have assumed an importance that dwarfs any question of original motivation; indeed, the general definition of [[prime element]] follows prime ideals rather than prime numbers.  (An element of a ring is prime iff its [[principal ideal]] is prime; $0$ is a prime element of $\mathbb{Z}$ but not a prime number.)
+_Prime ideals_ are supposed to be a generalization of [[prime numbers]] from elements of the [[ring]] of [[integers]] to [[ideals]] in the sense of 'ideal elements' of an arbitrary [[ring]] (usually [[commutative ring|commutative]], but also possibly something more general than a ring).  It\'s not clear that they do so; [[maximal ideals]] may do a better job.  (In particular, [[zero]] is *not* a prime number, and the [[zero ideal]] of $\mathbb{Z}$ is not a maximal ideal either; however, it *is* a prime ideal.)  Nevertheless, they have assumed an importance that dwarfs any question of original motivation; indeed, the general definition of [[prime element]] follows prime ideals rather than prime numbers.  (An element of a ring is prime iff its [[principal ideal]] is prime; $0$ is a prime element of $\mathbb{Z}$ but not a prime number.)
 
 
 ## Definitions
