@@ -89,7 +89,7 @@ Let $\mathcal{C}$ be a small category. Then $Set^{\mathcal{C}^{op}}$ is bi-Heyti
 
 Bi-Heyting toposes are explicitly defined in
 
-* {#BBJ04} [[Francis Borceux]], [[Dominique Bourn]], [[Peter Johnstone]], _Initial Normal Covers in Bi-Heyting Toposes_ , Arch. Math. **42** (2006) pp.335-356. ([pdf](http://mat.ub.edu/EMIS/journals/AM/06-4/johnston.pdf))
+* {#BBJ04} [[Francis Borceux]], [[Dominique Bourn]], [[Peter Johnstone]], _Initial Normal Covers in Bi-Heyting Toposes_ , Arch. Math. **42** (2006) pp.335-356. ([pdf](https://www.emis.de/journals/AM/06-4/johnston.pdf))
 
 But their logical possibilities were exploited well before this e.g. in the work of Lawvere, Reyes and collaborators:
 
@@ -98,7 +98,6 @@ But their logical possibilities were exploited well before this e.g. in the work
 * {#Law91a} [[William Lawvere]], _Intrinsic Co-Heyting Boundaries and the Leibniz Rule in Certain Toposes_ , pp.279-281 in A. Carboni, M. Pedicchio, G. Rosolini (eds.) , _[[Como|Category Theory - Proceedings of the International Conference held in Como 1990]]_ , LNM **1488** Springer Heidelberg 1991.
 
 * {#Reyes}[[Gonzalo E. Reyes]], Houman Zolfaghari,  _Bi-Heyting Algebras, Toposes and Modalities_ , J. Phi. Logic **25** (1996) pp.25-43.
-
 
 
 
