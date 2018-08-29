@@ -1,15 +1,13 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Arithmetic
-+--{: .hide}
++-- {: .hide}
 [[!include arithmetic geometry - contents]]
 =--
 =--
 =--
-
 
 # Floors and ceilings
 * table of contents
@@ -32,6 +30,7 @@ The floor of $x$ is also called the __integer part__ of $x$, and then one refers
 $$ \{x\} = x - [x] .$$
 
 One must of course prove that the floor of $x$ exists; this fails in [[constructive mathematics]], although the floor of $x$ exists for [[full set|almost all]] $x$, and all of these functions can still be defined as continuous maps between appropriate [[locales]].
+
 
 ## Properties
 
@@ -162,18 +161,15 @@ where the logical implications are equivalently functions between [[sets]] that 
 =--
 
 
-
-
 ## References
 
 Wikipedia summarizes the basic properties:
 
 * English Wikipedia. Floor and ceiling functions. [Web](https://en.wikipedia.org/wiki/Floor_and_ceiling_functions).
 
-The following text uses the floor and ceiling functions to relate [[integrals]] and [[series]] when teaching [[differential calculus]]; see throughout Chapter 3 of these notes:
+Chapter 6 of these notes uses the floor and ceiling functions throughout to relate [[integrals]] and [[series]] when teaching [[infinitesimal calculus]]:
 
-* Toby Bartels. One-variable Calculus for Calculus 2. [Web](http://tobybartels.name/MATH-1700/2017WN/calcbook/) (the first set of notes at that link).
-
+* Toby Bartels. One-variable Calculus. [Web](http://tobybartels.name/MATH-1600/2017FA/calcbook/).
 
 
 [[!redirects floor]]
