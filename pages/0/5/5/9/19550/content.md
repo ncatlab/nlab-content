@@ -5,7 +5,7 @@
 
 ## Idea
 
-_Prime ideals_ are supposed to be a generalization of [[prime numbers]] from elements of the [[ring]] of [[integers]] to [[ideals]] in the sense of 'ideal elements' of an arbitrary [[ring]] (usually [[commutative ring|commutative]], but also possible something more general than a ring).  It\'s not clear that they do so; [[maximal ideals]] and [[irreducible ideals]] may do a better job.  (In particular, [[zero]] is *not* a prime number, and the [[zero ideal]] of $\mathbb{Z}$ is neither maximal nor irreducible; however, it *is* prime.)  Nevertheless, they have assumed an importance that dwarfs any question of original motivation.
+_Prime ideals_ are supposed to be a generalization of [[prime numbers]] from elements of the [[ring]] of [[integers]] to [[ideals]] in the sense of 'ideal elements' of an arbitrary [[ring]] (usually [[commutative ring|commutative]], but also possibly something more general than a ring).  It\'s not clear that they do so; [[maximal ideals]] and [[irreducible ideals]] may do a better job.  (In particular, [[zero]] is *not* a prime number, and the [[zero ideal]] of $\mathbb{Z}$ is neither maximal nor irreducible; however, it *is* prime.)  Nevertheless, they have assumed an importance that dwarfs any question of original motivation; indeed, the general definition of [[prime element]] follows prime ideals rather than prime numbers.  (An element of a ring is prime iff its [[principal ideal]] is prime; $0$ is a prime element of $\mathbb{Z}$ but not a prime number.)
 
 
 ## Definitions
@@ -116,6 +116,8 @@ If we ignore the requirement that $M$ be an anti-ideal, then we say that $M$ is 
 ## Examples
 
 In a [[matrix ring]] $M_n(k)$ over a [[field]] $k$, the [[zero ideal]] is prime (really because a matrix ring is a [[simple ring]], where the zero ideal is a [[maximal ideal]]), but (for $n \gt 1$) not *completely* prime.
+
+In the [[ring of integers]] (or the rig of [[natural numbers]]), the prime ideals are precisely the [[principal ideals]] of the [[prime numbers]] together with the [[zero ideal]].  (This is the motivating example, despite not lining up perfectly.)
 
 
 [[!redirects prime ideal]]
