@@ -22,7 +22,7 @@ Every [[metric space]], regarded as a [[topological space]] via its [[metric top
 
 ## Applications
 
-Together with _Stone's theorem_ that [[fully normal spaces are equivalently paracompact]] this imlies that [[metric spaces are paracompact]].
+Together with _Stone's theorem_ that [[fully normal spaces are equivalently paracompact]] this implies that [[metric spaces are paracompact]].
 
 ## References
 
