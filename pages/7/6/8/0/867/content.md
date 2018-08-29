@@ -183,7 +183,6 @@ dipaths. A discussion document and overview of some techniques_ ([pdf](http://dr
 
 [[!redirects poset]]
 [[!redirects posets]]
-[[!redirects partial order]]
 [[!redirects partial orders]]
 [[!redirects partial ordering]]
 [[!redirects partial orderings]]
