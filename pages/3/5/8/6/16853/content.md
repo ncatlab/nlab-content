@@ -1,3 +1,10 @@
+
+
+* table of contents
+{: toc}
+
+## Idea
+
 The term "plane graph" is used (with a slight bit of ambiguity) to refer to a crossing-free drawing of a [[graph]], or more abstractly to an [[embedding]] of a graph into a [[surface]] of [[genus of a surface|genus]] 0 (also called a _planar map_), or even more abstractly to a graph equipped with a cyclic ordering of the half-edges around each vertex which determines such an embedding up to isomorphism (see: [[combinatorial map]]).
 In any case, when the terminology is employed, it is usually meant to be distinguished from a "[[planar graph]]" as being a [[structure]] rather than a [[property]] (in the sense of [[stuff, structures, and properties]]), although sometimes the word "planar graph" is also used in the structure sense.
 
