@@ -794,8 +794,9 @@ Recognizing [[homotopy fiber products]] in any of the model structure above can 
 
 * [[model structure on dg-Lie algebras]]
 
-
 * [[model structure on simplicial Lie algebras]]
+
+* [[L-∞ operad]], [[model structure on algebras over an operad]]
 
 * [[deformation theory]]
 
