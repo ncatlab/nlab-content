@@ -61,7 +61,11 @@ Discussion of de Sitter spacetime in [[quantum gravity]] includes
 * {#Rajaraman16} [[Arvind Rajaraman]], _de Sitter Space is Unstable in Quantum Gravity_, Phys. Rev. D 94, 125025 (2016) ([arXiv:1608.07237](http://arxiv.org/abs/1608.07237))
 
 
-Discussion of de Sitter [[perturbative string theory vacua]] and their role (or not) in the [[landscape of string theory vacua]] is in
+Discussion of de Sitter [[perturbative string theory vacua]] and their role (or not) in the [[landscape of string theory vacua]] includes
+
+* [[David Kutasov]], Travis Maxfield, Ilarion Melnikov, [[Savdeep Sethi]], _Constraining de Sitter Space in String Theory_, Phys. Rev. Lett. 115, 071305 (2015) ([arXiv:1504.00056](https://arxiv.org/abs/1504.00056))
+
+* {#Sethi17} [[Savdeep Sethi]], _Supersymmetry Breaking by Fluxes_ ([arXiv:1709.03554](https://arxiv.org/abs/1709.03554))
 
 * {#DanielssonVanRiet18} [[Ulf Danielsson]], Thomas Van Riet,  _What if string theory has no de Sitter vacua?_ ([arXiv:1804.01120](https://arxiv.org/abs/1804.01120))
 
@@ -70,7 +74,6 @@ Discussion of de Sitter [[perturbative string theory vacua]] and their role (or 
 * {#vanRiet18} Thomas van Riet, _Is dS space in the Swampland_, talk at [StringPheno18](http://sp18.fuw.edu.pl/) ([pdf slides](http://sp18.fuw.edu.pl/wp-content/uploads/participants-database/thomasvanriet.pdf))
 
 * {#vanRiet18a} Thomas van Riet, _Status of KKLT_, talk at _[Simons summer workshop 2018](http://scgp.stonybrook.edu/archives/24870)_ ([recording](http://scgp.stonybrook.edu/video_portal/video.php?id=3730))
-
 
 * {#BDDGS18} Souvik Banerjee, [[Ulf Danielsson]], Giuseppe Dibitetto, Suvendu Giri, Marjorie Schillo, _Emergent de Sitter cosmology from decaying AdS_ ([arXiv:1807.01570](https://arxiv.org/abs/1807.01570))
 
