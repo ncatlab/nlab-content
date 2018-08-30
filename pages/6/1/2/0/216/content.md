@@ -504,7 +504,7 @@ $$
 
 ### Incidence algebras (poset convolution algebras)
 
-See [[Möbius inversion#incidence_algebras_and_the_zeta_function|Möbius inversion#incidence algebras and the zeta function]].
+See at [[Möbius inversion#IncidenceAlgebrasZetaFn]].
 
 ### Higher groupoid convolution algebras and n-vector spaces/n-modules
  {#HigherGroupoidConvolutionAlgebras}
