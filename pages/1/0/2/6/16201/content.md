@@ -29,6 +29,12 @@ In the context of [[cosmology]], higher curvature corrections are a candidate fo
 
 A [[spacetime]] that extremizes the [[Einstein-Hilbert action]] for given [[cosmological constant]] and _arbitrary_ higher curvature correction is called a _[[universal spacetime]]_.
 
+## Related concepts
+
+* [[universal spacetime]]
+
+* [[non-perturbative effect]]
+
 ## References
 
 Discussion in the context of corrections to [[black hole entropy]] include
