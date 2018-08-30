@@ -276,7 +276,7 @@ This sequence of maneuvers balances twin aims.  On the one hand, Toen's theorem 
 
 * [[category]]
 
-* [[2-category]]
+* [[2-category]], [[(2,1)-category]]
 
 * [[3-category]]
 
