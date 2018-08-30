@@ -77,8 +77,8 @@ Functoriality of [[twisted K-theory]] of [[topological groupoids]]/[[Lie groupoi
 
 * Alexander Alldridge, [[Jeffrey Giansiracusa]], _Contravariant functoriality for twisted K-theory of stacks_,  Oberwolfach Reports no. 46 (2006) 2796 &#8211; 2800 ([pdf](http://sma.epfl.ch/~hessbell/topsem/OWR_TwistedK.pdf))
 
-* [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_, master thesis, August 2013
- {#Nuiten13}
+* {#Nuiten13} [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_, master thesis, August 2013
+ 
 
 See also
 
