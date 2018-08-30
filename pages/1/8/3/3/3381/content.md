@@ -43,14 +43,15 @@ Observe that conjugacy is an [[equivalence relation]], and that conjugacy classe
 
 ### Permutations as linear orders, and pattern containment
 
-Let $X$ be a set equipped with a [[linear ordering]] $\lt$, and suppose we label its elements in order as $x_1 \lt x_2 \lt \dots$.
-Then a permutation of $X$ is the same thing as an additional linear ordering $\lt_\sigma$ on $X$.
-Indeed, given any such linear ordering $\lt_\sigma$ with corresponding labelling of the elements of $X$ as $\sigma_1 \lt_\sigma \sigma_2 \lt_\sigma \dots$, we define a bijection $\sigma : X \to X$ as the function sending $x_1 \mapsto \sigma_1$, $x_2 \mapsto \sigma_2$, and so on.
+If $X$ is a set equipped with a [[linear ordering]] $\lt$, then a permutation of $X$ is the same thing as a second (unrelated) linear ordering $\lt_\sigma$ on $X$.
+Indeed, suppose we label the elements of $X$ according to the $\lt$ order as $x_1 \lt x_2 \lt \dots$, and according to the $\lt_\sigma$ order as $\sigma_1 \lt_\sigma \sigma_2 \lt_\sigma \dots$.
+Then we can define a bijection $\sigma : X \to X$ as the function sending $x_1 \mapsto \sigma_1$, $x_2 \mapsto \sigma_2$, and so on.
+Conversely, any bijection $\sigma : X \to X$ induces a linear ordering $\lt_\sigma$ on $X$ by defining $x \lt_\sigma x'$ iff $\sigma(x) \lt \sigma(x')$.
 
-This way of viewing permutations naturally gives rise to "array notation" (or "one-line notation"), where $\sigma : X \to X$ is represented as the list of elements $\sigma = (\sigma_1,\sigma_2,\dots)$, and it may be contrasted with "cycle notation" (see below).
+This way of viewing permutations naturally gives rise to "array notation" (or "one-line notation"), where a permutation $\sigma : X \to X$ is represented as the list of elements $\sigma = (\sigma_1,\sigma_2,\dots)$, and it may be contrasted with "cycle notation" (see below).
 Whereas cycle notation makes it easy to compare permutations for conjugacy, array notation leads to a different natural way of comparing permutations known as **pattern containment**.
 
-Given two linearly ordered sets $(X,\lt_X)$ and $(Y,\lt_Y)$, a permutation $\sigma : X \to X$ is said to be _contained_ in a permutation $\tau : Y \to Y$ (written $\sigma \preceq \tau$) just in case there exists a [[monotone function|monotone]] [[injective]] function $f : X \to Y$ such that
+Given two linearly ordered sets $(X,\lt_X)$ and $(Y,\lt_Y)$, a permutation (or "pattern") $\sigma : X \to X$ is said to be _contained_ in a permutation $\tau : Y \to Y$ (written $\sigma \preceq \tau$) just in case there exists a [[monotone function|monotone]] [[injective]] function $f : X \to Y$ such that
 $$\sigma_i \lt_X \sigma_j \Rightarrow \tau_{f(i)} \lt_Y \tau_{f(j)}$$
 for all $i,j \in X$, or in other words, if $\tau = (\tau_1,\tau_2,\dots)$ contains a subsequence of elements whose relative ordering (in $Y$) is the same as the relative ordering (in $X$) of the sequence $\sigma = (\sigma_1,\sigma_2,\dots)$.
 Note that this definition of $\sigma \preceq \tau$ is equivalent to asking for the existence of a commuting square:
