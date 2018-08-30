@@ -1,7 +1,4 @@
-
-
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Idea
 
