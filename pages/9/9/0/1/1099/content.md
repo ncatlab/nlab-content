@@ -203,7 +203,7 @@ More on this is at [[(∞,1)-category of (∞,1)-presheaves]].
 
 * [[functor]]
 
-* [[2-functor]] / [[pseudofunctor]]
+* [[2-functor]] / [[pseudofunctor]] / [[(2,1)-functor]]
 
   * [[monoidal functor]]
 
