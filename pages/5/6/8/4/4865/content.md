@@ -114,6 +114,13 @@ and so when $(\frac{1}{2}p_1)^2$ is further divisible by 2 we have that
 $p_2 - (\frac{1}{2}p_1)^2$ is divisible by 48. Hence $I_8$ is integral.
 
 
+### Higher curvature corrections
+
+Possible [[higher curvature corrections]] to 11-dimensional supergravity are discussed in ([Cederwall-Gran-Nilsson-Tsimpis 04](#CederwallGranNilssonTsimpis04), [Basu 13](#Basu13)). 
+
+The first correction is an $R^4$-term at order $\ell^3_{P}$ (11d [[Planck length]]). In [Tsimpis 04](#Tsimpis04) it is shown that this is a topological term (total derivative) which related to the [[flux quantization]]-condition of the [[supergravity C-field]].
+
+
 ### The hidden deformation
 
 There is in fact a hidden 1-parameter deformation of the Lagrangian of 11d sugra.
@@ -128,7 +135,7 @@ where $G_4$ is the [[curvature]] 3-form of the [[supergravity C-field]] and $G_7
 The term then re-appears in the literatur in ([Bandos-Berkovits-Sorokin 97, equation (4.13)](#BandosBerkovitsSorokin97)).
 And it seems that this is the same term later also redicovered around equation (4.2) in ([Tsimpis 04](#Tsimpis04)).
 
-
+> (hm, check)
 
 ### BPS states
 
@@ -214,10 +221,8 @@ The topological deformation (almost) noticed in equation (4.25) of [D'Auria-Fre 
 * {#BandosBerkovitsSorokin97} [[Igor Bandos]], [[Nathan Berkovits]], [[Dmitri Sorokin]], _Duality-Symmetric Eleven-Dimensional Supergravity and its Coupling to M-Branes_, Nucl. Phys. B522 (1998) 214-233 ([arXiv:hep-th/9711055](http://arxiv.org/abs/hep-th/9711055))
  
 
-and around (4.2) of
+and around (4.2) of [Tsimpis 04](#Tsimpis04)
  
-* {#Tsimpis04} Dimitrios Tsimpis, _11D supergravity at $\mathcal{O}(l^3)$_,  	JHEP0410:046,2004 ([arXiv:hep-th/0407271](http://arxiv.org/abs/hep-th/0407271))
-
 More recent textbook accounts include
 
 * [[Antoine Van Proeyen]], [[Daniel Freedman]], section 10 of _Supergravity_, Cambridge University Press, 2012 
@@ -284,6 +289,18 @@ See also
 
 * Teng Fei, Bin Guo, Duong H. Phong, _A Geometric Construction of Solutions to 11D Supergravity_ ([arXiv:1805.07506](https://arxiv.org/abs/1805.07506))
 
+### Higher curvature corrections
+
+Discussion of [[higher curvature corrections]]:
+
+* {#Tsimpis04} Dimitrios Tsimpis, _11D supergravity at $\mathcal{O}(l^3)$_,  	JHEP0410:046,2004 ([arXiv:hep-th/0407271](http://arxiv.org/abs/hep-th/0407271))
+
+
+* {#CederwallGranNilssonTsimpis04} [[Martin Cederwall]], [[Ulf Gran]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], _Supersymmetric Corrections to Eleven-Dimensional Supergravity_, JHEP0505:052, 2005 ([arXiv:hep-th/0409107](https://arxiv.org/abs/hep-th/0409107))
+
+* {#Basu13} Anirban Basu, _Constraining gravitational interactions in the M theory effective action_, Classical and Quantum Gravity, Volume 31, Number 16, 2014 ([arXiv:1308.2564](https://arxiv.org/abs/1308.2564))
+
+
 ### Scattering amplitudes and Effective action
 
 Computation of [[Feynman amplitudes]]/[[scattering amplitudes]] and [[effective action]] in 11d supergravity:
@@ -314,7 +331,6 @@ See also the relevant references at _[[M5-brane]]_.
 * [[Daniel Freed]], _Two nontrivial index theorems in odd dimensions_ ([arXiv:dg-ga/9601005](http://arxiv.org/abs/dg-ga/9601005))
 
 * Adel Bilal, Steffen Metzger, _Anomaly cancellation in M-theory: a critical review_ ([arXiv:hep-th/0307152](http://arxiv.org/abs/hep-th/0307152))
-
 
 
 ### Description by exceptional generalized geometry
