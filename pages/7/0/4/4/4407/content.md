@@ -11,7 +11,7 @@
 
 # Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Statement
 
@@ -155,4 +155,5 @@ See also
 
 
 [[!redirects fundamental theorem of algebra]]
+[[!redirects Fundamental Theorem of Algebra]]
 [[!redirects FTA]]
