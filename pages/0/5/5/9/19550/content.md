@@ -94,7 +94,7 @@ $$ \forall\, n \in \mathbb{N},\; \forall\, I \in Idl(R)^n,\; \prod_{k\in[n]} I_k
 
 As is typical, $n = 1$ is trivial, $n \gt 2$ can be proved from $n = 2$ by [[induction]], and $n = 0$ is the mysterious preliminary clause, in this case that $P$ is proper.  Note that completely prime ideals in a proset arise by generalizing from finite $n$ to arbitrary [[cardinality]].
 
-Unbiased versions of the other definitions are fairly straightforward.  (For prime ideals in a noncommutative rig, the unbiased definition involves a product of the form $a_0 x_0 a_1 x_1 \cdots x_{n-2} a_{n-1} x_{n-1} a_n$; $a_0$ and $a_n$ can be ignored when $n \gt 0$, which is why only $a_1$ appears in the biased definition.  The definition of completely prime filters in order theory is already unbiased, since $X$ could always be the [[empty set]].)
+Unbiased versions of the other definitions are fairly straightforward.  (For prime ideals in a noncommutative rig, the unbiased definition involves a product of the form $a_0 x_0 a_1 x_1 \cdots x_{n-2} a_{n-1} x_{n-1} a_n$; $a_0$ and $a_n$ can be ignored when $n \gt 0$, which is why only $a_1$ appears in the biased definition.  The definition of completely prime ideals in order theory is already unbiased, since $X$ could always be the [[empty set]].)
 
 Sometimes it\'s more fruitful to consider the [[complement]] of a prime ideal.  This is known in [[constructive mathematics]] as an [[anti-ideal]], and this becomes a necessary perspective there, as many common examples fail to satisfy the above definitions constructively.  (To support anti-ideals, a rig must be equipped with a [[tight apartness relation]], which is vacuous in [[classical mathematics]].)
 
