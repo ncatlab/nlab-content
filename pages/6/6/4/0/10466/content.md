@@ -285,6 +285,7 @@ $$
 The central theorem of ([Rezk 14](#Rezk14)) (using a slightly different definition than [Henriques-Gepner 07](#HenriquesGepner07)) is that $PSh_\infty(Orb)$ is a [[cohesive (∞,1)-topos]] with $\Gamma$ producing homotopy quotients.
 
 
+
 ## Related concepts
 
 * [[global equivariant stable homotopy theory]]
