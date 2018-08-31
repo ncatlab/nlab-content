@@ -45,7 +45,7 @@ The **fpqc-site** (over $S$) is the [[site]]
   
 =--
 
-This appears as ([Stacks Project, def. 27.8.1](#Stacks)). ([[David Roberts|DR]]: this reference is now incorrect! It should be tag number, but I can't find it)
+This appears as ([Stacks Project, Tag 022B](https://stacks.math.columbia.edu/tag/022B)).
 
 +-- {: .un_remark}
 ###### Remark
