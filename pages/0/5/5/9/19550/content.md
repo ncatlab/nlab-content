@@ -80,7 +80,7 @@ Let $R$ be a rig or a proset, and let $P$ be an ideal in $R$.  Then $P$ is __pri
 $$ \forall\, I \in Idl(R),\; \forall\, J \in Idl(R),\; I J \subseteq P \;\Rightarrow\; I \subseteq P \;\vee\; J \subseteq P .$$
 =--
 
-Because $I J = I \cap J$ in order theory, prime ideals there are the same as [[irreducible ideals]], so the completely prime ideals of that theory are really just [[completely irreducible ideals]] (generalizing from a pair of ideals to an arbitrary set of ideals).  In contrast, the completely prime ideals of noncommutative ring theory are not of much interest; they are a naïve definition that works in the commutative case but not so well in the noncommutative case.
+Because $I J = I \cap J$ in order theory, prime ideals there are the same as [[strongly irreducible ideals]], so the completely prime ideals of that theory are really just [[completely strongly irreducible ideals]] (generalizing from a pair of ideals to an arbitrary set of ideals).  In contrast, the completely prime ideals of noncommutative ring theory are not of much interest; they are a naïve definition that works in the commutative case but not so well in the noncommutative case.
 
 Finally, note that most of these definitions have an extra clause that a prime ideal must be [[proper ideal|proper]].  This can be justified by removing [[bias]].  We state here the unbiased version of \ref{universal}:
 
