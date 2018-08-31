@@ -130,7 +130,7 @@ but see also:
 
 * {#Balb11} Balbiani, P., Goranko, V. and Sciavicco, G., 2011, 'Two-sorted Point-Interval Temporal logics', in _Proc. of the 7th International Workshop on Methods for Modalities (M4M7)_ (Electronic Notes in Theoretical Computer Science: Volume 278), pp. 31&#8211;45.
 
-* {#Gold92} [[Robert Goldblatt]] _Logics of time and computation_, 1992, ([pdf](http://sul-derivatives.stanford.edu/derivative?CSNID=00003782&mediaType=application/pdf))
+* {#Gold92} [[Robert Goldblatt]],  _Logics of time and computation_, 1992, ([pdf](http://sul-derivatives.stanford.edu/derivative?CSNID=00003782&mediaType=application/pdf))
 
 For the relationship between linear tree logic and functional reactive programming, see
 
