@@ -10,12 +10,15 @@ _Irreducible ideals_ generalize [[prime ideals]] by replacing [[ideal product|mu
 
 ## Definitions
 
-Let $R$ be a [[ring]], or more generally a [[rig]], possibly even [[nonassociative ring|nonassociative]], or even just a [[monoid]], possible just a [[magma]]; or on the other hand a [[lattice]], or even just a [[proset]].  In other words, anything with a concept of _[[ideals]]_.  In the noncommutative case, we could be talking about left ideals, right ideals, or two-sided ideals; pick a meaning and stick with it.  We need the concept of [[intersection]] of ideals (which all of these have), and that\'s pretty much it.
+Let $R$ be a [[ring]], or more generally a [[rig]], possibly even [[nonassociative ring|nonassociative]], or even just a [[monoid]], possible just a [[magma]]; or on the other hand a [[lattice]], or even just a [[proset]].  In other words, anything with a concept of _[[ideals]]_.  In the noncommutative case, we could be talking about left ideals, right ideals, or two-sided ideals; pick a meaning and stick with it.  We need the concept of [[intersection]] of ideals (which all of these have), and that\'s pretty much it; that is, we use the structure of the [[meet-semilattice]] $Idl(R)$ of ideals of $R$.
 
 +-- {: .num_defn #basic}
 ###### Definition
 
-An ideal $I$ in $R$ is __irreducible__ if $I$ is [[proper ideal|proper]] and, whenever $I = J \cap K$ (with $J$ and $K$ also ideals), $I = J$ or $I = K$.
+An ideal $I$ of $R$ is __irreducible__ if $I$ is [[proper ideal|proper]] and, whenever $I$ contains the intersection of two ideals of $R$, $I$ contains at least one of those two ideals:
+$$ \forall\, J \in Idl(R),\; \forall\, K \in Idl(R),\; I \supseteq J \cap K \;\Rightarrow\; I \supseteq J \;\vee\; I \supseteq K .$$
+The ideal $I$ is __completely irreducible__ if, whenever $I$ contains the intersection of any collection of ideals of $R$, $I$ contains at least one of the ideals in that collection:
+$$ \forall\, \mathcal{J} \subseteq Idl(R),\; I \supseteq \bigcap \mathcal{J} \;\Rightarrow\; \exists\, J \in Idl(R),\; J \in \mathcal{J} \;\wedge\; I \supseteq J .$$
 =--
 
 
