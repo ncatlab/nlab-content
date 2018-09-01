@@ -208,6 +208,11 @@ There are various [[model category]] models for collections of $(n,r)$-categorie
 
 * **(n,r)-category** 
 
+## References
+
+* [[John Baez]], [[Michael Shulman]], _Lectures on n-Categories and Cohomology_, ([arXiv:math/0608420](https://arxiv.org/abs/math/0608420)), in particular pp. 34-36.
+
+
 [[!redirects (n,r) categories]]
 [[!redirects (n,r) category]]
 [[!redirects (n,r)-categories]]
