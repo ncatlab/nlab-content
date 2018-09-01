@@ -24,7 +24,8 @@ A __set theory__ is a theory of [[sets]].
 
 ## Na&#239;ve vs axiomatic set theory
 
-__Na&#239;ve set theory__ is the basic algebra of the [[subsets]] of any given set $U$, together with a few levels of [[power sets]], say up to $\mathcal{P}\mathcal{P}\mathcal{P}U$ and possibly no further.  Often students see this first for the set of [[real numbers]] as $U$ (although in fact one could start with the set of [[natural numbers]] and go one level further for an equivalent theory).  One could also use [[function sets]] instead of power sets as the basic set-forming operation (especially for a [[predicative mathematics|weakly predicative]] theory in [[constructive mathematics]]).
+__Na&#239;ve set theory__ is the basic algebra of the [[subsets]] of any given set $U$, together with a few levels of [[power sets]], say up to 
+ $\mathcal{P}\mathcal{P}\mathcal{P}U$ and possibly no further.  Often students see this first for the set of [[real numbers]] as $U$ (although in fact one could start with the set of [[natural numbers]] and go one level further for an equivalent theory).  One could also use [[function sets]] instead of power sets as the basic set-forming operation (especially for a [[predicative mathematics|weakly predicative]] theory in [[constructive mathematics]]).
 
 Once you start thinking very much about the nature of sets in general (rather than merely _using_ na&#239;ve set theory), it quickly becomes clear that one must be careful about how one can and cannot form sets.  [[Georg Cantor]] is credited with being the first to think about sets this deeply; although he did not propose a system of general rules for valid set-making operations, he recognised that some sets were 'inconsistent'.  An __axiomatic set theory__ is a set theory which carefully states the rules (or '[[axioms]]') which sets are assumed to obey.
 
@@ -98,8 +99,6 @@ Formalization of set theory in [[homotopy type theory]] (via [[h-sets]]) is disc
 * J&#233;r&#233;my Ledent, _Modeling set theory in homotopy type theory_ (2014) ([pdf](http://perso.ens-lyon.fr/jeremy.ledent/internship_report.pdf))
 
 See also at [[homotopy type theory FAQ]] _[What is HoTT? -- For set theorists](homotopy+type+theory+FAQ#WhatIsHoTTForSetTheorists)_.
-
-
 
 
 [[!redirects set theory]]
