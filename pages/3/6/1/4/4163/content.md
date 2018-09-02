@@ -70,31 +70,11 @@ A comprehensive introduction is at _[[geometry of physics -- perturbative quantu
 
 ## References
 
+### General
+
 The original informal conception of perturbative QFT is due to [[Schwinger-Tomonaga-Feynman-Dyson]]:
 
 * {#Dyson49} [[Freeman Dyson]], _The raditation theories of Tomonaga, Schwinger and Feynman_, Phys. Rev. 75, 486, 1949 ([pdf](http://web.ihep.su/dbserv/compas/src/dyson49b/eng.pdf))
-
-The argument that the perturbation series of realistic pQFTs necessarily [[divergent series|diverges]] (is at best an [[asymptotic series]]) goes back to 
-
-* {#Dyson52} [[Freeman Dyson]], _Divergence of perturbation theory in quantum electrodynamics_, Phys. Rev. 85, 631, 1952 ([spire](http://inspirehep.net/record/29799?ln=en))
-
-and is made more precise in
-
-* {#Lipatov77} [[Lev Lipatov]], _Divergence of the Perturbation Theory Series and the Quasiclassical Theory_, Sov.Phys.JETP 45 (1977) 216&#8211;223 ([pdf](http://jetp.ac.ru/cgi-bin/dn/e_045_02_0216.pdf))
-
-recalled for instance in 
-
-* {#Suslov05} [[Igor Suslov]], section 1 of _Divergent perturbation series_, Zh.Eksp.Teor.Fiz. 127 (2005) 1350; J.Exp.Theor.Phys. 100 (2005) 1188 ([arXiv:hep-ph/0510142](https://arxiv.org/abs/hep-ph/0510142))
-
-* Justin Bond, last section of _Perturbative QFT is Asymptotic; is Divergent; is Problematic in Principle_ ([pdf](https://mcgreevy.physics.ucsd.edu/s13/final-papers/2013S-215C-Bond-Justin.pdf))
-
-* {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], section 4.1 of _Quantum fields in curved spacetime_, Physics Reports Volume 574, 16 April 2015, Pages 1-35 ([arXiv:1401.2026](https://arxiv.org/abs/1401.2026))
-
-* Marco Serone, from 2:46 on in _A look at $\phi^4_2$ using perturbation theory_ ([recording](https://www.youtube.com/watch?v=J4nxvY1rOhI))
-
-For the example of [[phi^4 theory]] this non-convergence of the perturbation series is discussed in
-
-* {#Helling} Robert Helling, p. 4 of _Solving classical field equations_ ([pdf](http://homepages.physik.uni-muenchen.de/~helling/classical_fields.pdf))
 
 
 The rigorous formulation of renormalized perturbative quantum field theory in terms of [[causal perturbation theory]] was first accomplished in 
@@ -181,6 +161,37 @@ The relation of the construction via [[causal perturbation theory]] to the [[Fey
 * {#DuetschFredenhagenKellerRejzner14} [[Michael Dütsch]], [[Klaus Fredenhagen]], [[Kai Keller]], [[Katarzyna Rejzner]], _Dimensional Regularization in Position Space, and a Forest Formula for Epstein-Glaser Renormalization_, J. Math. Phy.
 55(12), 122303 (2014) ([arXiv:1311.5424](https://arxiv.org/abs/1311.5424))
 
+
+### Non-convergence of the perturbation series
+ {#ReferencesNonConvergenceOfThePerturbationSeries}
+
+The argument that the perturbation series of realistic pQFTs necessarily [[divergent series|diverges]] (is at best an [[asymptotic series]]) goes back to 
+
+* {#Dyson52} [[Freeman Dyson]], _Divergence of perturbation theory in quantum electrodynamics_, Phys. Rev. 85, 631, 1952 ([spire](http://inspirehep.net/record/29799?ln=en))
+
+and is made more precise in
+
+* {#Lipatov77} [[Lev Lipatov]], _Divergence of the Perturbation Theory Series and the Quasiclassical Theory_, Sov.Phys.JETP 45 (1977) 216&#8211;223 ([pdf](http://jetp.ac.ru/cgi-bin/dn/e_045_02_0216.pdf))
+
+recalled for instance in 
+
+* {#Suslov05} [[Igor Suslov]], section 1 of _Divergent perturbation series_, Zh.Eksp.Teor.Fiz. 127 (2005) 1350; J.Exp.Theor.Phys. 100 (2005) 1188 ([arXiv:hep-ph/0510142](https://arxiv.org/abs/hep-ph/0510142))
+
+* Justin Bond, last section of _Perturbative QFT is Asymptotic; is Divergent; is Problematic in Principle_ ([pdf](https://mcgreevy.physics.ucsd.edu/s13/final-papers/2013S-215C-Bond-Justin.pdf))
+
+* {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], section 4.1 of _Quantum fields in curved spacetime_, Physics Reports Volume 574, 16 April 2015, Pages 1-35 ([arXiv:1401.2026](https://arxiv.org/abs/1401.2026))
+
+* Marco Serone, from 2:46 on in _A look at $\phi^4_2$ using perturbation theory_ ([recording](https://www.youtube.com/watch?v=J4nxvY1rOhI))
+
+For the example of [[phi^4 theory]] this non-convergence of the perturbation series is discussed in
+
+* {#Helling} Robert Helling, p. 4 of _Solving classical field equations_ ([pdf](http://homepages.physik.uni-muenchen.de/~helling/classical_fields.pdf))
+
+See also
+
+* Carl M. Bender, Carlo Heissenberg, _Convergent and Divergent Series in Physics_ ([arXiv:1703.05164](https://arxiv.org/abs/1703.05164))
+
+And see at _[[perturbation theory]] -- [On divergence/convergence](perturbation+theory#ReferencesDivergenceConvergence)_ 
 
 [[!redirects perturbative quantum field theories]]
 
