@@ -122,9 +122,23 @@ and is made more precise in
 
 * {#Lipatov77} [[Lev Lipatov]], _Divergence of the Perturbation Theory Series and the Quasiclassical Theory_, Sov.Phys.JETP 45 (1977) 216&#8211;223 ([pdf](http://jetp.ac.ru/cgi-bin/dn/e_045_02_0216.pdf))
 
-See also for instance 
+recalled for instance in 
+
+* {#Suslov05} [[Igor Suslov]], section 1 of _Divergent perturbation series_, Zh.Eksp.Teor.Fiz. 127 (2005) 1350; J.Exp.Theor.Phys. 100 (2005) 1188 ([arXiv:hep-ph/0510142](https://arxiv.org/abs/hep-ph/0510142))
+
+* Justin Bond, last section of _Perturbative QFT is Asymptotic; is Divergent; is Problematic in Principle_ ([pdf](https://mcgreevy.physics.ucsd.edu/s13/final-papers/2013S-215C-Bond-Justin.pdf))
 
 * {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], section 4.1 of _Quantum fields in curved spacetime_, Physics Reports Volume 574, 16 April 2015, Pages 1-35 ([arXiv:1401.2026](https://arxiv.org/abs/1401.2026))
+
+* Marco Serone, from 2:46 on in _A look at $\phi^4_2$ using perturbation theory_ ([recording](https://www.youtube.com/watch?v=J4nxvY1rOhI))
+
+For the example of [[phi^4 theory]] this non-convergence of the perturbation series is discussed in
+
+* {#Helling} Robert Helling, p. 4 of _Solving classical field equations_ ([pdf](http://homepages.physik.uni-muenchen.de/~helling/classical_fields.pdf))
+
+For the example of [[phi^4 theory]] this non-convergence of the perturbation series is discussed in
+
+* {#Helling} Robert Helling, p. 4 of _Solving classical field equations_ ([pdf](http://homepages.physik.uni-muenchen.de/~helling/classical_fields.pdf))
 
 
 A general introduction on divergence of perturbation theory, asymptotic series and [[non-perturbative effects]] is for instance on the first pages of
