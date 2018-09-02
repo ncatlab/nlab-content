@@ -198,7 +198,7 @@ Then
      \;\colon\;
      L(c) 
        \overset{L(\widetilde f)}{\longrightarrow} 
-     R(L(d))
+     L(R(d))
        \overset{\epsilon_d}{\longrightarrow}
      d
    \]
