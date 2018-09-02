@@ -235,14 +235,5 @@ and
 
 [[!redirects subobject]]
 [[!redirects subobjects]]
-[[!redirects subalgebra]]
-[[!redirects subalgebras]]
-
 [[!redirects sub-object]]
 [[!redirects sub-objects]]
-
-[[!redirects subtype]]
-[[!redirects subtypes]]
-
-[[!redirects sub-type]]
-[[!redirects sub-types]]
