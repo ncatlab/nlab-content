@@ -48,6 +48,8 @@ There are other formulations of the [[superstring]] which are thought to be equi
 
   * [[string]], **spinning string** , [[superstring]]
 
+  * [[Goddard-Thorn no-ghost theorem]], [[GSO projection]]
+
     [string theory FAQ -- Does string theory predict supersymmetry?](string+theory+FAQ#DoesSTPredictSupersymmetry)
 
   * [[membrane]]
