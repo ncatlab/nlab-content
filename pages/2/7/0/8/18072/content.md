@@ -55,6 +55,8 @@ See the reference [below](#ReferencesSymplecticGeometryAndGeometricQuantization)
 
 * [[string theory]], [[string field theory]]
 
+* [[Goddard-Thorn no-ghost theorem]]
+
 * [[string scattering amplitude]]
 
 * [[string field theory]]
