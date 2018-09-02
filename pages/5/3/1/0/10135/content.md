@@ -81,7 +81,7 @@ Discussion of orbifold cohomology in the context of [[Bredon cohomology|Bredon]]
 
 * {#Schwede17} [[Stefan Schwede]], _Orbispaces, orthogonal spaces, and the universal compact Lie group_ ([arXiv:1711.06019](https://arxiv.org/abs/1711.06019))
 
-* {#Schwede18} [[Stefan Schwede]], _Global homotopy theory_ ([arXiv:1802.09382](https://arxiv.org/abs/1802.09382))
+* {#Schwede18} [[Stefan Schwede]], _[[Global homotopy theory]]_ ([arXiv:1802.09382](https://arxiv.org/abs/1802.09382))
 
 See also
 
