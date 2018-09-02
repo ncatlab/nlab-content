@@ -63,6 +63,5 @@ Other types of morphism in a 2-category which have some claim to be considered "
 
 * [[embedding of categories]]
 
-
 [[!redirects subcategory]]
 [[!redirects subcategories]]
