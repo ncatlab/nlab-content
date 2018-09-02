@@ -71,7 +71,7 @@ where now we may interpret $\frac{W_3(i^\ast \tau_X)}{W_3(\tau_Q)}$ as the third
 Postcomposition with this map in [[KK-theory]] now yields a map from the $i^\ast \chi \otimes W_3(N Q)$-[[twisted K-theory]] of $Q$ to the $\chi$-[[twisted K-theory]] of $X$:
 
 $$
-  i_! \colon K_{\bullet + W_3(N Q) + i^\ast \chi}(Q) \to K_{\bullet +\chi}
+  i_! \colon K_{\bullet + W_3(N Q) + i^\ast \chi}(Q) \to K_{\bullet +\chi}(X)
   \,.
 $$
 
