@@ -39,6 +39,8 @@ $$
 
 ## References
 
+### General
+
 * [[Matthias Blau]], chapter 38 of _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], volume 1, chapter I.3.8 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
@@ -60,6 +62,7 @@ Discussion of de Sitter spacetime in [[quantum gravity]] includes
 
 * {#Rajaraman16} [[Arvind Rajaraman]], _de Sitter Space is Unstable in Quantum Gravity_, Phys. Rev. D 94, 125025 (2016) ([arXiv:1608.07237](http://arxiv.org/abs/1608.07237))
 
+### In string/M-theory
 
 Discussion of de Sitter [[perturbative string theory vacua]] and their role (or not) in the [[landscape of string theory vacua]] includes
 
@@ -80,6 +83,11 @@ Discussion of de Sitter [[perturbative string theory vacua]] and their role (or 
 
 * {#BDDGS18} Souvik Banerjee, [[Ulf Danielsson]], Giuseppe Dibitetto, Suvendu Giri, Marjorie Schillo, _Emergent de Sitter cosmology from decaying AdS_ ([arXiv:1807.01570](https://arxiv.org/abs/1807.01570))
 
+Discussion in the context of [[M-theory on G2-manifolds]] includes
+
+* Beatriz de Carlos, Andre Lukas, Stephen Morris, _Non-perturbative vacua for M-theory on G2 manifolds_, JHEP 0412:018, 2004 ([arxiv:hep-th/0409255](https://arxiv.org/abs/hep-th/0409255))
+
+which concludes that with taking [[non-perturbative effects]] from [[membrane instantons]] into account one gets 4d vacua with vanishing and negative [[cosmological constant]] ([[Minkowski spacetime]] and [[anti-de Sitter spacetime]]) but not with positive [[cosmological constant]] ([[de Sitter spacetime]]). They close by speculating that [[M5-brane]] instantons might yield [[de Sitter spacetime]].
 
 
 
