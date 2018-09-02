@@ -50,6 +50,8 @@ There are several different incarnations of the superstring.
    
     * [[super Riemann surface]]
 
+    * [[Goddard-Thorn no-ghost theorem]]
+
     * [[2d SCFT]]
 
       * [[2-spectral triple]], [[Dirac-Ramond operator]]
