@@ -308,6 +308,8 @@ Similarly, if one proceeds from the [[worldline formalism]] for [[spinning parti
 
 The miracle that then happens is that while the [[second quantization]] of [[spinning particles]] (which is fermionic [[quantum field theory]]) does not necessarily itself exhibit local supersymmetry, the [[second quantization]] of [[spinning strings]] (which is [[string theory]] with fermions) _does_ itself also exhibit local supersymmetry: the [[effective field theory]] induced by spinning strings is not just [[Einstein-Yang-Mills-Dirac theory]], but is locally supersymmetric in that it is higher dimensional _[[supergravity]]_.
 
+(This result is known as the _[[Goddard-Thorn no-ghost theorem]] with [[GSO projection]]_.)
+
 So: string theory implies that if there are [[fermions]] at all, then there is _local_ supersymmetry, hence [[supergravity]].
 
 $$
@@ -597,7 +599,6 @@ Other entries on the $n$Lab with related lecture notes, expositions and introduc
 * [[model theory and physics]]
 
 * [[L-infinity algebras in physics]]
-
 
 ## References
 
