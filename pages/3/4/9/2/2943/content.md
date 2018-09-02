@@ -70,7 +70,33 @@ For more on this see also _[[rational thermodynamics]]_.
 
 * &#193;lvaro M. Alhambra, Lluis Masanes, Jonathan Oppenheim, Christopher Perry, _Fluctuating work: from quantum thermodynamical identities to a second law equality_, Phys. Rev. X 6, 041017 [doi](http://dx.doi.org/10.1103/PhysRevX.6.041017)
 
-### Generalizations 
+### Relativistic thermodynamics
+ {#ReferencesRelativisticThermodynamics}
+
+Making sense of thermodynamics when taking into account [[special relativity]] and ultimately, possibly, [[general relativity]] ([[gravity]]) is notoriously subtle (even ignoring the issue of [[Bekenstein-Hawking entropy]]). 
+
+> Shortly after the advent of the relativity theory, Planck, Hassenoerl, Einstein and others advanced separately a formulation of the thermodynamical laws in accordance with the special principle of relativity. This treatment was adopted unchanged including the first edition of this monograph. However it was shown by Ott and indepently by Arzelies, that the old formulation was not quite satisfactory, in particular because generalized forces were used instead of the true mechanical forces in the description of thermodynamical processes.
+
+> The papers of Ott and Arzelies gave rise to many controversial discussions in the literature and at the present there is no generally accepted description of relativistic thermodynamics.
+
+(quote from Moller, _[The theory of relativity](https://archive.org/details/theoryofrelativi029229mbp), 1952_)
+
+A standard textbook has been 
+
+* Richard Tolman, _Relativity, Thermodynamics and Cosmology_, Oxford 1934, reprented by Dover 1987
+
+but Tolman's approach has been called into question, see e.g. 
+
+* Christian Fronsdal, _Relativistic thermodynamics_, 2014 ([pdf](http://fronsdal.physics.ucla.edu/system/files/Gen.Rel_.LMP_.pdf))
+
+See also
+
+* Nils Andersson, _General Relativistic Thermo-Dynamics_, survey talk 2014 ([pdf](http://www.dpg-physik.de/dpg/pbh/aktuelles/pdf/Andersson.pdf))
+
+* Sean A. Hayward, _Relativistic thermodynamics_ ([arXiv:gr-qc/9803007](https://arxiv.org/abs/gr-qc/9803007))
+
+
+### Further generalizations 
 
 Some formal generalizations of thermodynamical formalism include mixing time and temperature in formalisms with complex time-temperature like Matsubara formalism in QFT. 
 
@@ -80,5 +106,7 @@ Mathematical analogies and generalizations include also
 * [[M. Marcolli]], Ryan Thorngren, _Thermodynamical semirings_, [arXiv/1108.2874](http://arxiv.org/abs/1108.2874)
 * M. Zinsmeister, _Thermodynamic formalism and holomorphic dynamical systems_, Amer. Math. Soc. 2000.
 * I. Itenberg, G. Mikhalkin, _Geometry in the tropical limit_, [arXiv/1108.3111](http://arxiv.org/abs/1108.3111)
+
+
 
 [[!redirects irreversible thermodynamics]]
