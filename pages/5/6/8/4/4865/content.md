@@ -293,12 +293,15 @@ See also
 
 Discussion of [[higher curvature corrections]]:
 
-* {#Tsimpis04} Dimitrios Tsimpis, _11D supergravity at $\mathcal{O}(l^3)$_,  	JHEP0410:046,2004 ([arXiv:hep-th/0407271](http://arxiv.org/abs/hep-th/0407271))
-
+* {#Tsimpis04} Dimitrios Tsimpis, _11D supergravity at $\mathcal{O}(l^3)$_,   JHEP0410:046,2004 ([arXiv:hep-th/0407271](http://arxiv.org/abs/hep-th/0407271))
 
 * {#CederwallGranNilssonTsimpis04} [[Martin Cederwall]], [[Ulf Gran]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], _Supersymmetric Corrections to Eleven-Dimensional Supergravity_, JHEP0505:052, 2005 ([arXiv:hep-th/0409107](https://arxiv.org/abs/hep-th/0409107))
 
 * {#Basu13} Anirban Basu, _Constraining gravitational interactions in the M theory effective action_, Classical and Quantum Gravity, Volume 31, Number 16, 2014 ([arXiv:1308.2564](https://arxiv.org/abs/1308.2564))
+
+and from the [[ABJM  model]]:
+
+* Damon J. Binder, Shai M. Chester, Silviu S. Pufu, _Absence of $D^4 R^4$ in M-Theory From ABJM_ ([arXiv:1808.10554](https://arxiv.org/abs/1808.10554))
 
 
 ### Scattering amplitudes and Effective action
