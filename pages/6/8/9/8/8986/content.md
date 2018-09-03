@@ -28,6 +28,8 @@ An [[endofunctor]] $S:\mathcal{A}\to \mathcal{A}$ is called **pointed** if it is
 
 =--
 
+The definition of a pointed endofunctor naturally extends to any [[2-category]], where we can define a **pointed endomorphism** as an endomorphism $s : a \to a$ equipped with a 2-cell $\sigma : 1_a \Rightarrow s$ from the identity.
+
 ## Properties
 
 ### Relation to free algebras
@@ -50,3 +52,5 @@ The terminal object of the category of endofunctors on $C$ is the functor $T$ wh
 * [[pointed object]]
 
 [[!redirects pointed endofunctors]]
+[[!redirects pointed endomorphism]]
+[[!redirects pointed endomorphisms]]
