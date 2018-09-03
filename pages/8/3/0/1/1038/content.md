@@ -31,9 +31,9 @@ The homotopy category of a stable $(\infty,1)$-category is shown to be a [[trian
 * table of contents
 {:toc}
 
-##1 Introduction##
+## Introduction##
 
-##2 Stable $\infty$-Categories##
+## Stable $\infty$-Categories##
 
 * [[stable (∞,1)-category]]
 
@@ -53,44 +53,44 @@ The homotopy category of a stable $(\infty,1)$-category is shown to be a [[trian
 
  
 
-##3 The Homotopy Category of a Stable $\infty$-Category##
+## The Homotopy Category of a Stable $\infty$-Category##
 
 * [[homotopy category of an (∞,1)-category]]
 
 * [[triangulated category]]
 
-##4 Properties of Stable $\infty$-Categories##
+## Properties of Stable $\infty$-Categories##
 
-##5 Exact Functors##
+## Exact Functors##
 
 * [[exact functor]]
 
-##6 t-Structures and Localization##
+## t-Structures and Localization##
 
-##7 Boundedness and Completeness##
+## Boundedness and Completeness##
 
-##8 Stabilization##
+## Stabilization##
 
 * [[stabilization]]
 
 * [[spectrum object]]
 
 
-##9 The $\infty$-Category of Spectra##
+## The $\infty$-Category of Spectra##
 
 * [[spectrum]]
 
 * [[stable (∞,1)-category of spectra]]
 
-##10 Excisive Functors##
+## Excisive Functors##
 
-##11 Filtered Objects and Spectral Sequences##
+## Filtered Objects and Spectral Sequences##
 
-##12 The $\infty$-Categorical Dold-Kan Correspondence##
+## The $\infty$-Categorical Dold-Kan Correspondence##
 
 * [[Dold-Kan correspondence]]
 
-##13 Homological Algebra##
+## Homological Algebra##
 
 * [[homological algebra]]
 
@@ -98,16 +98,16 @@ The homotopy category of a stable $(\infty,1)$-category is shown to be a [[trian
 
 * [[derived functor on a derived category]]
 
-##14 The Universal Property of $D^-(A)$
+## The Universal Property of $D^-(A)$
 
-##15 Presentable Stable $\infty$-Categories
+## Presentable Stable $\infty$-Categories
 
 * [[accessible (∞,1)-category]]
 
 * [[presentable (∞,1)-category]]
 
 
-##16 Accessible t-Structures##
+## Accessible t-Structures##
 
 
 category: reference
