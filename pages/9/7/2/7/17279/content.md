@@ -17,7 +17,7 @@ It turns out that using resurgent transseries, one can obtain under certain cond
 
 To check that the method really works one can apply it to simple examples form quantum mechanics where other methods can be used to compute nonperturbative information. For example, for the double well potential, this was done by [Jentschura & Zinn-Justin 04](#JentschuraZinnJustin04) , and for some other cases by ([Dunne-Unsal 14](#DunneUnsal14)). For applications to [[gauge theories]] and to [[string theory]], see ([Marino 12](#Marino12)); of course, in the latter cases there is no known alternative way of checking the results. A more mathematically oriented overview is presented in ([Dorigoni 14](#Dorigoni14))
 
-Thus it seems seems possible (and sometimes is claimed) that the perturbative series already contains all nonperturbative information. The future will tell.
+Thus it seems possible (and sometimes is claimed) that the perturbative series already contains all nonperturbative information. The future will tell.
 
 ## Related concepts
 
