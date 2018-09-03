@@ -53,7 +53,7 @@ A celebrated theorem due to ([Adams 60](#Adams60), introducing and using the [[A
 
 ## History
 
-> [[stable homotopy theory|Stable homotopy theory]] emerged as a distinct branch of [[algebraic topology]] with [[John  Adams|Adams]]' introduction of [[Adams spectral sequence|his eponymous spectral sequence]] and his spectacular conceptual use of the notion of stable phenomena in his solution to the Hopf invariant one problem.
+> [[stable homotopy theory|Stable homotopy theory]] emerged as a distinct branch of [[algebraic topology]] with [[Frank Adams|Adams]]' introduction of [[Adams spectral sequence|his eponymous spectral sequence]] and his spectacular conceptual use of the notion of stable phenomena in his solution to the Hopf invariant one problem.
 
 > ([Elmendorf-Kriz-May 95](#ElmendorfKrizMay95))
 
