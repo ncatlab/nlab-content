@@ -152,6 +152,8 @@ $$
   \right.
 $$
 
+Such properties arise from characters occurring as [[traces]] of [group representations](representation+ring#relation_to_the_character_ring).
+
 ### In terms of the classifying space of the group
 
 Consider the [[classifying space]], $B G$, of the group. Then its [[free loop space]], $Map (S^1, B G)$, has as components $G$ modulo [[conjugation]]. Then, the characters of $G$ may be expressed as the zeroth cohomology of this loop space, $H^0(\mathcal{L} B G, \mathbb{C})$. This construction is useful in the generalisation to [[transchromatic characters]]. 
