@@ -78,6 +78,6 @@ It follows that every Desarguesian projective line can be embedded into a Desarg
 
 * {#Buekenhout74} Francis Buekenhout, *Foundations of one Dimensional Projective Geometry based on Perspectivities*.  Abhandlungen aus dem Mathematischen Seminar der Universit&#228;t Hamburg, 43 (1975) 21-29
 
-* {#BuekenhoutCohen} Francis Buekenhout and Arjeh M. Cohen, *Diagram Geometry: Related to Classical Groups and Buildings*.  Springer, 2013
+* {#BuekenhoutCohen} Francis Buekenhout and Arjeh M. Cohen, *Diagram Geometry: Related to Classical Groups and Buildings*.  Springer, 2013 ([author pdf](http://www.win.tue.nl/~amc/buek/))
 
 [[!redirects projective lines]]
