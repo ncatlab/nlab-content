@@ -40,7 +40,7 @@ $$
   \,.
 $$
 
-The [[alternating face map complex]] of this groups is called the **complex of simplicial chains** on $S$
+The [[alternating face map complex]] of these groups is called the **complex of simplicial chains** on $S$
 
 $$
   C_\bullet(S \cdot A) = C_\bullet(S,A)
