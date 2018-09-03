@@ -15,7 +15,7 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 
 ### Preprints/Notes
 
-* _The construction of formal anafunctors_ (2018), arXiv:[1808.04552](https://arxiv.org/abs/1808.04552) doi:[10.25909/5b6cfd1a73e55](https://doi.org/10.25909/5b6cfd1a73e55)
+* _The construction of formal anafunctors_ (2018), arXiv:[1808.04552](https://arxiv.org/abs/1808.04552) doi:[10.25909/5b6cfd1a73e55](https://doi.org/10.25909/5b6cfd1a73e55) (Note that this was cited in _Internal Categories, Anafunctors and Localisations_ with the title _Strict 2-sites, J-spans and Localisations_, and some paper containing these notes may yet have that title)
 
 * _Extending Whitney's extension theorem_, [arXiv:1801.04126](https://arxiv.org/abs/1801.04126). Joint with [[Alexander Schmeding]].
 
@@ -38,7 +38,7 @@ Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny 
 * _A bigroupoid's topology (or, Topologising the homotopy bigroupoid of a space)_, [Journal of Homotopy and Related Structures](https://link.springer.com/journal/40062) Volume 11, Issue 4 (2016) pp 923-942, doi:[10.1007/s40062-016-0160-0](https://doi.org/10.1007/s40062-016-0160-0), [ReadCube](http://rdcu.be/l2yl), [arXiv:1302.7019](https://arxiv.org/abs/1302.7019).
 
 * _On certain 2-categories admitting localisation by bicategories of
-  fractions_, [Applied Categorical Structures](https://link.springer.com/journal/10485) Volume 24, Issue 4 (2016) pp 373-384, doi:[10.1007/s10485-015-9400-4](http://dx.doi.org/10.1007/s10485-015-9400-4), [arXiv:1402.7108](http://arxiv.org/abs/1402.7108).
+  fractions_, [Applied Categorical Structures](https://link.springer.com/journal/10485) Volume 24, Issue 4 (2016) pp 373-384, doi:[10.1007/s10485-015-9400-4](http://dx.doi.org/10.1007/s10485-015-9400-4), [ReadCube](https://rdcu.be/5uvT), [arXiv:1402.7108](http://arxiv.org/abs/1402.7108).
 
 * _Simplicial principal bundles in parameterized spaces_, [New York Journal of Mathematics](https://nyjm.albany.edu/) Volume 22 (2016) 405-440, [journal version](https://nyjm.albany.edu/j/2016/22-19.html), [arXiv:1203.2460](https://arxiv.org/abs/1203.2460), joint with [[nLab:Danny Stevenson|Danny Stevenson]].
 
