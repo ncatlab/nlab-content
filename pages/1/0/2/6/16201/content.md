@@ -59,4 +59,8 @@ Discussion of higher curvature corrections to [[11-dimensional supergravity]] in
 
 * Anirban Basu, _Constraining gravitational interactions in the M theory effective action_, Classical and Quantum Gravity, Volume 31, Number 16, 2014 ([arXiv:1308.2564](https://arxiv.org/abs/1308.2564))
 
+and from the [[ABJM  model]]:
+
+* Damon J. Binder, Shai M. Chester, Silviu S. Pufu, _Absence of $D^4 R^4$ in M-Theory From ABJM_ ([arXiv:1808.10554](https://arxiv.org/abs/1808.10554))
+
 [[!redirects higher order curvature corrections]]
