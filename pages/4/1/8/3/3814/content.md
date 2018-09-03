@@ -134,6 +134,8 @@ See
 
 ## Related concepts
 
+* [[chiral fermions]]
+
 * [[generation of fundamental particles]]
 
 * [[Yang-Mills theory]]
