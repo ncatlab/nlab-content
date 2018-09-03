@@ -95,6 +95,7 @@ See also
 
 * Sean A. Hayward, _Relativistic thermodynamics_ ([arXiv:gr-qc/9803007](https://arxiv.org/abs/gr-qc/9803007))
 
+* Paul Frampton, Stephen D.H. Hsu, Thomas W. Kephart, David Reeb, _What is the entropy of the universe?_, Class. Quant. Grav.26:145005, 2009 ([arXiv:0801.1847](https://arxiv.org/abs/0801.1847))
 
 ### Further generalizations 
 
