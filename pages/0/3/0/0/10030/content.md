@@ -11,6 +11,7 @@
 
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -149,6 +150,15 @@ Beware that by [[Borel's theorem]], _every_ [[formal power series]] is the [[Tay
 
 =--
 
+## Properties
+
+### Optimal truncation and superasymptotics
+ {#OptimalTruncation}
+
+A rule-of-thumb for where to truncate an asymptotic series so that the resulting finite [[sum]] is as close as possible to the "actual" value is to truncate at the term that gives the _smallest_ contribution. This rule-of-thumb is called _optimal truncation_, or _superasymptotics_ ([Berry-Howls 90](#BerryHowls90), see [Berry 91](#Berry91)).  
+
+For some classes of asymptotic series there are [[proofs]] that "optimal truncation" indeed works, see the references [below](#ReferencesOptimalTruncation).
+
 ## History
 
 From [Suslov 05](#Suslov05):
@@ -179,6 +189,8 @@ From [Suslov 05](#Suslov05):
 
 ## References
 
+### General
+
 An original article is
 
 * G. Watson, _A theory of asymptotic series_, Philosophical Transactions of the Royal Society of London. Series A, Containing Papers of a Mathematical or Physical Character
@@ -189,9 +201,16 @@ Basic introductions include
 * Joel Feldman, _Taylor series and asymptotic expansions_ lecture notes [pdf](http://www.math.ubc.ca/~feldman/m321/asymptotic.pdf)
 
 * R. Shankar Subramanian, _An Introduction to Asymptotic Expansions_ ([pdf](http://web2.clarkson.edu/projects/subramanian/ch527/supplem/asympt.pdf))
+* Richard Chapling, _Asymptotic methods_, 2016 ([pdf](http://people.ds.cam.ac.uk/rc476/asymptoticmethods/am_notes.pdf))
+
+
+* Gerald Dunne, _Introduction to Resurgence, Trans-series and
+Non-perturbative Physics_, 2018 ([pdf](https://www.icts.res.in/sites/default/files/NUMSTRINGS2018-2018-01-27-Gerald-Dunne.pdf))
+
+
+### Non-convergence of the Feynman perturbation series
 
 The argument that the [[S-matrix]] formal power series in all [[perturbative quantum field theories]] of interest is necessarily divergent (and hence at best an asymptotic series) is due to
-
 
 * {#Dyson52} [[Freeman Dyson]], _Divergence of perturbation theory in quantum electrodynamics_, Phys. Rev. 85, 631, 1952 ([spire](http://inspirehep.net/record/29799?ln=en))
 
@@ -213,6 +232,16 @@ In the example of [[phi^4 theory]] this non-convergence of the perturbation seri
 
 * {#Helling} Robert Helling, p. 4 of _Solving classical field equations_ ([pdf](http://homepages.physik.uni-muenchen.de/~helling/classical_fields.pdf))
 
+### Optimal truncation and superasymptotics
+ {#ReferencesOptimalTruncation}
+
+Discussion of "optimal truncation" of asymptotic series and of "superasymptotics" includes the following:
+
+* {#BerryHowls90} [[Michael Berry]], C. J. Howls, _Hyperasymptotics_,  Proceedings: Mathematical and Physical Sciences Vol. 430, No. 1880 (Sep. 8, 1990), pp. 653-668  ([jstor:79960](https://www.jstor.org/stable/79960))
+
+* {#Berry91} [[Michael Berry]], _Asymptotics, superasymptotics, hyperasymptotics_, in  H. Segur, S. Tanveer, and H. Levine, (eds.)  _Asymptotics Beyond All Orders_,  Plenum, Amsterdam, 1991, pp. 1-14 ([doi:10.1007/978-1-4757-0435-8_1](https://doi.org/10.1007/978-1-4757-0435-8_1))
+
+* O. Costin, M. D. Kruskal, _On optimal truncation of divergent series solutions of nonlinear differential systems; Berry smoothing_, Proc. R. Soc. Lond. A 455, 1931-1956 (1999) ([arXiv:math/0608410](https://arxiv.org/abs/math/0608410))
 
 [[!redirects asymptotic expansions]]
 
