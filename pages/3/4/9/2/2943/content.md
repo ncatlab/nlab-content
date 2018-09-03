@@ -47,8 +47,9 @@ as well as in
 
 Souriau model of thermodynamics has been extented for Geometric Science of Information (Koszul information geometry) with a general definition of Fisher Metric, Euler-Poincar&#233; Equation and variational definition of Souriau Thermodynamics, as given in:
 
-* [[Frederic Barbaresco]], Koszul Information Geometry and Souriau Geometric, Temperature / Capacity of Lie Group Thermodynamics, MDPI Entropy, n&#176;16, pp. 4521-4565, August 2014. (http://www.mdpi.com/1099-4300/16/8/4521/pdf)
-* [[Frederic Barbaresco]], Symplectic Structure of Information Geometry: Fisher Metric and Euler-Poincar&#233; Equation of Souriau Lie Group Thermodynamics, GSI'15,Vol.9389, Springer LCNS, pp. 529-540, 2015. (http://link.springer.com/chapter/10.1007/978-3-319-25040-3_57) 
+* Frederic Barbaresco, Koszul Information Geometry and Souriau Geometric, Temperature / Capacity of Lie Group Thermodynamics, MDPI Entropy, n&#176;16, pp. 4521-4565, August 2014. (http://www.mdpi.com/1099-4300/16/8/4521/pdf)
+
+* Frederic Barbaresco, Symplectic Structure of Information Geometry: Fisher Metric and Euler-Poincar&#233; Equation of Souriau Lie Group Thermodynamics, GSI'15,Vol.9389, Springer LCNS, pp. 529-540, 2015. (http://link.springer.com/chapter/10.1007/978-3-319-25040-3_57) 
 
 See also
 
@@ -83,7 +84,7 @@ Making sense of thermodynamics when taking into account [[special relativity]] a
 
 A standard textbook has been 
 
-* Richard Tolman, _Relativity, Thermodynamics and Cosmology_, Oxford 1934, reprented by Dover 1987
+* {#Tolman34} Richard Tolman, _Relativity, Thermodynamics and Cosmology_, Oxford 1934, reprinted by Dover 1987
 
 but Tolman's approach has been called into question, see e.g. 
 
