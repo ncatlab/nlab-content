@@ -85,5 +85,7 @@ may be interpreted combinatorially: a $k$-element subset $K$ of $X + 1$ is eithe
 
 * [[multinomial coefficient]]
 
+* [[Catalan number]]
+
 [[!redirects binomial coefficient]] 
 [[!redirects binomial coefficients]] 
