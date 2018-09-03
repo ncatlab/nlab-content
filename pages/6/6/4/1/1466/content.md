@@ -22,7 +22,7 @@ A _uniform structure_ or _uniformity_ on a [[set]] $X$ consists of a collection 
 
 ## Definitions
 
-The definition described above is based on [[entourages]]; it was the original one published in [[Bourbaki]] and is still most commonly seen today.  There is an equivalent definition based on [[uniform covers]], although it is more difficult to generalize in some ways (e.g. to [[quasiuniform spaces]]).  The relationship with [[gauge spaces]] (defined below) also allows for another definition.
+The definition described above is based on [[entourages]]; it was the original one published in [[Bourbaki]] and is still most commonly seen today.  There is an equivalent definition based on [[uniform covers]], although it is more difficult to generalize in some ways (e.g. to [[quasiuniform spaces]]).  The relationship with [[gauge spaces]] (defined below) also allows for another definition. The original definition in [[Bourbaki]] [can be seen](#naive_tame_topology) as describing a contravariant functor from the category of finite sets to a category of [[filters]] of subsets.
 
 
 ### Entourage uniformities
@@ -236,6 +236,9 @@ In all these cases, in order to recover the correct notion of morphism abstractl
 
 * T. E. Gantner and R. C. Steinlage, _Characterizations of quasi-uniformities_, J. London Math Soc (2) 5 (1972) (defines quasi-uniformities using covers)
  {#GS72}
+
+* M. Gavrilovich, [_A naive diagram-chasing approach to formalisation of tame topology_](http://mishap.sdf.org/by:gavrilovich/mintsGE.pdf#3.1.6) \S3.1.2, \S3.1.6.
+{#naive_tame_topology}
 
 category: topology
 
