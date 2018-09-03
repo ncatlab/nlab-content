@@ -24,20 +24,19 @@
 
 ## Idea
 
-Roughly, $Rel$ is the [[category]] whose [[objects]] are [[sets]] and whose [[morphisms]] are (binary) [[relations]] between sets. It becomes a [[2-category]] (in fact, a [[2-poset]]) by taking [[2-morphisms]] to be inclusions of relations. 
-
+$Rel$ is the [[category]] whose [[objects]] are [[sets]] and whose [[morphisms]] are (binary) [[relations]] between sets.   It becomes a [[2-category]] $\mathbf{Rel}$ (in fact, a [[2-poset]]) by taking [[2-morphisms]] to be inclusions of relations. 
 
 ## Definition
 
-$Rel$ is a [[2-poset]] (a [[enriched category|category enriched]] in the category of [[posets]]), whose [[objects]] or $0$-cells are [[sets]], whose [[morphisms]] or $1$-cells $X \to Y$ are [[relations]] $R \subseteq X \times Y$, and whose [[2-morphisms]] or  $2$-cells $R \to S$ are inclusions of relations. The _composite_ $S \circ R$ of morphisms $R: X \to Y$ and $S: Y \to Z$ is defined by the usual relational composite 
-$$\{(x, z) \in X \times Z: \exists_{y \in Y} (x, y) \in R \wedge (y, z) \in S\} \hookrightarrow X \times Z$$ 
-and the _identity_ $1_X: X \to X$ is the [[equality relation]], in other words the usual diagonal embedding 
+$Rel$ is a category whose  [[objects]] or $0$-cells are [[sets]], whose [[morphisms]] or $1$-cells $X \to Y$ are [[relations]] $R \subseteq X \times Y$, and where the _composite_ $S \circ R$ of morphisms $R: X \to Y$ and $S: Y \to Z$ is defined as the usual relational composite:
+$$\{(x, z) \in X \times Z: \exists_{y \in Y} (x, y) \in R \wedge (y, z) \in S\} \hookrightarrow X \times Z .$$   The _identity_ $1_X: X \to X$ is then the [[equality relation]], in other words the usual diagonal embedding 
 $$\{(x, x): x \in X\} \hookrightarrow X \times X.$$ 
 
 Another important operation on relations is _taking the opposite_: any relation $R: X \to Y$ induces a relation 
 $$R^{op} = \{(y, x) \in Y \times X: (x, y) \in R\} \hookrightarrow Y \times X$$ 
-and this operation obeys a number of obvious identities, such as $(S \circ R)^{op} = R^{op} \circ S^{op}$ and $1_X^{op} = 1_X$. 
+This makes $Rel$ into a [[dagger-category]]: in other words, we have $(S \circ R)^{op} = R^{op} \circ S^{op}$, $1_X^{op} = 1_X$, and $(R^{op})^{op} = R$.
 
+We can enhance $Rel$ to a 2-category, which we can call $\mathbf{Rel}$ to distinguish it from the category, by taking [[2-morphisms]] or $2$-cells $R \Rightarrow S$ to be inclusions of relations.   Since there is at most one 2-morphism between parallel 1-morphisms, $\mathbf{Rel}$ is a [[2-poset]]: that is, an [[enriched category|category enriched]] in the category of [[posets]].
 
 ## Relations and spans
 
@@ -74,28 +73,24 @@ which says the functional relation is _well-defined_.
 
 ## Limits and Colimits
 
-$Rel$ does have [[products]] and [[coproducts]]; they coincide (by
-self-duality) and are just [[disjoint unions]] of sets. However, otherwise
-$Rel$ has very few (co)limits; it doesn't even have
+The category $Rel$ does have [[products]] and [[coproducts]]; they coincide (by self-duality) and are just [[disjoint unions]] of sets. However, otherwise $Rel$ has very few (co)limits; it doesn't even have
 splittings of all idempotents. All symmetric idempotents have splittings, but the
 order-relation $\leq \; \subseteq \{0,1\} \times \{0,1\}$ can't be
 split. It follows that it can't have (co)equalisers.
 
-Since $Rel$ is the category of _free algebras_ ([[Kleisli
+Since the category $Rel$ is the category of _free algebras_ ([[Kleisli
 category]]) for the powerset monad, there is, indeed, very little chance
 of a limit of such algebras being free again. To get decent limits,
 one has to move to the [[Eilenberg-Moore category]] of the [[powerset]] [[monad]],
 viz., the category of complete [[suplattices]].
 
-### Weak equalizers and completion
-As $Rel$ has _[[weak limit|weak]]_ [[equalizers]], one can take its
-[[exact completion]]. This happens to be the category of complete
+### Weak Equalizers and Completion###
+
+As the category $Rel$ has _[[weak limit|weak]]_ [[equalizers]], one can take its [[exact completion]]. This happens to be the category of complete
 sup-lattices and sup-preserving maps. And the tensor product on $Rel$
 extends to the [[exact completion]]. 
 
-The Freyd completion of REL, which is equivalent to the category of basic pairs which appear in formal topology, has all limits exactly because REL has products and weak equalizers. The Freyd completion adds freely a strong factorization system to a(ny) category C and it has products if C has products, it has equalizers if C has weak equalizers.
-
-
+The Freyd completion of $Rel$, which is equivalent to the category of basic pairs which appear in formal topology, has all limits exactly because $Rel$ has products and weak equalizers. The Freyd completion adds freely a strong factorization system to a(ny) category $C$.  The Freyd completion has products if $C$ has products, and it has equalizers if $C$ has weak equalizers.
 
 ### In the Double Category of Relations###
 If you insert the category $Rel$ into the [[double category]]
@@ -111,7 +106,7 @@ weak double categories (with the same objects, "strict morphisms",
 "same morphisms", suitable double cells) that have all limits and
 colimits.
 
-### As an enriched category###
+## As an enriched category##
 Writing $\mathcal{V}$ for the category of [[suplattices]], $Rel$ is a
 $\mathcal{V}$-category (see [[enriched category]]). With that in mind, the parallel:
 
@@ -129,8 +124,7 @@ especially, from coproducts to products, works just as it does in the
 case of [[additive categories]], when it comes to these
 $\mathcal{V}$-categories. 
 
-
-###In Spans###
+##In Spans##
 See [[van Kampen colimit]].
 
 ##Mono/Epimorphisms##
@@ -139,7 +133,13 @@ It is not hard to see that a relation $R \subseteq A \times B$ is a
 sending a subset of A to the set of all R-relatives of its members is
 injective; dually for [[epimorphisms]].
 
+## 2-Categorical Aspects##
 
+Let $\mathbf{Rel}$ be the 2-category with sets as objects, relations as morphisms, and a unique 2-morphism from a relation $
+
+
+
+For example, a monad in the 2-category Rel is exactly a preorder on a set, and has an EM-object iff it is an equivalence relation, in which case the EM-object is the set of equivalence classes of the relation.
 
 
 ## Related categories
