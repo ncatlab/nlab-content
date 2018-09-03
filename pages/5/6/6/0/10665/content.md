@@ -13,13 +13,23 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A [[character]] of a [[group]] $G$ is a [[group homomorphism]] into the [[circle group]], or more generally into the [[group of units]] $k^\times$ of a given ground [[field]].
+A _[[character]]_ of a [[group]] $G$ is a [[group homomorphism]] into the [[circle group]] $U(1)$, or more generally into the [[group of units]] $k^\times$ of a given [[ground field]] (for instance $\mathbb{C}^\times = U(1)$):
+
+$$
+  \chi
+  \;\colon\;
+  G \longrightarrow k^\times  
+  \,.
+$$
+
+Since $k^\times$ is an [[abelian group]], this means that group characters are in particular [[class functions]].
 
 Dually a co-character is a homomorphism out of $k^\times$ into $G$.
 
@@ -118,7 +128,7 @@ $$
 
 ### Inner product and orthogonality
 
-The complex [[class functions]] on a finite group $G$ have an [[inner product]] given by
+The complex [[class functions]] on a [[finite group]] $G$ have an [[inner product]] given by
 
 $$
   \langle \alpha, \beta\rangle
