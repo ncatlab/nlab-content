@@ -49,7 +49,7 @@ $$
 
 If $G$ is a [[finite group]] and we [[tensor product of modules|tensor]] $R(G)$ with the [[complex numbers]], it becomes [[isomorphism|isomorphic]] to the **[[character ring]]** of $G$: that is, the ring of complex-valued functions on $G$ that are constant on each [[conjugacy class]].  Such functions are called **[[class functions]]**.
 
-Similarly for $G$ a [[compact Lie group]], its complex linear [[representations]] $\rho \colon G \to U(n) \to Aut(\mathbb{C}^n)$ (for all $n \in \mathbb{N}$) are uniquely specified by their [[characters]] $\chi_\tho \coloneqq tr(\rho(-)) \colon G \to \mathbb{C}$. Therefore also here the representation ring is often called the _character ring_ of the group.
+Similarly for $G$ a [[compact Lie group]], its complex linear [[representations]] $\rho \colon G \to U(n) \to Aut(\mathbb{C}^n)$ (for all $n \in \mathbb{N}$) are uniquely specified by their [[characters]] $\chi_\rho \coloneqq tr(\rho(-)) \colon G \to \mathbb{C}$. Therefore also here the representation ring is often called the _character ring_ of the group.
  
 
 
