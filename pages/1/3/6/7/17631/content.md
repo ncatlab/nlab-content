@@ -24,11 +24,13 @@ $$
 
 The Catalan numbers $C_n$ count a myriad of different families of objects, including:
 
-* matching pairs of $n$ parentheses properly matched (also known as "Dyck words")
+* matching pairs of $n$ parentheses properly matched (also known as "Dyck words");
 
-* nonisomorphic ordered (planar) binary [[trees]] with $n$ internal [[vertices]]
+* nonisomorphic ordered (planar) binary [[trees]] with $n$ internal [[vertices]];
 
-* monotonic lattice paths in an $n\times n$ grid which do not cross below the diagonal, or equivalently, [[monotone functions]] $f : [n] \to [n]$ such that $f(0) = 0$ and $x \le f(x)$ for all $0 \le x \le n$ (or in other words, [[pointed endomorphisms]] $[n] \to [n]$ in $\Delta_\bot$, the [[2-category]] of non-empty finite ordinals and first-element-and-order-preserving functions, with 2-cells given by the pointwise ordering)
+* monotonic lattice paths in an $n\times n$ grid which do not cross below (or equivalently, above) the diagonal, or in other words, [[injective]] [[monotone functions]] $p : [2n] \to [n] \times [n]$ such that $\pi_1 p(i) \le \pi_2 p(i)$ for all $0 \le i \le 2n$;
+
+* [[monotone functions]] $f : [n] \to [n]$ such that $f(0) = 0$ and $x \le f(x)$ for all $0 \le x \le n$, or in other words, [[pointed endomorphisms]] $[n] \to [n]$ in $\Delta_\bot$ (the sub-2-category of the [[simplex category|simplex 2-category]] $\Delta$ spanned by the first-element-preserving functions);
 
 and many, many more besides (see [Stanley](#Stanley2015) for 214 such interpretations).
 
