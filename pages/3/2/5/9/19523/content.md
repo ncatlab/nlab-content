@@ -179,8 +179,11 @@ See also
 
 
 ### Effective dark energy from inhomogeneity
+ {#EffectiveDarkEnergyFromInhomogeneity}
 
-* {#Celerier00} Marie-Noëlle Célérier, _Do we really see a cosmological constant in the supernovae data?_, Astron.Astrophys.353:63-71,2000
+The proposal that backreaction of cosmic inhomogeneities may mimic a [[cosmological constant]]/[[dark energy]] has been discussed in the following articles:
+
+* {#Celerier00} Marie-Noëlle Célérier, _Do we really see a cosmological constant in the supernovae data?_, Astron.Astrophys.353:63-71, 2000
 
 * {#Wetterich01} [[Christof Wetterich]], _Can Structure Formation Influence the Cosmological Evolution?_, Phys.Rev. D67 (2003) 043513 ([arXiv:astro-ph/0111166](https://arxiv.org/abs/astro-ph/0111166))
 
