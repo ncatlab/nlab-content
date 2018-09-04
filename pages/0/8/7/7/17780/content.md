@@ -21,7 +21,7 @@ _Universal spacetimes_ are [[spacetimes]] for which all [[conserved current|cons
 
 The terminology was introduced in 
 
-* A.A. Coley, [[Gary Gibbons]], S. Hervik, and [[Christopher Pope]], _Metrics with vanishing quantum corrections_ Class. Quantum Grav., 25:145017, 2008
+* A. A. Coley, [[Gary Gibbons]], S. Hervik, [[Christopher Pope]], _Metrics with vanishing quantum corrections_, Class. Quantum Grav., 25:145017, 2008 ([arXiv:0803.2438](https://arxiv.org/abs/0803.2438))
 
 Classification results are discussed in
 
