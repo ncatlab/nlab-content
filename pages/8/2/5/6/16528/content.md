@@ -6,4 +6,6 @@
 
 * [[supergravity torsion constraints]]
 
+* [[higher curvature corrections]]
+
 category: people
