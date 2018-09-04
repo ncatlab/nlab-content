@@ -1,5 +1,5 @@
 
-Charles Sanders Peirce (1839-1914), a philosopher, logician and scientist, was one of the founders of modern symbolic [[logic]]. In particular, he developed a form of [[predicate logic]]. Peirce devised a graphical notation, known as **existential graphs**, to represent logical calculi. There were three systems of such graphs: the system _alpha_, to represent [[propositional logic]], the system _beta_, to represent [[predicate logic]], and the system _gamma_, to represent [[modal logic]].
+Charles Sanders Peirce (1839-1914), a philosopher, logician and scientist, was one of the founders of modern symbolic [[logic]]. In particular, he developed a form of [[predicate logic]]. Peirce devised a graphical notation, known as **existential graphs**, to represent logical calculi. There were three systems of such graphs: the system _alpha_, to represent [[propositional logic]], the system _beta_, to represent [[predicate logic]], and the system _gamma_, to represent [[modal logic]] ([MaPiet 18](#MaPiet18)).
 
 [[Geraldine Brady]] and [[Todd Trimble]] have given a category theoretic interpretation of the alpha and beta systems. The latter, a form of [[string diagram|string diagrammatic]] notation, was developed ([PontoShul](#PontoShul)) into a [[string diagram]] notation for [[indexed monoidal categories]]. A development also appears in [MellZeil](#MellZeil).
 
@@ -44,6 +44,8 @@ Other references
 * {#MellZeil} [[Paul-André Melliès]] and [[Noam Zeilberger]] (2016) _A bifibrational reconstruction of Lawvere's presheaf hyperdoctrine_, ([	arXiv:1601.06098, cs.LO](http://arxiv.org/abs/1601.06098))
 
 * Fernando Zalamea, Peirce's logic of continuity, a conceptual and mathematical approach, [link](https://www.academia.edu/31948393/ZalameaPeirceCont.pdf)
+
+* {#MaPiet18} Minghui Ma, Ahti-Veikko Pietarinen (2018), _Gamma graph calculi for modal logics_, Synthese 195: 3621, ([doi](https://doi.org/10.1007/s11229-017-1390-3))
 
 [[!redirects C.S. Peirce]]
 [[!redirects Charles Peirce]]
