@@ -24,7 +24,7 @@
 
 The fundamental [[physical unit]] of [[length]].
 
-The approximate value is $\sim 1.6 \;10^{-35}$ [[meter]].
+In comparison to macorscopic [[physical units]] such as the [[meter]], the approximate value of the Planck length is $\sim 1.6 \;10^{-35}$ [[meter]].
 
 ## Definition
 
@@ -80,9 +80,13 @@ $$
 
 * [[Planck mass]]
 
+* [[quantum gravity]]
+
 * [[string length]]
 
 * [string theory -- scales](string+theory#scales)
+
+* [[near-horizon geometry]]
 
 ## References
 
