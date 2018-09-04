@@ -276,9 +276,9 @@
 <polygon style="fill:black;stroke:black;" points="441.56,-180.863 431,-180 438.717,-187.26 441.56,-180.863"/>
 </g>
 <g id="node25" class="node"><title>QB</title>
-<a xlink:href="http://ncatlab.org/nlab/show/Quasi-Barralled topological vector space" xlink:title="Quasi&#45;Barralled">
+<a xlink:href="http://ncatlab.org/nlab/show/Quasi-Barrelled topological vector space" xlink:title="Quasi&#45;Barrelled">
 <polygon style="fill:none;stroke:black;" points="234,-108 112,-108 112,-72 234,-72 234,-108"/>
-<text fill="#008B26" text-anchor="middle" x="173" y="-85.9" style="font-family:Times New Roman;font-size:14.00;">Quasi&#45;Barralled</text>
+<text fill="#008B26" text-anchor="middle" x="173" y="-85.9" style="font-family:Times New Roman;font-size:14.00;">Quasi&#45;Barrelled</text>
 </a>
 </g>
 <g id="edge66" class="edge"><title>Bo&#45;>QB</title>
