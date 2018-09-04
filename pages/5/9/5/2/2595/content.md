@@ -246,7 +246,7 @@ A systematic development of [[geometry]] internal to a ringed topos is discussed
 
 * [[Monique Hakim]], _Topos annel&#233;s et sch&#233;mas relatifs_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 64, Springer, Berlin, New York (1972). 
 
-A textbook source is section 16.7 of 
+A textbook source is section 18.7 of 
 
 * [[Aise Johan de Jong]],  _[[The Stacks Project]]_ ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf)) ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
 {#deJong}
