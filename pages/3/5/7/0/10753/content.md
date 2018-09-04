@@ -1,8 +1,17 @@
+#Contents#
+* table of contents
+{:toc}
 
+##Idea
 
-A [[type]] equipped with a [[term]].
+A **pointed type** is a [[type]] equipped with a [[term]].
 
 The [[categorical semantics]] is a [[pointed object]].
+
+## Related entries
+
+* [[homotopytypetheory:pointed type|pointed type (homotopytypetheory)]]
+* [[maybe monad]]
 
 
 [[!redirects pointed types]]
