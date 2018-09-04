@@ -24,6 +24,8 @@
 
 The fundamental [[physical unit]] of [[length]].
 
+The approximate value is $\sim 1.6 \;10^{-35}$ [[meter]].
+
 ## Definition
 
 Two important [[physical units]] of [[length]] induced by a [[mass]] $m$ are
