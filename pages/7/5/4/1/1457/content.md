@@ -115,7 +115,7 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 * Every [[set]] carries the **[[discrete space|discrete metric]]** given by
   $$
     d(x,y) \coloneqq \left\{\array{
-      0 & \text{if }x = y
+      0 & \text{if } x = y
       \\
       1 & \text{otherwise}
     }\right.
