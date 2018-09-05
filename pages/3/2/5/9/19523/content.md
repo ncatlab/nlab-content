@@ -142,7 +142,7 @@ However, this may be over-interpreting the realism of these simple models. Accor
 
 * {#KolbMarraMatarrese10} Edward W. Kolb, Valerio Marra, Sabino Matarrese, _Cosmological background solutions and cosmological backreactions_, Gen.Rel.Grav.42:1399-1412, 2010 ([arXiv:0901.4566](https://arxiv.org/abs/0901.4566))
 
-* {#Rasenen10} Syksy Räsänen, _Backreaction as an alternative to dark energy and modified gravity_ ([arXiv:1012.0784](https://arxiv.org/abs/1012.0784))
+* {#Rasanen10} Syksy Räsänen, _Backreaction as an alternative to dark energy and modified gravity_ ([arXiv:1012.0784](https://arxiv.org/abs/1012.0784))
 
 * {#GreenWald10} Stephen R. Green, [[Robert Wald]], _A new framework for analyzing the effects of small scale inhomogeneities in cosmology_, Phys.Rev.D83:084020, 2011 ([arXiv:1011.4920](https://arxiv.org/abs/1011.4920))
 
