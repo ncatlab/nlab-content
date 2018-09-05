@@ -139,7 +139,6 @@ Notably, the forgetful functors $H_C$ and $H_D$ from the "objectwise" definition
 In terms of the imagery of [[loop space objects]], the comma category is the category of [[interval object|directed paths]] in $E$ which start in the image of $f$ and end in the image of $g$.
 
 
-
 ## Examples 
 
 * If $f$ and $g$ are both the identity functor of a category $C$, then $(f/g)$ is the category $C ^{\mathbf{2}} $ of arrows  in $C$.
