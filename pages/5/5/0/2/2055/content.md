@@ -192,6 +192,8 @@ Martin Davis, Andreas Blass, William Tait, John Baldwin and Alasdair Urquhart.
 
 * [Math Monday](http://momath.org/home/math-monday/) The Museum of Mathematics will open in 2012 -- this blog details its progress and fun math projects
 
+* [Math Section](http://mathsection.com/) ETH Zurich Master's degree student writes about applications of mathematics in everyday life
+
 * [Mathematical Formalities](http://categorymath.wordpress.com/) This blog is written by [[Sanath Devalapurkar]], presenting some of his ideas and thoughts on (higher) category theory and $K$-theory.
 
 * [Mathematical Musings](http://matthewkahle.wordpress.com/)
