@@ -36,7 +36,6 @@
 
 * [[end|end and coend]]
 
-
 ## 2-Categorical
 
 * [[2-limit]]
