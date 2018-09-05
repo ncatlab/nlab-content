@@ -28,8 +28,6 @@ $$
   \right)
 $$
 
-
-
 \tableofcontents
 
 \section{Hello}
