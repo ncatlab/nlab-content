@@ -103,10 +103,12 @@ A related controversial article that spawned a lot of discussion is
   
 ### Interpretation in string theory
 
-A survey of interpretation of [[black holes in string theory]] is in Chapter 5 of 
+Rieview of interpretation of [[black holes in string theory]] includes 
 
-* [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, _Large N field theories, string theory and gravity_, [arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111)
- {#AGMOO}
+* {#AGMOO} [[Ofer Aharony]], S. S. Gubser, [[Juan Maldacena]], [[Hirosi Ooguri]], Y. Oz, Chapter 5 of _Large N field theories, string theory and gravity_, [arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111)
+ 
+
+* [[Dieter Lüst]], Ward Vleeshouwers, sections 21-22 of _Black Hole Information and Thermodynamics_ ([arXiv:1809.01403](https://arxiv.org/abs/1809.01403))
 
 Discussion in view of [[higher curvature corrections]] includes
 
