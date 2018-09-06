@@ -19,7 +19,6 @@
 
 ## Idea 
 
-
 The _classifying topos_ for a given type of mathematical [[structure]] $T$ --- for example the structures: "[[group]]", "[[torsor]]", "[[ring]]", "[[category]]"  etc. --- is a ([[Grothendieck topos|Grothendieck]]) [[topos]] $S[T]$ such that [[geometric morphisms]] $f: E \to S[T]$ are the same as structures of this sort in the topos $E$, i.e. groups [[internalization|internal to]] $E$, torsors internal to $E$, etc.  In other words, a classifying topos is a [[representing object]] for the functor which sends a topos $E$ to the category of structures of the desired sort in $E$.
 
 In particular for $E$ a [[sheaf topos]] on a [[topological space]] $X$ and $G$ a (bare, i.e. discrete) [[group]], a $G$-torsor in $E$ is a $G$-[[principal bundle]] over $X$. There is a classifying topos denoted $B G$, such that the [[groupoid]] $G Bund(X)$ of $G$-[[principal bundle]]s over $X$ is equivalent to geometric morphims $Sh(X) \to B G$:
@@ -205,7 +204,8 @@ We can promote $C_{fp}(Grp)$ to a category with finite limits, $C_{fl}(Grp)$, by
 For any category with finite products, say $E$, a left exact functor $f: C_{fl}(Grp) \to E$ is the same as a [[group object]] in $E$.
 
 We can further promote $C_{fl}(Grp)$ to a [[Grothendieck topos]] by taking the category of [[presheaves]].  This gives the classifying topos for groups:
-$$       S[Grp] = Set^{C_{fl}(Grp)^{op}}  \, . \]
+$$       S[Grp] = Set^{C_{fl}(Grp)^{op}}  \, .
+$$
 For any Grothendieck topos, say $E$, a left exact left adjoint functor $ f^*: S[Grp] \to E $ is the same as a [[group object]] in $E$.
 
 ### For rings
