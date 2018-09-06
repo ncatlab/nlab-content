@@ -64,7 +64,7 @@ Swansea University, 2013.  [PDF](http://cs.swan.ac.uk/~csfnf/thesis/thesis.pdf)
 
 * {#QIIT}  Thorsten Altenkirch, Paolo Capriotti, Gabe Dijkstra, Fredrik Nordvall Forsberg, _Quotient inductive-inductive types_, [arXiv](https://arxiv.org/abs/1612.02346), 2016
 
-* {#KaposiKovacs} Ambrus Kaposi and András Kovács, _A Syntax for Higher Inductive-Inductive Types_, [PDF](https://akaposi.github.io/hiit.pdf), 2018
+* {#KaposiKovacs} Ambrus Kaposi and András Kovács, _A Syntax for Higher Inductive-Inductive Types_, [PDF](http://drops.dagstuhl.de/opus/volltexte/2018/9190/), 2018
 
 Parts of the above text are taken from 
 
