@@ -108,6 +108,7 @@ Strings_, 2006 ([pdf](http://www.people.fas.harvard.edu/~xiyin/Site/Research_fil
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6.2 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
+* [[Dieter Lüst]], Ward Vleeshouwers, _Black Hole Information and Thermodynamics_ ([arXiv:1809.01403](https://arxiv.org/abs/1809.01403))
 
 See also 
 
