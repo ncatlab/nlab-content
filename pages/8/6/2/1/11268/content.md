@@ -76,8 +76,11 @@ For any object $X$, there is an epimorphism $f: X \to \Omega^X$ only if the topo
 ###### Proof 
 Suppose there existed such an epi. In a topos, a map $f: X \to Y$ is epi iff the [[image|direct image]] map $\exists_f: \Omega^X \to \Omega^Y$ retracts the [[preimage|inverse image]] map $\Omega^f: \Omega^Y \to \Omega^X$, i.e., $\exists_f \circ \Omega^f = 1_{\Omega^Y}$. Putting $Y = \Omega^X$, the supposition implies that $\exists_f: Y \to \Omega^Y$ is a retraction. But retractions are automatically point-surjective. 
 
-We then conclude from Lawvere's fixed point theorem that every endomorphism on $\Omega$, in particular the negation $\neg: \Omega \to \Omega$, has a fixed point $p: 1 \to \Omega$. Then $0 = p \wedge \neg p = p \wedge p = p$, whence $\neg 0 = 0$, or "true = false": the topos is degenerate. 
-=-- 
+We then conclude from Lawvere's fixed point theorem that every endomorphism on $\Omega$, in particular the negation $\neg: \Omega \to \Omega$, has a fixed point $p: 1 \to \Omega$. Then $0 = p \wedge \neg p = p \wedge p = p$, whence $\neg 0 = 0$, or "true = false": the topos is degenerate.
+=--
+
+Once we have a proposition $p$ with $p = \neg p$, another way to conclude the proof is to apply Lawvere's fixed-point theorem again to the surjection $p \to 0^p$, where $p$ is regarded as a [[subsingleton]] and $0$ is the initial object, so that $0^p = \neg p$.  This gives a fixed point $1\to 0$ of the identity map $0\to 0$, which again makes the topos degenerate.  (The shorter version above is a [[beta-reduction]] of this.)  For a formalization of this argument and a generalization thereof to [[universe types]], see [Escardo18](#Escardo18).
+
 
 +-- {: .num_remark} 
 ###### Remark 
@@ -125,5 +128,9 @@ Expositions include
 
 * [[Andrej Bauer]], _On a proof of Cantor's theorem_ ([web](http://math.andrej.com/2007/04/08/on-a-proof-of-cantors-theorem/))
 
+Other references
+
+* [[Martin Escardo]], _On Lawvere's Fixed Point Theorem_, [agda development](https://www.cs.bham.ac.uk/~mhe/agda-new/LawvereFPT.html), 2018
+ {#Escardo18}
 
 [[!redirects Lawvere fixed point theorem]]
