@@ -76,6 +76,9 @@ Review is in
 * [[Mark Van Raamsdonk]], _Lectures on Gravity and Entanglement_, chapter 5 in  New Frontiers in Fields and Strings
 TASI 2015 Proceedings of the 2015 Theoretical Advanced Study Institute in Elementary Particle Physics 2015 Theoretical Advanced Study Institute in Elementary Particle Physics ([arXiv:1609.00026](https://arxiv.org/abs/1609.00026))
 
+A followup is
+
+* [[Mark Van Raamsdonk]], _Building up spacetime with quantum entanglement II: It from BC-bit_ ([arXiv:1809.01197](https://arxiv.org/abs/1809.01197))
 
 Computation of [[black hole entropy]] in 4d via [[AdS4-CFT3 duality]] from [[holographic entanglement entropy]] in the [[ABJM theory]] for the [[M2-brane]] is discussed in
 
