@@ -358,8 +358,12 @@ Discussion in terms of [[twisted bundles]]/[[bundle gerbe modules]] is in
 
 * {#CBMMS}  [[Peter Bouwknegt]], [[Alan Carey]], [[Varghese Mathai]], [[Michael Murray]] and [[Danny Stevenson]], _K-theory of bundle gerbes and twisted K-theory_ ,  Commun Math Phys, 228 (2002) 17-49 ([arXiv:hep-th/0106194](http://arxiv.org/abs/hep-th/0106194))
   
+but apparently contains a mistake, as pointed out in 
 
-and for generalization to [[groupoid K-theory]] also ([FHT 07, around p. 26](#FHT07)) and 
+* [[Alan Carey]], [[Bai-Ling Wang]], top of p. 10 in _Thom isomorphism and Push-forward map in twisted K-theory_ ([arXiv:math/0507414](https://arxiv.org/abs/math/0507414))
+
+
+The generalization of this to [[groupoid K-theory]] is in ([FHT 07, around p. 26](#FHT07)) and 
 
 * {#TuXuLG03} [[Jean-Louis Tu]], [[Ping Xu]], [[Camille Laurent-Gengoux]], _Twisted K-theory of differentiable stacks_ ([arXiv:math/0306138](http://arxiv.org/abs/math/0306138))
  
