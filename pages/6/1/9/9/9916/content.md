@@ -4,7 +4,11 @@
 
 ## related $n$Lab entries
 
+* [[string theory]]
+
 * [[string phenomenology]]
+
+* [[black holes in string theory]]
 
 
 
