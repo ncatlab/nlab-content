@@ -46,6 +46,8 @@ One can add additional terms arriving at what is called _massive 3d gravity mode
 
 * [[Chern-Simons gravity]]
 
+* [[Boulatov model]]
+
 * [[2d quantum gravity]]
 
 * [[volume conjecture]]
