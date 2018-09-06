@@ -1,4 +1,4 @@
-This is a particular model in (2+1)d gravity
+This is a particular model in [[3d quantum gravity]]
 
 * D. V. Boulatov, _A model of three-dimensional lattice gravity_, 
 Modern Phys. Lett. A 7 (1992), no. 18, 1629&#8211;1646, [MR94c:83039](http://www.ams.org/mathscinet-getitem?mr=1168831), [doi](http://dx.doi.org/10.1142/S0217732392001324)
