@@ -53,8 +53,6 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [eom.springer.de](http://eom.springer.de) -- free online access to 8000 entries of Springer online Encyclopedia of Mathematics 
 
-* [Geometry Gems](http://GeometryGems.wikispaces.com) -- Resources for geometry teachers
-
 * [GreenApples](http://GreenApples.wikispaces.com) -- Resources for new math teachers
 
 * [groupprops.subwiki.org](http://groupprops.subwiki.org/wiki/Main_Page), The Group Properties Wiki, by a graduate student at U. Chicago
