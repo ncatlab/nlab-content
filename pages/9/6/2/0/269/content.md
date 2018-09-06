@@ -1,49 +1,18 @@
-[[!redirects Cubical set]]
-[[!redirects Cubical Set]]
-[[!redirects Cubical set]]
-[[!redirects cubical set]]
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Definition
 
 \begin{notn} We make use of the notation of [[category of cubes]]. \end{notn}
 
-+-- {: .num_defn}
-###### Definition
+\begin{defn} The _category of cubical sets_ is the [[free co-completion]] of $\square$, the category of cubes. \end{defn}
 
-The _category of cubical sets_ is the [[free co-completion]] of $\square$, the category of cubes.
+\begin{rmk} The free co-completion of a small category can be constructed as the category of [[presheaf | presheaves]] of sets on this category. Thus we can also think of the category of cubical sets as the category of presheaves of sets on $\square$. \end{rmk}
 
-=--
+\begin{notn} We denote the category of cubical sets by $\mathsf{Set}^{\square^{op}}$. \end{notn}
 
-+-- {: .num_defn}
-###### Remark
+\begin{defn} A _cubical set_ is an object of $\mathsf{Set}^{\square^{op}}$. \end{defn} 
 
-The free co-completion of a small category can be constructed as the category of [[presheaf | presheaves]] of sets on this category. Thus we can also think of the category of cubical sets as the category of presheaves of sets on $\square$.
-
-=--
-
-+-- {: .num_defn}
-###### Notation
-
-We denote the category of cubical sets by $\mathsf{Set}^{\square^{op}}$.
-
-=--
-
-+-- {: .num_defn}
-###### Definition
-
-A _cubical set_ is an object of $\mathsf{Set}^{\square^{op}}$.
-
-=--
-
-+-- {: .num_defn}
-###### Remark
-
-When we think of the category of cubical sets as the category of presheaves of sets on $\square$, we consequently think of a cubical set as a presheaf of sets on $\square$
-
-=--
+\begin{rmk} When we think of the category of cubical sets as the category of presheaves of sets on $\square$, we consequently think of a cubical set as a presheaf of sets on $\square$. \end{rmk}
 
 +-- {: .num_defn}
 ###### Definition
@@ -256,4 +225,7 @@ For Expository and other material, see [[cubical set - exposition]].
 
 * [[cubical type theory]]
 
+[[!redirects Cubical set]]
+[[!redirects Cubical Set]]
+[[!redirects Cubical set]]
 [[!redirects cubical set]]
