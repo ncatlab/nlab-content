@@ -74,6 +74,8 @@ See also
 
 * Carsten Sch&#252;rmann, Jeffrey Sarnat, _Structural logical relations_ ([pdf](http://www.twelf.org/slr/slr.pdf))
 
+* Lau Skorstengaard, _An Introduction to Logical Relations: Proving Program Properties Using Logical Relations_, ([pdf](http://cs.au.dk/~lask/main.pdf))
+
 Further discussion:
 
 * StackExchange discussion, _[What are differences between logical relations and simulations?](http://cstheory.stackexchange.com/questions/5427/what-are-the-differences-between-logical-relations-and-simulations)_
