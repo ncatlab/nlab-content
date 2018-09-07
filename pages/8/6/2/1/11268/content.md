@@ -89,7 +89,7 @@ Another version of Lawvere's fixed-point theorem requires only finite products f
 
 +-- {: .num_remark} 
 ###### Remark 
-Many applications of Lawvere's fixed point theorem are in the form of negated propositions, e.g., there is no epimorphism from a set to its power set, or Peano arithmetic cannot prove its own consistency. However, there are positive applications as well, e.g., it implies the existence of [[fixed-point combinators]] in [[untyped lambda calculus]]. 
+Many applications of Lawvere's fixed point theorem are in the form of negated propositions, e.g., there is no epimorphism from a set to its power set, or [[Peano arithmetic]] cannot prove its own [[consistency]]. However, there are positive applications as well, e.g., it implies the existence of [[fixed-point combinators]] in [[untyped lambda calculus]]. 
 =-- 
 
 ## History
