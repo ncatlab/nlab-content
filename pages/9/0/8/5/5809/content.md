@@ -72,8 +72,8 @@ Textbook accounts include the following.
 
 * {#May} [[Peter May]], chapter 22, section 5 of _A concise course in algebraic topology_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/maybook.pdf))
 
-A treatment of the differential refinement of cohomology operations is in 
+Discussion of refinement of cohomology operations to [[differential cohomology]] is in
 
-* Daniel Grady, [[Hisham Sati]], _Primary operations in differential cohomology_, ([arXiv:1604.05988](https://arxiv.org/abs/1604.05988))
+* Daniel Grady, [[Hisham Sati]], _Primary operations in differential cohomology_, Adv. Math. 335 (2018), 519-562 ([arXiv:1604.05988](https://arxiv.org/abs/1604.05988), [doi:10.1016/j.aim.2018.07.019](https://www.sciencedirect.com/science/article/pii/S0001870818302676?via%3Dihub))
 
 [[!redirects cohomology operations]]
