@@ -401,7 +401,8 @@ The relation to the [[Beilinson-Deligne cup product]] is discussed in
 
 * {#Bunke12} [[Ulrich Bunke]], problem 3.106 in _Differential cohomology_ ([arXiv:1208.3961](https://arxiv.org/abs/1208.3961))
 
-* {#GradySati16} Daniel Grady, [[Hisham Sati]], prop. 22 in _Primary operations in differential cohomology_ ([arXiv:1604.05988](https://arxiv.org/abs/1604.05988))
+
+* Daniel Grady, [[Hisham Sati]], prop. 22 in _Primary operations in differential cohomology_, Adv. Math. 335 (2018), 519-562 ([arXiv:1604.05988](https://arxiv.org/abs/1604.05988), [doi:10.1016/j.aim.2018.07.019](https://www.sciencedirect.com/science/article/pii/S0001870818302676?via%3Dihub))
 
 [[!redirects Bockstein homomorphisms]]
 [[!redirects Bockstein morphism]]
