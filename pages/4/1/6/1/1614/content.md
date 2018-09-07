@@ -100,7 +100,7 @@ Volume 117, Number 3 (1988), 353-386. ([Euclid](http://projecteuclid.org/euclid.
 
 and in the discussion of [[Chern-Simons theory]] ("Schwarz-type TQFT") in
 
-* [[Edward Witten]] _Quantum Field Theory and the Jones Polynomial_ Commun. Math. Phys. 121 (3) (1989) 351&#8211;399. MR0990772 ([project EUCLID](http://projecteuclid.org/euclid.cmp/1104178138))
+* [[Edward Witten]], _Quantum Field Theory and the Jones Polynomial_ Commun. Math. Phys. 121 (3) (1989) 351&#8211;399. MR0990772 ([project EUCLID](http://projecteuclid.org/euclid.cmp/1104178138))
  
 
 ### Global (1-functorial) TQFT
