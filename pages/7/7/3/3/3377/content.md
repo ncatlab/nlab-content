@@ -88,6 +88,12 @@ Let $X$ be a [[complex manifold]] and $\omega \in \Omega^{k,0}(X)$ for odd $k$. 
 
 This is discussed in ([Seaman 98](#Seaman98))
 
+## Related concepts
+
+* [[Hitchin system]]
+
+* [[topological recursion]]
+
 ## References
 
 The [[moduli space]] of Higgs bundles over an [[algebraic curve]] is one of the principal topics in works of [[Nigel Hitchin]] and [[Carlos Simpson]] in late 1980-s and 1990-s (and later Ron Donagi, Tony Pantev...).  
