@@ -295,7 +295,7 @@ A textbook with an eye towards the theory of [[categories of sheaves]] and their
 
 The definition of categories in the [[foundations]] of [[homotopy type theory]] (see at _[[internal category in homotopy type theory]]_) is discussed in 
 
-* {#AhrensKapulkinShulman13} [[Benedikt Ahrens]], [[Chris Kapulkin]], [[Michael Shulman]], _Univalent categories and the Rezk completion_ ([arXiv:1303.0584](http://arxiv.org/abs/1303.0584))
+* {#AhrensKapulkinShulman13} [[Benedikt Ahrens]], [[Chris Kapulkin]], [[Michael Shulman]], _Univalent categories and the Rezk completion_,  Mathematical Structures in Computer Science 25.5 (2015): 1010-1039 ([arXiv:1303.0584](http://arxiv.org/abs/1303.0584))
 
 * {#CapriottiKraus17} [[Paolo Capriotti]], [[Nicolai Kraus]], _Univalent Higher Categories via Complete Semi-Segal Types_ ([arXiv:1707.03693](https://arxiv.org/abs/1707.03693))
 
