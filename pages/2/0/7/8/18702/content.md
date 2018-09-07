@@ -5,11 +5,11 @@
 
 ## Idea
 
-Topological recursion ([Chekhov-Eynard-Orantin 06](#ChekhovEynardOrantin06),[Eynard-Orantin 07](#EynardOrantin07)) is a universal [[recursion]] formula that controls asymptotic expansion of many [[integrable systems]] such as [[matrix models]]. 
+Topological recursion ([Chekhov-Eynard-Orantin 06](#ChekhovEynardOrantin06),[Eynard-Orantin 07](#EynardOrantin07)) is a universal [[recursion]] formula that controls asymptotic expansion of many [[integrable systems]] such as [[matrix models]] or the [[Hitchin system]] ([Baraglia-Huang 17](#BaragliaHuang17)). 
 
 [[Maxim Kontsevich]] and [[Yan Soibelman]] reformulated and slightly generalised it, seeing it as a [[quantization]] of certain quadratic Lagrangians in the [[cotangent bundle]] of some [[vector space]] (reviewed in [Andersen-Borot-Chekhov-Orantin 17, section 2](#AndersenBorotChekhovOrantin17)).
 
-There is some deep relation to the [[topological string]] [[B-model]] and [[Gromov-Witten invariants]] ([Bouchard-Klemm-Marino-Pasquetti 09](#BouchardKlemmMarinoPasquetti09)). It yields proofs of [[mirror symmetry]] in certain cases, valid at all [[genus of a surface|genera]] ([Eynard-Orantin 12](#EynardOrantin12),[Fang-Liu-Zong 13](#FangLiuZong13)).
+There is some deep relation to the [[topological string]] [[B-model]] and [[Gromov-Witten invariants]] ([Bouchard-Klemm-Marino-Pasquetti 09](#BouchardKlemmMarinoPasquetti09)). It yields proofs of [[mirror symmetry]] in certain cases, valid at all [[genus of a surface|genera]] ([Eynard-Orantin 12](#EynardOrantin12), [Fang-Liu-Zong 13](#FangLiuZong13)).
 
 A geometric refinement of topological recursion is known as _geometric recursion_ and developed in ([Andersen-Borot-Orantin 17](#AndersenBorotOrantin17)).
 
@@ -51,6 +51,14 @@ A series of lectures on topological recursion were delivered by Nicolas Orantin 
 The Kontsevich-Soibelman approach (and much more) is reviewed in
 
 * {#AndersenBorotChekhovOrantin17} [[Jørgen Andersen]], [[Gaëtan Borot]], [[Leonid Chekhov]], [[Nicolas Orantin]], _The ABCD of topological recursion_ ([arXiv:1703.03307](https://arxiv.org/abs/1703.03307))
+
+Discussion in the context of the [[Hitchin system]] includes
+
+* {#BaragliaHuang17} [[David Baraglia]], Zhenxi Huang, _Special Kähler geometry of the Hitchin system and topological recursion_ ([arXiv:1707.04975](https://arxiv.org/abs/1707.04975))
+
+reviewed in
+
+* {#Baraglia18} [[David Baraglia]], _Topological recursion and Bergman tau functions for the Hitchin system_, talk at _[Tau Functions of Integrable Systems and Their Applications](http://www.birs.ca/events/2018/5-day-workshops/18w5025)_, Banff 2018 ([recording](http://www.birs.ca/events/2018/5-day-workshops/18w5025/videos/watch/201809060845-Baraglia.html))
 
 ### Relation to topological string and mirror symmetry
 
