@@ -37,6 +37,9 @@ But with $k$-linear [[tensor categories]] appearing on general abstract grounds 
 
 More concretely, in [[quantum field theory]], under the [[Wigner classification]], [[fundamental particles]] are identified with [[irreducible representations]] of the [[isometry group]] of the local model of [[spacetime]] (which are induced from [[finite dimensional vector space|finite dimensional]] representations of the "[[Wigner classification|Wigner's]] [[little group]]" ([Mackey 68](Wigner+classification#Mackey68)) ). Forming the [[tensor product]] of two such representations corresponds to combining them as two [[subsystems]] of a joint system. Therefore it is natural to demand that physical particle species should form complex-linear [[tensor categories]]. Deligne's theorem then gives that [[supersymmetry]] is the most general context in which this works out. (In physics the irreducible representation in this context here are called the _[[supermultiplets]]_.)
 
+More exposition of this point is at:
+
+* PhysicsForums Insights, _[Supersymmetry and Deligne's theorem](https://www.physicsforums.com/insights/supersymmetry-delignes-theorem/)_
 
 
 ### For Tannaka duality of Hopf algebras
@@ -3805,7 +3808,7 @@ Under the tensor product of co-modules (def. \ref{TensorProductOfComodulesOverAH
 
 A _[[linear representation]]_ of a [[supergroup]] $G$, def. \ref{Supergroup}, with inner parity $\epsilon$, def. \ref{InnerParity}, is
 
-* a [[comodule]] $V$ (def. \ref{CommutativeHopfAlgebroidComodule}) in [[sVect]] (def. \ref{CategoryOfSuperVectorSpaces}) for the [[formal dual|formally dual]] [[commutative Hopf algebra]] \mathcal{O}(G)$.
+* a [[comodule]] $V$ (def. \ref{CommutativeHopfAlgebroidComodule}) in [[sVect]] (def. \ref{CategoryOfSuperVectorSpaces}) for the [[formal dual|formally dual]] [[commutative Hopf algebra]] $\mathcal{O}(G)$.
 
 such that
 
@@ -3826,7 +3829,7 @@ For $G$ an ordinary (affine algebraic) group regarded as a supergroup with trivi
 +-- {: .num_prop #RegularTensorCategoriesOfSuperrepresentations}
 ###### Proposition
 
-The [[category of representations]] $Rep(G,\epsilon)$ of def. \ref{Superrepresentation} of an affine algebraic [[supergroup]] $G$, def. \ref{Supergroup}, with inner parity $\epsilon$ (def. \ref{InnerParity}}) on finite-dimensional super vector spaces (example \ref{FiniteDimensionalSuperVectorSpaces}) and equippd with the tensor product of comodules from def. \ref{TensorProductOfComodulesOverAHopfAlgebra} is a $k$-[[tensor category]] (def. \ref{TensorCategory}) of subexponential growth (def. \ref{SubexponentialGrowth}).
+The [[category of representations]] $Rep(G,\epsilon)$ of def. \ref{Superrepresentation} of an affine algebraic [[supergroup]] $G$, def. \ref{Supergroup}, with inner parity $\epsilon$ (def. \ref{InnerParity}) on finite-dimensional super vector spaces (example \ref{FiniteDimensionalSuperVectorSpaces}) and equippd with the tensor product of comodules from def. \ref{TensorProductOfComodulesOverAHopfAlgebra} is a $k$-[[tensor category]] (def. \ref{TensorCategory}) of subexponential growth (def. \ref{SubexponentialGrowth}).
 
 =--
 
@@ -3835,8 +3838,6 @@ The [[category of representations]] $Rep(G,\epsilon)$ of def. \ref{Superrepresen
 Moreover, any finite dimensional [[faithful representation]] (which always exists, [prop.](faithful+representation#AlgebraicGroupHasFinDimFaithfulRepresentations)) serves as an $\otimes$-generator (def. \ref{FiniteTensorGeneration}).
 
 See ([this prop.](faithful+representation#AnyFinDimRepOfAffineAlgebraicGroupOverFieldIsSubquotientsOfFaithfulRep)).
-
-
 
 
 
@@ -3851,7 +3852,7 @@ $$
 
 to some other [[tensor category]], such that $\omega$ satisfies a list of properties, in particular it should be a [[symmetric monoidal functor|symmetric]] [[strong monoidal functor]].
 
-Such functors are called _[[fiber functors]]_. The idea is that we think of $\mathcal{A}$ as a [[bundle]] over $\mathcal{V}$, and over each $V \in \mathcal{V}$ we find the [[fiber]] $\omega^{-1}(V)$ of that "bundle", consisting of all those objects in $\mathcal{A}$ whose underlying object in the given $V$.
+Such functors are called _[[fiber functors]]_. The idea is that we think of $\mathcal{A}$ as a [[bundle]] over $\mathcal{V}$, and over each $V \in \mathcal{V}$ we find the [[fiber]] $\omega^{-1}(V)$ of that bundle, consisting of all those objects in $\mathcal{A}$ whose underlying object in the given $V$.
 
 The main point of [[Tannaka duality]] of tensor categories is the observation that if $\mathcal{A}$ is a [[category of representations]] of some [[group]] $G$, then $G$ also [[action|acts]] by [[automorphisms]] on that [[fiber functor]] (i.e. via [[natural isomorphisms]] of functors). In good cases then this may be turned around, and the full [[automorphism group]] of a fiber functor is identified with the group $G$ for which the objects in its fibers are [[representations]], this is the process of [[Tannaka reconstruction]].
 
@@ -3896,9 +3897,7 @@ A [[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) is called
 
 1. a **neutral super [[Tannakian category]]** if it admits a fiber functor (def. \ref{FiberFunctor}) to $sVect_k$ (def. \ref{CategoryOfSuperVectorSpaces})
 
-1. (not needed here) a general **[[Tannakian category]]** if the [[stack]] on $Aff_k$ which sends $R \in CRing$ to the groupoid
-   of fiber functors to $R Proj \hookrightarrow R Mod$ ([[projective modules]] over $R$) is an affine [[gerbe]]
-   such that its category of representations is equivalent to $\mathcal{A}$ ([Deligne-Milne 12, def. 3.7](#DeligneMilne12)).
+1. (not needed here) a general **[[Tannakian category]]** if the [[stack]] on $Aff_k$ which sends $R \in CRing$ to the groupoid of fiber functors to $R Proj \hookrightarrow R Mod$ ([[projective modules]] over $R$) is an affine [[gerbe]] such that its category of representations is equivalent to $\mathcal{A}$ ([Deligne-Milne 12, def. 3.7](#DeligneMilne12)).
 
 =--
 
@@ -3913,7 +3912,8 @@ $$
 
 for this automorphism group.
 
-So far this is a group without geometric structure (a [[discrete group]]). But it is naturally equipped with [[supergeometry]] (super-[[algebraic geometry]]) exhibited by a rule for what the "geometrically parameterized families" of its elements are. (For exposition of this perspective see at _[[motivation for sheaves, cohomology and higher stacks]]_).
+So far this is a group without geometric structure (a [[discrete group]]). But it is naturally equipped with [[supergeometry]] (super-[[algebraic geometry]]) exhibited by a rule for what the geometrically parameterized families of its elements are. (For exposition of this perspective see at _[[motivation for sheaves, cohomology and higher stacks]]_).
+
 
 Concretely, this means that for each [[supercommutative superalgebra]] $A$ with corresponding affine [[super scheme]] $Spec(A)$ (def. \ref{Affines}, def. \ref{SupercommutativeSuperalgebra}) we are to say what the set
 
@@ -3968,6 +3968,7 @@ $$
   Aut(\omega)
   \,.
 $$
+
 
 +-- {: .num_defn #RepresentableAutomorphismGroup}
 ###### Definition
@@ -4358,7 +4359,6 @@ then $\mathcal{A}$ is a neutral super [[Tannakian category]] (def. \ref{Tannakia
 
 ([Deligne 02, theorem 0.6](#Deligne02))
 
-
 ## Proof
 
 We outline key steps of the proof of theorem \ref{TheTheorem}, given in [Deligne 02](#Deligne02).
@@ -4651,3 +4651,7 @@ Discussion relating to [[2-rings]] and the [[spin-statistics theorem]] is in
 [[!redirects Deligne theorem on tensor categories]]
 
 [[!redirects Deligne reconstruction theorem]] 
+
+
+
+
