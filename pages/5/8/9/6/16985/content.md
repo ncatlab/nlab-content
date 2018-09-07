@@ -29,7 +29,7 @@ On the other hand, a special role is played in the theory by those $SU(2)$-princ
 
 ## Related concepts
 
-* [[Poisson-Lie T-duality]]
+* A relation to _[[Poisson-Lie T-duality]]_ for [[special unitary group|SU(2)]] might seem plausible, or not; but this remains open.
 
 ## References
 
@@ -46,5 +46,11 @@ A special case of this general story is discussed in some detail in
 * {#BouwknegtEvslinMathai14b} [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]], _Spherical T-duality II: An infinity of spherical T-duals for non-principal SU(2)-bundles_, J.Geom.Phys.92:46-54, 2015 ([arXiv:1409.1296](http://arxiv.org/abs/1409.1296))
 
 * [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]], _Spherical T-Duality and the spherical Fourier-Mukai transform_ ([arXiv:1502.04444](http://arxiv.org/abs/1502.04444))
+
+Examples in [[M-theory]] are discussed in 
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Higher T-duality of super M-branes]]_ ([arXiv:1803.05634](https://arxiv.org/abs/1803.05634))
+
+* [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Higher T-duality in M-theory via local supersymmetry]]_, Physics Letters B Volume 781, 10 June 2018, Pages 694-698 ([arXiv:1805.00233](https://arxiv.org/abs/1805.00233), [doi:10.1016/j.physletb.2018.04.058](https://doi.org/10.1016/j.physletb.2018.04.058))
 
 [[!redirects spherical T-dualities]]
