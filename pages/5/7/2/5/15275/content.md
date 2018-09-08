@@ -7,8 +7,7 @@
 
 ### For knot complements
 
-The original **volume conjecture** states that a certain limit of the [[colored Jones
-polynomial]] of a knot $K$ gives the simplicial volume of its complement in the 3-sphere.
+The original **volume conjecture** states that a certain limit of the [[colored Jones polynomial]] of a [[knot]] $K$ gives the simplicial [[volume]] of its [[complement]] in the [[3-sphere]].
 
 $$
 lim_{N \to \infty}\left(\frac{2 \pi log |V_N(K; q = e^{\frac{2 \pi i}{N}})|}{N}\right) = vol(K).
@@ -37,6 +36,8 @@ See ([Chen-Yang 15](#ChenYang15))
 * [[analytically continued Chern-Simons theory]]
 
 * [[Borel regulator]]
+
+* [[membrane instanton]]
 
 ## References
 
