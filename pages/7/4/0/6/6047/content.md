@@ -85,5 +85,11 @@ One [[string theory]] textbook that deals with the Nambu-Goto action in a bit mo
 
 * [[Barton Zwiebach]], _A first course in string theory_ , Cambridge (2009)
 
+[[!redirects tension]]
+[[!redirects tensions]]
+
 [[!redirects Nambu-Goto action functional]]
 [[!redirects Nambu-Goto action functionals]]
+
+
+
