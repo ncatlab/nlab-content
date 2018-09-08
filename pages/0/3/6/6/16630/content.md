@@ -21,7 +21,7 @@
 
 The _Cheeger-Simons classes_ are complexified [[secondary invariants]].
 
-Under identifying the [[fundamental class]] of a [[hyperbolic 3-manifold]] $X$ as an element in the [[Bloch group]], the corresponding degree-3 Cheegers-Simons invariant this is the _complex volume_ of the 3-manifold, namely the linear combination
+Under identifying the [[fundamental class]] of a [[hyperbolic 3-manifold]] $X$ as an element in the [[Bloch group]], the corresponding degree-3 Cheegers-Simons invariant is the _complex volume_ of the 3-manifold, namely the linear combination
 
 $$
   CS + i vol
