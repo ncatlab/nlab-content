@@ -396,7 +396,7 @@ Dicussion of quantum measurement is in
 
 Comments on the foundations of quantum physics include
 
-* {#Gleason09} Jonathan Gleason, _The $C^*$-algebraic formalism of quantum mechanics_, 2009 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/Gleason.pdf))
+* {#Gleason09} Jonathan Gleason, _The $C^*$-algebraic formalism of quantum mechanics_, 2009 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/Gleason.pdf), [[GleasonAlgebraic.pdf:file]])
 
 * {#Hardy01} [[Lucien Hardy]], _Quantum Theory From Five Reasonable Axioms_ ([arXiv:quant-ph/0101012](https://arxiv.org/abs/quant-ph/0101012))
 
