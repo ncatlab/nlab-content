@@ -16,7 +16,7 @@
 
 ## Idea
 
-The _smooth Serre-Swan theorem_ ([Nestruev 03, 11.33](#Nestruev03)) states that over a [[smooth manifold]] $X$, 
+The _smooth Serre-Swan theorem_ ([Nestruev 03, 11.33](#Nestruev03)) states that over a connected [[smooth manifold]] $X$, 
 
 1. the [[section]] [[functor]]
 
