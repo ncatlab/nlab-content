@@ -7,5 +7,11 @@ textbook on [[string theory]]
 
 * [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], _String theory and M-theory: a modern introduction_,  Cambridge University Press (2006)
 
+## related $n$Lab entries
+
+* [[non-perturbative effect]]
+
+* [[BFSS matrix model]]
+
 
 category: people
