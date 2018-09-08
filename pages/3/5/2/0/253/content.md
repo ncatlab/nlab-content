@@ -31,7 +31,17 @@ A **bicategory** $B$ consists of
 *  For each pair of $0$-cells $x,y$, a [[category]] $B(x,y)$, whose objects are called __[[morphisms]]__ or __$1$-cells__ and whose morphisms are called __[[2-morphisms]]__ or __$2$-cells__;
 *  For each $0$-cell $x$, a distinguished $1$-cell $1_x\in B(x,x)$ called the __[[identity morphism]]__ or __identity $1$-cell__ at $x$;
 *  For each triple of $0$-cells $x,y,z$, a functor ${\circ}\colon B(y,z)\times B(x,y) \to B(x,z)$ called __[[horizontal composition]]__;
-*  For each pair of $0$-cells $x,y$, [[natural isomorphisms]] called __[[unitors]]__: $id_{B(x,y)} \circ const_{1_x} \cong id_{B(x,y)} \cong const_{1_y} \circ id_{B(x,y)}\colon B(x,y) \to B(x,y)$; and
+*  For each pair of $0$-cells $x,y$, [[natural isomorphisms]] called __[[unitors]]__: $\left(
+\begin{array}{rcl}
+f&\mapsto&f \circ 1_x\\
+\theta&\mapsto&\theta \circ 1_{1_x}
+\end{array}
+\right)  \cong id_{B(x,y)} \cong \left(
+\begin{array}{rcl}
+f&\mapsto&1_x\circ f\\
+\theta&\mapsto&1_{1_x} \circ \theta
+\end{array}
+\right):B(x,y)\rightarrow B(x,y)$
 *  For each quadruple of $0$-cells $w,x,y,z$, a natural isomorphism called the __[[associator]]__ between the two functors from $B_{y,z} \times B_{x,y} \times B_{w,x}$ to $B_{w,z}$ built out of ${\circ}$; such that
 *  Such that the [[pentagon identity]] is satisfied by the [[associators]].
 *  And such that the triangle identity is satisfied by the [[unitors]].
