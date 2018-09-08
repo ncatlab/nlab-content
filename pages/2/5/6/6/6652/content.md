@@ -9,4 +9,6 @@
 
 * [[M-theory lift of gauge enhancement on D6-branes]]
 
+* [[BFSS matrix model]]
+
 category: people
