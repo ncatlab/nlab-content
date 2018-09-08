@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -30,6 +31,14 @@ States in the [[Schrödinger picture]] describe the state of the world at any gi
 
 The precise mathematical notion of _state_ depends on what mathematical formalization of mechanics is used.
 
+### Algebraic definition
+ {#AlgebraicDefinition}
+
+Quite generally, both in [[classical physics]] as well as in [[quantum physics]], one may define states as assignments of [[expectation values]] to [[observables]] in an [[algebra of observables]]. This is the definition used in _[[quantum probability theory]]_ (which subsumes ordinary [[probability theory]]). See at 
+
+* _[[state in AQFT and operator algebra]]_
+
+for details.
 
 ### In classical mechanics
 
