@@ -9,6 +9,7 @@
 =--
 
 
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -23,7 +24,7 @@ A _thin homotopy_ between paths $f,g: I \to X$ in a [[topological space]] $X$ (w
 
 A (smooth) [[homotopy (as a transformation)|homotopy]] $F: I \times I \to X$ between smooth paths in a [[smooth space]] $X$  is called **thin** if the rank of its differential $d F(s,t): T_{s,t} I \times I \to T_{F(s),F(t)} X$ is less than 2 for all $s,t \in I \times I$.
 
-(More here...)
+(More to go here...)
 
 ### Thin homotopies in topological spaces ##
 
