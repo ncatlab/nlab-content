@@ -14,12 +14,7 @@
 
 \begin{rmk} When we think of the category of cubical sets as the category of presheaves of sets on $\square$, we consequently think of a cubical set as a presheaf of sets on $\square$. \end{rmk}
 
-+-- {: .num_defn}
-###### Definition
-
-A _morphism_ of cubical sets is an arrow of $\mathsf{Set}^{\square^{op}}$.
-
-=--
+\begin{defn} A _morphism_ of cubical sets is an arrow of $\mathsf{Set}^{\square^{op}}$. \end{defn}
 
 ## Monoidal structure
 
