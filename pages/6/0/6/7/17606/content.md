@@ -20,7 +20,7 @@
 
 ## Idea
 
-A _Platonic 2-group_ ([Epa 10](#Epa10)) is a [[2-group]] [[infinity-group extension|higher extension]] of a "Platonic group" in the [[ADE classification]], i.e. of a [[finite group|finite]] [[subgroup]] of the [[special orthogonal group]] $SO(3)$ or else of its [[double cover]], the [[special unitary group]] $SU(2)$.
+A _Platonic 2-group_ ([Epa 10](#Epa10)) is a [[2-group]] [[infinity-group extension|higher extension]] of a "Platonic group" in the [[ADE classification]], i.e. of a [[finite subgroup of SO(3)]] or else of its [[double cover]], hence a [[finite subgroup of SU(2)]].
 
 [[!include ADE -- table]]
 
@@ -28,11 +28,12 @@ A _Platonic 2-group_ ([Epa 10](#Epa10)) is a [[2-group]] [[infinity-group extens
 ## Properties
 
 ### Relation to the string 2-group
+ {#RelationToTheString2Group}
 
 +-- {: .num_prop #UniversalPlatonic2GroupIsRestrictionOfString2}
 ###### Proposition
 
-The universal Platonic 2-group extensions $\mathcal{G}_{uni}[i]$ of finite subgroups $G_{ADE}$ of $SU(2)$ by $U(1)$ ([Epa-Ganter 16, def.2.11](#EpaGanter16)) are equivalently the restrictions of the [[string 2-group]] extension $String(SU(2)) \to SU(2)$ of $SU(2)$, hence the classifying [[cocycle]] is the restriction of the smooth [[second Chern class]]:
+The universal Platonic 2-group extensions $\mathcal{G}_{uni}[i]$ of  $G_{ADE}$ [[finite subgroups of SU(2)]] by $U(1)$ ([Epa-Ganter 16, def.2.11](#EpaGanter16)) are equivalently the restrictions of the [[string 2-group]] extension $String(SU(2)) \to SU(2)$ of $SU(2)$, hence the classifying [[cocycle]] is the restriction of the smooth [[second Chern class]]:
 
 $$
   \array{
