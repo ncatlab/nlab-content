@@ -85,6 +85,11 @@ The $N=4$-case is discussed in
 
 * {#ChenWu10} Fa-Min Chen, Yong-Shi Wu, _Superspace Formulation in a Three-Algebra Approach to D=3, N=4,5 Superconformal Chern-Simons Matter Theories_, Phys.Rev.D82:106012, 2010 ([arXiv:1007.5157](https://arxiv.org/abs/1007.5157))
 
+More on the role of [[discrete torsion]] in the [[supergravity C-field]] is in
+
+* [[Mauricio Romo]], _Aspects of ABJM orbifolds with discrete torsion_, J. High Energ. Phys. (2011) 2011 ([arXiv:1011.4733](https://arxiv.org/abs/1011.4733))
+
+
 Discussion of [[boundary conditions]] leading to [[brane intersection]] laws with the [[M-wave]], [[black brane|black]] [[M5-brane]] and [[MO9]] is in
 
 * {#ChuSmith09} Chong-Sun Chu, Douglas J. Smith, _Multiple Self-Dual Strings on M5-Branes_, JHEP 1001:001, 2010 ([arXiv:0909.2333](https://arxiv.org/abs/0909.2333))
