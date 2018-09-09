@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -49,6 +50,8 @@ for a given $G$-[[action]] on some [[manifold]] $X$, should coincide with the $G
   \big( X \times_G K \big) \sslash K
   \,.
 \]
+
+(This issue was maybe first highlighted in [Pronk-Scull 07](#PronkScull07)).
 
 This means that if one is to regard orbifold cohomology as a variant of [[Bredon cohomology|Bredon]] [[equivariant cohomology]], then one needs to work "globally" with respect to choices of [[isotropy groups]], in the sense of _[[global equivariant homotopy theory]]_, where one considers equivariance with respect to "all [[compact Lie groups]] at once", in a suitable sense. (This point is highlighted for instance in [Schwede 18, p. ix-x](#Schwede18).)
 
@@ -103,34 +106,114 @@ where in the first step we used the [[factorization lemma]], and the remaining s
 
 In conclusion, if $\mathcal{X}$ is any [[orbifold]], i.e. not necessarily a global homotopy quotient $X_i \sslash G_i$, but locally of this form for each $G_i$ some finite subgroups of $G_{glob}$, then it comes with a canonical [[0-truncated morphism of an (∞,1)-category|0-truncated morphism]] of topological stacks $\mathcal{X} \overset{\rho}{\to} \mathbf{B}G_{glob}$, and so for $\mathcal{A} \overset{}{\to} \mathbf{B}G_{glob} $ any [[coefficient]] [[∞-stack]] in the [[slice (∞,1)-topos|slice]] over $\mathbf{B}G_{glob}$, we may take the global equivariant orbifold cohomology to be given by [[homotopy classes]] of morphisms in the [[slice (∞,1)-topos|slice]]:
 
-$$
+\[
+  \label{CocyclesInTheSlice}
   H_{glob}(\mathcal{X}, \mathcal{A} )
-  \;\simeq\;
+  \;\coloneqq\;
   \pi_0 \mathbf{H}_{/ \mathbf{B}G_{glob}}
   \big(
     \mathcal{X}, \mathcal{A}
   \big)
   \,.
-$$
+\]
 
 Cocycles in this "global equivariant" cohomology are then such that on each  chart of the form $U_i \sslash G_i$ they restrict to cocycles in $G_i$-[[equivariant cohomology]] of $U_i$, in a way that is compatible with the above re-identifications (eq:EquivalenceOfOrbifolds).
 
+Notice that if also the [[coefficient]] $\mathcal{A} \overset{}{\to} \mathbf{B} G_{glob}$ is [[faithful functor|faithful]] ([[0-truncated morphism of an (∞,1)-category|0-truncated]]) as an object in the [[slice (∞,1)-topos|slice]], then, by the [[orthogonal factorization system|orthogonality]] of the [[(n-connected, n-truncated) factorization system]] for $n = 0$, there is a [[contractible space]] of [[homotopies]] $\phi$ in the data for a cocycle
 
+$$
+  \array{
+    \mathcal{X} 
+      && 
+      \overset{ \phantom{AA} c \phantom{AA} }{\longrightarrow} && 
+    \mathcal{A}
+    \\
+    & {}_{\mathllap{\rho}}\searrow &\swArrow_{\phi}& \swarrow_{\mathrlap{f}}
+    \\
+    && \mathbf{B}G_{glob}
+  }
+  \phantom{AAA}
+  =
+  \phantom{AAA}
+  \array{
+    \mathcal{X} 
+      &\overset{ \phantom{A} c \phantom{A} }{\longrightarrow}& 
+    \mathcal{A}
+    \\
+    {}^{=}\big\downarrow & \swArrow_{\exists !} & \big\downarrow{}^{\mathrlap{f}}
+    \\
+    \mathcal{X} 
+      &\underset{ \phantom{A} \rho \phantom{A} }{\longrightarrow}&
+    \mathbf{B}G_{glob}
+  }
+$$
+
+Moreover, in this case the cocyle morphism $c$ itself is necessarily [[faithful functor|faithful]] ([[0-truncated morphism of an (∞,1)-category|0-truncated]]). This means that the [[full sub-(∞,1)-category]] of the [[slice (∞,1)-category]] on the [[0-truncated morphism of an (∞,1)-category|fatihful/0-truncated morphisms]] is equivalently the non-full sub $\infty$-category of the corresponding domain [[∞-stacks]], but with [[0-truncated morphism of an (∞,1)-category|fatihful/0-truncated morphisms]] between them:
+
+\[
+  \label{Faithful}
+  \mathbf{H}_{/\mathbf{B}G_{glob}}
+  \big(
+    \mathcal{X}, \mathcal{A}
+  \big)
+  \;\simeq\;
+  \mathbf{H}^{faith}
+  \big(
+    \mathcal{X}, \mathcal{A}
+  \big)
+  \,,
+\]
+
+which hence gives an equivalent description of the global equivariant orbifold cohomology in (eq:CocyclesInTheSlice).
+
+This perspective paves the way to the equivalent description in terms of systems of fixed point loci:
+
+$\,$
 
 ### In terms of systems of fixed point loci
 
-A key point of [[global equivariant homotopy theory]] is to generalize [[Elmendorf's theorem]] to this global situation, and express maps between [[topological stacks]], as above, in terms of [[(∞,1)-presheaves]] of [[fixed point]]-loci parameterized over on a suitable [[orbit category]]. In [[global equivariant homotopy theory]] the plain [[orbit category]] $Orb_G$ used in $G$-[[equivariant cohomology|equivariant]] [[Bredon cohomology]] is replaced by the [[global orbit category]] $Orb_{glb}$ whose [[objects]] are the [[delooping]] [[stacks]] $\mathbf{B}G \coloneqq \ast\sslash G$, and then any [[orbifold]] $\mathcal{G}$ becomes an [[(∞,1)-presheaf]] $y \mathcal{G}$ over $Orb_{glb}$ by the evident "external [[Yoneda embedding]]"
+A key point of [[global equivariant homotopy theory]] is to generalize [[Elmendorf's theorem]] to this global situation, and express maps between [[topological stacks]], as above, in terms of [[(∞,1)-presheaves]] of [[fixed point]]-loci parameterized over on a suitable [[orbit category]]. 
+
+In [[global equivariant homotopy theory]] the plain [[orbit category]] $Orb_G$ used in $G$-[[equivariant cohomology|equivariant]] [[Bredon cohomology]] is replaced by the [[global orbit category]] $Orb_{glb}$ whose [[objects]] are the [[delooping]] [[stacks]] $\mathbf{B}G \coloneqq \ast\sslash G$ and whose morphisms are the [[faithful functor|faithful]]/[[0-truncated morphism of an (∞,1)-category|0-truncated]] morphisms between these. Then any [[stack]] $\mathcal{X}$ ([[orbifold]], [[orbispace]]) becomes an [[(∞,1)-presheaf]] $y \mathcal{X}$ over $Orb_{glb}$ by the evident "external [[Yoneda embedding]]"
 
 $$
-  y \mathcal{G}
+  y \mathcal{X}
   \;\coloneqq\;
-  \mathbf{H}( \mathbf{B}G, \mathcal{G} )
+  \mathbf{H}^{faith}( \mathbf{B}G, \mathcal{X} )
   \,.
 $$
 
-More generally, this makes sense for $\mathcal{G}$ any [[orbispace]]. In fact, as a construction of an [[(∞,1)-presheaf]] on $Orb_{glb}$ it makes sense for $\mathcal{G}$ any [[∞-stack]], but supposedly precisely if $\mathcal{G}$ is an [[orbispace]] among all [[∞-stacks]] does the [[cohomology]] of $y \mathcal{G}$ in the sense of [[global equivariant homotopy theory]] coincide the cohomology of $\mathcal{G}$ in the intended sense of [[∞-stacks]], in particular reproducing the intended sense of orbifold cohomology. 
+([Henriques-Gepner 07, 4.1](#HenriquesGepner07), [Rezk 14, 4.5](#Rezk14))
 
-At least for [[topological stack|topological]] [[orbifolds]] this is indicated in ([Schwede 17, Introduction](#Schwede17), [Schwede 18, p. ix-x](#Schwede18), see also [Pronk-Scull 07](#PronkScull07))
+Notice that, by the condition of faithfulness, a morphism of the form $\ast \to \mathbf{B}G \to \mathcal{X}$ necessarily hits a $G$-[[fixed point]] of $\mathcal{X}$, i.e. a point whose [[isotropy group]] contains $G$. In this sense $y \mathcal{X}$ is the _global system of fixed point loci_ of $\mathcal{X}$.
+
+
+The generalization of [[Elmendorf's theorem]] to global equivariant homotopy theory, hence to the application of orbifold cohomology, is now the statement that this construction induces [[equivalence in an (∞,1)-category|equivalences]] of cocycle [[∞-groupoids]]
+
+\[
+  \label{GlobalElmendorfTheorem}
+  \mathbf{H}^{faith}
+  \big(
+    \mathcal{X}, \mathcal{A}
+  \big)
+  \;\simeq\;
+  PSh_{\infty}(Orb_{glb}) ( y \mathcal{X}, y \mathcal{X} )
+  \,.
+\]
+
+This is the staement of [Henriques-Gepner 07, main theorem (4) on p. 5 in version (2) according to p. 8](#HenriquesGepner07).
+With particular emphasis on its application to orbifold cohomology, this is highlighted in ([Schwede 17, Introduction](#Schwede17), [Schwede 18, p. ix-x](#Schwede18)). See also [Rezk 14, section 4](#Rezk14).
+
+In summary, under the _Gepner-Henriques global Elmendorf theorem_, the definition of global equivariant orbifold cohomology according to (eq:CocyclesInTheSlice) becomes equivalent, via (eq:Faithful) and (eq:GlobalElmendorfTheorem), to the cohomology in  the [[(∞,1)-topos]] over the [[global orbit category]]
+
+$$
+  H(\mathcal{X}, \mathcal{A})
+  \;\;\simeq\;\;
+  \pi_0
+  PSh_\infty(Orb_{glb})( y\mathcal{X}, y \mathcal{A} )
+  \,.
+$$
+
 
 
 
@@ -153,6 +236,14 @@ Discussion of orbifold cohomology in the context of [[Bredon cohomology|Bredon]]
 * {#Schwede17} [[Stefan Schwede]], _Orbispaces, orthogonal spaces, and the universal compact Lie group_ ([arXiv:1711.06019](https://arxiv.org/abs/1711.06019))
 
 * {#Schwede18} [[Stefan Schwede]], _[[Global homotopy theory]]_ ([arXiv:1802.09382](https://arxiv.org/abs/1802.09382))
+
+related to results of
+
+* {#HenriquesGepner07} [[André Henriques]], [[David Gepner]], _Homotopy Theory of Orbispaces_ ([arXiv:math/0701916](http://arxiv.org/abs/math/0701916))
+
+* {#Rezk14} [[Charles Rezk]], _[[Global Homotopy Theory and Cohesion]]_, 2014
+
+
 
 See also
 
