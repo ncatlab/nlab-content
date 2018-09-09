@@ -61,6 +61,10 @@ The original article on the $N=6$-case is
 
 * {#ABJM08} [[Ofer Aharony]], Oren Bergman, Daniel Louis Jafferis, [[Juan Maldacena]], _$N=6$ superconformal Chern-Simons-matter theories, M2-branes and their gravity duals_, JHEP 0810:091,2008, [DOI:10.1088/1126-6708/2008/10/091](http://iopscience.iop.org/article/10.1088/1126-6708/2008/10/091/meta;jsessionid=FCE6764D4E19F3038C9530E50B057A56.c3.iopscience.cld.iop.org) ([arXiv:0806.1218](http://arxiv.org/abs/0806.1218))
 
+and for [[discrete torsion]] in the [[supergravity C-field]] in
+
+* [[Ofer Aharony]], Oren Bergman, Daniel Louis Jafferis, _Fractional M2-branes_, JHEP 0811:043,2008 ([arXiv:0807.4924](https://arxiv.org/abs/0807.4924))
+
 inspired by the $N=8$-case of the [[BLG model]]
 
 * {#BaggerLambert06} [[Jonathan Bagger]], [[Neil Lambert]], _Modeling Multiple M2's_, Phys. Rev. D75, 045020 (2007). ([hep-th/0611108](http://arxiv.org/abs/hep-th/0611108)). 
@@ -95,6 +99,9 @@ Review includes
 * Neil B. Copland, _Introductory Lectures on Multiple Membranes_ ([arXiv:1012.0459](https://arxiv.org/abs/1012.0459))
 
 * {#BaggerLambertMukhiPapageorgakis13} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 2013 ([arXiv:1203.3546](https://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
+
+* {#Lambert18} [[Neil Lambert]], _M-Branes: Lessons from M2’s and Hopes for M5’s_,  talk at _[Higher Structures in M-Theory, Durham, August 2018](http://www.maths.dur.ac.uk/lms/109/index.html)_ ([pdf slides](http://www.maths.dur.ac.uk/lms/109/talks/1877lambert.pdf), [video recording](http://www.maths.dur.ac.uk/lms/109/movies/1877lamb.mp4))
+
 
 Discussion of extension to [[boundary field theory]] (describing [[M2-branes]] ending on [[M5-branes]]) includes
 
