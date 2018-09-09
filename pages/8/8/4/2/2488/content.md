@@ -724,8 +724,8 @@ A classical article that amplifies the expression of Postnikov towers in terms o
 
 Discussion in the context of [[homotopy type theory]] is in 
 
-* [[Guillaume Brunerie]], _Truncations and truncated higher inductive types_ ([web](http://homotopytypetheory.org/2012/09/16/truncations-and-truncated-higher-inductive-types/))
- {#Brunerie}
+* {#Brunerie} [[Guillaume Brunerie]], _Truncations and truncated higher inductive types_ ([web](http://homotopytypetheory.org/2012/09/16/truncations-and-truncated-higher-inductive-types/))
+ 
 
 [[!redirects n-truncated object of an (infinity,1)-category]]
 [[!redirects n-truncated object of an (∞,1)-category]]
@@ -751,3 +751,20 @@ Discussion in the context of [[homotopy type theory]] is in
 [[!redirects truncated object in an (∞,1)-topos]]
 
 [[!redirects n-truncated object of an infinity-category]]
+
+
+[[!redirects n-truncated morphism of an (∞,1)-category]]
+[[!redirects n-truncated morphism in an (infinity,1)-category]]
+[[!redirects n-truncated morphism in an (∞,1)-category]]
+[[!redirects n-truncated morphisms in an (infinity,1)-category]]
+[[!redirects n-truncated morphisms in an (∞,1)-category]]
+
+
+[[!redirects 0-truncated morphism of an (∞,1)-category]]
+[[!redirects 0-truncated morphism in an (infinity,1)-category]]
+[[!redirects 0-truncated morphism in an (∞,1)-category]]
+[[!redirects 0-truncated morphisms in an (infinity,1)-category]]
+[[!redirects 0-truncated morphisms in an (∞,1)-category]]
+
+
+
