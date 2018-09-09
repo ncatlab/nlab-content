@@ -251,15 +251,18 @@ A discussion of $\sigma$-models of higher gauge theory type is at
 
 * [[Urs Schreiber]], _[[schreiber:infinity-Chern-Simons theory]]_ .
 
-Concrete applications of $\sigma$-models with target [[stacks]] (typically smooth ones, hence [[smooth groupoids]]) in [[string theory]] and [[supergravity]] are discussed for instance in
+Concrete applications of $\sigma$-models with target [[stacks]] (typically smooth ones, hence [[smooth groupoids]], and typically smooth [[gerbes]] among these) in [[string theory]] and [[supergravity]] are discussed in
 
 * [[Tony Pantev]], [[Eric Sharpe]], _String compactifications on Calabi-Yau stacks_, Nucl.Phys. B733 (2006) 233-296, ([arXiv:hep-th/0502044](http://arxiv.org/abs/hep-th/0502044))
 
-* [[Tony Pantev]], [[Eric Sharpe]], _Gauged linear sigma-models for gerbes (and other toric stacks)_, ([arXiv:hep-th/0502053](http://arxiv.org/abs/hep-th/0502053))
- {#PantevSharpe}
+* {#PantevSharpe} [[Tony Pantev]], [[Eric Sharpe]], _Gauged linear sigma-models for gerbes (and other toric stacks)_, Adv.Theor.Math.Phys. 10 (2006) 77-121 ([arXiv:hep-th/0502053](http://arxiv.org/abs/hep-th/0502053))
+ 
+* {#HellermanSharpe} S. Hellerman, [[Eric Sharpe]], _Sums over topological sectors and quantization of Fayet-Iliopoulos parameters_, ([arXiv:1012.5999](http://arxiv.org/abs/1012.5999))
 
-* S. Hellerman, [[Eric Sharpe]], _Sums over topological sectors and quantization of Fayet-Iliopoulos parameters_, ([arXiv:1012.5999](http://arxiv.org/abs/1012.5999))
- {#HellermanSharpe}
+with review in 
+
+* [[Eric Sharpe]], _Sigma models on gerbes_, talk at _[Higher Structures in M-Theory, Durham, August 2018](http://www.maths.dur.ac.uk/lms/109/index.html)_ ([pdf slides](http://www.maths.dur.ac.uk/lms/109/talks/1864sharpe.pdf), [video recording](http://www.maths.dur.ac.uk/lms/109/movies/1864shar.mp4))
+
 
 Discussion of [[geometric Langlands duality]] in terms of 2d sigma-models on stacks ([[moduli stacks]] of [[Higgs bundles]] over a given [[algebraic curve]]) is in 
 
