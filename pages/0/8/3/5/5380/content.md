@@ -282,7 +282,7 @@ $$
   }
 $$
 
-and here the first map is the [[embedding of topological spaces|embedding]] of the disk $D^{2n+2}$ as a [[hemisphere]] in $\mathbb{R}^{2n+1} \hookrightarow \mathbb{R}^{2n+2} \simeq \mathbb{C}^{2n+2}$, while the second is the defining quotient space projection.
+and here the first map is the [[embedding of topological spaces|embedding]] of the disk $D^{2n+2}$ as a [[hemisphere]] in $\mathbb{R}^{2n+1} \hookrightarrow \mathbb{R}^{2n+2} \simeq \mathbb{C}^{2n+2}$, while the second is the defining quotient space projection.
 Both of these are continuous, and hence so is their composite.
 
 The only remaining part of the action of $\mathbb{C}-\{0\}$ which fixes the conditions ${\vert z'\vert} = 0$ and $z'_{n+2}$ is
