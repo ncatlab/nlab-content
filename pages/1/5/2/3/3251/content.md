@@ -83,18 +83,23 @@ For $\mathcal{C}$ an [[abelian category]] this definition reduces ([Barwick 14](
 
 * [[equivariant sphere spectrum]], [[equivariant stable cohomotopy]]
 
-* [[KR cohomology theory]]
-
 * [[equivariant connective topological K-theory]]
+
+[[!include Segal completion -- table]]
+
+
+* [[KR cohomology theory]]
 
 * [[equivariant complex cobordism cohomology theory]]
 
 * [[equivariant Morava K-theory]]
 
+
+
 ## Equivariant cohomology
 
 
-The notion of [[cohomology]] relevant in equivariant stable homotopy theory is the flavor of [[equivariant cohomology]] (see there for details) called [[Bredon cohomology]].
+The notion of [[cohomology]] relevant in equivariant stable homotopy theory is the flavor of [[equivariant cohomology]] (see there for details) called [[Bredon cohomology]]. (See also at _[[orbifold cohomology]]_.)
 
 ## Related concepts
 
