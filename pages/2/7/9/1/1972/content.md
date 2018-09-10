@@ -43,6 +43,8 @@ $$
   \,.
 $$
 
+[[!include Segal completion -- table]]
+
 ## Properties
 
 ### Relation to the character ring
@@ -86,6 +88,10 @@ The completion of $Rep(Spin(2k))$ is $\mathbb{Z}[ [ e^{\pm x_j} ] ]$ for $1 \leq
 * [[Deligne's theorem on tensor categories]]
 
 ## References
+
+Exposition in relation to [[equivariant K-theory]]:
+
+* [[Akhil Mathew]], _[Equivariant K-theory](https://amathew.wordpress.com/2011/12/03/equivariant-k-theory/)_
 
 Classical results for [[compact Lie groups]]:
 
