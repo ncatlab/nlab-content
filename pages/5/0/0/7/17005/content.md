@@ -40,26 +40,32 @@ See at _[quaternionic Hopf fibration --  Class in equivariant stable homotopy th
 
 ### Of the point: The Burnside ring
 
-The equivariant stable cohomotopy of the point is equivalently the [[Burnside ring]]:
++-- {: .num_prop #BurnsideRingIsEquivariantStableCohomotopyOfPoint}
+###### Proposition
+**([[Burnside ring is equivariant stable cohomotopy of the point]])**
+
+Let $G$ be a [[finite group]], then its [[Burnside ring]] $A(G)$ is [[isomorphism|isomorphic]] to the [[equivariant stable cohomotopy]] [[cohomology ring]] $\mathbb{S}_G(\ast)$ of the [[point]] in degree 0. 
 
 $$
-  A(G) \simeq \mathbb{S}_G(\ast)
+  A(G) \overset{\simeq}{\longrightarrow} \mathbb{S}_G(\ast)
   \,.
 $$
 
-This is due to [Segal 71](#Segal71), see also [Lück 05, theorem 1.13](#Lueck05), [tom Dieck-Petrie 78](#tomDieckPetrie78)
+=--
 
-More explicitly, the Burnside ring of a group $G$ is isomorphic to the [[colimit]]
+This is due to [Segal 71](#Segal71), a detailed proof is given by [tom Dieck 79, theorem 8.5.1](#tomDieck79). See also [Lück 05, theorem 1.13](#Lueck05), [tom Dieck-Petrie 78](#tomDieckPetrie78).
+
+[[!include Segal completion -- table]]
+
+
+More explicitly, this means that the Burnside ring of a group $G$ is isomorphic to the [[colimit]]
 
 $$
   A(G) \simeq \underset{\longrightarrow}{\lim}_V [S^V,S^V]_G
 $$
 
-over $G$-[[representations]] in a complete [[G-universe]], of $G$-[[homotopy classes]] of $G$-equivariant based [[continuous functions]] from the [[representation sphere]] $S^V$ to itself.
+over $G$-[[representations]] in a complete [[G-universe]], of $G$-[[homotopy classes]] of $G$-equivariant based [[continuous functions]] from the [[representation sphere]] $S^V$ to itself ([Greenlees-May 95, p. 8](#GreenleesMay95)).
 
-([Greenlees-May 95, p. 8](#GreenleesMay95))
-
-[[!include Segal completion -- table]]
 
 
 ## Related concepts
@@ -77,6 +83,8 @@ Relation to [[Burnside ring]]
 * {#Segal71} [[Graeme Segal]], _Equivariant stable homotopy theory_, In Actes du Congr&egrave;s International des Math &eacute;maticiens (Nice, 1970), Tome 2 , pages 59–63. Gauthier-Villars, Paris, 1971
 
 * {#tomDieckPetrie78} [[Tammo tom Dieck]], T, Petrie,  _Geometric modules over the Burnside ring_, Invent. Math. 47 (1978) 273-287 ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/tomDieck-geometric.pdf))
+
+* {#tomDieck79} [[Tammo tom Dieck]], _[[Transformation Groups and Representation Theory]]_, Springer 1979
 
 Relation to [[Segal-Carlsson completion theorem]]:
 
