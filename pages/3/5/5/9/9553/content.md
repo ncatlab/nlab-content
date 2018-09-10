@@ -87,7 +87,9 @@ This goes back to ([Green 82](#Green82)), ([Julg 81](#Julg81)). A [[KK-theory]]-
 
 ## Related theorems
 
-* [[Atiyah-Segal completion theorem]]
+* [[Atiyah-Segal completion theorem]], [[Green-Julg theorem]]
+
+[[!include Segal completion -- table]]
 
 ## References
 
