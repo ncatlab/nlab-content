@@ -38,16 +38,16 @@ The Catalan numbers $C_n$ count a myriad of different families of objects, inclu
 
 * [[monotone functions]] $f : [n] \to [n]$ such that $f(0) = 0$ and $x \le f(x)$ for all $0 \le x \le n$, or in other words, [[pointed endomorphisms]] $[n] \to [n]$ in $\Delta_\bot$ (the sub-2-category of the [[simplex category|simplex 2-category]] $\Delta$ spanned by the first-element-preserving functions); 
 
-* "mountain ranges", i.e., functions $f: [2n] \to \mathbb{N}$ such that $f(0) = 0 = f(2n)$ and $f(j+1) - f(j) \in \{1, -1\}$ for $0 \leq j \lt 2n$ (graphs of such depicting mountain ranges); 
+* "mountain ranges", i.e., functions $f: [2n] \to \mathbb{N}$ such that $f(0) = 0 = f(2n)$ and $f(j+1) - f(j) \in \{1, -1\}$ for $0 \leq j \lt 2n$ (so called because graphs of such depict mountain ranges); 
 
 * "stay-ahead races", i.e., functions $f: [2n] \to \{1, -1\}$ such that $\sum_{i=0}^j f(i) \gt 0$ for $0 \leq j \leq 2n$, and $\sum_{i=0}^{2n} f(i) = 1$ (see below for explanation of terminology); 
 
 and many, many more besides (see the [Stanley](#Stanley2015) references and OEIS [A000108](#a000108)).
 
 
-## Some natural bijections 
+## Some structural bijections 
 
-In this section we describe natural isomorphisms between various structures named above. 
+In this section we describe some "canonical" isomorphisms between various structures named above. 
 
 ### Rooted planar binary trees and magma words 
 
@@ -88,9 +88,11 @@ Continuing recursively in this manner, every word $a \in Mag(x)$ can be eventual
 
 * If $w_1, w_2, \ldots, w_n$ are reduced forms, then so is $x^{w_1 w_2 \ldots w_n}$. 
 
-The reader who is following where this is going will have observed that this recursive description of reduced forms matches precisely the recursive description of rooted planar trees, formalized by saying the set $Tree$ of isomorphism classes of rooted planar trees is the least fixed point, or initial algebra, of the endofunctor $T \mapsto 1 + T^\ast$ on $Set$. 
+The reader who is following where this is going will have observed that this recursive description of reduced forms matches precisely the recursive description of rooted planar trees, formalized by saying the set $Tree$ of isomorphism classes of rooted planar trees is the least fixed point, or [[initial algebra of an endofunctor|initial algebra]], of the [[endofunctor]] $T \mapsto T^\ast$ on $Set$. 
 
-To put it more visually: let us designate the term $x$ appearing as the base of a reduced form $x^{w_1 \ldots w_n}$ as the root of a corresponding tree. (If the reduced form is just $x$, then that $x$ is designated the root of a tree consisting of only a root.) The reduced forms $w_i$ themselves have roots, and we draw an edge connecting those roots to the root $x$ appearing in the base. Continuing, we climb recursively up the stacked exponentials, eventually obtaining a structure of rooted planar tree from a reduced form. In fact, there is no harm in identifying rooted planar trees with reduced forms. 
+To put it more visually: let us designate the term $x$ appearing as the base of a reduced form $x^{w_1 \ldots w_n}$ as the root of a corresponding tree. (If the reduced form is just $x$, then that $x$ is designated the root of a tree consisting of only a root.) The reduced forms $w_i$ themselves have roots, and we draw an edge connecting those roots to the root $x$ appearing in the base. Continuing this pattern, we climb recursively up the stacked exponentials, eventually obtaining a structure of rooted planar tree from a reduced form, whose vertices are just the instances of $x$ appearing in the reduced form. 
+
+In fact, there is no harm in identifying rooted planar trees with reduced forms, and we will repeatedly use this identification below. 
 
 Letting $Red(w)$ denote the reduced form of a magma word $w \in Mag(x)$, we thus have the following result. 
 
@@ -121,9 +123,9 @@ We define $Moun: Tree^\ast \to Range$, from the free monoid on trees to mountain
 
 * If $Moun(w_1), \ldots Moun(w_n)$ have been defined for reduced forms $w_1, \ldots, w_n$, then 
 
-* * $Moun(w_1 \ldots w_n) = Moun(w_1) \ast \ldots \ast Moun(w_n)$, as a function $[2k] \to \mathbb{N}$ for some $k$, in which case 
+  * $Moun(w_1 \ldots w_n) = Moun(w_1) \ast \ldots \ast Moun(w_n)$, as a function $[2k] \to \mathbb{N}$ for some $k$, in which case 
 
-* * $Moun(x^{w_1 \ldots w_n}): [2(k+1)] \to \mathbb{N}$ takes $j$ for $1 \leq j \leq 2k+1$ to $1 + Moun(w_1 \ldots w_n)(j-1)$. 
+  * $Moun(x^{w_1 \ldots w_n}): [2(k+1)] \to \mathbb{N}$ takes $j$ for $1 \leq j \leq 2k+1$ to $1 + Moun(w_1 \ldots w_n)(j-1)$. 
 
 Then define $\rho: Tree \to Range$ to be the mapping that takes a tree $T = x^w$ to $Moun(w)$. 
 
@@ -166,6 +168,41 @@ The mapping $f \mapsto \lambda(f)$ defines a bijection $Range_n \to Path_n$.
 
 The inverse mapping takes an element $(g_1, g_2) \in Path_n$ to the mountain range defined by $j \mapsto g_2(j) - g_1(j)$. A key observation is that the injectivity of $g = (g_1, g_2)$ forces each step of the path to go just one step (or block) north or just one block east, so that the difference between $g_2(j+1) - g_1(j+1)$ and $g_2(j) - g_1(j)$ always lies in $\{1, -1\}$. 
 
+
+## Structural enumeration 
+
+The bijections of the last section indicate that all of the structures named above are counted by the same quantity $C_n$. There are several ways of establishing the binomial expressions for $C_n$ mentioned above. 
+
+### Method 1
+
+A tried-and-true approach (explained in [Baez-Dolan](#bd)) is by means of generating functions. To enumerate rooted planar binary trees with $n$ internal indices, use the fact that there is just one such tree where $n=0$ (i.e., $C_0 = 1$), and that in the case $n \gt 0$, each tree $T$ is determined by a pair $(T_l, T_r)$ consisting of a left tree and right tree adjacent to the root; if $T_l$ has $n_l$ internal vertices and $T_r$ has $n_r$ internal vertices, then $n = n_l + n_r + 1$. Hence for $n \geq 0$ we have the recursive equation 
+
+$$C_{n+1} = \sum_{j + k = n} C_j C_k.$$ 
+
+Letting $C(x) = \sum_{n \geq 0} C_n x^n$ be the generating function (really a formal power series), the recursion leads to 
+
+$$C(x) = 1 + x C(x)^2$$ 
+
+which we solve as $C(x) = \frac{1 - \sqrt{1 - 4x}}{2x}$ in the formal power series sense. Starting with the [[binomial theorem]] to expand $(1 - 4x)^{1/2}$ as a power series, a series of (somewhat tedious and unilluminating) manipulations eventually leads to the calculation 
+
+$$C_n = \frac1{n+1}\binom{2n}{n}.$$ 
+
+### Method 2
+
+A more structural derivation can be obtained by counting stay-ahead races, in the following manner. Let $S_n$ be the set of functions $f: [2n] \to \{1, -1\}$ for which $\sum_{i=0}^{2n} f(i) = 1$. Each such $f$ takes the value $1$ a total of $n+1$ times, and the value $-1$ a total of $n$ times, so the cardinality of $S_n$ is $\binom{2n}{n}$. 
+
+We let the [[cyclic group]] $\mathbb{Z}/(2n+1)$ [[group action|act]] on $S_n$, by precomposing functions $f: [2n] \to \{1, -1\}$ with powers of the cyclic [[permutation]] 
+
+$$(0\; 1\; \ldots\; 2n): [2n] \to [2n].$$ 
+
+The number of stay-ahead races in $Race_n$ is seen to be $C_n = \frac1{2n+1}\binom{2n+1}{n}$, as soon as we establish the following result. 
+
++-- {: .num_prop} 
+###### Proposition 
+Each [[orbit]] of the cyclic group action on $S_n$ contains exactly one stay-ahead race, and has exactly $2n+1$ elements. 
+=-- 
+
+
 ## Related concepts
 
 * [[associahedron]]
@@ -179,6 +216,6 @@ The inverse mapping takes an element $(g_1, g_2) \in Path_n$ to the mountain ran
 
 For an interpretation in terms of [[species]] (or *structure types*) see
 
-* [[John Baez]], [[James Dolan]], _From Finite Sets to Feynman Diagrams_, ([arXiv:math/0004133](https://arxiv.org/abs/math/0004133), p. 19).
+* {#bd} [[John Baez]], [[James Dolan]], _From Finite Sets to Feynman Diagrams_, ([arXiv:math/0004133](https://arxiv.org/abs/math/0004133), p. 19).
 
 [[!redirects Catalan numbers]]
