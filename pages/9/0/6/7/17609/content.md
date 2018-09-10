@@ -8,6 +8,7 @@
 
 * [[M2-brane]]
 
+* [[intersecting D-brane model]]
 
 
 category: people
