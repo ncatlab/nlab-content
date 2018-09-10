@@ -24,9 +24,13 @@ $$
 
 from the [[equivariant K-theory]] of $X$ to the ordinary [[topological K-theory]] of the [[homotopy quotient]] ([[Borel construction]]).
 
-While this map is never an [[isomorphism]] unless $G$ is the trivial group, the _Atiyah-Segal completion theorem_ says that this map exhibits $K(X//G)$ as the [[formal completion]] of the ring $K_G(X)$ at the [[augmentation ideal]] of the [[representation ring]] of $G$.
+While this map is never an [[isomorphism]] unless $G$ is the [[trivial group]], the _Atiyah-Segal completion theorem_ says that this map exhibits $K(X//G)$ as the [[formal completion]] of the ring $K_G(X)$ at the [[augmentation ideal]] of the [[representation ring]] of $G$ (hence, regarded as a [[ring of functions]], the restriction to an [[infinitesimal neighbourhood]] of the base point).
 
 See also at _[formal completion -- Examples -- Atiyah-Segal theorem](completion+of+a+ring#AtiyahSegalTheorem)_.
+
+The analog stable for [[stable cohomotopy]] is the _[[Segal-Carlsson completion theorem]]_:
+
+[[!include Segal completion -- table]]
 
 ## Consequences
 
