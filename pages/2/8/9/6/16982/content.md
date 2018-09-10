@@ -1,8 +1,17 @@
 
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
 The [[equivariant stable homotopy theory|equivariant]] version of [[connective]] [[topological K-theory]] $ko$ and $ku$.
+
+## Related concepts
+
+* [[equivariant K-theory]]
+
+[[!include Segal completion -- table]]
 
 ## References
 
