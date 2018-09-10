@@ -7,4 +7,6 @@
 
 * [[Burnside ring]]
 
+* [[Burnside ring is equivariant stable cohomotopy of the point]]
+
 category: people
