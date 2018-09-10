@@ -202,6 +202,16 @@ The number of stay-ahead races in $Race_n$ is seen to be $C_n = \frac1{2n+1}\bin
 Each [[orbit]] of the cyclic group action on $S_n$ contains exactly one stay-ahead race, and has exactly $2n+1$ elements. 
 =-- 
 
++-- {: .proof} 
+###### Proof 
+Given $f \in S_n$, form the unique extension $\tilde{f}: \mathbb{Z} \to \{1, -1\}$ that is periodic with period $2n+1$. Let $g = \sigma(f)$ be the unique function such that $g(0) = 0$ and 
+
+$$g(j+1) - g(j) = \tilde{f}(j)$$ 
+
+for all $j \in \mathbb{Z}$. For example, $g(j) = \sum_{0 \leq i \lt j} \tilde{f}(i)$ for all $j \geq 0$. 
+
+Observe (more later...)
+=--
 
 ## Related concepts
 
