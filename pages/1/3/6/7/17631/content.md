@@ -168,6 +168,18 @@ The mapping $f \mapsto \lambda(f)$ defines a bijection $Range_n \to Path_n$.
 
 The inverse mapping takes an element $(g_1, g_2) \in Path_n$ to the mountain range defined by $j \mapsto g_2(j) - g_1(j)$. The injectivity of $g = (g_1, g_2)$ forces each step of the path to go just one step (or block) north or just one block east, corresponding to the fact that the difference between $g_2(j+1) - g_1(j+1)$ and $g_2(j) - g_1(j)$ always lies in $\{1, -1\}$. 
 
+### Monotonic lattice paths and pointed inflationary maps 
+
+Each injective map $g = (g_1, g_2): [2n] \to [n] \times [n]$ determines and is determined by a map $f = \phi(g): [n] \to [n]$ defined as follows: if $0 \leq j \leq n$, then $f(j) = \min \{g_2(k): g_1(k) = j\}$. (The injectivity of $g$ implies that the lattice path crosses each line $x = j$.) 
+
++-- {: .num_prop} 
+###### Proposition 
+The mapping $g \mapsto \phi(g)$ defines a bijection from $Path_n$ to the set $PtInf_n$ consisting of maps $f: [n] \to [n]$ such that $f(0) = 0$ and $j \leq f(j)$ for all $j \in [n]$. 
+=-- 
+
+Indeed, the pointed inflationary conditions on $f$ are direct consequences of the diagonal conditions on $g$. The inverse mapping takes such a function $f$ to the lattice path that proceeds north and east, interpolating through the points 
+
+$$(0, 0)\;\; (0, f(1))\;\; (1, f(1))\;\; (1, f(2))\;\; \ldots\;\; (n, n).$$ 
 
 ## Structural enumeration 
 
