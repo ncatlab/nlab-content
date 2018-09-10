@@ -52,8 +52,7 @@ Reviews and lecture notes include the following:
 
 * Rakibur Rahman, Massimo Taronna, _From Higher Spins to Strings: A Primer_ ([arXiv:1512.07932](https://arxiv.org/abs/1512.07932) )
 
-* Pan Kessel, _The Very Basics of Higher-Spin Theory_ ([arXiv:1702.03694]
-(https://arxiv.org/abs/1702.03694))
+* Pan Kessel, _The Very Basics of Higher-Spin Theory_ ([arXiv:1702.03694](https://arxiv.org/abs/1702.03694))
 
 * Ivan Vuković, _Higher spin theory_ ([arXiv:1809.02179](https://arxiv.org/abs/1809.02179))
 
