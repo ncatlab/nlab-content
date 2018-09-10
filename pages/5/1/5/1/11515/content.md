@@ -10,4 +10,7 @@
 
 * [[equivariant stable homotopy theory]]
 
+* [[persistent homology]]
+
 category: people
+[[!redirects G. Carlsson]]
