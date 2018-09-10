@@ -27,7 +27,7 @@
 
 The [[equivariant cohomology|equivariant]] [[generalized cohomology theory]] which is [[Brown representability theorem|represented]] by the [[equivariant sphere spectrum]] may also be called _equivariant stable cohomotopy_, as it is the [[equivariant stable homotopy theory]] version of [[stable cohomotopy]], hence of [[cohomotopy]].
 
-Just as the plain [[sphere spectrum]] is a distinguishe dobject of plain [[stable homotopy theory]], so thre [[equivariant sphere spectrum]] is distinguished in [[equivariant stable homotopy theory]] and hence so is equivariant stable cohomotopy theory.
+Just as the plain [[sphere spectrum]] is a distinguished object of plain [[stable homotopy theory]], so the [[equivariant sphere spectrum]] is distinguished in [[equivariant stable homotopy theory]] and hence so is equivariant stable cohomotopy theory.
 
 ## Properties
 
@@ -62,5 +62,5 @@ A lift of [[Seiberg-Witten invariants]] to classes in [[circle group]]-equivaria
 
 * Stefan Bauer, _A stable cohomotopy refinement of Seiberg-Witten invariants: II_ ([arXiv:math/0204267](http://arxiv.org/abs/math/0204267))
 
-* Christian Okonek, Andrei Teleman_Cohomotopy Invariants and the Universal Cohomotopy Invariant Jump Formula_, J. Math. Sci. Univ. Tokyo 15 (2008), 325-409 ([pdf](http://www.matmor.unam.mx/~barcenas/nonlinearity.pdf))
+* Christian Okonek, Andrei Teleman, _Cohomotopy Invariants and the Universal Cohomotopy Invariant Jump Formula_, J. Math. Sci. Univ. Tokyo 15 (2008), 325-409 ([pdf](http://www.matmor.unam.mx/~barcenas/nonlinearity.pdf))
 
