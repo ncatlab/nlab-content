@@ -137,6 +137,7 @@ Cautioning against the interpretation of type Ia [[supernovae]] as indicative of
 
 * Koushik Dutta, Ruchika, Anirban Roy, Anjan A. Sen, M.M. Sheikh-Jabbari, _Negative Cosmological Constant is Consistent with Cosmological Data_ ([arXiv:1808.06623](https://arxiv.org/abs/1808.06623))
 
+* Rui-Yun Guo, Jing-Fei Zhang, Xin Zhang, _Can the $H_0$ tension be resolved in extensions to ΛCDM cosmology?_ ([arXiv:1809.02340](https://arxiv.org/abs/1809.02340))
 
 
 ### In pAQFT
