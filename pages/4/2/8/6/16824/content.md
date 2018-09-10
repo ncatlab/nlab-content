@@ -10,10 +10,7 @@
 <glyph d='M582 680H33V649H57C134 649 136 638 136 602V78C136 42 134 31 57 31H33V0C68 3 146 3 185 3C226 3 317 3 353 0V31H320C225 31 225 44 225 79V325H311C407 325 417 293 417 208H442V473H417C417 389 407 356 311 356H225V609C225 642 227 649 274 649H394C544 649 569 593 585 455H610L582 680Z' glyph-name='F' horiz-adv-x='652' unicode='F' vert-adv-y='652'/>
 </font>
 </defs>
-<style type='text/css'><![CDATA[
-text.f0 {font-family:cmr10;font-size:9.96264px}
-]]>
-</style>
+<style type='text/css'><![CDATA[ text.f0 {font-family:cmr10;font-size:9.96264px}]]></style>
 <g id='page1'>
 <path d='M216.129 -135.613C216.129 -271.031 17.6992 -271.031 17.6992 -135.613' fill='none' stroke='#000000' stroke-width='0.399994'/>
 <path d='M17.6992 -135.613C17.6992 -0.195 216.129 -0.195 216.129 -135.613' fill='none' stroke='#000000' stroke-width='0.399994'/>
