@@ -98,6 +98,8 @@ Discussion can be found [here](http://mathoverflow.net/a/114666/2926) and [here]
 
 * [[finite group scheme]]
 
+* [[Burnside ring]], [[Segal conjecture]]
+
 ## References
  {#References}
 
