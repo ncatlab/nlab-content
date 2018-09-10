@@ -50,7 +50,7 @@ In the general (nonassociative) case, we still think of the elements of $A$ (the
 
 We might also want to consider generalized (non-normal) [[state on an operator algebra|states]], that is norm-$1$ [[positive operator|positive]] [[linear functionals]] on $A$.  (Every state in $A_*$ may be so interpreted, using the natural map $A_* \to (A_*)^{**} = A^*$).  One may go further and consider [[quasistate]]s on $A$, if any exist (besides the states themselves).
 
-In particular, if $A$ is the space of [[bounded operators|bounded]] [[self-adjoint operators]] on some [[Hilbert space]] $H$, then $A_*$ is the space of [[trace-class operator|trace-class]] self-adjoint operators on $H$.  Then a normal state is a [[density matrix]], and the pure states are those of the form ${|\psi\rangle \langle\psi|}$ for $\psi$ a unit vector in $H$.
+In particular, if $A$ is the space of [[bounded operators|bounded]] [[self-adjoint operators]] on some [[Hilbert space]] $H$, then $A_*$ is the space of [[trace-class operator|trace-class]] self-adjoint operators on $H$.  Then a normal state is a [[density matrix]], and the pure states (those that cannot be written as nontrivial [[convex combinations]] of other states) are those of the form ${|\psi\rangle \langle\psi|}$ for $\psi$ a unit vector in $H$.
 
 
 ## Dynamics
