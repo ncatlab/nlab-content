@@ -131,7 +131,8 @@ In general, some of the NS5 sit away from the [[O8-plane]], while some sit on to
 
 ### Relation to M-theory on $G_2$-manifolds
 
-For lift to [[M-theory on G2-manifolds]] (e.g. [[G2-MSSM]]): e.g. [BCLS 05, section 2.9](#BCLS05)
+Lift to [[M-theory on G2-manifolds]] (e.g. [[G2-MSSM]]): see references [below](#ReferencesLiftToMTheory)
+
 
 
 ### Cosmology
@@ -220,6 +221,20 @@ Intersection with [[O8-planes]]/[[D8-branes]] is discussed in
 * {#GKSTY02} E. Gorbatov, V.S. Kaplunovsky, J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, _On Heterotic Orbifolds, M Theory and Type I' Brane Engineering_, JHEP 0205:015, 2002 ([arXiv:hep-th/0108135](https://arxiv.org/abs/hep-th/0108135))
 
 * {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_ ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
+
+### Lift to M-theory
+ {#ReferencesLiftToMTheory}
+
+Lift of intersecting D-brane models to [[M-theory on G2-manifolds]] with [[ADE-singularities]] is discussed in the following articles
+
+* Per Berglund, Andreas Brandhuber, _Matter From $G_2$ Manifolds_, Nucl.Phys. B641 (2002) 351-375 ([arXiv:hep-th/0205184](https://arxiv.org/abs/hep-th/0205184))
+
+* K. Behrndt, [[Gianguido Dall'Agata]], [[Dieter Lüst]], S. Mahapatra, _Intersecting 6-branes from new 7-manifolds with G_2 holonomy_, JHEP 0208:027,2002 ([arXiv:hep-th/0207117](https://arxiv.org/abs/hep-th/0207117))
+
+* [BCLS 05, section 2.9](#BCLS05) 
+
+* {#BourjailyEspahbodi08} Jacob L. Bourjaily, Sam Espahbodi, _Geometrically Engineerable Chiral Matter in M-Theory_ ([arXiv:0804.1132](https://arxiv.org/abs/0804.1132))
+
 
 ### Cosmology
  {#ReferencesCosmology}
