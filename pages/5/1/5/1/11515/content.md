@@ -4,13 +4,14 @@
 
 ## related $n$Lab entries 
 
-* [[Segal conjecture]]
+* [[equivariant stable homotopy theory]]
+
+* [[Segal conjecture]], [[Sullivan conjecture]]
 
   [[Burnside ring]], [[stable cohomotopy]], [[equivariant stable cohomotopy]]
-
-* [[equivariant stable homotopy theory]]
 
 * [[persistent homology]]
 
 category: people
+
 [[!redirects G. Carlsson]]
