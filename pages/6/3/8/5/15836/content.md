@@ -5,7 +5,7 @@
 
 ## Idea
 
-[[mathematics|Mathematically]], [[quantum mechanics]], and in particular [[quantum statistical mechanics]], can be viewed as a generalization of [[probability theory]].  The [[Bayesianism|Bayesian]] interpretation of probability can then be generalized to a Bayesian [[interpretation of quantum mechanics]], and thus (in principle) of all [[physics]].
+[[mathematics|Mathematically]], [[quantum mechanics]], and in particular [[quantum statistical mechanics]], can be viewed as a generalization of [[probability theory]], that is as _[[quantum probability theory]]_.  The [[Bayesianism|Bayesian]] interpretation of probability can then be generalized to a Bayesian [[interpretation of quantum mechanics]], and thus (in principle) of all [[physics]].
 
 The Bayesian interpretation is founded on these principles:
 
