@@ -1,23 +1,22 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Algebraic Quantum Field Theory
-+--{: .hide}
++-- {: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
 {: toc}
 
 ## Idea
 
 In the context of [[quantum mechanics]], the **collapse of the wave function**, also known as the **reduction of the wave packet**, is said to occur after [[observation]] or [[measurement]], when a wave function expressed as the sum of [[eigenfunctions]] of the observable is projected randomly onto one of them. Different [[interpretations of quantum mechanics]] understand this process differently.
+
 
 ## Relation to conditional expectation values
  {#RelationToConditionalExpectationValues}
@@ -111,11 +110,13 @@ This says that _assuming_ that $P$ has been observed in the [[pure state]] $\ver
 
 This is the statement of "wave function collapse". The original [[wave function]] is $\psi \in \mathcal{H}$, and after observing $P$ it "collapses" to $P \psi \in \mathcal{H}$ (up to normalization).
  
+
 ## Related concepts
 
 * [[interpretation of quantum mechanics]]
 
 * [[propositions as projections]]
+
 
 ## References
 
@@ -133,8 +134,8 @@ See also
 * Wikipedia, _[Wave function collapse](https://en.wikipedia.org/wiki/Wave_function_collapse)_
 
 
+[[!redirects wave function collapse]]
 [[!redirects wavefunction collapse]]
 
 [[!redirects collapse of the wave function]]
 [[!redirects collapse of the wavefunction]]
-
