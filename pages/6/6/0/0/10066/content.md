@@ -88,11 +88,17 @@ Specifically, applied to equivariant [[complex line bundles]] on [[coadjoint orb
 
 The $G$-equivariant K-theory of the point for $G$ a [[compact Lie group]] is the [[representation ring]] of $G$.
 
+[[!include Segal completion -- table]]
+
 ## Related concepts
 
-* [[Baum-Connes conjecture]], [[Green-Julg theorem]], [[Atiyah-Segal completion theorem]]
+* [[Baum-Connes conjecture]], [[Green-Julg theorem]], 
+
+* [[Atiyah-Segal completion theorem]]
 
 * [[equivariant elliptic cohomology]]
+
+
 
 ## References
  {#References}
@@ -111,6 +117,7 @@ and for [[algebraic K-theory]] to
 See also at _[algebraic K-theory -- References -- On quotient stacks](algebraic+K-theory#ReferencesAlgebraicKTheoryForQuotientStacks)_.
 
 Introductions and surveys include
+* [[John Greenlees]], _Equivariant version of real and complex connective K-theory_, Homology Homotopy Appl. Volume 7, Number 3 (2005), 63-82. ([Euclid:1139839291](http://projecteuclid.org/euclid.hha/1139839291))
 
 * N. C. Phillips, _Equivariant K-theory for proper actions_, Pitman 
 Research Notes in Mathematics Series 178, Longman, Harlow, UK, 1989. 
