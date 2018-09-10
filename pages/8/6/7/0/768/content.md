@@ -875,6 +875,10 @@ The classifying spaces $B O(n)$ are [[paracompact spaces]].
 
 An early source of this statement is ([Cartan-Schwartz 63, expos&#233; 5](#CartanSchwartz63)). It follows for instance by prop. \ref{CWComplexStructure} the fact that every [[CW-complex]] is paracompact.
 
+### Cohomology
+
+
+[[!include Segal completion -- table]]
 
 
 ## Moduli spaces 
