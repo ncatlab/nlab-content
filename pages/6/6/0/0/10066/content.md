@@ -117,6 +117,7 @@ and for [[algebraic K-theory]] to
 See also at _[algebraic K-theory -- References -- On quotient stacks](algebraic+K-theory#ReferencesAlgebraicKTheoryForQuotientStacks)_.
 
 Introductions and surveys include
+
 * [[John Greenlees]], _Equivariant version of real and complex connective K-theory_, Homology Homotopy Appl. Volume 7, Number 3 (2005), 63-82. ([Euclid:1139839291](http://projecteuclid.org/euclid.hha/1139839291))
 
 * N. C. Phillips, _Equivariant K-theory for proper actions_, Pitman 
@@ -127,6 +128,9 @@ Research Notes in Mathematics Series 178, Longman, Harlow, UK, 1989.
 * Alexander Merkujev, _Equivariant K-theory_ ([pdf](http://www.math.uiuc.edu/K-theory/0981/book/2-0925-0954.pdf))
 
 * Zachary Maddock, _An informal discourse on equivariant K-theory_ ([pdf](http://math.columbia.edu/~ellis/ass/equiv_k-thry.pdf))
+
+* [[Akhil Mathew]], _[Equivariant K-theory](https://amathew.wordpress.com/2011/12/03/equivariant-k-theory/)_
+
 
 Discussion relating to K-theory of [[homotopy quotients]]/[[Borel constructions]] is in 
 
