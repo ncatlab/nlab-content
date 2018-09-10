@@ -53,6 +53,10 @@ This statement is the direct analogue of the [[Atiyah-Segal completion theorem]]
 
 * [[equivariant cohomology]]
 
+## Applications
+
+A [[proof]] of the [[Sullivan conjecture]] follows with the Segal-Carlsson completion theorem
+
 ## References
 
 The statement was proven in
@@ -65,10 +69,14 @@ see also
 
 * {#Lueck05} [[Wolfgang Lück]], _The Burnside Ring and Equivariant Stable Cohomotopy for Infinite Groups_ ([arXiv:math/0504051](https://arxiv.org/abs/math/0504051))
 
-
 Review includes
 
 * {#May96} [[Peter May]], section XX of _Equivariant homotopy and cohomology theory_ CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996. With contributions by M. Cole, G. Comeza&#732;na, S. Costenoble, A. D. Elmenddorf, J. P. C. Greenlees, L. G. Lewis, Jr., R. J. Piacenza, G. Triantafillou, and S. Waner. ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/alaska1.pdf))
+
+Application to proof of the [[Sullivan conjecture]] is due to
+
+* {#Carlsson91} [[Gunnar Carlsson]], _Equivariant stable homotopy and Sullivan's conjecture_. Invent. Math. 103: 497–525, 1991 ([dml:143867](https://eudml.org/doc/143867), [pdf](http://www.digizeitschriften.de/download/PPN356556735_0103/PPN356556735_0103___log38.pdf))
+
 
 See also 
 
