@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -8,17 +7,15 @@
 [[!include measure theory - contents]]
 =--
 #### Algebraic Quantum Field Theory
-+--{: .hide}
++-- {: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
 =--
 =--
 
-
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -47,6 +44,7 @@ In [[quantum physics]], $\mathcal{A}$ is an [[algebra of observables]] (or a [[l
 The formulation of [[non-perturbative quantum field theory]] from the algebraic perspective of quantum probability is known as _[[algebraic quantum field theory]]_ ([[AQFT]]).
 
 The formulation of [[perturbative quantum field theory]] from the algebraic perspective of quantum probability is known as _[[perturbative algebraic quantum field theory]]_ ([[pAQFT]]).
+
 
 ## Properties
 
@@ -148,7 +146,8 @@ This is the statement of "[[wave function collapse]]": The original [[wave funct
 
 * [[quantum logic]]
 
-* [[interpretation of quantum mechanics]]
+* [[Bayesian interpretation of quantum mechanics]]
+
 
 ## References
 
@@ -178,6 +177,8 @@ A textbook account is
 
 * {#Landsman17} [[Klaas Landsman]], _Foundations of quantum theory -- From classical concepts to Operator algebras_, Springer Open 2017 ([pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf))
 
+
+[[!redirects quantum probability]]
 [[!redirects quantum probabilities]]
 
 [[!redirects quantum probability theory]]
@@ -186,15 +187,17 @@ A textbook account is
 [[!redirects quantum probability space]]
 [[!redirects quantum probability spaces]]
 
+[[!redirects noncommutative probability]]
+[[!redirects noncommutative probabilities]]
+[[!redirects non-commutative probability]]
+[[!redirects non-commutative probabilities]]
+
 [[!redirects noncommutative probability space]]
 [[!redirects noncommutative probability spaces]]
-
 [[!redirects non-commutative probability space]]
 [[!redirects non-commutative probability spaces]]
 
 [[!redirects noncommutative probability theory]]
 [[!redirects noncommutative probability theories]]
-
 [[!redirects non-commutative probability theory]]
 [[!redirects non-commutative probability theories]]
-
