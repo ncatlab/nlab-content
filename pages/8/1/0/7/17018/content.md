@@ -39,7 +39,7 @@ See at _[Adams spectral sequence -- As derived descent](Adams%20spectral%20seque
 
 * [spectrum of the category of spectra](prime+spectrum+of+a+symmetric+monoidal+stable+%28?,1%29-category#OfCategoryOfSpectra)
 
-* [[Spec(Z)]]
+* [[Spec(Z)]], [[field with one element]]
 
 * [[moduli stack of formal groups]]
 
