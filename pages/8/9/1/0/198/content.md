@@ -63,6 +63,8 @@ There are also enriched, $k$-linear and other versions, hence one can talk about
 
 * [[linear representation]], [[permutation representation]]
 
+* [[regular representation]], [[alternating representation]]
+
 * [[adjoint representation]], [[coadjoint representation]]
 
 * [[induced representation]], [[coinduced representation]]
