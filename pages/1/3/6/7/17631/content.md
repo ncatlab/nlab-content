@@ -32,11 +32,11 @@ The Catalan numbers $C_n$ count a myriad of different families of objects, inclu
 
 * nonisomorphic rooted planar [[trees]] with $n$ [[edges]];
 
-* strings consisting of $n$ well-balanced pairs of parentheses (also known as "Dyck words"), or equivalently, [[surjective]] [[monotone functions]] $w : (n) + (n) \to (2n)$ such that $w(\iota_1 j) \le w(\iota_2 j)$ for all $1 \le j \le n$;
+* strings consisting of $n$ well-balanced pairs of parentheses (also known as "Dyck words"), or equivalently, [[surjective]] [[monotone functions]] $w : (n) + (n) \to (2n)$ such that $w(\iota_1 j) \le w(\iota_2 j)$ for all $1 \le j \le n$ (where we write $(k)$ for the finite [[ordinal]] $(k) = \{1,\dots,k\}$);
 
-* monotonic lattice paths in an $n\times n$ grid which do not cross below the diagonal, or equivalently, [[injective]] [[monotone functions]] $p : [2n] \to [n] \times [n]$ such that $\pi_1 p(i) \le \pi_2 p(i)$ for all $0 \le i \le 2n$;
+* monotonic lattice paths in an $n\times n$ grid which do not cross below the diagonal, or equivalently, [[injective]] [[monotone functions]] $p : [2n] \to [n] \times [n]$ such that $\pi_1 p(i) \le \pi_2 p(i)$ for all $0 \le i \le 2n$ (where we write $[k]$ for the non-empty finite [[ordinal]] $[k] = \{0,\dots,k\}$);
 
-* [[monotone functions]] $f : [n] \to [n]$ such that $f(0) = 0$ and $x \le f(x)$ for all $0 \le x \le n$, or in other words, [[pointed endomorphisms]] $[n] \to [n]$ in $\Delta_\bot$ (the sub-2-category of the [[simplex category|simplex 2-category]] $\Delta$ spanned by the first-element-preserving functions); 
+* [[monotone functions]] $f : [n] \to [n]$ such that $f(0) = 0$ and $x \le f(x)$ for all $0 \le x \le n$, or in other words, 1-cells $f : [n] \to [n]$ in $\Delta_\bot$ (the sub-2-category of the [[simplex category|simplex 2-category]] $\Delta$ spanned by the first-element-preserving functions) which are _pointed_ in the sense of being equipped with a 2-cell $\id_{[n]} \Rightarrow f$; 
 
 * "mountain ranges", i.e., functions $f: [2n] \to \mathbb{N}$ such that $f(0) = 0 = f(2n)$ and $f(j+1) - f(j) \in \{1, -1\}$ for $0 \leq j \lt 2n$ (so called because graphs of such depict mountain ranges); 
 
@@ -235,14 +235,15 @@ Yet another proof of the formula is based on Jean-Luc Rémy's algorithm for gene
 
 * Pick any edge of the tree.
 
-* Create a new internal node by splitting the edge in two and budding a new leaf off to the left or the right, equipped with a fresh label.
+* Create a new internal node by splitting the edge in two and budding off a freshly-labelled leaf, either to the left or to the right of the new internal node.
 
-Starting from the trivial binary tree (containing no internal nodes and a single leaf labelled "0"), the algorithm will generate a binary tree with $n$ internal nodes, together with a labelling of its leaves by distinct labels in $0 \dots n$.
+Starting from the trivial binary tree (containing no internal nodes and a single leaf labelled "0"), this algorithm will generate a binary tree with $n$ internal nodes, together with a labelling of its leaves by distinct labels in $0 \dots n$.
 Moreover, it does so exhaustively and without repetition, that is, every binary tree equipped with a permutation of its leaves will be generated exactly once.
+(An easy way to see this is by thinking of applying the algorithm "in reverse" to an arbitrary leaf-labelled binary tree, repeatedly pruning off the leaf with the largest label while recording whether it is a left leaf or a right leaf, until only the root edge remains.)
 
 Since at the $k$th iteration of the algorithm there are exactly $(2k-1)\cdot 2$ possible choices of an edge and a direction, after $n$ iterations we obtain the identity:
 
-$$(n+1)! C_n = (2n-1)!! \cdot 2^n$$
+$$C_n\cdot (n+1)! = (2n-1)!! \cdot 2^n$$
 
 (where $(2n-1)!! = (2n-1)(2n-3)\cdots 1$ is the double-factorial), which implies that
 
