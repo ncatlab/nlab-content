@@ -335,6 +335,9 @@ A textbook account of D-brane charge in ([[twisted K-theory|twisted]]) [[topolog
 
 * [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurco]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Lecture Notes in Physics, Springer 2008  ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
 
+See also for instance
+
+* Ilka Brunner, [[Jacques Distler]], _Torsion D-Branes in Nongeometrical Phases_ ([arXiv:hep-th/0102018](https://arxiv.org/abs/hep-th/0102018))
 
 Discussion of D-branes in [[KK-theory]] is reviewed in
 
@@ -343,7 +346,7 @@ Discussion of D-branes in [[KK-theory]] is reviewed in
 
 based on
 
-* {#ReisSzabo05} [[Rui Reis]], [[Richard Szabo]], _Geometric K-Homology of Flat D-Branes_ ,Commun.Math.Phys. 266 (2006) 71-122 ([arXiv:hep-th/0507043](https://arxiv.org/abs/hep-th/0507043))
+* {#ReisSzabo05} Rui Reis, [[Richard Szabo]], _Geometric K-Homology of Flat D-Branes_ ,Commun.Math.Phys. 266 (2006) 71-122 ([arXiv:hep-th/0507043](https://arxiv.org/abs/hep-th/0507043))
 
 * [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]], _D-Branes, RR-Fields and Duality on Noncommutative Manifolds_, Commun. Math. Phys. 277:643-706,2008 ([arXiv:hep-th/0607020](http://arxiv.org/abs/hep-th/0607020))
 
