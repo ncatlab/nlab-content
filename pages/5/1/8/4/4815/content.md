@@ -95,7 +95,7 @@ A useful review is in ([Hack 15, section 3.2.1](#Hack15)).
 
 This means that apart from the freedom of choosing a classical comsological constant in the [[Einstein-Hilbert action]] as above, its [perturbative quantization](A+first+idea+of+quantum+field+theory#InteractingQuantumFields) ([[perturbative quantum gravity]]) introduces [[renormalization]] freedom to the value of the cosmological constant.
 
-The folklore discussion of the "cosmological constant problem" (see the references [below](#CCProblemReferences)) tends not to take this freedom in the theory into account.
+The folklore discussion of the "cosmological constant problem" (see the references [below](#CCProblemReferences)) tends not to take this freedom in the theory into account (see the discussion at _[[naturalness]]_).
 
 ### In inhomogeneous cosmology
  {#InInhomogeneousCosmology}
