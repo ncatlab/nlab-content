@@ -71,7 +71,7 @@ If we apply the Gram--Schmidt process to a well-ordered independent set whose cl
 
 Many aspects of the Gram--Schmidt process can be [[categorification|categorified]] so as to apply to [[2-Hilbert spaces]]. We will illustrate the basic idea with an example that was suggested to us by [[James Dolan]]. 
 
-Consider the [[category of representations]] $S_n Rep$ over the [[complex numbers]] of the [[symmetric group]] $S_n$. (As a running example, we consider $S_4$; up to [[isomorphism]], there are five [[irreducible representations]] 
+Consider the [[category of representations]] $S_n Rep$ over the [[complex numbers]] of the [[symmetric group]] $G \coloneqq S_n$. (As a running example, we consider $S_4$; up to [[isomorphism]], there are five [[irreducible representations]] 
 
 $$U_{(4)}, \, U_{(3 1)}, \, U_{(2 2)}, \, U_{(2 1 1)}, \, U_{(1 1 1 1)}$$ 
 
@@ -79,9 +79,9 @@ classified by the five [[Young diagrams]] of size 4. To save space, we denote th
 
 The [[irreducible representations]] $U_i$ of $S_n$ form a _$2$-orthonormal basis_ in the sense that any two of them $U_i, U_j$ satisfy the relation 
 
-$$hom(U_i, U_j) \cong \delta_{i j} \cdot \mathbb{C}$$ 
+$$hom_G(U_i, U_j) \cong \delta_{i j} \cdot \mathbb{C}$$ 
 
-(where $hom$ denotes the [[hom-object|hom vector space]] in $S_n Rep$, and $n \cdot \mathbb{C}$ indicates a [[direct sum]] of $n$ copies of $\mathbb{C}$). 
+(where $hom_G$ denotes the [[hom-object|hom vector space]] in $S_n Rep$, and $n \cdot \mathbb{C}$ indicates a [[direct sum]] of $n$ copies of $\mathbb{C}$). 
 In fact, the irreducible representations are uniquely determined up to isomorphism by these relations. 
 
 There is however another way of associating representations to [[partitions]] or [[Young diagrams]]. Namely, consider the [[subgroup]] of permutations which take each row of a Young diagram or Young tableau of size $n$ to itself; this forms a [[parabolic subgroup]] of $S_n$, [[conjugation|conjugate]] to one of type $P_{(n_1 \ldots n_k)} = S_{n_1} \times \ldots \times S_{n_k}$ where $n_i$ is the length of the $i^{th}$ row of the Young diagram. The group $S_n$ [[transitive action|acts transitively]] on the [[orbit space]] of [[cosets]] 
