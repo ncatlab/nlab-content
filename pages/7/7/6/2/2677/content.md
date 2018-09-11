@@ -118,8 +118,7 @@ After the very first observations by Tits, pioneers were [[Christophe Soulé]] a
 
 ### Original articles ###
 
-* {#Tits57} [[Jacques Tits]], _Sur les analogues algebriques des groupes semi-simples complexes_. In Colloque d'algebre superieure, tenu a Bruxelles du 19 au 22 decembre 1956, Centre Belge de Recherches Mathematiques,
-pages 261{289. Etablissements Ceuterick, Louvain, 1957.
+* {#Tits57} [[Jacques Tits]], _Sur les analogues algebriques des groupes semi-simples complexes_. In Colloque d'algebre superieure, tenu a Bruxelles du 19 au 22 decembre 1956, Centre Belge de Recherches Mathematiques, pages 261-289. Etablissements Ceuterick, Louvain, 1957.
 
 * {#Soule04} [[Christophe Soulé]], _Les varietes sur le corps a un element_ Mosc. Math. J., 4(1):217-244, 312, 2004 ([pdf](http://www.ams.org/distribution/mmj/vol4-1-2004/soule.pdf))
 
