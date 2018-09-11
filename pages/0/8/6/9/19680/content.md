@@ -10,7 +10,7 @@ $$\binom{x}{n} = \frac{x(x-1)\ldots (x-n+1)}{n!}$$
 
 in the case $x = 1/2$ or $x = -1/2$, or when dealing with middle binomial coefficients $\binom{2n}{n}$, or when dealing with the values of the [[Gamma function]] at half-integers. 
 
-The exponential generating function of $a_n = (2n-1)!!$ is 
+The exponential generating function of the sequence $a_n$ defined by $a_{2n} = (2n-1)!!$ and $a_{2n+1} = 0$ is 
 
 $$\sum_{n \geq 0} \frac{a_n x^n}{n!} = \exp(x^2/2)$$ 
 
@@ -18,7 +18,7 @@ which means the double-factorials also tend to crop up in calculations dealing w
 
 $$\int_0^\infty p(x) e^{-x^2/2}\; d x$$ 
 
-for even polynomials $p$, with consequent applications in [[quantum mechanics]]. 
+for even polynomials $p$, with consequent applications in [[quantum mechanics]], for example calculations surrounding the [[quantum harmonic oscillator]]. 
 
 ## Combinatorial interpretation 
 
