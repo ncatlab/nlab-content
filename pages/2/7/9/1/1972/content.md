@@ -34,7 +34,8 @@ In [[physics]] these coefficients are also known as _[[Clebsch-Gordan coefficien
 
 Notice that $R(G)$ is commutative thanks to the [[symmetric monoidal category|symmetry]] of the tensor product.
 
-### In terms of K-theory
+### As equivariant K-theory of the point
+ {#AsEquivariantKTheoryOfThePoint}
 
 Equivalently the representation ring of $G$ is the $G$-[[equivariant K-theory]] of the point, or equivalently by the [[Green-Julg theorem]], if $G$ is a [[compact Lie group]], the [[operator K-theory]] of the [[group algebra]] (the [[groupoid convolution algebra]] of the [[delooping]] groupoid of $G$):
 
@@ -67,6 +68,53 @@ $$
 The construction of representations by [[index]]-constructions of $G$-equivariant [[Dirac operators]] ([[push-forward in generalized cohomology|push-forward]] in $G$-[[equivariant K-theory]] to the point) is called _[[Dirac induction]]_.
 
 [[!include Segal completion -- table]]
+
+### Relation to the Burnside ring
+
+Let $G$ be a [[finite group]]. Consider
+
+1. the [[Burnside ring]] $A(G)$, which is the [[Grothendieck group]] of the [[monoidal category]] $G Set$ of [[finite set|finite]] [[G-sets]];
+
+1. the [[representation ring]] $R(G)$, which is the [[Grothendieck group]] of the monoidal category $G Rep$ of [[finite dimensional vector space|finite dimensional]] $G$-[[linear representations]].
+
+Then then map that sends a G-set to the corresponding linear [[permutation representation]] is a [[strong monoidal functor]]
+
+$$
+  G Set \overset{\mathbb{C}[-]}{\longrightarrow} G Rep
+$$
+
+and hence induces a [[ring homomorphism]]
+
+$$
+  A(G) \overset{ \mathbb{C}[-] }{\longrightarrow} R(G)
+$$
+
+Under the identitification
+
+1. of the [[Burnside ring]] with the [[equivariant stable cohomotopy]] of the point 
+
+   $$
+     A(G) \;\simeq\; \mathbb{S}_G(\ast)
+   $$
+
+   (see [there](Burnside+ring#AsTheEquivariantStableCohomotopyOfThePoint))
+
+1. of the [[representation ring]] with the [[equivariant K-theory]] of the point
+
+   $$
+     R(G) \;\simeq\; K_G(\ast)
+   $$
+
+   (as [above](#AsEquivariantKTheoryOfThePoint))
+
+this should be image of the initial morphism of [[E-infinity ring spectra]]
+
+$$
+  \mathbb{S} \longrightarrow KU
+$$
+
+from the [[sphere spectrum]] to [[KU]].
+
 
 ### Completion
 
