@@ -60,5 +60,11 @@ The **regular representation** of $M$ is the action of $M$ on ${|M|}$ induced by
 
 * The regular representation of $G$ as a linear representation is the [[induced representation]] $Ind_{1}^G 1$ of the trivial representation along the inclusion of the trivial [[subgroup]].
 
+## Related concepts
+
+* [[trivial representation]]
+
+* [[alternating representation]]
+
 [[!redirects regular representation]]
 [[!redirects regular representations]]
