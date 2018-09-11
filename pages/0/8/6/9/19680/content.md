@@ -1,4 +1,27 @@
-For $n$ a [[natural number]], the double factorial $(2n+1)!!$ is defined to be the product $(2n+1)(2n-1)\ldots 1$. Alternatively, 
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+#### Combinatorics
++--{: .hide}
+[[!include combinatorics - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $n$ a [[natural number]], the double factorial $(2n+1)!!$ is defined to be the product $(2n+1)(2n-1)\ldots 1$. Alternatively, in terms of the ordinary [[factorial]],
 
 $$(2n-1)!! = \frac1{2^n} \frac{(2n)!}{n!}$$ 
 
@@ -23,3 +46,15 @@ for even polynomials $p$, with consequent applications in [[quantum mechanics]],
 ## Combinatorial interpretation 
 
 The double-factorials $a_n = (2n-1)!!$ count the number of [[involutions]] without [[fixed points]] on a set with $2n$ elements, or the number of [[partitions]] of a $(2n)$-element set into $2$-element sets. This follows readily from the exponential generating function expression above, and is related to the [[species]] composition of the exponential species $\exp$ (the terminal object in the category of species) with the species $x^2/2$, defined to be terminal at $2$-element sets and empty at others. 
+
+
+## References
+
+See also 
+
+* Wikipedia, _[Double factorial](https://en.wikipedia.org/wiki/Double_factorial)_
+
+[[!redirects double factorials]]
+
+[[!redirects double-factorial]]
+[[!redirects double-factorials]]
