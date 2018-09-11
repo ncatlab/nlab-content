@@ -33,7 +33,7 @@ By ([Dwyer-Kan 80, prop. 3.7, prop. 9.2, remark 9.7](#DwyerKan80)) the operation
 
 ### Via Gamma spaces
 
-Write $FinSet^{*/}$ for the [[category]] of [[pointed objects]] [[finite sets]].
+Write $FinSet^{*/}$ for the [[category]] of [[pointed objects|pointed]] [[finite sets]].
 
 For $C$ a [[permutative category]], there is naturally a [[functor]]
 
