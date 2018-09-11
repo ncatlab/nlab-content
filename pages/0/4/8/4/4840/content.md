@@ -1,25 +1,26 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Cohomology
-+--{: .hide}
++-- {: .hide}
 [[!include cohomology - contents]]
 =--
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-_Stokes theorem_ asserts that the [[integration of differential forms]] of the [[de Rham differential]] of a [[differential form]] over a domain equals the integral of the form itself over the [[boundary]] of the domain.
+The _Stokes theorem_ (also _Stokes\' theorem_ or _Stokes\'s theorem_) asserts that the [[integration of differential forms]] of the [[de Rham differential]] of a [[differential form]] over a domain equals the integral of the form itself over the [[boundary]] of the domain.
+
 
 ## Statement
 
@@ -208,7 +209,6 @@ $$
 ([Bunke-Nikolaus-V&#246;lkl 13, theorem 3.2](#BunkeNikolausVoelkl13))
 
 
-
 ## Related concepts
 
 * [[Poincaré lemma]]
@@ -222,6 +222,7 @@ $$
 * [[Hodge theorem]]
 
 * a special case is [[Cauchy's integral theorem]]
+
 
 ## References
  {#References}
@@ -246,5 +247,12 @@ Discussion in [[cohesive homotopy type theory]] is in
 
 * {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_ ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
 
+
+[[!redirects Stokes Theorem]]
+[[!redirects Stokes theorem]]
+[[!redirects Stokes theorems]]
+
 [[!redirects Stokes' theorem]]
+[[!redirects Stokes' Theorem]]
 [[!redirects Stokes's theorem]]
+[[!redirects Stokes's Theorem]]
