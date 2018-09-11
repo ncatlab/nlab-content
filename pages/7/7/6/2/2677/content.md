@@ -63,7 +63,7 @@ $$
 
 ### Algebraic K-theory
  
-With the identification $\mathbb{F}_1 Mod \simeq FinSet^{\ast/}$ it follows that the [[algebraic K-theory]] over $\mathbb{F}_1$ is [[stable cohomotopy]]
+With the identification $\mathbb{F}_1 Mod \simeq FinSet^{\ast/}$ from [above](#Modules) it follows that the [[algebraic K-theory]] over $\mathbb{F}_1$ is _[[stable cohomotopy]]_:
 
 $$
   \begin{aligned}
@@ -159,6 +159,8 @@ More discussion relating to this includes
 * {#LeBruyn13} [[Lieven Le Bruyn]], _Absolute geometry and the Habiro topology_ ([arXiv:1304.6532](http://arxiv.org/abs/1304.6532))
 
 ### Relation to stable homotopy theory
+
+The interpretation of [[stable cohomotopy]] as [[algebraic K-theory]] over $\mathbb{F}_1$ is amplified in the following articles:
 
 * {#Deitmar06} [[Anton Deitmar]], _Remarks on zeta functions and K-theory over $\mathbb{F}_1$_ ([arXiv:math/0605429](https://arxiv.org/abs/math/0605429))
 
