@@ -257,3 +257,5 @@ The formal correspondence between permutation models of [[ZFA]] and toposes of c
 [[!redirects topos of continuous G-sets]]
 [[!redirects topos of continuous G set]]
 [[!redirects topos of continuous G-set]]
+[[!redirects GSet]]
+
