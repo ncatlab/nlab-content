@@ -8,6 +8,7 @@ $\,$
 ***
 
 
+
 $\,$
 
 +-- {: .rightHandSide}
@@ -27,7 +28,7 @@ $\,$
 
 [[category theory|Category theory]] and [[topos theory]] concern the general abstract structure underlying [[algebra]], [[geometry]] and [[logic]]. They are ubiquituous in and indispensible for organizing conceptual mathematical frameworks.
 
-We give here an introduction to the basic concepts and results, aimed at providing background for the [[synthetic differential geometry|synthetic]] [[higher differential geometry|higher]] [[geometry of physics -- supergeometry|supergeometry]] of relevance in formulations of fundamental [[physics]], such as used in the chapters _[[geometry of physics -- perturbative quantum field theory|on perturbative quantum field theory]]_ and _[[geometry of physics -- fundamental super p-branes|on fundamental super p-branes]]_.
+We give here an introduction to the basic concepts and results, aimed at providing background for the [[synthetic differential geometry|synthetic]] [[higher differential geometry|higher]] [[geometry of physics -- supergeometry|supergeometry]] of relevance in formulations of fundamental [[physics]], such as used in the chapters _[[geometry of physics -- perturbative quantum field theory|on perturbative quantum field theory]]_ and _[[geometry of physics -- fundamental super p-branes|on fundamental super p-branes]]_. For quick informal survey see _[[schreiber:Introduction to Higher Supergeometry]]_.
 
 This makes use of the following curious dictionary between [[category theory]]/[[topos theory]] and the [[geometry]] of [[generalized spaces]], which we will explain in detail (following [Grothendieck 65](functorial+geometry#Grothendieck65), [Lawvere 86, p. 17](space+and+quantity#Lawvere86), [[Some Thoughts on the Future of Category Theory|Lawvere 91]]):
 
@@ -74,7 +75,7 @@ We offer also an _a priori_ motivation:
 
 <div style="float:right;margin:0 10px 10px 0;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Cup_or_faces_paradox.svg/450px-Cup_or_faces_paradox.svg.png" width="200"></div>
 
-_[[duality|Duality]]_ is of course an ancient notion in [[philosophy]]. At least as a term, it makes a curious re-appearance in the conjectural [[theory (physics)|theory]] of fundamental [[physics]] formerly known as _[[string theory]]_ as _[[duality in string theory]]_. In both cases, the literature left some room in delineating what precisely is meant. But the philosophically inclined mathematician could notice (see [Lambek 82](adjoint+functor#Lambek82)) that an excellent candidate to make precise the idea of _[[duality]]_ is the mathematical concept of _[[adjoint functor|adjunction]]_, from [[category theory]]. This is particularly pronounced for _[[adjoint triples]]_ (Remark \ref{AdjointTriples} below) and their induced [[adjoint modalities]] ([[Some Thoughts on the Future of Category Theory|Lawvere 91]], see Def. \ref{AdjointModality} below), which exhibit a given "[[modality|mode of being]]" of any object $X$ as intermediate between two dual opposite extremes (Prop. \ref{ComparisonMorphismBetweenOppositeExtremes} below):
+_[[duality|Duality]]_ is of course an ancient notion in [[philosophy]]. At least as a term, it makes a curious re-appearance in the conjectural [[theory (physics)|theory]] of fundamental [[physics]] formerly known as _[[string theory]]_, as _[[duality in string theory]]_. In both cases, the literature left some room in delineating what precisely is meant. But the philosophically inclined mathematician could notice (see [Lambek 82](adjoint+functor#Lambek82)) that an excellent candidate to make precise the idea of _[[duality]]_ is the mathematical concept of _[[adjoint functor|adjunction]]_, from [[category theory]]. This is particularly pronounced for _[[adjoint triples]]_ (Remark \ref{AdjointTriples} below) and their induced [[adjoint modalities]] ([[Some Thoughts on the Future of Category Theory|Lawvere 91]], see Def. \ref{AdjointModality} below), which exhibit a given "[[modality|mode of being]]" of any object $X$ as intermediate between two dual opposite extremes (Prop. \ref{ComparisonMorphismBetweenOppositeExtremes} below):
 
 $$
   \Box X 
@@ -95,7 +96,13 @@ Historically, [[category theory]] was introduced in order to make precise the co
 But natural transformations are, in turn, exactly the basis for the concept of _[[adjoint functors]]_ (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} below), equivalently _[[adjunctions]] between categories_ (Prop. \ref{AdjointnessInTermsOfHomIsomorphismEquivalentToAdjunctionInCat} below), shown on the left. 
 All _[[universal constructions]]_, the heart of category theory, are special cases of [[adjoint functors]] -- hence of dualities, if we follow [Lambek 82](adjoint+functor#Lambek82): This includes the concepts of _[[limits]]_ and _[[colimits]]_ (Def. \ref{Limits} below), [[ends]] and [[coends]] (Def. \ref{EndAndCoendInTopcgSmash} below) [[Kan extensions]] (Prop. \ref{TopologicalLeftKanExtensionBCoend} below), and the behaviour of these constructions, such as for instance the [[free co-completion]] nature of the [[Yoneda embedding]] (Prop. \ref{FreeCocompletion} below). 
 
-Therefore it makes sense to regard category theory as the **theory of adjunctions**, hence the **theory of duality**:
+$\,$
+
+$\,$
+
+$\,$
+
+Therefore it makes sense to regard category theory as the **theory of adjunctions**, <br/> hence the **theory of duality**:
 
 <br/>
 
@@ -127,7 +134,7 @@ The idea of _[[duality in string theory]]_ refers to different perspectives on p
 But one of the basic results of category theory (Prop. \ref{EveryEquivalenceOfCategoriesComesFromAnAdjointEquivalence}, below) is that equivalence is indeed a special case of adjunction. This allows to explore the possibility that there is more than a coincidence of terms.
 
 Of course the usage of the term _[[duality in string theory]]_ is too loose for one to expect to be able to refine each occurrence of the term in the literature to a mathematical adjunction. However, we will see mathematical formalizations of core aspects of
-key string-theoretic dualities, such as _[[topological T-duality]]_ and the _[[duality between M-theory and type IIA string theory]]_, in terms of [[adjunctions]]. Indeed, at the heart of these _[[dualities in string theory]]_ is the phenomenon of _[[double dimensional reduction]]_, which turns out to be formalized by one of the most fundamental adjunctions in ([[higher category theory|higher]] [[category theory]] ([[base change]] along the point inclusion into a [[classifying space]]). All this is discussed in the chapter on _[[geometry of physics -- fundamental super p-branes|fundamental super p-branes]]_.
+key string-theoretic dualities, such as _[[topological T-duality]]_ and the _[[duality between M-theory and type IIA string theory]]_, in terms of [[adjunctions]]. Indeed, at the heart of these _[[dualities in string theory]]_ is the phenomenon of _[[double dimensional reduction]]_, which turns out to be formalized by one of the most fundamental adjunctions in ([[higher category theory|higher]]) [[category theory]]: _[[base change]]_ along the point inclusion into a [[classifying space]]. All this is discussed in the chapter on _[[geometry of physics -- fundamental super p-branes|fundamental super p-branes]]_.
 
 This suggests that there may be a deeper relation here between the superficially alien uses of the word "duality", that is worth exploring.
 
