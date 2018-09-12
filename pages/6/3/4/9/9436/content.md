@@ -66,5 +66,12 @@ The **regular representation** of $M$ is the action of $M$ on ${|M|}$ induced by
 
 * [[alternating representation]]
 
+## References
+
+Lecture notes include
+
+* {#tomDieck09} [[Tammo tom Dieck]], section 1.10 of _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
+
+
 [[!redirects regular representation]]
 [[!redirects regular representations]]
