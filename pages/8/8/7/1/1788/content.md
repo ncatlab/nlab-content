@@ -1,6 +1,3 @@
 
-| ([[equivariant cohomology|equivariant]]) [[generalized (Eilenberg-Steenrod) cohomology|cohomology]] | [[Brown representability theorem|representing]] <br/> [[spectrum]] | [[equivariant cohomology]] <br/> of the [[point]] $\ast$ |  [[generalized (Eilenberg-Steenrod) cohomology|cohomology]] <br/> of [[classifying space]] $B G$ |
-|---|----|---|---|
-| ([[equivariant K-theory|equivariant]]) [[complex K-theory]] | [[KU]] |  [[representation ring]] <br/> $KU_G(\ast) \simeq R(G)$ | [[Atiyah-Segal completion theorem]] <br/> $R(G) \simeq  \mathbb{KU}_G(\ast)  \overset{ \text{compl.} }{\longrightarrow} \widehat {\mathbb{KU}_G(\ast)}  \simeq \mathbb{KU}(B G)$  |
-| ([[equivariant K-theory|equivariant]]) [[algebraic K-theory]] | $K \mathbb{F}_p$ |  |  |
-| ([[equivariant stable cohomotopy|equivariant]]) [[stable cohomotopy]] | K $\mathbb{F}_1 \overset{\text{<a href="stable cohomotopy#StableCohomotopyIsAlgebraicKTheoryOverFieldWithOneElement">Segal 74</a>}}{\simeq} $ [[equivariant sphere spectrum|S]]  | [[Burnside ring]] <br/> $\mathbb{S}_G(\ast) \simeq A(G)$ |  [[Segal-Carlsson completion theorem]] <br/> $A(G) \overset{\text{<a href="https://ncatlab.org/nlab/show/Burnside+ring+is+equivariant+stable+cohomotopy+of+the+point">Segal 71</a>}}{\simeq}  \mathbb{S}_G(\ast)  \overset{ \text{compl.} }{\longrightarrow} \widehat {\mathbb{S}_G(\ast)} \!\! \overset{\text{<a href="https://ncatlab.org/nlab/show/Segal-Carlsson+completion+theorem">Carlsson 84</a>}}{\simeq} \!\!\!\!\!\! \mathbb{S}(B G) $ <br/>  |
+[[schreiber:Introduction to Higher Supergeometry]]
+
