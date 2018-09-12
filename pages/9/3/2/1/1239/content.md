@@ -123,7 +123,9 @@ More in detail, this yields the following identifications:
 ## References
  {#References}
 
-Introductions include
+Lecture notes include
+
+* {#tomDieck09} [[Tammo tom Dieck]], _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
 
 * {#Teleman05} [[Constantin Teleman]], _Representation theory_, lecture notes 2005 ([pdf](https://math.berkeley.edu/~teleman/math/RepThry.pdf))
 
