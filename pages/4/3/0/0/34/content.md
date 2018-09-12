@@ -277,6 +277,13 @@ There's a lot more to add here, even if we restrict ourselves to very general te
 
 
 [[!redirects higher category theory]]
-
 [[!redirects higher category]]
 [[!redirects higher categories]]
+
+[[!redirects higher-order category theory]]
+[[!redirects higher-order category]]
+[[!redirects higher-order categories]]
+
+[[!redirects higher-dimensional category theory]]
+[[!redirects higher-dimensional category]]
+[[!redirects higher-dimensional categories]]
