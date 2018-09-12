@@ -94,6 +94,10 @@ $Mod(X_1)$ and $Mod(X_2)$.
 
 * [[external tensor product of vector bundles]]
 
+## Related concepts
+
+* [direct product group representations](direct+product+group#Representations)
+
 ## References
 
 For general abstract literature dealing with the external tensor products see the references at _[[indexed monoidal category]]_ and at _[[dependent linear type theory]]_.
