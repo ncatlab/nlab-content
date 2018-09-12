@@ -1,4 +1,20 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
+
+
 # The Bayesian interpretation of quantum physics
 * table of contents
 {: toc}
@@ -13,7 +29,7 @@ The Bayesian interpretation is founded on these principles:
 
 2. Time evolution of pure quantum states by the time-dependent [[Schroedinger equation|Schrödinger's equation]] is analogous to evolution of classical statistical systems by [[Liouville's equation]] (and von Neumann has an equation for the evolution of [[density matrices]] that generalizes both).
 
-3. [[wave function collapse|Collapse]] of the wave function (see also [[propositions as projections]]) is analogous to (indeed a generalization of) updating a probability distribution; [[Born rule|Born's Rule]] and [[Bayes' Rule]] are analogues.
+3. [[wave function collapse|Collapse of the wave function]] (see also [[propositions as projections]]) is analogous to (indeed a generalization of) updating a probability distribution; [[Born rule|Born's Rule]] and [[Bayes' Rule]] are analogues.
 
 One should perhaps speak of *a* Bayesian interpretation of quantum mechanics, since there are different forms of Bayesianism.  (This article has been written by an objective Bayesian who naturally thinks of Bayesian probabilities as reflecting knowledge rather than belief, betting commitments, etc.  For other flavours of Bayesianism, substitute 'knowledge' below with a more appropriate term.)
 
@@ -61,23 +77,35 @@ The Bayesian interpretation fits into a broader family of [[interpretations of q
 
 In the other direction, 'Quantum Bayesianism' or 'QBism' is used specifically to refer to the position advanced over the course of last decade principally by [[Christopher Fuchs]].  Although Fuchs\'s first papers on the subject (starting with [Caves, Fuchs, & Schack, 2001](#CFS2001)) referred explicitly to 'states of knowledge', Fuchs has since adopted an increasingly subjective approach, drawing many philosophical conclusions that go beyond mere Bayesianism.  These ideas should be attributed to QBism specifically rather than to the Bayesian interpretation generally.
 
+## Related entries
+
+* [[interpretation of quantum mechanics]]
+
+* [[quantum probability]]
+
+* [[collapse of the wave function]]
 
 ## References
 
-* [[John Baez]] (1993). This Week's Finds in Mathematical Physics (Week 27). [Web](http://math.ucr.edu/home/baez/week27.html).
-  {#Baez1993}
+* {#Baez1993} [[John Baez]] (1993). This Week's Finds in Mathematical Physics (Week 27). [Web](http://math.ucr.edu/home/baez/week27.html).
+ 
 
-* John Baez et al (2003). Bayesian Probability Theory and Quantum Mechanics. Collection of Usenet posts from 1994, with commentary. [Web](http://www.math.ucr.edu/home/baez/bayes.html)
-  {#Baez2003}
+* {#Baez2003} John Baez et al (2003). Bayesian Probability Theory and Quantum Mechanics. Collection of Usenet posts from 1994, with commentary. [Web](http://www.math.ucr.edu/home/baez/bayes.html)
+  
 
-* Carlton Caves, [[Christopher Fuchs]], Ruediger Schack (2001). Unknown Quantum States: The Quantum de Finetti Representation. [arXiv](http://arxiv.org/abs/quant-ph/0104088).
-  {#CFS2001}
+* {#CFS2001} Carlton Caves, [[Christopher Fuchs]], Ruediger Schack (2001). Unknown Quantum States: The Quantum de Finetti Representation. [arXiv](http://arxiv.org/abs/quant-ph/0104088).
+  
 
-* [[Christopher Fuchs]] (n.d.). Quantum Dreams Page. Collection of preprints, epistles, and lecture notes. [Web](http://www.perimeterinstitute.ca/personal/cfuchs/).
-  {#Fuchs}
+* {#Fuchs} [[Christopher Fuchs]] (n.d.). Quantum Dreams Page. Collection of preprints, epistles, and lecture notes. [Web](http://www.perimeterinstitute.ca/personal/cfuchs/).
 
-* Wikimedia Foundation (n.d.). Quantum Bayesianism. [English Wikipedia](https://en.wikipedia.org/wiki/Quantum_Bayesianism).
-  {#Wikimedia}
+* [[Christopher Fuchs]], [[David Mermin]], Ruediger Schack, _An Introduction to QBism with an Application to the Locality of Quantum Mechanics_, Am. J. Phys., Vol. 82, No. 8, August 2014, 749-754 ([arXiv:1311.5253](https://arxiv.org/abs/1311.5253))
+
+* {#Mermin18} [[David Mermin]], _Making better sense of quantum mechanics_ ([arXiv:1809.01639](https://arxiv.org/abs/1809.01639))
+
+See also
+
+* {#Wikimedia}Wikimedia Foundation (n.d.). Quantum Bayesianism. [English Wikipedia](https://en.wikipedia.org/wiki/Quantum_Bayesianism).
+  
 
 
 [[!redirects Bayesian interpretation of quantum mechanics]]
