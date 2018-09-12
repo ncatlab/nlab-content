@@ -114,6 +114,11 @@ where these categories are called _ring categories_. Discussion with an eye towe
 
 [[!redirects rig category]]
 [[!redirects rig categories]]
+
+[[!redirects rig-category]]
+[[!redirects rig-categories]]
+
+
 [[!redirects ring category]]
 [[!redirects ring categories]]
 [[!redirects bimonoidal category]]
