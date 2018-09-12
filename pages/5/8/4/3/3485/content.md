@@ -260,9 +260,9 @@ Notice that when this is the case, it means that the [[representation theory]] o
 
 +-- {: .num_prop #WhenAllVirtualLinearRepsAreVirtualPermutationReps}
 ###### Proposition
-**(when all virtual linear reps are virtual permutation reps)**
+**(virtual linear reps from virtual permutation reps)**
 
-The comparison morphism
+For [[ground field]] $k = \mathbb{Q}$ the [[rational numbers]], the comparison morphism
 
 $$
   A(G) \overset{ \beta = K(k[-]) }{\longrightarrow} R(G)
@@ -270,17 +270,23 @@ $$
 
 from Def. \ref{ComparisonMapBurnsideRingRepresentationRing} 
 
-1. is [[surjective map|surjective]] in the following cases (not all mutually exclusive):
+1. is [[surjective map|surjective]] in the following cases (not mutually exclusive):
 
-   1. $G$ is a [[p-group]];
+   1. $G$ is a [[p-primary group]],
 
-   1. $G$ is a [[cyclic group]];
+   1. $G$ is a [[cyclic group]],
 
-   1. $G = S_4$ the [[symmetric group]] on four elements
+1. is _not_ [[surjective map|surjective]] in the following example:
 
-1. is _not_ [[surjective map|surjective]] in the following cases:
+   * $G = \mathbb{Z}/3 \times Q_8$ ([[direct product]] of [[cyclic group]] of [[order of a group|order]] 3 with [[quaternion group]] or order 8);
 
-   1. $G = \mathbb{Z}/3 \times Q_8$ ([[direct product]] of [[cyclic group]] of [[order of a group|order]] 3 with [[quaternion group]] or order 8)
+1. is [[injective map|injective]] precisely if
+
+   * $G$ is a [[cyclic group]];
+
+1. is an [[isomorphism]] if 
+
+   * $G$ is a [[cyclic group]].
 
 =--
 
@@ -288,21 +294,26 @@ from Def. \ref{ComparisonMapBurnsideRingRepresentationRing}
 ###### Proof
 
 
-The proof for [[p-groups]] is due to [Segal 72](#Segal72), see also [Feit 67](#Feit67), [Ritter 72](#Ritter72).
+The proof of surjectivity for [[p-primary groups]] is due to [Segal 72](#Segal72). (As Segal remarks on his first page, it may also be deduced from [Feit 67 (14.3)](#Feit67). See also [Ritter 72](#Ritter72).)
 
-The case of [[cyclic groups]] follows from the case of [[p-groups]] by the [[fundamental theorem of cyclic groups]].
+From this the surjectivity for [[cyclic groups]] follows via the [[fundamental theorem of cyclic groups]].
 
-For the example that $G = S_4$ a proof is spelled out at _[Categorified Gram-Schmidt process](Gram-Schmidt+process#CategorifiedGramSchmidtProcess)_. See also the example in [Montaldi](#Montaldi) [here](http://www.maths.manchester.ac.uk/~jm/wiki/Representations/S4).
+The non-surjectivity for $G = \mathbb{Z}/3 \times Q_8$ was remarked in [Serre 77, p. 104](#Serre77).
 
-The counter-example $\mathbb{Z}/3 \times Q_8$ was remarked in [Serre 77, p. 104](#Serre77)
+To see that injectivity holds precisely for [[cyclic groups]], notice that over $k = \mathbb{Q}$ we have that
+
+1. the number of [[isomorphism classes]] of [[irreducible representations]] of $G$ equals the number of [[conjugacy classes]] of _[[cyclic group|cyclic]]_ [[subgroups]];
+
+1. the number of [[isomorphism classes]] of indecomposable ([[transitive action|transitive]]) [[G-sets]] (i.e. $G$-[[orbit]] types) is the number of [[conjugacy classes]] of _all_ [[subgroups]].
+
+(stolen from [Webster on MO, 2013](https://mathoverflow.net/a/21204/381)).
+
+This means that for $G$ not a cyclic group we have $dim(A(G)) \gt dim(R(G))$, so that $\beta$ cannot be injective. On the other hand, for $G$ a cyclic group this says that $dim(A(G)) = dim(R(G))$, so that if $\beta$ were not injective, its image would have dimension $\lt dim(R(G))$, which however contradicts the surjectivity asserted by item 2 above.
 
 =--
 
-A more general analysis of the [[cokernel]] of $\beta$ is due to [Berz 94](#Berz94), reviewed and expanded on in [Hambleton-Taylor 99](#HambletonTaylor99).
+A more general analysis of the [[cokernel]] of $\beta$ is due to [Berz 94](#Berz94), reviewed and expanded on in [Hambleton-Taylor 99](#HambletonTaylor99). See also [Bartel-Dokchitser 14, p. 1](#BartelDokchitser14).
 
-See also the review of the literature in [Bartel-Dokchitser 14, p. 1](#BartelDokchitser14).
-
-Apparently $\beta$ is an [[isomorphism]] precisely if $G$ is a [[cyclic group]] (see [PlanetMath](#PlanetMathRepAndBurn)).
 
 
 ## Related entries
