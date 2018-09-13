@@ -145,6 +145,10 @@ As a [[perturbative quantum field theory]], quantum gravity exists (usually thou
 
 * [[Zvi Bern]], _Perturbative Quantum Gravity and its Relation to Gauge Theory_, Living Rev Relativ. 2002; 5(1): 5. ([arXiv:gr-qc/0206071](https://arxiv.org/abs/gr-qc/0206071), [doi:10.12942/lrr-2002-5](https://dx.doi.org/10.12942%2Flrr-2002-5))
 
+Review and outlook includes
+
+* [[Richard Woodard]], _Perturbative Quantum Gravity Comes of Age_,  International Journal of Modern Physics DVol. 23, No. 09, 1430020 (2014) ([arXiv:1407.4748](https://arxiv.org/abs/1407.4748))
+
 A brief survey of the relevant mathematical issues with more pointers to the literature is in
 
 * [[Igor Khavkine]], _Gravity: an exercise in quantization_, talk at _Quantum Gravity in Perspective_, Munich, 31 May 2013 ([pdf slides](http://www.science.unitn.it/~khavkine/khavkine-munich.pdf), [video](https://www.youtube.com/watch?v=G5O9RKmXyfM#t=2444))
