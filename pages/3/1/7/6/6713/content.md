@@ -323,6 +323,8 @@ See also at _[[anti-D-brane]]_.
 
 Review of the physical picture includes
 
+* Kasper Olsen, [[Richard Szabo]], _Constructing D-Branes from K-Theory_, Adv.Theor.Math.Phys. 3 (1999) 889-1025 ([arXiv:hep-th/9907140](https://arxiv.org/abs/hep-th/9907140))
+
 * {#Witten00} [[Edward Witten]], _Overview Of K-Theory Applied To Strings_, Int.J.Mod.Phys.A16:693-706,2001 ([arXiv:hep-th/0007175](https://arxiv.org/abs/hep-th/0007175))
 
 * [[Greg Moore]], _K-Theory from a physical perspective_ ([arXiv:hep-th/0304018](http://arxiv.org/abs/hep-th/0304018))
@@ -375,6 +377,13 @@ Discussion of D-brane [[matrix models]] taking these K-theoretic effects into ac
 
 * {#AsakawaSugimotoTerashima01} T. Asakawa, S. Sugimoto, S. Terashima, _D-branes, Matrix Theory and K-homology_, JHEP 0203 (2002) 034 ([arXiv:hep-th/0108085](https://arxiv.org/abs/hep-th/0108085))
 
+Discussion of [[equivariant K-theory]] for D-branes on [[orbifolds]] includes the following:
+
+* HugoGarcía-Compeán, _D-branes in orbifold singularities and equivariant K-theory_, Nucl.Phys. B557 (1999) 480-504 ([arXiv:hep-th/9812226](https://arxiv.org/abs/hep-th/9812226))
+
+* [[Igor Kriz]], Leopoldo A. Pando Zayas, Norma Quiroz, _Comments on D-branes on Orbifolds and K-theory_, Int.J.Mod.Phys.A23:933-974, 2008 ([arXiv:hep-th/0703122](https://arxiv.org/abs/hep-th/0703122))
+
+* [[Richard Szabo]], [[Alessandro Valentino]], _Ramond-Ramond Fields, Fractional Branes and Orbifold Differential K-Theory_, Commun.Math.Phys.294:647-702, 2010 ([arXiv:0710.2773](https://arxiv.org/abs/0710.2773))
 
 ### Via the Atiyah-Hirzebruch spectral sequence
 
