@@ -397,7 +397,7 @@ which is manifestly an [[isomorphism]], in accord with Prop. \ref{WhenAllVirtual
 
 +-- {: .num_example #VirtualPermuationRepresentationOfS4}
 ###### Example
-**(virtual permutation representation of [[symmetric group]] $S_4$)**
+**(virtual permutation representations of [[symmetric group]] $S_4$)**
 
 For $G = S_4$ the [[symmetric group]] on four elements, the comparison morphism from the [[Burnside ring]] to the [[representation ring]] (Def. \ref{ComparisonMapBurnsideRingRepresentationRing}) 
 
