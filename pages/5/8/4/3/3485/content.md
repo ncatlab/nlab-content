@@ -271,7 +271,7 @@ $$
   A(G) \overset{ \beta = K(k[-]) }{\longrightarrow} R(G)
 $$
 
-from Def. \ref{ComparisonMapBurnsideRingRepresentationRing} 
+from Def. \ref{ComparisonMapBurnsideRingRepresentationRing}, which sends [[Burnside ring|virtual G-sets]]  to [[representation ring|virtual linear G-representations]],
 
 1. is [[surjective map|surjective]] in the following cases (not mutually exclusive):
 
