@@ -19,6 +19,8 @@ More generally, for arbitrary sets $A$ and $B$ we can define an $A\times B$-matr
 
 * [[inverse matrix]]
 
+* [[monomial matrix]], [[permutation matrix]]
+
 * [[matrix group]], [[matrix Lie group]]
 
 * [[unitary matrix]]. [[unitary group]]
