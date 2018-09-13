@@ -104,6 +104,10 @@ Families of examples of [[G2 manifolds|G2 orbifolds]] with ADE singularities are
 
 * {#Reidegeld15} [[Frank Reidegeld]], _$G_2$-orbifolds from K3 surfaces with ADE-singularities_ ([arXiv:1512.05114](http://arxiv.org/abs/1512.05114))
 
+[[Riemannian geometry]] of manifolds with ADE singularities is discussed in 
+
+* Boris Botvinnik, [[Jonathan Rosenberg]], _Positive scalar curvature on manifolds with fibered singularities_ ([arXiv:1808.06007](https://arxiv.org/abs/1808.06007))
+
 See also 
 
 * Wikipedia, _[du Val singularity](https://en.wikipedia.org/wiki/Du_Val_singularity)_
