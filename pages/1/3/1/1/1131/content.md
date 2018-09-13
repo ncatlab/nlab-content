@@ -471,7 +471,7 @@ The relation to $L_\infty$-algebras is discussed for instance in
  
 
 
-See also the regerences at [[model structure on dg-Lie algebras]].
+See also the references at [[model structure on dg-Lie algebras]].
 
 A discussion of how formal neighbourhoods of points in [[infinity-stack]]s are governed by dg-Lie algebras:
 
