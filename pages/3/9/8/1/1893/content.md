@@ -204,7 +204,7 @@ A _big $\Lambda$-ring_ is a commutative ring equipped with commuting endomorphis
 
 =--
 
-This is def. 1.7 in ([Borger 08](Borger08)), formulated for the special case of example 1.15 there (which is stated in terms of Witt vectors) and translated to $\Lambda$-rings in view of prop. 1.10 c) (see [the adjunction](#AdjointTriple)) there.
+This is def. 1.7 in ([Borger 08](#Borger08)), formulated for the special case of example 1.15 there (which is stated in terms of Witt vectors) and translated to $\Lambda$-rings in view of prop. 1.10 c) (see [the adjunction](#AdjointTriple)) there.
 
 
 > the following originates from revision 19 but needs attention
