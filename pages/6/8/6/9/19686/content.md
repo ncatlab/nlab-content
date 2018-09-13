@@ -17,7 +17,7 @@
 
 ## Idea
 
-A square [[matrix]] is called a _permutation matrix_ if every row (equivalently: every column) has all entries 0 except for precisely one entry, which has value 1 (a special case of [[monomial matrices]]).
+A square [[matrix]] is called a _permutation matrix_ if every row and every column has all entries 0 except for precisely one entry, which has value 1 (a special case of [[monomial matrices]]).
 
 Permutation matrices represent [[linear permutation representations]] in their canonical [[linear basis]].
 
