@@ -560,7 +560,7 @@ A special case of the example of Kan extension is that of [[geometric realizatio
 
 Very generally, geometric realization is the left Kan extension of a functor $F : C \to D$ along the [[Yoneda embedding]] $Y : C \to [C^{op},V]$.
 
-The "geometric realization" of an object $X \in [C,V]$ with respect to $F$ is then the coend 
+The "geometric realization" of an object $X \in [C^{op},V]$ with respect to $F$ is then the coend 
 
 $$
   |X| := \int^{c \in C} F(c) \cdot hom(Y(c),X)
