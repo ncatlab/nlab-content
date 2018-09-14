@@ -13,7 +13,7 @@ Given [[morphisms]] $m:C\to A$ and $g:A\to D$ in a [[category]], a **pushout com
 $$ \array{ C & \to & A \\ \downarrow & & \downarrow \\ B & \to & D }$$
 [[commutative square|commutes]] and is a [[pushout]].
 
-In general, even in good categories, pushout complements may not exist.  However, if they do exist, then as long as the category is [[adhesive category|adhesive]] (such as a [[topos]]), they are unique up to unique isomorphism.  In the language of [[homotopy type theory]], the [[type]] of pushout complements is an [[h-proposition]].
+In general, even in good categories, pushout complements may not exist.  However, if they do exist, then as long as the category is [[adhesive category|adhesive]] (such as a [[topos]]) and $m$ is a [[monomorphism]], they are unique up to unique isomorphism.  In the language of [[homotopy type theory]], the [[type]] of such pushout complements is an [[h-proposition]].
 
 ## Examples
 
