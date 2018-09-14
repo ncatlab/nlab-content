@@ -170,7 +170,7 @@ Relation to [[Mackey functors]]:
 
   _Permutative $G$-categories in equivariant infinite loop space theory ([arXiv:1207.3459](http://arxiv.org/abs/1207.3459))
 
-* {#Barwick14} [[Clark Barwick]], _Spectral Mackey functors and equivariant algebraic K-theory (I)_ ([arXiv:1404.0108](http://arxiv.org/abs/1404.0108))
+* {#Barwick14} [[Clark Barwick]], _Spectral Mackey functors and equivariant algebraic K-theory (I)_, Adv. Math., 304:646–727 ([arXiv:1404.0108](http://arxiv.org/abs/1404.0108))
 
 
 For more references see at _[[equivariant stable homotopy theory]]_ and at _[[Mackey functor]]_
