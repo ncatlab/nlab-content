@@ -59,8 +59,7 @@ A _Cartan geometry_ is a space equipped with a _[[Cartan connection]]_. See ther
 
 The original articles are
 
-* {#Cartan22} [[Élie Cartan]], _Sur une g&#233;n&#233;ralisation de la notion de courbure de Riemann et les espaces &#225; torsion, C. R. Acad. Sci. 174
-, 593-595 (1922).
+* {#Cartan22} [[Élie Cartan]], _Sur une g&#233;n&#233;ralisation de la notion de courbure de Riemann et les espaces &#225; torsion, C. R. Acad. Sci. 174, 593-595 (1922).
 
 * [[Élie Cartan]], Comptes rendus hebdomadaires des s&#233;ances de l&#8217;Acad&#233;mie des sciences, 174, 437-439, 593-595, 734-737, 857-860, 1104-1107 (January 1922).
 
