@@ -281,11 +281,14 @@ Discussion of the [[image]] of the [[J-homomorphism]] is due to
 
 ### Formalization in homotopy type theory
 
-For formalization in [[homotopy type theory]] see at
+For formalization in [[homotopy type theory]] see 
+
+* [[homotopytypetheory:HomePage|HoTT wiki]], _[[homotopytypetheory:homotopy groups of spheres]]_ 
 
 * [[UF-IAS-2012]], _[HomotopyGroupsOfSpheres](http://uf-ias-2012.wikispaces.com/HomotopyGroupsOfSpheres)_
 
 * {#Brunerie16} [[Guillaume Brunerie]], _On the homotopy groups of spheres in homotopy type theory_ ([arXiv:1606.05916](http://arxiv.org/abs/1606.05916))
+
 
 
 
