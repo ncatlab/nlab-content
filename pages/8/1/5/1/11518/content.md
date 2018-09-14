@@ -129,6 +129,10 @@ a map of $G$-spectra $f \colon E \longrightarrow F$ is a [[weak equivalence]] (e
  
 ## References
 
+Good lecture notes are 
+
+* {#Blumberg17} [[Andrew Blumberg]], _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
+
 The concept of genuine $G$-spectra is due to 
 
 * [[L. Gaunce Lewis, Jr.]], [[Peter May]], M. Steinberger, and J. E. McClure, _Equivariant stable homotopy theory_, Lecture Notes in Mathematics, vol. 1213, Springer-Verlag, Berlin, 1986, With contributions by J. E. McClure. MR 866482 (88e:55002)
@@ -178,6 +182,11 @@ Characterization via [[excisive functors]] is in
 In the case of a [[cyclic group]] of prime order, genuine $G$-spectra admit a simple model which amounts to specifying a spectrum $E$, a $G$-action on $E$, a genuine fixed point spectrum $E^G$, and a diagram $E_{hG} \to E^G \to E^{hG}$.  See Example 3.29 in:
 
 * [[Saul Glasman]], _Stratified categories, geometric fixed points and a generalized  Arone-Ching theorem_, [arXiv:1507.01976](https://arxiv.org/abs/1507.01976).
+
+A perspective on the category of genuine G-spectra as a lax limit over those of "naive" G-spectra is given in 
+
+* {#AyalaMazelGeeRozenblyum17} [[David Ayala]], [[Aaron Mazel-Gee]], [[Nick Rozenblyum]], _A naive approach to genuine $G$-spectra and cyclotomic spectra_ ([arXiv:1710.06416](https://arxiv.org/abs/1710.06416))
+
 
 [[!redirects G-spectra]]
 
