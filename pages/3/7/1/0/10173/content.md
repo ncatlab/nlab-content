@@ -5,4 +5,6 @@
 
 * [[Spanier-Whitehead category]]
 
+* [[Mackey functor]]
+
 category: people
