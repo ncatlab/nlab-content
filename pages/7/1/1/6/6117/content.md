@@ -35,7 +35,7 @@ $$
   \,.
 $$
 
-For $X$ moreover a [[smooth manifold]] then by the [[de Rham theorem]] this is equivalently the dimenion of the [[de Rham cohomology]] groups.
+For $X$ moreover a [[smooth manifold]] then by the [[de Rham theorem]] this is equivalently the dimension of the [[de Rham cohomology]] groups.
 
 ## Properties
 
