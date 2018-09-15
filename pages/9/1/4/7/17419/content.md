@@ -27,8 +27,7 @@ The [[Cartesian product]] in the [[category]] of [[groups]] is often called the 
 ###### Proposition
 **([[irreps]] of [[direct product groups]] are [[external tensor products]] of [[irreps]])**
 
-
-Let $G_1, G_2$ be two [[groups]]. Then every [[irreducible representation]] $\rho \in (G_1 \times G_2) Rep_{irr}$ of their [[direct product group]] $G_1 \times G_2$ is the [[external tensor product]] of [[irreducible representations]] $\rho_i \in G_i Rep_{irr}$ of the two groups separately:
+Let $G_1, G_2$ be two [[groups]]. Then, over an [[algebraically closed field|algebraically closed]] [[ground field]], every [[irreducible representation]] $\rho \in (G_1 \times G_2) Rep_{irr}$ of their [[direct product group]] $G_1 \times G_2$ is the [[external tensor product]] of [[irreducible representations]] $\rho_i \in G_i Rep_{irr}$ of the two groups separately:
 
 $$
   \rho \;=\; \rho_1 \boxtimes \rho_2
@@ -48,16 +47,17 @@ $$
 ###### Proof
 
 
-Over an [[algebraically closed field]] this follows by [[Schur's lemma]] see e.g. [here](https://math.stackexchange.com/a/2503141/58526).
-
-For the general statement see for instance [Kowalski 11, Prop. 2.3.17](#Kowalski11).
+By [[Schur's lemma]] see e.g. [here](https://math.stackexchange.com/a/2503141/58526).
 
 =--
+
 
 +-- {: .num_remark }
 ###### Remark
 
-The converse to Prop. \ref{IrrepsOfDirectProductsAreExternalTensorProductsOfIrreps} is _false_ in general. The [[external tensor product]] of irreducible representations need not be irreducible itself. For more see [Fein 67](#Fein67).
+The statement of Prop. \ref{IrrepsOfDirectProductsAreExternalTensorProductsOfIrreps} is in general false if the ground field is not algebraically closed. A counterexample is given im [Kowalski 13, Example 2.7.31](#Kowalski13).
+
+Also the converse to Prop. \ref{IrrepsOfDirectProductsAreExternalTensorProductsOfIrreps} is _false_ in general. The [[external tensor product]] of irreducible representations need not be irreducible itself. For more see [Fein 67](#Fein67).
 
 =--
 
@@ -68,7 +68,7 @@ The converse to Prop. \ref{IrrepsOfDirectProductsAreExternalTensorProductsOfIrre
 
 ## References
 
-* {#Kowalski11} E. Kowalski, around p. 41 of _Representation theory_, 2011 ([pdf](https://people.math.ethz.ch/~kowalski/representation-theory-notes.pdf))
+* {#Kowalski13} E. Kowalski, around p. 41 of _Representation theory_, 2013 ([pdf]([[KowalskiReptheory2013.pdf:file]])
 
 * {#Fein67} Burton Fein, _Representations of direct products of finite groups_, Pacific J. Math. Volume 20, Number 1 (1967), 45-58 ([Euclid:1102992967](https://projecteuclid.org/euclid.pjm/1102992967))
 See also
