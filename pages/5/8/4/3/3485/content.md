@@ -438,6 +438,7 @@ American Journal of Mathematics Vol. 93, No. 4 (Oct., 1971), pp. 857-866 ([jstor
 
 * {#BartelDokchitser14} Alex Bartel, Tim Dokchitser, _Rational representations and permutation representations of finite groups_, Math. Ann. 364 no. 1 (2016), 539-558 ([arXiv:1405.6616](https://arxiv.org/abs/1405.6616))
 
+* Vladimir V. Kornyak, _An Algorithm to Decompose Permutation Representations of Finite Groups: Polynomial Algebra Approach_ ([arXiv:1801.09786](https://arxiv.org/abs/1801.09786))
 
 See also
 
