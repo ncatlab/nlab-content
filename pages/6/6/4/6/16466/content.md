@@ -1347,7 +1347,7 @@ $$
 +-- {: .num_prop #CompactClosedMonoidalCategory}
 ###### Proposition
 
-Every [[rigid monoidal category|rigid]] (def. \refDualizableObject) [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory})  is a [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}) with [[internal hom]] between two objects given by the [[tensor product]]
+Every [[rigid monoidal category|rigid]] [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory})  is a [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}) with [[internal hom]] between two objects given by the [[tensor product]]
 of the [[codomain]] object with the [[dual object]] of the domain object
 
 $$
