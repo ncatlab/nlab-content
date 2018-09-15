@@ -420,9 +420,9 @@ and shown to be equivalent to categories with attributes in
 
 * [[Martin Hofmann]], *Syntax and semantics of dependent types*, [citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.8985).
 
-The initial category with families was constructed in
+A proof of initiality for dependent type theory is claimed in
 
-* Simon Castellan, Dependent type theory as the initial category with families ([PDF](http://iso.mor.phis.me/archives/2011-2012/stage-2012-goteburg/report.pdf))
+* Simon Castellan, _Dependent type theory as the initial category with families_, 2014 ([pdf](http://iso.mor.phis.me/archives/2011-2012/stage-2012-goteburg/report.pdf))
 
 This was formalized inside type theory with set quotients of [[higher inductive types]] in:
 
