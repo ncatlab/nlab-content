@@ -379,7 +379,13 @@ The [[equivalence of categories]] between [[first order logic|first order theori
 
 * {#SeelyA} [[R. A. G. Seely]], _Hyperdoctrines, natural deduction, and the Beck condition_, Zeitschrift f&#252;r Math. Logik und Grundlagen der Math. (1984) ([pdf](http://www.math.mcgill.ca/rags/ZML/ZML.PDF))
  
+The [[categorical model of dependent types]] and initiality is discussed in
 
+* Simon Castellan, _Dependent type theory as the initial category with families_, 2014 ([pdf](http://iso.mor.phis.me/archives/2011-2012/stage-2012-goteburg/report.pdf))
+
+which was formalized inside type theory with set quotients of [[higher inductive types]] in:
+
+* {#AltKap2015} [[Thorsten Altenkirch]], Ambrus Kaposi, _Type Theory in Type Theory using Quotient Inductive Types_, (2015) ([pdf](http://www.cs.nott.ac.uk/~txa/publ/tt-in-tt.pdf)), ([formalisation in Agda](https://bitbucket.org/akaposi/tt-in-tt)).
 
 Surveys inclue 
 
