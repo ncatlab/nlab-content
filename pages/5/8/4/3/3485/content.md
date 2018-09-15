@@ -273,23 +273,11 @@ $$
 
 from Def. \ref{ComparisonMapBurnsideRingRepresentationRing}, which sends [[Burnside ring|virtual G-sets]]  to [[representation ring|virtual linear G-representations]],
 
-1. is [[surjective map|surjective]] in the following cases (not mutually exclusive):
+1. is [[surjective map|surjective]] for $G$ a [[p-group]],
 
-   1. $G$ is a [[p-primary group]],
+1. is _not_ [[surjective map|surjective]] for $G = \mathbb{Z}/3 \times Q_8$ ([[direct product]] of [[cyclic group]] of [[order of a group|order]] 3 with [[quaternion group]] or order 8);
 
-   1. $G$ is a [[cyclic group]],
-
-1. is _not_ [[surjective map|surjective]] in the following example:
-
-   * $G = \mathbb{Z}/3 \times Q_8$ ([[direct product]] of [[cyclic group]] of [[order of a group|order]] 3 with [[quaternion group]] or order 8);
-
-1. is [[injective map|injective]] precisely if
-
-   * $G$ is a [[cyclic group]];
-
-1. is an [[isomorphism]] if 
-
-   * $G$ is a [[cyclic group]].
+1. is [[injective map|injective]] at most if $G$ is a [[cyclic group]];
 
 =--
 
@@ -300,19 +288,17 @@ from Def. \ref{ComparisonMapBurnsideRingRepresentationRing}, which sends [[Burns
 
 The proof of surjectivity for [[p-primary groups]] is due to [Segal 72](#Segal72). (As Segal remarks on his first page, it may also be deduced from [Feit 67 (14.3)](#Feit67). See also [Ritter 72](#Ritter72).)
 
-To see surjectivity for [[cyclic groups]]: By the previous statement we have surjectivity already for those cyclic groups whose order is a prime power. But by the [[fundamental theorem of cyclic groups]], every cyclic group is a [[direct product group]] of cyclic groups of prime power order. Moreover, every irreducible representation of a direct product group is an [[external tensor product]] of irreps of the group factors ([this prop.](direct+product+group#IrrepsOfDirectProductsAreExternalTensorProductsOfIrreps)). But $\beta$ sends "external Cartesian products" to external tensor products, by the same elementary argument which shows that $\beta$ sends plain Cartesian products to tensor products. This way the statement reduces to that for $p$-primary cyclic groups.
-
 The non-surjectivity for $G = \mathbb{Z}/3 \times Q_8$ was remarked in [Serre 77, p. 104](#Serre77).
 
-To see that injectivity holds precisely for [[cyclic groups]], notice that over $k = \mathbb{Q}$ we have that
+To see that injectivity holds at most for [[cyclic groups]], notice that over $k = \mathbb{Q}$ we have that
 
-1. the number of [[isomorphism classes]] of [[irreducible representations]] of $G$ equals the number of [[conjugacy classes]] of _[[cyclic group|cyclic]2]_ [[subgroups]];
+1. the number of [[isomorphism classes]] of [[irreducible representations]] of $G$ equals the number of [[conjugacy classes]] of _[[cyclic group|cyclic]]_ [[subgroups]];
 
 1. the number of [[isomorphism classes]] of indecomposable ([[transitive action|transitive]]) [[G-sets]] (i.e. $G$-[[orbit]] types) is the number of [[conjugacy classes]] of _all_ [[subgroups]].
 
 (stolen from [Webster on MO, 2013](https://mathoverflow.net/a/21204/381)).
 
-This means that for $G$ not a cyclic group we have $dim(A(G)) \gt dim(R(G))$, so that $\beta$ cannot be injective. On the other hand, for $G$ a cyclic group this says that $dim(A(G)) = dim(R(G))$, so that if $\beta$ were not injective, its image would have dimension $\lt dim(R(G))$, which however contradicts the surjectivity asserted by item 2 above.
+This means that for $G$ not a cyclic group we have $dim(A(G)) \gt dim(R(G))$, so that $\beta$ cannot be injective. 
 
 =--
 
@@ -397,18 +383,19 @@ which is manifestly an [[isomorphism]], in accord with Prop. \ref{WhenAllVirtual
 
 +-- {: .num_example #VirtualPermuationRepresentationOfS4}
 ###### Example
-**(virtual permutation representations of [[symmetric group]] $S_4$)**
+**(virtual permutation representations of [[symmetric groups]])**
 
-For $G = S_4$ the [[symmetric group]] on four elements, the comparison morphism from the [[Burnside ring]] to the [[representation ring]] (Def. \ref{ComparisonMapBurnsideRingRepresentationRing}) 
+For $G = S_n$ a [[symmetric group]] on $n$ elements, the comparison morphism from the [[Burnside ring]] to the [[representation ring]] (Def. \ref{ComparisonMapBurnsideRingRepresentationRing}) 
 
 $$
-  A(S_4)
+  A(S_n)
   \overset{\beta}{\longrightarrow}
-  R(S_4)
+  R(S_n)
 $$
 
-is a  [[surjective map]] at least over $k =\mathbb{R}$ (see [Montaldi](#Montaldi), bottom of [this page](http://www.maths.manchester.ac.uk/~jm/wiki/Representations/S4)) and $k =\mathbb{C}$ (see at _[Categorified Gram-Schmidt process](Gram-Schmidt+process#CategorifiedGramSchmidtProcess)_).
+is a  [[surjective map]] over $\mathbb{Q}$ but also over $\mathbb{R}$ and $\mathbb{C}$. 
 
+The special case of $S_4$ is made explicit for $k =\mathbb{R}$ in [Montaldi](#Montaldi), bottom of [this page](http://www.maths.manchester.ac.uk/~jm/wiki/Representations/S4), and for $k =\mathbb{C}$ at _[Categorified Gram-Schmidt process](Gram-Schmidt+process#CategorifiedGramSchmidtProcess)_.
 
 =--
 
