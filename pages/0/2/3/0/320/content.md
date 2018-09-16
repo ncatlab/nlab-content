@@ -84,11 +84,15 @@ There is a [[faithful functor]] from [[monoidal categories]] to [[multicategorie
 
 ## Examples and special cases
 
+* [[permutative categories]] with multi-linear functors between them form a multicategory [[PermCat]]
+
 See also the examples at _[[operad]]_.
 
 ## Related concepts
 
 * [[multimorphism]]
+
+* [[multifunctor]]
 
 * [[polycategory]]
 
