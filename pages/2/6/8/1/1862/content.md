@@ -1,16 +1,37 @@
 
-#Idea#
 
-A _vectorial bundle_ is a $\mathbb{Z}_2$-[[graded vector space|graded vector bundle]] $E$ of finite rank, equipped with an odd [[endomorphism]] $h : E \to E$. Homomorphisms of vectorial bundles are such that the endomorphism $h$ acts like canceling parts of the even and odd degree of $E$ against each other.
 
-This way vectorial bundles lend themselves to the description of [[K-theory]]. In particular, they allow a geometric model for [[twisted K-theory]].
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
 
-# Definition #
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _vectorial bundle_ ([Gomi 08](#Gomi08)) is a $\mathbb{Z}_2$-[[graded vector space|graded]] [[vector bundle]] $E$ of [[finite number|finite]] [[rank of a vector bundle|rank]], equipped with an odd [[endomorphism]] $h \;\colon\; E \to E$. The [[homomorphisms]] of vectorial bundles are such that the [[endomorphism]] $h$ acts like canceling parts of the even and odd degree of $E$ against each other.
+
+This way vectorial bundles lend themselves to the description of [[topological K-theory]]. In particular, they allow a geometric model for [[twisted K-theory]].
+
+## Definition 
 
 
 For $X$ a [[topological space]], the [[category]] $VectrBund(X)$ of **vectorial bundles** on $X$ has
 
-* as objects $(E \stackrel{h}{\to} E)$ finite rank Hermitean $\mathbb{Z}_2$-graded [[vector bundle]]s $E\to X$ equipped with a self-adjoint [[endomorphism]] $h$ of odd degree. In [[matrix calculus]]
+* as [[objects]] $(E \stackrel{h}{\to} E)$ [[finite number|finite]] [[rank of a vector bundle|rank]] Hermitean $\mathbb{Z}_2$-graded [[vector bundle]]s $E\to X$ equipped with a self-adjoint [[endomorphism]] $h$ of odd degree. In [[matrix calculus]]
 
   $$
     E = \left( 
@@ -33,17 +54,19 @@ For $X$ a [[topological space]], the [[category]] $VectrBund(X)$ of **vectorial 
      \right)
   $$
 
-* as morphisms $\phi : (E,h) \to (E',h)$ equivalence classes of morphisms $\phi : E \to E'$ of vector bundles such that
+* as [[morphisms]] $\phi : (E,h) \to (E',h)$ [[equivalence classes]] of morphisms $\phi \colon E \to E'$ of vector bundles such that
+
   $$
     \array{
-      E &\stackrel{\phi}{\to}& E
+      E &\stackrel{\phi}{\longrightarrow}& E
       \\
-      \downarrow^{h} && \downarrow^{h'}
+      {}^{\mathllap{h}}\big\downarrow && \big\downarrow^{\mathrlap{h'}}
       \\
-      E &\stackrel{\phi}{\to}& E
+      E &\stackrel{\phi}{\longrightarrow}& E
     }
     \,,
   $$
+
   where two such maps are regarded as equivalent, $\phi \sim \phi'$,  already if they coincide on  the kernel of $h^2_x$ for each point $x$.
 
 In particular, we have the following two important special cases:
@@ -90,10 +113,10 @@ $$
   E \oplus E^\vee \to 0 .
 $$
 
-# References #
+## References 
 
 The definition of vectorial bundles is due to Furuta. It is recalled and applied to the study of [[K-theory]] and [[twisted K-theory]] in
 
-* K. Gomi, _Twisted K-theory and finite-dimensional approximation_ ([arXiv](http://arxiv.org/abs/0803.2327))
+* {#Gomi08} [[Kiyonori Gomi]], _Twisted K-theory and finite-dimensional approximation_ ([arXiv:0803.2327](http://arxiv.org/abs/0803.2327))
 
 [[!redirects vectorial bundles]]
