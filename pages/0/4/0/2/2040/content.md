@@ -77,14 +77,14 @@ For $G$ finite, Mackey functors on $\mathcal{C}$ are equivalent to  genuine [[G-
 
 (...)
  
-For $E$ a [[genuine G-spectrum]], the corresponding spectral Mackey functor is given by the [[equivariant homotopy groups]] of $E$
+For $E$ a [[genuine G-spectrum]], the corresponding spectral Mackey functor is given by the [[fixed point spectra]] of $E$
 
 $$
-  G/H \mapsto E(G/H) =  [\Sigma^\infty_+ G/H, E]_G
+  G/H \mapsto E(G/H) =  [\Sigma^\infty_+ G/H, E]^G \simeq E^H
   \,,
 $$
 
-where on the right we have the $G$-equivariant [[mapping spectrum]] from the (equivariant) [[suspension spectrum]] of the [[orbit]] $G/H$ to $E$.
+where on the right we have the $G$-equivariant [[mapping spectrum]] from the [[equivariant suspension spectrum]] of the [[transitive action|transitive]] [[G-set]] $G/H$ to $E$.
 
 (e.g. ([Guillou-May 11, remark 2.5](#GuillouMay11)), see also ([Schwede 15, p. 16](#Schwede15)) for restriction and section 4 culminating on p. 37 for transfer and compatibility).
 
@@ -171,7 +171,7 @@ Reviews and surveys include
 
 * {#GreenleesMay95} [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_, in I.M. James (ed.), _Handbook of Algebraic Topology_ , pp. 279-325. 1995. ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
 
-* {#May96} [[Peter May]], section IX.4 of _Equivariant homotopy and cohomology theory_ CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996. With contributions by M. Cole, G. Comeza&#732;na, S. Costenoble, A. D. Elmenddorf, J. P. C. Greenlees, L. G. Lewis, Jr., R. J. Piacenza, G. Triantafillou, and S. Waner. ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/alaska1.pdf))
+* {#May96} [[Peter May]], section IX.4 of _Equivariant homotopy and cohomology theory_ CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996. With contributions by M. Cole, G. Comezana, S. Costenoble, A. D. Elmenddorf, J. P. C. Greenlees, L. G. Lewis, Jr., R. J. Piacenza, G. Triantafillou, and S. Waner. ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/alaska1.pdf))
 
 
 
