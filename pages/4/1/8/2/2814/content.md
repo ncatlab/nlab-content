@@ -227,6 +227,8 @@ Just like monoidal categories, monoidal functors have a [[string diagram]] calcu
 
 * **monoidal functor**, **strong monoidal functor**
 
+* [[multifunctor]]
+
 * [[module over a monoidal functor]]
 
 * [[monoidal adjunction]]
@@ -252,6 +254,7 @@ Just like monoidal categories, monoidal functors have a [[string diagram]] calcu
 * [[monoidal (∞,1)-functor]]
 
 * [[monoidal (∞,n)-functor]]
+
 
 [[!redirects lax monoidal functor]]
 [[!redirects strict monoidal functor]]
