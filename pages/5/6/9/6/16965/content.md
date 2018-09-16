@@ -65,6 +65,17 @@ $$
   \,.
 $$
 
+Here the first summand is the _[[geometric fixed point spectrum]]_ inside the full [[fixed point spectrum]]
+
+$$
+  \Phi^G(\Sigma^\infty_G X) 
+  \;\simeq\; 
+  \Sigma^\infty( X^G )
+  \hookrightarrow
+  F^G(\Sigma^\infty_G X)
+$$
+
+([Schwede 15, Example 7.7](#Schwede15))
 
 
 ### For equivariant homotopy groups
@@ -100,10 +111,10 @@ where the [[direct sum]] is over [[conjugacy classes]] of [[subgroups]] $H$ of $
 For $G$ finite and for [[rational equivariant stable homotopy theory]] this becomes ([Greenlees, 6.2](#Greenlees))
 
 $$
-  G RationalSpectra \simeq \underset{[H \subset G] }{\prod} \mathbb{Q}(W H) Mod
+  G RationalSpectra \simeq \underset{[H \subset G] }{\prod} \mathbb{Q}(W_G H) Mod
 $$
 
-where the product is over [[conjugacy classes]] of [[subgroups]] $H$ of $G$ and $W H$ denotes the [[Weyl group]] of $H$ in $G$
+where the product is over [[conjugacy classes]] of [[subgroups]] $H$ of $G$ and $W_G H$ denotes the [[Weyl group]] of $H$ in $G$
 
 ## Examples
 
