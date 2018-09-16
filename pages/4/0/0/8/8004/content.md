@@ -34,6 +34,8 @@ The [[nerve]] of a permutative category is an [[E-infinity space]], and therefor
 
 ## Related concepts
 
+* [[PermCat]]
+
 * [[K-theory of a permutative category]]
 
 * [[bipermutative category]]
