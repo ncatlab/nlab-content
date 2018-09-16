@@ -94,13 +94,15 @@ More in detail, this yields the following identifications:
 
   * [[module algebra]], [[comodule algebra]], [[Hopf action]], [[measuring]]
 
+* [[Schur's lemma]]
+
 * [[Young diagram]]
 
 * [[McKay correspondence]], [[ADE classification]]
 
 * [[geometric representation theory]]
   
-  * [[Borel-Weil theorem]], [[Be?linson-Bernstein localization]]
+  * [[Borel-Weil theorem]], [[Beilinson-Bernstein localization]]
   * [[D-module]], [[perverse sheaf]], [[BBDG decomposition theorem]]
   * [[Kazhdan-Lusztig theory]]
   * [[Dirac induction]]
