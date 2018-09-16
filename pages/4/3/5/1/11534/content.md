@@ -152,7 +152,7 @@ $$
 
 Lecture notes include:
 
-* {#Blumberg17} [[Andrew Blumberg]], _The Burnside category_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
+* {#Blumberg17} [[Andrew Blumberg]], section 3.1 of _The Burnside category_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
 
 The spectrally-enriched version and its role in the equivalent description of [[G-spectra]] via [[spectral Mackey functors]] is due to
 
