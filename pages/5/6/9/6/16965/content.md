@@ -33,8 +33,8 @@ For $H\subset G$ a [[subgroup]], write
 
 * $E W_G H$ for the [[universal principal bundle]] of the [[Weyl group]].
 
-### For fixed point spectra
-
+### Of fixed point spectra of equivariant suspension spectra
+ {#OfFixedPointSpectraOfEquivariantSuspensionSpectra}
 
 The [[fixed point spectrum]] of an [[equivariant suspension spectrum]] is given by the [[wedge sum]] formula
 
@@ -150,3 +150,7 @@ This is the group underlying the [[Burnside ring]].
 
 * {#Schwede15} [[Stefan Schwede]], section 6 of _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
 
+[[!redirects tom  Dieck splittings]]
+
+[[!redirects tom Dieck splitting theorem]]
+[[!redirects tom Dieck splitting theorems]]
