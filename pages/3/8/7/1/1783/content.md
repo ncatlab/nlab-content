@@ -13,6 +13,10 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 
 ## Idea
 
@@ -21,6 +25,10 @@ $Spectrum$ is the [[stable (infinity,1)-category]] of [[spectrum|spectra]].  It 
 It is the free stable [[locally presentable (infinity,1)-category]] on one [[compact object|compact]] generator, namely the [[sphere spectrum]].
 
 $Sp$ is the [[stable (infinity,1)-category]] of [[quasicoherent infinity-stacks]] on [[Spec(S)]].
+
+## Related concepts
+
+* [[PermCat]]
 
 category: category
 
