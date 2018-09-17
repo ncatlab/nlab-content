@@ -96,7 +96,7 @@ General:
 
 * {#GreenleesMay95} [[John Greenlees]], [[Peter May]], appendix A of _Generalized Tate cohomology_, Mem. Amer. Math. Soc. 113 (1995) no 543 ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/GM-Tate-543.pdf))
 
-* {#Greenlees} [[John Greenlees]], _Triangulated categories of rational equivariant cohomology theories_ ([pdf](http://www.greenlees.staff.shef.ac.uk/preprints/thicksurvey.pdf))
+* {#Greenlees} [[John Greenlees]], p. 3 of _Triangulated categories of rational equivariant cohomology theories_ ([pdf](https://pdfs.semanticscholar.org/eda8/ee6effb2ae487085a2e7615a4a7e1964c493.pdf), [[GreenleesRationalEquivariant.pdf:file]])
 
 
 * [[David Barnes]], _Rational Equivariant Spectra_ ([arXiv:0802.0954](http://arxiv.org/abs/0802.0954))
