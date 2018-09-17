@@ -88,13 +88,18 @@ In the context of [[complex oriented cohomology theory]]
 
 ## Related concepts
 
+
+* [[fixed point space]]
+
 * [[Sullivan conjecture]]
 
 * [[invariant theory]]
 
 * [[fixed point spectrum]]
 
-* [[geometric fixed points]]
+* [[geometric fixed point spectrum]]
+
+* [[categorical fixed point spectrum]]
 
 
 [[!include homotopy type representation theory -- table]]
