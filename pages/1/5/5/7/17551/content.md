@@ -101,7 +101,7 @@ and the property of being [[left derived functor|left derived]] [[strong monoida
 
 =--
 
-([Blumberg 17, around Def. 2.5.16](#Blumberg17))
+([Schwede 15, remark 7.15](#Schwede15), [Blumberg 17, around Def. 2.5.16](#Blumberg17))
 
 ## Related concepts
 
