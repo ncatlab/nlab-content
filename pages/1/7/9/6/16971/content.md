@@ -56,9 +56,14 @@ $$
 
 ## Related concepts
 
-* [[geometric fixed point spectrum]]
+* [[fixed point space]]
 
 * [[homotopy fixed points]]
+
+* [[geometric fixed point spectrum]]
+
+* [[categorical fixed point spectrum]]
+
 
 * [[tom Dieck splitting]]
 
