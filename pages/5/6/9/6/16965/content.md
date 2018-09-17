@@ -13,7 +13,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -22,7 +21,7 @@
 
 The objects of [[equivariant stable homotopy theory]] -- genuine [[G-spectra]] -- are very rich: Already the [[fixed point spectra]] of [[equivariant suspension spectra]] contain considerably more information than just the [[suspension spectra]] of the plain underlying [[fixed point spaces]] -- the latter are just the _[[geometric fixed point spectra]].
 
-The _tom Dieck splitting_  ([tom Dieck 75](#tomDieck75)) gives an explicit description of all the [[wedge sum|wedge summands]] appearing in [[fixed point spectra]] of [[equivariant suspension spectra]]. These wedge sums start out with the [[geometric fixed point spectra]] and then have one summand for each [[conjugacy class]] of [[subgroups]] $H \subset G$, given by the plain [[suspension spectra]] of the [[homotopy quotient]] of the $H$-[[fixed point spaces]] by the corresponding [[Weyl group]]-[[action]].
+The _tom Dieck splitting_  ([tom Dieck 75](#tomDieck75), [Lewis-May-Steinberger 86, V.11](#LewisMaySteinberger86)) gives an explicit description of all the [[wedge sum|wedge summands]] appearing in [[fixed point spectra]] of [[equivariant suspension spectra]]. These wedge sums start out with the [[geometric fixed point spectra]] and then have one summand for each [[conjugacy class]] of [[subgroups]] $H \subset G$, given by the plain [[suspension spectra]] of the [[homotopy quotient]] of the $H$-[[fixed point spaces]] by the corresponding [[Weyl group]]-[[action]].
 
 Induced from this [[wedge sum]] splitting formula for the spectra themselves is a corresponding [[direct sum]]-formula of the [[equivariant stable homotopy groups]] in terms of plain [[stable homotopy groups]].
 
@@ -150,21 +149,29 @@ This is the group underlying the [[Burnside ring]].
 
 ## References
 
-The theorem is due to
+The theorem at the level of [[stable homotopy groups]] is due to
 
 * {#tomDieck75} [[Tammo tom Dieck]], Satz 2 of _Orbittypen und  ̈aquivariante Homologie. II._, Arch. Math. (Basel) 26 (1975), no. 6, 650–662
 
-Reviews include
+The refinement to [[spectra]] is achieved in section V.11 of
+
+* {#LewisMaySteinberger86} [[L. Gaunce Lewis]], [[Peter May]], and Mark Steinberger (with contributions by J.E. McClure), _Equivariant stable homotopy theory_, Springer Lecture Notes in Mathematics Vol.1213. 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf))
+
+An alternative proof in the context of [[spectral Mackey functors]] is given in
+
+* {#GuillouMay12} [[Bert Guillou]], [[Peter May]], section 6.2 of _Permutative $G$-categories in equivariant infinite loop space theory_ ([arXiv:1207.3459](http://arxiv.org/abs/1207.3459))
+
+
+Detailed lecture notes are in
 
 * {#Schwede15} [[Stefan Schwede]], section 6 of _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
 
 * {#Blumberg17} [[Andrew Blumberg]], section 2.7 of _The Burnside category_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
 
-See also
+A brief mentioning appears in this survey of [[rational equivariant stable homotopy theory]]:
 
-* {#Greenlees} [[John Greenlees]], _Triangulated categories of rational equivariant cohomology theories_ ([pdf](http://www.greenlees.staff.shef.ac.uk/preprints/thicksurvey.pdf))
+* {#Greenlees} [[John Greenlees]], p. 3 of _Triangulated categories of rational equivariant cohomology theories_ ([pdf](https://pdfs.semanticscholar.org/eda8/ee6effb2ae487085a2e7615a4a7e1964c493.pdf), [[GreenleesRationalEquivariant.pdf:file]])
 
-* {#GuillouMay12} [[Bert Guillou]], [[Peter May]], _Permutative $G$-categories in equivariant infinite loop space theory_ ([arXiv:1207.3459](http://arxiv.org/abs/1207.3459))
 
 
 [[!redirects tom  Dieck splittings]]
