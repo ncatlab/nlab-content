@@ -66,8 +66,11 @@ Conversely, using this more general area formula, we can prove both the restrict
 We then have over the [[real numbers]]:
 
 * In [[dimension]] $0$ or $1$, there is one binary cross product: $x \times y \coloneqq 0$.
+
 * In dimension $3$, there are two binary cross products, one for each orientation, matching the classical cross product.
+
 * In dimension $7$, there are uncountably many binary cross products.  Even fixing a basis and requiring compatibility with this, there are still hundreds of cross products.
+
 * In any other finite dimension, there are no binary cross products at all.
 
 These cross products exist over any base field, but as far as I know there may be additional cross products over some.  (Of course, the claim that there are uncountably many cross products in $7$ dimensions should be generalised and made more precise; the space of these inner products is some [[algebraic variety]].)
@@ -108,14 +111,45 @@ We can again extend (3) to get the magnitude of the cross product of any $k$ vec
 
 Then for an inner product space $V$ over $\mathbb{R}$ of finite dimension $n$, we have:
 
-* If $k = 0$, then there is no cross product.
-* If $k = 1$, then there is one cross product (always $0$) in dimension $0$, two cross products in dimension $2$ (one for each orientation), uncountably many in each even dimension $n \gt 2$ (one for each way of writing $\mathbb{R}^n$ as as $n/2$-fold [[internal direct sum]] of $2$-dimensional subspaces, each of which is given an orientation, I think), and none in any odd dimension.
-* If $k = 2$, then the possibilities are as listed above for binary cross products.
-* If $k = 3$, then there is one cross product (always $0$) for $n \leq 2$, two cross products (one for each orientation) when $n = 4$, some cross products when $n = 8$ that I don\'t understand (but which are presumably related to the [[octonions]]), and no others.
-* If $3 \lt k \lt n - 1$, then there are no cross products.
+* If $k = 0$, then there is one cross product for each [[unit vector]] of $V$: none when $n = 0$, two (one for each orientation) when $n = 1$, and uncountably many when $n \geq 2$.
+
+* If $k = 1$, then there is one cross product for each way of writing $\mathbb{R}^n$ as as $n/2$-fold [[internal direct sum]] of $2$-dimensional subspaces and orienting each subspace: one (always $0$) when $n = 0$, two (one for each orientation) when $n = 2$, uncountably many when $n = 2 k \geq 4$ (even), and none when $n = 2 k + 1$ (odd).
+
+* If $k = 2$, then the possibilities are as listed above for binary cross products: one (always $0$) when $n = 0, 1$, two (one for each orientation) when $n = 3$, uncountably many (related to the [[octonions]]) when $n = 7$, and none when $n \ne 0, 1, 3, 7$.
+
+* If $k = 3$, then there is one cross product (always $0$) when $n = 0, 1, 2$, two cross products (one for each orientation) when $n = 4$, uncountably many cross products (presumably also related to the [[octonions]]) when $n = 8$, and none when $n \ne 0, 1, 2, 4, 8$.
+
+* If $4 \leq k \lt n - 1$, then there are no cross products.
+
 * If $k = n - 1$, then there are two cross products, one for each orientation, as described above for $(n-1)$-ary cross products.
+
 * If $k = n$, then there are no cross products.
-* If $k \gt n$, then there is one cross product, whose value is always $0$.
+
+* If $k \geq n + 1$, then there is one cross product (always $0$).
+
+Or organized by dimension ($n$) rather than arity ($k$):
+
+* If $n = 0$, then there is no cross product when $k = 0$ and one cross product (always zero) when $k \geq 1$.
+
+* If $n = 1$, then there are two cross products (one for each unit vector, or equivalently for each orientation) when $k = 0$, none when $k = 1$, and one (always zero) when $k \geq 2$.
+
+* If $n = 2$, then there are uncountably many cross products (one for each unit vector) when $k = 0$, two (one for each orientation) when $k = 1$, none when $k = 2$, and one (always zero) when $k \geq 3$.
+
+* If $n = 3$, then there are uncountably many cross products (one for each unit vector) when $k = 0$, none when $k = 1$, two (one for each orientation) when $k = 2$, none when $k = 3$, and one (always zero) when $k \geq 4$.
+
+* If $n = 4$, then there are uncountably many cross products (one for each unit vector) when $k = 0$, uncountably many (four for each $2$-dimensional subspace) when $k = 1$, none when $k = 2$, two (one for each orientation) when $k = 3$, none when $k = 4$, and one (always zero) when $k \geq 5$.
+
+* If $n = 5$, then there are uncountably many cross products (one for each unit vector) when $k = 0$, none when $k = 1, 2, 3$, two (one for each orientation) when $k = 4$, none when $k = 5$, and one (always zero) when $k \geq 6$.
+
+* If $n = 6$, then there are uncountably many cross products (one for each unit vector) when $k = 0$, uncountably many (related to the $2$-dimensional decompositions) when $k = 1$, none when $k = 2, 3, 4$, two (one for each orientation) when $k = 5$, none when $k = 6$, and one (always zero) when $k \geq 7$.
+
+* If $n = 7$, then there are uncountably many cross products (one for each unit vector) when $k = 0$, none when $k = 1$, uncountably many (related to the [[octonions]]) when $k = 2$, none when $k = 3, 4, 5$, two (one for each orientation) when $k = 6$, none when $k = 7$, and one (always zero) when $k \geq 8$.
+
+* If $n = 8$, then there are uncountably many cross products (one for each unit vector) when $k = 0$, uncountably many (related to the $2$-dimensional decompositions) when $k = 1$, none when $k = 2, 3$, uncountably many (related to the [[octonions]]) when $k = 4$, none when $k = 5, 6$, two (one for each orientation) when $k = 7$, none when $k = 8$, and one (always zero) when $k \geq 9$.
+
+* If $n = 2 k + 1 \geq 9$ (odd), then there are uncountably many cross products (one for each unit vector) when $k = 0$, none when $1 \leq k \lt n - 1$, two (one for each orientation) when $k = n - 1$, none when $k = n$, and one (always zero) when $k \geq n + 1$.
+
+* If $n = 2 k \geq 10$ (even), then there are uncountably many cross products (one for each unit vector) when $k = 0$, uncountably many (related to the $2$-dimensional decompositions) when $k = 1$, none when $2 \leq k \lt n - 1$, two (one for each orientation) when $k = n - 1$, none when $k = n$, and one (always zero) when $k \geq n + 1$.
 
 
 ### Tensor-valued
