@@ -34,7 +34,19 @@ This means in particular that _every_  topological space is _[[weak homotopy equ
 ###### Remark
 **(origin of the "CW" terminology)**
 
-The terminology "CW-complex" goes back to [[John Henry Constantine Whitehead]] (see [Hatcher, "Topology of cell complexes", p. 520](#HatcherTopologyOfCellComplexes)). It stands for the following two properties shared by any CW complex:
+The terminology "CW-complex" goes back to [[John Henry Constantine Whitehead]] (and see the discussion in [Hatcher, "Topology of cell complexes", p. 520](#HatcherTopologyOfCellComplexes)). 
+
+To quote from the original paper, which was `an address delivered before the Princeton Meeting of the (American Mathematical) Society on November
+2, 1946, WHitehead states
+
+
+>In this presentation we abandon simplicial complexes in favor of
+cell complexes. This first part consists of geometrical preliminaries,
+including some elementary propositions concerning what we call closure finite complexes with weak topology, abbreviated to CW -complexes, ...
+
+
+
+Thus the CW' stands for the following two properties shared by any CW complex:
 
 * **C** = "closure finiteness": a [[compact subset]] of a CW complex intersects the [[interior]] of only finitely many cells ([prop.](classical+model+structure+on+topological+spaces#CompactSubsetsAreSmallInCellComplexes)), hence in particular so does the closure of any cell.
 
@@ -547,6 +559,12 @@ and hence that with the above the map $H_{n-1}(X_{n-1}) \to H_{n-1}(X)$ is surje
 
 
 ## References
+
+
+The introduction of the term is contained in 
+
+* J. H. C. Whitehead, _Combinatorial homotopy I_ , Bull. Amer. Math. Soc, 55, (1949), 213–245.
+
 
 Basic textbook accounts include
 
