@@ -100,4 +100,5 @@ Suppose $x$ is in $[0, 1]$. By assumption, there is $F$ such that $F' = f$. By t
 [[!redirects fundamental theorems of differential calculus]]
 [[!redirects fundamental theorem of integral calculus]]
 [[!redirects fundamental theorems of integral calculus]]
+[[!redirects Fundamental Theorem of Calculus]]
 [[!redirects FTC]]
