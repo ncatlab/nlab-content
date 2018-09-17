@@ -73,7 +73,7 @@ Sometimes a family, $\mathcal{W}$, of subgroups is specified, and then a subcate
 
 ### Relation to $G$-spaces and Elmendorf's theorem
 
-[[Elmendorf's theorem]] (see there for details) states that the [[(∞,1)-category of (∞,1)-presheaves]] on the orbit category $Orb_G$ are [[equivalence of (∞,1)-categories|equivalent]] to the [[localization of an (∞,1)-category|localization]] of [[topological spaces]] with $G$-[[action]] at the "fixed point weak equivalences".
+[[Elmendorf's theorem]] (see there for details) states that the [[(∞,1)-category of (∞,1)-presheaves]] on the orbit category $Orb_G$ are [[equivalence of (∞,1)-categories|equivalent]] to the [[localization of an (∞,1)-category|localization]] of [[topological spaces]] with $G$-[[action]] at the _[[weak homotopy equivalences]] on [[fixed point spaces]]_.
 
 $$
   L_{we} G Top \simeq PSh_\infty(Orb_G)
