@@ -45,7 +45,11 @@ This classification turns out to closely connect to various other systems of exc
 
 ### Hopf invariant one maps
 
-The classification matches that of [[Hopf invariant one]] maps. See there for more.
+The classification matches that of [[Hopf invariant one]] maps. See there for more. 
+
+See also at _[[cross product]]_.
+
+
 
 ## References
 
