@@ -198,7 +198,7 @@ See also
 * {#GreenleesMay95} [[John Greenlees]], [[Peter May]], appendix A of _Generalized Tate cohomology_, Mem. Amer. Math. Soc. 113 (1995) no 543 ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/GM-Tate-543.pdf))
 
 
-* D. Tambara, The Drinfeld center of the category of Mackey functors, J. Algebra __319__, 10, pp. 4018-4101 (2008) [doi:10.1016/j.jalgebra.2008.02.011](http://dx.doi.org/10.1016/j.jalgebra.2008.02.011)
+* D. Tambara, _The Drinfeld center of the category of Mackey functors_, J. Algebra __319__, 10, pp. 4018-4101 (2008) [doi:10.1016/j.jalgebra.2008.02.011](http://dx.doi.org/10.1016/j.jalgebra.2008.02.011)
 
 * Elango Panchadcharam, _Categories of Mackey Functors_, PhD thesis, Macquarie Univ. 2006
 
