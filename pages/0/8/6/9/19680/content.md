@@ -25,7 +25,7 @@ For $n$ a [[natural number]], the double factorial $(2n+1)!!$ is defined to be t
 
 \[(2n-1)!! = \frac1{2^n} \frac{(2n)!}{n!}\]
 
-so that in particular, $(-1)!!$ is defined to be $1$. 
+so that in particular, $(-1)!!$ is defined to be $1$. Relatedly, we may define $(2n)!! = 2^n n!$. 
 
 Double-factorials have a number of applications in [[enumerative combinatorics]]. They are particularly prone to appear whenever dealing with [[binomial coefficients]] 
 
@@ -45,7 +45,7 @@ for even polynomials $p$, with consequent applications in [[quantum mechanics]],
 
 ## Combinatorial interpretation 
 
-The double-factorials $(2n-1)!!$ count the number of [[involutions]] without [[fixed points]] on a set with $2n$ elements, or the number of [[partitions]] of a $(2n)$-element set into $2$-element sets, or the number of isomorphism classes of [[rooted chord diagrams]] with $n$ chords. This follows readily from the exponential generating function expression above, and is related to the [[species]] composition of the exponential species $\exp$ (the terminal object in the category of species) with the species $x^2/2$, defined to be terminal at $2$-element sets and empty at others.
+The double-factorials $(2n-1)!!$ count the number of [[involutions]] without [[fixed points]] on a set with $2n$ elements, or the number of [[partitions]] of a $(2n)$-element set into $2$-element sets, or the number of isomorphism classes of [[rooted chord diagrams]] with $n$ chords. This follows readily from the exponential generating function expression above, and follows readily by considering the [[species]] composition of the exponential species $\exp$ (the terminal object in the category of species) with the species $x^2/2$, defined to be terminal at $2$-element sets and empty at others.
 
 ## Moments of the standard Gaussian distribution 
 
