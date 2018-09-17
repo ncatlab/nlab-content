@@ -219,6 +219,11 @@ The generalization of K-theory of permutative categories to [[Mackey functors]] 
 
 * {#BohmannOsorno14} [[Anna Marie Bohmann]], [[Angélica Osorno]], _Constructing equivariant spectra via categorical Mackey functors_, Algebraic & Geometric Topology 15.1 (2015): 537-563 ([arXiv:1405.6126](http://arxiv.org/abs/1405.6126))
 
+Genralization to [[equivariant stable homotopy theory]] and [[G-spectra]] is discussed in 
+
+* {#GuillouMay12} [[Bert Guillou]], [[Peter May]], around section 4.4 of  _Permutative $G$-categories in equivariant infinite loop space theory_ ([arXiv:1207.3459](http://arxiv.org/abs/1207.3459))
+
+
 
 [[!redirects K-theory of permutative categories]]
 
