@@ -66,7 +66,7 @@ Cauchy had established that the conclusion of each of these theorems implied the
 
 ## Proof
 
-Here\'s a version for Theorem \ref{ITR}: &lt;http://planetmath.org/encyclopedia/ProofOfGoursatsTheorem.html>
+Here\'s a version for Theorem \ref{ITR}: <https://planetmath.org/proofofgoursatstheorem>
 
 [[!redirects Goursat theorem]]
 [[!redirects Goursat Theorem]]
