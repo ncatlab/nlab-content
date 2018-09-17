@@ -54,6 +54,8 @@ On the other hand there is also the standard homotopy theory of [[infinity-actio
 
 * [[G-set]]
 
+* [[fixed point space]]
+
 * [[cyclotomic space]]
 
 [[!include equivariant homotopy theory -- table]]
@@ -76,6 +78,7 @@ See also
 See also the references at _[[equivariant homotopy theory]]_.
 
 
+[[!redirects topological G-spaces]]
 [[!redirects topological G-spaces]]
 
 [[!redirects G-space]]
