@@ -2,6 +2,6 @@
 
 
 
-* [webpage](http://homepages.uni-regensburg.de/~stn30788/)
+* [webpage](http://www.ms.uky.edu/~njst237/)
 
 category: people
