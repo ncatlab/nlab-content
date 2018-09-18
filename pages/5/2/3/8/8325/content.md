@@ -52,7 +52,7 @@ and in
 
 
 
-(Here it worth remarking that not much later [[infinitesimal objects]] as anticipated by [[Gottfried Leibniz]] were given a neat formal basis in [[mathematics]], by formalisms such as [[synthetic differential geometry]] and [[nonstandard analysis]].)
+(Here it is worth remarking that not much later [[infinitesimal objects]] as anticipated by [[Gottfried Leibniz]] were given a neat formal basis in [[mathematics]], by formalisms such as [[synthetic differential geometry]] and [[nonstandard analysis]].)
 
 and in
 
