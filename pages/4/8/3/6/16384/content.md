@@ -5,18 +5,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Algebra
-+--{: .hide}
++-- {: .hide}
 [[!include higher algebra - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Statement
 
@@ -24,16 +23,16 @@ The only Euclidean [[composition algebras]] / [[division algebra|division]] [[co
 
 1. [[real numbers]]
 
-1. [[complex numbers]]
+2. [[complex numbers]]
 
-1. [[quaternions]]
+3. [[quaternions]]
 
-1. [[octonions]].
+4. [[octonions]].
 
 For more see at _[composition algebra -- Hurwitz theorem](composition+algebra#HurwitzTheoremSection)_.
 
-## Implications
 
+## Implications
 
 ### Real spinor representations and supersymmetry
 
@@ -62,5 +61,18 @@ Due to [[Adolf Hurwitz]] (1859&#8211;1919), published posthumously in 1923.
 
 * Wikipedia, _[Hurwitz theorem (composition algebras)](http://en.wikipedia.org/wiki/Hurwitz%27s_theorem_%28composition_algebras%29)_
 
-[[!redirects Hurewitz' theorem]] 
-[[!redirects Hurewitz's theorem]] 
+
+[[!redirects Hurwitz theorem]]
+[[!redirects Hurwitz Theorem]]
+[[!redirects Hurwitz' theorem]]
+[[!redirects Hurwitz' Theorem]]
+[[!redirects Hurwitz’ theorem]]
+[[!redirects Hurwitz’ Theorem]]
+[[!redirects Hurwitz\' theorem]]
+[[!redirects Hurwitz\' Theorem]]
+[[!redirects Hurwitz's theorem]]
+[[!redirects Hurwitz's Theorem]]
+[[!redirects Hurwitz’s theorem]]
+[[!redirects Hurwitz’s Theorem]]
+[[!redirects Hurwitz\'s theorem]]
+[[!redirects Hurwitz\'s Theorem]]
