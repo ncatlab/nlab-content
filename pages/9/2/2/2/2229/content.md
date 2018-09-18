@@ -23,7 +23,9 @@ Notice the similarity but also the difference to the definition of the _[[centra
 ### Normalization and Weyl group
  {#NormalizationAndWeylGroup}
 
-If the subset $S$ is in fact a [[subgroup]] of $G$, then it is a [[normal subgroup]] of the normalizer $N_G(S)$; and $N_G(S)$ is the largest subgroup of $G$ such that $S$ is a normal subgroup of it, whence the terminology _normalizer_. Indeed, if $S$ is already a normal subgroup of $G$, then its normalizer coincides with the whole of $G$.
+If the subset $S$ is in fact a [[subgroup]] of $G$, then it is a [[normal subgroup]] of the normalizer $N_G(S)$; and $N_G(S)$ is the largest subgroup of $G$ such that $S$ is a normal subgroup of it, whence the terminology _normalizer_. 
+
+Indeed, if $S$ is already a normal subgroup of $G$, then its normalizer coincides with the whole of $G$, and only then (e.g. [here](https://proofwiki.org/wiki/Normal_Subgroup_iff_Normalizer_is_Group)).
 
 Hence when $S$ is a group then the [[quotient]] 
 
