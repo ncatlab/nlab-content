@@ -103,6 +103,24 @@ and the property of being [[left derived functor|left derived]] [[strong monoida
 
 ([Schwede 15, remark 7.15](#Schwede15), [Blumberg 17, around Def. 2.5.16](#Blumberg17))
 
+{#PartialGeometricFixedPoint} This generalizes to a "partial" geometric fixed point functor, which for a given [[subgroup]] $H \subset G$ sends
+
+$$
+  \Phi^H \;\colon\; G Spectra \longrightarrow W_G H Spectra
+$$
+
+(for $W_G/H$ the [[Weyl group]], which is the [[quotient group]] $G/H$ in the case that $H$ is a [[normal subgroup]]) and satisfies
+
+$$
+  \Phi^N \big(  \Sigma^\infty_G X \big) 
+  \;\simeq\;
+  \Sigma^\infty_{W_G H} X^H
+  \,.
+$$
+
+([Lewis-May-Steinberger 86, II.9](#LewisMaySteinberger86), [Lewis 00, Scholium 10.2](#Lewis00))
+
+
 ## Related concepts
 
 * [[fixed point space]]
@@ -114,6 +132,11 @@ and the property of being [[left derived functor|left derived]] [[strong monoida
 * [[homotopy fixed points]]
 
 ## References
+
+* {#LewisMaySteinberger86} [[L. Gaunce Lewis]], [[Peter May]], and Mark Steinberger (with contributions by J.E. McClure), _Equivariant stable homotopy theory_, Springer Lecture Notes in Mathematics Vol.1213. 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf))
+
+
+* {#Lewis00} [[L. Gaunce Lewis, Jr.]], section 10 of _Splitting theorems for certain equivariant spectra_, Memoirs of the AMS, number 686, March 2000, Volume 144 ([pdf](http://hopf.math.purdue.edu/LewisG/spltspec.pdf))
 
 * {#Schwede15} [[Stefan Schwede]], section 7.3 of _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
 
