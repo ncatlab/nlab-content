@@ -21,7 +21,7 @@ The category of stratified spaces is a full subcategory of the [[arrow category]
 
 * Any manifold $M$ can be equipped with the trivial stratification over the terminal poset.  As a special case, the *extended simplices* $\Delta^n_e = \{ \vec{t} \in \mathbb{R}^{n+1} : \sum t_i = 1\}$ assemble into a cosimplicial object $\Delta^\bullet_e \in cStrat$.
 
-## Conically smooth atlases and the $\infty$-category $\mathcal{S}trat$
+## Conically smooth atlases and the $\infty$-category $Strat$
 
 There is a notion of a *conically smooth atlas* on a stratified space.  (The definition is quite involved, inducting on a number of parameters simultaneously; see ([Ayala--Francis--Tanaka, section 3](#AFT)).)  The category of conically smooth stratified spaces (with conically smooth maps among them) is often again simply called $Strat$.
 
