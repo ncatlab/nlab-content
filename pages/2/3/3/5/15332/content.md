@@ -34,6 +34,8 @@ As the logical relations studied by abstract model theory are of a functorial na
 
 * [[Löwenheim-Skolem theorem]]
 
+* [[institution]]
+
 * [[Per Lindström]]
 
 ## Link
@@ -46,7 +48,7 @@ As the logical relations studied by abstract model theory are of a functorial na
 
 * Barwise, Feferman (eds.), _Model-theoretic Logics_ , Springer Heidelberg 1985 (freely available online: [toc](http://projecteuclid.org/euclid.pl/1235417263#toc)) .
 
-* Razvan Diaconescu, _Institution-independent Model Theory_ , Birkh&#228;user Basel 2008.
+* Răzvan Diaconescu, _Institution-independent Model Theory_ , Birkh&#228;user Basel 2008.
 
 * Marta Garc&#237;a-Matos, [[Jouko Väänänen]], _Abstract Model Theory as a Framework for Universal Logic_ , Logica Universalis 2005 pp.1-33 ([draft](http://www.math.helsinki.fi/logic/opetus/lt/unilog2005_proofs.pdf)) .
 
