@@ -103,22 +103,33 @@ and the property of being [[left derived functor|left derived]] [[strong monoida
 
 ([Schwede 15, remark 7.15](#Schwede15), [Blumberg 17, around Def. 2.5.16](#Blumberg17))
 
-{#PartialGeometricFixedPoint} This generalizes to a "partial" geometric fixed point functor, which for a given [[subgroup]] $H \subset G$ sends
+{#PartialGeometricFixedPoint} This generalizes to a "partial" geometric fixed point functor, which for a given [[subgroup]] $H \subset G$ sends 
 
 $$
   \Phi^H \;\colon\; G Spectra \longrightarrow W_G H Spectra
 $$
 
-(for $W_G/H$ the [[Weyl group]], which is the [[quotient group]] $G/H$ in the case that $H$ is a [[normal subgroup]]) and satisfies
+(for $W_G/H$ the [[Weyl group]], which is the [[quotient group]] $G/H$ in the case that $H$ is a [[normal subgroup]]) and satisfies for a $G$-[[equivariant suspension spectrum]] $\Sigma^\infty_G X$ the relation
 
-$$
+\[
+  \label{PartialGeometricFixedPointsOfEqui}
   \Phi^N \big(  \Sigma^\infty_G X \big) 
   \;\simeq\;
   \Sigma^\infty_{W_G H} X^H
+  \,,
+\]
+
+hence, if $H = N \subset G$ already happens to be a [[normal subgroup]]:
+
+\[
+  \Phi^N \big(  \Sigma^\infty_G X \big) 
+  \;\simeq\;
+  \Sigma^\infty_{G/N} X^H
   \,.
-$$
+\]
 
 ([Lewis-May-Steinberger 86, II.9, cor. 9.9](#LewisMaySteinberger86), [Lewis 00, Scholium 10.2](#Lewis00))
+
 
 
 ### As inversion of Euler classes
@@ -209,9 +220,12 @@ Prop. \ref{GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses} give
   (\Phi^N E)^\bullet_{G/N}(\epsilon^\sharp X)
 \]
 
-Corollary:
+## Examples
 
-Consider the $G$-[[equivariant stable cohomotopy]] of the point in some [[RO(G)-degree]] for with $V^N = 0$.
++-- {: .num_example}
+###### Example
+
+Consider the $G$-[[equivariant stable cohomotopy]] of the point in some [[RO(G)-degree]] $V$ for with $V^N = 0$.
 
 Then the comparison map (eq:ComparisonMap) 
 
@@ -220,13 +234,13 @@ Then the comparison map (eq:ComparisonMap)
   (\Sigma^\infty_G S^V)^0_{G}(\ast)
   \overset{\phantom{AA} p_V \phantom{AA} }{\longrightarrow}
   (\Phi^N \Sigma^\infty_G S^V)^0_{G/N}(\ast)
-  =
+  \overset{(eq:PartialGeometricFixedPointsOfEqui)}{=}
   (\Sigma^\infty_{G/N} S^0)^0_{G/N}(\ast)  
-  =
-  A(G/N)
 \]
 
-from the $G$-[[equivariant stable cohomotopy]] of the point in [[RO(G)-degree]] $V$ to the $G/N$-[[equivariant stable cohomotopy]] in degree 0 (which is the [[Burnside ring]] $A(G/n)$) is surjective.
+from the $G$-[[equivariant stable cohomotopy]] of the point in [[RO(G)-degree]] $V$ to the $G/N$-[[equivariant stable cohomotopy]] in degree 0 is [[surjective map|surjective]] (an [[epimorphism]] of [[abelian groups|abelian]] [[cohomology groups]]).
+
+=--
 
 Proof idea (check):
 
