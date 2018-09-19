@@ -30,6 +30,10 @@ Any two Sylow $p$-subgroups of $G$ are conjugate.
 
 See [[class equation]] for a detailed discussion of these matters. 
 
+## Related pages
+
+* [class equation](class+equation#sylow_theorems)
+
 
 ##References
 
