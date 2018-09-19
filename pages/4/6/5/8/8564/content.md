@@ -17,7 +17,7 @@
 
 A [[ring]] $R$ is a **principal ideal domain** if
 
-1. it is an [[integral domain]];
+1. it is an [[integral domain]] (hence in particular a [[commutative ring]])
 
 2. every [[ideal]] in $R$ is a [[principal ideal]]. 
 
@@ -28,7 +28,7 @@ Often _pid_ is used as an abbreviation of "principal ideal domain".
 
 * any [[field]]
 
-* the ring of [[integers]]
+* the ring $\mathbb{Z}$ of [[integers]]
 
 * a [[polynomial ring]] with [[coefficients]] in a field (in fact, for any commutative ring $R$, the ring $R[x]$ is a pid if and _only if_ $R$ is a field) 
 
@@ -41,6 +41,7 @@ Often _pid_ is used as an abbreviation of "principal ideal domain".
 That both the [[integers]] and the [[polynomial rings]] $\mathbb{F}_q[x]$ over [[finite fields]] are principal integral domains with [[finite group|finite]] [[group of units]] is one aspect of the close similarity between the two that is the topic of the [[function field analogy]]. That also the [[holomorphic functions]] on the [[complex plane]] form a [[Bézout domain]] may then be viewed as part of the further similarity that relates the previous two to topics such as [[geometric Langlands duality]]. See at _[[function field analogy -- table]]_ for more on this.
 
 ## Properties 
+
 
 +-- {: .num_lemma} 
 ###### Lemma 
@@ -75,6 +76,8 @@ Working in classical logic, Proposition \ref{noeth} says that the reverse inclus
 
 For uniqueness of the factorization, we first remark that if $p$ is irreducible and $p|a b$, then $p|a$ or $p|b$. (For $R/(p)$ is a [[field]] and thus *a fortiori* an [[integral domain]], so that if $a b \equiv 0 \; mod p$, then $a \equiv 0 \; mod p$ or $b \equiv 0 \; mod p$.) Thus if $p_1 p_2 \ldots p_m = q_1 q_2 \ldots q_n$ are two factorizations into irreducibles of the same element, then $p_1$ divides one of the irreducibles $q_i$, in which case $(p_1) = (q_i)$ and each is a unit times the other, meaning we can cancel $p_1$ on both sides and argue by induction. 
 =-- 
+
+
 
 
 ## Structure theory of modules 
@@ -133,6 +136,29 @@ Also, since [[projective modules]] are [[retracts]] of free modules, we have
 ###### Corollary 
 Projective modules over a pid are free. In particular, submodules of projective modules are projective. 
 =-- 
+
+### Smith normal form
+ {#SmithNormalForm}
+
++-- {: .num_prop #MatricesOverPrincipalIdealDomainsHaveSmithNormalForm}
+###### Proposition
+**([[matrices]] over [[principal ideal domains]] [[matrix equivalence|equivalent]] to [[Smith normal form]])**
+
+For $R$ a [[commutative ring]] which is a [[principal ideal domain]], every [[matrix]] $A \in Mat_{n \times m}(R)$ with entries in $R$ is [[matrix equivalence|matrix equivalent]] to a [[diagonal matrix]] filled up with zeros:
+
+There exist [[invertible matrices]] $P \in Mat_{n \times n}(R)$ and $Q \in Mat_{m \times m}(R)$ such that the [[matrix product|product matrix]] $P A Q$ is a [[diagonal matrix]] filled up with zeros:
+
+$$
+  P A Q
+  \;=\;  
+$$
+<center>
+<img src="https://ncatlab.org/nlab/files/SmithNormalForm.jpg" width="300">
+</center>
+
+such that, moreover, each $a_i$ [[divisor|divides]] $a_{i+1}$.
+
+=--
 
 
 ### Torsion-free modules 
