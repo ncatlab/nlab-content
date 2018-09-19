@@ -27,6 +27,8 @@ Diagonal matrices form the [[center]] of the ring of matrices under [[matrix mul
 
 * [[permutation matrix]]
 
+* [[Smith normal form]]
+
 ## References
 
 See also 
