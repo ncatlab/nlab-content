@@ -135,16 +135,50 @@ hence, if $H = N \subset G$ already happens to be a [[normal subgroup]]:
 ### As inversion of Euler classes
  {#AsInversionOfEulerClasses}
 
-Let 
+We discuss an explicit formula (Prop. \ref{GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses} below) that expresses [[equivariant cohomology|equivariant]] [[cohomology groups]] with [[coefficients]] in partial geometric fixed point spectra as the [[equivariant cohomology|equivariant]] [[cohomology groups]] with [[coefficients]] in the original spectrum, but with certain "[[Euler classes]] [[localization|inverted]]".
+
+A key role in this discussion is played by those [[RO(G)-degrees]] which trivialize when passing to partial fixed points:
+
++-- {: .num_defn #ROGDegreeWithoutNonTrivialHFixedPoints}
+###### Definition
+**([[RO(G)-degrees]] without non-trivial $H$-fixed points)**
+
+For $H \subset G$ a [[subgroup]], say that a $G$-[[representation]] $V$ has _no non-trivial $H$-fixed points_ if the [[fixed point space]] of $V$ with respect to the $H$-[[action]] is the origin (which is necessarily fixed), hence is the [[zero object|zero]]-[[representation]]:
 
 $$
-  N \overset{\epsilon}{\hookrightarrow} G
+  V^H \;=\; 0
+$$
+
+
+=--
+
+Fix now 
+
+$$
+  N \overset{\phantom{AA}}{\hookrightarrow} G 
+  \overset{ \phantom{A} \epsilon \phantom{A} }{\longrightarrow}
+  G/N
 $$ 
 
-be a [[normal subgroup]]-inclusion
+a [[normal subgroup]]-inclusion with induced [[projection]] $\epsilon$ to the [[quotient group]] $G/N$. 
+
+By [[base change]] this induces various comparison maps between concepts defined with respect to $G$ and $G/N$, we denote these by
+
+\[
+  \label{PullbackGSpace}
+  G/N Spaces 
+  \overset{ \epsilon^\sharp }{\longrightarrow}
+  G Spaces
+\]
+
+\[
+  \label{PullbackRepresentation}
+  G/N Rep \overset{ \epsilon^\ast }{\longrightarrow} G Rep
+\]
 
 
-Let 
+
+Let now
 
 $$
   E
@@ -159,13 +193,7 @@ $$
   \,.
 $$
 
-
-+-- {: .num_prop #GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses}
-###### Proposition
-
-
-
-For
+and let
 
 $$
   X
@@ -175,16 +203,24 @@ $$
   G Specta
 $$
 
-a [[finite spectrum|finite]] $G$-[[CW-spectrum]], the $G/N$-equivariant  $\Phi^N E$-cohomology of $X$ is equivalently the [[colimit]] over the $G$-equivariant $E$-cohomology groups of $E$ in [[RO(G)-degrees]] shifted by all those [[representations]] $V$ that have trivial $N$-[[fixed point spaces]]: $V^N = 0$:
+be [[finite spectrum|finite]] $G$-[[CW-spectrum]], 
 
-$$
+
++-- {: .num_prop #GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses}
+###### Proposition
+
+The $G/N$-[[equivariant cohomology|equivariant]] [[cohomology groups]] in [[RO(G)-degree|RO(G/N)-degree]] $\alpha$ of $X$ with [[coefficients]] in the partial geometric fixed point spectrum $\Phi^N E$ are equivalently the [[colimit]] over the $G$-[[equivariant cohomology|equivariant]] [[cohomology groups]] of $\epsilon^\sharp X$ (eq:PullbackGSpace) with [[coefficients]] in $E$, but in [[RO(G)-degree]] $\epsilon^\ast \alpha$ (eq:PullbackRepresentation) plus a shift by all those [[representations]] $V$ that have no nontrivial $N$-fixed points (Def. \ref{ROGDegreeWithoutNonTrivialHFixedPoints}):
+
+\[
+\label{ColimitConstructionForCohomologyWithCoeffsInPartialGeometricFixedPointSpectra}
   (\Phi^N E)^\bullet_{G/N}(X)
   \;\simeq\;
   \underset{\underset{\{V \vert V^N = 0\}}{\longrightarrow}}{\lim}
   E^{\epsilon^\ast \bullet + V}(\epsilon^\sharp X)  
-$$
+  \,,
+\]
 
-Here the [[colimit]] is over the [[diagram]] that has precisely one morphism for every inclusion $V_1 \subset V_2$ (with $(V_1)^N = 0$ and $(V_2)^N = 0$)
+where the [[colimit]] is over the [[diagram]] that has precisely one morphism for every inclusion  $V_1 \subset V_2$ of $G$-representations without non-trivial $N$-fixed points (Def. \ref{ROGDegreeWithoutNonTrivialHFixedPoints})
 
 $$
   E^{\epsilon^\ast \bullet + V_1}(\epsilon^\sharp X)   
@@ -210,35 +246,63 @@ of $V = V_2 - V_1$.
 
 ([Lewis-May-Steinberger 86, chapter II, prop. 9.13](#LewisMaySteinberger86))
 
++-- {: .num_defn}
+###### Definition
+**(canonical comparison map to partial geometric fixed point cohomology)**
 
-Prop. \ref{GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses} gives, in particular, a canonical comparison map
+By prop. \ref{GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses} says, there is a canonical comparison morphism, to be denoted
 
 \[
   \label{ComparisonMap}
   E_G^{\epsilon^\ast \bullet}(X)
-  \longrightarrow
+  \overset{
+    \phantom{AA}
+      p_E^N(X)
+    \phantom{AA}
+  }{\longrightarrow}
   (\Phi^N E)^\bullet_{G/N}(\epsilon^\sharp X)
 \]
+
+from the $G$-[[equivariant cohomology|equivariant]] [[cohomology groups]] with [[coefficients]] in $E$ to the those with [[coefficients]] in the partial geometric fixed point spectrum:
+
+The morphism is the component of the [[colimit|colimiting]] [[cocone]](eq:ColimitConstructionForCohomologyWithCoeffsInPartialGeometricFixedPointSpectra) at stage $V = 0$:
+
+$$
+  \array{
+    E^{\epsilon^\ast \bullet }(\epsilon^\sharp X)   
+    && \overset{ (-) \wedge \chi_{V} }{\longrightarrow} &&
+    E^{\epsilon^\ast \bullet + V}(\epsilon^\sharp X)  
+    &\to&
+    \cdots 
+    \\
+    & {}^{ \mathllap{ p_E^N(X) } }\searrow && \swarrow & \cdots
+    \\
+    && 
+    (\Phi^N E)^\bullet_{G/N}(X)
+  }
+$$
+
+=--
 
 ## Examples
 
 +-- {: .num_example}
 ###### Example
+**([[equivariant stable cohomotopy]] of point in $N$-nil [[RO(G)-degree]])**
 
 Consider the $G$-[[equivariant stable cohomotopy]] of the point in some [[RO(G)-degree]] $V$ for with $V^N = 0$.
 
-Then the comparison map (eq:ComparisonMap) 
+Then the comparison map (eq:ComparisonMap)
 
 \[
   \label{ProjectionFromEquivariantCohomotopyOfPpintInRODegreeToBurnside}
   (\Sigma^\infty_G S^V)^0_{G}(\ast)
   \overset{\phantom{AA} p_V \phantom{AA} }{\longrightarrow}
   (\Phi^N \Sigma^\infty_G S^V)^0_{G/N}(\ast)
-  \overset{(eq:PartialGeometricFixedPointsOfEqui)}{=}
   (\Sigma^\infty_{G/N} S^0)^0_{G/N}(\ast)  
 \]
 
-from the $G$-[[equivariant stable cohomotopy]] of the point in [[RO(G)-degree]] $V$ to the $G/N$-[[equivariant stable cohomotopy]] in degree 0 is [[surjective map|surjective]] (an [[epimorphism]] of [[abelian groups|abelian]] [[cohomology groups]]).
+from the $G$-[[equivariant stable cohomotopy]] of the point in [[RO(G)-degree]] $V$ to the $G/N$-[[equivariant stable cohomotopy]] in degree 0 (via (eq:PartialGeometricFixedPointsOfEqui)) is [[surjective map|surjective]] (an [[epimorphism]] of [[abelian groups|abelian]] [[cohomology groups]]).
 
 =--
 
