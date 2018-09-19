@@ -109,7 +109,7 @@ If $T_n(z)$ is the cyclotomic polynomial given by the product of linear factors 
 
 ### Sylow theorems 
 
-Let $G$ be a finite group of order $n$, and suppose that $p$ is a prime that divides $n$; say $n = p^f u$ where $p$ does not divide $u$. Recall that a *Sylow $p$-group* is a $p$-subgroup of maximal order $p^f$. 
+Let $G$ be a finite group of order $n$, and suppose that $p$ is a prime that divides $n$; say $n = p^f u$ where $p$ does not divide $u$. Recall that a [[Sylow p-subgroup]] is a $p$-subgroup of maximal order $p^f$. 
 
 A fundamental fact of group theory is that Sylow $p$-subgroups exist and they are all conjugate to one another; also the number of Sylow $p$-subgroups is $\equiv 1 \; mod p$. Existence of Sylow $p$-subgroups can be proven by exploiting the same type of argument as in the proof of Proposition \ref{pgroup}; here we prove a stronger statement: 
 
