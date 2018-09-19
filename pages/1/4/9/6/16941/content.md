@@ -29,6 +29,11 @@ a square [[matrix]], the following are equivalent:
 
 =--
 
+## Related concepts
+
+* [[general linear group]]
+
+* [[matrix equivalence]]
 
 ## References
 
