@@ -109,6 +109,8 @@ Discussion of de Sitter [[perturbative string theory vacua]] and their role (or 
 
   (argues that the issue with [[string theory|stringy]] de Sitter [[moduli stabilization]] raised in [Sethi 17](#Sethi17) is related to the de Sitter instability seen in QFT, according to the references [above](#InPerturbativeQuantumGravity))
 
+* Jakob Moritz, Ander Retolaza, Alexander Westphal, _On uplifts by warped anti-D3-branes_ ([arXiv:1809.06618](https://arxiv.org/abs/1809.06618))
+
 Discussion in the context of [[M-theory on G2-manifolds]] includes
 
 * Beatriz de Carlos, Andre Lukas, Stephen Morris, _Non-perturbative vacua for M-theory on G2 manifolds_, JHEP 0412:018, 2004 ([arxiv:hep-th/0409255](https://arxiv.org/abs/hep-th/0409255))
