@@ -1,4 +1,16 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -19,6 +31,8 @@ More generally, for arbitrary sets $A$ and $B$ we can define an $A\times B$-matr
 
 * [[inverse matrix]]
 
+* [[matrix equivalence]]
+
 * [[monomial matrix]], [[permutation matrix]]
 
 * [[matrix group]], [[matrix Lie group]]
@@ -26,6 +40,8 @@ More generally, for arbitrary sets $A$ and $B$ we can define an $A\times B$-matr
 * [[unitary matrix]]. [[unitary group]]
 
 * [[triangular matrix]]
+
+* [[Smith normal form]]
 
 * [[linear algebra]], [[general linear group]], [[special linear group]], [[matrix mechanics]], [[matrix theory]], [[matrix Hopf algebra]], [[matrix Lie algebra]], [[matrix Lie group]], [[classical Lie group]], [[universal localization]], [[tensor calculus]], [[moment of inertia]], [[eigenvalue]], [[characteristic polynomial]] (Cayley-Hamilton theorem), [[spectral curve]]
 
