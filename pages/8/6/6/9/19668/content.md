@@ -17,6 +17,10 @@ on [[representation theory]], [[equivariant homotopy theory]], [[equivariant coh
 
 * [[Burnside ring]]
 
+Chapter 7: Equivariant homology and cohomolgy
+
+* [[equivariant cohomology]]
+
 [Chapter 8: Equivariant homotopy theory](https://web.math.rochester.edu/people/faculty/doug/otherpapers/tomDieck-homotopy.pdf)
 
 * [[equivariant homotopy theory]]
