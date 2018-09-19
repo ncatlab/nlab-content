@@ -282,7 +282,7 @@ $$
       [\mathcal{C},V](y(c) \otimes_{Day} X, Y)
     \\
     & \simeq
-    \underset{c_1}{\int} V((y(c) \otimes_{\mathcal{C}} X)(c_1), Y(c_1))
+    \underset{c_1}{\int} V((y(c) \otimes_{Day} X)(c_1), Y(c_1))
     \\
     &\simeq
     \underset{c_1}{\int} 
