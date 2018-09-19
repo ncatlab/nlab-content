@@ -264,6 +264,8 @@ On the other hand, discussion casting doubt on the existence of a large number o
 
 * {#vanRiet18a} [[Thomas Van Riet]], _Status of KKLT_, talk at _[Simons summer workshop 2018](http://scgp.stonybrook.edu/archives/24870)_ ([recording](http://scgp.stonybrook.edu/video_portal/video.php?id=3730))
 
+* Jakob Moritz, Ander Retolaza, Alexander Westphal, _On uplifts by warped anti-D3-branes_ ([arXiv:1809.06618](https://arxiv.org/abs/1809.06618))
+
 Implications of the possible non-existence of de Sitter vacua in string theory are explored in
 
 * {#ObiedOoguriSpodyneikoVafa18} Georges Obied, [[Hirosi Ooguri]], Lev Spodyneiko, [[Cumrun Vafa]], _De Sitter Space and the Swampland_ ([arXiv:1806.08362](https://arxiv.org/abs/1806.08362))
