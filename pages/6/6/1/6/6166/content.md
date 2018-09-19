@@ -20,4 +20,6 @@ Given a (not necessarily unital) [[ring]] $R$, a left $R$-[[module]] $(N,\nu)$, 
 
 * [[free module]]
 
+* [[Smith normal form]]
+
 [[!redirects finitely generated modules]]
