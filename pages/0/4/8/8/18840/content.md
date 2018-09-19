@@ -50,6 +50,7 @@ The sentiment that [[quantum physics]] _is_ quantum probability theory is also r
 ## Properties
 
 ### Conditional expectation and Wave function collapse
+ {#ConditionalExpectationAndWaveFunctionCollapse}
 
 There is a close relation between [[wave function collapse]] and [[conditional expectation values]] in [[quantum probability]] (e.g. [Kuperberg 05, section 1.2](#Kuperberg05), [Yuan 12](#Yuan12)):
 
