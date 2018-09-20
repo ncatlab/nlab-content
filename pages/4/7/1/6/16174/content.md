@@ -50,7 +50,7 @@ $$
 
 This is originally due to [Segal 71](#Segal71), a detailed proof is given by [tom Dieck 79, theorem 8.5.1](#tomDieck79). See also [Lück 05, theorem 1.13](#Lueck05), [tom Dieck-Petrie 78](#tomDieckPetrie78).
 
-More generally, this staement is a special case of [[tom Dieck splitting]] of [[equivariant suspension spectra]], see [there](tom+Dieck+splitting#OfFixedPointSpectraOfEquivariantSuspensionSpectra).
+From a broader perspective, this statement is a special case of [[tom Dieck splitting]] of [[equivariant suspension spectra]] (e.g. [Schwede 15, theorem 6.14](#Schwede15)), see [there](tom+Dieck+splitting#OfFixedPointSpectraOfEquivariantSuspensionSpectra). 
 
 [[!include Segal completion -- table]]
 
@@ -147,11 +147,14 @@ The concept was named by Dress, following
 
 * {#Burnside1897} [[William Burnside]], _Theory of Groups of Finite Order_, 1897 ([pdf](http://www.gutenberg.org/files/40395/40395-pdf.pdf))
 
-Textbook and lecture notes include
+Textbook accounts and lecture notes include
 
 * {#tomDieck79} [[Tammo tom Dieck]], _[[Transformation Groups and Representation Theory]]_, Springer 1979
 
 * {#tomDieck09} [[Tammo tom Dieck]], _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
+
+* {#Schwede15} [[Stefan Schwede]], section 6 of _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
+
 
 See also
 
