@@ -111,6 +111,8 @@ Discussion of de Sitter [[perturbative string theory vacua]] and their role (or 
 
 * Jakob Moritz, Ander Retolaza, Alexander Westphal, _On uplifts by warped anti-D3-branes_ ([arXiv:1809.06618](https://arxiv.org/abs/1809.06618))
 
+* Iosif Bena, Emilian Dudas, Mariana Graña, Severin Lüst, _Uplifting Runaways_ ([arXiv:1809.06861](https://arxiv.org/abs/1809.06861))
+
 Discussion in the context of [[M-theory on G2-manifolds]] includes
 
 * Beatriz de Carlos, Andre Lukas, Stephen Morris, _Non-perturbative vacua for M-theory on G2 manifolds_, JHEP 0412:018, 2004 ([arxiv:hep-th/0409255](https://arxiv.org/abs/hep-th/0409255))
