@@ -26,7 +26,7 @@ The generalization of the concept of [[homotopy group]] from [[homotopy theory]]
 
 ### Abstractly
 
-For $X$ a [[pointed topological space|pointed]] [[topological G-space]] and $H \subset G$ a closed [[subgroup]], then the $n$th _unstable_ $H$-equivariant homotopy group of $X$ is simply the ordinary $n$-th [[homotopy group]] of the $H$-[[fixed point]] space $X^H$:
+For $X$ a [[pointed topological space|pointed]] [[topological G-space]] and $H \subset G$ a closed [[subgroup]], the $n$th _unstable_ $H$-equivariant homotopy group of $X$ is simply the ordinary $n$-th [[homotopy group]] of the $H$-[[fixed point]] space $X^H$:
 
 $$
   \pi_n^H(X) \coloneqq \pi_n(X^H)
@@ -51,7 +51,7 @@ where now $\Sigma^\infty S^n \simeq \Sigma^n \mathbb{S}$ is the [[suspension spe
 
 ### Via genuine $G$-spectra
 
-Consider [[genuine G-spectra]] modeled on [[G-universe]] $U$.
+Consider [[genuine G-spectra]] modeled on a [[G-universe]] $U$.
 
 For a _finite_ based [[G-CW complex]] $X$ and base [[topological G-space]] $Y$, write
 
