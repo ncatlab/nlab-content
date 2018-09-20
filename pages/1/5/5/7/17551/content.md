@@ -463,9 +463,9 @@ With this, (eq:Factorization) says that with $p_V$ also $p_{ \Sigma^V_G \mathbb{
 
 * {#Blumberg17} [[Andrew Blumberg]], Def. 2.5.16 in _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
 
-
 * {#MathewNaumannNoel15} [[Akhil Mathew]], [[Niko Naumann]], [[Justin Noel]], _Nilpotence and descent in equivariant stable homotopy theory_ ([arXiv:1507.06869](http://arxiv.org/abs/1507.06869))
 
+* [[Tom Bachmann]], [[Marc Hoyois]], remark 9.9 in _Norms in motivic homotopy theory_ ([arxiv:1711.03061](https://arxiv.org/abs/1711.03061))
 
 
 [[!redirects geometric fixed point spectra]]
