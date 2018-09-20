@@ -170,6 +170,8 @@ Relation to [[Mackey functors]]:
 
   _Permutative $G$-categories in equivariant infinite loop space theory ([arXiv:1207.3459](http://arxiv.org/abs/1207.3459))
 
+* {#Nardin12} [[Denis Nardin]], section 2.6 of _Stability and distributivity over orbital ∞-categories_, 2012 ([pdf](https://www.math.univ-paris13.fr/~nardin/thesis.pdf))
+
 * {#Barwick14} [[Clark Barwick]], _Spectral Mackey functors and equivariant algebraic K-theory (I)_, Adv. Math., 304:646–727 ([arXiv:1404.0108](http://arxiv.org/abs/1404.0108))
 
 
