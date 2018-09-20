@@ -25,6 +25,6 @@ Here "underlying" refers to the underlying ordinary category $C_0$ of any $V$-en
 
 ## Special cases
 
-A special role is playes by [[sSet]]-enriched Quillen adjunctions, for the standard [[model structure on simplicial sets]]. See [[simplicial Quillen adjunction]] for more on that
+A special role is played by [[sSet]]-enriched Quillen adjunctions, for the standard [[model structure on simplicial sets]]. See [[simplicial Quillen adjunction]] for more on that.
 
 [[!redirects enriched Quillen adjunctions]]
