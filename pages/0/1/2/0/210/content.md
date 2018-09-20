@@ -25,6 +25,30 @@ Fullness is most important for functors which are also [[faithful functor|faithf
 
 A [[subcategory]] is called a _[[full subcategory]]_ if its inclusion functor (which is automatically faithful) is also full, and any full and faithful functor exhibits an equivalence of its domain with a full subcategory of its codomain.
 
+## Examples
+
+
++-- {: .num_prop}
+###### Proposition
+
+Given a pair of [[adjoint functors]]
+
+$$
+  \mathcal{C}
+    \underoverset
+     {\underset{R}{\longrightarrow}}
+     {\overset{L}{\longleftarrow}}
+     { \phantom{AA} \bot \phantom{AA} }
+  \mathcal{D}
+$$
+
+* the [[right adjoint]] $R$ is a [[full functor]] precisely if the component of the [[unit of an adjunction|counit]] over every object $x$ is a [[split monomorphism]] $L R x \stackrel{}{\to} x $;
+
+* the [[left adjoint]] $L$ is a [[full functor]] precisely if the component of the [[unit of an adjunction|unit]] over every object $x$ is a [[split epimorphism]] $x \to R L x $.
+
+=--
+
+For [[proof]] see [this Prop](adjoint+functor#FullyFaithfulAndInvertibleAdjoints) at _[[adjoint functor]]_.
 
 ## Related concepts
 
