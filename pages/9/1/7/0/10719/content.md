@@ -43,6 +43,10 @@ see e.g. ([GGN 13, p. 8](#GGN13)) for discussion.
 
 * "finite localizations" are smashing ([Miller 92](#Miller92))
 
+## Counter-examples
+
+* [[p-completion]] is _not_ smashing
+
 ## Related concepts
 
 * [[smash product theorem]]
@@ -56,6 +60,8 @@ see e.g. ([GGN 13, p. 8](#GGN13)) for discussion.
 * {#GGN13} [[David Gepner]], Moritz Groth, [[Thomas Nikolaus]], _Universality of multiplicative infinite loop space machines_ ([arXiv:1305.4550](http://arxiv.org/abs/1305.4550))
 
 * {#Bauer11} [[Tilman Bauer]], _Bousfield localization and the Hasse square_ (2011) ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf))
+
+* {#Nardin12} [[Denis Nardin]], section 3.2 of _Stability and distributivity over orbital ∞-categories_, 2012 ([pdf](https://www.math.univ-paris13.fr/~nardin/thesis.pdf))
 
 [[!redirects smashing localizations]]
 
