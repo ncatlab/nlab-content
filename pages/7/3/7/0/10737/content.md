@@ -52,6 +52,8 @@ More generally, if $A$ is [[finitely generated object|finitely generated]], then
 
 * [[nilpotent homotopy type]], [[finite homotopy type]]
 
+* [[nilpotent completion of spectra]]
+
 ## References
 
 Classical accounts include
