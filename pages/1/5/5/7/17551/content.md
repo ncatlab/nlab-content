@@ -146,6 +146,19 @@ We collect some facts from [Lewis-May-Steinberger 86, II.9](#LewisMaySteinberger
 
 > currently bare bones, using definitions and notation from [Lewis-May-Steinberger 86, II.9](#LewisMaySteinberger86) without further ado
 
+Given a [[finite group]] $G$ and a [[normal subgroup]], 
+
+$$
+  \mathcal{F}[N]
+  \;\coloneqq\;
+  \big\{
+    N \nsubset H \subset G 
+  \big\}
+$$ 
+
+denotes a family of [[subgroups]] of $G$ that do not contain $N$
+
+
 +-- {: .num_prop #FPrimeLocalizationIsSmashingLocalization}
 ###### Proposition
 
@@ -574,7 +587,7 @@ $$
 
 {#Hmm} given by... 
 
-> ?? this clearly must be the case, but it still needs a formal argument ??
+> this should follow formally like so: Prop. \ref{CanonicalComparisonMap} says that the map is $\mathcal{F}[N]'$-localization. then use [LMS 86, prop. 9.3](LewisMaySteinberger86)
 
 ...sending any [[G-set]] $S$ to its [[subset]] $S^N$ of $N$-[[fixed points]] regarded with its residual $G/N$-[[action]].
 
