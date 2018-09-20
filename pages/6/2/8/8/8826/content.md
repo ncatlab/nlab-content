@@ -10,7 +10,7 @@ To quote from a book on the subject:
 >"Multiagent systems are a new paradigm for understanding and building distributed systems, where it is assumed that the computational components are autonomous: able to control their own behaviour in the furtherance of their own goals." ([Wooldridge09](#Wooldridge09))
 
 
-The area is a very wide one and this entry only deals with some generalities especially links between local `knowledge' and more global forms and the models of this that involve the use of various types of [[modal logic]].
+The area is a very wide one and this entry only deals with some generalities especially links between local 'knowledge' and more global forms and the models of this that involve the use of various types of [[modal logic]].
 
 ##Introduction
 
