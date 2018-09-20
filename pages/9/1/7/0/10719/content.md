@@ -1,11 +1,23 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-If a  [[Bousfield localization of spectra]] $L_E$ at a spectrum $E$ preserves all [[direct sums]], then it is given by [[smash product]] with the $E$-localization of the [[sphere spectrum]]
+If a  [[Bousfield localization of spectra]] $L_E$ at a [[spectrum]] $E$ preserves all [[direct sums]], then it is given by [[smash product]] with the $E$-localization of the [[sphere spectrum]]
 
 $$
   L_E X \simeq X \wedge L_E S
