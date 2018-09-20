@@ -30,6 +30,7 @@ The [[Kaluza-Klein reduction]] of [[11-dimensional supergravity]] on [[G2 manifo
 
 In order for this to yield [[phenomenology|phenomenologically]] interesting effective physics the compactification space must be a [[G2-orbifold]] (hence an orbifold of [[special holonomy]]), its [[stabilizer groups]] will encode the [[nonabelian group|nonabelian]] [[gauge group]] of the effective theory by "[[geometric engineering of quantum field theory]]" ([Acharya 98](#Acharya98), [Atiyah-Witten 01, section 6](#AtiyahWitten01)), see [below](#EnhancedGaugeGroups). Specifically for discussion of [[string phenomenology]] obtaining or approximating the [[standard model of particle physics]] by this procedure see at _[[G2-MSSM]]_.
 
+
 ## Details
  {#G2Manifolds}
 
@@ -126,9 +127,46 @@ $$
 
 for $\phi = e_7^\ast \phi_3$ the pullback of the [[associative 3-form]] ([BSS 02, (5.5)](#BilalDerendingerSfetos)), saying that $\phi \propto \star F_7$ exhibits [weak G2-holonomy](G2+manifold#WeakG2Holonomy) with weakness parameter given by the component of the  [[C-field]] on $X_4$.
 
-### Singularities
+### Confinement?
 
-For realistic [[field (physics)|field]] content after [[Kaluza-Klein compactification]] one needs to consider not smooth (weak) [[G2-manifolds]] but [[conical singularities]] and [[orbifolds]] of these. see the first page of ([Acharya-Denef-Hofman-Lambert](#AcharyaDenefHofmanLambert)) for discussion of [[phenomenology]] for such orbifold $G_2$ models and further pointers and see ([Acharya 98](#Acharya98)) for general discussion of orbifolds with $G_2$-structure.
+An idea for a strategy towards a proof of [[confinement]] in [[N=1 D=4 super Yang-Mills theory]] via two different but conjecturally equivalent realizations as [[M-theory on G2-manifolds]] has been given in [Atiyah-Witten 01, section 6](#AtiyahWitten01), review is in [Acharya-Gukov 04, section 5.3](#AcharyaGukov04).
+
+The idea here is to consider a [[KK-compactification]] of [[M-theory]] on [[fibers]] which are [[G2-manifolds]] that locally around a special point 
+are of the form
+
+$$
+  X_{1,\Gamma} 
+  \;\coloneqq\;
+  \big( S^3 / \Gamma \big) \times Cone\big(S^3\big)
+  \phantom{AA}
+  \text{or}
+  \phantom{AA}
+  X_{2,\Gamma} 
+  \;\coloneqq\;
+  S^3 \times Cone\big(S^3/\Gamma\big)
+$$
+
+where 
+
+* $\Gamma$ is a [[finite subgroup of SU(2)]] that [[action|acts]] canonically by left-multiplication on $S^3 \simeq $ [[SU(2)]];
+
+* $Cone(\cdots)$ denotes the [[metric cone]] construction.
+
+This means that $X_{1,\Gamma}$ is a [[smooth manifold]], but $X_{2,\Gamma}$, as soon as $\Gamma$ is not the [[trivial group]], $\Gamma \neq 1$, is an [[orbifold]] with an [[ADE singularity]].
+
+Now the lore of [[M-theory on G2-manifolds]] predicts that [[KK-compactification]]
+
+1.  on $X_{1,\Gamma}$ yields a 4d theory without massless fields (since there are no massless modes on the [[covering space]] $S^3$ of $X_{1,\Gamma}$)
+
+1. on the [[ADE-singularity]] $X_{2,\Gamma}$ yields [[non-abelian group|non-abelian]] [[Yang-Mills theory]] in 4d coupled to [[chiral fermions]].
+
+So in the first case a [[mass gap]] is manifest, while non-abelian gauge theory is not visible, while in the second case it is the other way around.
+
+But is there were an argument that [[M-theory on G2-manifolds]] is in fact equivalent for compactification both on $X_{1,\Gamma}$ and on $X_{2,\Gamma}$. To the extent that this is true, it looks like an argument that could demonstrate confinement in non-abelian 4d gauge theory.
+
+This approach is suggested in [Atiyah-Witten 01, pages 84-85](#AtiyahWitten01). An argument that this equivalence is indeed the case is then provided in sections 6.1-6.4, based on an argument in [Atiyah-Maldacena-Vafa 00](#AtiyahMaldacenaVafa00).
+
+
 
 ### Relation to intersecting D-brane models
 
