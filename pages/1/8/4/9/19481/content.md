@@ -1,6 +1,7 @@
 
 ## Basic notions of Categorical algebra
 
+
 We have seen that the existence of [[Cartesian products]] in a [[category]] $\mathcal{C}$ equips is with a [[functor]] of the form
 
 $$
