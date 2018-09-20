@@ -330,7 +330,7 @@ While Green-Schwarz's extra [[kappa-symmetry]] term $S_{WZW}$ this serves a clea
 
    for $\mathbf{N}$ a [[real spin representation]] (the "number of supersymmetries"), $Iso(\mathbb{R}^{d-1,1\vert \mathbf{N}})$ the corresponding [[super Poincaré group]] and $Spin(d-1,1)$ its [[Lorentzian manifold|Lorentz-signature]] [[spin group|Spin]] [[subgroup]];
 
-1. [[WZW-term]] being a local potential for the unique (up to rescaling, if it exists) $Spin(d-1,1)$-[[invariant]] [[Lie algebra cohomology|super Lie algebra 3-cocycle]] $\mu_[F1}$ on the [[super Poincaré Lie algebra]] $\mathfrak{iso}(\mathbb{R}^{d-1,1\vert \mathbf{N}})$, with components locally given by the Gamma-matrices of the given [[Clifford algebra]] representation; in terms of the [[super vielbein]] $(e^a, \psi^\alpha)$:
+1. [[WZW-term]] being a local potential for the unique (up to rescaling, if it exists) $Spin(d-1,1)$-[[invariant]] [[Lie algebra cohomology|super Lie algebra 3-cocycle]] $\mu_{F1}$ on the [[super Poincaré Lie algebra]] $\mathfrak{iso}(\mathbb{R}^{d-1,1\vert \mathbf{N}})$, with components locally given by the Gamma-matrices of the given [[Clifford algebra]] representation; in terms of the [[super vielbein]] $(e^a, \psi^\alpha)$:
 
    $$
      \mu_{F1} = \overline{\psi} \wedge \Gamma_A \psi \wedge e_a
@@ -395,7 +395,7 @@ $$
 $$
 
 is a non-trivial [[super Lie algebra|super]] [[Lie algebra cocycle]] on $\mathbb{R}^{d-1,1\vert \mathbf{N}}$, in that
-$\mathbf{d}\mu_{F1} = 0$ and so that there is no [[left invariant differential form]] $b$ with $\mathbf{d}b = \mu_[F1}$
+$\mathbf{d}\mu_{F1} = 0$ and so that there is no [[left invariant differential form]] $b$ with $\mathbf{d}b = \mu_{F1}$
 (beware here the left-invariance condition: there are of course non-left-invariant potentials for $\mu_{F1}$,
 and in fact these are exactly the possible [[Lagrangian densities]] for the WZW action functional $S_{WZW}$).
 
