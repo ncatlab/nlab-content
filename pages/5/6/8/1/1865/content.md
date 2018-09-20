@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -197,10 +198,8 @@ A review is in
 
 The Simons-Sullivan model is due to
 
-* [[James Simons]], [[Dennis Sullivan]], _Structured vector bundles define differential K-theory_ ([arXiv:0810.4935](http://arxiv.org/abs/0810.4935))
- {#SimonsSullivan}
-
- 
+* {#SimonsSullivan} [[James Simons]], [[Dennis Sullivan]], _Structured vector bundles define differential K-theory_ ([arXiv:0810.4935](http://arxiv.org/abs/0810.4935))
+  
 
 The basic article for the Bunke-Schick model is
 
@@ -210,7 +209,11 @@ A survey talk is
 
 * [[Ulrich Bunke]], _Differential cohomology in geometry and analysis_ ([pdf slides](http://www.uni-regensburg.de/Fakultaeten/nat_Fak_I/Bunke/Vortrag-Erlangen.pdf))
 
-The [[equivariant cohomology]] version of this is in
+Differential [[KO-theory]] is studied in 
+
+* {#GradySati18} Daniel Grady, [[Hisham Sati]], _Differential KO-theory: Constructions, computations, and applications_ ([arXiv:1809.07059](https://arxiv.org/abs/1809.07059))
+
+The differential version of [[equivariant K-theory]] is in
 
 * [[Ulrich Bunke]], [[Thomas Schick]], _Differential orbifold $K$-Theory_ ([arXiv:0905.4181](http://arxiv.org/abs/0905.4181))
 
@@ -246,9 +249,6 @@ and Topology, ([arXiv:1211.4477](http://arxiv.org/abs/1211.4477))
 
 * [[Scott Wilson]], _A loop group extension of the odd Chern character_ ([arXiv:1311.6393](http://arxiv.org/abs/1311.6393))
 
-Another model is in 
-
-* Alexander Gorokhovsky, [[John Lott]], _A Hilbert bundle description of differential K-theory_ ([arXiv:1512.07185](http://arxiv.org/abs/1512.07185))
 
 ### Relation to index theory
 
