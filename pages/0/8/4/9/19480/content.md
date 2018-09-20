@@ -403,7 +403,12 @@ is
 1. for each [[pair]] $X,Y \in Obj_{\mathcal{C}}$ of objects a [[function]]
 
    $$
-     F_{X,Y} \;\colon\;  Hom_{\mathcal{C}}(X,Y) \longrightarrow Hom_{\mathcal{D}}(F_{Obj}(X), F_{Obj}(Y))
+     F_{X,Y} 
+       \;\colon\;  
+     Hom_{\mathcal{C}}(X,Y) 
+       \longrightarrow 
+     Hom_{\mathcal{D}}(F_{Obj}(X), F_{Obj}(Y))
+   $$
 
 such that
 
@@ -1209,7 +1214,7 @@ $$
      \\
      {}^{\mathllap{ f }}\big\downarrow
        &&
-     \big\uparrow{}^{\mathrlap{ \mathbf{X}(f) \, \text{"=}(-)\circ f"}}
+     \big\uparrow{}^{\mathrlap{ \mathbf{X}(f) \, \text{"=}(-)\circ f\text{"}}}
      \\
      d && \mathbf{X}(c)
   }
@@ -1827,7 +1832,7 @@ $$
 ###### Lemma
 **(pre/post-[[composition]] with ([[adjunction counit|co-]])[[adjunction unit|unit]] followed by [[adjunct]] is [[adjoint functor]])**
 
-If a [[functor]] $c$ is a [[right adjoint]]
+If a [[functor]] $C$ is a [[right adjoint]]
 
 $$
   L \dashv C
