@@ -128,7 +128,22 @@ $$
      \Sigma^\infty_{G/N} X
     \;,\; 
     \left(    
-       \Sigma^\infty_G S^{\epsilon^\ast \alpha} \wedge \tilde E \mathcal{F}[N]\wedge E
+       \Sigma^\infty_G S^{\epsilon^\ast \alpha} 
+         \wedge 
+       \tilde E \mathcal{F}[N] \wedge E
+    \right)^N
+  \right)
+  \\
+  & \simeq
+  Hom_{G/N Spectra}\left( 
+     \Sigma^\infty_{G/N} X
+    \;,\; 
+    \left(    
+      S^{\epsilon^\ast \alpha} 
+    \right)^N
+         \wedge 
+    \left(
+       \tilde E \mathcal{F}[N] \wedge E
     \right)^N
   \right)
   \\  
@@ -136,25 +151,13 @@ $$
   Hom_{G/N Spectra}\left( 
      \Sigma^\infty_{G/N} X
     \;,\; 
-    \left(    
-       \Sigma^\infty_G S^{\epsilon^\ast \alpha} 
-    \right)^N
-    \wedge 
-    \left(
-       \tilde E \mathcal{F}[N]\wedge E
-    \right)^N
-  \right)  
-  \\
-  & \simeq
-  Hom_{G/N Spectra}\left( 
-     \Sigma^\infty_{G/N} X
-    \;,\; 
-    \left(    
-       \Sigma^\infty_G S^{\epsilon^\ast \alpha} 
-    \right)^N
+    S^{\alpha}
     \wedge 
     \Phi^N E
   \right)  
+  \\
+  & =
+  (\Phi^N E)^{\alpha}(X)
   \end{aligned}
 $$
 
