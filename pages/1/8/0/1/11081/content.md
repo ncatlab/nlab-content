@@ -1126,9 +1126,9 @@ $$
     X &\stackrel{}{\to}& \mathbf{\Pi}_{inf}(X)
     \\
     \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{\mathbf{\Pi}_{inf}(f)}}
-  }
     \\
     Y &\to& \mathbf{\Pi}_{inf}(Y)
+  }
 $$
 
 is an [[(∞,1)-pullback]]. 
