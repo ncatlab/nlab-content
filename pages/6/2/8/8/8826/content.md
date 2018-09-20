@@ -14,7 +14,7 @@ The area is a very wide one and this entry only deals with some generalities esp
 
 ##Introduction
 
-In many studies of distributed systems, a multiagent model is
+In many studies of [[distributed system]]s, a multiagent model is
 used.  
 
 * An agent is a processor, sensor or finite state machine,
@@ -83,13 +83,14 @@ A set of global states (SGS) for an interpreted system is a subset $S$ of the pr
 
 ###Books
 
-* {#Wooldridge09} [[Michael Wooldridge]], _An Introduction to MultiAgent Systems_ Wiley, 2009
+* {#Wooldridge09} [[Michael Wooldridge]], _An Introduction to MultiAgent Systems_, Wiley, 2009
 
 
 ###Articles
 
- * [[A. Lomuscio]] and [[M. D. Ryan]], _An algorithmic approach to knowledge evolution_, Artificial Intelligence for Engineering Design, Analysis and Manufacturing (AIEDAM), Vol. 13, No. 2 (Special issue on Temporal Logic in Engineering), 23pp, 1999. 
+ * [[A. Lomuscio]], [[M. D. Ryan]], _An algorithmic approach to knowledge evolution_, Artificial Intelligence for Engineering Design, Analysis and Manufacturing (AIEDAM), Vol. 13, No. 2 (Special issue on Temporal Logic in Engineering), 23pp, 1999. 
 
 
-* [[A. Lomuscio]], R. van der Meyden, and [[M. D. Ryan]], _Knowledge in Multi-Agent 
-Systems: Initial Configurations and Broadcast_, ACM Transactions on Computational Logic (TOCL), Volume 1, Issue 2, pp. 247- 284. ACM Press. October 2000. 
+* [[A. Lomuscio]], R. van der Meyden, [[M. D. Ryan]], _Knowledge in multi-agent systems: initial configurations and broadcast_, ACM Transactions on Computational Logic (TOCL), Volume 1, Issue 2, pp. 247- 284. ACM Press. October 2000. 
+
+category: computer science
