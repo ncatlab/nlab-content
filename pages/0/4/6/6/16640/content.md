@@ -104,7 +104,7 @@ where again the elements of the center $F^\times = Z(D^\times)$ correspond to th
 
 $$q^n - 1 = q - 1 + \sum_x \frac{q^n - 1}{q^{d_x} - 1}.$$ 
 
-If $T_n(z)$ is the cyclotomic polynomial given by the product of linear factors $z - \zeta$ where $\zeta$ ranges over *primitive* complex $n^{th}$ [[root of unity|roots of unity]], then $T_n(z)$ has integer coefficients (as it is invariant under the action of the [[Galois group]] $Gal(\mathbb{Q}(e^{2\pi i/n})/\mathbb{Q})$). By definition the integer $T_n(q)$ divides each of the terms of the class equation besides $q-1$, so it must divide $q-1$ as well, so ${|T_n(q)|} \leq {|q-1|}$. But we also have ${|q - \zeta|} \geq {|q-1|}$ for any root of unity $\zeta$, and we are now forced to conclude ${|q - \zeta|} = {|q-1|}$ and $n = 1$, i.e., $F = Z(D)$ is all of $D$ as was to be shown. 
+Now let $\zeta \in \mathbb{C}$ be any primitive $n^{th}$ [[root of unity]]. Since $z - \zeta$ divides each polynomial $z^n-1$ and $\frac{z^n - 1}{z^{d_x} - 1}$, so does $\prod_{prim.\; \zeta} (z-\zeta)$. It follows that the algebraic integer $\prod_{prim.\; \zeta} (q - \zeta)$ divides each of the integers $q^n-1$ and $\frac{q^n - 1}{q^{d_x} - 1}$, and hence divides $q-1$ according to the class equation. But also ${|q - \zeta|} \geq {|q-1|}$ for any root of unity $\zeta$. Thus ${|q - \zeta|} = {|q-1|}$ and $n = 1$, i.e., $F = Z(D)$ is all of $D$ as was to be shown. 
 =-- 
 
 ### Sylow theorems 
