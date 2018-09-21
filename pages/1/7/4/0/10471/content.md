@@ -162,7 +162,7 @@ See at _[[model structure on orthogonal spectra]]_.
 +-- {: .num_defn #SmashProduct}
 ###### Definition
 
-Given two orthogonal spectra $X,Y\in OrthSpectra$, def. \ref{OrthogonalSpectrum}, their _[[smash product of spectra]]_ is the orthongal spectrum
+Given two orthogonal spectra $X,Y\in OrthSpectra$, def. \ref{OrthogonalSpectrum}, their _[[smash product of spectra]]_ is the orthogonal spectrum
 
 $$
   X \wedge Y \in OrthSpectrum
