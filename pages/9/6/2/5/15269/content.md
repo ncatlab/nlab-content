@@ -54,11 +54,9 @@ Literature collection
 
 * [[Miles Reid]], _[Links to papers on McKay correspondence](homepages.warwick.ac.uk/staff/Miles.Reid/McKay/)_
 
-For a K-theoretic interpretation, see:
+As anisomorphism between [[topological K-theory]] of the resolution and [[equivariant K-theory]] of the [[ADE-singularity]]:
 
-* {#GSZ} G. Gonzalez-Sprinberg and J.-L. Verdier, Construction g&eacute;om&eacute;trique de la correspondance de McKay, Ann. Sci. ́&Eacute;cole Norm. Sup.16 (1983) 409–449.
-
-For the 2001 publication on the derived McKay correspondence, see:
+* {#GSZ} G. Gonzalez-Sprinberg, [[Jean-Louis Verdier]], Construction g&eacute;om&eacute;trique de la correspondance de McKay, Ann. Sci. ́&Eacute;cole Norm. Sup.16 (1983) 409–449. ([numdam](http://www.numdam.org/item?id=ASENS_1983_4_16_3_409_0))
 
 * [[Tom Bridgeland]], [[Alastair King]], [[Miles Reid]], _The McKay correspondence as an equivalence of derived categories_ ([pdf](http://www.ams.org/journals/jams/2001-14-03/S0894-0347-01-00368-X/S0894-0347-01-00368-X.pdf))
 
