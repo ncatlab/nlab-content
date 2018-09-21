@@ -158,7 +158,7 @@ $$
   \mathcal{F}[N]
   \;\coloneqq\;
   \big\{
-    N \subset\!\!\!\!\!/ H\; \subset G 
+    N &#8836; H\; \subset G 
   \big\}
 $$ 
 
@@ -203,7 +203,7 @@ $$
         &\vert& 
       H \in \mathcal{F}[N] 
         \;\Leftrightarrow\; 
-      \not(N \subset H) 
+      N &#8836; H 
       \\
       S^0 
         &\vert&
@@ -240,7 +240,7 @@ is an equivalence of [[G-spectra]].
 +-- {: .num_prop #FPrimeLocalizationIsSmashingLocalization}
 ###### Proposition
 
-The [[localization]] of $G Spectra$ at the $\mathcal{F}[N]'$-equivalences (Def. \ref{FPrimeEquivalences}) is a [[smashing localization]], given by smashing with the [[equivariant suspension spectrum]] of $\tilde E \mathcal{F}[N]$ (eq:tildeE)
+The [[localization]] of $G Spectra$ at the $\mathcal{F}[N]'$-equivalences (Def. \ref{FPrimeEquivalences}) is a [[smashing localization]], given by smashing with the [[equivariant suspension spectrum]] of $\tilde E \mathcal{F}[N]$ (Def. \ref{tildeE})
  
 $$
   \Sigma^\infty_G \tilde E \mathcal{F}[N]
@@ -279,7 +279,7 @@ $$
   \;\colon\;
   Ho_{G Spectra}(X,Y)
     \longrightarrow
-  Ho_{L_{\mathcal{F}'} G Spectra}(X,Y)
+  Ho_{L_{\mathcal{F}[N]'} G Spectra}(X,Y)
 $$
 
 is $\mathcal{F}'[N]$-localization on [[hom-objects]].
@@ -293,7 +293,7 @@ For $X$ and $Y$ [[G-CW-complexes]], the following are [[bijections]] of [[hom-se
 
 $$
   \array{
-  \mathrm{Hom}_{Ho(G Spaces)}
+  Ho_{G Spaces)}
   \big(
     X, \widetilde E \mathcal{F}[N] \wedge Y
   \big)
@@ -324,7 +324,7 @@ $$
     \big)
     }{\longrightarrow}
   &
-  \mathrm{Hom}_{Ho(G Spaces)}
+  Ho_{G Spaces}
   \big(
     X^N, \widetilde E \mathcal{F}[N] \wedge Y
   \big)  
@@ -414,7 +414,7 @@ $$
   G/N Spectra
 $$
 
-is given on [[equivariant suspension spectra]] $\Sigma^\infy_G X$ equivalently by first smashing with $\tilde E \mathcal{F}[N]$ (Def. \ref{tildeE}) followed by forming the partial plain [[fixed point spectrum]]:
+is given on [[equivariant suspension spectra]] $\Sigma^\infty_G X$ equivalently by first smashing with $\tilde E \mathcal{F}[N]$ (Def. \ref{tildeE}) followed by forming the partial plain [[fixed point spectrum]]:
 
 $$
   \Phi^N \Sigma^\infty_G X \;\simeq\;
@@ -463,7 +463,7 @@ $$
 
 
 
-### As inversion of Euler classes
+### Via inversion of Euler classes
  {#AsInversionOfEulerClasses}
 
 We discuss an explicit formula (Prop. \ref{GeometricFixedPointCohomologtIsColimitOverSmashWithEulerClasses} below, due to [Lewis-May-Steinberger 86](#LewisMaySteinberger86)) that expresses [[equivariant cohomology|equivariant]] [[cohomology groups]] with [[coefficients]] in partial geometric fixed point spectra (Prop. \ref{PartialGeometricFixedPoint}) as the [[equivariant cohomology|equivariant]] [[cohomology groups]] with [[coefficients]] in the original spectrum, but with certain "[[Euler classes]] [[localization|inverted]]".
@@ -553,28 +553,28 @@ $
   \;\in\;
   G/N Spectra^{fin}
   \overset{\epsilon^\sharp}{\longrightarrow}
-  G Specta
+  G Spectra
 $
 be [[finite spectrum|finite]] $G$-[[CW-spectrum]].
 
 
-The the $G/N$-[[equivariant cohomology|equivariant]] [[cohomology groups]] in [[RO(G)-degree|RO(G/N)-degree]] $\alpha$ of $X$ with [[coefficients]] in the partial geometric fixed point spectrum $\Phi^N E$ are equivalently the [[colimit]] over the $G$-[[equivariant cohomology|equivariant]] [[cohomology groups]] of $\epsilon^\sharp X$ (eq:PullbackGSpace) with [[coefficients]] in $E$, but in [[RO(G)-degree]] $\epsilon^\ast \alpha$ (eq:PullbackRepresentation) plus a shift by all those [[representations]] $V$ that have no nontrivial $N$-fixed points (Def. \ref{ROGDegreeWithoutNonTrivialHFixedPoints}):
+Then the $G/N$-[[equivariant cohomology|equivariant]] [[cohomology groups]] in [[RO(G)-degree|RO(G/N)-degree]] $\alpha$ of $X$ with [[coefficients]] in the partial geometric fixed point spectrum $\Phi^N E$ are equivalently the [[colimit]] over the $G$-[[equivariant cohomology|equivariant]] [[cohomology groups]] of $\epsilon^\sharp X$ (eq:PullbackGSpace) with [[coefficients]] in $E$, but in [[RO(G)-degree]] $\epsilon^\ast \alpha$ (eq:PullbackRepresentation) plus a shift by all those [[representations]] $V$ that have no nontrivial $N$-fixed points (Def. \ref{ROGDegreeWithoutNonTrivialHFixedPoints}):
 
 \[
 \label{ColimitConstructionForCohomologyWithCoeffsInPartialGeometricFixedPointSpectra}
   (\Phi^N E)^\bullet_{G/N}(X)
   \;\simeq\;
   \underset{\underset{\{V \vert V^N = 0\}}{\longrightarrow}}{\lim}
-  E^{\epsilon^\ast \bullet + V}(\epsilon^\sharp X)  
+  E_G^{\epsilon^\ast \bullet + V}(\epsilon^\sharp X)  
   \,,
 \]
 
 where the [[colimit]] is over the [[diagram]] that has precisely one morphism for every inclusion  $V_1 \subset V_2$ of $G$-representations without non-trivial $N$-fixed points (Def. \ref{ROGDegreeWithoutNonTrivialHFixedPoints})
 
 $$
-  E^{\epsilon^\ast \bullet + V_1}(\epsilon^\sharp X)   
+  E_G^{\epsilon^\ast \bullet + V_1}(\epsilon^\sharp X)   
   \overset{ (-) \wedge \chi_{V_2 - V_1} }{\longrightarrow}
-  E^{\epsilon^\ast \bullet + V_2}(\epsilon^\sharp X)   
+  E_G^{\epsilon^\ast \bullet + V_2}(\epsilon^\sharp X)   
 $$
 
 given by [[smash product]] with the [[Euler class]] 
@@ -589,7 +589,7 @@ $$
   E_G^V(S^0)
 $$
 
-of $V = V_2 - V_1$.
+of $V \coloneqq V_2 - V_1$.
 
 =--
 
@@ -630,7 +630,7 @@ $$
   }
 $$
 
-This component is equal to the following composite of isomorphisms with $\mathcal{F}[N]'$-localization $L_{\mathcal{F}[N]'}$:
+This component is equal to the following composite of isomorphisms with $\mathcal{F}[N]'$-localization $L_{\mathcal{F}[N]'}$ (Def. \ref{FPrimeEquivalences}):
 
 \[
   \label{LocalizationIsComparisonMorphism}
