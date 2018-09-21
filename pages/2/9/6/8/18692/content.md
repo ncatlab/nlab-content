@@ -18,6 +18,8 @@ For developments of his ideas, see
 
 * [[Geoff Cruttwell]], [[Rory Lucyshyn-Wright]], _A simplicial foundation for differential and sector forms in tangent categories_, ([arXiv:1606.09080](https://arxiv.org/abs/1606.09080))
 
+* Poon Leung, _Classifying tangent structures using Weil algebras_, Theory and Applications of Categories, 32(9):286–337, 2017, ([tac](http://www.tac.mta.ca/tac/volumes/32/9/32-09abs.html))
+
 Representation of this tangent structure as exponentiation by a tangent vector is given in
 
 * [[Richard Garner]], _An embedding theorem for tangent categories_, ([arXiv:1704.08386](https://arxiv.org/abs/1704.08386))
