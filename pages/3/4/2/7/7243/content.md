@@ -250,6 +250,8 @@ It is highlighted for instance in ([Hartl 06, 1.1](Hartl06), [Buium 13, section 
 
 * [[p-adic physics]]
 
+* [[motivic integration]]
+
 
 ## References
 
