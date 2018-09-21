@@ -21,6 +21,10 @@
 
 ## History
 
+What is called _motivic integration_ is an upgrade of [[p-adic integration]] to a geometric integration theory obtained by replacing the [[p-adic integers]] by a [[formal power series ring]] over the [[complex numbers]].
+
+## History
+
 Motivic integration has been introduced in the talk of [[Maxim Kontsevich]] at Orsay in 1995. This talk also dealt with [[orbifold cohomology]] as well as 2 related papers of  [[Lev Borisov]]. The orbifold cohomology has been continued by Weimin Chen, [[Yongbin Ruan]] and collaborators, and later also by algebraic geometers Abramovich, Vistoli, and others. From physical side a pioneer of both subjects is also Batyrev. 
 
 Later, more general framework of motivic integration in model theory has been put forward by Denef and Loeser, partly based on Denef's work on $p$-adic integration. More recent work using model theoretical approach is by Hrushovski and Kazhdan. 
@@ -29,7 +33,22 @@ Later, more general framework of motivic integration in model theory has been pu
 
 * [[p-adic integration]]
 
+* [[motivic cohomology]]
+
 ## References
+ {#References}
+
+A textbook account is in
+
+*  {#CNS18} Antoine Chambert-Loir, Johannes Nicaise, Julien Sebag, _Motivic integration_, Progress in Mathematics 325 Birkhaeuser 2018 ([doi:10.1007/978-1-4939-7887-8](https://doi.org/10.1007/978-1-4939-7887-8))
+
+
+See also
+
+* Wikipedia _[Motivic integration](https://en.wikipedia.org/wiki/Motivic_integration)_
+
+Original articles include the following:
+
 
 * Jan Denef, [[François  Loeser]], _Definable sets, motives and $p$-adic integrals_,  J. Amer. Math. Soc. __14__ (2001),  no. 2, 429--469, [doi](http://dx.doi.org/10.1090/S0894-0347-00-00360-X)
 
@@ -68,5 +87,6 @@ Mosc. Math. J. 3 (2003), no. 1, 85&#8211;95, 259, [math.AG/0110255](http://arxiv
 * [[Alexei Bondal]]. M. Larsen, [[Valery Lunts]], _Grothendieck ring of pretriangulated categories_, Int. Math. Res. Not. 2004, no. 29, 1461&#8211;1495, [math.AG/0401009](http://arxiv.org/abs/math/0401009)
 
 * Emmanuel Bultot, _Motivic integration and logarithmic geometry_, PhD thesis [arxiv/1505.05688](http://arxiv.org/abs/1505.05688)
+
  
 [[!redirects motivic measure]]
