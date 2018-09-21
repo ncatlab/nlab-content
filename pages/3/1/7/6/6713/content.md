@@ -300,6 +300,15 @@ Comments on the role of D-branes in [[mathematical physics]] and [[mathematics]]
 
 * [[Gregory Moore]], _[[The Impact of D-Branes on Mathematics]]_ (2014)
 
+### On orbifolds
+
+Review includes
+
+* Frederik Roose, _Strings and D-branes on orbifolds: from boundary states to geometry_, 2001 ([pdf](https://fys.kuleuven.be/itf/groups/hep/files/phd/fredrroose.pdf))
+
+* Nikolas Prezas, _Aspects of branes and orbifolds in string theory_, 2002 ([pdf](https://dspace.mit.edu/bitstream/handle/1721.1/8486/50759455-MIT.pdf?sequence=2), [web](http://hdl.handle.net/1721.1/8486))
+
+See also the references at _[[orientifold]]_.
 
 ### As higher super-GS-WZW type $\sigma$-models
 
