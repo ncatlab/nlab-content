@@ -34,6 +34,11 @@ The [[representation theory|representation theoretic]] aspects of the [[gauge th
 
 Under [[geometric engineering of quantum field theory]] via [[D-branes]] situated at [[ADE-singularities]] in non-compact [[Calabi-Yau varieties]] as above, for instance [[Seiberg duality]] of the corresponding quiver gauge field theories may be understood in terms of [[equivalences of categories]] of derived quiver representations corresponding to [[mutations of exceptional collections]] etc. ([Robles-Llana & Rocek 04](#RoblesLlanaRocek04)).
 
+## Related concepts
+
+* [[McKay correspondence]]
+
+* [[fractional D-brane]]
 
 ## References
 
