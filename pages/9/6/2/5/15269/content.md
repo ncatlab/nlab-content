@@ -13,9 +13,32 @@
 * table of contents
 {:toc}
 
-## Classical McKay correspondence
+## Idea
 
-The classical McKay correspondence, named after John McKay, is a one-to-one correspondence between the [[McKay graphs]] of finite subgroups $G \subset \text{SL}_2(\mathbb{C})$ and the extended Dynkin diagrams of ADE type.
+Generally, the _McKay correspondence_ concerns identifications between [[linear representations]] of [[finite subgroups of SU(2)]], $G \subset SU(2)$ with [[cohomology]] of the [[blow-up]] [[resolution of singularities|resolution]] $\tilde X$ of the corresponding [[ADE-singularity]] [[orbifold]] $X \sslash G \coloneqq \mathbb{C}^2\sslash G$.
+
+A strong version of the correspondence is obtained when the [[cohomology theory]] is taken to be ([[equivariant K-theory|equivariant]]) [[K-theory]] ([Gonzalez-Sprinberg & Verdier 83](#GSV83)): 
+
+Here the McKay correspondence becomes an [[isomorphism]] from the [[equivariant K-theory]]  of the [[ADE-singularity]] (equivalently the [[representation ring]] R(G)) to the plain [[K-theory]] of the resolution $\tilde X$, given by [[integral transform]] ([[Fourier-Mukai transform]]) through the canonical [[span]]:
+
+$$
+  \array{
+     &&
+     && K( X \times_{X/G} \tilde S )
+     \\
+     && 
+     & {}^{\mathllap{ p_1^\ast }}\nearrow && \searrow^{\mathrlap{Inv \circ (p_2)_\ast}}
+     \\
+     R(G) \simeq K_G(\ast) &\simeq& K_G(X) && \overset{\simeq}{\longrightarrow}  && K(\tilde X)
+  }
+$$
+
+In terms of [[physics]] ([[string theory]]), the [[K-theory]] classes appearing here may be interpreted as [[groups]] of [[fractional D-brane|fractional]] [[D-brane charges]] (see at _[[fractional D-brane]]_).
+In terms of the [[worldvolume]] [[gauge field theory]] on the D-branes the McKayc correspondence is then seen as passage from the [[Higgs branch]] to the [[Coulomb branch]].
+
+The proof of these statemens generally proceeds by relating both sides of the equivalence to [[Dynkin diagrams]] of [[ADE-classification|ADE-type]].
+
+The classical McKay correspondence, named after [[John McKay]], is a one-to-one correspondence between the [[McKay graphs]] of [[finite group|finite]] [[subgroups]] $G \subset \text{SL}_2(\mathbb{C})$ and the extended Dynkin diagrams of ADE type.
 
 ### Construction
 
@@ -26,13 +49,8 @@ Take $G\subset \text{SL}_2(\mathbb{C})$ finite. Then, let $\rho_0, ..., \rho_n$ 
 
 ### Interpretation in K-theory
 
-In ([GSZ](#GSZ)) the McKay correspondence is interpreted as an isomorphism on [[K-theory]], based on the observation that the [[representation ring]] of $G$ is equal to the $G$-[[equivariant K-theory]] of $\mathbb{C}^2$. This is isomorphic to the ordinary K-theory of the minimal resolution of the Kleinian singularity, $\mathbb{C}^2\sslash G$.
+In ([Gonzalez-Sprinberg & Verdier 83](#GSV83)) the McKay correspondence is interpreted as an isomorphism on [[K-theory]], based on the observation that the [[representation ring]] of $G$ is equal to the $G$-[[equivariant K-theory]] of $\mathbb{C}^2$. This is isomorphic to the ordinary K-theory of the minimal resolution of the Kleinian singularity, $\mathbb{C}^2\sslash G$.
 
-## Derived McKay correspondence
-
-Due to T. Bridgeland, A. King, and M. Reid.
-
-(...)
 
 
 
@@ -56,7 +74,7 @@ Literature collection
 
 As anisomorphism between [[topological K-theory]] of the resolution and [[equivariant K-theory]] of the [[ADE-singularity]]:
 
-* {#GSZ} G. Gonzalez-Sprinberg, [[Jean-Louis Verdier]], Construction g&eacute;om&eacute;trique de la correspondance de McKay, Ann. Sci. ́&Eacute;cole Norm. Sup.16 (1983) 409–449. ([numdam](http://www.numdam.org/item?id=ASENS_1983_4_16_3_409_0))
+* {#GSV85} [[Gérard Gonzalez-Sprinberg]], [[Jean-Louis Verdier]], Construction g&eacute;om&eacute;trique de la correspondance de McKay, Ann. Sci. ́&Eacute;cole Norm. Sup.16 (1983) 409–449. ([numdam](http://www.numdam.org/item?id=ASENS_1983_4_16_3_409_0))
 
 * [[Tom Bridgeland]], [[Alastair King]], [[Miles Reid]], _The McKay correspondence as an equivalence of derived categories_ ([pdf](http://www.ams.org/journals/jams/2001-14-03/S0894-0347-01-00368-X/S0894-0347-01-00368-X.pdf))
 
