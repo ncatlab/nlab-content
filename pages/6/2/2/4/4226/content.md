@@ -21,7 +21,7 @@
 
 ## Idea
 
-What is called _motivic integration_ is an upgrade of [[p-adic integration]] to a geometric integration theory obtained by replacing the [[p-adic integers]] by a [[formal power series ring]] over the [[complex numbers]], and more generally by $k((t))$, for $k$ a field of characteristic $0$.
+What is called _motivic integration_ is an upgrade of [[p-adic integration]] to a geometric integration theory obtained by replacing the [[p-adic integers]] by a [[formal power series ring]] over the [[complex numbers]], and more generally by henselian discretely valued fields of residual characteristic zero.
 
 ## History
 
