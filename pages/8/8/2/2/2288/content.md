@@ -60,6 +60,10 @@ A tool of central importance in stable homotopy theory and its application to [[
 
 * [[K(n)-local stable homotopy theory]] 
 
+* [[generalized homology theory]], [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology theory]]
+
+* [[stable homotopy homology theory]]
+
 When the spaces and spectra in question carry an [[infinity-action]] of a [[group]] $G$ the theory refines to 
 
 * [[equivariant stable homotopy theory]], [[global equivariant stable homotopy theory]].
