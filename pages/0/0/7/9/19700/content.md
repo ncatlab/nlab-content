@@ -50,6 +50,8 @@ Lecture notes include
 
 * Sam Evans, _Smith normal form over the integers_ ([pdf](https://www3.nd.edu/~sevens/smithform.pdf))
 
+* Bill Casselman, _Hermite and Smith forms_, 2011 ([pdf](http://www.math.ubc.ca/~cass/siegel/Smith.pdf))
+
 See also 
 
 * Wikipedia, _[Smith normal form](https://en.wikipedia.org/wiki/Smith_normal_form)_
