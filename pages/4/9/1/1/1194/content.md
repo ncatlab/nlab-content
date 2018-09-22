@@ -562,6 +562,8 @@ The following particular type theories are important enough to (potentially) hav
   * [[coercion]]
 
   * [[intrinsic and extrinsic views of typing]]
+
+  * [[bidirectional typechecking]]
  
 * [[relation between category theory and type theory]]
 
