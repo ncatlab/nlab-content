@@ -86,8 +86,9 @@ The [[Kahn-Priddy theorem]] characterizes a comparison map between stable cohomo
 
 ## Related concepts
 
-
 * [[equivariant stable cohomotopy]]
+
+* [[Boardman homomorphism]]
 
 
 ## References
