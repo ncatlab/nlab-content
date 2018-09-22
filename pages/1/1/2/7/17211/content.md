@@ -1,12 +1,30 @@
 
 
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-Given any [[homotopy commutative ring spectrum]] $(E, \mu, e)$, then the _Boardman homomorphism_ is the [[homomorphism]] from [[homotopy groups]] to $E$-[[generalized homology]] groups that is induced by [[smash product]] with the unit map $e \colon \mathbb{S} \longrightarrow E$ from the [[sphere spectrum]]:
+Given any [[homotopy commutative ring spectrum]] $(E, \mu, e)$, then the _Boardman homomorphism_ is the [[homomorphism]] from [[stable homotopy groups]] (hence from [[stable homotopy homology theory]]) to $E$-[[generalized homology]] groups that is induced by [[smash product]] with the unit map $e \colon \mathbb{S} \longrightarrow E$ from the [[sphere spectrum]]:
 
 $$
   \pi_\bullet(-)
@@ -18,6 +36,7 @@ $$
   E_\bullet(-)
   \,.
 $$
+
 
 For $E = H \mathbb{Z}$ the [[Eilenberg-MacLane spectrum]] for [[ordinary homology]], then this reduces to the [[Hurewicz homomorphism]] $\pi_\bullet(-) \to H_\bullet(-)$.
 
@@ -67,6 +86,8 @@ Named after [[Michael Boardman]].
 * Dominique Arlettaz, _The generalized Boardman homomorphisms_, Central European Journal of Mathematics March 2004, Volume 2, Issue 1, pp 50-56
 
 * {#Lurie10} [[Jacob Lurie]], lecture 7 of _[[Chromatic Homotopy Theory]]_, 2010, ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture7.pdf))
+
+* [[Akhil Mathew]], _Torsion exponents in stable homotopy and the Hurewicz homomorphism_, Algebr. Geom. Topol. 16 (2016) 1025-1041 ([arXiv:1501.07561](https://arxiv.org/abs/1501.07561))
 
 
 [[!redirects Boardman homomorphisms]]
