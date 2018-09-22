@@ -221,11 +221,17 @@ see at _[[ordinary homology spectra split]]_
 
 ## Related concepts
 
+* [[singular homology]]
+
 * [[Dold-Thom theorem]]
 
 * [[ordinary cohomology]]
 
 * [[string topology]]
+
+* [[stable homotopy homology theory]]
+
+* [[bordism homology theory]]
 
 ## References
 
@@ -235,6 +241,9 @@ For instance
 
 The [[Riemann-Hilbert correspondence]]/[[de Rham theorem]] for $H A$-modules is established in 
 
-* [[Jonathan Block]], Aaron Smith, _A Riemann--Hilbert correspondence for infinity local systems_ ([arXiv:0908.2843](http://arxiv.org/abs/0908.2843))
- {#BlockSmith09}
+* {#BlockSmith09} [[Jonathan Block]], Aaron Smith, _A Riemann--Hilbert correspondence for infinity local systems_ ([arXiv:0908.2843](http://arxiv.org/abs/0908.2843))
+ 
+
+[[!redirects ordinary homology theory]]
+
 
