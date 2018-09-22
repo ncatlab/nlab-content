@@ -19,13 +19,13 @@
 * table of contents
 {:toc}
 
-## History
+## Idea
 
 What is called _motivic integration_ is an upgrade of [[p-adic integration]] to a geometric integration theory obtained by replacing the [[p-adic integers]] by a [[formal power series ring]] over the [[complex numbers]].
 
 ## History
 
-Motivic integration has been introduced in the talk of [[Maxim Kontsevich]] at Orsay in 1995. This talk also dealt with [[orbifold cohomology]] as well as 2 related papers of  [[Lev Borisov]]. The orbifold cohomology has been continued by Weimin Chen, [[Yongbin Ruan]] and collaborators, and later also by algebraic geometers Abramovich, Vistoli, and others. From physical side a pioneer of both subjects is also Batyrev. 
+Motivic integration was introduced in the talk of [[Maxim Kontsevich]] at Orsay in 1995 in order to prove that [[Hodge numbers]] of [[Calabi-Yau manifolds]] are [[birational map|birational]] invariants. This talk also dealt with [[orbifold cohomology]] as well as 2 related papers of  [[Lev Borisov]]. The orbifold cohomology has been continued by Weimin Chen, [[Yongbin Ruan]] and collaborators, and later also by algebraic geometers Abramovich, Vistoli, and others. From physical side a pioneer of both subjects is also Batyrev. 
 
 Later, more general framework of motivic integration in model theory has been put forward by Denef and Loeser, partly based on Denef's work on $p$-adic integration. More recent work using model theoretical approach is by Hrushovski and Kazhdan. 
 
@@ -87,6 +87,8 @@ Mosc. Math. J. 3 (2003), no. 1, 85&#8211;95, 259, [math.AG/0110255](http://arxiv
 * [[Alexei Bondal]]. M. Larsen, [[Valery Lunts]], _Grothendieck ring of pretriangulated categories_, Int. Math. Res. Not. 2004, no. 29, 1461&#8211;1495, [math.AG/0401009](http://arxiv.org/abs/math/0401009)
 
 * Emmanuel Bultot, _Motivic integration and logarithmic geometry_, PhD thesis [arxiv/1505.05688](http://arxiv.org/abs/1505.05688)
+
+* Karen Smith, _Motivic integration_, ([pdf](http://www.msri.org/ext/shortermotivic2.pdf))
 
  
 [[!redirects motivic measure]]
