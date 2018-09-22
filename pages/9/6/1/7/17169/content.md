@@ -123,6 +123,18 @@ $$
   \right.
 $$
 
+### As a homology theory
+
+The assignment of [[stable homotopy groups]] to [[topological spaces]] $X$ ([[CW-complexes]])
+
+$$
+  X \mapsto \pi_\bullet^{st}(X) \coloneqq \pi_\bullet(\Sigma^\infty X)
+$$
+
+satisfies the [[axioms]] of a [[generalized homology theory]]. As such this is also called _[[stable homotopy homology theory]]_.
+
+
+
 ## Examples
 
 * [[stable homotopy groups of spheres]]
