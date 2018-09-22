@@ -51,6 +51,7 @@ Specifically the _[[AGT correspondence]]_ expresses this relation in terms of th
 
 ## Related concepts
 
+* [[quiver gauge theory]], [[fractional D-brane]]
 
 * [[super Yang-Mills theory]]
 
@@ -170,3 +171,6 @@ Discussion of construction of just [[N=1 D=4 super Yang-Mills theory]] this way 
 
 
 [[!redirects N=2 D=4 sYM]]
+
+[[!redirects N=2 super Yang-Mills theory]]
+[[!redirects N=2 super Yang-Mills theories]]
