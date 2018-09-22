@@ -12,6 +12,30 @@ He also worked on [[Verdier duality]] of derived categories of [[abelian sheaves
 
 * [Mathematical genealogy](http://www.genealogy.math.ndsu.nodak.edu/id.php?id=31267)
 
+## related $n$Lab pages
+
+* [[Verdier site]]
+
+* [[hypercover]]
+
+* [[Verdier duality]]
+
+* [[Grothendieck context]]
+
+* [[ind-object]], [[strict ind-object]]
+
+* [[triangulated category]]
+
+* [[enhanced triangulated category]]
+
+* [[Karoubian category]]
+
+* [[comparison lemma]]
+
+* [[pro-object]]
+
+* [[McKay correspondence]]
+
 category: people
 
 [[!redirects Verdier]]
