@@ -72,7 +72,7 @@ and the sum is the [[wedge sum]]).
 
 The following dictionary indicates what the correspondence between the two subjects is.
 
-* $k$ $\stackrel{corresponds to}{\mapsto}$ the category of [[pointed set]]s;
+* $k$ $\stackrel{\text{corresponds to}}{\mapsto}$ the category of [[pointed set]]s;
 
 * $k[ [x] ]$ 
   $\mapsto$ 
