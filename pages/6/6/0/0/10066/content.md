@@ -98,6 +98,7 @@ The $G$-equivariant K-theory of the point for $G$ a [[compact Lie group]] is the
 
 * [[equivariant elliptic cohomology]]
 
+* [[McKay correspondence]]
 
 
 ## References
