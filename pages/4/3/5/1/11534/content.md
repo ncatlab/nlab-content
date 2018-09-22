@@ -29,7 +29,7 @@ The plain _[[Burnside ring]]_ is the [[endomorphism ring]] of the [[terminal obj
 
 The [[functors]]/[[additive functors]]/[[enriched (∞,1)-functors]] from the Burnside category to, in particular, the [[category of abelian groups]]/[[(∞,1)-category of spectra]] are called _[[Mackey functors]]_.
 
-A [[functor]] out of the Burndside category is called a _[[Mackey functor]]_, specifically if it is an [[Ab]]-[[enriched functor]] to [[Ab]] out of the [[additive category]]-version of the Burnside category. A [[spectra]]-[[enriched functor]] out of the spectral Burnside category to [[Spectra]] is called a _[[spectral Mackey functor]]_, for emphasis. These spectral Mackey functors are [[equivalence of (infinity,1)-categories|equivalent]] to [[genuine G-spectra]].
+A [[functor]] out of the Burnside category is called a _[[Mackey functor]]_, specifically if it is an [[Ab]]-[[enriched functor]] to [[Ab]] out of the [[additive category]]-version of the Burnside category. A [[spectra]]-[[enriched functor]] out of the spectral Burnside category to [[Spectra]] is called a _[[spectral Mackey functor]]_, for emphasis. These spectral Mackey functors are [[equivalence of (infinity,1)-categories|equivalent]] to [[genuine G-spectra]].
 
 ## Definition
  {#Definition}
