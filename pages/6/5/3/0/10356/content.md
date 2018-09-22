@@ -20,11 +20,11 @@
 ## Idea
 
 ### D-branes at orbifold singularities
+ {#DBranesAtOrbifoldSingularities}
 
 For [[type II superstrings]] on a global [[orbifold]] [[spacetime]] $X\sslash G$, [[D-brane charge]] is measured by the [[equivariant K-theory]] $K_G(X)$. Under the canonical map $K(X/G) \longrightarrow K_G(X)$ from the plain [[topological K-theory]] of the [[quotient space]] irreducible elements of K-theory in general decompose into [[direct sums]] of smaller irreducible elements, hence into "smaller fractions stuck at the orbifold singularity" . 
 
 At least some of these are associated with _fractional_ D-branes in the literature.
-
 
 
 ### D-branes on resolutions of orbifold singularities
