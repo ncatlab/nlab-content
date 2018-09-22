@@ -414,9 +414,12 @@ For $E$ and $F$ [[ordinary cohomology]]/[[ordinary homology]] functors a proof o
 
 ## Examples
 
+* [[stable homotopy homology theory]] is the homology theory represented by the [[sphere spectrum]]
+
+* [[ordinary homology]] is the homology theory represented by an [[Eilenberg-MacLane spectrum]]
+
 * [[bordism homology theory]] is the homology theory represented by a [[Thom spectrum]];
 
-* [[stable homotopy groups|stable homotopy]] is the homology theory represented by the [[sphere spectrum]]
 
 
 ## Related concepts
@@ -434,6 +437,8 @@ For $E$ and $F$ [[ordinary cohomology]]/[[ordinary homology]] functors a proof o
 * [[bivariant cohomology]]
 
 * [[Bousfield equivalence]]
+
+* [[Hurewicz homomorphism]], [[Boardman homomorphism]]
 
 ## References
 
