@@ -12,7 +12,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -88,11 +87,11 @@ $$
   H \;\coloneqq\; U \cdot M
 $$
 
-has Hermite normal form
+has Hermite normal form (Def. \ref{HermiteNormalForm}).
 
 =--
 
-(e.g. [Mader 00, theorem 1.5.2](#Mader00))
+Existence follows by integer row reduction of integer matrices, see e.g. [Gilbert-Pathria 90, p. 3/4](#GilbertPathria90). Uniqueness requires more work (see e.g. [Mader 00, theorem 1.5.2](#Mader00)).
 
 ## Related concepts
 
@@ -102,7 +101,11 @@ has Hermite normal form
 
 ## References
 
-Discussion of the general theory includes
+Integer row reduction for integer matrices via [[greatest common divisors]] is explained for instance in 
+
+* {#GilbertPathria90} William Gilbert, Anu Pathria, _Linear Diophantine Equations_, 1990 ([pdf](https://www.math.uwaterloo.ca/~wgilbert/Research/GilbertPathria.pdf), [[GilbertPathria90.pdf:file]])
+
+Discussion of the general theory of integer matrices includes
 
 * {#Mader00} A. Mader, section 1.5 of _Almost completely decomposable groups_, CRC Press 2000
 
