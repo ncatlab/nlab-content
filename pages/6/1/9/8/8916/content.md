@@ -28,7 +28,22 @@ Any two Sylow $p$-subgroups of $G$ are conjugate.
 
 =--
 
-See [[class equation]] for a detailed discussion of these matters. 
+See [[class equation]] for a detailed discussion of these matters. On the other hand, here is a slick proof for the existence of Sylow subgroups, suggested to us by [[Benjamin Steinberg]]. 
+
++-- {: .proof} 
+###### Proof 
+First observe that if a group $G$ has a $p$-Sylow subgroup $P$, then so does each of its subgroups $H$. For we let $H$ act on $G/P$ by left translation, and then note that since $G/P$ has cardinality prime to $p$, so must one of its connected components $H/Stab(a_x)$ in the $H$-set decomposition 
+
+$$G/P \cong \sum_{orbits\; x} H/Stab(a_x)$$ 
+
+($a_x \in G/P$ a representative of its orbit $x$), making $Stab(a_x)$ a $p$-Sylow subgroup of $H$. 
+
+Then, if $H$ is any group, apply this observation to the embedding 
+
+$$H \stackrel{Cayley}{\hookrightarrow} Perm({|H|}) \hookrightarrow GL_{{|H|}}(\mathbb{Z}/(p))$$ 
+
+where we embed the permutation group via permutation matrices into the group $G$ consisting of matrices ${|H|} \times {|H|} \to \mathbb{Z}/(p)$. Letting $n$ be the cardinality of $H$, the order of $G$ is $(p^n - 1)(p^n - p)\ldots (p^n - p^{n-1})$, with maximal $p$-factor $p^{n(n-1)/2}$. This $G$ has a $p$-Sylow subgroup given by unitriangular matrices, i.e., upper-triangular matrices with all $1$'s on the diagonal, and we are done. 
+=-- 
 
 ## Related pages
 
