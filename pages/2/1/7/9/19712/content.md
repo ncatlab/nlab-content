@@ -102,7 +102,13 @@ has Hermite normal form
 
 ## References
 
-* {#Mader00} A. Mader, section 1.5 of _Almost cpmpletely decomposable groups_, CRC Press 2000
+Discussion of the general theory includes
+
+* {#Mader00} A. Mader, section 1.5 of _Almost completely decomposable groups_, CRC Press 2000
+
+Computational implementation is discussed in
+
+* George Labahn, Vincent Neiger, Wei Zhou, _Fast, deterministic computation of the Hermite normal form and determinant of a polynomial matrix_ ([arXiv:1607.04176](https://arxiv.org/abs/1607.04176))
 
 See also 
 
