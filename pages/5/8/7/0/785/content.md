@@ -215,7 +215,7 @@ A useful class of examples of this is implied by the following:
 ###### Proposition
 
 Let $\mathcal{C}$ be a category of [[simplicial presheaves]] over some [[site]]
-equipped with a _local_ projective [[model structure on simplicial presheaves]] with respect to that site.
+equipped with a _local_ injective [[model structure on simplicial presheaves]] with respect to that site.
 
 Then an ordinary pullback of $A \to C \leftarrow B$ in $\mathcal{C}$ is a homotopy pullback already when one of the two morphisms is an objectwise [[Kan fibration]].
 
