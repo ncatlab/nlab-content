@@ -23,7 +23,7 @@ Stratifolds comprise one of the many variants of the concept of a _[[stratified 
 
 ## Definition
 
-Stratifolds form a class of [[differential module|differential modules]], which are pairs $(S,C)$ of a [[topological space]] $S$ together with an subalgebra $C$ of the algebra of [[continuous function|continuous]] real-valued functions $S\to R$ such that 
+Stratifolds form a class of [[differential module|differential modules]], which are pairs $(S,C)$ of a [[topological space]] $S$ together with a subalgebra $C$ of the algebra of [[continuous function|continuous]] real-valued functions $S\to R$ such that 
 
 1. $C$ is locally detectable, i.e. for all continuous functions $f: S\to R$, $f$ is in $C$ iff for every $x\in S$ there exist an open neighborhood $U\ni x$ and $g\in C$ such that $g|_U = f|_U$,  
 
@@ -53,7 +53,7 @@ A __$k$-dimensional stratifold__ $(S,C)$ is a differential space such that
 
 ## References
 
-* [webpage on stratifolds](http://www.hausdorff-research-institute.uni-bonn.de/kreck-stratifolds)
+* [The stratifold page](https://www.him.uni-bonn.de/homepages/prof-dr-matthias-kreck/the-stratifold-page/)
 
 * [[Matthias Kreck]], _Differential Algebraic Topology_ ([pdf](http://www.hausdorff-research-institute.uni-bonn.de/files/kreck-DA24_08_07.pdf))
  {#Kreck}
