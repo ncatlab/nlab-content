@@ -309,6 +309,7 @@ For instance, every [[chain complex]] over a [[field]] $k$ is quasi-isomorphic t
 
 
 ## Examples 
+ {#Examples}
 
 ### General weighted colimit formula for homotopy colimits {#WeightedColimitFormula}
 
