@@ -32,7 +32,7 @@ There are many different notations used in the literature for the bidirectional 
 
 ### General
 
-* Pierce, B. C., Turner, D. N.: _Local Type Inference_, ACM SIGPLAN–SIGACT Symposium on Principles of Programming Languages (POPL), San Diego, California, 1998, Full version in ACM Transactions on Programming Languages and Systems (TOPLAS), 22(1), January 2000, pp. 1–4.  This is usually cited as the "original" paper on bidirectional typechecking.
+* Pierce, B. C., Turner, D. N.: _Local Type Inference_, ACM SIGPLAN–SIGACT Symposium on Principles of Programming Languages (POPL), San Diego, California, 1998, Full version in ACM Transactions on Programming Languages and Systems (TOPLAS), 22(1), January 2000, pp. 1–44, ([pdf](http://www.cis.upenn.edu/~bcpierce/papers/lti-toplas.pdf)).  This is usually cited as the "original" paper on bidirectional typechecking.
 
 * [[Frank Pfenning]], *Lecture Notes on Bidirectional Type Checking*, [pdf](https://www.cs.cmu.edu/~fp/courses/15312-f04/handouts/15-bidirectional.pdf)
 
