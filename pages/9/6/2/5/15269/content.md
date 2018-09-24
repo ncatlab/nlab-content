@@ -76,7 +76,7 @@ Literature collection
 
 * [[Miles Reid]], _[Links to papers on McKay correspondence](homepages.warwick.ac.uk/staff/Miles.Reid/McKay/)_
 
-As an isomorphism between the [[equivariant K-theory]] of [[ADE-singularity]] and the plain [[topological K-theory]] of its [resolution](ADE singularity#ResolutionBySpheresTouchingAlongADynkinDiagram), the McKay correspondence is proven in:
+As an isomorphism between the [[equivariant K-theory]] of [[ADE-singularity]] and the plain [[topological K-theory]] of its [resolution](ADE+singularity#ResolutionBySpheresTouchingAlongADynkinDiagram), the McKay correspondence is proven in:
 
 * {#GSV85} [[Gérard Gonzalez-Sprinberg]], [[Jean-Louis Verdier]], _Construction géométrique de la correspondance de McKay_, Ann. Sci. ́École Norm. Sup.16 (1983) 409–449. ([numdam](http://www.numdam.org/item?id=ASENS_1983_4_16_3_409_0))
 
