@@ -72,3 +72,6 @@ The homotopy [[spectral sequence]] for cosimplicial spaces is in chapter VIII.
 [[!redirects cosimplicial homotopy type]]
 [[!redirects cosimplicial homotopy types]]
 
+[[!redirects cosimplicial topological space]]
+[[!redirects cosimplicial topological spaces]]
+
