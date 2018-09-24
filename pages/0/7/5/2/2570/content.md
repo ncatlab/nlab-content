@@ -69,7 +69,9 @@ If we apply the Gram--Schmidt process to a well-ordered independent set whose cl
 ## Categorified Gram--Schmidt process 
  {#CategorifiedGramSchmidtProcess}
 
-Many aspects of the Gram--Schmidt process can be [[categorification|categorified]] so as to apply to [[2-Hilbert spaces]]. We will illustrate the basic idea with an example that was suggested to us by [[James Dolan]].  (See also at _[[permutation representation]]_ the sections _[Examples -- Virtual permutation representations](permutation+representation#ExamplesVirtualPermutationRepresentations)_.)
+Many aspects of the Gram--Schmidt process can be [[categorification|categorified]] so as to apply to [[2-Hilbert spaces]] as indicated at _[[Schur's lemma]]_ in the section _[In terms of categorical algebra](Schur's+lemma#InterpretationInCategoricalAlgebra)_;
+
+We will illustrate the basic idea with an example that was suggested to us by [[James Dolan]].  (See also at _[[permutation representation]]_ the sections _[Examples -- Virtual permutation representations](permutation+representation#ExamplesVirtualPermutationRepresentations)_.)
 
 Consider the [[category of representations]] $S_n Rep$ over the [[complex numbers]] of the [[symmetric group]] $G \coloneqq S_n$. (As a running example, we consider $S_4$; up to [[isomorphism]], there are five [[irreducible representations]] 
 
