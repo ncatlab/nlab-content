@@ -55,8 +55,7 @@ As a [[foundation]] for [[mathematics]], homotopy type theory (also called **uni
 
 * It treats [[homotopy theory]] and [[∞-groupoids]] natively.  This is an advantage for doing homotopical and [[higher category theory|higher-categorical]] mathematics, which is spreading slowly into other fields.
 
-* It inherits the good computational properties of intensional [[Martin-Löf type theory]].  Some of its new axioms, such as [[univalence]] and 
-[[function extensionality]], are not fully understood yet from a computational perspective, but progress is being made.
+* It inherits the good computational properties of intensional [[Martin-Löf type theory]].  Some of its new axioms, such as [[univalence]] and [[function extensionality]], are not fully understood yet from a computational perspective, but progress is being made. [This paragraph should be updated in view of the computational interpretation of univalence by the cubical model.]
 
 * It is [[constructive mathematics|constructive]] by default, but can easily be made [[classical logic|classical]] by adding axioms.  This makes it potentially more expressive at essentially no cost.  (In fact, it is not entirely clear how possible it is to do homotopy theory constructively in other foundations.)
 
