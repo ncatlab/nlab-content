@@ -32,7 +32,7 @@ This program was originally begun by Ross Street and has been carried forward by
 
 * [[Dominic Verity]], _Weak complicial sets, a simplicial weak omega-category theory. Part I: basic homotopy theory_ ([arXiv](http://arxiv.org/abs/math.CT/0604414))
 
-* [[Dominic Verity]], _Weak complicial sets, a simplicial weak omega-category theory. Part II: nerves of complicial Gray-categories_ ([pdf](http://uk.arxiv.org/PS_cache/math/pdf/0604/0604416v1.pdf))
+* [[Dominic Verity]], _Weak complicial sets, a simplicial weak omega-category theory. Part II: nerves of complicial Gray-categories_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0604/0604416v1.pdf))
 
 ***
 
