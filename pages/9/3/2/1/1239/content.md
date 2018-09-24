@@ -133,6 +133,8 @@ Lecture notes include
 
 Textbooks include
 
+* Charles Curtis, Irving Reiner, _Representation theory of finite groups and associative algebras_, AMS 1962
+
 * {#FultonHarris91} [[William Fulton]], [[Joe Harris]], _Representation Theory: a First Course_, Springer, Berlin, 1991 ([pdf](http://isites.harvard.edu/fs/docs/icb.topic1381051.files/fulton-harris-representation-theory.pdf))
 
 
