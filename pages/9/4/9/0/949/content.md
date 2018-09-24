@@ -211,3 +211,6 @@ _Todd_: Interesting discussion. Just wanted to add that I'd recently been thinki
 [[!redirects predicative]]
 [[!redirects impredicative]]
 
+[[!redirects predicativity]]
+[[!redirects impredicativity]]
+
