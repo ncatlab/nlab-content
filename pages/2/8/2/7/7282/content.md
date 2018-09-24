@@ -1,4 +1,16 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 # Orthogonal and orthonormal subsets
 * table of contents
 {: toc}
@@ -26,6 +38,11 @@ For a finite-dimensional vector space equipped with a nondegenerate inner produc
 
 In the TVS case, with the appropriate meaning of basis understood, the Gram-Schmidt process extends without difficulty to any well-ordered basis, because the process yields a linearly independent orthogonal set with the same span as the original basis. 
 
+## Examples
+
+* [[Schur's lemma]] says that [[irreducible representations]] form an orthogonal basis of the [[representation ring]]. See [there](Schur's+lemma#InterpretationInCategoricalAlgebra) for more.
+
+
 ## Related concepts
 
 * [[frame field]]
@@ -36,7 +53,11 @@ In the TVS case, with the appropriate meaning of basis understood, the Gram-Schm
 
 * [[normal vector]]
 
-* [[orthogonal basis]]
+## References
+
+See also
+
+* Wikipedia, _[Orthogonal basis](https://en.wikipedia.org/wiki/Orthogonal_basis)_
 
 
 [[!redirects orthogonal set]]
