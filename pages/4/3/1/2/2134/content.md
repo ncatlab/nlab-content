@@ -127,12 +127,14 @@ For $V, W \in G Rep^{fin}$ two [[finite-dimensional vector space|finite-dimensio
 $$
   \langle V,W\rangle
   \;\coloneqq\;
-  dim\left( hom_G(-,-) \right)
+  dim\big( hom_G(-,-) \big)
   \;\in\;
   \mathbb{N}
 $$
 
-for the [[dimension]] of the vector space of homomorphism between them. This only depends on the [[isomorphism classes]] of $V$ and $W$, and hence descends to a [[function]]
+for the [[dimension]] of the vector space of homomorphism between them (e.g. [tom Dieck 09, p. 29](#tomDieck09)). 
+
+This construction only depends on the [[isomorphism classes]] of $V$ and $W$, and hence descends to a [[function]]
 
 $$  \langle -,-\rangle 
   \;\colon\; 
@@ -234,6 +236,11 @@ For (2), if the endomorphism rings of all objects in an [[abelian category]] are
 
 
 ## References
+
+Lecture notes include
+
+* {#tomDieck09} [[Tammo tom Dieck]], (1.1.2) in _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
+
 
 See also 
 
