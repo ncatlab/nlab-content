@@ -160,6 +160,8 @@ A vague version of the above proposed definition is on the very last slide of
 
 See also
 
+* [[Michael Shulman]], _Towards elementary infinity-toposes_, Vladimir Voevodsky Memorial Conference, IAS, September 2018, [talk](https://www.youtube.com/watch?v=ld4YL787dAk).
+
 * [[Michael Shulman]], [[Peter Lumsdaine]], 2016, _Semantics and syntax of higher inductive types_, ([slides](http://home.sandiego.edu/~shulman/papers/stthits.pdf))
 
 * {#Joyal14} [[André Joyal]], _What is an elementary higher topos?_, talk at _[Reimagining The Foundations Of Algebraic Topology](https://www.msri.org/workshops/689)_ April 07, 2014 - April 11, 2014_ [web video](https://www.msri.org/workshops/689/schedules/18227) [PDF](https://www.msri.org/workshops/689/schedules/18227/documents/2046/assets/20468) (slides 57-end).  This lecture contains a proposed definition that is not an $(\infty,1)$-category but a presentation of one by a [[model category]]-like structure; this is closer to the type theory, but further from the intended examples.  In particular, there are unresolved coherence questions even as to whether every Grothendieck $(\infty,1)$-topos can be presented by a model in Joyal's sense (in particular, how strict can a universe be made, and can the [[natural numbers object]] be made fibrant).  Other than that, the main difference is that Joyal assumes only one fixed universe.
