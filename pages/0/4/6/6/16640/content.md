@@ -132,7 +132,7 @@ Then, if $G$ is any group, and $n = ord(G)$, apply this observation to the embed
 
 $$G \stackrel{Cayley}{\hookrightarrow} Perm({|G|}) \cong S_n \hookrightarrow GL_n(\mathbb{Z}/(p)) = H$$ 
 
-where we embed the [[symmetric group]] $S_n$ via [[permutation matrices]] into the group $H$ of $n \times n$ invertible matrices over $\mathbb{Z}/(p)$. If $n$ is the order of $G$, then $H$ has order $(p^n - 1)(p^n - p)\ldots (p^n - p^{n-1})$, with maximal $p$-factor $p^{n(n-1)/2}$. This $H$ has a $p$-Sylow subgroup given by unitriangular matrices, i.e., upper-triangular matrices with all $1$\'s on the diagonal. Therefore $p$-Sylow subgroups $P$ exist for any $G$. 
+where we embed the [[symmetric group]] $S_n$ via [[permutation matrices]] into the group $H$ of $n \times n$ invertible matrices over $\mathbb{Z}/(p)$. The group $H$ has order $(p^n - 1)(p^n - p)\ldots (p^n - p^{n-1})$, with maximal $p$-factor $p^{n(n-1)/2}$. It thus has a $p$-Sylow subgroup given by unitriangular matrices, i.e., upper-triangular matrices with all $1$\'s on the diagonal. Therefore $p$-Sylow subgroups $P$ exist for any $G$. 
 
 Finally, note that by Proposition \ref{pgroup}, $P$ is solvable and therefore has a [[composition series]] 
 
