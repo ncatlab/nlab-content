@@ -20,6 +20,9 @@ For $X_\bullet$ a [[simplicial object]] in [[Top]] --  a [[simplicial topologica
 
 The construction of ${|X_\bullet|}$ is a direct analog of the ordinary notion of [[geometric realization]] of a [[simplicial set]], but taking into account the [[topology]] on the spaces of $n$-simplices $X_n$.
 
+The [[duality|dual]] concept is that of [[totalization]] of [[cosimplicial topological spaces]].
+
+
 ## Definition
 
 Let [[Top]] in the following denote either
