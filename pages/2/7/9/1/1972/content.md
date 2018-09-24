@@ -54,7 +54,33 @@ If $G$ is a [[finite group]] and we [[tensor product of modules|tensor]] $R(G)$ 
 
 Similarly for $G$ a [[compact Lie group]], its complex linear [[representations]] $\rho \colon G \to U(n) \to Aut(\mathbb{C}^n)$ (for all $n \in \mathbb{N}$) are uniquely specified by their [[characters]] $\chi_\rho \coloneqq tr(\rho(-)) \colon G \to \mathbb{C}$. Therefore also here the representation ring is often called the _character ring_ of the group.
  
+### Relation to Schur's lemma
 
+The ([[isomorphism classes]]) of [[finite-dimensional vector space|finite-dimensional]] [[irreducible representations]] $V_i$ form the canonical $\mathbb{Z}$-[[linear basis]] of the representation ring:
+
+$$
+  R(G) \;\simeq\; \mathbb{Z}\big[  \{V_i\}_i \big]
+  \,.
+$$
+
+Moreover, the [[function]] assigning [[dimensions]] of [[hom-object|hom]]-[[vector spaces]] constitutes a canonical bilinear symmetric [[inner product]]:
+
+$$
+  \langle -,-\rangle
+  \;\colon\;
+  R(G) \times R(G)
+    \longrightarrow
+  \mathbb{Z}
+  \,.
+$$
+
+In terms of this, _[[Schur's lemma]]_ states that the [[irreducible representations]] generally constitute an _[[orthogonal basis]]_, and even an _[[orthonormal basis]]_ when the [[ground field]] is [[algebraically closed field|algebraically closed]].
+
+For more discussion of this perspective, see 
+
+* at _[[Schur's lemma]]_ the section _[In terms of categorical algebra](Schur's+lemma#InterpretationInCategoricalAlgebra)_;
+
+* at _[[Gram-Schmidt process]]_ the section _[Categorified Gram-Schmidt  process](Gram-Schmidt+process#CategorifiedGramSchmidtProcess)_.
 
 ### Relation to equivariant K-theory
 
@@ -116,10 +142,7 @@ $$
 from the [[sphere spectrum]] to [[KU]].
 
 
-### Completion
 
-On the other hand, by the [[Atiyah-Segal completion theorem]] 
-in Borel-equivriant K-theory only the [[completion of a ring|completion]] of $Rep(G)$ at the [[augmentation ideal]] appears
 
 ## Examples
 
