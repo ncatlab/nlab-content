@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
 =--
 =--
 
@@ -14,7 +18,13 @@
 * table of contents
 {:toc}
 
+## Idea
+
+The _totalization_ of a [[cosimplicial object]] is the [[duality|dual]] concept to the [[geometric realization]] of a [[simplicial object]].
+
 ## Definition
+
+### As an end
 
 For $A : \Delta \to C$ a [[cosimplicial object]] in a [[category]] $C$ which is [[powering|powered]] over [[simplicial sets]] and for
 
@@ -24,16 +34,33 @@ $$
 
 the canonical cosimplicial simplicial set of [[simplices]], the **totalization** of $A$ is the [[end]]
 
-$$
+\[
+  \label{AsAnEnd}
   \int_{[k]\in \Delta}
   (A_k)^{\Delta[k]}
   \,\,\,
   \in 
   C
   \,.
-$$
+\]
 
-This is dual to [[geometric realization]]. 
+### As the homotopy limit
+ {#AsTheHomotopyLimit}
+
+For a [[cosimplicial object]] $A \colon \Delta \to \mathcal{C}$ in a suitable [[model category]] such that $A$ is a [[fibrant object]] with respect to the [[Reedy model structure]] on $Func(\Delta, \mathcal{C})$, totalization in terms of the [[end]]-construction above in (eq:AsAnEnd) is a model for the [[homotopy limit]] over $A$.
+
+([Hirschhorn 15, theorem 9.2](#Hirschhorn15))
+
+## Properties
+
+### Homotopy and homology
+
+The [[homotopy groups]] of the totalization of a [[cosimplicial space]] are computed by a [[Bousfield-Kan spectral sequence]]. 
+
+The [[homology groups]] by an [[Eilenberg-Moore spectral sequence]].
+  
+
+
 
 ## Related concepts
 
@@ -45,11 +72,15 @@ To a cosimplicial chain complex we can assign a double complex by taking the alt
 
 ## References
 
-Totalization of cosimplicial spaces is discussed in
+The concept [[cosimplicial spaces]] originates with
 
 * {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], chapter X.3 of _[[Homotopy limits, completions and localizations]]_, Lecture Notes in Mathematics, Vol 304, Springer 1972
 
-and the generalization to [[cosimplicial objects]] in more general [[model categories]] is discussed in
+Quick review includes
+
+* [[Daniel Dugger]], section 5.3 of _A primer on homotopy colimits_ ([pdf](https://pages.uoregon.edu/ddugger/hocolim.pdf))
+
+The generalization to [[cosimplicial objects]] in more general [[model categories]] is discussed in
 
 * {#Bousfield03} [[Aldridge Bousfield]], _Cosimplicial resolutions and homotopy spectral sequences in model categories_, Geom. Topol. 7 (2003) 1001-1053 ([arXiv:math/0312531](http://arxiv.org/abs/math/0312531))
 
@@ -61,8 +92,10 @@ Some kind of notes are in
 
 * Rosona Eldred, _Tot primer_ ([pdf](https://drive.google.com/file/d/0B6WoYElpsU2TTXdNbmNyXzZjamc/view))
 
-See also 
+Discussion of totalizations as [[homotopy limits]] includes
 
-* [[Daniel Dugger]], remark 15.7 in _Homotopy colimits_ ([pdf](http://pages.uoregon.edu/ddugger/hocolim.pdf))
+* {#Hirschhorn15} [[Philip Hirschhorn]], section 9 of _The diagonal of a multicosimplicial object_ ([arXiv:1506.06837](https://arxiv.org/abs/1506.06837))
+
+* [[Akhil Mathew]], [[Vesna Stojanoska]], _Fibers of partial totalizations of a pointed cosimplicial space_, Proc. Amer. Math. Soc. 144 (2016), no. 1, 445--458 ([arXiv:1408.1665](https://arxiv.org/abs/1408.1665))
 
 [[!redirects totalizations]]
