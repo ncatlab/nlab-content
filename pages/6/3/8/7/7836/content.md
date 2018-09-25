@@ -58,7 +58,7 @@ The element $g$ [[generators and relations|generates]] a [[cyclic group|cyclic]]
 
 ### Lagrange's theorem
 
-By [[Lagrange's theorem]], if $G$ a [[finite group]] and $H \subset G$ a [[subgroup]], then the order $\vert G\vert$ of $G$ is givisible by the order $\vert H\vert$ of $H$. The multiple is called the [[index of a subgroup|subgroup index]] $[G : H] \in \mathbb{N}$:
+By [[Lagrange's theorem]], if $G$ a [[finite group]] and $H \subset G$ a [[subgroup]], then the order $\vert G\vert$ of $G$ is divisible by the order $\vert H\vert$ of $H$. The multiple is called the [[index of a subgroup|subgroup index]] $[G : H] \in \mathbb{N}$:
 
 $$
   {\vert G\vert}
