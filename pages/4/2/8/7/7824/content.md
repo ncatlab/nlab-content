@@ -96,7 +96,7 @@ Discussion of the [[p-adic numbers|p-adic]] absolute Galois group as the [[etale
 
 Discussion in the context of [[string theory]] includes
 
-* [[Gregory Moore]], _Arithmetic and Attractors_ ([arXiv:hep-th/9807087](https://arxiv.org/abs/hep-th/9807087))
+* [[Gregory Moore]], _Arithmetic and Attractors_ ([arXiv:hep-th/9807087](https://arxiv.org/abs/hep-th/9807087), abridged version in [arXiv:hep-th/9807056](https://arxiv.org/abs/hep-th/9807056))
 
 category: Galois theory
 
