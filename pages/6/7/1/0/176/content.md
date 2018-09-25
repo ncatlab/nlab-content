@@ -484,13 +484,9 @@ For full CFT, The special case of _rational_ CFT has been essentially entirely f
 
 * [The FRS theorem of RCFT](http://golem.ph.utexas.edu/string/archives/000813.html)
 
-
-
-* {#KapustinSaulina} [[Anton Kapustin]], [[nLab:Natalia Saulina]] _Surface operators in 3d TFT and 2d Rational CFT
-_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ ([arXiv:1012.0911](http://arxiv.org/abs/1012.0911))
+* {#KapustinSaulina} [[Anton Kapustin]], [[nLab:Natalia Saulina]] _Surface operators in 3d TFT and 2d Rational CFT_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ ([arXiv:1012.0911](http://arxiv.org/abs/1012.0911))
  
-
-* {#Kong} [[Liang Kong]] _Conformal field theory and a new geometry_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ ([arXiv:1107.3649](http://arxiv.org/abs/1107.3649))
+* {#Kong} [[Liang Kong]], _Conformal field theory and a new geometry_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ ([arXiv:1107.3649](http://arxiv.org/abs/1107.3649))
  
 
 
