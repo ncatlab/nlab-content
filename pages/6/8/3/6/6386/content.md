@@ -1,11 +1,33 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+
 # Contents
 * table of contents
 {: toc}
 
 ## Definition
 
-An **algebraic number** is a [[root]] of a [[polynomial]] with [[integer]] coefficients (or, equivalently, with [[rational number|rational]] coeffients).
+An **algebraic number** is a [[root]] of a [[polynomial]] with [[integer]] [[coefficients]] (or, equivalently, with [[rational number|rational]] coeffients).
+
+The collection of all algebraic numbers forms an [[algebraically closed field|algebraically closed]] [[field]], typically denoted $\overline{\mathbb{Q}}$, as this is the [[algebraic closure]] of the field $\mathbb{Q}$ of [[rational numbers]]. The [[absolute Galois group]] $Gal(\overline{\mathbb{Q}}, \mathbb{Q})$ is peculiar, see [there](absolute+Galois+group#OfTheRationalNumbers).
+
+The algebraic numbers are a sub-field in particular of the field of [[complex numbers]]
+
+$$
+  \mathbb{Q} \hookrightarrow \mathbb{C}
+  \,.
+$$
+
 
 A number (especially a [[complex number]]) which is *not* algebraic is called __transcendental__; famous examples are the base ($\mathrm{e} = 2.7\ldots $) and period ($2 \pi \mathrm{i} = 6.28\ldots \mathrm{i}$, or equivalently $\pi = 3.14\ldots $) of the [[natural logarithm]].
 
@@ -20,6 +42,13 @@ An [[algebraic integer]] is a root of a [[monic polynomial]] with integer coeffi
  
   * [[number field]]
 
+* [[algebraic number]]
+
+## References
+
+See also
+
+* Wikipedia, _[Algebraic numbers](https://en.wikipedia.org/wiki/Algebraic_number)_
 
 [[!redirects algebraic number]]
 [[!redirects algebraic numbers]]
