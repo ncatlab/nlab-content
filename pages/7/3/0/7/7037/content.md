@@ -22,6 +22,8 @@ A [[field extension]] by a [[root of unity]].
 
 * [[field extension]], [[Galois group]]
 
+* [[algebraic numbers]]
+
 * [[anti-cyclotomic field]]
 
 * [[cyclotomic spectrum]]
