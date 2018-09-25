@@ -135,8 +135,6 @@ Details are in example 1.2.4 of
 * [[Jacob Lurie]], $\mathbb{E}[k]$-[[Ek-Algebras|Algebras]]
 
 
-
-
 ### The 2-category of braided monoidal categories
 
 There is a [[strict 2-category]] BrMonCat with:
@@ -149,11 +147,11 @@ There is a [[strict 2-category]] BrMonCat with:
 
 * Any [[symmetric monoidal category]] is a braided monoidal category.
 
-* The monoidal category of [[graded modules]] over a [[commutative ring]] (with the usual [[tensor product of modules|tensor product of graded modules]]) can be made into a braided monoidal category with the braiding $V \otimes W \to W \otimes V,\ x \otimes y \mapsto y \otimes x$. The braiding $x \otimes y \mapsto (-1)^{|x| |y|} y \otimes x$ (where $|x|$ and $|y|$ denote the degrees) is also commonly used.
-
-  More generally, for any invertible element $u$ of the base ring, there is the braiding $x \otimes y \mapsto u^{|x| |y|} y \otimes x$, and these braidings are the only possible. The resulting braided monoidal category is symmetric if and only if $u^2 = 1$.
-
-  The maps $x \otimes y \mapsto u y \otimes x$ define a braiding on the monoidal category of (ungraded) modules only if $u = 1$.
+* The monoidal category $R$-$\mathcal{GMod}$ of [[graded modules]] over a [[commutative ring]] $R$ (with the usual [[tensor product of modules|tensor product of graded modules]]) can be made into a braided monoidal category in multiple ways, each one given by an invertible element $u$ of the base ring. Infact, all braidings on $R$-$\mathcal{GMod}$ arise in this way (as in [Joyal, Street](JoyalStreet86)). The braiding $B^u_{V,W} : V \otimes W \to W \otimes V$, is defined as
+$$
+  x \otimes y \mapsto u^{|x||y|} y \otimes x,
+$$
+where $|x|$ and $|y|$ denote the degrees. It's evident that the resulting braided monoidal category is symmetric if and only if $u^2 = 1$.
 
 * The category of [[crossed G-set|crossed G-sets]].
 
@@ -185,7 +183,7 @@ There is a [[strict 2-category]] BrMonCat with:
 
 The original papers on braided monoidal categories are by [[Andre Joyal|Joyal]] and [[Ross Street|Street]]. The published version does not completely supersede the _Macquarie Math Reports_ version, which has some nice extra results:
 
-* [[André Joyal]] and [[Ross Street]], [Braided monoidal categories](http://maths.mq.edu.au/~street/JS1.pdf), _Macquarie Math Reports_ **860081** (1986). 
+* {#JoyalStreet86} [[André Joyal]] and [[Ross Street]], [Braided monoidal categories](http://maths.mq.edu.au/~street/JS1.pdf), _Macquarie Math Reports_ **860081** (1986). 
 
 * [[André Joyal]] and [[Ross Street]], _Braided tensor categories_ , Adv. Math. **102** (1993), 20--78.
 
