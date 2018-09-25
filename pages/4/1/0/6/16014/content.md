@@ -139,22 +139,18 @@ $$
   \,.
 $$
 
-(The other monad obtained from the [[base change]] [[adjoint triple]] is the [[function monad]], $\prod_W W^\ast \colon \mathbf{H} \to \mathbf{H}$.)
-
-
 With this, if $p\in \mathbf{H}_{/W}$ is a [[proposition]] about terms $w$ of $W$ (a $W$-[[dependent type]]) then 
 
 * $\underset{W}{\lozenge}(p)$ is [[true]]/[[inhabited type|inhabited]] precisely if $\underset{w \colon W}{\exists} p(w)$ is [[true]]/[[inhabited type|inhabited]], hence (that is the standard interpretation of the [[quantifier]]) if it is possible for $p(w)$ to be true for some $w$;
 
 * $\underset{W}{\Box}(p)$ is [[true]]/[[inhabited type|inhabited]] precisely if $\underset{w \colon W}{\forall} p(w)$ is [[true]]/[[inhabited type|inhabited]], hence (that is again the standard interpretation of the quantifier) if $p(w)$ necessarily holds for all $w$.
 
-(Note that there is also an adjoint pair on $\mathbf{H}_{/\ast}$ in which the left adjoint is given by context extension back to $\mathbf{H}_{/W}$ followed by $\exists_W$, and dually the right adjoint is given by $W^\ast$ followed by $\forall_W$.  However, these modalities are not as interesting and do not very well represent necessity and possibility.)
+(Note that there is also an adjoint pair on $\mathbf{H}_{/\ast}$ in which the left adjoint is given by context extension back to $\mathbf{H}_{/W}$ followed by $\exists_W$, and dually the right adjoint is given by $W^\ast$ followed by $\forall_W$. The former is the [[writer comonad]], whereas the latter is the [[function monad]] (or reader monad).)
 
 Thus, this gives one [[syntax|syntactic]] formalization of the informal meaning of "necessity" and "possibility".  The natural [[semantics]] for these [[base change]] operations is a generalization of the simple traditional _[[possible worlds semantics]]_ of propositional necessity and possibility modalities.  (There are, however, more complicated possible worlds semantics.)
 
 Moreover, with this formalization, the modal operator $\underset{W}{\lozenge}$ is [[left adjoint]] to $\underset{W}{\Box}$ and hence both form an [[adjoint modality]]. As discussed there, this is a formalization of [[unity of opposites|opposite]] concepts, which reflects well the opposition of necessity and possibility in their informal meaning.
 
-(The other monad obtained from the [[base change]] [[adjoint triple]] is the [[function monad]], $\prod_W W^\ast \colon \mathbf{H} \to \mathbf{H}$.)
 
 Some technical remarks:
 
