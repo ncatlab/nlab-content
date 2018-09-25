@@ -74,7 +74,6 @@ $$
 
 of the [[order of a group|order]] ([[cardinality]] = number of elements) of $G$ by that of $H$.
 
-=--
 
 
 ## Examples
