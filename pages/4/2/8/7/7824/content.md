@@ -66,10 +66,12 @@ Every [[projective object|projective]] [[profinite group]] appears as an absolut
 ## Examples
 
 ### Of the rational numbers
+ {#OfTheRationalNumbers}
 
 +-- {: .num_remark}
 ###### Remark
-There is no direct description (for example in terms of [[generators and relations]]) known for the absolute Galois group $G_\mathbb{Q}:=Gal(\mathbb{Q}\hookrightarrow \overline \mathbb{Q})$ of the [[rational numbers]].
+
+There is no direct description (for example in terms of [[generators and relations]]) known for the absolute Galois group $G_\mathbb{Q} \coloneqq Gal(\mathbb{Q}\hookrightarrow \overline{\mathbb{Q}})$ of the [[rational numbers]] (with $\overline{\mathbb{Q}}$ being the [[algebraic numbers]]).
 
 However [[Belyi's theorem]] implies that there is a faithful [[action]] of $G_\mathbb{Q}$ on the [[children's drawing|children's drawings]].
 =--
@@ -91,6 +93,10 @@ There is an inclusion of the absolute Galois group of the rational numbers into 
 Discussion of the [[p-adic numbers|p-adic]] absolute Galois group as the [[etale fundamental group]] of a [[quotient]] of some [[perfectoid space]] is in 
 
 * {#Weinstein04} [[Jared Weinstein]], _$Gal(\overline{\mathbb{Q}}_p/\mathbb{Q}_p)$ as a geometric fundamental group_ ([arXiv:1404.7192](https://arxiv.org/abs/1404.7192), [workshop](https://www.mathi.uni-heidelberg.de/~G.QpAsPi1geom/))
+
+See also 
+
+* Wikipedia, _[Absolute Galois group](https://en.wikipedia.org/wiki/Absolute_Galois_group)_
 
 ### In string theory
 
