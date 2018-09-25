@@ -126,7 +126,7 @@ $$ \frac { x\colon C \vdash f(x)\colon B \qquad y\colon B \vdash g(y)\colon A }
 
 Here the horizontal bar indicates that we have written down a _rule_, the rule that the [[judgement]] on the bottom is valid whenever the judgements on the top are valid.
 
-What is an [[identity morphism]] $A \stackrel{f = Id_A}{\to} A$ in category theory is a term represeting the function $f(x) = x$ in type theory, namely the variable $x$ itself regarded as a term: $x$ is a term of type $A$ whenever $x$ is a variable of type $A$.
+What is an [[identity morphism]] $A \stackrel{f = Id_A}{\to} A$ in category theory is a term representing the function $f(x) = x$ in type theory, namely the variable $x$ itself regarded as a term: $x$ is a term of type $A$ whenever $x$ is a variable of type $A$.
 
 In symbols:
 
