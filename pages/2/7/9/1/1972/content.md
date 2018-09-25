@@ -82,6 +82,7 @@ For more discussion of this perspective, see
 
 * at _[[Gram-Schmidt process]]_ the section _[Categorified Gram-Schmidt  process](Gram-Schmidt+process#CategorifiedGramSchmidtProcess)_.
 
+
 ### Relation to equivariant K-theory
 
 The representation ring of a [[compact Lie group]] is equivalent to the $G$-[[equivariant K-theory]] of the point.
@@ -94,6 +95,12 @@ $$
 The construction of representations by [[index]]-constructions of $G$-equivariant [[Dirac operators]] ([[push-forward in generalized cohomology|push-forward]] in $G$-[[equivariant K-theory]] to the point) is called _[[Dirac induction]]_.
 
 [[!include Segal completion -- table]]
+
+
+### Lambda-ring structure
+ {#LambdaRingStructure}
+
+The [[Adams operations]] equip the representation ring with the structure of a [[Lambda ring]],. (e.g. [tom Dieck 09, section 6.2](#tomDieck09), [Meir 17](#Meir17)).
 
 ### Relation to the Burnside ring
 
@@ -160,14 +167,18 @@ The completion of $Rep(Spin(2k))$ is $\mathbb{Z}[ [ e^{\pm x_j} ] ]$ for $1 \leq
 
 ## References
 
+Lecture notes include
+
+* {#tomDieck09} [[Tammo tom Dieck]], section 4.4. in _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
+
+
 Exposition in relation to [[equivariant K-theory]]:
 
 * [[Akhil Mathew]], _[Equivariant K-theory](https://amathew.wordpress.com/2011/12/03/equivariant-k-theory/)_
 
 Classical results for [[compact Lie groups]]:
 
-* [[Graeme Segal]], _The representation ring of a compact Lie group_, Publications Math&#233;matiques de l'Institut des Hautes &#201;tudes Scientifiques
-January 1968, Volume 34, Issue 1, pp 113-128 ([NUMDAM](http://archive.numdam.org/numdam-bin/fitem?id=PMIHES_1968__34__113_0))
+* [[Graeme Segal]], _The representation ring of a compact Lie group_, Publications Math&#233;matiques de l'Institut des Hautes &#201;tudes Scientifiques, January 1968, Volume 34, Issue 1, pp 113-128 ([NUMDAM](http://archive.numdam.org/numdam-bin/fitem?id=PMIHES_1968__34__113_0))
 
 * Masaru Tackeuchi, _A remark on the character ring of a compact Lie group_, J. Math. Soc. Japan Volume 23, Number 4 (1971), 555-705 ([Euclid](http://projecteuclid.org/euclid.jmsj/1259849785))
 
@@ -181,5 +192,9 @@ In the generality of [[super Lie groups]]:
 With an eye towards [[loop group representations]]:
 
 * {#Brylinski90} [[Jean-Luc Brylinski]], _Representations of loop groups, Dirac operators on loop space, and modular forms_, Topology, 29(4):461&#8211;480, 1990.
+
+The [[Lambda-ring]]-structure via [[Adams operations]] is discussed in
+
+* {#Meir17} Ehud Meir, Markus Szymik, _Adams operations and symmetries of representation categories_ ([arXiv:1704.03389](https://arxiv.org/abs/1704.03389))
 
 [[!redirects representation rings]]
