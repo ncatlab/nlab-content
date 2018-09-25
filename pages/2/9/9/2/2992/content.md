@@ -23,6 +23,12 @@ The [[field]] of **rational numbers**, $\mathbb{Q}$, is the [[field of fractions
 
 ## Properties
 
+### Algebraic closure
+
+The [[algebraic closure]] $\overline{\mathbb{Q}}$ of the rational numbers is called the [[field]] of _[[algebraic numbers]]_. The [[absolute Galois group]] $Gal(\overline{\mathbb{Q}}\vert \mathbb{Q})$ has some curious properties, see [there](absolute+Galois+group#OfTheRationalNumbers).
+
+### Topologies
+
 There are several interesting [[topological space|topologies]] on $\mathbb{Q}$ that make $\mathbb{Q}$ into a [[topological group]] under addition, allowing us to define interesting fields by taking the [[complete space|completion]] with respect to this topology:
 
 1.  The _[[discrete topology]]_ is the most obvious, which is already complete.
