@@ -573,6 +573,11 @@ $$
 
 * related but different: [[modular equivariant elliptic cohomology]]
 
+* [[equivariant K-theory]]
+
+* [[equivariant algebraic K-theory]]
+
+
 ## References
 
 ### General
