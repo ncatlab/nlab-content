@@ -5,13 +5,9 @@
 +--{: .hide}
 [[!include higher geometry - contents]]
 =--
-#### Additive analytic geometry
-+--{: .hide}
-[[!include Additive analytic geometry -- contents]]
-=--
-=--
 =--
 
+test
 
 #Contents#
 * table of contents
@@ -31,8 +27,7 @@ The main interest of this new geometry is that it has a built in flow (action of
 One may work, if needed with other kinds of functions/distributions on $\mathbb{R}_+$, for example if one wants to study distributional trace formulas.
 In any case, one needs to use [[Dirac distribution|Dirac measures/distributions]] to relate directly the above two types of analytic geometries, by the relation on coordinates given by $z=e^s$ in an [[archimedean]] context, and $z=p^{-s}$ in a [[non-archimedean]] context.
 
-Higher dimensional spaces may also be considered, but the lack of a unit element in $L^1$ makes the extension of the semi and sub-analytic topologies to this geometry a bit tricky.
-It forces the user of this formalism to do whatever may be done in classical (multiplicative geometry) using the unit to be introduced by replacing it by a not completely arbitrary $L^1$ function $h$ (one needs to be able to simplify by it in the definition of the rational domain). If one respects this inherent constraint of the situation, things work well with rational domains, that may be defined using convolution ideals using "generalized projections'' associated to such almost arbitrary $L^1$ functions, for example $\pi_h:D^2_a\to D^1_a$ given on functions by sending $f$ to $f\otimes h$ (here, the variable $h$ replaces the unit $1$ of classical geometry, but one may of course give a link between the two approaches using distributions, or using approximate convolution units).
+Higher dimensional spaces may also be considered, but the lack of a unit element in $L^1$ makes the extension of the semi and sub-analytic topologies to this geometry a bit tricky. Unitarization may be necessary.
  
 A full complex geometry with various Grothendieck topologies seems to emerge from the consideration of the simple analogy/link with classical complex analysis given by the complex exponential map, but it is not so easy to find the right class of functions/distributions to be used here. One may simply try out with $L^1$ functions, and see where one arrives, but a regularity condition on an additive disk may also be imposed by asking that $(\log x)^n f(x)x^\delta$ is $L^1$ for every $n$, in order to obtain smoothness of functions on the boundary; using schwartz functions or overconvergent ones may also be a solution to the problem of having a nice notion of differential calculus on rational domains, that one must also solve in classical (multiplicative) analytic geometry.
 
