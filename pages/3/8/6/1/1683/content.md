@@ -26,7 +26,6 @@ $$
   \,.
 $$
 
-More generally, to every [[stable (infinity,1)-category]] $C$ is associated a [[K-theory]] _space_ which in good cases, such as when the category is presented by a [[Waldhausen category]] is the degree 0 piece of a corresponding [[algebraic K-theory]] spectrum. The detailed construction is known as the [[Waldhausen S-construction]].
 
 ## Definition
 
