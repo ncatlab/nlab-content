@@ -249,6 +249,8 @@ Notably, applied to the monoidal [[stack]] of [[vector bundles]] (with [[connect
 
 ## Related concepts
 
+* [[equivariant algebraic K-theory]]
+
 Types of categories for which a theory of algebraic K-theory exist include notably the notions
 
 * [[Quillen exact category]], 
