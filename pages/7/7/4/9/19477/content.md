@@ -32,7 +32,7 @@ A basic fact of [[category theory]] says that the [[limit]] or [[colimit]] of a 
 Let $\mathcal{C}$ be a [[category]] and write $[\mathcal{C}^{op}, Set]$ for its [[category of presheaves]]. Let moreover $\mathcal{D}$ be a [[small category]] and consider any [[functor]]
 
 $$
-  F \;\colon\; \mathcal{D} \longrightarrow [\mathcal{C}^{op}, \mathcal{D}]
+  F \;\colon\; \mathcal{D} \longrightarrow [\mathcal{C}^{op}, Set]
   \,,
 $$
 
