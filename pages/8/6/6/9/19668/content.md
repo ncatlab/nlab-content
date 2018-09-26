@@ -17,6 +17,12 @@ on [[representation theory]], [[equivariant homotopy theory]], [[equivariant coh
 
 * [[Burnside ring]]
 
+[Chapter 3: Lambda rings](https://web.math.rochester.edu/people/faculty/doug/otherpapers/tomDieck-lambda.pdf)
+
+* [[lambda ring]]
+
+* [[Adams operation]]
+
 Chapter 7: Equivariant homology and cohomolgy
 
 * [[equivariant cohomology]]
