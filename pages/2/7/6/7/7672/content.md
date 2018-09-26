@@ -619,18 +619,25 @@ Other reviews include
 Discussion from the point of view of [[chromatic homotopy theory]] is in 
 
 * {#Lurie} [[Jacob Lurie]], _The image of $J$_, lecture 35 in _[[Chromatic Homotopy Theory]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture35.pdf))
- 
 
-* {#Behrens13} [[Mark Behrens]], section 1 of Introduction talk at _[Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/conferences/talbot/index.php?year=2013&sub=talks)_ ([pdf](http://math.mit.edu/conferences/talbot/2013/1-Behrens-intro.pdf), [pdf](http://math.mit.edu/conferences/talbot/2013/Behrens-Introduction-chromatic-homotopy-thy-4-22-13.pdf))
- 
+* {#Behrens13} [[Mark Behrens]], section 1 of Introduction talk at _[Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/conferences/talbot/index.php?year=2013&sub=talks)_ ([pdf](http://math.mit.edu/conferences/talbot/2013/1-Behrens-intro.pdf), [pdf](http://math.mit.edu/conferences/talbot/2013/Behrens-Introduction-chromatic-homotopy-thy-4-22-13.pdf)) 
 
 * {#Knudsen13} [[Ben Knudsen]], _First chromatic layer of the sphere spectrum = homotopy of the $K(1)$-local sphere_, talk at _[2013 Pre-Talbot Seminar](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php)_ ([pdf](http://math.northwestern.edu/~htanaka/pretalbot2013/notes/2013-04-04-Rob-Legg-K1-local-sphere.pdf))
  
 
 
-* {#Lorman13} [[Vitaly Lorman]], _Chromatic homotopy theory at height 1 and the
-image of $J$_, talk at _[Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/conferences/talbot/index.php?year=2013&sub=talks)_ ([pdf](http://math.mit.edu/conferences/talbot/2013/Image%20of%20J-1.pdf))
+* {#Lorman13} [[Vitaly Lorman]], _Chromatic homotopy theory at height 1 and the image of $J$_, talk at _[Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/conferences/talbot/index.php?year=2013&sub=talks)_ ([pdf](http://math.mit.edu/conferences/talbot/2013/Image%20of%20J-1.pdf))
  
+Generalization to [[equivariant cohomology]] ([[equivariant K-theory]]) is discussed in
+ 
+* Z. Fiedorowicz, H. Hauschild, [[Peter May]], theorem 0.4 of _Equivariant algebraic K-theory_, _Equivariant algebraic K-theory_, Algebraic K-Theory. Springer, Berlin, Heidelberg, 1982. 23-80 ([pdf](http://math.uchicago.edu/~may/PAPERS/40.pdf))
+
+* Henning Hauschild, [[Stefan Waner]], theorem 0.1 of _The equivariant Dold theorem mod $k$ and the Adams conjecture_, Illinois J. Math. Volume 27, Issue 1 (1983), 52-66. ([euclid:1256065410](https://projecteuclid.org/euclid.ijm/1256065410))
+
+* Kuzuhisa Shimakawa, _Note on the equivariant $K$-theory spectrum_, Publ. RIMS, Kyoto Univ. **29** (1993), 449-453 ([pdf](http://www.ems-ph.org/journals/show_pdf.php?issn=0034-5318&vol=29&iss=3&rank=5), [doi](https://doi.org/10.2977/prims/1195167052))
+
+* Christopher French, theorem 2.4 in _The equivariant $J$–homomorphism for finite groups at certain primes_, Algebr. Geom. Topol. Volume 9, Number 4 (2009), 1885-1949 ([euclid:1513797069](https://projecteuclid.org/euclid.agt/1513797069))
+
 
 
 ### Relation to $O$-action on general spectra
