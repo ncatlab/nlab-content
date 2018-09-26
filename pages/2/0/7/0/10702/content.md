@@ -28,7 +28,7 @@ More abstractly, Adams operations can be defined on any [[Lambda-ring]]. They ar
 ## Definition
  {#Definition}
 
-The Adams operations have an explicit definition in terms of the [[Lambda-ring]] structure on [[topological K-theory]], this we state as def. \ref{DefinitionInTermsOfLambdaRing} below. While explicit, this definition may look contrived on first sight. But it turns out that it satisfied a list of properties, of which two simple ones already uniquely characterize the Adams operations.  This is proposition \ref{TheBasicProperties} below.
+The Adams operations have an explicit definition in terms of the [[Lambda-ring]] structure on [[topological K-theory]], this we state as def. \ref{DefinitionInTermsOfLambdaRing} below. While explicit, this definition may look contrived on first sight. But it turns out that it satisfies a list of properties, of which two simple ones already uniquely characterize the Adams operations.  This is proposition \ref{TheBasicProperties} below.
 
 +-- {: .num_prop #LambdaRingStructureOnKTheory}
 ###### Definition
@@ -45,7 +45,7 @@ $$
   K(X)[ [t] ] 
 $$
 
-for the [[formal power series]] with [[coefficients]] in the ring $K(X)$ being the K-theory casses of the skew-symmetrized [[tensor product of vector bundles]] of $E$ with itself. 
+for the [[formal power series]] with [[coefficients]] in the ring $K(X)$ being the K-theory classes of the skew-symmetrized [[tensor product of vector bundles]] of $E$ with itself. 
 
 Since the constant term of this power series is always the unit $[\wedge^0 E] = 1$, hence
 
@@ -55,7 +55,7 @@ $$
 
 there exists a multiplicative inverse formal power series $\lambda_t[E]^{-1}$.
 
-Thn given the class of a [[virtual vector bundle]] $[E] - [F] \in K(X)$, define more generally
+Then given the class of a [[virtual vector bundle]] $[E] - [F] \in K(X)$, define more generally
 
 $$
   \lambda_t[[E- F]]
