@@ -155,9 +155,9 @@ $$
 
 on $(\mathbb{Z}, \leq)$ with 
 
-1. $Even \coloneqq 2 \lfloor -/2 \rfloor$ sending any integer to its "even floor value"
+1. $Even \coloneqq 2 \lfloor -/2 \rfloor$ sending any integer to its "even [[floor]] value"
 
-1. $Odd \coloneqq 2 \lfloor -/2 \rfloor + 1$ sending any integer to its "odd ceiling value".
+1. $Odd \coloneqq 2 \lfloor -/2 \rfloor + 1$ sending any integer to its "odd [[ceiling]] value".
 
 =--
 
@@ -197,7 +197,9 @@ In the same vein there is an example for an adjunction of the form $\bigcirc \da
 +-- {: .num_example }
 ###### Example
 
-Consider the inclusion $\iota \colon (\mathbb{Z}, \lt) \hookrightarrow (\mathbb{R}, \lt)$ of the [[integers]] into the [[real numbers]], both regarded [[linear orders]]. This inclusion has a [[left adjoint]] given by $ceiling$ and a right adjoint civen by $floor$. The composite $Ceiling \coloneqq \iota ceiling$ is an [[idempotent monad]] and the composite $Floor \coloneqq \iota floor$ is an [[idempotent comonad]] on $\mathbb{R}$. Both express a _moment of integrality_ in an real number, but in opposite ways, each real number $x\in \mathbb{R}$ sits in between its floor and celling
+Consider the inclusion $\iota \colon (\mathbb{Z}, \lt) \hookrightarrow (\mathbb{R}, \lt)$ of the [[integers]] into the [[real numbers]], both regarded [[linear orders]]. This inclusion has a [[left adjoint]] given by [[ceiling]] and a right adjoint civen by [[floor]]. 
+
+The composite $Ceiling \coloneqq \iota ceiling$ is an [[idempotent monad]] and the composite $Floor \coloneqq \iota floor$ is an [[idempotent comonad]] on $\mathbb{R}$. Both express a _moment of integrality_ in an real number, but in opposite ways, each real number $x\in \mathbb{R}$ sits in between its floor and celling
 
 $$
   Floor(x) \leq x \leq Ceiling(x)
