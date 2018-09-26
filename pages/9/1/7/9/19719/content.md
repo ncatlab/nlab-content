@@ -20,6 +20,7 @@ If you would like to participate, simply add your name to the list and join the 
 * [[John Dougherty]]
 * [[Peter LeFanu Lumsdaine]]
 * [[Ali Caglayan]]
+* [[Steve Awodey]]
 
 ## Plans
 
