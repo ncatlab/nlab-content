@@ -1,3 +1,4 @@
+[[!redirects C. Seshadri]]
 
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/C._S._Seshadri)
