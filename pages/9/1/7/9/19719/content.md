@@ -40,6 +40,7 @@ If you would like to participate, simply add your name to the list and join the 
 * [[Paul Gustafson]]
 * [[Anders Mörtberg]]
 * [[Neel Krishnaswami]]
+* [[Luis Scoccola]]
 
 ## Plans
 
