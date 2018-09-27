@@ -1,3 +1,16 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
 # Contents #
 * table of contents
 {:toc}
@@ -5,7 +18,11 @@
 
 ## Definition 
 
-The *exponent* of a [[group]] $G$, denoted $\exp(G)$, is the least [[natural number]] $n$ such that $g^n = 1$, the [[identity element]], for all $g \in G$. 
+The *exponent* of a [[group]] $G$, denoted $\exp(G)$, is equivalently
+
+* the least [[natural number]] $n$ such that $g^n = 1$, the [[identity element]], for all $g \in G$,
+
+* hence the [[least common multiple]] of the [[order of a group element|orders]] of the group elements.
 
 Here "least" should, by all rights, refer to the *divisibility order* on $\mathbb{N}$, where $m \leq n$ means $m$ divides $n$. Notice that with this poset structure, $\mathbb{N}$ is a [[complete lattice]] with bottom element $1$ and top element $0$; under this convention, the exponent always exists as the least common multiple of the orders of elements, which is their join ([[supremum]]) in the lattice, and is $0$ if (for example) $G$ is a [[torsion|torsion-free group]]. 
 
@@ -15,7 +32,9 @@ If $G$ is a [[finite group]] of [[order of a group|order]] $n$, then $\exp(G)$ d
 
 +-- {: .num_prop} 
 ###### Proposition 
-If $G$ is a finite abelian group and $\exp(G) = ord(G)$, then $G$ is [[cyclic group|cyclic]]. 
+
+If $G$ is a [[finite group|finite]] [[abelian group]] and $\exp(G) = ord(G)$, then $G$ is [[cyclic group|cyclic]]. 
+
 =-- 
 
 +-- {: .proof} 
@@ -60,4 +79,9 @@ These last facts are part of the lore of the celebrated Burnside problem. The *f
 
 ## References 
 
+See also
+
+* GroupProps, _[Exponent of a group](https://groupprops.subwiki.org/wiki/Exponent_of_a_group)_
+
 * Wikipedia, _Burnside problem_, [web](https://en.wikipedia.org/wiki/Burnside%27s_problem)
+
