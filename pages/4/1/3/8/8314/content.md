@@ -102,6 +102,8 @@ See at _[[finite abelian group]]_ for details.
 
 * [[binary cyclic group]]
 
+* [[multiplicative group of integers modulo n]]
+
 * [[cyclic ring]]
 
 * [[p-localization]]
