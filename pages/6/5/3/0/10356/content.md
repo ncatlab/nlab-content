@@ -26,10 +26,15 @@ For [[type II superstrings]] on a global [[orbifold]] [[spacetime]] $X\sslash G$
 
 At least some of these are associated with _fractional_ D-branes in the literature.
 
+### In terms of twisted sector boundary states
+
+In the [[worldsheet]]-description of [[D-branes]] via [[boundary conformal field theory]], fractional D-branes are reflected by [[boundary states]] in "[[twisted sectors]]".
+(e.g.  [Diaconescu-Gomis 99](#DiaconescuGomis99), [Recknagel-Schomerus 13, around p. 173](#RecknagelSchomerus13))
+
 
 ### D-branes on resolutions of orbifold singularities
 
-Typically in the string theory literature, fractional D-branes are identified in a "[[duality in string theory|dual]]" formulation of the situation:
+In parts of the string theory literature, fractional D-branes are identified in a "[[duality in string theory|dual]]" formulation of the situation:
 
 At least for $X  \simeq \mathbb{C}^2$ and $G$ a [[finite subgroup of SU(2)]] [[action|acting]] in the canonical way, hence for $X\sslash G$ an [[ADE-singularity]], the K-theoretic [[McKay correspondence]] ([Gonzalez-Sprinberg & Verdier 83](#GSV83)) identifies the [[equivariant K-theory]] of $X$ with the plain [[K-theory]] of a nice [[blow-up]] [[resolution of singularities|resolution]] $\tilde X$:
 
@@ -103,8 +108,6 @@ Early discussion in physics language include
 
 * Diaconescu, [[Michael Douglas]], [[Jaume Gomis]], _Fractional Branes and Wrapped Branes_, JHEP 9802:013,1998 ([arXiv:hep-th/9712230](http://arxiv.org/abs/hep-th/9712230))
 
-* {#DiaconescuGomis99} Diaconescu, [[Jaume Gomis]], _Fractional Branes and Boundary States in Orbifold Theories_, JHEP 0010 (2000) 001 ([arXiv:hep-th/9906242](https://arxiv.org/abs/hep-th/9906242))
-
 The [[McKay correspondence]] as an [[integral transform]] ([[Fourier-Mukai transform]]) in ([[equivariant K-theory|equivariant]]) [[K-theory]], and hence in terms of fractional [[D-brane charge]] is due to
 
 * {#GSV83} [[Gérard Gonzalez-Sprinberg]], [[Jean-Louis Verdier]], Construction g&eacute;om&eacute;trique de la correspondance de McKay, Ann. Sci. ́&Eacute;cole Norm. Sup.16 (1983) 409–449. ([numdam](http://www.numdam.org/item?id=ASENS_1983_4_16_3_409_0))
@@ -118,6 +121,16 @@ See also
 * [[David Berenstein]], Richard Corrado, [[Jacques Distler]], _Aspects of ALE Matrix Models and Twisted Matrix Strings_, Phys. Rev. D 58, 026005 (1998) ([arXiv:hep-th/9712049](https://arxiv.org/abs/hep-th/9712049))
 
 * [[Emil Martinec]], [[Gregory Moore]], bottom of p. 3 of _On Decay of K-theory_ ([arXiv:hep-th/0212059](http://arxiv.org/abs/hep-th/0212059))
+
+Discussion in terms of [[twisted sector]] [[boundary states]] in [[worldsheet]] [[boundary conformal field theory]] includes
+
+
+* {#RecknagelSchomerus13} [[Andreas Recknagel]], [[Volker Schomerus]], _Boundary Conformal Field Theory and the Worldsheet Approach to D-branes_, Cambirdge 2013 ([spire:1308990](http://inspirehep.net/record/1308990))
+
+* {#DiaconescuGomis99} Diaconescu, [[Jaume Gomis]], _Fractional Branes and Boundary States in Orbifold Theories_, JHEP 0010 (2000) 001 ([arXiv:hep-th/9906242](https://arxiv.org/abs/hep-th/9906242))
+
+* M. Billo', B. Craps, F. Roose, _Orbifold boundary states from Cardy's condition_, JHEP 0101:038, 2001 ([arXiv:hep-th/0011060](https://arxiv.org/abs/hep-th/0011060))
+
 
 
 
