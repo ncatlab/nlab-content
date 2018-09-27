@@ -42,3 +42,6 @@ The restrictions of the free adjunction, $Adj$, to the sub-2-categories spanned 
 * C. Auderset, _Adjonction et monade au niveau des 2-categories_, Cahiers de Top. et Geom. Diff. XV-1 (1974), 3-20.
 
 * Dieter Pumplün, _Eine Bemerkung über Monaden und adjungierte Funktoren_, Math. Annalen 185 (1970), 329-377.
+
+[[!redirects walking adjunction]]
+[[!redirects the walking adjunction]]
