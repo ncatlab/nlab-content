@@ -1,1 +1,3 @@
 I am a mathematician at the [Harish-Chandra Research Institute](http://www.hri.res.in/) in Allahabad, India.  My primary interest in mathematics has been algebraic geometry.  I am also interested in the univalent foundations of mathematics, especially with reference to the formalisation of mathematics, and am trying to follow the work of the [UniMath](https://github.com/UniMath/UniMath) project.  As for a Web page about my work, at the moment there is only my [MathSciNet list](https://mathscinet.ams.org/mathscinet/search/publications.html?pg4=AUCN&s4=raghavendra%2Cn*).
+
+category: people
