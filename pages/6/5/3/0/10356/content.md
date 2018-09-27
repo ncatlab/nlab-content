@@ -70,7 +70,7 @@ On the other extreme, gauge theories are of interest whose gauge group is not a 
 
 Now here is the final ingredient: it is [[N=2 super Yang-Mills theories]]  ("[[Seiberg-Witten theory]]") which have a potential that is such that its vacua break a simple gauge group such as $SU(N)$ down to a Dynkin diagram quiver gauge theory. One place where this is reviewed, physics style, is  [Albertsson 03, section 2.3.4](N=2+D=4+super+Yang-Mills+theory#Albertsson03).
 
-More precisely, these theories have two different kinds of [[vacuum|vacua]], those on the "[[Coulomb branch]]" and those on the "[[Higgs branch]]" depending on whether the scalars of the "[[vector multiplets]]" (the gauge field sector) or of the "[[hypermultiplet]]" (the matter field sector) vanish. The statement above is for the Higgs branch, but the Coulomb branch is supposed to behave "dually".
+More precisely, these theories have two different kinds of [[vacuum|vacua]], those on the "[[Coulomb branch]]" and those on the "[[Higgs branch]]" depending on whether the scalars of the "[[vector multiplets]]" (the gauge field sector) or of the "[[hypermultiplet]]" (the matter field sector) vanish. The statement above is for the Higgs branch, but the Coulomb branch is supposed to behave "dually". (see e.g. [Diaconescu-Gomis 99](#DiaconescuGomis99))
 
 So that then finally is the relation, in the [[ADE classification]], between the [[simple Lie groups]] and the [[finite subgroups of SU(2)]]: start with an [[N=2 super Yang-Mills theory]] with [[gauge group]] a [[simple Lie group]]. Let it spontaneously find its vacuum and consider the orbit space of the remaining spontaneously broken symmetry group. That is (a resolution of) the orbifold quotient of $\mathbb{C}^2$ by a [[finite subgroup of SU(2)]].
 
@@ -102,6 +102,8 @@ Early discussion in physics language include
 * [[Michael Douglas]], [[Brian Greene]], [[David Morrison]], _Orbifold Resolution by D-Branes_, Nucl.Phys.B506:84-106,1997 ([arXiv:hep-th/9704151](https://arxiv.org/abs/hep-th/9704151))
 
 * Diaconescu, [[Michael Douglas]], [[Jaume Gomis]], _Fractional Branes and Wrapped Branes_, JHEP 9802:013,1998 ([arXiv:hep-th/9712230](http://arxiv.org/abs/hep-th/9712230))
+
+* {#DiaconescuGomis99} Diaconescu, [[Jaume Gomis]], _Fractional Branes and Boundary States in Orbifold Theories_, JHEP 0010 (2000) 001 ([arXiv:hep-th/9906242](https://arxiv.org/abs/hep-th/9906242))
 
 The [[McKay correspondence]] as an [[integral transform]] ([[Fourier-Mukai transform]]) in ([[equivariant K-theory|equivariant]]) [[K-theory]], and hence in terms of fractional [[D-brane charge]] is due to
 
