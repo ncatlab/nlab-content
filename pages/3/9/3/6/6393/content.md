@@ -18,8 +18,6 @@
 =--
 
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -102,6 +100,10 @@ The demonstration of this fact is due to
 Superconformal invariance of the spinning string was discussed in
 
 * [[Paul Howe]], _Super Weyl transformations in two dimensions_ J. Phys. 12 (1979) 393. 
+
+A decent account is in
+
+* {#Majer} Imre Majer, _Superstrings_ ([pdf](http://edu.itp.phys.ethz.ch/fs13/cft/SuperS2_Majer.pdf), [[MajerSuperstrings.pdf:file]])
 
 A review of the history of these developments is in 
 
