@@ -32,6 +32,7 @@ If you would like to participate, simply add your name to the list and join the 
 * [[Andy Pitts]]
 * [[Ulrik Buchholtz]]
 * [[Samuel Mimram]]
+* [[Paolo Capriotti]]
 
 ## Plans
 
