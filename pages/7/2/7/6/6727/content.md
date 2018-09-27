@@ -65,7 +65,7 @@ Review includes
 
 * _String primer_ around p. 43 in ([arXiv:hep-th/9810240](http://arxiv.org/abs/hep-th/9810240))
 
-That the GSO projection implies [[spacetime]] [[supersymmetry]] is due to\
+That the GSO projection implies [[spacetime]] [[supersymmetry]] is due to
 
 * {#GreenSchwarz81} [[Michael Green]], [[John Schwarz]], 
 
