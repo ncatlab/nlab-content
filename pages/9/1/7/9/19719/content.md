@@ -33,6 +33,8 @@ If you would like to participate, simply add your name to the list and join the 
 * [[Ulrik Buchholtz]]
 * [[Samuel Mimram]]
 * [[Paolo Capriotti]]
+* [[Rafaël Bocquet]]
+* [[András Kovács]]
 
 ## Plans
 
