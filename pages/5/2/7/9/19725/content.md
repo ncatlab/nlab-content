@@ -153,7 +153,7 @@ Moreover, if $V \in R_{\widehat k}(G)$ is an [[irreducible representation]], the
 ([tom Dieck 79, Prop. 3.5.2](#tomDieck79))
 
 
-### Schur index
+### The Schur index
 
 +-- {: .num_defn #GaloisGroupAveraging}
 ###### Definition
@@ -198,7 +198,7 @@ $$
 a $\widehat k$-linear [[representation]], its _Schur index_
 
 $$
-  s \in \mathbb{N}
+  s_V \in \mathbb{N}
 $$ 
 
 is the smallest [[natural number]] such that there exists a rational [[irreducible representation]] $W \in R_{\mathbb{Q}}(G)$ whose [[extension of scalars]] (e.g. [[complexification]]) is $s$ times the Galois group averaging $V_{avg}$ (Def. \ref{GaloisGroupAveraging}) of $V$:
@@ -206,30 +206,31 @@ is the smallest [[natural number]] such that there exists a rational [[irreducib
 $$
   W \otimes_{\mathbb{Q}} \mathbb{C}
   \;\simeq\;
-  s \cdot V_{avg}
+  s_V \cdot V_{avg}
 $$
 
 Such irreducible $W$ exists uniquely. 
 
 =--
 
-([tom Dieck 09, theorem 6.2.1](#tomDieck09))
+(e.g. [tom Dieck 09, theorem 6.2.1](#tomDieck09))
 
 +-- {: .num_remark #EquivariantJHomomorphism}
 ###### Remark
 **([[equivariant J-homomorphism]]?)**
 
-The uniqueness of the rational irrep $W$ in Prop. \ref{SchurIndexForComplexToRational} means that the construction there 
-provides a [[linear map]] (not necessarily a [[ring homomorphism]])
+The uniqueness of the rational irrep $W$ in Prop. \ref{SchurIndexForComplexToRational} means that the Schur index construction there  provides a [[linear map]] (not necessarily a [[ring homomorphism]])
 
 $$
-  J_{\mathbb{Q}}
-  \;\colon\;
-  R_{\widehat k}(G)
-    \;
-    \longrightarrow
-    \;
-  R_{\mathbb{Q}}(G) 
+  \array{
+    R_{\widehat k}(G)
+      \;
+      &\overset{J_{\mathbb{Q}}}{\longrightarrow}&
+      \;
+    R_{\mathbb{Q}}(G) 
+    \\
+    V &\mapsto& s_V \cdot \big(V + \Psi^{n_1}(V) + \cdots \big)
+  }
   \,.
 $$
 
@@ -262,7 +263,7 @@ $$
 
 > Question: 
 
-> Is this the $G$-equivariant [[J-homomorphism]] over the point?
+> Is this the $G$-[[equivariant J-homomorphism]] over the point?
 
 Notice that, by the construction in Prop. \ref{SchurIndexForComplexToRational} this map satisfies
 
