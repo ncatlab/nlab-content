@@ -246,6 +246,8 @@ See also
 
 * Wikipedia, _[Schur's lemma](https://en.wikipedia.org/wiki/Schur%27s_lemma)_
 
+[[!redirects Schur's lemmas]]
 
 [[!redirects Schur lemma]]
-[[!redirects Schur's lemma]]
+[[!redirects Schur lemmas]]
+
