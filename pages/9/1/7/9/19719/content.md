@@ -28,6 +28,7 @@ If you would like to participate, simply add your name to the list and join the 
 * [[N. Raghavendra]]
 * [[Dave Ripley]]
 * [[Mitchell Riley]]
+* [[Andy Pitts]]
 
 ## Plans
 
