@@ -186,6 +186,8 @@ and is further developed in the following articles:
 
 * Hiroyuki Abe, Yermek Aldabergenov, Shuntaro Aoki, [[Sergei Ketov]], _Massive vector multiplet with Dirac-Born-Infeld and new Fayet-Iliopoulos terms in supergravity_ ([arXiv:1808.00669](https://arxiv.org/abs/1808.00669))
 
+* Sergey Ketov, Maxim Khlopov, _Extending Starobinsky inflationary model in gravity and supergravity_ ([arXiv:1809.09975](https://arxiv.org/abs/1809.09975))
+
 ### Embedding into 11d supergravity
 
 Discussion of Starobinsky inflation in [[11-dimensional supergravity]] with its [[higher curvature corrections]] included (see [there](11-dimensional+supergravity#HigherCurvatureCorrection)) is in
