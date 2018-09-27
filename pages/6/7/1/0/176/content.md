@@ -2,7 +2,11 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Quantum field theory
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+#### Functorial Quantum field theory
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
 =--
@@ -392,6 +396,8 @@ $$
 
   * [[2d SCFT]]
 
+* [[boundary conformal field theory]]
+
 ## References ##
 
 ### General
@@ -402,7 +408,7 @@ The first comprehensive physics textbook on CFT was maybe
 
 Introduction and surveys include
 
-* {#Gawedzki99} [[Krzysztof Gaw?dzki]], _Conformal field theory: a case study_ ([arXiv:hep-th/9904145](http://arxiv.org/abs/hep-th/9904145))
+* {#Gawedzki99} [[Krzysztof Gawedzki]], _Conformal field theory: a case study_ ([arXiv:hep-th/9904145](http://arxiv.org/abs/hep-th/9904145))
 
 * [[Ingo Runkel]], _Boundary problems in conformal field theory_ ([pdf](http://www.math.uni-hamburg.de/home/runkel/PDF/phd.pdf))
 
