@@ -271,7 +271,7 @@ $$
   A(G) \overset{ \beta = K(k[-]) }{\longrightarrow} R(G)
 $$
 
-from Def. \ref{ComparisonMapBurnsideRingRepresentationRing}, which sends [[Burnside ring|virtual G-sets]]  to [[representation ring|virtual linear G-representations]],
+from Def. \ref{ComparisonMapBurnsideRingRepresentationRing}, which sends [[Burnside ring|virtual G-sets]]  to their permutation rep [[representation ring|virtual linear G-representations]],
 
 1. is [[surjective map|surjective]] for $G$ among one of the following classes of [[finite groups]] (not mutually exclusive)
 
