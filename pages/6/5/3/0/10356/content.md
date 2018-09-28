@@ -18,13 +18,76 @@
 {:toc}
 
 ## Idea
-
-### D-branes at orbifold singularities
  {#DBranesAtOrbifoldSingularities}
+ 
 
-For [[type II superstrings]] on a global [[orbifold]] [[spacetime]] $X\sslash G$, [[D-brane charge]] is measured by the [[equivariant K-theory]] $K_G(X)$. Under the canonical map $K(X/G) \longrightarrow K_G(X)$ from the plain [[topological K-theory]] of the [[quotient space]] irreducible elements of K-theory in general decompose into [[direct sums]] of smaller irreducible elements, hence into "smaller fractions stuck at the orbifold singularity" . 
+For [[type II superstrings]] on a global [[orbifold]] [[spacetime]] $X\sslash G$, [[D-brane charge]] is measured by the [[equivariant K-theory]] $K_G(X)$. Under the canonical map $K(X/G) \longrightarrow K_G(X)$ from the plain [[topological K-theory]] of the [[quotient space]] [[simple object|irreducible elements]] of [[K-theory]] in general decompose into [[direct sums]] of smaller [[simple object|irreducible elements]], hence into "smaller fractions stuck at the orbifold singularity" . 
 
-At least some of these are associated with _fractional_ D-branes in the literature.
+The corresponding [[D-branes]] are called _fractional_ D-branes in the literature.
+
+### At global linear orbifold singularities
+ {#AtGlobalLinearOrbifoldSingularities}
+
+If here $X$ is a [[contractible space]] (at it is in the majority of examples discussed in the literature!), then its [[equivariant K-theory]] is equivalently that of the point
+
+$$
+  K_G(X)
+  \;\simeq\;
+  K_G(\ast)
+  \;\simeq\;
+  R_{\mathbb{C}}(G)
+$$
+
+which is [[isomorphism|isomorphic]] to the [[representation ring]] of $G$. 
+
+Under this identification, the (non-fractional) unit brane is identified with the [[regular representation]] $k[G/1]$ of $G$:
+
+$$
+  \array{
+    &&
+    K(X) &\longrightarrow & K_G(X)
+    \\
+    &&
+    \simeq && \simeq
+    \\
+    \mathbb{Z}
+    &\simeq&
+    K(\ast) &\longrightarrow& K_G(\ast) &\simeq& R_{\mathbb{C}}(G)
+    \\
+    1 && & \mapsto & && k[G/1]
+  }
+$$
+
+The non-fractional nature of the [[permutation representation]] is reflected in the fact that its [[character]] is still unity on the [[neutral element]] $e \in G$ and vanishes on other elements (i.e. in the non-trivial [[twisted sectors]]):
+
+$$
+  \chi_{k[G/1]}
+  \;\colon\;
+  g 
+    \mapsto
+  \left\{
+  \array{
+    1 &\vert& g = e
+    \\
+    0 &\vert& \text{otherwise}
+  }
+  \right.
+$$
+
+But, by a standard fact from [[representation theory]], the [[regular representation]] is far from [[irreducible representation|irreducible]], instead it is a [[direct sum]] of _all_ existing [[irreducible representations]] $V_i \in R_{\mathbb{C}}(G)$ (each appearing with multiplicity equal to its [[dimension]]):
+
+$$
+  k[G/1]
+  \;\simeq\;
+  \underset{i}{\bigoplus}
+  d_i V_i
+  \,.
+$$
+
+In this sense, the unit brane on $X$ decays into fractional branes at the orbifold  singularities $X\sslash G$.
+
+Those fractional branes corresponding to [[permutation representations]] in $K_G(\ast) \simeq R_{\mathbb{C}}(G)$ are called _[[permutation branes]]_.
+
 
 ### In terms of twisted sector boundary states
 
@@ -96,6 +159,8 @@ is considered informally in the [[string theory]] literature (for instance in di
 but has not been given a correspondingly precise cohomological formulation yet. 
 
 ## Related concepts
+
+* [[permutation brane]]
 
 * [NS5 half-brane](NS5-brane#NSHalfBranes)
 
