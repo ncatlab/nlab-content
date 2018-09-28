@@ -17,7 +17,7 @@
 
 ## Idea
 
-In the construction of the [[NSR string]] as a [[2d SCFT]] from a supersymmetric [[sigma-model]] one needs to remove one half of the [[sigma-model]]-excitations in order to achive that the resulting [[2d SCFT]] satisfies [[modular invariance]], hence that it is defined not just on the [[complex plane]] but also on [[tori]]. This halfing of the naive sigma-model spectrum is called the _GSO projection_, after [GSO 77](#GSO77).
+In the construction of the [[NSR string]] as a [[2d SCFT]] from a supersymmetric [[sigma-model]] one needs to remove one half of the [[sigma-model]]-excitations in order to achieve that the resulting [[2d SCFT]] satisfies [[modular invariance]], hence that it is defined not just on the [[complex plane]] but also on [[tori]]. This halfing of the naive sigma-model spectrum is called the _GSO projection_, after [GSO 77](#GSO77).
 
 A good account is in [Majer, sections 1.3 and 2](#Majer).
 
@@ -36,7 +36,11 @@ This way the mere assumption of strings with [[fermions]] in their spectrum (ori
 
 ### Beyond modular invariance
 
-One should really check that the [[2d SCFT]] is well defined on _all_ [[genus of a surface|genera]], because that is needed when computing the [[string perturbation series]] at higher [[loop order]]. But this is subtle for the [[NSR superstring]], see at [[super Riemann surface]] for more on this. 
+One should really check that the [[2d SCFT]] is well defined on _all_ [[worldsheet]] [[genus of a surface|genera]], not just on genus 1 as given by [[modular invariance]].
+
+Because [[correlators]] at all the higher genera enter the [[string perturbation series]] at higher [[loop order]]. 
+
+But this is subtle for the [[NSR superstring]], see at _[[super Riemann surface]]_ for more on this. 
 
 A full construction of [[2d CFTs]] at all [[genus of a surface|genera]] has been achieved only for bosonic [[rational 2d CFTs]], see at _[[FRS-theorem on rational 2d CFT]]_.
 
@@ -49,7 +53,7 @@ The [[Green-Schwarz superstring]] [[sigma-model]] gives an alternative descripti
 
 * [[Goddard-Thorn no-ghost theorem]]
 
-* * [[string theory FAQ]]: _[Does string theory predict supersymmetry?](string+theory+FAQ#DoesSTPredictSupersymmetry)_
+* [[string theory FAQ]]: _[Does string theory predict supersymmetry?](string+theory+FAQ#DoesSTPredictSupersymmetry)_
 
 ## References
 
