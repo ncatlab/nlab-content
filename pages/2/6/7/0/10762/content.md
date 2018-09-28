@@ -63,6 +63,8 @@ $$
 
 * [[J-homomorphism]]
 
+* [[Schur index]]
+
 ## References
 
 ### General
