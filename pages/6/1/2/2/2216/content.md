@@ -1,11 +1,19 @@
 
-Charles Sanders Peirce (1839-1914), a philosopher, logician and scientist, was one of the founders of modern symbolic [[logic]]. In particular, he developed a form of [[predicate logic]]. Peirce devised a graphical notation, known as **existential graphs**, to represent logical calculi. There were three systems of such graphs: the system _alpha_, to represent [[propositional logic]], the system _beta_, to represent [[predicate logic]], and the system _gamma_, to represent [[modal logic]] ([MaPiet 18](#MaPiet18)).
+Charles Sanders Peirce (1839-1914), a philosopher, logician and scientist, was one of the founders of modern symbolic [[logic]]. In particular, he developed a form of [[predicate logic]]. Peirce is seen as the father of pragmatism, although he later distanced himself from other American philosophers who identified them as pragmatists, by adopting the term _pragmaticism_.
 
-[[Geraldine Brady]] and [[Todd Trimble]] have given a category theoretic interpretation of the alpha and beta systems. The latter, a form of [[string diagram|string diagrammatic]] notation, was developed ([PontoShul](#PontoShul)) into a [[string diagram]] notation for [[indexed monoidal categories]]. A development also appears in [MellZeil](#MellZeil).
+Peirce was a prolific thinker who left behind an enormous corpus of work, much unpublished. Where his _Collected Papers_ run to 8 volumes, an ongoing edition aims to publish 30 volumes.
 
-Peirce's philosophy can be seen as Schellingism transformed in light of (in Peirce's time) modern physics, as Peirce himself notes in an 1894 letter to William James:
+Peirce's philosophy may be seen as Schellingism transformed in light of (in Peirce's time) modern physics, as Peirce himself notes in an 1894 letter to William James:
 
 > My views were probably influenced by [[Schelling]] - by all stages of Schelling, but especially the _Philosophie der Natur_. I consider Schelling as enormous, and one thing I admire about him is his freedom from the trammels of system, and his holding himself uncommitted to any previous utterance. in that, he is like a scientific man. If you were to call my philosophy Schellingism transformed in the light of modern physics, I should not take it hard.
+
+
+## Existential graphs
+
+Peirce devised a graphical notation, known as **existential graphs**, to represent logical calculi. There were three systems of such graphs: the system _alpha_, to represent [[propositional logic]], the system _beta_, to represent [[predicate logic]], and the system _gamma_, to represent [[modal logic]] ([MaPiet 18](#MaPiet18)).
+
+[[Geraldine Brady]] and [[Todd Trimble]] have given a category theoretic interpretation of the alpha and beta systems. The latter, a form of [[string diagram|string diagrammatic]] notation, was developed ([PontoShul](#PontoShul)) into a [[string diagram]] notation for [[indexed monoidal categories]]. A development also appears in [MellZeil](#MellZeil), see also [BSS18](#BSS18).
+
 
 
 ##References
@@ -17,6 +25,10 @@ Stanford Encyclopedia of Philosophy entries:
 * [Peirce's Theory of Signs](https://plato.stanford.edu/entries/peirce-semiotics/)
 * [Peirce's View of the Relationship Between His Own Work and German Idealism](https://plato.stanford.edu/entries/peirce/self-contextualization.html)
 * [Peirce on Abduction](https://plato.stanford.edu/entries/abduction/peirce.html)
+
+Charles S. Peirce studies
+
+* [website](http://www.peirce.org/)
 
 Other references
 
@@ -46,6 +58,8 @@ Other references
 * Fernando Zalamea, Peirce's logic of continuity, a conceptual and mathematical approach, [link](https://www.academia.edu/31948393/ZalameaPeirceCont.pdf)
 
 * {#MaPiet18} Minghui Ma, Ahti-Veikko Pietarinen (2018), _Gamma graph calculi for modal logics_, Synthese 195: 3621, ([doi](https://doi.org/10.1007/s11229-017-1390-3))
+
+* {#BSS18} Filippo Bonchi, Jens Seeber, Pawel Sobocinski, _Graphical Conjunctive Queries_, ([arXiv:1804.07626](https://arxiv.org/abs/1804.07626))
 
 [[!redirects C.S. Peirce]]
 [[!redirects Charles Peirce]]
