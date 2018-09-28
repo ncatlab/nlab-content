@@ -213,6 +213,7 @@ as a [[full subcategory]] of the [[opposite category]] of [[differential-graded 
 
 
 ### As super-representable Lie algebras in the topos over superpoints
+ {#AsSuperRepresentableLieAlgebrasOverSuperpoints}
 
 
 
