@@ -159,7 +159,7 @@ Moreover, if $V \in R_{\widehat k}(G)$ is an [[irreducible representation]], the
 ###### Definition
 **([[Galois group|Galois]] [[group averaging]] on [[representations]])**
 
-For $V \in R_{\widehat k}(G)$ an [[irreducible representation]], say that its _[[group averaging]]_ with respect to the [[Galois group]]/[[Adams operations]] from Prop. \ref{AdamsOperationsRepresentGaloisAction} is the smallest representation $V_{avg}$ such that 
+For $V \in R_{\widehat k}(G)$ an [[irreducible representation]], say that its _[[group averaging]]_ with respect to the [[Galois group]]/[[Adams operations]] from Prop. \ref{AdamsOperationsRepresentGaloisAction} is the smallest representation $V_{avg}$ containing $V$ as a [[subrepresentation]] such that 
 
 $$
   \Psi^n\left(V_{avg}\right) - V_{avg}
