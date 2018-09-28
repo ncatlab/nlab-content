@@ -21,7 +21,21 @@
 ## Idea
 
 
-The _Gepner model_ (after [[Doron Gepner]]) is a [[2d SCFT]] which is "non-geometric" in that it does not arise as a [[sigma-model]] with [[target space]] a [[smooth manifold]]. Indeed the Gepner model appears precisely at the degeneration point of such sigma-models in the _[[flop transition]]_.
+The _Gepner model_ ([Gepner 87](#Gepner87)) is a [[rational CFT]] [[2d SCFT]] which is "non-geometric" in that it does not arise as a [[sigma-model]] with [[target space]] a [[smooth manifold]]. Indeed the Gepner model appears as the limiting case of sigma-models with [[target space]] a 6d [[Calabi-Yau manifold]] at singular points in the [[moduli space]] of the CY target: the _[[flop transition]]_.
+
+As such the Gepner model is directly analogous to the purely algebraically defined non-classical fibers in the [[Connes-Lott-Chamseddine-Barrett model]] (it is a "[[2-spectral triple]]"-analog of the [[spectral triples]] in the Connes-Lott model, see [there](Connes-Lott-Chamseddine-Barrett+model#Schreiber16)) and, accordingly, plays a central role in [[string phenomenology]] (see e.g. [Reppel 07](#Reppel07)).
+
+By taking [[tensor products]] of several copies of the Gepner model, the model is a basic building block for [[rational conformal field theory]].
+
+## Properties
+
+### Boundary states
+ {#BoundaryStates}
+
+> All the known [[rational CFT|rational]] [[boundary states]] for [[Gepner models]] can be regarded as [[permutation branes]].
+
+([Enger-Recknagel-Roggenkamp 05](#EngerRecknagelRoggenkamp05))
+
 
 ## Related concepts
 
@@ -35,9 +49,19 @@ The _Gepner model_ (after [[Doron Gepner]]) is a [[2d SCFT]] which is "non-geome
 
 The original article is
 
-* [[Doron Gepner]], _Space-time supersymmetry in compactified string theory and superconformal models_, Nucl. Phys. B296 (1987) 757.
+* {#Gepner87} [[Doron Gepner]], _Space-time supersymmetry in compactified string theory and superconformal models_, Nucl. Phys. B296 (1987) 757.
 
-See the references at _[[flop transition]]_ for more.
+Lecture notes include
+
+* [[Doron Gepner]], _Lectures On $N=2$ String Theory_, 1989 ([[Gepner89.pdf:file]], [spire:277718/](http://inspirehep.net/record/277718/))
+
+See also the references at _[[flop transition]]_ for more.
+
+
+Review of application in [[string phenomenology]] includes
+
+* {#Reppel07} Christian Reppel, _Phenomenological Aspects of Gepner Models_, 2007 ([pdf](https://www.ru.nl/publish/pages/760962/christiaan_reppel.pdf))
+
 
 [[D-branes]] in [[string theory]] [[vacua]] defined by Gepner model SCFTs are discussed, via [[boundary conformal field theory]] in
 
@@ -51,8 +75,7 @@ See the references at _[[flop transition]]_ for more.
 
 Discussion of [[permutation D-branes]] for Gepner models, via [[boundary conformal field theory]], includes
 
-* Håkon Enger, [[Andreas Recknagel]], [[Daniel Roggenkamp]], _Permutation branes and linear matrix factorisations_, JHEP0601:087, 2006 ([arXiv:hep-th/0508053](https://arxiv.org/abs/hep-th/0508053))
-
+* {#EngerRecknagelRoggenkamp05} Håkon Enger, [[Andreas Recknagel]], [[Daniel Roggenkamp]], _Permutation branes and linear matrix factorisations_, JHEP0601:087, 2006 ([arXiv:hep-th/0508053](https://arxiv.org/abs/hep-th/0508053))
 
 
 [[!redirects Gepner models]]
