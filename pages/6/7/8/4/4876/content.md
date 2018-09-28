@@ -333,6 +333,8 @@ on [[quantization]] of the WZW model, see at
 
 * [[analytically continued Wess-Zumino-Witten theory]]
 
+* [[Gepner model]]
+
 ## References
  {#References}
 
@@ -358,12 +360,12 @@ The WZ term on $\Sigma_2$ was understood in terms of an integral of a 3-form ove
 
 for the case that $\Sigma_2$ is [[closed manifold|closed]], and generally, in terms of [[surface holonomy]] of [[bundle gerbes]]/[[circle 2-bundles with connection]] in
 
-* {#Gawedzki87} [[Krzysztof Gaw?dzki]] _Topological Actions in two-dimensional Quantum Field Theories_, in [[Gerard 't Hooft]] et. al (eds.) _Nonperturbative quantum field theory_ Cargese 1987 proceedings,  ([web](http://inspirehep.net/record/257658?ln=de))
+* {#Gawedzki87} [[Krzysztof Gawedzki]] _Topological Actions in two-dimensional Quantum Field Theories_, in [[Gerard 't Hooft]] et. al (eds.) _Nonperturbative quantum field theory_ Cargese 1987 proceedings,  ([web](http://inspirehep.net/record/257658?ln=de))
   
 
-* [[Giovanni Felder]] , [[Krzysztof Gaw?dzki]], A. Kupianen, _Spectra of Wess-Zumino-Witten models with arbitrary simple groups_. Commun. Math. Phys. 117, 127 (1988)
+* [[Giovanni Felder]] , [[Krzysztof Gawedzki]], A. Kupianen, _Spectra of Wess-Zumino-Witten models with arbitrary simple groups_. Commun. Math. Phys. 117, 127 (1988)
 
-* [[Krzysztof Gaw?dzki]], _Topological actions in two-dimensional quantum field theories_. In: Nonperturbative quantum field theory. 'tHooft, G. et al. (eds.). London: Plenum Press 1988
+* [[Krzysztof Gawedzki]], _Topological actions in two-dimensional quantum field theories_. In: Nonperturbative quantum field theory. 'tHooft, G. et al. (eds.). London: Plenum Press 1988
 
 as the [[surface holonomy]] of a [[circle 2-bundle with connection]]. See also the references at _[[B-field]]_ and at _[[Freed-Witten anomaly cancellation]]_.
 
@@ -396,7 +398,7 @@ A classical textbook accounts include
 
 A basic introduction also to the super-WZW model (and with an eye towards the corresponding [[2-spectral triple]]) is in
 
-* {#FroehlichGawedzki93} [[Jürg Fröhlich]], [[Krzysztof Gaw?dzki]], _Conformal Field Theory and Geometry of Strings_,  extended lecture notes for lecture given at the Mathematical Quantum Theory Conference, Vancouver, Canada, August 4-8 ([arXiv:hep-th/9310187](http://arxiv.org/abs/hep-th/9310187))
+* {#FroehlichGawedzki93} [[Jürg Fröhlich]], [[Krzysztof Gawedzki]], _Conformal Field Theory and Geometry of Strings_,  extended lecture notes for lecture given at the Mathematical Quantum Theory Conference, Vancouver, Canada, August 4-8 ([arXiv:hep-th/9310187](http://arxiv.org/abs/hep-th/9310187))
 
 
 A useful account of the WZW model that encompasses both its [[action functional]] and [[path integral]] quantization as well as the [[current algebra]] aspects of the QFT is in
