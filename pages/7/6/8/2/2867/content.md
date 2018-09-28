@@ -421,10 +421,8 @@ Related discussion in the context of [[(infinity,n)-categories]] is also in
 
 
 [[!redirects ? category]]
-[[!redirects ∞-category]]
 [[!redirects Theta-category]]
 [[!redirects ? categories]]
-[[!redirects ∞-categories]]
 [[!redirects Theta-categories]]
 [[!redirects disk category]]
 [[!redirects disk categories]]
