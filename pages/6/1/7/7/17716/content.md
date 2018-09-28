@@ -64,7 +64,7 @@ Along with an introduction, nine expos&#233;s are planned:
 
 * {#PHCTI} [[Clark Barwick]], Emanuele Dotto, [[Saul Glasman]], [[Denis Nardin]], [[Jay Shah]], _Parametrized higher category theory and higher algebra: Expos&#233; I &#8211; Elements of parametrized higher category theory_, ([arXiv:1608.03657](https://arxiv.org/abs/1608.03657))
 
-* [[Jay Shah]], _Parametrized higher category theory and higher algebra: Expos&#233; II - Indexed homotopy limits and colimits_, ([arXiv:1809.05892](https://arxiv.org/abs/1809.05892))
+* {#Shah18} [[Jay Shah]], _Parametrized higher category theory and higher algebra: Expos&#233; II - Indexed homotopy limits and colimits_, ([arXiv:1809.05892](https://arxiv.org/abs/1809.05892))
 
 * [[Denis Nardin]], _Parametrized higher category theory and higher algebra: Expos&#233; IV - Stability with respect to an orbital ∞-category_, ([arXiv:1608.07704](https://arxiv.org/abs/1608.07704))
 
