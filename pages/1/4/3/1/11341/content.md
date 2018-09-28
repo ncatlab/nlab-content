@@ -25,6 +25,8 @@ The _Gepner model_ (after [[Doron Gepner]]) is a [[2d SCFT]] which is "non-geome
 
 ## Related concepts
 
+* [[WZW model]]
+
 * [[heterotic string]], [[type II superstring]]
 
 * [[KK-compactification]]
@@ -37,9 +39,21 @@ The original article is
 
 See the references at _[[flop transition]]_ for more.
 
-[[D-branes]] in [[string theory]] [[vacua]] defines by Gepner model SCFTs are discussed in
+[[D-branes]] in [[string theory]] [[vacua]] defined by Gepner model SCFTs are discussed, via [[boundary conformal field theory]] in
 
 * [[Andreas Recknagel]], [[Volker Schomerus]], _D-branes in Gepner models_, Nucl.Phys. B531 (1998) 185-225 ([arXiv:hep-th/9712186](http://arxiv.org/abs/hep-th/9712186))
+
+
+* [[Jürgen Fuchs]], [[Christoph Schweigert]], J. Walcher, _Projections in string theory and boundary states for Gepner models_, Nucl.Phys. B588 (2000) 110-148 ([arXiv:hep-th/0003298](https://arxiv.org/abs/hep-th/0003298))
+
+* {#BraunSchaeferNameki05} [[Volker Braun]], Sakura Schafer-Nameki, _D-Brane Charges in Gepner Models_, J.Math.Phys. 47 (2006) 092304 ([arXiv:hep-th/0511100](https://arxiv.org/abs/hep-th/0511100))
+
+
+Discussion of [[permutation D-branes]] for Gepner models, via [[boundary conformal field theory]], includes
+
+* Håkon Enger, [[Andreas Recknagel]], [[Daniel Roggenkamp]], _Permutation branes and linear matrix factorisations_, JHEP0601:087, 2006 ([arXiv:hep-th/0508053](https://arxiv.org/abs/hep-th/0508053))
+
+
 
 [[!redirects Gepner models]]
 
