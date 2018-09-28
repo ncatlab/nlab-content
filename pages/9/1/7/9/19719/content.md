@@ -43,6 +43,7 @@ If you would like to participate, simply add your name to the list and join the 
 * [[Luis Scoccola]]
 * [[Sam Speight]]
 * [[Vikraman Choudhury]]
+* [[Corlin Fardal]]
 
 ## Plans
 
