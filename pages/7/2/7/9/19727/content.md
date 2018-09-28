@@ -21,7 +21,7 @@
 
 ## Idea
 
-The study of [[conformal field theory]] on [[manifolds with boundary]] is known as _boundary conformal field theory_ (often abbreviated as BCFT).
+The study of [[conformal field theory]] on [[manifolds with boundary]], hence conformal [[boundary field theory]], is known as _boundary conformal field theory_ (often abbreviated as BCFT).
 
 
 
@@ -49,6 +49,13 @@ Here the [[coefficient]] of the $g$-twisted sector in the total boundary state i
 > But maybe this has not yet been actually proven? 
 
 
+## Related concepts
+
+* [[boundary field theory]]
+
+* [[fractional brane]], [[permutation brane]]
+
+[[!include field theory with boundaries and defects - table]]
 
 
 ## References
