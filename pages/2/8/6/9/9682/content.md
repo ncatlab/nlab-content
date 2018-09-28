@@ -28,9 +28,16 @@ See at
 
 * _[[QFT with defects]]_.
 
+## Examples
+
+* [[boundary conformal field theory]]
+
 ## Related concepts
 
 * [[holographic principle]]
+
+  [[AdS-CFT correspondence]]
+
 
 [[!include field theory with boundaries and defects - table]]
 
