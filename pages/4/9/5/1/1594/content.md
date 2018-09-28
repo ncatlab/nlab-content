@@ -93,6 +93,8 @@ Orbifolds in [[string theory]]:
 
 * [[fractional D-brane]]
 
+  [[permutation D-brane]]
+
 * [[ADE singularity]]
 
 * [[orientifold]]
