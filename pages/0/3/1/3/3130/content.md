@@ -171,6 +171,11 @@ A characterization of Chern-character maps for [[K-theory]] is in
 
 * [[Goncalo Tabuada]], _A universal characterization of the Chern character maps_ ([arXiv/1002.3276](http://arxiv.org/abs/1002.3726))
 
+Discussion for [[equivariant K-theory]]:
+
+* {#Stefanich} German Stefanich, _Chern Character in Twisted and Equivariant K-Theory_ ([pdf](https://math.berkeley.edu/~germans/Chern2.pdf))
+
+
 A discussion of Chern characters in terms of [[free loop space objects]] in [[derived geometry]] is in 
 
 * {#ToenVezzosi08} [[Bertrand Toën]], [[Gabriele Vezzosi]], _A note on Chern character, loop spaces and derived algebraic geometry_ ([arXiv:0804.1274](http://arxiv.org/abs/0804.1274))
