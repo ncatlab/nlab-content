@@ -47,7 +47,7 @@ In particular there are the articles in preparation
 
 * John Baez, Alexander Hoffnung, _Higher-dimensional algebra VIII: The Hecke Bicategory_, ([pdf](http://math.ucr.edu/home/baez/hda8.pdf))
 
-* _Towards topological groupoidification_ ([pdf](http://www.math.tau.ac.il/~avivc/UCR%20Colloquium.pdf))
+* _Towards topological groupoidification_ ([pdf](https://pdfs.semanticscholar.org/presentation/b157/90badcd7350ba0551f6eb362f5912780c5dd.pdf))
 
 #Relation to representation theory#
 
