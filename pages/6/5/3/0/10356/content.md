@@ -86,7 +86,18 @@ $$
 
 In this sense, the unit brane on $X$ decays into fractional branes at the orbifold  singularities $X\sslash G$.
 
-Those fractional branes corresponding to [[permutation representations]] in $K_G(\ast) \simeq R_{\mathbb{C}}(G)$ are called _[[permutation branes]]_.
+For a general representation $V \in R(G)$ the general formula 
+
+$$
+  dim\left( V^G \right)
+  \;=\;
+  \frac{1}{{\vert G\vert}}
+  \underset{g \in G}{\sum}
+  \chi_V(g)
+$$
+
+shows that the total charge of the brane corresponding to $V$, summed over all [[twisted sectors]], is equal to the [[dimension]] of the [[fixed point space]] $V^G$.
+
 
 
 ### In terms of twisted sector boundary states
@@ -160,9 +171,9 @@ but has not been given a correspondingly precise cohomological formulation yet.
 
 ## Related concepts
 
-* [[permutation brane]]
-
 * [NS5 half-brane](NS5-brane#NSHalfBranes)
+
+* [[permutation brane]]
 
 
 ## References
