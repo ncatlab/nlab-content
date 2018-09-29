@@ -336,6 +336,12 @@ The idea that the physics of D-branes is described by [[topological K-theory]] o
 
 See also at _[[anti-D-brane]]_.
 
+But actual checks of the proposal that D-brane charge is given by K-theory, via concrete computation in [[boundary conformal field theory]], have revealed some subtleties:
+
+* [[Stefan Fredenhagen]], [[Thomas Quella]], _Generalised permutation branes_, JHEP0511:004, 2005 ([arXiv:hep-th/0509153](https://arxiv.org/abs/hep-th/0509153))
+
+  > It might surprise that despite all the progress that has been made in understanding branes on group manifolds, there are usually not enough D-branes known to explain the whole charge group predicted by (twisted) K-theory.
+
 Further review and discussion of D-brane charge in K-theory includes the following
 
 * {#OlsenSzabo00} Kasper Olsen, [[Richard Szabo]], _Brane Descent Relations in K-theory_, Nucl.Phys. B566 (2000) 562-598 ([arXiv:hep-th/9904153](https://arxiv.org/abs/hep-th/9904153))
