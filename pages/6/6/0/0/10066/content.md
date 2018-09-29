@@ -83,6 +83,12 @@ Accordingly the construction of an [[index]] ([[push-forward in generalized coho
 
 Specifically, applied to equivariant [[complex line bundles]] on [[coadjoint orbits]] of $G$, this is a K-theoretic formulation of the [[orbit method]].
 
+### Equivariant Chern-character
+
+There is a [[Chern character]] map from equivariant K-theory to [[equivariant ordinary cohomology]].
+
+(e.g. [Stefanich](#Stefanich))
+
 
 ## Examples
 
@@ -134,6 +140,9 @@ Research Notes in Mathematics Series 178, Longman, Harlow, UK, 1989.
 
 * [[Akhil Mathew]], _[Equivariant K-theory](https://amathew.wordpress.com/2011/12/03/equivariant-k-theory/)_
 
+The equivariant [[Chern character]] is discussed in 
+
+* {#Stefanich} German Stefanich, _Chern Character in Twisted and Equivariant K-Theory_ ([pdf](https://math.berkeley.edu/~germans/Chern2.pdf))
 
 Discussion relating to K-theory of [[homotopy quotients]]/[[Borel constructions]] is in 
 
