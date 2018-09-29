@@ -17,7 +17,7 @@
 
 ## Definition
 
-An **algebraic number** is a [[root]] of a [[polynomial]] with [[integer]] [[coefficients]] (or, equivalently, with [[rational number|rational]] coeffients).
+An **algebraic number** is a [[root]] of a [[polynomial]] with [[integer]] [[coefficients]] (or, equivalently, with [[rational number|rational]] coeffients). Equivalently, an element $\alpha$ of a [[field extension]] $K$ of $\mathbb{Q}$ is *algebraic* if the subfield $\mathbb{Q}(\alpha)$ is a finite degree extension, i.e., is finite-dimensional as a vector space over $\mathbb{Q}$. 
 
 Since the [[rational numbers]] are a [[subfield]] of the [[complex numbers]], and since the [[complex numbers]] are an [[algebraically closed field]], algebraic numbers are naturally regarded as a sub-field of [[complex numbers]]
 
@@ -36,14 +36,13 @@ $,$
 
 > due to Stephen J. Brooks [here](https://en.wikipedia.org/wiki/File:Algebraicszoom.png)
 
-But the collection of all algebraic numbers forms itself already an [[algebraically closed field|algebraically closed]] [[field]], typically denoted $\overline{\mathbb{Q}}$, as this is the [[algebraic closure]] of the field $\mathbb{Q}$ of [[rational numbers]]. The [[absolute Galois group]] $Gal(\overline{\mathbb{Q}}, \mathbb{Q})$ is peculiar, see [there](absolute+Galois+group#OfTheRationalNumbers).
+But the collection of all algebraic numbers forms itself already an [[algebraically closed field|algebraically closed]] [[field]], typically denoted $\overline{\mathbb{Q}}$, as this is the [[algebraic closure]] of the field $\mathbb{Q}$ of [[rational numbers]]. This also follows easily from the equivalent definition of algebraic numbers in terms of finite degree extensions. The [[absolute Galois group]] $Gal(\overline{\mathbb{Q}}, \mathbb{Q})$ is peculiar, see [there](absolute+Galois+group#OfTheRationalNumbers).
 
+A number (especially a [[complex number]]) which is *not* algebraic is called __transcendental__; famous examples are the base ($\mathrm{e} = 2.7\ldots $) and period ($2 \pi \mathrm{i} = 6.28\ldots \mathrm{i}$, or equivalently $\pi = 3.14\ldots $) of the natural [[logarithm]].
 
+Given a [[field]] $k$, an algebraic __[[number field]]__ $K$ over $k$ is a finite-degree extension of $k$. By default, the term "algebraic number field" means an algebraic number field over the rational numbers. 
 
-
-A number (especially a [[complex number]]) which is *not* algebraic is called __transcendental__; famous examples are the base ($\mathrm{e} = 2.7\ldots $) and period ($2 \pi \mathrm{i} = 6.28\ldots \mathrm{i}$, or equivalently $\pi = 3.14\ldots $) of the [[natural logarithm]].
-
-An [[algebraic integer]] is a root of a [[monic polynomial]] with integer coefficients. Given a [[field]] $k$ the (algebraic) __[[number field]]__ $K = k[P]$ over $k$ is the minimal [[field]] containing all the roots of a given polynomial $P$ with coefficients in $k$. Usually one considers algebraic number fields over rational numbers. 
+An [[algebraic integer]] is a root of a [[monic polynomial]] with integer coefficients. Equivalently, an element $\alpha$ of a field extension $K$ of $\mathbb{Q}$ is an algebraic integer if the [[ring]] $\mathbb{Z}[\alpha]$ is of finite [[rank]] as a $\mathbb{Z}$-module. It follows easily from this characterization that the collection of all algebraic integers forms a commutative ring. 
 
 
 ## Related concepts
