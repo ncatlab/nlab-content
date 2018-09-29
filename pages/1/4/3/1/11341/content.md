@@ -21,11 +21,14 @@
 ## Idea
 
 
-The _Gepner model_ ([Gepner 87](#Gepner87)) is a [[rational CFT]] [[2d SCFT]] which is "non-geometric" in that it does not arise as a [[sigma-model]] with [[target space]] a [[smooth manifold]]. Indeed the Gepner model appears as the limiting case of sigma-models with [[target space]] a 6d [[Calabi-Yau manifold]] at singular points in the [[moduli space]] of the CY target: the _[[flop transition]]_.
+A _Gepner model_ ([Gepner 87](#Gepner87)) is a [[rational CFT]] [[2d SCFT]] 
+which is a [[tensor product]] of $N = 2$ super-[[minimal model CFT]].
 
-As such the Gepner model is directly analogous to the purely algebraically defined non-classical fibers in the [[Connes-Lott-Chamseddine-Barrett model]] (it is a "[[2-spectral triple]]"-analog of the [[spectral triples]] in the Connes-Lott model, see [there](Connes-Lott-Chamseddine-Barrett+model#Schreiber16)) and, accordingly, plays a central role in [[string phenomenology]] (see e.g. [Reppel 07](#Reppel07)).
+This means that Gepner models are "non-geometric" in that they do not arise as [[sigma-models]] with [[target space]] a [[smooth manifold]]. Indeed the Gepner models appear as the limiting cases of sigma-models with [[target space]] a 6d [[Calabi-Yau manifold]] at singular points in the [[moduli space]] of the CY target: the _[[flop transition]]_.
 
-By taking [[tensor products]] of several copies of the Gepner model, the model is a basic building block for [[rational conformal field theory]].
+As such the Gepner models are directly analogous to the purely algebraically defined non-classical fibers in the [[Connes-Lott-Chamseddine-Barrett model]] (it is a "[[2-spectral triple]]"-analog of the [[spectral triples]] in the Connes-Lott model, see [there](Connes-Lott-Chamseddine-Barrett+model#Schreiber16)) and, accordingly, plays a central role in [[string phenomenology]] (for review see e.g. [Reppel 07](#Reppel07)).
+
+THe Gepner models,are a basic building block for [[rational conformal field theory]].
 
 ## Properties
 
