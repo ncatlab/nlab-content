@@ -1,3 +1,3 @@
-* [webpage](https://hea-www.cfa.harvard.edu/~adanehka/)
+* [webpage](https://scholar.harvard.edu/danehkar)
 
 category: people
