@@ -167,13 +167,17 @@ but has not been given a correspondingly precise cohomological formulation yet.
 
 ## References
 
-### General
 
 Early discussion in physics language include
 
 * [[Michael Douglas]], [[Brian Greene]], [[David Morrison]], _Orbifold Resolution by D-Branes_, Nucl.Phys.B506:84-106,1997 ([arXiv:hep-th/9704151](https://arxiv.org/abs/hep-th/9704151))
 
 * Diaconescu, [[Michael Douglas]], [[Jaume Gomis]], _Fractional Branes and Wrapped Branes_, JHEP 9802:013,1998 ([arXiv:hep-th/9712230](http://arxiv.org/abs/hep-th/9712230))
+
+Survey with an eye towards [[string phenomenology]] is in 
+
+* {#MalyshevVerlinde07} Dmitry Malyshev, [[Herman Verlinde]], _D-branes at Singularities and String Phenomenology_, Nucl.Phys.Proc.Suppl.171:139-163, 2007 ([arXiv:0711.2451](https://arxiv.org/abs/0711.2451))
+
 
 The [[McKay correspondence]] as an [[integral transform]] ([[Fourier-Mukai transform]]) in ([[equivariant K-theory|equivariant]]) [[K-theory]], and hence in terms of fractional [[D-brane charge]] is due to
 
@@ -182,6 +186,14 @@ The [[McKay correspondence]] as an [[integral transform]] ([[Fourier-Mukai trans
 Detailed mathematical discussion of fractional D-branes in their incarnation as [[Ext]]-groups of [[coherent sheaves]] is in
 
 * S. Katz, [[Tony Pantev]], [[Eric Sharpe]], _D-branes, orbifolds, and Ext groups_, Nucl.Phys. B673 (2003) 263-300 ([arXiv:hep-th/0212218](https://arxiv.org/abs/hep-th/0212218))
+
+and with relation to [[Bridgeland stability conditions]] in 
+
+* {#MalyshevVerlinde07} Dmitry Malyshev, [[Herman Verlinde]], _D-branes at Singularities and String Phenomenology_, Nucl.Phys.Proc.Suppl.171:139-163, 2007 ([arXiv:0711.2451](https://arxiv.org/abs/0711.2451))
+
+Also on stability:
+
+* B. Stefanski Jr, _Dirichlet Branes on a Calabi-Yau Three-fold Orbifold_, Nucl.Phys.B589:292-314, 2000 ([arXiv:hep-th/0005153](https://arxiv.org/abs/hep-th/0005153))
 
 See also 
 
@@ -205,8 +217,6 @@ Discussion in terms of [[twisted sector]] [[boundary states]] in [[worldsheet]] 
 
 * {#RecknagelSchomerus13} [[Andreas Recknagel]], [[Volker Schomerus]], _Boundary Conformal Field Theory and the Worldsheet Approach to D-branes_, Cambirdge 2013 ([spire:1308990](http://inspirehep.net/record/1308990))
 
-
-### Relation to permutation branes
 
 Relation to [[permutation branes]]:
 
