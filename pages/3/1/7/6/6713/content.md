@@ -294,7 +294,6 @@ Discussion with an eye towards [[string phenomenology]] is in
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
-
 This can to a large extent be read as a dictionary from [[homological algebra]] terminology to that of D-brane physics.
 
 More recent similar material with the emphasis on the [[K-theory]] aspects is
@@ -347,6 +346,8 @@ Further review and discussion of D-brane charge in K-theory includes the followi
 * {#OlsenSzabo00} Kasper Olsen, [[Richard Szabo]], _Brane Descent Relations in K-theory_, Nucl.Phys. B566 (2000) 562-598 ([arXiv:hep-th/9904153](https://arxiv.org/abs/hep-th/9904153))
 
 * Kasper Olsen, [[Richard Szabo]], _Constructing D-Branes from K-Theory_, Adv.Theor.Math.Phys. 3 (1999) 889-1025 ([arXiv:hep-th/9907140](https://arxiv.org/abs/hep-th/9907140))
+
+* [[John Schwarz]], _TASI Lectures on Non-BPS D-Brane Systems_ ([arXiv:hep-th/9908144](https://arxiv.org/abs/hep-th/9908144))
 
 * {#Witten00} [[Edward Witten]], _Overview Of K-Theory Applied To Strings_, Int.J.Mod.Phys.A16:693-706,2001 ([arXiv:hep-th/0007175](https://arxiv.org/abs/hep-th/0007175))
 
