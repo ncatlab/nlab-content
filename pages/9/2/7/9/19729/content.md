@@ -61,6 +61,12 @@ The case for [[orientifolds]] is discussed in
 
 * Kazuo Hosomichi, _Permutation Orientifolds of Gepner Models_, JHEP 0701:081, 2007 ([arXiv:hep-th/0612109](https://arxiv.org/abs/hep-th/0612109))
 
+### Relation to fractional branes
+
+Relation to [[fractional branes]]:
+
+* {#EGJ05} Bobby Ezhuthachan, Suresh Govindarajan, T. Jayaraman, _A quantum McKay correspondence for fractional 2p-branes on LG orbifolds_, JHEP 0508 (2005) 050 ([arXiv:hep-th/0504164](https://arxiv.org/abs/hep-th/0504164))
+
 ### Generalised permutation branes
 
 * [[Stefan Fredenhagen]], [[Thomas Quella]], _Generalised permutation branes_, JHEP0511:004, 2005 ([arXiv:hep-th/0509153](https://arxiv.org/abs/hep-th/0509153))
