@@ -1,4 +1,8 @@
 
+> This entry is about the concept in [[homotopy theory]]. For the concept if [[conformal field theory]] see at _[[minimal model CFT]]_.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
