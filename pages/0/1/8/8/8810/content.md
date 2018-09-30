@@ -114,6 +114,12 @@ See also
 
 * {#Saiz09} Alfonso Zamora Saiz, _On the stability of vector bundles_, Master thesis 2009 ([[SaizStableBundles.pdf:file]])
 
+Discussion for [[equivariant vector bundles]] is in 
+
+* [[C. S. Seshadri]], _Moduli of $\pi$-Vector Bundles over an Algebraic Curve_, In: Marchionna E. (eds) Questions on Algebraic Varieties. C.I.M.E. Summer Schools, vol 51. Springer, Berlin, Heidelberg ([doi:10.1007/978-3-642-11015-3_5](https://doi.org/10.1007/978-3-642-11015-3_5))
+
+* Oscar García-Prada, _Invariant connections and vortices_,  Commun.Math. Phys. (1993) 156: 527 ([doi:10.1007/BF02096862](https://doi.org/10.1007/BF02096862))
+
 [[!redirects stable vector bundles]]
 
 [[!redirects stable coherent sheaf]]
