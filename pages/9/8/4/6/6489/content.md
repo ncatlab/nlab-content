@@ -47,7 +47,7 @@ In addition there are then _Bridgeland stability conditions_ on such [[triangula
 
 ## Definition
 
-Let $\mathcal{A}$ be an [[abelian category]] and $K(\mathcal{A})$ be its [[Grothendieck group]]. 
+Let $\mathcal{A}$ be an [[abelian category]] and write $K(\mathcal{A})$ for its [[Grothendieck group]]. 
 
 +-- {: .num_defn #StabilityFunction}
 ###### Definition
@@ -83,15 +83,31 @@ $$
 The _phase_ $\phi(E)$ of an object $E$ is just the [[complex phase]] $\phi$ that occurs in the representation from $H$. Alternatively, by plotting $Z(E)$ in the 
 [[complex plane]], the phase is the argument (slope) divided by $\pi$. The phase of $E$ will be denoted $\phi(E)$.
 
-An object $E$ is called **semi-stable** if for all non-trivial [[subobjects]] $F\subset E$ we have the property that 
++-- {: .num_defn #StableObjects}
+###### Definition
+**((semi-)stable objects)**
 
-\[
-  \label{SemiStability}
-  \phi(F)\leq \phi(E)
-\]
+For $\mathcal{A}$ an [[abelian category]] equipped with a stability function $Z = r exp(i\pi \phi)$, an [[object]] $E \in \mathcal{A}$ is called a
+
+1. _semi-stable object_ if for all non-trivial [[subobjects]] $F\subset E$ we have that
+
+   \[
+     \label{SemiStability}
+     \phi(F)\leq \phi(E)
+   \]
 
 
-An object $E$ is called **stable** if for all non-trivial, proper [[subobjects]] $F\subset E$ we have the property that $\phi(F)$ &lt; $\phi(E)$.
+1. _stable object_ if for all non-trivial, proper [[subobjects]] $F\subset E$ we have the property that 
+
+   $$
+     \phi(F)$ &lt; $\phi(E)
+     \,.
+   $$
+
+=--
+
++-- {: .num_defn}
+###### Definition
 
 A stability function $Z:K(\mathcal{A})\to \mathbb{C}$ (eq:StabilityFunction) is said to have the **Harder-Narasimhan property** if for any non-[[zero object]] $E$ there exists a finite [[filtered object|filtration]] by [[subobjects]] 
 
@@ -112,7 +128,10 @@ $$
   \,.
 $$
 
-Suppose $\mathcal{D}$ is a [[triangulated category]] (usually arising as the [[derived category]] of some [[abelian category]]). 
+
+=--
+
+Now suppose that $\mathcal{D}$ is a [[triangulated category]] (usually arising as the [[derived category]] of some [[abelian category]]). 
 
 
 +-- {: .num_defn #Slicing}
