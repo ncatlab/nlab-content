@@ -65,5 +65,7 @@ J. Algebraic Geom. 22 (2013), 629&#8211;669, [publ](http://dx.doi.org/10.1090/S1
 
 Relation to [[Bridgeland stability conditions]]:
 
+* {#King94} [[Alastair King]], _Moduli of representations of finite dimensional algebras_, The Quarterly Journal of Mathematics 45.4 (1994): 515-530 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.623.649&rep=rep1&type=pdf))
+
 * {#Engenhorst14} Jan Engenhorst, _Bridgeland Stability Conditions in Algebra, Geometry and Physics_, 2014 ([pdf](https://www.freidok.uni-freiburg.de/fedora/objects/freidok:9595/datastreams/FILE1/content))
 
