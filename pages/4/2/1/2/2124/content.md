@@ -142,6 +142,8 @@ In [[11-dimensional supergravity]] ([[M-theory]]) there are four kinds of 1/2 BP
 
 ## Related concepts
 
+* [[Bridgeland stability condition]]
+
 * [[Killing spinor]]
 
 * [[supermultiplet]]
