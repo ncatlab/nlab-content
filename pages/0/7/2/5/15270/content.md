@@ -17,11 +17,17 @@
 
 A long list of mathematical structures happens to have a classification that is in [[bijection]] with the [[simply laced Dynkin diagrams]] of types A, D and E (but excluding type B and C), for instance 
 
-* [[simply laced Dynkin diagrams]] (their [[simple Lie groups]])
-
 * [[Platonic solids]]
 
 * [[finite group|finite]] [[subgroups]] of the [[special orthogonal group]] $SO(3)$ and of the [[special unitary group]] $SU(2)$ (see at [[classification of finite rotation groups]]) ([Milnor 57](#Milnor57), see e.g. [Keenan 03, theorem 4](#Keenan03))
+
+* [[simply laced Dynkin diagrams]] (their [[simple Lie groups]])
+
+  <img src="https://ncatlab.org/nlab/files/ADEDynkin.jpg" width="490"/>
+
+* connected [[quivers]] with a [[finite number]] of [[indecomposable object|indecomposable]] [[quiver representations]] over an [[algebraically closed field]] 
+
+  ([[Gabriel's theorem]])
 
 * 7d [[spherical space forms]] with [[spin structure]] carrying $N \geq 4$ [[Killing vectors]] (see at [spherical space form -- 7d with spin structure](spherical+space+form#7DSphericalSpaceFormsWithSpinStructure)) 
 
@@ -34,9 +40,6 @@ A long list of mathematical structures happens to have a classification that is 
 
 
 * [[du Val singularities]] (see [[ADE singularity]])
-
-
-* [[quiver representations]]
 
 
 * [[singularities]] of [[elliptic fibrations]] (see there are _[classification of singular fibers](elliptic+fibration#ClassificationOfSingularFibers)_)
