@@ -47,11 +47,13 @@ In addition there are then _Bridgeland stability conditions_ on such [[triangula
 
 ## Definition
 
-Let $\mathcal{A}$ be an [[abelian category]] and write $K(\mathcal{A})$ for its [[Grothendieck group]]. 
 
 +-- {: .num_defn #StabilityFunction}
 ###### Definition
 **(stability function)**
+
+Let $\mathcal{A}$ be an [[abelian category]]. 
+
 
 A **stability function** (sometimes also called a _central charge_) is a  [[linear map]] 
 
@@ -64,32 +66,49 @@ A **stability function** (sometimes also called a _central charge_) is a  [[line
   \mathbb{C}
 \] 
 
+from [[Grothendieck group]] $K(\mathcal{A})$ to the [[abelian group|additive group]] of [[complex numbers]], 
 such that for all non-[[zero objects]], the [[image]] of $Z$ lies in the [[upper half-plane|semi-upper half plane]] 
 
 $$
   H
   \;=\;
-  \left\{
+  \big\{
     r exp(i\pi \phi) 
     \;\vert\; 
     r \gt 0
     \;\text{and}\;
     0 \lt \phi \leq 1
-  \right\}
+  \big\}
 $$ 
+
+The _phase_ 
+
+\[
+  \label{PhaseOfAnObject}
+  \phi(E)
+  \;\coloneqq\;
+  \tfrac{1}{\pi}
+  arg\big( 
+    Z(E)
+  \big)
+  \;\in\;
+  (0,1]
+\] 
+
+of an non-[[zero object]] $E \in \mathcal{A}$ is just the [[complex phase]] $\phi$ that occurs in the representation from $H$. Alternatively, by plotting $Z(E)$ in the  [[complex plane]], the phase is the argument (slope) divided by $\pi$. 
 
 =--
 
-The _phase_ $\phi(E)$ of an object $E$ is just the [[complex phase]] $\phi$ that occurs in the representation from $H$. Alternatively, by plotting $Z(E)$ in the 
-[[complex plane]], the phase is the argument (slope) divided by $\pi$. The phase of $E$ will be denoted $\phi(E)$.
+([Bridgeland 02, Def. 2.1](#Bridgeland02))
+
 
 +-- {: .num_defn #StableObjects}
 ###### Definition
 **((semi-)stable objects)**
 
-For $\mathcal{A}$ an [[abelian category]] equipped with a stability function $Z = r exp(i\pi \phi)$, an [[object]] $E \in \mathcal{A}$ is called a
+For $\mathcal{A}$ an [[abelian category]] equipped with a stability function $Z = r exp(i\pi \phi)$ (Def. \ref{StabilityFunction}). Then a non-[[zero object]] $E \in \mathcal{A}$ is called
 
-1. _semi-stable object_ if for all non-trivial [[subobjects]] $F\subset E$ we have that
+1. a _semi-stable object_ if for all non-[[zero object|zero]] [[subobjects]] $F\subset E$ the phase (eq:PhaseOfAnObject) of $F$ is smaller or equal that of $E$
 
    \[
      \label{SemiStability}
@@ -97,7 +116,7 @@ For $\mathcal{A}$ an [[abelian category]] equipped with a stability function $Z 
    \]
 
 
-1. _stable object_ if for all non-trivial, proper [[subobjects]] $F\subset E$ we have the property that 
+1. a _stable object_ if for all non-[[zero object|zero]], proper [[subobjects]] $F \subset E$ the phase (eq:PhaseOfAnObject) of $F$ is strictly smaller than that of $E$:
 
    $$
      \phi(F)$ &lt; $\phi(E)
@@ -211,7 +230,9 @@ $Stab(X)$ has a locally finite wall and chamber decomposition. The philosophy is
 
 A motivating example for the concept of Bridgeland stability is the following classical notion.
 
-Let $X$ be a non-singular, [[algebraic curve|projective curve]] over $\mathbb{C}$. Let $\mathcal{A}=Coh(X)$ be the category of [[coherent sheaves]] on $X$. The standard stability function (Def. \ref{StabilityFunction}) is 
+Let $X$ be a non-singular, [[algebraic curve|projective curve]] over $\mathbb{C}$. Let $\mathcal{A}=Coh(X)$ be the [[category]] of [[coherent sheaves]] on $X$. 
+
+In this case Thethe standard stability function (Def. \ref{StabilityFunction}) is 
 
 \[
   \label{StandardStabilityFunctionForVectorBundles}
@@ -220,7 +241,7 @@ Let $X$ be a non-singular, [[algebraic curve|projective curve]] over $\mathbb{C}
   -deg(E) + i rk(E)
 \] 
 
-where $deg$ is the _[[degree of a coherent sheaf|degree]]_ and $rk$ the _[[rank of a coherent sheaf|rank]]_.
+where $deg$ is the _[[degree of a coherent sheaf|degree]]_ and $rk$ the _[[rank of a coherent sheaf|rank]]_ of a [[coherent sheaf]] $E$.
 
 The classical notion of the _[[slope of a coherent sheaf|slope]] of a vector bundle is 
 
@@ -230,9 +251,9 @@ $$
   \frac{rk(E)}{deg(E)}
 $$ 
 
-When constructing a [[moduli space]] of vector bundles using [[geometric invariant theory|GIT]] one needs to consider only slope (semi-)[[stable vector bundles]] (see e.g. [Reineke 08, sections 3 and 4](#Reineke08)).
+When constructing a [[moduli space]] of vector bundles using [[geometric invariant theory|GIT]] one needs to consider only [[slope of a coherent sheaf|slope]] (semi-)[[stable vector bundles]] (see e.g. [Reineke 08, sections 3 and 4](#Reineke08)).
 
-One can immediately see that a vector bundle is [[slope of a vector bundle|slope]] (semi-)[[stable vector bundle|stable]] if and only if it is (semi-)stable with respect to this stability function (eq:StandardStabilityFunctionForVectorBundles). 
+One can immediately see that a [[vector bundle]]/[[coherent sheaf]] is [[slope of a vector bundle|slope]] (semi-)[[stable vector bundle|stable]] if and only if it is (semi-)stable with respect to this stability function (eq:StandardStabilityFunctionForVectorBundles). 
 
 Thus Bridgeland stability generalizes the classical notions of [[stable vector bundle|stability of vector bundles]].
 
