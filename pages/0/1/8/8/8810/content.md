@@ -73,6 +73,10 @@ The [[Donaldson-Uhlenbeck-Yau theorem]] relates semi-stable vector bundles over 
 
 Still more generally, the [[Kobayashi-Hitchin correspondence]] relates semi-stable vector bundles over [[complex manifolds]] to Hermite-Einstein connections.
 
+### Relation to Bridgeland stability conditions
+
+Slope-stability of vector bundles is a special case of a [[Bridgeland stability condition]], see [there](Bridgeland+stability+condition#SlopeStabilityOfVectorBundles) For review see e.g. ([Engenhorst 14, sections 3 and 4](#Engenhorst14)).
+
 ## Related concepts
 
 * [[Harder-Narasimhan filtration]]
@@ -113,6 +117,11 @@ See also
 * Wei-Ping Li, Zhenbo Qin, _Stable vector bundles on algebraic surfaces_ ([pdf](http://arxiv.org/pdf/math/9411233.pdf))
 
 * {#Saiz09} Alfonso Zamora Saiz, _On the stability of vector bundles_, Master thesis 2009 ([[SaizStableBundles.pdf:file]])
+
+Discussion in the context of [[Bridgelan stability conditions]]
+
+* {#Engenhorst14} Jan Engenhorst, _Bridgeland Stability Conditions in Algebra, Geometry and Physics_, 2014 ([pdf](https://www.freidok.uni-freiburg.de/fedora/objects/freidok:9595/datastreams/FILE1/content))
+
 
 Discussion for [[equivariant vector bundles]] is in 
 
