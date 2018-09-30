@@ -4,6 +4,10 @@ You may email me at brav?@?math?.?toronto?.?edu, with the ?s removed.
 
 * [webpage](http://people.maths.ox.ac.uk/brav/)
 
+## Related $n$Lab entries
+
+* [[Bridgeland stability condition]]
+
 category: people
 
 [[!redirects Christopher Brav]]
