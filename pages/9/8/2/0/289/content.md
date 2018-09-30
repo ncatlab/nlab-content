@@ -45,7 +45,7 @@ In particular there are the articles in preparation
 
 * John Baez, Alexander Hoffnung, Christopher Walker, _Higher-dimensional algebra VII: Groupoidification_, [arxiv/0908.4305](http://arxiv.org/abs/0908.4305)
 
-* John Baez, Alexander Hoffnung, _Higher-dimensional algebra VIII: The Hecke Bicategory_, ([pdf](http://math.ucr.edu/home/baez/hda8.pdf))
+* John Baez, Alexander Hoffnung, _Higher-dimensional algebra VIII: The Hecke Bicategory_, ([pdf](http://math.ucr.edu/home/baez/hecke.pdf))
 
 * _Towards topological groupoidification_ ([pdf](https://pdfs.semanticscholar.org/presentation/b157/90badcd7350ba0551f6eb362f5912780c5dd.pdf))
 
