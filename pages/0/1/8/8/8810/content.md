@@ -87,6 +87,10 @@ Slope-stability of vector bundles is a special case of a [[Bridgeland stability 
 
 * [[positive line bundle]], [[ample line bundle]]
 
+* [[Bridgeland stability condition]]
+
+* [[geometric invariant theory]]
+
 ## References
 
 
@@ -118,7 +122,7 @@ See also
 
 * {#Saiz09} Alfonso Zamora Saiz, _On the stability of vector bundles_, Master thesis 2009 ([[SaizStableBundles.pdf:file]])
 
-Discussion in the context of [[Bridgelan stability conditions]]
+Discussion in the context of [[Bridgeland stability conditions]]
 
 * {#Engenhorst14} Jan Engenhorst, _Bridgeland Stability Conditions in Algebra, Geometry and Physics_, 2014 ([pdf](https://www.freidok.uni-freiburg.de/fedora/objects/freidok:9595/datastreams/FILE1/content))
 
