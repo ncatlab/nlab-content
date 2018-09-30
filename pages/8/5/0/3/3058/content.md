@@ -14,7 +14,7 @@ With Zisman he introduced a general localization method in homotopy theory (see 
 
 * P. Gabriel, M. Zisman, _Calculus of fractions and homotopy theory_, Springer 1967. Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35.
 
-In later part of his mathematical career, Gabriel worked on representation theory of finite-dimensional associative algebras and quivers, where he found some of the basic theorems. 
+In later part of his mathematical career, Gabriel worked on representation theory of finite-dimensional associative algebras and [[quivers]], where he found some of the basic theorems, see _[[Gabriel's theorem]]_.
 
 Some of the $n$lab entries related to Gabriel's work include [[Gabriel filter]], [[Gabriel composition of filters]], [[Gabriel multiplication]], [[Gabriel-Ulmer duality]] and we mention here and there Gabriel localization, Gabriel spectrum of indecomposable injectives, Gabriel--Popescu embedding theorem, Gabriel--Rosenberg [[reconstruction theorem]], Gabriel--Zisman localization and Gabriel's property (sup) in the theory of abelian categories.
 
