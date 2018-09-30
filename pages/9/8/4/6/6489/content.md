@@ -47,7 +47,9 @@ In addition there are then _Bridgeland stability conditions_ on such [[triangula
 
 ## Definition
 
-Let $\mathcal{A}$ be an [[abelian category]] and $K(\mathcal{A})$ be its [[Grothendieck group]]. A **stability function**, sometimes also called a _central charge_, is a  [[linear map]] 
+Let $\mathcal{A}$ be an [[abelian category]] and $K(\mathcal{A})$ be its [[Grothendieck group]]. 
+
+A **stability function**, sometimes also called a _central charge_, is a  [[linear map]] 
 
 \[
   \label{StabilityFunction}
@@ -149,7 +151,6 @@ Bridgeland's work was motivated as a formalizatioon of ideas on $\Pi$-stability 
 
 * {#BridgelandA} [[Tom Bridgeland]], _Stability conditions on triangulated categories_, Ann. of Math. 166 (2007) 317&#8211;345,[math.AG/0212237](http://arxiv.org/abs/math/0212237); 
  
-
 * [[Tom Bridgeland]], _Spaces of stability conditions_, Proc. of symposia in pure math. __80__, 2009, [math/0611510](http://arxiv.org/abs/math/0611510). 
 
 * bourwiki: [Bridgeland stability conditions](http://bourwiki.org/wiki/Bridgeland_stability_conditions)
@@ -162,11 +163,25 @@ Bridgeland's work was motivated as a formalizatioon of ideas on $\Pi$-stability 
 
 * [[Tom Bridgeland]], Ivan Smith, _Quadratic differentials as stability conditions_, [arxiv/1302.7030](http://arxiv.org/abs/1302.7030)
  
-* [[Daniel Huybrechts]], _Introduction to stability conditions_ ([arXiv:1111.1745](https://arxiv.org/abs/1111.1745))
+* Arend Bayer, Emaneule Macri, _Projectivity and Birational Geometry of Bridgeland Moduli Spaces_ ([arXiv:1203.4613](http://arxiv.org/abs/1203.4613))
+
 
 ### Introductions and lectures
 
 * [[Anton Geraschenko]], _notes from an introductory talk_ ([pdf](http://math.berkeley.edu/~anton/written/AspectsModuli/AspectsModuli.pdf))
+
+* [[Daniel Huybrechts]], _Introduction to stability conditions_ ([arXiv:1111.1745](https://arxiv.org/abs/1111.1745))
+
+
+### Examples
+
+Discussion of stability conditions over [[Dynkin quivers]] includes
+
+* {#Qiu15} [[Yu Qiu]], Def. 2.1 _Stability conditions and quantum dilogarithm identities for Dynkin quivers_, Adv. Math., 269 (2015), pp 220-264 ([arXiv:1111.1010](https://arxiv.org/abs/1111.1010))
+
+* [[Tom Bridgeland]], [[Yu Qiu]], [[Tom Sutherland]], _Stability conditions and the $A_2$ quiver_ ([arXiv:1406.2566](https://arxiv.org/abs/1406.2566))
+
+
 
 ### Relation to stable branes in string theory
 
@@ -177,11 +192,13 @@ Relation to stable [[B-branes]] and [[fractional D-branes]]:
 * {#MalyshevVerlinde07} Dmitry Malyshev, [[Herman Verlinde]], _D-branes at Singularities and String Phenomenology_, Nucl.Phys.Proc.Suppl.171:139-163, 2007 ([arXiv:0711.2451](https://arxiv.org/abs/0711.2451))
 
 
-### Relation to moduli space theory
 
-* Arend Bayer, Emaneule Macri, _Projectivity and Birational Geometry of Bridgeland Moduli Spaces_ ([arXiv:1203.4613](http://arxiv.org/abs/1203.4613))
 
 [[!redirects Bridgeland stability conditions]]
 
 [[!redirects Bridgeland stability]]
+
+[[!redirects stability function]]
+[[!redirects stability functions]]
+
 
