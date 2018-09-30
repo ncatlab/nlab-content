@@ -141,7 +141,7 @@ A **stability condition** on a [[triangulated category]] $\mathcal{D}$ is a [[pa
 
 1. a slicing (Def. \ref{Slicing})
 
-satisfying the relation that given a non-[[zero object]] $E\in \mathcal{P}(\phi)$, then there is a non-zero [[positive number|positive]] [[real number]] $m(E)$ such that 
+satisfying the relation that given a non-[[zero object]] $E\in \mathcal{P}(\phi)$, then there is a non-zero [[positive number|positive]] [[real number]] $m(E)$ such that the value $Z(E)$ of the stability function (Def. \ref{StabilityCondition}) is
 
 $$
   Z(E)
@@ -158,13 +158,32 @@ This justifies the repeated notation of $\phi$, since this says that if an objec
 
 
 
-## Key Results
+## Properties
+
+### In terms of hearts of t-structures
 
 Bridgeland proves that an equivalent way to give a stability is to specify a heart of a bounded [[t-structure]] on $\mathcal{D}$ and give a stability function the heart that satisfies the Harder-Narasimhan property.
 
-Under reasonable hypotheses, one can put a natural topology on the space of stability conditions, $Stab(\mathcal{D})$, under which the space becomes a [[complex manifold]]. Most work using this fact has been done where $\mathcal{D}=D^b(Coh(X))$ where $X$ is a smooth, projective [[algebraic variety|variety]] over $\mathbb{C}$ so that $\mathcal{D}$ is $\mathbb{C}$-linear and $K(\mathcal{D})$ is finitely generated.
+### Space of stability conditions
+ {#SpaceOfStabilityConditions}
 
-$Stab(X)$ has a locally finite wall and chamber decomposition. The philosophy is that if one fixes a numerical condition $v$ and considers the [[moduli space]] of $\sigma$-stable sheaves as $\sigma$ varies through $Stab(X)$, then the moduli spaces $M_\sigma(v)\simeq M_{\sigma '}(v)$ should be isomorphic if $\sigma$ and $\sigma'$ are in the same chamber. Bayer and Macri have shown this is true for K3 surfaces, and upon crossing a wall the moduli spaces are related by a [[birational map]].
+
++-- {: .num_prop #SpaceOfStabilityConditions}
+###### Proposition
+**(space of stability conditions)**
+
+Under reasonable hypotheses (...), one can put a natural [[topological manifold|topology]] on the space $Stab(\mathcal{D})$ of all stability conditions (Def. \ref{StabilityCondition}) , under which the space becomes a [[complex manifold]]. 
+=--
+
+([Bridgeland 02, theorem 1.2](#Bridgeland02), reviewed in [Bridgeland 09, 3.2](#Bridgeland09))
+
+Most work using this fact has been done in the case of the [[bounded derived category of coherent sheaves]] $\mathcal{D}=D^b(Coh(X))$ where $X$ is a smooth, projective [[algebraic variety|variety]] over $\mathbb{C}$ so that $\mathcal{D}$ is $\mathbb{C}$-linear and $K(\mathcal{D})$ is finitely generated.
+
+
+### Wall crossing
+ {#WallCrossing}
+
+$Stab(X)$ has a locally finite wall and chamber decomposition. The philosophy is that if one fixes a numerical condition $v$ and considers the [[moduli space]] of $\sigma$-stable sheaves as $\sigma$ varies through $Stab(X)$, then the moduli spaces $M_\sigma(v)\simeq M_{\sigma '}(v)$ should be isomorphic if $\sigma$ and $\sigma'$ are in the same chamber. Bayer and Macri have shown this is true for K3 surfaces, and upon [[wall crossing|crossing a wall]] the moduli spaces are related by a [[birational map]].
 
 ## Examples
 
@@ -204,9 +223,9 @@ Thus Bridgeland stability generalizes the classical notions of [[stable vector b
 For $G_{ADE} \subset SU(2)$ a [[finite subgroup of SU(2)]], 
 let $\tilde X$ be the [[resolution of singularities|resolution]] of the corresponding [[ADE-singularity]]. 
 
-Then the [[connected component]] of the space of stability conditions (Def. \ref{StabilityCondition}) on the bounded [[derived category]] of [[coherent sheaves]] over $\tilde X$ can be described explicitly ([Bridgeland 05](#Bridgeland05)). 
+Then the [[connected component]] of the space spring of stability conditions (Def. \ref{StabilityCondition}) on the bounded [[derived category]] of [[coherent sheaves]] over $\tilde X$ can be described explicitly ([Thomas 02](#Thomas02), [Bridgeland 05](#Bridgeland05), [Brav-Thomas 09](#BravThomas09)). 
 
-Specifically for type-A singularities the space of stability conditions is in fact [[connected topological space|connected]] and [[simply-connected topological space]] ([Ishii-Ueda-Uehara 10](#IshiiUedaUehara10)). 
+Specifically for type-A singularities the space of stability conditions (Prop. \ref{SpaceOfStabilityConditions}) is in fact [[connected topological space|connected]] and [[simply-connected topological space]] ([Ishii-Ueda-Uehara 10](#IshiiUedaUehara10)). In fact spaces of stability structures over [[Dynkin quivers]] are [[contractible space|contractible]] ([Qiu-Woold 14](#QiuWoold14))
 
 Brief review is in [Bridgeland 09, section 6.3](#Bridgeland09).
 
@@ -222,13 +241,15 @@ Brief review is in [Bridgeland 09, section 6.3](#Bridgeland09).
 
 The definition is due to
 
-* {#BridgelandA} [[Tom Bridgeland]], _Stability conditions on triangulated categories_, Ann. of Math. 166 (2007) 317&#8211;345 ([math.AG/0212237](http://arxiv.org/abs/math/0212237))
+* {#Bridgeland02} [[Tom Bridgeland]], _Stability conditions on triangulated categories_, Ann. of Math. 166 (2007) 317&#8211;345 ([math.AG/0212237](http://arxiv.org/abs/math/0212237))
 
 based on informal arguments about the stability condition ("$\Pi$-stability") for [[B-branes]] of the [[B-model]] [[topological string]], due to [Douglas 01](#Douglas01), [Douglas 02](#Douglas02), [Aspinwall 04](#Aspinwall04).
 
-Further developments include
+The [[topolgical space|topology]] on spaces of stability conditions is due to 
  
-* {#Bridgeland09} [[Tom Bridgeland]], _Spaces of stability conditions_, Proc. of symposia in pure math. __80__, 2009, [math/0611510](http://arxiv.org/abs/math/0611510). 
+* {#Bridgeland09} [[Tom Bridgeland]], _Spaces of stability conditions_, Proc. of symposia in pure math. __80__, 2009 ([math/0611510](http://arxiv.org/abs/math/0611510))
+
+Further developments include
 
 * R. Pandharipande, R.P. Thomas, _Stable pairs and BPS invariants_, [arXiv:0711.3899](http://arxiv.org/abs/0711.3899)
 
@@ -256,11 +277,16 @@ Discussion of examples of stability conditions
 
 over [[resolution of singularities|resolutions]] of [[ADE-singularities]]:
 
+* {#Thomas02} R. P. Thomas, _Stability conditions and the braid group_, Communications in Analysis and Geometry 14, 135-161, 2006 ([arXiv:math/0212214](https://arxiv.org/abs/math/0212214))
+
 * {#Bridgeland05} [[Tom Bridgeland]], _Stability conditions and Kleinian singularities_, International Mathematics Research Notices 2009.21 (2009): 4142-4157 ([arXiv:0508257](https://arxiv.org/abs/math/0508257))
 
 * {#IshiiUedaUehara10} Akira Ishii, Kazushi Ueda, Hokuto Uehara, _Stability conditions on $A_n$-singularities_, Journal of Differential Geometry 84 (2010) 87-126 ([arXiv:math/0609551](https://arxiv.org/abs/math/0609551))
 
-over [[Dynkin quivers]]
+* {#BravThomas09} [[Christopher Brav]], Hugh Thomas, _Braid groups and Kleinian singularities_ ([arXiv:0910.2521](https://arxiv.org/abs/0910.2521))
+
+* {#QiuWoold14} [[Yu Qiu]], Jon Woolf, _Contractible stability spaces and faithful braid group actions_ ([arXiv:1407.5986](https://arxiv.org/abs/1407.5986))
+
 
 * {#Qiu15} [[Yu Qiu]], Def. 2.1 _Stability conditions and quantum dilogarithm identities for Dynkin quivers_, Adv. Math., 269 (2015), pp 220-264 ([arXiv:1111.1010](https://arxiv.org/abs/1111.1010))
 
