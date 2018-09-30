@@ -49,7 +49,11 @@ In addition there are then _Bridgeland stability conditions_ on such [[triangula
 
 Let $\mathcal{A}$ be an [[abelian category]] and $K(\mathcal{A})$ be its [[Grothendieck group]]. 
 
-A **stability function**, sometimes also called a _central charge_, is a  [[linear map]] 
++-- {: .num_defn #StabilityFunction}
+###### Definition
+**(stability function)**
+
+A **stability function** (sometimes also called a _central charge_) is a  [[linear map]] 
 
 \[
   \label{StabilityFunction}
@@ -73,6 +77,8 @@ $$
     0 \lt \phi \leq 1
   \right\}
 $$ 
+
+=--
 
 The _phase_ $\phi(E)$ of an object $E$ is just the [[complex phase]] $\phi$ that occurs in the representation from $H$. Alternatively, by plotting $Z(E)$ in the 
 [[complex plane]], the phase is the argument (slope) divided by $\pi$. The phase of $E$ will be denoted $\phi(E)$.
@@ -106,7 +112,14 @@ $$
   \,.
 $$
 
-Suppose $\mathcal{D}$ is a [[triangulated category]] (usually arising as the [[derived category]] of some [[abelian category]]). A **slicing**, $\mathcal{P}$, is a choice of [[additive category|additive]] [[full subcategories]] $\mathcal{P}(\phi)$ for each $\phi \in \mathbb{R}$ satisfying 
+Suppose $\mathcal{D}$ is a [[triangulated category]] (usually arising as the [[derived category]] of some [[abelian category]]). 
+
+
++-- {: .num_defn #Slicing}
+###### Definition
+**(slicing)**
+
+A _slicing_  $\mathcal{P}$ is a choice of [[additive category|additive]] [[full subcategories]] $\mathcal{P}(\phi)$ for each $\phi \in \mathbb{R}$ satisfying 
 
 1. $\mathcal{P}(\phi +1)=\mathcal{P}(\phi)[1]$
 
@@ -116,7 +129,34 @@ Suppose $\mathcal{D}$ is a [[triangulated category]] (usually arising as the [[d
 
    If $E\in \mathcal{D}$, then there exists $\phi_1 \gt \cdots \gt \phi_n$ and a sequence $0=E_0\to E_1 \to \cdots \to E_n = E$ such that the cone $E_{j-1}\to E_j \to F_j \to E_{j-1}[1]$ satisfies $F_j\in \mathcal{P}(\phi_j)$.
 
-A **stability condition** on $\mathcal{D}$ is a pair $\sigma = (Z, \mathcal{P})$ consisting of a stability function and slicing satisfying the relation that given a non-zero object $E\in \mathcal{P}(\phi)$, then there is a non-zero positive real number $m(E)$ such that $Z(E)=m(E)exp(i\pi \phi)$. This justifies the repeated notation of $\phi$, since this says that if an object lies in a particular slice $\phi$, then it must also have phase $\phi$.
+=--
+
++-- {: .num_defn #StabilityCondition}
+###### Definition
+**(stability condition)**
+
+A **stability condition** on a [[triangulated category]] $\mathcal{D}$ is a [[pair]] $\sigma = (Z, \mathcal{P})$ consisting of 
+
+1. a stability function (Def. \ref{StabilityFunction})
+
+1. a slicing (Def. \ref{Slicing})
+
+satisfying the relation that given a non-[[zero object]] $E\in \mathcal{P}(\phi)$, then there is a non-zero [[positive number|positive]] [[real number]] $m(E)$ such that 
+
+$$
+  Z(E)
+  \;=\; 
+  m(E)
+  \,
+  exp(i\pi \phi)
+  \,.
+$$
+
+=--
+
+This justifies the repeated notation of $\phi$, since this says that if an object lies in a particular slice $\phi$, then it must also have [[complex phase]] $\phi$.
+
+
 
 ## Key Results
 
@@ -128,7 +168,47 @@ $Stab(X)$ has a locally finite wall and chamber decomposition. The philosophy is
 
 ## Examples
 
-A motivating example is the following. Let $X$ be a non-singular, [[algebraic curve|projective curve]] over $\mathbb{C}$. Let $\mathcal{A}=Coh(X)$ be the category of [[coherent sheaf|coherent sheaves]] on $X$. The standard stability function is $Z(E)=-deg(E) + i rk(E)$. The classical notion of the slope of a vector bundle is $\mu(E)=\frac{rk(E)}{deg(E)}$. When constructing a moduli of vector bundles using [[geometric invariant theory|GIT]] one needs to consider only slope (semi-)[[stable vector bundle|stable]] vector bundles. One can immediately see that a vector bundle is slope (semi-)stable if and only if it is (semi-)stable with respect to this stability function. Thus stability conditions are a generalization of classical notions of stability.
+### Slope-stability of vector bundles / coherent sheaves
+ {#SlopeStabilityOfVectorBundles}
+
+A motivating example for the concept of Bridgeland stability is the following classical notion.
+
+Let $X$ be a non-singular, [[algebraic curve|projective curve]] over $\mathbb{C}$. Let $\mathcal{A}=Coh(X)$ be the category of [[coherent sheaves]] on $X$. The standard stability function (Def. \ref{StabilityFunction}) is 
+
+\[
+  \label{StandardStabilityFunctionForVectorBundles}
+  Z(E)
+    \;\coloneqq\;
+  -deg(E) + i rk(E)
+\] 
+
+where $deg$ is the _[[degree of a coherent sheaf|degree]]_ and $rk$ the _[[rank of a coherent sheaf|rank]]_.
+
+The classical notion of the _[[slope of a coherent sheaf|slope]] of a vector bundle is 
+
+$$
+  \mu(E)
+  \;\coloneqq\;
+  \frac{rk(E)}{deg(E)}
+$$ 
+
+When constructing a [[moduli space]] of vector bundles using [[geometric invariant theory|GIT]] one needs to consider only slope (semi-)[[stable vector bundles]] (see e.g. [Reineke 08, sections 3 and 4](#Reineke08)).
+
+One can immediately see that a vector bundle is [[slope of a vector bundle|slope]] (semi-)[[stable vector bundle|stable]] if and only if it is (semi-)stable with respect to this stability function (eq:StandardStabilityFunctionForVectorBundles). 
+
+Thus Bridgeland stability generalizes the classical notions of [[stable vector bundle|stability of vector bundles]].
+
+### Over resolutions of ADE-singularities
+ {#OverResolutionsOfADESingularities}
+
+For $G_{ADE} \subset SU(2)$ a [[finite subgroup of SU(2)]], 
+let $\tilde X$ be the [[resolution of singularities|resolution]] of the corresponding [[ADE-singularity]]. 
+
+Then the [[connected component]] of the space of stability conditions (Def. \ref{StabilityCondition}) on the bounded [[derived category]] of [[coherent sheaves]] over $\tilde X$ can be described explicitly ([Bridgeland 05](#Bridgeland05)). 
+
+Specifically for type-A singularities the space of stability conditions is in fact [[connected topological space|connected]] and [[simply-connected topological space]] ([Ishii-Ueda-Uehara 10](#IshiiUedaUehara10)). 
+
+Brief review is in [Bridgeland 09, section 6.3](#Bridgeland09).
 
 ## Related concepts
 
@@ -136,24 +216,19 @@ A motivating example is the following. Let $X$ be a non-singular, [[algebraic cu
 
 ## References
 
-### Related pre-Bridgeland work
-
-Bridgeland's work was motivated as a formalizatioon of ideas on $\Pi$-stability of [[D-branes]] for the [[topological string]], as discussed in
-
-* [[Michael Douglas]], _D-branes, categories and $N=1$ supersymmetry, J.Math.Phys. __42__ (2001) 2818&#8211;2843;  
-
-* [[Michael Douglas]] _Dirichlet branes, homological mirror symmetry, and stability_, Proc. ICM, Vol. III (Beijing, 2002), 395&#8211;408, Higher Ed. Press, Beijing, 2002
-
-* {#Aspinwall04} [[Paul Aspinwall]], _D-Branes on Calabi-Yau Manifolds_ ([arXiv:hep-th/0403166](https://arxiv.org/abs/hep-th/0403166))
 
 
 ### General
 
-* {#BridgelandA} [[Tom Bridgeland]], _Stability conditions on triangulated categories_, Ann. of Math. 166 (2007) 317&#8211;345,[math.AG/0212237](http://arxiv.org/abs/math/0212237); 
- 
-* [[Tom Bridgeland]], _Spaces of stability conditions_, Proc. of symposia in pure math. __80__, 2009, [math/0611510](http://arxiv.org/abs/math/0611510). 
+The definition is due to
 
-* bourwiki: [Bridgeland stability conditions](http://bourwiki.org/wiki/Bridgeland_stability_conditions)
+* {#BridgelandA} [[Tom Bridgeland]], _Stability conditions on triangulated categories_, Ann. of Math. 166 (2007) 317&#8211;345 ([math.AG/0212237](http://arxiv.org/abs/math/0212237))
+
+based on informal arguments about the stability condition ("$\Pi$-stability") for [[B-branes]] of the [[B-model]] [[topological string]], due to [Douglas 01](#Douglas01), [Douglas 02](#Douglas02), [Aspinwall 04](#Aspinwall04).
+
+Further developments include
+ 
+* {#Bridgeland09} [[Tom Bridgeland]], _Spaces of stability conditions_, Proc. of symposia in pure math. __80__, 2009, [math/0611510](http://arxiv.org/abs/math/0611510). 
 
 * R. Pandharipande, R.P. Thomas, _Stable pairs and BPS invariants_, [arXiv:0711.3899](http://arxiv.org/abs/0711.3899)
 
@@ -161,31 +236,47 @@ Bridgeland's work was motivated as a formalizatioon of ideas on $\Pi$-stability 
 
 * Rina Anno, Roman Bezrukavnikov, Ivan Mirkovi&#263;, _A thin stringy moduli space for Slodowy slices_, [arxiv/1108.1563](http://arxiv.org/abs/1108.1563) 
 
-* [[Tom Bridgeland]], Ivan Smith, _Quadratic differentials as stability conditions_, [arxiv/1302.7030](http://arxiv.org/abs/1302.7030)
- 
 * Arend Bayer, Emaneule Macri, _Projectivity and Birational Geometry of Bridgeland Moduli Spaces_ ([arXiv:1203.4613](http://arxiv.org/abs/1203.4613))
 
+* [[Tom Bridgeland]], Ivan Smith, _Quadratic differentials as stability conditions_, [arxiv/1302.7030](http://arxiv.org/abs/1302.7030)
+ 
 
-### Introductions and lectures
 
-* [[Anton Geraschenko]], _notes from an introductory talk_ ([pdf](http://math.berkeley.edu/~anton/written/AspectsModuli/AspectsModuli.pdf))
+### Introduction and review
+
+* {#Reineke08} Markus Reineke, _Moduli of representations of quivers_ ([arXiv:0802.2147](https://arxiv.org/abs/0802.2147))
 
 * [[Daniel Huybrechts]], _Introduction to stability conditions_ ([arXiv:1111.1745](https://arxiv.org/abs/1111.1745))
 
+* Jan Engenhorst, _Bridgeland Stability Conditions in Algebra, Geometry and Physics_, 2014 ([pdf](https://www.freidok.uni-freiburg.de/fedora/objects/freidok:9595/datastreams/FILE1/content))
 
 ### Examples
 
-Discussion of stability conditions over [[Dynkin quivers]] includes
+Discussion of examples of stability conditions 
+
+over [[resolution of singularities|resolutions]] of [[ADE-singularities]]:
+
+* {#Bridgeland05} [[Tom Bridgeland]], _Stability conditions and Kleinian singularities_, International Mathematics Research Notices 2009.21 (2009): 4142-4157 ([arXiv:0508257](https://arxiv.org/abs/math/0508257))
+
+* {#IshiiUedaUehara10} Akira Ishii, Kazushi Ueda, Hokuto Uehara, _Stability conditions on $A_n$-singularities_, Journal of Differential Geometry 84 (2010) 87-126 ([arXiv:math/0609551](https://arxiv.org/abs/math/0609551))
+
+over [[Dynkin quivers]]
 
 * {#Qiu15} [[Yu Qiu]], Def. 2.1 _Stability conditions and quantum dilogarithm identities for Dynkin quivers_, Adv. Math., 269 (2015), pp 220-264 ([arXiv:1111.1010](https://arxiv.org/abs/1111.1010))
 
-* [[Tom Bridgeland]], [[Yu Qiu]], [[Tom Sutherland]], _Stability conditions and the $A_2$ quiver_ ([arXiv:1406.2566](https://arxiv.org/abs/1406.2566))
+* [[Tom Bridgeland]], [[Yu Qiu]], Tom Sutherland, _Stability conditions and the $A_2$ quiver_ ([arXiv:1406.2566](https://arxiv.org/abs/1406.2566))
 
 
 
 ### Relation to stable branes in string theory
 
-Relation to stable [[B-branes]] and [[fractional D-branes]]:
+In terms of stability ($\Pi$-stability) of [[B-branes]] of the [[B-model]] [[topological string]]:
+
+* {#Douglas01} [[Michael Douglas]], _D-branes, categories and $N=1$ supersymmetry, J.Math.Phys. __42__ (2001) 2818&#8211;2843;  
+
+* {#Douglas02} [[Michael Douglas]] _Dirichlet branes, homological mirror symmetry, and stability_, Proc. ICM, Vol. III (Beijing, 2002), 395&#8211;408, Higher Ed. Press, Beijing, 2002
+
+* {#Aspinwall04} [[Paul Aspinwall]], _D-Branes on Calabi-Yau Manifolds_ ([arXiv:hep-th/0403166](https://arxiv.org/abs/hep-th/0403166))
 
 * [[Aaron Bergman]], _Stability Conditions and Branes at Singularities_,  Journal of High Energy Physics 2008.10 (2008): 07 ([arXiv:hep-th/0702092](http://arxiv.org/abs/hep-th/0702092))
 
