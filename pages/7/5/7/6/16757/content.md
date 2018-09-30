@@ -41,6 +41,19 @@ $\,$
 
 [[!include ADE -- table]]
 
+### Bridgeland stability conditions
+
+For $G_{ADE} \subset SU(2)$ a [[finite subgroup of SU(2)]], 
+let $\tilde X$ be the [[resolution of singularities|resolution]] of the corresponding ADE-singularity as [above](#ResolutionBySpheresTouchingAlongADynkinDiagram).
+
+Then the [[connected component]] of the space of [[Bridgeland stability conditions]] on the bounded [[derived category]] of [[coherent sheaves]] over $\tilde X$ can be described explicitly ([Bridgeland 05](#Bridgeland05)). 
+
+Specifically for type-A singularities the space of stability conditions is in fact [[connected topological space|connected]] and [[simply-connected topological space]] ([Ishii-Ueda-Uehara 10](#IshiiUedaUehara10)). 
+
+Brief review is in [Bridgeland 09, section 6.3](#Bridgeland09).
+
+
+
 ## Related concepts
 
 * [[singularity]]
@@ -113,7 +126,7 @@ See also
 * Wikipedia, _[du Val singularity](https://en.wikipedia.org/wiki/Du_Val_singularity)_
 
 
-### In the context of string compactifications
+### In the context of string theory and stability conditions
 
 Discussion in [[string theory]]:
 
@@ -124,6 +137,21 @@ Discussion in [[string theory]]:
 For more seet at _[[M-theory on G2-manifolds]]_ the section [Orbifold singularities](M-theory+on%20G2-manifolds#EnhancedGaugeGroups)
 
 See also at _[[F-branes -- table]]_
+
+Discussion of [[Bridgeland stability conditions]] for ([[resolution of singularities|resolutions of]]) ADE singularities includes:
+
+* {#Bridgeland05} [[Tom Bridgeland]], _Stability conditions and Kleinian singularities_, International Mathematics Research Notices 2009.21 (2009): 4142-4157 ([arXiv:0508257](https://arxiv.org/abs/math/0508257))
+
+* {#IshiiUedaUehara10} Akira Ishii, Kazushi Ueda, Hokuto Uehara, _Stability conditions on $A_n$-singularities_, Journal of Differential Geometry 84 (2010) 87-126 ([arXiv:math/0609551](https://arxiv.org/abs/math/0609551))
+
+and specifically over [[Dynkin quivers]]
+
+* {#Qiu15} [[Yu Qiu]], Def. 2.1 _Stability conditions and quantum dilogarithm identities for Dynkin quivers_, Adv. Math., 269 (2015), pp 220-264 ([arXiv:1111.1010](https://arxiv.org/abs/1111.1010))
+
+* [[Tom Bridgeland]], [[Yu Qiu]], Tom Sutherland, _Stability conditions and the $A_2$ quiver_ ([arXiv:1406.2566](https://arxiv.org/abs/1406.2566))
+
+
+
 
 
 [[!redirects ADE singularities]]
