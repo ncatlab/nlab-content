@@ -1,5 +1,5 @@
 
-> This entry is about discontinuities in parameter dependence of (often asymptotic) solutions of [[differential equations]] and similar phenomena (notably in the context of [[BPS states]]) with stability parameters (and their stability slopes) in [[algebraic geometry]] which are often interpreted as crossing the walls of marginal stability in [[physics]]. For the different notions of the same name in [[Morse theory]] see at _[[Cerf wall crossing]]_ and for the (Weyl chamber wall) crossing functors in representation theory see [[wall crossing functor]]. 
+> This entry is about discontinuities in parameter dependence of (often asymptotic) solutions of [[differential equations]] and similar phenomena (notably in the context of [[BPS states]] formalized via [[Bridgeland stability conditions]]) with stability parameters (and their stability slopes) in [[algebraic geometry]] which are often interpreted as crossing the walls of marginal stability in [[physics]]. For the different notions of the same name in [[Morse theory]] see at _[[Cerf wall crossing]]_ and for the (Weyl chamber wall) crossing functors in representation theory see [[wall crossing functor]]. 
 
 # Contents
 * table of contents
