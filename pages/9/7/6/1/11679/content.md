@@ -29,7 +29,6 @@ e.g. ([Huybrechts-Lehn 96, def. 1.2.11](#HuybrechtsLehn96))
 
 ## Related concepts
 
-
 * [[degree of a coherent sheaf]]
 
 * [[rank of a coherent sheaf]]
@@ -37,6 +36,8 @@ e.g. ([Huybrechts-Lehn 96, def. 1.2.11](#HuybrechtsLehn96))
 * [[stable coherent sheaf]]
 
 * [[stable vector bundle]]
+
+* [[Bridgeland stability condition]]
 
 ## References
 
@@ -46,3 +47,5 @@ e.g. ([Huybrechts-Lehn 96, def. 1.2.11](#HuybrechtsLehn96))
 Vol. 308, No. 1505 (Mar. 17, 1983), pp. 523-615 ([jstor](http://www.jstor.org/stable/37156), [lighning summary](http://math.stackexchange.com/a/295505/58526))
 
 * {#HuybrechtsLehn96} [[Daniel Huybrechts]], [[Manfred Lehn]], _The Geometry of the Moduli Spaces of Sheaves_, 1996 ([[HuybrechtsLehn.pdf:file]])
+
+[[!redirects slope of a vector bundle]]
