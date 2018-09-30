@@ -7,4 +7,6 @@
 
 * [[Narasimhan-Seshadri theorem]]
 
+* [[stable vector bundle]]
+
 category: people
