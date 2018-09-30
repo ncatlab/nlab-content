@@ -23,12 +23,14 @@ _Geometric invariant theory_ studies the construction of [[moduli spaces]] / [[m
 
 A central aspect of the theory of ([Mumford-Fogarty-Kirwan 65](MumfordFogartyKirwan65), [Mumford 77](#Mumford77)) is -- given the [[action]] of a [[reductive group]] on a [[projective variety]] -- to characterize those points in the variety -- called the [[GIT-stable point|GIT-(semi-)stable points]] -- such that the [[quotient stack]] on these is "close" to being represented by another projective variety (in that it is for instance just an [[orbifold]]/[[Deligne-Mumford stack]]). The precise statement is recalled for instance as ([Saiz 09, theorem 2.3.6](#Saiz09)).
 
-A standard application of this is to the discussion of [[moduli spaces of bundles]], where [[action]] is that of the [[gauge group]] and where the (semi-)stable points correspond to the (semi-)(slope-)[[stable vector bundles]] ([Saiz 09, section 2.3](#Saiz09))..
+A standard application of this is to the discussion of [[moduli spaces of bundles]], where [[action]] is that of the [[gauge group]] and where the (semi-)stable points correspond to the (semi-)(slope-)[[stable vector bundles]] ([Saiz 09, section 2.3](#Saiz09)).
 
 
 ## Related concepts
 
 * [[stability]], [[stable vector bundle]]
+
+* [[Bridgeland stability condition]] (see [there](Bridgeland+stability+condition#SlopeStabilityOfVectorBundles))
 
 * [[Deligne-Mumford stack]]
 
@@ -60,3 +62,8 @@ and Moduli Spaces of Maps_ ([pdf](http://www.math.uga.edu/~davids/DSMScthesis.pd
 
 * [[David Rydh]], _Existence and properties of geometric quotients_,
 J. Algebraic Geom. 22 (2013), 629&#8211;669, [publ](http://dx.doi.org/10.1090/S1056-3911-2013-00615-3), [pdf](https://people.kth.se/~dary/quotients20120504.pdf).
+
+Relation to [[Bridgeland stability conditions]]:
+
+* {#Engenhorst14} Jan Engenhorst, _Bridgeland Stability Conditions in Algebra, Geometry and Physics_, 2014 ([pdf](https://www.freidok.uni-freiburg.de/fedora/objects/freidok:9595/datastreams/FILE1/content))
+
