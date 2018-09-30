@@ -2,7 +2,7 @@ __Pierre Gabriel__ also often as __Peter Gabriel__ (1933-2015) was a French and 
 
 * [webpage](http://www.pierre-peter-gabriel-mathematics.ch), [biography](http://www.pierre-peter-gabriel-mathematics.ch/biography/)
 * The [English wikipedia](http://en.wikipedia.org/wiki/Pierre_Gabriel) gives almost nothing, but there is some bio material 
-at [German wikipedia](http://de.wikipedia.org/wiki/Pierre_Gabriel)
+at [German wikipedia](http://de.wikipedia.org/wiki/Pierre_Gabriel) and similarly at the [French wikipedia page](https://fr.wikipedia.org/wiki/Pierre_Gabriel_(mathématicien)).
 
 A version of Gabriel's 1960 PhD thesis has been published as [[Des catégories abéliennes]] in 1962. His thesis was a major breakthrough in the theory of [[localization]], and the study of [[abelian categories]], including categories of [[quasicoherent sheaves]] on schemes. In retrospective, it can be said that it was in its ideas and methods one of the starting points of modern [[noncommutative algebraic geometry]] as well. 
 
