@@ -91,11 +91,15 @@ Textbook accounts include
 
   (The last formula on page 409 has a typo: there should be no $r$ in the [[denominator]].)
 
-Discussion in terms of [[hyper-Kähler geometry]]:
+Discussion of [[resolution of singularities|resolution]] of ADE-singularities in terms of [[hyper-Kähler geometry]]:
 
 * {#Kronheimer89a} [[Peter Kronheimer]], _The construction of ALE spaces as hyper-K&#228;hler quotients_, J. Differential Geom. Volume 29, Number 3 (1989), 665-683. ([euclid:1214443066](https://projecteuclid.org/euclid.jdg/1214443066))
 
 * {#Kronheimer89b} [[Peter Kronheimer]], _A Torelli-type theorem for gravitational instantons_, J. Differential Geom. Volume 29, Number 3 (1989), 685-697 ([euclid:1214443067](https://projecteuclid.org/euclid.jdg/1214443067))
+
+and in terms of preprojective algebras:
+
+* {#CBH98} William Crawley-Boevey, Martin P. Holland, _Noncommutative deformations of Kleinian singularities_, Duke Math. J. Volume 92, Number 3 (1998), 605-635 ([euclid:1077231679](https://projecteuclid.org/euclid.dmj/1077231679))
 
 Reviews and lecture notes include
 
