@@ -170,7 +170,7 @@ $$
   R_{\widehat{k}}(G)
 $$
 
-for all $n$ [[coprime integer|coprime]] of ${\vert G\vert}$. (See also at _[[Adams conjecture]]_.)
+for all $n$ [[coprime integer|coprime]] to ${\vert G\vert}$. (See also at _[[Adams conjecture]]_.)
 
 By Prop. \ref{AdamsOperationsRepresentGaloisAction} this is equivalently the [[direct sum]]
 
