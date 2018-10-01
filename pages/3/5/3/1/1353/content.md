@@ -102,6 +102,11 @@ Further developments are in
 
 * Dominic Verity, _Weak complicial sets Part II: Nerves of complicial Gray-categories_ ([arXiv](http://arxiv.org/abs/math/0604416))
 
+A model structure for [[(infinity,n)-categories]] is presented in
+
+* Viktoriya Ozornova, Martina Rovelli, Model structures for (∞,n)-categories on (pre)stratified simplicial sets and prestratified simplicial spaces, [arxiv](https://arxiv.org/abs/1809.10621)
+
+
 
 [[!redirects weak complicial sets]]
 [[!redirects weak compicial set]]
