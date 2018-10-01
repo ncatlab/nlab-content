@@ -216,7 +216,7 @@ Let $\mathcal{A}$ be an [[abelian category]] equipped with a stability condition
 
 For $E \in \mathcal{A}$ a stable object (Def \ref{StableObjects}), every [[endomorphism]] of $E$ is either the [[zero morphism]] or is an [[isomorphism]]; in particular if $\mathcal{A}$ is [[enriched category|enriched]] in [[vector spaces]] over an [[algebraically closed field]] $k$, then $End(E) \simeq k$.
 
-More generally, for $E_1, E_2 \in \mathcal{A}$ two stable objects of the sqma slope/phase, $\phi(E_1) =\phi(E_2)$, any [[morphism]] $E_1 \to E_2$ is either the [[zero morphism]] or is an [[isomorphism]].
+More generally, for $E_1, E_2 \in \mathcal{A}$ two stable objects of the same slope/phase, $\phi(E_1) =\phi(E_2)$, any [[morphism]] $E_1 \to E_2$ is either the [[zero morphism]] or is an [[isomorphism]].
 
 
 =--
