@@ -69,7 +69,7 @@ A **stability function** (sometimes also called a _central charge_) is a  [[line
 \] 
 
 from [[Grothendieck group]] $K(\mathcal{A})$ to the [[abelian group|additive group]] of [[complex numbers]], 
-such that for all non-[[zero objects]], the [[image]] of $Z$ lies in the [[upper half-plane|semi-upper half plane]] 
+such that for all non-[[zero objects]] $E \subset \mathcal{A}$, the [[image]] $Z(E)$ lies in the [[upper half-plane|semi-upper half plane]] 
 
 $$
   H
@@ -127,6 +127,10 @@ For $\mathcal{A}$ an [[abelian category]] equipped with a stability function $Z 
 
 =--
 
+([Bridgeland 02, Def. 2.2](#Bridgeland02))
+
+
+
 +-- {: .num_defn}
 ###### Definition
 
@@ -152,14 +156,15 @@ $$
 
 =--
 
-Now suppose that $\mathcal{D}$ is a [[triangulated category]] (usually arising as the [[derived category]] of some [[abelian category]]). 
 
 
 +-- {: .num_defn #Slicing}
 ###### Definition
 **(slicing)**
 
-A _slicing_  $\mathcal{P}$ is a choice of [[additive category|additive]] [[full subcategories]] $\mathcal{P}(\phi)$ for each $\phi \in \mathbb{R}$ satisfying 
+Let $\mathcal{D}$ be a [[triangulated category]] (usually arising as the [[derived category]] of some [[abelian category]]). 
+
+A _slicing_  $\mathcal{P}$ on $\mathcal{D}$ is a choice of [[additive category|additive]] [[full subcategories]] $\mathcal{P}(\phi) \subset \mathcal{D}$ for each $\phi \in \mathbb{R}$ satisfying 
 
 1. $\mathcal{P}(\phi +1)=\mathcal{P}(\phi)[1]$
 
@@ -170,6 +175,9 @@ A _slicing_  $\mathcal{P}$ is a choice of [[additive category|additive]] [[full 
    If $E\in \mathcal{D}$, then there exists $\phi_1 \gt \cdots \gt \phi_n$ and a sequence $0=E_0\to E_1 \to \cdots \to E_n = E$ such that the cone $E_{j-1}\to E_j \to F_j \to E_{j-1}[1]$ satisfies $F_j\in \mathcal{P}(\phi_j)$.
 
 =--
+
+([Bridgeland 02, Def. 3.3](#Bridgeland02))
+
 
 +-- {: .num_defn #StabilityCondition}
 ###### Definition
@@ -193,6 +201,8 @@ $$
 $$
 
 =--
+
+([Bridgeland 02, Def. 5.1](#Bridgeland02))
 
 This justifies the repeated notation of $\phi$, since this says that if an object lies in a particular slice $\phi$, then it must also have [[complex phase]] $\phi$.
 
