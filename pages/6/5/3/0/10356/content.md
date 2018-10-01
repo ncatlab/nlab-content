@@ -25,6 +25,8 @@ For [[type II superstrings]] on a global [[orbifold]] [[spacetime]] $X\sslash G$
 
 The corresponding [[D-branes]] are called _fractional_ D-branes in the literature.
 
+In particular, at least for D-branes at an [[cyclic group|A-type]] singularity $\mathbb{C}^2\sslash (\mathbb{Z}/n)$, hence for $G = \mathbb{Z}/n$ a [[cyclic group]], the [[tension]] (hence [[mass]]) of a fractional D-brane is supposed to be the [[fraction]] $\tfrac{1}{{\vert G\vert}}  = \tfrac{1}{n}$ of that of the unit [[bulk]] brane away from the singularity ([Douglas-Greene-Morrison 97, p.10](#DouglasGreeneMorrison97)).
+
 ### At global linear orbifold singularities
  {#AtGlobalLinearOrbifoldSingularities}
 
@@ -181,7 +183,7 @@ but has not been given a correspondingly precise cohomological formulation yet.
 
 Early discussion in physics language include
 
-* [[Michael Douglas]], [[Brian Greene]], [[David Morrison]], _Orbifold Resolution by D-Branes_, Nucl.Phys.B506:84-106,1997 ([arXiv:hep-th/9704151](https://arxiv.org/abs/hep-th/9704151))
+* {#DouglasGreeneMorrison97} [[Michael Douglas]], [[Brian Greene]], [[David Morrison]], _Orbifold Resolution by D-Branes_, Nucl.Phys.B506:84-106,1997 ([arXiv:hep-th/9704151](https://arxiv.org/abs/hep-th/9704151))
 
 * Diaconescu, [[Michael Douglas]], [[Jaume Gomis]], _Fractional Branes and Wrapped Branes_, JHEP 9802:013,1998 ([arXiv:hep-th/9712230](http://arxiv.org/abs/hep-th/9712230))
 
