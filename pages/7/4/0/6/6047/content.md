@@ -73,6 +73,8 @@ $dim \Sigma = 1$ this is the [[relativistic particle]], for $dim \Sigma = 2$ the
 
 * [[membrane instanton]]
 
+* for more on brane tension see also _[Worldsheet and brane instantons](non-perturbative effect#WorldsheetAndBraneInstantons)_
+
 ## References
 
 The Nambu-Goto action functional is named after [[Yoichiro Nambu]].
