@@ -51,6 +51,6 @@ Discussion of [[Bridgeland stability conditions]] on [[quiver representations]] 
 
 * {#Qiu15} [[Yu Qiu]], _Stability conditions and quantum dilogarithm identities for Dynkin quivers_, Adv. Math., 269 (2015), pp 220-264 ([arXiv:1111.1010](https://arxiv.org/abs/1111.1010))
 
-* [[Tom Bridgeland]], [[Yu Qiu]], [[Tom Sutherland]], _Stability conditions and the $A_2$ quiver_ ([arXiv:1406.2566](https://arxiv.org/abs/1406.2566))
+* [[Tom Bridgeland]], [[Yu Qiu]], Tom Sutherland, _Stability conditions and the $A_2$ quiver_ ([arXiv:1406.2566](https://arxiv.org/abs/1406.2566))
 
 [[!redirects Dynkin quivers]]
