@@ -21,11 +21,20 @@
 ## Definition
 
 
-A [[rational number]] associated with a [[coherent sheaf]] over a [[curve]]: the [[degree of a coherent sheaf|degree]] divided by the [[rank of a coherent sheaf|rank]]
+A [[rational number]] associated with a [[coherent sheaf]] $E$ over a [[curve]]: the [[degree of a coherent sheaf|degree]] divided by the [[rank of a coherent sheaf|rank]]:
+
+$$
+  \mu(E)
+  \;\coloneqq\;
+  \frac{deg(E)}{rank(E)}
+  \,.
+$$
 
 For [[vector bundles]]: "normalized [[Chern character]]" ([Shatz 77](#Shatz77))
 
 e.g. ([Huybrechts-Lehn 96, def. 1.2.11](#HuybrechtsLehn96))
+
+This is what enters the condition on _[[stable coherent sheaves]]_.
 
 ## Related concepts
 
