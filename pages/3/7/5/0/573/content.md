@@ -1133,6 +1133,10 @@ The first globular and algebraic models of $(\infty,n)$-categories is in
 
 * [[Camell Kachour]], Algebraic Definition of weak $(\infty,n)$-Categories, Published in Theory and Applications of Categories (2015), Volume 30, No. 22, pages 775-807: [journal web site](http://tac.mta.ca/tac/volumes/30/22/30-22abs.html)
 
+A model structure using [[complicial sets]] is in
+
+* Viktoriya Ozornova, Martina Rovelli, Model structures for (∞,n)-categories on (pre)stratified simplicial sets and prestratified simplicial spaces, [arxiv](https://arxiv.org/abs/1809.10621)
+
 
 [[!redirects (infinity,r)-category]]
 [[!redirects (infinity,k)-category]]
