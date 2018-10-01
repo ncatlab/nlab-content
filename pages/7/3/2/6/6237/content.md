@@ -119,6 +119,10 @@ Discussion in the more general context of [[equivariant cohomology|equivariant]]
 * [[Michael Hopkins]], [[Nicholas Kuhn]], [[Douglas Ravenel]], _Generalized group characters and complex oriented cohomology theories_, J. Amer. Math. Soc. 13 (2000), 553-594 ([publisher](http://www.ams.org/journals/jams/2000-13-03/S0894-0347-00-00332-5/), [pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/hkr.pdf))
 
 
+Examples of characters of [[finite groups]] are discussed and listed at 
+
+* {#Montaldi08} James Montaldi, _[representations](www.maths.manchester.ac.uk/~jm/wiki/Representations/Representations)_, 2008
+
 [[!redirects character]]
 [[!redirects characters]]
 
