@@ -16,11 +16,11 @@
 
 ## Idea 
 
-The term "class equation" (or class formula, or orbit decomposition formula) refers to a basic type of counting argument that comes about by decomposing a finite $G$-[[permutation representation|set]] as a sum of its orbits. It has a number of fundamental applications in group theory. 
+The term "class equation" (or class formula, or orbit decomposition formula) refers to a basic type of counting argument that comes about by decomposing a [[finite set|finite]] [[G-set]] as a sum of its orbits. It has a number of fundamental applications in [[group theory]]. 
 
 ## Statement 
 
-Let $G$ be a [[group]] and let $A$ be a $G$-set (given by a [[homomorphism]] $G \to \hom_{Set}(A, A)$ of [[monoids]], with which is associated an [[action]] $\alpha: G \times A \to A$). Recall that $A$ is [[connected object|connected]] in the [[category]] of $G$-sets if $A$ is [[inhabited set|inhabited]] and the action is [[transitive action|transitive]]; in this case, choosing an element $a \in A$, there is a [[surjection]] of $G$-sets $G \to A$ sending $1 \mapsto a$, and this induces an [[isomorphism]] $G/Stab(a) \cong A$ where $Stab(a)$ is the [[stabilizer]] of $a$ and $G/Stab(a)$ is the $G$-set consisting of left [[cosets]] of $Stab(a)$. 
+Let $G$ be a [[group]] and let $A$ be a [[G-set]] (given by a [[homomorphism]] $G \to \hom_{Set}(A, A)$ of [[monoids]], with which is associated an [[action]] $\alpha: G \times A \to A$). Recall that $A$ is [[connected object|connected]] in the [[category of G-sets]] if $A$ is [[inhabited set|inhabited]] and the action is [[transitive action|transitive]]; in this case, choosing an [[element]] $a \in A$, there is a [[surjection]] of $G$-sets $G \to A$ sending $1 \mapsto a$, and this induces an [[isomorphism]] $G/Stab(a) \cong A$ where $Stab(a)$ is the [[stabilizer]] of $a$ and $G/Stab(a)$ is the $G$-set consisting of left [[cosets]] of $Stab(a)$. 
 
 More generally, each $G$-set $A$ admits a canonical decomposition as a [[coproduct]] of its connected components; the components are usually called the [[orbits]] of the action. Choosing a representative element $a_x$ in each orbit $x$, this means we have an isomorphism of $G$-sets 
 
