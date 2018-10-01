@@ -110,6 +110,10 @@ A standard textbook on [[representation theory]] of [[compact space|compact]] [[
 
 * Theodor Br&#246;cker, Tammo tom Dieck, _Representations of compact Lie groups_ Graduate Texts in Mathematics, Springer (1985)
 
+The stable [[triangulated category]] of representations of a [[finite group]]:
+
+* [[Fernando Muro]], around slide 105 of _Triangulated categories_, 2009 [pdf](http://personal.us.es/fmuro/files/slides/htag.pdf)
+
 category: category
 
 [[!redirects representation category]]
