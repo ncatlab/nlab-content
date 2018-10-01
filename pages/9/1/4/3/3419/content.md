@@ -19,4 +19,10 @@ Every [[group character]] is in particular a class function.
 
 * [[Schur orthogonality relation]]
 
+## References
+
+See also 
+
+* Wikipedia, _[Class function](https://en.wikipedia.org/wiki/Class_function_(algebra))_
+
 [[!redirects class functions]]
