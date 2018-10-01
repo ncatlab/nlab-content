@@ -54,8 +54,7 @@ In addition there are then _Bridgeland stability conditions_ on such [[triangula
 ###### Definition
 **(stability function)**
 
-Let $\mathcal{A}$ be an [[abelian category]]. 
-
+Let $\mathcal{A}$ be an [[additive category]]. 
 
 A **stability function** (sometimes also called a _central charge_) is a  [[linear map]] 
 
@@ -114,16 +113,21 @@ For $\mathcal{A}$ an [[abelian category]] equipped with a stability function $Z 
 
    \[
      \label{SemiStability}
-     \phi(F)\leq \phi(E)
+     \phi(F)
+       \;\leq\; 
+     \phi(E)
    \]
 
 
 1. a _stable object_ if for all non-[[zero object|zero]], proper [[subobjects]] $F \subset E$ the phase (eq:PhaseOfAnObject) of $F$ is strictly smaller than that of $E$:
 
-   $$
-     \phi(F)$ &lt; $\phi(E)
+   \[
+     \label{Stability}
+     \phi(F) 
+       \;\lt\;
+     \phi(E)
      \,.
-   $$
+   \]
 
 =--
 
@@ -131,10 +135,11 @@ For $\mathcal{A}$ an [[abelian category]] equipped with a stability function $Z 
 
 
 
-+-- {: .num_defn}
++-- {: .num_defn #HarderNarasimhanProperty}
 ###### Definition
+**(Harder-Narasimhan property)**
 
-A stability function $Z:K(\mathcal{A})\to \mathbb{C}$ (eq:StabilityFunction) is said to have the **Harder-Narasimhan property** if for any non-[[zero object]] $E$ there exists a finite [[filtered object|filtration]] by [[subobjects]] 
+A stability function $Z \;\colon\; K(\mathcal{A})\to \mathbb{C}$ (Def. \ref{StabilityFunction}) is said to have the _Harder-Narasimhan property_ if for any non-[[zero object]] $E$ there exists a finite [[filtered object|filtration]] by [[subobjects]] 
 
 $$
   0=E_0 \subset E_1 \subset \cdots \subset E_n =E
@@ -143,7 +148,9 @@ $$
 such that the [[quotients]] 
 
 $$
-  F_i=E_i/E_{i-1}
+  F_i
+   =
+  E_i/E_{i-1}
 $$ 
 
 are all semi-stable (eq:SemiStability) and satisfy 
@@ -156,6 +163,7 @@ $$
 
 =--
 
+([Bridgeland 02, Def. 2.3](#Bridgeland02))
 
 
 +-- {: .num_defn #Slicing}
@@ -170,9 +178,9 @@ A _slicing_  $\mathcal{P}$ on $\mathcal{D}$ is a choice of [[additive category|a
 
 2. If $\phi_1 \gt \phi_2$ and $A_j\in \mathcal{P}(\phi_j)$, then $Hom(A_1, A_2)=0$.
 
-3. Any object has a finite filtration by the slicing: 
+3. Any object has a finite [[filtration]] by the slicing: 
 
-   If $E\in \mathcal{D}$, then there exists $\phi_1 \gt \cdots \gt \phi_n$ and a sequence $0=E_0\to E_1 \to \cdots \to E_n = E$ such that the cone $E_{j-1}\to E_j \to F_j \to E_{j-1}[1]$ satisfies $F_j\in \mathcal{P}(\phi_j)$.
+   If $E\in \mathcal{D}$, then there exists $\phi_1 \gt \cdots \gt \phi_n$ and a sequence $0=E_0\to E_1 \to \cdots \to E_n = E$ such that the [[mapping cone]] $E_{j-1}\to E_j \to F_j \to E_{j-1}[1]$ satisfies $F_j\in \mathcal{P}(\phi_j)$.
 
 =--
 
@@ -189,7 +197,7 @@ A **stability condition** on a [[triangulated category]] $\mathcal{D}$ is a [[pa
 
 1. a slicing (Def. \ref{Slicing})
 
-satisfying the relation that given a non-[[zero object]] $E\in \mathcal{P}(\phi)$, then there is a non-zero [[positive number|positive]] [[real number]] $m(E)$ such that the value $Z(E)$ of the stability function (Def. \ref{StabilityCondition}) is
+satisfying the relation that given a non-[[zero object]] $E\in \mathcal{P}(\phi)$, then there is a [[positive number|positive]] [[real number]] $m(E)$ such that the value $Z(E)$ of the stability function (Def. \ref{StabilityCondition}) is
 
 $$
   Z(E)
@@ -204,9 +212,10 @@ $$
 
 ([Bridgeland 02, Def. 5.1](#Bridgeland02))
 
-This justifies the repeated notation of $\phi$, since this says that if an object lies in a particular slice $\phi$, then it must also have [[complex phase]] $\phi$.
+This justifies the repeated notation of $\phi$, since this says that if an object lies in a particular slice $\mathcal{P}(\phi)$, then it must also have [[complex phase]] $\phi$.
 
 
+$\,$
 
 ## Properties
 
@@ -231,8 +240,7 @@ More generally, for $E_1, E_2 \in \mathcal{A}$ two stable objects of the same sl
 
 =--
 
-e.g. ([Bayer 11, 2.3 Exercise 1](#Bayer11),  [Martinez 13, prop. 3](#Martinez13)) spring
-
+e.g. ([Bayer 11, 2.3 Exercise 1](#Bayer11),  [Martinez 13, prop. 3](#Martinez13)) 
 
 
 ### Space of stability conditions
