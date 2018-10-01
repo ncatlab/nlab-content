@@ -67,7 +67,9 @@ In the following examples, all groups are discrete.
 
 * [[topological G-space]]
 
-* [[category of G sets]]
+* [[category of G-sets]]
+
+* [[class equation]]
 
 * [[Galois theory]]
 
