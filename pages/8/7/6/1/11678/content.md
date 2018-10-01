@@ -1,4 +1,16 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Chern-Weil theory
++--{: .hide}
+[[!include infinity-Chern-Weil theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -38,3 +50,11 @@ of the [[de Rham cohomology|de Rham representative]] of the actual [[first Chern
 * {#HuybrechtsLehn96} [[Daniel Huybrechts]], [[Manfred Lehn]], _The Geometry of the Moduli Spaces of Sheaves_, 1996 ([[HuybrechtsLehn.pdf:file]])
 
 * {#ScheinostSchottenloher96} Peter Scheinost, [[Martin Schottenloher]], _Metaplectic quantization of the moduli spaces of flat and parabolic bundles_, J. reine angew. Mathematik, 466 (1996) ([web](https://eudml.org/doc/153753))
+
+[[!redirects degrees of a coherent sheaf]]
+
+[[!redirects degrees of coherent sheaves]]
+
+[[!redirects degree of a vector bundle]]
+[[!redirects degrees of a vector bundle]]
+[[!redirects degrees of vector bundles]]
