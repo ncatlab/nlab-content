@@ -34,9 +34,10 @@ Let $X$ be a [[scheme]] (resp. a [[locally noetherian scheme]]),
 This is the _[[valuative criterion of separatedness]]_. See Hartshorne or [[EGA II]] for more details.
 
 +-- {: .num_remark}
-###### Remark
+###### Warning
 
-Therefore separated schemes are analogous to [[Hausdorff space|Hausdorff topological spaces]] (which are also sometimes called 'separated') and more generally of [[Hausdorff toposes]].  The characterization in terms of the diagonal map is precisely the same as that used for Hausdorff [[locales]]. See _[[separated geometric morphism]]_ for more.
+The definition of a separated scheme is formally similar to the definition of a [[Hausdorff space]] which says that the diagonal $\Delta(X) \subseteq X \times X$ is closed; the same pattern is followed in the definition of a [[Hausdorff locale]], [[Hausdorff topos]], etc. More generally, the definition of a separated morphism of schemes is formally similar to e.g. a [[separated geometric morphism]]. This leads to these properties having similar formal properties. Nevertheless, because finite products and pullbacks in these categories do not necessarily agree, these notions of separation also vary. For example, the underlying topological space of a separated scheme is typically not Hausdorff.
+
 
 =--
 
