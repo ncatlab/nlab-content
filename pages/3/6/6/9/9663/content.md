@@ -23,9 +23,9 @@
 
 ## Statement
 
-[[Gabriel's theorem]] ([Gabriel 72](#Gabriel72)) says that connected [[quivers]] with a [[finite number]] of [[indecomposable object|indecomposable]] [[quiver representations]] over an [[algebraically closed field]] are precisely the _[[Dynkin quivers]]_: those whose underlying [[undirected graph]] is a [[Dynkin diagram]] in the [[ADE classification|ADE series]]
+[[Gabriel's theorem]] ([Gabriel 72](#Gabriel72)) says that connected [[quivers]] with a [[finite number]] of [[indecomposable object|indecomposable]] [[quiver representations]] over an [[algebraically closed field]] are precisely the _[[Dynkin quivers]]_: those whose underlying [[undirected graph]] is a [[Dynkin diagram]] in the [[ADE classification|ADE series]].
 
-Moreover, the [[indecomposable object|indecomposable]] [[quiver representations]] in this case are [[bijection]] with the positive [[root (in representation theory)|roots]] in the [[root system]] of the [[Dynkin diagram]]. 
+Moreover, the [[indecomposable object|indecomposable]] [[quiver representations]] in this case are in [[bijection]] with the [[positive number|positive]] [[root (in representation theory)|roots]] in the [[root system]] of the [[Dynkin diagram]]. 
 
 
 ## Related concepts
