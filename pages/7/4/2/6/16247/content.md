@@ -19,18 +19,21 @@
 * table of contents
 {:toc}
 
-## Definition
+## Idea
 
 (...)
 
-## Examples
+## Properties
 
-Those in the [[ADE classification]] are
+### ADE-Classification
 
+Those Dynkin diagrams in the [[ADE classification]] are the following
+
+<center>
 <img src="https://ncatlab.org/nlab/files/ADEDynkin.jpg" width="490"/>
+</center>
 
-Of particular interest is [[D4]], which enjoys [[triality]].
-
+[[!include ADE -- table]]
 
 ## Related concepts
 
