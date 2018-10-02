@@ -129,3 +129,6 @@ Examples of characters of [[finite groups]] are discussed and listed at
 
 [[!redirects character ring]]
 [[!redirects character rings]]
+
+[[!redirects character table]]
+[[!redirects character tables]]
