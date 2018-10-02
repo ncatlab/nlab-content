@@ -83,6 +83,11 @@ The [[group cohomology]] of the orientation-preserving octahedral group is discu
 
 * {#Klein1884} [[Felix Klein]], chapter I.7 of _Vorlesungen über das Ikosaeder und die Auflösung der Gleichungen vom fünften Grade_, 1884, translated as _Lectures on the Icosahedron and the Resolution of Equations of Degree Five_ by George Morrice 1888, [online version](https://archive.org/details/cu31924059413439)
 
+Aspects of the linear [[representation theory]] of the binary octahedral group ([[irreducible representations]], [[character table]]) is spelled out at 
+
+* Groupprops, _[Linear representation theory of binary octahedral group](https://groupprops.subwiki.org/wiki/Linear_representation_theory_of_binary_octahedral_group)_
+
+See also
 
 * Wikipedia, _[Octahedral symmetry](https://en.wikipedia.org/wiki/Octahedral_symmetry)_
 
