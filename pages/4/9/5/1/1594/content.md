@@ -165,13 +165,17 @@ See also at _[[orbifold cobordism]]_.
 
 ### In string theory
 
-Orbifolds as [[target spaces]] for a [[string]] [[sigma-model]] were first considered in 
+In [[perturbative string theory]], orbifolds as [[target spaces]] for a [[string]] [[sigma-model]] were first considered in 
 
-* [[Lance Dixon]], [[Jeffrey Harvey]], [[Cumrun Vafa]], [[Edward Witten]], _Strings on orbifolds, I, II_, Nucl.Phys. B261(1985), 678, B274(1986), 285.
+* {#DixonHarveyVafaWitten85} [[Lance Dixon]], [[Jeff Harvey]], [[Cumrun Vafa]], [[Edward Witten]], _Strings on orbifolds_, Nuclear Physics B Volume 261, 1985, Pages 678-686 (<a href="https://doi.org/10.1016/0550-3213(85)90593-0">doi:10.1016/0550-3213(85)90593-0</a>)
+
+* {#DixonHarveyVafaWitten86} [[Lance Dixon]], [[Jeff Harvey]], [[Cumrun Vafa]], [[Edward Witten]], _Strings on orbifolds (II)_, Nuclear Physics B Volume 274, Issue 2, 15 September 1986, Pages 285-314 (<a href="https://doi.org/10.1016/0550-3213(86)90287-7">doi:10.1016/0550-3213(86)90287-7</a>)
 
 and then further developed notably in 
 
 * [[Eric Zaslow]], _Topological orbifold models and quantum cohomology rings_, Comm. Math. Phys. 156 (1993), no. 2, 301&#8211;331.
+
+See also the references at _[[fractional D-brane]]_.
 
 For [[topological strings]] the [[path integral as a pull-push transform]] for target orbifolds -- in analogy to what [[Gromov-Witten theory]] is for [[Deligne-Mumford stacks]] -- has first been considered in 
 
