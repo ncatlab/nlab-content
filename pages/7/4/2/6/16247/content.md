@@ -29,6 +29,7 @@ Those in the [[ADE classification]] are
 
 <img src="https://ncatlab.org/nlab/files/ADEDynkin.jpg" width="490"/>
 
+Of particular interest is [[D4]], which enjoys [[triality]].
 
 
 ## Related concepts
