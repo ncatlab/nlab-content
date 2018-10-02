@@ -39,6 +39,13 @@ In general it is necessary to proceed otherwise, however, and to give a specific
 
 ## Examples of presentations
 
+* A standard if somewhat trivial example of a presentation is given by the _standard presentation_ of a group, $G$.  We take $X= \{x_g\mid g\in G,g\neq 1\}$, to be a set in bijective correspondence with the underlying set of $G$. (You can take $X$ equal to that set if you like, but sometimes it is better to have a distinct set, for instance, it make for an easier notation for the description of certain morphisms.) The set of relations will be 
+
+$$R =\{x_g.x_h= x_{gh}\mid g,h \in G\},$$ 
+
+so as a _set_ is just a copy of $G\times G$ as the relations are indexed by pairs of elements of $G$.
+
+
 *  $G$ a cyclic group, $C_n$, of order $n$ has presentation $\langle a : a^n\rangle$.  There are many different functions from the (singleton) set of generators to  $C_n$ that will give a suitable presentation in the fuller sense.
 
 *  $S_3$ has a presentation $\langle a,b : a^3, b^2,(a b)^2 \rangle$.
@@ -48,6 +55,22 @@ In general it is necessary to proceed otherwise, however, and to give a specific
   * $\langle a,b : a^3= b^2\rangle$, which displays the fact that the trefoil is a (2,3)-[[torus knot]]; and
 
   * $\langle x,y : x y x = y x y\rangle$, which shows the link between this group and the Artin [[braid group]], $Br3$.
+
+* At the entry on [[Coxeter groups]] one finds the following:
+
+**Definition** A _Coxeter matrix_ over an index [[set]] $I$ is a symmetric [[matrix]] 
+
+$$M \colon I \times I \to \{1, 2, 3, \ldots, \infty\}$$ 
+
+such that $M(i, i) = 1$ for all $i \in I$, else $M(i, j) \gt 1$. Writing $m_{i,j} = M(i, j)$, the associated **Coxeter group** $W_M$ is the group presented as having generators $s_i$, $i \in I$, and relations 
+
+$$(s_i s_j)^{m_{i, j}} = 1$$ 
+
+for all $i, j \in I$, whenever $m_{i, j} \neq \infty$. In other words, $m_{i, j}$ is the order of $s_i s_j$ (as is easily shown), and these orders determine the group. 
+
+We thus have an infinite family of group presentations.
+
+
 
 
 ## Discussion
