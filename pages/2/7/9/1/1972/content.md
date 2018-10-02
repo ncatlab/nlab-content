@@ -60,6 +60,35 @@ $$
 
 But beware that equivariant [[KO]], even of the point, is much richer in higher degree ([Wilson 16, remark 3.34](#Wilson16))
 
+In fact, [[equivariant KO-theory]] of the point subsumes the [[representation rings]] over the [[real numbers]], the [[complex numbers]] and the [[quaternions]]:
+
+$$
+  KO_G^n(\ast)
+  \;\simeq\;
+  \left\{
+  \array{
+    0 &\vert& n = 7
+    \\
+    R_{\mathbb{H}}(G)/ R_{\mathbb{R}}(G) &\vert& n = 6
+    \\
+    R_{\mathbb{H}}(G)/ R_{\mathbb{C}}(G) &\vert& n = 5
+    \\
+    R_{\mathbb{H}}(G) \phantom{/ R_{\mathbb{R}}(G) }  &\vert& n = 4
+    \\
+    0 &\vert& n = 3
+    \\
+    R_{\mathbb{C}}(G)/ R_{\mathbb{H}}(G) &\vert& n = 2
+    \\
+    R_{\mathbb{R}}(G)/ R_{\mathbb{C}}(G) &\vert& n = 1
+    \\
+    R_{\mathbb{R}}(G) \phantom{/ R_{\mathbb{R}}(G)} &\vert& n =0
+  }
+  \right.
+$$
+
+([Greenlees 05, p. 3](#Greenlees05))
+
+
 [[!include Segal completion -- table]]
 
 ## Properties
