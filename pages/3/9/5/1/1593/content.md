@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -71,6 +70,19 @@ The original observation that [[D-brane charge]] for orientifolds should be in [
 
 * {#Witten98} [[Edward Witten]], section 5 of _D-branes and K-theory_, J. High Energy Phys., 1998(12):019, 1998 ([arXiv:hep-th/9810188](http://arxiv.org/abs/hep-th/9810188)) 
 
+and was re-amplified in
+
+* {#Gukov00} [[Sergei Gukov]], _K-Theory, Reality, and Orientifolds_, Commun.Math.Phys. 210 (2000) 621-639 ([arXiv:hep-th/9901042](http://arxiv.org/abs/hep-th/9901042))
+
+
+Discussion of orbi-orienti-folds in terms of [[equivariant K-theory|equivariant]] [[KO-theory]] is in
+
+* N. Quiroz, [[Bogdan Stefanski]], _Dirichlet Branes on Orientifolds_, Phys.Rev. D66 (2002) 026002 ([arXiv:hep-th/0110041](https://arxiv.org/abs/hep-th/0110041))
+
+* [[Volker Braun]], [[Bogdan Stefanski]], _Orientifolds and K-theory_ ([arXiv:hep-th/0206158](https://arxiv.org/abs/hep-th/0206158))
+
+* H. Garcia-Compean, W. Herrera-Suarez, B. A. Itza-Ortiz, O. Loaiza-Brito, _D-Branes in Orientifolds and Orbifolds and Kasparov KK-Theory_, JHEP 0812:007, 2008 ([arXiv:0809.4238](https://arxiv.org/abs/0809.4238))
+
 A definition and study of orientifold [[bundle gerbes]], modeling the [[B-field]] [[background gauge field|background]] for the [[bosonic string]] (differential [[HZR-theory]]), is in
 
 * {#Jandl} [[Urs Schreiber]], [[Christoph Schweigert]], [[Konrad Waldorf]], _Unoriented WZW models and Holonomy of Bundle Gerbes_, Communications in Mathematical Physics August 2007, Volume 274, Issue 1, pp 31-64 ([arXiv](http://arxiv.org/abs/hep-th/0512283))
@@ -94,9 +106,7 @@ More details are in
  
 Related lecture notes / slides include
 
-* [[Jacques Distler]], _Orientifolds and Twisted KR-Theory_ (2008) ([pdf](http://www.perimeterinstitute.ca/pdf/files/731c5f3a-928f-453a-b569-db5c574d2a6c.pdf))
-
-* [[Daniel Freed]], _Dirac charge quantiation, K-theory, and orientifolds_, talk at a workshop _Mathematical methods in general relativity and quantum field theories_, November, 2009 ([pdf](http://www.ma.utexas.edu/users/dafr/paris_nt.pdf))
+* [[Daniel Freed]], _Dirac charge quantiation, K-theory, and orientifolds_, talk at a workshop _Mathematical methods in general relativity and quantum field theories_, Paris, November 2009 ([pdf](http://www.ma.utexas.edu/users/dafr/paris_nt.pdf), [[FreedK09.pdf:file]])
 
 * [[Greg Moore]], _The RR-charge of an orientifold_ ([ppt](http://www.physics.rutgers.edu/~gmoore/AnnArbor_Feb2010_FINAL.ppt))
 
@@ -104,8 +114,6 @@ Related lecture notes / slides include
  
 
 A detailed list of examples of [[KR-theory]] of orientifolds and their [[T-duality]] is in 
-
-* {#Gukov00} [[Sergei Gukov]], _K-Theory, Reality, and Orientifolds_, Commun.Math.Phys. 210 (2000) 621-639 ([arXiv:hep-th/9901042](http://arxiv.org/abs/hep-th/9901042))
 
 * {#DMR13} Charles Doran, Stefan Mendez-Diez, [[Jonathan Rosenberg]], _T-duality For Orientifolds and Twisted KR-theory_ ([arXiv:1306.1779](http://arxiv.org/abs/1306.1779))
 
