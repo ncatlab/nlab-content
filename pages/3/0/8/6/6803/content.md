@@ -1,4 +1,8 @@
 
+> This entry is about a [[D-brane]] species in [[string theory]]. For the items in the [[ADE-classification]] of name [[D4]], see there.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
