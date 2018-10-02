@@ -48,19 +48,26 @@ The _dicyclic group_ of order $4n$, $n\geq 2$, is the [[group]] $Q_{4n}$ defined
 
 * $Q_{4n}$ has another presentation as $\langle R, S, T | R^2=S^2=T^n=R S T\rangle$. $R S T$ as a power of each of the generators is central and $Q_{4n}/\langle R S T\rangle= D_{2n}$, where $D_{2n}=\langle R, S, T | R^2=S^2=T^n=R S T=1\rangle$ is the [[dihedral group]] of order $2n$.
 
-* {#HamiltonianGroup} $Q_8$ is a **Hamiltonian group** i.e. a [[non-abelian group]] such that every [[subgroup]] is [[normal subgroup|normal]]. Moreover, a general structure theorem for Hamiltonian groups by Baer (1933) says that every Hamiltonian group has a direct product decomposition containing $Q_8$ as a factor hence, in particular, every Hamiltonian group contains $Q_8$ as a [[subgroup]]! (cf. [Scott (1987, p.253](#Scott87)))
+* {#HamiltonianGroup} $Q_8$ is a **Hamiltonian group** i.e. a [[non-abelian group]] such that every [[subgroup]] is [[normal subgroup|normal]]. Moreover, a general structure theorem for Hamiltonian groups by Baer (1933) says that every Hamiltonian group has a [[direct product group]]-decomposition containing $Q_8$ as a factor hence, in particular, every Hamiltonian group contains $Q_8$ as a [[subgroup]]! (cf. [Scott (1987, p.253](#Scott87)))
 
-* {#InclusionInLargerFininteSubgroupsOfSU2} among the [[finite subgroups of SU(2)]] (hence among all "finite quaternion groups") $Q_8$ is a proper [[subgroup]] precisely of the three exceptional cases:
+* $Q_8$ is the multiplicative part of the quaternionic near-field $J_9$. (cf. [Weibel (2007)](#Weibel07))
+
++-- {: .num_prop #InclusionInLargerFininteSubgroupsOfSU2}
+###### Proposition
+**(inclusion of $Q_8$ into [[finite subgroups of SU(2)]])**
+
+Among the [[finite subgroups of SU(2)]] (hence among all "finite quaternion groups") the quaternion group of [[order of a group|order]] 8, $Q_8$ is a proper [[subgroup]] precisely of the three [[ADE-classification|exceptional cases]]:
 
   * $Q_8 \subset 2 T$ the [[binary tetrahedral group]] ([[normal subgroup|normal]]),
 
+  * $Q_8 \subset 2 O$ the [[binary octahedral group]] (not [[normal subgroup|normal]])
+
   * $Q_8 \subset 2 I$ the [[binary icosahedral group]] (not [[normal subgroup|normal]])
 
-  * $Q_8 \subset 2 O$ the [[binary octahedral group]] ([[normal subgroup|normal]])
 
+=--
   (e.g. [Koca-Moc-Koca 16, p. 8](#KocaMocKoca16), pointing to [Coxeter-Moser 65](#CoxeterMoser65) and [Coxeter 73](#Coxeter73))
 
-* $Q_8$ is the multiplicative part of the quaternionic near-field $J_9$. (cf. [Weibel (2007)](#Weibel07))
 
 ## Related entries
 
