@@ -39,6 +39,9 @@ See e.g. [Qiu 15, Def. 2.1](#Qiu15)
 
 Moreover, the [[indecomposable object|indecomposable]] [[quiver representations]] in this case are [[bijection]] with the positive [[root (in representation theory)|roots]] in the [[root system]] of the [[Dynkin diagram]]. 
 
+### McKay correspondence
+
+[[!include ADE -- table]]
 
 
 ## References
