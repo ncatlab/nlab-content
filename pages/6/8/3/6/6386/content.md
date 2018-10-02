@@ -1,15 +1,13 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Arithmetic
-+--{: .hide}
++-- {: .hide}
 [[!include arithmetic geometry - contents]]
 =--
 =--
 =--
-
 
 # Contents
 * table of contents
@@ -40,7 +38,7 @@ But the collection of all algebraic numbers forms itself already an [[algebraica
 
 A number (especially a [[complex number]]) which is *not* algebraic is called __transcendental__; famous examples are the base ($\mathrm{e} = 2.7\ldots $) and period ($2 \pi \mathrm{i} = 6.28\ldots \mathrm{i}$, or equivalently $\pi = 3.14\ldots $) of the natural [[logarithm]].
 
-Given a [[field]] $k$, an algebraic __[[number field]]__ $K$ over $k$ is a finite-degree extension of $k$. By default, the term "algebraic number field" means an algebraic number field over the rational numbers. If $\alpha$ is an algebraic number over $\mathbb{Q}$ then $\mathbb{Q}[\alpha]$ is a __[[number field]]__, however the field of all algebraic numbers is *not* a __[[number field]]__.
+Given a [[field]] $k$, an algebraic __[[number field]]__ $K$ over $k$ is a finite-degree extension of $k$. By default, the term "algebraic number field" means an algebraic number field over the rational numbers. If $\alpha$ is an algebraic number over $\mathbb{Q}$ then $\mathbb{Q}[\alpha]$ is a number field, however the field of all algebraic numbers is *not* a number field.
 
 An [[algebraic integer]] is a root of a [[monic polynomial]] with integer coefficients. Equivalently, an element $\alpha$ of a field extension $K$ of $\mathbb{Q}$ is an algebraic integer if the [[ring]] $\mathbb{Z}[\alpha]$ is of finite [[rank]] as a $\mathbb{Z}$-module. It follows easily from this characterization that the collection of all algebraic integers forms a commutative ring. 
 
@@ -53,13 +51,16 @@ An [[algebraic integer]] is a root of a [[monic polynomial]] with integer coeffi
  
   * [[number field]]
 
+
 ## References
 
 See also
 
 * Wikipedia, _[Algebraic numbers](https://en.wikipedia.org/wiki/Algebraic_number)_
 
+
 [[!redirects algebraic number]]
 [[!redirects algebraic numbers]]
+
 [[!redirects transcendental number]]
 [[!redirects transcendental numbers]]
