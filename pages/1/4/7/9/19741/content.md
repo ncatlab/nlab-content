@@ -3,6 +3,18 @@
 
 ***
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -17,6 +29,12 @@ In the [[ADE-classification]], the items labeled $D_4$ include the following:
 
    (graphics grabbed from Wikipedia [here](https://upload.wikimedia.org/wikipedia/commons/5/59/Dynkin_diagram_D4.png))
 
+1. as [[finite subgroups of SO(3)]]:
+
+   the [[Klein four-group]]  (the smallest [[dihedral group]])
+
+   $\mathbb{Z}/2 \times \mathbb{Z}/2$
+
 1. as [[finite subgroups of SU(2)]]:
 
    the [[quaternion group]] of [[order of a group|order]] 8 (the smallest [[binary dihedral group]]):
@@ -28,6 +46,13 @@ In the [[ADE-classification]], the items labeled $D_4$ include the following:
    [[SO(8)]]
 
 
+## Properties
+
+### Triality
+
+The [[symmetric group|S3]]-[[symmetry group]] of the D4-diagram translates into interesting 3-fold symmetries of structures associated with the corresponding objects in the above list. This is known as _[[triality]]_.
+
 ## Related concepts
 
-* [[triality]]
+
+[[!include ADE -- table]]
