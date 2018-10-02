@@ -27,7 +27,7 @@ $$
      \, 
      \pm i
      \, 
-     \pm i
+     \pm j
      \, 
      \pm k
   \big\}
@@ -83,9 +83,6 @@ Among the [[finite subgroups of SU(2)]] (hence among all "finite quaternion grou
 
 * [[canonical formula of myth]]
 
-## Related pages
-
-* wikipedia entry ([link](https://en.wikipedia.org/wiki/Quaternion_group))
 
 ## References
 
@@ -105,6 +102,10 @@ Among the [[finite subgroups of SU(2)]] (hence among all "finite quaternion grou
 
 * {#Coxeter73} H.S.M.  Coxeter,  _Regular  Complex  Polytopes_ (Cambridge; Cambridge University Press, 1973).
 
+See also
+
+* Wikipedia, _[Quaternion group](https://en.wikipedia.org/wiki/Quaternion_group)_
+
 
 [[!redirects quaternionic group]]
 [[!redirects dicyclic group]]
@@ -112,3 +113,5 @@ Among the [[finite subgroups of SU(2)]] (hence among all "finite quaternion grou
 [[!redirects quaternion groups]]
 [[!redirects dicyclic groups]]
 [[!redirects quaternionic groups]]
+
+[[!redirects Q8]]
