@@ -31,6 +31,10 @@ The [[group cohomology]] of the dihedral group is discussed for instance at [Gro
 
 [[!include ADE -- table]]
 
+## Examples
+
+* The binary dihedral group of [[order of a group|order]] 8 is [[isomorphism|isomorphic]] to the [[quaternion group]] $Q_8$.
+
 ## Related concepts
 
 * [[anti-cyclotomic extension]]
