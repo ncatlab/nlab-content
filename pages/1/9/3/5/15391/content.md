@@ -32,4 +32,6 @@ For the special case over [[Kähler manifolds]] this is the _[[Donaldson-Uhlenbe
 
 * Wikipedia, _[Kobayashi-Hitchin correspondence](http://en.wikipedia.org/wiki/Kobayashi&#8211;Hitchin_correspondence)_
 
-* {#Kobayashi87} [[Shoshichi Kobayashi]], _Differential geometry of complex vector bundles_, Princeton University Press (1987)
+* {#Kobayashi87} [[Shoshichi Kobayashi]], _Differential geometry of complex vector bundles_, Princeton University Press (1987) ([pdf](http://mathsoc.jp/publication/PublMSJ/PDF/Vol15.pdf))
+
+* {#LubkeTeleman95} [[Martin Lübke]], and [[Andrei Teleman]], _The Kobayashi-Hitchin correspondence_, World Scientific, 1995.
