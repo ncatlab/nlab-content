@@ -491,7 +491,8 @@ This exhibits the claim to be shown.
 
 
 
-### From stable model categories
+### From stable model categories and stable $\infty$-categories
+ {#FromStableModelCategories}
 
 A [[pointed category|pointed]] [[model category]] $\mathcal{C}$ is called a _[[stable model category]]_ if the canonically induced [[reduced suspension]]-functor on its [[homotopy category of a model category|homotopy category]] 
 
@@ -502,6 +503,10 @@ $$
 is an [[equivalence of categories]].
 
 In this case $(Ho(\mathcal{C}),\Sigma)$ is a triangulated category. ([Hovey 99, section 7](#Hovey99), for review see also [Schwede, section 2](#Schwede)).
+
+Similarly, the [[homotopy category of an (infinity,1)-category|homotopy category]] of a [[stable (∞,1)-category]] is a trinagulated category, see [there](stable+infinity-category#TheTriangulatedHomotopyCategory).
+
+
 
 ## Examples
 
