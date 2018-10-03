@@ -15,7 +15,9 @@
 
 ## Idea
 
-$Spec(\mathbb{Z})$ denotes the [[spectrum of a commutative ring|spectrum]] of the [[commutative ring]] $\mathbb{Z}$ of [[integers]]. For details see at _[[Zariski topology]]_ [this example](Zariski+topology#SpecZ).
+$Spec(\mathbb{Z})$ denotes the [[spectrum of a commutative ring|spectrum]] of the [[commutative ring]] $\mathbb{Z}$ of [[integers]]. Its points are the [[maximal ideals]] $(p)$, for each prime $p$ in $\mathbb{Z}$, which are [[closed point|closed]], and the non-maximal [[prime ideal]] $(0)$, whose closure is the whole of $Spec(\mathbb{Z})$. For details see at _[[Zariski topology]]_ [this example](Zariski+topology#SpecZ).
+
+Since $\mathbb{Z}$ is the [[initial object]] in the category of commutative rings, $Spec(\mathbb{Z})$ is the [[terminal object]] in the category of [[affine schemes]].
 
 The [[gros topos|gros]] [[etale topos]] over $Spec(\mathbb{Z})$ is the context for [[arithmetic geometry]]. By the discussion at _[[Borger's absolute geometry]]_ it sits via an [[essential geometric morphism]] over the [[F1]]-[[topos]]:
 
