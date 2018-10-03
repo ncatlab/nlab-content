@@ -16,7 +16,7 @@
 
 ## Idea
 
-An isogeny is a rational [[homomorphism]] between [[algebraic groups]]. For [[elliptic curve|elliptic curves]] this is equivalently a [[surjection]] that has a [[finite set|finite]] [[kernel]].
+An isogeny is a rational [[homomorphism]] between [[algebraic groups]]. For [[elliptic curve|elliptic curves]], [[abelian varieties]] of dimension 1, this is equivalently a [[surjection]] that has a [[finite set|finite]] [[kernel]].
 
 ## References
 
