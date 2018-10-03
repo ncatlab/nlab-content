@@ -22,27 +22,112 @@
 
 ## Idea
 
-Bridgeland stability conditions on a [[triangulated category]] are certain data which give a derived analogue of [[David Mumford]]'s concept of [[GIT-stable point|stability]] in [[geometric invariant theory]].
+### General
 
-The concept originally arose as a formalization of reaction processes of [[D-branes]] for the [[B-model]] [[topological string]]. These are (hypothetical) physical objects that appear in different species labeled by [[objects]] in a [[triangulated category|triangulated]] [[derived category]] (of [[quasicoherent sheaves]] on some [[Calabi-Yau variety]]). Whenever there is a process 
+A _stability condition_ ([Bridgeland 02](#Bridgeland02)) on a [[triangulated category]] ([hence](triangulated+category#FromStableModelCategories) on a [[stable model category]]/[[stable (∞,1)-category]]) $\mathcal{D}$ (Def. \ref{StabilityCondition} below) singles out some of its [[objects]], to be called the "stable objects" (Def. \ref{StableObjects} below), that behave, to some extent, like [[indecomposable objects]] (whence "stable"), in that a version of [[Schur's lemma]] applies to them (Prop. \ref{SchurLemma} below).
+
+Indeed, in the degenerate case that $\mathcal{D}$ is the [[derived category]] of a [[semisimple category]], the stable objects are just the [[irreducible objects]].
+
+In the example that $\mathcal{D}$ being the bounded [[derived category]] of [[coherent sheaves]] on some [[complex manifold]], the general notion of stability reduces to the classical notion of [[slope of a coherent sheaf|slope]]-[[stable coherent sheaf|stability of coherent sheaves]] ("$\mu$-stability", see Example \ref{SlopeStability} below). 
+
+In other examples Bridgeland stability reproduces the derived analogue of [[David Mumford]]'s concept of [[GIT-stable point|stability]] in [[geometric invariant theory]] ([King 94](#King94)).
+
+There are in general different stability conditions on one and the same [[triangulated category]], in fact their [[moduli space]] $Stab(\mathcal{D})$ forms a [[complex manifold]] (Prop. \ref{SpaceOfStabilityConditions} below). The collection of stable objects in $\mathcal{D}$ in general depends on the choice of stability conditions, hence of the choice of point in this [[moduli space]]: There are in general [[codimension]]-1 [[submanifolds]] of $Stab(\mathcal{D})$, called _walls_, such that the set of stable objects is constant close to both sides of these walls, but changes as the wall is crossed. This phenomenon is hence known as _[[wall crossing]]_.
+
+The purely mathematical motivation for these definitions is, to a large extent, just their intrinsic richness. The concept finds its meaning in the concept of stability of [[D-branes]] in [[string theory]] and was abstracted from informal considerations about [[B-branes]] of the [[B-model]] [[topological string]] due to ([Douglas-Fiol-Romerlsberger 00](#DouglasFiolRomerlsberger00)) and followups ("$\Pi$-stability"). 
+
+This [[string theory|string-theoretic]] interpretation also sheds light on the older notion of [[slope of a coherent sheaf|slope]]-[[stable coherent sheaf|stability of coherent sheaves]], we discuss this [below](#AsStabilityOfBPSDBranes).
+
+### As stability of BPS D-branes
+ {#AsStabilityOfBPSDBranes}
+
+Let $X$ be some [[space]], to be thought of as [[spacetime]]. A [[coherent sheaf]] $E$ over $X$ may be thought of as an [[abelian sheaf]] of [[sections]] of a kind of  [[complex vector bundle]] over $X$, whose [[fiber]] [[dimension]] is allowed to jump in some controlled way.
+
+When considering [[D-branes]] on $X$, such coherent sheaves/vector bundles appear as the [[Chan-Paton gauge fields]] on the D-brane.
+
+From this perspective, the [[rank of a vector bundle|rank]] 
 
 $$
-  A \leftrightarrow B \oplus C
-$$
+  rank(E)
+  \;\in\;
+  \mathbb{N}
+$$ 
 
-by which a brane of type $A$ may decay into a brane of type B and a brane of type C (much like a [[chemical reaction]]), this is witnessed by the fact that there is a [[homotopy fiber sequence]] (a distinguished triangle in the [[triangulated category]]) of the form
+of $E$ is the number of coincident D-branes. The [[D-branes]] have a fixed [[tension]] and hence a fixed [[mass]]-density, so that the total [[mass]] of the D-branes corresponding to $E$ is proportional to this rank. Ignoring constant the proportionality factor, we make this explicit by re-writing the rank as
 
 $$
-  B \longrightarrow A \longrightarrow C
+  M(E)
+  \;\coloneqq\;
+  rank(E)
   \,.
 $$
 
-(See [Aspinwall 04](#Aspinwall04), search the document for the keyword "decay".)
+In addition to their mass, the D-branes carry [[charge]], called [[RR-field|RR-charge]]. This is a generalization of the classical [[magnetic charge]] known from [[Dirac charge quantization]]. As explained there, magnetic charge reflected in a [[complex line bundle]], as sourced by magnetic [[monopoles]] ([[D0-branes]]) is measured by the [[first Chern class]]  $c_1(E)$. In generalization of this, the total [[D-brane charge]] reflected in a [[Chan-Paton gauge field]] $E$ is proportional its [[Chern character]] $ch(E)$.
 
-Mathematically such a [[homotopy fiber sequence]] in a [[triangulated category]] precisely expresses the fact that $A$ is a "twisted [[direct sum]]" of $B$ and $C$ ([[extension]], [[semidirect product]]), hence much like the plain [[direct sum]], but with some "interaction" included.
+In either case, we denote the resulting charge by 
 
-In addition there are then _Bridgeland stability conditions_ on such [[triangulated categories]] of topological D-branes, which determine which of these reaction processes lead to stable compounds (whence the term!), i.e. whether, in the above example, the brane of type $A$ will really decay into branes of type B and C, or if conversely the latter will fuse. (See again [Aspinwall 04](#Aspinwall04), search the document for the keyword "stability".)
+$$
+  Q(E)
+  \;=\;
+  \text{Chern class/Chern character of}\, E
+$$
 
+Accordingly, [[D-branes]] have a _charge density_ proportional to
+
+$$
+   ChargeDensity(E) \;\coloneqq\; Q(E)/M(E)
+  ,.
+$$
+
+
+For instance if $E$ is a vector bundle, thought of as the gauge bundle on a D-brane locus, then its _rank_ is the number of coincident D-branes at that loci, each of which has the same [[tension]], so that, up to some proportionality factor
+
+$$
+  M(E) \;=\; rank(E)
+$$
+
+in this case. Moreover, these D-branes carry a charge measured by their Chern-character. In lowest degree this is their first Chern class $c_1(E)$, which is literally the magnetic charge they carry, as identified by Dirac in 1930:
+
+$$
+   Q(E) \;=\; \int c_1(E)
+  \,.
+$$
+
+So we learn that what is known as the _[[slope of a vector bundle]]_ is really the _charge density_ that it represents when regarded as a D-brane Chan-Paton gauge field 
+
+$$
+  ChargeDensity(E) \;\coloneqq\; Q(E)/M(E)  \;=\; Slope(E)
+  \,.
+$$
+
+This is really what Bridgeland stability functions generalize, assignment of charge and mass:
+
+$$
+  Z(E) \;=\; ( Q(E), M(E) ) \in \mathbb{R}^2
+  \,.
+$$
+
+Now, to see what this has to do with stability:
+
+The stable branes ([[BPS states]]) are supposed to be those that have maximal charge for given mass, hence the stable objects are those that _maximize charge density_. (The "[[extremal black holes]]")  So if  
+
+$$
+  e \subset E
+$$ 
+
+is a subobject with 
+
+$$
+  \frac{Q(e)}{M(e)}
+  \lt 
+   \frac{ Q(E) }{ M(E) }
+$$
+
+this means that $e$ can increase its charge density by forming a bound state to be come an $E$.
+
+So $e$ is less stable when all by itself than as a constituent of $E$, hence that $E$ cannot be further stabilized by splitting off an $e$.
+
+That's the condition of $\mu$-stability/$\Pi$-stability/Bridgeland stability.
 
 
 
@@ -272,6 +357,11 @@ The space of stability conditions $Stab(X)$ has a locally finite wall and chambe
 
 A motivating example for the concept of Bridgeland stability is the following classical notion.
 
++-- {: .num_example #SlopeStability}
+###### Example
+**([[slope of a coherent sheaf|slope]]-[[stable coherent sheaf|stability of coherent sheaves]])**
+
+
 Let $X$ be a non-singular, [[algebraic curve|projective curve]] over $\mathbb{C}$. Let $\mathcal{A}=Coh(X)$ be the [[category]] of [[coherent sheaves]] on $X$. 
 
 In this case the standard stability function (Def. \ref{StabilityFunction}) is 
@@ -297,7 +387,10 @@ When constructing a [[moduli space]] of vector bundles using [[geometric invaria
 
 One can immediately see that a [[vector bundle]]/[[coherent sheaf]] is [[slope of a vector bundle|slope]] (semi-)[[stable vector bundle|stable]] if and only if it is (semi-)stable with respect to this stability function (eq:StandardStabilityFunctionForVectorBundles). 
 
+=--
+
 Thus Bridgeland stability generalizes the classical notions of [[stable vector bundle|stability of vector bundles]].
+
 
 
 ### Over resolutions of ADE-singularities
