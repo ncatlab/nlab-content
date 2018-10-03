@@ -1156,7 +1156,7 @@ There is however also [[prime ideals]] in $k[X_1, \cdots, X_n]$ which are not ma
 ###### Proposition
 **([[Spec(Z)]])**
 
-Let $R = \mathbb{Z}$ be the [[commutative ring]] of [[integers]]. Consider the corresponding Zariski [[prime spectrum of a commutative ring|prime spectrum]] (prop. \ref{WellDefinedZariskiTopologyOnSpecR}) $Spec(\mathbb{Z})$.
+Let $R = \mathbb{Z}$ be the [[commutative ring]] of [[integers]]. Consider the corresponding Zariski [[prime spectrum of a commutative ring|prime spectrum]] (prop. \ref{WellDefinedZariskiTopologyOnSpecR}) [[Spec(Z)]].
 
 The [[prime ideals]] of the ring of integers are
 
@@ -1647,7 +1647,7 @@ $$
 
 which evaluates polynomials $f$ at the point $a$, where we have $f(a) = 0$ iff $f \in \mathfrak{m}_a$. 
 
-Of course it need not be the case that all maximal ideals $\mathfrak{m}$ are given by points in this way; for example, the ideal $(x^2 + 1)$ is maximal in $\mathbb{R}[x]$ but is not given by evaluation at a point because $x^2 + 1$ does not vanish at any real point. However, if the [[ground field]] $k$ is [[algebraically closed field|algebraically closed]], then every maximal ideal of $k[x_1, \ldots, x_n]$ is given by evaluation at a point $a = (a_1, \ldots, a_n)$. This result is not completely obvious; it is sometimes called the "weak [[Nullstellensatz]]". 
+Of course it need not be the case that all maximal ideals $\mathfrak{m}$ are given by points in this way; for example, the ideal $(x^2 + 1)$ is maximal in $\mathbb{R}[x]$ but is not given by evaluation at a point because $x^2 + 1$ does not vanish at any real point. However, if the [[ground field]] $k$ is [[algebraically closed field|algebraically closed]], then every maximal ideal of $k[x_1, \ldots, x_n]$ is given by evaluation at a point $a = (a_1, \ldots, a_n)$. This result is not completely obvious; it is sometimes called the _weak [[Nullstellensatz]]_. 
 
 =--
 
