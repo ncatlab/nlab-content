@@ -17,7 +17,7 @@
 
 ## Idea 
 
-The concept of _degree_ of a [[coherent sheaf]] is a generalization of the concept of [[first Chern class]] of a [[line bundle]] (to which it reduces for coherent sheaves of [[sections]] of [[holomorphic line bundles]] over [[Riemann surfaces]] in [[complex analytic geometry]], see at _[first Chern class -- In complex analytic geometry](first+Chern+class#InComplexAnalyticGeometry)_).
+The concept of _degree_ of a [[coherent sheaf]] is a generalization of the concept of [[first Chern class]] of a [[line bundle]], to which it reduces for coherent sheaves of [[sections]] of [[holomorphic line bundles]] over [[Riemann surfaces]] in [[complex analytic geometry]] (see at _[first Chern class -- In complex analytic geometry](first+Chern+class#InComplexAnalyticGeometry)_).
 
 ## Definition
 
@@ -41,9 +41,11 @@ of the [[de Rham cohomology|de Rham representative]] of the actual [[first Chern
 
 ## Related concepts
 
+* [[rank of a coherent sheaf]]
+
 * [[slope of a coherent sheaf]]
 
-* [[stable vector bundle]]
+* [[stable coherent sheaf]], [[Bridgeland stability condition]]
 
 ## References
 
