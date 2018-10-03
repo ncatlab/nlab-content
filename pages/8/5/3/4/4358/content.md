@@ -17,6 +17,11 @@
 
 ## Definition
 
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/SomePrimes.jpg" width="60"/>
+</div>
+
 A _prime number_ is a [[natural number]] which cannot be written as a [[multiplication|product]] of two smaller numbers, hence a natural number greater than 1, which is [[division|divisible]] only by 1 and by itself.
 
 This means that every [[natural number]] $n \in \mathbb{N}$ is, up to re-ordering of factors, _uniquely_ expressed as a product of a tuple of prime numbers:
@@ -29,6 +34,7 @@ This is called the _prime factorization_ of $n$.
 
 Notice that while the number $1 \in \mathbb{N}$ is, clearly, only divisible by one and by itself, hence might look like it deserves to be counted as a prime number, too, this would break the uniqueness of this prime factorization. In view of the general phenomenon in classifications in [[mathematics]] of some objects being _[[too simple to be simple]]_ one could say that 1 is "too prime to be prime".
 
+However, historically, some authors did count 1 as a prime number, see e.g. [Roegel 11](#Roegel11).
 
 
 ## Relation to ideals and arithmetic geometry
@@ -82,6 +88,16 @@ see at _[[prime number theorem]]_
 * [[prime geodesic]]
 
 * [[Bertrand's postulate]]
+
+## References
+
+For historical discussion see
+
+* {#Roegel11} Denis Roegel, _A reconstruction of Lehmer's table of primes (1914)_, 2011 ([pdf](http://locomat.loria.fr/lehmer1914/lehmer1914doc.pdf))
+
+See also
+
+* Wikipedia, _[Prime number](https://en.wikipedia.org/wiki/Prime_number)_
 
 [[!redirects prime number]]
 [[!redirects prime numbers]]
