@@ -1,3 +1,4 @@
+[[!redirects slope of line]]
 
 > This entry is about the concept in elementary [[geometry]]. For other notions of _[[slope]]_ see there.
 
