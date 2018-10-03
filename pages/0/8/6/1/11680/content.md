@@ -15,6 +15,14 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+As the concept of _[[coherent sheaf]]_ is a generalization of that of ([[complex vector bundle|complex]], [[algebraic vector bundle]]) [[vector bundle]], the concept of _rank_ of a coherent sheaf is the corresponding generalization of that of _[[rank of a vector bundle]]_.
+
 ## Definition
 
 e.g. ([Huybrechts-Lehn 96, def. 1.2.2](#HuybrechtsLehn96))
@@ -25,7 +33,7 @@ e.g. ([Huybrechts-Lehn 96, def. 1.2.2](#HuybrechtsLehn96))
 
 * [[slope of a coherent sheaf]]
 
-* [[stable coherent sheaf]]
+* [[stable coherent sheaf]], [[Bridgeland stability condition]]
 
 ## References
 
