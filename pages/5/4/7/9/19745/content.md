@@ -19,6 +19,8 @@
 
 **$\beta$-rings** are a kind of [[commutative ring]]. They may be seen as collections of integral linear combinations of generalized symmetric powers defined on [[Burnside rings]].
 
+They are completely unrelated to [[relational beta-modules]].
+
 ## Related concepts
 
 * [[lambda-ring]]
