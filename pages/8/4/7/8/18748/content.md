@@ -81,6 +81,8 @@ In [[microlocal analysis]] the _[[wave front set]]_ of a [[distribution]] record
 
 ## Related concepts
 
+* [[slope of a line]]
+
 * [[norm]], [[length]], [[absolute value]]
 
 * [[wave vector]], [[orientation]], [[bivector]]
