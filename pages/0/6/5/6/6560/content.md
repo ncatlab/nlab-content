@@ -80,6 +80,8 @@ In many classical applications of the gradient in [[vector analysis]], the Riema
 
   * [[symplectic gradient]]
 
+* [[slope of a line]]
+
 * [[Hamiltonian flow]]
 
 * [[curl]]
