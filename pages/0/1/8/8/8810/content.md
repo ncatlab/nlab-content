@@ -20,11 +20,18 @@
 
 ## Idea
 
-A [[vector bundle]] (typically considered in [[complex-analytic geometry]] or [[algebraic geometry]]) is called _(semi-)stable_ if it is a _[[GIT-stable point|(semi-)stable point]]_ in the [[moduli space of bundles]]. Under suitable conditions this is equivalent to a certain [[inequality]] on the [[slope of a coherent sheaf|slopes]] of the sub-bundles, and this inequality is what tends to be stated as the definition of stability of vector bundles. 
+A [[vector bundle]] (typically considered in [[complex-analytic geometry]] or [[algebraic geometry]]) is called _(semi-)stable_ if it is a _[[GIT-stable point|(semi-)stable point]]_ in the [[moduli space of bundles]] in the sense of [[geometric invariant theory]]. 
+
+Under suitable conditions this is equivalent to a certain [[inequality]] on the [[slope of a coherent sheaf|slopes]] of the sub-bundles (see [below](#OverARiemannSurface)), and this inequality is what tends to be stated as the definition of stability of vector bundles.
+
+For more discussion (informal and formal) of this concept of stability see at _[[Bridgeland stability condition]]_.
+
+
 
 ## Definition
 
 ### Over a Riemann surface / over an algebraic curve
+ {#OverARiemannSurface}
 
 For $\Sigma$ a [[Riemann surface]], a [[complex vector bundle]] $E \to \Sigma$ over $\Sigma$ is called **(slope-)stable** if for all non-trivial subbundles $K \hookrightarrow E$ the [[inequality]]
 
@@ -62,7 +69,7 @@ e.g. ([Huybrechts-Lehn 96, example 1.2.10](#HuybrechtsLehn96))
 ### Relation to GIT-stability 
  {#RelationToGITStability}
 
-The slope-(semi-)stable vector bundles are essentially the [[stable point|(semi-)stable points]] in the sense of [[geometric invariant theory]] in the [[moduli space of bundles]]. The precise statement is reviewed for instance in ([Saiz 09, section 2.3](#Saiz09).
+The slope-(semi-)stable vector bundles are essentially the [[stable point|(semi-)stable points]] in the sense of [[geometric invariant theory]] in the [[moduli space of bundles]]. The precise statement is discussed in ([King 94](#King94)) reviewed for instance in ([Saiz 09, section 2.3](#Saiz09).
 
 
 ### Relation to connections
@@ -75,7 +82,7 @@ Still more generally, the [[Kobayashi-Hitchin correspondence]] relates semi-stab
 
 ### Relation to Bridgeland stability conditions
 
-Slope-stability of vector bundles is a special case of a [[Bridgeland stability condition]], see [there](Bridgeland+stability+condition#SlopeStabilityOfVectorBundles) For review see e.g. ([Engenhorst 14, sections 3 and 4](#Engenhorst14)).
+Slope-stability of vector bundles is a special case of a [[Bridgeland stability condition]], see [there](Bridgeland+stability+condition#SlopeStabilityOfVectorBundles) For review see e.g. ([Engenhorst 14, sections 3 and 4](#Engenhorst14)) and see [King 94](#King94).
 
 ## Related concepts
 
@@ -114,6 +121,13 @@ A textbook account is in
 
 * {#HuybrechtsLehn96} [[Daniel Huybrechts]], [[Manfred Lehn]], _The Geometry of the Moduli Spaces of Sheaves_, 1996 ([[HuybrechtsLehn.pdf:file]])
 
+More discussion with regards to [[geometric invariant theory]] and [[Bridgeland stability conditions]] is in
+
+* {#King94} [[Alastair King]], _Moduli of representations of finite dimensional algebras_, The Quarterly Journal of Mathematics 45.4 (1994): 515-530 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.623.649&rep=rep1&type=pdf))
+
+* {#Engenhorst14} Jan Engenhorst, _Bridgeland Stability Conditions in Algebra, Geometry and Physics_, 2014 ([pdf](https://www.freidok.uni-freiburg.de/fedora/objects/freidok:9595/datastreams/FILE1/content))
+
+
 See also
 
 * Paolo de Bartolomeis, Gang Tian, _Stability of complex vector bundles_, Journal of Differential Geometry, Vol. 43, No. 2 (1996) ([pdf](http://www.intlpress.com/JDG/archive/1996/43-2-231.pdf))
@@ -122,9 +136,6 @@ See also
 
 * {#Saiz09} Alfonso Zamora Saiz, _On the stability of vector bundles_, Master thesis 2009 ([[SaizStableBundles.pdf:file]])
 
-Discussion in the context of [[Bridgeland stability conditions]]
-
-* {#Engenhorst14} Jan Engenhorst, _Bridgeland Stability Conditions in Algebra, Geometry and Physics_, 2014 ([pdf](https://www.freidok.uni-freiburg.de/fedora/objects/freidok:9595/datastreams/FILE1/content))
 
 
 Discussion for [[equivariant vector bundles]] is in 
