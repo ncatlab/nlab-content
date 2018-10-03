@@ -1,6 +1,17 @@
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Overview
 
-There are many examples that the objects of additive categories (abelian, abelian tensor categories, triangulated etc.) are equipped with **slope filtrations**, which are labelled by **real** numbers. Slope is here related to stability. Stokes phenomenon in the study of asymptotics of differential equations can be viewed as a similar structure on the [[D-module]]s (or by the [[Riemann-Hilbert correspondence]], on the object in certain category  of monodromy data), which correspond to the solutions of differential equations. 
+There are many examples that the objects of [[additive categories]] (abelian, abelian tensor categories, triangulated etc.) are equipped with **slope filtrations**, which are labelled by **real** numbers. 
+
+Slope is here related to [[Bridgeland stability]]. For instance [[stable coherent sheaf|stability of coherent sheaves]] in the case of [[slope of coherent sheavees]]
+
+The _Stokes phenomenon_ in the study of asymptotics of differential equations may be regarded as a similar structure on the [[D-modules]] (or by the [[Riemann-Hilbert correspondence]], on the object in certain category  of monodromy data), which correspond to the solutions of differential equations. 
 
 See also [[wall crossing]], [[Stokes phenomenon]], [[Newton polygon]]. 
 
@@ -20,6 +31,5 @@ The story of slope filtrations is important for the construction of various modu
 
 * L. Katzarkov, [[Maxim Kontsevich|M. Kontsevich]], T. Pantev, _Hodge theoretic aspects of mirror symmetry_, [arxiv/0806.0107](http://arxiv.org/abs/0806.0107)
 
-* M. Kontsevich, Y. Soibelman, _Motivic Donaldson-Thomas invariants: summary of results_, [0910.4315](http://arxiv.org/abs/0910.4315)
+* [[Maxim Kontsevich]], [[Yan Soibelman]], _Motivic Donaldson-Thomas invariants: summary of results_, [0910.4315](http://arxiv.org/abs/0910.4315)
 
-[[!redirects slope]]
