@@ -141,6 +141,8 @@ For details on this comparison map see at _[[permutation representation]]_, [thi
 
 * [[equivariant stable cohomotopy]]
 
+* [[beta-ring]]
+
 ## References
 
 The concept was named by Dress, following
