@@ -25,6 +25,8 @@ A [[geometric morphism]] $f\colon E\to F$ between [[topoi]] is **localic** if ev
 
 * Any [[geometric embedding]] is localic.
 
+* Any [[étale geometric morphism]] is localic. From the [[internal language|point of view]] of a base topos $F$, an étale geometric morphism $F/A \to F$ looks like the unique geometric morphism $\Sh(A) \to Set$ attached to the topos of sheaves over the discrete locale $A$.
+
 * If $g:C\to D$ is a [[faithful functor]] between [[small categories]], then the induced geometric morphism $Set^C \to Set^D$ is localic.
 
 
