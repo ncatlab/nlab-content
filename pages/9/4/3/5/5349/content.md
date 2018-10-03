@@ -61,6 +61,14 @@ The properties of functors with rank are discussed in section 5.5 of Borceux ([1
 
 * [[rank of a Lie group]]
 
+* [[rank of a coherent sheaf]], 
+
+  [[degree of a coherent sheaf]]
+
+  [[slope of a coherent sheaf]]
+
+* [[stable coherent sheaf]], [[Bridgeland stability condition]]
+
 ## Reference
 
 * {#Borceux2}[[Francis Borceux]], _Handbook of Categorical Algebra vol. 2_ , Cambridge UP 1994.
