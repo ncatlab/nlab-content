@@ -10,22 +10,21 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-In [[number theory]], the _Goldbach conjecture_ is the [[conjecture]] that
+In [[number theory]], the _Goldbach conjecture_ is the following [[conjecture]].
 
-_Every [[even number]] great than 2 is the [[sum]] of two [[prime numbers]]_.
+\begin{conjecture} Every [[even number]] greater than 2 is the [[sum]] of two [[prime numbers]]. \end{conjecture}
 
 ## Properties
 
-### Relation to Betrand's postulate
+### Relation to Bertrand's postulate
 
-It was observed in [Ricardo 05](#Ricardo05) that Goldbach conjecture implies  a simple proof of [[Bertrand's postulate]] (which has been proven, independently of the Goldbach conjecture). See [there](Bertrand's+postulate#ProofFromGoldbach) for details.
+It was observed in [Ricardo 05](#Ricardo05) that the Goldbach conjecture implies a simple proof of [[Bertrand's postulate]] (which has been proven, independently of the Goldbach conjecture). See [there](Bertrand's+postulate#ProofFromGoldbach) for details.
 
 ## References
 
