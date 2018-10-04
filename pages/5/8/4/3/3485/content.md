@@ -461,7 +461,7 @@ American Journal of Mathematics Vol. 93, No. 4 (Oct., 1971), pp. 857-866 ([jstor
 
 See also
 
-* {#Montaldi} James Montaldi, _[Real representations of finite groups](http://www.maths.manchester.ac.uk/~jm/wiki/Representations/Representations)_
+* {#Montaldi} [[James Montaldi]], _[Real representations of finite groups](http://www.maths.manchester.ac.uk/~jm/wiki/Representations/Representations)_
 
 * {#PlanetMathRepAndBurn} [[PlanetMath]], _[representation ring vs burnside ring](https://planetmath.org/RepresentationRingVsBurnsideRing)_
 
