@@ -15,7 +15,7 @@
 
 ## Idea
 
-The _octahedral group_, a [[finite group]], is the group of [[symmetries]] of an [[octahedron]].
+The _octahedral group_, a [[finite group]], is the group ofn [[symmetries]] of an [[octahedron]].
 
 As a symmetry group of one of the [[Platonic solids]], the octahedral group participates in one of the three exceptional entries cases of the _ADE pattern_:
 
@@ -58,13 +58,11 @@ $$
 
 ## Properties
 
-### Isomorphisms
+### Basic properties
 
-The [[subgroup]] of the octahedral group on the [[orientation]]-preserving symmetries is [[isomorphism|isomorphic]] to the [[symmetric group]] $S_4$. This also happens to be the full [[tetrahedral group]].
 
-### Group order
 
-[[order of a group|group order]]:
+The [[order of a group|group order]] is:
 
 
 $\vert O_h\vert = 48$
@@ -74,7 +72,7 @@ $\vert O \vert = 24$
 $\vert 2O \vert = 48$
 
 
-### Subgroups
+The [[subgroup]] of the octahedral group on the [[orientation]]-preserving symmetries is [[isomorphism|isomorphic]] to the [[symmetric group]] $S_4$. This also happens to be the full [[tetrahedral group]].
 
 
 +-- {: .num_prop #QuaternionSubgroup}
@@ -93,6 +91,53 @@ In fact the only [[finite subgroups of SU(2)]] which contain $2 D_4 =Q_8$ as a p
 =--
 
 See [this Prop](quaternion+group#InclusionInLargerFininteSubgroupsOfSU2) at _[[quaternion group]]_.
+
+
+### Character table
+
+[[character table of 2O]]
+
+**[[linear representation theory]] of [[binary octahedral group]] $2 O$**
+
+
+$\,$
+
+| [[conjugacy classes]]: |  1 |  -1  |  $i$ | a | c | e | f | g | 
+|------------------------|----|------|------|---|---|---|---|--|
+| their [[cardinality]]: | 1 |  1 | 6  | 8 | 8 | 6 | 6 | 12 |
+
+**[[character table]] over the [[complex numbers]] $\mathbb{C}$**
+
+| [[irrep]]  |  1 |  -1  |  $i$ | a | c | e | f | g | 
+|-----------|----|------|------|---|---|---|---|--|
+| $\rho_1$ | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 
+| $\rho_2$ | 1 | 1 | 1 | 1 | 1 | -1 | -1 | -1 | 
+| $\rho_3$ | 2 | 2 | 2 | -1 | -1 | 0 | 0 | 0 | 
+| $\rho_4$ | 3 | 3 | -1 | 0 | 0 | 1 | 1 | -1 | 
+| $\rho_5$ | 3 | 3 | -1 | 0 | 0 | -1 | -1 | 1 | 
+| $\rho_6$ | 2 | -2 | 0 | 1 | -1 | $\sqrt{2}$ | $-\sqrt{2}$ | 0 | 
+| $\rho_7$ | 2 | -2 | 0 | 1 | -1 | $-\sqrt{2}$ | $\sqrt{2}$ | 0 | 
+| $\rho_8$ | 4 | -4 | 0 | -1 | 1 | 0 | 0 | 0 | 
+
+ 
+**[[character table]] over the [[real numbers]] $\mathbb{R}$**
+
+| [[irrep]]  |  1 |  -1  |  $i$ | a | c | e | f | g | 
+|-----------|----|------|------|---|---|---|---|--|
+| $\rho_1$ | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 
+| $\rho_2$ | 1 | 1 | 1 | 1 | 1 | -1 | -1 | -1 | 
+| $\rho_3$ | 2 | 2 | 2 | -1 | -1 | 0 | 0 | 0 | 
+| $\rho_4$ | 3 | 3 | -1 | 0 | 0 | 1 | 1 | -1 | 
+| $\rho_5$ | 3 | 3 | -1 | 0 | 0 | -1 | -1 | 1 | 
+| $\rho_6 \oplus \rho_6$ | 4 | -4 | 0 | 2 | -2 | $2 \sqrt{2}$ | $-2 \sqrt{2}$ | 0 | 
+| $\rho_7 \oplus \rho_7$ | 4 | -4 | 0 | 2 | -2 | $-2 \sqrt{2}$ | $2 \sqrt{2}$ | 0 | 
+| $\rho_8 \oplus \rho_8$ | 8 | -8 | 0 | -2 | 2 | 0 | 0 | 0 | 
+
+
+
+**References**
+
+* [[James Montaldi]], _[Real representations -- Binary cubic -- 2O](http://www.maths.manchester.ac.uk/~jm/wiki/Representations/BinaryCubic#BinOct)_
 
 
 ### Group cohomology
