@@ -28,7 +28,7 @@ A _stability condition_ ([Bridgeland 02](#Bridgeland02)) on a [[triangulated cat
 
 Indeed, in the degenerate case that $\mathcal{D}$ is the [[derived category]] of a [[semisimple category]], the stable objects are just the [[irreducible objects]].
 
-In the example that $\mathcal{D}$ being the bounded [[derived category]] of [[coherent sheaves]] on some [[complex manifold]], the general notion of stability reduces to the classical notion of [[slope of a coherent sheaf|slope]]-[[stable coherent sheaf|stability of coherent sheaves]] ("$\mu$-stability", see Example \ref{SlopeStability} below). 
+In the case where $\mathcal{D}$ is the bounded [[derived category]] of [[coherent sheaves]] on some [[complex manifold]], the general notion of stability reduces to the classical notion of [[slope of a coherent sheaf|slope]]-[[stable coherent sheaf|stability of coherent sheaves]] ("$\mu$-stability", see Example \ref{SlopeStability} below). 
 
 In other examples Bridgeland stability reproduces the derived analogue of [[David Mumford]]'s concept of [[GIT-stable point|stability]] in [[geometric invariant theory]] ([King 94](#King94)).
 
@@ -66,7 +66,7 @@ $$
 
 of $E$ is the number of coincident D-branes (there may be [[fractional D-branes]], and, once we pass to the [[derived category]], there may be [[anti D-branes]], so that this number need not be a [[positive integer]]). 
 
-The [[D-branes]] have a fixed [[tension]] and hence a fixed [[mass]]-density, so that the total [[mass]] of the D-branes corresponding to $E$ is proportional to this rank. Ignoring constant the proportionality factor, we make this explicit by re-writing the rank as
+The [[D-branes]] have a fixed [[tension]] and hence a fixed [[mass]]-density, so that the total [[mass]] of the D-branes corresponding to $E$ is proportional to this rank. Ignoring the constant proportionality factor, we make this explicit by re-writing the rank as
 
 $$
   M(E)
@@ -116,7 +116,7 @@ $$
   \mathbb{R}^2
 $$
 
-Under this identification the charge density is the [[slope of a line]] of the [[line]] in the [[Cartesian space|Cartesian]] [[plane]] which goes through [[zero]] and through $(M(E), Q(E))$, whence the term _[[slope of a coherent sheaf]]_. But understanding this not as a slope but as a _charge density_ revals why this has anything to do with "stability", as we proceed to explain now.
+Under this identification the charge density is the [[slope of a line]] of the [[line]] in the [[Cartesian space|Cartesian]] [[plane]] which goes through [[zero]] and through $(M(E), Q(E))$, whence the term _[[slope of a coherent sheaf]]_. But understanding this not as a slope but as a _charge density_ reveals why this has anything to do with "stability", as we proceed to explain now.
 
 First notice that, alternatively, we may identify the [[real numbers|real]] [[plane]] with the [[complex plane]] and thus unify the [[mass]] and [[charge]] of [[D-branes]] into a single [[complex number]]
 
@@ -150,7 +150,7 @@ $$
   \text{ maximum charge density }\, Q/M   
 $$
 
-Now it is plausible that a D-brane $E$ maximizes its potential charge density if removing any part $e$ of it revals that $e$ by itself has lower charge densits.
+Now it is plausible that a D-brane $E$ maximizes its potential charge density if removing any part $e$ of it reveals that $e$ by itself has lower charge density.
 
 More formally, $E$ should maximize its charge density $Q(E)/M(E)$ and hence be _stable_ if for all sub-parts
 
@@ -166,7 +166,7 @@ hence for all _[[subobjects]]_ in the relevant [[category]], such as that of [[c
    \frac{ Q(E) }{ M(E) }
 \]
 
-Conversely, this means that a D-brane state $e$ can increase its charge density, hence get close to beiung BPS and hence stable, by forming a [[bound state]] to be come an $E$.
+Conversely, this means that a D-brane state $e$ can increase its charge density, hence get close to being BPS and hence stable, by forming a [[bound state]] to be come an $E$.
 
 In the case of coherent sheaves, where the D-brane charge density is called the _[[slope of a coherent sheaf]]_ $slope(E) = Q(E)/M(E)$, as above, this says that $E$ is a [[stable coherent sheaf]] precisely if for all [[subobjects]] $e \subset E$ we have
 
