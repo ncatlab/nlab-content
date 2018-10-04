@@ -5,7 +5,7 @@
 
 ## Idea
 
-The [[real number]] $\pi \in \mathbb{R}$ is the [[length]] of one [[hemisphere|hemi-circle]] of the [[unit circle]]. Hence $2 \pi$ is the circumference of the full [[unit circle]].
+The [[real number]] $\pi \in \mathbb{R}$ is the [[length]] of one [[hemisphere|semi-circle]] of the [[unit circle]]. Hence $2 \pi$ is the circumference of the full [[unit circle]].
 
 This number plays a central role in [[trigonometry]], but -- especially via its relation to [[complex analysis]] via [[Euler's formula]] -- it also appears in many other situations.
 
