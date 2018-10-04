@@ -152,5 +152,5 @@ The relation to [[number theory]] and the [[Langlands program]] is discussed in
 
 * [[Robert Langlands]], _Representation theory: Its rise and its role in number theory_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.207.3303))
 
-
+[[!redirects linear representation theory]]
 
