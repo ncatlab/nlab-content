@@ -56,7 +56,7 @@ $$
 But beware that equivariant [[KO]], even of the point, is much richer in higher degree ([Wilson 16, remark 3.34](#Wilson16)). 
 
 
-In fact, [[equivariant KO-theory]] of the point subsumes the [[representation rings]] over the [[real numbers]], the [[complex numbers]] and the [[quaternions]]:
+{#EquivariantKOOfThePoint} In fact, [[equivariant KO-theory]] of the point subsumes the [[representation rings]] over the [[real numbers]], the [[complex numbers]] and the [[quaternions]]:
 
 $$
   KO_G^n(\ast)
