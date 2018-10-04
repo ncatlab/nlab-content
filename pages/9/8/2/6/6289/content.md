@@ -1,5 +1,5 @@
 __Cosma Rohilla Shalizi__ holds Ph.D. in physics 
-from University of Wisconsin and is now an assistant professor in Statistics Department of Carnegie Mellon University and external professor at Santa Fe Institute. 
+from University of Wisconsin and is now an associate professor in Statistics Department of Carnegie Mellon University and external professor at Santa Fe Institute. 
 
 * related entries: [[information geometry]]
 
