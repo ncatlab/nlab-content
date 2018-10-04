@@ -1,8 +1,8 @@
 
 
-**[[linear representation theory]]** of 
+**[[linear representation theory]] of [[binary dihedral group]] $2 D_4$** 
 
-[[binary dihedral group]] $\,$ $2 D_4$  $=$ [[dicyclic group]] $Dic_2$ $=$ [[quaternion group]] $Q_8$
+$=$ [[dicyclic group]] $Dic_2$ $=$ [[quaternion group]] $Q_8$
 
 |  |  |
 |--|--|
@@ -42,4 +42,4 @@ $\,$
 
 * Groupprops, _[Linear representation theory of dicyclic groups](https://groupprops.subwiki.org/wiki/Linear_representation_theory_of_dicyclic_groups)_
 
-* James Montaldi, _[Real representations -- Binary cubic -- Q8](http://www.maths.manchester.ac.uk/~jm/wiki/Representations/BinaryCubic)_
+* [[James Montaldi]], _[Real representations -- Binary cubic -- Q8](http://www.maths.manchester.ac.uk/~jm/wiki/Representations/BinaryCubic)_
