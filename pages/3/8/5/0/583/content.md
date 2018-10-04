@@ -254,7 +254,7 @@ $$
   L = \{  \emptyset \hookrightarrow {*} \}
 $$
 
-consisting only of the two trivial subobjects of $*$, the point itself and the empty set, and the unique inclusion morphism between them. These are classified, respectively, by the [[truth value]]s ${*} \stackrel{false}{\to} \Omega$ and ${*} \stackrel{true}{\to} \Omega$, so that we can also write our [[poset]] of [[subobject]]s of the [[terminal object]] as
+consisting only of the two trivial subobjects of $*$, the point itself and the empty set, and the unique inclusion morphism between them. These are classified, respectively, by the [[truth value]]s ${*} \stackrel{true}{\to} \Omega$ and ${*} \stackrel{false}{\to} \Omega$, so that we can also write our [[poset]] of [[subobject]]s of the [[terminal object]] as
 
 $$
   L = \{  false \to true \}
