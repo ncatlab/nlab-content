@@ -2,7 +2,7 @@
 
 **[[linear representation theory]] of [[binary tetrahedral group]] $2 T$**
 
-[[splitting field]]:  [[cyclotomic field]] $\,$ $\mathbb{Q}(\zeta_3)$ with $\zeta^3 = 1$ 
+let $\mathbb{Q}(\zeta_3)$ be a [[root of unity|third root of unity]], $\zeta^3 = 1$ 
 
 e.g. $\zeta_3 = \tfrac{1}{2}(-1 + \sqrt{3} i)$,
 notice that $\zeta_3 + \zeta_3^2 = 1$
