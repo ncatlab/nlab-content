@@ -39,3 +39,5 @@ $\,$
 **References**
 
 * [[James Montaldi]], _[Real representations -- Binary cubic -- 2T](http://www.maths.manchester.ac.uk/~jm/wiki/Representations/BinaryCubic#BinTet)_
+
+* Bockland, _Character tables and McKay quivers_ ([pdf](https://staff.fnwi.uva.nl/r.r.j.bocklandt/notes/kleinian.pdf))
