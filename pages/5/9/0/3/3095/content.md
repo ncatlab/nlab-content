@@ -30,6 +30,8 @@ Linguists may deploy formal methods to understand grammatical strings of words, 
 
 ## Literature
 
+### Linguistics per se
+
 * diverse materials and corpora can be found at extensive web site
 [The Linguist List](http://www.linguistlist.org)
 * Wikipedia [linguistics](http://en.wikipedia.org/wiki/Linguistics), [philology](https://en.wikipedia.org/wiki/Philology), [phonetics](https://en.wikipedia.org/wiki/Phonetics), [morphology (linguistics)](https://en.wikipedia.org/wiki/Morphology_%28linguistics%29), [syntax](https://en.wikipedia.org/wiki/Syntax), [semantics](https://en.wikipedia.org/wiki/Semantics), [pragmatics](http://en.wikipedia.org/wiki/Pragmatics), [semiotics](https://en.wikipedia.org/wiki/Semiotics), [linguistic typology](https://en.wikipedia.org/wiki/Linguistic_typology), [historical linguistics](https://en.wikipedia.org/wiki/Historical_linguistics), [comparative linguistics](https://en.wikipedia.org/wiki/Comparative_linguistics)
@@ -45,6 +47,12 @@ Linguists may deploy formal methods to understand grammatical strings of words, 
 * George Lakoff, _Women, fire and dangerous things_, 1987
 * Ronald Langacker, _Foundations of cognitive grammar_, vol. 1, 1987, vol. 2, 1991
 * Pieter A. M. Seuren, The logic of language, vol. II of Language from within; (vol. I: Language in cognition) Oxford University Press 2010
+
+### Category theory and linguistics
+
+* [[Joachim Lambek]], _Pregroups and natural language processing_, The Mathematical Intelligencer 28 (2006), 41–48 [pdf](http://www.math.mcgill.ca/rags/JAC/124/Lambek-Pregroups-s.pdf)
+* [[Bob Coecke]], Mehrnoosh Sadrzadeh, Stephen Clark, _Mathematical foundations for a compositional distributional model of meaning_, in the Lambek Festschrift, special issue of Linguistic Analysis, 2010 [arxiv/1003.4394](https://arxiv.org/abs/1003.4394)
+
 
 category: foundations, philosophy
 [[!redirects formal linguistics]]
