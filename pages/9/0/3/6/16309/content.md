@@ -28,5 +28,5 @@ In plain Riemannian geometry there are counter-examples to the possibility of re
 
 * Wikipedia, _[Hearing the shape of a drum](http://en.wikipedia.org/wiki/Hearing_the_shape_of_a_drum)_
 
-
+* Pierre Martinetti, _[Designing the sound of a cut-off drum](https://arxiv.org/pdf/1502.02720.pdf)_
 
