@@ -39,24 +39,34 @@ In general it is necessary to proceed otherwise, however, and to give a specific
 
 ## Examples of presentations
 
-* A standard if somewhat trivial example of a presentation is given by the _standard presentation_ of a group, $G$.  We take $X= \{x_g\mid g\in G,g\neq 1\}$, to be a set in bijective correspondence with the underlying set of $G$. (You can take $X$ equal to that set if you like, but sometimes it is better to have a distinct set, for instance, it make for an easier notation for the description of certain morphisms.) The set of relations will be 
+### The standard presentation
+
+ A standard if somewhat trivial example of a presentation is given by the _standard presentation_ of a group, $G$.  We take $X= \{x_g\mid g\in G,g\neq 1\}$, to be a set in bijective correspondence with the underlying set of $G$. (You can take $X$ equal to that set if you like, but sometimes it is better to have a distinct set, for instance, it make for an easier notation for the description of certain morphisms.) The set of relations will be 
 
 $$R =\{x_g.x_h= x_{gh}\mid g,h \in G\},$$ 
 
 so as a _set_ is just a copy of $G\times G$ as the relations are indexed by pairs of elements of $G$.
 
 
-*  $G$ a cyclic group, $C_n$, of order $n$ has presentation $\langle a : a^n\rangle$.  There are many different functions from the (singleton) set of generators to  $C_n$ that will give a suitable presentation in the fuller sense.
+### [[cyclic group|Cyclic groups]]
 
-*  $S_3$ has a presentation $\langle a,b : a^3, b^2,(a b)^2 \rangle$.
+Cyclic group, $C_n$, of order $n$ has presentation $\langle a : a^n\rangle$.  There are many different functions from the (singleton) set of generators to  $C_n$ that will give a suitable presentation in the fuller sense.
 
-* The [[trefoil knot|trefoil]] [[knot group]] has two useful presentations:
+### The [[symmetric group]] of order 6
+
+  The group of permutations of three letters, $S_3$, has a presentation $\langle a,b : a^3, b^2,(a b)^2 \rangle$. Here $a$b corresponds to the 3-cycle, $(123)$, whilst $b$ corresponds to any transposition.
+
+### [[knot group|Knot groups]] 
+
+ The [[trefoil knot|trefoil]] [[knot group]] has two useful presentations:
 
   * $\langle a,b : a^3= b^2\rangle$, which displays the fact that the trefoil is a (2,3)-[[torus knot]]; and
 
   * $\langle x,y : x y x = y x y\rangle$, which shows the link between this group and the Artin [[braid group]], $Br3$.
 
-* At the entry on [[Coxeter groups]] one finds the following:
+### [[Coxeter groups]]
+
+ At the entry on [[Coxeter groups]] one finds the following:
 
 **Definition** A _Coxeter matrix_ over an index [[set]] $I$ is a symmetric [[matrix]] 
 
@@ -139,7 +149,7 @@ category: group theory
 
 [[!redirects group presentation]]
 [[!redirects group presentations]]
-[[!redirects group presntation]]
+
 [[!redirects presentation of a group]]
 [[!redirects presentations of a group]]
 [[!redirects presentations of groups]]
