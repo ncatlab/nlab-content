@@ -59,15 +59,15 @@ $$
 
 ## Properties
 
-### Isomorphisms
+### Basic properties
 
 The full tetrahedral group is [[isomorphism|Isomorphic]] to the [[symmetric group]] $S_4$ of [[permutations]] of four elements (see _[Full tetrahedral group is isomorphic to S4](http://groupprops.subwiki.org/wiki/Full_tetrahedral_group_is_isomorphic_to_S4)_).
 
 The [[subgroup]] of [[orientation]]-preserving symmetries is isomorphic to the [[alternating group]] $A_4$.
 
-### Group order
 
-[[order of a group|group order]]:
+
+The [[order of a group|group order]] is:
 
 $\vert T_d\vert = 24$
 
@@ -75,7 +75,6 @@ $\vert T\vert = 12$
 
 $\vert 2T\vert = 24$
 
-### Subgroups
 
 +-- {: .num_prop #QuaternionSubgroup}
 ###### Proposition
@@ -94,14 +93,20 @@ In fact the only [[finite subgroups of SU(2)]] which contain $2 D_4 =Q_8$ as a p
 
 See [this Prop](quaternion+group#InclusionInLargerFininteSubgroupsOfSU2) at _[[quaternion group]]_.
 
-### Group cohomology
-
-The [[group cohomology]] of the tetrahedral group is discussed in [Groupprops](#Groupprops), [Kirdar 13](#Kirdar13).
 
 ### As part of the ADE pattern
 
 [[!include ADE -- table]]
 
+
+### Character table
+
+[[!include character table of 2T]]
+
+
+### Group cohomology
+
+The [[group cohomology]] of the tetrahedral group is discussed in [Groupprops](#Groupprops), [Kirdar 13](#Kirdar13).
 
 
 ## References
@@ -110,14 +115,20 @@ Discussion in the context of [[classification of finite rotation groups]] goes b
 
 * {#Klein1884} [[Felix Klein]], chapter I.4 of _Vorlesungen über das Ikosaeder und die Auflösung der Gleichungen vom fünften Grade_, 1884, translated as _Lectures on the Icosahedron and the Resolution of Equations of Degree Five_ by George Morrice 1888, [online version](https://archive.org/details/cu31924059413439)
 
+Exposition is in 
 
-* {#Kirdar13} Mehmet Kirdar, _On The K-Ring of the Classifying Space of the Symmetric Group on Four Letters_ ([arXiv:1309.4238](http://arxiv.org/abs/1309.4238))
+* Tony Phillips, _[The Geometry of the Binary Tetrahedral Group in SU(2)](http://www.math.stonybrook.edu/~tony/bintet/)_
+
+
+Discussion of [[higher central extension]] to [[Platonic 2-groups]] is in
 
 * {#Epa10} [[Narthana Epa]], _Platonic 2-groups_, 2010 ([pdf](http://www.ms.unimelb.edu.au/documents/thesis/Epa-Platonic2-Groups.pdf))
 
 * {#EpaGanter16} [[Narthana Epa]], [[Nora Ganter]], _Platonic and alternating 2-groups_, ([arXiv:1605.09192](http://arxiv.org/abs/1605.09192))
 
 See also
+
+* {#Kirdar13} Mehmet Kirdar, _On The K-Ring of the Classifying Space of the Symmetric Group on Four Letters_ ([arXiv:1309.4238](http://arxiv.org/abs/1309.4238))
 
 * Wikipedia, _[Tetrahedral symmetry](https://en.wikipedia.org/wiki/Tetrahedral_symmetry)_
 
