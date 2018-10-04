@@ -15,6 +15,8 @@
 
 ## Idea
 
+### Dihedral groups
+
 The dihedral group, $D_{2n}$, is a [[finite group]] of [[order of a group|order]] $2n$. It may be defined as the [[symmetry group]] of a regular $n$-gon. 
 
 For instance $D_6$ is the symmetry group of the equilateral triangle and is [[isomorphism|isomorphic]] to the [[symmetric group]], $S_3$.
@@ -24,7 +26,6 @@ For $n \in \mathbb{N}$, $n \geq 1$, the dihedral group $D_{2n}$ is thus the [[su
 Under the further embedding $O(2)\hookrightarrow SO(3)$ the (cyclic and) dihedral groups are precisely those [[finite subgroups of SO(3)]] that, among their [[ADE classification]], are not in the exceptional series. 
 
 (see e.g. [Greenless 01, section 2](#Greenless01))
-
 
 
 +-- {: .num_remark #NotationConvention}
@@ -40,6 +41,18 @@ There are two different conventions for numbering the dihedral groups.
    Also beware that there is yet another group denoted $D_n$ mentioned at _[[Coxeter group]]_.
 
 =--
+
+
+### Binary dihedral/dicyclic groups
+
+Under the further lift through the [[spin group]]-[[double cover]] map $SU(2) \simeq Spin(3) \to SO(3)$, the dihedral group $D_{2n}$ is covered by the _binary dihedral group_, also known as the _dicyclic group_ and denoted
+
+$$
+  2 D_{2n} = Dic_n
+$$
+
+
+
 
 ## Properties
 
@@ -73,7 +86,7 @@ It is a standard example considered in elementary [[combinatorial group theory]]
 The first binary dihedral group $2 D_4$ is [[isomorphism|isomorphic]] to the [[quaternion group]] of order 8:
 
 $$
-  2 D_4 \simeq Q_8
+  2 D_4 (= Dic_2) \simeq Q_8
   \,.
 $$
 
@@ -107,6 +120,12 @@ See also
 
 * Wikipedia, _[Binary dihedral group](https://en.wikipedia.org/wiki/Dicyclic_group#Binary_dihedral_group)_
 
+* Wikipedia, _[Dicyclic group](https://en.wikipedia.org/wiki/Dicyclic_group)_
+
+* Groupprops, _[Dicyclic group](https://groupprops.subwiki.org/wiki/Dicyclic_group)_
+
+* Groupprops, _[Linear representation theory of dicyclic groups](https://groupprops.subwiki.org/wiki/Linear_representation_theory_of_dicyclic_groups)_
+
 * {#Groupprops} Groupprops, _[Group cohomology of dihedral group:D8](http://groupprops.subwiki.org/wiki/Group_cohomology_of_dihedral_group:D8)_
 
 
@@ -114,3 +133,7 @@ See also
 
 [[!redirects binary dihedral group]]
 [[!redirects binary dihedral groups]]
+
+[[!redirects dicyclic group]]
+[[!redirects dicyclic groups]]
+
