@@ -49,6 +49,7 @@ If you would like to participate, simply add your name to the list and join the 
 * [[Stephan Spahn]]
 * [[Matthew Weaver]]
 * [[Jonathan Weinberger]]
+* [[tslil clingman]]
 
 ## Plans
 
