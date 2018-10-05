@@ -39,6 +39,8 @@ is finitely generated over $\mathbb{Z}[\alpha]$ and therefore, since $\alpha$ is
 
 * The algebraic integers in the [[Gaussian numbers]] are the [[Gaussian integers]].
 
+* [[golden ratio]]
+
 ## Related concepts
 
 * [[ring of integers]]
