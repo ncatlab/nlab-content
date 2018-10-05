@@ -54,7 +54,11 @@ Cyclic group, $C_n$, of order $n$ has presentation $\langle a : a^n\rangle$.  Th
 
 ### The [[symmetric group]] of order 6
 
-  The group of permutations of three letters, $S_3$, has a presentation $\langle a,b : a^3, b^2,(a b)^2 \rangle$. Here $a$b corresponds to the 3-cycle, $(123)$, whilst $b$ corresponds to any transposition.
+  The group of permutations of three letters, $S_3$, has a presentation 
+
+$$\langle a,b : a^3, b^2,(a b)^2 \rangle.$$
+
+ Here $a$ corresponds to the 3-cycle, $(123)$, whilst $b$ corresponds to any transposition.
 
 ### [[knot group|Knot groups]] 
 
