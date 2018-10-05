@@ -20,7 +20,7 @@ There are many notions of a character for an algebraic structure, often topologi
 
 ### Character on a group
 
-A character on a ([[discrete group|discrete]]) [[group]] $G$ (a _[[group character]]_) is a [[group homomorphism]] from $G$ the [[group of units]] $k^\times$ of the [[ground field]] $k$:
+A _multiplicative character_ on a ([[discrete group|discrete]]) [[group]] $G$ (a _[[group character]]_) is a [[group homomorphism]] from $G$ the [[group of units]] $k^\times$ of the [[ground field]] $k$:
 
 $$
   \chi
