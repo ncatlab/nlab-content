@@ -1,4 +1,8 @@
 
+> This entry is about the concept in [[group theory]]. See at _[[order]]_ for the concept in [[order theory]].
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -96,3 +100,5 @@ See also
 [[!redirects order of an element]]
 
 [[!redirects order of a group element]]
+
+[[!redirects group order]]
