@@ -275,7 +275,4 @@ For more on permutation patterns, see:
 
 [[!redirects permutation]]
 [[!redirects permutations]]
-[[!redirects permutation group]]
-[[!redirects permutation groups]]
-[[!redirects symmetric group]]
-[[!redirects symmetric groups]]
+
