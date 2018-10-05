@@ -1,4 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+
+
 Several numbers are named after [[Euler]].
 
 # Contents
@@ -72,9 +84,14 @@ where $\log$ is the natural [[logarithm]]. It arises for example in discussions 
 
 ## Related concepts
 
+* [[exponential map]]
+
 * [[e]]
 
-* [[exponential map]]
+* [[pi]]
+
+* [[golden ratio]]
+
 
 [[!redirects Euler number]]
 [[!redirects Euler numbers]]
