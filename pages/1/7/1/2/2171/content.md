@@ -367,20 +367,25 @@ $$\sigma_i(x_i) = x_{i+1}, \sigma_i(x_{i+1}) = x_{i+1}^{-1} x_i x_{i+1}, \; \els
 We will look at such groups for small values of $n$.
 
 +-- {: .num_example}
+
 ###### The group $Br_1$
 
 By default, $Br_1$ has no generators and no relations, so is trivial.
 =--
 
 +-- {: .num_example}
+
 ###### The group $Br_2$
 
 By default, $Br_2$ has one generator and no relations, so is infinite cyclic.
 
 =--
 
+
 +-- {: .num_example}
+
 ###### The group $Br_3$
+
 (We will simplify notation writing $u = y_1$, $v = y_2$.)
 
 This then has presentation 
@@ -391,6 +396,7 @@ It is also the 'trefoil group', i.e., the fundamental group of the complement of
 =--
 
 +-- {: .num_example}
+
 ###### The group $Br_4$
 
 Simplifying notation as before, we have generators $u,v,w$ and relations
