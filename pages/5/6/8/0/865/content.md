@@ -1,4 +1,8 @@
 
+> This entry is about the concept in [[order theory]]. See at [[group order]] for the concept of the same name in [[group theory]].
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
