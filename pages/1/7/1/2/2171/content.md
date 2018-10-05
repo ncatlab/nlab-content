@@ -21,6 +21,10 @@ The _braid group_ $Br_n$ is the [[group]] whose elements are [[isotopy]] classes
 
 Here a _braid_ with $n$ strands is thought of as $n$ pieces of string joining $n$ points at the top of the diagram with $n$-points at the bottom.
 
+[[3-strand-braid-1-SVG]]
+
+
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -107,9 +111,7 @@ Here a _braid_ with $n$ strands is thought of as $n$ pieces of string joining $n
 </svg>
 
 
-
-
-(This is a picture of a $3$-strand braid.) 
+(This is a picture of a 3-strand braid.) 
 
 We can transform / 'isotope' these braid diagrams just as we can transform [[knot diagrams]], again using [[Reidemeister moves]]. The 'isotopy' classes of braid diagrams form a group in which the composition is obtained by putting one diagram above another. 
 
