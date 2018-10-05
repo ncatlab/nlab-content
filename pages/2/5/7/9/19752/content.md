@@ -43,9 +43,9 @@ $\,$
 
 **References**
 
-* GroupProps, _[Linear representation theory of binary octahedral group](https://groupprops.subwiki.org/wiki/Linear_representation_theory_of_binary_octahedral_group)_
-
 * Groupnames, _<a href="https://people.maths.bris.ac.uk/~matyd/GroupNames/1/GL(2,3).html">GL(2,3)</a>_
+
+* GroupProps, _[Linear representation theory of binary octahedral group](https://groupprops.subwiki.org/wiki/Linear_representation_theory_of_binary_octahedral_group)_
 
 * [[James Montaldi]], _[Real representations -- Binary cubic -- 2O](http://www.maths.manchester.ac.uk/~jm/wiki/Representations/BinaryCubic#BinOct)_
 
