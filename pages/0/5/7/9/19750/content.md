@@ -44,6 +44,8 @@ notice that $\zeta_3 + \zeta_3^2 = 1$
 
 **References**
 
+* Groupnames, _<a href="https://people.maths.bris.ac.uk/~matyd/GroupNames/1/SL(2,3).html">SL(2,3)</a>_
+
 * [[James Montaldi]], _[Real representations -- Binary cubic -- 2T](http://www.maths.manchester.ac.uk/~jm/wiki/Representations/BinaryCubic#BinTet)_
 
 * Bockland, _Character tables and McKay quivers_ ([pdf](https://staff.fnwi.uva.nl/r.r.j.bocklandt/notes/kleinian.pdf))
