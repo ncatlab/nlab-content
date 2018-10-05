@@ -65,20 +65,17 @@ More to be added.
 
 ## Properties
 
-### Group order
+### General properties
 
 The [[subgroup]] of [[orientation]]-preserving symmetries of the [[icosahedron]] is the [[alternating group]] $A_5$ whose [[order of a group|order]] is 60. The full icosahedral group is [[isomorphism|isomorphic]] to the [[Cartesian product]] $A_5 \times \mathbb{Z}_2$ (with the [[group of order 2]]). 
 
-Hence the [[order of a group|order]] of the icosahedral group is $ 60 \times 2 = 120 $.
+Hence the [[order of a group|order]] of the full icosahedral group is $ 60 \times 2 = 120 $, as is that of the binary icosahedral group $2 I$.
 
-### Exceptional isomorphisms
 
 There is an exceptional [[isomorphism]] $I \simeq PSL_2(\mathbb{F}_5)$, with $2I \simeq SL_2(\mathbb{F}_5)$ covering this isomorphism.
 
 ($PSL_2$ the [[projective special linear group]], $SL_2$ the [[special linear group]], $\mathbb{F}_5$ the [[prime field]] for $p = 5$)
 
-
-### Subgroups
 
 +-- {: .num_prop #QuaternionSubgroup}
 ###### Proposition
@@ -106,6 +103,38 @@ The only proper [[normal subgroup]] of the [[binary icosahedral group]] is its [
 
 =--
 
+### Character table
+
+
+
+**[[linear representation theory]] of [[binary icosahedral group]] $2 I$**
+
+
+$\,$
+
+[[group order]]: ${\vert 2I\vert} = 120$
+
+| [[conjugacy classes]]: |  1 |  2  |  3 | 4 | 5A | 5B | 6 | 10A | 10B |
+|------------------------|----|------|------|---|---|---|---|--|--|
+| their [[cardinality]]: | 1 |  1 | 20  | 30 | 12 | 12 | 20 | 12 | 12 |
+
+let $\phi \coloneqq \tfrac{1}{2}( 1 + \sqrt{5} )$ (the [[golden ratio]])
+
+**[[character table]] over the [[complex numbers]] $\mathbb{C}$**
+
+| [[irrep]] | 1 |  2  |  3 | 4 | 5A | 5B | 6 | 10A | 10B | 
+|-----------|---|-----|----|---|----|----|---|-----|-----|
+| $\rho_1$  | 1 |  1  |  1 | 1 |  1 | 1  | 1 |  1  |  1  |
+| $\rho_2$  | 2 | -2  | -1 | 0 | $-(1 - \phi)$ | $-\phi$ | 1 | $\phi$ | $1 - \phi$ |
+ 
+
+
+**References**
+
+* Groupnames, _<a href="https://people.maths.bris.ac.uk/~matyd/GroupNames/97/SL(2,5).html">GL(2,5)</a>_
+
+
+* Bockland, _Character tables and McKay quivers_ ([pdf](https://staff.fnwi.uva.nl/r.r.j.bocklandt/notes/kleinian.pdf))
 
 
 
