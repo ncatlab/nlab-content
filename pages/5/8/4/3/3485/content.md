@@ -10,6 +10,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -296,7 +297,7 @@ from Def. \ref{ComparisonMapBurnsideRingRepresentationRing}, which sends [[Burns
 
 Isomorphy for the case of cyclic groups is spelled out in [tom Dieck 09, Example (4.4.4)](#tomDieck09).
 
-Surjectivity for the case of symmetric groups follows from the theory of [[Young diagrams]], see Example \ref{VirtualPermuationRepresentationOfS4} below for further pointers.
+Surjectivity for the case of symmetric groups follows from the theory of [[Young diagrams]] ([Dress 86, section 3](#Dress86)), see also Example \ref{VirtualPermuationRepresentationOfS4} below for further pointers.
 
 The proof of surjectivity for [[p-primary groups]] is due to [Segal 72](#Segal72). (As Segal remarks on his first page, it may also be deduced from [Feit 67 (14.3)](#Feit67). See also [Ritter 72](#Ritter72).)
 
@@ -427,6 +428,7 @@ The special case of $S_4$ is made explicit for $k =\mathbb{R}$ in [Montaldi](#Mo
 
 * [[permutation D-brane]]
 
+
 ## References
 
 Textbook accounts and lecture notes include
@@ -448,6 +450,8 @@ American Journal of Mathematics Vol. 93, No. 4 (Oct., 1971), pp. 857-866 ([jstor
 * {#Segal72} [[Graeme Segal]], _Permutation representations of finite $p$-groups, Quart. J. Math. Oxford (2) 23 (1972), 375–381 ([doi:10.1093/qmath/23.4.375](https://doi.org/10.1093/qmath/23.4.375))
 
 * {#Serre77} [[Jean-Pierre Serre]], _Linear Representations of Finite Groups_, Graduate Texts in Math., vol. 42, Springer–Verlag, New York, 1977
+
+* {#Dress86} [[Andreas Dress]], _Congruence relations characterizing the representation ring of the symmetric group_, Journal of Algebra 101, 350-364 (1986) ([pdf](https://core.ac.uk/download/pdf/82196473.pdf), [[Dress86.pdf:file]])
 
 * {#Berz94} G. Berz, _Permutationsbasen fuer endliche Gruppen_, Ph.D. thesis, Augsburg, 1994 (Zbl0924.20003)
 
