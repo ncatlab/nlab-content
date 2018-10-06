@@ -88,6 +88,7 @@ Discussion of possible realizations in [[superstring theory]] (specifically [[he
 * [[Shamit Kachru]], Arnav Tripathy, _The hidden symmetry of the heterotic string_ ([arXiv:1702.02572](https://arxiv.org/abs/1702.02572))
 
 [[!redirects moonshine]]
+[[!redirects monstrous moonshine]]
 
 [[!redirects Moonshine vertex algebra]]
 [[!redirects moonshine vertex algebra]]
