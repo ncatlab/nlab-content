@@ -63,11 +63,11 @@ Starting with ([Douglas-Moore 96](#DouglasMoore96)) is the observation that many
 ## Via $N=2 $ super Yang-Mills theory
  {#ViaSuperYangMillsTheory}
 
-Various seemingly unrelated structures in mathematics fall into an "ADE classification". Notably [[finite group|finite]] [[subgroups]] of [[special unitary group|SU(2)]] and [[compact Lie group|compact]] [[simple Lie groups]] do. The way this works usually is that one tries to classify these structures somehow, and ends up finding that the classification is goverened by the combinatorics of [[Dynkin diagrams]].
+Various seemingly unrelated structures in mathematics fall into an "ADE classification". Notably [[finite group|finite]] [[subgroups]] of [[special unitary group|SU(2)]] and [[compact Lie group|compact]] [[simple Lie groups]] do. The way this works usually is that one tries to classify these structures somehow, and ends up finding that the classification is governed by the combinatorics of [[Dynkin diagrams]] (see also _[[McKay correspondence]]_).
 
 While that does explain a bit, it seems the statement that both the [[icosahedral group]] and the Lie group [[E8]] are related to the same [[Dynkin diagram]] somehow is still more a question than an answer. Why is that so?
 
-The first key insight is due to [Kronheimer 89](#Kronheimer89). He showed that the (resolutions of) the [[orbifold]] quotients $\mathbb{C}^2/\Gamma$ for finite subgroups $\Gamma$ of $SU(2)$ are precisely the generic form of the [[gauge group|gauge]] [[orbits]] of the [[direct product group]] of $U(n_i)$s acting in the evident way on the [[direct sum]] of $Hom(\mathbb{C}^{n_i}, \mathbb{C}^{n_j})$-s, where $i$ and $j$ range over the vertices of the [[Dynkin diagram]], and $(i,j)$ over its edges.
+The first key insight is due to [Kronheimer 89](ADE+singularity#Kronheimer89a). He showed that the (resolutions of) the [[orbifold]] quotients $\mathbb{C}^2/\Gamma$ for finite subgroups $\Gamma$ of $SU(2)$ are precisely the generic form of the [[gauge group|gauge]] [[orbits]] of the [[direct product group]] of $U(n_i)$s acting in the evident way on the [[direct sum]] of $Hom(\mathbb{C}^{n_i}, \mathbb{C}^{n_j})$-s, where $i$ and $j$ range over the vertices of the [[Dynkin diagram]], and $(i,j)$ over its edges.
 
 This becomes more illuminating when interpreted in terms of [[gauge theory]]: in a [[quiver gauge theory]] the [[gauge group]] is a [[direct product group]] of  $U(n_i)$ factors associated with vertices of a [[quiver]], and the [[particles]] which are [[charged particle|charged]] under this gauge group arrange, as a [[linear representation]], into a [[direct sum]] of $Hom(\mathbb{C}^{n_i}, \mathbb{C}^{n_j})$-s, for each edge of the quiver. 
 
