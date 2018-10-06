@@ -63,7 +63,7 @@ $$
 
 =--
 
-These definitions appear ([here](http://math.northwestern.edu/~costello/factorization_public.html#[[Prefactorization%20algebras]])).
+These definitions appear [here](https://web.archive.org/web/20150909210342/http://math.northwestern.edu/~costello/factorization.pdf).
 
 
 ### Factorization algebras
@@ -73,7 +73,7 @@ These definitions appear ([here](http://math.northwestern.edu/~costello/factoriz
 
 For $X$ a [[topological space]] and $U \subset X$ an [[open subset]], a [[open cover]] $\{U_i \hookrightarrow U\}_{i \in I}$ is called a **factorizing cover** if for every [[finite set]] of points $\{x_1, \cdots, x_k\} \subset U$ there is a finite subset $\{U_{i_j}\}_{j \in J \subset I} $ of pairwise disjoint open subsets such that each point is contained in their union.
 
-=--
+=-- 
 
 
 +-- {: .num_remark}
