@@ -292,3 +292,5 @@ Textbook accounts include
 * {#tomDieck79} [[Tammo tom Dieck]], _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics 766, Springer 1979
 
 * Bertram Huppert, chapter 38 of _Character theory of finite groups_, de Gruyter 1998
+
+[[!redirects Schur indices]]
