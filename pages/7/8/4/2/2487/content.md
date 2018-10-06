@@ -291,7 +291,11 @@ One may in fact consider the set of invertible matrices over an arbitrary unital
 
 Coordinate rings of general linear groups and of special general linear groups have [[quantum group|quantum deformations]] called [[quantum linear groups]]. 
 
+## Examples
 
+Over [[finite fields]]
+
+* [[GL(2,3)]]
 
 ## Related concepts
 
