@@ -88,7 +88,11 @@ Discussion can be found [here](http://mathoverflow.net/a/114666/2926) and [here]
 
 * The largest finite group that is also a [[sporadic simple group]], i.e., does not belong(up to isomorphism) to the infinite family of the alternating groups or to the infinite family of finite groups of Lie type, is the [[Monster group]].
 
-* For more see also at _[[finite abelian group]]_.
+* [[finite subgroups of SO(3)]] and [[finite subgroups of SU(2)]] have an [[ADE classification]]
+
+* the [[general linear group]] over [[prime fields]] are finit, such as [[GL(2,3)]]
+
+* see also at _[[finite abelian group]]_.
 
 [[!include ADE -- table]]
 
