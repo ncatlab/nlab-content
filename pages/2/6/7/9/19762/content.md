@@ -25,9 +25,11 @@ It follows that
 
 1. characters take values in [[algebraic integers]];
 
-1. if the [[ground field]] $k$ has [[characteristic zero]], then characters take values in the actual [[integers]].
+1. if the [[ground field]] $k$ has [[characteristic zero]], then a [[character]] with values in the [[rational numbers]] in fact already takes values in the [[integers]];
 
-  (e.g. [Yang, lemma 2](#Yang))
+1. in particular if the [[ground field]] $k =\mathbb{Q}$ is the [[rational numbers]], then all characters take values in the actual [[integers]].
+
+   (e.g. [Yang, lemma 2](#Yang))
 
 ## References
 
