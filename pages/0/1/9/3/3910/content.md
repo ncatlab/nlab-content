@@ -60,9 +60,13 @@ The symbol '$\mathbb{Z}$' derives from the German word 'Zahlen', which is a gene
 
 * [[natural number]], [[rational number]], [[real number]]
 
-* [[algebraic integer]], [[ring of integers]]
-
 * [[Spec(Z)]]
+
+* [[algebraic integer]]
+
+* [[ring of integers]]
+
+* [[cyclotomic integer]]
 
 ## References
 
