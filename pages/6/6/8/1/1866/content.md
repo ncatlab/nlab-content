@@ -99,8 +99,9 @@ Review is in
 * {#Szabo12} [[Richard Szabo]], section 3.6 and 4.6 of _Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology_ ([arXiv:1209.2530](http://arxiv.org/abs/1209.2530))
 
 ### Irrational RR-charge
+ {#IrrationalRRCharge}
 
-The observation that RR-charge may appear in [[irrational number|irrational]] ratios is due to
+An argument that RR-charge may occur in [[irrational number|irrational]] ratios is due to
 
 * [[Constantin Bachas]], [[Michael Douglas]], [[Christoph Schweigert]], around (2.8) of _Flux Stabilization of D-branes_, JHEP 0005:048,2000 ([arXiv:hep-th/0003037](https://arxiv.org/abs/hep-th/0003037))
 
