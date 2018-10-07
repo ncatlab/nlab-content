@@ -47,6 +47,40 @@ Full proof for $SO(3)$ is spelled out for instance in ([Rees 05, theorem 11](#Re
 
 ## Properties
 
+### Subgroup lattice
+
+Part looks like so
+
+$$
+  \array{
+    && SU(2)
+    \\
+    & \nearrow && \nwarrow
+    \\
+    2 O && && 2I
+    \\
+    & \nwarrow && \nearrow & \uparrow
+    \\
+    && 2 T && 2 D_6
+    \\
+    && \uparrow & \nwarrow & \uparrow
+    \\
+    && 2 D_4 && C_6
+    \\
+    && \uparrow & & \uparrow
+    \\
+    && C_4
+    \\
+    && \uparrow & \nearrow
+    \\
+    && C_2
+    \\
+    && \uparrow
+    \\
+    && 1
+  }
+$$
+
 ### Group cohomology
  {#GroupCohomology}
 
