@@ -87,7 +87,9 @@ This is in turn equivalent to extending the right regular action of $A$ to the a
 
 The character $\chi(X,x)$ of a [[topological space]] $X$ at a point $x$ is the minimal cardinality of a local basis of neighborhoods of point $x$ (local [[topological basis|basis of topology]] on $X$) if it is infinite and aleph zero otherwise. The character of a topological space is the supremum of $\chi(X,x)$ when $x$ runs through $X$. 
 
+## Properties
 
+* [[characters are cyclotomic integers]]
 
 ## Related concepts
 
