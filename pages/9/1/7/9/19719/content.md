@@ -50,6 +50,7 @@ If you would like to participate, simply add your name to the list and join the 
 * [[Matthew Weaver]]
 * [[Jonathan Weinberger]]
 * [[tslil clingman]]
+* [[Tamara von Glehn]]
 
 ## Plans
 
