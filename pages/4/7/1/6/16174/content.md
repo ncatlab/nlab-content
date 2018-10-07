@@ -153,8 +153,9 @@ Textbook accounts and lecture notes include
 
 * Charles Curtis, Irving Reiner, chapter XI of _Representation theory of finite groups and associative algebras_, AMS 1962
 
-
 * {#tomDieck79} [[Tammo tom Dieck]], _[[Transformation Groups and Representation Theory]]_, Springer 1979
+
+* {#Bouc00} Serge Bouc, _Burnside rings_, in _Handbook of Algebra_ Volume 2, 2000, Pages 739-804 (<a href="https://doi.org/10.1016/S1570-7954(00)80043-1">doi:10.1016/S1570-7954(00)80043-1</a>)
 
 * {#tomDieck09} [[Tammo tom Dieck]], _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
 
