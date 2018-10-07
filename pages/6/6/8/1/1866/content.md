@@ -98,7 +98,22 @@ Review is in
 
 * {#Szabo12} [[Richard Szabo]], section 3.6 and 4.6 of _Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology_ ([arXiv:1209.2530](http://arxiv.org/abs/1209.2530))
 
- 
+### Irrational RR-charge
+
+The observation that RR-charge may appear in [[irrational number|irrational]] ratios is due to
+
+* [[Constantin Bachas]], [[Michael Douglas]], [[Christoph Schweigert]], around (2.8) of _Flux Stabilization of D-branes_, JHEP 0005:048,2000 ([arXiv:hep-th/0003037](https://arxiv.org/abs/hep-th/0003037))
+
+In a sequence of followup articles, authors found this problematic and tried to make sense of it:
+
+* [[Washington Taylor]], _D2-branes in B fields_, JHEP 0007 (2000) 039 ([arXiv:hep-th/0004141](https://arxiv.org/abs/hep-th/0004141))
+
+> In this article it was argued that the D0-brane charge arising from the integral over the D2-brane of the pullback of the B field is cancelled by the bulk contributions, but in this calculation it was implicitly assumed that the gauge field $C^{(1)}$ is constant. (from [Zhou 01](#Zhou01))
+
+* Peter Rajan, _D2-brane RR-charge on $SU(2)$_, Phys.Lett. B533 (2002) 307-312 ([arXiv:hep-th/0111245](https://arxiv.org/abs/hep-th/0111245))
+
+* {#Zhou01} Jian-Ge Zhou, _D-branes in B Fields_ ([arXiv:hep-th/0102178](https://arxiv.org/abs/hep-th/0102178))
+
 
 
 
