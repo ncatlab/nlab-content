@@ -12,3 +12,4 @@ The [[K-theory]] of [[quadratic forms]].
 * Wikipedia, _[L-theory](http://en.wikipedia.org/wiki/L-theory)_
 
 [[!redirects L theory]]
+
