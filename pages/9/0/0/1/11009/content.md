@@ -17,7 +17,7 @@
 
 **Platonism** is a position in [[philosophy]] committed to the existence of abstract entities that derives from the theory of ideas of the Greek philosopher [[Plato]]. 
 
-Since this attitudes provides a convenient ontological underpinning for mathematical concepts, platonism is one of the major school of thought in the [[philosophy of mathematics]] as well as in spontaneous affinity with the practice of 'every-day mathematics' with its feel of objectivity and free availability of non-constructive classical modes of reasoning.
+Since this attitude provides a convenient ontological underpinning for mathematical concepts, platonism is one of the major schools of thought in the [[philosophy of mathematics]] as well as in spontaneous affinity with the practice of 'every-day mathematics' with its feel of objectivity and free availability of non-constructive classical modes of reasoning.
 
 Famous mathematicians like [[Georg Cantor]], [[Gottlob Frege]], [[Kurt Gödel]] or more recently [[Alain Connes]] and [[Roger Penrose]] have advocated views akin to platonism.
 
@@ -39,6 +39,8 @@ Famous mathematicians like [[Georg Cantor]], [[Gottlob Frege]], [[Kurt Gödel]] 
 A classical reference is
 
 * [[Paul Bernays]] , _Sur le platonisme dans les math&#233;matiques_ , L'enseignement math&#233;matique **34** (1935) pp.52-69. ([pdf](http://www.e-periodica.ch/cntmng?pid=ens-001:1935:34::14))
+
+Other texts include
 
 * Mark Balaguer, _Platonism & Anti-Platonism in Mathematics_ , Oxford University Press, 1998. 
 
