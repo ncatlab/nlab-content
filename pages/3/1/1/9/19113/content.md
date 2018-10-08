@@ -175,6 +175,11 @@ See also
 
 * GroupProps _<a href="https://groupprops.subwiki.org/wiki/Classification_of_finite_subgroups_of_SO(3,R)">Classification of finite subgroups of SO(3,R)</a>
 
+Further discussion of the [[lattice]] of [[subgroups]] is in 
+
+* _The Subgroups of the Binary Polyhedral
+Groups_ ([pdf](https://link.springer.com/content/pdf/bbm%3A978-3-319-00257-6%2F1.pdf))
+
 The [[universal higher central extension]] of finite subgroups of $SU(2)$ ("[[Platonic 2-groups]]") are discussed in
 
 * {#EpaGanter16} [[Narthana Epa]], [[Nora Ganter]], _Platonic and alternating 2-groups_, Higher Structures 1(1):122-146, 2017 ([arXiv:1605.09192](http://arxiv.org/abs/1605.09192))
