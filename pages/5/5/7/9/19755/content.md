@@ -1,4 +1,20 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ##Idea 
 
 The set of [[permutations]] of a set, $X$, form a group, $S_X$, under composition.  This is especially clear if one thinks of the permutation as a [[bijection]] on $X$, where the multiplication / composition is just composition of functions. This group may be denoted $S_X$, $\Sigma_X$, $Sym(X)$, or $X!$.
@@ -100,4 +116,4 @@ which relates this symmetric group to the [[braid group]], **Br 3**, and to the 
 
 [[!redirects permutation group]]
 [[!redirects permutation groups]]
-[[!redirects symmetric  groups]]
+[[!redirects symmetric groups]]
