@@ -49,3 +49,5 @@ $\,$
 * Groupprops, _[Linear representation theory of dicyclic groups](https://groupprops.subwiki.org/wiki/Linear_representation_theory_of_dicyclic_groups)_
 
 * [[James Montaldi]], _[Real representations -- Binary cubic -- Q8](http://www.maths.manchester.ac.uk/~jm/wiki/Representations/BinaryCubic)_
+
+category: character tables
