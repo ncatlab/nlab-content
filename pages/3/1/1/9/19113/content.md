@@ -11,6 +11,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -48,38 +49,18 @@ Full proof for $SO(3)$ is spelled out for instance in ([Rees 05, theorem 11](#Re
 ## Properties
 
 ### Subgroup lattice
+ {#SubgroupLattice}
 
-Part looks like so
+The [[subgroup]] [[lattice]] of [[SU(2)]] under the three exceptional [[finite group|finite]] subgroups [[2T]], [[2O]], [[2I]] (from Theorem \ref{ClassificationOfFiniteSubgroupsOfSO3}) looks as follows:
 
-$$
-  \array{
-    && SU(2)
-    \\
-    & \nearrow && \nwarrow
-    \\
-    2 O && && 2I
-    \\
-    & \nwarrow && \nearrow & \uparrow
-    \\
-    && 2 T && 2 D_6
-    \\
-    && \uparrow & \nwarrow & \uparrow
-    \\
-    && 2 D_4 && C_6
-    \\
-    && \uparrow & & \uparrow
-    \\
-    && C_4
-    \\
-    && \uparrow & \nearrow
-    \\
-    && C_2
-    \\
-    && \uparrow
-    \\
-    && 1
-  }
-$$
+<center>
+<img src="https://ncatlab.org/nlab/files/ADESubgroupLatticeUnderExceptional.jpg" width="490"/>
+</center>
+
+This is obtained from the subgroup lattice as shown on [GroupNames](https://people.maths.bris.ac.uk/~matyd/GroupNames/) for 
+$2I \simeq$ <a href="https://people.maths.bris.ac.uk/~matyd/GroupNames/97/SL(2,5).html">SL(2,5)</a> and  $2O \simeq $ <a href="https://people.maths.bris.ac.uk/~matyd/GroupNames/1/CSU(2,3).html">CSU(2,3)</a>
+
+
 
 ### Group cohomology
  {#GroupCohomology}
