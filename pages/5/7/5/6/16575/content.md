@@ -57,6 +57,23 @@ Examples include [[KK-compactification]] of [[M-theory]] on [[K3]] fibers and on
 
 * _[[duality between F-theory and heterotic string theory]]_.
 
+### For MK6 branes at ADE-singularities
+
+The [[blow-up]] of an [[ADE-singularity]] is given by a [[union]] of [[Riemann spheres]] that touch each other such as to form the shape of the [[Dynkin diagram]] whose A-D-E label corresponds to that of the given [[finite subgroup of SU(2)]].
+
+This statement is originally due to ([duVal 1934 I, p. 1-3 (453-455)](#duVal1934I)). A description in terms of [[hyper-Kähler geometry]] is due to [Kronheimer 89a](#Kronheimer89a).
+
+Quick survey of this fact is in [Reid 87](#Reid87), a textbook account is [Slodowy 80](#Slodowy80).
+
+{#InStringTheory} In [[string theory]] this fact is interpreted in terms of [[gauge enhancement]] of the [[M-theory]]-lift of coincident [[black brane|black]] [[D6-branes]] to an  [[MK6]] at an ADE-singularity ([Sen 97](enhanced+gauge+symmetry#Sen97)):
+
+<img src="http://ncatlab.org/nlab/files/ADESingularity.jpg" width="760" alt="ADE 2Cycle" />
+
+> graphics grabbed from [HSS18](http://ncatlab.org/schreiber/show/Equivariant+homotopy+and+super+M-branes)
+ 
+See at _[[M-theory lift of gauge enhancement on D6-branes]]_ for more.
+
+
 ### On M9-Branes
 
 In [[Horava-Witten theory]] there is supposed to be gauge enhancement over the [[M9-branes]] such as to identify their [[worldvolume]] theory with [[E8]]-[[heterotic string theory]]. 
