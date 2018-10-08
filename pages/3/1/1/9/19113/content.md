@@ -60,6 +60,7 @@ The [[subgroup]] [[lattice]] of [[SU(2)]] under the three exceptional [[finite g
 This is obtained from the subgroup lattice as shown on [GroupNames](https://people.maths.bris.ac.uk/~matyd/GroupNames/) for 
 $2I \simeq$ <a href="https://people.maths.bris.ac.uk/~matyd/GroupNames/97/SL(2,5).html">SL(2,5)</a> and  $2O \simeq $ <a href="https://people.maths.bris.ac.uk/~matyd/GroupNames/1/CSU(2,3).html">CSU(2,3)</a>
 
+See also [Goncalves-Guaschi 11, appendix](#GoncalvesGuaschi11).
 
 
 ### Group cohomology
@@ -161,7 +162,6 @@ see also
 
 * {#Serrano14} Javier Carrasco Serrano, _Finite subgroups of $SL(2,\mathbb{C})$ and $SL(3,\mathbb{C})$_, Warwick 2014 ([pdf](https://homepages.warwick.ac.uk/~masda/McKay/Carrasco_Project.pdf))
 
-Lecture notes include the following:
 
 Complete proof of the classification of the finite subgroups of $SO(3)$ is also spelled out in 
 
@@ -175,10 +175,9 @@ See also
 
 * GroupProps _<a href="https://groupprops.subwiki.org/wiki/Classification_of_finite_subgroups_of_SO(3,R)">Classification of finite subgroups of SO(3,R)</a>
 
-Further discussion of the [[lattice]] of [[subgroups]] is in 
+Discussion of the [[lattice]] of [[subgroups]] of the three exceptional subgroups is in 
 
-* _The Subgroups of the Binary Polyhedral
-Groups_ ([pdf](https://link.springer.com/content/pdf/bbm%3A978-3-319-00257-6%2F1.pdf))
+* {#GoncalvesGuaschi11} Daciberg Lima Gonçalves, John Guaschi, _The Subgroups of the Binary Polyhedral Groups_, Appendix of _The classification of the virtually cyclic subgroups of the sphere braid groups_, Springer (Ed.) (2013) 112 ([arXiv:1110.6628](https://arxiv.org/abs/1110.6628), [pdf](https://link.springer.com/content/pdf/bbm%3A978-3-319-00257-6%2F1.pdf))
 
 The [[universal higher central extension]] of finite subgroups of $SU(2)$ ("[[Platonic 2-groups]]") are discussed in
 
