@@ -17,7 +17,7 @@
 
 Formally, Ricci curvature $Ric$ is a [[curvature]] [[differential 2-form]] with values in scalars obtained by contraction from the [[Riemann curvature]] of a [[Riemannian manifold]]. Geometrically one may think $Ric(v, w)$ as the first order approximation of the infinitesimal behaviour of the surface spanned by $v$ and $w$. This is made explicit by the following formula for the volume element around some point
 $$
- d\mu _{g}=\left[1-{\tfrac {1}{6}}R_{jk}x^{j}x^{k}+O\left(|x|^{3}\right)\right]d\mu _{Euclidean}.
+ d\mu _{g}=\left[1-{\tfrac {1}{6}}Ric_{jk}x^{j}x^{k}+O\left(|x|^{3}\right)\right]d\mu _{Euclidean}.
 $$
 
 A [[spacetime]] with vanishing Ricci curvature is also called _Ricci flat_.
