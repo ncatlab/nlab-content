@@ -20,7 +20,7 @@ There are many notions of a character for an algebraic structure, often topologi
 
 ### Character on a group
 
-A _multiplicative character_ on a ([[discrete group|discrete]]) [[group]] $G$ (a _[[group character]]_) is a [[group homomorphism]] from $G$ the [[group of units]] $k^\times$ of the [[ground field]] $k$:
+A _multiplicative character_ on a ([[discrete group|discrete]]) [[group]] $G$ (a _[[group character]]_) is a [[group homomorphism]] from $G$ to the [[group of units]] $k^\times$ of the [[ground field]] $k$:
 
 $$
   \chi
@@ -33,13 +33,13 @@ $$
 
 Since the [[codomain]] $k^\times$ is an [[abelian group]] we have that 
 
-1. such a [[group homomorphism]] is [[invariant]] under [[conjugation]], so that a group charater descend to a [[function]] on the [[set]] of [[conjugacy classes]] of elements in $G$.
+1. such a [[group homomorphism]] is [[invariant]] under [[conjugation]], so that a group character descends to a [[function]] on the [[set]] of [[conjugacy classes]] of elements in $G$.
 
-1. the collection of characters is itself an [[abelian group]] under the pointwise multiplication, this is called the _[[character lattice]]_ $Hom(G,k^\times)$ of the group. Similarly the **cocharacter lattice** is $Hom(k^\times, G)$.
+1. the collection of characters is itself an [[abelian group]] under pointwise multiplication, this is called the _[[character lattice]]_ $Hom(G,k^\times)$ of the group. Similarly the **cocharacter lattice** is $Hom(k^\times, G)$.
 
 For more see at _[[group character]]_.
 
-For [[topological groups]] one considers [[continuous map|continuous]] characters. Specifically, for a [[locally compact Hausdorff]] group $G$ (often further assumed to be an [[abelian group]]), a __character__ of $G$ is continuous homomorphism to the [[circle]] group $\mathbb{R}/\mathbb{Z}$. If $G$ is [[profinite group|profinite]], then this is the same as an continuous homomorphism to the [[discrete space|discrete]] group $\mathbb{Q}/\mathbb{Z}$.  (See [MO](http://mathoverflow.net/questions/86089/two-definitions-of-character-of-topological-groups).)
+For [[topological groups]] one considers [[continuous map|continuous]] characters. Specifically, for a [[locally compact Hausdorff]] group $G$ (often further assumed to be an [[abelian group]]), a __character__ of $G$ is a continuous homomorphism to the [[circle]] group $\mathbb{R}/\mathbb{Z}$. If $G$ is [[profinite group|profinite]], then this is the same as an continuous homomorphism to the [[discrete space|discrete]] group $\mathbb{Q}/\mathbb{Z}$.  (See [MO](http://mathoverflow.net/questions/86089/two-definitions-of-character-of-topological-groups).)
 
 
 ### Character of a representation
