@@ -106,7 +106,7 @@ be a [[filtered chain complex]] in $\mathcal{A}$, with [[associated graded]] com
 
 In more detail this means that
 
-1. $[\cdots \stackrel{\partial_{n}}{\to} C_n \stackrel{\partial_{n-1}}{\to}] C_{n-1} \to \cdots]$ is a [[chain complex]], hence $\{C_n\}$ are [[objects]] in $\mathcal{A}$ ($R$-[[modules]]) and $\{\partial_n\}$ are [[morphisms]] (module [[homomorphisms]]) with $\partial_n \circ \partial_{n+1} = 0$;
+1. $\cdots \stackrel{\partial_{n}}{\to} C_n \stackrel{\partial_{n-1}}{\to} C_{n-1} \to \cdots $ is a [[chain complex]], hence $\{C_n\}$ are [[objects]] in $\mathcal{A}$ ($R$-[[modules]]) and $\{\partial_n\}$ are [[morphisms]] (module [[homomorphisms]]) with $\partial_n \circ \partial_{n+1} = 0$;
 
 1. For each $n \in \mathbb{Z}$ there is a [[filtered object|filtering]] $F_\bullet C_n$ on $C_n$ and all these filterings are compatible with the [[differentials]] in that 
 
