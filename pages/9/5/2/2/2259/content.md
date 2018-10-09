@@ -1,4 +1,4 @@
-With [[S. Eilenberg|`Sammy' Eilenberg]], Saunders Mac Lane was one of the original pioneers of
+With [[S. Eilenberg|"Sammy" Eilenberg]], Saunders Mac Lane was one of the original pioneers of
 [[category theory]]. He initially worked on it as a language to enable 'natural transformations' to be described in a 'natural' way, and also developed, again with Eilenberg many of the strong links with group theory and the cohomology of groups.  He was the author of one of the key books on homological algebra, see below. 
 
 With [[Henry Whitehead]] he gave the first algebraic description of the [[homotopy 2-type]] of a space.
