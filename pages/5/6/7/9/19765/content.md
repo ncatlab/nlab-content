@@ -1,3 +1,4 @@
+[[!redirects Bruce E. Sagan]]
 [[!redirects Bruce Sagan]]
 
 * [MSU home page](http://users.math.msu.edu/users/sagan/)
