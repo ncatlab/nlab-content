@@ -111,7 +111,7 @@ which relates this symmetric group to the [[braid group]], **Br 3**, and to the 
 
 Textbook accounts include
 
-* {#Sagan01} Bruce Sagan, _The symmetric group_, Springer 2001 ([pdf](http://math.sfsu.edu/federico/Clase/RepTh/sagan.pdf))
+* {#Sagan01} [[Bruce Sagan]], _The symmetric group_, Springer 2001 ([pdf](http://math.sfsu.edu/federico/Clase/RepTh/sagan.pdf))
 
 See also 
 
