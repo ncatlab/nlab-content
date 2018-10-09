@@ -66,9 +66,9 @@ $$
 
 The definition is originally due to
 
-* {#Landweber67} [[Peter Landweber]], _Fixed point free conjugations on complex manifolds_, Annals of Mathematics 86 (2) (1967) 491}502.
+* {#Landweber67} [[Peter Landweber]], _Fixed point free conjugations on complex manifolds_, Annals of Mathematics 86 (2) (1967) 491-502.
 
-* {#Landweber68} [[Peter Landweber]], _Conjugations on complex manifolds and equivariant homotopy of $MU$;, Bulletin of the American Mathematical Society 74 (1968) 271}274.
+* {#Landweber68} [[Peter Landweber]], _Conjugations on complex manifolds and equivariant homotopy of $MU$;, Bulletin of the American Mathematical Society 74 (1968) 271-274.
 
 The [[Adams spectral sequence]] for real cobordism is discussed in
 
