@@ -68,25 +68,32 @@ More precisely, let $V$ be any [[enriched category theory|enriching category]] (
 So far the following examples concern the abstract algebraic aspect of Tannaka duality only, which is narrated here as a consequence of the [[enriched Yoneda lemma]] in [[enriched category theory]]. Some of the Tannaka duality theorems involve
 subtle harmonic analysis. 
 
-### For permutation representations {#ForPermutationRepresentations}
+### For $G$-Sets 
+  {#ForPermutationRepresentations}
 
-A simple case of Tannaka duality is that of [[permutation representation]]s of a [[group]], i.e. representations on a [[set]]. In this case, Tannaka duality follows entirely from repeated application of the ordinary [[Yoneda lemma]].
+A simple case of Tannaka duality is that of [[G-sets]] of a [[group]], i.e. representations on a [[set]]. In this case, Tannaka duality follows entirely from repeated application of the ordinary [[Yoneda lemma]].
 
 
 +-- {: .num_theorem}
 ###### Theorem
-**(Tannaka duality for permutation representations)**
+**(Tannaka duality for [[G-sets]])**
 
-Let $G$ be a [[group]], $Rep_{Set}(G)$ the category of its [[permutation representation]]s and $F : Rep_{Set}(G) \to Set$ the forgetful functor that sends a representation to its underlying set.
-
-Then there is a canonical [[isomorphism]] of [[group]]s
+Let $G$ be a [[group]], write  $G Set$ for the [[category]] of [[G-sets]] and 
 
 $$
-  Aut(F) \simeq G
+  F \colon G Set \longrightarrow Set
+$$ 
+
+for the [[forgetful functor]] that sends a [[G-set]] to its underlying [[set]].
+
+Then there is a canonical [[group homomorphism|group-]][[isomorphism]] 
+
+$$
+  Aut(F) \;\simeq\; G
   \,.
 $$
 
-Here $Aut(F)$ denotes the group of invertible [[natural transformation]]s from $F$ to itself.
+identifying the [[automorphism group]] of $F$ (the group of [[natural isomorphisms]] from $F$ to itself) with $G$.
 
 =--
 
@@ -96,8 +103,8 @@ Here $Aut(F)$ denotes the group of invertible [[natural transformation]]s from $
 
 With a bit of evident abuse of notation, the proof is a one-line sequence of applications of the [[Yoneda lemma]]: we show $End(F) \cong G$, i.e., each endomorphism on $F$ is invertible, so $End(F) = Aut(F) \cong G$.  
 
-Write $C := Set^G = Rep_{Set}(G)$.
-Observe that the functor $F : C \to Set$ is the [[representable functor|representable]] $F = C(G, -)$. Then the argument is 
+Write $C \coloneqq Set^G = G Set$.
+Observe that the functor $F \colon C \to Set$ is the [[representable functor|representable]] $F = C(G, -)$. Then the argument is 
 
 $$
   End(F)
@@ -123,14 +130,14 @@ We repeat the same proof, but with more notational details on what the entities 
 Let $\mathbf{B}G$ be the [[delooping]] [[groupoid]] of the [[group]] $G$. Then 
 
 $$
-  Rep_{Set}(G) := Func(\mathbf{B}G^{op}, Set)
+  G Set \;=\; Func(\mathbf{B}G^{op}, Set)
   \,.
 $$
 
 The canonical inclusion $i : {*} \to \mathbf{B}G$ induces the [[fiber functor]]
 
 $$
-  Func(i,Set) : Rep_{Set}(G) \to Set
+  Func(i,Set) : G Set \to Set
 $$
 
 which evaluates a functor $\rho : \mathbf{B}G^{op} \to Set$ on the unique object of $\mathbf{B}G$. By the [[Yoneda lemma]] this is the same as homming out of the functor [[representable functor|represented by]] that unique object
