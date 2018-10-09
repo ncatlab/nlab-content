@@ -86,6 +86,11 @@ If one considers [[manifolds with corners]] then there is a fairly evident refin
 
 * Wikipedia, _[Cobordism](http://en.wikipedia.org/wiki/Cobordism)_
 
+A relation to [[fixed point spaces]]:
+
+
+* {#Prieto03} Carlos Prieto, _Fixed point theory and framed cobordism_, Topol. Methods Nonlinear Anal. Volume 21, Number 1 (2003), 155-169. ([Euclid](https://projecteuclid.org/euclid.tmna/1475266278))
+
 
 
 [[!redirects cobordisms]]
