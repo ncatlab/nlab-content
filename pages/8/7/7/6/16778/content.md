@@ -5,7 +5,16 @@
 
 ## Idea
 
+<div style="float:right;margin:0 10px 10px 0;"><img src="https://ncatlab.org/nlab/files/Octahedron.jpg" width="200" alt="regular octahedron" /> <br/> (<a href="http://www.math.utah.edu/~keenan/actions.pdf">image source</a>)</div>
+
 One of the [[Platonic solids]]
+
+$\,$
+
+$\,$
+
+$\,$
+
 
 ## In the ADE patter
 
