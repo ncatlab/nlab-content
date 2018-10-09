@@ -51,6 +51,7 @@ If you would like to participate, simply add your name to the list and join the 
 * [[Jonathan Weinberger]]
 * [[tslil clingman]]
 * [[Tamara von Glehn]]
+* [[Nicolai Kraus]]
 
 ## Plans
 
