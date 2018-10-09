@@ -134,13 +134,13 @@ Appreciation of the role of convenient categories was in full force by the early
 * Booth, Peter I. The exponential law of maps. II. 
 Math. Z. 121 (1971), 311&#8211;319. {#Booth}
 
-* {#Brown61} [[Ronnie Brown]], Some problems of algebraic topology: a study of function spaces, function complexes, and FD-complexes, DPhil thesis (part A), Oxford University, 1961 [(pdf)](http://www.bangor.ac.uk/~mas010/pdffiles/rbthesisptA.pdf)
+* {#Brown61} [[Ronnie Brown]], Some problems of algebraic topology: a study of function spaces, function complexes, and FD-complexes, DPhil thesis, Oxford University, 1961 (Note: the Appendix of this thesis was withdrawn from the examination.)  [(pdf)](http://groupoids.org.uk/RBThesis1961.pdf)
 
  
-* {#Brown63} [[Ronnie Brown]], Ten topologies for $X\times Y$, Quart. J.Math. (2) 14 (1963), 303--319. [(pdf)](http://www.bangor.ac.uk/~mas010/pdffiles/tentopologies.pdf)
+* {#Brown63} [[Ronnie Brown]], Ten topologies for $X\times Y$, Quart. J.Math. (2) 14 (1963), 303--319. [(pdf)](http://groupoids.org.uk/pdffiles/tentopologies.pdf)
 
 
-* [[Ronnie Brown]], Function spaces and product topologies,  Quart. J. Math. (2) 15 (1964), 238--250. [(pdf)](http://www.bangor.ac.uk/~mas010/pdffiles/functionspaces.pdf)
+* [[Ronnie Brown]], Function spaces and product topologies,  Quart. J. Math. (2) 15 (1964), 238--250. [(pdf)](http://groupoidws.org.uk/pdffiles/functionspaces.pdf)
 {#Brown64}
 
 * [[Ronnie Brown]] _Topology and Groupoids_, Booksurge (2006), available from amazon: Section 5.9: Spaces of functions and the compact-open topology. {#Brown06}
