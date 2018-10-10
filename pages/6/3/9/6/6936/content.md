@@ -49,6 +49,7 @@ The [[homotopy type]] of the [[interval]] can be encoded as
     | segment : zero == one.
 
 See [[interval type]].  The interval can be proven to be [[contractible type|contractible]].  On the other hand, if the constructors `zero` and `one` satisfy their elimination rules definitionally, then the existence of an interval type implies [[function extensionality]]; see [this blog post](http://homotopytypetheory.org/2011/04/04/an-interval-type-implies-function-extensionality/).
+The interval can be defined as the -1-truncation of the booleans; see [here](https://groups.google.com/d/msg/homotopytypetheory/-5mLEi_qMTo/gpNUsmI-ZT4J).
 
 ### The 2-sphere
 
