@@ -113,7 +113,7 @@ In a sequence of followup articles, authors found this problematic and tried to 
 
 * Peter Rajan, _D2-brane RR-charge on $SU(2)$_, Phys.Lett. B533 (2002) 307-312 ([arXiv:hep-th/0111245](https://arxiv.org/abs/hep-th/0111245))
 
-* {#Zhou01} Jian-Ge Zhou, _D-branes in B Fields_ ([arXiv:hep-th/0102178](https://arxiv.org/abs/hep-th/0102178))
+* {#Zhou01} Jian-Ge Zhou, _D-branes in B Fields_, Nucl.Phys. B607 (2001) 237-246 ([arXiv:hep-th/0102178](https://arxiv.org/abs/hep-th/0102178))
 
 
 
