@@ -49,6 +49,14 @@ This means that a "formal deformation problem" is a [[space]] in [[higher geomet
 
 =--
 
++-- {: .num_remark }
+###### Remark
+
+The clause about pullbacks is what makes the behaviour at arbitrary infinitesimal order be all controlled by that at first order, see [Calaque-Grivaux 18, top of p. 8](#CalaqueGrivaux18)
+
+=--
+
+
 ## Properties
 
 ### Relation to $L_\infty$-algebras
@@ -120,5 +128,7 @@ Hence we may call this the operaton of **[[Lie differentiation]]** of spaces in 
 * [[Jacob Lurie]] _Moduli problems for ring spectra_ ICM 2010 proceedings contribution [pdf](http://www.math.harvard.edu/~lurie/papers/moduli.pdf)
 
 * {#Porta13} [[Mauro Porta]], _Derived formal moduli problems_, master thesis 2013, [pdf](http://algant.eu/documents/theses/porta.pdf).
+
+* {#CalaqueGrivaux18} Damien Calaque, Julien Grivaux, _Formal moduli problems and formal derived stacks_ ([arXiv:1802.09556](https://arxiv.org/abs/1802.09556))
 
 [[!redirects formal moduli problems]]
