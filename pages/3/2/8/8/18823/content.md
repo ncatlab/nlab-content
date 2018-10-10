@@ -1,9 +1,6 @@
 
 
 
-
-
-
 ## Observables
  {#Observables}
 
@@ -1260,23 +1257,17 @@ $$
 
 etc.
 
-$$
-
 =--
 
 While by def. \ref{PolynomialObservablesOnShell} every [[off-shell]] [[observable]] induces an [[on-shell]] [[observable]]
 simply by [[restriction]] (eq:OffShellObservablesRestrictToOnShellObservables),
-different off-shell observables may restrict to the _same_ on-shell observale.
-It is therefore useful to find a condition on off-shell observables
-that makes them equivalent to on-shell observables under restriction.
-We now discuss such precise characterizations of the off-shell polynomial observables
-for the case of sufficiently well behaved [[free field theory|free field]] [[equations of motion]]
--- namely [[Green hyperbolic differential equations]], def. \ref{GreenHyperbolicDifferentialOperator} below.
+different off-shell observables may restrict to the _same_ on-shell observable. It is therefore useful to find a condition on off-shell observables that makes them equivalent to on-shell observables under restriction. 
+
+We now discuss such precise characterizations of the off-shell polynomial observables for the case of sufficiently well behaved [[free field theory|free field]] [[equations of motion]] -- namely 
+[[Green hyperbolic differential equations]], def. \ref{GreenHyperbolicDifferentialOperator} below.
 The main result is theorem \ref{LinearObservablesForGreeFreeFieldTheoryAreDistributionalSolutionsToTheEquationsOfMotion} below.
 
-While in general the [[equations of motion]] are not [[Green hyperbolic differential equations|Green hyperbolic]] --
-namely not in the presence of implicit [[infinitesimal gauge symmetries]] discussed in _[Gauge symmetries](#GaugeSymmetries)_ below --
-it turns out that up to a suitable notion of [[equivalence]] they are equivalent to those that are; this we discuss in the chapter _[Gauge fixing](#GaugeFixing)_ below.
+While in general the [[equations of motion]] are not [[Green hyperbolic differential equations|Green hyperbolic]] -- namely not in the presence of implicit [[infinitesimal gauge symmetries]] discussed in _[Gauge symmetries](#GaugeSymmetries)_ below -- it turns out that up to a suitable notion of [[equivalence]] they are equivalent to those that are; this we discuss in the chapter _[Gauge fixing](#GaugeFixing)_ below.
 
 $\,$
 
