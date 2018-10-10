@@ -23,7 +23,7 @@
 
 An _indexed monoidal $(\infty,1)$-category_ is the [[(∞,1)-category|(∞,1)-categorical]] version of an [[indexed monoidal category]].  That is, it consists of a "base" $(\infty,1)$-category $\mathcal{C}$ together with, for each $X\in \mathcal{C}$, a [[monoidal (∞,1)-category]] $Mod(X)$ varying functorially with $X$.  In one of the fundamental examples, $\mathcal{C}$ is the $(\infty,1)$-category of [[∞-groupoids]] ("spaces"), while $Mod(X)$ is that of [[parametrized spectra]].
 
-Indexed monoidal $(\infty,1)$-categories are conjectured to be the semantics of [[dependent homotopy linear type theory]].
+Indexed monoidal $(\infty,1)$-categories are conjectured to be the semantics of [[linear homotopy type theory]].
 
 ## Definition
 
