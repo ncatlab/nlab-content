@@ -45,7 +45,7 @@ We write $Ho(Spectra)$ for the [[stable homotopy category]]. For $X,Y \in Ho(Spe
 +-- {: .num_defn #EAcyclicAndLocalSpectra}
 ###### Definition
 
-Let $E \in Ho(Spectra)$ be be a [[spectrum]]. Say that 
+Let $E \in Ho(Spectra)$ be a [[spectrum]]. Say that 
 
 1. a spectrum $X$ is **$E$-acyclic** if the [[smash product of spectra|smash product]] with $E$ is [[zero object|zero]], $E \wedge X \simeq 0$;
 
