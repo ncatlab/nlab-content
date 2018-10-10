@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
 =--
 =--
 
@@ -62,9 +66,13 @@ Here $B_{n-1}$ is a ring such that... ([Stapleton 13, p. 3](#Stapleton13))
 
 ## References
 
-For an introduction, see
+For introduction see
 
 * [[Nathaniel Stapleton]], _An Introduction to HKR Character Theory_ ([pdf](http://homepages.uni-regensburg.de/~stn30788/papers/Characters.pdf))
+
+* {#Raksit15} Arpon Raksit, _Characters in global equivariant homotopy theory_, 2015 ([pdf](http://web.stanford.edu/~arpon/math/files/senior-thesis.pdf))
+
+Original articles includes
 
 * {#HopkinsKuhnRavenel00} [[Michael Hopkins]], [[Nicholas Kuhn]], [[Douglas Ravenel]], _Generalized group characters and complex oriented cohomology theories_, J. Amer. Math. Soc. 13 (2000), 553-594 ([publisher](http://www.ams.org/journals/jams/2000-13-03/S0894-0347-00-00332-5/), [pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/hkr.pdf))
 
