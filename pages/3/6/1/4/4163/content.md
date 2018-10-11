@@ -187,6 +187,9 @@ For the example of [[phi^4 theory]] this non-convergence of the perturbation ser
 
 * {#Helling} Robert Helling, p. 4 of _Solving classical field equations_ ([pdf](http://homepages.physik.uni-muenchen.de/~helling/classical_fields.pdf))
 
+* {#BakulevShirkov10} Alexander P. Bakulev, [[Dmitry Shirkov]], section 1.1 of _Inevitability and Importance of Non-Perturbative Elements in Quantum Field Theory_, Proceedings of the 6th Mathematical Physics Meeting, Sept. 14--23, 2010, Belgrade, Serbia (ISBN 978-86-82441-30-4), pp. 27--54 ([arXiv:1102.2380](https://arxiv.org/abs/1102.2380)) 
+
+
 See also
 
 * Carl M. Bender, Carlo Heissenberg, _Convergent and Divergent Series in Physics_ ([arXiv:1703.05164](https://arxiv.org/abs/1703.05164))
