@@ -149,6 +149,9 @@ becomes
 
 ### In field theory
 
+* {#BakulevShirkov10} Alexander P. Bakulev, [[Dmitry Shirkov]], _Inevitability and Importance of Non-Perturbative Elements in Quantum Field Theory_, Proceedings of the 6th Mathematical Physics Meeting, Sept. 14--23, 2010, Belgrade, Serbia (ISBN 978-86-82441-30-4), pp. 27--54 ([arXiv:1102.2380](https://arxiv.org/abs/1102.2380)) 
+
+
 Genral introduction and toy examples (e.g. the anharmonic oscillator) are given in 
 
 * [Mariño 12, section 2, section 3.1](#Marino12)
