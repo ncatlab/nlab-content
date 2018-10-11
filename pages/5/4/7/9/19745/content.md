@@ -43,5 +43,10 @@ Other references
 
 * I. Morris and C.D. Wensley, _Adams operations and λ-operations in β-rings_, Discrete Mathematics Volume 50, 1984, Pages 253-270, ([doi](https://doi.org/10.1016/0012-365X%2884%2990053-0))
 
+[[!redirects beta-rings]]
+[[!redirects β-rings]]
+[[!redirects β-ring]]
+
+
 
  
