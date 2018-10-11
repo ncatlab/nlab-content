@@ -108,6 +108,7 @@ In the [[worldsheet]]-description of [[D-branes]] via [[boundary conformal field
 (e.g.  [Diaconescu-Gomis 99](#DiaconescuGomis99), [Recknagel-Schomerus 13, around p. 173](#RecknagelSchomerus13))
 
 
+
 ### D-branes on resolutions of orbifold singularities
 
 In parts of the string theory literature, fractional D-branes are identified in a "[[duality in string theory|dual]]" formulation of the situation:
@@ -171,6 +172,35 @@ An analogous McKay correspondence for (fractional) [[M-branes]]
 is considered informally in the [[string theory]] literature (for instance in discussion of [[M-theory on G2-manifolds]]) 
 but has not been given a correspondingly precise cohomological formulation yet. 
 
+## Properties
+
+### RR-Charge
+ {#RRCharge}
+
+Under the identification ([above](#AtGlobalLinearOrbifoldSingularities))
+
+$$
+  KU_G^0(\ast) \simeq R_{\mathbb{C}}(G)
+$$
+
+of the fractional D-brane charges at a $G$-[[orbifold]] [[singularity]] with of the [[equivariant K-theory]] of the point and hence with the [[representation ring]] of $G$, a [[character]] 
+
+$$
+  \chi_V \coloneqq tr_V(-) \;\colon\; ConjCl(G) \to \mathbb{C}
+$$ 
+
+of a [[representation]] $V \in R(G)$ correspondes to the [[RR-field]] [[charge]] 
+
+$$
+  Q_V(g) \;=\; \frac{ \chi_V(g) }{ {\vert G \vert} }
+$$
+
+of the corresponding fractional D-brane in the $g$-[[twisted sector]].
+
+([Douglas-Greene-Morrison 97, (3.8)](#DouglasGreeneMorrison97), [Diaconescu-Gomis 99 (2.4)](#DiaconescuGomis99), [Billó-Craps-Roose 01, (4.65) with (4.41)](#BilloCrapsRoose01), [EGJ 05, (4.5)](#EGJ05), [Recknagel-Schomerus 13 (4.102)](#RecknagelSchomerus13))
+
+
+
 ## Related concepts
 
 * [NS5 half-brane](NS5-brane#NSHalfBranes)
@@ -227,7 +257,7 @@ Discussion in terms of [[twisted sector]] [[boundary states]] in [[worldsheet]] 
 
 * M. Frau, A. Liccardo, R. Musto, _The Geometry of Fractional Branes_, Nucl.Phys. B602 (2001) 39-60 ([arXiv:hep-th/0012035](https://arxiv.org/abs/hep-th/0012035))
 
-* M. Billo', B. Craps, F. Roose, _Orbifold boundary states from Cardy's condition_, JHEP 0101:038, 2001 ([arXiv:hep-th/0011060](https://arxiv.org/abs/hep-th/0011060))
+* {#BilloCrapsRoose01} M. Billó, B. Craps, F. Roose, _Orbifold boundary states from Cardy's condition_, JHEP 0101:038, 2001 ([arXiv:hep-th/0011060](https://arxiv.org/abs/hep-th/0011060))
 
 * {#QuirozStefanski01} N. Quiroz, [[Bogdan Stefanski]], _Dirichlet Branes on Orientifolds_, Phys.Rev. D66 (2002) 026002 ([arXiv:hep-th/0110041](https://arxiv.org/abs/hep-th/0110041))
   
@@ -237,7 +267,7 @@ Discussion in terms of [[twisted sector]] [[boundary states]] in [[worldsheet]] 
 
 * {#KrizZayasQuiroz08} [[Igor Kriz]], Leopoldo A. Pando Zayas, Norma Quiroz, _Comments on D-branes on Orbifolds and K-theory_, Int.J.Mod.Phys.A23:933-974, 2008 ([arXiv:hep-th/0703122](https://arxiv.org/abs/hep-th/0703122))
 
-* {#RecknagelSchomerus13} [[Andreas Recknagel]], [[Volker Schomerus]], _Boundary Conformal Field Theory and the Worldsheet Approach to D-branes_, Cambirdge 2013 ([spire:1308990](http://inspirehep.net/record/1308990))
+* {#RecknagelSchomerus13} [[Andreas Recknagel]], [[Volker Schomerus]], _Boundary Conformal Field Theory and the Worldsheet Approach to D-branes_, Cambridge 2013 ([spire:1308990](http://inspirehep.net/record/1308990))
 
 
 Relation to [[permutation branes]]:
