@@ -62,6 +62,9 @@ Similarly, a monoid in $(C,\otimes,I)$ may be defined as the [[hom-object]] of a
 
 For more on this see also [[group]].
 
+### As a strict monoidal category
+
+An alternate way to view a monoid as a category is as a discrete [[strict monoidal category]] $\mathbf{C}$ where the elements of the monoid are the objects of $\mathbf{C}$, the binary operation of the monoid provides the tensor product bifunctor, and the identity of the monoid is the unit object. Preordered monoids then yield (non-discrete) strict monoidal categories with the morphisms witnessing the preorder in the usual way.
 
 ### $\mathcal{O}$-Monoids over an $(\infty,1)$-Operad
 
