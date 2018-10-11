@@ -43,6 +43,10 @@ It may be noteworthy that the established construction of [[perturbative quantum
 
 ## References
 
+General introduction includes
+
+* Alexander P. Bakulev, [[Dmitry Shirkov]], _Inevitability and Importance of Non-Perturbative Elements in Quantum Field Theory_, Proceedings of the 6th Mathematical Physics Meeting, Sept. 14--23, 2010, Belgrade, Serbia (ISBN 978-86-82441-30-4), pp. 27--54 ([arXiv:1102.2380](https://arxiv.org/abs/1102.2380)) 
+
 Outlook from the point of view of [[causal perturbation theory]]/[[locally covariant perturbative quantum field theory]] is in
 
 
@@ -53,6 +57,9 @@ A textbook account in the school of [[AQFT]] is in
 
 * [[Franco Strocchi]], _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press, 2013
 
+See also
+
+* {#Froehlich92} [[Jürg Fröhlich]], _Non-perturbative quantum field theory -- Mathematical Aspects and Applications_, Advanced Series in Mathematical Physics, World Scientific 1992
 
 
 Lectures notes for non-perturbative [[supersymmetry|supersymmetric]] QFT (such as in [[AdS-CFT]]) includes
