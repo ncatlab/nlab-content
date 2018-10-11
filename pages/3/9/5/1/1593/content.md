@@ -101,7 +101,7 @@ Discussion of orbi-orienti-folds in terms of [[equivariant K-theory|equivariant]
 
 * N. Quiroz, [[Bogdan Stefanski]], _Dirichlet Branes on Orientifolds_, Phys.Rev. D66 (2002) 026002 ([arXiv:hep-th/0110041](https://arxiv.org/abs/hep-th/0110041))
 
-* [[Volker Braun]], [[Bogdan Stefanski]], _Orientifolds and K-theory_ ([arXiv:hep-th/0206158](https://arxiv.org/abs/hep-th/0206158))
+* [[Volker Braun]], [[Bogdan Stefanski]], _Orientifolds and K-theory_, Braun, Volker. "Orientifolds and K-theory." Progress in String, Field and Particle Theory. Springer, Dordrecht, 2003. 369-372 ([arXiv:hep-th/0206158](https://arxiv.org/abs/hep-th/0206158))
 
 * H. Garcia-Compean, W. Herrera-Suarez, B. A. Itza-Ortiz, O. Loaiza-Brito, _D-Branes in Orientifolds and Orbifolds and Kasparov KK-Theory_, JHEP 0812:007, 2008 ([arXiv:0809.4238](https://arxiv.org/abs/0809.4238))
 
