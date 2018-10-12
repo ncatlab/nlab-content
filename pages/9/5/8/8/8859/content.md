@@ -15,7 +15,6 @@ category: people
 
 [[!redirects Andrée Charles Ehresmann]]
 [[!redirects Andrée Ehresmann]]
-[[!redirects Andree Charles Ehresmann]]
 [[!redirects Andree Ehresmann]]
 [[!redirects A. Ehresmann]]
 [[!redirects Bastiani]]
