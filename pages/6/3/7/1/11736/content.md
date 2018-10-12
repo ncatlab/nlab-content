@@ -20,15 +20,39 @@
 
 ## Idea
 
+### General
+
 A _quiver gauge theory_ is a [[gauge theory]] -- usually a [[super Yang-Mills theory]] -- whose [[field (physics)|field]] content is determined by a [[quiver]] in that to each node $x_i$ of the quiver is assigned a [[gauge group]] $U(n_i)$ and to each edge a [[fermion]] field species which is charged as the [[fundamental representation]] under the gauge group of the target and the anti-fundamental representation of the domain of the quiver edge.
 
 Such data naturally arises in [[geometric engineering of quantum field theory]] from [[D-brane]] models in [[string theory]] with D-branes located at certain [[singularities]] of a [[Calabi-Yau variety]]: the nodes $x_i$ of the quiver for a $(d+1)$-dimensional quiver gauge theory correspond to $n_i$ coincident $d$-[[D-branes]] and the edges of the quiver to [[open string]] states stretching between these branes. Under this interpretation, a [[representation]] of the quiver corresponds to giving all these fields a [[vacuum expectation value]].
+
+
+### As fixed point locus
+
+Consider a $U(N)$ [[Chan-Paton gauge field]] theory on [[D-branes]] at a $G$-[[orbifold]] [[singularity]] $\mathbb{C}^n\sslash G$ for $\Gamma$ a [[finite group]].
+
+Then the [[fermions]] transform in $\mathbf{c} \otimes (N \mathbf[r]) \otimes (N \mathbf{r}^\ast)$, where $\mathbf{r}$ denotes the [[regular representation]] of $\Gamma$ and $\mathbf{c}$ denotes the representation which defines the [[orbifold]] [[action]]. 
+
+Then the $\Gamma$-[[fixed point space]] inside this representation is
+
+$$
+  \big(
+    \mathbf{c} \otimes (N \mathbf[r]) \otimes (N \mathbf{r}^\ast)
+  \big)^\Gamma
+$$
+
+is the corresponding weighted [[McKay quiver]] matrix.
+
+This observation is due to [Lawrence-Nekrasov-Vafa 98, Section 2.1](#LawrenceNekrasovVafa98)
+
+
+
 
 ## Properties
 
 ### Relation between coherent sheaves and quiver representations
 
-The [[representation theory|representation theoretic]] aspects of the [[gauge theory]] thus obtained depend only on aspects which are already seen by the [[B-model]] [[topological string]], which in this context plays the role of a simplified version of the physical [[superstring]] itself. By the discussion at [[TCFT]] this [[topological field theory]] is essentially determined by its [[derived category]] of [[B-branes]], which is a [[derived category]] of [[coherent sheaves]] on the given [[target space|target]] [[spacetime]]. Localized to suitable [[singularities]] the [[B-branes]] decompose into [[fractional branes]] which is mathematically reflected by the existence of [[exceptional collections]] of objects in the derived category. The [[endomorphism algebra]] of the [[direct sum]] of the objects in the exceptional collection turns out to be the [[path algebra]] of the corresponding [[quiver]] and under this identification the [[derived categories]] of [[coherent sheaves]] and of [[quiver representations]] are [[equivalence of categories|equivalent]] ([Bondal 90](#Bondal90)). This equivalence to quiver representations gives one of the ways of getting a concrete combinatorial handle on derived categories of [[B-branes]] and hence on properties of quiver gauge theory.
+The [[representation theory|representation theoretic]] aspects of the [[gauge theory]] thus obtained depend only on aspects which are already seen by the [[B-model]] [[topological string]], which in this context plays the role of a simplified version of the physical [[superstring]] itself. By the discussion at _[[TCFT]]_ this [[topological field theory]] is essentially determined by its [[derived category]] of [[B-branes]], which is a [[derived category]] of [[coherent sheaves]] on the given [[target space|target]] [[spacetime]]. Localized to suitable [[singularities]] the [[B-branes]] decompose into [[fractional branes]] which is mathematically reflected by the existence of [[exceptional collections]] of objects in the derived category. The [[endomorphism algebra]] of the [[direct sum]] of the objects in the exceptional collection turns out to be the [[path algebra]] of the corresponding [[quiver]] and under this identification the [[derived categories]] of [[coherent sheaves]] and of [[quiver representations]] are [[equivalence of categories|equivalent]] ([Bondal 90](#Bondal90)). This equivalence to quiver representations gives one of the ways of getting a concrete combinatorial handle on derived categories of [[B-branes]] and hence on properties of quiver gauge theory.
 
 ### Relation to Seiberg duality
 
@@ -48,6 +72,10 @@ An original article is
 
 * {#DouglasMoore96} [[Michael Douglas]], [[Gregory Moore]], _D-branes, Quivers, and ALE Instantons_ ([arXiv:hep-th/9603167](http://arxiv.org/abs/hep-th/9603167))
 
+The understanding of the [[McKay quiver]] as the [[fixed point space]] in the [[fermion]]-representation under [[R-symmatry]] is due to 
+
+* {#LawrenceNekrasovVafa98} A. Lawrence, [[Nikita Nekrasov]], [[Cumrun Vafa]], _On Conformal Theories in Four Dimensions_, Nucl.Phys. B533 (1998) 199-209 ([arXiv:hep-th/9803015](https://arxiv.org/abs/hep-th/9803015))
+
 In 
 
 * {#Bondal90} [[Alexei Bondal]], _Helices, representations of quivers and Koszul algebras_, in Helices and vector bundles, vol. 148 of London Math. Soc. Lecture Note Ser., pp. 75&#8211;95. Cambridge Univ. Press, Cambridge, 1990.
@@ -56,6 +84,8 @@ an [[exceptional collection]] in the [[derived category]] of [[coherent sheaves]
 
 
 Review and discussion of further details includes
+
+* Yang-Hui He, _Lectures on D-branes, Gauge Theories and Calabi-Yau Singularities_ ([arXiv:hep-th/0408142](https://arxiv.org/abs/hep-th/0408142))
 
 * {#BergmnProudfoot04} [[Aaron Bergman]], [[Nicholas Proudfoot]], _Moduli Spaces for D-branes at the Tip of a Cone_, JHEP0603:073, 2006 ([arXiv:hep-th/0510158](http://arxiv.org/abs/hep-th/0510158))
 
