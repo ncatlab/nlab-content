@@ -1556,8 +1556,7 @@ We can use this to prove that a [[locally presentable (∞,1)-category]] is [[lo
 
 The original articles are
 
-* [[Denis-Charles Cisinski]] , _Th&#233;ories homotopiques
-dans les topos_, JPAA, Volume 174 (2002), p.43-82
+* [[Denis-Charles Cisinski]] , _Th&#233;ories homotopiques dans les topos_, JPAA, Volume 174 (2002), p.43-82
  {#Cisinski02}
 
 * [[Denis-Charles Cisinski]], _[[joyalscatlab:Les préfaisceaux comme modèles des types d'homotopie]]_, Ast&#233;risque, Volume 308, Soc. Math. France (2006), 392 pages ([pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf))
