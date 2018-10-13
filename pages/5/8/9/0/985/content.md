@@ -125,7 +125,7 @@ The original development of the theory by [[Grothendieck]]  is in [[SGA1]].
 
 A more recent treatment can be found in
 
-* [[Eduardo Dubuc]], C. S. de la Vega, _On the Galois theory on Grothendieck_, Bol. Acad. Nac. Cienc. (Cordoba) **65** (2000) 111--136. [arXiv:math.CT/0009145](http://arxiv.org/abs/math.CT/0009145)
+* [[Eduardo Dubuc]], C. S. de la Vega, _On the Galois theory of Grothendieck_, Bol. Acad. Nac. Cienc. (Cordoba) **65** (2000) 111--136. [arXiv:math.CT/0009145](http://arxiv.org/abs/math.CT/0009145)
 
 and more related categorical and topos theoretic aspects in
 
