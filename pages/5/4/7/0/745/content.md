@@ -151,6 +151,12 @@ In terms of the imagery of [[loop space objects]], the comma category is the cat
 
 ## Properties
 
+### Completeness and cocompleteness
+
+If $C$ and $D$ are [[complete category|complete]] and $f: C \to E$ is [[continuous functor|continuous]] and $g :D \to E$ is arbitrary functor (not necessarily continuous) then the comma category $(f/g)$ is complete.  Similarly, if $C$ and $D$ are [[cocomplete category|cocomplete]] and $f: C \to E$ is [[cocontinuous functor|cocontinuous]] then $(f/g)$ is cocomplete.  For a proof see 
+
+* Rydeheard, David E., and Rod M. Burstall. Computational category theory. Vol. 152. Englewood Cliffs: Prentice Hall, 1988.  Section 5.2: colimits in comma categories.
+
 ### Functors and comma categories 
 
 * [[functors and comma categories]]
