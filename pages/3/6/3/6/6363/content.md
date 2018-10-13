@@ -60,7 +60,7 @@ And
 
 * [[Top]]${}_{Haus}$ for the category of [[Hausdorff topological spaces]]
 
-* $Top_{cpt}$ for the [[full subcategory]] of [[Top]]${}_{Haus}$ on the [[compact topological spaces]];
+* $Top_{cpt}$ for the [[full subcategory]] of [[Top]]${}_{Haus}$ of the [[compact topological spaces]];
 
 * $*/Top_{cpt}$ for the category of [[pointed topological space|pointed topological]] [[compact Hausdorff spaces]], i.e. the [[pointed objects]] in $Top_{cpt}$;
 
