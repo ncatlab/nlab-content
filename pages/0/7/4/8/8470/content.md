@@ -42,7 +42,7 @@ In other words, the [[axiom of multiple choice]] appears in different strengths 
 
 =--
 
-Note that an impredicative [[elementary topos]] is *not* necessarily a predicative topos in this sense.  A topos is always a $\Pi$-pretopos, and if it has an [[NNO]] then it is a $\Pi W$-pretopos, but it need not satisfy WISC.
+Note that an impredicative [[elementary topos]] is *not* necessarily a predicative topos in this sense.  A topos is always a $\Pi$-pretopos, and if it has an [[NNO]] then it is a $\Pi W$-pretopos, but it need not satisfy WISC ([Roberts 2015]({#Roberts15})).
 
 A different approach to a notion of predicative topos is to assert, rather than a weak choice principle, the existence of some categorical version of [[higher inductive types]].  But this would also exclude some elementary toposes.
 
