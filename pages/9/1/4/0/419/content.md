@@ -103,7 +103,7 @@ $$
    \;\colon\;
   (\mathcal{C},\otimes)
     \longrightarrow
-  (Ho(\mathcal{C}, \otimes^L)
+  (Ho(\mathcal{C}), \otimes^L)
 $$
 
 is a [[lax monoidal functor]].
