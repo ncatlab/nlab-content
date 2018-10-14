@@ -210,9 +210,9 @@ and State Disturbance_ ([pdf](http://www.perimeterinstitute.ca/personal/cfuchs/B
 
 A discussion of entropy with an eye towards the [[presheaf topos]] over the [[site]] of finite [[measure spaces]] is in 
 
-* [[Mikhail Gromov]], _In a Search for a Structure, Part I: On Entropy_ (2012) ([pdf](http://www.ihes.fr/~gromov/PDF/structre-serch-entropy-july5-2012.pdf))
+* [[Mikhail Gromov]], _In a Search for a Structure, Part I: On Entropy_ (2012) ([pdf](https://www.ihes.fr/~gromov/wp-content/uploads/2018/08/structre-serch-entropy-july5-2012.pdf))
 
-* [[William Lawvere]], _State categories, closed categories, and the existence_ (subtitle: Semi-continuous entropy functions), IMA reprint 86, [pdf](http://www.ima.umn.edu/preprints/Jan84Dec84/86s.pdf)
+* [[William Lawvere]], _State categories, closed categories, and the existence_ (subtitle: Semi-continuous entropy functions), IMA reprint 86, [pdf](https://www.ima.umn.edu/State-Categories-Closed-Categories-and-Existence-Semi-Continuous-Entropy-Functions)
 
 
 ### Axiomatic characterizations
