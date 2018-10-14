@@ -47,7 +47,7 @@ where $g^{jk}$ denotes the inverse of the metric tensor and $Q_{lm}$ is a quadra
 
 * Wikipedia, _[Ricci curvature](http://en.wikipedia.org/wiki/Ricci_curvature)_
 * Anderson, _Convergence  and rigidity of manifolds under Ricci curvature bounds_ , Invent. Math. (1990)
-* Anderson und Cheeger, _$C^\alpha$-compactnes for manifolds with Ricci curvature and infectivity radius bounded below_ J. Diff. Geo. (1992)
+* Anderson und Cheeger, _$C^\alpha$-compactness for manifolds with Ricci curvature and injectivity radius bounded below_ J. Diff. Geo. (1992)
 * Cheeger and Naber, _Lower bounds on Ricci curvature and quantitative behavior of singular sets_ Invent. Math. (2013)
 
 [[!redirects Ricci curvatures]]
