@@ -72,7 +72,7 @@ An original article is
 
 * {#DouglasMoore96} [[Michael Douglas]], [[Gregory Moore]], _D-branes, Quivers, and ALE Instantons_ ([arXiv:hep-th/9603167](http://arxiv.org/abs/hep-th/9603167))
 
-The understanding of the [[McKay quiver]] as the [[fixed point space]] in the [[fermion]]-representation under [[R-symmatry]] is due to 
+The understanding of the [[McKay quiver]] as the [[fixed point space]] in the [[fermion]]-representation under [[R-symmetry]] is due to 
 
 * {#LawrenceNekrasovVafa98} A. Lawrence, [[Nikita Nekrasov]], [[Cumrun Vafa]], _On Conformal Theories in Four Dimensions_, Nucl.Phys. B533 (1998) 199-209 ([arXiv:hep-th/9803015](https://arxiv.org/abs/hep-th/9803015))
 
