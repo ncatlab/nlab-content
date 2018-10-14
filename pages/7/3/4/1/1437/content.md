@@ -236,6 +236,10 @@ For [[category theory|category theoretic]] treatments of the self-similarity fou
 [[!redirects terminal coalgebra of an endofunctor]]
 [[!redirects terminal coalgebras of an endofunctor]]
 
+[[!redirects terminal coalgebra of the endofunctor]]
+[[!redirects terminal coalgebras of the endofunctor]]
+
+
 [[!redirects terminal coalgebra]]
 
 [[!redirects terminal coalgebra of an endofunctor]]
