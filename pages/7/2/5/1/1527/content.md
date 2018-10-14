@@ -36,7 +36,7 @@ $$\array{
 \sum_{n \geq 0} \frac{a_n x^n}{n!} & \mapsto & (a_0, \sum_{n \geq 0} \frac{a_{n+1} x^n}{n!})
 }$$ 
 
-Thus if we set up a bisimulation $\sim$ between two power series $f, g$, establishing $f(0) = g(0)$ and $(D f) E (D g)$, we may conclude by coinduction that $f = g$ (else, $A[ [x] ]/\sim$ would be a proper quotient). 
+Thus if we set up a bisimulation $\sim$ between two power series $f, g$, establishing $f(0) = g(0)$ and $(D f) \sim (D g)$, we may conclude by coinduction that $f = g$ (else, $A[ [x] ]/\sim$ would be a proper quotient). 
 
 As an illustration: consider a field $k$ of characteristic $0$ and, for $r \in k$, define $(1 + x)^r$ to be the power series expansion of $\exp(r \cdot \log(1 + x))$, where $\exp(x) = \sum_{n \geq 0} \frac{x^n}{n!}$ and $\log(1 + x) = \sum_{n \geq 1} (-1)^{n+1}\; \frac{x^n}{n}$ is the inverse of $\exp(x)-1$. To prove the generalized [[binomial theorem]] 
 
@@ -54,7 +54,7 @@ and similarly
 
 $$D\left(\exp(r \cdot \log(1 + x))\right) = r \cdot \exp((r-1) \cdot \log(1 + x))$$ 
 
-by the [[chain rule]], whence $(D f/r) \sim D((1+x)^r/r)$. Hence $f/r$ is bisimilar to $(1+x)^r/r$, and we conclude $f(x) = (1+x)^r$. 
+by the [[chain rule]], whence $(D f/r) \sim D((1+x)^r/r)$. Hence $f/r$ is bisimilar to $(1+x)^r/r$, and we conclude in the terminal coalgebra that $f(x) = (1+x)^r$. 
 =-- 
 
 
