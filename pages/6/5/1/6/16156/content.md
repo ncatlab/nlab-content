@@ -10,9 +10,9 @@ We also discuss two interesting [[left Bousfield localizations]] of this [[model
 
 ### Dwyer-Kan model structure
 
-The [[weak equivalences]] are the [[Dwyer-Kan equivalences of dg-categories]]. The fibrations are the dg-functors that are surjective on all Hom complexes and [[isofibration|isofibrations]] at the level of homotopy categories. The fibrant objects are the locally fibrant dg-categories, i.e. for which all [[mapping complexes]] are [[fibrant objects]] in the category of [[chain complexes]].
+The [[weak equivalences]] are the [[Dwyer-Kan equivalences of dg-categories]]. The fibrations are the dg-functors that are surjective on all Hom complexes and [[isofibration|isofibrations]] at the level of homotopy categories. The fibrant objects are the locally fibrant dg-categories, i.e. for which all [[mapping complexes]] are [[model structure on chain complexes|fibrant objects]] in the category of [[chain complexes]].
 
-This model structure is cofibrantly generated, see https://arxiv.org/abs/math/0407338.
+This model structure is cofibrantly generated, see [here](https://arxiv.org/abs/math/0407338).
 
 ### Quasi-equiconic model structure
 
