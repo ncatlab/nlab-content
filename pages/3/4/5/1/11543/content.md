@@ -33,7 +33,9 @@ $$(1 + x)^r = \sum_{k \geq 0} \frac{r^{\underline{k}} x^k}{k!}$$
 
 where the left side may be formally defined as $\exp(r \cdot \log (1+x))$, taking the principal branch of the [[logarithm]] as defined by the power series 
 
-$$\log(1 + x) = x - \frac{x^2}{2} + \frac{x^3}{3} - \ldots .$$ 
+$$\log(1 + x) = x - \frac{x^2}{2} + \frac{x^3}{3} - \ldots $$ 
+
+with radius of convergence equal to $1$. (A formal verification of the binomial theorem may be found at [[coinduction]].) 
 
 Thus, if we define the **binomial coefficient** $\binom{r}{k}$ by the formula 
 
@@ -43,7 +45,7 @@ then we have
 
 $$(y + x)^r = \sum_{k \geq 0} \binom{r}{k} y^{r-k}x^k$$ 
 
-whenever ${|y|} \gt {|x|}$. 
+whenever ${|\frac{x}{y}|} \lt 1$, i.e., whenever ${|y|} \gt {|x|}$. More precisely: for any fixed $y \neq 0$, this equation holds for any branch of the logarithm that we use to define $(y+x)^r$ as $\exp(r\log(y+x))$ over the domain $\{x: {|x|} \lt {|y|}\}$. 
 
 ## Combinatorial interpretation 
 
@@ -69,7 +71,11 @@ since a polynomial in $\mathbb{Z}[x, y]$ is the zero polynomial if it vanishes f
 
 The binomial coefficient polynomials $\binom{x}{k}$ (here $x$ is an indeterminate) satisfy the recurrence 
 
-$$\Delta \binom{x}{k} \coloneqq \binom{x+1}{k} - \binom{x}{k} = \binom{x}{k-1}, \qquad \binom{x}{0} \equiv 1, \binom{0}{k} = 0\; (k \neq 0).$$ 
+$$\Delta \binom{x}{k} \coloneqq \binom{x+1}{k} - \binom{x}{k} = \binom{x}{k-1}, \qquad \binom{x}{0} \coloneqq 1, \binom{0}{k} = 0\; (k \neq 0)$$ 
+
+where the first two equations may also be written as 
+
+$$\Delta \frac{x^\underline{k}}{k!} = \frac{x^\underline{k-1}}{(k-1)!}, \qquad \frac{x^\underline{0}}{0!} = 1.$$ 
 
 The first equation may be viewed as the discrete analogue of the continuous [[derivative]] formula 
 
