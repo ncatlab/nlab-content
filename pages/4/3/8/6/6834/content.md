@@ -142,6 +142,8 @@ Discussion of higher gauge theory for [[Green-Schwarz mechanisms]]:
 
 * [[Clay Cordova]], [[Thomas Dumitrescu]], [[Kenneth Intriligator]], _Exploring 2-Group Global Symmetries_ ([arXiv:1802.04790](https://arxiv.org/abs/1802.04790))
 
+* [[Francesco Benini]], [[Clay Cordova]], [[Po-Shen Hsin]], _On 2-Group Global Symmetries and Their Anomalies_, ([arXiv:1803.09336](https://arxiv.org/abs/1803.09336))
+
 
 
 For foundations of higher [[prequantum field theory]] see 
@@ -153,7 +155,6 @@ For foundations of higher gauge theory formalized in [[homotopy type theory]] se
 * [[Urs Schreiber]], [[Mike Shulman]], _[[schreiber:Quantum gauge field theory in Cohesive homotopy type theory]]
 
 
-[[!redirects higher gauge theory]]
 
 [[!redirects higher gauge fields]]
 
