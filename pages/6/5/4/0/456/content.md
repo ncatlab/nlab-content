@@ -237,7 +237,7 @@ Generally, a geometric morphism with logical inverse image is called an
 
 The [[inverse image]]s of geometric morphisms preserves the structure of toposes in the sense of their characterization as _categories with [[finite limit]]s that are [well-powered](indexed+category#WellPoweredness) [[indexed categories]] with respect to the canonical indexing over themselves.
 
-This appears in ([Johnstone](#Johnstone)) as remark B2.2.7 based on example B1.3.17 and prop. B1.3.14. See at [[indexed category]] the section [Well-poweredness](indexed+category#WellPoweredness)
+This appears in ([Johnstone](#Johnstone)) as remark B2.2.7 based on example B1.3.17 and prop. B1.3.14. See at [[indexed category]] the section [Well-poweredness](indexed+category#WellPoweredness),
 
 
 ### Surjection/embedding factorization
