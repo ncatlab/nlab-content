@@ -20,7 +20,7 @@
 
 ## Idea
 
-The _classifying topos of a localic groupoid_ $\mathcal{G}$ is a an incarnation of a [[localic groupoid]] (possibly a [[topological groups]]) in the category of [[toposes]]. At least in good cases, [[geometric morphisms]] into it classify $\mathcal{G}$-[[groupoid principal bundles]], whence the name
+The _classifying topos of a localic groupoid_ $\mathcal{G}$ is a an incarnation of a [[localic groupoid]] (possibly a [[topological groups]]) in the category of [[toposes]]. At least in good cases, [[geometric morphisms]] into it classify $\mathcal{G}$-[[groupoid principal bundles]], whence the name.
 
 ## Definition
 
@@ -38,7 +38,7 @@ in the 2-category [[Topos]] is called the [[classifying topos]] of $\mathcal{G}$
 
 This has a more explicit description along the lines discussed at [[sheaves on a simplicial topological space]]:
 
-For $E \in Sh(\mathcal{G}_0)$ a [[sheaf]] on the [[topological space]] of its [[objects]], say that a _$\mathcal{G}_1$-action_ on $E$ is a continuous [[groupoid action]] of $\mathcal{G}_\bullet$ on the [[etale space]] $Sp(E) \to \mathcal{G}_0$ over $\mathcal{G}_0$ that corresponds to the sheaf $E$, hence for each morphisms $f \colon x \to x$ in $\mathcal{G}$ a continuous function $\rho(f) \colon Sp(E)_x \to Sp(E)_y$ that satisfies the usual [[action]] property. These sheaves with $\mathcal{G}_1$-action and with the evident [[homomorphisms]] between them form a [[category]], and this is $Sh(\mathcal{G})$.
+For $E \in Sh(\mathcal{G}_0)$ a [[sheaf]] on the [[topological space]] of its [[objects]], say that a _$\mathcal{G}_1$-action_ on $E$ is a continuous [[groupoid action]] of $\mathcal{G}_\bullet$ on the [[etale space]] $Sp(E) \to \mathcal{G}_0$ over $\mathcal{G}_0$ that corresponds to the sheaf $E$, hence for each morphisms $f \colon x \to y$ in $\mathcal{G}$ a continuous function $\rho(f) \colon Sp(E)_x \to Sp(E)_y$ that satisfies the usual [[action]] property. These sheaves with $\mathcal{G}_1$-action and with the evident [[homomorphisms]] between them form a [[category]], and this is $Sh(\mathcal{G})$.
 
 
 ## Properties
