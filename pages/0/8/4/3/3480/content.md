@@ -423,7 +423,7 @@ $$
   \,.
 $$
 
-In particular do we have [[natural isomorphisms]] of [[homotopy group]]s
+In particular we have [[natural isomorphisms]] of [[homotopy group]]s
 
 $$
   \pi_n End(LConst(X) \stackrel{F_x}{\to} \infty Grpd)
@@ -537,7 +537,7 @@ Tannaka duality for dg-categories is studied in
 
 * J.P.Pridham, _Tannaka duality for enhanced triangulated categories_, [arxiv/1309.0637](http://arxiv.org/abs/1309.0637)
 
-mathOverflow: [does-the-tannaka-krein-theorem-come-from-an-equivalence-of-2-categories](http://mathoverflow.net/questions/30453/does-the-tannaka-krein-theorem-come-from-an-equivalence-of-2-categories)
+* MathOverflow, [Does the Tannaka-Krein theorem come from an equivalence of 2-categories?](http://mathoverflow.net/questions/30453/does-the-tannaka-krein-theorem-come-from-an-equivalence-of-2-categories)
 
 [[!redirects Tannaka reconstruction]]
 
