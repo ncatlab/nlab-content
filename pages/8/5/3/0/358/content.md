@@ -23,7 +23,7 @@
 
 ## Idea
 
-A $k$-tuply monoidal $n$-category is an $n$-[[n-category|category]] in which [[objects]] can be multiplied in $k$ different ways, all of which [[interchange law|interchange]] with each other up to equivalence.  By the [[Eckmann?Hilton argument]], this implies that these $k$ ways all end up being equivalent, but that the single resulting operation is more and more commutative as $k$ increases.  The [[stabilization hypothesis]] states that by the time we reach $k = n + 2$, the multiplication has become "maximally commutative." 
+A $k$-tuply monoidal $n$-category is an $n$-[[n-category|category]] in which [[objects]] can be multiplied in $k$ different ways, all of which [[interchange law|interchange]] with each other up to equivalence.  By the [[Eckmann-Hilton argument]], this implies that these $k$ ways all end up being equivalent, but that the single resulting operation is more and more commutative as $k$ increases.  The [[stabilization hypothesis]] states that by the time we reach $k = n + 2$, the multiplication has become "maximally commutative." 
 
 
 While there is maybe no generally accepted definition of $k$-tuply monoidal $n$-category yet, it seems that defining it to be an $n$-category with an action of the [[little k-cubes operad]] makes good sense, as discussed further below. With this definition the stabilization hypothesis is a theorem at least for $(n,1)$-[[(n,1)-category|categories]] (see below).
