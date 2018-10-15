@@ -852,7 +852,7 @@ $$
   \,.
 $$
 
-However, it is not in general the case that the [[derived critical locus]] is a [[resolution]] of the ordinary [[critical locus]], in that all its cohomology in [[negative number|negative]] degree vanishes. Instead, the cohomology of the [[Chevalley-Eilenberg algebra]] of a [[derived critical locus]] in [[negative number|negative]] degree detects [[Lie algebra action]] and more generally [[L-∞ algebra action]] on $X$ under which $S$ is invariant. If this action is incorporated into $X$ by bassing to the [[action Lie algebroid]] by passing to the [[action Lie algebroid]] $X/\mathfrak[g}$ and then forming the [[derived critical locus]] $(X/\mathfrak{g})_{d S \simeq 0}$ in there, as in example \ref{ArchetypeOfBVBRSTComplex}.
+However, it is not in general the case that the [[derived critical locus]] is a [[resolution]] of the ordinary [[critical locus]], in that all its cohomology in [[negative number|negative]] degree vanishes. Instead, the cohomology of the [[Chevalley-Eilenberg algebra]] of a [[derived critical locus]] in [[negative number|negative]] degree detects [[Lie algebra action]] and more generally [[L-∞ algebra action]] on $X$ under which $S$ is invariant. If this action is incorporated into $X$ by passing to the [[action Lie algebroid]] $X/\mathfrak{g}$ and then forming the [[derived critical locus]] $(X/\mathfrak{g})_{d S \simeq 0}$ in there, as in example \ref{ArchetypeOfBVBRSTComplex}.
 
 This issue we discuss in detail in the chapter _[Gauge fixing](#GaugeFixing)_, see prop. \ref{BVComplexIsHomologicalResolutionPreciselyIfNoNonTrivialImplicitGaugeSymmetres} below.
 
