@@ -78,7 +78,7 @@ We call $L$ **normal** over $K$ if for each $\alpha \in L$ the polynomial $f^\al
 +-- {: .num_theorem }
 ###### Theorem
 
-Let $K$ be a [[field]] and $L$ a [[subfield]]s of $\bar K$
+Let $K$ be a [[field]] and $L$ a [[subfield]] of $\bar K$
 
 $$
  K \subset L \subset \bar K
