@@ -58,14 +58,17 @@ See [[functoriality of categories of presheaves]].
 
 ### Characterization
 
-+-- {: .num_thm}
+The following [[Giraud theorem|Giraud like]] theorem stems from [[Marta Bunge|Marta Bunge's]] dissertation (1966)
+
++-- {: .num_theorem #bunge_theorem}
 ###### Theorem 
 
 A category $E$ is equivalent to a presheaf topos if and only if it is cocomplete, [[atomic category|atomic]], and [[regular category|regular]]. 
 
 =-- 
 
-This is due to [[Marta Bunge]].
+A proof as well as a second characterization using [[exact completion|exact completions]] can be found in Carboni-Vitale ([1998](#CarboniVitale98)) or Centazzo-Vitale ([2004](#Centazzo-Vitale04)). The first paper has also an interesting comparison to a classical characterization of categories [[monadic category|monadic]] over Set.
+
 
 ### Cartesian closed monoidal structure
 
@@ -74,6 +77,7 @@ As every [[topos]], a category of presheaves is a [[cartesian monoidal category|
 For details on the closed structure see
 
 * [[closed monoidal structure on presheaves]].
+
 
 ### Presheaves on over-categories and over-categories of presheaves {#RelWithOvercategories}
 
@@ -227,6 +231,12 @@ Standard references are
 * {#KS06} Masaki Kashiwara, Pierre Schapira, _Categories and Sheaves_ , Springer Heidelberg 2006.
 
 * {#MacLaneMoerdijk} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994.
+
+The characterizations of categories of presheaves are discussed in
+
+* {#CarboniVitale98}[[Aurelio Carboni|A. Carboni]], [[Enrico Vitale|E. M. Vitale]], _Regular and exact completions_ , JPAA **125** (1998) pp.79-116.
+
+* {#CentazzoVitale04}C. Centazzo, [[Enrico Vitale|E. M. Vitale]], _Sheaf theory_ , pp.311-358 in Pedicchio, Tholen (eds.), _Categorical Foundations_ , Cambridge UP 2004. ([draft](https://perso.uclouvain.be/enrico.vitale/chapter7.pdf))
 
 [[!redirects categories of presheaves]]
 [[!redirects presheaf category]]
