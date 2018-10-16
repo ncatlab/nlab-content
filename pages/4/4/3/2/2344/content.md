@@ -447,7 +447,9 @@ Along somewhat similar lines, in
 
 * Kevin Carlson, _On the ∞-categorical Whitehead theorem and the embedding of quasicategories in prederivators_, [arxiv](https://arxiv.org/abs/1612.06980)
 
-it is shown that $(\infty,1)$-categories can be literally embedded in "prederivators" as long as we allow *strict morphisms* between the latter (which is arguably somewhat against the spirit of derivators, but still interesting), and that at the 2-categorical level the embedding is conservative but generally fails to be full on large $(\infty,1)$-categories.
+it is shown that $(\infty,1)$-categories can be literally embedded in "prederivators" as long as we allow *strict morphisms* between the latter (which is arguably somewhat against the spirit of derivators, but still interesting), and that at the 2-categorical level the embedding is conservative but generally fails to be full on large $(\infty,1)$-categories.  This is developed further in
+
+* Daniel Fuentes-Keuthan, Magdalena Kedziorek, Martina Rovelli, *A model structure on prederivators for (∞,1)-categories*, [arxiv](https://arxiv.org/abs/1810.06496), 2018
 
 An introductory discussion aimed towards [[stable derivator]]s is also in
 
