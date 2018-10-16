@@ -31,7 +31,11 @@ Any reason for this striking pattern presently remains mysterious.
 
 While the particle content of any one single generation would naturally be explained by [[GUT]] models, in terms of a single [[irreducible representation]] of a [[simple group|simple]] [[gauge group]] containing that of the [[standard model of particle physics]], this does not explain why there are three almost identical copies of this. 
 
-One suggestion to explain this phenomenon appears in [[intersecting D-brane models]]. See there at _[Generations of fermions](https://ncatlab.org/nlab/show/intersecting+D-brane+model#GenerationsOfFermions)_.
+One suggestion to explain this phenomenon appears in [[intersecting D-brane models]]. See there at _[Generations of fermions](intersecting+D-brane+model#GenerationsOfFermions)_.
+
+## Related concepts
+
+* [[flavour anomaly]]
 
 ## References
 
