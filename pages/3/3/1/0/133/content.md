@@ -53,6 +53,17 @@ However, when working in a category that has an [[internal logic]], we may want 
 
 This is generally a weaker statement: a [[topos]] satisfies the external AC if and only if it satisfies the internal AC and also (the external form of) [[supports split]].   Often, however, this is the more relevant notion to consider.
 
+The following characterization can be found in Freyd-Scedrov ([1990](#FreydScedrov90), p.181)
+
++-- {: .num_theorem} 
+###### Theorem 
+A [[Grothendieck topos]] satisfies the internal axiom of choice iff it is a [[Boolean topos|Boolean]] [[étendue]]. 
+=-- 
+
+In particular, satisfaction of IAC entails Booleanness.
+
+Classical examples of Boolean étendues are provided by toposes of group actions hence these all satisfy IAC but satisfy AC only in case the group is trivial (cf. Johnstone [1977](#JT77), p.144 or Freyd-Scedrov [1990](#FreydScedrov90), p.84, 179)).
+
 If a topos $C$ satisfies IAC, then so do all of its [[slice categories]], although this may not be obvious.  See [this answer](http://mathoverflow.net/questions/139874/pullback-stability-of-internally-projective-objects/140262#140262). 
 
 ### In toposes 
@@ -180,6 +191,10 @@ Discussion in [[toposes]] is in
 
   Despite the title, this covers more than countable choice, but the focus is on sequential aspects (metric spaces, first- and second-countable spaces, etc).
 
+A classical reference for AC in toposes is section 5.2 (pp.140ff) in
+
+* {#JT77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Reprinted by Dover Mineola 2014)
+
 Relation to [[cohomology]] is discussed in 
 
 * [[Andreas Blass]], _Cohomology detects failures of the axiom of choice_, Trans. Amer. Math. Soc. 279 (1983), 257-269 ([web](http://www.ams.org/journals/tran/1983-279-01/S0002-9947-1983-0704615-7/))
@@ -189,6 +204,10 @@ Relation to [[cohomology]] is discussed in
 An alternative form of AC in toposes using injectivity is explored in
 
 * Toby Kenney, _Injective Power Objects and the Axiom of Choice_ , JPAA **215** (2011) pp.131&#8211;144.
+
+The result on IAC in toposes stems from
+
+* {#FreydScedrov90}[[Peter Freyd|P. J. Freyd]], A. Scedrov, _[[Categories, Allegories]]_ , North-Holland Amsterdam 1990.
 
 ### In homotopy type theory
  {#ReferencesInHomotopy}
