@@ -170,6 +170,7 @@ If a lattice has both properties, as in a [[completely distributive lattice]], t
   
 $$(u \Rightarrow v) = \bigvee_{x \wedge u \leq v} x \qquad  = \qquad (u \backslash v) = \bigwedge_{u \leq v \vee x} x$$ 
 
+> Does it make sense to define "infinitely distributive property" for non-complete lattices? (Something like: "Whenever the join exists, it satisfies the infinite distributive law.")
 
 ## Properties
 
