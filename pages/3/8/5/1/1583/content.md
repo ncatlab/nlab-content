@@ -16,7 +16,7 @@
 
 ## Definition
 
-[[the|The]]  **empty space** is the [[topological space]] with no points.  That is, it is the [[empty set]] equipped with its unique topology.
+The **empty space** is the [[topological space]] with no points.  That is, it is the [[empty set]] equipped with its unique topology.
 
 
 ## Properties
