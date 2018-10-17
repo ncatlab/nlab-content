@@ -90,11 +90,15 @@ The [[fibrant objects]] in $sSet_{Joyal}$ are precisely those that are [[inner f
 
 ([Lurie, theorem 2.4.6.1](#Lurie))
 
+
+Let $\mathcal{B}$ be a set of representatives of isomorphism classes of simplicial sets $B$ satisfying the following properties
+
+* $B_0=\{0,1\}$,
+* $B$ has countably-many simplices,
+* The inclusion $\{0\}\to B$ is a categorical equivalence.
+
 \begin{proposition}
-The set of inner horn inclusions
-together with a set of representatives of weak equivalences $\{0\}\to B$,
-where $B$ has two vertices and countably many nondegenerated simplices,
-is a set of generating acyclic cofibrations for the Joyal model structure.
+The union of $\mathcal{B}$ just defined with the set of inner horn inclusions is a set of generating acyclic cofibrations for the Joyal model structure. 
 \end{proposition}
 
 \begin{proof}
@@ -103,7 +107,7 @@ See \cite[Theorem B]{Stevenson}.
 
 ### Relation to the model structure for $\infty$-groupoids {#RelToInfGrpds}
 
-The inclusion of [[(∞,1)-category|(∞,1)-catgeories]] [[? Grpd]] $\stackrel{i}{\hookrightarrow}$ [[(∞,1)Cat]] has a left and a right [[adjoint (∞,1)-functor]]
+The inclusion of [[(∞,1)-category|(∞,1)-catgeories]] [[∞Grpd]] $\stackrel{i}{\hookrightarrow}$ [[(∞,1)Cat]] has a left and a right [[adjoint (∞,1)-functor]]
 
 $$
   (grpdfy \dashv i \dashv Core)
@@ -192,18 +196,17 @@ The original construction of the Joyal model structure is in
 
 * [[Andre Joyal]], _Theory of quasi-categories I_ 
 
-Unfortunately, this is still not publically available. 
+Unfortunately, this is still not publicaly available. 
 
 A proof that proceeds via [[homotopy coherent nerve]] and [[simplicially enriched categories]] is given in detail following theorem 2.2.5.1 in
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ 
 
 Another construction is given in
 
 \bibitem{Stevenson}
-Danny Stevenson.
-Notes on the Joyal model structure.
+[[Danny Stevenson]], _Notes on the Joyal model structure_ (2018) arXiv:[1810.05233](https://arxiv.org/abs/1810.05233).
 
 The relation to the model structure for [[complete Segal space]]s is in
 
@@ -211,8 +214,8 @@ The relation to the model structure for [[complete Segal space]]s is in
 
 Discussion with an eye towards [[Cisinski model structures]] and the [[model structure on cellular sets]] is in 
 
-* [[Dimitri Ara]], _Higher quasi-categories vs higher Rezk spaces_ ([arXiv](http://arxiv.org/abs/1206.4354))
- {#Ara}
+* {#Ara} [[Dimitri Ara]], _Higher quasi-categories vs higher Rezk spaces_ ([arXiv](http://arxiv.org/abs/1206.4354))
+ 
 
 See also
 
