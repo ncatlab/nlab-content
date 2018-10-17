@@ -179,7 +179,7 @@ If $A = \mathcal{B}(H)$ is the algebra of [[bounded operator]]s on a [[Hilbert s
 
 =--
 
-This is ([HeunenLandsmanSpitters, theorem 6](#HeunenLandsmanSpitters)), following ([ButterfieldIsham](#ButterfieldIsham)).
+This is ([HeunenLandsmanSpitters, theorem 6](#HeunenLandsmanSpitters)), following ([Butterfield-Hamilton-Isham](#ButterfieldHamiltonIsham)).
 
 
 
@@ -189,7 +189,7 @@ This is ([HeunenLandsmanSpitters, theorem 6](#HeunenLandsmanSpitters)), followin
 
 The proposal that the the noncommutative geometry of $A$ is fruitfully studied via the commutative geometry over $ComSub(A)$ goes back to 
 
-* [[Jeremy Butterfield]],  John Hamilton, [[Chris Isham]], _A topos perspective on the Kochen-Specker theorem_ 
+* {#ButterfieldHamiltonIsham} [[Jeremy Butterfield]],  John Hamilton, [[Chris Isham]], _A topos perspective on the Kochen-Specker theorem_ 
 
   _I. quantum states as generalized valuations_ International Journal of Theoretical Physics,
 37(11):2669&#8211;2733, 1998.
@@ -199,17 +199,17 @@ The proposal that the the noncommutative geometry of $A$ is fruitfully studied v
 
   _III. Von Neumann algebras as the base category_ International Journal of
 Theoretical Physics, 39(6):1413&#8211;1436, 2000.
-  {#ButterfieldHamiltonIsham}
+  
 
 The proposal that the non-commutativity of the [[phase space]] in [[quantum mechanics]] is fruitfully understood in the light of this has been amplified in a series of articles
 
-* [[Andreas Döring]], [[Chris Isham]], _A topos foundation for theories of physics_ Journal of Mathematical Physics (2008)
-{#DoeringIsham}
+* {#DoeringIsham} [[Andreas Döring]], [[Chris Isham]], _A topos foundation for theories of physics_ Journal of Mathematical Physics (2008)
+
 
 The presheaf topos on $ComSub(A)^{op}$ ([[Bohr topos]]) and its internal localic Gelfand dual to $A$ is discussed in
 
-* [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], _A topos for algebraic quantum theory_ ([arXiv:0709.4364](http://arxiv.org/abs/0709.4364))
-{#HeunenLandsmanSpitters}
+* {#HeunenLandsmanSpitters} [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], _A topos for algebraic quantum theory_ ([arXiv:0709.4364](http://arxiv.org/abs/0709.4364))
+
 
 
 See also [[higher category theory and physics]].
@@ -219,13 +219,13 @@ See also [[higher category theory and physics]].
 
 The [relation to Jordan algebras](#RelationToJordanAlgebras) of $ComSub(A)$ is discussed in
 
-* [[John Harding]], [[Andreas Döring]], _Abelian subalgebras and the Jordan structure of a von Neumann algebra_ ([arXiv:1009.4945](http://arxiv.org/abs/1009.4945))
-{#HardingDoering}
+* {#HardingDoering} [[John Harding]], [[Andreas Döring]], _Abelian subalgebras and the Jordan structure of a von Neumann algebra_ ([arXiv:1009.4945](http://arxiv.org/abs/1009.4945))
+
 
 for $A$ a [[von Neumann algebra]] and more generally for $A$ a [[C*-algebra]] in 
 
-* [[Jan Hamhalter]], _Isomorphisms of ordered structures of abelian $C^\ast$-subalgebras of $C^\ast$-algebras_, J. Math. Anal. Appl. 383 (2011) 391&#8211;399 ([journal](dx.doi.org/10.1016/j.jmaa.2011.05.035))
- {#Hamhalter}
+* {#Hamhalter} [[Jan Hamhalter]], _Isomorphisms of ordered structures of abelian $C^\ast$-subalgebras of $C^\ast$-algebras_, J. Math. Anal. Appl. 383 (2011) 391&#8211;399, doi:[10.1016/j.jmaa.2011.05.035](https://dx.doi.org/10.1016/j.jmaa.2011.05.035)
+ 
 
 See at _[[Harding-Döring-Hamhalter theorem]]_.
 
