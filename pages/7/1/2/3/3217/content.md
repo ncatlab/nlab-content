@@ -25,11 +25,11 @@
 
 ## Idea
 
-A _foliation_ of a [[manifold]] $X$ is a decomposition into [[submanifolds]]. These submanifolds are called the _leaves_ of the foliation and one says that $X$ is _foliated by the leaves_. In order to have a useful notion, leaves are required to behave sufficiently well locally. In particular if all leaves have the same [[dimension]] then one speaks of a _regular foliation_, which is the case discussed here. If the dimension of leaves is allowed to vary one speaks instead a _[[singular foliation]]_, see there for more details.
+A _foliation_ of a [[manifold]] $X$ is a decomposition into [[submanifolds]]. These submanifolds are called the _leaves_ of the foliation and one says that $X$ is _foliated by the leaves_. In order to have a useful notion, leaves are required to behave sufficiently well locally. In particular, if all leaves have the same [[dimension]], then one speaks of a _regular foliation_, which is the case discussed here. If the dimension of leaves is allowed to vary, one speaks instead a _[[singular foliation]]_; see there for more details.
 
-For [[smooth manifolds]] smooth foliations are decomposition into [[immersion|immersed]] [[submanifolds]] such that locally this is by the [[fibers]] of a [[submersion]] (the projection to the [[space of leaves]]).
+For [[smooth manifolds]], smooth foliations are decompositions into [[immersion|immersed]] [[submanifolds]] that locally can be expressed as [[fibers]] of a [[submersion]] (the projection to the [[space of leaves]]).
 
-For [[smooth manifolds]] $X$, foliations arise (and this was the historical motivation for introducing them in ([Ehresmann](#Ehresmann)), ([Reeb](#Reeb))) from subbundles of the [[tangent bundle]] $E \hookrightarrow T X$ which are [[integrable distributions]] (in that the [[Lie bracket]] of [[vector fields]] that are [[sections]] of $E$ is again a section of $E$): the leaves are the submanifolds whose tangent vectors are sections of $E$. If one thinks of $E$ as encoding a [[differential equation]] then the leaves are the solution spaces to this equation.
+Historically (as they were introduced in [Ehresmann](#Ehresmann) and [Reeb](#Reeb)), one considered foliations for [[smooth manifolds]] $X$ as arising from subbundles of the [[tangent bundle]] $E \hookrightarrow T X$ that are [[integrable distributions]] in the sense that the [[Lie bracket]] of [[vector fields]] that are [[sections]] of $E$ is again a section of $E$: the leaves are the submanifolds whose tangent vectors are sections of $E$. If one thinks of $E$ as encoding a [[differential equation]], then the leaves are the solution spaces to this equation.
 
 Expressed in terms of [[higher Lie theory]] such an integrable distribution is a sub-[[Lie algebroid]] of the [[tangent Lie algebroid]] of $X$. Accordingly, under [[Lie integration]] of this structure foliations of $X$ are also equivalently encodes as [[Lie groupoids]] whose space of objects is $X$ and whose [[orbits]] are the leaves of the foliation.
 
@@ -49,7 +49,7 @@ $$ M  = \cup_\alpha V_\alpha $$
 
 is called a **foliation** if there is a [[cover]] of $M$ by a collection of "special" [[charts]] of the form $(U, \phi)$, $\phi = (\phi_1,\ldots,\phi_n) : U \to \mathbb{R}^n$ such that for each "special" chart and each $\alpha$ there is a number $p\leq n$, called the _dimension of the foliation_, such that the intersection of any given leaf $V_\alpha$ with $U$ is one of the level sets, i.e. the solution of the system $\phi_r(x) = const = const(r,U,\alpha)$ for all $r\gt p$.
 
-If the manifold is a [[smooth manifold]], the charts may be required to be smooth too, to obtain the notion of a _smooth foliation_ or _folitation in [[differential geometry]]_. In this case, the $p$-dimensional foliations with underlying manifold $X$ are in 1-1 correspondence with [[integrable distributions]] of hyperplanes of dimension $p$ in the [[tangent bundle]] of $X$. 
+If the manifold is a [[smooth manifold]], the charts may be required to be smooth too, to obtain the notion of a _smooth foliation_ or _foliation in [[differential geometry]]_. In this case, the $p$-dimensional foliations with underlying manifold $X$ are in 1-1 correspondence with [[integrable distributions]] of hyperplanes of dimension $p$ in the [[tangent bundle]] of $X$. 
 
 ### Alternative definitions
 
