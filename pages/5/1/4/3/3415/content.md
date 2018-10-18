@@ -91,18 +91,20 @@ The [[fibrant objects]] in $sSet_{Joyal}$ are precisely those that are [[inner f
 ([Lurie, theorem 2.4.6.1](#Lurie))
 
 
-Let $\mathcal{B}$ be a set of representatives of isomorphism classes of simplicial sets $B$ satisfying the following properties
+Let $\mathcal{B}_obj$ be a set of representatives of isomorphism classes of simplicial sets $B$ satisfying the following properties
 
 * $B_0=\{0,1\}$,
 * $B$ has countably-many simplices,
-* The inclusion $\{0\}\to B$ is a categorical equivalence.
+* The inclusion $\{0\}\to B$ is a categorical equivalence,
+
+and let $\mathcal{B}$ be the set $\{\{0\}\to B\mid B\in \mathcal{B}\}$.
 
 \begin{proposition}
 The union of $\mathcal{B}$ just defined with the set of inner horn inclusions is a set of generating acyclic cofibrations for the Joyal model structure. 
 \end{proposition}
 
 \begin{proof}
-See \cite[Theorem B]{Stevenson}.
+See ([Stevenson 2018](#Stevenson18), Theorem B).
 \end{proof}
 
 ### Relation to the model structure for $\infty$-groupoids {#RelToInfGrpds}
@@ -205,8 +207,7 @@ A proof that proceeds via [[homotopy coherent nerve]] and [[simplicially enriche
 
 Another construction is given in
 
-\bibitem{Stevenson}
-[[Danny Stevenson]], _Notes on the Joyal model structure_ (2018) arXiv:[1810.05233](https://arxiv.org/abs/1810.05233).
+* {#Stevenson18} [[Danny Stevenson]], _Notes on the Joyal model structure_ (2018) arXiv:[1810.05233](https://arxiv.org/abs/1810.05233).
 
 The relation to the model structure for [[complete Segal space]]s is in
 
