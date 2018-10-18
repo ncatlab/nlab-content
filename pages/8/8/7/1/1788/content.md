@@ -8,3 +8,7 @@
    * list
 
 $\rightharpoonup$
+
+$\llbracket \frac{x}{2} \rrbracket$
+
+$\left( \frac{x}{2} \right)$
