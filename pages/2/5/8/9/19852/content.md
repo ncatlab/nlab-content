@@ -111,14 +111,14 @@ The following proposal for the inductive structure of the argument is based on S
 
 Given a finite set of variables $V = \{x_1,\dots,x_n\} \subseteq Var$, the *presheaf of environments* for $V$ is $Tm^V$.  We will define, by structural induction on any term $t$, and any any finite set $V$ of variables, the following partial morphisms of presheaves.
 
-1. $&#10214; t &#10215;^V_{type} : Tm^V \rightharpoonup Ty$.
-1. $&#10214; t &#10215;^V_{\Rightarrow} : Tm^V \rightharpoonup Tm$.
-1. $&#10214; t &#10215;^V_{\Leftarrow} : Tm^V \times Ty \rightharpoonup Tm$ such that the composite $Tm^V \times Ty \rightharpoonup Tm \to Ty$ is the second projection.
+1. $\llbracket t \rrbracket ^V_{type} : Tm^V \rightharpoonup Ty$.
+1. $\llbracket t \rrbracket ^V_{\Rightarrow} : Tm^V \rightharpoonup Tm$.
+1. $\llbracket t \rrbracket ^V_{\Leftarrow} : Tm^V \times Ty \rightharpoonup Tm$ such that the composite $Tm^V \times Ty \rightharpoonup Tm \to Ty$ is the second projection.
 
-In fact, the third of these is not actually inductive at all: it is simply a semantic counterpart of the bidirectional mode-switching judgment.  We define $&#10214; t &#10215;^V_{\Leftarrow}$ to be the domain restriction of
-$$ Tm^V \times Ty \xrightarrow{pr_1} Tm^V \overset{&#10214; t &#10215;^V_{\Rightarrow}}{\rightharpoonup} Tm $$
+In fact, the third of these is not actually inductive at all: it is simply a semantic counterpart of the bidirectional mode-switching judgment.  We define $\llbracket t \rrbracket ^V_{\Leftarrow}$ to be the domain restriction of
+$$ Tm^V \times Ty \xrightarrow{pr_1} Tm^V \overset{\llbracket t \rrbracket ^V_{\Rightarrow}}{\rightharpoonup} Tm $$
 to the equalizer of
-$$ Tm^V \times Ty \xrightarrow{pr_1} Tm^V \overset{&#10214; t &#10215;^V_{\Rightarrow}}{\rightharpoonup} Tm \to Ty $$
+$$ Tm^V \times Ty \xrightarrow{pr_1} Tm^V \overset{\llbracket t \rrbracket ^V_{\Rightarrow}}{\rightharpoonup} Tm \to Ty $$
 and the restriction of the second projection $Tm^V \times Ty$ to its domain.
 
 
