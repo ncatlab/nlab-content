@@ -120,7 +120,7 @@ The tiny objects in a [[presheaf category]] are precisely the [[retracts]] of [[
 
 =--
 
-This is for instance ([BorceuxDejean, prop 2](#BorceuxDejean)).
+This is for instance ([BorceuxDejean, prop 2](#BorceuxDejean)). For instance, the only tiny object in [[G-set]] is $G$ itself with its regular action.
 
 Thus, if the domain category is [[Cauchy complete category|Cauchy complete]] (has [[split idempotent]]s), then every tiny presheaf is representable; and more generally the Cauchy completion or [[Karoubi envelope]] of a category can be defined to consist of the tiny presheaves on it. See [[Cauchy complete category]] for more on this. 
 
