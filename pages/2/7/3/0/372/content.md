@@ -153,7 +153,7 @@ An object $I$ in a [[category]] $C$ is initial iff $I$ is the [[limit]] of the [
 
 If $I$ is initial, then there is a [[cone]] $(!_X: I \to X)_{X \in Ob(C)}$ from $I$ to $Id_C$.  If $(p_X: A \to X)_{X \in Ob(C)}$ is any cone from $A$ to $Id_C$, then $p_X = f \circ p_Y$ for any $f:Y\to X$, and so in particular $p_X = !_X \circ p_I$.   Since this is true for any $X$, $p_I: A \to I$ defines a morphism of cones, and it is the unique morphism of cones since if $q$ is any morphism of cones, then $p_I = !_I \circ q = 1_I \circ q = q$ (using that $!_I = 1_I$ by initiality). Thus $(!_X: I \to X)_{X \in Ob(C)}$ is the limit cone. 
 
-Conversely, if $(p_X: L \to X)_{X \in Ob(C)}$ is a limit cone for $Id_C$, then $f\circ p_Y = p_X$ for any $f:Y\to X$, and so in particulary $p_X \circ p_L = p_X$ for all $X$. This means that both $p_L: L \to L$ and $1_L: L \to L$ define morphisms of cones; since the limit cone is the terminal cone, we infer $p_L = 1_L$. Then by Lemma \ref{cone} we conclude $L$ is initial. 
+Conversely, if $(p_X: L \to X)_{X \in Ob(C)}$ is a limit cone for $Id_C$, then $f\circ p_Y = p_X$ for any $f:Y\to X$, and so in particular $p_X \circ p_L = p_X$ for all $X$. This means that both $p_L: L \to L$ and $1_L: L \to L$ define morphisms of cones; since the limit cone is the terminal cone, we infer $p_L = 1_L$. Then by Lemma \ref{cone} we conclude $L$ is initial. 
 
 =-- 
 
