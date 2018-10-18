@@ -48,7 +48,7 @@ If you would like to participate, simply add your name to the list and join the 
 * [[Andrew Swan]]
 * [[Stephan Spahn]]
 * [[Matthew Weaver]]
-* [[Jonathan Weinberger]]
+* [[Jonathan Weinberger]]
 * [[tslil clingman]]
 * [[Tamara von Glehn]]
 * [[Nicolai Kraus]]
