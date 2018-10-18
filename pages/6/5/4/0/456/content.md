@@ -598,7 +598,7 @@ This map $Hom_{Top}(X,Y) \to GeomMor(Sh(X),Sh(Y))$ is an bijection of sets.
 
 That the induced pair $(f^*, f_*)$ forms a geometric morphism is (or should eventually be) discussed at [[inverse image]].
 
-We now show that every geometric morphism of sheaf toposes arises this way from a continuous function, at least up to isomorphism.  (In fact, more is true: the category of geometric morphisms $Sh(X)\to Sh(Y)$ is equivalent to the poset of continuous functons $X\to Y$ with the [[specialization ordering]].)  We follow [MacLane-Moerdijk, page 348](#MacLaneMoerdijk).
+We now show that every geometric morphism of sheaf toposes arises this way from a continuous function, at least up to isomorphism.  (In fact, more is true: the category of geometric morphisms $Sh(X)\to Sh(Y)$ is equivalent to the poset of continuous functons $X\to Y$ with the [[specialization ordering]] ([[Elephant]], Proposition C.1.4.5.).  We follow [MacLane-Moerdijk, page 348](#MacLaneMoerdijk).
 
 
 One reconstructs the continuous map $f : X \to Y$ from a geometric morphism $f : Sh(X) \to Sh(Y)$ as follows.
