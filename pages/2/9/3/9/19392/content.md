@@ -24,15 +24,15 @@ We can get a slightly simpler presentation by combining the stack and term judgm
 
 ### Type Structure
 
-Call-by-push-value is characterized not just by its judgmental structure, but by a specific *choice* of which connectives to use. It is a [[polarity in type theory|polarized]] language: except for the $F,U$ connectives, which act as polarity shifts, all value type connectives are positives, and all computation type connectives are negative.
+Call-by-push-value is characterized not just by its judgmental structure, but by a specific *choice* of which connectives to use. Except for the sfhits $F,U$, all value type connectives are left adjoints, and all computation type connectives are right adjoints.
 
-Because of this polarization, some connectives are definable from the judgments but excluded because they violate the polarity discipline. These are a tensor product $A \otimes B$ which is a computation type, a unit $I$ computation type, and a linear function space $B \multimap B'$ which is a computation type. When these are added, the system is called the [Enriched Effect Calculus](#EEC) (modulo some superficial syntactic differences).
+For this reason, some connectives are definable from the judgments but excluded because they violate this discipline. These are a tensor product $A \otimes B$ which is a computation type, a unit $I$ computation type, and a linear function space $B \multimap B'$ which is a computation type. When these are added, the system is called the [Enriched Effect Calculus](#EEC) (modulo some superficial syntactic differences).
 
 #### Shifts
 
 The shift types express the adjunction between values and stacks.
 The type $UB$ is a value type that is pronounced as "thunk of $B$", and can be thought of as the type of [[closures]] that when called behave as $B$.
-It is a negative value type, with invertible introduction rule
+It is a value type, but a right adjoint, with invertible introduction rule
 
 $$ \frac { \Gamma \vdash M : B }
          { \Gamma \vdash thunk M : UB } $$
@@ -45,7 +45,7 @@ $$ \frac { \Gamma \vdash V : UB }
 With $\beta$ rule $force thunk M = M$ and $\eta$ rule $V = thunk force V$.
 
 The type $FA$ is a computation type that is the type of "returners of $A$s".
-It is a positive computation type, with invertible elimination rule that enables the sequencing of effects:
+It is a computation type, but a left adjoint, with invertible elimination rule that enables the sequencing of effects:
 
 $$ \frac { \Gamma | \Delta \vdash M : F A \qquad \Gamma, x : A \vdash N : B}
          { \Gamma | \Delta \vdash M to x. N : B } $$
@@ -79,7 +79,7 @@ Then for example, the $F$ type above is $F_{x \otimes i}$ and the $U$ type is $U
 
 Furthermore, the mode theory also gives the "missing" types of the Enriched Effect Calculus. The tensor product is $F_{x \otimes y}$, the unit is $F_{i}$ and the linear function space is $U_{x. x\otimes y}$.
 
-Note that this mode theory is equivalent to the one given for a strong monad in [LSR](#LSR), which instead of the point $i$ adds a morphism $a : v \vdash g(a) : c$, and requires this be a kind of "homomorphism" in that
+Note that this mode theory is equivalent to the one given for a strong monad in [LSR](#LSR), which instead of the point $i$ adds a morphism $a : v \vdash g(a) : c$, and requires this be a homomorphism of $v$-actions in that
 
 $$ g(a \times b) = a \otimes g(b)$$
 
