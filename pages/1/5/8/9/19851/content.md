@@ -40,3 +40,4 @@ If you would like to participate in the [[Initiality Project]], just add your na
 * [[tslil clingman]]
 * [[Tamara von Glehn]]
 * [[Nicolai Kraus]]
+* [[Todd Trimble]]
