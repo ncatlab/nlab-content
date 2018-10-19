@@ -44,7 +44,7 @@ Let
 
 * $[\Sigma,X]$ the [[diffeological space]] of [[smooth functions]] $\Sigma \to X$.
 
-For $\phi \colon \Sigma \longrightarrow X$ the induced "proper volume" or _Nambu-Goto action_of $\phi$ is the [[integral]] over $\phi$ of the [[volume form]] of the pullback of the target space metric $g$ to $\Sigma$.
+For $\phi \colon \Sigma \longrightarrow X$ the induced "proper volume" or _Nambu-Goto action_ of $\phi$ is the [[integral]] over $\phi$ of the [[volume form]] of the pullback of the target space metric $g$ to $\Sigma$.
 
 $$
   S_{NG}(\phi) \coloneqq \int_{\Sigma} dvol(\phi^\ast(g))
@@ -73,7 +73,7 @@ $dim \Sigma = 1$ this is the [[relativistic particle]], for $dim \Sigma = 2$ the
 
 * [[membrane instanton]]
 
-* for more on brane tension see also _[Worldsheet and brane instantons](non-perturbative effect#WorldsheetAndBraneInstantons)_
+* for more on brane tension see also _[Worldsheet and brane instantons](non-perturbative+effect#WorldsheetAndBraneInstantons)_
 
 ## References
 
