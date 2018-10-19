@@ -86,7 +86,7 @@ Similarly, the category of [[Stone space]]s is algebraic, but not monadic or bou
 
 Our definitions are taken from
 
-*  **AHS**: [[Jiri Adamek|Jiří Adámek]], [[Horst Herrlich]], [[George Strecker]]; _Abstract and Concrete Categories: [[The Joy of Cats]]_, Sections 23&24; [web](http://katmat.math.uni-bremen.de/acc).
+*  **AHS**: [[Jiri Adamek|Jiří Adámek]], [[Horst Herrlich]], [[George Strecker]]; _Abstract and Concrete Categories: [[The Joy of Cats]]_, Sections 23 &amp; 24; [web](http://katmat.math.uni-bremen.de/acc).
 
 Actually, AHS discusses the more general concept of algebraic (etc) *functors*, generalising from $U\colon A \to Set$ to arbitrary functors (not necessarily faithful, not necessarily to $Set$).  We actually take our definitions from AHS\'s characterisation theorems in the case of faithful functors to $Set$.  We probably should discuss the more general concept, perhaps at [[algebraic functor]]; we already have [[monadic functor]].
 
