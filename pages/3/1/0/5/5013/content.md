@@ -52,10 +52,12 @@ The essential construction in the proof is as follows: for any finite topologica
 
 $$B\mathcal{O}(X) = \int^{[n] \in \Delta} Cat([n], \mathcal{O}(X)) \cdot Int([n], I) \to \int^{[n] \in \Delta} Cat([n], \mathcal{O}(X)) \cdot Int([n], \mathbf{2}) \cong X$$ 
 
-(where we implicitly identify $\Delta^{op}$ with the category $Int$ of finite intervals with distinct top and bottom, so that $[n] \mapsto Int([n], I)$ is a covariant functor). The isomorphism on the right informally says that any finite topological space $X$ can be constructed by gluing together copies of Sierpinski space $\mathbf{2}$, just as any preorder can be constructed by gluing together copies of the preorder $\{0 \leq 1\}$. More formally, the isomorphism is established for objects $X$ in the equivalent category $PreOrd_{fin}$, by restricting an isomorphism over objects $X$ of the larger category $PreOrd$, given by the counit of a [[nerve and realization]] adjunction 
+(where we implicitly identify $\Delta^{op}$ with the category $Int$ of finite intervals with distinct top and bottom, so that $[n] \mapsto Int([n], I)$ is a covariant functor on $\Delta$). A few remarks on this construction: 
 
+* The *interval* $[n]$ has $n+2$ elements, two of which are the distinct top and bottom. The space $Int([n], I)$ is the $n$-dimensional affine simplex. The space $Int([n], \mathbf{2})$ has $n+1$ points $0, 1, \ldots, n$, where $j$ is in the closure of $j+1$ for $0 \leq j \lt n$. The map $Int([n], I) \to Int([n], \mathbf{2})$ induced by $I \to \mathbf{2}$ takes every interior point of $Int([n], I)$ to $n \in Int([n], \mathbf{2})$. 
+
+* Informally, the isomorphism on the right says that any finite topological space $X$ can be constructed by gluing together copies of Sierpinski space $\mathbf{2}$, just as any preorder can be constructed by gluing together copies of the preorder $\{0 \leq 1\}$. More formally, the isomorphism is established for objects $X$ in the equivalent category $PreOrd_{fin}$, by restricting an isomorphism over objects $X$ of the larger category $PreOrd$, given by the counit of a [[nerve and realization]] adjunction 
 $$\int^{[n] \in \Delta} Cat([n], X) \cdot Int([n], \{0 \leq 1\}) \cong \int^{[n] \in \Delta} Cat([n], X) \cdot [n] \stackrel{counit}{\cong} X$$ 
-
 where the counit is an isomorphism because the inclusions $PreOrd \hookrightarrow Cat \stackrel{nerve}{\hookrightarrow} Set^{\Delta^{op}}$ are fully faithful. 
 
 On the other hand, any finite simplicial complex $X$ is homotopy equivalent to its [[barycentric subdivision]], which is the [[geometric realization]] of the [[poset]] of simplices ordered by inclusion. Thus finite posets model the weak homotopy types of finite simplicial complexes. 
