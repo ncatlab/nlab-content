@@ -718,8 +718,7 @@ but was there ascribed to [[Jack Duskin]] and [[Don van Osdol]] in some unpublis
 
 A useful published reference is
 
-* [[Phil Ehlers|P. J. Ehlers]] and [[Tim Porter]], _Joins for (Augmented) Simplicial Sets_,  Jour. Pure Applied Algebra, 145 (2000) 37-44
-([arXiv](http://arxiv.org/abs/math.CT/9904039)) .
+* [[Phil Ehlers|P. J. Ehlers]] and [[Tim Porter]], _Joins for (Augmented) Simplicial Sets_,  Jour. Pure Applied Algebra, 145 (2000) 37-44, ([arXiv](http://arxiv.org/abs/math.CT/9904039)) .
 
 A useful discussion emphasizing the Day convolution operation is also in section 3.1 of
 
