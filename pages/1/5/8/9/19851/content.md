@@ -43,3 +43,4 @@ If you would like to participate in the [[Initiality Project]], just add your na
 * [[Todd Trimble]]
 * [[Simon Huber]]
 * [[Andrew Polonsky]]
+* [[Thomas Streicher]]
