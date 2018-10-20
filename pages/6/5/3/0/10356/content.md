@@ -223,7 +223,15 @@ based on the analysis of [[perturbative string theory]] on (global) [[orbifold]]
 
 * {#DixonHarveyVafaWitten86} [[Lance Dixon]], [[Jeff Harvey]], [[Cumrun Vafa]], [[Edward Witten]], _Strings on orbifolds (II)_, Nuclear Physics B Volume 274, Issue 2, 15 September 1986, Pages 285-314 (<a href="https://doi.org/10.1016/0550-3213(86)90287-7">doi:10.1016/0550-3213(86)90287-7</a>)
 
-Discussion in terms of [[equivariant K-theory]]:
+The proposal that D-brane charge on [[orbifolds]] is given by [[equivariant K-theory]] goes back to
+
+* {#Witten98} [[Edward Witten]], section 5.1 of _D-Branes And K-Theory_, JHEP 9812:019,1998 ([arXiv:hep-th/9810188](http://arxiv.org/abs/hep-th/9810188))
+
+but it was pointed out that only a subgroup or quotient group of equivariant K-theory can be physically relevant, in
+
+* {#BDHKMMS01} [[Jan de Boer]], [[Robbert Dijkgraaf]], [[Kentaro Hori]], [[Arjan Keurentjes]], [[John Morgan]], [[David Morrison]], [[Savdeep Sethi]], around (137) of  _Triples, Fluxes, and Strings_, Adv.Theor.Math.Phys. 4 (2002) 995-1186 ([arXiv:hep-th/0103170](https://arxiv.org/abs/hep-th/0103170))
+
+Further discussion in terms of [[equivariant K-theory]]:
 
 * {#GarciaCompean98} Hugo Garcia-Compean, _D-branes in Orbifold Singularities and Equivariant K-Theory_, Nucl.Phys. B557 (1999) 480-504 ([arXiv:hep-th/9812226](https://arxiv.org/abs/hep-th/9812226))
 
