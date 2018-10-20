@@ -1,3 +1,16 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 # Contents
 * table of contents
 {: toc}
@@ -177,7 +190,76 @@ The sign itself is a matter of interest. An invertible transformation $f \colon 
 
 Finally, we include one more property of determinants which pertains to matrices with real coefficients (which works slightly more generally for matrices with coefficients in a [[local field]]): 
 
-* If $A$ is an $n \times n$ matrix, then $\det(\exp(A)) =$ $\exp($[[trace]]$(A))$ 
+### As a polynomial in traces of powers
+ {#AsAPolynomialInTracesofPowers}
+
+If $A$ is an $n \times n$ [[matrix]], the determinant of its [[exponential]] equals the [[exponential]] of its [[trace]] 
+
+$$
+  \det(\exp(A)) = \exp(tr(A))
+  \,.
+$$
+
+More generally, the determinant of $A$ is a [[polynomial]] in the [[traces]] of the [[powers]] of $A$:
+
+For $2 \times 2$-matrices:
+
+$$
+  det(A)
+  \;=\;
+  \tfrac{1}{2}\left( tr(A)^2 - tr(A^2) \right)
+$$
+
+For $3 \times 3$-matrices:
+
+$$
+  det(A)
+  \;=\;
+  \tfrac{1}{6}
+  \left(
+    (tr(A))^3
+    - 
+    3 tr(A^2) tr(A)
+    +
+    tr(A^3)
+  \right)
+$$
+
+For $4 \times 4$-matrices:
+
+$$
+  det(A)  
+  \;=\;
+  \tfrac{1}{24}
+  \left(
+    (tr(A))^4
+    -
+    6 tr(A^2)(tr(A))^2
+    +
+    3 (tr(A^2))^2
+    +
+    8 tr(A^3) tr(A)
+    -
+    6 tr(A^4)
+  \right)
+$$
+
+Generally for $n \times n$-matrices ([Kondratyuk-Krivoruchenko 92, appendix B](#KondratyukKrivoruchenko92)):
+
+\[
+  \label{DeterminantAsPolynomialInTracesOfPowers}
+  det(A)
+  \;=\;
+  \underset{ 
+     { k_1,\cdots, k_n \in \mathbb{N} }
+     \atop
+     { \underoverset{\ell = 1}{n}{\sum} \ell k_\ell = n }
+  }{\sum}
+  \underoverset{ l = 1 }{ n }{\prod} 
+  \frac{ (-1)^{k_l + 1} }{ l^{k_l} k_l !  }
+  \left(tr(A^l)\right)^{k_l}
+\]
+
 
 
 ## In terms of Berezinian integrals
@@ -198,5 +280,20 @@ see [[Pfaffian]] for the moment
 
 * [[density bundle]]
 
+## References
+
+See also
+
+* Wikipedia, _[Determinant](https://en.wikipedia.org/wiki/Determinant)_
+
+One derivation of the formula (eq:DeterminantAsPolynomialInTracesOfPowers) for the determinant as a polynomial in traces of powers is spelled out in appendix B of 
+
+* {#KondratyukKrivoruchenko92} L. A. Kondratyuk, I. Krivoruchenko, _Superconducting quark matter in $SU(2)$ colour group_, Zeitschrift für Physik A Hadrons and Nuclei March 1992, Volume 344, Issue 1, pp 99–115 ([doi:10.1007/BF01291027](https://doi.org/10.1007/BF01291027))
+
+
 
 [[!redirects determinants]]
+
+[[!redirects Cramer's rule]]
+[[!redirects Cramer's rules]]
+
