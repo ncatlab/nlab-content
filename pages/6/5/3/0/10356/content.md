@@ -21,9 +21,7 @@
  {#DBranesAtOrbifoldSingularities}
  
 
-For [[type II superstrings]] on a global [[orbifold]] [[spacetime]] $X\sslash G$, [[D-brane charge]] is measured by the [[equivariant K-theory]] $K_G(X)$. Under the canonical map $K(X/G) \longrightarrow K_G(X)$ from the plain [[topological K-theory]] of the [[quotient space]] [[simple object|irreducible elements]] of [[K-theory]] in general decompose into [[direct sums]] of smaller [[simple object|irreducible elements]], hence into "smaller fractions stuck at the orbifold singularity" . 
-
-The corresponding [[D-branes]] are called _fractional_ D-branes in the literature.
+For [[type II superstrings]] on a global [[orbifold]] [[spacetime]] $X\sslash G$, [[D-brane charge]] is measured by the [[equivariant K-theory]] $K_G(X)$ ([Witten 98, section 5.1](#Witten98)) or at least some [[subgroup]] or [[quotient group]] thereof ([BDHKMMS 01, around (137)](#BDHKMMS01)). Under the canonical map $K(X/G) \longrightarrow K_G(X)$ from the plain [[topological K-theory]] of the [[quotient space]] [[simple object|irreducible elements]] of [[K-theory]] in general decompose into [[direct sums]] of smaller [[simple object|irreducible elements]], hence into "smaller fractions stuck at the orbifold singularity" . The corresponding [[D-branes]] are called _fractional_ D-branes in the literature.
 
 In particular, at least for D-branes at an [[cyclic group|A-type]] singularity $\mathbb{C}^2\sslash (\mathbb{Z}/n)$, hence for $G = \mathbb{Z}/n$ a [[cyclic group]], the [[tension]] (hence [[mass]]) of a fractional D-brane is supposed to be the [[fraction]] $\tfrac{1}{{\vert G\vert}}  = \tfrac{1}{n}$ of that of the unit [[bulk]] brane away from the singularity ([Douglas-Greene-Morrison 97, p.10](#DouglasGreeneMorrison97)).
 
