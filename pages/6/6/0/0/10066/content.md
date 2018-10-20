@@ -204,6 +204,9 @@ There is a [[Chern character]] map from equivariant K-theory to [[equivariant or
 ## References
  {#References}
 
+
+### General
+
 The idea of equivariant [[topological K-theory]] and the [[Atiyah-Segal completion theorem]] goes back to 
 
 * {#Atiyah61} [[Michael Atiyah]], _Characters and cohomology of finite groups_, Publications Mathématiques de l'IHÉS, Volume 9 (1961) , p. 23-64 ([numdam]( http://www.numdam.org/item?id=PMIHES_1961__9__23_0))
@@ -263,6 +266,18 @@ Discussion of K-theory of [[orbifolds]] is for instance in section 3 of
 Discussion of combined [[twisted K-theory|twisted]] and [[equivariant K-theory|equivariant]] and [[real K-theory|real]] K-theory
 
 * {#Gomi17} [[Kiyonori Gomi]], _Freed-Moore K-theory_ ([arXiv:1705.09134](https://arxiv.org/abs/1705.09134))
+
+### For D-brane charge on orbifolds
+
+The proposal that [[D-brane charge]] on [[orbifolds]] is given by [[equivariant K-theory]] goes back to
+
+* {#Witten98} [[Edward Witten]], section 5.1 of _D-Branes And K-Theory_, JHEP 9812:019,1998 ([arXiv:hep-th/9810188](http://arxiv.org/abs/hep-th/9810188))
+
+but it was pointed out that only a subgroup or quotient group of equivariant K-theory can be physically relevant, in
+
+* {#BDHKMMS01} [[Jan de Boer]], [[Robbert Dijkgraaf]], [[Kentaro Hori]], [[Arjan Keurentjes]], [[John Morgan]], [[David Morrison]], [[Savdeep Sethi]], around (137) of  _Triples, Fluxes, and Strings_, Adv.Theor.Math.Phys. 4 (2002) 995-1186 ([arXiv:hep-th/0103170](https://arxiv.org/abs/hep-th/0103170))
+
+For further references see at _[[fractional D-brane]]_.
 
 
 [[!redirects equivariant KO-theory]]
