@@ -190,8 +190,12 @@ The concept of entropy was introduced, by [[Rudolf Clausius]] in 1865, in the co
 
 [Relative entropy](#RelativeEntropy) of [[states]] on  [[von Neumann algebras]] was introduced in 
 
-* [[Huzihiro Araki]], _Relative Entropy of States of von Neumann Algebras_ ([pdf](http://www.google.de/url?sa=t&source=web&cd=5&ved=0CEsQFjAE&url=http%3A%2F%2Fwww.ems-ph.org%2Fjournals%2Fshow_pdf.php%3Fissn%3D0034-5318%26vol%3D11%26iss%3D3%26rank%3D9&rct=j&q=entropy%20cocycle%20von%20Neumann%20algebra&ei=n3jrTYyxOI-c-waJvMnPDw&usg=AFQjCNGuJgVUE7CtGPmb2PZLhOOWt1_JPQ&cad=rja))
- {#Araki}
+* {#Araki} [[Huzihiro Araki]], _Relative Entropy of States of von Neumann Algebras_ ([pdf](http://www.google.de/url?sa=t&source=web&cd=5&ved=0CEsQFjAE&url=http%3A%2F%2Fwww.ems-ph.org%2Fjournals%2Fshow_pdf.php%3Fissn%3D0034-5318%26vol%3D11%26iss%3D3%26rank%3D9&rct=j&q=entropy%20cocycle%20von%20Neumann%20algebra&ei=n3jrTYyxOI-c-waJvMnPDw&usg=AFQjCNGuJgVUE7CtGPmb2PZLhOOWt1_JPQ&cad=rja))
+ 
+
+Survey with an eye towards [[black hole entropy]] includes
+
+* [[Ted Jacobson]], _Entropy from Carnot to Bekenstein_ ([arXiv:1810.07839](https://arxiv.org/abs/1810.07839))
 
 
 A survey of entropy in [[operator algebras]] is in 
