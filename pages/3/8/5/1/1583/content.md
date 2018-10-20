@@ -28,7 +28,7 @@ The empty space is the [[initial object]] in [[Top]].  It satisfies all [[separa
 
 ### Connectedness
 
-Debate rages over whether the empty space is [[connected space|connected]] (and also [[path-connected space|path-connected]]).  With the common naive definitions that "a space is connected if it cannot be partitioned into two disjoint nonempty open subsets" and "a space is path-connected if any two points in it can be joined by a path," the empty space is trivially both connected and path-connected.
+Debate rages over whether the empty space is [[connected space|connected]] (and also [[path-connected space|path-connected]]).  With the common naive definitions that "a space is [[connected topological space|connected]] if it cannot be partitioned into two disjoint nonempty open subsets" and "a space is [[path-connected topological space|path-connected]] if any two points in it can be joined by a path," the empty space is trivially both connected and path-connected.
 
 However, in some ways these definitions are too naive.  The question of whether the empty set is (path-)connected is analogous in many ways to the question of whether $1$ is [[prime number|prime]].  The above definitions are then analogous to saying that "a natural number $p$ is prime if any factor of it is either equal to $1$ or to $p$," according to which $1$ is prime---but there are better definitions that exclude $1$.
 
@@ -44,7 +44,7 @@ Here are some other reasons why the empty space should not be considered (path-)
 
 * The statement that a product $X\times Y$ is connected if and only if its components $X$ and $Y$ are connected fails if the empty set is regarded as connected.
 
-* A general result, e.g., in the theory of combinatorial species, is that the logarithm of exponential generating functions of some type of objects should be the exponential generating function for the connected objects of that type. Since this logarithm has no constant term, this suggests the empty object should not count as connected. This result is also known in the physics literature as the linked-cluster theorem.
+* A general result, e.g., in the theory of [[combinatorial species]], is that the [[logarithm]] of [[exponential]] [[generating functions]] of some type of objects should be the exponential generating function for the connected objects of that type. Since this logarithm has no constant term, this suggests the empty object should not count as connected. This result is also known in the physics literature as the linked-cluster theorem (see [this Prop.](geometry+of+physics+--+perturbative+quantum+field+theory#LogarithmEffectiveAction) at _[[geometry of physics -- perturbative quantum field theory]]_).
 
 See [[too simple to be simple]] for general theory.
 
