@@ -45,3 +45,7 @@ For instance
 
 
 [[!redirects alternating representations]]
+
+[[!redirects sign representation]]
+[[!redirects sign representations]]
+
