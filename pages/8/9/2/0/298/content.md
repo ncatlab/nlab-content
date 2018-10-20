@@ -209,6 +209,11 @@ Relation specifically to [[conformal nets]] is discussed in
 
 * {#Carpi16} [[Sebastiano Carpi]], _Operator algebras and vertex operator algebras_, Contribution to the Proceedings of the 14th Marcel Grossmann Meeting - MG14 (Rome, 2015) ([arXiv:1603.06742](http://arxiv.org/abs/1603.06742), [doi:10.1142/9789813226609_0508](https://doi.org/10.1142/9789813226609_0508))
 
+See also
+
+* James E. Tener, _Representation theory in chiral conformal field theory: from fields to observables_ ([arXiv:1810.08168](https://arxiv.org/abs/1810.08168))
+
+
 ### Category of vertex operator algebras
 
 * [[Keith Hubbard]], _The duality between vertex operator algebras and coalgebras, modules and comodules_, [pdf](http://www.faculty.sfasu.edu/hubbardke/duality.pdf)
