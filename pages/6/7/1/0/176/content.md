@@ -420,6 +420,10 @@ Introduction and surveys include
 
 * Jeorg Teschner, _A guide to two-dimensional conformal field theory_, [arXiv:1708.00680](http://arxiv.org/abs/1708.00680)
 
+For a discussion of mathematical formalization ([[vertex operator algebras]], [[conformal nets]], [[functorial QFT]]) see
+
+* {#Tener18} James E. Tener, _Representation theory in chiral conformal field theory: from fields to observables_ ([arXiv:1810.08168](https://arxiv.org/abs/1810.08168))
+
 For a survey of perspectives in CFT with an eye towards [[string theory]] see various contributions in 
 
 * [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
