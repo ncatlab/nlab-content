@@ -403,7 +403,15 @@ Discussion of D-brane [[matrix models]] taking these K-theoretic effects into ac
 
 * {#AsakawaSugimotoTerashima01} T. Asakawa, S. Sugimoto, S. Terashima, _D-branes, Matrix Theory and K-homology_, JHEP 0203 (2002) 034 ([arXiv:hep-th/0108085](https://arxiv.org/abs/hep-th/0108085))
 
-Discussion of [[equivariant K-theory]] for D-branes on [[orbifolds]] includes the following:
+The proposal that D-brane charge on [[orbifolds]] is measured in [[equivariant K-theory]] goes back to 
+
+* [Witten 98, section 5.1](#Witten98) 
+
+but it was pointed out that only a subgroup of equivariant K-theory can be physically relevant in
+
+* {#BDHKMMS01} [[Jan de Boer]], [[Robbert Dijkgraaf]], [[Kentaro Hori]], [[Arjan Keurentjes]], [[John Morgan]], [[David Morrison]], [[Savdeep Sethi]], around (137) of  _Triples, Fluxes, and Strings_, Adv.Theor.Math.Phys. 4 (2002) 995-1186 ([arXiv:hep-th/0103170](https://arxiv.org/abs/hep-th/0103170))
+
+Further discussion of [[equivariant K-theory]] for D-branes on [[orbifolds]] includes the following:
 
 * Hugo García-Compeán, _D-branes in orbifold singularities and equivariant K-theory_, Nucl.Phys. B557 (1999) 480-504 ([arXiv:hep-th/9812226](https://arxiv.org/abs/hep-th/9812226))
 
