@@ -1154,7 +1154,7 @@ This may be called the _[[algebraic K-theory of smooth manifolds]]_.
 
 
 
-+-- {: .num_prop}
++-- {: .num_prop #FlatAndPiForDifferentialKTheory}
 ###### Proposition
 
 The [[smooth spectra]] $\mathcal{K}(\mathbf{Vect})$ and $\mathcal{K}(\mathbf{Vect}_{conn})$ are both differential refinements, def. \ref{DifferentialCoefficients}, of connective [[KU|ku]], both whose underlying [[geometrically discrete infinity-groupoid|geometrically discrete spectrum]] is the [[algebraic K-theory]] $K \mathcal{C}$ of the [[complex numbers]]:
