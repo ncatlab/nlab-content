@@ -260,7 +260,46 @@ Generally for $n \times n$-matrices ([Kondratyuk-Krivoruchenko 92, appendix B](#
   \left(tr(A^l)\right)^{k_l}
 \]
 
++-- {: .proof} 
+###### Proof of (eq:DeterminantAsPolynomialInTracesOfPowers) 
+It is enough to prove this for semisimple matrices $A$ (matrices that are diagonalizable upon passing to the [[algebraic closure]] of the ground field) because this subset of matrices is Zariski dense (using for example the nonvanishing of the discriminant of the characteristic polynomial) and the set of $A$ for which the equation holds is Zariski closed. 
 
+Thus, without loss of generality we may suppose that $A$ is diagonal with $n$ eigenvalues $\lambda_1, \ldots, \lambda_n$ along the diagonal, where the statement can be rewritten as follows. Letting $p_k = tr(A^k) = \lambda_1^k + \ldots + \lambda_n^k$, the following identity holds: 
+
+\[
+\prod_{i=1}^n \lambda_i = \underset{ 
+     { k_1,\cdots, k_n \in \mathbb{N} }
+     \atop
+     { \underoverset{\ell = 1}{n}{\sum} \ell k_\ell = n }
+  }{\sum}
+  \underoverset{ l = 1 }{ n }{\prod} 
+  \frac{ (-1)^{k_l + 1} }{ l^{k_l} k_l !  }
+  p_l^{k_l}
+\]
+
+This of course is just a polynomial identity, one closely related to various of the Newton identities that concern symmetric polynomials in indeterminates $x_1, \ldots, x_n$. Thus we again let $p_k = x_1^k + \ldots + x_n^k$, and define the elementary symmetric polynomials $\sigma_k = \sigma_k(x_1, \ldots, x_n)$ via the generating function identity 
+
+\[
+\sum_{k \geq 0} \sigma_k t^k = \prod_{i=1}^n (1 + x_i t). 
+\]
+
+Then we compute 
+
+\[\array{
+\sum_{k \geq 0} \sigma_k t^k & = & \prod_{i=1}^n (1 + x_i t) \\
+ & = & \exp\left(\sum_{i=1}^n \log(1 + x_i t)\right) \\ 
+ & = & \exp\left(\sum_{i=1}^n \sum_{k \geq 1} (-1)^{k+1} \frac{x_i^k}{k} t^k \right)\\ 
+ & = & \exp\left( \sum_{k \geq 1} (-1)^{k+1} \frac{p_k}{k} t^k\right)
+}\] 
+
+and simply match coefficients of $t^n$ in the initial and final series expansions, where we easily compute 
+
+\[
+x_1 x_2 \ldots x_n = \sum_{n = k_1 + 2k_2 + \ldots + n k_n} \prod_{l=1}^n \frac1{(k_l)!} \left(\frac{p_l}{l}\right)^{k_l} (-1)^{k_l+1}
+\] 
+
+This completes the proof. 
+=-- 
 
 ## In terms of Berezinian integrals
 
