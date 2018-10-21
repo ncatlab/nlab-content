@@ -301,7 +301,7 @@ structure in terms of the existence of a certain class in abelian cohomolgy on t
 
 Let $X$ be a manifolds with [[spin structure]] $S : X \to \mathbf{B}Spin$. Write $P \to X$ for the corresponding [[spin group]]-principal bundle. 
 
-Then a **string structure** lifting $S$ is a cohomology class $H^3(P,\mathbb{Z})$ such that the restriction of the class to any fiber $\simeq Spin(n)$ is a generator of $H^3(Spin(n), \mathb{Z}) \simeq \mathbb{Z}$.
+Then a **string structure** lifting $S$ is a cohomology class $H^3(P,\mathbb{Z})$ such that the restriction of the class to any fiber $\simeq Spin(n)$ is a generator of $H^3(Spin(n), \mathbb{Z}) \simeq \mathbb{Z}$.
 
 =--
 
