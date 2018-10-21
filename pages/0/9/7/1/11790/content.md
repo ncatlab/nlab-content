@@ -58,7 +58,7 @@ A _general_ Grothendieck topos may fail to have enough points or even fail to ha
 
 ## References
 
-* M. Artin, A. Grothendieck, J. L. Verdier (eds.), _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas - SGA 4. II_ , LNM **270** Springer Heidelberg 1972.{#SGA4II}
+* {#SGA4II}M. Artin, A. Grothendieck, J. L. Verdier (eds.), _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas - SGA 4. II_ , LNM **270** Springer Heidelberg 1972.
 
 * B. Frot, _G&#246;del's Completeness Theorem and Deligne's Theorem_ , arXiv:1309.0389 (2013). ([pdf](http://arxiv.org/pdf/1309.0389v1))
 
