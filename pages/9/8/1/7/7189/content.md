@@ -17,7 +17,7 @@
 ## Idea
 
 A standard result in the theory of [[monad|monads]] says that every [[adjunction]] $F\dashv G:\mathcal{B}\to\mathcal{A}$ with unit $\eta$ and counit $\epsilon$ yields a monad $\langle 
-G\cdot F,\;\eta,\;G\epsilon F\rangle$ on $\mathcal{A}$. Similarly, it is possible to attach a monad $\mathbb{T}^G$, called the **codensity monad**, to a functor $G:\mathcal{B}\to\mathcal{A}$, when the right [[Kan extension]] $Ran_G G$ of $G$ along itself exists, with both monads coinciding in case $G:\mathcal{B}\to\mathcal{A}$ has a left adjoint.
+G\circ F,\;\eta,\;1_G\ast\epsilon\ast 1_F\rangle$ on $\mathcal{A}$. Similarly, it is possible to attach a monad $\mathbb{T}^G$, called the **codensity monad**, to a functor $G:\mathcal{B}\to\mathcal{A}$, when the right [[Kan extension]] $Ran_G G$ of $G$ along itself exists, with both monads coinciding in case $G:\mathcal{B}\to\mathcal{A}$ has a left adjoint.
 
 The name 'codensity monad' stems from the fact that $\mathbb{T}^G$ reduces to the identity monad iff $G:\mathcal{B}\to\mathcal{A}$ is a [[dense functor|codense functor]]. Thus, in general, the codensity monad "measures the failure of $G$ to be codense".
 
@@ -28,13 +28,13 @@ The name 'codensity monad' stems from the fact that $\mathbb{T}^G$ reduces to th
 
 +-- {: .num_defn #codensity_monad}
 ###### Definition 
-Let $G:\mathcal{B}\to\mathcal{A}$ be a functor such that the right [[Kan extension]] $Ran_G G$ of $G$ along itself exists with universal 2-cell $\alpha :G\cdot Ran_G G\Rightarrow G$. The _codensity monad_ of $G$ is given by the monad
- $$\mathbb{T}^G:=\langle Ran_G G:\mathcal{A}\to\mathcal{A},\eta^G:id_\mathcal{A}\Rightarrow Ran_G G,\mu^G:Ran_G G\cdot Ran_G G\Rightarrow Ran_G G\rangle$$
- where the unit $\eta^G:id_\mathcal{A}\Rightarrow Ran_G G$ is the natural transformation given by the universal property of $Ran_G G$ with respect to the pair $(id_\mathcal{A},1_G)\;$, whereas the multiplication $\mu^G:Ran_G G\cdot Ran_G G\Rightarrow Ran_G G$ results from the universal property of $Ran_G G$ with respect to the pair $(Ran_G G\cdot Ran_G G,(\alpha\star 1_{Ran_G G})\circ\alpha)$.
+Let $G:\mathcal{B}\to\mathcal{A}$ be a functor such that the right [[Kan extension]] $Ran_G G=(T^G,\;\alpha)$ of $G$ along itself exists with $\alpha :T^G\circ G\Rightarrow G$ the universal 2-cell of the functor $T^G:\mathcal{A}\to\mathcal{A}$. The _codensity monad_ of $G$ is given by the monad
+ $$\mathbb{T}^G:=\langle T^G:\mathcal{A}\to\mathcal{A},\;\eta^G:id_\mathcal{A}\Rightarrow T^G,\;\mu^G:T^G\circ T^G\Rightarrow T^G\rangle$$
+ where the unit $\eta^G:id_\mathcal{A}\Rightarrow T^G$ is the natural transformation given by the universal property of $(T^G,\;\alpha)$ with respect to the pair $(id_\mathcal{A},\;1_G)\;$, whereas the multiplication $\mu^G:T^G\circ T^G\Rightarrow T^G$ results from the universal property of $(T^G,\;\alpha)$ with respect to the pair $(T^G\circ T^G,\;\alpha\circ (1_{T^G}\ast\alpha))$.
 
 =--
 
-That this indeed defines a monad results from the universal properties of the Kan extension. Concerning existence, $Ran_G G$ exists for $G:\mathcal{B}\to\mathcal{A}$ e.g. when $\mathcal{B}$ is [[small category|small]] and $\mathcal{A}$ is [[complete category|complete]].
+That this indeed defines a monad follows from the universal properties of the Kan extension. Concerning existence, $Ran_G G$ exists for $G:\mathcal{B}\to\mathcal{A}$ e.g. when $\mathcal{B}$ is [[small category|small]] and $\mathcal{A}$ is [[complete category|complete]].
 
   
 
