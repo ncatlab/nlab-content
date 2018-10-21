@@ -35,4 +35,9 @@ See also
 
 * Wikipedia, _[Diagonal matrices](https://en.wikipedia.org/wiki/Diagonal_matrix)_ 
 
+* Wikipedia, _[Diagonalizable matrix](https://en.wikipedia.org/wiki/Diagonalizable_matrix)_
+
 [[!redirects diagonal matrices]]
+
+[[!redirects diagonalizable matrix]]
+[[!redirects diagonalizable matrices]]
