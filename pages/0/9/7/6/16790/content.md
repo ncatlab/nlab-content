@@ -67,8 +67,18 @@ If $X_{d-(p+2)}$ is a smooth [[quotient space]] by the [[action]] of a [[finite 
 Examples and applications of such cone branes, in the context of [[M-theory on G2-manifolds]], are discussed in [Atiyah-Witten 01](#AtiyahWitten01).
 
 ## Examples
+ {#Examples}
+
+The near/far horizon limits of the [[black brane|black]] [[M-branes]]:
+
+* _[The black M2-brane](#BlackM2)_
+
+* _[The black M5-brane](#BlackM5Brane)_
+
+* _[The MK6-brane](#MK6Brane)_
 
 ### The black M2-brane
+ {#BlackM2}
 
 The [[black brane|black]] [[M2-brane]] is given by the [[Riemannian metric]]
 
@@ -177,6 +187,7 @@ which is the metric on a [[Cartesian product]] of flat [[Minkowski spacetime]] [
 
 
 ### The black M5-brane
+ {#BlackM5Brane}
 
 The [[black brane|black]] [[M5-brane]] is given by the [[Riemannian metric]]
 
@@ -283,6 +294,7 @@ $$
 which is the metric on a [[Cartesian product]] of flat [[Minkowski spacetime]] [[worldvolume]] of an M5-brane with the [[metric cone]] on $X_4$.
 
 ### The MK6-brane
+ {#MK6Brane}
 
 The [[metric tensor]] of $N$ coincident [[KK-monopoles]] in [[11-dimensional supergravity]] in the limit that $\ell_{th} \coloneqq N \ell_P \to 0$ is
 
