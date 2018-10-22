@@ -75,7 +75,7 @@ $$
   \;\simeq\;
   \pi_\bullet( \mathbb{S} \wedge X_+ )
   \longrightarrow
-  \pi_\bullet( H R \weddge X_+ )
+  \pi_\bullet( H R \wedge X_+ )
   \simeq
   H_\bullet(X,R)
   \,.
