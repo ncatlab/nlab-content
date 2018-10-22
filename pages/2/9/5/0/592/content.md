@@ -18,7 +18,7 @@
 
 ## Idea
 
-A **pushout** is an ubiquitous construction in [[category theory]] providing a  a [[colimit]] for the diagram $\bullet\leftarrow\bullet\rightarrow\bullet$. It is dual to the notion of a [[pullback]].
+A **pushout** is an ubiquitous construction in [[category theory]] providing a [[colimit]] for the diagram $\bullet\leftarrow\bullet\rightarrow\bullet$. It is dual to the notion of a [[pullback]].
 
 ## Pushouts in $Set$
 
