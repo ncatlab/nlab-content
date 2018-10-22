@@ -48,7 +48,7 @@ A topos $\mathcal{Y}$ is called an _&#233;tendue_ if there is an object $X\in|\m
 
 * In particular for small $\mathcal{C}$, the presheaf topos $\mathcal{S}^{\mathcal{C}^{op}}$ is an &#233;tendue iff all morphisms in $\mathcal{C}$ are monic. In particular for [[monoid]]s $\mathcal{C}$ this is sometimes called [[left cancellative category|left cancellative]] (e.g. each free monoid is left cancellative).
 
-* [[Subtoposes]] of &#233;tendues are &#233;tendues . K. Rosenthal uses this together with the preceding remark on $\mathcal{S}^{\mathcal{C}^{op}}$ for all-monic $\mathcal{C}$ in order to construct further &#233;tendues $Sh_j(\mathcal{S}^{\mathcal{C}^{op}})$ via a topology $j$ from a suitable functor $H:\mathcal{C}\to\mathcal{S}$ (for further details see [[Jónsson-Tarski topos]] or Rosenthal(1981)).
+* [[Subtoposes]] of &#233;tendues are &#233;tendues. K. Rosenthal uses this together with the preceding remark on $\mathcal{S}^{\mathcal{C}^{op}}$ for all-monic $\mathcal{C}$ in order to construct further &#233;tendues $Sh_j(\mathcal{S}^{\mathcal{C}^{op}})$ via a topology $j$ from a suitable functor $H:\mathcal{C}\to\mathcal{S}$ (for further details see [[Jónsson-Tarski topos]] or Rosenthal(1981)).
 
 * A Grothendieck topos is a _[[boolean topos|Boolean]] &#233;tendue_ precisely if it satisfies the _internal [[axiom of choice]]_ (Freyd&Scedrov 1990). An example of such a Boolean &#233;tendue is $\mathcal{S}^G$, for $G$ a group.
 
@@ -100,7 +100,7 @@ By Freyd-Scedrov ([1990](#FreydScedrov90), p.181) a Grothendieck topos $\mathcal
 
 * {#Carchedi13}[[David Carchedi]], _Higher Orbifolds and Deligne-Mumford Stacks as Structured Infinity Topoi_ , arXiv1312.2204 (2013). ([pdf](http://arxiv.org/pdf/1312.2204v1.pdf))
 
-* |#FreydScedrov90}[[Peter Freyd|P. J. Freyd]], A. Scedrov, _[[Categories, Allegories]]_ , North-Holland Amsterdam 1990.
+* {#FreydScedrov90}[[Peter Freyd|P. J. Freyd]], A. Scedrov, _[[Categories, Allegories]]_ , North-Holland Amsterdam 1990.
 
 * [[Peter Johnstone]], _Sketches of an [[Elephant]] II_, Oxford UP 2002, pp.769-775.
 
