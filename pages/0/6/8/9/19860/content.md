@@ -26,11 +26,11 @@ $$
 \begin{aligned}
 \top & \vdash (g_i g_j)u=g_i(g_j u)\quad\text{for all}\; g_i,g_j
 \\ 
-\top&\vdash \exists u\; u\in U \quad\text{(U is inhabited)}
+\top&\vdash (\exists u)\; \top \quad\text{(U is inhabited)}
 \\
 g_{i}u = g_{j}u &\vdash \bot\quad \text{for all pairs}\;g_i\neq g_j\quad\text{(G acts freely)}
 \\
-\top &\vdash \exists x \bigvee_{g\in G} gx=y\quad \text{(G acts transitively)}\quad .
+\top &\vdash (\exists x) \bigvee_{g\in G} gx=y\quad \text{(G acts transitively)}\quad .
 \end{aligned}
 $$
 
@@ -65,7 +65,7 @@ The syntactic theory is explicitly stated p.42 in
 
 The "semantic" side was well known to the Grothendieck school and its elements are nicely exposed e.g. in section VIII.2 of 
 
-* {#MM94} [[Saunders Mac Lane|S. Mac Lane]], [[I. Moerdijk|Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994.
+* {#MM94} [[Saunders Mac Lane|S. Mac Lane]], [[Ieke Moerdijk|I. Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994.
 
 
 
