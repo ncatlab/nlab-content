@@ -67,6 +67,90 @@ One example is the computation of the homotopy grous of [[MU]] via the [[homolog
 
 ## Examples
 
+### From stable cohomotopy to ordinary cohomology
+
+Consider the [[unit]] morphism
+
+$$
+  \mathbb{S} \longrightarrow H \mathbb{Z}
+$$
+
+from the [[sphere spectrum]] to the [[Eilenberg-MacLane spectrum]] of the [[integers]]. For any [[topological space]]/[[spectrum]] postcomposition with this morphism induces [[Boardman homomorphisms]] of [[cohomology groups]] (in fact of [[commutative rings]])
+
+\[
+  \label{BoardmandCohomotopyToOrdinaryCohomology}
+  b^n
+  \;\colon\;
+  \pi^n(X)
+  \longrightarrow
+  H^n(X, \mathbb{Z})
+\]
+
+from the [[stable cohomotopy]] of $X$ in degree $n$ to its [[ordinary cohomology]] in degree $n$.
+
++-- {: .num_prop #BoundsOnCoKernelOfBoardmandFromStableCohomotopyToOrdinaryCohomology}
+###### Proposition
+**(bounds on ([[cokernel|co-]])[[kernel]] of [[Boardman homomorphism]] from [[stable cohomotopy]] to [[integral cohomology]])**
+
+If $X$ is a [[CW-spectrum]] which
+
+1. is $(m-1)$-[[n-connected object of an (infinity,1)-topos|(m-1)-connected]]
+
+1. of dimension $d \in \mathbb{N}$
+
+then 
+
+1. the [[kernel]] of the [[Boardman homomorphism]] $b^n$ (eq:BoardmandCohomotopyToOrdinaryCohomology) for   
+   
+   $$
+     m \leq n\leq d -1
+   $$
+
+   is a $\overline{\rho}_{d-n}$-[[torsion subgroup|torsion group]]:
+
+   $$
+     \overline{\rho}_{d-n} ker(b^n) \;\simeq\; 0
+   $$
+
+
+1. the [[cokernel]] of the [[Boardman homomorphism]] $b^n$ (eq:BoardmandCohomotopyToOrdinaryCohomology) for 
+
+   $$
+     m \leq n  \leq d - 2
+   $$
+
+   is a $\overline{\rho}_{d-n-1}$-[[torsion subgroup|torsion group]]:
+
+   $$
+     \overline{\rho}_{d-n-1} coker(b^n) \;\simeq\; 0
+   $$
+
+where
+
+$$
+  \overline{\rho}_{i}
+   \;\coloneqq\;
+   \left\{
+   \array{
+     1 &\vert& i\leq 1
+     \\
+     \underoverset{j = 1}{i}{\prod}  
+       exp\left( 
+         \pi_j\left( \mathbb{S}\right)
+       \right)
+     &\vert&
+     \text{otherwise}
+   }
+   \right.
+$$
+
+is the [[multiplication|product]] of the [[exponent of a group|exponents]] of the [[stable homotopy groups of spheres]] in [[positive number|positive]] degree $\leq i$.
+  
+=--
+
+([Arlettaz 04, theorem 1.2](#Arlettaz04))
+
+
 ### For complex oriented cohomology theories
  {#ForComplexOrientedCohomologyTheories}
 
@@ -83,7 +167,7 @@ Named after [[Michael Boardman]].
 
 * {#Kochmann96} [[Stanley Kochmann]], section 4.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
-* Dominique Arlettaz, _The generalized Boardman homomorphisms_, Central European Journal of Mathematics March 2004, Volume 2, Issue 1, pp 50-56
+* {#Arlettaz04} Dominique Arlettaz, _The generalized Boardman homomorphisms_, Central European Journal of Mathematics March 2004, Volume 2, Issue 1, pp 50-56
 
 * {#Lurie10} [[Jacob Lurie]], lecture 7 of _[[Chromatic Homotopy Theory]]_, 2010, ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture7.pdf))
 
