@@ -286,7 +286,7 @@ $$
 is a [[homotopy pushout]], then the [tractial Euler characteristic](EulerCharInSymMonCat) of $W$ exists and is
 
 $$
-  \chi(W) = \chi(X) + \chi(y) - \chi(Z)
+  \chi(W) = \chi(X) + \chi(Y) - \chi(Z)
   \,.
 $$
 
