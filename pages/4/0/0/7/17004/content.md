@@ -88,6 +88,93 @@ This perspective is highlighted for instance in ([Deitmar 06, p. 2](#Deitmar06),
 
 The [[Kahn-Priddy theorem]] characterizes a comparison map between stable cohomotopy and [[cohomology]] with [[coefficients]] in the infinite [[real projective space]] $\mathbb{R}P^\infty \simeq B \mathbb{Z}/2$.
 
+
+### Boardman homomorphisms
+
+
+Consider the [[unit]] morphism
+
+$$
+  \mathbb{S} \longrightarrow H \mathbb{Z}
+$$
+
+from the [[sphere spectrum]] to the [[Eilenberg-MacLane spectrum]] of the [[integers]]. For any [[topological space]]/[[spectrum]] postcomposition with this morphism induces [[Boardman homomorphisms]] of [[cohomology groups]] (in fact of [[commutative rings]])
+
+\[
+  \label{BoardmandCohomotopyToOrdinaryCohomology}
+  b^n
+  \;\colon\;
+  \pi^n(X)
+  \longrightarrow
+  H^n(X, \mathbb{Z})
+\]
+
+from the [[stable cohomotopy]] of $X$ in degree $n$ to its [[ordinary cohomology]] in degree $n$.
+
++-- {: .num_prop #BoundsOnCoKernelOfBoardmandFromStableCohomotopyToOrdinaryCohomology}
+###### Proposition
+**(bounds on ([[cokernel|co-]])[[kernel]] of [[Boardman homomorphism]] from [[stable cohomotopy]] to [[integral cohomology]])**
+
+If $X$ is a [[CW-spectrum]] which
+
+1. is $(m-1)$-[[n-connected object of an (infinity,1)-topos|(m-1)-connected]]
+
+1. of dimension $d \in \mathbb{N}$
+
+then 
+
+1. the [[kernel]] of the [[Boardman homomorphism]] $b^n$ (eq:BoardmandCohomotopyToOrdinaryCohomology) for   
+   
+   $$
+     m \leq n\leq d -1
+   $$
+
+   is a $\overline{\rho}_{d-n}$-[[torsion subgroup|torsion group]]:
+
+   $$
+     \overline{\rho}_{d-n} ker(b^n) \;\simeq\; 0
+   $$
+
+
+1. the [[cokernel]] of the [[Boardman homomorphism]] $b^n$ (eq:BoardmandCohomotopyToOrdinaryCohomology) for 
+
+   $$
+     m \leq n  \leq d - 2
+   $$
+
+   is a $\overline{\rho}_{d-n-1}$-[[torsion subgroup|torsion group]]:
+
+   $$
+     \overline{\rho}_{d-n-1} coker(b^n) \;\simeq\; 0
+   $$
+
+where
+
+$$
+  \overline{\rho}_{i}
+   \;\coloneqq\;
+   \left\{
+   \array{
+     1 &\vert& i\leq 1
+     \\
+     \underoverset{j = 1}{i}{\prod}  
+       exp\left( 
+         \pi_j\left( \mathbb{S}\right)
+       \right)
+     &\vert&
+     \text{otherwise}
+   }
+   \right.
+$$
+
+is the [[multiplication|product]] of the [[exponent of a group|exponents]] of the [[stable homotopy groups of spheres]] in [[positive number|positive]] degree $\leq i$.
+  
+=--
+
+([Arlettaz 04, theorem 1.2](#Arlettaz04))
+
+
+
 ## Related concepts
 
 * [[equivariant stable cohomotopy]]
@@ -136,6 +223,8 @@ The [[Kahn-Priddy theorem]] is due to
 
 * {#KahnPriddy72} [[Daniel Kahn]], [[Stewart Priddy]], _Applications of the transfer to stable homotopy theory_, Bull. Amer. Math. Soc. Volume 78, Number 6 (1972), 981-987 ([Euclid](https://projecteuclid.org/euclid.bams/1183534135))
 
+
+
 The relation to [[β-rings]] is discussed in 
 
 * E. Vallejo, _Polynomial operations from Burnside rings to representation functors_, J. Pure Appl. Algebra, 65 (1990), pp. 163–190.
@@ -150,6 +239,10 @@ see also
 
 * [[Jack Morava]], Rekha Santhanam, _Power operations and absolute geometry_ ([pdf](http://www.lemiller.net/media/slidesconf/AbsolutePower.pdf))
 
+
+Discussion of [[Boardman homomorphisms]] from stable cohomotopy is in 
+
+* {#Arlettaz04} Dominique Arlettaz, _The generalized Boardman homomorphisms_, Central European Journal of Mathematics March 2004, Volume 2, Issue 1, pp 50-56
 
 
 A lift of [[Seiberg-Witten invariants]] to classes in [[circle group]]-[[equivariant stable cohomotopy]] is discussed in
