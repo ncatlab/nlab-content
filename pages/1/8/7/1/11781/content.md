@@ -13,7 +13,7 @@ The refinement of B&#233;zout's theorem for non-transversally intersecting varie
 
 ## References
 
-* Wikipedia, _[B&#233;zout's_theorem](http://en.wikipedia.org/wiki/B&#233;zout's_theorem)_
+* Wikipedia, _[B&#233;zout's_theorem](https://en.wikipedia.org/wiki/B%C3%A9zout%27s_theorem)_
 
 [[!redirects Bézout theorem]]
 
