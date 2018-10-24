@@ -1297,6 +1297,10 @@ Surveys/expositions of this include
 
 * {#Schreiber14b} [[Urs Schreiber]], _[[schreiber:Differential cohomology is Cohesive homotopy theory]]_, talk at _[Higher Geometric Structures along the Lower Rhine June 2014](http://www.ru.nl/math/research/vmconferences/2014-higher/)_, 19-20 June  2014
 
+For discussion of the hexagon in an [[equivariant cohomology|equivariant]] setting, see 
+
+* [[Andreas Kübel]], [[Andreas Thom]], _Equivariant Differential Cohomology_, ([arXiv:1510.06392](https://arxiv.org/abs/1510.06392))
+
 See also
 
 * {#Bunke11} [[Ulrich Bunke]], _On the topological contents of eta invariants_ ([arXiv:1103.4217](http://arxiv.org/abs/1103.4217))
