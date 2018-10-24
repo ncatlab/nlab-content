@@ -119,7 +119,7 @@ The Weil model is discussed for instance in
 
 A good account of the Cartan model is in 
 
-* {#MathaiQuillen86} [[Varghese Mathai]], , [[Daniel Quillen]], _Superconnections, Thom clasees and equivariant differential forms_, Topology 25, 85 (1986) 
+* {#MathaiQuillen86} [[Varghese Mathai]], , [[Daniel Quillen]], _Superconnections, Thom classes and equivariant differential forms_, Topology 25, 85 (1986) 
  
 
 A review of the Weil model and the Cartan model and the introduction of the "BRST model" (Kalkman model) is in
