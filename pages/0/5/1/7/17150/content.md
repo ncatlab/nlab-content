@@ -19,7 +19,11 @@ This page collects material related to
 
   _Global homotopy theory_
 
-  2018 
+  New Mathematical Monographs, 34
+
+  Cambridge University Press, 2018
+
+  xvi+828 pp
 
   ([arXiv:1802.09382](https://arxiv.org/abs/1802.09382))
 
