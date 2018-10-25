@@ -35,7 +35,7 @@ on [[global equivariant stable homotopy theory]] in terms of [[orthogonal spectr
 
 * [[Stefan Schwede]], _[[Lectures on Equivariant Stable Homotopy Theory]]_
 
-* [[Charles Rezk]], _[[Global Homotopy Theory and Cohesion]]_ (on global homotpy theory being a [[cohesive (infinity,1)-topos]])
+* [[Charles Rezk]], _[[Global Homotopy Theory and Cohesion]]_ (on global homotopy theory being a [[cohesive (infinity,1)-topos]])
 
 * [[Stefan Schwede]], _Orbispaces, orthogonal spaces, and the universal compact Lie group_ ([arXiv:1711.06019](https://arxiv.org/abs/1711.06019)) (on the relation to [[orbispaces]]/[[topological stacks]])
 
