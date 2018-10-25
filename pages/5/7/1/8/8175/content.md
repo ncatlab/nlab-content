@@ -375,7 +375,7 @@ In [[string theory]] [[D-brane charges]] are classes in $E = KU$-cohomology, i.e
 
 The statement of the existence of the spectral sequence first appears in print (with $E = $ [[topological K-theory]]) in
 
-* {#AtiyahHirzebruch61} [[M. F. Atiyah]], [[F. Hirzebruch]], _Vector bundles and homogeneous spaces_, 1961, Proc. Sympos. Pure Math., Vol. III pp. 7&#8211;38 American Mathematical Society, Providence, R.I. ([web](http://hirzebruch.mpim-bonn.mpg.de/87/), [MR 0139181](http://www.ams.org/mathscinet-getitem?mr=0139181))
+* {#AtiyahHirzebruch61} [[M. F. Atiyah]], [[F. Hirzebruch]], _Vector bundles and homogeneous spaces_, 1961, Proc. Sympos. Pure Math., Vol. III pp. 7&#8211;38 American Mathematical Society, Providence, R.I. ([web](http://hirzebruch.mpim-bonn.mpg.de/87/), <a href="https://doi.org/10.1142/9789814401319_0008">doi:10.1142/9789814401319_0008</a>, [MR 0139181](http://www.ams.org/mathscinet-getitem?mr=0139181))
 
 but the proof given consists essentially in pointing to section XV.7 ("a more general setting in which the theory of spectral sequences may be developed") of
 
