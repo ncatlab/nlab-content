@@ -21,6 +21,8 @@
 
 The lift of [[complex cobordism cohomology theory]] to [[equivariant stable homotopy theory]].
 
+[[!include Segal completion -- table]]
+
 ## Related concepts
 
 * [[equivariant Morava K-theory]]
