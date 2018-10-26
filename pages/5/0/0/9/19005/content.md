@@ -38,5 +38,9 @@ The terminology "Coulomb branch" and "Higgs branch" first appears in
 
 * {#SeibergWitten94} [[Nathan Seiberg]], [[Edward Witten]], _Monopoles, Duality and Chiral Symmetry Breaking in $N=2$ Supersymmetric QCD_ ([arXiv:hep-th/9408099](http://arxiv.org/abs/hep-th/9408099))
 
+Quick exposition of the basic idea includes
+
+* {#Albertsson03} Cecilia Albertsson, around p. 31 of _Superconformal D-branes and moduli spaces_ ([arXiv:hep-th/0305188](http://arxiv.org/abs/hep-th/0305188))
+
 
 [[!redirects Higgs branches]]
