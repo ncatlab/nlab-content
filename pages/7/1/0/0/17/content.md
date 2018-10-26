@@ -528,6 +528,72 @@ Besides such sidebars that appear in many pages, you can also use inclusion to p
 
 Note that the included page goes directly in where it is called with no surrounding whitespace.  This can mean that formatting rules are broken on the include.  For example, if the included file starts and ends with a `div` tag and is included with no surrounding blank lines then this breaks the rules and will generate an error.
 
+
+## How to upload files
+ {#HowToUploadFiles}
+
+To upload a file, proceed as follows:
+
+1. Type 
+
+           [[FileName.xyz:file]] 
+
+   into the edit-pane of some entry;
+
+1. hit "submit";
+
+1. in the rendered entry, find a grayish link labeled "FileName.xyz" followed by a question mark;
+
+1. click on the question mark to open an upload dialogue and follow the instructions there;
+
+   notice that the dialogue field "Description" is asking for the text that will appear hyperlinked to your file. If you put not text here, no link to your file will appear by itself;
+  
+1. complete the dialogue by hitting "upload";
+
+1. find in the rendered entry the previously grayish text "FileName.xyz" replaced by the text that you entered into the "Description"-box in the file upload dialogue, and hyperlinked to your file;
+
+1. due to a bug, if you want that link to persist, you need to make any further edit to the entry (e.g. add a whitespace) and "submit" again.
+
+After this, the file is now sitting at this URL:
+
+      https://ncatlab.org/nlab/files/FileName.xyz 
+
+Hints:
+
+1. If you uploaded a picture, you will probably want to _remove_ the file upload code 
+
+           [[FileName.xyz:file]] 
+
+   (which renders to a link to the file) and instead add lines like
+
+          <div style="float:right;margin:0 20px 10px 20px;">
+            <img src="https://ncatlab.org/nlab/files/FileName.xyz" width="300" />
+          </div>
+
+    or
+
+          <center>
+            <img src="https://ncatlab.org/nlab/files/FileName.xyz" width="300" />
+          </center>
+
+    or the like, which make the actual picture show up in the entry.
+
+1. If you uploaded a pdf (or similar) for a reference, you will probably want to make sure that the "Description" text in the upload dialogue is "pdf" (or similar), so that the code
+
+        A. Name, _A title_, A Journal, AYear ([[FileName.xyz:file]])
+
+   renders to 
+
+   "A. Name, _A title_, A Journal, AYear (pdf)"
+ 
+   with "pdf" hyperlinked to your file.
+
+1. There is a size limit for files to upload. The functionality is meant to be used for uploading _ingredients_ of $n$Lab entries (such as pictures or references) which are not available for linking elsewhere on the web, or not reliably so.
+
+   If you try to abuse the file upload for archiving your personal files, the [[steering committee]] will intervene.
+
+
+
 ## How to include SVG figures
  {#IncludeSVG}
 
@@ -723,70 +789,8 @@ Similarly:
 
 Some of these examples of bad spacing will also be bad in real TeX; but iTeX exaggerates the errors and limits the ways that you can fix them.
 
-# How to upload files
- {#HowToUploadFiles}
 
-To upload a file, proceed as follows:
-
-1. Type 
-
-           [[FileName.xyz:file]] 
-
-   into the edit-pane of some entry;
-
-1. hit "submit";
-
-1. in the rendered entry, find a grayish link labeled "FileName.xyz" followed by a question mark;
-
-1. click on the question mark to open an upload dialogue and follow the instructions there;
-
-   notice that the dialogue field "Description" is asking for the text that will appear hyperlinked to your file. If you put not text here, no link to your file will appear by itself;
-  
-1. complete the dialogue by hitting "upload";
-
-1. find in the rendered entry the previously grayish text "FileName.xyz" replaced by the text that you entered into the "Description"-box in the file upload dialogue, and hyperlinked to your file;
-
-1. due to a bug, if you want that link to persist, you need to make any further edit to the entry (e.g. add a whitespace) and "submit" again.
-
-After this, the file is now sitting at this URL:
-
-      https://ncatlab.org/nlab/files/FileName.xyz 
-
-Hints:
-
-1. If you uploaded a picture, you will probably want to _remove_ the file upload code 
-
-           [[FileName.xyz:file]] 
-
-   (which renders to a link to the file) and instead add lines like
-
-          <div style="float:right;margin:0 20px 10px 20px;">
-            <img src="https://ncatlab.org/nlab/files/FileName.xyz" width="300" />
-          </div>
-
-    or
-
-          <center>
-            <img src="https://ncatlab.org/nlab/files/FileName.xyz" width="300" />
-          </center>
-
-    or the like, which make the actual picture show up in the entry.
-
-1. If you uploaded a pdf (or similar) for a reference, you will probably want to make sure that the "Description" text in the upload dialogue is "pdf" (or similar), so that the code
-
-        A. Name, _A title_, A Journal, AYear ([[FileName.xyz:file]])
-
-   renders to 
-
-   "A. Name, _A title_, A Journal, AYear (pdf)"
- 
-   with "pdf" hyperlinked to your file.
-
-1. There is a size limit for files to upload. The functionality is meant to be used for uploading _ingredients_ of $n$Lab entries (such as pictures or references) which are not available for linking elsewhere on the web, or not reliably so.
-
-   If you try to abuse the file upload for archiving your personal files, the [[steering committee]] will intervene.
-
-# How to use the SVG editor 
+## How to use the SVG editor 
  {#svgedit}
 
 There is now a WYSIWYG SVG-editor embedded within Instiki (the software running the nLab).  The homepage for this editor is [here](http://code.google.com/p/svg-edit/).
