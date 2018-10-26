@@ -94,7 +94,7 @@ from the [[stable cohomotopy]] of $X$ in degree $n$ to its [[ordinary cohomology
 
 If $X$ is a [[CW-spectrum]] which
 
-1. is $(m-1)$-[[n-connected object of an (infinity,1)-topos|(m-1)-connected]]
+1. is [[n-connected object of an (infinity,1)-topos|(m-1)-connected]]
 
 1. of dimension $d \in \mathbb{N}$
 
@@ -121,9 +121,10 @@ then
 
    is a $\overline{\rho}_{d-n-1}$-[[torsion subgroup|torsion group]]:
 
-   $$
+   \[
+     \label{TorsionEstimateCokernel}
      \overline{\rho}_{d-n-1} coker(b^n) \;\simeq\; 0
-   $$
+   \]
 
 where
 
@@ -150,6 +151,107 @@ is the [[multiplication|product]] of the [[exponent of a group|exponents]] of th
 
 ([Arlettaz 04, theorem 1.2](#Arlettaz04))
 
++-- {: .num_example #ExampleForEstimatesOfTorsionOfCokernelOfBeta}
+###### Example
+**(estimates for torsion of cokernel of Boardman homomorphism)**
+
+Let $X$ be a [[manifold]] 
+
+* of [[dimension]] $d = 6$
+
+* [[simply connected topological space|simply connected]] with $\pi_2(X) \neq 0$
+
+then Prop. \ref{BoundsOnCoKernelOfBoardmandFromStableCohomotopyToOrdinaryCohomology} asserts that the [[cokernel]] of the [[Boardman homomorphism]] 
+
+$$
+  \beta^4
+  \;\colon\;
+  \mathbb{S}^4(X)
+  \longrightarrow
+  H^4( X, \mathbb{Z} )
+$$
+
+in 
+
+* degree $n = 4$
+
+is [[torsion subgroup|2-torsion]]:
+
+$$
+  2 coker(\beta^4) \;=\; 0
+  \,.
+$$
+
+This is because in this case (eq:TorsionEstimateCokernel) gives that the relevant torsion degree is
+
+$$
+  \begin{aligned}
+    \overline{\rho}_{d-n-1}
+    & =
+    \overline{\rho}_{1}
+    \\
+    & = \exp( \pi_1(\mathbb{S}) )
+    \\
+    & = \exp( \mathbb{Z}/2 )     
+    \\  
+    & = 2
+  \end{aligned}
+  \,.
+$$
+
+Similarly, if instead the manifold has dimension $d = 7$ but sticking to degree $n = 4$, then the estimate is that the cokernel is [[torsion subgroup}4-torsion]], 
+
+$$
+  4 coker(\beta^4) \;=\; 0
+  \,.
+$$
+
+since then
+
+$$
+  \begin{aligned}
+    \overline{\rho}_{d-n-1}
+    & =
+    \overline{\rho}_{2}
+    \\
+    & = \exp( \pi_1(\mathbb{S}) ) \cdot \exp( \pi_2(\mathbb{S}) )
+    \\
+    & = \exp( \mathbb{Z}/2 ) \cdot \exp( \mathbb{Z}/2 ) 
+    \\  
+    & = 2 \cdot 2
+    \\
+    & = 4
+  \end{aligned}
+  \,.
+$$
+
+Next for $d = 8$ we
+
+$$
+  \begin{aligned}
+    \overline{\rho}_{d-n-1}
+    & =
+    \overline{\rho}_{3}
+    \\
+    & = 
+      \exp( \pi_1(\mathbb{S}) ) 
+      \cdot \exp( \pi_2(\mathbb{S}) )
+      \cdot \exp( \pi_3(\mathbb{S}) )
+    \\
+    & = \exp( \mathbb{Z}/2 ) 
+      \cdot \exp( \mathbb{Z}/2 ) 
+      \cdot \exp( \mathbb{Z}/{24} ) 
+    \\  
+    & = 2 \cdot 2 \cdot 6
+    \\
+    & = 24
+  \end{aligned}
+  \,.
+$$
+
+
+
+=--
 
 ### For complex oriented cohomology theories
  {#ForComplexOrientedCohomologyTheories}
