@@ -113,6 +113,9 @@ Discussion of [[tachyon condensation]] in $p$-adic string theory includes
 
 * {#Cottrell02} William Cottrell, _$p$-adic Strings and Tachyon Condensation_, 2002 ([pdf](http://jfi.uchicago.edu/~tten/teaching/Phys.291/Cottrell_Freund_2002.pdf))
 
+See also
+
+* {#BGZ16} Miriam Bocardo-Gaspar, H. García-Compeán, W. A. Zúñiga-Galindo, _Regularization of p-adic String Amplitudes, and Multivariate Local Zeta Functions_ ([arXiv:1611.03807](https://arxiv.org/abs/1611.03807))
 
 
 [[!redirects adelic string theory]]
