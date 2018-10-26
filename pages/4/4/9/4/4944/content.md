@@ -153,7 +153,7 @@ An explicit description of $F$ is around [[Higher Topos Theory|HTT, lemma 5.5.9.
 ###### Theorem
 
 
-Let $T Alg^{\Delta^{op}}_{proj}$ be the category of [[simplicial object|simplcial]] [[T-algebra]]s equipped with the standard [[model structure on simplicial algebras]] (with weak equivalences and fibrations the degreewise weak equivalences and fibrations in simplicial sets).
+Let $T Alg^{\Delta^{op}}_{proj}$ be the category of [[simplicial object|simplicial]] [[T-algebra]]s equipped with the standard [[model structure on simplicial algebras]] (with weak equivalences and fibrations the degreewise weak equivalences and fibrations in simplicial sets).
 
 The adjunction from the previous lemma
 
@@ -209,7 +209,7 @@ In
 * [[Bernard Badzioch]], _Algebraic theories in homotopy theory_ Annals of Mathematics, 155 (2002), 895-913 ([JSTOR](http://www.jstor.org/stable/3062135))
 {#Badzioch}
 
-the model structure on homotopy $T$-algebras is discussed and its Quillen equivalence to simplcial $T$-algebras is proven.
+the model structure on homotopy $T$-algebras is discussed and its Quillen equivalence to simplicial $T$-algebras is proven.
 
 A related discussion showing that simplicial $T$ algebras model all $\infty$-$T$-algebras is in
 
