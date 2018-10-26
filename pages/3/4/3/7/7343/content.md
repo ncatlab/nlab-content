@@ -96,6 +96,8 @@ Reviews of that include
 
 * {#Albertsson03} Cecilia Albertsson, _Superconformal D-branes and moduli spaces_ ([arXiv:hep-th/0305188](http://arxiv.org/abs/hep-th/0305188))
 
+* [[Yang-Hui He]], _Lectures on D-branes, Gauge Theories and Calabi-Yau Singularities_, International Summer School in Mathematical Physics ([arXiv:hep-th/0408142](https://arxiv.org/abs/hep-th/0408142))
+
 For references on [[wall crossing]] of [[BPS states]] see the references given there.
 
 
