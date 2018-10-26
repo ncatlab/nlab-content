@@ -272,7 +272,7 @@ Lecture notes include
 
 * {#Freed13} [[Dan Freed]], lecture 8 of _Bordism: old and new_, 2013 ([pdf](http://www.ma.utexas.edu/users/dafr/bordism.pdf))
 
-* {#Pedrotti16} [[Riccardo Pedrotti]], _Complex oriented cohomology -- Orientation in generalized cohomology_, 2016 ([[PedrotticECohomology2016.pdf:file]])
+* {#Pedrotti16} [[Riccardo Pedrotti]], _Complex oriented cohomology, generalized orientation and Thom isomorphism_, 2016, 2018 ([[PedrotticECohomology2018.pdf:file]])
 
 
 A discussion in [[differential geometry]] with fiberwise compactly supported differential forms is around theorem 6.17 of 
