@@ -26,7 +26,7 @@ The term "K3" is
 
 ## Examples
 
-* A cyclic cover $\mathbb{P}^2$ branched over a curve of degree $6$
+* A cyclic cover of $\mathbb{P}^2$ branched over a curve of degree $6$.
 
 * A nonsingular degree $4$ hypersurface in $\mathbb{P}^3$, such as the [[Fermat hypersurface|Fermat quartic]] $\{[w,x,y,z] \in \mathbb{P}^3 | w^4 + x^4 + y^4 + z^4 = 0\}$ (in fact every K3 surface over $\mathbb{C}$ is [[diffeomorphism|diffeomorphic]] to this example).
 
@@ -76,7 +76,7 @@ Original sources include
 
 * {#Artin74} [[Michael Artin]], _Supersingular K3 Surfaces_, Annal. Sc. d, l'&#201;c Norm. Sup.  4e  s&#233;ries, T. 7, fasc.  4, 1974, pp. 543-568
 
-* {#Weil79} [[Andre Weil]], Final report on contract AF 18 (603)-57. In Scientic works. Collected papers. Vol. II (1951-1964). 1979.
+* {#Weil79} [[Andre Weil]], Final report on contract AF 18 (603)-57. In Scientific works. Collected papers. Vol. II (1951-1964). 1979.
 
 Lecture notes include
 
