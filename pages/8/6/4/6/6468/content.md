@@ -100,7 +100,16 @@ In [[string theory]]:
 
 * [[Paul Aspinwall]], [[David Morrison]], _String Theory on K3 Surfaces_, in [[Brian Greene]], [[Shing-Tung Yau]] (eds.), _Mirror Symmetry II_, International Press, Cambridge, 1997, pp. 703-716 ([arXiv:hep-th/9404151](https://arxiv.org/abs/hep-th/9404151))
 
+* [[Paul Aspinwall]], _Enhanced Gauge Symmetries and K3 Surfaces_, Phys.Lett. B357 (1995) 329-334 ([arXiv:hep-th/9507012](http://arxiv.org/abs/hep-th/9507012))
+
 * {#Aspinwall96} [[Paul Aspinwall]], _K3 Surfaces and String Duality_, in  [[Shing-Tung Yau]] (ed.): _Differential geometry inspired by string theory_ 1-95 ([arXiv:9611137](https://arxiv.org/abs/hep-th/9611137) [spire:426102](http://inspirehep.net/record/426102))
+
+See also the references at 
+
+* [[duality between F-theory and heterotic string theory]]
+
+* [[duality between M-theory and heterotic string theory]]
+
 
 Specifically in [[M-theory on G2-manifolds]]:
 
