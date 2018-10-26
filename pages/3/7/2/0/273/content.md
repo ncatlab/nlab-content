@@ -264,6 +264,8 @@ _Cohomology with values in a sheaf of crossed groups over a site_, arXiv:[1702.0
 
 * [[Ieke Moerdijk]], _Lie Groupoids, Gerbes, and Non-Abelian Cohomology _ ([journal](http://www.springerlink.com/content/ul554x3077444545/))
 
+* [[Amnon Yekutieli]], Combinatorial descent data for gerbes, Journal of Noncommutative Geometry Volume 8, Issue 4, 2014, pp. 1083–1099, arXiv:1109.1919 ([webpage](https://www.math.bgu.ac.il/~amyekut/publications/comb-descent/comb-descent.html))
+
 The classification of [[∞-gerbe]]s is secretly in 
 
 * [[Matthias Wendt]], _Classifying spaces and fibrations of simplicial sheaves_ , Journal of  Homotopy and Related Structures 6(1), 2011, pp. 1--38.  ([arXiv](http://arxiv.org/abs/1009.2930)) ([published version](http://tcms.org.ge/Journals/JHRS/volumes/2011/volume6-1.htm))
