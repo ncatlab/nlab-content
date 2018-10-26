@@ -319,7 +319,7 @@ $$
   H^\bullet(X\times Y, R)
 $$
 
-is an isomorphim.
+is an [[isomorphism]].
 
 =--
 
