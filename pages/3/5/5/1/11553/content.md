@@ -76,6 +76,11 @@ Further discussion includes
 
 * [[Eric Bergshoeff]], C. Condeescu, G. Pradisi, F. Riccioni, _Heterotic-Type II duality and wrapping rules_, JHEP12(2013)057 ([arXiv:1311.3578](https://arxiv.org/abs/1311.3578))
 
+Specifically in relation to the putative [[K-theory]]-classification of [[D-brane charge]]:
+
+* {#GarciaUranga05} Inaki Garcia-Etxebarria, [[Angel Uranga]], _From F/M-theory to K-theory and back_, JHEP 0602:008,2006 ([arXiv:hep-th/0510073](https://arxiv.org/abs/hep-th/0510073))
+
+
 Specifically in [[M-theory on G2-manifolds]]:
 
 * {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]] section 6.4 of _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
