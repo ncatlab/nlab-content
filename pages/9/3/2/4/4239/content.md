@@ -47,6 +47,11 @@ $$
 
 is symmetric and non-degenerate.
 
+[Question: this 1-categorical definition seems to allow for different
+Frobenius structures on the endomorphism algebras of isomorphic objects.
+Would it be better to define it as a dinatural transformation from
+the Hom-functor to the constant functor with value the ground field $k$?]
+
 A Calabi-Yau category with a single object is the same (or rather: is equivalently the [[pointed object|pointed]] [[monoid]]  [[delooping]]) of a [[Frobenius algebra]].
 
 
