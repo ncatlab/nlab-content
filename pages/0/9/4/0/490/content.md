@@ -57,7 +57,7 @@ Borrowing from the philosophy of [[constructive mathematics|constructivism]], we
 +-- {: .num_remark}
 ###### Remark
 
-The [[duality|dual]] axiom,  that $Set$ has [enough injectives](injective+object#EnoughInjectives) (that is, every set admits an [injection into an injective set) is [[true]] in every [[topos]]: every [[power object]] is an [[injective object]], and every object $X$ embeds in its power object $P X$ via the [[singleton subset|singleton]] map $\{\cdot\}:X\hookrightarrow P X$.
+The [[duality|dual]] axiom,  that $Set$ has [enough injectives](injective+object#EnoughInjectives) (that is, every set admits an injection into an injective set) is [[true]] in every [[topos]]: every [[power object]] is an [[injective object]], and every object $X$ embeds in its power object $P X$ via the [[singleton subset|singleton]] map $\{\cdot\}:X\hookrightarrow P X$.
 =--
 
 
