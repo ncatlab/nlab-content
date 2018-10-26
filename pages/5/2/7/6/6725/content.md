@@ -1,4 +1,8 @@
 
+> This entry is about the conjectured relation between [[M-theory]] at [[MO9]]-planes and [[heterotic string theory]] on these. For the relation of [[M-theory]] [[KK-compactification|KK-compactified]] on a [[K3-surface]] and [[heterotic string theory]] on a [[3-torus]] see instead at _[[duality between M/F-theory and heterotic string theory]]_.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
