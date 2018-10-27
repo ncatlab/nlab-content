@@ -111,3 +111,4 @@ The following survey has discussion of context between the graph complex and [[B
 
 [[!redirects graph cohomology]]
 [[!redirects graph complex]]
+[[!redirects graph complexes]]
