@@ -2,10 +2,6 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
-=--
 #### Quantum field theory
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
@@ -41,9 +37,9 @@ More generally, this construction yields something like a decomposition of the [
 
 The original articles are
 
-* {#Gaiotto09} [[Davide Gaiotto]], _$N=2$ dualities_ ([arXiv:0904.2715](http://arxiv.org/abs/0904.2715))
+* {#Gaiotto09} [[Davide Gaiotto]], _$N=2$ dualities_, JHEP08(2012)034 ([arXiv:0904.2715](http://arxiv.org/abs/0904.2715))
 
-* {#AGT09} Luis F. Alday, [[Davide Gaiotto]], [[Yuji Tachikawa]], _Liouville Correlation Functions from Four-dimensional Gauge Theories_ ([arXiv:0906.3219](http://arxiv.org/abs/0906.3219))
+* {#AGT09} Luis F. Alday, [[Davide Gaiotto]], [[Yuji Tachikawa]], Lett.Math.Phys.91:167-197, 2010, _Liouville Correlation Functions from Four-dimensional Gauge Theories_ ([arXiv:0906.3219](http://arxiv.org/abs/0906.3219))
 
 The [[2d TQFT]] obtained from this by forming the 4d index is discussed in 
 
@@ -91,7 +87,7 @@ See also
 
 The AGT correspondence is treated with the help of a [[Riemann-Hilbert problem]] in 
 
-* G. Vartanov, J. Teschner, _Supersymmetric gauge theories, quantization of moduli spaces of flat connections, and conformal field theory_, [arxiv/1302.3778](http://arxiv.org/abs/1302.3778)
+* G. Vartanov, [[Jörg Teschner]], _Supersymmetric gauge theories, quantization of moduli spaces of flat connections, and conformal field theory_, [arxiv/1302.3778](http://arxiv.org/abs/1302.3778)
  
 category: physics
 
