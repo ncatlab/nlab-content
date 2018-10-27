@@ -19,7 +19,7 @@
 
 The _Ran space_ $Ran X$ of a [[space]], $X$, is the space of all [[finite set|finite]] [[subsets]] of $X$, equipped with geometric structure that knows about several coincident points merging to a single point.
 
-The Ran space is defined, in [[topology|topological]] and [[algebraic geometry|algebro-geometric] contexts, for instance in ([Lurie 14, lectures 7-9](#LurieTamagawaNumbers)).
+The Ran space is defined, in [[topology|topological]] and [[algebraic geometry|algebro-geometric]] contexts, for instance in ([Lurie 14, lectures 7-9](#LurieTamagawaNumbers)).
 
 It is named after [[Ziv Ran]].
 
@@ -40,7 +40,7 @@ The Ran space of a [[connected space|connected]] [[manifold]] is [[weakly contra
 
 Apparently first introduced in
 
-* {#BeilDrin04} [[Alexander Beilinson]], [[Vladimir Drinfeld]] (2004), _Chiral algebras_, American Mathematical Society Colloquium Publications *51*.
+* {#BeilDrin04} [[Alexander Beilinson]], [[Vladimir Drinfeld]] , _Chiral algebras_, American Mathematical Society Colloquium Publications *51*, (2004).
 
 Review includes
 
@@ -61,9 +61,7 @@ Acyclicity of (some version of) the Ran space of a connected, [[quasi-projective
 Discussion in the context of [[conformal field theory]] includes
 
 
-* [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, [[David Kazhdan]], [[John Morgan]], [[David Morrison]] and [[Edward Witten]] (eds.)  
-
-  volume II, part III of _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+* [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, [[David Kazhdan]], [[John Morgan]], [[David Morrison]] and [[Edward Witten]] (eds.) volume II, part III of _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
 
 See also 
