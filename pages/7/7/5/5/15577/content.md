@@ -1,14 +1,25 @@
 
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The _Ran space_ $Ran X$ of a [[space]], $X$, is the space of all [[finite set|finite]] [[subsets]] of $X$, equipped with geometric structure that knows about points merging to a single point.
+The _Ran space_ $Ran X$ of a [[space]], $X$, is the space of all [[finite set|finite]] [[subsets]] of $X$, equipped with geometric structure that knows about several coincident points merging to a single point.
 
-The Ran space is defined, in topological and algebro-geometric contexts, for instance in ([Lurie 14, lectures 7-9](#LurieTamagawaNumbers)).
+The Ran space is defined, in [[topology|topological]] and [[algebraic geometry|algebro-geometric] contexts, for instance in ([Lurie 14, lectures 7-9](#LurieTamagawaNumbers)).
 
 It is named after [[Ziv Ran]].
 
@@ -31,6 +42,10 @@ Apparently first introduced in
 
 * {#BeilDrin04} [[Alexander Beilinson]], [[Vladimir Drinfeld]] (2004), _Chiral algebras_, American Mathematical Society Colloquium Publications *51*.
 
+Review includes
+
+* {#AyalaFrancisTanaka14} [[David Ayala]], [[John Francis]], [[Hiro Lee Tanaka]], _Local structures on stratified spaces_, Adv. Math. 307, 903-1028 (2017) ([arXiv:1409.0501](https://arxiv.org/abs/1409.0501))
+
 Textbook accounts include
 
 * [[Jacob Lurie]], section 5.5.1 of _[[Higher Algebra]]_
@@ -45,7 +60,11 @@ Acyclicity of (some version of) the Ran space of a connected, [[quasi-projective
 
 Discussion in the context of [[conformal field theory]] includes
 
-* [[Pierre Deligne]], John Morgan, et. al., volume II, part III of _[[Quantum Fields and Strings]]_
+
+* [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, [[David Kazhdan]], [[John Morgan]], [[David Morrison]] and [[Edward Witten]] (eds.)  
+
+  volume II, part III of _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
 
 See also 
 
