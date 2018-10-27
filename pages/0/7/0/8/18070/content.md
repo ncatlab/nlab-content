@@ -46,4 +46,5 @@ Math. Scand. __10__ (1962) 111-118, [MR141126](http://www.ams.org/mathscinet-get
 
 On the relation to [[Goodwillie calculus]]:
 
-* Michael Ching, _Calculus of Functors and Configuration Spaces_ ([pdf](https://www3.amherst.edu/~mching/Work/skye.pdf))
+* [[Michael Ching]], _Calculus of Functors and Configuration Spaces_, Conference on Pure and Applied Topology Isle of Skye, Scotland, 21-25 June, 2005 ([pdf](https://www3.amherst.edu/~mching/Work/skye.pdf))
+
