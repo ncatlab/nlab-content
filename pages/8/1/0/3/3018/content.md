@@ -197,7 +197,7 @@ With the operation of "loop-free composition," extranatural transformations with
 
 ## Profunctors
 
-One abstract way to describe the structure of extranatural transformations is as an [[extraordinary 2-multicategory]].  Another abstract structure, which arguably arises more naturally in practice (but also includes more data than necessary), is an [[compact closed category|compact closed]] monoidal [[bicategory]], [[double category]], or [[proarrow equipment]].
+One abstract way to describe the structure of extranatural transformations is as an [[extraordinary 2-multicategory]].  Another abstract structure, which arguably arises more naturally in practice (but also includes more data than necessary), is a [[compact closed category|compact closed]] monoidal [[bicategory]], [[double category]], or [[proarrow equipment]].
 
 More should go here, but for now see [[compact closed double category]].
 
