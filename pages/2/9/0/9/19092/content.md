@@ -23,7 +23,12 @@ In the [[standard model of particle physics]] the _top quark_ is the up-type [[q
 
 It is the [[fundamental particle]] with by far the largest [[rest mass]] (after [[Higgs mechanism]]). This implies that top quark [[virtual particles]] in [[Feynman diagrams]] typically gives the dominant contribution to [[loop order|loop effects]] in [[perturbative quantum field theory|perturbative]] [[quantum observables]], notably in relation to the [[Higgs field]].
 
+## Related concepts
+
+* [[bottom quark]]
 
 ## References
 
 * Wikipedia, _[Top quark](https://en.wikipedia.org/wiki/Top_quark)_
+
+[[!redirects top quarks]]
