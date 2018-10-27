@@ -6,16 +6,21 @@
 
 ## Idea
 
-The _Ran space_ $Ran X$ of a [[space]] is the space of all [[finite set|finite]] [[subsets]] of $X$, equipped with geometric structure that knows about points merging to a single point
+The _Ran space_ $Ran X$ of a [[space]], $X$, is the space of all [[finite set|finite]] [[subsets]] of $X$, equipped with geometric structure that knows about points merging to a single point.
 
 The Ran space is defined, in topological and algebro-geometric contexts, for instance in ([Lurie 14, lectures 7-9](#LurieTamagawaNumbers)).
 
+It is named after [[Ziv Ran]].
+
 ## Properties
 
-* [[nonabelian Poincaré duality]]
+The Ran space of a [[connected space|connected]] [[manifold]] is [[weakly contractible space|weakly contractible]] ([BeilDrin04, p. 173](#BeilDrin04)).
+
 
 
 ## Related concepts
+
+* [[nonabelian Poincaré duality]]
 
 * [[factorization algebra]]
 
@@ -24,7 +29,7 @@ The Ran space is defined, in topological and algebro-geometric contexts, for ins
 
 Apparently first introduced in
 
-* [[Alexander Beilinson]] [[Vladimir Drinfeld]], _Chiral algebras_, American Mathematical Society Colloquium Publications *51* (2004)
+* {#BeilDrin04} [[Alexander Beilinson]], [[Vladimir Drinfeld]] (2004), _Chiral algebras_, American Mathematical Society Colloquium Publications *51*.
 
 Textbook accounts include
 
