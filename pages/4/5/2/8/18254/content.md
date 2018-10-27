@@ -23,7 +23,7 @@ Let $X$ be a [[topological space]] which is
 
 1. [[locally compact topological space|locally compact]] 
 
-   in the sense that every open neighbourhood contains the topological closure of a smaller open neighbourhood;
+   in the sense that for every open neighbourhood $U$ there exists a smaller open neighbourhood whose topological closure is compact and still contained in $U$;
 
 1. [[sigma-compact topological space|sigma-compact]].
 
@@ -161,4 +161,3 @@ is a locally finite refinement of the original cover, as required:
 ## References
 
 * [[Akhil Mathew]], _[Paracompactness](https://amathew.wordpress.com/2010/08/17/paracompactness/)_
-
