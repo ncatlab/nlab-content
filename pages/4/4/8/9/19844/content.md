@@ -23,7 +23,7 @@
 
 In the current [[standard model of particle physics]] the [[fundamental particles]] in the three [[generations of fermions]] have identical properties from one generation to the next, except for their [[mass]]. A possible violation of this state of affairs is called a _flavor anomaly_, a sign of "new physics" beyond the standard model.
 
-Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] in [[B meson]] processes in various [[experiments]] at the [[LHC]]. If the ongoing evaluation of the data of LHC's Run 2 (to be completed by end of 2018) confirms the measurements of Run 1, then the [[statistical significance]] of the effect will have reached 5 [[standard deviations]] and hence officially count as detection of flavour anomaly, which would make it the first established "new physics" seen at the [[LHC]].
+Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] in [[B meson]] processes in various [[experiments]] at the [[LHC]] (see references [below](#References)). If the ongoing evaluation of the data of LHC's Run 2 (to be completed by end of 2018) confirms the measurements of Run 1, then the [[statistical significance]] of the effect should have reached 5 [[standard deviations]] and hence officially count as detection of flavour anomaly, which would make it the first established "new physics" seen at the [[LHC]].
 
 ## References
  {#References}
