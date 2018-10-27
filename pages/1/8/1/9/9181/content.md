@@ -28,6 +28,8 @@
 
   * [[top quark]]
 
+  * [[bottom quark]]
+
 * [[neutrino]]
 
 * [[muon]]
@@ -37,6 +39,8 @@
 * [[meson]]
 
   * [[pion]]
+
+  * [[B-meson]]
 
 * [[baryon]]
 
@@ -69,6 +73,8 @@ bosinos:
 * [[monopole]]
 
 * [[dual graviton]]
+
+* [[leptoquark]]
 
 **[[auxiliary fields]]**
 
