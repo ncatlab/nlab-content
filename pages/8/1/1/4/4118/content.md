@@ -58,12 +58,26 @@ Since $2I \simeq SL_2(\mathbb{F}_5)$ ([this prop.](icosahedral+group#Isomorphism
 The [[special linear group]] $SL_n(\mathbb{F})$ is perfect for any [[field]] $\mathbb{F}$ and any $n \geq 1$, except for the cases $SL_2(\mathbb{Z}/(2))$ and $SL_2(\mathbb{Z}/(3))$. 
 
 =-- 
+
+See for example [here](http://people.brandeis.edu/~igusa/Math101b/SL.pdf), or Lang's Algebra ($3^{rd}$ edition), page (to be looked up). 
  
 +-- {: .num_prop} 
 ###### Proposition 
 The [[quotient group]] of a perfect group is again perfect. 
 =-- 
 
-This last assertion is easy to see: $G$ is perfect if it has no nontrivial abelian quotients. If a quotient $H$ had a nontrivial abelian quotient, then so would $G$. 
+This last assertion is easy to see: $G$ is perfect if it has no nontrivial abelian quotients. If a quotient $H$ had a nontrivial abelian quotient, then obviously so would $G$. 
+
+Relatedly, we have 
+
++-- {: .num_prop} 
+###### Proposition 
+An arbitrary colimit of perfect groups (as calculated in [[Grp]], the category of groups) is again perfect. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+The abelianization functor, being a [[left adjoint]], preserves a [[colimit]] of perfect groups $colim_i G_i$, taking it to $colim_i (G_i)^{ab} \cong \colim_i 1 \cong 1$ (since an arbitrary colimit of [[initial object]]s is again initial). 
+=-- 
 
 [[!redirects perfect groups]]
