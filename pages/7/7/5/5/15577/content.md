@@ -19,7 +19,7 @@
 
 The _Ran space_ $Ran X$ of a [[space]], $X$, is the space of all [[finite set|finite]] [[subsets]] of $X$, equipped with geometric structure that knows about several coincident points merging to a single point.
 
-The Ran space is defined, in [[topology|topological]] and [[algebraic geometry|algebro-geometric]] contexts, for instance in ([Lurie 14, lectures 7-9](#LurieTamagawaNumbers)).
+The Ran space is defined, in [[topology|topological]] and [[algebraic geometry|algebro-geometric]] contexts, for instance in ([Lurie 14, lectures 7-9](#LurieTamagawaNumbers)). It is naturally a [[stratified space]] ([Ayala-Francis-Tanaka 14, section 3.7](#AyalaFrancisTanaka14))
 
 It is named after [[Ziv Ran]].
 
@@ -28,6 +28,14 @@ It is named after [[Ziv Ran]].
 The Ran space of a [[connected space|connected]] [[manifold]] is [[weakly contractible space|weakly contractible]] ([BeilDrin04, p. 173](#BeilDrin04)).
 
 
+## Examples
+
+
+$$
+  Ran_{2k+1}(S^1) \;\simeq\; S^{2k+1}
+$$
+
+([Bott 52](#Bott52), [Tuffley 02](#Tuffley02))
 
 ## Related concepts
 
@@ -38,17 +46,23 @@ The Ran space of a [[connected space|connected]] [[manifold]] is [[weakly contra
 
 ## References
 
-Apparently first introduced in
+Apparently the concept of the Ran space was first introduced in
 
 * {#BeilDrin04} [[Alexander Beilinson]], [[Vladimir Drinfeld]] , _Chiral algebras_, American Mathematical Society Colloquium Publications *51*, (2004).
 
 Review includes
 
-* {#AyalaFrancisTanaka14} [[David Ayala]], [[John Francis]], [[Hiro Lee Tanaka]], _Local structures on stratified spaces_, Adv. Math. 307, 903-1028 (2017) ([arXiv:1409.0501](https://arxiv.org/abs/1409.0501))
+* {#AyalaFrancisTanaka14} [[David Ayala]], [[John Francis]], [[Hiro Lee Tanaka]], section 3.7 of _Local structures on stratified spaces_, Adv. Math. 307, 903-1028 (2017) ([arXiv:1409.0501](https://arxiv.org/abs/1409.0501))
 
 Textbook accounts include
 
 * [[Jacob Lurie]], section 5.5.1 of _[[Higher Algebra]]_
+
+Ran spaces of the [[circle]] are discussed in 
+
+* {#Bott52} [[Raoul Bott]], _On the third symmetric potency of $S^1$, Fund. Math. 39 (1952), 264–268 (1953)
+
+* {#Tuffley02} Christopher Tuffley, _Finite subsets of $S^1$_, Algebraic & Geometric Topology, Volume 2 (2002) 1119-1145 ([arXiv:math/0209077](https://arxiv.org/abs/math/0209077))
 
 Rational functions as functions on the Ran space in the sense of functions on the complement of finitely many points as these range over all points, is discussed in
 
