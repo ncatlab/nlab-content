@@ -22,11 +22,17 @@
 
 In [[QCD]] a [[bound state]] of two [[quarks]] via the [[strong nuclear force]]. For instance a [[pion]].
 
+## Examples
+
+* [[B meson]]
+
 ## Related concepts
 
-[[!include fields and quanta - table]]
+* [[hadron]]
 
 ## References
+
+See also
 
 * Wikipedia, _[Meson](http://en.wikipedia.org/wiki/Meson)_
 
