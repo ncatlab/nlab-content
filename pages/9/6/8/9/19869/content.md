@@ -11,7 +11,7 @@ All our terms are fully annotated.  For instance, we write $App^{(x:A)B}(M,N)$ r
 
 In particular, this means that given $\Gamma$ and $T$, if $\Gamma \vdash T:A$ can be derived for any value of $A$, then there is a canonical such $A$ that can be deduced syntactically, or *synthesized*, from $\Gamma$ and $T$.  For instance, if $App^{(x:A)B}(M,N)$ has any type, then it must have the type $B[N/x]$.  On the other hand, the conversion rule implies that $App^{(x:A)B}(M,N)$ must also have any type that is judgmentally *equal* to $B[N/x]$.
 
-Type theorists have a standard technique for distinguishing these two situations, known as [[bidirectional typechecking]].  Instead of one judgment $\Gamma\vdash t:A$, we have two typing judgments:
+Type theorists have a standard technique for distinguishing these two situations, (FIXME: *What* two situations?) known as [[bidirectional typechecking]].  Instead of one judgment $\Gamma\vdash t:A$, we have two typing judgments:
 
 * $\Gamma \vdash T \Rightarrow A$: in context $\Gamma$ the term $T$ *synthesizes* the type $A$.  Here $A$ is, if it exists, uniquely determined by $\Gamma$ and $T$: it is an "output" to their "inputs".
 * $\Gamma \vdash T \Leftarrow A$: in context $\Gamma$ the term $T$ *checks against* the type $A$.  Here $\Gamma$, $T$, and $A$ are all "inputs" and the only "output" is the truth value of whether the typecheck is valid.
