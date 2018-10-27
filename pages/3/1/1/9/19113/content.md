@@ -99,7 +99,7 @@ $$
   \array{
     \mathbb{Z} &\vert& n = 0
     \\
-    G^{ab} &\vert&  n = 1 \, mod \, 4
+    G^{ab}_{ADE} &\vert&  n = 1 \, mod \, 4
     \\
     \mathbb{Z}/{\vert G_{ADE}\vert} &\vert& n= 3 \,mod\, 4
     \\
