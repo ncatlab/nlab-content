@@ -366,7 +366,7 @@ Ambient categories of relevance in practice are
 
 * [[commutative operad]]
 
-  * [[E-k operad]]
+  * [[little cubes operad|E-k operad]]
 
     * [[E-infinity operad]]
 
@@ -384,9 +384,8 @@ Ambient categories of relevance in practice are
 
 * [[linear operad]]
 
-generalizations:
+* The [[Goodwillie derivatives of the identity functor]] form an operad in [[spectra]]
 
-* [[(∞,1)-operad]]
 
 ### General
 
