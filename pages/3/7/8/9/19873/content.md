@@ -17,7 +17,7 @@
 
 ## Idea
 
-In the [[standard model of particle physics]] a _B-meson_ is a [[meson]] which is a [[bound state]] of two (anti-)[[quark|bottom quarks]] (whence "B").
+In the [[standard model of particle physics]] a _B-meson_ is a [[meson]] which is a [[bound state]] of two (anti-)[[bottom quarks]] (whence "B").
 
 ## Related concepts
 
