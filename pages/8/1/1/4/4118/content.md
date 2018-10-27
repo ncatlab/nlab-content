@@ -1,7 +1,51 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 A group $G$ is **perfect** if it equals its own commutator subgroup $[G, G]$, i.e., if every element of $G$ is a product of commutators (elements of the form $[g, h] = g h g^{-1} h^{-1}$). 
 
-Equivalently: let $G^{ab}$ denote the [[abelianization]] of $G$ (the target of the homomorphism $G \to G^{ab}$ that is universal among homomorphisms from $G$ to abelian groups, or the largest abelian quotient of $G$). Then $G$ is perfect precisely when $G^{ab}$ is a [[trivial group]], since 
+Equivalently: let $G^{ab}$ denote the [[abelianization]] of $G$ (the target of the homomorphism $G \to G^{ab}$ that is universal among homomorphisms from $G$ to [[abelian groups]], or the largest abelian quotient of $G$). Then $G$ is perfect precisely when $G^{ab}$ is a [[trivial group]], since 
+$G^{ab} \cong G/[G, G]$:
 
-$$G^{ab} \cong G/[G, G].$$
+$$
+  G \;\; \text{perfect}
+  \;\;\;\Leftrightarrow\;\;\;
+  G^{ab} \;\; \text{is trivial}
+$$
 
-The [[alternating group]] $A_5$ is the smallest nontrivial perfect group. 
+## Examples
+
+
++-- {: .num_prop }
+###### Proposition
+
+The [[alternating group]] $A_5$ is the smallest nontrivial perfect group.
+
+=--
+
++-- {: .num_prop #2IIsPerfect}
+###### Proposition
+
+The [[binary icosahedral group]] $2I$ is a [[perfect group]]: its [[abelianization]] is the [[trivial group]].
+
+In fact, up to [[isomorphism]], the [[binary icosahedral group]] is the unique [[finite group]] of [[order of a group|order]] 120 which is a [[perfect group]].
+
+=--
+ 
+[[!redirects perfect groups]]
