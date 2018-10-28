@@ -91,6 +91,8 @@ Review includes
 
 * {#Boedigheimer87} [[Carl-Friedrich Bödigheimer]], _Stable splittings of mapping spaces_, Algebraic topology. Springer 1987. 174-187 ([pdf](http://www.math.uni-bonn.de/~cfb/PUBLICATIONS/stable-splittings-of-mapping-spaces.pdf))
 
+* [[Ben Knudsen]], _Configuration spaces in algebraic topology_, ([arXiv:1803.11165](https://arxiv.org/abs/1803.11165))
+
 
 See also
 
