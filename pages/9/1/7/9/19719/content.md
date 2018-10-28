@@ -48,3 +48,5 @@ Here are the tasks to be done.  To volunteer for a task, edit the page and put y
 * [original nForum discussion](https://nforum.ncatlab.org/discussion/8904/a-communal-proof-of-an-initiality-theorem/)
 * [n-Category Café announcement](https://golem.ph.utexas.edu/category/2018/09/a_communal_proof_of_an_initial.html)
 * [[Initiality Project - Participants|participant list]].  If you would like to participate, simply add your name to the list and join the conversation!  All work will take place publically on nLab pages, nForum discussions, etc.
+
+category: Initiality Project
