@@ -28,6 +28,38 @@ In principle many other kinds of configurations and the spaces these form may be
 
 (...)
 
+## Properties
+
+### Cocycle spaces and the Scanning map
+ {#CocycleSpacesAndScanningMap}
+
+
+For $X$ a [[compact topological space|compact]] [[manifold]] and $A$ a [[pointed topological space]] ("[[charge]] [[coefficients]]"), there is the [[scanning map]]
+
+$$
+  Conf(X, A)
+  \longrightarrow
+  \Gamma( S_X(T X)\wedge_X A  )
+$$
+
+from the configuration space of points in $X$ with charge in $A$ and [[continuous function|continuous]] [[sections]] of the [[spherical fibration]] induced by the [[tangent bundle]] of $X$ [[fiber]]-wise [[smash product|smashed]] with the [[coefficients]] $A$.
+
+Under mild conditions, this is a [[homotopy equivalence]].
+
+This is due to ([McDuff 75](#McDuff75)), for review see ([Bödigheimer 87, Prop. 2](#Boedigheimer87), [Francis Lecture 17, Theorem 1.1](#FrancisLect17)).
+
+If here $A = S^n$ is an [[n-sphere]]  regarded as [[coefficients]] for [[non-abelian cohomology]], then this equivalence identifies the configuration space with the [[cocycle]] space/[[infinity-groupoid]] of $\tau_X$-[[twisted cohomology|twisted]] [[cohomotopy]] in degree $\tau + n$, where $\tau_X \coloneqq [S_X(T X)]$ is the class of the [[spherical fibration]] of the tangent bundle.
+
+In particular if $X$ is a [[parallelizable manifold]]/[[framed manifold]], then $\tau_X = dim(X)$ and the equivalence identifies the configuration space with the plain [[cohomotopy]] of $X$ in degree $dim(X) + n$:
+
+$$
+  Conf(X,S^n)
+  \;\simeq\;
+  Maps( X, S^{dim(X) + n} )
+  \,.
+$$
+
+
 ## Examples
 
 ### Classifying space of the symmetric group
@@ -54,7 +86,7 @@ The [[James construction]] of $X$ is [[homotopy equivalence|homotopy equivalent]
 
 Review includes 
 
-* [[John Francis]], _The H-Principle Lecture 17: The sheaf oof configuration spaces and the scanning map_ ([pdf](http://math.northwestern.edu/~jnkf/classes/hprin/17configmapping.pdf))
+* {#FrancisLect17} [[John Francis]], _The H-Principle Lecture 17: The sheaf oof configuration spaces and the scanning map_ ([pdf](http://math.northwestern.edu/~jnkf/classes/hprin/17configmapping.pdf))
 
 
 * {#Boedigheimer87} [[Carl-Friedrich Bödigheimer]], _Stable splittings of mapping spaces_, Algebraic topology. Springer 1987. 174-187 ([pdf](http://www.math.uni-bonn.de/~cfb/PUBLICATIONS/stable-splittings-of-mapping-spaces.pdf))
