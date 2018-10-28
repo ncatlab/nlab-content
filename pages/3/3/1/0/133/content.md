@@ -29,7 +29,7 @@ $$
 
 Note that a surjection $A \to B$ of sets can be regarded as a $B$-indexed [[family of sets]], while the existence of a section is equivalent to a choice of one element in each set of this family.  This reproduces the more classical form of the axiom of choice.
 
-When the full axiom of choice fails, it may still be valid for some restricted class of objects $A$ and/or $B$.  An object $B$ such that any [[epimorphism]] $A \to B$ splits is called [[projective object|projective]]; this means that one can make choices 'indexed by' $B$.  Dually, an object $A$ such that one can make choices 'with values in' $A$ is called a [[choice object]] (this is not quite equivalent to every epimorphism $A \to B$ splitting).
+When the full axiom of choice fails, it may still be valid for some restricted class of objects $A$ and/or $B$.  An object $B$ such that any [[epimorphism]] $A \to B$ [[split epimorphism|splits]] is called [[projective object|projective]]; this means that one can make choices 'indexed by' $B$.  Dually, an object $A$ such that one can make choices 'with values in' $A$ is called a [[choice object]] (this is not quite equivalent to every epimorphism $A \to B$ splitting).
 
 
 ## In other categories
@@ -38,7 +38,7 @@ More generally, we may consider analogous statements in [[categories]] $C$ other
 
 ### External form
 
-We say that $C$ satisfies the **external axiom of choice** if every epimorphism in $C$ splits.
+We say that $C$ satisfies the **external axiom of choice** if every [[epimorphism]] in $C$ [[split epimorphism|splits]].
 
 In this form, the axiom of choice may look less mysterious than in its original formulation. For instance, it is clear that it fails in contexts such as $C =$ [[Top]] and $C = $[[Diff]], due to the existence of nontrivial topological and smooth [[fiber bundle]]s.
 
@@ -149,6 +149,7 @@ There are also "internal" versions of these axioms.
 * We can also replace the $(-1)$-truncation by the assertion of $k$-connectedness, obtaining the **axiom of $k$-connected choice**.
 
 ### In type theory
+ {#InTypeTheory}
 
 In [[Martin-Lof type theory]], if "there exists" and "for all" are interpreted in the classical way according to [[propositions as types]], then the statement of the axiom of choice comes out as simply the statement that products distribute over coproducts.  (See [[distributivity pullback]] for a discussion in terms of the internal type theory of a locally cartesian closed category.)  Since this statement is provable, traditionally type theorists say that "the axiom of choice is provable" in type theory.  However, this is arguably not really a faithful representation of the axiom of choice, not only because it is provable, but because it lacks the usual strong consequences of the set-theoretic axiom of choice.
 
