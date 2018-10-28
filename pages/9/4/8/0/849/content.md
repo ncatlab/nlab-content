@@ -332,6 +332,13 @@ The internal hom is the [[categorical semantics]] of what in [[type theory]] are
 
 For each object $S$ the (internal hom $\dashv$ [[tensor product]])-[[adjunction]] induces a [[monad]] $[S, S \otimes (-)]$. In [[computer science]] this [[monad (in computer science)]] is called the _[[state monad]]_.
 
+### Stable splitting
+  {#StableSplitting}
+
+In [[topology]] the [[stabilization]]/[[suspension spectrum]] $\Sigma^\infty  Maps(X,A)$ of  [[mapping spaces]] $Maps(X,A)$ between suitable [[CW-complexes]] $X, A$ happens to decompose as a [[direct sum]] of [[spectra]] in a useful way, related to the expression of the [[Goodwillie derivatives]] of the functor $Maps(X,-)$. 
+
+For more on this see at _[[stable splitting of mapping spaces]]_.
+
 ## Examples
  {#Examples}
 
