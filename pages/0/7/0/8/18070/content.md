@@ -22,11 +22,64 @@ In principle many other kinds of configurations and the spaces these form may be
 
 ## Definition
 
-(...)
++-- {: .num_defn #ConfigurationSpaceOfParticleswithLabels}
+###### Definition
+**(configuration space of particles with labels)**
 
-([Bödigheimer 87, 1](#Boedigheimer87))
+Let 
 
-(...)
+1. $(X, \infty)$ be a [[pointed topological space|pointed]] [[smooth manifold]] of [[dimension]]
+
+1. $(A, 0)$ a [[pointed topological space|pointed]] [[CW-complex]].
+
+Then the _configuration space of points in $X$ with labels in $A$_
+
+$$
+  Conf(X, A)
+  \;\coloneqq\;
+  \left(
+    \underset{ n \in \mathbb{N} }{\coprod} 
+    \left( 
+      X^n \setminus \mathbf{\Delta}^n_X
+    \right)
+    \times A^n
+  \right)/\sim
+$$
+
+is the [[quotient space]] of the [[disjoint union]] of the [[Cartesian products]] of the space of configurations of distinguishable but unlabeled [[n-tuples]] of points, hence the [[complement]] in $X^n$ of the [[fat diagonal]] $\mathbf{\Delta}_X^n$, with the products of label spaces, by the following [[equivalence relations]]:
+
+1. [[action]] of the [[symmetric group]]:
+
+   $$
+     \big((x_1, \cdots, x_n), (a_1, \cdots, a_n)\big) 
+     \sim 
+     \big((x_{\sigma(1)}, \cdots, x_{\sigma(n)}), (a_{\sigma(1)}, \cdots, a_{\sigma(n)})\big) 
+   $$
+
+   for any [[permutation]] $\sigma \in S_n$
+
+
+1. vanishing of particles of "zero charge":
+
+   $$     
+     \big((x_1, \cdots, x_{n-1}, x_n), (a_1, \cdots, a_{n-1}, 0)\big) 
+     \;\sim\;
+     \big((x_1, \cdots, x_{n-1}), (a_1, \cdots, a_{n-1})\big) 
+   $$
+
+1. vanishing of particles of "[[vanishing at infinity|at infinity]]":
+
+   $$     
+     \big((x_1, \cdots, x_{n-1}, \infty), (a_1, \cdots, a_{n-1}, a_n)\big) 
+     \;\sim\;
+     \big((x_1, \cdots, x_{n-1}), (a_1, \cdots, a_{n-1})\big) 
+   $$
+
+
+=--
+
+(e.g. [Bödigheimer 87, 1](#Boedigheimer87))
+
 
 ## Properties
 
