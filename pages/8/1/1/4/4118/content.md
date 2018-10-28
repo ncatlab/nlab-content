@@ -50,7 +50,7 @@ In fact, up to [[isomorphism]], the [[binary icosahedral group]] is the unique [
 
 =--
 
-Since $2I \simeq SL_2(\mathbb{F}_5)$ ([this prop.](icosahedral+group#IsomorphismToSL25)), this is a special case of the following class of examples, in fact it is smallest example from this class:
+Since $2I \simeq SL_2(\mathbb{F}_5)$ ([this prop.](icosahedral+group#IsomorphismToSL25)), this is a special case of the following class of examples:
 
 +-- {: .num_prop} 
 ###### Proposition 
@@ -59,7 +59,7 @@ The [[special linear group]] $SL_n(\mathbb{F})$ is perfect for any [[field]] $\m
 
 =-- 
 
-See for example [here](http://people.brandeis.edu/~igusa/Math101b/SL.pdf), or [Lang 02, theorems XIII 8.3 and 9.2](#Lang02). 
+See for example [here](http://people.brandeis.edu/~igusa/Math101b/SL.pdf), or [Lang 02, theorems XIII 8.3 and 9.2](#Lang02). Notice that the smallest of this class of examples is $SL_2(\mathbb{F}_4)$, of order $60$. In a moment we give a simple argument that this example is isomorphic to $A_5$. 
  
 +-- {: .num_prop} 
 ###### Proposition 
@@ -67,6 +67,11 @@ A [[quotient group]] of a perfect group is again perfect.
 =-- 
 
 This last assertion is easy to see: $G$ is perfect if it has no nontrivial abelian quotients. If a quotient $H$ had a nontrivial abelian quotient, then obviously so would $G$. 
+
++-- {: .num_remark} 
+###### Remark 
+Given that there are no nontrivial perfect groups of order less than $60$, this proposition shows that $SL_2(\mathbb{F}_4)$ cannot have a proper nontrivial quotient, i.e., it is a [[simple group]]. Since $A_5$ is up to isomorphism the only simple group of order $60$, there must be a (non-canonical) isomorphism $A_5 \cong SL_2(\mathbb{F}_4)$. 
+=--
 
 Relatedly, we have 
 
