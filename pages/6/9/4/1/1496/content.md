@@ -235,6 +235,8 @@ Conversely, every [[bornological vector space]] is an inductive limit of [[norme
 
 ## References
 
+Named after [[Stefan Banach]].
+
 * Walter Rudin, _Functional analysis_
 * Dunford, Nelson; Schwartz, Jacob T.: "Linear operators. Part I: General theory." ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0635.47001&format=complete)), "Linear operators. Part II: Spectral theory, self adjoint operators in Hilbert space." ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0635.47002&format=complete))
 
