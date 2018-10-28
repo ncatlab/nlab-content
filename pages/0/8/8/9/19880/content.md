@@ -18,3 +18,5 @@ TODO
 ## The tautological interpretation
 
 TODO
+
+category: Initiality Project
