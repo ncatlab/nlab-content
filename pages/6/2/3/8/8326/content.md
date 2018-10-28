@@ -5,6 +5,7 @@
 
 > under construction
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -626,7 +627,7 @@ There is an opposition between the two kinds of opposition here:
 **Determinate negation**
  {#DeterminateNegation}
 
-> EL$92Zusatz Negation ist das, was wir Grenze hei&#223;en. Etwas ist nur in seiner Grenze und durch seine Grenze das, was es ist.
+> EL92Zusatz Negation ist das, was wir Grenze hei&#223;en. Etwas ist nur in seiner Grenze und durch seine Grenze das, was es ist.
 
 <div style="float:right;margin:0 10px 10px 0;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Cup_or_faces_paradox.svg/450px-Cup_or_faces_paradox.svg.png" width="300"></div>
 
@@ -1952,7 +1953,7 @@ $$
   \tilde G \longrightarrow \mathbf{B}^{p+1}_{conn}
 $$
 
-of $\mu(\theta_G)$ whose underlying $\mathbf{B}^p\mathbb{G}$-[[nLab:principal ∞-bundle]] is $\Omega \\mathbf{c}$.
+of $\mu(\theta_G)$ whose underlying $\mathbf{B}^p\mathbb{G}$-[[nLab:principal ∞-bundle]] is $\Omega \mathbf{c}$.
 
 We call this the _[[nLab:WZW term]]_ whose [[nLab:curvature]] is $\mu(\theta_G)$.
 
@@ -3084,7 +3085,7 @@ $$
 ###### Proposition
 
 There is a 1-dimensional space of $Spin(2,1)$-invariant 2-cocycles
-on $\mathbb{R}^{2,1\vert \mathbf{2} + \overline{\mathbf{2}}$.
+on $\mathbb{R}^{2,1\vert \mathbf{2} + \overline{\mathbf{2}}}$.
 The [[nLab:Lie algebra extension]] classified by that
 is 4d [[nLab:super Minkowski spacetime]]
 
