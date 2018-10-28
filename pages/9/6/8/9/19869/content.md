@@ -92,7 +92,7 @@ Each type former ($\Pi$-types, $\Sigma$-types, etc.) has a collection of rules g
 * equality rules ([[beta-reduction]] and, sometimes, [[eta-conversion]])
 * congruence rules (the type former and its introduction and elimination forms respect judgmental equality)
 
-#### $\Pi$-types
+### $\Pi$-types
 
 [[!include Initiality Project - Type Theory - Pi-types]]
 
