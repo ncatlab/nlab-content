@@ -146,3 +146,5 @@ To complete the proof of initiality after this, it remains to:
 1. Show that the above interpretation assembles into a morphism in $CwF$ from the term model to $C$.  As far as I can tell, Streicher doesn't actually do this, he just claims that it can be done.
 
 1. Show that this morphism is unique.  Streicher doesn't actually do this either.
+
+category: Initiality Project
