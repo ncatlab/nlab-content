@@ -23,7 +23,7 @@ $$
   \mathbf{\Delta}_X^n \hookrightarrow X^n
 $$ 
 
-is the [[topological subspace]] of [[n-tuples]] of pairwise non-coincident points:
+is the [[topological subspace]] of [[n-tuples]] of points for which at least one pair of components coincide:
 
 $$
   \mathbf{\Delta}_X^n
@@ -31,7 +31,7 @@ $$
   \left\{
     (x_i) \in X^n 
       \;\vert\;
-    x_i \neq x_j \, \text{for all}\, i,j
+    x_i = x_j \, \text{for some}\, i \neq j
   \right\}
   \,.
 $$
