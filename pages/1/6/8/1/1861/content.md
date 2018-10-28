@@ -60,6 +60,29 @@ In particular, the natural group structure on [[cobordism group]] (essentially g
 This is made explicit for instance in [Kosinski 93, chapter IX](#Kosinski93).
 
 
+### Relation to configuration spaces
+  {#RelationToConfigurationSpaces}
+
+
++-- {: .num_remark }
+###### Remark
+**([[configuration space (mathematics)|configuration spaces]] and [[twisted cohomology|twisted]] cohomotopy)**
+
+The [[scanning map equivalence]] ([this Prop.](scanning+map#ScanningMapEquivalence)) identifies the [[configuration space]] of points in $X$ with labels in an [[n-sphere]] with the [[cocycle]]-space/-[[infinity-groupoid]] of $\tau_X$-[[twisted cohomology|twisted]] cohomotopy in degree $\tau + n$, where $\tau_X \coloneqq [S_X(T X)]$ is the class of the [[spherical fibration]] of the tangent bundle.
+
+In particular if $X$ is a [[parallelizable manifold]]/[[framed manifold]], then $\tau_X = dim(X)$ and the equivalence identifies the [[configuration space]] with the plain cohomotopy of $X$ in degree $dim(X) + n$:
+
+$$
+  Conf(X,S^n)
+  \;\simeq\;
+  Maps( X, S^{dim(X) + n} )
+  \,.
+$$
+
+
+=--
+
+
 
 ## Examples
 
