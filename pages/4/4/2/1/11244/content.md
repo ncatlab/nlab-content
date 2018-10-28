@@ -2,4 +2,8 @@
 * [old webpage](http://homepages.inf.ed.ac.uk/als/)
 * _Probability sheaves_, talk at Topos &#224; l'IH&#201;S, November 2015 ([YouTube](https://www.youtube.com/watch?v=IMGoluu1mgc))
 
+## related $n$Lab entries
+
+* [[Banach-Tarski paradox]]
+
 category: people
