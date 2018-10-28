@@ -14,10 +14,10 @@ The Initiality Project is a communal effort to prove an [[initiality theorem]] f
 * [[Initiality Project - Type Theory|Type Theory]] -- the judgments of our type theory
 * [[Initiality Project - Semantics|Semantics]] -- the categorical structures in which we interpret type theory
 * [[Initiality Project - Partial Interpretation|Partial interpretation function]]
-* [[Initiality Project - Preservation of Substitution|Preservation of Substitution]]
+* [[Initiality Project - Substitution|Preservation of Substitution]]
 * [[Initiality Project - Totality|Totality of the interpretation]]
 * [[Initiality Project - Term Model|The Term Model]]
-* [[Initiality Project - Interpretation Functor|The interpretation as a functor]]
+* [[Initiality Project - Functor|The interpretation as a functor]]
 * [[Initiality Project - Uniqueness|Uniqueness of the interpretation functor]]
 
 ### By type former
@@ -26,7 +26,7 @@ The Initiality Project is a communal effort to prove an [[initiality theorem]] f
 
 ## Jobs and volunteers
 
-Here are the tasks to be done.  To volunteer for a task, edit the page and put your name after it.
+Here are the tasks to be done.  To volunteer for a task, edit the page and put your name after it.  Some tasks have many sub-tasks (e.g. each of the 8-ish rules at [[Initiality Project - Type Theory - Pi-types]] requires its own inductive clause at [[Initiality Project - Totality - Pi-types]]), so feel free to split up the tasks listed below and volunteer at as small a level of granularity as you wish.
 
 * Create skeletons for all the pages and list the tasks to be done ([[Mike Shulman]])
 * Define $\alpha$-equivalence and capture-avoiding substitution in [[Initiality Project - Raw Syntax]] ([[John Dougherty]])
@@ -36,6 +36,12 @@ Here are the tasks to be done.  To volunteer for a task, edit the page and put y
 * Define signatures to give arities to constants, and write out the constant rules at [[Initiality Project - Type Theory]].
 * Write out the $\Pi$-type congruence rules at [[Initiality Project - Type Theory - Pi-types]].
 * Prove some admissible rules, etc. at [[Initiality Project - Type Theory]].
+* Define the partial interpretation on $\Pi,\lambda,App$ at [[Initiality Project - Partial Interpretation - Pi-types]].
+* Prove local totality for the variable rule at [[Initiality Project - Totality]].
+* Prove local totality for the mode-switching rule at [[Initiality Project - Totality]].
+* Prove local totality for the equality rules at [[Initiality Project - Totality]].
+* Prove local totality for $\Pi,\lambda,App$ at [[Initiality Project - Totality - Pi-types]].
+
 
 ## Background links
 
