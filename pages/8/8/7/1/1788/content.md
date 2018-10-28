@@ -1,4 +1,20 @@
 
+$$
+  S_1 {\vee\!\!\!\wedge} S_2
+  \phantom{AAA}
+  \left\{
+    \array{
+      \text{"}S_1 \, \text{does not intersect the past of} \, S_2\text{"}
+      \\
+      \Updownarrow
+      \\
+      \text{"}S_2 \, \text{does not intersect the future of} \, S_1\text{"}
+    }
+  \right.
+$$
+
+
+
 Which can be restated in terms of representable profunctors as follows.
 A cwf consists of
 
