@@ -59,7 +59,7 @@ The [[special linear group]] $SL_n(\mathbb{F})$ is perfect for any [[field]] $\m
 
 =-- 
 
-See for example [here](http://people.brandeis.edu/~igusa/Math101b/SL.pdf), or Lang's Algebra ($3^{rd}$ edition), page (to be looked up). 
+See for example [here](http://people.brandeis.edu/~igusa/Math101b/SL.pdf), or Lang's [Algebra](https://math24.files.wordpress.com/2013/02/algebra-serge-lang.pdf) ($3^{rd}$ edition), theorems XIII 8.3 and 9.2. 
  
 +-- {: .num_prop} 
 ###### Proposition 
