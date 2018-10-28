@@ -29,6 +29,8 @@ In the context of [[generalized (Eilenberg-Steenrod) cohomology]] the generalize
 
 * [[smash product of spectra]], [[symmetric monoidal smash product of spectra]]
 
+* [[stable splitting of mapping spaces]]
+
 ## References
 
 * [[Harold Hastings]], _On function spectra_, Proceedings of the AMS, volume 44, Number 1, May 1974 ([pdf](http://www.ams.org/journals/proc/1974-044-01/S0002-9939-1974-0343258-4/S0002-9939-1974-0343258-4.pdf))
