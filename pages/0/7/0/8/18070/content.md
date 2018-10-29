@@ -360,7 +360,7 @@ Math. Scand. __10__ (1962) 111-118, [MR141126](http://www.ams.org/mathscinet-get
 
 
 
-### Scanning map and Relation to cohomotopy
+### Scanning map and cohomotopy
 
 The [[scanning map]] and hence the relation of configuration spaces to [[cohomotopy]] goes back to 
 
@@ -400,6 +400,12 @@ The configuration spaces of a space $X$ appear as the [[Goodwillie derivatives]]
 * {#Arone99} [[Greg Arone]], _A generalization of Snaith-type filtration_, Transactions of the American Mathematical Society 351.3 (1999): 1123-1150. ([pdf](https://www.ams.org/journals/tran/1999-351-03/S0002-9947-99-02405-8/S0002-9947-99-02405-8.pdf))
 
 * {#Ching05} [[Michael Ching]], _Calculus of Functors and Configuration Spaces_, Conference on Pure and Applied Topology Isle of Skye, Scotland, 21-25 June, 2005 ([pdf](https://www3.amherst.edu/~mching/Work/skye.pdf))
+
+### Relation to graph complexes
+
+Models for the [[ordinary cohomology]] of configuration in terms of [[graph complexes]] are discussed in
+
+* {#CamposWillwacher16} [[Ricardo Campos]], [[Thomas Willwacher]], _A model for configuration spaces of points_ ([arXiv:1604.02043](https://arxiv.org/abs/1604.02043))
 
 
 [[!redirects scanning map]]
