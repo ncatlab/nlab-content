@@ -802,6 +802,10 @@ A comprehensive and clean account of the classical aspects is in
 
   * _Remarks on Chern-Simons theory_ Bulletin (New Series) of the AMS, Volume 46, Number 2, April 2009, Pages 221&#8211;254S 0273-0979(09)01243-9 ([arXiv](http://arxiv.org/abs/0808.2507))
 
+See also 
+
+* {#CattaneoMnev08} [[Alberto Cattaneo]], [[Pavel Mnev]], _Remarks on Chern-Simons invariants_, Commun.Math.Phys.293:803-836, 2010 ([arXiv:0811.2045](https://arxiv.org/abs/0811.2045))
+
 Discussion with emphasis on the [[symplectic structure]] on [[phase space]] and the expression of the [[Wilson lines]] by the [[orbit method]] is in
 
 * [[Anton Alekseev]], A. Z. Malkin, _Symplectic Geometry of the Chern-Simons theory_ ESI preprint 80 (1994) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.142.9821))
