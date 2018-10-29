@@ -95,6 +95,21 @@ Due to the relation between [[supersymmetry and Calabi-Yau manifolds]], of parti
 
 For references see below at _[References - Models in type II string theory](#ReferencesTypeIIModels)_
 
+#### Computer scan of Gepner-model compactifications
+ {#ComputerScanOfGepnerModelCompactifications}
+
+Discussion of [[string phenomenology]] of [[intersecting D-brane models]] [[KK-compactification|KK-compactified]] with non-geometric [[fibers]] such that the would-be string [[sigma-models]] with these [[target spaces]] are in fact [[Gepner models]] (in the sense of _[Spectral Standard Model and String Compactifications](https://www.physicsforums.com/insights/spectral-standard-model-string-compactifications/)_) is in ([Dijkstra-Huiszoon-Schellekens 04a](#DijkstraHuiszoonSchellekens04a), [Dijkstra-Huiszoon-Schellekens 04b](#DijkstraHuiszoonSchellekens04b)):
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/SchellekensSuperGepnerModelScanII.jpg" width="600">
+</center>
+
+>  A plot of [[standard model of particle physics|standard model]]-like [[coupling constants]] in a computer scan of [[Gepner model]]-[[KK-compactification]] of [[intersecting D-brane models]] according to [Dijkstra-Huiszoon-Schellekens 04b](#DijkstraHuiszoonSchellekens04b). 
+
+>  The blue dot indicates the couplings in $SU(5)$-[[GUT]] theory. The faint lines are NOT drawn by hand, but reflect increased density of Gepner models as seen by the computer scan.
+
+
 
 ### Models in M-theory
  {#ModelsInMTheory}
@@ -174,8 +189,13 @@ For [[Gepner models]]:
 
 * {#CHSW85} [[Philip Candelas]], [[Gary Horowitz]], [[Andrew Strominger]], [[Edward Witten]], _Vacuum configurations for superstrings_, Nuclear Physics B Volume 258, 1985, Pages 46-74 Nucl. Phys. B 258, 46 (1985) (<a href="https://doi.org/10.1016/0550-3213(85)90602-9">doi:10.1016/0550-3213(85)90602-9</a>)
 
+
  
 * {#AW01} [[Bobby Acharya]], [[Edward Witten]], _Chiral Fermions from Manifolds of $G_2$ Holonomy_ ([arXiv:hep-th/0109152](http://arxiv.org/abs/hep-th/0109152))
+
+* {#DijkstraHuiszoonSchellekens04a} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Chiral Supersymmetric Standard Model Spectra from Orientifolds of Gepner Models_, Phys.Lett. B609 (2005) 408-417 ([arXiv:hep-th/0403196](https://arxiv.org/abs/hep-th/0403196))
+
+* {#DijkstraHuiszoonSchellekens04b} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Supersymmetric Standard Model Spectra from RCFT orientifolds_, Nucl.Phys.B710:3-57,2005 ([arXiv:hep-th/0411129](https://arxiv.org/abs/hep-th/0411129))
  
 
 * [[Cumrun Vafa]], _The String Landscape and the Swampland_ ([arXiv:hep-th/0509212](http://arxiv.org/abs/hep-th/0509212))
