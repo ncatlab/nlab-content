@@ -3,6 +3,8 @@
 
 ## related $n$Lab entries
 
+* [[Gepner model]]
+
 * [[landscape of string theory vacua]]
 
 * [[discrete torsion]]
