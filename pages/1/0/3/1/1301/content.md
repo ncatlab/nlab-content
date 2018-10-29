@@ -1,6 +1,6 @@
 Is a professor at Northeastern University.
 
-* [website](http://www.math.neu.edu/~bwebster/)
+* [website](https://uwaterloo.ca/scholar/b2webste/home)
 * [Secret Blogging Seminar](http://sbseminar.wordpress.com/).  
 
 ##Expository posts:##
