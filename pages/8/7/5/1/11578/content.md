@@ -11,6 +11,6 @@ marked points.
 
 * [Article by Leila Schneps](http://www.math.jussieu.fr/~leila/SchnepsLM.pdf)
 
-* Project of transcription of [La "Longue Marche"](https://github.com/carmonamateo/LaLongueMarche)
+* Project of transcription of [Notes Anabéliennes](https://github.com/carmonamateo/NotesAnabeliennes)
 
 category: reference
