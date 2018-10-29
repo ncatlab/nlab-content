@@ -388,6 +388,8 @@ See also
 
 * [[Sadok Kallel]], _Particle Spaces on Manifolds and Generalized Poincaré Dualities_ ([arXiv:math/9810067](https://arxiv.org/abs/math/9810067)) 
 
+* [[Shingo Okuyama]], [[Kazuhisa Shimakawa]], _Interactions of strings and equivariant homology theories_, ([arXiv:0903.4667](https://arxiv.org/abs/0903.4667))
+
 
 ### In Goodwillie-calculus
  {#ReferencesInGoodwillieCalculus}
