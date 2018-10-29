@@ -140,6 +140,20 @@ Lift to [[M-theory on G2-manifolds]] (e.g. [[G2-MSSM]]): see references [below](
 
 Since the [[near horizon geometry]] of [[BPS state|BPS]] [[black branes]] is the [[Cartesian product]] of [[anti de Sitter spaces]] with the unit $n$-sphere around the brane, the [[cosmology]] of intersecting D-brane models realizes the [[observable universe]] on the [[asymptotic boundary]] of an [[anti de Sitter spacetime]], or close (see for instance [Kaloper 04](#Kaloper04), [Flachi-Minamitsuji 09](#FlachiMinamitsuji09)). The basic structure is hence that of _[[Randall-Sundrum models]]_, but details may differ.
 
+## Computer scan of Gepner-model compactifications
+
+Discussion of [[string phenomenology]] of [[intersecting D-brane models]] [[KK-compactification|KK-compactified]] with non-geometric [[fibers]] such that the would-be string [[sigma-models]] with these [[target spaces]] are in fact [[Gepner models]] (in the sense of _[Spectral Standard Model and String Compactifications](https://www.physicsforums.com/insights/spectral-standard-model-string-compactifications/)_) is in ([Dijkstra-Huiszoon-Schellekens 04a](#DijkstraHuiszoonSchellekens04a), [Dijkstra-Huiszoon-Schellekens 04b](#DijkstraHuiszoonSchellekens04a)):
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/SchellekensSuperGepnerModelScanII.jpg" width="600">
+</center>
+
+>  A plot of [[standard model of particle physics|standard model]]-like [[coupling constants]] in a computer scan of [[Gepner model]]-[[KK-compactification]] of [[intersecting D-brane models]] according to [Dijkstra-Huiszoon-Schellekens 04b](#DijkstraHuiszoonSchellekens04b). 
+
+>  The blue dot indicates the couplings in $SU(5)$-[[GUT]] theory. The faint lines are NOT drawn by hand, but reflect increased density of Gepner models as seen by the computer scan.
+
+
 
 ## References
 
@@ -185,6 +199,13 @@ for [[D7-branes]]:
 * {#Uranga12b} [[Angel Uranga]], _Model building in type IIB string theory_, 2012 ([pdf](http://scgp.stonybrook.edu/wp-content/uploads/2012/05/Uranga-Lecture-Notes-2.pdf))
 
 * Anshuman Maharana, [[Eran Palti]], _Models of Particle Physics from Type IIB String Theory and F-theory: A Review_ ([arXiv:1212.0555](http://arxiv.org/abs/1212.0555))
+
+Computer scan of [[Gepner model]]-[[KK-compactifications]] of intersecting D-brane models:
+
+* {#DijkstraHuiszoonSchellekens04a} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Chiral Supersymmetric Standard Model Spectra from Orientifolds of Gepner Models_, Phys.Lett. B609 (2005) 408-417 ([arXiv:hep-th/0403196](https://arxiv.org/abs/hep-th/0403196))
+
+* {#DijkstraHuiszoonSchellekens04b} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Supersymmetric Standard Model Spectra from RCFT orientifolds_, Nucl.Phys.B710:3-57,2005 ([arXiv:hep-th/0411129](https://arxiv.org/abs/hep-th/0411129))
+
 
 Discussion of the [[Higgs mechanism]]:
 
