@@ -55,8 +55,13 @@ See at _[deformation quantization -- Motivic Galois group action on the space of
 See at _[Grothendieck-Teichm&#252;ller group -- relation to the graph complex](Grothendieck-Teichm%C3%BCller+tower#RelationToTheGraphComplex)_.
 
 
+### Relation to configuration spaces
+ {#RelationToConfigurationSpaces}
 
-## Applications
+The system of graph complexes is [[quasi-isomorphism|quasi-isomorphic]] to the [[ordinary cohomology|real cohomology]] of [[configuration space (mathematics)|configuration spaces]] ([Campos-Willwacher 16, theorem 1](#CamposWillwacher16)).
+
+
+## Further applications
 
 ...moduli spaces
 
@@ -83,7 +88,7 @@ There are generalizations for $d$-algebras (algebras over little disc operad in 
 [[formal noncommutative symplectic geometry]] 
 
 
-## Literature
+## References
 
 
 * [[Maxim Kontsevich]], _Feynman diagrams and low-dimensional topology_, First European Congress of Mathematics, 1992, Paris, vol. II, Progress in Mathematics __120__, Birkh&#228;user (1994), 97&#8211;121, [pdf](http://www.ihes.fr/~maxim/TEXTS/Feynman%20%20diagrams%20and%20low-dimensional%20topology.pdf)
@@ -123,6 +128,11 @@ The following survey has discussion of context between the graph complex and [[B
 * Jian Qiu, Maxim Zabzine, _Knot weight systems from graded symplectic geometry_, [arxiv/1110.5234](http://arxiv.org/abs/1110.5234) 
 
 * [[Alastair Hamilton]], [[Andrey Lazarev]], _Graph cohomology classes in the [[BV-BRST formalism|Batalin-Vilkovisky formalism]]_, J.Geom.Phys. __59__:555-575, 2009, [arxiv/0701825](http://arxiv.org/abs/math/0701825)
+
+Relation to [[configuration space (mathematics)|configuration spaces]]:
+
+* {#CamposWillwacher16} [[Ricardo Campos]], [[Thomas Willwacher]], _A model for configuration spaces of points_ ([arXiv:1604.02043](https://arxiv.org/abs/1604.02043))
+
 
 [[!redirects graph cohomology]]
 [[!redirects graph complex]]
