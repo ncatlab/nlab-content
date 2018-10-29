@@ -193,7 +193,7 @@ $$
   A, \mathbf{B} A, \mathbf{B}^2 A, \mathbf{B}^3 A, \cdots
 $$
 
-that in this case happen to be [[strict omega-groupoids]]. The [[strict omega-groupoid]] $\mathbf{B}^n A$ has only [[identity]] $k$-morphisms for all $k$, except for $k = n$, where $\mathrm{Mor}_n(\mathbf{B}^n \mathbb{Z}) = \mathbb{Z}$ are the endomorphisms of the unique identity $(n-1)$-morphism. 
+that in this case happen to be [[strict omega-groupoids]]. The [[strict omega-groupoid]] $\mathbf{B}^n A$ has only [[identity]] $k$-morphisms for all $k$, except for $k = n$, where $\mathrm{Mor}_n(\mathbf{B}^n A) = A$ are the endomorphisms of the unique identity $(n-1)$-morphism. 
 
 The [[strict ∞-groupoid]] $\mathbf{B}^n A$ is the one given under the [[Dold-Kan correspondence]] by the [[crossed complex]] of groupoids that is trivial everywhere and has the group $\mathbb{Z}$ in degree $n$.
 
