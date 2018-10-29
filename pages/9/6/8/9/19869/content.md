@@ -9,22 +9,32 @@ This page is part of the [[Initiality Project]].
 
 All our terms are fully annotated.  For instance, we write $App^{(x:A)B}(M,N)$ rather than just $App(M,N)$.  It is, at best, unclear whether any less than fully annotated syntax can be used in an initiality theorem without "preprocessing" that is tantamount to annotating it.
 
-In particular, this means that given $\Gamma$ and $T$, if $\Gamma \vdash T:A$ can be derived for any value of $A$, then there is a canonical such $A$ that can be deduced syntactically, or *synthesized*, from $\Gamma$ and $T$. For instance, if $App^{(x:A)B}(M,N)$ has any type, then it must have the type $B[N/x]$. On the other hand, the conversion rule implies that $App^{(x:A)B}(M,N)$ must also have any type that is judgmentally *equal* to $B[N/x]$. But in what sense does it have those types, if it doesn't synthesize them?
+In particular, this means that given $\Gamma$ and $T$, if $\Gamma \vdash T:A$ can be derived for any value of $A$, then there is a canonical such $A$ that can be deduced syntactically, or *synthesized*, from $\Gamma$ and $T$. For instance, if $App^{(x:A)B}(M,N)$ has any type, then it must have the type $B[N/x]$. On the other hand, the conversion rule
 
-Since all our terms are fully annotated, all of our formation, introduction, and elimination rules can synthesize their types.  However, the type annotations also tell us what types the subterms need to have, in order for the term to have its canonical type.  These types may not be *syntactically* equal to the types synthesized by the subterms, so we need to *check* subterms against the types we want. The check should succeed if and only if the subterm's synthesized type is *judgmentally* equal to the one we want. So in the $App^{(x:A)B}(M,N)$ example, it *synthesizes* only $B[N/x]$, up to syntactic equality, but it *checks against* any type judgmentally equal to $B[N/x]$
+$$\frac{\Gamma \vdash T:A \qquad \Gamma \vdash A\equiv B \,type}{\Gamma \vdash T:B} $$
 
-Type theorists have a standard technique for distinguishing these two situations, known as [[bidirectional typechecking]].  Instead of one judgment $\Gamma\vdash t:A$, we have two typing judgments:
+implies that $App^{(x:A)B}(M,N)$ must also have any type that is judgmentally *equal* to $B[N/x]$.  But although it *has* these types, there is a sense in which it "has" them in a different sense from the one unique one that it synthesizes.  Moreover, the conversion rule is perhaps the ickiest thing to deal with in an initiality theorem, because it can be applied absolutely anywhere, over and over again, leading to many many different derivations of the same judgment that should not be distinguished semantically.
+
+Note that since all our terms are fully annotated, all of our formation, introduction, and elimination rules can synthesize their types.  However, the type annotations also tell us what types the subterms need to have (i.e. the types that must occur in the premises of the corresponding rule), in order for the term to have its canonical type.  These types may not be *syntactically* equal to the types synthesized by the subterms, so we need to *check* subterms against the types we want. The check should succeed if and only if the subterm's synthesized type is *judgmentally* equal to the one we want; and this is the only place that the conversion rule really *needs* to be applied. So in the $App^{(x:A)B}(M,N)$ example, it *synthesizes* only $B[N/x]$, up to syntactic equality, but it *checks against* any type judgmentally equal to $B[N/x]$
+
+Type theorists have a standard technique for distinguishing these two situations and controlling the use of the conversion rule, known as [[bidirectional typechecking]].  Instead of one judgment $\Gamma\vdash T:A$, we have two typing judgments:
 
 * $\Gamma \vdash T \Rightarrow A$: in context $\Gamma$ the term $T$ *synthesizes* the type $A$.  Here $A$ is, if it exists, uniquely determined by $\Gamma$ and $T$: it is an "output" to their "inputs".
 * $\Gamma \vdash T \Leftarrow A$: in context $\Gamma$ the term $T$ *checks against* the type $A$.  Here $\Gamma$, $T$, and $A$ are all "inputs" and the only "output" is the truth value of whether the typecheck is valid.
 
-Whereas unidirectional typing rules have the conversion rule, allowing the type to be changed at any point to a judgmentally equal one, with bidirectional typing rules, conversion is only used when switching from a synthesizing premise to a checking conclusion, using the "mode-switching" rule. (See below)
+Whereas unidirectional typing rules have the conversion rule, allowing the type to be changed at any point to a judgmentally equal one, with bidirectional typing rules, conversion is only used when switching from a synthesizing premise to a checking conclusion, using the "mode-switching" rule:
 
-Unlike typical versions of bidirectional typing, in our approach the checking judgment is defined *solely* by the mode-switching rule, and all other typing rules conclude a synthesizing judgment. This variant doesn't help with typechecking algorithms, but it still factors out type conversion cleanly.
+$$\frac{\Gamma \vdash T\Rightarrow A \qquad \Gamma \vdash A\equiv B \,type}{\Gamma \vdash T\Leftarrow B} $$
 
-So in summary, terms formers are fully annotated, their typing rules *synthesize* a type in the conclusion, and have premises that *check* their subterms against appropriate types, so the mode-switching rule gets applied a lot, because it's the only way, in our system, to derive a checking judgment.
+Unlike typical versions of bidirectional typing, in our approach the checking judgment is defined *solely* by the mode-switching rule, and all other typing rules conclude a synthesizing judgment. This variant doesn't help with typechecking algorithms, but it still factors out type conversion cleanly: the equality judgment is used when, and only when, the mode switches.
+
+So in summary, terms formers are fully annotated, their typing rules *synthesize* a type in the conclusion, and have premises that *check* their subterms against appropriate types.  So the mode-switching rule gets applied a lot, because it's the only way, in our system, to derive a checking judgment.
 
 From a syntactic perspective, there are many advantages of bidirectional typechecking, but it is unclear at present whether any of them are relevant to categorical semantics (although by using a bidirectional framework we are better placed to take advantage of them if they do become relevant).  But more importantly, the natural structure of the semantic interpretation, as suggested by [[Peter Lumsdaine]], matches the syntactic bidirectional picture quite closely, and it may be clarifying to make that analogy more precise.
+
+Typical versions of bidirectional typing also have bidirectional *equality* rules, which essentially implement an algorithm for equality-checking.  (Such partially-type-directed algorithms have advantages over simply normalizing both terms and comparing normal forms, such as more easily incorporating eta-conversion.)  However, since we want our theorem to generalize to type theories in which equality is not algorithmic (e.g. theories with equality reflection) --- and more importantly, since in semantic equality there is no "output information" to ever compute --- we will not orient our equality judgments.
+
+Our sort of bidirectional theory is very closely related to a unidirectional theory that may be more familiar to some readers.  Roughly speaking, to go from a unidirectional theory to our sort of bidirectional one: make sure everything is fully annotated, make the conclusions of formation/introduction/elimination rules synthesizing and their premises checking, and replace the conversion rule by the mode-switching rule.  Oppositely, to recover a unidirectional theory from our bidirectional one, simply collapse both checking and synthesizing judgments into the "term has a type" judgment $T:A$, thereby generalizing the mode-switching rule to the conversion rule.  Below we will make this "isomorphism" a bit more precise.
 
 ## Contexts
 
@@ -95,6 +105,27 @@ Each type former ($\Pi$-types, $\Sigma$-types, etc.) has a collection of rules g
 ### $\Pi$-types
 
 [[!include Initiality Project - Type Theory - Pi-types]]
+
+## Bidirectional vs Unidirectional
+
+As noted above, there is a canonical correspondence between our bidirectional theory (with any choice of type formers) and a unidirectional one obtained by collapsing both typing judgments $T\Leftarrow A$ and $T\Rightarrow A$ into one $T:A$ (and thereby the mode-switching rule into the conversion rule).
+
+In fact, we can prove that $\Gamma \vdash T\Leftarrow A$ is derivable bidirectionally if and only if $\Gamma \vdash T: A$ is derivable unidirectionally.
+
+The "only if" direction is easy: just change all the $\Leftarrow$s and $\Rightarrow$s to colons in a bidirectional judgment to obtain a unidirectional one.  For "if", it suffices to show that all the unidirectional rules translate to *admissible* bidirectional rules under $(T:A)\mapsto(T\Leftarrow A)$.  Each type-former rule in fact translates to a derivable rule: follow the corresponding bidirectional rule (whose conclusion is synthesizing) by the mode-switching rule applied to reflexivity.  The only thing requiring a bit of thought is the conversion rule: we want to show that
+
+$$ \frac{\Gamma \vdash T\Leftarrow A \qquad \Gamma \vdash A\equiv B \, type}{\Gamma \vdash T\Leftarrow B}$$
+
+is admissible in our bidirectional theory.  But as noted above, any derivation of $\Gamma \vdash T\Leftarrow A$ must end with an invocation of the mode-switching rule, say
+
+$$ \frac{\Gamma \vdash T\Rightarrow C \qquad \Gamma \vdash C\equiv A \, type}{\Gamma \vdash T\Leftarrow A.}$$
+
+Thus, we can combine the derivations of $\Gamma \vdash C\equiv A \, type$ and $\Gamma \vdash A\equiv B \, type$ with transitivity, then apply the mode-switching rule
+
+$$ \frac{\Gamma \vdash T\Rightarrow C \qquad \Gamma \vdash C\equiv B \, type}{\Gamma \vdash T\Leftarrow B}$$
+
+to get a derivation of $\Gamma \vdash T\Leftarrow B$ as desired.
+
 
 ## Admissible rules
 
