@@ -1095,7 +1095,7 @@ $$
   \mathbf{H}
 $$
 
-regarded as the termimal [[nLab:geometric morphism]] whose [[nLab:direct image]] $\Gamma$ forms [[nLab:global points]] (aka [[nLab:global sections]]).
+regarded as the terminal [[nLab:geometric morphism]] whose [[nLab:direct image]] $\Gamma$ forms [[nLab:global points]] (aka [[nLab:global sections]]).
 
 Therefore we label the resolution of the initial opposition as "ground" for "ground topos"([[nLab:base topos]]).
 
@@ -1149,7 +1149,7 @@ $$
 
 The types $X$ that are fully determined by their moment of continuity are those for which $X \to \sharp X$ is a [[nLab:monomorphism]]. In [[nLab:categorical semantics]] these are the [[nLab:concrete objects]] or equivalently the [[nLab:separated presheaves]] for $\sharp$: they are determined by their global points. These are the codomains of those [[nLab:functions]] which in [[nLab:thermodynamics]] one calls _[[nLab:intensive quantities]]_, functions whose value is genuinely given by their restriction to all possible points.
 
-Contrary to that, objects which have purely the negative moment of continuity $\overline{\sharp}$ are codomains for "fuctions" which vanish on points and receive their contribution only from regions that _extend_ beyond a single point. In [[nLab:thermodynamics]] these are called _[[nLab:extensive quantities]]_, (e.g. [[nLab:differential forms]] in positive degree). This concept of _extension_ is precisely that which gave the name to [[nLab:Hermann Grassmann]]'s _[[nLab:Ausdehnungslehre]]_ that introduced the concept of [[nLab:exterior algebra|exterior]] [[nLab:differential form]].
+Contrary to that, objects which have purely the negative moment of continuity $\overline{\sharp}$ are codomains for "functions" which vanish on points and receive their contribution only from regions that _extend_ beyond a single point. In [[nLab:thermodynamics]] these are called _[[nLab:extensive quantities]]_, (e.g. [[nLab:differential forms]] in positive degree). This concept of _extension_ is precisely that which gave the name to [[nLab:Hermann Grassmann]]'s _[[nLab:Ausdehnungslehre]]_ that introduced the concept of [[nLab:exterior algebra|exterior]] [[nLab:differential form]].
 
 In summary, we have found that $(\flat \dashv \sharp)$ expresses _quantity_, discrete quantity and continuous quantity, and that the latter is further subdivided into intensive and extensive quantity.
 
@@ -1194,7 +1194,7 @@ Together this are the axioms of _[[nLab:cohesion]]_ as considered in ([Lawvere 0
 
 The intuition is that positing these qualites on a type system makes it, or rather its types $X$, behave like a [[nLab:cohesive]] [[nLab:substance]] where points $\flat X$ are separate but held together by a cohesive attraction which, when the opposing repulsion is removed and only pure $&#643;$-moment is retained, makes them collapse to the components $&#643; X$.
 
-In the more refined [[nLab:categorical semantics]] of [[nLab:(infinity,1)-topos|homotopy toposes]] $\flat$ modulates [[nLab:locally constant infinity-stacks]]. The above adjunction then expresses the central statement of higher [[nLab:Galois theory]] ([dcct](#dcct)):
+In the more refined [[nLab:categorical semantics]] of [[nLab:(infinity,1)-topos|homotopy toposes]], $\flat$ modulates [[nLab:locally constant infinity-stacks]]. The above adjunction then expresses the central statement of higher [[nLab:Galois theory]] ([dcct](#dcct)):
 
 $$
   \frac{X \to \flat Grpd_\infty}{&#643; X\to Grpd_\infty}
@@ -1227,7 +1227,7 @@ This means that in the presence of the further opposition $&#643; \dashv \flat$ 
 
 By remark \ref{MomentsAndSimilarity} the [[nLab:shape modality]] $&#643;$ determines a concept of similarity of types. This is a well known one: &#643; encodes that two types have the same shape. $X$ and $Y$ may look like different differential geometric spaces, but $(X \, similar_{&#643;} Y)$ holds if they have the same shape.
 
-In the standard [[nLab:model]] given by  [[nLab:smooth infinity-groupoids]], discussed in some detail around theorem \ref{SupergeometryIsModel} below there is for instance the [[nLab:circle]] $S^1$ and the [[nLab:cylinder]] $S^1 \times (0,1)$ over it, both regarded as [[nLab:smooth manifolds]] in the standard way. As such they are not equal (not [[nLab:diffeomorphism|diffeomorphic]]), but clearly they are similar in some sense. The shape modality makes one such sense precise: $&#643; (S^1) \simeq &#643; (S^1 \times (0,1) \simeq B \mathbb{Z}$ and hence
+In the standard [[nLab:model]] given by [[nLab:smooth infinity-groupoids]], discussed in some detail around theorem \ref{SupergeometryIsModel} below, there is for instance the [[nLab:circle]] $S^1$ and the [[nLab:cylinder]] $S^1 \times (0,1)$ over it, both regarded as [[nLab:smooth manifolds]] in the standard way. As such they are not equal (not [[nLab:diffeomorphism|diffeomorphic]]), but clearly they are similar in some sense. The shape modality makes one such sense precise: $&#643; (S^1) \simeq &#643; (S^1 \times (0,1)) \simeq B \mathbb{Z}$ and hence
 
 $$
   S^1 \, similar_{&#643;} \, (S^1 \times (0,1))
@@ -1237,7 +1237,7 @@ $$
 =--
 
 
-For instance there are now types for which $\flat X = \ast$ and yet they may be very different from the point $\ast$ themselves, hence while quantiatively these do not differ from the point, they must have some quality that distinguish them from the point. Hence this [[nLab:unity of opposites]] is _geometric quality_. In standard [[nLab:models]] this geometric quality is for instance [[nLab:topology]] or [[nLab:smooth structure]] or [[nLab:formal smooth manifold|formal smooth structure]] or [[nLab:supergeometry|supergeometric]] structure.
+For instance there are now types for which $\flat X = \ast$ and yet they may be very different from the point $\ast$ themselves, hence while quantitatively these do not differ from the point, they must have some quality that distinguishes them from the point. Hence this [[nLab:unity of opposites]] is _geometric quality_. In standard [[nLab:models]] this geometric quality is for instance [[nLab:topology]] or [[nLab:smooth structure]] or [[nLab:formal smooth manifold|formal smooth structure]] or [[nLab:supergeometry|supergeometric]] structure.
 
 Therefore we write:
 
@@ -1421,7 +1421,7 @@ $$
   \frac{U \to \Im X}{\Re U \to X}
 $$
 
-This has been understood in the 60s, in the context of [[nLab:crystalline cohomology]], to be the characterization of paths that are so small that they are _[[nLab:infinitesimal]]_. The negative $Re$-moment is that of [[nLab:infinitesimal]] objects, the pure $\Re$-moment is that of "[[nLab:reduced objects]]" ("real" objects), those without infinitesimal extension.
+This has been understood in the 60s, in the context of [[nLab:crystalline cohomology]], to be the characterization of paths that are so small that they are _[[nLab:infinitesimal]]_. The negative $\Re$-moment is that of [[nLab:infinitesimal]] objects, the pure $\Re$-moment is that of "[[nLab:reduced objects]]" ("real" objects), those without infinitesimal extension.
 
 In summary this gives:
 
@@ -1491,7 +1491,7 @@ Proceed to a new [[nLab:level of a topos|level]] of oppositions
 
 $$
   \array{
-    \rightsquigarrow &\dashv& \R
+    \rightsquigarrow &\dashv& Rh
     \\
     \vee && \vee
     \\
@@ -1518,7 +1518,7 @@ The [[nLab:geometry|geometric]] quality of our formal [[nLab:substance]] that th
 
 ###### Cyclic grading
 
-The moments proceed by a further higher-oder opposition
+The moments proceed by a further higher-order opposition
 
 $$
   \array{
@@ -1662,7 +1662,7 @@ Now one observe that a [[nLab:correspondence]] is naturally interpreted as a _pr
 every instance/term $y\colon Y$ may be thought of as a process under which $i(y) \colon X_1$ turns into $o(y) \colon X_2$.
 
 
-In traditional [[nLab:mathematical physics]] this is familiar from the concept of [[nLab:Lagrangian correspondences]] which serves to encoce much of [[nLab:classical mechanics]].
+In traditional [[nLab:mathematical physics]] this is familiar from the concept of [[nLab:Lagrangian correspondences]] which serves to encode much of [[nLab:classical mechanics]].
 
 **Physical law**
 
@@ -1670,7 +1670,7 @@ Or rather, classical mechanics is encoded by [[nLab:prequantized Lagrangian corr
 
 By the discussion there, a [[nLab:prequantized Lagrangian correspondence]] is itself again just a correspondence, but now in [[nLab:context]], hence between [[nLab:dependent types]], namely depending on a type of [[nLab:phase and phase space in physics|phases]].
 
-A detailed discussion of how [[nLab:classical field theory]] is formalized via [[nLab:correspondences]] in [[nLab:cohesive homotopy type theory]] in the context of a type of phases is ar
+A detailed discussion of how [[nLab:classical field theory]] is formalized via [[nLab:correspondences]] in [[nLab:cohesive homotopy type theory]] in the context of a type of phases is at
 
 * _[[schreiber:Classical field theory via Cohesive homotopy types]]_.
 
@@ -1858,7 +1858,7 @@ $$
   \mathbf{B}\mathbb{G}\underset{\flat_{dR}\mathbf{B}^2\mathbb{G}}{\times} \mathbf{\Omega}^2_{cl}
 $$
 
-of the Maurer-Cartan form $\theta_{\mathbf{B}\mathbb{G}}$ with the last Holdge filtration stage.
+of the Maurer-Cartan form $\theta_{\mathbf{B}\mathbb{G}}$ with the last Hodge filtration stage.
 
 
 =--
@@ -1867,7 +1867,7 @@ of the Maurer-Cartan form $\theta_{\mathbf{B}\mathbb{G}}$ with the last Holdge f
 +-- {: .num_prop }
 ###### Proposition
 
-The decomposition of $\mathbf{B}\mathbb{G}_{conn}$ into its $(&#643;, \overline{\flat})$-moments according to prop \ref{TheHexagon} reproduces the defining Cartesian sqare of def. \ref{BGconn}:
+The decomposition of $\mathbf{B}\mathbb{G}_{conn}$ into its $(&#643;, \overline{\flat})$-moments according to prop \ref{TheHexagon} reproduces the defining Cartesian square of def. \ref{BGconn}:
 
 $$
   \array{
@@ -1905,7 +1905,7 @@ is equivalently a [[nLab:cocycle]] of degree $p+2$ in the [[nLab:group cohomolog
 +-- {: .num_defn #FormRefinementOfCocycle}
 ###### Definition
 
-Given a group cocycle $\mathbf{c}$ and a [[nLab:Hodge filtration]], then a refinement of the Hodge filtration along the group cocycle is a chose of 0-trucated extensive $\mathbf{\Omega}^1_{flat}(-,\mathfrak{g})$ fitting into a square
+Given a group cocycle $\mathbf{c}$ and a [[nLab:Hodge filtration]], then a refinement of the Hodge filtration along the group cocycle is a choice of 0-trucated extensive $\mathbf{\Omega}^1_{flat}(-,\mathfrak{g})$ fitting into a square
 
 $$
   \array{
@@ -1938,7 +1938,7 @@ For $G$ 0-truncated, then the canonical choice is $\mathbf{\Omega}^1_{flat}(-,\m
 
 On the other extreme, for $G = \mathbf{B}^{p+1}\mathbb{G}$ then the canonical choice is $\mathbf{\Omega}^1_{flat}(-,\mathfrak{g}) = \mathbf{\Omega}^{p+2}_{cl}$. With this one has $\tilde G \simeq \mathbf{B}^{p+1}\mathbb{G}_{conn}$.
 
-This means that in general $\tilde G$ is a homotopy fiber product of $G$ with $\mathbf{B}^{p+1}\mathbb{G}_{conn}$, hence that a map to out of some $\Sigma$  is a pair of a map $\Sigma \to G$ and of $(p+1)$-form data on $\Sigma$. This is the kind of [[nLab:field (physics)|field]] content of higher [[nLab:gauged WZW models]].
+This means that in general $\tilde G$ is a homotopy fiber product of $G$ with $\mathbf{B}^{p+1}\mathbb{G}_{conn}$, hence that a mapout of some $\Sigma$  is a pair of a map $\Sigma \to G$ and of $(p+1)$-form data on $\Sigma$. This is the kind of [[nLab:field (physics)|field]] content of higher [[nLab:gauged WZW models]].
 
 =--
 
