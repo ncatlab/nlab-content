@@ -438,6 +438,7 @@ So let $X$ be a locally compact Hausdorff space. By prop. \ref{OnePointExtension
 
   * [[Kaluza-Klein compactification]]
 
+* [[configuration space (mathematics)]]
 
 ## References
 
