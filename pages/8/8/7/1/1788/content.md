@@ -105,3 +105,8 @@ The "semantic" side was well known to the Grothendieck school and its elements a
 
 [[!redirects Theory of G-torsors]]
 [[!redirects theory of torsors]]
+
+
+
+
+[[Initiality Project - BibTeX database]]
