@@ -110,3 +110,7 @@ The "semantic" side was well known to the Grothendieck school and its elements a
 
 
 [[Initiality Project - BibTeX database]]
+
+
+[//]: # (Authors)
+[[Thomas Streicher]]
