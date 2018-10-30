@@ -18,7 +18,7 @@
 
 ## Idea
 
-The application of [[synthetic mathematics]] to probability theory. This is related to [[measurable locales]].
+The application of [[synthetic mathematics]] to [[probability theory]]. This is related to [[measurable locales]].
 
 ## References
 
