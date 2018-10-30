@@ -97,7 +97,7 @@
   author       = {Voevodsky, Vladimir},
   title	       = {Models, interpretations and the initiality conjectures},
   year	       = 2017,
-  note	       = {Lecture at the special session on category theory and type theory in honor of Per Martin-L{\"o}f on his 75th birthday, August 17--19, 2017},
+  note	       = {Lecture at the special session on category theory and type theory in honor of Per Martin-L{\"o}f on his 75th birthday, August 17--19, 2017, during the Logic Colloquium 2017, August 14--20, 2017, Stockholm},
   url	       = {https://www.math.ias.edu/Voevodsky/voevodsky-publications_abstracts.html#logcoll-1}
 }
 ```
