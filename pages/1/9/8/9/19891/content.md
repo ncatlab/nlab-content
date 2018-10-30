@@ -58,6 +58,40 @@
 [//]: # (SEPARATOR COMMENT ──────────────────────────────────────────)
 
 
+{#voevodsky_2015_hott-is-not_an-interpretation-of-mltt-into-abstract-homotopy-theory} BibTeX entry for [this reference](/nlab/show/Initiality+Project+-+References#voevodsky_2015_hott-is-not_an-interpretation-of-mltt-into-abstract-homotopy-theory):
+
+```
+@Misc{voevodsky_2015_hott-is-not_an-interpretation-of-mltt-into-abstract-homotopy-theory,
+  author       = {Voevodsky, Vladimir},
+  title        = {HoTT is not an interpretation of MLTT into abstract homotopy theory},
+  year         = 2015,
+  note         = {Article at the {\url{homotopytypetheory.org}} blog, January 11, 2015},
+  url          = {https://homotopytypetheory.org/2015/01/11/hott-is-not-an-interpretation-of-mltt-into-abstract-homotopy-theory/}
+}
+```
+
+
+[//]: # (SEPARATOR COMMENT ──────────────────────────────────────────)
+
+
+{#voevodsky_2015_from-syntax-to-semantics-of-dependent-type-theories} BibTeX entry for [this reference](/nlab/show/Initiality+Project+-+References#voevodsky_2015_from-syntax-to-semantics-of-dependent-type-theories):
+
+```
+@Misc{voevodsky_2015_from-syntax-to-semantics-of-dependent-type-theories,
+  author       = {Voevodsky, Vladimir},
+  title        = {From syntax to semantics of dependent type theories --- formalized},
+  howpublished = {Slides},
+  year         = 2015,
+  note         = {Lecture at RDP 2015, Warsaw, June 30, 2015},
+  url          = {https://www.math.ias.edu/vladimir/sites/math.ias.edu.vladimir/files/2015_06_30_RDP.pdf}
+}
+
+```
+
+
+[//]: # (SEPARATOR COMMENT ──────────────────────────────────────────)
+
+
 {#voevodsky_2016_mathematical-theory-of-type-theories} BibTeX entry for [this reference](/nlab/show/Initiality+Project+-+References#voevodsky_2016_mathematical-theory-of-type-theories):
 
 ```
