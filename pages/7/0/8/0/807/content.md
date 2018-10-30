@@ -513,3 +513,5 @@ Complex cardinalities:
 * [[Marcelo Fiore]], _Isomorphisms of generic recursive polynomial types_ , to appear in 31st Symposium on Principles of Programming Languages (POPL04). ([ps](http://www.cl.cam.ac.uk/~mpf23/papers/Types/recisos.ps.gz)) 
 
 * C.T.C. Wall, _Arithmetic invariants of subdivision of complexes_, Canad. J. Math. 18(1966), 92-96, [doi](http://dx.doi.org/10.4153/CJM-1966-012-9), [pdf](http://cms.math.ca/cjm/v18/cjm1966v18.0092-0096.pdf)
+
+[[!redirects Euler characteristics]]
