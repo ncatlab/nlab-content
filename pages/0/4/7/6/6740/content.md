@@ -105,6 +105,8 @@ This is related to [[sigma-locale]]s.
 
 * Alex Simpson, _Measure, randomness and sublocales_ [link](http://www.sciencedirect.com/science/article/pii/S0168007211001874)
 
+which is part of his work to develop [[synthetic probability theory]].
+
 ## References
 
 The theory of measurable locales seems to be published entirely on MathOverflow, in various questions and answers by [[Dmitri Pavlov]].  Here is an index:
