@@ -1,6 +1,27 @@
 [//]: # (SEPARATOR COMMENT ──────────────────────────────────────────)
 
 
+**K**
+
+
+[//]: # (SEPARATOR COMMENT ──────────────────────────────────────────)
+
+
+{#kapulkin_2012_the-simplicial-model-of-univalent-foundations} BibTeX entry for [this reference](/nlab/show/Initiality+Project+-+References#kapulkin_2012_the-simplicial-model-of-univalent-foundations):
+
+```
+@Misc{kapulkin_2012_the-simplicial-model-of-univalent-foundations,
+  author       = {Kapulkin, Krzysztof and Lumsdaine, Peter LeFanu},
+  title	       = {The simplicial model of univalent foundations (after Voevodsky)},
+  year	       = 2012,
+  note	       = {Revised 2018 as v5},
+  eprint       = {1211.2851}
+}
+```
+
+[//]: # (SEPARATOR COMMENT ──────────────────────────────────────────)
+
+
 **S**
 
 
