@@ -198,7 +198,11 @@ a commented translation of which later appeared as
 
 Similarly
 
-* [[Bert Schellekens]], _Big Numbers in String Theory_ ([arXiv:1601.02462](http://arxiv.org/abs/1601.02462))
+* {#Schellekens08} [[Bert Schellekens]], _The Emperor's Last Clothes?_, Rept.Prog.Phys.71:072201,2008 ([arXiv:0807.3249](https://arxiv.org/abs/0807.3249))
+
+* {#Schellekens16} [[Bert Schellekens]], _Big Numbers in String Theory_ ([arXiv:1601.02462](http://arxiv.org/abs/1601.02462))
+
+
 
 The articles [Lerche-L&#252;st-Schellekens 86](#LercheLustSchellekens86), [Lerche-L&#252;st-Schellekens 87](#LercheLustSchellekens87), and the speech [Schellekens 98](#Schellekens98), did not cause much of excitement then. Also they did not discuss [[moduli stabilization]], which could still have been thought to reduce the number of vacua. Excitement was only later caused instead by more vague discussion of flux compactification vacua with moduli stabilization in type IIB string theory:
 
