@@ -118,7 +118,7 @@ To demonstrate this, we make the following observations.
 
 3) By 2) and by definition of $\mathcal{O}_{X \times Y^{X}}$ and $\mathcal{O}_{Y^{X}}$, we have that $U'' \times M_{V, U} \in \mathcal{O}_{X \times Y^{X}}$, and that $(x,f) \in U'' \times M_{V, U}$. 
 
-4)  Let $(x',f') \in U'' \times M_{V, U}$, Since $x' \in U''$, and since $f'(U'') \subset f'(V) \subset U$, the latter inclusion holding by definition of $M_{V, U}$, we have that $f'(x) \in U$. We deduce that $ev(V \times M_{ V, U}) \subset U$.
+4)  Let $(x',f') \in U'' \times M_{V, U}$, Since $x' \in U''$, and since $f'(U'') \subset f'(V) \subset U$, the latter inclusion holding by definition of $M_{V, U}$, we have that $f'(x) \in U$. We deduce that $ev(U'' \times M_{ V, U}) \subset U$.
 
 By 3) and 4), we see that we can take $U'$ as the beginning of the proof to be $U'' \times M_{V , U}$. 
 
