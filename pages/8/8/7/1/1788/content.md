@@ -1,4 +1,3 @@
-
 $$
   S_1 {\vee\!\!\!\wedge} S_2
   \phantom{AAA}
@@ -59,7 +58,7 @@ Let $G$ be a [[group]]. The _theory of G-torsors_ $\mathbb{T}_G$ is the [[geomet
 $$
 \begin{aligned}
 \top & \vdash (g_i g_j)u=g_i(g_j u)\quad\text{for all}\; g_i,g_j
-\\ 
+\\
 \top&\vdash \exists u\; u\epsilon U \quad\text{(U is inhabited)}
 \\
 g_{i}u = g_{j}u &\vdash \bot\quad \text{for all pairs}\;g_i\neq g_j\quad\text{(G acts freely)}
@@ -80,7 +79,6 @@ This affords a logical characterization of $\mathbb{T}_G$ as a **complete Boolea
 
 [^finite]: Looking at $\mathbb{T}_G$ it seems reasonable to conjecture that the toposes of _finite_ group actions correspond precisely to the classifying toposes of the finitely presentable complete Boolean theories of presheaf type i.e. those with finitely many function symbols and a finite list of axioms.
 
-
 ## Related entries
 
 * [[torsor]]
@@ -97,7 +95,7 @@ The syntactic theory is explicitly stated p.42 in
 
 * {#Lawvere75}[[F. William Lawvere]], _Variable sets etendu and variable structure in topoi_ , Lecture notes University of Chicago 1975.
 
-The "semantic" side was well known to the Grothendieck school and its elements are nicely exposed e.g. in section VIII.2 of 
+The "semantic" side was well known to the Grothendieck school and its elements are nicely exposed e.g. in section VIII.2 of
 
 * {#MM94} [[Saunders Mac Lane|S. Mac Lane]], [[I. Moerdijk|Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994.
 
@@ -105,12 +103,3 @@ The "semantic" side was well known to the Grothendieck school and its elements a
 
 [[!redirects Theory of G-torsors]]
 [[!redirects theory of torsors]]
-
-
-
-
-[[Initiality Project - BibTeX database]]
-
-
-[//]: # (Authors)
-[[Thomas Streicher]]
