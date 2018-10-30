@@ -49,6 +49,9 @@ Then
 * The functor $u : B \to C$ induces an [[equivalence]] of [[category of sheaves|categories of sheaves]] (of sets) $B^\sim \to C^\sim$.
 =--
 
+## Related concepts
+
+* [[(∞,1)-comparison lemma]]
 
 ## References
 
