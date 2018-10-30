@@ -12,7 +12,7 @@
 : 2012, Revised 2018 as v5
 
     [arXiv:1211.2851](https://arxiv.org/abs/1211.2851), [BibTeX](/nlab/show/Initiality+Project+-+BibTeX+database#kapulkin_2012_the-simplicial-model-of-univalent-foundations)
-    
+
     Conjecture 1.2.9 in the article says,
 
     > Let $\mathbf{T}$ be the type theory given by the structural rules of Section A.1, plus any combination of the logical rules of Sections A.2, A.3. Then $\mathcal{C}(\mathbf{T})$ is initial among contextual categories with the correspondingly-named extra structure.
@@ -48,6 +48,30 @@
 [//]: # (SEPARATOR COMMENT ──────────────────────────────────────────)
 
 
+{#voevodsky_2015_hott-is-not_an-interpretation-of-mltt-into-abstract-homotopy-theory} [[Vladimir Voevodsky]], _HoTT is not an interpretation of MLTT into abstract homotopy theory_
+
+: Article at the `homotopytypetheory.org` blog, January 11, 2015
+
+    [URL](https://homotopytypetheory.org/2015/01/11/hott-is-not-an-interpretation-of-mltt-into-abstract-homotopy-theory/), [BibTeX](/nlab/show/Initiality+Project+-+BibTeX+database#voevodsky_2015_hott-is-not_an-interpretation-of-mltt-into-abstract-homotopy-theory)
+
+    There is a discussion of the initiality conjecture in the last four paragraphs of the article.
+
+
+[//]: # (SEPARATOR COMMENT ──────────────────────────────────────────)
+
+
+{#voevodsky_2015_from-syntax-to-semantics-of-dependent-type-theories} [[Vladimir Voevodsky]], _From syntax to semantics of dependent type theories --- formalized_
+
+: Slides of a lecture at RDP 2015, Warsaw, June 30, 2015
+
+    [URL](https://www.math.ias.edu/vladimir/sites/math.ias.edu.vladimir/files/2015_06_30_RDP.pdf), [BibTeX](/nlab/show/Initiality+Project+-+BibTeX+database#voevodsky_2015_from-syntax-to-semantics-of-dependent-type-theories)
+
+    There is a statement of the initiality conjecture on slide 18.  Slide 19 has some remarks on the difficulty of the conjecture, and slide 20 has some remarks on the importance of the conjecture.
+
+
+[//]: # (SEPARATOR COMMENT ──────────────────────────────────────────)
+
+
 {#voevodsky_2016_mathematical-theory-of-type-theories} [[Vladimir Voevodsky]], _Mathematical theory of type theories and the initiality conjecture_
 
 : Research proposal to the Templeton Foundation, 2016
@@ -74,7 +98,7 @@
 
     [URL](https://www.math.ias.edu/Voevodsky/voevodsky-publications_abstracts.html#logcoll-1), [BibTeX](/nlab/show/Initiality+Project+-+BibTeX+database#voevodsky_2017_models-interpretations-and-the-initiality-conjectures)
 
-    The annotation at the URL of the document says, "This is a clear and enlightening sketch of Voevodsky's entire program!". 
+    The annotation at the URL of the document says, "This is a clear and enlightening sketch of Voevodsky's entire program!".
 
 
 [//]: # (SEPARATOR COMMENT ──────────────────────────────────────────)
