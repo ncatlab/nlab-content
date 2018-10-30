@@ -110,6 +110,8 @@ For more details on Giry's monad and its variants see [[Giry's monad]].
 
 * [[quantum probability]]
 
+* [[synthetic probability theory]]
+
 
 ## References
 
