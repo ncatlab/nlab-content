@@ -99,8 +99,8 @@ Recently it was claimed that there are in fact realistic [[GUT]] [[model (physic
 The high energy scale required by a [[seesaw mechanism]] to produce the experimentally observer [[neutrino]] masses happens to be about the conventional GUT scale, for review see for instance ([Mohapatra 06](#Mohapatra06)).
 
 ### Occurrence in string phenomenology
+ {#InStringPhenomenology}
 
-s
 Discussion of [[string phenomenology]] of [[intersecting D-brane models]] [[KK-compactification|KK-compactified]] with non-geometric [[fibers]] such that the would-be string [[sigma-models]] with these [[target spaces]] are in fact [[Gepner models]] (in the sense of _[Spectral Standard Model and String Compactifications](https://www.physicsforums.com/insights/spectral-standard-model-string-compactifications/)_) is in ([Dijkstra-Huiszoon-Schellekens 04a](#DijkstraHuiszoonSchellekens04a), [Dijkstra-Huiszoon-Schellekens 04b](#DijkstraHuiszoonSchellekens04b)):
 
 
