@@ -186,9 +186,9 @@ J. Culbertson and K. Sturtz use the Giry monad in their categorical approach to 
 * Jared Culbertson and Kirk Sturtz, _Bayesian machine learning via category theory_, 2013 ([arxiv:1312.1445](http://arxiv.org/abs/1312.1445)) 
 
 
-E. Burroni discusses the Giry monad in:
+[[Elisabeth Burroni]] discusses the Giry monad in:
 
-* {#Burroni09}Burroni, _Lois distributives. Applications aux automates stochastiques_, TAC 22, 2009 pp.199-221 ([pdf](http://www.tac.mta.ca/tac/volumes/22/7/22-07.pdf))
+* {#Burroni09}[[Elisabeth Burroni]], _Lois distributives. Applications aux automates stochastiques_, TAC 22, 2009 pp.199-221 ([pdf](http://www.tac.mta.ca/tac/volumes/22/7/22-07.pdf))
 
 where she derives stochastic [[automata]] as algebras for a suitable [[distributive law]]
  on the monoid and Giry monads. 
