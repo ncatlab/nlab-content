@@ -148,7 +148,29 @@ which identifies the generators not in $\overline{V}$ with the [[unit]],
   \right)/( e^j_1 - 1 )
 \]
 
-is the _graph complex_ of $(V, g)$. (This is independent, up to [[isomorphism]] of the choice of linear basis used in this presentation of the algebra.)
+is the _pre-graph complex_ of $(V, g)$. (This is independent, up to [[isomorphism]] of the choice of linear basis used in this presentation of the algebra.)
+
+We may identify a homogeneous element 
+
+$$
+  e^1_\alpha e^1_\beta s^{1 2} e^2_{\gamma} \cdots e^n_\delta
+  \;\in\;
+  {}^\ast Gra_{(V,g)}
+$$
+
+with a [[graph]] with $n$ [[vertices]], whose 1st [[vertex]] carries the labels $\alpha$ and $\beta$, the second carries the label $\gamma$, etc. and with an [[edge]] for the $i$th vertex to the $j$th vertex for every factor $s^{i j}$.
+
+In terms of this identification of homogeneous elements in ${}^\ast Gra_{(V,g)}(n)$ with graphs, the [[differential]] $d$ is the [[linear dual]] of a map $\Delta$ on the vector space spanned by graphs which acts by 
+
+1. picking a [[pairs]] $(\omega,\nu)$ of labels of vertices,
+
+1. removing these labels, replacing them with an edge between the corresponding vertices, and weihting the result by the pairing of the two labels
+
+1. summing up the resulting over all choice of pairs.
+
+<center>
+<img src="https://ncatlab.org/nlab/files/GraphComplex1.jpg" width="400">   
+</center>
 
 Now for $X$ a [[closed manifold]] of [[dimension]] $D$, set
 
@@ -165,12 +187,39 @@ $$
   \;\coloneqq\;
   {}^\ast Gra_{(H^\bullet(X,\mathbb{R}), Poin)}
   \,.
+
+$$
+
+Next, define ${}^\ast TwGra_X$ roughly (...) as above, but with some of the vertices declared "internal" and made indistinguishable (no labels), and equipped with the above differential plus a differential which comes from a linear dual of the map that 
+
+1. picks a vertex $v$
+
+1. adds a new internal vertex and an edge from it to $v$
+
+1. reconnects the original edges coincident to $v$ in all possible ways with either $v$ or the new internal vertex
+
+1. sums over all ways of doing this.
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/GraphComplex2.jpg" width="280">   
+</center>
+
+
+Finally, the actual graph complex ${}^{\ast}Graph_X$ is the quotient of that which identifies all [[vacuum diagrams]] $\mathcal{G}$ (i.e. those with only internal vertices) with their with their partition function $Z_X(\mathcal{G})$:
+
+$$
+  {}^\ast Graphs_X 
+  \;\coloneqq\;
+  \mathbb{R} \otimes_{{}Z_X} {}^\ast TwGra_X
+  \,.
 $$
 
 
 =--
 
-([Kontsevich 99b, Def. 15 and Lemma 3](#Kontsevich99b), [Campos-Willwacher 16, section 3](#CamposWillwacher16)), 
+This definition is due to [Campos-Willwacher 16, section 3](#CamposWillwacher16) using constructions from [Willwacher 10, appendix](#Willwacher10), following [Kontsevich 99b, around Def. 15 and Lemma 3](#Kontsevich99b).
+
 
 
 
