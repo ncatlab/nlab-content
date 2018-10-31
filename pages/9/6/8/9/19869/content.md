@@ -42,7 +42,7 @@ A **raw context** is a finite list of pairs consisting of a variable and a raw t
 
 A **valid context** is a raw context $(x_1:A_1, \dots ,x_n:A_n)$ such that each judgment $x_1:A_1,\dots, x_k:A_k \vdash A_{k+1} \, type$ is derivable by the rules below.  This notion is defined *a posteriori* after the primitive rules for all the judgments have been given.  In particular, the judgments themselves never refer to context validity.  The intuitive interpretation of a judgment-in-context $\Gamma\vdash \mathcal{J}$ should therefore be "*if* $\Gamma$ is a valid context, then $\mathcal{J}$ holds in that context" (and this is the meaning we will give it semantically).
 
-## Judgment forms
+## Judgment forms {#judgements}
 
 Our type theory has five judgment forms.  Here $\Gamma$ is a metavariable ranging over raw contexts, while $S,T,A,B$ are metavariables ranging over raw terms.
 
@@ -134,6 +134,17 @@ to get a derivation of $\Gamma \vdash T\Leftarrow B$ as desired.
 
 
 ## Admissible rules
+
+Writing $\Gamma \vdash \mathcal{J}$ for one of the [judgments](#judgements), the following rules are admissible by mutual induction on derivations : 
+$$ \frac{\Gamma, \Gamma' \vdash \mathcal{J}}{\Gamma, x:A, \Gamma' \vdash \mathcal{J}} $$
+$$\,$$
+$$ \frac{ \Gamma \vdash B\, type\qquad\Gamma, x:A, y:B, \Gamma' \vdash \mathcal{J}}{\Gamma, y:B, x:A, \Gamma' \vdash \mathcal{J}} $$
+$$\,$$
+$$ \frac{\Gamma, x:A, y:A, \Gamma' \vdash \mathcal{J}}{\Gamma, x:A, \Gamma'[x/y] \vdash \mathcal{J}[x/y]} $$
+$$\,$$
+$$ \frac{\Gamma \vdash T \Rightarrow A \qquad \Gamma, x:A, \Gamma' \vdash \mathcal{J}}{\Gamma, \Gamma'[T/x] \vdash \mathcal{J}[T/x]} $$
+
+
 
 (TODO)
 
