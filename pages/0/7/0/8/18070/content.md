@@ -383,6 +383,10 @@ Reviews include
 
 * {#FrancisLect17} [[John Francis]], _The H-Principle Lecture 17: The sheaf of configuration spaces and the scanning map_ ([pdf](http://math.northwestern.edu/~jnkf/classes/hprin/17configmapping.pdf))
 
+* {#FrancisLect18} [[John Francis]], _The H-Principle Lecture 18: The proof of McDuff's theorem First part_ ([pdf](http://math.northwestern.edu/~jnkf/classes/hprin/18mcduff1.pdf))
+
+
+
 
 See also
 
