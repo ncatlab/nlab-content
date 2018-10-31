@@ -3,9 +3,16 @@
 
 <p id="a" style="color: #333; font-family: georgia,verdana,sans-serif; font-size: 173%; font-weight: bold; line-height: 1.3em; text-align: left;">A</p>
 
+
 [//]: # (SEPARATOR COMMENT ──────────────────────────────────────────)
 
-Insert Awodey2014 here
+
+{#awodey_2018_natural-models-of-homotopy-theory} [[Steve Awodey]], _Natural models of homotopy type theory_
+
+: Math. Structures Comput. Sci. 28 (2018), no. 2, 241--286.
+
+    [arXiv:1406.3219](https://arxiv.org/abs/1406.3219), [doi:10.1017/S0960129516000268](https://doi.org/10.1017/S0960129516000268), [MR](https://mathscinet.ams.org/mathscinet-getitem?mr=3742564), [BibTeX](/nlab/show/Initiality+Project+-+BibTeX+database#awodey_2018_natural-models-of-homotopy-theory)
+
 
 [//]: # (SEPARATOR COMMENT ──────────────────────────────────────────)
 
