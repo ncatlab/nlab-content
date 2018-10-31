@@ -94,6 +94,35 @@ in this case.
 
 =--
 
+A slight variation of the definition is sometimes useful:
+
++-- {: .num_defn #ConfigurationSpaceOfDisks}
+###### Definition
+**(configuration space of $dim(X)$-disks)**
+
+In the situation of Def. \ref{ConfigurationSpaceOfParticleswithLabels}, with $X$ a [[manifold]] of [[dimension]] $dim(X) \in \mathbb{N}$
+
+$$
+  DiskConf(X,A)
+  \longrightarrow
+  Conf(X,A)
+$$
+
+be, on the left, the labeled configuration space of joint [[embedding of smooth manifolds|embeddings]] of [[tuples]]
+
+$$
+  \left(
+    D^{dim(X)} \overset{ \iota_i }{\hookrightarrow}
+  \right)
+$$
+
+of $dim(X)$-dimensional disks/[[closed balls]] into $X$, with identifications as in Def. \ref{ConfigurationSpaceOfParticleswithLabels} (in particular the disks centered at the basepoint are quotiented out) and with the comparison map sending each disk to its center.
+
+This map is evidently a [[deformation retraction]] hence in particular a [[homotopy equivalence]].
+
+=--
+
+spring
 
 ## Properties
 
@@ -145,11 +174,44 @@ $$
   \right)
 $$
 
-from the configuration space (Def. \ref{ConfigurationSpaceOfParticleswithLabels}) to the space of sections (Def \ref{TheSpaceOfSections}) given by ...
- 
+from the configuration space (Def. \ref{ConfigurationSpaceOfParticleswithLabels}) to the space of sections (Def \ref{TheSpaceOfSections}) defined as follows:
+
+First, in the special case that $X = S^n \simeq \left( \mathbb{R}^n\right)^\ast$ so that the space of sections
+
+$$
+  \widetilde \Gamma_X\left(
+     S_X^{T X}\wedge_X A  
+  \right)
+  \;\simeq\;
+  \Omega^n S^n \wedge A
+$$
+
+is the $n$-fold [[loop space]] of the $n$-sphere, consider the [[continuous function]] out of the configuration space of disks (Def. \ref{ConfigurationSpaceOfDisks})
+
+$$
+  Conf(S^n,A)
+  \overset{\simeq}{\longleftarrow}
+  DiskConf(S^n,A)
+  \overset{ wrap }{\longrightarrow}
+  \Omega^n S^n
+$$
+
+which takes an [[n-tuple]] of disks in $X$ to the element in  $\Omega^n S^n =\{S^n \to S^n\}$ which is the [[continuous function]] that
+
+1. takes every point in $X = S^n$ not in the [[interior]] of one of the embedded disks to the basepoint;
+
+1. takes the interior of embedded disks [[homeomorphism|homeomorphically]] to the [[complement]] $S^n \setminus \{\ast\}$ of the basepoint, keeping the label in $A$ at the center of the disk.
+
+
+In words, this map identifies a ball-shaped neighbourhood of every point in a configuration of points with the coefficient sphere, the [[boundary]] of the neighbouthood mapping to the basepoint, and then glues all these identifications together at their common basepoint.
+
+Moreover, one observes that this map is a homomorphism of $n$-fold monoids (...). The _scanning map_ itself is the image under group completion $\Omega B(wrap)$ of that. 
+
+For general $X$ the scanning map is locally like this, globalized in the evident way (...).
+
 =--
 
-([Segal 73](#Segal73), [McDuff 75, p. 94, 95](#McDuff75))
+([Segal 73, section 3](#Segal73), [McDuff 75, p. 94, 95](#McDuff75))
 
 +-- {: .num_example}
 ###### Example
@@ -186,7 +248,7 @@ $$
 
 =--
 
-This is due to ([McDuff 75](#McDuff75)), for review see ([Bödigheimer 87, Prop. 2](#Boedigheimer87), [Francis Lecture 17, Theorem 1.1](#FrancisLect17)).
+This is due to ([McDuff 75](#McDuff75)), following [Segal 73](#Segal73), for review see ([Bödigheimer 87, Prop. 2](#Boedigheimer87), [Francis Lecture 17, Theorem 1.1](#FrancisLect17)).
 
 (As discussed there, the statement holds also under somewhat weaker assumptions than stated here.)
 
@@ -309,7 +371,7 @@ $$
 
 =--
 
-This is originally ([Segal 73, theorem 3](#Segal73)). It follows via Remark \ref{ConfigurationSpacesAndCocyclesForTwistedReducedCohomotopy} as a special case of Prop. \ref{ScanningMapEquivalence} of [McDuff 75](#McDuff75), for reviw see e.g. [Bödigheimer 87, Example 13](#Boedigheimer87).
+This is originally due to [May 72](#May72), reobtained in [Segal 73, theorem 3](#Segal73). It follows via Remark \ref{ConfigurationSpacesAndCocyclesForTwistedReducedCohomotopy} as a special case of Prop. \ref{ScanningMapEquivalence} of [McDuff 75](#McDuff75), for review see e.g. [Bödigheimer 87, Example 13](#Boedigheimer87).
 
 
 
@@ -364,6 +426,7 @@ Math. Scand. __10__ (1962) 111-118, [MR141126](http://www.ams.org/mathscinet-get
 
 The [[scanning map]] and hence the relation of configuration spaces to [[cohomotopy]] goes back to 
 
+* {#May72} [[Peter May]], _The geometry of iterated loop spaces_, Springer 1972
 
 * {#Segal73} [[Graeme Segal]], _Configuration-spaces and iterated loop-spaces_, Invent. Math. __21__ (1973), 213&#8211;221. MR 0331377 ([pdf](http://dodo.pdmi.ras.ru/~topology/books/segal.pdf))
 
