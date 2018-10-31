@@ -1,5 +1,25 @@
 [//]: # (SEPARATOR COMMENT ──────────────────────────────────────────)
 
+<p id="a" style="color: #333; font-family: georgia,verdana,sans-serif; font-size: 173%; font-weight: bold; line-height: 1.3em; text-align: left;">A</p>
+
+```
+@ARTICLE{2014arXiv1406.3219A,
+   author = {{Awodey}, S.},
+    title = "{Natural models of homotopy type theory}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1406.3219},
+ primaryClass = "math.CT",
+ keywords = {Mathematics - Category Theory, Mathematics - Logic},
+     year = 2014,
+    month = jun,
+   adsurl = {http://adsabs.harvard.edu/abs/2014arXiv1406.3219A},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+```
+
+[//]: # (SEPARATOR COMMENT ──────────────────────────────────────────)
+
 
 <p id="k" style="color: #333; font-family: georgia,verdana,sans-serif; font-size: 173%; font-weight: bold; line-height: 1.3em; text-align: left;">K</p>
 
@@ -138,6 +158,12 @@
 
 
 [//]: # (SEPARATOR COMMENT ──────────────────────────────────────────)
+
+
+## See also ##
+
+* [[Initiality Project]]
+* [[Initiality Project - References]]
 
 
 category: Initiality Project
