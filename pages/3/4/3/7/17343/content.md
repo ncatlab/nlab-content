@@ -2123,7 +2123,7 @@ such that
 
 1. the class $W$ makes $\mathcal{C}$ into a **[[category with weak equivalences]]**, def. \ref{CategoryWithWeakEquivalences};
 
-1. The pairs $(W \cap Cof\;,\; Fib)$ and $(Cap\;,\; W\cap Fib)$ are both [[weak factorization systems]], def. \ref{WeakFactorizationSystem}.
+1. The pairs $(W \cap Cof\;,\; Fib)$ and $(Cof\;,\; W\cap Fib)$ are both [[weak factorization systems]], def. \ref{WeakFactorizationSystem}.
 
 One says:
 
