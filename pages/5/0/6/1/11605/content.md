@@ -99,7 +99,7 @@ $$
      + 
      \cdots
      +
-     \overline{\alpha^{2k,1}} + \overline{\alpha^{2k+1,1}}
+     \overline{\alpha^{2k,1}} + \overline{\alpha^{2k+1,0}}
   \,,
 $$
 
