@@ -2,21 +2,31 @@
 
 <p id="a" style="color: #333; font-family: georgia,verdana,sans-serif; font-size: 173%; font-weight: bold; line-height: 1.3em; text-align: left;">A</p>
 
+
+[//]: # (SEPARATOR COMMENT ──────────────────────────────────────────)
+
+
+{#awodey_2018_natural-models-of-homotopy-theory} BibTeX entry for [this reference](/nlab/show/Initiality+Project+-+References#awodey_2018_natural-models-of-homotopy-theory):
+
 ```
-@ARTICLE{2014arXiv1406.3219A,
-   author = {{Awodey}, S.},
-    title = "{Natural models of homotopy type theory}",
-  journal = {ArXiv e-prints},
-archivePrefix = "arXiv",
-   eprint = {1406.3219},
- primaryClass = "math.CT",
- keywords = {Mathematics - Category Theory, Mathematics - Logic},
-     year = 2014,
-    month = jun,
-   adsurl = {http://adsabs.harvard.edu/abs/2014arXiv1406.3219A},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+@Article{awodey_2018_natural-models-of-homotopy-theory,
+  author       = {Awodey, Steve},
+  title        = {Natural models of homotopy type theory},
+  journal      = {Math. Structures Comput. Sci.},
+  year         = 2018,
+  volume       = 28,
+  number       = 2,
+  pages        = {241-286},
+  fjournal     = {Mathematical Structures in Computer Science. A Journal in the Applications of Categorical, Algebraic and Geometric Methods in Computer Science},
+  issn         = {0960-1295},
+  mrclass      = {03B15 (03G30 18G55 55U35)},
+  mrnumber     = 3742564,
+  mrreviewer   = {Fredrik Nordvall Forsberg},
+  doi          = {10.1017/S0960129516000268},
+  url          = {https://doi.org/10.1017/S0960129516000268}
 }
 ```
+
 
 [//]: # (SEPARATOR COMMENT ──────────────────────────────────────────)
 
