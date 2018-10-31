@@ -138,7 +138,7 @@ to get a derivation of $\Gamma \vdash T\Leftarrow B$ as desired.
 Writing $\Gamma \vdash \mathcal{J}$ for one of the [judgments](#judgements), the following rules are admissible by mutual induction on derivations : 
 $$ \frac{\Gamma, \Gamma' \vdash \mathcal{J}}{\Gamma, x:A, \Gamma' \vdash \mathcal{J}} $$
 $$\,$$
-$$ \frac{ \Gamma \vdash B\, type\qquad\Gamma, x:A, y:B, \Gamma' \vdash \mathcal{J}}{\Gamma, y:B, x:A, \Gamma' \vdash \mathcal{J}} $$
+$$ \frac{\Gamma, x:A, y:B, \Gamma' \vdash \mathcal{J} \qquad y \notin FV(A)}{\Gamma, y:B, x:A, \Gamma' \vdash \mathcal{J}} $$
 $$\,$$
 $$ \frac{\Gamma, x:A, y:A, \Gamma' \vdash \mathcal{J}}{\Gamma, x:A, \Gamma'[x/y] \vdash \mathcal{J}[x/y]} $$
 $$\,$$
