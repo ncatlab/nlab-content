@@ -160,6 +160,14 @@ to get a derivation of $\Gamma \vdash T\Leftarrow B$ as desired.
 
 ## Admissible rules
 
+### Inversion lemmas
+
+Inversion lemmas let you "take apart" a derivation by observing that only certain rule(s) could've been used as the last step of the derivation, based on the form of one or more objects being judged.
+
+TODO
+
+### Structural rules
+
 Writing $\Gamma \vdash \mathcal{J}$ for one of the [judgments](#judgements), the following rules are admissible by mutual induction on derivations : 
 $$ \frac{\Gamma \vdash \Gamma' \qquad \Gamma, \Gamma' \vdash \mathcal{J}}{\Gamma, x:A, \Gamma' \vdash \mathcal{J}} $$
 $$\,$$
@@ -172,5 +180,17 @@ $$ \frac{\Gamma \vdash T \Rightarrow A \qquad \Gamma, x:A, \Gamma' \vdash \mathc
 
 
 (TODO)
+
+### Sanity check
+
+Sanity checks are theorems about the formal judgments the provide some confidence that the rules are propagating validity presuppositions correctly. Since we have only one judgment form that establishes any of its presuppositions, there seems to be only one sanity check we can do:
+
+If $\Gamma ok$ and $\Gamma \vdash M \Rightarrow A$ then $\Gamma \vdash A type$.
+
+Intuitively, a derivation $\Gamma \vdash M \Rightarrow A$ somehow contains a derivation of the presupposition $\Gamma \vdash A type$, but the derivation only makes sense when the other presupposition, $\Gamma ok$, of this judgment form, has been independently established. For example, the variable rule intuitively punts the derivation of type validity to the independent derivation of context validity.
+
+The proof is by induction on the main derivation—of $\Gamma \vdash M \Rightarrow A$—and makes use of the admissible substitution rule:
+
+TODO
 
 category: Initiality Project
