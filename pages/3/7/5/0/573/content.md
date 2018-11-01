@@ -1117,6 +1117,8 @@ Comparison of models ($\Theta_{n+1}$-spaces and [[enriched (infinity,1)-categori
 
 * [[Rune Haugseng]], *On the equivalence between $\Theta_n$-spaces and iterated Segal spaces*, [arXiv](https://arxiv.org/abs/1604.08480)
 
+* [[Julie Bergner]], _A survey of models for $(\infty,n)$-categories_ ([arXiv:1810.10052](https://arxiv.org/abs/1810.10052))
+
 A model for $(\infty,n)$-categories in terms of [[(∞,1)-sheaves]] on variant of a [[site]] of $n$-[[dimension|dimensional]] [[manifolds]] with [[embeddings]] between them is discussed in 
 
 * [[David Ayala]], [[Nick Rozenblyum]], _Weak $n$-categories are sheaves on iterated submersions of $\leq n$-manifolds_ (in preparation)
