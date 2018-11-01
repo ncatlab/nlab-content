@@ -4,5 +4,6 @@
 ## Related entries
 
 * [[Stone duality]]
+* [[Stone-von Neumann theorem]]
 
 [[!redirects Marshall Harvey Stone]]
