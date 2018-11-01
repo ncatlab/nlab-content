@@ -85,28 +85,13 @@ and bound variables.  We define the set $FV(M)$ of free variables of a raw term 
 * $FV(\lambda(y:A.B). M) = FV(A) \cup (FV(B) \cup FV(M) \setminus \{y\})$
 * $FV(App^{y:A.B}(M,P)) = FV(A) \cup (FV(B) \setminus \{y\}) \cup FV(M) \cup FV(P)$
 
-Then, to define $\alpha$-equivalence of terms, we first define the
-following restriction of substitution to *renaming* of variables.
+And we define the set $Var(M)$ for the set of free *and* bound variables of a raw term by structural induction.
 
-* $x[z/y] = z$ if $x = y$.
-* $x[z/y] = x$ if $x \neq y$.
-* $(\mathtt{C}(M_1,\dots,M_n))[z/y] = \mathtt{C}(M_1[z/y],\dots,M_n[z/y])$.
-* $(\Pi(x:A).B)[z/y] = \Pi(x:A[z/y]).B$ if $x = y$ or $x = z$.
-* $(\Pi(x:A).B)[z/y] = \Pi(x:A[z/y]).B[z/y]$ if $x \neq y$ and $x \neq z$.
-* $(\lambda(x:A.B). M)[z/y] = \lambda(x:A[z/y].B).M$ if $x = y$ or $x = z$.
-* $(\lambda(x:A.B). M)[z/y] = \lambda(x:A[z/y].B[z/y]).M[z/y]$ if $x \neq y$ and $x \neq z$.
-* $(App^{x:A.B}(M,P))[z/y] = App^{x:A[z/y].B}(M[z/y],P[z/y])$ if $x = y$ or $x = z$.
-* $(App^{x:A.B}(M,P))[z/y] = App^{x:A[z/y].B[z/y]}(M[z/y],P[z/y])$ if $x \neq y$ and $x \neq z$.
-
-Next we define when two terms are equivalent up to re-naming of bound variables. This is the relation of [[alpha equivalence|$\alpha$-equivalence]] on the raw terms and types.  We consider $RawTm$ and $RawTy$ to be [[setoids]], i.e. [[thin category|thin]] [[groupoids]], under these equivalence relations.  Thus all operations on raw terms and types must respect $\alpha$-equivalence, and need only be defined up to $\alpha$-equivalence.
-
-* $x \sim_{\alpha} x$
-* $\mathtt{C}(M_1,\dots,M_n) \sim_{\alpha} \mathtt{C}(M'_1,\dots,M'_n)$ if $M_1 \sim_{\alpha} M'_1$, $\dots$, and $M_n \sim_{\alpha} M'_n$
-* $\Pi(x:A).B \sim_{\alpha} \Pi(x':A').B'$ if $A \sim_{\alpha} A'$ and for every $y \notin
-  FV(B) \cup FV(B') \cup \{x,x'\}$, $B[y/x] \sim_{\alpha} B'[y/x']$
-* $\lambda(x:A.B). M \sim_{\alpha} \lambda(x':A'.B'). M'$ if $\Pi(x:A).B \sim_{\alpha} \Pi(x':A').B'$ and for every $y \notin
-  FV(M) \cup FV(M') \cup \{x,x'\}$, $M[y/x] \sim_{\alpha} M'[y/x']$
-* $App^{x:A.B}(M,P) \sim_{\alpha} App^{x':A'.B'}(M',P')$ if $\Pi(x:A).B \sim_{\alpha} \Pi(x':A').B'$ and $M \sim_{\alpha} M'$ and $P \sim_{\alpha} P'$
+* $Var(x) = \{x\}$
+* $Var(\mathtt{C}(M_1,\dots,M_n)) = Var(M_{1}) \cup \dots \cup Var(M_{n})$
+* $Var(\Pi(y:A).B) = Var(A) \cup Var(B) \cup \{y\})$
+* $Var(\lambda(y:A.B). M) = Var(A) \cup Var(B) \cup Var(M) \cup \{y\}$
+* $Var(App^{y:A.B}(M,P)) = Var(A) \cup Var(B) \cup \{y\} \cup Var(M) \cup Var(P)$
 
 Next, we define raw substitution as the following *partial* function
 on raw terms. Essentially, we make substitution undefined if there is
@@ -115,15 +100,42 @@ ever a name clash.
 * $x[N/y] = N$ if $x = y$.
 * $x[N/y] = x$ if $x \neq y$.
 * $(\mathtt{C}(M_1,\dots,M_n))[N/y] = \mathtt{C}(M_1[N/y],\dots,M_n[N/y])$.
-* $(\Pi(x:A).B)[N/y] = \Pi(x:A[N/y]).B[N/y]$ if $x \neq y$ and $y \not\in FV(N)$
-* $(\lambda(x:A.B). M)[N/y] = \lambda(x:A[N/y].B[N/y]).M[N/y]$ if $x \neq y$ and $y \not\in FV(N)$
-* $(App^{x:A.B}(M,P))[N/y] = App^{x:A[N/y].B[N/y]}(M[N/y],P[N/y])$ if $x \neq y$ and $y \not\in FV(N)$
+* $(\Pi(x:A).B)[N/y] = \Pi(x:A[N/y]).B[N/y]$ if $x \neq y$ and $y \notin FV(N)$
+* $(\lambda(x:A.B). M)[N/y] = \lambda(x:A[N/y].B[N/y]).M[N/y]$ if $x \neq y$ and $y \notin FV(N)$
+* $(App^{x:A.B}(M,P))[N/y] = App^{x:A[N/y].B[N/y]}(M[N/y],P[N/y])$ if $x \neq y$ and $y \notin FV(N)$
 
 This definition of substitution avoids capture, but it does so at the cost of making substitution a partial function $RawTm \times RawTm \times Var \rightharpoonup RawTm$.  For example, suppose that $M$ is $\lambda(x : A.B). App^{x : A.B}(f, x)$, which is the [[η-expansion]] of some variable $f$, and that $N$ is $App^{z: C.(\Pi(x:A).B)}(x, z)$.  Then $M[N/f]$ isn't defined: because $x$ is a free variable in $N$.
 
-To make substitution a total function, we identify any $\alpha$-equivalent terms.
+However, notice that all of the cases where it is undefined depend on
+the choice of name in a *binding*, but we want to consider two terms
+to be equivalent up to re-naming of bound variables. This is the
+relation of [[alpha equivalence|$\alpha$-equivalence]] on the raw
+terms and types.  We consider $RawTm$ and $RawTy$ to be [[setoids]],
+i.e. [[thin category|thin]] [[groupoids]], under these equivalence
+relations.  Thus all operations on raw terms and types must respect
+$\alpha$-equivalence, and need only be defined up to
+$\alpha$-equivalence. This will make substitution a *total* function
+on $\alpha$-equivalence classes because any time it is undefined,
+there is an $\alpha$-equivalent term for which it is defined.
+
+Note that the definition of $\alpha$-equivalence here relies on the
+definition of substitution that we have defined, at least the special
+case where the term $N$ being substituted in is a variable. However,
+we ensure that every time we use substitution, the variable used is
+different from all free *and* bound variables, and so the substitution
+is well defined.
+
+* $x \sim_{\alpha} x$
+* $\mathtt{C}(M_1,\dots,M_n) \sim_{\alpha} \mathtt{C}(M'_1,\dots,M'_n)$ if $M_1 \sim_{\alpha} M'_1$, $\dots$, and $M_n \sim_{\alpha} M'_n$
+* $\Pi(x:A).B \sim_{\alpha} \Pi(x':A').B'$ if $A \sim_{\alpha} A'$ and for every $y \notin
+  Var(B) \cup Var(B') \cup \{x,x'\}$, $B[y/x] \sim_{\alpha} B'[y/x']$
+* $\lambda(x:A.B). M \sim_{\alpha} \lambda(x':A'.B'). M'$ if $\Pi(x:A).B \sim_{\alpha} \Pi(x':A').B'$ and for every $y \notin
+  Var(M) \cup Var(M') \cup \{x,x'\}$, $M[y/x] \sim_{\alpha} M'[y/x']$
+* $App^{x:A.B}(M,P) \sim_{\alpha} App^{x':A'.B'}(M',P')$ if $\Pi(x:A).B \sim_{\alpha} \Pi(x':A').B'$ and $M \sim_{\alpha} M'$ and $P \sim_{\alpha} P'$
+
 This enables us to extend substitution (uniquely up to unique isomorphism) to a functor, i.e. a setoid morphism, $RawTm \times RawTm \times Var \to RawTm$ and similarly for types: for substitutions that didn't used to be defined, modify the term along an $\alpha$-equivalence to eliminate possible variable captures and then do the substitution.
 
 In particular, the substitution $(\lambda(x : A.B). App^{x:A.B}(f, x))[App^{z:C.(\Pi(x:A).B)}(x, z)/f]$ is now defined.  It is equivalent to $(\lambda(w : A.B[w/x]). App^{x:A.B}(f, w))[App^{z:C.(\Pi(x:A).B)}(x, z)/f]$, where $w \notin FV(A) \cup FV(B) \cup FV(C) \cup \{f,x,z\}$, by the second condition on $\sim_{\alpha}$, and now the nontrivial case of substitution applies, giving $M[N/f] = \lambda(w : A.B[w/x]). App^{x:A.B}(App^{z:C.(\Pi(x:A).B)}(x, z), w)$.
+
 
 category: Initiality Project
