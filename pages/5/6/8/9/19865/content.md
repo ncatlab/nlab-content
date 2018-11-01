@@ -100,13 +100,13 @@ following restriction of substitution to *renaming* of variables.
 
 Next we define when two terms are equivalent up to re-naming of bound variables. This is the relation of [[alpha equivalence|$\alpha$-equivalence]] on the raw terms and types.  We consider $RawTm$ and $RawTy$ to be [[setoids]], i.e. [[thin category|thin]] [[groupoids]], under these equivalence relations.  Thus all operations on raw terms and types must respect $\alpha$-equivalence, and need only be defined up to $\alpha$-equivalence.
 
-* $x \sim_{\alpha} x$ if $x=y$
-* $\Pi_{x:A} B \sim_{\alpha} \Pi_{x':A'} B'$ if for every $y \not\in
-  \{x,x'\} \cup FV(A) \cup FV(B) \cup FV(A') \cup FV(B')$, $A[y/x]
-  \sim_{\alpha} A'[y/x']$ and $B[y/x] \sim_{\alpha} B'[y/x']$
-* $\lambda ({x:A}. B) M \sim_{\alpha} \lambda ({x':A'}. B') M'$ if $\Pi_{x:A} B \sim_{\alpha} \Pi_{x':A'} B'$ and for every $y \not\in
-  \{x,x'\} \cup FV(M) \cup FV(M')$, $M[y/x] \sim_{\alpha} M'[y/x']$
-* $(App^{x:A.B}(M,P)) \sim_{\alpha} (App^{x':A'.B'}(M',P'))$ if $\Pi_{x:A} B \sim_{\alpha} \Pi_{x':A'} B'$ and $M \sim_{\alpha} M'$ and $P \sim_{\alpha} P'$
+* $x \sim_{\alpha} x$
+* $\mathtt{C}(M_1,\dots,M_n) \sim_{\alpha} \mathtt{C}(M'_1,\dots,M'_n)$ if $M_1 \sim_{\alpha} M'_1$, $\dots$, and $M_n \sim_{\alpha} M'_n$
+* $\Pi(x:A).B \sim_{\alpha} \Pi(x':A').B'$ if $A \sim_{\alpha} A'$ and for every $y \notin
+  FV(B) \cup FV(B') \cup \{x,x'\}$, $B[y/x] \sim_{\alpha} B'[y/x']$
+* $\lambda(x:A.B). M \sim_{\alpha} \lambda(x':A'.B'). M'$ if $\Pi(x:A).B \sim_{\alpha} \Pi(x':A').B'$ and for every $y \notin
+  FV(M) \cup FV(M') \cup \{x,x'\}$, $M[y/x] \sim_{\alpha} M'[y/x']$
+* $App^{x:A.B}(M,P) \sim_{\alpha} App^{x':A'.B'}(M',P')$ if $\Pi(x:A).B \sim_{\alpha} \Pi(x':A').B'$ and $M \sim_{\alpha} M'$ and $P \sim_{\alpha} P'$
 
 Next, we define raw substitution as the following *partial* function
 on raw terms. Essentially, we make substitution undefined if there is
