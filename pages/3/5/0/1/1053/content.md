@@ -229,10 +229,10 @@ correspond in another way to traditional [[conjunction]] and
 [[coproducts]].  [Seely (1989)](#Seely) notes that products are sufficient, as $*$-autonomy then guarantees the existence of coproducts; that is, they are also linked by [[de Morgan duality]].
 
 Recall also that linear logic recaptures the notion of a resource that can be discarded
-or copied arbitrarily by the use of the [[modal logic|modal]] operator $!$ the [[!-modality]]:
+or copied arbitrarily by the use of the [[modal logic|modal]] operator $!$ the [!-modality](https://ncatlab.org/nlab/show/!-modality):
 $!A$ denotes an '$A$-factory', a resource that can produce
 zero or more $A$s on demand.  It is modelled using a suitably monoidal [[comonad]]
-$!$ on the underlying $*$-autonomous category.  There are various inequivalent ways to make this precise, however; see [[!-modality]] for discussion.
+$!$ on the underlying $*$-autonomous category.  There are various inequivalent ways to make this precise, however; see [!-modality](https://ncatlab.org/nlab/show/!-modality) for discussion.
 
 An LL sequent
 $$A_1,\ldots,A_n \vdash B_1,\ldots,B_m$$
