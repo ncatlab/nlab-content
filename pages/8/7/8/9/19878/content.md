@@ -40,6 +40,7 @@ TODO
 include [[Initiality Project - Partial Interpretation - Pi-types]]
 
 ## Contexts
+ {#Contexts}
 
 Now that we have interpreted raw terms as semantic terms and semantic types, we can interpret raw contexts as well.  Suppose $\Gamma$ is a raw context, and let $V$ be the finite (ordered) set of variables occuring in $\Gamma$.  We define a sub-presheaf $\llbracket \Gamma \rrbracket \subseteq Tm^V$ by induction on the length of $\Gamma$ as follows.
 
