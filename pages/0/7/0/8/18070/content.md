@@ -189,7 +189,7 @@ The [[scanning map]] and hence the relation of configuration spaces to [[cohomot
 
 * {#Segal73} [[Graeme Segal]], _Configuration-spaces and iterated loop-spaces_, Invent. Math. __21__ (1973), 213&#8211;221. MR 0331377 ([pdf](http://dodo.pdmi.ras.ru/~topology/books/segal.pdf))
 
-where it is considered for point in Euclidean spaces without labels ("electric field map"). Generalization of these constructions and results to more general spaces and to points with labels is due to 
+Generalization of these constructions and results is due to
 
 * {#McDuff75} [[Dusa McDuff]], _Configuration spaces of positive and negative particles_, Topology Volume 14, Issue 1, March 1975, Pages 91-107 (<a href="https://doi.org/10.1016/0040-9383(75)90038-5">doi:10.1016/0040-9383(75)90038-5</a>)
 
