@@ -102,7 +102,7 @@ For $i, j \in I$ write
 
 $$
   \array{
-    (g_i)_{i j} \oplus (g_2)_{i j}
+    (g_1)_{i j} \oplus (g_2)_{i j}
     &\colon&
     U_i \cap U_j
       &\longrightarrow&
