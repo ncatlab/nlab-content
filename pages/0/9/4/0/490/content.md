@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -142,7 +141,7 @@ When working in the [[internal logic]] of a [[topos]], the "internal" meaning of
 Suppose that $1$ is (externally) projective in $E$. Then $E$ satisfies PAx whenever it satisfies internal PAx. 
 =-- 
 
-Internal PAx does not follows from external PAx; see Example \ref{counter}. However, if _every_ object is projective (AC), then every object is internally projective (IAC). 
+Internal PAx does not follows from external PAx; see Counterexample 5.3. However, if _every_ object is projective (AC), then every object is internally projective (IAC). 
 
 A stronger version of PAx may be worth considering. Say that an object is **stably projective** if its [[pullback]] to any [[slice category]] is projective. Then stably projective objects are internally projective (proof?). Similarly, if we say that a topos $E$ satisfies stable PAx if every object is covered by a stably projective object, then a topos satisfies internal PAx if it satisfies stable PAx. 
 
