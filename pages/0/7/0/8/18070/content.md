@@ -1,4 +1,3 @@
-[[!redirects configuration space (mathematics)]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -445,6 +444,23 @@ The configuration spaces of a space $X$ appear as the [[Goodwillie derivatives]]
 * {#Ching05} [[Michael Ching]], _Calculus of Functors and Configuration Spaces_, Conference on Pure and Applied Topology Isle of Skye, Scotland, 21-25 June, 2005 ([pdf](https://www3.amherst.edu/~mching/Work/skye.pdf))
 
 
+### Compactification
+ {#ReferencesCompactification}
+
+A [[compactification]] of configuration spaces of points was introduced in 
+
+* William Fulton, Robert MacPherson, _A compactification of configuration spaces_, Ann. of Math. (2), 139(1):183–225, 1994.
+
+and an [[operad]]-[[structure]] defined on it ([[Fulton-MacPherson operad]]) in 
+
+* [[Ezra Getzler]], [[John Jones]], _Operads, homotopy algebra and iterated integrals for double loop spaces_.
+
+Review includes
+
+* {#LambrechtsVolic14} [[Pascal Lambrechts]], Ismar Volic, section 5 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
+
+This underlies the models of configuration spaces by [[graph complexes]], see there for more.
+
 ### Relation to graph complexes
 
 Models for the [[ordinary cohomology]] of configuration in terms of [[graph complexes]] are discussed in
@@ -454,9 +470,16 @@ Models for the [[ordinary cohomology]] of configuration in terms of [[graph comp
 [[!redirects configuration space of points]]
 [[!redirects configuration spaces of points]]
 
+[[!redirects configuration space (mathematics)]]
+[[!redirects configuration spaces (mathematics)]]
+
+
 [[!redirects scanning map]]
 [[!redirects scanning maps]]
 
 [[!redirects scanning map equivalence]]
 [[!redirects scanning map equivalences]]
+
+
+
 
