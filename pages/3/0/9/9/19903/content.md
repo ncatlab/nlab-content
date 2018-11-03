@@ -49,3 +49,15 @@ In the introduction to _What is applied category theory?_, [[Tai-Danae Bradley]]
   * [Lecture 31 - Chapter 2: Lawvere Metric Spaces](https://forum.azimuthproject.org/discussion/2128/lecture-31-chapter-2-lawvere-metric-spaces/p1)
   * [Lecture 32 - Chapter 2: Enriched Functors](https://forum.azimuthproject.org/discussion/2169/lecture-32-chapter-2-enriched-functors/p1)
   * [Lecture 33 - Chapter 2: Tying Up Loose Ends](https://forum.azimuthproject.org/discussion/2192/lecture-33-chapter-2-tying-up-loose-ends/p1)
+
+[[Brandon Coya]], _Circuits, Bond Graphs, and Signal-Flow Diagrams: A Categorical Perspective_, [arXiv:1805.08290](https://arxiv.org/abs/1805.08290)
+
+[[John Baez]] and [[Brendan Fong]], _A Compositional Framework for Passive Linear Networks_, [arXiv:1504.05625](https://arxiv.org/abs/1504.05625)
+
+[[Blake Pollard]], _Open Markov processes: A compositional perspective on non-equilibrium steady states in biology_, [arXiv:1601.00711](https://arxiv.org/abs/1601.00711)
+
+[[Brendan Fong]], _The Algebra of Open and Interconnected Systems_, [arXiv:arXiv:1609.05382](https://arxiv.org/abs/1609.05382)
+
+[[John Baez]] and [[Blake Pollard]], _A Compositional Framework for Reaction Networks_, [arXiv:1704.02051](https://arxiv.org/abs/1704.02051)
+
+[[John C. Baez]], [[Brendan Fong]] and [[Blake Pollard]], _A Compositional Framework for Markov Processes_, [arXiv:1508.06448](https://arxiv.org/abs/1508.06448)
