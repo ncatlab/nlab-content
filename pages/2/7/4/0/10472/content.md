@@ -50,6 +50,7 @@ $$
 which equivalently means that $f(x) = y$.
 
 ### Forgetting and adjoining basepoints
+ {#ForgettingAndAdjoiningBasepoints}
 
 +-- {: .num_defn #BasePointAdjoined}
 ###### Definition
