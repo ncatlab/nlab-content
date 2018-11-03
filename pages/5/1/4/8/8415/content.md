@@ -104,6 +104,8 @@ are also called [[almost compact topological space|almost compact topological sp
 
 * [[Bohr compactification]]
 
+* the [[Fulton-MacPherson operad]] is a compactification of [[configuration spaces of points]]
+
 ### In geometry
 
 * [[wonderful compactification]] 
@@ -115,6 +117,7 @@ are also called [[almost compact topological space|almost compact topological sp
   * [[Freund-Rubin compactification]]
 
 * [[conformal compactification]]
+
 * [[projective compactification]]
 
 ## References
