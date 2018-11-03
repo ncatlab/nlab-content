@@ -28,7 +28,7 @@ $$
 
 as its set of $n$-simplices, and fairly obvious faces and degeneracy mappings obtains by restriction along the structural maps of $\Delta_{Top} : \Delta \to Top$.  This is always a [[Kan complex]] and as such has the interpretation of the [[fundamental ∞-groupoid]] $\Pi(X)$ of $X$.
 
-The $n$-simplices of this are just _[[singular simplex|singular n-simplices]]_ generalising paths in $X$. (The term -singular_ is used because there is no restriction that the continuous function used should be an embedding, as would be the case in, for instance, a [[triangulation]] where a simplex in the underlying [[simplicial complex]] corresponds to an embedding of a simplex.)
+The $n$-simplices of this are just _[[singular simplex|singular n-simplices]]_ generalising paths in $X$. (The term _singular_ is used because there is no restriction that the continuous function used should be an embedding, as would be the case in, for instance, a [[triangulation]] where a simplex in the underlying [[simplicial complex]] corresponds to an embedding of a simplex.)
 
 
 ## Properties
