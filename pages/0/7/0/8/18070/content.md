@@ -1,3 +1,4 @@
+[[!redirects configuration space (mathematics)]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -21,78 +22,187 @@ In [[mathematics]] typically by default the term "configuration space" of a [[to
 In principle many other kinds of configurations and the spaces these form may be referred to by "configuration space", notably in [[physics]] the usage is in a broader sense, see at _[[configuration space (physics)]]_.
 
 ## Definition
+  {#Definition}
 
-+-- {: .num_defn #ConfigurationSpaceOfParticleswithLabels}
+
+
++-- {: .num_defn #ConfigurationSpacesOfnPoints}
 ###### Definition
-**(configuration space of particles with labels)**
+**([[configuration spaces of points]])**
 
-Let $(X, \infty)$ and $(A, 0)$ be [[pointed topological spaces]].
+Let $X$ be a [[manifold]], possibly with [[manifold with boundary|boundary]].
+For $n \in \mathbb{N}$, the
+ _**configuration space of $n$ points** in $X$ disappearing at the boundary_ is the [[topological space]]
+  $$
+    \mathrm{Conf}_{n}(X)
+    \;\coloneqq\;
+    \Big(
+      \big(
+        X^n \setminus \mathbf{\Delta}_X^n
+      \big)
+      / \partial(X^n)
+    \Big)
+    /\Sigma(n)
+    \,,
+  $$
+  where
+  $\mathbf{\Delta}_X^n : = \{(x^i) \in X^n | \underset{i,j}{\exists} (x^i = x^j) \}$  is the [[fat diagonal]] in $X^n$
+  and where $\Sigma(n)$ denotes the evident [[action]] of the [[symmetric group]] by [[permutation]] of factors of $X$ inside
+  $X^n$.
+  
+  More generally, let $Y$ be another [[manifold]], possibly with [[manifold with boundary|boundary]].
+  For $n \in \mathbb{N}$, the
+  _**configuration space of $n$ points** in $X \times Y$ vanishing at the boundary and distinct as points in $X$_ is the [[topological space]]
+  $$
+    \mathrm{Conf}_{n}(X,Y)
+    \;\coloneqq\;
+    \Big(
+    \big(
+      (
+        X^n \setminus \mathbf{\Delta}_X^n
+      )
+      \times
+      Y^n
+    \big)
+    /\Sigma(n)
+    \Big)
+    / \partial(X^n \times Y^n)
+  $$
+  where now $\Sigma(n)$ denotes the evident [[action]] of the [[symmetric group]] by [[permutation]] of factors of $X \times Y$ inside
+  $X^n \times Y^n \simeq (X \times Y)^n$.
+  
+  This more general definition reduces to the previous case for $Y = \ast \coloneqq \mathbb{R}^0$ being the point:
+  $$
+    \mathrm{Conf}_n(X)
+    \;=\;
+    \mathrm{Conf}_n(X,\ast)
+    \,.
+  $$
 
-Then the _configuration space of points in $X$ with labels in $A$_
+Finally the _**configuration space of an arbitrary number of points** in $X \times Y$ vanishing at the boundary and distinct already as points of $X$_ is the [[quotient topological space]] of the [[disjoint union space]]
 
 $$
-  Conf(X, A)
+  Conf\left( X, Y\right)
   \;\coloneqq\;
   \left(
-    \underset{ n \in \mathbb{N} }{\coprod} 
-    \left( 
-      X^n \setminus \mathbf{\Delta}^n_X
-    \right)
-    \times A^n
+  \underset{n \in \mathbb{n}}{\sqcup}
+      \big(
+      (
+        X^n \setminus \mathbf{\Delta}_X^n
+      )
+      \times
+      Y^k
+    \big)
+    /\Sigma(n)
   \right)/\sim
 $$
 
-is the [[quotient space]] of the [[disjoint union]] of the [[Cartesian products]] of the space of configurations of distinguishable but unlabeled [[n-tuples]] of points, hence the [[complement]] in $X^n$ of the [[fat diagonal]] $\mathbf{\Delta}_X^n$, with the products of label spaces, by the following [[equivalence relations]]:
+by the [[equivalence relation]] $\sim$ given by
 
-1. [[action]] of the [[symmetric group]]:
+$$
+  \big(
+    (x_1, y_1), \cdots, (x_{n-1}, y_{n-1}), (x_n, y_n)
+  \big)
+  \;\sim\;
+  \big(
+    (x_1, y_1), \cdots, (x_{n-1}, y_{n-1})
+  \big)
+  \;\;\;\; \Leftrightarrow
+  \;\;\;\; (x_n, y_n) \in \partial (X \times Y)
+  \,.
+$$
+  
+This is naturally a [[filtered topological space]] with filter stages
 
-   $$
-     \big((x_1, \cdots, x_n), (a_1, \cdots, a_n)\big) 
-     \sim 
-     \big((x_{\sigma(1)}, \cdots, x_{\sigma(n)}), (a_{\sigma(1)}, \cdots, a_{\sigma(n)})\big) 
-   $$
-
-   for any [[permutation]] $\sigma \in S_n$
-
-
-1. vanishing of particles of "zero charge":
-
-   $$     
-     \big((x_1, \cdots, x_{n-1}, x_n), (a_1, \cdots, a_{n-1}, 0)\big) 
-     \;\sim\;
-     \big((x_1, \cdots, x_{n-1}), (a_1, \cdots, a_{n-1})\big) 
-   $$
-
-1. vanishing of particles of "[[vanishing at infinity|at infinity]]":
-
-   $$     
-     \big((x_1, \cdots, x_{n-1}, \infty), (a_1, \cdots, a_{n-1}, a_n)\big) 
-     \;\sim\;
-     \big((x_1, \cdots, x_{n-1}), (a_1, \cdots, a_{n-1})\big) 
-   $$
-
-
-=--
-
-(e.g. [Bödigheimer 87, 1](#Boedigheimer87))
-
-
-+-- {: .num_example #UnlabeledConfigurationSpace}
-###### Example
-**(configuration space of unlabeled points)**
-
-For $A = S^0 = \{1\}_+$ the [[0-sphere]] all points in Def. \ref{ConfigurationSpaceOfParticleswithLabels} carry the same label "1", which means that they are actually unlabeled, and we will write just
-
-\[
-  \label{ConfigurationSpaceOfUnlabeledPoints}
-  Conf(X)
+$$
+  Conf_{\leq n}\left( X, Y\right)
   \;\coloneqq\;
-  Conf(X,S^0)
-\]
+  \left(
+  \underset{k \in \{1, \cdots, n\}}{\sqcup}
+      \big(
+      (
+        X^k \setminus \mathbf{\Delta}_X^k
+      )
+      \times
+      Y^k
+    \big)
+    /\Sigma(k)
+  \right)/\sim
+  \,.
+$$
 
-in this case.
+The corresponding [[quotient topological spaces]] of the filter stages reproduces the above configuration spaces of a fixed number of points:
+
+$$
+  Conf_n(X,Y)
+  \;\simeq\;
+  Conf_{\leq n}(X,Y) / Conf_{\leq (n-1)}(X,Y)
+  \,.
+$$
+
+
 
 =--
+
+
+
++-- {: .num_remark}
+###### Remark
+**(comparison to notation in the literature)**
+
+The above Def. \ref{ConfigurationSpacesOfnPoints} is less general but possibly more suggestive than what is considered for instance in [Bödigheimer 87](#Boedigheimer87). Concretely, we have the following translations of notation:
+
+  $$
+    \array{
+      \text{ here: }
+        && 
+      \array{ \text{ Segal 73,} \\ \text{ Snaith 74}: }
+        &&
+      \text{ Bödigheimer 87: }
+      \\
+      \\
+      Conf(\mathbb{R}^d,Y) 
+        &=& 
+      C_d( Y/\partial Y )
+        &=&
+      C( \mathbb{R}^d, \emptyset; Y )  
+      \\
+      \mathrm{Conf}_n\left( \mathbb{R}^d \right)
+      & = &
+      F_n C_d( S^0 ) / F_{n-1} C_d( S^0 )
+      & = &
+      D_n\left( \mathbb{R}^d, \emptyset; S^0  \right)
+      \\
+      \mathrm{Conf}_n\left( \mathbb{R}^d, Y \right)
+      & = &
+      F_n C_d( Y/\partial Y ) / F_{n-1} C_d( Y/\partial Y )
+      & = &
+      D_n\left( \mathbb{R}^d, \emptyset; Y/\partial Y  \right)
+      \\
+      \mathrm{Conf}_n( X ) && &=& D_n\left( X, \partial X; S^0  \right) 
+      \\
+      \mathrm{Conf}_n( X, Y  ) && &=& D_n\left( X, \partial X; Y/\partial Y  \right)
+    }
+  $$
+  Notice here that when $Y$ happens to have [[empty space|empty]] [[boundary]], $\partial Y = \emptyset$, then the [[pushout]] 
+
+$$
+  X / \partial Y \coloneqq Y \underset{\partial Y}{\sqcup} \ast
+$$
+ 
+is $Y$ with a [disjoint basepoint attached](pointed+topological+space#ForgettingAndAdjoiningBasepoints). Notably for $Y =\ast$ the [[point space]], we have that 
+
+$$
+  \ast/\partial \ast = S^0
+$$
+
+is the [[0-sphere]].
+
+
+=--
+
+
+
 
 A slight variation of the definition is sometimes useful:
 
@@ -127,11 +237,109 @@ This map is evidently a [[deformation retraction]] hence in particular a [[homot
 
 ## Properties
 
-### Cocycle spaces and the Scanning map
- {#CocycleSpacesAndScanningMap}
+### Iterated loop spaces of iterated suspensions
+ {#LoopSpacesOfSuspensions}
 
 
-(...)
+
++-- {: .num_prop #ScanningMapEquivalenceOverCartesianSpace}
+###### Proposition
+
+For 
+
+1. $d \in \mathbb{N}$, $d \geq 1$ a [[natural number]] with $\mathbb{R}^d$ denoting the [[Cartesian space]]/[[Euclidean space]] of that [[dimension]],
+
+1. $Y$ a [[manifold]], with [[inhabited set|non-empty]] [[manifold with boundary|boundary]] so that  $Y / \partial Y$ is [[connected topological space|connected]],
+
+the [[scanning map]] constitutes a [[homotopy equivalence]]
+
+$$
+  Conf\left( 
+    \mathbb{R}^d, Y
+  \right)
+  \overset{scan}{\longrightarrow}
+  \Omega^d \Sigma^d (Y/\partial Y)
+$$
+
+between 
+
+1. the configuration space of arbitrary points in $\mathbb{R}^d \times Y$ vanishing at the boundary (Def. \ref{ConfigurationSpacesOfnPoints}) 
+
+1. the $d$-fold [[loop space]] of the $d$-fold [[reduced suspension]] of the [[quotient space]] $Y / \partial Y$ (regarded as a [[pointed topological space]] with basepoint $[\partial Y]$).
+
+In particular when $Y = \mathbb{D}^k$ is the [[closed ball]] of [[dimension]] $k$ this gives a [[homotopy equivalence]]
+
+$$
+  Conf\left( 
+    \mathbb{R}^d, \mathbb{D}^k
+  \right)
+  \overset{scan}{\longrightarrow}
+  \Omega^d S^{ d + k }
+$$
+
+with the $d$-fold [[loop space]] of the [[n-sphere|(d+k)-sphere]].
+
+=--
+
+([Segal 73, Theorem 3](#Segal73))
+
+
++-- {: .num_prop #StableSplittingOfMappingSpacesOutOfEuclideanSpace}
+###### Proposition
+**([[stable splitting of mapping spaces]] out of [[Euclidean space]]/[[n-spheres]])**
+
+For 
+
+1. $d \in \mathbb{N}$, $d \geq 1$ a [[natural number]] with $\mathbb{R}^d$ denoting the [[Cartesian space]]/[[Euclidean space]] of that [[dimension]],
+
+1. $Y$ a [[manifold]], with [[inhabited set|non-empty]] [[manifold with boundary|boundary]] so that  $Y / \partial Y$ is [[connected topological space|connected]],
+
+there is a [[stable weak homotopy equivalence]]
+
+$$
+  \Sigma^\infty Conf(\mathbb{R}^d, Y)
+  \overset{\simeq}{\longrightarrow}
+  \underset{n \in \mathbb{N}}{\oplus} \Sigma^\infty Conf_n(\mathbb{R}^d, Y)
+$$
+
+between
+
+1. the [[suspension spectrum]] of the [[configuration space of points|configuration space]] of an arbitrary number of points in $\mathbb{R}^d \times Y$ vanishing at the boundary and distinct already as points of $\mathbb{R}^d$ (Def. \ref{ConfigurationSpacesOfnPoints})
+
+1. the [[direct sum]] (hence: [[wedge sum]]) of [[suspension spectra]] of the [[configuration space of points|configuration spaces]] of a fixed number of points in $\mathbb{R}^d \times Y$, vanishing at the boundary and distinct already as points in $\mathbb{R}^d$ (also Def. \ref{ConfigurationSpacesOfnPoints}).
+
+Combined with the [[stabilization]] of the [[scanning map]] [[homotopy equivalence]] from Prop. \ref{ScanningMapEquivalenceOverCartesianSpace} this yields a [[stable weak homotopy equivalence]]
+
+$$
+  Maps_{cp}(\mathbb{R}^d, \Sigma^d (Y / \partial Y))
+  =
+  Maps^{\ast/}( S^d, \Sigma^d (Y / \partial Y))
+  =
+  \Omega^d \Sigma^d (Y/\partial Y)
+  \underoverset{\Sigma^\infty scan}{\simeq}{\longrightarrow}
+  \Sigma^\infty Conf(\mathbb{R}^d, Y)
+  \overset{\simeq}{\longrightarrow}
+  \underset{n \in \mathbb{N}}{\oplus} \Sigma^\infty Conf_n(\mathbb{R}^d, Y)
+$$
+
+between the latter direct sum and the [[suspension spectrum]] of the [[mapping space]] of pointed [[continuous functions]] from the [[n-sphere|d-sphere]] to the $d$-fold [[reduced suspension]] of $Y / \partial Y$.
+
+
+=--
+
+([Snaith 74, theorem 1.1](#Snaith74), [Bödigheimer 87, Example 2](#Boedigheimer87))
+
+In fact by [Bödigheimer 87, Example 5](#Boedigheimer87) this equivalence still holds with $Y$ treated on the same footing as $\mathbb{R}^d$, hence with $Conf_n(\mathbb{R}^d, Y)$ on the right replaced by $Conf_n(\mathbb{R}^d \times Y)$ in the well-adjusted notation of Def. \ref{ConfigurationSpacesOfnPoints}:
+
+$$
+  Maps_{cp}(\mathbb{R}^d, \Sigma^d (Y / \partial Y))
+  =
+  Maps^{\ast/}( S^d, \Sigma^d (Y / \partial Y))
+  \overset{\simeq}{\longrightarrow}
+  \underset{n \in \mathbb{N}}{\oplus} \Sigma^\infty Conf_n(\mathbb{R}^d \times Y)
+$$
+
+
 
 
 ### Classifying space of the symmetric group
