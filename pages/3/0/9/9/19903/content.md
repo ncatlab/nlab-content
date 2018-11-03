@@ -1,8 +1,12 @@
 ##Idea##
 
-In the introduction to _What is applied category theory?_, [[Tai-Danae Bradley]] writes that
+In the introduction to _What is applied category theory?_, notes from the 2018 Applied Category Theory Adjoint School, [[Tai-Danae Bradley]] writes that
 
-> category theory has found applications in a wide range of disciplines outside of pure mathematics—even beyond the closely related fields of computer science and quantum physics. These disciplines include chemistry, neuroscience, systems biology, natural language processing, causality, network theory, dynamical systems, and database theory to name a few. And what do they all have in common? That’s much of what current-day applied category theory is seeking to discover. In other words, the techniques, tools, and ideas of category theory are being used to identify recurring themes across these various disciplines with the purpose of making them a little more formal.
+> ... ideas and results from category theory have found applications
+in computer science and quantum physics (not to mention pure mathematics itself), but these
+are not the only applications to which the word _applied_ in _applied category theory_ is being applied... 
+
+> category theory has found applications in a wide range of disciplines outside of pure mathematics—even beyond the closely related fields of computer science and quantum physics. These disciplines include chemistry, neuroscience, systems biology, natural language processing, causality, network theory, dynamical systems, and database theory to name a few. And what do they all have in common? ... In other words, the techniques, tools, and ideas of category theory are being used to identify recurring themes across these various disciplines with the purpose of making them a little more formal.
 
 
 ##References##
