@@ -1,19 +1,39 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ##Idea##
 
-In the introduction to _What is applied category theory?_, notes from the 2018 Applied Category Theory Adjoint School, [[Tai-Danae Bradley]] writes that
+The whole point of [[category theory]] is to study fundamental [[general abstract]] patterns and phenomena that (re-)appear throughout [[mathematics]]. Hence applications of [[theorems]] of category theory are ubiquituous in [[mathematics]] and in subjects with a mathematical basis, such as [[physics]] and [[computer science]]. Often this goes without saying. 
+
+In the introduction to [Bradley 18](#Bradley18) it says:
 
 > ... ideas and results from category theory have found applications
-in computer science and quantum physics (not to mention pure mathematics itself), but these
-are not the only applications to which the word _applied_ in _applied category theory_ is being applied... 
+in computer science and quantum physics (not to mention pure mathematics itself), but these are not the only applications to which the word _applied_ in _applied category theory_ is being applied... 
 
 > category theory has found applications in a wide range of disciplines outside of pure mathematics—even beyond the closely related fields of computer science and quantum physics. These disciplines include chemistry, neuroscience, systems biology, natural language processing, causality, network theory, dynamical systems, and database theory to name a few. And what do they all have in common? ... In other words, the techniques, tools, and ideas of category theory are being used to identify recurring themes across these various disciplines with the purpose of making them a little more formal.
 
 
 ##References##
 
-[[Tai-Danae Bradley]], _What is applied category theory?_, [arXiv:1809.05923](https://arxiv.org/abs/1809.05923)
+* {#Bradley18} [[Tai-Danae Bradley]], _What is applied category theory?_, [arXiv:1809.05923](https://arxiv.org/abs/1809.05923)
 
-[[Brendan Fong]] and [[David Spivak]], _Seven Sketches in Compositionality: An Invitation to Applied Category Theory_, [arXiv:1803.05316](https://arxiv.org/abs/1803.05316). [[John Baez]] ran a series of lectures based on this book:
+* [[Brendan Fong]] and [[David Spivak]], _Seven Sketches in Compositionality: An Invitation to Applied Category Theory_, [arXiv:1803.05316](https://arxiv.org/abs/1803.05316). 
+
+[[John Baez]] ran a series of lectures based on this book:
 
 * lectures on chapter 1
 
@@ -54,14 +74,15 @@ are not the only applications to which the word _applied_ in _applied category t
   * [Lecture 32 - Chapter 2: Enriched Functors](https://forum.azimuthproject.org/discussion/2169/lecture-32-chapter-2-enriched-functors/p1)
   * [Lecture 33 - Chapter 2: Tying Up Loose Ends](https://forum.azimuthproject.org/discussion/2192/lecture-33-chapter-2-tying-up-loose-ends/p1)
 
-[[Brandon Coya]], _Circuits, Bond Graphs, and Signal-Flow Diagrams: A Categorical Perspective_, [arXiv:1805.08290](https://arxiv.org/abs/1805.08290)
+* [[Brandon Coya]], _Circuits, Bond Graphs, and Signal-Flow Diagrams: A Categorical Perspective_, [arXiv:1805.08290](https://arxiv.org/abs/1805.08290)
 
-[[John Baez]] and [[Brendan Fong]], _A Compositional Framework for Passive Linear Networks_, [arXiv:1504.05625](https://arxiv.org/abs/1504.05625)
+* [[John Baez]] and [[Brendan Fong]], _A Compositional Framework for Passive Linear Networks_, [arXiv:1504.05625](https://arxiv.org/abs/1504.05625)
 
-[[Blake Pollard]], _Open Markov processes: A compositional perspective on non-equilibrium steady states in biology_, [arXiv:1601.00711](https://arxiv.org/abs/1601.00711)
+* [[Blake Pollard]], _Open Markov processes: A compositional perspective on non-equilibrium steady states in biology_, [arXiv:1601.00711](https://arxiv.org/abs/1601.00711)
 
-[[Brendan Fong]], _The Algebra of Open and Interconnected Systems_, [arXiv:arXiv:1609.05382](https://arxiv.org/abs/1609.05382)
+* [[Brendan Fong]], _The Algebra of Open and Interconnected Systems_, [arXiv:arXiv:1609.05382](https://arxiv.org/abs/1609.05382)
 
-[[John Baez]] and [[Blake Pollard]], _A Compositional Framework for Reaction Networks_, [arXiv:1704.02051](https://arxiv.org/abs/1704.02051)
+* [[John Baez]] and [[Blake Pollard]], _A Compositional Framework for Reaction Networks_, [arXiv:1704.02051](https://arxiv.org/abs/1704.02051)
 
-[[John C. Baez]], [[Brendan Fong]] and [[Blake Pollard]], _A Compositional Framework for Markov Processes_, [arXiv:1508.06448](https://arxiv.org/abs/1508.06448)
+*  [[John C. Baez]], [[Brendan Fong]] and [[Blake Pollard]], _A Compositional Framework for Markov Processes_, [arXiv:1508.06448](https://arxiv.org/abs/1508.06448)
+
