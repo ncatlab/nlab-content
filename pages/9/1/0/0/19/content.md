@@ -204,11 +204,11 @@ Apart from its general role in mathematics, category theory provides the high-le
 
 Outside of pure mathematics, category theory finds major applications in
 
-* fundamental [[physics]] -- see [[higher category theory and physics]].
+* fundamental [[physics]] -- see [[higher category theory and physics]]
 
-* theoretical [[computer science]].
+* theoretical [[computer science]]
 
-
+and is increasingly finding applications in such diverse areas as chemistry, network theory and natural language processing. Further information can be found on the [[applied category theory]] page.
 
 
 ## Contrast to theories of other objects
