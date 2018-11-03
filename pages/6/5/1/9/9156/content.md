@@ -18,6 +18,8 @@ __John David Stuart Jones__ (J.D.S. Jones) is a mathematician at the University 
 
 * [[Sullivan model of free loop space]]
 
+* [[Fulton-MacPherson operad]]
+
 category: people
 
 [[!redirects JDS Jones]]
