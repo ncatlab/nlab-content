@@ -75,3 +75,6 @@ A general abstract [[(∞,1)-topos theory|(∞,1)-topos theoretic]] discusssion 
 [[!redirects dimensions]]
 
 [[!redirects dimensional]]
+
+[[!redirects dimension of a manifold]]
+[[!redirects dimensions of manifolds]]
