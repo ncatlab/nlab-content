@@ -960,6 +960,7 @@ Discussion of [[perturbation theory|perturbative quantization]] of Chern-Simons 
 
 * {#Kontsevich} [[Maxim Kontsevich]], _Feynman diagrams and low-dimensional topology_, in First European Congress of Mathematics, Vol. II (Paris, 1992), volume 120 of Progr. Math., pages 97&#8211;121, Birkh&#228;user, Basel, 1994. ([pdf](https://www.ihes.fr/~maxim/TEXTS/Feynman%20%20diagrams%20and%20low-dimensional%20topology.pdf))
  
+See also at _[[Fulton-MacPherson compactification]] of [[configuration spaces of points]]_.
 
 Perturbative quantization along the lines of _[Renormalization - Of theories in BV-CS form](renormalization#OfTheoriesInBVForm)_ is in
 
