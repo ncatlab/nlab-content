@@ -38,6 +38,8 @@ where the [[sum]] is over [[edges]] $e$ which are not [[loops]] (have distinct [
 
 This function $\partial$ is indeed a differential, in that it satisfies $\partial^2 = 0$, because two contractions in different order produce a different orientation. 
 
+> some details missing here...
+
 The resulting [[chain complex]] $(\mathcal{G}_\bullet, \partial)$ is called the _graph complex_. Its [[chain homology]] $H_\bullet(\mathcal{G}, \partial)$ is called _graph homology_.
 
 This is originally due to ([Kontsevich 94, pages 11-12](#Kontsevich94)). For a detailed and careful account see [Lambrechts-Volic 14, section 6](#LambrechtsVolic14).
@@ -117,7 +119,7 @@ There are generalizations for $d$-algebras (algebras over little disc operad in 
 
 Various versions of the definition of the graph complex were introduced in
 
-* {#Kontsevich94} [[Maxim Kontsevich]], pages 11-12 of _Feynman diagrams and low-dimensional topology_, First European Congress of Mathematics, 1992, Paris, vol. II, Progress in Mathematics __120__, Birkh&#228;user (1994), 97&#8211;121, [pdf](http://www.ihes.fr/~maxim/TEXTS/Feynman%20%20diagrams%20and%20low-dimensional%20topology.pdf)
+* {#Kontsevich94} [[Maxim Kontsevich]], pages 11-12 of _Feynman diagrams and low-dimensional topology_, First European Congress of Mathematics, 1992, Paris, vol. II, Progress in Mathematics __120__, Birkh&#228;user (1994), 97&#8211;121 ([pdf](http://www.ihes.fr/~maxim/TEXTS/Feynman%20%20diagrams%20and%20low-dimensional%20topology.pdf))
 
 * {#Kontsevich99b} [[Maxim Kontsevich]], around Def. 15 and Lemma 3 in _Operads and Motives in Deformation Quantization_, Lett.Math.Phys.48:35-72,1999 ([arXiv:math/9904055](https://arxiv.org/abs/math/9904055))
 
