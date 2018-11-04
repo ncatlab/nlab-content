@@ -147,6 +147,32 @@ $$
 
 The [[symmetric group]] $\Sigma(n)$ still canonically [[action|acts]] on $FM_n(\mathbb{R}^d)$ and hence the FM-compactification of the actual [[configuration space of points]] $Conf_n(\mathbb{R}^d)$ is the [[quotient space]] $FM_n(\mathbb{R}^d)/\Sigma(n)$.
 
+## Properties
+
+### Relation to the little $n$-disk operad
+
++-- {: .num_prop #WeakEquivalenceToLittleNDiskOperad}
+###### Proposition
+
+The Fulton-MacPherson operad is [[weak equivalence|weakly equivalent]] in the [[model structure on operads]] with respect to the [[classical model structure on topological spaces]], to the [[little n-disk operad]]
+
+=--
+
+([Salvatore 01, Prop. 4.9](#Salvatore01), summarized as [Lambrechts-Volic 14, Prop. 5.6](#LambrechtsVolic14))
+
+### Formality
+
+We have that [[the Fulton-MacPherson operad is formal]] in the sense that for each of its component [[topological spaces]] there is a [[zig-zag]] of [[quasi-isomorphisms]] between their [[de Rham cohomology]] and their [[de Rham complex]], and such that these morphisms are compatible with the induced [[cooperad]]-[[structure]] on both sides.
+
+Concretely, the [[zig-zags]] may be taken to consist of one [[span]] of [[quasi-isomorphisms]] out of a suitable [[graph complex]] to the [[de Rham cohomology]]/[[de Rham complex]] of the [[Fulton-MacPherson operad]].
+
+Here the morphism from the [[graph complex]] to the [[de Rham complex]] of the [[Fulton-MacPherson operad]] regards the latter as the [[compactification]] of a [[configuration space of points]], regards [[functions]]/[[differential forms]] on [[configuration spaces of points]] as [[n-point functions]] of a [[topological quantum field theory|topological]] [[quantum field theory]], regards suitable [[graphs]] as [[Feynman diagrams]] and proceeds by sending each such graph/Feynman diagram to a corresponding [[Feynman amplitude]].
+
+This idea of a proof was sketched in [Kontsevich 99](#Kontsevich99), a full account is due to [Lambrechts-Volic 14](#LambrechtsVolic14).
+
+
+
+
 ## Related concepts
 
 * [[little n-disk operad]]
@@ -177,9 +203,17 @@ and developed in detail in
 
 which also shows the equivalence to [Fulton-MacPherson 94](#FultonMacPherson94).
 
+The equivalence to the [[little n-disk operad]] was established in 
+
+* {#Salvatore01} Paolo Salvatore, _Configuration spaces with summable labels_, Cohomological methods in homotopy theory. Birkhäuser, Basel, 2001. 375-395.
+
 Review includes
 
 * {#LambrechtsVolic14} [[Pascal Lambrechts]], Ismar Volic, section 5 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
 
 
+
 [[!redirects Fulton-MacPherson operads]]
+
+[[!redirects Fulton-MacPherson compactification]]
+[[!redirects Fulton-MacPherson compactifications]]
