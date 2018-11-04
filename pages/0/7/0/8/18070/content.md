@@ -457,7 +457,7 @@ and an [[operad]]-[[structure]] defined on it ([[Fulton-MacPherson operad]]) in
 
 Review includes
 
-* {#LambrechtsVolic14} [[Pascal Lambrechts]], Ismar Volic, section 5 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
+* {#LambrechtsVolic14} [[Pascal Lambrechts]], Ismar Volic, section 5 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([arXiv"0808.0457](https://arxiv.org/abs/0808.0457), [doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
 
 This underlies the models of configuration spaces by [[graph complexes]], see there for more.
 
@@ -469,7 +469,7 @@ That the [[de Rham cohomology]] of (the [[Fulton-MacPherson compactification]] o
 
 niecely reviewed in
 
-* {#LambrechtsVolic14} [[Pascal Lambrechts]], Ismar Volic, sections 6 and 7 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
+* {#LambrechtsVolic14} [[Pascal Lambrechts]], Ismar Volic, sections 6 and 7 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([arXiv:0808.0457](https://arxiv.org/abs/0808.0457), [doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
 
 Further discussion of the graph complex as a model for the [[de Rham cohomology]] of  [[configuration spaces of points]] is in
 
