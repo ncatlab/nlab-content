@@ -245,7 +245,7 @@ The equivalence to the [[Fulton-MacPherson operad]] is due to
 
 Proof that [[the little n-disk operad is formal]] was sketched by [[Maxim Kontsevich]] and spelled out in
 
-* {#LambrechtsVolic14} [[Pascal Lambrechts]], Ismar Volic, section 5 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
+* {#LambrechtsVolic14} [[Pascal Lambrechts]], [[Ismar Volić]], section 5 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
 
 
 [[John Francis]]' work on $E_n$-actions on $(\infty,1)$-categories is in
