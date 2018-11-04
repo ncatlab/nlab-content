@@ -330,7 +330,7 @@ $$
   \;=\;
   \left\{
     \array{
-      \left[g_{i j}\right] &\vert& \Gamma \, {\text{is diagram with a single edge,} \atop \text{connecting the only two external vertices}\, i \, \text{and}\, j}
+      \left[g_{i j}\right] &\vert& \Gamma \, {\text{is diagram without internal vertices} \atop \text{and single edge between external vertices}\, i \, \text{and}\, j}
       \\
       0 &\vert& \Gamma \, \text{has internal vertices}
     }
