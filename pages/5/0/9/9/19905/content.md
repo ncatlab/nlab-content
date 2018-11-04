@@ -514,11 +514,15 @@ The equivalence to the [[little n-disk operad]] was established in
 
 * {#Salvatore01} Paolo Salvatore, _Configuration spaces with summable labels_, Cohomological methods in homotopy theory. Birkhäuser, Basel, 2001. 375-395.
 
-The interpretation of the quasi-isomorphism establishing [[formality of the little n-disk operad]] as sending edges to [[Feynman propagators]] of some [[topological quantum field theory]] is due to
+
+
+{#ReferencesPropagator} The interpretation of the quasi-isomorphism establishing [[formality of the little n-disk operad]] as sending edges to [[Feynman propagators]] of some [[topological quantum field theory]] such as [[Chern-Simons theory]] is due to
+
+* {#AxelrodSinger93} [[Scott Axelrod]], [[Isadore Singer]], Section 2 of _Chern--Simons Perturbation Theory II_, J. Diff. Geom. 39 (1994) 173-213 ([arXiv:hep-th/9304087](http://arxiv.org/abs/hep-th/9304087)) 
+
+which is recalled and recast in somewhat more generality in 
 
 * {#BottCattaneo97} [[Raoul Bott]], [[Alberto Cattaneo]], Remark 3.6 in _Integral invariants of 3-manifolds_, J. Diff. Geom., 48 (1998) 91-133 ([arXiv:dg-ga/9710001](https://arxiv.org/abs/dg-ga/9710001))
-
-which is re-amplified in 
 
 * {#CattaneoMnev10} [[Alberto Cattaneo]], [[Pavel Mnev]], Remark 11 in _Remarks on Chern-Simons invariants_, Commun.Math.Phys.293:803-836,2010 ([arXiv:0811.2045](https://arxiv.org/abs/0811.2045))
 
