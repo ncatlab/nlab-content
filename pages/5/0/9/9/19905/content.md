@@ -11,6 +11,10 @@
 +--{: .hide}
 [[!include topology - contents]]
 =--
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
 =--
 =--
 
@@ -21,9 +25,11 @@
 
 ## Idea
 
-A [[compactification]] of [[configuration spaces of points]] was introduced in [Fulton-MacPherson 94](#FultonMacPherson94) and an [[operad]]-[[structure]] defined on it by [Getzler-Jones 94](#GetzlerJones94) [Kontsevich 97](#Kontsevich97), now called the _Fulton-MacPherson operad_, [[weak equivalence|weakly equivalent]] to the [[little n-disk operad]] ([Salvatore 01, Prop. 4.9](#Salvatore01)). The [[de Rham cohomology]] of the Fulton-MacPherson operad may be modeled by [[graph complexes]] via [[TQFT|topological]] [[Feynman amplitudes]] (see [below](#RelationToGraphComplexes)) which serves to exhibit [[formal dg-algebra|formality]] of the Fulton-MacPherson operad, and hence also [[formality of the little n-disk operad]].
+A [[compactification]] of [[configuration spaces of points]] was introduced in [Axelrod-Singer 93, p. 5-6](#AxelrodSinger93), [Fulton-MacPherson 94](#FultonMacPherson94) and an [[operad]]-[[structure]] defined on it by [Getzler-Jones 94](#GetzlerJones94) [Kontsevich 97](#Kontsevich97), now called the _Fulton-MacPherson operad_, [[weak equivalence|weakly equivalent]] to the [[little n-disk operad]] ([Salvatore 01, Prop. 4.9](#Salvatore01)), hence a model for an [[En-operad]]. 
 
-To see the nature of the Fulton-MacPherson compactification, observe that the [[configuration space of points|configuration space]] of exactly 2 points in a [[Cartesian space]]/[[Euclidean space]] $\mathbb{R}^d$ is [[homotopy equivalence]] to the [[quotient]] by [[group of order two|Z/2]] of a [[n-sphere|(d-1)-sphere]]
+The [[de Rham cohomology]] as well as the [[de Rham complex]] itself of the Fulton-MacPherson operad it [[quasi-isomorphism|quasi-isomorphic]] to [[graph complexes]] via [[TQFT|topological]] [[Feynman amplitudes]] (see [below](#RelationToGraphComplexes)), in fact it is the [[perturbative quantum field theory|perturbative]] computation of [[Feynman amplitudes]] in [[Chern-Simons theory]] that motivated the compactified configuration space, this way, in [Axelrod-Singer 91](#AxelrodSinger91), [Axelrod-Singer 93](#AxelrodSinger93). These two [[quasi-isomorphism]] serve to exhibit [[formal dg-algebra|formality]] of the Fulton-MacPherson operad, and hence also [[formality of the little n-disk operad]].
+
+To see the nature of the Axelrod-Singer-Fulton-MacPherson compactification of [[configuration spaces of points]], observe that the [[configuration space of points|configuration space]] of exactly 2 points in a [[Cartesian space]]/[[Euclidean space]] $\mathbb{R}^d$ is [[homotopy equivalence]] to the [[quotient]] by [[group of order two|Z/2]] of a [[n-sphere|(d-1)-sphere]]
 
 $$
   Conf_2( \mathbb{R}^d )
@@ -37,7 +43,9 @@ The _Fulton-MacPherson compactification_ is the evident [[compactification]] of 
 
 This means that a point on the [[boundary]] of the Fulton-MacPherson compactification corresponds to a would-be [[configuration space of points|configuration]] of points where some of the points have formally vanishing [[distance]] to each other, while still remembering a relative [[direction of a vector|direction]] to each other.
 
-In the literature these [[boundary]] configurations are often referred to in terms of "infinitesimally close points", but this is loose heuristics and unrelated to actual [[infinitesimal neighbourhoods]] in [[synthetic differential geometry]].
+More abstractly one may sum this up succinctly by saying that the ASFM-compactification is the  [[blowup]] of the [[fat diagonal]] inside the [[Cartesian products]] of the base space with itself. 
+
+In the literature these [[boundary]] configurations are often referred to in terms of "infinitesimally close points", but this is heuristics and unrelated to actual [[infinitesimal neighbourhoods]] in [[synthetic differential geometry]]: the Axelrod-Singer-Fulton-MacPherson compactifications are plain [[topological spaces]], not [[object]] in a [[smooth topos]].
 
 ## Definition
 
@@ -476,9 +484,17 @@ That this is a dgc-algebra-homomorphism compatible with the [[cooperad]]-[[struc
 
 ## References
 
-The Fulton-MacPherson [[compactification]] of [[configuration spaces of points]] was first considered in 
+The [[compactification]] of [[configuration spaces of points]] was first considered for two points in 
+
+* {#AxelrodSinger91} [[Scott Axelrod]], [[Isadore Singer]],  _Chern-Simons Perturbation Theory_, in S. Catto, A. Rocha (eds.) Proc. XXthe DGM Conf. World Scientific Singapore, 1992, 3-45; ([arXiv:hep-th/9110056](http://arxiv.org/abs/hep-th/9110056))
+
+* {#AxelrodSinger93} [[Scott Axelrod]], [[Isadore Singer]],  _Chern--Simons Perturbation Theory II_, J. Diff. Geom. 39 (1994) 173-213 ([arXiv:hep-th/9304087](http://arxiv.org/abs/hep-th/9304087)) 
+
+and then more generally in
 
 * {#FultonMacPherson94} William Fulton, Robert MacPherson, _A compactification of configuration spaces_, Ann. of Math. (2), 139(1):183–225, 1994.
+
+
 
 and the [[operad]]-[[structure]] on these compactified spaces was considered in
 
