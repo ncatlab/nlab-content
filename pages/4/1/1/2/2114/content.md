@@ -61,6 +61,8 @@ Some modern algebraic geometers mean, by varieties, objects of certain slightly 
 
 * [[complete algebraic variety]]
 
+* [[semialgebraic manifold]]
+
 ## References
 
 * Igor Shafarevich, _Basic algebraic geometry_, vol. I
