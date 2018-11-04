@@ -42,7 +42,7 @@ A theory of [[differential forms]] on semi-algebraic manifolds was sketched in A
 
 Details are provided, the [[de Rham complex]] of semi-algebraic [[differential forms]] on a semi-algebraic manifold is constructed in and their [[rational homotopy theory|real homotopy theory]] is studied in
 
-* Robert Hardt, [[Pascal Lambrechts]], Victor Tourtchine, Ismar Volic, _Real Homotopy Theory of Semi-Algebraic Sets_, Algebr. Geom. Topol. 11 (2011) 2477-2545 ([arXiv:0806.0476](https://arxiv.org/abs/0806.0476))
+* Robert Hardt, [[Pascal Lambrechts]], Victor Tourtchine, [[Ismar Volić]], _Real Homotopy Theory of Semi-Algebraic Sets_, Algebr. Geom. Topol. 11 (2011) 2477-2545 ([arXiv:0806.0476](https://arxiv.org/abs/0806.0476))
 
 Discussion of the example of [[Fulton-MacPherson compactifications]] of [[configuration spaces of points]] includes
 
