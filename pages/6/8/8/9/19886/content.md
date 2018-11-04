@@ -240,7 +240,7 @@ between
 
 1. the $d$-fold [[loop space]] of the $d$-fold [[reduced suspension]] of the [[quotient space]] $Y / \partial Y$ (regarded as a [[pointed topological space]] with basepoint $[\partial Y]$).
 
-In particular when $Y = \mathbb{D}^k$ is the [[closed ball]] of [[dimension]] $k$ this gives a [[homotopy equivalence]]
+In particular when $Y = \mathbb{D}^k$ is the [[closed ball]] of [[dimension]] $k \geq 1$ this gives a [[homotopy equivalence]]
 
 $$
   Conf\left( 
