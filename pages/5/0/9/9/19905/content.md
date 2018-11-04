@@ -21,9 +21,9 @@
 
 ## Idea
 
-A [[compactification]] of [[configuration spaces of points]] was introduced in [Fulton-MacPherson 94](#FultonMacPherson94) and an [[operad]]-[[structure]] defined on it by [Getzler-Jones 94](#GetzlerJones94) [Kontsevich 97](#Kontsevich97) spring, now called the _Fulton-MacPherson operad_. This underlies the models of configuration spaces by [[graph complexes]], see there for more.
+A [[compactification]] of [[configuration spaces of points]] was introduced in [Fulton-MacPherson 94](#FultonMacPherson94) and an [[operad]]-[[structure]] defined on it by [Getzler-Jones 94](#GetzlerJones94) [Kontsevich 97](#Kontsevich97), now called the _Fulton-MacPherson operad_, [[weak equivalence|weakly equivalent]] to the [[little n-disk operad]] ([Salvatore 01, Prop. 4.9](#Salvatore01)). The [[de Rham cohomology]] of the Fulton-MacPherson operad may be modeled by [[graph complexes]] via [[TQFT|topological]] [[Feynman amplitudes]] (see [below](#RelationToGraphComplexes)) which serves to exhibit [[formal dg-algebra|formality]] of the Fulton-MacPherson operad, and hence also [[formality of the little n-disk operad]].
 
-Observe that the [[configuration space of points|configuration space]] of exactly 2 points in a [[Cartesian space]]/[[Euclidean space]] $\mathbb{R}^d$ is [[homotopy equivalence]] to the [[quotient]] by [[group of order two|Z/2]] of a [[n-sphere|(d-1)-sphere]]
+To see the nature of the Fulton-MacPherson compactification, observe that the [[configuration space of points|configuration space]] of exactly 2 points in a [[Cartesian space]]/[[Euclidean space]] $\mathbb{R}^d$ is [[homotopy equivalence]] to the [[quotient]] by [[group of order two|Z/2]] of a [[n-sphere|(d-1)-sphere]]
 
 $$
   Conf_2( \mathbb{R}^d )
@@ -37,7 +37,7 @@ The _Fulton-MacPherson compactification_ is the evident [[compactification]] of 
 
 This means that a point on the [[boundary]] of the Fulton-MacPherson compactification corresponds to a would-be [[configuration space of points|configuration]] of points where some of the points have formally vanishing [[distance]] to each other, while still remembering a relative [[direction of a vector|direction]] to each other.
 
-In the literature these boundary configurations are often referred to in terms of "infinitesimally close points", but this is loose heuristics and unrelated to actual [[infinitesimal neighbourhoods]] in [[synthetic differential geometry]].
+In the literature these [[boundary]] configurations are often referred to in terms of "infinitesimally close points", but this is loose heuristics and unrelated to actual [[infinitesimal neighbourhoods]] in [[synthetic differential geometry]].
 
 ## Definition
 
@@ -128,8 +128,9 @@ from the ordered configuration space into the [[Cartesian product]] of all these
 
 A moment of reflection shows that every ordered configuration modulo translation and rescaling, hence every point on the left, may be uniquely reconstructed from its direction vectors and distance ratios, hence from a point on the right, hence that this function is a [[homeomorphism]] onto its [[image]] ([Sinha 03, lemma 3.18](#Sinha03)).
 
-+-- {: .num_defn}
++-- {: .num_defn #FultonMacPhersonCompactification}
 ###### Definition
+**(Fulton-MacPherson compactification)**
 
 The _Fultan-MacPherson compactification_ of the [[configuration space of points|configuration space]] of ordered [[n-tuples]] of points in the [[Cartesian space]]/[[Euclidean space]] $\mathbb{R}^d$ is the [[topological closure]] of the [[image]] of (eq:EmbeddingOfTheOrderedConfigurationSpace):
 
@@ -147,6 +148,45 @@ $$
 
 The [[symmetric group]] $\Sigma(n)$ still canonically [[action|acts]] on $FM_n(\mathbb{R}^d)$ and hence the FM-compactification of the actual [[configuration space of points]] $Conf_n(\mathbb{R}^d)$ is the [[quotient space]] $FM_n(\mathbb{R}^d)/\Sigma(n)$.
 
+## Pictorial notation
+ {#Pictorial}
+
+By the above, the points on the [[boundary]] of a Fulton-MacPherson compactification of [[configuration spaces of points]] (Def. \ref{FultonMacPhersonCompactification}) correspond to configurations that involve [[triples]] of points in space $x,y,z$, such that the [[distance]] between two of them is "vanishing in ratio to the distance of both to the third".
+
+Hence where a configuration of two points in space looks like
+
+<center>
+<img src="https://ncatlab.org/nlab/files/FultonMacPherson1.jpg" width="300"/>
+</center>
+
+a configuration of such a boundary case of three points may be visualized as
+
+<center>
+<img src="https://ncatlab.org/nlab/files/FultonMacPherson2.jpg" width="400"/>
+</center>
+
+where the "funnel" might be thought of as an infinite magnifying glass held to the location of the second point and revealing that it really consists of two points of vanishing distance to each other, relative to their joint distance to the remaining point.
+
+In this fashion, for instance a boundary point in the Fulton-MacPherson compactification depicted as follows 
+
+<center>
+<img src="https://ncatlab.org/nlab/files/FultonMacPherson3.jpg" width="400"/>
+</center>
+
+would consist of 
+
+* points 3, 4 and 5  being arbitrarly close to each other with respect to their distance to points 1, 2 and 6
+
+* points 3 and 5 also being arbitrarily close to each other with respect to their joint distance to 4
+
+* points 1, 2 and 6 being arbitrarily close to each other in comparison to their joint distances to 3, 4 and 5
+
+* points 1 and 2 also being arbitrarily close to each other with respect to their joint distance to 6.
+
+> graphics grabbed from [Lambrechts-Volic 14, Figures 3 and 4](#LambrechtsVolic14)
+
+This pictorial notation was introduced in [Sinha 03](#Sinha03). It immediately suggests the correct [[operad]]-[[structure]] on the Fulton-MacPherson compactifications.
+
 ## Properties
 
 ### Relation to the little $n$-disk operad
@@ -160,7 +200,8 @@ The Fulton-MacPherson operad is [[weak equivalence|weakly equivalent]] in the [[
 
 ([Salvatore 01, Prop. 4.9](#Salvatore01), summarized as [Lambrechts-Volic 14, Prop. 5.6](#LambrechtsVolic14))
 
-### Formality
+### Formality and relation to Graph complexes
+ {#RelationToGraphComplexes}
 
 We have that [[the Fulton-MacPherson operad is formal]] in the sense that for each of its component [[topological spaces]] there is a [[zig-zag]] of [[quasi-isomorphisms]] between their [[de Rham cohomology]] and their [[de Rham complex]], and such that these morphisms are compatible with the induced [[cooperad]]-[[structure]] on both sides.
 
@@ -209,7 +250,7 @@ The equivalence to the [[little n-disk operad]] was established in
 
 Review includes
 
-* {#LambrechtsVolic14} [[Pascal Lambrechts]], Ismar Volic, section 5 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
+* {#LambrechtsVolic14} [[Pascal Lambrechts]], Ismar Volic, section 5 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([arXiv:0808.0457](https://arxiv.org/abs/0808.0457), [doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
 
 
 
