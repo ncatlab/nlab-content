@@ -1,4 +1,8 @@
 
+> This entry is about [[smooth manifolds]] with [[infinitesimal neighbourhood|infinitesimal thickenings]]. For "formal spaces" in the sense that their [[de Rham complex]] is a [[formal dg-algebra]], see there.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
