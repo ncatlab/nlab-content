@@ -82,7 +82,7 @@ Typically in the proofs of most reconstruction theorems an implicit use of the  
 
 * [[P. Deligne]], J. S. Milne, _Tannakian categories_, Lect. notes in math. 900, 101&#8211;228, Springer 1982.
 
-* A. Brugui&#232;res, _On a tannakian theorem due to Nori_, [pdf](http://www.math.univ-montp2.fr/~bruguieres/ntan.pdf); _Th&#233;orie tannakienne non commutative_, Comm. Algebra __22__, 5817&#8211;5860, 1994 
+* A. Brugui&#232;res, _On a tannakian theorem due to Nori_, [pdf](http://imag.umontpellier.fr/~bruguieres/docs/ntan.pdf); _Th&#233;orie tannakienne non commutative_, Comm. Algebra __22__, 5817&#8211;5860, 1994 
 
 
 [[!redirects reconstruction theorems]]
