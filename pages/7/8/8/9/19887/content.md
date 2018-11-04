@@ -50,6 +50,8 @@ $$
   \,.
 $$
 
+Similarly, the _[[blowup]]_ of the fat diagonal in $X^n$ yields the [[Fulton-MacPherson compactification]] of [[configuration spaces of points]].
+
 ### Relation to renormalization
 
 Closely related to the role of the fat diagonal in [[configuration spaces]] is its role in [[renormalization]] of [[perturbative quantum field theories]], which may be formulated as the choice of [[extensions of distributions]] (of [[time-ordered products]]) from the [[complement]] of a fat diagonal to the fat diagonal (the locus of coinciding "[[virtual particles]]" where [[interactions]] take place).
