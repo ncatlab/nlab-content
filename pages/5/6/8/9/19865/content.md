@@ -100,9 +100,9 @@ ever a name clash.
 * $x[N/y] = N$ if $x = y$.
 * $x[N/y] = x$ if $x \neq y$.
 * $(\mathtt{C}(M_1,\dots,M_n))[N/y] = \mathtt{C}(M_1[N/y],\dots,M_n[N/y])$.
-* $(\Pi(x:A).B)[N/y] = \Pi(x:A[N/y]).B[N/y]$ if $x \neq y$ and $y \notin FV(N)$
-* $(\lambda(x:A.B). M)[N/y] = \lambda(x:A[N/y].B[N/y]).M[N/y]$ if $x \neq y$ and $y \notin FV(N)$
-* $(App^{x:A.B}(M,P))[N/y] = App^{x:A[N/y].B[N/y]}(M[N/y],P[N/y])$ if $x \neq y$ and $y \notin FV(N)$
+* $(\Pi(x:A).B)[N/y] = \Pi(x:A[N/y]).B[N/y]$ if $x \neq y$ and $x \notin FV(N)$
+* $(\lambda(x:A.B). M)[N/y] = \lambda(x:A[N/y].B[N/y]).M[N/y]$ if $x \neq y$ and $x \notin FV(N)$
+* $(App^{x:A.B}(M,P))[N/y] = App^{x:A[N/y].B[N/y]}(M[N/y],P[N/y])$ if $x \neq y$ and $x \notin FV(N)$
 
 This definition of substitution avoids capture, but it does so at the cost of making substitution a partial function $RawTm \times RawTm \times Var \rightharpoonup RawTm$.  For example, suppose that $M$ is $\lambda(x : A.B). App^{x : A.B}(f, x)$, which is the [[η-expansion]] of some variable $f$, and that $N$ is $App^{z: C.(\Pi(x:A).B)}(x, z)$.  Then $M[N/f]$ isn't defined: because $x$ is a free variable in $N$.
 
