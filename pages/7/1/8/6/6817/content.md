@@ -66,6 +66,10 @@ Other accounts include
 * [[Yasuyuki Kawahigashi]], _$N = 2$ Superconformal Field Theory
 and Operator Algebras_ ([pdf](http://www.rci.rutgers.edu/~yzhuang/math/papers/kawahigashi.pdf))
 
+Finally a hint for a relation to [[tmf]] compatible with the conjectured relation between [[(2,1)-dimensional Euclidean field theories and tmf]]:
+
+*  [[Davide Gaiotto]], [[Theo Johnson-Freyd]], _Holomorphic SCFTs with small index_ ([arXiv:1811.00589](https://arxiv.org/abs/1811.00589))
+
 ### Relation to 2-spectral triples
 
 Discussion of 2d SCFTs as a higher analog of [[spectral triples]] ("[[2-spectral triples]]", see there for more) is  in terms of [[vertex operator algebras]] in
