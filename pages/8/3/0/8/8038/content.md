@@ -23,6 +23,12 @@ In [[quantum field theory]] scattering amplitudes are the  [[probability amplitu
 
 Of particular interest are [[vacuum amplitudes]] which are scattering amplitudes "where nothing external scatters" hence for no incoming and no outgoing states. The [[1-loop]] vacuum amplitudes are [[regularization (physics)|regularized]] [[traces]] over [[Feynman propagators]]. These are the incarnations of [[zeta functions]], [[L-functions]] and [[eta functions]] in [[physics]].
 
+## Examples
+
+### In Chern-Simons theory
+
+The Feynman amplitudes of [[higher Chern-Simons theory]], such as [[AKSZ sigma-models]], regarded in their incarnation as [[Feynman amplitudes on compactified configuration spaces of points]], serve to exhibit a [[graph complex]]-model for the [[de Rham complex]] of [[Fulton-MacPherson compactifications]] of [[configuration spaces of points]] by the construction recalled [there](Fulton-MacPherson+operad#RelationToGraphComplexes). See the pointers at _[[Chern-Simons theory]]_ [here](Chern-Simons+theory#FeynmanPerturbationSeries).
+
 ## Related concepts
 
 * [[scattering]]
