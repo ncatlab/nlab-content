@@ -10,8 +10,6 @@
 =--
 
 
-> under construction
-
 #Contents#
 * table of contents
 {:toc}
@@ -19,11 +17,26 @@
 
 ## Idea
 
-...resolution of [[singularities]]...
+Given a [[space]] $X$ of sorts, in particular a [[scheme]] or [[variety]], with [[singularities]], i.e. with a subspace $S \subset X$ at which the [[geometry]] is non-regular (specifically: not [[smooth scheme|smooth]]), a _resolution_ of the singularity is a suitable regular (non-singular) space
+$\widehat X$ equipped with a [[morphism]] back to the original space
+
+$$
+  p \;\colon\; \widehat X \longrightarrow X
+$$
+
+which is an [[isomorphism]] away from the singular locus.
+
+Typical resolution of singularities is by "blow-up" of the singularity where the singular point is replaced by an  [[n-sphere]], then called the "exceptional divisor" of the blow-up.
+
+(quick review of the basic details includes [Berghoff 14, section 4.1](#Berghoff14))
+
+
 
 ## Examples
 
-* the [[Fulton-MacPherson compactification]] of [[configuration spaces of points]] may be regarded as resolution of the [[fat diagonal]] inside an iterated [[Cartesian product]]
+* the [[Fulton-MacPherson compactification]] of [[configuration spaces of points]] may be regarded as resolution of the [[fat diagonal]] inside an iterated [[Cartesian product]];
+
+* this generalizes to  "[[wonderful compactifications]]" resolving singularities given by more general subspace arrangements
 
 * [[Bridgeland stability]] over resolution of [[ADE-singularities]]: see [there](Bridgeland+stability+condition#OverResolutionsOfADESingularities)
 
@@ -38,6 +51,11 @@
 ## References
 
 * {#Hironaka64} [[Heisuke Hironaka]], _Resolution of Singularities of an Algebraic Variety Over a Field of Characteristic Zero: I_, Annals of Mathematics Second Series, Vol. 79, No. 1 (Jan., 1964), pp. 109-203 (95 pages) ([jstor:1970486](https://www.jstor.org/stable/1970486))
+
+Review includes
+
+* {#Berghoff14} [[Marko Berghoff]], section 4 of _Wonderful renormalization_, 2014 ([pdf](http://www2.mathematik.hu-berlin.de/%7Ekreimer/wp-content/uploads/Berghoff-Marko.pdf), [doi:10.18452/17160](https://doi.org/10.18452/17160))
+
 
 The theorem of [Hironaka 64](#Hironaka64) was used to discuss singular [[distributions]] (in the sense of [[generalized functions]]) in
 
