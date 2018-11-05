@@ -127,6 +127,11 @@ Discussion in relation to the [[twisted cohomology|twists]] of [[tmf]]-cohomolog
  
 with some related chat in _[[schreiber:Quantization via Linear homotopy types]]_.
 
+Possible hints for further relation between [[2d SCFT]] and [[tmf]] are presented in
+
+* [[Davide Gaiotto]], [[Theo Johnson-Freyd]], _Holomorphic SCFTs with small index_ ([arXiv:1811.00589](https://arxiv.org/abs/1811.00589))
+
+
 [[!redirects String orientation of tmf]]
 
 [[!redirects string-orientation of tmf]]
