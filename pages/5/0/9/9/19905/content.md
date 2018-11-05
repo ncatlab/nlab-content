@@ -191,7 +191,7 @@ In this fashion, for instance a boundary point in the Fulton-MacPherson compacti
 
 would consist of 
 
-* points 3, 4 and 5  being arbitrarly close to each other with respect to their distance to points 1, 2 and 6
+* points 3, 4 and 5  being arbitrarily close to each other with respect to their distance to points 1, 2 and 6
 
 * points 3 and 5 also being arbitrarily close to each other with respect to their joint distance to 4
 
@@ -478,9 +478,24 @@ This function constitutes a [[homomorphism]] of [[dgc-algebras]] which is a [[qu
 That this is a dgc-algebra-homomorphism compatible with the [[cooperad]]-[[structure]] is proven in [Lambrechts-Volic 14](#LambrechtsVolic14), that it is a [[quasi-isomorphism]] is proven in [Lambrechts-Volic 14, section 10](#LambrechtsVolic14).
 
 
++-- {: .num_remark #AsPerturbativeChernSimonsTheory}
+###### Remark
+**([[perturbative quantum field theory|perturbative]] [[Chern-Simons theory]] )**
+
+The [[differential forms]] $g_{i j}$ from Def. \ref{SphereClassGeneratorsOfDeRhamCohomology} may be understood as being the [[Feynman propagator]] of [[perturbative quantum field theory|perturbative]] [[higher Chern-Simons theory]] regarded equivalently in its incarnation as a  [[Feynman amplitude on compactified configuration spaces of points]]. See at _[[Chern-Simons propagator]]_ for more on this.
+
+From this perspective, the [[quasi-isomorphism]] in Prop. \ref{QuasiIsomorphismBetweenGraphComplexAndDeRhamComplexOfFM} sends each [[graph]], regarded as a [[Feynman diagram]] for [[higher Chern-Simons theory]], to its correspomnding [[Feynman amplitude]], regarded in its incarnation as a  [[Feynman amplitude on compactified configuration spaces of points]]. 
+
+That this should be the case was originally suggested in [Kontsevich 94](#Kontsevich94).
+
+=--
+
+
 ## Related concepts
 
 * [[little n-disk operad]]
+
+* [[Feynman amplitude on compactified configuration space of points]]
 
 ## References
 
@@ -501,7 +516,7 @@ and the [[operad]]-[[structure]] on these compactified spaces was considered in
 * {#GetzlerJones94} [[Ezra Getzler]], [[John Jones]], _Operads, homotopy algebra and iterated integrals for double loop spaces_ ([arXiv:hep-th/9403055](https://arxiv.org/abs/hep-th/9403055))
 
 and alternatively in 
-
+ 
 * {#Kontsevich99} [[Maxim Kontsevich]], around Def. 12 of _Operads and Motives in Deformation Quantization_, Lett.Math.Phys.48:35-72,1999 ([arXiv:math/9904055](https://arxiv.org/abs/math/9904055))
 
 * {#Kontsevich97} [[Maxim Kontsevich]], section 5.1 of _Deformation quantization of Poisson manifolds, I_, Lett.Math.Phys.66:157-216,2003 ([arXiv:q-alg/9709040](https://arxiv.org/abs/q-alg/9709040))
@@ -541,6 +556,11 @@ which is recalled and recast in somewhat more generality in
 * {#BottCattaneo97} [[Raoul Bott]], [[Alberto Cattaneo]], Remark 3.6 in _Integral invariants of 3-manifolds_, J. Diff. Geom., 48 (1998) 91-133 ([arXiv:dg-ga/9710001](https://arxiv.org/abs/dg-ga/9710001))
 
 * {#CattaneoMnev10} [[Alberto Cattaneo]], [[Pavel Mnev]], Remark 11 in _Remarks on Chern-Simons invariants_, Commun.Math.Phys.293:803-836,2010 ([arXiv:0811.2045](https://arxiv.org/abs/0811.2045))
+
+That this should exhibit a graph complex model for the cohomology of compactified configuration spaces was suggested in 
+
+* {#Kontsevich94} [[Maxim Kontsevich]], pages 11-12 of _Feynman diagrams and low-dimensional topology_, First European Congress of Mathematics, 1992, Paris, vol. II, Progress in Mathematics __120__, Birkh&#228;user (1994), 97&#8211;121 ([pdf](http://www.ihes.fr/~maxim/TEXTS/Feynman%20%20diagrams%20and%20low-dimensional%20topology.pdf))
+
 
 [[!redirects Fulton-MacPherson operads]]
 
