@@ -379,6 +379,16 @@ has the property that postcomposition with $\exp(2 \pi i \int_{S^1}[S^1, \mathbf
 
 
 ### Perturbative quantization
+ {#PerturbativeQuantization}
+
+Some pointers regarded the [[perturbative quantum field theory|perturbative]] [[quantization]] of Chern-Simons theory:
+
+#### Feynman perturbation series
+ {#FeynmanPerturbationSeries}
+
+The standard [[Feynman perturbation series]] for [[perturbative quantum field theory]] based on the [[Chern-Simons propagator]] (see there for more) was discussed in [Axelrod-Singer 91, 93](#AxelrodSinger), via [[Feynman amplitudes on compactified configuration spaces of points]].
+
+This led [Kontsevich 94](#Kontsevich) to suggest that the perturbative Chern-Simons [[Feynman amplitudes]] serves to exhibit a [[graph complex]]-model for the [[Fulton-MacPherson compactification]] of [[configuration spaces of points]], which was proven in [Lambrechts-Volic 14](#LambrechtsVolic14)
 
 #### Path integral quantization
  {#PerturbativePathIntegralQuantization}
@@ -960,7 +970,10 @@ Discussion of [[perturbation theory|perturbative quantization]] of Chern-Simons 
 
 * {#Kontsevich} [[Maxim Kontsevich]], _Feynman diagrams and low-dimensional topology_, in First European Congress of Mathematics, Vol. II (Paris, 1992), volume 120 of Progr. Math., pages 97&#8211;121, Birkh&#228;user, Basel, 1994. ([pdf](https://www.ihes.fr/~maxim/TEXTS/Feynman%20%20diagrams%20and%20low-dimensional%20topology.pdf))
  
-See also at _[[Fulton-MacPherson compactification]] of [[configuration spaces of points]]_.
+* {#LambrechtsVolic14} [[Pascal Lambrechts]], [[Ismar Volić]], sections 6 and 7 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([arXiv:0808.0457](https://arxiv.org/abs/0808.0457), [doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
+
+
+See also the [[graph complex]]-model for the _[[Fulton-MacPherson compactification]] of [[configuration spaces of points]]_.
 
 Perturbative quantization along the lines of _[Renormalization - Of theories in BV-CS form](renormalization#OfTheoriesInBVForm)_ is in
 
