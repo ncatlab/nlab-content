@@ -62,6 +62,8 @@ A higher analog of the connecting homomorphism abive may be interpreted as being
 
 * [[algebraic cycle]]
 
+* [[exceptional divisor]] ([[resolution of singularities]])
+
 ## References
 
 * Wikipedia, _[Divisor (algebraic geometry)](http://en.wikipedia.org/wiki/Divisor_(algebraic_geometry)_
