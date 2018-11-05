@@ -3057,6 +3057,8 @@ $$
 
 * [[Hadamard distribution]]
 
+* [[Chern-Simons propagator]]
+
 ## References
 
 Textbook accounts for quantum fields on [[Minkowski spacetime]] includes
