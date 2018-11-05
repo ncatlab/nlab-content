@@ -36,7 +36,7 @@ Given [[bicategories]] $C$ and $D$, a __pseudofunctor__ (or __weak $2$-functor__
 *  for each [[object]] $x$ of $C$, an object $P_x$ of $D$;
 *  for each [[hom-category]] $C(x,y)$ in $C$, a [[functor]] $P_{x,y}\colon C(x,y) \rightarrow D(P_x,P_y)$;
 *  for each object $x$ of $C$, an invertible [[2-morphism]] ($2$-cell) $P_{\id_x}\colon \id_{P_x} \Rightarrow P_{x,x}(\id_x)$;
-*  for each triple $x,y,z$ of $C$-objects, a [[natural isomorphism|isomorphism]] (natural in $f\colon x \to y$ and $g\colon y \to z$) $P_{x,y,z}(f,g)\colon P_{x,y}(f) ; P_{y,z}(g) \Rightarrow P_{x,z}(f;g)$;
+*  for each triple $x,y,z$ of $C$-objects, an [[natural isomorphism|isomorphism]] (natural in $f\colon x \to y$ and $g\colon y \to z$) $P_{x,y,z}(f,g)\colon P_{x,y}(f) ; P_{y,z}(g) \Rightarrow P_{x,z}(f;g)$;
 *  for each hom-category $C(x,y)$,
    $$ \array {
                                   &                                         & \id_{P_x} ; P_{x,y}(f) \\
@@ -128,7 +128,6 @@ Historically the term 'pseudofunctor' was conceived by [[Grothendieck]] who weak
 {#Lack} 
 
 
-[[!redirects pseudofunctor]]
 [[!redirects pseudofunctors]]
 [[!redirects pseudo functor]]
 [[!redirects pseudo functors]]
