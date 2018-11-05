@@ -728,7 +728,7 @@ following are equivalent:
 
 1. every morphism with right lifting against anodyne extensions is a fibration;
 
-1. every weak equivalence with right lifting against anony extensions is an acyclic fibration;
+1. every weak equivalence with right lifting against anodyne extensions is an acyclic fibration;
 
 1. every morphism with right lifting against anodyne extensions factors as an anodyne extension followed by a fibration.
 
@@ -1305,8 +1305,21 @@ $$
 $$
 
 One finds then $p \circ s = id_Y$.
+As $p$ is a $J$-homotopy equivalence, it follows that $s$ is its homotopic inverse, in particular, there is a $J$-homotopy $h : id_X \Rightarrow s \circ p$.
 
-Next ...
+Next we lift the trivial $J$-homotopy $p \Rightarrow p$
+to transform $h$ into a dual stronf deformation:
+$$
+\array{
+  \partial I \otimes I \otimes X \cup I \otimes \{1\} \otimes X &
+  \stackrel{([h, s \circ p \circ h], s \circ p \circ \sigma_X)}{\to} & X \\
+  \downarrow & H \nearrow & \downarrow^{\mathrlap{p}} \\
+  I \otimes I \otimes X &
+  \stackrel{p \circ h \circ \sigma_{I \otimes X}}{\to} &
+  Y
+}
+$$
+Now $H \circ (I \otimes \partial^0_{X})$ is a $J$-homotopy showing that $p$ is a dual strong deformation retract.
 
 =--
 
