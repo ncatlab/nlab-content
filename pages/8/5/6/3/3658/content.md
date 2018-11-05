@@ -21,7 +21,7 @@
 
 ## Idea
 
-The **Wightman axioms** are an attempt to axiomatize and thus formalize the notion of a [[quantum field theory]] on [[Minkowski spacetime]] in the sense of [[AQFT]], i.e. in terms of the assignment of field [[quantum observables]] to points or subsets of [[spacetime]]. 
+The **Wightman axioms** are an attempt to [[axiom|axiomatize]] and thus formalize the notion of a [[quantum field theory]] on [[Minkowski spacetime]] ([[relativistic quantum field theory]]) in the sense of [[AQFT]], i.e. in terms of the assignment of field [[quantum observables]] to points or subsets of [[spacetime]] ([[operator-valued distributions]]). 
 
 They serve as the basis of what is known as **constructive quantum field theory** which seeks to provide a mathematically sound framework for quantum theory over the Minkowski space background of [[special relativity]].  [[Arthur Wightman]] first formulated them in the 1950s but they were not published until 1964 after advances in scattering theory confirmed their applicability.
 
