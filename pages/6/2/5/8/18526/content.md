@@ -200,6 +200,7 @@ The [[advanced and retarded Green functions]] (def. \ref{AdvancedAndRetardedGree
 
 ([B&#228;r 14, cor. 3.12](#Baer14})
 
+
 ### Continuity
 {#Continuity}
 
