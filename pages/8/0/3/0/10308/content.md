@@ -24,7 +24,9 @@
 ## Idea
  {#Idea}
 
-This entry discusses the [[quantization]] of the [[prequantum field theory|prequantum]] data of standard 3d [[Chern-Simons theory]] (induced from a suitable [[Lie group]] and [[invariant polynomial]]/[[second Chern class]] [[action functional]]) to a [[3d TQFT]].
+This entry discusses the full ([[non-perturbative quantum field theory|non-perturbative]]) [[quantization]] of the [[prequantum field theory|prequantum]] data of standard 3d [[Chern-Simons theory]] (induced from a suitable [[Lie group]] and [[invariant polynomial]]/[[second Chern class]] [[action functional]]) to a [[3d TQFT]].
+
+(For the [[perturbative QFT|perturbative quantization]] of [[Chern-Simons theory]] see [there](Chern-Simons+theory#PerturbativeQuantization)).
 
 Existing literature knows three sectors of this problem, which overlap but do not coincide
 
