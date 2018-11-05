@@ -55,7 +55,7 @@ $$
 
 from the cohomotopy sets of $X$ to the [[cobordism group]] of $(n-k)$-dimensional [[submanifolds]] with [[normal bundle|normal]] [[framed manifold|framing]] up to normally framed [[cobordism]].
 
-In particular, the natural group structure on [[cobordism group]] (essentially given by [[disjoint union]] of submanifolds) this way induces a group structure on the cohomotopy sets.
+In particular, the canonical [[group]] [[structure]] on [[cobordism groups]] (essentially given by [[disjoint union]] of [[submanifolds]]) this way induces a group structure on the cohomotopy sets.
 
 This is made explicit for instance in [Kosinski 93, chapter IX](#Kosinski93).
 
