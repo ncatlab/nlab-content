@@ -354,6 +354,45 @@ extends to a [[homomorphism]] of [[dgc-algebras]] which is a [[quasi-isomorphism
 
 ([Lambrechts-Volic 14, Theorem 8.1](#LambrechtsVolic14))
 
++-- {: .num_example #ThreeTermRelation}
+###### Example
+**(the "3-term relation")**
+
+In the [[graph complex]] the [[differential]] of the [[graph]] as shown on the left below (the vertices on the horizontal line are the external vertices, that above the line is internal) is a linear combination as shown on the right:
+
+$\phantom{AAA}\array{ \partial \\ \phantom{A} \\ \phantom{a}}$
+<img src="https://ncatlab.org/nlab/files/TrivializationOfThreeTermIdentity.jpg" width="100">
+$\phantom{A}\array{ = \\ \phantom{A} \\ \phantom{a} }\phantom{A}$
+<img src="https://ncatlab.org/nlab/files/ThreeTermIdentity.jpg" width="300">
+
+> graphics grabbed from [Lambrechts-Volic 14, Figure 1 & Figure 2](#LambrechtsVolic14)
+
+Under the above [[quasi-isomorphism]] (Prop. \ref{QuasiIsoFromGraphComplexToDeRhamCohomology}) from the [[graph complex]] to the [[de Rham complex]] on the [[Fulton-MacPherson compactification]] of a [[configuration space of points]] given by sending each [[graph]] to its [[Chern-Simons propagator|Chern-Simons]] [[Feynman amplitude on compactified configuration spaces of points]] (Remark \ref{AsPerturbativeChernSimonsTheory}) this relation becomes the "3-term relation" from Prop. \ref{DeRhamCohomologyOfFMCompactification}
+
+$$
+     \left[g_{i j}\right] \wedge \left[ g_{j k} \right]
+     +
+     \left[g_{j k}\right] \wedge \left[ g_{k i} \right]
+     +
+     \left[g_{k i}\right] \wedge \left[ g_{i j} \right]
+     \;\sim\;
+     0
+$$
+
+satisfied by the [[Chern-Simons propagator]] form
+
+$$
+  \left(
+    g_{i j}
+    \;\in\;
+    \Omega^2\left( FM_n(\mathbb{R}^d)  \right)
+  \right)
+  \,.
+$$
+
+
+=--
+
 
 Now we consider the analogous but richer quasi-isomorphism from the [[graph complex]] not just to the [[de Rham cohomology]] of the compactified configuration space, but its full [[de Rham complex]].
 
@@ -399,8 +438,8 @@ $$
 
 
 
-+-- {: .num_defn #QuasiIsomorphismBetweenGraphComplexAndDeRhamComplexOfFM}
-###### Definition
++-- {: .num_prop #QuasiIsomorphismBetweenGraphComplexAndDeRhamComplexOfFM}
+###### Proposition
 **([[quasi-isomorphism]] between [[graph complex]] and [[de Rham complex]] of Fulton-MacPherson compactification)**
 
 Consider the [[linear function]]
