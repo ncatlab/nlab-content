@@ -17,5 +17,4 @@ It is also known (starting from Jacquet and Langlands' work for $\GL_2$) in the 
 
 ##References
 
-* [[Minhyong Kim]], _A superficial introduction to Langlands
-functoriality_, [slides](http://people.maths.ox.ac.uk/kimm/lectures/functoriality.pdf)
+* [[Minhyong Kim]], _A superficial introduction to Langlands functoriality_, [slides](http://people.maths.ox.ac.uk/kimm/lectures/functoriality.pdf)
