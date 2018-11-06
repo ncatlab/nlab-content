@@ -43,6 +43,17 @@ $$
 $$
 
 
+### Strong monoidalness
+ {#StrongMonoidalness}
+
+The suspension spectrum functor is [[strong monoidal functor|strong monoidal]].
+
+On the one hand, this is the case for its incarnation as a [[1-functor]] with values in [[structured spectra]] ([this Prop.](Introduction+to+Stable+homotopy+theory+--+1-2#SmashProductOfFreeSpectra))
+
+Via the corresponding [[symmetric monoidal smash product of spectra|symetric monoidal]] [[Model categories of diagram spectra|model structure on structured spectra]] this exhibits strong monoidalness also as an [[(infinity,1)-functor]].
+
+
+
 ### Recognition and diagonals
 
 (...)
