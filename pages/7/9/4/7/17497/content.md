@@ -5974,6 +5974,7 @@ Now the quotient of a $G$-CW complex by $G$ is a [[CW complex]], and so the last
 
 +-- {: .num_prop #SmashProductOfFreeSpectra}
 ###### Proposition
+**([[structured spectrum|structured]] [[suspension spectrum]]-construction is [[strong monoidal functor]])**
 
 Let $Dia \in \{Top^{\ast/}_{cg,fin}, Orth, Sym\}$ be the diagram shape of either [[pre-excisive functors]], [[orthogonal spectra]] or [[symmetric spectra]]. Then under the [[symmetric monoidal smash product of spectra]] (def. \ref{FinitePointedCWComplexes}, def. \ref{FinitePointedCWComplexes}, def.\ref{SsymModuleSymmetricSpectra}) the [[free structured spectra]] of def. \ref{FreeStructuredSpectrum} behave as follows
 
@@ -5997,7 +5998,7 @@ $$
   \,.
 $$
 
-Hence the structured [[suspension spectrum]] functor $\Sigma^\infty_{dia}$ is a [[strong monoidal functor]] (def. \ref{LaxMonoidalFunctor}) and in fact a [[braided monoidal functor]] (def. \ref{braided monoidal functor}) from [[pointed topological spaces]] equipped with the [[smash product]] of pointed objects, to [[structured spectra]] equipped with the [[symmetric monoidal smash product of spectra]]
+Hence the structured [[suspension spectrum]] functor $\Sigma^\infty_{dia}$ is a [[strong monoidal functor]] (def. \ref{LaxMonoidalFunctor}) and in fact a [[braided monoidal functor]] (def. \ref{LaxMonoidalFunctor}) from [[pointed topological spaces]] equipped with the [[smash product]] of pointed objects, to [[structured spectra]] equipped with the [[symmetric monoidal smash product of spectra]]
 
 $$
   \Sigma_{dia}^\infty
