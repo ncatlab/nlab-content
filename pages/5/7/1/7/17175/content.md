@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -71,6 +72,10 @@ Some more details are spelled out in
 
 
 [[!redirects Conner-Floyd Chern classes]]
+
+[[!redirects Conner-Floyd class]]
+[[!redirects Conner-Floyd classes]]
+
 
 [[!redirects Conner-Floyd-Chern class]]
 [[!redirects Conner-Floyd-Chern classes]]
