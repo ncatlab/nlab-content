@@ -35,10 +35,15 @@ The Chern-Simons propagator was re-formulated as a [[Feynman amplitudes on compa
 
 ## References
 
+Detailed review is in 
+
+* Konstantin Wernli, section 3 of _Perturbative Quantization of Split Chern-Simons Theory on Handlebodies and Lens Spaces by the BV-BFV formalism_, 2018
+
+Original articles include the following
+
 * {#AxelrodSinger91} [[Scott Axelrod]], [[Isadore Singer]], _Chern-Simons Perturbation Theory_, in S. Catto, A. Rocha (eds.) Proc. XXthe DGM Conf. World Scientific Singapore, 1992, 3-45; ([arXiv:hep-th/9110056](http://arxiv.org/abs/hep-th/9110056))
 
 * {#AxelrodSinger93} [[Scott Axelrod]], [[Isadore Singer]],  _Chern--Simons Perturbation Theory II_, J. Diff. Geom. 39 (1994) 173-213 ([arXiv:hep-th/9304087](http://arxiv.org/abs/hep-th/9304087)) 
-
 
 
 * {#BottCattaneo97} [[Raoul Bott]], [[Alberto Cattaneo]], Remark 3.6 in _Integral invariants of 3-manifolds_, J. Diff. Geom., 48 (1998) 91-133 ([arXiv:dg-ga/9710001](https://arxiv.org/abs/dg-ga/9710001))
