@@ -52,7 +52,7 @@ One can now go on to study this enlarged category, and investigate how much of w
 
 One can make an analogy with the real and complex numbers.  Many aspects of the study of real numbers become much easier and clearer when extended to the complex numbers.  At this point, one has a choice: one can simply study the complex numbers or one can use the complex numbers as a tool to study the real ones.
 
-Thus, to adapt a saying of Hadamard, we could introduce our own maxim:
+Thus, to adapt a saying of Hadamard ([here](Jacques+Hadamard#TheShortestPath)), we could introduce our own maxim:
 
 > The shortest distance between two truths about nice objects often lies in a nice category.
 
