@@ -32,6 +32,9 @@
 The [[stabilization]]/[[suspension spectrum]] $\Sigma^\infty  Maps(X,A)$ of  [[mapping spaces]] $Maps(X,A)$ between suitable [[CW-complexes]] $X, A$ happens to decompose as a [[direct sum]] of [[spectra]] (a [[wedge sum]]) in a useful way, related to the expression of the [[Goodwillie derivatives]] of the functor $Maps(X,-)$ and often expressible in terms of the [[configuration space (mathematics)|configuration spaces]] of $X$.
 
 ## Definition
+ {#Definition}
+
+The following is not the most general definition that one may consider, instead it is streamlined to certain applications. See Remark \ref{ComparisonToNotationInLiterature} below for comparison of notation used here to notation used elsewhere.
 
 +-- {: .num_defn #ConfigurationSpacesOfnPoints}
 ###### Definition
@@ -40,7 +43,9 @@ The [[stabilization]]/[[suspension spectrum]] $\Sigma^\infty  Maps(X,A)$ of  [[m
 Let $X$ be a [[manifold]], possibly with [[manifold with boundary|boundary]].
 For $n \in \mathbb{N}$, the
  _**configuration space of $n$ points** in $X$ disappearing at the boundary_ is the [[topological space]]
-  $$
+
+  \[
+    \label{ConfigurationSpaceJustForX}
     \mathrm{Conf}_{n}(X)
     \;\coloneqq\;
     \Big(
@@ -51,7 +56,8 @@ For $n \in \mathbb{N}$, the
     \Big)
     /\Sigma(n)
     \,,
-  $$
+  \]
+
   where
   $\mathbf{\Delta}_X^n : = \{(x^i) \in X^n | \underset{i,j}{\exists} (x^i = x^j) \}$  is the [[fat diagonal]] in $X^n$
   and where $\Sigma(n)$ denotes the evident [[action]] of the [[symmetric group]] by [[permutation]] of factors of $X$ inside
@@ -60,7 +66,9 @@ For $n \in \mathbb{N}$, the
   More generally, let $Y$ be another [[manifold]], possibly with [[manifold with boundary|boundary]].
   For $n \in \mathbb{N}$, the
   _**configuration space of $n$ points** in $X \times Y$ vanishing at the boundary and distinct as points in $X$_ is the [[topological space]]
-  $$
+
+  \[
+    \label{ConfigurationSpaceWithXAndY}
     \mathrm{Conf}_{n}(X,Y)
     \;\coloneqq\;
     \Big(
@@ -71,10 +79,11 @@ For $n \in \mathbb{N}$, the
       \times
       Y^n
     \big)
-    /\Sigma(n)
-    \Big)
     / \partial(X^n \times Y^n)
-  $$
+    \Big)
+    /\Sigma(n)
+  \]
+
   where now $\Sigma(n)$ denotes the evident [[action]] of the [[symmetric group]] by [[permutation]] of factors of $X \times Y$ inside
   $X^n \times Y^n \simeq (X \times Y)^n$.
   
@@ -153,7 +162,7 @@ $$
 
 
 
-+-- {: .num_remark}
++-- {: .num_remark #ComparisonToNotationInLiterature}
 ###### Remark
 **(comparison to notation in the literature)**
 
@@ -256,6 +265,7 @@ with the $d$-fold [[loop space]] of the [[n-sphere|(d+k)-sphere]].
 
 ([Segal 73, Theorem 3](#Segal73))
 
+
 ### Stable splittings
 
 +-- {: .num_prop #StableSplittingOfMappingSpacesOutOfEuclideanSpace}
@@ -284,7 +294,8 @@ between
 
 Combined with the [[stabilization]] of the [[scanning map]] [[homotopy equivalence]] from Prop. \ref{ScanningMapEquivalenceOverCartesianSpace} this yields a [[stable weak homotopy equivalence]]
 
-$$
+\[
+  \label{StableSplittingOfMappingSpacesOutOfSphere}
   Maps_{cp}(\mathbb{R}^d, \Sigma^d (Y / \partial Y))
   =
   Maps^{\ast/}( S^d, \Sigma^d (Y / \partial Y))
@@ -294,7 +305,7 @@ $$
   \Sigma^\infty Conf(\mathbb{R}^d, Y)
   \overset{\simeq}{\longrightarrow}
   \underset{n \in \mathbb{N}}{\oplus} \Sigma^\infty Conf_n(\mathbb{R}^d, Y)
-$$
+\]
 
 between the latter direct sum and the [[suspension spectrum]] of the [[mapping space]] of pointed [[continuous functions]] from the [[n-sphere|d-sphere]] to the $d$-fold [[reduced suspension]] of $Y / \partial Y$.
 
@@ -312,6 +323,112 @@ $$
   \overset{\simeq}{\longrightarrow}
   \underset{n \in \mathbb{N}}{\oplus} \Sigma^\infty Conf_n(\mathbb{R}^d \times Y)
 $$
+
+### In terms of Goodwillie-Taylor towers
+ {#InTermsOfGoodwillieTowers}
+
+We discuss the interpretation of the above stable splitting of mapping spaces from the point of view of [[Goodwillie calculus]], following [Arone 99, p. 1-2](#Arone99), [Goodwillie 03, p. 6](#Goodwillie03).
+
+Observe that the [[configuration space of points]] $Conf_n(X,Y)$ from Def. \ref{ConfigurationSpacesOfnPoints}, given by the formula (eq:ConfigurationSpaceWithXAndY)
+
+$$
+  Conf_n(X,Y)
+  \;\coloneqq\;
+  \Big(
+    \big(
+      (
+        X^n \setminus \mathbf{\Delta}_X^n
+      )
+      \times
+      Y^n
+    \big)
+    / \partial(X^n \times Y^n)
+  \Big)
+  /\Sigma(n)
+$$
+
+is the [[quotient]] by the [[symmetric group]]-[[action]] of the _[[smash product]]_ $Conf_n(X) \wedge (Y/\partial Y)^n$ of the plain Configuration space $Conf_n(X)$  (eq:ConfigurationSpaceJustForX) (regarded as a [[pointed topological space]] with basepoint the class of the [[boundary]] $\left[\partial\left(X^n\right)\right]$) with the analogous [[pointed topological space]] given by $Y$, the latter in fact being (since here we do not form the [[complement]] by the [[fat diagonal]]) an $n$-fold [[smash product]] itself:
+
+$$
+  Y^{\times_n}/\partial (Y^{\times_n}) 
+  \;\simeq\;
+  ( Y/\partial Y )^{\wedge^n}
+  \,.
+$$
+
+Hence in summary:
+
+$$
+  Conf_n(X, Y)
+  \;\simeq\;
+  Conf_n(X) \wedge_{\Sigma(n)} \left( Y/\partial Y \right)^{\wedge_n}
+  \,.
+$$
+
+This construction, regarded as a [[functor]] from [[pointed topological spaces]] to [[spectra]]
+
+$$
+  \array{
+    Top^{\ast/} 
+    &\longrightarrow&
+    Spectra
+    \\
+    Z 
+      &\mapsto&
+    \Sigma^\infty Conf_n(X) \wedge_{\Sigma(n)} Z^{\wedge_n}
+  }
+$$
+
+is an [[n-homogeneous (∞,1)-functor]] in the sense of [[Goodwillie calculus]], and hence the partial [[wedge sums]] as $n$ ranges
+
+\[
+  \label{IdentifyingTheGoodwillieTaylorStage}
+  Z 
+    \;\mapsto\;
+  \underset{k \in \{1, \cdot, n\}}{\bigoplus}
+  \Sigma^\infty Conf_n(X) \wedge_{\Sigma(n)} Z^{\wedge_n}
+\]
+
+are [[n-excisive (∞,1)-functors]]. Moreover, by the stable splitting of mapping spaces (eq:StableSplittingOfMappingSpacesOutOfSphere) of Prop. \ref{StableSplittingOfMappingSpacesOutOfEuclideanSpace}, the canonical morphism
+
+$$
+  Maps_{cp}(\mathbb{R}^d, \Sigma^d Z)
+  =
+  Maps^{\ast/}( S^d, \Sigma^d Z)
+  \longrightarrow
+  \underset{k \in \{1, \cdot, n\}}{\bigoplus}
+  \Sigma^\infty Conf_n(X) \wedge_{\Sigma(n)} Z^{\wedge_n}
+$$
+
+is [[n-connected morphism|(n+1)k-connected]] of $Z$ is [[n-connected object|k-connected]]. 
+
+By [[Goodwillie calculus]] this means that (eq:IdentifyingTheGoodwillieTaylorStage) are, up to [[equivalence in an (infinity,1)-category|equivalence]], the stages 
+
+\[
+  \label{TheGoodwillieStagesOfTheMappingSpaceFunctor}
+  P_n Maps^{\ast/}( S^d, \Sigma^d (-))
+  \;\colon\;
+  Z \mapsto
+  \underset{k \in \{1, \cdot, n\}}{\bigoplus}
+  \Sigma^\infty Conf_n(X,Y) 
+\]
+
+at $Z \in Top^{\ast/}$ of the [[Goodwillie-Taylor tower]] of the [[mapping space]]-functor 
+
+$$
+  Maps_{cp}(\mathbb{R}^d, \Sigma^d (-))
+  =
+  Maps^{\ast/}( S^d, \Sigma^d (-))
+  \;\colon\;
+  Top^{\ast/} \longrightarrow Top^{\ast/}
+  \,.
+$$
+
+The stable splitting theorem \ref{StableSplittingOfMappingSpacesOutOfEuclideanSpace} hence may equivalently be read as expressing the mapping space functor equivalently as the [[limit]] over its [[Goodwillie-Taylor tower]].
+
+([Arone 99, p. 1-2](#Arone99), [Goodwillie 03, p. 6](#Goodwillie03))
+
+
 
 
 ## Related concepts
@@ -336,11 +453,13 @@ Review and generalization is due to
 
 * {#Boedigheimer87} [[Carl-Friedrich Bödigheimer]], _Stable splittings of mapping spaces_, Algebraic topology. Springer 1987. 174-187 ([pdf](http://www.math.uni-bonn.de/~cfb/PUBLICATIONS/stable-splittings-of-mapping-spaces.pdf))
 
-Further generalization and interpretation in terms of the [[Goodwillie-Taylor tower]] of mapping spaces is due to
+Interpretation in terms of the [[Goodwillie-Taylor tower]] of mapping spaces is due to
 
 * {#Arone99} [[Greg Arone]], _A generalization of Snaith-type filtration_, Transactions of the American Mathematical Society 351.3 (1999): 1123-1150. ([pdf](https://www.ams.org/journals/tran/1999-351-03/S0002-9947-99-02405-8/S0002-9947-99-02405-8.pdf))
 
 * {#Ching05} [[Michael Ching]], _Calculus of Functors and Configuration Spaces_, Conference on Pure and Applied Topology Isle of Skye, Scotland, 21-25 June, 2005 ([pdf](https://www3.amherst.edu/~mching/Work/skye.pdf))
+
+* {#Goodwillie03} [[Thomas Goodwillie]], p. 6 of _Calculus. III. Taylor series_, Geom. Topol. 7 (2003), 645--711 ([journal](http://www.msp.warwick.ac.uk/gt/2003/07/p019.xhtml), [arXiv:math/0310481](http://arxiv.org/abs/math/0310481)))
 
 
 [[!redirects stable splittings of mapping spaces]]
