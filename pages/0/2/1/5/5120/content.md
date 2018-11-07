@@ -53,4 +53,7 @@ Grothendieck has defined a prime spectrum of commutative unital ring having in m
 * [[A. L. Rosenberg]], _Spectra of noncommutative spaces_, MPIM2003-110 [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=1946) [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=1945) (2003);
 _Underlying spaces of noncommutative schemes_, MPIM2003-111, [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=1947), [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=1948)
 
+* [[Valter Moretti]], _Spectral Theory and Quantum Mechanics: Mathematical Structure of Quantum Theories, Symmetries and introduction to the Algebraic Formulation_ 2nd Edition, Springer 2018 ISBN 978-3-319-70705-1
+
+
 category: analysis, geometry, noncommutative geometry
