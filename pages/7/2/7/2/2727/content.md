@@ -113,7 +113,7 @@ on pages 53, 54, 100, and 430.) ([pdf](http://www.cs.cmu.edu/~crary/819-f09/Howa
 
 The origins of this manuscript and its publication are recounted in a 2014 email from Howard to Philip Wadler:
 
-* &lt;http://wadler.blogspot.fr/2014/08/howard-on-curry-howard.html>
+* [[William Howard]], [email](http://wadler.blogspot.fr/2014/08/howard-on-curry-howard.html).
 
 This influential note brought [[Dana Scott]] to write "Constructive Validity" (a precursor of type theory) and also strongly influenced [[Per Martin-Löf]]. Independently and at about the same time, the idea was also found by [[N.G. de Bruijn]] for the [[Automath]] system.
 
