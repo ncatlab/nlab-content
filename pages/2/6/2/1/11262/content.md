@@ -23,6 +23,8 @@ Kurt G&#246;del is one of the major figures of [[logic]] and [[foundations]] fro
 
 * [[NBG]] set theory
 
+* [[Dialectica interpretation]]
+
 
 category: people
 
