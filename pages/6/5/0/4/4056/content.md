@@ -27,6 +27,8 @@ In other words: every [[quasi-state]] is already a state if  $dim(H) \gt 2$.
 
 It is possible to extend the theorem to certain types of [[von Neumann algebras]] (e.g. obviously [[von Neumann algebra factor|factors]] of type $I_2$ have to be excluded).
 
+Gleason's theorem is also valid for real and quaternionic Hilbert spaces as proved by Varadarajan in 1968. A gap of that proof has been fixed in 2018 by V.Moretti and M.Oppio. 
+
 
 ### Implications for Quantum Logic
 
@@ -158,6 +160,13 @@ Gleason\'s Theorem for POVMs is proved here:
 The failure of Gleason's theorem for _classical_ states (on [[Poisson algebra]]s) is discussed in
 
 * Michael Entov, Leonid Polterovich, _Symplectic quasi-states and semi-simplicity of quantum homology_ ([arXiv](http://arxiv.org/abs/0705.3735)).
+
+Gleason\'s Theorem proved for real, complex and quaternionic Hilbert spaces using the notion of real trace. 
+
+* [[Valter Moretti]], Marco Oppio, _The correct formulation of Gleason's theorem in quaternionic  Hilbert spaces_
+Ann. Henri Poincaré 19 (2018), 3321-3355 
+([arXiv](http://arxiv.org/abs/1803.06882))
+
 
 See also
 
