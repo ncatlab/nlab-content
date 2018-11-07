@@ -115,7 +115,7 @@ This means that next we have $f_1(0) = 0$, $f_1(1) = \omega$, $f_1(2) = 2 \omega
 
 Next, we have $f_2(0) = 0$, $f_2(1) = \omega^\omega$, $f_2(2) = \omega^{2\omega}$, ..., $f_2(\omega) = \omega^{\omega^2}$, and so on. The first fixed point past $0$ is the same as the first fixed point of $x \mapsto \omega^x$ (a countably iterated exponential stack), typically denoted as $\epsilon_0$. 
 
-We pause to note that $\epsilon_0$ is sometimes considered the first reasonable thing to call a "large countable ordinal". An [[ordinal analysis]] first carried by by Gerhard Gentzen asserts, roughly speaking, that the consistency of [[Peano arithmetic]] is provable from primitive recursive arithmetic (which is weaker than PA) augmented by the principle of induction up to $\epsilon_0$. 
+We pause to note that $\epsilon_0$ is sometimes considered the first reasonable thing to call a "large countable ordinal". An [[ordinal analysis]] first carried by by Gerhard Gentzen asserts, roughly speaking, that the consistency of [[Peano arithmetic]] is provable from [[primitive recursive arithmetic]] (which is weaker than PA) augmented by the principle of induction up to $\epsilon_0$. 
 
 Pressing on, we have $f_3(0)= 0$, $f_3(1) = \epsilon_0$, $f_3(2) = \epsilon_1$ (the first fixed point of $x \mapsto \omega^x$ past $\epsilon_0$), and so on. The first fixed point past $0$ of $f_3$ is the limit of $\epsilon_0, \epsilon_{\epsilon_0}, \epsilon_{\epsilon_{\epsilon_0}}, \ldots$, sometimes indicated by an infinite descending stack of subscripts $\epsilon$. This ordinal is of size that far, far surpasses any human powers of visualization. 
 
