@@ -611,6 +611,14 @@ That this should exhibit a graph complex model for the cohomology of compactifie
 
 * {#Kontsevich94} [[Maxim Kontsevich]], pages 11-12 of _Feynman diagrams and low-dimensional topology_, First European Congress of Mathematics, 1992, Paris, vol. II, Progress in Mathematics __120__, Birkh&#228;user (1994), 97&#8211;121 ([pdf](http://www.ihes.fr/~maxim/TEXTS/Feynman%20%20diagrams%20and%20low-dimensional%20topology.pdf))
 
+and spelled out in more detail in 
+
+* [Kontsevich 99, section 3](#Kontsevich99)
+
+with a careful proof being layed out in 
+
+* [Lambrechts-Volic 14](#LambrechtsVolic14)
+
 
 [[!redirects Fulton-MacPherson operads]]
 
