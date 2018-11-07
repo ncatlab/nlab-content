@@ -256,5 +256,7 @@ Hence 1-dimensional formal group laws over $R$ are equivalently [[monoids]] in $
 
 =--
 
-
+$$\begin{svg}
+[[!include oriental > Delta2]]
+\end{svg}$$
 
