@@ -51,7 +51,7 @@ $$
 $$
 
 
-This perspective is known as _[[thermal quantum field theory]]_ or similar, the use of a "periodic Euclidean time coordinate" is also known as _[[Matsubara formalism]]_ and specifically the condition that the periodicity has to be $\beta \coloneqq 1/T$ is known as the _[[KMS conditions]]_.
+This perspective is known as _[[thermal quantum field theory]]_ or similar, the use of a "periodic Euclidean time coordinate" is also known as _[[Matsubara formalism]]_ (e.g. [Landsman-vanWert 87, section 2.3.1](#LandsmanVanWert87)) and specifically the condition that the periodicity has to be $\beta \coloneqq 1/T$ is known as the _[[KMS conditions]]_ (For _Kubo-Martin-Schwinger_, due to [Kubo 57](#Kubo57), [Martin-Schwinger 59](#MartinSchwinger59) with its final form due to[Haag-Hugenholtz-Winnink 67](#HaagHugenholtzWinnink67)).
 
 (e.g. [Thoma 00, section 2.2](#Thoma00), [Peeters-Zamaklar 09, section 1.3](#PeetersZamaklar09))
 
@@ -86,7 +86,17 @@ The idea goes back to
 
 * {#Bloch58} Claude Bloch, _Sur la détermination de l'état fondamental d'un système de particules_,  Nucl. Phys. 7 (1958) 451
 
+The KMS condition is due to
+
+* {#Kubo57} R. Kubo _Statistical-Mechanical Theory of Irreversible Processes  I. General Theory and Simple Applications to Magnetic and Conduction Problems_, Journal of the Physical Society of Japan 12, 570-586 1957
+
+* {#MartinSchwinger59} Paul C. Martin, [[Julian Schwinger]], _Theory of Many-Particle Systems.  I_, Physical Review 115, 1342-1373 (1959)
+
+* {#HaagHugenholtzWinnink67} [[Rudolf Haag]], N. M. Hugenholtz, M. Winnink, _On the equilibrium states in quantum statistical mechanics_, Comm. Math. Phys. Volume 5, Number 3 (1967), 215-236 ([euclid:1103840050](https://projecteuclid.org/euclid.cmp/1103840050))
+
 Review includes
+
+* {#LandsmanVanWert87} [[Klaas Landsman]], Ch.G.van Weert, _Real- and imaginary-time field theory at finite temperature and density_, Physics Reports Volume 145, Issues 3–4, January 1987, Pages 141-249 (<a href="https://doi.org/10.1016/0370-1573(87)90121-9">doi:10.1016/0370-1573(87)90121-9</a>)
 
 * [[Jean Zinn-Justin]], _Quantum Field Theory at Finite Temperature: An Introduction_ ([arXiv:hep-ph/0005272](https://arxiv.org/abs/hep-ph/0005272))
 
@@ -95,6 +105,8 @@ Review includes
 * Yuhao Yang, _An Introduction to Thermal Field Theory_, 2011 ([pdf](https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/theoretical-physics/msc/dissertations/2011/Yuhao-Yang-Dissertation.pdf))
 
 * Yi-Cheng Huang, _Field Theory in the Imaginary-time Formulation_ ([arXiv:1311.1990v4](https://arxiv.org/abs/1311.1990v4))
+
+* [[Roberto Longo]], _Kubo-Martin-Schwinger, Non-Equilibrium Thermal states, and Conformal Field Theory_, 2016 ([pdf](https://www.mat.uniroma2.it/~longo/Slides_files/Harvard16.pdf))
 
 Further discussion:
 
@@ -109,6 +121,8 @@ With an eye towards [[lattice gauge theory]]:
 * {#Moore03} Guy Moore, _Informal lectures on lattice gauge theory_, 2003 ([pdf](https://theorie.ikp.physik.tu-darmstadt.de/qcd/moore/latt_lectures.pdf))
 
 With an eye towards [[black hole thermodynamics]]:
+
+* {#FullingRuijsenaars87} S.A. Fulling, S.N.M. Ruijsenaars, _Temperature, periodicity and horizons_, Physics Reports Volume 152, Issue 3, August 1987, Pages 135-176 ([pdf](https://www1.maths.leeds.ac.uk/~siru/papers/p26.pdf), <a href="https://doi.org/10.1016/0370-1573(87)90136-0">doi:10.1016/0370-1573(87)90136-0</a>)
 
 * {#FrolovZelnikov11} [[Valeri Frolov]], Andrei Zelnikov, section F4.4 of _Introduction to black hole physics_, Oxford 2011
 
