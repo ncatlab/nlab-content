@@ -57,3 +57,9 @@ See also at _[[Osterwalder-Schrader theorem]]_.
 * [[Graeme Segal]], _Wick rotation and the positivity of energy in quantum field theory_ ([video](https://www.youtube.com/watch?feature=player_embedded&v=vTvXHL6ZJik))
 
 * {#Witten13} [[Edward Witten]], _The Feynman $i \epsilon$ in String Theory_ ([arXiv:1307.5124](http://arxiv.org/abs/1307.5124))
+
+For relation to [[thermal quantum field theory]] see
+
+* {#FullingRuijsenaars87} S.A. Fulling, S.N.M. Ruijsenaars, _Temperature, periodicity and horizons_, Physics Reports Volume 152, Issue 3, August 1987, Pages 135-176 ([pdf](https://www1.maths.leeds.ac.uk/~siru/papers/p26.pdf), <a href="https://doi.org/10.1016/0370-1573(87)90136-0">doi:10.1016/0370-1573(87)90136-0</a>)
+
+
