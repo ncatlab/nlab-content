@@ -143,7 +143,7 @@ And please correct me if I'm wrong, but I believe the interval as final coalgebr
 
    for instance the geometric realization of the cubical set $I \times I$ has non-trivial [[homotopy group]]s and hence does not model the [[topological space]] given by the standard square, which is [[contractible]].
 
-It was then realized that none of these problems is shared by [[simplicial set]]:
+It was then realized that none of these problems is shared by [[simplicial sets]]:
 
 1. Eilenberg and Mac Lane proved a normalisation theorem which may be found in Mac Lane's book 'Homology'. 
 
@@ -189,9 +189,8 @@ which takes a space $S$ to the functor $\hom_{Top}(I^{\bullet}-, S)$.
 
 ### Subdivision and fibrant replacement 
 
-[[Rick Jardine]] constructed a cubical subdivision functor $sd$. It is an obvious subdivision of an $n$-cube, which is just a product of barycentric subdivisions of intervals. The (functorial) subdivision $sd X$ of a cubical
-set $X$ is constructed from this naive subdivision of the $n$-cube in the end.
-See [Jardine's lecture notes](#JardineLecture). for details. There is a natural sequence of maps of cubical sets
+[[Rick Jardine]] constructed a cubical subdivision functor $sd$. It is an obvious subdivision of an $n$-cube, which is just a product of barycentric subdivisions of intervals. The (functorial) subdivision $sd X$ of a cubical set $X$ is constructed from this naive subdivision of the $n$-cube in the end.
+See [Jardine's lecture notes](#JardineLecture) for details. There is a natural sequence of maps of cubical sets
 
 
 $$
@@ -200,7 +199,7 @@ $$
 
 defined similar to its [[Kan fibrant replacement|simplicial counterparts]]. Let its [[right adjoint]] be
 denoted as usual by $Ex X$. So $n$-cubes of $Ex X$ are cubical maps from subdivision of the $n$-cube to $X$ (similar to the definition of [[Kan fibrant replacement|simplicial
-Ex-functor]]). We get therefore maps
+Ex-functor]]). We therefore get maps
 
 $$
  X  \to Ex X \to Ex^2 X  \to \cdots
