@@ -43,7 +43,7 @@ That is, there is a node label called $variable$, and every node labeled $variab
 
 Note that there are no "type variables"; later on we may introduce universes.  Similarly, the arguments of a constant are always terms, not types.
 
-The above clauses also introduce notation for these trees: we will write simply "$x$" for the tree consisting of a single $variable$ node with associated variable $x$, and $\mathtt{C}(M_1,\dots, M_n)$ for the tree whose root is a constant node with associated constant $\mathtt{C}$ and subtrees $M_1,\dots,M_n$.  (These are the "linear" syntaxes that have to be "parsed" into an abstract syntax tree if implementing type theory on a computer.)  Thus, for instance, $\mathtt{C}(\mathtt{D}(x),y)$ represents a tree with four nodes: a root with two children, one of which itself has two children.
+The above clauses also introduce notation for these trees: we will write simply "$x$" for the tree consisting of a single $variable$ node with associated variable $x$, and $\mathtt{C}(M_1,\dots, M_n)$ for the tree whose root is a constant node with associated constant $\mathtt{C}$ and subtrees $M_1,\dots,M_n$.  (These are the "linear" syntaxes that have to be "parsed" into an abstract syntax tree if implementing type theory on a computer.)  Thus, for instance, $\mathtt{C}(\mathtt{D}(x),y)$ represents a tree with four nodes: a root with two children, one of which itself has one child.
 
 ### $\Pi$-types
 
