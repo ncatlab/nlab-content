@@ -193,6 +193,10 @@ and an exposition of [[category theory]] and monads in terms of Haskell is in
 
 * WikiBooks, _[Haskell/Category](http://en.wikibooks.org/wiki/Haskell/Category_theory)_
 
+A comparison of monads with [[applicative functors]] (also known as idioms)
+and with [[arrows (in computer science)]] is in 
+
+* [[Exequiel Rivas]], _Relating Idioms, Arrows and Monads from Monoidal Adjunctions_, ([arXiv:1807.04084](https://arxiv.org/abs/1807.04084))
 
 Generalization from [[monads]] to [[relative monads]] is discussed in
 
