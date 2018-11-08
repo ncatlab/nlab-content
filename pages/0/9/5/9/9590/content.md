@@ -5,7 +5,7 @@
 
 ## Idea
 
-A [[map]] $f$ between [[spaces]] (say, a [[continuous map]] between [[topological spaces]]) _vanishes at infinity_ if $f(x)$ gets arbitrarily close to $0$ as $x$ gets sufficiently close to infinity.
+A [[map]] $f$ between [[spaces]] (say, a [[continuous map]] between [[topological spaces]]) _vanishes at infinity_ if $f(x)$ gets arbitrarily close to [[zero]] as $x$ gets sufficiently close to infinity.
 
 For a map $f\colon X \to Y$, we need a notion of being close to $0$ in $Y$, so take $Y$ to be a [[pointed space]]; then getting arbitrarily close to $0$ means entering any [[neighbourhood]] of the basepoint.  We also need a notion of being close to infinity in $X$, so take $X$ to be a [[locally compact Hausdorff space]]; then getting sufficiently close to infinity means entering the [[exterior]] of some [[compact subspace]].  (To interpret 'getting', of course, we may use [[nets]].)  It is likely, however, that further generalisations are possible.
 
