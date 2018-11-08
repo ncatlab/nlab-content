@@ -39,6 +39,8 @@ Despite the word "theory", lattice gauge theory is more like "computer-simpulate
 
 * Discussion of [[QCD instantons]] in LGT includes ([Moore 03, section 7](#Moore03), [Gruber 13](#Gruber13))
 
+* [[Euclidean field theory]]
+
 * [[string bit model]]
 
 ## References
@@ -52,6 +54,9 @@ Despite the word "theory", lattice gauge theory is more like "computer-simpulate
 * [[Kenneth Wilson]], _The Origins of Lattice Gauge Theory_, ([arXiv:hep-lat/0412043](http://arxiv.org/abs/hep-lat/0412043))
 
 * {#Moore03} Guy Moore, _Informal lectures on lattice gauge theory_, 2003 ([pdf](https://theorie.ikp.physik.tu-darmstadt.de/qcd/moore/latt_lectures.pdf))
+
+* {#PeetersZamaklar09} [[Kasper Peeters]], [[Marija Zamaklar]], section 5 of _Euclidean Field Theory_, Lecture notes 2009-2011 ([web](http://maths.dur.ac.uk/users/kasper.peeters/eft.html), [pdf](http://maths.dur.ac.uk/users/kasper.peeters/pdf/eft.pdf))
+
 
 See also 
 
