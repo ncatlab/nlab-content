@@ -32,6 +32,7 @@ One of the basic characteristics of a thermodynamical system is its [[temperatur
 
 * [[intensive and extensive]]
 
+* [[thermal quantum field theory]]
 
 ## References
 
