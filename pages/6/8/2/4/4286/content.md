@@ -85,6 +85,10 @@ Some candidate [[astrophysics|astrophysical]] objects which seem to point to bla
 
 ### General
 
+
+* {#FrolovZelnikov11} [[Valeri Frolov]], Andrei Zelnikov, _Introduction to black hole physics_, Oxford 2011
+
+
 * wikipedia: [black hole](http://en.wikipedia.org/wiki/Black_hole)
 
 * [[Croatian black hole school]], 2010
