@@ -65,6 +65,11 @@ A textbook account is
 
 * {#FrolovZelnikov11} [[Valeri Frolov]], Andrei Zelnikov, _Introduction to black hole physics_, Oxford 2011
 
+Review form the point of view of [[thermal field theory]]:
+
+* {#FullingRuijsenaars87} S.A. Fulling, S.N.M. Ruijsenaars, _Temperature, periodicity and horizons_, Physics Reports Volume 152, Issue 3, August 1987, Pages 135-176 ([pdf](https://www1.maths.leeds.ac.uk/~siru/papers/p26.pdf), <a href="https://doi.org/10.1016/0370-1573(87)90136-0">doi:10.1016/0370-1573(87)90136-0</a>)
+
+
 Basic introductory accounts include
 
 * [[Robert Wald]], _The Thermodynamics of Black Holes_ ([arXiv:gr-qc/9912119](http://arxiv.org/abs/gr-qc/9912119))
