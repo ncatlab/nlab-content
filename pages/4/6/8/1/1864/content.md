@@ -50,7 +50,34 @@ $$
 
 ## Examples 
 
-* concordance of topological [[vector bundles]] is discussed [there](vector+bundle#ConcordanceOfTopolgicslVectorBundles)
+### For topological vector bundles
+ {#ForTopologicalVectorBundles}
+
+For [[topological vector bundles]] over [[paracompact Hausdorff spaces]], concordance classes coincide with plain [[isomorphism classes]]:
+
++-- {: .num_prop #ConcondanceOfTopologicalVectorBundles}
+###### Proposition
+**([[concordance]] of [[topological vector bundles]])**
+
+Let $X$ be a [[paracompact Hausdorff space]]. If $E \to X \times [0,1]$ is a [[topological vector bundle]] over the [[product space]] of $X$ with the [[closed interval]] (hence a _[[concordance]]_ of topological vector bundles on $X$), then the two endpoint-restrictions
+
+$$
+  E|_{X \times \{0\}}
+  \phantom{AA}
+  \text{and}
+  \phantom{AA}
+  E|_{X \times \{1\}}
+$$
+
+are [[isomorphism|isomorphic]] [[topological vector bundles]] over $X$.
+
+=--
+
+For **proof** see at _[[topological vector bundle]]_ [this Prop.](topological+vector+bundle#ConcondanceOfTopologicalVectorBundles).
+
+
+
+### More examples
 
 * For $A = VectrBund(-)$ the difference between concordance of [[vectorial bundles]] and isomorphism of vectorial bundles plays a crucial rule in the construction of [[K-theory]] from this model.
 
