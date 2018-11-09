@@ -32,7 +32,7 @@ $$
 This is in contrast to the analogous condition in [[relativistic field theory]] whose _[[causal locality]]_ requires this implication only if the two [[supports]] are in addition [[spacelike]]-separated.
 
 This Euclidean locality property applies in particular in [[statistical mechanics]], where the "[[field (physics)|fields]]" of the field theory are not thought of as encoding the [[spacetime]]-behaviour of [[fundamental particles]] as governed by [[quantum physics]], but instead the spatial [[expectation values]] (at any given time) of [[equilibrium]] [[thermodynamics|thermodynamic]]-processes governed by [[classical physics]].
-An archetypical example of a Euclidea field theory in this thermodynamic sense is the [[Ising model]]. 
+An archetypical example of a Euclidean field theory in this thermodynamic sense is the [[Ising model]]. 
 
 ### Wick rotation to Relativistic Field theory
 
@@ -96,7 +96,7 @@ $$
   \underset{
     \text{correlator of Euclidean fields}
     \atop
-    \text{ for "Eculidean time" of periodicity}\; \beta = 1/T
+    \text{ for "Euclidean time" of periodicity}\; \beta = 1/T
   }{
   \underbrace{
   \left\langle 0 \vert \mathbf{\Phi}(x_1) \mathbf{\Phi}(x_2) \cdots \mathbf{\Phi}(x_n)  \vert 0 \right\rangle_{\mathbb{R}^{d} \times S^1_{\beta}}
@@ -104,7 +104,7 @@ $$
   }
 $$
 
-Notice that the evident [[symmetry breaking|breaking]] of [[Lorentz group|Lorentz symmetry]] on the right side of this correspondence is perfectly consistent with what happens on the left hand: A thermal vaccum state in Minkowski spacetime also singles out a preferred Lorentz frame.
+Notice that the evident [[symmetry breaking|breaking]] of [[Lorentz group|Lorentz symmetry]] on the right side of this correspondence is perfectly consistent with what happens on the left hand: A thermal vacuum state in Minkowski spacetime also singles out a preferred Lorentz frame.
 
 <center>
 <img src="https://ncatlab.org/nlab/files/EuclideanTime.jpg" width="580">
