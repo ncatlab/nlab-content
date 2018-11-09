@@ -360,6 +360,22 @@ The [[James construction]] of $X$ is [[homotopy equivalence|homotopy equivalent]
 
 (e.g. [Bödigheimer 87, Example 9](#Boedigheimer87))
 
+## Occurrences and Applications 
+  {#OccurrencesAndApplications}
+
+### Compactification
+
+The [[Fulton-MacPherson compactification]] of configuration spaces of points in $\mathbb{R}^d$ serves to exhibit them as models for the [[little n-disk operad]]. 
+
+### Stable splitting of mapping spaces
+
+The [[stable splitting of mapping spaces]] says that [[suspension spectra]] of suitable [[mapping spaces]] are equivalently [[wedge sums]] of [[suspension spectra]] of configuration spaces of points.
+
+### Correlators as differential forms on configiration spaces
+
+In [[Euclidean field theory]] the [[correlators]] are often regarded as [[distributions of several variables]] with [[singularities]] on the [[fat diagonal]]. Hence they become [[non-singular distributions]] after [[restriction of distributions]] to the corresponding configuration space of points. 
+
+For more on this see at _[[correlators as differential forms on configuration spaces of points]]_.
 
 ## References
 
