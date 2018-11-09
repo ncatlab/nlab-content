@@ -161,7 +161,7 @@ If this is to be averaged over spacetime it needs to be the coefficient of a hor
 
 In mathematical terminology these desiderata say that the [[local observables]] in a local field theory should be precisely the
 "[[transgression of variational differential forms|transgressions]]" (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces} below) of horizontal variational $p+1$-forms
-(with compact spacetime support, def. \ref{SpacetimeSupport} below) to the [[space of field histories]] (example \ref{DiffeologicalSpaceOfFieldHistories}). This is
+(with [[compact topological space|compact]] [[spacetime support]], def. \ref{SpacetimeSupport} below) to the [[space of field histories]] (example \ref{DiffeologicalSpaceOfFieldHistories}). This is
 def. \ref{LocalObservables} below.
 
 A key example of a [[local observable]] in [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) is the _[[action functional]]_ (example \ref{ActionFunctional} below). This is the [[transgression of variational differential forms|transgression]]
@@ -2027,7 +2027,7 @@ We now discuss the sub-class of those [[observables]] which are "[[local field t
 
 +-- {: .num_defn #SpacetimeSupport}
 ###### Definition
-**(spacetime support)**
+**([[spacetime support]])**
 
 Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] over a [[spacetime]] $\Sigma$ (def. \ref{FieldsAndFieldBundles}),
 with induced [[jet bundle]] $J^\infty_\Sigma(E)$
