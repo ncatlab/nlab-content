@@ -245,6 +245,8 @@ The following table displays parts of this cascade of field theories which are i
 
 * [[Randall-Sundrum model]]
 
+* KK-compactification of the [[time]]-direction, combined with [[Wick rotation]] (when it applies), yield [[thermal quantum field theory]]
+
 ## References
  {#References}
 
