@@ -535,13 +535,19 @@ Discussion of $G$-structures in [[supergeometry]] includes
 
 * [[Dmitri Alekseevsky]], [[Vicente Cortés]], [[Chandrashekar Devchand]], [[Uwe Semmelmann]], _Killing spinors are Killing vector fields in Riemannian Supergeometry_ ([arXiv:dg-ga/9704002](http://arxiv.org/abs/dg-ga/9704002))
 
+and specifically in [[supergravity]]:
+
+* {#Papadopoulos18} [[George Papadopoulos]], _Geometry and symmetries of null G-structures_ ([arXiv:1811.03500](https://arxiv.org/abs/1811.03500))
+
+See also at _[[torsion constraints in supergravity]]_.
+
 ### In complex geometry
 
 * Sergey Merkulov, _On group theoretic aspects of the non-linear twistor transform_, ([pdf](http://people.maths.ox.ac.uk/lmason/Tn/40/TN40-07.pdf))
 
 and his chapter A in
 
-* Yuri Manin, _Gauge Field Theory and Complex Geometry_, Springer.
+* [[Yuri Manin]], _Gauge Field Theory and Complex Geometry_, Springer.
 
 * Norman Wildberger, _On the complexication of the classical geometries and exceptional numbers_, ([pdf](http://web.maths.unsw.edu.au/~norman/papers/L.pdf))
 
