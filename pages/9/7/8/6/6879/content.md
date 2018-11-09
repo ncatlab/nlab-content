@@ -38,6 +38,8 @@ In the corresponding [[quantum field theory]], however, a state that is initiall
 
   * [[vacuum diagram]]
 
+  * [[thermal vacuum]], [[KMS state]]
+
   * [[vacuum stability]]
 
   * [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
