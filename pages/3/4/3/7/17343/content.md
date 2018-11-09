@@ -987,6 +987,7 @@ $$
 
 of the [[codiagonal]] $\nabla_X$ in def. \ref{TopologicalInterval}, which in general is far from being a [[monomorphism]], may be thought of as factoring it through a monomorphism after replacing $X$, up to weak homotopy equivalence, by $X\times I$.
 
+
 In fact, further below (prop. \ref{StandardContractionOfStandardInterval}) we see that $X \sqcup X \to X \times I$ has better properties than the generic monomorphism has, in particular better homotopy invariant properties:
 it has the [[left lifting property]] against all [[Serre fibrations]] $ E \stackrel{p}{\longrightarrow} B$ that are also [[weak homotopy equivalences]].
 
@@ -3287,7 +3288,7 @@ Let $f,g \colon X \to Y$ be two [[parallel morphisms]] in a [[model category]].
 
 1. Let $X$ be cofibrant. If there is a [[left homotopy]] $f \Rightarrow_L g$ then there is also a [[right homotopy]] $f \Rightarrow_R g$ (def. \ref{LeftAndRightHomotopyInAModelCategory}) with respect to any chosen path space object.
 
-1. Let $X$ be fibrant. If there is a [[right homotopy]] $f \Rightarrow_R g$ then there is also a [[left homotopy]] $f \Rightarrow_L g$ with respect to any chosen cylinder object.
+1. Let $Y$ be fibrant. If there is a [[right homotopy]] $f \Rightarrow_R g$ then there is also a [[left homotopy]] $f \Rightarrow_L g$ with respect to any chosen cylinder object.
 
 In particular if $X$ is cofibrant and $Y$ is fibrant, then by going back and forth it follows that every left homotopy is exhibited by every cylinder object, and every right homotopy is exhibited by every path space object.
 
@@ -3440,7 +3441,7 @@ $$
      &{}^{{f^{-1}}}\nearrow&
    \downarrow^{\mathrlap{f}}_{\mathrlap{\in Fib \cap W}}
     \\
-    X &=& X
+    Y &=& Y
   }
   \,.
 $$
@@ -3571,7 +3572,7 @@ $$
      &&
     \downarrow^{\mathrlap{\in Fib}}
     \\
-    P Q X &\underset{(R (Q f)_1, P (Q f)_2)}{\longrightarrow}&
+    P Q X &\underset{(P (Q f)_1, P (Q f)_2)}{\longrightarrow}&
     P Q Y \times P Q Y
   }
 $$
@@ -3693,7 +3694,7 @@ $$
     X &\underoverset{\simeq}{p_X}{\longleftarrow}& Q X &\underoverset{\simeq}{j_{Q X}}{\longrightarrow}& P Q X
     \\
     {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{Q f}} && \downarrow^{\mathrlap{P Q f}}
-    \\
+    \\(
     Y &\underoverset{p_y}{\simeq}{\longleftarrow}& Q Y &\underoverset{j_{Q Y}}{\simeq}{\longrightarrow}& P Q Y
   }
 $$
@@ -3719,7 +3720,7 @@ $$
   \,,
 $$
 
-(hence in particular $\tilde F(\gamma_{P,Q}(f)) = F(P Q f)$).
+(hence in particular $\tilde F(\gamma_{P,Q}(f)) \simeq F(P Q f)$).
 
 But by def. \ref{HomotopyCategoryOfAModelCategory} that already fixes $\tilde F$ on all of $Ho(\mathcal{C})$, up to unique [[natural isomorphism]]. Hence it only remains to check that with this definition of $\tilde F$ there exists any [[natural isomorphism]] $\rho$ filling the diagram above.
 
@@ -7569,6 +7570,7 @@ $$
 for the analogous construction applied to the pointed generating (acyclic) cofibrations of def. \ref{GeneratingCofibrationsForPointedTopologicalSpaces}.
 
 =--
+
 
 
 
