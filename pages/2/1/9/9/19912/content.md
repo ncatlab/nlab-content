@@ -51,6 +51,9 @@ which was re-amplified  in
 
 * {#CattaneoMnev10} [[Alberto Cattaneo]], [[Pavel Mnev]], Remark 11 in _Remarks on Chern-Simons invariants_, Commun.Math.Phys.293:803-836,2010 ([arXiv:0811.2045](https://arxiv.org/abs/0811.2045))
 
+* [[Alberto Cattaneo]], [[Pavel Mnev]], [[Nicolai Reshetikhin]], appendix B of _Perturbative quantum gauge theories on manifolds with boundary_, Communications in Mathematical Physics, January 2018, Volume 357, Issue 2, pp 631–730  ([arXiv:1507.01221](https://arxiv.org/abs/1507.01221), [doi:10.1007/s00220-017-3031-6](https://doi.org/10.1007/s00220-017-3031-6))
+
+
 and highlighted as a means to obtain [[graph complex]]-models for the [[de Rham cohomology]] of [[configuration spaces of points]] in 
 
 * {#Kontsevich94} [[Maxim Kontsevich]], pages 11-12 of _Feynman diagrams and low-dimensional topology_, First European Congress of Mathematics, 1992, Paris, vol. II, Progress in Mathematics __120__, Birkh&#228;user (1994), 97&#8211;121 ([pdf](http://www.ihes.fr/~maxim/TEXTS/Feynman%20%20diagrams%20and%20low-dimensional%20topology.pdf))
@@ -60,7 +63,9 @@ and highlighted as a means to obtain [[graph complex]]-models for the [[de Rham 
 
 A systematic development of [[Euclidean field theory|Euclidean]] [[perturbative quantum field theory]] with [[n-point functions]] considered as [[smooth functions]] on [[Fulton-MacPherson compactifications]]/[[wonderful compactifications]] of [[configuration spaces of points]] and more generally of subspace arrangements is due to 
 
-* {#BergbauerBrunettiKreimer09} [[Christoph Bergbauer]], [[Romeo Brunetti]], [[Dirk Kreimer]], _Renormalization and resolution of singularities_ ([arXiv:0908.0633](https://arxiv.org/abs/0908.0633))
+* {#BergbauerBrunettiKreimer09} [[Christoph Bergbauer]], [[Romeo Brunetti]], [[Dirk Kreimer]], _Renormalization and resolution of singularities_, ESI preprint 2010 ([arXiv:0908.0633](https://arxiv.org/abs/0908.0633), [ESI:2244](https://mat.univie.ac.at/~esiprpr/esi2244.pdf))
+
+* {#Bergbauer09} [[Christoph Bergbauer]], _Renormalization and resolution of singularities_, talks as IHES and Boston, 2009 ([pdf](http://www.emg.uni-mainz.de/Dateien/bergbauer.pdf))
 
 * {#Berghoff14a} [[Marko Berghoff]], _Wonderful renormalization_, 2014 ([pdf](http://www2.mathematik.hu-berlin.de/%7Ekreimer/wp-content/uploads/Berghoff-Marko.pdf), [doi:10.18452/17160](https://doi.org/10.18452/17160))
 
