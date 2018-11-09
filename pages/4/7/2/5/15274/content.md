@@ -31,7 +31,11 @@ In particular it often refers to the extension of an analytic function on the [[
 
 * [[zeta function regularization]]
 
+* [[Wick rotation]], [[thermal quantum field theory]]
+
 ## References
+
+See also
 
 * Wikipedia, _[Analytic continuation](http://en.wikipedia.org/wiki/Analytic_continuation)_
 
