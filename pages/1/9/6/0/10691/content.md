@@ -128,6 +128,8 @@ where on the left the composition symbol means composition of [[relations]] of [
 
 * [[polynomial observable]], [[microcausal observable]]
 
+* [[correlators as differential forms on configuration spaces of points]]
+
 ## References
 
 * {#Hoermander90} [[Lars Hörmander]], section 5.2 of _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990 ([pdf](http://www.ctr.maths.lu.se/media/MATP11/2014vt2014/distho.pdf))
