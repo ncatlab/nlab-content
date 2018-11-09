@@ -125,7 +125,7 @@ The basic idea of this relation seems to go back to [Bloch 58](#Bloch58). The ph
 
 The first precise formulation seems to be due to [Høegh-Krohn 74](#HoeghKrohn74) (in 1+1 dimensions) and a more comprehensive discussion in view of the [[Osterwalder-Schrader theorem]] for compact Euclidean time is due to [Klein-Landau 81](#KleinLandau81).
 
-The use of a "periodic Euclidean time coordinate" is also known as _[[Matsubara formalism]]_ (e.g. [Landsman-vanWert 87, section 2.3.1](#LandsmanVanWert87)) and specifically the condition that the periodicity has to be $\beta \coloneqq 1/T$ is known as the _[[KMS conditions]]_ (For _Kubo-Martin-Schwinger_, due to [Kubo 57](#Kubo57), [Martin-Schwinger 59](#MartinSchwinger59) with its final form due to [Haag-Hugenholtz-Winnink 67](#HaagHugenholtzWinnink67), see [Fulling-Ruijsenaars 87, section 3.1](#FullingRuijsenaars87)).
+The use of a "periodic Euclidean time coordinate" is also known as _[[Matsubara formalism]]_ (e.g. [Landsman-vanWert 87, section 2.3.1](#LandsmanVanWert87)) and specifically the condition that the periodicity has to be $\beta \coloneqq 1/T$ is known as the _[[KMS conditions]]_ for a _[[KMS state]]_ (For _Kubo-Martin-Schwinger_, due to [Kubo 57](#Kubo57), [Martin-Schwinger 59](#MartinSchwinger59) with its final form due to [Haag-Hugenholtz-Winnink 67](#HaagHugenholtzWinnink67), see [Fulling-Ruijsenaars 87, section 3.1](#FullingRuijsenaars87)).
 
 Beware that literature discussing the KMS-condition often does not make the periodicity of Euclidean time explicit, and vice versa. This is clarified in [Fulling-Ruijsenaars 87, sections 2 and 3](#FullingRuijsenaars87).
 
@@ -157,6 +157,9 @@ General introduction to Euclidean field theory includes
 A systematic development of Euclidean [[renormalization|renormalized]] [[perturbative quantum field theory]] with [[correlators as differential forms on configuration spaces of points]] is described in
 
 * {#BergbauerBrunettiKreimer09} [[Christoph Bergbauer]], [[Romeo Brunetti]], [[Dirk Kreimer]], _Renormalization and resolution of singularities_ ([arXiv:0908.0633](https://arxiv.org/abs/0908.0633))
+
+* {#Bergbauer09} [[Christoph Bergbauer]], _Renormalization and resolution of singularities_, talks as IHES and Boston, 2009 ([pdf](http://www.emg.uni-mainz.de/Dateien/bergbauer.pdf))
+
 
 * {#Berghoff14a} [[Marko Berghoff]], _Wonderful renormalization_, 2014 ([pdf](http://www2.mathematik.hu-berlin.de/%7Ekreimer/wp-content/uploads/Berghoff-Marko.pdf), [doi:10.18452/17160](https://doi.org/10.18452/17160))
 
