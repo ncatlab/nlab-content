@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
 
 > under construction
 
@@ -8,7 +18,7 @@
 
 ## Idea
 
-In the axiomatic of [[differential cohesion]] one may [[synthetic differential geometry|synthetically]] formulate a concept of _[[manifolds]]_ locally modeled on a [[group object]] $V$. In the [[interpretation]] in an [[differential cohesion|differentially]] [[cohesive (infinity,1)-topos]] these are [[étale infinity-groupoids]].
+In the [[axiom|axiomatics]] of [[differential cohesion]] one may [[synthetic differential geometry|synthetically]] formulate a concept of _[[manifolds]]_ locally modeled on a [[group object]] $V$. In the [[interpretation]] in an [[differential cohesion|differentially]] [[cohesive (infinity,1)-topos]] these are [[étale infinity-groupoids]].
 
 For exposition see at _[[geometry of physics -- manifolds and orbifolds]]_ and _[[geometry of physics -- supergeometry]]_.
 
@@ -325,9 +335,11 @@ The concept is due to
 
 * [[Igor Khavkine]], [[Urs Schreiber]], _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations Part I -- Jets and comonad structure]]_ ([arXiv:1701.06238](https://arxiv.org/abs/1701.06238))
 
-Formalization in [[homotopy type theory]] is in
+Formalization in [[modal type theory|modal]] [[homotopy type theory]] is in
 
 * [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, 2017 ([pdf](http://www.math.kit.edu/iag3/~wellen/media/diss.pdf))
+
+* [[Felix Wellen]], _Cartan Geometry in Modal Homotopy Type Theory_ ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966))
 
 
 [[!redirects V-manifolds]]
