@@ -130,6 +130,8 @@ See at _[axion -- As a solution to the strong CP-problem](axion#AsASolutionToThe
 
   * [[vacuum diagram]]
 
+  * [[thermal vacuum]], [[KMS state]]
+
   * [[vacuum stability]]
 
   * [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
