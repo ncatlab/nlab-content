@@ -209,11 +209,15 @@ The Wightman axioms have been established for the following theories.
 
 * [[conformal net]], [[conformal bootstrap]]
 
+* analog for [[Euclidean field theory]]: [[Osterwalder-Schrader axioms]]
+
 ## References
 
-The original reference is
+The original texts are
 
-* Raymond F. Streater and [[Arthur Wightman]]: "PCT, spin and statistics, and all that." ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1026.81027&format=complete) of the newest edition).
+* A. S. Wightman, L. Gårding, _Fields as Operator-valued Distributions in Relativistic Quantum Theory_, Arkiv f. Fysik, Kungl. Svenska Vetenskapsak. 28, 129–189 (1964).
+
+* Raymond F. Streater, [[Arthur Wightman]], _PCT, spin and statistics, and all that_, Princeton University Press 1989  ([jstor](https://www.jstor.org/stable/j.ctt1cx3vcq), [ZMATH] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1026.81027&format=complete) of the newest edition).
 
 Raymond Streater relates some historical background about the book and the approach [on his webpage] (http://www.mth.kcl.ac.uk/~streater/wightman.html).
 
@@ -229,6 +233,10 @@ Discussion of the axioms for $\phi^4$-theory in 3d is in
 
 * Joel Feldman, [[Konrad Osterwalder]], _The Wightman axioms and the mass
 gap for weakly coupled $phi_3^4$ quantum field theories_, Ann. Physics 97 (1976), 80&#8211;135
+
+See also
+
+* Wikipedia, _[Wightman axioms](https://en.wikipedia.org/wiki/Wightman_axioms)_
 
 [[!redirects Wightman theory]]
 [[!redirects Wightman approach]]
