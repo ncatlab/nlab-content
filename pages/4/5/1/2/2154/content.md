@@ -74,6 +74,8 @@ and other inner products are recovered by linearity.  (We must then use the axio
 
 * [[synthetic geometry]]
 
+* [[Euclidean field theory]]
+
 ## References
 
 * {#Euclid300BC} [[Euclid]], _[[Elements]]_, 300BC 
