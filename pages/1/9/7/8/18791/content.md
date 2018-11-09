@@ -35,6 +35,8 @@ In [[quantum field theory]] the _vacuum expectation value_ (vev) of an [[observa
 
   * [[vacuum diagram]]
 
+  * [[thermal vacuum]], [[KMS state]]
+
   * [[vacuum stability]]
 
   * [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
