@@ -60,7 +60,7 @@ Products of local observables are called _multilocal observables_.
 
 ## Definition
 
-For the moment see at _[[geometry of physics -- A first idea of quantum field theory]]_ [this def.](geometry+of+physics+--+A+first+idea+of+quantum+field+theory#LocalObservables)
+For the moment see at _[[geometry of physics -- perturbative quantum field theory]]_ [this def.](geometry+of+physics+--+A+first+idea+of+quantum+field+theory#LocalObservables)
 
 ## Properties
 
@@ -87,9 +87,9 @@ of the local polynomial observables into the [[microcausal polynomial observable
 
 ## Related concepts
 
-
-
 * [[Wick algebra]]
+
+* [[spacetime support]]
 
 
 ## References
