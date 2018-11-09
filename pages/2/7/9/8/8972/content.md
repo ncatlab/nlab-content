@@ -29,3 +29,4 @@ The preview of the second edition (2016) is available as a [pdf](https://www.cs.
 category: reference, applications
 
 [[!redirects Practical Foundations for Programming Languages]]
+[[!redirects PFPL]]
