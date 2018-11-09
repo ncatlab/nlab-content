@@ -20,63 +20,110 @@
 
 In [[field theory]] one speaks of _Euclidean field theory_ if the underlying [[spaces]] on which the [[field (physics)|fields]] are defined are [[Riemannian manifolds]], as opposed to [[Lorentzian  manifold|Lorentzian]] [[spacetimes]] used in [[relativistic field theory]], hence locally are _[[Euclidean spaces]]_ instead of [[Minkowski spacetimes]], whence the name "Euclidean field theory." 
 
-Concretely this means that in Euclidean field theoy the [[local field theory|locality]] condition on the [[net of observables|net of]] [[quantum observables]] requires observables $A, B$to [[commutator|commute]] as soon as their [[supports]] are [[disjoint subset|disjoint]] at all
+Concretely this means that in Euclidean field theory the [[local field theory|locality]] condition on the [[net of observables|net of]] [[quantum observables]] requires observables $A, B$ to [[commutator|commute]] as soon as their [[spacetime supports]] are [[disjoint subset|disjoint]] at all
 
 $$
   supp(A) \cap supp(B) = \emptyset
-  \;\;\Rightarrow\;\;
+  \;\;\;\;\Rightarrow\;\;\;\;
   [A,B] = 0
   \,.
 $$ 
 
 This is in contrast to the analogous condition in [[relativistic field theory]] whose _[[causal locality]]_ requires this implication only if the two [[supports]] are in addition [[spacelike]]-separated.
 
-This Euclidean locality property applies in particular in [[statistical mechanics]], where the "[[field (physics)|fields]]" of the field theory are not thought of as encoding the [[spacetime]]-behaviour of [[fundamental particles]] as governed by [[quantum physics]], but instead the spatial [[expectation values]] (at any given time) of equilibrium [[thermodynamics|thermodynamic]]-processes governed by [[classical physics]].
-An archetypical example of a Eculidean field theory in this thermodynamic sense is the [[Ising model]]. 
+This Euclidean locality property applies in particular in [[statistical mechanics]], where the "[[field (physics)|fields]]" of the field theory are not thought of as encoding the [[spacetime]]-behaviour of [[fundamental particles]] as governed by [[quantum physics]], but instead the spatial [[expectation values]] (at any given time) of [[equilibrium]] [[thermodynamics|thermodynamic]]-processes governed by [[classical physics]].
+An archetypical example of a Euclidea field theory in this thermodynamic sense is the [[Ising model]]. 
 
-Despite this superficially stark contrast between Euclidean and relativistic field theory, the two turn out to be tightly related to each other in a subtle way that involves and generalizes the concept of [[analytic continuation]] from [[complex analysis]], here this is called _[[Wick rotation]]_.
+### Wick rotation to Relativistic Field theory
 
+Despite this superficially stark contrast between Euclidean and relativistic field theory, the two turn out to be tightly related to each other, at least under some conditions, in a subtle way that involves and generalizes the concept of [[analytic continuation]] from [[complex analysis]], here this is called _[[Wick rotation]]_.
 
+Roughly this says that [[propagators]] and hence [[n-point functions]] of [[relativistic field theory]] on [[Minkowski spacetime]] $\mathbb{R}^{d,1}$ (may) have [[analytic continuation]] to [[complex number|complex values]] of the [[time]]-[[coordinates]], such that replacing [[real number|real]] time with [[imaginary number|imaginary]] time turns these [[n-point functions]] into those of a [[Euclidean field theory]] on $\mathbb{R}^{d+1}$, and vice versa. 
 
+Precise formulation of the conditions that go into this [[Wick rotation]] between [[relativistic field theory]] and Euclidean field theory is the content of the [[Osterwalder-Schrader theorem]].
 
+### Temporal compactification to Thermal relativistic field theory
 
+In fact this relation goes deeper still: Under suitable conditions the Euclidean field theory not on $\mathbb{R}^{d+1}$ but on $\mathbb{R}^d \times S^1_\beta$, with the [[circle]]-[[product space|factor]] $S^1_{\beta}$ of [[length]] $\beta$, corresponds to relativistic field theory on [[Minkowski spacetime]] $\mathbb{R}^{d,1}$ in a [[vacuum state]] that represents [[thermal equilibrium]] at [[temperature]] $T \coloneqq 1/\beta$. (The previous case of Euclidean field theory on $\mathbb{R}^{d+1}$ may be thought of as the special case $\beta \to \infty$, hence $T \to 0$.)  
 
-### Thermal quantum field theory via periodic Euclidean time
- {#ThermalQuantumFieldTheoryViaPeriodicEuclideanTime}
-
-The equal-time [[n-point functions]] in [[relativistic field theory]] on [[Minkowski spacetime]] $\mathbb{R}^{d,1}$ in a [[vacuum state]] reflecting equilibrium at [[finite number|finite]] [[temperature]] $T$ may be argued ([Bloch 58](#Bloch58)) to be computed equivalently by Euclidean field theory on the [[Cartesian product]] $\mathbb{R}^d \times S^1$ of [[Euclidean space]] $\mathbb{R}^d$ with a [[circle]] $S^1$ of [[length|circumference]] $\beta \coloneqq 1/T$:
+This curious relation of [[Wick rotation]] with "compact peridodic Euclidean time" makes, when it applies, Euclidean field theory be a unification of [[relativistic field theory]] with [[statistical mechanics]]/[[thermodynamics]], then called _thermal quantum field theory_ or _quantum statistical field theory_ or similar.
 
 $$
+  \array{
+  \left.
+  \array{
+     \text{relativistic field theory}
+     \\
+     \text{on Minkowski spacetime}
+     \\
+     \mathbb{R}^{d,1}
+     \\
+     \text{in a thermal equilibrium state}
+     \\
+     \text{at temperature}\; T
+  }
+  \right\}
+  &
+  \;\;\;\;
+  \overset{ \text{Wick rotation} }{\leftrightarrow}
+  \;\;\;\;
+  &
+  \left\{
+  \array{
+    \text{Euclidean field theory}
+    \\
+    \text{on Euclidean space}
+    \\
+    \mathbb{R}^d \times S^1_{\beta}
+    \\
+    \text{with compact/periodic Euclidean time}
+    \\
+    \text{of length} \; \beta = 1/T
+  }
+  \right.
+  \\
+  \phantom{A}
+  \\
   \underset{
-    {\text{on Minkowski spacetime}\, \mathbb{R}^{d,1}}
+    \text{n-point function of relativistic fields}
     \atop
-    {\text{at finite temperature}\, T}
+    \text{ in thermal equilibrium state } \; \vert T\rangle
   }{
   \underbrace{
-    \left\langle  :\mathbf{\Phi}(x_1,t) \mathbf{\Phi}(x_2,t) \cdots \mathbf{\Phi}(x_n,t) : \right\rangle_{\mathbb{R}^{d,1}, T}
+    \left\langle  T\vert  :\mathbf{\Phi}(x_1,t) \mathbf{\Phi}(x_2,t) \cdots \mathbf{\Phi}(x_n,t) : \vert T \right\rangle_{\mathbb{R}^{d,1}}
   }}
-  \;=\;
+  &\;=\;&
   \underset{
-    {\text{on Euclidean space}\, \mathbb{R}^{d} \times S^1}
+    \text{correlator of Euclidean fields}
     \atop
-    {\text{with circle of circumference}\, \beta \coloneqq 1/T}   
+    \text{ for "Eculidean time" of periodicity}\; \beta = 1/T
   }{
   \underbrace{
-  \left\langle  :\mathbf{\Phi}(x_1) \mathbf{\Phi}(x_2) \cdots \mathbf{\Phi}(x_n) : \right\rangle_{\mathbb{R}^{d} \times S^1_{\beta}}
+  \left\langle 0 \vert \mathbf{\Phi}(x_1) \mathbf{\Phi}(x_2) \cdots \mathbf{\Phi}(x_n)  \vert 0 \right\rangle_{\mathbb{R}^{d} \times S^1_{\beta}}
   }}
+  }
 $$
 
-(see e.g. [Moore 03, section 1.1](#Moore03) for the quick informal [[path integral]]-idea and see [Fulling-Ruijsenaars 87, section 2, (2.50)](#FullingRuijsenaars87) for a careful discussion).
-
-This perspective is known as _[[thermal quantum field theory]]_ or similar, the use of a "periodic Euclidean time coordinate" is also known as _[[Matsubara formalism]]_ (e.g. [Landsman-vanWert 87, section 2.3.1](#LandsmanVanWert87)) and specifically the condition that the periodicity has to be $\beta \coloneqq 1/T$ is known as the _[[KMS conditions]]_ (For _Kubo-Martin-Schwinger_, due to [Kubo 57](#Kubo57), [Martin-Schwinger 59](#MartinSchwinger59) with its final form due to [Haag-Hugenholtz-Winnink 67](#HaagHugenholtzWinnink67), see [Fulling-Ruijsenaars 87, section 3.1](#FullingRuijsenaars87)).
-
-(e.g. [Thoma 00, section 2.2](#Thoma00), [Peeters-Zamaklar 09, section 1.3](#PeetersZamaklar09))
+Notice that the evident [[symmetry breaking|breaking]] of [[Lorentz group|Lorentz symmetry]] on the right side of this correspondence is perfectly consistent with what happens on the left hand: A thermal vaccum state in Minkowski spacetime also singles out a preferred Lorentz frame.
 
 <center>
 <img src="https://ncatlab.org/nlab/files/EuclideanTime.jpg" width="580">
 </center>
 
 > graphics grabbed form [Frolov-Zelnikov 11](#FrolovZelnikov11)
+
+
+The basic idea of this relation seems to go back to [Bloch 58](#Bloch58). The physics literature often states this suggestively but informally in terms of [[path integral]]-imagery, see e.g. [Moore 03, section 1.1](#Moore03).
+
+The first precise formulation seems to be due to [Høegh-Krohn 74](#HoeghKrohn74) (in 1+1 dimensions) and a more comprehensive discussion in view of the [[Osterwalder-Schrader theorem]] for compact Euclidean time is due to [Klein-Landau 81](#KleinLandau81).
+
+The use of a "periodic Euclidean time coordinate" is also known as _[[Matsubara formalism]]_ (e.g. [Landsman-vanWert 87, section 2.3.1](#LandsmanVanWert87)) and specifically the condition that the periodicity has to be $\beta \coloneqq 1/T$ is known as the _[[KMS conditions]]_ (For _Kubo-Martin-Schwinger_, due to [Kubo 57](#Kubo57), [Martin-Schwinger 59](#MartinSchwinger59) with its final form due to [Haag-Hugenholtz-Winnink 67](#HaagHugenholtzWinnink67), see [Fulling-Ruijsenaars 87, section 3.1](#FullingRuijsenaars87)).
+
+Beware that literature discussing the KMS-condition often does not make the periodicity of Euclidean time explicit, and vice versa. This is clarified in [Fulling-Ruijsenaars 87, sections 2 and 3](#FullingRuijsenaars87).
+
+General introduction to Euclidean and thermal field theory includes [Thoma 00, section 2.2](#Thoma00), [Peeters-Zamaklar 09, section 1.3](#PeetersZamaklar09).
+
+
 
 ## Examples
 
@@ -99,21 +146,40 @@ This perspective is known as _[[thermal quantum field theory]]_ or similar, the 
 
 ### Thermal quantum field theory:
 
-A good introduction is in [Fulling-Ruijsenaars 87, section 2](#FullingRuijsenaars87).
+A good introduction is in 
 
-The idea goes back to 
+* {#FullingRuijsenaars87} S.A. Fulling, S.N.M. Ruijsenaars, _Temperature, periodicity and horizons_, Physics Reports Volume 152, Issue 3, August 1987, Pages 135-176 ([pdf](https://www1.maths.leeds.ac.uk/~siru/papers/p26.pdf), <a href="https://doi.org/10.1016/0370-1573(87)90136-0">doi:10.1016/0370-1573(87)90136-0</a>)
+
+
+The idea of Wick rotating thermal relativistic field theory to compact periodic Euclidean time apparently goes back to 
 
 * {#Bloch58} Claude Bloch, _Sur la détermination de l'état fondamental d'un système de particules_,  Nucl. Phys. 7 (1958) 451
 
-The KMS condition is due to
+This has maybe first been made precise, for the case of 1+1 dimensions, in 
+
+* {#HoeghKrohn74} [[Raphael Høegh-Krohn]], _Relativistic Quantum Statistical Mechanics in two-dimensional Space-Time_, Communications in Mathematical Physics 38.3 (1974): 195-224 ([pdf](https://www.duo.uio.no/bitstream/handle/10852/44072/1973-22.pdf))
+
+A systematic discussion of the [[Osterwalder-Schrader theorem]] on [[Wick rotation]] for the case of thermal field theory/periodic Euclidean time is in 
+
+* {#KleinLandau81} Abel Klein, Lawrence Landau, _Periodic Gaussian Osterwalder-Schrader positive processes and the two-sided Markov property on the circle_, Pacific Journal of Mathematics, Vol. 94, No. 2, 1981 ([
+DOI: 10.2140/pjm.1981.94.341](https://msp.org/pjm/1981/94-2/p12.xhtml), [pdf](https://msp.org/pjm/1981/94-2/pjm-v94-n2-p12-s.pdf))
+
+See also
+
+* [Fulling-Ruijsenaars 87, section 2](#FullingRuijsenaars87)
+
+
+The formulation of the KMS condition is due to
 
 * {#Kubo57} R. Kubo _Statistical-Mechanical Theory of Irreversible Processes  I. General Theory and Simple Applications to Magnetic and Conduction Problems_, Journal of the Physical Society of Japan 12, 570-586 1957
 
 * {#MartinSchwinger59} Paul C. Martin, [[Julian Schwinger]], _Theory of Many-Particle Systems.  I_, Physical Review 115, 1342-1373 (1959)
 
+and found its final, now generally accepted, form in 
+
 * {#HaagHugenholtzWinnink67} [[Rudolf Haag]], N. M. Hugenholtz, M. Winnink, _On the equilibrium states in quantum statistical mechanics_, Comm. Math. Phys. Volume 5, Number 3 (1967), 215-236 ([euclid:1103840050](https://projecteuclid.org/euclid.cmp/1103840050))
 
-Review includes 
+Review of thermal field theory via Euclidean field theory includes
 
 * [Fulling-Ruijsenaars 87, sections 2 and 3](#FullingRuijsenaars87)
 
@@ -141,9 +207,9 @@ With an eye towards [[lattice gauge theory]]:
 
 * {#Moore03} Guy Moore, _Informal lectures on lattice gauge theory_, 2003 ([pdf](https://theorie.ikp.physik.tu-darmstadt.de/qcd/moore/latt_lectures.pdf))
 
-With an eye towards [[black hole thermodynamics]]:
+In application to [[black hole thermodynamics]]:
 
-* {#FullingRuijsenaars87} S.A. Fulling, S.N.M. Ruijsenaars, _Temperature, periodicity and horizons_, Physics Reports Volume 152, Issue 3, August 1987, Pages 135-176 ([pdf](https://www1.maths.leeds.ac.uk/~siru/papers/p26.pdf), <a href="https://doi.org/10.1016/0370-1573(87)90136-0">doi:10.1016/0370-1573(87)90136-0</a>)
+* [Fulling-Ruijsenaars 87, section 4](#FullingRuijsenaars87)
 
 * {#FrolovZelnikov11} [[Valeri Frolov]], Andrei Zelnikov, section F4.4 of _Introduction to black hole physics_, Oxford 2011
 
