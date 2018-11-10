@@ -116,13 +116,13 @@ $$
   }
 $$
 
-Notice that the evident [[symmetry breaking|breaking]] of [[Lorentz group|Lorentz symmetry]] on the right side of this correspondence is perfectly consistent with what happens on the left hand: A thermal vacuum state in Minkowski spacetime also singles out a preferred Lorentz frame.
-
 <center>
 <img src="https://ncatlab.org/nlab/files/EuclideanTime.jpg" width="580">
 </center>
 
 > graphics grabbed form [Frolov-Zelnikov 11](#FrolovZelnikov11)
+
+Notice that the evident [[symmetry breaking|breaking]] of [[Lorentz group|Lorentz symmetry]] on the right side of this correspondence is perfectly consistent with what happens on the left hand: A thermal vacuum state in Minkowski spacetime also singles out a preferred Lorentz frame.
 
 
 The basic idea of this relation seems to go back to [Bloch 58](#Bloch58). The physics literature often states this suggestively but informally in terms of [[path integral]]-imagery, see e.g. [Moore 03, section 1.1](#Moore03).
