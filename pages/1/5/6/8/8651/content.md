@@ -31,21 +31,21 @@ In the context of [[foundations of mathematics]] the term **practical foundation
 
 ## References
 
-* [[Paul Taylor]], _Practical Foundations of Mathematics_, Cambridge University Press ([web](http://www.cs.man.ac.uk/~pt/Practical-Foundations/html/index.html))
+* [[Paul Taylor]], _[[Practical Foundations of Mathematics]]_, Cambridge University Press ([web](http://www.cs.man.ac.uk/~pt/Practical-Foundations/html/index.html))
 {#Taylor}
 
-* [[William Lawvere]], _Foundations and applications: axiomatization and education_, Bulletin of Symbolic Logic 9 (2003), 213-224 ([ps](http://www.math.ucla.edu/~asl/bsl/0902/0902-006.ps))
- {#Lawvere}
+* {#Lawvere} [[William Lawvere]], _Foundations and applications: axiomatization and education_, Bulletin of Symbolic Logic 9 (2003), 213-224 ([ps](http://www.math.ucla.edu/~asl/bsl/0902/0902-006.ps))
+ 
 
 Under [[computational trinitarianism]] this corresponds to a practical foundation in [[program|programming]], laid out in
 
-*  [[Robert Harper]], _Practical Foundations for Programming Languages_ ([web](http://www.cs.cmu.edu/~rwh/plbook/book.pdf))
-{#Harper}
+* {#Harper} [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_ ([web](http://www.cs.cmu.edu/~rwh/plbook/book.pdf))
+
 
 A foundation for [[algebraic topology]] in this practical spirit is laid out in 
 
-* [[Samuel Eilenberg]], [[Norman Steenrod]], _[[Foundations of Algebraic Topology]]_
-  {#EilenbergSteenrod}
+* {#EilenbergSteenrod} [[Samuel Eilenberg]], [[Norman Steenrod]], _[[Foundations of Algebraic Topology]]_
+  
 
 
 [[!redirects practical foundation]]
