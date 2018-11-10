@@ -117,23 +117,21 @@ It may seem on first sight that foundational questions in mathematics are remote
 
 ## References
 
-* [[Bertrand Russell]], _[[Principia Mathematica]]_, 1910
-
-* {#Harrington} L. A. Harrington (ed.), _Harvey Friedman's Research on the Foundations of Mathematics_, Studies in Logic and the Foundations of Mathematics (2012)
- 
+* [[Bertrand Russell]], _[[Principia Mathematica]]_, 1910 
 
 * {#Lawvere} [[William Lawvere]], _Foundations and applications: axiomatization and education_, Bulletin of Symbolic Logic 9 (2003), 213-224 ([ps](http://www.math.ucla.edu/~asl/bsl/0902/0902-006.ps), [Euclid](http://projecteuclid.org/euclid.bsl/1052669290))
  
+* {#Harrington} L. A. Harrington (ed.), _Harvey Friedman's Research on the Foundations of Mathematics_, Studies in Logic and the Foundations of Mathematics (2012)
 
 
 [[practical foundations|Practical foundations]] in terms of [[type theory]] language are laid out in
 
-* [[Paul Taylor]], _Practical Foundations of Mathematics_, Cambridge University Press ([web](http://www.cs.man.ac.uk/~pt/Practical-Foundations/html/index.html))
+* [[Paul Taylor]], _[[Practical Foundations of Mathematics]]_, Cambridge University Press ([web](http://www.cs.man.ac.uk/~pt/Practical-Foundations/html/index.html))
 {#Taylor}
 
 Under [[computational trinitarianism]] this corresponds to a practical foundation in [[program|programming]], laid out in
 
-*  [[Robert Harper]], _Practical Foundations for Programming Languages_ ([web](http://www.cs.cmu.edu/~rwh/plbook/book.pdf))
+*  [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_ ([web](http://www.cs.cmu.edu/~rwh/plbook/book.pdf))
 {#Harper}
 
 A foundation for [[algebraic topology]] in this practical spirit is laid out in 
