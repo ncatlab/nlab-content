@@ -18,6 +18,7 @@
 =--
 
 
+
 # Contents
 * table of contents
 {: toc}
@@ -66,8 +67,7 @@ In the introduction of
 
 the insight is recalled to have surfaced in the 1970s, with an early appearance in print being the monograph
 
-* [[Joachim Lambek]], [[Phil Scott]], _Introduction to Higher Order Categorical
-Logic_, Cambridge Studies in Advanced Mathematics Vol. 7. Cambridge University Press, 1986.
+* [[Joachim Lambek]], [[Phil Scott]], _Introduction to Higher Order Categorical Logic_, Cambridge Studies in Advanced Mathematics Vol. 7. Cambridge University Press, 1986.
 
 See also at _[History of categorical semantics of linear type theory](linear+type+theory#HistoryCategoricalSemantics)_ for more on this.
 
@@ -87,6 +87,14 @@ A discussion in the context of [[homotopy type theory]] is in
 * [[Mike Shulman]], *Homotopical trinitarianism*, [talk slides](http://home.sandiego.edu/~shulman/papers/trinity.pdf)
 
 For further references see at _[[programs as proofs]]_, _[[propositions as types]]_, and _[[relation between category theory and type theory]]_.
+
+Textbooks on the [[foundations of mathematics]] and foundations of [[programming language]] which connect via the common theme of [[type theory]]/[[categorical logic]] include the following:
+
+* [[Paul Taylor]], _[[Practical Foundations of Mathematics]]_ ([web](http://www.paultaylor.eu/~pt/prafm/index.html))
+
+* [[William Lawvere]], [[Robert Rosebrugh]], _[[Sets for Mathematics]]_,  Cambridge UP  2003 ([book homepage](http://www.mta.ca/~rrosebru/setsformath/), [GoogleBooks](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics), [pdf](http://patryshev.com/books/Sets%20for%20Mathematics.pdf))
+
+* [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_,  Cambridge University Press (2016) ([webpage](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/practical-foundations-programming-languages-2nd-edition?format=HB))
 
 
 [[!redirects computational trinitarianism]]
