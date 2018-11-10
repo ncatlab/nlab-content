@@ -29,7 +29,7 @@ The **Cobordism Hypothesis** states, roughly, that the [[(∞,n)-category of cob
 Since a fully [[extended topological quantum field theory]] may be identified with a [[monoidal (∞,n)-functor|monoidal]] [[(∞,n)-functor]] $Z : Bord_n \to C$, this implies that all these [[TQFT]]s are entirely determined by their value on the point: "the [[n-vector space]] of [[state]]s" of the theory.
 
 
-As motivation, notice that by [Galatius-Tillmann-Madsen- 09Weiss](cobordism+category#GMWT) we have that the [[loop space]] of the [[geometric realization]] of the [[framed manifold|framed]] [[cobordism category]] is equivalent to the [[sphere spectrum]]
+As motivation, notice that by [Galatius-Madsen-Tillmann-Weiss 09](cobordism+category#GMWT) we have that the [[loop space]] of the [[geometric realization]] of the [[framed manifold|framed]] [[cobordism category]] is equivalent to the [[sphere spectrum]]
 
 $$
   \Omega \Vert Cob_d^{fr} \Vert
@@ -804,11 +804,16 @@ Lecture notes and reviews on the topic of the cobordisms hypothesis include
 
 * [[Julie Bergner]], _Models for $(\infty,n)$-Categories and the Cobordism Hypothesis_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, AMS 2011
 
-* [[Daniel Freed]], _The cobordism hypothesis_ ([arXiv:1210.5100](http://arxiv.org/abs/1210.5100))
+* [[Daniel Freed]], _The cobordism hypothesis_, , Bulletin of the American Mathematical Society 50 (2013), pp. 57-92, ([arXiv:1210.5100](http://arxiv.org/abs/1210.5100))
 
 * {#SchommerPries13} [[Chris Schommer-Pries]], _Dualizability in Low-Dimensional Higher Category Theory_ ([arXiv:1308.3574](http://arxiv.org/abs/1308.3574))
 
 * {#Teleman14} [[Constantin Teleman]], _Five lectures on topological field theory_, 2014 ([pdf](http://math.berkeley.edu/~teleman/math/barclect.pdf))
+
+An approach to the proof of the cobordism hypothesis via [[factorization homology]] is in
+
+* [[David Ayala]], [[John Francis]], _The cobordism hypothesis_, ([arXiv:1705.02240](https://arxiv.org/abs/1705.02240))
+
 
 
 Discussion of the canonical $O(n)$-action on [[n-fold loop spaces]] (which may be thought of as a special case of the cobordism hypothesis) includes
@@ -818,7 +823,7 @@ Discussion of the canonical $O(n)$-action on [[n-fold loop spaces]] (which may b
 
 Cobordisms with geometric structure are discussed in
 
-* [[David Ayala]], _Geometric cobordism categories_ ([pdf](http://www.math.ku.dk/~ayala/geombord.pdf))
+* [[David Ayala]], _Geometric cobordism categories_ ([arXiv:0811.2280](https://arxiv.org/abs/0811.2280))
 {#Ayala}
 
 
