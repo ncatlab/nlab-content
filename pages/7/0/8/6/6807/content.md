@@ -105,7 +105,7 @@ Computation of [[graviton]] [[scattering amplitudes]]:
 
 * also [Kabat-Taylor 97](#KabatTaylor97)
 
-* M. Fabbrichesi, _Graviton scattering in matrix theory and supergravity_, in In: Ceresole A., Kounnas C., [[Dieter Lüst]] , [[Stefan Theisen]] (eds.) _Quantum Aspects of Gauge Theories, Supersymmetry and Unification_, Lecture Notes in Physics, vol 525. Springer, Berlin, Heidelberg ([arXiv:hep-th/9811204](https://arxiv.org/abs/hep-th/9811204))
+* M. Fabbrichesi, _Graviton scattering in matrix theory and supergravity_, in: Ceresole A., Kounnas C., [[Dieter Lüst]], [[Stefan Theisen]] (eds.) _Quantum Aspects of Gauge Theories, Supersymmetry and Unification_, Lecture Notes in Physics, vol 525. Springer, Berlin, Heidelberg ([arXiv:hep-th/9811204](https://arxiv.org/abs/hep-th/9811204))
 
 * Robert Helling, [[Jan Plefka]], Marco Serone, Andrew Waldron, _Three-graviton scattering in M-theory_, Nuclear Physics B Volume 559, Issues 1–2, 18 October 1999, Pages 184-204 ([arXiv:hep-th/9905183](https://arxiv.org/abs/hep-th/9905183))
 
