@@ -75,7 +75,10 @@ This approach is suggested in [Atiyah-Witten 01, pages 84-85](#AtiyahWitten01). 
 ## Related concepts
 
 * [[asymptotic freedom]]
+
 * [[quantization of Yang-Mills theory]]
+
+* [[proton spin crisis]]
 
 ## References
 
