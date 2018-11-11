@@ -90,6 +90,9 @@ Textbook accounts include
 
 * Robert Iengo, section 9.1 of _Quantum Field Theory_ ([pdf](http://iopscience.iop.org/chapter/978-1-6432-7053-1/bk978-1-6432-7053-1ch9.pdf))
 
+* D. Bugg (ed.), _Hadron Spectroscopy and the Confinement Problem_, Proceedings of a NATO Advanced Study Institute, Plenum Press 1996  ([doi:10.1007/978-1-4613-0375-6](https://www.springer.com/cn/book/9780306453038))
+
+
 Introductions and surveys include
 
 * Yuri L. Dokshitzer, around section 1.2 of _QCD Phenomenology_ ([arXiv:hep-ph/0306287](https://arxiv.org/abs/hep-ph/0306287))
