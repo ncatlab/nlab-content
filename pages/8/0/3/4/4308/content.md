@@ -31,6 +31,8 @@ By the [[spin-statistics theorem]], the spin of any [[elementary particle]] must
 
 * [[Fierz identity]]
 
+* [[proton spin crisis]]
+
 * [[spinor]]
 
 * [[Dirac spinor]], [[Weyl spinor]], [[Majorana spinor]]
