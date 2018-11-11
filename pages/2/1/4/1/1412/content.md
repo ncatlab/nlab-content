@@ -271,7 +271,7 @@ for $X$ a true [[topological space]] and $U$ a [[topological space]], there
 is not just a set, but a [[topological space]] of maps $U \to X$ (using the [[compact-open topology]] on spaces of continuous maps).  So we should be looking at sheaves with values in topological spaces: functors $X(-) : S^{op} \to Top$ satisfying some suitable condition.
 
 There is only one thing we need to take care of, then: since a 
-topological spaces is a bit more flexible than a plain set, 
+topological space is a bit more flexible than a plain set, 
 we should be a bit careful about when two sheaves $U \mapsto X(U)$
 with values in topological spaces are to be regarded as
 equal for all practical purposes: recall that $X(U)$ is
@@ -372,9 +372,7 @@ cohomology given by the simple idea of collections of maps from
 one generalized space to another. Only that in the special
 case of abelian sheaves a wealth of particular computational
 techniques are used to compute these mapping spaces
-(such as [[derived category|derived categories]] and 
-[[derived functor|derived functors]]) which are not available in the
-fully general case. This wealth of computational machinery
+(such as [[derived category|derived categories]] and [[derived functor|derived functors]]) which are not available in the fully general case. This wealth of computational machinery
 employed, useful as it is, sometimes hides the simple conceptual
 reasoning underlying everything.
   
