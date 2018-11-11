@@ -84,15 +84,25 @@ This approach is suggested in [Atiyah-Witten 01, pages 84-85](#AtiyahWitten01). 
 
 #### General
 
-A textbook account is in 
+Textbook accounts include
 
 * Jeff Greensite, _An Introduction to the Confinement Problem_, Lecture Notes in Physics, Volume 821, 2011 ([doi:10.1007/978-3-642-14382-3](https://link.springer.com/book/10.1007%2F978-3-642-14382-3))
 
+* Robert Iengo, section 9.1 of _Quantum Field Theory_ ([pdf](http://iopscience.iop.org/chapter/978-1-6432-7053-1/bk978-1-6432-7053-1ch9.pdf))
+
 Introductions and surveys include
+
+* Yuri L. Dokshitzer, around section 1.2 of _QCD Phenomenology_ ([arXiv:hep-ph/0306287](https://arxiv.org/abs/hep-ph/0306287))
+
+* {#Espiru94} D. Espriu, section 7 of _Perturbative QCD_ ([arXiv:hep-ph/9410287](http://arxiv.org/abs/hep-ph/9410287))
+
+* Erhard Seiler, _The Confinement Problem_ ([pdf](http://physik.uni-graz.at/~dk-user/talks/Seiler20081113-14.pdf))
 
 * Wikipedia, _[Color confinement](http://en.wikipedia.org/wiki/Color_confinement)_
 
-* {#Espiru94} D. Espriu, section 7 of _Perturbative QCD_ ([arXiv:hep-ph/9410287](http://arxiv.org/abs/hep-ph/9410287))
+Discussion includes
+
+* _[What is Strongly-Coupled Quantum Chromodynamics?](https://ensnaredinvacuum.wordpress.com/2015/02/11/what-is-strongly-coupled-quantum-chromodynamics/)_
 
 A formulation of confinement as an open problem of mathematical physics, together with many references, is in 
 
