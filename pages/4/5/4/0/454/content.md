@@ -26,8 +26,9 @@ A **lattice** is a [[partial order|poset]] which admits all finite [[meets]] and
 A **lattice** can also be defined as an algebraic structure, with the binary operations $\wedge$ and $\vee$ and the constants $\top$ and $\bot$. (These correspond, respectively, to binary and nullary meets and joins in the poset-theoretic definition; accordingly, they are read 'meet', 'join', '[[top]]', and '[[bottom]]'.) Here are the axioms for these operations:
 
 * $a\wedge b$ is the greatest lower bound for $a$, $b$ and $a \vee b$ is the least upper bound for $a$, $b$. More precisely this means, e.g. in case of $a\wedge b$, that any $c$ with $c \leq a$ and $c\leq b$ is smaller or equal to $a\wedge b$;
-* $\wedge$ and $\vee$ are each [[idempotent]], [[commutative magma|commutative]], and [[associative magma|associative]], with respective [[identity element|identities]] $\top$ and $\bot$;
-* the _absorption laws_: $a \vee (a \wedge b) = a$, and $a \wedge (a \vee b) = a$.
+* $\wedge$ and $\vee$ are each [[idempotent]], [[commutative magma|commutative]], and [[associative magma|associative]];
+* the _absorption laws_: $a \vee (a \wedge b) = a$, and $a \wedge (a \vee b) = a$;
+* $\top$ and $\bot$ are the respective [[identity element|identities]] of $\wedge$ and $\vee$.
 
 You can recover the original poset from either the meet or the join; $a \leq b$ iff $a \wedge b = a$, and $a \geq b$ iff $a \vee b = a$. The absorption laws guarantee that these agree.  Indeed, we may say that a lattice is a _bisemilattice_ in that it has two semilattice structures that are compatible in that they define (but in dual ways) the same partial order.
 
