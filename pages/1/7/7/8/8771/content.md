@@ -15,8 +15,15 @@ An idempotent semiring (also known as a _dioid_) is one in which addition is [[i
 
 ## Terminology
 
-The term _dioid_  is sometimes used as an alternative name for idempotent semirings.
+The term _dioid_ is sometimes used as an alternative name for idempotent semirings.
 
+## Properties
+
+On a semiring there is a partial order given by
+
+$$ x \leq y : \iff x + y = y. $$
+
+To check transitivity observe that $ x \leq y $ and $ y \leq z$ imply $ z \stackrel{y \leq z}{=} y + z \stackrel{x \leq y}{=} (x + y) + z = x + (y + z) \stackrel{y \leq z}{=} x + z $. The addition is a [[join]] with respect to this partial order. The partial order is preserved by multiplication.
 
 ## Examples
 
