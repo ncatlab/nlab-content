@@ -406,7 +406,7 @@ Since the [[singularity]] involved in back holes is a similar kind of singularit
 	
 Recall from some of the previous answers:
 
-1. [[perturbative string theory|Pertubative string theory]] is defined to be the [[asymptotic series|asymptotic]] [[perturbation series]] which are obtained by summing [[correlators]]/[[n-point functions]] of a 2d [[SCFT|superconformal field theory]] of central charge -15 over all genera and moduli of (punctured) [[super Riemann surfaces]].
+1. [[perturbative string theory|Perturbative string theory]] is defined to be the [[asymptotic series|asymptotic]] [[perturbation series]] which are obtained by summing [[correlators]]/[[n-point functions]] of a 2d [[SCFT|superconformal field theory]] of central charge -15 over all genera and moduli of (punctured) [[super Riemann surfaces]].
 
 1. Perturbative quantum field theory is defined to be the [[asymptotic series|asymptotic]] [[perturbation series]] which are obtained by applying the [[Feynman rules]] to a [[local Lagrangian]] -- which equivalently, by **[[worldline formalism]]**, means: obtained by summing the [[correlators]]/[[n-point functions]] of 1d field theories (of particles) over all loop orders of [[Feynman graphs]].
 
