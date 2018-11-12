@@ -418,6 +418,10 @@ Comprehension categories are defined in
 
 * [[Bart Jacobs]], *Comprehension categories and the semantics of type dependency*, Theoret. Comput. Sci. 107 (1993), no. 2, 169--207
 
+A correspondence with orthogonal factorization systems is discussed in
+
+* Clemens Berger, Ralph M. Kaufmann, *Comprehensive factorisation systems*[pdf](https://arxiv.org/abs/1710.09438)
+
 Display maps are discussed in
 
 * [[Paul Taylor]], _[[Practical Foundations of Mathematics]]_, section 8.3
