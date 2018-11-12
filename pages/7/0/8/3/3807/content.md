@@ -9,8 +9,6 @@
 =--
 =--
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -32,6 +30,7 @@ An important special case over [[finite fields]] is called the **Riemann--Weil c
 * [[Riemann hypothesis and physics]]
 
 ## References
+ {#General}
 
 * [[Terence Tao]], _[The Riemann hypothesis in various settings](http://terrytao.wordpress.com/2013/07/19/the-riemann-hypothesis-in-various-settings/)_
 * Wikipedia, _[Riemann hypothesis](http://en.wikipedia.org/wiki/Riemann_hypothesis)_
@@ -41,6 +40,13 @@ The suggestion that the Riemann hypothesis might have a proof that is an analogu
 * {#Manin95} [[Yuri Manin]], _Lectures on zeta functions and motives (according to Deninger and Kurokawa)_ Asterisque, (228):4, 121-163, 1995. Columbia University Number Theory Seminar.
 
 * Wikipedia, _[Generalized Riemann hypothesis](http://en.wikipedia.org/wiki/Generalized_Riemann_hypothesis)_.
+
+### Computer-checks
+ {#ReferencesComputerChecks}
+
+Experimental checks of the Riemann hypothesis with computers are discussed in
+
+* R. P. Brent, J. van de Lune, H. J. J. te Riele and D. T. Winter, _On the Zeros of the Riemann Zeta Function in the Critical Strip. II_, Mathematics of Computation Mathematics of Computation Vol. 39, No. 160 (Oct., 1982), pp. 681-688 ([doi:10.2307/2007345 ](https://www.jstor.org/stable/2007345))
 
 [[!redirects Riemann hypothesis]]
 [[!redirects Riemann conjecture]]
