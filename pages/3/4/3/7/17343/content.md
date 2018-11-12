@@ -4512,19 +4512,25 @@ Let $\mathcal{C} \stackrel{\overset{L}{\longleftarrow}}{\underoverset{R}{\bot}{\
 
 Consider the second case, the first is [[formal dual|formally dual]].
 
-First Observe that  $L(Y \sqcup Y) \simeq L Y \sqcup L Y$ because $L$ is [[left adjoint]] and hence preserves [[colimits]], hence in particular [[coproducts]].
+First observe that  $L(X \sqcup X) \simeq L X \sqcup L X$ because $L$ is [[left adjoint]] and hence preserves [[colimits]], hence in particular [[coproducts]].
 
 Hence
 
 $$
-  L(\X \sqcup X \overset{\in Cof}{\to} Cyl(X))
+  L(X \sqcup X \overset{\in Cof}{\to} Cyl(X))
   =
   (L(X) \sqcup L(X) \overset{\in Cof}{\to } L (Cyl(X)))
 $$
 
 is a cofibration.
 
-Second, with $Y$ cofibrant then also $Y \sqcup Cyl(Y)$ is a cofibrantion, since $Y \to Y \sqcup Y$ is a cofibration (lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation}). Therefore by [[Ken Brown's lemma]] (prop. \ref{KenBrownLemma}) $L$ preserves the weak equivalence $Cyl(Y) \overset{\in W}{\longrightarrow} Y$.
+Second, with $X$ cofibrant $i_0 \colon X \to X \sqcup X$ is an acyclic cofibration (lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation}), and so then is
+
+$$
+  i_0 \; \colon \; L(X) \longrightarrow L(X) \sqcup L(X).
+$$
+
+Therefore by [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) $L$ preserves the weak equivalence $Cyl(X) \to X$.
 
 =--
 
@@ -10467,4 +10473,3 @@ For the restriction to the [[convenient category of topological spaces|convenien
 
 
 [[!redirects Introduction to Stable homotopy theory -- P]]
-
