@@ -82,10 +82,14 @@ This approach is suggested in [Atiyah-Witten 01, pages 84-85](#AtiyahWitten01). 
 
 ## References
 
+
 ### In Yang-Mills theory
  {#ReferencesInYangMillsTheory}
 
 #### General
+
+* {#Wilson74} [[Kenneth Wilson]],  _Confinement of quarks, Phys. Rev. D10, 2445, 1974 ([doi:10.1103/PhysRevD.10.2445](https://doi.org/10.1103/PhysRevD.10.2445))
+
 
 Textbook accounts include
 
