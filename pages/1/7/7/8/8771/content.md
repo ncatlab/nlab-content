@@ -23,13 +23,13 @@ On a semiring there is a partial order given by
 
 $$ x \leq y : \iff x + y = y. $$
 
-To check transitivity observe that $ x \leq y $ and $ y \leq z$ imply $ z \stackrel{y \leq z}{=} y + z \stackrel{x \leq y}{=} (x + y) + z = x + (y + z) \stackrel{y \leq z}{=} x + z $. Due to idempotence the addition is a [[join]] with respect to this partial order, take a $z$ such that $z\leq x$ and $z\leq y$, then $ x + y = (x + z) + (y + z) = x + y + z$. The partial order is preserved by multiplication.
+To check transitivity observe that $ x \leq y $ and $ y \leq z$ imply $ z \stackrel{y \leq z}{=} y + z \stackrel{x \leq y}{=} (x + y) + z = x + (y + z) \stackrel{y \leq z}{=} x + z $. Due to idempotence the addition is a [[join]] with respect to this partial order: take a $z$ such that $x\leq z$ and $y\leq z$, then $z = z + z = x + z + y + z = x + y + z$. The partial order is preserved by multiplication.
 
 ## Examples
 
 *  Any [[quantale]] is an idempotent semiring, or dioid, under [[join]] and multiplication.
 
-* The set of [[language|languages]] over a given alphabet forms an idempotent semiring in which $L + L' = L \cup L'$ and multiplication is given by concatentation.
+* The set of [[language|languages]] over a given alphabet $A$ forms an idempotent semiring in which $L + L' = L \cup L'$ and multiplication is given by concatentation. In fact this is a quantale $P(A^\ast)$ where the multiplication is the $\mathbf{2}$-[[enriched category|enriched]] [[Day convolution]] product induced from the monoid multiplication of the free monoid $A^\ast$. 
 
 *  The [[tropical semiring|tropical algebra]] and the [[max-plus algebra]] are idempotent semirings.
 
