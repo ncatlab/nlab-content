@@ -39,6 +39,8 @@ The standard diagonal inclusion of a global field (such as a [[number field]]) $
 
 * [[genus of a lattice]]
 
+* [[lattice gauge theory]]
+
 ## References
 
 * A. E. Brouwer, _Lattices_, Course notes (2002) ([pdf](http://www.win.tue.nl/~aeb/latt/lattices.pdf))
