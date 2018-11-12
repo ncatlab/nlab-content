@@ -17,17 +17,20 @@
 
 ## Idea
 
-Lattice gauge theory is a [[computation|computational]] model for [[gauge theory]] ([[Yang-Mills theory]]).
+_Lattice gauge theory_ (introduced in [Wilson 74](#Wilson74)) is [[gauge theory]] ([[Yang-Mills theory]], such as [[quantum chromodynamics]]) where [[continuum]] [[spacetime]] is replaced by a [[discrete group|discrete]] [[lattice (in a vector space, etc.)|lattice]].
 
-These are numerical simulation of [[Wick rotation|Wick rotated]] [[non-perturbative quantum field theory|non-perturbative QCD]] obtained by discretizing the [[Euclidean field theory|Euclidean spacetime]] to a _lattice_ [[graph]] of [[vertices]] and [[edges]] between them, regarding the [[gauge field]] as a function on the [[edges]] (assigning to an edge the [[holonomy]]/[[parallel transport]] of the gauge field) and then explicitly evaluating the would-be [[path integral]] of the [[Yang-Mills action]] over these field configurations as an approximate numerical sum. 
+Usually this is considered after [[Wick rotation]] from [[Minkowski spacetime]] $\mathbb{R}^{3,1}$ to [[Euclidean field theory]] on a [[lattice (in a vector space, etc.)|lattice]] inside $\mathbb{R}^3 \times S^1$, and typically one further identifies the spatial directions periodically to arrive at [[Euclidean]] [[gauge field theory]] on a [[lattice (in a vector space, etc.)|lattice]] inside the [[4-torus]] $T^4$.
 
-Specifically for [[QCD]] this is also called _lattice QCD_, etc.
+This discretization and further [[KK-compactification|compactification]] has the effect that the would-be [[path integral]] of the theory becomes an ordinary [[finite number|finite]]- (albeit high-)[[dimension|dimensional]] [[integral]], hence well defined and in principle amenable to explicit computation. 
 
-Hence this yieds numerical values for [[correlation functions]] etc. which are non-perturbative in the [[coupling constant]] but nevertheless approximate, due to finite lattice spacing and numerical error. 
+This allows to consider ([[Wick rotation|Wick-rotated]]) [[path integral quantization]] at fixed lattice spacing, this being, in principle, a [[non-perturbative field theory|non-perturbative]] [[quantization]], in contrast to [[perturbative quantum field theory]] in terms of a [[Feynman perturbation series]]. On the other hand, much of the subtlety of the latter now appears in issues of taking the continuum limit where the the lattice spacing is sent to zero. In particular, different choices of discretizing the [[path integral]] over the lattice correspond to the [[renormalization]]-freedom seen in [[perturbative quantum field theory]].
 
-Since the explicit [[non-perturbative quantum field theory|non-perturbative]] formulation of [[Yang-Mills theories]] such as [[QCD]] is presently wide open (see also at _[[quantization of Yang-Mills theory]]_) these numerical simulation provide, besides [[experiment]] (e.g. of in particular of [[quark-gluon plasma]]), a key insight into the non-perturbative nature of the theory, such as its [[instanton sea]] ([Gruber 13](#Gruber13)) and the phenomenona of [[confinement]] and [[mass gap]].
+Hence lattice gauge theory lends itself to brute-force simulation of [[quantum field theory]] on electronic computers, and the term is often understood by default in this sense. See [Fodor-Hoelbling 12](#FodorHoelbling12) for a good account.
 
-Despite the word "theory", lattice gauge theory is more like "computer-simpulated [[experiment]]". While it allows to see phenomena of QCD, it usually cannot provide a conceptual explanation, and of course not a mathematical derivation.
+
+Since the explicit [[non-perturbative quantum field theory|non-perturbative]] formulation of [[Yang-Mills theories]] such as [[QCD]] is presently wide open (see the references at [[mass gap]] and at _[[quantization of Yang-Mills theory]]_) these numerical simulation provide, besides actual [[experiment]], key insight into the non-perturbative nature of the theory, such as its [[instanton sea]] ([Gruber 13](#Gruber13)) and notably the phenomenonon of [[confinement]]/[[mass gap]] and explicit computation of [[hadron]] [[masses]] ([Durr et al. 09](#Durr09), see [Fodor-Hoelbling 12, section V](#FodorHoelbling12))
+
+Despite the word "theory", lattice gauge theory is more like "computer-simpulated [[experiment]]". While it allows to see phenomena of QCD, it usually cannot provide a conceptual explanation, and of course not a mathematical derivation of problems such as [[confinement]]/[[mass gap]]. Lattice gauge theory is to the [[confinement]]/[[mass gap]]-problems as explicit computation of zeros of the [[Riemann zeta-function]] is to the [[Riemann hypothesis]] (see [there](#Riemann+hypothesis#ReferencesComputerChecks))).
 
 
 
@@ -44,6 +47,10 @@ Despite the word "theory", lattice gauge theory is more like "computer-simpulate
 * [[string bit model]]
 
 ## References
+
+The concept was introduced in
+
+* {#Wilson74} [[Kenneth Wilson]],  _Confinement of quarks, Phys. Rev. D10, 2445, 1974 ([doi:10.1103/PhysRevD.10.2445](https://doi.org/10.1103/PhysRevD.10.2445))
 
 ### General
 
@@ -83,7 +90,7 @@ See also
 
 Specifically computation of [[hadron]]-[[masses]] (see [[mass gap problem]]) in lattice QCD is reported here:
 
-* S. Durr, Z. Fodor, J. Frison, C. Hoelbling, R. Hoffmann, S.D. Katz, S. Krieg, T. Kurth, L. Lellouch, T. Lippert, K.K. Szabo, G. Vulvert,
+* {#Durr09} S. Durr, Z. Fodor, J. Frison, C. Hoelbling, R. Hoffmann, S.D. Katz, S. Krieg, T. Kurth, L. Lellouch, T. Lippert, K.K. Szabo, G. Vulvert,
 
   _Ab-initio Determination of Light Hadron Masses_,
 
