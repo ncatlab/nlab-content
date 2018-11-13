@@ -51,12 +51,12 @@ The natural exponential map is [[periodic function|periodic]] (with period $2 \p
 $$ \array {
    \ln x & \coloneqq C + \int_{\mathrm{e}^C}^x \frac{1}{t} \,\mathrm{d}t,\\
    \log_{[w]} x & \coloneqq \frac{\ln x}{w} .\\
-} \]
+} $$
 
 
 ### Logarithms and Lie groups
 
-In the classical examples, the multiplicative groups $\mathbb{R}^+$ and $\mathbb{C}^*$ are both [[Lie groups]].  The additive groups $\mathbb{R}$ and $\mathbb{C}$ are also Lie groups, but they are more than this: they are [[Lie algebras]].  (The additive group of a Lie algebra is always a Lie group.  Actually, since these are [[abelian Lie algebras]], their Lie-algebra structure is easy to miss, but of course they are [[vector spaces]].)  And what\'s more, each additive group is *the* Lie algebra of the corresponding Lie group.
+In the classical examples, the multiplicative groups $\mathbb{R}^+$ and $\mathbb{C}^*$ both [[Lie groups]].  The additive groups $\mathbb{R}$ and $\mathbb{C}$ are also Lie groups, but they are more than this: they are [[Lie algebras]].  (The additive group of a Lie algebra is always a Lie group.  Actually, since these are [[abelian Lie algebras]], their Lie-algebra structure is easy to miss, but of course they are [[vector spaces]].)  And what\'s more, each additive group is *the* Lie algebra of the corresponding Lie group.
 
 This generalises.  Given any [[Lie group]] $G$, let $\mathfrak{g}$ be its [[Lie algebra]].  Then we have an [[exponential map]] $\exp\colon \mathfrak{g} \to G$, which is [[surjection|surjective]] under certain conditions (most famously when $G$ is [[connected space|connected]] and [[compact space|compact]], but also in the classical cases, even though $G$ is not compact).  More generally, given any [[automorphism]] $\phi$ of $\mathfrak{g}$, we have a map $x \mapsto \exp(\phi(x))$, which is a [[homomorphism]] of Lie groups.  Any [[local section]] of this map may be called a __logarithm base $\phi$__ on $G$ (denoted $\log_{[\phi]}$ with the bracket as in the previous section); any local section of $\exp$ itself may be called a __natural logarithm__ on $G$.
 
