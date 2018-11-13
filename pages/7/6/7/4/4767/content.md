@@ -1,4 +1,3 @@
-
 # Logarithms
 * table of contents
 {: toc}
