@@ -92,6 +92,8 @@ Discussion can be found [here](http://mathoverflow.net/a/114666/2926) and [here]
 
 * the [[general linear group]] over [[prime fields]] are finit, such as [[GL(2,3)]]
 
+* [[wallpaper group]]
+
 * see also at _[[finite abelian group]]_.
 
 [[!include ADE -- table]]
