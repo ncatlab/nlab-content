@@ -20,7 +20,15 @@
 
 ## Idea
 
-Where an ordinary [[manifold]] is a [[space]] locally modeled on [[Cartesian spaces]], an _orbifold_ is, more generally, a [[space]] that is locally modeled on [[Lie groupoid|smooth]] [[action groupoids]] (="stack quotients") of a [[finite group]] [[action|acting]] on a [[Cartesian space]].
+An [[orbifold]] is much like a [[smooth manifold]] but possibly with [[singularities]] of the form of [[fixed points]] of [[group]]-[[actions]].
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/OrbifoldTypes.jpg" width="240">
+</div>
+
+Where a [[smooth manifold]] is a [[space]] locally modeled on [[Cartesian spaces]]/[[Euclidean spaces]] $\mathbb{R}^n$, an _orbifold_ is, more generally, a [[space]] that is locally modeled on [[Lie groupoid|smooth]] [[action groupoids]] ([[homotopy quotients]]) $\mathbb{R}^n\sslash G$ of a [[finite group]] $G$ [[action|acting]] on a [[Cartesian space]].
+
+> graphics grabbed from [Hyde-Ramsden-Robins 14](#HydeRamsdenRobins14)
 
 This turns out to be equivalent ([Moerdijk](#Moerdijk), [Moerdijk-Pronk](#MoerdijkPronk)) to saying that an orbifold is a [[proper groupoid|proper]] [[étale groupoid|étale]] [[Lie groupoid]]. ([[Morita equivalence|Morita equivalent]] Lie groupoids correspond to the same orbifolds.)
 
@@ -64,8 +72,18 @@ It has been noticed that the topological invariants of the underlying topologica
 
 * For $\mathcal{G}$ any orbifold, then the [[mapping space]] $\mathcal{G}^{\Pi(S^1)} = \mathcal{G}^{B\mathbb{Z}}$ is again an orbifold, called the [[inertia orbifold]].
 
+* [[lens spaces]]
+
+* [[ADE singularities]]
+
+* [[metric cones]]
+
 
 ## Related concepts
+
+* [[Riemannian orbifold]]
+
+  * [[flat orbifold]]
 
 * [[discrete torsion]]
 
@@ -103,18 +121,37 @@ Orbifolds in [[string theory]]:
 
 ### General
 
-Original sources on orbifolds include
+The concept originates in
 
-* I. Satake, _On a generalisation of the notion of manifold_, Proc. Nat. Acad. Sci. U.S.A. 42 (1956), 359&#8211;363.
- {#Satake}
+* {#Satake} I. Satake, _On a generalisation of the notion of manifold_, Proc. Nat. Acad. Sci. U.S.A. 42 (1956), 359&#8211;363.
+ 
 
 * I. Satake, _The Gauss&#8211;Bonnet theorem for $V$-manifolds_, J. Math. Soc. Japan 9 (1957), 464&#8211;492.
 
 * [[William Thurston]], _Three-dimensional geometry and topology,_ preliminary draft, University of Minnesota, Minnesota, (1992)
  {#Thurston} which in completed and revised form is available as his book: _The Geometry and Topology of Three-Manifolds;_ in particular the orbifold discussion is in [chapter 13](http://library.msri.org/books/gt3m/PDF/13.pdf).
 
-Discussion of orbifold as [[Lie groupoids]]/[[differentiable stacks]] is in
+Survey of basic orbifold theory:
 
+* Daryl Cooper, Craig Hodgson, Steve Kerckhoff, _Three-dimensional Orbifolds and Cone-Manifolds_,  MSJ Memoirs Volume 5, 2000 ([pdf](https://web.math.ucsb.edu/~cooper/37.pdf), [euclid:1389985812](https://projecteuclid.org/euclid.msjm/1389985812))
+
+* {#Kaye07} Adam Kaye, _Two-Dimensional Orbifolds_, 2007 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2007/REUPapers/FINALFULL/Kaye.pdf))
+
+* Michael Davis, _Lectures on orbifolds and reflection groups_, 2008 ([pdf](https://math.osu.edu/sites/math.osu.edu/files/08-05-MRI-preprint.pdf))
+
+* {#Porti09} Joan Porti, _An introduction to orbifolds_, 2009 ([pdf](http://mat.uab.es/~porti/orbifoldLeiden.pdf))
+
+On [[Riemannian orbifolds]]:
+
+* Christian Lange, _Orbifolds from a metric viewpoint_ ([arXiv:1801.03472](https://arxiv.org/abs/1801.03472))
+
+* Renato G. Bettiol, Andrzej Derdzinski, Paolo Piccione, _Teichmüller theory and collapse of flat manifolds_, Annali di Matematica (2018) 197: 1247 ([arXiv:1705.08431](https://arxiv.org/abs/1705.08431), [doi:10.1007/s10231-017-0723-7](https://doi.org/10.1007/s10231-017-0723-7))
+
+* {#HydeRamsdenRobins14} S. T. Hyde, S. J. Ramsden and V. Robins, _Unification and classification of two-dimensional crystalline patterns using orbifolds_, Acta Cryst. (2014). A70, 319-337 ([doi:10.1107/S205327331400549X](https://doi.org/10.1107/S205327331400549X))
+
+
+
+Discussion of orbifold as [[Lie groupoids]]/[[differentiable stacks]] is in
 
 * {#Moerdijk} [[Ieke Moerdijk]], _Orbifolds as Groupoids: an Introduction_ ([arXiv:math.DG/0203100](http://arxiv.org/abs/math.DG/0203100))
  
@@ -191,6 +228,7 @@ A review with further pointers is in
  
 
 category: Lie theory
+
 
 
 [[!redirects orbifolds]]
