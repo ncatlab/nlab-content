@@ -71,7 +71,7 @@ That this indeed defines a monad follows from the universal properties of the Ka
 
 * [[ultrafilter]]
 
-* [[Giry monad]]
+* [[idempotent monad]]
 
 
 ## Link
@@ -94,11 +94,13 @@ The role in shape theory is discussed in
 
 Other references include
 
+* C. Casacuberta, A. Frei, _Localizations as idempotent approximations to completions_ , JPAA **142** (1999) no. 1 pp.25–33. ([draft](http://atlas.mat.ub.es/personals/casac/articles/cfre1.pdf))
+
 * Yves Diers, _Complétion monadique_ , Cah. Top. Géom. Diff. Cat. **XVII** no.4 (1976) pp.362-379. ([numdam](http://www.numdam.org/item/?id=CTGDC_1976__17_4_363_0))
 
 * S. Katsumata, T. Sato, [[Tarmo Uustala|T. Uustala]], _Codensity lifting of monads and its dual_ , arXiv:1810.07972 (2012). ([abstract](https://arxiv.org/abs/1810.07972))
 
-
+* [[Joachim Lambek|J. Lambek]], B. A. Rattray, _Localization and Codensity Triples_ , Comm. Algebra **1** (1974) pp.145-164.
 
 
 [[!redirects codensity monads]]
@@ -106,3 +108,4 @@ Other references include
 [[!redirects density comonads]]
 [[!redirects Codensity monad]]
 [[!redirects Codensity monads]]
+[[!redirects codensity triple]]
