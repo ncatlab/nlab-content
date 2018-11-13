@@ -48,6 +48,11 @@ The [[Lie algebra]] of $Iso(X,g)$ is spanned by the [[Killing vector]]s of $(X,g
 
 * The isometry group of [[de Sitter spacetime]] is the [[de Sitter group]].
 
+Special [[subgroups]] of isometry groups:
+
+* [[finite rotation group]]
+
+* [[wallpaper group]]
 
 ## Related concepts
 
