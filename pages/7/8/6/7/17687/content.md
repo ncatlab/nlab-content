@@ -11,7 +11,7 @@ $$ \lim\inf_{n \to \infty} x_n = \lim_{n \to \infty} \inf_{m \geq n} x_m $$
 and
 $$ \lim\sup_{n \to \infty} x_n = \lim_{n \to \infty} \sup_{m \geq n} x_m .$$
 
-Every [[partial order]] on a set defines a convergence structure (the [[order convergence]]) under which a [[net]] $(x_n)_n$ converges to a point $x_\infty$ iff there exist a [[monotone increasing]] net $y$ and a [[monotone decreasing]] net $z$ such that $x_\infty = \sup_n y_n = \inf_n z_n$ and, for each $y$-index $i$ and $z$-index $j$, it is $n$-eventually true that $y_i \leq x_n \leq z_j$.
+Every [[partial order]] on a set defines a convergence structure (the [[order convergence]]) under which a [[net]] $(x_n)_n$ converges to a point $x_\infty$ iff there exist a [[monotone increasing function|monotone increasing]] net $y$ and a [[monotone decreasing function|monotone decreasing]] net $z$ such that $x_\infty = \sup_n y_n = \inf_n z_n$ and, for each $y$-index $i$ and $z$-index $j$, it is $n$-eventually true that $y_i \leq x_n \leq z_j$.
 In this case, we can also write
 $$ \lim\inf F = \sup_{A \in F} \inf A $$
 and
