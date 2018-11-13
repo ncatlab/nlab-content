@@ -70,8 +70,11 @@ This generalises.  Given any [[Lie group]] $G$, let $\mathfrak{g}$ be its [[Lie 
 
 
 [[!redirects logarithm]]
+
 [[!redirects logarithms]]
+
 [[!redirects logarithmic]]
 
 [[!redirects natural logarithm]]
+
 [[!redirects natural logarithms]]
