@@ -244,7 +244,7 @@ The diagrammatic definition of a Hopf algebra, is also in the [Wikipedia entry](
 
 and discussed in detail in 
 
-* {#Bakke} T&#248;rris Kol&#248;en Bakke, _Hopf algebras and monoidal categories_ (2007) ([pdf](http://munin.uit.no/bitstream/handle/10037/1084/finalthesis.pdf;jsessionid=C0D15EADBDC35E93D95D2DD090411004?sequence=1))
+* {#Bakke} T&#248;rris Kol&#248;en Bakke, _Hopf algebras and monoidal categories_ (2007) ([pdf](https://munin.uit.no/bitstream/handle/10037/1084/finalthesis.pdf))
  
 
 Discussion with an eye towards [[stable homotopy theory]] and the [[Steenrod algebra]] is in 
