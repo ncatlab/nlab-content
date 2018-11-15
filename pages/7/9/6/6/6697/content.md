@@ -111,8 +111,7 @@ Asymptotically anti-de Sitter spaces play a central role in the realization of t
 
 * C. Frances, _The conformal boundary of anti-de Sitter space-times_, in  _AdS/CFT correspondence: Einstein metrics and their conformal boundaries_ , 205--216, IRMA Lect. Math. Theor. Phys., 8, Eur. Math. Soc., Z&#252;rich, 2005 ([pdf](http://mahery.math.u-psud.fr/~frances/ads-cft2.pdf))
 
-* [[Gary Gibbons]], _Anti-de-Sitter spacetime and its uses_
- ([arXiv:1110.1206](http://arxiv.org/abs/1110.1206))
+* [[Gary Gibbons]], _Anti-de-Sitter spacetime and its uses_ ([arXiv:1110.1206](http://arxiv.org/abs/1110.1206))
 
 * Wikipedia (English): [anti de Sitter space](http://en.wikipedia.org/wiki/Anti_de_Sitter_space)
 
