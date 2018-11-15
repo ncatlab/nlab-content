@@ -379,7 +379,7 @@ $$
 
 exhibits $\mathbf{B}\hat G$ as the bundle gerbe over $\mathbf{B}G$ (in [[equivariant cohomology]] of the point, if you wish) with Dixmier-Douady class $c$.
 
-### Tautological bunde gerbe
+### Tautological bundle gerbe
 
 Let $X$ be a [[simply connected]] [[smooth manifold]] and $H \in \Omega^3(X)_{cl, int}$  a degree 3 [[differential form]] with integral periods.
 
