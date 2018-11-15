@@ -236,7 +236,6 @@ which is based on
 [[!redirects Higgs fields]]
 
 [[!redirects Higgs mechanism]]
-[[!redirects Higgs mechanism]]
 
 [[!redirects Higgs effect]]
 [[!redirects Higgs effects]]
