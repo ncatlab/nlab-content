@@ -13,6 +13,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -112,6 +113,16 @@ A related controversial article that spawned a lot of discussion is
 
 * Ahmed Almheiri, [[Donald Marolf]], [[Joseph Polchinski]], James Sully, _Black holes: complementarity or firewalls?_, ([arXiv:1207.3123](http://arxiv.org/abs/arXiv:1207.3123))
   
+### Via Wick-rotated thermal field theory
+
+Discussion via [[Wick rotation]] to [[Euclidean field theory]] on spacetimes with compact/periodic Euclidean time ([[thermal field theory]] on [[curved spacetimes]]) is in 
+
+* {#FullingRuijsenaars87} S.A. Fulling, S.N.M. Ruijsenaars, _Temperature, periodicity and horizons_, Physics Reports Volume 152, Issue 3, August 1987, Pages 135-176 ([pdf](https://www1.maths.leeds.ac.uk/~siru/papers/p26.pdf), <a href="https://doi.org/10.1016/0370-1573(87)90136-0">doi:10.1016/0370-1573(87)90136-0</a>)
+
+
+* {#GibbonsPerry78} [[Gary Gibbons]], Malcolm J. Perry, _Black Holes and Thermal Green Functions_, Vol. 358, No. 1695 (1978) ([jstor:79482](https://www.jstor.org/stable/79482))
+
+
 ### Interpretation in string theory
 
 Rieview of interpretation of [[black holes in string theory]] includes 
