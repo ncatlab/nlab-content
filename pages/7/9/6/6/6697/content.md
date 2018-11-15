@@ -113,11 +113,20 @@ Asymptotically anti-de Sitter spaces play a central role in the realization of t
 
 * [[Gary Gibbons]], _Anti-de-Sitter spacetime and its uses_ ([arXiv:1110.1206](http://arxiv.org/abs/1110.1206))
 
+* {#Natsuume15} [[Makoto Natsuume]], section 6 of _AdS/CFT Duality User Guide_, Lecture Notes in Physics 903, Springer 2015 ([arXiv:1409.3575](https://arxiv.org/abs/1409.3575))
+
+
 * Wikipedia (English): [anti de Sitter space](http://en.wikipedia.org/wiki/Anti_de_Sitter_space)
 
 * Abdelghani Zeghib, _On closed anti de Sitter spacetimes_, Math. Ann. 310, 695&#8211;716 (1998) ([pdf](http://www.umpa.ens-lyon.fr/~zeghib/Anti.de.Sitter.pdf))
 
 * Leszek M. Sokolowski, _The bizarre anti-de Sitter spacetime_, International Journal of Geometric Methods in Modern Physics 13 no.9 (2016) 1630016 ([arXiv:1611.01118](https://arxiv.org/abs/1611.01118))
+
+Discussion of thermal [[Wick rotation]] on global [[anti-de Sitter spacetime]]  (which is already periodic in _real_ time) to [[Euclidean field theory]] with periodic _imaginary_ time is in
+
+* {#AllenFolacciGibbons87} B. Allen, A. Folacci, [[Gary Gibbons]], _Anti-de Sitter space at finite temperature_, Physics Letters B Volume 189, Issue 3, 7 May 1987, Pages 304-310 (<a href="https://doi.org/10.1016/0370-2693(87)91437-7">doi:10.1016/0370-2693(87)91437-7</a>)
+
+
 
 [[!redirects anti de Sitter space]]
 [[!redirects anti de Sitter spaces]]
