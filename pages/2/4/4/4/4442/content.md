@@ -187,6 +187,8 @@ One proposal for a formalization of a toy version in the context of [[AQFT]] is 
 
      * [[KLT relations]]
 
+* [[black hole in anti de Sitter spacetime]]
+
 * [[S-matrix theory]]
 
 * [[anti de Sitter gravity]]
@@ -220,6 +222,10 @@ Detailed discussion of how [[Green-Schwarz action functionals]] for super $p$-br
 * [[Gianguido Dall'Agata]], Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, Mario Trigiante, _The $Osp(8|4)$ singleton action from the supermembrane_, Nucl.Phys.B542:157-194, 1999 ([arXiv:hep-th/9807115](http://arxiv.org/abs/hep-th/9807115))
 
 * [[Paolo Pasti]], [[Dmitri Sorokin]], Mario Tonin, _Branes in Super-AdS Backgrounds and Superconformal Theories_ ([arXiv:hep-th/9912076](http://arxiv.org/abs/hep-th/9912076))
+
+Further details were provided in
+
+* {#Giraldo12] Carlos Andrés Cardona Giraldo, _Correlation functions in AdS/CFT correspondence_, 2012 ([spire:1652794](inspirehep.net/record/1652794), [pdf](https://digital.bl.fcen.uba.ar/download/tesis/tesis_n5179_CardonaGiraldo.pdf))
 
 See also at _[super p-brane -- As part of the AdS-CFT correspondence](Green-Schwarz+action+functional#AsPartOfTheAdSCFTCorrespodence)_.
 
