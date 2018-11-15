@@ -58,6 +58,10 @@ Some candidate [[astrophysics|astrophysical]] objects which seem to point to bla
 
 [[!include charged and rotating black holes -- table]]
 
+$\,$
+
+* [[black hole in anti-de Sitter spacetime]]
+
 ## Related concepts
 
 * [[Schwarzschild radius]]
