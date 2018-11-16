@@ -80,10 +80,15 @@
 
 * [[Clay Cordova]], [[Thomas Dumitrescu]], [[Kenneth Intriligator]], _Deformations of Superconformal Theories_, ([arXiv:1602.01217](https://arxiv.org/abs/1602.01217))
 
+[[!redirects SCFTs]]
+
+
 [[!redirects supersymmetric conformal field theory]]
+[[!redirects supersymmetric conformal field theorues]]
+
+
 [[!redirects superconformal field theory]]
 
-[[!redirects SCFTs]]
 [[!redirects supersymmetric conformal field theories]]
 [[!redirects superconformal field theories]]
 
