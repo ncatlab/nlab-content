@@ -67,6 +67,6 @@ By the [[adjoint functor theorem]] for total categories, a total category is tot
 
 * Rory Lucyshyn-Wright, *Totally distributive toposes*.  [spnet](https://selectedpapers.net/arxiv/1108.4032).
 
-* [[Francisco Marmolejo]], [[Bob Rosebrugh]], and [[Richard Wood]], *Completely and totally distributive categories I*, JPAA 216 no. 8-9 (2012).  [PDF](http://www.mta.ca/~rrosebru/articles/ctd.pdf&#8206;)
+* [[Francisco Marmolejo]], [[Bob Rosebrugh]], and [[Richard Wood]], *Completely and totally distributive categories I*, JPAA 216 no. 8-9 (2012).  [PDF](http://www.mta.ca/~rrosebru/articles/ctd.pdf)
 
 [[!redirects totally distributive categories]]
