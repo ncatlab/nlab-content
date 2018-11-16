@@ -1,7 +1,19 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 In theoretical physics, one often considers [[gauge theory]] models whose symmetries are groups of large matrices, e.g. $U(N)$ or $O(N)$. The limit of such theories for $N\to \infty$ has often remarkable properties and [[string theory|string-like]] features. 
 
 This limit is sometimes appearing in its own right, but sometimes it is just considered as an approximation for a system with fixed finite $N$. One of the features is that in the large N limit is that non-planar Feynman diagrams loose their importance and that the correlation functions satisfy certain decoupling/factorization rule. The behaviour is studied in terms of expansion in $1/N$ whose square has a simialr role to Planck constant in [[semiclassical approximation]] limit of quantum mechanics. 
+
+## Related concepts
+
+* [[AdS-CFT duality]]
+
+## References
 
 * A. A. Migdal, _Loop equations and 1/N expansion_, Physics Reports, 102 (4), 199-290 (1983) <a href="http://dx.doi.org/10.1016%2F0370-1573%2883%2990076-5">doi</a> 
 * Laurence G. Yaffe, _Large N limits as classical mechanics_, Rev. Mod. Phys. __54__, 407&#8211;435 (1982) [pdf](http://rmp.aps.org/pdf/RMP/v54/i2/p407_1)
