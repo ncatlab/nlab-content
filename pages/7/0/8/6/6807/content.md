@@ -95,6 +95,16 @@ The interpretation of the BFSS model as a regularized [[M2-brane]] [[worldvolume
 
 * {#DasguptaNicolaiPlefka02} Arundhati Dasgupta, [[Hermann Nicolai]], [[Jan Plefka]], _An Introduction to the Quantum Supermembrane_, Grav.Cosmol.8:1,2002; Rev.Mex.Fis.49S1:1-10, 2003 ([arXiv:hep-th/0201182](http://arxiv.org/abs/hep-th/0201182))
 
+### Ground state problem
+
+There remains the problem of existence of a sensible ground state of the BFSS model. 
+
+For a new attempt and pointers to previous attempts see
+
+* L. Boulton, M.P. Garcia del Moral, A. Restuccia, _The ground state of the D=11 supermembrane and matrix models on compact regions_, Nuclear Physics B
+Volume 910, September 2016, Pages 665-684 ([arXiv:1504.04071](https://arxiv.org/abs/1504.04071))
+
+
 ### Graviton scattering
 
 Computation of [[graviton]] [[scattering amplitudes]]:
