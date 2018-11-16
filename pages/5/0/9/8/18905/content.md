@@ -245,6 +245,13 @@ Discussion of thermal [[Wick rotation]] on global [[anti-de Sitter spacetime]] (
 
 * {#AllenFolacciGibbons87} B. Allen, A. Folacci, [[Gary Gibbons]], _Anti-de Sitter space at finite temperature_, Physics Letters B Volume 189, Issue 3, 7 May 1987, Pages 304-310 (<a href="https://doi.org/10.1016/0370-2693(87)91437-7">doi:10.1016/0370-2693(87)91437-7</a>)
 
+The perturbative expansion of thermal field theory around the infinite-temperature-limit (i.e. around $\beta = 1/T = 0$) is discussed in
+
+* {#Jourjine84} Alexander N Jourjine, _Quantum field theory in the infinite temperature limit_, Annals of Physics Volume 155, Issue 2, July 1984, Pages 305-332 (<a href="https://doi.org/10.1016/0003-4916(84)90003-4">doi:10.1016/0003-4916(84)90003-4</a>)
+
+* [[Klaas Landsman]], _Limitations to dimensional reduction at high temperature_, Nuclear Physics B Volume 322, Issue 2, 14 August 1989, Pages 498-530 (<a href="https://doi.org/10.1016/0550-3213(89)90424-0">doi:10.1016/0550-3213(89)90424-0</a>)
+
+* T. Reisz, _Realization of dimensional reduction at high temperature_, Z. Phys. C - Particles and Fields (1992) 53: 169 ([doi:10.1007/BF01483886](https://doi.org/10.1007/BF01483886))
 
 See also
 
