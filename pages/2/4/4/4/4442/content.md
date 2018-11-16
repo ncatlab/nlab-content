@@ -20,11 +20,28 @@
 
 ## Idea
 
-The _AdS-CFT correspondence_ (or _[Maldacena](Maldacena) duality_ ) is a class of cases for which there is strong evidence that it realizes the more general and more conjectural [[holographic principle|holographic duality]]:
+The _AdS-CFT correspondence_ is at its basis the observation ([Witten 98, Section 2.4](#Witten98)) that the classical [[action functionals]] for various [[field (physics)|fields]] coupled to [[Einstein gravity]] on [[anti de Sitter spacetime]] are, when expressed as [[functions]] of the [[asymptotic boundary]]-values of the [[field (physics)|fields]], equal to the [[generating functions]] for the [[correlators]]/[[n-point functions]] of a [[conformal field theory]] on that asymptotic boundary. 
 
-the conjectural Ads/CFT correspondence asserts an identification of the [[state]]s of [[quantum gravity]] given by [[string theory]] on an [[asymptotically anti de Sitter spacetime|asymptotically]] [[anti-de Sitter spacetime]] with [[correlator]]s of a [[CFT|superconformal]] [[Yang-Mills theory]] on the asymptotic boundary.
+In extrapolation of these elementary computations, the AdS/CFT correspondence [[conjecture|conjecturally]] extends to a more general identification of [[states]] of [[gravity]] ([[quantum gravity]]) on asymptotically [[anti de Sitter spacetimes]] of [[dimension]] $d+1$ with [[correlators]]/[[n-point functions]] of [[conformal field theories]] on the [[asymptotic boundary]] of dimension $d$ ([Gubser-Klebanov-Polyakov 98 (12)](#GubserKlebanovPolyakov98), [Witten 98, (2.11)](#Witten98)), such that [[perturbative quantum field theory|perturbation theory]] on one side of the correspondence relates to [[non-perturbative effects|non-perturbation]] on the other side.
+
+While this works to some extent quite generally (see e.g. [Natsuume 15](#Natsuume15) for review), the tightest form of the correspondence relates the [[large N limit]] of [[superconformal field theories]] ([[super Yang-Mills theories]]) on the [[asymptotic boundaries]] of [[near-horizon limits]] of $N$ coincident [[black brane|black]] [[M2-brane]]/[[D3-brane]]/[[M5-brane]] to corresponding sectors of the [[string theory]]/[[M-theory]] [[quantum gravity]] in the [[bulk]] [[spacetime]] away from the brane.
+
+A quick way to see that these [[supersymmetric]]-cases of AdS/CFT must be special is to observe that these are the only dimensions in which there are [[super anti de Sitter spacetime]]-enhancement of [[anti de Sitter spacetime]], matching the classification of simple [[superconformal geometry|superconformal symmetries]], see [there](supersymmetry#ClassificationSuperconformal).
+
 
 [[!include superconformal symmetry -- table]]
+
+Before the proposal for the actual matching rule of ADS/CFT ([Gubser-Klebanov-Polyakov 98 (12)](#GubserKlebanovPolyakov98), [Witten 98, (2.11)](#Witten98)) it was by matching of [[BPS-states]] in these situations that a AdS/CFT correspondence was proposed in ([Maldacena 97a](#Maldacena97a), [Maldacena 97b](#Maldacena97b)), and these articles are now widely regarded as the origin of the idea of the AdS/CFT correspondence, even though there have of been precursors:
+
+Generally, AdS/CFT correspondence is an incarnation of [[open/closed string duality]], which is based on the simple observation that the [[string scattering amplitude]] of a [[cylinder]]-shaped [[worldsheet]] has two equivalent interpretations: On the one hand, reading [[worldsheet]]-time along the [[circle]]-direction of the cylinder, it is a [[loop order|1-loop]] [[open string]]-[[vacuum amplitude]] for an [[open string]] attached to some [[D-brane]], while on the other hand, with [[worldsheet]]-time real in the orthogonal direction, it is a [[closed string]] [[loop order|tree-level]] amplitidude describing a [[closed string]] emanating from/absorbed by that [[D-brane]]. Since the excitations of the [[open string]] are the quanta of the ("[[Chan-Paton gauge field|Chan-Paton]]")-[[gauge fields]] on the [[D-brane]], while the excitations of the [[closed string]] include the [[gravitons]] witnessing the [[gravity|gravitational]] backreaction of the D-branes, this already indicates that there must be some close relation between the [[worldvolume]] [[super Yang-Mills theory]] on the [[D-brane]] and the [[quantum gravity]] of the ambient [[bulk]] [[spacetime]].
+
+More specifically, it was shown in ([Duff-Sutton 88](#DuffSutton88), [Duff 98](#Duff98)) that the field theory of small perturbation  of a [[Green-Schwarz sigma-model]] for a [[fundamental brane]] stretched over the [[asymptotic boundary]] of the AdS  [[near horizon geometry]] of its own [[black brane]] incarnation is, after [[diffeomorphism]] [[gauge fixing]], a [[conformal field theory]]. This was further developed in [Claus-Kallosh-Proeyen 97](#ClausKalloshProeyen97), [DGGGTT 98](#DGGGTT98), [Claus-Kallosh-Kumar-Townsend 98](#ClausKalloshKumarTownsend98), [Pasti-Sorokin-Tonin 99](#PastiSorokinTonin99). See also at _[super p-brane -- As part of the AdS-CFT correspondence](Green-Schwarz+action+functional#AsPartOfTheAdSCFTCorrespodence)
+
+For the archetypical case of AdS/CFT relating [[N=4 D=4 super Yang-Mills theory]] to [[type IIB string theory]] on [[super anti de Sitter spacetime]] $AdS_5 \times S^5$, fine detailed checks of the correspondence have been performed ([Beisert et al. 10](#BeisertEtAl10), [Escobedo 12](#Escobedo12)), see the section _[Checks](#Checks)_ below. 
+
+If one relaxes the various assumptions that go into this exact form of the correspondence ([[conformal invariance]], [[supersymmetry]], [[large N limit]], [[anti de Sitter spacetime|anti de Sitter geometry]]) there is still a correspondence, albeit less exact. Such approximate forms of the AdS/CFT correspondence are being argued to be of use for understanding of the [[quark-gluon plasma]] in [[quantum chromodynamics]] ([Policastro-Son-Starinets 01](#PolicastroSonStarinets01)) and for various models in [[solid state physics]] (see [Hartnoll-Lucas-Sachdev 16](#HartnollLucasSachdev16)_[[AdS-CFT in condensed matter physics]]_).
+
+
 
 ## Examples
 
@@ -44,7 +61,7 @@ as well as their [[Minkowski spacetime]] and plane wave limits. These are the ma
 
 [[type II string theory]] on 5d [[anti de Sitter spacetime]] (times a 5-sphere) is dual to [[N=4 D=4 super Yang-Mills theory]] on the [[worldvolume]] of a [[D3-brane]] at the [[asymptotic boundary]]
 
-([Maldacena 97, section 2](#Maldacena97))
+([Maldacena 97, section 2](#Maldacena97a))
 
 ([Aharony-Gubser-Maldacena-Ooguri-Oz 99, section 3 and 4](#AharonyGubserMaldacenaOoguriOz99))
 
@@ -53,7 +70,7 @@ as well as their [[Minkowski spacetime]] and plane wave limits. These are the ma
 
 We list some of the conjectured statements and their evidence concerning the case of $AdS_7/CFT_6$-duality.
 
-The hypothesis ([Maldacena 97, section 3.1](#Maldacena97)) (see ([Aharony-Gubser-Maldacena-Ooguri-Oz 99, section 6.1.1](#AharonyGubserMaldacenaOoguriOz99)) for a review) 
+The hypothesis ([Maldacena 97, section 3.1](#Maldacena97a)) (see ([Aharony-Gubser-Maldacena-Ooguri-Oz 99, section 6.1.1](#AharonyGubserMaldacenaOoguriOz99)) for a review) 
 is that 
 
 * the [[6d (2,0)-superconformal QFT]] on the [[worldvolume]] of $N$ coincident [[M5-branes]] 
@@ -122,7 +139,7 @@ Analogous discussion of the 6d theory as a higher WZW analog of a 7d Chern-Simon
 [[11d supergravity]]/[[M-theory]] on the asymptotic $AdS_4$
 spacetime of an [[M2-brane]].
 
-([Maldacena 97, section 3.2](#Maldacena97), [Aharony-Gubser-Maldacena-Ooguri-Oz 99, section 6.1.2](#AharonyGubserMaldacenaOoguriOz99), [Klebanov-Torri 10](KlebanovTorri10))
+([Maldacena 97, section 3.2](#Maldacena97a), [Aharony-Gubser-Maldacena-Ooguri-Oz 99, section 6.1.2](#AharonyGubserMaldacenaOoguriOz99), [Klebanov-Torri 10](KlebanovTorri10))
 
 
 ### $AdS_3 / CFT_2$ -- Horizon limit of D1-D5 brane bound states
@@ -130,7 +147,7 @@ spacetime of an [[M2-brane]].
 
 [[D1-D5 brane system]] in [[type IIB string theory]]
 
-([Maldacena 97, section 4](#Maldacena97))
+([Maldacena 97, section 4](#Maldacena97a))
 
 ([Aharony-Gubser-Maldacena-Ooguri-Oz 99, section 5](#AharonyGubserMaldacenaOoguriOz99))
 
@@ -152,7 +169,7 @@ see also at _[[AdS3-CFT2 and CS-WZW correspondence]]_
 
 #### QCD models
 
-While all of the above horizon limits product [[super Yang-Mills theory]], one can consider certain limits of these in which they look like plain [[QCD]], at least in certain sectors. This leads to a discussion of hologrpahic description of QCD properties that are actually experimentally observed. 
+While all of the above horizon limits product [[super Yang-Mills theory]], one can consider certain limits of these in which they look like plain [[QCD]], at least in certain sectors. This leads to a discussion of holographic description of QCD properties that are actually experimentally observed. 
 
 ([Aharony-Gubser-Maldacena-Ooguri-Oz 99, section 6.2](#AharonyGubserMaldacenaOoguriOz99))
 
@@ -167,11 +184,12 @@ See the _[References -- Applications -- In condensed matter physics](#ToCondense
 ## Checks
  {#Checks}
 
-[[AdSCFTFrolovTseytlinLimitCheck.jpg:file]]
+At the heart of the duality is the observation that the classical [[action functionals]] for various [[field (physics)|fields]] coupled to [[Einstein gravity]] on [[anti de Sitter spacetime]] are, when expressed as [[functions]] of the [[asymptotic boundary]] values of the [[field (physics)|fields]], equal to the [[generating functions]] for the [[correlators]]/[[n-point functions]] of a [[conformal field theory]] on that asymptotic boundary. 
 
-Detailed checks have been performed matching the spectrum of the dilatation operator of [[N=4 D=4 super Yang-Mills theory]] to the corresponding spectrum of the [[Green-Schwarz superstring]] on the [[super anti de Sitter spacetime]] $AdS_5 \times S^5$ are reported in [Beisert et al. 10](#BeisertEtAl10), [Escobedo 12](#Escobedo12)
+These computations were laid out in [Witten 98, section 2.4 "Some sample computation"](#Witten98). These follow from elementary manipulation in [[differential geometry]] (involving neither [[supersymmetry]] nor [[string theory]]).
 
-[[AdSCFTFrolovTseytlinLimitCheck.jpg:file]]
+For the more ambitious matching of the spectrum of the dilatation operator of [[N=4 D=4 super Yang-Mills theory]] to the corresponding spectrum of the [[Green-Schwarz superstring]] on the [[super anti de Sitter spacetime]] $AdS_5 \times S^5$ detailed checks are summarized in [Beisert et al. 10](#BeisertEtAl10), [Escobedo 12](#Escobedo12)
+
 
 <center>
 <img src="https://ncatlab.org/nlab/files/AdSCFTFrolovTseytlinLimitCheck.jpg" width="600">
@@ -224,27 +242,38 @@ One proposal for a formalization of a toy version in the context of [[AQFT]] is 
 
 The original articles are
 
-* {#Maldacena97} [[Juan Maldacena]], _The Large N limit of superconformal field theories and supergravity_, Adv. Theor. Math. Phys. 2:231, 1998, [hep-th/9711200](http://arxiv.org/abs/hep-th/9711200); 
+* {#Maldacena97a} [[Juan Maldacena]], _The Large N limit of superconformal field theories and supergravity_, Adv. Theor. Math. Phys. 2:231, 1998 ([hep-th/9711200](http://arxiv.org/abs/hep-th/9711200))
 
+* {#Maldacena97b} [[Juan Maldacena]], _Wilson loops in Large $N$ field theories_, Phys. Rev. Lett. __80__ (1998) 4859 ([hep-th/9803002](http://arxiv.org/abs/hep-th/9803002))
 
-* {#Maldacena97} [[Juan Maldacena]], _Wilson loops in Large N field theories_, Phys. Rev. Lett. __80__ (1998) 4859, [hep-th/9803002](http://arxiv.org/abs/hep-th/9803002)
+The actual rule for matching [[bulk field theory|bulk]] [[states]] to [[generating functions]] for [[boundary field theory|boundary]] [[correlators]]/[[n-point functions]] is due to
 
-The actual rule for matching [[bulk field theory|bulk]] [[states]] to [[generating functions]] for [[bondary field theory|boundary]] [[correlators]]/[[n-point functions]] is due to
+* {#GubserKlebanovPolyakov98} [[Steven Gubser]], [[Igor Klebanov]], [[Alexander Polyakov]], around (12) of _Gauge theory correlators from non-critical string theory_, Physics Letters B428: 105&#8211;114 (1998) ([hep-th/9802109](http://arxiv.org/abs/hep-th/9802109))
 
-* [[Steven Gubser]], [[Igor Klebanov]], [[Alexander Polyakov]], _Gauge theory correlators from non-critical string theory_, Physics Letters B428: 105&#8211;114 (1998),  [hep-th/9802109](http://arxiv.org/abs/hep-th/9802109)
+* {#Witten98} [[Edward Witten]], around (2.11) of _Anti-de Sitter space and holography_, Advances in Theoretical and Mathematical Physics 2: 253&#8211;291, 1998 ([hep-th/9802150](http://arxiv.org/abs/hep-th/9802150))
 
- 
-* [[Edward Witten]], _Anti-de Sitter space and holography_, Advances in Theoretical and Mathematical Physics 2: 253&#8211;291, 1998, [hep-th/9802150](http://arxiv.org/abs/hep-th/9802150)
+See also
 
-Detailed discussion of how [[Green-Schwarz action functionals]] for super $p$-branes in AdS target spaces induce, after [[diffeomorphism]] [[gauge fixing]], superconformal field theory on the [[worldvolumes]] (see _[[singleton representation]]_) includes
-
-* [[Gianguido Dall'Agata]], Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, Mario Trigiante, _The $Osp(8|4)$ singleton action from the supermembrane_, Nucl.Phys.B542:157-194, 1999 ([arXiv:hep-th/9807115](http://arxiv.org/abs/hep-th/9807115))
-
-* [[Paolo Pasti]], [[Dmitri Sorokin]], Mario Tonin, _Branes in Super-AdS Backgrounds and Superconformal Theories_ ([arXiv:hep-th/9912076](http://arxiv.org/abs/hep-th/9912076))
-
-Further details were provided in
 
 * {#Giraldo12} Carlos Andrés Cardona Giraldo, _Correlation functions in AdS/CFT correspondence_, 2012 ([spire:1652794](inspirehep.net/record/1652794), [pdf](https://digital.bl.fcen.uba.ar/download/tesis/tesis_n5179_CardonaGiraldo.pdf))
+
+
+Discussion of how [[Green-Schwarz action functionals]] for super $p$-branes in AdS target spaces induce, after [[diffeomorphism]] [[gauge fixing]], superconformal field theory on the [[worldvolumes]] (see _[[singleton representation]]_) goes back to
+
+* {#DuffSutton88} [[Mike Duff]], C. Sutton, _The Membrane at the End of the Universe_, New Sci. 118 (1988) 67-71 ([spire:268230](http://inspirehep.net/record/268230?ln=en))
+
+* {#Duff98} [[Mike Duff]], _Anti-de Sitter space, branes, singletons, superconformal field theories and all that_, Int.J.Mod.Phys.A14:815-844,1999 ([arXiv:hep-th/9808100](https://arxiv.org/abs/hep-th/9808100))
+
+and was further developed in
+
+* {#ClausKalloshProeyen97} Piet Claus, [[Renata Kallosh]], [[Antoine Van Proeyen]], _M 5-brane and superconformal $(0,2)$ tensor multiplet in 6 dimensions_, Nucl.Phys. B518 (1998) 117-150 ([arXiv:hep-th/9711161](http://arxiv.org/abs/hep-th/9711161))
+
+* {#DGGGTT98} [[Gianguido Dall'Agata]], Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, Mario Trigiante, _The $Osp(8|4)$ singleton action from the supermembrane_, Nucl.Phys.B542:157-194, 1999 ([arXiv:hep-th/9807115](http://arxiv.org/abs/hep-th/9807115))
+
+* {#ClausKalloshKumarTownsend98} Piet Claus, [[Renata Kallosh]], J. Kumar, [[Paul Townsend]], [[Antoine Van Proeyen]], _Conformal Theory of M2, D3, M5 and 'D1+D5' Branes_, JHEP 9806 (1998) 004 ([arXiv:hep-th/9801206](http://arxiv.org/abs/hep-th/9801206))
+
+
+* {#PastiSorokinTonin99} [[Paolo Pasti]], [[Dmitri Sorokin]], Mario Tonin, _Branes in Super-AdS Backgrounds and Superconformal Theories_ ([arXiv:hep-th/9912076](http://arxiv.org/abs/hep-th/9912076))
 
 See also at _[super p-brane -- As part of the AdS-CFT correspondence](Green-Schwarz+action+functional#AsPartOfTheAdSCFTCorrespodence)_.
 
@@ -257,7 +286,7 @@ Surveys and introductions include
 
 * {#Anderson04} Michael T. Anderson, _Geometric aspects of the AdS/CFT correspondence_ ([arXiv:hep-th/0403087](https://arxiv.org/abs/hep-th/0403087)) 
 
-* [[Mike Duff]], _TASI Lectures on Branes, Black Holes and Anti-de Sitter Space_ ([arXiv:hep-th/9912164](https://arxiv.org/abs/hep-th/9912164))
+* {#Duff99} [[Mike Duff]], _TASI Lectures on Branes, Black Holes and Anti-de Sitter Space_ ([arXiv:hep-th/9912164](https://arxiv.org/abs/hep-th/9912164))
 
 * [[Horatiu Nastase]], _Introduction to AdS-CFT_ ([arXiv:0712.0689](http://arxiv.org/abs/0712.0689))
 
@@ -346,8 +375,8 @@ Up to the further twists discussed there, this means that the gauge group of the
 
 In fact, in 
 
-* [[Ergin Sezgin]], P. Sundell, _Massless Higher Spins and Holography_ ([hep-th/0205131](http://arxiv.org/abs/hep-th/0205131))
- {#SezginSundell}
+* {#SezginSundell} [[Ergin Sezgin]], P. Sundell, _Massless Higher Spins and Holography_ ([hep-th/0205131](http://arxiv.org/abs/hep-th/0205131))
+ 
 
 arguments are given that the 7d theory is a [[higher spin gauge theory]] extension of $SO(6,2)$.
 
@@ -393,7 +422,7 @@ To [[black hole]] interiors:
 
 Application of [[AdS-CFT in condensed matter physics]] goes back to
 
-* [[Giuseppe Policastro]], D.T. Son, A.O. Starinets, _Shear viscosity of strongly coupled N=4 supersymmetric Yang-Mills plasma_, Phys. Rev. Lett.87:081601, 2001 ([arXiv:hep-th/0104066](http://arxiv.org/abs/hep-th/0104066))
+* {#PolicastroSonStarinets01} [[Giuseppe Policastro]], D.T. Son, A.O. Starinets, _Shear viscosity of strongly coupled N=4 supersymmetric Yang-Mills plasma_, Phys. Rev. Lett.87:081601, 2001 ([arXiv:hep-th/0104066](http://arxiv.org/abs/hep-th/0104066))
 
 A comprehensive textbook account is in
 
