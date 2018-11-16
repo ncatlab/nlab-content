@@ -805,9 +805,9 @@ The super-WZW term of the GS action functionals is invariant under [[supersymmet
 ### As part of the AdS-CFT correspondence
  {#AsPartOfTheAdSCFTCorrespodence}
 
-By the above discussion, Green-Schwarz super $p$-branes are consistent on [[superspacetimes]] that satisfy the respective higher [[supergravity]] [[equations of motion]]. These turn out to have solutions which exhibit [[black branes]] in essentially just the combinations of dimensions and supersymmetries that the original Green-Schwarz sigma-models exist in, hence they look like precisely like the [[non-perturbative quantum field theory|non-pertrubative]] avatars of whatever these [[sigma models]] give the [[perturbation theory]] of by [[second quantization]]. (See at [[black holes in string theory]] for more on this correspondence between branes in string perturbation theory and black branes in supergravity.)
+By the above discussion, Green-Schwarz super $p$-branes are consistent on [[superspacetimes]] that satisfy the respective higher [[supergravity]] [[equations of motion]]. These turn out to have solutions which exhibit [[black branes]] in essentially just the combinations of dimensions and supersymmetries that the original Green-Schwarz sigma-models exist in, hence they look precisely like the [[non-perturbative quantum field theory|non-perturbative]] avatars of whatever these [[sigma models]] give the [[perturbation theory]] of by [[second quantization]]. (See at [[black holes in string theory]] for more on this correspondence between branes in string perturbation theory and black branes in supergravity.)
 
-Moreover, the near-horizon geomtries of these [[black branes]] is always [[anti de Sitter spacetime]] times orthogonal directions.
+Moreover, the near-horizon geometries of these [[black branes]] are always [[anti de Sitter spacetime]] times orthogonal directions.
 
 Therefore it is natural to consider the perturbation of the Green-Schwarz sigma-models around their asymptotic embeddings into AdS spaces, hence effectively the perturbation theory of the degrees of freedom at those naked singularity at which the corresponding black brane sits.
 
