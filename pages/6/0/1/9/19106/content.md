@@ -19,7 +19,7 @@ An [[astrophysics]] [[experiment]]
 
 ## Related entries
 
-* [[LHC]], [[LIGO]]
+* [[LHC]], [[LIGO]], [[RHIC]]
 
 * [[Super-Kamiokande]]
 
