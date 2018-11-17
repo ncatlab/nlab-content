@@ -21,9 +21,9 @@
 
 The _mass gap problem_ is an open conceptual problem in the [[quantization of Yang-Mills theory]], closely related to what in the [[phenomenology]] of [[quantum chromodynamics]] is called the _[[confinement]]_ of [[quarks]].
 
-The [[Lagrangian]] for [[Yang-Mills theory]] coupled to [[fermion fields]] (such as for [[QCD]]) makes manifest the existence of [[mass]]-less [[quarks]] and [[gluons]]. Indeed at short [[distances]], hence at large [[energy]], [[QCD]] is thought to exhibit a [[quark-gluon plasma]] well described by these degrees of freedom.
+The [[Lagrangian]] for [[Yang-Mills theory]] coupled to [[fermion fields]] (such as for [[QCD]]) makes manifest the existence of [[mass]]-less [[quarks]] and [[gluons]]. Indeed at very higher [[temperature]] [[QCD]] is thought to exhibit a [[quark-gluon plasma]] well described by these degrees of freedoms.
 
-But at comparatively larger distances hence lower energies, it is observed in [[experiment]] as well as in [[lattice QCD]] computer experiment that QCD exhibits _[[confinement]]_, meaning that the low energy states of the theory are not free massless quarks and gluons anymore, but that these form [[bound states]] in the form of [[hadrons]] (including, notably, [[protons]] and [[neutrons]], and hence all the ordinary [[baryon|baryonic]] [[matter]] of the [[observable universe]]). 
+But at comparatively smaller [[temperature]] it is observed in [[experiment]] as well as in [[lattice QCD]] computer experiment that QCD exhibits _[[confinement]]_, meaning that the low energy states of the theory are not free massless quarks and gluons anymore, but that these form [[bound states]] in the form of [[hadrons]] (including, notably, [[protons]] and [[neutrons]], and hence all the ordinary [[baryon|baryonic]] [[matter]] of the [[observable universe]]). 
 
 The existence of massive [[hadron]]-[[bound states]] in low-energy [[QCD]] is thus well-established [[phenomenology|phenomenologically]], but it is as of yet lacking a conceptual theoretical explanation.
 
