@@ -34,7 +34,7 @@ $\,$
 
 Moreover:
 
-**Conjecture 1** To each such [[automorphic representation]] $\pi$ is associated an [[L-function]] -- the _[[automorphic L-function]]_ $L_\pi$ -- and in generalization of [[Artin reciprocity]] the conjecture of Langlands is that the [[Artin L-function]] $L_\sigma$ associated with the given [[Galois representation]] $\sigma$ is equal to this: $L_\sigma = L_\pi$ ([Gelbhart 84, conjecture 1 (page 27 (204))](#Gelbhart84)).
+{#Conjecture1} **Conjecture 1** To each such [[automorphic representation]] $\pi$ is associated an [[L-function]] -- the _[[automorphic L-function]]_ $L_\pi$ -- and in generalization of [[Artin reciprocity]] the conjecture of Langlands is that the [[Artin L-function]] $L_\sigma$ associated with the given [[Galois representation]] $\sigma$ is equal to this: $L_\sigma = L_\pi$ ([Gelbhart 84, conjecture 1 (page 27 (204))](#Gelbhart84)).
 
 $\,$
 
@@ -42,7 +42,7 @@ More generally, analogous statements are supposed to hold for general [[reductiv
 
 First of all:
 
-**Conjecture 2** This more general L-function is conjectured to indeed behave like a decent L-function in that it has meromorphic [[analytic continuation]] to the [[complex plane]] and satisfies the "[[functional equation]]"-invariance under sending its parameter $s$ to $1-s$ ([Gelbhart 84, conjecture 2' (page 29 (205))](#Gelbhart84)).
+{#Conjecture2} **Conjecture 2** This more general L-function is conjectured to indeed behave like a decent L-function in that it has meromorphic [[analytic continuation]] to the [[complex plane]] and satisfies the "[[functional equation]]"-invariance under sending its parameter $s$ to $1-s$ ([Gelbhart 84, conjecture 2' (page 29 (205))](#Gelbhart84)).
 
 Second:
 
