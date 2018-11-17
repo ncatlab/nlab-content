@@ -17,7 +17,7 @@ This entry has some overlap with [[topological state of matter]], however unlike
 
 ## Idea
 
-Topological order is an order in quantum [[solid state physics|phase of matter]] which is beyond Landau [[symmetry breaking]] order. At long distance
+Topological order is an order in quantum [[phase of matter]] which is beyond Landau [[symmetry breaking]] order. At long distance
 and low energy (ie at macroscopic level), topological order is 
 defined by [[topological degeneracy]] (see [Wikipedia](http://en.wikipedia.org/wiki/Topological_degeneracy)) of the ground states and the non-Abelian geometric phases (see [Wilczek & Zee, 1984](#WilczekZee1984)) obtained by deforming the degenerate ground states. The low energy effective theory of a
 topologically ordered state is
