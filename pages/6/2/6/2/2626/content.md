@@ -23,12 +23,13 @@ The theory of knots is very visual. It can provide a link between the concrete a
 
 ## Definition
 
-A knot is a [[smooth map|smooth]] (or PL) [[embedding]] of the [[circle]] $S^1$ into $\mathbb{R}^3$, or equivalently into the $3$-[[sphere]] $S^3$ (one can also consider knots in other [[3-manifold]]s).
+A __knot__ is a [[smooth map|smooth]] (or PL) [[embedding]] of the [[circle]] $S^1$ into $\mathbb{R}^3$, or equivalently into the $3$-[[sphere]] $S^3$ (one can also consider knots in other [[3-manifold]]s).
+
+Sometimes, higher dimensional knots are also considered. $n$-dimensional knot (or simply an $n$-knot) is a smooth embedding of $n$-dimensional closed manifold (usually an $n$-sphere) into the $(n+2)$-dimensional sphere $\mathbb{S}^n$.  
 
 Typically, knots are considered up to [[ambient isotopy]] (or [[smooth isotopy]]).
 
 Knots that are ambient isotopic are often said to have the *same knot type* or to be *in the same isotopy class*.
-
 
 ## Example
 
@@ -85,25 +86,23 @@ The study of knots is very pictorial.  There are various knot-related SVGs that 
 
 For introductions to Knot Theory,
 
- * [[R. H. Crowell]] and [[R. H. Fox]], Introduction to Knot Theory, Springer, Graduate Texts 57, 1963.
+ * [[R. H. Crowell]], [[R. H. Fox]], _Introduction to knot theory_, Springer, Graduate Texts 57, 1963.
 
- * [[N. D. Gilbert]] and [[T. Porter]], Knots and Surfaces, Oxford U.P., 1994.
+ * [[N. D. Gilbert]], [[T. Porter]], _Knots and surfaces_, Oxford U.P., 1994.
 
 These do not, of course, handle some of the more modern developments.
 
 Other classic sources are 
 
-* Dale Rolfsen, Knots and Links, 2003, (ISBN-10: 0-8218-3436-3, ISBN-13: 978-0-8218-3436-7), AMS Chelsea, vol. 346.
+* Dale Rolfsen, _Knots and links_, AMS Chelsea, vol. __346__, 2003.
 
-and
-
-* [[L. H. Kauffman]], Knots and Physics, World Scientific, 1991.
+* [[L. H. Kauffman]], _Knots and physics_, World Scientific, 1991.
 
 The second of these discusses many of the connections between knots and state sum calculations related to quantum field theories.
 
 Another reference for the classical theory is
 
-* G. Burde and H. Zieschang, Knots, De Gruyter (1989).
+* G. Burde, H. Zieschang, _Knots_, De Gruyter (1989).
 
 Historically, a motivation for [[Peter Tait]] to start thinking about classification of [[knots]] was the book 
 
@@ -111,6 +110,17 @@ Historically, a motivation for [[Peter Tait]] to start thinking about classifica
 
 which presented the speculation in [[physics]] that  [[atoms]]/[[elementary particles]] are fundamentally [[vortices]] in a [[spacetime]]-filling fluid-like substance.
 
+#### Higher dimensional knots
+
+* D. Roseman, _Reidemeister-type moves for surfaces in four dimensional space_, Banach Center Publication, __42__ (1998), 347-380 [pdf](http://matwbn.icm.edu.pl/ksiazki/bcp/bcp42/bcp42124.pdf) [doi](https://doi.org/10.4064/-42-1-347-380)
+
+* J. S. Carter, M. Saito, _Knotted surfaces and their diagrams_, Mathematical Surveys and Monographs __55__, Amer. Math. Soc., Providence, RI, 1998
+
+* V. A. Rohlin, _The embedding of non-orientable three-manifolds into five-dimensional Euclidean space_, Dokl. Akad. Nauk SSSR __160__ (1965) 549–551 (in Russian; English transl.: Soviet Math. Dokl. 6 (1965), 153–156)
+
+* I.G. Korepanov, G.I. Sharygin, D.V. Talalaev, _Cohomology of the tetrahedral complex and quasi-invariants of 2-knots_, [arxiv/1510.03015](https://arxiv.org/abs/1510.03015)
+
+* J. E. Fischer, Jr. _2-Categories and 2-knots_, Duke Math. J. 75 (1994), 493–596.
 
 category: knot theory
 
