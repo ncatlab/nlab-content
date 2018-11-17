@@ -19,7 +19,7 @@
 
 The _quark-gluon plasma_ is the [[phase of matter]] of [[quantum chromodynamics]] at extremely high [[temperature]]. At high temperature [[quarks]] are not [[confinement|confined]] to [[hadron]] [[bound states]] but propagate freely together with the [[gluons]], forming a "quark-gluon soup". Since this is analogous to an ordinary [[plasma]] which is a [[phase of matter|phase]] where [[electrons]] and [[protons]] are no longer [[bound state|bound]] to [[atoms]] but propagate freely, one speaks of _quark-gluon plasma_.
 
-Despite the [[confinement|deconfinement]], the quark-gluon plasma is thought to be strongly [[coupling constant|coupled]], meaning that its properties are [[non-perturbative effects]] requiring discussion of [[QCD]] as a [[non-perturbative field theory]]. With an exact such theory largely missing, much of the theoretical discussion of the quark-gluon plasma involves [[lattice QCD]] computer simulation. Indication for strong coupling of the QG-plasma comes from the nature of the _elliptic flow_ seen both in [[experiment]] as well as in these computer simulations, which shows [[hydrodynamic]] behaviour with extremely small [[shear viscosity]] (e.g. [Shuryak 01](#Shuryak01), [Chakraborty 12](#Chakraborty12)).
+Despite the [[confinement|deconfinement]], the quark-gluon plasma at temperature $\sim 4-5 T_c$ as produced in [[experiment]] ([Adams et al. 05](#AdamsEtAl05), [Adcox et al. 05](#AdcoxEtAl05)) is thought to be strongly [[coupling constant|coupled]], meaning that its properties are [[non-perturbative effects]] requiring discussion of [[QCD]] as a [[non-perturbative field theory]]. With an exact such theory largely missing, much of the theoretical discussion of the quark-gluon plasma involves [[lattice QCD]] computer simulation. Indication for strong coupling of the QG-plasma comes from the nature of the _elliptic flow_ seen both in [[experiment]] as well as in these computer simulations, which shows [[hydrodynamic]] behaviour with extremely small [[shear viscosity]] (e.g. [Shuryak 01](#Shuryak01), [Chakraborty 12](#Chakraborty12)).
 
 
 It has been proposed ([Policastro-Son-Starinets 01](#PolicastroSonStarinets01)) that, therefore, an analytic approach to a description of the quark-gluon plasma (i.e. not just via [[lattice QCD]] computer experiment) might be given by approximate [[AdS-CFT duality]] (see e.g. [Biagazzi-Cotrone 12](#BiagazziCotrone12)). The difficulty with this approach is that for [[QCD]] (as opposed to [[N=4 D=4 SYM]]) [[AdS-CFT duality]] applies only to some approximation.
@@ -52,9 +52,9 @@ Further discucssion in relation to [[instantons in QCD]] includes
 
 Realization of the quark-gluon plasma at the [[RHIC]] [[experiment]] has tentatively been claimed in
 
-* John Adams, et al. _Experimental and theoretical challenges in the search for the quark–gluon plasma: The STAR Collaboration's critical assessment of the evidence from RHIC collisions_. Nuclear Physics A 757.1-2 (2005): 102-183.
+* {#AdamsEtAl05} John Adams, et al. _Experimental and theoretical challenges in the search for the quark–gluon plasma: The STAR Collaboration's critical assessment of the evidence from RHIC collisions_. Nuclear Physics A 757.1-2 (2005): 102-183.
 
-* K. Adcox, et al., _Formation of dense partonic matter in relativistic nucleus–nucleus collisions at RHIC: experimental evaluation by the PHENIX collaboration_ Nuclear Physics A 757.1-2 (2005): 184-283.
+* {#AdcoxEtAl05} K. Adcox, et al., _Formation of dense partonic matter in relativistic nucleus–nucleus collisions at RHIC: experimental evaluation by the PHENIX collaboration_ Nuclear Physics A 757.1-2 (2005): 184-283.
 
 
 ### Description via AdS/CFT
@@ -71,6 +71,9 @@ Expositions and reviews include
 * [[Steven Gubser]], _Using string theory to study the quark-gluon plasma: progress and perils_ ([arXiv:0907.4808](http://arxiv.org/abs/0907.4808))
 
 * {#BiagazziCotrone12} Francesco Biagazzi, A. l. Cotrone, _Holography and the quark-gluon plasma_, AIP Conference Proceedings 1492, 307 (2012) ([doi:10.1063/1.4763537]( https://doi.org/10.1063/1.4763537), [slides pdf](http://cp3-origins.dk/content/movies/2013-01-14-bigazzi.pdf))
+
+* {#Brambilla14} Brambilla et al., section 9.2.2 of _QCD and strongly coupled gauge theories: challenges and perspectives_, Eur Phys J C Part Fields. 2014; 74(10): 2981 ([doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
+
 
 Holographic discussion of the [[shear viscosity]] of the quark-gluon plasema goes back to
 
