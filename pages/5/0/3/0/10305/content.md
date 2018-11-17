@@ -15,9 +15,11 @@
 
 ## Examples
 
-* [[hadrons]] and [[mesons]] are bound states of [[quarks]]
+* [[hadrons]] are bound states of [[quarks]]
 
-* [[atoms]] are bound states of [[hadrons]] ([[protons]] and [[neutrons]]) and [[electrons]]
+* [[nucleus (physics)|nuclie]] of [[atoms]] are bound states of those [[hadrons]] which are [[nucleons]], namely [[protons]] and [[neutrons]]
+
+* [[atoms]] are [[bound states]] of [[nucleus (physics)|nuclei]] and [[electrons]]
 
 * [[molecules]] are bound states of [[atoms]]
 
