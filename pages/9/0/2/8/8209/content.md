@@ -25,7 +25,7 @@ The _quark-gluon plasma_ is the [[phase of matter]] of [[quantum chromodynamics]
 <img src="https://ncatlab.org/nlab/files/QCDPhaseDiagram.jpg" width="400">
 </center>
 
-> **Schematic [[phase diagram]] of [[QCD]].** The veritcal axis indicates [[temperature]] $T$, the horizontal axis indicates [[baryon]] [[density]]. At low enough tempeterature [[quarks]] and [[gluons]] only appear as [[hadron]] [[bound states]] ([[confinement]]). But above a critical temperature these [[hadron]] [[bound states]] break apart (deconfinement) and [[quarks]] and [[gluons]] may exist freely. This [[phase of matter|phase]] of [[QCD]] is the _quark-gluon plasma_.
+> **Schematic [[phase diagram]] of [[QCD]].** The vertical axis indicates [[temperature]] $T$, the horizontal axis indicates [[baryon]] [[density]]. At low enough tempeterature [[quarks]] and [[gluons]] only appear as [[hadron]] [[bound states]] ([[confinement]]). But above a critical temperature these [[hadron]] [[bound states]] break apart (deconfinement) and [[quarks]] and [[gluons]] may exist freely. This [[phase of matter|phase]] of [[QCD]] is the _quark-gluon plasma_.
 
 > graphics grabbed from [Blaizot 03](#Blaizot03).
 
@@ -57,14 +57,14 @@ See also
 
 ### Non-perturbative aspects
 
-Discussion of [[non-perturvative effects]] in [[QCD]]:
+Discussion of [[non-perturbative effects]] in [[QCD]]:
 
 * {#Shuryak01} [[Edward Shuryak]], _Nonperturbative QCD and Quark-Gluon Plasma_, lectures at Trieste, 2001 ([pdf](http://users.ictp.it/~pub_off/lectures/lns010/Shuryak/Shuryak.pdf))
 
 * {#Chakraborty12} Purnendu Chakraborty, _Non-perturbative aspects of quark gluon plasma above deconfinement temperature_, Proceedings of the DAE Symp. on Nucl. Phys. 57 (2012) ([pdf](http://www.sympnp.org/proceedings/57/I20.pdf))
 
 
-Further discucssion in relation to [[instantons in QCD]] includes
+Further discussion in relation to [[instantons in QCD]] includes
 
 * Nikolai Kochelev, _Ultra-light Glueballs in Quark-Gluon Plasma_ ([arXiv:1501.07002](http://arxiv.org/abs/1501.07002))
 
