@@ -17,6 +17,8 @@
 
 * [[LHC]], [[LIGO]]
 
+* [[RHIC]]
+
 * [[Super-Kamiokande]]
 
 * [[EDGES]]
