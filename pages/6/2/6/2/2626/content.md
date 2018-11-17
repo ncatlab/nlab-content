@@ -84,6 +84,8 @@ The study of knots is very pictorial.  There are various knot-related SVGs that 
 
 ## References
 
+### General
+
 For introductions to Knot Theory,
 
  * [[R. H. Crowell]], [[R. H. Fox]], _Introduction to knot theory_, Springer, Graduate Texts 57, 1963.
@@ -110,7 +112,7 @@ Historically, a motivation for [[Peter Tait]] to start thinking about classifica
 
 which presented the speculation in [[physics]] that  [[atoms]]/[[elementary particles]] are fundamentally [[vortices]] in a [[spacetime]]-filling fluid-like substance.
 
-#### Higher dimensional knots
+### Higher dimensional knots
 
 * D. Roseman, _Reidemeister-type moves for surfaces in four dimensional space_, Banach Center Publication, __42__ (1998), 347-380 [pdf](http://matwbn.icm.edu.pl/ksiazki/bcp/bcp42/bcp42124.pdf) [doi](https://doi.org/10.4064/-42-1-347-380)
 
