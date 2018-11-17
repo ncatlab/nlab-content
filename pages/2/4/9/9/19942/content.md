@@ -31,7 +31,7 @@ An [[experiment]] in [[particle physics]].
 
 ### General 
 
-* [RHIC websote](https://www.bnl.gov/rhic/)
+* [RHIC website](https://www.bnl.gov/rhic/)
 
 See also 
 
