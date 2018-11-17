@@ -28,6 +28,8 @@ The [[physics]] of [[solid]] condensed [[matter]] (made of [[fermions]], due to 
 
 * [[AdS-CFT in condensed matter physics]]
 
+* [[phase of matter]]
+
 * [[topological order]]
 
 * [[symmetry protected trivial order]]
