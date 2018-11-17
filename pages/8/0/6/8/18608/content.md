@@ -25,11 +25,11 @@ The [[Lagrangian]] for [[Yang-Mills theory]] coupled to [[fermion fields]] (such
 
 But at comparatively smaller [[temperature]] it is observed in [[experiment]] as well as in [[lattice QCD]] computer experiment that QCD exhibits _[[confinement]]_, meaning that the low energy states of the theory are not free massless quarks and gluons anymore, but that these form [[bound states]] in the form of [[hadrons]] (including, notably, [[protons]] and [[neutrons]], and hence all the ordinary [[baryon|baryonic]] [[matter]] of the [[observable universe]]). 
 
-The existence of massive [[hadron]]-[[bound states]] in low-energy [[QCD]] is thus well-established [[phenomenology|phenomenologically]], but it is as of yet lacking a conceptual theoretical explanation.
+The existence of massive [[hadron]]-[[bound states]] in low-energy [[QCD]] is thus well-established [[phenomenology|phenomenologically]], but it is as yet lacking a conceptual theoretical explanation.
 
 The _mass gap problem_ is the problem in [[mathematical physics]] to demonstrate theoretically (i.e. not just by [[lattice QCD|computer simulation]]) the existence of this mass gap/[[confinement]]-phenomenon in [[QCD]] and in [[Yang-Mills theory]] coupled to [[fermion fields]] in general.
 
-This issue is well and widely known in the [[particle physics]]-community, see for instance [Kutschke 96, Section 3.1](#Kutschke96), [INFN 15](#INFN15). It gained more attention among the [[mathematics]]/[[mathematical physics]]-commutity when the [Clay Mathematics Institute](http://www.claymath.org/) declared the problem to be one in a list of "[Millenium Problems](http://www.claymath.org/millennium-problems)", see [Jaffe-Witten](#JaffeWitten), [Douglas 04](#Douglas04).
+This issue is well and widely known in the [[particle physics]]-community, see for instance [Kutschke 96, Section 3.1](#Kutschke96), [INFN 15](#INFN15). It gained more attention among the [[mathematics]]/[[mathematical physics]]-community when the [Clay Mathematics Institute](http://www.claymath.org/) declared the problem to be one in a list of "[Millenium Problems](http://www.claymath.org/millennium-problems)", see [Jaffe-Witten](#JaffeWitten), [Douglas 04](#Douglas04).
 
 
 
