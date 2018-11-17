@@ -69,13 +69,24 @@ See also
 ### Phenomenology
  {#Phenomenology}
 
-In the application of [[QCD]] to [[particle physics]] [[phenomenology]], the mass gap problem is incarnated in the open problem of demonstrating [[confinement]] of [[quarks]] at low energies to colour-neutral [[bound states]], hence to [[hadrons]]/[[baryons]] (hence the existence of ordinary [[matter]]!).  There does exist some qualitative understanding as well as computer simulations in [[lattice QCD]], but there remain fundamental issues with deriving basic properties of [[hadrons]] such as their [[mass]] (e.g. [Kutschke 96, Section 3.1](#Kutschke96)) and [[spin]] (the "[[proton spin crisis]]").
+In the application of [[QCD]] to [[particle physics]] [[phenomenology]], the mass gap problem is incarnated in the open problem of demonstrating [[confinement]] of [[quarks]] at low energies to colour-neutral [[bound states]], hence to [[hadrons]] (in particular [[baryons]], hence the problem of existence of ordinary [[matter]]).  There does exist some qualitative understanding as well as computer simulations in [[lattice QCD]], but there remain fundamental issues with deriving basic properties of [[hadrons]] such as their [[mass]] (e.g. [Kutschke 96, Section 3.1](#Kutschke96)) and [[spin]] (the "[[proton spin crisis]]").
 
 This is widely and well known, but particle physics does not quite share the mathematician's culture of succinctly highlighting open problems. Here are some sources that make this explicit:
 
 * {#Kutschke96} Robert Kutschke, section 3.1 _Heavy flavour spectroscopy_, in D. Bugg (ed.), _Hadron Spectroscopy and the Confinement Problem_, Proceedings of a NATO Advanced Study Institute, Plenum Press 1996  ([doi:10.1007/978-1-4613-0375-6](https://www.springer.com/cn/book/9780306453038))
 
 > While it is generally believed that QCD is the correct fundamental theory of the strong interactions there are, as yet, no practical means to produce full QCD calculations of hadron masses and their decay widths.
+
+* {#Brambilla14} Brambilla et al.. _QCD and strongly coupled gauge theories: challenges and perspectives_, Eur Phys J C Part Fields. 2014; 74(10): 2981 ([doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
+
+>  The success of the technique does not remove the challenge of understanding the non-perturbative aspects of the theory. The two aspects are
+deeply intertwined. The Lagrangian of QCD is written in terms of quark and gluon degrees of freedom which become apparent at large energy but remain hidden inside hadrons in the low-energy regime. This confinement property is related to the increase of $\alpha_s$ at low energy, but it has never been
+demonstrated analytically. 
+
+> We have clear indications of the confinement of quarks into hadrons from both experiments and lattice QCD. Computations of the heavy quark–antiquark potential, for example, display a linear behavior in the quark–antiquark distance, which cannot be obtained in pure perturbation theory. Indeed the two main characteristics of QCD: confinement and the appearance of nearly massless pseudoscalar mesons, emergent from the spontaneous breaking of chiral symmetry, are non-perturbative phenomena whose precise understanding continues to be a target of research. 
+
+> Even in the simpler case of gluodynamics in the absence of quarks, we do not have a precise understanding of how a gap in the spectrum is formed and the glueball spectrum is generated.
+
 
 * J J Cobos-Martínez, _Non-perturbative QCD and hadron physics_ 2016  J. Phys.: Conf. Ser. 761 012036 ([doi:10.1088/1742-6596/761/1/012036](http://iopscience.iop.org/article/10.1088/1742-6596/761/1/012036))
 
