@@ -19,7 +19,11 @@
 
 ## Idea
 
-In [[physics]] or [[chemistry]] (or [[quantum chemistry]]) a _nucleus_ is a [[bound state]] of [[protons]] and [[neutrons]]. If this in turn is surrounded by a shell of [[electrons]] the result is an [[atom (physics)|atom]], with the nucleus at its core.
+In [[physics]] or [[chemistry]] (or [[quantum chemistry]]) an _atomic nucleus_ --  or just  _nucleus_, for short --  is a [[bound state]] of [[protons]] and [[neutrons]]. If this in turn is surrounded by a shell of [[electrons]] the result is an [[atom (physics)|atom]], with the nucleus at its core.
 
 The study of nuclei is the topic of [[nuclear physics]].
 
+
+[[!redirects atomic nucleus]]
+
+[[!redirects atomic nuclei]]
