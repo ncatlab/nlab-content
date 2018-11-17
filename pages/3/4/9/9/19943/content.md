@@ -17,7 +17,7 @@
 
 ## Idea
 
-A _plasma_ is a [[phase of matter|phase]] of [[baryon|baryonic]] [[matter]] at [[temperature]] high enough that [[electrons]] and [[nuclei]] do not form [[bound states]] ([[atoms]]) but each propate freely.
+A _plasma_ is a [[phase of matter|phase]] of [[baryon|baryonic]] [[matter]] at [[temperature]] high enough that [[electrons]] and [[nuclei]] do not form [[bound states]] ([[atoms]]) but each propagate freely.
 
 ## Related concepts
 
