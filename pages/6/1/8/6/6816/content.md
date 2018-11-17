@@ -148,4 +148,7 @@ and also at
 
 * _[[motivic multiple zeta values]]_.
 
+[[!redirects N=4 D=4 SYM]]
+
 [[!redirects N=4 D=4 sYM]]
+
