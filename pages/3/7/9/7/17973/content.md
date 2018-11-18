@@ -17,6 +17,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -135,12 +136,24 @@ Lift to [[M-theory on G2-manifolds]] (e.g. [[G2-MSSM]]): see references [below](
 
 $\,$
 
-### Cosmology
+### Cosmology and Holography
  {#Cosmology}
 
-Since the [[near horizon geometry]] of [[BPS state|BPS]] [[black branes]] is conformal to the [[Cartesian product]] of [[anti de Sitter spaces]] with the unit $n$-sphere around the brane, the [[cosmology]] of intersecting D-brane models realizes the [[observable universe]] on the [[asymptotic boundary]] of an approximately (and possibly conformally) [[anti de Sitter spacetime]] (see for instance [Kaloper 04](#Kaloper04), [Flachi-Minamitsuji 09](#FlachiMinamitsuji09)). The basic structure is hence that of _[[Randall-Sundrum models]]_, but details may differ.
+Since the [[near horizon geometry]] of [[BPS state|BPS]] [[black branes]] is conformal to the [[Cartesian product]] of [[anti de Sitter spaces]] with the unit $n$-sphere around the brane, the [[cosmology]] of intersecting D-brane models realizes the [[observable universe]] on the [[asymptotic boundary]] of an _approximately_ [[anti de Sitter spacetime]] (see for instance [Kaloper 04](#Kaloper04), [Flachi-Minamitsuji 09](#FlachiMinamitsuji09)). The basic structure is hence that of _[[Randall-Sundrum models]]_, but details differ, such as notably in _warped throat_ geometries, see [Uranga 05, section 18](#Uranga05). 
 
-For instance [Klebanov-Strassler 00](#KlebanovStrassler00) discuss ascpects of [[confinement]] in [[Yang-Mills theory]] on conincident ordinary and _[[fractional D-brane|fractional]]_ [[D3-branes]] at the [[singularity]] of a warped [[conifold]].
+These warped throat models go back to [Klebanov-Strassler 00](#KlebanovStrassler00) which discusses aspects of [[confinement]] in [[Yang-Mills theory]] on conincident ordinary and _[[fractional D-brane|fractional]]_ [[D3-branes]] at the [[singularity]] of a warped [[conifold]]. See also [Klebanov-Witten 98](#KlebanovWitten98).
+
+<center>
+<img src="https://ncatlab.org/nlab/files/KlebanovStrassler.jpg" width="640">
+</center>
+
+> snippet grabbed from [Uranga 05, section 18](#Uranga05)
+
+> here: "RS"=[[Randall-Sundrum model]]; "KS"=[Klebanov-Strassler 00](#KlebanovStrassler00)
+
+In particular this means that [[AdS-CFT duality]] applies in _some approximation_ to intersecting D-brane models (e.g. [Soda 10](#Soda10), [GHMO 16](#GHMO16)), thus allowing to compute, to some approximation, [[non-perturbative effects]] in the [[Yang-Mills theory]] on the intersecting branes in terms of [[gravity]] on the ambient warped throat $\sim$ [[anti de Sitter spacetime|AdS]] ([Klebanov-Strassler 00, section 6](#KlebanovStrassler00))
+
+Such approximate version of [[AdS-CFT]] for gauge theories realized on intersecting D-branes are used for instance to estimate [[non-perturbative effects]] in [[QCD]], such as the [[shear viscosity]] of the [[quark-gluon plasma]] (see the references [there](quark-gluon+plasma#ReferencesViaAdSCFT)).
 
 $\,$
 
@@ -264,15 +277,23 @@ Lift of intersecting D-brane models to [[M-theory on G2-manifolds]] with [[ADE-s
 ### Cosmology
  {#ReferencesCosmology}
 
-Discussion of the [[cosmology]] of intersecting brane models (ambient $\sim$ [[anti de Sitter spacetimes]] with the intersecting branes at the [[asymptotic boundary]]) includes the following (see also at _[[Randall-Sundrum model]]_)
+Discussion for [[cosmology]] of [[intersecting D-brane models]] (ambient $\sim$ [[anti de Sitter spacetimes]] with the $\sim$ conformal intersecting branes at the [[asymptotic boundary]]) includes the following (see also at _[[Randall-Sundrum model]]_):
 
 * {#KlebanovStrassler00} [[Igor Klebanov]], [[Matthew Strassler]], _Supergravity and a Confining Gauge Theory: Duality Cascades and $\chi^{SB}$-Resolution of Naked Singularities_, JHEP 0008:052, 2000 ([arXiv:hep-th/0007191](https://arxiv.org/abs/hep-th/0007191))
 
-* {#Uranga05} [[Angel Uranga]], section 18 of _TASI lectures on String Compactification, Model Building, and Fluxes_, 2005 ([pdf](http://cds.cern.ch/record/933469/files/cer-002601054.pdf))
+* {#KlebanovWitten98} [[Igor Klebanov]], [[Edward Witten]], _Superconformal Field Theory on Threebranes at a Calabi-Yau Singularity_, Nucl.Phys.B536:199-218, 1998 ([arXiv:hep-th/9807080](https://arxiv.org/abs/hep-th/9807080))
 
 * {#Kaloper04} Nemanja Kaloper, _Origami World_, JHEP 0405 (2004) 061 ([arXiv:hep-th/0403208](https://arxiv.org/abs/hep-th/0403208))
 
+* {#Uranga05} [[Angel Uranga]], section 18 of _TASI lectures on String Compactification, Model Building, and Fluxes_, 2005 ([pdf](http://cds.cern.ch/record/933469/files/cer-002601054.pdf))
+
 * {#FlachiMinamitsuji09} Antonino Flachi, Masato Minamitsuji, _Field localization on a brane intersection in anti-de Sitter spacetime_, Phys.Rev.D79:104021, 2009 ([arXiv:0903.0133](https://arxiv.org/abs/0903.0133))
+
+* {#Soda10} Jiro Soda, _AdS/CFT on the brane_, Lect.Notes Phys.828:235-270, 2011 ([arXiv:1001.1011](https://arxiv.org/abs/1001.1011))
+
+* {#GHMO16} Gianluca Grignani, Troels Harmark, Andrea Marini, Marta Orselli, _The Born-Infeld/Gravity Correspondence_, Phys. Rev. D 94, 066009 (2016) ([arXiv:1602.01640](https://arxiv.org/abs/1602.01640))
+
+Quick survey is in
 
 * {#Teraguchi07} Shunsuke Teraguchi, around slide 21 _String theory and its relation to particle physics_, 2007 ([pdf](http://phys.cts.ntu.edu.tw/ppp7/talks/PPP7_Shunsuke_Teraguchi.pdf))
 
