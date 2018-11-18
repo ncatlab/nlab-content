@@ -26,7 +26,9 @@ Hence the extra [[bulk]] [[dimensions]] in these models need not be small (techn
 
 One original motivation for the RS-models was the idea that this setup could address the [[hierarchy problem]].
 
-Something at least close to Randall-Sundrum models naturally appears in [[string phenomenology]]: In [[intersecting D-brane models]] the [[standard model of particle physics]] is part of the [[worldvolume]] [[quantum field theory]] of [[D6-branes]] [[intersection|intersected]] to a 3+1-dimensional subspace. By the general lore of [[black holes in string theory]], [[non-perturbative effect|non-perturbatively]] these [[D6-branes]] are [[black branes]] with [[anti de Sitter spacetime|anti de Sitter]] [[near horizon geometry]]. Hence the [[cosmology]] of [[intersecting D-brane models]] is qualitatively of Randall-Sundrum form, even if details may differ. For the quick idea see [Teraguchi 07, around slide 21](#Teraguchi07), for review and further pointers see [Uranga 02, section 18](#Uranga02)
+Something at least close to Randall-Sundrum models naturally appears in [[string phenomenology]]: In [[intersecting D-brane models]] the [[standard model of particle physics]] is part of the [[worldvolume]] [[quantum field theory]] of [[D6-branes]] [[intersection|intersected]] to a 3+1-dimensional subspace. By the general lore of [[black holes in string theory]], [[non-perturbative effect|non-perturbatively]] these [[D6-branes]] are [[black branes]] with [[anti de Sitter spacetime|anti de Sitter]] [[near horizon geometry]]. Hence the [[cosmology]] of [[intersecting D-brane models]] is qualitatively of Randall-Sundrum form, even if details may differ. For the quick idea see [Teraguchi 07, around slide 21](#Teraguchi07), for review and further pointers see [Uranga 02, section 18](#Uranga02).
+
+For more on this see at _[[intersecting D-brane models]]_ the section _[Cosmology and Holography](intersecting+D-brane+model#Cosmology)_.
 
 ## Related concepts
 
