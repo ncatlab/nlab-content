@@ -34,13 +34,13 @@ $$
 
 For $S \in Set$
 
-* $Disc(S)$ is the [[topological space]] on $S$ in which every subset is an [[open set]]
+* $Disc(S)$ is the [[topological space]] on $S$ in which every subset is an [[open set]],
 
   this is called the **discrete topology** on $S$, it is the [[finer topology|finest topology]] on $S$; $Disc(S)$ is called a [[discrete space]];
 
-* $Codisc(S)$ is the topological space on $S$ whose only open sets are the [[empty set]] and $S$ itself
+* $Codisc(S)$ is the topological space on $S$ whose only open sets are the [[empty set]] and $S$ itself,
 
-  this is called the **codiscrete topology** on $S$ (also _indiscrete topology_ or _trivial topology_), it is the [[coarser topology|coarsest topology]] on $S$; $Codisc(S)$ is called a _[[codiscrete space]]_ .
+  this is called the **codiscrete topology** on $S$ (also _indiscrete topology_ or _trivial topology_), it is the [[coarser topology|coarsest topology]] on $S$; $Codisc(S)$ is called a _[[codiscrete space]]_.
 
 For an axiomatization of this situation see _[[codiscrete object]]_.
 
