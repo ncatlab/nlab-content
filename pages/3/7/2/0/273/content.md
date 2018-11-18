@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes heree
+* table of contents
 {:toc}
 
 ## Idea
@@ -58,21 +58,20 @@ along which one can generalize the coefficient objects of ordinary cohomology. (
 
 Depending on the [[model category|models]] chosen, there are different concrete realizations of nonabelian cohomology. 
 
-For instance nonabelian [[?ech cohomology]] played a special role in the motivation of the notion of [[gerbe]]s (see in particular [[gerbe (in nonabelian cohomology)]]), concretely thought of in terms of [[pseudofunctor]]s at least in the context of nonabelian [[group cohomology]], while more abstract (and less explicit) [[homotopy theory]] methods dominate the discussion of [[infinity-stack]]s.
+For instance nonabelian [[Cech cohomology]] played a special role in the motivation of the notion of [[gerbe]]s (see in particular [[gerbe (in nonabelian cohomology)]]), concretely thought of in terms of [[pseudofunctor]]s at least in the context of nonabelian [[group cohomology]], while more abstract (and less explicit) [[homotopy theory]] methods dominate the discussion of [[infinity-stack]]s.
 
 Either way, one obtains a notion of _cohomology on $\infty$-categories with coefficients in $\infty$-catgories_. This is, most generally, the setup of "[[nonabelian cohomology]]".
 
 This is conceptually best understood today in terms of [[Higher Topos Theory|higher topos theory]], using [[(infinity,1)-category of (infinity,1)-sheaves|(infinity,1)-categories of (infinity,1)-sheaves]]. 
 
-This perspective on nonabelian cohomology is discussed for instance in
+This perspective on nonabelian cohomology is discussed for instance in [Toen 02](#Toen02)
 
-* [[Bertrand Toen]], _Non-abelian cohomology_ ([slides](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/index.html) [ps](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/meta/aux/toen.ps))
 
 ## Properties
 
 ### Postnikov decomposition and Whitehead principle
 
-In an [[(∞,1)-topos]] every object has a [[Postnikov tower in an (∞,1)-category]]. This means that in some sense general nonabelian cohomology can be decomposed into nonabelian cohomology in degree 1 and abelian cohomology in higher degrees, twisted by this nonabelian cohomology. This has been called ([To&#235;n](#Toen)) the [[Whitehead principle of nonabelian cohomology]].
+In an [[(∞,1)-topos]] every object has a [[Postnikov tower in an (∞,1)-category]]. This means that in some sense general nonabelian cohomology can be decomposed into nonabelian cohomology in degree 1 and abelian cohomology in higher degrees, twisted by this nonabelian cohomology. This has been called ([To&#235;n](#Toen02)) the [[Whitehead principle of nonabelian cohomology]].
 
 ## Special cases
 
@@ -227,8 +226,8 @@ For examples and discussion of this see
 
 A readable survey on nonabelian cohomology is
 
-* [[Bertrand Toën]], _Non-abelian cohomology_ ([pdf](http://www.math.univ-toulouse.fr/~toen/msri2002.pdf))
-{#Toen}
+* {#Toen02} [[Bertrand Toën]], _Stacks and Non-abelian cohomology_, lecture at _[Introductory Workshop on Algebraic Stacks, Intersection Theory, and Non-Abelian Hodge Theory](https://www.msri.org/realvideo/index04.html)_, MSRI 2002 ([slides](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/index.html), [ps](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/meta/aux/toen.ps), [pdf](https://perso.math.univ-toulouse.fr/btoen/files/2015/02/msri2002.pdf))
+
 
 A useful motivation is
 
@@ -289,7 +288,7 @@ In as far as nonabelian cohomology is nothing but the study of [[(infinity,1)-ca
 
 The following thesis continues Street's treatment of nonabelian cohomology
 
-* [[Alexander Campbell]], _A higher categorical approach to Giraud's non-abelian cohomology_, PhD thesis, Macquarie University 2016 &lt;http://hdl.handle.net/1959.14/1261186>
+* [[Alexander Campbell]], _A higher categorical approach to Giraud's non-abelian cohomology_, PhD thesis, Macquarie University 2016 <http://hdl.handle.net/1959.14/1261186>
 
 
 [[!redirects non-abelian cohomology]]
