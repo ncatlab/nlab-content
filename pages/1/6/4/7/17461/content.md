@@ -23,7 +23,10 @@ Related $n$Lab items: [[binary linear code]], [[synthetic projective geometry]],
 * Handbook of Combinatorial Designs, CRC Press 2006
 * P. Dembowski, Finite geometries, Springer-Verlag 1968
 * Jens Zumbr&#228;gel, _Designs and codes in affine geometry_, [arXiv:1605.03789](http://arxiv.org/abs/1605.03789)
-    
+* Peter Keevash, _The existence of designs_, [pdf](http://people.maths.ox.ac.uk/keevash/papers/designs.pdf)
+
+> We prove the existence conjecture for combinatorial designs, answering a question of Steiner from 1853. More generally, we show that the natural divisibility conditions are sufficient for clique decompositions of simplicial complexes that satisfy a certain pseudorandomness condition. 
+
 category: combinatorics
 
 [[!redirects block design]]
