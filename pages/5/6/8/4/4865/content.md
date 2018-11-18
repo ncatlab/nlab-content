@@ -196,7 +196,7 @@ That there is a maximal dimension $d = 11$ in which supergravity may exist was f
 
 The theory was then actually constructed in
 
-* [[Eugene Cremmer]], [[Bernard Julia]], [[Joël Scherk]], _Supergravity in theory in 11 dimensions_ Phys. Lett. 76B (1978) 409
+* {#CremmerJuliaScherk78} [[Eugene Cremmer]], [[Bernard Julia]], [[Joël Scherk]], _Supergravity in theory in 11 dimensions_, Phys. Lett. 76B (1978) 409 (<a href="https://doi.org/10.1016/0370-2693(78)90894-8">doi:10.1016/0370-2693(78)90894-8</a>)
 
 Formulation in terms of [[supergeometry]] ("superspace formulation") is in 
 
