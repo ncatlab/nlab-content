@@ -54,9 +54,13 @@ More generally, in [[string theory]] a [[brane]] which wraps a completely [[spac
 
 * [[non-perturbative effect]], [[non-perturbative quantum field theory]], [[non-perturbative string theory]]
 
-* [[renormalon]]
+* [[quantum tunneling]]
 
-* [[caloron correspondence]]
+* at [[thermal field theory|finite temperature]]: [[caloron]]
+
+  * [[caloron correspondence]]
+
+* [[renormalon]]
 
 * [[brane]]
 
