@@ -179,9 +179,61 @@ Moreover, in this case the cocyle morphism $c$ itself is necessarily [[faithful 
   \,,
 \]
 
-which hence gives an equivalent description of the global equivariant orbifold cohomology in (eq:CocyclesInTheSlice).
+which hence gives an equivalent description of the global equivariant orbifold cohomology in (eq:CocyclesInTheSlice) in this case.
+
+Of course if $\mathcal{A} \to \mathbf{B}G$ is 0-truncated, this only give cohomology in degree 0. To get back to the full cohomology, observe that for [[n-localic (infinity,1)-topos|0-localic]] $\mathbf{H}$ (i.e. with a plain 1-categorical [[site]] of definition)  the previous argument generalizes immediately to the [[internal homs]]
+
+$$
+  [-,-]_{\mathbf{B}G}
+  \;\colon\;
+  \mathbf{H}^{op}_{/\mathbf{B}G} \times \mathbf{H}_{/\mathbf{B}G}
+    \longrightarrow
+  \mathbf{H}
+$$
+
+$$
+  [-,-]
+  \;\colon\;
+  \mathbf{H}^{op} \times \mathbf{H}
+    \longrightarrow
+  \mathbf{H}
+$$
+
+
+as
+
+\[
+  \big[
+    \mathcal{X}, \mathcal{A}
+  \big]_{\mathbf{B}G}
+  \;\simeq\;
+  \big[
+    \mathcal{X}, \mathcal{A}
+  \big]^{faith}
+  \,,
+\]
+
+From these then one re-obtains cohomology by applying the [[shape modality]]/[[shape via cohesive path ∞-groupoid|cohesive path ∞-groupoid]].
+
+$$
+\begin{aligned}
+  \Pi
+  \big[
+    \mathcal{X}, \mathcal{A}
+  \big]_{\mathbf{B}G}
+  & \simeq
+  \Pi
+  \big[
+    \mathcal{X}, \mathcal{A}
+  \big]^{faith}
+  \,,
+\end{aligned}
+$$
+
 
 This perspective paves the way to the equivalent description in terms of systems of fixed point loci:
+
+> some care needed here, to be expanded...
 
 $\,$
 
@@ -195,7 +247,7 @@ In [[global equivariant homotopy theory]] the plain [[orbit category]] $Orb_G$ u
 $$
   y \mathcal{X}
   \;\coloneqq\;
-  \mathbf{H}^{faith}( \mathbf{B}G, \mathcal{X} )
+  \Pi [ \mathbf{B}G, \mathcal{X}]^{faith}
   \,.
 $$
 
@@ -208,16 +260,16 @@ The generalization of [[Elmendorf's theorem]] to global equivariant homotopy the
 
 \[
   \label{GlobalElmendorfTheorem}
-  \mathbf{H}^{faith}
-  \big(
+  \Pi
+  [ 
     \mathcal{X}, \mathcal{A}
-  \big)
+  ]^{faith}
   \;\simeq\;
   PSh_{\infty}(Orb_{glb}) ( y \mathcal{X}, y \mathcal{X} )
   \,.
 \]
 
-This is the staement of [Henriques-Gepner 07, main theorem (4) on p. 5 in version (2) according to p. 8](#HenriquesGepner07).
+This is the statement of [Henriques-Gepner 07, main theorem (4) on p. 5 in version (2) according to p. 8](#HenriquesGepner07).
 With particular emphasis on its application to orbifold cohomology, this is highlighted in ([Schwede 17, Introduction](#Schwede17), [Schwede 18, p. ix-x](#Schwede18)). See also [Rezk 14, section 4](#Rezk14).
 
 In summary, under the _Gepner-Henriques global Elmendorf theorem_, the definition of global equivariant orbifold cohomology according to (eq:CocyclesInTheSlice) becomes equivalent, via (eq:Faithful) and (eq:GlobalElmendorfTheorem), to the cohomology in  the [[(∞,1)-topos]] over the [[global orbit category]]
