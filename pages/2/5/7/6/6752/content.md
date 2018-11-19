@@ -21,6 +21,7 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
 What is called the _Langlands correspondence_ in [[number theory]] ([Langlands 67](#Langlands67)) is first of all a [[conjecture|conjectural]] correspondence (a [[bijection]] subject to various conditions) between 
 
@@ -34,7 +35,7 @@ $\,$
 
 Moreover:
 
-{#Conjecture1} **Conjecture 1** To each such [[automorphic representation]] $\pi$ is associated an [[L-function]] -- the _[[automorphic L-function]]_ $L_\pi$ -- and in generalization of [[Artin reciprocity]] the conjecture of Langlands is that the [[Artin L-function]] $L_\sigma$ associated with the given [[Galois representation]] $\sigma$ is equal to this: $L_\sigma = L_\pi$ ([Gelbhart 84, conjecture 1 (page 27 (204))](#Gelbhart84)).
+{#Conjecture1} **Conjecture 1** To each such [[automorphic representation]] $\pi$ is associated an [[L-function]] -- the _[[automorphic L-function]]_ $L_\pi$ -- and in generalization of [[Artin reciprocity]] the conjecture of Langlands is that the [[Artin L-function]] $L_\sigma$ associated with the given [[Galois representation]] $\sigma$ is equal to this: $L_\sigma = L_\pi$ ([Gelbart 84, conjecture 1 (page 27 (204))](#Gelbart84)).
 
 $\,$
 
@@ -42,18 +43,18 @@ More generally, analogous statements are supposed to hold for general [[reductiv
 
 First of all:
 
-{#Conjecture2} **Conjecture 2** This more general L-function is conjectured to indeed behave like a decent L-function in that it has meromorphic [[analytic continuation]] to the [[complex plane]] and satisfies the "[[functional equation]]"-invariance under sending its parameter $s$ to $1-s$ ([Gelbhart 84, conjecture 2' (page 29 (205))](#Gelbhart84)).
+{#Conjecture2} **Conjecture 2** This more general L-function is conjectured to indeed behave like a decent L-function in that it has meromorphic [[analytic continuation]] to the [[complex plane]] and satisfies the "[[functional equation]]"-invariance under sending its parameter $s$ to $1-s$ ([Gelbart 84, conjecture 2' (page 29 (205))](#Gelbart84)).
 
 Second:
 
-{#Conjecture3} **Conjecture 3** This construction is supposed to behave well with respect to an analytic [[homomorphism]] ${}^L G \to {}^L G^{'}$ in that when changing the representation of ${}^L G^{'}$ by precomposition with this homomorphism one may find an accompanying change of Galois representation/automorphic representation from $G$ to $G^{'}$ such that the associated L-function remains invariant under these joint changes. This statement is what [[Robert Langlands]] calls _functoriality_ ([Gelbhart 84, conjecture 3 (page 31 (207))](#Gelbhart84))
+{#Conjecture3} **Conjecture 3** This construction is supposed to behave well with respect to an analytic [[homomorphism]] ${}^L G \to {}^L G^{'}$ in that when changing the representation of ${}^L G^{'}$ by precomposition with this homomorphism one may find an accompanying change of Galois representation/automorphic representation from $G$ to $G^{'}$ such that the associated L-function remains invariant under these joint changes. This statement is what [[Robert Langlands]] calls _functoriality_ ([Gelbart 84, conjecture 3 (page 31 (207))](#Gelbart84))
 
 
-In fact this last conjecture implies the previous two ([Gelbhart 84, (page 32 (208))](#Gelbhart84)).
+In fact this last conjecture implies the previous two ([Gelbart 84, (page 32 (208))](#Gelbart84)).
 
 $\,$
 
-Various versions and refinements of this conjecture have since been considered, for some perspective see ([Taylor 02](#Taylor02), [Langlands 14](#Langlands14), [Harris 14](#Harris14)). On the one hand the "localization" of the program to [[local fields]] leads to the conjecture of _[[local Langlands correspondences]]_ ([Gelbhart 84, (page 34 (210))](#Gelbhart84)). On the other hand, the interpretation of the above story dually in [[arithmetic geometry]] in view of the [[function field analogy]] motivates the conjectural _[[geometric Langlands correspondence]]_, based on the following [[analogy]]:
+Various versions and refinements of this conjecture have since been considered, for some perspective see ([Taylor 02](#Taylor02), [Langlands 14](#Langlands14), [Harris 14](#Harris14)). On the one hand the "localization" of the program to [[local fields]] leads to the conjecture of _[[local Langlands correspondences]]_ ([Gelbart 84, (page 34 (210))](#Gelbart84)). On the other hand, the interpretation of the above story dually in [[arithmetic geometry]] in view of the [[function field analogy]] motivates the conjectural _[[geometric Langlands correspondence]]_, based on the following [[analogy]]:
 
 
 * the [[Galois group]] is essentially the [[fundamental group]] of an [[algebraic curve]];
@@ -86,7 +87,7 @@ Surveys of the state of the program include
 
 Introductions and expository surveys include
 
-* {#Gelbhart84} [[Stephen Gelbart]], _An elementary introduction to the Langlands program_,  Bull. Amer. Math. Soc. (N.S.) 10 (1984), no. 2, 177&#8211;219 ([web](http://www.ams.org/journals/bull/1984-10-02/S0273-0979-1984-15237-6/))
+* {#Gelbart84} [[Stephen Gelbart]], _An elementary introduction to the Langlands program_,  Bull. Amer. Math. Soc. (N.S.) 10 (1984), no. 2, 177&#8211;219 ([doi:10.1090/S0273-0979-1984-15237-6](http://www.ams.org/journals/bull/1984-10-02/S0273-0979-1984-15237-6/))
 
 * [[Edward Frenkel]], _Commentary on "An elementary introduction to the Langlands Program" by Steven Gelbart_, Bull. Amer. Math. Soc. __48__ (2011), 513-515, ([pdf](http://www.ams.org/journals/bull/2011-48-04/S0273-0979-2011-01347-7/S0273-0979-2011-01347-7.pdf)) 
 
