@@ -32,6 +32,11 @@ The physics literature typically focuses on describing this $SU(2)$-bundle in te
 
   * [[instanton in QCD]]
 
+* at [[thermal field theory|finite temperature]]: [[caloron]]
+
+  * [[caloron correspondence]]
+
+
 ## References
 
 The original articles are
