@@ -147,6 +147,8 @@ General introduction to Euclidean and thermal field theory includes [Thoma 00, s
 
 ## Related concepts
 
+* [[instanton]], [[caloron]]
+
 * [[2d CFT]]
 
 * [[relativistic field theory]]
