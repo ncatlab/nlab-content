@@ -43,6 +43,13 @@ $$
 
 For the case $G = $ [[special unitary group|SU(2)]] $\simeq S^3$ and via the usual math/physics translation of terminology ([here](BPTS-instanton#FromTheMathsToThePhysicsStory)) this was first considered in [Harrington-Shepard 77, p. 3](#HarringtonShepard77), and baptized a "caloron"-configuration in [Harrington-Shepard 78, p. 1](#HarringtonShepard78).
 
+A further refinement of the construction included the nonzero [[vacuum expectation value]] $\langle (A_4)^3\rangle$ of the "time" component of the [[vector potential]], called the _KvBLL caloron_ ([Kraan-van Baal 98a](#KraanVanBaal98a), [Kraan-van Baal 98b](#KraanVanBaal98b), [Lee-Lu 98](#LeeLu98)).
+
+This solution revealed the substructure: it  gets  split  into $N_c$ (number  of  colors)  separate  (anti)self- dual  3d  solitons  with  nonzero  (Euclidean)  electric  and  magnetic charges (see e.g. [Larsen-Shuryak 14](#LarsenShuryak14)).
+
+
+
+
 ## Properties
 
 ### Relation to confinement
@@ -71,7 +78,7 @@ The paper [Harrington-Shepard 1978](#Harrington-Shepard_78) considers the contri
 
 * [[instanton]]
 
-a* [[caloron correspondence]]
+* [[caloron correspondence]]
 
 * [[Nahm transform]]
 
@@ -103,6 +110,10 @@ Discussion as part of a solution to the [[confinement]]/[[mass gap]]-problem:
 
 
 * P. Gerhold, E.-M. Ilgenfritz, M. Müller-Preussker, _An $SU(2)$ KvBLL caloron gas model and confinement_, Nucl.Phys.B760:1-37, 2007 ([arXiv:hep-ph/0607315](https://arxiv.org/abs/hep-ph/0607315))
+
+* {#LarsenShuryak14}  Rasmus Larsen, [[Edward Shuryak]], _Classical interactions of the instanton-dyons with antidyons_, Nucl. Phys. A **950**, 110 (2016) ([arXiv:1408.6563](https://arxiv.org/abs/1408.6563))
+
+* {#LarsenShuryak15} Rasmus Larsen, [[Edward Shuryak]], _Interacting Ensemble of the Instanton-dyons and Deconfinement Phase Transition in the SU(2) Gauge Theory_, Phys. Rev. D 92, 094022, 2015 ([arXiv:1504.03341](https://arxiv.org/abs/1504.03341))
 
 See also
 
