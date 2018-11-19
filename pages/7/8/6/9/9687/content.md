@@ -184,13 +184,17 @@ An original suggestion that confinement in [[Yang-Mills theory]] may be understo
 
 The relation to [[QCD instantons]]/[[monopole|monopoles]] in the [[QCD vacuum]] is discussed in  
 
-* {#SchaeferShuryak96} T. Schaefer, E. Shuryak, section III D of _Instantons in QCD_, Rev. Mod. Phys.70:323-426,1998 ([arXiv:hep-ph/9610451](http://arxiv.org/abs/hep-ph/9610451))
+* {#SchaeferShuryak96} T. Schaefer, [[Edward Shuryak]], section III D of _Instantons in QCD_, Rev. Mod. Phys.70:323-426,1998 ([arXiv:hep-ph/9610451](http://arxiv.org/abs/hep-ph/9610451))
 
 and analogously (at [[thermal field theory|positive temperature]]) relation to _[[calorons]]_:
 
 * [Greensite 11, section 8.5](#Greensite11)
 
 * P. Gerhold, E.-M. Ilgenfritz, M. Müller-Preussker, _An $SU(2)$ KvBLL caloron gas model and confinement_, Nucl.Phys.B760:1-37, 2007 ([arXiv:hep-ph/0607315](https://arxiv.org/abs/hep-ph/0607315))
+
+* {#LarsenShuryak14}  Rasmus Larsen, [[Edward Shuryak]], _Classical interactions of the instanton-dyons with antidyons_, Nucl. Phys. A **950**, 110 (2016) ([arXiv:1408.6563](https://arxiv.org/abs/1408.6563))
+
+* {#LarsenShuryak15} Rasmus Larsen, [[Edward Shuryak]], _Interacting Ensemble of the Instanton-dyons and Deconfinement Phase Transition in the SU(2) Gauge Theory_, Phys. Rev. D 92, 094022, 2015 ([arXiv:1504.03341](https://arxiv.org/abs/1504.03341))
 
  
 
