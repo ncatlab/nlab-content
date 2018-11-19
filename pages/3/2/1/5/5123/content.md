@@ -193,8 +193,7 @@ See also
 
 The specific maps introduced by Eilenberg-Mac Lane have stronger properties which for simplicial sets $K,L$ make $C(K) \otimes C(L)$ a strong deformation retract of $C(K \times L)$. This is exploited in 
 
-* [[Ronny Brown]], _The twisted Eilenberg-Zilber theorem_. Simposio di Topologia (Messina, 1964), Edizioni Oderisi, Gubbio (1965), 33--37. 
-[pdf](http://pages.bangor.ac.uk/~mas010/pdffiles/twistedez.pdf)
+* [[Ronnie Brown]], _The twisted Eilenberg-Zilber theorem_. Simposio di Topologia (Messina, 1964), Edizioni Oderisi, Gubbio (1965), 33--37. [pdf](http://pages.bangor.ac.uk/~mas010/pdffiles/twistedez.pdf)
 
 
 
