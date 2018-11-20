@@ -33,9 +33,8 @@ Knots that are ambient isotopic are often said to have the *same knot type* or t
 
 ## Example
 
-The trefoil knot is the simplest non-trivial knot.  In its simplest representation, it has three crossings.  It is a [[torus knot]], that is it can be embedded on the surface of a solid torus, itself embedded in $S^3$. Here is a picture:
+The trefoil knot is the simplest non-trivial knot.  In its simplest representation, it has three crossings.  It is a [[torus knot]], that is it can be embedded on the surface of a solid torus, itself embedded in $S^3$. Here is a [[trefoil knot - SVG|picture]]:
 
-[[!include trefoil knot - SVG]]
 
 
 Classifying knots up to isotopy is usually done using [[knot invariant|knot invariants]]. Some of these are simple to define (these tend to be geometric and also tend to be hard to calculate) others are harder to define and to show they are invariants but are easier to calculate. A few are reasonably easy to define and to calculate... Yippee!
