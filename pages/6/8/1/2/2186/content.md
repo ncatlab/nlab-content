@@ -91,7 +91,7 @@ $$
 (For example, a number is positive, as defined earlier, if an only if it belongs to $^*\{r|r \gt 0\}$.)  Then division is extended to a function $^*\mathbb{R} \times ^*\{r|r \ne 0\} \to ^*\mathbb{R}$.  If $1/x$ is infinitesimal, then $x$ itself is __infinite__.
 
 
-Conversely, an element $x\in{}^*\mathbb{R}$ is __finite__ if $|x|\lt {}^* r$ for some $r\in\mathbb{R}$. Every finite element $x\in{}^*\mathbb{R}$ is infinitely close to a unique real number $q\in\mathbb{R}$ in the sense that $x-{}^*q$ is infinitesimal. We say that $q$ is the __standard part__ of $x$ and is denoted by $q= st(x)$. Given a real number $r\in\mathbb{R}$, the subset $\mu(r)$ of all elements $x\in{}^*\mathbb{R}$ such that $st(x)=r$ is said to be the __monad__ of the real number $r\in\mathbb{R}$. Monads should be thaught of as infinitesimal neighborhoods. An elementary fact:
+Conversely, an element $x\in{}^*\mathbb{R}$ is __finite__ if $|x|\lt {}^* r$ for some $r\in\mathbb{R}$. Every finite element $x\in{}^*\mathbb{R}$ is infinitely close to a unique real number $q\in\mathbb{R}$ in the sense that $x-{}^*q$ is infinitesimal. We say that $q$ is the __standard part__ of $x$ and is denoted by $q= st(x)$. Given a real number $r\in\mathbb{R}$, the subset $\mu(r)$ of all elements $x\in{}^*\mathbb{R}$ such that $st(x)=r$ is said to be the __monad__ of the real number $r\in\mathbb{R}$. Monads should be thought of as infinitesimal neighborhoods. An elementary fact:
 a subset $E\subset\mathbb{R}$ is open iff $\mu(r)\subset{}^*E$ for all $r\in E$; $E$ is closed iff $st(x)\in E$ for all finite $x\in{}^* E$; and $E$ is [[compact space|compact]] iff, for all $x\in{}^* E$, $x$ is finite and $st(x)\in E$. 
 
 
