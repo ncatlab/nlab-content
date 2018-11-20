@@ -309,7 +309,7 @@ is an [[isomorphism]], exhibiting $X$ as the [[limit]] ("[[inverse limit]]") ove
 
 =--
 
-This appears for instance as ([GoerssJardine, theorem Vi 3.5](#GoerssJardine)).
+This appears for instance as ([GoerssJardine, theorem Vi 2.5](#GoerssJardine)).
 
 ##### Relative Postnikov tower
  {#RelativePostnikovTowerConstruction}
