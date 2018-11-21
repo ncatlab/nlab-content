@@ -207,6 +207,7 @@ of the corresponding fractional D-brane in the $g$-[[twisted sector]].
 
 
 ## References
+ {#References}
 
 
 The concept originates with
