@@ -141,6 +141,11 @@ Relation to [[black holes in string theory]]:
 * Yoshifumi Hyakutake, _Black Hole and Fuzzy Objects in BFSS Matrix Model_ 
 ([arXiv:1801.07869](https://arxiv.org/abs/1801.07869))
 
+### Relation to lattice gauge theory
+
+Relation to [[lattice gauge theory]]:
+
+* {#Hanada16} Masanori Hanada, _What lattice theorists can do for superstring/M-theory_,  International Journal of Modern Physics AVol. 31, No. 22, 1643006 (2016)  ([arXiv:1604.05421](https://arxiv.org/abs/1604.05421))
 
 
 
