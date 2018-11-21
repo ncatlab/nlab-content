@@ -7,7 +7,7 @@ Edward Witten is a theoretical physicist at the Institute for Advanced Study.
 
 * interview by [[Hirosi Ooguri]], Notices Amer. Math. Soc, May 2015 p491 ([pdf](http://www.ams.org/notices/201505/rnoti-p491.pdf))
 
-* [Kyoto Prize lecture](http://www.kyotoprize.org/en/laureates/commemorative_lectures/)  2014 ([pdf](http://www.kyotoprize.org/wp/wp-content/uploads/2016/02/30kB_lct_EN.pdf))
+* _Adventures in Physics and Math_, [Kyoto Prize lecture](http://www.kyotoprize.org/en/laureates/commemorative_lectures/)  2014 ([pdf](http://www.kyotoprize.org/wp/wp-content/uploads/2016/02/30kB_lct_EN.pdf), [[WittenKyotoPrizeLecture.pdf:file]])
 
 Witten's work originates in theoretical [[quantum field theory]] and stands out as making numerous and deep connections between that and mathematical [[geometry]] and [[cohomology]]. In the course of the 1980s Witten became the central and leading figure in [[string theory]].
 
@@ -83,7 +83,7 @@ and
 
 (...)
 
->clearly, this list is supposed to be expanded, eventually...
+>clearly, this list deserves be further expanded...
 
 category: people
 
