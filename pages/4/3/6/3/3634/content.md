@@ -8,4 +8,12 @@ He was the initial developer of [[shape theory]], and then was leader of a very 
 
 * [Wikipedia entry (Polish)](http://pl.wikipedia.org/wiki/Karol_Borsuk)
 
+## related $n$Lab entries
+
+* [[shape theory]]
+
+* [[nerve theorem]]
+
+* [[cohomotopy]]
+
 category: people
