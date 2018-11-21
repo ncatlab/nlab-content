@@ -104,6 +104,7 @@ For a new attempt and pointers to previous attempts see
 * L. Boulton, M.P. Garcia del Moral, A. Restuccia, _The ground state of the D=11 supermembrane and matrix models on compact regions_, Nuclear Physics B
 Volume 910, September 2016, Pages 665-684 ([arXiv:1504.04071](https://arxiv.org/abs/1504.04071))
 
+* L. Boulton, M.P. Garcia del Moral, A. Restuccia, _Measure of the potential valleys of the supermembrane theory_ ([arXiv:1811.05758](https://arxiv.org/abs/1811.05758))
 
 ### Graviton scattering
 
