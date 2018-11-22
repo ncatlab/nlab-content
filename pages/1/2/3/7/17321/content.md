@@ -16,6 +16,5 @@ A category-theoretic explanation of this fact is that [[call-by-value]] language
 
 ## References
 
-* [[Noam Zeilberger]], [The Logical Basis of
-Evaluation Order and Pattern-Matching](http://www.cs.cmu.edu/~rwh/theses/zeilberger.pdf)
+* [[Noam Zeilberger]], _The Logical Basis of Evaluation Order and Pattern-Matching_, ([pdf](http://www.cs.cmu.edu/~rwh/theses/zeilberger.pdf))
 * [[Robert Harper]], _Polarity in Type Theory_, ([blog post](https://existentialtype.wordpress.com/2012/08/25/polarity-in-type-theory/))
