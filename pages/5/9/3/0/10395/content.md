@@ -16,7 +16,7 @@
 
 ## Idea
 
-For $G$ a [[topological group]] (or [[Lie group]]) and $P \to X$ a $G$-[[principal bundle]], then forming [[mapping spaces]] out of the [[circle]] yields a free [[loop group]]-[[principal bundle]] over the [[free loop space]] of $X$:
+For $G$ a [[topological group]] (or [[Lie group]]) and $P \to X$ a $G$-[[principal bundle]], we have that forming [[mapping spaces]] out of the [[circle]] yields a free [[loop group]]-[[principal bundle]] over the [[free loop space]] of $X$:
 
 $$
   \array{
