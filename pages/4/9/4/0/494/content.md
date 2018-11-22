@@ -1197,7 +1197,7 @@ $$
   }
 $$
 
-By Prop. \ref{UniversalMorphismsAreInitialObjectsInCommaCategory}, this is equivalent to $(L(d), \eta_d)$ being the [[initial object]] in the [[comma category]] $c/R$, which in turn is equivalent to it being the [[limit]] of the [[identity functor]] on $c/R$ ([this prop.](initial+object#LimitOverIdentityFunctorIsInitialObjecty)). But this follows directly from the limit formulas (eq:FormulaForLeftAdjointByPointwiseLimit) and (eq:RAppliedtoFormulaForLeftAdjointByPointwiseLimit).
+By Prop. \ref{UniversalMorphismsAreInitialObjectsInCommaCategory}, this is equivalent to $(L(d), \eta_d)$ being the [[initial object]] in the [[comma category]] $c/R$, which in turn is equivalent to it being the [[limit]] of the [[identity functor]] on $c/R$ ([this prop.](initial+object#LimitOverIdentityFunctorIsInitialObject)). But this follows directly from the limit formulas (eq:FormulaForLeftAdjointByPointwiseLimit) and (eq:RAppliedtoFormulaForLeftAdjointByPointwiseLimit).
 
 =--
 
