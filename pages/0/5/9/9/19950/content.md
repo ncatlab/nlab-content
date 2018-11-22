@@ -90,9 +90,10 @@ hence with [[codimension]] relative to $X^G$ the dimension of the [[fixed point]
 * {#Grady18} Daniel Grady, _Cobordisms of global quotient orbifolds and an equivariant Pontrjagin-Thom construction_ ([arXiv:1811.08794](https://arxiv.org/abs/1811.08794))
 
 
-### Classification of M-branes
+### For M-brane charge quantization
 
-Discussion of [[M-brane]] physics in terms of equivariant cohomotopy
+Discussion of [[M-brane]] [[charge quantization]] in [[equivariant cohomotopy]]:
+
 
 * [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_ ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987))
 
