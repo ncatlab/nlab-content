@@ -177,7 +177,9 @@ is the [[multiplication|product]] of the [[exponent of a group|exponents]] of th
 
 ## Related concepts
 
-* [[equivariant stable cohomotopy]]
+[[!include flavours of cohomotopy -- table]]
+
+
 
 * [[Boardman homomorphism]]
 
