@@ -56,6 +56,11 @@ The concept of super Riemann surfaces originates with the following articles:
 
 * [[Steve Giddings]], P. Nelson, _The Geometry of super Riemann surfaces_, Commun. Math. Phys., 116, (1988), 607
 
+See also
+
+* {#DHokerPhong05} [[Eric D'Hoker]], [[Duong Phong]], _Complex geometry and supergeometry_, Current Developments in Mathematics 2005 (2007): 1-40 ([euclid:1223654523](https://projecteuclid.org/euclid.cdm/1223654523))
+
+
 
 Further discussion of the [[moduli space]] of super Riemann surfaces includes the following:
 
