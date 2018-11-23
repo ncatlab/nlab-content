@@ -157,6 +157,9 @@ Discussion of [[classical field theory]] with [[fermions]] as taking place on su
 
 * {#Sardanashvily16} [[Gennadi Sardanashvily]], _Noether's Theorems: Applications in Mechanics and Field Theory_, Studies in Variational Geometry, 2016
 
+Discussion on the context of [[superstring|super-]] [[string theory]] (especially regarding [[super Riemann surfaces]]):
+
+* {#DHokerPhong05} [[Eric D'Hoker]], [[Duong Phong]], _Complex geometry and supergeometry_, Current Developments in Mathematics 2005 (2007): 1-40 ([euclid:1223654523](https://projecteuclid.org/euclid.cdm/1223654523))
 
 [[!redirects supergeometries]]
 
