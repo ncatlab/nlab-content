@@ -26,6 +26,8 @@
 
 ## Idea
 
+Goodwillie calculus is an [[(∞,1)-category theory|(∞,1)-]][[categorification]] of [[differential calculus]], where [[smooth functions]] between [[Cartesian spaces]] are replaced by [[topological functors]] between [[categories]] of [[pointed topological spaces]].
+ 
 ### As an approximation to stabilization of a functor
 
 The operation of [[stabilization]] that sends an [[(∞,1)-category]] $C$ to the [[stable (∞,1)-category]] $Stab(C)$ does not in general extend to a functor.
