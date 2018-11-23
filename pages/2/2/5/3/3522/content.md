@@ -366,7 +366,7 @@ A [[model category]] presentation for [[n-excisive functors]] is given in
 
 * [[Georg Biedermann]], [[Boris Chorny]], Oliver R&#246;ndigs, _Calculus of functors and model categories_, Adv. Math., __214__, n. 1 (2007) 92--115, [doi](http://dx.doi.org/10.1016/j.aim.2006.10.009), [math.AT/0601221](http://arxiv.org/abs/math/0601221)
 
-* [[Gregory Arone]], [[Michael Ching]], _Operads And Chain Rules For The Calculus Of Functors_, [preprint](http://www.math.uga.edu/~mching/Work/chain-rule-spaces-final.pdf)
+* [[Gregory Arone]], [[Michael Ching]], _Operads And Chain Rules For The Calculus Of Functors_, [arXiv:0902.0399](https://arxiv.org/abs/0902.0399)
 
 * {#AroneMahowald98} [[Gregory Arone]], [[Mark Mahowald]], _The Goodwillie tower of the identity functor and the unstable periodic homotopy of spheres_, Inventiones mathematicae February 1999, Volume 135, Issue 3, pp 743-788  ([pdf](http://hopf.math.purdue.edu/Arone-Mahowald/ArMahowald.pdf))
 
