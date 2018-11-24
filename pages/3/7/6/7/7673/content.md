@@ -40,7 +40,9 @@ is [[equality|syntactically the same]] regardless of whether we obtain it by sub
 
 The way this is generally dealt with is to introduce a category-theoretic structure which does have a "substitution" operation which is strictly associative, hence does correspond directly to type theory, and then show that any category can be "strictified" into such a stricter structure.  Unfortunately, there are many different such structures which have been used, differing only slightly.  On this page we define and compare them all.
 
-One of these structures is called "contextual categories" (definition \ref{ContextualCategory} below). This and other kinds of categories-with-extra-structure may hence be thought of as stand-ins for the [[syntax]] of a [[type theory]]:
+One of these structures is called "contextual categories" (definition \ref{ContextualCategory} below). 
+
+{#StandInForSyntax} This and other kinds of categories-with-extra-structure may hence be thought of as stand-ins for the [[syntax]] of a [[type theory]]:
 
 > Rather than constructing an interpretation of the syntax directly, we may work via the intermediary notion of contextual categories, a class of algebraic objects abstracting the key structure carried by the syntax. The plain definition of a contextual category corresponds to the structural core of the syntax; further syntactic rules (logical constructors, etc.) correspond to extra algebraic structure that contextual categories may carry. Essentially, contextual categories provide a completely equivalent alternative to the syntactic presentation of type theory. 
 
