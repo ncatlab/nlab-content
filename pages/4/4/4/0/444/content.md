@@ -498,7 +498,7 @@ is a [[Kan complex]] precisely if $C$ is a [[groupoid]].
 
 =--
 
-The existence of [[inverse]] morphisms in $D$ corresponds to the fact that in the [[Kan complex]] $N(D)$ the "outer" [[horns]]
+The existence of [[inverse]] morphisms in $C$ corresponds to the fact that in the [[Kan complex]] $N(C)$ the "outer" [[horns]]
 
 $$
   \array{
