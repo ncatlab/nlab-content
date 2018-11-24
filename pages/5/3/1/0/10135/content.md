@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -134,157 +136,9 @@ In conclusion, if $\mathcal{X}$ is any [[orbifold]], i.e. not necessarily a glob
 
 Cocycles in this "global equivariant" cohomology are then such that on each  chart of the form $U_i \sslash G_i$ they restrict to cocycles in $G_i$-[[equivariant cohomology]] of $U_i$, in a way that is compatible with the above re-identifications (eq:EquivalenceOfOrbifolds).
 
-Notice that if also the [[coefficient]] $\mathcal{A} \overset{}{\to} \mathbf{B} G_{glob}$ is [[faithful functor|faithful]] ([[0-truncated morphism of an (∞,1)-category|0-truncated]]) as an object in the [[slice (∞,1)-topos|slice]], then, by the [[orthogonal factorization system|orthogonality]] of the [[(n-connected, n-truncated) factorization system]] for $n = 0$, there is a [[contractible space]] of [[homotopies]] $\phi$ in the data for a cocycle
+(...)
 
-$$
-  \array{
-    \mathcal{X} 
-      && 
-      \overset{ \phantom{AA} c \phantom{AA} }{\longrightarrow} && 
-    \mathcal{A}
-    \\
-    & {}_{\mathllap{\rho}}\searrow &\swArrow_{\phi}& \swarrow_{\mathrlap{f}}
-    \\
-    && \mathbf{B}G_{glob}
-  }
-  \phantom{AAA}
-  =
-  \phantom{AAA}
-  \array{
-    \mathcal{X} 
-      &\overset{ \phantom{A} c \phantom{A} }{\longrightarrow}& 
-    \mathcal{A}
-    \\
-    {}^{=}\big\downarrow & \swArrow_{\exists !} & \big\downarrow{}^{\mathrlap{f}}
-    \\
-    \mathcal{X} 
-      &\underset{ \phantom{A} \rho \phantom{A} }{\longrightarrow}&
-    \mathbf{B}G_{glob}
-  }
-$$
-
-Moreover, in this case the cocyle morphism $c$ itself is necessarily [[faithful functor|faithful]] ([[0-truncated morphism of an (∞,1)-category|0-truncated]]). This means that the [[full sub-(∞,1)-category]] of the [[slice (∞,1)-category]] on the [[0-truncated morphism of an (∞,1)-category|fatihful/0-truncated morphisms]] is equivalently the non-full sub $\infty$-category of the corresponding domain [[∞-stacks]], but with [[0-truncated morphism of an (∞,1)-category|fatihful/0-truncated morphisms]] between them:
-
-\[
-  \label{Faithful}
- \underset{[\mathcal{X}\to\mathbf{B}G_{glob}]}{\sqcup}
-  \mathbf{H}_{/\mathbf{B}G_{glob}}
-  \big(
-    \mathcal{X}, \mathcal{A}
-  \big)
-  \;\simeq\;
-  \mathbf{H}^{faith}
-  \big(
-    \mathcal{X}, \mathcal{A}
-  \big)
-  \,,
-\]
-
-which hence gives an equivalent description of the global equivariant orbifold cohomology in (eq:CocyclesInTheSlice) in this case.
-
-Of course if $\mathcal{A} \to \mathbf{B}G$ is 0-truncated, this only give cohomology in degree 0. To get back to the full cohomology, observe that for [[n-localic (infinity,1)-topos|0-localic]] $\mathbf{H}$ (i.e. with a plain 1-categorical [[site]] of definition)  the previous argument generalizes immediately to the [[internal homs]]
-
-$$
-  [-,-]_{\mathbf{B}G_{glob}}
-  \;\colon\;
-  \mathbf{H}^{op}_{/\mathbf{B}G} \times \mathbf{H}_{/\mathbf{B}G}
-    \longrightarrow
-  \mathbf{H}
-$$
-
-$$
-  [-,-]
-  \;\colon\;
-  \mathbf{H}^{op} \times \mathbf{H}
-    \longrightarrow
-  \mathbf{H}
-$$
-
-
-as
-
-\[
- \underset{[\mathcal{X}\to\mathbf{B}G_{glob}]}{\sqcup}
-  \big[
-    \mathcal{X}, \mathcal{A}
-  \big]_{/\mathbf{B}G_{glob}}
-  \;\simeq\;
-  \big[
-    \mathcal{X}, \mathcal{A}
-  \big]^{faith}
-  \,,
-\]
-
-From these then one re-obtains cohomology by applying the [[shape modality]]/[[shape via cohesive path ∞-groupoid|cohesive path ∞-groupoid]] $&#643;$.
-
-$$
-\begin{aligned}
- \underset{[\mathcal{X}\to\mathbf{B}G_{glob}]}{\sqcup}
-  &#643;
-  \big[
-    \mathcal{X}, \mathcal{A}
-  \big]_{/\mathbf{B}G}
-  & \simeq
-  &#643;
-  \left(
-    \big[
-      \mathcal{X}, \mathcal{A}
-    \big]^{faith}
-  \right)
-  \,,
-\end{aligned}
-$$
-
-
-This perspective paves the way to the equivalent description in terms of systems of fixed point loci:
-
-$\,$
-
-### In terms of systems of fixed point loci
- {#InTermsOfSystemsOfFixedPointLoci}
-
-A key point of [[global equivariant homotopy theory]] is to generalize [[Elmendorf's theorem]] to this global situation, and express maps between [[topological stacks]], as above, in terms of [[(∞,1)-presheaves]] of [[fixed point]]-loci parameterized over on a suitable [[orbit category]]. 
-
-In [[global equivariant homotopy theory]] the plain [[orbit category]] $Orb_G$ used in $G$-[[equivariant cohomology|equivariant]] [[Bredon cohomology]] is replaced by the [[global orbit category]] $Orb_{glb}$ whose [[objects]] are the [[delooping]] [[stacks]] $\mathbf{B}G \coloneqq \ast\sslash G$ and whose morphisms are the [[faithful functor|faithful]]/[[0-truncated morphism of an (∞,1)-category|0-truncated]] morphisms between these. Then any [[stack]] $\mathcal{X}$ ([[orbifold]], [[orbispace]]) becomes an [[(∞,1)-presheaf]] $y \mathcal{X}$ over $Orb_{glb}$ by the evident "external [[Yoneda embedding]]"
-
-$$
-  y \mathcal{X}
-  \;\coloneqq\;
-  \Pi [ \mathbf{B}G, \mathcal{X}]^{faith}
-  \,.
-$$
-
-([Henriques-Gepner 07, 4.1](#HenriquesGepner07), [Rezk 14, 4.5](#Rezk14))
-
-Notice that, by the condition of faithfulness, a morphism of the form $\ast \to \mathbf{B}G \to \mathcal{X}$ necessarily hits a $G$-[[fixed point]] of $\mathcal{X}$, i.e. a point whose [[isotropy group]] contains $G$. In this sense $y \mathcal{X}$ is the _global system of fixed point loci_ of $\mathcal{X}$.
-
-
-The generalization of [[Elmendorf's theorem]] to global equivariant homotopy theory, hence to the application of orbifold cohomology, is now the statement that this construction induces [[equivalence in an (∞,1)-category|equivalences]] of cocycle [[∞-groupoids]]
-
-\[
-  \label{GlobalElmendorfTheorem}
-  \Pi
-  [ 
-    \mathcal{X}, \mathcal{A}
-  ]^{faith}
-  \;\simeq\;
-  PSh_{\infty}(Orb_{glb}) ( y \mathcal{X}, y \mathcal{X} )
-  \,.
-\]
-
-This is the statement of [Henriques-Gepner 07, main theorem (4) on p. 5 in version (2) according to p. 8](#HenriquesGepner07).
-With particular emphasis on its application to orbifold cohomology, this is highlighted in ([Schwede 17, Introduction](#Schwede17), [Schwede 18, p. ix-x](#Schwede18)). See also [Rezk 14, section 4](#Rezk14).
-
-In summary, under the _Gepner-Henriques global Elmendorf theorem_, the definition of global equivariant orbifold cohomology according to (eq:CocyclesInTheSlice) becomes equivalent, via (eq:Faithful) and (eq:GlobalElmendorfTheorem), to the cohomology in  the [[(∞,1)-topos]] over the [[global orbit category]]
-
-$$
-  H(\mathcal{X}, \mathcal{A})
-  \;\;\simeq\;\;
-  \pi_0
-  PSh_\infty(Orb_{glb})( y\mathcal{X}, y \mathcal{A} )
-  \,.
-$$
-
+(...)
 
 
 
