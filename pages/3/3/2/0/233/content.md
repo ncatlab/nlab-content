@@ -22,9 +22,7 @@
 
 The basic idea is that a _module_ $V$ is an object equipped with an [[action]] by a [[monoid]] $A$. This is closely related to the concept of a [[representation]] of a [[group]].
 
-A familiar example of a module is a [[vector space]] $V$ over a [[field]] $k$: this is a _module_ over $k$ in the category [[Ab]] of abelian groups: every element in $k$ acts on the vector space by multiplication of vectors, and this action respects the addition of vectors.
-
-But nothing in the definition of [[vector space]] really depends on the fact that $k$ here is a [[field]]: more generally it could be any [[commutative ring]] (or even a general [[rig]]) $R$. The analog of a vector space for fields replaced by rings is that of a _module_ over the ring $R$.
+A familiar example of a module is a [[vector space]] $V$ over a [[field]] $k$: this is a _module_ over $k$ in the category [[Ab]] of abelian groups: every element in $k$ acts on the vector space by multiplication of vectors, and this action respects the addition of vectors, but nothing in the definition of [[vector space]] really depends on the fact that $k$ here is a [[field]]: more generally it could be any [[commutative ring]] (or even a general [[rig]]) $R$. The analog of a vector space for fields replaced by rings is that of a _module_ over the ring $R$.
 
 This is the traditional and maybe most common notion of modules. But the basic notion is easily much more general.
 
