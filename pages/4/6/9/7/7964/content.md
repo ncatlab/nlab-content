@@ -52,6 +52,11 @@ In summary ([Kusenko 15](#Kusenko15)):
 
 > $[$The$]$ conclusion is that the best theoretical fit to measured parameters, including the Higgs and top-quark masses, points to a metastable Universe. However, their analysis also concludes that values of parameters are closer to a region of absolute stability than suggested by previous studies: it is possible for the Universe to be fully stable (and for the standard model to work all the way up to the Planck scale), if the true values of measured parameters are only 1.3 standard deviations away from the current best estimates.
 
+$\,$
+
+### Cosmological instability?
+ {#CosmologicalInstability}
+
 However, it has been argued that an actual [[false vacuum]] of the Higgs is incompatible with [[cosmology]], as due to [[vacuum fluctuations]] during [[inflation]] the [[vacuum decay]] would not have been avoided ([EGR 07](#EGR07), [HKSZ 14](#HKSZ14), [EGMRSST 15](#EGMRSST15), [EKSYZ 16](#EKSYZ16)). In ([BDGGSSS 13, section 7](#BDGGSSS13), [Kane 18 , "Clue 4"](#Kane18)) it was argued that this suggests a further principle which prevents the vacuum instability and that a natural such principle is [[supersymmetry]]. (This argument has a long history, see [Gibbs 11b](#Gibbs11b)).
 
 
