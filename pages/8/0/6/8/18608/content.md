@@ -20,7 +20,7 @@
 
 ## Idea
 
-The _mass gap problem_ is an open conceptual problem in the [[quantization of Yang-Mills theory]], closely related to what in the [[phenomenology]] of [[quantum chromodynamics]] is called the _[[confinement]]_ of [[quarks]].
+The _mass gap problem_ is an open conceptual problem in the [[quantization of Yang-Mills theory]], closely related to what in the [[phenomenology]] of [[quantum chromodynamics]] is called the _[[confinement]]_ of [[quarks]], hence the existence of ordinary [[hadron|hadronic]], in particular [[baryon|baryonic]] [[matter]].
 
 The [[Lagrangian]] for [[Yang-Mills theory]] coupled to [[fermion fields]] (such as for [[QCD]]) makes manifest the existence of [[mass]]-less [[quarks]] and [[gluons]]. Indeed at very higher [[temperature]] [[QCD]] is thought to exhibit a [[quark-gluon plasma]] well described by these degrees of freedoms.
 
