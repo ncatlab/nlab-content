@@ -324,7 +324,10 @@ For [[multiplicative cohomology theories]] there is a further refinement of equi
 
 ### General
 
-A quick introduction is in 
+Introduction is in
+
+* {#Blumberg17} [[Andrew Blumberg]], section 1.4 of _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
+
 
 * {#GreenleesMay} [[John Greenlees]], [[Peter May]], section 3 of _Equivariant stable homotopy theory_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
 
