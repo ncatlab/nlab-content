@@ -28,6 +28,8 @@ The classical examples are of course groups (where $\Omega$ is [[empty set|empty
 The older term __group with operators__ is traditionally used for $\Omega$-groups when only unary operations are considered (as in the case of modules).
 
 
+[[Philip Higgins]]  discussed a more general notion of $\Omega$-group, and Grace Orzech introduced an notion of extension in a special related setting known as a [[category of interest]].
+
 ## Remarks
 
 The general theory of $\Omega$-groups is similar to the basics of group and ring theory, including [[normal subgroups]] / [[ideals]] / [[submodules]], [[quotient algebra|quotient]] $\Omega$-groups, Noether's [[isomorphism theorem]]s, etc. For example, the [[Jordan-Holder theorem|Jordan?Holder theorem]] holds: if there is a [[composition series]], then every two composition series are equivalent up to permutation of factors. An obvious [[horizontal categorification]] of $\Omega$-groups is also interesting.
@@ -42,6 +44,9 @@ $\Omega$-groups form a [[protomodular category]].
 * Wikipedia, [Group with operators](http://en.wikipedia.org/wiki/Group_with_operators).
 
 * N. Bourbaki, _Algebra I_, ch. 1-3. 
+
+* [[P. J. Higgins]], "Groups with multiple operators", Proceedings of the London Mathematical Society, 1956
+
 
 * E. I. Khukhro, _Local nilpotency in varieties of groups with operators_, Russ. Acad. Sci. Sbornik Mat. 78 379, 1994. 
 ([doi](http://dx.doi.org/10.1070/SM1994v078n02ABEH003475))
