@@ -28,7 +28,13 @@ The classical examples are of course groups (where $\Omega$ is [[empty set|empty
 The older term __group with operators__ is traditionally used for $\Omega$-groups when only unary operations are considered (as in the case of modules).
 
 
-[[Philip Higgins]]  discussed a more general notion of $\Omega$-group, and Grace Orzech introduced an notion of extension in a special related setting known as a [[category of interest]].
+[[Philip Higgins]] discussed a more general notion of $\Omega$-group: a group $G$ endowed with a set $\Omega$ of finitary operations satisfying the condition that the neutral element of the group should form a one-element subalgebra.  
+$\Omega$-groups in the sense of Higgins form a [[protomodular category]], which is not in general strongly protomodular. A counterexample is provided by the category of digroups, i.e. sets with two group group structures that share the same neutral element. 
+
+
+
+
+Grace Orzech introduced an notion of extension in a special related setting known as a [[category of interest]].
 
 ## Remarks
 
@@ -36,7 +42,6 @@ The general theory of $\Omega$-groups is similar to the basics of group and ring
 
 Note that $\Omega$ is a capital Greek letter; $\omega$-[[infinity-group|group]] is rather a synonym for (for some people strict) $\infty$-[[infinity-groupoid|groupoid]] with a single object, hence nothing to do with $\Omega$-groups.
 
-$\Omega$-groups form a [[protomodular category]].
 
 
 ## References
