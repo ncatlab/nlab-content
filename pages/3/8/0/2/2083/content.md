@@ -34,7 +34,7 @@ $\Omega$-groups in the sense of Higgins form a [[protomodular category]], which 
 
 
 
-Grace Orzech introduced an notion of extension in a special related setting known as a [[category of interest]].
+Grace Orzech introduced a notion of extension in a special related setting known, somewhat opaguely, as a _category of interest_. (In the n-Lab we are trying out a perhaps more informative term_ [[category of group-based universal algebras]]_
 
 ## Remarks
 
