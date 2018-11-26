@@ -71,6 +71,7 @@ Moreover categories of group-based universal algebras are action accessible in t
 
 * [[protomodular category]]
 
+* [[variety of algebras]]
 
 ##References
 
@@ -80,6 +81,6 @@ The original idea is in
 
 The point about actions is in 
 
-* [[G. Metere]], _A note on strong protomodularity, actions and quotients,_ Journal of Pure and Applied Algebra, 221 (2017)
+* [[G. Metere]], _A note on strong protomodularity, actions and quotients,_ Journal of Pure and Applied Algebra, 221 (2017) 75 - 88.
 
 [[!redirects category of interest]]
