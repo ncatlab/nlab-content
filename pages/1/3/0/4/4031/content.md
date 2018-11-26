@@ -66,7 +66,7 @@ $$
 
 to the standard [[model structure on topological spaces]], where the [[left adjoint]] $|-|_r$ is a quotient of the [[geometric realization]] of the underlying Kan complexes and $\Pi_\infty$ is a version of the [[fundamental ∞-groupoid]]-functor with values in algebraic Kan complexes. 
 
-See <a href="http://ncatlab.org/nlab/show/homotopy+hypothesis#ForKanComplexes">homotopy hypothesis -- for algebraic Kan complexes</a> for details.
+See <a href="http://ncatlab.org/nlab/show/homotopy+hypothesis#ForAlgebraicKanComplexes">homotopy hypothesis -- for algebraic Kan complexes</a> for details.
 
 ### Algebraicization
 
