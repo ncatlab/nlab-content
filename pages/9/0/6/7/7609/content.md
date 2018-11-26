@@ -74,7 +74,7 @@ An alternative approach to substitution is to make substitution part of the obje
 
 $$P[t/x]$$
 
-is now actually itself a string of the language under consideration.  One then needs reduction or equality rules describing the relationship of this string $P[t/x]$ to the result of actually substituting $t$ for $x$ as in the usual approach.
+is now actually itself a string of the language under consideration.  One then needs reduction or equality rules describing the relationship of this string $P[t/x]$ to the result of actually substituting $t$ for $x$ as in the usual approach.  See [[explicit substitution]] for more details.
 
 
 ## Categorical semantics
@@ -204,9 +204,6 @@ The [[coherence]] issue involved in making this precise is discussed in
 [[!redirects substitutions]]
 [[!redirects variable substitution]]
 [[!redirects variable substitutions]]
-
-[[!redirects explicit substitution]]
-[[!redirects explicit substitutions]]
 
 [[!redirects variable capture]]
 [[!redirects variable captures]]
