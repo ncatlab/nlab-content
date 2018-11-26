@@ -79,6 +79,8 @@ By the usual syntactic constructions (see [[internal logic]] and [[context]]), a
 
   The [[classifying topos]] of this theory is the topos of [[sheaves]] on the [[real numbers]].
 
+* The theory of a set isomorphic to $\mathbb{N}$ is geometric, and makes essential use of the infinitary disjunctions. See [[geometric type theory]].
+
 * A geometric theory whose [[classifying topos]] is a [[presheaf topos]] is called a _[[theory of presheaf type]]_.
 
 
