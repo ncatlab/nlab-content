@@ -22,7 +22,7 @@ Again in all these cases, the forgetful functor, $U:\mathcal{C}\to Set_*$ factor
 Within this abstract setting, one can formulate notions of subobject, center, etc, but to formulate in this setting the criteria for an object to be an ideal or normal subobject, it is useful to make the assumption that the theory of $\mathcal{C}$ can be presented by a set of operations and identities satisfying some extra conditions, most of which as versions of obvious ones from 'algebra'.
 
 
-###Definition
+##Definition
 
 (Revision in progress)
 
@@ -47,9 +47,11 @@ We define $\Omega^\prime_i$ to be the set of 'extra' specified operations, so $\
 We have the following conditions on the equations/identities:
 
 * for any $*\in \Omega^\prime_2$, $\Omega^\prime_2$  also contains $\ast^{op}$, where $x\ast^{op}y= y\ast x$;
-* for any $'omega \in \Omega^\prime_1$, $\mathbb{E}$ includes the identity $\omega(x+y)=\omega(x)+ \omega(y)$;
-* for any $\ast in \Omega^\prime_2$, $\mathbb{E}$ includes the distributive law: $x\ast (y+z)= x\ast y+x\ast z$;
-* 
+* for any $\omega \in \Omega^\prime_1$, $\mathbb{E}$ includes the identity $\omega(x+y)=\omega(x)+ \omega(y)$;
+* for any $\ast \in \Omega^\prime_2$, $\mathbb{E}$ includes the distributive law: $x\ast (y+z)= x\ast y+x\ast z$;
+* for any $\omega \in \Omega^\prime_1$ and $\ast \in \Omega^\prime_2$, $\mathbb{E}$ includes the identity $\omega(x)\ast y = \omega(x\ast y)$;
+* for any $\ast \in \Omega^\prime_2$, $\mathbb{E}$ includes the identity $x+(y\ast z)=(y\ast z)+x$;
+* for any $\ast, \circ \in \Omega^\prime_2$, there is a word $w$ such that $\mathbb{E}$ includes the identity:
 
 (More to go here.)
 
