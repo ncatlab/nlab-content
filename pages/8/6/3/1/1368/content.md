@@ -17,7 +17,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
 ## Definition ##
@@ -281,25 +281,29 @@ This is [[Higher Topos Theory|HTT, corollary 5.1.5.8]].
 =--
 
 
-### Interaction with forming overcategories {#WithOvercategories}
+### Relation to slicing
+  {#WithOvercategories}
 
 The following analog of the corresponding result for
 1-[[categories of presheaves]] holds for $(\infty,1)$-presheaves. See [[functors and comma categories]].
 
-+-- {: .un_prop}
++-- {: .num_prop #SlicingCommutesWithFormingPresheaves}
 ###### Proposition
-**(forming overcategories commutes with passing to presheaves)**
+**(slicing commutes with passing to presheaves)**
 
-Let $C$ be a [[small (∞,1)-category]] and $p : K \to C$
-a [[diagram]]. Write $C_{/p}$ 
-and $PSh(C)/_{j p}$
+Let $\mathcal{C}$ be a [[small (∞,1)-category]] and 
+$p \colon \mathcal{K} \to \mathcal{C}$ a [[diagram]]. 
+
+Write $\mathcal{C}_{/p}$  and $PSh_\infty(\mathcal{C})/_{y p}$
 for the corresponding [[over quasi-category|over categories]], where 
-$j : C \to PSh(C)$ is the [[(∞,1)-Yoneda embedding]].
+$y \colon \mathcal{C} \to PSh_\infty(\mathcal{C})$ is the [[(∞,1)-Yoneda embedding]].
 
 Then we have an [[equivalence of quasi-categories|equivalence of (∞,1)-categories]]
 
 $$
-  PSh(C_{/p}) \stackrel{\simeq}{\to} PSh(C)_{/j p}
+  PSh_\infty(\mathcal{C}_{/p}) 
+    \stackrel{\simeq}{\to} 
+  PSh_\infty(\mathcal{C})_{/y p}
   \,.
 $$
 
