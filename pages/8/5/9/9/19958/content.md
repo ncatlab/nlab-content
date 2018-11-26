@@ -51,14 +51,14 @@ We have the following conditions on the equations/identities:
 * for any $\ast \in \Omega^\prime_2$, $\mathbb{E}$ includes the distributive law: $x\ast (y+z)= x\ast y+x\ast z$;
 * for any $\omega \in \Omega^\prime_1$ and $\ast \in \Omega^\prime_2$, $\mathbb{E}$ includes the identity $\omega(x)\ast y = \omega(x\ast y)$;
 * for any $\ast \in \Omega^\prime_2$, $\mathbb{E}$ includes the identity $x+(y\ast z)=(y\ast z)+x$;
-* for any $\ast, \circ \in \Omega^\prime_2$, there is a word $w$ such that $\mathbb{E}$ includes the identity:
-
+* for any $\ast, \circ \in \Omega^\prime_2$, there is a word $W$ such that $\mathbb{E}$ includes the identity:
+$(x_1*x_2)\overline{*}x_3 = W(x_1(x_2x_3), x_1(x_3x_2), (x_2x_3)x_1, (x_3x_2)x_1,x_2(x_1x_3),x_2(x_3x_1),(x_1x_3)x_2,x_3x_1)x_2)$.
 (More to go here.)
 
 ## Remark
 
 
-Any category of interest is a variety of $\Omega$-groups (in the sense of Higgins) and so is automatically a [[semi-abelian category]]. This provides a useful set of fairly concret examples for study in the semi-abelian /  proto-modular context.
+Any category of interest is a variety of $\Omega$-groups (in the sense of Higgins) and so is automatically a [[semi-abelian category]]. This provides a useful set of fairly concrete examples for study in the semi-abelian /  proto-modular context.
 
 ##Related entries
 
