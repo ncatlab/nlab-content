@@ -51,6 +51,8 @@ We have the following conditions on the equations/identities:
 * for any $\ast in \Omega^\prime_2$, $\mathbb{E}$ includes the distributive law: $x\ast (y+z)= x\ast y+x\ast z$;
 * 
 
+(More to go here.)
+
 ## Remark
 
 
