@@ -19,7 +19,7 @@ In all these cases, the category, $\mathcal{C}$, of such 'algebras' is [[monadic
 
 Again in all these cases, the forgetful functor, $U:\mathcal{C}\to Set_*$ factors through the category of groups and all the operations in the corresponding algebraic theory of $\mathcal{C}$ are finitary, so $\mathcal{C}$ can be thought of as a category of _groups with extra structure_, much as in the more general [[Omega-groups]].  We have, thus, that $\mathcal{C}$ is equivalent to a category $Grps^{\hat{\mathbf{T}}}$ for some monad $\hat{\mathbf{T}}$. 
 
-Within this abstract setting, one can formulate notions of subobject, center, etc, but to formulate in this setting the criteria for an object to be an ideal or normal subobject, it is useful to make the assumption that the theory of $\mathcal{C}$ can be presented by a set of operations and identities satisfying some extra conditions, most of which as versions of obvious ones from 'algebra'.
+Within this abstract setting, one can formulate notions of subobject, center, etc, but to formulate in this setting the criteria for an object to be an ideal or normal subobject, it is useful to make the assumption that the theory of $\mathcal{C}$ can be presented by a set of operations and identities satisfying some extra conditions, most of which are versions of obvious ones from 'algebra'.
 
 
 ##Definition
@@ -52,20 +52,34 @@ We have the following conditions on the equations/identities:
 * for any $\omega \in \Omega^\prime_1$ and $\ast \in \Omega^\prime_2$, $\mathbb{E}$ includes the identity $\omega(x)\ast y = \omega(x\ast y)$;
 * for any $\ast \in \Omega^\prime_2$, $\mathbb{E}$ includes the identity $x+(y\ast z)=(y\ast z)+x$;
 * for any $\ast, \circ \in \Omega^\prime_2$, there is a word $W$ such that $\mathbb{E}$ includes the identity:
-$(x_1*x_2)\overline{*}x_3 = W(x_1(x_2x_3), x_1(x_3x_2), (x_2x_3)x_1, (x_3x_2)x_1,x_2(x_1x_3),x_2(x_3x_1),(x_1x_3)x_2,x_3x_1)x_2)$.
-(More to go here.)
+$(x*y)\circ z = W(x\ast_1(y\circ_1 z),\ldots, x\ast_m(y\circ_m z), y\ast_{m+1}(x\circ_{m+1} z),\ldots, y\ast_{n}(x\circ_{n} z)$, where $\ast_1\ldots,\ast_n$ and $\circ_1,\ldots,  \circ_n$ are operations in $\Omega^\prime_2$.
 
-## Remark
+## Properties
 
 
-Any category of interest is a variety of $\Omega$-groups (in the sense of Higgins) and so is automatically a [[semi-abelian category]]. This provides a useful set of fairly concrete examples for study in the semi-abelian /  proto-modular context.
+Any category of group-based universal algebras is a variety of $\Omega$-groups (in the sense of Higgins) and so is automatically a [[semi-abelian category]]. This provides a useful set of fairly concrete examples for study in the semi-abelian /  proto-modular context. In fact, they are [[protomodular category|strongly protomodular]], (and hence [[strongly semi-abelian]]). This means that in such categories you can deal with internal [[actions]] in more or less the same way as you do in the category of groups.
+
+
+Moreover categories of group-based universal algebras are action accessible in the sense of Bourn-Janelidze, meaning that actions are not so far from being representable, allowing a Schreier-MacLane-like obstruction theory for the classification of extensions.
+
 
 ##Related entries
 
 * [[Omega-group]]
 
+* [[semi-abelian category]]
+
 * [[protomodular category]]
+
 
 ##References
 
+The original idea is in 
+
 * Grace Orzech, _Obstruction theory in algebraic categories I, II_, J. Pure Appl. Algebra __2__ (1972) 287-340, 315 - 340. 
+
+The point about actions is in 
+
+* [[G. Metere]], _A note on strong protomodularity, actions and quotients,_ Journal of Pure and Applied Algebra, 221 (2017)
+
+[[!redirects category of interest]]
