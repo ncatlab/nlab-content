@@ -132,9 +132,13 @@ This result is due to Johnstone-Joyal ([1982, p.257](#JJ82)) and occurs as theor
 
 [^classi]: More generally, classifying toposes for [[Horn theory|universal Horn theories]] $\mathbb{T}$ correspond to the respective toposes of covariant set-valued functors on the category of finitely presentable models of $\mathbb{T}$ (Blass&Scedrov (1983)).
 
-Since the theory $\mathbb{O}_\ast$ is an extension of $\mathbb{O}$, it can be treated relatively as an internal theory in $\mathcal{S}[\mathbb{O}]$. There it is just the theory of elements of the generic set $G$, in other words the propositional theory for the discrete space of $G$. Discrete spaces are always got as slice toposes, so $\mathcal{S}[\mathbb{O}_\ast]$ is equivalent to $[FinSet, Set]\G$. $G$ is the inclusion functor $FinSet \to Set$, mapping each natural number $n$ to its finite cardinal $\{0,\ldots,n-1\}$.
+Since the theory $\mathbb{O}_\ast$ is an extension of $\mathbb{O}$, it can be treated relatively as an internal theory in $\mathcal{S}[\mathbb{O}]$. There it is just the theory of elements of the generic set $G$, in other words the propositional theory for the discrete space of $G$. Discrete spaces are always got as slice toposes, so $\mathcal{S}[\mathbb{O}_\ast]$ is equivalent to
 
-The forgetful map (geometric morphism) from $\mathcal{S}[\mathbb{O}_\ast$ to $\mathcal{S}[\mathbb{O}]$, forgetting the point, is the generic local homeomorphism. Every local homeomorphism is a bipullback of it.
+$$[FinSet, Set]/G\simeq \underset{FinSet^{op}}{\int} G\;.$$
+
+$G$ is the inclusion functor $FinSet \to Set$, mapping each natural number $n$ to its finite cardinal $\{0,\ldots,n-1\}$.
+
+The forgetful map (geometric morphism) from $\mathcal{S}[\mathbb{O}_\ast]$ to $\mathcal{S}[\mathbb{O}]$, forgetting the point, is the generic local homeomorphism. Every local homeomorphism is a bipullback of it.
 
 ## Related entries
 
