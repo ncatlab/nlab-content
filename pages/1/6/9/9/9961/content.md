@@ -42,6 +42,8 @@ Despite the word "theory", lattice gauge theory is more like "computer-simpulate
 
 * Discussion of [[QCD instantons]] in LGT includes ([Moore 03, section 7](#Moore03), [Gruber 13](#Gruber13))
 
+* [[AdS/QCD correspondence]]
+
 * [[Euclidean field theory]]
 
 * [[string bit model]]
