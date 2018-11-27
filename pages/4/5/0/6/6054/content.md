@@ -328,7 +328,7 @@ For references and further details on the idempotent approximation see at [[idem
 
 Let $T$ be a [[geometric theory]] over a signature $\Sigma$ and $f:\mathcal{E}\to Set[T]$ a geometric morphism to its [[classifying topos]]. Then by the general properties of a classifying topos, $f$ corresponds to a certain $T$-model $M$ in $\mathcal{E}$. 
 
-Notice that every geometric morphism $f$ between [[Grothendieck toposes]] is of this form for some geometric theory $T$ and hence corresponds to some model $M$ ! This models permits to attach a geometric theory to $f$ as well:
+Notice that every geometric morphism $f$ between [[Grothendieck toposes]] is of this form for some geometric theory $T$ and hence corresponds to some model $M$ ! This model permits to attach a geometric theory to $f$ as well:
 
 The **theory of M** $Th(M)$ consists of all geometric sequents $\sigma$ over $\Sigma$ such that $M\models \sigma$.
 
