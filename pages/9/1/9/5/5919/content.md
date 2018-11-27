@@ -21,11 +21,11 @@ The _theory of objects_ is the logical theory whose models in a category $\mathc
 
 ## Definition
 
-The _theory of objects_ $O$ is the [[theory]] with no axioms over the [[signature (in logic)|signature]] with a single [[type]] and no primitive symbols except [[equality]].
+The _theory of objects_ $\mathbb{O}$ is the [[theory]] with no axioms over the [[signature (in logic)|signature]] with a single [[type]] and no primitive symbols except [[equality]].
 
 ## Properties
 
-Of course, $O$ is a [[geometric theory]], and as [[models]] for $O$ in a [[topos]] $\mathcal{E}$ correspond to [[objects]] of $\mathcal{E}$, we can use its [[classifying topos]] to get a representation of the objects of $\mathcal{E}$.
+Of course, $\mathbb{O}$ is a [[geometric theory]], and as [[models]] for $\mathbb{O}$ in a [[topos]] $\mathcal{E}$ correspond to [[objects]] of $\mathcal{E}$, we can use its [[classifying topos]] to get a representation of the objects of $\mathcal{E}$.
 
 +-- {: .num_prop}
 ###### Proposition
@@ -39,13 +39,13 @@ See at _[[classifying topos for the theory of objects]]_.
 
 * For more general base toposes $\mathcal{S}$, it is a theorem due to [[Andreas Blass]] that the theory of objects has a classifying topos precisely if $\mathcal{S}$ has a [[natural numbers object]].
 
-* Closely related to $O$ is the **theory of pointed objects** $O_\ast$ which is the empty theory over a signature with of a single constant. Its models are pointed objects and its classifying topos is $[FinSet_\ast,Set]$. (See the discussion&references at [[classifying topos for the theory of objects]].)
+* Closely related to $O$ is the **theory of pointed objects** $\mathbb{O}_\ast$ which is the empty theory over a signature with a single constant and, accordingly, a single sort. Its models are pointed objects and its classifying topos is $[FinSet_\ast,Set]$. (See the discussion&references at [[classifying topos for the theory of objects]].)
 
-* The next step up on the ladder of logical complexity is the **theory of inhabited objects** $O_\exists$ that adds to $O$ the existential axiom $\top\vdash(\exists x)\top$. Its classifying topos $Set[O_\exists]$ is the functor category $[FinSet_\exists, Set]$ with $FinSet_\exists$ the _category of finite nonempty sets_. It has the property that every topos $\mathcal{E}$ admits a [[localic topos|localic morphism]] to $Set[O_\exists]$.[^fine] 
+* Another step up on the ladder of logical complexity is the **theory of inhabited objects** $\mathbb{O}_\exists$ that adds to $\mathbb{O}$ the existential axiom $\top\vdash(\exists x)\top$. Its classifying topos $Set[\mathbb{O}_\exists]$ is the functor category $[FinSet_\exists, Set]$ with $FinSet_\exists$ the _category of finite nonempty sets_. It has the property that every topos $\mathcal{E}$ admits a [[localic topos|localic morphism]] to $Set[\mathbb{O}_\exists]$.[^fine] 
 
 [^fine]: cf. Johnstone (2002 II, p.773) and [[Andre Joyal|Joyal-Tierney (1984)]]. For some further information on $FinSet_\exists$ see the references at [[generic interval]].
 
-* In the syntax-free approach to geometric theories of Johnstone (2002, I B4.2) the **theory of objects** corresponds to the forgetful functor sending an $\mathcal{S}$-topos to its underlying category (cf. [[geometric theory#FunctorialDefinition]]).
+* In the syntax-free approach to geometric theories of Johnstone (2002, I B4.2) the **theory of objects** corresponds to the forgetful functor sending an $\mathcal{S}$-topos to its underlying category (cf. [[geometric theory]](#FunctorialDefinition)).
 
 ## Related Concepts
 
