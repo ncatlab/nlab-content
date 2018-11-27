@@ -92,7 +92,9 @@ Categories of models of finitary essentially algebraic theories are precisely eq
 
 * As mentioned above, categories are models of a finitary essentially algebraic theory. 
 
-* An equational [[Horn theory]] is essentially algebraic, but not all essentially algebraic theories are equational Horn theories. Perhaps surprisingly, $Cat$ is not the category of models of any equational Horn theory, nor is even the category $Pos$ of posets. See [this paper](ftp://132.206.150.195/pub/barr/pdffiles/horn.pdf) by Barr for a proof. Essentially algebraic theories are equivalent to *partial* Horn theories.
+* An equational [[Horn theory]] is essentially algebraic, but not all essentially algebraic theories are equational Horn theories. Perhaps surprisingly, $Cat$ is not the category of models of any equational Horn theory, nor is even the category $Pos$ of posets. See [this paper](ftp://132.206.150.195/pub/barr/pdffiles/horn.pdf) by Barr for a proof. Essentially algebraic theories are equivalent to *partial* Horn theories ([Palmgren, Vickers](#PalmgrenVickers)).
+
+* An equivalent formulation is as a _cartesian theory_, a [[geometric theory]] in which disjunction $\bigvee$ is not used, and each use of existential quantification $\exists$ must be accompanied by a proof that existence is unique. See [[Elephant]].
 
 ## Related concepts
 
@@ -101,6 +103,8 @@ Categories of models of finitary essentially algebraic theories are precisely eq
   * [[2-Lawvere theory]]  
 
   *  [[algebraic (∞,1)-theory]] / [[essentially algebraic (∞,1)-theory]]
+
+* [[cartesian logic]]
 
 * [[monad]] / [[(∞,1)-monad]]
 
@@ -121,7 +125,7 @@ Freyd first introduced essentially algebraic theories here:
 
 A nice equivalent formulation can be found in
 
-* [[Erik Palmgren]], [[Steve Vickers]] Partial Horn logic and cartesian categories. Annals of Pure and Applied Logic, 145(2007), 314-355. ([pdf](http://www2.math.uu.se/~palmgren/partialalgebras_pre.pdf))
+* {#PalmgrenVickers}[[Erik Palmgren]], [[Steve Vickers]] Partial Horn logic and cartesian categories. Annals of Pure and Applied Logic, 145(2007), 314-355. ([pdf](http://www2.math.uu.se/~palmgren/partialalgebras_pre.pdf))
  
 [[!redirects essentially algebraic]]
 [[!redirects essentially algebraic theory]]
@@ -130,3 +134,4 @@ A nice equivalent formulation can be found in
 [[!redirects finite limits theories]]
 [[!redirects finite limit theory]]
 [[!redirects finite limit theories]]
+[[!redirects cartesian theory]]
