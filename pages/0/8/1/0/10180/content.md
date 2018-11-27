@@ -87,6 +87,9 @@ $$
 
 Because every [[set]] is the [[filtered colimit]] over its finite [[subsets]].
 
+Constructively we should take a little care over "finite". A set is the filtered colimit of its _Kuratowski_ finite subsets, but a Kuratowski finite set is the image of some finite cardinal $\{0,\ldots, n-1\}$. The issue is that, unless the superset has decidable equality, we are not necessarily able to eliminate duplicates from the list of elements in the Kuratowski finite subset.
+We find that the set is still a filtered colimit of finite cardinals, though not necessarily subsets. The category $FinSet$ can be taken to have the natural numbers as its objects, with morphisms being functions between the corresponding finite cardinals.
+
 =--
 
 ### The monoidal point of view
@@ -100,6 +103,13 @@ A related point of view is that $FinSet^{op}$ is the [[free construction|free]] 
 Consider the forgetful [[2-functor]] $U:GrTop^{op}\to Cat$ from the opposite of the 2-category $GrTop$ of Grothendieck toposes and geometric morphisms that maps a topos to its underlying category and a geometric morphism to its [[inverse image functor]]. The object classifier $\mathcal{S}[\mathbb{O}]$ is a [[representing object]] for $U$.
 
 For more on this functorial approach to geometric theories see at [[geometric theory#FunctorialDefinition]] or Johnstone ([2002, vol.1 pp.424ff](#JT02)).
+
+### The generalized space point of view
+
+The universal property says that maps (geometric morphisms) from a Grothendieck topos $\mathcal{E}$ to $\mathcal{S}[\mathbb{O}]$ are equivalent to the objects of $\mathcal{E}$, the sheaves over the generalized space of whatever $\mathcal{E}$ classifies. But $\mathcal{S}[\mathbb{O}]$ is the generalized space of "sets", so sheaves should be understood as continuous set-valued maps.
+This is seen most clearly when $\mathcal{E}$ is sheaves over an [[point-free topology|ungeneralized space]] $X$. The sheaf is equivalent to a local homeomorphism to $X$, and the set-valued map takes points of $X$ to the stalks, the fibres of the local homeomorphism.
+
+So what are the sheaves over $\mathcal{S}[\mathbb{O}]$, i.e. its objects? They are continuous maps $F$ from the space of sets to itself. All continuous maps (geometric morphisms) preserve filtered colimits of points, and it follows that $F$ is determined by its action on finite cardinals. Hence $\mathcal{S}[\mathbb{O}]$ is - at least - a subcategory of $[FinSet, Set]$.
 
 ### The object classifier and exponentiability
 
@@ -121,6 +131,10 @@ This result is due to Johnstone-Joyal ([1982, p.257](#JJ82)) and occurs as theor
 [[pointed object|Pointed objects]] are important in [[homotopy theory]]. Similarly to objects, they arise as models of a geometric theory and this [[theory of objects|theory of pointed objects]] $\mathbb{O}_\ast$  is, of course, classified by a topos, namely, the presheaf topos $[FinSet_\ast, Set]$ on the opposite $FinSet_\ast^{op}$ of the category of finite [[pointed sets]] whose skeleton is [[Segal's category]], hence $[FinSet_\ast, Set]$ is equivalent to the topos of "$\Gamma$-sets": cf. [[Gamma-space]] and for the role as a classifying space the following MO-discussion: [link](http://mathoverflow.net/questions/85600/what-do-gamma-sets-classify) .[^classi]
 
 [^classi]: More generally, classifying toposes for [[Horn theory|universal Horn theories]] $\mathbb{T}$ correspond to the respective toposes of covariant set-valued functors on the category of finitely presentable models of $\mathbb{T}$ (Blass&Scedrov (1983)).
+
+Since the theory $\mathbb{O}_\ast$ is an extension of $\mathbb{O}$, it can be treated relatively as an internal theory in $\mathcal{S}[\mathbb{O}]$. There it is just the theory of elements of the generic set $G$, in other words the propositional theory for the discrete space of $G$. Discrete spaces are always got as slice toposes, so $\mathcal{S}[\mathbb{O}_\ast]$ is equivalent to $[FinSet, Set]\G$. $G$ is the inclusion functor $FinSet \to Set$, mapping each natural number $n$ to its finite cardinal $\{0,\ldots,n-1\}$.
+
+The forgetful map (geometric morphism) from $\mathcal{S}[\mathbb{O}_\ast$ to $\mathcal{S}[\mathbb{O}]$, forgetting the point, is the generic local homeomorphism. Every local homeomorphism is a bipullback of it.
 
 ## Related entries
 
