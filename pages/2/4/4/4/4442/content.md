@@ -57,7 +57,7 @@ These warped throat models go back to [Klebanov-Strassler 00](#KlebanovStrassler
 
 In particular this means that AdS-CFT duality applies in _some approximation_ to intersecting D-brane models (e.g. [Soda 10](#Soda10), [GHMO 16](#GHMO16)), thus allowing to compute, to some approximation, [[non-perturbative effects]] in the [[Yang-Mills theory]] on the intersecting branes in terms of [[gravity]] on the ambient warped throat $\sim$ [[anti de Sitter spacetime|AdS]] ([Klebanov-Strassler 00, section 6](#KlebanovStrassler00))
 
-Such approximate version of [[AdS-CFT]] for gauge theories realized on intersecting D-branes are used for instance to estimate [[non-perturbative effects]] in [[QCD]], such as the [[shear viscosity]] of the [[quark-gluon plasma]] ([Policastro-Son-Starinets 01](#PolicastroSonStarinets01)).
+Such approximate version of [[AdS-CFT]] for gauge theories realized on intersecting D-branes are used for instance to estimate [[non-perturbative effects]] in [[QCD]], such as the [[shear viscosity]] of the [[quark-gluon plasma]] ([Policastro-Son-Starinets 01](#PolicastroSonStarinets01)). For more on this approximate relation see at _[[AdS-QCD correspondence]]_.
 
 
 
