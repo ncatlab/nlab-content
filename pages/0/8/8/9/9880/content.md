@@ -148,6 +148,8 @@ becomes
 
 * [[proton spin crisis]]
 
+* [[AdS/CFT correspondence]], [[AdS/QCD correspondence]]
+
 * [string theory FAQ -- Isn't it fatal that the string perturbation series does not converge?](string+theory+FAQ#NonConvergenceOfPerturbationSeries)
 
 
