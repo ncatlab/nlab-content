@@ -72,6 +72,12 @@ A decisive advantage of point-free topology is that it gives a fibrewise topolog
 
 It is shown in [Joyal, Tierney](#JoyalTierney84) that, for any elementary topos $\mathcal{E}$, there is an equivalence between localic bundles over $\mathcal{E}$ (i.e. localic geometric morphisms into it) and internal _point-free spaces_ in $\mathcal{E}$. The result does not work point-set.
 
+Joyal and Tierney proved their result for internal frames. However, in some ways it works better for presentations of frames by generators and relations, if there is some geometric theory $\mathbb{T}_0$ of which the systems of generators and relations are models. This is not the case for frames - the frame structure is not geometric.  [Vickers 2007](#Vickers07) works it out for the general case of "GRD-systems", systems of generators, relations and "disjuncts".
+Each model $P$ of the geometric theory $\mathbb{T}_0$ itself presents another geometric theory (for its point-free space), and this can be used to make a theory $\mathbb{T}_1$, extending $\mathbb{T}_0$, that classifies "pointed" presentations.
+There is a forgetful map (forget the point) $p\colon \mathcal{S}[\mathbb{T}_1] \to \mathcal{S}[\mathbb{T}_0]$ between the classifying toposes.
+Then a presentation in $\mathcal{E}$ is a map $P\colon\mathcal{E}\to\mathcal{S}[\mathbb{T}_0]$, and the localic bundle constructed by Joyal and Tierney is a bipullback of $p$ along $P$.
+
+What this account reveals is that the bundle is - using $P$ - a continuous space-valued map on $\mathcal{E}$. For each point $x$ of $\mathcal{E}$, the fibre is $P(x)$ - because fibres are just pullbacks.
 
 ## Definition
 
