@@ -79,17 +79,21 @@ Then a presentation in $\mathcal{E}$ is a map $P\colon\mathcal{E}\to\mathcal{S}[
 
 What this account reveals is that the bundle is - using $P$ - a continuous space-valued map on $\mathcal{E}$. For each point $x$ of $\mathcal{E}$, the fibre is $P(x)$ - because fibres are just pullbacks.
 
-## Definition
+## Set of points
 
-In the interest of considering whether a formulation of topology is pointless or not, I offer the following sociomathematical suggestion at a definition:
+Depending on the foundational setting, a point-free space may or may not have a set of points, a discrete coreflection. This can be done in topos theory, but relies on an impredicative use of power_sets_. (Formal topology arose out of a desire to work predicatively.)
 
-Working in a given [[logic|logical]] context $\mathcal{L}$, suppose that one defines a [[category]] (or $(\infty,1)$-[[(infinity,1)-category|category]]) $S$, whose [[objects]] one thinks of as [[spaces]] and whose [[morphisms]] one thinks of as [[continuous maps]].  Suppose further that one intends $Hom(X,Y)$ to be the [[set]] (or $\infty$-[[infinity-groupoid|groupoid]]) of *all* continuous maps from $X$ to $Y$ (whereas $Ob(S)$ need not be the class of all spaces).  Also suppose that $S$ has a [[terminal object]] $pt$, which one interprets as the [[point]].
+However, even when it exists, the set of points does not generally represent the space well.
 
-+-- {: .num_defn}
-###### Definition
+This is best understood in terms of bundles over $X$. The "set of points" of a bundle $p\colon Y\to X$ is a sheaf over $X$, hence a local homeomorphism $q\colon Z\to X$. As a discrete coreflection it must also have a bundle map $f$ from $q$ to $p$. However, local homeomorphisms have an _opfibrational_ property that limits their ability to approximate general bundles. Suppose $x \sqsubseteq x'$ are two points of $X$ that are related by the specialization order. Then there is a corresponding fibre map $q^{-1}(x) \to q^{-1}(x')$.
 
-The above is a __pointwise__ formulation of topology if it is [[proof|provable]] (in $\mathcal{L}$) that $pt$ is a [[generator]] in $S$ but __pointless__ if this is not provable.  (One could have stronger notions of pointlessness by asking that this be refutable; if using [[intuitionistic logic]], this could be further strengthened.)
-=--
+As an example, take $X$ to be the Sierpinski space $\mathbb{S}$. Its points are subsets of a singleton $\{\ast\}$ and include $\bot=\emptyset\sqsubseteq\top=\{\ast\}$.
+Its sheaves are functions - the fibre maps $Z_{\bot}\to Z_{\top}$.
+
+Now consider the bundle $p\colon 1\to\mathbb{S}$ that picks out the closed point $\bot$. Its fibres over $\bot$ and $\top$ are singleton and empty. Let $q\colon Z \to \mathbb{S}$ be its discrete coreflection. Because there is a bundle map from $q$ to $p$, the fibre $Z_\top$ must be empty. But then because $q$ is a local homeomorphism, $Z_\bot$ must also be empty. $Z$, the "set of points" of $p$, is the empty space over $\mathbb{S}$.
+
+We see that a non-trivial space can have have an empty set of points for purely topological reasons, nothing to do with logic or a pathological nature of point-free spaces.
+
 
 ## Applications
 
