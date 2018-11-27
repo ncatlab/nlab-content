@@ -58,6 +58,10 @@ Hence the Riemann moduli space is the [[orbifold quotient]] of Teichm&#252;ller 
 
 * [[Outer space]]
 
+* for version in [[supergeometry]] see at _[[super Riemann surface]]_
+
+
+
 ## References
 
 The original articles are
@@ -84,8 +88,6 @@ Further developments include
 * [[Alexander Grothendieck]],  _Techniques de construction en g&#233;om&#233;trie analytique. I. Description axiomatique de l'espace de Teichm&#252;ller et de ses variantes_ S&#233;minaire Henri Cartan 13 no. 1, Expos&#233;s No. 7 and 8 (Paris: Secr&#233;tariat Math&#233;matique). (1960/1961) ([Numdam](http://www.numdam.org/item?id=SHC_1960-1961__13_1_A4_0))
 
 * {#HubbardKoch13} [[John Hubbard]], [[Sarah Koch]], _An analytic construction of the Deligne-Mumford compactification of the moduli space of curves_ ([arXiv:1301.0062](http://arxiv.org/abs/1301.0062)) 
-
-
 
 [[!redirects Teichmüller space]]
 [[!redirects Teichmüller spaces]]
