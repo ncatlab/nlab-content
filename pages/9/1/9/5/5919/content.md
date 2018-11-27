@@ -39,13 +39,13 @@ See at _[[classifying topos for the theory of objects]]_.
 
 * For more general base toposes $\mathcal{S}$, it is a theorem due to [[Andreas Blass]] that the theory of objects has a classifying topos precisely if $\mathcal{S}$ has a [[natural numbers object]].
 
-* Closely related to $O$ is the **theory of pointed objects** $\mathbb{O}_\ast$ which is the empty theory over a signature with a single constant and, accordingly, a single sort. Its models are pointed objects and its classifying topos is $[FinSet_\ast,Set]$. (See the discussion&references at [[classifying topos for the theory of objects]].)
-
-* Another step up on the ladder of logical complexity is the **theory of inhabited objects** $\mathbb{O}_\exists$ that adds to $\mathbb{O}$ the existential axiom $\top\vdash(\exists x)\top$. Its classifying topos $Set[\mathbb{O}_\exists]$ is the functor category $[FinSet_\exists, Set]$ with $FinSet_\exists$ the _category of finite nonempty sets_. It has the property that every topos $\mathcal{E}$ admits a [[localic topos|localic morphism]] to $Set[\mathbb{O}_\exists]$.[^fine] 
+* A step up on the ladder of logical complexity is the **theory of inhabited objects** $\mathbb{O}_\exists$ that adds to $\mathbb{O}$ the existential axiom $\top\vdash(\exists x)\top$. Its classifying topos $Set[\mathbb{O}_\exists]$ is the functor category $[FinSet_\exists, Set]$ with $FinSet_\exists$ the _category of finite nonempty sets_. It has the property that every topos $\mathcal{E}$ admits a [[localic topos|localic morphism]] to $Set[\mathbb{O}_\exists]$.[^fine] 
 
 [^fine]: cf. Johnstone (2002 II, p.773) and [[Andre Joyal|Joyal-Tierney (1984)]]. For some further information on $FinSet_\exists$ see the references at [[generic interval]].
 
-* In the syntax-free approach to geometric theories of Johnstone (2002, I B4.2) the **theory of objects** corresponds to the forgetful functor sending an $\mathcal{S}$-topos to its underlying category (cf. [[geometric theory]](#FunctorialDefinition)).
+* If instead of an additional axiom one adds a single constant symbol to the signature of $\mathbb{O}$ one obtains the **theory of pointed objects** $\mathbb{O}_\ast$ i.e. the empty theory relative to the signature with a single sort and a single constant. Its models are pointed objects and its classifying topos is $[FinSet_\ast,Set]$. (See the discussion&references at [[classifying topos for the theory of objects]].)
+
+* In the syntax-free approach to geometric theories of Johnstone (2002, I B4.2) the **theory of objects** corresponds to the forgetful functor sending an $\mathcal{S}$-topos to its underlying category. (See at [[geometric theory]] the section on the functorial definition.)
 
 ## Related Concepts
 
