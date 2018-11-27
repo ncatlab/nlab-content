@@ -77,7 +77,7 @@ Discussion of super Riemann surfaces induced by [[supermultiplets]] for $N$-exte
 
 * {#DoranIgaKostiukMendes-Diez16} [[Charles Doran]], [[Kevin Iga]], Jordan Kostiuk, [[Stefan Méndez-Diez]], _Geometrization of $\mathcal{N}$-Extended 1-Dimensional Supersymmetry Algebras II_ ([arXiv:1610.09983](https://arxiv.org/abs/1610.09983))
 
-Further discusiosn of [[supergeometry|supergeometric]] [[Teichmüller space]]:
+Further discussion of [[supergeometry|supergeometric]] [[Teichmüller space]]:
 
 * [[Robert Penner]], [[Anton Zeitlin]], _Decorated Super-Teichmüller Space_ ([arXiv:1509.06302](https://arxiv.org/abs/1509.06302))
 
