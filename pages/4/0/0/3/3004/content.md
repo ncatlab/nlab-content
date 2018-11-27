@@ -81,6 +81,22 @@ By the usual syntactic constructions (see [[internal logic]] and [[context]]), a
 
 * The theory of a set isomorphic to $\mathbb{N}$ is geometric, and makes essential use of the infinitary disjunctions. See [[geometric type theory]].
 
+* The theory of flat diagrams over a small category $\mathcal{C}$ is geometric. For each object $i$ of $\mathcal{C}$ there is a sort $\sigma_i$, and for each morphism $u\colon i \to j$ a function symbol $\alpha_u\colon \sigma_i \to \sigma_j$. The axioms are -
+
+  - $\top \vdash_{x\colon\sigma_i} \alpha_{Id_i}(x) = x$
+
+  - $\top \vdash_{x\colon\sigma_i} \alpha_{v}(\alpha_u(x)) = \alpha_{v u}(x)$ ($u\colon i \to j$ and $v\colon j \to k$)
+
+  - $\top \vdash \bigvee_{i \in \mathcal{C}_0} (\exists x\colon \sigma_i) \top$
+
+  - $\top \vdash_{x\colon\sigma_i, y\colon\sigma_j} \bigvee_{u\colon k\to i, v\colon k\to j} (\exists z\colon\sigma_k) (x = \alpha_u(z) \wedge y = \alpha_v(z))$
+
+  - $\alpha_u(x) = \alpha_v(x) \vdash_{x\colon\sigma_i} \bigvee_{w\colon k\to i, u w = v w} (\exists z\colon \sigma_k) x = \alpha_w(z)$ ($u,v\colon i \to j$)
+
+This theory is classified by the topos of presheaves over $\mathcal{C}$.
+
+It is commonly more useful to consider the theory of flat _presheaves_ over $\mathcal{C}$, in other words the flat diagrams over $\mathcal{C}^{op}$. ([[Elephant]] calls these _torsors_ over $\mathcal{C}$, generalizing the established terminology for groups.) This is because the representable presheaves are flat, and so Yoneda's lemma transforms objects of $\mathcal{C}$ covariantly into models of the theory. In fact, the models of the theory are the filtered colimits of representables. For example, a finitary algebraic theory is classified by the topos of covariant functors from the category of finitely presented algebras to $Set$.
+
 * A geometric theory whose [[classifying topos]] is a [[presheaf topos]] is called a _[[theory of presheaf type]]_.
 
 
