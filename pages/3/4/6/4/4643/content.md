@@ -100,5 +100,8 @@ A general quantum geometric Langlands correspondence is produced in
 
 * {#AganagicFrenkelOkounkov17} [[Mina Aganagic]], [[Edward Frenkel]], [[Andrei Okounkov]], _Quantum $q$-Langlands Correspondence_ ([arXiv:1701.03146](https://arxiv.org/abs/1701.03146))
 
+See also
+
+* Peter Koroteev, Daniel S. Sage, [[Anton Zeitlin]], _$(SL(N),q$)-opers, the $q$-Langlands correspondence, and quantum/classical duality_ ([arXiv:1811.09937](https://arxiv.org/abs/1811.09937))
 
 [[!redirects quantum geometric Langlands duality]]
