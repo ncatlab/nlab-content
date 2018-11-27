@@ -72,6 +72,9 @@ It has been argued that, after [[Wick rotation]], confinement may be derived fro
 
 > The [[caloron]] idea is probably the most promising current version of [[monopole]] [[confinement]] in pure non-abelian gauge theories, but it is  basically  (in certain [[gauge fixing|gauges]]) a superposition of [[monopoles]] with spherically  symmetric abelian fields, and this leads to the same questions raised in connection with monopole Coulomb gases.
 
+### Via AdS/QCD correspondence
+
+For the moment see at _[[AdS/QCD correspondence]]_.
 
 ### In $\mathcal{N}=2$ super Yang-Mills theory via Seiberg-Witten theory
   {#InN2SYM}
