@@ -19,7 +19,11 @@
 
 ## Idea
 
-There is some application of ideas from the [[AdS-CFT correspondence]] to [[condensed matter physics]].
+The [[AdS-CFT correspondence]] applies _exactly_ only to a few highly symmetric [[quantum field theories]], notably to [[N=4 D=4 super Yang-Mills theory]]. However, it does not completely break away from these special points in field theory space, but applies in some approximation and/or with suitable modifications on the [[gravity]]-side of the correspondence.
+
+For instance [[quantum chromodynamics]] (one sector of the [[standard model of particle physics]]) is crucially different from but still similar enough to [[N=4 D=4 super Yang-Mills theory]] that some of its [[observables]], in particular otherwise intractable [[non-perturbative effects]], have been argued to be usefully approximated by [[AdS-CFT]]-type dual [[gravity]]-observables, for instance the [[shear viscosity]] of the [[quark-gluon plasma]]. This is hence also called the _[[AdS/QCD correspondence]]_.
+
+Similarly, as far as systems in [[condensed matter physics]] are described well by some [[effective field theory]], one may ask whether this, in turn, is usefully related to [[gravity]] on some [[anti de-Sitter spacetime]] and use this to study the solid state system, notably its [[non-perturbative effects]].
 
 Andreas Karch writes [here](http://www.math.columbia.edu/~woit/wordpress/?p=9426#comment-226376):
 
