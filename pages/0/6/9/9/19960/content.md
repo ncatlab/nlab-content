@@ -23,13 +23,49 @@ Notably [[quantum chromodynamics]] (one sector of the [[standard model of partic
 
 This perspective is hence called the _AdS/QCD-correspondence_ or _holographic QCD_ or similar (see also [[AdS-CFT in condensed matter physics]] for similar relations).
 
+## Models 
+ {#Models}
+
+In approaches to $AdS/QCD$ one distinguishes [[bottom-up model building]] -- where the ambition is to first set up a globally consistent ambient [[intersecting D-brane model]] where a [[Yang-Mills theory]] at least similar to [[QCD]] arises on suitable [[D-branes]] ([[geometric engineering of gauge theories]]) -- from [[bottom-up model building]] approaches which are more cavalier about global consistency and first focus on accurately fitting the intended [[phenomenology]] of [[QCD]] as the [[asymptotic boundary|asymptotic]] [[boundary field theory]] of [[gravity]]+[[gauge theory]] on some [[anti de Sitter spacetime]]. (Eventually both these approaches should meet "in the middle" to produce a [[model (in theoretical physics)|model]] which is both [[standard model of particle physics|realistic]] as well as globally consistent as a [[string vacuum]]; see also at _[[string phenomenology]]_.)
+
+<center>
+<img src="https://ncatlab.org/nlab/files/BottomUpAndTopDownIntersDBraneModelBuilding.png" width="700"/>
+</center>
+
+>  graphics grabbed from [Aldazabal-Ibáñez-Quevedo-Uranga 00](bottom-up+and+top-down+model+building#AldazabalIbanezQuevedoUranga00)
+
+
+### Top-down model
+
+A populor [[top-down model building]]-approach to AdS/QCD is due to [Sakai-Sugimoto 04](#SakaiSugimoto04), [Sakai-Sugimoto 05](#SakaiSugimoto05). This is an [[intersecting D-brane model]] with $N_c$ (number of quark [[color in Yang-Mills theory|colors]]) [[D4-branes]] intersecting $N_j$ (number of [[flavour in Yang-Mills theory|flavours]]) [[D8-branes]] and [[anti D-brane|anti]] [[D8-branes]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/SakaiSugimotoModel.jpg" width="600">
+</center>
+
+> graphics grabbed from [Erlich 09, section 1.1](#Erlich09)
+
+
+### Bottom-up models
+
+A popular [[bottom-up model building|bottom-up approach]] of AdS/QCD is known as the _hard-wall model_ ([Erlich-Katz-Son-Stephanov 05](#ErlichKatzSonStephanov05)).
+
+Computations due to [Katz-Lewandowski-Schwartz 05](#KatzLewandowskiSchwartz05) find the following comparison of AdS/QCD predictions to [[QCD]]-[[experiment]]
+
+<center>
+<img src="https://ncatlab.org/nlab/files/HardWallModelPredictions.jpg" width="400">
+</center>
+
+> graphics grabbed from [Erlich 09, section 1.2](#Erlich09)
+
+
 ## References
 
 ### General
 
 Review:
 
-* Joshua Erlich, _How Well Does AdS/QCD Describe QCD?_,  	Int.J.Mod.Phys.A25:411-421,2010 ([arXiv:0908.0312](https://arxiv.org/abs/0908.0312))
+* {#Erlich09} Joshua Erlich, _How Well Does AdS/QCD Describe QCD?_,  	Int.J.Mod.Phys.A25:411-421,2010 ([arXiv:0908.0312](https://arxiv.org/abs/0908.0312))
 
 * M. R. Pahlavani, R. Morad, _Application of AdS/CFT in Nuclear Physics_, Advances in High Energy Physics ([arXiv:1403.2501](https://arxiv.org/abs/1403.2501))
 
@@ -47,6 +83,16 @@ Volume 68, January 2013, Pages 55-112 Progress in Particle and Nuclear Physics (
 General approach:
 
 * Alfredo Vega, Paulina Cabrera, _Family of dilatons and metrics for AdS/QCD models_, Phys. Rev. D 93, 114026 (2016) ([arXiv:1601.05999](https://arxiv.org/abs/1601.05999))
+
+The top-down Sakai-Sugimoto model is due to 
+
+* {#SakaiSugimoto04} Tadakatsu Sakai, Shigeki Sugimoto, _Low energy hadron physics in holographic QCD_, Prog.Theor.Phys.113:843-882, 2005 ([arXiv:hep-th/0412141](https://arxiv.org/abs/hep-th/0412141))
+
+* {#SakaiSugimoto05} Tadakatsu Sakai, Shigeki Sugimoto, _More on a holographic dual of QCD_,  	Prog.Theor.Phys.114:1083-1118, 2005 ([arXiv:hep-th/0507073](https://arxiv.org/abs/hep-th/0507073))
+
+The bottom-up hard-wall model is due to
+
+* {#ErlichKatzSonStephanov05} Joshua Erlich, Emanuel Katz, Dam T. Son, Mikhail A. Stephanov, _QCD and a Holographic Model of Hadrons_, Phys.Rev.Lett.95:261602, 2005 ([arXiv:hep-ph/0501128](https://arxiv.org/abs/hep-ph/0501128))
 
 See also
 
@@ -68,7 +114,9 @@ Review:
 
 Original articles:
 
-* Henrique Boschi-Filho, _Hadrons in AdS/QCD models_, Journal of Physics: Conference Series, Volume 706, Section 4 ([doi:10.1088/1742-6596/706/4/042008](http://iopscience.iop.org/article/10.1088/1742-6596/706/4/042008))
+* {#KatzLewandowskiSchwartz05} Emanuel Katz, Adam Lewandowski, Matthew D. Schwartz, _Phys.Rev.D74:086004, 2006_ ([arXiv:hep-ph/0510388](https://arxiv.org/abs/hep-ph/0510388))
+
+* Henrique Boschi-Filho, _Hadrons in AdS/QCD models_, Journal of Physics: Conference Series, Volume 706, Section 4 2008 ([doi:10.1088/1742-6596/706/4/042008](http://iopscience.iop.org/article/10.1088/1742-6596/706/4/042008))
 
 * Thomas Gutsche, Valery E. Lyubovitskij, Ivan Schmidt, Alfredo Vega, _Nuclear physics in soft-wall AdS/QCD: Deuteron electromagnetic form factors_, Phys. Rev. D 91, 114001 (2015) ([arXiv:1501.02738](https://arxiv.org/abs/1501.02738))
 
