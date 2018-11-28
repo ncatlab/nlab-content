@@ -20,7 +20,7 @@
 
 ## Idea
 
-_Representation theory_ is concerned with the study of [[algebra|algebraic]] [[structures]] via their [[representations]], This concerns notably [[groups]], directly or in their incarnation as [[group algebras]], [[Hopf algebras]] or [[Lie algebras]], and usually concerns [[linear algebra|linear]] [[representations]], hence [[modules]] of these structures. But more generally representation theory also studies [[representations]]/[[modules]]/[[actions]] of generalizations of such structures, such as [[coalgebras]] via their [[comodules]] etc.
+_Representation theory_ is concerned with the study of [[algebra|algebraic]] [[structures]] via their [[representations]]. This concerns notably [[groups]], directly or in their incarnation as [[group algebras]], [[Hopf algebras]] or [[Lie algebras]], and usually concerns [[linear algebra|linear]] [[representations]], hence [[modules]] of these structures. But more generally representation theory also studies [[representations]]/[[modules]]/[[actions]] of generalizations of such structures, such as [[coalgebras]] via their [[comodules]] etc.
 
 See also at _[[geometric representation theory]]_.
 
