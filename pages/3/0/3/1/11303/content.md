@@ -50,6 +50,8 @@ For more relations between QFTs found via string theory see at _[[string theory 
 
 * [[quiver gauge theory]]
 
+* [[AdS-QCD correspondence]]
+
 * [[M-theory on G2-manifolds]]
 
 ## References
@@ -80,3 +82,5 @@ Further developments are in
 [[!redirects geometric engineering]]
 
 [[!redirects geometric engineering of quantum field theories]]
+
+[[!redirects geometric engineering of gauge theories]]
