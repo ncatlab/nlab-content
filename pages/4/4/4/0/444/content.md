@@ -9,7 +9,6 @@
 =--
 =--
 
-***
 
 #Contents#
 * table of contents
@@ -474,7 +473,7 @@ See [[inner fibration]] for details on this.
 +-- {: .num_prop}
 ###### Proposition
 
-A [[simplicial set]] is the nerve of a [[groupoid]] precisely if _all_ [[horns]] have _unique_ fillers.
+A [[simplicial set]] is the nerve of a [[groupoid]] precisely if _all_ [[horns]] of dimension $\gt 1$ have _unique_ fillers.
 
 =--
 
