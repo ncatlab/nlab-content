@@ -41,7 +41,7 @@ $$
   }
 $$
 
-the 'pullback' of this diagram is the [[subset]] $X \subseteq A \times B$ consisting of pairs $(a,b)$ such that the [[equation]] $f(a) = g(b)$ hold.  
+the 'pullback' of this diagram is the [[subset]] $X \subseteq A \times B$ consisting of pairs $(a,b)$ such that the [[equation]] $f(a) = g(b)$ holds.  
 
 A pullback is therefore the [[categorical semantics]] of an _[[equation]]_.
 
