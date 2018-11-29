@@ -113,6 +113,9 @@ The [[n-truncated object of an (infinity,1)-category|n-truncated objects]] of $\
 
 category: category
 
+[[!redirects ∞Groupoid]]
+[[!redirects ∞Groupoids]]
+
 [[!redirects ∞Grpd]]
 [[!redirects ∞ Grpd]]
 [[!redirects ∞-Grpd]]
@@ -122,3 +125,5 @@ category: category
 [[!redirects ∞-Gpd]]
 [[!redirects infinity-Gpd]]
 [[!redirects Infinity-Gpd]]
+
+
