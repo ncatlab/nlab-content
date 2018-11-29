@@ -36,7 +36,7 @@ describes the process by which
 
 * The horizontal categorification of [[group]]s are [[groupoid]]s: [[category|categories]] in which every morphism is invertible.
 
-* A horizontal categorification of [[algebra]]s are _algebroids_: [[internal category|internal categories]] in the category of vector spaces. 
+* A horizontal categorification of [[algebra]]s are _algebroids_: [[enriched category|enriched categories]] in the category of vector spaces. 
 
 +--{: .query}
 [[David Roberts]]: How do Lie algebroids fit into this framework?
