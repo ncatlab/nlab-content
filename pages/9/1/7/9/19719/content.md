@@ -51,4 +51,27 @@ Here are the tasks to be done.  To volunteer for a task, edit the page and put y
 * [n-Category Café announcement](https://golem.ph.utexas.edu/category/2018/09/a_communal_proof_of_an_initial.html)
 * [[Initiality Project - Participants|participant list]].  If you would like to participate, simply add your name to the list and join the conversation!  All work will take place publically on nLab pages, nForum discussions, etc.
 
+## Page index
+
+* [[Initiality Project]]
+* [[Initiality Project - BibTeX database]]
+* [[Initiality Project - Overview]]
+* [[Initiality Project - Partial Interpretation]]
+* [[Initiality Project - Participants]]
+* [[Initiality Project - Pi-types]]
+* [[Initiality Project - Raw Syntax]]
+* [[Initiality Project - Raw Syntax - Pi-types]]
+* [[Initiality Project - References]]
+* [[Initiality Project - Semantics]]
+* [[Initiality Project - Semantics - Pi-types]]
+* [[Initiality Project - Substitution]]
+* [[Initiality Project - Term Model]]
+* [[Initiality Project - Term Model - Pi-types]]
+* [[Initiality Project - Totality]]
+* [[Initiality Project - Type Theory]]
+* [[Initiality Project - Type Theory - Pi-types]]
+* [[Initiality Project - Type Theory - Term equality]]
+* [[Initiality Project - Type Theory - Type equality]]
+* [[Initiality Project - Uniqueness]]
+
 category: Initiality Project
