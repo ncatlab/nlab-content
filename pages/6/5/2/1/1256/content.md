@@ -56,7 +56,7 @@ Coherent logic (including sequents, as above) is the [[internal logic]] of a [[c
 
 Coherent logic has many pleasing properties.
 
-* Every finitary [[first-order logic|first-order theory]] is equivalent, over [[classical logic]], to a coherent theory.  This theory is called its *Morleyization* and can be obtained by adding new relations representing each first-order formula and its negation, with axioms that guarantee (over classical logic) these relations are interpreted correctly (using the facts that $(P\Rightarrow Q) \dashv\vdash (\neg P \vee Q)$ and $(\forall x, P) \dashv\vdash (\neg \exists x, \neg P)$ in classical logic).  See D1.5.9 in [[Sketches of an Elephant]], or Prop. 3.2.8 in Makkai-Par&#233;.
+* Every finitary [[first-order logic|first-order theory]] is equivalent, over [[classical logic]], to a coherent theory.  This theory is called its *Morleyization* and can be obtained by adding new relations representing each first-order formula and its negation, with axioms that guarantee (over classical logic) these relations are interpreted correctly (using the facts that $(P\Rightarrow Q) \dashv\vdash (\neg P \vee Q)$ and $(\forall x, P) \dashv\vdash (\neg \exists x, \neg P)$ in classical logic).  See D1.5.13 in [[Sketches of an Elephant]], or Prop. 3.2.8 in Makkai-Par&#233;.
 
 * By (one of the theorems called) [[Deligne completeness theorem|Deligne's theorem]], every [[coherent topos]] has [[point of a topos|enough points]].  In particular, this applies to the classifying toposes of coherent theories.  It follows that models in [[Set]] are sufficient to detect provability in coherent logic.  By Morleyization, we can obtain from this the classical [[completeness theorem for first-order logic]].  See for instance 6.2.2 in Makkai-Reyes.
 
