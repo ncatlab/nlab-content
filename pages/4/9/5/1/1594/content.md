@@ -30,7 +30,7 @@ Where a [[smooth manifold]] is a [[space]] locally modeled on [[Cartesian spaces
 
 > graphics grabbed from [Hyde-Ramsden-Robins 14](#HydeRamsdenRobins14)
 
-This turns out to be equivalent ([Moerdijk](#Moerdijk), [Moerdijk-Pronk](#MoerdijkPronk)) to saying that an orbifold is a [[proper groupoid|proper]] [[étale groupoid|étale]] [[Lie groupoid]]. ([[Morita equivalence|Morita equivalent]] Lie groupoids correspond to the same orbifolds.)
+This turns out to be broadly captured([Moerdijk-Pronk 97](#MoerdijkPronk97), [Moerdijk 02](#Moerdijk02)) by saying that an orbifold is a [[proper groupoid|proper]] [[étale groupoid|étale]] [[Lie groupoid]]. ([[Morita equivalence|Morita equivalent]] Lie groupoids correspond to the same orbifolds.)
 
 The word _orbifold_ was invented in ([Thurston 1992](#Thurston)), while the original name was _$V$-manifold_ ([Satake](#Satake)), and was taken in a more restrictive sense, assuming that the actions of finite groups on the charts are always effective. Nowadays we call such orbifolds _effective_ and those which are global quotients by a finite group _global quotient orbifolds_.  
 
@@ -44,7 +44,7 @@ An orbifold is a stack presented by an [[orbifold groupoid]].
 
 ### General
 
-* One can consider a [[bicategory]] of proper &#233;tale Lie groupoids and the orbifolds will be the objects of certain bicategorical [[localization]] of this bicategory (a result of [Moerdijk and Pronk](#MoerdijkPronk)). 
+* One can consider a [[bicategory]] of proper &#233;tale Lie groupoids and the orbifolds will be the objects of certain bicategorical [[localization]] of this bicategory (a result of [Moerdijk-Pronk 97](#MoerdijkPronk97)). 
 
 
 * Equivalently, every orbifold is globally a quotient of a smooth manifold by an [[action]] of finite-dimensional [[Lie group]] with finite [[stabilizer subgroup|stabilizers]] in each point. (eg ([Adem-Leida-Ruan 2007](#ALR07)), Corollary 1.24)
@@ -153,10 +153,11 @@ On [[Riemannian orbifolds]]:
 
 Discussion of orbifold as [[Lie groupoids]]/[[differentiable stacks]] is in
 
-* {#Moerdijk} [[Ieke Moerdijk]], _Orbifolds as Groupoids: an Introduction_ ([arXiv:math.DG/0203100](http://arxiv.org/abs/math.DG/0203100))
  
 
-* {#MoerdijkPronk} [[Ieke Moerdijk]], [[Dorette Pronk]], _Orbifolds, sheaves and groupoids_, K-theory 12 3-21 (1997) ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/pronk.pdf))
+* {#MoerdijkPronk97} [[Ieke Moerdijk]], [[Dorette Pronk]], _Orbifolds, sheaves and groupoids_, K-theory 12 3-21 (1997) ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/pronk.pdf))
+
+* {#Moerdijk02} [[Ieke Moerdijk]], _Orbifolds as Groupoids: an Introduction_, [[Alejandro Adem]], [[Jack Morava]], Yongbin Ruan (eds.) _Orbifolds in Mathematics and Physics_, Contemporary Math 310 , AMS (2002), 205–222 ([arXiv:math.DG/0203100](http://arxiv.org/abs/math.DG/0203100))
   
 
 * [[Eugene Lerman]], _Orbifolds as stacks?_ ([arXiv:0806.4160](http://arxiv.org/abs/0806.4160))
