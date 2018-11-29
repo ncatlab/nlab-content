@@ -1,7 +1,7 @@
 
 +-- {: .query}
 
-[[Urs Schreiber]]: This page contains what turned out to be the beginning of a discussion that was further had on the nForum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=1232). 
+[[Urs Schreiber]]: This page contains what turned out to be the beginning of a discussion that was further had on the nForum [here](https://nforum.ncatlab.org/discussion/1232/is-probability-theory-a-branch-of-mathematics/#Item_0). 
 
 Eventually, I suggest, we should have a page [[probability theory]] following the usual [[template page]] that contains a remark on the fact that there is a certain philosophical discussion to be had about the nature of probability theory. That remark should then point to this page here, or to a page like it, which would contain this philosophical material.
 
