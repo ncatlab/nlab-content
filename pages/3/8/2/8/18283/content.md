@@ -9,7 +9,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-A _Picard groupoid_ is a [[symmetric monoidal|strict symmetric monoidal]] category $(\mathcal{A}, \oplus, 0)$ in which every object is strictly invertible with respect to $\oplus$, that is to say, there is, for every object $a$ of $\mathcal{A}$, an object $-a$ of $\mathcal{A}$ such that $a \oplus -a = 0$. This is a strict equality.
+A _Picard groupoid_ is a [[symmetric monoidal|strict symmetric monoidal]] category $(\mathcal{A}, \otimes, 1)$ in which every [[object]] and every [[morphism]] is strictly [[inverse|invertible]] with respect to $\otimes$, that is to say, there is, for every object $a$ of $\mathcal{A}$, an object $a^{-1}$ of $\mathcal{A}$ such that $a \otimes a^{-1} = 1$, and similarly for morphisms.
 
 =--
 
