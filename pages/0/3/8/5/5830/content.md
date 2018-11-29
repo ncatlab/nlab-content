@@ -269,7 +269,7 @@ More generally, we can define arbitrary pullbacks. If `f : A -> C` and `g : B ->
 together with the obvious projections to `A` and `B` and the homotopy between the composites.
 (a proof can be found [here](https://github.com/guillaumebrunerie/HoTT/blob/master/Coq/Limits/Pullbacks.v))
 
-Using [[higher inductive types]], we can also define [[homotopy pushouts]]. if `g : C -> A` and `f : C -> B`, the [[homotopy pushout]] of `f` and `g` is defined by
+Using [[higher inductive types]], we can also define [[homotopy pushouts]]. If `g : C -> A` and `f : C -> B`, the [[homotopy pushout]] of `f` and `g` is defined by
 
     Inductive hopushout :=
       | inl : A -> hopushout
