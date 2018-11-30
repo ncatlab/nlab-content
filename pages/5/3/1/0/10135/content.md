@@ -16,13 +16,13 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
 
 
 ## Idea
+ {#Idea}
 
 Since the crucial extra [[structures]] carried by an [[orbifold]] are
 
@@ -794,7 +794,7 @@ is an [[orbifold]] with isotropy groups in $G$, according to Def. \ref{Orbifold}
 
 As a further special case:
 
-+-- {: .num_example}
++-- {: .num_example #GlobalHomotopyQuotientsOfSmoothManifolds}
 ###### Example
 **(global [[homotopy quotient]]-[[orbifolds]] of [[smooth manifolds]])**
 
@@ -846,7 +846,7 @@ $$
   \;\in\;
   Sh_\infty\big( 
     Singularities, \infty Groupoids
-  big)
+  \big)
   \,,
 $$
 
@@ -859,17 +859,17 @@ where on the right $\Delta_G$ is as in [Rezk 14, 3.2](#Rezk14)
 
 The key point is that the assumption of 0-truncation of $\mathcal{X}$ and the restriction to [[finite groups|finite]] (hence [[discrete groups|discrete]]) groups ensures that $coDisc_{sing}$ forms the correct [[fixed point]] [[sheaves]], whose separate [[shape modality|shape]]/[[geometric realization]] then coincides with the relevant fixed point spaces of $X$.
 
-In detail, as $\infty$-groupoid-valued presheaves on the product site $CartSp \times Singularities$ we have
+In detail, as $\infty$-groupoid-valued presheaves on the product site [[CartSp]] $\times Singularities$ we have
 
 $$
   \begin{aligned}
     coDisc_{sing}\big( X\sslash G\big)
-    \colon\;
+    \;\colon\;
     \mathbb{R}^n \times \mathbb{B}K
     & \mapsto\;
-    \inftyGroupoids\big(
+    \infty Groupoids\big(
       \mathbf{B}K, 
-      \underet{\in Set}{\underbrace{C^\infty(\mathbb{R}^n, X)}} \sslash G
+      \underset{\in Set}{\underbrace{C^\infty(\mathbb{R}^n, X)}} \sslash G
     \big)  
     \\
     & \simeq \;
@@ -898,11 +898,11 @@ $$
     X^{\phi(K)} \sslash G  
   \Big)
   \;\in\;
-  Sh_infty\big( Singularities, Smooth\infty Groupoids \big)
+  Sh_\infty\big( Singularities, Smooth\infty Groupoids \big)
   \,.
 $$
 
-Now [[shape modality|shape]] &#643; is [[left adjoint]], hence preserves the [[coproducts]] and the [[homotopy quotient]] by $G$ and finally als $G$ itself ($G$ being discrete, and &#643; preserving the point), so that in conclusion
+Now [[shape modality|shape]] &#643; is [[left adjoint]], hence preserves the [[coproducts]] and the [[homotopy quotient]] by $G$ and finally als $G$ itself ($G$ being [[discrete group|discrete]], and &#643; preserving the point (the [[terminal object]]), by [[cohesion]]), so that in conclusion
 
 $$
   \Big(
@@ -917,7 +917,7 @@ $$
      &#643; \left(X^{\phi(K)}\right) \sslash G  
   \Big)
   \;\in\;
-  Sh_infty\big( Singularities, \infty Groupoids \big)
+  Sh_\infty\big( Singularities, \infty Groupoids \big)
   \,.
 $$
 
@@ -956,7 +956,7 @@ With this the statement follows by Prop. \ref{coDiscSingOf0TruncatedMorphismsIsS
 
 +-- {: .num_remark}
 ###### Remark
-**([[orbifolds]] inside [[globally equivariant homotopy theory]] are still [[equivalence of (infinity,1)-category|equivalent]] to [[cohesive (infinity,1)-topos|cohesive groupoids]])**
+**([[orbifolds]] inside [[globally equivariant homotopy theory]] are still [[equivalence of (infinity,1)-categories|equivalent]] to [[cohesive (infinity,1)-topos|cohesive groupoids]])**
 
 Since $coDisc_{sing} \;\colon\; \mathbf{H} \hookrightarrow \mathbf{H}_{sing}$ is a [[full sub-(∞,1)-category]]-inclusion, the [[(2,1)-category]] of $V$-[[orbifolds]] inside $\mathbf{H}_{sing}$ according to Def. \ref{Orbifold} is equivalent to its pre-image in $\mathbf{H}$, hence will coincide, for suitable choices of $\mathbf{H}$ and $V \in Grp(\mathbf{H})$, with traditional definition of [[(2,1)-categories]] of orbifolds regarded as certain [[geometric stacks|geometric groupoids]]. But by embedding this into the larger [[global homotopy theory]] $\mathbf{H}_{sing}$ of $\mathbf{H}$ more general [[coefficient]]-objects for orbifold cohomology become available, and this brings in the previously missing [[Bredon cohomology|Bredon]]-[[equivariant cohomology]]-aspect of orbifold cohomology.
 
@@ -964,6 +964,139 @@ Since $coDisc_{sing} \;\colon\; \mathbf{H} \hookrightarrow \mathbf{H}_{sing}$ is
 
 
 $\,$
+
+### Orbifold cohomology
+
++-- {: .num_defn #OrbifoldCohomology}
+###### Definition
+**(orbifold cohomology)**
+
+Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] and write $\mathbf{H}_{sing}$ for its [[globally equivariant homotopy theory]] as in Prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory}.
+
+Let $G$ be a [[finite group]] and consider an [[orbifold]] with [[isotropy groups]]/[[singularities]] in $G$, according to Def. \ref{Orbifold}:
+
+$$
+  \mathcal{X} \;\in\; \left( \mathbf{H}_{sing} \right)
+  \,.
+$$
+
+Then for 
+
+$$
+  \mathcal{A} \;\in\; \left( \mathbf{H}_{sing} \right)
+$$
+
+any other object (*not* necessarily itself an orbifold, and typically far from being so) the _orbifold cohomology_ of $\mathcal{X}$ with [[coefficients]] in $\mathcal{A}$ is the [[cohomology]] as given by the ambient [[(∞,1)-topos]], hence
+
+$$
+  H\big(
+    \mathcal{X}.
+    \mathcal{A}
+  \big)
+  \;\coloneqq\;
+  \left(
+    \mathbf{H}_{sing}
+  \right)_{/\mathbb{B}G}
+  \big( \mathcal{X}, \mathcal{A}\big)
+  \,.
+$$
+
+=--
+
+We check the two desiderata for a good definition of orbifold cohomology discussed [above](#Idea):
+
+1. It is clear that on objects in the inclusion $Disc_{sing} \;\colon\; \mathbf{H} \hookrightarrow \mathbf{H}_{sing}$ orbifold cohomology reduces to geometric cohomology on $\mathbf{H}$.
+
+1. In the other extreme, for orbifold cohomology with geometrically discrete coefficients, we check that we re-obtain [[Bredon cohomology|Bredon]] [[equivariant cohomology]] of the underlying [[G-spaces]]:
+
++-- {: .num_example }
+###### Example
+**([[orbifold cohomology]] with [[geometrically discrete infinity-groupoid|geometrically discrete]] [[coefficients]] is $G$-[[equivariant cohomology]])**
+
+Let $\mathbf{H} = $ [[Smooth∞Groupoids]] and consider a [[smooth manifold]] $X$ equipped with smooth [[action]] by a [[finite group]] $G$, regarded as an [[orbifold]] as in Example \ref{GlobalHomotopyQuotientsOfSmoothManifolds}: 
+$$
+  \mathcal{X}
+  \;\coloneqq\;
+  \left(
+  \array{
+    coDisc_{sing}\big( X \sslash G \big)
+    \\
+    \downarrow
+    \\
+    \mathbb{B}G
+  }
+  \right)
+  \;\in\;
+  \Big( 
+    Smooth \infty Groupoids_{sing}
+  \Big)_{/\mathbb{B}G}
+  \,.
+$$
+
+
+Let moreover
+
+$$
+  \mathcal{A}
+  \;\in\;
+  \Big( 
+    \infty Groupoids
+  \Big)_{G}
+  \overset{Disc}{\hookrightarrow}
+  \Big( 
+    Smooth \infty Groupoids
+  \Big)_{G}
+  \hookrightarrow
+  \Big( 
+    Smooth \infty Groupoids_{sing}
+  \Big)_{/\mathbb{B}G}
+$$
+
+be any [[geometrically discrete infinity-groupoid|geometrically discrete]] [[coefficient]] object in $G$-[[equivariant homotopy theory]], included into the [[slice (infinity,1)-topos|slice]] of the [[global equivariant homotopy theory]] via Prop. \ref{GorbitCategory}.
+
+Then the [[orbifold cohomology]] of $\mathcal{X}$ with [[coefficients]] in $\mathcal{A}$, according to Def. \ref{OrbifoldCohomology}, coincides with the [[Bredon cohomology|Bredon]] $G$-[[equivariant cohomology]] of the [[G-space]] underlying $X$:
+
+$$
+  H\big(
+   \mathcal{X}, Disc(\mathcal{A})
+  \big)
+  \;\simeq\;
+  H_G\big( 
+    X, \mathcal{A}
+  \big)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We compute
+
+$$  
+  \begin{aligned}
+    \left(Smooth \infty Groupoids_{sing}\right)_{/\mathbb{B}G}
+    \left(
+      \mathcal{X}, Disc(\mathcal{A})
+    \right)
+    & \simeq
+    Smooth \infty Groupoids_G
+    \left(
+      \mathcal{X}, Disc(\mathcal{A})
+    \right)    
+    \\
+    & \simeq
+    \infty Groupoids_G
+    \left(
+      &#643;_{sing}\mathcal{X}, \mathcal{A}
+    \right)    
+  \end{aligned}
+$$
+
+where the first step is by Prop. \ref{OrbifoldsInEquivariantHomotopyTheory}, while the second is by the [[cohesion]] [[adjunction]] $&#643; \dashv Disc$ for [[Smooth∞Groupoids]]. By Example \ref{GlobalHomotopyQuotientsOfSmoothManifolds} we have that $&#643;_{sing}\mathcal{X} \in \infty Groupoids_G$ is indeed the [[G-space]] $X$ regarded in $G$-[[equivariant homotopy theory]].
+ 
+=--
 
 
 ## Related concepts
