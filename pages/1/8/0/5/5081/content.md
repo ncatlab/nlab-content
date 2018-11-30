@@ -118,7 +118,7 @@ See [[base change geometric morphism]].
 
 We spell out how $\mathbf{H}/X$ is the [[(∞,1)-category of (∞,1)-sheaves]] over the [[big site]] of $X$.
 
-+-- {: .num_prop}
++-- {: .num_prop #SlicingCommutesWithPassingToPresheaves}
 ###### Proposition
 **(forming overcategories commutes with passing to presheaves)**
 
