@@ -156,10 +156,10 @@ to distinguish them from their image as [[delooping]] groupoids $B G \in $ [[∞
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #SingularitiesInTheLiterature}
 ###### Remark
 
-The category $Singularities$ in Def. \ref{CategoryOfSingularities} is called
+The category $Singularities$ in Def. \ref{CategoryOfSingularities}, when generalized from [[finite groups]] to [[compact Lie groups]], is called
 
 * "$Orb$ version 1" in [Henriques-Gepner 07](orbispace#HenriquesGepner07)
 
@@ -389,7 +389,7 @@ $\,$
 
 By the [[(n-connected, n-truncated) factorization system]], a [[1-morphism]] in an [[(∞,1)-topos]] is [[n-truncated object in an (infinity,1)-category|0-truncated]] precisely if it has the [[right lifting property]] again every morphism that is [[n-connected object of an (infinity,1)-topos|0-connected]].
 
-+-- {: .num_example}
++-- {: .num_example #EsoAndFullToFaithfulFactoriazation}
 ###### Example
 **(on [[groupoids]] [[(n-connected, n-truncated) factorization system|(0-connected, 0-truncated)]] is [[(eso and full, faithful) factorization system|(eso and full, faithful)]])**
 
@@ -407,7 +407,8 @@ Under this identification the [[1-morphisms]] between 1-truncated objects corres
 
 In particular a morphism of [[delooping]] groupoids
 
-$$
+\[
+  \label{BGPrimeToBG}
   \array{
      B G'
      \\
@@ -415,9 +416,9 @@ $$
      \\
      B G
   }
-$$
+\]
 
-is 0-connected precisely if the corresponding [[group homomorphism]] $p \colon G' \to G$ is [[surjective function|surjective]].
+is a 0-connected morphism in $\infty Groupoids$ precisely if the corresponding [[group homomorphism]] $p \colon G' \to G$ is [[surjective function|surjective]].
 
 =--
 
@@ -440,6 +441,7 @@ $\mathcal{X} \overset{f}{\to} \mathcal{Y}$ in $\mathbf{H}_{sing}$ is _$Singulari
       \\
       \mathbb{B}G
     }
+    \phantom{{}^{\mathbb{B}^p}}
   \right)
   \;\in\;
   Singularities \overset{Yoneda}{\hookrightarrow} 
@@ -460,31 +462,219 @@ where $p \;\colon\; G' \to G$ is a _[[surjective function|surjective]]_ [[group 
 
 =--
 
-For the case $\math{H} =$ [[∞Groupoids]] this is the definition of _faithful maps_ in [Rezk 14. Prop. 3.4.1](#Rezk14).
+For the case $\mathbf{H} =$ [[∞Groupoids]] this is the definition of _faithful maps_ in [Rezk 14. Prop. 3.4.1](#Rezk14).
 
 > It seems that the morphisms (eq:Singularities0Connected) are not 0-connected in $Sh_\infty(Singularities, \infty Groupoids)$. Them being 0-connected should come down to the statement that for $p \colon G' \to G$ a surjective group homomorphism and $H \subset G$ any subgroup, there always is a lift of $H$ to $G'$ and that any two such lifts are conjugate to each other, in $G'$. But already the first condition fails in general, since not every epimorphism of groups is a split epimorphism.
 
 > Nevertheless and in any case we have the following, which is all we will need:
 
-+-- {: .num_example}
-###### Example
++-- {: .num_prop #coDiscSingOf0TruncatedMorphismsIsSingularitiesFaithful}
+###### Proposition
+**($coDisc_{sing}$ of a 0-truncated morphism is $Singularities$-faithful)**
 
 Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] with $\mathbf{H}_{sing}$ its [[globally equivariant homotopy theory]] according to Prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory}. 
 
 If a morphism $X \overset{f}{\to} Y$ in $\mathbf{H}$ is [[n-truncated object in an (infinity,1)-category|0-truncated]], then its image under $coDisc_{sing} \;\colon\; \mathbf{H} \hookrightarrow \mathbf{H}_{sing}$ is $Singularities$-faithful (Def. \ref{SingularitiesFaithful}).
 
-This follows directly by the adjunctions (eq:SingularitiesAdjointQuadruple), the relations (eq:ShapeOfOrbifoldSingularity) and the fact spring
+=--
 
++-- {: .proof}
+###### Proof
+
+This follows by the adjunctions (eq:SingularitiesAdjointQuadruple), the relations (eq:ShapeOfOrbifoldSingularity) and the fact (eq:BGPrimeToBG):
+
+$$
+  \phantom{{}^{\mathbb{B}p}}
+  \array{
+    \mathbb{B}G' &\longrightarrow& coDisc_{sing}(X)
+    \\ 
+    {}^{\mathllap{\mathbb{B}p}}\big\downarrow 
+      &\nearrow&   
+    \big \downarrow^{\mathrlap{ coDisc_{sing}(f) }}
+    \\
+    \mathbb{B}G
+    &\longrightarrow&
+    coDisc_{sing}(Y) 
+  }
+  \phantom{AAAA}  
+  \Leftrightarrow\;
+  \phantom{A}
+  \phantom{{}^{\mathbb{B}p}}
+  \array{
+    \Gamma_{sing}\left(\mathbb{B}G'\right) 
+      &\longrightarrow& 
+    X
+    \\ 
+    {}^{\mathllap{\Gamma_{sing}\left(\mathbb{B}p\right)}}\big\downarrow 
+      &\nearrow&   
+    \big \downarrow^{\mathrlap{ f }}
+    \\
+    \Gamma_{sing}\left(\mathbb{B}G\right)
+    &\longrightarrow&
+    Y
+  }
+  \phantom{AA}
+  \;=\;
+  \phantom{A}
+  \array{
+    \mathbf{B} G'
+      &\longrightarrow& 
+    X
+    \\ 
+    {}^{\mathllap{\mathbf{B}p}}\big\downarrow 
+      &\nearrow&   
+    \big \downarrow^{\mathrlap{ f }}
+    \\
+    \mathbf{B} G
+    &\longrightarrow&
+    Y
+  }
+$$
 
 =--
 
+
++-- {: .num_defn #GlobalOrbitCategory}
+###### Definition
+**([[global orbit category]])**
+
+Write
+
+$$
+  GlobalOrbits
+  \;\coloneqq\;
+  Singularities^{faith}
+$$
+
+for the wide non-[[full sub-(infinity,1)-category]] of $Singularities$ (Def. \ref{CategoryOfSingularities}) with the same [[objects]] $\mathbb{B}G$ but the [[1-morphisms]] required to be 0-truncated as morphisms of $\infty$-groupods, hence to be faithful functors of groupoids (Example \ref{EsoAndFullToFaithfulFactoriazation}), hence to come from _[[injective function|injective]]_ [[group homomorphisms]].
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+The category $GlobalOrbits$ in Def. \ref{GlobalOrbitCategory}, when generalized from [[finite groups]] to [[compact Lie groups]], is called
+
+* "$Orb$ version 2" in [Henriques-Gepner 07](orbispace#HenriquesGepner07)
+
+* "$Orb$" in [Rezk 14, 4.5](#Rezk14)
+
+and is _not_ the category called "$Orb$" in [Körschgen 16](orbispace#Koerschgen16), [Schwede 17](orbispace#Schwede17), [Schwede 18](global+equivariant+homotopy+theory#Schwede18) (see Remark \ref{SingularitiesInTheLiterature}).
+
+=--
+
++-- {: .num_prop #GorbitCategory} 
+###### Proposition/Definition
+**([[slice (∞,1)-category|slice]] of [[global orbit category|global orbits]] is $G$-[[orbit category|orbits]])**
+
+For $G$ a [[finite group]], the [[slice (∞,1)-category|slice]] of the [[global orbit category]] from Def. \ref{GlobalOrbitCategory} over the object $\mathbb{B}G$ is [[equivalence of (∞,1)-categories|equivalent]] to the $G$-[[orbit category]]
+
+$$
+  GlobalOrbits_{/\mathbb{B}G}
+  \;\simeq\;
+  G Orbits
+$$
+
+=--
+
++-- {: .num_defn #GEquivariantHomotopyTheoryOfCohesiveInfinityTopos}
+###### Definition
+**($G$-[[equivariant homotopy theory]] of a [[cohesive (∞,1)-topos]])**
+
+
+For $\mathbf{H}$ a [[cohesive (∞,1)-topos]] and $G$ a [[finite group]] we say that the _$G$-[[equivariant homotopy theory]] of $\mathbf{H}$_ is the [[(∞,1)-presheaf (∞,1)-topos]] on the $G$-[[orbit category]] (Def. \ref{GorbitCategory}) over $\mathbf{H}$:
+
+$$
+  \begin{aligned}
+    \mathbf{H}_G  
+    &\coloneqq\;
+    Sh_\infty\big( G Orbits , \mathbf{H} \big)
+    \\
+    & \simeq
+    Sh_\infty\big( GlobalOrbits_{/\mathbb{B}G} , \mathbf{H} \big)
+    \\
+    & \simeq
+    Sh_\infty\big( GlobalOrbits , \mathbf{H} \big)_{/\mathbb{B}G}
+  \end{aligned}
+$$
+
+On the right we are displaying immediate [[equivalence of (∞,1)-categories|equivalences]], the first by Prop. \ref{GorbitCategory}, the second by the general slicing behaviour of $\infty$-toposes ([this Prop.](over-(infinity%2C1)-topos#SlicingCommutesWithPassingToPresheaves)).
+
+=--
+
+The relation between the [[global homotopy theory]] $\mathbf{H}_{sing}$ (Prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory}) and the $G$-[[equivariant homotopy theory]] $\mathbf{H}_G$ (Def. \ref{GEquivariantHomotopyTheoryOfCohesiveInfinityTopos}) is the topic of [Rezk 14](#Rezk14):
+
++-- {: .num_defn #NormalSubgroupClassifier}
+###### Definition
+**([[normal subgroup]] classifier, [Rezk 14, 4.1](#Rezk14))**
+
+For $\mathbf{H}$ a [[cohesive (∞,1)-topos]], let
+
+$$
+  \mathcal{N}
+  \;\in\;
+  Sh\big(Singularities, Sets \big)
+  \hookrightarrow
+  Sh_\infty\big(Singularities, \infty Groupoids \big)
+  \overset{}{\hookrightarrow}
+  Sh_\infty\big( 
+    Singularities, \mathbf{H}
+  \big)
+$$
+
+be the presheaf which to any [[finite group]] $\mathbb{B}G$ assigns the [[set]] (i.e. [[0-groupoid]]) of [[normal subgroups]] of $G$.
+
+=--
+
++-- {: .num_prop #SingularitiesFaithfulSliceOverNormalSubgroupClassifier}
+###### Proposition
+**([Rezk 14](#Rezk14))**
+
+For $\mathbf{H}$ an [[(∞,1)-topos]], with $\mathbf{H}_{sing} \coloneqq Sh_\infty\big( Singularities, \mathbf{}\big)$ its [[global equivariant homotopy theory]] according to Prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory}, there is an [[equivalence of (∞,1)-categories]]
+
+$$
+  \array{
+    Sh_\infty\big( GlobalOrbits, \mathbf{H}\big)
+    &\overset{\simeq}{\longrightarrow}&
+    \left(
+      Sh_\infty\big( Singularities, \mathbf{H}\big)_{/\mathcal{N}}
+    \right)_{\text{singfaith}}
+    \;=\;
+    \left(
+    \left( 
+      \mathbf{H}_{sing}
+    \right)_{/\mathcal{N}}
+    \right)_{singfaith}
+  }
+$$
+
+between the [[(∞,1)-presheaf (∞,1)-category]] on the [[global orbit category]] according to Def. \ref{GlobalOrbitCategory} and the [[full sub-(∞,1)-category]] of the [[slice (∞,1)-topos]] of $\mathbf{H}_{sing}$ over the normal subgroup classifier $\mathcal{N}$ (Def. \ref{NormalSubgroupClassifier}) on those morphisms to $\mathcal{N}$ whhich are $Singularities$-faithful according to Def. \ref{SingularitiesFaithful}.
+
+Moreover, if $G$ is a [[finite group]] then slicing over $\mathbb{B}G$ this yields an equivalence
+
+$$
+  \array{
+    \mathbf{H}_G
+    \;\simeq\;
+    \left(
+      \left( 
+        \mathbf{H}_{sing}
+      \right)_{/\mathbb{B}G}
+    \right)_{singfaith}
+  }
+$$
+
+between the $G$-[[equivariant homotopy theory]] $\mathbf{H}_G$ (Def. \ref{GEquivariantHomotopyTheoryOfCohesiveInfinityTopos})  and the [[full sub-(∞,1)-category]] on the $Singularities$-faithful objects of the [[slice (∞,1)-category|slice]] of the [[global homotopy theory]] $\mathbf{H}_{sing}$ (Prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory}) over $\mathbb{B}G$.
+
+=--
 
 
 ### Orbifolds
 
 +-- {: .num_defn #Orbifold}
 ###### Definition
-**([[orbifold]]**, improved definition)
+**([[orbifold]]**)
 
 Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] with $\mathbf{H}_{sing}$ its corresponding [[globally equivariant homotopy theory]] according to Prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory}.
 
@@ -556,7 +746,41 @@ is an [[orbifold]] with isotropy groups in $G$, according to Def. \ref{Orbifold}
 
 =--
 
++-- {: .num_remark}
+###### Remark
 
+Since $coDisc_{sing} \;\colon\; \mathbf{H} \hookrightarrow \mathbf{H}_{sing}$ is a [[full sub-(∞,1)-category]]-inclusion, the [[(2,1)-category]] of $V$-[[orbifolds]] inside $\mathbf{H}_{sing}$ according to Def. \ref{Orbifold} is equivalent to its pre-image in $\mathbf{H}$, hence will coincide, for suitable choices of $\mathbf{H}$ and $V \in Grp(\mathbf{H})$, with traditional definition of [[(2,1)-categories]] of orbifolds regarded as certain [[geometric stacks|geometric groupoids]]. But by embedding this into the larger [[global homotopy theory]] $\mathbf{H}_{sing}$ of $\mathbf{H}$ more general [[coefficient]]-objects for orbifold cohomology become available, and this brings in the previously missing [[Bredon cohomology|Bredon]]-[[equivariant cohomology]]-aspect of orbifold cohomology.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+An [[orbifold]] $\mathcal{X}$ with isotropy groups in $G$, according to Def. \ref{Orbifold} is $Singularities$-faithful over $\mathbb{B}G$ (Def. \ref{SingularitiesFaithful}) and hence inside the inclusion (from Prop. \ref{SingularitiesFaithfulSliceOverNormalSubgroupClassifier}) of the $G$-[[equivariant homotopy theory]] of $\mathbf{H}$ (Def. \ref{GEquivariantHomotopyTheoryOfCohesiveInfinityTopos}) into the [[globally equivariant homotopy theory]] of $\mathbf{H}$:
+
+$$
+  \mathcal{X}
+  \;\in\;
+  \mathbf{H}_G
+  \;\hookrightarrow\;
+  \left(
+    \mathbf{H}_{sing}
+  \right)_{/\mathbb{B}G}
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By Prop. \ref{SingularitiesFaithfulSliceOverNormalSubgroupClassifier} we need to check that $\mathcal{X} \to \mathbb{B}G$ is $Singularities$-faithful.
+
+Now, by assumption on $\mathcal{X}$ we have that $\Gamma_{sing}(\mathcal{X} \to \mathbb{B}G)$ is [[n-truncated object in an (infinity,1)-category|0-truncated]]. By [[cohesion]] (eq:SingularitiesAdjointQuadruple) we have $coDisc_{sing} \circ \Gamma_{sing} \;\simeq\; Id$ and hence  $\mathcal{X} \to \mathbb{B}G$ is the image under $coDisc_{sing}$ of a 0-truncated morphism.
+With this the statement follows by Prop. \ref{coDiscSingOf0TruncatedMorphismsIsSingularitiesFaithful}.
+
+=--
+
+$\,$
 
 
 ## Related concepts
@@ -592,10 +816,12 @@ related to results of
 * {#Rezk14} [[Charles Rezk]], _[[Global Homotopy Theory and Cohesion]]_, 2014
 
 
+Discussion of cohomology of [[inertia orbifolds]] is due to
 
-See also
 
 * {#ChenRuan00} Weimin Chen, [[Yongbin Ruan]], _A New Cohomology Theory for Orbifold_, Commun. Math. Phys. 248 (2004) 1-31 ([arXiv:math/0004129](http://arxiv.org/abs/math/0004129))
+
+See also
  
 * {#Abramovich05} [[Dan Abramovich]], _Lectures on Gromov-Witten invariants of orbifolds_ ([arXiv:math/0512372](http://arxiv.org/abs/math/0512372))
 
