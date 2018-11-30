@@ -1,3 +1,4 @@
+[[!redirects (eso+full, faithful) factorization system]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
