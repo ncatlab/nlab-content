@@ -88,7 +88,7 @@ $$
 
 is the [[group cohomology]] of $G$ with [[coefficients]] in $V$.
 
-However, this definition does _not_ reflect [[Bredon cohomology|Bredon]]-[[equivariant cohomology]] around the orbifold singularities. Instead, it really given (geometric/stacky refinement) of _[[cohomology with local fcoefficients]]_.
+However, this definition does _not_ reflect [[Bredon cohomology|Bredon]]-[[equivariant cohomology]] around the orbifold singularities. Instead, it really given (geometric/stacky refinement) of _[[cohomology with local coefficients]]_.
 
 
 $\,$
@@ -129,6 +129,7 @@ $$
 
 
 ### Globally equivariant cohesive toposes
+
 
 +-- {: .num_defn #CategoryOfSingularities}
 ###### Definition
@@ -387,7 +388,52 @@ $\,$
 
 ### $G$-Equivariant cohesive toposes
 
-By the [[(n-connected, n-truncated) factorization system]], a [[1-morphism]] in an [[(∞,1)-topos]] is [[n-truncated object in an (infinity,1)-category|0-truncated]] precisely if it has the [[right lifting property]] again every morphism that is [[n-connected object of an (infinity,1)-topos|0-connected]].
+In order to speak of $G$-[[equivariant homotopy theory]] (Def. \ref{GEquivariantHomotopyTheoryOfCohesiveInfinityTopos} below) inside [[globally equivariant homotopy theory]] (Prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory} above) we need a certain concept of faithfulness (Def. \ref{SingularitiesFaithful} below).
+
+For that purpose, recall that in an [[(∞,1)-topos]] the [[pair]] of [[classes]] of [[n-connected object in an (∞,1)-topos|n-connected morphisms]] and [[n-truncated object in an (∞,1)-category|n-truncated morphisms]] for am [[orthogonal factorization system in an (∞,1)-category|orthogonal factorization system]] for all $n \in \{-2,-1\} \sqcup \mathbb{N} \sqcup \{\infty\}$.
+
+In particular this says that a [[1-morphism]] in an [[(∞,1)-topos]] is [[n-truncated object in an (infinity,1)-category|0-truncated]] precisely if it has the [[right lifting property]] against every morphism that is [[n-connected object of an (infinity,1)-topos|0-connected]].
+
+
+Just for the record: 
+
++-- {: .num_lemma #GammaPreservesnTruncatedMorphisms}
+###### Lemma
+**($\Gamma_{sing}$ preserves [[n-truncated object in an (∞,1)-category|n-truncated morphisms]])**
+
+Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] with $\mathbf{H}_{sing}$ its [[globally equivariant homotopy theory]] from Prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory}.
+
+Then in particular the functor (eq:SingularitiesAdjointQuadruple)
+
+$$
+  \Gamma_{sing}
+  \;\colon\;
+  \mathbf{H}_{sing}
+  \longrightarrow
+  \mathbf{H}
+$$
+
+preserves [[n-truncated object in an (∞,1)-category|n-truncated morphisms]] for all $n$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[(n-connected, n-truncated) factorization system]] and the [[adjunctions]] in (eq:SingularitiesAdjointQuadruple) the statement is equivalent to 
+
+$$
+  Disc_{sing}
+  \;\colon\;
+  \mathbf{H}
+  \longrightarrow
+  \mathbf{H}_{sing}
+$$
+
+preserving [[n-connected object in an (∞,1)-topos|n-connected morphisms]]. These are [[effective epimorphisms in an (∞,1)-category]] satisfying an extra condition. Both the definition of effective epimorphisms as well as that extra conditions are entirely formulated in terms of [[(∞,1)-limits]] and [[(∞,1)-colimits]] ([this Prop.](n-connected+object+of+an+infinity-topos#CharacterizationByDiagonal)). Since $Disc_{sing}$ is both a left and a right [[adjoint (∞,1)-functor]] by (eq:SingularitiesAdjointQuadruple) it preserves all these.
+
+
+=--
 
 +-- {: .num_example #EsoAndFullToFaithfulFactoriazation}
 ###### Example
@@ -497,7 +543,7 @@ $$
     coDisc_{sing}(Y) 
   }
   \phantom{AAAA}  
-  \Leftrightarrow\;
+  \;\Leftrightarrow\;\;
   \phantom{A}
   \phantom{{}^{\mathbb{B}p}}
   \array{
@@ -514,7 +560,7 @@ $$
     Y
   }
   \phantom{AA}
-  \;=\;
+  \;\;\simeq\;\;
   \phantom{A}
   \array{
     \mathbf{B} G'
@@ -775,7 +821,7 @@ $$
 
 By Prop. \ref{SingularitiesFaithfulSliceOverNormalSubgroupClassifier} we need to check that $\mathcal{X} \to \mathbb{B}G$ is $Singularities$-faithful.
 
-Now, by assumption on $\mathcal{X}$ we have that $\Gamma_{sing}(\mathcal{X} \to \mathbb{B}G)$ is [[n-truncated object in an (infinity,1)-category|0-truncated]]. By [[cohesion]] (eq:SingularitiesAdjointQuadruple) we have $coDisc_{sing} \circ \Gamma_{sing} \;\simeq\; Id$ and hence  $\mathcal{X} \to \mathbb{B}G$ is the image under $coDisc_{sing}$ of a 0-truncated morphism.
+Now, by the first defining assumption on $\mathcal{X}$ (Def. \ref{Orbifold}) and by Lemma \ref{GammaPreservesnTruncatedMorphisms}, we have that $\Gamma_{sing}(\mathcal{X} \to \mathbb{B}G)$ is [[n-truncated object in an (infinity,1)-category|0-truncated]]. By [[cohesion]] (eq:SingularitiesAdjointQuadruple) we have $coDisc_{sing} \circ \Gamma_{sing} \;\simeq\; Id$ and hence  $\mathcal{X} \to \mathbb{B}G$ is the image under $coDisc_{sing}$ of a 0-truncated morphism.
 With this the statement follows by Prop. \ref{coDiscSingOf0TruncatedMorphismsIsSingularitiesFaithful}.
 
 =--
