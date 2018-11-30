@@ -62,6 +62,8 @@ More generally, in [[string theory]] a [[brane]] which wraps a completely [[spac
 
 * [[renormalon]]
 
+* [[soliton]], [[vortex]]
+
 * [[brane]]
 
 * [[Spin(7)-instanton]]
