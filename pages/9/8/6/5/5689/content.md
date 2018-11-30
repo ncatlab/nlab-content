@@ -29,7 +29,7 @@ The case $K = G$ gives the [[Borel-Weil theorem|Borel-Weil]] description of irre
 
 ## References
 
-* A. Beilinson, J. Bernstein, _Localization de $\mathfrak{g}$-modules_, C.R. Acad. Sci. Paris, 292 (1981), 15-18, [MR82k:14015](http://www.ams.org/mathscinet-getitem?mr=82k:14015),  Zbl 0476.14019
+* A. Beilinson, J. Bernstein, _Localisation de $\mathfrak{g}$-modules_, C.R. Acad. Sci. Paris, 292 (1981), 15-18, [MR82k:14015](http://www.ams.org/mathscinet-getitem?mr=82k:14015),  Zbl 0476.14019
 
 * [[A. Beilinson]], _Localization of representations of reductive Lie algebra_, Proc. of ICM 1982, (1983), 699-716.  Zbl 0571.20032
 
