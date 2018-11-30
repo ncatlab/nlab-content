@@ -248,9 +248,17 @@ $$
 
 we have
 
-1. $&#643;_{sing} \mathbb{B}G \;\simeq\; \ast/G = \ast$
+\[
+  \label{ShapeOfOrbifoldSingularity}
+  \begin{aligned}
+     &#643;_{sing} \mathbb{B}G 
+     & \simeq\; \ast/G = \ast
+     \\
+     \flat_{sing} \mathbb{B}G 
+     &\simeq\; \ast \sslash G = \mathbf{B}G
+  \end{aligned}
+\]
 
-1. $\flat_{sing} \mathbb{B}G \;\simeq\; \ast \sslash G = \mathbf{B}G$.
 
 =--
 
@@ -271,8 +279,9 @@ For $\mathbf{H} =$  [[∞Groupoids]] the [[cohesion]] of Prop. \ref{CohesionOfGl
 
 Conversely we have:
 
-+-- {: .num_prop}
++-- {: .num_prop #SingularitiesAsCoDisc}
 ###### Proposition
+**([[orbifold]] [[singularities]] are the [[codiscrete object|codiscrete]] aspect of [[homotopy quotients]]**)
 
 Let $\mathbf{H}$ itself be a [[cohesive (∞,1)-topos]] over [[∞Groupoids]]
 
@@ -372,54 +381,89 @@ Here we used the various [[(∞,1)-adjunctions]] and the [[(∞,1)-Yoneda lemma]
 
 =--
 
+$\,$
+
 ### Orbifolds
 
-+-- {: .num_defn}
++-- {: .num_defn #Orbifold}
 ###### Definition
+**([[orbifold]]**, improved definition)
 
-Let $\mathbf{H}$ be a [[differential cohesion|differentially cohesive (∞,1)-topos]] with $\mathbf{H}_{sing}$ its corresponding [[globally equivariant homotopy theory]] according to Prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory}.
+Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] with $\mathbf{H}_{sing}$ its corresponding [[globally equivariant homotopy theory]] according to Prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory}.
 
-For $G \in Grp(\mathbf{H})$ a [[finite group]] and $V \in Grp(\mathbf{H})$ a 0-truncated group, we say that a _$V$-[[orbifold]] with [[isotropy groups]] inside $G$_ is 
+For $G \in Grp(\mathbf{H})$ a [[finite group]] we say that an _orbifold with singularities ([[isotropy groups]]) in $G$_ is an [[object]] of the [[slice (∞,1)-topos]] 
 
-1. a [[n-truncated object in an (infinity,1)-category|0-truncated]] $Singularity$-[[codiscrete object]] in the [[slice (∞,1)-topos]] over $\mathbb{B}G$:
+$$
+  \mathcal{X}
+  \;\in\;
+  \left(\mathbf{H}_{sing}\right)_{/\mathbb{B}G}
+$$
 
-   $$
-     \array{
-       \mathcal{X}
-       \\
-       \downarrow^{\mathrlap{faith}}
-       \\
-       \mathbb{B}G
-     }
-     \;\coloneqq\;
-     coDisc_{sing}
-     \left(
-       \array{
-         X
-         \\
-         \downarrow
-         \\
-         \mathbf{B}G
-       }
-     \right)
-     \;\in\;
-     \left( 
-       \mathbf{H}_{sing}
-     \right)_{/\mathbb{B}G}
-   $$
+which  is
 
-1. such that the object
+1. [[n-truncated object in an (infinity,1)-category|0-truncated]];
 
-   $$
-     \Gamma_{sing}\left(\mathcal{X}\right)
-     \;\simeq\;
-     X
-   $$
+1.  $sharp_{sing}$-[[modal object|modal]] (hence "$Singularity$-[[codiscrete object|codiscrete]]").
 
-   is a [[V-manifold]].
+Given such an orbifold, we say that its _underlying [[geometric stack|geometric groupoid]]_ is its $Singularities$-[[flat modality|flat]] aspect:
+
+\[
+  \label{OrbifoldUnderlyingGroupoid}
+  \flat_{sing}\left( \mathcal{X}\right)
+  \;\in\;
+  \mathbf{H}_{/\mathbf{B}G}
+  \overset{Disc_{sing}}{\hookrightarrow}
+  \left(
+    \mathbf{H}_{sing}
+  \right)_{/\mathbb{B}G}
+\]
+
+where on the right we used (eq:ShapeOfOrbifoldSingularity).
+
+If $\mathbf{H}$ is moreover [[differential cohesion|differentially cohesive]] and $V \in Grp(\mathbf{H})$ is a [[∞-group|group object]], then an orbifold $\mathcal{X}$ is called a _$V$-orbifold_ if is underlying [[geometric stack|geometric groupoid]] $\flat_{sing}\left( \mathcal{X}\right)$ (eq:OrbifoldUnderlyingGroupoid) is a [[V-manifold]].
 
 =--
 
++-- {: .num_example}
+###### Example
+
+Let $X \in \mathbf{H}$ be [[n-truncated object in an (infinity,1)-category|0-truncated]] and equipped with a $G$-[[∞-action|action]], with [[homotopy quotient]] $(X \sslash \mathbf{B}G \to \mathbf{B}G \in \mathbf{H}_{/\mathbf{B}G}$. Then
+
+$$
+  \mathcal{X}
+  \;\coloneqq\;
+  coDisc_{sing}
+  \left(
+    \array{
+      X \sslash G
+      \\
+      \downarrow
+      \\
+      \mathbf{B}G
+    }
+  \right)
+  \;\simeq\;
+  \left(
+    \array{
+      coDisc_{sing}\left( X\sslash G\right)
+      \\
+      \downarrow
+      \\
+      \mathbb{B}G
+    }
+  \right)
+$$
+
+is an [[orbifold]] with isotropy groups in $G$, according to Def. \ref{Orbifold}.  Here on the right we used Prop. \ref{SingularitiesAsCoDisc}.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In Def. \ref{Orbifold} the condition of [[n-truncated object in an (infinity,1)-category|0-truncation]] is crucial. 
+
+=--
 
 
 
