@@ -1,4 +1,16 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -12,6 +24,8 @@ A **soliton solution** of a nonlinear [[wave equation]] is a solution whose larg
 ## Related concepts
 
 * [[vortex]]
+
+* [[instanton]], [[caloron]], [[skyrmion]]
 
 * [[black hole]], [[black brane]]
 
