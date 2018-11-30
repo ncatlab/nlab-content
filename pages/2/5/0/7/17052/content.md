@@ -76,7 +76,7 @@ The paper [Harrington-Shepard 1978](#Harrington-Shepard_78) considers the contri
 
 ## Related concepts
 
-* [[instanton]]
+* [[instanton]], [[soliton]], [[vortex]]
 
 * [[caloron correspondence]]
 
