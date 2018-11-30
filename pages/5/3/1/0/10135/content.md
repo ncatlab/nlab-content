@@ -164,7 +164,7 @@ The category $Singularities$ in Def. \ref{CategoryOfSingularities}, when general
 
 * "$Orb$ version 1" in [Henriques-Gepner 07](orbispace#HenriquesGepner07)
 
-* "$Glob$" in [Rezk 14, 2.2](#Rezk14)
+* "$Glo$" in [Rezk 14, 2.2](#Rezk14)
 
 * "$Orb$" in [Körschgen 16](orbispace#Koerschgen16), [Schwede 17](orbispace#Schwede17), [Schwede 18](global+equivariant+homotopy+theory#Schwede18).
 
@@ -174,7 +174,7 @@ The category $Singularities$ in Def. \ref{CategoryOfSingularities}, when general
 ###### Proposition
 **([[global equivariant homotopy theory]] [[cohesive (∞,1)-topos|cohesive]] over [[base (∞,1)-topos]])**
 
-Let $\mathbf{H}$ be any [[(∞,1)-topos]] and consider the [[(∞,1)-category of (∞,1)-presheaves]] on the category of singularities (Def. \ref{CategoryOfSingularities}) over the [[base (∞,1)-topos]] \mathbf{H}, hence the [[(∞,1)-functor (∞,1)-category]]
+Let $\mathbf{H}$ be any [[(∞,1)-topos]] and consider the [[(∞,1)-category of (∞,1)-presheaves]] on the category of singularities (Def. \ref{CategoryOfSingularities}) over the [[base (∞,1)-topos]] $\mathbf{H}$, hence the [[(∞,1)-functor (∞,1)-category]]
 
 $$
   \mathbf{H}_{sing}
@@ -245,7 +245,7 @@ $$
   \overset{y}{\longrightarrow}
   Sh_\infty\left( Singularities, \infty \mathrm{Grpd}\right)
   \overset{Disc}{\longrightarrow}
-  Sh_\infty\left( Singularities, \infty \mathbf{H}\right)
+  Sh_\infty\left( Singularities, \mathbf{H}\right)
 $$ 
 
 we have
@@ -390,7 +390,7 @@ $\,$
 
 In order to speak of $G$-[[equivariant homotopy theory]] (Def. \ref{GEquivariantHomotopyTheoryOfCohesiveInfinityTopos} below) inside [[globally equivariant homotopy theory]] (Prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory} above) we need a certain concept of faithfulness (Def. \ref{SingularitiesFaithful} below).
 
-For that purpose, recall that in an [[(∞,1)-topos]] the [[pair]] of [[classes]] of [[n-connected object in an (∞,1)-topos|n-connected morphisms]] and [[n-truncated object in an (∞,1)-category|n-truncated morphisms]] for am [[orthogonal factorization system in an (∞,1)-category|orthogonal factorization system]] for all $n \in \{-2,-1\} \sqcup \mathbb{N} \sqcup \{\infty\}$.
+For that purpose, recall that in an [[(∞,1)-topos]] the [[pair]] of [[classes]] of [[n-connected object in an (∞,1)-topos|n-connected morphisms]] and [[n-truncated object in an (∞,1)-category|n-truncated morphisms]] for an [[orthogonal factorization system in an (∞,1)-category|orthogonal factorization system]] for all $n \in \{-2,-1\} \sqcup \mathbb{N} \sqcup \{\infty\}$.
 
 In particular this says that a [[1-morphism]] in an [[(∞,1)-topos]] is [[n-truncated object in an (infinity,1)-category|0-truncated]] precisely if it has the [[right lifting property]] against every morphism that is [[n-connected object of an (infinity,1)-topos|0-connected]].
 
