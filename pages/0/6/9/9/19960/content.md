@@ -243,6 +243,9 @@ holographic dual model of QCD_, talk at _[From Strings to Things 2008](http://ww
 
 * Stefano Bolognesi, Paul Sutcliffe, _The Sakai-Sugimoto soliton_, JHEP 1401:078, 2014 ([arXiv:1309.1396](https://arxiv.org/abs/1309.1396))
 
+* Salvatore Baldino, Stefano Bolognesi, Sven Bjarke Gudnason, Deniz Koksal, _A Solitonic Approach to Holographic Nuclear Physics_, Phys. Rev. D 96, 034008 (2017) ([arXiv:1703.08695](https://arxiv.org/abs/1703.08695))
+
+* Kazem Bitaghsir Fadafan, Farideh Kazemian, Andreas Schmitt, _Towards a holographic quark-hadron continuity_ ([arXiv:1811.08698](https://arxiv.org/abs/1811.08698))
 
 ### Application to glueball physics
 
