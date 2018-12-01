@@ -1,4 +1,7 @@
 
+#Contents#
+* table of contents
+{:toc}
 
 $\,$
 
@@ -11,6 +14,7 @@ We had explained how [[toposes]] may be thought of as [[categories]] of [[genera
 (...)
 
 $\,$
+
 
 
 ### Locally presentable $\infty$-Categories
@@ -2143,7 +2147,10 @@ We have established above enough [[higher category theory]]/[[homotopy theory]] 
 
 $\,$
 
+
+
 ### Cohesive $\infty$-Toposes
+ {#CohesiveInfinityToposes}
 
 The following is a refinement to [[homotopy theory]] of the notion of _[[cohesive topos]]_ (Def. \ref{CohesiveTopos}):
 
@@ -2483,6 +2490,7 @@ $\,$
 
 
 ### Elastic $\infty$-Toposes
+ {#ElasticInfinityToposes}
 
 The following is a refinement to [[homotopy theory]] of the notion of _[[elastic topos]]_ (Def. \ref{DifferentialCohesion}):
 
@@ -2699,7 +2707,7 @@ by the assumption that $\iota_{inf}$ preserves fiber products of [[Yoneda embedd
 
 The same argument directly applies also to $(\Pi_{inf} \dashv Disc_{inf})$, where now the respect of $\Pi_{inf}$ for fiber products follows already from the fact that this is a [[right adjoint]] (since [[right adjoints preserve limits]], Prop. \ref{AdjointsPreserveCoLimits}).
 
-In the same, way, for $(Disc_{inf} \dashv \Gamma_{inf})$ we need to check that $[ C(\{Disc_{inf}U_i\}) \to Disc_{inf} X, \mathbf{X} ]$ is a weak equivalence. Now $Disc_{inf}$ is no longer a [[left Kan extension]], hence $Disc_{inf}(U_i) \to Disc_{inf}(X)$ is no longer a morphism of [[representable presheaves]]. But the third assumption (eq:LiftingOfCoversThroughPiInfInElasticSite) on an $\infty$-elastic site manifestly means, under the adjunction isomorphism (eq:HomIsomorphismForAdjointFunctors) for $(Pi_{inf} Disc_{inf})$ that $Disc_{inf}(U_i) \to Disc_{inf}(X)$ is a [[local epimorphism]] (Def. \ref{LocalEpimorphism}). Therefore Prop. \ref{Prop. \ref{CechNerveProjectionOfLocalEpimorphismIsLocalWeakEquivalence} implies that 
+In the same way, for $(Disc_{inf} \dashv \Gamma_{inf})$ we need to check that $[ C(\{Disc_{inf}U_i\}) \to Disc_{inf} X, \mathbf{X} ]$ is a weak equivalence. Now $Disc_{inf}$ is no longer a [[left Kan extension]], hence $Disc_{inf}(U_i) \to Disc_{inf}(X)$ is no longer a morphism of [[representable presheaves]]. But the third assumption (eq:LiftingOfCoversThroughPiInfInElasticSite) on an $\infty$-elastic site manifestly means, under the adjunction isomorphism (eq:HomIsomorphismForAdjointFunctors) for $(Pi_{inf} \dashv Disc_{inf})$ that $Disc_{inf}(U_i) \to Disc_{inf}(X)$ is a [[local epimorphism]] (Def. \ref{LocalEpimorphism}). Therefore Prop. \ref{CechNerveProjectionOfLocalEpimorphismIsLocalWeakEquivalence} implies that 
 
 $$
   C(\{Disc_{inf} U_i\}) \to Disc_{inf} X
