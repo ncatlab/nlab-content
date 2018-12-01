@@ -1,5 +1,4 @@
 
-> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -126,9 +125,24 @@ $$
 $$
 
 ## Definition
+  {#Definition}
 
+The definition of obifold cohomology below in Def. \ref{OrbifoldCohomology} is the canonical [[cohomology]] in a [[slice (infinity,1)-topos|slice]] of the [[globally equivariant homotopy theory]] $\mathbf{H}_{sing}$ of the given ambient [[cohesive (∞,1)-topos]] $\mathbf{H}$. 
+
+For completeness, we first introduce/recall $\mathbf{H}_{sing}$ in Prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory} below, as well as its slices to $G$-[[equivariant homotopy theory]] $\mathbf{H}_G$ (Def. \ref{GEquivariantHomotopyTheoryOfCohesiveInfinityTopos} below), following [Rezk 14](#Rezk14).
+
+The key point in the following is the identification of [[orbifolds]] as the [[n-truncated object in an (∞,1)-category|0-truncated]] "$Singularities$-[[codiscrete objects]]" in $\mathbf{H}_{sing}$ (Def. \ref{Orbifold} below), which is consistent in that under passage to [[shape modality|shapes]], i.e. the underlying bare [[globally equivariant homotopy theory|globally equivariant]] [[homotopy types]], it reproduces the standard embedding of [[G-spaces]] into [[globally equivariant homotopy theory]] (Example \ref{GlobalHomotopyQuotientsOfSmoothManifolds} below.)
+
+$\,$
 
 ### Globally equivariant cohesive toposes
+  {#GloballyEquivariantCohesiveToposes}
+
+We consider here the evident refinement to _geometric cohomology_ hence to _[[differential cohomology]]_ ([[cohesion|cohesive]] [[infinity-stack|∞-stacky]] [[sheaf cohomology]]) of [[globally equivariant homotopy theory]], in Prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory} below.
+
+In order to bring out the conceptual appearance of [[orbifolds]] further [below](#OnOrbifolds), we take the liberty of referring to what otherwise is known as the "[[global orbit category]]" instead as the _categories of singularities_ (Def. \ref{CategoryOfSingularities} below).
+
+$\,$
 
 
 +-- {: .num_defn #CategoryOfSingularities}
@@ -387,6 +401,7 @@ Here we used the various [[(∞,1)-adjunctions]] and the [[(∞,1)-Yoneda lemma]
 $\,$
 
 ### $G$-Equivariant cohesive toposes
+  {#EquivariantCohesiveToposes}
 
 In order to speak of $G$-[[equivariant homotopy theory]] (Def. \ref{GEquivariantHomotopyTheoryOfCohesiveInfinityTopos} below) inside [[globally equivariant homotopy theory]] (Prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory} above) we need a certain concept of faithfulness (Def. \ref{SingularitiesFaithful} below).
 
@@ -394,6 +409,7 @@ For that purpose, recall that in an [[(∞,1)-topos]] the [[pair]] of [[classes]
 
 In particular this says that a [[1-morphism]] in an [[(∞,1)-topos]] is [[n-truncated object in an (infinity,1)-category|0-truncated]] precisely if it has the [[right lifting property]] against every morphism that is [[n-connected object of an (infinity,1)-topos|0-connected]].
 
+$\,$
 
 Just for the record: 
 
@@ -717,6 +733,13 @@ between the $G$-[[equivariant homotopy theory]] $\mathbf{H}_G$ (Def. \ref{GEquiv
 
 
 ### Orbifolds
+ {#OnOrbifolds}
+
+With [[cohesion|cohesive]] [[globally equivariant homotopy theory]] in place, there is now an elegant definition of [[orbifolds]] (Def. \ref{Orbifold} below) which, being fully _[[synthetic mathematics|synthetic]]_ makes manifest good defining properties of the [[category]] of [[orbifolds]] (Remark \ref{OrbifoldsInGloballyEquivariantStillEquivalentToGeometricGroupoids} below).
+
+Not directly evident is that under passing to [[shape modality|shapes]] (underlying [[globally equivariant homotopy theory|globally equivariant]] [[geometrically discrete ∞-groupoids]]) this definition is compatible with the standard embedding of [[G-spaces]] into [[globally equivariant homotopy theory]]. That this indeed is the case is confirmed in Example \ref{GlobalHomotopyQuotientsOfSmoothManifolds} below.
+
+$\,$
 
 +-- {: .num_defn #Orbifold}
 ###### Definition
@@ -868,12 +891,28 @@ $$
     \mathbb{R}^n \times \mathbb{B}K
     & \mapsto\;
     \infty Groupoids\big(
-      \mathbf{B}K, 
-      \underset{\in Set}{\underbrace{C^\infty(\mathbb{R}^n, X)}} \sslash G
+      \mathbf{B}K,
+      \underset{
+        \in 1Groupoid
+      }{
+        \underbrace{  
+          \underset{\in Set}{
+            \underbrace{C^\infty(\mathbb{R}^n, X)}
+          } 
+        }
+      }
+      \sslash G
     \big)  
     \\
     & \simeq \;
-    1 Groupoids\big(
+    \underset{
+      \simeq Grpd(Set)
+    }{
+    \underbrace{
+      1 Groupoids
+     }
+     }
+     \big(
       \mathbf{B}K, 
       C^\infty(\mathbb{R}^n, X) \sslash G
     \big)
@@ -954,7 +993,7 @@ With this the statement follows by Prop. \ref{coDiscSingOf0TruncatedMorphismsIsS
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #OrbifoldsInGloballyEquivariantStillEquivalentToGeometricGroupoids}
 ###### Remark
 **([[orbifolds]] inside [[globally equivariant homotopy theory]] are still [[equivalence of (infinity,1)-categories|equivalent]] to [[cohesive (infinity,1)-topos|cohesive groupoids]])**
 
@@ -966,6 +1005,12 @@ Since $coDisc_{sing} \;\colon\; \mathbf{H} \hookrightarrow \mathbf{H}_{sing}$ is
 $\,$
 
 ### Orbifold cohomology
+
+With [[orbifolds]] properly realized in [[cohesion|cohesive]] [[globally equivariant homotopy theory]] by the [above](#OnOrbifolds), the proper definition of _orbifold cohomology_ is now immediate, by the general logic of [[cohomology]] in [[(∞,1)-toposes]], this is Def. \ref{OrbifoldCohomology} below.
+
+What needs checking is that this definition, in the special case that the [[coefficient]] object is [[geometrically discrete infinity-groupoid|geometrically discrete]] reproduces [[Bredon cohomology|Bredon]] [[equivariant cohomology]] of the underlying bare [[homotopy type]] of the orbifold. But this follows readily with the general considerations above, this is Example \ref{OrbifoldCohomologyWithGeometricallyDiscreteCoefficients} below.
+
+$\,$
 
 +-- {: .num_defn #OrbifoldCohomology}
 ###### Definition
@@ -1009,7 +1054,7 @@ We check the two desiderata for a good definition of orbifold cohomology discuss
 
 1. In the other extreme, for orbifold cohomology with geometrically discrete coefficients, we check that we re-obtain [[Bredon cohomology|Bredon]] [[equivariant cohomology]] of the underlying [[G-spaces]]:
 
-+-- {: .num_example }
++-- {: .num_example #OrbifoldCohomologyWithGeometricallyDiscreteCoefficients}
 ###### Example
 **([[orbifold cohomology]] with [[geometrically discrete infinity-groupoid|geometrically discrete]] [[coefficients]] is $G$-[[equivariant cohomology]])**
 
