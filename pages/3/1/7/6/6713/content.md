@@ -288,6 +288,20 @@ Discussion of D-brane charge this way is in ([Maldacena-Moore-Seiberg 01](#Malda
 
 ### General
 
+The original article is
+
+* {#Polchinski95} [[Joseph Polchinski]], _Dirichlet-Branes and Ramond-Ramond Charges_, Phys.Rev.Lett.75:4724-4727,1995 ([arXiv:hep-th/9510017](https://arxiv.org/abs/hep-th/9510017))
+
+  from p.7:
+
+> although it appears that we have modified the type II theory by adding something new to it, we are now arguing that these objects are actually intrinsic to any nonperturbative formulation of the type II theory; presumably one should think of them as an alternate representation of the black $p$-branes  
+
+General review includes
+
+* [[Joseph Polchinski]], _TASI Lectures on D-Branes_ ([arXiv:hep-th/9611050](https://arxiv.org/abs/hep-th/9611050))
+
+* [[Koji Hashimoto]], _D-Brane -- Superstrings and New Perspective of Our World_, Springer 2012 ([doi:10.1007/978-3-642-23574-0](https://link.springer.com/book/10.1007%2F978-3-642-23574-0), [spire:1188897](http://inspirehep.net/record/1188897))
+
 A classical text describing how the physics way to think of D-branes leads to seeing that they are objects in derived categories is
 
 * [[Paul Aspinwall]], _D-Branes on Calabi-Yau Manifolds_ ([arXiv:hep-th/0403166](http://arxiv.org/abs/hep-th/0403166)) 
