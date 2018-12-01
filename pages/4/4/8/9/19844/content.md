@@ -50,7 +50,7 @@ See also
 
 Original articles include:
 
-* Guido D'Amico, Marco Nardecchia, Paolo Panci, Francesco Sannino, Alessandro Strumia, Riccardo Torre, Alfredo Urbano, 
+* Guido D'Amico, Marco Nardecchia, Paolo Panci, Francesco Sannino, [[Alessandro Strumia]], Riccardo Torre, Alfredo Urbano, 
 
   _Flavour anomalies after the $R_{K^\ast}$ measurement_, J. High Energ. Phys. (2017) 2017 ([arXiv:1704.05438](https://arxiv.org/abs/1704.05438))
 
