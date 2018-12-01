@@ -63,7 +63,7 @@ the corresponding ([[homotopy type theory|homotopy]]) [[type theory]] is simply 
 | [[truncated object in an (infinity,1)-category|(-2)-truncated morphism]]/[[equivalence in an (infinity,1)-category|equivalence]] $\array{Y \\ \downarrow^{\mathrlap{\simeq}} \\ X}$ | [[true]]/[[unit type]] $x : X \vdash 1 : Type$ |
 | [[truncated object in an (infinity,1)-category|(-1)-truncated morphism]]/[[monomorphism in an (infinity,1)-category|monomorphism]] $\array{\phi \\ \downarrow \\ X}$ | [[proposition]] $x : X \vdash \phi(x) : Type$ |
 | [[direct image]] of [[truncated object in an (infinity,1)-category|(-1)-truncated morphism]] | [[universal quantifier]] $y : Y \vdash \underset{x \in X(y)}{\forall} \phi(x) : Type$ |
-| [[truncated object of an (infinity,1)-category|(-1)-truncation]] of postcomposition of [[truncated object in an (infinity,1)-category|(-1)-truncated morphism]] | [[existential quantifier]] $y : Y \vdash \underset{x \in X(y)}{\exists} \phi(x) $ |
+| [[truncated object of an (infinity,1)-category|(-1)-truncation]] of postcomposition of [[truncated object in an (infinity,1)-category|(-1)-truncated morphism]] | [[existential quantifier]] $y : Y \vdash \underset{x \in X(y)}{\exists} \phi(x) : Type$ |
 
 The symbols in the right column may be formally manipulated according to the rules of _[[type theory]]_.
 For the case of ordinary categories, this table defines a [[functor]] 
