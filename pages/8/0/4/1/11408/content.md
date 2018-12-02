@@ -29,7 +29,7 @@ Although the theorem fails in [[second-order logic]] (for example, note one has 
 
 One frequently sees the L&#246;wenheim-Skolem theorem separated into an "upward" version (which produces [[elementary embedding|elementary extensions]]) and a "downward" part (producing elementary substructures). The upward version can be derived just by a clever application of the [[compactness theorem]]; the downward version involves a construction called "Skolemization". Both proofs involve modifying the language. 
 
-Let $\Sigma$ be a first-order [[signature]], 
+Let $\Sigma$ be a first-order [[signature]] and let $T$ be a set of sentences of cardinality $\beta$. The upward version states the following: suppose $T$ has a model of cardinality $\kappa \geq \aleph_{0}$, then for every cardinal $\lambda \geq \max(\aleph_{0}, \beta)$, $T$ has a model of cardinality $\lambda$. The downward version, on the other hand, states the following: suppose $T$ has a model of infinite cardinality, then $T$ has a model of cardinality $\aleph_{0}$.
 
 ## Related entries
 
@@ -45,7 +45,7 @@ Let $\Sigma$ be a first-order [[signature]],
 
 ## Link
 
-* Wikipedia, _[L&#246;wenheim-Skolem theorem](https://en.wikipedia.org/wiki/L&#246;wenheim&#8211;Skolem_theorem)_
+* Wikipedia, _[L&#246;wenheim-Skolem theorem](https://en.wikipedia.org/wiki/L%C3%B6wenheim%E2%80%93Skolem_theorem)_
 
 ## References
 
@@ -64,6 +64,8 @@ Society, Rhode Island, 1989.
 * M. Zawadowski, _The Skolem-L&#246;wenheim theorem in toposes_ , Studia Logica **42** (1983) pp.461-475.
 
 * M. Zawadowski, _The Skolem-L&#246;wenheim theorem in toposes II_ , Studia Logica **44** (1985) pp.25-38.
+
+* M. Manzano, _Model Theory_, Clarendon Press (1999)
 
 
 [[!redirects Lowenheim-Skolem theorem]]
