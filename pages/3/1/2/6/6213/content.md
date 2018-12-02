@@ -9,16 +9,19 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
 
 ## Definition
 
-A __normed algebra__ $A$ over a [[field]] $k$ of [[real numbers|real]] or [[numbers|complex numbers]] is a [[normed vector space]] equipped with an [[associative algebra]] structure, such that the algebra multiplication is [[continuous function|continuous]] with respect to the [[norm]], i.e. such that there is a positive real constant $C\gt 0$ such that 
+A __normed algebra__ $A$ over a [[field]] $k$ of [[real numbers|real]] or [[numbers|complex numbers]] is a [[normed vector space]] equipped with an [[associative algebra]] structure, such that the algebra multiplication is [[continuous function|continuous]] with respect to the [[norm]], i.e. such that there is a [[positive number|positive]] [[real number]] $C\gt 0$ such that 
 
 $$
-\|ab\| \leq C \|a\| \|b\|, 
+ {\vert a b \vert} 
+ \;\leq\; 
+  C {\vert a \vert} {\vert b \vert}
 $$
 
 for all $a,b\in A$. One can rescale the norm to another norm to get $C = 1$ ([[absolute value]]). A normed algebra whose underlying normed space is [[complete space|complete]] is called a __[[Banach algebra]]__.
