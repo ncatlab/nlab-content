@@ -16,7 +16,7 @@
 
 ## Idea
 
-The _quarkss_ are one of the fundamental [[particles]]/[[matter]] [[field (physics)|fields]] in the [[standard model of particle physics]]. Quarks couple to the [[Yang-Mills theory]] given by [[QCD]].
+_Quarks_ are one of the fundamental [[particles]]/[[matter]] [[field (physics)|fields]] in the [[standard model of particle physics]]. Quarks couple to the [[Yang-Mills theory]] given by [[QCD]].
 
 At room-[[temperature]] quarks always form [[bound states]] to [[hadrons]]. This phenomenon of _[[confinement]]_ is quantitatively well-reproduced by [[lattice QCD]] computations (see [Fodor-Hoelbling 12](#FodorHoelbling12)) and qualitatively well reproduced by conceptual arguments such as the [[AdS/QCD correspondence]], but a full analytic [[proof]] of confinement from a rigorous [[AQFT]]-like foundation of [[QCD]] remains open, see the _[[mass gap problem]]_.
 
