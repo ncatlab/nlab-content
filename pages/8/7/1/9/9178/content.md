@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -39,6 +40,18 @@ However, at high [[temperature]] [[QCD]] goes through a _deconfinement_ [[phase 
 
 
 ## References
+
+### General
+
+* Jean-Marc Richard, _An introduction to the quark model_ ([arXiv:1205.4326](https://arxiv.org/abs/1205.4326))
+
+Textbooks:
+
+* {#HalzenMartin84} [[Francis Halzen]], [[Alan Martin]], _Quarks and Leptons: An Introductory Course in Modern Particle Physics_, Wiley 1984 ([pdf](http://ajbell.web.cern.ch/ajbell/Documents/eBooks/Quarks%20&%20Leptons.pdf))
+
+### History
+
+* [[George Zweig]], _Origins of the quark model_, 1980 ([pdf](https://authors.library.caltech.edu/18969/1/Origins_of_the_Quark_Model_Final_Zweig%5B1%5D.pdf), [[ZweigQuarkModel1980.pdf:file]])
 
 ### Ab-initio lattice computation
  {#ReferencesAbInitioLatticeComputation}
