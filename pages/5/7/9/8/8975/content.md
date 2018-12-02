@@ -55,6 +55,8 @@ Whereas "continuation-passing style" refers to a programming technique, the term
 
 * [[monad (in computer science)]]
 
+* [[defunctionalization]], often used in conjunction with continuation-passing style
+
 ## References
 
 Some early and historical references for continuations and continuation-passing style include:
