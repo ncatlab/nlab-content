@@ -4,7 +4,7 @@
 
 ## Idea
 
-_Defunctionalization_ is a method of converting a functional program into one that involves no higher order functions nor lambda expressions. It is a whole program transformation. 
+_Defunctionalization_ is a method of converting a [[functional programming|functional program]] into one that involves no higher order functions nor lambda expressions. It is a whole program transformation. 
 
 ## Program transformation
 
@@ -36,8 +36,8 @@ The coproduct type $Defun(A,B)$ is typically not a true function space in the se
 
 ## Connection to adjoint functor theorems
 
-Recall that a cartesian [[internal hom]] $B^A$, if it exists, is a representation of $Hom(-\times A,B)$. 
-As such, in many concrete situations, we can deduce its existence from an adjoint functor theorem. 
+Recall that a cartesian [[internal hom]] $B^A$, if it exists, is a [[representable functor|representation]] of $Hom(-\times A,B)$. 
+As such, in many concrete situations, we can deduce its existence from an [[adjoint functor theorem]]. 
 Recall that the [[solution set condition]] in this instance requires a set $I$ and an $I$-indexed family of objects $C_i$ 
 together with morphisms
 $$
@@ -52,12 +52,42 @@ Then, as is usually observed, the coproduct
 $$
  \coprod_{i\in I}C_i
 $$
-is a weak internal hom, from which the internal hom is recovered by taking a [[coequalizer]]. This coproduct is reminiscent of the $Defun(A,B)$. 
+is a weak internal hom, from which the internal hom is recovered by taking a [[coequalizer]]. This coproduct is strongly reminiscent of the coproduct type $Defun(A,B)$ used in defunctionalization. 
+
+## Example
+Consider the [[factorial]] function in [[continuation-passing style]], written in [[Haskell]]:
+
+    factcps :: Integer -> (Integer -> Integer) -> Integer
+    factcps x k = if x == 0 then k 1 else factcps (x-1) (\y -> k (x * y))
+
+    fact :: int -> int
+    fact x = factcps x (\x -> x)
+
+The idea is that `factcps x k` calculates the factorial of `x` but does not return the result, instead, it calls the "continuation" `k` with the result. Since `fact 5` calls `factcps 5` with the identity function, it will eventually return `120`. 
+
+If this is the whole program, then there are only two [[lambda abstractions]] we need to deal with, both of type `Integer -> Integer`. The first one `\y -> k (x * y)` has free variables `x` and `k`; we'll call it `Multiply`. The second `\x -> x` has no free variables; we'll call it `Identity`.
+
+To defunctionalize this we define consider a type `DefunIntInt`, which is $Defun(Integer,Integer)$ above:
+
+    data DefunIntInt = Multiply Integer DefunIntInt | Identity
+    eval :: DefunIntInt -> Integer -> Integer 
+    eval (Multiply x k) y = eval k (x * y)
+    eval (Identity) x = x
+
+And now we can write the program without [[lambda abstractions]]:
+
+    factcps :: Integer -> DefunIntInt -> Integer
+    factcps x k = if x == 0 then eval k 1 else factcps (x-1) (Multiply x k)
+
+    fact :: Integer -> Integer
+    fact x = factcps x Identity
+
+In fact, in this example, the type `DefunIntInt` is isomorphic to the type of integer lists, and squinting slightly it can be seen as a call stack. 
 
 ## References
 
 Defunctionalization was probably introduced by John Reynolds in 
 
-* [[John C. Reynolds]], Definitional Interpreters for Higher-Order Programming Languages [pdf]( https://homepages.inf.ed.ac.uk/wadler/papers/papers-we-love/reynolds-definitional-interpreters-1998.pdf)
+* [[John C. Reynolds]], Definitional Interpreters for Higher-Order Programming Languages. In Proceedings of the Annual ACM Conference. 1972.  [pdf]( https://homepages.inf.ed.ac.uk/wadler/papers/papers-we-love/reynolds-definitional-interpreters-1998.pdf)
 
 There and elsewhere a common theme is to first convert programs to [[continuation-passing style]], which makes the control stack explicit, and then to defunctionalize, which makes the control stack look like a stack; the net result is a kind-of abstract machine. 
