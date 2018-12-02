@@ -8,7 +8,7 @@ _Defunctionalization_ is a method of converting a functional program into one th
 
 ## Program transformation
 
-The idea is it to consider a type $Defun(A,B)$ for every pair of types A,B as a proxy for the true [[function type]] $A\to B$. 
+The idea is it to consider a type $Defun(A,B)$ for every pair of types $A,B$ as a proxy for the true [[function type]] $A\to B$. 
 This type $Defun(A,B)$ is a [[coproduct]]
 $$
  Defun(A,B)=\coprod_{x_1:C_1,\dots,x_n:C_n\, \vdash \,\lambda y.\,t\,  :\,  A\to B}C_1\times \dots \times C_n
