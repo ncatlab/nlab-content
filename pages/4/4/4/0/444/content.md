@@ -83,7 +83,7 @@ The nerve functor may be viewed as a [[singular functor]] of the functor $i$.
 ### Nerve of a 1-category 
  {#NerveOfACategory}
 
-For fixing notation, recall that 
+For fixing notation, recall that the source and target maps of a small  [[category#OneCollectionOfMorphisms|category]] form a [[span]] in the category $Span(Set)$ where composition [[span#categories_of_spans|is given by a pullback]] (fiber product). The pairs of composable morphisms of a category are then obtained composing its source/target span with itself.
 
 +-- {: .num_defn #SmallCategory}
 ###### Definition
