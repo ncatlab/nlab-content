@@ -13904,5 +13904,3 @@ First of all, the adjunction is indeed a [[Quillen adjunction]]: prop. \ref{Sing
 Now prop. \ref{UnitOfSingularNerveAndRealizationIsWEOnKanComplexes} says that the [[derived adjunction unit]] and [[derived adjunction counit]] are weak equivalences, and hence the Quillen adjunction is a Quillen equivalence.
 
 =--
-
-$\,$
