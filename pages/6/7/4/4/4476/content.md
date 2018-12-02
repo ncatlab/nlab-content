@@ -26,7 +26,7 @@ If $A$ is [[finite number|finite]]-[[dimension|dimensional]] (over a [[field]] $
 
 ## Related concepts
 
-For applications to [[physics]], the most interesting division algebras are probably the [[normed division algebras]]: the [[real numbers]], [[complex numbers]], [[quaternion|quaternions]] and [[octonion|octonions]].  These have important relations to [[division algebras and supersymmetry|supersymmetry]].
+For many applications (also to [[physics]]) the most interesting division algebras are the [[normed division algebras]] over the [[real numbers]]: By the [[Hurwitz theorem]] these are the [[real numbers]], [[complex numbers]], [[quaternion|quaternions]] and [[octonion|octonions]].  These have important relations to [[division algebras and supersymmetry|supersymmetry]].
 
 [[!include exceptional spinors and division algebras -- table]]
 
