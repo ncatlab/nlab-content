@@ -330,13 +330,14 @@ where [[Cat]] is regarded as a [[1-category]] with objects locally small categor
 
 =--
 
-So the set $N(\mathcal{C})_n$ of $n$-[[simplices]] of the nerve is the set of functors $\{0 \to 1 \to \cdots \to n\} \to \mathcal{C}$. This is clearly the same as the set of sequences of composable morphisms in $D$ of length $n$:
+So the set $N(\mathcal{C})_n$ of $n$-[[simplices]] of the nerve is the set of functors $\{0 \to 1 \to \cdots \to n\} \to \mathcal{C}$. This is clearly the same as the set of sequences of composable morphisms in $\mathcal{C}$ of length $n$ obtained by iterated fiber product (as [above](#NerveOfACategory) for pairs of composables):
 
 $$
   N(\mathcal{C})_n = 
-   \underbrace{
-   Mor(\mathcal{C}) {}_t \times_s Mor(D) {}_t \times_s \cdots
-   \times_s Mor(\mathcal{C}) {}_t}_{n factors}
+  \underbrace{
+     Mor(\mathcal{C}) \times_{Obj(\mathcal{C})} Mor(\mathcal{C}) 
+     \times_{Obj(\mathcal{C})} \cdots \times_{Obj(\mathcal{C})} Mor(\mathcal{C}) 
+  }_{n \medspace factors}
 $$
 
 The collection of all functors between linear orders
@@ -395,8 +396,7 @@ In particular in light of their generalization to nerves of higher categories, d
     (f_1, f_2) \in Mor(D) {}_t \times_s Mor(D)
   \right\}$ is the collection of composable morphisms in $\mathcal{C}$: the 2-cell itself is to be read as the _composition operation_, which is unique for an  ordinary category (there is just one way to compose two morphisms);
 
-* $N(\mathcal{C})_3 =
-    \left\{
+* $N(\mathcal{C})_3 = \left\{
       \left.
         \array{
           d_1 &\stackrel{f_2}{\to}& d_2
