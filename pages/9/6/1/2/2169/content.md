@@ -16,9 +16,14 @@
 
 ## Idea
 
-A normed division algebra is a [[not-necessarily associative algebra]], over some [[ground field]], that is both a [[division algebra]] as well as a multiplicatively [[normed algebra]]. 
+A normed division algebra is a [[not-necessarily associative algebra]], over some [[ground field]], that is 
 
-It turns out that over the [[real numbers]] there are precisely only four normed division algebras up to [[isomorphism]]: the algebras of 
+1. a [[division algebra]] $\big( \text{i.e.}\, (a \cdot b = 0) \Rightarrow (a = 0 \,\text{or}\, b = 0) \big)$  
+
+1. a multiplicatively [[normed algebra]] $\big( \text{i.e.}\, {\vert a \cdot b\vert}  \leq C \cdot  {\vert a\vert} \cdot {\vert b\vert} \big)$.
+
+
+It turns out ([[Hurwitz' theorem]]) that over the [[real numbers]] there are precisely only four normed division algebras up to [[isomorphism]]: the algebras of 
 
 1. [[real numbers]], 
 
@@ -28,11 +33,11 @@ It turns out that over the [[real numbers]] there are precisely only four normed
 
 1. [[octonions]].
 
-In this sense real normed division algebras may be thought of as a natural generalization of the more familiar real and complex numbers. 
+In this sense real normed division algebras may be thought of as a natural generalization of the [[real numbers]] and the [[complex numbers]]. 
 
-Moreover, if one regards the real numbers as a [[star-algebra]], then each step in this sequence is given by applying the [[Cayley-Dickson construction]]. Applied to the [[octonions]] it yields the [[sedenions]], which however are no longer a [[division algebra]].
+Moreover, if one regards the [[real numbers]] as a [[star-algebra]] with trivial [[anti-involution]], then each step in the above sequence is given by applying the [[Cayley-Dickson construction]]. (While the process of applying the [[Cayley-Dickson construction]] continues, next with the[[sedenions]], these and the following are no longer [[division algebras]].)
 
-This classification turns out to closely connect to various other systems of [[universal exceptionalism|exceptional]] structures in [[mathematics]] and [[physics]]: 
+This classification of real normed division algebras is closely related to various other systems of [[universal exceptionalism|exceptional]] structures in [[mathematics]] and [[physics]]: 
 
 * The _[[Hopf invariant one theorem]]_ says that the only [[continuous functions]] between [[spheres]] of the form $S^{2n-1}\to S^n$ whose [[Hopf invariant]] is equal to 1 are the [[Hopf constructions]] on the four real normed division algebras, namely 
 
