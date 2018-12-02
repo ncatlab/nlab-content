@@ -15,7 +15,7 @@
 
 ## Idea
 
-Formally, Ricci curvature $Ric$ is a [[curvature]] [[differential 2-form]] with values in scalars obtained by contraction from the [[Riemann curvature]] of a [[Riemannian manifold]]. Geometrically one may think $Ric(v, w)$ as the first order approximation of the infinitesimal behaviour of the surface spanned by $v$ and $w$. This is made explicit by the following formula for the volume element around some point
+Formally, Ricci curvature $Ric$ is a [[curvature]] [[differential 2-form]] with values in scalars obtained by contraction from the [[Riemann curvature]] of a [[Riemannian manifold]]. Geometrically one may think $Ric(v, w)$ as the first order approximation of the infinitesimal behavior of the surface spanned by $v$ and $w$. This is made explicit by the following formula for the volume element around some point
 $$
  d\mu _{g}=\left[1-{\tfrac {1}{6}}Ric_{jk}x^{j}x^{k}+O\left(|x|^{3}\right)\right]d\mu _{Euclidean}.
 $$
@@ -24,11 +24,11 @@ A [[spacetime]] with vanishing Ricci curvature is also called _Ricci flat_.
 
 ## Harmonic coordinate representation and regularity
 
-By a trick of DeTurck and Kazan (or already Lanczos?) in harmonic coordinates the Ricci tensor can be expressed as
+By a trick of Lanczos, that was recovered by DeTurck and Kazdan, in harmonic coordinates the Ricci tensor can be expressed as
 $$
-Ric_{lm} = -\frac{1}{2} \sum_{j,k} \partial_j g^{jk}(x) \partial_k g_{lm} + Q_{lm}(g, \nabla g)
+Ric_{lm} = -\frac{1}{2} \sum_{j,k} \partial_j g^{jk}\partial_k g_{lm} + Q_{lm}(g, \nabla g)
 $$
-where $g^{jk}$ denotes the inverse of the metric tensor and $Q_{lm}$ is a quadratic form in $\nabla g$ with coefficients that are polynomials in the coefficients of $g$. Note that this formula involves only first derivatives of the metric tensor. This representation is especially useful in two ways: First, there are theorems that give bounds on the regularity of the metric tensor in harmonic coordinates under geometric assumptions (Anderson, Anderson and Cheeger, Cheeger and Naber). Second, by theory of partial differential equations one can conclude on regularity bounds for the metric tensor from regularity estimates for the Ricci tensor.
+where $g^{jk}$ denotes the inverse of the metric tensor and $Q_{lm}$ is a quadratic form in $\nabla g$ with coefficients that are polynomials in the coefficients of $g$. Note that this formula involves only first derivatives of the metric tensor. This representation is especially useful in two ways: First, there are theorems that give bounds on the regularity of the metric tensor in harmonic coordinates under geometric assumptions (Anderson, Cheeger and Naber). Second, by theory of partial differential equations one can conclude on regularity bounds for the metric tensor from regularity estimates for the Ricci tensor.
 
 ## Related concepts
 
@@ -46,9 +46,19 @@ where $g^{jk}$ denotes the inverse of the metric tensor and $Q_{lm}$ is a quadra
 ## References
 
 * Wikipedia, _[Ricci curvature](http://en.wikipedia.org/wiki/Ricci_curvature)_
+
+* Lanczos, _ Ein vereinfachendes Koordinatensystem für die Einsteinschen Gravitationsgleichungen_ Phys. Z. 23, 537-539 (1922)
+
+* DeTurck and Kazdan, _Some regularity theorems in Riemannian geometry_, Ann. scient. Éc. Norm. Sup. (1981)
+
+For regularity result see
+
 * Anderson, _Convergence  and rigidity of manifolds under Ricci curvature bounds_ , Invent. Math. (1990)
-* Anderson und Cheeger, _$C^\alpha$-compactness for manifolds with Ricci curvature and injectivity radius bounded below_ J. Diff. Geo. (1992)
 * Cheeger and Naber, _Lower bounds on Ricci curvature and quantitative behavior of singular sets_ Invent. Math. (2013)
+
+For weaker but more general regularity results see also:
+
+* Anderson and Cheeger, _$C^\alpha$-compactness for manifolds with Ricci curvature and injectivity radius bounded below_ J. Diff. Geo. (1992)
 
 [[!redirects Ricci curvatures]]
 
