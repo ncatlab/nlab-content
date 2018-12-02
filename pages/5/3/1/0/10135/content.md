@@ -94,7 +94,7 @@ $\,$
 
 ### Lift of orbifolds to geometric global homotopy theory
 
-Hence the proposal of [Moerdijk-Pronk 97](orbifold#MoerdijkPronk97) that an [[orbifold]] should be regarded as a certain [[geometric stack]] is missing something. It was briefly suggested in [Schwede 17, Introduction](#Schwede17), [Schwede 18, p. ix-x](#Schwede18) that the missing aspect is provided by [[global equivariant homotopy theory]], but details seem to have been left open. 
+Hence the proposal of [Moerdijk-Pronk 97](orbifold#MoerdijkPronk97), that an [[orbifold]] should be regarded as a certain [[geometric stack]], is missing something. It was briefly suggested in [Schwede 17, Introduction](#Schwede17), [Schwede 18, p. ix-x](#Schwede18) that the missing aspect is provided by [[global equivariant homotopy theory]], but details seem to have been left open. 
 
 Here we discuss how to define the required orbifold cohomology in detail and in general. We combine the [[differential cohesion]] for the geometric aspect with the cohesion of [[global equivariant homotopy theory]] that was observed and highlighted in [Rezk 14](#Rezk14).
 
@@ -104,9 +104,9 @@ Envision the picture of an orbifold singularity and hold a mathemagical magnifyi
 
 Removing the magnifying glass, what one sees with the bare eye depends on how one squints:
 
-1. The physicist says that what he sees is a singular point, but a point after all. This is the plain [[quotient]]  $\ast = \ast / G$. 
+* The physicist says that what he sees is a singular point, but a point after all. This is the plain [[quotient]]  $\ast = \ast / G$. 
 
-1. The Lie geometer says that what he sees is a point transforming under the $G$-[[action]] that fixes it, hence the [[homotopy quotient]] [[groupoid]] $\mathbf{B}G =\ast \sslash G$.
+* The Lie geometer says that what he sees is a point transforming under the $G$-[[action]] that fixes it, hence the [[homotopy quotient]] [[groupoid]] $\mathbf{B}G =\ast \sslash G$.
 
 These two aspects are two [[adjoint modality|opposite extreme aspects]] of the orbifold singularity $\mathbb{B}G$, but the orbifold singularity is more than both of these aspects. The real nature of an orbifold singularity is in fact a point, not a big [[classifying space]] $B G$ (recall that already $\mathbf{B}\mathbb{Z}_2 = \mathbb{R}P^\infty$), but it is a point that also remembers the group [[action]], for that characterizes how the singularity is being singular.
 
