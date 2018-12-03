@@ -135,9 +135,9 @@ Volume 68, January 2013, Pages 55-112 Progress in Particle and Nuclear Physics (
 
 The top-down Sakai-Sugimoto model is due to 
 
-* {#SakaiSugimoto04} Tadakatsu Sakai, Shigeki Sugimoto, _Low energy hadron physics in holographic QCD_, Prog.Theor.Phys.113:843-882, 2005 ([arXiv:hep-th/0412141](https://arxiv.org/abs/hep-th/0412141))
+* {#SakaiSugimoto04} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _Low energy hadron physics in holographic QCD_, Prog.Theor.Phys.113:843-882, 2005 ([arXiv:hep-th/0412141](https://arxiv.org/abs/hep-th/0412141))
 
-* {#SakaiSugimoto05} Tadakatsu Sakai, Shigeki Sugimoto, _More on a holographic dual of QCD_, Prog.Theor.Phys.114:1083-1118, 2005 ([arXiv:hep-th/0507073](https://arxiv.org/abs/hep-th/0507073))
+* {#SakaiSugimoto05} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _More on a holographic dual of QCD_, Prog.Theor.Phys.114:1083-1118, 2005 ([arXiv:hep-th/0507073](https://arxiv.org/abs/hep-th/0507073))
 
 based on 
 
@@ -200,11 +200,11 @@ Original articles:
 
 * {#KatzLewandowskiSchwartz05} Emanuel Katz, Adam Lewandowski, Matthew D. Schwartz, _Phys.Rev.D74:086004, 2006_ ([arXiv:hep-ph/0510388](https://arxiv.org/abs/hep-ph/0510388))
 
-* Hiroyuki Hata, Tadakatsu Sakai, Shigeki Sugimoto, Shinichiro Yamato, _Baryons from instantons in holographic QCD_, Prog.Theor.Phys.117:1157, 2007 ([arXiv:hep-th/0701280](https://arxiv.org/abs/hep-th/0701280))
+* Hiroyuki Hata, [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], Shinichiro Yamato, _Baryons from instantons in holographic QCD_, Prog.Theor.Phys.117:1157, 2007 ([arXiv:hep-th/0701280](https://arxiv.org/abs/hep-th/0701280))
 
 * Henrique Boschi-Filho, _Hadrons in AdS/QCD models_, Journal of Physics: Conference Series, Volume 706, Section 4 2008 ([doi:10.1088/1742-6596/706/4/042008](http://iopscience.iop.org/article/10.1088/1742-6596/706/4/042008))
 
-* [[Koji Hashimoto]], Tadakatsu Sakai, Shigeki Sugimoto, _Holographic Baryons : Static Properties and Form Factors from Gauge/String Duality_, Prog.Theor.Phys.120:1093-1137, 2008 ([arXiv:0806.3122](https://arxiv.org/abs/0806.3122))
+* [[Koji Hashimoto]], [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _Holographic Baryons : Static Properties and Form Factors from Gauge/String Duality_, Prog.Theor.Phys.120:1093-1137, 2008 ([arXiv:0806.3122](https://arxiv.org/abs/0806.3122))
 
 * Alex Pomarol, Andrea Wulzer, _Baryon Physics in Holographic QCD_, Nucl.Phys.B809:347-361, 2009 ([arXiv:0807.0316](https://arxiv.org/abs/0807.0316))
 
