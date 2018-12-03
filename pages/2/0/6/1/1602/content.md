@@ -562,3 +562,8 @@ Discussion relating to [[axions]] is in
 [[!redirects Green-Schwarz quantum anomaly cancellation]]
 
 [[!redirects Green-Schwarz anomaly]]
+
+[[!redirects Green–Schwarz mechanism]]
+[[!redirects Green–Schwarz mechanisms]]
+
+
