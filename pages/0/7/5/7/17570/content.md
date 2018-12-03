@@ -30,7 +30,7 @@ A non-empty [[class]] of [[compact Lie groups]] is called a **global family** if
 
 1. [[isomorphism]];
 
-1. [[closed subset|closed]] [[subgroups]];
+1. [[closed subset|closed]]  [[subgroups]];
 
 1. [[quotient groups]]
 
