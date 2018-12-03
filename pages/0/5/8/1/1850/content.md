@@ -58,6 +58,8 @@ which is a statement of the physical phenomenon of _charge conservation_ .
 
 * **electric charge**, [[magnetic charge]]
 
+* [[color charge]]
+
 * [[flux]]
 
 * [[Hodge-Maxwell theorem]]
