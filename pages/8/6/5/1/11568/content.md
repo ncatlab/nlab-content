@@ -21,14 +21,14 @@
 
 The **&#268;ech model structure on simplicial sheaves** on a [[site]] $C$ is a model by [[simplicial sheaves]] for the [[topological localization]] of an [[(∞,1)-category of (∞,1)-presheaves]] on $C$ to the [[(∞,1)-category of (∞,1)-sheaves]]. 
 
-It is obtained from the the [[?ech model structure on simplicial presheaves]] on $C$ by [[transferred model structure|transfer]] along the [[sheafification]] [[adjunction]].
+It is obtained from the the [[Čech model structure on simplicial presheaves]] on $C$ by [[transferred model structure|transfer]] along the [[sheafification]] [[adjunction]].
 
 Further [[Bousfield localization of model categories|left Bousfield localization]] at "internal" weak homotopy equivalences leads from the &#268;ech model structure to the [[model structure on simplicial sheaves]] that presents the [[hypercomplete (∞,1)-topos]] which is the [[hypercompletion]] of that presented by the &#268;ech model structure.
 
 
 ## Definition
 
-Let $C$ be a small [[site]], let $sSh (C)$ be the [[category]] of [[simplicial sheaves]] on $C$, and write $[C^{op}, sSet]_{\check{C},proj}$ and $[C^{op}, sSet]_{\check{C},inj}$ for the projective and injective [[?ech model structure on simplicial presheaves]], respectively. 
+Let $C$ be a small [[site]], let $sSh (C)$ be the [[category]] of [[simplicial sheaves]] on $C$, and write $[C^{op}, sSet]_{\check{C},proj}$ and $[C^{op}, sSet]_{\check{C},inj}$ for the projective and injective [[Čech model structure on simplicial presheaves]], respectively. 
 
 +-- {: .num_defn}
 ###### Definitions
