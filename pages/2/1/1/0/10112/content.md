@@ -26,6 +26,8 @@ In [[QCD]] a [[bound state]] of two [[quarks]] via the [[strong nuclear force]].
 
 * [[B meson]]
 
+* [[π-meson]]
+
 ## Related concepts
 
 * [[hadron]]
