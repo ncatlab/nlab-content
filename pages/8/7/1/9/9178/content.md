@@ -27,6 +27,8 @@ However, at high [[temperature]] [[QCD]] goes through a _deconfinement_ [[phase 
 
 ## Related concepts
 
+* [[colour charge]], [[flavour (particle physics)]]
+
 * [[quark-gluon plasma]]
 
 * [[generation of fermions]]
