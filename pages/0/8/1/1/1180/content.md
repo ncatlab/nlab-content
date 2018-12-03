@@ -87,7 +87,7 @@ For $\mathcal{A} = R$[[Mod]] and $N \in \mathcal{A}$, the  functor that forms [[
 
 =--
 
-In fact thes examples are generic, see prop. \ref{RightExactAdditiveIsTensor} below.
+In fact these examples are generic, see prop. \ref{RightExactAdditiveIsTensor} below.
 
 ## Properties
 
