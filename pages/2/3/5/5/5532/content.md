@@ -51,7 +51,7 @@ The traditional terminology is '$n$-connected', but this violates the rule that 
 
 ## Properties
 
-An $n$-connected topological space is precisely an [[n-connected object]] in the [[(∞,1)-topos]] [[?Gpd]], presented by the [[model category]] [[Top]] of [[topological spaces]].
+An $n$-connected topological space is precisely an [[n-connected object]] in the [[(∞,1)-topos]] [[∞Gpd]], presented by the [[model category]] [[Top]] of [[topological spaces]].
 
 ## Related concepts
 
