@@ -29,6 +29,8 @@ The corresponding [[effective field theory]] that describes [[bound states]] suc
 
 ## Properties
 
+* [[confinement]]
+
 * [[asymptotic freedom]]
 
 ## Related concepts
@@ -51,7 +53,9 @@ The corresponding [[effective field theory]] that describes [[bound states]] suc
 
       * [[quark]], [[gluon]]
 
-      * [[instanton in QCD]]
+      * [[colour charge]], [[flavour (particle physics)]]
+
+      * [[instanton in QCD]], [[caloron]], [[skyrmion]]
 
       * [[confinement]]
 
