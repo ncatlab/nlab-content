@@ -73,7 +73,15 @@ Now:
 
 * $U$ is a [[strong monoidal functor]];
 
-* for the [[tensor product of abelian groups]] there are canonical natural [[projection]] maps $p_{A,B} \colon A\times B \to A \otimes B$.
+* for the [[tensor product of abelian groups]] $A \otimes B$ there are canonical natural [[bilinear maps]] of underlying sets
+
+  $$
+     p_{A,B} 
+      \;\colon\; 
+     U(A)\times U(B) 
+     \longrightarrow
+     U(A \otimes B)
+  $$
 
 Using all this, then for
 
@@ -99,9 +107,7 @@ $$
   DK(V_\bullet)\times DK(W_\bullet)
   =
   U(\Gamma(V_\bullet)) \times U(\Gamma(W_\bullet))
-  \stackrel{\simeq}{\to}
-  U(\Gamma(V_\bullet) \times \Gamma(W_\bullet))
-  \stackrel{U(p)}{\to}
+  \stackrel{p_{\Gamma(V_\bullet), \Gamma(W_\bullet)} }{\to}
   U(\Gamma(V_\bullet)\otimes \Gamma(W_\bullet))
   \stackrel{U(\gamma)}{\longrightarrow}
   U(\Gamma(V_\bullet \otimes W_\bullet))
