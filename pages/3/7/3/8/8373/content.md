@@ -19,7 +19,7 @@
 
 In [[algebraic topology]], a [[continuous function]] between [[topological spaces]] is called **$n$-connected** if it induces [[isomorphisms]] on all [[homotopy groups]] in degree $\lt n$ and [[epimorphisms]] in degree $n$. In older literature this is often called an **$n$-equivalence**, since an $\infty$-equivalence in this sense is a  _[[weak homotopy equivalence]]_.
 
-In terms of the [[homotopy theory]] presented by the [[classical model structure on topological spaces]], an $n$-connected function represents an [[n-connected morphism]] in the [[(∞,1)-topos]] [[?Gpd]].
+In terms of the [[homotopy theory]] presented by the [[classical model structure on topological spaces]], an $n$-connected function represents an [[n-connected morphism]] in the [[(∞,1)-topos]] [[∞Gpd]].
 
 ## Definition
 
