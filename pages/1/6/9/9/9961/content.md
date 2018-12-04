@@ -102,7 +102,7 @@ Specifically computation of [[hadron]]-[[masses]] (see [[mass gap problem]]) in 
 
   Science 322:1224-1227,2008 ([arXiv:0906.3599](https://arxiv.org/abs/0906.3599))
 
-reviwed in 
+reviewed in 
 
 * [Fodor-Hoelbling 12, section V of ](#FodorHoelbling12)
 
