@@ -25,6 +25,7 @@ The _quark-gluon plasma_ is the [[phase of matter]] of [[quantum chromodynamics]
 <img src="https://ncatlab.org/nlab/files/QCDPhaseDiagram.jpg" width="400">
 </center>
 
+
 > **Schematic [[phase diagram]] of [[QCD]].** The vertical axis indicates [[temperature]] $T$, the horizontal axis indicates [[baryon]] [[density]]. At low enough temperature [[quarks]] and [[gluons]] only appear as [[hadron]] [[bound states]] ([[confinement]]). But above a critical temperature these [[hadron]] [[bound states]] break apart (deconfinement) and [[quarks]] and [[gluons]] may exist freely. This [[phase of matter|phase]] of [[QCD]] is the _quark-gluon plasma_.
 
 > graphics grabbed from [Blaizot 03](#Blaizot03).
@@ -41,6 +42,28 @@ It has been proposed ([Policastro-Son-Starinets 01](#PolicastroSonStarinets01)) 
 
 At yet higher energies, the quark-gluon plasma is eventually supposed to be weakly [[coupling constant|coupled]] again, due to [[asymptotic freedom]] (e.g. [Blaizot 03](#Blaizot03))
 
+## Properties
+
+### Early cosmology and nucleosynthesis
+ {#EarlyCosmologyAndNucleosynthesis}
+
+In the [[standard model of cosmology]] a quark gluon plasma filled the universe about $10^{-6}$ comoving seconds after the big bag. Decrease of [[temperature]] then led to the quark-gluon plasma condensing out to form [[hadrons]] and in particular [[baryons]] and hence in particular [[nucleons]] ([[protons]] and [[neutrons]]) and eventually [[atomic nuclei]] (cosmic [[nucleosynthesis]]).
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/EarlyHistory.jpg" width="420">
+</center>
+
+<center>
+<img src="https://ncatlab.org/nlab/files/EarlyHistoryII.jpg" width="490">
+</center>
+
+> graphics grabbed from [Haseeb 09](#Haseeb09)
+
+See the references [below](#ReferencesInEarlyUniverseCosmology).
+
+<br>
+
 ## Related concepts
 
 * The quark-gluon plasma is naturally studied in terms of [[infinite-temperature thermal field theory]] ([Blaizot-Iancu-Rebhan 03, section 2.2.4](#BlaizotIancuRebhan03), [Blaizot 04, around p. 17](#Blaizot04))
@@ -50,6 +73,8 @@ At yet higher energies, the quark-gluon plasma is eventually supposed to be weak
 ### General
 
 * Stanislaw Mrowczynski, _Quark-Gluon Plasma_, Acta Phys.Polon.B29:3711, 1998 ([arXiv:nucl-th/9905005](https://arxiv.org/abs/nucl-th/9905005))
+
+* {#Haseeb09} Mahnaz Q. Haseeb, _Introduction to Quark Gluon Plasma_, 2009 ([pdf](http://www.ncp.edu.pk/docs/fslp/dr_mehnaz_qgp_hydrodynamics_001.pdf))
 
 * Roman Pasechnik, Michal Šumbera, _Phenomenological Review on Quark-Gluon Plasma: Concepts vs. Observations_, Universe 2017, 3(1), 7 ([arXiv:1611.01533](https://arxiv.org/abs/1611.01533))
 
@@ -84,6 +109,40 @@ Realization of the quark-gluon plasma at the [[RHIC]] [[experiment]] has tentati
 
 * {#AdcoxEtAl05} K. Adcox, et al., _Formation of dense partonic matter in relativistic nucleus–nucleus collisions at RHIC: experimental evaluation by the PHENIX collaboration_ Nuclear Physics A 757.1-2 (2005): 184-283.
 
+### In early universe cosmology
+ {#ReferencesInEarlyUniverseCosmology}
+
+Discussion of the quark gluon-plasma in [[cosmology]] as the [[phase of matter]] shortly after the [[standard model of cosmology|big bang]]:
+
+* [[Edward Witten]], _Cosmic Separation Of Phases_, Phys. Rev. D30, 272 (1984) ([doi:10.1103/PhysRevD.30.272](https://doi.org/10.1103/PhysRevD.30.272))
+
+* Dominik J. Schwarz, _The first second of the Universe_, Annalen Phys.12:220-270, 2003 ([arXiv:astro-ph/0303574](https://arxiv.org/abs/astro-ph/0303574))
+
+* K. Sakthi Murugesan, G. Janhavi, and P. R. Subramanian, _Can the phase transition from quark-gluon plasma to hadron-resonance gas affect primordial nucleosynthesis?_, Phys. Rev. D 41, 2384 ([doi:10.1103/PhysRevD.41.2384](https://doi.org/10.1103/PhysRevD.41.2384))
+
+* K. Sakthi Murugesan, G. Janhavi, and P. R. Subramanian, _Importance of interactions in quark-gluon plasma: Baryon-number density contrast and primordial nucleosynthesis_, Phys. Rev. D 42, 3576 (1990) ([arXiv:10.1103/PhysRevD.42.3576](https://doi.org/10.1103/PhysRevD.42.3576))
+
+* [[Keith Olive]], _The Quark - hadron transition in cosmology and astrophysics_, Science 251, 1194 (1991)
+
+* A.A. Coley, T. Trappenberg, _The Quark-Hadron Phase Transition, QCD Lattice Calculations and Inhomogeneous Big-Bang Nucleosynthesis_, Phys.Rev. D50 (1994) 4881-4885 ([arXiv:astro-ph/9307031](https://arxiv.org/abs/astro-ph/9307031))
+
+* Hideo Suganuma, Hiroko Ichie, Hideko Monden, Shoichi Sasaki, Manabu Orito, Tadahiro Yamamoto, Toshitaka Kajino, _QCD Phase Transition at high Temperature in Cosmology_ ([arXiv:hep-ph/9608333](https://arxiv.org/abs/hep-ph/9608333))
+
+* Deepak Chandra, Ashok Goyal, _Dynamical evolution of the Universe in the quark-hadron phase transition and possible nugget formation_, Phys.Rev. D62 (2000) 063505 ([arXiv:hep-ph/9903466](https://arxiv.org/abs/hep-ph/9903466))
+
+* N. Borghini, W. N. Cottingham, R. Vinh Mau, _Possible Cosmological Implications of the Quark-Hadron Phase Transition_, J.Phys.G26:771, 2000 ([arXiv:hep-ph/0001284](https://arxiv.org/abs/hep-ph/0001284))
+
+* {#Kapusta01} Joseph I Kapusta, _Quark-Gluon Plasma in the Early Universe_, in _Phase Transitions in the Early Universe: Theory and Observations_ Springer, Dordrecht, 2001. 103-121 ([arXiv:astro-ph/0101516](https://arxiv.org/abs/astro-ph/0101516))
+
+* Michael McGuigan, Wolfgang Söldner, _QCD Cosmology from the Lattice Equation of State_ ([arXiv:0810.0265](https://arxiv.org/abs/0810.0265), [spire:798226](http://inspirehep.net/record/798226))
+
+> The effect of the strong interactions on cosmology was considered early on [10, 11] but the [[non-perturbative effect|nonperturbative]] nature of the strong interactions at low energy limited the progress of the subject.
+
+* S. M. Blinder, _[Evolution of Matter from a Quark-Gluon Plasma](http://demonstrations.wolfram.com/EvolutionOfMatterFromAQuarkGluonPlasma/)_, Wolfram Demonstration Project, 2011
+
+* _The liquid universe -- quark-gluon plasma and the creation of matter_ ([pdf](http://rhig.physics.wayne.edu/REU/new_talks/nuclear.pdf))
+
+* Sz. Borsanyi, Z. Fodor, K. H. Kampert, S. D. Katz, T. Kawanai, T. G. Kovacs, S. W. Mages, A. Pasztor, F. Pittler, J. Redondo, A. Ringwald, K. K. Szabo, _Lattice QCD for Cosmology_ ([arXiv:1606.07494](https://arxiv.org/abs/1606.07494))
 
 ### Description via AdS/CFT
  {#ReferencesViaAdSCFT}
