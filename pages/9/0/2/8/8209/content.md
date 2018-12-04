@@ -48,7 +48,7 @@ At yet higher energies, the quark-gluon plasma is eventually supposed to be weak
 ### Early cosmology and nucleosynthesis
  {#EarlyCosmologyAndNucleosynthesis}
 
-In the [[standard model of cosmology]] a quark gluon plasma filled the universe about $10^{-6}$ comoving seconds after the big bag. Decrease of [[temperature]] then led to the quark-gluon plasma condensing out to form [[hadrons]] and in particular [[baryons]] and hence in particular [[nucleons]] ([[protons]] and [[neutrons]]) and eventually [[atomic nuclei]] (cosmic [[nucleosynthesis]]).
+In the [[standard model of cosmology]] a quark gluon plasma filled the universe about $10^{-6}$ comoving seconds after the [[Big Bang]]. Decrease of [[temperature]] then led to the quark-gluon plasma condensing out to form [[hadrons]] and in particular [[baryons]] and hence in particular [[nucleons]] ([[protons]] and [[neutrons]]) and eventually [[atomic nuclei]] (cosmic [[nucleosynthesis]]).
 
 
 <center>
