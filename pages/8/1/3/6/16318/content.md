@@ -13,6 +13,10 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 In [[physics]], the _Pauli exclusion principle_ ([Pauli 25](#Pauli25)) states that no two [[spinors]] may inhabit the same [[quantum state]].
