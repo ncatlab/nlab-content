@@ -1,5 +1,6 @@
 # Initiality Project - Raw Syntax
 
+
 This page is part of the [[Initiality Project]].
 
 * table of contexts
