@@ -169,6 +169,13 @@ It is clear that $i_n(U_n) \subseteq U_{n+1}$ and the union $U = colim_n U_n$ de
 +-- {: .num_remark} 
 ###### Remark 
 An alternative proof using the Tietze characterization is easily given: if $C \subseteq colim_n X_n$ is closed and $f: C \to \mathbb{R}$ is continuous, then putting $C_n = X_n \cap C$ and $f_n = f|_{C_n}$, we define a suitable extension of each $f_n: C_n \to \mathbb{R}$ to a map $g_n: X_n \to \mathbb{R}$ by induction. Supposing at stage $n$ the map $g_n$ is given, we have a well-defined map $h_{n+1}: C_{n+1} \cup i_n(X_n) \to \mathbb{R}$ defined as $f_{n+1}$ on $C_{n+1}$ and as the composite $i_n(X_n) \cong X_n \stackrel{g_n}{\to} \mathbb{R}$ on $i_n(X_n)$. Then using normality of $X_{n+1}$, extend $h_{n+1}$ to a map $g_{n+1}: X_{n+1} \to \mathbb{R}$. Clearly $g_{n+1}$ extends $f_{n+1}$ and we have the compatibility equations $g_n = g_{n+1} i_n$, so the $g_n$ paste together to form a map $g: colim_n X_n \to \mathbb{R}$ which extends $f$. 
+
+A little use of notation allows a short exposition of this proof.
+Let $Z$ be the topological space corresponding to the partial order $a\lt b\gt c\lt d\gt e$ (where $a,c,d$ are closed points, $b,d$ are open, and closed subsets are $\{a,b,c\},\{c,d,e\},\{a\},\{c\},\{e\},\emptyset$), and let 
+$g$ be the map gluing together points $b,c,d$. By Theorem 2.1, 
+$f$ has the left lifting property wrt $g$ whenever $f$ is a closed embedding into a normal space. As each $i_n: X_n \to X_{n+1}$, ${n \in \mathbb{N}}$ has the left lifting property wrt $g$, their transfinite composition $\emptyset\to colim_n X_n$ has the same lifting property,
+which means that $X$ is normal. 
+
 =-- 
 
 +-- {: .num_theorem #CWComplexesAreNormal} 
