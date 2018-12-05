@@ -51,11 +51,11 @@ We will usually use single upper-case typewriter font letters like $\mathtt{C},\
 
 ## Raw terms
 
-Our raw syntax, though untyped, will be *strongly scoped*.  By this we mean that each raw term or type is indexed by a finite set of variables that may occur in it freely.  To be precise, we define inductively a family of sets $Raw$ indexed by $P_{fin}(Var) \times Sort$; we call their elements **raw terms/types with variables from $V$**.  Since we are in such generality, there are only two constructors of this inductive family:
+Our raw syntax, though untyped, will be *strongly scoped*.  By this we mean that each raw term or type is indexed by a finite set of variables that may occur in it freely.  To be precise, we define inductively a family of sets $Raw$ indexed by $P_{fin}(Var) \times \Sort$; we call their elements **raw terms/types with variables from $V$**.  Since we are in such generality, there are only two constructors of this inductive family, for each $(V,s) \in P_{fin}(Var) \times Sort$
 
-* For any $V\in P_{fin}(Var)$ and any $x\in V$, we have $x\in Raw(V,tm)$.
+* For any $x\in V$, we have $x\in Raw(V,s)$.
 
-* Suppose $\mathtt{C}$ is an operator of sort $s$, argument arity $n$ and binding arity $m$.  Suppose also $V, X\in P_{fin}(Var)$, with $V\cap X = \emptyset$, ${|X|} = m$, and $X = \{x_1,\dots, x_m\}$ totally ordered.  Given $j\in [n]$, write $X_j = \{x_k \mid j \lhd k \}$ for the variables bound in argument $j$, and suppose furthermore that for each $j\in [n]$ we have $M_j\in Raw(V\cup X_j, t_j)$, where $t:[n] \to Sort$ gives the argument sorts of $\mathtt{C}$.  Then we have an element $\mathtt{C}(X;\vec{M}) \in Raw(V,s)$.
+* Suppose $\mathtt{C}$ is an operator of sort $s$, argument arity $n$ and binding arity $m$.  Suppose also $X\in P_{fin}(Var)$, with $V\cap X = \emptyset$, ${|X|} = m$, and $X = \{x_1,\dots, x_m\}$ totally ordered.  Given $j\in [n]$, write $X_j = \{x_k \mid j \lhd k \}$ for the variables bound in argument $j$, and suppose furthermore that for each $j\in [n]$ we have $M_j\in Raw(V\cup X_j, t_j)$, where $t:[n] \to Sort$ gives the argument sorts of $\mathtt{C}$.  Then we have an element $\mathtt{C}(X;\vec{M}) \in Raw(V,s)$.
 
 This can be read as saying that each set $Raw(V,s)$ consists of well-founded rooted trees containing nodes of two kinds:
 
