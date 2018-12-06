@@ -35,7 +35,7 @@ $$
   \underset{\leftarrow}{\lim} F \coloneqq TerminalObj(C_{/F})
 $$
 
-(well defined up to a ontractible space of choices).
+(well defined up to a contractible space of choices).
 
 A **colimit** in a quasi-category is accordingly an limit in the [[opposite quasi-category]].
 
