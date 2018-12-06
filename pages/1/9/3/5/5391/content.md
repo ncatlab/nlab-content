@@ -19,7 +19,7 @@
 
 ### Extension of morphisms
 
-The __extension of a morphism__ $f: A\to Y$ along a monomorphism $i: A\hookrightarrow X$ is a morphism $\tilde{f}:X\to Y$ such that $\tilde{f}\circ i = f$. One sometimes, extends along more general morphisms than monomorphisms. 
+An **extension** of a morphism $f: A\to Y$ along a [[monomorphism]] $i: A\hookrightarrow X$ is a morphism $\tilde{f}:X\to Y$ such that $\tilde{f}\circ i = f$. One sometimes, extends along more general morphisms than monomorphisms. 
 
 The dual problem is the problem of [[lifting]] a morphism $f: Y\to B$ through an epimorphism (or more general map) $p:X\to B$, giving a morphism $\tilde{f}: Y\to X$ such that $f = p\circ\tilde{f}$.
 
