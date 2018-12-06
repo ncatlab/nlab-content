@@ -185,7 +185,7 @@ $$
 $$
 so that $f \oplus g$ can be visualised as $f$ and $g$ placed side by side.
 
-It is easy to see now that $(\Delta_a,\oplus,[0])$ is a [[strict monoidal category]].
+It is easy to see now that $(\Delta_a,\oplus,\mathbf{0})$ is a [[strict monoidal category]].
 
 It is important to note that this tensor does _not_ give a monoidal structure to $\Delta$, as that category does not contain the unit $\mathbf{0} = [-1] = \emptyset$.
 
