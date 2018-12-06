@@ -8,15 +8,15 @@
 +-- {: .num_defn}
 ###### Definition
 
-A morphism $f \colon \mathbf{A} \to \mathbf{B}$ of [[E-∞ rings]] is an _ _&#233;tale morphism_ if the underlying homomorphism of [[commutative rings]] $\pi_0 f\colon \pi_0 \mathbf{A}\to \pi_0 \mathbf{B}$ is an [[étale morphism]] or rings.
+A morphism $f \colon \mathbf{A} \to \mathbf{B}$ of [[E-∞ rings]] is an _étale morphism_ if the underlying homomorphism of [[commutative rings]] $\pi_0 f\colon \pi_0 \mathbf{A}\to \pi_0 \mathbf{B}$ is an [[étale morphism]], and the map $\pi_n(A) \otimes_{\pi_0(A)} \pi_0(B) \to \pi_n(B)$ is an isomorphism of abelian groups for every integer $n$.
 
 =--
 
-([Lurie, def.8.5.0.4](#Lurie))
+([Lurie, def.7.5.1.4](#Lurie))
 
 ## Properties
 
-&#233;tale morphisms of underlying rings lift essentially uniquely to &#233;tale morphosms of [[E-∞ rings]]:
+&#233;tale morphisms of underlying rings lift essentially uniquely to &#233;tale morphisms of [[E-∞ rings]]:
 
 +-- {: .num_prop #EssentiallyUniqueLiftsFromOrdinaryRings}
 ###### Proposition
