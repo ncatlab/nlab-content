@@ -15,7 +15,13 @@
 
 ## Idea
 
-As [[type theory]] has [[categorical semantics]] in 1-[[categories]], _2-type theory_ has semantics in [[2-categories]].
+As [[type theory]] has [[categorical semantics]] in 1-[[categories]], _2-type theory_ has semantics in [[2-categories]].  There are, potentially, many different kinds of "2-type theory" with different uses and semantics.  2-type theory is closely related to (and sometimes the same as) [[directed type theory]].
+
+## Applications
+
+* The "mode theories" in some general approaches to [[modal type theory]] and [[adjoint type theory]] are a form of 2-type theory, where the 2-cells represent a general form of "structural rules" acting on modal judgments.
+
+* The 2-cells in 2-type theory can also be used to model rewriting, e.g. the process of $\beta$-reduction.
 
 ## Related concepts
 
@@ -28,11 +34,17 @@ As [[type theory]] has [[categorical semantics]] in 1-[[categories]], _2-type th
 
 ## References
 
-2-categorical type theory is discussed in chapter 7 of 
-
 * [[Daniel Licata]], _Dependently Typed Programming
-with Domain-Specific Logics_ PhD Thesis (2011) ([pdf](http://www.cs.cmu.edu/~drl/pubs/thesis/thesis.pdf))
-
-A more encompassing discussion of 2-categorical logic is being developed at
+with Domain-Specific Logics_ PhD Thesis (2011) ([pdf](http://www.cs.cmu.edu/~drl/pubs/thesis/thesis.pdf)) - chapter 7
 
 * [[Mike Shulman]], _[[michaelshulman:2-categorical logic]]_
+
+* {#LicataShulman} [[Dan Licata]], [[Mike Shulman]], _Adjoint logic with a 2-category of modes_, in _[Logical Foundations of Computer Science 2016](http://lfcs.info/lfcs-2016/)_ ([pdf](http://dlicata.web.wesleyan.edu/pubs/ls15adjoint/ls15adjoint.pdf), [slides](http://dlicata.web.wesleyan.edu/pubs/ls15adjoint/ls15adjoint-lfcs-slides.pdf))
+
+* [[Daniel Licata]], [[Mike Shulman]], and [[Mitchell Riley]], _A Fibrational Framework for Substructural and Modal Logics (extended version)_, in Proceedings of 2nd International Conference on Formal Structures for Computation and Deduction (FSCD 2017) ([doi: 10.4230/LIPIcs.FSCD.2017.25](http://drops.dagstuhl.de/opus/volltexte/2017/7740/), [pdf](http://dlicata.web.wesleyan.edu/pubs/lsr17multi/lsr17multi-ex.pdf))
+
+* [[R.A.G. Seely]], *Modeling computations: a 2-categorical framework* [pdf](http://www.math.mcgill.ca/rags/WkAdj/LICS.pdf)
+
+* Tom Hirschowitz. *Cartesian closed 2-categories and permutation equivalence in higher-order rewriting*. Logical Methods in Computer Science, Logical Methods in Computer Science Association, 2013, 9 (3), pp.10. [pdf](https://hal.archives-ouvertes.fr/hal-00540205v2/document)
+
+[[!redirects type 2-theory]]
