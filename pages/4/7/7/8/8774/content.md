@@ -26,7 +26,7 @@ A variant of [[Yang-Mills theory]] in which the [[field strength]]/[[curvature]]
 ### Via an action functional
  {#ViaActionFunctional}
 
-Let $(X, g)$ be a ([[pseudo-Riemannian manifold|pseudo]]) [[Riemannian manifold]] of [[dimension]] 4. Write $\star \colon \Omega^2(X) \to \Omega^2(X)$ for the corresponding [[Hodge star operator]]. Its square is $\star^2 = -1$ for Euclidean [[signature of a quadratic form|signature]] and $\star^2 = +1$ for Lorentzian signature. Decompose (possibly after [[complexification]])
+Let $(X, g)$ be a ([[pseudo-Riemannian manifold|pseudo]]) [[Riemannian manifold]] of [[dimension]] 4. Write $\star \colon \Omega^2(X) \to \Omega^2(X)$ for the corresponding [[Hodge star operator]]. Its square is $\star^2 = +1$ for Euclidean [[signature of a quadratic form|signature]] and $\star^2 = -1$ for Lorentzian signature. Decompose (possibly after [[complexification]])
 
 $$
   \Omega^2(X) \simeq \Omega^2(X)_+ \oplus \Omega^2(X)_-
