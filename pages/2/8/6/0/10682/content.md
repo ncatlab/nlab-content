@@ -115,7 +115,7 @@ $$
 Notice that (by [this lemma](separation+axioms#T4InTermsOfTopologicalClosures)) if a space is normal then every open neighbourhood $U \supset C$ of a closed subset $C$ contains a smaller neighbourhood $V$ together with its closure $Cl(V)$
 
 $$
-  U \subset V \subset Cl(V) \subset C
+  C \subset V \subset Cl(V) \subset U
   \,.
 $$
 
