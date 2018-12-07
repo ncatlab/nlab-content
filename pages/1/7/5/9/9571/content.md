@@ -91,6 +91,7 @@ For more see also at _[[cosmic Galois group]]_ for more on this.
 
 ## References
 
+
 ### General
 
 The Grothendieck-Teichm&#252;ller group $GRT$ was originally introduced in
@@ -100,6 +101,10 @@ The Grothendieck-Teichm&#252;ller group $GRT$ was originally introduced in
 inspired by
 
 * [[Alexander Grothendieck]], _Sketch of a program_, London Math. Soc. Lect. Note Ser., 242, Geometric Galois actions, 1, 5&#8211;48, Cambridge Univ. Press, Cambridge, 1997.
+
+Review:
+
+* {#Fresse18} [[Benoit Fresse]], _Little discs operads, graph complexes and Grothendieck--Teichmüller groups_, in [[Haynes Miller]] (ed.) _[[Handbook of Homotopy Theory]]_ ([arXiv:1811.12536](https://arxiv.org/abs/1811.12536))
 
 See also
 
