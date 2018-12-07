@@ -24,6 +24,8 @@ The groups arising this way are called the groups of ADE-type:
 
 * Plato's [[Timaeus]]
 
+* [[120-cell]]
+
 ## References
 
 The Platonic solids are named after their discussion in 
