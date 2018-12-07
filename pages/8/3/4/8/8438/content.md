@@ -22,8 +22,11 @@ This page collects material and links related to
 collecting survey articles on subjects in [[algebraic topology]]
 
 
-##Contents
+#Contents#
+* table of contents
+{:toc}
 
+## Chapters
 
 * Foreword. 
 
@@ -82,5 +85,9 @@ collecting survey articles on subjects in [[algebraic topology]]
 1. Wall's finiteness obstruction (G. Mislin). 
 
 1. Lusternik-Schnirelmann category (I.M. James).
+
+## Related entries
+
+* [[Handbook of Homotopy Theory]]
 
 category:reference
