@@ -60,6 +60,13 @@ $$
   }
 $$
 
+## Definition
+
+The binary tetrahedral group $2T$ is, up to [[isomorphism]], the [[subgroup]] of the group $S(\mathbb{H}) \simeq$ [[special unitary group|SU(2)]] $\simeq Spin(3)$ of unit [[quaternions]] consisting of  the 8 unit [[quaternions]] $\pm 1$, $\pm i$, $\pm j$, $\pm k$ and the 16 unit quaternions given by 
+$\frac1{2}(\varepsilon_0 1 + \varepsilon_1 i + \varepsilon_2 j + \varepsilon_3 k)$ where $(\varepsilon_0, \ldots, \varepsilon_3) \in \{-1, 1\}^4$. 
+
+(These are also the [[vertices]] that span the [[24-cell]] as a  convex [[regular polytope]] in $\mathbb{R}^4$).
+
 
 ## Properties
 
