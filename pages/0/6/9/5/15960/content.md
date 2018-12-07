@@ -89,3 +89,8 @@ A video tutorial for Orchard is
 Apparently Orchard is discontinued in favour of an online version of similar functionality:
 
 * [[Eric Finster]], _Opetopic_ ([GitHub repository](https://github.com/ericfinster/opetopic)) ([Website](http://opetopic.net/))
+
+Something like an implementation of aspects of opetopic type theory _within_ [[homotopy type theory]] is described in
+
+* {#Finster18} [[Eric Finster]], _[[homotopytypetheory:Eric Finster, Towards Higher Universal Algebra in Type Theory|Towards Higher Universal Algebra in Type Theory]]_, [Homotopy Type Theory Electronic Seminar](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html) 2018 ([recording](https://www.youtube.com/watch?v=hlCVHVtAlqQ), [[Agda]] [code](https://github.com/ericfinster/higher-alg))
+
