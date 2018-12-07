@@ -1,6 +1,7 @@
 [[!redirects finite rotation groups]]
 
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -50,10 +51,18 @@ This goes back to ([Klein 1884, chapter I](#Klein1884)).
 Full proof for $SO(3)$ is spelled out for instance in ([Rees 05, theorem 11](#Rees05), [De Visscher 11](#DeVisscher11)). The proof for the case of $SL(2,\mathbb{C})$ is spelled out in ([Miller-Blichfeldt-Dickson 16](#MillerBlichfeldtDickson16)) reviewed in ([Serrano 14, section 2](#Serrano14)). The proof of the case for $SU(2)$ given the result for $SO(3)$ is spelled out in [Keenan 03, theorem 4](#Keenan03).
 
 ### Finite subgroups of $O(4)$, $SO(4)$ and $Spin(4)$
+  {#FiniteSubgroupsOfO4}
 
 For classification of the finite subgroups of $O(4)$ see ([duVal 65](#DuVal65), [Conway-Smith 03](#ConwaySmith03))
 
 For finite subgroups of $Spin(4)$: [MFF 12, appendix B](#MFF12).
+
+In this classification, the [[symmetry group]] of the [[120-cell]] and hence that of the [[600-cell]] is the [[quotient group]] $(2 I \times 2 I)/\mathbb{Z}_2$  by the [[cyclic group of order 2]] of the [[direct product group]] of two copies of the [[binary icosahedral group]] ([SadocMosseri 89, p. 172](#SadocMosseri89), see [MFF 12, table 16](#MFF12)).
+
+
+
+
+
 
 ### Finite subgroups of $O(5)$
 
@@ -213,6 +222,9 @@ The [[universal higher central extension]] of finite subgroups of $SU(2)$ ("[[Pl
 symmetry_ A K Peters Ltd., Natick, MA, 2003
 
 * {#MFF12} Paul de Medeiros, [[José Figueroa-O'Farrill]], appendix B of _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
+
+
+* {#SadocMosseri89} J. F. Sadoc, R. Mosseri, _Icosahedral order, curved space and quasicrystals_, in Jaric, Gratias (eds.) _Extended icosahedral structures_, 1989 ([GoogleBooks](https://books.google.co.uk/books?id=HWyIUglWeXsC&pg=PA172&lpg=PA172#v=onepage&q&f=false))
 
 ### Finite subgroups of $O(5)$
 
