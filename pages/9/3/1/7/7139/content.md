@@ -98,19 +98,23 @@ $E_7$ is the group of linear isometries of the subset of roots used for $E_8$ wh
 $E_6$ is the group of linear isometries of the subset of roots used for $E_8$ whose first three coordinates are equal. Its Coxeter diagram is: 
 
 #### The group $F_4$ 
+  {#TheGroupF4}
 
-The group $F_4$ is the isometry group of the [[24-cell]], which is a regular polyhedron in $\mathbb{R}^4$ consisting of the 8 unit quaternions $\pm 1$, $\pm i$, $\pm j$, $\pm k$ and the 16 unit quaternions given by 
-$\frac1{2}(\varepsilon_0 1 + \varepsilon_1 i + \varepsilon_2 j + \varepsilon_3 k)$ where $(\varepsilon_0, \ldots, \varepsilon_3) \in \{-1, 1\}^4$. (These 24 quaternions form a group under multiplication, and this group is isomorphic to $D_4$.) The Coxeter diagram is: 
+The group $F_4$ is the [[isometry group]] of the [[24-cell]], which is a [[regular polytope]] in $\mathbb{R}^4$ consisting of the 8 unit [[quaternions]] $\pm 1$, $\pm i$, $\pm j$, $\pm k$ and the 16 unit quaternions given by 
+$\frac1{2}(\varepsilon_0 1 + \varepsilon_1 i + \varepsilon_2 j + \varepsilon_3 k)$ where $(\varepsilon_0, \ldots, \varepsilon_3) \in \{-1, 1\}^4$. (These 24 quaternions form a [[group]] under multiplication, and this group is isomorphic to the [[binary tetrahedral group]].) 
+
+The Coxeter diagram is: 
 
 #### The group $G_2$ 
 
 See the discussion on $I_2(m)$ above. 
 
 #### The groups $H_3$, $H_4$
+ {#CoxeterGroupH4}
 
-The group $H_3$ is the isometry group of the regular dodecahedron or of the regular icosahedron in $\mathbb{R}^3$, and is abstractly isomorphic to the group $\mathbb{Z}_2 \times Alt_5$, having 120 elements. Its Coxeter diagram is: 
+The group $H_3$ is the isometry group of the regular [[dodecahedron]] or of the regular [[icosahedron]] in $\mathbb{R}^3$, and is abstractly isomorphic to the group $\mathbb{Z}_2 \times Alt_5$, having 120 elements ([[icosahedral group]]). Its Coxeter diagram is: 
 
-The group $H_4$ is the isometry group of a regular polyhedron in $\mathbb{R}^4$ known as the 120-cell, or of the dual polyhedron known as the 600-cell. Its Coxeter diagram is: 
+The group $H_4$ is the isometry group of a [[regular polyhedron]] in $\mathbb{R}^4$ known as the [[120-cell]], or of the dual polyhedron known as the [[600-cell]]. Its Coxeter diagram is: 
 
 ### Affine reflection groups 
 
