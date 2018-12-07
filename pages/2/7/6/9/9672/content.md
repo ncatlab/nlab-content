@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-### Contextreynolds
+### Context
 #### Type theory
 +-- {: .hide}
 [[!include type theory - contents]]
