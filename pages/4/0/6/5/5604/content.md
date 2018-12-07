@@ -54,9 +54,32 @@ The [[internal logic]] of a [[topos]] is not, in general, classical, so the abov
 
 ## In more general toposes and constructive mathematics
 
-However, it is possible to have non-preorder complete small categories in non-Grothendieck topoi.  In particular, the [[effective topos]], along with most other [[realizability topos|realizability toposes]], does contain such internal categories.  These categories have applications to the modeling of impredicative [[type theory]].
+However, it is possible to have non-preorder complete small categories in non-Grothendieck topoi.  In particular, the [[effective topos]], along with most other [[realizability topos|realizability toposes]], does contain such internal categories.  
 
 It follows that, in [[constructive mathematics]], it is impossible to prove even that every complete small category in $Set$ or in a Grothendieck topos must be a preorder.
+
+
+## Modelling impredicative type theory
+
+Complete small categories have applications to the modeling of impredicative [[polymorphism]]. 
+Suppose that there is a full subcategory $\mathbf C$ of $\mathbf{Set}$ that is small and complete. (This postulate is consistent with [[constructive set theory|intuitionistic set theory]], as shown by the realizability models mentioned above.)
+Then we can interpret an impredicatively-quantified type as
+\[\llbracket \forall X.T \rrbracket = \prod_{A\in \mathbf{C}} \llbracket T\rrbracket_{A/X}\]
+although there are more elaborate formulations that use a subset of this product. 
+
+More precisely, if we ask for an actually small complete category of sets then the notion of completeness has to be defined carefully. An alternative approach is to suppose that there is a full [[replete subcategory]] $\mathcal{C}$ of $\mathbf{Set}$ which is complete in the sense of being closed under set-indexed products and equalizers, yet [[essentially small]], i.e. with a small skeleton $\mathbf C$. (Being replete, $\mathcal{C}$ will not itself be small.) 
+
+
+## References
+
+* A small complete category, [[Martin Hyland]], Annals of Pure and Applied Logic 40 (1988), [pdf](https://webdpmms.maths.cam.ac.uk/~martin/Research/Oldpapers/smallcomplete88.pdf)
+
+There was much activity around that time, by [[Peter Freyd]], [[Eugenio Moggi]], [[Andrew Pitts]], [[John Reynolds]], Guiseppe Rosolini, and others. 
+
+For a more recent treatment, the idea of using a replete complete subcategory which is essentially small in [[constructive set theory|IZF]] is discussed in
+ 
+* Relational parametricity for computational effects, Rasmus Møgelberg and [[Alex Simpson]], Logical Methods in Computer Science, Vol 5 (3:7), 2009. [arxiv](https://arxiv.org/abs/0906.5488).
+
 
 
 [[!redirects complete small category]]
