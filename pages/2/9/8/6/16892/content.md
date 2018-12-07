@@ -27,8 +27,7 @@ A number of researchers are using [[dependent type theory]] as a formal tool to 
 * Robin Cooper, Austinian Truth, Attitudes and Type Theory, Research on Language and Computation. July 2005, Volume 3, Issue 2-3, pp 333-362 [Springer](http://link.springer.com/article/10.1007%2Fs11168-006-0002-z)
 * Chatzikyriakidis, S., Luo, Z.: Natural language inference in Coq. Journal of Logic, Language and Information 23(4), 441&#8211;480 (2014)
 * [[Zhaohui Luo]]: Type-theoretical semantics with coercive subtyping. In: Semantics and Linguistic Theory 20 (SALT 20). Vancouver (2010)
-* [[Zhaohui Luo]]: Contextual analysis of word meanings in type-theoretical semantics. In: Pogodalla, S., Prost, J.-P. (eds.) LACL 2011. LNCS, vol. 6736, pp. 159&#8211;174.
-Springer, Heidelberg (2011)
+* [[Zhaohui Luo]]: Contextual analysis of word meanings in type-theoretical semantics. In: Pogodalla, S., Prost, J.-P. (eds.) LACL 2011. LNCS, vol. 6736, pp. 159&#8211;174. Springer, Heidelberg (2011)
 * [[Zhaohui Luo]]: Common nouns as types. In: B&#233;chet, D., Dikovsky, A. (eds.) LACL 2012. LNCS, vol. 7351, pp. 173&#8211;185. Springer, Heidelberg (2012), [pdf](http://www.cs.rhul.ac.uk/home/zhaohui/LACL12.pdf).
 * [[Zhaohui Luo]]: Event Semantics with Dependent Types, [pdf](http://www.cs.rhul.ac.uk/home/zhaohui/Evt15.pdf)
 * [[Zhaohui Luo]], Formal Semantics in Modern Type Theories: Is It Model-theoretic, Proof-theoretic, or Both?, [pdf](http://www.cs.rhul.ac.uk/home/zhaohui/LACL14FINAL.pdf).
