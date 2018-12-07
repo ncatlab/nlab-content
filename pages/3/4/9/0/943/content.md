@@ -125,7 +125,6 @@ Of course, as has often been emphasized by Lawvere, the need for and convenience
 Appreciation of the role of convenient categories was in full force by the early seventies (for a sample, see [[Peter May]]'s _Geometry of Iterated Loop Spaces_, where the category of Hausdorff k-spaces plays a foundational role). The notion of a "convenient category" is recognized elsewhere too (and not just within the categorical and algebraic topology communities); see for example the book by [Kriegl and Michor](#KM). 
 
 
-
 [^1]: The 'k' certainly  refers to 'kompakt' rather than Kelley's initial. 
 
 
@@ -134,7 +133,7 @@ Appreciation of the role of convenient categories was in full force by the early
 * Booth, Peter I. The exponential law of maps. II. 
 Math. Z. 121 (1971), 311&#8211;319. {#Booth}
 
-* {#Brown61} [[Ronnie Brown]], Some problems of algebraic topology: a study of function spaces, function complexes, and FD-complexes, DPhil thesis, Oxford University, 1961 (Note: the Appendix of this thesis was withdrawn from the examination.)  [(pdf)](http://groupoids.org.uk/RBThesis1961.pdf)
+* {#Brown61} [[Ronnie Brown]], Some problems of algebraic topology: a study of function spaces, function complexes, and FD-complexes, DPhil thesis, Oxford University, 1961 (Note: the Appendix of this thesis was withdrawn from the examination.)  [(pdf)](https://ora.ox.ac.uk/objects/uuid:3af55800-4be7-462f-b91d-9769a6dac2c4)
 
  
 * {#Brown63} [[Ronnie Brown]], Ten topologies for $X\times Y$, Quart. J.Math. (2) 14 (1963), 303--319. [(pdf)](http://groupoids.org.uk/pdffiles/tentopologies.pdf)
