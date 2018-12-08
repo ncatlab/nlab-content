@@ -23,11 +23,11 @@
 
 From [Maldacena-Stanford 16](#MaldacenaStanford16):
 
-> Studies of [[AdS-CFT|holography]] have been hampered by the lack of a simple solvable model that can capture features of [[Einstein gravity]].  The simplest model, which is a single matrix quantum mechanics, does not appear to lead to black holes. $\mathcal{N} = 4$ [[N=4 D=4 super Yang-Mills theory|super Yang Mills]] at strong ’t Hooft coupling certainly leads to [[black holes]], and exact results are known at large $N$ for many anomalous dimensions and some [[vacuum amplitude|vacuum]] [[correlation functions]], but at finite temperature the theory is difficult to study.
+> Studies of [[AdS-CFT|holography]] have been hampered by the lack of a simple solvable model that can capture features of [[Einstein gravity]].  The simplest model, which is a single matrix [[quantum mechanics]], does not appear to lead to [[black holes]]. $\mathcal{N} = 4$ [[N=4 D=4 super Yang-Mills theory|super Yang Mills]] at strong ’t Hooft [[coupling constant|coupling]] certainly leads to [[black holes]], and exact results are known at [[large N limit|large N]] for many anomalous dimensions and some [[vacuum amplitude|vacuum]] [[correlation functions]], but at [[thermal quantum field theory|finite temperature]] the theory is difficult to study.
 
-> A system that reproduces some of the dynamics of black holes should be [[interacting quantum field theory|interacting]], but we might hope for a model with interactions that are simple enough that it is still reasonable solvable.
+> A system that reproduces some of the dynamics of [[black holes]] should be [[interacting quantum field theory|interacting]], but we might hope for a model with interactions that are simple enough that it is still reasonable solvable.
 
-> Kitaev has proposed to study a quantum mechanical model of $N$ Majorana fermions interacting  with  random  interactions ([Kitaev 15](#Kitaev15)).   It is a simple variant of a model introduced by  Sachdev and Ye ([Sachdev-Ye 93](#SachdevYe93)), which was first  discussed in relation to [[AdS-CFT|holography]] in ([Sachdev 10](#Sachdev10)).
+> [[Alexei Kitaev|Kitaev]] has proposed to study a quantum mechanical model of $N$ [[Majorana spinor|Majorana]] [[fermions]] [[interaction|interacting]]  with  random  interactions ([Kitaev 15](#Kitaev15)).   It is a simple variant of a model introduced by [[Subir Sachdev|Sachdev]] and Ye ([Sachdev-Ye 93](#SachdevYe93)), which was first  discussed in relation to [[AdS-CFT|holography]] in ([Sachdev 10](#Sachdev10)).
 
 From [Maldacena 18](#Maldacena18):
 
@@ -37,6 +37,8 @@ From [Maldacena 18](#Maldacena18):
 ## Related concepts
 
 * [[AdS-CFT in condensed matter physics]]
+
+* [[AdS-QCD correspondence]]
 
 ## References
 
