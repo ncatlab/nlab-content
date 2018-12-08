@@ -21,8 +21,18 @@ The theory of _associative $n$-categories_ (ANCs) is a model of [[higher categor
 
 All the weak structure of an ANC lives in a notion of homotopy between composites. This is similar to the case of a [[Gray category]], which is strictly associative and unital, but which has weak interchangers. In this sense, ANCs can be seen as a generalization of Gray categories.
 
-This theory forms the basis for [[homotopy.io]], a proof assistant for higher category theory which is currently under development.
+This theory forms the basis for [[homotopy.io]], a [[proof assistant]] for higher category theory which is currently under development.
 
 ## Related concepts
 
 * [[semistrict n-category]]
+
+
+## References
+
+
+* [[Christoph Dorn]], _Associative $n$-categories_, talk at _[103rd Peripatetic Seminar on Sheaves and Logic](https://www.math.muni.cz/~loregianf/PSSL103/PSSL103.php)_ ([pdf](https://www.math.muni.cz/~loregianf/PSSL103/slides/Dorn.pdf))
+
+* [[Christoph Dorn]], _Associative n-categories_ PhD thesis ([pdf](https://www.dornchristoph.com/writing/dphil_intro.pdf))
+
+
