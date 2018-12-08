@@ -38,7 +38,7 @@ A **Reedy category** is a [[category]] $R$ equipped with two [[wide subcategory|
 
 * The [[opposite category|opposite]] of any Reedy category is a Reedy category; simply exchange $R_+$ and $R_-$.
 
-* [[Theta category|Joyal's category]] $\Theta$ is also a Reedy category.
+* [[Theta category|Joyal's category]],   $\Theta$, is also a Reedy category.
 
 * Many very small categories of diagram shapes are Reedy categories, such as $(\cdot\to\cdot\to \dots)$, or $(\cdot\leftarrow \cdot\rightarrow\cdot)$, or $(\cdot\rightrightarrows\cdot)$.  This is of importance for the construction of [[homotopy limits]] and colimits over such diagram shapes.
 
