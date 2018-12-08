@@ -1,8 +1,27 @@
-<div style="float:right;margin:0 20px 10px 20px;"><img width = "450" src="https://www.cs.bham.ac.uk/~vicaryjo/images/face_of_pentagon.jpg" alt="Screenshot of homotopy.io" /></div>
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Higher category theory
++-- {: .hide}
+[[!include higher category theory - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
 
 ## Introduction ##
 
 ### Overview ###
+
+<div style="float:right;margin:0 20px 10px 20px;"><img width = "450" src="https://www.cs.bham.ac.uk/~vicaryjo/images/face_of_pentagon.jpg" alt="Screenshot of homotopy.io" /></div>
 
 This page describes _homotopy.io_, a web-based [[proof assistant]] for finitely-presented [[globular set|globular]] [[higher categories|_n_-categories]], for arbitrary _n_. It is based on the theory of [[associative n-categories|associative _n_-categories (ANCs)]], which provides a strictly associative and unital model of composition that minimizes proof bureaucracy, with all the weak structure in homotopies of composites. The proof assistant allows the user to define generators for a higher category, compose them, apply homotopies, and visualize the resulting composites as [[string diagrams]] in 2 dimensions or [[surface diagrams]] in 3 dimensions. Interaction with the proof assistant is entirely by direct manipulation using the mouse.
 
@@ -16,3 +35,11 @@ The image at the top-right shows a 3d surface diagram of one side of the pentago
 
 The underlying formal theory of [[associative n-categories|associative _n_-categories]] is due to [Christoph Dorn](https://www.cs.ox.ac.uk/people/christoph.dorn/), [Christopher Douglas](https://www.maths.ox.ac.uk/people/christopher.douglas) and [Jamie Vicary](https://www.cs.bham.ac.uk/~vicaryjo/). The proof assistant has been implemented by [Lukas Heidemann](https://github.com/zrho) and [Jamie Vicary](https://www.cs.bham.ac.uk/~vicaryjo/), based on further theoretical work by [Christoph Dorn](https://www.cs.ox.ac.uk/people/christoph.dorn/), [David Reutter](https://www.cs.ox.ac.uk/people/david.reutter/) and 
 [Jamie Vicary](https://www.cs.bham.ac.uk/~vicaryjo/).
+
+## References
+
+* [[Christoph Dorn]], _Associative $n$-categories_, talk at _[103rd Peripatetic Seminar on Sheaves and Logic](https://www.math.muni.cz/~loregianf/PSSL103/PSSL103.php)_ ([pdf](https://www.math.muni.cz/~loregianf/PSSL103/slides/Dorn.pdf))
+
+* [[Christoph Dorn]], _Associative n-categories_ PhD thesis ([pdf](https://www.dornchristoph.com/writing/dphil_intro.pdf))
+
+
