@@ -46,7 +46,7 @@ For [[higher category theory]]:
 
 * [[opetopic type theory]]
 
-* _[[Globular]]_
+* [[Globular]], [[homotopy.io]]
 
 ## References
 
