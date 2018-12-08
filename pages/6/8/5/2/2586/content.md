@@ -217,7 +217,7 @@ We have
 
     At the level of [[Lie algebras]] $\mathfrak{so}(4) \simeq \wedge^2 \mathbb{R}^4$ and the $\pm 1$-[[eigenspaces]] of the [[Hodge star operator]] $\star \colon \Wedge^2 \mathbb{R}^4 \to \mathbb{R}^4$ gives the [[direct sum]] decomposition $\mathfrak{so}(4) \simeq \mathfrak{su}(2) \oplus \mathfrak{su}(2) \simeq \mathfrak{so}(3) \oplus \mathfrak{so}(3)$
  
-  * $Spin(5) \simeq Sp(2)$
+  * $Spin(5) \simeq Sp(2)$ (an indirect consequence of [[triality]], see e.g. [Čadek-Vanžura 97](#CadekVanzura97))
 
   * $Spin(6) \simeq SU(4)$ (the [[special unitary group]] [SU(4)](special+unitary+group#SU4))
 
@@ -297,6 +297,10 @@ Examples of sporadic (exceptional) spin group isomorphisms incarnated as [[isoge
 * {#Garrett13} [[Paul Garrett]], _Sporadic isogenies to orthogonal groups_, July 2013 ([pdf](http://www.math.umn.edu/~garrett/m/v/sporadic_isogenies.pdf))
  
 * {#GorbunovRay92} Vassily Gorbunov, Nigel Ray, _Orientations of $Spin$ Bundles and Symplectic Cobordism_, Publ. RIMS, Kyoto Univ. 28 (1992), 39-55 ([[GorbunovRaySpinBundles.pdf:file]])
+
+The exceptional isomorphism $Spin(5) \times Sp(2)$ is discussed via [[triality]] in 
+
+* {#CadekVanzura97} Martin Čadek and Jiří Vanžura, _On $Sp(2)$ and $Sp(2) \cdot Sp(1)$-structures  in 8-dimensional vector bundles_, Publicacions Matemàtiques Vol. 41, No. 2 (1997), pp. 383-401 ([jstor:43737249](https://www.jstor.org/stable/43737249))
 
 Discussion of the [[cohomology]] of the [[classifying space]] $B Spin$ includes
 
