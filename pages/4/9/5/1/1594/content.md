@@ -218,6 +218,17 @@ and then further developed notably in
 
 See also the references at _[[fractional D-brane]]_.
 
+Review of orbifolds in the context of string compactifications includes
+
+* Susanne Reffert, _The Geometer's Toolkit to String Compactifications_, lectures at _[String and M theory approaches to particle physics and cosmology](https://www.ggi.infn.it/showevent.pl?id=11)_, 2007 ([arXiv:0706.1310](https://arxiv.org/abs/0706.1310))
+
+and for orbifolds of [[G2-manifolds]] for [[M-theory on G2-manifolds]]
+
+* {#Reidegeld15} [[Frank Reidegeld]], _$G_2$-orbifolds from K3 surfaces with ADE-singularities_ ([arXiv:1512.05114](http://arxiv.org/abs/1512.05114))
+
+* [[Frank Reidegeld]], _$G_2$-orbifolds with ADE-singularities_ ([pdf](https://core.ac.uk/download/pdf/159317626.pdf))
+
+
 For [[topological strings]] the [[path integral as a pull-push transform]] for target orbifolds -- in analogy to what [[Gromov-Witten theory]] is for [[Deligne-Mumford stacks]] -- has first been considered in 
 
 * {#ChenRuan01} Weimin Chen, [[Yongbin Ruan]], _Orbifold Gromov-Witten Theory_, in _Orbifolds in mathematics and physics_ (Madison, WI, 2001), 25&#8211;85, Contemp. Math., 310, Amer. Math. Soc., Providence, RI, 2002 ([arXiv:math/0103156](http://arxiv.org/abs/math/0103156))
