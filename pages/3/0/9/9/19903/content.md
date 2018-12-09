@@ -86,3 +86,4 @@ in computer science and quantum physics (not to mention pure mathematics itself)
 
 *  [[John C. Baez]], [[Brendan Fong]] and [[Blake Pollard]], _A Compositional Framework for Markov Processes_, [arXiv:1508.06448](https://arxiv.org/abs/1508.06448)
 
+* [[Jules Hedges]] and [[Martha Lewis]], _Towards Functorial Language-Games_, [arXiv:1807.07828](https://arxiv.org/abs/1807.07828)
