@@ -19,7 +19,7 @@
 
 This page collects material related to the book
 
-* [[Stanley Kochmann]], 
+* [[Stanley Kochman]], 
 
   _Bordism, Stable Homotopy and Adams Spectral Sequences_, 
 
