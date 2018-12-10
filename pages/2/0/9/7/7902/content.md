@@ -22,11 +22,11 @@
 
 A _Wilson loop_ or _Wilson line_ is an [[observable]] in (both classical and quantum) [[gauge theory]] obtained from the [[holonomy]] of the [[gauge field|gauge]] [[connection on a bundle|connection]]. 
 
-Hence if the gauge connection is given by a globally defined 1-form $A$, then the __Wilson loop__ along a closed [[loop]] $C$ is the trace of the [[time-ordered exponential]]
+Hence if the gauge connection is given by a globally defined 1-form $A$, then the __Wilson loop__ along a closed [[loop]] $C$ is the trace of the [[path-ordered exponential]]
 $$
 W_C = Tr(\mathcal{P}exp(i\oint_C A_\mu d x^\mu))
 $$
-where $\mathcal{P}$ is the "time-ordering operator" and $A_\mu$ are the components of the connection. 
+where $\mathcal{P}$ is the "path-ordering operator" and $A_\mu$ are the components of the connection. 
 
 ## Properties
 
