@@ -162,7 +162,7 @@ $$
 
 Since in general $\lambda = \frac{1}{2}p_1(P)$ is not further divisible in integral cohomology, this means that this cannot be the curvature of any [[differential character]]/[[bundle 2-gerbe]]/[[circle n-bundle with connection|circle 3-bundle with connection]], since these are necessarily the images in de Rham cohomology of their integral classes.
 
-See also ([DFM, section 12.1](#DFM)) where it is argued that this is related to boundaries and orientation double covers.
+See ([DFM 03, section 12.1](#DFM), [FSS 12](#FSS12)) 
 
 
 ### Restriction to the boundary
@@ -735,7 +735,7 @@ A summary and review of this is in
 
 The discussion in [[twisted differential c-structures|twisted nonabelian differential cohomology]] is given in
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], 
+* {#FSS12} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], 
 
   _[[schreiber:The moduli 3-stack of the C-field]]_,
 
