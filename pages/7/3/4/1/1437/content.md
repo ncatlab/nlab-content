@@ -1,6 +1,3 @@
-[[!redirects terminal coalgebra of an endofunctor]]
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
