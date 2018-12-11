@@ -19,6 +19,13 @@ A [[symmetry]] is (in most classical situations) invariance under a [[group]] [[
 
 In [[physics]], see _[[local symmetry]]_, _[[global symmetry]]_, _[[spontaneous symmetry breaking]]_.
 
+## Examples
+
+* [[Euclidean group]], [[space group]]
+
+* [[Lorentz group]]
+
+* ...
 
 ## Related concepts
 
