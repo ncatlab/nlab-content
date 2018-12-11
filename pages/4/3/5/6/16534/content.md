@@ -51,6 +51,13 @@ See at _[[string network]]_.
 
 see at _[[membrane triple junction]]_.
 
+### D4-branes ending on D6-branes
+
+[[D4-branes]] ending on [[D6-branes]] from [[M5-branes]] in [[MK6-branes]]:
+
+[Hashimoto 98](#Hashimotop98), see also [Smith 02 (245)](#Smith02)
+
+
 ## Related concepts
 
 * [[intersecting D-brane model]]
@@ -63,7 +70,9 @@ see at _[[membrane triple junction]]_.
 
 ### General
 
-* Douglas J. Smith, _Intersecting brane solutions in string and M-theory_, Class.Quant.Grav.20:R233, 2003 ([arXiv:hep-th/0210157](https://arxiv.org/abs/hep-th/0210157))
+* {#Smith02} Douglas J. Smith, _Intersecting brane solutions in string and M-theory_, Class.Quant.Grav.20:R233, 2003 ([arXiv:hep-th/0210157](https://arxiv.org/abs/hep-th/0210157))
+
+* {#Hashimoto98} Akikazu Hashimoto, _Supergravity Solutions for Localized Intersections of Branes_, JHEP 9901 (1999) 018 ([arXiv:hep-th/9812159](https://arxiv.org/abs/hep-th/9812159))
 
 For [[M-branes]]:
 
@@ -78,7 +87,7 @@ For [[M-branes]]:
 ### Brane webs
  {#BraneWebs}
 
-Intersections of branes of equal dimension may form regular patterns known as _brane webs_. This applies notably in [[type IIB string theory]] where [[(p,q)-strings]] may form "string webs" (references [below](#ReferencesStringWebs)) and [[(p,q)5-branes]] may form "5-brane webs" (references [further below](#References5BraneWebs))
+Intersections of branes of equal dimension may form regular patterns known as _brane webs_. This applies notably in [[type IIB string theory]] where [[(p,q)-strings]] may form "[[string webs]]" (references [below](#ReferencesStringWebs)) and [[(p,q)5-branes]] may form "[[5-brane webs]]" (references [further below](#References5BraneWebs))
 
 #### General
 
@@ -97,6 +106,13 @@ Intersections of branes of equal dimension may form regular patterns known as _b
 Via [[tropical geometry]]:
 
 * Koushik Ray, _String networks as tropical curves_, JHEP 0809:098, 2008 ([arXiv:0804.1870](https://arxiv.org/abs/0804.1870))
+
+The lift to [[11d supergravity]]/[[M-theory]] via [[membrane triple junctions]] is discussed in
+
+* {#KroghLee97} Morten Krogh, Sangmin Lee, _String Network from M-theory_, Nucl. Phys. B516:241-254, 1998 ([arXiv:hep-th/9712050](https://arxiv.org/abs/hep-th/9712050))
+
+* {#Ramadevi99} P. Ramadevi, _Supergravity Solution for Three-String Junction in M-Theory_, JHEP 0006 (2000) 005 ([arXiv:hep-th/9906247](https://arxiv.org/abs/hep-th/9906247))
+
 
 #### 5-brane webs
  {#References5BraneWebs}
@@ -128,9 +144,6 @@ Via [[tropical geometry]]:
 
 [[!redirects brane web]]
 [[!redirects brane webs]]
-
-[[!redirects string web]]
-[[!redirects string webs]]
 
 [[!redirects 5-brane web]]
 [[!redirects 5-brane webs]]
