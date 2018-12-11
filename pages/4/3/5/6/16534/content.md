@@ -61,6 +61,8 @@ see at _[[membrane triple junction]]_.
 
 ## References
 
+### General
+
 * Douglas J. Smith, _Intersecting brane solutions in string and M-theory_, Class.Quant.Grav.20:R233, 2003 ([arXiv:hep-th/0210157](https://arxiv.org/abs/hep-th/0210157))
 
 For [[M-branes]]:
@@ -72,6 +74,41 @@ For [[M-branes]]:
 * {#Townsend97} [[Paul Townsend]], section 4 of _M-theory from its superalgebra_ ([arXiv:hep-th/9712004](http://arxiv.org/abs/hep-th/9712004))
 
 * Sergey A. Cherkis, _Supergravity Solution for M5-brane Intersection_ ([arXiv:hep-th/9906203](https://arxiv.org/abs/hep-th/9906203))
+
+### Brane webs
+ {#BraneWebs}
+
+#### General
+
+* Oleg Lunin, _Brane webs and 1/4-BPS geometries_, JHEP09 (2008) ([arXiv:0802.0735](https://arxiv.org/abs/0802.0735))
+
+#### String webs
+
+
+* {#Sen97} [[Ashoke Sen]], _String Network_, JHEP 9803:005, 1998 ([arXiv:hep-th/9711130](https://arxiv.org/abs/hep-th/9711130))
+
+* Soo-Jong Rey, Jung-Tay Yee, _BPS Dynamics of Triple $(p,q)$ String Junction_, Nucl.Phys. B526 (1998) 229-240 ([arXiv:hep-th/9711202](https://arxiv.org/abs/hep-th/9711202))
+
+* [[Keshav Dasgupta]], [[Sunil Mukhi]], _BPS Nature of 3-String Junctions_, Phys.Lett. B423 (1998) 261-264 ([arXiv:hep-th/9711094](https://arxiv.org/abs/hep-th/9711094))
+
+Via [[tropical geometry]]:
+
+* Koushik Ray, _String networks as tropical curves_, JHEP 0809:098, 2008 ([arXiv:0804.1870](https://arxiv.org/abs/0804.1870))
+
+#### 5-brane webs
+
+* {#AharonyHanany97} [[Ofer Aharony]], [[Amihay Hanany]], section 3 of _Branes, Superpotentials and Superconformal Fixed Points_, Nucl.Phys.B504:239-271, 1997 ([arXiv:hep-th/9704170](https://arxiv.org/abs/hep-th/9704170))
+
+* {#Kol97} [[Barak Kol]], _5d Field Theories and M Theory_, JHEP 9911 (1999) 026 ([arXiv:hep-th/9705031](https://arxiv.org/abs/hep-th/9705031))
+
+* [[Ofer Aharony]], [[Amihay Hanany]], [[Barak Kol]], _Webs of $(p,q)$ 5-branes, Five Dimensional Field Theories and Grid Diagrams_, JHEP 9801:002,1998 ([arXiv:hep-th/9710116](http://arxiv.org/abs/hep-th/9710116))
+
+
+* Francesco Benini, Sergio Benvenuti, Yuji Tachikawa, _Webs of five-branes and $N=2$ superconformal field theories_, JHEP 0909:052,2009 ([arXiv:0906.0359](https://arxiv.org/abs/0906.0359))
+
+* Brice Bastian, Stefan Hohenegger, _Five-Brane Webs and Highest Weight Representations_ ([arXiv:1706.08750](https://arxiv.org/abs/1706.08750))
+
+* Justin Kaidi, _$(p,q)$-strings probing five-brane webs_, J. High Energ. Phys. (2017) 2017: 87 ([arXiv:1708.03404](https://arxiv.org/abs/1708.03404))
 
 
 [[!redirects brane intersections]]
