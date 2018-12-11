@@ -102,7 +102,7 @@ Lift to [[M-theory]]:
 
 * {#GKSTY02} E. Gorbatov, V.S. Kaplunovsky, J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, section 3 of _On Heterotic Orbifolds, M Theory and Type I' Brane Engineering_, JHEP 0205:015, 2002 ([arXiv:hep-th/0108135](https://arxiv.org/abs/hep-th/0108135))
 
-* [[Amihay Hanany]], Barak Kol, section 3 of _On Orientifolds, Discrete Torsion, Branes and M Theory_, JHEP 0006 (2000) 013 ([arXiv:hep-th/0003025](https://arxiv.org/abs/hep-th/0003025))
+* [[Amihay Hanany]], [[Barak Kol]], section 3 of _On Orientifolds, Discrete Torsion, Branes and M Theory_, JHEP 0006 (2000) 013 ([arXiv:hep-th/0003025](https://arxiv.org/abs/hep-th/0003025))
 
 * {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_ ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
 
