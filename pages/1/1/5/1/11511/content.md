@@ -32,6 +32,10 @@
 =--
 
 
+#Contents#
+* table of contents
+{:toc}
+
 
 ## Idea
 
@@ -46,6 +50,10 @@ Under [[S-duality]] the [[modular group]] $SL_2(\mathbb{Z})$ acts on these $(p,q
 * [[S-duality]]
 
 * [[F-theory]]
+
+* [[string web]]
+
+* [[(p,q)5-brane]]
 
 
 ## References
