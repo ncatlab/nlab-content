@@ -23,6 +23,8 @@ A _wallpaper group_ is a [[subgroup]] $G \subset Iso(\mathbb{R}^2)$ of the [[iso
 
 1. the [[point group]] is [[finite group|finite]].
 
+Wallpaper groups are the 2-dimensional case of [[space groups]].
+
 ## Related concepts
 
 * [[flat orbifold]]
