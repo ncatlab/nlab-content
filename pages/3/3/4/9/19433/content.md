@@ -25,11 +25,26 @@ There are $1/4$-[[BPS state]] solutions of [[type IIB supergravity]] which local
 
 The lift to [[11d supergravity]]/[[M-theory]] of 3-string junctions is supposed to be given by [[membrane triple junctions]].
 
+## Related concepts
+
+* [[intersecting brane]]
+
+* [[5-brane web]]
+
 ## References
 
 The concept goes back to
 
 * {#Sen97} [[Ashoke Sen]], _String Network_, JHEP 9803:005,1998 ([arXiv:hep-th/9711130](https://arxiv.org/abs/hep-th/9711130))
+
+* Soo-Jong Rey, Jung-Tay Yee, _BPS Dynamics of Triple $(p,q)$ String Junction_, Nucl.Phys. B526 (1998) 229-240 ([arXiv:hep-th/9711202](https://arxiv.org/abs/hep-th/9711202))
+
+* [[Keshav Dasgupta]], [[Sunil Mukhi]], _BPS Nature of 3-String Junctions_, Phys.Lett. B423 (1998) 261-264 ([arXiv:hep-th/9711094](https://arxiv.org/abs/hep-th/9711094))
+
+Via [[tropical geometry]]:
+
+* Koushik Ray, _String networks as tropical curves_, JHEP 0809:098, 2008 ([arXiv:0804.1870](https://arxiv.org/abs/0804.1870))
+
 
 See also 
 
@@ -49,3 +64,7 @@ The lift to [[11d supergravity]]/[[M-theory]] via [[membrane triple junctions]] 
 
 [[!redirects triple string junction]]
 [[!redirects triple string junctions]]
+
+
+[[!redirects string web]]
+[[!redirects string webs]]
