@@ -119,11 +119,16 @@ See also [Fazzi 17, p. 38](#Fazzi17):
 > The NS5-D6 Hanany–Witten setup engineering six-dimensional $(1,0)$ theories is equivalent to M5-branes at an $A_k$ singularity in eleven dimensions.
 
 
-
-
 Next, this construction may be repeated, having the [[D6-branes]] end on different NS5-branes, hence "suspended between NS5-branes" (graphics from [Fazzi 17, p. 33](#Fazzi17)): 
 
 <img src="https://ncatlab.org/nlab/files/D6SuspendedNS5.png"/>
+
+
+And on the other end the D6-branes may end on [[D8-branes]]:
+
+<img src="https://ncatlab.org/nlab/files/GaiottoNS5D6.jpg" width="600">
+
+> graphics grabbed from [Gaiotto-Tomasiello 14](#GaiottoTomasiello14)
 
 
 #### NS5 half-branes
@@ -313,8 +318,10 @@ Intersection of [[black brane|black]] NS5-branes with [[O8-planes]]/[[black bran
 
 * {#GKSTY02} E. Gorbatov, V.S. Kaplunovsky, J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, _On Heterotic Orbifolds, M Theory and Type I' Brane Engineering_, JHEP 0205:015, 2002 ([arXiv:hep-th/0108135](https://arxiv.org/abs/hep-th/0108135))
 
-* {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_ ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
+* {#GaiottoTomasiello14} [[Davide Gaiotto]], [[Alessandro Tomasiello]], _Holography for $(1,0)$ theories in six dimensions_ ([arXiv:1404.0711](https://arxiv.org/abs/1404.0711))
 
+
+* {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_ ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
 
 
 
