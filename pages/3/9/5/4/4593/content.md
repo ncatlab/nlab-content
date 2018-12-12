@@ -116,7 +116,7 @@ The identification of universal/existential quantification with [[adjoints]] of 
 
 * [[Bill Lawvere]], _Adjointness in Foundations_, ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
 
-* [[Bill Lawvere]] _Quantifiers and sheaves_, Actes, Congr&#232;s intern, math., 1970. Tome 1, p. 329 &#224; 334 ([pdf](http://www.mathunion.org/ICM/ICM1970.1/Main/icm1970.1.0329.0334.ocr.pdf))
+* [[Bill Lawvere]], _Quantifiers and sheaves_, Actes, Congr&#232;s intern, math., 1970. Tome 1, p. 329 &#224; 334 ([pdf](https://pdfs.semanticscholar.org/6630/846a00261a071b71e264e0f532e29cd9152f.pdf))
 
 
 [[!redirects quantifier]]
