@@ -3,6 +3,8 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Gordon_L._Kane)
 
+## selected writings
+
 * Nature article, _[Particle physics is at a turning point](http://www.nature.com/news/particle-physics-is-at-a-turning-point-1.9675)_, Dec. 2011
 
 * [Sakurai prize 2017](https://www.aps.org/programs/honors/prizes/prizerecipient.cfm?last_nm=Kane&first_nm=Gordon&year=2017) "For instrumental contributions to the theory of the properties, reactions, and signatures of the Higgs boson."
@@ -22,6 +24,8 @@ See also
 * [[Gordon Kane]], _From Planck-scale M-theory to predictions for superpartners at LHC, soon_, June 2015 ([web](http://agenda.albanova.se/getFile.py/access?contribId=278&resId=250&materialId=slides&confId=4682))
 
 * [[Gordon Kane]], _String/M-theories About Our World Are Testable in the traditional Physics Way_, talk at _[Why Trust a Theory? Reconsidering Scientific Methodology in Light of Modern Physics](http://www.whytrustatheory2015.philosophie.uni-muenchen.de/index.html)_, Munich 2015  ([arXiv:1601.07511](https://arxiv.org/abs/1601.07511), [video](https://videoonline.edu.lmu.de/en/node/7485))
+
+* [[Gordon Kane]], _Compactifying M-theory on a $G_2$ manifold to describe/explain our world – Predictions for LHC (gluinos, winos, squarks),  and dark matter_ ([pdf](https://indico.cern.ch/event/506172/contributions/2026001/attachments/1256948/1855957/CMS_talk.pdf))
 
 * {#Kane17} [[Gordon Kane]], _String theory and the real world_, Morgan & Claypool, 2017 (<a href="http://iopscience.iop.org/book/978-1-6817-4489-6">doi:0.1088/978-1-6817-4489-6</a>)
 
