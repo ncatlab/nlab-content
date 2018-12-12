@@ -46,3 +46,5 @@ A FOLDS signature, or vocabulary, should then consist of a simple category of *k
 ## References
 
 *  [[Michael Makkai]], _First Order Logic with Dependent Sorts, with Applications to Category Theory_, available from [Makkai\'s homepage](http://www.math.mcgill.ca/makkai/).
+
+* [[Erik Palmgren]], _Categories with families, FOLDS and logic enriched type theory_, arXiv:[1605.01586](https://arxiv.org/abs/1605.01586)
