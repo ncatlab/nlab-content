@@ -430,6 +430,21 @@ Surveys include
 
 * {#Bryant05} [[Robert Bryant]], _Some remarks on $G_2$-structures_, Proceedings of the 12th G&#246;kova Geometry-Topology Conference 2005, pp. 75-109 [pdf](http://gokovagt.org/proceedings/2005/ggt05-bryant.pdf)
 
+
+
+The relation to [[multisymplectic geometry]]/[[2-plectic geometry]] is mentioned explicitly in 
+
+* {#Ibort} Alberto Ibort, _Multisymplectic geometry: generic and exceptional_, _[Proceedings of the IX Fall workshop on geometry and physics](http://rsme.es/public/publi3.htm)_ ([[IbortMultisymplectic.pdf:file]])
+ 
+
+(but beware of some mistakes in that article...)
+
+For more see the references at _[[exceptional geometry]]_.
+
+
+### $G_2$-Orbifolds
+ {#ReferencesG2Orbifolds}
+
 Discussion of $G_2$-[[orbifolds]] includes
 
 * {#Acharya98} [[Bobby Acharya]], _M theory, Joyce Orbifolds and Super Yang-Mills_, Adv.Theor.Math.Phys. 3 (1999) 227-248 ([arXiv:hep-th/9812205](http://arxiv.org/abs/hep-th/9812205))
@@ -442,15 +457,9 @@ Discussion of $G_2$-[[orbifolds]] includes
 
 * {#Reidegeld15} [[Frank Reidegeld]] _$G_2$-orbifolds from K3 surfaces with ADE-singularities_ ([arXiv:1512.05114](http://arxiv.org/abs/1512.05114))
 
+* [[Frank Reidegeld]], _K3 surfaces with a pair of commuting non-symplectic involutions_ ([arXiv:1809.07501](https://arxiv.org/abs/1809.07501))
 
-The relation to [[multisymplectic geometry]]/[[2-plectic geometry]] is mentioned explicitly in 
-
-* {#Ibort} Alberto Ibort, _Multisymplectic geometry: generic and exceptional_, _[Proceedings of the IX Fall workshop on geometry and physics](http://rsme.es/public/publi3.htm)_ ([[IbortMultisymplectic.pdf:file]])
- 
-
-(but beware of some mistakes in that article...)
-
-For more see the references at _[[exceptional geometry]]_.
+* [[Bobby Acharya]], [[Andreas Braun]], Eirik Eik Svanes, Roberto Valandro,  _Counting Associatives in Compact $G_2$ Orbifolds_ ([arXiv:1812.04008](https://arxiv.org/abs/1812.04008))
 
 ### Moduli
 
