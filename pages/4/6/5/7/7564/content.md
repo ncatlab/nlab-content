@@ -61,6 +61,7 @@ See also
 
 * Mina Aganagi&#263;, [[Cumrun Vafa]], _Large N duality, mirror symmetry, and a Q-deformed A-polynomial for knots_, [arxiv/1204.4709](http://arxiv.org/abs/1204.4709)
 
+* Min-xin Huang, _Recent Developments in Topological String Theory_ ([arXiv:1812.03636](https://arxiv.org/abs/1812.03636))
 
 ### Relation to black hole microstate counting
 
