@@ -455,7 +455,7 @@ Discussion of [[G2-orbifolds]] includes
 
 * {#Barrett06} Adam B. Barrett, _M-Theory on Manifolds with $G_2$ Holonomy_, 2006 ([arXiv:hep-th/0612096](http://arxiv.org/abs/hep-th/0612096))
 
-* {#Reidegeld15} [[Frank Reidegeld]] _$G_2$-orbifolds from K3 surfaces with ADE-singularities_ ([arXiv:1512.05114](http://arxiv.org/abs/1512.05114))
+* {#Reidegeld15} [[Frank Reidegeld]], _$G_2$-orbifolds from K3 surfaces with ADE-singularities_ ([arXiv:1512.05114](http://arxiv.org/abs/1512.05114))
 
 * [[Frank Reidegeld]], _K3 surfaces with a pair of commuting non-symplectic involutions_ ([arXiv:1809.07501](https://arxiv.org/abs/1809.07501))
 
