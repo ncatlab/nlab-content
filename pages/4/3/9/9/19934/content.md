@@ -58,6 +58,11 @@ The orbifold quotient of the [[4-torus]] by the sign [[involution]] on all four 
 
 see [FRTV 12](#FRTV12)
 
+### 7-Dimensional $G_2$-orbifolds
+
+see _[[G2-orbifold]]_
+
+
 ## Related concepts
 
 * [[branched cover]]
