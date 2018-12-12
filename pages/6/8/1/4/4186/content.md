@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _conformal net_ is a [[local net]] of observables that describes (2-dimensional) [[conformal field theory]] in the framework of [[AQFT]].
+A _conformal net_ is a [[local net of observables]] that describes ([[2d CFT|2-dimensional]]) [[conformal field theory]] in the framework of [[algebraic quantum field theory]].
 
 ## Definition
 
@@ -36,12 +36,13 @@ A _conformal net_ is a [[local net]] of observables that describes (2-dimensiona
 * [[3-category of fermionic conformal nets]]
 
 ### Relation to vertex operator algebras
+ {#RelationToVertexOperatorAlgebras}
 
-Subject to some conditions a [[vertex operator algebra]] may be turned into a conformal net and vice versa ([Carpi-Kawahigahshi-Longo-Weiner 15](#CarpiKawahigahshiLongoWeiner15)).
+Subject to some conditions a [[vertex operator algebra]] may be turned into a conformal net and vice versa ([Carpi-Kawahigahshi-Longo-Weiner 15](#CarpiKawahigahshiLongoWeiner15), [Carpi 16](#Carpi16)) also ([Gui 18](#Gui18)).
 
 ### Relation to spectral triples
 
-Superconformal nets encoding [[2d SCFTs]] may be related to [[local nets]] of [[spectral triples]] ([#CHKL 09](#CHKL09)) (an incarnation of "[[2-spectral triples]]", see there for more).
+Superconformal nets encoding [[2d SCFTs]] may be related to [[local nets]] of [[spectral triples]] ([CHKL 09](#CHKL09)) (an incarnation of "[[2-spectral triples]]", see there for more).
 
 ## Examples
 
@@ -91,13 +92,17 @@ More on this in
 Relation to [[vertex operator algebras]] is discussed in
 
 
-* {#CapriKawahigahshiLongoWeiner15} [[Sebastiano Carpi]], [[Yasuyuki Kawahigashi]], [[Roberto Longo]], Mih&#225;ly Weiner, _From vertex operator algebras to conformal nets and back_, Memoirs of the American Mathematical Society, Volume 254, Number 1213 2018;  ([doi:10.1090/memo/1213](https://doi.org/10.1090/memo/1213), [arXiv:1503.01260](http://arxiv.org/abs/1503.01260))
+* {#CarpiKawahigahshiLongoWeiner15} [[Sebastiano Carpi]], [[Yasuyuki Kawahigashi]], [[Roberto Longo]], Mih&#225;ly Weiner, _From vertex operator algebras to conformal nets and back_, Memoirs of the American Mathematical Society, Volume 254, Number 1213 2018;  ([doi:10.1090/memo/1213](https://doi.org/10.1090/memo/1213), [arXiv:1503.01260](http://arxiv.org/abs/1503.01260))
 
 * {#Carpi16} [[Sebastiano Carpi]], _Operator algebras and vertex operator algebras_, Contribution to the Proceedings of the 14th Marcel Grossmann Meeting - MG14 (Rome, 2015) ([arXiv:1603.06742](http://arxiv.org/abs/1603.06742))
 
 See also
 
 * James E. Tener, _Representation theory in chiral conformal field theory: from fields to observables_ ([arXiv:1810.08168](https://arxiv.org/abs/1810.08168))
+
+Relation of the corresponding [[ribbon categories]]:
+
+* {#Gui18} Bin Gui, _Categorical extensions of conformal nets_ ([arXiv:1812.04470](https://arxiv.org/abs/1812.04470))
 
 
 Relation to [[2-spectral triples]] is discussed in terms of [[vertex operator algebras]]
