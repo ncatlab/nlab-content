@@ -66,19 +66,29 @@ A review of further developments is in
 
 * [[David Berenstein]], _Classical dynamics and thermalization in holographic matrix models_, talk at Leiden, October 2012 ([pdf](http://www.lorentzcenter.nl/lc/web/2012/514/presentations/Berenstein.pdf))
 
+See also
+
+* [[Paul Townsend]], _M(embrane) theory on $T^0$_, Nucl.Phys.Proc.Suppl.68:11-16,1998 ([arXiv:hep-th/9708034](http://arxiv.org/abs/hep-th/9708034))
+
+Discussion as a solution to the open problem of defining [[M-theory]] is in 
+
+* {#Moore14} [[Gregory Moore]], section 12 p. 43-44 _[[Physical Mathematics and the Future]]_ talk at [Strings 2014](http://physics.princeton.edu/strings2014/)  ([talk slides](http://physics.princeton.edu/strings2014/slides/Moore.pdf), [companion text pdf](http://www.physics.rutgers.edu/~gmoore/PhysicalMathematicsAndFuture.pdf), [[MooreVisionTalk2014.pdf:file]])
+
+where it says:
+
+> {#AGoodStartWasGivenByTheMatrixTheory} A good start was given by the [[BFSS matrix model|Matrix theory]] approach of [[Tom Banks|Banks]], [[Willy Fischler|Fischler]], Shenker and [[Leonard Susskind|Susskind]]. We have every reason to expect that this theory produces the correct [[scattering amplitudes]] of modes in the [[11-dimensional supergravity]] multiplet in 11-dimensional [[Minkowski space]] - even at energies sufficiently large that [[black holes]] should be created. (This latter phenomenon has never been explicitly demonstrated). But Matrix theory is only a beginning and does not give us the whole picture of [[M-theory]]. The program ran into increasing technical difficulties when more complicated compactifications were investigated. (For example, compactification on a six-dimensional torus is not very well understood at all. $[...]$). Moreover, to my mind, as it has thus far been practiced it has an important flaw: It has not led to much significant new mathematics. 
+
+> If history is a good guide, then we should expect that anything as profound and far-reaching as a fully satisfactory formulation of [[M-theory]] is surely going to lead to new and novel mathematics. Regrettably, it is a problem the community seems to have put aside - temporarily. But, ultimately, Physical Mathematics must return to this grand issue.
+
+
+
+
+
 Derivation from [[open string field theory]] is discussed in
 
 * [[Taejin Lee]], _Covariant Open String Field Theory on Multiple D$p$-Branes_ ([arXiv:1703.06402](https://arxiv.org/abs/1703.06402))
 
 
-Further perspective includes
-
-* [[Paul Townsend]], _M(embrane) theory on $T^0$_, Nucl.Phys.Proc.Suppl.68:11-16,1998 ([arXiv:hep-th/9708034](http://arxiv.org/abs/hep-th/9708034))
-
-
-Numerical computation:
-
-* Veselin G. Filev, Denjoe O'Connor, _The BFSS model on the lattice_, JHEP 1605 (2016) 167 ([arXiv:1506.01366](https://arxiv.org/abs/1506.01366))
 
 
 Relation to the [[6d (2,0)-supersymmetric QFT]]:
@@ -97,6 +107,7 @@ The interpretation of the BFSS model as a regularized [[M2-brane]] [[worldvolume
 * {#DasguptaNicolaiPlefka02} Arundhati Dasgupta, [[Hermann Nicolai]], [[Jan Plefka]], _An Introduction to the Quantum Supermembrane_, Grav.Cosmol.8:1,2002; Rev.Mex.Fis.49S1:1-10, 2003 ([arXiv:hep-th/0201182](http://arxiv.org/abs/hep-th/0201182))
 
 ### Ground state problem
+  {#ReferencesGroundStateProblem}
 
 There remains the problem of existence of a sensible ground state of the BFSS model. 
 
@@ -150,6 +161,9 @@ Relation to [[black holes in string theory]]:
 ### Relation to lattice gauge theory
 
 Relation to [[lattice gauge theory]]:
+
+* Veselin G. Filev, Denjoe O'Connor, _The BFSS model on the lattice_, JHEP 1605 (2016) 167 ([arXiv:1506.01366](https://arxiv.org/abs/1506.01366))
+
 
 * {#Hanada16} Masanori Hanada, _What lattice theorists can do for superstring/M-theory_,  International Journal of Modern Physics AVol. 31, No. 22, 1643006 (2016)  ([arXiv:1604.05421](https://arxiv.org/abs/1604.05421))
 
