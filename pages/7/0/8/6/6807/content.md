@@ -29,9 +29,23 @@ The BFSS matrix model was argued to arise in several equivalent ways:
 
 In any case, it ends up being a [[quantum mechanics|quantum mechanical]] system whose bosonic degrees of freedom are a set of 9+1 large matrices. These play the role of would-be coordinate functions and their eigenvalues may be in interpreted as points in a spacetime thus defined.
 
-In the 90s there was much excitement about the BFSS model, as people hoped it might provide a definition of [[M-theory]]. It is from these times that [[Edward Witten]] changed the original suggestion that "M" is for "magic, mystery and membrane" to the suggestion that it is for "magic, mystery and matrix". (See [Witten's 2014 Kyoto prize speach](M-theory#Witten14), last paragraph). 
-
 There is also the [[IKKT matrix model]], which takes this one step further by reducing one dimension further down (D(-1)-branes). See also at _[[membrane matrix model]]_.
+
+## Assessment
+
+In the 90s there was much excitement about the BFSS model, as people hoped it might provide a definition of [[M-theory]]. It is from these times that [[Edward Witten]] changed the original suggestion that "M" is for "magic, mystery and membrane" to the suggestion that it is for "magic, mystery and matrix". (See [Witten's 2014 Kyoto prize speech](M-theory#Witten14), last paragraph.) 
+
+However, while the BFSS matrix model clearly sees something M-theoretic, just as clearly it is not the full answer. Notably it needs for its definition an ambient Minkowski background, a light cone limit and a peculiar scaling of string coupling over string length, all of which means that it pertains to a particular corner of a full theory. 
+
+Then, even assuming that in this corner all the crucial cohomological aspects of branes (K-theory charges, etc.) are secretly encoded in the matrix model, magically, none of this is manifest, making the matrix model spit out numbers about a conceptually elusive theory in close analogy to how lattice QCD produces numbers without informing us about the actual conceptual nature of hadron physics.
+
+Furthermore, there are technical open issues, such as the open question whether the theory has a decent ground state the way it needs to have to make sense ([here](https://ncatlab.org/nlab/show/BFSS+matrix+model#ReferencesGroundStateProblem)).
+
+A similar assessment has been given by [[Greg Moore]], from pages 43-44 of his _[[Physical Mathematics and the Future]]_ ([here](https://ncatlab.org/nlab/show/Physical+Mathematics+and+the+Future#AGoodStartWasGivenByTheMatrixTheory)):
+
+> A good start $[$on defining M-theory$]$ was given by the Matrix theory approach of Banks, Fischler, Shenker and Susskind. We have every reason to expect that this theory produces the correct scattering amplitudes of modes in the 11-dimensional supergravity multiplet in 11-dimensional Minkowski space - even at energies sufficiently large that black holes should be created. (This latter phenomenon has never been explicitly demonstrated). But Matrix theory is only a beginning and does not give us the whole picture of M-theory. The program ran into increasing technical difficulties when more complicated compactifications were investigated. (For example, compactification on a six-dimensional torus is not very well understood at all. [...]). Moreover, to my mind, as it has thus far been practiced it has an important flaw: It has not led to much significant new mathematics.
+
+> If history is a good guide, then we should expect that anything as profound and far-reaching as a fully satisfactory formulation of M-theory is surely going to lead to new and novel mathematics. Regrettably, it is a problem the community seems to have put aside - temporarily. But, ultimately, Physical Mathematics must return to this grand issue.
 
 
 
