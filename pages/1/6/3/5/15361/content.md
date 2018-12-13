@@ -36,7 +36,11 @@ Related:
 
 ***
 
-> {#WeStillHaveNo} We still have no fundamental formulation of "[[M-theory]]" - the hypothetical theory of which [[11-dimensional supergravity]] and the five [[string theories]] are all special limiting cases. Work on formulating the fundamental principles underlying M-theory has noticeably waned. $[...]$. If history is a good guide, then we should expect that anything as profound and far-reaching as a fully satisfactory formulation of M-theory is surely going to lead to new and novel mathematics. Regrettably, it is a problem the community seems to have put aside - temporarily. But, ultimately, Physical Mathematics must return to this grand issue.
+> {#WeStillHaveNo} We still have no fundamental formulation of "[[M-theory]]" - the hypothetical theory of which [[11-dimensional supergravity]] and the five [[string theories]] are all special limiting cases. Work on formulating the fundamental principles underlying M-theory has noticeably waned. 
+
+> {#AGoodStartWasGivenByTheMatrixTheory} A good start was given by the [[BFSS matrix model|Matrix theory]] approach of [[Tom Banks|Banks]], [[Willy Fischler|Fischler]], Shenker and [[Leonard Susskind|Susskind]]. We have every reason to expect that this theory produces the correct [[scattering amplitudes]] of modes in the [[11-dimensional supergravity]] multiplet in 11-dimensional [[Minkowski space]] - even at energies sufficiently large that [[black holes]] should be created. (This latter phenomenon has never been explicitly demonstrated). But Matrix theory is only a beginning and does not give us the whole picture of [[M-theory]]. The program ran into increasing technical difficulties when more complicated compactifications were investigated. (For example, compactification on a six-dimensional torus is not very well understood at all. $[...]$). Moreover, to my mind, as it has thus far been practiced it has an important flaw: It has not led to much significant new mathematics. 
+
+> If history is a good guide, then we should expect that anything as profound and far-reaching as a fully satisfactory formulation of [[M-theory]] is surely going to lead to new and novel mathematics. Regrettably, it is a problem the community seems to have put aside - temporarily. But, ultimately, Physical Mathematics must return to this grand issue.
 
 > ([Moore 14, section 12, p. 43-44](#Moore14))
 
