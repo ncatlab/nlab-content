@@ -18,6 +18,7 @@
 * table of contents
 {:toc}
 
+
 ## Idea
 
 The [[sphere]] of [[dimension]] 4.
@@ -668,5 +669,14 @@ from the [[homotopy quotient]] by the [[circle action]] (def. \ref{CircleActionO
 
 * {#FelixOpreaTanre08} [[Yves Félix]], John Oprea, Daniel Tanré, _Algebraic Models in Geometry_, Oxford University Press 2008
 
+Speculative remarks on the possible role of maps from [[spacetime]] to the [[4-sphere]] in some kind of [[quantum gravity]] via [spectral geometry](spectral+triple)  are in 
+
+* [[Ali Chamseddine]], [[Alain Connes]], Viatcheslav Mukhanov, section 4 of _Geometry and the Quantum: Basics_, JHEP 12 (2014) 098 ([arXiv:1411.0977](https://arxiv.org/abs/1411.0977))
+
+reviewed in
+
+* {#Connes17} [[Alain Connes]], section 4 of _Geometry and the Quantum_, Foundations of Mathematics and Physics One Century After Hilbert. Springer, Cham, 2018. 159-196 ([arXiv:1703.02470](https://arxiv.org/abs/1703.02470))
+
+* [[Alain Connes]], from 58:00 to 1:25:00 in _Why Four Dimensions and the Standard Model Coupled to Gravity - A Tentative Explanation From the New Geometric Paradigm of NCG_, talk at IHES, 2017 ([video recording](https://www.youtube.com/watch?v=qVqqftQ92kA))
 
 [[!redirects 4-spheres]]
