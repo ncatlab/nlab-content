@@ -113,6 +113,7 @@ Relation to the [[6d (2,0)-supersymmetric QFT]]:
 
 
 ### Relation to super-membranes
+  {#ReferencesRelationToSuperMembranes}
 
 The interpretation of the BFSS model as a regularized [[M2-brane]] [[worldvolume]] theory is discussed in
 
