@@ -93,6 +93,14 @@ from [[equivalence class]]es of $G$-[[principal bundle]]s with [[connection on a
 
 =--
 
+
+## Weil homomorphism as in Kobayashi and Nomizu's book.
+
+ Let $G$ be a Lie group and $\mathfrak{g}$ be its Lie algebra. Given an element $g\in G$, the adjoint map   $Ad(g):G\rightarrow G$  is defined as $Ad(g)(h)=ghg^{-1}$. For $g\in G$, let $ad(g):\mathfrak{g}\rightarrow \mathfrak{g}$ be the differenial of $Ad(g):G\rightarrow G$ at $e\in G$.
+
+
+
+
 ## Examples
 
 * [[Gauss-Bonnet theorem]]
