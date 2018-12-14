@@ -28,7 +28,7 @@ The [Segal-Shale-Weil metaplectic representation](#SegalShaleWeilRepresentation)
 ## Segal-Shale-Weil representations
  {#SegalShaleWeilRepresentation}
 
-The _Segal-Shale-Weil representation_ is the following. By the [[Stone-von Neumann theorem]] there is an essentially unique [[irreducible representation|irreducible]] [[unitary representation]] $W$ of the [[Heisenberg group]] $Heis(V,\omega)$ of a given [[symplectic vector space]].  This being essentially unique implies that for each element $g\in Sp(V,\omega)$ of the [[symplectic group]], there is a unique [[unitary operator]] $U_g$ such that for all $v\in V$
+The _Segal-Shale-Weil representation_ is the following. By the [[Stone-von Neumann theorem]] there is an essentially unique [[irreducible representation|irreducible]] [[unitary representation]] $W$ of the [[Heisenberg group]] $Heis(V,\omega)$ of a given [[symplectic vector space]].  This being essentially unique implies that for each element $g\in Sp(V,\omega)$ of the [[symplectic group]], there is a unique (up to multiplication by a constant of modulus one) [[unitary operator]] $U_g$ such that for all $v\in V$
 
 $$
   W(g(v)) = U_g W(v) U^{-1}_g
