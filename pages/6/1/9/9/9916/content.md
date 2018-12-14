@@ -12,6 +12,8 @@
 
 * [[Riemannian orbifold]]
 
+* [[intersecting D-brane model]]
+
 
 
 category: people
