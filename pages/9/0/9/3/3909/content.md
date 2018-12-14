@@ -37,7 +37,7 @@ $$
   }
 $$
 
-given by the [[projections]] onto the two [[coset spaces]]/[[flag varieties]] and a _Penrose transform_ is an [[integral transform]]/pull-[[fiber integration|push]] $(p_1)_! \circ (p_1)^\ast$ through this correspondence.
+given by the [[projections]] onto the two [[coset spaces]]/[[flag varieties]] and a _Penrose transform_ is an [[integral transform]]/pull-[[fiber integration|push]] $(p_2)_! \circ (p_1)^\ast$ through this correspondence.
 
 In particular there are higher twistor spaces corresponding to higher dimensional [[Minkowski spacetimes]] which are useful for describing higher dimensional [[quantum field theory]], notably there are twistor spaces for 6-dimensional spacetime useful for the study of the [[6d (2,0)-superconformal QFT]] on the [[worldvolume]] of the [[M5-brane]] ([MREIC 11](#MREIC11)) with its [[self-dual higher gauge field]], the [[B-field]] .
 
