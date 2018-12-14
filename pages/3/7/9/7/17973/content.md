@@ -158,6 +158,7 @@ Such approximate versions of [[AdS-CFT]] for gauge theories realized on intersec
 $\,$
 
 ### Computer scan of Gepner-model compactifications
+ {#ComputerScanOfGepnerModelCompactifications}
 
 Discussion of [[string phenomenology]] of [[intersecting D-brane models]] [[KK-compactification|KK-compactified]] with non-geometric [[fibers]] such that the would-be string [[sigma-models]] with these [[target spaces]] are in fact [[Gepner models]] (in the sense of _[Spectral Standard Model and String Compactifications](https://www.physicsforums.com/insights/spectral-standard-model-string-compactifications/)_) is in ([Dijkstra-Huiszoon-Schellekens 04a](#DijkstraHuiszoonSchellekens04a), [Dijkstra-Huiszoon-Schellekens 04b](#DijkstraHuiszoonSchellekens04a)):
 
@@ -185,11 +186,6 @@ The observation that [[Weyl spinor|chiral fermions]] appear when [[D6-branes]]  
 
 * {#BerkoozDouglasLeigh96} [[Micha Berkooz]], [[Michael Douglas]], [[Robert Leigh]], _Branes Intersecting at Angles_, Nucl.Phys.B480:265-278, 1996 ([arXiv:hep-th/9606139](https://arxiv.org/abs/hep-th/9606139))
 
-The lift of this situation to [[M-theory on G2-manifolds]] is discussed in
-
-* {#BerglundBrandhuber02} Per Berglund, Andreas Brandhuber, _Matter from $G_2$-manifolds_, Nucl.Phys. B641 (2002) 351-375 ([arXiv:hep-th/0205184](https://arxiv.org/abs/hep-th/0205184))
-
-* {#BourjailyEspahbodi08} Jacob L. Bourjaily, Sam Espahbodi, _Geometrically Engineerable Chiral Matter in M-Theory_ ([arXiv:0804.1132](https://arxiv.org/abs/0804.1132))
 
 
 Review includes
@@ -217,13 +213,6 @@ for [[D7-branes]]:
 
 * Anshuman Maharana, [[Eran Palti]], _Models of Particle Physics from Type IIB String Theory and F-theory: A Review_ ([arXiv:1212.0555](http://arxiv.org/abs/1212.0555))
 
-Computer scan of [[Gepner model]]-[[KK-compactifications]] of intersecting D-brane models:
-
-* {#DijkstraHuiszoonSchellekens04a} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Chiral Supersymmetric Standard Model Spectra from Orientifolds of Gepner Models_, Phys.Lett. B609 (2005) 408-417 ([arXiv:hep-th/0403196](https://arxiv.org/abs/hep-th/0403196))
-
-* {#DijkstraHuiszoonSchellekens04b} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Supersymmetric Standard Model Spectra from RCFT orientifolds_, Nucl.Phys.B710:3-57,2005 ([arXiv:hep-th/0411129](https://arxiv.org/abs/hep-th/0411129))
-
-
 Discussion of the [[Higgs mechanism]]:
 
 * {#CremadesIbanezMarchesano02} D. Cremades, [[Luis Ibáñez]], F. Marchesano, _Intersecting brane models of particle physics and the Higgs mechanism_, JHEP, 0207, 022 2002 ([arXiv:hep-th/0203160](https://arxiv.org/abs/hep-th/0203160))
@@ -245,8 +234,7 @@ See also
 
 * {#DolanKrippendorfQuevedo11} Matthew J. Dolan, Sven Krippendorf, Fernando Quevedo, _Towards a Systematic Construction of Realistic D-brane Models on a del Pezzo Singularity_, JHEP 1110 (2011) 024 ([arXiv:1106.6039](http://arxiv.org/abs/1106.6039))
 
-* Yuta Hamada, Tatsuo Kobayashi, Shohei Uemura, _Standard Model-like D-brane models and gauge couplings_, Nuclear Physics B
-Volume 897, August 2015, Pages 563-582 ([arXiv:1409.2740](https://arxiv.org/abs/1409.2740))
+* Yuta Hamada, Tatsuo Kobayashi, Shohei Uemura, _Standard Model-like D-brane models and gauge couplings_, Nuclear Physics B Volume 897, August 2015, Pages 563-582 ([arXiv:1409.2740](https://arxiv.org/abs/1409.2740))
 
 * Jill Ecker, [[Gabriele Honecker]], Wieland Staessens, _D6-Brane Model Building on $\mathbb{Z}_2 \times \mathbb{Z}_6$: MSSM-like and Left-Right Symmetric Models_, Nuclear Physics B Volume 901, December 2015, Pages 139-215,  ([arXiv:1509.00048](https://arxiv.org/abs/1509.00048))
 
@@ -260,12 +248,32 @@ Intersection with [[O8-planes]]/[[D8-branes]] is discussed in
 
 * {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_ ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
 
+### The landscape of models
+
+On the [[landscape of string theory vacua|landscape]] of intersecting D-brane models:
+
+Computer scan of [[Gepner model]]-[[KK-compactifications]] of intersecting D-brane models:
+
+* {#DijkstraHuiszoonSchellekens04a} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Chiral Supersymmetric Standard Model Spectra from Orientifolds of Gepner Models_, Phys.Lett. B609 (2005) 408-417 ([arXiv:hep-th/0403196](https://arxiv.org/abs/hep-th/0403196))
+
+* {#DijkstraHuiszoonSchellekens04b} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Supersymmetric Standard Model Spectra from RCFT orientifolds_, Nucl.Phys.B710:3-57,2005 ([arXiv:hep-th/0411129](https://arxiv.org/abs/hep-th/0411129))
+
+
+Computer scan of [[toroidal orbifold]]-[[KK compactifications]] is discussed in
+
+* [[Ralph Blumenhagen]], [[Florian Gmeiner]], [[Gabriele Honecker]], [[Dieter Lüst]], [[Timo Weigand]], _The Statistics of Supersymmetric D-brane Models_, Nucl.Phys.B713:83-135, 2005 ([arXiv:hep-th/0411173](https://arxiv.org/abs/hep-th/0411173))
+
+* {#GBHLW05} [[Florian Gmeiner]], [[Ralph Blumenhagen]], [[Gabriele Honecker]], [[Dieter Lüst]], [[Timo Weigand]], _One in a Billion: MSSM-like D-Brane Statistics_, JHEP 0601:004, 2006 ([arXiv:hep-th/0510170](https://arxiv.org/abs/hep-th/0510170))
+
+
+
 ### Lift to M-theory
  {#ReferencesLiftToMTheory}
 
 Lift of intersecting D-brane models to [[M-theory on G2-manifolds]] with [[ADE-singularities]] is discussed in the following articles
 
-* Per Berglund, Andreas Brandhuber, _Matter From $G_2$ Manifolds_, Nucl.Phys. B641 (2002) 351-375 ([arXiv:hep-th/0205184](https://arxiv.org/abs/hep-th/0205184))
+* {#BerglundBrandhuber02} Per Berglund, Andreas Brandhuber, _Matter from $G_2$-manifolds_, Nucl.Phys. B641 (2002) 351-375 ([arXiv:hep-th/0205184](https://arxiv.org/abs/hep-th/0205184))
+
 
 * K. Behrndt, [[Gianguido Dall'Agata]], [[Dieter Lüst]], S. Mahapatra, _Intersecting 6-branes from new 7-manifolds with G_2 holonomy_, JHEP 0208:027,2002 ([arXiv:hep-th/0207117](https://arxiv.org/abs/hep-th/0207117))
 
