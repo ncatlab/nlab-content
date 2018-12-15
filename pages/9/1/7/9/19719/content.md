@@ -14,8 +14,8 @@ The Initiality Project is a communal effort to prove an [[initiality theorem]] f
 * [[Initiality Project - Type Theory|Type Theory]] -- The "type theory", with rules on how to manipulate raw syntax. The usual notion of judgements with natural deduction.
 * [[Initiality Project - Semantics|Semantics]] -- Categorical structures used to model our type theory
 * [[Initiality Project - Partial Interpretation|Partial interpretation function]] -- How to arrive at the categorical model from our type theory
-* [[Initiality Project - Substitution|Preservation of Substitution]]
-* [[Initiality Project - Totality|Totality of the interpretation]]
+* [[Initiality Project - Substitution|Preservation of Substitution]] - Is substitution in the type theory the same as substitution in the semantics?
+* [[Initiality Project - Totality|Totality of the interpretation]] - Showing that the partial interpretation functions give rise to a total interpretation function (just a function).
 * [[Initiality Project - Term Model|The Term Model]]
 * [[Initiality Project - Functor|The interpretation as a functor]]
 * [[Initiality Project - Uniqueness|Uniqueness of the interpretation functor]]
