@@ -450,6 +450,8 @@ The unique solution $A_U(s = 1)$ of the above differential equation at $s = 1$ f
 ### Rheonomy 
  {#Rheonomy}
 
+#### Idea
+
 In the formulation here the [[field (physics)|fields]] of [[supergravity]] are modeled by  [[super differential forms]] on a [[supermanifold]] $\tilde X$, and this very fact serves to make local [[supersymmetry]] manifest, i.e.serves to model geometry by [[higher supergeometry|higher supergeometric]] [[higher Cartan geometry]].
 
 But the actual fields of supergravity are supposed to be fields on actual [[spacetime]] $X$ (an ordinary [[smooth manifold]]) $X \hookrightarrow \tilde X$.
@@ -462,6 +464,55 @@ In ([Castellani-D'Auria-Fr&#233;, vol 2, section III.3.3](#CastellaniDAuriaFre))
 This rheonomy constraint is equivalent to what elsewhere is called "superspace constraints", see ([AFFFTT 98, below (3.12)](#AFFFTT98)).
 
 See also at _[[rheonomy modality]]_.
+
+#### Details
+
+Let $V$ be a [[super Lie algebra]] and let $X$ a [[V-manifold]]. Write 
+
+$$
+  X^{\rightsquigarrow} 
+  \overset{ \epsilon_X^{\rightsquigarrow} }{\longrightarrow} X
+$$ 
+
+for the inclusion of the underlying bosonic manifold (the [[counit of a comonad|counit]] morphism of the [[bosonic modality]] applied to $X$).
+
+We say that a subset 
+
+$$
+  \big\{ \mu \in \Omega(X, \mathfrak{g})\big\}
+  \subset 
+  \Omega(X, \mathfrak{g})
+$$
+
+of super-[[Lie algebra valued differential forms|Lie algebra valued]] [[super differential forms]] is _rheonomic_ if on this subset the [[pullback of differential forms]] along $\epsilon_X^{\rightsquigarrow}$ becomes a [[bijection]]
+
+$$
+  \array{
+    \Omega(X,\mathfrak{g})
+    \overset{
+       \left( \epsilon_X^{\rightsquigarrow} \right)^\ast
+    }{\longrightarrow}
+    \Omega\big( X^{\rightsquigarrow}, \mathfrak{g}\big)
+  }
+$$
+
+
+If $U \subset X$ is a [[coordinate chart]] with [[coordinates]] $(x^a, \theta^\alpha)$ then restricted to this coordinate chart this pullback map is given by evaluating super-differential forms at $\theta^\alpha = 0$ and $\mathbf{d}\theta^\alpha = 0$
+
+$$
+  \left( \epsilon_X^{\rightsquigarrow} \right)^\ast
+  \omega_{\vert U}
+  \;=\;
+  \left. \omega_{\vert U}\right|_{ {\theta^\alpha = 0} \atop {\mathbf{d}\theta^\alpha = 0} }
+$$
+
+(...)
+
+Sufficient condition: The components of the [[curvature]]-forms with odd-graded indices are linear combinations of the components of the curvature forms without odd-graded indices
+
+([Castellani-D'Auria-Fr&#233; 91, vol 2, (III.3.30)](#CastellaniDAuriaFre))
+
+(...)
 
 
 ## Dynamics
