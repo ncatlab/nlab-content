@@ -466,21 +466,101 @@ This rheonomy constraint is equivalent to what elsewhere is called "superspace c
 See also at _[[rheonomy modality]]_.
 
 #### Details
+ 
+Let $\mathbf{H} =$  [[SuperFormalSmooth∞Groupoids]].
 
-Let $\mathfrak{g}$ be an [[super L-∞ algebra]] and let $X$ be a [[supermanifold]].
++-- {: .num_defn #SuperLInfinityAlgebraValuedDifferentialForms}
+###### Definition
+**([[super L-∞ algebra|super]]-[[L-∞ algebra valued differential forms|L-∞ algebra valued]] [[super differential forms]])**
+
+
+Let $\mathfrak{g}$ be an [[super L-∞ algebra]] and let $X$ be a [[super formal smooth ∞-groupoid|super ∞-groupoid]] (for instance a [[supermanifold]] or an [[extended super Minkowski spacetime]]).
 
 Write
 
 \[
   \label{SuperLInfinityAlgberaValuedDifferentialForms}
   \Omega(X,\mathfrak{g})
+  \coloneqq
+  Hom_{dgcSuperAlg}\big( 
+   W(\mathfrak{g}),
+   \Omega^\bullet(X)
+  \big)
   \;\in\;
   Set
 \]
 
-for the set of [[L-∞ algebra valued differential forms|L-∞ algebra valued]] [[super differential forms]] on $X$.
+for the [[set]] of [[super L-∞ algebra|super]]-[[L-∞ algebra valued differential forms|L-∞ algebra valued]] [[super differential forms]] on $X$, hence of [[homomorphisms]] of [[differential graded-commutative superalgebras]] from the [[Weil algebra]] of $\mathfrak{g}$
 
-Write 
+$$
+  W(\mathfrak{g})
+  \;\coloneqq\;
+  \Big(
+    \wedge^\bullet\big( 
+      \mathfrak{g}^\ast 
+         \oplus 
+      \underset{
+        \mathbf{d}\mathfrak{g}^\ast
+      }{\underbrace{\mathfrak{g}^\ast[1]}}
+    \big)
+    ,
+    \mathbf{d}_{W(\mathfrak{g})} 
+      = 
+    \mathbf{d}_{CE(\mathfrak{g})} 
+    + 
+    \mathbf{d}
+  \Big)
+$$
+
+to the [[de Rham algebra]] of [[super differential forms]] on $X$, which is given (see at [[geometry of physics -- supergeometry]] [this example](geometry+of+physics+--+supergeometry#MappingSpaceOddTangentBundle)) by
+
+$$
+  \Omega^\bullet(X)
+  \;\coloneqq\;
+  \flat
+  \underline{\mathbf{H}}
+    \Big(
+    \underline{\mathbf{H}}\big(
+      \mathbb{R}^{0\vert 1}, X
+    \big),
+    \mathbb{R}
+  \Big)
+$$
+
+equipped with the [[differential graded-commutative superalgebra]]-[[structure]] induced by the [[action]] of $\mathbf{Aut}(\mathbb{R}^{0\vert 1})$ (see at [[odd line]] [there](odd+line#TheAutomorphismSuperGroup))
+
+The restriction, as a [[linear map]], of such a homomorphism
+
+$$
+  \Omega^\bullet(X)
+    \overset{ \omega }{\longleftarrow}
+  W(\mathfrak{g})
+$$
+
+along the canonical inclusion of $\wedge^1 \mathfrak{g}^\ast[1] = \mathfrak{g}^\ast[2]$ into the [[Weil algebra]] yields the _[[curvature forms]]_ $F_\omega$ of $\omega$.
+
+\[
+  \label{Curvatures}
+  \array{
+    \Omega(X)
+    && 
+      \overset{F_\omega}{\longleftarrow}
+    &&
+    \mathfrak{g}^\ast[2]
+    \\
+    & {}_{\mathllap{\omega}}\nwarrow && \swarrow_{\mathrlap{}}
+    \\
+    && W(\mathfrak{g})
+  }
+\]
+
+=--
+
++-- {: .num_defn #RestrictionOfSuperDifferentialFormsToBosonicSubmanifold}
+###### Definition
+**(restriction of [[super L-∞ algebra|super]]-[[L-∞ algebra valued differential forms|L-∞ algebra valued]] [[super differential forms]] to [[bosonic modality|bosonic]] subspace)**
+
+Given $X \in $ [[SuperFormalSmooth∞Groupoids]], write
 
 \[
   \label{InclusionOfBosonicPartIntoSupermanifold}
@@ -489,9 +569,28 @@ Write
   X
 \] 
 
-for the inclusion of the underlying [[bosonic modality|bosonic]] [[smooth manifold]] (the [[counit of a comonad|counit]] morphism of the [[bosonic modality]] applied to $X$).
+for the inclusion of the underlying [[bosonic modality|bosonic]] [[space]] (the [[counit of a comonad|counit]] morphism of the [[bosonic modality]] applied to $X$).
 
-If $U \subset X$ is a [[coordinate chart]] with [[coordinates]] $(x^a, \theta^\alpha)$ then restricted to this coordinate chart this pullback map is given by evaluating super-differential forms at $\theta^\alpha = 0$ and $\mathbf{d}\theta^\alpha = 0$
+
+The [[pullback of differential forms|pullback]] of the super differential forms in Def. \ref{SuperLInfinityAlgebraValuedDifferentialForms} along (eq:InclusionOfBosonicPartIntoSupermanifold), is a [[function]] of the form
+
+\[
+  \label{PullbackOfSuperDifferentialFormsToBosonicSubspace}
+  \array{
+    \Omega(X, \mathfrak{g})
+    &\overset{ \left( \epsilon^{\rightsquigarrow}_{X} \right)^\ast }{\longrightarrow}&
+    \Omega(X^{\rightsquigarrow}, \mathfrak{g})
+  }
+\]
+
+
+=--
+
++-- {: .num_example #SmoothSetOfDifferentialPForms}
+###### Example
+
+
+If $X$ is a [[supermanifold]] and $U \subset X$ is a [[coordinate chart]] with [[coordinates]] $(x^a, \theta^\alpha)$ then restricted to this coordinate chart the pullback map (eq:PullbackOfSuperDifferentialFormsToBosonicSubspace) is given by evaluating super-differential forms at $\theta^\alpha = 0$ and $\mathbf{d}\theta^\alpha = 0$
 
 $$
   \left( \epsilon_X^{\rightsquigarrow} \right)^\ast
@@ -500,16 +599,10 @@ $$
   \left. \omega_{\vert U}\right|_{ {\theta^\alpha = 0} \atop {\mathbf{d}\theta^\alpha = 0} }
 $$
 
+In this form this operation appears in [Castellani-D'Auria-Fr&#233; 91, vol 2 (III.3.25)](#CastellaniDAuriaFre).
 
-The [[pullback of differential forms]] along (eq:InclusionOfBosonicPartIntoSupermanifold), is a [[function]] of the form
+=--
 
-$$
-  \array{
-    \Omega(X, \mathfrak{g})
-    &\overset{ \left( \epsilon^{\rightsquigarrow}_{X} \right)^\ast }{\longrightarrow}&
-    \Omega(X^{\rightsquigarrow}, \mathfrak{g})
-  }
-$$
 
 +-- {: .num_defn #RheonomicSetOfDifferentialForms}
 ###### Definition
@@ -523,17 +616,27 @@ $$
   \Omega(X, \mathfrak{g})
 $$
 
-of super-[[Lie algebra valued differential forms|Lie algebra valued]] [[super differential forms]] is _rheonomic_ if on this subset the [[pullback of differential forms]] along $\epsilon_X^{\rightsquigarrow}$ is [[injection|injective]]
+of super-[[Lie algebra valued differential forms|Lie algebra valued]] [[super differential forms]] (Def. \ref{SuperLInfinityAlgebraValuedDifferentialForms})  is _rheonomic_ if on this subset the restriction to the bosoic subspace from Def. \ref{RestrictionOfSuperDifferentialFormsToBosonicSubmanifold} (hence the [[pullback of differential forms]] along $\epsilon_X^{\rightsquigarrow}$) is [[injection|injective]]
 
 $$
   \array{
     \widetilde \Omega(X,\mathfrak{g})
     \overset{
        \left( \epsilon_X^{\rightsquigarrow} \right)^\ast
-    }{\longrightarrow}
+    }{\hookrightarrow}
     \Omega\big( X^{\rightsquigarrow}, \mathfrak{g}\big)
   }
 $$
+
+hence if every super differential form
+
+$$
+  \mu 
+  \;\in\;
+  \widetilde \Omega(X,\mathfrak{g})
+$$
+
+is, as an element of this subset, uniquely determined by its restriction to the bosonic submanifold $X^{\rightsquigarrow}$.
 
 =--
 
