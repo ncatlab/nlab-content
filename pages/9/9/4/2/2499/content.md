@@ -709,6 +709,7 @@ $$
   \big( F_{\mu}\big)_{\alpha a}
   \;=\;
   \phi_{\alpha a}^{b c} \left( \big(F_\mu\big)_{b c} \right)
+  \,,
 $$
 
 that $\mu$ is uniquely determined already by the component $\mu_a\big( (x^a), (\theta^\alpha = 0)  \big)$. For this it is sufficent to show that all component functions
