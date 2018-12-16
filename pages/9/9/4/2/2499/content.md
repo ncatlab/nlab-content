@@ -721,21 +721,47 @@ $\mu_\alpha\big( (x^a), (\theta^\alpha)  \big)$
 
 may be expressed as functions of the $\mu_a\big( (x^a), (\theta^\alpha = 0) \big)$.
 
+We now first prove something weaker, namely that these functions are uniquely determined once we know not just $\mu_a\big( (x^a), (\theta^\alpha = 0) \big)$ but also $\mu_\alpha\big( (x^a), (\theta^\alpha = 0) \big)$. 
 
-
-
-**1)**
+> It seems to me that this weaker statement is all that [Castellani-D'Auria-Fr&#233; 91, vol 2, III.3.3](#CastellaniDAuriaFre) really provide, for notice that the last line of their (III.3.29) still depends on $\mu_\alpha\big( (x^a), (\theta^\alpha = 0) \big)$.
 
 By the nilpotency of the odd-graded coordinates $\theta^\alpha$, we have that $\mu$ is a [[multilinear map]] in the $\theta^\alpha$. 
 
-Hence, by [[induction]], assume that the  $k$-linear part $\mu_a\big( (x^a), (\theta^\alpha)_{k lin}  \big)$ in the $\theta^\alpha$ of $\mu_a\big( (x^a), (\theta^\alpha)  \big)$ is fixed by. It is then sufficient to show that also the $(k+1)$-linear term $\mu_a\big( (x^a), (\theta^\alpha)_{(k+1) lin}  \big)$ is fixed.
+Hence, by [[induction]], assume that the  $k$-linear parts $\mu\big( (x^a), (\theta^\alpha)_{k lin}  \big)$ in the $\theta^\alpha$ of $\mu\big( (x^a), (\theta^\alpha)  \big)$ is fixed by $\mu\big( (x^a), (\theta^\alpha = 0)  \big)$. It is then sufficient to show that also the $(k+1)$-linear term $\mu_a\big( (x^a), (\theta^\alpha)_{(k+1) lin}  \big)$ is fixed.
 
-This is evidently equivalent to the statement that all the [[derivatives]] of $\mu_a\big( (x^a), (\theta^\alpha)_{(k+1) lin}  \big)$ by any $\theta^{\alpha_{k+1}}$ evaluated at $\theta^{\alpha_{k+1}} = 0$ are fixed. 
+This is evidently equivalent to the statement that all the [[derivatives]] of $\mu\big( (x^a), (\theta^\alpha)_{(k+1) lin}  \big)$ by any $\theta^{\alpha_{k+1}}$ evaluated at $\theta^{\alpha_{k+1}} = 0$ are fixed. 
 
-The key point is that by the assumption that we have a Cartan connection, these derivatives are proportional to a sum of $\big( F_\omega\big)_{\alpha_{k+1} a}$
+The key point is that by the assumption that we have a Cartan connection, these derivatives are proportional to a sum of $\big( F_\omega\big)_{\alpha_{k+1} a}$ with a linear combination of the $\mu$. But by assumption, $\big( F_\omega\big)_{\alpha_{k+1} a}$ (which a priori depends on data at $\mathbf{d}\theta^\alpha \neq 0$) is a linear combination of the curvatures with bosonic indices, and these are determined from the data at $d \theta^\alpha = 0$.
 
-(...)
+> This is essentially the argument in [Castellani-D'Auria-Fr&#233; 91, vol 2, (III.3.29)-(III.3.31)](#CastellaniDAuriaFre), except that I have added the inductive argument, which seems necessary to really conclude beyond first order in ther odd coordinates.
 
+This shows that $\mu\big( (x^a), (\theta^\alpha)  \big)$ satisfies well-formed differential equations in the $\theta^\alpha$. 
+
+To conclude, we hence need to see that we have sufficient boundary data on $\mu\big( (x^a), (\theta^\alpha)  \big)$ fixed to have the solution to this differential equation be unique.
+
+Now the boundary data for $\mu_a\big( (x^a), (\theta^\alpha)  \big)$ is clearly $\mu_a\big( (x^a), (\theta^\alpha = 0)  \big)$, and if the differential equations did not also depend on $\mu_\alpha\big( (x^a), (\theta^\alpha)  \big)$ this would be the end of the story. 
+
+We do *not* know the analogous boundary data $\mu_\alpha\big( (x^a), (\theta^\alpha = 0)  \big)$, since all of $\mu_\alpha$ is forgotten when restricting to $\mathbf{d}\theta^\alpha = 0$.
+But we do have other boundary conditions on $\mu_\alpha\big( (x^a), (\theta^\alpha)  \big)$...
+
+> this is the argument I am adding in order to patch what seems to be a gap in Castellani-D'Auria-Fre
+
+... namely since $\mu_\alpha\big( (x^a), (\theta^\alpha)  \big)$ is the coefficient of $\mathbf{d}\theta^\alpha$, we may/should constrain it to be _independent_ of the corresponding coordinate $\theta^\alpha$, for it had a dependence on this coordinate, this would disappear as we form $\mu = \mu_\alpha \mathbf{d}\theta^\alpha$.
+
+Hence our total boundary conditions are
+
+$$
+  \mu_a\big( (x^a), (\theta^\alpha)  \big)_{\vert (\theta^\alpha = 0)}
+  =
+  \mu_a\big( (x^a), (\theta^\alpha = 0)  \big)
+  \;\;\,,
+  \;\;
+  \frac{\partial}{\partial \theta^\alpha}\mu_\alpha\big( (x^a), (\theta^\alpha)  \big)
+  =
+  0
+$$
+
+(no sum over $\alpha$). Since we started with a solution to these differential equations, which we are trying to reconstruct, there is no issue here of integrating these differential equations. The only question is if these are sufficient to uniquely nail down that solution which we do know exists. Just by counting variables and conditions (which should be independent conditions) this should be the case.
 
 
 =--
