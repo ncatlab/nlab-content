@@ -32,6 +32,8 @@ It is claimed ([Mochizuki 12d](#Mochizuki12d)) but currently unchecked that a pr
 
 * [[universe polymorphism]]
 
+* [[poly-morphism]] (not to be be confused with [[polymorphism]])
+
 ## References
 
 * [[Shinichi Mochizuki]], _Inter-universal Teichm&#252;ller theory I, Construction of Hodge theaters_ (2012) ([pdf](http://www.kurims.kyoto-u.ac.jp/~motizuki/Inter-universal%20Teichmuller%20Theory%20I.pdf))
