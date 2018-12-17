@@ -63,7 +63,7 @@ The original source is
 
 This was refined in the thesis
 
-* [[Nick Gurski]], _An algebraic theory of tricategories_ ([pdf](http://www.math.yale.edu/~mg622/tricats.pdf))
+* [[Nick Gurski]], _An algebraic theory of tricategories_ ([pdf](http://gauss.math.yale.edu/~mg622/tricats.pdf))
 
 which is probably the best current starting point to read about tricategories and from where to take pointers to the original work by Gordon-Power-Street.
 
