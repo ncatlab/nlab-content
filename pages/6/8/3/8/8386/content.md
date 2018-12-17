@@ -37,7 +37,7 @@ $$ \array {
    \mathllap{c \times c} \downarrow &                   & \downarrow \mathrlap{c} \\
    \mathbb{R} \times \mathbb{R}     & \underset{add}\to & \mathbb{R}
 } $$
-But thing don\'t always work out this way.
+But things don\'t always work out this way.
 
 
 ## Parametric polymorphism
