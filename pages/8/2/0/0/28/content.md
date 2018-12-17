@@ -82,7 +82,7 @@ A [[homomorphism]] between groupoids is the obvious: a [[function]] between thei
 
 For example if $f \;\colon\; X \to Y$ is a [[continuous function]] between topological spaces, then postcomposition of [[paths]] with this function induces a groupoid homomorphism $f_\ast \;\colon\; \Pi_1(X) \longrightarrow \Pi_1(Y)$ between the [[fundamental groupoids]] from above.
 
-Groupoids with groupoid homomorphisms ([[functors]]) between them form a [[category]] [[Grp]] (def. \ref{1CategoryOfGroupoids} below) which includes the categeory [[Grp]] of [[groups]] as the [[full subcategory]] of the groupoids with a single object. This makes precise how groupoid theory is a genralization of [[group theory]].
+Groupoids with groupoid homomorphisms ([[functors]]) between them form a [[category]] [[Grpd]] (def. \ref{1CategoryOfGroupoids} below) which includes the categeory [[Grp]] of [[groups]] as the [[full subcategory]] of the groupoids with a single object. This makes precise how groupoid theory is a genralization of [[group theory]].
 
 However, for groupoids more than for groups one is typically interested in "[[conjugation actions]]" on homomorphisms. These are richer for groupoids than for groups, because one may conjugate with a different morphism at each object. If we think of groupoids as special cases of [[categories]], then these "conjugation actions on homomorphisms" are _[[natural transformations]]_ between [[functors]].
 
@@ -107,7 +107,7 @@ $$
 
 One may take care of the existence of these conjugation actions/natutaral transformation in two way:
 
-1. If one quotients them out, i.e. if one identifies two groupoid homomorphisms that differ by a conjugation action, then the resulting [[category]] of groupoids and classes of homomorphisms is called the _[[homotopy category]]_ $Ho(Grp)$ of [[Grp]] (def. \ref{HomotopyCategoryOfGroupoids} below). This is [[equivalence of categories|equivalent]] to the [[full subcategory]] of the [[classical homotopy category]] of [[topological spaces]] on those that are ([[CW-complexes]] and) [[homotopy 1-types]], i.e. those for which the [[fundamental groupoid]] is the _only_ homotopy invariant, with all higher [[homotopy groups]] being trivial:
+1. If one quotients them out, i.e. if one identifies two groupoid homomorphisms that differ by a conjugation action, then the resulting [[category]] of groupoids and classes of homomorphisms is called the _[[homotopy category]]_ $Ho(Grpd)$ of [[Grpd]] (def. \ref{HomotopyCategoryOfGroupoids} below). This is [[equivalence of categories|equivalent]] to the [[full subcategory]] of the [[classical homotopy category]] of [[topological spaces]] on those that are ([[CW-complexes]] and) [[homotopy 1-types]], i.e. those for which the [[fundamental groupoid]] is the _only_ homotopy invariant, with all higher [[homotopy groups]] being trivial:
 
    $$
      Ho(Grpd) \simeq Ho(Top^{CW}_{\leq 1}) \hookrightarrow Ho(Top^{CW})
@@ -116,7 +116,7 @@ One may take care of the existence of these conjugation actions/natutaral transf
 
    This means that the concept of groupoids may be regarded as a combinatorial model for [[homotopy 1-types]] in [[homotopy theory]], in contrast to the models by [[topological spaces]] given by [[topological homotopy theory]]. This equivalence generalizes to [[homotopy n-types]] as one passes to [[n-groupoids]] and eventually to all [[homotopy types]] as one passes to [[infinity-groupoids]].
 
-1. Instead of forgetting all the information encoded in the conjugations/natural transformations, one may also collect it all into the structure of a [[2-category]] [[Grp]] (in fact a [[(2,1)-category]]). As such this is the sub-2-category of [[Cat]] on those (small) categories all whose morphisms are [[invertible morphism]].
+1. Instead of forgetting all the information encoded in the conjugations/natural transformations, one may also collect it all into the structure of a [[2-category]] [[Grpd]] (in fact a [[(2,1)-category]]). As such this is the sub-2-category of [[Cat]] on those (small) categories all whose morphisms are [[invertible morphism]].
 
 For more introduction on this see at _[[geometry of physics -- homotopy types]]_.
 
