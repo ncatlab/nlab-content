@@ -9,6 +9,8 @@
 =--
 =--
 
+> This page is about the concept of polymorphism in computer science. For the generalisation of morphisms introduced by [[Shinichi Mochizuki]], see [[poly-morphism]].
+
 # Polymorphism
 * table of contents
 {: toc}
