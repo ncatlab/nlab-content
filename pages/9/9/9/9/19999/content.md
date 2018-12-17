@@ -14,7 +14,7 @@ In the following, fix a [[monoidal category]] $V$ and a $V$-[[enriched category]
 +-- {: .num_defn}
 ###### Definition
 
-For $P\colon C\to C$ a [[lax monoidal functor]], the **$P$-poly category** $C^{P poly}$ is the $V$-category with the same objects as $C$, and where the $V$-hom object $C^{P poly}(a,b) := P(C(a,b))$.
+For $P\colon V\to V$ a [[lax monoidal functor]], the **$P$-poly category** $C^{P poly}$ is the $V$-category with the same objects as $C$, and where the $V$-hom object $C^{P poly}(a,b) := P(C(a,b))$.
 
 =--
 
