@@ -11,7 +11,7 @@ This may be understood as a first step towards formulating [[intersection theory
 
 ## Statement
 
-Given a [[regular scheme]] $X$ and subschemes $Y,Z$ with defining ideal sheaves $\mathcal{I},\mathcal{J}$, respectively, the intersection multiplicity $m(x,Y,Z)$ at a generic point $x$ at the intersection $Y\cap Z$ us given by the Serre intersection (or multiplicity) formula in terms of torsion groups
+Given a [[regular scheme]] $X$ and subschemes $Y,Z$ with defining ideal sheaves $\mathcal{I},\mathcal{J}$, respectively, the intersection multiplicity $m(x,Y,Z)$ at a generic point $x$ of (an irreducible component of) the intersection $Y\cap Z$ is given by the Serre intersection (or multiplicity) formula in terms of torsion groups:
 
 $$
 m(x,Y,Z) = \sum_{i\geq 0} (-1)^i length_{\mathcal{O}_{X,x}} Tor_i^{\mathcal{O}_{X,x}}
