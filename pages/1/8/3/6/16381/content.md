@@ -10,5 +10,8 @@ _Quaternionic quantum mechanics_ is the proposal to consider the principles of [
 ## References
 
 
-* [[Stephen Adler]], _Quaternionic Quantum Mechanics and Quantum Fields_, International series of monographs on physics 88 Oxford University Press. 1995
+* [[Stephen Adler]], _Quaternionic Quantum Mechanics and Quantum Fields_, International series of monographs on physics 88 Oxford University Press. 
+* [[Valter Moretti]], Marco Oppio  Quantum theory in quaternionic Hilbert space: How Poincaré symmetry reduces the theory to the standard complex one
+Rev. Math. Phys. 31, (2019) 1950013
+
 
