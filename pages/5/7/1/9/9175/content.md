@@ -28,6 +28,35 @@ the [[small fibration]] obtained by the [[externalization]] of an internal group
 
 If the [[stabilizer subgroups]] of the [[action]] are [[finite groups]], then the quotient stack is an [[orbifold]]/[[Deligne-Mumford stack]] --the "quotient orbifold".
 
+## Motivation for definition of quotient stack. 
+
+Let $G$ be a Lie group action on a manifold $X$ (left action). 
+
+We define the quotient stack $[X/G]$ as 
+$$
+[X/G](Y):=\{P\xrightarrow{p} Y, P\xrightarrow{f}X | P\rightarrow Y \text{ is a G-bundle,} f  \text{ is } G\text{-equivariant}\}.
+$$ 
+
+Morphisms of objects are $G$-equivariant isomorphisms. This definition is taken from Heinloth's [Some notes on Differentiable stacks](https://www.uni-due.de/~hm0002/stacks.pdf).
+
+Given a Lie group action of $G$ on $X$, if we want to associate a stack, we  start with simpler cases which allows us to guess how to define $[X/G]$ in general.
+
+1. Suppose $X$ is trivial and $G$ acts trivially on $X=\{*\}$ then $[X/G]$ should only depend on $G$. We know what stack to associate for a Lie group $G$ i.e., $BG$. Thus, $[X/G]$ should just be $BG$.
+
+2. Suppose $G$ is trivial and $G$ acts on $X$, $[X/G]$ should only depend on $X$. We know what stack to associate for a manifold $X$ i.e., $\underline{X}$. Thus, $[X/G]$ should just be $\underline{X}$.
+
+3. Suppose $G$ is non trivial and $X$ is non trivial and that the action of $G$ on $X$ is free (and proper) so that $X/G$ is a manifold. We know what stack to associate for a manifold $X/G$ i.e., $\underline{X/G}$. Thus, $[X/G]$ should just be $\underline{X/G}$. 
+
+ 
+For general case of $G$ acting on $X$, we get a Lie groupoid, called the Translation groupoid (or action groupoid) usually denoted by $G\ltimes X$. 
+
+* Given a manifold $M$, we have a stack associated to it, namely $\underline{M}$. Given a Lie group $G$, we have a stack associated to it, namely $BG$. Given a Lie groupoid $\mathcal{G}$, we have a stack associated to it, namely $B\mathcal{G}$ i.e., the stack of principal groupoid $\mathcal{G}$ bundles.
+
+For action groupoid $\mathcal{G}=G\ltimes X$, let $B\mathcal{G}$ be the corresponding stack of principal $\mathcal{G}$ bundles. It turns out that $B\mathcal{G}$ is same $[X/G]$ defined above. More details to be found in [this page](https://mathoverflow.net/questions/319038/motivation-for-definition-of-quotient-stack).
+
+
+
+
 ## Properties
 
 ### Relation to principal and associated bundles
