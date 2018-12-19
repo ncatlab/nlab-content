@@ -15,7 +15,7 @@
 
 ## Idea
 
-For $\mathcal{T}$ a [[sheaf topos]], $G \in Grp(\mathcal{T})$ a [[group object]] and $V \in \mathcal{T}$ any object, and for $\rho \colon V \times G \to V$ an [[action]] of $G$ on $V$  , the **quotient stack** $V//G$ is the [[quotient]] of this action but formed not in $\mathcal{T}$ but under the inclusion
+For $\mathcal{T}$ a [[sheaf topos]], $G \in Grp(\mathcal{T})$ a [[group object]] and $V \in \mathcal{T}$ any object, and for $\rho \colon V \times G \to V$ an [[action]] of $G$ on $V$  , the **quotient stack** $V\sslash G$ is the [[quotient]] of this action but formed not in $\mathcal{T}$ but under the inclusion
 
 $$
   \mathcal{T} \hookrightarrow \mathbf{H}
@@ -61,9 +61,9 @@ For action groupoid $\mathcal{G}=G\ltimes X$, let $B\mathcal{G}$ be the correspo
 
 ### Relation to principal and associated bundles
 
-For $V = *$ the [[terminal object]], one writes $\mathbf{B}G \coloneqq *//G$.  This is the [[moduli stack]] for $G$-[[principal bundles]]. It is also the trivial _$G$-[[gerbe]]_.
+For $V = *$ the [[terminal object]], one writes $\mathbf{B}G \coloneqq *\sslash G$.  This is the [[moduli stack]] for $G$-[[principal bundles]]. It is also the trivial _$G$-[[gerbe]]_.
 
-There is a canonical projection $\overline{\rho} \;\colon\; V//G \to \mathbf{B}G$. This is the [[universal associated infinity-bundle|universal rho-associated bundle]].
+There is a canonical projection $\overline{\rho} \;\colon\; V\sslash G \to \mathbf{B}G$. This is the [[universal associated infinity-bundle|universal rho-associated bundle]].
 
 
 ## Related concepts
