@@ -21,13 +21,18 @@ A _homotopical category_ is a structure used in [[homotopy theory]], related to 
 
 \section{Definition}
 
-A _homotopical category_ is a [[category with weak equivalences]] where on top of the 2-out-of-3-property the morphisms satisfy the **[[2-out-of-6-property]]**: 
+A _homotopical category_ is a category with a distinguished class of
+morphisms (called 'weak equivalences') satisfying the following
+conditions:
 
-* If morphisms $h \circ g$ and $g \circ f$ are weak equivalences, then so are $f$, $g$, $h$ and $h \circ g \circ f$.
+* Every identity map is a weak equivalence.
+
+* It has the **[[2-out-of-6-property]]**: 
+if morphisms $h \circ g$ and $g \circ f$ are weak equivalences, then so are $f$, $g$, $h$ and $h \circ g \circ f$.
 
 \section{Remarks}
 
-* The 2-out-of-6-property implies the [[2-out-of-3]] property, hence every homotopical category is a [[category with weak equivalences]].
+* If the first condition in Def. 2 holds, then the 2-out-of-6-property implies the [[2-out-of-3]] property, hence every homotopical category is a [[category with weak equivalences]].
 
 * Every [[model category]] yields a homotopical category.
 
