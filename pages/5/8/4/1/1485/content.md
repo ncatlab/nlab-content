@@ -65,7 +65,7 @@ Note that the definition of a chart _per se_ does not involve $G$. The pseudogro
 +-- {: .num_defn #Atlas}
 ###### Definition
 
-A $G$-**atlas** on a [[topological space]] $M$ is a family of compatible charts $(\phi_\alpha: U_\alpha \to X)_\alpha$, def. \ref{Chart}, such that $(U_\alpha)_\alpha)_\alpha$ covers $M$.  The (restricted) maps $\phi_{\alpha \beta} = \phi_\beta \circ \phi_{\alpha}^{-1}$ are called **transition functions** between the charts of the atlas.
+A $G$-**atlas** on a [[topological space]] $M$ is a family of compatible charts $(\phi_\alpha: U_\alpha \to X)_\alpha$, def. \ref{Chart}, such that $(U_\alpha)_\alpha$ covers $M$.  The (restricted) maps $\phi_{\alpha \beta} = \phi_\beta \circ \phi_{\alpha}^{-1}$ are called **transition functions** between the charts of the atlas.
 
 =--
 
