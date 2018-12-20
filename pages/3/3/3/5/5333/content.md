@@ -240,6 +240,7 @@ See also
 
 * Hajime Otsuka, _$SO(32)$ heterotic line bundle models_, ([arXiv:1801.03684](https://arxiv.org/abs/1801.03684))
 
+* {#AngelantonjFlorakis18} Carlo Angelantonj, Ioannis Florakis, _GUT Scale Unification in Heterotic Strings_ ([arXiv:1812.06915](https://arxiv.org/abs/1812.06915))
 
 
 ### Superspace formulation of Heterotic supergravity 
