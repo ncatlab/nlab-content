@@ -331,9 +331,7 @@ Prop. \ref{OverCompactHausdorffSpacesEveryTopologicalVectorBundleIsDirectSummand
 
 =--
 
-## Comment
-
-Let $E_1\rightarrow M$ and $E_2\rightarrow M$ be vector bundles over $M$. This gives product map $E_1\times E_2\rightarrow M\times M$ which is still a vector bundle. Consider diagonal map $d:M\rightarrow M\times M$ given by $m\mapsto (m,m)$. The Whitney sum of $E_1\rightarrow M$ and $E_2\rightarrow M$ is the pull back of $E_1\times E_2\rightarrow M\times  M$ along the diagonal map $d:M\rightarrow M\times M$ which is denoted by $E_1\oplus E_2\rightarrow M$. 
+Remark : Let $E_1\rightarrow M$ and $E_2\rightarrow M$ be vector bundles over $M$. This gives product map $E_1\times E_2\rightarrow M\times M$ which is still a vector bundle. Consider diagonal map $d:M\rightarrow M\times M$ given by $m\mapsto (m,m)$. The Whitney sum of $E_1\rightarrow M$ and $E_2\rightarrow M$ is the pull back of $E_1\times E_2\rightarrow M\times  M$ along the diagonal map $d:M\rightarrow M\times M$ which is denoted by $E_1\oplus E_2\rightarrow M$.  
 
 
 ## Related concepts
