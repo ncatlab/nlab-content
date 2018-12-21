@@ -97,14 +97,15 @@ There is a modification of the [[small object argument]], due to Richard Garner,
 
 ## References
 
-* [[Marco Grandis]] and [[Walter Tholen]], _Natural weak factorization systems_, Arch. Math. (Brno)
-42(4) (2006) 397&#8211;408. MR2283020 (2008b:18006), Zbl 1164.18300.
+* [[Marco Grandis]] and [[Walter Tholen]], _Natural weak factorization systems_, Arch. Math. (Brno) 42(4) (2006) 397&#8211;408. MR2283020 (2008b:18006), Zbl 1164.18300.
 
 * [[Richard Garner]], _Understanding the small object argument_, [arXiv](http://arxiv.org/abs/0712.0724).
 
 * [[Emily Riehl]], _Algebraic model structures_, ([arXiv:0910.2733](http://arxiv.org/abs/0910.2733)).
 
 * [[Thomas Athorne]], _The coalgebraic structure of cell complexes_, [TAC](http://www.tac.mta.ca/tac/volumes/26/11/26-11abs.html)
+
+* [[Tobias Barthel]] and [[Emily Riehl]], *On the construction of functorial factorizations for model categories*, Algebr. Geom. Topol. Volume 13, Number 2 (2013), 1089-1124, [projecteuclid](https://projecteuclid.org/euclid.agt/1513715550), [arxiv](https://arxiv.org/abs/1204.5427)
 
 * [[John Bourke]] and [[Richard Garner]], _Algebraic weak factorisation systems I: accessible AWFS_, [arXiv](http://arxiv.org/abs/1412.6559).
 
