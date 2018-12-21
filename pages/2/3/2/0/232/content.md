@@ -200,7 +200,7 @@ These two operations form [[adjoint functors]] relating the [[2-category]] [[Cat
 
 ### Lax monoidal functors
 
-More generally, any (lax) [[monoidal functor]] $F: K \to L$ between monoidal categories can be regarded as a "change of base".  By applying $F$ to its hom-objects, any category enriched over $K$ gives rise to one enriched over $L$, and this forms a [[2-functor]] from $K$-Cat to $L$-Cat, and in fact from $K$-Prof to $L$-Prof; see [[profunctor]] and [[2-category equipped with proarrows]].
+More generally, any (lax) [[monoidal functor]] $F: K \to L$ between monoidal categories can be regarded as a "[[change of enriching category|change of base]]".  By applying $F$ to its hom-objects, any category enriched over $K$ gives rise to one enriched over $L$, and this forms a [[2-functor]] from $K$-Cat to $L$-Cat, and in fact from $K$-Prof to $L$-Prof; see [[profunctor]] and [[2-category equipped with proarrows]].
 
 Moreover, this operation is itself functorial from $MonCat$ to $2Cat$.  In particular, any [[monoidal adjunction]] $K\rightleftarrows L$ gives rise to a [[2-adjunction]] $K Cat\rightleftarrows L Cat$ (and also for profunctors).  The adjunction $Cat \rightleftarrows K Cat$ described above is a special case of this arising from the adjunction $-\cdot I: Set \rightleftarrows K : K(I,-)$.
 
