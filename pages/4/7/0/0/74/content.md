@@ -121,6 +121,8 @@ For more references see at _[[enriched category]]_.
 
 * [[profunctor]]
 
+* [[change of enriching category]]
+
 ### Universal constructions
 
 * [[weighted limit]]
