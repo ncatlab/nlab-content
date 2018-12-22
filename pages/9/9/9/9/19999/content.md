@@ -85,6 +85,17 @@ for the image of $C$ under the [[change of enriching category]] (Def. \ref{Chang
 
 We say that the [[morphisms]] of $C^{poly}$ are the **poly-morphisms** of $C$.
 
+Explicitly, this means [[composition]] is defined to be
+$$
+C^{poly}(a,b) \otimes C^{poly}(b,c) = P(C(a,b)) \otimes P(C(b,c)) \to P(C(a,b)\otimes B(b,c)) \to P(C(a,c)) = C^{P poly}(a,c)
+$$
+and the [[unit]] map is
+$$
+  I \to P(I) \to P(C(a,a)) = C^{P poly}(a,a)
+  \,.
+$$
+
+
 A **poly-isomorphism** of $C$ is defined to be a poly-morphism of the [[core]] of $C$, hence a morphism of $(Core(C))^{poly}$.
 Hence a poly-isomorphism is a collection of _[[invertible morphisms]]_ of $C$. 
 (Note that these are **not** in general the [[isomorphisms]] in $C^{poly}$: all the isomorphisms in $C^{poly}$ are actual isomorphisms in $C$.)
