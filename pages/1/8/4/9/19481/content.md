@@ -1,5 +1,6 @@
 
 ## Basic notions of Categorical algebra
+ {#BasicNotionsOfCategoricalAlgebra}
 
 
 We have seen that the existence of [[Cartesian products]] in a [[category]] $\mathcal{C}$ equips is with a [[functor]] of the form
@@ -2267,7 +2268,7 @@ out of the [[tensor unit]] $1 \in \mathcal{C}$ this induces a [[Set]]-[[enriched
 It is in this sense that $\mathcal{C}$ is a plain [[category]] ${\vert \mathcal{C}\vert}$ equipped with [[extra structure]], and hence an "[[enriched category]]".
 
 
-=---
+=--
 
 
 
