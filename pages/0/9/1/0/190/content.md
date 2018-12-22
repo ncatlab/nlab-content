@@ -87,35 +87,7 @@ By the [[axiom of choice]], the two definitions of $Cat$ as a $2$-[[2-category|c
 
 ## Related concepts
 
-
-* [[Pos]]
-
-* [[Set]]
-
-  * [[Rel]], [[Prof]]
-
-* [[Grpd]], [[∞Grpd]]
-
-* **$Cat$**, 
-
-  * [[elementary theory of the 2-category of categories]] ([[ETCC]])
-
-  * [[PrCat]]
-
-  * [[Operad]]
-
-  * [[VCat]]
-
-* [[2Cat]]
-
-* [[(∞,1)Cat]]
-  
-  * [[Pr(∞,1)Cat]]
-
-  * [[(∞,1)Operad]]
-
-* [[(∞,n)Cat]]
-
+[[!include categories of categories - contents]]
 
 
 ## References
