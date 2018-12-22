@@ -122,5 +122,7 @@ See also [[dg-category]].
 
 [[!redirects Ab-enriched category]]
 [[!redirects Ab-enriched categories]]
+[[!redirects Ab-category]]
+[[!redirects Ab-categories]]
 [[!redirects ringoid]]
 [[!redirects ringoids]]
