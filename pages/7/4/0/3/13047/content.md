@@ -5,9 +5,9 @@ This page collects pointers related to the textbook
 
   _Categorical Homotopy Theory_
 
-  Cambridge University Press
+  Cambridge University Press, 2014
 
-  ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf))
+  ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457))
 
 on ([[simplicial homotopy theory|simplicial]]) [[homotopy theory]] and [[(∞,1)-category theory]] with emphasis on tools from [[category theory]] and [[2-category]] theory.
 
