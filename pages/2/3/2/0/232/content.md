@@ -204,8 +204,7 @@ More generally, any (lax) [[monoidal functor]] $F: K \to L$ between monoidal cat
 
 Moreover, this operation is itself functorial from $MonCat$ to $2Cat$.  In particular, any [[monoidal adjunction]] $K\rightleftarrows L$ gives rise to a [[2-adjunction]] $K Cat\rightleftarrows L Cat$ (and also for profunctors).  The adjunction $Cat \rightleftarrows K Cat$ described above is a special case of this arising from the adjunction $-\cdot I: Set \rightleftarrows K : K(I,-)$.
 
-This and further properties of such "change of base" are explored in [[Geoff Cruttwell]]'s [thesis](http://pages.cpsc.ucalgary.ca/~gscruttw/publications/thesis4.pdf).
-
+This and further properties of such "[[change of enriching category|change of base]]" are explored in [Crutwell 14](#Crutwell14)
 
 ##Internalization versus Enrichment
 
@@ -283,16 +282,14 @@ Also
 
 * [[Emily Riehl]], chapter 3 _Basics of enriched category theory_ in _[[Categorical Homotopy Theory]]_
 
+Discussion of [[change of enriching category]] is in 
+
+* {#Crutwell14} [[Geoff Cruttwell]], chapter 4 of _Normed spaces and the Change of Base for Enriched Categories_, 2014 ([pdf](http://pages.cpsc.ucalgary.ca/~gscruttw/publications/thesis4.pdf))
 
 Vista of some modern generalizations is in
 
 * [[Tom Leinster]], _Generalized enrichment for categories and multicategories_,  [math.CT/9901139](http://arxiv.org/abs/math.CT/9901139)
 * [[Tom Leinster]], _Generalized enrichment of categories_, Journal of Pure and Applied Algebra __168__ (2002), no. 2-3, 391-406, [math.CT/0204279](http://arxiv.org/abs/math.CT/0204279)
-
-Change of base is discussed in
-
-* [[Geoff Cruttwell]], _Normed Spaces and the Change of Base for Enriched Categories_, [pdf](http://pages.cpsc.ucalgary.ca/~gscruttw/publications/thesis4.pdf)
-
 
 * John Armstrong: [Enriched categories](http://unapologetic.wordpress.com/2007/08/13/enriched-categories/). 
 
