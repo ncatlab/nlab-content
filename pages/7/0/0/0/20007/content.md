@@ -59,7 +59,16 @@ The operation of change of enriching category is functorial from [[MonCat]] to [
 
 The adjunction $Cat \rightleftarrows K Cat$ described above (...) is a special case of this arising from the adjunction $-\cdot I: Set \rightleftarrows K : K(I,-)$.
 
+## Examples
 
++-- {: .num_example #PolyMorphisms}
+###### Example
+**([[poly-morphisms]])**
+
+For $F =P \;\colon\; Set \to Set$ the [[power set]]-[[functor]], the change of base functor $P_\ast \;\colon\;
+ Cat \to Cat$ sends plain [[categories]] to plain categories. For $C$ any category, the morphisms of $C^{poly} \coloneqq P\ast(C)$ are called the _[[poly-morphisms]]_ of $C$ in [Mochizuki 12, section 0](poly-morphism#Mochizuki12)
+
+=--
 
 ## References
 
@@ -73,6 +82,7 @@ The adjunction $Cat \rightleftarrows K Cat$ described above (...) is a special c
 
 [[!redirects changes of enriching category]]
 [[!redirects changes of enriching categories]]
+[[!redirects change of enriching categories]]
 
 [[!redirects change of enriching base]]
 [[!redirects changes of enriching base]]
