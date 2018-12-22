@@ -52,12 +52,14 @@ This operation $F_\ast$ is sometimes called "change of enriching category" or "c
 
 In the special case that $\mathcal{C}$ has a single object and is hence (if thought of as [[pointed object|pointed]] by that object) equivalently a [[monoid object]] in $V_1$, this statement reduces to the statement that lax monoidal functors preserve [[monoids]] ([this Prop.](monoidal+functor#MonoidsToMonoidsByLaxMonoidal))
 
+Given a monoidal category, $V$, there is a 2-functor from $V Cat$ to $Cat$, which is base change by the functor $V(I,-): V \to Set$. This assigns to any $V$-enriched category, $\mathcal{C}$, its _underlying ordinary category_, usually denoted $\mathcal{C}_0$, defined by $\mathcal{C}_0(x,y) = V(I, hom(x,y))$.
+
 
 ## Properties
 
 The operation of change of enriching category is functorial from [[MonCat]] to [[2Cat]].  In particular, any [[monoidal adjunction]] $V_1\rightleftarrows V_2$ gives rise to a [[2-adjunction]] $V_1 Cat\rightleftarrows V_2 Cat$ (and also for profunctors).  
 
-The adjunction $Cat \rightleftarrows K Cat$ described above (...) is a special case of this arising from the adjunction $-\cdot I: Set \rightleftarrows K : K(I,-)$.
+For example, when the functor $V(I,-): V \to Set$ has a left adjoint taking a set to its copower with $I$, $-\cdot I: Set \rightleftarrows V : V(I,-)$, then this gives rise to a 2-adjunction $Cat \rightleftarrows V Cat$.
 
 ## Examples
 
