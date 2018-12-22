@@ -63,6 +63,8 @@ Discussion of [[Kleisli objects]] (collages) for [[monads]] generalized to categ
 [[!redirects category enriched in a 2-category]]
 [[!redirects categories enriched in a 2-category]]
 
+[[!redirects bicategory-enriched category]]
+[[!redirects bicategory-enriched categories]]
 
 [[!redirects polyad]]
 [[!redirects polyads]]
