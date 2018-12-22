@@ -693,6 +693,8 @@ higher versions
 
 ## Related concepts
 
+* [[MonCat]]
+
 * [[indexed monoidal category]]
 
 * [[traced monoidal category]]
