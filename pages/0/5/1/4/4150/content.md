@@ -27,10 +27,11 @@ More generally, it is about the study of
 
 1. [[Lawvere theory|algebras over]] [[algebraic theories]], 
 
-1. [[algebra over a monad|algebras over]] [[monads]], 
+1. [[algebra over a monad|algebras over]]$\,$ [[monads]], 
 
-1. [[algebra over an operad|algebras over]] [[operads]].
+1. [[algebra over an operad|algebras over]]$\,$ [[operads]].
 
+An account of the basics may be found at _[[geometry of physics -- categories and toposes]]_ in the section _[Basic notions of categorical algebra](geometry+of+physics+--+categories+and+toposes#BasicNotionsOfCategoricalAlgebra)_.
 
 ## Related concepts
 
