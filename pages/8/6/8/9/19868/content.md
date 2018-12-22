@@ -45,12 +45,12 @@ is equal (on the nose) to the chosen pullback square corresponding to the morphi
 The last condition can be reformulated in terms of categories of elements by requiring that the square of categories and functors
 $$
 \array{
-el(Ty^C) & \to & el(Ty^D) \\
+el(Ty_C) & \to & el(Ty_D) \\
 \downarrow & & \downarrow \\
-el(Tm^C) & \to & el(Tm^D)
+el(Tm_C) & \to & el(Tm_D)
 }
 $$
-commutes strictly, where the vertical maps are the $\mathsf{ext}$ functors corresponding to the chosen algebraic representations.
+commutes strictly, where the vertical maps are the $\mathsf{ext}$ functors corresponding to the chosen algebraic representations and the horizontal maps are $\el (F_*)$ the category of elements functor composed with the direct image functor applied to $F$.
 
 This defines a category $\mathbf{CwF}$ of categories with families and their morphisms, in which we aim to construct an initial object.
 
