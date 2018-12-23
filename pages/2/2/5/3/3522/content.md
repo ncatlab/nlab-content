@@ -406,6 +406,13 @@ On the relation to [[configuration space (mathematics)|configuration spaces]]:
 
 * {#Ching05b} [[Michael Ching]], _Calculus of Functors and Configuration Spaces_, Conference on Pure and Applied Topology Isle of Skye, Scotland, 21-25 June, 2005 ([pdf](https://www3.amherst.edu/~mching/Work/skye.pdf))
 
+Discussion in terms of [[spectral Mackey functors]]
+
+* {#Glasman15} [[Saul Glasman]], _Stratified categories, geometric fixed points and a generalized Arone-Ching theorem_ ([arXiv:1507.01976](https://arxiv.org/abs/1507.01976), [talk notes pdf](http://www-users.math.umn.edu/~sglasman/strattalk.pdf))
+
+* {#Glasman16} [[Saul Glasman]], _Goodwillie calculus and Mackey functors_  ([arXiv:1610.03127](https://arxiv.org/abs/1610.03127))
+
+
 [[!redirects Goodwillie derivative]]
 [[!redirects Goodwillie derivatives]]
 
