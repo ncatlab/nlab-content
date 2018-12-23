@@ -1,10 +1,16 @@
 
 
 * [webpage](http://www.math.ias.edu/~sglasman/)
-* [research statement](http://www.math.ias.edu/~sglasman/research%20statement2015.pdf)
+
 
 ## related $n$Lab entries
 
 * [[cyclotomic spectrum]]
+
+* [[spectral Mackey functor]]
+
+  * [[equivariant stable homotopy theory]]
+
+  * [[Goodwillie calculus]]
 
 category: people
