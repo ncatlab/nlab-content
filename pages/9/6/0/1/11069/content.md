@@ -65,9 +65,14 @@ for all $X \in \Sm_S$.
 * {#Levine06} [[Marc Levine]], section 3.2 of _Six lectures on motives_, ICTP lectures 2006 ([pdf](http://users.ictp.it/~pub_off/lectures/lns023/Levine/Levine.pdf))
 
 
+Relation to [[Mackey functors]]:
+
+* {#KahnYamazaki11} [[Bruno Kahn]], Takao Yamazaki, _Voevodsky's motives and Weil reciprocity_, Duke Mathematical Journal 162, 14 (2013) 2751-2796 ([arXiv:1108.2764](http://arxiv.org/abs/1108.2764))
+
+
 In the more general context of [[abelian sheaf cohomology]] a kind of "transfer" is discussed in 
 
-* {#Piacenza84} Robert Piacenza, _Transfer in generalized sheaf cohomology_, Proceedings of the AMS, Volume 90, Number 4 (1984)
+* {#Piacenza84} [[Robert Piacenza]], _Transfer in generalized sheaf cohomology_, Proceedings of the AMS, Volume 90, Number 4 (1984)
 
 [[!redirects sheaves with transfer]]
 [[!redirects sheaf with transfer]]
