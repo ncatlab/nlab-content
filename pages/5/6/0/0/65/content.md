@@ -118,9 +118,9 @@ The canonical model structures for 2-categories and bicategories are due to
 
 * [[Steve Lack]],
 
-  _A Quillen Model Structure for 2-Categories_, K-Theory 26: 171&#8211;205, 2002. ([website](http://www.maths.usyd.edu.au/u/stevel/papers/qmc2cat.html))
+  _A Quillen Model Structure for 2-Categories_, K-Theory 26: 171&#8211;205, 2002. ([website](http://web.science.mq.edu.au/~slack/papers/qmc2cat.html))
    
-  _A Quillen Model Structure for Bicategories_, K-Theory 33: 185-197, 2004. ([website](http://www.maths.usyd.edu.au/u/stevel/papers/qmcbicat.html))
+  _A Quillen Model Structure for Bicategories_, K-Theory 33: 185-197, 2004. ([website](http://web.science.mq.edu.au/~slack/papers/qmcbicat.html))
 
 and for $n=3$ ([[Gray-categories]]) in
 
