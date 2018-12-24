@@ -54,7 +54,7 @@ The notion of anabelian geometry originates in
 
 written in response to [[Faltings]]' work on the [[Mordell Conjecture]], and the note of the [[Long March]]:
 
-* [[Alexandre Grothendieck]], Notes Anabéliennes ([link](https://github.com/carmonamateo/NotesAnabeliennes)).
+* [[Alexandre Grothendieck]], Notes Anabéliennes ([link](https://github.com/carmonamateo/LaLongueMarche)).
 
 There is some discussion of the area in 
 
