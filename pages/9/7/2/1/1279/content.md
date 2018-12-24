@@ -267,7 +267,7 @@ and
     \frac{
       \vec{\phi}, \beta, \vec{\psi} \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}
     }{
-      \vec{\phi}, \alpha \wedge \beta \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}
+      \vec{\phi}, \alpha \wedge \beta, \vec{\psi} \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}
     }
     \,
   $$
