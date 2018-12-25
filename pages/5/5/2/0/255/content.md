@@ -131,7 +131,7 @@ Moreover, passing from [[adjunctions]] to monads and back to their [[monadic adj
 ## Examples 
 
 
-### Monads on $Set$
+### Monads in $Set$
 
 
 Many of these monads also have standard usages as [[monad (computer science)|monads in computer science]].
@@ -147,18 +147,17 @@ The free-forgetful [[adjunction]] between [[monoids]] and [[sets]] induces an [[
 
 $$TA := \bigsqcup_{n \ge 0} A^n $$ 
 
-giving the **free monoid monad**. This also goes by the name $[[list monad]]$ or $[[Kleene-Star]]$ in computer science. The components of the unit $\eta_A : A \to T A$ give inclusions sending each element of $A$ to the corresponding singleton list. The components of the multiplication $\mu_A : T^2 A \to T A$ are the concatenation functions, sending a list of lists to the corresponding list (Known as flattening in computer science). This monad can be defined in any [[monoidal category]] with [[coproducts]] that distribute over the monoidal product.  
+giving the **free monoid monad**. This also goes by the name [[list monad]] or [[Kleene-Star]] in computer science. The components of the unit $\eta_A : A \to T A$ give inclusions sending each element of $A$ to the corresponding singleton list. The components of the multiplication $\mu_A : T^2 A \to T A$ are the concatenation functions, sending a list of lists to the corresponding list (Known as flattening in computer science). This monad can be defined in any [[monoidal category]] with [[coproducts]] that distribute over the monoidal product.  
 =--
 
 +-- {: .num_example #StateMonad}
 ###### Example
-[[state monad]]
-
+For a fixed set of "states" $S$, the ($S \times - \dashv (-)^S$)-adjunction induces a monad $(S \times -)^S$ on $Set$ called the [[state monad]]. This is a commonly used monad in computer science. In functional programming languages such as Haskell, states can be used to model "side effects" of computations.
 =--
 
-+-- {: .num_example}
++-- {: .num_example #ContinuationMonad}
 ###### Example
-The contravariant [[power set]] functor is it's own right adjoint, giving $\Set(A,P B) \cong \Set (B, P A)$. Note that $\hom(A, P B) = \hom(A, \hom(B,\Omega) \cong \hom( A \times B, \Omega) = P(A \times B)$ inducing a **double power set monad** taking a set $A$ to $P^2 A$. The components of the unit are the [[ultrafilter|principle ultrafilter]] functions $\eta_A : A \to P^2 A$ which send an element $a$ to the set of subsets of $A$ that contain $a$. The components of the  multiplication $\mu_A$ is the inverse image function for the map $\mu_{P A} : P A \to P^3 A$. Which can be painfully stated as: the function taking a set of sets of sets of subsets to the set of subsets of $A$ with the property that one of the sets of sets of subsets is the set of all sets of subsets of $A$ that include that particular subset as an element. 
+The contravariant [[power set]] functor is its own right adjoint, giving $\Set(A,P B) \cong \Set (B, P A)$. Note that $\hom(A, P B) = \hom(A, \hom(B,\Omega) \cong \hom( A \times B, \Omega) = P(A \times B)$ inducing a **double power set monad** taking a set $A$ to $P^2 A$. The components of the unit are the [[ultrafilter|principle ultrafilter]] functions $\eta_A : A \to P^2 A$ which send an element $a$ to the set of subsets of $A$ that contain $a$. The components of the  multiplication $\mu_A$ is the inverse image function for the map $\mu_{P A} : P A \to P^3 A$. Which can be painfully stated as: the function taking a set of sets of sets of subsets to the set of subsets of $A$ with the property that one of the sets of sets of subsets is the set of all sets of subsets of $A$ that include that particular subset as an element. 
 
 Replacing the two element [[power object]] $\Omega$ with any other set gives similar monads. In computer science contexts these are known as [[continuation monad|continuation monads]]. This construction can also be generalised for any other [[cartesian closed category]]. For example there is a similar **double dual monad* on $\Vect_k$.
 
@@ -189,6 +188,14 @@ The free-forgetful [[adjunction]] between [[sets]] and the category of $R$-[[mod
 The free-forgetful [[adjunction]] between [[sets]] and the category of [[groups]] gives the **free group monad** $F : Set \to Set$ that sends $A$ to the set $F(A)$ of finite words in the letters $a \in A$ together with inverses $a^{-1}$.  
 =--
 
+
+### Topology
+
++-- {: .num_example #UltrafilterMonad}
+###### Example
+There is a [[forgetful functor]] $U : \Top \to \Set$ taking a [[topological space]] to its underlying [[set]]. It is right adjoint to the discrete space functor $D: \Set \to \Top$ taking a set to its [[discrete topology]]. There is also an adjoint pair $\beta \dashv U'$ between the category of [[compact]] [[Hausdorff topological spaces]] and the category of [[topological spaces]], where $\beta$ is the [[Stone-Cech compactification]]. The composites of these two adjoint pairs gives a monad $\beta : \Set \to \Set$ sending a set to its underlying set of the Stone-Cech compactification of its discrete space. It is also known as the [[ultrafilter]] monad as $\beta$ can be thought of as the functor taking a set to its set of ultrafilters.
+
+=--
 
 ### Monads in Cat
 
