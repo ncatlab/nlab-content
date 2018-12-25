@@ -131,11 +131,10 @@ Moreover, passing from [[adjunctions]] to monads and back to their [[monadic adj
 ## Examples 
 
 
-### General
-
-General types of monads that have standard usages also as [[monad (computer science)|monads in computer science]].
+### Monads on $Set$
 
 
+Many of these monads also have standard usages as [[monad (computer science)|monads in computer science]].
 
 +-- {: .num_example #MaybeMonad}
 ###### Example
@@ -159,7 +158,9 @@ giving the **free monoid monad**. This also goes by the name $[[list monad]]$ or
 
 +-- {: .num_example}
 ###### Example
-[[continuation monad]]
+The contravariant [[power set]] functor is it's own right adjoint, giving $\Set(A,P B) \cong \Set (B, P A)$. Note that $\hom(A, P B) = \hom(A, \hom(B,\Omega) \cong \hom( A \times B, \Omega) = P(A \times B)$ inducing a **double power set monad** taking a set $A$ to $P^2 A$. The components of the unit are the [[ultrafilter|principle ultrafilter]] functions $\eta_A : A \to P^2 A$ which send an element $a$ to the set of subsets of $A$ that contain $a$. The components of the  multiplication $\mu_A$ is the inverse image function for the map $\mu_{P A} : P A \to P^3 A$. Which can be painfully stated as: the function taking a set of sets of sets of subsets to the set of subsets of $A$ with the property that one of the sets of sets of subsets is the set of all sets of subsets of $A$ that include that particular subset as an element. 
+
+Replacing the two element [[power object]] $\Omega$ with any other set gives similar monads. In computer science contexts these are known as [[continuation monad|continuation monads]]. This construction can also be generalised for any other [[cartesian closed category]]. For example there is a similar **double dual monad* on $\Vect_k$.
 
 =--
 
@@ -171,18 +172,9 @@ giving the **free monoid monad**. This also goes by the name $[[list monad]]$ or
 +-- {: .num_example}
 ###### Example
 [[necessity]] 
-=--
-
-+-- {: .num_example}
-###### Example
 [[possibility]]
 =--
 
-
-+-- {: .num_example}
-###### Example
-
-=--
 
 ### Algebra
 
