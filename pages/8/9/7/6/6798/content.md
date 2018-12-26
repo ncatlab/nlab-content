@@ -110,3 +110,7 @@ On application to problems in non-supersymmetric [[Yang-Mills theory]] ([[confin
 
 [[!redirects super Yang-Mills theories]]
 
+[[!redirects SYM]]
+[[!redirects SYM theory]]
+[[!redirects SYM theories]]
+
