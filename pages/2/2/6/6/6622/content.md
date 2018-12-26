@@ -700,3 +700,4 @@ of _An ABC of Category Theory_, Autumn 2004.  [available online](http://www.math
 _Tensor Categories_, [course notes available online](http://www-math.mit.edu/~etingof/tenscat.pdf)
 
 * J. Armstrong, [Mac Lane's coherence theorem](http://unapologetic.wordpress.com/2007/06/29/mac-lanes-coherence-theorem/)
+
