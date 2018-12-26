@@ -1,4 +1,3 @@
-$$\begin{svg}
 <svg width="480" height="320" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" xmlns:math="http://www.w3.org/1998/Math/MathML" se:nonce="39887">
  <defs>
   <marker id="se_marker_end_svg_39887_2" markerUnits="strokeWidth" orient="auto" viewBox="0 0 100 100" markerWidth="5" markerHeight="5" refX="50" refY="50">
@@ -240,5 +239,3 @@ $$\begin{svg}
   </foreignObject>
  </g>
 </svg>
-\end{svg}
-$$
