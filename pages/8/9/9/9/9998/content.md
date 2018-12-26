@@ -27,6 +27,8 @@
 
 ## References
 
+* Yuji Tachikawa, _Lectures on $4d$ $N=1$ dynamics and related topics_ ([arXiv:1812.08946](https://arxiv.org/abs/1812.08946))
+
 Construction by [[Kaluza-Klein mechanism|KK-reduction]] of the [[6d (2,0)-superconformal QFT]] on the [[M5-brane]] on a [[Riemann surface]] is in
 
 * Ibrahima Bah, Christopher Beem, Nikolay Bobev, Brian Wecht, _Four-Dimensional SCFTs from M5-Branes_ ([arXiv:1203.0303](http://arxiv.org/abs/1203.0303))
