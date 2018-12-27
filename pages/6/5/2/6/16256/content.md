@@ -116,6 +116,8 @@ Original articles include
 
 * {#GrossPerry83} [[David Gross]] and M. Perry, Nucl. Phys. B226 (1983) 29.
 
+* {#Ruback86} P. J. Ruback, _The motion of Kaluza-Klein monopoles_, Comm. Math. Phys. Volume 107, Number 1 (1986), 93-102 ([euclid:1104115933](https://projecteuclid.org/euclid.cmp/1104115933))
+
 * A. L. Cavalcanti de Oliveira, E. R. Bezerra de Mello, _Kaluza-Klein Magnetic Monopole in Five-Dimensional Global Monopole Sapcetime_, Class.Quant.Grav. 21 (2004) 1685-1694 ([arXiv:hep-th/0309189](http://arxiv.org/abs/hep-th/0309189))
 
 Review includes
