@@ -32,6 +32,7 @@ The _Kaluza-Klein monopole_ ([Han-Koh 85](#HanKoh85)) is one type of solution of
 
 Upon [[KK-compactification]] on a 6-dimensional [[fiber]], with the 11d KK-monopole / [[D6-brane]] completely [[wrapped brane|wrapping]] the fiber, the KK-monopole in [[11d supergravity]] becomes the KK-monopole in [[5d supergravity]]. Further compactifying on a circle leads to a [[black hole]] in 4d, incarnated as a D0/D6 bound state (e.g. [Nelson 93](#Nelson93)).
 
+[[!include KK-monopole geometries -- table]]
 
 ## Relation to the D6-brane in type IIA string theory 
  {#RelationToTheD6Brane}
