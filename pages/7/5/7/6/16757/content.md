@@ -41,6 +41,12 @@ $\,$
 
 [[!include ADE -- table]]
 
+
+### From coincident KK-monopoles
+
+[[!include KK-monopole geometries -- table]]
+
+
 ### Bridgeland stability conditions
 
 For $G_{ADE} \subset SU(2)$ a [[finite subgroup of SU(2)]], 
