@@ -11,3 +11,5 @@
 $$
   8 m = R
 $$
+
+<object data="/nlab/files/pentagon.svg" type="image/svg+xml"/>
