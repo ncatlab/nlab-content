@@ -68,6 +68,8 @@ $\cdots \to$ [[Fivebrane group]] $\to$ [[string group]] $\to$ [[spin group]] $\t
 
 [[!include table of orthogonal groups and related]]
 
+* [[Euler angles]]
+
 ## References
  {#References}
 
