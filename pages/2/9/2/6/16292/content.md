@@ -46,9 +46,15 @@ $$
   (d s)^2 = \frac{1}{4} \frac{r+n}{r-n} (d r)^2 + \frac{r-n}{r+n} n^2 {\sigma_3}^2 + \frac{1}{4}(r^2 - n^2)({\sigma_1}^2 + {\sigma_2}^2)
 $$
 
+## Properties
+
+### Relation to KK-monopoles
+
+[[!include KK-monopole geometries -- table]]
 
 
-## Relation to D6-branes
+
+### Relation to D6-branes
 
 [[!include F-branes -- table]]
 
