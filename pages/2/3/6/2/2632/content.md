@@ -391,9 +391,13 @@ Some standard references include
  
 * F. Strocchi, _An introduction to the mathematical structure of quantum mechanics_ 
 
+* [[Valter Moretti]], _Spectral Theory and Quantum Mechanics_ 2nd edition  Springer 2018
+
 Dicussion of quantum measurement is in
 
 * Jan Perina, Z. Hradil, [[Branislav Jurčo]], _[[Quantum optics and fundamentals of physics]]_, Kluwer 1994
+
+
 
 
 Comments on the foundations of quantum physics include
