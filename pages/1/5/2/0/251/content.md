@@ -124,7 +124,7 @@ It is natural to ask what the "unbiased" notion of composition and associativity
 
 It can be shown that if a given such dissection can be composed up in *some* way using binary composites, then any two ways to compose it up must give the same result.  See
 
-* Dawson and Par&#233;, _General associativity and general composition for double categories_ , [link](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1993__34_1_57_0)
+* Dawson and Par&#233;, _General associativity and general composition for double categories_ , [link](http://www.numdam.org/item/CTGDC_1993__34_1_57_0/)
 
 
 Also of interest is "Characterizing tileorders" by the same authors, in which they characterize such rectangle-dissections, called [[tileorders]], in purely combinatorial terms.
