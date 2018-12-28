@@ -295,6 +295,9 @@ and was further developed in
 
 See also at _[super p-brane -- As part of the AdS-CFT correspondence](Green-Schwarz+action+functional#AsPartOfTheAdSCFTCorrespodence)_.
 
+Sketch of a derivation of AdS/CFT:
+
+* {#Nastase18} [[Horatiu Nastase]], _Towards deriving the AdS/CFT correspondence_ ([arXiv:1812.10347](https://arxiv.org/abs/1812.10347))
 
 ### Introductions and surveys
 
