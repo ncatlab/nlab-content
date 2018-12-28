@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="10em" height="10em" viewBox="-30 -10 160 150">
+<svg xmlns="http://www.w3.org/2000/svg">
  <desc>Comma square</desc>
  <defs>
   <marker id="svg295arrowhead" viewBox="0 0 10 10" refX="0" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="5" orient="auto">
