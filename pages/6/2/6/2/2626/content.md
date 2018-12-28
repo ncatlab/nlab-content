@@ -75,6 +75,8 @@ The study of knots is very pictorial.  There are various knot-related SVGs that 
 
 ## Related concepts
 
+* [[knot diagram]]
+
 * [[isotopy]], [[smooth isotopy]]
 
 * [[MKR dictionary]] in [[arithmetic topology]]
