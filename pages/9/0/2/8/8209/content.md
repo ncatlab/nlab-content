@@ -184,6 +184,7 @@ Other original articles include:
 
 * Brett McInnes, _Holography of the Quark Matter Triple Point_ ([arXiv:0910.4456](http://arxiv.org/abs/0910.4456))
 
+* Sara Heshmatian, Razieh Morad, _Jet suppression in non-conformal plasma using AdS/CFT_ ([arXiv:1812.09374](https://arxiv.org/abs/1812.09374))
 
 [[!redirects quark-gluon plasmas]]
 
