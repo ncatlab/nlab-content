@@ -133,5 +133,3 @@
                                             </g> 
 </svg> 
 
-
-category: svg
