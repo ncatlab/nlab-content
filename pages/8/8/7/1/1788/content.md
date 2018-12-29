@@ -14,7 +14,11 @@ $$
 
 \begin{tikzpicture}
 
-\filldraw (0,0) circle (3pt);
+\filldraw[red] (0,0) circle (3pt);
+
+\draw[red] (0,0) -- (3,0);
+
+\filldraw[red] (3,0) circle (3pt);
 
 \end{tikzpicture}
 
