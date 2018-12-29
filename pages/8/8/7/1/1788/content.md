@@ -11,3 +11,10 @@
 $$
   8 m = R
 $$
+
+\begin{tikzpicture}
+
+\filldraw (0,0) circle (3pt);
+
+\end{tikzpicture}
+
