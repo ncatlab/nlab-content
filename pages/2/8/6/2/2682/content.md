@@ -172,7 +172,7 @@ The following articles establish the existences of exact realization of the [[ga
 A computer search through the "[[landscape of string theory vacua|landscape]]" of [[Calabi-Yau varieties]] showed severeal hundreds more such exact heterotic standard models (about one billionth of all CYs searched, and most of them arising as $SU(5)$-[[GUTs]])
 
 
-* [[Lara Anderson]], [[Yang-Hui He]], [[Andre Lukas]], _Heterotic Compactification, An Algorithmic Approach_,  	JHEP 0707:049, 2007 ([arXiv:hep-th/0702210](https://arxiv.org/abs/hep-th/0702210))
+* [[Lara Anderson]], [[Yang-Hui He]], [[Andre Lukas]], _Heterotic Compactification, An Algorithmic Approach_, JHEP 0707:049, 2007 ([arXiv:hep-th/0702210](https://arxiv.org/abs/hep-th/0702210))
 
 * {#AndersonGrayLukasPalti11} [[Lara Anderson]], James Gray, [[Andre Lukas]], [[Eran Palti]], _Two Hundred Heterotic Standard Models on Smooth Calabi-Yau Threefolds_ ([arXiv:1106.4804](http://arxiv.org/abs/1106.4804))
 
@@ -192,7 +192,9 @@ Review includes
 
 * [[Lara Anderson]], _New aspects of heterotic geometry and phenomenology_, talk at [Strings2012](http://wwwth.mpp.mpg.de/conf/strings2012/), Munich 2012 ([pdf](http://wwwth.mpp.mpg.de/members/strings/strings2012/strings_files/program/Talks/Wednesday/Anderson.pdf))
 
-* {#He18} [[Yang-Hui He]], _Deep-learning the landscape_, talk at _[String and M-Theory: The new geometry of the 21st century](https://ims.nus.edu.sg/events/2018/wstring/wk.php)_ ([pdf slides](https://ims.nus.edu.sg/events/2018/wstring/files/yang.pdf), [video recording](https://www.youtube.com/watch?v=x3ThgBgkPlE))
+* {#He18a} [[Yang-Hui He]], _The Calabi-Yau Landscape: from Geometry, to Physics, to Machine-Learning_ ([arXiv:1812.02893](https://arxiv.org/abs/1812.02893))
+
+* {#He18b} [[Yang-Hui He]], _Deep-learning the landscape_, talk at _[String and M-Theory: The new geometry of the 21st century](https://ims.nus.edu.sg/events/2018/wstring/wk.php)_ ([pdf slides](https://ims.nus.edu.sg/events/2018/wstring/files/yang.pdf), [video recording](https://www.youtube.com/watch?v=x3ThgBgkPlE))
 
 
 Computation of [[metrics]] on these Calabi-Yau compactifications (eventually needed for computing their induced [[Yukawa couplings]]) is started in 
