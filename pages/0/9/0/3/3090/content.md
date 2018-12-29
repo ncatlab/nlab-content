@@ -59,7 +59,7 @@ $$
   }
 $$
 
-then there exists a continuous function $h \colon D^n \to X$ such as to make a [[commuting diagram]] of the form
+then there exists a continuous function $h \colon D^n \times I \to X$ such as to make a [[commuting diagram]] of the form
 
 $$
   \array{
