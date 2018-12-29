@@ -17,7 +17,7 @@
 
 ## Idea
 
-The _table of Burnside marks_ (or _table of marks_, for short) of a [[finite group]] $G$ is the [[matrix]] indexed by [[conjugacy classes]] $[H]$ of [[subgroups]] $H \subset G$ whose $[H_i], [H_j]$-entry is the [[cardinality]] of the [[set]] of [[fixed points]] (hence the number of fixed points) of the [[action]] of $H_j$ on the [[coset space]] $G/H_i$:
+The _table of Burnside marks_ (or _table of marks_, for short) of a [[finite group]] $G$ is the [[matrix]] indexed by [[conjugacy classes]] $[H]$ of [[subgroups]] $H \subset G$ whose $([H_i], [H_j])$-entry is the [[cardinality]] of the [[set]] of [[fixed points]] (hence the number of fixed points) of the [[action]] of $H_i$ on the [[coset space]] $G/H_j$:
 
 $$
   M_{i j}
@@ -43,7 +43,7 @@ For $X \in G Set^{fin}$ any [[finite set|finite]] [[G-set]], its _$[H_i]$-mark_ 
     &\colon&
     A(G) &\overset{\phi}{\longrightarrow}& \mathbb{Z}^{Conj(G)}
     \\
-    && [X] &\mapsto& \big( [H_i] \mapsto \left\vert X^H\right\vert\big)
+    && [X] &\mapsto& \big( [H] \mapsto \left\vert X^H\right\vert\big)
   } 
 \] 
 
@@ -55,7 +55,7 @@ This morphism is also called the _Burnside character_ or _mark homomorphism_.
 
 ## Properties
 
-The following says that the Burnside character plays the same role for finite [[G-sets]] as [[group characters]] play for finite-dimensional [[representations]]:
+The following says that the Burnside character plays the same role for finite [[G-sets]] as [[group characters]] play for finite-dimensional [[linear representations]]:
 
 +-- {: .num_prop #BurnsideCharacterIsInjective}
 ###### Proposition
@@ -87,7 +87,7 @@ Textbook accounts and lecture notes include
 
 See also 
 
-* Götz Pfeiffer, _The Subgroups of _$M_{24}$_, or How to Compute the Table of Marks of a Finite Group_ ([web](http://schmidt.ucg.ie/~goetz/pub/marks/marks.html))
+* Götz Pfeiffer, _The Subgroups of $M_{24}$, or How to Compute the Table of Marks of a Finite Group_ ([web](http://schmidt.ucg.ie/~goetz/pub/marks/marks.html))
 
 * Brendan Masterson, Götz Pfeiffer, _On the Table of Marks of a Direct Product of Finite Groups_, Journal of Algebra Volume 499, 1 April 2018, Pages 610-644 ([arXiv:1704.03433](https://arxiv.org/abs/1704.03433))
 
