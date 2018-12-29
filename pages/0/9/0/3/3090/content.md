@@ -312,7 +312,7 @@ The commutativity of the outer square says that $f_\ast \alpha'$ is constant, he
 ## Examples
  {#Examples}
 
-Every locally trivial topological [[fiber bundle]] is in particular a Serre fibration.
+Every locally trivial topological [[fiber bundle]] is a Serre fibration.
 
 
 In particular,
@@ -333,6 +333,6 @@ Every [[covering space]] projection is a Serre fibration, in fact a [[Hurewicz f
 
 * {#SteinbergerWest84} M. Steinberger and J. West, _Covering homotopy properties of maps between CW complexes or ANRs_, Proc. Amer. Math. Soc. 92 (1984), 573-577.  
 
-* {#Cauty92} R. Cauty, _Sur les overts des CW-complexes et les fibr&#233;s de Serre_,  Colloquy Math. 63 (1992), 1--7
+* {#Cauty92} R. Cauty, _Sur les ouverts des CW-complexes et les fibr&#233;s de Serre_,  Colloquy Math. 63 (1992), 1--7
 
 [[!redirects Serre fibrations]]
