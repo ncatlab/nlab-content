@@ -1,8 +1,7 @@
 [[!redirects selcan aksoy]]
-Selcan Aksoy is at Florida State University.
-
-* [Homepage](http://www.math.fsu.edu/People/faculty.php?id=883)
-
+Selcan Aksoy was at Florida State University between 2009-2013. She
+left there in 3rd of July, 2014. She is at Giresun Üniversity now as a research assistant.
+* [Homepage](Giresun Üniversitesi). 
 
 
 
