@@ -280,8 +280,13 @@ from Def. \ref{ComparisonMapBurnsideRingRepresentationRing}, which sends [[Burns
 
    1. [[symmetric groups]],
 
-   1. [[p-groups]];
+   1. [[p-groups]],
 
+   1. [[binary dihedral groups]] $\;$ $2 D_{2n}$ for (at least) $2 n \leq 12$
+
+   1. the [[binary tetrahedral group]], [[binary octahedral group]], [[binary icosahedral group]],
+
+   1. the [[general linear group]] $GL(2,\mathbb{F}_3)$
 
 1. is _not_ [[surjective map|surjective]] for $G = \mathbb{Z}/3 \times Q_8$ ([[direct product]] of [[cyclic group]] of [[order of a group|order]] 3 with [[quaternion group]] or order 8);
 
@@ -300,6 +305,9 @@ Isomorphy for the case of cyclic groups is spelled out in [tom Dieck 09, Example
 Surjectivity for the case of symmetric groups follows from the theory of [[Young diagrams]] ([Dress 86, section 3](#Dress86)), see also Example \ref{VirtualPermuationRepresentationOfS4} below for further pointers.
 
 The proof of surjectivity for [[p-primary groups]] is due to [Segal 72](#Segal72). (As Segal remarks on his first page, it may also be deduced from [Feit 67 (14.3)](#Feit67). See also [Ritter 72](#Ritter72).)
+
+Surjectivity for [[binary dihedral groups]] $2 D_{2n}$ for (at least) $2 n \leq 12$, the [[binary tetrahedral group]], [[binary octahedral group]], [[binary icosahedral group]] and the [[general linear group]] $GL(2,\mathbb{F}_3)$ is checked by brute force computation in [Burton-Sati-Schreiber 18](#BurtonSatiSchreiber18).
+
 
 The non-surjectivity for $G = \mathbb{Z}/3 \times Q_8$ was remarked in [Serre 77, p. 104](#Serre77).
 
@@ -464,6 +472,9 @@ American Journal of Mathematics Vol. 93, No. 4 (Oct., 1971), pp. 857-866 ([jstor
 * {#BartelDokchitser14} Alex Bartel, Tim Dokchitser, _Rational representations and permutation representations of finite groups_, Math. Ann. 364 no. 1 (2016), 539-558 ([arXiv:1405.6616](https://arxiv.org/abs/1405.6616))
 
 * Vladimir V. Kornyak, _An Algorithm to Decompose Permutation Representations of Finite Groups: Polynomial Algebra Approach_ ([arXiv:1801.09786](https://arxiv.org/abs/1801.09786))
+
+* {#BurtonSatiSchreiber18} [[Simon Burton]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The image of the Burnside ring in the Representation ring|The image of the Burnside ring in the Representation ring -- for binary Platonic groups]]_ ([arXiv:1812.09679](https://arxiv.org/abs/1812.09679), [Python code](https://arxiv.org/src/1812.09679v1/anc))
+
 
 See also
 
