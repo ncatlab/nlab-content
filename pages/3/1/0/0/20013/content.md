@@ -28,11 +28,13 @@ $$
   \,.
 $$
 
+(see e.g. [Pfeiffer 97](#Pfeiffer97), chapter _[The Burnside Ring and the Table of Marks](http://schmidt.ucg.ie/~goetz/pub/marks/node1.html#SECTION00010000000000000000)_)
+
 More generally: 
 
 +-- {: .num_defn #BurnsideCharacter}
 ###### Definition
-**([[Burnside character]])**
+**([[Burnside marks]] and [[Burnside character]])**
 
 For $X \in G Set^{fin}$ any [[finite set|finite]] [[G-set]], its _$[H_i]$-mark_ is its number $\left\vert X^{H_i} \right\vert$ of $H_i$-[[fixed points]]. This construction extends to a [[ring homomorphism]]
 
@@ -55,13 +57,13 @@ This morphism is also called the _Burnside character_ or _mark homomorphism_.
 
 ## Properties
 
-The following says that the Burnside character plays the same role for finite [[G-sets]] as [[group characters]] play for finite-dimensional [[linear representations]]:
+The following says that the Burnside character plays the same role for finite [[G-sets]] as [[characters of representations]] play for finite-dimensional [[linear representations]]:
 
 +-- {: .num_prop #BurnsideCharacterIsInjective}
 ###### Proposition
 **([[Burnside character]] is [[injective function|injective]])**
 
-The Burnside character (eq:BurnsideCharacter) is [[injective function|injective]]. Hence any two [[finite set|finite]] [[G-sets]] are [[isomorphism|isomorphic]] precisely if they have the same Burnside marks.
+The Burnside character (eq:BurnsideCharacter) is [[injective function|injective]]. Hence any two [[finite set|finite]] [[G-sets]] are [[isomorphism|isomorphic]] precisely if they have the same Burnside marks (Def. \ref{BurnsideCharacter}).
 
 =--
 
@@ -87,9 +89,11 @@ Textbook accounts and lecture notes include
 
 See also 
 
-* Götz Pfeiffer, _The Subgroups of $M_{24}$, or How to Compute the Table of Marks of a Finite Group_ ([web](http://schmidt.ucg.ie/~goetz/pub/marks/marks.html))
+* {#Pfeiffer97} [[Götz Pfeiffer]], _The Subgroups of $M_{24}$, or How to Compute the Table of Marks of a Finite Group_, Experiment. Math. 6 (1997), no. 3, 247–270 ([doi:10.1080/10586458.1997.10504613](https://doi.org/10.1080/10586458.1997.10504613), [web](http://schmidt.ucg.ie/~goetz/pub/marks/marks.html))
 
-* Brendan Masterson, Götz Pfeiffer, _On the Table of Marks of a Direct Product of Finite Groups_, Journal of Algebra Volume 499, 1 April 2018, Pages 610-644 ([arXiv:1704.03433](https://arxiv.org/abs/1704.03433))
+* Liam Naughton, [[Götz Pfeiffer]], _Computing the table of marks of a cyclic extension_, Math. Comp. 81 (2012), no. 280, 2419–2438. 
+
+* Brendan Masterson, [[Götz Pfeiffer]], _On the Table of Marks of a Direct Product of Finite Groups_, Journal of Algebra Volume 499, 1 April 2018, Pages 610-644 ([arXiv:1704.03433](https://arxiv.org/abs/1704.03433))
 
 
 [[!redirects tables of marks]]
