@@ -22,12 +22,12 @@
 **([[Burnside marks]] and [[Burnside character]])**
 
 Let $G$ be a [[finite group]] and let $X \in G Set^{fin}$ any [[finite set|finite]] [[G-set]]. For
-$[H]$ the [[conjugacy class]] of a [[subgroup]] $H \subset G$, the _$[H]$-mark on $X$_ is the [[cardinality]] of the [[set]] of $H$-[[fixed points]], hence the number 
+$[H]$ the [[conjugacy class]] of a [[subgroup]] $H \subset G$, the _$[H]$-mark on $X$_ is the [[cardinality]] of the [[set]] of $H$-[[fixed points]], hence the [[natural number]]
 
 $$
   \phi_{[H]}(X)
   \;\coloneqq\;
-  \left\vert X^{} \right\vert
+  \left\vert X^{H} \right\vert
 $$ 
 
 of [[elements]] $x \in X$ such that for each $h \in H \subset G$ we have $h(x) = x$. 
@@ -67,7 +67,7 @@ Equivalent expressions for the $[H]$-marks of a [[G-set]] $X$ (Def. \ref{Burnsid
     \;=\;
     \left\vert Hom_{G Set}(G/H,X)\right\vert
     \;=\;
-    dim_k \left( Hom_{G Rep}\left( k[G/H], k[X] \right) \right)
+    dim_k \left( Hom_{G Rep_k}\left( k[G/H], k[X] \right) \right)
 \]
 
 =--
@@ -105,7 +105,7 @@ $$
 
 (e.g. [Pfeiffer 97](#Pfeiffer97), chapter _[The Burnside Ring and the Table of Marks](http://schmidt.ucg.ie/~goetz/pub/marks/node1.html#SECTION00010000000000000000)_)
 
-+-- {: .num_example}
++-- {: .num_example #TableOfMarksInTermsOfHoms}
 ###### Remark
 **(table of marks in terms of homs)**
 
@@ -121,7 +121,7 @@ $$
   \;=\;
   \left\vert Hom_{G Set}(G/H_i, G/H_j)\right\vert
   \;=\;
-  dim_k\Big( Hom_{G Rep}\big( k[G/H_i], k[G/H_j]\big) \Big)
+  dim_k\Big( Hom_{G Rep_k}\big( k[G/H_i], k[G/H_j]\big) \Big)
   \,.
 $$
 
@@ -169,6 +169,10 @@ Textbook accounts and lecture notes include
 * {#tomDieck79} [[Tammo tom Dieck]], _[[Transformation Groups and Representation Theory]]_ Lecture Notes in Mathematics 766 Springer 1979
 
 * {#tomDieck09} [[Tammo tom Dieck]], section 5.1 of _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
+
+Computer implementation is discussed in
+
+* {#GAP} [GAP](https://www.gap-system.org/) [Reference Manual](https://www.gap-system.org/Manuals/doc/ref/chap0.html), _[70 Tables of Marks](https://www.gap-system.org/Manuals/doc/ref/chap70.html)_
 
 See also 
 
