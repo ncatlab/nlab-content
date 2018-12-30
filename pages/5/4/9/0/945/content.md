@@ -30,7 +30,7 @@ A functor $i:S\to C$ is __dense__ if it satisfies the following equivalent condi
 
 1. every object $c$ of $C$ is the $C(i-,c)$-weighted colimit of $i$.  This version generalizes more readily to the [[enriched category|enriched]] context.
 
-1. the corresponding [[nerve|nerve functor]] (or "restricted [[Yoneda embedding]]") $C \to [S^{op},Set]$ is [[full and faithful functor|fully faithful]]. 
+1. the corresponding [[restricted Yoneda embedding]] $C \to [S^{op},Set]$ is [[full and faithful functor|fully faithful]]. 
 
 
 ##Terminology and History##
