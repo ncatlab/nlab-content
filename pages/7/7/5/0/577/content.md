@@ -17,7 +17,7 @@
 
 ##Idea##
 
-A _cartesian monad_ is a [[monad]] on a [[locally cartesian category]] that gets along well with [[pullbacks]].
+A _cartesian monad_ is a [[monad]] on a [[locally cartesian category]] that preserves [[pullbacks]] and whose unit and multiplication are [[cartesian natural transformations]].
 
 
 ## Motivation through generalised multicategories
@@ -126,6 +126,10 @@ BUT:
 
 To every non-symmetric [[operad]], hence to every [[multicategory]] is associated a cartesian monad, such that the corresponding [[algebras over an operad]] coincide with the corresponding [[algebras over a monad]].
 
+## Related pages
+
+* Every [[p.r.a. monad]] is cartesian; these are sometimes called "strongly cartesian monads".
+
 ## References
 
 * [[Tom Leinster]], _Higher Operads, Higher Categories_ 
@@ -138,6 +142,8 @@ To every non-symmetric [[operad]], hence to every [[multicategory]] is associate
 * [blog comment](http://golem.ph.utexas.edu/category/2009/07/the_monads_hurt_my_head_but_no.html#c025402) giving the Motivation above
 
 * MO, _[Monad arising from operad](http://mathoverflow.net/questions/66313/monad-arising-from-operad)_
+
+* {#BMW} [[Clemens Berger]], [[Paul-André Melliès]], [[Mark Weber]], _Monads with Arities and their Associated Theories_ (2011) ([arXiv:1101.3064](http://arxiv.org/abs/1101.3064))
 
 ## Discussion ##
 
