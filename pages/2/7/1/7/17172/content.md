@@ -1,3 +1,21 @@
+
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+#### Knot theory
++--{: .hide}
+[[!include knot theory - contents]]
+=--
+=--
+=--
+
+
 # Contents 
 * table of contents 
 {:toc}
@@ -35,9 +53,15 @@ Every [[connected space|connected]] [[orientation|oriented]] [[closed manifold|c
 =-- 
 
 
+## Related concepts
+
+* [[Kirby calculus]]
 
 
 ## References 
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Dehn_surgery) 
+See also
 
+* Wikipedia, _[Dehn surgery](https://en.wikipedia.org/wiki/Dehn_surgery)_
+
+[[!redirects Dehn surgeries]]
