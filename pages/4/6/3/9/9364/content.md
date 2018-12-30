@@ -29,6 +29,10 @@ One can construct the free monad on a polynomial endofunctor, and it is a polyno
 
 ## Properties
 
+### Parametric right adjointness
+
+Every polynomial monad is a [[p.r.a. monad]].
+
 ### Cartesianness
 
 Since all polynomial functors preserve [[pullbacks]], a polynomial monad is necessarily a [[cartesian monad]].  Note that cartesian transformations between polynomial functors also have an explicit description: they are given by diagrams
