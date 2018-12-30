@@ -15,28 +15,24 @@
 * table of contents
 {:toc}
 
-## Idea
-
-The _table of Burnside marks_ (or _table of marks_, for short) of a [[finite group]] $G$ is the [[matrix]] indexed by [[conjugacy classes]] $[H]$ of [[subgroups]] $H \subset G$ whose $([H_i], [H_j])$-entry is the [[cardinality]] of the [[set]] of [[fixed points]] (hence the number of fixed points) of the [[action]] of $H_i$ on the [[coset space]] $G/H_j$:
-
-$$
-  M_{i j}
-  \;\coloneqq\;
-  \left\vert
-    \left(G/H_j\right)^{H_i}
-  \right\vert
-  \,.
-$$
-
-(see e.g. [Pfeiffer 97](#Pfeiffer97), chapter _[The Burnside Ring and the Table of Marks](http://schmidt.ucg.ie/~goetz/pub/marks/node1.html#SECTION00010000000000000000)_)
-
-More generally: 
+## Definition
 
 +-- {: .num_defn #BurnsideCharacter}
 ###### Definition
 **([[Burnside marks]] and [[Burnside character]])**
 
-For $X \in G Set^{fin}$ any [[finite set|finite]] [[G-set]], its _$[H_i]$-mark_ is its number $\left\vert X^{H_i} \right\vert$ of $H_i$-[[fixed points]]. This construction extends to a [[ring homomorphism]]
+Let $G$ be a [[finite group]] and let $X \in G Set^{fin}$ any [[finite set|finite]] [[G-set]]. For
+$[H]$ the [[conjugacy class]] of a [[subgroup]] $H \subset G$, the _$[H]$-mark on $X$_ is the [[cardinality]] of the [[set]] of $H$-[[fixed points]], hence the number 
+
+$$
+  \phi_{[H]}(X)
+  \;\coloneqq\;
+  \left\vert X^{} \right\vert
+$$ 
+
+of [[elements]] $x \in X$ such that for each $h \in H \subset G$ we have $h(x) = x$. 
+
+This construction extends to a [[ring homomorphism]]
 
 \[
   \label{BurnsideCharacter}
@@ -52,6 +48,93 @@ For $X \in G Set^{fin}$ any [[finite set|finite]] [[G-set]], its _$[H_i]$-mark_ 
 from the [[Burnside ring]] to the ring of [[tuples]] of [[integers]] of length the number $Conj(G)$ of [[conjugacy classes]] of [[subgroups]] of $G$.
 
 This morphism is also called the _Burnside character_ or _mark homomorphism_.
+
+=--
+
++-- {: .num_remark #MarksInTermsOfHoms}
+###### Remark
+**(marks in terms of homs)**
+
+Equivalent expressions for the $[H]$-marks of a [[G-set]] $X$ (Def. \ref{BurnsideCharacter}) are given by 
+
+1. the [[cardinality]] of the [[hom-set]] in [[GSet]] from $G/H$ to $X$
+
+1. the [[dimension]] of the [[hom-object|hom]]-[[vector space]] in [[GRep]] from the [[permutation representation]] $k[G/H]$ to the [[permutation representation]] $k[X]$ for any [[ground field]] $k$:
+
+\[
+  \label{MarksInTermsOfHoms}
+    \phi_H(X)
+    \;=\;
+    \left\vert Hom_{G Set}(G/H,X)\right\vert
+    \;=\;
+    dim_k \left( Hom_{G Rep}\left( k[G/H], k[X] \right) \right)
+\]
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+This follows from a basic standard argument. For completeness, we make it explicit:
+
+By [[transitive action|transitivity]] of the [[action]] on $G/H$ a $G$-equivariant function $f \colon G/H \to X$ is fully specified by its [[image]] $f([e]) \in X$ of the [[equivalence class]] $[e] \in G/H$ of the [[neutral element]]. Since this $[e] \in G/H$ is [[fixed point|fixed]] precisely by the elements in $H \subset G$ it may, again by $G$-equivariance, be mapped to any $H$-[[fixed point]] $f([e]) \in X^H \subset X$. This shows the first equality. 
+
+For the second, the same argument together with $k$-linearity shows that any $G$-equivariant [[linear function]] $\phi \colon k[G/H] \to k[X]$ is again fully determined by the image $\phi([e]) \in k[X]$, and by $G$-equivariance this may be any element in $k[X^H] \subset k[X]$. Hence the second equality follows from $dim_k\left( k[X^H] \right) = \left\vert X^H \right\vert$.
+
+=--
+
+Of particular interest are the marks of the [[transitive action|transitive]] [[G-sets]], i.e. those [[isomorphism|isomorphic]] to sets $G/H$ of [[coset]], for $H\subset G$ a [[subgroup]].  These arrange into a _table of marks_:
+
++-- {: .num_defn #TableOfMarks}
+###### Definition
+**([[table of marks]])**
+
+The _table of Burnside marks_ (or _table of marks_, for short) of a [[finite group]] $G$ is the [[matrix]] indexed by [[conjugacy classes]] $[H]$ of [[subgroups]] $H \subset G$ whose $([H_i], [H_j])$-entry is the $[H_i]$-marks of $G/H_j$ (Def. \ref{BurnsideCharacter}), hence the number of [[fixed points]] of the [[action]] of $H_i$ on the [[coset space]] $G/H_j$:
+
+$$
+  M_{i j}
+  \;\coloneqq\;
+  \left\vert
+    \left(G/H_j\right)^{H_i}
+  \right\vert
+  \,.
+$$
+
+=--
+
+(e.g. [Pfeiffer 97](#Pfeiffer97), chapter _[The Burnside Ring and the Table of Marks](http://schmidt.ucg.ie/~goetz/pub/marks/node1.html#SECTION00010000000000000000)_)
+
++-- {: .num_example}
+###### Remark
+**(table of marks in terms of homs)**
+
+The expression of marks in terms of homs (Remark \ref{MarksInTermsOfHoms}) means here that the table of marks (Def. \ref{TableOfMarks}) is equivalently given by
+
+
+$$
+  M_{i j}
+  \;\coloneqq\;
+  \left\vert
+    \left(G/H_j\right)^{H_i}
+  \right\vert
+  \;=\;
+  \left\vert Hom_{G Set}(G/H_i, G/H_j)\right\vert
+  \;=\;
+  dim_k\Big( Hom_{G Rep}\big( k[G/H_i], k[G/H_j]\big) \Big)
+  \,.
+$$
+
+By the discussion at _[[Schur's lemma]]_ in the section _[Interpretation of categorical algebra](Schur's+lemma#InterpretationInCategoricalAlgebra)_ this means that the table of marks is equivalently the table of [[inner products]] of transitive [[permutation representations]] with each other
+
+$$
+  M_{i j}
+  \;=\;
+  \left\langle 
+    k[G/H_i],
+    k[G/H_j]
+  \right\rangle
+$$
 
 =--
 
