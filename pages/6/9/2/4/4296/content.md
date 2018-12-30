@@ -66,6 +66,8 @@ The _[[virtually fibered conjecture]]_ says that every closed, irreducible, ator
 
 * [[Dehn surgery]]
 
+* [[Kirby calculus]]
+
 * [[knot theory]]
 
 * [[arithmetic topology]]
