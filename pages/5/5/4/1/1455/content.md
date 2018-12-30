@@ -58,6 +58,7 @@ $$
 The dual concept is a [[coalgebra for an endofunctor]]. Both algebras and coalgebras for endofunctors on $C$ are special cases of [[algebra for a C-C bimodule|algebras for bimodules]].
 =--
 
+If $F$ is a [[pointed endofunctor]] with point $\eta : Id \to F$, then by an **algebra** for $F$ one usually means a *pointed algebra*, i.e. one such that $\alpha \circ \eta_X = id_X$.
 
 ## Properties
 
@@ -71,7 +72,6 @@ Returning to the endofunctor case, the general statement is:
 
 +-- {: .num_prop}
 ###### Proposition
-
 The [[category]] of algebras of the endofunctor $F\colon \mathcal{C} \to \mathcal{C}$ is [[equivalence of categories|equivalent]] to the category of [[algebra over a monad|algebras]] of the [[algebraically-free monad]] on $F$, should such exist.
 =--
 
@@ -86,6 +86,8 @@ It turns out that an algebraically-free monad on $F$ is also [[free object|free]
 
 =--
 
+Entirely analogous facts are true for pointed algebras over pointed endofunctors.
+
 ## Relationship to inductive types
 
 The [[initial algebra of an endofunctor]] provides [[categorical semantics]] for [[inductive types]]. 
@@ -94,6 +96,8 @@ The [[initial algebra of an endofunctor]] provides [[categorical semantics]] for
 ## Related concepts
 
 * [[free monad]]
+
+* [[endofunctor]], [[pointed endofunctor]]
 
 * [[algebra over a monad]], [[algebra over a profunctor]], [[coalgebra over an endofunctor]]
 
@@ -132,3 +136,13 @@ The relation to [[free monads]] is discussed in
 [[!redirects algebras over functors]]
 [[!redirects algebras over endofunctors]]
 [[!redirects F-algebra]]
+
+[[!redirects algebra of a pointed endofunctor]]
+[[!redirects algebra for a pointed endofunctor]]
+[[!redirects algebra over a pointed endofunctor]]
+[[!redirects algebras of a pointed endofunctor]]
+[[!redirects algebras for a pointed endofunctor]]
+[[!redirects algebras over a pointed endofunctor]]
+[[!redirects algebras of pointed endofunctors]]
+[[!redirects algebras for pointed endofunctors]]
+[[!redirects algebras over pointed endofunctors]]
