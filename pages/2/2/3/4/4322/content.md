@@ -68,6 +68,22 @@
 
 * [[A-hat genus]], [[Witten genus]]
 
+## Classification 
+
+* [[2-manifolds]]/[[surfaces]]
+
+  * [[genus of a surface]]
+
+* [[3-manifolds]]
+
+  * [[Kirby calculus]]
+
+* [[4-manifolds]]
+
+  * [[Dehn surgery]]
+
+  * [[exotic smooth structure]]
+
 ## Theorems
 
 * [[Whitney embedding theorem]]
