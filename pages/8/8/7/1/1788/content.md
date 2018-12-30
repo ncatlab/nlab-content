@@ -22,3 +22,7 @@ $$
 
 \end{tikzpicture}
 
+\begin{tikzcd}
+A \ar[r] & B
+\end{tikzcd}
+
