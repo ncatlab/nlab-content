@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -62,7 +61,15 @@ The proof of the nerve theorem, following [BMW](#BMW), is fairly straightforward
 
 ##Examples##
 
-For now, see the paper of Berger, Melli&#232;s, and Weber below...
+* Every [[p.r.a. monad]] has arities.  In particular, therefore, every [[polynomial monad]] has arities.
+
+* The free [[groupoid]] monad on the category of [[directed graphs]] with [[involution]] has arities, although it is not p.r.a.
+
+See [BMW](#BMW) for more.
+
+## Related pages
+
+* A monad with arities is equivalently an internal [[monad]] in the [[2-category]] of [[categories with arities]].
 
 ##References##
 
