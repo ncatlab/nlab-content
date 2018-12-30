@@ -190,6 +190,9 @@ Analogous statements hold for each symmetric group $S_n$.
 
 ## References
 
+* {#PursellTrimble91} Lyle Pursell, S. Y. Trimble, _Gram-Schmidt orthogonalization by Gauss Elimination_, The American Mathematical Monthly
+Vol. 98, No. 6 (1991), pp. 544-549 ([jstor:2324877](https://www.jstor.org/stable/2324877))
+
 See also 
 
 * Wikipedia, _[Gram-Schmidt process](https://en.wikipedia.org/wiki/Gram%E2%80%93Schmidt_process)_
