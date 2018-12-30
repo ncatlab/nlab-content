@@ -2,7 +2,7 @@
 
 \section{Introduction}
 
-A _word_ in the elements of a set is roughly speaking a concatenation of elements of that. To make this precise, one typically uses the machinery of [[free object|free algebraic structures]]. One may allow in the concatenation certain canonical elements of the free algebraic gadget constructed from the elements of the set one started with, such as inverses. 
+A _word_ in the [[elements]] of a [[set]] is, roughly speaking, a concatenation of elements of that set. To make this precise, one typically uses the machinery of [[free object|free algebraic structures]]. One may allow in the concatenation certain canonical elements of the free algebraic gadget constructed from the elements of the set one started with, such as inverses. 
 
 By extension, one may also refer to elements of any algebraic structure, at least when described in terms of generators and relations (i.e. explicitly as a quotient of a free algebraic structure), as words.
 
@@ -28,4 +28,4 @@ Another common case is that in which the algebraic structure is that of groups.
 
 \begin{rmk} As for monoids, we do not assume commutativity. \end{rmk}
 
-\begin{example} Let $X = \{a, b\}$ be a set. Examples of words in the free group on $X$ are the empty word, $a$, $b$, $ab$, $a^{5}$, $a^{-5}$, $ab^{3}$, $ababab$, $a^{-1}b^{-1}a^{-1}b^{-1}a^{-1}b^{-1}$, $ab^{-1}$, $b^{3}a^{2}b^{5}$, $a^{-3}b^{2}a^{7}b^{-2}$, and so on. \end{example}
+\begin{example} Let $X = \{a, b\}$ be a set. Examples of words in the free group on $X$ are the empty word, $a$, $b$, $a b$, $a^{5}$, $a^{-5}$, $a b^{3}$, $a b a b a b$, $a^{-1}b^{-1}a^{-1}b^{-1}a^{-1}b^{-1}$, $a b^{-1}$, $b^{3}a^{2}b^{5}$, $a^{-3}b^{2}a^{7}b^{-2}$, and so on. \end{example}
