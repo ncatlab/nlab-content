@@ -87,6 +87,8 @@ where $f$ is a $L$-coalgebra and $g$ is an $R$-algebra, the functorial factoriza
 
 * A AWFS $(L,R)$ on $K$ induces a levelwise AWFS on any diagram category $K^A$. Note that its underlying WFS will not be similarly "levelwise". (Indeed, a WFS does not typically induce a levelwise WFS on a diagram category.)
 
+* An AWFS can be detected as a [[functorial factorization]] that extends to a [[monad]] over $cod$ with a [[composition law for factorizations]].
+
 ##Small object argument##
 
 There is a modification of the [[small object argument]], due to Richard Garner, which produces **cofibrantly generated** AWFS by adapting the construction of a [[free monad]] on an endofunctor.  Importantly, Garner's small object argument allows the generators to be a small category over the arrow category $K^{[2]}$, rather than simply a set of arrows. As a result, there are WFS which are not cofibrantly generated in the classical sense, but which can be exhibited as the underlying WFS of a cofibrantly generated AWFS.
