@@ -11,6 +11,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -49,12 +50,12 @@ If we apply the Gram--Schmidt process to a well-ordered independent set whose cl
 =--
 
 ## Via Gaussian elimination
+ {#ViaGaussianElimination}
 
 There is an alternative algorithm via [[Gaussian elimination]] which for a set of vectors produces an orthogonal basis for its linear span ([Pursell-Trimble 91](#PursellTrimble91)).
 
 In the special case that the original vectors are linearly independent and after normalizing the resulting orthogonal basis to an orthonormal basis, the output of this algorithm is an orthonormal basis as produced also by the Gram-Schmidt process.
 
-(...)
 
 +-- {: .num_lemma #LUDecompositionOfPositiveSemidefiniteMatrices}
 ###### Lemma
@@ -284,7 +285,7 @@ See also
 
 * Wikipedia, _[Gram-Schmidt process](https://en.wikipedia.org/wiki/Gram%E2%80%93Schmidt_process)_
 
-The process via Gaussian elimination is due to
+The formulation via Gaussian elimination is due to
 
 * {#PursellTrimble91} Lyle Pursell, S. Y. Trimble, _Gram-Schmidt orthogonalization by Gauss Elimination_, The American Mathematical Monthly
 Vol. 98, No. 6 (1991), pp. 544-549 ([jstor:2324877](https://www.jstor.org/stable/2324877))
