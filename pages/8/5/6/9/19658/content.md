@@ -24,7 +24,7 @@ The longitude of a knot or of a link component can be defined purely within [[di
 
 1) Begin at $p$ with the empty word.
 
-2) Walk along $L$ following the orientation of $L$ until one reaches a crossing of $L$ which one approaches by means of an under-edge (one does not stop at crossings which one approaches and leaves by means of over-edges). If the orientations of the crossings are as follows, add the arc $a$ to the end of the word obtained thus far.
+2) Walk along $L$ following the orientation of $L$ until one reaches a crossing of $L$ which one approaches by means of an under-edge (one does not stop at crossings which one approaches and leaves by means of over-edges). If the orientations of the crossings are as follows, add $a$ to the end of the word obtained thus far.
 
 \begin{centre}
 
@@ -40,7 +40,7 @@ The longitude of a knot or of a link component can be defined purely within [[di
 
 \end{centre}
 
-If the orientations of the arcs of the crossing are instead as follows, add the arc $a^{-1}$ to the end of the word obtained thus far.
+If the orientations of the arcs of the crossing are instead as follows, add  $a^{-1}$ to the end of the word obtained thus far.
 
 \begin{centre}
 
