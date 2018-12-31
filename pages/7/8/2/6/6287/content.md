@@ -55,5 +55,4 @@ is called _reductive_ if the [[adjoint representation|adjoint]] [[Lie algebra re
 * {#GHV} [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], volume III _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
  
 
-* {#Solleveld02} [[Maarten Solleveld]], _Lie algebra cohomology and
-Macdonald’s conjectures_, 2002 ([pdf](https://www.math.ru.nl/~solleveld/scrip.pdf))
+* {#Solleveld02} [[Maarten Solleveld]], _Lie algebra cohomology and Macdonald’s conjectures_, 2002 ([pdf](https://www.math.ru.nl/~solleveld/scrip.pdf))
