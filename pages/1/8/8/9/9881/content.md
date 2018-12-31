@@ -118,6 +118,14 @@ See also
 
 * {#Moore93} [[Gregory Moore]], _Symmetries of the Bosonic String S-Matrix_ ([arXiv:hep-th/9310026](https://arxiv.org/abs/hep-th/9310026))
 
+Discussion of superstring scattering amplitudes in terms of [[pure spinors]]:
+
+* Carlos R. Mafra, Oliver Schlotterer, _Towards the n-point one-loop superstring amplitude I: Pure spinors and superfield kinematics_ ([arXiv:1812.10969](https://arxiv.org/abs/1812.10969))
+
+* Carlos R. Mafra, Oliver Schlotterer, _Towards the n-point one-loop superstring amplitude II: Worldsheet functions and their duality to kinematics_ ([arXiv:1812.10970](https://arxiv.org/abs/1812.10970))
+
+* Carlos R. Mafra, Oliver Schlotterer, _Towards the n-point one-loop superstring amplitude III: One-loop correlators and their double-copy structure_ ([arXiv:1812.10971](https://arxiv.org/abs/1812.10971))
+
 For more references see also at _[[string theory results applied elsewhere]]_.
 
 
@@ -247,6 +255,9 @@ Scattering amplitudes of highly excited strings:
 [[!redirects string scattering amplitudes]]
 
 [[!redirects string scattering amplitudes]]
+
+[[!redirects superstring scattering amplitude]]
+[[!redirects superstring scattering amplitudes]]
 
 [[!redirects string scattering]]
 
