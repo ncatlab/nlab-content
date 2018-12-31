@@ -26,7 +26,7 @@ Generally, the term _Mackey functor_ refers to an [[additive functor]] from a ([
 
 Therefore the concept of Mackey functors is similar to that of [[sheaves with transfer]] and as such appears (implicitly) in the discussion of [[motives]] (explicitly e.g. in [Kahn-Yamazaki 11, section 2](#KahnYamazaki11), where $\mathcal{C}$ is a category of suitable [[schemes]]).
 
-Specificallu, the concept was introduced and named as such in the context of [[representation theory]] ([Dress 71](#Dress71)) and [[equivariant homotopy theory]]/[[equivariant cohomology]] ([May 96](#May96)). Here the underlying [[category of correspondences]] is that in [[finite set|finite]] [[G-sets]], called the _[[Burnside category]]_.  
+Specifically, the concept was introduced and named as such in the context of [[representation theory]] ([Dress 71](#Dress71)) and [[equivariant homotopy theory]]/[[equivariant cohomology]] ([May 96](#May96)). Here the underlying [[category of correspondences]] is that in [[finite set|finite]] [[G-sets]], called the _[[Burnside category]]_.  
 
 The [[equivariant homotopy groups]] $\pi_n(E)$ of a (genuine) [[G-spectrum]] $E$ organize into a Mackey functor on the [[Burnside category]] with values in [[abelian groups]]. This plays a key role in the [[equivariant Whitehead theorem]].  In fact, genunine [[G-spectra]] themselves are equivalent to Mackey [[(∞,1)-functors]] from the [[Burnside category]] to the [[(∞,1)-category of spectra]] ([GuillouMay 11](#GuillouMay11), [Barwick 14](#Barwick14)).
 
