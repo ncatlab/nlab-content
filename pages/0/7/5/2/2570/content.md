@@ -25,6 +25,7 @@ Since the factorization depends smoothly on the parameters, the Gram--Schmidt pr
 
 
 ## Gram--Schmidt process on Hilbert spaces 
+  {#GramSchmidtOnHilbertSpaces}
 
 In this section, "basis" is understood to signify an ordered independent set whose [[linear span]] is [[dense subspace|dense]] in a [[Hilbert space]] $H$ seen as a [[metric space]]. We will describe the Gram--Schmidt process as applied to a $d$-dimensional Hilbert space for some [[cardinal]] $d$ with a basis $v_0, v_1, \ldots$ consisting of $d$ vectors.
 
@@ -79,13 +80,14 @@ where
 
 ([Pursell-Trimble 91, p. 4](#PursellTrimble91))
 
-+-- {: .num_prop}
++-- {: .num_prop #OrthogonalBasisOfLinearSpanByLUDecomposition}
 ###### Proposition
+**(orthogonal basis of linear span via LU-decomposition)**
 
 Let $(a_j)$ be a [[tuple]] of [[vectors]] of the same length, hence let 
 
 $$
-  A = (A_{i j}) \coloneqq ((a_j)i)
+  A = (A_{i j}) \coloneqq ((a_j)_i)
 $$
 
 be the [[matrix]] whose $j$th column is $a_j$.
@@ -97,17 +99,34 @@ $$
   \,.
 $$
 
-Then the column vectors $(\hat q_i)$ of the matrix
+Then the column vectors $(\hat q_j)$ of the matrix
 
 $$
   \widehat Q \;\coloneqq\; A \cdot (L^{-1})^T
 $$
 
-constitute an orthogonalization of the original tuple of vectors $(a_i)$ in that the non-zero $\hat q_i$ form an orthogonal [[linear basis]] of the [[linear span]] of the $(a_j)$.
+constitute an orthogonalization of the original tuple of vectors $(a_i)$ in that the non-zero $\hat q_j$ form an orthogonal [[linear basis]] of the [[linear span]] of the $(a_j)$.
 
 =--
 
 ([Pursell-Trimble 91, top of p. 5](#PursellTrimble91))
+
++-- {: .num_remark}
+###### Remark
+
+That the matrix $L$ in Prop. \ref{OrthogonalBasisOfLinearSpanByLUDecomposition} is [[lower triangular matrix|lower triangular]] and [[invertible matrix|invertible]] (by Lemma \ref{LUDecompositionOfPositiveSemidefiniteMatrices}) means that its [[inverse matrix]] $L^{-1}$ is also a [[lower triangular matrix]] which reflects a process of [[row reduction]] from $A^T \cdot A$ to $U$.
+
+Accordingly, the orthogonalization in Prop. \ref{OrthogonalBasisOfLinearSpanByLUDecomposition} may be understood as applying [[Gauss elimination]] to
+
+$$
+  \big[A^T \cdot A \vert A^T \big]
+  \;\mapsto\;
+  \big[ \widehat Q^T\big]
+$$
+
+=--
+
+([Pursell-Trimble 91, p. 3](#PursellTrimble91))
 
 
 ## Examples
@@ -120,9 +139,9 @@ Let $H$ be the [[Hilbert space]] $H = L^2([-1, 1])$ of [[square integrable funct
 
 $$\langle f, g\rangle = \int_{-1}^1 \widebar{f(x)} g(x) d x$$ 
 
-By the [[Stone-Weierstrass theorem]], the space of polynomials $\mathbb{C}[x]$ is dense in $H$ according to its standard inclusion, and so the polynomials $1, x, x^2, \ldots$ form an ordered basis of $H$. 
+By the [[Stone-Weierstrass theorem]], the space of [[polynomials]] $\mathbb{C}[x]$ is dense in $H$ according to its standard inclusion, and so the polynomials $1, x, x^2, \ldots$ form an ordered basis of $H$. 
 
-Applying the Gram--Schmidt process, one readily computes the first few orthonormal functions: 
+Applying the Gram--Schmidt process as [above](#GramSchmidtOnHilbertSpaces), one readily computes the first few orthonormal functions: 
 
 $$u_1(x) = N(1) = 1/2$$ 
 
