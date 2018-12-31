@@ -28,7 +28,7 @@ As such,
 
 $A^{*}=(\bar{A})^{T}=\bar{A^{T}}$
 
-where $A^{T}$ is the transpose of $A$ and $\bar{A}$ is the matrix with complex conjugate entries of $A$.
+where $A^{T}$ is the [[transpose matrix]] of $A$ and $\bar{A}$ is the matrix with complex conjugate entries of $A$.
 
 ## Hermitian matrices
 
@@ -44,6 +44,8 @@ The notation used here for the adjoint, $A^{*}$, is commonly used in linear alge
 
 
 ## Related concepts
+
+* [[symmetric matrix]]
 
 * [[celestial sphere]]
 
