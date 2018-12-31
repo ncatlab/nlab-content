@@ -549,6 +549,11 @@ and has been further amplified in
 
 * R. Catenacci, P.A. Grassi, S. Noja, _Superstring Field Theory, Superforms and Supergeometry_ ([arXiv:1807.09563](https://arxiv.org/abs/1807.09563))
 
+See also 
+
+* [[Ashoke Sen]], _Background Independence of Closed Superstring Field Theory_, JHEP02(2018)155 ([arXiv:1711.08468](https://arxiv.org/abs/1711.08468))
+
+* Corinne de Lacroix, Harold Erbin, Sitender Pratap Kashyap, [[Ashoke Sen]], Mritunjay Verma, _Closed Superstring Field Theory and its Applications_,  International Journal of Modern Physics AVol. 32, No. 28n29, 1730021 (2017) ([arXiv:1703.06410](https://arxiv.org/abs/1703.06410))
 
 For previous constructions, the introduction of 
 
