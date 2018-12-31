@@ -78,6 +78,15 @@ and is further discussed in
 
 * {#ABDNZ18} A. Anastasiou, L. Borsten, M. J. Duff, S. Nagy, M. Zoccali, _BRST squared_ ([arXiv:1807.02486](https://arxiv.org/abs/1807.02486))
 
+Discussion in terms of [[superstring scattering amplitudes]] is in
+
+* [[Carlos Mafra]], [[Oliver Schlotterer]], _Towards the $n$-point one-loop superstring amplitude I: Pure spinors and superfield kinematics_ ([arXiv:1812.10969](https://arxiv.org/abs/1812.10969))
+
+* [[Carlos Mafra]], [[Oliver Schlotterer]], _Towards the $n$-point one-loop superstring amplitude II: Worldsheet functions and their duality to kinematics_ ([arXiv:1812.10970](https://arxiv.org/abs/1812.10970))
+
+* [[Carlos Mafra]], [[Oliver Schlotterer]], _Towards the $n$-point one-loop superstring amplitude III: One-loop correlators and their double-copy structure_ ([arXiv:1812.10971](https://arxiv.org/abs/1812.10971))
+
+
 [[!redirects KLT relation]]
 
 [[!redirects Yang-Mills squared]]
