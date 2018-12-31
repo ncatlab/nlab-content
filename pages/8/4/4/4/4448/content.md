@@ -54,7 +54,11 @@ For any category $C$ with a [[terminal object]] $\mathbf{1}$, the terminal objec
 ###### Proof 
 To check that $\Gamma^{op} \colon \widehat{C}^{op} \to Set^{op}$ preserves limits, it suffices to check that the composite 
 
-$$\widehat{C}^{op} \stackrel{\Gamma^{op}}{\to} Set^{op} \stackrel{2^-}{\to} Set$$ 
+\begin{center}
+\begin{tikzcd}
+\widehat{C}^{op} \arrow[r, "\Gamma^{op}"] & \mathrm{Set}^{op} \arrow[r, "2^-"] & \mathrm{Set}
+\end{tikzcd}
+\end{center}
 
 preserves limits, because the contravariant power set functor $P = 2^-$ is monadic. But it is easily checked that this composite is the contravariant representable given by $(2, \mathbf{1}, 2 \to \Gamma(\mathbf{1}))$. 
 =-- 
