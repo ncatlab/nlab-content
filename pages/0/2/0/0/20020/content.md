@@ -2,7 +2,7 @@
 
 \section{Idea}
 
-A _rotation permutation_ is, roughly speaking, a [[permutation]] in which, if we view the elements of a finite set as people standing in a circle, everybody shifts one step to the right, or everybody shifts one step to the left. It is an example of a [[cyclic permutation]].
+A _rotation permutation_ is, roughly speaking, a [[permutation]] in which, if we view the elements of a finite set as people standing in a circle, everybody shifts a given number of steps to the right, or everybody shifts a given number of steps to the left. It is an example of a [[cyclic permutation]].
 
 \section{Formal definition}
 
