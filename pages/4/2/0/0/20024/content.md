@@ -1,0 +1,3 @@
+For a finite set $X$, a cyclic permutation on $X$ is a [[permutation]] $\sigma: X \to X$ such that the induced map $\mathbb{Z} \to Aut(X)$, sending $n \in \mathbb{Z}$ to $\sigma^n$, defines a [[transitive action]]. One may visualize the elements of $X$ as points arranged on a circle spaced equally apart, with $\sigma(x)$ the next-door neighbor of $x$ in the counterclockwise direction, hence the name. 
+
+See also [[rotation permutation]]. 
