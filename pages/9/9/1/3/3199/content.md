@@ -19,7 +19,7 @@
 
 One of the simplest linear partial differential equations of parabolic type is the heat (conductivity) equation. Recall that a [[fundamental solution]] of a linear partial differential operator $P$ is a solution of the PDE $P f = \delta$ where the inhomogeneous term $\delta$ is a [[delta function]] (in appropriate boundary conditions).
 
-The fundamental solution of a heat equation is called the **heat kernel**. 
+The [[fundamental solution]] of a [[heat equation]] is called the **heat kernel**. 
 
 ### Role in index theory
 
