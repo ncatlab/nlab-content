@@ -146,6 +146,8 @@ In this diagram now
 
 ## Examples
 
+* [[heat equation]]
+
 * [[wave equation]], [[Klein-Gordon equation]]
 
 * [[Schrödinger equation]]
