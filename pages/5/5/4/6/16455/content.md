@@ -204,6 +204,16 @@ Sometimes the Klein-Gordon equation is thought of as a [[general relativity|rela
 
 * [[Fourier analysis]]
 
+
+* [[heat equation]]
+
+* [[wave equation]]
+
+* [[Schrödinger equation]]
+
+* [[Dirac equation]]
+
+
 ## References
 
 The Klein-Gordon equation is named after [[Oskar Klein]] and [[Walter Gordon]]. 
