@@ -96,6 +96,7 @@ There is a modification of the [[small object argument]], due to Richard Garner,
 ## Related concepts
 
 * [[algebraic model category]]
+* [[accessible model category]]
 
 ## References
 
