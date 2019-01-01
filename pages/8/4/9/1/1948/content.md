@@ -18,93 +18,126 @@
 
 The [[model category]] structures on [[functor category|functor categories]] are models for [[(∞,1)-category of (∞,1)-functors|(∞,1)-categories of (∞,1)-functors]].
 
-For $C$ a [[model category]] and $D$ any [[small category]] there are two "obvious" ways to put a [[model category]] structure on the [[functor category]] $[D,C]$, called the _projective_ and the _injective_ model structures.  For completely general $C$, neither one need exist.  The projective model structure exists as long as $C$ is [[cofibrantly generated model category|cofibrantly generated]], while the injective model structure exists as long as $C$ is [[combinatorial model category|combinatorial]].
+For $C$ a [[model category]] and $D$ any [[small category]] there are two "obvious" ways to put a [[model category]] structure on the [[functor category]] $[D,C]$, called the _projective_ and the _injective_ model structures.  For completely general $C$, neither one need exist, but there are rather general conditions that ensure their existence.  In particular, the projective model structure exists as long as $C$ is [[cofibrantly generated model category|cofibrantly generated]], while the injective model structure exists as long as $C$ is [[combinatorial model category|combinatorial]].
 
 A related kind of model structure is the [[Reedy model structure]]/[[generalized Reedy model structure]] on functor categories, which applies for *any* model category $C$, but requires $D$ to be a very special sort of category, namely a [[Reedy category]]/[[generalized Reedy category]].
   
-In the special case that $C = $ [[sSet]] is the [[classical model structure on simplicial sets]] the projective and injective model structure on the functor categories $[D,SSet]$ are described in more detail at [[global model structure on simplicial presheaves]].
+In the special case that $C = $ [[sSet]] is the [[classical model structure on simplicial sets]] the projective and injective model structure on the functor categories $[D,SSet]$ are described in more detail at [[global model structure on simplicial presheaves]] and [[model structure on sSet-enriched presheaves]].
 
 ## Definition
 
+Let $\mathbf{S}$ be a [[symmetric monoidal category]], $C$ a [[model category]] that is an $\mathbf{S}$-[[enriched category]], and $D$ a [[small category|small]] $\mathbf{S}$-enriched category.  Usually we have either $\mathbf{S}=Set$ or else $\mathbf{S}$ is a [[monoidal model category]] and $C$ an $\mathbf{S}$-[[enriched model category]].
+
+Let $[D,C]$ denote the enriched [[functor category]], whose objects are $\mathbf{S}$-enriched functors $D\to C$.
+
 +-- {: .num_defn #ProjectiveAndInjectiveStructure}
 ###### Definition
+We define the following classes of maps in $[D,C]$:
 
-For $C$ a [[combinatorial model category]] or, in the projective case, just a [[cofibrantly generated model category]], and $D$ a [[small category]] there exist the following two (combinatorial) model category structures on the [[functor category]] $[D,C]$:
+* the **projective weak equivalences** and **projective fibrations** are the [[natural transformations]] that are objectwise such morphisms in $C$.
+* the **injective weak equivalences** and **injective cofibrations** are the [[natural transformations]] that are objectwise such morphisms in $C$.
 
-* the **projective** structure $[D,C]_{proj}$: weak equivalences and fibrations are the [[natural transformation]]s that are objectwise such morphisms in $C$. 
-
-* the **injective** structure $[D,C]_{inj}$: weak equivalences and cofibrations are the [[natural transformation]]s that are objectwise such morphisms in $C$. 
-
-More generally, if $C$ is in addition a [[simplicial model category]] and $D$ a smooth [[sSet]]-[[enriched category]], then the [[sSet]]-[[enriched functor category]], also denoted $[D,C]$, carries the above two model strutures.
-
+If either of these choices defines a model structure on $[D,C]$, we call it the **projective model structure** $[D,C]_{proj}$ or **injective model structure** $[D,C]_{inj}$ respectively.  Of course, the projective cofibrations and injective fibrations can then be characterized by lifting properties.
 =--
 
 
+## Existence
+
+### Projective case
+
+The projective model structure can be regarded as a [[transferred model structure]].  This yields the following basic result on its existence, which can rarely be improved upon.
+
++-- {: .un_theorem}
+###### Theorem
+Suppose that
+
+1. $C$ is a [[cofibrantly generated model category]], and
+2. $C$ admits [[copowers]] by the hom-objects $D(x,y)\in \mathbf{S}$, which preserve trivial cofibrations.  (For instance, this is the case if $\mathbf{S}=Set$, or if $\mathbf{S}$ is a monoidal model category, $C$ is an $\mathbf{S}$-model category, and the hom-objects $D(x,y)$ are cofibrant in $\mathbf{S}$.)
+
+Then the projective model structure $[D,C]_{proj}$ exists, and is again cofibrantly generated.
+=--
++-- {: .proof}
+###### Proof
+Assuming the existence of such copowers, for any $x\in ob(D)$ the "evaluation at $x$" functor $ev_x : [D,C]\to C$ has a left adjoint $F_x$ sending $A\in C$ to the functor $y\mapsto D(x,y)\odot A$, where $\odot$ denotes the [[copower]].  Now if $I$ and $J$ are generating sets of cofibrations and trivial cofibrations for $C$, let $I^D$ be the set of maps $F_x(i)$ in $[D,C]$, for all $i\in I$ and $x\in ob(D)$, and similarly for $J$.  Then the projective fibrations and trivial fibrations are characterized by having the right lifting property with respect to $J^D$ and $I^D$ respectively, while both $I^D$ and $J^D$ permit the [[small object argument]] since $I$ and $J$ do and colimits in $[D,C]$ are pointwise.  Since the trivial fibrations in $[D,C]$ clearly coincide with the fibrations that are weak equivalences, it remains only to show that all $J^D$-cell complexes are weak equivalences.  But a $J^D$-cell complex is objectwise a cell complex built from cells $D(x,y)\odot j$ for maps $j\in J$, and the assumption ensures that these are trivial cofibrations in $C$, hence so is any cell complex built from them.
+=--
+
+There do exist projective model structures that do not fall under this theorem, however, such as the following.
+
++-- {: .un_theorem}
+###### Theorem
+If $C$ is a [[locally presentable category|locally presentable]] [[2-category]] with its [[2-trivial model structure]] and $D$ is a small 2-category, then the projective model structure on $[D,C]$ exists.
+=--
++-- {: .proof}
+###### Proof
+This follows from the result of [Lack](#Lack06) on [[transferred model structures]] for algebras over [[2-monads]], since $[D,C]$ is the category of algebras for an accessible 2-monad on $C^{ob(D)}$.
+=--
+
+Note that $C$ need not be cofibrantly generated (and the 2-trivial model structure often fails to be cofibrantly generated), so the generality of this result is not entirely included in the previous one.
+
+
+### Injective case
+
+The existence of injective model structures is subtler, mainly because there is no explicit description of the generating cofibrations and acyclic cofibrations; they have to be produced by a cardinality argument.  The following is probably the most general known result.
+
++-- {: .un_theorem}
+###### Theorem
+If $\mathbf{S}$ is an [[excellent model category]], $C$ is a [[combinatorial model category|combinatorial]] $\mathbf{S}$-[[enriched model category]], and $D$ is a small $\mathbf{S}$-enriched category, then the injective model structure on $[D,C]$ exists and is again combinatorial.
+=--
++-- {: .proof}
+###### Proof
+In the unenriched case, this is [[Higher Topos Theory|HTT, prop. A.2.8.2]].  The enriched case is [[Higher Topos Theory|HTT, prop. A.3.3.2]] and the remarks following it.
+=--
+
+At least in the unenriched case, existence of the injective model structure can also be proven using technology related to [[algebraic weak factorization systems]]:
+
++-- {: .un_theorem}
+###### Theorem
+If $C$ is an [[accessible model category]] and $D$ is a small category, then the injective model structure on $[D,C]$ exists and is again accessible.
+=--
++-- {: .proof}
+###### Proof
+See [HKRS15](#HKRS15) and the corrected proof in [GKR18](#GKR18).
+=--
+
+Note that an accessible model category need not be cofibrantly generated, so the generality of this result is not entirely included in the previous one.
+
 
 ## Properties
-
-In all of the following, let $\mathbf{S}$ be an [[excellent model category]]. The standard example is the [[model structure on simplicial sets]], $sSet_{Quillen}$. 
-
-Let $D$ (and $D_1$, $D_2$, ...) be a [[combinatorial model category|combinatorial]] $\mathbf{S}$-[[enriched model category]].
-
-Moreover, $C$ in the following is assumed to be either an ordinary [[small category]], or, more generally, it is a small $\mathbf{S}$-[[enriched category]].
-
-If $\mathbf{S} = $ [[sSet]]${}_{Quillen}$ and $C$ is an ordinary small category, then then model structures discussed here are instances of the [[model structure on simplicial presheaves]]. If $C$ is itself $sSet$-enriched, then they are instances of the [[model structure on sSet-enriched presheaves]].
 
 ### General 
 
 +-- {: .num_prop}
 ###### Proposition
 
-The projective and injective structures $[C,D]_{proj}$ and $[C,D]_{inj}$, def. \ref{ProjectiveAndInjectiveStructure}
+The projective and injective structures $[D,C]_{proj}$ and $[D,C]_{inj}$, def. \ref{ProjectiveAndInjectiveStructure}, are (insofar as they exist):
 
-* are indeed [[model category]] structures;
+* right or left [[proper model categories]] if $C$ is right or left proper, respectively.
 
-* are themselves [[combinatorial model category|combinatorial model categories]];
-
-* are right or left [[proper model categories]] if $C$ is right or left proper, respectively.
-
-* are $\mathbf{S}$-[[enriched model categories]] (e.g.[[simplicial model categories]]) with respect to the $\mathbf{S}$-[[enriched category|enrichment]] for which the $\mathbf{S}$-[[tensoring]] is objectwise that of $C$.
+* $\mathbf{S}$-[[enriched model categories]] if $C$ is an $\mathbf{S}$-model category.
 
 =--
 
-
-The existence of the unenriched model structure apears as [[Higher Topos Theory|HTT, prop. A.2.8.2]]
-The enriched case is [[Higher Topos Theory|HTT, prop. A.3.3.2]] and the remarks following that.
 The statement about properness appears as [[Higher Topos Theory|HTT, remark A.2.8.4]].
-
-### Cofibrant generation
-
-+-- {: .num_prop}
-###### Proposition
-
-
-Let $C$ be an ordinary [[small category]].
-
-The cofibrations in $[C, A]_{proj}$ are generated from (i.e. are the [[weakly saturated class of morphisms]] defined by) the morphisms of the form
-
-$$
-  Id_{C(c,-)}\cdot i :  C(c,-)\cdot a \to C(c,-) \cdot b
-$$
-
-for all $c \in C$ and $i : a \to b$ a generating cofibration in $A$. Here the dot denotes the tensoring of $A$ over sets, i.e. $C(c,-)\cdot a$ is the functor that sends $c' \in C$
-to the [[coproduct]] $\coprod_{C(c,c')} A$ of $|C(c,c')|$ copies of $A$.
-
-In particular, every cofibration if $[C,A]_{proj}$ is in particular a cofibration in $[C,A]_{inj}$. Similarly, every fibration in $[C,A]_{inj}$ is in particular a fibration in $[C,A]_{proj}$
-
-=--
-
-This is argued in the beginning of the proof of [[Higher Topos Theory|HTT, lemma A.2.8.3]].
-
-For $Top$-enriched functors, this is ([Piacenza 91, section 5](#Piacenza91)). For details see at _[classical model structure on topological spaces -- Model structure on enriched functors](classical+model+structure+on+topological+spaces#ModelStructureOnTopEnrichedFunctors)_.
 
 
 ### Relation to other model structures
 
++-- {: .num_prop}
+###### Proposition
+If [[copowers]] by the hom-objects of $D$ preserve trivial cofibrations, then every every fibration in $[D,C]_{inj}$ is in particular a fibration in $[D,C]_{proj}$.  Similarly, if [[powers]] by the hom-objects of $D$ preserve trivial fibrations, then every cofibration in $[D,C]_{proj}$ is in particular a cofibration in $[D,C]_{inj}$.  The hypotheses are satisfied if $D$ is unenriched, or in the monoidal model category case if the hom-objects of $D$ are cofibrant.
+=--
+
+This is argued in the beginning of the proof of [[Higher Topos Theory|HTT, lemma A.2.8.3]].  For $Top$-enriched functors, this is ([Piacenza 91, section 5](#Piacenza91)). For details see at _[classical model structure on topological spaces -- Model structure on enriched functors](classical+model+structure+on+topological+spaces#ModelStructureOnTopEnrichedFunctors)_.
+
++-- {: .proof}
+###### Proof
+If $i:A\to B$ is a trivial cofibration in $C$ and $x\in ob(D)$, then the first assumption implies that $F_x(i) : F_x(A) \to F_x(B)$, for $F_x(A) (y) = D(x,y) \odot A$ the left adjoint of $ev_x : [D,C] \to C$, is a trivial cofibration in $[D,C]_{inj}$.  Thus, any fibration $p$ in $[D,C]_{inj}$ has the right lifting property with respect to it, which is to say that $ev_x(p)$ has the right lifting property with respect to $i$.  Since this is true for any $i$, each $ev_x(p)$ is a fibration, i.e. $p$ is a fibration in $[D,C]_{inj}$.  The other half is dual.
+=--
+
 +-- {: .num_cor}
 ###### Corollary
 
-The [[identity]] [[functor]]s
+The [[identity functors]]
 
 $$
   [D,C]_{inj}   
@@ -270,10 +303,17 @@ The projective model structure for functors to [[sSet]] on a _[[large category|l
 
 * [[Boris Chorny]], [[William Dwyer]], _Homotopy theory of small diagrams over large categories_, [arXiv:math/0607117](http://arxiv.org/abs/math/0607117)
 
-
 See also 
 
 * [[David White]], _Modified projective model structure_ ([MO comment](http://mathoverflow.net/questions/76160/acyclic-models-via-model-categories/104423#104423))
+
+* Marzieh Bayeh, [[Kathryn Hess]], Varvara Karpova, Magdalena K&#281;dziorek, [[Emily Riehl]], [[Brooke Shipley]], _Left-induced model structures and diagram categories_ ([arXiv:1401.3651](http://arxiv.org/abs/1401.3651))
+
+* {#HKRS15} [[Kathryn Hess]], Magdalena K&#281;dziorek, [[Emily Riehl]], [[Brooke Shipley]], _A necessary and sufficient condition for induced model structures_ ([arXiv:1509.08154](http://arxiv.org/abs/1509.08154)).  This paper contains an error, corrected by:
+
+* {#GKR18} [[Richard Garner]], Magdalena Kedziorek, [[Emily Riehl]], _Lifting accessible model structures_, [arXiv:1802.09889](https://arxiv.org/abs/1802.09889)
+
+* {#Lack06} [[Steve Lack]], *Homotopy-theoretic aspects of 2-monads*, [arXiv](http://arxiv.org/abs/math.CT/0607646)
 
 [[!redirects model structures on functors]]
 
