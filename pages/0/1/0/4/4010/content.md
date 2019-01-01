@@ -166,6 +166,13 @@ Now in this form one may notice a similarity of the form of these two equations 
 * [[Schrödinger picture]]
 
 
+* [[heat equation]]
+
+* [[wave equation]], [[Klein-Gordon equation]]
+
+* [[Dirac equation]]
+
+
 ## References ##
 
 Any introductory textbook about [[quantum mechanics]] will explain the Schr&#246;dinger equation (from the viewpoint of physicists mostly).
