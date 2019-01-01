@@ -166,6 +166,17 @@ For $X$ and $A$ any two objects and $Q X $ and $P A$ a cofibrant and fibrant rep
 
 =--
 
+Although $\mathcal{C}(X,A)$ need not have the correct homotopy type for the mapping space if $X$ is not cofibrant or $A$ is not fibrant, simplicial notions of homotopy are still *sufficient* to detect the model-categorical ones.
+
++-- {: .num_prop #SimplicialHomotopyImpliesHomotopy}
+###### Proposition
+If $f,g:X\to A$ are simplicially homotopic (i.e. in the same connected component of the simplicial set $\mathcal{C}(X,A)$), then they represent the same map in the [[homotopy category]] of $\mathcal{C}$.  Therefore, any [[simplicial homotopy equivalence]] in $\mathcal{C}$ is a weak equivalence.
+=--
++-- {: .proof}
+###### Proof
+This is Lemma 9.5.15 and Proposition 9.5.16 of [Hirschhorn](#Hirschhorn).
+=--
+
 
 ## Examples
 
@@ -579,8 +590,7 @@ The definition appears in
 
 Textbook references include
 
-* [[Philip Hirschhorn]], section 9.1.5 of _Model categories and their localizations_, volume 99 of Mathematical Surveys and Monographs , American Mathematical Society, 
-2009.
+* {#Hirschhorn} [[Philip Hirschhorn]], section 9.1.5 of _Model categories and their localizations_, volume 99 of Mathematical Surveys and Monographs , American Mathematical Society, 2009.
 
 * [[Jacob Lurie]], section A.3 in _[[Higher Topos Theory]]_
 
