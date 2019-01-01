@@ -53,6 +53,11 @@ Discussion in the context of corrections to [[black hole entropy]] include
 
 * [[Thomas Mohaupt]], _Strings, higher curvature corrections, and black holes_ ([arXiv:hep-th/0512048](http://arxiv.org/abs/hep-th/0512048))
 
+Discussion of higher curvature corrections in [[cosmology]] and [[cosmic inflation]] (for more see at [[Starobinsky model of cosmic inflation]]):
+
+* Gustavo Arciniega, Jose D. Edelstein, Luisa G. Jaime, _Towards purely geometric inflation and late time acceleration_ ([arXiv:1810.08166](https://arxiv.org/abs/1810.08166))
+
+* Gustavo Arciniega, Pablo Bueno, Pablo A. Cano, Jose D. Edelstein, Robie A. Hennigar, Luisa G. Jaimem, _Geometric Inflation_ ([arXiv:1812.11187](https://arxiv.org/abs/1812.11187))
 
 
 ### In 11d Supergravity
