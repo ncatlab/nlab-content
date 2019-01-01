@@ -42,5 +42,6 @@ A **soliton solution** of a nonlinear [[wave equation]] is a solution whose larg
 
 * [[David Tong]], _TASI Lectures on Solitons_ ([web](http://www.damtp.cam.ac.uk/user/tong/tasi.html)), 
 
+* Anastasia Doikou, Iain Findlay, _Solitons: conservation laws & dressing methods_ ([arXiv:1812.11914](https://arxiv.org/abs/1812.11914))
 
 [[!redirects solitons]]
