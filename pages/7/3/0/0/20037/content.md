@@ -1,8 +1,10 @@
-## Idea
+\tableofcontents
+
+\section{Idea}
 
 Rough Paths are a way of defining [[Stieltjes integral|Riemann-Stieltjes type integrals]] for paths with poor $p$-variation where Ito techniques don't work in the context of solving controlled [[differential equations]].
 
-## Set-Up
+\section{Set-Up}
 
 We want to solve differential equations of the form:
 
@@ -24,13 +26,13 @@ The classical paper ([Young 1936](#Young36)) says, in short, that one can define
 
 A theorem by Bichdeller-Dellecherie says, in short, that one can define this [[Itô integral|integral in Itô sense]] if and only if $X$ is a [[semimartingale]].
 
-## Main Result
+\section{Main Result}
 
 If one can define $X^1_{st}\colon = \int_s^t dX_{r_1}$, $X^2_{st}\colon =\int_s^t\int_s^{r_2} dX_{r_1}\otimes dX_{r_2}$,..., $X^\ell_{st}\colon =\int_s^t \int_s^{r_\ell}...\int_s^{r_2} dX_{r_1}\otimes...\otimes dX_{r_\ell}$ where $\ell=\lfloor p \rfloor$ then the following "corrected Riemann sum" converges:
 
 $$\sum_{k=0}^{n} f(X_{t_k} )X^1_{t_k t_{k+1}}+Df(X_{t_k})X^2_{t_k t_{k+1}}+...+\frac{1}{(\ell-1)!}D^{\ell-1}f(X_{t_k})X^{\ell}_{t_k t_{k+1}}$$
 
-## References
+\section{References}
 
 * {#Young36} LC Young, _An inequality of the Hölder type, connected with Stieltjes integration_, Acta Math. **67** (1936), 251--282. doi:[10.1007/BF02401743](https://doi.org/10.1007/BF02401743), ([Project Euclid](https://projecteuclid.org/euclid.acta/1485888152)).
 
