@@ -15,7 +15,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -24,9 +23,24 @@
 
 In the current [[standard model of particle physics]] the [[fundamental particles]] in the three [[generations of fermions]] have identical properties from one generation to the next, except for their [[mass]]. A possible violation of this state of affairs is called a _flavor anomaly_, a sign of "new physics" beyond the standard model.
 
-Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] around $3$ [[standard deviations|σ]] in [[B meson]] processes in various [[experiments]] at the [[LHC]] (see references [below](#References)). 
+Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] around $3$ [[standard deviations|σ]] in [[B meson]] [[scattering amplitude|processes]] in various [[experiments]] at the [[LHC]] (see references [below](#References)). 
 
-The global tension with the standard model as of summer 2018 is around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18)). If the ongoing evaluation of the data of LHC's Run 2 (to be completed by end of 2018) confirms the measurements of Run 1, then the [[statistical significance]] of the effect should have reached 5 [[standard deviations|σ]] ([Cerri et al. 18, p. 12](#Cerri18)) and hence officially count as detection of flavour anomaly, which would make it the first established "new physics" seen at the [[LHC]].
+<center>
+<img src="https://ncatlab.org/nlab/files/bsllprocesses.jpg" width="570">
+</center>
+
+> graphics grabbed from [Cartelle 18](#Cartelle18)
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/FlavourAnomalyAt4Sigma.jpg" width="320">
+</div>
+
+The global tension with the standard model by end of 2018 is around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18)). 
+
+If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect should have reached 5 [[standard deviations|σ]] ([Cerri et al. 18, p. 12](#Cerri18)) and hence officially count as detection of flavour anomaly, which would make it the first established "new physics" seen at the [[LHC]].
+
+> graphics grabbed from [Dey 18](#Dey18)
+
 
 ## Related concepts
 
