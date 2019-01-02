@@ -1,5 +1,5 @@
 
-* [webpage](http://www.crea.polytechnique.fr/LeCREA/fiches/Catren.htm)
+* [webpage](http://www.sphere.univ-paris-diderot.fr/spip.php?article675&lang=fr)
 
 * [publications](http://sppm.hypotheses.org/publications)
 
