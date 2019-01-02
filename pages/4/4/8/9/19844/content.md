@@ -81,7 +81,7 @@ Outlook:
 
 Emphasis of [[non-perturbative effects]]:
 
-* {#Nierste18} Ulrich Nierste, _Flavour Anomalies: Phenomenology and BSM Interpretations_, 2018 ([pdf](https://indico.desy.de/indico/event/18498/session/5/contribution/52/material/slides/0.pdf))
+* {#Nierste18} Ulrich Nierste, _Flavour Anomalies: Phenomenology and BSM Interpretations_, talk at [Planck 2018](https://indico.desy.de/indico/event/18498/), Bonn 2018 ([pdf](https://indico.desy.de/indico/event/18498/session/5/contribution/52/material/slides/0.pdf))
 
 
 See also
