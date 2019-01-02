@@ -25,7 +25,14 @@ In [[perturbative quantum field theory]], the [[magnetic moment]] of [[particles
 
 The archetypical example is the anomalous magnetic moment of the [[electron]] in [[quantum electrodynamics]], which is famous as the [[pQFT]]-prediction that matches [[experiment]] to an accuracy of about $10^{-12}$ (e.g.[Scharf 95, (3.10.20)](#Scharf95)).
 
-Similarly there is the anomalous magenetic moment of the [[muon]] and the other [[leptons]].
+Similarly there is the anomalous magenetic moment $g_\mu - 2$ of the [[muon]] and the  other [[leptons]].
+
+## Anomalies
+ {#Anomalies}
+
+In fact, the anomalous magnetic moment of the [[muon]] $g_\mu - 2$ has become notorious for apparently showing a noticeable _discrepancy_ between [[theory (physics)|theoretic prediction]] from the [[standard model of particle physics]] and its value as determined in [[experiment]]. The discrepancy is now found to be around 3.5[[standard deviation|σ]] ([DHMZ 17](#DHMZ17)) or 4[[standard deviation|σ]] ([Jegerlehner 18a](#Jegerlehner18a), [Jegerlehner 18b](#Jegerlehner18b)). Recent measurements may even show a possible deviation around 2.5 [[standard deviation|σ]] for the electron's anomalous magnetic moment (see [Falkowski 18](#Falkowski18)).
+
+If these experimental "anomalies" (in the sense of [[phenomenology]]) in the anomalous magnetic moment $g_\mu - 2$ (and possibly even in $g_e -2$) are real (the established rule of thumb is that deviations are established once beyond 5[[standard deviation|σ]] uncertainty), they point to "new physics" beyond the [[standard model of particle physics]]. See also at _[[flavour anomaly]]_.
 
 ## Contributions
 
@@ -46,12 +53,27 @@ Possible contributions to and xconstraints on $g_{lep}-2$ from hypothetical [[ax
 
 ## References
 
+### General
+
+Basic discussion:
 
 * {#Steinmann02} [[Othmar Steinmann]], _What is the Magnetic Moment of the Electron?_, Commun.Math.Phys. 237 (2003) 181-201 ([arXiv:hep-ph/0211187](https://arxiv.org/abs/hep-ph/0211187))
 
 * Kirill Melnikov, Arkady Vainshtein, _Theory of the Muon Anomalous Magnetic Moment_, Springer Tracts in Modern Physics 216, 2006
 
-* Friedrich Jegerlehner, Friedrich Jegerlehner, _The Anomalous Magnetic Moment of the Muon_, Springer Tracts in Modern Physics 226, Springer-Verlag Berlin Heidelberg, 2008
+* Friedrich Jegerlehner, _The Anomalous Magnetic Moment of the Muon_, Springer Tracts in Modern Physics 226, Springer-Verlag Berlin Heidelberg, 2008
+
+Discussion of precision experiment and possible deviation from theory:
+
+* {#DHMZ17} Michel Davier, Andreas Hoecker, Bogdan Malaescu, Zhiqing Zhang, _Reevaluation of the hadronic vacuum polarisation contributions to the Standard Model predictions of the muon g-2 and alpha(mZ) using newest hadronic cross-section data_, Eur. Phys. J. C (2017) 77: 827 ([arXiv:1706.09436](https://arxiv.org/abs/1706.09436))
+
+* J. L. Holzbauer on behalf of the Muon g-2 collaboration, _The Muon g-2 Experiment Overview and Status_, Proceedings for The 19th International Workshop on Neutrinos from Accelerators (NUFACT 2017) ([arXiv:1712.05980](https://arxiv.org/abs/1712.05980))
+
+* {#Jegerlehner18a} Fred Jegerlehner, _The Muon g-2 in Progress_, Acta Physica Polonica 2018 ([doi:10.5506/APhysPolB.49.1157](https://arxiv.org/ct?url=https%3A%2F%2Fdx.doi.org%2F10.5506%252FAPhysPolB.49.1157&v=01073571), [arXiv:1804.07409](https://arxiv.org/abs/1804.07409))
+
+* {#Jegerlehner18b} Fred Jegerlehner, _The Role of Mesons in Muon $g-2$_ ([arXiv:1809.07413](https://arxiv.org/abs/1809.07413))
+
+* {#Falkowski18} [[Adam Falkowski]], _[Both $g-2$ anomalies](http://resonaances.blogspot.com/2018/06/alpha-and-g-minus-two.html)_, June 2018
 
 See also
 
