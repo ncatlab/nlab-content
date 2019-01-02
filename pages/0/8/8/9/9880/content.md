@@ -49,6 +49,18 @@ A central example of a non-perturbative effect is [[confinement]] (hence the "[[
 
 At the other extreme of high [[temperature]] QCD, also the [[quark-gluon plasma]], while now [[confinement|deconfined]] is thought to be strongly coupled.
 
+### Hadronic physics in flavour and $g-2$ anomalies
+ {#HadronicPhysics}
+
+Non-perturbative effects in [[hadron]]-physics affects the
+discussion of possible beyond-[[standard model of particle physics|standard model]] physics as seen in 
+
+1. [[flavour anomalies]] ([Nierste 18, 26/59](#Nierste18))
+
+1. [[muon anomalous magnetic moment]] ([Jegerlehner 18b, section 2](#Jegerlehner18b))
+
+
+
 ### Worldsheet and brane instantons in string/M-theory
  {#WorldsheetAndBraneInstantons}
 
@@ -178,10 +190,18 @@ and in ([[super Yang-Mills theory|super]]-)[[Yang-Mills theory]] and [[string th
 
 * {#Marino15} [[Marcos Mariño]], _Non-perturbative effects in string theory and AdS/CFT_, [Spring School on Superstring Theory and Related Topics 2015](http://indico.ictp.it/event/a14251/)  ([[MarinoNonPerturbative.pdf:file]], [pdf](http://indico.ictp.it/event/a14251/session/89/contribution/401/material/0/0.pdf), [recording](https://youtu.be/5hw6l-JSpc4?list=PLzYFBWfshN8eqXZFYg2jBZSii7lHaeyXJ))
 
+### In phenomeloogy:
+
+In [[flavour anomalies]]:
+
+* {#Nierste18} Ulrich Nierste, _Flavour Anomalies: Phenomenology and BSM Interpretations_, 2018 ([pdf](https://indico.desy.de/indico/event/18498/session/5/contribution/52/material/slides/0.pdf))
+
+* {#Jegerlehner18b} Fred Jegerlehner, _The Role of Mesons in Muon $g-2$_ ([arXiv:1809.07413](https://arxiv.org/abs/1809.07413))
+
 
 ### In string theory
 
-The form of the contribution of non-perturbative effects in string theory was originally observed in 
+The form of the contribution of non-perturbative effects in [[string theory]] was originally observed in 
 
 * [[Stephen Shenker]], _The Strength of nonperturbative effects in string theory_, presented at the Cargese Workshop on Random Surfaces, Quantum Gravity and Strings, Cargese, France, May 1990 ([spire](http://inspirehep.net/record/298523?ln=en))
 
