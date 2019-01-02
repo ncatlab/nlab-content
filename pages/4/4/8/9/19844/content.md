@@ -21,7 +21,7 @@
 
 ## Idea 
 
-In the current [[standard model of particle physics]] the [[fundamental particles]] in the three [[generations of fermions]] have identical properties from one generation to the next, except for their [[mass]]. A possible violation of this state of affairs is called a _flavor anomaly_, a sign of "new physics" beyond the standard model.
+In the current [[standard model of particle physics]] the [[fundamental particles]] in the three [[generations of fermions]] have identical properties from one generation to the next, except for their [[mass]]. A possible violation of this state of affairs is called a _flavor anomaly_, a sign of "new physics" beyond the standard model. (See also at _[[anomalous magnetic moment]]_).
 
 Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] around $3$ [[standard deviations|σ]] in [[B meson]] [[scattering amplitude|processes]] in various [[experiments]] at the [[LHC]] (see references [below](#References)). 
 
@@ -45,6 +45,8 @@ If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measuremen
 ## Related concepts
 
 * [[flavour (particle physics)]]
+
+* [[anomalous magnetic moment]]
 
 ## References
  {#References}
