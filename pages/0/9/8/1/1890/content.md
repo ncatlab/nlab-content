@@ -28,7 +28,7 @@ A _strong monad_ over a [[monoidal category]] $V$ is a [[monad]] in the [[bicate
 
 For $V$ a [[monoidal category]] a **strong monad** over $V$ is a [[monad]] 
 
-* in the $2$-[[2-category|category]] $V\text{-}Act$ of left $V$-[[actions]] on [[category|categories]] 
+* in the $2$-[[2-category|category]] $V\text{-}Act$ of left $V$-[[actions|actegory]] on [[category|categories]] 
 
 * on the object $V$ itself.
 =--
