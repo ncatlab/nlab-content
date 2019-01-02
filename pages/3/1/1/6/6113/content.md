@@ -49,8 +49,9 @@ $$
 The suspension spectrum functor is [[strong monoidal functor|strong monoidal]].
 
 On the one hand, this is the case for its incarnation as a [[1-functor]] with values in [[structured spectra]] ([this Prop.](Introduction+to+Stable+homotopy+theory+--+1-2#SmashProductOfFreeSpectra))
-
 Via the corresponding [[symmetric monoidal smash product of spectra|symetric monoidal]] [[Model categories of diagram spectra|model structure on structured spectra]] this exhibits strong monoidalness also as an [[(infinity,1)-functor]].
+
+More abstractly this follows from general properties of [[stabilization]] when regarding [[stable homotopy theory]] as the result of inverting [[smash product]] with the [[circle]], via [Robalo 12, last clause of Prop. 4.1 with last clause of Prop. 4.10 (1) ](#stabilization#Robalo12). For emphasis see also [Hoyois 15, section 6.1](stabilization#Hoyois15), specifically [Hoyois 15, Def. 6.1](stabilization#Hoyois15).
 
 
 
