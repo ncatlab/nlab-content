@@ -32,7 +32,7 @@ on current developments regarding foundations of [[geometry]] in [[mathematics]]
 * table of contents
 {:toc} 
 
-## 1. Smoothness and singularities 
+## Smoothness and singularities 
 
 ### Schemes (Pierre Cartier)
 
@@ -60,7 +60,7 @@ on current developments regarding foundations of [[geometry]] in [[mathematics]]
 
 (lecture notes [pdf](http://math.huji.ac.il/~piz/documents/AITD.pdf))
 
-## 2. Spaces with categories of points
+## Spaces with categories of points
 
 ### Geometric aspects of topos theory in relation with logical doctrines (Andr&#233; Joyal)
 
@@ -85,7 +85,7 @@ on current developments regarding foundations of [[geometry]] in [[mathematics]]
 
 ([video recording](https://www.youtube.com/watch?v=198ssqlW9BI))
 
-## 3. Non-commutative geometry
+## Non-commutative geometry
 
 ### Geometry from statistical physics and information theory (Matilde Marcolli)
 
@@ -100,13 +100,12 @@ on current developments regarding foundations of [[geometry]] in [[mathematics]]
  
 [[Shahn Majid]] on [[noncommutative geometry]]
 
-## 4. Spaces up to homotopy
-
+## Spaces up to homotopy
 ### Spaces as infinity-groupoids (Timothy Porter)
 
-[[Timothy Porter]] on the [[homotopy hypothesis]]-theorem.
+[[Timothy Porter]] on the thinking of spaces as infinity groupoids and the relation with the [[homotopy hypothesis]].
 
-([video recording](https://www.youtube.com/watch?v=BH_NwgM8QjI))
+([video recording](https://www.youtube.com/watch?v=BH_NwgM8QjI))  ([[Spaces as infinity-groupoids.pdf|draft of article:file]])
 
 ### Homological decomposition and motives (Denis-Charles Cisinski)
 
@@ -118,7 +117,7 @@ on current developments regarding foundations of [[geometry]] in [[mathematics]]
  
 [[Mike Shulman]] on [[homotopy type theory]] ([arXiv:1703.03007](https://arxiv.org/abs/1703.03007))
 
-## 5. Spaces in classical & quantum mechanics
+## Spaces in classical & quantum mechanics
 
 ### Derived stacks in symplectic geometry (Damien Calaque)
 
@@ -143,7 +142,7 @@ on current developments regarding foundations of [[geometry]] in [[mathematics]]
 [[Cecilia Flori]] on [[Bohr toposes]].
 
 
-## 6. Spaces in quantum gravity
+## Spaces in quantum gravity
 
 ### Spin networks and spinfoams (Hanno Sahlmann)
 
@@ -174,7 +173,7 @@ Hanno Sahlmann on spin networks.
 
 ([video recording](https://www.youtube.com/watch?v=MD_jj3O6IRE))
 
-## 7. Open questions
+## Open questions
 
 ### What experiments tell us about space and time (John Baez)
 
