@@ -62,7 +62,7 @@ of $X$ with the [[n-sphere]], equipped with the canonical [[action]] of the [[or
 In generalization to the [[strong monoidal functor|strong monoidal]]-[[structure]] on the ordinary [[suspension spectrum]] functor with respect to the [[symmetric monoidal smash product of spectra]] (see [there](suspension+spectrum#StrongMonoidalness))
 also the equivariant suspension spectrum functor ought to constitute a [[monoidal (infinity,1)-functor]] from $G$-[[equivariant homotopy theory]] to $G$-[[equivariant stable homotopy theory]].
 
-This follows from general properties of [[stabilization]] when regarding [[equivariant stable homotopy theory]] as the result of inverting [[smash product]] with all [[representation spheres]], via [Robalo 12, last clause of Prop. 4.1 with last clause of Prop. 4.10 (1) ](#stabilization#Robalo12), generalized to sets of objects as in [Hoyois 15, section 6.1](stabilization#Hoyois15), see also [Hoyois 15, Def. 6.1](stabilization#Hoyois15).
+This follows from general properties of [[stabilization]] when regarding [[equivariant stable homotopy theory]] as the result of inverting [[smash product]] with all [[representation spheres]], via [Robalo 12, last clause of Prop. 4.1 with last clause of Prop. 4.10 (1) ](stabilization#Robalo12), generalized to sets of objects as in [Hoyois 15, section 6.1](stabilization#Hoyois15), see also [Hoyois 15, Def. 6.1](stabilization#Hoyois15).
 
 ### $RO(G)$-degrees
  {#ROGDegrees}
