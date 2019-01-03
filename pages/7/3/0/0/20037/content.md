@@ -42,7 +42,7 @@ $$E(B_t B_s)=\frac{1}{2}\left(t^{2H}+s^{2H}-|t-s|^{2H}\right)$$
 
 where $H\in(0,1)$ is called the Hurst parameter. When $H=1/2$ we recover regular [[Brownian motion]]. 
 
-We have that $B_t\in C^p$ iff $p\lt 1/H$ and that fBm is not a semimartingale unless $H=1/2$. So SDEs driven by fBm with $H\lt 1/2$ are not solvable by classical means and rough paths must be used.
+We have that $B_t\in C^p$ iff $p\gt 1/H$ and that fBm is not a semimartingale unless $H=1/2$. So SDEs driven by fBm with $H\lt 1/2$ are not solvable by classical means and rough paths must be used.
 
 
 
