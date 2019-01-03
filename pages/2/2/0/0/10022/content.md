@@ -57,7 +57,7 @@ Various properties of [[entanglement entropy]] find immediate geometric interpre
 
 Further discussion of implications of the Ryu-Takayanagi formula in [van Raamsdonk 10](#vanRaamsdonk10) suggested that the logic may also be turned around: Instead of computing [[entanglement entropy]] of a given [[boundary field theory]] from known [[bulk]] [[geometry]], conversely the [[bulk]] [[spacetime]] may be reconstructed from knowledge of the [[entanglement entropy]] of a boundary field theory.
 
-Talking this perspective to the extreme suggests a description of [[bulk]] [[spacetimes]] entirely in terms of [[information theory]]/[[entanglement]]-relations of a boundary [[QFT]] ("tensor networks", [Swingle 12](#Swingle12), and quantum error correction codes [ADH 14](#ADH14), [PYHP 15](#PYHP15), see [Harlow 18](#Harlow18) for review).
+Talking this perspective to the extreme suggests a description of [[bulk]] [[spacetimes]] entirely in terms of [[information theory]]/[[entanglement]]-relations of a boundary [[QFT]] ("tensor networks", [Swingle 09](#Swingle09), [Swingle 12](#Swingle12), and quantum error correction codes [ADH 14](#ADH14), [PYHP 15](#PYHP15), see [Harlow 18](#Harlow18) for review).
 
 
 <center>
@@ -122,12 +122,14 @@ An influential argument that this relation implies that [[entanglement]] in the 
 
 * [[Mark Van Raamsdonk]], _Building up spacetime with quantum entanglement II: It from BC-bit_ ([arXiv:1809.01197](https://arxiv.org/abs/1809.01197))
 
-Review is in 
+reviewed in 
 
 * [[Mark Van Raamsdonk]], _Lectures on Gravity and Entanglement_, chapter 5 in  New Frontiers in Fields and Strings
 TASI 2015 Proceedings of the 2015 Theoretical Advanced Study Institute in Elementary Particle Physics 2015 Theoretical Advanced Study Institute in Elementary Particle Physics ([arXiv:1609.00026](https://arxiv.org/abs/1609.00026))
 
-Development of this idea in terms of [[tensor networks]] is due to 
+Relation to [[renormalization]] of [[entanglement]] and [[tensor networks]] is due to 
+
+* {#Swingle09} Brian Swingle, _Entanglement Renormalization and Holography_ ([arXiv:0905.1317](https://arxiv.org/abs/0905.1317))
 
 * {#Swingle12} Brian Swingle, _Constructing holographic spacetimes using entanglement renormalization_ ([arXiv:1209.3304](https://arxiv.org/abs/1209.3304))
 
