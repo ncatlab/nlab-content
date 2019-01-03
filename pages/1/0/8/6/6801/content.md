@@ -60,5 +60,8 @@ Relation of little string theory to the [[quantum geometric Langlands correspond
 
 * {#AganagicFrenkelOkounkov17} [[Mina Aganagic]], [[Edward Frenkel]], [[Andrei Okounkov]], _Quantum $q$-Langlands Correspondence_ ([arXiv:1701.03146](https://arxiv.org/abs/1701.03146))
 
+also
+
+* Babak Haghighat, Rui Sun, _M5 branes and Theta Functions_ ([arXiv:1811.04938](https://arxiv.org/abs/1811.04938))
 
 [[!redirects little string theories]]
