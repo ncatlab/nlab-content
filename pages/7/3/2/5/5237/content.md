@@ -159,7 +159,7 @@ Suppose that $\mathcal{C}$ is
 
 * that are preserved by the [[tensor product]] functors $A \otimes (-) \colon \mathcal{C} \to \mathcal{C}$ for all objects $A$ in $\mathcal{C}$.
 
-Then for $f \colon A \to B$ and $g \colon A \to C$ two morphisms in the category $CMon(\mathcal{})$ of _[[commutative monoids]]_ in $\mathcal{C}$, the underlying object in $\mathcal{C}$ of the [[pushout]] in $CMon(\mathcal{C})$ coincides with that of the pushout in the category $A$[[Mod]] of $A$-[[modules]]
+Then for $f \colon A \to B$ and $g \colon A \to C$ two morphisms in the category $CMon(\mathcal{C})$ of _[[commutative monoids]]_ in $\mathcal{C}$, the underlying object in $\mathcal{C}$ of the [[pushout]] in $CMon(\mathcal{C})$ coincides with that of the pushout in the category $A$[[Mod]] of $A$-[[modules]]
 
 $$
   U(B \coprod_A C) \simeq  B \otimes_A C 
