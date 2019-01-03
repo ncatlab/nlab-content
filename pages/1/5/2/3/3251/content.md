@@ -126,6 +126,19 @@ Original articles include
 
 * [[Graeme Segal]], _Equivariant stable homotopy theory_, Actes du Congr&#232;s International des Math&#233;maticiens (Nice, 1970), Tome 2, pp. 59--63. Gauthier-Villars, Paris, 1971. ([pdf](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0059.0064.ocr.pdf))
 
+A textbook account in terms of [[G-spectra]] modeled on a complete [[G-universe]] is in 
+
+* {#LewisMaySteinberger86} [[L. Gaunce Lewis]], [[Peter May]], and Mark Steinberger (with contributions by J.E. McClure), _Equivariant stable homotopy theory_, Springer Lecture Notes in Mathematics Vol.1213. 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf))
+
+and a more modern version taking into account the theory of [[symmetric monoidal categories of spectra]] is in
+
+* [[Michael  Mandell]], [[Peter May]], _Equivariant orthogonal spectra and S-modules_, Mem. Amer. Math. Soc. 159 (2002), no. 755, x+108. MR 2003i:55012 ([pdf](http://www.math.uiuc.edu/K-theory/0408/MMM.pdf), [K-theory archive](http://www.math.uiuc.edu/K-theory/0408/))
+
+See also
+
+* {#HillHopkinsRavenel09} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], appendix of _On the non-existence of elements of Kervaire invariant one_, Annals of Mathematics Volume 184 (2016), Issue 1 ([doi:10.4007/annals.2016.184.1.1](https://doi.org/10.4007/annals.2016.184.1.1), [arXiv:0908.3724](http://arxiv.org/abs/0908.3724), [talk slides](https://www.math.rochester.edu/people/faculty/doug/otherpapers/Skye_handout.pdf)) 
+
+
 Lecture notes are in
 
 * {#Blumberg17} [[Andrew Blumberg]], _The Burnside category_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
@@ -146,15 +159,6 @@ Further introductions and surveys include the following
 Lecture notes on [[G-spectra]] modeled as [[orthogonal spectra]] with $G$-actions are
 
 * {#Schwede15} [[Stefan Schwede]], _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
-
-A textbook account in terms of [[G-spectra]] modeled on a complete [[G-universe]] is in 
-
-* {#LewisMaySteinberger86} [[L. Gaunce Lewis]], [[Peter May]], and Mark Steinberger (with contributions by J.E. McClure), _Equivariant stable homotopy theory_, Springer Lecture Notes in Mathematics Vol.1213. 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf))
-
-and a more modern version taking into account the theory of [[symmetric monoidal categories of spectra]] is in
-
-* [[Michael  Mandell]], [[Peter May]], _Equivariant orthogonal spectra and S-modules_, Mem. Amer. Math. Soc. 159 (2002), no. 755, x+108. MR 2003i:55012 ([pdf](http://www.math.uiuc.edu/K-theory/0408/MMM.pdf), [K-theory archive](http://www.math.uiuc.edu/K-theory/0408/))
-
  
 An alternative perspective on this is in 
 
@@ -177,11 +181,13 @@ The characterization of $G$-equivariant functors in terms of topological [[Macke
 
 * [[Stefan Schwede]], [[Brooke Shipley]], _Classification of stable model categories_ ([pdf](http://hopf.math.purdue.edu/Schwede-Shipley/class.final.pdf))
 
-A comprehensive construction of equivariant stable homotopy theory in terms of [[Mackey functors]] is in the series
+A construction of equivariant stable homotopy theory in terms of [[spectral Mackey functors]] is due to
 
 * [[Bert Guillou]], [[Peter May]],  _Models of $G$-spectra as presheaves of spectra, ([arXiv:1110.3571](http://arxiv.org/abs/1110.3571))
 
   _Permutative $G$-categories in equivariant infinite loop space theory ([arXiv:1207.3459](http://arxiv.org/abs/1207.3459))
+
+see at _[[spectral Mackey functor]]_ for more references.
 
 A fully [[(∞,1)-category theory|(∞,1)-category theoretic]] formulation is i 
 
