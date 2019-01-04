@@ -17,6 +17,8 @@ This entry collects hyperlinks related to the textbook
 
   Springer Verlag, 1992
 
+  ([doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0))
+
 on [[sheaf and topos theory]] and its application in [[categorical logic]].
 
 
