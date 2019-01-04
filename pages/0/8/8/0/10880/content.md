@@ -566,17 +566,21 @@ The construction goes back to and is named after
 
 * {#Wirthmueller74} [[Klaus Wirthmüller]], _Equivariant homology and duality_. Manuscripta Math. 11(1974), 373-390
  
+see also
+
+* {#Nardin12} [[Denis Nardin]], section A.3 of _Stability and distributivity over orbital ∞-categories_, 2012 ([hdl.handle.net/1721.1/112895]( http://hdl.handle.net/1721.1/112895), [pdf](https://www.math.univ-paris13.fr/~nardin/thesis.pdf))
+
 
 A clear discussion of axioms of [[six operations]] and their consequences, with emphasis on the Wirthm&#252;ller isomorphisms, is in 
 
 * {#May05} [[Halvard Fausk]], P. Hu, [[Peter May]],  _Isomorphisms between left and right adjoints_, Theory and Applications of Categories , Vol. 11, 2003, No. 4, pp 107-131. ([TAC](http://www.tac.mta.ca/tac/volumes/11/4/11-04abs.html), [pdf](http://www.math.uiuc.edu/K-theory/0573/FormalFeb16.pdf))
  
 
-* [[Paul Balmer]], [[Ivo Dell'Ambrogio]], [[Beren Sanders]], _Grothendieck-Neeman duality and the Wirthm&#252;ller isomorphism_, [arXiv:1501.01999](http://arxiv.org/abs/1501.01999).
+* [[Paul Balmer]], [[Ivo Dell'Ambrogio]], [[Beren Sanders]], _Grothendieck-Neeman duality and the Wirthm&#252;ller isomorphism_, Compositio Mathematica 152.8 (2016): 1740-1776 ([arXiv:1501.01999](http://arxiv.org/abs/1501.01999))
 
-Discussion of the Wirthm&#252;ller isomorphism in [[equivariant stable homotopy theory]], based on this, is in
+Discussion of the original Wirthm&#252;ller isomorphism in [[equivariant stable homotopy theory]], based on this, is in
 
-* {#May05b} [[Peter May]], _The Wirthm&#252;ller isomorphism revisited_ ([pdf](http://www.math.uiuc.edu/K-theory/0574/WirthRev.pdf))
+* {#May05b} [[Peter May]], _The Wirthm&#252;ller isomorphism revisited_, Theory and Applications of Categories 11.5 (2003): 132-142 ([TAC:11/5/11-05](http://www.tac.mta.ca/tac/volumes/11/5/11-05abs.html), [K-theory:0574](http://www.math.uiuc.edu/K-theory/0574/WirthRev.pdf))
  
 
 More elaboration of the Wirthm&#252;ller context is in 
