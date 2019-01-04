@@ -23,7 +23,7 @@
 
 An _indexed monoidal $(\infty,1)$-category_ is the [[(∞,1)-category|(∞,1)-categorical]] version of an [[indexed monoidal category]].  That is, it consists of a "base" $(\infty,1)$-category $\mathcal{C}$ together with, for each $X\in \mathcal{C}$, a [[monoidal (∞,1)-category]] $Mod(X)$ varying functorially with $X$.  In one of the fundamental examples, $\mathcal{C}$ is the $(\infty,1)$-category of [[∞-groupoids]] ("spaces"), while $Mod(X)$ is that of [[parametrized spectra]].
 
-Indexed monoidal $(\infty,1)$-categories are conjectured to be the semantics of [[linear homotopy type theory]].
+Indexed monoidal $(\infty,1)$-categories are conjectured to be the [[categorical semantics]] of [[linear homotopy type theory]].
 
 ## Definition
 
@@ -783,7 +783,7 @@ In this form this appears in ([Schreiber 14](#Schreiber14)). Specialized to the 
 
 A [[correspondence]] $X_1 \stackrel{f_1}{\longleftarrow} Z \stackrel{f_2}{\longrightarrow} X_2$ may be thought of as a space $Z$ of "paths" or "trajectories" that connect points in $X_2$ to points in $X_1$. From this point of view definition \ref{SIT} is a linear map that takes functions on $X_2$ to functions on $X_1$ by pointwise forming a sum over paths connecting these points and adding all the contributions of the given [[integral kernel]] along these paths.
 
-This is conceptually just how the [[path integral]] in [[physics]] is supposed to work, only that mostly it doesn't due to lack of a definition. However, at least some path integrals for [[topological field theories]] may be realized as secondary integral transforms of the above kind.
+This is conceptually just how the [[path integral]] in [[physics]] is supposed to work, only that mostly it doesn't, due to lack of a proper definition. However, at least some path integrals for [[topological field theories]] may be realized as secondary integral transforms of the above kind.
 
 Notice that while in [[modal type theory]] the ([[comonad|co-]])[[monads]] $(f^\ast \sum_f \dashv f^\ast \prod_f)$ are pronounced as _[[possibility]]_ and _[[necessity]]_, the monad $\prod_f f^\ast$ appearing above, via def. \ref{FiberwiseFundamentalClass}, may be pronounced _randomness_, see at _[[function monad]]_ for more.
 
