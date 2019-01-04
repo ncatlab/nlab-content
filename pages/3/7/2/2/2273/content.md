@@ -36,7 +36,7 @@ Sometimes coadjoint orbits are studied in the infinite-dimensional case (for exa
 
 ## Properties
 
-### As symplectic leafs of the Lie-Poisson structure
+### As symplectic leaves of the Lie-Poisson structure
 
 The dual $g^*$ of a (say finite-dimensional real) [[Lie algebra]] has a structure of a [[Poisson manifold]] with the Poisson structure due to A. Kirillov and Souriau, called the _[[Lie-Poisson structure]]_, namely for any $a\in g^*$, 
 
