@@ -169,7 +169,7 @@ The multiple of the [[Chern class]] of this line bundle is identified with the i
 
 A _prequantum state_ is a [[section]] of the [[prequantum bundle]].
 
-This becomes a _[[quantum spate]]_ or [[wavefunction]] if [[polarization|polarized]] (...).
+This becomes a _[[quantum state]]_ or [[wavefunction]] if [[polarization|polarized]] (...).
 
 #### Prequantum operators
 
