@@ -45,4 +45,6 @@ One thing to be cautious about is that while it is possible to model the Martin-
 
 * {#CubicalHIT}  Thierry Coquand, Simon Huber, Anders Mörtberg, _On Higher Inductive Types in Cubical Type Theory_, [1802.01170](https://arxiv.org/abs/1802.01170)
 
+* Evan Cavallo and Robert Harper, _Parametric Cubical Type Theory_, [1901.00489](https://arxiv.org/abs/1901.00489)
+
 [[!redirects cubical type theories]]
