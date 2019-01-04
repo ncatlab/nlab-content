@@ -24,7 +24,7 @@ A [[complex numbers|complex]] [[vector bundle]] over a [[complex manifold]] such
 
 ### As complex algebraic vector bundles
 
-By the [[GAGA]]-principle holomorphic vector bundles and more generally analytic [[coherent sheaves]] over a [[projective variety|projetive]] [[smooth variety|smooth]] [[complex variety]] coincide with complex [[algebraic vector bundles]]/[[coherent sheaves]].
+By the [[GAGA]]-principle holomorphic vector bundles and more generally analytic [[coherent sheaves]] over a [[projective variety|projective]] [[smooth variety|smooth]] [[complex variety]] coincide with complex [[algebraic vector bundles]]/[[coherent sheaves]].
 
 ### As complex vector bundles with holomorphically flat connection
  {#AsComplexVectorBundlesWithHolomorphicFlatConnection}
@@ -39,7 +39,7 @@ The analogous statement is true for generalization of vector bundles to [[chain 
 
 =--
 
-For [[complex vector bundles]] over [[complex varieties]] this statement is due to [[Alexander Grothendieck]] and ([Koszul-Malgrange 58](#KoszulMalgrange58)), recalled for instance as ([Pali 06, theorem 1](#Pali06)). It may be understood as a special case of the [[Newlander-Nirenberg theorem]], see ([Delzant-Py 10, section 6](#DelzantPy10)), which also generalises the proof to [[infinite-dimensional manifold|infinite-dimensional]] vector bundles. Over [[Riemann surfaces]], see [below](#OverRiemannSurfaces), the statement was highlighted in ([Atiyah-Bott 83](#AtiyahBott83)) in the context of the [[Narasimhan?Seshadri theorem]]. 
+For [[complex vector bundles]] over [[complex varieties]] this statement is due to [[Alexander Grothendieck]] and ([Koszul-Malgrange 58](#KoszulMalgrange58)), recalled for instance as ([Pali 06, theorem 1](#Pali06)). It may be understood as a special case of the [[Newlander-Nirenberg theorem]], see ([Delzant-Py 10, section 6](#DelzantPy10)), which also generalises the proof to [[infinite-dimensional manifold|infinite-dimensional]] vector bundles. Over [[Riemann surfaces]], see [below](#OverRiemannSurfaces), the statement was highlighted in ([Atiyah-Bott 83](#AtiyahBott83)) in the context of the [[Narasimhan-Seshadri theorem]]. 
 
 The generalization from [[vector bundles]] to  [[coherent sheaves]] is due to ([Pali 06](#Pali06)). In the genrality of [[(∞,1)-categories of chain complexes]] ([[dg-categories]]) of holomorphic vector bundles the statement is discussed in ([Block 05](#Block05)).
 
