@@ -136,7 +136,7 @@ and then fully explicitly in
 
 Discussion along these lines of a pull-push quantization over [[KU]] of a 2-dimensional [[Chern-Simons theory]]-like [[gauge theory]] is in 
 
-* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Consistent orientation of moduli spaces_, [arXiv:0711.1909](http://arxiv.org/abs/0711.1909) {#FreedHopkinsTeleman07}
+* {#FreedHopkinsTeleman07} [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Consistent Orientation of Moduli Spaces_ ([arXiv:0711.1909](http://arxiv.org/abs/0711.1909)), chapter XIX, pages 395-419 in: Oscar Garcia-Prada, Jean Pierre Bourguignon, Simon Salamon (eds.) _The Many Facets of Geometry: A Tribute to Nigel Hitchin_, Oxford University Press 2010 ([doi:10.1093/acprof:oso/9780199534920.001.0001](http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199534920.001.0001/acprof-9780199534920))
 
 More in detail a functorial quantization of suitable correspondences of smooth manifolds to [[KK-theory]] by pull-push has been given in ([Connes-Skandalis 84](#ConnesSkandalis84)) and the generalization of that to [[equivariant K-theory]] (hence to [[groupoid K-theory]] of [[action groupoids]]) is in
 
