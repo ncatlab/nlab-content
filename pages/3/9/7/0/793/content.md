@@ -22,8 +22,6 @@
 =--
 
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -278,7 +276,9 @@ Precursors include (according to [Schwarz 96, first paragraph](#Schwarz96)):
 
 * Keiji Kikkawa, Masami Yamasaki, _Casimir effects in superstring theories_, Physics Letters B Volume 149, Issues 4–5, 20 December 1984, Pages 357-360 (<a href="https://doi.org/10.1016/0370-2693(84)90423-4">doi:10.1016/0370-2693(84)90423-4</a>)
 
+Discussion for the [[superstring]] is in
 
+* M. Abou-Zeid, [[Chris Hull]], [[Ulf Lindström]], [[Martin Roček]], _T-Duality in $(2,1)$ Superspace_ ([arXiv:1901.00662](https://arxiv.org/abs/1901.00662))
 
 Review includes
 
