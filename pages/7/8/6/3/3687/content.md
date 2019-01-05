@@ -119,7 +119,7 @@ Further references include
 
 * [[Anton Kapustin]], [[Dmitri Orlov]], _Lectures on mirror symmetry, derived categories, and D-branes_,  Uspehi Mat. Nauk __59__  (2004),  no. 5(359), 101--134;  translation in  Russian Math. Surveys __59__  (2004), no. 5, 907--940, [math.AG/0308173](http://arxiv.org/abs/math/0308173)
 
-* Maxim Kontsevich, Yan Soibelman, _Homological mirror symmetry and torus fibrations_, [math.SG/0011041](http://arxiv.org/abs/math/0011041)
+* [[Maxim Kontsevich]], [[Yan Soibelman]], _Homological mirror symmetry and torus fibrations_, [math.SG/0011041](http://arxiv.org/abs/math/0011041)
 
 * Yong-Geun Oh, Kenji Fukaya, _Floer homology in symplectic geometry and mirror symmetry_, Proc. ICM 2006, [pdf](http://www.math.wisc.edu/~oh/Oh-icm2006.pdf)
 
@@ -127,8 +127,7 @@ Further references include
 
 * partial notes from Miami 08 workshop: [miami08-notes](http://www-math.mit.edu/~auroux/frg/miami08-notes) and abstracts from [miami09](http://www-math.mit.edu/~auroux/frg/miami09-abstracts.html), [miami10](http://www-math.mit.edu/~auroux/frg/miami10-abstracts.html)
 
-* [[Mark Gross]], _Tropical geometry and mirror symmetry_, CBMS regional conf. ser. 114 (2011), based on the CBMS course in Kansas, [AMS book page]
-(http://www.ams.org/bookstore-getitem/item=CBMS-114), [pdf](http://www.math.ucsd.edu/~mgross/kansas.pdf) 
+* [[Mark Gross]], _Tropical geometry and mirror symmetry_, CBMS regional conf. ser. 114 (2011), based on the CBMS course in Kansas, [AMS book page] (http://www.ams.org/bookstore-getitem/item=CBMS-114), [pdf](http://www.math.ucsd.edu/~mgross/kansas.pdf) 
 
 Discussion in the context of [[derived Morita equivalence]] includes
 
