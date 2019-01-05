@@ -8,7 +8,7 @@
 =--
 #### Differential geoemtry
 +--{: .hide}
-[[!include differential geometry - contents]]
+[[!include synthetic differential geometry - contents]]
 =--
 =--
 =--
@@ -158,8 +158,15 @@ $d \star F = 0$ gives Gauss's law and Amp&#232;re-Maxwell law
 Discussion in terms of [[differential forms]] is for instance in 
 
 * [[Theodore Frankel]], _Maxwell's equations_, The American Mathematical Monthly, Vol 81, No 4 (1974) ([pdf](http://ocw.nctu.edu.tw/course/vanalysis/maxwell_amm.pdf), [JSTOR](http://links.jstor.org/sici?sici=0002-9890%28197404%2981%3A4%3C343%3AME%3E2.0.CO%3B2-D))
-* section 3.5 in [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
+
+* [[Theodore Frankel]], section 3.5 in _[[The Geometry of Physics - An Introduction]]_
+
 * Gregory L. Naber, _Topology, geometry and gauge fields_, Appl. Math. Sciences vol. __141__, Springer 2000
+
+Some history and reflection is in 
+
+* {#Dyson07} [[Freeman Dyson]], _Why is Maxwell’s Theory so hard to understand?_, Proceedings of [The Second European Conference on Antennas and Propagation, EuCAP 2007](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4446147) ([doi: 10.1049/ic.2007.1146](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4446147))
+
 
 [[!redirects Maxwell equation]]
 [[!redirects Maxwell's equation]]
