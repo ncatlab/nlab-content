@@ -34,8 +34,9 @@ Any further details about the nature of this hypothetical dark matter remain elu
 ## Properties
 
 ### Cusp-core problem
+ {#CuspCoreProblem}
 
-From J. Read [22 Aug 2018](https://twitter.com/ReadDark/status/1032176578808168448):
+From J. Read [22 Aug 2018](https://twitter.com/ReadDark/status/1032176578808168448) on [Read-Walker-Steger 18](#ReadWalkerSteger18):
 
 > On large scales, the [[standard model of cosmology|standard cosmological model]] (LCDM) gives an excellent description of the [[cosmic microwave background]] [[radiation]] and the [[structure formation|growth of structure]]. However, on small scales, in our cosmic backyard known as the Local Group, there have been long-standing puzzles.  The oldest of these is the “cusp-core” problem. Gas rich dwarf galaxies have much less dark matter (DM) in their inner regions than early numerical models predicted. This could point to more exotic DM models, or to a failure of the cosmological model.
 
@@ -82,7 +83,6 @@ For more see
 
 * {#PontzenGovernato14} Andrew Pontzen, Fabio Governato, _Cold dark matter heats up_, Nature, 506, 171 - 178 (13 Feb 2014) ([arXiv:1402.1764](https://arxiv.org/abs/1402.1764))
 
-* {#ReadWalkerSteger18} J. I. Read, M. G. Walker, P. Steger, _Dark matter heats up in dwarf galaxies_ ([arXiv:1808.06634](https://arxiv.org/abs/1808.06634), [talk slides pdf](http://online.kitp.ucsb.edu/online/cdm-c18/read/))
 
 ### Evidence
  {#Evidence}
@@ -95,6 +95,9 @@ Evidence for dark matter on large cosmic scales is extremely strong, see the abo
 
 > Regardless of the formation history of NGC1052–DF2, its existence has implications for the dark matter paradigm. Our results demonstrate that dark matter is separable from galaxies, which is (under certain circumstances) expected if it is bound to baryons through nothing but gravity. The "[[bullet cluster]]" demonstrates that dark matter does not always trace the bulk of the baryonic mass, which in clusters is in the form of gas.  NGC1052–DF2 enables us to make the complementary point that dark matter does not always coincide with galaxies either:  it is a distinct "substance" that may or may not be present in a galaxy.   Furthermore,  and paradoxically, the existence of NGC1052–DF2 may falsify
 alternatives to dark matter. In theories such as [[MOND]] and the recently proposed emergent gravity paradigm a "dark matter" signature should always be detected, as it is an unavoidable consequence of the presence of ordinary matter. In fact, it had been argued previously that the apparent absence of galaxies such as NGC1052–DF2 constituted a falsification of the standard cosmological model, and evidence for modified gravity.
+
+* {#ReadWalkerSteger18} J. I. Read, M. G. Walker, P. Steger, _Dark matter heats up in dwarf galaxies_, Monthly Notices of the Royal Astronomical Society  ([arXiv:1808.06634](https://arxiv.org/abs/1808.06634), [doi:10.1093/mnras/sty3404](https://doi.org/10.1093/mnras/sty3404),  [talk recording](http://online.kitp.ucsb.edu/online/cdm-c18/read/))
+
 
 Outlook on prospect of direct detection of dark matter, as of 2018:
 
