@@ -43,7 +43,7 @@ The [[action functional]] of AKSZ theory is that of [[∞-Chern-Simons theory]] 
 * [[BF-theory]]+[[topological Yang-Mills theory]], 
 
 
-Als the [[A-model]] and the [[B-model]] topological 2d [[sigma-models]] are examples.
+Also, the [[A-model]] and the [[B-model]] topological 2d [[sigma-models]] are examples.
 
 
 ## Definition
