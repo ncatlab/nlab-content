@@ -40,7 +40,7 @@ Also the perspective of [[string theory]] as the dimensional reduction of a conj
 
 Review includes
 
-* {#NeitzkeVafa04} [[Andrew Neitzke]], [[Cumrun Vafa]], _Topological strings and their physical applications_, [hep-th/0410178](http://xxx.lanl.gov/abs/hep-th/0410178)
+* {#NeitzkeVafa04} [[Andrew Neitzke]], [[Cumrun Vafa]], _Topological strings and their physical applications_, talk at [Simons Workshop in Mathematics and Physics 2004](http://insti.physics.sunysb.edu/conf/simonsworkII/) ([hep-th/0410178](http://xxx.lanl.gov/abs/hep-th/0410178))
 
 * {#AntoniadisHohenegger07} I. Antoniadis, S. Hohenegger, _Topological Amplitudes and Physical Couplings in String Theory_, Nucl.Phys.Proc.Suppl.171:176-195,2007 ([arXiv:hep-th/0701290](https://arxiv.org/abs/hep-th/0701290))
 
