@@ -21,7 +21,7 @@
 
 ## Idea
 
-A _[[weak homotopy equivalence]]_ is a map between [[topological spaces]] or [[simplicial sets]] or similar which induces [[isomorphisms]] on all [[homotopy groups]]. In [[homological algebra]] this is called a _[[quasi-isomorphism]]_.
+A _[[weak homotopy equivalence]]_ is a map between [[topological spaces]] or [[simplicial sets]] or similar which induces [[isomorphisms]] on all [[homotopy groups]].  (The analogous concept in [[homological algebra]] is called a _[[quasi-isomorphism]]_.)
 
 The [[localization]] or [[simplicial localization]] of the categories [[Top]] and [[sSet]] at the weak homotopy equivalences used as [[weak equivalences]] yields the standard [[homotopy category]] [[Ho(Top)]] and [[Ho(sSet)]] or the [[(∞,1)-category]] of [[∞-groupoids]]/[[homotopy types]], respectively.
 
