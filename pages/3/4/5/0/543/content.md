@@ -41,7 +41,7 @@ In what is strictly speaking a restrictive sense -- which is however widely and 
 Therefore an $A_\infty$-category in this standard sense of [[homological algebra]] is a category which is in some way [[homotopical enrichment|homotopically enriched]] over a [[category of chain complexes]] $Ch$. Since a category which is [[enriched category|enriched]] in the ordinary sense of [[enriched category theory]] is a [[dg-category]], there is a close relation between $A_\infty$-categories and [[dg-category|dg-categories]].
 
 
-$A_\infty$-categories in this linear sense are a [[horizontal categorification]] of the notion of [[A-infinity-algebra]]. As such they are to [[A-infinity-algebra]]s as [[Lie infinity-algebroid]]s are to [[L-infinity-algebra]]s. For this point of view see the Kontsevich--Soibelman reference below.
+$A_\infty$-categories in this linear sense are a [[horizontal categorification]] of the notion of [[A-infinity-algebra]]. As such they are to [[A-infinity-algebra]]s as [[Lie infinity-algebroid]]s are to [[L-infinity-algebra]]s. For this point of view see [Konsevich-Soibelman 08](#KonsevichSoibelman08).
 
 +-- {: .num_defn}
 ###### Definition
@@ -147,7 +147,7 @@ A very detailed treatment of $A_\infty$-categories is a recent book
 
 The relation of $A_\infty$-categories to [[differential graded algebra]]s is emphasized in the introduction of
 
-* [[Maxim Kontsevich]], [[Yan Soibelman]], _Notes on A-infinity algebras, A-infinity categories and non-commutative geometry. I_ ([arXiv](http://arxiv.org/abs/math/0606241))
+* {#KonsevichSoibelman08} [[Maxim Kontsevich]], [[Yan Soibelman]], _Notes on $A_\infty$-algebras, $A_\infty$-categories and non-commutative geometry. I_, in [[Anton Kapustin]], [[Maximilian Kreuzer]], [[Karl-Georg Schlesinger]] (eds.) _Homological mirror symmetry -- New developments and perspectives_, Springer 2008 ([arXiv:math/0606241](http://arxiv.org/abs/math/0606241), [doi:10.1007/978-3-540-68030-7](https://www.springer.com/de/book/9783540680291))
 
 which mostly discusses just [[A-infinity-algebra]]s, but points out a generalizations to $A_\infty$-categories, see the overview on [p. 3](http://arxiv.org/PS_cache/math/pdf/0606/0606241v2.pdf#page=3)
 
