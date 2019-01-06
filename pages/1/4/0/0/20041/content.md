@@ -40,7 +40,7 @@ All [[PL manifold|PL]] [[4-manifolds]] are _simple_ branched covers of the  [[4-
 
 * {#IoriPiergallini02} Massimiliano Iori, [[Riccardo Piergallini]], _4-manifolds as covers of the 4-sphere branched over non-singular surfaces_, Geom. Topol. 6 (2002) 393-401 ([arXiv:math/0203087](https://arxiv.org/abs/math/0203087))
 
-The [[n-torus]] for $n \geq 3$ is not a [[cyclic group|cyclic]] branched over of the [[n-sphere]]:
+The [[n-torus]] for $n \geq 3$ is not a [[cyclic group|cyclic]] branched cover of the [[n-sphere]]:
 
 * {#HirschNeumann75} U. Hirsch, W. D. Neumann, _On cyclic branched coverings of spheres_, Math. Ann. (1975) 215: 289 ([doi:10.1007/BF01343895](https://doi.org/10.1007/BF01343895))
 
