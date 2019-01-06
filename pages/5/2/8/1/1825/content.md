@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -90,11 +91,15 @@ If $V$ admits a suitable function defining a spherical subset (such as a norm) t
 
 ## Properties
 
+### Basic
+
 * The $n$-sphere is the [[boundary]] of the $(n+1)$-[[ball]].
 
-* These spheres, or rather their underlying [[topological space]]s or [[simplicial set]]s, are fundamental in (ungeneralised) [[homotopy theory]].  In a sense, [[Whitehead's theorem]] says that these are all that you need; no further [[generalized (Eilenberg-Steenrod) homotopy theory|generalised homotopy theory]] (in a sense [[Eckmann–Hilton duality|dual]] to [[Eilenberg–Steenrod cohomology theory]]) is needed.
+* These spheres, or rather their underlying [[topological spaces]] or [[simplicial set]]s, are fundamental in (ungeneralised) [[homotopy theory]].  In a sense, [[Whitehead's theorem]] says that these are all that you need; no further [[generalized (Eilenberg-Steenrod) homotopy theory|generalised homotopy theory]] (in a sense [[Eckmann–Hilton duality|dual]] to [[Eilenberg–Steenrod cohomology theory]]) is needed.
 
 * [[positive dimension spheres are H-cogroup objects]], and this is the origin of the [[group]] structure on [[homotopy groups]]). 
+
+### Parallelizability
 
 * Precisely four spheres are [[parallelizable]], and three of these are so via [[Lie group]] structure (hence are the only spheres with Lie group structure) (see at _[[Hopf invariant one theorem]]_):
 
@@ -105,6 +110,27 @@ If $V$ admits a suitable function defining a spherical subset (such as a norm) t
   * $S^3$ (the [[special unitary group]] $SU(2)$, the group of unit [[quaternions]]);
 
   * $S^7$ (the [[Moufang loop]] of unit [[octonions]])
+
+### Branched covers
+
+Every $n$-[[dimension|dimensional]] [[PL manifold]] admits a [[branched covering]] of the [[n-sphere]] ([Alexander 20](branched+cover#Alexander20)). 
+
+By the [[Riemann existence theorem]], every [[connected topological space|connected]] [[compact topological space|compact]] [[Riemann surface]] admits the [[structure]] of a branched cover by a [[holomorphic function]] to the [[Riemann sphere]]. See [there](branched+cover+of+the+Riemann+sphere#RiemannSurfaces) at _[[branched cover of the Riemann sphere]]_.
+
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/TorusBranchedCoverOverSphere.jpg" width="500">
+\end{center}
+
+> graphics grabbed from [Chamseddine-Connes-Mukhanov 14, Figure 1](branched+cover#ChamseddineConnesMukhanov14), [Connes 17, Figure 11](branched+cover#Connes17)
+
+
+For [[3-manifolds]] branched covering the [[3-sphere]] see ([Montesinos 74](branched+cover#Montesinos74)).
+
+
+All [[PL manifold|PL]] [[4-manifolds]] are _simple_ branched covers of the  [[4-sphere]] ([Piergallini 95](#Piergallini95), [Iori-Piergallini 02](branched+cover#IoriPiergallini02)).
+
+But the [[n-torus]] for $n \geq 3$ is _not a [[cyclic group|cyclic]]_ branched over of the [[n-sphere]] ([Hirsch-Neumann 75](branched+cover#HirschNeumann75))
+
 
 
 ## Low dimensions
