@@ -20,7 +20,7 @@
 ## Idea
 
 
-A "branched" or "ramified" covering spaces is much like a plain [[covering space]], only that over isolated points in the base space -- called the _branch points_ or _ramification points_ -- sheets of the covering may merge.
+A "branched" or "ramified" covering space is much like a plain [[covering space]], only that over isolated points in the base space -- called the _branch points_ or _ramification points_ -- sheets of the covering may merge.
 
 
 The archetypical examples are in [[complex analysis]] and here the most archetypical example of all is the [[graph of a function|graph]] of (any choice of) the  [[square root]] function on the [[complex plane]], which is a [[double cover]] away from the point at the origin, but including the origin it is a branched double cover with branch point that origin
