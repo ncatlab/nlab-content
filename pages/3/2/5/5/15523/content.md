@@ -60,6 +60,10 @@ Every $n$-[[dimension|dimensional]] [[PL manifold]] is a [[branched cover]] of t
 * {#Alexander20} [[James W. Alexander]], _Note on Riemann spaces_, Bull. Amer. Math. Soc. 26 (1920) 370–373
 
 
+For [[3-manifolds]] branched covering the [[3-sphere]] see
+
+*  J. Montesinos, _A representation of closed orientable 3-manifolds as  3-fold branched coverings of $S^3$_, Bull. Amer. Math. Soc. 80 (1974), 845-846 ([Euclid:1183535815](https://projecteuclid.org/euclid.bams/1183535815))
+
 All [[PL manifold|PL]] [[4-manifolds]] are _simple_ branched covers of the  [[4-sphere]]:
 
 * {#Piergallini95} [[Riccardo Piergallini]], _Four-manifolds as 4-fold branched covers of $S^4$_, Topology Volume 34, Issue 3, July 1995 (<a href="https://doi.org/10.1016/0040-9383(94)00034-I">doi:10.1016/0040-9383(94)00034-I</a>, [pdf](https://core.ac.uk/download/pdf/82379618.pdf))
