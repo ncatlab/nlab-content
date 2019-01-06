@@ -20,10 +20,10 @@
 ## Idea
 
 
-A "branched" or "ramified" covering spaces is much like a plain [[covering space]], only that over isolated points in the base space -- called the _branch point_ or _ramification points_ -- sheets of the covering may merge.
+A "branched" or "ramified" covering spaces is much like a plain [[covering space]], only that over isolated points in the base space -- called the _branch points_ or _ramification points_ -- sheets of the covering may merge.
 
 
-The archetypical examples are in [[complex analysis]] and here the most archetypical example of all is the [[graph of a function|graph]] of (any choice of) the  [[square root]] function on the [[complex plane]], which is a double cover away from the point at the origin, but including the origin it is a branched double cover with branch point that origin
+The archetypical examples are in [[complex analysis]] and here the most archetypical example of all is the [[graph of a function|graph]] of (any choice of) the  [[square root]] function on the [[complex plane]], which is a [[double cover]] away from the point at the origin, but including the origin it is a branched double cover with branch point that origin
 
 [[Isbell duality|Dually]] branching is reflected in [[rings of functions]] by [[ramification of ideals]].
 
@@ -55,12 +55,12 @@ Notably under the [[function field analogy]] one may also understand [[ramificat
 ### Of manifolds
  {#ReferencesOfManifolds}
 
-Every $n$-[[dimension|dimensional]] [[manifold]] is a [[branched cover]] of the [[n-sphere]]:
+Every $n$-[[dimension|dimensional]] [[PL manifold]] is a [[branched cover]] of the [[n-sphere]]:
 
 * {#Alexander20} [[James W. Alexander]], _Note on Riemann spaces_, Bull. Amer. Math. Soc. 26 (1920) 370–373
 
 
-All [[4-manifolds]] are _simple_ branched covers of the  [[4-sphere]]:
+All [[PL manifold|PL]] [[4-manifolds]] are _simple_ branched covers of the  [[4-sphere]]:
 
 * {#Piergallini95} [[Riccardo Piergallini]], _Four-manifolds as 4-fold branched covers of $S^4$_, Topology Volume 34, Issue 3, July 1995 (<a href="https://doi.org/10.1016/0040-9383(94)00034-I">doi:10.1016/0040-9383(94)00034-I</a>, [pdf](https://core.ac.uk/download/pdf/82379618.pdf))
 
