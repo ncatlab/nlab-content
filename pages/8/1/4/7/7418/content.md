@@ -44,7 +44,7 @@ If $R$ is elegant, then every codegeneracy map (i.e. morphism in $R_-$) is a [[s
 =--
 +-- {: .proof}
 ###### Proof
-Let $f:x\to y$ be a codegeneracy map; then the span $y \xleftarrow{f} x \xrightarrow{f} y$ has an absolute pushout, consisting of say $g:y\to z$ and $h:y\to z$ with $g f = h f$.  This absolute pushout is preserved by $R(z,-)$, so $1_z\in R(z,z)$ must be the image under $g$ or $h$ of some map $s:z\to y$; WLOG say it is $g$, so we hav $1_z = g s$.  Now we have $s h:y\to y$ and $1_y$ such that $g s h = h = h 1_y$, and our absolute pushout is preserved by $R(y,-)$, so there must be a zigzag of elements in $R(y,z)$ relating $s h$ to $1_y$.  At one end of that zigzag, there must be a $t:y\to x$ such that $f t = 1_y$; hence $f$ is split epi.
+Let $f:x\to y$ be a codegeneracy map; then the span $y \xleftarrow{f} x \xrightarrow{f} y$ has an absolute pushout, consisting of say $g:y\to z$ and $h:y\to z$ with $g f = h f$.  This absolute pushout is preserved by $R(z,-)$, so $1_z\in R(z,z)$ must be the image under $g$ or $h$ of some map $s:z\to y$; WLOG say it is $g$, so we have $1_z = g s$.  Now we have $s h:y\to y$ and $1_y$ such that $g s h = h = h 1_y$, and our absolute pushout is preserved by $R(y,-)$, so there must be a zigzag of elements in $R(y,z)$ relating $s h$ to $1_y$.  At one end of that zigzag, there must be a $t:y\to x$ such that $f t = 1_y$; hence $f$ is split epi.
 =--
 
 +-- {: .num_lemma #MonoPreservesDeg}
