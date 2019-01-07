@@ -23,7 +23,7 @@ In concise form the continuum hypothesis ($CH$) reads: $\quad 2^{\aleph_0}=\alep
 
 The *generalized continuum hypothesis* ($GCH$) states more generally: $\quad 2^{\aleph_k}=\aleph _{k+1}\quad$. (But see also Remark \ref{GCHinZF} below.) 
 
-The **independence of the continuum hypothesis** from the [[ZFC]] axioms of set theory has been established in landmark papers by [[Kurt Gödel|K. Gödel]] and [[Paul J. Cohen|P. J. Cohen]], the former proving the consistency of $ZFC+CH$ relative to $ZFC$ in 1938, and the latter proving the consistency of $ZFC+\neg CH$ relative to $ZFC$ in 1963.
+The **independence of the continuum hypothesis** from the [[ZFC]] axioms of set theory has been established in landmark papers by [[Kurt Gödel|K. Gödel]] and [[Paul J. Cohen|P. J. Cohen]], the former proving the consistency of $ZFC+CH$ relative to $ZFC$ in 1938, and the latter proving the consistency of $ZFC+\neg CH$ relative to $ZFC$ in 1963. For fully [[formal proof]] see [Han 18](#Han18).
 
 The broader implications of the independence results for set theory in general and $ZFC$ in particular are somewhat controversial. They are widely taken as a pointer towards the deficiency of $ZFC$ and the need for _new axioms_ of set theory. This position has been voiced famously in [G&#246;del (1947)](#Goedel47) from a [[platonism|platonist perspective]].
 
@@ -193,6 +193,10 @@ On the other hand, the behavior of the power operation on [[regular cardinal|sin
 * [[W. Hugh Woodin]], _The Continuum Hypothesis, Part II_ , Notices AMS **48** no.7 (2001) pp.681-690. ([pdf](http://www.ams.org/notices/200107/fea-woodin.pdf))
 
 * {#Easton70} W. Easton, _Powers of regular cardinals_, Ann. Math. Logic, 1 (2): 139&#8211;178, (1970) [doi:10.1016/0003-4843(70)90012-4](https://dx.doi.org/10.1016%2F0003-4843%2870%2990012-4) 
+
+A [[formal proof]] of the independence of the continuum hypothesis from [[ZFC]] is in 
+
+* {#Han18} [[Jesse Han]], _Flypitch project -- Formal proof of the independence of CH_ ([github:flypitch](https://github.com/flypitch), [pdf](https://github.com/flypitch/flypitch-notes/blob/master/forcing-notes.pdf))
 
 [[!redirects CH]]
 [[!redirects Continuum hypothesis]]
