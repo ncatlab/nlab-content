@@ -72,16 +72,23 @@ giving an action of the [[cyclic group]] of order 3.  This can be made to look m
 
 There is a straightforward generalization to an adjunction of $n$ variables, which involves $n+1$ categories and $n+1$ functors.  Adjunctions of $n$ variables assemble into a 2-[[multicategory]].  They also have a corresponding notion of [[mates]]; see [Cheng-Gurski-Riehl](#CGR).
 
+This 2-multicategory can also be promoted to a 2-[[polycategory]]; see [Shulman](#Shulman).
+
 ## Related concepts
 
 * [[Quillen bifunctor]]
 
 ## References
 
+* [[John Gray]], *Closed categories, lax limits and homotopy limits*. J. Pure Appl. Algebra 19 (1980), 127--158.  Possibly the oldest abstract definition of the concept, under the name "THC-situation".
+
 * [[Mark Hovey]]. *Model Categories*, volume 63 of Mathematical Surveys and Monographs. American Mathematical Society, 1999.  See Chapter 4.
+
+* [[Rene Guitart]], *Trijunctions and triadic Galois connections*. Cah. Topol. Géom. Différ. Catég. 54 (2013), no. 1, 13--27.
 
 * {#CGR} [[Eugenia Cheng]], [[Nick Gurski]], [[Emily Riehl]], "Multivariable adjunctions and mates", [arXiv:1208.4520](http://arxiv.org/abs/1208.4520).
 
+* {#Shulman} [[Mike Shulman]], *The 2-Chu-Dialectica construction and the polycategory of multivariable adjunctions*, [arxiv:1806.06082](https://arxiv.org/abs/1806.06082), [blog post](https://golem.ph.utexas.edu/category/2017/11/the_polycategory_of_multivaria.html)
 
 [[!redirects two-variable adjunction]]
 [[!redirects two-variable adjunctions]]
@@ -99,3 +106,11 @@ There is a straightforward generalization to an adjunction of $n$ variables, whi
 [[!redirects multivariable adjunctions]]
 [[!redirects multi-variable adjunction]]
 [[!redirects multi-variable adjunctions]]
+
+[[!redirects THC-situation]]
+[[!redirects THC situation]]
+[[!redirects THC-situations]]
+[[!redirects THC situations]]
+
+[[!redirects trijunction]]
+[[!redirects trijunctions]]
