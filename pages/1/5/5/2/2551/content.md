@@ -230,6 +230,11 @@ to be a weak equivalence, it is now sufficient to see that the value of a [[cofi
 
 =--
 
+## References
+
+* {#MorelVoevodsky99} [[Fabien Morel]], [[Vladimir Voevodsky]], Def. 3.1 in _$\mathbb{A}^1$-homotopy theory of schemes_, Publications Mathématiques de l'IHÉS, Volume 90 (1999), p. 45-143  ([Numdam:PMIHES_1999__90__45_0](http://www.numdam.org/item/?id=PMIHES_1999__90__45_0) [K-Theory:0305](http://www.math.uiuc.edu/K-theory/0305/) )
+
+For more references see also at _[[motivic homotopy theory]]_.
 
 
 [[!redirects homotopy localizations]]
