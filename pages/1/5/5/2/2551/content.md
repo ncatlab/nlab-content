@@ -1,4 +1,6 @@
 
+> This entry is about the specific notion of [[localization]] "at an object" (at an [[interval object]]) as in (but not exclusive to) [[motivic homotopy theory]]. For the general concept see instead at _[[localization]]_ or [[localization of an (infinity,1)-category]] and related entries.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
