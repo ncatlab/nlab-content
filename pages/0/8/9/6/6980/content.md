@@ -129,6 +129,8 @@ Projects aiming to formalize parts of mathematics include
 
 * [[The QED Project]]
 
+* [Xena](https://xenaproject.wordpress.com/2018/10/07/what-is-the-xena-project/) (by [[Kevin Buzzard]])
+
 Consideration of the relation of mathematical proof to physics icludes
 
 * {#JaffeQuinn93} [[Arthur Jaffe]], [[Frank Quinn]], _"Theoretical Mathematics": Towards a cultural synthesis of mathematics and theoretical physics_, Bulletin of the AMS, Volume 29,Number 1, July 1993 ([arXiv:math/9307227](http://arxiv.org/abs/math/9307227))
