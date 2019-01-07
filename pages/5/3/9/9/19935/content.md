@@ -41,6 +41,10 @@ See also
 
 * Wikipedia, _[Wallpaper group](https://en.wikipedia.org/wiki/Wallpaper_group)_
 
+Discussion of [[meromorphic functions]] on the [[complex plane]] invariant under wallpaper groups:
+
+* Richard Chapling, _Invariant Meromorphic Functions on the Wallpaper Groups_ ([arXiv:1608.05677](https://arxiv.org/abs/1608.05677))
+
 [[!redirects wallpaper groups]]
 
 
