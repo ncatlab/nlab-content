@@ -186,6 +186,8 @@ Results holding for elementary (∞,1)-toposes:
 * [[Nima Rasekh]], _Yoneda Lemma for Elementary Higher Toposes_, ([arXiv:1809.01736](https://arxiv.org/abs/1809.01736))
 
 * [[Nima Rasekh]], _Every Elementary Higher Topos has a Natural Number Object_, ([arXiv:1809.01734](https://arxiv.org/abs/1809.01734))
+
+* [[Nima Rasekh]], _Truncations and Blakers-Massey in an Elementary Higher Topos_, ([arXiv:1812.10527](https://arxiv.org/abs/1812.10527))
  
 
 [[!redirects elementary (∞,1)-topos]]
