@@ -37,6 +37,12 @@ Lean libraries for [[HoTT]] include:
 
 * [[Floris van Doorn]], _[The Lean Theorem Prover](http://homotopytypetheory.org/2015/12/02/the-proof-assistant-lean/)_, 2015
 
-
 * {#Hales18} [[Thomas Hales]], _[A Review of the Lean Theorem Prover](https://jiggerwit.wordpress.com/2018/09/18/a-review-of-the-lean-theorem-prover/)_, September 2018
 
+* [[Kevin Buzzard]], _[Xena project](https://xenaproject.wordpress.com/)_ (2018)
+
+  * _[Installing Lean and mathlib](https://xenaproject.wordpress.com/installing-lean-and-mathlib/)_
+
+  * _[Learning Lean](https://xenaproject.wordpress.com/category/learning-lean/)_
+
+  * _[What maths in in lean?](https://xenaproject.wordpress.com/what-does-lean-already-know/)_
