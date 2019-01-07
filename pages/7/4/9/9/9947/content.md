@@ -74,6 +74,11 @@ Automated Reasoning, and Mathematical Computation_, 2012 [pdf slides](http://www
 
 Parts of the above text are taken from [this MO comment](http://mathoverflow.net/questions/133572/at-which-level-is-it-currently-possible-to-write-formal-proofs/134009#134009) by [[Jacques Carette]].
 
+See also 
+
+* [[Kevin Buzzard]], _[Xena project](https://xenaproject.wordpress.com/2018/10/07/what-is-the-xena-project/)_
+
+  on [[formal proof]] and proof assistants in undergraduate mathematics.
 
 [[!redirects proof assistant]]
 [[!redirects proof assistants]]
