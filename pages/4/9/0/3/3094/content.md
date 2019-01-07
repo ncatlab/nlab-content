@@ -256,7 +256,7 @@ A topology may be induced by more than a [[function]] other than a subset inclus
 
 * {#Terilla14} [[John Terilla]],  _Notes on categories, the subspace topology and the product topology_ 2014 ([pdf](https://math.mit.edu/~jhirsh/terilla_subspace_quotient.pdf))
 
-* {#Shulman15} [[Michael Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, Mathematical Structures in Computer Science 28.6 (2018): 856-941. ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584))
+* {#Shulman15} [[Mike Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
 
 [[!redirects subspace topology]]
 [[!redirects subspace topologies]]
