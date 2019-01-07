@@ -9,6 +9,10 @@
 =--
 =--
 
+## Contents
+* table of contents
+{:toc}
+
 ## Idea
 
 What is called the _21cm hydrogen line_ or just _hydrogen line_ is the signature of the [[electromagnetic radiation]] of [[wavelength]] about 21[[cm]] which is emitted by [[hydrogen]] [[atoms]] when the [[electrons]] in their shell change [[quantum state]] from the "triplet" to the singlet [[ground state]].
@@ -48,8 +52,21 @@ A claim of detection of the cosmological signal by the [[EDGES]] [[experiment]] 
 
 * {#BRMMM18} Judd D. Bowman, Alan E. E. Rogers, Raul A. Monsalve, Thomas J. Mozdzen,  Nivedita Mahesh, _An absorption profile centred at 78 megahertz in the sky-averaged spectrum_, Nature volume 555, pages 67–70 (01 March 2018) ([doi:10.1038/nature25792](https://www.nature.com/articles/nature25792))
 
-Discussion of this claim incluces
+* Raul A. Monsalve, Bradley Greig, Judd D. Bowman, Andrei Mesinger, Alan E. E. Rogers, Thomas J. Mozdzen, Nicholas S. Kern, Nivedita Mahesh, _Results from EDGES High-Band: II. Constraints on Parameters of Early Galaxies_,  The Astrophysical Journal, Volume 863, Number 1 ([arXiv:1806.07774](https://arxiv.org/abs/1806.07774))
+
+Discussion incluces
 
 * {#Falkowski18} [[Adam Falkowski]], _[21cm to dark matter](http://resonaances.blogspot.fr/2018/03/21cm-to-dark-matter.html)_, March 2018
 
+Arguments that this detection of the 21cm line rules out substantial contributions of [[fuzzy dark matter]]:
+
+* {#Nebrin17} Olof Nebrin, _Cosmic Dawn in a Fuzzy Universe: Constraining the nature of Dark Matterwith 21 cm Cosmology_, Stockholm 2017 ([diva2:1195402](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1195402&dswid=-8037), [urn:nbn:se:su:diva-154861](http://su.diva-portal.org/smash/record.jsf?pid=diva2%3A1195402&dswid=6755))
+
+* {#NebrinGharaMellema18} Olof Nebrin, Raghunath Ghara, Garrelt Mellema, _Fuzzy Dark Matter at Cosmic Dawn: New 21-cm Constraints_ ([arXiv:1812.09760](https://arxiv.org/abs/1812.09760), [reddit](https://www.reddit.com/r/Physics/comments/a9zeeb/my_first_paper_fuzzy_dark_matter_at_cosmic_dawn/))
+
+
 [[!redirects hydrogen lines]]
+
+[[!redirects 21cm hydrogen line]]
+[[!redirects 21cm hydrogen lines]]
+
