@@ -49,8 +49,10 @@ Work conducted in homotopy type theory:
 
 Work which uses [[modal homotopy type theory]], with, for example,  [[modalities]] for [[cohesion]], [[differential cohesion]] and [[supergeometry]]:
 
-* [[Michael Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584)) 
-* [[Felix Wellen]], _Cartan Geometry in Modal Homotopy Type Theory_, ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966)) 1806.05966
+* {#Shulman15} [[Mike Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
+
+* [[Felix Wellen]], _[[schreiber:thesis Wellen|Cartan Geometry in Modal Homotopy Type Theory]]_, ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966))
+
 * [[Felix Wellen]], _Cohesive Covering Theory (Extended Abstract)_, ([pdf](https://hott-uf.github.io/2018/abstracts/HoTTUF18_paper_15.pdf))
 
 See also [[schreiber:Some thoughts on the future of modal homotopy type theory]].
