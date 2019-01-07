@@ -115,11 +115,15 @@ Outlook on prospect of direct detection of dark matter, as of 2018:
 
 * {#PontzenGovernato14} Andrew Pontzen, Fabio Governato, _Cold dark matter heats up_, Nature, 506, 171 - 178 (13 Feb 2014) ([arXiv:1402.1764](https://arxiv.org/abs/1402.1764))
 
+* Jose Oñorbe, Michael Boylan-Kolchin, James S. Bullock, Philip F. Hopkins, Dušan Kerěs, Claude-André Faucher-Giguère, Eliot Quataert, Norman Murray, _Forged in FIRE: cusps, cores, and baryons in low-mass dwarf galaxies_, Monthly Notices of the Royal Astronomical Society, Volume 454, Issue 2, 1 December 2015 ([arXiv:1502.02036](https://arxiv.org/abs/1502.02036)) 
+
+* [[Justin Read]], O. Agertz, M. L. M. Collins, _Dark matter cores all the way down_, Monthly Notices of the Royal Astronomical Society, Volume 459, Issue 3, 1 July 2016 ([arXiv:1508.04143](https://arxiv.org/abs/1508.04143))
+
 * {#ReadWalkerSteger18} [[Justin Read]], M. G. Walker, P. Steger, _Dark matter heats up in dwarf galaxies_, Monthly Notices of the Royal Astronomical Society  ([arXiv:1808.06634](https://arxiv.org/abs/1808.06634), [doi:10.1093/mnras/sty3404](https://doi.org/10.1093/mnras/sty3404),  [talk recording](http://online.kitp.ucsb.edu/online/cdm-c18/read/))
 
 See also
 
-* Wikipedia, _[Cusly halo problem](https://en.wikipedia.org/wiki/Cuspy_halo_problem)_
+* Wikipedia, _[Cuspy halo problem](https://en.wikipedia.org/wiki/Cuspy_halo_problem)_
 
 
 
