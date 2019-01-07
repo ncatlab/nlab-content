@@ -46,7 +46,7 @@ Major [[theorems]] whose [[proofs]] have been fully formalized in Coq include
 ### Homotopy type theory
   {#HomotopyTypeTheory}
 
-For Coq-projects in [[homotopy type theory]] see [[homotopy type theory#Code]].
+For Coq-projects in [[homotopy type theory]] see the section [Code](homotopy+type+theory#Code).
 
 ## Related entries
 
