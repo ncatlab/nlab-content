@@ -866,7 +866,7 @@ Discussion from a perspective of [[homotopy type theory]] is in
 
 and implementation in [[Lean]]-[[HoTT]] is in
 
-* {#vanDoornSpectral} [[Floris van Doorn]], _Spectral_ ([github.com/cmu-phil/Spectral](https://github.com/cmu-phil/Spectral))
+* {#vanDoornSpectral} [[Floris van Doorn]], [[Egbert Rijke]], [[Ulrik Buchholtz]], [[Favonia]], [[Steve Awodey]], [[Jeremy Avigad]], [[Mike Shulman]], [[Jonas Frey]],  _Spectral_ ([github.com/cmu-phil/Spectral](https://github.com/cmu-phil/Spectral))
 
 
 ### History
