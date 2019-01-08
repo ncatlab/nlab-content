@@ -152,6 +152,10 @@ Discussion in [[homotopy type theory]] includes
 
 * [[Mike Shulman]], _[Spectral Sequences](http://homotopytypetheory.org/2013/08/08/spectral-sequences/)_, 2013
 
+and implementation in [[Lean]] is in 
+
+* [[Floris van Doorn]], _Spectral_ ([github.com/cmu-phil/Spectral](https://github.com/cmu-phil/Spectral))
+
 ### In equivariant cohomology
 
 In [[equivariant cohomology]], for [[Bredon cohomology]]:
