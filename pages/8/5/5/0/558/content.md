@@ -289,7 +289,7 @@ the constructon shows that the map $(f : |A|_r \to X) \mapsto (\tilde \tilde f :
 +-- {: .num_theorem}
 ###### Theorem
 
-We have an identity
+We have an identity:
 
 $$
   \array{
@@ -519,7 +519,7 @@ Later in
 
 it was argued that there were [[algebraic definitions of higher categories|algebraic definitions of higher groupoids]] that could be put forward,  so that the resulting objects ought to have a homotopy theory equivalent to the classical homotopy theory of topological spaces, and, moreover, would provide useful tools in the interpretation of [[non-abelian cohomology]] classes. This extended ideas that Grothendieck had explored in letters to [[Larry Breen]] in the mid 1970s in which he had given a sketch of a theory of $n$-stacks and their relation with the homotopy $n$-type of a space or more generally a topos.
 
-At this stage, (in the  1970s and early 1980s) more _geometric_ or _combinatorial_ definitions of infinity categories were not yet available, or, perhaps more accurately, had been discovered, but were not _recognised_ as having such an infinity categoric interpretation. These models included Kan complexes which now are interpreted as being one model for infinity groupoids, and [[quasicategory|weak Kan complex]]es, as put forward by Boardman and Vogt, which give one of the main models for (weak) $(\infty,1)$-categories. From this perspective, Quillen's result can be seen as being a precursor of one form of the Homotopy Hypothesis.
+At this stage, (in the  1970s and early 1980s) more _geometric_ or _combinatorial_ definitions of infinity categories were not yet available, or, perhaps more accurately, had been discovered, but were not _recognised_ as having such an infinity categoric interpretation; see [[Tim Porter]]'s Letter to Grothendieck (16 June 1983) and the discussion [[Spaces as infinity-groupoids.pdf|here:file]]  in [[New Spaces for Mathematics and Physics]]. These models included Kan complexes which now are interpreted as being one model for infinity groupoids, and [[quasicategory|weak Kan complex]]es, as put forward by Boardman and Vogt, which give one of the main models for (weak) $(\infty,1)$-categories. From this perspective, Quillen's result can be seen as being a precursor of one form of the Homotopy Hypothesis.
 
 The name "homotopy hypothesis" for this statement is due to 
 
