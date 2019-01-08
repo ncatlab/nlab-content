@@ -101,7 +101,7 @@ This approach can be generalized to the [[transfinite construction of free algeb
 ### Semantics for inductive types
 
 Initial algebras of endofunctors are the [[categorical semantics]] of [[extensional type theory|extensional]] [[inductive types]].
-The generalization to [[weak initial algebras]] captures the notion in [[intensional type theory]] and [[homotopy type theory]]. 
+The generalization to [[weak initial]] algebras captures the notion in [[intensional type theory]] and [[homotopy type theory]]. 
 
 
 ## Examples
