@@ -864,6 +864,11 @@ Discussion from a perspective of [[homotopy type theory]] is in
 
 * {#Shulman13} [[Mike Shulman]], _[[homotopytypetheory:spectral sequences|Spectral sequences]]_ 2013 ([part I](https://golem.ph.utexas.edu/category/2013/08/what_is_a_spectral_sequence.html), [part II](http://homotopytypetheory.org/2013/08/08/spectral-sequences/))
 
+and implementation in [[Lean]]-[[HoTT]] is in
+
+* {#vanDoornSpectral} [[Floris van Doorn]], _Spectral_ ([github.com/cmu-phil/Spectral](https://github.com/cmu-phil/Spectral))
+
+
 ### History
 
 * [[John McCleary]], _A history of spectral sequences: Origins to 1953_, in _History of Topology_, edited by Ioan M. James, North Holland (1999) 631&#8211;663
