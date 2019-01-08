@@ -33,7 +33,7 @@ In particular, it has two monoidal structures $\otimes$ and $\parr$, as in a lin
 
 A $\ast$-autonomous category is a special case of the notion of [[star-autonomous pseudomonoid]] (a.k.a. Frobenius pseudomonoid, since it categorifies a [[Frobenius algebra]]) in a [[monoidal bicategory]].
 
-[Regarding the use of "autonomous", this was once used as a bare adjective to describe a [[closed monoidal category]], or sometimes a [[compact closed monoidal category]], but is rarely used in this way today. It has been suggested that in these cases with internal-hom objects the category is autonomous or "sufficient unto itself" without needing hom-sets, or suchlike.]
+(Regarding the use of "autonomous", this was once used as a bare adjective to describe a [[closed monoidal category]], or sometimes a [[compact closed monoidal category]], but is rarely used in this way today. It has been suggested that in these cases with internal-hom objects the category is autonomous or "sufficient unto itself" without needing hom-sets, or suchlike.)
 
 ## Definition ##
 
