@@ -105,3 +105,4 @@ The relation to [[traced monoidal categories]] is discussed in
 [[!redirects symmetric monoidal categories with duals for objects]]
 [[!redirects symmetric monoidal category with duals]]
 [[!redirects symmetric monoidal categories with duals]]
+[[!redirects compact closed monoidal category]]
