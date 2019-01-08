@@ -44,3 +44,4 @@ Every [[locally small category|locally small]] pointed category is naturally  [[
 
 [[!redirects pointed category]]
 [[!redirects pointed categories]]
+[[!redirects punctuated category]]
