@@ -23,7 +23,7 @@
 ###### Definition
 
 In a [[category]], an [[object]] is called 
-a **zero object**, or **null object** if it is both an [[initial object]] and a [[terminal object]].  
+a **zero object**, **null object**, or **biterminator** if it is both an [[initial object]] and a [[terminal object]].  
 
 =--
 
@@ -146,3 +146,6 @@ Thus, such a category becomes [[enriched category|enriched]] over the [[category
 
 [[!redirects null object]]
 [[!redirects null objects]]
+
+[[!redirects biterminator]]
+[[!redirects biterminators]]
