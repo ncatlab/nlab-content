@@ -260,6 +260,8 @@ This result implies that the geometric realization functor preserves all five cl
 of maps in a [[model category]]: [[weak equivalences]], [[cofibrations]], [[acyclic cofibrations]],
 [[fibrations]], and [[acyclic fibrations]].
 
+In fact the geometric realization of a Kan fibration is even a [[Hurewicz fibration]] (at least relative to a [[convenient category of spaces]] in which it lives).  This follows from the fact that [[a Serre fibration between CW-complexes is a Hurewicz fibration]]; a direct proof along the lines of Quillen's can be found in [Fritch and Piccinini, Theorem 4.5.25](#FP90).
+
 ### Induced properties of the fibrant replacement
 
 The previous two sections show that the geometric realization preserves finite limits and fibrations.  Since its right adjoint, the singular complex functor $Top \to sSet$, also preserves both (much more trivially), and since all objects of $Top$ are fibrant and the adjunction is simplicially enriched, it follows that the composite $sSet \to Top \to sSet$ is a simplicially enriched [[fibrant replacement functor]] on $sSet$ that additionally preserves both finite limits and fibrations.
@@ -287,8 +289,12 @@ The previous two sections show that the geometric realization preserves finite l
 
 * {#Quillen68} [[Daniel Quillen]], *The geometric realization of a Kan fibration is a Serre fibration.  Proc. Amer. Math. Soc. 19 1968 1499--1500.  [pdf](https://www.ams.org/journals/proc/1968-019-06/S0002-9939-1968-0238322-1/S0002-9939-1968-0238322-1.pdf)
 
+* {#FP90} Fritsch and Piccinini, *Cellular Structures in Topology*, Cambridge University Press, 1990, ISBN 0521327849
 
 [[!redirects geometric realisation]]
 
 [[!redirects geometric realizations]]
+
+[[!redirects the geometric realization of a Kan fibration is a Serre fibration]]
+[[!redirects the geometric realization of a Kan fibration is a Hurewicz fibration]]
 
