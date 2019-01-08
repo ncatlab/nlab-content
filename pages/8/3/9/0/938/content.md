@@ -65,6 +65,29 @@ If $X$ and $Y$ are [[connected space|path-connected]], then (1) is trivial, and 
 
 =--
 
+\begin{remark}
+There are many alternative definitions of weak homotopy equivalences.
+A simplicial map $f$ is a weak equivalence of simplicial sets
+if and only if $Ex^\infty f$ is a simplicial homotopy equivalence
+if and only if $Hom(f,A)$ is a simplicial homotopy equivalence for any [[Kan complex]] $A$
+if and only if $f$ has a right relative-homotopy-lifting property with respect
+to the maps $\partial\Delta^n\to\Delta^n$
+if and only if $f$ is a composition of an acyclic cofibration
+(i.e., a map with a left lifting property with respect to all maps with a right lifting
+property with respect to horn inclusions)
+and an acyclic fibration (i.e., a map
+with a right lifting property with respect to inclusions $\partial\Delta^n\to\Delta^n)$.
+A continuous map $f$ is a weak equivalence of topological spaces
+if and only if $|Sing(f)|$ is a homotopy equivalence of topological spaces
+if and only if $Hom(A,f)$ is a homotopy equivalence for any [[CW-complex]] $A$
+if and only if $f$ has a right relative-homotopy-lifting property with respect
+to the maps $S^{n-1}\to D^n$
+if and only if $f$ is a composition of an acyclic Serre cofibration
+(a retract of a relative CW-complex) and an acyclic [[Serre fibration]].
+Both functors $|-|$ and $Sing$ preserve and reflect weak equivalences,
+so any of the two classes defines the other.
+\end{remark}
+
 
 +-- {: .num_defn }
 ###### Definition
