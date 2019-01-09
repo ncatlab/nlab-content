@@ -131,6 +131,10 @@ The following work included the consideration of identical particles into the st
 
 * [[A. P. Balachandran]], [[T. R. Govindarajan]], Amilcar R. de Queiroz, A. F. Reyes-Lega, _Entanglement and particle identity: a unifying approach_, Phys. Rev. Lett. 110, 080503 (2013) [arxiv/1303.0688](http://arxiv.org/abs/1303.0688); _Algebraic approach to entanglement and entropy_, [arxiv/1301.1300](http://arxiv.org/abs/1301.1300); _Entanglement, particle identity and the GNS construction: a unifying approach_ [arxiv/1205.2882](http://arxiv.org/pdf/1205.2882) (earlier, longer version, overlapping with 1303.0688)  
 
+Use of [[homological algebra]] for quantifying entanglement:
+
+* Tom Mainiero, _Homological Tools for the Quantum Mechanic_ ([arXiv:1901.02011](https://arxiv.org/abs/1901.02011))
+
 category: physics
 [[!redirects entangled state]]
 [[!redirects entangled]]
