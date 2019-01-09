@@ -20,6 +20,9 @@
 
 What has come to be called _nonabelian T-duality_ ([Ossa-Quevedo 92](#OssaQuevedo92)) _Poisson-Lie T-Duality_ (due to [Klimcik-Ševera 95](#KlimcikSevera95), [von Unge 02](#vonUnge02)) is a generalization of [[T-duality]] from [[fiber bundles]] equipped with an [[abelian group]] of [[isometries]] ([[torus]] [[bundles]]) to those with a [[nonabelian group]] of isometries.
 
+It has been proven that these generalized T-dualities are are/induce equivalences of the corresponding [[string]] [[sigma-models]] at the level of [[classical field theory]]. However it seems to be open, and in fact questionable, that away from standard [[T-duality]] this yields an equivalence at the level of [[worldsheet]] [[quantum field theories]], hence it is open whether Poisson-Lie/non-abelian T-duality is really a duality operation on [[perturbative string theory vacua]].
+
+
 ## Related $n$Lab entries
 
 * [[topological T-duality]]
@@ -55,3 +58,5 @@ See also
 * [[Pavol Ševera]], Fridrich Valach, _Courant algebroids, Poisson-Lie T-duality, and type II supergravities_ ([arXiv:1810.07763](https://arxiv.org/abs/1810.07763))
 
 [[!redirects nonabelian T-duality]]
+
+[[!redirects non-abelian T-duality]]
