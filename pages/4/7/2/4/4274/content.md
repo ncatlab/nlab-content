@@ -75,7 +75,7 @@ from the [[Thom spectrum]] of [[String bordism]] to the [[tmf]]-spectrum.  This 
 
 This construction has been the central motivation behind the search for and construction of [[tmf]] ([Hopkins 94](#Hopkins94)). A construction of the [[string orientation of tmf]] is given in ([Ando-Hopkins-Rezk 10](#AndoHopkinsRezk)) and it is shown that indeed it refines the Witten genus ([Ando-Hopkins-Rezk 10, prop. 15.3](#AndoHopkinsRezk)).
 
-It is maybe noteworthy that [[tmf]] (and hence its universal string orientation) also arises canonically from just studying [[chromatic homotopy theory]] (see [Mazel-Gee 13](#tmf#MazelGee13) for a nice survey of this) a fundamental topic in [[stable homotopy theory]], hence a fundamental topic in [[mathematics]]. Therefore in the Witten genus some very fundamental pure mathematics happens to euivalently incarnate as some conjecturally very fundamental [[physics]] ([[string theory]]).
+It is maybe noteworthy that [[tmf]] (and hence its universal string orientation) also arises canonically from just studying [[chromatic homotopy theory]] (see [Mazel-Gee 13](#tmf#MazelGee13) for a nice survey of this) a fundamental topic in [[stable homotopy theory]], hence a fundamental topic in [[mathematics]]. Therefore in the Witten genus some very fundamental pure mathematics happens to equivalently incarnate as some conjecturally very fundamental [[physics]] ([[string theory]]).
 
 
 ## Properties
