@@ -26,6 +26,8 @@ and
 
 * [[transitive action|transitive]]: for every two points in (a fiber of) the space, there is an element of the group taking one to the other.
 
+The second axiom says that $\langle \rho, \pi_2 \rangle: G \times P \to P \times P$ is surjective, and the first says it is injective. 
+
 In other words, in the classical case where we are working in the category of sets over the point, a torsor is a [[heap]]:
 
 a $G$-set $P$ with action $\rho: G \times P \to P$ such that every choice of point $p \in P$ induces an isomorphism of $G$-sets
