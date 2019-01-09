@@ -634,6 +634,8 @@ Older reviews include
 
 More recently there is
 
+* Tomoyuki Takezaki, _Open superstring field theory including the Ramond sector based on the supermoduli space_ ([arXiv:1901.02176](https://arxiv.org/abs/1901.02176))
+
 ### Effective field theory
 
 Discussion of Wilsonian [[effective field theory]] of string field theory includes
