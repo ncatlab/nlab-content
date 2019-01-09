@@ -21,16 +21,12 @@
 
 Recall the following familiar 1-categorical statement:
 
-* Working in the 1-[[category]] [[Set]] of [[0-category|0-categories]] amounts to doing [[set theory]]. The point of [[sheaf topos|sheaf]] [[toposes]] is to pass to _parameterized_  [[0-category|0-categories]], namely  [[presheaf]] categories. Although these [[topos|topoi]] behave much like the 1-topos [[Set]], their objects are generalized [[spaces]] that may carry 
-more structure. For instance, a (pre)[[sheaf]] on [[Diff]] is a [[generalized smooth space]].
+* Working in the 1-[[category]] [[Set]] of [[0-category|0-categories]] amounts to doing [[set theory]]. The point of [[sheaf topos|sheaf]] [[toposes]] is to pass to _parameterized_  [[0-category|0-categories]], namely  [[presheaf]] categories. Although these [[topos|topoi]] behave much like the 1-topos [[Set]], their objects are generalized [[spaces]] that may carry more structure. For instance, a (pre)[[sheaf]] on [[Diff]] is a [[generalized smooth space]].
 
 The idea of $(\infty,1)$-toposes is to generalize the above situation from $1$ to $(\infty,1)$  (recall the notion of [[(n,r)-category]] and see the general discussion at [[∞-topos]]):
 
-* Working in the [[(∞,1)-category]] [[∞Grpd]] of [[infinity-groupoid|(∞,0)-categories]] amounts to doing [[homotopy theory]]. The point of 
-[[(∞,1)-sheaves]] is to pass to _parameterized_ [[(∞,0)-categories]], namely  [[(∞,1)-presheaf]] categories. Although these $(\infty,1)$-topoi behave much like the $(\infty,1)$-topos 
-[[∞Grpd]], their objects are generalized  [[spaces]]  with higher [[homotopies]] that may carry more structure. 
-
-More generally we have topoi of [[sheaves]], and $(\infty,1)$-topoi of [[(∞,1)-sheaves]].  For instance, an [[∞-Lie groupoid]] is an [[(∞,1)-sheaf]] on [[CartSp]].
+* Working in the [[(∞,1)-category]] [[∞Grpd]] of [[infinity-groupoid|(∞,0)-categories]] amounts to doing [[homotopy theory]]. The point of [[(∞,1)-sheaves]] is to pass to _parameterized_ [[(∞,0)-categories]], namely  [[(∞,1)-presheaf]] categories. Although these $(\infty,1)$-topoi behave much like the $(\infty,1)$-topos 
+[[∞Grpd]], their objects are generalized  [[spaces]]  with higher [[homotopies]] that may carry more structure. More generally we have topoi of [[sheaves]], and $(\infty,1)$-topoi of [[(∞,1)-sheaves]].  For instance, an [[∞-Lie groupoid]] is an [[(∞,1)-sheaf]] on [[CartSp]].
 
 
 ## Definition {#Definition}
