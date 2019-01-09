@@ -684,7 +684,7 @@ Speculative remarks on the possible role of maps from [[spacetime]] to the [[4-s
 
 * {#ChamseddineConnesMukhanov14} [[Ali Chamseddine]], [[Alain Connes]], Viatcheslav Mukhanov, section 4 of _Geometry and the Quantum: Basics_, JHEP 12 (2014) 098 ([arXiv:1411.0977](https://arxiv.org/abs/1411.0977))
 
-* {#Connes17} [[Alain Connes]], section 4 of _Geometry and the Quantum_, Foundations of Mathematics and Physics One Century After Hilbert. Springer 2018. 159-196 ([arXiv:1703.02470](https://arxiv.org/abs/1703.02470))
+* {#Connes17} [[Alain Connes]], section 4 of _Geometry and the Quantum_, in _Foundations of Mathematics and Physics One Century After Hilbert_, Springer 2018. 159-196 ([arXiv:1703.02470](https://arxiv.org/abs/1703.02470), [doi:10.1007/978-3-319-64813-2](https://www.springer.com/gp/book/9783319648125))
 
 * [[Alain Connes]], from 58:00 to 1:25:00 in _Why Four Dimensions and the Standard Model Coupled to Gravity - A Tentative Explanation From the New Geometric Paradigm of NCG_, talk at IHES, 2017 ([video recording](https://www.youtube.com/watch?v=qVqqftQ92kA))
 
