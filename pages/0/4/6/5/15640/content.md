@@ -251,6 +251,10 @@ with review including
 
 * {#GoldfeldHundley11} [[Dorian Goldfeld]], [[Joseph Hundley]], chapter 2 of _Automorphic representations and L-functions for the general linear group_, Cambridge Studies in Advanced Mathematics 129, 2011 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/text/gl2.pdf))
 
+Discussion in the context of [[p-adic string theory]]:
+
+* An Huang, Bogdan Stoica, [[Shing-Tung Yau]], _General relativity from $p$-adic strings_ ([arXiv:1901.02013](https://arxiv.org/abs/1901.02013))
+
 
 [[!redirects Riemann zeta-function]]
 
