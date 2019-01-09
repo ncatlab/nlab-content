@@ -37,7 +37,7 @@ Eventually this resistence vanished and turned into its opposite in theoretical 
 A transcript of an interview with Wigner where he mentions Schr&#246;dinger's remark on the _Gruppenpest_ is here:
 
 * Interview with Eugene Wigner
-by Lillian Hoddeson, Gordon Baym and Frederick Seitz at the New Yorker Hotel January 24, 1981 ([Niels Bohr Library and Archives](http://www.aip.org/history/ohilist/4965.html))
+by Lillian Hoddeson, Gordon Baym and Frederick Seitz at the New Yorker Hotel January 24, 1981 ([Niels Bohr Library and Archives](https://www.aip.org/history-programs/niels-bohr-library/oral-histories/4965))
  {#Wigner81}
 
 A historical anlysis of Wigner's work on group theory with a remark on the _Gruppenpest_ comment is in 
