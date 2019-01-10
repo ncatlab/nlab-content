@@ -91,7 +91,7 @@ Currently, the following stylish themes are available:
 ## How to download a local copy of the nLab 
   {#download}
  
-It is possible to download an SQL dump of the nLab database, from which both the nLab and nForum can be reconstructed. Some of us are running cron jobs to do this regularly. The more the merrier: if you are interested, please request that we create a user for you to be able to do this in the [nForum](https://nforum.ncatlab.org/discussions/?CategoryID=21).
+It is possible to download an SQL dump of the nLab database, from which both the nLab and nForum can be reconstructed. Some of us are running cron jobs to do this regularly. The more the merrier: if you are interested, please request that we create a user for you to be able to do this in the [nForum](https://nforum.ncatlab.org/discussions/?CategoryID=21), say in [this thread](https://nforum.ncatlab.org/discussion/8991/nlab-database-backups/?Focus=71715#Comment_71715).
 
 If you would like instead to download rendered nLab pages for local viewing, let us know as well at the nForum.
 
