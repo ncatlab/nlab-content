@@ -1,6 +1,3 @@
-
-> This entry is about the specific notion of [[localization]] "at an object" (at an [[interval object]]) as in (but not exclusive to) [[motivic homotopy theory]]. For the general concept see instead at _[[localization]]_ or [[localization of an (infinity,1)-category]] and related entries.
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -39,7 +36,7 @@ where $X$ is any [[object]], and where $\ast$ is the [[terminal object]], and wh
 
 The [[reflective localization]] at such a class of morphisms $W_{\mathbb{A}}$ is often referred to as _homotopy localization at the object $\mathbb{A}$_ or similar. 
 
-The idea is that if $\mathbb{A}$ is, or is regarded as, an [[interval object]], then [[left homotopies]] between morphisms $X \to Y$ are, or would be, given by morphisms out of $X \times \mathbb{A}$, and hence forcing the projections $X \times \mathbb{A} \to X$ to be equivalences means forcing all morphisms to be _[[homotopy invariance|homotopy invariant]]_ with respect to $\mathbb{A}$.
+The idea is that if $\mathbb{A}$ is, or is regarded as, an [[interval object]], then "geometric" [[left homotopies]] between morphisms $X \to Y$ are, or would be, given by morphisms out of $X \times \mathbb{A}$, and hence forcing the projections $X \times \mathbb{A} \to X$ to be equivalences means forcing all morphisms to be _[[homotopy invariance|homotopy invariant]]_ with respect to $\mathbb{A}$.
 
 Typically this is considered in the case that $\mathcal{C}$ is a [[locally presentable category]] with a [[small set]] of [[generators and relations|generating objects]] $G_i$ such that it becomes sufficient to enforce the localization only on the resulting [[small set]] of [[morphisms]] of the form $G_i \times (\mathbb{A} \to \ast)$.
 
@@ -238,7 +235,7 @@ to be a weak equivalence, it is now sufficient to see that the value of a [[cofi
 
 For more references see also at _[[motivic homotopy theory]]_.
 
-
+[[!redirects homotopy localization]]
 [[!redirects homotopy localizations]]
 
 [[!redirects homotopy localization at an object]]
