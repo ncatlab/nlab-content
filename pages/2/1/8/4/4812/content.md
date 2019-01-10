@@ -1,8 +1,8 @@
 Given a [[commutative unital ring]] $k$ and a [[coassociative coalgebra|coassociative]] $k$-[[coalgebra]] $C = (C,\Delta,\epsilon)$ with comultiplication $\Delta$ and counit $\epsilon\colon C\to k$, a $k$-[[submodule]] $I\subseteq C$ is 
 
-* a __left coideal__ if $\Delta(I)\subseteq \overline{I\otimes C}$, 
+* a __right coideal__ if $\Delta(I)\subseteq \overline{I\otimes C}$, 
 
-* a __right coideal__ if $\Delta(I)\subseteq \overline{C\otimes I}$,
+* a __left coideal__ if $\Delta(I)\subseteq \overline{C\otimes I}$,
 
 * a __coideal__ if $\Delta(I)\subseteq \overline{I\otimes C}+\overline{C\otimes I}$ and $\epsilon(I)=0$.
 
