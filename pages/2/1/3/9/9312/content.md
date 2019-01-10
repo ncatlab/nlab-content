@@ -4,7 +4,7 @@ This entry provides links related to
 
 * [[Pavol Ševera]], 
 
-  _Some title containing the words "homotopy" and "symplectic", e.g. this one_, based on a talk at "Poisson 2000", CIRM Marseille, June 2000; ([arXiv:0105080](http://arxiv.org/abs/math/0105080))
+  _Some title containing the words "homotopy" and "symplectic", e.g. this one_, based on a talk at [Poisson 2000](http://www.lpthe.jussieu.fr/~dito/poissongeometry/Poisson2000/index.html), [CIRM Marseille Luminy](https://www.cirm-math.fr/), June 2000 ([arXiv:0105080](http://arxiv.org/abs/math/0105080))
 
 on this table:
 
