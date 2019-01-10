@@ -805,7 +805,8 @@ This was refined from integration to bare $\infty$-groupoids to an integration t
 
 For general [[∞-Lie algebroids]] the general idea of the integration process by "$d$-paths" had been indicated in 
 
-* {#Severa01} [[Pavol Severa]], _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv:math.SG/0105080](http://arxiv.org/abs/math.SG/0105080)).
+* {#Severa01} [[Pavol Severa]],  _[[Some title containing the words "homotopy" and "symplectic", e.g. this one]]_, based on a talk at _[Poisson 2000](http://www.lpthe.jussieu.fr/~dito/poissongeometry/Poisson2000/index.html)_, [CIRM Marseille Luminy](https://www.cirm-math.fr/), June 2000 ([arXiv:0105080](http://arxiv.org/abs/math/0105080))
+
 
 * Pavol &#352;evera, Michal &#352;ira&#328;, _Integration of differential graded manifolds_, [arxiv/1506.04898](http://arxiv.org/abs/1506.04898)
 
