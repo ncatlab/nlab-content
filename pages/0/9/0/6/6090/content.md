@@ -19,7 +19,7 @@
 
 ## Idea
 
-In [[quantum field theory]] a _[[scattering amplitude]]_ or _scattering matrix_, usually just _S-matrix_ for short, encodes the [[probability amplitudes]] for scatterings processes of [[particles]] off each other.
+In [[quantum field theory]] a _[[scattering amplitude]]_ or _scattering matrix_, usually just _S-matrix_ for short, encodes the [[probability amplitudes]] for scattering processes of [[particles]] off each other.
 
 ### General idea
 
