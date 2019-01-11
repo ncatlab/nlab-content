@@ -128,7 +128,7 @@ $$
   \,.
 $$
 
-The [[free construction|freely]] adds symmetric group actions.
+The [[free construction]] freely adds symmetric group actions.
 
 For instance as a [[planar operad]], [[Assoc]] is the [[terminal object]] (has the point in each degree). Its symmetrization $Symm(Assoc)$ is still the operad for associative [[monoids]], now regarded as a symmetric operad, where it has the underlying set of the [[symmetric group]] $\Sigma_n$ in degree $n$. This is no longer the terminal object in $SymmetricOperad$, which instead is [[Comm]].
 
