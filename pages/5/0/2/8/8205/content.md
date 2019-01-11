@@ -207,14 +207,24 @@ chapter 5 of
 
 ### Application to pure mathematics
 
-#### Twisted K-theory
+Reviews include
+
+* [[Gregory Moore]], _[[The Impact of D-Branes on Mathematics]]_ (2014), _[[Physical Mathematics and the Future]]_ (2014)
+
+* [[Mina Aganagic]], _String Theory and Math: Why This Marriage May Last_, ([arXiv:1508.06642](https://arxiv.org/abs/1508.06642))
+
+See also [Fields medal (and other) work related to string theory](string+theory#FieldMedalWork)
 
 * [[twisted K-theory]]
 
-#### Monstrous moonshine
-
 * [[monstrous moonshine]]
 
-#### (...)
+* The [[string orientation of tmf]] was directly motivated from the index of the heterotic string ("[[Witten genus]]").
+
+* The relation between [[Bruhat-Tits buildings]] and zeros of the [[Riemann zeta function]], as described in [Huang-Stoica-Yau](https://ncatlab.org/nlab/show/p-adic+string+theory#HuangStoicaYau19).
+
+* [[mirror symmetry]] took complex geometers by complete surprise, but is easily seen from the [[2d (2,0)-superconformal QFT|2d (2,0)-sigma model]] with [[target space]] the respective CY manifolds.
+
+* [[Morse theory]] of loop spaces via loop space [[supersymmetric quantum mechanics]] describing superstring propagation.
 
 (...)
