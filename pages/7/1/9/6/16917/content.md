@@ -18,6 +18,8 @@ Physicist, co-founder of [[perturbative quantum field theory]] (see [[Schwinger-
 
 * {#Dyson52} [[Freeman Dyson]], _Divergence of perturbation theory in quantum electrodynamics_, Phys. Rev. 85, 631 (1952)
 
+  which is the origin of mathematical [[perturbative quantum field theory]], see [[Schwinger-Tomonaga-Feynman-Dyson]].
+
 * {#Dyson07} [[Freeman Dyson]], _Why is Maxwell’s Theory so hard to understand?_, Proceedings of [The Second European Conference on Antennas and Propagation, EuCAP 2007](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4446147) ([doi: 10.1049/ic.2007.1146](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4446147))
 
 ## related $n$Lab entries
