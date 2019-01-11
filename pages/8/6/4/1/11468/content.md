@@ -130,7 +130,7 @@ See also
 
 Relation to [[gravity]] and the [[Riemann zeta function]]:
 
-* An Huang, Bogdan Stoica, [[Shing-Tung Yau]], _General relativity from $p$-adic strings_ ([arXiv:1901.02013](https://arxiv.org/abs/1901.02013))
+* {#HuangStoicaYau19} An Huang, Bogdan Stoica, [[Shing-Tung Yau]], _General relativity from $p$-adic strings_ ([arXiv:1901.02013](https://arxiv.org/abs/1901.02013))
 
 
 
