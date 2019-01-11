@@ -202,6 +202,10 @@ Discussion of the $\eta'$-mass from instantons includes
 
 * _A renewed look at $\eta'$ in medium, ([arXiv:1203.6740](http://arxiv.org/abs/1203.6740))
 
+Relation to the [[scanning map]] and [[configuration spaces of points]] in:
+
+* {#AtiyahJones78} [[Michael Atiyah]], [[John David Stuart Jones]], _Topological aspects of Yang-Mills theory_, Comm. Math. Phys. Volume 61, Number 2 (1978), 97-118 ([arXiv:1103904210](https://projecteuclid.org/euclid.cmp/1103904210))
+
 
 ### Relation to skyrmions, calorons, monopoles
 
