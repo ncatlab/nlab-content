@@ -317,8 +317,7 @@ The claim that this torsion constraint in  [[11-dimensional supergravity]] is al
 *  {#CandielloLechner93} A. Candiello, K. Lechner, _Duality in Supergravity Theories_, Nucl.Phys. B412 (1994) 479-501 ([arXiv:hep-th/9309143](http://arxiv.org/abs/hep-th/9309143))
 
 
-* {#Howe97} [[Paul Howe]], _Weyl Superspace_, Physics Letters B
-Volume 415, Issue 2, 11 December 1997, Pages 149&#8211;155 ([arXiv:hep-th/9707184](http://arxiv.org/abs/hep-th/9707184))
+* {#Howe97} [[Paul Howe]], _Weyl Superspace_, Physics Letters B, Volume 415, Issue 2, 11 December 1997, Pages 149&#8211;155 ([arXiv:hep-th/9707184](http://arxiv.org/abs/hep-th/9707184))
 
 concisely reviewed in 
 
