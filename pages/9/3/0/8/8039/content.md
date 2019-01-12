@@ -26,6 +26,12 @@ Mathieu moonshine corresponds to one of the 23 Neimeier lattices in the generali
 
 * Anne Taormina, [[Katrin Wendland]], _The overarching finite symmetry group of Kummer surfaces in the Mathieu group $M_24$_ ([arXiv:1107.3834](http://arxiv.org/abs/1107.3834))
 
+
+* [[Matthias Gaberdiel]], [[Stefan Hohenegger]], Roberto Volpato, _Symmetries of K3 sigma models_, Commun.Num.Theor.Phys. 6 (2012) 1-50 ([arXiv:1106.4315](https://arxiv.org/abs/1106.4315))
+
+* [[Matthias Gaberdiel]], Roberto Volpato, _Mathieu Moonshine and Orbifold K3s_ ([arXiv:1206.5143](https://arxiv.org/abs/1206.5143))
+
+
 ### Surveys
 
 * Terry Gannon, _Much ado about Mathieu_, ([arXiv:1211.5531](http://arxiv.org/abs/1211.5531))
@@ -34,3 +40,5 @@ Mathieu moonshine corresponds to one of the 23 Neimeier lattices in the generali
 
 * Mathematisches Institute Freiburg, _Mathieu moonshine_ ([web](http://home.mathematik.uni-freiburg.de/mathphys/mitarbeiter/wendland/publikationen/mathieu.html))
  {#Freiburg}
+
+
