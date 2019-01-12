@@ -48,11 +48,17 @@ The model was introduced in
 
 * {#RandallSundrum99b} Lisa Randall, Raman Sundrum, _An Alternative to Compactification_, Phys.Rev.Lett.83:4690-4693,1999 ([arXiv:hep-th/9906064](https://arxiv.org/abs/hep-th/9906064))
 
-A different but similar approach is the GRS model due to
+Different but similar approaches are 
+
+* Nima Arkani-Hamed, Savas Dimopoulos, Gia Dvali, _The Hierarchy Problem and New Dimensions at a Millimeter_, Phys.Lett.B429:263-272,1998 ([arXiv:hep-ph/9803315](https://arxiv.org/abs/hep-ph/9803315))
+
+and the GRS model, due to
 
 * {#GRS00} Ruth Gregory, Valery A. Rubakov, Sergei M. Sibiryakov, _Opening up extra dimensions at ultra-large scales_, Phys.Rev.Lett. 84 (2000) 5928-5931 ([arXiv:hep-th/0002072](https://arxiv.org/abs/hep-th/0002072))
 
 * Csaba Csaki, Joshua Erlich, Timothy J. Hollowood, _Quasi-Localization of Gravity by Resonant Modes_, Phys. Rev. Lett.84:5932-5935, 2000 ([arXiv:hep-th/0002161](https://arxiv.org/abs/hep-th/0002161))
+
+a well as [[intersecting D-brane models]].
 
 Review includes
 
