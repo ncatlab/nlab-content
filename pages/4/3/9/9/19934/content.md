@@ -58,9 +58,16 @@ The flat [[compact topological space|compact]]  2-dimensional orbifolds may be c
 > graphics grabbed from [Bettiol-Derdzinski-Piccione 18](#BettiolDerdzinskiPiccione18)
 
 ### Flat compact 4-dimensional orbifolds
+ {#FlatCompact4dOrbifolds}
 
 The orbifold quotient of the [[4-torus]] by the sign [[involution]] on all four canonical [[coordinates]] is the flat compact 4-dimensional orbifold known as the _[[Kummer surface]]_ $T^4 \sslash \mathbb{Z}_2$, a singular [[K3-surface]] (e.g. [Bettiol-Derdzinski-Piccione 18, 5.5](#BettiolDerdzinskiPiccione18))
 
+
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/KummerSingular.jpg" width="300">
+\end{center}
+
+> graphics grabbed from [Snowden 11](orbifold#Snowden11)
 
 ### Flat compact 6-dimensional orbifolds
 
