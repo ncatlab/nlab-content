@@ -135,3 +135,5 @@ The proposal [above](#Definition) was originally motivated from the discussion o
 [[!redirects spectral super-point]]
 [[!redirects spectral super-points]]
 
+[[!redirects spectral superscheme]]
+[[!redirects spectral superschemes]]
