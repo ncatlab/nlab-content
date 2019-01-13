@@ -50,6 +50,10 @@ Exposition highlighting the relation to [[KK-compactification]] and [[string the
 
 * {#Schreiber16} [[Urs Schreiber]], _[Spectral Standard Model and String Compactifications](https://www.physicsforums.com/insights/spectral-standard-model-string-compactifications/)_, 2016
 
+Other comment in view of [[D-brane]]-physics:
+
+* [[John Iliopoulos]], _Gauge Theories and non-Commutative Geometry: A review_, EPJ Web Conf. Volume 182, 2018 6th International Conference on New Frontiers in Physics (ICNFP 2017) ([doi:10.1051/epjconf/201818202055](https://doi.org/10.1051/epjconf/201818202055))
+
 See also
 
 * Wikipedia, _[Noncommutative standard model](https://en.wikipedia.org/wiki/Noncommutative_standard_model)_
@@ -82,11 +86,16 @@ A more succinct version of the axioms of the model is claimed in
 
 * Christian Brouder, Nadir Bizi, Fabien Besnard, _The Standard Model as an extension of the noncommutative algebra of forms_ ([arXiv:1504.03890](https://arxiv.org/abs/1504.03890))
 
+[[!redirects Connes-Lott-Chamseddine-Barrett models]]
 
 [[!redirects Connes-Lott-Chamseddine model]]
+[[!redirects Connes-Lott-Chamseddine models]]
 
 [[!redirects Connes-Lott model]]
+[[!redirects Connes-Lott models]]
+
 [[!redirects non-commutative standard model]]
+[[!redirects non-commutative standard models]]
 
 
 
