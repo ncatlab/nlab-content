@@ -15,6 +15,8 @@ This implies that in fact its weak factorization systems can be enhanced to [[al
 
 * {#GKR18} [[Richard Garner]], Magdalena Kedziorek, [[Emily Riehl]], _Lifting accessible model structures_, [arXiv:1802.09889](https://arxiv.org/abs/1802.09889)
 
+* [[John Bourke]], *Equipping weak equivalences with algebraic structure*, [arxiv:1712.02523](https://arxiv.org/abs/1712.02523)
+
 [[!redirects accessible model categories]]
 [[!redirects accessible model structure]]
 [[!redirects accessible model structures]]
