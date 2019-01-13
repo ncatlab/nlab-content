@@ -289,6 +289,10 @@ See
 
 * {#Scholz} Erhard Scholz, _H. Weyl's and E. Cartan's proposals for infinitesimal geometry in the early 1920s_ ([pdf](http://www2.math.uni-wuppertal.de/~scholz/preprints/weyl_cartan.pdf))
 
+Early surveys include
+
+* {#Iliopoulos75} [[John Iliopoulos]], _Progress in Gauge Theories_, 1975 ([spire:3000](http://inspirehep.net/record/3000))
+
 Quick reviews include
 
 * Quigley, _On the origins of gauge theory_ ([pdf](http://www.math.toronto.edu/~colliand/426_03/Papers03/C_Quigley.pdf))
