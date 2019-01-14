@@ -25,7 +25,7 @@ A **valuation** is a construction analogous to that of a [[measure]], which is h
 
 ### Valuations on lattices
 
-Let $L$ be a [[lattice]] with a bottom element $\bottom$. A **valuation** or **evaluation** on $L$ is a map $\nu:L\to\mathbb{R}_{\ge 0}$ with the following properties:
+Let $L$ be a [[lattice]] with a [[bottom]] element $\bottom$. A **valuation** or **evaluation** on $L$ is a [[map]] $\nu \colon L\to\mathbb{R}_{\ge 0}$ with the following properties:
 
 * *Monotonicity*: for all $x,y$ in $L$, $x\le y$ implies $\nu(x)\le\nu(y)$;
 
@@ -37,11 +37,11 @@ $$
 \nu(x) + \nu(y) = \nu(x \vee y) + \nu(x \wedge y) .
 $$
 
-The real line can be replaced, depending on the context, by the space of [[one-sided real number|lower reals]] (see for example [Vickers](#vmonad)).
+The [[real line]] can be replaced, depending on the context, by the space of [[one-sided real number|lower reals]] (see for example [Vickers](#vmonad)).
 
 Moreover, we call a valuation *continuous* if the following property holds, which is an instance of [[Scott topology|Scott continuity]], as well as of [[tau-smoothness|$\tau$-smoothness]]:
 
-* *Continuity*: for every directed net $\{x_\lambda\}_{\lambda\in\Lambda}$ in $L$ admitting a supremum,
+* *Continuity*: for every [[directed set|directed]] [[net]] $\{x_\lambda\}_{\lambda\in\Lambda}$ in $L$ admitting a supremum,
 
 $$
 \nu \big( \sup_{\lambda} x_\lambda \big) = \sup_\lambda \nu(x_\lambda) .
@@ -50,7 +50,7 @@ $$
 
 ### Valuations on locales and topological spaces
 
-Let $L$ be a locale. Then a valuation on $L$ is by definition a valuation on its [[frame]] $\mathcal{O}(L)$. In particular, a valuation on a topological space is a valuation on the lattice of its open sets.
+Let $L$ be a [[locale]]. Then a valuation on $L$ is by definition a valuation on its [[frame]] $\mathcal{O}(L)$. In particular, a valuation on a [[topological space]] is a valuation on the [[lattice of open subsets|lattice of its open sets]].
 
 ## Examples
 
@@ -72,8 +72,8 @@ Let $X$ be a topological space, and let $\mu$ be a measure defined on the [[Bore
 
 See also
 
-* Steve Vickers, _A monad of valuation locales_, <a href="https://www.cs.bham.ac.uk/~sjv/Riesz.pdf">available here</a>.
- {#vmonad}
+* {#vmonad} [[Steve Vickers]], _A monad of valuation locales_ (<a href="https://www.cs.bham.ac.uk/~sjv/Riesz.pdf">pdf</a>).
+ 
 
 * Wikipedia, _<a href="https://en.wikipedia.org/wiki/Valuation_(measure_theory)">Valuation (measure theory)</a>_
 
