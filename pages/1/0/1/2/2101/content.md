@@ -81,6 +81,8 @@ I didn't check all the details but it does seem to be the case that "structure" 
 
 [[Aron Fischer]]: I'm interested in this too. Who is Daniel? or rather: Hi Daniel! can you write up your answer please? ;)
 
+[[Mike Shulman]]: The important parts of this discussion should be merged into the page, and the discussion archived at the nForum.  But I don't have time to do that right now, so I'll just record the fact that Daniel's answer appeared in [Tannaka duality for comonoids in cosmoi](https://arxiv.org/abs/0911.0977), at the beginning of section 5 (quoted in full [here](https://mathoverflow.net/a/320835/49)).
+
 ## Related pages
 
 * [[monadic functor]]
