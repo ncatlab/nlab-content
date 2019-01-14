@@ -13,10 +13,6 @@
 =--
 =--
 
-## Contents
-* table of contents
-{:toc}
-
 See also _[[compact object]]_.
 
 
