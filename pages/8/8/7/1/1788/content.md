@@ -22,3 +22,8 @@ C
 [[Spaces as infinity-groupoids.pdf:file]]
 
 $\esh 22$
+
+
+\begin{tikzcd}
+& y \ar[r,"{\eta_y}"'] & L y
+\end{tikzcd}
