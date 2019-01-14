@@ -499,6 +499,8 @@ See also
 [[!redirects right proper model category]]
 [[!redirects right proper model categories]]
 
-
 [[!redirects left proper model category]]
 [[!redirects left proper model categories]]
+
+[[!redirects left proper]]
+[[!redirects right proper]]
