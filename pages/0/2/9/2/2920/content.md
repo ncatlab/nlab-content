@@ -945,7 +945,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The first part is theorem 3.3.19 in _ModLoc_ . The second part is prop 3.3.4, which follows directly from the following proposition.
+The first part is theorem 3.3.19 in [Hirschhorn](#Hirschhorn). The second part is prop 3.3.4, which follows directly from the following proposition.
 
 =--
 
@@ -1401,9 +1401,7 @@ Under suitable conditions it should be true that for $C$ a model category whose 
 
 Bousfield localization appears as definition 3.3.1 in
 
-* **ModLoc**, [[Philip Hirschhorn|P. Hirschhorn]],  _Model categories and their localizations_, volume 99
-of Mathematical Surveys and Monographs , American Mathematical Society,
-2009,
+* {#Hirschhorn} [[Philip Hirschhorn|P. Hirschhorn]],  _Model categories and their localizations_, volume 99 of Mathematical Surveys and Monographs , American Mathematical Society, 2009,
 
 for left proper [[cellular model category|cellular model categories]].
 
