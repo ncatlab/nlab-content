@@ -17,14 +17,16 @@
 
 ## Idea
 
-A **$\tau$-smooth measure** is a [[measure]] on a topological space which interacts well with the topology. In particular, a $\tau$-smooth measure has a well-defined and well-behaved support.
+A **$\tau$-smooth measure** is a [[measure]] on a [[topological space]] which interacts well with the topology. In particular, a $\tau$-smooth measure has a well-defined and well-behaved [[support]].
 
 ## Definition
 
-Let $X$ be a topological space. A [[Borel subset|Borel measure]] $\mu$ on $X$ is called **$\tau$-smooth**, or **$\tau$-additive**, or **$\tau$-regular**, if for every directed net $\{U_\lambda\}_{\lambda\in\Lambda}$ of open subsets of $X$,
+Let $X$ be a [[topological space]]. A [[Borel subset|Borel measure]] $\mu$ on $X$ is called **$\tau$-smooth**, or **$\tau$-additive**, or **$\tau$-regular**, if for every directed [[net]] $\{U_\lambda\}_{\lambda\in\Lambda}$ of [[open subsets]] of $X$,
 
 $$
-\mu \big( \sup_{\lambda} U_\lambda \big) = \sup_\lambda \mu(U_\lambda) .
+  \mu \big( \sup_{\lambda} U_\lambda \big) 
+  = 
+  \sup_\lambda \mu(U_\lambda) .
 $$
 
 This property can be considered an instance of [[Scott topology|Scott continuity]], and is equivalent to continuity of the [[valuation (measure theory)|valuation]] defined by $\mu$ on the open sets.
@@ -39,5 +41,5 @@ This property can be considered an instance of [[Scott topology|Scott continuity
 
 ## References
 
-V. Bogachev, _Measure Theory_, vol. 2 (2007).
+* V. Bogachev, _Measure Theory_, vol. 2 (2007).
 
