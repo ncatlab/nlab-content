@@ -54,7 +54,10 @@ For some comments on the reasoning behind this kind of definition of generalized
 A sheaf on the site $\mathcal{Op}$ of open subsets of Euclidean spaces is completely specified by its restriction to [[CartSp]], the full subcategory of [[Cartesian space]]: The [[fully faithful functor]] $CartSp \hookrightarrow \mathcal{Op}$ is a [[dense subsite]]-inclusion.  Therefore in the sequel we shall often restrict our attention to [[CartSp]].
 
 One may define a _[[smooth sets]]_ to be _any_ sheaf of [[CartSp]].
-A diffeological space is equivalently a [[concrete sheaf]] on the [[concrete site]] [[CartSp]]. The [[full subcategory]]
+A diffeological space is equivalently a [[concrete sheaf]] on the [[concrete site]] [[CartSp]]. (For details see [this Prop.](geometry+of+physics+--+smooth+sets#DiffeologicalSpacesAreTheConcreteSmoothSets) at _[[geometry of physics -- smooth sets]]_.)
+
+
+The [[full subcategory]]
 
 $$
   DiffeologicalSpace \hookrightarrow Sh(CartSp)
@@ -272,6 +275,8 @@ The category of diffeological spaces is a [[quasitopos]].
 This follows from the discussion at [Locality](#Locality).
 
 =--
+
+
 
 This has some immediate general abstract consequences
 
