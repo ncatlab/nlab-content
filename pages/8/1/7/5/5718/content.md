@@ -33,7 +33,7 @@ $$
   J^k P \to X
 $$ 
 
-of **order-$k$ jets of sections of $p$** is the bundle whose [[fiber]] over a point $x \in X$ is the space of equivalence classes of [[germ]]s of [[section]]s of $p$, where two germs are considered equivalent if their first $k$ partial [[derivative]]s at $x$ coincide.
+of **order-$k$ jets of sections of $p$** is the bundle whose [[fiber]] over a point $x \in X$ is the space of equivalence classes of [[germ|germs]] of [[section|sections]] of $p$, where two germs are considered equivalent if their first $k$ partial [[derivative|derivatives]] at $x$ coincide.
 
 In the case when $p$ is a trivial bundle $p:X\times Y \to X$ its sections are canonically in bijection with maps from $X$ to $Y$ and two sections have the same partial derivatives iff the partial derivatives of the corresponding maps from $X$ to $Y$ agree. So in this case the [[jet space]] $J^k P$ is called the space of jets of maps from $X$ to $Y$ and commonly denoted with $J^k(X,Y)$.
 
@@ -126,7 +126,7 @@ In the context of [[synthetic differential geometry]] the fact that the jet bund
 
 =--
 
-In as in ([BeilinsonDrinfeld, 2.3.2](#BeilinsonDrinfeld), reviewed in[Paugam, section 2.3](#Paugam)) jet bundles are expressed dually in terms of algebras in [[D-modules]]. We now indicate how the translation works. 
+In as in ([BeilinsonDrinfeld, 2.3.2](#BeilinsonDrinfeld), reviewed in [Paugam, section 2.3](#Paugam)) jet bundles are expressed dually in terms of algebras in [[D-modules]]. We now indicate how the translation works. 
 
 +-- {: .num_remark}
 ###### Remark
