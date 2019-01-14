@@ -1,4 +1,8 @@
 
+> This page is about valuations on [[rings]]/[[fields]]. For valuation in [[measure theory]] see [[valuation (measure theory)]].
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
