@@ -109,3 +109,13 @@ See also
 
 [[!redirects dependent product type]]
 [[!redirects dependent product types]]
+[[!redirects dependent function type]]
+[[!redirects dependent function types]]
+[[!redirects Pi-type]]
+[[!redirects Pi-types]]
+[[!redirects Pi type]]
+[[!redirects Pi types]]
+[[!redirects Π-type]]
+[[!redirects Π-types]]
+[[!redirects Π type]]
+[[!redirects Π types]]
