@@ -19,7 +19,7 @@
 
 ## Idea
 
-The theory called _the theory of general relativity_ is the [[classical field theory]] that in [[physics]] describes the field of [[gravity]].
+The theory called _the theory of general relativity_ is a [[classical field theory]] that in [[physics]] describes the field of [[gravity]].
 
 In general relativity physical [[spacetime]] is modeled in terms of [[differential geometry]] as a [[Lorentzian manifold]] whose [[pseudo-Riemannian metric]] -- or rather the [[Levi-Civita connection]] that corresponds to it -- encodes the field of [[gravity]].
 
