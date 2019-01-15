@@ -44,7 +44,7 @@ While the  [[light-cone gauge quantization]] of the [[Green-Schwarz super p-bran
 
 * {#MezincescuTownsend11} [[Luca Mezincescu]], [[Paul Townsend]], _Quantum 3D Superstrings_, PhysRevD.84.106006 ([arXiv:1106.1374](http://arxiv.org/abs/1106.1374))
 
-* {#MezincescuRouthTownsend13} [[Luca Mezincescu]], Alasdair J. Routh, [[Paul Townsend]], _Equivalence of 3D Spinning String and Superstring_ ([arXiv:1305.5049](http://arxiv.org/abs/1305.5049))
+* {#MezincescuRouthTownsend13} [[Luca Mezincescu]], Alasdair J. Routh, [[Paul Townsend]], _Equivalence of 3D Spinning String and Superstring_, J. High Energ. Phys. (2013) 2013: 24 ([arXiv:1305.5049](http://arxiv.org/abs/1305.5049))
 
 The [[F-theory]]-lift of the 3d superstring is discussed in
 
