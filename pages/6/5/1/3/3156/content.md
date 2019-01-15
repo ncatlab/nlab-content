@@ -128,3 +128,4 @@ There is a modification of the [[small object argument]], due to Richard Garner,
 [[!redirects algebraic weak factorization systems]]
 [[!redirects AWFS]]
 [[!redirects awfs]]
+[[!redirects Garner's small object argument]]
