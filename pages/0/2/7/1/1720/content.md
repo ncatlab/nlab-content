@@ -200,7 +200,7 @@ See in the list of [Examples](#Examples) below for concrete examples.
 
 Motice that the prop. \ref{GoodPullbacksAndPushouts} applies only (in the right proper case, for concreteness) to pullbacks of fibrations along weak equivalences in which *all three* objects are fibrant, since a fibration with fibrant codomain also has fibrant domain.  The definition of right proper, on the other hand, states this property in the case when *none* of the objects are assumed to be fibrant.
 
-One might consider as an "in-between" assumption the situation when only the common codomain of the fibration and the weak equivalence (hence also the domain of the fibration) are fibrant; but it turns out that this apparently-weaker assumption is sufficient to imply full right properness.  This can be found, for instance, as Lemma 9.4 of Bousfield's *On the Telescopic Homotopy Theory of Spaces*.
+One might consider as an "in-between" assumption the situation when only the common codomain of the fibration and the weak equivalence (hence also the domain of the fibration) are fibrant; but it turns out that this apparently-weaker assumption is sufficient to imply full right properness.  This can be found, for instance, as Lemma 9.4 of [Bousfield 2001](#Bousfield01).
 
 +-- {: .num_prop #FibrationsBetweenFibrantObjectsSuffice}
 ###### Proposition
@@ -483,6 +483,10 @@ The general theory can be found in
 also in 
 
 * {#Reedy} [[Chris Reedy]], _Homotopy theory of model categories_ ([pdf](http://www-math.mit.edu/~psh/reedy.pdf))
+
+Proposition \ref{FibrationsBetweenFibrantObjectsSuffice} can be found in
+
+* {#Bousfield01} [[Aldridge Bousfield]], *On the telescopic homotopy theory of spaces*, Trans. Amer. Math. Soc. 353 (2001), 2391-2426, [web with fulltext](https://www.ams.org/journals/tran/2001-353-06/S0002-9947-00-02649-0/)
 
 See also
 
