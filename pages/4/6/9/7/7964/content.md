@@ -90,6 +90,11 @@ Earlier it has been suggested that this reflects the principle of [[asymptotic s
 <img src="https://ncatlab.org/nlab/files/HiggsQuarticBetaFunction.png" width="800"/>
 
 
+### Higgs inflation?
+ {#HiggsInflation}
+
+Starting with [Jegerlehner 13](cosmic+inflation#Jegerlehner13) has been argued that the near-criticality of the Higgs potential is in fact consistent or even necessary for [[Higgs inflation]] to be a viable model. See [Jegerlehner 18](cosmic+inflation#Jegerlehner18).
+
 
 
 ## Models
