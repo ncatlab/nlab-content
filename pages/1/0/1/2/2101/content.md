@@ -51,37 +51,10 @@ The typical categories studied in [[algebra]], such as [[Grp]], [[Ring]], etc, a
 Abstractly, one may *define* an [[algebraic category]] to be a category equipped with a monadic adjunction from $Set$.  However, there are now more examples than the ones from algebra; the best known of these is the category of [[compact Hausdorff spaces]], which corresponds to the [[ultrafilter]] monad.  (This result relies on the [[ultrafilter principle]], regardless of whether one interprets 'space' here as referring to [[topological spaces]] or [[locales]].)
 
 
-## Discussion
+## Semantics-structure adjunction
 
-[[John Baez]]:  We read above: "One can turn [[monads]] into [[adjunctions]] and adjunctions into monads, but one doesn\'t always return where one started."  This suggests that there is something like an _adjunction_ between monads and adjunctions!  What's the precise story?  
+The relationship between monads and adjunctions itself constitutes an adjunction called the **semantics-structure adjunction**. Explicitly, for a category $C$ there exist functors $Str:Cat_{/C}^*\to Mon(C):Sem$ with $Str\dashv Sem$ where $Cat_{/C}^*$ denotes the full subcategory of $Cat_{/C}$ consisting of functors admitting a codensity monad; $Str$ sends a functor to its corresponding codensity monad and $Sem$ sends a monad to the forgetful functor from its E-M category to $C$. Intuitively speaking we may think of a monad as a kind of structure with which the objects of $\mathcal{C}$ can be equipped presented in a syntax-independent way, and we may think of the E-M category of a monad (viewed as a syntax independent presentation of an equational theory) as the category of models of this theory, which is often referred to by logicians as the semantics of the theory. For more on this, see for instance section 5 of ([Tannaka duality for comonoids in cosmoi](#DanielSchäppi1)).
 
-I imagine something like this: there's a functor (or 2-functor) 
-
-$$ [adjunctions] \to [monads] $$
-
-and this has left and right adjoints (or 2-adjoints)
-
-$$ Kleisli : [monads] \to [adjunctions] $$
-
-$$ Eilenberg Moore: [monads] \to [adjunctions] $$
-
-As evidence, note that the [[Kleisli category]] gives the initial object among adjunctions that give rise to a specified monad, while the [[Eilenberg-Moore category]] gives the terminal one.  See the [Wikipedia article](http://en.wikipedia.org/wiki/Monad_%28category_theory%29#Monads_and_adjunctions).
-
-Zoran &#352;koda: the best-well-known article on monads, R. Street, _Formal theory of monads_, JPAA 2, 149--168, 1972, has the basic fact that Eilenberg-Moore construction as a correspondence from monads to categories, extends to a 2-functor which is right 2-adjoint to the trivial monad 2-functor and the left adjoint is the underlying 2-functor (forgetting actions). Now you are trying to view EM construction as an adjoint to adjunctions to monads correspondence. First of all, I could imagine several different 2-categories of adjunctions, hence several different questions in the game (and monads make 2-category in more than one way, but with lessvariety than adjunctions). But there are better people to ask about this...
-
-[[Mike Shulman]]: This adjunction does exist (although you sometimes have to be careful about size issues) and is called the **semantics-structure adjunction**.  The EM-category functor $Mnd(C) \to RAdj/C$ is called the "semantics" functor (here $RAdj/C$ is the subcategory of $Cat/C$ consisting of the right adjoints) and its left adjoint (the monad underlying an adjunction) is called the "structure" functor.  In fact, the structure functor is defined on a larger subcategory of $Cat/C$, namely those functors $g:A\to C$ such that $Ran_g g$ exists (if $g$ has a left adjoint $f$ then $Ran_g g$ always exists and is equal to $g f$).  In this case $Ran_g g$ is the image of $g$ under "structure", also called its *codensity monad*.  Presumably by duality, "structure" also has a left adjoint "cosemantics" given by the Kleisli construction.  The semantics-structure adjunction can be found in Chapter II of Dubuc's "Kan Extensions in Enriched Category Theory" and also in section 2 of "The Formal Theory of Monads".
-
-[[Emily Riehl]]: I'm interrupting Mike to comment on duality. The Kleisli construction is really a functor $Mnd(C)^{op} \to C/LAdj$. A monad map $(C,S) \to (C,T)$ consists of a 2-cell $T \Rightarrow S$ satisfying conditions. This defines a map of Kleisli categories $C_T \to C_S$ that commutes with the left adjoints but not with the right adjoints (that apply the monads to objects to get back to $C$). 
-
-I didn't check all the details but it does seem to be the case that "structure" and "cosemantics" are mutual left adjoints, with adjunct maps defined in exactly the way you'd expect.
-
-[[Mike Shulman]]: If anyone can give a nice conceptual explanation of the terms "semantics" and "structure" in this context, Daniel Schaeppi is currently writing a paper which could benefit from such an explanation.  I've never found anyone who really explains the words (nor is it entirely clear who pioneered their use in this context---Dubuc perhaps?)  It makes sense to me that the E-M category can be called the "semantics" of a monad, but my intuition for "structure" is fuzzier, except that of course any monad can be regarded as a notion of [[stuff, structure, property|structure]] with which one can equip objects.  But why is that "the" structure associated to an adjunction?
-
-[[Mike Shulman]]: In case anyone is following this, Daniel has come up with what seems to be the right answer to this question; I'm hoping that eventually he will write about it here.
-
-[[Aron Fischer]]: I'm interested in this too. Who is Daniel? or rather: Hi Daniel! can you write up your answer please? ;)
-
-[[Mike Shulman]]: The important parts of this discussion should be merged into the page, and the discussion archived at the nForum.  But I don't have time to do that right now, so I'll just record the fact that Daniel's answer appeared in [Tannaka duality for comonoids in cosmoi](https://arxiv.org/abs/0911.0977), at the beginning of section 5 (quoted in full [here](https://mathoverflow.net/a/320835/49)).
 
 ## Related pages
 
@@ -90,12 +63,17 @@ I didn't check all the details but it does seem to be the case that "structure" 
 
 ## References
 
-*  [[Michael Barr]] and [[Charles Wells]], _Toposes, Triples and Theories_ ([online](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html))
+* [[Michael Barr]] and [[Charles Wells]], _Toposes, Triples and Theories_ ([online](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html))
 
 Discussion for [[quasi-categories]] is around definition 6.1.15 and definition 7.1.6 in
 
 * [[Emily Riehl]], [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_ ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279))
  {#RiehlVerity13}
+
+* Daniel Schäppi, _Tannaka duality for comonoids in cosmoi_ ([arXiv:0911.0977](https://arxiv.org/abs/0911.0977))
+ {#DanielSchäppi1}
+
+* [Semantics-structure adjunction](https://mathoverflow.net/questions/320698/semantics-structure-adjunction)
 
 
 [[!redirects semantics-structure adjunction]]
