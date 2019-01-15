@@ -63,6 +63,9 @@ See also
 
 * {#Hassler17} [[Falk Hassler]], _Poisson-Lie T-Duality in Double Field Theory_ ([arXiv:1707.08624](https://arxiv.org/abs/1707.08624))
 
+Discussion of nonabelian [[T-folds]]:
+
+* Mark Bugden, _Non-abelian T-folds_ ([arXiv:1901.03782](https://arxiv.org/abs/1901.03782))
 
 [[!redirects nonabelian T-duality]]
 
