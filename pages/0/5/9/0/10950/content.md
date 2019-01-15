@@ -48,10 +48,6 @@ The [[philosophy]] of [[physics]].
 
 * [[Lawrence Sklar]], _Philosophy of Physics_, Oxford University Press (1992)
 
-* [[Tim Maudlin]], _The Metaphysics Within Physics_, Oxford University Press, 2007
-
-* [[Tim Maudlin]], _Philosophy of Physics, Volume 1: "Space and Time". Princeton University Press, 2012_
-
 
 * [[Roland Omnès]], _[[Converging Realities -- Toward a common philosophy of physics and mathematics]]_, Princeton University Press, 2005
 
