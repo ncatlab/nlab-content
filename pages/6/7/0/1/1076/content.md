@@ -296,7 +296,7 @@ $$
     \\
     \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{f}}
     && \downarrow
-    && \downarrow^{\mathrlap{\Sigma f}}
+    && \downarrow^{\mathrlap{\Sigma \mathrlap{id}}}
     \\
     A 
       &\overset{f}{\longrightarrow}& 
