@@ -5,7 +5,7 @@
 
 ## Idea
 
-A **semi-left-exact reflection** is a [[reflector]] into a [[reflective subcategory]] that preserves some [[pullbacks]].  It fits into a hierarchy of left-exactness properties for reflectors:
+A **semi-left-exact reflection** (also called a *locally cartesian reflection*) is a [[reflector]] into a [[reflective subcategory]] that preserves some [[pullbacks]].  It fits into a hierarchy of left-exactness properties for reflectors:
 
 \begin{center}
   [[left exact reflection|left exact]] $\Rightarrow$ [[reflection with stable units|stable units]] $\Rightarrow$ **semi-left-exact** $\Rightarrow$ [[simple reflection|simple]]
@@ -23,37 +23,61 @@ The following is a combination of Theorems 4.1 and 4.3 from [CHK](#CHK) with Pro
   The following are equivalent:
 
   1. Every pullback of an $E$-morphism along an $M$-morphism is an $E$-morphism.
-  2. $L$ preserves pullbacks along $M$-morphisms.
-  3. $L$ preserves pullbacks along any morphism in $B$.
-  4. If $f:x\to y$ is a morphism in $B$, then $f^* : C/y \to C/x$ preserves $E$-morphisms.
-  5. (If $C$ is locally cartesian closed) If $f:x\to y$ is a morphism in $B$, then $f_* : C/x \to C/y$ maps $B/x$ into $B/y$.
+  2. Every pullback of an $E$-morphism along a morphism in $B$ is an $E$-morphism.
+  3. Every pullback of a reflection unit $\eta_x : x \to L x$ along a morphism in $B$ is an $E$-morphism.
+  4. $L$ preserves pullbacks along $M$-morphisms.
+  5. $L$ preserves pullbacks along any morphism in $B$.
+  6. If $f:x\to y$ is a morphism in $B$, then $f^* : C/y \to C/x$ preserves $E$-morphisms.
+  7. (If $C$ is locally cartesian closed) If $f:x\to y$ is a morphism in $B$, then $f_* : C/x \to C/y$ maps $B/x$ into $B/y$.
 
   They all imply that $(E,M)$ is a factorization system and that the factorization of an arbitrary morphism $f:x\to y$ can be constructed as the following pullback:
 
-(error)
-
+  \begin{center}
+    \begin{tikzcd}
+      x \ar[dr] \ar[drr,"{\eta_x}"] \ar[ddr,"f"'] \ar[dr,"{\lambda_f}" description] \\
+      & \bullet \ar[r,"g"'] \ar[d,"{\rho_f}"] & L x \ar[d,"L f"] \\
+      & y \ar[r,"{\eta_y}"'] & L y
+    \end{tikzcd}
+  \end{center}
   If these conditions hold, we say that the reflector is **semi-left-exact**.
 \end{theorem}
 \begin{proof}
-  Since all morphisms in $B$ are $M$-morphisms, (2) implies (3).  Now given (3), the functor $f^*$ commutes with localization $L/x : C/x \to B/x$ and $L/y : C/y \to B/y$, so if $e\in E$ is inverted by the latter then $f^*(e)$ is inverted by the former; thus (4) holds.  On the other hand, $f^*(e)$ is also the pullback of $e$ along a pullback of $f$, and since the latter is an $M$-morphism, (1) also implies (4).
+  Since all morphisms in $B$ are $M$-morphisms, (1)$\Rightarrow$(2) and (4)$\Rightarrow$(5), while (2)$\Rightarrow$(3) since the reflection units are in $E$.  And since $E$ consists of the $L$-inverted morphisms, (5)$\Rightarrow$(2) and (4)$\Rightarrow$(1).  And clearly (6)$\Rightarrow$(2); while for $f\in B$ the action of $f^*$ on a morphism in $C/y$ is the latter's pullback along a pullback of $f$, and any pullback of $f$ lies in $M$; thus (1)$\Rightarrow$(6).  So to complete the equivalence of (1)-(6) it will suffice to show that (3) implies (4).
 
-  Now assuming (4), in the diagram above $g$ must be an $E$-morphism, hence by 2-out-of-3 so is $\lambda_f$, while $\rho_f\in M$ since $M$ is closed under pullback and $L f \in M$; thus the factorization exists.
+  First we prove that (3) implies the factorization exists.  For in the diagram above $g$ is a pullback of the unit $y\to L y$ along the morphism $L x \to L y$ in $B$, hence $g\in E$; so by 2-out-of-3 $\lambda_f\in E$, while $\rho_f\in M$ since $M$ is closed under pullback and $L f \in M$.
 
-  It now follows that if $f\in M$ to start with, then $\lambda_f$ must be an isomorphism, hence the naturality square for $\eta$ at $f$ is a pullback.  Now the pullback pasting law combined with (4) implies (1) and (2).
+  Now this construction implies that if $f\in M$ then $\lambda_f$ is invertible, hence the naturality square for $\eta$ at $f$ is a pullback.  Now if we want to pull back some $h:c\to k$ along an $M$-morphism $f:a\to k$, we can paste two pullback squares to obtain a large pullback rectangle:
 
-  Finally, if $C$ is locally cartesian closed, then (4) implies (5) by adjointness, while (5) implies (3) in the form $L/x \circ f^* \cong L/y \circ f^*$ by passage to right-adjoint mates.
+\begin{center}
+  \begin{tikzcd}
+    d \ar[r] \ar[d] & a \ar[d,"f"] \ar[r,"{\eta_a}"] & L a \ar[d,"{L f}"]\\
+    c \ar[r,"h"'] & k \ar[r,"{\eta_k}"'] & L k.
+  \end{tikzcd}
+\end{center}
+
+  Since $\eta_k \circ h = L h \circ \eta_c$ by naturality, we can now factor this pullback rectangle through the pullback of $f$ along $L h$:
+
+\begin{center}
+  \begin{tikzcd}
+    d \ar[r,dashed] \ar[d] & e \ar[r] \ar[d] & L a \ar[d,"{L f}"]\\
+    c \ar[r,"{\eta_c}"'] & L c \ar[r,"{L h}"'] & L k
+  \end{tikzcd}
+\end{center}
+
+  so that the left-hand square is also a pullback.  But this is a pullback of the reflection unit $\eta_c$ along the map $e\to L c$ that lies in $B$ (since $B$ is closed under pullbacks).  Thus by (3) the map $d \to e$ lies in $E$, and hence exhibits $e$ as $L d$.  The right-hand pullback square above is then $L$ applied to the given pullback square, so that $L$ indeed preserves this pullback, i.e. (4) holds.
+
+  Finally, if $C$ is locally cartesian closed, then (6) implies (7) by adjointness, while (7) implies (5) in the form $L/x \circ f^* \cong L/y \circ f^*$ by passage to right-adjoint mates.
 \end{proof}
 
 Of course, if $L$ preserves all pullbacks (i.e. it is [[left exact reflection|left exact]]), then it is semi-left-exact.  The statement about the existence of the reflective factorization system implies that any semi-left-exact reflection is [[simple reflection|simple]].
 
-## Properties
+\begin{remark}
+  Note that for any $x\in C$, the functor $L/x\colon C/x \to B/L x$ has a right adjoint given by pullback along $\eta_x : x \to L x$.  Condition (3) above then says that the counit of this adjunction is an isomorphism, which is to say that this right adjoint is fully faithful.  In this form, semi-left-exactness is equivalent to (a particular case of) the notion of *admissible* reflection in [[categorical Galois theory]].
+\end{remark}
 
-Semi-left-exactness of a reflection $\ell$ of $C$ into $B\subseteq C$ is also equivalent to saying that for any $x\in C$, the right adjoint of the induced functor $\ell\colon C/x \to B/\ell(x)$ (which is given by pullback along $\eta_x$) is fully faithful.  In this form it is equivalent to (a particular case of) the notion of *admissible* reflection in [[categorical Galois theory]].
+## Related pages
 
-+--{: .query}
-[[Mike Shulman]]: I no longer see why that's true.  Full-faithfulness of the right adjoint says that $E$-morphisms are preserved by pullback along morphisms in $B$, but that seems weaker than any of the above characterizations.
-=--
-
+* [[semi-left-exact left Bousfield localization]]
 
 ## References
 
