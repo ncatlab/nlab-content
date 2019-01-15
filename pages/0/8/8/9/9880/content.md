@@ -196,7 +196,7 @@ In [[flavour anomalies]]:
 
 * {#Nierste18} Ulrich Nierste, _Flavour Anomalies: Phenomenology and BSM Interpretations_, 2018 ([pdf](https://indico.desy.de/indico/event/18498/session/5/contribution/52/material/slides/0.pdf))
 
-* {#Jegerlehner18b} Fred Jegerlehner, _The Role of Mesons in Muon $g-2$_ ([arXiv:1809.07413](https://arxiv.org/abs/1809.07413))
+* {#Jegerlehner18b} [[Fred Jegerlehner]], _The Role of Mesons in Muon $g-2$_ ([arXiv:1809.07413](https://arxiv.org/abs/1809.07413))
 
 
 ### In string theory
