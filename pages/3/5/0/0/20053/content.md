@@ -1,3 +1,4 @@
+[[!redirects tau-smoothness]]
 
 ***
 
@@ -17,11 +18,11 @@
 
 ## Idea
 
-A **$\tau$-smooth measure** is a [[measure]] on a [[topological space]] which interacts well with the topology. In particular, a $\tau$-smooth measure has a well-defined and well-behaved [[support]].
+A **$\tau$-additive measure** is a [[measure]] on a [[topological space]] which interacts well with the topology. In particular, a $\tau$-smooth measure has a well-defined and well-behaved [[support]].
 
 ## Definition
 
-Let $X$ be a [[topological space]]. A [[Borel subset|Borel measure]] $\mu$ on $X$ is called **$\tau$-smooth**, or **$\tau$-additive**, or **$\tau$-regular**, if for every directed [[net]] $\{U_\lambda\}_{\lambda\in\Lambda}$ of [[open subsets]] of $X$,
+Let $X$ be a [[topological space]]. A [[Borel subset|Borel measure]] $\mu$ on $X$ is called **$\tau$-additive**, or **$\tau$-smooth**, or **$\tau$-regular**, if for every directed [[net]] $\{U_\lambda\}_{\lambda\in\Lambda}$ of [[open subsets]] of $X$,
 
 $$
   \mu \big( \sup_{\lambda} U_\lambda \big) 
