@@ -106,10 +106,10 @@ An [[additive category]], although normally defined through the theory of [[enri
 ### Semiadditivity as structure/property
  {#SemiadditivityAsStructureProperty}
 
-Given a category $\mathcal{C}$ with [[zero morphism]], one may imagine equipping it with the [[structure]] of a chosen [[natural isomorphism]]
+Given a category $\mathcal{C}$ with [[zero morphisms]], one may imagine equipping it with the [[structure]] of a chosen [[natural isomorphism]]
 
 $$
-  (-)\coprod (-) \stackrel{\simeq}{\longrightarrow} (-)\times(-)
+  \psi_{(-),(-)} : (-)\coprod (-) \stackrel{\simeq}{\longrightarrow} (-)\times(-)
   \,.
 $$
 
@@ -117,11 +117,19 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-If a [[category]] with finite [[coproducts]] and [[products]] carries any [[natural isomorphism]] between [[coproducts]] and [[products]], then it is semi-additive.
+([Lack 09, proof of theorem 5](#Lack09)). 
+If a [[category]] $\mathcal{C}$ with finite [[coproducts]] and [[products]] carries any [[natural isomorphism]] $\psi_{(-),(-)}$ from [[coproducts]] to [[products]], then 
+$$ \array {
+  c_1\coprod c_2 & \overset{\psi_{c_1, 0} + \psi_{0, c_2}}\rightarrow & c_1 \coprod c_2 \\
+    & \searrow^{r_{c_1, c_2}}           & \downarrow^{\psi_{c_1, c_2}} \\
+    &                        & c_1 \times c_2
+} $$
+commutes for any two object $c_1$ and $c_2$.
+
 
 =--
 
-([Lack 09, theorem 5](#Lack09)).  See [[non-canonical isomorphism]] for more.
+ Hence $r_{c_1, c_2}$ is an isomorphism so that $\mathcal{C}$ is semi-additive. See [[non-canonical isomorphism]] for more. 
 
 
 ### Biproducts imply enrichment -- Relation to additive categories
