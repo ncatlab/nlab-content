@@ -36,7 +36,7 @@ Its [[double dimensional reduction]] is the [[super 1-brane in 3d]] (see there) 
 
 The action functional is apparently originally due to
 
-* A. Ach&#250;carro, [[Jerome Gauntlett]], K. Itoha, [[Paul Townsend]], _World-volume supersymmetry from spacetime supersymmetry of the four-dimensional supermembrane_, Nuclear Physics B Volume 314, Issue 1, 20 February 1989, Pages 129&#8211;157
+* A. Ach&#250;carro, [[Jerome Gauntlett]], K. Itoha, [[Paul Townsend]], _World-volume supersymmetry from spacetime supersymmetry of the four-dimensional supermembrane_, Nuclear Physics B Volume 314, Issue 1, 20 February 1989, Pages 129&#8211;157 (<a href="https://doi.org/10.1016/0550-3213(89)90115-6">doi:10.1016/0550-3213(89)90115-6</a>)
 
 Further dicussion of the coupling to the [[d=4 N=1 supergravity]] background includes
 
@@ -52,7 +52,7 @@ Further dicussion of the coupling to the [[d=4 N=1 supergravity]] background inc
 
 See also 
 
-* [[Igor Bandos]], [[Fotis Farakos]], Stefano Lanza, Luca Martucci, [[Dmitri Sorokin]], _Three-forms, dualities and membranes in four-dimensional supergravity_ ([arXiv:1803.01405](https://arxiv.org/abs/1803.01405))
+* [[Igor Bandos]], [[Fotis Farakos]], Stefano Lanza, Luca Martucci, [[Dmitri Sorokin]], _Three-forms, dualities and membranes in four-dimensional supergravity_, JHEP07(2018)028 ([arXiv:1803.01405](https://arxiv.org/abs/1803.01405))
 
 Discussion of strongly coupled 4d physics akin to 11d [[M-theory]] with its [[M2-brane]] includes
 
