@@ -138,6 +138,19 @@ A popular account in the context of the 2013 [[Plack Collaboration]] results is 
 
 * [[Matthew Strassler]], _[Cosmic Conflation: The Higgs, The Inflaton, and Spin](http://profmattstrassler.com/2013/03/26/cosmic-conflation-the-higgs-the-inflaton-and-spin/)_
 
+Discussion of Higgs inflation with emphasis on relation to the [near-criticality of the Higgs field](Higgs+field#Curiously):
+
+* {#Jegerlehner13} [[Fred Jegerlehner]], _The hierarchy problem of the electroweak Standard Model revisited_ ([arXiv:1305.6652](https://arxiv.org/abs/1305.6652))
+
+* [[Fred Jegerlehner]], _Higgs inflation and the cosmological constant_, Acta Phys.Polon. B45 (2014) 1215-1254 ([arXiv:1402.3738](https://arxiv.org/abs/1402.3738))
+
+* [[Fred Jegerlehner]], _About the role of the Higgs boson in the evolution of the early universe_ ([arXiv:1406.3658](https://arxiv.org/abs/1406.3658))
+
+* [[Fred Jegerlehner]], _The hierarchy problem and the cosmological constant problem in the Standard Model_ ([arXiv:1503.00809](https://arxiv.org/abs/1503.00809))
+
+* {#Jegerlehner18} [[Fred Jegerlehner]], _The Hierarchy Problem and the Cosmological Constant Problem Revisited -- A new view on the SM of particle physics_ ([arXiv:1812.03863](https://arxiv.org/abs/1812.03863))
+
+
 ### Gauge field inflation
  {#ReferencesHiggsInflation}
 
@@ -166,3 +179,5 @@ See also at _[[string phenomenology]]_.
 [[!redirects inflatons]]
 [[!redirects inflaton field]]
 [[!redirects inflaton fields]]
+
+[[!redirects Higgs inflation]]
