@@ -46,8 +46,10 @@ If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measuremen
 Candidate theories of "new physics" that could possibly explain the flavour anomalies (if indeed they are real) includes the following
 
 ### Leptoquarks
+ {#Leptoquarks}
 
-* [[leptoquarks]] ([Falkowski17](#Falkowski17), [Mueller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18))
+* [[leptoquarks]] ([Bauer-Neubert 15](#BauerNeubert15), [Falkowski17](#Falkowski17), [Mueller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [BDFKFS 18](#BDFKFS18))
+
 
 ### Other
 
@@ -128,6 +130,9 @@ Attempts to explain the anomaly include
 
 [[leptoquarks]]:
 
+* {#BauerNeubert15} Martin Bauer, Matthias Neubert, _One Leptoquark to Rule Them All: A Minimal Explanation for $R_{D^{(\ast)}}$, $R_K$ and $(g-2)_\mu$_, Phys. Rev. Lett. 116, 141802 (2016) ([arXiv:1511.01900](https://arxiv.org/abs/1511.01900))
+
+
 * Yi Cai, John Gargalionis, Michael A. Schmidt, Raymond R. Volkas, _Reconsidering the One Leptoquark solution: flavor anomalies and neutrino mass_ ([arXiv:1704.05849](https://arxiv.org/abs/1704.05849))
 
 * {#Falkowski17} [[Adam Falkowski]], _[Leptoquarks strike back](http://resonaances.blogspot.com/2015/11/leptoquarks-strike-back.html)_, November 2017
@@ -138,6 +143,8 @@ Attempts to explain the anomaly include
 
 
 * {#MonteuxRajaraman18} Angelo Monteux, [[Arvind Rajaraman]], _B Anomalies and Leptoquarks at the LHC: Beyond the Lepton-Quark Final State_, Phys. Rev. D 98, 115032 (2018) ([arXiv:1803.05962](https://arxiv.org/abs/1803.05962))
+
+* {#BDFKFS18} Damir Bečirević, Ilja Doršner, Svjetlana Fajfer, Nejc Košnik, Darius A. Faroughy, Olcyr Sumensari, _Scalar leptoquarks from GUT to accommodate the $B$-physics anomalies_, Phys. Rev. D 98, 055003 (2018) ([arXiv:1806.05689](https://arxiv.org/abs/1806.05689))
 
 
 others:
