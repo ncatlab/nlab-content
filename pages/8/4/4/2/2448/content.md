@@ -6,7 +6,7 @@ A multiplicative closed subset $S\subset R$ containing a unit element in a [[mon
 $\exists r'\in R$, $\exists s'\in S$ such that $s'r = r's$. 
 
 Sometimes both conditions are called "Ore conditions". 
-Notice that in both conditions the new elements whose existence is equired are on the left. 
+Notice that in both conditions the new elements whose existence is required are on the left. 
 
 If $S$ is a left Ore set in a monoid than there is a well-defined equivalence relation $\sim$ on pairs $(s,r)\in S\times R$ such that the set of equivalence classes, which are denoted by $s^{-1}r := [(s,r)]\in S^{-1}R:=S\times R/\sim$ becomes a monoid together with a monoid map $j_S: R\to S^{-1}R$ given by $r\mapsto 1^{-1}r$ is a homomorphism of monoids; moreover this monoid map satisfies a universal property, see [[Ore localization]]. The Ore localization of monoids has been generalized to categories, see [[category of fractions]].
 
