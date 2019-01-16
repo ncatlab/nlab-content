@@ -104,6 +104,8 @@ which corresponds by adjunction to precisely an $R$-algebra structure on $U f$. 
 
 In particular, therefore, the factorizations of any [[algebraic model structure]] lift along any adjunction between locally presentable model categories, whether or not they are cofibrantly generated.  But the cofibrantly generated case can also be subsumed, by taking $(L,R)$ to be the one-step factorization produced by the generating left maps.
 
+The algebraic version can also be dualized, whereas the merely cofibrantly-generated one cannot in general; see [HKRS15](#HKRS15) and [GKR18](#GKR18).
+
 
 ### Verifying acyclicity
 
@@ -238,6 +240,8 @@ which is the morphism induced from $U(X) \to U(Y)$. That this is indeed an (acyc
 
 ## Examples
 
+* The [[projective model structure on functors]] $M^D$ is transferred from the product model structure on $M^{ob D}$.  Dually, the [[injective model structure on functors]], when it exists, is co-transferred from $M^{ob D}$.
+
 * The [[model structure on algebraic fibrant objects]] is transferred from the underlying model category by forgetting the choice of fillers.
 
 * If $T$ is an [[accessible functor|accessible]] [[strict 2-monad]] on a [[locally finitely presentable category|locally finitely presentable 2-category]] $K$. then the category $T Alg_s$ of strict $T$-[[algebra over a monad|algebras]] admits a transferred model structure from the [[2-trivial model structure]] on $K$.  The acyclicity condition is proved by using [[pseudolimits]] of arrows for path objects, and the (cofibration, trivial fibration) factorization is constructed using a version of the construction of Lemma \ref{AlgebraicLift} (since the 2-trivial model structure on $K$ may not be cofibrantly generated).
@@ -289,11 +293,11 @@ The dual notion of transfer, "left induced" instead of "right induced", is discu
 
 * Marzieh Bayeh, [[Kathryn Hess]], Varvara Karpova, Magdalena K&#281;dziorek, [[Emily Riehl]], [[Brooke Shipley]], _Left-induced model structures and diagram categories_ ([arXiv:1401.3651](http://arxiv.org/abs/1401.3651))
 
-See also
-
 * {#HKRS15} [[Kathryn Hess]], Magdalena K&#281;dziorek, [[Emily Riehl]], [[Brooke Shipley]], _A necessary and sufficient condition for induced model structures_ ([arXiv:1509.08154](http://arxiv.org/abs/1509.08154)).  This paper contains an error, corrected by:
 
-* [[Richard Garner]], Magdalena Kedziorek, [[Emily Riehl]], _Lifting accessible model structures_, [arXiv:1802.09889](https://arxiv.org/abs/1802.09889)
+* {#GKR18} [[Richard Garner]], Magdalena Kedziorek, [[Emily Riehl]], _Lifting accessible model structures_, [arXiv:1802.09889](https://arxiv.org/abs/1802.09889)
+
+The transferred model structure on algebras for a 2-monad is from
 
 * {#Lack06} [[Steve Lack]], *Homotopy-theoretic aspects of 2-monads*, [arXiv](http://arxiv.org/abs/math.CT/0607646)
 
