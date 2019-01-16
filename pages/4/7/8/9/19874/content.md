@@ -17,7 +17,7 @@
 
 ## Idea
 
-What is called _leptoquarks_ are hypothetical [[fundamental particles]] which share properties both of the [[quarks]] as well as the [[leptons]] in the [[standard model of particle physics]].
+_Leptoquarks_ is the name given to hypothetical [[fundamental particles]] which combine the properties of both [[quarks]] and [[leptons]] in the [[standard model of particle physics]].
 
 ## Properties
 
