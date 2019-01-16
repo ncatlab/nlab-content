@@ -186,7 +186,7 @@ The simplicial homotopy groups of any [[simplicial set]], not necessarily [[Kan 
 
 The first homotopy group, $\pi_1(X,x)$, is also called the _[[fundamental group]]_ of $X$. 
 
-=---
+=--
 
 
 
@@ -218,7 +218,7 @@ There is an isomorphism between $\pi_n(X)$ as defined above and $H_{n-1}(N G(X))
 
 ### Long exact sequences of a Kan fibration
 
-For $f colon X \longrightarrow Y$ a [[Kan fibration]], for $x\in X_0$ any vertex, for $y \coloneqq f(x) \in Y$ its image and $F_x \coloneqq f^{-1}(y)$ the [[fiber]] at that point, then the induced [[homomorphism]] of simplicial homotopy groups form a [[long exact sequence of homotopy groups]]
+For $f \colon X \longrightarrow Y$ a [[Kan fibration]], for $x\in X_0$ any vertex, for $y \coloneqq f(x) \in Y$ its image and $F_x \coloneqq f^{-1}(y)$ the [[fiber]] at that point, then the induced [[homomorphism]] of simplicial homotopy groups form a [[long exact sequence of homotopy groups]]
 
 $$
   \cdots
