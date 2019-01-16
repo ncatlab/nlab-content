@@ -34,6 +34,7 @@ In fact, the anomalous magnetic moment of the [[muon]] $g_\mu - 2$ has become no
 
 If these experimental "anomalies" (in the sense of [[phenomenology]]) in the anomalous magnetic moment $g_\mu - 2$ (and possibly even in $g_e -2$) are real (the established rule of thumb is that deviations are established once beyond 5[[standard deviation|σ]] uncertainty), they point to "new physics" beyond the [[standard model of particle physics]]. See also at _[[flavour anomaly]]_.
 
+Possible explanations for the anomomalies in the anomalous magnetic moments is the existence of [[leptoquarks]] ([Müller 18](#Mueller18)).
 
 
 ## Contributions
@@ -65,6 +66,13 @@ Basic discussion:
 
 * [[Friedrich Jegerlehner]], _The Anomalous Magnetic Moment of the Muon_, Springer Tracts in Modern Physics 226, Springer-Verlag Berlin Heidelberg, 2008
 
+See also
+
+* Wikipedia, _[Anomalous magnetic dipole moment](https://en.wikipedia.org/wiki/Anomalous_magnetic_dipole_moment)_
+
+
+### Experiment and deviation
+
 Discussion of precision experiment and possible deviation from theory:
 
 * {#DHMZ17} Michel Davier, Andreas Hoecker, Bogdan Malaescu, Zhiqing Zhang, _Reevaluation of the hadronic vacuum polarisation contributions to the Standard Model predictions of the muon g-2 and alpha(mZ) using newest hadronic cross-section data_, Eur. Phys. J. C (2017) 77: 827 ([arXiv:1706.09436](https://arxiv.org/abs/1706.09436))
@@ -77,9 +85,9 @@ Discussion of precision experiment and possible deviation from theory:
 
 * {#Falkowski18} [[Adam Falkowski]], _[Both $g-2$ anomalies](http://resonaances.blogspot.com/2018/06/alpha-and-g-minus-two.html)_, June 2018
 
-See also
+Possible explanation of the anomaly in the anomalous magnetic moments in terms of [[leptoquarks]]:
 
-* Wikipedia, _[Anomalous magnetic dipole moment](https://en.wikipedia.org/wiki/Anomalous_magnetic_dipole_moment)_
+* {#Mueller18} Dario Müller, _Leptoquarks in Flavour Physics_, EPJ Web of Conferences 179, 01015 (2018) ([arXiv:1801.03380](https://arxiv.org/abs/1801.03380))
 
 
 ### QED contributions
