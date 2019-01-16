@@ -143,6 +143,9 @@ reviewed in
 
 * {#Harlow18} [[Daniel Harlow]], _TASI Lectures on the Emergence of Bulk Physics in AdS/CFT_ ([arXiv:1802.01040](https://arxiv.org/abs/1802.01040))
 
+Further debelopment of these tensor networks in 
+
+* Ning Bao, Geoffrey Penington, Jonathan Sorce, Aron C. Wall, _Beyond Toy Models: Distilling Tensor Networks in Full AdS/CFT_ ([arXiv:1812.01171](https://arxiv.org/abs/1812.01171))
 
 Computation of [[black hole entropy]] in 4d via [[AdS4-CFT3 duality]] from [[holographic entanglement entropy]] in the [[ABJM theory]] for the [[M2-brane]] is discussed in
 
