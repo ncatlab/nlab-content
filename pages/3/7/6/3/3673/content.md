@@ -109,22 +109,41 @@ In particular, therefore, the factorizations of any [[algebraic model structure]
 
 The "acyclicity condition" that anodyne maps are weak equivalences is usually the most difficult to check.  Sometimes useful is the observation that in the cofibrantly generated case, it suffices to show that [[sequential colimit]] of [[pushouts]] of images under $F$ of the generating trivial cofibrations in $C$ (i.e. an $F(J)$-[[cell complex]]) yields a weak equivalence in $D$.  This is because the small object actually factors any map as such an $F(J)$-cell complex followed by a fibration; hence by the retract argument every anodyne map is a retract of an $F(J)$-cell complex.
 
-Another useful sufficient condition is the following.
+Another useful sufficient condition is the following, going back roughly to section II.4 of ([Quillen](#Quillen)).
 
 +-- {: .num_prop #PathObjects}
-
 ###### Proposition
 In the above situation, suppose that
 
-* $D$ has a [[fibrant resolution functor]], and
+* $D$ has a [[fibrant replacement functor]] (in fact it suffices for individual objects and morphisms to have fibrant replacements; functoriality is not required).
 
-* $D$ has functorial [[path objects]] for fibrant objects, i.e. a functorial factorization of the [[diagonal]] $\Delta : A \to A \times A$ as a weak equivalence followed by a fibration $\Delta : A \stackrel{\simeq}{\to} P(A) \stackrel{fib}{\to} A \times A$.
+* $D$ has [[path objects]] for fibrant objects, i.e. a factorization of the [[diagonal]] $\Delta : A \to A \times A$ as a weak equivalence followed by a fibration $\Delta : A \stackrel{\simeq}{\to} P(A) \stackrel{fib}{\to} A \times A$.
 
 Then any anodyne map in $D$ is a weak equivalence.  Thus, if the two factorizations exist in $D$, then the transferred model structure exists.
 =--
 +-- {: .proof}
 ###### Proof
-This argument goes back to section II.4 of ([Quillen](#Quillen)).  A proof for one set of sufficient conditions in is chapter II of ([GoerssJardine](#GoerssJardine)). Then ([Crans](#Crans)) and ([Cisinski](#Cisinski)).
+The notation here is mostly that of [Rezk 02, Lemma 7.6](#Rezk02).  Let $R$ be a fibrant replacement functor, with natural weak equivalence $j : Id \to R$, suppose $f:X\to Y$ is anodyne, and consider the following diagram:
+\begin{center}
+\begin{tikzcd}
+X \ar[dr,"i" description] \ar[r,"f"] \ar[d,"{(1,f)}"'] &
+Y \ar[r,"{j_Y}"] & R Y \ar[d] \\
+X\times Y \ar[dr,"{j_X \times j_Y}"'] &
+P R f \ar[r] \ar[d]  & P R Y \ar[d]\\
+& R X \times R Y \ar[d,"{\mathrm{pr}_1}"'] \ar[r,"{R f \times 1}"'] & R Y \times R Y \ar[d,"{\mathrm{pr}_1}"'] \\
+& R X \ar[r,"R f"'] & R Y
+\end{tikzcd}
+\end{center}
+Both squares are pullbacks, defining the object $P R f$ and the morphism $i$ making the following square commute:
+\begin{center}
+\begin{tikzcd}
+X \ar[d,"f"'] \ar[r,"i"] & P R f \ar[r,"\pi"] \ar[d] & R X\\
+Y \ar[r,"{j_Y}"'] \ar[ur,dashed,"g"] & R Y.
+\end{tikzcd}
+\end{center}
+The morphism $\pi$ is the composite $P R f\to R X \times R Y \to R X$ at the top, which is a pullback of $P R Y \to R Y$; but the latter is a fibration (as the composite $P R Y \to R Y \times R Y \to R Y$) and a weak equivalence (as a retraction for $R Y \to P R Y$), so it and hence also $\pi$ are acyclic fibrations.  Moreover, since $\pi i = j_X$, by [[2-out-of-3]] $i$ is also a weak equivalence.
+
+Now the projection $P R f\to P Y$ is a fibration, so since $f$ is anodyne there is a lift $g$ in the second square as shown.  Since $i$ and $j_Y$ are weak equivalences, by [[2-out-of-6]] it follows that $f$ is a weak equivalence.
 =--
 
 
@@ -252,8 +271,10 @@ The explicit study of transfer of model structures (on categories of sheaves) is
 See also prop. 1.4.23 of
 
 * {#Cisinski} [[Denis-Charles Cisinski]], _[[joyalscatlab:Les préfaisceaux comme type d'homotopie]]_, Ast&#233;risque, Volume 308, Soc. Math. France (2006), 392 pages ([pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf))
- 
 
+The above proof of acyclicity in the presence of path objects is taken from
+
+* {#Rezk02} [[Charles Rezk]], Every homotopy theory of simplicial algebras admits a proper model. Topology Appl. 119 (2002), no. 1, 65--94, [arxiv:math/0003065](https://arxiv.org/abs/math/0003065)
 
 A summary of the result is on [p. 20](http://arxiv.org/PS_cache/math/pdf/0609/0609537v2.pdf#page=20) of
 
