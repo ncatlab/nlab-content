@@ -103,14 +103,14 @@ for $n = 3$, and for general $n$ in Theorem 3.1 and Corollary A.5 of
 
 as well as from item 1.4 on in 
 
-* [[Bruno Valette]], _Algebra+Homotopy=Operad_ ([arXiv:1202.3245](http://arxiv.org/abs/1202.3245))
+* [[Bruno Vallette]], _Algebra+Homotopy=Operad_ ([arXiv:1202.3245](http://arxiv.org/abs/1202.3245))
 
 and sections 9.4.10 to 9.4.12 of 
 
-* {#ValetteLoday} [[Bruno Valette]], [[Jean-Louis Loday]], _Algebraic Operads_ ([pdf](http://math.unice.fr/~brunov/Operads.pdf))
+* {#ValetteLoday} [[Bruno Vallette]], [[Jean-Louis Loday]], _Algebraic Operads_ ([pdf](http://math.unice.fr/~brunov/Operads.pdf))
  
 
-Notice that the definition of Massey product on top of p.282 of [Valette-Loday](#ValetteLoday), $\langle x,y,z\rangle$ depends on choices of $a,b$ which don't appear in the notation. Then lemma 9.4.11 talks about a particular choice of $a,b$ which is made in the body of the proof. The actual statement of the lemma only can be deduced after reading the proof. It then says that for these particular choices of a,b the said equality holds. (See [this MO discussion](http://mathoverflow.net/questions/92315/massey-products-vs-a-infty-structures)).
+Notice that the definition of Massey product on top of p.282 of [Vallette-Loday](#ValetteLoday), $\langle x,y,z\rangle$ depends on choices of $a,b$ which don't appear in the notation. Then lemma 9.4.11 talks about a particular choice of $a,b$ which is made in the body of the proof. The actual statement of the lemma only can be deduced after reading the proof. It then says that for these particular choices of a,b the said equality holds. (See [this MO discussion](http://mathoverflow.net/questions/92315/massey-products-vs-a-infty-structures)).
 
 ### In ordinary differential cohomology
  {#ReferencesInOrdinaryDifferentialCohomology}
