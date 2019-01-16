@@ -325,12 +325,8 @@ The example of algebraic fibrant objects and the argument entering the above [li
 See also [[model structure on algebraic fibrant objects]].
 
 
+[[!redirects solid functors]]
 [[!redirects semi-topological functor]]
 [[!redirects semitopological functor]]
-[[!redirects semi-final lift]]
-[[!redirects semifinal lift]]
-[[!redirects solid functors]]
 [[!redirects semi-topological functors]]
 [[!redirects semitopological functors]]
-[[!redirects semi-final lifts]]
-[[!redirects semifinal lifts]]
