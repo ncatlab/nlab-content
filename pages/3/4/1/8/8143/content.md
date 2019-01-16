@@ -22,7 +22,18 @@ The dual concept is called **cofibrant replacement**.
 
 If the factorization is functorial, then it yields a **fibrant replacement functor**.
 
+[[!redirects fibrant replacement]]
 [[!redirects cofibrant replacement]]
 [[!redirects fibrant replacement functor]]
 [[!redirects cofibrant replacement functor]]
+[[!redirects fibrant resolution]]
+[[!redirects cofibrant resolution]]
+[[!redirects fibrant resolution functor]]
+[[!redirects cofibrant resolution functor]]
 
+[[!redirects fibrant replacements]]
+[[!redirects cofibrant replacements]]
+[[!redirects fibrant replacement functors]]
+[[!redirects cofibrant replacement functors]]
+[[!redirects fibrant resolutions]]
+[[!redirects cofibrant resolutions]]
