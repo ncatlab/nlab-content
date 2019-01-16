@@ -59,6 +59,8 @@ Definitions in the literature include:
 
 * Another (counter-)example to keep in mind, however, is the [[canonical model structure on groupoids]], which is combinatorial and simplicial, all objects are fibrant and cofibrant, pullback along fibrations has a right adjoint, cofcibrations are closed under limits, and all monomorphisms are cofibrations; but the category $Gpd$ is not locally cartesian closed (hence not a Grothendieck topos), and not every cofibration is a monomorphism.
 
+* The [[type theoretic model structure]] on the presheaves on a small category with an [[atomic object|atomic]] [[interval object]]. This gives examples on various type of cartesian [[cubical sets]].
+
 ## Properties
 
 ### Modeling type theory
