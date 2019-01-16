@@ -37,7 +37,7 @@ Then the $\Gamma$-[[fixed point space]] inside this representation is
 
 $$
   \big(
-    \mathbf{c} \otimes (N \mathbf[r]) \otimes (N \mathbf{r}^\ast)
+    \mathbf{c} \otimes (N \mathbf{r}) \otimes (N \mathbf{r}^\ast)
   \big)^\Gamma
 $$
 
@@ -87,7 +87,7 @@ an [[exceptional collection]] in the [[derived category]] of [[coherent sheaves]
 
 Review and discussion of further details includes
 
-* Yang-Hui He, _Lectures on D-branes, Gauge Theories and Calabi-Yau Singularities_ ([arXiv:hep-th/0408142](https://arxiv.org/abs/hep-th/0408142))
+* [[Yang-Hui He]], _Lectures on D-branes, Gauge Theories and Calabi-Yau Singularities_ ([arXiv:hep-th/0408142](https://arxiv.org/abs/hep-th/0408142))
 
 * {#BergmnProudfoot04} [[Aaron Bergman]], [[Nicholas Proudfoot]], _Moduli Spaces for D-branes at the Tip of a Cone_, JHEP0603:073, 2006 ([arXiv:hep-th/0510158](http://arxiv.org/abs/hep-th/0510158))
 
