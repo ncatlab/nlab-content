@@ -3,6 +3,13 @@
 
 ## selected writings
 
+On [[quiver gauge theories]] and [[D-branes]]:
+
+* [[Yang-Hui He]], _Lectures on D-branes, Gauge Theories and Calabi-Yau Singularities_ ([arXiv:hep-th/0408142](https://arxiv.org/abs/hep-th/0408142))
+
+
+On [[heterotic string theory]] [[string phenomenology]] and the [[landscape of string theory vacua]]:
+
 * [[Lara Anderson]], [[Yang-Hui He]], [[Andre Lukas]], _Heterotic Compactification, An Algorithmic Approach_, JHEP 0707:049, 2007 ([arXiv:hep-th/0702210](https://arxiv.org/abs/hep-th/0702210))
 
 * {#CHE18} Andrei Constantin, [[Yang-Hui He]], [[Andre Lukas]], _Counting String Theory Standard Models_ ([arXiv:1810.00444](https://arxiv.org/abs/1810.00444))
