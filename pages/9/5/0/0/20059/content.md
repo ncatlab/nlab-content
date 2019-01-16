@@ -25,6 +25,6 @@ These are a class of model structure due to [[Christian Sattler]].
 
 * {#sattlerHIM} [[Christian Sattler]], *Do cubical models of type theory also model homotopy types*, lecture at Hausdorff Trimester Program: Types, Sets and Constructions, [youtube](https://www.youtube.com/watch?v=wkPDyIGmEoA)
 
+[[!redirects type+theoretic model structures]]
 [[!redirects type theoretic model structures]]
-[[!redirects type-theoretic model structures]]
-[[!redirects type-theoretic model structure]]
+[[!redirects type theoretic model structure]]
