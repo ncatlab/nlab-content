@@ -61,7 +61,7 @@ There is a $V$-[[adjunction]]
 
 $$
   (\mathcal{O} \dashv Spec)
-  :
+  \colon
   [C, \mathcal{V}]^{op}
   \underoverset{Spec}{O}{\leftrightarrows}
   [C^{op}, \mathcal{V}]
@@ -70,14 +70,14 @@ $$
 where 
 
 $$
-  \mathcal{O}(X) : c \mapsto [C^{op}, \mathcal{V}](X, \mathcal{V}(-,c))
+  \mathcal{O}(X) \colon c \mapsto [C^{op}, \mathcal{V}](X, \mathcal{V}(-,c))
   \,,
 $$
 
 and
 
 $$
-  Spec(A) : c \mapsto [C, \mathcal{V}]^{op}(\mathcal{V}(c,-),A)
+  Spec(A) \colon c \mapsto [C, \mathcal{V}]^{op}(\mathcal{V}(c,-),A)
   \,.
 $$
 
@@ -548,11 +548,11 @@ see [[Tannaka duality for geometric stacks]]
 ### Gelfand duality
  {#GelfandDuality}
 
-[[Gelfand duality]] is the [[equivalence of categories]] between (nonunital) commutative [[C-star algebras]] and ([[locally compact space|locally]]) [[compact topological spaces]]. See there for more details.
+[[Gelfand duality]] is the [[equivalence of categories]] between (nonunital) commutative [[C-star algebra|C*-algebras]] and ([[locally compact space|locally]]) [[compact topological spaces]]. See there for more details.
 
 ### Serre-Swan theorem
 
-The [[Serre-Swan theorem]] says that suitable [[modules]] over an commutative [[C-star algebra]] are equivalently modules of [[sections]] of [[vector bundles]] over the [Gelfand-dual](#GelfandDuality) topological space.
+The [[Serre-Swan theorem]] says that suitable [[modules]] over an commutative [[C-star algebra|C*-algebra]] are equivalently modules of [[sections]] of [[vector bundles]] over the [Gelfand-dual](#GelfandDuality) topological space.
 
 
 ## Related concepts
@@ -606,7 +606,7 @@ See also
 
 * MathOverflow: [theme-of-isbell-duality](http://mathoverflow.net/questions/84641/theme-of-isbell-duality)
 
-* R.J Wood, _Some remarks on total categories_, J. Algebra __75_:2, 1982, 538&#8211;545 <a href="http://dx.doi.org/10.1016/0021-8693(82)90055-2">doi</a>
+* R.J. Wood, _Some remarks on total categories_, J. Algebra __75_:2, 1982, 538&#8211;545 <a href="http://dx.doi.org/10.1016/0021-8693(82)90055-2">doi</a>
 
 [[!redirects Isbell dualities]]
 
