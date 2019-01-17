@@ -118,14 +118,17 @@ There is a modification of the [[small object argument]], due to Richard Garner,
 
 * [[Emily Riehl]], _Made-to-Order Weak Factorization Systems_, [doi](https://doi.org/10.1007/978-3-319-21284-5_17), [pdf](http://www.math.jhu.edu/~eriehl/made-to-order.pdf)
 
-[[!redirects algebraic weak factorisation system]]
 [[!redirects natural weak factorisation system]]
+[[!redirects natural weak factorisation systems]]
 [[!redirects natural weak factorization system]]
 [[!redirects natural weak factorization systems]]
+[[!redirects algebraic weak factorisation system]]
+[[!redirects algebraic weak factorisation systems]]
+[[!redirects algebraic weak factorization systems]]
 [[!redirects NWFS]]
 [[!redirects nwfs]]
-[[!redirects algebraic weak factorization system]]
-[[!redirects algebraic weak factorization systems]]
 [[!redirects AWFS]]
 [[!redirects awfs]]
-[[!redirects Garner's small object argument]]
+[[!redirects algebraic wfs]]
+[[!redirects algebraic WFS]]
+
