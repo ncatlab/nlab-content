@@ -78,7 +78,7 @@ $.
 
 * Many categories with weak equivalences can be equipped with the further [[structure]] of a [[model category]]. On the other hand, some categories with weak equivalences can _not_ be equipped with a useful structure of a model category.  In particular, categories of [[diagrams]] in a model category do not always inherit a useful model structure (on the other hand often they do, see [[model structure on functors]]).  Several concepts exist that weaken the axioms of a model category in order to still obtain useful results in such a case -- for instance a [[category of fibrant objects]].
 
-
+* Although categories of weak equivalences do not usually have limits and colimits, they are often [[accessible category|accessible]], and can be presented as an [[injectivity class]] or a [[cone-injectivity class]].  This is used in Smith's recognition theorem for [[combinatorial model categories]] and can be "algebraicized" as in [Bourke17](#Bourke17).
 
 ## Presentation of $(\infty,1)$-categories {#InfCatPres}
 
@@ -103,5 +103,11 @@ It also cannot, in general, be the underlying 1-category of a simplicially enric
 * [[localizing subcategory]]
 
 * [[relative category]]
+
+[[!include algebraic model structures - table]]
+
+## References
+
+* {#Bourke17} [[John Bourke]], *Equipping weak equivalences with algebraic structure*, [arXiv:1712.02523](https://arxiv.org/abs/1712.02523)
 
 [[!redirects categories with weak equivalences]]
