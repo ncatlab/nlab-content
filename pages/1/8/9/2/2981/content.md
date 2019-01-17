@@ -121,6 +121,7 @@ See [[geometric realization of simplicial topological spaces]] for more details.
 
 * [[Thomason model structure]]
 
+* [[Hurewicz model structure on chain complexes]]
 
 
 ## References
