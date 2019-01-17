@@ -254,6 +254,9 @@ Indeed, for this to happen it is sufficient that the [[resolution]] is by a degr
 
 =--
 
+## Related pages
+
+* [[Hurewicz model structure on chain complexes]]
 
 ## References
 
