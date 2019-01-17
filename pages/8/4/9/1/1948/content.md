@@ -18,7 +18,7 @@
 
 The [[model category]] structures on [[functor category|functor categories]] are models for [[(∞,1)-category of (∞,1)-functors|(∞,1)-categories of (∞,1)-functors]].
 
-For $C$ a [[model category]] and $D$ any [[small category]] there are two "obvious" ways to put a [[model category]] structure on the [[functor category]] $[D,C]$, called the _projective_ and the _injective_ model structures.  For completely general $C$, neither one need exist, but there are rather general conditions that ensure their existence.  In particular, the projective model structure exists as long as $C$ is [[cofibrantly generated model category|cofibrantly generated]], while the injective model structure exists as long as $C$ is [[combinatorial model category|combinatorial]].
+For $C$ a [[model category]] and $D$ any [[small category]] there are two "obvious" ways to put a [[model category]] structure on the [[functor category]] $[D,C]$, called the _projective_ and the _injective_ model structures.  For completely general $C$, neither one need exist, but there are rather general conditions that ensure their existence.  In particular, the projective model structure exists as long as $C$ is [[cofibrantly generated model category|cofibrantly generated]], while both model structures exist if $C$ is [[accessible model category|accessible]] (and in particular if it is [[combinatorial model category|combinatorial]]).  In the case of [[enriched category|enriched]] diagrams, additional cofibrancy-type conditions are required on $D$.
 
 A related kind of model structure is the [[Reedy model structure]]/[[generalized Reedy model structure]] on functor categories, which applies for *any* model category $C$, but requires $D$ to be a very special sort of category, namely a [[Reedy category]]/[[generalized Reedy category]].
   
@@ -45,7 +45,7 @@ If either of these choices defines a model structure on $[D,C]$, we call it the 
 
 ### Projective case
 
-The projective model structure can be regarded as a [[transferred model structure]].  This yields the following basic result on its existence, which can rarely be improved upon.
+The projective model structure can be regarded as a right-[[transferred model structure]].  This yields the following basic result on its existence.
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -75,9 +75,26 @@ This follows from the result of [Lack](#Lack06) on [[transferred model structure
 Note that $C$ need not be cofibrantly generated (and the 2-trivial model structure often fails to be cofibrantly generated), so the generality of this result is not entirely included in the previous one.
 
 
+### Accessible case
+
+In the case when $C$ is an [[accessible model category]], i.e. it is a [[locally presentable category]] and its constituent [[weak factorization systems]] have [[accessible functor|accessible]] realizations as [[functorial factorizations]], we have the following general result from [Moser](#Moser) (the unenriched case appears in [HKRS15](#HKRS15) and [GKR18](#GKR18)).
+
+\begin{theorem}
+Let $\mathbf{S}$ be a [[locally presentable base]], $C$ an $\mathbf{S}$-cocomplete locally $\mathbf{S}$-presentable $\mathbf{S}$-enriched category that is an [[accessible model category]], and $D$ a small $\mathbf{S}$-category.  Then:
+
+1. If [[copowers]] by the hom-objects $D(x,y)$ preserve trivial cofibrations, then the projective model structure on $[D,C]$ exists.
+1. If [[copowers]] by the hom-objects $D(x,y)$ preserve cofibrations, then the injective model structure on $[D,C]$ exists.
+
+\end{theorem}
+
+Note that if $C$ is [[combinatorial model category|combinatorial]], i.e. locally presentable and cofibrantly generated (hence accessible), this result reduces to the previous one in the projective case.  However, not every accessible model structure is combinatorial (e.g. the [[Hurewicz model structure on chain complexes]]), so in that sense this result is more general.  On the other hand, not every cofibrantly generated model category is locally presentable (e.g. the [[classical model structure on topological spaces]]), so the previous theorem is more general in that sense.
+
+Moreover, this theorem does not, as stated, imply that the projective or injective model structures are cofibrantly generated even if $C$ is.  So in the combinatorial case, the previous theorem also proves more.
+
+
 ### Injective case
 
-The existence of injective model structures is subtler, mainly because there is no explicit description of the generating cofibrations and acyclic cofibrations; they have to be produced by a cardinality argument.  The following is probably the most general known result.
+Showing that injective model structures are cofibrantly generated is subtler, mainly because there is no explicit description of the generating cofibrations and acyclic cofibrations; they have to be produced by a cardinality argument.  The following is probably the most general known result.
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -88,18 +105,7 @@ If $\mathbf{S}$ is an [[excellent model category]], $C$ is a [[combinatorial mod
 In the unenriched case, this is [[Higher Topos Theory|HTT, prop. A.2.8.2]].  The enriched case is [[Higher Topos Theory|HTT, prop. A.3.3.2]] and the remarks following it.
 =--
 
-At least in the unenriched case, existence of the injective model structure can also be proven using technology related to [[algebraic weak factorization systems]]:
-
-+-- {: .un_theorem}
-###### Theorem
-If $C$ is an [[accessible model category]] and $D$ is a small category, then the injective model structure on $[D,C]$ exists and is again accessible.
-=--
-+-- {: .proof}
-###### Proof
-See [HKRS15](#HKRS15) and the corrected proof in [GKR18](#GKR18).
-=--
-
-Note that an accessible model category need not be cofibrantly generated, so the generality of this result is not entirely included in the previous one.
+Note that one of the axioms of an [[excellent model category]] is that all objects are cofibrant; thus the assumption that $C$ is an $\mathbf{S}$-model category implies that copowers by the (cofibrant) objects $D(x,y)$ preserve cofibrations and trivial cofibrations.  So the assumptions of this theorem are subsumed by Moser's; but Moser's theorem does not imply that the injective model structure is combinatorial if $C$ is, so in that regard Lurie's result proves more.
 
 
 ## Properties
@@ -297,15 +303,23 @@ General review and discussion includes
 
 * [[Philip Hirschhorn]], section 11.6 in _Model categories and their localizations_, 2003 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
 
+The injective model structure for unenriched diagrams of simplicial sets was first constructed by
+
+* [[Alex Heller]], _Homotopy theories_
+
+Probably the first general construction of injective model structures for enriched diagrams in combinatorial model categories was in
+
 * {#Lurie} [[Jacob Lurie]],  sections A.2.8 (unenriched) and section A.3.3 (enriched) of _[[Higher Topos Theory]]_, 2009
 
 The projective model structure for functors to [[sSet]] on a _[[large category|large]]_ domain is discussed in
 
 * [[Boris Chorny]], [[William Dwyer]], _Homotopy theory of small diagrams over large categories_, [arXiv:math/0607117](http://arxiv.org/abs/math/0607117)
 
-See also 
+The case of diagrams in a 2-category is a special case of
 
-* [[David White]], _Modified projective model structure_ ([MO comment](http://mathoverflow.net/questions/76160/acyclic-models-via-model-categories/104423#104423))
+* {#Lack06} [[Steve Lack]], *Homotopy-theoretic aspects of 2-monads*, [arXiv](http://arxiv.org/abs/math.CT/0607646)
+
+The use of accessible model structures to construct both projective and injective model structurse on unenriched diagrams was introduced in
 
 * Marzieh Bayeh, [[Kathryn Hess]], Varvara Karpova, Magdalena K&#281;dziorek, [[Emily Riehl]], [[Brooke Shipley]], _Left-induced model structures and diagram categories_ ([arXiv:1401.3651](http://arxiv.org/abs/1401.3651))
 
@@ -313,7 +327,13 @@ See also
 
 * {#GKR18} [[Richard Garner]], Magdalena Kedziorek, [[Emily Riehl]], _Lifting accessible model structures_, [arXiv:1802.09889](https://arxiv.org/abs/1802.09889)
 
-* {#Lack06} [[Steve Lack]], *Homotopy-theoretic aspects of 2-monads*, [arXiv](http://arxiv.org/abs/math.CT/0607646)
+It was generalized to enriched diagrams in
+
+* {#Moser} [[Lyne Moser]], *Injective and Projective Model Structures on Enriched Diagram Categories*, [arXiv:1710.11388](https://arxiv.org/abs/1710.11388)
+
+See also 
+
+* [[David White]], _Modified projective model structure_ ([MO comment](http://mathoverflow.net/questions/76160/acyclic-models-via-model-categories/104423#104423))
 
 [[!redirects model structures on functors]]
 
