@@ -18,7 +18,9 @@
 
 ## Idea
 
-A **$\tau$-additive measure** is a [[measure]] on a [[topological space]] which interacts well with the topology. In particular, a $\tau$-smooth measure has a well-defined and well-behaved [[support]].
+A **$\tau$-additive measure** is a [[measure]] on a [[topological space]] which interacts well with the topology. In particular, it has a well-defined and well-behaved [[support]].
+
+$\tau$-additive measures can be thought of as a point of contact between [[measure theory]], and the theory of [[valuation (measure theory)|valuations]]. More on this in [[correspondence between measure and valuation theory]].
 
 ## Definition
 
