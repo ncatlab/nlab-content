@@ -21,7 +21,7 @@ In the context of $V$-[[enriched category theory]], for
 $
   F,G : C \to D
 $
-two $V$-[[enriched functor]]s between $V$-[[enriched category|enriched categories]], the collection of [[natural transformation]]s from $F$ to $G$ can also be given the structure of an object in $V$, so that the [[functor category]], denoted $[C,D]$ in the enriched context, is itself a $V$-enriched category.
+two $V$-[[enriched functor|enriched functors]] between $V$-[[enriched category|enriched categories]], the collection of [[natural transformation]]s from $F$ to $G$ can also be given the structure of an object in $V$, so that the [[functor category]], denoted $[C,D]$ in the enriched context, is itself a $V$-enriched category.
 
 
 ## Definition
@@ -30,9 +30,9 @@ For $C$ and $D$ $V$-enriched categories, there is a $V$-[[enriched category]] de
 
 * objects are the $V$-functors $F : C \to D$
 
-* [[hom-objects]] $[C,D](F,G)$ between $V$-functors $F, G$ are given by the $V$-enriched [[end]]
+* [[hom-objects]] $\text{ }[C,D](F,G)$ between $V$-functors $F, G$ are given by the $V$-enriched [[end]]
 $$
-  [C,D](F,G) := \int_{c \in C} D(F(c), G(c))
+  [C,D](F,G) \coloneqq \int_{c \in C} D(F(c), G(c))
 $$
 over the functor
 $$
