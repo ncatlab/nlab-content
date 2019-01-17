@@ -1,3 +1,4 @@
+
 # Accessible weak factorization systems
 
 * table of contents
@@ -58,8 +59,6 @@ See [HKRS](#HKRS15) and its correction in [GKR](#GKR18) for details.  In particu
 * {#HKRS15} [[Kathryn Hess]], Magdalena K&#281;dziorek, [[Emily Riehl]], [[Brooke Shipley]], _A necessary and sufficient condition for induced model structures_ ([arXiv:1509.08154](http://arxiv.org/abs/1509.08154)).  This paper contains an error, corrected by:
 
 * {#GKR18} [[Richard Garner]], Magdalena Kedziorek, [[Emily Riehl]], _Lifting accessible model structures_, [arXiv:1802.09889](https://arxiv.org/abs/1802.09889)
-
-
 
 [[!redirects accessible weak factorization systems]]
 [[!redirects accessible weak factorisation system]]
