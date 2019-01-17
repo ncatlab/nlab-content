@@ -44,6 +44,17 @@ In any case, as far as the _observable_ universe is concerned, two facts are wor
 
 > Recent measurements (c. 2001) by a number of ground-based and balloon-based experiments, including MAT/TOCO, Boomerang, Maxima, and DASI, have shown that the brightest spots are about 1 degree across. Thus the universe was known to be flat to within about 15% accuracy prior to the WMAP results. WMAP has confirmed this result with very high accuracy and precision. We now know that the universe is flat with only a 2% margin of error
 
+<br/>
+
+[[energy]] $\,$ [[scales]]:
+
+
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/EnergyScales.jpg" width="600">
+\end{center}
+
+> graphics grabbed from [here](http://sten.astronomycafe.net/the-particle-desert/)
+
 ## Related entries
 
 * [[experimental observation]]
