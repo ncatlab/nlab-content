@@ -389,7 +389,7 @@ $$
   \,.
 $$
 
-Hence prop. \ref{SullivanModelForTheFreeLoopSpace} gives for the rationalization of $\mathcal{L}S^4$ the model
+Hence prop. \ref{SullivanModelForTheFreeLoopSpace} gives for the rationalization of $\mathcal{L}S^2$ the model
 
 $$
   ( \wedge^\bullet \langle \omega^A_2, \omega^B_2, h_1, h_3 \rangle  , d_{\mathcal{L}S^2} ) 
