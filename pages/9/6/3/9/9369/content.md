@@ -59,7 +59,7 @@ A Stein manifold is necessarily a non-[[compact topological space]].
 ### Good covers by Stein manifolds
  {#GoodCoversBySteinManifolds}
 
-Every [[complex manifold]] admits a [[good cover]] by Stein manifolds, in the sense that all finite non-empty intersections of the cover are Stein manifolds (e.g. [Maddock, lemma 3.2.8](#Maddock)), _not_ in the sense that these intersections are contractible! Rather, all Dolbeault cohomology in positive degree vanishes.
+Every [[complex manifold]] admits a [[good cover]] by Stein manifolds, in the sense that all finite non-empty intersections of the cover are Stein manifolds (e.g. [Maddock 09, lemma 3.2.8](#Maddock09)), _not_ in the sense that these intersections are contractible! Rather, all Dolbeault cohomology in positive degree vanishes.
 
 ### Cohomology
  {#Cohomology}
@@ -127,19 +127,18 @@ Reviews include
 
 * [[eom]], _[Stein space](http://www.encyclopediaofmath.org/index.php/Stein_space)_
 
-* {#Maddock} Zachary Maddock, _Dolbeault cohomology_ ([pdf](http://www.math.columbia.edu/~maddockz/notes/dolbeault.pdf))
+* {#Maddock09} Zachary Maddock, _Dolbeault cohomology_, notes 2009 ([[MaddockDolbeault09.pdf:file]])
 
 
 Texbook accounts include
 
 * {#GrauertRemmert04} [[Hans Grauert]], [[Reinhold Remmert]], _Theory of Stein Spaces_, Springer-Verlag, Berlin Heidelberg, 2004.
 
-* {#Forstneric11} [[Franc Forstneri?]], _Stein manifolds and holomorphic mappings -- The homotopy principle in complex analysis_, Springer 2011
+* {#Forstneric11} [[Franc Forstnerič]], _Stein manifolds and holomorphic mappings -- The homotopy principle in complex analysis_, Springer 2011
 
 Discussion of the relation to affine varieties includes
 
 * {#Zhang06} Jing Zhang, _Algebraic Stein Varieties_ ([arXiv:math/0610886](http://arxiv.org/abs/math/0610886))
-
 
 As a [[site]] for [[higher complex analytic geometry]] the category of Stein manifolds appears in 
 
