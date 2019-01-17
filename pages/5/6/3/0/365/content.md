@@ -123,6 +123,14 @@ On the other hand, saying that (mono,epi) is a WFS in [[Set]] is equivalent to t
 
 =--
 
+### Algebraic weak factorization systems
+
+An [[algebraic weak factorization system]] enhances the *properties* of lifting and factorization to algebraic [[stuff, structure, property|structure]].
+
+### Accessible weak factorization systems
+
+An [[accessible weak factorization system]] is a wfs on a [[locally presentable category]] whose factorization is given by an [[accessible functor]].
+
 
 ## Properties
 
@@ -617,6 +625,10 @@ $$
 * [[retract argument]]
 
 * [[injective and projective morphisms]]
+
+* [[algebraic weak factorization system]]
+
+[[!include algebraic model structures - table]]
 
 
 ## References
