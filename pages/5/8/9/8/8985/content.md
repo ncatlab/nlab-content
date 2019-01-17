@@ -29,7 +29,7 @@ If this construction is performed in sufficient generality, then it includes a l
 * the existence of [[left adjoints]] to functors between categories of algebras for monads
 * the existence of colimits for diagrams of monads
 * the existence of colimits in categories of monoids
-* the [[algebraic weak factorization system|algebraic]] [[small object argument]]
+* the [[algebraic small object argument]] generating [[algebraic weak factorization systems]]
 * the existence of [[W-types]] and [[inductive types]] in categories
 * the existence of [[higher inductive types]] in categories
 
@@ -264,11 +264,19 @@ Moreover, $L$ admits an epimorphic transformation from the well-pointed endofunc
 
 +-- {: .num_example}
 ###### Example
-The categorical semantics of [[higher inductive types]] can be described using certain "presentations" of monads.  (More to come...)
+The categorical semantics of [[higher inductive types]] can be described using certain "presentations" of monads.  See [Lumsdaine-Shulman](#LShits).
 =--
+
+## Algebraic small object argument
+
+The [[algebraic small object argument]] is an enhancement of the [[small object argument]], based on a free monad construction, that produces [[algebraic weak factorization systems]].
+
+[[!include algebraic model structures - table]]
 
 
 ## References
 
 * [[Max Kelly]], _A unified treatment of transfinite constructions for free algebras, free monoids, colimits, associated sheaves, and so on._  Bull. Austral. Math. Soc. 22 (1980), 1--83. doi:[10.1017/S0004972700006353](http://dx.doi.org/10.1017/S0004972700006353)
  {#Kelly}
+
+* {#LShits} [[Peter LeFanu Lumsdaine]] and [[Mike Shulman]], *Semantics of higher inductive types*, [arxiv](https://arxiv.org/abs/1705.07088)
