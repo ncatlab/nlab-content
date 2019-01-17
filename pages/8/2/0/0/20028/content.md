@@ -5,18 +5,28 @@
 
 ## Definition
 
-An **accessible model category** is a [[model structure]] on a [[locally presentable category]] whose two [[weak factorization systems]] can be realized by [[functorial factorizations]] that are [[accessible functors]].  This implies that in fact its weak factorization systems can be enhanced to [[algebraic weak factorization systems]] that are also accessible.
+An **accessible model category** is a [[model structure]] on a [[locally presentable category]] whose two [[weak factorization systems]] can be realized by [[functorial factorizations]] that are [[accessible functors]], that is that they are [[accessible weak factorization systems]].
+
+This implies that in fact its weak factorization systems can be enhanced to [[algebraic weak factorization systems]] that are also accessible (see [[accessible wfs]]).  However, such algebraic structure is not given as data in the notion of accessible model category: for that, see [[algebraic model category]].
 
 ## Properties
 
-The following, which shows that the two definitions of accessible model category agree, is Remark 3.1.8 of [HKRS15](#HKRS15), which relies on Theorem 4.3 of [Rosicky17](#Rosicky17).
+### Left and right lifting
 
-\begin{theorem}
-Suppose $E$ is an accessible functorial factorization on a locally presentable category $M$, realizing a weak factorization system.  Then there is an accessible algebraic weak factorization system realizing the same weak factorization system.
-\end{theorem}
-\begin{proof}
-Let $Coalg(L)$ be the category of [[algebra over an endofunctor|coalgebras]] for the [[pointed endofunctor|copointed endofunctor]] of the [[arrow category]] $M^\to$ induced by $E$, i.e. morphisms equipped with a section of their $E$-factorization exhibiting them as a retract of the first factor.  Then $Coalg(L)$ is locally presentable (being complete and a [[PIE limit]] construction from $M$).  Thus, it has a small dense subcategory $X$.  We can then apply [[Garner's small object argument]] to generate an algebraically-free algebraic weak factorization system from $X$.  The algebraic right-maps in this awfs are the morphisms with coherent lifting functions against $X$, which by density is the same as having a coherent lifting function against all of $Coalg(L)$, which is the same as being an algebra for the pointed endofunctor of $M^\to$ corresponding to $E$.  Thus this is an awfs with the same right-maps, hence the same underlying weak factorization system.
-\end{proof}
+Accessible model structures can be both left- and right-lifted along adjunctions as long as the relevant "acyclicity condition" holds.  That is, let $U:A\to B$ be a functor between locally presentable categories and suppose $B$ is an accessible model category.  Then:
+
+1. If $U$ is a right adjoint, then there is a model structure on $A$ in which the weak equivalences and fibrations are created by $U$ (i.e. $W_A = U^{-1}(W_B)$ and $F_A = U^{-1}(F_B)$) if and only if every map having the left lifting property with respect to $F_A$ lies in $W_A$.
+
+1. If $U$ is a left adjoint, then there is a model structure on $A$ in which the weak equivalences and cofibrations are created by $U$ (i.e. $W_A = U^{-1}(W_B)$ and $C_A = U^{-1}(C_B)$) if and only if every map having the right lifting property with respect to $C_A$ lies in $W_A$.
+
+Both of the lifted model structures are then again accessible.  See [[transferred model structure]].  For proofs, see [HKRS](#HKRS15) and its correction in [GKR](#GKR18).
+
+## Related concepts
+
+* [[accessible weak factorization system]]
+* [[algebraic model category]]
+
+[[!include algebraic model structures - table]]
 
 ## References
 
