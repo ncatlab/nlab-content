@@ -50,7 +50,7 @@ For now, see more in [Vickers](#vmonad).
 
 ### Valuations on locales and topological spaces
 
-Let $L$ be a [[locale]]. Then a valuation on $L$ is by definition a valuation on its [[frame]] $\mathcal{O}(L)$. In particular, a valuation on a [[topological space]] is a valuation on the [[lattice of open subsets|lattice of its open sets]].
+Let $L$ be a [[locale]]. Then a valuation on $L$ is by definition a valuation on its [[frame]] $\mathcal{O}(L)$. Similarly, a valuation on a [[topological space]] is a valuation on the [[lattice of open subsets|lattice of its open sets]].
 
 Valuations on locales are used in the [[topos approach to quantum mechanics]] and the [[Bohr topos]].
 
@@ -81,9 +81,12 @@ The converse problem of whether a valuation is the restriction of a Borel measur
 
 ### Null sets and support
 
-Let $\nu$ be a valuation on a [[locale]] $X$, and $U$ an open set of $X$ (i.e. an element of the corresponding [[frame]]). We say that $U$ is a **null** or **measure zero set** for $\nu$ if $\nu(U)=0$. 
+Valuations admit a notion of [[support]] to that of measures. In particular, continuous valuations, just as [[tau-additive measure|$\tau$-additive measures]], have a well-defined and well-behaved support.
 
-Since a finite union of null sets is null, null sets form a directed net in the frame. Therefore, if $\nu$ is a continuous valuation, it admits a unique maximal null open set. The [[complement]] of this set, which is a [[closed subspace#locales|closed subspace]] of $X$, is called the **[[support]]** of $\nu$.
+Let $\nu$ be a valuation on a [[locale]] or [[topological space]] $X$, and $U$ an open set of $X$ (i.e. an element of the corresponding [[frame]]). We say that $U$ is a **null** or **measure zero set** for $\nu$ if $\nu(U)=0$. The [[complement]] of $U$, which is a [[closed subspace#locales|closed subspace]] of $X$, is said to have **full measure**.
+
+Since a finite union of null sets is null, null sets form a directed net in the frame. Therefore, if $\nu$ is a continuous valuation, it admits a unique maximal null open set. The [[complement]] of this set, which is the largest closed subspace of full measure, is called the **[[support]]** of $\nu$.
+
 
 ### Integration
 
@@ -96,16 +99,11 @@ As we have seen [above](#borel_measures), a [[Borel subset|Borel measure]] alway
 
 The question is known, for example, to be true on all regular Hausdorff ($T_3$) spaces: 
 
-**Theorem** (see [Manilla, Theorem 3.23](#mthesis)). On every $T_3$ topological space, a locally finite continuous valuation extends uniquely to a regular, [[tau-additive measure|$\tau$-additive Borel measure]].
+**Theorem** (see [Manilla, Theorems 3.23 and 3.27](#mthesis)). On every $T_3$ topological space, and on every locally compact [[sober space]], a locally finite continuous valuation extends uniquely to a regular, [[tau-additive measure|$\tau$-additive Borel measure]].
 
-This includes in particular every [[metric space]].
+This includes in particular every [[metric space]], and every compact Hausdorff space. So, in many spaces of interest for analysis and probability theory, working with measures and working with valuations is only a difference in the language. 
 
-Moreover, the following is known:
-
-
-**Theorem** (see [Manilla, Theorem 3.27](#mthesis)). On every locally compact [[sober space]], a locally finite continuous valuation extends uniquely to a regular, [[tau-additive measure|$\tau$-additive Borel measure]].
-
-The question of whether one can extend a finite continuous valuation to a Borel measure on any sober space, at the present time, is still open. 
+The more general question of whether one can extend a finite continuous valuation to a Borel measure on any sober space, at the present time, is still open. 
 
 
 ## References
