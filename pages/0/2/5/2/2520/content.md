@@ -25,7 +25,7 @@ In [[physics]] the [[dynamics]] of a [[physical system]] may be encoded by a [[n
 
 * in [[quantum mechanics]] and [[quantum field theory]] the evolution of the [[quantum state]]s is encoded by the integral -- the [[path integral]] -- of the exponentiated action functional over the space of field configurations.
 
-For emphasis the description of dynamics by action functionals is called the **Lagrangean** approach. Another forumlation of dynamics in physics that does not involve an action functional explicitly is [[Hamiltonian mechanics]] on [[phase space]]. At least in certain classes of cases the relation and equivalence of both approaches is understood. Generally the formulation of [[quantum field theory]] in terms of action functionals suffers from a lack of precise understanding of what the [[path integral]] over the action functional really means. 
+For emphasis the description of dynamics by action functionals is called the **Lagrangean** approach. Another formulation of dynamics in physics that does not involve an action functional explicitly is [[Hamiltonian mechanics]] on [[phase space]]. At least in certain classes of cases the relation and equivalence of both approaches is understood. Generally the formulation of [[quantum field theory]] in terms of action functionals suffers from a lack of precise understanding of what the [[path integral]] over the action functional really means. 
 
 <div style="float:left;margin:0 10px 10px 0;">
 <img src="http://i.stack.imgur.com/xjwLG.jpg" alt="action functional on a napkin" />
