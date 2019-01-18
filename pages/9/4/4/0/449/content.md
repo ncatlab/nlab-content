@@ -57,7 +57,7 @@ Typically an algebraic model for higher categories admits a [[nerve]] operation 
 
 When an [[(∞,1)-category]] of [[(n,r)-categories]] is presented by a [[model category]], then algebraic models tend to be fibrant objects (while geometric models tend to be cofibrant objects). For instance in all the [[folk model structure]] on algebraic higher categories and groupoids, all objects are fibrant.
 
-In a strict version of the [[homotopy hypothesis]], one may make this 'algebraicity' of the model structure (not to be confused with the notion at [[algebraic model structure]]) a requirement. That is, one may require $43 
+In a strict version of the [[homotopy hypothesis]], one may make this 'algebraicity' of the model structure (not to be confused with the notion at [[algebraic model structure]]) a requirement.
 
 
 [[!redirects algebraic definition of higher categories]]
