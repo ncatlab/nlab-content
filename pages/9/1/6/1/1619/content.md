@@ -390,7 +390,7 @@ The relation between the two pictures is analyzed for instance in
 
 A precise formulation of Killingbacks original argument in [[differential K-theory]] appeared in 
 
-* [[Ulrich Bunke]], _String structures and trivialisations of a Pfaffian line bundle_ ([arXiv:0909.0846](http://arxiv.org/abs/0909.0846))
+* [[Ulrich Bunke]], _String structures and trivialisations of a Pfaffian line bundle_, Commun. Math. Phys. (2011) 307: 675 ([arXiv:0909.0846](http://arxiv.org/abs/0909.0846), [doi:10.1007/s00220-011-1348-0](https://doi.org/10.1007/s00220-011-1348-0))
 
 A review of that is in 
 
