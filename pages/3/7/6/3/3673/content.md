@@ -14,7 +14,6 @@
 * table of contents
 {:toc}
 
-
 ## Idea
 
 For $C$ a [[category]] with the structure of a [[model category]] and $U:D\to C$ a functor having an [[adjoint]], under certain conditions it is possible to _transfer_ the model structure from $C$ to a model structure on $D$ by declaring the weak equivalences, and the fibrations (if $U$ is a right adjoint) or cofibrations (if $U$ is a left adjoint), in $D$ to be precisely those morphisms whose images under $U$ are such in $C$.  If $U$ is a right adjoint this is called the **right transferred**, **right induced**, or **right lifted** model structure, and dually in the left case.
