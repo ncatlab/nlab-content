@@ -85,9 +85,6 @@ Of course, if $L$ preserves all pullbacks (i.e. it is [[left exact reflection|le
 
 * {#GK} [[David Gepner]] and [[Joachim Kock]], *Univalence in locally cartesian closed categories*, [arxiv:1208.1749](https://arxiv.org/abs/1208.1749)
 
-
-
-
 [[!redirects semi-left-exact reflection]]
 [[!redirects semi-left-exact reflections]]
 [[!redirects semi left exact reflection]]
