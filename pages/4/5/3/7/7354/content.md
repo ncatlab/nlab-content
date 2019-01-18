@@ -69,6 +69,12 @@ An original article collecting all the weak/strong electric/magnetic dualities i
 
 ### Surveys and lecture notes
 
+* [[Michael Dine]], _String Theory Dualities_ ([arXiv:hep-th/9609051](https://arxiv.org/abs/hep-th/9609051))
+
+* Stefan Forste, [[Jan Louis]], _Duality in String Theory_, Nucl.Phys.Proc.Suppl.61A:3-22, 1998 ([arXiv:hep-th/9612192](https://arxiv.org/abs/hep-th/9612192))
+
+* [[Ashoke Sen]], _Duality symmetries in string theory_, Current Science Vol. 77, No. 12, 25 December 1999 ([jstor:i24103555](https://www.jstor.org/stable/i24103555))
+
 * [[Mike Duff]], chapter 6 of _[[The World in Eleven Dimensions]]: Supgergravity, Supermembranes and M-theory_, IoP 1999
 
 
