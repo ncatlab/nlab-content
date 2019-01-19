@@ -42,7 +42,19 @@ As with much of [[statistics]], the concept of statistical significance is mostl
 ## In particle physics
  {#ParticlePhysics}
 
-In [[particle physics]],it has become customary to require statistical significance levels of $5 \sigma$ (5 [[standard deviations]]) in order to claim that a given observation is a real effect (e.g. [Sinervo 02, Section 5.3](#Sinervo02)). This corresponds to a probability ([[p-value]]) of about $2.8 \cdot 10^{-7}$ that the observation is a random fluctuation under the null hypothesis.
+In [[particle physics]],it has become customary to require statistical significance levels of $5 \sigma$ (5 [[standard deviations]]) in order to claim that a given observation is a real effect (e.g. [Sinervo 02, Section 5.3](#Sinervo02)). This corresponds to a probability ([[p-value]]) of about
+
+$$
+  p
+  \;=\;
+  2.8 \cdot 10^{-7}
+  \;=\;
+  0.00000028
+$$ 
+
+that the observation is a random fluctuation under the null hypothesis.
+
+Notice that this is rather more stringent than the p-value of $p = 0.05$, which has been much used and much criticized in other areas of science, see [below](#PossibleMisuse).
 
 
 ## In other sciences
@@ -53,7 +65,7 @@ In pharmacology, for instance, hypothesis testing at some significance level is 
 ## Possible misuse
  {#PossibleMisuse}
 
-There have been a number of criticisms of the uses to which $p$-values have been put in scientific practice (e.g., [ZilMcCl 08](#ZilMcCl08)). The American Statistical Association has published a statement on $p$-values ([WassLaz 16](#WassLaz16)), claiming that 
+There have been a number of criticisms of the uses to which $p$-values have been put in scientific practice (e.g., [ZilMcCl 08](#ZilMcCl08), [GSRCPGA 16](#GSRCPGA16)). The American Statistical Association has published a statement on $p$-values ([WassLaz 16](#WassLaz16)), claiming that 
 
 > the widespread use of 'statistical significance' (generally interpreted as '$p \leq 0.05$') as a license for making a claim of a scientific finding (or implied truth) leads to considerable distortion of the scientific process.
 
@@ -74,13 +86,12 @@ Review includes
 
 * {#Lyons13} Louis Lyons, _Bayes and Frequentism: a Particle Physicist's perspective_, ([arXiv:1301.1273](https://arxiv.org/abs/1301.1273))
 
-* {#Jaynes03} Edwin Jaynes, _Probability theory: The logic of science_, Cambridge University Press, 2003.
+* {#Jaynes03} [[Edwin Jaynes]], _Probability theory: The logic of science_, Cambridge University Press, 2003.
 
 See also
 
 * Wikipedia, _[Statistical significance](https://en.wikipedia.org/wiki/Statistical_significance)_
 
-* {#WassLaz16} Ronald Wasserstein, Nicole Lazar, _The ASA's Statement on p-Values: Context, Process, and Purpose_, The American Statistician 70(2), 2016, pp. 129-133. 
 
 * Leland Wilkinson and Task Force on Statistical Inference, Statistical methods in psychology journals: guidelines and explanations, American Psychologist 54 (1999), 594&#8211;604, [pdf](http://www.apa.org/pubs/journals/releases/amp-54-8-594.pdf)
 
@@ -89,9 +100,15 @@ Cautionary remarks on misuse of the concept include the following
 
 * {#ZilMcCl08} Stephen Ziliak and Deirdre McCloskey, _The Cult of Statistical Significance_, Michegan University Press, 2008, [book](https://www.press.umich.edu/186351/cult_of_statistical_significance).
 
+
+
 * {#DAgostini03} Giulio D'Agostini, _Bayesian reasoning in data analysis: A critical introduction_, World Scientific Publishing, 2003.
 
 * $n$Cafe: [Fetishizing p-Values](http://golem.ph.utexas.edu/category/2010/09/fetishizing_pvalues.html) by Tom Leinster
+
+* {#GSRCPGA16} Greenland, Senn, Rothman, Carlin, Poole, Goodman, Altman, _Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations_, Eur J Epidemiol. 2016 Apr;31(4):337-50. ([doi:10.1007/s10654-016-0149-3](https://www.ncbi.nlm.nih.gov/pubmed/27209009))
+
+* {#WassLaz16} Ronald Wasserstein, Nicole Lazar, _The ASA's Statement on $p$-Values: Context, Process, and Purpose_, The American Statistician 70(2), 2016, pp. 129-133 ([doi:10.1080/00031305.2016.1154108](https://doi.org/10.1080/00031305.2016.1154108))
 
 
 [[!redirects statistical significances]]
