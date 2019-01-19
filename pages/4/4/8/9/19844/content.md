@@ -35,9 +35,9 @@ Indications of flavour anomalies have been observed consistently and with increa
 <img src="https://ncatlab.org/nlab/files/FlavourAnomalyAt4Sigma.jpg" width="320">
 </div>
 
-The global tension with the standard model by end of 2018 is around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18)). Some authors see it at $5 \sigma$ already ([CCDGMV 17](#CCDGMV17)).
+The global tension with the standard model by end of 2018 has [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18)). Some authors see at $5 \sigma$ already ([CCDGMV 17](#CCDGMV17)), which would qualify as detection (see [here](statistical+significance#ParticlePhysics)) .
 
-If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect should have reached 5 [[standard deviations|σ]] ([Cerri et al. 18, p. 12](#Cerri18)) and hence officially count as detection of flavour anomaly, which would make it the first established "new physics" seen at the [[LHC]].
+If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect should have reached 5 [[standard deviations|σ]] ([Cerri et al. 18, p. 12](#Cerri18)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]].
 
 > graphics grabbed from [Dey 18](#Dey18)
 
