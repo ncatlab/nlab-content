@@ -32,7 +32,7 @@ More precisely, in general statistical significance is given as the [[probabilit
 In the special, but, by the [[central limit theorem]], generic situation that the [[probability distribution]] $p(X\vert H_0)$ of $X$ under hypothesis $H_0$ is a [[normal distribution]], 
 it follows that the [[probability]] $P(X \geq x\vert H_0)$ is a [[monotone decreasing function]] of $x$, so that the value of $x$ itself is a measure of its statistical significance -- the larger $x$, the larger its statistical significance, in this case. It is natural then to express the magnitude $x \in \mathbb{R}$ in [[physical unit|units]] of [[standard deviations]] $\sigma$ of the given [[normal distribution]] $p(X\vert H_0)$. This expression of statistical significances in terms of [[standard deviations]] is common in [[particle physics]] (e.g. [Sinervo 02](#Sinervo02)), see [below](#ParticlePhysics).
 
-As with much of [[statistics]], the concept of statistical significance is mostly used at the interface between [[theory (physics)|theory]] and [[experiment]], hence is part of the process of _[[coordination]]_, and as such subject to subtleties of real world activity that are not manifest in its clean mathematical definition. Often policy making and/or financial decisions depend on estimating and interpreting statistical significances. This has led to some lively debate about their use and misuse, see [below](#PossibleMisuse) for more. As a general rule of life, for a mathematical result to work well in applications, you need to understand what it says and what it does not say. 
+As with much of [[statistics]], the concept of statistical significance is mostly used at the interface between [[theory (physics)|theory]] and [[experiment]], hence is part of the process of _[[coordination]]_, and as such subject to subtleties of real world activity that are not manifest in its clean mathematical definition. Often policy making and/or financial decisions depend on estimating and interpreting statistical significances. This has led to some lively debate about their use and misuse, see [below](#PossibleMisuse) for more. As a general rule of life, for a mathematical result to work well in applications, you need to understand what it says and what it does not say. There has also been considerable debate between [[Bayesianism|Bayesian]] and frequentist statisticians as to cogency of the use of statistical significance, see [below](#Bayes).
 
 
  
@@ -58,8 +58,9 @@ There have been a number of criticisms of the uses to which $p$-values have been
 > the widespread use of 'statistical significance' (generally interpreted as '$p \leq 0.05$') as a license for making a claim of a scientific finding (or implied truth) leads to considerable distortion of the scientific process.
 
 ## Frequentist versus Bayesian statistics
+ {#Bayes}
 
-On a more fundamental level, [[Bayesianism|Bayesian]] statisticians have taken issue with the frequentist practice of hypothesis testing (see, e.g., [Jaynes 03, sec 9.1.1](#Jaynes03), [D'Agostini 03](#DAgostini03)). 
+On a more fundamental level, [[Bayesianism|Bayesian]] statisticians have taken issue with the frequentist practice of hypothesis testing (see, e.g., [Jaynes 03, sec 9.1.1](#Jaynes03), [D'Agostini 03](#DAgostini03)), arguing that the value that should be sought is the probability of a proposed hypothesis conditional on the data, rather than the probability of the data under some null hypothesis. The frequentist concept of probability cannot allow for such a thing as a hypothesis having a probability. 
 
 A useful comparison of the frequentist and Bayesian approaches as employed in particle physics, and a call for their reconciliation, is in ([Lyons 13](#Lyons13)):
 
