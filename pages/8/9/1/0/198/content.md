@@ -107,6 +107,10 @@ There are also enriched, $k$-linear and other versions, hence one can talk about
 [[!include homotopy type representation theory -- table]]
 
 
+## References
+
+See the references at _[[representation theory]]_.
+
 [[!redirects representation]]
 [[!redirects representations]]
 
