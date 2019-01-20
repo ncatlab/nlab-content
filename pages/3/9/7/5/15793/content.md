@@ -35,7 +35,7 @@ $$
 
 [[commuting diagram|commutes]]. (This functoriality of the tangent bundle construction is incidentally also the incarnation of the [[chain rule]] (see there) of [[differentiation]]).
 
-Formally, there is a [[category]] of fiber bundles over manifolds with [[morphisms]] the morphisms of bundles covering morphisms of the base spaces, and there is a base functor from that to the category of manifolds. A natural bundle is a [[section]] of this base functor.
+Formally, there is a [[category]] of fiber bundles over manifolds with [[morphisms]] the morphisms of bundles covering morphisms of the base spaces, and there is a projection functor from fiber bundles to their base manifolds. A natural bundle is a [[section]] of this projection functor.
 
 Also "contravariantly natural" bundles such as bundle of [[covectors]] are sometimes referred to as natural bundles (e.g. [Kolar-Michor-Slovak](#KolarMichorSlovak)). But these are covariantly natural not with respect to all smooth functions between manifolds, but only for [[local diffeomorphisms]].
 
