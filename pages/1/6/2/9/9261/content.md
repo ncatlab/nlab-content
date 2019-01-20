@@ -42,7 +42,7 @@ As with much of [[statistics]], the concept of statistical significance is mostl
 ## In particle physics
  {#ParticlePhysics}
 
-In [[particle physics]],it has become customary to require statistical significance levels of $5 \sigma$ (5 [[standard deviations]]) in order to claim that a given observation is a real effect (e.g. [Sinervo 02, Section 5.3](#Sinervo02)). This corresponds to a probability ([[p-value]]) of about
+In [[particle physics]], it has become customary to require statistical significance levels of $5 \sigma$ (5 [[standard deviations]]) in order to claim that a given observation is a real effect (e.g. [Sinervo 02, Section 5.3](#Sinervo02)). This corresponds to a probability ([[p-value]]) of about
 
 $$
   p
