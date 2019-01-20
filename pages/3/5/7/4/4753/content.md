@@ -83,6 +83,7 @@ _Ulrik_: Some quick remarks on your last questions: In impredicative type theory
 
 * [[fully formal definition of ETCS]]
 
+* [[internal category in homotopy type theory]]
 
 [[!redirects type-theoretic definition of category]]
 [[!redirects type-theoretic definition of a category]]
