@@ -152,11 +152,20 @@ Other comments on the relation to [[TQFT]] include
 * {#Kapranov95} [[Mikhail Kapranov]], _Analogies between the Langlands Correspondence and Topological Quantum Field Theory_, in _Functional Analysis on the Eve of the 21st Century_ Progress in Mathematics Volume 131/132, 1995, pp 119-151
 
 
-Comments on the development of the geometric duality by R. Langlands himself include
+Comments on the development of the geometric duality by [[Robert Langlands]] himself:
 
 * {#Langlands13} [[Robert Langlands]], _The Search for a Mathematically Satisfying Geometric Theory of Automorphic Forms_, Notes for a lecture at Mostow-Fest, Yale 2013 ([IAS page](http://publications.ias.edu/rpl/paper/2578), [video](http://www.youtube.com/watch?v=pfpzET8UkF4), [pdf](http://publications.ias.edu/sites/default/files/lecture_6.pdf))
 
 * {#Langlands14} [[Robert Langlands]], _[[Problems in the theory of automorphic forms -- 45 years later]]_, talk at [Symmetries and correspondences in number theory, geometry, algebra, physics: intra-disciplinary trends](https://www.maths.nottingham.ac.uk/personal/ibf/files/sc3.html), Oxford, July 5 - July 8, 2014
+
+Langlands's doubts about or dissatifaction with the "geometric Langlands program" expressed in these talks (where he suggests that his name not be associated with the "geometric" part of the program) eventually led to 
+
+* [[Robert Langlands]], _Об аналитическом виде геометрической теории автоморфных форм_, IAS 2018 ([ias:2678](http://publications.ias.edu/rpl/paper/2678), [pdf](http://publications.ias.edu/sites/default/files/iztvestiya_3.pdf))
+
+This in turn led to the reaction
+
+* [[Edward Frenkel]], _Is there an analytic theory of automorphic functions for complex algebraic curves?_ ([arXiv:1812.08160](https://arxiv.org/abs/1812.08160))
+
 
 See also the deformation to the [[quantum geometric Langlands correspondence]], such as
 
