@@ -7,6 +7,8 @@ On [[quiver gauge theories]] and [[D-branes]]:
 
 * [[Yang-Hui He]], _Lectures on D-branes, Gauge Theories and Calabi-Yau Singularities_ ([arXiv:hep-th/0408142](https://arxiv.org/abs/hep-th/0408142))
 
+* {#He18} [[Yang-Hui He]], _Quiver Gauge Theories: Finitude and Trichotomoty_, Mathematics 2018, 6(12), 291 ([doi:10.3390/math6120291](https://doi.org/10.3390/math6120291))
+
 
 On [[heterotic string theory]] [[string phenomenology]] and the [[landscape of string theory vacua]]:
 
@@ -20,6 +22,8 @@ On [[heterotic string theory]] [[string phenomenology]] and the [[landscape of s
 
 
 ## related $n$Lab entries
+
+* [[quiver gauge theory]]
 
 * [[string phenomenology]]
 
