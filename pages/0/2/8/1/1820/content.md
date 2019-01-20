@@ -72,7 +72,7 @@ $$
 $$
   
 $$
-  fib = llp(rlp(J))
+  fib = rlp(J)
   \,.
 $$
 
