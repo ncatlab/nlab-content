@@ -27,6 +27,8 @@ In some literature, the "Rezk-completeness" condition on such categories is omit
 
 ## Related pages
 
+* [[type-theoretic definition of category]]
+
 * Particularly useful in the context of such categories are [[displayed categories]].
 
 ## References
@@ -59,7 +61,9 @@ and, by different means, in
 
 * {#Riehl18} [[Emily Riehl]], _The synthetic theory of ∞-categories vs the synthetic theory of ∞-categories_, talk at [Vladimir Voevodsky Memorial Conference 2018](http://www.math.ias.edu/vvmc2018) ([pdf](http://www.math.jhu.edu/~eriehl/Voevodsky.pdf))
 
+A formalization in [[HoTT]]-[[Agda]] of general [[(n,r)-categories]] for $n,r \in \mathbb{N} \sqcup \{\infty\}$ is claimed in
 
+* {#Morrison19} Darin Morrison, [github.com/freebroccolo/agda-nr-cats/blob/master/src/Main.agda#L317-L328](https://github.com/freebroccolo/agda-nr-cats/blob/master/src/Main.agda#L317-L328)
 
 [[!redirects internal categories in homotopy type theory]]
 
