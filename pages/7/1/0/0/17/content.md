@@ -618,7 +618,7 @@ If you want to include multiple contents pages, you can repeat the four lines fr
 
 #### Tikz
 
-As of 2019, one can use tikz or tikzcd exactly as one would in LaTeX. Take a look at the [source](https://ncatlab.org/nlab/source/HowTo) of this page to see how the code for the figures. 
+As of 2019, one can use tikz or tikzcd exactly as one would in LaTeX. Take a look at the [source](https://ncatlab.org/nlab/source/HowTo) of this page to see the code for the figures. 
 
 Picture:
 
