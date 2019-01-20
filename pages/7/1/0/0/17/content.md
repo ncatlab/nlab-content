@@ -737,7 +737,6 @@ Here are some useful specifics:
 * [Upload files](http://golem.ph.utexas.edu/instiki/show/File+Uploads)
 * [Use keyboard shortcuts](http://golem.ph.utexas.edu/instiki/show/AccessKeys)
 * [Make slideshows](http://golem.ph.utexas.edu/instiki/show/S5)
-* [SVG Editor](http://code.google.com/p/svg-edit/) Homepage for the SVG editor project.
 
 
 ### Survey of available math typesetting commands
