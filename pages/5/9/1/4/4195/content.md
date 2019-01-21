@@ -57,7 +57,7 @@ One may have to practice visualizing this before it all sinks in, but it's a tre
 
 * [[Saunders Mac Lane]]. [[Categories for the Working Mathematician]] (Chapter 7).
 
-* [[Andre Joyal]] and [[Ross Street]].  "Braided tensor categories".  *Adv. Math* 1993
+* {#JoyalStreet} [[André Joyal]],[[Ross Street]], _Braided tensor categories_,  Adv. Math. 1993 ([pdf](http://web.science.mq.edu.au/~street/JS1.pdf))
 
 See also section 5 of
 
