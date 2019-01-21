@@ -26,4 +26,6 @@ In [[physics]], the [[electromagnetic field]] may be split, over a choice of [[c
 
 * [[electric charge]]
 
+* [[electric dipole moment]]
+
 
