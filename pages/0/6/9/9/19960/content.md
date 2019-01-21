@@ -36,8 +36,11 @@ In approaches to $AdS/QCD$ one distinguishes [[top-down model building]] -- wher
 >  graphics grabbed from [Aldazabal-Ibáñez-Quevedo-Uranga 00](bottom-up+and+top-down+model+building#AldazabalIbanezQuevedoUranga00)
 
 
-### Top-down: Sakai-Sugimoto model
+### Top-down models
  {#TopDownModels}
+
+#### Witten-Sakai-Sugimoto model
+  {#WittenSakaiSugimotoModel}
 
 A good [[top-down model building]]-approach to AdS/QCD is due to [Sakai-Sugimoto 04](#SakaiSugimoto04), [Sakai-Sugimoto 05](#SakaiSugimoto05) based on [Witten 98](#Witten98), see [Rebhan 14](#Rebhan14) for review. 
 
@@ -97,6 +100,15 @@ This produces [[baryon]] [[mass]] spectra with moderate quantitative agreement w
 </center>
 
 > graphics grabbed from [Sugimoto 16](#Sugimoto16)
+
+
+#### Type0B/$YM_4$-correspondence
+ {#Type0StringCorrespondence}
+
+Instead of starting with [[M5-branes]] in [[supergravity|locally supersymmetric]] [[M-theory]] and then [[spontaneously broken symmetry|spontaneously breaking]] all [[supersymmetry]] by suitable [[KK-compactification]] as in the [Witten-Sakai-Sugimoto model](#WittenSakaiSugimotoModel), one may start with a non-supersymmetric [[bulk field theory|bulk]] [[string theory]] in the first place. 
+
+In this vein, it has been argued in [GLMR 00](#GLMR00) that there is holographic duality between [[type 0 string theory]] and non-supersymmetric 4d [[Yang-Mills theory]] (hence potentially something close to [[QCD]]).
+
 
 
 
@@ -265,6 +277,9 @@ Original articles:
 
 * {#SonnenscheinWeissman18} Jacob Sonnenschein, Dorin Weissman, _Excited mesons, baryons, glueballs and tetraquarks: Predictions of the Holography Inspired Stringy Hadron model_, ([arXiv:1812.01619](https://arxiv.org/abs/1812.01619))
 
+On relation to [[type 0 string theory]]:
+
+* {#GLMR00} Roberto Grena, Simone Lelli, Michele Maggiore, Anna Rissone, _Confinement, asymptotic freedom and renormalons in type 0 string duals_, JHEP 0007 (2000) 005 ([arXiv:hep-th/0005213](https://arxiv.org/abs/hep-th/0005213))
 
 ### Application to baryons as solitons/Skyrmions
  {#ReferencesBaryonsSkyrmions}
