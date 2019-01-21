@@ -31,7 +31,7 @@ In his seminal work _The Foundations of Constructive Analysis_ (1967), [[Errett 
 If you only do (1), then you don\'t have a set, according to Bishop; you only have a __preset__.
 
 
-A given preset may define many different sets, depending on the equality relation.  For example, the set $Q^+$ of positive rational numbers may be defined using the same preset as the set $Z^+ \times Z^+$ of ordered pairs of positive integers, but the equality relation is different; two pairs $(a,b)$ and $(c,d)$ of positive integers are equal iff $a = c$ and $b = d$, while two positive rational numbers $a/b$ and $c/d$ are equal iff $a d = b c$.  (Of course, these definitions require that one already have the set $Z^+$ of positive integers, including its equality relation, and the operation of multiplication on it.)
+A given preset may define many different sets, depending on the equality relation.  For example, the set $Q^+$ of positive rational numbers may be defined using the same preset as the set $Z^+ \times Z^+$ of ordered pairs of positive integers, but the equality relation is different; two pairs $(a,b)$ and $(c,d)$ of positive integers are equal iff $a = c$ and $b = d$, while two positive rational numbers $a/b$ and $c/d$ are equal iff $a d = b c$.  (Of course, these definitions require that one already has the set $Z^+$ of positive integers, including its equality relation, and the operation of multiplication on it.)
 
 
 ## Prefunctions and prerelations
