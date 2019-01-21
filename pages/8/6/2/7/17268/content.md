@@ -633,7 +633,7 @@ is called a **[[weak homotopy equivalence]]** if it induces [[isomorphisms]] on 
 
 1. $\pi_0(f) \colon \pi_0(X) \longrightarrow \pi_0(Y)$ is a [[bijection]] of sets;
 
-1. $\pi_n(f,x) \colon \pi_n(X,x) \lonrightarrow \pi_n(Y,f(x))$ is an [[isomorphism]] of [[groups]] for all $x\in X_0$ and all $n \in \mathbb{N}$; $n \geq 1$.
+1. $\pi_n(f,x) \colon \pi_n(X,x) \longrightarrow \pi_n(Y,f(x))$ is an [[isomorphism]] of [[groups]] for all $x\in X_0$ and all $n \in \mathbb{N}$; $n \geq 1$.
 
 =--
 
