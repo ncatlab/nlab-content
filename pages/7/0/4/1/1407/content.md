@@ -192,6 +192,8 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 
 * [[type I string theory]]
 
+* [[type 0 string theory]]
+
 * [[little string theory]]
 
 * [[Kaluza-Klein mechanism]]
