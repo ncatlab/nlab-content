@@ -35,7 +35,7 @@ Indications of flavour anomalies have been observed consistently and with increa
 <img src="https://ncatlab.org/nlab/files/FlavourAnomalyAt4Sigma.jpg" width="320">
 </div>
 
-The global tension with the standard model by end of 2018 has [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18)). Some authors see at $5 \sigma$ already ([CCDGMV 17](#CCDGMV17), [Dordei 18, slide 12](#Dordei18)), which would qualify as detection (see [here](statistical+significance#ParticlePhysics)) .
+The global tension with the standard model by end of 2018 has [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18)). Some authors see it at $5 \sigma$ already ([CCDGMV 17](#CCDGMV17), [Dordei 18, slide 12](#Dordei18)), which traditionally qualifies as detection (see [here](statistical+significance#ParticlePhysics)) .
 
 If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect should have reached 5 [[standard deviations|σ]] ([Cerri et al. 18, p. 12](#Cerri18)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]].
 
@@ -48,7 +48,11 @@ Candidate theories of "new physics" that could possibly explain the flavour anom
 ### Leptoquarks
  {#Leptoquarks}
 
-* [[leptoquarks]] ([Bauer-Neubert 15](#BauerNeubert15), [CCDM 16](#CCDM16), [Falkowski17](#Falkowski17), [Mueller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [BDFKFS 18](#BDFKFS18), [AMST 18](#AMST18))
+* [[leptoquarks]] (and thus potentially $SU(5)$-[[GUT]])
+
+([Bauer-Neubert 15](#BauerNeubert15), [CCDM 16](#CCDM16), [Falkowski17](#Falkowski17), [Mueller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [BDFKFS 18](#BDFKFS18), [AMST 18](#AMST18))
+
+Incidentally, [[leptoquarks]] are also a candidate explanation of the anomaly seen at over 4$\sigma$ [[statistical significance]] in the [[anomalous magnetic moment]] of the [[muon]], see [there](anomalous+magnetic+moment#Anomalies).
 
 
 ### Other
