@@ -17,7 +17,10 @@
 
 ## Idea
 
-_Leptoquarks_ is the name given to hypothetical [[fundamental particles]] which combine the properties of both [[quarks]] and [[leptons]] from the [[standard model of particle physics]].
+_Leptoquarks_ is the name given to hypothetical [[fundamental particles]] which combine the properties of both [[quarks]] and [[leptons]] from the 
+[[standard model of particle physics]].
+
+They naturally arise in [[grand unified theories]] (e.g. [Murayama-Yanagida 92](#MurayamaYanagida92), also [AFG 17, III.A](#AFG17))
 
 ## Properties
 
@@ -28,7 +31,7 @@ The existence of leptoquarks could potentially explain _both_
 
 1. the apparently observed [[flavour anomalies]]
 
-   ([Bauer-Neubert 16](#BauerNeubert16), [CCDM 16](#CCDM16), [Falkowski17](#Falkowski17), [Müeller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [BDFKFS 18](#BDFKFS18), [AMST 18](#AMST18))
+   ([Bauer-Neubert 16](#BauerNeubert16), [CCDM 16](#CCDM16), [Falkowski17](#Falkowski17), [Müeller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [BDFKFS 18](#BDFKFS18), [AMST 18](#AMST18), [Crivellin 18](#Crivellin18))
 
 1. the apparently observed [anomaly](anomalous+magnetic+moment#Anomalies) in the [[anomalous magnetic moments]] of the [[muon]] and also of the [[electron]] ([CCDM 16](#CCDM16), [Müller 18](#Mueller18))
 
@@ -46,6 +49,8 @@ Leptoquarks naturally arise in [[grand unified theories]] (..., [Murayama-Yanagi
 
 ### General
 
+* {#AFG17} Nima Assad, Bartosz Fornal, Benjamin Grinstein, _Baryon Number and Lepton Universality Violation in Leptoquark and Diquark Models_, Phys. Lett. B777 (2018) 324-331 ([arXiv:1708.06350](https://arxiv.org/abs/1708.06350))
+
 * Achintya Rao, _[The hunt for leptoquarks is on](https://home.cern/news/news/physics/hunt-leptoquarks)_, 2018
 
 See also 
@@ -57,6 +62,8 @@ See also
 Constraints from [[experiment]] ([[LHC]]):
 
 * M. Tanabashi et al. (Particle Data Group), _115. Leptoquarks_  Phys. Rev. D 98, 030001 (2018) ([pdf](http://pdg.lbl.gov/2018/reviews/rpp2018-rev-leptoquark-quantum-numbers.pdf))
+
+* CMS Collaboration, _Search for third-generation scalar leptoquarks decaying to a top quark and a $\tau$ lepton at $\sqrt{s} = 13$ TeV_, Eur. Phys. J. C 78 (2018) 707 ([arXiv:1803.02864](https://arxiv.org/abs/1803.02864))
 
 * Andrei Angelescu, Damir Bečirević, Darius A. Faroughy, Olcyr Sumensari, _Closing the window on single leptoquark solutions to the $B$-physics anomalies_, JHEP10(2018)183 ([arXiv:1808.08179](https://arxiv.org/abs/1808.08179))
 
@@ -88,6 +95,7 @@ As a potential solution of the apparent [[B meson]] [[flavour anomaly]]:
 
 * {#AMST18} Ufuk Aydemir, Djordje Minic, Chen Sun, Tatsu Takeuchi, _$B$-decay anomalies and scalar leptoquarks in unified Pati-Salam models from noncommutative geometry_, JHEP 09 (2018) 117 ([arXiv:1804.05844](https://arxiv.org/abs/1804.05844))
 
+* {#Crivellin18} Andreas Crivellin, _Explaining the Flavour Anomalies with the Pati-Salam Vector Leptoquark_, PoS LHCP2018 (2018) 269 ([spire:1713260](http://inspirehep.net/record/1713260), [doi:10.22323/1.321.0269](https://doi.org/10.22323/1.321.0269))
 
 ### Appearance in GUTs
 
