@@ -51,6 +51,8 @@ $$
 
 * [[Wigner 3j symbol]], [[Wigner 6j symbol]], [[Wigner 9j symbol]]
 
+* [[McKay quiver]]
+
 [[!redirects tensor product of representations]]
 
 
