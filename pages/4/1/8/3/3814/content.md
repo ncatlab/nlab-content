@@ -83,11 +83,23 @@ $$
 
 (See [Baez-Huerta 09, p. 33-36](#BaezHuerta09) for a fairly comprehensive discussion. See also e.g. [HMY 13, p. 2](#HMY13).)
 
-The exact gauge group (eq:ExactGSM) happens to coincide with 
+Strikingly, this  exact gauge group (eq:ExactGSM) of the standard model of particle physics happens to coincide with... 
 
-1. $S\big(U(2) \times U(3)\big) \subset SU(5)$ -- this is the basis of "[[grand unified theories]]" ([[GUT]]), speculative extensions of the standard model trying to understand its gauge group as being a [[spontaneously broken symmetry|spontaneously broken]] _[[simple Lie group]]_-[[symmetry]].
+1. ...the group
 
-1. the [[subgroup]] of the [[Jordan algebra]] [[automorphism group]] of the [[octonions|octonionic]] [[Albert algebra]] that "[[stabilizer subgroup|stabilizes]] a 4d sub-[[Minkowski spacetime]]" (see [there](Albert+algebra#StabilizerOf4dMinkowskiInsideOctonionicAlbertAlgebra) for details) -- this is part of ongoing speculation that exceptional [[octonion|octonionic]] structures might be behind the standard model.
+   $$
+      G_{SM} 
+       \;\simeq\; 
+      S\big(U(2) \times U(3)\big) 
+       \;\subset\; 
+      SU(5)
+   $$ 
+
+   of [[determinant]]-1 elements in the [[direct product group]] $U(2) \times U(3)$, which makes manifest that the standard model gauge group is a [[subgroup]] of the [[simple Lie group]] [[special unitary group|SU(5)]].
+
+   This is the basis of "[[grand unified theories]]" ([[GUT]]), speculative extensions of the standard model trying to understand its gauge group as being a [[spontaneously broken symmetry|spontaneously broken]] _[[simple Lie group]]_-[[symmetry]].
+
+1. ...the [[subgroup]] of the [[Jordan algebra]] [[automorphism group]] of the [[octonions|octonionic]] [[Albert algebra]] that "[[stabilizer subgroup|stabilizes]] a 4d sub-[[Minkowski spacetime]]" (see [there](Albert+algebra#StabilizerOf4dMinkowskiInsideOctonionicAlbertAlgebra) for details) -- this is part of ongoing speculation that exceptional [[octonion|octonionic]] structures might be behind the standard model.
 
 
 ## Tension with experiment and Incompleteness
