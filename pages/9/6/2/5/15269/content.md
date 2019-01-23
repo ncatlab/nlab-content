@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -20,7 +21,61 @@
 ## Idea
  {#Idea}
 
-Generally, the _McKay correspondence_ concerns identifications between [[linear representations]] of [[finite subgroups of SU(2)]], $G \subset SU(2)$ with [[cohomology]] of the [[blow-up]] [[resolution of singularities|resolution]] $\tilde X$ of the corresponding [[ADE-singularity]] [[orbifold]] $X \sslash G \coloneqq \mathbb{C}^2\sslash G$.
+Generally, the _McKay correspondence_ is a subtle correspondence between the theory of [[finite subgroups of SU(2)]], the corresponding [[orbifold]] [[singularities]] ([[du Val singularities]]) and that of [[simple Lie groups]] falling into the [[ADE classification]].
+
+[[!include ADE -- table]]
+
+The correspondence may be understood at different levels:
+
+1. **McKay quivers.** The original correspondence due to [McKay 80](#McKay80) is the observation that the [[McKay quiver]] associated to the [[orbifold]] [[singularity]] $\mathbb{C}^2 \sslash G$ of a [[finite subgroup of SU(2)]] $G \subset SU(2)$ happens to be an extended [[Dynkin quiver]], hence happens to be an extended [[Dynkin diagram]] of the kind that also arises in the [[ADE-classification]] of [[simple Lie groups]].
+
+   More on this in _[McKay quivers](#McKayQuivers)_, below.
+
+1. **Equivariant K-theory.** A more conceptual explanation for this correspondence comes from the classical fact that the [[blow up]] $\widehat{\mathbb{C}^2\sslash G}$ of the [[ADE singularity]] $\mathbb{C}^2\sslash G$ is given by a sequence of [[spheres]] that touch along the vertices of the corresponding [[Dynkin quiver]]. In [Gonzalez-Sprinberg & Verdier 83](#GSV83) it was shown that the $G$-[[equivariant K-theory]] $K_G(\mathbb{C}^2)$ of the singularity is isomorphic to the [[K-theory]] of the desingularization $\widehat {\mathbb{C}^2\sslash G}$ such that under this isomorphism the generators of $K_G(\mathbb{C}^2) \simeq R_\mathbb{C}(G)$, hence of the [[representation ring]], hence the [[irreducible representations]], map to K-theory classes supported on the [[exceptional divisors]] of this blowup. This gives a conceptual geometric/cohomological explanation for the identifications observed by [McKay 80](#McKay80).
+
+   More on this in _[As an equivalence of K-theories](#AsAnEquivalenceOfKtheories)_
+
+
+1. **Seiberg-Witten theory.** Under the interpretation of [[K-theory]]-classes as [[D-brane]] charges, the K-theoretic McKay correspondence of [Gonzalez-Sprinberg & Verdier 83](#GSV83) identifies [[wrapped brane]] charges of the desingularized space with [[fractional brane]] charges at the singularity.
+
+   This leads to a further (currently non-rigorous) explanation of the McKay correspondence in terms of the [[AdS-CFT duality|dual]] [[worldvolume]] [[quantum field theories]] on these branes, which are [[N=2 D=4 super Yang-Mills theory|N=2]] [[quiver gauge theories]]: The [[moduli space]] of [[scalar fields]] of these theories has two "branches", called the _[[Higgs branch]]_ and the _[[Coulomb branch]]_, and the idea is that depending on which of the branches the [[vacuum state]] of the theory is in, it describes the brane as being either on the [[ADE singularity]] or on its [[resolution of singularities|resolution]], but since it's the same quantum field theory in both cases, these two situations are actually suitably equivalent.
+
+  More on this in _[Via N=2 SYM theory](#ViaSuperYangMillsTheory)_ below.
+
+
+### Via McKay quivers
+ {#McKayQuivers}
+
+
+Generally, for $G$ a [[finite group]] and $V$ a [[linear representation]] of $G$ on a [[finite dimensional vector space|finite dimensional]] [[complex vector space]], the _[[McKay quiver]]_ or _[[McKay graph]]_ associated with $V$ is the [[quiver]] whose [[vertices]] correspond to the [[irreducible representations]] $\rho_i$ of $G$ and which has $a_{i j} \in \mathbb{N}$ [[edges]] between the $i$th and the $j$th vertex, for $a_{i j}$ the [[coefficients]] in the expansion into [[irreps]] of the [[tensor product of representations]] of $V$ with these irreps:
+
+$$
+  V \otimes \rho_i
+  \;\simeq\;
+  \underset{j}{\bigoplus}
+  a_{i j} \cdot \rho_j
+  \,.
+$$
+
+Specifically this applies to the special case where $G \subset $ [[SU(2)]] a [[finite subgroup of SU(2)]] and $V$ its defining representation on $\mathbb{C}^2$. 
+
+The original _McKay correspondence_ ([McKay 80](#McKay80)) states that in this case the corresponding [[McKay quivers]] are [[Dynkin quivers]]/[[Dynkin diagrams]] in the same [[ADE classification]] as the [[ADE singularity]] $\mathbb{C}^2 \sslash G$.
+
+More precisely: If one uses _all_ [[irreducible representations]] including the 1-dimensiona [[trivial representation]] $\rho_0$ then one gets the "extended Dynkin diagram", where the extra node corresponds to $\rho_0$. This is the vertex indicated by a cross in the following diagrams:
+
+
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/ExtendedADEQuivers.jpg" width="400">
+\end{center}
+
+> graphics grabbed from [GSV 83, p. 4](#GSV83)
+
+In particular, for $G =\mathbb{Z}_N \subset SU(2)$ a [[cyclic group]] of [[order of a group|order]] $N$, there are $N$ complex [[irreps]] and the McKay quiver, i.e. the extended Dynkin diagram, has $N$-vertices, connected by edges to form a circle.
+
+
+
+### As an equivalence of K-theories
+ {#AsAnEquivalenceOfKtheories}
 
 A strong version of the McKay correspondence is obtained when the [[cohomology theory]] is taken be ([[equivariant K-theory|equivariant]]) _[[K-theory]]_ ([Gonzalez-Sprinberg & Verdier 83](#GSV83)): 
 
@@ -46,18 +101,6 @@ The proof of these statements generally proceeds by relating both sides of the e
 
 The classical McKay correspondence, named after [[John McKay]], is a one-to-one correspondence between the [[McKay graphs]] of [[finite group|finite]] [[subgroups]] $G \subset \text{SL}_2(\mathbb{C})$ and the extended Dynkin diagrams of ADE type.
 
-### Construction
-
-Take $G\subset \text{SL}_2(\mathbb{C})$ finite. Then, let $\rho_0, ..., \rho_n$ denote the irreducible representations of $G$, with $\rho_0$ being the trivial representation. Then, set $\langle \rho_i \otimes \mathbb{C}^2, \rho_j \rangle = m_{i j}$. Since $\mathbb{C}^2$ is self-dual, as it admits an invariant non-degenerate skew-symmetric bilinear form, $m_{i j} = m_{j i}$. Finally, consider the vertices $v_0, ..., v_n$ with $m_{i j}$ vertices between each $v_i$ and $v_j$. Furthermore, for $m_{i j} = 1$, we do not need to write the weight of the corresponding arrow. The resulting graph is the [[McKay graph]] of $G$.
-
-
-(...)
-
-### Interpretation in K-theory
-
-In ([Gonzalez-Sprinberg & Verdier 83](#GSV83)) the McKay correspondence is interpreted as an isomorphism on [[K-theory]], based on the observation that the [[representation ring]] of $G$ is equal to the $G$-[[equivariant K-theory]] of $\mathbb{C}^2$. This is isomorphic to the ordinary K-theory of the minimal resolution of the Kleinian singularity, $\mathbb{C}^2\sslash G$.
-
-See [above](#Idea)
 
 
 ### Via $N=2 $ super Yang-Mills theory
