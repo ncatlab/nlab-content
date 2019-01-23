@@ -113,7 +113,7 @@ Review includes
 
 * {#Lyons13b} [[Louis Lyons]], _Discovering the Significance of 5 sigma_ ([arXiv:1310.1284](https://arxiv.org/abs/1310.1284))
 
-* {#Dorigo15} [[Tommaso Dorigo]], _Extraordinary claims: the $0.0000029\%$ solution_, EPJ Web of Conferences 95, 02003 (2015) ([doi:10.1051/epjconf/20159502003](https://doi.org/10.1051/epjconf/20159502003))
+* {#Dorigo15} [[Tommaso Dorigo]], _Extraordinary claims: the $0.000029\%$ solution_, EPJ Web of Conferences 95, 02003 (2015) ([doi:10.1051/epjconf/20159502003](https://doi.org/10.1051/epjconf/20159502003))
 
 
 
