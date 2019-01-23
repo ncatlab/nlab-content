@@ -30,7 +30,7 @@ Since no GUT model has been fully validated yet (but see for instance [Fong-Melo
 (Here it is important to remember the context, both "grand unified" and "of everything" refers to aspects of presently available models of fundamental physics, and not to deeper philosophical questions of [[ontology]].)
 
 
-### The $SU(5)$-GUT
+### The $SU(5)$-GUT (Pati-Salm model)
   {#IdeaofSU5GUT}
 
 The argument for the hypothesis of "grand unification" is fairly compelling if one asks for _[[simple objects|simple algebraic structures]]_ in the technical sense ([[simple Lie groups]] and their [[irreducible representations]]): 
@@ -66,6 +66,7 @@ $$
 
 (see [Baez-Huerta 09, p. 36-41](#BaezHuerta09)).
 
+This leads to the $SU(5)$-GUT due to [Pati-Salam 74](#PatiSalam74)
 
 ### The $Spin(10)$-GUT (known as "$SO(10)$")
 
@@ -136,7 +137,14 @@ Discussion of [[string phenomenology]] of [[intersecting D-brane models]] [[KK-c
 
 Original articles include
 
+* {#PatiSalam74} [[Jogesh Pati]], [[Abdus Salam]], _Lepton number as the fourth ``color''_, Phys. Rev. D 10, 275 – Published 1 July 1974 ([doi:10.1103/PhysRevD.10.275](https://doi.org/10.1103/PhysRevD.10.275))
+
+
 * {#GeorgiGlashow74} [[Howard Georgi]], [[Sheldon Glashow]], _Unity of All Elementary-Particle Forces_, Phys. Rev. Lett. 32, 438, 1974 ([doi:10.1103/PhysRevLett.32.438](https://doi.org/10.1103/PhysRevLett.32.438))
+
+See also
+
+* Wikipedia, _[Pati-Salam model](https://en.wikipedia.org/wiki/Pati%E2%80%93Salam_model)_
 
 
 An original article with an eye towards [[supergravity]] unification is
@@ -253,3 +261,7 @@ Relation to [[leptoquarks]] and [[flavour anomalies]]:
 
 [[!redirects grand unification]]
 [[!redirects grand unifications]]
+
+[[!redirects Pati-Salam model]]
+[[!redirects Pati-Salam models]]
+
