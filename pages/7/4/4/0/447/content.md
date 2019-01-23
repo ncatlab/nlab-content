@@ -41,9 +41,13 @@ A generalization of this of central importance is the
 
 * [Geometric realization of simplicial topological spaces](#OfSimplicialTopologicalSpaces)
 
-This is a special case of a general notion of 
+Up to homotopy, this is a special case of a general notion of
 
 * [Geometric realization of cohesive ∞-groupoids](#OfCohesiveInfinityGroupoids).
+
+At the point-set level, it is also a special case of a general notion of
+
+* [Geometric realization of simplicial objects](#OfSimplicialObjects).
 
 
 ### Of cell complexes such as simplicial sets
@@ -92,6 +96,16 @@ The general abstract definition is at [[cohesive (∞,1)-topos]] in the section
 For the choice $\mathbf{H} = $ [[∞Grpd]] this reproduces the [geometric realization of simplicial sets](#OfSimplicialSets), see at [[discrete ∞-groupoid]] the section <a href=""></a>
 
 For the choice $\mathbf{H} = $  [[ETop∞Grpd]] and [[Smooth∞Grpd]] this reproduces [geometric realization of simplicial topological spaces](#OfSimplicialTopologicalSpaces). See the sections <a href="http://nlab.mathforge.org/nlab/show/Euclidean-topological+infinity-groupoid#GeometricHomotopy">ETop∞Grpd -- Geometric homotopy</a> and <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#StrucGeometricHomotopy">Smooth ∞-groupoid --  Geometric homotopy</a>
+
+### Of simplicial objects in a category
+ {#OfSimplicialObjects}
+
+Let $M$ be a [[cocomplete category|cocomplete]] [[simplicially enriched category]] with [[copowers]].  A **[[simplicial object]]** in $M$ is a functor $X:\Delta^{op}\to M$, where $\Delta$ is the [[simplex category]].  Its **geometric realization** is defined similarly to the classical case as a [[coend]]:
+
+$$ |X| = \int^{[n]\in\Delta} \Delta[n] \odot X_n $$
+
+where $\odot$ denotes the [[copower]] in $M$.  This operation is a left adjoint which is even a simplicially enriched functor; see [[simplicial object]] for more details.
+
 
 ## Properties ## 
 
