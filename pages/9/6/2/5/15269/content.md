@@ -26,8 +26,8 @@ A strong version of the McKay correspondence is obtained when the [[cohomology t
 
 Here the McKay correspondence becomes an [[isomorphism]] between the [[equivariant K-theory]] $K_{G_{ADE}}(\ast)$ of an [[ADE-singularity]] (equivalently the [[representation ring]] $R(G_{ADE})$) to the plain [[K-theory]] $K(\tilde X)$ of its [[blow-up]] [resolution](ADE+singularity#ResolutionBySpheresTouchingAlongADynkinDiagram) $\tilde X$. Much like in [[topological T-duality]], this isomorphism is given by [[integral transform]] ([[Fourier-Mukai transform]]) through the canonical [[correspondence]] that these spaces constitute:
 
-$$
-{#McKayDiagram}
+\[
+  \label{KMcKay}
   \array{
      &&
      && K( X \times_{X/G} \tilde X )
@@ -37,7 +37,7 @@ $$
      \\
      R(G) \simeq K_G(\ast) &\simeq& K_G(X) && \overset{\simeq}{\longrightarrow}  && K(\tilde X)
   }
-$$
+\]
 
 In terms of [[physics]] ([[string theory]]), the [[K-theory]] classes appearing here may be interpreted as [[groups]] of [[fractional D-brane|fractional]] [[D-brane charges]] (see [there](fractional+D-brane#DBranesAtOrbifoldSingularities)).
 In terms of the [[worldvolume]] [[Chan-Paton gauge field|Chan-Paton]]-[[Yang-Mills theory]] on the D-branes the McKay correspondence is then seen as passage from the [[Higgs branch]] to the [[Coulomb branch]] (see [there](fractional+D-brane#InTermsOfTheWorldvolumeGaugeTheories)).
