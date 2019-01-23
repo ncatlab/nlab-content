@@ -388,7 +388,7 @@ This is Lemma 2.7 in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/
 
 Some standard material is for instance in
 
-* [[Paul Goerss]] [[Rick Jardine]], _Simplicial Homotopy Theory_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html)) 
+* [[Paul Goerss]] and [[Rick Jardine]], _Simplicial Homotopy Theory_
 {#GoerssJardine}
 
 * [[Rick Jardine]], Lecture 008 (2010) ([pdf](http://www.math.uwo.ca/~jardine/papers/HomTh/lecture008.pdf))
