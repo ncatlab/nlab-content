@@ -72,7 +72,9 @@ the objects, $X_n$, which are the images under $X$, of the objects $[n]$ of $\De
 
 For $D$ a [[category]], we write $D^{\Delta^{op}}$ for the [[functor category]] from $\Delta^{op}$ to $D$: its category of simplicial objects.
 
-+-- {: .num_defn}
+### Simplicial enrichment
+
++-- {: .num_defn #SimplicialEnrichment}
 ###### Definition
 
 Let $D$ be a [[nLab:category]] with all [[nLab:limit]]s and [[nLab:colimit]]s. This implies that it is [[nLab:copower|tensored]] over [[nLab:Set]]
@@ -137,6 +139,17 @@ $$
 
 =--
 
+### Geometric realization
+
+If $D$ is already a [[simplicially enriched category]] in its own right, with [[powers]] and [[copowers]], we can define the [[geometric realization]] of a simplicial object $X\in D^{\Delta^{op}}$ as a [[coend]]:
+
+$$ |X| = \int^{[n]\in\Delta} \Delta[n] \odot X_n $$
+
+where $\odot$ denotes the [[copower]] for the simplicial enrichment of $D$.  This is [[left adjoint]] to the "total singular object" functor $D \to D^{\Delta^{op}}$ sending $Y$ to the simplicial object $n\mapsto Y^{\Delta[n]}$, the [[power]] for the simplicial enrichment.
+
+Perhaps surprisingly, this adjunction is even a *simplicially enriched* adjunction when $D^{\Delta^{op}}$ has its simplicial structure from Definition \ref{SimplicialEnrichment}, even though the latter makes no reference to the given simplicial enrichment of $D$.  A proof can be found in [RSS01, Proposition 5.4](#RSS01).
+
+
 ## Related concepts
 
 * [[simplex]], [[simplex category]]
@@ -163,6 +176,7 @@ $$
 
 * [[Peter May]], _Simplicial objects in algebraic topology_ , University of Chicago Press, 1967, ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu))
 
+* {#RSS01} [[Charles Rezk]], [[Stefan Schwede]], and [[Brooke Shipley]], *Simplicial structures on model categories and functors*, [arxiv](https://arxiv.org/abs/math/0101162)
 
 [[!redirects simplicial objects]]
 
