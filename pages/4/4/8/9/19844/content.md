@@ -19,10 +19,9 @@
 {:toc}
 
 ## Idea 
+ {#Idea}
 
 In the current [[standard model of particle physics]] the [[fundamental particles]] in the three [[generations of fermions]] have identical properties from one generation to the next, except for their [[mass]]. A possible violation of this state of affairs is called a _flavor anomaly_, a sign of "new physics" beyond the standard model. (See also at _[[anomalous magnetic moment]]_).
-
-Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] around $3$ [[statistical significance|σ]] in [[B meson]] [[scattering amplitude|processes]] in various [[experiments]] at the [[LHC]] (see references [below](#References)). 
 
 \begin{center}
 <img src="https://ncatlab.org/nlab/files/bsllprocesses.jpg" width="570">
@@ -34,11 +33,34 @@ Indications of flavour anomalies have been observed consistently and with increa
 <img src="https://ncatlab.org/nlab/files/FlavourAnomalyAt4Sigma.jpg" width="320">
 </div>
 
+## Statistical significance and detection threshold
+ {#StatisticalSignificance}
+
+Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] above around $3$ [[statistical significance|σ]] in [[B meson]] [[scattering amplitude|processes]] in various [[experiments]] at the [[LHC]] (see references [below](#References)). 
+
+
 The global tension with the standard model by end of 2018 has [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18)). Some authors see the global tension (i.e. of all decay channels jointly) at over $5 \sigma$ already ([CCDGMV 17](#CCDGMV17), [CGMS 18](#CGMS18), [Dordei 18, slide 12](#Dordei18)), which traditionally qualifies as detection (see [here](statistical+significance#ParticlePhysics)) .
 
 If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]].
 
 > graphics grabbed from [Dey 18](#Dey18)
+
+On the other hand, it has been argued both in [Lyons 13b](#Lyons13b) as well as in [Dorigo 15](#Dorigo15) that the [[statistical significance]]-threshold for detection of anomalies in [[B meson]]-decays should not be taken to be $5 \sigma$, but just $3 \sigma$, hence well exceeded already by the experimental significance:
+
+
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/LyonsThresholdForBMesonDecayAnomaly.jpg" width="600"> 
+\end{center}
+
+> table taken from [Lyons 13b, p. 4](#Lyons13b)
+
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/DorigoThresholdForBMesonDecayAnomaly.jpg" width="600"> 
+\end{center}
+
+> table taken from [Dorigo 15, p. 16](#Dorigo15)
+
+
 
 ## Possible solutions
 
@@ -143,6 +165,14 @@ Original articles include:
 Cautionary remarks include
 
 * _[Some B Meson Decay Anomalies Disappear In Run-2 Data](http://dispatchesfromturtleisland.blogspot.com/2017/05/some-b-meson-decay-anomalies-disappear.html)_
+
+An argument that the threshold [[statistical significance]] for flavour anomalies should be taken to be $3\sigma$ instead of $5 \sigma$ is made in
+
+* {#Lyons13b} Louis Lyons, _Discovering the Significance of 5 sigma_ ([arXiv:1310.1284](https://arxiv.org/abs/1310.1284))
+
+* {#Dorigo15} [[Tommaso Dorigo]], _Extraordinary claims: the $0.0000029\%$ solution_, EPJ Web of Conferences 95, 02003 (2015) ([doi:10.1051/epjconf/20159502003](https://doi.org/10.1051/epjconf/20159502003))
+
+
 
 Attempts to explain the anomaly include
 
