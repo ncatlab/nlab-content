@@ -34,9 +34,9 @@ Indications of flavour anomalies have been observed consistently and with increa
 <img src="https://ncatlab.org/nlab/files/FlavourAnomalyAt4Sigma.jpg" width="320">
 </div>
 
-The global tension with the standard model by end of 2018 has [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18)). Some authors see it at $5 \sigma$ already ([CCDGMV 17](#CCDGMV17), [CGMS 18](#CGMS18), [Dordei 18, slide 12](#Dordei18)), which traditionally qualifies as detection (see [here](statistical+significance#ParticlePhysics)) .
+The global tension with the standard model by end of 2018 has [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18)). Some authors see the global tension (i.e. of all decay channels jointly) at over $5 \sigma$ already ([CCDGMV 17](#CCDGMV17), [CGMS 18](#CGMS18), [Dordei 18, slide 12](#Dordei18)), which traditionally qualifies as detection (see [here](statistical+significance#ParticlePhysics)) .
 
-If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]].
+If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]].
 
 > graphics grabbed from [Dey 18](#Dey18)
 
@@ -50,6 +50,12 @@ Candidate theories of "new physics" that could possibly explain the flavour anom
 * [[leptoquarks]] (and thus potentially $SU(5)$-[[GUT]])
 
 ([Bauer-Neubert 15](#BauerNeubert15), [CCDM 16](#CCDM16), [Crivellin 17](#Crivellin17), [Falkowski17](#Falkowski17), [Mueller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [AMST 18](#AMST18), [BDFKFS 18](#BDFKFS18), [Crivellin 18](#Crivellin18), [MMR 18](#MMR18))
+
+
+From [Crivellin 18, p. 2](#Crivellin18):
+
+> the global fit $[$ to [[flavour anomalies]] $]$ even shows compelling evidence for New Physics $[$... $]$ The vector [[leptoquark]] (LQ) $SU(2)_L$ singlet with hypercharge $-4/3$ arising in the famous [[Pati-Salam model]] is capable of explaining all the $[$[[flavour anomalies|flavour]] $]$ anomalies and therefore several attempts to construct a [[UV completion]] for this LQ to address the anomalies have been made. It can give a sizeable effect in $b \to c(u)\tau \nu$ data without violating bounds from $b \to s(d)\nu \bar \nu$ and/or direct searches, provides (at [[tree level]]) a $C_9 = - C_{10}$ solution to $b \to s \ell^+ \ell^-$ data and does not lead to [[proton decay]] at any order in [[perturbative quantum field theory|perturbation theory]].
+
 
 Incidentally, [[leptoquarks]] are also a candidate explanation of the anomaly seen at over 4$\sigma$ [[statistical significance]] in the [[anomalous magnetic moment]] of the [[muon]], see [there](anomalous+magnetic+moment#Anomalies).
 
