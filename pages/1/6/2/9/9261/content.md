@@ -42,7 +42,7 @@ As with much of [[statistics]], the concept of statistical significance is mostl
 ## In particle physics
  {#ParticlePhysics}
 
-In [[particle physics]], it has become customary to require statistical significance levels of $5 \sigma$ (5 [[standard deviations]]) in order to claim that a given observation is a real effect (e.g. [Sinervo 02, Section 5.3](#Sinervo02)). This corresponds to a probability ([[p-value]]) of about
+In [[particle physics]], it has become customary to require statistical significance levels of $5 \sigma$ (5 [[standard deviations]]) in order to claim that a given observation is a real effect (e.g. [Sinervo 02, Section 5.3](#Sinervo02), [Dorigo 15, Section 3](#Dorigo15)). This corresponds to a probability ([[p-value]]) of about
 
 $$
   p
@@ -54,8 +54,30 @@ $$
 
 that the observation is a random fluctuation under the null hypothesis.
 
-Notice that this is rather more stringent than the p-value of $p = 0.05$, which has been much used and much criticized in other areas of science, see [below](#PossibleMisuse).
+Notice that this is rather more stringent than the p-value of $p = 0.05$, corresponding to $\lt 2 \sigma$, which has been much used and much criticized in other areas of science, see [below](#PossibleMisuse).
 
+Of course the $5 \sigma$-criterion for detectoin is a convention as any other. It has been argued in [Lyons 13b](#Lyons13b), [Dorigo 15](#Dorigo15) that different detection-thresholds should be used for different experiments. These suggestions are subjective and not generally agreed on either:
+
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/LyonsThreshold.jpg" width="700">
+\end{center}
+
+> table taken from [Lyons 13b, p. 4](#Lyons13b)
+
+
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/DorigoThresholds.jpg" width="700">
+\end{center}
+
+> table taken from [Dorigo 15, p. 16](#Dorigo15)
+
+Regarding effects of current interest, notice that 
+
+1. the significance $4 \sigma$ for anomalies in the [[anomalous magnetic moment]] $(g_\mu-2)$ of the [[muon]] required by [Lyons 13b, p. 4](#Lyons13b) has been reached by summer 2018, see [there](anomalous+magnetic+moment#Anomalies);
+
+1. the significance $3 \sigma$ for [[flavour anomalies]] in [[B meson]] decays required both by [Lyons 13b, p. 4](#Lyons13b) and by [Dorigo 15, p. 16](#Dorigo15) has also been much exceeded by summer 2018, see [there](https://ncatlab.org/nlab/show/flavour+anomaly#Idea).
+
+<br/>
 
 ## In other sciences
 
@@ -74,7 +96,7 @@ There have been a number of criticisms of the uses to which $p$-values have been
 
 On a more fundamental level, [[Bayesianism|Bayesian]] statisticians have taken issue with the frequentist practice of hypothesis testing (see, e.g., [Jaynes 03, sec 9.1.1](#Jaynes03), [D'Agostini 03](#DAgostini03)), arguing that the value that should be sought is the probability of a proposed hypothesis conditional on the data, rather than the probability of the data under some null hypothesis. The frequentist concept of probability cannot allow for such a thing as a hypothesis having a probability. 
 
-A useful comparison of the frequentist and Bayesian approaches as employed in particle physics, and a call for their reconciliation, is in ([Lyons 13](#Lyons13)):
+A useful comparison of the frequentist and Bayesian approaches as employed in particle physics, and a call for their reconciliation, is in ([Lyons 13a](#Lyons13a)):
 
 > for physics analyses at the CERN’s LHC, the aim is, at least for determining parameters and setting upper limits in searches for various new phenomena, to use both approaches; similar answers would strengthen confidence in the results, while differences suggest the need to understand them in terms of the somewhat different questions that the two approaches are asking. It thus seems that the old war between the two methodologies is subsiding, and that they can hopefully live together in fruitful cooperation.
 
@@ -84,9 +106,16 @@ Review includes
 
 * {#Sinervo02} Pekka K. Sinervo, _Signal Significance in Particle Physics_, in Proceedings of _Advanced Statistical Techniques in Particle Physics_  Durham, UK, March 18-22, 2002 ([arXiv:hep-ex/0208005](https://arxiv.org/abs/hep-ex/0208005), [spire:601052](http://inspirehep.net/record/601052))
 
-* {#Lyons13} Louis Lyons, _Bayes and Frequentism: a Particle Physicist's perspective_, ([arXiv:1301.1273](https://arxiv.org/abs/1301.1273))
-
 * {#Jaynes03} [[Edwin Jaynes]], _Probability theory: The logic of science_, Cambridge University Press, 2003.
+
+* {#Lyons13a} [[Louis Lyons]], _Bayes and Frequentism: a Particle Physicist's perspective_,  Journal of Contemporary Physics Volume 54, 2013 - Issue 1
+ ([arXiv:1301.1273](https://arxiv.org/abs/1301.1273), [doi:10.1080/00107514.2012.756312](https://doi.org/10.1080/00107514.2012.756312))
+
+* {#Lyons13b} [[Louis Lyons]], _Discovering the Significance of 5 sigma_ ([arXiv:1310.1284](https://arxiv.org/abs/1310.1284))
+
+* {#Dorigo15} [[Tommaso Dorigo]], _Extraordinary claims: the $0.0000029\%$ solution_, EPJ Web of Conferences 95, 02003 (2015) ([doi:10.1051/epjconf/20159502003](https://doi.org/10.1051/epjconf/20159502003))
+
+
 
 See also
 
