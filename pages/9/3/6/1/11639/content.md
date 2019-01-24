@@ -72,7 +72,9 @@ A discussion of some kind of K3-cohomology in terms of [[differential geometry]]
 
 The concepts of K3-spectrum as such as considered in
 
-* {#Szymik10} [[Markus Szymik]], _K3 spectra_, Bulletin of the London Mathematical Society, 2010 ([pdf](http://www.math.ku.dk/~xvd217/szymik.K3spectra.pdf), [publisher](http://blms.oxfordjournals.org/content/early/2010/01/12/blms.bdp106.abstract))
+* {#Szymik10} [[Markus Szymik]], _K3 spectra_, Bull. Lond. Math. Soc. 42 (2010) 137-148 ([pdf](http://www.math.ku.dk/~xvd217/szymik.K3spectra.pdf), [publisher](http://blms.oxfordjournals.org/content/early/2010/01/12/blms.bdp106.abstract))
+
+* [[Markus Szymik]], _Crystals and derived local moduli for ordinary K3 surfaces_, Adv. Math. 228 (2011) 1-21
 
 [[!redirects K3-spectra]]
 
