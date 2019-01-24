@@ -19,7 +19,7 @@ Notice that the notions of _possibility_ and _necessity_ have different senses i
 
 ## Epistemic formulae
 
-These are variants of the formulae of the basic [[modal logic|modal language]].  The basic modal operators are, here, labelled $K_i$ since they relate to 'knowledge'. These correspond to the $\box$ operators in  the standard form, and are used in preference to the dual $\Diamond$ forms because of their interpretation (given below), which is more immediately relevant to the applications.
+These are variants of the formulae of the basic [[modal logic|modal language]].  The basic modal operators are, here, labelled $K_i$ since they relate to 'knowledge'. These correspond to the $\Box$ operators in  the standard form, and are used in preference to the dual $\Diamond$ forms because of their interpretation (given below), which is more immediately relevant to the applications.
 
 More formally, we have $P$ or $Prop$, is a set of countably (finite or infinite) many atomic formulae.  there is also a set $A$, often called the set of 'agents' and taken to be $A = \{1,\ldots,m\}$.  The set of epistemic formluae (= basic $m$-agent epistemic language) will be denoted  $\mathcal{L}^m_K(P)$ is given by the rules
 
