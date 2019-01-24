@@ -95,6 +95,8 @@ Incidentally, [[leptoquarks]] are also a candidate explanation of the anomaly se
 ## References
  {#References}
 
+### General
+
 Measurements include
 
 * [[LHC|LHCb collaboration]], _Differential branching fractions and isospin asymmetries of $B \to K^{(\ast)}\mu^+ \mu^-$ decays_, JHEP 06 (2014) 133 ([arXiv:1403.8044](https://arxiv.org/abs/1403.8044))
@@ -177,7 +179,7 @@ In contrast, an argument that the threshold [[statistical significance]] for fla
 
 * {#Dorigo15} [[Tommaso Dorigo]], _Extraordinary claims: the $0.000029\%$ solution_, EPJ Web of Conferences 95, 02003 (2015) ([doi:10.1051/epjconf/20159502003](https://doi.org/10.1051/epjconf/20159502003))
 
-
+### Possible explanations/models
 
 Attempts to explain the anomaly include
 
@@ -217,10 +219,15 @@ Attempts to explain the anomaly include
 
 * Monika Blanke, [[Andreas Crivellin]], _$B$ Meson Anomalies in a Pati-Salam Model within the Randall-Sundrum Background_, Phys. Rev. Lett. 121, 011801 (2018) ([arXiv:1801.07256](https://arxiv.org/abs/1801.07256))
 
+[[composite Higgs field]]:
 
-others:
 
 * {#Marzocca18} David Marzocca, _Addressing the B-physics anomalies in a fundamental Composite Higgs Model_, JHEP07(2018)121 ([arXiv:1803.10972](https://arxiv.org/abs/1803.10972))
+
+[[dark matter]]:
+
+* Seungwon Baek, _Scalar dark matter behind $b \to s \mu \mu$ anomaly_
+ ([arXiv:1901.04761](https://arxiv.org/abs/1901.04761))
 
 [[!redirects flavour anomalies]]
 
