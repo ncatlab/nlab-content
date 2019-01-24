@@ -300,7 +300,7 @@ That this metric, as well as that of every black $p$ brane for _odd_ $p$, is com
 
 * [[Gary Gibbons]], [[Gary Horowitz]], [[Paul Townsend]], p. 15 of _Higher-dimensional resolution of dilatonic black hole singularities_, Class.Quant.Grav.12:297-318,1995 ([arXiv:hep-th/9410073](https://arxiv.org/abs/hep-th/9410073))
 
-Identification of the $\mathcal{N} = (2,0)$ black M5-brane sitting at the singularity of a $\mathbb{Z}/2$-[[orbifold]] locally of the form $\matbb{R}^{5,1} \times ( \mathbb{R}^5 \sslash (\mathbb{Z}/2) )$ is due to 
+Identification of the $\mathcal{N} = (2,0)$ black M5-brane sitting at the singularity of a $\mathbb{Z}/2$-[[orbifold]] locally of the form $\mathbb{R}^{5,1} \times ( \mathbb{R}^5 \sslash (\mathbb{Z}/2) )$ is due to 
 
 * {#Witten95} [[Edward Witten]], _Five-branes And M-Theory On An Orbifold_, Nucl. Phys. B463:383-397, 1996 ([arXiv:hep-th/9512219](https://arxiv.org/abs/hep-th/9512219))
 
@@ -445,8 +445,7 @@ A formal proposal is [[schreiber:7d Chern-Simons theory and the 5-brane|here]].
 
 ### More on the algebraic topology
 
-* {#Witten2000} [[Edward Witten]], _Duality relations among topological effects in string theory_, J. High Energy Phys. 0005 (2000)
-031 ([arXiv:hep-th/9912086](http://arxiv.org/abs/hep-th/9912086))
+* {#Witten2000} [[Edward Witten]], _Duality relations among topological effects in string theory_, J. High Energy Phys. 0005 (2000) 031 ([arXiv:hep-th/9912086](http://arxiv.org/abs/hep-th/9912086))
  
 
 * {#Sati10} [[Hisham Sati]], _Geometric and topological structures related to M-branes II: Twisted String and String^c structures_ ([arXiv:1007.5419](http://arxiv.org/abs/1007.5419))
