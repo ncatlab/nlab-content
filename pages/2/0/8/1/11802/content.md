@@ -5,7 +5,9 @@
 
 ## Idea
 
-A _[[curve]]_ in [[complex analytic geometry]], hence a [[complex analytic space]] of complex [[dimension]] 1 (hence of real dimension 2).
+A _complex curve_ is a _[[curve]]_ in [[complex analytic geometry]], hence a [[complex analytic space]] of complex [[dimension]] 1 (hence of real dimension 2).
+
+
 
 ## Properties
 
@@ -24,6 +26,8 @@ A _[[curve]]_ in [[complex analytic geometry]], hence a [[complex analytic space
 * [[Teichmüller space]]
 
 * [[moduli stack of curves]]
+
+* [[complex surface]]
 
 [[!redirects complex curves]]
 
