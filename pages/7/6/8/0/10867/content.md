@@ -7,7 +7,7 @@
 
 ## Related concepts
 
-* [[solid state physics]]
+* [[solid state physics]], [[nuclear physics]]
 
 * [[quantum gravity]]
 
