@@ -21,6 +21,9 @@
 
   (patterns in the [[characteristic classes]] ([[Chern classes]]) of [[complex surfaces]], together with some speculations about an anlogy with [[atomic number]] of [[atomic nuclei]])
 
+* {#BattyeMantonSutcliffe10} R. A. Battye, [[Nicholas Manton]], [[Paul Sutcliffe]], _Skyrmions and Nuclei_, pp. 3-39 (2010) ([doi:10.1142/9789814280709_0001](https://doi.org/10.1142/9789814280709_0001)) in:  M. Rho, Ismail Zahed (eds.) _The Multifaceted Skyrmion_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+
+  ([[skyrmion]] [[model (in theoretical physics)|models]] of [[atomic nuclei]])
 
 
 * [[Nicholas Manton]], _Lightly Bound Skyrmions, Tetrahedra and Magic Numbers_ ([arXiv:1707.04073](https://arxiv.org/abs/1707.04073))
