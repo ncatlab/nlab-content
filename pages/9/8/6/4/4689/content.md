@@ -112,7 +112,7 @@ $$
 
 ([Donoghue 95, (65)](#Donoghue95)
 
-Here for $r = 1$ [[fm]] we have
+Here for $r = 1$ [[fm]] we have that the quantum correction is by a tiny factor of order
 
 $$
   \frac{G \hbar}{r^2 c^2}\vert_{r = 1 fm}
