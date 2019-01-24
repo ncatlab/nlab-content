@@ -29,12 +29,21 @@ The [[skyrmion]]-model (see there) realizes [[baryons]] as [[solitons]]/[[instan
 
 * [[B-meson]]
 
+* [[rho meson]]
+
 ## References
 
+See also
 
 * Wikipedia, _[Pion](https://en.wikipedia.org/wiki/Pion)_
 
 [[!redirects pions]]
 
+[[!redirects pion field]]
+[[!redirects pion fields]]
+
 [[!redirects π-meson]]
 [[!redirects π-mesons]]
+
+
+
