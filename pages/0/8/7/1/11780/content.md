@@ -11,5 +11,7 @@ An [[algebraic variety]] of [[dimension]] 2.
 
 * dimension 1-case: [[algebraic curve]]
 
+* [[complex surface]]
+
 [[!redirects algebraic surfaces]]
 
