@@ -42,7 +42,7 @@ $$
   (A/T)(X,Y) := colim A(X',Y/Y')
 $$
 
-where the [[colimit]] runs through all [[subobjects]] $X'\subset X$, $Y'\subset Y$ such that $X/X' \in Ob A$, $Y'\in Ob A$. The quotient functor $Q \colon A\to A/T$ is obvious. 
+where the [[colimit]] runs through all [[subobjects]] $X'\subset X$, $Y'\subset Y$ such that $X/X' \in Ob T$, $Y'\in Ob T$. The quotient functor $Q \colon A\to A/T$ is obvious. 
 
 Notice that the set of morphisms is indeed [[small set|small]], so that the Serre quotient category exists as a [[locally small category]]. On the other hand, one can construct an equivalent [[localization]] by the Gabriel-Zisman  localizing at the class $\Sigma$ of all morphisms
 whose kernel and cokernel are in $T$. Although 
