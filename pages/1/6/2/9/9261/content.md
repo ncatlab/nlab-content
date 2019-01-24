@@ -34,9 +34,15 @@ it follows that the [[probability]] $P(X \geq x\vert H_0)$ is a [[monotone decre
 
 As with much of [[statistics]], the concept of statistical significance is mostly used at the interface between [[theory (physics)|theory]] and [[experiment]], hence is part of the process of _[[coordination]]_, and as such subject to subtleties of real world activity that are not manifest in its clean mathematical definition. Often policy making and/or financial decisions depend on estimating and interpreting statistical significances. This has led to some lively debate about their use and misuse, see [below](#PossibleMisuse) for more. As a general rule of life, for a mathematical result to work well in applications, you need to understand what it says and what it does not say. There has also been considerable debate between [[Bayesianism|Bayesian]] and frequentist statisticians as to cogency of the use of statistical significance, see [below](#Bayes).
 
+## Origin of significance threshold
 
- 
+The threshold $p\lt 0.05$ seems to date back to ([Fisher 1926](#Fisher26)) 
 
+>… it is convenient to draw the line at about the level at which we can say: “Either there is something in the treatment, or a coincidence has occurred such as does not occur more than once in twenty trials.”…
+
+>If one in twenty does not seem high enough odds, we may, if we prefer it, draw the line at one in fifty (the 2 per cent point), or one in a hundred (the 1 per cent point). Personally, the writer prefers to set a low standard of significance at the 5 per cent point, and ignore entirely all results which fail to reach this level. A scientific fact should be regarded as experimentally established only if a properly designed experiment rarely fails to give this level of significance.
+
+This last sentence—implicitly about experimental replication—is often conveniently forgotten by researchers with only a rough working knowledge statistics, whereby a _single_ $p$-value under $0.05$ is seen as a discovery, rather than merely evidence.
 
 
 ## In particle physics
@@ -101,6 +107,11 @@ A useful comparison of the frequentist and Bayesian approaches as employed in pa
 > for physics analyses at the CERN’s LHC, the aim is, at least for determining parameters and setting upper limits in searches for various new phenomena, to use both approaches; similar answers would strengthen confidence in the results, while differences suggest the need to understand them in terms of the somewhat different questions that the two approaches are asking. It thus seems that the old war between the two methodologies is subsiding, and that they can hopefully live together in fruitful cooperation.
 
 ## References 
+
+One early discussion is in
+
+* {#Fisher26}  RA Fisher, _The Arrangement of Field Experiments_, Journal of the Ministry of Agriculture of Great Britain **33** (1926) pp 503–513.
+
 
 Review includes
 
