@@ -65,7 +65,7 @@ The more familiar two-sorted 'signature' for reflexive graphs can be obtained fr
 
 ##Properties
 
-* Lawvere calls the graphic identity _'the least common generalization of constant (x=c) and identity (x=1)_' ([1989b](#Law89b), p.53). By a _constant_ $c$ is meant here a $c\in M$ such that $cy=c$ for all $y\in M$. In the context of monoids arising from hyperplane arrangements constants are also called '_chambers_' (cf. [Aguiar-Mahajan 2006](#AgMah06)).
+* Lawvere calls the graphic identity _'the least common generalization of constant (x=c) and identity (x=1)_' ([1989b](#Law89b), p.53). By a _constant_ $c$ is meant here a $c\in M$ such that $c y=c$ for all $y\in M$. In the context of monoids arising from hyperplane arrangements constants are also called '_chambers_' (cf. [Aguiar-Mahajan 2006](#AgMah06)).
 
 * In a graphic monoid every element is [[idempotent]] as can be directly seen from the graphic identity with $y=1$.
 
