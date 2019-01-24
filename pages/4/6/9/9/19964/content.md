@@ -19,6 +19,19 @@
 
 A _Skyrmion_ is a kind of [[instanton]]/[[soliton]] in certain [[gauge field theories]]. The concept exists quite generally (see [Rho-Zahed 16](#RhoZahed16)), but its original use ([Skyrme 62](#Skyrme62)), and still one of the most important ones, is as a model for _[[baryons]]_ in a putative theory of [[non-perturbative quantum field theory|non-perturbative]] [[quantum chromodynamics]], the formulation of the latter being by and large an open problem (due to [[confinement]], see [[mass gap problem]]).
 
+## As a model for baryons and nuclei
+
+Skyrmions are candidate models for [[baryons]] and even some [[atomic nuclei]]
+
+[[carbon]] ([Lau-Maonton 14](#LauMaonton14)): 
+
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/SkyrmionB12.jpg" width="300">
+\end{center}
+
+> graphics grabbed form [Lau-Maonton 14](#LauMaonton14)
+
+
 ## In the Sakai-Sugimoto model
 
 The Skyrmion model of [[baryons]] appears in the [[Witten-Sakai-Sugimoto model]] for [[non-perturbative quantum field theory|non-perturbative]] [[QCD]], induced by the [[higher WZW term]] of the [[D8-brane]] ([Sakai-Sugimoto 04, section 5.2](#SakaiSugimoto04), [Sakai-Sugimoto 05, section 3.3](#SakaiSugimoto05)), and it becomes equivalent here to a model of [[baryons]] by [[wrapped brane|wrapped]] [[D4-branes]] in an [[intersecting D-brane model]] ([Sugimoto 16, 15.4.1](#Sugimoto16)).
@@ -69,12 +82,20 @@ See also
 
 * Wikipedia, _[Skyrmion](https://en.wikipedia.org/wiki/Skyrmion)_
 
+### As models for atomic nculei
+
+Skyrmions modelling [[atomic nuclei]]:
+
+For [[carbon]]:
+
+* {#LauMaonton14} P.H.C. Lau, [[Nicholas Manton]], _States of Carbon-12 in the Skyrme Model_,  Phys. Rev. Lett. 113, 232503 (2014) ([arXiv:1408.6680](https://arxiv.org/abs/1408.6680))
+
 
 ### Relation to instantons, calorons, solitons, monopoles
 
 The construction of Skyrmions from [[instantons]] is due to 
 
-* {#AtiyahManton89} [[Michael Atiyah]], N S Manton, _Skyrmions from instantons_, Phys.  Lett.  B, 222(3):438–442, 1989 (<a href="https://doi.org/10.1016/0370-2693(89)90340-7">doi:10.1016/0370-2693(89)90340-7</a>)
+* {#AtiyahManton89} [[Michael Atiyah]], [[Nicholas Manton]], _Skyrmions from instantons_, Phys.  Lett.  B, 222(3):438–442, 1989 (<a href="https://doi.org/10.1016/0370-2693(89)90340-7">doi:10.1016/0370-2693(89)90340-7</a>)
 
 The relation between skyrmions, [[instantons]], [[calorons]], [[solitons]] and [[monopoles]] is usefully reviewed and further developed in 
 
