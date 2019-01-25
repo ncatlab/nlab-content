@@ -242,6 +242,11 @@ Claim that [[threshold corrections]] can considerably alter (decrease) proton de
 
 * Joydeep Chakrabortty, Stephen F. King, Rinku Maji, _Unification, Proton Decay and Topological Defects in non-SUSY GUTs with Thresholds_ ([arXiv:1901.05867](https://arxiv.org/abs/1901.05867))
 
+Topological defects can play considerable role to constrain the non-SUSy and SUSY GUTs:
+
+* Joydeep Chakrabortty, Rinku Maji, Sunando Kumar Patra, Tripurari Srivastava, Subhendra Mohanty, _Roadmap of left-right models based on GUTs_ 
+([arXiv:1711.11391] (https://arxiv.org/abs/1711.11391), Phys.Rev. D97 (2018) no.9, 095010.)
+
 Relation to [[leptoquarks]] and [[flavour anomalies]]:
 
 * {#MurayamaYanagida92} H. Murayama, T. Yanagida, _A viable $SU(5)$ GUT with light leptoquark bosons_, Mod.Phys.Lett. A7 (1992) 147-152 ([arXiv:315898](inspirehep.net/record/315898), [doi:10.1142/S0217732392000070](https://doi.org/10.1142/S0217732392000070))
