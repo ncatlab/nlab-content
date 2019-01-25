@@ -33,7 +33,7 @@ In the current [[standard model of particle physics]] the [[fundamental particle
 <img src="https://ncatlab.org/nlab/files/FlavourAnomalyAt4Sigma.jpg" width="320">
 </div>
 
-## Statistical significance and detection threshold
+## Statistical significance
  {#StatisticalSignificance}
 
 Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] above around $3$ [[statistical significance|σ]] in [[B meson]] [[scattering amplitude|processes]] in various [[experiments]] at the [[LHC]] (see references [below](#References)). 
@@ -60,11 +60,18 @@ On the other hand, it has been argued both in [Lyons 13b](#Lyons13b) as well as 
 
 > table taken from [Dorigo 15, p. 16](#Dorigo15)
 
+In conclusion, with currently available data, the observed flavour anomalies are strong indication of New Physics beyond the current [[standard model of particle physics]].
+
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/DordeiConclusion.jpg" width="740"> 
+\end{center}
+
+> graphics taken from [Dordei 18, slide 22](#Dordei18)
 
 
 ## Possible solutions
 
-Candidate theories of "new physics" that could possibly explain the flavour anomalies (if indeed they are real) includes the following
+Candidate [[model (in theoretical physics)|models]] of "New Physics" beyond the [[standard model of particle physics]] that could possibly explain the flavour anomalies (if indeed they are real) includes the following:
 
 ### Leptoquarks
  {#Leptoquarks}
@@ -84,7 +91,7 @@ Incidentally, [[leptoquarks]] are also a candidate explanation of the anomaly se
 
 ### Other
 
-* composite [[Higgs boson]] ([Marzocca 18](#Marzocca18))
+* [[composite Higgs boson]] ([Marzocca 18](#Marzocca18))
 
 ## Related concepts
 
@@ -162,11 +169,13 @@ Original articles include:
 
 * {#CFMVV17} Alejandro Celis, Javier Fuentes-Martin, Avelino Vicente, Javier Virto, _Gauge-invariant implications of the LHCb measurements on Lepton-Flavour Non-Universality_, Phys. Rev. D 96, 035026 (2017) ([arXiv:1704.05672](https://arxiv.org/abs/1704.05672))
 
+* Monika Blanke, [[Andreas Crivellin]], Stefan de Boer, Teppei Kitahara, Marta Moscati, Ulrich Nierste, Ivan Nišandžić, _Impact of polarization observables and $B_c \to \tau \nu$ on new physics explanations of the $b \to c \tau \nu$ anomaly_ ([arXiv:1811.09603](https://arxiv.org/abs/1811.09603))
 
 * {#HAMN18} T. Hurth, A. Arbey, F. Mahmoudi, S. Neshatpour, _New global fits fOrigto $b \to s$ data with all relevant parameters_, Proceedings of the [Seventh Workshop on Theory, Phenomenology and Experiments in Flavour Physics](https://agenda.infn.it/event/14359/), Capri, 8-10 June 2018 ([arXiv:1812.07602](https://arxiv.org/abs/1812.07602))
 
 * {#KumarLondon19} Jacky Kumar, David London, _New physics in $b \to s e^+ e^-$?_ ([arXiv:1901.04516](https://arxiv.org/abs/1901.04516))
 
+* Domagoj Leljak, Blazenka Melic, Monalisa Patra, _On lepton flavour universality in semileptonic $B_c \to \eta_c, J/\psi$ decays_ ([arXiv:1901.08368](https://arxiv.org/abs/1901.08368))
 
 
 Cautionary remarks include
@@ -219,8 +228,7 @@ Attempts to explain the anomaly include
 
 * Monika Blanke, [[Andreas Crivellin]], _$B$ Meson Anomalies in a Pati-Salam Model within the Randall-Sundrum Background_, Phys. Rev. Lett. 121, 011801 (2018) ([arXiv:1801.07256](https://arxiv.org/abs/1801.07256))
 
-[[composite Higgs field]]:
-
+[[composite Higgs boson]]:
 
 * {#Marzocca18} David Marzocca, _Addressing the B-physics anomalies in a fundamental Composite Higgs Model_, JHEP07(2018)121 ([arXiv:1803.10972](https://arxiv.org/abs/1803.10972))
 
@@ -228,6 +236,10 @@ Attempts to explain the anomaly include
 
 * Seungwon Baek, _Scalar dark matter behind $b \to s \mu \mu$ anomaly_
  ([arXiv:1901.04761](https://arxiv.org/abs/1901.04761))
+
+right-handed [[neutrinos]]:
+
+* Carlo Marzo, Luca Marzola, Martti Raidal, _Common explanation to the $R_{K^{(\ast)}}$, $R_{K^{(\ast)}}$ and $\epsilon'/\epsilon$ anomalies in a 3HDM+$\nu_R$ and connections to neutrino physics_ ([arXiv:1901.08290](https://arxiv.org/abs/1901.08290))
 
 [[!redirects flavour anomalies]]
 
