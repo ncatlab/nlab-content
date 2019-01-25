@@ -92,7 +92,7 @@ For review see [Sugimoto 16](#Sugimoto16), also [Rebhan 14, around (18)](#Rebhan
 
 > graphics grabbed from [Sugimoto 16](#Sugimoto16)
 
-This produces [[baryon]] [[mass]] spectra with moderate quantitative agreement with [[experiment]] ([HSSY 07](#HSSY07)):
+This already produces [[baryon]] [[mass]] spectra with moderate quantitative agreement with [[experiment]] ([HSSY 07](#HSSY07)):
 
 
 <center>
@@ -101,6 +101,29 @@ This produces [[baryon]] [[mass]] spectra with moderate quantitative agreement w
 
 > graphics grabbed from [Sugimoto 16](#Sugimoto16)
 
+
+Moreover, the above 4-brane model for baryons is claimed to be equivalent to the old **[[Skyrmion]] model** (see [Sakai-Sugimoto 04, section 5.2](#SakaiSugimoto04), [Sakai-Sugimoto 05, section 3.3](#SakaiSugimoto05), [Sugimoto 16, 15.4.1](#Sugimoto16), [Bartolini 17](#Bartolini17)). 
+
+But the Skyrmion model of baryons has been shown to aply also to [[bound states]] of [[baryons]], namely the [[atomic nuclei]]  ([Riska 93](Skyrmion#Riska93), [Battye-Manton-Sutcliffe 10](Skyrmion#BattyeMantonSutcliffe10), [Manton 16](Skyrmion#Manton16), [Naya-Sutcliffe 18](Skyrmion#NayaSutcliffe18)), at least for small [[atomic number]].
+
+For instance, various [[experiment|experimentally]] observed resonances of the [[carbon]] [[nucleus]] are modeled well by a Skyrmion with [[atomic number]] 6 and hence baryon number 12 ([Lau-Manton 14](Skyrmion#LauMaonton14)): 
+
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/SkyrmionB12.jpg" width="200">
+\end{center}
+
+> graphics grabbed form [Lau-Manton 14](Skyrmion#LauMaonton14)
+
+More generally, the [[Skyrmion]]-model of [[atomic nuclei]] gives good matches with [[experiment]] if not just the [[pi meson]] but also the [[rho meson]]-background is included ([Naya-Sutcliffe 18](Skyrmion#NayaSutcliffe18)):
+
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/SkyrmionsWithRho.jpg" width="800">
+\end{center}
+
+> graphics grabbed form [Naya-Sutcliffe 18](Skyrmion#NayaSutcliffe18)
+
+
+<br/>
 
 #### Type0B/$YM_4$-correspondence
  {#Type0StringCorrespondence}
@@ -299,6 +322,8 @@ Original articles
 * Kanabu Nawa, Hideo Suganuma, Toru Kojo, _Baryons in Holographic QCD_, Phys.Rev.D75:086003, 2007 ([arXiv:hep-th/0612187](https://arxiv.org/abs/hep-th/0612187))
 
 * Kanabu Nawa, Hideo Suganuma, Toru Kojo, _Brane-induced Skyrmions: Baryons in Holographic QCD_, Prog.Theor.Phys.Suppl.168:231-236, 2007 ([arXiv:hep-th/0701007](https://arxiv.org/abs/hep-th/0701007))
+
+* Deog Ki Hong, Mannque Rho, Ho-Ung Yee, Piljin Yi, _Chiral Dynamics of Baryons from String Theory_, Phys.Rev.D76:061901, 2007 ([arXiv:hep-th/0701276](https://arxiv.org/abs/hep-th/0701276))
 
 * Deog Ki Hong, _Baryons in holographic QCD_, talk at _[From Strings to Things 2008](http://www.int.washington.edu/PROGRAMS/08-1.html)_ ([pdf](http://www.int.washington.edu/talks/WorkShops/int_08_1/People/Hong_D/Hong.pdf))
 
