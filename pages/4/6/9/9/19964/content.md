@@ -28,6 +28,7 @@ A _Skyrmion_ is a kind of [[instanton]]/[[soliton]] in certain [[gauge field the
 > graphics grabbed from [Manton 11](#Manton11)
 
 
+
 \begin{center}
 <img src="https://ncatlab.org/nlab/files/SkyrmionB20.jpg" width="500">
 \end{center}
@@ -81,24 +82,21 @@ A _classical Skyrmion_ is a solution to the corresponding [[Euler-Lagrange equat
 
 1. [[critical point|extremizes]] the [[energy]] implied by the above [[Lagrangian]].
 
-With suitable care, the above Lagrangian arises as the [[AdS-CFT|holographic]] [[boundary field theory]] of that of  5d $G$-[[Yang-Mills theory]] ([Sakai-Sugimoto 04, Section 5.2](#SakaiSugimoto04), [Sakai-Sugimoto 05, Section 3.3](#SakaiSugimoto05), reviewed in [Sugimoto 16, Section 15.3.4](#Sugimoto16)).
+## Properties
 
-<br/>
-
-
-## As a model for atomic nuclei
+### As a model for atomic nuclei
  {#AsAModelForBaryonsAndNuclei}
 
 Skyrmions are candidate models for [[baryons]] and even some aspects of [[atomic nuclei]] ([Riska 93](#Riska93), [Battye-Manton-Sutcliffe 10](#BattyeMantonSutcliffe10), [Manton 16](#Manton16), [Naya-Sutcliffe 18](#NayaSutcliffe18)).
 
 
-For instance various resonances of the [[carbon]] [[nucleus]] are modeled well by a Skyrmion with baryon number 12 ([Lau-Maonton 14](#LauMaonton14)): 
+For instance various resonances of the [[carbon]] [[nucleus]] are modeled well by a Skyrmion with baryon number 12 ([Lau-Manton 14](#LauManton14)): 
 
 \begin{center}
 <img src="https://ncatlab.org/nlab/files/SkyrmionB12.jpg" width="300">
 \end{center}
 
-> graphics grabbed form [Lau-Manton 14](#LauMaonton14)
+> graphics grabbed form [Lau-Manton 14](#LauManton14)
 
 For Skyrmion models of nuclei to match well to [[experiment]], not just the [[pion field]] but also the heavier [[mesons]] need to be included in the construction. Including the [[rho meson]] gives good results for light nuclei ([Naya-Sutcliffe 18](#NayaSutcliffe18))
 
@@ -110,15 +108,24 @@ For Skyrmion models of nuclei to match well to [[experiment]], not just the [[pi
 > graphics grabbed form [Naya-Sutcliffe 18](#NayaSutcliffe18)
 
 
-## In the Sakai-Sugimoto model
+### As a holographic boundary theory
+ {#AsBoundaryFieldTheory}
 
-The Skyrmion model of [[baryons]] appears in the [[Witten-Sakai-Sugimoto model]] for [[non-perturbative quantum field theory|non-perturbative]] [[QCD]], induced by the [[higher WZW term]] of the [[D8-brane]] ([Sakai-Sugimoto 04, section 5.2](#SakaiSugimoto04), [Sakai-Sugimoto 05, section 3.3](#SakaiSugimoto05)), and it becomes equivalent here to a model of [[baryons]] by [[wrapped brane|wrapped]] [[D4-branes]] in an [[intersecting D-brane model]] ([Sugimoto 16, 15.4.1](#Sugimoto16)).
+With suitable care, the Skyrme model [above](#Definition) arises as the [[AdS-CFT|holographic]] [[boundary field theory]] of that of  5d $G$-[[Yang-Mills theory]] ([Sakai-Sugimoto 04, Section 5.2](#SakaiSugimoto04), [Sakai-Sugimoto 05, Section 3.3](#SakaiSugimoto05), reviewed in [Sugimoto 16, Section 15.3.4](#Sugimoto16), [Bartolini 17, Section 2](#Bartolini17)).
 
-<center>
+In this way Skyrmions (and hence [[baryons]] and [[atomic nuclei]], see [below](#AsAModelForBaryonsAndNuclei)) appear in the [[Witten-Sakai-Sugimoto model]], which realizes (something close to) [[non-perturbative quantum field theory|non-perturbative]] [[QCD]] as an [[intersecting D-brane model]] described by [[AdS-QCD correspondence]].
+
+In this context the Skyrme model becomes equivalent to a model of [[baryons]] by [[wrapped brane|wrapped]] [[D4-branes]]  ([Sugimoto 16, 15.4.1](#Sugimoto16)).
+
+\begin{center}
 <img src="https://ncatlab.org/nlab/files/BaryonsAsD4Branes.jpg" width="800">
-</center>
+\end{center}
 
 > graphics grabbed from [Sugimoto 16](#Sugimoto16)
+
+
+<br/>
+
 
 
 
@@ -190,7 +197,7 @@ Skyrmions modelling [[atomic nuclei]]:
 
 For [[carbon]]:
 
-* {#LauMaonton14} P.H.C. Lau, [[Nicholas Manton]], _States of Carbon-12 in the Skyrme Model_,  Phys. Rev. Lett. 113, 232503 (2014) ([arXiv:1408.6680](https://arxiv.org/abs/1408.6680))
+* {#LauManton14} P.H.C. Lau, [[Nicholas Manton]], _States of Carbon-12 in the Skyrme Model_,  Phys. Rev. Lett. 113, 232503 (2014) ([arXiv:1408.6680](https://arxiv.org/abs/1408.6680))
 
 
 ### Relation to instantons, calorons, solitons, monopoles
@@ -218,6 +225,8 @@ In [[string theory]], specifically in the [[AdS-QCD correspondence]] in the form
 * {#SakaiSugimoto04} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], section 5.2 of _Low energy hadron physics in holographic QCD_, Prog.Theor.Phys.113:843-882, 2005 ([arXiv:hep-th/0412141](https://arxiv.org/abs/hep-th/0412141))
 
 * {#SakaiSugimoto05} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], section 3.3. of _More on a holographic dual of QCD_, Prog.Theor.Phys.114:1083-1118, 2005 ([arXiv:hep-th/0507073](https://arxiv.org/abs/hep-th/0507073))
+
+* {#Bartolini17} Lorenzo Bartolini, Stefano Bolognesi, Andrea Proto, _From the Sakai-Sugimoto Model to the Generalized Skyrme Model_, Phys. Rev. D 97, 014024 2018 ([arXiv:1711.03873](https://arxiv.org/abs/1711.03873))
 
 
 Review is in
