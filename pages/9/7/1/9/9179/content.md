@@ -68,7 +68,9 @@ If Pauli had really been relying on symmetry and the Noether theorem, he could h
 
 
 
+## Related concepts
 
+* [[sterile neutrino]]
 
 
 ## References
