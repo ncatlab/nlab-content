@@ -35,7 +35,7 @@
 
 ## Idea
 
-(...) [[type II string theory]] on [[orientifold]] ...
+Type I string theory is [[type II string theory]] on [[orientifold]] [[spacetimes]] (at [[O-planes]]).
 
 ## Related concepts
 
