@@ -182,6 +182,9 @@ The original articles are
 
 * {#HoravaWitten96} [[Petr Hořava]], [[Edward Witten]],  _Eleven dimensional supergravity on a manifold with boundary_, Nucl. Phys. B475 (1996) 94 ([arXiv:hep-th/9603142](http://arxiv.org/abs/hep-th/9603142))
   
+Generalization to heterotic [[orbifolds]]/[[KK-monopoles]] at [[ADE-singularities]]:
+
+* V. Kaplunovsky, J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, _On the Duality between Perturbative Heterotic Orbifolds and M-Theory on $\mathbb{T}^4/Z_N$_, Nucl.Phys. B590 (2000) 123-160 ([arXiv:hep-th/9912144](https://arxiv.org/abs/hep-th/9912144))
 
 Reviews are in 
 
