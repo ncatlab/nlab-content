@@ -21,7 +21,7 @@
 ## Idea 
  {#Idea}
 
-In the current [[standard model of particle physics]] the [[fundamental particles]] in the three [[generations of fermions]] have identical properties from one generation to the next, except for their [[mass]]. A possible violation of this state of affairs is called a _flavor anomaly_, a sign of "new physics" beyond the standard model. (See also at _[[anomalous magnetic moment]]_).
+In the current [[standard model of particle physics]] the [[fundamental particles]] in the three [[generations of fermions]] have identical properties from one generation to the next, except for their [[mass]], a state of affairs referred to as _[[lepton]] universality_. A possible violation of lepton universality is called a _flavor anomaly_, which would be a sign of "New Physics" (NP) beyond the [[standard model of particle physics|standard model]].
 
 \begin{center}
 <img src="https://ncatlab.org/nlab/files/bsllprocesses.jpg" width="570">
@@ -36,16 +36,16 @@ In the current [[standard model of particle physics]] the [[fundamental particle
 ## Statistical significance
  {#StatisticalSignificance}
 
-Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] above around $3$ [[statistical significance|σ]] in [[B meson]] [[scattering amplitude|processes]] in various [[experiments]] at the [[LHC]] (see references [below](#References)). 
+Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] above around $3$ [[statistical significance|σ]] in [[B meson]] [[scattering amplitude|processes]] in various [[experiments]] at the [[LHC]], specifically at the [[LHCb]] (see references [below](#References)). 
 
 
 The global tension with the standard model by end of 2018 has [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18)). Various authors see the global tension (i.e. of all decay channels jointly) at over $5 \sigma$ already ([CCDGMV 17](#CCDGMV17), [CFMVV 17](#CFMVV17) [CGMS 18](#CGMS18), [Dordei 18, slide 12](#Dordei18)), which traditionally qualifies as detection (see [here](statistical+significance#ParticlePhysics)), some authors already quote $6 \sigma$ ([Kumar-London 19](#KumarLondon19)).
 
-If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]].
-
 > graphics grabbed from [Dey 18](#Dey18)
 
-On the other hand, it has been argued both in [Lyons 13b](#Lyons13b) as well as in [Dorigo 15](#Dorigo15) that the [[statistical significance]]-threshold for detection of anomalies in [[B meson]]-decays should not be taken to be $5 \sigma$, but just $3 \sigma$, hence well exceeded already by the experimental significance:
+If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]].
+
+Moreover, it had been argued ([Lyons 13b](#Lyons13b), [Dorigo 15](#Dorigo15)) that due to the specific nature of the [[experiment]], the [[statistical significance]]-threshold for detection of anomalies in [[B meson]]-decays should not be taken to be $5 \sigma$, but just $3 \sigma$, hence well exceeded already by the experimental significance:
 
 
 \begin{center}
@@ -93,6 +93,12 @@ Incidentally, [[leptoquarks]] are also a candidate explanation of the anomaly se
 
 * [[composite Higgs boson]] ([Marzocca 18](#Marzocca18))
 
+* [[dark matter]] ([Baek 19](#Baek19))
+
+* [[right-handed neutribos]] ([MMR 19](#MMR19))
+
+
+
 ## Related concepts
 
 * [[flavour (particle physics)]]
@@ -106,15 +112,15 @@ Incidentally, [[leptoquarks]] are also a candidate explanation of the anomaly se
 
 Measurements include
 
-* [[LHC|LHCb collaboration]], _Differential branching fractions and isospin asymmetries of $B \to K^{(\ast)}\mu^+ \mu^-$ decays_, JHEP 06 (2014) 133 ([arXiv:1403.8044](https://arxiv.org/abs/1403.8044))
+* [[LHCb collaboration]], _Differential branching fractions and isospin asymmetries of $B \to K^{(\ast)}\mu^+ \mu^-$ decays_, JHEP 06 (2014) 133 ([arXiv:1403.8044](https://arxiv.org/abs/1403.8044))
 
-* [[LHC|LHCb collaboration]], _Test of lepton universality using $B^+\to K^+ \ell^+ \ell^-$ decays_, Phys. Rev. Lett. 113, 151601 (2014) ([arXiv:1406.6482](https://arxiv.org/abs/1406.6482))
+* [[LHCb collaboration]], _Test of lepton universality using $B^+\to K^+ \ell^+ \ell^-$ decays_, Phys. Rev. Lett. 113, 151601 (2014) ([arXiv:1406.6482](https://arxiv.org/abs/1406.6482))
 
-* [[LHC|LHCb collaboration]], _Angular analysis and differential branching fraction of the decay $B^0_s \to \phi \mu^+ \mu^-$_, JHEP09(2015)179 ([arXivL1506.08777](https://arxiv.org/abs/1506.08777))
+* [[LHCb collaboration]], _Angular analysis and differential branching fraction of the decay $B^0_s \to \phi \mu^+ \mu^-$_, JHEP09(2015)179 ([arXivL1506.08777](https://arxiv.org/abs/1506.08777))
 
-* [[LHC|LHCb collaboration]], _Differential branching fraction and angular analysis of $\Lambda^0_b \to \Lambda \mu^+ \mu^-$ decays_, JHEP 06 (2015) 115; JHEP 09 (2018) 145 ([arXiv:1503.07138](https://arxiv.org/abs/1503.07138))
+* [[LHCb collaboration]], _Differential branching fraction and angular analysis of $\Lambda^0_b \to \Lambda \mu^+ \mu^-$ decays_, JHEP 06 (2015) 115; JHEP 09 (2018) 145 ([arXiv:1503.07138](https://arxiv.org/abs/1503.07138))
 
-* [[LHC|LHCb collaboration]], _Test of lepton universality using $B^0\to K^{\ast 0} \ell^+ \ell^-$ decays_, JHEP 08 (2017) 055 ([arXiv:1705.05802](https://arxiv.org/abs/1705.05802))
+* [[LHCb collaboration]], _Test of lepton universality using $B^0\to K^{\ast 0} \ell^+ \ell^-$ decays_, JHEP 08 (2017) 055 ([arXiv:1705.05802](https://arxiv.org/abs/1705.05802))
 
 Review includes
 
@@ -122,10 +128,13 @@ Review includes
 
 * {#Guadagnoli17} Diego Guadagnoli, _Flavour anomalies on the eve of the Run-2 verdict_,  Modern Physics Letters AVol. 32, No. 07, 1730006 (2017) ([arXiv:1703.02804](https://arxiv.org/abs/1703.02804))
 
+* [CernCourier](https://cerncourier.com/), _[Beauty quarks test lepton universality](https://cerncourier.com/beauty-quarks-test-lepton-universality/)_, March 2018
 
-* {#Cartelle18} Paula Alvarez Cartelle on behalf of the LHCb collaboration, _New results on flavor anomalies at LHCb_, April 2018 ([pdf](https://cds.cern.ch/record/2311960/files/FlavourAnomaliesLHCbAlvarez.pdf))
+* {#Cartelle18} Paula Alvarez Cartelle on behalf of the [[LHCb collaboration]], _New results on flavor anomalies at LHCb_, April 2018 ([pdf](https://cds.cern.ch/record/2311960/files/FlavourAnomaliesLHCbAlvarez.pdf))
 
-* {#Dey18} Biplab Dey on behalf of the LHCb collaboration, _Flavor anomalies at LHCb_, May 2018 (<a href="https://cds.cern.ch/record/2319877/files/Biplab_Dey_Reinterpretation 14.05.pdf">pdf</a>)
+* {#Dey18} Biplab Dey on behalf of the [[LHCb collaboration]], _Flavor anomalies at LHCb_, May 2018 (<a href="https://cds.cern.ch/record/2319877/files/Biplab_Dey_Reinterpretation 14.05.pdf">pdf</a>)
+
+* Vera Lüth, _A Challenge to Lepton Universality in B Meson Decays_, Invited tall at [7th Symposium on Symmetries in Subatomic Physics (SSP 2018)](https://indico.cern.ch/event/651952/) at RWTH Aachen University (Germany), June 11-15, 2018 ([arXiv:1808.02587](https://arxiv.org/abs/1808.02587))
 
 * {#Dordei18} Francesca Dordei, _Lepton flavour universality at LHCb_, August 2018 ([cern:2634813](http://cdsweb.cern.ch/record/2634813), [pdf](http://cdsweb.cern.ch/record/2634813/files/dordei_nufact.pdf))
 
@@ -234,12 +243,11 @@ Attempts to explain the anomaly include
 
 [[dark matter]]:
 
-* Seungwon Baek, _Scalar dark matter behind $b \to s \mu \mu$ anomaly_
- ([arXiv:1901.04761](https://arxiv.org/abs/1901.04761))
+* {#Baek19} Seungwon Baek, _Scalar dark matter behind $b \to s \mu \mu$ anomaly_ ([arXiv:1901.04761](https://arxiv.org/abs/1901.04761))
 
 [[right-handed neutrino]]:
 
-* Carlo Marzo, Luca Marzola, Martti Raidal, _Common explanation to the $R_{K^{(\ast)}}$, $R_{K^{(\ast)}}$ and $\epsilon'/\epsilon$ anomalies in a 3HDM+$\nu_R$ and connections to neutrino physics_ ([arXiv:1901.08290](https://arxiv.org/abs/1901.08290))
+* {#MMR19} Carlo Marzo, Luca Marzola, Martti Raidal, _Common explanation to the $R_{K^{(\ast)}}$, $R_{K^{(\ast)}}$ and $\epsilon'/\epsilon$ anomalies in a 3HDM+$\nu_R$ and connections to neutrino physics_ ([arXiv:1901.08290](https://arxiv.org/abs/1901.08290))
 
 [[!redirects flavour anomalies]]
 
