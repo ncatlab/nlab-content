@@ -34,6 +34,10 @@ Mathematically, special relativity is essentially the theory of [[Minkowski spac
 
 ## Related concepts
 
+* [[speed of light]]
+
+  [[Michelson-Morley experiment]]
+
 * [[theory (physics)]]
 
 * [[electromagnetism]]
