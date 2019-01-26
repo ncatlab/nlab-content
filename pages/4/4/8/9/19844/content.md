@@ -95,7 +95,7 @@ Incidentally, [[leptoquarks]] are also a candidate explanation of the anomaly se
 
 * [[dark matter]] ([Baek 19](#Baek19))
 
-* [[right-handed neutribos]] ([MMR 19](#MMR19))
+* [[right-handed neutrinos]] ([MMR 19](#MMR19))
 
 
 
