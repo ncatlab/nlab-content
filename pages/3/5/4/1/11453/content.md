@@ -37,11 +37,22 @@ The possible O-planes in [[M-theory]] are $MO1$ ($\leftrightarrow$[[M-wave]]), $
 
 Under the [[duality between M-theory and type IIA string theory]] the O8-plane is identified with the [[MO9]] of [[Horava-Witten theory]]:
 
+\begin{center}
 <img src="https://ncatlab.org/nlab/files/O8DualToM9.jpg" width="600"/>
+\end{center}
 
-> from [GKSTY 02, section 3](#GKSTY02)
+> graphics grabbed from [GKSTY 02, section 3](#GKSTY02)
 
-while the O4-plane is dual to the $MO5$ ([Hanany-Kol 00, 3.1.1](#HananyKol00)) and the $O0$ to the MO1 ([Hanany-Kol 00 3.3](#HananyKol00))
+while the O4-plane is dual to the $MO5$ ([Hori 98](#Hori98), [Gimon 98, Sec. III](#Gimon98), [AKY 98, Sec. II B](#AKY98), [Hanany-Kol 00, 3.1.1](#HananyKol00)) 
+
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/O4PlanesFromMO5.jpg" width="500"/>
+\end{center}
+
+> graphics grabbed from [Gimon 98](#Gimon98)
+
+
+and the $O0$ to the MO1 ([Hanany-Kol 00 3.3](#HananyKol00))
  
 ### Fractional branes at O-planes
 
@@ -106,7 +117,11 @@ See also at _[[intersecting D-brane models]]_ the section _[Intersection of D6s 
 
 Lift to [[M-theory]]:
 
-* Eric G. Gimon, _On the M-theory Interpretation of Orientifold Planes_ ([arXiv:hep-th/9806226](https://arxiv.org/abs/hep-th/9806226))
+* {#Hori98} [[Kentaro Hori]], _Consistency Conditions for Fivebrane in M Theory on $\mathbb{R}^5/\mathbb{Z}_2$ Orbifold_, Nucl.Phys.B539:35-78, 1999 ([arXiv:hep-th/9805141](https://arxiv.org/abs/hep-th/9805141))
+
+* {#Gimon98} Eric G. Gimon, _On the M-theory Interpretation of Orientifold Planes_ ([arXiv:hep-th/9806226](https://arxiv.org/abs/hep-th/9806226), [spire:472499](http://inspirehep.net/record/472499))
+
+* {#AKY98} Changhyun Ahn, Hoil Kim, Hyun Seok Yang, _$SO(2N)$ $(0,2)$ SCFT and M Theory on $AdS_7 \times \mathbb{R}P^4$_, Phys.Rev. D59 (1999) 106002 ([arXiv:hep-th/9808182](https://arxiv.org/abs/hep-th/9808182))
 
 * {#GKSTY02} E. Gorbatov, V.S. Kaplunovsky, J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, section 3 of _On Heterotic Orbifolds, M Theory and Type I' Brane Engineering_, JHEP 0205:015, 2002 ([arXiv:hep-th/0108135](https://arxiv.org/abs/hep-th/0108135))
 
