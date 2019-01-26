@@ -1,7 +1,5 @@
 
-* [Institute page](https://web.ma.utexas.edu/people/graduate_students/_grad1/?uid=1148)
-
-* [old personal webpage](https://mathgroove.wordpress.com/info/)
+* [Institute page](https://web.ma.utexas.edu/users/pedrotti.riccardo/)
 
 
 ## Writings
