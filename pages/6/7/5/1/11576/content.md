@@ -102,7 +102,7 @@ is a monomorphism, we say that _[[discrete objects]] are [[concrete objects|conc
 
 For a [[cohesive topos]] $\mathbf{H}$, the the following two conditions are equivalent:
 
-1. _pieces have points_, i.e. $\flat X \to X \to &#643;$ is an [[epimorphism]] for all $X \in \mathbf{H}$;
+1. _pieces have points_, i.e. $\flat X \to X \to &#643; X$ is an [[epimorphism]] for all $X \in \mathbf{H}$;
 
 1. _[[discrete objects]] are [[concrete objects|concrete]]_, i.e. $\flat X \overset{ \eta^{\sharp}_{\flat X} }{\longrightarrow} \sharp \flat X$ is a [[monomorphism]].
 
@@ -162,7 +162,7 @@ Applied to [[stable homotopy types]] in $Stab(\mathbf{H}) \hookrightarrow T\math
 
 ### In infinitesimal cohesion
 
-In [[infinitesimal cohesion]] the points-to-pieces transform in an [[equivalence]].
+In [[infinitesimal cohesion]] the points-to-pieces transform is an [[equivalence]].
 
 ## Related concepts
 
