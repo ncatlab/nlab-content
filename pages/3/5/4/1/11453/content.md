@@ -31,13 +31,18 @@ Under [[T-duality]] [[type I string theory]] is dual to [[type II string theory]
 <img src="https://ncatlab.org/nlab/files/TDualityOrientifold.jpg" width="700">
 
 ### Duality with M-Theory
+ {#DualityWithMTheory}
 
-Under the [[duality in string theory|duality]] between [[M-theory]] and [[type IIA string theory]] the O8-plane is identified with the [[M9-brane]] of [[Horava-Witten theory]]:
+The possible O-planes in [[M-theory]] are $MO1$ ($\leftrightarrow$[[M-wave]]), $MO5$ ($\leftrightarrow$[[M5-brane]]) and [[MO9]] ([Hanany-Kol 00 around (3.2)](#HananyKol00), [HSS 18, Prop. 4.7](#HSS18)).
+
+Under the [[duality between M-theory and type IIA string theory]] the O8-plane is identified with the [[MO9]] of [[Horava-Witten theory]]:
 
 <img src="https://ncatlab.org/nlab/files/O8DualToM9.jpg" width="600"/>
 
 > from [GKSTY 02, section 3](#GKSTY02)
 
+while the O4-plane is dual to the $MO5$ ([Hanany-Kol 00, 3.1.1](#HananyKol00)) and the $O0$ to the MO1 ([Hanany-Kol 00 3.3](#HananyKol00))
+ 
 ### Fractional branes at O-planes
 
 
@@ -89,12 +94,15 @@ See also at _[[intersecting D-brane models]]_ the section _[Intersection of D6s 
 
 ## References
 
-
-* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 5.3.2 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge 2012
+* {#HananyZaffaroni98} [[Amihay Hanany]], Alberto Zaffaroni, _Branes and Six Dimensional Supersymmetric Theories_, Nucl.Phys. B529 (1998) 180-206 ([arXiv:hep-th/9712145](https://arxiv.org/abs/hep-th/9712145))
 
 * {#Witten98} [[Edward Witten]], section 5 of _D-branes and K-theory_, J. High Energy Phys., 1998(12):019, 1998 ([arXiv:hep-th/9810188](http://arxiv.org/abs/hep-th/9810188)) 
 
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 5.3.2 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge 2012
+
 * {#DMR13} [[Charles Doran]], Stefan Mendez-Diez, [[Jonathan Rosenberg]], _T-duality For Orientifolds and Twisted KR-theory_ ([arXiv:1306.1779](http://arxiv.org/abs/1306.1779))
+
+
 
 Lift to [[M-theory]]:
 
@@ -102,9 +110,13 @@ Lift to [[M-theory]]:
 
 * {#GKSTY02} E. Gorbatov, V.S. Kaplunovsky, J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, section 3 of _On Heterotic Orbifolds, M Theory and Type I' Brane Engineering_, JHEP 0205:015, 2002 ([arXiv:hep-th/0108135](https://arxiv.org/abs/hep-th/0108135))
 
-* [[Amihay Hanany]], [[Barak Kol]], section 3 of _On Orientifolds, Discrete Torsion, Branes and M Theory_, JHEP 0006 (2000) 013 ([arXiv:hep-th/0003025](https://arxiv.org/abs/hep-th/0003025))
+* {#HananyKol00} [[Amihay Hanany]], [[Barak Kol]], section 3 of _On Orientifolds, Discrete Torsion, Branes and M Theory_, JHEP 0006 (2000) 013 ([arXiv:hep-th/0003025](https://arxiv.org/abs/hep-th/0003025))
 
 * {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_ ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
+
+* {#HSS18} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_ ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987))
+
+
 
 
 See also 
