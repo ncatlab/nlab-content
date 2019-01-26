@@ -60,7 +60,7 @@ Moreover, it had been argued ([Lyons 13b](#Lyons13b), [Dorigo 15](#Dorigo15)) th
 
 > table taken from [Dorigo 15, p. 16](#Dorigo15)
 
-In conclusion, with currently available data, the observed flavour anomalies are strong indication of New Physics beyond the current [[standard model of particle physics]].
+In conclusion, with currently available data, the observed flavour anomalies are possible signs of New Physics beyond the current [[standard model of particle physics]].
 
 \begin{center}
 <img src="https://ncatlab.org/nlab/files/DordeiConclusion.jpg" width="740"> 
@@ -69,7 +69,7 @@ In conclusion, with currently available data, the observed flavour anomalies are
 > graphics taken from [Dordei 18, slide 22](#Dordei18)
 
 
-## Possible solutions
+## Possible models
 
 Candidate [[model (in theoretical physics)|models]] of "New Physics" beyond the [[standard model of particle physics]] that could possibly explain the flavour anomalies (if indeed they are real) includes the following:
 
