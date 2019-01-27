@@ -174,6 +174,8 @@ $$
 
 hence that the matrix $M$ is [[lower triangular matrix|lower triangular]].
 
+Finally, it is clear that at least $[e] \in G/H$ is fixed by $H$, which shows that he diaginal entries are positive.
+
 
 =--
 
