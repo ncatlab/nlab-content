@@ -21,7 +21,7 @@ In the context of square [[matrices]] an _upper triangular matrix_ is one all wh
 
 ## Examples
 
-* The [[table of marks]] of a [[finite group]] is a triangular matrix over the [[integers]] ([this Prop.](table+of+marks#TableOfMarksIsInvertibleUpperTriangular)).
+* The [[table of marks]] of a [[finite group]] is a lower triangular matrix over the [[integers]] ([this Prop.](table+of+marks#TableOfMarksIsInvertibleUpperTriangular)).
 
 ## Related concepts
 
