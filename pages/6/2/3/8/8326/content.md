@@ -84,7 +84,7 @@ Other philosophical systems, Hegel claims (see also ([[Lectures on the History o
 
 * [[Descartes]]' mechanism ([LectHistPhil-Descartes](Lectures+on+the+History+of+Philosophy#DescartesMechanism));
 
-* [[Spinoza]]'s _[omnis determinatio est negatio](https://de.wikipedia.org/wiki/Determinatio)_ (Hegel's [determinate negation](#DeterminateNegation)) [EL&#167;91ZusatzA](#EL91ZusatzA)
+* [[Spinoza]]'s *[omnis determinatio est negatio](https://de.wikipedia.org/wiki/Determination_%28Logik%29)* (Hegel's [determinate negation](#DeterminateNegation)) [EL&#167;91ZusatzA](#EL91ZusatzA)
 
 * [[Spinoza]]'s [[Spinoza's system|system]] of _[[substance]]_ ([&#167;1287](#1287));
 
