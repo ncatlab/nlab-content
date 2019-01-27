@@ -178,7 +178,7 @@ Genral introduction and toy examples (e.g. the anharmonic oscillator) are given 
 
 Discussion for [[phi^4 theory]] is in
 
-* Marco Serone, from 2:46 on in _A look at $\phi^4_2$ using perturbation theory_ ([recording](https://www.youtube.com/watch?v=J4nxvY1rOhI))
+* {#Serone18} Marco Serone, from 2:46 on in _A look at $\phi^4_2$ using perturbation theory_, January 2018 ([recording](https://www.youtube.com/watch?v=J4nxvY1rOhI))
 
 Discussion for [[QCD]] includes
 
