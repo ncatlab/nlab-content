@@ -87,6 +87,8 @@ Compare to the identification of concepts with the [[types]] in the sense of [[t
 
 * Wikipedia, _[Critique of Pure Reason](https://en.wikipedia.org/wiki/Critique_of_Pure_Reason)_
 
+* Wikisource, [First edition](https://de.wikisource.org/wiki/Critik_der_reinen_Vernunft_%281781%29) (1881) and [several English translations](https://en.wikisource.org/wiki/Critique_of_Pure_Reason)
+
 * [english translation](http://www.gutenberg.org/files/4280/4280-h/4280-h.htm) by [J. M. D. Meiklejohn](https://en.wikipedia.org/wiki/John_Meiklejohn)
 
 * Achourioti and van Lambalgen June 2011, _A formalization of Kant's transcendental logic_. 
