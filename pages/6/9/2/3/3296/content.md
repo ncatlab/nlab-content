@@ -102,6 +102,10 @@ Notable families of examples include:
 
 * [[canonical characteristic class]], [[Theta characteristic]]
 
+### Of linear representations
+
+* [[characteristic class of a linear representation]]
+
 ### Chern character
 
 The [[Chern character]] is a natural characteristic class with values in real cohomology. See there for more details.
