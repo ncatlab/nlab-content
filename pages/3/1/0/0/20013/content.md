@@ -150,17 +150,17 @@ This follows by the general existence of [[linear extensions of partial orders]]
 
 +-- {: .num_prop #TableOfMarksIsInvertibleUpperTriangular}
 ###### Proposition
-**([[table of marks]] is [[upper-triangular matrix|upper-triangular]] [[invertible matrix]])**
+**([[table of marks]] is [[lower triangular matrix|lower triangular]] [[invertible matrix]])**
 
 
-With respect to any [[linear order]] on the [[conjugacy classes]] of subgroups as in Lemma \ref{LinearOrderOnConjugacyClassesOfSubgroups},  the [[table of marks]] (Def. \ref{TableOfMarks}) becomes a [[lower triangular matrix]] over the [[integers]] with non-[[zero]] entries on the diagonal. Therefore it is in particular an [[invertible matrix]]
+With respect to any [[linear order]] on the [[conjugacy classes]] of subgroups as in Lemma \ref{LinearOrderOnConjugacyClassesOfSubgroups},  the [[table of marks]] (Def. \ref{TableOfMarks}) becomes a [[lower triangular matrix]] over the [[integers]] with non-[[zero]] entries on the diagonal. In  particular, it is an [[invertible matrix]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-That the [[subgroup]] $H_j \subset G$ has any [[fixed points]] in $G/H_i$ means equivalently that $H_j$ is [[conjugation action|conjugate]] to a [[subgroup]] of the [[stabilizer group]] of $[e] = \in G/H_i$. But the latter group is manifestly $H_i$. This says that
+That the [[subgroup]] $H_j \subset G$ has any [[fixed points]] in $G/H_i$ means that there is a $g \in G$ such that $h g H_i = g H_i$ for all $h \in H_j$, and thus that $g^{-1}H_{j}g$ is a subgroup of $H_{i}$, or in other words, that $H_{j}$ is conjugate to a subgroup of $H_{i}$. Hence
 
 $$
   \big(
@@ -173,9 +173,9 @@ $$
   \,,
 $$ 
 
-hence that the matrix $M$ is [[lower triangular matrix|lower triangular]].
+and thus the matrix $M$ is [[lower triangular matrix|lower triangular]].
 
-Finally, it is clear that at least $[e] \in G/H$ is fixed by $H$, which shows that the diagonal entries are positive.
+Since at least $H = 1_{G/H}$ is fixed by $H$, we moreover have that the diagonal entries are non-zero.
 
 
 =--
@@ -312,7 +312,7 @@ But, since $M$ is invertible, the unique solution to this system of equations is
 \begin{corollary} The [[table of marks]] of a finite group determines its [[Burnside ring]]. That is to say, if the tables of marks of a pair of groups $G_{1}$ and $G_{2}$ are [[equality|equal]], then the Burnside ring of $G_{1}$ is [[isomorphism|isomorphic]] to the Burnside ring of $G_{2}$.
 \end{corollary}
 
-\begin{proof} The Burnside ring of a finite group is a free abelian group on the set of conjugacy classes of that group, equipped with a certain multiplication. Thus it suffices to check that the structure constants of the Burnside rings coincide, which is established by the previous proposition. \end{proof}
+\begin{proof} The Burnside ring of a finite group is a free abelian group on the set $G / H_1, \ldots, G / H_t$, where $H_1, \ldots, H_t$ are representatives of the conjugacy classes of that group, equipped with a certain multiplication. Thus it suffices to check that the structure constants of the Burnside rings coincide, which is established by the previous proposition. \end{proof}
 
 
 ## Related concepts
