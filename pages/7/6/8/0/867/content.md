@@ -102,6 +102,22 @@ A poset can be understood as a [[(0,1)-category]]. This suggests an obvious [[ve
 
 ## Properties
 
+### Extension to linear order
+ {#ExtensionToLinearOrder}
+
++-- {: .num_prop #LinearExtension}
+###### Proposition
+
+On a [[finite set]], every [[partial order]] may be 
+[[linear extension of a partial order|extended]] to a [[linear order]].
+
+For non-finite sets this still holds with the [[axiom of choice]].
+
+=--
+
+See at _[[linear extension of a partial order]]_ [this Prop.](linear+extension+of+a+partial+order#LinearExtensionOfAPartialOrder).
+
+
 ### Locales from posets -- Alexandroff topology
 {#LocalesFromPosets}
 
