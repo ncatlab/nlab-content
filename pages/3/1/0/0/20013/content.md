@@ -213,7 +213,7 @@ uniquely defined by the [[equation]]
 ###### Proposition
 **([[Burnside ring]] product in terms of [[table of marks]])**
 
-The Burnside ring structure constants  $\left( n_{i j}^\ell\right)$ (Def. \ref{BurnsideMultiplicities}) are equal to the following algebraic expression in the [[table of marks]] $\left( M_{i j}\right)$ and its [[inverse matrix]] $\left( \left(M^{-1}\right)^{m \ell} \right)$ (which exists by Prop. \ref{TableOfMarksIsInvertibleUpperTriangular}):
+The Burnside ring structure constants  $\left( n_{i j}^\ell\right)$ (Def. \ref{BurnsideMultiplicities}) are equal to the following algebraic expression in the [[table of marks]] $\left( M_{i j}\right)$ and its [[inverse matrix]] $\left( \left(M^{-1}\right)_{r s} \right)$ (which exists by Prop. \ref{TableOfMarksIsInvertibleUpperTriangular}):
 
 $$
   n_{i j}^\ell
@@ -221,7 +221,7 @@ $$
   \underset{m}{\sum}
   M_{i m} \cdot M_{j m}
   \cdot
-  (M^{-1})^{m \ell}
+  (M^{-1})_{m \ell}
 $$
 
 =--
@@ -229,18 +229,18 @@ $$
 +-- {: .proof}
 ###### Proof
 
-We compute as follows:
+Let $t$ be the dimension of $M$, i.e. $M$ is a $t \times t$ matrix. For any $1 \leq m \leq t$, we compute as follows:
 
 $$
   \begin{aligned}
-    \underset{\ell}{\sum}
+    \underset{1 \leq \ell \leq t}{\sum}
     n_{i j}^\ell \cdot M_{\ell m}
     & =
-    \underset{\ell}{\sum}
+    \underset{1 \leq \ell \leq t}{\sum}
     n_{i j}^\ell 
     \cdot
     \left\vert
-      Hom_G
+      Hom_{GSet}
       \big(
         G/H_m
         ,
@@ -250,7 +250,7 @@ $$
     \\
     & =
     \left\vert
-      Hom_G
+      Hom_{GSet}
       \big(
         G/H_m
         ,
@@ -263,7 +263,7 @@ $$
     \\
     & =
     \left\vert
-      Hom_G\big(
+      Hom_{GSet}\big(
        G/H_m, 
        \;
        G/H_i \times G/H_j
@@ -272,7 +272,7 @@ $$
     \\
     & =
     \left\vert
-      Hom_G\big(
+      Hom_{GSet}\big(
        G/H_m, 
        \;
        G/H_i 
@@ -280,7 +280,7 @@ $$
     \right\vert
     \cdot
     \left\vert
-      Hom_G\big(
+      Hom_{GSet}\big(
        G/H_m, 
        \;
        G/H_j
@@ -294,11 +294,25 @@ $$
 
 Here the third step uses the defining equation (eq:BurnsideStructureConstants) of the structure constants $n_{i j}^\ell$, while all other steps use that the mark homomorphism is a [[ring homomorphism]], which we made manifest by expressing the marks via [[hom-sets]] (Remark \ref{TableOfMarksInTermsOfHoms}).
 
-The claim now follows by [[matrix multiplication]] of both sides of this equation by $M^{-1}$.
+Thus we have that $\left( n_{i j}^{1}, n_{i j}^{2}, \ldots, n_{i j}^{t} \right)$ is a solution to the following system of equations.
+
+$$
+\begin{aligned}
+    M_{i 1} \cdot M_{j 1} &= M_{1 1}x_{1} + \cdots + M_{t 1}x_{t} \\
+    M_{i 2} \cdot M_{j 2} &= M_{1 2}x_{1} + \cdots + M_{t 2} x_{t} \\
+                          &\vdots \\
+   M_{i t} \cdot M_{j t} &= M_{1 t}x_{1} + \cdots + M_{t t} x_{t}  
+\end{aligned}
+$$
+
+But, since $M$ is invertible, the unique solution to this system of equations is given by the product of $M^{-1}$ and the transposition of $\left( M_{i 1} \cdot M_{j 1}, \ldots, M_{i t} \cdot M_{j t} \right)$. The claim follows immediately.
 
 =--
 
+\begin{corollary} The [[table of marks]] of a finite group determines its [[Burnside ring]]. That is to say, if the table of marks of a pair of groups $G_{1}$ and $G_{2}$ are equal, then the Burnside ring of $G_{1}$ is isomorphic to the Burnside ring of $G_{2}$.
+\end{corollary}
 
+\begin{proof} The Burnside ring of a finite group is a free abelian group on the set of conjugacy classes of that group, equipped with a certain multiplication. Thus it suffices to check that the structure constants of the Burnside rings coincide, which is established by the previous proposition. \end{proof}
 
 
 ## Related concepts
