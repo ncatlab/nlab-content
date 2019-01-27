@@ -55,6 +55,8 @@ This last sentence—implicitly about experimental replication—is often conven
 In [[particle physics]], it has become customary to require statistical significance levels of $5 \sigma$ (5 [[standard deviations]]) in order to claim that a given observation is a real effect (e.g. [Sinervo 02, Section 5.3](#Sinervo02), [Dorigo 15, Section 3](#Dorigo15)). This corresponds to a probability ([[p-value]]) of about
 
 $$
+  5 \sigma
+  \;\leftrightarrow\;
   p
   \;=\;
   2.8 \cdot 10^{-7}
