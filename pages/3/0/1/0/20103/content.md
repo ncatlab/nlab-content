@@ -1,4 +1,3 @@
-[[!redirects Chern class of a linear representation]]
 
 
 +-- {: .rightHandSide}
@@ -26,7 +25,7 @@ Given a [[linear representation]] of a [[finite group]] $G$ on a [[finite-dimens
 
 ## Definition
 
-Under the identification of the [[representation ring]] with the [[equivariant K-theort of the point]] (see [there](equivariant+K-theory#eq:RepresentationRingAsEquivariantKTheoryOfThePoint)) and the [[Atiyah-Segal completion]] map
+Under the identification of the [[representation ring]] with the [[equivariant K-theory]] of the [[point]] (see [there](equivariant+K-theory#eq:RepresentationRingAsEquivariantKTheoryOfThePoint)) and the [[Atiyah-Segal completion]] map
 
 $$
   R_{\mathbb{C}}(G)
@@ -128,12 +127,22 @@ application of the [[splitting principle]] to linear representation (...)
 * {#Evens65} Leonard Evens, _On the Chern Classes of Representations of Finite Groups_, Transactions of the American Mathematical Society
 Vol. 115 (Mar., 1965), pp. 180-193 ([doi:10.2307/1994264](https://www.jstor.org/stable/1994264))
 
-* F. Kamber, Ph. Tondeur, _Flat Bundles and Characteristic Classes of Group-Representations_, American Journal of Mathematics
-Vol. 89, No. 4 (Oct., 1967), pp. 857-886 ([doi:10.2307/2373408](https://www.jstor.org/stable/2373408))
+* {#LamberTondeur67} F. Kamber, [[Philippe Tondeur]], _Flat Bundles and Characteristic Classes of Group-Representations_, American Journal of Mathematics, Vol. 89, No. 4 (Oct., 1967), pp. 857-886 ([doi:10.2307/2373408](https://www.jstor.org/stable/2373408))
+
+* {#Kroll87} Ove Kroll, _An Algebraic Characterisation of Chern Classes of Finite Group Representations_, Bulletin of the LMS, Volume19, Issue3 May 1987 Pages 245-248 ([doi:10.1112/blms/19.3.245](https://doi.org/10.1112/blms/19.3.245))
+
+* J. Gunarwardena, B. Kahn, C. Thomas, _Stiefel-Whitney classes of real representations of finite groups_, Journal of Algebra Volume 126, Issue 2, 1 November 1989, Pages 327-347 (<a href="https://doi.org/10.1016/0021-8693(89)90309-8">doi:10.1016/0021-8693(89)90309-8</a>)
+
+* {#Beauville01} Arnaud Beauville, _Chern classes for representations of reductive groups_ ([arXiv:math/0104031](https://arxiv.org/abs/math/0104031))
 
 [[splitting principle]]:
 
 * {#Symonds91} [[Peter Symonds]], _A splitting principle for group representations_, Comment. Math. Helv. (1991) 66: 169 ([doi:10.1007/BF02566643](https://doi.org/10.1007/BF02566643))
 
+[[!redirects characteristic classes of a linear representation]]
+[[!redirects characteristic classes of linear representations]]
+
+[[!redirects Chern class of a linear representation]]
+[[!redirects Chern classes of a linear representation]]
 [[!redirects Chern classes of linear representations]]
  
