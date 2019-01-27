@@ -309,7 +309,7 @@ But, since $M$ is invertible, the unique solution to this system of equations is
 
 =--
 
-\begin{corollary} The [[table of marks]] of a finite group determines its [[Burnside ring]]. That is to say, if the table of marks of a pair of groups $G_{1}$ and $G_{2}$ are equal, then the Burnside ring of $G_{1}$ is isomorphic to the Burnside ring of $G_{2}$.
+\begin{corollary} The [[table of marks]] of a finite group determines its [[Burnside ring]]. That is to say, if the tables of marks of a pair of groups $G_{1}$ and $G_{2}$ are [[equality|equal]], then the Burnside ring of $G_{1}$ is [[isomorphism|isomorphic]] to the Burnside ring of $G_{2}$.
 \end{corollary}
 
 \begin{proof} The Burnside ring of a finite group is a free abelian group on the set of conjugacy classes of that group, equipped with a certain multiplication. Thus it suffices to check that the structure constants of the Burnside rings coincide, which is established by the previous proposition. \end{proof}
