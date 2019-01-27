@@ -40,3 +40,7 @@ What is called _Gaussian elimination_ is an [[algorithm]] for solving systems of
 
 [[!redirects elementary column operation]]
 [[!redirects elementary column operations]]
+
+[[!redirects Gauss elimination procedure]]
+[[!redirects Gauss elimination procedures]]
+
