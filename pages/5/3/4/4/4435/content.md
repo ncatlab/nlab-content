@@ -54,7 +54,7 @@ These relations are sometimes called **Cartan calculus**. The first one is somet
 
 ## In $\infty$-Lie theory
 
-The relations of Cartan calculus are preciselyy those in an [[inner derivation Lie 2-algebra]].
+The relations of Cartan calculus are precisely those in an [[inner derivation Lie 2-algebra]].
 
 This allows to generalize Cartan calculus to $\infty$-Lie algebroids, see the section <a href="http://ncatlab.org/nlab/show/Weil+algebra#AsInnerDer">As inner derivations</a> at [[Weil algebra]].
 
