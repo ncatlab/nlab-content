@@ -212,4 +212,8 @@ The generalization to a splitting principle for [[twisted vector bundles]] ([[tw
 
 * {#Tomoda07} [[Atsushi Tomoda]], _On the splitting principle of bundle gerbe modules_, Osaka J. Math. Volume 44, Number 1 (2007), 231-246. ([Euclid](https://projecteuclid.org/euclid.ojm/1174324334), talk slides [pdf](http://ton.prosou.nu/official/ryousi2005.pdf))
 
+Discussion in [[representation theory]] (for [[linear representations]]):
+
+* {#Symonds91} Peter Symonds, _A splitting principle for group representations_, Comment. Math. Helv. (1991) 66: 169 ([doi:10.1007/BF02566643](https://doi.org/10.1007/BF02566643))
+
 [[!redirects Chern root]]
