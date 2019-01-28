@@ -82,6 +82,8 @@ A further [[right adjoint]] $f_*$ would be called _[[coextension of scalars]]_ a
 
 =--
 
+See also [[induced representation]] $\dashv$ [[restricted representation]].
+
 ### In components
 
 +-- {: .num_prop}
