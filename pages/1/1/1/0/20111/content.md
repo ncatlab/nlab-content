@@ -48,7 +48,7 @@ $$
 
 This may be thought of as a [[splitting principle]] for [[linear representations]] ([Symonds 91](#Symonds91)).
 
-Brauer induction generalizes the immediate statement that [[finite dimensional vector space|finite-dimensional]] [[permutation representations]] are all [[direct sums]] of [[induced representations]] of the _[[trivial representation|trivial]]_ 1-dimensional representation.
+Brauer induction generalizes the immediate statement that [[finite dimensional vector space|finite-dimensional]] [[permutation representations]] are all [[direct sums]] of [[induced representations]] of the _[[trivial representation|trivial]]_ 1-dimensional representation; see at _[[induced representation of the trivial representation]]_.
 
 The analogous statement holds true also for [[ground ring]] the [[quaternions]], while for [[ground field]] the [[real numbers]] one has to induce not just from 1-dimensional but also from 2-dimensional representations.
 
