@@ -187,6 +187,11 @@ Here
 
 ## Properties
 
+### Brauer induction theorem
+ {#BrauerInductionTheorem}
+
+The [[Brauer induction theorem]] says that over the [[complex numbers]] the [[virtual representations]] of a [[finite group]] are all virtual combinations of [[induced representations]] of 1-dimensional representations.
+
 ### Unitarity
 
 +-- {: .standout}
