@@ -184,7 +184,7 @@ Every combinatorial map is a $\mathcal{C}_2^+$-set, i.e., a set equipped with an
 
 +-- {: .num_remark}
 ###### Remark
-The [[moebius transformation#abstract_structure_of_modular_group|modular group]] $PSL_2(\mathbb{Z}) \cong \mathbb{Z}_3 \star \mathbb{Z}_2$ is a subgroup of the oriented cartographic group.  Sets equipped with a transitive action of $PSL_2(\mathbb{Z})$ are the same thing as trivalent combinatorial maps, which represent trivalent graphs (possibly including degeneracies) embedded in oriented surfaces (or dually, triangulations of oriented surfaces).
+The [[moebius transformation#abstract_structure_of_modular_group|modular group]] $PSL_2(\mathbb{Z}) \cong \mathbb{Z}_3 \star \mathbb{Z}_2$ is a quotient of the oriented cartographic group.  Sets equipped with a transitive action of $PSL_2(\mathbb{Z})$ are the same thing as trivalent combinatorial maps, which represent trivalent graphs (possibly including degeneracies) embedded in oriented surfaces (or dually, triangulations of oriented surfaces).
 =--
 
 For any given map $M$ with underlying set of darts $D$ we will denote the action of the oriented cartographic group by
