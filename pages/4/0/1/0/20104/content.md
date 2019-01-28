@@ -7,8 +7,13 @@
 
 ## related $n$Lab entries
 
+* [[representation ring]]
+
 * [[characteristic class of a linear representation]]
 
 * [[splitting principle]]
+
+* [[Brauer induction theorem]]
+
 
 category:people
