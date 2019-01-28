@@ -116,7 +116,7 @@ $$
 
 ### Splitting principle
 
-application of the [[splitting principle]] to linear representation (...)
+application of the [[splitting principle]] to linear representation via the [[Brauer induction theorem]] (...)
 
 ([Symonds 91, p. 4 & Prop. 2.4](#Symonds91))
 
