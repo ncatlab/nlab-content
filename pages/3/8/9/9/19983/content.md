@@ -24,6 +24,8 @@ on [[homotopy theory]], [[higher algebra]] and [[higher category theory]].
 
 * [[Mark Behrens]], _Topological modular and automorphic forms_ ([arXiv:1901.07990](https://arxiv.org/abs/1901.07990))
 
+* [[Tobias Barthel]] and [[Agnès Beaudry]], _Chromatic structures in stable homotopy theory_ ([arXiv:1901.09004](https://arxiv.org/abs/1901.09004))
+
 * ...
 
 ## Related entries
