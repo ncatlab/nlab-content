@@ -115,6 +115,7 @@ $$
 ## Properties
 
 ### Splitting principle
+ {#SplittingPrinciple}
 
 Let $G$ be a [[finite group]], let the [[ground field]] to be the [[complex numbers]].
 
@@ -127,11 +128,17 @@ $$
 has a presentation as a virtual combination of [[induced representations]] of 1-[[dimension|dimensional]] representations:
 
 $$
+ [V]
+ \;=\;
  \underset{
      \mathclap{
          {H_i \hookrightarrow G} 
            \atop 
-         { W_i \in Rep(H_i) \,,\; dim(W_i) =1 }
+         { 
+           { W_i \in Rep(H_i) \,, }
+           \atop
+           { dim(W_i) =1 }
+         }
      }
    }{\sum}
    n_i
@@ -140,9 +147,20 @@ $$
   \right]
 $$
 
-According to [Symonds 91, p. 4 & Prop. 2.4](#Symonds91), this implies a [[splitting principle]] for the corresponding [[Chern classes]] summarized in the formal [[Chern character]] (formal sum of all [[Chern classes]]) as follows:
+According to [Symonds 91, p. 4 & Prop. 2.4](#Symonds91), this implies a [[splitting principle]] for the corresponding [[Chern classes]] summarized in the formal [[Chern character]] (formal sum of all [[Chern classes]]) 
 
 $$
+  ch(V)
+  \;\coloneqq\;
+  1 + c_2(V) + c_2(V) + \cdots
+  \;\in\;
+  \underset{k}{\prod} H^{2 k}\big( B G , \mathbb{Z}\big)
+$$
+
+as follows:
+
+\[
+  \label{SplittingFormulaForChernCharacterOfLinearRepresentation}
   ch
   \left(
      V
@@ -160,29 +178,97 @@ $$
      }
    }{\prod}
    \mathcal{N}_{H_i}^G
-    \overset{
-      \mathclap{
-        = (1 + c_1(W_i))
+   \Big(
+     \overset{
+        \mathclap{
+          = (1 + c_1(W_i))
+        }
+      }{
+      \overbrace{
+        ch\left(W_i\right)
       }
-    }{
-    \overbrace{
-      ch\left(W_i\right)
-    }
-   }
-   {}^{\alpha(W_i)}
+     }
+     {}^{\alpha(W_i)}
+   \Big)
    \;\;
    \in 
    \underset{ k \in \mathbb{N} }{\prod}
    H^{2k}\big(B G, \mathbb{Z} \big)
-$$
+\]
 
 where 
 
-1. the "multiplicative transfer" [[integers]] $\mathcal{N}_J^G$ are to be found in [Evens 63](#Evens63);
+1. the transfer maps 
+
+   \[
+     \label{MultiplicativeTransfer}
+     \mathcal{N}_H^G
+     \;\colon\;
+     H^\bullet(B H, \mathbb{Z})
+       \longrightarrow
+     H^\bullet( B G, \mathbb{Z} )
+   \] 
+
+   are from [Evens 63, bottom of p. 7](#Evens63),
 
 1. the $\alpha(W_i)$-s are the [[Euler characteristics]] of certain [[CW-complexes]], described in [Symonds 91, p. 3](#Symonds91).
 
 Here over the brace we used that the $W_i$ are 1-dimensional, so that at most their [[first Chern class]] may be non-vanishing.
+
+Notice that the transfer maps (eq:MultiplicativeTransfer) are multiplicative under [[cup product]] ([Evens 63, prop. 4](#Evens63)), whence [Symonds 91](#Symonds91) refers to them as the "mutliplicative transfer".
+
+**Example**
+
+If $[V]$ is a [[virtual representation|virtual]] [[permutation representation]], so that all the $W_i$ may be taken to be [[trivial representations]] $W_i = \mathbf{1}_{H_i} \in Rep(H_i)$ (see at _[[induced representation of the trivial representation]]_)
+then (eq:SplittingFormulaForChernCharacterOfLinearRepresentation) becomes
+
+$$ 
+ ch
+  \left(
+     V
+  \right)
+  \;=\;
+  \underset{ 
+     \mathclap{
+         {H_i \hookrightarrow G} 
+     }
+   }{\prod}
+   \underset{
+     = \pm 1
+   }{
+     \underbrace{
+       \mathcal{N}_{H_i}^G
+       \Big(
+         \underset{
+            = 1
+         }{
+           \underbrace{
+             \underset{
+               = 1
+             }{
+               \underbrace{
+                 ch(\mathbf{1})
+               }
+             }^{\alpha(W_i)}
+           }
+         }
+       \Big)
+     }
+   }
+   \;=\;
+   \pm 1
+  \,,
+$$
+
+where under the braces we used, succesively
+
+1. that the Chern character of the trivial rank-1 bundle is 1;
+
+1. that any power of 1 is 1
+
+1. that the transfer $\mathcal{N}_H^G$ is multiplicative, hence sends 1 to a [[unit]] (highlighted in [Evens 63, Remark 1 on p. 10](#Evens63)) which in $H^0(B G, \mathbb{Z}) \simeq \mathbb{Z}$ must be $\pm 1$
+
+and finally that any power of $\pm 1$ is $\pm 1$.
 
 (...)
 
