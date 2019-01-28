@@ -54,12 +54,17 @@ $$
 
 be a pair of [[functors]] between them, as shown. Then this is called a _pair of [[adjoint functors]]_ (or an _[[adjoint pair]] of [[functors]]_) with $L$ _[[left adjoint]]_ and $R$ _[[right adjoint]]_, denoted 
 
-$$
-  \mathcal{D}
-    \underoverset
-      {\underset{R}{\longrightarrow}}{\overset{L}{\longleftarrow}}{\bot}
-  \mathcal{C}
-$$
+
+\begin{center}
+  \begin{tikzcd}
+    \mathcal{D}
+     \arrow[r, shift right=6pt, "R"', "\bot"]
+    & 
+    \mathcal{C}
+     \arrow[l, shift right=6pt, "L"']
+  \end{tikzcd}
+\end{center}
+
 
 if there exists a [[natural isomorphism]] between the [[hom-functors]] of the following form:
 
