@@ -14,7 +14,7 @@ B \ar[r,shift left,"f"] \ar[r,shift right,"g"'] \ar[l,bend right=40,"s"']
 
 in which $s e = id_A$, $t g = id_B$ and $t f = e s$. 
 
-Surely, $f$ and $g$ can be interchanged in the definition (a matter of unimportant convention). 
+Of course, $f$ and $g$ can be interchanged in the definition.
 
 Every split fork is an [[absolute limit|absolute]] [[equalizer]], but not conversely.  See also [[split coequalizer]].
 
