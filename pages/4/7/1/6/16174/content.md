@@ -34,6 +34,20 @@ Explicitly, the Burnside ring can be seen to be the free abelian group on the se
 
 ## Properties
 
+### Span by the coset spaces $G/H$
+
+Since every [[finite set|finite]] [[G-set]] is a [[direct sum]] of the basic [[coset spaces]] $G/H$, for $H \hookrightarrow G$ [[subgroups]] of $G$, and since $G/H_1$ and $G/H_2$ are [[isomorphism|isomorphic]] [[G-sets]] of $H_1$ and $H_2$ are [[conjugation action|conjugate]] to each other, the Burnside ring is spanned, as an [[abelian group]] by the $[G/H]$ for $H$ ranging over [[conjugacy classes]] of subgroups.
+
+$$
+  A(G)
+  \;\simeq_{\mathbb{Z}}\;
+  \underset{[H \subset G]}{\oplus}
+  [G/H]
+  \,.
+$$
+
+Notice that the [[permutation representations]] $k[G/H]$ corresponding to these generators are precisely the [[induced representations of trivial representations]]: $k[G/H] \simeq ind_H^G(\mathbf{1})$.
+
 ### In terms of the table of marks
  {#InTermsOfTheTableOfMarks}
 
