@@ -194,6 +194,9 @@ $$
 from the [[sphere spectrum]] to [[KU]].
 
 
+### Splitting principle and Brauer induction theorem
+
+The [[Brauer induction theorem]] says that, over the [[complex numbers]], the representation ring is generated already from the [[induced representations]] of 1-dimensional representations. This may be regarded as the [[splitting principle]] for linear representations and for [[characteristic classes of linear representations]] ([Symonds 91](#Symonds91)).
 
 
 ## Examples
@@ -245,6 +248,11 @@ In the generality of [[super Lie groups]]:
 With an eye towards [[loop group representations]]:
 
 * {#Brylinski90} [[Jean-Luc Brylinski]], _Representations of loop groups, Dirac operators on loop space, and modular forms_, Topology, 29(4):461&#8211;480, 1990.
+
+Concerning the [[Brauer induction theorem]] and the [[splitting principle]]:
+
+* {#Symonds91} [[Peter Symonds]], _A splitting principle for group representations_, Comment. Math. Helv. (1991) 66: 169 ([dml:140229](https://eudml.org/doc/140229), [doi:10.1007/BF02566643](https://doi.org/10.1007/BF02566643))
+
 
 ### Adams operations
 
