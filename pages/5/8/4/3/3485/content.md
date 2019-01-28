@@ -222,8 +222,7 @@ we may regard this as [[extension of scalars]] along $\mathbb{F}_1 \to  \mathbb{
 
 ## Examples
 
-### Permutation representations
- {#ExamplesPermutationRepresentations}
+### Basic examples
 
 +-- {: .num_example #RegularRepresentation}
 ###### Example
@@ -244,6 +243,27 @@ $$
 be the canonical [[action]] of $G$ on itself, by left multiplication in the group. The corresponding linear permutation representation $(k[G_s], k(\rho_\ell))$ (Def. \ref{LinearPermutationRepresentation}) is called the _[[regular representation]]_ of $G$.
 
 =--
+
+
++-- {: .num_example}
+###### Example
+**([[induced representation of the trivial representation]])**
+
+Let $G$ be a [[finite group]] and $H \overset{\iota}{\hookrightarrow} G$ a [[subgroup]]-inclusion. Then the [[induced representation]] in [[representation category|Rep(G)]] of the [[trivial representation]] $\mathbf{1} \in Rep(H)$ is the [[permutation representation]] $k[G/H]$ of the [[coset]] [[G-set]] $G/H$:
+
+$$
+  \mathrm{ind}_H^G\big( \mathbf{1}\big)
+  \;\simeq\;
+  k[G/H]
+  \,.
+$$ 
+
+This follows directly as a special case of the general formula for [[induced representations]] of [[finite groups]] ([this Example](induced+representation#InductionOfFiniteDimensionalRepresentationsOfFiniteGroups)).
+
+See at _[[induced representation of the trivial representation]]_ for more.
+
+=--
+
 
 ### Virtual permutation representations
  {#ExamplesVirtualPermutationRepresentations}
