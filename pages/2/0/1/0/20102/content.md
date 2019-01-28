@@ -43,10 +43,9 @@ A proof under [[axiom of choice|AC]] was first published in ([Marczewski 30](#Ma
 
 +-- {: .proof} 
 ###### Proof 
-It is a very simple matter to show linear extensions exist in the finite case: one may proceed by induction. Any finite $n$-element poset has a minimal element $x$ (meaning $y \leq x$ implies $y = x$). By induction the restricted partial order on $X \setminus \{x\}$ admits a linear extension, and then one may simply prepend $x$ to that linear order to complete the inductive step. 
+It is a very simple matter to show linear extensions exist in the [[finite set|finite]] case: one may proceed by [[induction]]. Any finite $n$-element poset has a [[minimal element]] $x$ (meaning $y \leq x$ implies $y = x$). By induction the restricted partial order on $X \setminus \{x\}$ admits a linear extension, and then one may simply prepend $x$ to that linear order to complete the inductive step. 
 
-The rest is a routine application of compactness for propositional theories. 
-Let $(X, \leq)$ be a partially ordered set, and introduce a [[signature]] consisting of [[constants]] $c_x$, one for each $x \in X$, and a binary relation $L$. Introduce axioms $\neg(c_x = c_y)$ whenever $x \neq y$ in $X$, and $L(c_x, c_y)$ whenever $x \leq y$ in the poset $X$, and axioms stating that $L$ is a linear order. By the previous paragraph, the resulting theory is finitely satisfiable upon interpreting each $c_x$ as $x$. Hence the theory is satisfiable. Taking any model, the interpretation of the constants produces a linear extension on $X$.   
+The rest is a routine application of compactness for [[propositional theories]]. Let $(X, \leq)$ be a partially ordered set, and introduce a [[signature]] consisting of [[signature|constants]] $c_x$, one for each $x \in X$, and a [[binary relation]] $L$. Introduce [[axioms]] $\neg(c_x = c_y)$ whenever $x \neq y$ in $X$, and $L(c_x, c_y)$ whenever $x \leq y$ in the poset $X$, and axioms stating that $L$ is a linear order. By the previous paragraph, the resulting theory is finitely satisfiable upon interpreting each $c_x$ as $x$. Hence the theory is satisfiable. Taking any [[model]] $M$, and interpreting the constants in $M$, and restricting $L$ to them, we obtain a linear extension on $X$.   
 =--
 
 
