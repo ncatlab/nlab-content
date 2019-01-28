@@ -34,6 +34,8 @@ Roughly speaking, a **factorization system** on a [[category]] consists of two c
 
 * In a [[bicategory]] (i.e. a possibly non-strict [[2-category]]) one wants instead the notion of [[factorization system in a 2-category]], which is like a Cat-enriched OFS "up to isomorphism."  The situation in an [[n-category]] is analogous; see for instance [[orthogonal factorization system in an (∞,1)-category]] and [[orthogonal factorization system in a derivator]].
 
+* In a [[model category]], a [[homotopy factorization system]] leverages the ambient weak factorization systems to give a presentation of an orthogonal factorization system in the underlying $(\infty,1)$-category.
+
 * In a [[strict 2-category]] there is also the notion of an [[enhanced factorization system|enhanced (orthogonal) factorization system]], of which the main example is [[bo-ff factorization system|(bo,ff)]] in [[Cat]].
 
 * A [[strict factorization system]] is one in which the factorizations are specified uniquely on the nose, rather than merely up to isomorphism.
