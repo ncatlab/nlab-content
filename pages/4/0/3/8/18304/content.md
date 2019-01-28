@@ -10,6 +10,7 @@ The analogue of an [[orthogonal factorization system]] in a [[derivator]].
 ## Related concepts
 
 * [[orthogonal factorization system in an (∞,1)-category]]
+* [[homotopy factorization system in a model category]]
 
 ## References
 
