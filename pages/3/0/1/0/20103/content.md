@@ -304,4 +304,11 @@ and finally again that any power of 1 is 1.
 [[!redirects Chern class of a linear representation]]
 [[!redirects Chern classes of a linear representation]]
 [[!redirects Chern classes of linear representations]]
+
+[[!redirects total Chern class of a linear representation]]
+[[!redirects total Chern classes of a linear representation]]
+[[!redirects total Chern classes of linear representations]]
  
+
+
+
