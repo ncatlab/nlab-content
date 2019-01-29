@@ -609,7 +609,7 @@ or definition 1.3 in
  
 
 
-Smith's theorem appears as proposition ([Lurie, A.2.6.8](#Lurie))  and as ([Barwick, prop. 1.7](#Barwick)).
+Smith's theorem appears as ([Lurie, A.2.6.10](#Lurie))  and as ([Barwick, prop. 1.7](#Barwick)).
 
 Dugger's theorem is due to
 
