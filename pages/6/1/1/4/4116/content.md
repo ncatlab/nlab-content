@@ -109,7 +109,9 @@ The topological topos is discussed in the context of [[convenient category of to
 
 * H. A. Harasani, _Topos theoretic methods in general topology_ , PhD Thesis University of Wales Bangor 1988.
 
-Recently, the topos has received attention in the context of [[Homotopy type theory]]: 
+Recently, the topos has received attention in the context of [[Homotopy type theory]]. E.g. Shulman speculates about a [[higher topos]] analogue which would be a model of [[homotopy type theory]].
+
+* [[Michael Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, 2015 [arXiv](https://arxiv.org/abs/1509.07584)
 
 * [[Martín Escardó]], [[Thomas Streicher]], _The intrinsic topology of Martin-Lof universes_, APAL (2016). ([pdf](http://www.cs.bham.ac.uk/~mhe/papers/universe-indiscrete.pdf))
 
