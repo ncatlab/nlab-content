@@ -36,7 +36,7 @@ $$
   
 $$
 
-one may ask for the [[Chern character]] of the K-theory class $\widehat{V} \in KU(B G)$ expressed in terms of the actual [[character]] of the [[representation]] $V$. 
+one may ask for Chern classes of the K-theory class $\widehat{V} \in KU(B G)$ expressed in terms of the actual [[character]] of the [[representation]] $V$. 
 
 (...)
 
@@ -147,10 +147,12 @@ $$
   \right]
 $$
 
-According to [Symonds 91, p. 4 & Prop. 2.4](#Symonds91), this implies a [[splitting principle]] for the corresponding [[Chern classes]] summarized in the formal [[Chern character]] (formal sum of all [[Chern classes]]) 
+Of course this expansion is not unique.
+
+According to [Symonds 91, p. 4 & Prop. 2.4](#Symonds91), there is a natural choice for this expansion, and for this there holds a [[splitting principle]] for the corresponding [[Chern classes]] summarized in the [[total Chern class]] (formal sum of all [[Chern classes]]) 
 
 $$
-  ch(V)
+  c(V)
   \;\coloneqq\;
   1 + c_2(V) + c_2(V) + \cdots
   \;\in\;
@@ -217,7 +219,9 @@ Here over the brace we used that the $W_i$ are 1-dimensional, so that at most th
 
 Notice that the transfer maps (eq:MultiplicativeTransfer) are multiplicative under [[cup product]] ([Evens 63, prop. 4](#Evens63)), whence [Symonds 91](#Symonds91) refers to them as the "mutliplicative transfer".
 
-**Example**
+**Example** 
+
+> or not, check
 
 If $[V]$ is a [[virtual representation|virtual]] [[permutation representation]], so that all the $W_i$ may be taken to be [[trivial representations]] $W_i = \mathbf{1}_{H_i} \in Rep(H_i)$ (see at _[[induced representation of the trivial representation]]_)
 then (eq:SplittingFormulaForChernCharacterOfLinearRepresentation) becomes
@@ -247,7 +251,7 @@ $$
                = 1
              }{
                \underbrace{
-                 ch(\mathbf{1})
+                 c(\mathbf{1})
                }
              }^{\alpha(W_i)}
            }
@@ -262,7 +266,7 @@ $$
 
 where under the braces we used, succesively
 
-1. that the Chern character of the trivial rank-1 bundle is 1;
+1. that the [[total Chern class]] of the trivial rank-1 bundle is 1;
 
 1. that any power of 1 is 1
 
