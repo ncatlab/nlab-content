@@ -36,7 +36,18 @@ More generally, there are _[[generalized Chern classes]]_ for any [[complex orie
 +-- {: .num_defn}
 ###### Definition
 
-For $n \geq 1$ the Chern universal [[characteristic classes]] $c_i \in H^{2i}(B U(n), \mathbb{Z})$ of the [[classifying space]] $B U(n)$ of the [[unitary group]] are characterized as follows:
+For $n \geq 1$ the _[[universal characteristic classes|universal]] Chern [[characteristic classes|classes]]_ 
+
+$$
+  c_i 
+    \;\in\; 
+  H^{2i}
+  \big(
+    B U(n), \mathbb{Z}
+  \big)
+$$ 
+
+of the [[classifying space]] $B U(n)$ of the [[unitary group]] are the [[cohomology classes]] of $B U(n)$ in [[integral cohomology]] that are characterized as follows:
 
 1. $c_0 = 1$ and $c_i = 0$ if $i \gt n$;
 
@@ -45,6 +56,20 @@ For $n \geq 1$ the Chern universal [[characteristic classes]] $c_i \in H^{2i}(B 
 1. under pullback along the inclusion $i : B U(n) \to B U(n+1)$ we have $i^* c_i^{(n+1)} = c_i^{(n)}$;
 
 1. under the inclusion $B U(k) \times B U(l) \to B U(k+l)$ we have $i^* c_i = \sum_{j = 0}^i c_i \cup c_{j-i}$.
+
+The corresponding _total Chern class_ is the formal sum
+
+$$
+  c 
+  \;\coloneqq\;
+  1 + c_1 + c+2 + \cdots
+  \;\in\;
+  \underset{k}{\prod} 
+  H^{2k}
+  \big(
+    B U(n)
+  \big)
+$$
 
 =--
 
@@ -616,3 +641,7 @@ See also
 
 [[!redirects Chern root]]
 [[!redirects Chern roots]]
+
+[[!redirects total Chern class]]
+[[!redirects total Chern classes]]
+
