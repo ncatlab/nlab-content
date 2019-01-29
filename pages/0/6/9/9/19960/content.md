@@ -42,7 +42,7 @@ In approaches to $AdS/QCD$ one distinguishes [[top-down model building]] -- wher
 #### Witten-Sakai-Sugimoto model
   {#WittenSakaiSugimotoModel}
 
-A good [[top-down model building]]-approach to AdS/QCD is due to [Sakai-Sugimoto 04](#SakaiSugimoto04), [Sakai-Sugimoto 05](#SakaiSugimoto05) based on [Witten 98](#Witten98), see [Rebhan 14](#Rebhan14) for review. 
+A good [[top-down model building]]-approach to AdS/QCD is due to [Sakai-Sugimoto 04](#SakaiSugimoto04), [Sakai-Sugimoto 05](#SakaiSugimoto05) based on [Witten 98](#Witten98), see [Rebhan 14](#Rebhan14), [Sugimoto 16](#Sugimoto16) for review. 
 
 This model realizes something close to [[QCD]] on [[intersecting D-brane models|coincident]] [[black brane|black]] [[M5-branes]] with [[near horizon geometry]] a [[KK-compactification]] of $AdS_7 \times S^4$ in the decoupling limit where the [[worldvolume]] theory becomes the [[6d (2,0)-superconformal SCFT]]. The [[KK-compactification]] is on a [[torus]] with anti-periodic boundary conditions for the [[fermions]] in one direction, thus [[spontaneous symmetry breaking|breaking]] all [[supersymmetry]]. Here the first circle [[KK-compactification|reduction]] realizes, under [[duality between M-theory and type IIA string theory]], the [[M5-branes]] as [[D4-branes]], hence the model now looks like 5d [[Yang-Mills theory]] further [[KK-compactification|compactified]] on a circle. ([Witten 98, section 4](#Witten98)). 
 
