@@ -234,7 +234,7 @@ $$
      }
    }{\prod}
    \underset{
-     = \pm 1
+     = 1
    }{
      \underbrace{
        \mathcal{N}_{H_i}^G
@@ -266,9 +266,9 @@ where under the braces we used, succesively
 
 1. that any power of 1 is 1
 
-1. that the transfer $\mathcal{N}_H^G$ is multiplicative, hence sends 1 to a [[unit]] (highlighted in [Evens 63, Remark 1 on p. 10](#Evens63)) which in $H^0(B G, \mathbb{Z}) \simeq \mathbb{Z}$ must be $\pm 1$
+1. that the transfer $\mathcal{N}_H^G$ is multiplicative, hence sends the idempotent 1 to an idempotent (see also [Evens 63, Remark 1 on p. 10](#Evens63)) which in $H^0(B G, \mathbb{Z}) \simeq \mathbb{Z}$ must be $1$
 
-and finally that any power of $\pm 1$ is $\pm 1$.
+and finally again that any power of 1 is 1.
 
 (...)
 
