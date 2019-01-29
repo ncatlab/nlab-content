@@ -2,21 +2,16 @@
 
 \begin{tikzcd}
   \mathcal{D}
-   \arrow[r, shift right=7pt, "R"', "\bot"]
+   \arrow[r, shift right=6pt, "R"', "\bot"]
+   \arrow[r, <-, shift left=6pt, "L"]
   & 
   \mathcal{C}
-   \arrow[l, shift right=7pt, "L"']
 \end{tikzcd}
 
 
 
-      \begin{tikzcd}
         \mathcal{D}
-        \arrow[r, shift right=7pt, "R"', "\bot"]
-        & 
+         \arrow[r, shift right=6pt, "R"', "\bot"]
+         \arrow[r, <-, shift left=6pt, "L"]
+         & 
         \mathcal{C}
-        \arrow[l, shift right=7pt, "L"']
-       end{tikzcd}
-
-
-
