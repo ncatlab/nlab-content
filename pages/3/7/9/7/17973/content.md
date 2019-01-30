@@ -73,6 +73,10 @@ The reason is that in these models there is one copy of a set of fundamental par
 
 > graphics grabbed from [Uranga 12a, p. 13](#Uranga12a)
 
+### Yukawa couplings
+
+[[Yukawa couplings]] via [[Fukaya category]], see [Marchesano 03, section 7](#Marchesano03)
+
 ### Higgs mechanism
 
 The [[Higgs mechanism]] naturally arises in intersecting D-brane models: The [[Higgs field]] appears as the scalar field that witnesses in [[perturbative quantum field theory|perturbation theory]] the process of _brane recombination_ at the intersecting points of the D-branes ([Cremades-Ibanez-Marchesano 02, section 7](#CremadesIbanezMarchesano02)):
@@ -191,6 +195,8 @@ The observation that [[Weyl spinor|chiral fermions]] appear when [[D6-branes]]  
 Review includes
 
 * G. Aldazabal, [[Luis Ibáñez]], F. Quevedo, _On Realistic Brane Worlds from Type I Strings_ ([arXiv:hep-ph/0005033](https://arxiv.org/abs/hep-ph/0005033))
+
+* {#Marchesano03} Fernando Marchesano, _Intersecting D-brane Models_ ([arXiv:hep-th/0307252](https://arxiv.org/abs/hep-th/0307252))
 
 * {#BCLS05} [[Ralph Blumenhagen]], [[Mirjam Cvetic]], Paul Langacker, Gary Shiu, _Towards Realistic Intersecting D-Brane Models_, Ann. Rev. Nucl. Part. Sci. 55:71-139, 2005 ([arXiv:hep-th/0502005](http://arxiv.org/abs/hep-th/0502005))
 
