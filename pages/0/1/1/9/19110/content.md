@@ -10,7 +10,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -26,6 +25,9 @@ In the presence of [[D-branes]], plain [[type II string theory]] in fact has a [
 > graphics grabbed from [Ibanez-Uranga 12](#IbanezUranga12)
 
 Accordingly, tadpole cancellation via [[orientifolds|orientifolding]] is a key consistency condition in the construction of [[intersecting D-brane models]] for [[string phenomenology]].
+
+Discussion with [[D-brane charge]] regarded in [[K-theory]] is in [Uranga 00, Section 5](#Uranga00), [Garcia-Uranga 05](#GarciaUranga05), [Marchesano 03, Section 4](#Marchesano03), [Maiden-Shiu-Stefanski 06, Section 5](#MaidenShiuStefanski06).
+
 
 ## References
 
@@ -53,6 +55,18 @@ Quick illustrations include:
 
 
 * [slide 18 here](http://www2.kek.jp/theory-center/project/string2higgsflavor/wp-content/uploads/2016/08/part-2.pdf)
+
+
+
+See also
+
+* {#Uranga00} [[Angel Uranga]], _D-brane probes, RR tadpole cancellation and K-theory charge_, Nucl.Phys.B598:225-246, 2001 ([arXiv:hep-th/0011048](https://arxiv.org/abs/hep-th/0011048))
+
+* {#GarciaUranga05} Inaki Garcia-Etxebarria, [[Angel Uranga]], _From F/M-theory to K-theory and back_, JHEP 0602:008, 2006 ([arXiv:hep-th/0510073](https://arxiv.org/abs/hep-th/0510073))
+
+* {#Marchesano03} Fernando Marchesano, section 4 of _Intersecting D-brane Models_ ([arXiv:hep-th/0307252](https://arxiv.org/abs/hep-th/0307252))
+
+* {#MaidenShiuStefanski06} John Maiden, Gary Shiu, [[Bogdan Stefanski]], _D-brane Spectrum and K-theory Constraints of D=4, N=1 Orientifolds_, JHEP0604:052,2006 ([arXiv:hep-th/0602038](https://arxiv.org/abs/hep-th/0602038))
 
 [[!redirects RR-field tadpole cancellations]]
 
