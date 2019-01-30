@@ -29,6 +29,10 @@ On computation of Yukawa coupling in [[heterotic string theory]]:
 
 * Stefan Blesneag, Evgeny I. Buchbinder, Andrei Constantin, Andre Lukas, Eran Palti, _Matter Field Kähler Metric in Heterotic String Theory from Localisation_ ([arXiv:1801.09645](https://arxiv.org/abs/1801.09645))
 
+and in [[intersecting D-brane models]] of [[type II string theory]] via [[Fukaya categories]]:
+
+* {#Marchesano03} Fernando Marchesano, section 7 of _Intersecting D-brane Models_ ([arXiv:hep-th/0307252](https://arxiv.org/abs/hep-th/0307252))
+
 [[!redirects Yukawa couplings]]
 
 [[!redirects Yukawa coupling constant]]
