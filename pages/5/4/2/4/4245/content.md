@@ -54,6 +54,8 @@ The assignment that sends a [[symplectic manifold]] to its Fukaya category exten
 
 * [[Weinstein symplectic category]]
 
+* [[intersecting D-brane model]], [[Yukawa coupling]]
+
 ## References
 
 Fukaya categories have first been introduced in
@@ -76,5 +78,10 @@ Discussion of the relation to [[Lagrangian cobordism]] is in
 
 * [[David Nadler]], [[Hiro Tannaka]], _A stable infinity-category of Lagrangian cobordisms_ ([arXiv:1109.4835](http://arxiv.org/abs/1109.4835))
   {#NadlerTannaka11}
+
+Relation to [[intersecting D-brane models]]:
+
+* {#Marchesano03} Fernando Marchesano, section 7.5 of _Intersecting D-brane Models_ ([arXiv:hep-th/0307252](https://arxiv.org/abs/hep-th/0307252))
+
 
 [[!redirects Fukaya categories]]
