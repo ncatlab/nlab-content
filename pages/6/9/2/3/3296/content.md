@@ -180,6 +180,9 @@ $$
 * [[differential characteristic class]]
 
 
+* [[characteristic class of a linear representation]]
+
+
 ## References
 
 Textbook accounts include
@@ -189,7 +192,7 @@ Textbook accounts include
 
 * {#Kochmann96} [[Stanley Kochmann]], section 2.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
-* [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jur?o]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, 
+* [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurco]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, 
 Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
 
 * [[Peter May]], chapter 23 of _A concise course in algebraic topology_ ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
