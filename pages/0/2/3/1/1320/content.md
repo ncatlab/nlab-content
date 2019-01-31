@@ -24,16 +24,17 @@
 
 ## Idea
 
-A [[functor]] is _monadic_ if it is [[natural isomorphism|equivalent]] to the [[forgetful functor]] from a [[category]] of [[algebras over a monad]]. In this case it is part of a _[[monadic adjunction]]_.
+A [[functor]] $U:D\to C$ is _monadic_ iff it has a left adjoint $F:C\to D$ and the adjunction $F\dashv G$ 'comes from' the induced [[monad]] on $C$ -- that is, $U$ _monadic_ iff $F\dashv U$ is a [[monadic adjunction|monadic]].
 
-The [[monadicity theorem]] characterizes monadic functors.
+In this situation $U$ in some sense 'looks like' the forgetful functor from the [[Eilenberg-Moore category]] of the monad $(U\circ F,\eta,U\epsilon_F)$ on $C$, and has 'nice properties' similar to these forgetful functors.
+
+The [[monadicity theorem]] characterizes monadic functors and makes these 'nice properties' precise.
 
 ## Definition
 
-
 Given a pair of [[adjoint functors]] $F: C \to D :U$, $F \dashv U$, with [[unit of an adjunction|unit]] $\eta: Id_C \to U \circ F$ and counit $\epsilon: F \circ U \to Id_D$, one constructs a [[monad]] $\mathbf{T}=(T,\mu,\eta)$ setting $T = U \circ F: C \to C$, $\mu = U \epsilon F: T T = U F U F \to U F = T$. 
 
-Consider the [[Eilenberg-Moore category]] $C^{\mathbf{T}}$ of $T$-algebras ($T$-modules) in $C$. Clearly $U (\epsilon_M): T U M = U F U M \to U M$ is a $T$-action. In fact there is a canonical __comparison functor__ $K^{\mathbf{T}}: D \to C^{\mathbf{T}}$ given on objects by $K(M)=(U M, U (\epsilon_M))$.  We then say that we have a [[monadic adjunction]].
+Consider the [[Eilenberg-Moore category]] $C^{\mathbf{T}}$ of $T$-algebras ($T$-modules) in $C$. Clearly $U (\epsilon_M): T U M = U F U M \to U M$ is a $T$-action. In fact there is a canonical __comparison functor__ $K^{\mathbf{T}}: D \to C^{\mathbf{T}}$ given on objects by $K(M)=(U M, U (\epsilon_M))$.  We then say that we have a (resp. strictly) [[monadic adjunction]] iff $K$ is an equivalence (resp. isomorphism) of categories.
 
 A [[functor]] $U: D \to C$ is **monadic** (resp. **strictly monadic**) if it has a [[left adjoint]] $F: C\to D$ and the comparison functor $K^{\mathbf{T}}: D \to C^{\mathbf{T}}$ is an [[equivalence of categories]] (resp. an isomorphism of categories).  In other words, up to equivalence, monadic functors are precisely the [[forgetful functor]]s defined on Eilenberg--Moore categories for monads, and strictly monadic functors are the same as these forgetful functors up to isomorphism. A __category__ $D$ is __monadic__ over a category $C$ if there is a functor $U: D \to C$ which is monadic. 
 
