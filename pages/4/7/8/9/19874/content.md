@@ -117,12 +117,20 @@ As a potential solution of the apparent [[B meson]] [[flavour anomaly]]:
 
 * {#MVT19} Ivo de Medeiros Varzielas, Jim Talbert, _Simplified Models of Flavourful Leptoquarks_ ([arXiv:1901.10484](https://arxiv.org/abs/1901.10484))
 
+* Michael J. Baker, Javier Fuentes-Martin, Gino Isidori, Matthias König, _High-pT Signatures in Vector-Leptoquark Models_ ([arXiv:1901.10480](https://arxiv.org/abs/1901.10480))
+
+* Natascia Vignaroli, _Seeking leptoquarks in the $t \bar t$ plus missing energy channel at the high-luminosity LHC_ ([arXiv:1808.10309](https://arxiv.org/abs/1808.10309))
+
 
 and within [[Randall-Sundrum models]]
 
 * {#Crivellin18} [[Andreas Crivellin]], _Explaining the Flavour Anomalies with the Pati-Salam Vector Leptoquark_, PoS LHCP2018 (2018) 269 ([spire:1713260](http://inspirehep.net/record/1713260), [doi:10.22323/1.321.0269](https://doi.org/10.22323/1.321.0269))
 
 * {#BlankeCrivellin18} Monika Blanke, [[Andreas Crivellin]], _$B$ Meson Anomalies in a Pati-Salam Model within the Randall-Sundrum Background_, Phys. Rev. Lett. 121, 011801 (2018) ([arXiv:1801.07256](https://arxiv.org/abs/1801.07256))
+
+and as a possible explanation also of the anomalies seen at the [[ANITA experiment]]:
+
+* Bhavesh Chauhan, Subhendra Mohanty, _A common leptoquark solution of flavor and ANITA anomalies_ ([arXiv:1812.00919](https://arxiv.org/abs/1812.00919))
 
 
 ### Appearance in GUTs
