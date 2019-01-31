@@ -72,6 +72,7 @@ If Pauli had really been relying on symmetry and the Noether theorem, he could h
 
 * [[sterile neutrino]]
 
+* [[ANITA experiment]]
 
 ## References
 
@@ -79,8 +80,8 @@ If Pauli had really been relying on symmetry and the Noether theorem, he could h
 
 A discussion of Pauli's thoughts leading him to the prediction of the neutrino is in 
 
-* Atmanspacher, Primas,  _Pauli's ideas..._, 2006 ([pdf](http://www.igpp.de/english/tda/pdf/paulijcs8.pdf))
-  {#AP06}
+* {#AP06} Atmanspacher, Primas,  _Pauli's ideas..._, 2006 ([pdf](http://www.igpp.de/english/tda/pdf/paulijcs8.pdf))
+  
 
 Comments on neutrinos masses as a hint for the [[standard model of particle physics]] being an [[effective field theory]] are in
 
