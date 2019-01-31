@@ -662,7 +662,7 @@ The local differential form data of $\infty$-connections was introduced in
 
 The global description was then introduced in 
 
-* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:?ech cocycles for differential characteristic classes]] -- An $\infty$-Lie theoretic construction_, Advances in Theoretical and Mathematical Physics, Volume 16 Issue 1 (2012), pages 149-250 ([arXiv:1011.4735](http://arxiv.org/abs/1011.4735), [Euclid](http://projecteuclid.org/euclid.atmp/1358950853)) 
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech cocycles for differential characteristic classes]] -- An $\infty$-Lie theoretic construction_, Advances in Theoretical and Mathematical Physics, Volume 16 Issue 1 (2012), pages 149-250 ([arXiv:1011.4735](http://arxiv.org/abs/1011.4735), [Euclid](http://projecteuclid.org/euclid.atmp/1358950853)) 
 
 
 A more comprehensive account is in sections 3.9.6, 3.9.7 of
@@ -700,3 +700,5 @@ A more comprehensive account is in sections 3.9.6, 3.9.7 of
 [[!redirects principal infinity-connection]]
 [[!redirects principal ∞-connections]]
 [[!redirects principal infinity-connections]]
+
+[[!redirects connections on principal ∞-bundles]]
