@@ -31,7 +31,7 @@ The existence of leptoquarks could potentially explain _both_
 
 1. the apparently observed [[flavour anomalies]]
 
-   ([Bauer-Neubert 16](#BauerNeubert16), [CCDM 16](#CCDM16), [CCL 17](#CCL17), [Crivellin 17](#Crivellin17) [Falkowski17](#Falkowski17), [Müeller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [AMST 18](#AMST18), [BDFKFS 18](#BDFKFS18), [Crivellin 18](#Crivellin18), [MMR 18](#MMR18), [Blanke-Crivellin 18](#BlankeCrivellin18), [Kumar-London 19, section 2.2.1](#KumarLondon19))
+   ([Bauer-Neubert 16](#BauerNeubert16), [CCDM 16](#CCDM16), [CCL 17](#CCL17), [Crivellin 17](#Crivellin17) [Falkowski17](#Falkowski17), [Müeller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [AMST 18](#AMST18), [BDFKFS 18](#BDFKFS18), [Crivellin 18](#Crivellin18), [MMR 18](#MMR18), [Blanke-Crivellin 18](#BlankeCrivellin18), [Kumar-London 19, section 2.2.1](#KumarLondon19), [MVT 19](#MVT19))
 
 1. the apparently observed [anomaly](anomalous+magnetic+moment#Anomalies) in the [[anomalous magnetic moments]] of the [[muon]] and also of the [[electron]] ([CCDM 16](#CCDM16), [Müller 18](#Mueller18))
 
@@ -114,6 +114,8 @@ As a potential solution of the apparent [[B meson]] [[flavour anomaly]]:
 * Jason Aebischer, [[Andreas Crivellin]], Christoph Greub, _QCD Improved Matching for Semi-Leptonic B Decays with Leptoquarks_ ([arXiv:1811.08907](https://arxiv.org/abs/1811.08907))
 
 * {#KumarLondon19} Jacky Kumar, David London, _New physics in $b \to s e^+ e^-$?_ ([arXiv:1901.04516](https://arxiv.org/abs/1901.04516))
+
+* {#MVT19} Ivo de Medeiros Varzielas, Jim Talbert, _Simplified Models of Flavourful Leptoquarks_ ([arXiv:1901.10484](https://arxiv.org/abs/1901.10484))
 
 
 and within [[Randall-Sundrum models]]
