@@ -26,7 +26,170 @@ In the presence of [[D-branes]], plain [[type II string theory]] in fact has a [
 
 Accordingly, tadpole cancellation via [[orientifolds|orientifolding]] is a key consistency condition in the construction of [[intersecting D-brane models]] for [[string phenomenology]].
 
-Discussion with [[D-brane charge]] regarded in [[K-theory]] is in [Uranga 00, Section 5](#Uranga00), [Garcia-Uranga 05](#GarciaUranga05), [Marchesano 03, Section 4](#Marchesano03), [Maiden-Shiu-Stefanski 06, Section 5](#MaidenShiuStefanski06).
+Traditionally RR-tadpole cancellation is discussed in [[ordinary cohomology]], the common arguments notwithstanding that [[D-brane charge]] should be in [[K-theory]].
+
+Discussion of tadpole cancellation with [[D-brane charge]] regarded in [[K-theory]] was initated in [Uranga 00, Section 5](#Uranga00), see also [Garcia-Uranga 05](#GarciaUranga05), [Marchesano 03, Section 4](#Marchesano03), [Maiden-Shiu-Stefanski 06, Section 5](#MaidenShiuStefanski06).
+
+But the situation seems to remain somewhat inconclusive.
+
+## For fractional D-branes at orbifold singularities
+ {#ForFractionalDBranes}
+
+More details are understood in the special case of [[fractional D-branes]] stuck at [[orbifold]]/[[orientifold]] singularities, whose [[D-brane charge]] is supposed to be in the [[equivariant K-theory]] of the point, hence the [[representation ring]] of the given [[isotropy group]].
+
+### In terms of equivariant K-theory / the representation ring
+
+In this case tadpole cancellation conditions are given by [[representation theory|representation theoretic]] [[equations]], constraining the [[character of a linear representation|characters]] of the [[linear representations]] corresponding to the [[fractional D-branes]].
+
+Detailed review of this is in [Marchesano 03, Section 4](#Marchesano03), based on
+
+Let $G$ be a [[finite group]]. Let 
+
+$$
+  [1]
+    \subset 
+  [H_1]
+    \subset 
+  [H_2]
+    \subset
+    \cdots
+    \subset
+  [G]
+$$ 
+
+be a [[linear extension of a partial order|linear extension]] of its [[partially ordered set|partially ordered]] [[lattice of subgroups|lattice of]] [[conjugacy classes]] of [[subgroups]], with [[subset|sub-]] [[linear order]] of [[cyclic group|cyclic]] [[subgroups]]
+
+$$
+  [1]
+    \subset 
+  \left[
+   \left\langle
+     g_1
+   \right\rangle
+  \right]
+    \subset 
+  \left[
+   \left\langle
+     g_2
+   \right\rangle
+  \right]
+    \subset
+    \cdots
+    \subset
+  \left[
+   \left\langle
+     g_{\vert ConjCl(G)\vert}
+   \right\rangle
+  \right]
+  \,.
+$$ 
+
+This way every [[virtual representation]] $[V] \in RU(G) = KU_G(\ast)$ (the [[D-brane charge]] of a [[bound state]] of [[fractional D-branes]]/[[anti-branes]]) has a [[character of a linear representation|character]] which is an list of [[complex numbers]] of the form
+
+
+| $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  $\left[\langle g_2\rangle\right]$ | $\cdots$ |  $\left[\langle g_{\vert ConjCl(G)\vert}\rangle\right]$ |
+|--|--|--|--|--|--|
+| $\chi_V =$ | $dim(V)$ |  $tr_V\left( g_1\right)$ |  $tr_V\left(g_2\right)$ | $\cdots$ |  $tr_V\left(g_{\vert ConjCl(G)\vert}\right)$ | 
+| ${{\text{fractional} \atop \text{D-brane/anti-brane}} \atop \text{bound state}}$ |  ${ {\text{mass} =} \atop {{\text{net number} \atop \text{of branes}}}}$ | ${\text{RR-charge in} \atop {g_1\text{-twisted sector}}}$  | ${\text{RR-charge in} \atop {g_2\text{-twisted sector}}}$  | $\cdots$  | $\cdots$  | 
+
+Here $dim(V) \in \mathbb{Z}$ is the [[mass]], hence the net number of [[fractional D-branes]]/[[anti-branes]] in the [[bound state]], while $tr_V\left(g_k\right)$ is (up to a global [[rational number]]-factor $1/{\vert Gvert}$) supposed to be its  [[charge]] as seen by the [[RR-fields]] in the $g_k$-[[twisted sector]].
+
+Now in terms of this, the tadpole cancellation condition is simply that the RR-charges in all non-trivially twisted sectors vanish:
+
+\[
+  \label{VanishingOfCharacterValuesOnNontrivialSubgroups}
+  \chi_{V}\left(g_{\geq 1}\right) \;=\; 0
+\]
+
+([Marchesano 03 (4.9)](#Marchesano03))
+
+On the other hand, at an [[orientifold]] singularity, the [[O-plane]] itself carries such charge
+
+| $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  $\left[\langle g_2\rangle\right]$ | $\cdots$ |  $\left[\langle g_{\vert ConjCl(G)\vert}\rangle\right]$ |
+|--|--|--|--|--|--|
+| $\chi_O =$ | $dim(O)$ |  $tr_O\left( g_1\right)$ |  $tr_O\left(g_2\right)$ | $\cdots$ |  $tr_O\left(g_{\vert ConjCl(G)\vert}\right)$ | 
+| $\text{O-plane}$ |   | ${\text{O-plane charge in} \atop {g_1\text{-twisted sector}}}$  | ${\text{O-plane-charge in} \atop {g_2\text{-twisted sector}}}$  | $\cdots$  | $\cdots$  | 
+
+Now the tadpole cancellation condition is that (all representations are real and) this O-plane charge is cancelled, an [[affine space|affine]] version of the previous condition
+
+$$
+  \chi_{V}\left(g_{\geq 1}\right) 
+    + 
+  \chi_{O}\left( g_{\heq 1} \right) \;=\; 0
+  \,.
+$$
+
+
+([Marchesano 03 (4.15)](#Marchesano03))
+
+
+### Examples
+
+#### At a $2 D_6$-orientifold singularity
+
+For example, for $G = 2 D_6$ the [[binary dihedral group]] of [[order of a group|order]] ${\vert 2 D_6\vert} = 12$, the [[character of a linear representation|character]]/[[D-brane charges]] of the [[virtual representation|virtual]] [[permutation representations]] is ([BSS 18, 4.2](permutation+representation#BurtonSatiSchreiber18))
+
+
+| $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  $\left[\langle g_2\rangle\right]$ | $\left[\langle g_3\rangle\right]$ | $\left[\langle g_4\rangle\right]$ | $\left[\langle g_5\rangle\right]$ | $\left[\langle g_6\rangle\right]$ |
+|--|--|--|--|--|--|--|
+| $\chi_{V_1} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $\phantom{-}1$ |  $\phantom{-}1$ | $\phantom{-}1$ |
+| $\chi_{V_2} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $-1$ |  $-1$ | $\phantom{-}1$ |
+| $\chi_{V_3} =$ | $\phantom{-}2$ |  $\phantom{-}2$ |  $-1$ | $\phantom{-}0$ |  $\phantom{-}0$ | $-1$ |
+| $\chi_{V_4} =$ | $\phantom{-}2$ |  $-2$ |  $\phantom{-}2$ | $\phantom{-}0$ |  $\phantom{-}0$ | $-2$ |
+| $\chi_{V_5} =$ | $\phantom{-}4$ |  $-4$ |  $-2$ | $\phantom{-}0$ |  $\phantom{-}0$ | $\phantom{-}2$ |
+
+By [BSS 18, Theorem 4.1](permutation+representation#BurtonSatiSchreiber18) these [[virtual representation|virtual]] [[permutation representations]] span precisely the sub charge lattice of integral (non-irrational) characters/RR-charges in the [[orientifold]] charge latter. Since the tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) in particular requires the characters/charges to be integral (specifically: zero) the general solution to the tadpole cancellation condition is indeed in this sub-lattice.
+
+One sees from immediate inspection, that this general solution to the tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_6$ is
+
+$$
+  V 
+  \;=\;
+  n
+  \Big(
+    3 V_1 
+      +
+    3 V_2
+      + 
+    3 V_3
+      + 
+    2 V_4
+      + 
+    2 V_5
+  \Big)
+  \,,
+  \phantom{AAA}
+  n \in \mathbb{Z}
+$$
+
+whose minimal brane number is
+
+$$
+  \begin{aligned}
+    dim(V) 
+      & =
+    \chi_V([\langle e\rangle]) 
+    \\
+      & =
+      3 \cdot 1
+        +
+      3 \cdot 1
+        + 
+      3 \cdot 2
+        + 
+      2 \cdot 2
+        + 
+      2 \cdot 4
+      & 
+      \\
+      & 
+      =
+      24
+  \end{aligned}
+$$
+
+
+
 
 
 ## References
@@ -64,7 +227,7 @@ See also
 
 * {#GarciaUranga05} Inaki Garcia-Etxebarria, [[Angel Uranga]], _From F/M-theory to K-theory and back_, JHEP 0602:008, 2006 ([arXiv:hep-th/0510073](https://arxiv.org/abs/hep-th/0510073))
 
-* {#Marchesano03} Fernando Marchesano, section 4 of _Intersecting D-brane Models_ ([arXiv:hep-th/0307252](https://arxiv.org/abs/hep-th/0307252))
+* {#Marchesano03} [[Fernando Marchesano]], section 4 of _Intersecting D-brane Models_ ([arXiv:hep-th/0307252](https://arxiv.org/abs/hep-th/0307252))
 
 * {#MaidenShiuStefanski06} John Maiden, Gary Shiu, [[Bogdan Stefanski]], _D-brane Spectrum and K-theory Constraints of D=4, N=1 Orientifolds_, JHEP0604:052,2006 ([arXiv:hep-th/0602038](https://arxiv.org/abs/hep-th/0602038))
 
