@@ -59,13 +59,14 @@ But in some [[RO(G)-degrees]] there may appear further non-torsion groups, see t
 
 In degree 0, the [[tom Dieck splitting]] applied to the [[equivariant suspension spectrum]] $\mathbb{S} = \Sigma^\infty_G S^0$ gives that $\pi_0^G(\mathbb{S})$ is the [[free abelian group]] on the set of [[conjugacy classes]] of [[subgroups]] of $G$:
 
-$$
+\[
+  \label{pi_0ofEquivariantSphere}
   \pi_0^G(\mathbb{S})
   \simeq
   \underset{[H \subset G]}{\oplus} \pi_0^{W_G H}(\Sigma_+^\infty E (W_G H))
   \simeq
   \mathbb{Z}[conjugacy\;classes\;of\;subgroups]
-$$
+\]
 
 (e.g. [Schwede 15, p. 64](#Schwede15))
 
