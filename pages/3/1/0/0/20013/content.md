@@ -10,8 +10,6 @@
 =--
 =--
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -117,9 +115,10 @@ $$
 ## Properties
  {#Properties}
 
-### General
+### Relation to characters
+ {#RelationToCharacters}
 
-The following says that the [[Burnside character]] plays the same role for finite [[G-sets]] as [[characters of representations]] play for finite-dimensional [[linear representations]]:
+The following Prop. \ref{BurnsideCharacterIsInjective} that the [[Burnside character]] plays the same role for finite [[G-sets]] as [[characters of representations]] play for finite-dimensional [[linear representations]], in that it faithfully reflects $G$-sets. In fact the marks of a $G$-set over [[cyclic group|cyclic]] [[subgroups]] coincides with the [[character of a linear representation|character]] of its [[permutation representation]] over any [[ground field]] (Prop. \ref{MarkHomomorphismIsCharactersOfPermutationRepresentation}) below.
 
 +-- {: .num_prop #BurnsideCharacterIsInjective}
 ###### Proposition
@@ -131,7 +130,78 @@ The Burnside character (eq:BurnsideCharacter) is [[injective function|injective]
 
 (e.g. [tomDieck 79, Prop. 1.2.2](#tomDieck79), [tomDieck 09, Prop. 5.1.1](#tomDieck09))
 
-Notice that
++-- {: .num_prop #MarkHomomorphismIsCharactersOfPermutationRepresentation}
+###### Proposition
+**([[mark homomorphism]] on [[cyclic groups]] agrees with [[character of a linear representation|characters]] of corresponding [[permutation representations]])**
+
+For $S \in G Set_{fin}$ a [[finite set|finite]] [[G-set]], for $k$ any [[field]] and $k[S] \in Rep_k(G)$ the corresponding [[permutation representation]], the [[character of a representation|character]] $\chi_{k[S]}$ of the [[permutation representation]] at any $g \in G$ equals the [[Burnside marks]] (Def. \ref{BurnsideCharacter}) of $S$ under the [[cyclic group]] $\langle g\rangle \subset G$ [[generators and relations|generated]] by $g$:
+
+$$
+  \chi_{k[S]}\big( g \big)
+  \;=\;
+  \left\vert X^{\langle g \rangle} \right\vert
+  \;\in\;
+  \mathbb{Z} \hookrightarrow k
+  \,.
+$$
+
+Hence the [[mark homomorphism]] (Def. \ref{BurnsideCharacter}) of $G$-sets restricted to [[cyclic group|cyclic]] [[subgroups]] coincides with the [[character of a representation|characters]] of their [[permutation representations]].
+
+This statement immediately generalizes from plain representations to [[virtual representations]], hence to the [[Burnside ring]].
+
+=--
+
+(e.g. [tom Dieck 09, (2.15)](#tomDieck09))
+
++-- {: .proof}
+###### Proof
+
+By definition of _[[character of a linear representation]]_, we have that 
+
+$$
+  \chi_{k[S]}(g)
+  = 
+  tr_{k[S]}(g)
+$$
+
+is the [[trace]] of the [[linear map|linear]] [[endomorphism]] $k[S] \overset{g}{\to} k[S]$ of the given [[permutation representation]].
+
+Now the canonical $k$-[[linear basis]] for $k[S]$ is of course the [[set]] $S$ itself, and so 
+
+$$
+  \begin{aligned}
+    \chi_{k[S]}(g)
+    & =
+    \underset{
+      s \in S
+    }{\sum}
+    \left\{
+      \array{
+         1 &\vert& g(s) = s
+         \\
+         0 &\vert& \text{otherwise}
+      }
+    \right.
+    \\
+    & = 
+    \left\vert S^g \right\vert
+    \\
+    &
+    =
+    \left\vert S^{\langle g \rangle} \right\vert
+  \end{aligned}
+$$
+
+Here in the first step we spelled out the definition of [[trace]] in the canonical basis, and in the second step we observed that the [[fixed point set]] of a [[cyclic group]] equals that of any one of its generating elements.
+
+=--
+
+
+### Relation to Burnside product
+ {#RelationToBurnsideProduct}
+
+We discuss, in Prop. \ref{BurnsideProductInTermsOfTableOfMarks} below, how the [[table of marks]] encodes the product in the [[Burnside ring]] of the given [[finite group]] $G$. For this purpose we first consider two Lemma: Lemma \ref{LinearOrderOnConjugacyClassesOfSubgroups} and Lemma \ref{TableOfMarksIsInvertibleUpperTriangular}.
+
 
 +-- {: .num_prop #LinearOrderOnConjugacyClassesOfSubgroups}
 ###### Lemma
@@ -148,8 +218,8 @@ This follows by the general existence of [[linear extensions of partial orders]]
 
 =--
 
-+-- {: .num_prop #TableOfMarksIsInvertibleUpperTriangular}
-###### Proposition
++-- {: .num_lemma #TableOfMarksIsInvertibleUpperTriangular}
+###### Lemma
 **([[table of marks]] is [[lower triangular matrix|lower triangular]] [[invertible matrix]])**
 
 
@@ -180,9 +250,6 @@ Since at least $H = 1_{G/H}$ is fixed by $H$, we moreover have that the diagonal
 
 =--
 
-### Relation to Burnside product
-
-We discuss how the [[table of marks]] is related to the [[Burnside ring]] of the given [[finite group]] $G$.
 
 In the following, given a [[G-set]] $G/H_i$ we write $[G/H_i] \in A(G)$ for its [[isomorphism class]], regarded as an element in the [[Burnside ring]].
 
@@ -213,7 +280,7 @@ uniquely defined by the [[equation]]
 ###### Proposition
 **([[Burnside ring]] product in terms of [[table of marks]])**
 
-The Burnside ring structure constants  $\left( n_{i j}^\ell\right)$ (Def. \ref{BurnsideMultiplicities}) are equal to the following algebraic expression in the [[table of marks]] $\left( M_{i j}\right)$ and its [[inverse matrix]] $\left( \left(M^{-1}\right)_{r s} \right)$ (which exists by Prop. \ref{TableOfMarksIsInvertibleUpperTriangular}):
+The Burnside ring structure constants  $\left( n_{i j}^\ell\right)$ (Def. \ref{BurnsideMultiplicities}) are equal to the following algebraic expression in the [[table of marks]] $\left( M_{i j}\right)$ and its [[inverse matrix]] $\left( \left(M^{-1}\right)_{r s} \right)$ (which exists by Lemma \ref{TableOfMarksIsInvertibleUpperTriangular}):
 
 $$
   n_{i j}^\ell
@@ -329,7 +396,7 @@ Textbook accounts and lecture notes include
 
 * {#tomDieck79} [[Tammo tom Dieck]], _[[Transformation Groups and Representation Theory]]_ Lecture Notes in Mathematics 766 Springer 1979
 
-* {#tomDieck09} [[Tammo tom Dieck]], section 5.1 of _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
+* {#tomDieck09} [[Tammo tom Dieck]], sections 5.1 and 5.4 of _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
 
 * {#LuxPahlings10} Klaus Lux, Herbert Pahlings, section 3.5 of _Representations of groups -- A computational approach_, Cambridge University Press 2010 ([author page](http://www.math.rwth-aachen.de/~RepresentationsOfGroups/), [publisher page](http://www.cambridge.org/catalogue/catalogue.asp?isbn=9780521768078))
 
