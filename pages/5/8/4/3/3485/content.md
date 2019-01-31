@@ -220,6 +220,79 @@ we may regard this as [[extension of scalars]] along $\mathbb{F}_1 \to  \mathbb{
 
 [[!include Segal completion -- table]]
 
+
+### Characters
+
+The [[character of a linear representation|characters]] of permutation representations are the [[Burnside marks]] of the underlying [[G-sets]]:
+
++-- {: .num_prop #MarkHomomorphismIsCharactersOfPermutationRepresentation}
+###### Proposition
+**([[mark homomorphism]] on [[cyclic groups]] agrees with [[character of a linear representation|characters]] of corresponding [[permutation representations]])**
+
+For $S \in G Set_{fin}$ a [[finite set|finite]] [[G-set]], for $k$ any [[field]] and $k[S] \in Rep_k(G)$ the corresponding [[permutation representation]], the [[character of a representation|character]] $\chi_{k[S]}$ of the [[permutation representation]] at any $g \in G$ equals the [[Burnside marks]] (Def. \ref{BurnsideCharacter}) of $S$ under the [[cyclic group]] $\langle g\rangle \subset G$ [[generators and relations|generated]] by $g$:
+
+$$
+  \chi_{k[S]}\big( g \big)
+  \;=\;
+  \left\vert X^{\langle g \rangle} \right\vert
+  \;\in\;
+  \mathbb{Z} \hookrightarrow k
+  \,.
+$$
+
+Hence the [[mark homomorphism]] (Def. \ref{BurnsideCharacter}) of $G$-sets restricted to [[cyclic group|cyclic]] [[subgroups]] coincides with the [[character of a representation|characters]] of their [[permutation representations]].
+
+This statement immediately generalizes from plain representations to [[virtual representations]], hence to the [[Burnside ring]].
+
+=--
+
+(e.g. [tom Dieck 09, (2.15)](#tomDieck09))
+
++-- {: .proof}
+###### Proof
+
+By definition of _[[character of a linear representation]]_, we have that 
+
+$$
+  \chi_{k[S]}(g)
+  = 
+  tr_{k[S]}(g)
+$$
+
+is the [[trace]] of the [[linear map|linear]] [[endomorphism]] $k[S] \overset{g}{\to} k[S]$ of the given [[permutation representation]].
+
+Now the canonical $k$-[[linear basis]] for $k[S]$ is of course the [[set]] $S$ itself, and so 
+
+$$
+  \begin{aligned}
+    \chi_{k[S]}(g)
+    & =
+    \underset{
+      s \in S
+    }{\sum}
+    \left\{
+      \array{
+         1 &\vert& g(s) = s
+         \\
+         0 &\vert& \text{otherwise}
+      }
+    \right.
+    \\
+    & = 
+    \left\vert S^g \right\vert
+    \\
+    &
+    =
+    \left\vert S^{\langle g \rangle} \right\vert
+  \end{aligned}
+$$
+
+Here in the first step we spelled out the definition of [[trace]] in the canonical basis, and in the second step we observed that the [[fixed point set]] of a [[cyclic group]] equals that of any one of its generating elements.
+
+=--
+
+
+
 ## Examples
 
 ### Basic examples
