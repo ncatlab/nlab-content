@@ -141,7 +141,7 @@ $$
   \;=\;
   \left\vert X^{\langle g \rangle} \right\vert
   \;\in\;
-  \mathbb{Z} \hookrightarrow k
+  \mathbb{Z} \longrightarrow k
   \,.
 $$
 
