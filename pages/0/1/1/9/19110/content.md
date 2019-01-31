@@ -84,7 +84,7 @@ $$
   \,.
 $$ 
 
-This way every [[virtual representation]] $[V] \in RU(G) = KU_G(\ast)$ (the [[D-brane charge]] of a [[bound state]] of [[fractional D-branes]]/[[anti-branes]]) has a [[character of a linear representation|character]] which is an list of [[complex numbers]] of the form
+This way every [[virtual representation]] $[V] \in RU(G) = KU_G(\ast)$ (the [[D-brane charge]] of a [[bound state]] of [[fractional D-branes]]/[[anti-branes]]) has a [[character of a linear representation|character]] which is a list of [[complex numbers]] of the form
 
 
 | $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  $\left[\langle g_2\rangle\right]$ | $\cdots$ |  $\left[\langle g_{\vert ConjCl(G)\vert}\rangle\right]$ |
@@ -92,7 +92,7 @@ This way every [[virtual representation]] $[V] \in RU(G) = KU_G(\ast)$ (the [[D-
 | $\chi_V =$ | $dim(V)$ |  $tr_V\left( g_1\right)$ |  $tr_V\left(g_2\right)$ | $\cdots$ |  $tr_V\left(g_{\vert ConjCl(G)\vert}\right)$ | 
 | ${{\text{fractional} \atop \text{D-brane/anti-brane}} \atop \text{bound state}}$ |  ${ {\text{mass} =} \atop {{\text{net number} \atop \text{of branes}}}}$ | ${\text{RR-charge in} \atop {g_1\text{-twisted sector}}}$  | ${\text{RR-charge in} \atop {g_2\text{-twisted sector}}}$  | $\cdots$  | $\cdots$  | 
 
-Here $dim(V) \in \mathbb{Z}$ is the [[mass]], hence the net number of [[fractional D-branes]]/[[anti-branes]] in the [[bound state]], while $tr_V\left(g_k\right)$ is (up to a global [[rational number]]-factor $1/{\vert Gvert}$) supposed to be its  [[charge]] as seen by the [[RR-fields]] in the $g_k$-[[twisted sector]].
+Here $dim(V) \in \mathbb{Z}$ is the [[mass]], hence the net number of [[fractional D-branes]]/[[anti-branes]] in the [[bound state]], while $tr_V\left(g_k\right)$ is (up to a global [[rational number]]-factor $1/{\vert G \vert}$) supposed to be its  [[charge]] as seen by the [[RR-fields]] in the $g_k$-[[twisted sector]].
 
 Now in terms of this, the tadpole cancellation condition is simply that the RR-charges in all non-trivially twisted sectors vanish:
 
@@ -115,7 +115,7 @@ Now the tadpole cancellation condition is that (all representations are real and
 $$
   \chi_{V}\left(g_{\geq 1}\right) 
     + 
-  \chi_{O}\left( g_{\heq 1} \right) \;=\; 0
+  \chi_{O}\left( g_{\geq 1} \right) \;=\; 0
   \,.
 $$
 
@@ -127,7 +127,7 @@ $$
 
 #### At a $2 D_6$-orientifold singularity
 
-For example, for $G = 2 D_6$ the [[binary dihedral group]] of [[order of a group|order]] ${\vert 2 D_6\vert} = 12$, the [[character of a linear representation|character]]/[[D-brane charges]] of the [[virtual representation|virtual]] [[permutation representations]] is ([BSS 18, 4.2](permutation+representation#BurtonSatiSchreiber18))
+For example, for $G = 2 D_6$ the [[binary dihedral group]] of [[order of a group|order]] ${\vert 2 D_6\vert} = 12$, the [[character of a linear representation|characters]]/[[D-brane charges]] of the [[virtual representation|virtual]] [[permutation representations]] are ([BSS 18, 4.2](permutation+representation#BurtonSatiSchreiber18))
 
 
 | $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  $\left[\langle g_2\rangle\right]$ | $\left[\langle g_3\rangle\right]$ | $\left[\langle g_4\rangle\right]$ | $\left[\langle g_5\rangle\right]$ | $\left[\langle g_6\rangle\right]$ |
@@ -138,7 +138,7 @@ For example, for $G = 2 D_6$ the [[binary dihedral group]] of [[order of a group
 | $\chi_{V_4} =$ | $\phantom{-}2$ |  $-2$ |  $\phantom{-}2$ | $\phantom{-}0$ |  $\phantom{-}0$ | $-2$ |
 | $\chi_{V_5} =$ | $\phantom{-}4$ |  $-4$ |  $-2$ | $\phantom{-}0$ |  $\phantom{-}0$ | $\phantom{-}2$ |
 
-By [BSS 18, Theorem 4.1](permutation+representation#BurtonSatiSchreiber18) these [[virtual representation|virtual]] [[permutation representations]] span precisely the sub charge lattice of integral (non-irrational) characters/RR-charges in the [[orientifold]] charge latter. Since the tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) in particular requires the characters/charges to be integral (specifically: zero) the general solution to the tadpole cancellation condition is indeed in this sub-lattice.
+By [BSS 18, Theorem 4.1](permutation+representation#BurtonSatiSchreiber18) these [[virtual representation|virtual]] [[permutation representations]] span precisely the sub charge lattice of integral (non-irrational) characters/RR-charges in the [[orientifold]] charge lattice. Since the tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) in particular requires the characters/charges to be integral (specifically: zero) the general solution to the tadpole cancellation condition is indeed in this sub-lattice.
 
 One sees from immediate inspection, that this general solution to the tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_6$ is
 
