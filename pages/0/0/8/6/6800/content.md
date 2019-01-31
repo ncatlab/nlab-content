@@ -6,7 +6,8 @@
 |**[[black brane]]**|  [[supergravity]] | [[higher gauge field]] | [[SCFT]]
 |**[[D-brane]]** |[[type II supergravity|type II]]  |[[RR-field]]| [[super Yang-Mills theory]]
 |**$(D = 2n)$**  |[[type IIA supergravity|type IIA]]| $\,$ |         $\,$
-| [[D0-brane]]   |        $\,$                     | $\,$ |   [[BFSS matrix model]]
+| [[D(-2)-brane]]   |        $\,$                     | $\,$ |   |
+| [[D0-brane]]   |        $\,$                     | $\,$ |   [[BFSS matrix model]]  |
 | [[D2-brane]]   |        $\,$                     | $\,$ |      $\,$
 | [[D4-brane]]   |        $\,$                     | $\,$ | [[D=5 super Yang-Mills theory]] with [[Khovanov homology]] [[observables]]
 | [[D6-brane]]   |        $\,$                     | $\,$ |  [[D=7 super Yang-Mills theory]] |
