@@ -68,7 +68,6 @@ followed by a description of some of his most outstanding work in mathematics._"
 * [[Jean Giraud]]
 * [[Jean-Louis Verdier]]
 * [[Monique Hakim]]
-* [[Pierre Deligne]]
 * [[Michel Raynaud]]
 * [[Jean-Pierre Jouanolou]]
 * [[Luc Illusie]]
