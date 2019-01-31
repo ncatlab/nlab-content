@@ -110,6 +110,10 @@ anti-[[M5-branes]]:
 [[!redirects anti p-brane]]
 [[!redirects anti p-branes]]
 
+[[!redirects anti-brane]]
+[[!redirects anti-branes]]
+
+
 [[!redirects anti brane]]
 [[!redirects anti branes]]
 
