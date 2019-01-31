@@ -81,7 +81,7 @@ Candidate [[model (in theoretical physics)|models]] of "New Physics" beyond the 
 
 * [[leptoquarks]] (and thus potentially $SU(5)$-[[GUT]])
 
-([Bauer-Neubert 15](#BauerNeubert15), [CCDM 16](#CCDM16), [Crivellin 17](#Crivellin17), [Falkowski17](#Falkowski17), [Mueller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [AMST 18](#AMST18), [BDFKFS 18](#BDFKFS18), [Crivellin 18](#Crivellin18), [MMR 18](#MMR18), [Kumar-London 19, section 2.2.1](#KumarLondon19))
+([Bauer-Neubert 15](#BauerNeubert15), [CCDM 16](#CCDM16), [Crivellin 17](#Crivellin17), [Falkowski17](#Falkowski17), [Mueller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [AMST 18](#AMST18), [BDFKFS 18](#BDFKFS18), [Crivellin 18](#Crivellin18), [MMR 18](#MMR18), [Kumar-London 19, section 2.2.1](#KumarLondon19), [MVT 19](#MVT19))
 
 
 From [Crivellin 18, p. 2](#Crivellin18):
@@ -91,6 +91,10 @@ From [Crivellin 18, p. 2](#Crivellin18):
 
 Incidentally, [[leptoquarks]] are also a candidate explanation of the anomaly seen at over 4$\sigma$ [[statistical significance]] in the [[anomalous magnetic moment]] of the [[muon]], see [there](anomalous+magnetic+moment#Anomalies).
 
+
+* [[leptoquarks]] in a [[Randall-Sundrum model]]:
+
+([Blanke Crivellin 18](#BlankeCrivellin18), [Crivellin 18](#Crivellin18))
 
 ### Other
 
@@ -238,11 +242,13 @@ Attempts to explain the anomaly include
 
 * Jason Aebischer, [[Andreas Crivellin]], Christoph Greub, _QCD Improved Matching for Semi-Leptonic B Decays with Leptoquarks_ ([arXiv:1811.08907](https://arxiv.org/abs/1811.08907))
 
+* {#MVT19} Ivo de Medeiros Varzielas, Jim Talbert, _Simplified Models of Flavourful Leptoquarks_ ([arXiv:1901.10484](https://arxiv.org/abs/1901.10484))
+
 [[leptoquarks]] within a [[Randall-Sundrum model]]:
 
 * {#Crivellin18} [[Andreas Crivellin]], _Explaining the Flavour Anomalies with the Pati-Salam Vector Leptoquark_, PoS LHCP2018 (2018) 269 ([spire:1713260](http://inspirehep.net/record/1713260), [doi:10.22323/1.321.0269](https://doi.org/10.22323/1.321.0269))
 
-* Monika Blanke, [[Andreas Crivellin]], _$B$ Meson Anomalies in a Pati-Salam Model within the Randall-Sundrum Background_, Phys. Rev. Lett. 121, 011801 (2018) ([arXiv:1801.07256](https://arxiv.org/abs/1801.07256))
+* {#BlankeCrivellin18} Monika Blanke, [[Andreas Crivellin]], _$B$ Meson Anomalies in a Pati-Salam Model within the Randall-Sundrum Background_, Phys. Rev. Lett. 121, 011801 (2018) ([arXiv:1801.07256](https://arxiv.org/abs/1801.07256))
 
 [[composite Higgs boson]]:
 
