@@ -23,11 +23,13 @@ This entry collects links related to the book
 
   Princeton University Press 2009
 
-  ([arXiv:math.CT/0608040](http://arxiv.org/abs/math.CT/0608040), [published version](http://www.math.harvard.edu/~lurie/papers/highertopoi.pdf))
-
 which discusses the [[higher category theory]] of [[(∞,1)-categories]] in general and that of [[(infinity,1)-category of (infinity,1)-sheaves|(∞,1)-categories of (∞,1)-sheaves]] (i.e. of [[∞-stack]]s) -- called (Grothendieck-Rezk-Lurie) [[(∞,1)-topos]]es -- in particular.
 
-One should beware that the arXiv version of this book has been updated since the publication of the print version, including addition of some new material!
+The book is available online from the arXiv and also from Lurie's web site:
+
+* [PDF of published version](http://www.math.harvard.edu/~lurie/papers/highertopoi.pdf) from Lurie's web site
+* [arXiv:math.CT/0608040](http://arxiv.org/abs/math.CT/0608040) -- this has been updated since the publication of the print version, including addition of some new material!
+* [updated version from Lurie's web site](http://www.math.harvard.edu/~lurie/papers/HTT.pdf) -- more recent even than the arXiv version, as of 2019
 
 #Contents#
 * automatic table of contents goes here
