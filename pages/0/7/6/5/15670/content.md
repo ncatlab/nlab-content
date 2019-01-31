@@ -23,7 +23,7 @@ Just as [[pretriangulated dg-categories]] are a model for [[stable (∞,1)-categ
 
 ## References
 
-* Yuri Bespalov, Volodymyr Lyubashenko, Oleksandr Manzyuk, _Pretriangulated $A_\infty$-categories_, Proceedings of the Institute of Mathematics of NAS of Ukraine, vol. 76, Institute of Mathematics of NAS of Ukraine, Kyiv, 2008, 599 p., [pdf](http://www.math.ksu.edu/~lub/cmcMonad.pdf).
+* Yuri Bespalov, [[Volodymyr Lyubashenko]], Oleksandr Manzyuk, _Pretriangulated $A_\infty$-categories_, Proceedings of the Institute of Mathematics of NAS of Ukraine, vol. 76, Institute of Mathematics of NAS of Ukraine, Kyiv, 2008, 599 p., [pdf](http://www.math.ksu.edu/~lub/cmcMonad.pdf).
 
 [[!redirects pretriangulated A-infinity category]]
 [[!redirects pretriangulated A-infinity categories]]
