@@ -158,3 +158,10 @@ Examples of characters of [[finite groups]] are discussed and listed at
 
 [[!redirects character of a representation]]
 [[!redirects characters of representations]]
+
+[[!redirects character of a linear representation]]
+[[!redirects characters of linear representations]]
+
+
+
+
