@@ -158,7 +158,7 @@ $$
   e \subset E
 $$ 
 
-hence for all _[[subobjects]]_ in the relevant [[category]], such as that of [[coherent sheaves]] we have that the charge density of the part is smaller than the charge density of the whole: 
+hence for all _[[subobjects]]_ in the relevant [[category]] (such as that of [[coherent sheaves]]) we have that the charge density of the part is smaller than the charge density of the whole: 
 
 \[
   \frac{Q(e)}{M(e)}
