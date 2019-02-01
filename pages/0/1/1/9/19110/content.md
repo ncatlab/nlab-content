@@ -94,10 +94,28 @@ This way every [[virtual representation]] $[V] \in RU(G) = KU_G(\ast)$ (the [[D-
 
 Here $dim(V) \in \mathbb{Z}$ is the [[mass]], hence the net number of [[fractional D-branes]]/[[anti-branes]] in the [[bound state]], while $tr_V\left(g_k\right)$ is (up to a global [[rational number]]-factor $1/{\vert G \vert}$) supposed to be its  [[charge]] as seen by the [[RR-fields]] in the $g_k$-[[twisted sector]].
 
+In fact, since we are dealing with fractional D-branes, both the charge and mass in the above table are in factional units $1/{\vert G\vert}$ of the [[order of a group|order]] of the [[isotropy group]] $G_{DE}$ (by [this formula](fractional+D-brane#eq:RRChargeOfFractionalDBraneInGTwistedSector)), so that that normalized [[mass]] and [[charge]] is
+
+$$
+  M
+  \;=\;
+  \tfrac{1}{{\vert G\vert}}
+  dim(V)
+  \,,
+  \phantom{AAA}
+  Q_{[g]}
+  \;=\;
+  \tfrac{1}{\vert G\vert}
+  tr_V\left( g_1\right)
+  \,.
+$$
+
 Now in terms of this, the tadpole cancellation condition is simply that the RR-charges in all non-trivially twisted sectors vanish:
 
 \[
   \label{VanishingOfCharacterValuesOnNontrivialSubgroups}
+  Q_{g \geq 1} 
+  \propto
   \chi_{V}\left(g_{\geq 1}\right) \;=\; 0
 \]
 
@@ -146,18 +164,7 @@ $$
 
  Since the tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) in particular requires the characters/charges to be integral (specifically: zero) the general solution to the tadpole cancellation condition is indeed in this sub-lattice, and so that is where we may and do solve it, below.
 
-We find that in each case there is precisely a 1-dimensional (i.e. $\simeq \mathbb{Z}$) sublattice of the charge lattice (the [[representation ring]]) which solves the homogenous tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups), hence a sublattice given by the [[integer]]-multiples $n \cdot V_0$ of one single [[fractional D-brane]] [[bound state]] $V_0 \in KO^0_G(\ast)$. There are then necessarily two of these generators $\pm V_0$. We find that in all cases the [[mass]] of these in non-vanishing, and hence one of the two has [[positive number|positive]] [[mass]], the other [[negative number|negative]] [[mass]] (net [[fractional D-brane]] [[anti D-brane]]).  Picking the [[positive number|positive]] [[mass]] generators for definiteness, we find the following result:
-
-
-| [[singularity]] | [[mass]] |
-|----|-----|
-| $2 D_4$ | $8$ | 
-| $2 D_6$ | $12$ |
-| $2 D_{8}$ | $16$ | 
-| $2 D_{10}$ | $20$ | 
-| $2 D_{12}$ | $24$ | 
-| $2 D_{14}$ | $28$ | 
-| $2 D_{16}$ | $32$ | 
+We find that in each case there is precisely a 1-dimensional (i.e. $\simeq \mathbb{Z}$) sublattice of the charge lattice (the [[representation ring]]) which solves the homogenous tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups), hence a sublattice given by the [[integer]]-multiples $n \cdot V_0$ of one single [[fractional D-brane]] [[bound state]] $V_0 \in KO^0_G(\ast)$. There are then necessarily two of these generators $\pm V_0$. We find that in all cases the normalized [[mass]] of these is $\pm$ unity.
 
 
 
@@ -202,14 +209,16 @@ $$
   \begin{aligned}
     M_{2 D_4}
     & =
-    dim(V)
+    dim(V)/ {\vert 2 D_4\vert}
     \\
     & = 
-    \chi_V\left( [\langle e\rangle]\right) 
+    \chi_V\left( [\langle e\rangle]\right) / {\vert 2 D_4\vert}
     & =
-    1 + 1 + 1 + 1 + 4 
+    \big( 1 + 1 + 1 + 1 + 4 \big) / 8
     \\
-    & = 8
+    & = 8 / 8
+    \\
+    & = 1
   \end{aligned}
 $$
 
@@ -257,12 +266,13 @@ $$
   \begin{aligned}
     M_{2 D_6}
     & =
-    dim(V) 
+    dim(V)  / {\vert 2 D_6 \vert }
     \\
       & =
-    \chi_V([\langle e\rangle]) 
+    \chi_V([\langle e\rangle]) / {\vert 2 D_6\vert}
     \\
       & =
+      \big(
       1 \cdot 1
         +
       1 \cdot 1
@@ -272,11 +282,14 @@ $$
       1 \cdot 2
         + 
       1 \cdot 4
+     \big) / {12}
       & 
       \\
       & 
       =
-      12
+      12 / 12
+      \\
+      & = 1
   \end{aligned}
 $$
 
@@ -327,12 +340,13 @@ $$
   \begin{aligned}
     M_{2 D_8}
      & =
-    dim(V) 
+    dim(V)  / {\vert 2 D_8\vert}
     \\
       & =
-    \chi_V([\langle e\rangle]) 
+    \chi_V([\langle e\rangle]) / { \vert 2 D_8\vert }
     \\
       & =
+      \big(
       1 \cdot 1 
         +
       1 \cdot 1
@@ -344,11 +358,15 @@ $$
       2 \cdot 2
         + 
       1 \cdot 8
+      \big) / 16
       & 
       \\
       & 
       =
-      16
+      16 / 16
+      \\
+      & = 
+      1
   \end{aligned}
 $$
 
@@ -397,12 +415,13 @@ $$
   \begin{aligned}
     M_{2 D_{10}}
       & =
-    dim(V) 
+    dim(V) / {\vert 2 D_{10}\vert}
     \\
       & =
-    \chi_V([\langle e\rangle]) 
+    \chi_V([\langle e\rangle]) /  {\vert 2 D_{10}\vert}
     \\
       & =
+      \big(
       1 \cdot 1
         +
       1 \cdot 1
@@ -412,11 +431,14 @@ $$
       2 \cdot 4
         + 
       1 \cdot 8
+      \big) / 20
       & 
       \\
       & 
       =
-      20
+      20 / 20 
+      \\
+      & = 1
   \end{aligned}
 $$
 
@@ -475,12 +497,13 @@ $$
   \begin{aligned}
     M_{2 D_{12}}
       & =
-    dim(V) 
+    dim(V)  / {\vert 2 D_{12}\vert }
     \\
       & =
-    \chi_V([\langle e\rangle]) 
+    \chi_V([\langle e\rangle]) / {\vert 2 D_{12}\vert }
     \\
       & =
+      \big( 
       1 \cdot 1 
         +
       1 \cdot 1
@@ -496,11 +519,14 @@ $$
       1 \cdot 4
         + 
       1 \cdot 8
+      \big) / 24
       & 
       \\
       & 
       =
-      24
+      24 / 24
+      \\
+      & = 1
   \end{aligned}
 $$
 
@@ -552,12 +578,13 @@ $$
   \begin{aligned}
     M_{2 D_{14}}
       & =
-    dim(V) 
+    dim(V)  / {\vert 2 D_{14}\vert }
     \\
       & =
-    \chi_V([\langle e\rangle]) 
+    \chi_V([\langle e\rangle]) / {\vert 2 D_{14}\vert }
     \\
       & =
+      \big(
       1 \cdot 1
         +
       1 \cdot 1
@@ -567,10 +594,13 @@ $$
       2 \cdot 6
         + 
       1 \cdot 12
+      \big) / 28
       \\
       & 
       =
-      28
+      28 /28
+      \\
+      & = 1
   \end{aligned}
 $$
 
@@ -627,12 +657,13 @@ $$
   \begin{aligned}
     M_{2 D_{16}}
       & =
-    dim(V) 
+    dim(V) / {\vert 2 D_{16}\vert}
     \\
       & =
-    \chi_V([\langle e\rangle]) 
+    \chi_V([\langle e\rangle]) / {\vert 2 D_{16}\vert}
     \\
       & =
+      \big(
       1 \cdot 1   
         +
       1 \cdot 1
@@ -646,10 +677,13 @@ $$
       2 \cdot 4
         + 
       1 \cdot 16
+      \big) /32
       \\
       & 
       =
-      32
+      32 / 32
+      \\
+      & = 1
   \end{aligned}
 $$
 
@@ -698,12 +732,13 @@ $$
   \begin{aligned}
     M_{2I}
       & =
-    dim(V) 
+    dim(V) / {\vert 2 I \vert }
     \\
       & =
-    \chi_V([\langle e\rangle]) 
+    \chi_V([\langle e\rangle]) / {\vert 2 I \vert }
     \\
       & =
+      \big(
         1 \cdot 1
         + 
         1 \cdot 2
@@ -713,11 +748,14 @@ $$
         2 \cdot 4
         + 
         1 \cdot 4
+      \big) / 24
       & 
       \\
       & 
       =
-      24
+      24 / 24
+      \\
+      & = 1
   \end{aligned}
 $$
 
@@ -773,12 +811,13 @@ $$
   \begin{aligned}
     M_{2O}
       & =
-    dim(V) 
+    dim(V) / {\vert 2 O \vert }
     \\
       & =
-    \chi_V([\langle e\rangle]) 
+    \chi_V([\langle e\rangle]) / {\vert 2 O \vert }
     \\
       & =
+      \big( 
       1 \cdot 1
       + 
       1 \cdot 1
@@ -792,13 +831,98 @@ $$
       2 \cdot 8
       + 
       1 \cdot 8
+      \big) / 48
       & 
       \\
       & 
       =
-      48
+      48 / 48
+      \\
+      & = 1
   \end{aligned}
 $$
+
+
+#### At a $2 I$-orientifold singularity
+  {#At2ISingularity}
+
+For $G = 2 I$ the [[binary icosahedral group]] (whose [[order of a group|order]] is ${\vert 2I \vert} = 120$), the [[character of a linear representation|characters]]/[[D-brane charges]] of the elementary [[virtual representation|virtual]] [[permutation representations]]/[[fractional D-branes]] are ([BSS 18, 4.10](#BurtonSatiSchreiber18)):
+
+| $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  $\left[\langle g_2\rangle\right]$ | $\left[\langle g_3\rangle\right]$ | $\left[\langle g_4\rangle\right]$ | $\left[\langle g_5\rangle\right]$ |  $\left[\langle g_6\rangle\right]$ | $\left[\langle g_7\rangle\right]$ | $\left[\langle g_78\rangle\right]$ |
+|--|--|--|--|--|--|--|--|--|--|
+| $\chi_{V_1} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $\phantom{-}1$ |  $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ |
+| $\chi_{V_2} =$ | $\phantom{-}4$ |  $\phantom{-}4$ |  $\phantom{-}1$ | $\phantom{-}0$ |  $-1$ | $-1$ | $\phantom{-}1$ | $-1$ | $-1$ |
+| $\chi_{V_3} =$ | $\phantom{-}5$ |  $\phantom{-}5$ |  $-1$ | $\phantom{-}1$ |  $\phantom{-}0$ | $\phantom{-}0$ | $-1$ | $\phantom{-}0$ | $\phantom{-}0$ |
+| $\chi_{V_4} =$ | $\phantom{-}6$ |  $\phantom{-}6$ |  $\phantom{-}0$ | $-2$ |  $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}0$ | $\phantom{-}1$ | $\phantom{-}1$ |
+| $\chi_{V_5} =$ | $\phantom{-1}\mathllap{12}$ |  $\phantom{-1}\mathllap{-12}$ |  $\phantom{-}0$ | $\phantom{-}0$ |  $\phantom{-}2$ | $\phantom{-}2$ | $\phantom{-}0$ | $-2$ | $-2$ |
+| $\chi_{V_6} =$ | $\phantom{-}8$ |  $-8$ |  $\phantom{-}2$ | $\phantom{-}0$ |  $-2$ | $-2$ | $-2$ | $\phantom{-}2$ | $\phantom{-}2$ |
+| $\chi_{V_7} =$ | $\phantom{-}8$ |  $-8$ |  $-4$ | $\phantom{-}0$ |  $-2$ | $-2$ | $\phantom{-}4$ | $\phantom{-}2$ | $\phantom{-}2$ |
+
+
+
+One sees by not so immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G = 2I$ is
+
+$$
+  V 
+  \;=\;
+  n
+  \Big(
+    1 \cdot V_1
+    + 
+    4 \cdot V_2
+    + 
+    5 \cdot V_3
+    + 
+    3 \cdot V_4
+    + 
+    3 \cdot V_5 
+    + 
+    2 \cdot V_6 
+    + 
+    1 \cdot V_7 
+  \Big)
+  \,,
+  \phantom{AAA}
+  n \in \mathbb{Z}
+$$
+
+
+whose minimal [[positive number|positive]] [[mass]] (net brane number) is
+
+$$
+  \begin{aligned}
+    M_{2I}
+      & =
+    dim(V) / {\vert 2I \vert }
+    \\
+      & =
+    \chi_V([\langle e\rangle]) / {\vert 2I \vert }
+    \\
+      & =
+      \big(
+      1 \cdot 1
+      + 
+      4 \cdot 4
+      + 
+      5 \cdot 5
+      + 
+      3 \cdot 6
+      + 
+      3 \cdot 12
+      + 
+      2 \cdot 8
+      + 
+      1 \cdot 8
+      \big) / 120
+      \\
+      & 
+      =
+      120 / 120
+      \\
+      & = 1
+  \end{aligned}
+$$
+
 
 
 
