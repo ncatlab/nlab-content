@@ -42,9 +42,10 @@ For more see at _[[group character]]_.
 For [[topological groups]] one considers [[continuous map|continuous]] characters. Specifically, for a [[locally compact Hausdorff]] group $G$ (often further assumed to be an [[abelian group]]), a __character__ of $G$ is a continuous homomorphism to the [[circle]] group $\mathbb{R}/\mathbb{Z}$. If $G$ is [[profinite group|profinite]], then this is the same as an continuous homomorphism to the [[discrete space|discrete]] group $\mathbb{Q}/\mathbb{Z}$.  (See [MO](http://mathoverflow.net/questions/86089/two-definitions-of-character-of-topological-groups).)
 
 
-### Character of a representation
+### Character of a linear representation
+ {#CharacterOfALinearRepresentation}
 
-In [[representation theory]], one defines the character of a representation $\rho\colon G\to End(V)$ to be the [[group character]] on $G$ given by $g \mapsto Tr \rho(g)$, whenever the [[trace]] in $V$ makes sense (e.g. when $V$ is [[finite-dimensional vector space|finite-dimensional]]).  Since such a function is invariant under conjugation, we may equivalently consider it a function on the set of [[conjugacy classes]] of elements in $G$.
+In [[representation theory]], one defines the _[[character of a linear representation]]_ $\rho\colon G\to End(V)$ to be the [[group character]] on $G$ given by $g \mapsto Tr \rho(g)$, whenever the [[trace]] in $V$ makes sense (e.g. when $V$ is [[finite-dimensional vector space|finite-dimensional]]).  Since such a function is invariant under conjugation, we may equivalently consider it a function on the set of [[conjugacy classes]] of elements in $G$.
 
 Sometimes we also extend a character linearly to the free vector space on the set of conjugacy classes.  This version of the character can be identified with the [[bicategorical trace]] of the identity map of the representation, considered as a $k[G]$-$k$-module.
 
@@ -142,25 +143,16 @@ for review see
 * {#Raksit15} Arpon Raksit, _Characters in global equivariant homotopy theory_, 2015 [pdf](http://web.stanford.edu/~arpon/math/files/senior-thesis.pdf)
 
 
-Examples of characters of [[finite groups]] are discussed and listed at 
+Examples of [[characters of linear representations]] of [[finite groups]] are discussed and listed at 
 
 * {#Montaldi08} James Montaldi, _[representations](http://www.maths.manchester.ac.uk/~jm/wiki/Representations/Representations)_, 2008
+
 
 [[!redirects character]]
 [[!redirects characters]]
 
-
 [[!redirects character ring]]
 [[!redirects character rings]]
-
-[[!redirects character table]]
-[[!redirects character tables]]
-
-[[!redirects character of a representation]]
-[[!redirects characters of representations]]
-
-[[!redirects character of a linear representation]]
-[[!redirects characters of linear representations]]
 
 
 
