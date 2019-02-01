@@ -86,7 +86,7 @@ $$
 
 In this sense, the unit brane on $X$ decays into fractional branes at the orbifold  singularities $X\sslash G$.
 
-For a general representation $V \in R(G)$ the general formula 
+For a general representation $V \in R(G)$ the general formula (see [this Prop.](character+of+a+linear+representation#NormalizedSumOfCharacters))
 
 $$
   dim\left( V^G \right)
