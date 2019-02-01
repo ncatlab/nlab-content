@@ -677,6 +677,34 @@ The only difference to LaTeX is that ```\usetikzlibrary``` lines should be put _
 
 Under the hood, this works by running pdflatex and then generating an SVG from the resulting pdf, which is included in the HTML source of the rendered page.
 
+#### Xymatrix
+
+As of 2019 you can format commutative diagrams in the nLab using the xymatrix command just as you would in a latex document. Take a look at the [source](https://ncatlab.org/nlab/source/HowTo) of this page to see the code for the figures.
+
+Single diagram:
+
+\begin{centre}
+
+\xymatrix{A \ar[r] \ar[dr] & B \ar[d] \\ & C}
+
+\end{centre}
+
+Bent arrows:
+
+\begin{centre}
+
+\xymatrix{A \ar@/^2.0pc/[r] \ar@/_2.0pc/[r] & B}
+
+\end{centre}
+
+Parallel arrows:
+
+\begin{centre}
+
+\xymatrix{A \ar@<.6ex>[r] \ar@<-.6ex>[r] & B}
+
+\end{centre}
+
 #### Older workaround for commutative diagrams
 
 An older workaround is to use use arrays or matrices.  For example,
