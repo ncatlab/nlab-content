@@ -848,7 +848,7 @@ $$
 
 For $G = 2 I$ the [[binary icosahedral group]] (whose [[order of a group|order]] is ${\vert 2I \vert} = 120$), the [[character of a linear representation|characters]]/[[D-brane charges]] of the elementary [[virtual representation|virtual]] [[permutation representations]]/[[fractional D-branes]] are ([BSS 18, 4.10](#BurtonSatiSchreiber18)):
 
-| $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  $\left[\langle g_2\rangle\right]$ | $\left[\langle g_3\rangle\right]$ | $\left[\langle g_4\rangle\right]$ | $\left[\langle g_5\rangle\right]$ |  $\left[\langle g_6\rangle\right]$ | $\left[\langle g_7\rangle\right]$ | $\left[\langle g_78\rangle\right]$ |
+| $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  $\left[\langle g_2\rangle\right]$ | $\left[\langle g_3\rangle\right]$ | $\left[\langle g_4\rangle\right]$ | $\left[\langle g_5\rangle\right]$ |  $\left[\langle g_6\rangle\right]$ | $\left[\langle g_7\rangle\right]$ | $\left[\langle g_8\rangle\right]$ |
 |--|--|--|--|--|--|--|--|--|--|
 | $\chi_{V_1} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $\phantom{-}1$ |  $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ |
 | $\chi_{V_2} =$ | $\phantom{-}4$ |  $\phantom{-}4$ |  $\phantom{-}1$ | $\phantom{-}0$ |  $-1$ | $-1$ | $\phantom{-}1$ | $-1$ | $-1$ |
