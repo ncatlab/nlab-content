@@ -62,7 +62,7 @@ The model structure for quasi-categories is
 ###### Remark
 
 
-It is also a [[monoidal model category]] and is naturally an [[enriched model category]] over itself, hence is $sSet_{Joyal}$-enriched (reflecting the fact that it tends to present an [[(infinity,2)-category]]). It is however _not_ $sSet_{Quillen}$-enriched and thus not a "[[simplicial model category]]".
+It is also a [[monoidal model category]] and is naturally an [[enriched model category]] over itself, hence is $sSet_{Joyal}$-enriched (reflecting the fact that it tends to present an [[(infinity,2)-category]]).
 
 =--
 
