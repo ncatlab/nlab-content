@@ -97,3 +97,21 @@ Let
 \end{tikzcd}
 
 be the [[functor]] from the [[opposite category]] of the [[category]] [[FinGrp]] of [[finite groups]]] to the [[category]] [[CRing]] of [[commutative rings]], which sends a group to its [[representation ring]] and a [[group homomorphism]] to the corresponding [[restricted representation]]-assignment.
+
+\begin{centre}
+
+\begin{tikzpicture}
+
+\fill (0,0) circle[radius=2em];
+
+\end{tikzpicture}
+
+\end{centre}
+
+An XY-Matrix diagram:
+
+\begin{centre}
+
+\xymatrix{A \ar[r] \ar[dr] & B \ar[d] \\ & C}
+
+\end{centre}
