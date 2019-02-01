@@ -46,7 +46,7 @@ from an all-monic $\mathcal{C}$ by defining a topology $J$ on $Set^{\mathcal{C}^
 
 Now given $X\in\mathcal{C}$ and a sieve $B\in\Omega(X)$ define a sieve 
 
-$j_X(B):=\{\quad f\in\mathcal{C}| cod(f)=X\quad\wedge\quad Im(H(f))\subseteq\bigcap _{g\in B} Im(H(g))\quad\}.$
+$j_X(B):=\{\quad f\in\mathcal{C}| cod(f)=X\quad\wedge\quad Im(H(f))\subseteq\bigcup _{g\in B} Im(H(g))\quad\}.$
 
 The resulting map $j:\Omega\to\Omega$ is a topology.
 
