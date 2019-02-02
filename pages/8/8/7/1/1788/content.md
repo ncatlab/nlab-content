@@ -15,7 +15,6 @@ For $G = 2 I$ the [[binary icosahedral group]] (whose [[order of a group|order]]
 | $\chi_{V_7} =$ | $\phantom{-}8$ |  $-8$ |  $-4$ | $\phantom{-}0$ |  $-2$ | $-2$ | $\phantom{-}4$ | $\phantom{-}2$ | $\phantom{-}2$ |
 
 
-
 One sees by not so immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G = 2I$ is
 
 $$
