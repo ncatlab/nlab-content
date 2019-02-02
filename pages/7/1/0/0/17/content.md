@@ -9,7 +9,6 @@
 =--
 =--
 
-
 This page gives hints for how to edit [[nLab:HomePage|nLab]]-pages.
 
 An easy introduction for elementary basics is
@@ -865,7 +864,6 @@ P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} &  P(1)^{\mathrl
 
 But use Tikz wherever possible.
 
-
 ####Image files
 
 One can upload an image to the nLab as follows. 
@@ -877,6 +875,34 @@ One can upload an image to the nLab as follows.
 3. You will be sent to a page where you can upload the image.
 
 Once uploaded, the picture should appear on the page.
+
+### How to centre
+
+Text or figures can be centred exactly as in LaTeX. For instance,
+
+\begin{centre}
+    Hello!
+\end{centre}
+
+is produced by
+
+```
+<nowiki>
+    \begin{centre}
+        Hello!
+    \end{centre}
+</nowiki>
+```
+
+or by the following (i.e. either UK or US spelling can be used).
+
+```
+<nowiki>
+    \begin{center}
+        Hello!
+    \end{center}
+</nowiki>
+```
 
 ## Other Sources of Information
 
@@ -895,8 +921,6 @@ Here are some useful specifics:
 * [Embed SVG in equations](http://golem.ph.utexas.edu/instiki/show/SVG)
 * [Upload files](http://golem.ph.utexas.edu/instiki/show/File+Uploads)
 * [Use keyboard shortcuts](http://golem.ph.utexas.edu/instiki/show/AccessKeys)
-* [Make slideshows](http://golem.ph.utexas.edu/instiki/show/S5)
-
 
 ### Survey of available math typesetting commands
 
