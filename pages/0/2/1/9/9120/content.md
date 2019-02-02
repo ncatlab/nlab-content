@@ -50,7 +50,7 @@ $$
     \\
     && \bot && \bot
     \\
-    &\stackrel{bosonic}{} & \rightsquigarrow &\dashv& Rh & \stackrel{rheonomic}{}
+    &\stackrel{bosonic}{} & \rightsquigarrow &\dashv& \mathrm{R}\!\!\mathrm{h} & \stackrel{rheonomic}{}
     \\
     && \vee && \vee
     \\
