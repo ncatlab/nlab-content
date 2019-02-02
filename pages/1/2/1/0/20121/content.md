@@ -80,6 +80,12 @@ $$
 
 (e.g. [tom Dieck 09 (2.1)](#tomDieck09))
 
+## Related concepts
+
+* [[equivariant K-theory]]
+
+* [[fractional D-brane]]
+
 ## References
 
 * {#tomDieck09} [[Tammo tom Dieck]], chapter 2 of _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
