@@ -120,6 +120,20 @@ An XY-Matrix diagram:
 
 \begin{centre}
 
-\xymatrix{A \ar[r] \ar[dr] & B \ar[d] \\ & C}
+\begin{xymatrix}
+
+A \ar[r] \ar[dr] & B^{2} \ar[d] \\ & C
+
+\end{xymatrix}
+
+\end{centre}
+
+\begin{centre}
+
+\begin{xymatrix[font = 13pt]@R+3pc}
+
+A \rtwocell^f_g{\alpha} & B
+
+\end{xymatrix}
 
 \end{centre}
