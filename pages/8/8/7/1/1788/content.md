@@ -147,3 +147,11 @@ A \ar@/^2.0pc/[r] \ar@/_2.0pc/[r] & B
 \end{xymatrix}
 
 \end{centre}
+
+    <nowiki>
+    \begin{tikzpicture}
+
+    \draw (0,0) -- (2,0) -- (2,-2);
+
+    \end{tikzpicture}
+    </nowiki>
