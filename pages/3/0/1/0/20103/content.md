@@ -112,6 +112,36 @@ $$
 (see also e.g. [tom Dieck 09, p. 45](representation+theory#tomDieck09))
 
 
++-- {: .num_example}
+###### Example
+
+Let $G =\mathbb{Z}_{2n+1}$ be a [[finite group|finite]] [[cyclic group]] of [[odd number|odd]] [[order of a group|order]] and let $k[\mathbb{Z}_{2n+1}]$ be its [[regular representation]]. Then the first Chern class vanishes:
+
+$$
+  c_1\big( k[\mathbb{Z}_{2n+1}]\big)
+  \;=\;
+  0
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The underlying [[set]] of $\mathbb{Z}_{2n+1}$ constitutes the canonical [[linear basis]] of $k[\mathbb{Z}_{2n+1}]$. Moreover, this carries a canonical [[linear order]] $(e, g_2, g_2, \cdots, g_{2n+1})$. With respect to this ordering, the [[action]] of each group element $g \in \mathbb{Z}_n$ is by a [[cyclic permutation]]. Since for [[odd number]] of elements the [[signature of a permutation|signature]] of a [[cyclic permutation]] is $+1$, it follows that for every group element
+
+$$
+  g(e \wedge g_1 \wedge \cdots \wedge g_{2n+1})
+  = 
+  + e \wedge g_1 \wedge \cdots \wedge g_{2n+1}
+  \,.
+$$
+
+This shows that the [[character of a linear representation|character]] of $\wedge^{2n+1}k[\mathbb{Z}_{2n+1}]$ equals that of the [[trivial representation]] $\mathbf{1}$
+
+=--
+
+
 ## Properties
 
 ### Splitting principle
