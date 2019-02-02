@@ -10,6 +10,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -96,30 +97,120 @@ Here $dim(V) \in \mathbb{Z}$ is the [[mass]], hence the net number of [[fraction
 
 In fact, since we are dealing with fractional D-branes, both the charge and mass in the above table are in factional units $1/{\vert G\vert}$ of the [[order of a group|order]] of the [[isotropy group]] $G_{DE}$ (by [this formula](fractional+D-brane#eq:RRChargeOfFractionalDBraneInGTwistedSector)), so that that normalized [[mass]] and [[charge]] is
 
-$$
+\[
+  \label{ChargeMass}
   M
   \;=\;
   \tfrac{1}{{\vert G\vert}}
   dim(V)
   \,,
   \phantom{AAA}
-  Q_{[g]}
+  Q_V(g)
   \;=\;
   \tfrac{1}{\vert G\vert}
-  tr_V\left( g_1\right)
+  \chi_V(g) 
+  \coloneqq 
+    \tfrac{1}{\vert G\vert}
+   tr_V\left( g_1\right)
   \,.
-$$
+\]
 
 Now in terms of this, the tadpole cancellation condition is simply that the RR-charges in all non-trivially twisted sectors vanish:
 
 \[
   \label{VanishingOfCharacterValuesOnNontrivialSubgroups}
-  Q_{g \geq 1} 
-  \propto
-  \chi_{V}\left(g_{\geq 1}\right) \;=\; 0
+  Q_V(g) 
+  =
+  0
+  \phantom{AA}\text{hence equivalently} \phantom{AA}
+  \chi_{V}\left(g\right) \;=\; 0
+  \,,
+  \phantom{AAA}
+  g \neq e
 \]
 
 ([Marchesano 03 (4.9)](#Marchesano03))
+
+
++-- {: .num_example #UnitRegularRepresentation}
+###### Example
+**([[regular representation]] is uncharged unit [[fractional D-brane]])**
+
+For every [[finite group]] $G$, the homogeous tadpole cancellation  condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) is satisfied by all multiples $n \cdot k[G/1]$ of the [[regular representation]] $k[G/1]$ (since no non-trivial element $g \in G$ has [[fixed points]] when acting on $G$, and using [this Prop.](table of marks#MarkHomomorphismIsCharactersOfPermutationRepresentation)).  Hence the [[mass]] and [[charge]] (eq:ChargeMass) of the [[fractional D-brane]] corresponding to the [[regular representation]] is
+
+$$
+  M_{{}_{k[G/1]}}
+  \;=\;
+  1
+  \,,
+  \phantom{AA}
+  Q_{{}_{k[G/1]}}(g)
+  \;=\;
+  0
+  \,.
+$$
+
+These multiples of the [[regular representation]] are regarded as trivial solutions to (eq:VanishingOfCharacterValuesOnNontrivialSubgroups).
+
+=--
+
++-- {: .num_remark #InjectivityOfCharacterHomomorphism}
+###### Remark
+**(homogeneous tadpole cancellation and weak injectivity of character morphism)**
+
+If we write the [[virtual representation]] $V$ as a formal difference
+
+$$
+  V 
+    \;=\;
+  V_+ 
+    \;-\;
+  V_-
+$$
+
+of two actual [[linear representations]] $V_\pm \in Rep_k(G)_{/\sim}$, then 
+the homogeneous tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) says that the [[character of a linear representation|characters]] of these two plain representations coincide on all non-neutral group elements
+
+$$
+  \chi_{V_+}(g)
+  \;=\;
+  \chi_{V_-}(g)
+  \,,
+  \phantom{AAAA}
+  g \neq e
+  \,.
+$$
+
+Now a basic fact of [[representation theory]] is that over a [[field]] $k$ of [[characteristic zero]] the [[character of a linear representation|character morphism]] in [[injective function]] ([this Prop.](character+of+a+linear+representation#InCharZeroCharacterMorphismIsInjective))
+
+$$
+  Rep_k(G)
+    \hookrightarrow
+  k^{ConjCl(G)}
+  \,,
+$$
+
+hence that if the characters $\chi_{{}_{V_\pm}}(g)$ agree for _all_ $g \in G$ (including the [[neutral element]] $g =e$), then in fact the two representations are [[isomorphism|isomorphic]] $V_+ \simeq V_-$ and hence then their formal difference vanishes: $V = V_+ - V_- =0$.
+
+Similarly, the existence (non-existence) of non-trivial solutions (Example \ref{UnitRegularRepresentation}) to the homogeneous tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) means equivalently that the "character morphism after forgetting the dimension" 
+
+\[
+  \label{WeakCharacterHomomorphism}
+  Rep_k(G)_{/\sim}
+    \overset{\chi}{\longrightarrow}
+  k^{ConjCl(G)}
+  \overset{
+    \text{forget dimension/mass}
+  }{\longrightarrow}
+  k^{ConjCl(G)-1}
+\]
+
+is no longer (is still) [[injective function|injective]].
+
+
+=--
+
+<br/>
 
 On the other hand, at an [[orientifold]] singularity, the [[O-plane]] itself carries such charge
 
@@ -162,13 +253,12 @@ $$
   \,.
 $$
 
- Since the tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) in particular requires the characters/charges to be integral (specifically: zero) the general solution to the tadpole cancellation condition is indeed in this sub-lattice, and so that is where we may and do solve it, below.
+Since the tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) in particular requires the characters/charges to be integral (specifically: zero) the general solution to the tadpole cancellation condition is indeed in this sub-lattice, and so that is where we may and do solve it, below.
 
 We find that in each case there is precisely a 1-dimensional (i.e. $\simeq \mathbb{Z}$) sublattice of the charge lattice (the [[representation ring]]) which solves the homogenous tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups), hence a sublattice given by the [[integer]]-multiples $n \cdot V_0$ of one single [[fractional D-brane]] [[bound state]] $V_0 \in KO^0_G(\ast)$. There are then necessarily two of these generators $\pm V_0$. We find below that in all cases the normalized [[mass]] of these is $\pm$ unity.
 
-This means that all the solutions are multiples of the [[regular representation]].
+This means that in the following cases all the solutions are multiples of the [[regular representation]] (Example \ref{UnitRegularRepresentation}), hence that the weak character homomorphism (eq:WeakCharacterHomomorphism) is still injective (Remark \ref{InjectivityOfCharacterHomomorphism}).
 
-(...)
 
 
 
