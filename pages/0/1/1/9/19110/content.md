@@ -156,61 +156,7 @@ These multiples of the [[regular representation]] are regarded as trivial soluti
 
 =--
 
-+-- {: .num_remark #InjectivityOfCharacterHomomorphism}
-###### Remark
-**(homogeneous tadpole cancellation and weak injectivity of character morphism)**
-
-If we write the [[virtual representation]] $V$ as a formal difference
-
-$$
-  V 
-    \;=\;
-  V_+ 
-    \;-\;
-  V_-
-$$
-
-of two actual [[linear representations]] $V_\pm \in Rep_k(G)_{/\sim}$, then 
-the homogeneous tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) says that the [[character of a linear representation|characters]] of these two plain representations coincide on all non-neutral group elements
-
-$$
-  \chi_{V_+}(g)
-  \;=\;
-  \chi_{V_-}(g)
-  \,,
-  \phantom{AAAA}
-  g \neq e
-  \,.
-$$
-
-Now a basic fact of [[representation theory]] is that over a [[field]] $k$ of [[characteristic zero]] the [[character of a linear representation|character morphism]] in [[injective function]] ([this Prop.](character+of+a+linear+representation#InCharZeroCharacterMorphismIsInjective))
-
-$$
-  Rep_k(G)
-    \hookrightarrow
-  k^{ConjCl(G)}
-  \,,
-$$
-
-hence that if the characters $\chi_{{}_{V_\pm}}(g)$ agree for _all_ $g \in G$ (including the [[neutral element]] $g =e$), then in fact the two representations are [[isomorphism|isomorphic]] $V_+ \simeq V_-$ and hence then their formal difference vanishes: $V = V_+ - V_- =0$.
-
-Similarly, the existence (non-existence) of non-trivial solutions (Example \ref{UnitRegularRepresentation}) to the homogeneous tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) means equivalently that the "character morphism after forgetting the dimension" 
-
-\[
-  \label{WeakCharacterHomomorphism}
-  Rep_k(G)_{/\sim}
-    \overset{\chi}{\longrightarrow}
-  k^{ConjCl(G)}
-  \overset{
-    \text{forget dimension/mass}
-  }{\longrightarrow}
-  k^{ConjCl(G)-1}
-\]
-
-is no longer (is still) [[injective function|injective]] away from multiples of the regular rep.
-
-
-=--
+(Hm, but in fact these are generally the only solution...)
 
 <br/>
 
