@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -25,12 +24,7 @@ By a  _prefex order_ we mean a [[partial order]] which is also downwards [[total
 
 The concept was introduced in ([Cuipers 13a](#Cuipers13a), [Cuipers 13b](#Cuipers13b)) in the context of [[semantics]] for [[programming languages]], and in particular hybrid and cyber-physical systems, as need arose to generalize the notion of (execution) tree to something that would include a mix of continuous and discrete progress of time. After a lot of experimentation, [Cuipers 13a](#Cuipers13a) discovered that the generalization needed was something that expresses two things: time branches when it goes forward (due to different possible courses of action a system may take), but seems linear when looking backward. 
 
-A different way of looking at it, is that executions of systems have a natural prefix order on them. Trying to come up with a generic definition of what a 'prefix' is, I could not find anything in literature and came up with the definition below. As it turns out, in roughly the same period, [Ferlez-Cleaveland-Marcus 14](#FerlezCleavelandMarcus14) discovered the definition of "pointed prefix orders" and named them "generalized execution trees".
-
-
-## Abstract ##
-
-...
+A different way of looking at it, is that executions of systems have a natural prefix order on them. Trying to come up with a generic definition of what a 'prefix' is, Cuijpers could not find anything in literature and came up with the definition below. As it turns out, in roughly the same period, [Ferlez-Cleaveland-Marcus 14](#FerlezCleavelandMarcus14) discovered the definition of "pointed prefix orders" and named them "generalized execution trees".
 
 
 ## Definition ##
@@ -71,7 +65,7 @@ In this way, prefix ordered sets form a [[category]] [[Pfx]]. Furthermore, they 
 
 ## Properties ##
 
-* Every prefix order is isomorphic to its set of histories under subsets, leading to the intuition that the elements of a prefix order `are' their histories. Formally: given a prefix ordered set $S$, the set $H = \{ x^- \mid x \in S \}$ is prefix ordered and isomorphic to $S$ (with 'taking the history of an element' and 'taking the maximum of a history' being the witnessing isomorphisms).
+* Every prefix order is isomorphic to its set of histories under subsets, leading to the intuition that the elements of a prefix order 'are' their histories. Formally: given a prefix ordered set $S$, the set $H = \{ x^- \mid x \in S \}$ is prefix ordered and isomorphic to $S$ (with 'taking the history of an element' and 'taking the maximum of a history' being the witnessing isomorphisms).
 
 * Products of prefix orders are not the usual Cartesian products, but rather are formed by all possible 'mergings' of the histories of elements of the combined prefix orders.
 
