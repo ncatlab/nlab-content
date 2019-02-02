@@ -72,6 +72,8 @@ There is a [[model structure on cubical sets]] $Set^{\Box^{op}}$ whose
 
 This is ([Jardine, section 3](#Jardine)).
 
+Explicitly, a set of generating cofibrations is given by the boundary inclusions $\partial \Box^n \to \Box^n$, and a set of generating cofibrations is given by the horn inclusions $\sqcap_{k,\epsilon}^n \to \Box^n$. This is ([Cisinski, Thm 8.4.38](#Cisinski)).
+
 ## Properties
 
 ### Homotopy theory
