@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -73,6 +72,10 @@ Traditional lecture notes include
 Textbook discussion in the context of [[intersecting D-brane models]] with an eye towards [[string phenomenology]] is in
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], sections 5.3.4 and 10.1.3 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
+
+Exposition:
+
+* Marcus Berg, _Introduction to Orientifolds_ ([pdf](https://tp.hotell.kau.se/marcus/physics/talks/orienti_short.pdf), [[BergOrientifolds.pdf:file]])
 
 Lifts of orientifolds to [[M-theory]] and [[F-theory]] are discussed in
 
