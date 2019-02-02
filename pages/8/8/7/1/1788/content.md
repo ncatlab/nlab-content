@@ -130,9 +130,19 @@ A \ar[r] \ar[dr] & B^{2} \ar[d] \\ & C
 
 \begin{centre}
 
-\begin{xymatrix[font = 13pt]@R+3pc}
+\begin{xymatrix[font = \large]@C+2pc}
 
 A \rtwocell^f_g{\alpha} & B
+
+\end{xymatrix}
+
+\end{centre}
+
+\begin{centre}
+
+\begin{xymatrix[border = 2pc]}
+
+A \ar@/^2.0pc/[r] \ar@/_2.0pc/[r] & B
 
 \end{xymatrix}
 
