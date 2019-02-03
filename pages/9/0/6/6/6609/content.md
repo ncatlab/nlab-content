@@ -58,7 +58,7 @@ A rank $(p,0)$-tensor is also called a **covariant tensor** and a rank $(0,q)$-t
 
 ## Related concepts
 
-* [[tensor calculus]]
+* [[tensor calculus]], [[tensor network]], [[string diagram]]
 
 * [[decomposable tensor]]
 
