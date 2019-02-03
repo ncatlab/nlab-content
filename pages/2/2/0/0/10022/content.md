@@ -57,7 +57,7 @@ Various properties of [[entanglement entropy]] find immediate geometric interpre
 
 Further discussion of implications of the Ryu-Takayanagi formula in [van Raamsdonk 10](#vanRaamsdonk10) suggested that the logic may also be turned around: Instead of computing [[entanglement entropy]] of a given [[boundary field theory]] from known [[bulk]] [[geometry]], conversely the [[bulk]] [[spacetime]] may be reconstructed from knowledge of the [[entanglement entropy]] of a boundary field theory.
 
-Talking this perspective to the extreme suggests a description of [[bulk]] [[spacetimes]] entirely in terms of [[information theory]]/[[entanglement]]-relations of a boundary [[QFT]] ("tensor networks", [Swingle 09](#Swingle09), [Swingle 12](#Swingle12), and quantum error correction codes [ADH 14](#ADH14), [PYHP 15](#PYHP15), see [Harlow 18](#Harlow18) for review).
+Talking this perspective to the extreme suggests a description of [[bulk]] [[spacetimes]] entirely in terms of [[information theory]]/[[entanglement]]-relations of a boundary [[QFT]] ("[[tensor networks]]", [Swingle 09](#Swingle09), [Swingle 12](#Swingle12), and quantum error correction codes [ADH 14](#ADH14), [PYHP 15](#PYHP15), see [Harlow 18](#Harlow18) for review).
 
 
 <center>
