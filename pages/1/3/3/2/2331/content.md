@@ -221,8 +221,7 @@ The Kontsevich and Soibelman references below are also good.
 
 * {#SchlessingerStasheff12} [[Michael Schlessinger]], [[Jim Stasheff]], _Deformation theory and rational homotopy type_ ([arXiv:1211.1647](https://arxiv.org/abs/1211.1647))
 
-* C. Doran, _Deformation Theory: An Historical Annotated
-Bibliography_ ([pdf](http://www.math.columbia.edu/~doran/Hist%20Ann%20Bib.pdf)) 
+* C. Doran, S. Wong, “Deformation Theory: An Historical Annotated Bibliography,” Chapter 2 in Deformation of Galois Representations, to appear in the AMS-IP Studies in Advanced Mathematics Series.
 
 * M. Doubek, M. Markl, P. Zima, _Deformation theory (lecture notes)_, Archivum mathematicum __43__ (5), 2007, 333--371, [arXiv:0705.3719](http://arxiv.org/abs/0705.3719)
 
