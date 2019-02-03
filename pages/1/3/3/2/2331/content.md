@@ -247,8 +247,7 @@ Grundlehren der Math. Wiss. __334__, Springer 2006. xii+339 pp. [MR2008e:14011](
    * _II: pro-representability of the deformation functor_ [arXiv:math/0702839](http://arxiv.org/abs/math/0702839);
    * _III: abelian categories_ [arXiv:math/0702840](http://arxiv.org/abs/math/0702840)
 
-* [[Martin C. Olsson]], _Deformation theory of representable morphisms of algebraic stacks_, Mathematische Zeitschrift
-__253__, n. 1, 25--62 (2006) [doi](http://dx.doi.org/10.1007/s00209-005-0875-9); _Tangent spaces and obstructon theories_, lectures, [MSRISummer07.pdf](http://math.berkeley.edu/~molsson/MSRISummer07.pdf)
+* [[Martin C. Olsson]], _Deformation theory of representable morphisms of algebraic stacks_, Mathematische Zeitschrift__253__, n. 1, 25--62 (2006) [doi](http://dx.doi.org/10.1007/s00209-005-0875-9); _Tangent spaces and obstructon theories_, lectures, [MSRISummer07.pdf](http://math.berkeley.edu/~molsson/MSRISummer07.pdf)
 
 * B. Fantechi, M. Manetti, _Obstruction calculus for functors of Artin rings I_, J. Algebra __202__ (1998), no. 2, 541--576, [MR99f:14004](http://www.ams.org/mathscinet-getitem?mr=99f:14004).
 
