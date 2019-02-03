@@ -122,6 +122,7 @@ Using that the [[cube category]] is a [[test category]] a model structure on cub
 * [[Denis-Charles Cisinski]], _[[joyalscatlab:Les préfaisceaux comme type d'homotopie]]_, Asterisque __308__.
   {#Cisinksi}
 
+Cisinski also derives explicit generating cofibrations and generating acyclic cofibrations using his theory of [[generalized Reedy category]], or _categories skelettiques_. See Section 8.4.
 
 The model structure on cubical sets as above is given in detail in
 
