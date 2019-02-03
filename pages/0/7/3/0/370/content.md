@@ -24,7 +24,7 @@ A _quasi-isomorphism_ is a [[chain map]] that induces [[isomorphisms]] on all [[
 
 The [[localization]] of a [[category of chain complexes]] at the quasi-isomorphisms is called the _[[derived category]]_ of the underlying [[abelian category]]. 
 
-Under the relation between [[topological spaces]] and [[chain complexes]] established by forming [[singular simplicial complexes]], quasi-isomorphism can be understod as the [[abelianization]] of [[weak homotopy equivalences]] (see the [[Hurewicz theorem]] for more on this).
+Under the relation between [[topological spaces]] and [[chain complexes]] established by forming [[singular simplicial complexes]], quasi-isomorphism can be understood as the [[abelianization]] of [[weak homotopy equivalences]] (see the [[Hurewicz theorem]] for more on this).
 
 ## Definition
 
