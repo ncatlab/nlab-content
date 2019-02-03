@@ -95,6 +95,8 @@ The behaviour of [[quantum channel]]s and _completely positive maps_ has an eleg
 
 * [[JBW-algebraic quantum mechanics]]
 
+* [[tensor network]], [[string diagram]]
+
 ## References
  {#References}
 
