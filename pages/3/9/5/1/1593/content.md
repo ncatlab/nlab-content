@@ -49,7 +49,11 @@ A more general scan of possible lifts of type IIA orientifolds to M-theory is in
  
   [[permutation D-brane]]
 
-* [[O-plane]]
+* [[O-plane]], 
+
+  [[O-plane charge]], 
+
+  [[RR-field tadpole cancellation]]
 
 * [[worldsheet parity operator]]
 
