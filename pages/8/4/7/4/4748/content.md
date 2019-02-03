@@ -660,8 +660,8 @@ For references on parallel 2-transport in [[bundle gerbes]] see [[connection on 
 
 The description of parallel $n$-transport in terms of $n$-functors on the [[path n-groupoid]] for low $n$ is in 
 
-* [[Urs Schreiber]], [[Konrad Waldorf]], _Smooth functors vs. differential forms_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SchrWalII+III">SWII</a>)
-{#SWII}
+
+* [[Urs Schreiber]],  [[Konrad Waldorf]], _Smooth Functors and Differential Forms_, Homology, Homotopy Appl., 13(1), 143-203 (2011) ([arXiv:0802.0663](http://arxiv.org/abs/0802.0663))
 
 * [[João Faria Martins]], [[Roger Picken]], _On 2-dimensional holonomy_ ([arXiv](http://arxiv.org/abs/0710.4310))
 {#MartinsPickenI}
@@ -674,6 +674,10 @@ The description of [[connections on a 2-bundle]] in terms of such parallel 2-tra
 * [[John Baez]], [[Urs Schreiber]], _Higher gauge theory_, in A. Davydov et al. (eds.), _Categories in Algebra, Geometry and Mathematical Physics_, Contemp Math 431, AMS, Providence, Rhode Island (2007) pp 7-30 ([arXiv:0511710](http://arxiv.org/abs/math/0511710), [arXi:hep-th/0412325hep-th/0412325](http://arxiv.org/abs/hep-th/0412325))
 
 * {#SWIII} [[Urs Schreiber]], [[Konrad Waldorf]] _Connections on nonabelian gerbes and their holonomy_, Theory Appl. Categ., Vol. 28, 2013, No. 17, pp 476-540 ([arXiv:0808.1923](http://arxiv.org/abs/0808.1923), [TAC](http://www.tac.mta.ca/tac/volumes/28/17/28-17abs.html)) 
+
+Much further discussion and illustration and relation to [[tensor networks]] is in
+
+* {#Parzygnat18} [[Arthur Parzygnat]], _Two-dimensional algebra in lattice gauge theory_ ([arXiv:1802.01139](https://arxiv.org/abs/1802.01139))
 
 Applications are discussed in
 
