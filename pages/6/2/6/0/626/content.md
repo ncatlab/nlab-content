@@ -65,7 +65,7 @@ There are many additional structures on monoidal categories, or similar structur
 See the article by Selinger below for more examples.
 
 
-## See also
+## Related concepts
 
 * [[sharing graph]]
 
@@ -76,6 +76,8 @@ See the article by Selinger below for more examples.
 * [[proof net]]
 
 * [[Feynman diagram]]
+
+* [[tensor network]]
 
 * [[linguistics|natural language syntax]]
 
