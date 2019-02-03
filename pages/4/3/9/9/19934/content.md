@@ -34,9 +34,18 @@ Key examples of flat orbifolds are global [[homotopy quotients]] $\mathbb{T}^n \
 
 > under construction
 
-Ever flat orbifold whose underlying [[metric space]] is [[connected topological space|connected]] and [[complete metric space|complete]]) is a global quotient of [[Euclidean space]]/[[Cartesian space]] $\mathbb{R}^n$ 
+Every flat orbifold whose underlying [[metric space]] is [[connected topological space|connected]] and [[complete metric space|complete]]) is a global quotient of [[Euclidean space]]/[[Cartesian space]] $\mathbb{R}^n$ 
 
 ([Ratcliffe 06, 13.3.10](#Ratcliffe06))
+
+
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/Z2OrbifoldSingularity.jpg" width="600">
+\end{center}
+
+> graphics grabbed from [Blumenhagen-Lüst-Theisen 13](#BlumenhagenLustTheisen13)
+
+
 
 ## Examples
 
@@ -90,15 +99,20 @@ see _[[G2-orbifold]]_
 
 * {#Ratcliffe06} John Ratcliffe, _Geometric Orbifolds_, chapter 13 in _Foundations of Hyperbolic Manifolds_, Springer 2006
 
-
 * Christian Lange, _Orbifolds from a metric viewpoint_ ([arXiv:1801.03472](https://arxiv.org/abs/1801.03472))
-
 
 * {#BettiolDerdzinskiPiccione18} Renato G. Bettiol, Andrzej Derdzinski, Paolo Piccione, _Teichmüller theory and collapse of flat manifolds_, Annali di Matematica (2018) 197: 1247 ([arXiv:1705.08431](https://arxiv.org/abs/1705.08431), [doi:10.1007/s10231-017-0723-7](https://doi.org/10.1007/s10231-017-0723-7))
 
 Discussion of [[gravity]] and maybe [[quantum gravity]] on orbifolds:
 
 * Helio V. Fagundes, Teofilo Vargas, _Orbifolds, Quantum Cosmology, and Nontrivial Topology_ ([arXiv:gr-qc/0611048](https://arxiv.org/abs/gr-qc/0611048))
+
+Discussion of [[perturbative string theory]] on toroidal orbifolds
+
+* {#BlumenhagenLustTheisen13} [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], Chapter 10.5 _Toroidal orbifolds_,  of _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics pp 585-639 Springer 2013
+
+For more see the references at _[[orbifold]]_.
+
 
 ### Flat orbifolds
 
