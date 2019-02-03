@@ -109,11 +109,11 @@ Review includes,
 
 * {#Mohaupt00} [[Thomas Mohaupt]], _Black holes in supergravity and string theory_, Class. Quantum Grav. 17 (2000) 3429&#8211;3482 ([pdf](http://www.itp.uni-hannover.de/~giulini/papers/BlackHoleSeminar/Mohaupt_CQG_2000.pdf))
 
-* [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], _Brane solutions in supergravity_, chapter 18.5 in _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics pp 585-639 Springer 2013
+* {#BlumenhagenLustTheisen13} [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], _Brane solutions in supergravity_, chapter 18.5 in _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics pp 585-639 Springer 2013
 
 and in the context of multiple [[M2-branes]] in the  [[BLG model]]:
 
-* {#BaggerLambert12} [[Jonathan Bagger]], [[Neil Lambert]], Sunil Mukhi, Constantinos Papageorgakis, section 1.6 of _Multiple Membranes in M-theory_ ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546))
+* {#BaggerLambert12} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], Constantinos Papageorgakis, section 1.6 of _Multiple Membranes in M-theory_ ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546))
 
 
 Further developments include
