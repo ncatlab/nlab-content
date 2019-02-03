@@ -11,19 +11,31 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-In the presence of [[D-branes]], plain [[type II string theory]] in fact has a [[quantum anomaly]] reflected by [[tadpole]] [[Feynman diagrams]] in the [[string perturbation series]] for [[RR-fields]]. This anomaly cancels if the [[D-branes]] are accompanied by a suitable collection of [[O-planes]], hence if one considers [[orientifold]] backgrounds ([Sagnotti 88, pp. 5](#Sagnotti88), [Simon-Polchinski 96, section 3](#SimonPolchinski96)). (For space-filling [[O-planes]] this means to consider [[type I string theory]] instead.)
+In the presence of [[D-branes]], plain [[type II string theory]] in fact has a [[quantum anomaly]] reflected on the [[worldsheet]] by [[tadpole]] [[Feynman diagrams]] in the [[string perturbation series]] for [[RR-fields]]
+
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/TadpoleCancellationFactorization.jpg" width="600">
+\end{center}
+
+> graphics grabbed from [Blumenhagen-Lüst-Theisen 13](#BlumenhagenLustTheisen13)
+
+
+and reflected in [[target spacetime]] by non-trivial total [[RR-field]] [[flux]] on [[compact topological space|compact spaces]]
 
 \begin{center}
 <img src="https://ncatlab.org/nlab/files/RRTadpoleCancellation.jpg" width="600">
 \end{center}
 
 > graphics grabbed from [Ibanez-Uranga 12](#IbanezUranga12)
+
+This anomaly cancels if the [[D-branes]] are accompanied by a suitable collection of [[O-planes]], hence if one considers [[orientifold]] backgrounds ([Sagnotti 88, pp. 5](#Sagnotti88), [Simon-Polchinski 96, section 3](#SimonPolchinski96)). (For space-filling [[O-planes]] this means to consider [[type I string theory]] instead.)
 
 Accordingly, tadpole cancellation via [[orientifolds|orientifolding]] is a key consistency condition in the construction of [[intersecting D-brane models]] for [[string phenomenology]].
 
@@ -244,14 +256,14 @@ This is indeed the case for the multiples $V = n\cdot k[G/1]$ of the [[regular r
 
 <br/>
 
-On the other hand, at an [[orientifold]] singularity, the [[O-plane]] itself carries such charge
+On the other hand, at an [[orientifold]] singularity, the [[O-plane]] itself carries such charge -- [[O-plane charge]] (see [there](orientifold+plane#OPlaneCharge)):
 
 | $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  $\left[\langle g_2\rangle\right]$ | $\cdots$ |  $\left[\langle g_{\vert ConjCl(G)\vert}\rangle\right]$ |
 |--|--|--|--|--|--|
 | $\chi_O =$ | $dim(O)$ |  $tr_O\left( g_1\right)$ |  $tr_O\left(g_2\right)$ | $\cdots$ |  $tr_O\left(g_{\vert ConjCl(G)\vert}\right)$ | 
 | $\text{O-plane}$ |   | ${\text{O-plane charge in} \atop {g_1\text{-twisted sector}}}$  | ${\text{O-plane-charge in} \atop {g_2\text{-twisted sector}}}$  | $\cdots$  | $\cdots$  | 
 
-Now the tadpole cancellation condition is that (all representations are real and) this O-plane charge is cancelled, an [[affine space|affine]] version of the previous condition
+Now the tadpole cancellation condition is that (all representations are real and) this [[O-plane charge]] is cancelled against the [[D-brane charge]], an [[affine space|affine]] version of the previous condition:
 
 \[
   \label{InhomogeneousTadpoleCancellation}
@@ -271,13 +283,14 @@ $$
 $$
 
 
-In fact, in all examples the [[O-plane]]-charge is a multiple of the [[trivial representation|trivial]] [[irrep]] $O = p \cdot \mathbf{1}$, for instance $O =8 \cdot \mathbf{1}$ for $O8$-planes, whence
+In basic examples the [[O-plane]]-charge is a multiple by the [[O-plane charge]] ratio ([here](orientifold+plane#OPlaneCharge)) of the [[trivial representation|trivial]] [[irrep]] $O = 2^{p-4} \cdot \mathbf{1}$, whence
 
 $$
-  V \;=\; p \cdot \mathbf{1} + n \cdot k[G/1]
+  V \;=\; 2^{p-4} \cdot \mathbf{1} + n \cdot k[G/1]
   \,.
 $$
 
+> (prefactor?)
 
 
 ### Examples
@@ -1200,7 +1213,7 @@ Textbook accounts include
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 4.4 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge 2012
 
-* [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], section 9.4 of _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics pp 585-639 Springer 2013
+* {#BlumenhagenLustTheisen13} [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], section 9.4 of _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics, Springer 2013
 
 
 Quick illustrations include:
