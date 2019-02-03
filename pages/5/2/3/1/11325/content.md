@@ -42,7 +42,11 @@ A formalization and proof of one version of the hypothesis, and discussion of re
 
 A counterexample in 4 dimensions was found in
 
-* {#CrisfordSantos17} Toby Crisford, Jorge E. Santos, _Violating weak cosmic censorship in AdS$_4$_, Phys. Rev. Lett. 118, 181101 (2017) ([arXiv:1702.05490](https://arxiv.org/abs/1702.05490))
+* {#CrisfordSantos17} Toby Crisford, [[Jorge Santos]], _Violating weak cosmic censorship in AdS$_4$_, Phys. Rev. Lett. 118, 181101 (2017) ([arXiv:1702.05490](https://arxiv.org/abs/1702.05490))
+
+More on this and the relation to the [[weak gravity conjecture]]:
+
+* [[Gary Horowitz]], [[Jorge Santos]], _Further evidence for the weak gravity - cosmic censorship connection_ ([arXiv:1901.11096](https://arxiv.org/abs/1901.11096))
 
 See also
 
