@@ -229,11 +229,20 @@ and then further developed notably in
 
 * [[Eric Zaslow]], _Topological orbifold models and quantum cohomology rings_, Comm. Math. Phys. 156 (1993), no. 2, 301&#8211;331.
 
-See also the references at _[[fractional D-brane]]_.
+See also the references at 
+
+* _[[Riemannian orbifold]]_ 
+
+* _[[fractional D-brane]]_
+
+* _[[RR-field tadpole cancellation]]_
 
 Review of orbifolds in the context of string compactifications includes
 
 * Susanne Reffert, _The Geometer's Toolkit to String Compactifications_, lectures at _[String and M theory approaches to particle physics and cosmology](https://www.ggi.infn.it/showevent.pl?id=11)_, 2007 ([arXiv:0706.1310](https://arxiv.org/abs/0706.1310))
+
+* {#BlumenhagenLustTheisen13} [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], Chapter 10.5 _Toroidal orbifolds_,  of _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics pp 585-639 Springer 2013
+
 
 and for orbifolds of [[G2-manifolds]] for [[M-theory on G2-manifolds]]
 
