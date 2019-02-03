@@ -28,7 +28,7 @@ On the [[homotopy groups of spheres]]
 ###### Theorem
 **(Serre finiteness theorem)**
 
-The [[stable homotopy groups of spheres]] $\pi_{n+k}(S^k)$ are [[finite groups]] except
+The [[homotopy groups of spheres]] $\pi_{n+k}(S^k)$ are [[finite groups]] except
 
 1. for $n = 0$ in which case $\pi_k(S^k) = \mathbb{Z}$;
 
