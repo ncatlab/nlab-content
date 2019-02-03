@@ -1235,9 +1235,9 @@ See also
 * {#GarciaUranga05} Inaki Garcia-Etxebarria, [[Angel Uranga]], _From F/M-theory to K-theory and back_, JHEP 0602:008, 2006 ([arXiv:hep-th/0510073](https://arxiv.org/abs/hep-th/0510073))
 
 
-
-
 * {#MaidenShiuStefanski06} John Maiden, Gary Shiu, [[Bogdan Stefanski]], _D-brane Spectrum and K-theory Constraints of D=4, N=1 Orientifolds_, JHEP0604:052,2006 ([arXiv:hep-th/0602038](https://arxiv.org/abs/hep-th/0602038))
+
+* Tetsuji Kimura, Mitsuhisa Ohta, Kei-Jiro Takahashi, _Type IIA orientifolds and orbifolds on non-factorizable tori_, Nucl.Phys.B798:89-123, 2008 ([arXiv:0712.2281](https://arxiv.org/abs/0712.2281))
 
 For the [[topological string]]:
 
