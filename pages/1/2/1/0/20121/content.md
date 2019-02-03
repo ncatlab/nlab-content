@@ -31,6 +31,8 @@ There are important formulas concerning characters in representation theory, lik
 
 ## Properties
 
+### The character homomorphism
+
 +-- {: .num_prop #InCharZeroCharacterMorphismIsInjective}
 ###### Proposition
 **(in [[characteristic zero]] the [[character homomorphism]] is [[injective function|injective]])**
@@ -60,25 +62,106 @@ is [[injective function|injective]].
 
 (e.g. [tom Dieck 09, Theorem (2.1.3)](#tomDieck09))
 
+### Schur inner product
+ {#SchurInnerProduct}
 
-+-- {: .num_prop #NormalizedSumOfCharacters}
++-- {: .num_prop #SchurInnerProductInTermsOfCharacters}
 ###### Proposition
+**([Schur inner product](Schur's+lemma#InterpretationInCategoricalAlgebra) in terms of [[character of a linear representation|characters]])**
+
+Let $G$ be a [[finite group]] of [[order of a group|order]] ${\vert G \vert} \in \mathbb{N}$, and let $V_1, V_2 \in Rep_k(G)$ be two [[linear representation]] over a [[ground field]] $k$ of [[characteristic zero]]. 
+
+Then the [Schur inner product](Schur's+lemma#InterpretationInCategoricalAlgebra) of the two representation equals the [[convolution product]] of their [[character of a linear representation|characters]], normalized by the [[order of a group|order]] of $G$:
+
+\[
+  \label{OrthogonalityRelation}
+  \left\langle
+    V_1, V_2
+  \right\rangle
+  \;\coloneqq\;
+  dim_k\Big(
+    Hom\big(
+      V_1, V_2
+    \big)
+  \Big)
+  \;=\;
+  \frac{1}{\left\vert G\right\vert}
+  \underset{g \in G}{\sum}
+  \chi_{V_1}(g^{-1})
+    \cdot
+  \chi_{V_2}(g)
+  \,.
+\]
+
+=--
+
+(e.g. [tom Dieck 09 (2.5)](#tomDieck09))
+
+
+
++-- {: .num_example #NormalizedSumOfCharacters}
+###### Example
 **(normalized [[sum]] of [[character of a linear representation|characters]] is [[fixed point space]]-[[dimension]])**
 
-Let $G$ be a [[finite group]] of [[order of a group|order]] ${\vert G \vert} \in \mathbb{N}$, and let $V \in Rep_k(G)$ be a [[linear representation]] over a [[ground field]] $k$ of [[characteristic zero]]. Then the [[dimension]] of the [[fixed point space]] $V^G$ of $V$ under $G$ equals the normalized [[sum]] of the characters over all group elements:
+Let $G$ be a [[finite group]] of [[order of a group|order]] ${\vert G \vert} \in \mathbb{N}$, and let $V \in Rep_k(G)$ be a [[linear representation]] over a [[ground field]] $k$ of [[characteristic zero]]. 
 
-$$
+Then the [[dimension]] of the [[fixed point space]] $V^G$ of $V$ under $G$ equals the normalized [[sum]] of the character values over all group elements:
+
+\[
+  \label{SumOverAllCharacterValues}
   dim\left( V^G \right)
   \;=\;
   \frac{1}{{\vert G\vert}}
   \underset{g \in G}{\sum}
   \chi_V(g)
   \,.
-$$
+\]
+
+In particular
+
+1. if $V = \rho \neq \mathbf{1}$ is a non-[[trivial representation|trivial]] [[irreducible representation]] then
+
+  $$
+    \underset{g \in G}{\sum}
+    \chi_{\rho}(g)
+    \;=\;
+    0
+  $$
+
+1. if $V = \mathbf{1}$ is the the [[trivial representation|trivial]] [[irreducible representation]] then
+
+  $$
+    \underset{g \in G}{\sum}
+    \chi_{\mathbf{1}}(g)
+    \;=\;
+    \left\vert G\right\vert
+  $$
  
 =--
 
 (e.g. [tom Dieck 09 (2.1)](#tomDieck09))
+
++-- {: .proof}
+###### Proof
+
+The first statement is a special case of Prop. \ref{SchurInnerProductInTermsOfCharacters} by observing that the [[fixed point space]] of a [[linear representation]] $V$ is the space of [[homomorphisms]] from the [[trivial representation|trivial]] [[irrep]] 
+
+$$
+  dim\big( V^G\big)
+  \;=\;
+  dim\Big( 
+    \mathrm{Hom}\big( \mathbf{1}, V \big)
+  \Big)
+$$
+
+and that the [[character of a linear representation|character]] of $\mathbf{1}$ is [[constant function|constant]] on $1 \in k$.
+
+The second statement follows from this by [[Schur's lemma]], which says that $\langle \mathbf{1}, \rho\rangle = 0$ if the [[irrep]] $\rho \neq \mathbf{1}$. 
+
+The last statement may similarly be seen as the complementary special case of  (eq:SumOverAllCharacterValues) obtained from $\langle \mathbf{1},\mathbf{1}\rangle =1$, but of course it also follows directly from the fact that the [[character of a linear representation|character]] of the [[trivial representation|trivial]] [[irrep]] is [[constant function|constant]] on 1. 
+
+=--
+
 
 ## Related concepts
 
