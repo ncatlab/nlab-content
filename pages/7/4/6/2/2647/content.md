@@ -53,6 +53,7 @@ It may mean any :
 
 * [[2-algebraic geometry]]
 
+* [[tensor network]]
 
 ## References
 
