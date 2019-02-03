@@ -281,6 +281,7 @@ $$
 
 
 ### Examples
+ {#ExamplesForFractionalDBranes}
 
 We discuss more explicitly the solutions to the homogeneous tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for [[fractional D-branes]] at [[orbifold]] [[singularities]] for [[isotropy group]] one of  the [[nonabelian group|non-abelian]] [[finite subgroups of SU(2)]], 
 
