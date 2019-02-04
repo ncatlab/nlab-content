@@ -190,7 +190,7 @@ which takes a space $S$ to the functor $\hom_{Top}(I^{\bullet}-, S)$.
 ### Subdivision and fibrant replacement 
 
 [[Rick Jardine]] constructed a cubical subdivision functor $sd$. It is an obvious subdivision of an $n$-cube, which is just a product of barycentric subdivisions of intervals. The (functorial) subdivision $sd X$ of a cubical set $X$ is constructed from this naive subdivision of the $n$-cube in the end.
-See [Jardine's lecture notes](#JardineLecture) for details. There is a natural sequence of maps of cubical sets
+See [Jardine's lecture notes](#Jardine02) for details. There is a natural sequence of maps of cubical sets
 
 
 $$
@@ -312,7 +312,7 @@ For more on this see at _[[relation between category theory and type theory]]_.
 
 The [[homotopy theory]] / [[model category]] structure on cubical sets is discussed in 
 
-* {#Jardine02} [[Rick Jardine]], _Model structure on cubical sets_ (2002) ([pdf](http://hopf.math.purdue.edu/Jardine/cubical2.pdf)) 
+* {#Jardine02} [[Rick Jardine]], _Cubical homotopy theory: a beginning_ (2002) ([pdf](http://hopf.math.purdue.edu/Jardine/cubical2.pdf)) 
  
 
 The fact that the [[exponential object]] of two fibrant cubical sets is again fibrant follows from remark 8.4.33 in 
