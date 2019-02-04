@@ -23,7 +23,7 @@
 
 An _orientifold_ is a [[target space|target]] [[spacetime]] for [[string theory|string]] [[sigma-models]] that combines aspects of $\mathbb{Z}_2$-[[orbifold]]s with _[[orientation]] reversal_ on the worldsheet, whence the name.
 
-In [[type II string theory]] orientifold backgrounds (inducing [[type I string theory]]) are required for [[RR-field tadpole cancellation]]. This is a key consistency condition in particular for [[intersecting D-brane models]] used in [[string phenomenology]].
+In [[type II string theory]] orientifold backgrounds (inducing [[type I string theory]]) with $\mathbb{Z}_2$-[[fixed points]] -- called _[[O-planes]]_ (see there for more) --  are required for [[RR-field tadpole cancellation]]. This is a key consistency condition in particular for [[intersecting D-brane models]] used in [[string phenomenology]].
 
 Where generally ([[higher gauge field|higher gauge]]) [[field (physics)|fields]] in [[physics]]/[[string theory]] are [[cocycles]] in ([[differential cohomology theory|differential]]) [[cohomology theory]] and typically in [[complex oriented cohomology theory]], fields on orientifolds are cocycles in genuinely $\mathbb{Z}_2$-[[equivariant cohomology]] and typically in [[real-oriented cohomology theory]]. For instance, the [[B-field]], which otherwise is a (twisted) cocycle in ([[ordinary differential cohomology|ordinary]]) [[differential cohomology]], over an orientifold is a cocycle in (twisted) [[HZR-theory]], and the [[RR-fields]], which usually are cocycles in ([[twisted cohomology|twisted]] [[differential K-theory|differential]]) [[K-theory]], over an orientifold are cocycles in [[KR-theory]] ([Witten 98](#Witten98)).
 
@@ -162,6 +162,9 @@ The "higher orientifold" appearing in [[Horava-Witten theory]] with circle 2-bun
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field|The E8 moduli 3-stack of the C-field in M-theory]]_ ([arXiv:1202.2455](http://arxiv.org/abs/1202.2455))
 
+The [[Witten-Sakai-Sugimoto model]] for [[QCD]] on orientifolds:
+
+* {#ImotoSakaiSugimoto09} Toshiya Imoto, [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _$O(N)$ and $USp(N)$ QCD from String Theory_, Prog.Theor.Phys.122:1433-1453, 2010 ([arXiv:0907.2968](https://arxiv.org/abs/0907.2968))
 
 
 [[!redirects orientifolds]]
