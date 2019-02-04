@@ -186,13 +186,18 @@ Explicit [[groupoid]]/[[stack]] models for equivariant and twisted KR-theory the
 
 * {#Freed12} [[Daniel Freed]], _Lectures on twisted K-theory and orientifolds_, lectures at ESI Vienna, 2012 ([[FreedESI2012.pdf:file]])
 
-This is with motivation from _[[orientifolds]]_, see the references given there for more. A long list of computations of twisted $KR$-classes on tori with applications to [[T-duality]] on [[orientifolds]] is in
+This is with motivation from _[[orientifolds]]_, see the references given there for more. A long list of computations of twisted $KR$-classes on tori with applications to [[T-duality]] on [[orientifolds]]/[[O-planes]] is in
 
 * {#Gukov00} [[Sergei Gukov]], _K-Theory, Reality, and Orientifolds_, Commun.Math.Phys. 210 (2000) 621-639 ([arXiv:hep-th/9901042](http://arxiv.org/abs/hep-th/9901042))
 
 * {#DMR13} [[Charles Doran]], Stefan Mendez-Diez, [[Jonathan Rosenberg]], _T-duality For Orientifolds and Twisted KR-theory_ ([arXiv:1306.1779](http://arxiv.org/abs/1306.1779))
 
 * {#DMR14} [[Charles Doran]], Stefan Mendez-Diez, [[Jonathan Rosenberg]], _String theory on elliptic curve orientifolds and KR-theory_ ([arXiv:1402.4885](http://arxiv.org/abs/1402.4885))
+
+A general proposal for [[differential K-theory|differential]] [[equivariant K-theory|equivariant]] KR-theory of [[orientifolds]] and [[O-plane charge]]
+
+* {#DistlerFreedMoore09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
+
 
 Discussion of $KO$ as the $\mathbb{Z}_2$-[[homotopy fixed points]] of $KU$ (or $KR$) is in
 
