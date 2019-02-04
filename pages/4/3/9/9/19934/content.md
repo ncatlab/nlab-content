@@ -53,6 +53,34 @@ Every flat orbifold whose underlying [[metric space]] is [[connected topological
 
 Basic examples of Riemannian orbifolds are [[conical singularities]] such as [[ADE-singularities]].
 
+### General compact orbifolds
+
+
++-- {: .num_example #CoordinateReflectionOnNTorus}
+###### Example
+**([[coordinate function|coordinate]] [[reflection]] on [[n-torus]])** 
+
+Let $\mathbb{T}^d \coloneqq \mathbb{R}^d / \mathbb{Z}^d$ be the [[n-torus|d-torus]] and consider the [[action]] of the [[cyclic group]] $\mathbb{Z}_2$ by canonical [[coordinate function|coordinate]] [[reflection]]
+
+$$
+  \array{
+    \mathbb{Z}_2 \times \mathbb{T}^d
+    &\longrightarrow&
+    \mathbb{T}^d
+    \\
+    (\sigma, \vec x)
+    &\mapsto&
+     - \vec x
+  }
+  \,.
+$$
+
+The resulting [[homotopy quotient]] [[orbifold]] $\mathbb{T}^d\sslash\mathbb{Z}_2$ has $2^d$ [[singularities]]/[[fixed points]], namely the points with all coordinates in $\{0\,,\, 1/2\, \mathrm{mod} \mathbb{Z}\}$.
+
+In applications to [[string theory]] orbifolds of the form $\mathbb{R}^{p,1} \times \mathbb{T}^d\sslash \mathbb{Z}_2$ play the role of [[orientifold]] [[spacetimes]] with $2^d$ [[Op-planes]].
+
+=--
+
 ### Flat compact 2-dimensional orbifolds
  {#FlatCompact2DimensionalOrbifolds}
 
