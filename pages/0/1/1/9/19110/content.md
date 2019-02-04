@@ -283,14 +283,20 @@ $$
 $$
 
 
-In basic examples the [[O-plane]]-charge is a multiple by the [[O-plane charge]] ratio ([here](orientifold+plane#OPlaneCharge)) of the [[trivial representation|trivial]] [[irrep]] $O = 2^{p-4} \cdot \mathbf{1}$, whence
+In basic examples the [[O-plane]]-charge 
 
 $$
-  V \;=\; 2^{p-4} \cdot \mathbf{1} + n \cdot k[G/1]
+  O = 2^{p-4} n \cdot  \mathbf{1}
+$$
+
+is for $n_O$ coincident [[O-planes]] is the corresponding multiple by the [[O-plane charge]] $\mu_{Op} = -2^{8-4}$ ([here](orientifold+plane#eq:OpPlaneCharge)) of the [[trivial representation|trivial]] [[irrep]], whence the general solution to the tadpole cancellation condition then is the [[affine space|affine]] version of (eq:VanishingOfCharacterValuesOnNontrivialSubgroups), being $+ 2^{p-4} \cdot \mathbf{1}$ plus, by Prop. \ref{RegularRepSpansSolutionToHomogeneousTadpoleCancellation}, any numbers of the [[regular representation]]:
+
+$$
+  V \;=\; 2^{p-4} n_O \cdot \mathbf{1} 
+    \;+\; n \cdot k[G/1]
   \,.
 $$
 
-> (prefactor?)
 
 
 ### Examples
