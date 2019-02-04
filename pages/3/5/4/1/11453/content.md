@@ -23,32 +23,110 @@ O-planes carry [[D-brane charges]] in [[KR-theory]] ([Witten 98](#Witten98)), se
 
 ## Properties
 
-### O-Plane charge
- {#OPlaneCharge}
-
-Relation of [[O-plane charge]] $\mu_{O_p}$ to [[D-brane charge]] $\mu_{D_p}$ for flat O-planes:
-
-$$
-  \mu_{Op}
-  \;=\;
-  -2^{p-4} \mu_{Dp}
-$$
-
-([Blumenhagen-Lüst-Theisen 13 (10.212)](#BlumenhagenLustTheisen13))
-
-See also at [[RR-field tadpole cancellation]].
-
-A much more general formula for this O-plane charge, regarded in [[differential K-theory|differential]] [[equivariant K-theory|equivariant]] [[KR-theory]] is supposed to be the topic of [Distler-Freed-Moore 09](#DistlerFreedMoore09).
-
-(...)
-
 
 ### T-Duality with type I string theory
  {#TDualityWithTypeIStringTheory}
 
-Under [[T-duality]] [[type I string theory]] is dual to [[type II string theory]] with orientifold planes (reviewed e.g. in [Ibanez-Uranga 12, section 5.3.2](#IbanezUranga12)):
+Under [[T-duality]] [[type I string theory]] is dual to [[type II string theory]] with orientifold planes (reviewed e.g. in [Ibanez-Uranga 12, section 5.3.2 - 5.3.4](#IbanezUranga12)):
 
 <img src="https://ncatlab.org/nlab/files/TDualityOrientifold.jpg" width="700">
+
+
+
+### O-Plane charge
+ {#OPlaneCharge}
+
+O-planes carry effective negative [[RR-charge]] which may (must) cancel against the actual [[RR-charge|RR-]] [[D-brane charge]] via [[RR-field tadpole cancellation]].
+
+#### O-plane charge for flat orientifolds
+ {#OPlaneChargeForFlatOrientifolds}
+
+The charge of the [[spacetime]]-filling $O9$-plane of plain [[type I string theory]] ([[type II string theory]] on the [[orientifold]] $\mathbb{R}^{9,1}\sslash \mathbb{Z}_2$ with [[trivial action|trival]] spacetime $\mathbb{Z}_2$-[[action]]) is found by [[worldsheet]]-computation to be 
+
+\[
+  \label{O9PlaneCharge}
+  \mu_{O9}
+  \;=\;
+  -32
+\]
+
+(e.g. [Blumenhagen-Lüst-Theisen 13 (9.83)](#BlumenhagenLustTheisen13)).
+
+This means that [[RR-field tadpole cancellation]] here requires the presence of 32 [[D-branes]], hence a space-filling [[D9-brane]] with [[Chan-Paton bundle]] of [[rank of a vector bundle|rank]] $32$, corresponding to a [[gauge group]] SO(32).
+
+From this the O$p$-brane charge for $p \leq n$ follows from [[T-duality]] (as [above](#TDualityWithTypeIStringTheory))
+with respect to [[KK-compactification]] on a [[n-torus|d-torus]] $\mathbb{T}^d$ with $\mathbb{Z}_2$-[[action]] given by canonical [[coordinate function|coordinate]] [[reflection]]
+
+$$
+  \array{
+    \mathbb{Z}_2 \times \mathbb{R}^{10-d-1,1} \times \mathbb{T}^d
+    &\longrightarrow&
+    \mathbb{R}^{10-d-1,1}
+      \times
+    \mathbb{T}^d
+    \\
+    (\sigma, (\vec x, \vec y))
+    &\mapsto&
+     (\vec x, - \vec y)
+  }
+  \,.
+$$
+
+This results in $O_{9-d}$-planes with [[worldvolume]] $\mathbb{R}^{10-d-1,1}$. But since the [[orbifold]] $\mathbb{T}^d\sslash \mathbb{Z}_2$ now has $2^d$ [[singularities]] /[[fixed points]] ([this Example](Riemannian+orbifold#CoordinateReflectionOnNTorus)) there are now $2^d$ such $O_{9-d}$-planes.
+
+Since the number of [[D-branes]] does not change under [[T-duality]], the total O-plane charge should be the same as before
+
+$$
+  2^d \cdot \mu_{O_{9-d}}
+  \;=\;
+  1 \cdot \mu_{O_9}
+  \;=\;
+  -32
+  \;=\;
+  - 2^5
+$$
+
+which means that the $O_{9-d}$-brane charge is
+
+$$
+  \mu_{O_{9-d}}
+  \;=\;
+  - 2^{5-d}
+$$
+
+or equivalently
+
+\[
+  \label{OpPlaneCharge}
+  \mu_{O_p}
+  \;=\;
+  - 2^{ p - 4 }
+\]
+
+(e.g. [Ibáñez-Uranga 12 (5.52)](#IbanezUranga12), [Blumenhagen-Lüst-Theisen 13 (10.212)](#BlumenhagenLustTheisen13))
+
+
+
+| $Op$-plane | charge <br/> $\mu_{Op}$| transverse <br/> [[n-torus|d-torus]] | [[fixed points]] <br/> $\left\vert\left( \mathbb{T}^d\right)^{\mathbb{Z}_2}\right\vert$ |
+|------------|--------|-------|----| 
+| $O9$ | $-32$ | $\mathbb{T}^0$  | 1 |
+| $O8$ | $-16$ | $\mathbb{T}^1$  | 2 |
+| $O7$ | $-8$ | $\mathbb{T}^2$  | 4 |
+| $O6$ | $-4$ | $\mathbb{T}^3$  |  8 | 
+| $O5$ | $-2$ | $\mathbb{T}^4$  |  16 | 
+| $O4$ | $-1$ | $\mathbb{T}^5$  |  32 |
+
+In particular the O4-plane has negative unit charge, so that the total charge of $-32$ here comes entirely from the number $32 = 2^5$ of [[fixed points]] of the $\mathbb{Z}_2$-[[action]] on $\mathbb{T}^5$.
+
+
+
+
+
+#### O-plane charge in differential equivariant KR-theory
+
+A much more general formula for this O-plane charge, regarded in [[differential K-theory|differential]] [[equivariant K-theory|equivariant]] [[KR-theory]] is supposed to be the topic of [Distler-Freed-Moore 09](#DistlerFreedMoore09).
+
+
 
 ### Duality with M-Theory
  {#DualityWithMTheory}
@@ -169,6 +247,9 @@ Lift to [[M-theory]]:
 
 * {#HSS18} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_ ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987))
 
+The [[Witten-Sakai-Sugimoto model]] for [[QCD]] on O-planes:
+
+* {#ImotoSakaiSugimoto09} Toshiya Imoto, [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _$O(N)$ and $USp(N)$ QCD from String Theory_, Prog.Theor.Phys.122:1433-1453, 2010 ([arXiv:0907.2968](https://arxiv.org/abs/0907.2968))
 
 
 
@@ -190,6 +271,10 @@ See also
 
 [[!redirects O8-plane]]
 [[!redirects O8-planes]]
+
+[[!redirects Op-plane]]
+[[!redirects Op-planes]]
+
 
 [[!redirects O-plane charge]]
 [[!redirects O-plane charges]]
