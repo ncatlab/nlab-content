@@ -109,12 +109,12 @@ or equivalently
 
 | $Op$-plane | charge <br/> $\mu_{Op}$| transverse <br/> [[n-torus|d-torus]] | [[fixed points]] <br/> $\left\vert\left( \mathbb{T}^d\right)^{\mathbb{Z}_2}\right\vert$ |
 |------------|--------|-------|----| 
-| $O9$ | $-32$ | $\mathbb{T}^0$  | 1 |
-| $O8$ | $-16$ | $\mathbb{T}^1$  | 2 |
-| $O7$ | $-8$ | $\mathbb{T}^2$  | 4 |
-| $O6$ | $-4$ | $\mathbb{T}^3$  |  8 | 
-| $O5$ | $-2$ | $\mathbb{T}^4$  |  16 | 
-| $O4$ | $-1$ | $\mathbb{T}^5$  |  32 |
+| $O9$ | $-32$ | $\mathbb{T}^0$  | $\phantom{1}1$ |
+| $O8$ | $-16$ | $\mathbb{T}^1$  | $\phantom{1}2$ |
+| $O7$ | $-\phantom{1}8$ | $\mathbb{T}^2$  | $\phantom{1}4$ |
+| $O6$ | $-\phantom{1}4$ | $\mathbb{T}^3$  |  $\phantom{1}8$ | 
+| $O5$ | $-\phantom{1}2$ | $\mathbb{T}^4$  |  $16$ | 
+| $O4$ | $-\phantom{1}1$ | $\mathbb{T}^5$  |  $32$ |
 
 In particular the O4-plane has negative unit charge, so that the total charge of $-32$ here comes entirely from the number $32 = 2^5$ of [[fixed points]] of the $\mathbb{Z}_2$-[[action]] on $\mathbb{T}^5$.
 
@@ -230,7 +230,7 @@ Other early accounts include
 
 Textbook account:
 
-* {#BlumenhagenLustTheisen13} [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], section 10.6 of _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics, Springer 2013
+* {#BlumenhagenLustTheisen13} [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], Section 9.4 and 10.6 of _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics, Springer 2013
 
 O-Plane charge in [[differential K-theory|differential]] [[equivariant K-theory|equivariant]] [[KR-theory]]:
 
