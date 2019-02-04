@@ -21,7 +21,7 @@
 
 ## Idea
 
-An _orientifold_ is a [[target space|target]] [[spacetime]] for [[string theory|string]] [[sigma-models]] that combines aspects of $\mathbb{Z}_2$-[[orbifold]]s with _[[orientation]] reversal_ on the worldsheet, whence the name.
+An _orientifold_ ([Dai-Lin-Polchinski 89, p. 12](#DaiLinPolchinski89)) is a [[target space|target]] [[spacetime]] for [[string theory|string]] [[sigma-models]] that combines aspects of $\mathbb{Z}_2$-[[orbifold]]s with _[[orientation]] reversal_ on the worldsheet, whence the name.
 
 In [[type II string theory]] orientifold backgrounds (inducing [[type I string theory]]) with $\mathbb{Z}_2$-[[fixed points]] -- called _[[O-planes]]_ (see there for more) --  are required for [[RR-field tadpole cancellation]]. This is a key consistency condition in particular for [[intersecting D-brane models]] used in [[string phenomenology]].
 
@@ -68,6 +68,12 @@ A more general scan of possible lifts of type IIA orientifolds to M-theory is in
 ## References
  {#References}
 
+The concept originates around
+
+
+* {#DaiLinPolchinski89} Jin Dai, R.G. Leigh, [[Joseph Polchinski]], p. 12 of _New Connections Between String Theories_, Mod.Phys.Lett. A4 (1989) 2073-2083 ([spire:25758](inspirehep.net/record/25758))
+
+
 Traditional lecture notes include
 
 * Atish Dabholkar, _Lectures on Orientifolds and Duality_ ([arXiv:hep-th/9804208](https://arxiv.org/abs/hep-th/9804208))
@@ -84,11 +90,17 @@ Exposition:
 
 Lifts of orientifolds to [[M-theory]] and [[F-theory]] are discussed in
 
+
+
 * {#Sen96} [[Ashoke Sen]], _F-theory and Orientifolds_ ([arXiv:hep-th/9605150](http://arxiv.org/abs/hep-th/9605150))
 
 * {#Sen97a} [[Ashoke Sen]], _Orientifold Limit of F-theory Vacua_ ([arXiv:hep-th/9702165](http://arxiv.org/abs/hep-th/9702165))
 
 * {#Sen97b} [[Ashoke Sen]], _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001,1997 ([arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123))
+
+
+* {#Hori98} [[Kentaro Hori]], _Consistency Conditions for Fivebrane in M Theory on $\mathbb{R}^5/\mathbb{Z}_2$ Orbifold_, Nucl.Phys.B539:35-78, 1999 ([arXiv:hep-th/9805141](https://arxiv.org/abs/hep-th/9805141))
+
 
 * {#HananyKol00} [[Amihay Hanany]], [[Barak Kol]], section 4 of _On Orientifolds, Discrete Torsion, Branes and M Theory_, JHEP 0006 (2000) 013 ([arXiv:hep-th/0003025](https://arxiv.org/abs/hep-th/0003025))
 
