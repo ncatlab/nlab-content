@@ -210,7 +210,7 @@ Let $Ex^\infty X$ be the union of the latter maps (similar to simplicial $Ex^\in
 **question**: Is $Ex^\infty X$  a fibrant cubical set for any cubical set $X$?. 
 
 Recall that a cubical set is fibrant if any
-cubical horn has a filler (similar to [[simplicial set]]: any [[Kan complex|Kan fibrant]] simplicial set has [[horn]] fillers). See also [Cisinski's book](http://www-math.univ-paris13.fr/%7Ecisinski/ast.pdf) or [Jardine's lectures on cubical sets](#JardineLecture) for definitions.
+cubical horn has a filler (similar to [[simplicial set]]: any [[Kan complex|Kan fibrant]] simplicial set has [[horn]] fillers). See also ([Cisinski 2006](#Cisinski06)) or [Jardine's lectures on cubical sets](#JardineLecture) for definitions.
 
 
 The first question is probably not true in general, but if we consider cubical sets with [[connection on a cubical set|connections]] in the sense of Brown-Higgins (we
@@ -317,7 +317,7 @@ The [[homotopy theory]] / [[model category]] structure on cubical sets is discus
 
 The fact that the [[exponential object]] of two fibrant cubical sets is again fibrant follows from remark 8.4.33 in 
 
-* {#Cisinski06} [[Denis-Charles Cisinski]], _[[joyalscatlab:Les préfaisceaux comme type d'homotopie]]_, Ast&#233;risque, Volume 308, Soc. Math. France (2006), 392 pages ([pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf))
+* {#Cisinski06} [[Denis-Charles Cisinski]], _[[joyalscatlab:Les préfaisceaux comme type d'homotopie]]_, Astérisque, Volume 308, Soc. Math. France (2006), 392 pages ([pdf](http://www.mathematik.uni-regensburg.de/cisinski/ast.pdf))
  
 
 in the context of [[Cisinski model structures]].
