@@ -26,7 +26,8 @@ In components, the definition of submersion reads as follows.
 +-- {: .num_defn}
 ###### Definition
 
-The function $f : X \to Y$ is called a __submersion__ precisely if its [[differential]] $d f\colon T X \to T Y$ is for every point $x \in X$ a [[surjection]] $d f_x\colon T_x X \to T_{f(x)} Y$.
+The function $f : X \to Y$ is called a __submersion__ precisely if its [[differential]] $d f\colon T X \to T Y$ is for every point $x \in X$ a [[surjection]] $d f_x\colon T_x X \to T_{f(x)} Y$; hence if all points in its [[image]] are [[regular values]].
+
 
 =--
 
