@@ -26,6 +26,8 @@ on [[homotopy theory]], [[higher algebra]] and [[higher category theory]].
 
 * [[Tobias Barthel]] and [[Agnès Beaudry]], _Chromatic structures in stable homotopy theory_ ([arXiv:1901.09004](https://arxiv.org/abs/1901.09004))
 
+* [[Gregory Arone]], [[Michael Ching]], _Goodwillie Calculus_, ([arXiv:1902.00803](https://arxiv.org/abs/1902.00803))
+
 * ...
 
 ## Related entries
