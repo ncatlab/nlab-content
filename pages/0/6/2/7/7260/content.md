@@ -38,8 +38,16 @@ In any case, as far as the _observable_ universe is concerned, two facts are wor
 1. [[Giordano Bruno]]'s old intuition remains plausible even at the largest scales: possibly the full xyz-verse beyond our present horizon is vastly larger still... and we may never know.
 
 
+<div style="float:left;margin:0 10px 10px 0;">
+<img src="http://www.learner.org/courses/physics/visual/img_half/length_scale.jpg" width="220">
+</div>
 
-![scale graphics](http://www.learner.org/courses/physics/visual/img_half/length_scale.jpg)
+<img src="https://ncatlab.org/nlab/files/CosmicOuroboros.jpg" width="440">
+
+
+> graphics taken from [Primack Chapter 6](#PrimackCh6) 
+
+> ([color version](http://viewfromthecenter.com/images/Cosmic_Uroboros.jpg))
 
 
 > Recent measurements (c. 2001) by a number of ground-based and balloon-based experiments, including MAT/TOCO, Boomerang, Maxima, and DASI, have shown that the brightest spots are about 1 degree across. Thus the universe was known to be flat to within about 15% accuracy prior to the WMAP results. WMAP has confirmed this result with very high accuracy and precision. We now know that the universe is flat with only a 2% margin of error
@@ -103,6 +111,10 @@ universe_ ([video](https://www.youtube.com/watch?v=17jymDn0W6U#t=374))
 A simulation of the [[structure formation]] (see there for more) of these is at
 
 * _[The Millennium Simulation Project](http://www.mpa-garching.mpg.de/galform/virgo/millennium/)_
+
+On scales
+
+* {#PrimackCh6} [[Joel Primack]], _[The View from the Center of the Universe](http://viewfromthecenter.com/)_ Chapter 6: _What Size is the Universe? The Cosmic Uroboros_ ([pdf](http://physics.ucsc.edu/~joel/Chapter6.pdf), [[PrimackSizeOfUniverse.pdf:file]])
 
 Pointers to the past and future timeline of the observable universe are collected in 
 
