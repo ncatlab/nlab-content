@@ -21,13 +21,13 @@
 +-- {: .un_theorem}
 ###### Theorem
 
-Let $P$ be a [[smooth manifold]] and let $i : M \hookrightarrow E$ be a smooth submanifold. The subspace
+Let $P$ be a [[smooth manifold]] and let $i \colon M \hookrightarrow E$ be a smooth [[submanifold]]. Then the [[topological subspace]]
 
 $$
   C^{\infty}_{tr i}(P,E) \subset C^\infty(P,E)
 $$
 
-of [[smooth function]]s that are [[transverse map]]s to $i$ is a [[dense subspace]].
+of [[smooth functions]] that are [[transverse maps]] to $i$ is a [[dense subspace]].
 
 =--
 
