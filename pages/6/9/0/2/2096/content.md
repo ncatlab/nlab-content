@@ -31,7 +31,7 @@ $$
 
 In particular, a [[submersion]] is transversal to all functions.
 
-In particular, $f$ or $g$ may be inclusions of (possibly immersed) [[submanifold]]s in which case we talk about the transversality of submanifolds. 
+In particular, $f$ or $g$ may be inclusions of (possibly [[immersion|immersed]]) [[submanifold]]s in which case we talk about the transversality of submanifolds. 
 
 
 ## Properties
@@ -57,6 +57,9 @@ More precisely:
 * [[regular value]]
 
 ## References
+
+* {#Kosinski93} [[Antoni Kosinski]], chapter IV.1 of _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf))
+
 
 * T. Br&#246;cker, K. J&#228;nich, C. B. Thomas, M. J. Thomas, _Introduction to differentiable topology_, 1982 (translated from German 1973 edition; &#8707; also 1990 German 2nd edition)
 
