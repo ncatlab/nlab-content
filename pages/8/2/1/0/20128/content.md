@@ -1,0 +1,52 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[particle physics]] the term _Z'-boson_ refers to a hypothetical higher-[[mass]] cousin of the [[Z-boson]] which is predicted by some [[model (in theoretical physics)|models]] that extend the [[standard model of particle physics]], such as [[grand unified theories]] (e.g. [Sahoo 06](#Sahoo06)). 
+
+The existence of the $Z'$ has been proposed as one possible explanation of the apparently observed [[flavour anomalies]] ([Gauld-Goertz-Haisch 13](#GauldGoertzHaisch13),  [D'Ambrosio-Iver-Piccinini-Polosa 19](#DAmbrosioIverPiccininiPolosa19))
+
+## References
+
+* Paul Langacker, _The Physics of Heavy $Z'$ Gauge Bosons_, Rev.Mod.Phys.81:1199-1228, 2009 ([arXiv:0801.1345](https://arxiv.org/abs/0801.1345))
+
+* [The Review of Particle Physics 2017](http://pdg.lbl.gov/2017/), _59. $Z'$-boson searches_ ([pdf](http://pdg.lbl.gov/2017/reviews/rpp2017-rev-zprime-searches.pdf))
+
+* [kjende.web.cern.ch/kjende/de/zpath_zprime.htm](https://kjende.web.cern.ch/kjende/de/zpath_zprime.htm)
+
+* _[The Z' Hunter's Guide](https://sites.google.com/site/zprimeguide/)_
+
+Experimental constraints:
+
+* [[CMS collaboration]], _Search for an $L_\mu - L_\tau$ gauge boson using $Z \to 4\mu$ events in proton-proton collisions at $\sqrt{s} = 13TeV$_ ([arXiv:1808.03684](https://arxiv.org/abs/1808.03684))
+
+As arising in [[GUTs]]:
+
+* {#Sahoo06} S. Sahoo, _The prediction of mass of $Z'$-boson in an $SO(10)$-based model_, Indian J. Phys. 80 (2), 191-194 (2006) ([pdf](http://arxiv.iacs.res.in:8080/jspui/bitstream/10821/6019/1/The%20Prediction%20of%20Mass%20of%20Z%27-Boson_By%20S%20Sahoo.pdf))
+
+As a possible solution to the [[flavour anomalies]]:
+
+* {#GauldGoertzHaisch13} Rhorry Gauld, Florian Goertz, Ulrich Haisch, _An explicit Z'-boson explanation of the $B \to K^\ast \mu^+ \mu^-$ anomaly_, JHEP01(2014)069 ([arXiv:1310.1082](https://arxiv.org/abs/1310.1082))
+
+* {#DAmbrosioIverPiccininiPolosa19} Giancarlo D'Ambrosio, A. M. Iyer, F. Piccinini, A.D. Polosa, _Confronting $B$ anomalies with atomic physics_ ([arXiv:1902.00893](https://arxiv.org/abs/1902.00893))
+
+
+[[!redirects Z'-bosons]]
+
+[[!redirects Z' boson]]
+[[!redirects Z' bosons]]
+
