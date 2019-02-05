@@ -98,6 +98,8 @@ Incidentally, [[leptoquarks]] are also a candidate explanation of the anomaly se
 
 ### Other
 
+* [[Z'-boson]] ([Gauld-Goertz-Haisch 13](#GauldGoertzHaisch13),  [D'Ambrosio-Iver-Piccinini-Polosa 19](#DAmbrosioIverPiccininiPolosa19))
+
 * [[composite Higgs boson]] ([Marzocca 18](#Marzocca18))
 
 * [[dark matter]] ([Baek 19](#Baek19))
@@ -278,6 +280,13 @@ and as possible explanation also of the anomalies seen in the [[ANITA experiment
 [[right-handed neutrino]]:
 
 * {#MMR19} Carlo Marzo, Luca Marzola, Martti Raidal, _Common explanation to the $R_{K^{(\ast)}}$, $R_{K^{(\ast)}}$ and $\epsilon'/\epsilon$ anomalies in a 3HDM+$\nu_R$ and connections to neutrino physics_ ([arXiv:1901.08290](https://arxiv.org/abs/1901.08290))
+
+[[Z'-boson]]:
+
+* {#GauldGoertzHaisch13} Rhorry Gauld, Florian Goertz, Ulrich Haisch, _An explicit Z'-boson explanation of the $B \to K^\ast \mu^+ \mu^-$ anomaly_, JHEP01(2014)069 ([arXiv:1310.1082](https://arxiv.org/abs/1310.1082))
+
+
+* {#DAmbrosioIverPiccininiPolosa19} G. D'Ambrosio, A. M. Iyer, F. Piccinini, A.D. Polosa, _Confronting $B$ anomalies with atomic physics_ ([arXiv:1902.00893](https://arxiv.org/abs/1902.00893))
 
 [[!redirects flavour anomalies]]
 
