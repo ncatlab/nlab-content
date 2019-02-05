@@ -77,7 +77,7 @@ Moreover, an explicit formula for the [[chain homotopy]] $\psi : f_1 \Rightarrow
 $$
   \psi 
    :
-  \omega \mapsto (x \mapsto \int_{[0,1]} \iota_{\partial_t} (\Psi_t^*\omega)(x) ) d t
+  \omega \mapsto (x \mapsto \int_{[0,1]} \iota_{\partial_t} (\Psi^*\omega)(x) ) d t
   \,. 
 $$
 
@@ -96,17 +96,17 @@ $$
     + 
     \psi( d_X \omega )
      & =
-    \int_{[0,1]} d_Y \iota_{\partial_t} \Psi_t^*(\omega) d t 
+    \int_{[0,1]} d_Y \iota_{\partial_t} \Psi^*(\omega) d t 
     + 
-    \int_{[0,1]} \iota_{\partial_t} \Psi_t^*(d_X \omega) d t
+    \int_{[0,1]} \iota_{\partial_t} \Psi^*(d_X \omega) d t
     \\
-    & = \int_{[0,1]} [d_Y,\iota_{\partial_t}] \Psi_t^* (\omega) d t
+    & = \int_{[0,1]} [d_Y,\iota_{\partial_t}] \Psi^* (\omega) d t
     \\
-    & = \int_{[0,1]} \mathcal{L}_{t} \Psi_t^* (\omega) d t
+    & = \int_{[0,1]} \mathcal{L}_{t} \Psi^* (\omega) d t
     \\
-    & = \int_{[0,1]} \partial_t \Psi_t^* (\omega) d t
+    & = \int_{[0,1]} \partial_t \Psi^* (\omega) d t
     \\
-    & = \int_{[0,1]} d_{[0,1]} \Psi_t^* (\omega) 
+    & = \int_{[0,1]} d_{[0,1]} \Psi^* (\omega) 
     \\
     & = \Psi_1^* \omega - \Psi_0^* \omega
     \\
@@ -146,7 +146,7 @@ form on $X$ in positive degree an explicit formula for a form
 $\lambda$ with $d \lambda = \omega$ is given by
 
 $$
-  \lambda = \int_{[0,1]} \iota_{\partial_t}\Psi_t^*(\omega) d t
+  \lambda = \int_{[0,1]} \iota_{\partial_t}\Psi^*(\omega) d t
   \,.
 $$
 
