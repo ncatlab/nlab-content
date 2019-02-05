@@ -34,9 +34,11 @@ such that
 
 * it respects source and target: $F_1$ coincides with $F_0$ on source and target objects;
 
+* it respects identities: $F(1_X) = 1_{F(X)}$;
+
 * it respects composition: the image of the composite of two morphisms under $F$ is the composite of their images.
 
-This last property is the decisive one of a functor. It is called the **functoriality condition**. It is a direct generalization of the notion of [[homomorphism]] (of [[monoids]], [[groups]], [[algebras]], etc.) to the case that there are more objects. As a slogan we have
+This second to last property is the decisive one of a functor. It is called the **functoriality condition**. It is a direct generalization of the notion of [[homomorphism]] (of [[monoids]], [[groups]], [[algebras]], etc.) to the case that there are more objects. As a slogan we have
 
 The notion of functor is a [[horizontal categorification]] of that of [[homomorphism]].
 
