@@ -31,7 +31,7 @@ of [[smooth functions]] that are [[transverse maps]] to $i$ is a [[dense subspac
 
 =--
 
-This is due to ([Thom 54](#Thom54)).
+This is due to [Thom 54](#Thom54), see e.g. [Kosinski 93, IV (2.5)](#Kosinski93).
 
 ## Relate entries
 
@@ -45,9 +45,13 @@ The result is due to
 
 * {#Thom54} [[René Thom]], _Quelques propri&#233;t&#233;s globales des vari&#233;t&#233;s diff&#233;rentiables_ Comment. Math. Helv. 28, (1954). 17-86
 
+Textbook account:
+
+* {#Kosinski93} [[Antoni Kosinski]], chapter IV.2 of _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf))
 
 
-A review is in 
+
+Lecture notes
 
 * [[John Francis]], _Topology of manifolds_ course notes (2010) ([web](http://math.northwestern.edu/~jnkf/classes/mflds/)) 
 
