@@ -1,4 +1,4 @@
-[[!redirects limit in a quasi-category]]
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -897,6 +897,10 @@ A detailed account is in [definition 1.2.13.4, p. 48](http://arxiv.org/PS_cache/
 
 * [[Denis-Charles Cisinski]], _Do homotopy limits compute limits in the associated quasicategory in the non-combinatorial model category case?_, [MO/176111/176142](http://mathoverflow.net/questions/176111/do-homotopy-limits-compute-limits-in-the-associated-quasicategory-in-the-non-com/176142#176142).
 
+A discussion of [[weighted limit|weighted]] $(\infty,1)$-limits is in
+
+* Martina Rovelli, _Weighted limits in an (∞,1)-category_, 2019, [arxiv:1902.00805](https://arxiv.org/abs/1902.00805)
+
 ### In homotopy type theory
 
 A formalization of some aspects of $(\infty,1)$-limits in terms of [[homotopy type theory]] is [[Coq]]-coded in 
@@ -908,16 +912,11 @@ See also
 * [[Egbert Rijke]], _Homotopy Colimits and a Descent Theorem_, March 14, 2013 ([video](http://video.ias.edu/univalent-1213-0314-EgbertRijke))
 
 [[!redirects limit in a quasi-category]]
-
 [[!redirects limits in a quasi-category]]
-
 [[!redirects colimit in a quasi-category]]
 [[!redirects colimits in a quasi-category]]
-
-
 [[!redirects limit in quasi-categories]]
 [[!redirects limits in quasi-categories]]
-
 [[!redirects colimit in quasi-categories]]
 [[!redirects colimits in quasi-categories]]
 [[!redirects limit in a quasicategory]]
@@ -930,7 +929,6 @@ See also
 [[!redirects (infinity,1)-colimit]]
 [[!redirects (infinity,1)-limits]]
 [[!redirects (infinity,1)-colimits]]
-
 
 [[!redirects (∞,1)-limit]]
 [[!redirects (∞,1)-colimit]]
