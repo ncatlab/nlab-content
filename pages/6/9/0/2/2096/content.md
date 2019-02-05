@@ -26,7 +26,10 @@ $$
   im(d f) + im(d g) \simeq T_z Z
   \,.
 $$
-Note that this is not required to be a direct sum. Also, if $f$ (say) is a [[submersion]], then it is transversal to all $g$.
+
+(Notice that this is not required to be a [[direct sum]].) 
+
+In particular, a [[submersion]] is transversal to all functions.
 
 In particular, $f$ or $g$ may be inclusions of (possibly immersed) [[submanifold]]s in which case we talk about the transversality of submanifolds. 
 
@@ -35,7 +38,7 @@ In particular, $f$ or $g$ may be inclusions of (possibly immersed) [[submanifold
 
 * [[Thom's transversality theorem]]
 
-Various constructions involving [[pullback]]s of [[manifold]]s work as expected only for pullbacks involving transversal maps. 
+Various constructions involving [[pullbacks]] of [[manifolds]] work as expected only for pullbacks involving transversal maps. 
 
 For example, two maps with a common [[target]] are transversal only if their [[pullback]] exists and is preserved by the [[tangent bundle]] functor; that is, $T(X \times_Z Y) = T X \times_{T Z} T Y$.  (However, the pullback may exist and be preserved without transversality; for example if $X$ and $Y$ are both abstract [[points]], $Z$ is *not* a point, and the maps $X, Y \to Z$ are equal as concrete points of $Z$.)
 
@@ -49,6 +52,9 @@ More precisely:
 
 * the problem with the [[pullback]]s is resolved by passing to [[derived stack]]s. Concretely for the case of manifolds this is discussed at [[derived smooth manifold]].
 
+## Related concepts
+
+* [[regular value]]
 
 ## References
 
