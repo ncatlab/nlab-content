@@ -42,9 +42,15 @@ In [[equivariant stable homotopy theory]] the concept of fixed point spaces bran
 
 * [[homotopy fixed points]]
 
+* [[Elmendorf's theorem]]
+
+* [[equivariant differential topology]]
 
 [[!redirects fixed point spaces]]
 
 [[!redirects fixed point set]]
 [[!redirects fixed point sets]]
+
+[[!redirects fixed locus]]
+[[!redirects fixed loci]]
 
