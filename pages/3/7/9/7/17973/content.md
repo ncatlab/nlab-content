@@ -75,7 +75,17 @@ The reason is that in these models there is one copy of a set of fundamental par
 
 ### Yukawa couplings
 
-[[Yukawa couplings]] via [[Fukaya category]], see [Marchesano 03, section 7](#Marchesano03)
+
+In [[intersecting D-brane models]] [[Yukawa couplings]] are encoded by [[worldsheet instantons]] of open strings stretching between the [[brane intersection|intersecting]] [[D-branes]] (see [Marchesano 03, Section 7.5](#Marchesano03)). Mathematically this is encoded by  [[derived hom-spaces]] in a [[Fukaya category]] (see [Marchesano 03, Section 7.5](#Marchesano03)).
+
+
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/YukawaFukaya.jpg" width="600">
+\end{center}
+
+> table grabbed from [Marchesano 03](#Marchesano03)
+
+realistic [[Yukawa couplings]] are considered in [Mayes 19](#Mayes19)
 
 ### Higgs mechanism
 
@@ -253,6 +263,11 @@ Intersection with [[O8-planes]]/[[D8-branes]] is discussed in
 * {#GKSTY02} E. Gorbatov, V.S. Kaplunovsky, J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, _On Heterotic Orbifolds, M Theory and Type I' Brane Engineering_, JHEP 0205:015, 2002 ([arXiv:hep-th/0108135](https://arxiv.org/abs/hep-th/0108135))
 
 * {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_ ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
+
+Realistic [[Yukawa couplings]] and [[fermion]] [[masses]] are considered in
+
+* {#Mayes19} Van E. Mayes, _All Fermion Masses and Mixings in an Intersecting D-brane World_ ([arXiv:1902.00983](https://arxiv.org/abs/1902.00983))
+
 
 ### The landscape of models
 
