@@ -23,8 +23,7 @@
 
 __Differential topology__ is the subject devoted to the study of [[topology|topological]] properties of [[differentiable manifolds]], [[smooth manifolds]] and related [[differential geometry|differential geometric]] [[spaces]] such as [[stratifolds]], [[orbifolds]] and more generally [[differentiable stacks]]. 
 
-Diffrential topology is also concerned with the problem of finding out which topological (or PL) manifolds allow a 
-[[smooth structure|differentiable structure]] and the degree of nonuniqueness of that structure if they do (e.g. [[exotic smooth structures]]). It is also concerned with concrete constructions of [[cohomology|(co)]][[homology]] classes (e.g. [[characteristic class]]es) for differentiable manifolds and of [[differential cohomology|differential refinements of cohomology theories]]. 
+Differential topology is also concerned with the problem of finding out which topological (or PL) manifolds allow a  [[smooth structure|differentiable structure]] and the degree of nonuniqueness of that structure if they do (e.g. [[exotic smooth structures]]). It is also concerned with concrete constructions of [[cohomology|(co)]][[homology]] classes (e.g. [[characteristic class]]es) for differentiable manifolds and of [[differential cohomology|differential refinements of cohomology theories]]. 
 
 ## Examples
 
@@ -38,11 +37,14 @@ This yields the relatively young subjects of symplectic and contact topologies, 
 ## Related entries
 
 * [[Sard's theorem]], [[transversality]], [[Thom's transversality theorem]]
+
 * [[Reeb sphere theorem]]
 
 * [[low dimensional topology]]
 
 * [[synthetic differential topology]]
+
+* [[equivariant differential topology]]
 
 ## References
 
