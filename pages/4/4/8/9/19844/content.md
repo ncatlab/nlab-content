@@ -79,9 +79,10 @@ Candidate [[model (in theoretical physics)|models]] of "New Physics" beyond the 
 ### Leptoquarks
  {#Leptoquarks}
 
-* [[leptoquarks]] (and thus potentially $SU(5)$-[[GUT]])
+One apparently promising [[model (in theoretical physics)|model]] that could potentially explain the apparently observed flavour anomalies are
+[[leptoquarks]], which naturally arise in, and hence potentially point to, [[model (in theoretical physics)|models]] of  $SU(5)$-[[grand unified theory]].
 
-([Bauer-Neubert 15](#BauerNeubert15), [CCDM 16](#CCDM16), [Crivellin 17](#Crivellin17), [Falkowski17](#Falkowski17), [Mueller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [AMST 18](#AMST18), [BDFKFS 18](#BDFKFS18), [Crivellin 18](#Crivellin18), [MMR 18](#MMR18), [Kumar-London 19, section 2.2.1](#KumarLondon19), [MVT 19](#MVT19))
+(see [Bauer-Neubert 15](#BauerNeubert15), [CCDM 16](#CCDM16), [Crivellin 17](#Crivellin17), [Falkowski17](#Falkowski17), [Mueller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [AMST 18](#AMST18), [BDFKFS 18](#BDFKFS18), [Crivellin 18](#Crivellin18), [MMR 18](#MMR18), [Kumar-London 19, section 2.2.1](#KumarLondon19), [MVT 19](#MVT19))
 
 
 From [Crivellin 18, p. 2](#Crivellin18):
@@ -97,14 +98,25 @@ Incidentally, [[leptoquarks]] are also a candidate explanation of the anomaly se
 ([Blanke Crivellin 18](#BlankeCrivellin18), [Crivellin 18](#Crivellin18))
 
 ### Other
+ {#PossibleModelsOther}
 
-* [[Z'-boson]] ([Gauld-Goertz-Haisch 13](#GauldGoertzHaisch13),  [D'Ambrosio-Iver-Piccinini-Polosa 19](#DAmbrosioIverPiccininiPolosa19))
+Other possible [[model (in theoretical physics)|models]] besides [[leptoquarks]] ([above](#Leptoquarks)) which have been proposed as possible explanations of the apparently observed flavour anomalies include the following:
 
-* [[composite Higgs boson]] ([Marzocca 18](#Marzocca18))
+* [[Z'-boson]] 
 
-* [[dark matter]] ([Baek 19](#Baek19))
+  ([Gauld-Goertz-Haisch 13](#GauldGoertzHaisch13),  [D'Ambrosio-Iver-Piccinini-Polosa 19](#DAmbrosioIverPiccininiPolosa19))
 
-* [[right-handed neutrinos]] ([MMR 19](#MMR19))
+* [[composite Higgs boson]] 
+
+  ([Marzocca 18](#Marzocca18))
+
+* [[dark matter]] 
+
+  ([Baek 19](#Baek19), [CCMRM 19](#CCMRM19))
+
+* [[right-handed neutrinos]] 
+
+  ([MMR 19](#MMR19))
 
 
 
@@ -276,6 +288,8 @@ and as possible explanation also of the anomalies seen in the [[ANITA experiment
 [[dark matter]]:
 
 * {#Baek19} Seungwon Baek, _Scalar dark matter behind $b \to s \mu \mu$ anomaly_ ([arXiv:1901.04761](https://arxiv.org/abs/1901.04761))
+
+* {#CCMRM19} D.G. Cerdeno, A. Cheek, P. Martin-Ramiro, J.M. Moreno, _B anomalies and dark matter: a complex connection_ ([arXiv:1902.01789](https://arxiv.org/abs/1902.01789))
 
 [[right-handed neutrino]]:
 
