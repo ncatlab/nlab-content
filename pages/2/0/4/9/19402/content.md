@@ -44,6 +44,11 @@ is a [[proper continuous function]].
 
 ## References
 
+For instance
+
+* {#Kankaanrinta07} [[Marja Kankaanrinta]], Def. 2.1 in _Equivariant collaring, tubular neighbourhood and gluing theorems for proper Lie group actions_,     Algebr. Geom. Topol. Volume 7, Number 1 (2007), 1-27 ([euclid:agt/1513796653](https://projecteuclid.org/euclid.agt/1513796653))
+
+
 See also
 
 * Jack Lee, [MO comment](https://math.stackexchange.com/a/989168/58526), Oct 2014
