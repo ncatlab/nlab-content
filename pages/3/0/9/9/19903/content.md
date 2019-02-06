@@ -31,7 +31,7 @@ in computer science and quantum physics (not to mention pure mathematics itself)
 
 * {#Bradley18} [[Tai-Danae Bradley]], _What is applied category theory?_, [arXiv:1809.05923](https://arxiv.org/abs/1809.05923)
 
-* [[Brendan Fong]] and [[David Spivak]], _Seven Sketches in Compositionality: An Invitation to Applied Category Theory_, [arXiv:1803.05316](https://arxiv.org/abs/1803.05316). 
+* [[Brendan Fong]] and [[David I Spivak]], _Seven Sketches in Compositionality: An Invitation to Applied Category Theory_, [arXiv:1803.05316](https://arxiv.org/abs/1803.05316). 
 
 [[John Baez]] ran a series of lectures based on this book:
 
@@ -73,6 +73,8 @@ in computer science and quantum physics (not to mention pure mathematics itself)
   * [Lecture 31 - Chapter 2: Lawvere Metric Spaces](https://forum.azimuthproject.org/discussion/2128/lecture-31-chapter-2-lawvere-metric-spaces/p1)
   * [Lecture 32 - Chapter 2: Enriched Functors](https://forum.azimuthproject.org/discussion/2169/lecture-32-chapter-2-enriched-functors/p1)
   * [Lecture 33 - Chapter 2: Tying Up Loose Ends](https://forum.azimuthproject.org/discussion/2192/lecture-33-chapter-2-tying-up-loose-ends/p1)
+
+* [[David I Spivak]], _Category theory for the sciences._ MIT Press, 2014.
 
 * [[Brandon Coya]], _Circuits, Bond Graphs, and Signal-Flow Diagrams: A Categorical Perspective_, [arXiv:1805.08290](https://arxiv.org/abs/1805.08290)
 
