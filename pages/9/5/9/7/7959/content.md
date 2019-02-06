@@ -309,7 +309,7 @@ Reviews of [[intersecting D-brane model]] in [[type II string theory]] (in [[ori
  
 * Anshuman Maharana, [[Eran Palti]], _Models of Particle Physics from Type IIB String Theory and F-theory: A Review_ ([arXiv:1212.0555](http://arxiv.org/abs/1212.0555))
 
-Computer scan of [[Gepner-model]]-[[KK-compactifications]] of [[intersecting D-brane models]]:
+Computer scan of [[Gepner model]]-[[KK-compactifications]] of [[intersecting D-brane models]]:
 
 * {#DijkstraHuiszoonSchellekens04a} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Chiral Supersymmetric Standard Model Spectra from Orientifolds of Gepner Models_, Phys.Lett. B609 (2005) 408-417 ([arXiv:hep-th/0403196](https://arxiv.org/abs/hep-th/0403196))
 
@@ -321,6 +321,9 @@ Computer scan of [[toroidal orbifold]]-[[KK-compactification]] of [[intersecting
 
 * {#GBHLW05} [[Florian Gmeiner]], [[Ralph Blumenhagen]], [[Gabriele Honecker]], [[Dieter Lüst]], [[Timo Weigand]], _One in a Billion: MSSM-like D-Brane Statistics_, JHEP 0601:004, 2006 ([arXiv:hep-th/0510170](https://arxiv.org/abs/hep-th/0510170))
 
+Discussion of realistic [[Yukawa couplings]] and [[fermion]] [[masses]]:
+
+* {#Mayes19} Van E. Mayes, _All Fermion Masses and Mixings in an Intersecting D-brane World_ ([arXiv:1902.00983](https://arxiv.org/abs/1902.00983))
 
 
 #### Type I string theory model
