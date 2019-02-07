@@ -36,7 +36,7 @@ In the current [[standard model of particle physics]] the [[fundamental particle
 ## Statistical significance
  {#StatisticalSignificance}
 
-Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] above around $3$ [[statistical significance|σ]] in [[B meson]] [[scattering amplitude|processes]] in various [[experiments]] such as at the [[LHC]], specifically at the [[LHCb]], and at the [[Belle experiment]] (see references [below](#References)).
+Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] around $3$ [[standard deviations|σ]] in [[B meson]] [[scattering amplitude|processes]] in various [[experiments]] such as at the [[LHC]], specifically at the [[LHCb]], and at the [[Belle experiment]] (see references [below](#References)).
 
 
 The global tension with the standard model by end of 2018 has [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18)). Various authors see the global tension (i.e. of all decay channels jointly) at over $5 \sigma$ already ([CCDGMV 17](#CCDGMV17), [CFMVV 17](#CFMVV17) [CGMS 18](#CGMS18), [Dordei 18, slide 12](#Dordei18)), which traditionally qualifies as detection (see [here](statistical+significance#ParticlePhysics)), some authors already quote $6 \sigma$ ([Kumar-London 19](#KumarLondon19)).
@@ -142,6 +142,8 @@ Measurements include
 * [[LHCb collaboration]], _Differential branching fraction and angular analysis of $\Lambda^0_b \to \Lambda \mu^+ \mu^-$ decays_, JHEP 06 (2015) 115; JHEP 09 (2018) 145 ([arXiv:1503.07138](https://arxiv.org/abs/1503.07138))
 
 * [[LHCb collaboration]], _Test of lepton universality using $B^0\to K^{\ast 0} \ell^+ \ell^-$ decays_, JHEP 08 (2017) 055 ([arXiv:1705.05802](https://arxiv.org/abs/1705.05802))
+
+* [[LHCb collaboration]], _Measurement of the ratio of branching fractions of the decays $\Lambda^0_b \to \psi(2S)\Lambda$ and $\Lambda^0_b \to J/\psi\Lambda$_ ([arXiv:1902.02092](https://arxiv.org/abs/1902.02092))
 
 Review includes
 
