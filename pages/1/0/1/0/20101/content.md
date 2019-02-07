@@ -27,6 +27,8 @@ After the discovery of the [[Higgs field]] at the two major other detectors of [
 
 * [[flavour anomalies]]
 
+* [[pentaquark]]
+
 ## Selected publications
 
 
@@ -37,6 +39,9 @@ After the discovery of the [[Higgs field]] at the two major other detectors of [
 * [[LHCb collaboration]], _Angular analysis and differential branching fraction of the decay $B^0_s \to \phi \mu^+ \mu^-$_, JHEP09(2015)179 ([arXivL1506.08777](https://arxiv.org/abs/1506.08777))
 
 * [[LHCb collaboration]], _Differential branching fraction and angular analysis of $\Lambda^0_b \to \Lambda \mu^+ \mu^-$ decays_, JHEP 06 (2015) 115; JHEP 09 (2018) 145 ([arXiv:1503.07138](https://arxiv.org/abs/1503.07138))
+
+* [[LHCb collaboration]], _Measurement of the ratio of branching fractions of the decays $\Lambda^0_b \to \psi(2S)\Lambda$ and $\Lambda^0_b \to J/\psi\Lambda$_ ([arXiv:1902.02092](https://arxiv.org/abs/1902.02092))
+
 
 * [[LHCb collaboration]], _Test of lepton universality using $B^0\to K^{\ast 0} \ell^+ \ell^-$ decays_, JHEP 08 (2017) 055 ([arXiv:1705.05802](https://arxiv.org/abs/1705.05802))
 
