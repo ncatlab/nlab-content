@@ -70,9 +70,11 @@ Let $X$ be a [[smooth  manifold]], $G$ a [[Lie group]] and $\rho \;\colon\; G \t
 
 Then the $G$-[[fixed locus]] $X^G \hookrightarrow X$ is a [[smooth manifold|smooth]] [[submanifold]].
 
+If in addition $X$ is equipped with a [[Riemannian metric]] and $G$ acts by [[isometries]] then the [[submanifold]] $X^G$ is a [[totally geodesic submanifold]].
+
 =--
 
-(see also [this MO discussion](https://math.stackexchange.com/a/1739784/58526))
+(e.g. [Ziller 13, theorem 3.5.2](#Ziller13), see also [this MO discussion](https://math.stackexchange.com/a/1739784/58526))
 
 +-- {: .proof}
 ###### Proof
@@ -103,7 +105,34 @@ Then linearization of the $G$-action aroujnd the [[fixed locus]] $X^G \subset X$
 
 (as in [Crainic-Struchiner 13, Example 1.7](#CrainicStruchiner13))
 
++-- {: .num_prop #NormalBundleOfFixedLocusToTubularNeighbourhood}
+###### Proposition (check)
 
+Let $X$ be a [[smooth  manifold]], $G$ a [[Lie group]] and $\rho \;\colon\; G \times X \to X$ a _[[proper action|proper]]_ [[action]] by [[diffeomorphisms]].
+
+Then for the [[normal bundle]] $N_X\left( X^G\right)$ of the [[fixed locus]] $X^G \subset X$ equipped with its induced $G$-[[action]] according to Prop./Def. \ref{GActionOnNormalBundleToFixedLocus} there exists a $G$-equivariant [[diffeomorphism]]
+
+$$
+  N_X
+  \left(
+    X^G
+  \right)
+  \overset{\simeq}{\longrightarrow}
+  \mathcal{N}_X\left( X^G \right)
+$$
+
+onto a $G$-invariant [[tubular neighbourhood]] 
+$\mathcal{N}_X\left( X^G \right)$ of $X^G$.
+
+=--
+
++-- {: .proof}
+###### Proof idea
+
+Restricted to a small enough [[open neighbourhood]] of any point $x \in X^G$ this is the statement of the _slice theorem_. That these local identifications glue should follow by applying the isomoprhisms of [Pflaum-Posthuma-Tang 11, Theorem 4.1](#PflaumPosthumaTang11) at each for one fixe background metric.
+
+
+=--
 
 
 ## Related concepts
@@ -124,5 +153,9 @@ Then linearization of the $G$-action aroujnd the [[fixed locus]] $X^G \subset X$
 
 * {#Kankaanrinta07} [[Marja Kankaanrinta]], _Equivariant collaring, tubular neighbourhood and gluing theorems for proper Lie group actions_,     Algebr. Geom. Topol. Volume 7, Number 1 (2007), 1-27 ([euclid:agt/1513796653](https://projecteuclid.org/euclid.agt/1513796653))
 
-* {#CrainicStruchiner13} Marius Crainic, Ivan Struchiner, _On the linearization theorem for proper Lie groupoids_,  Annales scientifiques de l'École Normale Supérieure, Série 4, Volume 46 (2013) no. 5, p. 723-746 ([doi:10.24033/asens.2200](https://doi.org/10.24033/asens.2200))
+* {#PflaumPosthumaTang11} Markus Pflaum, Hessel Posthuma, X. Tang, _Geometry of orbit spaces of proper Lie groupoids_ ([arXiv:1101.0180](https://arxiv.org/abs/1101.0180))
+
+* {#Ziller13} Wolfgang Ziller, _Group actions_, 2013 ([pdf](https://www.math.upenn.edu/~wziller/math661/LectureNotesLee.pdf))
+
+* {#CrainicStruchiner13} Marius Crainic, Ivan Struchiner, _On the linearization theorem for proper Lie groupoids_,  Annales scientifiques de l'École Normale Supérieure, Série 4, Volume 46 (2013) no. 5, p. 723-746 ([numdam:ASENS_2013_4_46_5_723_0](http://www.numdam.org/item/ASENS_2013_4_46_5_723_0/) [doi:10.24033/asens.2200](https://doi.org/10.24033/asens.2200))
 
