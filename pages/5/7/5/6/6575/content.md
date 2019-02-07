@@ -17,7 +17,7 @@
 
 Many important special cases of [[classical mechanics]] involve physical systems whose [[configuration space]] is a [[Lie group]], for instance [[rigid body dynamics]] but also (for infinite-dimensional Lie groups) [[fluid dynamics]].
 
-All these systems have special properties, notably they are formall [[integrable system]]s.
+All these systems have special properties, notably they are formally [[integrable system]]s.
 
 ## Details
 
