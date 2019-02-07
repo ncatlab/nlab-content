@@ -61,7 +61,7 @@ Using _homotopy.io_ involves building a signature listing the types available to
 
 **Server.** The proof assistant has a backend that lets you log in and save proofs to the server. You can also make proofs shareable, and obtain a short URL suitable for sharing with others, or embedding in a research paper. In the future you will also be able to publish proofs, obtaining a permanent date-stamped URL.
 
-## Constructing homotopies
+## Homotopies
 
 A composite diagram can be deformed by clicking and dragging in its interior. If the indicated deformation would be geometrically invalid, an error message is displayed in the lower-right corner, and the diagram does not change. Otherwise, a new diagram is displayed, which is homotopic to the original diagram.
 
@@ -114,7 +114,7 @@ The following images illustrate non-contractible scenarios:
 
 $$\text{INSERT PICTURES}$$
 
-In both of these cases, attempting to perform the contraction will give an error message. In the first case, the contraction fails because there is no canonical ordering on the rear wires. In the second case, the contraction is successful at the level of the untyped diagram, but it is rejected by the type checker, since it merges two distinct generating cells.
+In both of these cases, attempting to perform the contraction will give an error message. In the first case, the contraction fails because there is no canonical ordering on the rear wires. In the second case, the contraction is successful at the level of the untyped diagram, but it is rejected by the type checker, since it merges two distinct generating cells, changing their neighbourhoods in a way which does not make sense in the type system.
 
 If there are no slice controls displayed, then the homotopy is being performed at codimension 0 (that is, at the top level), and the diagram will be rewritten in the obvious way. If every slice control shows S or T, then we are viewing a boundary of the main diagram, and the homotopy we are building will be attached to the boundary. Otherwise, we are in the interior of the diagram, working in some positive codimension, and the homotopy must now be propagated to lower codimension.
 
