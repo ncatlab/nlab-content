@@ -44,6 +44,9 @@ The [[skyrmion]] [[model (in theoretical physics)|model]] with $\rho$-mesons for
 
 [[!redirects rho mesons]]
 
+[[!redirects rho-meson]]
+[[!redirects rho-mesons]]
+
 [[!redirects ρ meson]]
 [[!redirects ρ mesons]]
 
