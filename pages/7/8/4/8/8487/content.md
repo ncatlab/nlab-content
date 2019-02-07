@@ -65,3 +65,7 @@ $CPaB$ may be identified with a full sub-operad of the [[fundamental groupoid]] 
 $PaB$ was originally defined in
 
 * [[Dror Bar-Natan]] _On Associators and the Grothendieck-Teichmuller Group I_, [arXiv:q-alg/9606021](http://arxiv.org/abs/q-alg/9606021)
+
+The operad structure was pointed out by Tamarkin in 
+
+* [[Dmitry Tamarkin]] _Formality of Chain Operad of Little Discs_, [Letters in Mathematical Physics 66:65–72, 2003.](https://sites.math.northwestern.edu/~tamarkin/Papers1/Formality.pdf)
