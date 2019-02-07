@@ -59,7 +59,46 @@ Using _homotopy.io_ involves building a signature listing the types available to
 
 ## Combinatorial foundation
 
-Zigzags, labellings.
+The combinatorial data stored by the proof assistant can be understood in terms of zigzags.
+
++-- {: .num_defn}
+###### Definition
+In a category $C$, a _zigzag_ is a finite diagram of the following sort:
+
+<img height="120" style="margin-left:auto; margin-right:auto;" src="https://www.cs.bham.ac.uk/~vicaryjo/homotopy.io/nlab/zigzag.png" alt="A zigzag" />
+=--
+
++-- {: .num_defn}
+###### Definition
+Given zigzags $Z,Z'$ in a category $C$, a _zigzag map_ $f:Z \to Z'$ comprises a monotone function $f_\text{s} : Z_\text{s} \to Z'_\text{s}$, and for each $i \in Z_\text{s}$ a morphism $f_i : s_i \to s' _{f_\text{s}(i)}$, such that the diagram built as follows is commutative:
+
+* Take the disjoint union of $Z$ and $Z'$ as diagrams in $C$.
+* Add the arrows $f_i$ between singular objects.
+* In between these arrows, add equalities between regular objects.
+
+The idea is illustrated in the following picture:
+
+<img height="200" style="margin-left:auto; margin-right:auto;" src="https://www.cs.bham.ac.uk/~vicaryjo/homotopy.io/nlab/zigzagmap.png" alt="A zigzag" />
+=--
+
++-- {: .num_defn}
+###### Definition
+Given a category $C$, its _zigzag category_ $Z_C$ has zigzags as objects, and zigzag maps as morphisms.
+=--
+
++-- {: .num_defn}
+###### Definition
+An _untyped $n$-diagram_ is an object of the category obtained by starting with the terminal category $1$, and applying the zigzag category construction $n$ times.
+=--
+
+For a signature $\Sigma$, we write $|\Sigma|$ for its set of generating types, which is equipped with a dimension function $\text{dim}:|\Sigma| \to \mathbb{N}$. We write $\mathcal{P}_\Sigma$ for the poset with objects given by elements of $|\Sigma|$, and a nonidentity morphism $x \to y$ just when $\text{dim}(x) \lt \text{dim}(y)$.
+
++-- {: .num_defn}
+###### Definition
+A _$|\Sigma|$-typed $n$-diagram_ is an object of the category obtained by starting with the category $\mathcal{P}_\Sigma$, and applying the zigzag category construction $n$ times.
+=--
+
+Given a $|\Sigma|$-typed $n$-diagram $D$, we can then ask if it is _well-typed_ with respect to $\Sigma$. This involves identifying the neighbourhoods of every point, and checking that they agree with the standard type neighbourhoods defined in $\Sigma$. This procedure is explained in the references below.
 
 ## Constructing homotopies
 
