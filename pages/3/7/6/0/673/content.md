@@ -38,7 +38,7 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 
 * _Smooth loop stacks of differentiable stacks and gerbes_, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], Vol LIX no 2 (2018) pp 95-141 [journal version](http://cahierstgdc.com/index.php/volume-lix-2018/), [arXiv:1602.07973](https://arxiv.org/abs/1602.07973). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]].
 
-* _The smooth Hom-stack of an orbifold_, In: Wood D., de Gier J., Praeger C., Tao T. (eds) 2016 MATRIX Annals. MATRIX Book Series, vol 1, doi:[10.1007/978-3-319-72299-3_3](https://doi.org/10.1007/978-3-319-72299-3_3), [arXiv:1610.05904](https://arxiv.org/abs/1610.05904), [MATRIX hosted version](https://www.matrix-inst.org.au/2016-matrix-annals/). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]]
+* _The smooth Hom-stack of an orbifold_, In: Wood D., de Gier J., Praeger C., Tao T. (eds) 2016 MATRIX Annals. MATRIX Book Series, vol 1 (2018) doi:[10.1007/978-3-319-72299-3_3](https://doi.org/10.1007/978-3-319-72299-3_3), [arXiv:1610.05904](https://arxiv.org/abs/1610.05904), [MATRIX hosted version](https://www.matrix-inst.org.au/2016-matrix-annals/). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]]
 
 * _Equivariant bundle gerbes_, [Advances in Theoretical and Mathematical Physics](https://intlpress.com/site/pub/pages/journals/items/atmp/_home/_main/)
  21 (2017) no. 4 pp 921-975, doi:[10.4310/ATMP.2017.v21.n4.a3
