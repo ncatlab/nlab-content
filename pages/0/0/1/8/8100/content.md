@@ -115,8 +115,7 @@ The special case where the class of the restriction of the [[B-field]] to the D-
 
 The generalization to the case that the two classes differ by a [[torsion]] class was considered in
 
-* [[Anton Kapustin]], _D-branes in a topologically nontrivial B-field_ , Adv. Theor. Math. Phys.
-4, no. 1, pp. 127&#8211;154 (2000), ([arXiv:hep-th/9909089](http://arxiv.org/abs/hep-th/9909089))
+* {#Kapustin99} [[Anton Kapustin]], _D-branes in a topologically nontrivial B-field_, Adv. Theor. Math. Phys. 4, no. 1, pp. 127&#8211;154 (2000), ([arXiv:hep-th/9909089](http://arxiv.org/abs/hep-th/9909089))
 
 Aspects of the interpretation of this by [[push-forward in generalized cohomology]] in [[twisted K-theory]] are formalized in 
 
