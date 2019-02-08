@@ -32,7 +32,7 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 
 * _Class forcing and topos theory_ (2018) notes from my 2015 talk at IHES, doi:[10.4225/55/5b2252e3092af](https://doi.org/10.4225/55/5b2252e3092af)
 
-* _Comments on Mochizuki’s 2018 Report_ (2018) ([pdf](https://thehighergeometer.files.wordpress.com/2018/09/mochizuki_final1.pdf), [blog post](https://thehighergeometer.wordpress.com/2018/09/28/on-mochiukis-report-on-discussions/))
+* _Comments on Mochizuki’s 2018 Report_ (2018) doi:[10.25909/5c5ce1fda4b7c](https://doi.org/10.25909/5c5ce1fda4b7c), ([blog post](https://thehighergeometer.wordpress.com/2018/09/28/on-mochiukis-report-on-discussions/))
 
 ### Papers
 
