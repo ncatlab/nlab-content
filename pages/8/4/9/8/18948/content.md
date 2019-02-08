@@ -42,7 +42,7 @@ One usually wants to place a [[Haar system on a locally compact groupoid|Haar sy
 
 An early reference is
 
-* Jean Renault, _A Groupoid Approach to C*-Algebras_, Lecture Notes in Mathematics **793** (1980) doi:[10.1007/BFb0091072](https://doi-org/10.1007/BFb0091072)
+* Jean Renault, _A Groupoid Approach to C*-Algebras_, Lecture Notes in Mathematics **793** (1980) doi:[10.1007/BFb0091072](https://doi.org/10.1007/BFb0091072)
 
 A version where Hausdorffness is weakened so that only the space of objects is Hausdorff is
 
