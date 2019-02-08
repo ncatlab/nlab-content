@@ -33,7 +33,7 @@ A [[partial differential equation]] is said to be _formally integrable_ (e.g. [G
 
 * [[Maciej Zworski]], _Numerical linear algebra and solvability of partial differential equations_, Communications in Mathematical Physics 229 (2002) 293&#8211;307
 
-* Batu G&#252;neysu, Markus Pflaum, _The profinite dimensional manifold structure of formal solution spaces of formally integrable PDE's_ ([arXiv:1308.1005](https://arxiv.org/abs/1308.1005))
+* Batu G&#252;neysu, [[Markus Pflaum]], _The profinite dimensional manifold structure of formal solution spaces of formally integrable PDE's_ ([arXiv:1308.1005](https://arxiv.org/abs/1308.1005))
 
 
 A [[synthetic mathematics|synthetic]] discussion in terms of [[differential cohesion]] is given in
