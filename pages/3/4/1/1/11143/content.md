@@ -90,6 +90,6 @@ This preprint is an amplified version of the following article, with detailed pr
 
 Penon's thesis has an appendix on the Dubuc topos:
 
-* [[Jacques Penon]], _De l'infinit&#233;simal au local_ (Th&#232;se de Doctorat d'&#201;tat). Diagrammes, S13 (1985), p. 1-191 [NUMDAM](http://www.numdam.org/item?id=DIA_1985__S13__1_0)
+* [[Jacques Penon]], _De l'infinit&#233;simal au local_ (Th&#232;se de Doctorat d'&#201;tat). [[Diagrammes]], S13 (1985), p. 1-191 [NUMDAM](http://www.numdam.org/item?id=DIA_1985__S13__1_0)
 
 
