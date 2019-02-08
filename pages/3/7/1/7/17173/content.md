@@ -109,7 +109,7 @@ Moreover, any two choices of such $G$-invariant tubular neighbourhoods are $G$-e
 
 =--
 
-([Kankaanrinta 07, theorem 4.4, theorem 4.6](equivariant+differential+topology#Kankaanrinta07))
+([Bredon 72 VI Theorem 2.2](#Bredon72), [Kankaanrinta 07, theorem 4.4, theorem 4.6](equivariant+differential+topology#Kankaanrinta07))
 
 
 ### Pullbacks of tubular neighbourhoods
@@ -133,6 +133,11 @@ Basics on tubular neighbourhoods are reviewed for instance in
 
 * {#Kochmann96} [[Stanley Kochmann]], section 1.2 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
  
+Discussion in the generality of [[equivariant differential topology]] includes
+
+* {#Bredon72} [[Glen Bredon]], Chapter VI.2 of _Introduction to compact transformation groups_, Academic Press 1972 ([pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
+
+
 
 The homotopical uniqueness of tubular neighbourhoods is discussed in
 
