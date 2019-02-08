@@ -53,13 +53,13 @@ Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny 
 * _On certain 2-categories admitting localisation by bicategories of
   fractions_, [Applied Categorical Structures](https://link.springer.com/journal/10485) Volume 24, Issue 4 (2016) pp 373-384, doi:[10.1007/s10485-015-9400-4](http://dx.doi.org/10.1007/s10485-015-9400-4), [ReadCube](https://rdcu.be/5uvT), [arXiv:1402.7108](http://arxiv.org/abs/1402.7108).
 
-* _Simplicial principal bundles in parameterized spaces_, [New York Journal of Mathematics](https://nyjm.albany.edu/) Volume 22 (2016) 405-440, [journal version](https://nyjm.albany.edu/j/2016/22-19.html), [arXiv:1203.2460](https://arxiv.org/abs/1203.2460), joint with [[nLab:Danny Stevenson|Danny Stevenson]].
+* _Simplicial principal bundles in parametrized spaces_, [New York Journal of Mathematics](https://nyjm.albany.edu/) Volume 22 (2016) 405-440, [journal version](http://nyjm.albany.edu/j/2016/22-19.html), [arXiv:1203.2460](https://arxiv.org/abs/1203.2460), joint with [[nLab:Danny Stevenson|Danny Stevenson]].
 
 * _A topological fibrewise fundamental groupoid_, [Homology, Homotopy and Applications](https://intlpress.com/site/pub/pages/journals/items/hha/_home/_main/index.html), Volume 17, Number 2 (2015) 37-51, doi:[10.4310/HHA.2015.v17.n2.a4](https://doi.org/10.4310/HHA.2015.v17.n2.a4), [arXiv:1411.5779](https://arxiv.org/abs/1411.5779).
 
 * _The weak choice principle WISC may fail in the category of sets_, [Studia Logica](https://link.springer.com/journal/11225) Volume 103, Issue 5 (2015) pp 1005-1017, doi:[10.1007/s11225-015-9603-6](https://doi.org/10.1007/s11225-015-9603-6) [arXiv:1311.3074](https://arxiv.org/abs/1311.3074). 
 
-* _The universal simplicial bundle is a simplicial group_, [New York Journal of Mathematics](https://nyjm.albany.edu/), Volume 19 (2013) 51-60, [journal version](https://nyjm.albany.edu/j/2013/19-5.html), [arXiv:1204.4886](https://arxiv.org/abs/1204.4886). 
+* _The universal simplicial bundle is a simplicial group_, [New York Journal of Mathematics](https://nyjm.albany.edu/), Volume 19 (2013) 51-60, [journal version](http://nyjm.albany.edu/j/2013/19-5.html), [arXiv:1204.4886](https://arxiv.org/abs/1204.4886). 
 
 * _On the existence of bibundles_, [Proc. London Math. Soc.](https://www.lms.ac.uk/publication/plms) (2012) 105 (6): 1290-1314, doi:[10.1112/plms/pds028](https://doi.org/10.1112/plms/pds028), [arXiv:1102.4388](https://arxiv.org/abs/1102.4388). Joint with [[nLab:Michael Murray|Michael Murray]] and [[nLab:Danny Stevenson|Danny Stevenson]]
 
