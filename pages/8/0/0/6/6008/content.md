@@ -106,17 +106,19 @@ For an analogue in homotopical algebraic geometry see
 
 * [[Marc Levine]], _Motivic tubular neighborhoods_, [pdf](http://www.uni-due.de/~bm0032/publ/TubNbdDocumenta.pdf)
 
-see also
+See also
 
-* wikipedia [tubular neighborhood](http://en.wikipedia.org/wiki/Tubular_neighborhood)
+* Wikipedia, _[Tubular neighborhood](http://en.wikipedia.org/wiki/Tubular_neighborhood)_
 
+
+[[!redirects tubular neighborhoods]]
+
+[[!redirects tubular neighbourhood]]
 [[!redirects tubular neighbourhoods]]
 
 [[!redirects tubular neighbourhood theorem]]
 
 
-[[!redirects tubular neighborhood]]
-[[!redirects tubular neighborhoods]]
 
 [[!redirects tubular neighborhood theorem]]
 
