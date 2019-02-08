@@ -88,7 +88,7 @@ Then there exists a [[Riemannian metric]] on $X$ with its [[invariant]] with res
 
 =--
 
-([Bredon 72,VI Theorem 2.1](#Bredon72), see also [Ziller 13, Theorem 3.0.2](#Ziller13))
+([Bredon 72, VI Theorem 2.1](#Bredon72), see also [Ziller 13, Theorem 3.0.2](#Ziller13))
 
 +-- {: .num_defn #GInvariantTubularNeighbourhood}
 ###### Definition
