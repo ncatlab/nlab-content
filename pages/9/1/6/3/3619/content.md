@@ -114,10 +114,14 @@ An introduction is in
 
 * Dagmar Bruss, _Characterizing entanglement_, J. Math. Phys. 43, 4237 (2002) [arXiv:quant-ph/0110078](http://arxiv.org/abs/quant-ph/0110078) [doi](http://dx.doi.org/10.1063/1.1494474)
 
+Exposition of entanglement as a phenomenon of non-[[Cartesian monoidal category|Cartesian]] [[monoidal categories]] is in
+
+* {#Baez04} [[John Baez]], _Quantum Quandaries: a Category-Theoretic Perspective_, D. Rickles et al. (ed.) _[The structural foundations of quantum gravity](https://global.oup.com/academic/product/the-structural-foundations-of-quantum-gravity-9780199269693)_ 240-265 ([arXiv:quant-ph/0404040](https://arxiv.org/abs/quant-ph/0404040))
+
 A discussion in [[quantum mechanics in terms of dagger-compact categories]] is in
 
-* [[Bob Coecke]], [[Aleks Kissinger]], _The compositional structure of multipartite quantum entanglement_ ([arXiv:1002.2540](http://arxiv.org/abs/1002.2540))
- {#CoeckeKissinger}
+* {#CoeckeKissinger} [[Bob Coecke]], [[Aleks Kissinger]], _The compositional structure of multipartite quantum entanglement_ ([arXiv:1002.2540](http://arxiv.org/abs/1002.2540))
+ 
 
 See also
 
