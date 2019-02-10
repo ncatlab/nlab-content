@@ -105,7 +105,9 @@ See [Miami Talk abstract](http://www.math.miami.edu/anno/voevodsky.htm)
 
 A talk in Moscow (20 Niv 2008, in Russian) can be viewed [here](http://www.mi.ras.ru/index.php?c=obs_sem/&l=1), [wmv 223.6 Mb](http://www.mi.ras.ru/media/335_full.wmv). Abstract:
 
-> In early 60-ies Bill Lawvere defined a category whose objects are measurable spaces and morphisms are Markov kernels. I will try to show how this category allows one to think about many of the notions of probability theory in categorical terms and to connect probabilistic objects to objects of other types through various functors. 
+> In early 60-ies Bill Lawvere defined a category whose objects are measurable spaces and morphisms are Markov kernels. I will try to show how this category allows one to think about many of the notions of probability theory in categorical terms and to connect probabilistic objects to objects of other types through various functors.
+
+Voevodsky's unfinished [notes on categorical probability theory](http://www.math.ias.edu/Voevodsky/voevodsky-publications_abstracts.html#markov) have been released posthumously.
 
 ### Panangaden's monad
 
