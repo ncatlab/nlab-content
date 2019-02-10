@@ -55,7 +55,7 @@ where $\mathcal{F}$ satisfies the [[axiom of choice]].
 
 ## Link
 
-* MO discussion on topos without points: ([link](http://mathoverflow.net/questions/98729/topos-without-point-from-the-point-of-view-of-logic))
+* MO discussion on topos without points: _[Topos Without point, from the point of view of logic.](http://mathoverflow.net/questions/98729/topos-without-point-from-the-point-of-view-of-logic)_
 
 ## References
 
@@ -71,8 +71,7 @@ A proof sketch and a survey of its model-theoretic context is in
 
 For a discussion of the importance of this theorem in constructive algebra see also
 
-* [[Gavin Wraith]], _Intuitionistic algebra: some recent developments in topos theory_  In Proceedings
-of the International Congress of Mathematicians (Helsinki, 1978), pages 331&#8211;337, Helsinki, 1980. Acad. Sci. Fennica. ([pdf](http://www.mathunion.org/ICM/ICM1978.1/Main/icm1978.1.0331.0338.ocr.pdf))
+* [[Gavin Wraith]], _Intuitionistic algebra: some recent developments in topos theory_  In: Proceedings of the International Congress of Mathematicians (Helsinki, 1978), pages 331&#8211;337, Helsinki, 1980. Acad. Sci. Fennica. ([pdf](http://www.mathunion.org/ICM/ICM1978.1/Main/icm1978.1.0331.0338.ocr.pdf))
  {#Wraith}
 
 For proof-theoretic approaches to Barr's theorem see
