@@ -286,6 +286,8 @@ In particular, by this [[bijection]] the canonical [[group]] [[structure]] on [[
 
 ## References
 
+* [[Lev Pontryagin]], _Smooth manifolds and their applications in homotopy theory_. 1959 American Mathematical Society Translations, Ser. 2, Vol. 11 pp. 1–114 American Mathematical Society, Providence, R.I. ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/pont4.pdf), [arXiv:10.1142/9789812772107_0001](https://doi.org/10.1142/9789812772107_0001))
+
 * {#Milnor65} [[John Milnor]], section 7 of _Topology -- From the differentiable viewpoint_, 1965 ([pdf](http://teachingdm.unito.it/paginepersonali/sergio.console/Dispense/Milnor%20Topology%20from%20%23681EA.pdf))
 
 * {#Kochmann96} [[Stanley Kochmann]], section 1.5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
