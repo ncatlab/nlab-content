@@ -170,6 +170,52 @@ When $X$ is a [[sphere]] that is an $H$-space, namely, one of the [[groups]] $S^
 1. $ S^3 \hookrightarrow S^7 \to S^4 $ -- [[quaternionic Hopf fibration]]
 1. $ S^7 \hookrightarrow S^{15} \to S^8 $ -- [[octonionic Hopf fibration]]
 
+## Properties
+
+### Relation to stable homotopy groups of spheres
+ {#RelationToStableHomotopyGroupsOfSpheres}
+
+Let 
+
+$H_{\mathbb{C}} \in \pi_3(S^2)$,
+
+$H_{\mathbb{H}} \in \pi_7(S^4)$
+
+$H_{\mathbb{H}} \in \pi_{15}(S^8)$
+
+be the [[homotopy class]] of the [[complex Hopf fibration]], the [[quaternionic Hopf fibration]] and the [[octonionic Hopf fibration]], respectively. Then their [[suspensions]] are the generators of the corresponding [[stable homotopy groups of spheres]]:
+
+$$
+  \begin{aligned}
+  \Sigma H_{\mathbb{C}}
+  & =
+  \pm 1
+    \in 
+  \mathbb{Z}_2
+  \simeq
+  \pi_1^{st}
+  \\
+  \Sigma H_{\mathbb{H}}
+  & =
+  \pm 1
+    \in 
+  \mathbb{Z}_{24} 
+    \simeq
+  \pi_3^{st}
+  \\
+  \Sigma H_{\mathbb{O}}
+  & =
+  \pm 1
+    \in 
+  \mathbb{Z}_{240} 
+    \simeq
+  \pi_7^{st}
+  \end{aligned}
+$$
+
+see [this MO comment](https://mathoverflow.net/a/224082/381)
+
+
 
 ## Applications
 
