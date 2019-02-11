@@ -47,7 +47,7 @@ such that the [[monad]]-axioms hold and such that the following equivalent condi
 +-- {: .num_defn #ClosureAndClosedObjects}
 ###### Definition
 
-For $\diamond \colon X \to X$ a closure operator, def. \ref{ClosureOperatorAsMonad}, and for $X \in \mathcal{C}$ an object, we say that 
+For $\diamond \colon \mathcal{C} \to \mathcal{C}$ a closure operator, def. \ref{ClosureOperatorAsMonad}, and for $X \in \mathcal{C}$ an object, we say that 
 
 * $\diamond X \in \mathcal{C}$ is the **$\diamond$-closure** of $X$;
 
