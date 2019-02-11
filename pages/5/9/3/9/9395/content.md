@@ -32,9 +32,10 @@ $$
 
 whose [[fiber]] is $X$, whose base space is the [[suspension]] of $X$, and whose total space is the [[join of topological spaces|join]] of $X$ with itself. ([Stasheff 70, chapter 1](#Stasheff70)).
 
-Specialized to $X$ the [[sphere]] of dimension 0, 1, 3, or 7, then the Hopf construction yields the _[Hopf fibrations](#HopfFibrations)_. (And by the [[Hopf invariant one theorem]] these are the only dimensions for in which spheres are H-spaces.)
+Specialized to $X$ the [[sphere]] of [[dimension]] [[0-sphere|0]], [[1-sphere|1]], [[3-sphere|3]], or [[7-sphere|7]], the Hopf construction yields the _[Hopf fibrations](#HopfFibrations)_. (And by the [[Hopf invariant one theorem]] these are the only dimensions for in which spheres are H-spaces.)
 
 ## Definition
+ {#Definition}
 
 +-- {: .num_defn #SuspensionJoin}
 ###### Definition
@@ -79,7 +80,7 @@ $$
   f \colon X \times Y \longrightarrow Z
 $$
 
-then its _Hopf construction_ is the continuous function
+its _Hopf construction_ is the continuous function
 
 $$
   H_f \colon X \ast Y \longrightarrow \Sigma Z
@@ -277,8 +278,7 @@ $$
 
 The original sources are
 
-* {#Hopf35} [[Heinz Hopf]], _&#220;ber die Abbildungen von Sph&#228;ren auf Sph&#228;ren niedrigerer Dimension_, Fund. Math. 25: 427&#8211;440 (1935) ([Euclid](https://eudml.org/doc/212801
-))
+* {#Hopf35} [[Heinz Hopf]], _&#220;ber die Abbildungen von Sph&#228;ren auf Sph&#228;ren niedrigerer Dimension_, Fund. Math. 25: 427&#8211;440 (1935) ([Euclid](https://eudml.org/doc/212801))
 
 * [[George Whitehead]], _On the homotopy groups of spheres and rotation groups_, Annals of Mathematics. Second Series 43 (4): 634&#8211;640, (1942) ([JSTOR](http://www.jstor.org/stable/1968956))
 
