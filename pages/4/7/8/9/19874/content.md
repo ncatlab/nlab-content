@@ -82,6 +82,8 @@ Constraints from [[experiment]] ([[LHC]]):
 
 * {#ATLAS19} [[ATLAS collaboration]], _Searches for scalar leptoquarks and differential cross-section measurements in dilepton-dijet events in proton-proton collisions at a centre-of-mass energy of s√ = 13 TeV with the ATLAS experiment _ ([arXiv:1902.00377](https://arxiv.org/abs/1902.00377))
 
+* ZEUS Collaboration, _Limits on contact interactions and leptoquarks at HERA_ ([arXiv:1902.03048](https://arxiv.org/abs/1902.03048))
+
 ### Relation to flavour anomalies
 
 As a potential solution of the apparent [[B meson]] [[flavour anomaly]]:
