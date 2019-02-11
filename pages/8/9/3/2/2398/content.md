@@ -27,7 +27,7 @@
 
 ### On cohomology
 
-The **de Rham theorem** (named after [[Georges de Rham]]) asserts that the [[de Rham cohomology]] $H^n_{dR}(X)$ of a smooth [[manifold]] $X$ (without boundary) is [[isomorphism|isomorphic]] to the "ordinary" $\mathbb{R}$-valued cohomology, i.e. the [[singular cohomology|singular]] or [[?ech cohomology]] with real coefficients $H^n(X, \mathbb{R})$. 
+The **de Rham theorem** (named after [[Georges de Rham]]) asserts that the [[de Rham cohomology]] $H^n_{dR}(X)$ of a smooth [[manifold]] $X$ (without boundary) is [[isomorphism|isomorphic]] to the "ordinary" $\mathbb{R}$-valued cohomology, i.e. the [[singular cohomology|singular]] or [[?ech cohomology|Čech cohomology]] with real coefficients $H^n(X, \mathbb{R})$. 
 
 The theorem has several dozens of different proofs. For example in the &#268;ech approach one can make a double complex whose first row is the &#268;ech complex of a covering and first column is the de Rham complex and other entries are mixed and use spectral sequence argument (see the textbook of Bott and Tu, or the geometry lectures book by Postnikov, semester III). 
  
@@ -167,7 +167,7 @@ In analytic geometry also
 
 The refinement of the de Rham theorem from an [[isomorphism]] of [[cohomology group]]s to an [[equivalence]] of  [[A-∞ algebras]] of cochains and forms was first stated in 
 
-* [[Victor Gugenheim]], _On Chen's iterated integrals_ , Illinois J. Math. Volume 21, Issue 3 (1977), 703{715.
+* [[Victor Gugenheim]], _On Chen's iterated integrals_ , Illinois J. Math. Volume 21, Issue 3 (1977), 703-715.
  {#Gugenheim}
 
 proven using Chen's [[iterated integral]]s.
