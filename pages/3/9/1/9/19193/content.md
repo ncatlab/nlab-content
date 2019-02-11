@@ -45,7 +45,11 @@ See also [Illustris Project Website](#IllustrisProjectWebsite): _[What are we le
 
 Review includes
 
-* Joel R. Primack, _Dark Matter and Structure Formation in the Universe_ ([arXiv:astro-ph/9707285](https://arxiv.org/abs/astro-ph/9707285))
+* [[Joel Primack]], _Dark Matter and Structure Formation in the Universe_, Chapter 1 of _Formation of Structure in the Universe_, Proceedings of the Jerusalem Winter School 1996, edited by A. Dekel and J.P. Ostriker ([arXiv:astro-ph/9707285](https://arxiv.org/abs/astro-ph/9707285))
+
+Galaxy formation:
+
+* Julio Navarro, _Simulations of Galaxy Formation:  the State of the Art_ ([pdf](http://www.physics.ox.ac.uk/iau311/navarro_iau311.pdf))
 
 See also 
 
@@ -58,6 +62,8 @@ There are various computer simulations for structure formation, listed below. Re
 * {#Springel13} Volker Springel, _Simulations of Cosmic Structure Formation_, USP Cosmology Conference Sao Paulo, February 2013 ([pdf](http://astro.dur.ac.uk/~cmb/LACEGAL/Talks/talk_springel.pdf), [[Springel13.pdf:file]])
 
 * [Kavli Institute for Cosmological Physics](http://cfcp.uchicago.edu/), _[Formation of the large-scale structure in the Universe: simulations](cosmicweb.uchicago.edu/sims.html)_
+
+
 
 #### Millenium Project
 
@@ -90,6 +96,20 @@ There are various computer simulations for structure formation, listed below. Re
 
 * {#VogelsbergerEtAl14} Mark Vogelsberger, Shy Genel, Volker Springel, Paul Torrey, Debora Sijacki, Dandan Xu, Greg Snyder, Dylan Nelson, Lars Hernquist, _Introducing the Illustris Project: simulating the coevolution of dark and visible matter in the Universe_ ([arXiv:1405.2921](https://arxiv.org/abs/1405.2921))
 
+#### FIRE
+
+Galaxy formation
+
+* [FIRE: Feedback In Realistic Environments
+Increasing the predictive power of galaxy formation simulations
+](https://fire.northwestern.edu/)
+
+  * [visualization](https://fire.northwestern.edu/visualizations/)
+
+* _FIRE-2 Simulations: Physics versus Numerics in Galaxy Formation_ ([arXiv:1702.06148](https://arxiv.org/abs/1702.06148))
+
+[[!redirects galaxy formation]]
 
 [[!redirects cosmic structure formation]]
 [[!redirects cosmological structure formation]]
+
