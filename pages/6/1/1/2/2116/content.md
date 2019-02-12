@@ -31,7 +31,7 @@ be sure to check for improperly replied posts with the same subject in that and 
 
 *  possibly _[Algebraic closure without choice](http://doi.wiley.com/10.1002/malq.19920380136)_, a paper by somebody that I can\'t read
 
-*  _[The fundamental theorem of algebra: a constructive development without choice](http://math.fau.edu/Richman/HTML/DOCS.HTM)_ by [[Fred Richman]]
+*  _[The fundamental theorem of algebra: a constructive development without choice](http://math.fau.edu/richman/html/docs.htm)_ by [[Fred Richman]]
 
 Even with choice, algebraic closure is not [[functor|functorial]] in any reasonable sense. For example, it is very easy to demonstrate that there is no algebraic closure functor $F \mapsto \widebar{F}$ that renders the inclusion $i: F \to \widebar{F}$ natural: 
 
