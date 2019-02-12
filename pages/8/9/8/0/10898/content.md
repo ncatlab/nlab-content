@@ -56,12 +56,14 @@ Discussion of [[Kleisli objects]] (collages) for [[monads]] generalized to categ
 * [[Richard Garner]], [[Michael Shulman]], _Enriched categories as a free cocompletion_ ([arXiv:1301.3191](http://arxiv.org/abs/1301.3191))
  {#GarnerShulman13}
 
-
-
 [[!redirects categories enriched in a bicategory]]
+[[!redirects category enriched over a bicategory]]
+[[!redirects categories enriched over a bicategory]]
 
 [[!redirects category enriched in a 2-category]]
 [[!redirects categories enriched in a 2-category]]
+[[!redirects category enriched over a 2-category]]
+[[!redirects categories enriched over a 2-category]]
 
 [[!redirects bicategory-enriched category]]
 [[!redirects bicategory-enriched categories]]
