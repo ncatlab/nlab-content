@@ -41,7 +41,7 @@ See Section 7.3 of [Troelstra & van Dalen](#TvD).
 
 ## Examples
 
-### Singleton
+### Singletons
 
 Any singleton subset of a metric space, or more generally any finite subset, is metrically located, since we can take the minimum of any finite set.  A singleton subset of a uniform space is uniformly located if and only if the uniform space is [[regular space|regular]].
 
@@ -93,24 +93,28 @@ Various related notions of locatedness are studied in
 [[!redirects located subsets]]
 [[!redirects located subspace]]
 [[!redirects located subspaces]]
+
 [[!redirects metrically located set]]
 [[!redirects metrically located sets]]
 [[!redirects metrically located subset]]
 [[!redirects metrically located subsets]]
 [[!redirects metrically located subspace]]
 [[!redirects metrically located subspaces]]
+
 [[!redirects uniformly located set]]
 [[!redirects uniformly located sets]]
 [[!redirects uniformly located subset]]
 [[!redirects uniformly located subsets]]
 [[!redirects uniformly located subspace]]
 [[!redirects uniformly located subspaces]]
+
 [[!redirects topologically located set]]
 [[!redirects topologically located sets]]
 [[!redirects topologically located subset]]
 [[!redirects topologically located subsets]]
 [[!redirects topologically located subspace]]
 [[!redirects topologically located subspaces]]
+
 [[!redirects almost located set]]
 [[!redirects almost located sets]]
 [[!redirects almost located subset]]
