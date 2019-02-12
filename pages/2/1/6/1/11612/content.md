@@ -62,4 +62,10 @@ The M-wave may [[brane intersection|intersect]] [[black brane|black]] [[M2-brane
 
 * Yoshifumi Hyakutake, _Quantum M-wave and Black 0-brane_, JHEP09(2014)075 ([arXiv:1407.6023](http://arxiv.org/abs/1407.6023))
 
+As an M-theoretic [[orientifold]]:
+
+* {#HananyKol00} [[Amihay Hanany]], [[Barak Kol]], section 3.3 of _On Orientifolds, Discrete Torsion, Branes and M Theory_, JHEP 0006 (2000) 013 ([arXiv:hep-th/0003025](https://arxiv.org/abs/hep-th/0003025))
+
+* {#HSS18} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], Prop. 4.7 of _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_, Comm. Math. Phys. 2019 ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987))
+
 [[!redirects M-waves]]
