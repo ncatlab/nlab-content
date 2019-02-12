@@ -190,7 +190,7 @@ satisfying suitable equations.  If $D$ is vertically discrete, i.e. just a bicat
 
 ### Passage between ordinary categories and enriched categories
 
-Every $K$-enriched category $C$ has an _underlying ordinary category_, usually denoted $C_0$, defined by $C_0(x,y) = K(I, hom(x,y))$ where $I$ is the unit object of $K$.
+Every $K$-enriched category $C$ has an [[underlying ordinary category]], usually denoted $C_0$, defined by $C_0(x,y) = K(I, hom(x,y))$ where $I$ is the unit object of $K$.
 
 If $K(I, -): K \to Set$ has a left adjoint $- \cdot I: Set \to K$ (taking a set $S$ to the tensor or [[power|copower]] $S \cdot I$, viz. the coproduct of an $S$-indexed set of copies of $I$), then any ordinary category $C$ can be regarded as enriched in $K$ by forming the composite  
 
@@ -264,7 +264,13 @@ The page [here](http://ncatlab.org/nlab/show/generalized+algebraic+theory#Relati
 
 * [[enriched bicategory]]
 
+* [[category enriched over a bicategory]]
+
 * [[model structure on enriched categories]]
+
+* [[enriched model category]]
+
+* [[cartesian closed enriched category]], [[locally cartesian closed enriched category]]
 
 * [[enriched (∞,1)-category]]
 
