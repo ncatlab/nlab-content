@@ -46,7 +46,7 @@ If $n \geq 2$ is a natural number and $D$ is $[n] + 1 = \{1, 2, 3, \ldots, n - 1
 
 ## Examples
 
-Here are some representations of well-known real numbers is well-known radixes:
+Here are some representations of well-known real numbers in well-known radixes:
 
 <table><tr><th>Number</th><th markdown="1">Decimal ($n = 10$, $D = [10]$</th><th markdown="1">Binary ($n = 2$, $D = \{0, 1\}$)</th><th markdown="1">Positive binary ($n = 2$, $D = \{1, 2\}$)</th><th markdown="1">Natural ($n = \mathrm{e}$, $D = \{0, 1, 2\}$)</th><th markdown="1">Ternary ($n = 3$, $D = \{0, 1, 2\}$)</th><th markdown="1">Balanced ternary ($n = 3$, $D = \{-1, 0, 1\}$</th><th markdown="1">Tally ($n = 1$, $D = \{1\}$)</th></tr>
 <tr><td markdown="1">$0$</td><td markdown="1">$0$ (or $-0$)</td><td markdown="1">$0$ (or $-0$)</td><td markdown="1">$0$ (nonce symbol, or [[empty list]])</td><td markdown="1">$0$ (or $-0$)</td><td markdown="1">$0$ (or $-0$)</td><td markdown="1">$0$</td><td markdown="1">$0$ (nonce symbol, or [[empty list]])</td></tr>
