@@ -59,11 +59,11 @@ An even weaker form of countable choice was proposed by [Martin Escardo](#Escard
 
 ## References
 
-*  {#BRS}Douglas Bridges, Fred Richman, and Peter Schuster (1998). A weak countable choice principle. [PDF](http://math.fau.edu/richman/Docs/wcc.pdf) [AMS PDF](http://www.ams.org/proc/2000-128-09/S0002-9939-00-05327-2/)
+*  {#BRS}Douglas Bridges, Fred Richman, and Peter Schuster (1998). A weak countable choice principle. [PDF](http://math.fau.edu/richman/docs/wcc.pdf) [AMS PDF](http://www.ams.org/proc/2000-128-09/S0002-9939-00-05327-2/)
 
 *  {#EscardoCN}Martin Escardo et. al., *Special case of countable choice*, message and discussion to the constructivenews list, [google groups](https://groups.google.com/d/msg/constructivenews/PeLsQWDFJNg/7piOmUHbAAAJ)
 
-*  {#RichmanFTA} [[Fred Richman]], *The fundamental theorem of algebra: a constructive development without choice*.  [pdf](http://math.fau.edu/richman/Docs/Fta.pdf)
+*  {#RichmanFTA} [[Fred Richman]], *The fundamental theorem of algebra: a constructive development without choice*.  [pdf](http://math.fau.edu/richman/docs/Fta.pdf)
 
 See also 
 
