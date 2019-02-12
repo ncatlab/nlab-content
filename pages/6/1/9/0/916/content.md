@@ -112,7 +112,7 @@ For a more sophisticated analysis of computation, $Set_\bot$ can be replaced wit
 
 ## Algebras of partial functions
 
-The functions of high-school mathematics, consisting of real (or complex)-valued functions of one (or two or three) real (or complex) variables, are by default partial functions.  As they take values in a [[field]], one may consider adding or multiplying them.  The usual rule is that $\dom(f + g) = \dom f + \dom g$, etc, but this leads to an unusual algebra: a commutative [[semiring]] in which addition has an identity element (the always-defined constant [[zero function]]) and multiplication has an absorbing element (the never-defined [[empty function]]), but it fails to be a [[rig]] because these two elements are not the same.  It has many other interesting properties, such as simultaneous additive and multiplicative [[idempotent element|idempotents]] (the zero functions with arbitrary domains).
+The functions of high-school mathematics, consisting of real (or complex)-valued functions of one (or two or three) real (or complex) variables, are by default partial functions.  As they take values in a [[field]], one may consider adding or multiplying them.  The usual rule is that $\dom(f + g) = \dom f \cap \dom g$, etc, but this leads to an unusual algebra: a commutative [[semiring]] in which addition has an identity element (the always-defined constant [[zero function]]) and multiplication has an absorbing element (the never-defined [[empty function]]), but it fails to be a [[rig]] because these two elements are not the same.  It has many other interesting properties, such as simultaneous additive and multiplicative [[idempotent element|idempotents]] (the zero functions with arbitrary domains).
 
 An axiomatic treatment of such semirings may be found at the end of [Richman 2010](#Richman2010).
 
@@ -133,7 +133,7 @@ An axiomatic treatment of such semirings may be found at the end of [Richman 201
 
 * [[Robin Cockett]], [[Steve Lack]], _Restriction categories III: colimits, partial limits, and extensivity_ ([arXiv:math/0610500](http://arxiv.org/abs/math/0610500))
 
-* {#Richman2010} [[Fred Richman]] (2010). _Algebraic functions, calculus style_. [Fred Richman's documents](http://math.fau.edu/richman/HTML/DOCS.HTM).
+* {#Richman2010} [[Fred Richman]] (2010). _Algebraic functions, calculus style_. [Fred Richman's documents](http://math.fau.edu/richman/html/docs.htm).
 
 
 [[!redirects partial function]]
