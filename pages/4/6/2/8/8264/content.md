@@ -90,6 +90,8 @@ Discussion of inflationary effects of ever higher curvature corrections includes
 
 * Jerome Martin, _The Theory of Inflation_ ([arXiv:1807.11075](https://arxiv.org/abs/1807.11075))
 
+* Debika Chowdhury, Jerome Martin, Christophe Ringeval, Vincent Vennin, _Inflation after Planck: Judgment Day_ ([arXiv:1902.03951](https://arxiv.org/abs/1902.03951))
+
 * Wikipedia, _[Inflation (cosmology)](http://en.wikipedia.org/wiki/Inflation_%28cosmology%29)_
 
 ### Original articles
