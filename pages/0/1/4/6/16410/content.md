@@ -119,12 +119,16 @@ Discussion of de Sitter [[perturbative string theory vacua]] and their role (or 
 * [[Clay Cordova]], G. Bruno De Luca, [[Alessandro Tomasiello]], _Classical de Sitter Solutions of Ten-Dimensional Supergravity_ ([arXiv:1812.04147](https://arxiv.org/abs/1812.04147))
 
 
-Discussion in the context of [[M-theory on G2-manifolds]] includes
+Discussion in the context of [[M-theory on G2-manifolds]]:
 
 * Beatriz de Carlos, Andre Lukas, Stephen Morris, _Non-perturbative vacua for M-theory on G2 manifolds_, JHEP 0412:018, 2004 ([arxiv:hep-th/0409255](https://arxiv.org/abs/hep-th/0409255))
 
-which concludes that with taking [[non-perturbative effects]] from [[membrane instantons]] into account one gets 4d vacua with vanishing and negative [[cosmological constant]] ([[Minkowski spacetime]] and [[anti-de Sitter spacetime]]) but not with positive [[cosmological constant]] ([[de Sitter spacetime]]). They close by speculating that [[M5-brane]] instantons might yield [[de Sitter spacetime]].
+  which concludes that with taking [[non-perturbative effects]] from [[membrane instantons]] into account one gets 4d vacua with vanishing and negative [[cosmological constant]] ([[Minkowski spacetime]] and [[anti-de Sitter spacetime]]) but not with positive [[cosmological constant]] ([[de Sitter spacetime]]). They close by speculating that [[M5-brane]] instantons might yield [[de Sitter spacetime]].
 
+
+* Johan Blåbäck, [[Ulf Danielsson]], Giuseppe Dibitetto, Suvendu Giri, _Constructing stable de Sitter in M-theory from higher curvature corrections_ ([arXiv:1902.04053](https://arxiv.org/abs/1902.04053))
+
+  which suggests that including [[higher curvature corrections]] makes it work
 
 
 
