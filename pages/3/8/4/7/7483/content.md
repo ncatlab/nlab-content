@@ -49,7 +49,7 @@ This is ([Lurie, def. A.3.2.16](#Lurie)), except that he also includes the "inve
 
 ## Properties
 
-* If $\mathbf{S}$ is an excellent model category, $\mathbf{A}$ is a [[combinatorial model category|combinatorial]] $\mathbf{S}$-[[enriched model category]], and $C$ is a small $\mathbf{S}$-[[enriched category]], then the category $[C,\mathbf{A}]$ of enriched functors has both a [[projective model structure]] and an [[injective model structure]], which are both combinatorial.
+* One of Lurie's important original theorems was that if $\mathbf{S}$ is an excellent model category, $\mathbf{A}$ is a [[combinatorial model category|combinatorial]] $\mathbf{S}$-[[enriched model category]], and $C$ is a small $\mathbf{S}$-[[enriched category]], then the category $[C,\mathbf{A}]$ of enriched functors has both a [[projective model structure]] and an [[injective model structure]], which are both combinatorial.  However, it has since been shown by [MR13, Remark 3.8](#MR13) that excellence is unnecessary for this result.
 
 
 ## The invertibility hypothesis {#InvertibilityHypothesis}
@@ -101,5 +101,8 @@ Finally, a "strong cofibration" is defined in [DK80](#DwyerKanLocalizations) to 
 * {#DwyerKanLocalizations} [[William Dwyer]], [[Daniel Kan]], _Simplicial localizations of categories_ , J. Pure Appl. Algebra 17 (1980), 267&#8211;284. ([pdf](http://www.nd.edu/~wgd/Dvi/SimplicialLocalizations.pdf))
 
 * {#Lawson16} [[Tyler Lawson]], _Localization of enriched categories and cubical sets_, [arXiv:1602.05313](https://arxiv.org/abs/1602.05313)
+
+* {#MR13} [[M. Makkai]], [[J. Rosický]], _Cellular categories_, 2013, [arXiv:1304.7572](https://arxiv.org/abs/1304.7572)
+
 
 [[!redirects excellent model categories]]
