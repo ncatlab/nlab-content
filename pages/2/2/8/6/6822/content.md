@@ -1,4 +1,3 @@
-[[!redirects Pin group]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -16,7 +15,7 @@
 
 ## Idea
 
-The [[simply connected]] cover of the [[orthogonal group]]. Its restriction along the inclusion of the [[special orthogonal group]] is the [[Spin group]]. Hence the $Pin$-group is "like the Spin group, but including reflections".
+A _$Pin$-group_ is a [[simply connected]] [[covering|cover]] of an [[orthogonal group]]. Its restriction along the inclusion of the [[special orthogonal group]] is a [[Spin group]]. Hence a $Pin$-group is "like the corresponding Spin group, but including [[reflections]]".
 
 ## Definition
 
@@ -88,11 +87,33 @@ Specifically, "the" Spin group is
 
 $$
   Spin(n) \coloneqq Spin(\mathbb{R}^n)
-  \,.
+  \,,
 $$
+
+where we understand the standard [[quadratic form]] on $\mathbb{R}^n$ for either global sign
+
+$$
+  \array{
+    \mathbb{R}^n &\overset{q_{\pm}}{\longrightarrow}& \mathbb{R}
+    \\
+    \vec x &\mapsto& \pm \underset{i}{\sum} (x^i)^2
+  }
+$$
+
+The corresponding two $Pin$-groups are denoted
+
+$$
+  Pin_\pm(n)
+  \;\coloneqq\;
+  Pin\big( \mathbb{R}^n, q_\pm\big)
+$$
+
 
 =--
 
+## Examples
+
+* [[Pin(2)]]
 
 ## Related concepts
 
@@ -111,8 +132,8 @@ See also
 
 The following article discusses which of the Pin groups are in fact compatible with [[general relativity]]
 
-* Bas Janssens, _The Pin Groups in General Relativity_, arXiv:[1709.02742](https://arxiv.org/abs/1709.02742)
+* Bas Janssens, _The Pin Groups in General Relativity_ ([arXiv:1709.02742](https://arxiv.org/abs/1709.02742))
 
 
-
+[[!redirects Pin group]]
 
