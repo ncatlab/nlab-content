@@ -311,3 +311,6 @@ See also
 * {#Tamura57} Itiro Tamura, _On Pontrjagin classes of homotopy types of manifolds_, Journal of the mathematical society of Japan, Vol. 9 No. 2 , 1957 [pdf](http://www.maths.ed.ac.uk/~aar/papers/tamura3.pdf)
 
 [[!redirects orthogonal groups]]
+
+
+[[!redirects O(2)]]
