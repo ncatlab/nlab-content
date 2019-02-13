@@ -120,9 +120,9 @@ $$
 which corresponds by adjunction to precisely an $R$-algebra structure on $U f$.  Thus, the right weak composition law for $R$-algebras lifts to a right weak composition law for $R'$-algebras.  Garner's small object argument applied to $(L',R')$ then produces a monad over $cod$ with a right strong composition law, which is therefore an [[algebraic weak factorization system]] whose algebraic right maps are the $R'$-algebras, and in particular whose underlying right chlass is as desired those maps whose $U$-image is in $R$.
 =--
 
-In particular, therefore, the factorizations of any [[accessible model structure]] lift along any adjunction between locally presentable model categories, whether or not they are cofibrantly generated.  But the cofibrantly generated case can also be subsumed, by taking $(L,R)$ to be the one-step factorization produced by the generating left maps.
+In particular, therefore, the factorizations of any [[accessible model structure]] right-lift along any adjunction between locally presentable model categories, whether or not they are cofibrantly generated.  But the cofibrantly generated case can also be subsumed, by taking $(L,R)$ to be the one-step factorization produced by the generating left maps.
 
-By invoking fancier categorical machinery, one can show more generally:
+Left-lifting is generally rather trickier.  But by invoking fancier categorical machinery, one can show more generally:
 
 \begin{lemma}
   Suppose given a functor $U:D\to C$ between locally presentable categories and an [[accessible weak factorization system]] $(L,R)$ on $C$.
@@ -130,9 +130,14 @@ By invoking fancier categorical machinery, one can show more generally:
   1. If $U$ has a left adjoint $F$, then $(L,R)$ right-lifts along $U$ to an accessible wfs on $D$.
   1. If $U$ has a right adjoint $G$, then $(L,R)$ left-lifts along $U$ to an accessible wfs on $D$.
 
-\end{lemma}
+  Moreover, if $(L,R)$ is cofibrantly generated, so are the lifted wfs.
 
-See [HKRS15](#HKRS15) and [GKR18](#GKR18).  This sort of result seems to be necessary for the case of left-lifting; the simpler cofibrantly-generated argument does not dualize as directly.
+\end{lemma}
+\begin{proof}
+  See [HKRS15](#HKRS15) and [GKR18](#GKR18) for the lifting of accessible wfs.  Cofibrant generation of a right-lifted wfs follows as in Theorem \ref{SufficientConditions} above, while in the left-lifted case it is Corollary 3.4 of [MR13](#MR13).
+\end{proof}
+
+This sort of result seems to be necessary for the case of left-lifting; the simpler cofibrantly-generated argument does not dualize as directly.
 
 
 ### Verifying acyclicity
@@ -319,13 +324,19 @@ and on p. 6 of
 
 * [[Clemens Berger]], [[Ieke Moerdijk]], _Axiomatic homotopy theory for operads_  ([pdf](http://www.math.uu.nl/publications/preprints/1242.pdf))
 
-Left transfer is studied in
+Left transfer in the accessible case is studied in
 
 * Marzieh Bayeh, [[Kathryn Hess]], Varvara Karpova, Magdalena K&#281;dziorek, [[Emily Riehl]], [[Brooke Shipley]], _Left-induced model structures and diagram categories_ ([arXiv:1401.3651](http://arxiv.org/abs/1401.3651))
 
 * {#HKRS15} [[Kathryn Hess]], Magdalena K&#281;dziorek, [[Emily Riehl]], [[Brooke Shipley]], _A necessary and sufficient condition for induced model structures_ ([arXiv:1509.08154](http://arxiv.org/abs/1509.08154)).  This paper contains an error, corrected by:
 
 * {#GKR18} [[Richard Garner]], Magdalena Kedziorek, [[Emily Riehl]], _Lifting accessible model structures_, [arXiv:1802.09889](https://arxiv.org/abs/1802.09889)
+
+while in the combinatorial (cofibrantly generated) case it is studied in
+
+* [[Higher Topos Theory]], Appendix A
+
+* {#MR13} [[M. Makkai]], [[J. Rosický]], _Cellular categories_, 2013, [arXiv:1304.7572](https://arxiv.org/abs/1304.7572)
 
 The right-transferred model structure on algebras for a 2-monad is from
 
