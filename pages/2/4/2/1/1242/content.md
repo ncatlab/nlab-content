@@ -20,7 +20,7 @@
 
 ## Idea
 
-An **exact sequence** may be defined in a [[semi-abelian category]], and more generally in a [[homological category]]. It is a [[sequential diagram]] in which the [[cokernel]] of each [[morphism]] is equal to the [[kernel]] of the next morphism.
+An **exact sequence** may be defined in a [[semi-abelian category]], and more generally in a [[homological category]]. It is a [[sequential diagram]] in which the [[image]] of each [[morphism]] is equal to the [[kernel]] of the next morphism.
 
 
 ## Definition
