@@ -60,7 +60,7 @@ When here $(\Sigma, \phi^\ast g)$ is a [[hyperbolic 3-manifold]] and $\phi^\ast 
 
 * [[Katrin Becker]], [[Melanie Becker]], [[Andrew Strominger]], section 2.1 of _Five-branes, membranes and nonperturbative string theory_, Nucl. Phys. B 456, 130 (1995) ([hep-th/9507158](http://arxiv.org/abs/hep-th/9507158))
 
-* {#HarveyMoore99} [[Jeff Harvey]], [[Greg Moore]], _Superpotentials and Membrane Instantons_ ([arXiv:hep-th/9907026](http://arxiv.org/abs/hep-th/9907026))
+* {#HarveyMoore99} [[Jeff Harvey]], [[Greg Moore]], _Superpotentials and Membrane Instantons_ ([arXiv:hep-th/9907026](http://arxiv.org/abs/hep-th/9907026), [spire:503172](http://inspirehep.net/record/503172))
 
 Discussion specifically for [[M-theory on G2-manifolds]] includes
 
