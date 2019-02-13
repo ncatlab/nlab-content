@@ -111,7 +111,7 @@ $$
   \frac{\int_{\phi \in Fields} f(\phi) \cdot \mu(\phi)}{\int_{\phi \in Fields} \mu(\phi) }
 $$
 
-if the measure existed. Of course this does not make sense in terms of the usual notion of [[integration]] against [[measures]] since such measures do not exists except in the most simplest situation. But there is a [[cohomology|cohomological]] notion of integration where instead of actually performing an integral, we identify its value, if it exists, with a cohomology class and generally interpret that cohomology class as the expectation value, even if an actual integral against a measure does not exist. This is what BV formalism achieves, which we discuss after some preliminaries below in _[Integration over manifolds by BV cohomology](#IntegrationOverManifoldsByBVCohomology)_.
+if the measure existed. Of course this does not make sense in terms of the usual notion of [[integration]] against [[measures]] since such measures do not exists except in the simplest situation. But there is a [[cohomology|cohomological]] notion of integration where instead of actually performing an integral, we identify its value, if it exists, with a cohomology class and generally interpret that cohomology class as the expectation value, even if an actual integral against a measure does not exist. This is what BV formalism achieves, which we discuss after some preliminaries below in _[Integration over manifolds by BV cohomology](#IntegrationOverManifoldsByBVCohomology)_.
 
 #### Multivector fields dual to differential forms
  {#MultivectorFieldsDualToDifferentialForms}
