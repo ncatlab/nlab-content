@@ -20,10 +20,13 @@
 
 What has come to be called _nonabelian T-duality_ ([Ossa-Quevedo 92](#OssaQuevedo92)) _Poisson-Lie T-Duality_ (due to [Klimcik-Ševera 95](#KlimcikSevera95), [von Unge 02](#vonUnge02)) is a generalization of [[T-duality]] from [[fiber bundles]] equipped with an [[abelian group]] of [[isometries]] ([[torus]] [[bundles]]) to those with a [[nonabelian group]] of isometries.
 
-It has been proven that these generalized T-dualities are are/induce equivalences of the corresponding [[string]] [[sigma-models]] at the level of [[classical field theory]]. However it seems to be open, and in fact questionable, that away from standard [[T-duality]] this yields an equivalence at the level of [[worldsheet]] [[quantum field theories]], hence it is open whether Poisson-Lie/non-abelian T-duality is really a duality operation on [[perturbative string theory vacua]].
-
-
 Poisson-Lie T-duality may also be made manifest at the level of [[type II supergravity ]] in the framework of [[double field theory]] on [[Lie group|group manifolds]]. Using this framework both the NS/NS sector and the R/R sector are captured, and this allows to derive the transformation of the [[RR fields]] for full Poisson-Lie T-duality ([Hassler 17](#Hassler17)).
+
+## As a partial duality of string theory
+
+While ordinary abelian [[T-duality]] is supposedly a full [[duality in string theory]], in particular in that it is an equivalence on the [[string perturbation series]] to all orders of the squared [[string length]]/[[Regge slope]] $\alpha'$ and the string [[coupling constant]] $g_s$, it has apparntly been shown by [[Martin Roček]] (citation?) that there are topological [[obstructions]] at higher [[genus of a surface|genus]] for non-abelian T-duality, letting it break down in higher orders of $g_s$; and already a genus-0 ([[tree level]]) it apparently breaks down for the [[open string]] (i.e. on punctured [[disks]]) at some order of $\alpha'$. 
+
+
 
 
 
