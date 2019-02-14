@@ -109,7 +109,7 @@ We write $\Gamma \vdash A : \mathrm{true}$ for the judgement that $A$ is [[inhab
 $$\frac{\Gamma \vdash A : \mathrm{true} ; \Delta \vdash B : \mathrm{true}}{\Gamma, \Delta \vdash A \times B : \mathrm{true}}$$
 * Conjunction elimination:
 $$\begin{aligned}
-\frac{\Gamma \vdash A \times B : \mathrm{true}}{\Gamma \vdash A : \mathrm{true}} &
+\frac{\Gamma \vdash A \times B : \mathrm{true}}{\Gamma \vdash A : \mathrm{true}} \,\, &
 \frac{\Gamma \vdash A \times B : \mathrm{true}}{\Gamma \vdash B : \mathrm{true}} 
 \end{aligned}$$
 * [[truth|Truth]] introduction
@@ -124,7 +124,7 @@ $$\frac{\Gamma, X : \mathrm{true} \vdash A : \mathrm{true}}{\Gamma \vdash X \to 
 $$\frac{\Gamma \vdash X \to A : \mathrm{true} ; \Delta \vdash X : \mathrm{true}}{\Gamma, \Delta \vdash A : \mathrm{true}}$$
 * [[disjunction|Disjunction]] introduction:
 $$\begin{aligned}
-\frac{\Gamma \vdash A : \mathrm{true}}{\Gamma \vdash A + B : \mathrm{true}} &
+\frac{\Gamma \vdash A : \mathrm{true}}{\Gamma \vdash A + B : \mathrm{true}} \,\, &
 \frac{\Gamma \vdash B : \mathrm{true}}{\Gamma \vdash A + B : \mathrm{true}}
 \end{aligned}$$
 * Disjunction elimination:
