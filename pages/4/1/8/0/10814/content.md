@@ -28,7 +28,7 @@ The term _double field theory_ has come to be used for [[field theory]] ([[prequ
 
 ## T-duality-covariant formalism 
 ### Para-hermitian geometry
-The use of para-hermitian geometry in Double Field Theory was introduced by Izu Vaisman in ([I.Vaisman 2012](#Vaisman)), then by David Svoboda.
+The use of para-hermitian geometry in Double Field Theory was introduced by Izu Vaisman in ([I.Vaisman 2012](#Vaisman)), then by David Svoboda ([D.Svoboda 2018](#Svoboda)).
 
 \begin{defn} An _almost para-complex manifold_ is a [[manifold]] $M$ equipped with a vector bundle endomorphism $F\in\mathrm{End}(T M)$ such that $F^2=1$ and its $\pm 1$ eigenbundles $T^\pm M$ have same rank. \end{defn}
 
@@ -183,7 +183,10 @@ Discussion of an extended version of Riemannian geometry suitable for the descri
 
 * [[Andreas Deser]], [[Christian Saemann]], _Extended Riemannian Geometry I: Local Double Field Theory_, ([arXiv:1611.02772](https://arxiv.org/abs/1611.02772))
 
-Discussion about para-hermitian formalism started in
+Discussion about para-Hermitian formalism started in
 
 * {#Vaisman} Izu Vaisman, _On the geometry of double field theory_ Journal of Mathematical Physics 53, 033509 (2012)  ([arXiv:1203.0836](https://arxiv.org/abs/1203.0836v1))
 
+Para-Hermitian formalism further developed and generalized in
+
+* {#Svoboda} David Svoboda, _Algebroid structures on para-Hermitian manifolds_ Journal of Mathematical Physics 59, 122302 (2018)  ([arxiv:1802.08180](https://arxiv.org/abs/1802.08180))
