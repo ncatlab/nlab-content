@@ -276,6 +276,8 @@ Examples of cofibrant objects in the projective model structure are discussed at
 
 * [[Reedy model structure]], [[generalized Reedy model structure]],
 
+* [[model structure on sections]]
+
 * [[lim^1 and Milnor sequences]]
 
 * [[model structure on homotopical presheaves]], [[model structure on simplicial presheaves]]
