@@ -68,7 +68,7 @@ Closed string field theory is governed by an [[L-infinity algebra]] of interacti
 
 (...)
 
-## Bosononic closed string field theory
+## Bosonic closed string field theory
 
 So far string field theory is defined in terms of an [[action functional]]. So, strictly speaking, it is defined as a [[classical field theory]]. The corresponding [[BV-BRST formalism|quantum master action]] is known, but apart from that not much detail about the [[quantization]] of this action has been considered in the literature.
 
