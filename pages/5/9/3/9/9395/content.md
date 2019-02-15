@@ -97,17 +97,7 @@ $$
 
 ## Properties
 
-+-- {: .num_theorem}
-###### Theorem 
-**(Sugawara)**
-
-If $(X, f \colon X \times X \to X)$ is an [[H-space]], then the Hopf construction $H_f$, def. \ref{HopfConstruction}, is a [[quasifibration]].
-
-
-=--
-
-(e.g. [Stasheff 70, theorem 1.2](#Stasheff70))
-
+### Relation to Hopf invariant
 
 Consider $X = S^{n-1}$ a [[sphere]]
 
@@ -136,6 +126,15 @@ $$
 =--
 
 ([Mosher-Tangora, exercises to section 4, page 38](#MosherTangora))
+
+
+### Realization as a quasi-fibration
+ {#RealizationAsAQuasiFibration}
+
+Beware that [Stasheff 70, theorem 1.2](#Stasheff70) claims that Sugawara claimed that the Hopf construction for any [[CW-complex|CW]] H-space is necessarily a [[quasifibration]]. But it seems ([here](https://nforum.ncatlab.org/discussion/3391/hopf-fibration/?Focus=75986#Comment_75986)) that Sugawara never actually claimed this and also ([here](https://nforum.ncatlab.org/discussion/3391/hopf-fibration/?Focus=75985#Comment_75985)) that it is not actually the case.
+
+A different but homotopy-equivalent realization of the Hopf construction, which over grouplike H-spaces is guaranteed to be a [[quasifibration]], is maybe given in [Dold-Lashof 59](#DoldLashof59), see also [Stasheff 70, theorem 1.4](#Stasheff70).
+
 
 ## Examples
 
@@ -281,6 +280,8 @@ The original sources are
 * {#Hopf35} [[Heinz Hopf]], _&#220;ber die Abbildungen von Sph&#228;ren auf Sph&#228;ren niedrigerer Dimension_, Fund. Math. 25: 427&#8211;440 (1935) ([Euclid](https://eudml.org/doc/212801))
 
 * [[George Whitehead]], _On the homotopy groups of spheres and rotation groups_, Annals of Mathematics. Second Series 43 (4): 634&#8211;640, (1942) ([JSTOR](http://www.jstor.org/stable/1968956))
+
+* {#DoldLashof59} [[Albrecht Dold]], [[Richard Lashof]], _Principal quasifibrations and fibre homotopy equivalence of bundles_, Illinois J. Math. Volume 3, Issue 2 (1959), 285-305 ([euclid:1255455128](https://projecteuclid.org/euclid.ijm/1255455128))
 
 Review inclides
 
