@@ -416,6 +416,13 @@ Many model structures, including those for complete Segal spaces, simplicial pre
 
 and applying a general technique called [[Bousfield localization]] which forces a certain class of morphisms to become weak equivalences.  It can also be thought of as forcing a certain class of objects to become fibrant.
 
+### Limit and colimit model structures
+
+Model structures can be induced on certain (usually [[lax limit|lax]]) limits and colimits of diagrams of model categories.
+
+* [[Grothendieck construction for model categories]] (lax colimits)
+* [[model structure on sections]] (lax limit)
+
 ## Related concepts
 
 * [[synthetic homotopy theory]]
