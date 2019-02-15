@@ -32,8 +32,7 @@ The CCHM model validates both [[univalence]] and can be used to model a variety 
 One thing to be cautious about is that while it is possible to model the Martin-L&#246;f [[identity type]] in both the BCH model and the CCHM model, it does not coincide with the paths in the model. But it is equivalent to the path types.
 
 ## Models
-Cubical type theory can be modeled in a number of varieties of [[cubical sets]]. One may wonder whether these models are equivalent to the model in [[simplicial sets]].
-This is not the case for Cartisian cubes; see [mailing-list](https://groups.google.com/d/msg/homotopytypetheory/RQkLWZ_83kQ/tAyb3zYTBQAJ). However, this model does form a Grothendieck [[(infinity,1)-topos]], because it satisfies the Giraud axioms. The question for Dedekind cubical sets appears to still be open.
+Cubical type theory can be modeled in a number of varieties of [[cubical sets]], for example in a [[type-theoretic model structure]].
 
 ## References
 
