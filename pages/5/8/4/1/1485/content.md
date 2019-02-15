@@ -51,21 +51,20 @@ The setting is a [[topological space]] $X$ together with a [[pseudogroup]] $G$ o
 +-- {: .num_defn #Chart}
 ###### Definition
 
-A $G$-**[[chart]]** on a [[topological space]] $M$ is an [[open subset]] $U$ of $M$ together with an open embedding
+A **[[chart]]** on a [[topological space]] $M$ is an [[open subset]] $U$ of $M$ together with an open embedding
 $$
   \phi: U \to X\,.
 $$
 
-Two charts $\phi: U \to X$ and $\psi: V \to X$ are **compatible** if
+Two charts $\phi: U \to X$ and $\psi: V \to X$ are  $G$-**compatible** if
 $$\psi \circ \phi^{-1}: \phi(U \cap V) \to \psi(U \cap V)$$
 belongs to $G$. 
 =--
-Note that the definition of a chart _per se_ does not involve $G$. The pseudogroup is involved only when we have to decide whether two charts are compatible.
 
 +-- {: .num_defn #Atlas}
 ###### Definition
 
-A $G$-**atlas** on a [[topological space]] $M$ is a family of compatible charts $(\phi_\alpha: U_\alpha \to X)_\alpha$, def. \ref{Chart}, such that $(U_\alpha)_\alpha$ covers $M$.  The (restricted) maps $\phi_{\alpha \beta} = \phi_\beta \circ \phi_{\alpha}^{-1}$ are called **transition functions** between the charts of the atlas.
+A $G$-**atlas** on a [[topological space]] $M$ is a family of  $G$-compatible charts $(\phi_\alpha: U_\alpha \to X)_\alpha$, def. \ref{Chart}, such that $(U_\alpha)_\alpha$ covers $M$.  The (restricted) maps $\phi_{\alpha \beta} = \phi_\beta \circ \phi_{\alpha}^{-1}$ are called **transition functions** between the charts of the atlas.
 
 =--
 
