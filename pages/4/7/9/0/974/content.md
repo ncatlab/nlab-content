@@ -417,6 +417,7 @@ See also section A.1.1 of
 where locally presentable categories are called just [[presentable category|presentable categories]].
 
 
+[[!redirects locally presentable]]
 [[!redirects locally presentable category]]
 [[!redirects locally presentable categories]]
 [[!redirects presentable category]]
