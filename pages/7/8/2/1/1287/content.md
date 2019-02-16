@@ -219,8 +219,7 @@ A blog exposition of some aspects of linear local system is developed here:
 
 A clear-sighted description of locally constant $(n-1)$-stacks / $n$-local systems as sections of constant $n$-stacks is in
 
-* [[Pietro Polesello]], [[Ingo Waschkies]], Higher monodromy, Homology, Homotopy and Applications, Vol. 7(2005), No. 1, pp. 109-150;
-[arXiv:0407507](http://arxiv.org/abs/math/0407507)
+* [[Pietro Polesello]], [[Ingo Waschkies]], Higher monodromy, Homology, Homotopy and Applications, Vol. 7(2005), No. 1, pp. 109-150;[arXiv:0407507](http://arxiv.org/abs/math/0407507)
 
 for [[locally constant stack]]s on [[topological space]]s. The above formulation is pretty much the evident generalization of this to general [[(∞,1)-topos]]es.
 
