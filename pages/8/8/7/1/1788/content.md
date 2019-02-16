@@ -64,3 +64,5 @@ A \ar@/^2.0pc/[r] \ar@/_2.0pc/[r] & B
 
     \end{tikzpicture}
     </nowiki>
+
+[[cellular model]]
