@@ -40,8 +40,23 @@ The current model assumes that the energy density of the [[observable universe]]
 
 ## Properties
 
-### Vacuum energy and Cosmological constant
+### Structure formation
 
+Computer simulation of [[cosmic structure formation]] on scales larger than that of [[galaxies]] had always shown very good agreement of the $\Lambda CDM$ [[standard model of cosmology]] and observation.
+
+There used to be various discrepancies of [[cold dark matter]]-[[model (in theoretical physics)|models]] on the scale of [[galaxies]]
+
+  * [core-cusp behaviour](dark+matter#CuspCoreProblem).
+
+  * [[galaxy rotation curves]]
+
+  * [[Tully-Fisher relation]]
+
+But recent analysis seems to show that more fine-grained analysis shows that [[cold dark matter]]-[[model (in theoretical physics)|models]] match all of these observations well. See behind the above links for more.
+
+
+
+### Vacuum energy and Cosmological constant
 
 The [[renormalization]] freedom in [[perturbative QFT|perturbative]] [[quantization]] of [[gravity]] ([[perturbative quantum gravity]]) induces freedom in the choice of [[vacuum expectation value]] of the [[stress-energy tensor]] and hence in the [[cosmological constant]]. 
 
