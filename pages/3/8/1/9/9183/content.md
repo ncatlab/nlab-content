@@ -33,7 +33,7 @@ Any further details about the nature of this hypothetical dark matter remain elu
 
 ## Properties
 
-### Cusp-core problem
+### Cusp-core behaviour
  {#CuspCoreProblem}
 
 Early numerical simulation of dark matter exhibited dark matter halos around galaxies with a sharp density maximum at the center of the galaxy -- called a "cusp" in the density profile -- while observation on actual galaxies tends to favour a noticeably smoother density distribution at the center -- called a "core" of the density profile.
@@ -54,6 +54,33 @@ From [[Justin Read]] [22 Aug 2018](https://twitter.com/ReadDark/status/103217657
 > This bursty star formation occurs due to repeated cycles of gas inflow and outflow. These cause the inner gravitational potential of the dwarf galaxy to fluctuate, kinematically "heating up" the dark matter and lowering its inner density ([Pontzen-Governato 14](#PontzenGovernato14)).
 
 >  A key prediction of such models is that, at a fixed dark matter halo mass, more star formation leads to more dark matter "heating" and, therefore, a lower inner dark matter density, at least in dwarf galaxies. This is the prediction we set out to test in [Read-Walker-Steger 18](#ReadWalkerSteger18). 
+
+
+<br/>
+
+### Galactic rotation curves and Tully-Fisher relation
+ {#GalacticRotationCurves}
+
+Computer simulation ([FIRE](https://fire.northwestern.edu)) of [[galaxy|galactic]] [[structure formation]] using the [[standard model of cosmology|standard]] [[cold dark matter]] [[model (physics)|model]] qualitatively reproduces the peculiar [[galactic rotation curves]] that motivated dark matter (or [[MOND]], for that matter) in the first place ([Hopkins et al. 17, Figure 4, Figure 5](#Hopkins17)):
+
+
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/FIRE2GalacticRotationCurves.jpg" width="800">
+\end{center}
+
+> graphics grabbed from ([Hopkins et al. 17](#Hopkins17))
+
+and also reproduces well the baryonic [[Tully-Fisher relation]] ([El-Badry et al. 18, Figure 4](#ElBadry18)) which used to be an issue in the [[standard model of cosmology|standard]] [[cold dark matter]] [[model (physics)|model]]:
+
+
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/FIRE2TullyFisher.jpg" width="500">
+\end{center}
+
+> graphics grabbed from ([El-Badry et al. 18](#ElBadry18))
+
+<br/>
+
 
 ## Related concepts
 
@@ -129,6 +156,18 @@ See also
 * Wikipedia, _[Cuspy halo problem](https://en.wikipedia.org/wiki/Cuspy_halo_problem)_
 
 
+### Computer simulation
+
+DIscussion of computer simulation of [[dark matter]] [[structure formation]]
+
+on [[galaxy]]-scales:
+
+* {#Hopkins17} Hopkins et al. _FIRE-2 Simulations: Physics versus Numerics in Galaxy Formation_. Monthly Notices of the Royal Astronomical Society, Volume 480, Issue 1, 11 October 2018, Pages 800–863 ([arXiv:1702.06148](https://arxiv.org/abs/1702.06148), [doi:10.1093/mnras/sty1690](https://doi.org/10.1093/mnras/sty1690))
+
+* {#ElBadry18} El-Badry et al. _Gas Kinematics in FIRE Simulated Galaxies Compared to Spatially Unresolved HI Observations_, Monthly Notices of the Royal Astronomical Society, Volume 477, Issue 2, 21 June 2018, Pages 1536–1548 ([arXiv:1801.03933](https://arxiv.org/abs/1801.03933), [doi:10.1093/mnras/sty730](https://doi.org/10.1093/mnras/sty730))
+
+
+
 
 ### Axions
 
@@ -157,7 +196,7 @@ with review in
 
 * {#EllisOlive10} [[John Ellis]], [[Keith Olive]], _Supersymmetric Dark Matter Candidates_ ([arXiv:1001.3651](http://arxiv.org/abs/1001.3651))
 
-### FLavour anomalies
+### Flavour anomalies
 
 Attempts to link dark matter to the apparently observed [[flavour anomalies]]:
 
@@ -165,7 +204,7 @@ Attempts to link dark matter to the apparently observed [[flavour anomalies]]:
 
 * {#CCMRM19} D.G. Cerdeno, A. Cheek, P. Martin-Ramiro, J.M. Moreno, _B anomalies and dark matter: a complex connection_ ([arXiv:1902.01789](https://arxiv.org/abs/1902.01789))
 
-
+[[!redirects cold dark matter]]
 
 [[!redirects WIMP]]
 [[!redirects WIMPs]]
