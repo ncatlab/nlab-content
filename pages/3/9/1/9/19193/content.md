@@ -109,6 +109,8 @@ Increasing the predictive power of galaxy formation simulations
 
   * [visualization](https://fire.northwestern.edu/visualizations/)
 
+* {#Fitts16} Fitts et al. _FIRE in the Field: Simulating the Threshold of Galaxy Formation_, Mon.Not.Roy.Astron.Soc.471:3547-3562, 2017 ([arXiv:1611.02281](https://arxiv.org/abs/1611.02281))
+
 * {#Hopkins17} Hopkins et al. _FIRE-2 Simulations: Physics versus Numerics in Galaxy Formation_. Monthly Notices of the Royal Astronomical Society, Volume 480, Issue 1, 11 October 2018, Pages 800–863 ([arXiv:1702.06148](https://arxiv.org/abs/1702.06148), [doi:10.1093/mnras/sty1690](https://doi.org/10.1093/mnras/sty1690))
 
 * {#ElBadry18} El-Badry et al. _Gas Kinematics in FIRE Simulated Galaxies Compared to Spatially Unresolved HI Observations_, Monthly Notices of the Royal Astronomical Society, Volume 477, Issue 2, 21 June 2018, Pages 1536–1548 ([arXiv:1801.03933](https://arxiv.org/abs/1801.03933), [doi:10.1093/mnras/sty730](https://doi.org/10.1093/mnras/sty730))
