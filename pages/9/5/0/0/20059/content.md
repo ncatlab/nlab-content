@@ -8,7 +8,7 @@
 =--
 =--
 
-# Type-theoretic model structure
+# Cubical-type model categories
 
 * table of contents
 {: toc}
@@ -72,3 +72,4 @@ The question whether the geometric realization for the cubical sets based on dis
 [[!redirects type-theoretic model structures]]
 [[!redirects type theoretic model structures]]
 [[!redirects type theoretic model structure]]
+[[!redirects type-theoretic model structure]]
