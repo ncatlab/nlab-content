@@ -630,8 +630,11 @@ A **homotopical structure** on $PSh(A)$ is a choice of elementary homotopical da
 
 ([Cisinski 06, def. 1.3.14](#Cisinski06)).
 
+\begin{defn} \label{DefinitionHomotopicalDatum} A _homotopical datum_, or _donnée homotopique_, on $PSh(A)$ is a choice of elementary homotopical datum (Definition \ref{ElementaryHomotopicalDatum}) together with a set of [[monomorphisms]] in $PSh(A)$. \end{defn}
 
+([Cisinski 06, def. 1.3.14](#Cisinski06)).
 
+\begin{rmk} A homotopical datum $(J, S)$ _generates_ a homotopical structure for which $AnExt$ is the smallest class of anodyne extensions relative to $J$ which contains $S$. \end{rmk}
 
 ### The model structure
 
@@ -1489,10 +1492,7 @@ If $\Lambda$ is a small set generating the anodyne extensions, $AnExt = LLP(RLP(
 
 ([Cisinski 06, prop. 1.4.2](#Cisinski06)))
 
-+-- {: .num_theorem}
-###### Theorem
-
-Let $W \subset Mor(PSh(A))$. The following are equivalent.
+\begin{thm} \label{TheoremCharacterisationOfAccessibleLocalisersForPresheafCategories} Let $W \subset Mor(PSh(A))$. The following are equivalent.
 
 1. $W$ is an accessible $A$-localizer, def. \ref{ALocalizer};
 
@@ -1504,9 +1504,9 @@ Let $W \subset Mor(PSh(A))$. The following are equivalent.
 
 In particular, $PSh(A)$ admits a model structure whose cofibrations are the monomorphisms and whose weak equivalences are the minimal localizer, $W(\emptyset)$. This is called the **minimal model structure** on $PSh(A)$. It is generated from the homotopical datum given by the Lawvere cylinder, example \ref{LawvereCylinder} and the empty set.
 
-=--
+\end{thm}
 
-([Cisinski 06, theorem 1.4.3](#Cisinski06)))
+([Cisinski 06, theorem 1.4.3](#Cisinski06))
 
 +-- {: .num_remark}
 ###### Remark
@@ -1551,6 +1551,8 @@ See ([Ara, p. 9](#Ara)).
 
 * The [[model structure on dendroidal sets]] is not exactly a Cisinki model structure, but is [[transferred model structure|transferred]] from one that is.
 
+* For any small category $A$, the homotopical datum (Definition \ref{DefinitionHomotopicalDatum}) given by the $(J, \emptyset)$, where $J$ is the Lawvere cylinder (Definition \ref{LawvereCylinder}), generates a Cisinki model structure on the category of presheaves on $A$. This is sometimes known as the [[minimal Cisinski model structure]]. See also Theorem \ref{TheoremCharacterisationOfAccessibleLocalisersForPresheafCategories}.
+
 ## Properties
 
 ### Properness
@@ -1573,7 +1575,7 @@ The original articles are
 * [[Denis-Charles Cisinski]] , _Th&#233;ories homotopiques dans les topos_, JPAA, Volume 174 (2002), p.43-82
  {#Cisinski02}
 
-* [[Denis-Charles Cisinski]], _[[joyalscatlab:Les préfaisceaux comme modèles des types d'homotopie]]_, Ast&#233;risque, Volume 308, Soc. Math. France (2006), 392 pages ([pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf))
+* [[Denis-Charles Cisinski]], _[[joyalscatlab:Les préfaisceaux comme types d'homotopie|Les préfaisceaux comme modèles des types d'homotopie]]_, Ast&#233;risque, Volume 308, Soc. Math. France (2006), 392 pages ([pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf))
  {#Cisinski06}
 
 Further developments are in
