@@ -419,7 +419,7 @@ $$
   f : Y \to X
 $$
 
-a morphism in $C$ (really: $U(X) \to Y$). Then there is an algebraic fibrant object $X^f_\infty$ and a morphism $X \to X^f_\infty$ such that the composite 
+a morphism in $C$ (really: $U(Y) \to X$). Then there is an algebraic fibrant object $X^f_\infty$ and a morphism $X \to X^f_\infty$ such that the composite 
 
 $$
   Y\to X \to X^f_{\infty}
@@ -462,7 +462,7 @@ $$
   }
 $$
 
-for each distinguished filler $\hat k$. But since the composite may factor through $Y$ in many ways, this will not give a unique notion of filler. Therefore we shall iteratetively form colimits that equate these potentially different fillers.
+for each distinguished filler $\hat k$. But since the composite may factor through $Y$ in many ways, this will not give a unique notion of filler. Therefore we shall iteratively form colimits that equate these potentially different fillers.
 
 +-- {: .proof}
 ###### Proof
