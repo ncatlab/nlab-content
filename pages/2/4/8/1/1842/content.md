@@ -1,9 +1,6 @@
-<div class="rightHandSide toc">
-[[!include cohomology - contents]]
-</div>
 
 
-Integral cohomology or "ordinary cohomology" is the ordinary version of [[generalized (Eilenberg-Steenrod) cohomology]], the one that is represented by the [[Eilenberg-MacLane spectrum]].
+Integral cohomology or "[[ordinary cohomology]]" (see there) is the ordinary version of [[generalized (Eilenberg-Steenrod) cohomology]], the one that is represented by the [[Eilenberg-MacLane spectrum]].
 
 Integral cohomology is best known maybe in its incarnation as [[singular cohomology]] or [[Čech cohomology]] with coefficients in the integers.
 
