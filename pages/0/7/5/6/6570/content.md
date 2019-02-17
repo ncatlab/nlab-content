@@ -41,6 +41,8 @@ Of $n = 3$ (and only then) can we identify [[bivector]]s with plain [[vector]]s 
 
   * [[moment of inertia]]
 
+* [[galaxy rotation curve]]
+
 ## References
 
 Standard discussion of angular velocity in $d \leq 3$ is for instance in
