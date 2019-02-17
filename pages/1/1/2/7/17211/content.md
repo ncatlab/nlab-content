@@ -395,7 +395,9 @@ But by the [[Adem relation]] $Sq^3 = Sq^1 \circ Sq^2$, the vanishing of $Sq_2$ o
 
 =--
 
+## Related concepts
 
+* [[Hopf degree theorem]]
 
 
 ## References
