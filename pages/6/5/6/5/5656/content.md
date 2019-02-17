@@ -25,6 +25,18 @@ This is to distinguish from more general notions of [[cohomology]], such as [[ge
 
 Ordinary cohomology is modeled by [[singular cohomology]].
 
+### General
+
+* [[universal coefficient theorem]]
+
+* [[Künneth theorem]]
+
+* [[Hopf degree theorem]]
+
+* [[Hurewicz theorem]], [[Boardman homomorphism]]
+
+* [[Eilenberg-Zilber theorem]]
+
 ### Chromatic level
 
 [[!include chromatic tower examples - table]]
