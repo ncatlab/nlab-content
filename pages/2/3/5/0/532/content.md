@@ -30,6 +30,7 @@ In the first, if we are given a $(n,i)$-[[horn]], then there is _exactly one_ $n
 
 Abstracting, in part, from this idea, Brown and Higgins developed the idea of a [[cubical T-complex]]. This was a [[cubical set|cubical set]] with in each dimension $n$,  a subset of the $n$-[[cube]]s being declared _'thin'_. The term was adopted to indicate that they, somehow, were of lower dimension than they looked to be.  The theory was initiated in a simplicial context in the 1977 Bangor thesis of Keith Dakin listed below, and used by Brown and Higgins who showed that cubical $T$-complexes were equivalent to  [[crossed complex|crossed complexes]].  The corresponding simplicial $T$-complex theory was further developed in the 1978  Bangor thesis of  Nick Ashley, (see below for publication).
 
+##SImplicial $T$-complex: the definition
 
 +--{: .un_defn}
 ######Definition######
@@ -47,8 +48,14 @@ thin structure satisfies the following axioms:
 ######Examples######
 1. A closely related idea is that of  [[group T-complex]]. Group $T$-complexes form a category equivalent to reduced [[crossed complex]]es.  Any group $T$-complex has an underlying simplicial set, which is a simplicial $T$-complex.
 
-1. The nerve of a [[crossed complex]] has a natural T-complex structure.
+1. The nerve of a [[crossed complex]] has a natural T-complex structure. In a bit more detail, if $\mathsf{C}$ is a crossed complex, its nerve is given by $Ner(\mathsf{C})_n = Crs(\pi(n),\mathsf{C})$, where $\pi(n)$ is the free crossed complex on the $n$-simplex, $\Delta[n]$. This singular complex description shows that if we have an $n$-simplex $f : \pi(n) \to \mathsf{C}$, and declare it to be \emph{thin} if the image $f(\iota_n)$ of the top dimensional generator in $\pi(n)$ is trivial, then the resulting collection of thin simplices determines  a $T$- complex structure on the nerve.
 =--
+
+### Results
+
+* Simplical $T$-complexes together with maps between them which preserve 'thinness' form a category that is equivalent to that of [[crossed complexes]] and thus to strict $\infty$-groupoids. The uniqueness of the thin filler is exactly what gives a definite composition in the model. 
+
+
 
 ## Related concepts
 
@@ -57,6 +64,8 @@ thin structure satisfies the following axioms:
   * **simplicial $T$-complex**
 
   * [[cubical T-complex]]
+
+  * [[group T-complex]]
 
 * [[algebraic Kan complex]]
 
