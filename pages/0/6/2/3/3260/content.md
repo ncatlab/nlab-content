@@ -318,6 +318,12 @@ This way the above theorem provides a model for $G$-equivariant refinements of [
 ## Properties
  {#Properties}
 
+
+### Equivariant Hopf degree theorem
+
+* [equivariant Hopf degree theorem](Hopf+degree+theorem#InEquivariantHomotopyTheory)
+
+
 ### $(\infty,1)$-topos
 
 By [[Elmendorf's theorem]] the $G$-[[equivariant homotopy theory]] is an [[(∞,1)-topos]].
