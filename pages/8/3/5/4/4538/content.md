@@ -743,7 +743,11 @@ $$
 
 * [[Künneth theorem]]
 
+* [[Eilenberg-Zilber theorem]]
+
 * [[bootstrap category]]
+
+
 
 ## References
 
