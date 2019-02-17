@@ -112,6 +112,8 @@ With the [[universal coefficient theorem]] a corresponding statement follows for
 
 * [[Boardman homomorphism]]
 
+* [[Hopf degree theorem]]
+
 * The _[[Adams spectral sequence]]_ is a vast generalization of the computation of [[homotopy groups]] from [[cohomology groups]] via the Hurewicz theorem.
 
 
