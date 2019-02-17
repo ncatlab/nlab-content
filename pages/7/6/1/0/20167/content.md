@@ -51,12 +51,21 @@ We need the following list of ingredients and assumptions:
 
 Let $G$ be a [[finite group]]. For $H \subset G$ a [[subgroup]], write $W_G H \coloneqq (N_G H) / H $ for its [Weyl group](Weyl+group#in_equivariant_homotopy_theory).
 
+For $X$ a [[G-space]], we write 
+
+$$
+  Iso_X(G) \subset Sub(G)
+$$
+
+for the [[subset]] of the [[subgroup lattice]] on the [[isotropy groups]] of $X$, hence those [[subgroups]] which appear as [[stabilizer subgroups]] $Stab_G(x)$ of some point $x \in X$. This means that if $H_1, H_2 \in Iso_X(G)$ and $H_1 \lt H_2$ is a strict inclusion, then the [[fixed loci]] differ $X^{H_1} \gt X^{H_2}$.
+
+
 
 Let 
 
 1. $X$ be a [[G-CW complex]]
 
-   such that for all [[subgroups]] $H \subset G$
+   such that for all [[stabilizer subgroups]] $H \in Iso_X(G)$
 
    1. the [[fixed point space]] $X^H$ is a $W_G H = (N_G H) / H $-complex, 
 
@@ -82,7 +91,7 @@ Let
 
 1. $Y$ be a [[G-space]]
 
-   such that for all [[subgroups]] $H \subset G$
+   such that for all [[stabilizer subgroups]] $H \in Iso_X(G)$
 
    1. $Y^H$ is $dim(X^H)$-[[n-connected topological space|connected]];
 
@@ -107,12 +116,12 @@ $$
   \overset{
     \phantom{AAAA}
   }{\hookrightarrow}
-  \mathbb{Z}^{ Sub(G) }
+  \mathbb{Z}^{ Iso_X(G) }
 $$
 
-(from $G$-[[equivariant homotopy theory|equivariant]] [[homotopy classes]] to [[tuples]] of degrees labeled by [[subgroups]]) is an [[injective function|injection]].
+(from $G$-[[equivariant homotopy theory|equivariant]] [[homotopy classes]] to [[tuples]] of degrees labeled by [[isotropy groups]]) is an [[injective function|injection]].
 
-Moreover, for each $[f] \in \pi_0 \mathrm{Maps}\big( X,Y \big)^G$ and for each $H \subset G$ 
+Moreover, for each $[f] \in \pi_0 \mathrm{Maps}\big( X,Y \big)^G$ and for each $H \in Isotropy_X(G)$ 
 
 1. the $H$-degree modulo the [[order of a group|order]] of the [[Weyl group]]
 
@@ -153,7 +162,7 @@ Review:
 
 Generalization to [[equivariant cohomotopy]] and [[equivariant cohomology]]
 
-* {#tomDieck79} [[Tammo tom Dieck]], section 8.4 _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics 766 Springer 1979
+* {#tomDieck79} [[Tammo tom Dieck]], section 8.4 of _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics 766 Springer 1979
 
 
 [[!redirects Hopf theorem]]
