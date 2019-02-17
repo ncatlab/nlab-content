@@ -33,6 +33,8 @@ Chapter 7: Equivariant homology and cohomolgy
 
 * [[equivariant homotopy theory]]
 
+* [[equivariant Hopf degree theorem]]
+
 * [[equivariant stable cohomotopy]]
 
 * [[Burnside ring is equivariant stable cohomotopy of the point]]
