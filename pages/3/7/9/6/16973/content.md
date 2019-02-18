@@ -48,6 +48,8 @@ $$
 
 on the [[real numbers]]. 
 
+This may also be understood as the [[Spin(2)]]-[[double cover]] of [[SO(2)]].
+
 ## Realizations
 
 Here are different but equivalent ways of realizing this explicitly:
