@@ -49,5 +49,10 @@ $$
 
 This also makes it clear that for $G$ a [[Lie group]], $S^V$ is represented by a [[smooth manifold]] with smooth $G$-[[action]].
 
+## References
+
+* {#Blumberg17} [[Andrew Blumberg]], Example 1.1.5 of _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
+
+
 [[!redirects representation spheres]]
 
