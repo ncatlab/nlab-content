@@ -49,13 +49,22 @@ The following Prop. \ref{EquivariantHopfDegreeTheorem} is a generalization of th
 
 We need the following list of ingredients and assumptions:
 
-Let $G$ be a [[finite group]]. For $H \subset G$ a [[subgroup]], write $W_G H \coloneqq (N_G H) / H $ for its [Weyl group](Weyl+group#in_equivariant_homotopy_theory).
+Let $G$ be a [[finite group]]. For $H \subset G$ a [[subgroup]], write 
+
+\[
+  \label{WeylGroup}
+  W_G H \coloneqq (N_G H) / H 
+\] 
+
+
+for its [Weyl group](Weyl+group#in_equivariant_homotopy_theory).
 
 For $X$ a [[G-space]], we write 
 
-$$
+\[
+  \label{IsotropySubgroups}
   Iso_X(G) \subset Sub(G)
-$$
+\]
 
 for the [[subset]] of the [[subgroup lattice]] on the [[isotropy groups]] of $X$, hence those [[subgroups]] which appear as [[stabilizer subgroups]] $Stab_G(x)$ of some point $x \in X$. This means that if $H_1, H_2 \in Iso_X(G)$ and $H_1 \lt H_2$ is a strict inclusion, then the [[fixed loci]] differ $X^{H_1} \gt X^{H_2}$.
 
@@ -151,11 +160,11 @@ Moreover, for each $[f] \in \pi_0 \mathrm{Maps}\big( X,Y \big)^G$ and for each $
 
   Let $G \in \mathrm{Grp}_{\mathrm{fin}}$
   and $V \in \mathrm{RO}(G)$ with $V^G = 0$.
-  Then the bipointed equivariant (co)homotopy 
-  of the representation sphere $S^V$ 
-  in $\mathrm{RO}(G)$-degree $V$ is
-  the Cartesian product of one copy of the integers for
-  each isotropy subgroup of $G$ in $S^V$
+  Then the bipointed [[equivariant cohomotopy]] 
+  of the [[representation sphere]] $S^V$ 
+  in [[RO(G)-degree]] $V$ is
+  the [[Cartesian product]] of one copy of the [[integers]] for
+  each [[isotropy group|isotropy]] subgroup (eq:IsotropySubgroups) of $G$ in $S^V$
   except the full subgroup $G \subset G$
 
 $$
@@ -210,21 +219,34 @@ $$
     \Big)
     \in \mathbb{Z}
   $$
-  is the integer winding number of the underlying continuous function
-  of $c$ (co)restricted to $H$-fixed points, and part of the claim is 
-  that this is an integer multiple of the order of the Weyl group
-  $W_G(H)$ up to an offset
-  $$
-    \mathrm{offs}(f,H) 
-    \;\in\; 
-    \big\{
-      0,1, \cdots,  \left\vert W_G(H)\right\vert
-    \big\}
-    \;\subset\;
-    \mathbb{Z}
-  $$
-  which depends in a definite way on the degrees of $c^K$ for 
-  all isotropy groups $K \gt H$.
+  is the [[integer]] [[winding number]] of the underlying [[continuous function]]
+  of $c$ ([[corestriction|co]])[[restriction|restricted]] to $H$-[[fixed points]], and part of the claim is  that this is an integer multiple of the order of the [[Weyl group]] $W_G(H)$ (eq:WeylGroup) up to an offset
+
+$$
+  \mathrm{offs}(f,H) 
+  \;\in\; 
+  \big\{
+    0,1, \cdots,  \left\vert W_G(H)\right\vert
+  \big\}
+  \;\subset\;
+  \mathbb{Z}
+$$
+
+which depends in a definite way on the degrees of $c^K$ for  all isotropy groups $K \gt H$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+  This follows as a special case of the equivariant Hopf degree theorem 
+  (Prop. \ref{EquivariantHopfDegreeTheorem}). 
+
+  The list of assumptions there is satisfied because [[representation spheres]] are [[G-CW-complexes]], and because we are now mapping from the representation sphere to itself, $S^V \to S^V$, which makes all the assumptions on dimensions and orientation data be satisfied.
+
+  This equivariant Hopf degree theorem
+  is stated above under the simplifying assumption that the dimension
+  of all fixed loci is positive. But the proof from [tomDieck 79, 8.4](#tomDieck79) immediately applies to our situation where the dimension of the fixed locus at the full subgroup $H = G$ is 0, with $\left( S^V\right)^G = S^0$. Then, our assumption of bipointedness uniquely fixes the choice of map $S^0 \overset{c^G}{\longrightarrow} S^0$ in the first step of the inductive argument in [tomDieck 79, 8.4](#tomDieck79), and from there on the proof applies verbatim.
 
 =--
 
