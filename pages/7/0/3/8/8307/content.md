@@ -224,7 +224,7 @@ A proof is spelled out for instance as ([Conrad, theorem 4.1](#Conrad)).
 
 An exposition is in 
 
-* Collin Roberts, _Introduction to the tensor product_ ([pdf](http://www.math.uwaterloo.ca/~cd2rober/Seminars/StudentAlgebra/2011/Fall/2011-10-06.pdf))
+* Collin Roberts, _Introduction to the tensor product_
 
 and, in the further generality of the [[tensor product of modules]], in 
 
