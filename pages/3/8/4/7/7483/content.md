@@ -17,7 +17,7 @@
 
 A [[monoidal model category]] $\mathbf{S}$ with extra properties guaranteeing a particularly good [[homotopy theory]] of $\mathbf{S}$-[[enriched categories]] is referred to in ([Lurie](#Lurie)) as an _excellent model category_.
 
-(The term _excellent model category_ has also been used by [Lumsdaine and Shulman](#LumsdaineShulman) for a slightly different notion; this article is about Lurie’s sense.)
+(The term _excellent model category_ has also been used by [Lumsdaine and Shulman](#LumsdaineShulman) for a slightly different notion; see [[type-theoretic model category]].  This article is about Lurie’s sense.)
 
 ## Definition
 
