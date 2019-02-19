@@ -64,9 +64,9 @@ This also shows that $S^V$ is a [[smooth manifold]] with smooth $G$-[[action]].
 
 +-- {: .num_prop #RepresentationSpheresAreGCWComplexes}
 ###### Proposition
-**([[G-representation spheres]] are [[G-CW-complexes]])**
+**([[G-representation spheres are G-CW-complexes]])**
 
-For $G$ a [[compact Lie group]] (e.g. a [[finite group]]) and $V \in RO(G)$ a [[finite dimensional vector space|finite-dimensional]] [[orthogonal representation|orthogonal]] $G$-[[linear representation]], the [[representation sphere]] $S^V$ admits the structure of a [[G-CW-complex]].
+For $G$ a [[compact Lie group]] (e.g. a [[finite group]]) and $V \in RO(G)$ a [[finite dimensional vector space|finite-dimensional]] [[orthogonal group|orthogonal]] $G$-[[linear representation]], the [[representation sphere]] $S^V$ admits the structure of a [[G-CW-complex]].
 
 =--
 
