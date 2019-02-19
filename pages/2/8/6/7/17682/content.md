@@ -7,7 +7,7 @@ A number of researchers have proposed that the [[category theory|category theore
 
 >Side effects are to programming languages what pragmatics are to natural languages: they both study how expressions interact with the worlds of their users. It might then come as no surprise that phenomena such as anaphora, presupposition, deixis and conventional implicature yield a monadic description. ([Mar&#353;&#237;k Amblard 2016, p. 3](#MarAmb16))
 
-In an overview paper [Asudeh](#Asudeh), it is proposed that the following topics are explained by specific monads:
+In an overview paper ([Asudeh](#Asudeh)), it is proposed that the following topics are explained by specific monads:
 
 1. Conventional implicature: the [[writer monad]]
 1. Optional arguments: the [[maybe monad]]
@@ -33,7 +33,7 @@ This refers to:
 * [[Gianluca Giorgolo]] and [[Ash Asudeh]], 2012b. _Missing Resources in a Resource-Sensitive Semantics._ In Miriam Butt and Tracy Holloway King, eds., Proceedings of the LFG12 Conference, 219&#8211;239. Stanford, CA: CSLI Publications.
 * [[Gianluca Giorgolo]] and [[Ash Asudeh]], 2013a. _Monads as a Solution for Generalized Opacity._ Ms., University of Oxford.
 * [[Gianluca Giorgolo]] and [[Ash Asudeh]], 2013b. _One Semiring to Rule Them All._ Ms., University of Oxford.
-* [[Gianluca Giorgolo]] and [[Ash Asudeh]], 2013c. _Perspective Semantics._ Ms., University of Oxford.
+* [[Ash Asudeh]] and [[Gianluca Giorgolo]], 2016. _Perspectives._ Semantics and Pragmatics vol. 9, [doi](http://dx.doi.org/10.3765/sp.9.21).
 * Shan, Chung-chieh. 2001. _Monads for Natural Language Semantics._ In Kristina Striegnitz, ed., Proceedings of the ESSLLI-2001 Student Session, 285&#8211;298. 13th European Summer School in Logic, Language and Information.
 * Christina Unger, 2011. _Dynamic Semantics as Monadic Computation._ In Manabu Okumura, Daisuke Bekki, and Ken Satoh, eds., New Frontiers in Artificial Intelligence - JSAI-isAI 2011, 68&#8211;81.
 * Simon Charlow, 2014. _On the semantics of exceptional scope_, New York University dissertation.
