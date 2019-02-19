@@ -23,6 +23,8 @@ There is a very general notion of _injective objects_ in a [[category]] $C$, and
 
 The concept of [[resolutions]] by injective objects -- [[injective resolutions]] -- is crucial notably in the discussion of [[derived functors]] (in the context of [[abelian categories]]: [[derived functors in homological algebra]]).
 
+Being injective is a *property* of an object; the corresponding *structure* is called an [[algebraic injective]].
+
 ### General definition 
 
 Let $C$ be a [[category]] and $J \subset Mor(C)$ a [[class]] of [[morphisms]] in $C$.  
@@ -680,6 +682,8 @@ $$
 * **injective object**, [[injective presentation]], [[injective envelope]], [[injective resolution]]
 
   * [[injective module]]
+
+* [[algebraically injective object]]
 
 * [[free object]], [[free resolution]]
  
