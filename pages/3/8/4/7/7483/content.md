@@ -17,6 +17,8 @@
 
 A [[monoidal model category]] $\mathbf{S}$ with extra properties guaranteeing a particularly good [[homotopy theory]] of $\mathbf{S}$-[[enriched categories]] is referred to in ([Lurie](#Lurie)) as an _excellent model category_.
 
+(The term _excellent model category_ has also been used by [Lumsdaine and Shulman](#LumsdaineShulman) for a slightly different notion; this article is about Lurie’s sense.)
+
 ## Definition
 
 +-- {: .num_defn }
@@ -104,5 +106,6 @@ Finally, a "strong cofibration" is defined in [DK80](#DwyerKanLocalizations) to 
 
 * {#MR13} [[M. Makkai]], [[J. Rosický]], _Cellular categories_, 2013, [arXiv:1304.7572](https://arxiv.org/abs/1304.7572)
 
+* {#LumsdaineShulman} [[Peter LeFanu Lumsdaine]], [[Mike Shulman]], _Semantics of [[higher inductive types|Higher Inductive Types]], 2017, [arXiv:1705.07088](https://arxiv.org/abs/1705.07088)
 
 [[!redirects excellent model categories]]
