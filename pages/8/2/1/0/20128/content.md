@@ -44,6 +44,9 @@ As a possible solution to the [[flavour anomalies]]:
 
 * {#DAmbrosioIverPiccininiPolosa19} Giancarlo D'Ambrosio, A. M. Iyer, F. Piccinini, A.D. Polosa, _Confronting $B$ anomalies with atomic physics_ ([arXiv:1902.00893](https://arxiv.org/abs/1902.00893))
 
+* P. Ko, Takaaki Nomura, Chaehyun Yu, _$b \to s \mu^+ \mu^-$ anomalies and related phenomenology in $U(1)_{B_{3-x_\mu L_\mu - x_\tau L_\tau}}$ flavor gauge models_ ([arXiv:1902.06107](https://arxiv.org/abs/1902.06107))
+
+
 
 [[!redirects Z'-bosons]]
 
