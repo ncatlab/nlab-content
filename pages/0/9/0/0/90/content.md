@@ -71,3 +71,6 @@ See the references at _[[strict omega-category]]_ and at _[[oriental]]_.
 [[!redirects 2-globes]]
 [[!redirects 3-globes]]
 [[!redirects globs]]
+
+[[!redirects bigon]]
+[[!redirects bigons]]
