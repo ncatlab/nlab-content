@@ -394,10 +394,12 @@ Some further discussion of discrete fibrations can be found in
 {: #BournPenon }
 * Dominique Bourn and Jacques Penon.  _2-cat&#233;gories r&#233;ductibles_.  Preprint, University of Amiens Department of Mathematics, 1978.  Reprinted as _TAC Reprints_ no. 19, 2010 ([link](http://www.tac.mta.ca/tac/reprints/articles/19/tr19abs.html)).
 
-A useful review of discrete fibrations is in
+Useful reviews are in
 
 * [[Emily Riehl]], _Two-sided discrete fibrations in 2-categories and bicategories_ 2010 ([pdf](http://www.math.harvard.edu/~eriehl/fibrations.pdf))
 {#Riehl}
+
+* [[Fosco Loregian]] and [[Emily Riehl]], _Categorical notions of fibration_, [arxiv](https://arxiv.org/abs/1806.06129)
 
 [[!redirects two-sided fibrations]]
 [[!redirects two-sided discrete fibration]]
