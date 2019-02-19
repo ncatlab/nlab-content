@@ -1,8 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Manifolds and cobordisms
++-- {: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
-## Triangulation
+
+## Idea
 
 A **triangulation** of a [[topological space]] $Y$ is a [[simplicial set]] $X$ together with a [[homeomorphism]] $h: R X \to Y$, where $R$ denotes the [[geometric realization]] [[functor]].
 
@@ -14,12 +31,12 @@ $$\int^{n \in \Delta} X(n) \cdot \sigma(n)$$
 
 where $\sigma: \Delta \to Top$ is the standard affine [[simplex]] functor. Provided that $Top$ is interpreted as a [[nice category of spaces]] (such as $CGHaus$ -- see the discussion at [[geometric realization]]), the functor $R$ is left exact, and in particular preserves products.
 
-### Standard affine simplex functor
+## Triangulation
  {#StandardAffineSimplexFunctor}
 
 There are various ways of understanding the affine simplex functor $\sigma: \Delta \to Top$ from a categorical perspective. (Note: in this article we will be working with the algebraist's version of the simplex category $\Delta$, namely the category of finite ordinals and order-preserving maps, including the initial or empty object which represents a (-1)-dimensional simplex. The $n$-element ordinal is conventionally, but perhaps unfortunately, denoted $[n-1]$, to indicate the dimension.)
 
-#### First definition 
+### First definition 
 
 One way begins by regarding $\Delta^{op}$ as isomorphic to the category of nonempty ordinals, for which maps are functions that preserve order and the top and bottom elements. In other words, as the category of finite intervals, where an [[interval]] is a totally ordered set with a top and bottom element. 
 Indeed, for each ordinal $[n-1]$, the hom-set $\hom([n-1], [1])$ inherits from $[1]$ an interval structure under the pointwise definitions, and 
@@ -40,7 +57,7 @@ topologized as a subspace $\{0 \leq x_1 \leq \ldots \leq x_{n-1} \leq 1\}$ of $I
 
 The category of intervals is an $\omega$-accessible category where the finitely presentable objects are the finite intervals. It follows that each representable on $Int$, in particular $\hom(-, I): FinInt^{op} \to Set$, is a filtered colimit of representable presheaves on $FinInt$. 
 
-#### Second definition 
+### Second definition 
 
 A second way of understanding $\sigma$ is by taking advantage of the fact that the algebraist's $\Delta$ is the [[walking structure|walking]] [[monoid]]. This means that given a monoidal structure on $Top$ and a monoid $M$ therein, there is a unique monoidal functor $\sigma: \Delta \to Top$ which sends the generic monoid $[0]$ to the monoid $M$. To this end, take the monoidal product on $Top$ to be "topological simplicial join": the join $X \star Y$ of two spaces $X$, $Y$ may be defined to be the pushout of the diagram
 
@@ -72,7 +89,13 @@ $$\Box: Cube \to Top$$
 
 The monoidal product on $Cube$ induces a monoidal product $\otimes$ on $Set^{Cube^{op}}$ by [[Day convolution]]. The cubical realization functor $R_{cub}: Set^{Cube^{op}} \to Top$ is, up to isomorphism, the unique cocontinuous monoidal functor which extends the monoidal functor $\Box$ along the Yoneda embedding; therefore $R_{cub}$ takes $\otimes$-products of cubical sets to the corresponding cartesian products of spaces.
 
-## Relation between triangulation and cubulation
+## Properties
+
+### General properties
+
+(...)
+
+### Relation between triangulation and cubulation
 
 As explained below, there is a "cubulation" functor for standard simplices, $\Sigma: \Delta \to Set^{Cube^{op}}$, such that the affine simplex functor $\sigma: \Delta \to Top$ is naturally isomorphic to the composite
 
@@ -129,6 +152,22 @@ In detail, regard the category of simplicial sets as a cartesian monoidal catego
 $$\Box_{\delta}: Cube \to Set^{\Delta^{op}}$$
 
 Finally, because $R: Set^{\Delta^{op}} \to Top$ is product-preserving and preserves the interval objects, the isomorphism (2) obtains by the universal property of $Cube$.
+
+## Related concepts
+
+* [[equivariant triangulation]]
+
+  [[equivariant triangulation theorem]]
+
+
+
+## References
+
+See also 
+
+* Wikipedia, _<a href="https://en.wikipedia.org/wiki/Triangulation_(geometry)">Triangulation (geometry)</a>_
+
+
 
 
 [[!redirects triangulations]]
