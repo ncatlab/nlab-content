@@ -161,7 +161,7 @@ For **[[proof]]** see [here](Hopf+degree+theorem#EquivariantHomotopyOfSVInRODegr
 
 +-- {: .num_example #EquivariantCohomotopyOfRepresentationSphereOfSignRepresentationInThatDegree}
 ###### Example
-**([[equivariant cohomotopy]] of $S^{\mathbb{R}_{sgn}}$ in [[RO(G)-degree]] the [[sign representation]] $\mathbb{R}_{sgn}$)
+**([[equivariant cohomotopy]] of $S^{\mathbb{R}_{sgn}}$ in [[RO(G)-degree]] the [[sign representation]] $\mathbb{R}_{sgn}$)**
 
 Let $G = \mathbb{Z}_2$ the [[cyclic group of order 2]] and $\mathbb{R}_{sgn} \in RO(\mathbb{Z}_2)$ its 1-dimensional [[sign representation]]. 
 
@@ -309,6 +309,62 @@ $$
 
 =--
 
+
++-- {: .num_example #EquivariantCohomotopyOfRepresentationSphereOfQuaternionsInThatDegree}
+###### Example
+**([[equivariant cohomotopy]] of $S^{\mathbb{H}}$ in [[RO(G)-degree]] the [[quaternions]] $\mathbb{H}$)**
+
+Let $G \subset SU(2) \simeq S(\mathbb{H})$ be a non-[[trivial group|trivial]] [[finite subgroup of SU(2)]] and let $\mathbb{H} \in RO(G)$ be the [[real vector space]] of [[quaternions]] regarded as a [[linear representation]] of $G$ by left multiplication with unit [[quaternions]].
+
+Then the bi-pointed [[equivariant cohomotopy]] of the [[representation sphere]] $S^{\mathbb{H}}$ in [[RO(G)-degree]] $\mathbb{H}$ is
+
+$$
+  \array{
+    \pi^{\mathbb{H}}
+    \left(
+      S^{\mathbb{H}} 
+    \right)^{\{0,\infty\}/}
+    &\simeq&
+    {\left\vert G\right\vert} \cdot \mathbb{Z} + 1
+    &\simeq& 
+    {\left\vert G\right\vert} \cdot \mathbb{Z}
+    &\simeq& 
+    \mathbb{Z}    
+    \\
+    \left[   
+      S^{\mathbb{H}}
+      \overset{c}{\longrightarrow}
+       S^{\mathbb{H}}
+    \right]
+    &\mapsto&
+    deg\left( c^{ \{e\}  }\right)
+    &\mapsto&
+    deg\left( c^{ \{e\}  }\right) - 1
+    &\mapsto&
+    \big( 
+      deg\left( c^{ \{e\}  }\right) - 1
+    \big)/ {\left\vert G\right\vert}
+  }
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The only [[isotropy groups|isotropy]] [[subgroups]] of the left action of $G$ on $\mathbb{H}$ are the two extreme cases $Isotr_{\mathbb{H}}(G) = \{1, G\} \in Sub(G)$. Hence the only multiplicity that appears in Prop. \ref{EquivariantHomotopyOfSVInRODegreeV} is 
+
+$$
+  \left\vert W_G(1)\right\vert 
+  \;=\;
+  \left\vert G \right\vert   
+  \,.
+$$
+
+and all degrees  must differ from that of the class of the [[identity function]] by a multiple of this multiplicity. Finally, the offset of the identity function is clearly $offs\left(id_{S^{\mathbb{H}}},1\right) = deg\left( id_{S^{\mathbb{H}}}\right) = 1$.
+
+=--
 
 
 ## Related concepts
