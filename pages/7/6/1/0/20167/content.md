@@ -45,7 +45,7 @@ from $n$th [[cohomotopy]] to $n$th [[integral cohomology]] is a [[bijection]].
 ### In equivariant homotopy theory
  {#InEquivariantHomotopyTheory}
 
-The following Theorem \ref{EquivariantHopfDegreeTheorem} is a generalization of the Hopf degree theorem to [[equivariant homotopy theory]], due to [tomDieck 79, 8.4](#tomDieck79).
+The following Theorem \ref{EquivariantHopfDegreeTheorem} is a generalization of the Hopf degree theorem to [[equivariant homotopy theory]], due to [tomDieck 79, 8.4](#tomDieck79). It implies a fairly explicit characterization of [[equivariant cohomotopy]] of [[representation spheres]] $S^V$ in [[RO(G)-degree]] $V$ (Prop. \ref{EquivariantHomotopyOfSVInRODegreeV} below).
 
 We need the following list of ingredients and assumptions:
 
