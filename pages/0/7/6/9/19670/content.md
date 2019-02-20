@@ -42,7 +42,7 @@ $$
   \,.
 $$
 
-More in detail, for $G$ a [[finite group]], this [[isomorphism]] identifies the [[Burnside character]] on the left with the [[fixed locus]]-[[degree of a continuous function|degrees]] on the right, hence for all [[subgroups]] $H \subset G$
+More in detail, for $G$ a [[finite group]], this [[isomorphism]] identifies the [[Burnside character]] on the left with the [[fixed locus]]-[[degree of a continuous function|degrees]] on the right, hence for all [[subgroups]] $H \subset G$ it identifies
 
 1. the $H$-[[Burnside marks]] $\left\vert S^H \right\vert \in \mathbb{Z}$ of [[virtual representation|virtual]] [[finite set|finite]] [[G-sets]] $S$ 
 
