@@ -68,7 +68,7 @@ On the other hand, if by 'open' we mean an open subset [in the sense of Penon](/
 
 The notion of an open [[locale]] was originally introduced by Joyal and Tierney (and developed by Johnstone in [[Stone Spaces]]):
 
-* [[Andre Joyal]], M. Tierney, _An extension of the Galois theory of Grothendieck_,  Mem. Amer. Math. Soc. 51 (1984), no. 309, vii+71 pp. 
+* [[Andre Joyal]], [[Myles Tierney]], _An extension of the Galois theory of Grothendieck_,  Mem. Amer. Math. Soc. 51 (1984), no. 309, vii+71 pp. 
 
 The term "overt" is due to [[Paul Taylor]].  For example, it appears in:
 
