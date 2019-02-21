@@ -19,11 +19,11 @@ $$
 \coprod_{i:A\to B} (C(A,X) \cdot B) & \to & F_J X
 }
 $$
-where $\cdot$ represents the [[copower]] of $C$ over [[Set]].  Then $F_J$ is a [[pointed endofunctor]] of $C$, such that the (pointed) endofunctor algebras of $F_J$ are precisely the algebraically $J$-injective objects.
+where $\cdot$ represents the [[copower]] of $C$ over [[Set]].  Then $F_J$ is a [[pointed endofunctor]] of $C$, such that the (pointed) [[algebra for an endofunctor|endofunctor algebras]] of $F_J$ are precisely the algebraically $J$-injective objects.
 
 ### Monadicity
 
-...
+When $C$ is locally small and cocomplete as before, if the [[algebraically-free monad]] on the pointed endofunctor $F_J$ exists, then by definition the algebraically $J$-injective objects are its [[algebra for a monad|monad algebras]].  In particular, they are [[monadic functor|monadic]] over $C$.
 
 ### Solidity
 
