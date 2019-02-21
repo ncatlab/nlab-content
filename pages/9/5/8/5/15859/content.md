@@ -105,8 +105,7 @@ For a glimpse of [[André Joyal|A. Joyal]]'s original approach to the spectrum u
 
 * [[Thierry Coquand]], Henri Lombardi, Peter Schuster, _The projective spectrum as a distributive lattice_ , Cah. Top. G&#233;om. Diff. Cat. **XLIIX** no.3 (2007) pp.220-228. ([numdam](http://www.numdam.org/item?id=CTGDC_2007__48_3_220_0))
 
-* [[Michel Coste|M. Coste]], _Localisation, spectra and sheaf representation_ , pp.212-238 in Fourman, Mulvey & Scott (eds.), _Applications of
-Sheaves_ , Springer LNM **753** (1979).
+* [[Michel Coste|M. Coste]], _Localisation, spectra and sheaf representation_ , pp.212-238 in Fourman, Mulvey & Scott (eds.), _Applications of Sheaves_ , Springer LNM **753** (1979).
 
 * M. Coste, G. Michon, _Petits et Gros Topos en G&#233;om&#233;trie Alg&#233;brique_ , Cah. Top. G&#233;om. Diff. Cat. **XXII** no.1 (1981) pp.25-30. ([pdf](http://archive.numdam.org/article/CTGDC_1981__22_1_25_0.pdf)) {#CosteMichon81}
 
