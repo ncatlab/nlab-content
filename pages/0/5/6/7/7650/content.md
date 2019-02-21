@@ -23,7 +23,7 @@ $$
   (E G)_{Milnor} := colim \; G \ast G \ast \ldots \ast G,
 $$
 
-and canonically equips it with a continuous and free right [[action]] of $ G $ that yields the structure of a CW-complex such that the action of $ G $ permutes the cells. Consequently, the natural projection $(E G)_{Milnor} \to (E G)_{Milnor}/G $ is a model for the universal bundle $ E G \to B G $ of locally trivial principal $ G $-bundles over [[paracompact Hausdorff spaces]], or equivalently, of [[numerable bundle]] $G$-[[principal bundles]] over all [[Hausdorff topological spaces]].
+and canonically equips it with a continuous and free right [[action]] of $ G $ that yields the structure of a [[G-CW-complex]]. Consequently, the natural projection $(E G)_{Milnor} \to (E G)_{Milnor}/G $ is a model for the universal bundle $ E G \to B G $ of locally trivial principal $ G $-bundles over [[paracompact Hausdorff spaces]], or equivalently, of [[numerable bundle]] $G$-[[principal bundles]] over all [[Hausdorff topological spaces]].
 
 There is a generalisation of Milnor's construction that works for [[topological groupoids]], and reduces to the above case when the groupoid is $\mathbf{B}G$, the delooping of the group $G$.
 
