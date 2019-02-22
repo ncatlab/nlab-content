@@ -139,7 +139,7 @@ that expresses abstractly a [[adjoint cylinder|cylinder configuration]] correspo
 
 * {#KL89}[[G. M. Kelly]], [[F. W. Lawvere]], _On the Complete Lattice of Essential Localizations_ , Bull. Soc. Math. de Belgique **XLI** (1989) pp.289-319.
 
-* [[F. W. Lawvere]], _Display of graphics and their applications, as exemplified by 2-categories and the Hegelian "taco"_  Proceedings of the first international conference on algebraic methodology and software technology University of Iowa, May 22-24 1989, Iowa City, pp. 51-74. {#Law89b}
+* [[F. W. Lawvere]], _Display of graphics and their applications, as exemplified by 2-categories and the Hegelian "taco"_  Proceedings of the first international conference on algebraic methodology and software technology University of Iowa, May 22-24 1989, Iowa City, pp. 51-74. {#Law89b}  ([pdf](https://github.com/mattearnshaw/lawvere/blob/master/pdfs/1989-display-of-graphics-and-their-applications-exemplifed-by-2-categories-and-the-hegelian-taco.pdf))
 
 * [[F. W. Lawvere]], _More on graphic toposes_, Cah. Top. G&#233;om. Diff. Cat. **XXXII** no. 1 (1991) pp.5-10. ([pdf](http://archive.numdam.org/article/CTGDC_1991__32_1_5_0.pdf)) {#Law91}
 &#8206;
