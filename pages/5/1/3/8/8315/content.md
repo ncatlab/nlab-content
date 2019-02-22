@@ -247,7 +247,7 @@ We identify various of the pages of this spectral sequences with structures in s
 +-- {: .num_prop #PagesInTheSpectralSequenceOfTheFilteredSingularComplex} 
 ###### Proposition
 
-* $r = 0$ -- $E^0_{p,q}(X) \simeq C_{p+q}(X_p)/C_{p+q}(X_{p-1})$ is the group of $X_{p-1}$-[[relative homology|relatvive (p+q)-chains]] in $X_p$;
+* $r = 0$ -- $E^0_{p,q}(X) \simeq C_{p+q}(X_p)/C_{p+q}(X_{p-1})$ is the group of $X_{p-1}$-[[relative homology|relative (p+q)-chains]] in $X_p$;
 
 * $r = 1$ -- $E^1_{p,q}(X) \simeq H_{p+q}(X_p, X_{p-1})$ is the $X_{p-1}$-[[relative singular homology]] of $X_p$;
 
