@@ -60,7 +60,7 @@ This seems to be correct whenever $\alpha$ really is either an ordinal or the op
 
 * [Cafe discussion](http://golem.ph.utexas.edu/category/2010/07/ternary_factorization_systems.html) mainy on the ternary version
 
-* [Forum discussion](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=1629&page=1) including the k-ary case, even when k is infinite
+* [Forum discussion](https://nforum.ncatlab.org/discussion/1629) including the k-ary case, even when k is infinite
 
 
 [[!redirects k-ary factorization system]]
