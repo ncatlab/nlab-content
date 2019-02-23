@@ -1616,7 +1616,7 @@ $$
 For a subset $T \subseteq MaxIdl(k[x_1, \ldots, x_n])$ we calculate 
 
 $$
-  I_E(T) = \{f \in k[x_1, ldots, x_n]: \forall_{\mathfrak{m} \in MaxIdl} M \in S \Rightarrow f \in \mathfrak{m}\} = \bigcap_{\mathfrak{m} \in S} \mathfrak{m}
+  I_E(T) = \{f \in k[x_1, \ldots, x_n]: \forall_{\mathfrak{m} \in MaxIdl} M \in S \Rightarrow f \in \mathfrak{m}\} = \bigcap_{\mathfrak{m} \in S} \mathfrak{m}
 $$ 
 
 which is an ideal, since the intersection of any collection of ideals is again an ideal. (However, not all ideals are given as intersections of maximal ideals, a point to which we will return in a moment.) 
@@ -1666,7 +1666,7 @@ The proof is virtually the same as in the proof of prop. \ref{ZariskiTopologyOnA
 
 =--
 
-Thus the fixed elements of $V_E \circ I_E$ on one side of the Galois correspondence are the closed sets of a topology. The fixed elements of $I_E \circ V_E$ on the other side are a matter of interest; in the case where $k$ is [[algebraically closed field|algebraically closed]], they are the *[[radical ideals]]* of $k[X_1, \ldots, X_n]$ according to the "strong [[Nullstellensatz]]. 
+Thus the fixed elements of $V_E \circ I_E$ on one side of the Galois correspondence are the closed sets of a topology. The fixed elements of $I_E \circ V_E$ on the other side are a matter of interest; in the case where $k$ is [[algebraically closed field|algebraically closed]], they are the *[[radical ideals]]* of $k[X_1, \ldots, X_n]$ according to the "strong" [[Nullstellensatz]]. 
 
 
 
