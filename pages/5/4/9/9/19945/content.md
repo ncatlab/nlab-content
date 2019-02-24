@@ -10,7 +10,7 @@ An __idempotent semifield__ $K$ is [[idempotent semiring]] that has a zero $0$ a
 
 As in the case of an [[idempotent semiring#Properties|idempotent semiring]] there is a partial order given by
 
-$$ x \leq y : \iff x + y = y $$
+$$ x \leq y \;\;{:\!\!\Longleftrightarrow}\;\; x + y = y $$
 
 which has a [[join]] given by addition. In case of an idempotent semifield this partial order also has a [[meet]]. To each semifield there is a dual semifield $K^*$ given on the same set of elements as $K$ and with the same zero, identity, and multiplication but with addition given by interchanging join and meet, i.e. the meet becomes the new addition on non-zero elements and the zero element behaves neutral.
 
