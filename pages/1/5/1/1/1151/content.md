@@ -125,7 +125,7 @@ Indeed, it turns out that an old result from the 1960s, **Verdier's hypercoverin
 
 Therein Brown considers essentially the [[model structure on simplicial presheaves]] -- which today is known to be one of the standard [[models for ∞-stack (∞,1)-toposes]] $\mathbf{H}$ -- rederives Verdier's hypercovering theorem and shows that ordinary [[abelian sheaf cohomology]] is indeed nothing but $\pi_0 \mathbf{H}(X,A)$ in such an [[(∞,1)-topos]], for the special case that the [[simplicial presheaf]] $A$ happens to be objectwise in the image of the [[Dold-Kan correspondence]], i.e. for the special case that $A$ is a _maximally abelian_ [[∞-stack]].
 
-One can then understand various "cohomology theories" as nothing but tools for _computing_ $\pi_0 \mathbf{H}(X,A)$ using the known presentations of [[(∞,1)-categorical hom-space]]s: for instance [[?ech cohomology]] computes these spaces by finding cofibrant models for the domain $X$, called [[?ech nerve]]s. Dual to that, most texts on [[abelian sheaf cohomology]] find fibrant models for the codomain $A$: called injective resolutions. Both algorithms in the end compute the same intrinsically defined $(\infty,1)$-categorical hom-space.
+One can then understand various "cohomology theories" as nothing but tools for _computing_ $\pi_0 \mathbf{H}(X,A)$ using the known presentations of [[(∞,1)-categorical hom-space]]s: for instance [[Čech cohomology]] computes these spaces by finding cofibrant models for the domain $X$, called [[?ech nerve]]s. Dual to that, most texts on [[abelian sheaf cohomology]] find fibrant models for the codomain $A$: called injective resolutions. Both algorithms in the end compute the same intrinsically defined $(\infty,1)$-categorical hom-space.
 
 In other words, [[abelian sheaf cohomology]] is of the exact same nature as the familiar cohomology of [[topological space]]s (and hence of [[spectrum|spectra]]) if only we switch from the archetypical [[(∞,1)-topos]] [[Top]] to a more general [[(∞,1)-category of (∞,1)-sheaves|∞-stack (∞,1)-topos]]. And abelian sheaf cohomology in turn subsumes many special cases, such as [[Deligne cohomology]], [[deRham cohomology]], [[etale cohomology]], [[crystalline cohomology]], [[syntomic cohomology]], etc. You name it.
 
@@ -445,7 +445,7 @@ Classes of special cases of cohomologies with their own entries include
 
 * [[Hochschild cohomology]] / [[cyclic cohomology]]
 
-* [[?ech cohomology]]
+* [[Čech cohomology]]
 
 * [[hypercohomology]]
 
@@ -523,7 +523,7 @@ A Grothendieck--Rezk--Lurie [[(∞,1)-topos]] is an [[(∞,1)-category of (∞,1
 
 Several familiar "cohomology theories" are not so much genuine cohomology theories as rather computational techniques for computing certain cohomology classes in an [[(∞,1)-category]] by using 1-categorical tools of [[homotopy coherent category theory]] such as [[model categories]], [[derived categories]] and the like.
 
-* [[?ech cohomology]] is the technique of computing $H(X,A)$ by computing 1-categorical [[hom-sets]] $C(\hat X,A)$ on _resolutions_ of the domain object $X$.
+* [[Čech cohomology]] is the technique of computing $H(X,A)$ by computing 1-categorical [[hom-sets]] $C(\hat X,A)$ on _resolutions_ of the domain object $X$.
 
 * The technique of computing [[abelian sheaf cohomology]] by computing the [[derived global section functor]] is similarly a technique of computing $H(X,A)$ in terms of 1-categorical [[hom-sets]] $C(X,\hat A)$ into _resolutions_ of the coefficient object (namely [[injective resolution]]s).
 
@@ -707,11 +707,11 @@ so much specific examples of cohomology theories
 specific _tools_ or _algorithms_ for constructing 
 $\mathbf{H}(X,A)$.
 
-### &#268;ech cohomology
+### Čech cohomology
 
 For the moment see
 
-* [[?ech cohomology]]
+* [[Čech cohomology]]
 
 ### $Ext$-functor and derived global-sections functor
 
@@ -730,7 +730,7 @@ is another way to think of $\mathbf{H}(X,A)$.
 
 ### Monadic cohomology
 
-* [[monadic descent|Monadic cohomology]], like [[?ech cohomology]], is a way to compute [[cocycle]]s using tools from [[universal algebra]] in general and the theory of [[monad]]s in particular in the presence of extra 
+* [[monadic descent|Monadic cohomology]], like [[Čech cohomology]], is a way to compute [[cocycle]]s using tools from [[universal algebra]] in general and the theory of [[monad]]s in particular in the presence of extra 
 
 
 ## Properties 
