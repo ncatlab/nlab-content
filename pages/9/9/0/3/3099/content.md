@@ -439,7 +439,7 @@ Discussion in relation to [[Feynman diagrams]]:
 
 Discussion of generalised species:
 
-* {#FGHW} M. Fiore, N. Gambino, M. Hyland, G. Winskel, _The cartesian closed bicategory of generalised species of structures_, ([pdf](http://www1.maths.leeds.ac.uk/~pmtng/Research/Papers/generalised-species.pdf))
+* {#FGHW} M. Fiore, N. Gambino, M. Hyland, G. Winskel, _The cartesian closed bicategory of generalised species of structures_, ([pdf](http://www1.maths.leeds.ac.uk/~pmtng/Publications/generalised-species.pdf))
 
 [[!redirects homotopical species]]
 [[!redirects (infinity,1) species]]
