@@ -15,7 +15,7 @@ Let $A$ be a commutative [[topological ring]].
 
 A [[formal power series]]
 $$
-\sum c_{n_1,\ldots,n_p}X^{n_1}\cdots X^{n_p} \in A[[X_1,\ldots,X_p]]
+\sum c_{n_1,\ldots,n_p}X_1^{n_1}\cdots X_p^{n_p} \in A[[X_1,\ldots,X_p]]
 $$
 is called **restricted** if for every neigbourhood $V$ of 0 in $A$, there is only a finite number of coefficients $c_{n_1,\ldots,n_p}$ not belonging to $V$. One can view this as the coefficients "converging to $0\in A$".
 
