@@ -51,8 +51,6 @@ Non-tautological examples:
 
 * [[cancellative monoid]]
 
-* [[all arrows monic]]
-
 ## References
 
 
