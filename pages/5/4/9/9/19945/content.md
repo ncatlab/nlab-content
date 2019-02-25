@@ -52,4 +52,4 @@ with $y,p_0, \ldots, p_n \in K$ and $n=1,2,\ldots$ has a solution in $K$ if and 
 
 ## References
 
-* Shpiz, _Solution of algebraic equations in idempotent semifields_, Communications of the Moscow Mathematical Society (1960), [pdf](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=rm&paperid=331&option_lang=eng)
+* Shpiz, _Solution of algebraic equations in idempotent semifields_, Communications of the Moscow Mathematical Society (1960), [russian](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=rm&paperid=331&option_lang=eng) [english](https://iopscience.iop.org/article/10.1070/RM2000v055n05ABEH000331/meta)
