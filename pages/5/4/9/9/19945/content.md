@@ -19,10 +19,10 @@ which has a [[join]] given by addition. In case of an idempotent semifield this 
 A version of the fundamental theorem of algebra can be formulated for semifields:
 A semifield is said to be __algebraically closed__ if the equation $x^n = y$ has a solution for all $x\in K$ and $n=1,2,\ldots$.
 
-+-- {: .num_theorem}
++-- {: .num_theorem #fundamentalThm}
 ###### Theorem
 
-In an algebraically closed commutative idempotent semifield the equation
+In an algebraically closed commutative idempotent semifield $ K $ with $ 0 \cdot a = 0 $ for all $ a \in K $ the equation
 $$
   p_0 + p_1 \cdot x^1 + p_2 \cdot x^2 + \ldots + p_n x^n = y
 $$
@@ -35,6 +35,8 @@ with $y,p_0, \ldots, p_n \in K$ and $n=1,2,\ldots$ has a solution in $K$ if and 
 
 * The [[max-plus algebra]] $(-\infty, +\infty]$ with addition given by maximum and multiplication given by ordinary addition.
 
+* The two element semifield $ \{ 0, 1 \} $ with $ 0 \leq 1 $
+ and $ + = \cdot = \vee $ is commutative and algebraically closed but does not fulfill the assumptions of theorem \ref{fundamentalThm}. Indeed, the equation $ 1 \cdot x = 1 $ does not have a unique solution.
 
 ## Related concepts
 
@@ -51,5 +53,7 @@ with $y,p_0, \ldots, p_n \in K$ and $n=1,2,\ldots$ has a solution in $K$ if and 
 * [[idempotent semiring]]
 
 ## References
+
+In the reference the assumption that $0 \cdot a = 0$ is not explicit (otherwise the base step in the induction in the proof of Proposition 2 therein doesn't work).
 
 * Shpiz, _Solution of algebraic equations in idempotent semifields_, Communications of the Moscow Mathematical Society (1960), [russian](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=rm&paperid=331&option_lang=eng) [english](https://iopscience.iop.org/article/10.1070/RM2000v055n05ABEH000331/meta)
