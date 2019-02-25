@@ -26,7 +26,7 @@
 
 &#268;ech cohomology is a tool, or an algorithm, which, when it applies, computes [[abelian sheaf cohomology]] (of some $X$ with [[coefficients]] in some $A$) by use of [[coverings]] and systems of [[coefficients]] on the covering and all its non-empty finite intersections. More generally, it applies also to [[nonabelian cohomology]] and may hence for instance (in degree 1) be used to compute classes of [[principal bundles]] and generally (in higher degree) those of [[principal ∞-bundles]]. Quite generally &#268;ech cohomology is the way to express the intrinsic [[cohomology]] of [[(∞,1)-sheaf]] [[(∞,1)-toposes]] by mapping out of [[Cech nerves]] of [[covers]].
 
-Hence &#268;ech cohomology is more an algorithm for computing [[cohomology]] (see also at _[[?ech methods]]_) than a cohomology theory in itself. In particular it applies (when it applies) to all sorts of [[coefficient]] [[sheaves]]/[[stacks]]/[[∞-stacks]] $A$.
+Hence &#268;ech cohomology is more an algorithm for computing [[cohomology]] (see also at _[[Čech methods]]_) than a cohomology theory in itself. In particular it applies (when it applies) to all sorts of [[coefficient]] [[sheaves]]/[[stacks]]/[[∞-stacks]] $A$.
 
 When no further qualification of the coefficients $A$ is given then one usually has in mind by default either that $A = \mathbb{Z}$ is the group of [[integers]] (or a [[delooping]] thereof, in which case one computes [[ordinary cohomology]] by Cech methods) or, if working on a [[ringed space]]/[[ringed topos]]/[[structured (∞,1)-topos]] that $A = \mathcal{O}^\times$ is the [[group of units]] in the [[structure sheaf]].
 
@@ -46,7 +46,7 @@ $$
 
 where the colimit is over all acyclic fibrations $Y \stackrel{\in W \cap F}{\longrightarrow} X$ in an appropriate [[model category]] $C_H$ that [[presentable (infinity,1)-category|presents]] $\mathbf{H}$. For $\mathbf{H}$ an [[infinity-stack]] [[(infinity,1)-topos]] this $C_H$ is a [[model structure on simplicial presheaves]] and the acyclic fibrations $Y \stackrel{\in W \cap F}{\to} X$ for $X$ an ordinary space are the [[hypercovers]].
 
-Now, for some coefficient objects $A$ it is sufficient to take the colimit here not over all [[hypercovers]], but just over [[?ech covers]]. The resulting formula
+Now, for some coefficient objects $A$ it is sufficient to take the colimit here not over all [[hypercovers]], but just over [[Čech covers]]. The resulting formula
 
 $$
   H(X,A)
@@ -57,7 +57,7 @@ $$
 
 is then called the formula for **&#268;ech cohomology** on $X$ with values in $A$.
 
-Here a [[?ech cover]] is a simplicial presheaf that arises from an ordinary covering map $U \to X$ of $X$ by another space $U$ as the corresponding [[?ech nerve]] simplicial presheaf
+Here a [[Čech cover]] is a simplicial presheaf that arises from an ordinary covering map $U \to X$ of $X$ by another space $U$ as the corresponding [[Čech nerve]] simplicial presheaf
 
 $$
  \begin{aligned}
@@ -77,7 +77,7 @@ See [[descent for simplicial presheaves]] for more on the manipulations involved
 
 To amplify, a general [[hypercover]] would start in degree 0 with a $U$ as above, but then in the next degree would have a cover $V \to U \times_X U$ of the fiber product, and so on, each fiber product in turn being covered by another space.
 
-If $Y$ is not simply a [[?ech cover]] but also not the most general [[hypercover]] in that this iterative choice of further covering stops in degree $n$, then one also speaks of **&#268;ech cover of level $n$** and of the corresponding cohomology formula as **higher &#268;ech cohomology**. See for instance the reference by Tibor Beke below.
+If $Y$ is not simply a [[Čech cover]] but also not the most general [[hypercover]] in that this iterative choice of further covering stops in degree $n$, then one also speaks of **&#268;ech cover of level $n$** and of the corresponding cohomology formula as **higher &#268;ech cohomology**. See for instance the reference by Tibor Beke below.
 
 
 
@@ -789,7 +789,7 @@ on the right to the
 free abelian chain complex operation 
 $C_bullet(F(C(U)))$
 on the 
-[[?ech cover]] simplicial sheaf $C(U)$ and then 
+[[Čech cover]] simplicial sheaf $C(U)$ and then 
 use the [[Yoneda lemma]] to evaluate $A_\bullet$
 on $N_\bullet(F(C(U)))$. The result is the 
 &#268;ech complex of $A_\bullet$. 
@@ -800,10 +800,10 @@ Spelled out in full detail this looks a bit more lengthy,
 but is nothing but this simple idea.
 
 Before starting the computation notice the following
-observation on the image of the [[?ech cover]]
+observation on the image of the [[Čech cover]]
 $C(U)$ under the [[Dold-Kan correspondence]]:
 
-For $Y = C(U)$ a [[?ech cover]] on a sieve 
+For $Y = C(U)$ a [[Čech cover]] on a sieve 
 $\{U_i \to X\}_{i \in I}$, and for $W$ any test object,
 the non-degenerate $n$-simplices in $C(U)(W)$ are the
 
@@ -952,7 +952,7 @@ $$
   \check{H}(X,A) \to H(X,A)
 $$
 
-from the &#268;ech cohomology to the full (hypercompleted) cohomology, which is [[abelian sheaf cohomology]] in the case that $A$ is in the image of the [[Dold-Kan correspondence|Dold-Kan map]] from [[chain complexes]]. Using the description of abelian sheaf cohomology in terms of morphisms out of hypercovers described at the beginning of this entry, this morphism is the obvious one coming from the inclusion of [[?ech covers]] into all [[hypercovers]].
+from the &#268;ech cohomology to the full (hypercompleted) cohomology, which is [[abelian sheaf cohomology]] in the case that $A$ is in the image of the [[Dold-Kan correspondence|Dold-Kan map]] from [[chain complexes]]. Using the description of abelian sheaf cohomology in terms of morphisms out of hypercovers described at the beginning of this entry, this morphism is the obvious one coming from the inclusion of [[Čech covers]] into all [[hypercovers]].
 
 +-- {: .num_theorem }
 ###### Theorem 
@@ -986,7 +986,7 @@ $$
 $$
 
 
-from the cohomology of the &#268;ech complex with respect to a cover $U$ with coefficients in $A$ to the [[abelian sheaf cohomology]] of $X$ with values in $A$. Using the description of abelian sheaf cohomology in terms of morphisms out of hypercovers described at the beginning of this entry, this morphism is the obvious one coming from the inclusion of [[?ech covers]] into all [[hypercovers]].
+from the cohomology of the &#268;ech complex with respect to a cover $U$ with coefficients in $A$ to the [[abelian sheaf cohomology]] of $X$ with values in $A$. Using the description of abelian sheaf cohomology in terms of morphisms out of hypercovers described at the beginning of this entry, this morphism is the obvious one coming from the inclusion of [[Čech covers]] into all [[hypercovers]].
 
 +-- {: .num_theorem }
 ###### Theorem 
@@ -1205,7 +1205,7 @@ A motivational introdcuction from within [[complex analytic geometry]] is in
 
 * Michael Weiss, _The Search for a Global Primitive -- Cech Cohomology with Coecients in a Sheaf_ ([pdf](http://files.meetup.com/4699592/cech-ipad.pdf))
 
-A discussion of &#268;ech cohomology in the wider context of [[cohomology]] particularly realized in terms of the [[model structure on simplicial presheaves]] and with an emphasis on the shades of notions between [[?ech cover]] and [[hypercover]] is
+A discussion of &#268;ech cohomology in the wider context of [[cohomology]] particularly realized in terms of the [[model structure on simplicial presheaves]] and with an emphasis on the shades of notions between [[Čech cover]] and [[hypercover]] is
 
 * [[Tibor Beke]], _Higher &#268;ech theory_ ([journal](http://www.math.uiuc.edu/K-theory/0646/), [pdf](http://www.math.uiuc.edu/K-theory/0646/cech.pdf))
 
