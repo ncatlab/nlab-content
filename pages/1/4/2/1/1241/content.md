@@ -104,7 +104,7 @@ The high energy scale required by a [[seesaw mechanism]] to produce the experime
 
 Generically, GUT-theories predict the existence of [[leptoquarks]] ([Murayama-Yanagida 92](#MurayamaYanagida92)), possibly related to the apparently observed 
 
-* [[flavour anomalies]] ([BDFKFS 18](#BDFKFS18))
+* [[flavour anomalies]] ([BDFKFS 18](#BDFKFS18), [AMM 19](#AMM19))
 
 * [anomalies](anomalous+magnetic+moment#Anomalies) in [[anomalous magnetic moment]] of [[muon]] and [[electron]]
 
@@ -263,6 +263,9 @@ Relation to [[leptoquarks]] and [[flavour anomalies]]:
 * {#MurayamaYanagida92} H. Murayama, T. Yanagida, _A viable $SU(5)$ GUT with light leptoquark bosons_, Mod.Phys.Lett. A7 (1992) 147-152 ([arXiv:315898](inspirehep.net/record/315898), [doi:10.1142/S0217732392000070](https://doi.org/10.1142/S0217732392000070))
 
 * {#BDFKFS18} Damir Bečirević, Ilja Doršner, Svjetlana Fajfer, Nejc Košnik, Darius A. Faroughy, Olcyr Sumensari, _Scalar leptoquarks from GUT to accommodate the $B$-physics anomalies_, Phys. Rev. D 98, 055003 (2018) ([arXiv:1806.05689](https://arxiv.org/abs/1806.05689))
+
+* {#AMM19} Ufuk Aydemir, Tanumoy Mandal, Subhadip Mitra, _A single TeV-scale scalar leptoquark in SO(10) grand unification and B-decay anomalies_ ([arXiv:1902.08108](https://arxiv.org/abs/1902.08108))
+
 
 
 [[!redirects GUTs]]
