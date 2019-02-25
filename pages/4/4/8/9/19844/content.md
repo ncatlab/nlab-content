@@ -83,7 +83,7 @@ Candidate [[model (in theoretical physics)|models]] of "New Physics" beyond the 
 One apparently promising [[model (in theoretical physics)|model]] that could potentially explain the apparently observed flavour anomalies are
 [[leptoquarks]], which naturally arise in, and hence potentially point to, [[model (in theoretical physics)|models]] of  $SU(5)$-[[grand unified theory]].
 
-(see [Bauer-Neubert 15](#BauerNeubert15), [CCDM 16](#CCDM16), [Crivellin 17](#Crivellin17), [Falkowski17](#Falkowski17), [Mueller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [AMST 18](#AMST18), [BDFKFS 18](#BDFKFS18), [Crivellin 18](#Crivellin18), [MMR 18](#MMR18), [Kumar-London 19, section 2.2.1](#KumarLondon19), [MVT 19](#MVT19))
+(see [Bauer-Neubert 15](#BauerNeubert15), [CCDM 16](#CCDM16), [Crivellin 17](#Crivellin17), [Falkowski17](#Falkowski17), [Mueller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [AMST 18](#AMST18), [BDFKFS 18](#BDFKFS18), [Crivellin 18](#Crivellin18), [MMR 18](#MMR18), [Kumar-London 19, section 2.2.1](#KumarLondon19), [MVT 19](#MVT19), [AMM 19](#AMM19))
 
 
 From [Crivellin 18, p. 2](#Crivellin18):
@@ -277,6 +277,8 @@ Attempts to explain the anomaly include
 * {#MVT19} Ivo de Medeiros Varzielas, Jim Talbert, _Simplified Models of Flavourful Leptoquarks_ ([arXiv:1901.10484](https://arxiv.org/abs/1901.10484))
 
 * Natascia Vignaroli, _Seeking leptoquarks in the $t \bar t$ plus missing energy channel at the high-luminosity LHC_ ([arXiv:1808.10309](https://arxiv.org/abs/1808.10309))
+
+* {#AMM19} Ufuk Aydemir, Tanumoy Mandal, Subhadip Mitra, _A single TeV-scale scalar leptoquark in SO(10) grand unification and B-decay anomalies_ ([arXiv:1902.08108](https://arxiv.org/abs/1902.08108))
 
 [[leptoquarks]] within a [[Randall-Sundrum model]]:
 
