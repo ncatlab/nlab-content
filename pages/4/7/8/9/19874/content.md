@@ -126,6 +126,8 @@ As a potential solution of the apparent [[B meson]] [[flavour anomaly]]:
 
 * Natascia Vignaroli, _Seeking leptoquarks in the $t \bar t$ plus missing energy channel at the high-luminosity LHC_ ([arXiv:1808.10309](https://arxiv.org/abs/1808.10309))
 
+* {#AMM19} Ufuk Aydemir, Tanumoy Mandal, Subhadip Mitra, _A single TeV-scale scalar leptoquark in SO(10) grand unification and B-decay anomalies_ ([arXiv:1902.08108](https://arxiv.org/abs/1902.08108))
+
 
 and within [[Randall-Sundrum models]]
 
