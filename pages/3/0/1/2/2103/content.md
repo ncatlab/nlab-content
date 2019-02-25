@@ -12,7 +12,7 @@ as well as for the development of [[star-autonomous category|star-autonomous cat
 
 are aimed at more specialized audiences.
 
-He is on the editorial boards of Mathematical Structures in Computer Science and the electronic journal Homology, Homotopy and Applications, and is editor of the electronic journal Theory and Applications of Categories. Michael Barr has much advocated the methods of his late student Jon Beck, involving monads, especially monadicity criteria and monadic cohomology. 
+He is on the editorial boards of Mathematical Structures in Computer Science and the electronic journal Homology, Homotopy and Applications, and is editor of the electronic journal Theory and Applications of Categories. Michael Barr has much advocated the methods of his late student Jon Beck, involving [[monads]], especially monadicity criteria and [[monadic cohomology]]. 
 
 
 ## Further related $n$Lab entries
