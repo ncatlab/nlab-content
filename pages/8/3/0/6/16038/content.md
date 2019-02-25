@@ -22,7 +22,7 @@ The _canonical resolution_ of $c$ in $C$ with respect to a monad $T:C\to C$ is a
 ###Monadic Cohomology
 {#monadiccohomology}
 
-Given a suitable functor $E:C\to A$, for $A$ an [[additive category]], we can define the _monadic cohomology_ of an object $c$ to be the [[cohomology]] of the [[cochain complex]] associated to the composition of [[functors]] $E\circ CanRes_T:\Delta_+\to A.$ By suitably dualizing, we can define _comonadic cohomology_. 
+Given a suitable functor $E:C\to A$, for $A$ an [[additive category]], we can define the [[monadic cohomology]] of an object $c$ to be the [[cohomology]] of the [[cochain complex]] associated to the composition of [[functors]] $E\circ CanRes_T:\Delta_+\to A.$ By suitably dualizing, we can define _comonadic cohomology_. 
 
 ###Resolution of a $T$-algebra
 
