@@ -17,11 +17,21 @@ There are many notions of _dimension_ of [[space]]s.  What they all have in comm
 
 *  A [[manifold]] is of __dimension__ $n$ if it is locally isomorphic to the [[Cartesian space]] $\mathbb{R}^n$.  A [[complex manifold]] is of __complex dimension__ $n$ if it is locally isomorphic to $\mathbb{C}^n$, hence has (real) dimension $2 n$.
 
-*  A [[topological space]] $X$ has (Lebesgue) __dimension__ less than $n$ if every [[open cover]] $U$ of $X$ has a [[refinement]] $V$ such that every element of $X$ belongs to fewer than $n + 1$ elements of $V$.  (Then $X$ has dimension $n$ if it has dimension less than $n + 1$ but not less than $n$.)  By [[negative thinking]], this makes sense for $n \geq -1$; precisely the [[empty space]] has dimension $-1$, and precisely the [[point]] (of course) has dimension $0$.
+*  A [[topological space]] $X$ has (Lebesgue) __[[covering dimension]]__ less than $n$ if every [[open cover]] $U$ of $X$ has a [[refinement]] $V$ such that every element of $X$ belongs to fewer than $n + 1$ elements of $V$.  (Then $X$ has dimension $n$ if it has dimension less than $n + 1$ but not less than $n$.)  By [[negative thinking]], this makes sense for $n \geq -1$; precisely the [[empty space]] has dimension $-1$, and precisely the [[point]] (of course) has dimension $0$.
+
+* A [[CW-complex]] has [[dimension of a CW-complex]], this being the largest $n$ for which there are nontrivial $n$-[[cells]].
 
 *  A [[metric space]] has a __[[Hausdorff dimension]]__ which may be any non-negative real number.
 
 * A space in [[noncommutative geometry]] ([[spectral geometry]] via [[spectral triples]]) may have a notion of [[KO-dimension]].
+
+See also
+
+  * [[homotopy dimension]]
+
+  * [[cohomology dimension]]
+
+  * [[Heyting dimension]]
 
 ### Of objects in an abelian category: Length
 
