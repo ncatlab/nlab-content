@@ -46,6 +46,8 @@ This is [[Higher Topos Theory|HTT, theorem 7.2.3.6]].
 
 * [[dimension]]
 
+  * [[dimension of a cell complex]]
+
   * [[homotopy dimension]]
 
   * [[cohomology dimension]]
