@@ -15,7 +15,7 @@
 
 ## Idea
 
-A __$2$-functor__ is a [[functor]] between $2$-[[2-category|categories]]. At the 2-categorical level there are several possible versions of this notion one might want depending on the given setting, some of which collapse to the standard definition of a functor between categories when considered on $2$-categories with discrete hom-categories (viewed as $1$-categories). The least restrictive of these is a [[lax functor]], and the strictest is (appropriately) called a [[strict 2-functor]].
+A __$2$-functor__ is the [[categorification]] of the notion of a [[functor]] to the setting of [[2-category|2-categories]]. At the 2-categorical level there are several possible versions of this notion one might want depending on the given setting, some of which collapse to the standard definition of a functor between categories when considered on $2$-categories with discrete hom-categories (viewed as $1$-categories). The least restrictive of these is a [[lax functor]], and the strictest is (appropriately) called a [[strict 2-functor]].
 
 For the various separate definitions that do collapse to standard functors, see:
 
@@ -110,8 +110,11 @@ as illustrated by the commutative $2$-cell diagrams below
 
 \begin{xymatrix@R30mm@C35mm}
 
-P(A)\rtwocell^{P(g)}_{P(g)}{\;\;\;\;\;\;1_{P(g)}} \drtwocell<5.5>_{P(g)\;\;\;\;\;}^{\;\;\;\;\;\;\;\;\;\;\;\;\;\;P(1_B)\circ P(g)}{\;\;\;\;\;\;\;\gamma_{1_B,g}} & P(B) \dtwocell^{\;\;\;\;\;\;P(1_B)}_{1_{P(B)\;\;\;\;\;\;}}{\iota_B} \\ & P(B)} 
-\xymatrix@R30mm@C35mm{P(B) \rtwocell^{P(1_C)}_{1_{P(C)}}{\;\;\;\;\iota_B} \drtwocell<5.5>_{P(f)\;\;\;\;\;}^{\;\;\;\;\;\;\;\;\;\;\;\;\;\;P(1_C)\circ P(f)}{\;\;\;\;\;\;\;\gamma_{f,1_B}} & P(B) \dtwocell<4>^{\;\;\;\;P(f)}_{P(f)\;\;\;\;}{1_{P(f)}} \\ & P(C)
+P(A)\rtwocell^{P(g)}_{P(g)}{\;\;\;\;\;\;1_{P(g)}} \drtwocell<5.5>_{P(g)\;\;\;\;\;}^{\;\;\;\;\;\;\;\;\;\;\;\;\;\;P(1_B)\circ P(g)}{\;\;\;\;\;\;\;\gamma_{1_B,g}} & P(B) \dtwocell^{\;\;\;\;\;\;P(1_B)}_{1_{P(B)\;\;\;\;\;\;}}{\iota_B} \\ & P(B)
+
+\end{xymatrix} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  \begin{xymatrix@R30mm@C35mm}
+
+P(B) \rtwocell^{P(1_C)}_{1_{P(C)}}{\;\;\;\;\iota_B} \drtwocell<5.5>_{P(f)\;\;\;\;\;}^{\;\;\;\;\;\;\;\;\;\;\;\;\;\;P(1_C)\circ P(f)}{\;\;\;\;\;\;\;\gamma_{f,1_B}} & P(B) \dtwocell<4>^{\;\;\;\;P(f)}_{P(f)\;\;\;\;}{1_{P(f)}} \\ & P(C)
 
 \end{xymatrix}
 
