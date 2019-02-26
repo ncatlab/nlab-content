@@ -65,7 +65,7 @@ If $G$ is the topological category associated to the group $G$, then a $G$-space
 
 The nature of the Borel construction as the geometric realization of the action groupoid is mentioned for instance in 
 
-* Alejandro Adem, Michele Klaus, _Lectures on orbifolds and group cohomology_ ([pdf](http://www.math.ubc.ca/~adem/hangzhou.pdf))
+* [[Alejandro Adem]], Michele Klaus, _Lectures on orbifolds and group cohomology_ ([pdf](http://www.math.ubc.ca/~adem/hangzhou.pdf))
 
 * [[Rick Jardine]], _Stacks and the homotopy theory of simplicial sheaves_ ([pdf](http://www.math.uiuc.edu/K-theory/0450/stacks3.pdf))
 
