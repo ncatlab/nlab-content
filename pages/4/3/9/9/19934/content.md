@@ -117,6 +117,8 @@ see _[[G2-orbifold]]_
 
 ## Related concepts
 
+* [[crystallographic group]]
+
 * [[branched cover]]
 
 ## References
