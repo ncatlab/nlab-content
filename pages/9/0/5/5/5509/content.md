@@ -21,10 +21,10 @@
 +-- {: .un_defn}
 ###### Definition
 
-A [[paracompact topological space]] $X$ has **covering dimension** $\leq n \in \mathbb{N}$ if for every [[open cover]] $\{U_i \to X\}$ there exists an open refinement $\{V_i \to X\}$, such that each $(n+1)$-fold intersection of pairwise disting $V_i$ is empty
+A [[paracompact topological space]] $X$ has **covering dimension** $\leq n \in \mathbb{N}$ if for every [[open cover]] $\{U_i \to X\}$ there exists an open refinement $\{V_i \to X\}$, such that each $(n+1)$-fold intersection of pairwise distinct $V_i$ is empty
 
 $$
- V_{i_0} \cap \cdots \cap V_{i_{n+1}} = \emptyset
+ V_{i_1} \cap \cdots \cap V_{i_{n+1}} = \emptyset
   \,.
 $$
 
