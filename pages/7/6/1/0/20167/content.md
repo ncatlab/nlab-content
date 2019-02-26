@@ -64,65 +64,66 @@ For $X$ a [[G-space]], we write
 
 \[
   \label{IsotropySubgroups}
-  Iso_X(G) \subset Sub(G)
+  Isotr_X(G) \subset Sub(G)
 \]
 
 for the [[subset]] of the [[subgroup lattice]] on the [[isotropy groups]] of $X$, hence those [[subgroups]] which appear as [[stabilizer subgroups]] $Stab_G(x)$ of some point $x \in X$. This means that if $H_1, H_2 \in Iso_X(G)$ and $H_1 \lt H_2$ is a strict inclusion, then the [[fixed loci]] differ $X^{H_1} \gt X^{H_2}$.
 
 
 
-Let 
++-- {: .num_defn #MatchingGSpaces}
+###### Definition
+**(matching pair of $G$-spaces)**
 
-1. $X$ be a [[G-CW complex]]
+For $G$ a [[finite group]], we say that a [[pair]] $X,Y \in G Spaces$ of [[topological G-spaces]], where $X$ is a [[G-CW-complex]], is a _matching pair_ if the following conditions are satisfied for all [[isotropy groups]] $H \in Isotr_X(G)$ (eq:IsotropySubgroups) of the $G$-action on $X$.
 
-   such that for all [[stabilizer subgroups]] $H \in Iso_X(G)$
+  
+1. The [[fixed point space]] $X^H$ is a $W_G H = (N_G H) / H $[[G-CW-complex|-complex]] of [[finite number|finite]] [[dimension of a cell complex|dimension]] $dim\big( X^H\big) \in \mathbb{N}$; 
 
-   1. the [[fixed point space]] $X^H$ is a $W_G H = (N_G H) / H $[[G-CW-complex|-complex]] of [[finite number|finite]] [[dimension of a cell complex|dimension]] $dim\big( X^H\big) \in \mathbb{N}$; 
+1. $H^{dim(X^H)}\Big( X^H , \mathbb{Z}\Big) \simeq \mathbb{Z}$ ([[integral cohomology]] of the [[fixed point space]]),
 
-   1. $H^{dim(X^H)}\Big( X^H , \mathbb{Z}\Big) \simeq \mathbb{Z}$ ([[integral cohomology]] of the [[fixed point space]]),
+   this implies that the [[action]] of $W_G(H)$ on cohomology induces a [[group homomorphism]]
 
-      this implies that the [[action]] of $W_G(H)$ on cohomology induces a [[group homomorphism]]
+   \[
+     \label{OrientationBehaviour}
+     e_{H,X}
+     \;\colon\;
+     W_G(H) 
+       \longrightarrow 
+     Aut_{Ab}(\mathbb{Z}) 
+       \simeq 
+     \mathbb{Z}^\times
+   \]
 
-      \[
-        \label{OrientationBehaviour}
-        e_{H,X}
-        \;\colon\;
-        W_G(H) 
-          \longrightarrow 
-        Aut_{Ab}(\mathbb{Z}) 
-          \simeq 
-        \mathbb{Z}^\times
-      \]
+   to be called the _orientation behaviour_ of the action of $W_G(H)$ on $X^H$;
 
-      to be called the _orientation behaviour_ of the action of $W_G(H)$ on $X^H$;
+and
 
-1. $Y$ be a [[G-space]]
+1. $Y^H$ is $(dim(X^H)-1)$-[[n-connected topological space|connected]]
 
-   such that for all [[stabilizer subgroups]] $H \in Iso_X(G)$
+   (hence [[connected topological space|connected]] if $dim\left(X^H\right) = 1$, [[simply connected topological space|simply connected]] if $dim\left(X^H\right) = 2$, etc.);
 
-   1. $Y^H$ is $(dim(X^H)-1)$-[[n-connected topological space|connected]]
+1. $\pi_{dim(X^H)}\big( Y^H\big) \simeq \mathbb{Z}$ ([[homotopy groups]] of [[fixed point space]]),
 
-      (hence [[connected topological space|connected]] if $dim\left(X^H\right) = 1$, [[simply connected topological space|simply connected]] if $dim\left(X^H\right) = 2$, etc.);
+   with the previous point this implies (by the [[Hurewicz theorem]]) that  $H^{dim(X^H)}\Big( Y^H , \mathbb{Z}\Big) \simeq \mathbb{Z}$ and hence orientation behaviour (eq:OrientationBehaviour) $e_{H,Y} \;\colon\; W_G(H) \to \mathbb{Z}^\times$ 
 
-   1. $\pi_{dim(X^H)}\big( Y^H\big) \simeq \mathbb{Z}$ ([[homotopy groups]] of [[fixed point space]]),
-
-      with the previous point this implies (by the [[Hurewicz theorem]]) that  $H^{dim(X^H)}\Big( Y^H , \mathbb{Z}\Big) \simeq \mathbb{Z}$ and hence orientation behaviour (eq:OrientationBehaviour) $e_{H,Y} \;\colon\; W_G(H) \to \mathbb{Z}^\times$ 
-
-   1. $e_{H,X} = e_{H,Y}$, the orientation behaviour (eq:OrientationBehaviour) of $X$ and $Y$ agrees at all [[isotropy groups]].
-
+1. $e_{H,X} = e_{H,Y}$, the orientation behaviour (eq:OrientationBehaviour) of $X$ and $Y$ agrees at all [[isotropy groups]].
 
 For simplicity we also demand that
 
 * $dim(X^H) \geq 1$.
 
+=--
 
-Choose generators in each $H^{dim(X^H)}\big(X^H, \mathbb{Z} \big) \simeq \mathbb{Z}$ ([[orientations]]) and $H^{dim(X^H)}\big(Y^G, \mathbb{Z} \big) \simeq \mathbb{Z}$ This implies that for each equivariant $f \colon X \to Y$ each $f^H \;\colon\; X^H \to Y^H$ has a well-defined [[degree of a continuous function|degree]] $deg(f^H) \in \mathbb{Z}$.
+([tom Dieck 79, p. 212 and p. 213](#tomDieck79))
+
+Given a matching pair of $G$-spaces (Def. \ref{MatchingGSpaces}), we may choose generators in each [[cohomology group]] $H^{dim(X^H)}\big(X^H, \mathbb{Z} \big) \simeq \mathbb{Z}$ and $H^{dim(X^H)}\big(Y^H, \mathbb{Z} \big) \simeq \mathbb{Z}$. Such a choice of [[orientations]] implies that each equivariant $f \colon X \to Y$ each $f^H \;\colon\; X^H \to Y^H$ has a well-defined [[integer]] [[degree of a continuous function|degree]] $deg(f^H) \in \mathbb{Z}$.
 
 +-- {: .num_theorem #EquivariantHopfDegreeTheorem}
 ###### Theorem
 **([[equivariant Hopf degree theorem]])**
 
-Under the above assumptions, the fixed-point-wise degree map
+Giving a matching pair of $G$-spaces $X, Y$ (Def. \ref{MatchingGSpaces}) the fixed-point-wise [[degree of a continuous function|degree]] map
 
 $$
   deg
@@ -131,10 +132,10 @@ $$
   \overset{
     \phantom{AAAA}
   }{\hookrightarrow}
-  \mathbb{Z}^{ Iso_X(G) }
+  \mathbb{Z}^{ Isotr_X(G) }
 $$
 
-(from $G$-[[equivariant homotopy theory|equivariant]] [[homotopy classes]] to [[tuples]] of degrees labeled by [[isotropy groups]]) is an [[injective function|injection]].
+(from $G$-[[equivariant homotopy theory|equivariant]] [[homotopy classes]] to [[tuples]] of [[degree of a continuous function|degrees]] labeled by [[isotropy groups]]) is a [[bijective function|bijection]].
 
 Moreover, for each $[f] \in \pi_0 \mathrm{Maps}\big( X,Y \big)^G$ and for each $H \in Isotropy_X(G)$ 
 
@@ -258,9 +259,11 @@ which depends in a definite way on the degrees of $c^K$ for  all isotropy groups
 
 This follows as a special case of the equivariant Hopf degree theorem (Theorem \ref{EquivariantHopfDegreeTheorem}). 
 
-The list of assumptions there is satisfied because [[G-representation spheres are G-CW-complexes]], and because we are now mapping from the representation sphere to itself, $S^V \to S^V$, which makes all the assumptions on dimensions and orientation data be satisfied.
+Here $(S^V, S^V)$ is a matching pair of $G$-spaces according to Def. \ref{MatchingGSpaces}, because [[G-representation spheres are G-CW-complexes]], and because we are now mapping from the representation sphere to itself, $S^V \to S^V$, which makes all the assumptions on dimensions and orientation data be satisfied.
 
 This equivariant Hopf degree theorem is stated above under the simplifying assumption that the dimension of all fixed loci is positive. But the proof from [tomDieck 79, 8.4](#tomDieck79) immediately applies to our situation where the dimension of the fixed locus at the full subgroup $H = G$ may be 0, with $\left( S^V\right)^G = S^0$. This gives a choice in $\mathbb{Z}_2$ in the first step of the inductive argument in [tomDieck 79, 8.4](#tomDieck79), and from there on the proof applies verbatim.
+
+Alternatively, if $V^G = 0$ we may consider maps $S^{1+V} \to S^{1+V}$ which restrict on $S^1 \to S^1$ to degree zero or one.
 
 =--
 
