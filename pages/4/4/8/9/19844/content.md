@@ -39,7 +39,7 @@ In the current [[standard model of particle physics]] the [[fundamental particle
 Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] around $3$ [[standard deviations|σ]] in [[B meson]] [[scattering amplitude|processes]] in various [[experiments]] such as at the [[LHC]], specifically at the [[LHCb]], the [[Belle experiment]] and the BaBar experiment (see references [below](#References)).
 
 
-The global tension with the standard model by end of 2018 has [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18)). Various authors see the global tension (i.e. of all decay channels jointly) at over $5 \sigma$ already ([CCDGMV 17](#CCDGMV17), [CFMVV 17](#CFMVV17) [CGMS 18](#CGMS18), [Dordei 18, slide 12](#Dordei18)), which traditionally qualifies as detection (see [here](statistical+significance#ParticlePhysics)), some authors already quote $5.3 \sigma - 5.8 \sigma$ ([ACDGMM 19](#ACDGMM19)) or $6 \sigma$ ([Kumar-London 19](#KumarLondon19)).
+The global tension with the standard model by end of 2018 has [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18), [Bouchard-Cao-Owen 19](#BouchardCaoOwen19)). Various authors see the global tension (i.e. of all decay channels jointly) at over $5 \sigma$ already ([CCDGMV 17](#CCDGMV17), [CFMVV 17](#CFMVV17) [CGMS 18](#CGMS18), [Dordei 18, slide 12](#Dordei18)), which traditionally qualifies as detection (see [here](statistical+significance#ParticlePhysics)), some authors already quote $5.3 \sigma - 5.8 \sigma$ ([ACDGMM 19](#ACDGMM19)) or $6 \sigma$ ([Kumar-London 19](#KumarLondon19)).
 
 > graphics grabbed from [Dey 18](#Dey18)
 
@@ -83,7 +83,7 @@ Candidate [[model (in theoretical physics)|models]] of "New Physics" beyond the 
 One apparently promising [[model (in theoretical physics)|model]] that could potentially explain the apparently observed flavour anomalies are
 [[leptoquarks]], which naturally arise in, and hence potentially point to, [[model (in theoretical physics)|models]] of  $SU(5)$-[[grand unified theory]].
 
-(see [Bauer-Neubert 15](#BauerNeubert15), [CCDM 16](#CCDM16), [Crivellin 17](#Crivellin17), [Falkowski17](#Falkowski17), [Mueller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [AMST 18](#AMST18), [BDFKFS 18](#BDFKFS18), [Crivellin 18](#Crivellin18), [MMR 18](#MMR18), [Kumar-London 19, section 2.2.1](#KumarLondon19), [MVT 19](#MVT19), [AMM 19](#AMM19))
+(see [Bauer-Neubert 15](#BauerNeubert15), [CCDM 16](#CCDM16), [Crivellin 17](#Crivellin17), [Falkowski17](#Falkowski17), [Mueller 18](#Mueller18), [Matsuzaki-Nishiwaki 18](#MatsuzakiNishiwaki18), [Monteux-Rajaraman 18](#MonteuxRajaraman18), [AMST 18](#AMST18), [BDFKFS 18](#BDFKFS18), [Crivellin 18](#Crivellin18), [MMR 18](#MMR18), [Kumar-London 19, section 2.2.1](#KumarLondon19), [MVT 19](#MVT19), [AMM 19](#AMM19), [MVK 19](#MVK19))
 
 
 From [Crivellin 18, p. 2](#Crivellin18):
@@ -144,6 +144,10 @@ Measurements include
 
 * [[LHCb collaboration]], _Test of lepton universality using $B^0\to K^{\ast 0} \ell^+ \ell^-$ decays_, JHEP 08 (2017) 055 ([arXiv:1705.05802](https://arxiv.org/abs/1705.05802))
 
+* [[LHCb collaboration]], _Measurement of the ratio of the $B^0 \to D^{\ast -} \tau^+ \vu_\tau$ and $B^0 \to D^{\ast - \mu^+ \nu_\mu}$ branching fractions using three-prong τ-lepton decays_ ([arXiv:1708.08856](https://arxiv.org/abs/1708.08856))
+
+* [[Belle collaboration]], _Measurement of the $\tau$ lepton polarization and $R(D^\ast)$ in the decay $\bar B \to D^\ast \tau^- \bar \nu_\tau$ with one-prong hadronic τ decays at Belle_ ([arXiv:1709.00129](https://arxiv.org/abs/1709.00129))
+
 Review includes
 
 * Elena Graverini, _Flavour anomalies: a review_, in _Proceedings of the [13th International Conference on Beauty, Charm and Hyperon hadrons (BEACH 2018)](http://inspirehep.net/record/1621649)_ ([arXiv:1807.11373](https://arxiv.org/abs/1807.11373))
@@ -162,7 +166,7 @@ Review includes
 
 * {#Adamczyk19} Karol Adamczyk ([[Belle collaboration]]), _Semitauonic B decays at Belle/Belle II_, Proceedings of the [10th International Workshop on the CKM Unitarity Triangle](https://ckm2018.physi.uni-heidelberg.de/) (CKM 2018), Heidelberg, Germany, September 17-21, 2018 ([arXiv:1901.06380](https://arxiv.org/abs/1901.06380))
 
-
+* {#BouchardCaoOwen19} Christopher Bouchard, Lu Cao, Patrick Owen, _Summary of the 2018 CKM working group on semileptonic and leptonic b-hadron decays_ ([arXiv:1902.09412](https://arxiv.org/abs/1902.09412))
 
 Outlook:
 
@@ -279,6 +283,8 @@ Attempts to explain the anomaly include
 * Natascia Vignaroli, _Seeking leptoquarks in the $t \bar t$ plus missing energy channel at the high-luminosity LHC_ ([arXiv:1808.10309](https://arxiv.org/abs/1808.10309))
 
 * {#AMM19} Ufuk Aydemir, Tanumoy Mandal, Subhadip Mitra, _A single TeV-scale scalar leptoquark in SO(10) grand unification and B-decay anomalies_ ([arXiv:1902.08108](https://arxiv.org/abs/1902.08108))
+
+* {#MVK19} Ivo de Medeiros Varzielas, Stephen F. King, _Origin of Yukawa couplings for Higgs and leptoquarks_ ([arXiv:1902.09266](https://arxiv.org/abs/1902.09266))
 
 [[leptoquarks]] within a [[Randall-Sundrum model]]:
 
