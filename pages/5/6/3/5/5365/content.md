@@ -49,6 +49,8 @@ A _finite cell complex_ or _countable cell complex_ is a cell complex with a [[f
 
 * [[vertex]], [[edge]], [[face]]
 
+* [[dimension of a cell complex]]
+
 [[!include universal constructions of topological spaces -- table]]
 
 
