@@ -58,9 +58,9 @@ Frequently Galois connections between collections of [[subsets]] ([[power sets]]
 
 Examples of this class of Galois connections include the following
 
-* **([[Zariski topology]])** The [[closed subsets]] in the [[Zariski topology]] on [[affine space]] $k^n$ or on the set of [[maximal ideals]] of a [[polynomial ring]], which may be understood as the [[fixed point of an adjunction|fixed points]]  of a Galois connection between [[polynomials]] and [[affine space]]/[[maximal ideal]. This is discussed at _[Zariski topology -- In terms of Galois connections](Zariski+topology#InTermsOfGaloisConnections)_.
+* **(Zariski topology)** The [[closed subsets]] in the [[Zariski topology]] on [[affine space]] $k^n$ or on the set of [[maximal ideals]] of a [[polynomial ring]], which may be understood as the [[fixed point of an adjunction|fixed points]]  of a Galois connection between [[polynomials]] and [[affine space]]/[[maximal ideal]]. This is discussed at _[Zariski topology -- In terms of Galois connections](Zariski+topology#InTermsOfGaloisConnections)_.
 
-* **([[orthogonality]] classes)** Given a [[category]] $\mathcal{C}$, then on the [[poset]] of sub-[[classes]] of [[morphisms]] the operations of forming left and right classes with [[orthogonality]] [[lifting property]] constitute a Galois connection.
+* **(orthogonality classes)** Given a [[category]] $\mathcal{C}$, then on the [[poset]] of sub-[[classes]] of [[morphisms]] the operations of forming left and right classes with [[orthogonality]] [[lifting property]] constitute a Galois connection.
 
 In fact all Galois connections between [[power sets]] arise this way, see [below](#BetweenPowerSets).
 
