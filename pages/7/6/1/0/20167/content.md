@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -76,11 +77,7 @@ Let
 
    such that for all [[stabilizer subgroups]] $H \in Iso_X(G)$
 
-   1. the [[fixed point space]] $X^H$ is a $W_G H = (N_G H) / H $[[G-CW-complex|-complex]], 
-
-      we write $dim\big( X^H\big)$ for its [[dimension]];
-
-   1. $dim(X^H) \geq 1$;
+   1. the [[fixed point space]] $X^H$ is a $W_G H = (N_G H) / H $[[G-CW-complex|-complex]] of [[finite number|finite]] [[dimension of a cell complex|dimension]] $dim\big( X^H\big) \in \mathbb{N}$; 
 
    1. $H^{dim(X^H)}\Big( X^H , \mathbb{Z}\Big) \simeq \mathbb{Z}$ ([[integral cohomology]] of the [[fixed point space]]),
 
@@ -97,19 +94,27 @@ Let
         \mathbb{Z}^\times
       \]
 
-      to be called the _orientation behaviour_ of $H$ on $X$;
+      to be called the _orientation behaviour_ of the action of $W_G(H)$ on $X^H$;
 
 1. $Y$ be a [[G-space]]
 
    such that for all [[stabilizer subgroups]] $H \in Iso_X(G)$
 
-   1. $Y^H$ is $dim(X^H)$-[[n-connected topological space|connected]];
+   1. $Y^H$ is $(dim(X^H)-1)$-[[n-connected topological space|connected]]
+
+      (hence [[connected topological space|connected]] if $dim\left(X^H\right) = 1$, [[simply connected topological space|simply connected]] if $dim\left(X^H\right) = 2$, etc.);
 
    1. $\pi_{dim(X^H)}\big( Y^H\big) \simeq \mathbb{Z}$ ([[homotopy groups]] of [[fixed point space]]),
 
       with the previous point this implies (by the [[Hurewicz theorem]]) that  $H^{dim(X^H)}\Big( Y^H , \mathbb{Z}\Big) \simeq \mathbb{Z}$ and hence orientation behaviour (eq:OrientationBehaviour) $e_{H,Y} \;\colon\; W_G(H) \to \mathbb{Z}^\times$ 
 
    1. $e_{H,X} = e_{H,Y}$, the orientation behaviour (eq:OrientationBehaviour) of $X$ and $Y$ agrees at all [[isotropy groups]].
+
+
+For simplicity we also demand that
+
+* $dim(X^H) \geq 1$.
+
 
 Choose generators in each $H^{dim(X^H)}\big(X^H, \mathbb{Z} \big) \simeq \mathbb{Z}$ ([[orientations]]) and $H^{dim(X^H)}\big(Y^G, \mathbb{Z} \big) \simeq \mathbb{Z}$ This implies that for each equivariant $f \colon X \to Y$ each $f^H \;\colon\; X^H \to Y^H$ has a well-defined [[degree of a continuous function|degree]] $deg(f^H) \in \mathbb{Z}$.
 
