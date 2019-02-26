@@ -16,7 +16,7 @@
 
 ## Idea
 
-A refinement of the notion of [[covering dimension]].
+A refinement of the notion of [[covering dimension]] for [[Heyting space]]s that takes [[ordinal]] values.
 
 
 ## Related concepts
