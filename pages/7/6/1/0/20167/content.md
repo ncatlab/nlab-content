@@ -113,11 +113,43 @@ For simplicity we also demand that
 
 * $dim(X^H) \geq 1$.
 
+Given a matching pair of $G$-spaces, we say that a choice of generators in the [[cohomology groups]] of all the fixed strata
+
+\[
+  \label{ChoiceOfStratumWiseOrientations}
+  \begin{aligned}
+    or_{X,H}
+    & = 
+    \pm 1 \in
+    \mathbb{Z}
+    \simeq
+    H^{dim(X^H)}\big(X^H, \mathbb{Z} \big)
+    \\
+    or_{Y,H}
+    & = 
+    \pm 1 \in
+    \mathbb{Z}
+    \simeq
+    H^{dim(X^H)}\big(Y^H, \mathbb{Z} \big)
+  \end{aligned}
+\] 
+
+is a _choice of singularity-wise [[orientations]]_.  Given such a choice and an equivariant continuous function $f \colon X \to Y$, we have for each [[isotropy group]] $H \in Isotr_X(G)$ that the continuous function $f^H \;\colon\; X^H \to Y^H$ has a well-defined [[integer]] [[degree of a continuous function|degree]] 
+
+\[
+  \label{IntegerDegreeOfEquivariantFunctionOnFixedStrata}
+  deg(f^H) 
+  \;
+    \in 
+  \;\mathbb{Z}
+  \,.
+\]
+
+
 =--
 
 ([tom Dieck 79, p. 212 and p. 213](#tomDieck79))
 
-Given a matching pair of $G$-spaces (Def. \ref{MatchingGSpaces}), we may choose generators in each [[cohomology group]] $H^{dim(X^H)}\big(X^H, \mathbb{Z} \big) \simeq \mathbb{Z}$ and $H^{dim(X^H)}\big(Y^H, \mathbb{Z} \big) \simeq \mathbb{Z}$. Such a choice of [[orientations]] implies that each equivariant $f \colon X \to Y$ each $f^H \;\colon\; X^H \to Y^H$ has a well-defined [[integer]] [[degree of a continuous function|degree]] $deg(f^H) \in \mathbb{Z}$.
 
 
 +-- {: .num_example #RepresentationSphereToRepresentationSphereIsMatchingPair}
@@ -193,7 +225,7 @@ $$
 
 Moreover, for each $[f] \in \pi_0 \mathrm{Maps}\big( X,Y \big)^G$ and for each $H \in Isotropy_X(G)$ 
 
-1. the $H$-degree modulo the [[order of a group|order]] of the [[Weyl group]]
+1. the $H$-degree (eq:IntegerDegreeOfEquivariantFunctionOnFixedStrata) modulo the [[order of a group|order]] of the [[Weyl group]]
 
    $$
      deg\left( f^H\right) \,mod\, {\vert W_G(H)\vert}
