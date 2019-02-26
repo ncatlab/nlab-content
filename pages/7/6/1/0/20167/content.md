@@ -119,6 +119,60 @@ For simplicity we also demand that
 
 Given a matching pair of $G$-spaces (Def. \ref{MatchingGSpaces}), we may choose generators in each [[cohomology group]] $H^{dim(X^H)}\big(X^H, \mathbb{Z} \big) \simeq \mathbb{Z}$ and $H^{dim(X^H)}\big(Y^H, \mathbb{Z} \big) \simeq \mathbb{Z}$. Such a choice of [[orientations]] implies that each equivariant $f \colon X \to Y$ each $f^H \;\colon\; X^H \to Y^H$ has a well-defined [[integer]] [[degree of a continuous function|degree]] $deg(f^H) \in \mathbb{Z}$.
 
+
++-- {: .num_example #RepresentationSphereToRepresentationSphereIsMatchingPair}
+###### Example
+
+Let $G$ be a [[finite group]] and $V \in RO(G)$ a [[finite-dimensional vector space|finite-dimensional]] [[orthogonal group|orthogonal]] [[linear representation]] of $G$. Then the pair 
+
+$$
+  (X \coloneqq S^V,\; Y \coloneqq S^V)
+$$
+
+consisting of two copies of the [[representation sphere]] of $V$ is a matching pair of $G$-spaces, according to Def. \ref{MatchingGSpaces}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First notice that an $H$-[[fixed locus]] of any $G$-representation sphere is itself a $W_G(H)$-representation sphere, since $\left(S^V\right)^H \simeq S^{\left( V^H\right)}$. That these are all [[G-CW-complex|WH-CW-complexes]] follows because generally [[G-representation spheres are G-CW-complexes]]. Moreover, since the [[topological spaces]] underlying all these fixed loci are [[n-spheres]], and since we have the same spheres for $X$ and $Y$, the connectivity and orientability conditions in Def. \ref{MatchingGSpaces} are evidently satisfied.
+
+=--
+
++-- {: .num_example #RepresentationTorusToRepresentationSphereIsMatchingPair}
+###### Example
+
+Let $G$ be a [[finite group]] which arises as the [[point group]] $G \simeq S/N$ of a [[crystallographic group]] $S \subset Iso(E)$ of some [[Euclidean space]] $E$. Then the pair
+
+$$
+  \big(
+    X \coloneqq E/N
+    \,;
+    Y \coloneqq S^E
+  \big)
+$$
+
+consisting of 
+
+1. the [[torus]] $E/N$ which is the [[quotient space]] of $E$ by the given crystallographic sub-lattice $N \subset E$ and equipped with the $G$-[[action]] descending from that on $E$ ([this Prop.](crystallographic+group#InducedPointGroupActionOnTorus));
+
+1. the [[representation sphere]] of the [[linear representation|linear action]] of the point group $G$ on $E$
+
+is a matching pair of $G$-spaces, according to Def. \ref{MatchingGSpaces}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[torus]] $E/N$ carries the [[structure]] of a [[smooth manifold]] for which the $G$-[[action]] is [[smooth]]. Since $G$ is [[finite group|finite]], also all its [[fixed loci]] $(E/N)^H$ are smooth manifolds ([this Prop.](equivariant+differential+topology#FixedLociOfSmoothProperActionsAreSubmanifolds)). By the [[equivariant triangulation theorem]], all these are [[G-CW-complexes|WH-CW-complexes]].
+
+Moreover, the orientability and connectivity assumptions in Def. \ref{MatchingGSpaces} are evidently satisfied, using the fact that both $E/N$ as well as $S^E$ are modeled on the same linear $G$-representation space $E$.
+
+=--
+
+
 +-- {: .num_theorem #EquivariantHopfDegreeTheorem}
 ###### Theorem
 **([[equivariant Hopf degree theorem]])**
@@ -259,7 +313,7 @@ which depends in a definite way on the degrees of $c^K$ for  all isotropy groups
 
 This follows as a special case of the equivariant Hopf degree theorem (Theorem \ref{EquivariantHopfDegreeTheorem}). 
 
-Here $(S^V, S^V)$ is a matching pair of $G$-spaces according to Def. \ref{MatchingGSpaces}, because [[G-representation spheres are G-CW-complexes]], and because we are now mapping from the representation sphere to itself, $S^V \to S^V$, which makes all the assumptions on dimensions and orientation data be satisfied.
+Here $(S^V, S^V)$ is a matching pair of $G$-spaces according to Example \ref{RepresentationSphereToRepresentationSphereIsMatchingPair}.
 
 This equivariant Hopf degree theorem is stated above under the simplifying assumption that the dimension of all fixed loci is positive. But the proof from [tomDieck 79, 8.4](#tomDieck79) immediately applies to our situation where the dimension of the fixed locus at the full subgroup $H = G$ may be 0, with $\left( S^V\right)^G = S^0$. This gives a choice in $\mathbb{Z}_2$ in the first step of the inductive argument in [tomDieck 79, 8.4](#tomDieck79), and from there on the proof applies verbatim.
 
