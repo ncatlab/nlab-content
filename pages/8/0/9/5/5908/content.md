@@ -26,7 +26,7 @@ The [[Grothendieck topology]] generated from a regular coverage is called the _r
 
 * If $C$ is [[exact category|exact]] or has pullback-stable [[reflexive coequalizer]]s, then its [[codomain fibration]] is a [[stack]] for this topology (the necessary and sufficient condition is that any pullback of a kernel pair is again a kernel pair).
 
-* For $\mathcal{C}_{\mathbb{T}}$ the [[syntactic category]] of a [[regular theory]], the regular coverage makes it the [[syntactic site]], which is a site of defininition for the [[classifying topos]] of $\mathcal{T}$.
+* For $\mathcal{C}_{\mathbb{T}}$ the [[syntactic category]] of a [[regular theory]], the regular coverage makes it the [[syntactic site]], which is a site of defininition for the [[classifying topos]] of $\mathbb{T}$.
 
 [[!redirects regular coverages]]
 
