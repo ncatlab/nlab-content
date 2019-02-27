@@ -165,10 +165,10 @@ Regarding the third point: Observe that in a poset such as $P(Y)$, we have that 
 
 $$
   \array{
-    T \subset V_E(\bigcup_{i \in I} S_i) & iff & \bigcup_{i: I} S_i \subset I_E(T) \\
-    & iff & \forall_{i: I} S_i \subset I_E(T) \\
-    & iff & \forall_{i: I} T \subset V_E(S_i) \\
-    & iff & T \subset \bigcap_{i: I} V_E(S_i)
+    T \subset V_E(\bigcup_{i \in I} S_i) & \text{iff} & \bigcup_{i: I} S_i \subset I_E(T) \\
+    & \text{iff} & \forall_{i: I} S_i \subset I_E(T) \\
+    & \text{iff} & \forall_{i: I} T \subset V_E(S_i) \\
+    & \text{iff} & T \subset \bigcap_{i: I} V_E(S_i)
 }
 $$
 
