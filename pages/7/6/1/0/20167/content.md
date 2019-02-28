@@ -221,7 +221,7 @@ $$
   \mathbb{Z}^{ Isotr_X(G) }
 $$
 
-(from $G$-[[equivariant homotopy theory|equivariant]] [[homotopy classes]] to [[tuples]] of [[degree of a continuous function|degrees]] labeled by [[isotropy groups]]) is a [[bijective function|bijection]].
+(from $G$-[[equivariant homotopy theory|equivariant]] [[homotopy classes]] to [[tuples]] of [[degree of a continuous function|degrees]] labeled by [[isotropy groups]]) is an [[injective function|injection]].
 
 Moreover, for each $[f] \in \pi_0 \mathrm{Maps}\big( X,Y \big)^G$ and for each $H \in Isotropy_X(G)$ 
 
@@ -240,7 +240,7 @@ Moreover, for each $[f] \in \pi_0 \mathrm{Maps}\big( X,Y \big)^G$ and for each $
 
 =--
 
-([tomDieck 79, 8.4](#tomDieck79))
+([tom Dieck 79, 8.4](#tomDieck79))
 
 
 As a special case of the [[equivariant Hopf degree theorem]] (Theorem \ref{EquivariantHopfDegreeTheorem}), we obtain the following:
