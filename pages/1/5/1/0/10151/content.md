@@ -25,7 +25,7 @@ Let $\mathcal{D}$ be a category with pullbacks, and let $\eta: S \to T$ be a [[n
 $$\array{
 S A & \stackrel{\eta A}{\to} & T A \\
 \mathllap{S i} \downarrow & & \downarrow \mathrlap{T i} \\ 
-T A & \underset{\eta B}{\to} & T B
+S B & \underset{\eta B}{\to} & T B
 }$$ 
 
 is a pullback for every monomorphism $i$ in $\mathcal{C}$. 
