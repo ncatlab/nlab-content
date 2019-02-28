@@ -119,7 +119,7 @@ $$
 ### Realization via quaternions
  {#RealizationViaQuaternions}
 
-Alternatively, we may regard $S^3 \simeq S(\mathbb{H})$ as the [[unit sphere]] in the [[quaternions]] and $S^2 \simeq S\left( \mathbb{H}_{\mathrm{im}}\right)$ as the unit wphere in the [[imaginary part|imaginary]] quaternions. Under this identification, the complex Hopf fibration is equivalently represented by
+Alternatively, we may regard $S^3 \simeq S(\mathbb{H})$ as the [[unit sphere]] in the [[quaternions]] and $S^2 \simeq S\left( \mathbb{H}_{\mathrm{im}}\right)$ as the unit sphere in the [[imaginary part|imaginary]] [[quaternions]]. Under this identification, the complex Hopf fibration is equivalently represented by
 
 $$
   \array{
