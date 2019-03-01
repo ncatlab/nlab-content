@@ -37,11 +37,13 @@ In ([Witten11](#Witten11)) it is argued, following indications in ([GukovSchwarz
 that this 4d TQFT is related to the [[worldvolume]] theory of the _image_ in [[type IIA string theory|type IIA]] of [[D3-branes]] ending on NS5-branes in [[type IIB string theory|type IIB]] after one [[S-duality]] and one [[T-duality]] operation:
 
 $$
-  (D3 - NS4)
+  (D3 - NS5)
     \stackrel{S}{\mapsto}
   (D3 - D5)
     \stackrel{T}{\mapsto}
   (D4-D6)
+    \stackrel{IIA/M}{\mapsto}
+  (M5 - MK6)
   \,.
 $$
 
@@ -49,7 +51,7 @@ Earlier indication for this had come from the observation that [[Chern-Simons th
 
 Notice that after the above [[T-duality]] operation the $(D4-D6)$-system wraps the $S^1$ ([[circle]]) along which the T-duality takes place. 
 
-Lifting that configuration to [[11-dimensional supergravity]] gives [[M5-branes]] (the erstwhile [[D4-brane]]s) on [[Taub-NUT spacetime|Taub-NUT]] ($\times S^1$). The [[M5-branes]] wrap the circle-fiber of Taub-NUT, which shrinks to zero size at the origin (the location of the erstwhile D6, which is where the D4s "end"). The low-energy theory, on a stack of M5-branes, is the [[6d (2,0)-susy QFT]]. 
+Lifting that configuration to [[11-dimensional supergravity]] gives [[M5-branes]] (the erstwhile [[D4-brane]]s) on [[Taub-NUT spacetime|Taub-NUT]] ($\times S^1$). The [[M5-branes]] wrap the circle-fiber of [[Taub-NUT space]], which shrinks to zero size at the origin (the [[MK6]], the location of the erstwhile D6, which is where the D4s "end"). The low-energy theory, on a stack of M5-branes, is the [[6d (2,0)-susy QFT]]. 
 
 
 ## Related concepts
