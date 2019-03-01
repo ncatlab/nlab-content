@@ -21,7 +21,11 @@ This page collects material related to the book
 
   Cambridge University Press 1994
 
-on [[locally presentable category|locally presentable]] and [[accessible category|accessible]] [[categories]].  
+on [[locally presentable category|locally presentable]] and [[accessible category|accessible]] [[categories]].  There is a 
+
+* [list of corrections](https://www.tu-braunschweig.de/Medien-DB/iti/cor.pdf)
+
+made available by the authors.
 
 
 ## Contents
