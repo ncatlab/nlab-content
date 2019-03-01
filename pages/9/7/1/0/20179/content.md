@@ -15,7 +15,7 @@ For [[regular cardinals]] $\lambda\le\mu$, the following are equivalent:
 
 For a proof, see Theorem 2.11 of [Adamek-Rosicky](#AR) or section 2.3 of [Makkai-Pare](#MP).
 
-If these equivalent conditions hold, we write $\lambda\unlhd \mu$.  If $\lambda \lhd \mu$ and $\lambda\lt\mu$, we write $\lambda\lhd \mu$ and say that $\lambda$ is **sharply smaller** than $\mu$.
+If these equivalent conditions hold, we write $\lambda\unlhd \mu$.  If $\lambda \unlhd \mu$ and $\lambda\lt\mu$, we write $\lambda\lhd \mu$ and say that $\lambda$ is **sharply smaller** than $\mu$.
 
 ### Examples
 
