@@ -39,14 +39,14 @@ $$
   \,.
 $$
 
-This implies in particular the [[suspension isomorphism]]: for  $n\in \mathbb{N}$ there is, for each $G$-space $X$, an identificaction 
+This implies in particular the [[suspension isomorphism]]: for  $n\in \mathbb{N}$ there is, for each $G$-space $X$, an identification 
 
 $$
    E_G^\bullet(X) \simeq  E_G^{\bullet + n}(S^n \wedge X)
   \,,
 $$
 
-where in the smash product $S^n \wedge X$ the group $G$ is to be taken to act trivially on the [[sphere]] $S^n$. From this perspective it is desireable to have an analogous relation also for smashing with spheres on which the group $G$ acts nontrivially. Since we may think of $S^n$ as being the [[representation sphere]] of the trivial action of $G$ on $\mathbb{R}^n$, this leads one to demand that $E^\bullet$ is graded not just by the integers, but by any [[linear representation]] $V$, so that one has _equivariant [[suspension isomorphisms]]_
+where in the smash product $S^n \wedge X$ the group $G$ is to be taken to act trivially on the [[sphere]] $S^n$. From this perspective it is desirable to have an analogous relation also for smashing with spheres on which the group $G$ acts nontrivially. Since we may think of $S^n$ as being the [[representation sphere]] of the trivial action of $G$ on $\mathbb{R}^n$, this leads one to demand that $E^\bullet$ is graded not just by the integers, but by any [[linear representation]] $V$, so that one has _equivariant [[suspension isomorphisms]]_
 
 $$
   E_G^\bullet(X) \simeq E_G^{\bullet + V}(S^V \wedge X)
