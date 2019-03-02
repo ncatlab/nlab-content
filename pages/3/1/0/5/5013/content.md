@@ -28,9 +28,7 @@ A **finite topological space** is a [[topological space]] whose underlying [[set
 +-- {: .num_prop}
 ###### Proposition
 
-Every [[finite topological space]] is an [[Alexandroff space]].
-
-I.e. finite topological spaces are [[equivalence of categories|equivalent]] to finite [[preordered sets]], by the [[specialisation order]].
+Every [[finite topological space]] is an [[Alexandroff space]], i.e. finite topological spaces are [[equivalence of categories|equivalent]] to finite [[preordered sets]], by the [[specialisation order]].
 
 =--
 
