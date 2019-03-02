@@ -1,5 +1,5 @@
 
-Michael Campbell McCord was an American mathematician probably best known for his work on finite topological spaces and on the [[nerve theorem]].
+Michael Campbell McCord was an American mathematician probably best known for his work on [[finite topological spaces]] and on the [[nerve theorem]].
 
 ##References
 
