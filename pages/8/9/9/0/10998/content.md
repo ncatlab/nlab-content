@@ -61,8 +61,7 @@ Discussion specifically in the context of [[NuPRL]] is in
 * _Innovations in Computational Type Theory using Nuprl_ ([pdf](http://www.cs.uni-potsdam.de/ti/kreitz/PDF/05jal-nuprl.pdf))
  {#NuPRL05}
 
-* [[Robert Constable]], _The Triumph of Types: Creating a Logic of
-Computational Reality_ ([[ConstableTriumphOfTypes.pdf:file]])
+* [[Robert Constable]], _The Triumph of Types: Creating a Logic of Computational Reality_ ([[ConstableTriumphOfTypes.pdf:file]])
  {#Constable}
 
 Discussion in the sense of [[modal type theory]] where computation is exhibited by a [[monad (in computer science)]] is in 
