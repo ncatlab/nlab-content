@@ -109,7 +109,7 @@ In addition we have
 <img src="https://ncatlab.org/nlab/files/ArakiIriyeResults.jpg" width="600">
 \end{center}
 
-> The table shows the $\mathbb{Z}/2$-equivariant stable homotopy groups of spheres $\pi^S_{p,q}$ with $p+q$ increasing horizontally to the right, and $p$ increasing vertically upwards. The origin in the double-circled $\pi^S_{0,0} = \mathbb{Z}^2$ (which follows from the [[equivariant Hopf degree theorem]]).  The [[complex Hopf fibration]] $\hat\eta$ generates $\pi^S_{1,0} = \mathbb{Z}$, and the [[quaternionic Hopf fibration]] generates $\pi^S_{2,1} = \mathbb{Z}/24$
+> The table shows the $\mathbb{Z}/2$-equivariant stable homotopy groups of spheres $\pi^S_{p,q}$ with $p+q$ increasing horizontally to the right, and $p$ increasing vertically upwards. The origin is the double-circled $\pi^S_{0,0} = \mathbb{Z}^2$ (which follows from the [[equivariant Hopf degree theorem]]).  The [[complex Hopf fibration]] $\hat\eta$ generates $\pi^S_{1,0} = \mathbb{Z}$, and the [[quaternionic Hopf fibration]] generates $\pi^S_{2,1} = \mathbb{Z}/24$
 
 > graphics grabbed from [Dugger 08](#Dugger08), based on [Araki-Iriye 82](#ArakiIriye82)
 
