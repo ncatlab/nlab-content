@@ -83,6 +83,8 @@ Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny 
 
 ### Other
 
+* _A Crisis of Identification_, Inference: International Review of Science **4** Issue 3 (2019) ([link](https://inference-review.com/article/a-crisis-of-identification))
+
 * _No Ancient Scottish Evidence of Fifth Platonic Solid_, Letter to the Editor, Notices of the American Mathematical Society **65** no 6 (2018) p 677 ([link](https://www.ams.org/journals/notices/201806/rnoti-p676.pdf))
 
 * _What do mathematicians think about their journals? Peer review quality tops list of stated issues_, LSE Impact Blog, June 22 2016 [Blog post](http://blogs.lse.ac.uk/impactofsocialsciences/2016/06/22/what-do-mathematicians-think-about-their-journals-peer-review-quality-tops-list-of-stated-issues/) (joint with Cameron Neylon and Mark C. Wilson)
