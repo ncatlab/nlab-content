@@ -26,7 +26,7 @@ Compare also the notion of [[rig category]].
 ## Definitions
  {#Definitions}
 
-Since [[categorification]] involves some arbitrary choices that will be determined by the precise intended application, there is a bit of flexibility of what exactly what one may want to call a _2-ring_. We first list some immediate possibilities of classes of monoidal and enriched categories that one may want to think of as 2-rings:
+Since [[categorification]] involves some arbitrary choices that will be determined by the precise intended application, there is a bit of flexibility of what exactly one may want to call a _2-ring_. We first list some immediate possibilities of classes of monoidal and enriched categories that one may want to think of as 2-rings:
 
 * [Enriched monoidal categories](#EnrichedMonoidalCategories)
 
@@ -83,7 +83,7 @@ One can define [[braided monoidal category|braided]] and [[symmetric monoidal ca
 ### Compatibly monoidal presentable categories
  {#CompatiblyMonoidalPresentableCategories}
 
-The following refines the [above](#MonoidalCompleteCateories) by demanding the underlying category of a 2-ring to be not just cocomplet but even a [[presentable category]]. This was motivated in ([CJF, remark 2.1.10](#CJF)).
+The following refines the [above](#MonoidalCompleteCateories) by demanding the underlying category of a 2-ring to be not just cocomplete but even a [[presentable category]]. This was motivated in ([CJF, remark 2.1.10](#CJF)).
 
 +-- {: .num_defn }
 ###### Definition
