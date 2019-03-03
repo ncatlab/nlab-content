@@ -67,7 +67,7 @@ The text goes on to argue that spaces of this form $G/Stab_G(S)$ are of fundamen
 
 * For $G = E(n)$, the [[Euclidean group]] in $n$-dimensions; $H = O(n)$, the [[orthogonal group]]; then, $X$ is $n$-dimensional [[Cartesian space]].
 
-* Analogously, for $G = Iso(d,1)$ the [[Poincare group]] of $(d+1)$-dimensional [[Minkowski space]], and $H = SO(d,1)$ the [[special orthogonal group]] of rotations and [[Lorentz boosts]], then $X = \mathbb{R}^{d+1}$ is [[Minkowski space]] itself.
+* Analogously, for $G = Iso(d,1)$ the [[Poincare group]] of $(d+1)$-dimensional [[Minkowski space]], and $H = O(d,1)$ the [[Lorentz group]], then $X = \mathbb{R}^{d+1}$ is [[Minkowski space]] itself.
 
   Passing to the corresponding [[Cartan geometry]] -- by what physicists call _gauging_ -- yields the [[first order formulation of gravity]].
 
