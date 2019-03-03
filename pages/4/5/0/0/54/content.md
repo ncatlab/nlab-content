@@ -4,9 +4,7 @@
 
 $\,$
 
-
-
-<div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="http://www.christiansaemann.de/higherworkshop2014/photos/thumb.Urs.jpg" alt="Urs Schreiber at Fields Institute" />
+<div style="float:right;margin:0 20px 10px 20px;"><img width = "230" src="http:ncatlab.org/nlab/files/Urs_Schreiber_portrait_2018.jpg" alt="Urs Schreiber" />
 </div>
 
 
@@ -177,7 +175,9 @@ I am writing an irregular column at [PhysicsForums Insights](https://www.physics
 
 For logs of further activity see my page
 
-* _[at Google+](https://plus.google.com/+UrsSchreiber/posts)_;
+* _[at Twitter](https://twitter.com/SchreiberUrs)_
+
+* _[at Google+](https://plus.google.com/+UrsSchreiber/posts)_ (soon gone)
 
 and for links to technical discussions about maths and physics see my pages
 
