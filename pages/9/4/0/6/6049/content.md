@@ -80,6 +80,12 @@ $$
 This leads to what is called [[geometric engineering of quantum field theory]] on the [[worldvolume]] of these branes (following [Hanany-Witten 97](#HananyWitten97), review includes [Fazzi 17](#Fazzi17)).
 
 
+#### Open D$p$-brane theories on the NS5
+
+Combining the above two items, the corresponding [[worldvolume]] theories of the NS5-branes (see also at [[little string theory]]) in the presence of light D$p$-branes ending on/inside them are also referred to as "open D$p$-brane theories" or "OD$p$ theories" ([Gopakumar-Minwalla-Seiberg-Strominger 00, section 6](#GopakumarMinwallaSeibergStrominger00), [Harmark 00, section 4.2](#Harmark00), [Lu 06, section 6](#Lu06))
+
+
+
 #### D4-branes ending on NS5-branes
 
 see [Witten 97](#Witten97)
@@ -192,14 +198,22 @@ corresponding [[brane webs]]:
 ### NS5/D4/D2 bound states
  {#NS5D4D2BoundStates}
 
-[[bound states]] of NS5-branes with [[D4-branes]] and [[D2-branes]]: [Mitra-Roy 00](#MitraRoy00), [Mukhi-Suryanarayana 00](#MukhiSuryanarayana00), [Mitra-Roy 01](#MitraRoy01), [Alishahiha-Oz 00](#AlishahihaOz00), [Petri 18](#Petri18)
+[[bound states]] of NS5-branes with [[D4-branes]] and [[D2-branes]]: 
 
+[Mitra-Roy 00, section 4](#MitraRoy00), [Mukhi-Suryanarayana 00](#MukhiSuryanarayana00), also [Mitra-Roy 01](#MitraRoy01), [Alishahiha-Oz 00](#AlishahihaOz00).
 
 <img src="https://ncatlab.org/nlab/files/NS5-D4-D2.jpg" width="440"/>
 
 > graphics grabbed from [Mukhi-Suryanarayana 00](#MukhiSuryanarayana00)
 
-Configurations with the D-branes and D2-branes contained strictly inside the NS5: [Mitra-Roy 00, section 4](#MitraRoy00)
+Notice that this includes configurations with the D4-branes and D2-branes contained strictly inside the NS5: [Mitra-Roy 00, section 4](#MitraRoy00)
+
+Review includes [Camino 02, section 4.5](#Camino02)
+
+
+see also [Petri 18](#Petri18)
+
+
 
 ### Relation to Khovanov homology
 
@@ -350,10 +364,12 @@ Intersection of [[black brane|black]] NS5-branes with [[O8-planes]]/[[black bran
 
 
 ### NS5/D4/D2 bound states
+ {#ReferencesNS5D4D2BoundStates}
 
 [[bound states]] of NS5-branes with [[D4-branes]] and [[D2-branes]]
 
 * {#MitraRoy00} Indranil Mitra, Shibaji Roy, _(NS5,Dp) and (NS5,D(p+2),Dp) bound states of type IIB and type IIA string theories_, JHEP 0102:026, 2001 ([arXiv:hep-th/0011236](https://arxiv.org/abs/hep-th/0011236))
+
 
 * {#AlishahihaOz00} Mohsen Alishahiha, Yaron Oz, _Supergravity and "New" Six-Dimensional Gauge Theories_, Phys.Lett.B495:418-426, 2000 ([arXiv:hep-th/0008172](https://arxiv.org/abs/hep-th/0008172))
 
@@ -361,9 +377,26 @@ Intersection of [[black brane|black]] NS5-branes with [[O8-planes]]/[[black bran
 
 * {#MukhiSuryanarayana00} [[Sunil Mukhi]], Nemani V. Suryanarayana, _Stable Non-BPS States and Their Holographic Duals_, Int. J. Mod. Phys. A16 (2001) 966-975 ([arXiv:hep-th/0011185](https://arxiv.org/abs/hep-th/0011185))
 
+
+
+* {#Camino02} J. M. Camino, section 4.5 of _Worldvolume Dynamics of Branes_ ([arXiv:hep-th/0210249](https://arxiv.org/abs/hep-th/0210249))
+
+
 * Giuseppe Dibitetto, Nicolò Petrim, _6d surface defects from massive type IIA_, JHEP 01 (2018) 039 ([arXiv:1707.06154](https://arxiv.org/abs/1707.06154))
 
+
 * {#Petri18} Nicolò Petri, _Surface defects in massive IIA_, talk at [Recent Trends in String Theory and Related Topics](http://physics.ipm.ac.ir/conferences/stringtheory3/) 2018 ([pdf](http://physics.ipm.ac.ir/conferences/stringtheory3/note/N.Petri.pdf))
+
+### Open D$p$-brane theories on the NS5
+
+* {#GopakumarMinwallaSeibergStrominger00} [[Rajesh Gopakumar]], [[Shiraz Minwalla]], [[Nathan Seiberg]], [[Andrew Strominger]], _OM Theory in Diverse Dimensions_, JHEP 0008:008, 2000 ([arXiv:hep-th/0006062](https://arxiv.org/abs/hep-th/0006062))
+
+
+* {#Harmark00} Troels Harmark, _Open Branes in Space-Time Non-Commutative Little String Theory_,  Nucl.Phys. B593 (2001) 76-98 ([arXiv:hep-th/0007147](https://arxiv.org/abs/hep-th/0007147))
+
+
+* {#Lu06} J. X. Lu, _$(1 + p)$-Dimensional Open $D(p - 2)$ Brane Theories_, JHEP 0108:049, 2001 ([arXiv:hep-th/0102056](https://arxiv.org/abs/hep-th/0102056))
+
 
 [[!redirects NS-5-brane]]
 [[!redirects F5-brane]]
