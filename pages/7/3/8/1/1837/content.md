@@ -209,6 +209,11 @@ The following tries to give an overview of some collection of gauge fields in ph
 
 ### General
 
+Basics on [[fiber bundles in physics]] are recalled in
+
+* Adam Marsh, _Gauge Theories and Fiber Bundles: Definitions, Pictures, and Results_ ([arXiv:1607.03089](https://arxiv.org/abs/1607.03089))
+
+
 An introduction to concepts in the [[quantization]] of gauge theories is in
 
 * [[Nicolai Reshitikhin]], _Lectures on quantization of gauge systems_ ([pdf](http://staff.science.uva.nl/~nresheti/Holb-Quant-Gauge.pdf))
