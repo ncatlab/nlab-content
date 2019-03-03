@@ -176,10 +176,11 @@ Expositions include
 
 * P. Balachandran, G. Marmo, B.-S. Skagerstam, A. Stern, _Classical Topology and Quantum States_ (World Scientific, Singapore, 1991).
 
+* Adam Marsh, _Gauge Theories and Fiber Bundles: Definitions, Pictures, and Results_ ([arXiv:1607.03089](https://arxiv.org/abs/1607.03089))
 
 See also
 
-* [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jur?o]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, 
+* [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurco]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, 
 Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
 
 
