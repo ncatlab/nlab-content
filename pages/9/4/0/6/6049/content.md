@@ -188,6 +188,19 @@ corresponding [[brane webs]]:
 
 > graphics grabbed from (Kimura 16 [pdf](http://www2.yukawa.kyoto-u.ac.jp/~qft.web/2016/slides/kimura.pdf))
 
+
+### NS5/D4/D2 bound states
+ {#NS5D4D2BoundStates}
+
+[[bound states]] of NS5-branes with [[D4-branes]] and [[D2-branes]]: [Mitra-Roy 00](#MitraRoy00), [Mukhi-Suryanarayana 00](#MukhiSuryanarayana00), [Mitra-Roy 01](#MitraRoy01), [Alishahiha-Oz 00](#AlishahihaOz00), [Petri 18](#Petri18)
+
+
+<img src="https://ncatlab.org/nlab/files/NS5-D4-D2.jpg" width="440"/>
+
+> graphics grabbed from [Mukhi-Suryanarayana 00](#MukhiSuryanarayana00)
+
+Configurations with the D-branes and D2-branes contained strictly inside the NS5: [Mitra-Roy 00, section 4](#MitraRoy00)
+
 ### Relation to Khovanov homology
 
 [[Khovanov homology]] has long been expected to appear as the [[observables]] in a 4-[[dimension]]al [[TQFT]] in higher analogy of how the [[Jones polynomial]] arises as an observable in 3-dimensional [[Chern-Simons theory]]. For instance for $\Sigma : K \to K'$ a cobordism between two [[knots]] there is a natural [[morphism]]
@@ -304,11 +317,11 @@ A review of some aspects is in
 
 The relation to [[Khovanov homology]] is discussed in 
 
-* [[Edward Witten]], _Fivebranes and knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216))
- {#Witten11}
+* {#Witten11} [[Edward Witten]], _Fivebranes and knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216))
+ 
 
-* [[Sergei Gukov]], [[Albert Schwarz]], [[Cumrun Vafa]], _Khovanov-Rozansky Homology And Topological Strings_ , Lett. Math. Phys. 74 (2005) 53-74, ([arXiv:hep-th/0412243](http://arxiv.org/abs/hep-th/0412243))
- {#GukovSchwarzVafa}
+* {#GukovSchwarzVafa} [[Sergei Gukov]], [[Albert Schwarz]], [[Cumrun Vafa]], _Khovanov-Rozansky Homology And Topological Strings_ , Lett. Math. Phys. 74 (2005) 53-74, ([arXiv:hep-th/0412243](http://arxiv.org/abs/hep-th/0412243))
+ 
 
 See also
 
@@ -335,6 +348,22 @@ Intersection of [[black brane|black]] NS5-branes with [[O8-planes]]/[[black bran
 * {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_ ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
 
 
+
+### NS5/D4/D2 bound states
+
+[[bound states]] of NS5-branes with [[D4-branes]] and [[D2-branes]]
+
+[Mitra-Roy 00](#MitraRoy00), [Mukhi-Suryanarayana 00](#MukhiSuryanarayana00)
+
+* {#MitraRoy00} Indranil Mitra, Shibaji Roy, _(NS5,Dp) and (NS5,D(p+2),Dp) bound states of type IIB and type IIA string theories_, JHEP 0102:026, 2001 ([arXiv:hep-th/0011236](https://arxiv.org/abs/hep-th/0011236))
+
+* {#AlishahihaOz00} Mohsen Alishahiha, Yaron Oz, _Supergravity and "New" Six-Dimensional Gauge Theories_, Phys.Lett.B495:418-426, 2000 ([arXiv:hep-th/0008172](https://arxiv.org/abs/hep-th/0008172))
+
+* {#MitraRoy01} Indranil Mitra, Shibaji Roy, _(NS5,D5,D3) bound state, OD3, OD5 limits and SL(2,Z) duality_, Phys.Rev. D65 (2002) 106001 ([arXiv:hep-th/0107127](https://arxiv.org/abs/hep-th/0107127))
+
+* {#MukhiSuryanarayana00} [[Sunil Mukhi]], Nemani V. Suryanarayana, _Stable Non-BPS States and Their Holographic Duals_, Int. J. Mod. Phys. A16 (2001) 966-975 ([arXiv:hep-th/0011185](https://arxiv.org/abs/hep-th/0011185))
+
+* {#Petri18} Nicolò Petri, _Surface defects in massive IIA_, talk at [Recent Trends in String Theory and Related Topics](http://physics.ipm.ac.ir/conferences/stringtheory3/) 2018 ([pdf](http://physics.ipm.ac.ir/conferences/stringtheory3/note/N.Petri.pdf))
 
 [[!redirects NS-5-brane]]
 [[!redirects F5-brane]]
