@@ -36,22 +36,22 @@ On the other hand, there is also the notion of _[[finite object]]_ (in a [[topos
 +-- {: .num_defn }
 ###### Definition
 
-Let $C$ be a [[locally small category]] that admits [[filtered colimits]]. Then an [[object]] $X \in C$ is **compact**, (or **finitely presented** or **finitely presentable** or **of finite presentation**), if the [[corepresentable functor]]
+Let $C$ be a [[locally small category]] that admits [[filtered colimits]]. Then an [[object]] $X \in C$ is **compact**, or **finitely presented** or **finitely presentable**, or **of finite presentation**, if the [[corepresentable functor]]
 
 $$
-  Hom_C(X,-) : C \to Set
+  Hom_C(X,-) \colon C \to Set
 $$
 
 [[preserved limit|preserves]] these [[filtered colimits]].  This means that for every [[filtered category]] $D$ and every functor $F : D \to C$, the canonical morphism
 
 $$
-  \underset{\to_d}{\lim} C(X,F(d)) \stackrel{\simeq}{\to} 
+  \underset{\to_d}{\lim} C(X,F(d)) \xrightarrow{\simeq}
   C(X, \underset{\to_d}{\lim} F(d))
 $$
 
 is an [[isomorphism]].
 
-More generally, if $\kappa$ is a [[regular cardinal]], then an object $X$ such that $C(X,-)$ commutes with $\kappa$-[[filtered colimits]] is called **$\kappa$-compact**, or **$\kappa$-presented** or **$\kappa$-presentable**.  An object which is $\kappa$-compact for some regular $\kappa$ is called a [[small object]].
+More generally, if $\kappa$ is a [[regular cardinal]], then an object $X$ such that $C(X,-)$ commutes with $\kappa$-[[filtered colimits]] is called **$\kappa$-compact**, or **$\kappa$-presented**, or **$\kappa$-presentable**.  An object which is $\kappa$-compact for some regular $\kappa$ is called a [[small object]].
 
 =--
 
