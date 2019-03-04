@@ -22,7 +22,8 @@
 
 A **reflection principle** is roughly a statement or formula (scheme) that expresses the idea that a certain logical object contains copies of itself. They play an important role in different guises in several fields of [[mathematical logic]] e.g. in [[set theory]], [[proof theory]], [[type theory]] and, recently, [[constructive analysis]].
 
-G&#246;del's encoding of an unprovability predicate into [[Peano arithmetic]] $PA$ can be viewed as an _'anti-reflection'_ principle for $PA$. This conversely suggests to understand the validity of reflection principles for some theory $T$ informally as expressing or approximating the (internal) _consistency_ and _completeness_ of $T$.
+G&#246;del's encoding of an unprovability predicate into [[Peano arithmetic]] $PA$ can be viewed as an _'anti-reflection'_ principle for $PA$. Conversely, this suggests that the validity of reflection principles for some theory $T$ can be informally understood as expressing or approximating the (internal) _consistency_ and _completeness_ of $T$.
+
 
 ### Set-theoretic reflection principles
 
