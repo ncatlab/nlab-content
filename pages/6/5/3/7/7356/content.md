@@ -168,12 +168,14 @@ Namely in the F-theory picture this comes from [[wrapped brane|wrapping]] the [[
 
 
 ### Model building and phenomenology
+ {#ModelBuildingAndPhenomenology}
 
 For F-theory a fairly advanced [[model (physics)|model]] building and [[string phenomenology]] has been developed. A detailed review is in ([Denef 08](#Denef08)).
 
-Via the relation between [[supersymmetry and Calabi-Yau manifolds]] there is particular interest in F-theory compactied on [[Calabi-Yau variety|Calabi-Yau spaces]] of ([[complex manifold|complex]]) [[dimension]] 4. For more on this see at _[[F/M-theory on elliptically fibered Calabi-Yau 4-folds]]_.
+Via the relation between [[supersymmetry and Calabi-Yau manifolds]] there is particular interest in F-theory compactified on [[Calabi-Yau variety|Calabi-Yau spaces]] of ([[complex manifold|complex]]) [[dimension]] 4. For more on this see at _[[F/M-theory on elliptically fibered Calabi-Yau 4-folds]]_.
 
-See also at _[[flux compactification]]_ and _[[landscape of string theory vacua]]_.
+A large number of realizations of the exact field content of the [[standard model of particle physics]] is claimed to be realized in in F-theory in [Cvetic-Halverson-Lin-Liu-Tian 19](#CveticHalversonLinLiuTian19).
+
 
 ## Related concepts
 
@@ -307,6 +309,10 @@ A large body of literature is concerned with particle physics [[string phenomeno
 of $E_8$ in F-theory_, 2014 ([pdf](http://stringpheno2014.ictp.it/parallels/tuesday/F-theory(B)/zoccarato.pdf))
 
 * {#Vafa15} [[Cumrun Vafa]], _Reflections on F-theory_, 2015 (<a href="http://f-theory15.mpp.mpg.de/talks/Vafa.pdf">pdf</a>
+
+A large number of realizations of the exact field content of the [[standard model of particle physics]] in [[F-theory]] is claimed to be realized in
+
+* {#CveticHalversonLinLiuTian19} [[Mirjam Cvetic]], [[James Halverson]], Ling Lin, Muyang Liu, Jiahua Tian, _A Quadrillion Standard Models from F-theory_ ([arXiv:1903.00009](https://arxiv.org/abs/1903.00009))
 
 
 ### 4-Form flux and instantons
