@@ -521,7 +521,7 @@ $$
 This result 
 
 $$
-  \pi^{ \mathbb{R}_{sqn} }\big( \mathbb{R}_{sgn}\big)^{\{\infty\}/} \simeq \mathbb{Z}_2 \times \mathbb{Z}
+  \pi^{ \mathbb{R}_{sgn} }\big( \mathbb{R}_{sgn}\big)^{\{\infty\}/} \simeq \mathbb{Z}_2 \times \mathbb{Z}
 $$ 
 
 from Example \ref{EquivariantCohomotopyOfRepresentationSphereOfSignRepresentationInThatDegree}
@@ -529,7 +529,7 @@ from Example \ref{EquivariantCohomotopyOfRepresentationSphereOfSignRepresentatio
 becomes, after [[stabilization]] to [[equivariant stable homotopy theory]], the stable homotopy groups of the [[equivariant sphere spectrum]] in [[RO(G)-grading]] given by
 
 $$
-  \pi^{ \mathbb{R}_{sqn} }_{stab}\big( \mathbb{R}_{sgn}\big)^{\{\infty\}/} \simeq \mathbb{Z} \times \mathbb{Z}
+  \pi^{ \mathbb{R}_{sgn} }_{stab}\big( \mathbb{R}_{sgn}\big)^{\{\infty\}/} \simeq \mathbb{Z} \times \mathbb{Z}
 $$ 
 
 see [there](equivariant+sphere+spectrum#Z2equivariance).
