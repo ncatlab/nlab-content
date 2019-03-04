@@ -1,4 +1,4 @@
-
+Y
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -79,9 +79,24 @@ $$
   /
   \left(
     \array{
-      d \big( \omega_{2k} + \tfrac{1}{2} a_{2k} \big) &=& 0
+      d 
+      \big( 
+        \omega_{2k} 
+        + 
+        \tfrac{1}{2} a_{2k}
+      \big)
+      &=& 
+      0
       \\
-      d \omega_{4k-1} & =& \omega_{2k} \omega_{2k} + c_{4k}
+      d \omega_{4k-1} 
+      & =& 
+      \big(
+         \omega_{2k} 
+          + 
+          \tfrac{1}{2} a_{2k}
+       \big)^2
+       + 
+       c_{4k}
     }
   \right)
 $$
