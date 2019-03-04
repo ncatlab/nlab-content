@@ -71,6 +71,10 @@ The [[Adams conjecture]] (a theorem) characterizes certain spherical fibrations 
 
 The [[long exact sequence in cohomology]] induced by a spherical fibration is called a _[[Gysin sequence]]_.
 
+### Rational homotopy type
+
+See _[[Sullivan model of a spherical fibration]]_.
+
 ## Related concepts
 
 * [[sphere spectrum]]
@@ -92,8 +96,11 @@ Reviews include
 
 * Oliver Straser, Nena R&#246;ttgens, _Spivak normal fibrations_ ([pdf](http://www.map.mpim-bonn.mpg.de/images/b/be/Regensburg2012Talk5.pdf))
 
-
 * S. Husseini, _Spherical fibrations_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/husseini2.pdf))
+
+Discussion in [[rational homotopy theory]]:
+
+* {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]] and J.C. Thomas, p. 202 of _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000.
 
 
 [[!redirects spherical fibrations]]
