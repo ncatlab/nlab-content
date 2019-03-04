@@ -157,7 +157,7 @@ for all $\omega \in V$ and all $v_i \in V^*$.
 ###### Definition
 **(Sullivan models)**
 
-For $X$ a [[simply connected]] [[topological space]] $X$, a **Sullivan (minimal) model** for $X$ is a Sullivan (minimal) algebra $(\wedge^\bullet V^^ \ast, d_V)$ equipped with a [[quasi-isomorphism]]
+For $X$ a [[simply connected]] [[topological space]] $X$, a **Sullivan (minimal) model** for $X$ is a Sullivan (minimal) algebra $(\wedge^\bullet V^\ast, d_V)$ equipped with a [[quasi-isomorphism]]
 
   $$
     (\wedge^\bullet V^*, d_V) 
@@ -308,6 +308,10 @@ See at _[[rational n-sphere]]_.
 ### Formal spaces
 
 * [[formal dg-algebra]]
+
+### Mapping spaces
+
+* [[Sullivan model of mapping space]]
 
 ### Free loop spaces
 
