@@ -293,9 +293,14 @@ e.g. [Hess 06, theorem 1.24](#Hess06).
 ## Examples 
 
 
-### The $n$-sphere
+### $n$-Sphere
 
 See at _[[rational n-sphere]]_.
+
+
+### Spherical fibrations
+
+See at _[[Sullivan model of a spherical fibration]]_.
 
 ### Complex projective space
 
