@@ -798,6 +798,8 @@ This is a Banach space and makes $Ban$ into a [[closed category]].
 
 * [[distributions are the smooth linear functionals]]
 
+* [[Sullivan model of mapping space]]
+
 ## References
 
 
