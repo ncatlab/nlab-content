@@ -21,7 +21,7 @@ and
 
 * [[bar and cobar construction ]]
 
-* [[differential graded algebras and differential graded Lie alg|differential graded algebras and differential graded Lie algebras - relationship]]
+* [[differential graded algebras and differential graded Lie algebras-relationships]]
 
 * [[differential forms on simplices]]
 
@@ -40,6 +40,10 @@ and
   * [[Lie integration]]
 
 * [[Sullivan model]]
+
+  * [[Sullivan model of mapping space]]
+
+  * [[Sullivan model of free loop space]]
 
 
 ## Related topics
