@@ -130,6 +130,9 @@ of sections whose [[support]] is inside $K$ becomes a [[Fréchet space|Fréchet]
 
 ([B&#228;r 14, 2.1, 2.2](#Baer14))
 
+### Extension of sections
+
+See at _[[Whitney extension theorem]]_ ([Roberts-Schmediung 18](Whitney+extension+theorem#RobertsSchmeding18)).
 
 ## Examples
 
