@@ -84,7 +84,7 @@ The goal of formulating a notion of _predicative topos_ was stated and pursued i
 * [[Ieke Moerdijk]], [[Erik Palmgren]], _Type Theories, Toposes and Constructive Set Theory: Predicative Aspects of AST_ (2000) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.34.8934))
  {#MoerdijkPalmgren00}
  
-* [[Benno van den Berg]], [[Ieke Moerdijk]], _Aspects of predicative algebraic set theory III: Sheaves. Proceedings of the London Mathematical Society., (2012) ([arXiv:arXiv:0912.1242]())
+* [[Benno van den Berg]], [[Ieke Moerdijk]], _Aspects of predicative algebraic set theory III: Sheaves. Proceedings of the London Mathematical Society., (2012) ([arXiv:0912.1242](https://arxiv.org/abs/0912.1242))
  {#vdBergMoerdijk}
 
 The definition then appears in
