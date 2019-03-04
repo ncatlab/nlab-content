@@ -200,7 +200,7 @@ corresponding [[brane webs]]:
 
 [[bound states]] of NS5-branes with [[D4-branes]] and [[D2-branes]]: 
 
-[Mitra-Roy 00, section 4](#MitraRoy00), [Mukhi-Suryanarayana 00](#MukhiSuryanarayana00), also [Mitra-Roy 01](#MitraRoy01), [Alishahiha-Oz 00](#AlishahihaOz00).
+[Mitra-Roy 00, section 4](#MitraRoy00), [Mukhi-Suryanarayana 00](#MukhiSuryanarayana00), [Jia-Lu-Roy 17, p. 12, Table 1](#JiaLuRoy17), also [Mitra-Roy 01](#MitraRoy01), [Alishahiha-Oz 00](#AlishahihaOz00).
 
 <img src="https://ncatlab.org/nlab/files/NS5-D4-D2.jpg" width="440"/>
 
@@ -381,9 +381,9 @@ Intersection of [[black brane|black]] NS5-branes with [[O8-planes]]/[[black bran
 
 * {#Camino02} J. M. Camino, section 4.5 of _Worldvolume Dynamics of Branes_ ([arXiv:hep-th/0210249](https://arxiv.org/abs/hep-th/0210249))
 
+* {#JiaLuRoy17} Qiang Jia, J. X. Lu, Shibaji Roy, _On 1/4 BPS ((F, D1), (NS5, D5)) bound states of type IIB string theory_, JHEP 08 (2017) 007 ([arXiv:1704.01463](https://arxiv.org/abs/1704.01463))
 
 * Giuseppe Dibitetto, Nicolò Petrim, _6d surface defects from massive type IIA_, JHEP 01 (2018) 039 ([arXiv:1707.06154](https://arxiv.org/abs/1707.06154))
-
 
 * {#Petri18} Nicolò Petri, _Surface defects in massive IIA_, talk at [Recent Trends in String Theory and Related Topics](http://physics.ipm.ac.ir/conferences/stringtheory3/) 2018 ([pdf](http://physics.ipm.ac.ir/conferences/stringtheory3/note/N.Petri.pdf))
 
