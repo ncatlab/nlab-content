@@ -257,7 +257,7 @@ Classical textbooks include
 
 * [[Ralph Abraham]], [[Jerrold Marsden]], _[[Foundations of Mechanics]]_ (1978)
 
-* [[Lev Landau]], Lifschitz, _Classical mechanics_, vol. I of the [[Landau-Lifschitz|Course of theoretical physics]]
+* [[Lev Landau]], [[Evgeny Lifshitz]], _Classical mechanics_, vol. I of the [[Landau-Lifshitz|Course of theoretical physics]]
 
 * [[Michael Spivak]], _Elementary mechanics from a mathematician's viewpoint_ ([pdf](http://alpha.math.uga.edu/~shifrin/Spivak_physics.pdf))
 
