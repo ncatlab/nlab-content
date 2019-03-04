@@ -14,7 +14,7 @@ Let $X$ be a topological space and set $\mathcal{O} = Op(X)$.
 A topology $^*\mathcal{O}$ on $X$ is called a **cotopology** of $\mathcal{O}$---and $^*X = (X, ^*\mathcal{O})$ is called a **cospace** of $X$---if
 
 1. $^*\mathcal{O}$ is coarser than $\mathcal{O}$, i.e., $^*\mathcal{O} \subseteq \mathcal{O}$; 
-1. for each point $x$ and each closed neighborhood $V$ of $x$ in $X$ there exists a neighborhood $U$ of $x$ in $X$ such that $U$ is contained in $V$ and $U$ is closed in $^*X$.
+1. for each point $x$ and each $\mathcal{O}$-closed neighborhood $V$ of $x$ in $X$ there exists a $^*\mathcal{O}$-closed neighborhood $U$ of $x$ in $X$ such that $U$ is contained in $V$.
 =--
 
 For [[regular space|regular spaces]] the last condition can be replaced by
