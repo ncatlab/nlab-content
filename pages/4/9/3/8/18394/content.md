@@ -1,9 +1,8 @@
 ## Idea
 
 Formally, a cotopology of a topological space $X$ is a coarser topological space $^*X$ on the same set $X$ that does not forget too many sets.
-Some topologically concepts, like complete metrizability, can be formulated in terms of cotopology.
-The approach was introduced by Johannes de Groot.
-He argued that cocompact spaces are a better generalization of the [[complete space|completeness property]] of metric spaces than [[uniform space|uniform structures]].
+The approach was introduced by J. D. Weston.
+It can be used to generalize the [[Baire category theorem]] and to characterize [[topologically complete space|topological completeness]]. The pair of both topologies, the original and the coarser one, constitute an example of a [[bitopological space]].
 
 
 ## Definitions
@@ -17,7 +16,7 @@ A topology $^*\mathcal{O}$ on $X$ is called a **cotopology** of $\mathcal{O}$---
 1. for each point $x$ and each $\mathcal{O}$-closed neighborhood $V$ of $x$ in $X$ there exists a $^*\mathcal{O}$-closed $\mathcal{O}$-neighborhood $U$ of $x$ in $X$ such that $U$ is contained in $V$.
 =--
 
-For [[regular space|regular spaces]] the last condition can be replaced by
+The last condition is equivalent to
 
 * Each point $x$ has a neighborhood base in $X$ the elements of which are closed in $^*X$.
 
@@ -36,13 +35,20 @@ A space that admits only Hausdorff cospaces is equivalently an H-closed space, i
 
 ## References
 
+The concept first appeared in
+
+* J. D. Weston, _On the comparison of topologies_ 1956, 
+
+de Groot used it to give a unifying and generalizing version of the [[Baire category theorem]]
+
+* de Groot, _Subcompactness and the Baire category theorem_ 1963, Nederl. Akad. Wetensch. Proc., Ser. A66 = Indag. Math., vol. 25, pp. 761-767,
+
+further developments include
+
 * Aarts, de Groot, McDowell, _Cotopology for metrizable spaces_ 1970, Duke Mathematical Journal vol. 37.
 
 * G. E. Strecker and G. Viglino, _Cotopology and Minimal Hausdorff Spaces_ 1969,  Proceedings of the American Mathematical Society
 Vol. 21 No. 3.
 
-The concept originally developed from
-
-* de Groot, _Subcompactness and the Baire category theorem_ 1963, Nederl. Akad. Wetensch. Proc., Ser. A66 = Indag. Math., vol. 25, pp. 761-767.
 
 [[!redirects cocompact space]]
