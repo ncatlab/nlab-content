@@ -39,7 +39,9 @@ Let $n \in \mathbb{N}$ be a [[natural number]], $n \geq 1$, let
 
 be a [[spherical fibration]] of [[topological spaces]] such that $X$ admits a [[Sullivan model]] $A_X \in dgcAlg$. Then a [[Sullivan model]] $A_E$ for the total space $E$ is of the following form:
 
-If $n = 2k+1$ is an [[odd number]]:
+**$n$ odd**
+
+If $n = 2k+1$ is an [[odd number]], then
 
 $$
   A_E 
@@ -62,10 +64,19 @@ for some
   c_{2k+2} \in A_X
 \] 
 
-being the rational [[Euler class]] of the [[spherical fibration]];
+being the rational [[Euler class]] of the [[spherical fibration]].
 
+In particular, if $E = S(V)$ is the [[unit sphere bundle]] of a [[real vector bundle]] $V \to X$, then 
 
-If $n = 2k$ is an [[even number]]:
+$$
+  [c_{2k}] = e
+$$
+
+is the [[Euler class]] of that vector bundle.
+
+**$n$ even**
+
+If $n = 2k$ is an [[even number]], then
 
 $$
   A_E
@@ -110,7 +121,17 @@ for some
 
 being the rational [[Pontryagin class]] of the [[spherical fibration]],
 
-and some $a_{2k} \in A_X$.
+(Here $\omega_{2k} + \tfrac{1}{2} a_{2k}$ denotes a generator, which we write in this suggestive form only as a mnemonic for how it arises.)
+
+In particular if $E = S(V)$ is the [[unit sphere bundle]] of a [[real vector bundle]] $V \to X$, then the rational class of the spherical fibration
+is $1/4$th of the rational [[Pontryagin class]] of that vector bundle:
+
+$$
+  [c_{4k}]
+  \;=\; 
+  \tfrac{1}{4} p_{k}
+  \,.
+$$ 
 
 
 =--
