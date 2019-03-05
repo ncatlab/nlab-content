@@ -168,7 +168,7 @@ Let $n \in \mathbb{N}$ be a [[natural number]] and $fcolon S^n \to S^n$ a [[cont
     \array{
       S^n \times S^{n-1} &\vert& n\,\text{even}\,, deg(f) = 0
       \\
-      S^{2n-1} &\vert& n \, \text{odd}\,, deg(f) \neq 0
+      S^{2n-1} &\vert& n \, \text{even}\,, deg(f) \neq 0
       \\
       S^n &\vert& n\, \text{odd}
     }
