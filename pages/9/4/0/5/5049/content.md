@@ -1,3 +1,4 @@
+[[!redirects Steenrod-Wockel approximation theorem]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -22,7 +23,7 @@ This is a smooth enhancement of the [[Tietze extension theorem]].
 ## Statement
 
 
-+-- {: .un_theorem }
++-- {: .num_theorem }
 {#GeneralizedSteenrodTheorem}
 ###### Theorem
 
