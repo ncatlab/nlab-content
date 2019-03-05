@@ -27,6 +27,10 @@ A key example of sphere fiber bundles are the _unit sphere bundles_ inside of [[
 
 These appear in the discussion of [[Thom spaces]] and hence of [[Thom spectra]], as well as in the discussion of [[wave front sets]].
 
+## Related concepts
+
+* [[Sullivan model of a spherical fibration]]
+
 [[!redirects sphere fiber bundles]]
 
 [[!redirects sphere bundle]]
