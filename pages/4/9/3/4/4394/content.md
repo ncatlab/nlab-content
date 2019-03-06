@@ -13,34 +13,51 @@ Bitopological spaces and bicontinuous maps form a [[category]] $BiTop$.
 
 ## Compatibility conditions for topologies
 
-
-\begin{definition}\label{regular}
-Let $(X, \mathcal{T}, \mathcal{T}^*)$ be a bitopological space.
-The topology $\mathcal{T}$ is __regular with respect to__ $\mathcal{T}^*$ if  one of the following two equivalent conditions holds
-
-1. For each point $x$ there is a $\mathcal{T}$-[[neighborhood base]] consisting  of $\mathcal{T}^*$-closed sets; 
-1. for all $x\in X$ and all $\mathcal{T}$-opens containing $x$ there is a $\mathcal{T}^*$-closed $\mathcal{T}$-neighborhood $V$ of $x$ such that $ V \subset U$.
-
-A bitopological space $(X, \mathcal{T}, \mathcal{T}^*)$ is called __pairwise regular__ if $\mathcal{T}$ is regular with respect to $\mathcal{T}^*$ and wise versa.
-\end{definition}
-
-\begin{proof}
-Given a neighborhood base for a point $x$ as guaranteed by the first property. When you spell out the properties of this neighborhood base, you end up with the second property. For the reverse direction start with an arbitrary $\mathcal{T}$-neighborhood base of a point $x$ consisting of open. Apply the second property to every element of this neighborhood base to the desired neighborhood base.
-\end{proof}
-
 Let $Cl$ denote the [[closure operator]] with respect to $\mathcal{T}$ and let $Cl^*$ denote the closure operator with respect to $\mathcal{T}^*$.
 
-\begin{definition}\label{coupled}
+\begin{proposition}\label{implications}
 Let $(X, \mathcal{T}, \mathcal{T}^*)$ be a bitopological space.
-The topology $\mathcal{T}^*$ is __coupled to__ $\mathcal{T}^*$ if one of the following two equivalent conditions holds
+Consider the following properties of this space:
 
-1. $Cl^*(O) \subset Cl(O)$ for each $\mathcal{T}^*$-open $O$; 
+1. {#regular1} for each point $x$ there is a $\mathcal{T}$-[[neighborhood base]] consisting  of $\mathcal{T}^*$-closed sets; 
 
-1. for all $x\in X$ and all $\mathcal{T}$-neighborhoods $U$ of $x$ the closure $Cl^*(U)$ is a $\mathcal{T}$-neighborhood.
+1. {#regular2} for all $x\in X$ and all $\mathcal{T}$-opens containing $x$ there is a $\mathcal{T}^*$-closed $\mathcal{T}$-neighborhood $V$ of $x$ such that $ V \subset U$;
 
-\end{definition}
+1. {#coupled1} $Cl^*(O) \subset Cl(O)$ for each $\mathcal{T}^*$-open $O$; 
+
+1. {#coupled2} for all $x\in X$ and all $\mathcal{T}$-neighborhoods $U$ of $x$ the closure $Cl^*(U)$ is a $\mathcal{T}$-neighborhood,
+
+1. {#cotopology2} for each point $x$ and each $\mathcal{T}$-closed $\mathcal{T}$-neighborhood $V$ of $x$ in $X$ there exists a $\mathcal{T}^*$-closed $\mathcal{T}$-neighborhood $U$ of $x$ in $X$ such that $U$ is contained in $V$.
+
+There are the following implications between the properties from definitions \ref{regular} and \ref{coupled} as well as the property
+
+\begin{centre}
+\begin{tikzpicture}
+	\usetikzlibrary{arrows.meta}
+	\usetikzlibrary{matrix}
+  \matrix (m) [matrix of nodes,row sep=3em,column sep=5em,minimum width=2em]
+{
+	 & (2)	& (3) \\
+	(5) & (1) & (4) \\};
+\path[-stealth] 
+	(m-2-1) edge[double] node[above left] {\scriptsize if $\mathcal{T}$ regular} (m-1-2)
+	(m-1-2) edge[stealth-stealth, double] (m-2-2)
+	(m-1-3) edge[stealth-stealth, double] (m-2-3)
+	(m-2-2) edge[double] (m-2-1)
+	(m-1-3) edge[double] node[above] {\scriptsize if $\mathcal{T}$ regular} (m-1-2)
+	(m-2-2) edge[double] (m-2-3)
+	(m-2-1) edge[double, bend right] node[below] {\scriptsize if $\mathcal{T}^*\subset \mathcal{T}$} (m-2-3);
+\end{tikzpicture}
+\end{centre}
+
+Especially, all properties are equivalent if $\mathcal{T}$ is [[regular space|regular]].
+\end{proposition}
 
 \begin{proof}
+__[(1)](#regular1) $\iff$ [(2)](#regular2):__
+Given a neighborhood base for a point $x$ as guaranteed by the first property. When you spell out the properties of this neighborhood base, you end up with the second property. For the reverse direction start with an arbitrary $\mathcal{T}$-neighborhood base of a point $x$ consisting of open. Apply the second property to every element of this neighborhood base to the desired neighborhood base.
+
+__[(3)](#coupled1) $\iff$ [(4)](#coupled2):__
 Suppose the first property, and let $U$ be a $\mathcal{T}$-neighborhood of an arbitrary point $x$. Then the [[complement]] $ \widetilde{Cl^*(U)} $ is in $\mathcal{T}^*$, so that $ Cl^*(\widetilde{Cl^*U}) \subset Cl(\widetilde{Cl^* U}) $ by the first property. Hence $ \widetilde{Cl(\widetilde{Cl^*U})} \subset \widetilde{Cl^*(\widetilde{Cl^* U})} $ for the complements.
 Since $U$ is a $\mathcal{T}$-neighborhood of $x$, $x$ does not belong to $Cl(\widetilde{Cl^*U})$. 
 Moreover, $\widetilde{Cl^*(\widetilde{Cl^*U})} $ is $\mathcal{T}^*$-open and a subset of $ Cl^*(U)$.
@@ -49,34 +66,25 @@ Hence $Cl^*(U)$ is a $\mathcal{T}^*$-neighborhood of $x$.
 For the converse suppose the second property. Let $O$ be a nonempty $\mathcal{T}^*$-open set and $x$ an element of $Cl^*(O)$. Then if $U$ is any $\mathcal{T}$-neighborhood of $x$, some point $y \in O$ belongs to $Cl^*(U)$ due to the second property. Hence, as $O$ is a $\mathcal{T}^*$-neighborhood of $y$, some point of $U$ belongs to $O$. Thus $x \in Cl(O)$, and therefore $Cl^*(G) \subset Cl(O)$. 
 \end{proof}
 
-\begin{proposition}
-There are the following implications between the properties from definitions \ref{regular} and \ref{coupled} as well as the property
 
-* for each point $x$ and each $\mathcal{T}$-closed $\mathcal{T}$-neighborhood $V$ of $x$ in $X$ there exists a $\mathcal{T}^*$-closed $\mathcal{T}$-neighborhood $U$ of $x$ in $X$ such that $U$ is contained in $V$.
+\begin{definition}\label{regular}
+Let $(X, \mathcal{T}, \mathcal{T}^*)$ be a bitopological space.
+The topology $\mathcal{T}$ is __regular with respect to__ $\mathcal{T}^*$ if  one of the two equivalent conditions [(1)](#regular1) and [(2)](#regular2) from proposition \ref{implications} holds.
+A bitopological space $(X, \mathcal{T}, \mathcal{T}^*)$ is called __pairwise regular__ if $\mathcal{T}$ is regular with respect to $\mathcal{T}^*$ and wise versa.
+\end{definition}
+
+\begin{definition}\label{coupled}
+Let $(X, \mathcal{T}, \mathcal{T}^*)$ be a bitopological space.
+The topology $\mathcal{T}^*$ is __coupled to__ $\mathcal{T}^*$ if one of the two equivalent conditions [(3)](#coupled1) and [(4)](#coupled2) from proposition \ref{implications} holds.
+\end{definition}
+
+\begin{definition}\label{cotopology}
+Let $(X, \mathcal{T}, \mathcal{T}^*)$ be a bitopological space.
+The topology $\mathcal{T}^*$ is called a __[[cotopology]] of__ $\mathcal{T}$ if $\mathcal{T}^* \subseteq \mathcal{T}$ and property [(5)](#cotopology2) from proposition \ref{implications} holds.
+The space $(X, \mathcal{T}^*)$ is also called a __cospace__ of $(X, \mathcal{T}$.
+\end{definition}
 
 
-
-Especially, all properties are equivalent if $$ is [[regular space|regular]].
-\end{proposition}
-
-\begin{centre}
-\begin{tikzpicture}
-	\usetikzlibrary{arrows.meta}
-	\usetikzlibrary{matrix}
-  \matrix (m) [matrix of nodes,row sep=3em,column sep=5em,minimum width=2em]
-{
-	 & (R2)	& (C1) \\
-	(*) & (R1) & (C1) \\};
-\path[-stealth] 
-	(m-2-1) edge[double] node[above left] {\scriptsize if $\mathcal{T}$ regular} (m-1-2)
-	(m-1-2) edge[stealth-stealth, double] (m-2-2)
-	(m-1-3) edge[stealth-stealth, double] (m-2-3)
-	(m-2-2) edge[double] (m-2-1)
-	(m-1-3) edge[double] node[above] {\scriptsize if $\mathcal{T}$ regular} (m-1-2)
-	(m-2-2) edge[double] (m-2-3)
-	(m-2-2) edge[double, bend right] node[below] {\scriptsize if $\mathcal{T}^*\subset \mathcal{T}$} (m-2-3);
-\end{tikzpicture}
-\end{centre}
 
 ## Remarks
 
@@ -106,7 +114,7 @@ The notions of respective regularity, being coupled, etc. were introduced in
 
 * J. D. Weston, _On the comparison of topologies_ 1956, Journal of the London Mathematical Society, vol. s1-32 no. 3, pp. 342-354,
 
-* J. C. Kelly, _Bitopological spaces_ , Proc. London Math. Soc. **13** no.3 (1963) pp.71-89.
+* J. C. Kelly, _Bitopological spaces_, Proc. London Math. Soc. **13** no.3 (1963) pp.71-89.
 
 [[!redirects bitopological space]]
 [[!redirects bitopological spaces]]
