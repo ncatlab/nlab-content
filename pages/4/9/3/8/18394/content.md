@@ -7,29 +7,32 @@ It can be used to generalize the [[Baire category theorem]] and to characterize 
 
 ## Definitions
 
-+-- {: .num_defn}
-###### Definition
+\begin{definition}
 Let $(X, \mathcal{T})$ be a topological space.
 A topology $\mathcal{T}^*$ on $X$ is called a __cotopology__ of $\mathcal{T}$---and $(X, \mathcal{T}^*)$ is called a __cospace__ of $(X, \mathcal{T}$---if
 
 1. $\mathcal{T}^*$ is coarser than $\mathcal{T}$, i.e., $\mathcal{T}^* \subseteq \mathcal{T}$; 
+
 1. for each point $x$ and each $\mathcal{T}$-closed $\mathcal{T}$-neighborhood $V$ of $x$ in $X$ there exists a $\mathcal{T}^*$-closed $\mathcal{T}$-neighborhood $U$ of $x$ in $X$ such that $U$ is contained in $V$.
-=--
 
-If $\mathcal{T}$ is regular, the last condition is equivalent to $\mathcal{T}$ being [[bitopological space#Compatibility conditions for topologies|regular with respect to]] $\mathcal{T}^*$, i.e. each point $x$ has a neighborhood base in $X$ the elements of which are closed in $^*X$.
+\end{definition}
 
+If $\mathcal{T}$ is regular, the last condition is equivalent to $\mathcal{T}$ being [[bitopological space#Compatibility conditions for topologies|regular with respect to]] $\mathcal{T}^*$, i.e. each point $x$ has a neighborhood base in $X$ the elements of which are closed in $\mathcal{T}^*$.
 
-+-- {: .num_defn}
-###### Definition
-A topological space $X$ is called **cocompact** if there is a cotopology $\mathcal{T}^*$ on $X$ which is [[compact space|compact]].
-
-=--
+\begin{definition}
+A topological space $X$ is called __cocompact__ if there is a cotopology $\mathcal{T}^*$ on $X$ which is [[compact space|compact]].
+\end{definition}
 
 ## Properties
 
 Every cocompact [[regular space]] is a [[Baire space]]. A [[metrisable topological space|metrisable space]] is [[topologically complete space|topologically complete]] if and only if it is cocompact.
 
 A space that admits only Hausdorff cospaces is equivalently an H-closed space, i.e. it (is Hausdorff and) is not a proper dense subspace of another space.
+
+
+## Related Concepts
+
+* [[bitopological space]]
 
 ## References
 
