@@ -158,7 +158,7 @@ A canonical compendium is
 
 Introductory textbooks include
 
-* {#Kelley55} [[John Kelley]] _General Topology_, Graduate Texts in Mathematics, Springer (1955)
+* {#Kelley55} [[John Kelley]], _General Topology_, Graduate Texts in Mathematics, Springer (1955)
 
 * {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall (1975, 2000)
 
