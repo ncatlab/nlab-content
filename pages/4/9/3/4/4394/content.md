@@ -30,7 +30,7 @@ Given a neighborhood base for a point $x$ as guaranteed by the first property. W
 
 Let $Cl$ denote the [[closure operator]] with respect to $\mathcal{T}$ and let $Cl^*$ denote the closure operator with respect to $\mathcal{T}^*$.
 
-\begin{definition}
+\begin{definition}\label{coupled}
 Let $(X, \mathcal{T}, \mathcal{T}^*)$ be a bitopological space.
 The topology $\mathcal{T}^*$ is __coupled to__ $\mathcal{T}^*$ if one of the following two equivalent conditions holds
 
@@ -48,6 +48,35 @@ Hence $Cl^*(U)$ is a $\mathcal{T}^*$-neighborhood of $x$.
 
 For the converse suppose the second property. Let $O$ be a nonempty $\mathcal{T}^*$-open set and $x$ an element of $Cl^*(O)$. Then if $U$ is any $\mathcal{T}$-neighborhood of $x$, some point $y \in O$ belongs to $Cl^*(U)$ due to the second property. Hence, as $O$ is a $\mathcal{T}^*$-neighborhood of $y$, some point of $U$ belongs to $O$. Thus $x \in Cl(O)$, and therefore $Cl^*(G) \subset Cl(O)$. 
 \end{proof}
+
+\begin{proposition}
+There are the following implications between the properties from definitions \ref{regular} and \ref{coupled} as well as the property
+
+* for each point $x$ and each $\mathcal{T}$-closed $\mathcal{T}$-neighborhood $V$ of $x$ in $X$ there exists a $\mathcal{T}^*$-closed $\mathcal{T}$-neighborhood $U$ of $x$ in $X$ such that $U$ is contained in $V$.
+
+
+
+Especially, all properties are equivalent if $$ is [[regular space|regular]].
+\end{proposition}
+
+\begin{centre}
+\begin{tikzpicture}
+	\usetikzlibrary{arrows.meta}
+	\usetikzlibrary{matrix}
+  \matrix (m) [matrix of nodes,row sep=3em,column sep=5em,minimum width=2em]
+{
+	 & (R2)	& (C1) \\
+	(*) & (R1) & (C1) \\};
+\path[-stealth] 
+	(m-2-1) edge[double] node[above left] {\scriptsize if $\mathcal{T}$ regular} (m-1-2)
+	(m-1-2) edge[stealth-stealth, double] (m-2-2)
+	(m-1-3) edge[stealth-stealth, double] (m-2-3)
+	(m-2-2) edge[double] (m-2-1)
+	(m-1-3) edge[double] node[above] {\scriptsize if $\mathcal{T}$ regular} (m-1-2)
+	(m-2-2) edge[double] (m-2-3)
+	(m-2-2) edge[double, bend right] node[below] {\scriptsize if $\mathcal{T}^*\subset \mathcal{T}$} (m-2-3);
+\end{tikzpicture}
+\end{centre}
 
 ## Remarks
 
