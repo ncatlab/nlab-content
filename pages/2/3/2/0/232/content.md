@@ -244,7 +244,7 @@ The page [here](http://ncatlab.org/nlab/show/generalized+algebraic+theory#Relati
 
 * An [[ultrametric space]] is a category enriched over the poset $([0, \infty], \geq)$ of extended positive real numbers, where $\otimes$ is $\max$.
 
-* A [[partial order|poset]] is a category enriched over the category of [[truth value]]s, where $\otimes$ is [[logical conjunction|conjunction]].
+* A [[preorder]] is a category enriched over the category of [[truth value]]s, where $\otimes$ is [[logical conjunction|conjunction]].
 
 * An [[apartness relation|apartness space]] is a [[groupoid]] enriched over the opposite of the category of truth values, where $\otimes$ is [[disjunction]].
 
