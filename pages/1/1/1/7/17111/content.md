@@ -63,13 +63,26 @@ The underlying [[manifold]] of $SU(2)$ is [[diffeomorphism|diffeomorphic]] to th
 +-- {: .num_prop}
 ###### Proposition
 
-There is an [[isomorphism]] of [[Lie groups]]
+There are [[isomorphisms]] of [[Lie groups]]
 
-$$
-  SU(2) \simeq Spin(3)
-$$
+1. of $SU(2)$ with with the [[spin group]] in [[dimension]] 3.
 
-with the [[spin group]] in [[dimension]] 3.
+   $$
+     SU(2) \simeq Spin(3)  
+   $$
+
+1. of the [[direct product group]] of $SU(2)$ with itself, to [[Spin(4)]]
+
+   $$
+     SU(2) \times SU(2)
+     \;\simeq\;
+     Spin(3) \times Spin(3)
+     \;\simeq\;
+     Spin(4)
+   $$
+
+   whith respect to which the canonical inclusion $Spin(3) \hookrightarrow Spin(4)$ is given by the [[diagonal]] map.
+
 
 =--
 
