@@ -14,9 +14,7 @@ Bitopological spaces and bicontinuous maps form a [[category]] $BiTop$.
 ## Compatibility conditions for topologies
 
 
-+-- {: .num_defn}
-
-###### Definition
+\begin{definition}\label{regular}
 Let $(X, \mathcal{T}, \mathcal{T}^*)$ be a bitopological space.
 The topology $\mathcal{T}$ is __regular with respect to__ $\mathcal{T}^*$ if  one of the following two equivalent conditions holds
 
@@ -24,19 +22,32 @@ The topology $\mathcal{T}$ is __regular with respect to__ $\mathcal{T}^*$ if  on
 1. for all $x\in X$ and all $\mathcal{T}$-opens containing $x$ there is a $\mathcal{T}^*$-closed $\mathcal{T}$-neighborhood $V$ of $x$ such that $ V \subset U$.
 
 A bitopological space $(X, \mathcal{T}, \mathcal{T}^*)$ is called __pairwise regular__ if $\mathcal{T}$ is regular with respect to $\mathcal{T}^*$ and wise versa.
-=--
+\end{definition}
+
+\begin{proof}
+Given a neighborhood base for a point $x$ as guaranteed by the first property. When you spell out the properties of this neighborhood base, you end up with the second property. For the reverse direction start with an arbitrary $\mathcal{T}$-neighborhood base of a point $x$ consisting of open. Apply the second property to every element of this neighborhood base to the desired neighborhood base.
+\end{proof}
 
 Let $Cl$ denote the [[closure operator]] with respect to $\mathcal{T}$ and let $Cl^*$ denote the closure operator with respect to $\mathcal{T}^*$.
 
-+-- {: .num_defn}
-
-###### Definition
+\begin{definition}
 Let $(X, \mathcal{T}, \mathcal{T}^*)$ be a bitopological space.
 The topology $\mathcal{T}^*$ is __coupled to__ $\mathcal{T}^*$ if one of the following two equivalent conditions holds
 
 1. $Cl^*(O) \subset Cl(O)$ for each $\mathcal{T}^*$-open $O$; 
+
 1. for all $x\in X$ and all $\mathcal{T}$-neighborhoods $U$ of $x$ the closure $Cl^*(U)$ is a $\mathcal{T}$-neighborhood.
-=--
+
+\end{definition}
+
+\begin{proof}
+Suppose the first property, and let $U$ be a $\mathcal{T}$-neighborhood of an arbitrary point $x$. Then the [[complement]] $ \widetilde{Cl^*(U)} $ is in $\mathcal{T}^*$, so that $ Cl^*(\widetilde{Cl^*U}) \subset Cl(\widetilde{Cl^* U}) $ by the first property. Hence $ \widetilde{Cl(\widetilde{Cl^*U})} \subset \widetilde{Cl^*(\widetilde{Cl^* U})} $ for the complements.
+Since $U$ is a $\mathcal{T}$-neighborhood of $x$, $x$ does not belong to $Cl(\widetilde{Cl^*U})$. 
+Moreover, $\widetilde{Cl^*(\widetilde{Cl^*U})} $ is $\mathcal{T}^*$-open and a subset of $ Cl^*(U)$.
+Hence $Cl^*(U)$ is a $\mathcal{T}^*$-neighborhood of $x$.
+
+For the converse suppose the second property. Let $O$ be a nonempty $\mathcal{T}^*$-open set and $x$ an element of $Cl^*(O)$. Then if $U$ is any $\mathcal{T}$-neighborhood of $x$, some point $y \in O$ belongs to $Cl^*(U)$ due to the second property. Hence, as $O$ is a $\mathcal{T}^*$-neighborhood of $y$, some point of $U$ belongs to $O$. Thus $x \in Cl(O)$, and therefore $Cl^*(G) \subset Cl(O)$. 
+\end{proof}
 
 ## Remarks
 
