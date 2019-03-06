@@ -205,19 +205,26 @@ A survey of entropy in [[operator algebras]] is in
 
 See also 
 
-* A. P. Balachandran, T. R. Govindarajan, Amilcar R. de Queiroz, A. F. Reyes-Lega, _Algebraic Approach to Entanglement and Entropy_ ([arXiv:1301.1300](http://arxiv.org/abs/1301.1300))
+* A. P. Balachandran, T. R. Govindarajan, Amilcar R. de Queiroz, A. F. Reyes-Lega, _Algebraic approach to entanglement and entropy_ ([arXiv:1301.1300](http://arxiv.org/abs/1301.1300))
 
 A large collection of references on quantum entropy is in 
 
-* Christopher Fuchs, _References for Research in Quantum Distinguishability
-and State Disturbance_ ([pdf](http://www.perimeterinstitute.ca/personal/cfuchs/BigRef.pdf))
+* Christopher Fuchs, _References for research in quantum distinguishability
+and state disturbance_ ([pdf](http://www.perimeterinstitute.ca/personal/cfuchs/BigRef.pdf))
+
+### Categorical and cohomological interpretations
 
 A discussion of entropy with an eye towards the [[presheaf topos]] over the [[site]] of finite [[measure spaces]] is in 
 
-* [[Mikhail Gromov]], _In a Search for a Structure, Part I: On Entropy_ (2012) ([pdf](https://www.ihes.fr/~gromov/wp-content/uploads/2018/08/structre-serch-entropy-july5-2012.pdf))
+* [[Mikhail Gromov]], _In a search for a structure, Part I: On entropy_ (2012) ([pdf](https://www.ihes.fr/~gromov/wp-content/uploads/2018/08/structre-serch-entropy-july5-2012.pdf))
 
 * [[William Lawvere]], _State categories, closed categories, and the existence_ (subtitle: Semi-continuous entropy functions), IMA reprint 86, [pdf](https://www.ima.umn.edu/State-Categories-Closed-Categories-and-Existence-Semi-Continuous-Entropy-Functions)
 
+(Co)homological viewpoint is discussed in
+
+* P. Baudot, D. Bennequin, _The homological nature of entropy_, Entropy, 17(5):3253--3318, 2015 [doi](https://doi.org/10.3390/e17053253) (open access)
+
+(for an update see also the abstract of a Baudot's talk [here](https://calendar.math.cas.cz/content/information-cohomology-and-topological-information-data-analysis))
 
 ### Axiomatic characterizations
  {#ReferencesAxiomaticCharacterization}
