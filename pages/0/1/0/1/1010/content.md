@@ -111,7 +111,7 @@ If $ U $ is a Grothendieck universe, then it is easy to show that $ U $ is itsel
 
 * For every set $ s $, there exists a universe $ U $ that contains $ s $, i.e., $ s \in U $.
 
-In this way, whenever any operation leads one outside of a given Grothendieck universe (see applications below), there is guaraneteed to be a bigger Grothendieck universe in which one lands. In other words, every set is small if your universe is large enough!
+In this way, whenever any operation leads one outside of a given Grothendieck universe (see applications below), there is guaranteed to be a bigger Grothendieck universe in which one lands. In other words, every set is small if your universe is large enough!
 
 Later, Mac Lane pointed out that often, it suffices to assume the existence of *one* uncountable universe. In particular, any discussion of 'small' and 'large' that can be stated in terms of sets and proper classes can also be stated in terms of a single universe $ U $ (with 'large' meaning '$ U $-moderate but not $ U $-small').
 
