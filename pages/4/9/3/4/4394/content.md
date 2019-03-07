@@ -57,12 +57,12 @@ __[(1)](#regular1) $\iff$ [(2)](#regular2):__
 Given a neighborhood base for a point $x$ as guaranteed by the first property. When you spell out the properties of this neighborhood base, you end up with the second property. For the reverse direction start with an arbitrary $\mathcal{T}$-neighborhood base of a point $x$ consisting of open. Apply the second property to every element of this neighborhood base to the desired neighborhood base.
 
 __[(3)](#coupled1) $\iff$ [(4)](#coupled2):__
-Suppose the first property, and let $U$ be a $\mathcal{T}$-neighborhood of an arbitrary point $x$. Then the [[complement]] $ \widetilde{Cl^*(U)} $ is in $\mathcal{T}^*$, so that $ Cl^*(\widetilde{Cl^*U}) \subset Cl(\widetilde{Cl^* U}) $ by the first property. Hence $ \widetilde{Cl(\widetilde{Cl^*U})} \subset \widetilde{Cl^*(\widetilde{Cl^* U})} $ for the complements.
+Suppose property [(3)](#coupled1), and let $U$ be a $\mathcal{T}$-neighborhood of an arbitrary point $x$. Then the [[complement]] $ \widetilde{Cl^*(U)} $ is in $\mathcal{T}^*$, so that $ Cl^*(\widetilde{Cl^*U}) \subset Cl(\widetilde{Cl^* U}) $ by the first property. Hence $ \widetilde{Cl(\widetilde{Cl^*U})} \subset \widetilde{Cl^*(\widetilde{Cl^* U})} $ for the complements.
 Since $U$ is a $\mathcal{T}$-neighborhood of $x$, $x$ does not belong to $Cl(\widetilde{Cl^*U})$. 
 Moreover, $\widetilde{Cl^*(\widetilde{Cl^*U})} $ is $\mathcal{T}^*$-open and a subset of $ Cl^*(U)$.
 Hence $Cl^*(U)$ is a $\mathcal{T}^*$-neighborhood of $x$.
 
-For the converse suppose the second property. Let $O$ be a nonempty $\mathcal{T}^*$-open set and $x$ an element of $Cl^*(O)$. Then if $U$ is any $\mathcal{T}$-neighborhood of $x$, some point $y \in O$ belongs to $Cl^*(U)$ due to the second property. Hence, as $O$ is a $\mathcal{T}^*$-neighborhood of $y$, some point of $U$ belongs to $O$. Thus $x \in Cl(O)$, and therefore $Cl^*(G) \subset Cl(O)$. 
+For the converse suppose property [(4)](#coupled2). Let $O$ be a nonempty $\mathcal{T}^*$-open set and $x$ an element of $Cl^*(O)$. Then if $U$ is any $\mathcal{T}$-neighborhood of $x$, some point $y \in O$ belongs to $Cl^*(U)$ due to the second property. Hence, as $O$ is a $\mathcal{T}^*$-neighborhood of $y$, some point of $U$ belongs to $O$. Thus $x \in Cl(O)$, and therefore $Cl^*(G) \subset Cl(O)$. 
 
 __[(1)](#regular1) $\implies$ [(4)](#coupled2):__
 Given $x\in X$ and a $\mathcal{T}$-neighborhood $U$ by property [(1)](#regular1) there is a $\mathcal{T}^*$-open $O \subset U$ containing $x$. Hence $O \subset Cl^*(U)$, and $Cl^*(U)$ is a $\mathcal{T}^*$-neighborhood. 
