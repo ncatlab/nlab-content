@@ -17,7 +17,7 @@
 
 The **&#268;ech model structure on simplicial presheaves** on a [[site]] $C$ is a model for the [[topological localization]] of an [[(∞,1)-category of (∞,1)-presheaves]] on $C$ to the [[(∞,1)-category of (∞,1)-sheaves]]. 
 
-It is obtained from the the [[global model structure on simplicial presheaves]] on $C$ by [[Bousfield localization of model categories|left Bousfield localization]]s at [[Cech cover]]s:  its fibrant objects are [[∞-stack]]s that satisfy [[descent]] over [[?ech cover]]s but not necessarily over [[hypercover]]s.
+It is obtained from the the [[global model structure on simplicial presheaves]] on $C$ by [[Bousfield localization of model categories|left Bousfield localization]]s at [[Cech cover]]s:  its fibrant objects are [[∞-stack]]s that satisfy [[descent]] over [[Cech cover]]s but not necessarily over [[hypercover]]s.
 
 
 Further [[Bousfield localization of model categories|left Bousfield localization]] at [[hypercover]]s leads from the &#268;ech model structure to the Joyal-Jardine [[local model structure on simplicial presheaves]] that presents the [[hypercomplete (∞,1)-topos]] which is the [[hypercompletion]] of that presented by the &#268;ech model structure.
