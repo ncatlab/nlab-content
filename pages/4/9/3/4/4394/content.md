@@ -45,8 +45,7 @@ There are the following implications among these properties
 	(m-1-3) edge[stealth-stealth, double] (m-2-3)
 	(m-2-2) edge[double] (m-2-1)
 	(m-1-3) edge[double] node[above] {\scriptsize if $\mathcal{T}$ regular} (m-1-2)
-	(m-2-2) edge[double] (m-2-3)
-	(m-2-1) edge[double, bend right] node[below] {\scriptsize if $\mathcal{T}^*\subset \mathcal{T}$} (m-2-3);
+	(m-2-2) edge[double] (m-2-3);
 \end{tikzpicture}
 \end{centre}
 
@@ -73,9 +72,6 @@ Let $x\in X$ and $U$ be a $\mathcal{T}$-open containing $x$. By regularity of $\
 
 __[(5)](#cotopology2) and $\mathcal{T}$ regular $\implies$ [(2)](#regular2):__
 Let $x\in X$ and $U$ be a $\mathcal{T}$-open containing $x$. By regularity of $\mathcal{T}$ we can find disjoint $\mathcal{T}$-opens $V' \ni x$ and $U' \supset \tilde{U}$ ($\tilde{U}$ denotes the [[complement]]). Due to property [(5)](#cotopology2) the closed set $\widetilde{U'}$ contains a $\mathcal{T}^*$-closed neighborhood of $x$. This is the neighborhood we sought. 
-
-__[(5)](#cotopology2) and $\mathcal{T}^* \subset \mathcal{T}$ $\implies$ [(4)](#coupled2):__
-...
 \end{proof}
 
 
