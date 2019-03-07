@@ -59,7 +59,7 @@ To construct the injective &#268;ech model structure on $sSh (C)$, we use the fo
 
 * The inclusion $sSh (C) \hookrightarrow [C^{op}, sSet]$ is fully faithful.
 * The left adjoint (i.e. sheafification) $[C^{op}, sSet] \to sSh (C)$ preserves monomorphisms, and the class of monomorphisms in $sSh (C)$ is closed under pushouts, transfinite composition, and retracts.
-* The adjunction unit is a natural weak equivalence with respect to the (injective) &#268;ech model structure on $[C^{op}, sSet]$: see Theorem A.2 in [DHI]. 
+* The adjunction unit is a natural weak equivalence with respect to the (injective) &#268;ech model structure on $[C^{op}, sSet]$: see Theorem A.2 in [DHI](#DuggerHollanderIsaksen02). 
 
 We may then apply Kan's recognition principle for [[cofibrantly generated model category|cofibrantly generated model structures]] to transfer the injective &#268;ech model structure from $[C^{op}, sSet]$ to $sSh (C)$. By construction, the sheafification adjunction becomes a Quillen equivalence.
 
