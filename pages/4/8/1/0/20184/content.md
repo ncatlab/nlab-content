@@ -124,7 +124,7 @@ $$
   \big[
     \tfrac{1}{2}p_1
     \,,
-    \tfrac{1}{2}\big( e + \tfrac{1}{2}p_1 \big)
+    \tfrac{1}{2}\big(  \chi+ \tfrac{1}{2}p_1 \big)
   \big]
 $$
 
