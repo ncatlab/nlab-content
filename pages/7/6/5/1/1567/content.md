@@ -180,7 +180,6 @@ $$(u \Rightarrow v) = \bigvee_{x \wedge u \leq v} x \qquad  = \qquad (u \backsla
 
 Since a finite distributive lattice is  [[completely distributive lattice |completely distributive]] it is a bi-Heyting lattice, as shown above.
 
-
 Let $FinDistLat$ be the category of finite distributive lattices and lattice homomorphisms, and let $FinPoset$ be the category of finite [[posets]] and order-preserving functions.  These are contravariantly equivalent, thanks to the presence of an [[ambimorphic object]]:
 
 **Proposition.** The [[opposite category]] of $FinDistLat$ is [[equivalence of categories|equivalent]] to $FinPoset$:
@@ -204,9 +203,31 @@ $$
 
 where $2 = \{0,1\}$ is the 2-element poset with $0 \lt 1$.
 
-This baby form of *Birkhoff duality* is (in one form or another) mentioned in many places; the formulation in terms of hom-functors may be found in 
+This baby form of __Birkhoff duality__ is (in one form or another) mentioned in many places; the formulation in terms of hom-functors may be found in 
 
 * [[Gavin C. Wraith]], _Using the generic interval_, Cah. Top. G&#233;om. Diff. Cat. **XXXIV** 4 (1993) pp.259-266. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1993__34_4/CTGDC_1993__34_4_259_0/CTGDC_1993__34_4_259_0.pdf))
+
+Every finite distributive lattice has an underlying finite poset, and this defines a functor
+
+$$
+ U \;\colon\; FinDistLat \to FinPoset 
+$$
+
+which has a left adjoint
+
+$$
+ F \;\colon\; FinPoset \to FinDistLat 
+$$
+
+given by the composite
+
+$$FinPoset \stackrel{hom(-, 2)^{op}}{\to} FinPoset^{op} \stackrel{[-, 2]}{\to} FinDistLat$$ 
+
+where $hom$ denotes the internal hom of $FinPos$ regarded as a cartesian closed category, so that
+
+$$ hom(-,2) \; \colon \; FinPoset^{op} \to FinPoset $$
+
+We can interpret this formula for $F$ as follows.   To compute $FP$ for a finite poset $P$, first form the poset of upsets in $P$ with the reverse ordering (this is the free finite meet completion).  Then form the distributive lattice of finitely generated downsets in that.
 
 ### Categorification
 
