@@ -42,14 +42,37 @@ See [[lattice]] for more discussion of this issue.
 
 ## Semilattice homomorphisms
 
-A semilattice homomorphism $f$ from a semilattice $A$ to a semilattice $B$ is a [[function]] from $A$ to $B$ (seen as sets) that preserves $\vee$ (and $\bot$, if this is required):
+A homomorphism of join-semilattices $f: A \to B$ is a function that preserves finite joins, or equivalently:
 $$ f(x \vee y) = f(x) \vee f(y),\; f(\bot) = \bot .$$
-Note that such a homomorphism is necessarily a [[monotone function]], but the converse fails.
+Note that such a homomorphism is necessarily a [[monotone function]], but the converse fails.  Thus, a semilattice is a poset with [[property-like structure]].
 
-Thus, a semilattice is a poset with [[property-like structure]].
+A homomorphism of meet-semilattices is defined in a similar (i.e., dual) way.
 
 Semilattices and semilattice homomorphims form a [[concrete category]] [[SemiLat]].
 
+## The free join-semilattice on a poset
+
+There is a category $JSemiLatt$ with join-semilattices as objects and homomorphisms of these as morphisms, and a forgetful functor to the category of posets:
+
+$$
+U \colon JSemiLatt \to Poset 
+$$
+
+This has a left adjoint
+
+$$
+F \colon Poset \to JSemiLatt
+$$
+
+where for any poset $P$, the join-semilattice $F(P)$ is the poset of finitely generated downsets of $P$, ordered by inclusion.   Here a **downset** of a poset $P$ is a subset $S \subseteq P$ such that 
+
+$$ s \in S, s' \le s \quad  \implies \quad s' \in S. $$
+
+This set of all downsets in $P$, say $\hat{P}$, is ordered by inclusion, and it's a complete join-semilattice: any union of downsets is a downset.  There's an embedding of $P$ in  $\hat{P}$ that sends each $p \in P$ to its **principal** downset $\{s \in P : \; s \le p \}$.  A downset is **finitely generated** if it is the union of finitely many principal downsets.
+
+To understand this description of the free join-semilattice on a poset, some [[enriched category theory]] is useful.  We can think of posets, or more generally preorders, as $Bool$-enriched categories, where $Bool$ is the monoidal category with two objects $F$, $T$ and one nontrivial morphism $F \implies T$, its monoidal structure being "and".   The downsets of a poset $P$ correspond in a one-to-one way with order-preserving maps $f \colon P^{op} \to Bool$, just as presheaves on a category $C$ are functors $f \colon C^{op} \to Set$.   The embedding $y \colon P \to \hat{P}$ that sends each $p \in P$ to its principal downset is the $Bool$-enriched version of the Yoneda embedding.   So, just as the category of presheaves on a category $C$ is the [free cocomplete category](https://ncatlab.org/nlab/show/free+cocompletion) on $C$, $\hat{P}$ is the free cocomplete $Bool$-enriched category with on $P$.   But a cocomplete $Bool$-enriched category is just the same as a complete join-semilattice.  
+
+Similarly, the free join-semilattice on a poset is a $Bool$-enriched analogue of the free _finitely_ cocomplete category on a category $C$: objects in this category are presheaves that are finite colimits of representables.
 
 ## Examples
 
