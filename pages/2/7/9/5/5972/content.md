@@ -37,7 +37,7 @@ The subcategory of 1-motives in Nori motives agrees with Deligne's 1-motives, an
 
 * Annette Huber, [[Stefan Müller-Stach]], _On the relation between Nori motives and Kontsevich periods_, [1105.0865](http://arxiv.org/abs/1105.0865)
 
-* Madhav Nori, TIFR notes on motives, unpublished, [pdf](http://www.arithgeo.ethz.ch/alpbach2011/Nori_TIFR) *link broken*
+* Madhav Nori, TIFR notes on motives, unpublished, [pdf](https://web.archive.org/web/20160922233016/http://www.arithgeo.ethz.ch/alpbach2011/Nori_TIFR) (archived)
 
 * MathOverflow: [kontsevichs-conjectures-on-the-grothendieck-teichmuller-group](http://mathoverflow.net/questions/42148/kontsevichs-conjectures-on-the-grothendieck-teichmuller-group)
 
