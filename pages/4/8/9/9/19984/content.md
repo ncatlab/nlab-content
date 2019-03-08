@@ -112,7 +112,16 @@ Dragging vertex 1 up, or vertex 4 down, has no effect, as vertices cannot be dra
 
 The following images illustrate non-contractible scenarios:
 
-$$\text{INSERT PICTURES}$$
+<table style="border-style:hidden !important; padding:5px!important">
+<tr>
+<td>
+<img height="133" src="https://www.cs.bham.ac.uk/~vicaryjo/homotopy.io/nlab/noncontractible-1.png"/>
+</td>
+<td>
+<img height="133" src="https://www.cs.bham.ac.uk/~vicaryjo/homotopy.io/nlab/noncontractible-2.png"/>
+</td>
+</tr>
+</table>
 
 In both of these cases, attempting to perform the contraction will give an error message. In the first case, the contraction fails because there is no canonical ordering on the rear wires. In the second case, the contraction is successful at the level of the untyped diagram, but it is rejected by the type checker, since it merges two distinct generating cells, changing their neighbourhoods in a way which does not make sense in the type system.
 
@@ -166,9 +175,9 @@ For a signature $\Sigma$, we write $|\Sigma|$ for its set of generating types, w
 A _$|\Sigma|$-typed $n$-diagram_ is an object of the category obtained by starting with the category $\mathcal{P}_\Sigma$, and applying the zigzag category construction $n$ times.
 =--
 
-Given a $|\Sigma|$-typed $n$-diagram $D$, we can then ask if it is _well-typed_ with respect to $\Sigma$. This involves identifying the neighbourhoods of every point, and checking that they agree with the standard type neighbourhoods defined in $\Sigma$. This procedure is explained in the references below.
-
 ## Type checking and normalization
+
+Given a $|\Sigma|$-typed $n$-diagram $D$, we can then ask if it is _well-typed_ with respect to $\Sigma$. This involves identifying the neighbourhoods of every point, and checking that they agree with the standard type neighbourhoods defined in $\Sigma$. This procedure is explained in Christoph Dorn's PhD thesis referenced below.
 
 ## References
 
