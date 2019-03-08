@@ -697,8 +697,10 @@ Surveys include
 
 * [[Hiroshige Kajiura]], [[Jim Stasheff]], _Homotopy algebra of open&#8211;closed strings_ Geometry & Topology Monographs 13 (2008) 229&#8211;259 ([pdf](http://msp.warwick.ac.uk/gtm/2008/13/gtm-2008-13-010s.pdf)) ([arXiv:hep-th/0606283](http://arxiv.org/abs/hep-th/0606283))
 
-
 * {#Sachs15} [[Ivo Sachs]], _String theory and homotopy algebras_, talk notes, Srni 2015 ([pdf](http://www.math.muni.cz/~srni/Prednasky/Sachs.pdf))
+
+* {#Sachs19} [[Ivo Sachs]], _Homotopy Algebras in String Field Theory_, Proceedings of LMS/EPSRC Symposium _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html)_, Fortschritte der Physik 2019 ([arXiv:1903.02870](https://arxiv.org/abs/1903.02870))
+
 
 Discussion of the CSFT-action as of the form of [[schreiber:∞-Chern-Simons theory]] is in section 4.4 of 
 
