@@ -24,7 +24,7 @@ From [Grothendieck 85, pp. 552-3-1](#Grothendieck85):
 > The unknown thing to be known appeared to me as some stretch of earth or hard marl, resisting penetration... the sea advances insensibly in silence, nothing seems to happen, nothing moves, the water is so far off you hardly hear it.. yet it finally surrounds the resistant substance. 
 
 
-For more see ([MacLarty 03](#MacLarty03)).
+For more see ([McLarty 03](#McLarty03)).
 
 ## Website 
 
@@ -42,7 +42,7 @@ Grothendieck's metaphor is also discussed at
 * {#Grothendieck85} [[Alexander Grothendieck]], _[[Récoltes et semailles]]_, 1985-1987, 
 
 
-* {#MacLarty03} [[Colin McLarty]], _The Rising Sea: Grothendieck on simplicity and generality I_, 2003 ([pdf](http://www.cwru.edu/artsci/phil/RisingSea.pdf))
+* {#McLarty03} [[Colin McLarty]], _The Rising Sea: Grothendieck on simplicity and generality I_, 2003 ([pdf](http://www.cwru.edu/artsci/phil/RisingSea.pdf))
 
 
 category: reference
