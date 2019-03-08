@@ -63,7 +63,7 @@ $$
        \\
        z
     }
-  \;\;\;\;\;\;\right)
+  \;\;\;\right)
   \,.
 $$
 
@@ -377,7 +377,7 @@ The standard monographs on [[topos theory]] are
 
 Other texts include
 
-* [[Michael Barr]] and [[Charles Wells]], _Toposes, triples and theories_. [free online](http://www.cwru.edu/artsci/math/wells/pub/ttt.html)
+* [[Michael Barr]] and [[Charles Wells]], _Toposes, triples and theories_. [TAC Reprints](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)
 
 (Here "triple" means [[monad]]).
 
@@ -428,7 +428,7 @@ Enthusiastic, mostly nontechnical talk given by a probability theorist, made for
 
 Discussion of the relation to and motivation from the [[philosophy of mathematics]] includes 
 
-*  [[Colin McLarty]], _The Last Mathematician from Hilbert's G&#246;ttingen: Saunders Mac Lane as Philosopher of Mathematics_,Brit. J. Phil. Sci. 2007 ([pdf](http://www.cwru.edu/artsci/phil/BJPSMacLane.pdf))
+*  [[Colin McLarty]] _The Last Mathematician from Hilbert's G&#246;ttingen: Saunders Mac Lane as Philosopher of Mathematics_,Brit. J. Phil. Sci. 2007 ([pdf](http://www.cwru.edu/artsci/phil/BJPSMacLane.pdf))
 
 
 [[!redirects abstract nonsense]]
