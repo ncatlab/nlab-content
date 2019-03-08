@@ -3,7 +3,7 @@
 * table of contents
 {: toc}
 
-The "rising sea" is a metaphor invented by Grothendieck; it is also the name of a website of Daniel Murfet with notes on algebraic geometry as developed in the school of Grothendieck. 
+The "rising sea" is a metaphor invented by [[Alexander Grothendieck]]Grothendieck; it is also the name of a website of Daniel Murfet with notes on algebraic geometry as developed in the school of Grothendieck. 
 
 ## Idea
 
