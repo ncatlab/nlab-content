@@ -21,7 +21,7 @@ Consider the following properties of this space:
 
 1. {#regular1} for each point $x$ there is a $\mathcal{T}$-[[neighborhood base]] consisting  of $\mathcal{T}^*$-closed sets; 
 
-1. {#regular2} for all $x\in X$ and all $\mathcal{T}$-opens containing $x$ there is a $\mathcal{T}^*$-closed $\mathcal{T}$-neighborhood $V$ of $x$ such that $ V \subset U$;
+1. {#regular2} for all $x\in X$ and all $\mathcal{T}$-opens $U$ containing $x$ there is a $\mathcal{T}^*$-closed $\mathcal{T}$-neighborhood $V$ of $x$ such that $ V \subset U$;
 
 1. {#coupled1} $Cl^*(O) \subset Cl(O)$ for each $\mathcal{T}^*$-open $O$; 
 
@@ -35,7 +35,7 @@ There are the following implications among these properties
 \begin{tikzpicture}
 	\usetikzlibrary{arrows.meta}
 	\usetikzlibrary{matrix}
-  \matrix (m) [matrix of nodes,row sep=3em,column sep=5em,minimum width=2em]
+  \matrix (m) [matrix of nodes,row sep=3em,column sep=6em,minimum width=2em]
 {
 	 & (2)	& (3) \\
 	(5) & (1) & (4) \\};
@@ -68,7 +68,8 @@ __[(1)](#regular1) $\implies$ [(4)](#coupled2):__
 Given $x\in X$ and a $\mathcal{T}$-neighborhood $U$ by property [(1)](#regular1) there is a $\mathcal{T}^*$-open $O \subset U$ containing $x$. Hence $O \subset Cl^*(U)$, and $Cl^*(U)$ is a $\mathcal{T}^*$-neighborhood. 
 
 __[(3)](#coupled1) and $\mathcal{T}$ regular $\implies$ [(2)](#regular2):__
-Let $x\in X$ and $U$ be a $\mathcal{T}$-open containing $x$. By regularity of $\mathcal{T}$ we can find disjoint $\mathcal{T}$-opens $V' \ni x$ and $U' \supset \tilde{U}$ ($\tilde{U}$ denotes the [[complement]]). Set $V \coloneqq Cl^*(V')$. This set is obviously a $\mathcal{T}^*$-closed $\mathcal{T}$-neighborhood of $x$. Due to property [(3)](#coupled1) $V \subset Cl(V')$. Since also $Cl(V') \subset \widetilde{U'}$, we have $V \subset U$. This is to say that $V$ is the $\mathcal{T}$-neighborhood we sought.
+Let $x\in X$ and $U$ be a $\mathcal{T}$-open containing $x$. 
+By regularity of $\mathcal{T}$ we can find disjoint $\mathcal{T}$-opens $V' \ni x$ and $U' \supset \tilde{U}$ ($\tilde{U}$ denotes the [[complement]]). Set $V \coloneqq Cl^*(V')$. This set is obviously a $\mathcal{T}^*$-closed $\mathcal{T}$-neighborhood of $x$. Due to property [(3)](#coupled1) $V \subset Cl(V')$. Since also $Cl(V') \subset \widetilde{U'}$, we have $V \subset U$. This is to say that $V$ is the $\mathcal{T}$-neighborhood we sought.
 
 __[(5)](#cotopology2) and $\mathcal{T}$ regular $\implies$ [(2)](#regular2):__
 Let $x\in X$ and $U$ be a $\mathcal{T}$-open containing $x$. By regularity of $\mathcal{T}$ we can find disjoint $\mathcal{T}$-opens $V' \ni x$ and $U' \supset \tilde{U}$ ($\tilde{U}$ denotes the [[complement]]). Due to property [(5)](#cotopology2) the closed set $\widetilde{U'}$ contains a $\mathcal{T}^*$-closed neighborhood of $x$. This is the neighborhood we sought. 
