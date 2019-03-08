@@ -367,7 +367,7 @@ This and much more history is recalled in
 
 #### Topos theory
 
-The standard monographs on [[topos theory]] are
+Monographs on [[topos theory]]:
 
 * [[Ieke Moerdijk]], [[Saunders Mac Lane]], _[[Sheaves in Geometry and Logic]]_ (for which the $n$Lab currently provides detailed linked indexes)
 * [[Peter Johnstone]], _Topos theory_, 1977.
@@ -375,11 +375,9 @@ The standard monographs on [[topos theory]] are
 * [[Robert Goldblatt]], _Topoi, the categorial analysis of logic_.
 [free online](http://historical.library.cornell.edu/cgi-bin/cul.math/docviewer?did=Gold010&seq=&view=50&frames=0&pagenum=1)
 
-Other texts include
-
 * [[Michael Barr]] and [[Charles Wells]], _Toposes, triples and theories_. [TAC Reprints](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)
 
-(Here "triple" means [[monad]]).
+  (Here "triple" means" [[monad]]").
 
 
 
