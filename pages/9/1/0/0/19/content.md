@@ -63,7 +63,7 @@ $$
        \\
        z
     }
-  \;\;\;\right)
+  \;\;\;\;\;\;\right)
   \,.
 $$
 
@@ -218,6 +218,7 @@ and is increasingly finding applications in such diverse areas as chemistry, net
 Here set theory is assumed to be a theory of the usual concept of sets, that is *material* [[set theory]].
 
 No one of these is more fundamental than the other as a foundation of mathematics. Category theory is a holistic (structural) approach to mathematics that can (through such methods as Lawvere's [[ETCS]]) provide [[foundations]] of mathematics and (through [[algebraic set theory]]) reproduce all the different axiomatic set theories; elementary category theory does not need the concept of set to be formulated. Set theory is an analytic approach (element-wise) and can reproduce category theory by simply defining all the concepts in the usual way, as long as one include a technique to handle large categories (for instance by using [[class]]es instead of sets, or by including as an axiom that an uncountable [[inaccessible cardinal]] exists or even that [[Grothendieck universe]]s exist). 
+
 
 |Set theory| |Category theory|
 |----------|-|---------------|
@@ -427,7 +428,7 @@ Enthusiastic, mostly nontechnical talk given by a probability theorist, made for
 
 Discussion of the relation to and motivation from the [[philosophy of mathematics]] includes 
 
-*  [[Colin McLarty]] _The Last Mathematician from Hilbert's G&#246;ttingen: Saunders Mac Lane as Philosopher of Mathematics_,Brit. J. Phil. Sci. 2007 ([pdf](http://www.cwru.edu/artsci/phil/BJPSMacLane.pdf))
+*  [[Colin McLarty]], _The Last Mathematician from Hilbert's G&#246;ttingen: Saunders Mac Lane as Philosopher of Mathematics_,Brit. J. Phil. Sci. 2007 ([pdf](http://www.cwru.edu/artsci/phil/BJPSMacLane.pdf))
 
 
 [[!redirects abstract nonsense]]
