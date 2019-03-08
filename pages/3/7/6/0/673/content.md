@@ -34,6 +34,8 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 
 * _Comments on Mochizuki’s 2018 Report_ (2018) doi:[10.25909/5c5ce1fda4b7c](https://doi.org/10.25909/5c5ce1fda4b7c), ([blog post](https://thehighergeometer.wordpress.com/2018/09/28/on-mochiukis-report-on-discussions/))
 
+* _(Re)constructing code loops_, [arXiv:1903.02748](https://arxiv.org/abs/1903.02748). Joint with Ben Nagy.
+
 ### Papers
 
 * _Smooth loop stacks of differentiable stacks and gerbes_, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], Vol LIX no 2 (2018) pp 95-141 [journal version](http://cahierstgdc.com/index.php/volume-lix-2018/), [arXiv:1602.07973](https://arxiv.org/abs/1602.07973). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]].
@@ -74,8 +76,6 @@ Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny 
 
 ### In preparation
 
-
-* _(Re)constructing code loops_, joint with Ben Nagy.
 
 * _String structures and string connections on homogeneous spaces_, joint with Raymond Vozzo
 
