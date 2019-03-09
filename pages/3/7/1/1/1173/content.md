@@ -23,7 +23,9 @@ In a meet-semilattice the binary meet $\wedge$ is commutative, associative, has 
 
 Dually, a **join-semilattice** is a poset which admits all finite joins, including a bottom element $\bot$ and binary joins $\vee$.  Once again $\vee$ is commutative, associative, unital for $\bot$, and idempotent, and we can recover the order from it.  If we think of a poset as a category, a join-semilattice is the same as a poset with finite colimits, or equivalently, a poset with finite coproducts.
 
-Note that the algebraic definition of both types of semilattice is the same: a commutative idempotent monoid.  The difference comes in how we define the order, or if we work purely algebraically, in the notation we use (just as we distinguish additive and multiplicative groups notationally).  It would also be possible to take one as standard and call the other a _cosemilattice_ (compare [[direction|directed]] and [[codirection|codirected]] sets), but this may not have ever been done.
+We may also define a semilattice in a purely algebraic way, as a commutative idempotent monoid.  This is true for both meet-semilattices and join-semilattices.  The difference comes in how we define the order, or if we work purely algebraically, in the notation we use (just as we distinguish additive and multiplicative groups notationally).   Starting from a commutative idempotent monoid with multiplication $\cdot$ it becomes a join-semilattice if we say that $a \le b$ when $ab = a$, and a meet-semilattice if we say that $a \le b$ when $ab = b$.  
+
+Since the opposite of a meet-semilattice is a join-semilattice, it would be possible to take one as standard and call the other a _cosemilattice_ (compare [[direction|directed]] and [[codirection|codirected]] sets), but this may not have ever been done.
 
 If a poset is both a meet- *and* a join-semilattice, then we call it a [[lattice]].
 
