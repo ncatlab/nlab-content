@@ -5,7 +5,7 @@ We mention joins above as if the objects are join-semilattices; one can just as 
 There is a forgetful functor from $Semi Lat$ to $Set$, and its left adjoint sends any [[set]] $X$ to the __[[free object|free]] semilattice__ on that set: namely, the __finite [[powerset]]__ $\mathcal{P}_{fin}(X)$ of $X$, i.e. the set of [[finite set|finite]] subsets of $X$, thought of as a join-semilattice.  (Note that this exists even in [[predicative mathematics]], as long as we are allowed to define sets by [[recursion]] over [[natural numbers]], although you have to construct it by general nonsense instead of as a subset of the full powerset.  For purposes of [[constructive mathematics]], by 'finite' we mean [[K-finite set|Kuratowski finite]].)
 
 $Semi Lat$ is given by a finitary [[variety of algebras]], or equivalently by a [[Lawvere theory]], so has all the usual properties of such categories. 
-There is a commutative [[rig]] $Bool = \{F,T\}$ with $\vee$ as addition and $\wedge$ as multiplication, and $Semi Lat$ is equivalent to the category of $Bool$-modules (where a module of a rig is defined similarly to a module of  a ring, but with an underlying commutative monoid taking the place of an underlying abelian group).  Thus, $Semi Lat$ also has all the usual properties of a category of [[module|modules]] of a commutative rig.
+
 
 category: category
 
