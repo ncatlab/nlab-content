@@ -77,6 +77,8 @@ Together with the [[Thom's transversality theorem]], this is the key to the [[pr
 
 * [[immersion]], [[submersion]]
 
+* [[formally smooth morphism]]
+
 * [[transverse map]]
 
 * [[Thom's transversality theorem]]
