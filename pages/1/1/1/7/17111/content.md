@@ -60,16 +60,24 @@ The underlying [[manifold]] of $SU(2)$ is [[diffeomorphism|diffeomorphic]] to th
 
 =--
 
-+-- {: .num_prop}
+
+
++-- {: .num_prop #ExceptionalIsomorphismOfSU2ToSpin3AndSp1}
 ###### Proposition
 
 There are [[isomorphisms]] of [[Lie groups]]
 
-1. of $SU(2)$ with with the [[spin group]] in [[dimension]] 3.
+1. of $SU(2)$ with the [[spin group]] in [[dimension]] 3 and with the [[quaternionic unitary group]] in one dimension
 
    $$
-     SU(2) \simeq Spin(3)  
+     SU(2) 
+     \;\simeq\;
+     Spin(3)
+     \;\simeq\;
+     Sp(1)  
    $$
+
+
 
 1. of the [[direct product group]] of $SU(2)$ with itself, to [[Spin(4)]]
 
@@ -81,7 +89,7 @@ There are [[isomorphisms]] of [[Lie groups]]
      Spin(4)
    $$
 
-   whith respect to which the canonical inclusion $Spin(3) \hookrightarrow Spin(4)$ is given by the [[diagonal]] map.
+   with respect to which the canonical inclusion $Spin(3) \hookrightarrow Spin(4)$ is given by the [[diagonal]] map.
 
 
 =--
@@ -227,3 +235,5 @@ The [[finite subgroup of SU(2)]] have an [[ADE classification]]. See [this theor
 * [[Spin(4)]]
 
 [[!redirects Spin(3)]]
+
+[[!redirects Spin3]]
