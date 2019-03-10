@@ -73,6 +73,9 @@ By regularity of $\mathcal{T}$ we can find disjoint $\mathcal{T}$-opens $V' \ni 
 
 __[(5)](#cotopology2) and $\mathcal{T}$ regular $\implies$ [(2)](#regular2):__
 Let $x\in X$ and $U$ be a $\mathcal{T}$-open containing $x$. By regularity of $\mathcal{T}$ we can find disjoint $\mathcal{T}$-opens $V' \ni x$ and $U' \supset \tilde{U}$ ($\tilde{U}$ denotes the [[complement]]). Due to property [(5)](#cotopology2) the closed set $\widetilde{U'}$ contains a $\mathcal{T}^*$-closed neighborhood of $x$. This is the neighborhood we sought. 
+
+__[(1)](#regular1) $\implies$ [(5)](#cotopology2):__
+Given some $\mathcal{T}$-closed $\mathcal{T}$-neighborhood $V$ of some point $x$ choose a neighborhood base according to property [(1)](#regular1) and take an element $U$ therein that is contained in $V$.
 \end{proof}
 
 
@@ -84,8 +87,10 @@ A bitopological space $(X, \mathcal{T}, \mathcal{T}^*)$ is called __pairwise reg
 
 \begin{definition}\label{coupled}
 Let $(X, \mathcal{T}, \mathcal{T}^*)$ be a bitopological space.
-The topology $\mathcal{T}^*$ is __coupled to__ $\mathcal{T}^*$ if one of the two equivalent conditions [(3)](#coupled1) and [(4)](#coupled2) from proposition \ref{implications} holds.
+The topology $\mathcal{T}^*$ is __coupled to__ $\mathcal{T}$ if one of the two equivalent conditions [(3)](#coupled1) and [(4)](#coupled2) from proposition \ref{implications} holds.
 \end{definition}
+
+Not that is if $\mathcal{T}^*$ is coupled to a finer topology $\mathcal{T} \supset \mathcal{T}^*$ then $\mathcal{T}^*$ is coupled to every topology coarser than $\mathcal{T}$ due to property [(3)](#coupled1). Moreover in this case also $\mathcal{T}$ is coupled to $\mathcal{T}^*$ (again a direct consequence of property [(3)](#coupled1)).
 
 \begin{definition}\label{cotopology}
 Let $(X, \mathcal{T}, \mathcal{T}^*)$ be a bitopological space.
