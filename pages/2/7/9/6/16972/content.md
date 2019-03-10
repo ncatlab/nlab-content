@@ -18,7 +18,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -64,7 +63,7 @@ $$
 
 ## Properties
 
-### $SO(3)$-Equivariant structure
+### $SO(3)$- and $Spin(5)$-Equivariant structure
  {#EquivariantStructure}
 
 Since the [[automorphism group]] of the [[quaternions]], as an $\mathbb{R}$-[[associative algebra|algebra]], is the [[special orthogonal group]] $SO(3)$
@@ -78,6 +77,26 @@ acting by [[rotation]] of the imaginary quaternions, via the [[Hopf construction
 Notice that this means that $SO(3)$ acts on $S^7$ here diagonally on the _two_ copies of the imaginary octonions in $S^7 \hookrightarrow \mathbb{H} \oplus \mathbb{H}$ (as opposed to, say, via any one of the embeddings $SO(3) \hookrightarrow SO(8)$ and the following canonical action of $SO(8)$ on $S^7 \hookrightarrow \mathbb{R}^8$).
 
 (see also [Cook-Crabb 93](#CookCrabb93))
+
+But in fact more is true:
+
++-- {: .num_prop #Spin5EquivarianceOfQuaternionicHopfFibration}
+###### Proposition
+**([[Spin(5)]]-[[action|equivariance]] of [[quaternionic Hopf fibration]])**
+
+Consider 
+
+1. the [[Spin(5)]]-[[action]] on the [[4-sphere]] $S^4$ which is induced by the defining action on $\mathbb{R}^5$ under the identification $S^4 \simeq S(\mathbb{R}^5)$;
+
+1. the [[Spin(5)]]-action on the [[7-sphere]] $S^7$ which is induced under the exceptional [[isomorphism]] $Spin(5) \simeq Sp(2) = U(2,\mathbb{H})$ (this Prop. \ref{Spin(5)#ExceptionalIsoToSp2}) by the canonical left action of $U(2,\mathbb{H})$ on $\mathbb{H}^2$ via $S^7 \simeq S(\mathbb{H}^2)$.
+
+Then the [[quaternionic Hopf fibration]] $S^7 \overset{h_{\mathbb{H}}}{\longrightarrow} S^4$ is [[equivariant]] with respect to these [[actions]].
+
+=--
+
+This is almost explicit in [Porteous 95, p. 263](#Porteous95)
+
+[[Spin5OnHopfH.jpg:pic]]
 
 ### Class in the homotopy groups of spheres
  {#ClassInTheHomotopyGroupsOfSpheres}
@@ -202,6 +221,8 @@ See also at _[[equivariant stable cohomotopy]]_
 ## References
 
 * {#Miyaoka93} [[Reiko Miyaoka]], _The linear isotropy group of $G_2/SO(4)$, the Hopf fibering and isoparametric hypersurfaces_, Osaka J. Math. Volume 30, Number 2 (1993), 179-202. ([Euclid](http://projecteuclid.org/euclid.ojm/1200784357))
+
+* {#Porteous95} [[Ian Porteous]], _Clifford Algebras and the Classical Groups_, Cambridge Studies in Advanced Mathematics, Cambridge University Press (1995)
 
 Discussion in [[parameterized homotopy theory]] includes
 
