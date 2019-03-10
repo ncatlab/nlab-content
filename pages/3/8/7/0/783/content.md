@@ -40,7 +40,7 @@ The video of a talk by W. Scharlau on his life can be seen [here](http://www.dai
 
 * [[Pierre Deligne]], _Quelques id&#233;es ma&#238;tresses de l'&#339;uvre de A Grothendieck_ ([pdf](http://www.math.jussieu.fr/~leila/grothendieckcircle/Mathbiographies/Deligne.pdf))
 
-* [[Luc Illusie]], _Alexandre Grothendieck, le magicien des foncteurs_ ([pdf](http://www.cnrs.fr/insmi/IMG/pdf/Alexandre-Grothendieck.pdf)).
+* [[Luc Illusie]], _Alexandre Grothendieck, le magicien des foncteurs_ ([pdf](http://www.cnrs.fr/insmi/IMG/pdf/Alexandre-Grothendieck.pdf))
 
 * _Une entrevue avec [[Jean Giraud]], &#224; propos d'Alexandre Grothendieck_ ([pdf](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/giraud.pdf)).
 
@@ -49,10 +49,10 @@ A  recent article in French on Grothendieck is to be found [here](http://images.
 There were two articles on Grothendieck's life and work in the Notices AMS in 2004:
 
 * Allyn Jackson, _Comme Appel&#233; du N&#233;ant_, As If Summoned from the Void:
-The Life of Alexandre Grothendieck, Part 1,[Notices AMS](http://www.ams.org/notices/200409/fea-grothendieck-part1.pdf)
+The Life of Alexandre Grothendieck, Part 1, [Notices AMS](http://www.ams.org/notices/200409/fea-grothendieck-part1.pdf)
 
 * Allyn Jackson, _Comme Appel&#233; du N&#233;ant_, As If Summoned from the Void:
-The Life of Alexandre Grothendieck, Part 2,[Notices AMS](http://www.ams.org/notices/200410/fea-grothendieck-part2.pdf)
+The Life of Alexandre Grothendieck, Part 2, [Notices AMS](http://www.ams.org/notices/200410/fea-grothendieck-part2.pdf)
 
 Grothendieck obituary in the Notices AMS (Michael Artin, Allyn Jackson, David Mumford, and John Tate, Coordinating Editors):
 
