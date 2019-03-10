@@ -21,6 +21,8 @@ there are now compilers from C, C++, Rust, Lua, while the compiler for GoLang is
 
 A longer list of references is at [[zoranskoda:smart contract]] (at zoranskoda).
 
+Related pages at $n$Lab include [[distributed computing]], [[arithmetic cryptography]]
+
 The idea of a smart contract is from
 
 * N. Szabo,The idea of smart contracts, 1997 [html](http://szabo.best.vwh.net/idea.html)
