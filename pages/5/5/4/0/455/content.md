@@ -66,7 +66,15 @@ Alternatively, a __Boolean algebra__ is a [[set]] equipped with elements $\top$ 
 1.  $a \wedge \neg{a} = \bot$,
 1.  $a \vee \neg{a} = \top$.
 
-We can recover the poset structure: $a \leq b$ iff $a \wedge b = a$. There is a certain amount of redundancy or overkill in this axiom list; for example, it suffices to give just axioms 1, 2, 5, 6, 9, 10, 11, 12. 
+We can recover the poset structure: $a \leq b$ iff $a \wedge b = a$. There is a certain amount of redundancy or overkill in this axiom list; for example, it suffices to give just axioms 1, 2, 5, 6, 9, 10, 11, 12.  
+
+A very distilled algebraic definition was conjectured by Herbert Robbins: any set equipped with a binary operation $\vee$ and a unary operation $\neg$ obeying
+
+1. associativity: $a\vee \left(b\vee c\right)=\left(a\vee b\right)\vee c$
+1. commutativity: $a \vee b = b \vee a$
+1. the Robbins equation: $\neg \left(\neg \left(a\vee b\right)\vee \neg \left(a\vee \neg b\right)\right)=a $
+
+is a Boolean algebra.  William McCune proved the conjecture in 1996, using the automated theorem prover EQP.  A short proof was found by Allan Mann (see the references).
 
 #### Principle of duality 
 
@@ -160,6 +168,9 @@ $$BoolAlg \simeq PostAlg_k \to M_k\text{-}Set$$
 For each $k \geq 3$, the forgetful functor from $BoolAlg \to$ $M_k$-$Set$ realizes $BoolAlg$ as a _full_ subcategory of $M_k$-Set. 
 =-- 
 
+## References
+
+* Allan Mann, A complete proof of the Robbins conjecture.  ([pdf](http://math.colgate.edu/~amann/MA/robbins_complete.pdf))
 
 [[!redirects Boolean algebra]]
 [[!redirects Boolean algebras]]
