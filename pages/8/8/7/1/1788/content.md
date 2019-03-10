@@ -1,3 +1,7 @@
+
+* Bhubanjyoti Bhattacharya, Alakabha Datta, Saeed Kamali, David London, _CP Violation in $\bar B^0 \to D^{\ast +} \mu^- \bar \nu_\mu$_ ([arXiv:1903.02567](https://arxiv.org/abs/1903.02567))
+
+
 $$
   \array{
       \pi^V\left( S^V\right)^{\{0,\infty\}/}
