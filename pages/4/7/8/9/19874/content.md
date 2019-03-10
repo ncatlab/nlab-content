@@ -132,6 +132,8 @@ As a potential solution of the apparent [[B meson]] [[flavour anomaly]]:
 
 * {#CataMannel19} Oscar Cata, Thomas Mannel, _Linking lepton number violation with $B$ anomalies_ ([arXiv:1903.01799](https://arxiv.org/abs/1903.01799))
 
+* Bhubanjyoti Bhattacharya, Alakabha Datta, Saeed Kamali, David London, _CP Violation in $\bar B^0 \to D^{\ast +} \mu^- \bar \nu_\mu$_, ([arXiv:1903.02567](https://arxiv.org/abs/1903.02567))
+
 
 and within [[Randall-Sundrum models]]
 
