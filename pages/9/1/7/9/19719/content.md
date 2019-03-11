@@ -44,6 +44,7 @@ Here are the tasks to be done.  To volunteer for a task, edit the page and put y
 * Prove local totality for the equality rules at [[Initiality Project - Totality]].
 * Prove local totality for $\Pi,\lambda,App$ at [[Initiality Project - Totality - Pi-types]].
 * Create, update and maintain a bibliography ([[Initiality Project - References]]), ([[Initiality Project - BibTeX database]] for the project and link it to existing material.
+* QUESTION : whether geometric parametrized forms whose sense in sheaves is touched only grammatically is possible ?
 
 ## Background links
 
