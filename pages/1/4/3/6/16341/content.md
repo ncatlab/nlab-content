@@ -25,7 +25,26 @@ By the [[microcosm principle]], in order to define monoid objects in $C$, $C$ it
 
 Namely, a **monoid in $C$** is an object $M$ equipped with a multiplication $\mu: M \otimes M \to M$ and a unit $\eta: I \to M$ satisfying the **associative law**:
 
-![A pic](http://upload.wikimedia.org/wikipedia/commons/b/b1/Monoid_mult.png)
+$$
+\array{
+  & (M \otimes M) \otimes M
+    & \stackrel{\alpha}{\longrightarrow}
+  & M \otimes (M \otimes M)
+    & \stackrel{\mu}{\longrightarrow}
+  & M \otimes M
+  \\
+  & {}_{\mu}\searrow
+    &&
+    && \swarrow_{\mu}
+  &
+  \\
+  &&
+  M \otimes M
+    & \stackrel{\mu}{\longrightarrow}
+  M
+  &&
+}
+$$
 
 and the **left and right unit laws**:
 
