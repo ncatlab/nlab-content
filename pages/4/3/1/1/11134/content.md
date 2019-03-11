@@ -65,8 +65,6 @@ Here $\prod_W W^\ast = [W,-]$ is called the _[[function monad]]_ or _[[reader mo
 
 * [[continuation monad]]
 
-* [[state monad]]
-
 * [[function monad]] (reader monad)
 
 [[!redirects state monads]]
