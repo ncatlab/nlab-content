@@ -422,3 +422,9 @@ Discussion in the context of [[global equivariant homotopy theory]] is in
 Discussion via [[homotopy type theory]] is in
 
 * {#Shulman15} [[Mike Shulman]], _Univalence for inverse EI diagrams_ ([arXiv:1508.02410](http://arxiv.org/abs/1508.02410))
+
+An alternative [[model category]]-structure:
+
+* Mehmet Akif Erdal, Aslı Güçlükan İlhan, _A model structure via orbit spaces for equivariant homotopy_ ([arXiv:1903.03152](https://arxiv.org/abs/1903.03152))
+
+
