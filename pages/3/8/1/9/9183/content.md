@@ -57,16 +57,18 @@ From [[Justin Read]] [22 Aug 2018](https://twitter.com/ReadDark/status/103217657
 >  A key prediction of such models is that, at a fixed dark matter halo mass, more star formation leads to more dark matter "heating" and, therefore, a lower inner dark matter density, at least in dwarf galaxies. This is the prediction we set out to test in [Read-Walker-Steger 18](#ReadWalkerSteger18). 
 
 
-<br/>
+\linebreak
 
 ### Galactic rotation profile
  {#GalacticRotationCurves}
 
 Computer simulation ([FIRE](https://fire.northwestern.edu)) of [[galaxy|galactic]] [[structure formation]] using the [[standard model of cosmology|standard]] [[cold dark matter]] [[model (physics)|model]] qualitatively reproduces the peculiar [[galactic rotation curves]] that motivated dark matter (or [[MOND]], for that matter) in the first place ([Hopkins et al. 17, Figure 4, Figure 5](#Hopkins17)):
 
-
 \begin{center}
-<img src="https://ncatlab.org/nlab/files/FIRE2GalacticRotationCurves.jpg" width="800">
+\begin{imagefromfile}
+  "file_name": "FIRE2GalacticRotationCurves.jpg",
+  "width": 800
+\end{imagefromfile}
 \end{center}
 
 > graphics grabbed from ([Hopkins et al. 17](#Hopkins17))
@@ -75,7 +77,10 @@ and also reproduces well the baryonic [[Tully-Fisher relation]] ([El-Badry et al
 
 
 \begin{center}
-<img src="https://ncatlab.org/nlab/files/FIRE2TullyFisher.jpg" width="500">
+\begin{imagefromfile}
+  "file_name": "FIRE2TullyFisher.jpg",
+  "width": 500
+\end{imagefromfile}
 \end{center}
 
 > graphics grabbed from ([El-Badry et al. 18](#ElBadry18))
@@ -90,7 +95,7 @@ On the apparent resolution of the [missing satellite problem](https://en.wikiped
 [Garrison-Kimmel et al. 17 ](#GarrisonKimmel17), see [Garrison-Kimmel 18](#GarrisonKimmel18)
 
 
-<br/>
+\linebreak
 
 
 ## Related concepts
@@ -126,6 +131,9 @@ Review includes
 
 * {#Hooper18} [[Daniel Hooper]], _In Defense of Dark Matter_, 2018 ([web](http://online.kitp.ucsb.edu/online/cdm-c18/hooper/))
 
+Discussion of possible matter representations that could serve as dark matter:
+
+* Marco Cirelli, Nicolao Fornengo, [[Alessandro Strumia]], _Minimal Dark Matter_, Nucl.Phys.B753:178-194, 2006 ([arXiv:hep-ph/0512090](https://arxiv.org/abs/hep-ph/0512090))
 
 
 ### Evidence
