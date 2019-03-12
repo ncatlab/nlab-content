@@ -545,7 +545,7 @@ To upload a file, proceed as follows:
 
 1. Type 
 
-           [[FileName.xyz:file]] 
+   `[[FileName.xyz:file]]`
 
    into the edit-pane of some entry;
 
