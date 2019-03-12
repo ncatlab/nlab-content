@@ -64,7 +64,19 @@ The 5d $(2,0)$-[[SCFT]] has tensionless 1-[[brane]] configurations. From the poi
 ### Compactification on a Riemann surface and AGT correspondence
  {#CompactificationOnARiemannSurface}
 
-<div style="float:right;margin:0 20px 10px 20px;"><img width = "600" src="http://www.math.northwestern.edu/~celliott/workshop/6d_qft_graph.gif" alt="Compactification diagram" /></div>
+\begin{imagefromfile}
+  "file_name": "6d_qft_graph.gif",
+  "width": 600,
+  "float": "right",
+  "margin": {
+    "top": 0,
+    "right": 20,
+    "bottom": 10,
+    "left": 20,
+    "unit": "px"
+  },
+  "alt": "Compactification diagram"
+\end{imagefromfile}
 
 
 > (graphics taken from ([Workshop 14](#Workshop14)))
