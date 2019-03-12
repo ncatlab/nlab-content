@@ -27,26 +27,39 @@ The [[rest mass]] of the Higgs particle observed at the [[LHC]] [[experiment]] i
 
 This is determined by a [[local minimum]] of the Higgs [[potential energy|potential]] (see [Kusenko 15](#Kusenko15) for exposition):
 
-<img src="https://ncatlab.org/nlab/files/HiggsPotentials.png" width="500">
+\begin{imagefromfile}
+  "file_name": "HiggsPotentials.png",
+  "width": 500
+\end{imagefromfile}
 
 
 {#Curiously} Curiously, the Higgs [[potential energy|potential]] is such that the Higgs field at this mass is at least close to being at the border between [[vacuum stability]] and [[false vacuum]]. This was highlighted before the actual measurement ([EEGHR 09](#EEGHR09), [Gibbs 11b](#Gibbs11b)): spring
 
-<img src="https://ncatlab.org/nlab/files/HiggsVacuumStabilityIII.png" width="700">
+\begin{imagefromfile}
+  "file_name": "HiggsVacuumStabilityIII.png",
+  "width": 700
+\end{imagefromfile}
 
 Then it was amplified again after the detection of the Higgs particle at the [[LHC]] ([DVEEGI 12](#DVEEGI12)):
 
-
-<img src="https://ncatlab.org/nlab/files/HiggsVacuumStability.png" width="700">
+\begin{imagefromfile}
+  "file_name": "HiggsVacuumStability.png",
+  "width": 700
+\end{imagefromfile}
 
 More detailed computation at [[2-loop]] confirmed this result, showing that the observed Higgs vacuum is indeed very close to the boundary between the [[vacuum stability|stable]] and the meta-stable region ([BKPV 15](#BKPV15)):
 
-<img src="https://ncatlab.org/nlab/files/HiggsVacuumStabilityII.png" width="400">
+\begin{imagefromfile}
+  "file_name": "HiggsVacuumStabilityII.png",
+  "width": 400
+\end{imagefromfile}
 
 {#SeeAlsoAFS18} See also [AFS 18](#AFS18):
 
-<img src="https://ncatlab.org/nlab/files/HiggsVacuumStability4.png" width="800">
-
+\begin{imagefromfile}
+  "file_name": "HiggsVacuumStability4.png",
+  "width": 800
+\end{imagefromfile}
 
 In summary ([Kusenko 15](#Kusenko15)):
 
@@ -54,15 +67,16 @@ In summary ([Kusenko 15](#Kusenko15)):
 
 However [[quantum tunneling]]/[[vacuum decay]] is an intrinsically [[non-perturbative effect]] which needs careful treatment beyond [[perturbative quantum field theory]] (e.g. [AFFS 17](#AFFS17))
 
-<center>
-<img src="https://ncatlab.org/nlab/files/NonPerturbativeTunneling.jpg" width="600"/>
-</center>
+\begin{centre}
+  \begin{imagefromfile}
+    "file_name": "NonPerturbativeTunneling.jpg",
+    "width": 600
+  \end{imagefromfile}
+\end{centre}
 
 > graphics grabbed form [Schwartz 15, slide 44](#Schwartz15)
 
-
-
-$\,$
+\linebreak
 
 ### Cosmological instability?
  {#CosmologicalInstability}
@@ -75,19 +89,26 @@ However, it has been argued that an actual [[false vacuum]] of the Higgs is inco
 
 The near criticality of the Higgs field [[vacuum]] discussed [above](#MassAndVacuumInstability) implies that the [[coefficient]] $\lambda$ of the quartic part of the Higgs potential is close to zero after [[renormalization group flow]] ("RGE") to around the [[Planck scale]] of about $10^{19}$ [[GeV]] (e.g. [BDGGSSS 13, p. 17-18](#BDGGSSS13)):
 
-<img src="https://ncatlab.org/nlab/files/HiggsQuarticCoupling.png" width="400"/>
+\begin{imagefromfile}
+  "file_name": "HiggsQuarticCoupling.png",
+  "width": 400
+\end{imagefromfile}
 
 In fact also the [[beta function]] $\beta_\lambda$ of the quartic coupling $\lambda$ (i.e. its logarithmic [[derivative]] with respect to [[scale]]) is close to zero around the [[Planck scale]] of about $10^{19}$ [[GeV]] ([BDGGSSS 13, p. 18](#BDGGSSS13)):
 
-<img src="https://ncatlab.org/nlab/files/HiggsQuarticBetaFunctionRelative.png" width="400"/>
-
+\begin{imagefromfile}
+  "file_name": "HiggsQuarticBetaFunctionRelative.png",
+  "width": 400
+\end{imagefromfile}
 
 Earlier it has been suggested that this reflects the principle of [[asymptotic safety]] ([Shaposhnikov-Wetterich 09](#ShaposhnikovWetterich09)). But this would mean that not only $\lambda$ and its [[beta function|RGE-derivative]] $\beta_\lambda$ vanish around the [[Planck scale]], but that in fact all higher derivatives do, too (see e.g. [Niedermaier 06, equation (1.5)](asymptotic+safety#Niedermaier06)) hence that $\beta_\lambda$ asymptotes to zero. But this does not seem to be the case; in ([BDGGSSS 13, p. 17-18](#BDGGSSS13)) it says:
 
 >  As shown in fig. 2 (upper right), the corresponding Higgs quartic [[beta-function]] vanishes at a [[scale]] of about $10^{17}$-$10^{18}$ [[GeV]]. In order to quantify the degree of cancellation in the β-function, we plot in fig. 2 (lower right) $\beta_\lambda$ in units of its pure [[top quark]] contribution.  The vanishing of $\beta_\lambda$ looks  more  like  an  accidental  cancellation  between  various  large  contributions, rather than an asymptotic approach to zero.
 
-
-<img src="https://ncatlab.org/nlab/files/HiggsQuarticBetaFunction.png" width="800"/>
+\begin{imagefromfile}
+  "file_name": "HiggsQuarticBetaFunction.png",
+  "width": 800
+\end{imagefromfile}
 
 
 ### Higgs inflation?
@@ -105,7 +126,10 @@ For instance
 
 * in [[string theory]] (see _[[string phenomenology]]_) a Higgs mechanism can arise in a variety of ways. Notably in [[intersecting D-brane models]] it arises naturally from brane recombination at intersections: ([Cremades-Ibanez-Marchesano 02, section 7](#CremadesIbanezMarchesano02)):
 
-<img src="https://ncatlab.org/nlab/files/BraneRecombination.png" width="600"/>
+\begin{imagefromfile}
+  "file_name": "BraneRecombination.png",
+  "width": 600
+\end{imagefromfile}
 
 
 * in the [[technicolor]] model the Higgs field is not a fundamental particle but a compound of [[fermions]]. This realizes the Higgs effect entirely in ordinary [[gauge theory]]; 
@@ -193,7 +217,7 @@ Before experimental observation of the Higgs mass at the [[LHC]], the three poss
 
 More discussion of the near-criticality of the [[vacuum stability]] after the observation of the Higgs mass is due to
 
-* {#DVEEGI12} Giuseppe Degrassi, Stefano Di Vita, Joan Elias-Miró, José R. Espinosa, [[Gian Giudice]], Gino Isidori, _Higgs mass and vacuum stability in the Standard Model at NNLO_, J. High Energ. Phys. (2012) 2012: 98 ([arrXiv:1205.6497](https://arxiv.org/abs/1205.6497), <a href="https://doi.org/10.1007/JHEP08(2012)098">doi:10.1007/JHEP08(2012)098</a>)
+* {#DVEEGI12} Giuseppe Degrassi, Stefano Di Vita, Joan Elias-Miró, José R. Espinosa, [[Gian Giudice]], Gino Isidori, _Higgs mass and vacuum stability in the Standard Model at NNLO_, J. High Energ. Phys. (2012) 2012: 98 ([arrXiv:1205.6497](https://arxiv.org/abs/1205.6497), [doi:10.1007/JHEP&lpar;2012&rpar;098](https://doi.org/10.1007/JHEP08%282012%29098))
 
 with a more precise analysis due to
 
@@ -265,7 +289,7 @@ and related to the issue of the [[vacuum stability]] in
 
 which is based on
 
-* {#Kane17} [[Gordon Kane]], _String theory and the real world_, Morgan & Claypool, 2017 (<a href="http://iopscience.iop.org/book/978-1-6817-4489-6">doi:0.1088/978-1-6817-4489-6</a>)
+* {#Kane17} [[Gordon Kane]], _String theory and the real world_, Morgan & Claypool, 2017 ([doi:0.1088/978-1-6817-4489-6](http://iopscience.iop.org/book/978-1-6817-4489-6">doi:0.1088/978-1-6817-4489-6))
 
 
 
