@@ -33,9 +33,13 @@ More generally for $E$ any suitable [[E-infinity ring]] there is an Adams-Noviko
 
 [Isaksen 14](#Isaksen14):
 
-<img src="http://ncatlab.org/nlab/files/IsaksenANSSE2p.jpg" />
+\begin{imagefromfile}
+  "file_name": "IsaksenANSSE2p.jpg"
+\end{imagefromfile}
 
-<img src="http://ncatlab.org/nlab/files/IsaksenANSSEinfinityp.jpg" />
+\begin{imagefromfile}
+  "file_name": "IsaksenANSSEinfinityp.jpg"
+\end{imagefromfile}
 
 
 ### Relation to Brown-Peterson spectrum
