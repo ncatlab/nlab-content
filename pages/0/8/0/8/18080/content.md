@@ -1,1 +1,1 @@
-Mathematics and Computer Science postgraduate student from New Zealand
+Mathematics PhD student at the University of Auckland in New Zealand. Computer Science and Physics major, studying cryptography.
