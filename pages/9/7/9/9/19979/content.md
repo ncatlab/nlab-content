@@ -10,9 +10,12 @@
 ...hence a higher dimensional analogs of the [[Platonic solids]]...
 
 
-<center>
-<img src="https://ncatlab.org/nlab/files/Chilton120Cell.jpg" width="360">
-</center>
+\begin{centre}
+  \begin{imagefromfile}
+    "file_name": "Chilton120Cell.jpg",
+    "width": 360
+  \end{imagefromfile}
+\end{centre}
 
 > graphics grabbed from [Stillwell 01](#Stillwell01)
 
