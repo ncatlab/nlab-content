@@ -341,7 +341,7 @@ The double-categorical functoriality is in
 
 ### In homological algebra
 
-An standard textbook introduction to [[derived functors in homological algebra]] is in 
+A standard textbook introduction to [[derived functors in homological algebra]] is in 
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_.
 
