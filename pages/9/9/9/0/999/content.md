@@ -115,6 +115,18 @@ In a $\lambda$-[[accessible category]], if $\lambda$ is [[sharply smaller cardin
 See [Adamek-Rosicky, Remark 2.15](#AdamekRosicky94).  It is noted there that with the more technical proof of [Makkai-Pare, Proposition 2.3.11](#MakkaiPare89) the words "a retract of" can be omitted.
 =--
 
+If we weaken the hypothesis to $\lambda\le \kappa$, then we retain all of the result except for $\lambda$-filteredness of the colimit.
+
++-- {: .num_prop}
+###### Proposition
+In a locally $\lambda$-[[locally presentable category|presentable category]], if $\lambda\le \kappa$, then every $\kappa$-compact object is a [[retract]] of a $\kappa$-small colimit of $\lambda$-compact objects.
+=--
++-- {: .proof}
+###### Proof
+See [Adamek-Rosicky, Remark 1.30](#AdamekRosicky94).  It is claimed there that the words "a retract of" can be omitted by reference to an argument in Makkai-Pare, but it seems unclear how this argument is intended to be used.  An alternative proof of this improvement is proposed [at this mathoverflow question](https://mathoverflow.net/q/325278).
+=--
+
+
 
 ## Examples 
  {#Examples}
