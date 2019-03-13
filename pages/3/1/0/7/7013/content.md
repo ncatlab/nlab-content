@@ -133,11 +133,11 @@ Characterizations of locally presentable locally cartesian closed $(\infty,1)$-c
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
  {#Lurie}
 
-Early discussion in the context of [[homotopy type theory]] is in
+Early discussion in the context of [[homotopy type theory]] is 
 
 * {#Joyal11} [[André Joyal]], _Remarks on homotopical logic_, Oberwolfach (2011) ([pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf#page=19))
  
-proposing [[homotopy type theory]] as an internal language for locally cartesian closed $\infty$-categories.
+proposing [[homotopy type theory]] as an internal language for locally cartesian closed $\infty$-categories ([[Awodey's conjecture]]).
 
 [[Denis-Charles Cisinski]]'s argument in Theorem \ref{Presentations} above, that every locally presentable locally cartesian closed $(\infinity,1)$-category admits a presentation by a [[type-theoretic model category]], originally appeared on the Caf&#233; ([this blog comment](http://golem.ph.utexas.edu/category/2012/05/the_mysterious_nature_of_right.html#c041306)) and is mentioned in print in Examples 2.16 of 
 
