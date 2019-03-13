@@ -35,3 +35,6 @@ A [[differential operator|differential]] or [[pseudodifferential operator]] is *
 
 [[!redirects elliptic operators]]
 [[!redirects elliptic differential operators]]
+
+[[!redirects elliptic differential equation]]
+[[!redirects elliptic differential equations]]
