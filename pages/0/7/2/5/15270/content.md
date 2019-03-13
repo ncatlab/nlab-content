@@ -23,7 +23,10 @@ A long list of mathematical structures happens to have a classification that is 
 
 * [[simply laced Dynkin diagrams]] (their [[simple Lie groups]])
 
-  <img src="https://ncatlab.org/nlab/files/ADEDynkin.jpg" width="490"/>
+\begin{imagefromfile}
+  "file_name": "ADEDynkin.jpg",
+  "width": 490
+\end{imagefromfile}
 
 * connected [[quivers]] with a [[finite number]] of [[indecomposable object|indecomposable]] [[quiver representations]] over an [[algebraically closed field]] 
 
