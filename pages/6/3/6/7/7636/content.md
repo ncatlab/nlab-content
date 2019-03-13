@@ -365,6 +365,7 @@ Notice that this statement, once realized, makes (or would make) Univalent HoTT+
 
 * [[computational trinitarianism]]
 
+* [[Awodey's conjecture]]
 
 ## References
  {#References}
