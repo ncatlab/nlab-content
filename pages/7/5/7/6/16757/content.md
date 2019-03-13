@@ -31,7 +31,12 @@ Quick survey of this fact is in [Reid 87](#Reid87), a textbook account is [Slodo
 
 {#InStringTheory} In [[string theory]] this fact is interpreted in terms of [[gauge enhancement]] of the [[M-theory]]-lift of coincident [[black brane|black]] [[D6-branes]] to an  [[MK6]] at an ADE-singularity ([Sen 97](enhanced+gauge+symmetry#Sen97)):
 
-<img src="http://ncatlab.org/nlab/files/ADESingularity.jpg" width="760" alt="ADE 2Cycle" />
+\begin{center}
+\begin{imagefromfile}
+  "file_name": "ADESingularity.jpg",
+  "width": 760
+\end{imagefromfile}
+\end{center}
 
 > graphics grabbed from [HSS18](http://ncatlab.org/schreiber/show/Equivariant+homotopy+and+super+M-branes)
  
