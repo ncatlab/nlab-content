@@ -16,6 +16,10 @@ CR manifold structure are equivalently certain [[first-order integrable G-struct
 
 A close [[analogy]] between CR geometry and [[supergravity]] [[superspacetimes]] (as both being [[torsion of a G-structure|torsion-ful]] [[integrable G-structures]]) is pointed out in ([Lott 01 exposition (4.2)](torsion+constraints+in+supergravity#Lott01)).
 
+## Other Clifford-type Hypersurfaces
+
+[[HR manifold]]
+[[BR manifold]]
 
 ## References
 
