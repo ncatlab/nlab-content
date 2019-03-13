@@ -342,6 +342,8 @@ This is the topic of section 5.1 of
 [[!redirects free (infinity,1)-cocompletion]]
 
 [[!redirects (∞,1)-presheaf (∞,1)-topos]]
+[[!redirects (∞,1)-presheaf (∞,1)-toposes]]
+
 
 [[!redirects (infinity,1)-presheaf (infinity,1)-category]]
 [[!redirects (∞,1)-presheaf (∞,1)-category]]
