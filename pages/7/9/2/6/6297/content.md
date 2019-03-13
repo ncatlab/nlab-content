@@ -8,7 +8,7 @@ The corresponding theory of coefficients is given by [[overconvergent isocrystal
 
 * Kiran S. Kedlaya, Rigid cohomology and its coefficients, slides, [pdf](http://folk.uio.no/rognes/yff/kedlaya.pdf), workshop: p-adic Geometry and Homotopy Theory, Loen, 2009
 
-* Kiran Kedlaya, lecture 20, [pdf](http://www-math.mit.edu/~kedlaya/18.787/rigid-cohom.pdf) from a course on algebraic geometry
+* Kiran Kedlaya, lecture 20, [pdf](http://kskedlaya.org/18.787/rigid-cohom.pdf) from a course on algebraic geometry
 
 * wikipedia [rigid cohomology](http://en.wikipedia.org/wiki/Rigid_cohomology)
 
