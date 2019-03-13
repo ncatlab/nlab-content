@@ -74,7 +74,7 @@ It is well known that [[extensional type theory|extensional]] [[dependent type t
 
 The step from extensional to [[intensional type theory]] and the [[identity types]] that this brings with it makes intensional dependent type theory have models in certain [[(∞,1)-categories]].  This connection is usually shown by means of a presentation of the $(\infty,1)$-category using a [[weak factorization system]], a [[category of fibrant objects]], a [[model category]], or other similar structure.
 
-It is conjectured (see for instance [Awodey, 2010](#Awodey), [Joyal, 2011](#Joyal11)) that
+It is conjectured (due to [Awodey 09](#Awodey09), [Awodey, 2010](#Awodey), [Joyal, 2011](#Joyal11), see [[Awodey's conjecture]]) that
 
 * intensional dependent type theory with dependent sums and products and [[function extensionality]] (a form of homotopy type theory) is an internal language for [[locally cartesian closed (∞,1)-categories]]; and
 
@@ -336,8 +336,11 @@ and one with an emphasis on [[synthetic geometry]] is
 
 Early sketches and introductions to the idea of homotopy type theory include
 
+* {#Awodey09} [[Steve Awodey]], _Homotopy and Type Theory_, grant proposal project description ([pdf](https://ncatlab.org/homotopytypetheory/files/proposal2009.pdf))
+
 * {#Awodey} [[Steve Awodey]], _Type theory and homotopy_, Epistemology versus Ontology. Springer Netherlands, 2012. 183-201. (2010) [arXiv:1010.1810](http://arxiv.org/abs/1010.1810)
  
+
 
 * [[Michael Shulman]], _Homotopy type theory_ [I](http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_i.html), [II](http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_ii.html), [III](http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_iii.html), [IV](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_iv.html), [V](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_v.html), [VI](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_vi.html)
 
@@ -462,7 +465,7 @@ Models in terms of [[cubical sets]] inside [[constructive set theory]]/[[type th
 
 * {#KaposiAltenkirch14} Ambrus Kaposi, [[Thorsten Altenkirch]], _A syntax for cubical type theory_ ([pdf](http://mazzo.li/dump/aim-kaposi-pres.pdf))
 
-The conjecture that the models of HoTT with function extensionality are [[locally cartesian closed (∞,1)-categories]] is explicitly stated in
+A weaker version of the [[Awodey conjecture]], that the models of HoTT with function extensionality are [[locally cartesian closed (∞,1)-categories]] is explicitly stated in
 
 * {#Joyal11} [[André Joyal]], _Remarks on homotopical logic_ Oberwolfach (2011) ([pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf#page=19))
 
