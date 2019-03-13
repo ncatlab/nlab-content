@@ -121,6 +121,8 @@ For more on this see the respective sections at _[[relation between type theory 
 
 * [[Girard's paradox]]
 
+* [[Awodey's conjecture]]
+
 ## References
 
 Some of the text above is adapted from the entry _[[homotopytypetheory:universe]]_ at the [[homotopytypetheory:HomePage|homotopy type theory web]].
