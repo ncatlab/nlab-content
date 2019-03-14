@@ -124,6 +124,8 @@ U-duality may be understood as being the combination of [[T-duality]] for the co
 
   * **U-duality**
 
+* [[M-theory on G2-manifolds]]
+
 * [[magic pyramid]]
 
 ## References
