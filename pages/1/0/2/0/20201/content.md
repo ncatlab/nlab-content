@@ -1,3 +1,5 @@
+[[!redirects Awodey&#39;s conjecture]]
+[[!redirects Awodey&#39;s conjecture]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
