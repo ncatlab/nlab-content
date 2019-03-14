@@ -15,7 +15,7 @@
 
 ## Idea
 
-There are various hints (originally observed in [Witten 95](#Witten95)) that all [[perturbation theory|perturbative]] [[superstring theories]] ([[type II string theory|type II]] (A and B), [[type I string theory|type I]], [[heterotic string theory|heterotic]] ($SO(32)$ and $E_8 \times E_8$)) have a joint [[coupling constant|strong coupling]] [[non-perturbative quantum field theory|non-perturbative]] limit whose low energy [[effective field theory]] description is [[11-dimensional supergravity]] and which reduces to the various string theories by [[Kaluza-Klein compactification]] on an [[orientifold]] torus bundle, followed by various [[duality in string theory|string dualities]]. Since the string itself is thought to arise from a [[membrane]]/[[M2-brane]] in 11-dimensions after [[double dimensional reduction]] this hypothetical theory has been called "M-theory" short for "membrane theory"; e.g. in [Ho&#345;ava-Witten 95](#HoravaWitten95):
+There are various hints (originally observed in [Witten 95](#Witten95)) that all [[perturbation theory|perturbative]] [[superstring theories]] ([[type II string theory|type II]] (A and B), [[type I string theory|type I]], [[heterotic string theory|heterotic]] ($SO(32)$ and $E_8 \times E_8$)) have a joint [[coupling constant|strong coupling]] [[non-perturbative quantum field theory|non-perturbative]] limit whose low energy [[effective field theory]] description is [[11-dimensional supergravity]] and which reduces to the various string theories by [[Kaluza-Klein compactification]] on an [[orientifold]] torus bundle, followed by various [[duality in string theory|string dualities]]. Since the string itself is thought to arise from a [[membrane]]/[[M2-brane]] in 11-dimensions after [[double dimensional reduction]] this hypothetical theory has been called "M-theory" short for "membrane theory"; e.g. in [Horava-Witten 95](#HoravaWitten95):
 
 > As it has been proposed that the eleven-dimensional theory is a supermembrane theory but there are some reasons to doubt that interpretation, we will non-committally call it the _M-theory_, leaving to the future the relation of M to membranes.
 
@@ -59,7 +59,7 @@ Amer. Math. Soc, May 2015 p491 ([pdf](http://www.ams.org/notices/201505/rnoti-p4
 
 This issue is the very root of the abbreviation "M-theory":
 
-> As it has been proposed that the eleven-dimensional theory is a supermembrane theory but there are some reasons to doubt that interpretation, we will non-committally call it the _M-theory_, leaving to the future the relation of M to membranes. ([Ho&#345;ava-Witten 95](#HoravaWitten95))
+> As it has been proposed that the eleven-dimensional theory is a supermembrane theory but there are some reasons to doubt that interpretation, we will non-committally call it the _M-theory_, leaving to the future the relation of M to membranes. ([Horava-Witten 95](#HoravaWitten95))
 
 > {#Witten14LastParagraph} M-theory was meant as a temporary name pending a better understanding. Some colleagues thought that the theory should be understood as a membrane theory. Though I was skeptical, I decided to keep the letter "m" from "membrane" and call the theory M--theory, with time to tell whether the M stands for magic, mystery, or membrane. Later, the membranes were interpreted in terms of matrices. Purely by chance, the word "matrix" also starts with "m", so for a while I would say that the M stands for magic, mystery, or matrix. ([Witten 14, last paragraph](#Witten14))
 
@@ -168,9 +168,13 @@ This approach to computing putative M-theory scattering amplitudes is due to  ([
 
 * [[supergravity Lie 3-algebra]], [[supergravity Lie 6-algebra]], [[M-theory super Lie algebra]]
 
-* [[Ho?ava-Witten theory]], [[M9-brane]]
+* [[Horava-Witten theory]], [[M9-brane]]
 
-* [[G2-MSSM]], [[M-theory on G2-manifolds]]
+* [[M-theory on G2-manifolds]]
+
+  * [[G2-MSSM]]
+
+* [[M-theory on Spin(8)-manifolds]]
 
 * [[Diaconescu-Moore-Witten anomaly]]
 
