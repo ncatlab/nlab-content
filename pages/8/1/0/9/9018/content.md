@@ -184,6 +184,8 @@ relation to [[intersecting D-brane models]]: see [there](intersecting+D-brane+mo
 
 * [[exceptional generalized geometry]]
 
+* [[M-theory on Spin(8)-manifolds]]
+
 * [[topological M-theory]], [[Hitchin functional]]
 
 * [[7d Chern-Simons theory]]
