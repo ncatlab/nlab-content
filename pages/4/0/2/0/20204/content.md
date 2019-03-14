@@ -31,7 +31,7 @@ A _generalized separation algebra_ (GSA) is a partial [[monoid]] satisfying the 
 
 and the non-equational formula:
 
-(3) $\forall a, b (\exists d : da=b \iff \exists  \exists c ac = b)
+(3) $\forall a, b (\exists d : da=b \iff \exists c : ac = b)$
 
 A _separation algebra_ is a commutative GSA, which removes the axiom (3). The real interest of (3) lies in other order-theoretic properties.
 =--
