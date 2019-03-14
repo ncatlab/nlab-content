@@ -30,7 +30,7 @@ From [Awodey 09, p. 13](#Awodey09), [Awodey 10, p. 15](#Awodey10):
 
 A concise statement would be that the [[internal logic of an (∞,1)-topos|internal logic of (∞,1)-toposes]] is [[homotopy type theory]], though there is fine print involved.
 
-Following this suggestion, the weaker form of this idea, ignoring the [[univalence|univalent]] [[type universe]] and relating to the broader class of [[locally Cartesian closed (∞,1)-categories]], was stated more concretely as a conjecture in [Joyal 11](#Joyal11).
+Following this suggestion, the weaker form of this idea, ignoring the [[univalence|univalent]] [[type universe]] and relating to the broader class of [[locally Cartesian closed (∞,1)-categories]], was stated more concretely as a conjecture in [Joyal 11](#Joyal11). Fore more precision see [Kapulkin-Lumsdaine 16, p. 9](#KapulkinLumsdaine16).
 
 Roughly, this is about the following table of correspondences (for more see at [[relation between type theory and category theory]]):
 
@@ -40,6 +40,7 @@ Roughly, this is about the following table of correspondences (for more see at [
 | [[homotopy type theory]] | [[locally Cartesian closed (∞,1)-categories]] |
 | [[homotopy type theory]] with [[univalence|univalent]] [[type universes]] | [[elementary (∞,1)-toposes]] |
 
+Fore more precision see [Kapulkin-Lumsdaine 16, p. 9](#KapulkinLumsdaine16).
 
 ### Proof
 
@@ -67,6 +68,10 @@ A pronounced statement of the weaker version was highlighted in
 
 * {#Joyal11} [[André Joyal]], _Remarks on homotopical logic_ Oberwolfach (2011) ([pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf#page=19))
 
+and stated more precisely in 
+
+* {#KapulkinLumsdaine16} [[Chris Kapulkin]], [[Peter Lumsdaine]], _The homotopy theory of type theories_, Advances in Mathematics Volume 337, 15 October 2018, Pages 1-38 ([arXiv:1610.00037](https://arxiv.org/abs/1610.00037))
+
 ### Proof
 
 The proof of the weaker version (that every [[locally Cartesian closed (∞,1)-category]] has a presentation by a suitable [[type-theoretic model category]] which provides [[categorical semantics]] for [[homotopy type theory]]) is due, independently, to Example 2.16 of 
@@ -91,6 +96,7 @@ A general proof was announced in
 [[!redirects Awodey proposal]]
 
 [[!redirects Awodey conjecture]]
+[[!redirects Awodey's conjecture]]
 
 [[!redirects Awodey&#39;s conjecture]]
 [[!redirects Awodey&#39;s conjecture]]
