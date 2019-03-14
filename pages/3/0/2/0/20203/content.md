@@ -19,6 +19,8 @@
 
 The [[KK-compactification]] of [[M-theory]] on [[fibers]] which are [[Spin group|spin]]-[[manifolds]] of [[dimension]] 8. Hence on the low-energy limiting  [[11-dimensional supergravity]] this is KK-compactification to [[3d supergravity]].
 
+Typically this is considered with a [[reduction of the structure group]] on the compactification fiber from $Spin(8)$ to $Spin(7)$, in which case one speaks of _M-theory on $Spin(7)$-manifolds_.
+
 
 ## Properties
 
@@ -58,3 +60,4 @@ For more on this see at _[[F/M-theory on elliptically fibered Calabi-Yau 4-folds
 
 * Elena Mirela Babalic, [[Calin Lazaroiu]], _Internal circle uplifts, transversality and stratified G-structures_, JHEP11(2015)174 ([arXiv:1505.05238](https://arxiv.org/abs/1505.05238))
 
+[[!redirects M-theory on Spin(7)-manifolds]]
