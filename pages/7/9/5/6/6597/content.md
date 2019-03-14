@@ -16,7 +16,7 @@
 
 ## Idea
 
-The notion of _symplcetic gradient_ is the analog in [[symplectic geometry]] of the [[gradient]] in [[Riemannian geometry]].
+The notion of _symplectic gradient_ is the analog in [[symplectic geometry]] of the [[gradient]] in [[Riemannian geometry]].
 
 ## Definition
 
