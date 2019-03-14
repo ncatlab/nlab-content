@@ -48,6 +48,8 @@ The ([[U-duality]]-)[[global gauge group]] of maximally [[supersymmetry|supersym
 
 * **3-dimensional supergravity**
 
+  * [[M-theory on Spin(8)-manifolds]]
+
   * [[3d quantum gravity]]
 
 * [[ABJM model]]
