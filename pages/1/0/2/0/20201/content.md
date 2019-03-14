@@ -1,5 +1,3 @@
-[[!redirects Awodey&#39;s conjecture]]
-[[!redirects Awodey&#39;s conjecture]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -90,5 +88,10 @@ A general proof was announced in
 * {#Shulman19} [[Michael Shulman]], slides 5 to 10 of _Semantics of higher modalities_, talk at _[Geometry in Modal HoTT (2019)](http://www.andrew.cmu.edu/user/fwellen/modal-workshop.html)_ ([pdf slides](http://home.sandiego.edu/~shulman/papers/cmu2019b.pdf))
 
 
+[[!redirects Awodey proposal]]
 
 [[!redirects Awodey conjecture]]
+
+[[!redirects Awodey&#39;s conjecture]]
+[[!redirects Awodey&#39;s conjecture]]
+
