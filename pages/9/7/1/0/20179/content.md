@@ -44,3 +44,10 @@ If these equivalent conditions hold, we write $\lambda\unlhd \mu$.  If $\lambda 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
 * {#Goldberg19} Gabe Goldberg, answer to MathOverflow question _Raising the index of accessibility_,  <https://mathoverflow.net/q/324492>
+
+[[!redirects sharply smaller cardinal]]
+[[!redirects sharply smaller cardinals]]
+[[!redirects sharply larger cardinal]]
+[[!redirects sharply larger cardinals]]
+[[!redirects sharp cardinal inequality]]
+[[!redirects sharp cardinal inequalities]]
