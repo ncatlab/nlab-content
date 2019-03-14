@@ -118,6 +118,8 @@ See at _[[Bohr topos]]_ for more.
 
 ## Related concepts
 
+* [[effect algebra]]
+
 * [[quantum probability]]
 
 * [[interpretation of quantum mechanics]]
