@@ -194,6 +194,8 @@ See at [flow of a vector field](flow+of+a+vector+field#SyntheticDefinition).
 
 * [[synthetic differential topology]]
 
+* [[logical topology]]
+
 [[!include geometries of physics -- table]]
 
 ## References
