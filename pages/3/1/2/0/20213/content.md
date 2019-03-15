@@ -38,12 +38,17 @@ d(x, A\setminus\{\infty\})  & x \neq \infty \\
 \end{cases}
 $$
 
-## References
+* A [[gauge space|gauge]], or more generally a gauge base, $G$ on $X$ gives a distance on $X$ by $d_G(x, A) = \sup_{d \in G} \inf_{y\in A} d(x,y)$.
 
- * Robert Lowen _Approach spaces: the missing link in the topology-uniformity-metric triad_, 1997.
 
 ## Related concepts
 
 * [[metric space]]
 
 * [[gauge space]]
+
+* [[relational beta-module]]
+
+## References
+
+ * Robert Lowen, _Approach spaces: the missing link in the topology-uniformity-metric triad_, 1997.
