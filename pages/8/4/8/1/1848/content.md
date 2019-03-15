@@ -117,6 +117,8 @@ Cf. [[Urysohn metrization theorem]] and [[Polish space]]. I ([[Todd Trimble]]) a
 
 ## Properties
 
+* [[second-countable spaces are Lindelöf]]
+
 * [[second-countable regular spaces are paracompact]]
 
 * [[locally compact and second-countable spaces are sigma-compact]]
