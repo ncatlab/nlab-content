@@ -64,6 +64,52 @@ More precisely, $\flat_{dR} \Sigma A$ and $\Pi_{dR} \Omega A$ play the role of t
 
 * _[differential cohomology diagram -- de Rham coefficients](differential%20cohomology%20diagram#DeRhamCoefficients)_.
 
+## Examples
+
+### de Rham cohomology of spheres
+
++-- {: .num_prop }
+###### Proposition
+
+For positive $n$, the de Rham cohomology of the $n$-[[sphere]] $S^n$ is 
+
+$$
+  H^p(S^n)
+  = 
+  \left\{
+    \array{
+      \mathbb{R} & if\; p = 0,n  
+      \\
+      0 & otherwise
+    }
+  \right.
+  \,.
+$$
+
+For $n=0$, we have
+
+$$
+  H^p(S^0)
+  = 
+  \left\{
+    \array{
+      \mathbb{R} \oplus \mathbb{R} & if\; p = 0
+      \\
+      0 & otherwise
+    }
+  \right.
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows from the [[Mayer-Vietoris sequence]] associated to the open cover of $S^n$ by the subset excluding just the north pole and the subset excluding just the south pole, together with the fact that the dimension of the $0^{th}$ de Rham cohomology of a smooth manifold is its number of connected components.
+
+=--
+
 ## Properties
 
 ### Basic theorems
