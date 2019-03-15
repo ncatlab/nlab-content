@@ -42,6 +42,8 @@ A classical fact is
 
 +-- {: .num_theorem #classical} 
 ###### Theorem 
+Using [[countable choice]], then:
+
 For a metric space $X$ the following are equivalent
 
 1. $X$ is separable;
@@ -64,7 +66,9 @@ From each extract a countable subcover corresponding to collection of centers $A
 Indeed, given any $y\in X$ and $n$ the point $x$ has to be contained in some $B_{1/n}(x)$ for some $x\in A_n$.
 =-- 
 
-It is also possible to prove without the axiom of choice that (3) implies (2), analogous to the argument for (3)$\Rightarrow$(1).
+\begin{remark}
+In the proof any variant of the [[axiom of choice]] is only used for the implication (2)$\Rightarrow(3)$. On the other hand, assuming [[countable choice]], this implication [[second-countable spaces are Lindelöf|holds in every topological space]].
+\end{remark}
 
 Similar in spirit to (1)$\Leftrightarrow$(2) but less well-known is the following. 
 
