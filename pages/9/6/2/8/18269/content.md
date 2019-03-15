@@ -1,3 +1,12 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++-- {: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
 
 #Contents#
 * table of contents
@@ -11,7 +20,7 @@ A [[topological space]] is a _Lindel&#246;f space_ if every [[open cover]] has a
 
 * Every [[compact topological space]] is Lindel&#246;f.
 
-* Every [[second-countable topological space]] is Lindel&#246;f.
+* Every [[second-countable topological space]] [[second-countable spaces are Lindelöf|is Lindel&#246;f]].
 
 * Every [[sigma-compact topological space]] is Lindel&#246;f.
 
