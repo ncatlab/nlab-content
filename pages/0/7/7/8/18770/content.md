@@ -21,10 +21,13 @@ Where in SDG the concept of _[[infinitesimal neighbourhoods]]_ is encoded by the
 
 Notice that the germ of a manifold around a point is in general "larger" than the [[formal neighbourhood]] of that point, reflecting, dually, the fact that there are [[smooth functions]] which are non-vanishing in every [[open neighbourhood]] of that point but all whose [[partial derivatives]] vanish at that point (see also at _[[bump function]]_).
 
-SDT uses the representability of germs by an object defined intrinsically as the points not well-separated from $0 \in R^n$, $\neg \neg \{0\}$.
+SDT uses the representability of germs by an object defined intrinsically as the points not well-separated from $0 \in R^n$, $\neg \neg \{0\}$ ("[[logical topology]]").
 
 [[!include infinitesimal and local - table]]
 
+## Related concepts
+
+* [[logical topology]]
 
 ## References
 
@@ -34,6 +37,12 @@ SDT uses the representability of germs by an object defined intrinsically as the
 
 * [[Marta Bunge]], Felipe Gago, Ana Maria San Luis, _Synthetic Differential Topology_, 2018, ([CUP](http://www.cambridge.org/gb/academic/subjects/mathematics/logic-categories-and-sets/synthetic-differential-topology)) ([excerpt](http://assets.cambridge.org/97811084/47232/excerpt/9781108447232_excerpt.pdf))
 
+The [[logical topology]] goes back to
 
+* {#Penon81} [[Jacques Penon]], _Infinitésimaux et intuitionnisme_,  Cahiers de Topologie et Géométrie Différentielle Catégoriques, Volume 22 (1981) no. 1, p. 67-72 ([numdam:CTGDC_1981__22_1_67_0](http://www.numdam.org/item/?id=CTGDC_1981__22_1_67_0))
+
+Review in the context of [[cohesive toposes]], [[modal type theory]] and [[cohesive homotopy type theory]] includes
+
+* [[David Myers]], _Logical Topology and Axiomatic Cohesion_, talk at _[Geometry in Modal Homotopy Type Theory](http://www.andrew.cmu.edu/user/fwellen/modal-workshop.html)_ 2019 ([pdf slides](http://www.andrew.cmu.edu/user/fwellen/myers-slides.pdf))
 
 [[!redirects SDT]]
