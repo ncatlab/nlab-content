@@ -72,6 +72,8 @@ A $Gray$-category that is a [[3-groupoid]] is a [[Gray-groupoid]].
 * [[Steve Lack]], _A Quillen model structure for Gray-categories_ ([arxiv:1001.2366](http://arxiv.org/abs/1001.2366))
  {#Lack}
 
+* Peter Guthmann, _The tricategory of formal composites and its strictification_, [arXiv:1903.05777](https://arxiv.org/abs/1903.05777)
+
 
 
 [[!redirects Gray category]]
