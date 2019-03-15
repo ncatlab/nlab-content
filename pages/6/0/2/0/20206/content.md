@@ -20,7 +20,7 @@
 
 ## Idea
 
-Given a given [[intuitionistic logic]] framework, such as a [[type theory]], the _logical topology_ ([Penon 81](#Penon81)) on a given object ([[type]]) is that whose [[open subsets]] contain for every point $x$ also the collection of points that are indistinguishable from it it [[classical logic]], hence that are [[double negation|not not]] equal to $x$.
+Given a given [[intuitionistic logic]] framework, such as a [[type theory]], the _logical topology_ ([Penon 81](#Penon81)) on a given object ([[type]]) is that whose [[open subsets]] contain for every point $x$ also the collection of points that are indistinguishable from it in [[classical logic]], hence that are [[double negation|not not]] equal to $x$.
 
 ## Related concepts
 
