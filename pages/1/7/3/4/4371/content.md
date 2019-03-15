@@ -221,6 +221,8 @@ and this is a [[1-epimorphism]] precisely if the [[law of excluded middle]] hold
 
 * [[dense subtopos]]
 
+* [[logical topology]], [[synthetic differential topology]]
+
 * [[skeletal geometric morphism]]
 
 * [[de Morganization]]
