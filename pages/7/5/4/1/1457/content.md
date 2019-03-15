@@ -90,7 +90,7 @@ The category of metric spaces and categories of random maps as generalised metri
 
 ## Motivation for the axioms 
 
-The [[triangle inequality|triangle axiom]] is the fundamental idea behind a metric space; it goes back (at least) to Euclid and captures the idea that we are discussing the *shortest* distance between two points.  Given the triangle inequality, we have the polygon inequality
+The [[triangle inequality|triangle axiom]] is the fundamental idea behind a metric space; it goes back (at least) to [[Euclid]] and captures the idea that we are discussing the *shortest* distance between two points.  Given the triangle inequality, we have the polygon inequality
 $$ d(x_0,x_1) + \cdots + d(x_{n-1},x_n) \geq d(x_0,x_n) $$
 for all $n \gt 0$; the point inequality extends this to $n = 0$.
 
