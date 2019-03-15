@@ -45,7 +45,7 @@ $$
 +-- {: .num_remark }
 ###### Remark
 
-The underlying [[adjoint triple]] $\Pi \dashv Disc \dashv \Gamma$ in the case of infinitesimal cohesion is an [[ambidextrous adjunction]]. Such a [[localization of a category|localization]] is called a "quintessential localization" in ([Johnstine 96](#Johnstone96)).
+The underlying [[adjoint triple]] $\Pi \dashv Disc \dashv \Gamma$ in the case of infinitesimal cohesion is an [[ambidextrous adjunction]]. Such a [[localization of a category|localization]] is called a "quintessential localization" in ([Johnstone 96](#Johnstone96)).
 
 =--
 
