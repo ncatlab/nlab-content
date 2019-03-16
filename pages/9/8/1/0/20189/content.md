@@ -64,7 +64,93 @@ This is almost explicit in [Porteous 95, p. 263](#Porteous95)
 
 [[Spin5OnHopfH.jpg:pic]]
 
+### Cohomology
 
+
++-- {: .num_prop #}
+###### Proposition
+
+
+Let 
+
+$$
+  \array{
+    S^4
+    &\longrightarrow& 
+    B Spin(4)
+    \\
+    &&
+    \big\downarrow^{\mathrlap{\pi}}
+    \\
+    && 
+    B Spin(5)
+  }
+$$
+
+be the [[spherical fibration]] of [[classifying spaces]] induced from the canonical inclusion of [[Spin(4)]] into [[Spin(5)]] and using that the [[4-sphere]] is equivalently the [[coset space]] $S^4 \simeq Spin(5)/Spin(4)$ ([this Prop.](sphere#nSphereAsCosetSpace)).
+
+Then the [[fiber integration]] of the odd [[cup product|cup powers]] $\chi^{2k+1}$ of the [[Euler class]] $\chi \in H^4\big( B Spin(4), \mathbb{Z}\big)$ (see [this Prop](Spin4#IntegralCohomologyOfClassifyingSpace))  are proportional to [[cup product|cup powers]] of the [[second Pontryagin class]] 
+
+$$
+  \pi_\ast
+  \left(
+    \chi^{2k+1}
+  \right)
+  \;=\;
+  2 \big( p_2 \big)^k 
+  \;\;\in\;\;
+  H^4\big( B Spin(5), \mathbb{Z} \big) 
+  \,,
+$$
+
+for instance
+
+$$
+  \begin{aligned}
+    \pi_\ast
+    \big(
+      \chi
+    \big)
+    & = 
+    2 
+    \\
+    \pi_\ast
+    \left(
+      \chi^3
+    \right)
+    & = 
+    2 p_2 
+    \\
+    \pi_\ast
+    \left(
+      \chi^5
+    \right)
+    & = 
+    2 (p_2)^2 
+  \end{aligned}
+    \;\;\in\;\;
+    H^4\big( B Spin(5), \mathbb{Z} \big) 
+  \,;
+$$
+
+while the [[fiber integration]] of the even [[cup product|cup powers]] $\chi^{2k}$ vanishes
+
+$$
+  \pi_\ast
+  \left(
+    \chi^{2k}
+  \right)
+  \;=\;
+  0
+  \;\;\in\;\;
+  H^4\big( B Spin(5), \mathbb{Z} \big) 
+  \,.
+$$
+
+ 
+=--
+
+([Bott-Cattaneo 98, Lemma 2.1](#BottCattaneo98))
 
 ## Related concepts
 
@@ -78,8 +164,9 @@ This is almost explicit in [Porteous 95, p. 263](#Porteous95)
 
 * {#Porteous95} [[Ian Porteous]], _Clifford Algebras and the Classical Groups_, Cambridge Studies in Advanced Mathematics, Cambridge University Press (1995)
 
-
 * {#CadekVanzura97} [[Martin Čadek]], Jiří Vanžura, _On $Sp(2)$ and $Sp(2) \cdot Sp(1)$-structures  in 8-dimensional vector bundles_, Publicacions Matemàtiques Vol. 41, No. 2 (1997), pp. 383-401 ([jstor:43737249](https://www.jstor.org/stable/43737249))
+
+* {#BottCattaneo98} [[Raoul Bott]], [[Alberto Cattaneo]], _Integral Invariants of 3-Manifolds_, J. Diff. Geom., 48 (1998) 91-133 ([arXiv:dg-ga/9710001](https://arxiv.org/abs/dg-ga/9710001))
 
 [[!redirects Sp(2)]]
 
