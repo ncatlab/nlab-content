@@ -61,3 +61,8 @@ A comment on the version for complex vector fields is in
 See also
 
 * Wikipedia, _[Poincaré–Hopf theorem](https://en.wikipedia.org/wiki/Poincar%C3%A9%E2%80%93Hopf_theorem)_
+
+
+[[!redirects Poincaré-Hopf theorem]]
+[[!redirects Poincare–Hopf theorem]]
+[[!redirects Poincare-Hopf theorem]]
