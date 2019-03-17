@@ -394,6 +394,10 @@ However, by applying some standard apparent "tricks" on non-convergent series, o
 
 For $X$ an even-[[dimension]]al [[smooth manifold]], its Euler characteristic may also be given by [[integration]] of [[infinitesimal object|infinitesimal]] data: this is the statement of the higher dimensional [[Gauss-Bonnet theorem]].
 
+### Poincaré–Hopf theorem
+
+* [[Poincaré–Hopf theorem]]
+
 ## Related concepts
 
 * [[Euler class]]
@@ -403,6 +407,11 @@ For $X$ an even-[[dimension]]al [[smooth manifold]], its Euler characteristic ma
 * [[arithmetic genus]]
 
 ## References
+
+Review includes
+
+* Jonathan Libgober, _The Euler characteristic, Poincaré–Hopf theorem, and applications_ ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2010/REUPapers/Libgober.pdf))
+
 
 A standard textbook reference for topological Euler characteristics is page p. 156 and onwards in
 
