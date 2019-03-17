@@ -15,6 +15,8 @@
 
 * [[Hopf invariant]], [[Hopf invariant one]]
 
+* [[Poincaré–Hopf theorem]]
+
 * [[Hopf algebra]]
 
 category: people
