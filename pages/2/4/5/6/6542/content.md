@@ -21,7 +21,15 @@ The Euler class of the [[tangent bundle]] of a [[manifold]] is its [[Euler chara
 
 ## References
 
-* wikipedia [Euler class](http://en.wikipedia.org/wiki/Euler_class)
+Review includes
+
+* Satya Manda, _An overview of Euler class theory_ ([pdf](http://mandal.faculty.ku.edu/talks/amsTalk06.pdf))
+
+* Anant R. Shastri, section 2.1 of _Vector bundles and Characteristic Classes_ ([pdf](http://www.math.iitb.ac.in/~ars/seminar/bundle.pdf))
+
+See also
+
+* Wikipedia [Euler class](http://en.wikipedia.org/wiki/Euler_class)
 
 * Robert F. Brown, _On the Lefschetz number and the Euler class_, Transactions of the AMS __118__, (1965)  ([JSTOR](http://www.jstor.org/pss/1993952))
 
