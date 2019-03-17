@@ -76,6 +76,10 @@ from $n$th [[cohomotopy]] to $n$th [[integral cohomology]] is a [[bijection]].
 
 * [[winding number]]
 
+## Related concepts
+
+* [[Poincaré–Hopf theorem]]
+
 
 ## References
 
