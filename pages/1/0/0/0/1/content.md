@@ -101,7 +101,7 @@ Presently only [Firefox](http://www.mozilla.com/firefox/) and its derivatives ha
 
 This means that presently **you should use Firefox** or its derivatives to view the $n$Lab ([free download of Firefox](https://www.mozilla.org/en-GB/firefox/new/?gclid=CJnjs-3R3M0CFRHhGwodA10Euw)).
 
-Historically, the nlab was powered by [Instiki](https://golem.ph.utexas.edu/wiki/instiki/show/HomePage), but now runs on a [custom fork](https://github.com/ncatlab/nlab). All bug reports or other software issues in the $n$Lab should be directed [here](https://github.com/ncatlab/nlab/issues).
+Historically, the nlab was powered by [Instiki](https://golem.ph.utexas.edu/wiki/instiki/show/HomePage), but now runs on a [custom fork](https://github.com/ncatlab/nlab). All bug reports or other software issues/requests for the $n$Lab are currently best raised in the category [nLab Technical Matters](https://nforum.ncatlab.org/21/) at the nForum, but can also be posted [at github](https://github.com/ncatlab/nlab/issues).
 
 ## Server
  {#Server}
