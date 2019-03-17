@@ -15,9 +15,15 @@
 
 ## Idea
 
-The _Euler class_ is a [[characteristic class]] of the [[special orthogonal group]], hence of [[oriented]] real [[vector bundle]]s. 
+The _Euler class_ is a [[characteristic class]] of the [[special orthogonal group]], hence of [[oriented]] [[real vector bundles]]. 
 
 The Euler class of the [[tangent bundle]] of a [[manifold]] is its [[Euler characteristic]].
+
+## Properties
+
+* [[Poincaré–Hopf theorem]]
+
+...
 
 ## References
 
