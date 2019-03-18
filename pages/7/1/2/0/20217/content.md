@@ -10,11 +10,52 @@ This twenty page note aims at a clear and quick exposition of some   basic conce
   Researching for this note  helped me  consolidate foggy recollections  of my decades-old studies, and 
 I hope it will likewise prove useful to some readers in their learning introductory differential geometry.  The pace is leisurely in the beginning for the benefit of the novice, then picks up a bit in later sections. 
 
-Comments are welcome.
+ 
+##   Vector fields and tensor fields on smooth manifolds  ## 
+
+Throughout this section, let $M$ be a \textbf{smooth real manifold} of   dimension $n$. 
+ 
+\newcommand{\A}{\mathcal{A}}
+
+
+The set  
+$$\A:=C^\infty(M)$$ 
+of all real-valued smooth functions on $M$
+is a  commutative ring under pointwise addition and multiplication of functions.   
+
 
  
+##  Local basis and tensor index notation  ## 
 
 
-## References ##
- [fj   notes on differential geometry](https://www.researchgate.net/publication/331813344_fj_notes_on_differential_geometry).
+## Metrics and  affine connections on manifolds  ## 
+
+ 
+##  Riemann, Ricci curvature and Einstein field equations  ## 
+
+ 
+## Differential forms,   exterior derivative, wedge product  ## 
+
+ 
+## Harmonic forms and Hodge decomposition  ## 
+
+
+## Connections on vector bundles and Bianchi identities  ## 
+
+
+##  Complex vector bundles and Chern classes  ## 
+
+
+## Complex manifolds and the Dolbeault complex  ## 
+
+
+## Holoromorphic vector bundles and Chern connections  ## 
+
+
+## Hodge theory on Kahler manifolds  ## 
+
+
+##  Appendix: Complexification of a real vector space  ## 
+
+
 
