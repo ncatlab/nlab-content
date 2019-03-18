@@ -938,6 +938,9 @@ Presentation by [[model categories]] is discussed in
 
 * _The abstract cotangent complex and Quillen cohomology of enriched categories_ ([arXiv:1612.02608](https://arxiv.org/abs/1612.02608))
   
+Generalization to parameterized objects in any [[stable (∞,1)-category]] is discussed in:
+
+* [[Marc Hoyois]], _Topoi of parametrized objects_, Theory and Applications of Categories, Vol. 34, 2019, No. 9, pp 243-248. ([arXiv:1611.02267](https://arxiv.org/abs/1611.02267), [tac:34-09](http://www.tac.mta.ca/tac/volumes/34/9/34-09abs.html))
 
 [[!redirects tangent (infinity,1)-categories]]
 
