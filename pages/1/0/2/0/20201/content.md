@@ -90,7 +90,7 @@ The proof of the stronger version (including [[univalence|univalent]] [[type uni
 
 A general proof was announced in
 
-* {#Shulman19} [[Michael Shulman]], slides 5 to 10 of _Semantics of higher modalities_, talk at _[Geometry in Modal HoTT (2019)](http://www.andrew.cmu.edu/user/fwellen/modal-workshop.html)_ ([pdf slides](http://home.sandiego.edu/~shulman/papers/cmu2019b.pdf))
+* {#Shulman19} [[Michael Shulman]], slides 5 to 10 of _Semantics of higher modalities_, talk at _[Geometry in Modal HoTT (2019)](http://www.andrew.cmu.edu/user/fwellen/modal-workshop.html)_ ([pdf slides](http://home.sandiego.edu/~shulman/papers/cmu2019b.pdf), [video recording](https://www.youtube.com/watch?v=Wcpi1vVMrCs))
 
 
 [[!redirects Awodey proposal]]
