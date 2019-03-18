@@ -460,9 +460,9 @@ Readable introductions to the subject are:
 
 * [[Fabien Morel]], _On the motivic &#960;&#8320; of the sphere spectrum_ ([ps](http://www.mathematik.uni-muenchen.de/~morel/Newton.ps))
 
-* [[Peter Arndt]], _Abstract motivic homotopy theory_, thesis 2017 ([web](https://repositorium.ub.uni-osnabrueck.de/handle/urn:nbn:de:gbv:700-2017021015476?mode=full),  [pdf](https://repositorium.ub.uni-osnabrueck.de/bitstream/urn:nbn:de:gbv:700-2017021015476/6/thesis_arndt.pdf), [[ArndtAbstractMotivic.pdf:file]])
+* {#Arndt17} [[Peter Arndt]], _Abstract motivic homotopy theory_, thesis 2017 ([web](https://repositorium.ub.uni-osnabrueck.de/handle/urn:nbn:de:gbv:700-2017021015476?mode=full),  [pdf](https://repositorium.ub.uni-osnabrueck.de/bitstream/urn:nbn:de:gbv:700-2017021015476/6/thesis_arndt.pdf), [[ArndtAbstractMotivic.pdf:file]])
 
-   also: lecture at _[Geometry in Modal HoTT](www.andrew.cmu.edu/user/fwellen/abstracts.html)_, 2019 ([recording I](https://www.youtube.com/watch?v=f0wpcNs8hQo))
+   {#Arndth19} exposition: lecture at _[Geometry in Modal HoTT](www.andrew.cmu.edu/user/fwellen/abstracts.html)_, 2019 ([recording I](https://www.youtube.com/watch?v=f0wpcNs8hQo), [recording II](https://www.youtube.com/watch?v=sTl8637a2Zo))
 
 
 The [[model structure on simplicial presheaves]] on the [[Nisnevich site]] and its [[homotopy localization]] to [[A1-homotopy theory]] is in
