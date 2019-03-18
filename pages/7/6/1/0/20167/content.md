@@ -630,6 +630,8 @@ and all degrees  must differ from that of the class of the [[identity function]]
 
 * [[Hopf invariant]]
 
+* [[Poincaré–Hopf theorem]]
+
 ## References
 
 Due to [[Heinz Hopf]].
