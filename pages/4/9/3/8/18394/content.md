@@ -41,7 +41,11 @@ The concept principally appeared in
 
 De Groot made cotopologies popular by giving a unifying and generalizing version of the [[Baire category theorem]]
 
-* de Groot, _Subcompactness and the Baire category theorem_ 1963, Nederl. Akad. Wetensch. Proc., Ser. A66 = Indag. Math., vol. 25, pp. 761-767.
+* de Groot, _Subcompactness and the Baire category theorem_ 1963, Nederl. Akad. Wetensch. Proc., Ser. A66 = Indag. Math., vol. 25, pp. 761-767;
+
+unfortunately, his proof contained a gap that was later closed by
+
+* Isidore Fleischer, _On 'Subcompactness and the Baire category theorem'_ 1979, Nederl. Akad. Wetensch. Proc. Ser. A 82 = Indag. Math. 41, pp. 9-11.
 
 In this context some 
 
