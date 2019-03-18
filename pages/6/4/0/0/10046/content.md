@@ -72,6 +72,8 @@ Between continuous lattices, we may use the same morphisms; or we may more gener
 
 * The category of continuous lattices is [[cartesian closed category|cartesian closed]] if we use all Scott-continuous functions.  This category was used by [[Dana Scott]] to construct models of the untyped [[lambda calculus]]. 
 
+* Every continuous lattice is a [[Baire lattice]].
+
 
 ## Related pages
 
@@ -82,7 +84,9 @@ Between continuous lattices, we may use the same morphisms; or we may more gener
 
 ## References
 
-* R.-E. Hoffmann, _Continuous posets and adjoint sequences_, Semigroup Forum **18** (1979) pp.173-188. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PID=GDZPPN001253433))
+* Rudolf-E. Hoffmann, _Continuous posets and adjoint sequences_, Semigroup Forum **18** (1979) pp. 173-188. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PID=GDZPPN001253433))
+
+ * Karl H. Hofmann, _A note on Baire spaces and continuous lattices_ 1980. Bulletin of the Australian Mathematical Society, 21(2), pp. 265-279. 
 
 [[!redirects continuous poset]]
 [[!redirects continuous posets]]
