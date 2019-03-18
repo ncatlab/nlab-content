@@ -198,6 +198,10 @@ _The index pairing is the [[composition]] operation in the [[KK-theory|KK-]][[lo
 
 * [[zeta function of an elliptic differential operator]], [[eta function]]
 
+* [[Poincaré–Hopf index theorem]]
+
+* [[Gauss-Bonnet theorem]]
+
 [[!include genera and partition functions - table]]
 
 
