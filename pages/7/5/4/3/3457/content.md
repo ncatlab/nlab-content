@@ -86,6 +86,8 @@ Axiomatizations of the notion of &#233;tale maps in general [[toposes]] are disc
 [[!redirects etale map]]
 [[!redirects étale maps]]
 [[!redirects etale maps]]
+[[!redirects etalé maps]]
+[[!redirects etalé map]]
 
 [[!redirects étale morphism]]
 [[!redirects étale morphisms]]
