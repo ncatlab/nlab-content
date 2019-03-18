@@ -103,7 +103,7 @@ See the [[HowTo]] page for information on how to contribute to the $n$Lab and ed
 
 ## Technology and Support
 
-Historically, the nlab was powered by [Instiki](https://golem.ph.utexas.edu/wiki/instiki/show/HomePage), but now runs on a [custom fork](https://github.com/ncatlab/nlab). All bug reports or other software issues in the $n$Lab should be directed [here](https://github.com/ncatlab/nlab/issues).
+Historically, the nlab was powered by [Instiki](https://golem.ph.utexas.edu/wiki/instiki/show/HomePage), but now runs on a [custom fork](https://github.com/ncatlab/nlab). All bug reports or other software issues/requests for the nLab are currently best raised in the category [nLab Technical Matters](https://nforum.ncatlab.org/21/) at the nForum, but can also be posted [at github](https://github.com/ncatlab/nlab/issues).
 
 The physical server running the nLab lives at [Carnegie Mellon University](http://www.cmu.edu), and is supported by the [[homotopy type theory]] MURI award FA9550-15-1-0053 from the United States Air Force Office of Scientific Research.  Any opinions, findings and conclusions or recommendations expressed on the nLab are those of the authors and do not necessarily reflect the views of the AFOSR.
 
