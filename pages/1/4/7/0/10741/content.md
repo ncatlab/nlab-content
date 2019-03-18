@@ -61,7 +61,7 @@ $$
 
 ### Generic values
 
-For $n$ odd, then the Hopf invariant necessarily vanishes. For $n$ even however, then there is a homomorphism
+For $n$ odd, the Hopf invariant necessarily vanishes. For $n$ even however, then there is a homomorphism
 
 $$
   \pi_{2n-1}(S^n) \longrightarrow  \mathbb{Z}
