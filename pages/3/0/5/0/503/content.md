@@ -72,7 +72,7 @@ The Cauchy completion $\overline{C}$ satisfies the following properties
 
 1. $C$ is a [[full subcategory]] $C \hookrightarrow \overline{C}$;
 
-1. every [[idempotent]] in $\overline{C}$ splits;
+1. every [[idempotent]] in $\overline{C}$ [[split idempotent|splits]];
 
 1. the inclusion $C \hookrightarrow \overline{C}$ is an [[equivalence of categories]] precisely if already every [[idempotent]] in $C$ splits;
 
