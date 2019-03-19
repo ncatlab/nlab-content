@@ -15,6 +15,9 @@ The analog of the [[unitary group]] as one passes from the [[complex numbers]] t
 
 * $Sp(2) \simeq$ [[Spin(5)]] ([this Prop.](Spin5#ExceptionalIsomorphismOfSU2ToSpin3AndSp1))
 
+## Related concepts
+
+* A [[Riemannian manifold]] of [[dimension]] $4n$ is called a _[[quaternion-Kähler manifold]]_ if its [[holonomy group]] is a [[subgroup]] of the [[direct product group]] $Sp(n) \times Sp(1)$.
 
 
 ## References
