@@ -221,7 +221,7 @@ We have
  
   * [[Spin(5)]] $\simeq Sp(2)$ (an indirect consequence of [[triality]], see e.g. [Čadek-Vanžura 97](#CadekVanzura97))
 
-  * $Spin(6) \simeq SU(4)$ (the [[special unitary group]] [SU(4)](special+unitary+group#SU4))
+  * [[Spin(6)]] $\simeq SU(4)$ (the [[special unitary group]] [SU(4)](special+unitary+group#SU4))
 
 * in [[Lorentz group|Lorentzian]] signature
 
