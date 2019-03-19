@@ -72,6 +72,10 @@ In particular, the existence of a nowhere vanishing [[vector field]] (for which 
 
 Named after [[Henri Poincaré]] and [[Heinz Hopf]].
 
+Textbook accounts:
+
+* {#DubrovinNovikovFomenko85} B. A. Dubrovin, [[S. P. Novikov]], A. T. Fomenko, section 15.2 of _Modern Geometry — Methods and Applications: Part II: The Geometry and Topology of Manifolds_, Graduate Texts in Mathematics 104, Springer-Verlag New York, 1985
+
 Review includes
 
 * Alex Wright, Kael Dixon, _The Poincaré–Hopf theorem_ ([pdf](https://pdfs.semanticscholar.org/cd21/dbffb8cbc3a3636c40a58cb921789b0eaac9.pdf))
