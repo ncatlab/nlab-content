@@ -25,7 +25,13 @@ Typically tadpoles are required to be absent. For instance the construction of [
 
 ## Examples
 
-* [[RR-field tadpole]]
+* [[RR-field tadpole cancellation]] in [[type II string theory]]
+
+* [[C-field tadpole cancellation]] in [[M-theory]]
+
+## Related concepts
+
+* [[tadpole cancellation]]
 
 ## References
 
@@ -36,3 +42,6 @@ Discussion in context of [[causal perturbation theory]]/[[perturbative AQFT]] is
 
 
 [[!redirects tadpoles]]
+
+
+
