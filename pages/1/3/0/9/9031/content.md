@@ -3,9 +3,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Differential geometry
+#### Riemannian geometry
 +--{: .hide}
-[[!include synthetic differential geometry - contents]]
+[[!include Riemannian geometry - contents]]
+=--
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
 =--
 =--
 =--
