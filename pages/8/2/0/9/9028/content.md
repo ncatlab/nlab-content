@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -17,6 +27,43 @@ A [[manifold]] of [[special holonomy]] [[Spin(7)]].
 
 [[!include normed division algebra Riemannian geometry -- table]]
 
+### Characteristic classes
+
++-- {: .num_prop #CharacteristicClassesForSpinStructure}
+###### Proposition
+
+Let $X$ be a  [[closed manifold|closed]] [[smooth manifold]] of [[dimension]] 8 with [[Spin structure]]. If the [[frame bundle]] moreover admits [[G-structure]] for 
+
+$$
+  G = Spin(7) \hookrightarrow Spin(8)
+$$ 
+
+then the [[Euler class]] $\chi$, the [[second Pontryagin class]] $p_2$ and the [[cup product]]-square $(p_1)^2$ of the [[first Pontryagin class]] of the [[frame bundle]]/[[tangent bundle]] are related by
+
+\[
+  \label{EulerClassInTermsOfPontryagin}
+  8 \chi
+  \;=\;
+  4 p_2 - (p_1)^2
+  \,.
+\]
+
+
+=--
+
+([Isham-Pope 88 (3.36)](#IshamPope88))
+
++-- {: .num_remark}
+###### Remark
+
+The same conclusion (eq:EulerClassInTermsOfPontryagin) also holds for $Spin(3) \times Spin(5)$-structure, see [there](quaternion-Kähler+manifold#CharacteristicClassesForSpin5Spin3Structure).
+
+=--
+
+See also at _[[C-field tadpole cancellation]]_.
+
+\linebreak
+
 ## Related concepts
 
 * [[Spin(7)-instanton]]
@@ -30,10 +77,14 @@ A [[manifold]] of [[special holonomy]] [[Spin(7)]].
 
 * [[Dominic Joyce]], _Compact Manifolds with Special Holonomy_, Oxford Mathematical Monographs, Oxford University Press (2000)
 
+* {#IshamPope88} [[Chris Isham]], [[Christopher Pope]], _Nowhere Vanishing Spinors and Topological Obstructions to the Equivalence of the NSR and GS Superstrings_, Class.Quant.Grav. 5 (1988) 257 ([spire](http://inspirehep.net/record/251240), [doi:10.1088/0264-9381/5/2/006](https://doi.org/10.1088/0264-9381/5/2/006))
 
 [[!redirects Spin(7) manifolds]]
 
 [[!redirects Spin(7)-manifold]]
 
 [[!redirects Spin(7)-manifolds]]
+
+[[!redirects Spin7-manifold]]
+[[!redirects Spin7-manifolds]]
 
