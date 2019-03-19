@@ -406,6 +406,8 @@ For $X$ an even-[[dimension]]al [[smooth manifold]], its Euler characteristic ma
 
 * [[arithmetic genus]]
 
+* [[C-field tadpole cancellation]]
+
 ## References
 
 Review includes
