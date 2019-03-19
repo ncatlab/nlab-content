@@ -20,6 +20,17 @@ A [[Riemannian manifold]] of [[dimension]] $4n$ is called a _quaternion-Kähler 
 
 ## Properties
 
+### As part of the Berger classification
+
+[[!include special holonomy table]]
+
+### As $\mathbb{H}$-Riemannian manifolds
+
+[[!include normed division algebra Riemannian geometry -- table]]
+
+
+### Characteristic classes
+
 +-- {: .num_prop #CharacteristicClassesForSpin5Spin3Structure}
 ###### Proposition
 
@@ -29,24 +40,32 @@ $$
   G = Sp(2) \times Sp(1) \simeq Spin(5) \times Spin(3) \hookrightarrow Spin(8)
 $$ 
 
-then the [[Euler class]] $\chi$, [[first Pontryagin class]] $p_1$ and [[second Pontryagin class]] $p_2$ of the [[frame bundle]]/[[tangent bundle]] are related by
+then the [[Euler class]] $\chi$, the [[second Pontryagin class]] $p_2$ and the [[cup product]]-square $(p_1)^2$ of the [[first Pontryagin class]] of the [[frame bundle]]/[[tangent bundle]] are related by
 
-$$
+\[
+  \label{EulerClassInTermsOfPontryagin}
   8 \chi
   \;=\;
   4 p_2 - (p_1)^2
   \,.
-$$
+\]
 
 =--
 
 ([Čadek-Vanžura 97, Theorem 8.1 with Remark 8.2](#CadekVanzura97))
 
++-- {: .num_remark}
+###### Remark
+
+The same conclusion (eq:EulerClassInTermsOfPontryagin) also holds for $Spin(7)$-structure, see [there](Spin7-manifold#CharacteristicClassesForSpinStructure)
+
+=--
+
 See also at _[[C-field tadpole cancellation]]_.
 
 ## Related concepts
 
-[[!include normed division algebra Riemannian geometry -- table]]
+* [[Kähler manifold]], [[hyper-Kähler manifold]]
 
 ## References
 
@@ -63,3 +82,24 @@ See also
 * Wikipedia, _[Quaternion-K&#228;hler manifold](https://en.wikipedia.org/wiki/Quaternion-K&#228;hler_manifold)_
 
 [[!redirects quaternion-Kähler manifolds]]
+
+[[!redirects quaternion Kähler manifold]]
+[[!redirects quaternion Kähler manifols]]
+
+
+[[!redirects quaternion-Kaehler manifold]]
+[[!redirects quaternion-Kaehler manifolds]]
+
+
+[[!redirects quaternion Kaehler manifold]]
+[[!redirects quaternion Kaehler manifolds]]
+             
+[[!redirects quaternionic Kähler manifold]]
+[[!redirects quaternionic Kähler manifolds]]
+
+
+[[!redirects quternionic-Kähler manifold]]
+[[!redirects quternionic-Kähler manifolds]]
+
+
+
