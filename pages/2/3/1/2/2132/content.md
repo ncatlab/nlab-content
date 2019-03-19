@@ -649,7 +649,7 @@ $$
 The [[Hodge theorem]] asserts that for a compact K&#228;hler manifold, the canonical $(p,q)$-grading of its [[differential forms]] descends to its [[de Rham cohomology]]/[[ordinary cohomology]]. The resulting structure is called a _[[Hodge structure]]_, and is indeed the archetypical example of such.
 
 
-### As $\mathbb{O}$-Riemannian manifolds
+### As $\mathbb{C}$-Riemannian manifolds
 
 [[!include normed division algebra Riemannian geometry -- table]]
 
