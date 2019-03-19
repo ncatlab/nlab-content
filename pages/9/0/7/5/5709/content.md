@@ -1441,6 +1441,11 @@ Volume 352, Issue 2, 25 March 1991, Pages 451-468 (<a href="https://doi.org/10.1
 
 * {#Sen16} [[Ashoke Sen]], _Wilsonian Effective Action of Superstring Theory_, J. High Energ. Phys. (2017) 2017: 108 ([arXiv:1609.00459](https://arxiv.org/abs/1609.00459))
 
+Discussion of possible criteria for which effective field theory do _not_ arise as effective field theories of a string theory:
+
+* Eran Palti, _The Swampland: Introduction and Review_, lecture notes ([arXiv:1903.06239](https://arxiv.org/abs/1903.06239))
+
+For more see at _[[landscape of string theory vacua]]_.
 
 [[!redirects effective quantum field theories]]
 
