@@ -54,7 +54,7 @@ $$
 
 * [[Pin(2)]]
 
-* [[Spin(3)]], [[Spin(4)]]
+* [[Spin(3)]], [[Spin(4)]], [[Spin(5)]], [[Spin(6)]]
 
 * [[finite subgroups of SU(2)]]
 
