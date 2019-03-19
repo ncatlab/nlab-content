@@ -87,8 +87,11 @@ from $n$th [[cohomotopy]] to $n$th [[integral cohomology]] is a [[bijection]].
 
 ## References
 
-* {#DubrovinNovikovFomenko85} B. A. Dubrovin, S. P. Novikov, A. T. Fomenko, section 13 of: _Modern Geometry— Methods and Applications: Part II: The Geometry and Topology of Manifolds_, Graduate Texts in Mathematics 104, Springer-Verlag New York, 1985
+Texbook accounts:
 
+* {#DubrovinNovikovFomenko85} B. A. Dubrovin, [[S. P. Novikov]], A. T. Fomenko, section 13 of: _Modern Geometry — Methods and Applications: Part II: The Geometry and Topology of Manifolds_, Graduate Texts in Mathematics 104, Springer-Verlag New York, 1985
+
+See also:
 
 * Wikipedia, _[Degree of a continuous mapping](http://en.wikipedia.org/wiki/Degree_of_a_continuous_mapping)_
 
