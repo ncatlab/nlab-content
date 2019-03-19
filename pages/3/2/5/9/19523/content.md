@@ -33,7 +33,7 @@ It has been shown that the effect of such backreaction is small or invisible if 
 
 The [[standard model of cosmology]] assumes that such inhomogeneities may be neglected to zeroth order, and studies [[structure formation]] as a perturbation about a spatially homogeneous [[FRW model]] [[background field|background]] [[spacetime]].
 
-Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15](standard+model+of+cosmology#BCKRW15), [Riess et. al. 16](#RiessEtAl16)) related to _[[dark energy]]_ (a [[cosmological constant]], and possibly related issues such as [[cosmic inflation]]), it has been suggested that these may be but an artifact of the overly idealistic approximation of cosmic homogeneity, and that a more accurate inhomogeneous cosmology would not need to assume any [[dark energy]]/[[cosmological constant]].
+Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15](standard+model+of+cosmology#BCKRW15), [Riess et. al. 16](#RiessEtAl16)) related to _[[dark energy]]_ (a [[cosmological constant]], and possibly related issues such as [[cosmic inflation]]), it has been suggested that these may be but an artefact of the overly idealistic approximation of cosmic homogeneity, and that a more accurate inhomogeneous cosmology would not need to assume any [[dark energy]]/[[cosmological constant]].
 
 References suggesting/discussing/checking this idea include the following: [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Räsänen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Buchert 11](#Buchert11), [Buchert-Räsänen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Smoller-Temple-Vogler 14](#SmollerTempleVogler14), [Moffat 16](#Moffat16), [Sarkar et al. 18](#SarkarEtAl18), [Sarkar 18](#Sarkar18).
 
@@ -66,7 +66,7 @@ A similar conclusion is reached in [Sarkar et al. 18](#SarkarEtAl18), which in [
 
 Survey of the field of inhomogeneous cosmology and of attitudes in the community towards open issues is in [Belejko-Korzyński 16](#BelejkoKorzynski16).
 
-If the apparent small positive [[cosmological constant]] ([[dark energy]]) were but an artifact of neglecting backreaction of inhomogeneities, some theoretical puzzlements regarding [[quantum gravity]] on [[de Sitter spacetimes]] would disappear (see [Rajaraman 16](de+Sitter+spacetime#Rajaraman16) for general discussion and [Danielsson-VanRiet 18, p. 27](#DanielssonVanRiet18) for discussion of [[perturbative string theory vacua]]).
+If the apparent small positive [[cosmological constant]] ([[dark energy]]) were but an artefact of neglecting backreaction of inhomogeneities, some theoretical puzzlements regarding [[quantum gravity]] on [[de Sitter spacetimes]] would disappear (see [Rajaraman 16](de+Sitter+spacetime#Rajaraman16) for general discussion and [Danielsson-VanRiet 18, p. 27](#DanielssonVanRiet18) for discussion of [[perturbative string theory vacua]]).
 
 ## Numerical simulation
  {#NumericalSimulation}
