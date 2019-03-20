@@ -101,5 +101,22 @@ See also
 [[!redirects quternionic-Kähler manifold]]
 [[!redirects quternionic-Kähler manifolds]]
 
+[[!redirects quaternion-Kähler structure]]
+[[!redirects quaternion-Kähler structures]]
+
+[[!redirects quaternion-Kaehler structure]]
+[[!redirects quaternion-Kaehler structures]]
+
+[[!redirects quaternion Kähler structure]]
+[[!redirects quaternion Kähler structures]]
+
+[[!redirects quaternion Kaehler structure]]
+[[!redirects quaternion Kaehler structures]]
+
+[[!redirects Spin(3) x Spin(5)-structure]]
+[[!redirects Spin(3) x Spin(5)-structures]]
+
+[[!redirects Spin(3) x Spin(5) structure]]
+[[!redirects Spin(3) x Spin(5) structures]]
 
 
