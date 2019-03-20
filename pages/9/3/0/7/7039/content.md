@@ -88,3 +88,4 @@ Textbook accounts include
 [[!redirects analytic functions]]
 [[!redirects analytic map]]
 [[!redirects analytic maps]]
+[[!redirects complex analytic]]
