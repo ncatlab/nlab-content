@@ -31,7 +31,7 @@ where standard discussions of ultrapowers of class-sized models take this techni
 
 The eponymous trick was introduced in a conference: 
 
-* [[Dana  Scott]], *Definitions by abstraction in axiomatic set theory*,  Meeting of the American Mathematical Society, University of British Columbia,  Vancouver, Canada (June 1955). ([web](http://www.ams.org/journals/bull/1955-61-05/S0002-9904-1955-09941-5/S0002-9904-1955-09941-5.pdf)) 
+* [[Dana Scott]], *Definitions by abstraction in axiomatic set theory*,  Meeting of the American Mathematical Society, University of British Columbia,  Vancouver, Canada (June 1955). ([web](http://www.ams.org/journals/bull/1955-61-05/S0002-9904-1955-09941-5/S0002-9904-1955-09941-5.pdf)) 
 
 Scott's immediate application was to give a viable notion of cardinal number, not as a von Neumann ordinal which requires the [[well-ordering principle]], but via a proxy of the equivalence class for the equivalence relation "is in bijection with", as explained above. 
 
