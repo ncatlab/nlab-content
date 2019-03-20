@@ -42,7 +42,7 @@ The idea of *persistent homology* is to look for features that persist for some 
 
 ## Software
 
-One can compute intervals for homological features algorithmically over field coefficients and software packages are available for this purpose. See for instance [Perseus](http://www.sas.upenn.edu/~vnanda/perseus).
+One can compute intervals for homological features algorithmically over field coefficients and software packages are available for this purpose. See for instance [Perseus](http://www.sas.upenn.edu/~vnanda/perseus). The principal algorithm is based on bringing the filtered complex to its **canonical form** by upper-triangular matrices from ([Barannikov1994, §2.1] (https://www.researchgate.net/profile/Serguei_Barannikov/publication/267672645_The_Framed_Morse_complex_and_its_invariants/links/5970e947458515fa8de6e724/The-Framed-Morse-complex-and-its-invariants.pdf))
 
 ## References
 
@@ -52,6 +52,7 @@ A clear introduction to the use of persistent homology in data analysis is
 
 Other references:
 
+*  Serguei Barannikov,[_Framed Morse complex and its invariants_](https://www.researchgate.net/profile/Serguei_Barannikov/publication/267672645_The_Framed_Morse_complex_and_its_invariants/links/5970e947458515fa8de6e724/The-Framed-Morse-complex-and-its-invariants.pdf) Advances in Soviet Mathematics __21__ 93–115 (1994)
 * Robert MacPherson, Benjamin Schweinhart, _Measuring shape with topology_, J. Math. Phys. __53__, 073516 (2012); [doi](http://dx.doi.org/10.1063/1.4737391)
 * A. Zomorodian, [[G. Carlsson]], _Computing persistent homology_, Discrete Comput. Geom. __33__, 249&#8211;274 (2005)
 * Ulrich Bauer, Michael Kerber, Jan Reininghaus, _Clear and compress: computing persistent homology in chunks_, [arxiv/1303.0477](http://arxiv.org/abs/1303.0477)
