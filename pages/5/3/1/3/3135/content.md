@@ -111,9 +111,8 @@ It follows that the [[homotopy groups]] $\pi_k(U(n))$ are independent of $n$ for
 
 $$
 \array{
-\pi_{2k+0}(U) & = 0
-\\
-\pi_{2k+1}(U) & = \mathbb{Z}.
+\pi_{2k+0}(U) &= 0\\
+\pi_{2k+1}(U) &= \mathbb{Z}.
 }
 $$
 
@@ -122,8 +121,8 @@ In the unstable range for low $n$ they instead start out as follows
 | $G$ | $\pi_1$ | $\pi_2$ | $\pi_3$ | $\pi_4$ | $\pi_5$ | $\pi_6$ | $\pi_7$ | $\pi_8$ | $\pi_9$ | $\pi_10$ | $\pi_11$ | $\pi_12$ | $\pi_13$ | $\pi_14$ | $\pi_15$ |
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 | $U(1)$ | $\mathbb{Z}$ | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| $U(2)$ | " | 0 | $\mathbb{Z}$ |  |  | $\mathbb{Z}_{12}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ | $\mathbb{Z}_3$ | $\mathbb{Z}_{15}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2^{\oplus 2}$ | $\mathbb{Z}_3\oplus\mathbb{Z}_{12}$ | $\mathbb{Z}_2^{\oplus 2}\oplus\mathbb{Z}_{84}$ | $\mathbb{Z}_2\oplus\mathbb{Z}_2$ |
-| $U(3)$ | " | " | " |  |  | $\mathbb{Z}_6$ | 0 | $\mathbb{Z}_{12}$ | $\mathbb{Z}_3$ | $\mathbb{Z}_{30}$ | $\mathbb{Z}_4$ | $\mathbb{Z}_{60}$ | $\mathbb{Z}_6$ | $\mathbb{Z}_2\oplus\mathbb{Z}_{84}$ | $\mathbb{Z}_{36}$ |
+| $U(2)$ | " | 0 | $\mathbb{Z}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ | $\mathbb{Z}_{12}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ | $\mathbb{Z}_3$ | $\mathbb{Z}_{15}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2^{\oplus 2}$ | $\mathbb{Z}_3\oplus\mathbb{Z}_{12}$ | $\mathbb{Z}_2^{\oplus 2}\oplus\mathbb{Z}_{84}$ | $\mathbb{Z}_2\oplus\mathbb{Z}_2$ |
+| $U(3)$ | " | " | " | 0 | $\mathbb{Z}$ | $\mathbb{Z}_6$ | 0 | $\mathbb{Z}_{12}$ | $\mathbb{Z}_3$ | $\mathbb{Z}_{30}$ | $\mathbb{Z}_4$ | $\mathbb{Z}_{60}$ | $\mathbb{Z}_6$ | $\mathbb{Z}_2\oplus\mathbb{Z}_{84}$ | $\mathbb{Z}_{36}$ |
 | $U(4)$ | " | " | " | " | " | 0 | $\mathbb{Z}$ | $\mathbb{Z}_{24}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2\oplus\mathbb{Z}_{120}$ | $\mathbb{Z}_4$ | $\mathbb{Z}_{60}$ | $\mathbb{Z}_4$ | $\mathbb{Z}_2\oplus\mathbb{Z}_{1680}$ | $\mathbb{Z}_2\oplus\mathbb{Z}_{72}$ |
 | $U(5)$ | " | " | " | " | " | " | " | 0 | $\mathbb{Z}$ | $\mathbb{Z}_{120}$ | 0 | $\mathbb{Z}_{360}$ | $\mathbb{Z}_4$ | $\mathbb{Z}_{1680}$ | $\mathbb{Z}_6$ |
 | $U(6)$ | " | " | " | " | " | " | " | " | " | 0 | $\mathbb{Z}$ | $\mathbb{Z}_{720}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2\oplus\mathbb{Z}_{5040}$ | $\mathbb{Z}_6$ |
