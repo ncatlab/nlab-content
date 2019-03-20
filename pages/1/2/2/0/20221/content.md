@@ -52,6 +52,8 @@ with the [[special unitary group]] of complex dimension 4.
 
 * [[Spin(5)]]
 
+* [[Spin(8)]]
+
 
 ## References
 
