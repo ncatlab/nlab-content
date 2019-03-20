@@ -194,7 +194,14 @@ Note that a $1$-globular set is just a [[directed graph]], and a $0$-globular se
 * The **globular $n$-globe** $G_n$ is the globular set represented by $n$, i.e. $G_n(-) := Hom_G(-,n)$.
 
 
+## Grothendieck homotopy theory
 
+The category of [[globes]] is not a [[weak test category]] according
+to Scholium 8.4.14 in Cisinski \ref{PMTH}.
+
+However, if we construct the free [[strict monoidal category]]
+on the category of [[globes]], while ensuring that the terminal object becomes the monoidal unit,
+then the resulting category of polyglobes is a [[test category]].
 
 
 ## Related concepts
@@ -238,6 +245,8 @@ See also
 * [[Sjoerd Crans]], _On combinatorial models for higher dimensional homotopies_ ([web](https://web.archive.org/web/20130514164856/http://home.tiscali.nl/secrans/papers/comb.html))
 
 * [[R. Street]], _The petit topos of globular sets_ , JPAA **154** (2000) pp.299-315.
+
+\bibitem{PMTH} [[Denis-Charles Cisinski]], _Les préfaisceaux comme modèles des types d’homotopie_, Asterisque.
 
 The definition of globular set, without using that term, is in 2.2 and 2.3 of the following paper: 
 
