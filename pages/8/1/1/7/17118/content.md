@@ -109,6 +109,10 @@ See also
 [[!redirects quaternionic Kähler manifold]]
 [[!redirects quaternionic Kähler manifolds]]
 
+[[!redirects quaternionic-Kähler manifold]]
+[[!redirects quaternionic-Kahler manifold]]
+[[!redirects quaternionic-Kähler manifolds]]
+[[!redirects quaternionic-Kahler manifolds]]
 
 [[!redirects quternionic-Kähler manifold]]
 [[!redirects quternionic-Kähler manifolds]]
