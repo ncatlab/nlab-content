@@ -68,7 +68,7 @@ to an equivalence between the bicategory of localic groupoids, complete flat bis
 
 * {#Moerdijk88} [[Ieke Moerdijk]], _The classifying topos of a continuous groupoid I_ , Trans. Amer. Math. Soc. Volume 310, Number 2, (1988) ([pdf](http://www.ams.org/journals/tran/1988-310-02/S0002-9947-1988-0973173-9/S0002-9947-1988-0973173-9.pdf))
 
-* [[Ieke Moerdijk]], _The classifying topos of a continuous groupoid II_ , Cahiers de topologie et g&#233;om&#233;trie diff&#233;rentielle cat&#233;goriques 31, no. 2 (1990), 137&#8211;168. ([pdf](http://www.numdam.org/article/CTGDC_1990__31_2_137_0.pdf/))
+* [[Ieke Moerdijk]], _The classifying topos of a continuous groupoid II_ , Cahiers de topologie et g&#233;om&#233;trie diff&#233;rentielle cat&#233;goriques 31, no. 2 (1990), 137&#8211;168. ([pdf](http://www.numdam.org/article/CTGDC_1990__31_2_137_0.pdf))
 
 The restriction to topological groupoids and Grothendieck toposes with enough points is due to
 
