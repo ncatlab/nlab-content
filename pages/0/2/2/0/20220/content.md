@@ -102,6 +102,14 @@ Further discussion:
 
 * Keshav Dasgupta, Govindan Rajesh, [[Savdeep Sethi]], _M Theory, Orientifolds and G-Flux_, JHEP 9908 (1999) 023 ([arXiv:hep-th/9908088](https://xxx.lanl.gov/abs/hep-th/9908088))
 
+Lecture notes:
+
 * [[Timo Weigand]], p. 86 of _TASI Lectures on F-theory_ ([arXiv:1806.01854](https://arxiv.org/abs/1806.01854))
+
+Application in [[dualities in string theory]]:
+
+* {#Sethi07} [[Savdeep Sethi]], around (2) in _A Note on Heterotic Dualities via M-theory_, Phys.Lett.B659:385-387, 2008 ([arXiv:0707.0295](https://arxiv.org/abs/0707.0295))
+
+Application in [[string phenomenology]]
 
 * [[Mirjam Cvetic]], [[James Halverson]], Ling Lin, Muyang Liu, Jiahua Tian, equation (9) in _A Quadrillion Standard Models from F-theory_ ([arXiv:1903.00009](https://arxiv.org/abs/1903.00009))
