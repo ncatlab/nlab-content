@@ -52,6 +52,10 @@ After the discovery of the [[Higgs field]] at the two major other detectors of [
 
 * {#Dey18} Biplab Dey on behalf of the [[LHCb collaboration]], _Flavor anomalies at LHCb_, May 2018 (<a href="https://cds.cern.ch/record/2319877/files/Biplab_Dey_Reinterpretation 14.05.pdf">pdf</a>)
 
+* {#CPCharm19} [[LHCb collaboration]],  _Observation of CP violation in charm decays_, March 2019 ([pdf](http://cds.cern.ch/record/2668357/files/LHCb-PAPER-2019-006.pdf))
+
+  exposition: _[LHCb sees a new flavour of matter–antimatter asymmetry](https://home.cern/news/press-release/physics/lhcb-sees-new-flavour-matter-antimatter-asymmetry)_, March 2019
+  
 
 ## References
 
