@@ -299,17 +299,15 @@ is final. For a counter-example, see ([Hovey, 9](#Hovey)).
 
 Section 4.1 of 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ 
 
 Section 6 of 
 
 * [[Dan Dugger]], _A primer on homotopy colimits_ ([pdf](http://pages.uoregon.edu/ddugger/hocolim.pdf))
 
-Paragraph 9 of
 
-* [[Mark Hovey]], _Errata to Model Categories_
-([pdf](http://hopf.math.purdue.edu/Hovey/model-err.pdf))
+* {#Hovey} [[Mark Hovey]], item 9 of _Errata to Model Categories_ ([pdf](http://hopf.math.purdue.edu/Hovey/model-err.pdf))
 
 
 [[!redirects cofinal (infinity,1)-functor]]
