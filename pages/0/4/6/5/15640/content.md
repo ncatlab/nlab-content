@@ -253,7 +253,7 @@ with review including
 
 Discussion in the context of [[p-adic string theory]]:
 
-* An Huang, Bogdan Stoica, [[Shing-Tung Yau]], _General relativity from $p$-adic strings_ ([arXiv:1901.02013](https://arxiv.org/abs/1901.02013))
+* [[An Huang]], [[Bogdan Stoica]], [[Shing-Tung Yau]], _General relativity from $p$-adic strings_ ([arXiv:1901.02013](https://arxiv.org/abs/1901.02013))
 
 
 [[!redirects Riemann zeta-function]]
