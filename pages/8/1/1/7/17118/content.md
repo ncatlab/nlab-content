@@ -16,7 +16,7 @@
 
 ## Definition
 
-A [[Riemannian manifold]] of [[dimension]] $4n$ is called a _quaternion-Kähler manifold_ if its [[holonomy group]] is a [[subgroup]] of the [[direct product group]] $Sp(n) \times Sp(1)$ (where [[Sp(n)]] is the $n$th [[quaternionic unitary group]], and in particular $Sp(1) \simeq SU(2) \simeq $ [[Spin(3)]]).
+A [[Riemannian manifold]] of [[dimension]] $4n$ for $n \geq 2$ is called a _quaternion-Kähler manifold_ if its [[holonomy group]] is a [[subgroup]] of the [[direct product group]] $Sp(n) \times Sp(1)$ (where [[Sp(n)]] is the $n$th [[quaternionic unitary group]], and in particular $Sp(1) \simeq SU(2) \simeq $ [[Spin(3)]]). If the [[holonomy]] group is in fact a [[subgroup]] of just the $Sp(n)$-factor, one speaks of a _[[hyperkähler manifold]]_.
 
 ## Properties
 
@@ -28,6 +28,24 @@ A [[Riemannian manifold]] of [[dimension]] $4n$ is called a _quaternion-Kähler 
 
 [[!include normed division algebra Riemannian geometry -- table]]
 
+### As quaternionic manifolds
+
+
++-- {: .num_example #QuaternionKaehlermanifoldsAreQuaternionicManifolds}
+###### Example
+**([[quaternion-Kähler manifolds]] are [[quaternionic manifolds]])**
+
+By definition, a [[quaternion-Kähler manifold]] $M$ has [[holonomy group]] contained in the [[direct product group]] [[Sp(n)]]$\times$[[Spin(3)|Sp(1)]], admitting an extension of the [[Levi-Civita connection]] $\nabla$ on the holonomy bundle as [[torsion of a G-structure|torsion]]-free. Thus a quaternion-Kähler manifold is automatically a [[quaternionic manifold]]. 
+
+Such extension $\nabla_\text{quat}$ of $\nabla$ however is not unique, since $\nabla_\text{quat} + \mathcal{S}$ is another Sp(n)Sp(1)-preserving connection, where $\mathcal{S}$ is a (1, 2)-tensor such that for every $p \in M$, $\mathcal{S}(p)$ takes values in the first [[prolongation]] of the [[Lie algebra]] for the [[G-structure]]. 
+
+=--
+
+
+### As Einstein manifolds
+ {#AsEinsteinManifolds}
+
+[[quaternion-Kähler manifolds]] are [[Einstein manifolds]] (e.g. [Cortés 05, slide 22](#Cortes05))
 
 ### Characteristic classes
 
@@ -69,7 +87,11 @@ See also at _[[C-field tadpole cancellation]]_.
 
 ## References
 
-Book references include:
+Exposition
+
+* {#Cortes05} [[Vicente Cortés]], _Quaternionic Kähler manifolds_, 2005 ([pdf](https://www2.math.hu-berlin.de/gradkoll/Cortes_vorlesung1_handout.pdf))
+
+Textbook references include:
 
 * {#Besse}[[Arthur Besse]], _Einstein Manifolds_, Springer-Verlag 1987.
 
@@ -77,13 +99,23 @@ Book references include:
 
 Articles discussing quaternion-Kähler [[holonomy]], [[connection]], and relation to other [[hypercomplex]] structures:
 
-* {#Moroianu} Andrei Moroianu and Uwe Semmelmann, "Killing Forms on Quaternion-Kähler Manifolds", Annals of Global Analysis and Geometry, November 2005, Volume 28, Issue 4, pp 319–335.
+* {#Moroianu} Andrei Moroianu, [[Uwe Semmelmann]], "Killing Forms on Quaternion-Kähler Manifolds", Annals of Global Analysis and Geometry, November 2005, Volume 28, Issue 4, pp 319–335.
 
 * {#PerdersonSwannPoon} Pedersen, Poon, and Swann. "Hypercomplex structures associated to quaternionic manifolds",  Differential Geometry and its Applications (1998) 273-293 North-Holland.
 
 * {#Verbitsky} [[Misha Verbitsky]], "Hyperkähler manifolds with torsion, supersymmetry and Hodge theory", Asian J. Math, V. 6 No. 4, pp. 679-712, Dec. 2002.
 
 * {#Salamon} S.M. Salamon, "Differential Geometry of Quaternionic Manifolds", Annales scientifiques de l’É.N.S. 4e série, tome 19, no 1 (1986), p. 31-55.
+
+See also
+
+* Claude LeBrun, _On complete quaternionic-Kähler manifolds_, Duke Math. J. Volume 63, Number 3 (1991), 723-743 ([euclid:1077296077](https://projecteuclid.org/euclid.dmj/1077296077))
+
+On quaternion-Kähler manifold with [[positive number|positive]] [[scalar curvature]]:
+
+* Amann, _Positive Quaternion Kähler Manifolds_ ([pdf](https://d-nb.info/996176438/34))
+
+* Amann, _Partial Classification Results for Positive Quaternion Kaehler Manifolds_ ([arXiv:0911.4587](https://arxiv.org/abs/0911.4587))
 
 Discussion of [[characteristic classes]]:
 
