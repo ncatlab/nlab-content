@@ -27,7 +27,10 @@ On neutrino [[masses]] and the [[standard model of particle physics]] as an [[ef
 
 > I also noted at the same time that interactions between a pair of lepton doublets and a pair of scalar doublets can generate a neutrino mass, which is suppressed only by a factor $M^{-1}$, and that therefore with a reasonable estimate of $M$ could produce observable neutrino oscillations. The subsequent confirmation of neutrino oscillations lends support to the view of the Standard Model as an effective field theory, with M somewhere in the neighborhood of $10^{16} GeV$. ([Weinberg 09, p. 15](#Weinberg09))
 
-In fact this scale is about the standard for [[grand unified theories]], see for instance ([Mohapatra 06](#Mohapatra06)) for more on this relation, and see at _[[seesaw mechanism]]_.
+In fact this scale is about the [[GUT scale]] for [[grand unified theories]], see for instance ([Mohapatra 06](#Mohapatra06)) for more on this relation, and see at _[[seesaw mechanism]]_.
+
+Detailed matching of parameters of non-supersymmetric $Spin(10)$-GUT to [[neutrino]] [[masses]] is discussed in [Ohlsson-Pernow 19](#OhlssonPernow19)
+
 
 ## History and prediction
 
@@ -85,8 +88,8 @@ A discussion of Pauli's thoughts leading him to the prediction of the neutrino i
 
 Comments on neutrinos masses as a hint for the [[standard model of particle physics]] being an [[effective field theory]] are in
 
-* [[Steven Weinberg]], _Effective Field Theory, Past and Future_ ([arXiv:0908.1964](http://arxiv.org/abs/0908.1964))
- {#Weinberg09}
+* {#Weinberg09} [[Steven Weinberg]], _Effective Field Theory, Past and Future_ ([arXiv:0908.1964](http://arxiv.org/abs/0908.1964))
+ 
 
 See also
 
@@ -95,11 +98,14 @@ See also
 * M.C. Gonzalez-Garcia, _Neutrino Masses and Mixing_ ([arXiv:1902.04583](https://arxiv.org/abs/1902.04583))
 
 
-And more on this in relation to [[GUT]] models includes
+More on this in relation to [[GUT]] models:
 
 * {#Mohapatra06} R. N. Mohapatra, _Models of Neutrino Masses: A Brief Overview_, 2006 ([pdf](http://lss.fnal.gov/conf/C0606131/2.2mohapat.pdf))
 
 * {#Witten17} [[Edward Witten]], p. 2 of _Symmetry and Emergence_ ([arXiv:1710.01791](https://arxiv.org/abs/1710.01791))
+
+* {#OhlssonPernow19} Tommy Ohlsson, Marcus Pernow, _Fits to Non-Supersymmetric SO(10) Models with Type I and II Seesaw Mechanisms Using Renormalization Group Evolution_ ([arXiv:1903.08241](https://arxiv.org/abs/1903.08241))
+
 
 [[!redirects neutrino]]
 [[!redirects neutrinos]]
