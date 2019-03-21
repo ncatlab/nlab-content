@@ -50,7 +50,7 @@ The suggestion that the Riemann hypothesis might have a proof that is an analogu
 
 Identification of the zeros of the [[Riemann zeta function]] with the spectrum of [[p-adic string theory]] is due to
 
-* {#HuangStoicaYau19} An Huang, Bogdan Stoica, [[Shing-Tung Yau]], _General relativity from $p$-adic strings_ ([arXiv:1901.02013](https://arxiv.org/abs/1901.02013))
+* {#HuangStoicaYau19} [[An Huang]], [[Bogdan Stoica]], [[Shing-Tung Yau]], _General relativity from $p$-adic strings_ ([arXiv:1901.02013](https://arxiv.org/abs/1901.02013))
 
 
 ### Computer-checks
