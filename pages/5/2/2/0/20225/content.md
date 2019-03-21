@@ -44,7 +44,11 @@ known as a starting point for defining a notion of "quaternionic [[holomorphy]]"
 
 ## Related concepts
 
-* [[biquaternionic manifold]], [[hypercomplex manifold]], [[Kähler manifold]], [[hyper-Kähler manifold]]
+* [[biquaternionic manifold]], [[hypercomplex manifold]], 
+
+* [[quaternionic-Kähler manifold]]
+
+* [[Kähler manifold]], [[hyper-Kähler manifold]]
 
 ## References
 
