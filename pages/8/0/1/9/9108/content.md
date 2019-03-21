@@ -33,10 +33,13 @@ by a proportionality constant $\lambda \in \mathbb{R}$.
 Einstein manifolds are precisely the solutions of [[Einstein's equations]] for pure [[gravity]] with [[cosmological constant]] $\lambda$.
 
 ## Examples
+  {#Examples}
 
 * A manifold of [[dimension]] 7 and of [[weak G2-holonomy]] with weakness parameter $\lambda$ -- $d \omega_3 = \lambda \star \omega_3$ -- is canonically an Einstein manifold with cosmological constant $\lambda$.
 
 * [[de Sitter spacetime]], [[anti de Sitter spacetime]]
+
+* all [[quaternion-Kähler manifolds]] are Einstein manifolds see [there](quaternion-Kähler+manifold#AsEinsteinManifolds)
 
 ## Related concepts
 
