@@ -29,7 +29,7 @@ For $n \geq 2$, a **quaternionic manifold** is a real 4n-dimensional manifold M 
 
 When $\nabla$ does not exist $M$ is called _almost quaternionic_, and this is just a [[reduction of the structure group]] of $M$ along a [[Lie group]] inclusion $\text{GL}(n, \mathbf{H}) \hookrightarrow \text{GL}(4n, \mathbf{R})$. 
 
-Other definitions have been given, based on the following useful but more naïve reasoning: consider two almost [[complex structures]] on a smooth $4n$-manifold $M$, say $\langle X, I \rangle$ and $\langle X, J \rangle$, given the relation $\{ I, J \} =0$. Then call the structure $\langle X, I, J \rangle$ is called _almost quaternionic_ and a map $\varphi:  \langle X, I, J \rangle \rightarrow \langle Y, K, F \rangle$ of almost quaternionic structures is called "quaternionic" if it is separately [[complex analytic]] as a map $\langle X, I \rangle \rightarrow \langle Y, K \rangle$ and also as a map $\langle X, J \rangle \rightarrow \langle Y, F \rangle$. 
+Other definitions have been given, based on the following useful but more naïve reasoning: consider two almost [[complex structures]] on a smooth $4n$-manifold $M$, say $\langle M, I \rangle$ and $\langle M, J \rangle$, given the relation $\{ I, J \} =0$. Then call the structure $\langle M, I, J \rangle$ is called _almost quaternionic_ and a map $\varphi:  \langle M, I, J \rangle \rightarrow \langle N, K, F \rangle$ of almost quaternionic structures is called "quaternionic" if it is separately [[complex analytic]] as a map $\langle M, I \rangle \rightarrow \langle N, K \rangle$ and also as a map $\langle M, J \rangle \rightarrow \langle N, F \rangle$. 
 
 When $\mathbf{R}^4$ is given a quaternionic multiplication with anti-commuting imaginary units $i$ and $j$, this is actually equivalent to $\varphi : \mathbf{R}^4 \rightarrow \mathbf{R}^4$ satisfying the [[Cauchy-Feuter]] complex:
 $$ i \frac{\partial}{\partial u_3} = \frac{\partial }{\partial u _4}, j \frac{\partial }{ \partial u_2} = \frac{\partial }{\partial u_4}$$
@@ -56,7 +56,7 @@ Book references include:
 
 Classical references:
 
-* {#Salamon} S.M. Salamon, "Differential Geometry of Quaternionic Manifolds", Annales scientifiques de l’É.N.S. 4e série, tome 19, no 1 (1986), p. 31-55.
+* {#Salamon} S.M. Salamon, "Differential Geometry of Quaternionic Manifolds", Annales scientifiques de l’É.N.S. 4e série, tome 19, no 1 (1986), p. 31-55.
 
 See also
 
