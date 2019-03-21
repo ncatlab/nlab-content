@@ -1,10 +1,12 @@
 
 
-[[length]] scale
+[[length]]$\,$[[scale]]
 
 ## Related concepts
 
 * [[scaling transformation]]
+
+* [[GUT scale]]
 
 ## References
 
