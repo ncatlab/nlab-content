@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -96,8 +95,16 @@ Many GUT models imply that the [[proton]] -- which in the [[standard model of pa
 Recently it was claimed that there are in fact realistic [[GUT]] [[model (physics)|models]] that do not imply any [[proton decay]] ([Mütter-Ratz-Vaudrvange 16](#MuetterRatzVaudrvange16), [Fornal-Grinstein 17](#FornalGrinstein17)).
 
 ### Relation to neutrino masses
+ {#RelationToNeutrinoMasses}
 
-The high energy scale required by a [[seesaw mechanism]] to produce the experimentally observer [[neutrino]] masses happens to be about the conventional GUT scale, for review see for instance ([Mohapatra 06](#Mohapatra06)).
+The high energy scale required by a [[seesaw mechanism]] to produce the experimentally observer [[neutrino]] masses happens to be about the conventional [[GUT scale]], for review see for instance ([Mohapatra 06](#Mohapatra06)).
+
+> I also noted at the same time that interactions between a pair of lepton doublets and a pair of scalar doublets can generate a neutrino mass, which is suppressed only by a factor $M^{-1}$, and that therefore with a reasonable estimate of $M$ could produce observable neutrino oscillations. The subsequent confirmation of neutrino oscillations lends support to the view of the Standard Model as an effective field theory, with M somewhere in the neighborhood of $10^{16} GeV$. ([Weinberg 09, p. 15](neutrino#Weinberg09))
+
+
+Detailed matching of parameters of non-supersymmetric $Spin(10)$-GUT to [[neutrino]] [[masses]] is discussed in [Ohlsson-Pernow 19](#OhlssonPernow19)
+
+
 
 ### Relation to leptoquarks
  {#RelationToLeptoquarks}
@@ -146,6 +153,7 @@ See also
 
 * Wikipedia, _[Pati-Salam model](https://en.wikipedia.org/wiki/Pati%E2%80%93Salam_model)_
 
+* Wikipedia, _[Grand unification energy](https://en.wikipedia.org/wiki/Grand_unification_energy)_
 
 An original article with an eye towards [[supergravity]] unification is
 
@@ -189,6 +197,7 @@ for non-superymmetric [[model (physics)|models]]:
 
 * {#FongMeloni14} Chee Sheng Fong, Davide Meloni, Aurora Meroni, Enrico Nardi, _Leptogenesis in $SO(10)$_ ([arXiv:1412.4776](http://arxiv.org/abs/1412.4776))
 
+* {#OhlssonPernow19} Tommy Ohlsson, Marcus Pernow, _Fits to Non-Supersymmetric SO(10) Models with Type I and II Seesaw Mechanisms Using Renormalization Group Evolution_ ([arXiv:1903.08241](https://arxiv.org/abs/1903.08241))
 
 for [[supersymmetry|supersymmetric]] [[model (physics)|models]]:
 
@@ -284,3 +293,4 @@ Relation to [[leptoquarks]] and [[flavour anomalies]]:
 [[!redirects Pati-Salam model]]
 [[!redirects Pati-Salam models]]
 
+[[!redirects GUT scale]]
