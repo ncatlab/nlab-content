@@ -42,7 +42,6 @@ After the discovery of the [[Higgs field]] at the two major other detectors of [
 
 * [[LHCb collaboration]], _Measurement of the ratio of branching fractions of the decays $\Lambda^0_b \to \psi(2S)\Lambda$ and $\Lambda^0_b \to J/\psi\Lambda$_ ([arXiv:1902.02092](https://arxiv.org/abs/1902.02092))
 
-
 * [[LHCb collaboration]], _Test of lepton universality using $B^0\to K^{\ast 0} \ell^+ \ell^-$ decays_, JHEP 08 (2017) 055 ([arXiv:1705.05802](https://arxiv.org/abs/1705.05802))
 
 * [[LHCb collaboration]], _Measurement of the ratio of the $B^0 \to D^{\ast -} \tau^+ \vu_\tau$ and $B^0 \to D^{\ast - \mu^+ \nu_\mu}$ branching fractions using three-prong τ-lepton decays_ ([arXiv:1708.08856](https://arxiv.org/abs/1708.08856))
@@ -55,7 +54,8 @@ After the discovery of the [[Higgs field]] at the two major other detectors of [
 * {#CPCharm19} [[LHCb collaboration]],  _Observation of CP violation in charm decays_, March 2019 ([pdf](http://cds.cern.ch/record/2668357/files/LHCb-PAPER-2019-006.pdf))
 
   exposition: _[LHCb sees a new flavour of matter–antimatter asymmetry](https://home.cern/news/press-release/physics/lhcb-sees-new-flavour-matter-antimatter-asymmetry)_, March 2019
-  
+
+* {#Betti19} Federico Betti on behalf of [[LHCb collaboration]], _Observation of CP violation in charm decays at LHCb_, Moriond 2019 ([pdf](http://moriond.in2p3.fr/2019/EW/slides/5_Thursday/1_morning/4_betti_federico_v4.pdf))  
 
 ## References
 
