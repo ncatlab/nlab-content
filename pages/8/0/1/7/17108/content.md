@@ -18,22 +18,10 @@
 
 The [[spin group]] in [[dimension]] $n = 7$.
 
+\linebreak
+
 ## Related concepts
 
-* [[Spin(7)-manifold]]
-
-* [[Spin(7)-instanton]]
-
-* [[SO(2)]], [[Spin(2)]], [[Pin(2)]]
-
-* [[Spin(3)]]
-
-* [[Spin(4)]]
-
-* [[Spin(5)]]
-
-* [[Spin(6)]]
-
-* [[Spin(8)]]
+[[!include low dimensional rotation groups -- table]]
 
 [[!include special holonomy table]]
