@@ -20,7 +20,7 @@
 
 By a _finite rotation group_ one means a [[finite]] [[subgroup]] of a rotation group, hence of a [[special orthogonal group]] $SO(n)$ or [[spin group]] $Spin(n)$ or similar. 
 
-The finite subgroups of $SO(3)$ and $SU(2)$ follow an [[ADE classification]] (theorem \ref{ClassificationOfFiniteSubgroupsOfSO3} below).
+The finite subgroups of [[SO(3)]] and [[SU(2)]] follow an [[ADE classification]] (theorem \ref{ClassificationOfFiniteSubgroupsOfSO3} below).
 
 
 
@@ -30,7 +30,7 @@ The finite subgroups of $SO(3)$ and $SU(2)$ follow an [[ADE classification]] (th
 
 +-- {: .num_theorem #ClassificationOfFiniteSubgroupsOfSO3}
 ###### Theorem
-**([[ADE classification]] of [[finite group|finite]] [[subgroups]] of [[special orthogonal group|SO(3)]] and [[spin group|Spin(3)]]$\simeq$ [[SU(2)]])**
+**([[ADE classification]] of [[finite group|finite]] [[subgroups]] of [[SO(3)]] and [[spin group|Spin(3)]]$\simeq$ [[SU(2)]])**
 
 The [[finite group|finite]] [[subgroups]] of the [[special orthogonal group]] $SO(3)$ as well as the [[finite group|finite]] [[subgroups]] of the [[special unitary group]] [[SU(2)]] are, up to [[conjugation]], given by the following classification:
 
@@ -227,12 +227,12 @@ Full proof for $SO(3)$ is spelled out for instance in ([Rees 05, theorem 11](#Re
 
 
 
-### Finite subgroups of $O(4)$, $SO(4)$ and $Spin(4)$
+### Finite subgroups of $O(4)$, [[SO(4)]] and [[Spin(4)]]
   {#FiniteSubgroupsOfO4}
 
 For classification of the finite subgroups of $O(4)$ see ([duVal 65](#DuVal65), [Conway-Smith 03](#ConwaySmith03))
 
-For finite subgroups of $Spin(4)$: [MFF 12, appendix B](#MFF12).
+For finite subgroups of [[Spin(4)]]: [MFF 12, appendix B](#MFF12).
 
 In this classification, the [[symmetry group]] of the [[120-cell]] and hence that of the [[600-cell]] is the [[quotient group]] $(2 I \times 2 I)/\mathbb{Z}_2$  by the [[cyclic group of order 2]] of the [[direct product group]] of two copies of the [[binary icosahedral group]] ([SadocMosseri 89, p. 172](#SadocMosseri89), see [MFF 12, table 16](#MFF12)).
 
