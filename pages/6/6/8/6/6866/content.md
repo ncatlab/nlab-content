@@ -1,4 +1,6 @@
 
+> this entry is about the concept of [[quantum field theory|quantum]][[field theory]], for the concept in [[group theory]]/[[representation theory]] see at [[effective group action]]; for disambiguation see [[effective action]]
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -45,7 +47,6 @@ http://repository.uwa.edu.au:80/R/-∞func=dbin-jump-full&object_id=9240&current
 [[!redirects 1PI actions]]
 
 [[!redirects 1PI action]]
-[[!redirects effective action]]
 
 [[!redirects relative effective action]]
 [[!redirects relative effective actions]]
