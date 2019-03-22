@@ -160,9 +160,9 @@ The [[integral cohomology]] of the [[classifying spaces]] $B SO(8)$ and $B Spin(
 
 * {#Quillen71} [[Daniel Quillen]], _The mod 2 cohomology rings of extra-special 2-groups and the spinor groups_, Math. Ann . 194 (1971), 19
 
-* {#CadekVanzura95} [[Martin Čadek]],  Jiří Vanžura, _On the existence of 2-fields in 8-dimensional vector bundles over 8-complexes_, Commentationes Mathematicae Universitatis Carolinae, vol. 36 (1995), issue 2, pp. 377-394 ([dml-cz:118764](https://dml.cz/handle/10338.dmlcz/118764))
+* {#CadekVanzura95} [[Martin Čadek]], [[Jiří Vanžura]], _On the existence of 2-fields in 8-dimensional vector bundles over 8-complexes_, Commentationes Mathematicae Universitatis Carolinae, vol. 36 (1995), issue 2, pp. 377-394 ([dml-cz:118764](https://dml.cz/handle/10338.dmlcz/118764))
 
-* {#CadekVanzura97} [[Martin Čadek]], Jiří Vanžura, Section 2 of _On $Sp(2)$ and $Sp(2) \cdot Sp(1)$-structures  in 8-dimensional vector bundles_, Publicacions Matemàtiques Vol. 41, No. 2 (1997), pp. 383-401 ([jstor:43737249](https://www.jstor.org/stable/43737249))
+* {#CadekVanzura97} [[Martin Čadek]], [[Jiří Vanžura]], Section 2 of _On $Sp(2)$ and $Sp(2) \cdot Sp(1)$-structures  in 8-dimensional vector bundles_, Publicacions Matemàtiques Vol. 41, No. 2 (1997), pp. 383-401 ([jstor:43737249](https://www.jstor.org/stable/43737249))
 
 
 [[!redirects Spin(8)]]
