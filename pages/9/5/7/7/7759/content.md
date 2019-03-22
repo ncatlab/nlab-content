@@ -30,4 +30,13 @@ The usual elementary classes, i.e. the classes of the form $K = Mod(T)$ for a fi
 * D. W. Kueker, _Abstract elementary classes and infinitary logic_, Ann. Pure Appl. Logic __156__ (2008), 274-286.
 * M. J. Lieberman, _Topological and category-theoretic aspects of abstract elementary classes_, Thesis, The University of Michigan 2009, [pdf](http://deepblue.lib.umich.edu/bitstream/2027.42/63854/1/liebermm_1.pdf); defense slides [pdf](http://www.math.upenn.edu/~mlieb/defense.pdf); _Category theoretic aspects of abstract elementary classes_, Annals Pure Appl. Logic __162__ (2011), 903-915; _A topology for Galois types in AECs_, [arxiv/0906.3573](http://arxiv.org/abs/0906.3573)
 
+AECs can also be essentially identified with [[accessible categories]] in which all morphisms are [[monomorphisms]].  Some recent papers which study them from this viewpoint include:
+
+* [[Tibor Beke]], [[Jiří Rosický]], *Abstract elementary classes and accessible categories*, 2011, [arxiv](https://arxiv.org/abs/1005.2910)
+
+* Michael Lieberman, Jiří Rosický, Sebastien Vasey, *Internal sizes in μ-abstract elementary classes*, [arxiv](https://arxiv.org/abs/1708.06782)
+
+* Michael Lieberman, Jiří Rosický, Sebastien Vasey , *Set-theoretic aspects of accessible categories*, [arxiv](https://arxiv.org/abs/1902.06777)
+
+
 [[!redirects abstract elementary classes]]
