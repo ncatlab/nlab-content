@@ -13,6 +13,8 @@
 
 * {#CadekVanzura98} [[Martin Čadek]], [[Jiří Vanžura]], _Almost quaternionic structures on eight-manifolds_, Osaka J. Math. Volume 35, Number 1 (1998), 165-190 ([euclid:1200787905](https://projecteuclid.org/euclid.ojm/1200787905))
 
+* {#CadekCrabbVanzura08} [[Martin Čadek]], Michael Crabb, [[Jiří Vanžura]],  _Obstruction theory on 8-manifolds_, manuscripta math. 127 (2008), 167-186 ([arXiv:0710.0734](https://arxiv.org/abs/0710.0734))
+
 * {#CadekCrabbVanzura10} [[Martin Čadek]], Michael Crabb, [[Jiří Vanžura]], _Quaternionic structures_, Topology and its Applications Volume 157, Issue 18, 1 December 2010, Pages 2850-2863 ([doi:10.1016/j.topol.2010.09.005](https://doi.org/10.1016/j.topol.2010.09.005))
 
 
@@ -20,11 +22,11 @@
 
 * [[quaternion-Kähler manifold]]
 
+* [[Sp(n).Sp(1)]]
+
 * [[spin group]]
 
 * [[Spin(4)]], [[Spin(5)]], [[Spin(8)]]
-
-* [[Sp(n).Sp(1)]]
 
 * [[Euler class]]
 
