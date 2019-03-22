@@ -154,6 +154,11 @@ For general unital [[star-algebras]]:
 
 * {#KhavkineMoretti15}  [[Igor Khavkine]], [[Valter Moretti]], _Algebraic QFT in Curved Spacetime and quasifree Hadamard states: an introduction_, Chapter 5 in [[Romeo Brunetti]] et al. (eds.) _Advances in Algebraic Quantum Field Theory_, , Springer, 2015
 
+in relation with the moment problem
+
+* {#DragoMoretti19} Nicolò Drago,  [[Valter Moretti]], 
+ The notion of observable and the moment problem for *-algebras and their GNS representations ([arXiv.org:1903.07496](https://arxiv.org/abs/1903.07496))
+
 For [[formal power series algebras]] over $\mathbb{C}[ [ \hbar ] ]$:
 
 * {#BordemannWaldmann96} [[Martin Bordemann]], [[Stefan Waldmann]], _Formal GNS Construction and States in Deformation Quantization_, Commun. Math. Phys. (1998) 195: 549.  ([arXiv:q-alg/9607019](https://arxiv.org/abs/q-alg/9607019), [doi:10.1007/s002200050402](https://doi.org/10.1007/s002200050402))
