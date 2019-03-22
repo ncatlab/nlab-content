@@ -315,6 +315,11 @@ For the case that of [[?ech cohomology|?ech]] [[hypercohomology]] with coefficie
 
   * [[cup product in ordinary differential cohomology]]
 
+* [[Euler class]] takes [[Whitney sum]] to [[cup product]], see [this Prop.](Euler+class#EulerClassOfWhitneySumIsCupProductOfEulerClasses)
+
+
+
+
 ## References 
 
 * {#Adams74} [[Frank Adams]], part III, sections 2 and 3 of _[[Stable homotopy and generalised homology]]_, 1974
