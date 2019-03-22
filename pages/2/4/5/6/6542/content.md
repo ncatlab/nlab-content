@@ -24,6 +24,11 @@ The Euler class of the [[tangent bundle]] of a [[manifold]] is its [[Euler chara
 ### Whitney sum formula
  {#WhitneySumFormula}
 
+
++-- {: .num_prop #EulerClassOfWhitneySumIsCupProductOfEulerClasses}
+###### Proposition
+**([[Euler class]] takes [[Whitney sum]] to [[cup product]])**
+
 The Euler class of the [[Whitney sum]] of two [[orthogonal group|oriented]] [[real vector bundles]] to the [[cup product]] of the separate Euler classes:
 
 $$
@@ -32,6 +37,8 @@ $$
   \chi(E)  \smile \chi(F)
   \,.
 $$
+
+=--
 
 ### Poincaré–Hopf theorem
 
@@ -46,6 +53,8 @@ Review includes
 * [[Allen Hatcher]], _Euler and Pontryagin classes_, section 3.2 in _[Vector bundles and K-theory](http://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html)_ ([pdf](http://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf))
 
 * Anant R. Shastri, section 2.1 of _Vector bundles and Characteristic Classes_ ([pdf](http://www.math.iitb.ac.in/~ars/seminar/bundle.pdf))
+
+* Michael Hutchings, section 5 of _Cup product and intersections_ ([pdf](https://math.berkeley.edu/~hutching/teach/215b-2011/cup.pdf))
 
 Discussion for [[projective modules]] 
 
