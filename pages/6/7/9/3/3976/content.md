@@ -49,9 +49,7 @@ $U(1)$ is the compact [[real form]] of the [[multiplicative group]] $\mathbb{G}_
 
 * A [[principal bundle]] with structure group the circle group is a [[circle bundle]]. The canonically corresponding [[associated bundle]] under the standard [[representation]] of $U(1) \hookrightarrow \mathbb{C}$ is a complex [[line bundle]].
 
-* [[Spin(2)]], [[Pin(2)]]
-
-* [[Spin(3)]], [[Spin(4)]], [[Spin(5)]], [[Spin(6)]], [[Spin(7)]], [[Spin(8)]]
+[[!include low dimensional rotation groups -- table]]
 
 
 [[!redirects circle group]]
