@@ -6,4 +6,6 @@
 
 * [[Starobinsky model of cosmic inflation]]
 
+* [[eternal inflation]]
+
 category: people
