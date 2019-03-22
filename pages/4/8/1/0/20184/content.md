@@ -19,7 +19,7 @@
 
 ## Idea
 
-$Spin(4)$ is the [[spin group]] in dimension 4.
+$Spin(4)$ is the [[spin group]] in dimension 4, the [[double cover]] of [[SO(4)]].
 
 ## Properties
 
@@ -87,6 +87,54 @@ Since the [[action]] of [[Spin(3)]] on the [[imaginary part|imaginary]] [[quater
 =--
 
 (e.g. [Garrett 13](#Garrett13))
+
+In summary:
+
+
++-- {: .num_prop }
+###### Proposition
+
+There is a [[commuting diagram]] of [[Lie groups]] of the form
+
+$$
+  \array{
+    ( q_1, q_2 )
+    &\mapsto&
+    (x \mapsto q_1 \cdot x \cdot \overline{q}_2) 
+    \\
+    Sp(1) \times Sp(1) 
+    &\overset{\simeq}{\longrightarrow}&
+    Spin(4)
+    \\
+    \big\downarrow
+    &&
+    \big\downarrow
+    \\
+    Sp(1)\cdot Sp(1)
+    &\overset{\simeq}{\longrightarrow}&
+    SO(4)
+  }
+$$
+
+where
+
+1. in the top left we have [[Sp(1)]] = [[Spin(3)]],
+
+1. in the top right we have [[Spin(4)]],
+
+1. in the bottom left we have [[Sp(n).Sp(1)|Sp(1).Sp(1)]]
+
+1. in the bottom right we have [[SO(4)]]
+
+1. the horizontal morphism assigns the [[conjugation action]] of unit [[quaternions]], as indicated,
+
+1. the right vertical morphism is the defining [[double cover]],
+
+1. the left vertical morphism is the defining [[quotient group]]-projection.
+
+=--
+
+
 
 <br/>
 
@@ -207,9 +255,13 @@ $$
 
 (e.g. [Čadek-Vanžura 98, Lemma 2.1](#CadekVanzura98))
 
+linebreak
+
 ## Related concepts
 
-* [[Spin(2)]], [[Spin(3)]], [[Spin(5)]], [[Spin(6)]], [[Spin(7)]], [[Spin(8)]]
+[[!include low dimensional rotation groups -- table]]
+
+\linebreak
 
 ## References
 
