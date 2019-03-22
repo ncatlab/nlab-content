@@ -288,6 +288,15 @@ This implies the claim. (Exactness of the sequence says that every element in $\
 
 [[!include table of orthogonal groups and related]]
 
+## Examples
+
+\linebreak
+
+[[!include low dimensional rotation groups -- table]]
+
+\linebreak
+
+
 ## References
 
 Examples of sporadic (exceptional) [[isogenies]] from [[spin groups]] onto orthogonal groups are discussed in
