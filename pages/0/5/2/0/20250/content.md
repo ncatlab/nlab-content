@@ -1,0 +1,240 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[special orthogonal group]] in [[dimension]] 3.
+
+## Properties
+
+### Finite subgroups
+
++-- {: .num_theorem #ClassificationOfFiniteSubgroupsOfSO3}
+###### Theorem
+**([[ADE classification]] of [[finite group|finite]] [[subgroups]] of [[SO(3)]] and [[spin group|Spin(3)]]$\simeq$ [[SU(2)]])**
+
+The [[finite group|finite]] [[subgroups]] of the [[special orthogonal group]] $SO(3)$ as well as the [[finite group|finite]] [[subgroups]] of the [[special unitary group]] [[SU(2)]] are, up to [[conjugation]], given by the following classification:
+
+[[!include ADE -- table]]
+
+
+Here under the [[double cover]] projection (using the [exceptional isomorphism](spin+group#ExceptionalIsomorphisms) $SU(2) \simeq Spin(3)$)
+
+$$
+  SU(2) \simeq Spin(3) \overset{\pi}{\longrightarrow} SO(3)
+$$
+
+all the finite subgroups of $SU(2)$ except the [[odd number|odd]]-[[order of a group|order]] [[cyclic groups]] are the [[preimages]] of the corresponding finite subgroups of $SO(3)$, in that we have [[pullback]] [[diagrams]]
+
+$$
+  \array{
+    \left\langle
+     \exp
+     \left(
+       \pi \mathrm{i} \tfrac{1}{n} 
+     \right)
+    \right\rangle
+    &
+    =
+    &
+    \mathbb{Z}/(2n)
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    Spin(2)
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    Spin(3)
+    \\
+    &&
+    \big\downarrow
+    &{}^{(pb)}&
+    \big\downarrow
+    &{}^{(pb)}&
+    \big\downarrow^{ \mathrlap{\pi} }
+    \\
+    \left\langle
+     Ad_{
+     \exp
+     \left(
+       \pi \mathrm{i} \tfrac{1}{n} 
+     \right)
+     }
+    \right\rangle
+    &
+    =
+    &
+    \mathbb{Z}/n
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    SO(2)
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    SO(3)    
+  }
+$$
+
+exhibiting the [[even number|even]] [[order of a group|order]] [[cyclic groups]] as subgroups of [[Spin(2)]], including the the minimal case of the [[group of order 2]]
+
+$$
+  \array{
+    \left\langle
+     \exp
+     \left(
+       \pi \mathrm{i}
+     \right)
+     =
+     -1
+    \right\rangle
+    &
+    =
+    &
+    \mathbb{Z}/2
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    Spin(2)
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    Spin(3)
+    \\
+    &&
+    \big\downarrow
+    &{}^{(pb)}&
+    \big\downarrow
+    &{}^{(pb)}&
+    \big\downarrow^{ \mathrlap{\pi} }
+    \\
+    \left\langle
+     Ad_{
+     \exp
+     \left(
+       \pi \mathrm{i} 
+     \right)
+     }
+     =
+     e
+    \right\rangle
+    &
+    =
+    &
+    1
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    SO(2)
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    SO(3)    
+  }
+$$
+
+
+as well as
+
+$$
+  \array{
+    \left\langle
+      \exp\left( \pi \mathrm{i} \tfrac{1}{n} \right), \, \mathrm{j} 
+    \right\rangle
+    &=&
+    2 D_{2n}
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    Pin_-(2)
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    Spin(3)
+    \\
+    &&
+    \big\downarrow
+    &{}^{(pb)}&
+    \big\downarrow
+    &{}^{(pb)}&
+    \big\downarrow^{ \mathrlap{\pi} }
+    \\
+    \left\langle
+      Ad_{\exp\left( \pi \mathrm{i} \tfrac{1}{n}  \right) }, 
+      \, 
+      Ad_{\mathrm{j}} 
+    \right\rangle
+    &&
+    D_{2n}
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    O(2)
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    SO(3)    
+  }
+$$
+
+exhibiting the [[binary dihedral groups]] as sitting inside the [[Pin(2)]]-[[subgroup]] of [[Spin(3)]],
+
+but only [[commuting diagrams]]
+
+$$
+  \array{
+    \left\langle
+     \exp
+     \left(
+       2 \pi \mathrm{i} \tfrac{1}{{2n+1}} 
+     \right)
+    \right\rangle
+    &
+    =
+    &
+    \mathbb{Z}/(2n+1)
+    &&\overset{\phantom{AA}}{\hookrightarrow}&&
+    Spin(3)
+    \\
+    &&
+    \big\downarrow
+      &&
+      &&
+    \big\downarrow^{ \mathrlap{\pi} }
+    \\
+    \left\langle
+     Ad_{
+     \exp
+     \left(
+       2 \pi \mathrm{i} \tfrac{1}{2n+1} 
+     \right)
+     }
+    \right\rangle
+    &
+    =
+    &
+    \mathbb{Z}/(2n+1)
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    SO(2)
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    SO(3)    
+  }
+$$
+
+for the [[odd number|odd]] [[order of a group|order]] [[cyclic group|cyclic]] [[subgroups]].
+
+=--
+
+This goes back to ([Klein 1884, chapter I](finite+rotation+group#Klein1884)). 
+Full proof for $SO(3)$ is spelled out for instance in ([Rees 05, theorem 11](finite+rotation+group#Rees05), [De Visscher 11](finite+rotation+group#DeVisscher11)). The proof for the case of $SL(2,\mathbb{C})$ is spelled out in ([Miller-Blichfeldt-Dickson 16](finite+rotation+group#MillerBlichfeldtDickson16)) reviewed in ([Serrano 14, section 2](finite+rotation+group#Serrano14)). The proof of the case for $SU(2)$ given the result for $SO(3)$ is spelled out in [Keenan 03, theorem 4](finite+rotation+group#Keenan03).
+
+\linebreak
+
+## Related concepts
+
+[[!include low dimensional rotation groups -- table]]
+
+* [[Euclidean group]]
+
+* [[rigid body dynamics]]
+
+
+\linebreak
+
+
+## References
+
+See also 
+
+* Wikipedia, _[3D rotation group](https://en.wikipedia.org/wiki/3D_rotation_group)_
+
