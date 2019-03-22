@@ -188,6 +188,8 @@ $$
 
 * [[Spin(6)]]
 
+* [[Spin(7)]]
+
 * [[Spin(8)]]
 
 ## References
