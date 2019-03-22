@@ -110,6 +110,7 @@ Possible explanation of the anomaly in the anomalous magnetic moments in terms o
 
 * {#CCDM16} Estefania Coluccio Leskow, Andreas Crivellin, Giancarlo D'Ambrosio, Dario Müller, _$(g-2)_\mu$, Lepton Flavour Violation and Z Decays with Leptoquarks: Correlations and Future Prospects_, Phys. Rev. D 95, 055018 (2017) ([arXiv:1612.06858](https://arxiv.org/abs/1612.06858))
 
+* {BiswasShaw19} Anirban Biswas, Avirup Shaw, _Reconciling dark matter, $R_{K^{(\ast)}}$ anomalies and $(g-2)_\mu$ in an $L_\mu-L_\tau$ scenario_ ([arXiv:1903.08745](https://arxiv.org/abs/1903.08745))
 
 
 * {#Falkowski17} [[Adam Falkowski]], _[Leptoquarks strike back](http://resonaances.blogspot.com/2015/11/leptoquarks-strike-back.html)_, November 2017
