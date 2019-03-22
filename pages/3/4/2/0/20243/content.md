@@ -52,6 +52,8 @@ hence the [[quotient group]] by the [[subgroup]]
 
 =--
 
+(e.g. [Čadek-Vanžura 97, Sec. 2](#CadekVanzura97))
+
 ## Properties
 
 ### As the effective quotient of $Sp(n)\times Sp(1)$ acting on $\mathbb{H}^n$ 
@@ -62,6 +64,30 @@ For instance for $n = 2$ this action controls the [[quaternionic Hopf fibration]
 
 But this action is not an [[effective group action]]: Precisely the diagonal center (eq:DiagonalCenter) acts trivially.
 
+There is then a [[commuting diagram]] of [[Lie groups]]
+
+$$
+  \array{
+    Sp(2) \times Sp(1)
+    &\longrightarrow&
+    Spin(8)
+    \\
+    \big\downarrow && \big\downarrow
+    \\
+    Sp(2) \cdot Sp(1)    
+    &\longrightarrow&
+    SO(8)
+  }
+$$
+with the horizontal maps being [[group homomorphisms]] to [[Spin(8)]] and [[SO(8)]], respectively, the left morphism being the defining [[quotient]] projection and the right morphism the [[double cover]] morphism that defines the [[spin group]].
+
+(e.g. [Čadek-Vanžura 97, p. 4](#CadekVanzura97))
+
+ 
 ## References
 
-See the references at _[[quaternion-Kähler manifold]]_.
+* {#CadekVanzura97} [[Martin Čadek]], Jiří Vanžura, Section 2 of _On $Sp(2)$ and $Sp(2) \cdot Sp(1)$-structures  in 8-dimensional vector bundles_, Publicacions Matemàtiques Vol. 41, No. 2 (1997), pp. 383-401 ([jstor:43737249](https://www.jstor.org/stable/43737249))
+
+
+
+See also the references at _[[quaternion-Kähler manifold]]_.
