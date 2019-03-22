@@ -9,13 +9,14 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-In the [[physics]] of [[cosmology]], what is called _chaotic cosmic inflation_ ([Linde 83](#Linde83)) or _eternal cosmic inflation_ is one variant [[model (physics)|model]] of the [[theory (physics)|physics]] of [[cosmic inflation]].
+In the [[physics]] of [[cosmology]], what is called _chaotic cosmic inflation_ ([Linde 83](#Linde83)) or _chaotic [[eternal inflation]]_ is one variant [[model (physics)|model]] of the [[theory (physics)|physics]] of [[cosmic inflation]].
 
 The name comes about since the model naturally predicts an ambient [[spacetime]] [[manifold]] in which local regions stochastically undergo [[cosmic inflation]]. The idea is that one such region would be what we observe from the inside as our [[observable universe]].  This large-scale picture of chaotic inflation has later come to be referred to as a _[[multiverse]]_ (but see the caveats there).
 
@@ -38,7 +39,7 @@ This idea of "chaotic" inflation driven by vacuum fluctuations of the inflator i
 ## Implications
 
 
-The idea of eternal cosmic inflation has been argued to provide a possible way to conceptualize the measured values of dimensionles  "physical constants", such as the [[fine structure constant]], the [[Yukawa couplings]] and notably the [[cosmological constant]]: for if in the fundamental [[theory (physics)|theory]] these parameters are not really constants but are dynamical [[field (physics)|fields]] that just happen to have constant value ("moduli fields") over large scales, then they might, so the argument, still vary from one "inflationary bubble" to the next. Thereby the idea of eternal inflation combined with that of a fundamental theory that has [[moduli fields]] (such as [[string theory]] with its [[landscape of string theory vacua]]) has been argued to put "physical constants" on the same footing as other more or less random phenomenological parameters, such as for instance the distance of our planets from the sun, etc.
+The idea of eternal cosmic inflation has been argued to provide a possible way to conceptualize the measured values of dimensionless  "physical constants", such as the [[fine structure constant]], the [[Yukawa couplings]] and notably the [[cosmological constant]]: for if in the fundamental [[theory (physics)|theory]] these parameters are not really constants but are dynamical [[field (physics)|fields]] that just happen to have constant value ("moduli fields") over large scales, then they might, so the argument, still vary from one "inflationary bubble" to the next. Thereby the idea of eternal inflation combined with that of a fundamental theory that has [[moduli fields]] (such as [[string theory]] with its [[landscape of string theory vacua]]) has been argued to put "physical constants" on the same footing as other more or less random phenomenological parameters, such as for instance the distance of our planets from the sun, etc.
 
 For more on this see at _[[multiverse]]_.
 
@@ -70,6 +71,3 @@ The relevant experimental results (disfavoring the model) are due to
 
 
 [[!redirects chaotic inflation]]
-
-[[!redirects eternal cosmic inflation]]
-[[!redirects eternal inflation]]
