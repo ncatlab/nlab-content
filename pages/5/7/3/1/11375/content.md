@@ -28,7 +28,7 @@ Therefore it is important to distinguish the _observable universe_ from the _uni
 
 ### In view of cosmic inflation
 
-The main scientific observation that goes with this is the observation that [[cosmic inflation]] -- for which there is by now excellent and ever increasing [[experiment|experimental]] evidence that indeed it happened -- does, at least by the simple method which is currently used to model it, naturally predict a large ambient space in which local regions stochastically undergo inflationary expansion. This scenario of [[chaotic inflation]] has in fact been singled out as the most likely one (within the standard model) by the [[bicep2]]-[[experiment]] in 2014.
+The main scientific observation that goes with this is the observation that [[cosmic inflation]] -- for which there is by now excellent and ever increasing [[experiment|experimental]] evidence that indeed it happened -- does, at least by the simple method which is currently used to model it, naturally predict a large ambient space in which local regions perpetually undergo inflationary expansion -- [[eternal inflation]].
 
 Hence what is called _multiverse_ these days might more sanely have been called _universe with multiple observable regions_ or the like, but the term has seen an immense increase in popularity and is apparently here to stay.
 
@@ -38,7 +38,7 @@ Another reason why the old speculation (going back at least to [[Giordano Bruno]
 
 At the same time there are [[theory (physics)|theories]] of fundamental physics where such apparent "constants" of nature are in fact just the values of "[[moduli fields]]", hence of [[field (physics)|fields]] in the theory whose value however is approximately constant over the [[observable universe]]. Generically [[Kaluza-Klein mechanism|Kaluza-Klein theories]] have this property, and in particular [[string theory]] does.
 
-When the [[landscape of string theory vacua]] was (finally) realized to have no reason to be "small", hence when it was realized that indeed the theory alone did not constrain its moduli fields but allowed all kinds of values for them, then it was argued (first in ([Schellekens 98](#Schellekens98))) that combining this apparent embarrassment of a surplus of theoretically admissible "kinds of universes" with the apparent embarrassment of a surplus of cosmically inflating observable universes together yields a plausible picture: each inflating "bubble" in [[chaotic inflation]] randomly has its [[moduli fields]] determined by the [[vacuum fluctuation]] that gives rise to the inflationary process, and hence literally the [[moduli space]] of "constants/laws of nature" of inhabited by a kind of [[stochastic process]]. The particular value of the [[cosmological constant]] or the [[Yukawa couplings]] which we observe would be just as random (or just as "anthropically" constrained) as, say, the number, nature and distance of the planets in the [[solar system]].
+When the [[landscape of string theory vacua]] was (finally) realized to have no reason to be "small", hence when it was realized that indeed the theory alone did not constrain its moduli fields but allowed all kinds of values for them, then it was argued (first in ([Schellekens 98](#Schellekens98))) that combining this apparent embarrassment of a surplus of theoretically admissible "kinds of universes" with the apparent embarrassment of a surplus of cosmically inflating observable universes together yields a plausible picture: each inflating "bubble" in [[eternal inflation]] randomly has its [[moduli fields]] determined by the [[vacuum fluctuation]] that gives rise to the inflationary process, and hence literally the [[moduli space]] of "constants/laws of nature" of inhabited by a kind of [[stochastic process]]. The particular value of the [[cosmological constant]] or the [[Yukawa couplings]] which we observe would be just as random (or just as "anthropically" constrained) as, say, the number, nature and distance of the planets in the [[solar system]].
 
 Whatever the status of this story, it is to a large part responsible for the renewed interest in the idea of the "multiverse".
 
@@ -63,7 +63,7 @@ From ([Ellis 11](#Ellis11)):
 
 ## References
 
-Apparently the first mentioning of the idea that a multiverse due to [[chaotic inflation]] together with the [[landscape of string theory vacua]] provides a plausible story for the nature of "constants of nature" is due to
+Apparently the first mentioning of the idea that a multiverse due to [[eternal inflation]] together with the [[landscape of string theory vacua]] provides a plausible story for the nature of "constants of nature" is due to
 
 * {#Schellekens98} [[Bert Schellekens]], _Naar een waardig slot_, inauguration speech at University of Nijmegen, September 1998, ISBN 90-9012073-4
 
