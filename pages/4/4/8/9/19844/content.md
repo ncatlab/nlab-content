@@ -354,6 +354,8 @@ and as possible explanation also of the anomalies seen in the [[ANITA experiment
 
 * {#CCMRM19} D.G. Cerdeno, A. Cheek, P. Martin-Ramiro, J.M. Moreno, _B anomalies and dark matter: a complex connection_ ([arXiv:1902.01789](https://arxiv.org/abs/1902.01789))
 
+* {#BiswasShaw19} Anirban Biswas, Avirup Shaw, _Reconciling dark matter, $R_{K^{(\ast)}}$ anomalies and $(g-2)_\mu$ in an $L_\mu-L_\tau$ scenario_ ([arXiv:1903.08745](https://arxiv.org/abs/1903.08745))
+
 [[right-handed neutrino]]:
 
 * {#MMR19} Carlo Marzo, Luca Marzola, Martti Raidal, _Common explanation to the $R_{K^{(\ast)}}$, $R_{K^{(\ast)}}$ and $\epsilon'/\epsilon$ anomalies in a 3HDM+$\nu_R$ and connections to neutrino physics_ ([arXiv:1901.08290](https://arxiv.org/abs/1901.08290))
