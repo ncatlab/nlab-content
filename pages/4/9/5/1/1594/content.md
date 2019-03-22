@@ -32,7 +32,7 @@ Where a [[smooth manifold]] is a [[space]] locally modeled on [[Cartesian spaces
 
 This turns out to be broadly captured([Moerdijk-Pronk 97](#MoerdijkPronk97), [Moerdijk 02](#Moerdijk02)) by saying that an orbifold is a [[proper groupoid|proper]] [[étale groupoid|étale]] [[Lie groupoid]]. ([[Morita equivalence|Morita equivalent]] Lie groupoids correspond to the same orbifolds.)
 
-The word _orbifold_ was invented in ([Thurston 1992](#Thurston)), while the original name was _$V$-manifold_ ([Satake](#Satake)), and was taken in a more restrictive sense, assuming that the actions of finite groups on the charts are always effective. Nowadays we call such orbifolds _effective_ and those which are global quotients by a finite group _global quotient orbifolds_.  
+The word _orbifold_ was introduced in ([Thurston 1992](#Thurston)), while the original name was _$V$-manifold_ ([Satake](#Satake)), and was taken in a more restrictive sense, assuming that the [[actions]] of [[finite groups]] on the charts are always [[effective group action|effective]]. Nowadays these are called _effective orbifolds_ and those which are global quotients by a finite group are _global quotient orbifolds_.  
 
 There is also a notion of finite stabilizers in [[algebraic geometry]]. A singular variety is called an (algebraic) _orbifold_ if it has only so-called _orbifold singularities_.
 
@@ -269,3 +269,7 @@ category: Lie theory
 
 
 [[!redirects orbifolds]]
+
+[[!redirects effective orbifold]]
+[[!redirects effective orbifolds]]
+
