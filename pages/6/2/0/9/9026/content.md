@@ -1,5 +1,5 @@
 
-classification of [[special holonomy]] [[manifolds]] by [[Berger's theorem]]:
+**classification of [[special holonomy]] [[manifolds]] by [[Berger's theorem]]:**
 
 |  | $\,$[[G-structure]]$\,$ | $\,$[[special holonomy]]$\,$ | $\,$[[dimension]]$\,$ | $\,$preserved [[differential form]]$\,$ |
 |--|--|--|--|--|
