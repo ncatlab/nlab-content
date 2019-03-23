@@ -101,11 +101,11 @@ These introductory texts on psychoaccoustics help provide a foundation to better
 
 * Juan G. Roederer, _The Physics and Psychophysics of Music_ , Springer Heidelberg 2008$^4$.
 
-A theory of emotions with applies beyond music in narrative arts is in
+A theory of emotions which applies beyond music in narrative arts is in
 
 * David Huron, _Sweet Anticipation - Music and the Psychology of Expectation_ , MIT Press 2006.
 
-An introduction to [[Haskell]] programming systemetically employing examples from music is
+An introduction to [[Haskell]] programming systematically employing examples from music is
 
 * Paul Hudak, _The Haskell School of Music - From Signals to Symphonies_ , ms. Yale University 2012. ([pdf](http://www.cs.yale.edu/homes/hudak/Papers/HSoM.pdf))
 
