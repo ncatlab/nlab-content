@@ -67,7 +67,7 @@ The global tension with the standard model by end of 2018 has [[statistical sign
 
 If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18), [Zupan 19, 4.6](#Zupan19)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]].
 
-
+This situation was confirmed, if not further improved yet, with the data presented at Moriond 2019 ([LHCB at Morion 2019](#LHCbCollaborationAtMoriond19), [Allanach 19](#Allanach19)).
 
 Moreover, it had been argued ([Lyons 13b](#Lyons13b), [Dorigo 15](#Dorigo15)) that due to the specific nature of the [[experiment]], the [[statistical significance]]-threshold for detection of anomalies in [[B meson]]-decays should not be taken to be $5 \sigma$, but just $3 \sigma$, hence well exceeded already by the experimental significance:
 
@@ -207,10 +207,13 @@ Review includes
 
 * {#Zupan19} Jure Zupan, _Introduction to flavour physics_ ([arXiv:1903.05062](https://arxiv.org/abs/1903.05062))
 
+* {#LHCbCollaborationAtMoriond19} [[LHCb collaboration]], _Search for lepton-universality violation in $B^+ \to K^+ \ell^+ \ell^-$ decays_, talk at [Moriond 2019](http://moriond.in2p3.fr/2019/EW/) ([cern:2668514](https://cds.cern.ch/record/2668514))
+
+* {#Allanach19} [[Ben Allanach]], _Finding Z's responsible for $R_{K^{(\ast)}}$_, talk at [Moriond 2019](http://moriond.in2p3.fr/2019/EW/) ([pdf](http://moriond.in2p3.fr/2019/EW/slides/6_Friday/2_afternoon/5_Allanach.pdf))
 
 Outlook:
 
-* {#AllanachGripaiosYou17} B.C. Allanach, Ben Gripaios, Tevong You, _The Case for Future Hadron Colliders From $B \to K^{(\ast)}\mu^+ \mu^-$ Decays_, JHEP03(2018)021 ([arXiv:1710.06363](https://arxiv.org/abs/1710.06363))
+* {#AllanachGripaiosYou17} [[Ben Allanach]], Ben Gripaios, Tevong You, _The Case for Future Hadron Colliders From $B \to K^{(\ast)}\mu^+ \mu^-$ Decays_, JHEP03(2018)021 ([arXiv:1710.06363](https://arxiv.org/abs/1710.06363))
 
 * {#CrivellinEtAl18} A. Cerri, [[Andreas Crivellin]] et. al. _Opportunities in Flavour Physics at the HL-LHC and HE-LHC_, Report from Working Group 4 on the [Physics of the HL-LHC, and Perspectives at the HE-LHC](https://indico.cern.ch/event/686494/) ([arXiv:1812.07638](https://arxiv.org/abs/1812.07638))
 
