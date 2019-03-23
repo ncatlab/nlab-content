@@ -7,4 +7,4 @@
 
 * [[holographic entanglement entropy]]
 
-category: peope
+category: people
