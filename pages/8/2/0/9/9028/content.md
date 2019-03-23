@@ -68,6 +68,7 @@ See also at _[[C-field tadpole cancellation]]_.
 
 * [[Spin(7)-instanton]]
 
+* [[8-manifold]]
 
 
 
