@@ -68,7 +68,7 @@ It is open whether the [[4-sphere]] admits an exotic smooth structure. See ([Fre
 
 [Milnor (1956)](#Milnor1956) gave the first examples of exotic smooth structures on the [[7-sphere]], finding at least seven. 
 
-The [[7-spheres]] constructed in [Milnor 1956](#Milnor1956) are all examples of [[fibre bundles]] over the [[4-sphere]] $S^4$ with [[fibre]] the [[3-sphere]] $S^3$, with [[structure group]] the [[special orthogonal group]] $SO(4)$. 
+The [[7-spheres]] constructed in [Milnor 1956](#Milnor1956) are all examples of [[fibre bundles]] over the [[4-sphere]] $S^4$ with [[fibre]] the [[3-sphere]] $S^3$, with [[structure group]] the [[special orthogonal group]] $SO(4)$ (see also at _[[8-manifold]]_ the section _[With exotic boundary 7-spheres](8-manifold#ExoticBoundary7Spheres)_):
 
 By the classification of bundles on spheres via the [[clutching construction]], these correspond to [[homotopy classes]] of maps $S^3 \to SO(4)$, i.e. elements of $\pi_3(SO(4))$. From the table at [orthogonal group -- Homotopy groups](orthogonal+group#HomotopyGroups), this latter group is $\mathbb{Z}\oplus\mathbb{Z}$. Thus any such bundle can be described, up to [[isomorphism]], by a [[pair]] of [[integers]] $(n,m)$. When $n+m=1$, then one can show there is a [[Morse function]] with exactly two [[critical points]] on the total space of the bundle, and hence this 7-manifold is [[homeomorphic]] to a sphere.
 
