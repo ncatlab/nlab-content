@@ -20,7 +20,10 @@ A [[manifold]] of [[dimension]] 8.
 
 ## Properties
 
-### G-Structures
+### G-Structures on 8-Manifolds
+ {#GStructuresOn8Manifolds}
+
+We state results on [[cohomology|cohomological]] [[obstructions]] to and characterization of various [[G-structures]] on [[closed manifold|closed]] [[8-manifolds]].
 
 +-- {: .num_prop #Spin5StructureOnConnected8Manifolds}
 ###### Proposition
@@ -56,7 +59,8 @@ Let $X$ be a [[closed manifold|closed]] [[connected topological space|connected]
 1. The [[Euler characteristic]] is divisible by 4:
 
    $$
-     \chi[X] \;=\; 0 \;\in\; \mathbb{Z}/4
+     \tfrac{1}{4}\chi[X] \;\in\; \mathbb{Z}
+     \,.
    $$
 
 =--
@@ -132,7 +136,7 @@ if and only if the following conditions are satisfied:
    1. $\tfrac{1}{3} k (k+2) p_2[X] \;\in\; \mathbb{Z}$.
 
 
-Moreover, in this case we have for $\widehat T X$ a given [[Spin(4)]]-[[G-structure|structure]] as in (eq:Spin4Structure) and setting
+Moreover, in this case we have for $\widehat{T X}$ a given [[Spin(4)]]-[[G-structure|structure]] as in (eq:Spin4Structure) and setting
 
 \[
   \label{TildeG4}
@@ -215,6 +219,8 @@ the following relations:
 
 ## Related concepts
 
+* [[M-theory on 8-manifolds]]
+
 [[!include low dimensional manifolds -- table]]
 
 ## References
@@ -223,13 +229,15 @@ the following relations:
 
 * {#CadekVanzura97} [[Martin Čadek]], [[Jiří Vanžura]], _On $Sp(2)$ and $Sp(2) \cdot Sp(1)$-structures  in 8-dimensional vector bundles_, Publicacions Matemàtiques Vol. 41, No. 2 (1997), pp. 383-401 ([jstor:43737249](https://www.jstor.org/stable/43737249))
 
-* {#CadekVanzura98a} [[Martin Čadek]], [[Jiří Vanžura]], _On 4-fields and 4-distributions in 8-dimensional vector bundles over 8-complexes_,  Colloquium Mathematicum 1998, 76 (2), pp 213-228 ([web](http://pldml.icm.edu.pl/pldml/element/bwmeta1.element.bwnjournal-article-cmv76z2p213bwm))
+* {#CadekVanzura98a} [[Martin Čadek]], [[Jiří Vanžura]], _On 4-fields and 4-distributions in 8-dimensional vector bundles over 8-complexes_,  Colloquium Mathematicum (1998), 76 (2), pp 213-228 ([web](http://pldml.icm.edu.pl/pldml/element/bwmeta1.element.bwnjournal-article-cmv76z2p213bwm))
 
 * {#CadekVanzura98b} [[Martin Čadek]], [[Jiří Vanžura]], _Almost quaternionic structures on eight-manifolds_, Osaka J. Math. Volume 35, Number 1 (1998), 165-190 ([euclid:1200787905](https://projecteuclid.org/euclid.ojm/1200787905))
 
+* {#CadekVanzura98c} [[Martin Čadek]], [[Jiří Vanžura]], _Various structures in 8-dimensional vector bundles over 8-manifolds_, Banach Center Publications (1998) Volume: 45, Issue: 1, page 183-197 ([dml:208903](https://eudml.org/doc/208903))
+
 * {#CadekCrabbVanzura08} [[Martin Čadek]], Michael Crabb, [[Jiří Vanžura]],  _Obstruction theory on 8-manifolds_, manuscripta math. 127 (2008), 167-186 ([arXiv:0710.0734](https://arxiv.org/abs/0710.0734))
 
-* {#CadekCrabbVanzura10} [[Martin Čadek]], Michael Crabb, [[Jiří Vanžura]], _Quaternionic structures_, Topology and its Applications Volume 157, Issue 18, 1 December 2010, Pages 2850-2863 ([doi:10.1016/j.topol.2010.09.005](https://doi.org/10.1016/j.topol.2010.09.005))
+* {#CadekCrabbVanzura10} [[Martin Čadek]], Michael Crabb, [[Jiří Vanžura]], _Quaternionic structures_, Topology and its Applications Volume 157, Issue 18, 1 December (2010), Pages 2850-2863 ([doi:10.1016/j.topol.2010.09.005](https://doi.org/10.1016/j.topol.2010.09.005))
 
 
 
