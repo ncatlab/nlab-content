@@ -481,13 +481,15 @@ This continues with lifts to the
 
 [[!include normed division algebra Riemannian geometry -- table]]
 
+### $G$-Structures on 8-manifolds
+
+For discussion of [[G-structures]] on [[closed manifold|closed]] [[8-manifolds]] see [there](8-manifold#GStructuresOn8Manifolds).
+
 ### Higher geometric examples
 
 See the list at [[twisted differential c-structure]].
 
-## Further issues
-
-> Need to talk about integrability conditions, and those of higher degree. Also need to discuss [[pseudo-group|pseudo-groups]].
+\linebreak
 
 ## Related concepts
 
