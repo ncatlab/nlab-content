@@ -25,11 +25,14 @@ There are other approaches to dependent linear type theory that do allow some so
 
 ## Syntax
 
+
 Details are still somewhat in the making: An extension of the [[LF]] [[syntax]] by dependent linear types appears in ([Pfenning 96](#Pfenning96), [WCFW 03](#WCFW03)) and a dependent linear extension of [[system L]] in ([Spiwack 14, section 5](#Spiwack14)).
 
 Proposals for an actual [[syntax]] for dependent linear type theory appear in ([V&#225;k&#225;r 14](#Vakar14), [KPB 15](#KPB15)).
 
 ## Semantics
+
+Dependent linear type theory should have [[categorical semantics]] in [[indexed monoidal (∞,1)-categories]] -- see there for detailed discussion.
 
 ### Non-homotopy version
 
@@ -222,6 +225,10 @@ Since the Grothendieck construction of the standard indexed monoidal $(\infty,1)
 =--
 
 What should be the [[categorical semantics]] of dependent linear type theory was discussed in ([Shulman 08](#Shulman08), [Ponto-Shulman 12](#PontoShulman12), [Shulman 12](#Shulman12), [Schreiber 14](#Schreiber14)). 
+
+## Related concepts
+
+* [[indexed monoidal (∞,1)-category]]
 
 ## References
 
