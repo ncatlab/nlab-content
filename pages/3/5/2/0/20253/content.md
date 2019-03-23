@@ -25,7 +25,8 @@ A [[manifold]] of [[dimension]] 8.
 
 Let $X$ be a [[compact topological space|compact]] [[orientation|oriented]] [[smooth manifold|smooth]] [[8-manifold]]. Then its [[signature genus|signature]] is related to the [[second  Pontryagin class]] $p_2$ and the [[cup product]] of the [[first Pontryagin class]] $p_1$ with itself, both evaluated on the [[fundamental class]] of $X$, by
 
-$$
+\[
+  \label{SignatureFormula}
   \pm 1
   \;=\;
   \sigma[X]
@@ -37,9 +38,11 @@ $$
     (p_1)^2
   \big)[X]
   \,.
-$$
+\]
 
-But in addition, due to the dimenion 8, the signature is $\pm 1$, depending on the choice of [[orientation]]
+But in addition, due to the dimenion 8, the signature is $\pm 1$, depending on the choice of [[orientation]].
+
+(e.g. [Joachim-Wraith, p. 2](#JoachimWraith))
 
 ### G-Structures on 8-Manifolds
  {#GStructuresOn8Manifolds}
@@ -238,6 +241,46 @@ the following relations:
 
 \linebreak
 
+## Examples
+
+### With exotic boundary 7-spheres
+ {#ExoticBoundary7Spheres}
+
+Consider $S^4$ the [[4-sphere]] and $D^4$ be the 4-[[disk]], the latter a [[manifold with boundary]]. Then a $D^4$-[[fiber bundle]] over $S^4$ is an 8-dimensional [[manifold with boundary]]. 
+
+By the [[clutching construction]], such bundles are classified by [[homotopy classes]] of maps
+
+$$
+  f_{(m,n)}
+  \;\colon\;
+  S^3 
+  \longrightarrow
+  SO(4)
+$$
+
+from a [[3-sphere]] (the [[equator]] of $S^4$) to [[SO(4)]]. By [this Prop.](SO4#TheExceptionalIso) such maps are classified by [[pairs]] of [[integers]] $(m,n) \in \mathbb{Z} \times \mathbb{Z}$.
+
+If here $m+n = \pm 1$ then the [[boundary]] of the corresponding [[8-manifold]] is [[homotopy equivalent]] to a [[7-sphere]], and in fact [[homeomorphism|homeomorphic]] to the [[7-sphere]].
+
+Assuming this 8-manifold is a [[smooth manifold]], then plugging in the numbers into the [[signature genus|siganture]] formula (eq:SignatureFormula) yields the relation
+
+$$
+  p_2[X]
+  \;\coloneqq\;
+  \tfrac{1}{7}
+  \big(
+    4(2m -1)^2 + 45
+  \big)
+$$
+
+Here the left hand side must be an [[integer]], which the right hand side is not an integer for all choices of [[pairs]] $(m,n)$. This means that for these choices the [[boundary]] [[7-sphere]] is not [[diffeomorphism|diffeomorphic]] to the standard smooth 7-sphere -- it is instead an [exotic 7-sphere](exotic+smooth+structure#Exotic7Sphere).
+
+(see [Joachim-Wraith, p. 2-3](#JoachimWraith))
+
+\linebreak
+
+
+
 ## Related concepts
 
 * [[M-theory on 8-manifolds]]
@@ -245,6 +288,8 @@ the following relations:
 [[!include low dimensional manifolds -- table]]
 
 ## References
+
+* {#JoachimWraith} [[Michael Joachim]], D. J. Wraith, _Exotic spheres and curvature_ ([pdf](https://ivv5hpp.uni-muenster.de/u/joachim/exo.pdf))
 
 * {#CadekVanzura95} [[Martin Čadek]], [[Jiří Vanžura]], _On the existence of 2-fields in 8-dimensional vector bundles over 8-complexes_, Commentationes Mathematicae Universitatis Carolinae, vol. 36 (1995), issue 2, pp. 377-394 ([dml-cz:118764](https://dml.cz/handle/10338.dmlcz/118764))
 
