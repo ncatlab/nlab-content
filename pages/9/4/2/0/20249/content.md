@@ -1,5 +1,5 @@
 
-**[[rotation groups]] in [[low-dimensional topology|low]] [[dimensions]]**
+**[[rotation groups]] in [[low-dimensional topology|low]] [[dimensions]]**:
 
 | [[special orthogonal group|sp. orth. group]] | [[spin group]] | [[pin group]] | 
 |------------------------------|----------------|---------------|
