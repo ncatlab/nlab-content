@@ -59,6 +59,9 @@ After the discovery of the [[Higgs field]] at the two major other detectors of [
 
 * [[LHCb collaboration]], _Search for lepton-universality violation in $B^+ \to K^+ \ell^+ \ell^-$ decays_ ([cern:2668514](https://cds.cern.ch/record/2668514))
 
+* [[LHCb collaboration]], _Search for lepton-universality violation in $B^+ \to K^+ \ell^+ \ell^-$ decays_ ([cern:2668514](https://cds.cern.ch/record/2668514))
+
+
 ## References
 
 * [LHCb public page](http://lhcb-public.web.cern.ch/lhcb-public/)
