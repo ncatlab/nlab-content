@@ -177,7 +177,12 @@ Localization by an [[ambidextrous adjunction]] is also discussed in
 
 * {#Johnstone96} [[Peter Johnstone]], _Remarks on quintessential and persistent localizations_, Theory and Applications of Categories, Vol. 2, No. 8, 1996, pp. 90&#8211;99 ([TAC](http://www.tac.mta.ca/tac/volumes/1996/n8/2-08abs.html))
 
+[[!redirects infinitesimal cohesive (infinity,1)-toposes]]
+[[!redirects infinitesimal cohesive (infinity,1)-topoi]]
 
 [[!redirects infinitesimal cohesion]]
 [[!redirects infinitesimally cohesive]]
+
 [[!redirects infinitesimal cohesive (∞,1)-topos]]
+[[!redirects infinitesimal cohesive (∞,1)-toposes]]
+[[!redirects infinitesimal cohesive (∞,1)-topoi]]
