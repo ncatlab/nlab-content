@@ -174,7 +174,7 @@ This approach to computing putative M-theory scattering amplitudes is due to  ([
 
   * [[G2-MSSM]]
 
-* [[M-theory on Spin(8)-manifolds]]
+* [[M-theory on 8-manifolds]]
 
 * [[Diaconescu-Moore-Witten anomaly]]
 
