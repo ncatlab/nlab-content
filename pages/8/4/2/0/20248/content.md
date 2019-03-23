@@ -19,7 +19,7 @@ The [[special orthogonal group]] in [[dimension]] 4.
 
 ## Properties
 
-+-- {: .num_prop }
++-- {: .num_prop #TheExceptionalIso}
 ###### Proposition
 
 There is a [[commuting diagram]] of [[Lie groups]] of the form
@@ -67,4 +67,4 @@ where
 [[!include low dimensional rotation groups -- table]]
 
 
-
+[[!redirects SO4]]
