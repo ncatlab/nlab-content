@@ -240,6 +240,10 @@ In ([Witten 1996](#Witten)) it is discussed that the space of [[states]] of this
 
 * [[integral Wu structure]], [[twisted Wu structure]]
 
+* [[Pontryagin class]], [[Stiefel-Whitney class]], [[one-loop anomaly polynomial I8]]
+
+* [[Euler class]]
+
 ## References
 
 The original reference is 
