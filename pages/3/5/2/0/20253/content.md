@@ -289,7 +289,11 @@ Here the left hand side must be an [[integer]], which the right hand side is not
 
 ## References
 
-* {#JoachimWraith} [[Michael Joachim]], D. J. Wraith, _Exotic spheres and curvature_ ([pdf](https://ivv5hpp.uni-muenster.de/u/joachim/exo.pdf))
+### General
+
+* Anand Dessai, _Topology of positively curved 8-dimensional manifolds with symmetry_ ([arXiv:0811.1034](https://arxiv.org/abs/0811.1034))
+
+### $G$-Structure
 
 * {#CadekVanzura95} [[Martin Čadek]], [[Jiří Vanžura]], _On the existence of 2-fields in 8-dimensional vector bundles over 8-complexes_, Commentationes Mathematicae Universitatis Carolinae, vol. 36 (1995), issue 2, pp. 377-394 ([dml-cz:118764](https://dml.cz/handle/10338.dmlcz/118764))
 
@@ -305,6 +309,9 @@ Here the left hand side must be an [[integer]], which the right hand side is not
 
 * {#CadekCrabbVanzura10} [[Martin Čadek]], Michael Crabb, [[Jiří Vanžura]], _Quaternionic structures_, Topology and its Applications Volume 157, Issue 18, 1 December (2010), Pages 2850-2863 ([doi:10.1016/j.topol.2010.09.005](https://doi.org/10.1016/j.topol.2010.09.005))
 
+### Exotic boundary 7-spheres
+
+* {#JoachimWraith} [[Michael Joachim]], D. J. Wraith, _Exotic spheres and curvature_ ([pdf](https://ivv5hpp.uni-muenster.de/u/joachim/exo.pdf))
 
 
 [[!redirects 8-manifolds]]
