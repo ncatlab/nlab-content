@@ -24,7 +24,7 @@
 
 ## Idea
 
-Linear logic is sometimes thought of as being a logic for arguing about resource sensitive issues, but it can also be thought of categorically, or interpreted using Game Semantics, or as being related to Petri nets, or as a particular form of [[quantum logic]]. A bit more formally:
+Linear logic is sometimes thought of as being a logic for arguing about resource sensitive issues, but it can also be thought of categorically, or interpreted using Game Semantics, or as being related to Petri nets, or as a particular form of [[quantum logic]]. A bit more formally: 
 
 **Linear logic** is a [[substructural logic]] in which the [[contraction rule]] and the [[weakening rule]] are omitted, or at least have their applicability restricted.  
 
@@ -205,6 +205,8 @@ The logic described above is full classical linear logic.  There are many import
 One can also consider adding additional rules to linear logic.  For instance, by adding the [[weakening rule]] (but not the [[contraction rule]]) one obtains [[affine logic]], whereas by adding contraction but not weakening one obtains [[relevance logic]].  Another rule that is sometimes considered is the [[mix rule]].
 
 [[linear-non-linear logic |Linear-non-linear logic]] is an equivalent presentation of intuitionistic linear logic that decomposes the $!$ modality into an adjunction between a cartesian logic and a linear one in which cartesian variables can also appear.
+
+Some models of linear logic allow for a _codereliction_ operation, which allows for one to take the "linear approximation" of a proof $!(A) \to B$. These models lead to the development of _differential linear logic_, the categorical semantics of which was laid out in ([Blute-Cockett-Seely](#Blute-Cockett-Seely06)).
 
 ## Categorial semantics
 
@@ -432,6 +434,7 @@ This is reviewed/further discussed in
  {#Mellies09}
 
 
+
 Noncommutative linear logic is discussed for instance in
 
 * [[Richard Blute]], F. Lamarche, Paul Ruet, _Entropic Hopf algebras and models of non-commutative logic_, Theory and Applications of Categories, Vol. 10, No. 17, 2002, pp. 424&#8211;460. ([pdf](http://www.emis.ams.org/journals/TAC/volumes/10/17/10-17.pdf))
@@ -478,6 +481,13 @@ Discussion of [[inductive types]] in the context of [[linear type theory]] is in
 
 * St&#233;phane Gimenez, _Towards Generic Inductive Constructions in
 Systems of Nets_ ([pdf](http://www.imn.htwk-leipzig.de/WST2013/papers/paper_16.pdf))
+
+
+The categorical semantics of differential linear logic is introduced in:
+
+* [[Richard Blute]], [[Robin Cockett]], [[Robert Seely]], _Differential Categories_, Mathematical structures in computer science 16.6 (2006): 1049-1083.([pdf](https://pdfs.semanticscholar.org/82b0/f9533b451d174f407b35e1c39e2376138ac2.pdf)) 
+{#Blute-Cockett-Seely06}
+
 
 
 [[!redirects linear logic]]
