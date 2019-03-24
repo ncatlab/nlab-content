@@ -25,11 +25,92 @@ Typically this is considered with a [[reduction of the structure group]] on the 
 
 ## Properties
 
-### Relation to F-theory 
+### C-field tadpole cancellation condition
 
-If the 8-dimensional fibers themselves are [[elliptic fibrations]], this is supposedly [[T-duality|T-dual]] to [[F-theory]] [[KK-compactification|KK-compactified]] to $3+1$ [[spacetime]]-[[dimensions]]. In particular, if there is an [[M2-brane]] [[wrapped brane|filling]] the base 2+1-dimensional spacetime, this is supposedly [[T-duality|T-dual]] to a 3+1-dimensional spacetime filling [[D3-brane]] in [[F-theory]] (e.g. [Condeescu-Micu-Palti 14, p. 2](#CondeescuMicuPalti14))
+In [[M-theory]] [[KK-compactification|compactified]]  [[compact topological space|compact]] [[8-manifold]] [[fibers]],  [[tadpole cancellation]] for the [[supergravity C-field]] (see also at _[[C-field tadpole cancellation]]_) is equivalently the condition
+
+$$
+  N_{M2}
+  \;+\;
+  \tfrac{1}{2} \big( G_4[X^{(8)}]\big)^2
+  \;=\;
+  \underset{
+    I_8(X^8)
+  }{
+    \underbrace{
+      \tfrac{1}{48}\big( p_2 - \tfrac{1}{2}p_1^2  \big)[X^{8}]
+    }
+  }
+  \;\;\;\;
+  \in
+  \mathbb{Z}
+  \,,
+$$
+
+where
+
+1. $N_{M2}$ is the net number of [[M2-branes]] in the spacetime (whose [[worldvolume]] appears as points in $X^{(8)}$);
+
+1. $G_4$ is the [[field strength]]/flux of the [[supergravity C-field]]
+
+1. $p_1$ is the [[first Pontryagin class]] and $p_2$ the [[second Pontryagin class]] combining to [[I8]], all regarded here in [[rational homotopy theory]].
+
+If $X^{8}$ has 
+
+* [[Spin(7)-structure]] (hence in particular if it is a [[Calabi-Yau manifold]], which has $SU(4) = $ [[Spin(6)]]-structure) 
+
+or 
+
+* [[Spin(3) x Spin(5)-structure]] 
+
+then
+
+$$
+  \tfrac{1}{2}\big( p_2 - \tfrac{1}{4}(p_1)^2  \big)
+  \;=\;
+  \chi
+$$
+
+is the [[Euler class]] (see [this Prop.](Spin7-manifold#CharacteristicClassesForSpinStructure) and [this Prop.](quaternion-Kähler+manifold#CharacteristicClassesForSpin5Spin3Structure), respectively), hence in these cases the condition is equivalently
+
+$$
+  N_{M2}
+  \;+\;
+  \tfrac{1}{2} \big( G_4[X^{(8)}]\big)^2
+  \;=\;
+  \tfrac{1}{24}\chi[X^8]
+  \;\;\;\;
+  \in
+  \mathbb{Z}
+  \,,
+$$
+
+where $\chi[X]$ is the [[Euler characteristic]] of $X$.
+
+For references see [there](C-field+tadpole+cancellation#References).
+
+\linebreak
+
+### Relation to F-theory 
+ {#RelationToFTheory}
+
+If the 8-dimensional [[fibers]] themselves are [[elliptic fibrations]], then [[M-theory]] on these 8-manifolds this is supposedly [[T-duality|T-dual]] to [[F-theory]] [[KK-compactification|KK-compactified]] to $3+1$ [[spacetime]]-[[dimensions]]. 
+
+In particular, if there is an [[M2-brane]] [[wrapped brane|filling]] the base 2+1-dimensional spacetime, this is supposedly [[T-duality|T-dual]] to a 3+1-dimensional spacetime filling [[D3-brane]] in [[F-theory]] (e.g. [Condeescu-Micu-Palti 14, p. 2](#CondeescuMicuPalti14))
 
 For more on this see at _[[F/M-theory on elliptically fibered Calabi-Yau 4-folds]]_.
+
+\linebreak
+
+### Black M2-branes and Exotic 7-spheres
+ {#BlackM2BranesAndExotic7Spheres}
+
+The discovery of [[exotic 7-spheres]] proceeded via [[8-manifolds]] $X$ [[manifold with boundary|with boundary]] [[homeomorphism|homeomorphic]] to the [[7-sphere]] $\partial X \simeq_{homeo} S^7$, but not necessarily [[diffeomorphism|diffeomorphic]] to $S^7$ with its canonical [[smooth structure]] (for more see [there](8-manifold#ExoticBoundary7Spheres)).
+
+Hence when regarded from the point of view of [[M-theory on 8-manifolds]], exotic 7-spheres arise as [[near horizon limits]] of peculiar [[black brane|black]] [[M2-brane]] [[spacetimes]] $\mathbb{R}^{2,1} \times X$.
+
+See also [Morrison-Plesser 99, section 3.2](#MorrisonRPlesser99).
+
 
 ## Related concepts
 
@@ -38,6 +119,8 @@ For more on this see at _[[F/M-theory on elliptically fibered Calabi-Yau 4-folds
 * [[F/M-theory on elliptically fibered Calabi-Yau 4-folds]]
 
 ## References
+
+### General
 
 * {#Witten95} [[Edward Witten]], _Strong Coupling and the Cosmological Constant_, Mod.Phys.Lett.A10:2153-2156, 1995 ([arXiv:hep-th/9506101](https://arxiv.org/abs/hep-th/9506101))
 
@@ -66,5 +149,10 @@ For more on this see at _[[F/M-theory on elliptically fibered Calabi-Yau 4-folds
 * Elena Mirela Babalic, [[Calin Lazaroiu]], _The landscape of G-structures in eight-manifold compactifications of M-theory_, JHEP11 (2015) 007 ([arXiv:1505.02270](https://arxiv.org/abs/1505.02270))
 
 * Elena Mirela Babalic, [[Calin Lazaroiu]], _Internal circle uplifts, transversality and stratified G-structures_, JHEP11(2015)174 ([arXiv:1505.05238](https://arxiv.org/abs/1505.05238))
+
+### M2-brane spacetimes
+
+* {#MorrisonPlesser99} [[David Morrison]], [[M. Ronen Plesser]], section 3.2 of _Non-Spherical Horizons, I_, Adv.Theor.Math.Phys.3:1-81, 1999 ([arXiv:hep-th/9810201](https://arxiv.org/abs/hep-th/9810201))
+
 
 [[!redirects M-theory on Spin(7)-manifolds]]
