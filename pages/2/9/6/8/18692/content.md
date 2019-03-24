@@ -1,3 +1,26 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
 A **tangent bundle category** is a [[category]] equipped with a "[[tangent bundle]]" [[endofunctor]] satisfying some natural axioms.
 
 Usually these are called simply **tangent categories**, but on the nLab the page [[tangent category]] is about "the tangent category of a given category" constructed by abelianization.  In other words, tangent bundle categories are about *abstraction* of the tangent bundle construction, while tangent categories are a *categorification* thereof (in some vague sense).
