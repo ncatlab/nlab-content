@@ -107,7 +107,7 @@ In the monoidal category $[\mathbb{X}, \mathbb{X}]$, the first diagram correspon
 
 \begin{center}
     \begin{tikzcd}
-      T_2(M) \ar[r, "\mu"] & T^2(M) \ar[d, "T(p)"] \\
+      T_2(M) \ar[r, "\mu"] \ar[d, "p \circ \pi_0 = p \circ \pi_1"'] & T^2(M) \ar[d, "T(p)"] \\
       M \ar[r, "0"] & T(M)
     \end{tikzcd}
  \end{center} 
