@@ -13,13 +13,13 @@ $T^2(U) \cong (U \times \mathbb{R}^n) \times (\mathbf{R^n} \times \mathbb{R}^n)$
 
 * The vertical lift: $\ell(m,v) = (m,0,0,v)$.
 
-*The canonical flip $c(m,u,v,w) = (m,v,u,w)$. 
+* The canonical flip $c(m,u,v,w) = (m,v,u,w)$. 
 
 These morphisms are important in the axiomatization of differential structure given in cartesian differential categories.
 
 #### Additive bundles
 
-Tangent categories were originally defined by Rosicky using abelian group bundles, however Cockett and Cruttwell's axiomatization uses commutative monoid bundles in order to capture examples of tangent structure that arise in theoretical computer science.
+Tangent categories were originally defined by Rosicky using abelian group bundles, however Cockett and Cruttwell's definition uses commutative monoid bundles in order to capture examples of tangent structure that arise in theoretical computer science.
 
 An additive bundle $q: E \to B$ in a category $\mathbb{X}$ is a commutative monoid in $\mathbb{X}/B$. A bundle morphism $(f,g): q \to q'$ is _additive_ if it preserves the fibered commutative monoid structure.
 
@@ -49,15 +49,9 @@ Denote pullback powers of $p$ as $T_n(M)$.
       T(M) \ar[r, equals] & T(M)
     \end{tikzcd}
   \end{center}
-* The vertical lift $\ell$ makes the following bundle morphisms
-  additive:
+* The vertical lift $\ell$ gives an additive bundle morphism $(\ell, 0): p \Rightarrow T(p)$.
   
-\begin{center}
-    \begin{tikzcd}
-      T(M) \ar[r, "\ell"] \ar[d, "p"] & T^2(M) \ar[d, "p"] \\
-      M \ar[r, "0"] & T(M)
-    \end{tikzcd}
-\end{center}
+
 
 * We also require the following coherences between the vertical lift and the canonical flip: 
 
@@ -66,14 +60,21 @@ Denote pullback powers of $p$ as $T_n(M)$.
       T \ar[r, "\ell"] \ar[d, "\ell"'] & T^2 \ar[d, "T(\ell)"] \\
       T^2 \ar[r, "\ell_T"] & T^3
     \end{tikzcd}
+\end{center}
+\begin{center}
     \begin{tikzcd}
       T^3 \ar[d, "c_T"] \ar[r, "T(c)"] & T^3 \ar[r, "c_T"] & T^3 \ar[d, "T(c)"] \\
       T^3 \ar[r, "T(c)"] & T^3 \ar[r, "c_T"] & T^3
     \end{tikzcd}
+\end{center}
+
+\begin{center}
     \begin{tikzcd}
       T^2 \ar[r, "\ell_T"] \ar[d, "c"'] & T^3 \ar[r, "T(c)"] & T^3 \ar[d, "c_T"] \\
       T^2 \ar[rr, "T(\ell)"] && T^3
     \end{tikzcd}
+\end{center}
+\begin{center}
     \begin{tikzcd} T \ar[r, "\ell"] \ar[rd, "\ell"] & T^2 \ar[d, "c"] \\ & T \end{tikzcd}
 \end{center}
 
