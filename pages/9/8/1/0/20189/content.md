@@ -99,9 +99,8 @@ $$
 
 (e.g. [Kalkkinen 06, Section 3](#Kalkkinen06))
 
-+-- {: .num_prop }
++-- {: .num_prop  #FiberIntegrationOfCupPowersOfChiOver4Sphere}
 ###### Proposition
-
 
 Let 
 
