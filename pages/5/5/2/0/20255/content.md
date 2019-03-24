@@ -95,7 +95,10 @@ The sum of these cohomology classes, evaluated on the [[fundamental class]] of $
 
 This result used to be "somewhat puzzling" ([Witten 96, p. 35](#Witten96)) since consisteny of the [[M5-brane]] in [[M-theory]] should require its total [[quantum anomaly]] to vanish. But $p_2(N_{Q_{M5}})$ does not in general vanish, and the right conditions to require under which it does vanish were "not clear" ([Witten 96, p. 37](#Witten96)).
 
-A resolution was proposed in ([Freed-Harvey-Minasian-Moore 98](#FreedHarveyMinasianMoore98)), further clarified in ([Monnier 13](#Monnier13)), where it was asserted that 
+(For more details on computations involved this and the following arguments, see also [Bilal-Metzger 03](#BilalMetzger03)).
+
+
+A resolution was proposed in ([Freed-Harvey-Minasian-Moore 98](#FreedHarveyMinasianMoore98)), further clarified in ([Monnier 13](#Monnier13)), see also ([Bah-Bonetti-Minasian-Nardoni 18](#BahBonettiMinasianNardoni18)). There it is asserted that 
 
 1. the correct bulk anomaly inflow is not just that from $I_8$ itself, but includes also a contribution from the class $G_4$ of the [[supergravity C-field]], as per (eq:FiberIntegration) below ([Monnier 13, around (3.11)](#Monnier13));
 
@@ -185,9 +188,15 @@ For further discussion see
 
 In relation to the [[quantum anomaly]] of the [[M5-brane]]:
 
+* [Witten 96](#Witten96)
+
 * {#FreedHarveyMinasianMoore98} [[Dan Freed]], [[Jeff Harvey]], [[Ruben Minasian]], [[Greg Moore]], _Gravitational Anomaly Cancellation for M-Theory Fivebranes_, Adv.Theor.Math.Phys.2:601-618, 1998 ([arXiv:hep-th/9803205](https://arxiv.org/abs/hep-th/9803205))
 
+* {#BilalMetzger03} [[Adel Bilal]], Steffen Metzger, _Anomaly cancellation in M-theory: a critical review_, Nucl.Phys. B675 (2003) 416-446 ([arXiv:hep-th/0307152](https://arxiv.org/abs/hep-th/0307152))
+
 * {#Monnier13} Samuel Monnier, _Global gravitational anomaly cancellation for five-branes_, Advances in Theoretical and Mathematical Physics, Volume 19 (2015) 3 ([arXiv:1310.2250](https://arxiv.org/abs/1310.2250)) 
+
+* {#BahBonettiMinasianNardoni18} Ibrahima Bah, Federico Bonetti, [[Ruben Minasian]], Emily Nardoni, _Class $\mathcal{S}$ Anomalies from M-theory Inflow_ ([arXiv:1812.04016](https://arxiv.org/abs/1812.04016))
 
 
 [[!redirects one-loop anomaly polynomial I8]]
