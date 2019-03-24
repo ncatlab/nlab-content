@@ -285,5 +285,8 @@ Discussion from the point of view of [[E11]]-[[U-duality]] and [[current algebra
 
 [[!redirects M2-branes]]
 
+[[!redirects M2 brane]]
+[[!redirects M2 branes]]
+
 [[!redirects M-theory membrane]]
 [[!redirects M-theory membranes]]
