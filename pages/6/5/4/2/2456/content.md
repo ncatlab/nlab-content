@@ -71,7 +71,7 @@ On the other hand, a global choice operator is inconsistent with the [[univalenc
 
 ## Readings
 
-* [Hilbert's $\varepsilon$-Operator](http://planetmath.org/encyclopedia/HilbertsVarepsilonOperator.html), _PlanetMath_.
+* [Hilbert's $\varepsilon$-Operator](https://planetmath.org/hilbertsvarepsilonoperator), _PlanetMath_.
 
 * Stanford Encyclopedia of Philosophy article on [The Epsilon Calculus](http://plato.stanford.edu/entries/epsilon-calculus/).
 
