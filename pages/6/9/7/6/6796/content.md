@@ -47,9 +47,13 @@ If $\Sigma$ is contractible in $X$, hence if there is a $\hat \Sigma \hookrighta
 * **flux**
 * [[flux compactification]]
 
+[[!redirects fluxes]]
+
+[[!redirects flux density]]
+[[!redirects flux densities]]
 
 [[!redirects magnetic flux]]
 [[!redirects electric flux]]
 
 
-[[!redirects fluxes]]
+
