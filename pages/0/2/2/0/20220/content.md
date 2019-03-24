@@ -43,7 +43,7 @@ where
 
 1. $G_4$ is the [[field strength]]/flux of the [[supergravity C-field]]
 
-1. $p_1$ is the [[first Pontryagin class]] and $p_2$ the [[second Pontryagin class]], all regarded here in [[rational homotopy theory]].
+1. $p_1$ is the [[first Pontryagin class]] and $p_2$ the [[second Pontryagin class]] combining to [[I8]], all regarded here in [[rational homotopy theory]].
 
 If $X^{8}$ has 
 
