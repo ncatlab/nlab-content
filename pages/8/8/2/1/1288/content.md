@@ -4,7 +4,7 @@ Grothendieck has developed a deep version of _differential calculus_, based on a
 
 This corresponds to looking at a sequence of infinitesimal neighborhoods of the diagonal. This geometrical principle can be applied to other categories; it is the basis of the study of [[jet schemes]] and close in spirit to some constructions in synthetic differential geometry.
 
-Given a commutative unital ring $R$, a filtration $M_n$ ($n\geq -1$) on a $R$-$R$-bimodule $M$ is a __differential filtration__ if the commutator $[r,P]$ for any $P$ in $M_n$ is in $M_{n-1}$, and $M_{-1} = 0$. A bimodule is differential if it has an exhaustive ($\cup_N M_n = M$) differential filtration. Every $R$-$R$-bimodule has a __differential part__, i.e. the maximal differential submodule of $M$. 
+Given a commutative unital ring $R$, a filtration $M_n$ ($n\geq -1$) on a $R$-$R$-bimodule $M$ is a __differential filtration__ if the commutator $[r,P]$ for any $P$ in $M_n$ and $r$ in $R$ is in $M_{n-1}$, and $M_{-1} = 0$. A bimodule is differential if it has an exhaustive ($\cup_N M_n = M$) differential filtration. Every $R$-$R$-bimodule has a __differential part__, i.e. the maximal differential submodule of $M$. 
 
 __Regular differential operators__, as defined by Grothendieck, are the elements of the differential part $Diff(R,R)$ of $Hom(R,R)$ i.e. a maximal differential subbimodule in  $Hom(R,R)$. The operators in $Diff(R,R)_n$ are called the differential operators of degree $\leq n$. 
 If $R\to B$ is a ring morphism, then the differential part of $B$ via its natural $R$-$R$-bimodule structure is also an object of $R\backslash \mathrm{Ring}$; in particular $Diff(R,R)$ is a ring and $R\hookrightarrow Diff(R,R)$ is an embedding of rings.
