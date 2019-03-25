@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -363,6 +364,37 @@ The canonical [[Riemannian metric]] $G_2$ manifold is [[Ricci tensor|Ricci flat]
 
 [[!include normed division algebra Riemannian geometry -- table]]
 
+## Examples
+ {#Examples}
+
+### Resolution of Joyce orbifolds
+
+[[compact topological space|compact]] [[G2-manifolds]]
+by [[resolution of singularities]] in compact [[flat orbifolds]]
+
+([Joyce 96](#Joyce96), [Joyce 00](#Joyce00))
+
+(...) 
+
+### Twisted connected sum construction
+ {#TwistedConnectedSumConstruction}
+
+[[compact topological space|compact]] [[G2-manifolds]]
+by twisted [[connected sum]]-constructions
+
+([Kovalev 00](#Kovalev00))
+
+
+\begin{center}
+\begin{imagefromfile}
+  "file_name": "TwistedConnectedSumG2Manifold.jpg",
+  "width": 680
+\end{imagefromfile}
+\end{center}
+
+> graphics grabbed from [Klemm 16](#Klemm17)
+
+
 
 ## Applications
 
@@ -400,7 +432,7 @@ Non-compact $G_2$-manifolds were first  constructed in
 
 [[compact topological space|Compact]] $G_2$-manifolds were first found in 
 
-* {#Joyce}[[Dominic Joyce]], _Compact Riemannian 7-manifolds with holonomy $G_2$_, Journal of Differential Geometry vol 43, no 2 ([Euclid](https://projecteuclid.org/euclid.jdg/1214458109))
+* {#Joyce96}[[Dominic Joyce]], _Compact Riemannian 7-manifolds with holonomy $G_2$_, Journal of Differential Geometry vol 43, no 2, 1996 ([Euclid](https://projecteuclid.org/euclid.jdg/1214458109))
  
 * {#Joyce00} [[Dominic Joyce]], _Compact Manifolds with Special Holonomy_, Oxford Mathematical Monographs, Oxford University Press (2000)
 
@@ -408,9 +440,13 @@ The sufficiency of spin structure for $G_2$-structure is due to
 
 * {#Gray69} A. Gray, _Vector cross products on manifolds_, Trans. Amer. Math. Soc. 141 (1969), 465&#8211;504. 
 
-and a second class of examples in 
+and the [[compact twisted connected sum G2-manifolds]] due to
 
-* {#Kovalev00} [[Alexei Kovalev]], _Twisted connected sums and special Riemannian holonomy_ ([arXiv:math/0012189](https://arxiv.org/abs/math/0012189))
+* {#Kovalev00} [[Alexei Kovalev]], _Twisted connected sums and special Riemannian holonomy_, J. Reine Angew. Math. 565 (2003) ([arXiv:math/0012189](https://arxiv.org/abs/math/0012189))
+
+Review includes
+
+* {#Klemm17} [[Albrecht Klemm]], _Effective Action from M-theory ontwisted connected sums_, talk at Ascona Monte Verita, 6 July 2017 ([pdf](http://conf.itp.phys.ethz.ch/string17/talks/Klemm.pdf))
 
 More compact examples are constructed in 
 
@@ -525,3 +561,14 @@ For more on this see at _[[M-theory on G2-manifolds]]_
 
 [[!redirects weak G2-holonomy]]
 [[!redirects weak G2 holonomy]]
+
+[[!redirects twisted connected sum G2-manifold]]
+[[!redirects twisted connected sum G2-manifolds]]
+
+[[!redirects compact twisted connected sum G2-manifold]]
+[[!redirects compact twisted connected sum G2-manifolds]]
+
+[[!redirects compact twisted connected sum G2-manifold]]
+[[!redirects compact twisted connected sum G2-manifolds]]
+
+
