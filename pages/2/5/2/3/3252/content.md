@@ -83,7 +83,10 @@ $$
 
 * [[stabilizer subgroup]]
 
+* [[conjugate subgroup]]
+
 * [[congruence subgroup]]
+
 
 ## Related concepts
 
