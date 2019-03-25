@@ -196,6 +196,33 @@ $\,$
 
 The [[coset space]] $G_2/SU(3)$ is the [[6-sphere]]. See there for pointers.
 
+
+### Supgroups
+
++-- {: .num_prop #QuotientOfSpin7ByG2IsS7}
+###### Proposition
+**([[coset space]] of [[Spin(7)]] by [[G2]] is [[7-sphere]])**
+
+Consider the canonical [[action]] of [[Spin(7)]] on the [[unit sphere]] in $\mathbb{R}^8$ (the [[7-sphere]]),
+
+1. This action is is [[transitive action|transitive]];
+
+1. the [[stabilizer group]] of any point on $S^7$ is [[G2]];
+
+1. all [[G2]]-subgroups of [[Spin(7)]] arise this way, and are all [[conjugate subgroup|conjugate]] to each other.
+
+Hence the [[coset space]] of [[Spin(7)]] by [[G2]] is the [[7-sphere]]
+
+$$
+  Spin(7)/G2 \;\simeq\; S^7
+  \,.
+$$
+
+=--
+
+(e.g [Varadarajan 01, Theorem 3](#Varadarajan01))
+
+
 ### Relation to higher prequantum geometry
 
 The 3-form $\omega$ from def. \ref{As2PlectomorphismsOnR7} we may regard as equipping $\mathbb{R}^7$ with [[n-plectic geometry|2-plectic structure]]. From this point of view $G_2$ is the linear subgroup of the [[2-plectomorphism group]], hence (up to the translations) the image of the [[Heisenberg group]] of $(\mathbb{R}^7, \omega)$ in the symplectomorphism group.
@@ -259,6 +286,11 @@ Discussion of [[subgroups]] includes
 * {#Ishiguro} Kenshi Ishiguro, _Classifying spaces and a subgroup of the exceptional Lie group $G_2$_ [pdf](http://hopf.math.purdue.edu/Ishiguro/G2.pdf)
 
 * {#Kramer02} Linus Kramer, 4.27 of _Homogeneous Spaces, Tits Buildings, and Isoparametric Hypersurfaces_, AMS 2002
+
+Discussion of $G_2$ as a subgroup of [[Spin(7)]]:
+
+* {#Varadarajan01} [[Veeravalli Varadarajan]], _Spin(7)-subgroups of SO(8) and Spin(8)_, Expositiones Mathematicae, 19 (2001): 163-177 ([pdf](https://core.ac.uk/download/pdf/81114499.pdf))
+
 
 ### Applications in physics
 
