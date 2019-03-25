@@ -51,17 +51,19 @@ This second construction yields the standard parameterization of the octonionic 
  
 ### $G_2$ action
 
-The [[automorphism group]] [[G2]] of the [[octonions]], as a [[normed algebra]], manifestly acts on the octonionic Hopf fibration.
+The [[automorphism group]] [[G2]] of the [[octonions]], as a [[normed algebra]], manifestly acts on the octonionic Hopf fibration, such that the latter is [[equivariant function|equivariant]].
 
 (see also [Cook-Crabb 93](#CookCrabb93))
 
 
 ### Spin(9) action
 
-The subgroup $Spin(9) \subset SO(16)$ acts transitively on the octonionic Hopf fibration, which can be consider as a homogeneous fibration
+The [[subgroup]] [[Spin(9)]] $\subset SO(16)$ acts transitively on the octonionic Hopf fibration, which can be consider as a homogeneous fibration
 
 $$
-\frac{Spin(9)}{Spin(7)} \stackrel{\frac{Spin(8)}{Spin(7)}}{\to} \frac{Spin(9)}{Spin(8)}.
+  \frac{Spin(9)}{Spin(7)} 
+  \stackrel{\frac{Spin(8)}{Spin(7)}}{\to}
+  \frac{Spin(9)}{Spin(8)}.
 $$
 
 ## Related concepts
