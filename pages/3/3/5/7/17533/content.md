@@ -26,6 +26,8 @@ The [[lattice]] of [[subgroups]] of a given [[group]].
 
 * [[lattice of subobjects]]
 
+* [[conjugacy class of subgroups]]
+
 ## References
 
 See also
