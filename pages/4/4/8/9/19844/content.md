@@ -68,7 +68,7 @@ The global tension with the standard model by end of 2018 has [[statistical sign
 
 If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18), [Zupan 19, 4.6](#Zupan19)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]].
 
-This situation was confirmed, if not further improved yet, with the data presented at Moriond 2019 ([Straub 19](#Straub19), [Allanach 19](#Allanach19)).
+This situation was confirmed, if not further improved yet, with the data presented at Moriond 2019 ([Straub 19](#Straub19), [Allanach 19](#Allanach19)). On the other hand, [Caria 19, slide 9](#Caria19) sees a previous 3.8$\sigma$ decrease to $3.1$.
 
 Moreover, it had been argued ([Lyons 13b](#Lyons13b), [Dorigo 15](#Dorigo15)) that due to the specific nature of the [[experiment]], the [[statistical significance]]-threshold for detection of anomalies in [[B meson]]-decays should not be taken to be $5 \sigma$, but just $3 \sigma$, hence well exceeded already by the experimental significance:
 
@@ -269,6 +269,8 @@ Original articles include:
 Cautionary remarks include
 
 * _[Some B Meson Decay Anomalies Disappear In Run-2 Data](http://dispatchesfromturtleisland.blogspot.com/2017/05/some-b-meson-decay-anomalies-disappear.html)_
+
+* {#Caria19} Giacomo Caria on behalf of the [[Belle collaboration]], _Measurement of $R(D)$ and $R(D^\ast)$ with a semileptonic tag at Belle_, Moriond, EW  22/03/2019 ([pdf](http://moriond.in2p3.fr/2019/EW/slides/6_Friday/3_YSF/1_gcaria_moriond2019.pdf))
 
 In contrast, an argument that the threshold [[statistical significance]] for flavour anomalies should be taken to be $3\sigma$ instead of $5 \sigma$ is made in
 
