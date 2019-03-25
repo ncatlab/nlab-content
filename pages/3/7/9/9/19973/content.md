@@ -12,3 +12,6 @@
 See also
 
 * Wikipedia, <a href="https://en.wikipedia.org/wiki/Flavour_(particle_physics)">Flavour (particle physcs)</a>
+
+
+[[!redirects flavour in particle physics]]
