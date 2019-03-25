@@ -13,7 +13,6 @@
 =--
 =--
 
-
 # Octonions
 * table of contents
 {: toc}
