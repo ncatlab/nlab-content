@@ -155,6 +155,7 @@ Regarding the conjugation action as the [[internal hom]] of actions immediately 
 
 * [[adjoint action]]
 
+* [[conjugate subgroup]]
 
 
 [[!redirects conjugation actions]]
