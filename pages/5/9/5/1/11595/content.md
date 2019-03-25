@@ -26,4 +26,4 @@ General:
 
 Models in [[string theory]] ([[F-theory]]):
 
-* {#Grimm14} Thomas Grimm, _Axion Inflation in F-theory_ ([arXiv:1404.4268](http://arxiv.org/abs/1404.4268))
+* {#Grimm14} [[Thomas Grimm]], _Axion Inflation in F-theory_ ([arXiv:1404.4268](http://arxiv.org/abs/1404.4268))
