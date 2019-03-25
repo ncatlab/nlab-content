@@ -32,10 +32,17 @@ The  [[fractional first Pontryagin class]] $\frac{p_1}{2} \in H^4(S^4) \simeq \m
 By using the [[connected sum]] operation, the set of smooth, non-diffeomorphic structures on the $n$-sphere has the structure of an [[abelian group]]. 
 For the [[7-sphere]], it is the [[cyclic group]] $Z/{28}$ and Brieskorn (1966) found the generator $\Sigma$ so that $\underbrace{\Sigma\#\cdots\#\Sigma}_28$ is the standard sphere.
 
-For review see for instance ([Kreck 10, chapter 19](#Kreck10), [McEnroe 15](#McEnroe15)). 
+For review see for instance ([Kreck 10, chapter 19](#Kreck10), [McEnroe 
+15](#McEnroe15)). 
+
+## Examples
+
+* [[Gromoll-Meyer sphere]]
 
 
-## As near-horizon geometries of black M2-branes
+## Properties
+
+### As near-horizon geometries of black M2-branes
  {#AsNearHorizonGeometriesOfBlackM2Branes}
 
 
@@ -43,11 +50,13 @@ From the point of view of [[M-theory on 8-manifolds]], these [[8-manifolds]] $X$
 
 ([Morrison-Plesser 99, section 3.2](#MorrisonPlesser99))
 
+
+
 ## References
 
 ### General
 
-* {#Kreck10} [[Matthias Kreck]], chapter 19 "Exotic 7-spheres" of  _Differential Algebraic Topology -- From Stratifolds to Exotic Spheres_, AMS 2010
+* {#Kreck10} [[Matthias Kreck]], chapter 19 of _Exotic 7-spheres_ of  _Differential Algebraic Topology -- From Stratifolds to Exotic Spheres_, AMS 2010
 
 * {#McEnroe15} Rachel McEnroe, _Milnor' construction of exotic 7-spheres_, 2015 ([pdf](http://math.uchicago.edu/~may/REU2015/REUPapers/McEnroe.pdf))
 
