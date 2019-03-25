@@ -95,7 +95,7 @@ One can also think of this as the top-level structure of the 4th [[oriental]]. T
 The above list shows that the first few Stasheff polytopes are nothing but the first few [[oriental]]s. This doesn't remain true as $n$ increases.
 The orientals are free **strict** [[omega-category|omega-categories]] on [[simplex]]es as parity complexes. This means that certain interchange cells (e.g., Gray tensorators) show up as thin in the oriental description. 
 
-The first place this happens is the sixth oriental: where there are three tensorator squares and six pentagons in Stasheff's $K_6$, the corresponding tensorator squares coming from $O(6)$ are collapsed. 
+The first place this happens is the sixth oriental: where there are three tensorator squares and six pentagons in Stasheff's $K_5$, the corresponding tensorator squares coming from $O(5)$ are collapsed. 
 
 It was when [[Todd Trimble]] made this point to [[Ross Street]] that Street began to think about using associahedra to define weak [[n-category|n-categories]].
 
