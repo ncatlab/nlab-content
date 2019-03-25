@@ -26,7 +26,7 @@ A _homotopy sphere_ is a [[topological space]] which need not be [[homeomorphism
 
 * Every [[smooth manifold]] homotopy-[[4-sphere]] is [[homeomorphism|homeomorphic]] to the actual [[4-sphere]].
 
-  (due to [[Michael Freedman]], see [Siebenmann](#Siebenmann))
+  (due to Michael Freedman, see [Siebenmann](#Siebenmann))
 
 ## Related concepts
 
