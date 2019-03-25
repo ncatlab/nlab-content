@@ -162,6 +162,8 @@ Consider the [[classifying space]], $B G$, of the group. Then its [[free loop sp
 
 * [[Pontryagin duality]], [[Pontryagin dual]]
 
+* [[conjugacy class of subgroups]]
+
 ## References
 
 Original articles on character rings/[[representation rings]] of [[compact Lie groups]] include
