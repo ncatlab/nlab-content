@@ -56,6 +56,7 @@ See also ([Geer-Katsura 03](#GeerKatsura03)).
 
 * [[supersymmetry and Calabi-Yau manifolds]]
 
+* [[heterotic string theory on CY3-manifolds]]
 
 ## Related concepts
 
