@@ -106,7 +106,7 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    L_{E(n-1)}X &\longrightarrow& L_{E(n-1)}L_{K(n-1)}X
+    L_{E(n-1)}X &\longrightarrow& L_{E(n-1)}L_{K(n)}X
   }
   \,,
 $$
@@ -120,7 +120,7 @@ where $L_{K(n)}$ denotes the [[Bousfield localization of spectra]] at $n$th [[Mo
 ### Bousfield equivalence class
  {#BousfieldEquivalenceClass}
 
-For all $n$, $E(n)$ is [[Bousfield equivalence|Bousfield equivalence]] to $E(n-1) \times K(n)$, where the last factor is $n$th [[Morava K-theory]].
+For all $n$, $E(n)$ is [[Bousfield equivalence|Bousfield equivalent]] to $E(n-1) \times K(n)$, where the last factor is $n$th [[Morava K-theory]].
 
 ([Lurie 10, lect. 23, prop. 1](#LurieLect23))
 
