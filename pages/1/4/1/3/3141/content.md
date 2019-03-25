@@ -50,7 +50,7 @@ The notion of a cograph of a profunctor generalizes to [[(∞,1)-category theory
 +-- {: .un_defn}
 ###### Definition
 
-For $C$ and $D$ two [[(∞,1)-categories]] an **correspondence** between them is an $(\infty,1)$-category $p : K \to \Delta[1]$ over the [[interval category]] $\Delta[1] = \{0 \to 1\}$ with an [[equivalence of (∞,1)-categories|equivalences]] $K_0 \simeq C$ and $K_1 \simeq D$.
+For $C$ and $D$ two [[(∞,1)-categories]] a **correspondence** between them is an $(\infty,1)$-category $p : K \to \Delta[1]$ over the [[interval category]] $\Delta[1] = \{0 \to 1\}$ with an [[equivalence of (∞,1)-categories|equivalences]] $K_0 \simeq C$ and $K_1 \simeq D$.
 
 =--
 
