@@ -309,9 +309,11 @@ Motivated by this the [[ordinary differential cohomology]] of self-dual fields h
 
 Discussion of the [[quantum anomaly]] of self-dual theories is in
 
-* Samuel Monnier, _The anomaly line bundle of the self-dual field theory_ ([arXiv:1109.2904](http://arxiv.org/abs/1109.2904))
+* Samuel Monnier, _The anomaly line bundle of the self-dual field theory_, Comm. Math. Phys. 325 (2014) 41-72 ([arXiv:1109.2904](http://arxiv.org/abs/1109.2904))
 
-* Samuel Monnier, _The global gravitational anomaly of the self-dual field theory_ ([arXiv:1110.4639](http://arxiv.org/abs/1110.4639), [pdf slides](http://www.physics.rutgers.edu/het/video/monnier11b.pdf))
+* Samuel Monnier, _The global gravitational anomaly of the self-dual field theory_, Comm. Math. Phys. 325 (2014) 73-104 ([arXiv:1110.4639](http://arxiv.org/abs/1110.4639), [pdf slides](http://www.physics.rutgers.edu/het/video/monnier11b.pdf))
+
+(see also at [[M5-brane]] the [References on anomaly cancellation](M5-brane#ReferencesAnomalyCancellation)).
 
 Discussion of the [[conformal blocks]] and [[geometric quantization]] of self-dual higher gauge theories is in 
 
