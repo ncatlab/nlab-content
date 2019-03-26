@@ -213,6 +213,8 @@ See
 
 ## References
 
+* {#Iliopoulos16} [[John Iliopoulos]], _The making of the standard theory_, Adv.Ser.Direct.High Energy Phys. 26 (2016) 29-59 ([spire:1497884](http://inspirehep.net/record/1497884), [pdf](http://cds.cern.ch/record/2217096/files/9789814733519_0002.pdf))
+
 Textbook accounts include
 
 * W. Noel Cottingham, ; Derek A. Greenwood, _An introduction to the standard model of particle physics_, Cambridge University Press 2012 ([doi:10.1017/CBO9780511791406 ](   https://doi.org/10.1017/CBO9780511791406 ), [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1126.81002&format=complete))
