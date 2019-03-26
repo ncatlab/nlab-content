@@ -485,7 +485,7 @@ pages 43-56, 1994.
 
 * {#Lawvere96} [[William Lawvere]],  _[[Unity and Identity of Opposites in Calculus and Physics]]_,  Proceedings of ECCT 1994 Tours Conference,  Applied Categorical Structures, 4: 167-174 Kluwer Academic Publishers, (1996).
 
-* {#Lawvere00} [[F. W. Lawvere]], _Adjoint Cylinders_, message to catlist November 2000. ([link](http://permalink.gmane.org/gmane.science.mathematics.categories/1683))
+* {#Lawvere00} [[F. W. Lawvere]], _Adjoint Cylinders_, message to catlist November 2000. ([link](https://www.mta.ca/~cat-dist/archive/2000/00-11))
 
 
 
