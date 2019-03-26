@@ -200,7 +200,7 @@ Enriched semicategory theory is developed in
 
 This is turned one notch further in
 
-* {#Stubbe05}[[Isar Stubbe]], _Categorical structures enriched in a quantaloid : regular presheaves, regular semicategories_ , Cah. Top. G&#233;om. Diff. Cat. **XLVI** no.2 (2005) pp.99-121. ([numdam](http://www.numdam.org/item/CTGDC_2005__46_2_99_0)
+* {#Stubbe05}[[Isar Stubbe]], _Categorical structures enriched in a quantaloid : regular presheaves, regular semicategories_ , Cah. Top. G&#233;om. Diff. Cat. **XLVI** no.2 (2005) pp.99-121. ([numdam](http://www.numdam.org/item/CTGDC_2005__46_2_99_0))
 
 Semicategories and semigroups are mentioned in section 2 in
 
