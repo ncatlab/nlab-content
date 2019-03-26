@@ -50,6 +50,8 @@ $$ \bigcup_i U_i = U .$$
     \,.
   $$
 
+* The category $Op(X)$ is also a [[suplattice]].
+
 
 ## Related concepts
 
