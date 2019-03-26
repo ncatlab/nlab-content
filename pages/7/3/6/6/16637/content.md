@@ -77,7 +77,7 @@ $$
 
 Other coset realizations of the usual [[differentiable manifold|differentiable]] 7-sphere ([Choquet-Bruhat, DeWitt-Morette 00, p. 288](#Choquet-Bruhat+DeWitt-Morette00)):
 
-* $S^7 \simeq_{diff} $ [[Spin(6)]]$/SU(3) \simeq_{iso} SU(4)/SU(3)$ 
+* $S^7 \simeq_{diff} $ [[Spin(6)]]$/SU(3) \simeq_{iso} SU(4)/SU(3)$ (by [this Prop.](sphere#OddDimSphereAsSpecialUnitaryCoset));
 
 * $S^7 \simeq_{diff}  Spin(5)/SU(2)$ ([Awada-Duff-Pope 83](#AwadaDuffPope83), [Duff-Nilsson-Pope 83](#DuffNilssonPope83))
 
