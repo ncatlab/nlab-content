@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -47,7 +46,8 @@ $$
 
 Here the idea is that $S^7$ can be construed as $\{(x, y) \in \mathbb{H}^2: {|x|}^2 + {|y|}^2 = 1\}$, with $p$ mapping $(x, y)$ to $x/y$ as an element in the [[projective line]] $\mathbb{P}^1(\mathbb{H}) \cong S^4$, with each [[fiber]] a [[torsor]] parametrized by quaternionic [[scalars]] $\lambda$ of unit [[norm]] (so $\lambda \in S^3$).  This canonical $S^3$-bundle (or $SU(2)$-bundle) is classified by a map $S^4 \to \mathbf{B} SU(2)$. 
 
-## Subgroups
+### Coset space realizations
+ {#CosetSpaceRealization}
 
 +-- {: .num_prop #QuotientOfSpin7ByG2IsS7}
 ###### Proposition
@@ -64,7 +64,9 @@ Consider the canonical [[action]] of [[Spin(7)]] on the [[unit sphere]] in $\mat
 Hence the [[coset space]] of [[Spin(7)]] by [[G2]] is the [[7-sphere]]
 
 $$
-  Spin(7)/G_2 \;\simeq\; S^7
+  S^7
+  \;\simeq_{diff}\;
+  Spin(7)/G_2
   \,.
 $$
 
@@ -72,6 +74,19 @@ $$
 
 (e.g [Varadarajan 01, Theorem 3](#Varadarajan01))
 
+
+Other coset realizations of the usual [[differentiable manifold|differentiable]] 7-sphere ([Choquet-Bruhat, DeWitt-Morette 00, p. 288](#Choquet-Bruhat+DeWitt-Morette00)):
+
+* $S^7 \simeq_{diff} $ [[Spin(6)]]$/SU(3) \simeq_{iso} SU(4)/SU(3)$ 
+
+* $S^7 \simeq_{diff}  Spin(5)/SU(2)$ ([Awada-Duff-Pope 83](#AwadaDuffPope83), [Duff-Nilsson-Pope 83](#DuffNilssonPope83))
+
+The following gives an [[exotic 7-sphere]]:
+
+* $S^7 \simeq_{homeo} Sp(1)\backslash Sp(2)/Sp(1)$ ([[Gromoll-Meyer sphere]])
+
+
+\linebreak
 
 ### Exotic 7-spheres
 
@@ -194,6 +209,15 @@ Discussion of (nearly) [[G2-structures]] on $S^7$ and [[calibrated submanifolds]
 
 * {#Lotay12} [[Jason Lotay]], _Associative Submanifolds of the 7-Sphere_, Proc. London Math. Soc. (2012) 105 (6): 1183-1214 ([arXiv:1006.0361](http://arxiv.org/abs/1006.0361), [talk slides](http://www.homepages.ucl.ac.uk/~ucahjdl/JDLotay_KIAS2011_slides.pdf))
  
+On [[coset]]-realizations:
+
+* {#Kramer98} Linus Kramer, _Octonion Hermitian quadrangles_, Bull. Belg. Math. Soc. Simon Stevin Volume 5, Number 2/3 (1998), 353-362 ([euclid:1103409015](https://projecteuclid.org/euclid.bbms/1103409015))
+
+* {#Choquet-Bruhat+DeWitt-Morette00} Y. Choquet-Bruhat, C. DeWitt-Morette, _Analysis, Manifolds and Physics Part II_, North Holland 2000
+
+* {#AwadaDuffPope83} M. A. Awada, [[Mike Duff]], [[Christopher Pope]], _$N=8$ Supergravity Breaks Down to $N=1$_, Phys. Rev. Lett. 50, 294 – Published 31 January 1983 ([doi:10.1103/PhysRevLett.50.294](https://doi.org/10.1103/PhysRevLett.50.294))
+
+* {#DuffNilssonPope83} [[Mike Duff]], [[Bengt Nilsson]], [[Christopher Pope]], _Spontaneous Supersymmetry Breaking by the Squashed Seven-Sphere_, Phys. Rev. Lett. 50, 2043 – Published 27 June 1983; Erratum Phys. Rev. Lett. 51, 846  ([doi:10.1103/PhysRevLett.50.2043](https://doi.org/10.1103/PhysRevLett.50.2043))
 
 [[!redirects 7-spheres]]
 
