@@ -24,7 +24,7 @@ The concept generalises immediately to [[enriched category|enriched categories]]
 
 ## Definitions
 
-Given [[partial order|posets]] (or [[preorder|proset]]s) $C$ and $D$ and a monotone function $U: C \to D$, a __left adjoint__ of $U$ is a monotone function $F: D \to C$ such that
+Given [[partial order|posets]] (or [[preorder|proset]]s) $C$ and $D$ and a monotone function $U: C \to D$, a __left adjoint__ of $U$ is a [[monotone function]] $F: D \to C$ such that
 $$ F(x) \leq y \;\Leftrightarrow\; x \leq U(y) $$
 for all $x$ in $D$ and $y$ in $C$.
 
