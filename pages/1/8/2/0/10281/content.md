@@ -39,6 +39,10 @@ on [[bosonic string theory]]
 
 on [[superstring theory]] and [[M-theory]].
 
+See also at _[[string theory FAQ]]_
+
+\linebreak
+
 #Contents#
 * table of contents
 {:toc}
