@@ -31,6 +31,8 @@ on the concept of [[D-branes]] in  [[mathematical physics]] and [[mathematics]].
 
 Related:
 
-* G. Moore, _[[Physical Mathematics and the Future]]_, 2014
+* Greg Moore, _[[Physical Mathematics and the Future]]_, 2014
+
+See also the _[[string theory FAQ]]_
 
 category: reference
