@@ -1,4 +1,4 @@
-In [[model theory]] abstract elementary classes are a vast generalizations of [[elementary classes]] of [[structure in model theory|structures]] beyond first-order theories (e.g. for the infinitary logic $L_{\omega_1,\omega}$) as introduced by [[Saharon Shelah]]. Its theory is also more general than the homogeneous model theory. 
+In [[model theory]] abstract elementary classes are a vast generalizations of [[elementary classes]] of [[structure in model theory|structures]] beyond [[first-order theory|first-order theories]] (e.g. for the infinitary logic $L_{\omega_1,\omega}$) as introduced by [[Saharon Shelah]]. Its theory is also more general than the homogeneous model theory. 
 
 An __abstract elementary class__ is a __nonempty__ class $K$ of structures for a given signature with language $L(K)$, that is closed under [[isomorphisms]] and equipped with a strong substructure relation $\prec_K$ (strong substructure relation means that if $M\prec_K N$ and $M_0\subset M$ is a substructure, then $M_0 \prec_K N$) that is a [[partial order]] satisfying the axioms on union of chains (Tarski-Vaught), coherence and downward Loewenheim-Skolem properties. More precisely, $\prec_K$ is a partial order such that 
 
@@ -34,7 +34,7 @@ AECs can also be essentially identified with [[accessible categories]] in which 
 
 * Michael Lieberman, Jiří Rosický, Sebastien Vasey, *Internal sizes in μ-abstract elementary classes*, [arxiv](https://arxiv.org/abs/1708.06782)
 
-* Michael Lieberman, Jiří Rosický, Sebastien Vasey , *Set-theoretic aspects of accessible categories*, [arxiv](https://arxiv.org/abs/1902.06777)
+* Michael Lieberman, Jiří Rosický, Sebastien Vasey, *Set-theoretic aspects of accessible categories*, [arxiv](https://arxiv.org/abs/1902.06777)
 
 * M. J. Lieberman, _Topological and category-theoretic aspects of abstract elementary classes_, Thesis, The University of Michigan 2009, [pdf](http://deepblue.lib.umich.edu/bitstream/2027.42/63854/1/liebermm_1.pdf); defense slides [pdf](http://www.math.upenn.edu/~mlieb/defense.pdf); _Category theoretic aspects of abstract elementary classes_, Annals Pure Appl. Logic __162__ (2011), 903-915; _A topology for Galois types in AECs_, [arxiv/0906.3573](http://arxiv.org/abs/0906.3573)
 
