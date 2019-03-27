@@ -20,11 +20,11 @@ Let $P$ be a poset. We say that another poset $Q$ has the same **order type** as
 $P\sim Q\iff \exists f:P\cong Q\in {Hom}_{Pos}$,
 \end{centre}
 
-and we define the order type of $P$, denoted $ot(P)$, to be either the equivalence class $\sim/P$ or an arbitrary representative of the equivalence class $\sim/P$ depending on context.
+and we define the **order type** of $P$, denoted $ot(P)$, to be either the equivalence class $\sim/P$ or an arbitrary representative of the equivalence class $\sim/P$ depending on context.
 
 ### Examples
 
-We have that $ot(\alpha)\cong\alpha$ in **Pos** for each ordinal $\alpha$ by definition, and further the order type of any well-ordered sets 'is' the ordinal one would expect (up to iso):
+We have that $ot(\alpha)\cong\alpha$ in **Pos** for each ordinal $\alpha$ by definition, and further the order type of any well-ordered set 'is' the ordinal one would expect (up to iso):
 
 $$ot(\{0,1,4,5\})\cong4,$$ 
 
@@ -35,6 +35,18 @@ $$\vdots$$
 For well-ordered posets it seems natural to take the order type to be the ordinal representative of the equivalence class, yielding the literal equalities in the idea section above, however this is not strictly necessary.
 
 The order type of the negative integers is denoted by $^*\omega$ and the order type of the rationals is denoted by $\eta$, and neither of these order types have representatives in the ordinals since they aren't well-ordered.
+
+#### Discussion
+
+The notion of cardinality for a set $X$ can be defined using the bijection equivalence relation $\sim$ in **Set**
+\begin{centre}
+$X\sim Y\iff \exists f:X\cong Y\in Hom_{Set}$,
+\end{centre}
+so $|X|$ is the [[cardinal number]] member of the equivalence class of all sets in bijection with $X$. Since all sets are in bijection with some cardinal number (assuming the [[axiom of foundation]]) and cardinal numbers are just particular ordinals we do not encounter the phenomenon above where some equivalence classes don't have ordinal representatives. 
+
+The order type equivalence relation $\sim$ in **Pos** above is a finer parsing of the universe of partially ordered sets which doesn't admit an ordinal in each of its equivalence classes, and each ordinal defines its own unique equivalence class under this relation instead of only the cardinal numbers as with the bijection equivalence relation. 
+
+The increased 'fineness' of this parsing can be attributed to the fact that we effectively restricted the iso equivalence relation in **Set** to the subcategory **Pos** where there are fewer isos between objects and thusly more equivalence classes. This suggests that we might move to a subcategory of **Pos** and look at the iso equivalence relation there to find invariants of those objects which are finer than their order type but still comparatively simple, so on and so forth.
 
 ## References 
 
