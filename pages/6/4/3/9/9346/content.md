@@ -638,4 +638,11 @@ Textbooks on [[string theory]] and [[M-theory]] include the following (for more 
 
   Morgan & Claypool, 2017 (<a href="http://iopscience.iop.org/book/978-1-6817-4489-6">doi:0.1088/978-1-6817-4489-6</a>)
 
+  (on [[M-theory on G2-manifolds]] and the [[G2-MSSM]])
+
+History:
+
+* {#Schwarz16} [[John Schwarz]], _String Theory in the Twentieth Century_, talk at [Strings 2016](http://ymsc.tsinghua.edu.cn:8090/strings/) ([pdf](http://ymsc.tsinghua.edu.cn:8090/strings/slides/8.1/Schwarz.pdf))
+
+
 \linebreak
