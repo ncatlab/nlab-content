@@ -144,6 +144,9 @@ but more generally there are fracture squares for the [[coproduct]] homology the
 
 * [General fracture squares](#GeneralFractureSquares)
 
+
+> warning: a condition missing in the following, see the comment section of [this MO reply](https://mathoverflow.net/a/91057/381). Somebody should add the relevant clause here...
+
 #### The arithmetic fracture square for spectra
  {#TheArithmeticFractureSquare}
 
@@ -737,6 +740,7 @@ This and further generalization is in
 See also
 
 * [[John Greenlees]], _Tate cohomology in axiomatic stable homotopy theory_ ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.490.322&rep=rep1&type=pdf))
+
 
 [[!redirects fracture theorems]]
 
