@@ -213,6 +213,10 @@ These are _regular_ coadjoint orbits for $r \gt 0$.
 
 =--
 
+### $SU(3)$
+
+* [[SU(3)]]
+
 ### $SU(4)$
  {#SU4}
 
@@ -221,9 +225,7 @@ These are _regular_ coadjoint orbits for $r \gt 0$.
 
 There is an [[isomorphism]] of [[Lie groups]]
 
-$$
-  SU(4) \simeq Spin(6)
-$$
+[[SU(4)]] $\simeq$ [[Spin(6)]]
 
 with the [[spin group]] in [[dimension]] 6.
 
