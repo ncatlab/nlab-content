@@ -545,7 +545,7 @@ $$
   }
 $$
 
-where $[F,-]$ and $T \wedge (-) \colon Spectra \to Spectra$ are [[idempotent (∞,1)-monads]] and $[T,-]$, $[F,-]$ are idempotent $\infty$-comonad, the diagonals are [[homotopy fiber sequences]].
+where $[F,-]$ and $T \wedge (-) \colon Spectra \to Spectra$ are [[idempotent (∞,1)-monads]] and $[T,-]$, $F \wedge (-)$ are idempotent $\infty$-comonads, the diagonals are [[homotopy fiber sequences]].
 
 =--
 
