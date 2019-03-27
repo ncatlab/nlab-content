@@ -1,31 +1,51 @@
 
-$$
-  \kappa^\ast
-  \;\colon\;
-  \left\lbrace
-    \array{
-      p_1 &\mapsto& p_1
-      \\
-      p_2 &\mapsto& p_2
-      \\
-      \chi &\mapsto& 
-  \tfrac{1}{4}
-  \Big(
-    p_2
-    -
-    \big(
-      \tfrac{1}{2}
-      (p_1)^2
-    \big)
-  \Big)
-  -
-  \tfrac{1}{2}
-  \chi
+\begin{xymatrix}
+    \mathrm{SU}(2)
+    \ar@{^{(}->}[r]
+    \ar@{^{(}->}[d]
+    \ar@{}[dr]|-{
+      \mbox{
+        \tiny
+        (pb)
+      }
     }
-  \right.
-$$
+    &
+    \mathrm{SU}(3)
+    \ar@{^{(}->}[r]
+    \ar@{^{(}->}[d]
+    \ar@{}[dr]|-{
+      \mbox{
+        \tiny
+        (pb)
+      }
+    }
+    &
+    \mathrm{G}_2
+    \ar@{^{(}->}[r]
+    \ar@{^{(}->}[d]
+    \ar@{}[dr]|-{
+      \mbox{
+        \tiny
+        (pb)
+      }
+    }
+    &
+    \mathrm{Spin}(7)
+    \ar@{^{(}->}[d]
+    \\
+    \mathrm{Spin}(5)
+    \ar@{^{(}->}[r]
+    &
+    \mathrm{Spin}(6)
+    \ar@{^{(}->}[r]
+    &
+    \mathrm{Spin}(7)
+    \ar@{^{(}->}[r]
+    &
+    \mathrm{Spin}(8)
+\end{xymatrix}
 
-$\,$
+
 
 $\,$
 
