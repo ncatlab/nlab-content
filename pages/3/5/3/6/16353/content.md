@@ -39,7 +39,7 @@ $$
   \,.
 $$
 
-This means that $D_v \;\colon\; C^\infty(C) \to C^\infty(X)$ is a _[[derivation]]_ on the algebra of smooth functions.
+This means that $D_v \;\colon\; C^\infty(X) \to C^\infty(X)$ is a _[[derivation]]_ on the algebra of smooth functions.
 
 Remarkably, _all_ derivations on $C^\infty(X)$ arise this way, and for a unique vector field $v \in \Gamma_X(T X)$:
 
