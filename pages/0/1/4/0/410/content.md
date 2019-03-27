@@ -94,6 +94,7 @@ A general way to construct free functors is with a [[transfinite construction of
 [[!redirects free functors]]
 [[!redirects free construction]]
 [[!redirects free constructions]]
+[[!redirects freely generated]]
 [[!redirects free]]
 
 [[!redirects cofree functor]]
