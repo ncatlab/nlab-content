@@ -139,11 +139,11 @@ This is with [[BrownAHT]] among the first proposals for models for [[∞-stack]]
 
 A discussion can be found in
 
-* [[Sjoerd Crans]], _Quillen closed model structure for sheaves_,  J. Pure Appl. Algebra  101 (1995), 35-57 ([web](http://home.tiscali.nl/secrans/papers/thcms.html))
+* [[Sjoerd Crans]], _Quillen closed model structure for sheaves_,  J. Pure Appl. Algebra  101 (1995), 35-57 ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/Crans.pdf))
 
 Jardine's lectures
 
-* {#Jardine} [[John Frederick Jardine]], _Field Lectures: Simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
+* {#Jardine} [[John Frederick Jardine]], _Field Lectures: Simplicial presheaves_ ([pdf](https://www.uwo.ca/math/faculty/jardine/courses/fields/fields-01.pdf))
 
 
 discuss the Quillen equivalence between the model structure on simplicial sheaves and the [[model structure on simplicial presheaves]].
