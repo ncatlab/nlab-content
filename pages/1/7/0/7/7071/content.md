@@ -59,6 +59,8 @@ If the $(n,r)$-category has sufficient [[familial regularity and exactness|exact
 
 ## Related concepts
 
+* [[n-truncated object of an (∞,1)-category]]
+
 * [[n-truncation modality]]
 
 [[!redirects truncated]]
