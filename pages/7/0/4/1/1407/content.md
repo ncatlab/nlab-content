@@ -316,15 +316,70 @@ For more see
 
 ## References
 
-### Survey and introduction
+### General
+
+Textbooks on [[string theory]] and [[M-theory]] include the following (for more see at _[[books about string theory]]_):
+
+* [[Mike Duff]]
+
+  _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and $M$-theory_, 
+
+  IoP 1999 ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
+
+* {#Polchinski01} [[Joseph Polchinski]], _[[String theory]]_, Cambridge Monographs on Mathematical Physics (2001)
+
+* [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  
+
+  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+* [[Michael Douglas]], [[Elias Kiritsis]] et. al. (eds.), 
+
+  _[[String theory and the real world]]_, 
+
+  Les Houches  Session LXXXVII 2007
+
+* [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ ,Proceedings of Symposia in Pure Mathematics, [volume 83](http://www.ams.org/bookstore?fn=20&arg1=pspumseries&ikey=PSPUM-83) AMS (2011)
+
+* [[Luis Ibáñez]], [[Angel Uranga]], 
+
+  _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, 
+
+  Cambridge University Press 2012
+
+* {#West12} [[Peter West]], 
+
+  _[[Introduction to Strings and Branes]]_, 
+
+  Cambridge University Press 2012
+
+* [[Gregory Moore]],
+
+  _[[The Impact of D-Branes on Mathematics]]_,
+
+  talk at [PolchinskiFest 2014](http://online.kitp.ucsb.edu/online/joefest-c14/) ([pdf](http://www.physics.rutgers.edu/~gmoore/JOEFEST-THOUGHTS.pdf))
+
+* {#Moore14} [[Gregory Moore]],
+
+  _[[Physical Mathematics and the Future]]_
+
+  talk at [Strings 2014](http://physics.princeton.edu/strings2014/) ([talk slides](http://physics.princeton.edu/strings2014/slides/Moore.pdf), [companion text pdf](http://www.physics.rutgers.edu/~gmoore/PhysicalMathematicsAndFuture.pdf), [[MooreVisionTalk2014.pdf:file]])
+
+
+
+* {#Kane17} [[Gordon Kane]], 
+
+  _String theory and the real world_, 
+
+  Morgan & Claypool, 2017 (<a href="http://iopscience.iop.org/book/978-1-6817-4489-6">doi:0.1088/978-1-6817-4489-6</a>)
+
+
+  (on [[M-theory on G2-manifolds]] and the [[G2-MSSM]])
+
 
 A large body of references is organized at the
 
 * [String Theory Wiki](http://www.stringwiki.org/w/index.php?title=String_Theory_Wiki)
 
-For another list of literature see the entry
-
-* [[books about string theory]].
 
 A quick survey of the big picture as of 2016 is in 
 
@@ -334,21 +389,35 @@ A useful survey of the status of string theory as a theory of [[quantum gravity]
 
 * [[Matthias Blau]], _String theory as a theory of quantum gravity -- A status report_ Talk at _[Quantum theory and Gravitation](http://www.conferences.itp.phys.ethz.ch/doku.php?id=qg11:programme)_ Z&#252;rich (2011) ([pdf](http://www.conferences.itp.phys.ethz.ch/lib/exe/fetch.php?media=qg11:zurichblau.pdf))
 
-Some reflections on the [[mathematical physics]] involved in string theory are in
-
-* [[Gregory Moore]], _[[Physical Mathematics and the Future]]_ (2014)
-
 
 An article summarizing information about [[cohomology|cohomological]] models for aspects of string theory and listing plenty of useful further references is
 
 * [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_
 
-A book trying to summarize the state of the art of capturing mathematical structures fundamental to the definition of perturbative string theory is
+### Higher structures
 
-* [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
+Discussion from the [[nPOV]]/[[schreiber:Higher Structures]]:
+
+* [[Branislav Jurco]], [[Christian Saemann]], [[Urs Schreiber]], [[Martin Wolf]], 
+
+   _Higher Structures in M-Theory_, 
+
+   Introduction to _[Higher Structures in M-Theory, LMS-EPSRC Durham Symposium, August 2018](http://www.maths.dur.ac.uk/lms/109/index.html)_, Fortsch. d. Phys. 2019 ([arXiv:1903.02807](https://arxiv.org/abs/1903.02807))
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], 
+  
+   _[[schreiber:The rational higher structure of M-theory]]_ 
+
+   in _Proceedings of the [LMS-EPSRC Durham Symposium](http://www.maths.dur.ac.uk/lms/) _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html), August 2018, Fortschritte der Physik, 2019 ([arXiv:1903.02834](https://arxiv.org/abs/1903.02834))
+
+* [[Urs Schreiber]], 
+
+  _[[schreiber:Introduction to Higher Supergeometry]]_
+
+  Lectures at _[Higher Structures in M-Theory, LMS-EPSRC Durham Symposium, August 2018](http://www.maths.dur.ac.uk/lms/109/index.html)_
 
 
-### Technical details
+### More technical details
 
 #### GUT
 
@@ -424,9 +493,6 @@ In ([Madsen 07](Mumford+conjecture#Madsen07)) it says with respect to the [[proo
 
 > These tools $[$ used in the proof $]$ are all rather old, known for at least twenty years, and one may wonder why they have not before been put to use in connection with the Riemann moduli space. Maybe we lacked the inspiration that comes from the renewed interaction with physics, exemplified in conformal field theories.
 
-See also
-
-* [[Gregory Moore]], _[[The Impact of D-Branes on Mathematics]]_ (2014)
 
 ### History
  {#ReferencesHistory}
@@ -440,4 +506,5 @@ See also
 [[!redirects superstring theories]]
 
 [[!redirects perturbative string theory]]
+
 
