@@ -230,6 +230,8 @@ The [[finite subgroup of SU(2)]] have an [[ADE classification]]. See [this theor
 
 * [[Euler angles]]
 
+* [[SU(3)]], [[SU(4)]]
+
 [[!include low dimensional rotation groups -- table]]
 
 
