@@ -30,6 +30,8 @@ on [[homotopy theory]], [[higher algebra]] and [[higher category theory]].
 
 * [[Kirsten Wickelgren]], [[Ben Williams]], _Unstable Motivic Homotopy Theory_, ([arXiv: 1902.08857](https://arxiv.org/abs/1902.08857))
 
+* [[David Ayala]], [[John Francis]], _A factorization homology primer_, ([arXiv: 1903.10961](https://arxiv.org/abs/1903.10961))
+
 * ...
 
 ## Related entries
