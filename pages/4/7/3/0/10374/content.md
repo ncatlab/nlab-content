@@ -382,7 +382,7 @@ Hence the [[interacting field observable]]-version $\mathcal{R}^{-1}(div\mathbf{
 
 Named after _[[John Clive Ward]]_.
 
-Discussion in the rigorous context of [[relativistic field theory|relativistic]] [[perturbative quantum field theory]] formulated via [[causal perturbation theory]]/[[perturbative AQFT]] is in
+Discussion of the [[master Ward identity]] in the rigorous context of [[relativistic field theory|relativistic]] [[perturbative quantum field theory]] formulated via [[causal perturbation theory]]/[[perturbative AQFT]] is in
 
 * {#DuetschBoas02} [[Michael Dütsch]], F.-M. Boas, _The Master Ward Identity_, Rev. Math. Phys 14, (2002) 977-1049 ([pdf](http://cds.cern.ch/record/526377/files/0111101.pdf))
 
