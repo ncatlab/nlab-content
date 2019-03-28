@@ -43,6 +43,9 @@ Attempt to explain the [[flavour anomalies]] with right-handed neutrinos:
 
 * Carlo Marzo, Luca Marzola, Martti Raidal, _Common explanation to the $R_{K^{(\ast)}}$, $R_{K^{(\ast)}}$ and $\epsilon'/\epsilon$ anomalies in a 3HDM+$\nu_R$ and connections to neutrino physics_ ([arXiv:1901.08290](https://arxiv.org/abs/1901.08290))
 
+* Luigi Delle Rose, Shaaban Khalil, Simon J.D. King, Stefano Moretti, _$R_K$ and $R_{K^\ast}$ in an Aligned 2HDM with Right-Handed Neutrinos_ ([arXiv:1903.11146](https://arxiv.org/abs/1903.11146))
+
+
 [[!redirects right-handed neutrinos]]
 
 [[!redirects sterile neutrino]]
