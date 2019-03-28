@@ -145,6 +145,7 @@ Other possible [[model (in theoretical physics)|models]] besides [[leptoquarks]]
 
   ([Marzocca 18](#Marzocca18))
 
+
 * [[dark matter]] 
 
   ([Baek 19](#Baek19), [CCMRM 19](#CCMRM19))
@@ -384,6 +385,9 @@ and as possible explanation also of the anomalies seen in the [[ANITA experiment
 [[right-handed neutrino]]:
 
 * {#MMR19} Carlo Marzo, Luca Marzola, Martti Raidal, _Common explanation to the $R_{K^{(\ast)}}$, $R_{K^{(\ast)}}$ and $\epsilon'/\epsilon$ anomalies in a 3HDM+$\nu_R$ and connections to neutrino physics_ ([arXiv:1901.08290](https://arxiv.org/abs/1901.08290))
+
+* Luigi Delle Rose, Shaaban Khalil, Simon J.D. King, Stefano Moretti, _$R_K$ and $R_{K^\ast}$ in an Aligned 2HDM with Right-Handed Neutrinos_ ([arXiv:1903.11146](https://arxiv.org/abs/1903.11146))
+
 
 [[Z'-boson]]:
 
