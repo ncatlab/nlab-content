@@ -38,7 +38,7 @@ Let $\mathcal{S}$ be a [[small category]]. A _system of local epimorphisms_ on t
 
 **LE3** if the [[composition|composite]] $A_1 \stackrel{u}{\to} A_2 \stackrel{v}{\to} A_3$ is a local epimorphism, then so is $v$;
 
-**LE4** a morphism $u \colon A \to B$ is a local epimorphism precisely if for all $U \in S$ (regarded as a [[representable presheaf]]) and morphisms $y: U \to B$, the [[pullback]] morphism $A \times_B U \to U$ is a local epimorphism.
+**LE4** a morphism $u \colon A \to B$ is a local epimorphism precisely if for all $U \in \mathcal{S}$ (regarded as a [[representable presheaf]]) and morphisms $y: U \to B$, the [[pullback]] morphism $A \times_B U \to U$ is a local epimorphism.
 
 =--
 
