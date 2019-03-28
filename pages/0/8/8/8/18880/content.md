@@ -23,7 +23,7 @@ This page collects material related to the textbook
 
 which is an introductory textbook on [[perturbative quantum field theory]] in its mathematically precise formulation known as _[[perturbative algebraic quantum field theory]]_, based on [[causal perturbation theory]].
 
-The book amplifies the axiomatization of [[retarded products]] over the (equivalent) [[time-ordered products]].
+The book amplifies the axiomatization of [[retarded products]] over the (equivalent) [[time-ordered products]] and includes a special focus on [[master Ward identities]].
 
 ## Related textbooks
 
@@ -33,5 +33,6 @@ The book amplifies the axiomatization of [[retarded products]] over the (equival
 
 * {#Rejzner16} [[Katarzyna Rejzner]], _[[Perturbative Algebraic Quantum Field Theory]]_, Mathematical Physics Studies, Springer 2016 ([web](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
 
+* [[Urs Schreiber]], _[[geometry of physics -- perturbative quantum field theory|Perturbative Quantum Field Theory]]_ (2017)
 
 category: reference
