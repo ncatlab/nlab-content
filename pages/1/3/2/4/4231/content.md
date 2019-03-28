@@ -13,7 +13,8 @@
 * table of contents
 {:toc}
 
-
+##Idea
+In [[Pursuing Stacks]], [[Grothendieck]] introduced the idea of a test category. These are by definition small categories on which the presheaves of sets are models for homotopy types of CW-complexes, thus generalising the situation for the category of simplices, for which the category of presheaves is that of [[simplicial sets]]. The resulting theory was completed and generalised by Cisinki.
 
 ## General
 
@@ -554,7 +555,7 @@ For $J$ an elementary homotopical datum on $PSh(A)$, a **[[class]] of [[anodyne 
 
    (by [[Joyal-Tierney calculus]] to be thought of as "$(K \to L) \bar \otimes (\{e\} \to I)$")   
 
-   are in $AnAxt$, for $e \in \{0,1\}$;
+   are in $AnExt$, for $e \in \{0,1\}$;
 
 1. if $K \to L$ is in $AnExt$, then so is
 
@@ -1462,7 +1463,7 @@ We list lemmas to show prop. \ref{ConditionsForCompleteness}.
 ### Localizers
  {#ALocalizers}
 
-Let still $A$ be a [[small category]] and write $PSh(A)$ for its [[category of presheaves]].
+Continuing to let $A$ be a [[small category]], write $PSh(A)$ for its [[category of presheaves]].
 
 +-- {: .num_defn #ALocalizer}
 ###### Definition
@@ -1552,6 +1553,7 @@ See ([Ara, p. 9](#Ara)).
 * The [[model structure on dendroidal sets]] is not exactly a Cisinki model structure, but is [[transferred model structure|transferred]] from one that is.
 
 * For any small category $A$, the homotopical datum (Definition \ref{DefinitionHomotopicalDatum}) given by the $(J, \emptyset)$, where $J$ is the Lawvere cylinder (Definition \ref{LawvereCylinder}), generates a Cisinki model structure on the category of presheaves on $A$. This is sometimes known as the [[minimal Cisinski model structure]]. See also Theorem \ref{TheoremCharacterisationOfAccessibleLocalisersForPresheafCategories}.
+
 
 ## Properties
 
