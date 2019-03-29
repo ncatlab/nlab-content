@@ -42,11 +42,11 @@ The notion of cardinality for a set $X$ can be defined using the bijection equiv
 \begin{centre}
 $X\sim Y\iff \exists f:X\cong Y\in Hom_{Set}$,
 \end{centre}
-so $|X|$ is the [[cardinal number]] member of the equivalence class of all sets in bijection with $X$. Since all sets are in bijection with some cardinal number (assuming the [[axiom of foundation]]) and cardinal numbers are just particular ordinals we do not encounter the phenomenon above where some equivalence classes don't have ordinal representatives. 
+so $|X|$ is the [[cardinal number]] member of the equivalence class of all sets in bijection with $X$. Since all sets are in bijection with some cardinal number (assuming the [[axiom of foundation]] via Scott’s trick) and cardinal numbers are just particular ordinals (assuming the [[axiom of choice]], otherwise more care must be taken) we do not encounter the phenomenon above where some equivalence classes don't have ordinal representatives in a universe with choice.
 
 The order type equivalence relation $\sim$ in **Pos** above is a finer parsing of the universe of partially ordered sets which doesn't admit an ordinal in each of its equivalence classes, and each ordinal defines its own unique equivalence class under this relation instead of only the cardinal numbers as with the bijection equivalence relation. 
 
-The increased 'fineness' of this parsing can be attributed to the fact that we effectively restricted the iso equivalence relation in **Set** to the subcategory **Pos** where there are fewer isos between objects and thusly more equivalence classes. This suggests that we might move to a subcategory of **Pos** and look at the iso equivalence relation there to find invariants of those objects which are finer than their order type but still comparatively simple, so on and so forth.
+The increased 'fineness' of this parsing can be attributed to the fact that we effectively restricted the iso equivalence relation in **Set** to the subcategory **Pos** where there are fewer isos between objects and thusly more equivalence classes.
 
 ## References 
 
