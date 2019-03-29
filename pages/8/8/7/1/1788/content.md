@@ -28,8 +28,3 @@ $$
     B Spin(8)
   }
 $$
-
-
-Test again
-
-Test again
