@@ -23,6 +23,60 @@ Among all [[special orthogonal groups]] $SO(n)$, the case of $SO(8)$ is special,
 ### Subgroup lattice
  {#SubgroupLattice}
 
++-- {: .num_prop #Spin7SubgroupsInSpin8}
+###### Proposition
+**([[Spin(7)]]-[[subgroups]] in [[Spin(8)]])
+
+There are precisely 3 [[conjugacy classes of subgroups|conjugacy classes]] of [[Spin(7)]]-[[subgroups]] inside [[Spin(8)]], and the [[triality]] group $Out(Spin(8))$ [[action|acts]] [[transitive action|transitively]] on these three classes. 
+
+\begin{center}
+  \begin{xymatrix}
+      \mathrm{Spin}(7)
+      \ar@{^{(}->}[dr]^{\iota'}
+      \\
+      & \mathrm{Spin}(8)
+      & 
+      \mathrm{Spin}(7)
+      \ar@{_{(}->}[l]^-{\iota}
+      \\
+      \mathrm{Spin}(7)
+      \ar@{^{(}->}[ur]_-{ \iota'' }
+  \end{xymatrix}
+\end{center}
+
+
+=--
+
+([Varadarajan 01, Theorem 5 on p. 6](#Varadarajan01))
+
+
++-- {: .num_prop #G2IsIntersectionOfSpin7SubgroupsInSpin8}
+###### Proposition
+**([[G2]] is [[intersection]] of [[Spin(7)]]-[[subgroups]] of [[Spin(8)]])**
+
+The [[intersection]] inside [[Spin(8)]] of any two [[Spin(7)]]-subgroups from distinct [[conjugacy classes of subgroups]] (according to Prop. \ref{Spin7SubgroupsInSpin8})
+is the [[exceptional Lie group]] [[G2]], hence we have [[pullback squares]] of the form
+
+\begin{center}
+\begin{xymatrix}
+  G_2 
+   \ar@{^{(}->}[r]
+   \ar@{^{(}->}[d]
+  & 
+  \mathrm{Spin}(7)
+  \ar@{^{(}->}[d]^-{\iota^\prime}
+  \\
+  \mathrm{Spin}(7)
+   \ar@{^{(}->}[r]_-{\iota}
+  & 
+  \mathrm{Spin}(8)
+ \end{xymatrix}
+\end{center}
+
+=--
+
+([Varadarajan 01, Theorem 5 on p. 13](#Varadarajan01))
+
 +-- {: .num_prop }
 ###### Proposition
 
@@ -61,7 +115,7 @@ We have the following [[commuting diagram]] of [[subgroup]] inclusions, where ea
     }
     &
     \mathrm{Spin}(7)
-    \ar@{^{(}->}[d]
+    \ar@{^{(}->}[d]^{B \iota'}
     \\
     \mathrm{Spin}(5)
     \ar@{^{(}->}[r]
@@ -70,7 +124,7 @@ We have the following [[commuting diagram]] of [[subgroup]] inclusions, where ea
     \ar@{^{(}->}[r]
     &
     \mathrm{Spin}(7)
-    \ar@{^{(}->}[r]
+    \ar@{^{(}->}[r]_-{\iota}
     &
     \mathrm{Spin}(8)
 \end{xymatrix}
@@ -78,15 +132,25 @@ We have the following [[commuting diagram]] of [[subgroup]] inclusions, where ea
 
 Here in the bottom row we have the [[Lie groups]]
 
-[[Spin(5)]] $\hookrightarrow$ [[Spin(6)]] $\hookrightarrow$ [[Spin(7)]] $\hookrightarrow$ [[Spin(8)]]
+[[Spin(5)]] $\hookrightarrow$ [[Spin(6)]] $\hookrightarrow$ [[Spin(7)]] $\hookrightarrow$ [[Spin(8)]] 
 
-and in the top row we have 
+with their canonical [[subgroup]]-inclusions, while in the top row we have 
 
 [[SU(2)]] $\hookrightarrow$ [[SU(3)]] $\hookrightarrow$ [[G2]] $\hookrightarrow$ [[Spin(7)]]
 
+and the right vertical inclusion $B \iota'$ is the [[delooping]] of one of the two non-standard inclusions, according to Prop. \ref{Spin7SubgroupsInSpin8}.
+
 =--
 
-This is a re-statement of 
+
++-- {: .proof}
+###### Proof
+
+The square on the right is that from Prop. \ref{G2IsIntersectionOfSpin7SubgroupsInSpin8}.
+
+The square in the middle is [Varadarajan 01, Lemma 9 on p. 10](#Varadarajan01).
+
+The statement also follows with
 [Onishchik 93, Table 2, p. 144](#Onishchik93):
 
 \begin{center}
@@ -96,6 +160,12 @@ This is a re-statement of
 \end{imagefromfile}
 \end{center}
 
+
+=--
+
+
+
+\linebreak
 
 ### Cohomology of classifying spaces
 
@@ -237,6 +307,7 @@ See also
 
   Encyclopaedia of Mathematical Sciences, Volume 20, Springer 1993
 
+* {#Varadarajan01} [[Veeravalli Varadarajan]], _Spin(7)-subgroups of SO(8) and Spin(8)_, Expositiones Mathematicae Volume 19, Issue 2, 2001, Pages 163-177 (<a href="https://doi.org/10.1016/S0723-0869(01)80027-X">doi:10.1016/S0723-0869(01)80027-X</a>, [pdf](https://core.ac.uk/download/pdf/81114499.pdf))
 
 ### Cohomology
 
@@ -250,7 +321,6 @@ The [[integral cohomology]] of the [[classifying spaces]] $B SO(8)$ and $B Spin(
 * {#CadekVanzura95} [[Martin Čadek]], [[Jiří Vanžura]], _On the existence of 2-fields in 8-dimensional vector bundles over 8-complexes_, Commentationes Mathematicae Universitatis Carolinae, vol. 36 (1995), issue 2, pp. 377-394 ([dml-cz:118764](https://dml.cz/handle/10338.dmlcz/118764))
 
 * {#CadekVanzura97} [[Martin Čadek]], [[Jiří Vanžura]], Section 2 of _On $Sp(2)$ and $Sp(2) \cdot Sp(1)$-structures  in 8-dimensional vector bundles_, Publicacions Matemàtiques Vol. 41, No. 2 (1997), pp. 383-401 ([jstor:43737249](https://www.jstor.org/stable/43737249))
-
 
 [[!redirects Spin(8)]]
 
