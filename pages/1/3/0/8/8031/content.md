@@ -13,6 +13,8 @@
 
 * [[ADE singularity]]
 
+* [[Sasakian manifold]]
+
 ## References
 
 Discussion in the context of [[gauged supergravity]] includes
@@ -27,7 +29,7 @@ Discussion in [[M-theory]]
 
 * {#Witten01} [[Edward Witten]], _Anomaly Cancellation On Manifolds Of $G_2$ Holonomy_ ([arXiv:hep-th/0108165](http://arxiv.org/abs/hep-th/0108165))
 
-* [[Sergei Gukov]], James Sparks, [[David Tong]], _Conifold Transitions and Five-Brane Condensation in M-Theory on Spin(7) Manifolds_, Class.Quant.Grav.20:665-706,2003 ([arXiv:hep-th/0207244](http://arxiv.org/abs/hep-th/0207244))
+* [[Sergei Gukov]], [[James Sparks]], [[David Tong]], _Conifold Transitions and Five-Brane Condensation in M-Theory on Spin(7) Manifolds_, Class.Quant.Grav.20:665-706,2003 ([arXiv:hep-th/0207244](http://arxiv.org/abs/hep-th/0207244))
 
 * [[Kenneth Intriligator]], Hans Jockers, [[Peter Mayr]], [[David Morrison]], M. Ronen Plesser, _Conifold Transitions in M-theory on Calabi-Yau Fourfolds with Background Fluxes_, Adv.Theor.Math.Phys. 17 (2013) 601-699 ([arXiv:1203.6662](http://arxiv.org/abs/1203.6662))
 
