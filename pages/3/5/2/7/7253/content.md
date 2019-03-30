@@ -144,8 +144,8 @@ This expresses the fact that the reduction of the structure group along $\phi$ i
 
 In the generality of [[principal infinity-bundles]], reductions/lifts of structure groups are discused in section 4.3 of
 
-* [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-bundles -- General theory]]_ ([arXiv:1207.0248](http://arxiv.org/abs/1207.0248))
- {#NSS}
+* {#NSS} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-bundles -- General theory]]_ ([arXiv:1207.0248](http://arxiv.org/abs/1207.0248))
+ 
  
  
 [[!redirects lift of structure groups]]
@@ -159,3 +159,7 @@ In the generality of [[principal infinity-bundles]], reductions/lifts of structu
 [[!redirects extension of a principal bundle]]
 
 [[!redirects reduction of structure groups]]
+
+[[!redirects reduction of a structure group]]
+[[!redirects reductions of a structure group]]
+
