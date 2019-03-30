@@ -130,7 +130,7 @@ See also [Morrison-Plesser 99, section 3.2](#MorrisonRPlesser99).
 
 * [[Savdeep Sethi]], [[Cumrun Vafa]], [[Edward Witten]], _Constraints on Low-Dimensional String Compactifications_, Nucl.Phys.B480:213-224, 1996 ([arXiv:hep-th/9606122](https://arxiv.org/abs/hep-th/9606122))
 
-* {#GukovSparks02} [[Sergei Gukov]], James Sparks, _M-Theory on $Spin(7)$ Manifolds_, Nucl.Phys. B625 (2002) 3-69 ([arXiv:hep-th/0109025](https://arxiv.org/abs/hep-th/0109025))
+* {#GukovSparks02} [[Sergei Gukov]], [[James Sparks]], _M-Theory on $Spin(7)$ Manifolds_, Nucl.Phys. B625 (2002) 3-69 ([arXiv:hep-th/0109025](https://arxiv.org/abs/hep-th/0109025))
 
 * {#CondeescuMicuPalti14} Cezar Condeescu, Andrei Micu, Eran Palti, _M-theory Compactifications to Three Dimensions with M2-brane Potentials_, JHEP04(2014)026 ([arXiv:1311.5901](https://arxiv.org/abs/1311.5901))
 
