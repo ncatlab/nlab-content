@@ -281,7 +281,15 @@ $$
 
 This is due to [Quillen 71](#Quillen71), [Čadek-Vanžura 95](#CadekVanzura95), see [Čadek-Vanžura 97, Lemma 4.1](#CadekVanzura97).
 
+### $G$-Structure and exceptional geometry
+
+[[!include Spin(8)-subgroups and reductions -- table]]
+
+
+
 \linebreak
+
+
 
 ## Related concepts
 
