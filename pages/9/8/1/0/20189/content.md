@@ -183,6 +183,13 @@ $$
 
 ([Bott-Cattaneo 98, Lemma 2.1](#BottCattaneo98))
 
+
+### $G$-Structure and exceptional geometry
+
+
+[[!include Spin(8)-subgroups and reductions -- table]]
+
+
 \linebreak
 
 ## Related concepts
