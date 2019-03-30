@@ -90,11 +90,21 @@ $$
 
 ## Related concepts
 
-* [[Klein geometry]], [[Cartan geometry]]
+* [[lattice of subgroups]]
+
+* [[maximal subgroup]]
 
 * [[index of a subgroup]]
 
-* [[lattice of subgroups]]
+* [[Klein geometry]], [[Cartan geometry]]
+
+## References
+
+See also
+
+* Wikipedia, _[Subgroup](https://en.wikipedia.org/wiki/Subgroup)_
+
+
 
 [[!redirects subgroup]]
 [[!redirects subgroups]]
