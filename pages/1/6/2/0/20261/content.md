@@ -26,7 +26,7 @@ $$
   \,.
 $$
 
-The [[equivalence classes]] under this [[relation]] are hence called the _conjugacy classes of subgroups_ of $G$. These play a key role in much of [[group theory]] and [[representation theory]], for instance as parameters for [[group characters]].
+The [[equivalence classes]] under this [[relation]] are hence called the _[[conjugacy classes]] of subgroups_ of $G$. These play a key role in much of [[group theory]] and [[representation theory]], for instance as parameters for [[group characters]].
 
 ## Related concepts
 
