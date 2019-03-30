@@ -13,6 +13,10 @@ The [[orthogonal group]] $O(n,n)$ for signature $(n,n)$ is sometimes called the 
 
 For $X$ a [[smooth manifold]], the [[generalized tangent bundle]] $T X \oplus T^* X$ has as [[structure group]] the Narain group.
 
+
+[[!include Spin(8)-subgroups and reductions -- table]]
+
+
 ### Maximal compact subgroup
 
 The [[maximal compact subgroup]] of the Narain group is the product group $O(n) \times O(n)$ (e.g. [Ooguri-Yin 96, p. 44](#OoguriYin96)). 
