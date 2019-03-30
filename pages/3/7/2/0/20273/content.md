@@ -5,11 +5,21 @@
 
 ## Idea
 
-[[reduction of a structure group]] to [[SU(2)]].
+[[reduction of a structure group]] to [[SU(2)]], of particular interest on [[5-manifolds]]
 
 In [[dimension]] 5 [[Sasaki-Einstein manifolds|Sasaki-Einstein structure]] is a special case of $SU(2)$-structure (e.g. [CMD 14](#CMD14), [Fino 18b](#Fino18b))
 
+
+## Properties
+
+### As exceptional geometry
+
+[[!include Spin(8)-subgroups and reductions -- table]]
+
+
 ## References
+
+* {#ContiSalamon05} Diego Conti, [[Simon Salamon]], _Generalized Killing spinors in dimension 5_, Trans. Amer. Math. Soc. 359 (2007), no. 11, 5319-5343 ([arXiv:math/0508375](https://arxiv.org/abs/math/0508375))
 
 * Luis C. de Andrés, Marisa Fernández, Anna Fino, Luis Ugarte, _Contact 5-manifolds with SU(2)-structure_ ([arXiv:0706.0386](https://arxiv.org/abs/0706.0386))
 
