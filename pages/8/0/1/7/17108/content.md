@@ -195,6 +195,11 @@ $$
 (e.g [Varadarajan 01, Theorem 3](#Varadarajan01))
 
 
+### $G$-Structure and exceptional geometry
+
+[[!include Spin(8)-subgroups and reductions -- table]]
+
+
 ## Related concepts
 
 [[!include low dimensional rotation groups -- table]]
