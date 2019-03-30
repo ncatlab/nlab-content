@@ -16,9 +16,11 @@
 
 ## Idea
 
-The classification of [[Riemannian manifolds]] with [[special holonomy]] contains two "exceptional" cases: [[G2]]-[[holonomy]] in [[dimension]] 7, and [[spin group|Spin(7)]]-[[holonomy]] in dimension 8. Their study is the topic of _exceptional geometry_.
+The classification of [[Riemannian manifolds]] with [[special holonomy]] contains two "exceptional" cases: [[G2-manifold|G2-holonomy]] in [[dimension]] 7, and [[Spin(7)-manifolds|Spin(7)-holonomy]] in dimension 8. Their study is the topic of _exceptional geometry_.
 
-Sometimes more generally, exceptional geometry is understod to study [[spaces]] controled by [[exceptional Lie groups]] in some way.
+Sometimes more generally, exceptional geometry is understood to study [[spaces]] controled by [[exceptional Lie groups]] in some way.
+
+\linebreak
 
 ## Related concepts
 
