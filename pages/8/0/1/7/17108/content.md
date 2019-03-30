@@ -22,6 +22,155 @@ The [[spin group]] in [[dimension]] $n = 7$.
 
 ## Properties
 
+### Subgroups and Supgroups
+
++-- {: .num_prop #Spin7SubgroupsInSpin8}
+###### Proposition
+**([[Spin(7)]]-[[subgroups]] in [[Spin(8)]])
+
+There are precisely 3 [[conjugacy classes of subgroups|conjugacy classes]] of [[Spin(7)]]-[[subgroups]] inside [[Spin(8)]], and the [[triality]] group $Out(Spin(8))$ [[action|acts]] [[transitive action|transitively]] on these three classes. 
+
+\begin{center}
+  \begin{xymatrix}
+      \mathrm{Spin}(7)
+      \ar@{^{(}->}[dr]^{\iota'}
+      \\
+      & \mathrm{Spin}(8)
+      & 
+      \mathrm{Spin}(7)
+      \ar@{_{(}->}[l]^-{\iota}
+      \\
+      \mathrm{Spin}(7)
+      \ar@{^{(}->}[ur]_-{ \iota'' }
+  \end{xymatrix}
+\end{center}
+
+
+=--
+
+([Varadarajan 01, Theorem 5 on p. 6](#Varadarajan01))
+
+
++-- {: .num_prop #G2IsIntersectionOfSpin7SubgroupsInSpin8}
+###### Proposition
+**([[G2]] is [[intersection]] of [[Spin(7)]]-[[subgroups]] of [[Spin(8)]])**
+
+The [[intersection]] inside [[Spin(8)]] of any two [[Spin(7)]]-subgroups from distinct [[conjugacy classes of subgroups]] (according to Prop. \ref{Spin7SubgroupsInSpin8})
+is the [[exceptional Lie group]] [[G2]], hence we have [[pullback squares]] of the form
+
+\begin{center}
+\begin{xymatrix}
+  G_2 
+   \ar@{^{(}->}[r]
+   \ar@{^{(}->}[d]
+  & 
+  \mathrm{Spin}(7)
+  \ar@{^{(}->}[d]^-{\iota^\prime}
+  \\
+  \mathrm{Spin}(7)
+   \ar@{^{(}->}[r]_-{\iota}
+  & 
+  \mathrm{Spin}(8)
+ \end{xymatrix}
+\end{center}
+
+=--
+
+([Varadarajan 01, Theorem 5 on p. 13](#Varadarajan01))
+
++-- {: .num_prop }
+###### Proposition
+
+We have the following [[commuting diagram]] of [[subgroup]] inclusions, where each [[square]] exhibits a [[pullback]]/[[fiber product]], hence an [[intersection]] of subgroups:
+
+\begin{center}
+\begin{xymatrix}
+    \mathrm{SU}(2)
+    \ar@{^{(}->}[r]
+    \ar@{^{(}->}[d]
+    \ar@{}[dr]|-{
+      \mbox{
+        \tiny
+        (pb)
+      }
+    }
+    &
+    \mathrm{SU}(3)
+    \ar@{^{(}->}[r]
+    \ar@{^{(}->}[d]
+    \ar@{}[dr]|-{
+      \mbox{
+        \tiny
+        (pb)
+      }
+    }
+    &
+    \mathrm{G}_2
+    \ar@{^{(}->}[r]
+    \ar@{^{(}->}[d]
+    \ar@{}[dr]|-{
+      \mbox{
+        \tiny
+        (pb)
+      }
+    }
+    &
+    \mathrm{Spin}(7)
+    \ar@{^{(}->}[d]^{\iota'}
+    \\
+    \mathrm{Spin}(5)
+    \ar@{^{(}->}[r]
+    &
+    \mathrm{Spin}(6)
+    \ar@{^{(}->}[r]
+    &
+    \mathrm{Spin}(7)
+    \ar@{^{(}->}[r]_-{\iota}
+    &
+    \mathrm{Spin}(8)
+\end{xymatrix}
+\end{center}
+
+Here in the bottom row we have the [[Lie groups]]
+
+[[Spin(5)]] $\hookrightarrow$ [[Spin(6)]] $\hookrightarrow$ [[Spin(7)]] $\hookrightarrow$ [[Spin(8)]] 
+
+with their canonical [[subgroup]]-inclusions, while in the top row we have 
+
+[[SU(2)]] $\hookrightarrow$ [[SU(3)]] $\hookrightarrow$ [[G2]] $\hookrightarrow$ [[Spin(7)]]
+
+and the right vertical inclusion $\iota'$ is the one of the two non-standard inclusions, according to Prop. \ref{Spin7SubgroupsInSpin8}.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+The square on the right is that from Prop. \ref{G2IsIntersectionOfSpin7SubgroupsInSpin8}.
+
+The square in the middle is [Varadarajan 01, Lemma 9 on p. 10](#Varadarajan01).
+
+The statement also follows with
+[Onishchik 93, Table 2, p. 144](#Onishchik93):
+
+\begin{center}
+\begin{imagefromfile}
+  "file_name": "SO8SubgroupIntersection.jpg",
+  "width": 690
+\end{imagefromfile}
+\end{center}
+
+
+=--
+
+
+
+\linebreak
+
+
+### Coset spaces
+
 +-- {: .num_prop #QuotientOfSpin7ByG2IsS7}
 ###### Proposition
 **([[coset space]] of [[Spin(7)]] by [[G2]] is [[7-sphere]])**
@@ -54,6 +203,14 @@ $$
 
 ## References
 
-* {#Varadarajan01} [[Veeravalli Varadarajan]], _Spin(7)-subgroups of SO(8) and Spin(8)_, Expositiones Mathematicae, 19 (2001): 163-177 ([pdf](https://core.ac.uk/download/pdf/81114499.pdf))
+* {#Onishchik93} A. L. Onishchik (ed.) _Lie Groups and Lie Algebras_
+
+  * *I.* A. L. Onishchik, E. B.  Vinberg, _Foundations of Lie Theory_,
+
+  * *II.* V. V. Gorbatsevich, A. L. Onishchik, _Lie Transformation Groups_ 
+
+  Encyclopaedia of Mathematical Sciences, Volume 20, Springer 1993
+
+* {#Varadarajan01} [[Veeravalli Varadarajan]], _Spin(7)-subgroups of SO(8) and Spin(8)_, Expositiones Mathematicae Volume 19, Issue 2, 2001, Pages 163-177 (<a href="https://doi.org/10.1016/S0723-0869(01)80027-X">doi:10.1016/S0723-0869(01)80027-X</a>, [pdf](https://core.ac.uk/download/pdf/81114499.pdf))
 
 [[!redirects Spin7]]
