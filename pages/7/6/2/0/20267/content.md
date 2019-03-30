@@ -19,6 +19,8 @@ The [[special unitary group]] in 3 complex [[dimensions]].
 
 ## Properties
 
+### Subgroups and Supgroups
+
 +-- {: .num_prop }
 ###### Proposition
 
@@ -92,6 +94,13 @@ This is a re-statement of
   "width": 620
 \end{imagefromfile}
 \end{center}
+
+### $G$-Structure and exceptional geometry
+
+
+[[!include Spin(8)-subgroups and reductions -- table]]
+
+
 
 ## Related concepts
 
