@@ -32,21 +32,16 @@ Consider the following properties of this space:
 There are the following implications among these properties
 
 \begin{centre}
-\begin{tikzpicture}
-	\usetikzlibrary{arrows.meta}
-	\usetikzlibrary{matrix}
-  \matrix (m) [matrix of nodes,row sep=3em,column sep=6em,minimum width=2em]
-{
+  \begin{tikzcd}
 	 & (2)	& (3) \\
-	(5) & (1) & (4) \\};
-\path[-stealth] 
-	(m-2-1) edge[double] node[above left] {\scriptsize if $\mathcal{T}$ regular} (m-1-2)
-	(m-1-2) edge[stealth-stealth, double] (m-2-2)
-	(m-1-3) edge[stealth-stealth, double] (m-2-3)
-	(m-2-2) edge[double] (m-2-1)
-	(m-1-3) edge[double] node[above] {\scriptsize if $\mathcal{T}$ regular} (m-1-2)
-	(m-2-2) edge[double] (m-2-3);
-\end{tikzpicture}
+	(5) & (1) & (4)
+    \arrow[Rightarrow, from=2-1, to=1-2, "\text{if $\mathcal{T}$ regular}"] 
+    \arrow[Leftrightarrow, from=1-2, to=2-2]
+    \arrow[Leftrightarrow, from=1-3, to=2-3]
+    \arrow[Rightarrow, from=2-2, to=2-1]
+    \arrow[Rightarrow, from=1-3, to=1-2, "\text{if $\mathcal{T}$ regular}"]
+    \arrow[Rightarrow, from=2-2, to=2-3]
+\end{tikzcd}
 \end{centre}
 
 Especially, all properties are equivalent if $\mathcal{T}$ is [[regular space|regular]].
