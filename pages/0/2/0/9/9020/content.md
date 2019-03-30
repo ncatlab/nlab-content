@@ -34,7 +34,9 @@ of two copies of [[G2]].
 
 * [[exceptional generalized geometry]]
 
-* [[generalized Calabi-Yau manifold]]
+* [[generalized Calabi-Yau manifold]], [[type II geometry]]
+
+* [[generalized Spin(7)-manifold]]
 
 
 ## References
@@ -51,3 +53,15 @@ of two copies of [[G2]].
 
 
 [[!redirects generalized G2-manifolds]]
+
+
+[[!redirects generalised G2-manifold]]
+[[!redirects generalised G2-manifolds]]
+
+
+[[!redirects generalized G2-structure]]
+[[!redirects generalized G2-structures]]
+
+[[!redirects generalised G2-structure]]
+[[!redirects generalised G2-structures]]
+
