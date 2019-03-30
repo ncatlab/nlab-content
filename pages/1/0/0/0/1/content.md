@@ -12,9 +12,19 @@
 [[!include physicscontents]]
 =--
 =--
+=--
+
+
++-- {: .query} 
+$\,$ 
+ <div align="center" >
+ <em>Search the nLab ([[Searching the nLab|hints]])</em> 
+ <form  name="gsearch" method="get" action="https://www.google.com/search"><input type="text" size="30" name="as_q"/><input type="hidden" name="as_sitesearch" value="https://ncatlab.org/nlab/"/></form>
+</div>
+$\,$
 =-- 
 
-[[About|This]] is a [wiki](http://en.wikipedia.org/wiki/Wiki)-lab for collaborative work on _[[Mathematics]]_, _[[Physics]]_ and _[[Philosophy]]_ --- especially from the [[n-point of view]]: in so far as these subjects are usefully treated with tools and notions of [[category theory]] or [[higher category theory]].
+[[About|This]] is a [wiki](http://en.wikipedia.org/wiki/Wiki)-lab for collaborative work on _[[Mathematics]]_, _[[Physics]]_ and _[[Philosophy]]_ --- especially from the [[n-point of view]]: insofar as these subjects are usefully treated with tools and notions of [[category theory]] or [[higher category theory]].
 
 # The $n$Lab
 * table of contents
