@@ -9,6 +9,14 @@ A [[Calabi-Yau object]] ([[Calabi-Yau manifold]], [[Calabi-Yau category]]) of (c
 
 ## Properties
 
+
+### As exceptional geometry
+
+[[!include Spin(8)-subgroups and reductions -- table]]
+
+
+### Moduli spaces of line bundles
+
 [[!include moduli of higher lines -- table]]
 
 
