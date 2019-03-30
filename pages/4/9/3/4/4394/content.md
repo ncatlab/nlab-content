@@ -11,7 +11,7 @@ A __bicontinous map__ is a [[function]] between bitopological spaces that is [[c
 
 Bitopological spaces and bicontinuous maps form a [[category]] $BiTop$.
 
-## Compatibility conditions for topologies
+## Separation axioms for topologies
 
 Let $Cl$ denote the [[closure operator]] with respect to $\mathcal{T}$ and let $Cl^*$ denote the closure operator with respect to $\mathcal{T}^*$.
 
@@ -119,11 +119,20 @@ It is interesting and perhaps surprising that many advanced topological notions 
 
 * R. Kopperman, _Asymmetry and duality in topology_ , Topology Appl. **66** no.1 (1995) pp.1-39.
 
-The notions of respective regularity, being coupled, etc. were introduced in
+The notions of separation axioms were introduced in
 
 * J. D. Weston, _On the comparison of topologies_ 1956, Journal of the London Mathematical Society, vol. s1-32 no. 3, pp. 342-354,
 
 * J. C. Kelly, _Bitopological spaces_, Proc. London Math. Soc. **13** no.3 (1963) pp.71-89.
+
+A comprehensive overview of this and related topic is found in
+
+* A. A. Ivanov, _Problems of the Theory of Bitopological Spaces_, 1990, Journal of Soviet Mathematics, vol. 52, Issue 1, pp 2759-2790. Originally published as _Проблематика теории битопологических пространств_ in Zap. Nauchn. Sem. POMI, 1988, vol. 167 ([Russian version](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=znsl&paperid=5560&option_lang=en)).
+
+* A. A. Ivanov, _Problems of the Theory of Bitopological Spaces 2_, 1996, Journal of Math. Sciences, vol. 81, Issue 2. Originally publishes as _Проблематика теории битопологических пространств. 2_ in Zap. Nauchn. Sem. POMI, 1993, Volume 208, pp 5–67 ([Russian version](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=znsl&paperid=5828&option_lang=eng)).
+
+* A. A. Ivanov, _Problems of the Theory of Bitopological Spaces 3_, 1998, Journal of Math. Sciences, vol. 91, Issue 6, pp 3339–3364. Originally published as _Проблематика теории битопологических пространств. 3_ in Zap. Nauchn. Sem. POMI, 1995, Volume 231, pp 9–54 ([Russian version](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=znsl&paperid=3739&option_lang=eng)).
+
 
 [[!redirects bitopological space]]
 [[!redirects bitopological spaces]]
