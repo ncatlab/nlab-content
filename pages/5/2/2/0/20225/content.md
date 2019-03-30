@@ -22,7 +22,7 @@ There is some variation in the literature on what one calls a "[[quaternionic]] 
 ###### Definition
 **(Quaternionic manifold)**
 
-For $n \geq 2$, a **quaternionic manifold** is a real 4n-dimensional manifold M with a $\text{GL} (n,\mathbf{H})\cdot \mathbf{H} ^{\times }$-structure which admits a [[torsion]]-free [[connection]] $\nabla$ (i.e. is integrable as a [[G-structure]]).
+For $n \geq 2$, a **quaternionic manifold** is a real 4n-dimensional manifold M with a $\text{GL} (n,\mathbf{H})\cdot \mathbf{H} ^{\times }$-[[G-structure|structure]] which admits a [[torsion of a G-structure|torsion-free]] [[connection]] $\nabla$ (i.e. is integrable as a [[G-structure]]).
 
 =--
 
