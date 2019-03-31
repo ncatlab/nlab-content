@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -22,6 +36,8 @@ In [[dimension]] 5 [[Sasaki-Einstein manifolds|Sasaki-Einstein structure]] is a 
 * {#ContiSalamon05} Diego Conti, [[Simon Salamon]], _Generalized Killing spinors in dimension 5_, Trans. Amer. Math. Soc. 359 (2007), no. 11, 5319-5343 ([arXiv:math/0508375](https://arxiv.org/abs/math/0508375))
 
 * Luis C. de Andrés, Marisa Fernández, Anna Fino, Luis Ugarte, _Contact 5-manifolds with SU(2)-structure_ ([arXiv:0706.0386](https://arxiv.org/abs/0706.0386))
+
+* Daniël Prins, _On flux vacua, SU(n)-structures and generalised complex geometry_ ([arXiv:1602.05415](https://arxiv.org/abs/1602.05415))
 
 * {#Fino18a} Anna Fino, _Contact manifolds and $SU(2)$-structure_, talk at _Holonomy Groups and Applications in String Theory_, Hamburg July 2008 ([pdf](https://www.math.uni-hamburg.de/home/leistner/workshop08/Slides/Fino-hamburg08.pdf))
 
