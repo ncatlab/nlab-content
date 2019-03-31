@@ -251,6 +251,8 @@ Or, dually, we may regard the 4-form $\star \omega$ of def. \ref{As2Plectomorphi
 
 ### General
 
+* {#SpringerVeltkamp00} [[Tonny Springer]], [[Ferdinand Veldkamp]], chapter 2 of _Octonions, Jordan Algebras, and Exceptional Groups_, Springer Monographs in Mathematics, 2000
+
 Surveys are in
 
 * Spiro Karigiannis, _What is... a $G_2$-manifold_ ([pdf](http://www.ams.org/notices/201104/rtx110400580p.pdf))
