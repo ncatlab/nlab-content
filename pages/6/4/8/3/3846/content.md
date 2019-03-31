@@ -465,6 +465,8 @@ See also [[Moufang loop]].
 
 ## References
 
+* {#SpringerVeltkamp00} [[Tonny Springer]], [[Ferdinand Veldkamp]], chapter 1 of _Octonions, Jordan Algebras, and Exceptional Groups_, Springer Monographs in Mathematics, 2000
+
 * {#Rost96} Markus Rost, _On the dimension of a composition algebra_, Documenta  Mathematica __1__ (1996), 209-214, [files](http://www.math.uni-bielefeld.de/documenta/vol-01/10.html) Abstract: "The possible dimensions of a composition algebra are 1, 2, 4, or 8. We give a tensor categorical argument."
 
 A general abstract formulation of [Rost 96](#Rost96) in terms of [[string diagrams]] in [[additive category|additive]] [[braided monoidal categories]] is in
