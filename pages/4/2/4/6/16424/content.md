@@ -20,6 +20,8 @@ Specifically for the [[simple Lie group]] [[SO(8)]] corresponding to [[D4]], tri
 
 ## References
 
+* {#SpringerVeltkamp00} [[Tonny Springer]], [[Ferdinand Veldkamp]], chapter 3 of _Octonions, Jordan Algebras, and Exceptional Groups_, Springer Monographs in Mathematics, 2000
+
 See also
 
 * Wikipedia, _[Triality](http://en.wikipedia.org/wiki/Triality)_
