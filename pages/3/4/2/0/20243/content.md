@@ -23,9 +23,11 @@ Similarly, for $Spin(n_1)$, $Spin(n_2)$ [[spin groups]] in some dimension, the g
 
 \linebreak
 
+
 ## Definition
 
-+-- {: .num_defn}
+
++-- {: .num_defn #SpnSp1}
 ###### Definition
 
 For $n \in \mathbb{N}$ with $n \geq 2$, the [[Lie group]] denoted $Sp(n).Sp(1)$ or just $Sp(n)Sp(1)$ is the [[quotient group]] of the [[direct product group]] $Sp(n) \times Sp(1)$ of [[quaternion unitary groups]] $Sp(n)$ (in particular $Sp(1) \simeq$ [[Spin(3)]]) by the [[diagonal]] [[center]] [[cyclic group of order 2]] $\mathbb{Z}_2$:
@@ -57,6 +59,9 @@ hence the [[quotient group]] by the [[subgroup]]
 =--
 
 (e.g. [Čadek-Vanžura 97, Sec. 2](#CadekVanzura97))
+
+Similarly for $Spin(n_1) \cdot Spin(n_2)$, etc.
+
 
 ## Properties
 
@@ -149,6 +154,92 @@ where
 
 =--
 
+\linebreak
+
+### $Sp(1)Sp(1)Sp(1) = Spin(4)\cdot Spin(3)$
+ {#Sp1Sp1Sp1}
+
+
+
++-- {: .num_example #Spin4Spin3}
+###### Example
+**([[Spin(4).Spin(3)]])**
+
+The group
+
+$$
+  Spin(4)\cdot Spin(3)
+  \;\coloneqq\;
+  \big(  
+    Spin(4) \times Spin(3)
+  \big)/\mathbb{Z}_2
+$$
+
+is the [[quotient group]] of the [[direct product group]] of [[Spin(4)]] with [[Spin(3)]] by the [[subgroup]]
+
+\[
+  \label{Spin4Spin3DiagonalCenter}
+  \mathbb{Z}_2
+  \;\simeq\;
+  \big\{ 
+    (1,1), (-1,-1)
+  \big\}
+  \hookrightarrow
+  Spin(4) \times Spin(3)
+  \,.
+\]
+
+Due to the exception [[isomorphism]] [[Spin(4)]] $\simeq$ [[Spin(3)]] $\times$ [[Spin(3)]] ([this Prop.](Spin4#ExceptionalIsoWithSpin3TimesSpin3)) this is [[isomorphism|isomorphic]] to the [[quotient group]] of the [[direct product group|direct product]] of 3 copies of [[Sp(1)]] $\simeq$ [[Spin(3)]] with itself
+
+$$
+  Spin(4)\cdot Spin(3)
+  \;\simeq\;
+  Sp(1)Sp(1)Sp(1)
+  \;\coloneqq\;
+  \big( Spin(3) \times Spin(3) \times Spin(3)\big)/_{diag} \mathbb{Z}_2
+$$
+
+by the triple diagonal center
+
+\[
+  \label{Spin3Spin3Spin3DiagonalCenter}
+  \mathbb{Z}_2
+  \;\simeq\;
+  \big\{ 
+    (1,1,1), (-1,-1,1)
+  \big\}
+  \hookrightarrow
+  Spin(3) \times Spin(3) \times Spin(3)
+  \,.
+\]
+
+
+=--
+
+See the references [below](#ReferencesSpin4Spin3).
+
++-- {: .num_example}
+###### Example
+
+The [[coset space]] of [[Sp(2).Sp(1)]] (Def. \ref{SpnSp1}) by [[Sp(1)Sp(1)Sp(1)]] (Def. \ref{Spin4Spin3}) is the [[4-sphere]]:
+
+$$
+  \frac{
+    Sp(2)\cdot Sp(1)
+  }
+  {
+    Sp(1)Sp(1)Sp(1)
+  }
+  \;\simeq\;
+  S^4
+  \,.
+$$
+
+This follows essentially from the [[quaternionic Hopf fibration]] and its $Sp(2)$-[[equivariant function|equivariance]]...
+
+=--
+
+(e.g. [Bettiol-Mendes 15, (3.1), (3.2), (3.3)](#BettiolMendes15))
 
 \linebreak
 
@@ -160,20 +251,39 @@ where
  
 ## References
 
+### $Sp(2)\cdot Sp(1)$
+ {#ReferencesSp2Sp1}
+
 * {#CadekVanzura97} [[Martin Čadek]], [[Jiří Vanžura]], Section 2 of _On $Sp(2)$ and $Sp(2) \cdot Sp(1)$-structures  in 8-dimensional vector bundles_, Publicacions Matemàtiques Vol. 41, No. 2 (1997), pp. 383-401 ([jstor:43737249](https://www.jstor.org/stable/43737249))
 
 * {#CadekVanzura98b} [[Martin Čadek]], [[Jiří Vanžura]], _Almost quaternionic structures on eight-manifolds_, Osaka J. Math. Volume 35, Number 1 (1998), 165-190 ([euclid:1200787905](https://projecteuclid.org/euclid.ojm/1200787905))
 
 See also the references at _[[quaternion-Kähler manifold]]_.
 
-The group $Spin(4)\cdot Spin(3)$ appears in 
+### $Sp(1)Sp(1)Sp(1) \simeq Spin(4)\cdot Spin(3) $
+ {#ReferencesSpin4Spin3}
+
+The group $Spin(4)\cdot Spin(3) \simeq (Spin(3))^3/_{diag} \mathbb{Z}_2$ (Example \ref{Spin4Spin3}) is discussed in the following:
+
+* {#BryantHarvey89} [[Robert Bryant]], Reese Harvey, (3.19) in _Submanifolds in Hyper-Kähler Geometry_, ournal of the American Mathematical Society Vol. 2, No. 1 (Jan., 1989), pp. 1-31 ([jstor:1990911](https://www.jstor.org/stable/1990911))
+
+* {#GluckMackenzieMorgan95} Herman Gluck, Dana Mackenzie, Frank Morgan, (5.20) in _Volume-minimizing cycles in Grassmann manifolds_, Duke Math. J. Volume 79, Number 2 (1995), 335-404 ([euclid:1077285156](https://projecteuclid.org/euclid.dmj/1077285156))
 
 * {#Kerr96} Megan M. Kerr, Lemma 6.2 of _Some New Homogeneous Einstein Metrics on Symmetric Spaces_, Transactions of the American Mathematical Society, Vol. 348, No. 1 (1996), pp. 153-171 ([jstor:2155169](https://www.jstor.org/stable/2155169))
 
 * {#KacSmilga00} [[Victor Kac]], A.V. Smilga, around (1.10) in _Vacuum structure in supersymmetric Yang-Mills theories with any gauge group_, in _The Many Faces of the Superworld, pp. 185-234 (2000)_ ([arXiv:hep-th/9902029](https://arxiv.org/abs/hep-th/9902029), [doi:10.1142/9789812793850_0014](https://doi.org/10.1142/9789812793850_0014))
 
+* {#OrneaPiccini00} Liviu Ornea, Paolo Piccinni, _Cayley 4-frames and a quaternion-Kähler reduction related to Spin(7)_, Proceedings of the International Congress of Differential Geometry in the memory of A. Gray, held in Bilbao, Sept. 2000 ([arXiv:math/0106116](https://arxiv.org/abs/math/0106116))
+
 * {#GroveWilkingZiller} Karsten Grove, Burkhard Wilking, Wolfgang Ziller, p. 30 of _Positively Curved Cohomogeneity One Manifolds and 3-Sasakian Geometry_ ([arXiv:math/0511464](https://arxiv.org/abs/math/0511464))
+
+* {#BettiolMendes15} Renato G. Bettiol, Ricardo A. E. Mendes, _Flag manifolds with strongly positive curvature_, Math. Z. 280 (2015), no. 3-4, 1031-1046 ([arXiv:1412.0039](https://arxiv.org/abs/1412.0039))
 
 [[!redirects Sp(2).Sp(1)]]
 
 [[!redirects Spn.Sp1]]
+
+
+[[!redirects Sp(1)Sp(1)Sp(1)]]
+
+[[!redirects Spin(4).Spin(3)]]
