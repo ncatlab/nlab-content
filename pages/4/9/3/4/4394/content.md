@@ -109,29 +109,37 @@ It is interesting and perhaps surprising that many advanced topological notions 
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Bitopological_space)
 
-* [[Jiri Adamek]], [[Horst Herrlich]], and [[George Strecker]], _Abstract and Concrete Categories: The Joy of Cats_ , Dover New York 2009. ([pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf)) pp.59-60,278
+* [[Jiri Adamek]], [[Horst Herrlich]], and [[George Strecker]], _Abstract and Concrete Categories: The Joy of Cats_, Dover New York 2009. ([pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf)) pp. 59-60, 278
 
-* B. Dvalishvili, _Bitopological Spaces: Theory, Relations with Generalized Algebraic Structures and Applications_ , Elsevier Amsterdam 2005.
+* B. Dvalishvili, _Bitopological Spaces: Theory, Relations with Generalized Algebraic Structures and Applications_, Elsevier Amsterdam 2005.
 
-* [[Peter Johnstone]], _Collapsed Toposes as Bitopological Spaces_ , pp.19-35 in _Categorical Topology_ , World Scientific Singapore 1989.
+* [[Peter Johnstone]], _Collapsed Toposes as Bitopological Spaces_, pp. 19-35 in _Categorical Topology_, World Scientific Singapore 1989.
 
 * O. K. Klinke, A. Jung, A. Moshier, _A bitopological point-free approach to compactications_ (2011). ([preprint](http://www.cs.bham.ac.uk/~axj/pub/papers/compactifications.pdf))
 
-* R. Kopperman, _Asymmetry and duality in topology_ , Topology Appl. **66** no.1 (1995) pp.1-39.
+* R. Kopperman, _Asymmetry and duality in topology_, Topology Appl. **66** no. 1 (1995) pp. 1-39.
+
+The idea naturally appeared first in the context of quasi-metric spaces
+
+* Wallace Alvin Wilson, _On Quasi-Metric Spaces_, American Journal of Mathematics (1931), vol. 53, no. 3, pp. 675-684.
 
 The notions of separation axioms were introduced in
 
 * J. D. Weston, _On the comparison of topologies_ 1956, Journal of the London Mathematical Society, vol. s1-32 no. 3, pp. 342-354,
 
-* J. C. Kelly, _Bitopological spaces_, Proc. London Math. Soc. **13** no.3 (1963) pp.71-89.
+* J. C. Kelly, _Bitopological spaces_, Proc. London Math. Soc. **13** no.3 (1963) pp. 71-89.
 
-A comprehensive overview of this and related topic is found in
+Only Kelly introduced the concept in its nowadays formulation of a set equipped with two topologies. The Russian school contributed the following comprehensive overviews of this and related topics
 
 * A. A. Ivanov, _Problems of the Theory of Bitopological Spaces_, 1990, Journal of Soviet Mathematics, vol. 52, Issue 1, pp. 2759-2790. Originally published as _Проблематика теории битопологических пространств_ in Zap. Nauchn. Sem. POMI, 1988, vol. 167 ([Russian version](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=znsl&paperid=5560&option_lang=en)).
 
 * A. A. Ivanov, _Problems of the Theory of Bitopological Spaces 2_, 1996, Journal of Math. Sciences, vol. 81, Issue 2. Originally publishes as _Проблематика теории битопологических пространств. 2_ in Zap. Nauchn. Sem. POMI, 1993, Volume 208, pp. 5–67 ([Russian version](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=znsl&paperid=5828&option_lang=eng)).
 
 * A. A. Ivanov, _Problems of the Theory of Bitopological Spaces 3_, 1998, Journal of Math. Sciences, vol. 91, Issue 6, pp 3339–3364. Originally published as _Проблематика теории битопологических пространств. 3_ in Zap. Nauchn. Sem. POMI, 1995, Volume 231, pp. 9–54 ([Russian version](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=znsl&paperid=3739&option_lang=eng)).
+
+as well as a more introductory text book
+
+* _Битопологические пространства_, 1997. Исследования по топологии. 9, Zap. Nauchn. Sem. POMI, 242, editor A. A. Ivanov ([Russian version](http://www.mathnet.ru/php/archive.phtml?jrnid=znsl&wshow=issue&bshow=contents&series=0&year=1997&volume=242&issue=&option_lang=rus&bookID=335)).
 
 
 [[!redirects bitopological space]]
