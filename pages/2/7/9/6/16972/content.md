@@ -98,6 +98,28 @@ This is almost explicit in [Porteous 95, p. 263](#Porteous95)
 
 [[Spin5OnHopfH.jpg:pic]]
 
+A way to make it fully explicit should be to observe that
+
+$$
+  \array{
+    S^3 
+      &\overset{fib(h_{\mathbb{H}})}{\longrightarrow}& 
+    S^{7}
+      &\overset{h_{\mathbb{H}}}{\longrightarrow}& 
+    S^4
+    \\
+     = && = && =
+    \\
+    \frac{Spin(4)}{Spin(3)}
+    &\longrightarrow&
+    \frac{Spin(5)}{Spin(3)}
+    &\longrightarrow&
+    \frac{Spin(5)}{Spin(4)}  
+  }
+$$
+
+
+
 +-- {: .num_remark}
 ###### Remark
 
