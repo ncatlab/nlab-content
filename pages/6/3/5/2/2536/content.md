@@ -382,6 +382,10 @@ hyperkomplexer Algebren, _Nachr. Ges. Wiss. G&#246;ttingen
 _Sibirsk Mat. J._ **24** (1983), 89-104.
  
 
+Textbook account:
+
+* {#SpringerVeltkamp00} [[Tonny Springer]], [[Ferdinand Veldkamp]], chapter 5 of _Octonions, Jordan Algebras, and Exceptional Groups_, Springer Monographs in Mathematics, 2000
+
 Introductions and surveys include
 
 
