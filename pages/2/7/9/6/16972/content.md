@@ -94,7 +94,9 @@ Then the [[quaternionic Hopf fibration]] $S^7 \overset{h_{\mathbb{H}}}{\longrigh
 
 =--
 
-This is almost explicit in [Porteous 95, p. 263](#Porteous95)
+This appears as ([Gluck-Warner-Ziller 86, Prop. 4.1](#GluckWarnerZiller86)).
+
+The statement is also almost explicit in [Porteous 95, p. 263](#Porteous95)
 
 \begin{center}
 \begin{imagefromfile}
@@ -103,8 +105,7 @@ This is almost explicit in [Porteous 95, p. 263](#Porteous95)
 \end{imagefromfile}
 \end{center}
 
-
-A way to make this fully explicit is to observe that the quaternionic Hopf fibration is equvalently the following map of [[coset spaces]]:
+A way to make the $Sp(5)$-equivariance of the quaternionic Hopf fibration fully explicit is to observe that the quaternionic Hopf fibration is equivalently the following map of [[coset spaces]]:
 
 $$
   \array{
@@ -255,7 +256,10 @@ See also at _[[equivariant stable cohomotopy]]_
 
 ## References
 
-* {#Miyaoka93} [[Reiko Miyaoka]], _The linear isotropy group of $G_2/SO(4)$, the Hopf fibering and isoparametric hypersurfaces_, Osaka J. Math. Volume 30, Number 2 (1993), 179-202. ([Euclid](http://projecteuclid.org/euclid.ojm/1200784357))
+* {#GluckWarnerZiller86} Herman Gluck, Frank Warner, Wolfgang Ziller, _The geometry of the Hopf fibrations_, L'Enseignement Math&eacute;matique, t.32 (1986), p. 173-198
+
+* {#Miyaoka93} [[Reiko Miyaoka]], _The linear isotropy group of 
+$G_2/SO(4)$, the Hopf fibering and isoparametric hypersurfaces_, Osaka J. Math. Volume 30, Number 2 (1993), 179-202. ([Euclid](http://projecteuclid.org/euclid.ojm/1200784357))
 
 * {#Porteous95} [[Ian Porteous]], _Clifford Algebras and the Classical Groups_, Cambridge Studies in Advanced Mathematics, Cambridge University Press (1995)
 
