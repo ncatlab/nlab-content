@@ -56,7 +56,9 @@ The [[automorphism group]] [[G2]] of the [[octonions]], as a [[normed algebra]],
 (see also [Cook-Crabb 93](#CookCrabb93))
 
 
-But th octonionic Hopf fibration is [[equivariant function|equivariant]] even with respect to the [[Spin(9)]]-[[action]], the one on $S^8 = S(\mathbb{R}^9)$ induced from the canonical action of $Spin(9)$ on $\mathbb{R}^9$, and on $S^{15} = S(\mathbb{R}^{16})$ induced from the canonical inclusion $Spin(9) \hookrightarrow Spin(16)$.
+But the octonionic Hopf fibration is [[equivariant function|equivariant]] even with respect to the [[Spin(9)]]-[[action]], the one on $S^8 = S(\mathbb{R}^9)$ induced from the canonical action of $Spin(9)$ on $\mathbb{R}^9$, and on $S^{15} = S(\mathbb{R}^{16})$ induced from the canonical inclusion $Spin(9) \hookrightarrow Spin(16)$.
+
+([Gluck-Warner-Ziller 86, Prop. 7.1](#GluckWarnerZiller86))
 
 This equivariance is made fully manifest by realizing the octonionic Hopf fibration as a map of [[coset spaces]] as follows ([Ornea-Parton-Piccinni-Vuletescu 12, p. 7](#OrneaPartonPiccinniVuletescu12)):
 
@@ -89,7 +91,9 @@ $$
 
 * [[quaternionic Hopf fibration]]
 
-##References
+## References
+
+* {#GluckWarnerZiller86} Herman Gluck, Frank Warner, Wolfgang Ziller, _The geometry of the Hopf fibrations_, L'Enseignement Math&eacute;matique, t.32 (1986), p. 173-198
 
 * {#OrneaPartonPiccinniVuletescu12} Liviu Ornea, Maurizio Parton, Paolo Piccinni, Victor Vuletescu, _Spin(9) geometry of the octonionic Hopf fibration_, Transformation Groups (2013) 18: 845 ([arXiv:1208.0899](http://arxiv.org/abs/1208.0899), [doi:10.1007/s00031-013-9233-x]( https://doi.org/10.1007/s00031-013-9233-x))
 
