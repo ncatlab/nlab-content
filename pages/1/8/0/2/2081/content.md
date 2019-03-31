@@ -115,7 +115,9 @@ Flabby sheaves were probably first studied in [[Tohoku]], where flabby [[resolut
 * [wikipedia](https://en.wikipedia.org/wiki/Injective_sheaf#Flasque_or_flabby_sheaves)
 * [EOM](https://www.encyclopediaofmath.org/index.php/Flabby_sheaf)
 
-Recent work relating flabby sheaves to the internal logic of a topos include:
+Work relating flabby sheaves to the internal logic of a topos include:
+
+* [[Anders Kock]], _Algebras for the Partial Map Classifier Monad_, in Category Theory. Proceedings of the International Conference held in Como, Italy, July 22–28, 1990, [pdf](http://home.math.au.dk/kock/jonna5.pdf)
 
 * {#Blechschmidt18} [[Ingo Blechschmidt]], *Flabby and injective objects in toposes*, [arXiv:1810.12708](https://arxiv.org/abs/1810.12708)
 
