@@ -8,6 +8,9 @@
 
 ## selected writings
 
+* {#CadekVanzura92} [[Martin Čadek]], [[Jiří Vanžura]], _On oriented vector bundlesover CW-complexes of dimension 6 and 7_, Comment.Math.Univ.Carolin. 33,4(1992)727–736 ([pdf](http://emis.impa.br/EMIS/journals/CMUC/pdf/cmuc9204/cadek.pdf)) 
+
+
 * {#CadekVanzura93} [[Martin Čadek]], [[Jiří Vanžura]], _On the classification of oriented vector bundles over 5-complexes_, Czechoslovak Mathematical Journal, Vol. 43 (1993), No. 4, 753–764 ([dml:128427](https://dml.cz/handle/10338.dmlcz/128427))
 
 * {#CadekVanzura95} [[Martin Čadek]], [[Jiří Vanžura]], _On the existence of 2-fields in 8-dimensional vector bundles over 8-complexes_, Commentationes Mathematicae Universitatis Carolinae, vol. 36 (1995), issue 2, pp. 377-394 ([dml-cz:118764](https://dml.cz/handle/10338.dmlcz/118764))
