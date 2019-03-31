@@ -25,6 +25,42 @@ The [[sphere]] of [[dimension]] 4.
 
 ## Properties
 
+### Coset space structure\
+ {#CosetSpaceStructure}
+
+As any [[sphere]], the [[4-sphere]] has the [[coset space]] [[structure]]
+
+$$
+  S^4 \simeq O(5)/O(4) \simeq SO(5)/SO(4) \simeq Spin(5)/Spin(4)\simeq Pin(5)/Pin(4).
+$$
+
+There is also this:
+
++-- {: .num_example #Sp2Sp1BySp1Sp1Sp1IsS4}
+###### Example
+
+The [[coset space]] of [[Sp(2).Sp(1)]] ([this Def.](SpnSp1#SpnSp1)) by [[Sp(1)Sp(1)Sp(1)]] ([this Def.](SpnSp1#Spin4Spin3)) is the [[4-sphere]]:
+
+$$
+  \frac{
+    Sp(2)\cdot Sp(1)
+  }
+  {
+    Sp(1)Sp(1)Sp(1)
+  }
+  \;\simeq\;
+  S^4
+  \,.
+$$
+
+This follows essentially from the [[quaternionic Hopf fibration]] and its $Sp(2)$-[[equivariant function|equivariance]]...
+
+=--
+
+(e.g. [Bettiol-Mendes 15, (3.1), (3.2), (3.3)](#BettiolMendes15))
+
+
+
 ### Homotopy groups
 
 The [[homotopy groups]] of the 4-sphere in low degree are
@@ -667,9 +703,12 @@ from the [[homotopy quotient]] by the [[circle action]] (def. \ref{CircleActionO
 
 * {#AFHS98} [[Bobby Acharya]], [[José Figueroa-O'Farrill]], [[Chris Hull]], B. Spence, _Branes at conical singularities and holography_ , Adv. Theor. Math. Phys. 2 (1998) 1249&#8211;1286
 
+* {#FelixOpreaTanre08} [[Yves Félix]], John Oprea, Daniel Tanré, _Algebraic Models in Geometry_, Oxford University Press 2008
+
 * {#MF12} Paul de Medeiros, [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
 
-* {#FelixOpreaTanre08} [[Yves Félix]], John Oprea, Daniel Tanré, _Algebraic Models in Geometry_, Oxford University Press 2008
+* {#BettiolMendes15} Renato G. Bettiol, Ricardo A. E. Mendes, _Flag manifolds with strongly positive curvature_, Math. Z. 280 (2015), no. 3-4, 1031-1046 ([arXiv:1412.0039](https://arxiv.org/abs/1412.0039))
+
 
 * Selman Akbulut, _Homotopy 4-spheres associated to an infinite order loose cork_ ([arXiv:1901.08299](https://arxiv.org/abs/1901.08299))
 
