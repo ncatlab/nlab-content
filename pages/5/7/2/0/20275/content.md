@@ -18,7 +18,7 @@
 
 A _maximal subgroup_ of a given [[group]] $G$ is a [[subgroup]] which is not all of $G$ and not contained in any other [[subgroup]] of $G$.
 
-Hence a maximal subgroup is a [[maximal element]] of the [[lattice of subgroups]] after removing the trivial subgroup $G \subset G$ itself.
+Hence a maximal subgroup is a [[maximal element]] of the [[lattice of subgroups]] after removing the trivial subgroup $G \subset G$ itself. More concisely it is a [[atom|coatom]] of $G$'s subgroup lattice.
 
 ## Related concepts
 
