@@ -33,15 +33,15 @@ A **Lie group** is a [[group]] with [[smooth structure]].
 +-- {: .num_defn}
 ###### Definition
 
-A **Lie group** is a smooth [[manifold]] whose underlying set of points is equipped with a structure of a [[group]] and the multiplication and inverse maps for the group are smooth maps.  
+A **Lie group** is a [[smooth manifold]] whose [[forgetful functor|underlying]] [[set]] of [[elements]] is equipped with the [[structure]] of a [[group]] such that the [[magma|group multiplication]] and [[inverse]]-assigning [[functions]] are [[smooth functions]].  
 
-In other words, it is a [[group object]] [[internalization|internal to]] [[Diff]].
+In other words, a Lie group is a [[group object]] [[internalization|internal to]] the [[category]] [[SmthMfd]] of [[smooth manifolds]].
 
 =--
 
-Usually the manifold is assumed to be over the [[real numbers]] or the [[complex numbers]] and of finite [[dimension]] (f.d.), but extensions to some other ground fields and infinite-dimensional setting are also relevant, sometimes under other names (such as [[Fréchet Lie group]] when the underlying manifold is an infinite-dimensional [[Fréchet manifold]]). 
+Usually the [[smooth manifold]] is assumed to be defined over the [[real numbers]] and to be of [[finite number|finite]] [[dimension]] (f.d.), but extensions of the definition to some other [[ground fields]]  or to -[[infinite-dimensional manifolds]] are also relevant, sometimes under other names (such as [[Fréchet Lie group]] when the underlying manifold is an infinite-dimensional [[Fréchet manifold]]). 
 
-A real Lie group is a _[[compact Lie group]]_ (or _connected_, _simply connected_ Lie group, etc) if its underlying space is [[compact space|compact]] (or [[connected space|connected]], [[simply connected space|simply connected]], etc). 
+A real Lie group is called a _[[compact Lie group]]_ (or _connected_, _simply connected_ Lie group, etc) if its underlying [[topological space]] is [[compact space|compact]] (or [[connected space|connected]], [[simply connected space|simply connected]], etc). 
 
 Every connected finite dimensional real Lie group is [[homeomorphism|homeomorphic]] to a [[product]] of a [[compact Lie group]] (its [[maximal compact subgroup]]) and a [[Euclidean space]]. 
 
