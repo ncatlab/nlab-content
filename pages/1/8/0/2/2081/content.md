@@ -109,7 +109,11 @@ The object $\mathcal{P}_{\leq 1}(F)$ of subsingletons of $F$ can be interpreted 
 
 ## References
 
-Flabby sheaves were probably first studied in [[Tohoku]], where flabby [[resolution]]s were also considered. A classical reference is Godement's monograph. 
+Flabby sheaves were probably first studied in [[Tohoku]], where flabby [[resolution]]s were also considered. A classical reference is 
+
+* {#Godement58} [[Roger Godement]] _Topologie Algébrique et Théorie des Faisceaux_. Actualités Sci. Ind. No. 1252. Publ. Math. Univ. Strasbourg. No. 13 Hermann, Paris 1958.
+
+See also
 
 * [[Günter Tamme]], section I 3.5 of _[[Introduction to Étale Cohomology]]_
 * [wikipedia](https://en.wikipedia.org/wiki/Injective_sheaf#Flasque_or_flabby_sheaves)
