@@ -67,7 +67,8 @@ Indeed, given any $y\in X$ and $n$ the point $x$ has to be contained in some $B_
 =-- 
 
 \begin{remark}
-In the proof any variant of the [[axiom of choice]] is only used for the implication (2)$\Rightarrow(3)$. On the other hand, assuming [[countable choice]], this implication [[second-countable spaces are Lindelöf|holds in every topological space]].
+In the proof any variant of the [[axiom of choice]] is only used for the implication $(2)\Rightarrow(3)$. On the other hand, assuming [[countable choice]], this implication [[second-countable spaces are Lindelöf|holds in every topological space]].
+The implication $(2)\Rightarrow(1)$ holds in any topological space as well (see Example \ref{2ndCountablImplSeparable})
 \end{remark}
 
 Similar in spirit to (1)$\Leftrightarrow$(2) but less well-known is the following. 
@@ -90,8 +91,12 @@ Provided that there uncountably many such $x_\alpha$ that are non-isolated in $X
 We are therefore left to deal with the case where there are at most countably many non-isolated $x_\beta$. Discard these, so without loss of generality we may suppose all the $x_\beta$ are isolated points of $X$ and that for some fixed $r$ the ball $B_r(x_\beta)$ contains no other $x_\alpha$. Let $Z$ be this set of $x_\beta$. For each $\beta$, let $t_\beta$ be the supremum over all $t$ such that $B_t(x_\beta) \cap Z$ is countable. It follows that $B_{t_\beta}(x_\beta) \cap Z$ is itself countable, as is $\{\alpha: \alpha \lt \beta\}$. At each stage $\beta$, there is a countable set $C_\beta \subset Z$ disjoint from $B_{t_\beta}(x_\beta) \cup \{x_\alpha: \alpha \lt \beta\}$ such that for each $s \gt t_\beta$, there exists $y \in C_\beta$ with $d(x_\beta, y) \lt s$. By transfinite induction, we can construct a cofinal subset $I$ of $\omega_1$ such that $x_\beta \notin C_\alpha$ whenever $\alpha, \beta \in I$ and $\alpha \lt \beta$. The set $Y = \{x_\alpha: \alpha \in I\}$ is open in $X$, and we claim that it is not a countable union of balls. For suppose otherwise. Let $F$ be such a countable family of balls; then there is some minimal $\alpha$ for which $B_t(x_\alpha) \in F$ is uncountable, so that $t \gt t_\alpha$. By construction of $C_\alpha$, there exists $z \in C_\alpha \cap B_t(x_\alpha)$. But since $Y = \bigcup F$, we have that $z = x_\beta$ for some $\beta \in I$, and this contradicts our condition on $I$. 
 =-- 
 
+## Examples
 
-
+\begin{example}\label{2ndCountablImplSeparable}
+Every [[second-countable topological space]] is separable.
+To see this take a countable cover and select a point in each member of the cover (using [[countable choice]]).
+\end{example}
 
 ## Related concepts
 
