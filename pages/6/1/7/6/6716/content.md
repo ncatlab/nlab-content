@@ -54,6 +54,9 @@ of the [[product]] of the [[spin group]] with the [[circle group]] by the common
 
 =--
 
+Some authors denote this as $Spin^c(n) = Spin(n) \cdot U(1)$, following the notation [[Sp(n).Sp(1)]] (see there for more).
+
+
 ## Properties
 
 ### Group extension
