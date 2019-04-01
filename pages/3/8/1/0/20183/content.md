@@ -20,6 +20,7 @@ A [[minimal model]] for a [[spherical fibration]] in [[rational homotopy theory]
 ## Properties
 
 ### Rational Euler- and Pontryagin-class
+ {#RationalEulerAndPontryaginClasses}
 
 +-- {: .num_prop #SullivanModelForSphericalFibration}
 ###### Proposition
