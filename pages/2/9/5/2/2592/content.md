@@ -173,7 +173,7 @@ are inclusion of the first summand followed by the map sending $(1,0)\mapsto 2$ 
 
 [[ordinary cohomology]] of the [[classifying spaces]] $B O(n)$ and $B SO(n)$:
 
-([Brown 82](#Brown82), [Pittie 91](#Pittie91))
+([Brown 82](#Brown82), [Feshbach 83](#Feshbach83), [Pittie 91](#Pittie91), [Rudolph-Schmidt 17, Theorem 4.2.23](#RudolphSchmidt17))
 
 ### Whitehead tower and higher orientation structures
 
@@ -317,8 +317,12 @@ The [[ordinary cohomology]] and [[ordinary homology]] of the manifolds $SO(n)$ i
 
 * {#Brown82} [[Edgar H. Brown]], _The Cohomology of $B SO_n$ and $BO_n$ with Integer Coefficients_, Proceedings of the American Mathematical Society Vol. 85, No. 2 (Jun., 1982), pp. 283-288 ([jstor:2044298](https://www.jstor.org/stable/2044298))
 
+* {#Feshbach83} Mark Feshbach, _The Integral Cohomology Rings of the Classifying Spaces of $\mathrm{O}(n)$ and $\mathrm{SO}(n)$,_ Indiana Univ. Math. J.  32 (1983), 511-516 ([doi:10.1512/iumj.1983.32.32036](https://doi.org/10.1512/iumj.1983.32.32036))
 
 * {#Pittie91} Harsh V. Pittie, _The integral homology and cohomology rings of SO(n) and Spin(n)_, Journal of Pure and Applied Algebra Volume 73, Issue 2, 19 August 1991, Pages 105&#8211;153 ([web](http://www.sciencedirect.com/science/article/pii/002240499190108E))
+
+* {#RudolphSchmidt17} Gerd Rudolph, Matthias Schmidt, around Theorem 4.2.23 of _Differential Geometry and Mathematical Physics: Part II. Fibre Bundles, Topology and Gauge Fields_, Theoretical and Mathematical Physics series, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
+
 
 See also
 
