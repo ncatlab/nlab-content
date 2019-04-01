@@ -158,8 +158,11 @@ See also the references at [[2-category]].
 * Power, A. J. _A general coherence result._
 J. Pure Appl. Algebra 57 (1989), no. 2, 165&#8211;173. [doi:10.1016/0022-4049(89)90113-8](http://dx.doi.org/10.1016/0022-4049%2889%2990113-8) [MR0985657](http://www.ams.org/mathscinet-getitem?mr=985657)
 
-* [[Alexander Campbell]], _How strict is strictification?_, [arxiv](https://arxiv.org/abs/1802.07538)
- {#Campbell18}
+* {#Campbell18} [[Alexander Campbell]], _How strict is strictification?_, [arxiv](https://arxiv.org/abs/1802.07538)
+ 
+Formalization in [[homotopy type theory]] (see also at [[internal category in homotopy type theory]]):
+
+* [[Benedikt Ahrens]], Dan Frumin, Marco Maggesi, Niels van der Weide, _Bicategories in Univalent Foundations_ ([arXiv:1903.01152](https://arxiv.org/abs/1903.01152))
 
 [[!redirects bicategory]]
 [[!redirects bicategories]]
