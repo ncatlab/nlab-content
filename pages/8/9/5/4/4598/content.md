@@ -121,8 +121,12 @@ Classical textbook references are
 
 * [[John Milnor]], [[Jim Stasheff]], _Characteristic classes_, Princeton Univ. Press
 
-
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
+
+With an eye towards [[mathematical physics]]:
+
+* {#RudolhSchmidt} Gerd Rudolph, Matthias Schmidt, around Def. 4.2.19 in _Differential Geometry and Mathematical Physics: Part II. Fibre Bundles, Topology and Gauge Fields_, Theoretical and Mathematical Physics series, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
+
 
 See also
 
