@@ -59,6 +59,7 @@ In particular, when $w_2(T X)$ is killed by the trivial $U(1)$-bundle, i.e., whe
 
 The vanishing of the third integral SW class, hence [[spin^c-structure]] is the [[orientation in generalized cohomology|orientation condition]] in [[complex K-theory]] $KU$ over oriented manifolds. In the context of [[string theory]] this is also known as the [[Freed-Witten anomaly]] cancellation condition.
 
+
 ### Seventh integral SW class
 
 Analogously, the vanishing of the seventh integral SW class is essentially the condition for [[orientation in generalized cohomology|orientation]] in second [[integral Morava K-theory]].
@@ -72,5 +73,12 @@ In the context of [[string theory]] this is also known as the [[Diaconescu-Moore
 * [[integral Wu structure]]
 
 [[!include orientations in higher quantization - table]]
+
+\linebreak
+
+## References
+
+* {#RudolhSchmidt} Gerd Rudolph, Matthias Schmidt, around Def. 4.2.20 of _Differential Geometry and Mathematical Physics: Part II. Fibre Bundles, Topology and Gauge Fields_, Theoretical and Mathematical Physics series, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
+
 
 [[!redirects integral Stiefel-Whitney classes]]
