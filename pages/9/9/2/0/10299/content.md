@@ -17,6 +17,9 @@ It can't be constructed using homogeneous coordinates the way we do for projecti
 
 * Writing out the components of such a matrix explicitly, one obtains a *Veronese vector* $(x_1,x_2,x_3;\xi_1,\xi_2,\xi_3)$ where $x_i\in \mathbb{O}$ and $\xi_i\in \mathbb{R}$, such that $\xi_i \overline{x_i} = x_j x_k$ and $\Vert x_i\Vert^2 = \xi_j \xi_k$ for all cyclic permutations $(i,j,k)$ of $(1,2,3)$.  The Cayley plane can be identified with the space of nonzero such vectors modulo the scalar action of $\mathbb{R}$.
 
+## Related concepts
+
+* [[Cayley 4-form]]
 
 ## References
 
