@@ -11,7 +11,19 @@
 
 The _kilogram_ (kilogramme, $kg$) is a [[unit]] of [[mass]].  It is $1000$ grams (grammes, $g$).
 
-One kilogram may soon be defined to be the mass of $N$ [[atom]]s of the [[carbon]] [[isotope]] $\mathrm{C}^{12}$, where $N$ is $\frac{1000}{12}$ times the [[Avogadro number]].  Currently, however, this fact is actually the definition of the Avogadro number; instead, the kilogram is defined as the mass of a certain physical object kept by the BIPM in Paris.
+
+The kilogram is defined by setting the [[Planck constant]] to be exactly 
+$$
+6.62607015\times 10^{-34} kg\cdot m^2\cdot s^{-1}
+$$
+and using the previously given definitions of the [[second]] and the [[metre]].
+
+The kilogram used to be defined as the mass of a certain physical object, _le Grand K_, kept by the BIPM in Paris.
+
+
+## References
+
+* Wikipedia, [Kilogram](https://en.wikipedia.org/wiki/Kilogram)
 
 
 [[!redirects kilogram]]
