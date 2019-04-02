@@ -4,7 +4,7 @@ Examples include:
 
 * [[Urysohn metrization theorem]] 
 
-* Nagata-Smirnov metrization theorem 
+* [[Nagata-Smirnov metrization theorem]] 
 
 * Bing metrization theorem 
 
