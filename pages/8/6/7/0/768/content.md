@@ -917,7 +917,7 @@ Textbook accounts on classifying spaces for [[vector bundles]] include
 
 * {#Hatcher} [[Alan Hatcher]], section 1.2 of _Vector bundles and K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
-* [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jur?o]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, 
+* [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurco]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, 
 Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
  
  
@@ -927,7 +927,7 @@ A discussion more from the point of view of [[topos theory]] is in
 
 Discussion of [[universal principal bundles]] over their classifying spaces is in 
 
-* Stephen Mitchell, _Universal principal bundles and classifying spaces_ ([pdf](http://www-math.mit.edu/~mbehrens/18.906/prin.pdf))
+* {#Mitchell11} Stephen Mitchell, _Notes on principal bundles and classifying spaces_, Lecture Notes. University of Washington, 2011 ([pdf](https://sites.math.washington.edu/~mitchell/Notes/prin.pdf))
 
 Discussion of characterization of principal bundles by rational [[universal characteristic classes]] and torsion information is in the appendices of 
 
