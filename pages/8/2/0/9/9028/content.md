@@ -15,7 +15,9 @@
 
 ## Idea
 
-A [[manifold]] of [[special holonomy]] [[Spin(7)]].
+An [[8-manifold]] of [[special holonomy]] [[Spin(7)]].
+
+Equivalently: an [[8-manifold]] equipped with a globalization of the [[Cayley 4-form]].
 
 ## Properties
 
@@ -60,7 +62,7 @@ then the [[Euler class]] $\chi$, the [[second Pontryagin class]] $p_2$ and the [
 +-- {: .num_remark}
 ###### Remark
 
-The same conclusion (eq:EulerClassInTermsOfPontryagin) also holds for $Spin(3) \times Spin(5)$-structure, see [there](quaternion-Kähler+manifold#CharacteristicClassesForSpin5Spin3Structure).
+The same conclusion (eq:EulerClassInTermsOfPontryagin) also holds for [[Spin(5).Spin(3)]]-structure, see [there](quaternion-Kähler+manifold#CharacteristicClassesForSpin5Spin3Structure).
 
 =--
 
