@@ -99,6 +99,9 @@ $$\array{
 A & & & & A \times 2 \times B & & & & B. 
 }$$
 
+##Related entries
+
+* [[join of categories]]
 
 ## References
 
