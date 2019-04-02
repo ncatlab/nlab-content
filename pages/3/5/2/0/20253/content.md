@@ -289,6 +289,8 @@ From the point of view of [[M-theory on 8-manifolds]], these [[8-manifolds]] $X$
 
 * [[M-theory on 8-manifolds]]
 
+* [[Cayley 4-form]]
+
 [[!include low dimensional manifolds -- table]]
 
 ## References
