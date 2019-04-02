@@ -32,7 +32,7 @@ The abstract relation to bilinear forms on spinors is commented on for instance 
 
 and in appendix B.1 of 
 
-* {#ACDP} D. V. Alekseevsky, V. Cort&#233;s, C. Devchand, [[Antoine Van Proeyen]], _Polyvector Super-Poincar&#233; Algebras_ Commun.Math.Phys. 253 (2004) 385-422 ([arXiv:hep-th/0311107](http://arxiv.org/abs/hep-th/0311107))
+* {#ACDP} [[Dmitry Vladimirovich Alekseevsky]], [[Vicente Cortez]], C. Devchand, [[Antoine Van Proeyen]], _Polyvector Super-Poincar&#233; Algebras_ Commun.Math.Phys. 253 (2004) 385-422 ([arXiv:hep-th/0311107](http://arxiv.org/abs/hep-th/0311107))
  
 
 The matrix component yoga used in physics is summarized for instance in   
