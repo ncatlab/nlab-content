@@ -87,6 +87,8 @@ determines a functor $C\to A\star B$ and viceversa.
 
 * [[join of simplicial sets]].
 
+* [[ordinal sum]]
+
 ## References
 
 See [p. 42](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=42) of 
