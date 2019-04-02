@@ -86,7 +86,7 @@ If $f$ is a proper map (def. \ref{ProperContinuous}), then it is a [[closed map]
 
 
 
-## Related cncepts
+## Related concepts
 
 * [[locally proper map]]
 
