@@ -24,8 +24,13 @@ The _Cayley 4-form_ $\Phi$ ([Harvey-Lawson 82](#HarveyLawson82)) is a certain [[
 
 $$
   \Phi \;\in\; \Omega^4(\mathbb{R}^n)
-  \,.
 $$
+
+which constitutes an exceptional [[calibration]] of $\mathbb{R}^4$ with its [[Euclidean space|Euclidean geometry]].
+
+More generally, a [[Spin(7)-manifold]] carries a globalization of this 4-form [[calibration]], then also called a Cayley-4-form. 
+
+\linebreak
 
 ## Definition
 
@@ -35,7 +40,7 @@ $$
 
 ## Invariance
 
-The  Cayley 4-from is fixed under [[pullback of differential forms]] by the [[subgroup]] [[Spin(7)]] inside [[SO(8)]]
+The [[stabilizer subgroup]] inside [[general linear group|GL(8)]] of the Cayley 4-from under the [[action]] given by [[pullback of differential forms]] is the [[subgroup]] [[Spin(7)]] inside [[SO(8)]].
 
 ([Harvey-Lawson 82, Prop. 1.36](#HarveyLawson82))
 
@@ -61,7 +66,7 @@ $$
   Gr(4,8)
 $$
 
-This is of [[codimension]] 4 ([Harvey=Lawson 82, below (5)](#HarveyLawson82)).
+This is of [[codimension]] 4 ([Harvey-Lawson 82, below (5)](#HarveyLawson82)).
 
 This space is [[homeomorphism|homeomorphic]] to the [[coset space]] of [[Spin(7)]] by [[Spin(4).Spin(3)]] = [[Spin(3).Spin(3).Spin(3)]] = [[Sp(1).Sp(1).Sp(1)]]:
 
@@ -84,7 +89,7 @@ $$
 
 * {#HarveyLawson82} [[Reese Harvey]], [[H. Blaine Lawson]], _Calibrated geometries_, Acta Math. Volume 148 (1982), 47-157 ([Euclid:1485890157](https://projecteuclid.org/euclid.acta/1485890157))
 
-* {#BryantHarvey89} [[Robert Bryant]], Reese Harvey, _Submanifolds in Hyper-Kähler Geometry_, ournal of the American Mathematical Society Vol. 2, No. 1 (Jan., 1989), pp. 1-31 ([jstor:1990911](https://www.jstor.org/stable/1990911))
+* {#BryantHarvey89} [[Robert Bryant]], [[Reese Harvey]], _Submanifolds in Hyper-Kähler Geometry_, Journal of the American Mathematical Society Vol. 2, No. 1 (Jan., 1989), pp. 1-31 ([jstor:1990911](https://www.jstor.org/stable/1990911))
 
 * {#GluckMackenzieMorgan95} Herman Gluck, Dana Mackenzie, Frank Morgan,  _Volume-minimizing cycles in Grassmann manifolds_, Duke Math. J. Volume 79, Number 2 (1995), 335-404 ([euclid:1077285156](https://projecteuclid.org/euclid.dmj/1077285156))
 
