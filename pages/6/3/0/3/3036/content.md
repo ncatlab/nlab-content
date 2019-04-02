@@ -98,6 +98,10 @@ Every [[second-countable topological space]] is separable.
 To see this take a countable cover and select a point in each member of the cover (using [[countable choice]]).
 \end{example}
 
+## Related properties
+
+[[!include topology - global countability axioms]]
+
 ## Related concepts
 
 * [[first-countable topological space]]
