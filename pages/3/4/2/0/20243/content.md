@@ -313,6 +313,9 @@ See also the references at _[[quaternion-Kähler manifold]]_.
 
 The group $Spin(4)\cdot Spin(3) \simeq (Spin(3))^3/_{diag} \mathbb{Z}_2$ (Example \ref{Spin4Spin3}) is discussed in the following (largely in describing the Grassmannian of [[Cayley 4-planes]], see [there](Cayley+form#GrassmannianOfCayley4Planes)):
 
+* Wu-Chung Hsiang, Wu-Yi Hsiang, Tables A of _Differentiable Actions of Compact Connected Classical Groups: II_, Annals of Mathematics
+Second Series, Vol. 92, No. 2 (1970), pp. 189-223 ([jstor:1970834](https://www.jstor.org/stable/1970834))
+
 * {#HarveyLawson82} [[Reese Harvey]], [[H. Blaine Lawson]], theorem 1.38 of _Calibrated geometries_, Acta Math. Volume 148 (1982), 47-157 ([Euclid:1485890157](https://projecteuclid.org/euclid.acta/1485890157))
 
 * {#BryantHarvey89} [[Robert Bryant]], [[Reese Harvey]], (3.19) in _Submanifolds in Hyper-Kähler Geometry_, ournal of the American Mathematical Society Vol. 2, No. 1 (Jan., 1989), pp. 1-31 ([jstor:1990911](https://www.jstor.org/stable/1990911))
