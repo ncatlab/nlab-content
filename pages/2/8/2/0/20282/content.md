@@ -1,0 +1,34 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Given a [[topological space]] $X$, then a set of [[subset]] $\{S_i \subset X\}_{i \in I}$ is _countably locally finite_ if it is a countable union of [[locally finite set of subsets|locally finite sets of subsets]].
+
+This property is used in [[Nagata-Smirnov metrization theorem]].
+
+## Related concepts
+
+* [[locally finite cover]]
+* [[locally finite set of subsets]]
+
+## References
+
+* [Pi-base](https://topology.jdabbs.com/properties/P000054)
+
+
+[[!redirects locally finite sets of subsets]]
