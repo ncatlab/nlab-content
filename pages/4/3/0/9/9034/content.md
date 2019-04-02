@@ -53,7 +53,7 @@ The Cayley 4-form constitutes a [[calibration]] of the [[Euclidean space]] $\mat
 ### Grassmannian of Cayley 4-planes
  {#GrassmannianOfCayley4Planes}
 
-A [[calibrated submanifold]] for $\Phi$ is also called a _Cayley 4-plane_.
+A [[calibrated submanifold]] for $\Phi$ is also called a _Cayley 4-plane_ (not to be confused with the [[Cayley plane]]).
 
 ([Harvey-Lawson 82, Def. 1.23](#HarveyLawson82))
 
