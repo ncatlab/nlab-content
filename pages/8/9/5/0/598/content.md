@@ -668,6 +668,8 @@ One place in the literature where the observation that $W G $ is the [[decalage]
 
 * [[∞-group]], **simplicial group**, [[crossed complex]], [[hypercrossed complex]]
 
+* [[model structure on simplicial groups]]
+
 * [[Borel model structure]]
 
 
