@@ -8,6 +8,7 @@ A [[topological space]] $ X $ is [[metrisable topological space|metrisable]] if 
 
 ## Related theorems
 
+* [[metrization theorem]]
 * [[Urysohn metrization theorem]]
 
 ## Related concepts
