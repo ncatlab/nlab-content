@@ -96,6 +96,8 @@ If $f$ is a proper map (def. \ref{ProperContinuous}), then it is a [[closed map]
 
 * [[proper group action]]
 
+* [[proper homotopy]]
+
 [[!redirects proper maps]]
 [[!redirects proper continuous map]]
 [[!redirects proper continuous maps]]
