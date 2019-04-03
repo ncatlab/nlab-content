@@ -20,7 +20,7 @@
 
 ## Idea
 
-A _homology sphere_ is a [[topological space]] which need not be [[homeomorphism|homeomorphism]] to an [[n-sphere]], but which has the some [[ordinary homology]] as an $n$-sphere. 
+A _homology sphere_ is a [[topological space]] which need not be [[homeomorphism|homeomorphic]] to an [[n-sphere]], but which has the same [[ordinary homology]] as an $n$-sphere. 
 
 ## Related concepts
 
