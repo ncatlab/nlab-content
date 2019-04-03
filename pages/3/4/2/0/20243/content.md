@@ -273,7 +273,37 @@ This follows essentially from the [[quaternionic Hopf fibration]] and its $Sp(2)
 
 (e.g. [Bettiol-Mendes 15, (3.1), (3.2), (3.3)](#BettiolMendes15))
 
+
+### Spin-Grassmannians
+ {#SpinGrassmannians}
+
+We have the following [[coset spaces]] of [[spin groups]] by dot-products of Spin groups as above:
+
+$$
+  Spin(7)/ \big(  Spin(4)\cdot Spin(3) \big)
+  \;\simeq\;
+  SO(7) / \big( SO(4) \times SO(3)  \big)
+  \;\simeq\;
+  Gr(4, 7)
+$$
+
+is the space of [[Cayley 4-planes]] ([[Cayley 4-form]]-[[calibrated submanifolds]] in 8d [[Euclidean space]]), which in turn is [[homeomorphism|homeomorphic]] to just the plain [[Grassmannian]] of 4-planes in 7d (recalled e.g. in [Ornea-Piccini 00, p. 1](#OrneaPiccini00))
+
+Moreover, 
+
+$$
+  Spin(8)/ \big(  Spin(5)\cdot Spin(3) \big)
+  \;\simeq\;
+  Gr(3, 8)
+$$
+
+is the [[Grassmannian]] of 3-planes in 8d. ([Cadek-Vanzura 97, Lemma 2.6](#CadekVanzura97)).
+
+
+
 \linebreak
+
+
 
 
 ## Related concepts
