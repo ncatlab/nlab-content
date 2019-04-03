@@ -31,7 +31,7 @@ $$
   \right)
    \;\Leftrightarrow\;
   \left(
-    (\pi(v_1) = \pi(v)_1)
+    (\pi(v_1) = \pi(v_2))
     \,\text{and}\,
     \left(
       \underset{c \in k \setminus \{0\}}{\exists}
