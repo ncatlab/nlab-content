@@ -239,7 +239,7 @@ by the triple diagonal center
   \mathbb{Z}_2
   \;\simeq\;
   \big\{ 
-    (1,1,1), (-1,-1,1)
+    (1,1,1), (-1,-1,-1)
   \big\}
   \hookrightarrow
   Spin(3) \times Spin(3) \times Spin(3)
