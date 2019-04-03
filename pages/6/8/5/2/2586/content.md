@@ -309,6 +309,8 @@ Discussion of the [[cohomology]] of the [[classifying space]] $B Spin$ includes
 
 * E. Thomas, _On the cohomology groups of the classifying space for the stable spinor groups_, Bol. Soc. Mat. Mexicana (2) 7 (1962) 57-69.
 
+* {#Pittie91} [[Harsh Pittie]], _The integral homology and cohomology rings of SO(n) and Spin(n)_, Journal of Pure and Applied Algebra Volume 73, Issue 2, 19 August 1991, Pages 105&#8211;153 (<a href="https://doi.org/10.1016/0022-4049(91)90108-E">doi:10.1016/0022-4049(91)90108-E</a>)
+
 [[!redirects spin groups]]
 
 [[!redirects Spin group]]
