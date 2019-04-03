@@ -293,7 +293,7 @@ However, the even earlier paper:
 
 * Joseph Wolff, _Complex homogeneous contact manifolds and quaternionic symmetric spaces_, Journal of Mathematics and Mechanics, vol. 14 (1965), pp. 1033-1048.
 
-describes this construction as a "local [[direct product]]" of [[topological groups]] and applies it to the classification of [[quaternionic manifolds]]. This notation in the classical paper of [Bonan](#) for this group is $V_{4n} [Sp(n) \otimes_\mathbf{H} Sp(1)]$. 
+describes this construction as a "local [[direct product]]" of [[topological groups]] and applies it to the classification of [[quaternionic manifolds]]. The notation in the classical paper of [Bonan](#) for this group is $V_{4n} [Sp(n) \otimes_\mathbf{H} Sp(1)]$. 
 
 Of early algebraic interest is the structure theory article:
 
@@ -301,6 +301,8 @@ Of early algebraic interest is the structure theory article:
 
 ### $Sp(2)\cdot Sp(1)$
  {#ReferencesSp2Sp1}
+
+Articles dealing specifically with the grouo $Sp(2)\cdot Sp(1)$:
 
 * {#CadekVanzura97} [[Martin Čadek]], [[Jiří Vanžura]], Section 2 of _On $Sp(2)$ and $Sp(2) \cdot Sp(1)$-structures  in 8-dimensional vector bundles_, Publicacions Matemàtiques Vol. 41, No. 2 (1997), pp. 383-401 ([jstor:43737249](https://www.jstor.org/stable/43737249))
 
@@ -318,7 +320,7 @@ Second Series, Vol. 92, No. 2 (1970), pp. 189-223 ([jstor:1970834](https://www.j
 
 * {#HarveyLawson82} [[Reese Harvey]], [[H. Blaine Lawson]], theorem 1.38 of _Calibrated geometries_, Acta Math. Volume 148 (1982), 47-157 ([Euclid:1485890157](https://projecteuclid.org/euclid.acta/1485890157))
 
-* {#BryantHarvey89} [[Robert Bryant]], [[Reese Harvey]], (3.19) in _Submanifolds in Hyper-Kähler Geometry_, ournal of the American Mathematical Society Vol. 2, No. 1 (Jan., 1989), pp. 1-31 ([jstor:1990911](https://www.jstor.org/stable/1990911))
+* {#BryantHarvey89} [[Robert Bryant]], [[Reese Harvey]], (3.19) in _Submanifolds in Hyper-Kähler Geometry_, Journal of the American Mathematical Society Vol. 2, No. 1 (Jan., 1989), pp. 1-31 ([jstor:1990911](https://www.jstor.org/stable/1990911))
 
 * {#GluckMackenzieMorgan95} Herman Gluck, Dana Mackenzie, Frank Morgan, (5.20) in _Volume-minimizing cycles in Grassmann manifolds_, Duke Math. J. Volume 79, Number 2 (1995), 335-404 ([euclid:1077285156](https://projecteuclid.org/euclid.dmj/1077285156))
 
