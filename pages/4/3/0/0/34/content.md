@@ -153,9 +153,9 @@ There are many different _models_ for bringing the abstract notion of higher cat
 
     * [[0-category]]
 
-    * [[(?1)-category]]
+    * [[(-1)-category]]
 
-    * [[(?2)-category]]
+    * [[(-2)-category]]
 
   * [[n-poset]] = (n&#8722;1,n)-category
 
