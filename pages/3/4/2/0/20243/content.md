@@ -127,7 +127,8 @@ with the horizontal maps being [[group homomorphisms]] to [[Spin(8)]] and [[SO(8
 
 ## Examples
 
-### $n = 1$, the group $SO(4)$
+### $Sp(1)\cdot Sp(1)$ is $SO(4)$
+ {#SO4}
 
 The case of $Sp(n)\cdot Sp(1)$ for $n = 1$ is special, as in this case the canonical inclusion $Sp(n)\cdot Sp(1) \hookrightarrow SO(4n)$ becomes an [[isomorphism]]
 
@@ -287,7 +288,18 @@ $$
   Gr(4, 7)
 $$
 
-is the space of [[Cayley 4-planes]] ([[Cayley 4-form]]-[[calibrated submanifolds]] in 8d [[Euclidean space]]), which in turn is [[homeomorphism|homeomorphic]] to just the plain [[Grassmannian]] of 4-planes in 7d (recalled e.g. in [Ornea-Piccini 00, p. 1](#OrneaPiccini00))
+is the space of [[Cayley 4-planes]] ([[Cayley 4-form]]-[[calibrated submanifolds]] in 8d [[Euclidean space]]). This happens to also be [[homeomorphism|homeomorphic]] to just the plain [[Grassmannian]] of 4-planes in 7d (recalled e.g. in [Ornea-Piccini 00, p. 1](#OrneaPiccini00)).
+
+Similarly,
+
+$$
+  Spin(6)/ \big(  Spin(3)\cdot Spin(3) \big)
+  \;\simeq\;
+  SU(6)/ SO(4) 
+$$
+
+is the Grassmannian of those [[Cayley 4-planes]] that are also [[special Lagrangian submanifolds]] ([BBMOOY 96, p. 8](Cayley+form#BBMOOY96)).
+
 
 Moreover, 
 
@@ -298,6 +310,7 @@ $$
 $$
 
 is the [[Grassmannian]] of 3-planes in 8d. ([Cadek-Vanzura 97, Lemma 2.6](#CadekVanzura97)).
+
 
 
 
@@ -355,6 +368,9 @@ Second Series, Vol. 92, No. 2 (1970), pp. 189-223 ([jstor:1970834](https://www.j
 * {#GluckMackenzieMorgan95} Herman Gluck, Dana Mackenzie, Frank Morgan, (5.20) in _Volume-minimizing cycles in Grassmann manifolds_, Duke Math. J. Volume 79, Number 2 (1995), 335-404 ([euclid:1077285156](https://projecteuclid.org/euclid.dmj/1077285156))
 
 * {#Kerr96} Megan M. Kerr, Lemma 6.2 of _Some New Homogeneous Einstein Metrics on Symmetric Spaces_, Transactions of the American Mathematical Society, Vol. 348, No. 1 (1996), pp. 153-171 ([jstor:2155169](https://www.jstor.org/stable/2155169))
+
+* {#BBMOOY96} [[Katrin Becker]], [[Melanie Becker]], [[David Morrison]], [[Hirosi Ooguri]], Y. Oz, Z. Yin, (3.5) of _Supersymmetric Cycles in Exceptional Holonomy Manifolds and Calabi-Yau 4-Folds_, Nucl. Phys. B480:225-238, 1996 ([arXiv:hep-th/9608116](https://arxiv.org/abs/hep-th/9608116))
+
 
 * {#KacSmilga00} [[Victor Kac]], A.V. Smilga, around (1.10) in _Vacuum structure in supersymmetric Yang-Mills theories with any gauge group_, in _The Many Faces of the Superworld, pp. 185-234 (2000)_ ([arXiv:hep-th/9902029](https://arxiv.org/abs/hep-th/9902029), [doi:10.1142/9789812793850_0014](https://doi.org/10.1142/9789812793850_0014))
 
