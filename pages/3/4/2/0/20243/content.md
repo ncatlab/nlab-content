@@ -302,7 +302,7 @@ Of early algebraic interest is the structure theory article:
 ### $Sp(2)\cdot Sp(1)$
  {#ReferencesSp2Sp1}
 
-Articles dealing specifically with the grouo $Sp(2)\cdot Sp(1)$:
+Articles dealing specifically with the group $Sp(2)\cdot Sp(1)$:
 
 * {#CadekVanzura97} [[Martin Čadek]], [[Jiří Vanžura]], Section 2 of _On $Sp(2)$ and $Sp(2) \cdot Sp(1)$-structures  in 8-dimensional vector bundles_, Publicacions Matemàtiques Vol. 41, No. 2 (1997), pp. 383-401 ([jstor:43737249](https://www.jstor.org/stable/43737249))
 
