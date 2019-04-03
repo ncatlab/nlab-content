@@ -21,7 +21,7 @@
 
 | properties | implications |
 |--|--|
-| [[second-countable space|second-countable]]: there is a [[countable set|countable]] [[topological base|base]] of the topology. | A second-countable space has a [[countably locally finite set of subsets|$\sigma$-locally finite]] [[topological base|base]]:  |
+| [[second-countable space|second-countable]]: there is a [[countable set|countable]] [[topological base|base]] of the topology. | A second-countable space has a [[countably locally finite set of subsets|$\sigma$-locally finite]] [[topological base|base]]: take the the collection of singeltons of all elements of countable cover of $X$. |
 | $\sigma$-locally finite base, i.e. $X$ has a [[countably locally finite set of subsets|countably locally finite]] [[topological base|base]], e.g. a [[metrisable topological space]] by [[Nagata-Smirnov metrization theorem]]. | second-countable spaces are separable: [[countable choice|choose]] a point in each set of countable cover. |
 | [[separable space|separable]]: there is a countable [[dense subspace|dense]]  subset. | [[second-countable spaces are Lindelöf]] |
 | [[Lindelöf topological space|Lindelöf]]: every [[open cover]] has a [[countable cover|countable]] sub-cover. | [[weakly Lindelöf spaces with countably locally finite base are second countable]] |
