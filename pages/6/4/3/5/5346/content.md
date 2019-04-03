@@ -20,7 +20,8 @@
 
 ## Idea
 
-The _model structure on simplicial groups_ is a presentation of the [[∞-group]]s in [[∞Grpd]] $\simeq$ [[Top]]. See [[group object in an (∞,1)-category]].
+The _model structure on simplicial groups_ is a presentation of the 
+[[(∞,1)-category]] of [[∞-groups]] in [[∞Grpd]] $\simeq$ [[Top]]. See [[group object in an (∞,1)-category]].
 
 ## Definition
 
