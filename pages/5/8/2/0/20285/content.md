@@ -1,13 +1,14 @@
 \begin{centre}
   \begin{tikzcd}[row sep=huge, column sep=huge]
 	 & \text{second countable} & & \sigma\text{-locally finite base} \\
-	\text{separable space} & \text{Lindelöf} & & \substack{\text{weakly Lindelöf} \wedge \\ \sigma\text{locally finite base}} \\
+	\text{separable space} & \text{Lindelöf} & & \substack{\text{weakly Lindelöf} \wedge \\ \sigma\text{-locally finite base}} \\
     &  \text{weakly Lindelöf} & &
     \arrow[Rightarrow, from=1-2, to=2-1, 
         "\substack{\text{countable}\\ \text{choice}}"above left] 
     \arrow[Rightarrow, from=1-2, to=2-2,
         "\substack{\text{countable}\\ \text{choice}}"] 
-    \arrow[Rightarrow, from=2-1, to=2-2, "\text{if $X$ metacompact}"] 
+    \arrow[Rightarrow, from=2-1, to=2-2, 
+        "\substack{ \text{AC,} \\ \text{if $X$ metacompact}}"] 
     \arrow[Rightarrow, from=2-2, to=3-2]
     \arrow[Rightarrow, from=2-1, to=3-2]
     \arrow[Rightarrow, from=2-4, to=3-2]
