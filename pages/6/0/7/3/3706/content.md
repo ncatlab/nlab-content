@@ -171,6 +171,8 @@ The dg-Lagrangian submanifolds of a Courant Lie 2-algebroid $(\mathfrak{C}, \ome
 
 ## Related concepts
 
+* [[special Lagrangian submanifold]]
+
 * [[Lagrangian subspace]], [[Lagrangian Grassmannian]]
 
 * [[Lagrangian correspondence]], [[prequantized Lagrangian correspondence]]
