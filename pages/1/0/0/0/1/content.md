@@ -101,14 +101,17 @@ Presently only [Firefox](http://www.mozilla.com/firefox/) and its derivatives ha
 
 This means that presently **you should use Firefox** or its derivatives to view the $n$Lab ([free download of Firefox](https://www.mozilla.org/en-GB/firefox/new/?gclid=CJnjs-3R3M0CFRHhGwodA10Euw)).
 
-Historically, the nlab was powered by [Instiki](https://golem.ph.utexas.edu/wiki/instiki/show/HomePage), but now runs on a [custom fork](https://github.com/ncatlab/nlab). All bug reports or other software issues/requests for the $n$Lab are currently best raised in the category [nLab Technical Matters](https://nforum.ncatlab.org/21/) at the nForum, but can also be posted [at github](https://github.com/ncatlab/nlab/issues).
 
-## Server
+## Installation
  {#Server}
 
-The domain `ncatlab.org` is owned by [[Urs Schreiber]]. The server is hosted at Carnegie Mellon University, funded in the context of the [HoTT MURI grant](http://homotopytypetheory.org/2014/04/29/hott-awarded-a-muri/). The technical administration of the software installation is currently in the hands of [[Richard Williamson]]. (If you wish to lend a hand, please contact us.)
+The domain `ncatlab.org` is owned by [[Urs Schreiber]]. The $n$Lab server is hosted at Carnegie Mellon University, funded in the context of the [HoTT MURI grant](http://homotopytypetheory.org/2014/04/29/hott-awarded-a-muri/). The technical administration of the software installation is currently in the hands of [[Richard Williamson]]. (If you wish to lend a hand, please contact us.)
 
-> The nLab runs on a server at Carnegie Mellon University that is supported by MURI grant FA9550-15-1-0053 from the Air Force Office of Scientific Research. Any opinions, findings and conclusions or recommendations expressed on the nLab are those of the authors and do not necessarily reflect the views of the AFOSR.
+> The nLab runs on a server at Carnegie Mellon University that is supported by MURI grant FA9550-15-1-0053 from the Air Force Office of Scientific Research. Any opinions, findings and conclusions or recommendations expressed on the nLab are those of the authomors and do not necessarily reflect the views of the AFOSR.
+
+Historically, the $n$Lab was powered by [Instiki](https://golem.ph.utexas.edu/wiki/instiki/show/HomePage), but now runs on a [custom fork](https://github.com/ncatlab/nlab). All bug reports or other software issues/requests for the $n$Lab are currently best raised in the category [nLab Technical Matters](https://nforum.ncatlab.org/21/) at the nForum, but can also be posted [at github](https://github.com/ncatlab/nlab/issues).
+
+The $n$Lab page style is due to [[Jake Bian]], originating with his [Kan browser extension](https://sites.google.com/keplr.io/kan) 
 
 
 ## Steering Committee 
