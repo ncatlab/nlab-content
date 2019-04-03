@@ -22,6 +22,7 @@ Just as a [[functor|functor]] is a [[morphism]] between [[category|categories]],
 
 Natural transformations are the [[2-morphism]]s in the [[2-category]] [[Cat]].
 
+
 ## Definition ##
 
 ### Explicit definition
