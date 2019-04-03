@@ -8,6 +8,9 @@
 =--
 =--
 
+
+Named after [[Ernst Leonard Lindelöf]].
+
 #Contents#
 * table of contents
 {:toc}
@@ -16,21 +19,15 @@
 
 A [[topological space]] is a _Lindel&#246;f space_ if every [[open cover]] has a [[countable set|countable]] subcollection the union of which is dense.
 
-## Examples
-
-* Every [[Lindelöf topological space]] is weakly Lindel&#246;f.
-
 ## Related properties and theorems
 
 [[!include topology - global countability axioms]]
 
 ## References
 
-Named after [[Ernst Leonard Lindelöf]].
+* [Weakly Lindelöf](https://topology.jdabbs.com/properties/P000062), $\pi$-Base.
 
-See also 
 
-* [$\pi$-Base](https://topology.jdabbs.com/properties/P000062)
 [[!redirects weakly Lindelöf topological spaces]]
 
 [[!redirects weakly Lindelöf space]]
