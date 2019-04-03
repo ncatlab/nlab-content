@@ -21,7 +21,7 @@ See also
 
 * [[Andrew Pitts|A. M. Pitts]], _Nominal sets_, Cambridge University Press 2013
 
-* Daniela Petrisan, _Algebra and topology over nominal sets_, PhD thesis, Leicester 2010, [pdf](http://cs.ru.nl/D.Petrisan/thesis.pdf)
+* Daniela Petrisan, _Algebra and topology over nominal sets_, PhD thesis, Leicester 2010, [pdf](https://www.irif.fr/~petrisan/thesis.pdf)
 
 * M. J. Gabbay, [[Andrew Pitts|A. M. Pitts]], _A NEW approach to abstract syntax with variable binding_, Formal Aspects of Computing **13** (2002) pp.341-363. ([draft](http://www.cl.cam.ac.uk/~amp12/papers/newaas/newaas-jv.pdf))
 
