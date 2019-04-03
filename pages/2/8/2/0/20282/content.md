@@ -17,9 +17,11 @@
 
 ## Definition
 
-Given a [[topological space]] $X$, then a set of [[subsets]] $\{S_i \subset X\}_{i \in I}$ is _countably locally finite_ if it is a countable union of [[locally finite set of subsets|locally finite sets of subsets]].
+Given a [[topological space]] $X$, then a set of [[subsets]] $\{S_i \subset X\}_{i \in I}$ is _countably locally finite_ or _$\sigma$-locally finite_ if it is a countable union of [[locally finite set of subsets|locally finite sets of subsets]].
 
-This property is used in [[Nagata-Smirnov metrization theorem]].
+This property is used in [[Nagata-Smirnov metrization theorem]]:
+
+[[!include Nagata-Smirnov metrization theorem - main theorem]]
 
 ## Related concepts
 
