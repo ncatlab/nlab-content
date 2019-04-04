@@ -103,6 +103,8 @@ A & & & & A \times 2 \times B & & & & B.
 
 * [[join of categories]]
 
+* [[join of simplicial sets]]
+
 ## References
 
 * [[William Lawvere]], Ordinal sums and equational doctrines. In ''Seminar on Triples and Categorical Homology Theory'', LNM 80 (1969), pp. 141-155.
