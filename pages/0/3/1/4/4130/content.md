@@ -106,7 +106,7 @@ A review is in section 3 of
 * [[Thomas Fiore]], [[Simona Paoli]], _A Thomason model structure on the category of small $n$-fold categories_  ([arXiv:0808.4108](http://arxiv.org/abs/0808.4108))
  {#FiorePaoli}
 
-The relation to the [[nerve]] of the [[category of simplices]] is disucssed in 
+The relation to the [[nerve]] of the [[category of simplices]] is discussed in 
 
 * R. W. Thomason, _Cat as a closed model category_, Cahiers Topologie G&#233;om. Diff&#233;rentielle, 21(3):305&#8211;324, 1980.
  {#Thomason}
