@@ -125,6 +125,8 @@ This phenomenon has traditionally been known somewhat implicitly in the context 
 
 * [[flux]]
 
+* [[dyon]]
+
 * [[magnetic field]]
 
 * [[magnetic moment]]
