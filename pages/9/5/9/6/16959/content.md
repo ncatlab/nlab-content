@@ -130,6 +130,14 @@ The same idea applies to a general space $X$; an $H$-space structure and higher 
 
 ## References
 
+Discussion of relation to homotopy limits etc.
+
+* Jean-Paul Doeraene, _Homotopy pull backs, homotopy push outs and joins_,     Bull. Belg. Math. Soc. Simon Stevin,    Volume 5, Number 1 (1998), 15-37. [pdf on Project Euclid](https://projecteuclid.org/euclid.bbms/1103408963)
+
+Comparison with other forms of join:
+
+*  [[Rudolf Fritsch]] and [[Marek Golasinski]], _Topological, simplicial and categorical joins_, Archiv der Mathematik 82(5):468-480, January 2004. 
+
 Discussion in [[homotopy type theory]] (applied to [[n-image]] factorization) is in 
 
 * {#Rijke17} [[Egbert Rijke]], _The join construction_ ([arXiv:1701.07538](https://arxiv.org/abs/1701.07538))
