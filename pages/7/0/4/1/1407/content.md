@@ -43,7 +43,7 @@ String theory is a [[theory (physics)|theory]] in fundamental [[physics]]. Certa
 Below we indicate the basic idea and provide pointers to further details. See also the _[[string theory FAQ]]_.
 
 
-### Conceptually: String perturbation theory from QFT worldline formalism
+### Conceptually: From QFT worldline formalism
 
 _Perturbative string theory_ is something at least close to a [[vertical categorification|categorification]] of the following description of _[[perturbation theory|perturbative]] [[quantum field theory]]_ in terms of sums over [[Feynman diagrams]].
 
