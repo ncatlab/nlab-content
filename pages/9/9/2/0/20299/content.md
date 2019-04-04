@@ -1,4 +1,4 @@
-W. Stephen Wilson is an American homotopy theorist based at John Hopkins University. He specializes 'in the use and development of complex (co)bordism, Brown-Peterson (co)homology and Morava K-theory'.
+W. Stephen Wilson is an American [[homotopy theory|homotopy theorist]] based at John Hopkins University. He specializes 'in the use and development of [[MU|complex (co)bordism]], [[BP|Brown-Peterson (co)homology]] and [[Morava K-theory]]'.
 
 
 * [Mathematical Home Page](http://www.math.jhu.edu/~wsw/)
