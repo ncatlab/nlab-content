@@ -5,6 +5,8 @@
 
 * {#FritschPiccinini90} [[Rudolf Fritsch]], Renzo Piccinini, _Cellular structures in topology_, Cambridge University Press (1990)
 
+* with [[Dana May Latch]], _Homotopy inverses for nerve_, Bull. Amer. Math. Soc. (N.S.), Volume 1, Number 1 (1979), 258-262.
+
 ## related $n$Lab entries
 
 * [[CW-complex]]
