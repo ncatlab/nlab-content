@@ -58,7 +58,7 @@ As we can define a [[measurable subset]] of a smooth manifold similarly, this me
 
 ## Logic of full/null sets
 
-A property of elements of $X$ (given by a [[subset]] $S$ of $X$) can be considered modulo null sets.  We say that the property $\phi$ is true __almost everywhere__ if it is true on some full set, that is if $\{X | \phi\}$ is full.  Dually, we say that $\phi$ is true __almost nowhere__ if $\{X | \phi\}$ is null.  It is better to use the [[negation]] of 'almost nowhere', although the terminology for this is not really standard; say that $\phi$ is true __somewhere significant__ if $\{X | \phi\}$ is non-null.
+A property of elements of $X$ (given by a [[subset]] $S$ of $X$) can be considered modulo null sets.  We say that the property $\phi$ is true __almost everywhere__ or __almost always__ if it is true on some full set, that is if $\{X | \phi\}$ is full.  Dually, we say that $\phi$ is true __almost nowhere__ or __almost never__ if $\{X | \phi\}$ is null.  It is better to use the [[negation]] of 'almost nowhere', although the terminology for this is not really standard; say that $\phi$ is true __somewhere significant__ if $\{X | \phi\}$ is non-null.
 
 Note that being true almost everywhere is a weakening of being true everywhere (given by the [[universal quantifier]] $\forall$), while being true somewhere significant is a strengthening of being true somewhere (given by the [[particular quantifier]] $\exists$).  Indeed we can build a logic out of these.  Use $\ess\forall i, \phi[i]$ or $\ess\forall \phi$ to mean that a [[predicate]] $\phi$ on $X$ is true almost everywhere, and use $\ess\exists i, \phi[i]$ or $\ess\exists \phi$ to mean that $\phi$ is true somewhere significant.  Then we have:
 $$\forall \phi \;\Rightarrow\; \ess\forall \phi$$
