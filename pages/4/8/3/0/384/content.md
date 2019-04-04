@@ -586,7 +586,7 @@ Basic textbook accounts include
 
 * {#HatcherK} [[Allen Hatcher]], _Vector bundles & K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
-* {#FP} Rudolf Fritsch and Renzo A. Piccinini, _Cellular structures in topology_, Cambridge studies in advanced mathematics Vol. 19, Cambridge University Press (1990). ([pdf](https://epub.ub.uni-muenchen.de/4493/1/4493.pdf)) 
+* {#FP} [[Rudolf Fritsch]], Renzo A. Piccinini, _Cellular structures in topology_, Cambridge studies in advanced mathematics Vol. 19, Cambridge University Press (1990). ([pdf](https://epub.ub.uni-muenchen.de/4493/1/4493.pdf)) 
 
 
 * {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 5.1 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
