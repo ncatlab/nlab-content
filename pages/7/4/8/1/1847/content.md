@@ -375,7 +375,7 @@ A basic discussion with an eye towards [[abelian sheaf cohomology]] and abelian 
 * [[Jean-Luc Brylinski]], _Loop spaces, characteristic classes geoemetric quantization_
 {#Brylinski} 
 
-* {#FP} Rudolf Fritsch and Renzo A. Piccinini, _Cellular structures in topology_, Cambridge studies in advanced mathematics Vol. 19, Cambridge University Press (1990). ([pdf](https://epub.ub.uni-muenchen.de/4493/1/4493.pdf)) 
+* {#FP} [[Rudolf Fritsch]], Renzo A. Piccinini, _Cellular structures in topology_, Cambridge studies in advanced mathematics Vol. 19, Cambridge University Press (1990). ([pdf](https://epub.ub.uni-muenchen.de/4493/1/4493.pdf)) 
   
 
 Discussion of paracompactness of [[CW-complexes]] includes
