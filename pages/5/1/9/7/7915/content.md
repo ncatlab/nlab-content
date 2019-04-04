@@ -1,5 +1,4 @@
 
-> see also _[[contact geometry]]_
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -10,6 +9,7 @@
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
@@ -69,6 +69,7 @@ One of the milestones in the study of contact geometry is Bennequin's proof of t
 
 * [[generalized contact geometry]]
 
+* [[Sasakian manifold]]
 
 
 ## References
@@ -77,6 +78,9 @@ One of the milestones in the study of contact geometry is Bennequin's proof of t
 
 Monographs and introductions include 
 
+* [[Hansjörg Geiges]], _Contact geometry_, in F.J.E. Dillen and L.C.A. Verstraelen, (eds.), _Handbook of Differential Geometry vol. 2  North-Holland, Amsterdam (2006), pp. 315-382 ([arXiv:math/0307242](http://arxiv.org/abs/math/0307242))
+
+
 * {#Geiges} [[Hansjörg Geiges]], _An Introduction to Contact Topology_, Cambridge Studies in Advanced Mathematics 109, Cambridge University Press, Cambridge, (2008) ([pdf](http://www.cmi.ac.in/~aneesh/textbooks/Geiges.pdf))
  
 
@@ -84,6 +88,7 @@ Monographs and introductions include
   
 
 * John Etnyre, _Introductory lectures on contact geometry_ Proc. Sympos. Pure Math.  71 (2003), 81-107.  ([pdf](http://people.math.gatech.edu/~etnyre/preprints/papers/contlect.pdf))
+
 
 A [[higher differential geometry]]-generalization of contact geometry in line with [[multisymplectic geometry]]/[[n-plectic geometry]] is discussed in 
 
@@ -122,14 +127,20 @@ See also
 
 See also
 
-* [[Hansjörg Geiges]], _Contact structures on 1-connected 5-manifolds_,
-Mathematika 38 (1991), 303-311; _Contact structures on $(n-1)$-connected $(2n+1)$-manifolds_, Pacific J. Math. 161 (1993), 129-137; 
-_Constructions of contact manifolds_, Math. Proc. Cambridge Philos. Soc. 121 (1997), 455-464; _Normal contact structures on 3-manifolds_,
+* [[Hansjörg Geiges]], _Contact structures on 1-connected 5-manifolds_, Mathematika 38 (1991), 303-311; 
+
+* [[Hansjörg Geiges]], _Contact structures on $(n-1)$-connected $(2n+1)$-manifolds_, Pacific J. Math. 161 (1993), 129-137; 
+
+* [[Hansjörg Geiges]], _Constructions of contact manifolds_, Math. Proc. Cambridge Philos. Soc. 121 (1997), 455-464; 
+
+* [[Hansjörg Geiges]], _Normal contact structures on 3-manifolds_,
 T&#244;hoku Math. J. 49 (1997), 415-422. 
 
-* [[Hansjörg Geiges]], J. Gonzalo, _Moduli of contact circles_,
-J. Reine Angew. Math. 551 (2002), 41-85; _Contact geometry and complex surfaces_,
-Invent. Math. 121 (1995), 147-209. 
+* [[Hansjörg Geiges]], J. Gonzalo, _Moduli of contact circles_, J. Reine Angew. Math. 551 (2002), 41-85; _Contact geometry and complex surfaces_, Invent. Math. 121 (1995), 147-209. 
+
+
+
+
 
 [[!redirects contact manifolds]]
 
@@ -142,6 +153,11 @@ Invent. Math. 121 (1995), 147-209.
 
 [[!redirects regular contact manifold]]
 [[!redirects regular contact manifolds]]
+
+
+[[!redirects contact geometry]]
+[[!redirects contact geometries]]
+
 
 [[!redirects contactomorphism]]
 [[!redirects contactomorphisms]]
