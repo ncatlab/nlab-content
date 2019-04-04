@@ -66,7 +66,7 @@ An early original article with the statement is
 
 Textbook accounts include
 
-* {#FritschPiccinini90} Rudolf Fritsch, Renzo Piccinini, Theorem 1.3.5 (p. 29 and following) of _Cellular structures in topology_, Cambridge University Press (1990)
+* {#FritschPiccinini90} [[Rudolf Fritsch]], Renzo Piccinini, Theorem 1.3.5 (p. 29 and following) of _Cellular structures in topology_, Cambridge University Press (1990)
 
 [[!redirects every CW-complex is a Hausdorff space]]
 [[!redirects every CW-complex is a Hausdorff topological space]]
