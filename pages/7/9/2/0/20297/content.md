@@ -7,9 +7,12 @@
 
 ## related $n$Lab entries
 
-* [[CW-complexes are paracompact Hausdorff spaces]]
+* [[CW-complex]]
 
 * [[paracompact topological space]]
+
+* [[CW-complexes are paracompact Hausdorff spaces]]
+
 
 
 category:people
