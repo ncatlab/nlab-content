@@ -26,6 +26,7 @@ $\,$
 
 [[About|This]] is a [wiki](http://en.wikipedia.org/wiki/Wiki)-lab for collaborative work on _[[Mathematics]]_, _[[Physics]]_ and _[[Philosophy]]_ --- especially from the [[n-point of view]]: in so far as these subjects are usefully treated with tools and notions of [[category theory]] or [[higher category theory]].
 
+
 # The $n$Lab
 * table of contents
 {:toc}
@@ -101,18 +102,29 @@ Presently only [Firefox](http://www.mozilla.com/firefox/) and its derivatives ha
 
 This means that presently **you should use Firefox** or its derivatives to view the $n$Lab ([free download of Firefox](https://www.mozilla.org/en-GB/firefox/new/?gclid=CJnjs-3R3M0CFRHhGwodA10Euw)).
 
+\linebreak
 
-## Server
+## Server and setup
  {#Server}
 
-The domain `ncatlab.org` is owned by [[Urs Schreiber]]. The $n$Lab server is hosted at Carnegie Mellon University, funded in the context of the [HoTT MURI grant](http://homotopytypetheory.org/2014/04/29/hott-awarded-a-muri/). The technical administration of the software installation is currently in the hands of [[Richard Williamson]]. (If you wish to lend a hand, please contact us.)
+The domain `ncatlab.org` is owned by [[Urs Schreiber]]. 
+
+The $n$Lab server is hosted at Carnegie Mellon University, funded in the context of the [HoTT MURI grant](http://homotopytypetheory.org/2014/04/29/hott-awarded-a-muri/). 
 
 > The nLab runs on a server at Carnegie Mellon University that is supported by MURI grant FA9550-15-1-0053 from the Air Force Office of Scientific Research. Any opinions, findings and conclusions or recommendations expressed on the nLab are those of the authomors and do not necessarily reflect the views of the AFOSR.
 
-Historically, the $n$Lab was powered by [Instiki](https://golem.ph.utexas.edu/wiki/instiki/show/HomePage), but now runs on a [custom fork](https://github.com/ncatlab/nlab). All bug reports or other software issues/requests for the $n$Lab are currently best raised in the category [nLab Technical Matters](https://nforum.ncatlab.org/21/) at the nForum, but can also be posted [at github](https://github.com/ncatlab/nlab/issues).
+The technical administration of the software installation is currently in the hands of [[Richard Williamson]]. (If you wish to lend a hand, please [contact us](https://nforum.ncatlab.org/).)
 
 The $n$Lab page style is due to [[Jake Bian]], originating with his [Kan browser extension](https://sites.google.com/keplr.io/kan) 
 
+
+The $n$Lab logo is due to [[David Roberts]], inspired by Matisse's painting _[La Gerbe](https://collections.lacma.org/node/207557)_. Besides being an inside reference to [[schreiber:Higher Structures|higher structures]] known as _[[gerbes]]_, the logo represents maybe [[computational trinitarianism]] or the [[Science of Logic|progression of modalities]] or generally the unity of diverse mathematical phenomena revealed by the [[nPOV]]. 
+
+
+
+The $n$Lab runs on a [custom fork](https://github.com/ncatlab/nlab) of [Instiki](https://golem.ph.utexas.edu/wiki/instiki/show/HomePage). All bug reports or other software issues/requests for the $n$Lab are currently best raised in the category _[nLab Technical Matters](https://nforum.ncatlab.org/21/)_ at the [nForum](https://nforum.ncatlab.org/), but can also be posted [at github](https://github.com/ncatlab/nlab/issues).
+
+\linebreak
 
 ## Steering Committee 
  {#SteeringCommitte}
