@@ -94,7 +94,7 @@ $\mathcal{V}$-category (see [[enriched category]]). With that in mind, the paral
 * $\mathcal{V}$-categories with [[zero object]], _arbitrary_
   (co)[[products]] are [[biproducts]]
 
-is remarkable. This was probably first noticed by Dana May Latch, in
+is remarkable. This was probably first noticed by [[Dana May Latch]], in
 the 20th century, for the category of $\mathcal{V}$ of complete
 [[suplattices]]. 
 
