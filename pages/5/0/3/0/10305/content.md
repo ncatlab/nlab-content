@@ -31,11 +31,14 @@
 
 * if quarks themselves were bound states (which they are not according to the [[standard model of particle physics]]) then one would call them bound states of _[[preons]]_
 
+* [[D-branes]] and [[anti D-branes]] form bound states by [[tachyon condensation]], thought to imply the classification of [[D-brane charge]] by [[K-theory]]
+
 * [[D1-D5 brane bound states]]
 
 * [NS5-D4-D2 bound states](NS5-brane#NS5D4D2BoundStates)
 
-* [[D-branes]] and [[anti D-branes]] form bound states by [[tachyon condensation]], thought to imply the classification of [[D-brane charge]] by [[K-theory]]
+* [M2-M5 brane bound states](M2-brane#M2M5BoundStates)
+
 
 ## References
 
