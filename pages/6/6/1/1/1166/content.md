@@ -47,9 +47,9 @@ These properties of subsequential spaces should be compared with analogous ones 
 
 ## References
 
-* P. T. Johnstone, _On a topological topos_.  Proc. London Math. Soc. (3) 38 (1979) 237--271 doi:[10.1112/plms/s3-38.2.237](https://doi.org/10.1112/plms/s3-38.2.237)
+* [[Peter Johnstone]], _On a topological topos_.  Proc. London Math. Soc. (3) 38 (1979) 237--271 doi:[10.1112/plms/s3-38.2.237](https://doi.org/10.1112/plms/s3-38.2.237)
 
-* Matias Menni and Alex Simpson, _Topological and Limit-space Subcategories of
+* [[Matias Menni]] and [[Alex Simpson]], _Topological and Limit-space Subcategories of
 Countably-based Equilogical Spaces_, Math. Struct. in Comp. Science
 **12** (2002) pp739-770, ([PDF](http://homepages.inf.ed.ac.uk/als/Research/Sources/subcats.pdf)), doi:[10.1017/S0960129502003699](https://doi.org/10.1017/S0960129502003699)
 
