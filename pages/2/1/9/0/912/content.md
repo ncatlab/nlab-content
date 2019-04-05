@@ -14,15 +14,9 @@ Recall that, given any subset $A$ of *any* topological space, a point $x$ belong
 
 A topological space is __Frechet--Uryson__ (or __Frechet--Urysohn__) if a point $x$ of the closure of any given subset $A$ of $X$ is a limit point of at least one [[sequence]] whose elements belong to $A$.
 
+## Related countability properties
 
-## Examples
-
-Every [[first-countable space]] is a Frechet--Uryson space.
-
-
-## Properties
-
-Every Frechet&#8211;Uryson space is a [[sequential space]].
+[[!include topology - countability axioms]]
 
 
 [[!redirects Frechet-Uryson space ]]
