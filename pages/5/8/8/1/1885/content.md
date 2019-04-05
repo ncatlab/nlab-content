@@ -105,7 +105,7 @@ Just as there is a [[Postnikov decomposition]] of a space as a tower of fibratio
 * Example 2.40 of Hatcher [Algebraic Topology](http://www.math.cornell.edu/~hatcher/AT/ATch2.pdf).
  {#Hatcher}
 
-* [[Marek Golasinski]] and Gon&#231;alves, [On Co-Moore Spaces](http://www.mscand.dk/article.php?id=146)
+* [[Marek Golasinski]] and  [[Daciberg Lima Gon&#231;alves]], [On Co-Moore Spaces](https://www.mscand.dk/article/view/13841/11841)
 * [[Hans J. Baues]], Homotopy types, in Handbook of Algebraic Topology, (edited by I.M. James), North Holland, 1995.
 
 * Gunnar Carlsson "A counterexample to a conjecture of Steenrod"
