@@ -4,6 +4,9 @@
 
 ## selected writings
 
+* [[George Papadopoulos]], [[Dimitrios Tsimpis]], _The holonomy of the supercovariant connection and Killing spinors_, JHEP 0307:018, 2003 ([arXiv:hep-th/0306117](https://arxiv.org/abs/hep-th/0306117))
+
+  (on [[bound states]] of [[M2-branes]]-[[M5-branes]])
 
 * [[Dimitrios Tsimpis]], _11D supergravity at $\mathcal{O}(\ell^3)$_, JHEP0410:046, 2004 ([arXiv:hep-th/0407271](https://arxiv.org/abs/hep-th/0407271))
 
