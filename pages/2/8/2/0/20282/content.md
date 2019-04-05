@@ -27,10 +27,13 @@ This property is used in [[Nagata-Smirnov metrization theorem]]:
 
 * [[locally finite cover]]
 * [[locally finite set of subsets]]
+* [[locally discrete set of subsets]]
+* [[countably locally discrete set of subsets]]
 
 ## References
 
 * [σ-Locally Finite Base](https://topology.jdabbs.com/properties/P000054), $\pi$-Base.
 
 
-[[!redirects locally finite sets of subsets]]
+[[!redirects countably locally finite sets of subsets]]
+[[!redirects sigma-locally finite sets of subsets]]
