@@ -95,7 +95,7 @@ $$
 
 * {#GluckWarnerZiller86} Herman Gluck, Frank Warner, Wolfgang Ziller, _The geometry of the Hopf fibrations_, L'Enseignement Math&eacute;matique, t.32 (1986), p. 173-198
 
-* {#OrneaPartonPiccinniVuletescu12} Liviu Ornea, Maurizio Parton, Paolo Piccinni, Victor Vuletescu, _Spin(9) geometry of the octonionic Hopf fibration_, Transformation Groups (2013) 18: 845 ([arXiv:1208.0899](http://arxiv.org/abs/1208.0899), [doi:10.1007/s00031-013-9233-x]( https://doi.org/10.1007/s00031-013-9233-x))
+* {#OrneaPartonPiccinniVuletescu12} Liviu Ornea, Maurizio Parton, [[Paolo Piccinni]], Victor Vuletescu, _Spin(9) geometry of the octonionic Hopf fibration_, Transformation Groups (2013) 18: 845 ([arXiv:1208.0899](http://arxiv.org/abs/1208.0899), [doi:10.1007/s00031-013-9233-x]( https://doi.org/10.1007/s00031-013-9233-x))
 
 * {#Miyaoka93} [[Reiko Miyaoka]], _The linear isotropy group of $G_2/SO(4)$, the Hopf fibering and isoparametric hypersurfaces_, Osaka J. Math. Volume 30, Number 2 (1993), 179-202. ([Euclid](http://projecteuclid.org/euclid.ojm/1200784357))
 
