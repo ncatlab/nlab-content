@@ -72,7 +72,7 @@ systems of polyhedra and maps between them and his student Christie looked at th
 Borsuk (1968) developed [[shape theory]], which although initially very geometric in flavour turned out also to be described in terms of Christie's
 theory of the "&#268;ech extensions" of homotopy theory. 
 
-The first papers on this approach were by [[Tim Porter]]. They used the [[Vietoris complex]] of a space relative to an open cover as well as the [[Čech complex]] itself.  (By [[Dowker's Theorem]] the two complexes give the same information up to homotopy, but the [[Vietoris complex]] is a functor on the category of covers, having values in the category of simplicial sets, whilst the &#268;ech complex does not give so nice a structure as most naturally it takes values in the homotopy category of simplicial sets. In fact, that functor can be rigidified but this requires a certain amount of work.)
+The first papers on this approach were by [[Tim Porter]]. They used the [[Vietoris complex]] of a space relative to an open cover as well as the [[Čech nerve]] itself.  (By [[Dowker's Theorem]] the two complexes give the same information up to homotopy, but the [[Vietoris complex]] is a functor on the category of covers, having values in the category of simplicial sets, whilst the &#268;ech complex does not give so nice a structure as most naturally it takes values in the homotopy category of simplicial sets. In fact, that functor can be rigidified but this requires a certain amount of work.)
 
 Porter also gave a partial solution to the problem of the stability of a space, that is whether it has the same &#268;ech homotopy as a polyhedron. The methods developed for that problem then suggested the existence of a homotopy theory for pro-simplicial sets related to homotopy coherence.  That observation was also made by Edwards and Hastings, who proposed a strong shape theory based on what they termed [[Steenrod homotopy]]. This relates to [[Alexander-Čech duality|Steenrod-Sitnikov homology]].
 
@@ -189,3 +189,5 @@ than strong shape theory -- one thus, in some sense, arrives in $pro
 Ho(\mathbf{A})$ instead of in $Ho(pro \mathbf{A})$.  This problem has been in part resolved with Grothendieck's theory of _Derivateurs_ (see the volume by Maltsiniotis.)
 
 * see also [[abelian sheaf cohomology]]
+
+[[!redirects &#268;ech methods]]
