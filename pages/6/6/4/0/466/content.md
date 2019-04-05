@@ -170,7 +170,7 @@ The Yoneda lemma has the following direct consequences. As the Yoneda lemma itse
 
 ### corollary I: Yoneda embedding
 
-The Yoneda lemma implies that the [[Yoneda embedding]] functor $Y : C \to [C^op,Set]$ really is an _embedding_ in that it is a [[full and faithful functor]], because for $c,d \in C$ it naturally induces the isomorphism of Hom-sets.
+The Yoneda lemma implies that the [[Yoneda embedding]] functor $y \colon C \to [C^op,Set]$ really is an _embedding_ in that it is a [[full and faithful functor]], because for $c,d \in C$ it naturally induces the isomorphism of Hom-sets.
 
 $$
   [C^{op},Set](C(-,c),C(-,d)) \simeq (C(-,d))(c) = C(c,d)
@@ -179,21 +179,21 @@ $$
 
 ### corollary II: uniqueness of representing objects 
 
-Since the [[Yoneda embedding]] is a [[full and faithful functor]], an [[isomorphism]] of [[representable functor|representable presheaves]] $Y(c) \simeq Y(d)$ must come from an [[isomorphism]] of the representing objects $c \simeq d$:
+Since the [[Yoneda embedding]] is a [[full and faithful functor]], an [[isomorphism]] of [[representable functor|representable presheaves]] $y(c) \simeq y(d)$ must come from an [[isomorphism]] of the representing objects $c \simeq d$:
 
 $$
-  Y(c) \simeq Y(d) \;\; \Leftrightarrow \;\;
+  y(c) \simeq y(d) \;\; \Leftrightarrow \;\;
   c \simeq d
 $$
 
 ### corollary III: universality of representing objects
 
-A [[nLab:presheaf|presheaf]] $X : C^{op} \to Set$ is [[nLab:representable functor|representable]] precisely if the [[nLab:comma category|comma category]] $(Y,const_X)$ has a [[nLab:terminal object|terminal object]]. If a [[nLab:terminal object|terminal object]] is $(d, f : Y(d) \to X) \simeq (d, f \in X(d))$ then $X \simeq Y(d)$.
+A [[presheaf|presheaf]] $X \colon C^{op} \to Set$ is [[representable functor|representable]] precisely if the [[comma category|comma category]] $(y,const_X)$ has a [[terminal object]]. If a [[terminal object]] is $(d, f : y(d) \to X) \simeq (d, f \in X(d))$ then $X \simeq y(d)$.
 
-This follows from unwrapping the definition of morphisms in the [[nLab:comma category|comma category]] $(Y,const_X)$ and applying the Yoneda lemma to find
+This follows from unwrapping the definition of [[morphisms]] in the [[comma category]] $(y,const_X)$ and applying the Yoneda lemma to find
 
 $$
-  (Y,const_X)((c,f \in X(c)), (d, g \in X(d)))
+  (y,const_X)((c,f \in X(c)), (d, g \in X(d)))
   \simeq
   \{
     u \in C(c,d) : X(u)(g) = f
@@ -201,7 +201,7 @@ $$
   \,.
 $$
 
-Hence $(Y,const_X)((c,f \in X(c), (d, g \in X(d))) \simeq pt$ says precisely that $X(-)(f) : C(c,d) \to X(c)$ is a bijection.
+Hence $(y,const_X)((c,f \in X(c), (d, g \in X(d))) \simeq pt$ says precisely that $X(-)(f) \colon C(c,d) \to X(c)$ is a bijection.
 
 ### Interpretation
 
