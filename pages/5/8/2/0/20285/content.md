@@ -1,21 +1,43 @@
-\begin{centre}
-  \begin{tikzcd}[row sep=huge, column sep=huge]
-	 & \text{second countable} & & \sigma\text{-locally finite base} \\
-	\text{separable space} & \text{Lindelöf} & & \substack{\text{weakly Lindelöf} \wedge \\ \sigma\text{-locally finite base}} \\
-    &  \text{weakly Lindelöf} & &
-    \arrow[Rightarrow, from=1-2, to=2-1, 
-        "\substack{\text{countable}\\ \text{choice}}"above left] 
-    \arrow[Rightarrow, from=1-2, to=2-2,
-        "\substack{\text{countable}\\ \text{choice}}"] 
-    \arrow[Rightarrow, from=2-1, to=2-2, "\text{if $X$ metacompact}"] 
-    \arrow[Rightarrow, from=2-2, to=3-2]
-    \arrow[Rightarrow, from=2-1, to=3-2, "\text{AC}"]
-    \arrow[Rightarrow, from=2-4, to=3-2]
-    \arrow[Rightarrow, from=2-4, to=1-4]
-    \arrow[Rightarrow, from=1-2, to=1-4]
-    \arrow[Rightarrow, from=2-4, to=1-2]
+[[!redirects topology - global countability axioms]]
+
+\begin{tikzcd}[row sep=huge, column sep=huge]
+	& & \scriptsize \text{metrisable} 
+	&
+	\\
+	& \text{second countable}  
+	& \sigma\text{-locally discrete base}                      
+	& \sigma\text{-locally finite base} 
+	\\  
+	\text{separable space} 
+	& \text{Lindel\"of}  
+	& \substack{\text{weakly Lindel\"of} \wedge \\ \sigma\text{-locally finite base}} 
+	& \text{first countable}
+	\\
+	& \text{weakly Lindel\"of} & 
+	& \text{sequential}
+	\\
+	& & & \text{Fr\'echet-Urysohn}
+	\\
+	& & &  \text{countably tight}
+	\arrow[Rightarrow, from=2-2, to=3-1, 
+	"\substack{\text{countable}\\ \text{choice}}"above left] 
+	\arrow[Rightarrow, from=2-2, to=3-2,
+	"\substack{\text{countable}\\ \text{choice}}"] 
+	\arrow[Rightarrow, from=3-1, to=3-2, "\text{if $X$ metacompact}"] 
+	\arrow[Rightarrow, from=3-2, to=4-2]
+	\arrow[Rightarrow, from=3-1, to=4-2, "\text{AC}"]
+	\arrow[Rightarrow, from=3-3, to=4-2]
+	\arrow[Rightarrow, from=3-3, to=2-4]
+	\arrow[Rightarrow, from=2-2, to=2-3]
+	\arrow[Rightarrow, from=2-3, to=2-4]
+	\arrow[Rightarrow, from=3-3, to=2-2]
+	\arrow[Rightarrow, from=2-4, to=3-4]
+	\arrow[Rightarrow, from=3-4, to=4-4]
+	\arrow[Rightarrow, from=4-4, to=5-4]
+	\arrow[Rightarrow, from=5-4, to=6-4]
+	\arrow[Rightarrow, from=1-3, to=2-3]
+	\arrow[Rightarrow, from=2-4, to=1-3, bend right, "\text{if $X$ regular and } \mathrm{T}_2"above right, "\substack{\text{Nagata-Smirnov}\\\text{metrization theorem}}"below left]
 \end{tikzcd}
-\end{centre}
 
 
 | properties | implications |
