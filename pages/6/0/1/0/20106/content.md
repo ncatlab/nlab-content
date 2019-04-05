@@ -56,6 +56,7 @@ See also
 
 * {#Caria19} Giacomo Caria on behalf of the [[Belle collaboration]], _Measurement of $R(D)$ and $R(D^\ast)$ with a semileptonic tag at Belle_, Moriond, EW  22/03/2019 ([pdf](http://moriond.in2p3.fr/2019/EW/slides/6_Friday/3_YSF/1_gcaria_moriond2019.pdf))
 
+* [[Belle Collaboration]], _Test of lepton flavor universality in $B \to K^\ast \ell^+ \ell^-$ decays at Belle_ ([arXiv:1904.02440](https://arxiv.org/abs/1904.02440))
 
 
 [[!redirects Belle]]
