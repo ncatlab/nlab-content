@@ -19,7 +19,7 @@
 
 ## Idea
 
-In [[string theory]], the term _gian graviton_ refers to [[wrapped brane]]-configurations which behave like massless [[relativistic particles]], notably [[gravitons]].
+In [[string theory]], the term _giant graviton_ refers to [[wrapped brane]]-configurations which behave like massless [[relativistic particles]], notably [[gravitons]].
 
 ## Related concepts
 
