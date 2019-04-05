@@ -27,7 +27,7 @@ A [[topological space]] is __first-countable__ if every [[point]] $x$ has a [[co
 =--
 
 
-## Generalisations
+## Generalizations
 
 The __character__ of a space at a point $x$ is the [[minimum]] of the [[cardinalities]] of the possible bases $B_x$.  We are implicitly using the [[axiom of choice]] here, to suppose that this set of cardinalities (which really is a [[small set]] because bounded above by the number of [[neighbourhoods]] of $x$, and [[inhabited set|inhabited]] by this number as well) has a minimum.  But without Choice, we can still consider this collection of cardinalities.
 
@@ -36,18 +36,9 @@ Then a first-countable space is simply one whose characters are all countable.
 The __character__, tout court, of a space is the [[supremum]] of the characters of its points; then a first-countable space is simply one with a countable character.
 
 
-## Examples
+## Related countability properties
 
-Any [[second-countable space]] must also be first-countable.
-
-Any [[metric space]] is first-countable.
-
-
-## Related concepts
-
-* **first-countable space**
-* [[second-countable space]]
-* [[separable space]]
+[[!include topology - countability axioms]]
 
 
 [[!redirects first-countable space]]
