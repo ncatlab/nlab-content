@@ -210,8 +210,9 @@ Notice that this includes configurations with the D4-branes and D2-branes contai
 
 Review includes [Camino 02, section 4.5](#Camino02)
 
-
 see also [Petri 18](#Petri18)
+
+For the lift to [[M-theory]] see at _[M2-M5 brane bound state](M2-brane#M2M5BoundStates)_
 
 
 
