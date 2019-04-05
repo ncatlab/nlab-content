@@ -21,6 +21,12 @@ Given a [[topological space]] $X$, then a set of [[subset]] $\{S_i \subset X\}_{
 
 often this property is consiered for [[open covers]], see at _[[locally finite open cover]]_. But the condition also plays a role for collections of subsets which are not open or not covering, for instance in [[Michael's theorem]] ([Michael 53, theorem 1](#Michael53)).
 
+## Related concepts
+
+* [[countably locally finite set of subsets]]
+
+* [[locally finite cover]]
+
 ## References
 
 * {#Michael53} [[Ernest Michael]], _A note on paracompact spaces_, Proc. Amer. Math. Soc. 1953 ([jstor](http://www.jstor.org/stable/2032419), [pdf](http://www.renyi.hu/~descript/papers/Michael_parakompakt.pdf))
