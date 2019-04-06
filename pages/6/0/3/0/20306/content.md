@@ -1,9 +1,9 @@
 
-* [institute page](https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=0fa687f9-d804-4349-9f37-9a8918acdd11)
+* [Institute page](https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=0fa687f9-d804-4349-9f37-9a8918acdd11)
 
 * [Mathematics Genealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=169553)
 
-## selected writings
+## Selected writings
 
 * [[Paolo Piccinni]], Giuliano Romani, _A generalization of symplectic Pontrjagin classes to vector bundles with structure group $Sp(n)\cdot Sp(1)$_,  Annali di Matematica pura ed applicata (1983) 133: 1 ([doi:10.1007/BF01766008](https://doi.org/10.1007/BF01766008))
 
@@ -21,7 +21,7 @@
 
   (on [[Cayley 4-planes]])
 
-## related $n$Lab entries
+## Related $n$Lab entries
 
 * [[Sp(n).Sp(1)]]
 
