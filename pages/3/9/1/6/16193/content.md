@@ -1,9 +1,9 @@
 
-* [webpage](http://iitp.ru/en/users/2420.htm)
+* [Webpage](http://iitp.ru/en/users/2420.htm)
 
 * [Mathematics Genealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=79852)
 
-## selected writings
+## Selected writings
 
 * {#Alekseevskii} [[Dmitry Alekseevsky]], _$G$-structure on a manifold_ in M. Hazewinkel (ed.) _Encyclopedia of Mathematics, Volume 4_
 
@@ -29,7 +29,7 @@
 
   (on [[super Lie algebra]] extensions)
 
-## related $n$Lab entries
+## Related $n$Lab entries
 
 * [[Sp(n).Sp(1)]]
 
