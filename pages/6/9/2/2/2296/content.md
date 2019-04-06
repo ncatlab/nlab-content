@@ -38,7 +38,7 @@ $$
   \,.
 $$
 
-Write $\omega$ for the standard [[line bundle]] on $\overline{\mathcal{M}}$ such that the [[sections]] of $\omega^{\otimes k$ are the ordinary [[modular forms]] of weight $k$ (as discussed there).
+Write $\omega$ for the standard [[line bundle]] on $\overline{\mathcal{M}}$ such that the [[sections]] of $\omega^{\otimes k}$ are the ordinary [[modular forms]] of weight $k$ (as discussed there).
 
 Then there is the [[descent spectral sequence]]
 
