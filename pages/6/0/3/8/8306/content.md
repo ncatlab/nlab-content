@@ -132,7 +132,7 @@ $$
 
 =--
 
-As before, if $R$ is commutative then this is equivalent to $f$ factoring through the [[tensor product of modules]]
+As before, if $R$ is [[commutative ring|commutative]] then this is equivalent to $f$ factoring through the [[tensor product of modules]]
 
 $$
  f : A \times B \to A \otimes_R B \to C
