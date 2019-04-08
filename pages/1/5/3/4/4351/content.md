@@ -19,7 +19,7 @@ A **hyperring** is a non-empty [[set]] $R$ equipped with a hyper-addition $+ : R
 
 1. $(R,\cdot)$ is a [[monoid]] with identity element $1$;
 
-1. $\forall r,s \in R : r(s+t) = r s + r t and (s + t) r = s r + t r$;
+1. $\forall r,s \in R : r(s+t) = r s + r t$ and $(s + t) r = s r + t r$;
 
 1. $\forall r \in R : r \cdot 0 = 0 \cdot r = 0$;
 
@@ -97,7 +97,7 @@ Modern applications in connection to the [[field with one element]] are discusse
 
 * [[Alain Connes]], [[Caterina Consani]], _The hyperring of ad&#232;le classes_ ([arXiv:1001.4260](http://arxiv.org/abs/1001.4260))
 
-* [[Alain Connes]], [[Caterina Consani]], _From monoids to hyperstructures: in search of an absolute arithmetic_ ([arXiv:1006.4810](http://uk.arxiv.org/abs/1006.4810))
+* [[Alain Connes]], [[Caterina Consani]], _From monoids to hyperstructures: in search of an absolute arithmetic_ ([arXiv:1006.4810](http://arxiv.org/abs/1006.4810))
 
 An overview is in
 
