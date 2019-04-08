@@ -148,7 +148,7 @@ See [[geometric quantization of symplectic groupoids]].
 
 The symplectic groupoid of a Poisson manifold is also the 
 [[reduced phase space]] of the open sector of the 
-correspondng [[Poisson sigma-model]]. ([Cattaneo-Felder 01](#CattaneoFelder01))
+corresponding [[Poisson sigma-model]]. ([Cattaneo-Felder 01](#CattaneoFelder01))
 
 ## Examples
 
