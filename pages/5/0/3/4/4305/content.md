@@ -23,7 +23,7 @@ $$
   V^{\otimes n} := V \otimes V \otimes \cdots \otimes V \;\; (n \;factors)
 $$
 
-is the $n$the **tensor power** of $V$.
+is the $n$th **tensor power** of $V$.
 
 There is accordingly also the $n$th tensor power of any [[morphism]] $f : V \to W$, being a morphism $f^{\otimes n} : V^{\otimes n} \to W^{\otimes n}$.  
 
