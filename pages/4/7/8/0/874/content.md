@@ -15,13 +15,14 @@
 =--
 
 
+
 # Contents
 * table of contents
 {: toc}
 
 ## Idea
 
-In the strict sense of the word, a _cartesian product_ is a [[product]] in [[Set]], the category of [[sets]]. Hence for $S_1$ and $S_2$ two [[sets]], their cartesian product is the set denoted $S_1\times S_2$ whose elements are [[ordered pairs]] of elements in $S_1$ and $S_2$, respectively.
+In the strict sense of the word, a _cartesian product_ is a [[product]] in [[Set]], the [[category]] of [[sets]]. Hence for $S_1$ and $S_2$ two [[sets]], their cartesian product is the set denoted $S_1\times S_2$ whose [[elements]] are [[ordered pairs]] of elements in $S_1$ and $S_2$, respectively.
 
 The abstract concept of such [[products]] generalizes from [[Set]] to any other [[category]] (as a special case of a category-theoretic _[[limit]]_), only that in general products of any given [[objects]] may or may not actually exist in that category. 
 
@@ -107,11 +108,11 @@ An important special case is a [[power]] of an object $X$, where (referring to n
 
 $$X^I = \prod_{i \in I} X$$
 
-Referring to notation above, if we take $Q = X$ and all $f_i: Q \to X_i$ to be the identity morphism $1_X: X \to X$, then the map 
+Referring to notation above, if we take $Q = X$ and all $f_i: Q \to X_i$ to be the [[identity morphism]] $1_X: X \to X$, then the map 
 
 $$(f_i)_{i \in I} = (1_X)_{i \in I}: X \to X^I$$ 
 
-is called the *diagonal map*, typically denoted by $\delta_X$ or $\Delta_X$. For example, we have a diagonal map 
+is called the *[[diagonal morphism]]*, typically denoted by $\delta_X$ or $\Delta_X$. For example, we have a diagonal map 
 
 $$\delta_X: X \to X \times X$$ 
 
@@ -120,17 +121,17 @@ for binary products.
 
 ### As a functor 
 
-If a category $C$ admits $I$-fold products (products over an indexing set $I$), then a product functor 
+If a [[category]] $C$ admits $I$-fold products (products over an indexing set $I$), then a product [[functor]] 
 
 $$\prod_I = \prod_{i \in I}: C^I \to C$$ 
 
-can be defined, taking a collection of objects $(c_i)_{i \in I}$ to their product, and taking a collection of morphisms $(f_i: c_i \to d_i)_{i \in I}$ to a morphism 
+can be defined, taking a collection of [[objects]] $(c_i)_{i \in I}$ to their product, and taking a collection of [[morphisms]] $(f_i: c_i \to d_i)_{i \in I}$ to a morphism 
 
 $$\prod_{i \in I} f_i: \prod_{i \in I} c_i \to \prod_{i \in I} d_i$$ 
 
-defined to be $(f_i \circ p_i: \prod_{i \in I} c_i \to d_i)_{i \in I}$, using the notation above. (N.B.: the category of (small) categories has itself small products, and the notation $C^I$ makes reference to this fact. With some care, we can remove the restriction to small categories.) 
+defined to be $(f_i \circ p_i: \prod_{i \in I} c_i \to d_i)_{i \in I}$, using the notation above. (N.B.: the [[Cat|category of (small) categories]] has itself small products, and the notation $C^I$ makes reference to this fact. With some care, we can remove the restriction to [[small categories]].) 
 
-As a functor, $\prod_I: C^I \to C$ is [[right adjoint]] to the diagonal functor $\Delta: C \to C^I$. The unit of the adjunction $1_C \to \prod \Delta$, at the component $c \in Ob(C)$, is the diagonal map 
+As a [[functor]], $\prod_I: C^I \to C$ is [[right adjoint]] to the diagonal functor $\Delta: C \to C^I$. The [[adjunction unit|unit of the adjunction]] $1_C \to \prod \Delta$, at the component $c \in Ob(C)$, is the [[diagonal morphism]] 
 
 $$\delta_c: c \to c^I$$ 
 
@@ -138,11 +139,11 @@ and the [[counit]] $\Delta \prod \to 1_{C^I}$ is the $I$-tuple of projection map
 
 $$p_i: \prod_{i \in I} c_i \to c_i$$ 
 
-Following the yoga of adjunctions, we can write the "tupling" $(f_i)_{i \in I}: Q \to \prod_{i \in X_i}$ in terms of the product functor and the unit/diagonal map: 
+Following the yoga of [[adjunctions]], we can write the "tupling" $(f_i)_{i \in I}: Q \to \prod_{i \in X_i}$ in terms of the product functor and the unit/diagonal map: 
 
 $$(f_i)_{i \in I} = \left(Q \stackrel{\delta_Q}{\to} \prod_{i \in I} Q \stackrel{\prod_{i \in I} f_i}{\to} \prod_{i \in I} X_i\right)$$ 
 
-while in the other direction, as stated in the universal property above, we can retrieve the components $f_i: Q \to X_i$ of a general map $f: Q \to \prod_{i \in I} X_i$ in terms of the diagonal functor and the counit/projection maps. It boils down to saying 
+while in the other direction, as stated in the [[universal property]] above, we can retrieve the components $f_i: Q \to X_i$ of a general map $f: Q \to \prod_{i \in I} X_i$ in terms of the diagonal functor and the counit/projection maps. It boils down to saying 
 
 $$f_i = \left(Q \stackrel{f}{\to} \prod_{i \in I} X_i \stackrel{p_i}{\to} X_i\right)$$ 
 
