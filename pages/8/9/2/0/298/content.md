@@ -253,3 +253,6 @@ A class of "free" vertex algebras are also quantized using [[Batalin-Vilkovisky 
 [[!redirects Vertex operator algebra]]
 
 [[!redirects vertex operator algebras]]
+
+[[!redirects VOA]]
+[[!redirects VOAs]]
