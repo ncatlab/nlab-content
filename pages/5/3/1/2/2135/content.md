@@ -183,7 +183,7 @@ This makes us want to say and make precise the statement that
 
 +-- {: .standout}
 
-An **concrete [[∞-stack]]** $X$ is one which has an _underlying_ [[(∞,1)-topos]] $\mathcal{X}$:
+A **concrete [[∞-stack]]** $X$ is one which has an _underlying_ [[(∞,1)-topos]] $\mathcal{X}$:
 
 the collection of $U$-probes of $X$ is a [[subobject]] of the collection of [[(∞,1)-topos]]-morphisms from $U$ to $\mathcal{X}$:
 
