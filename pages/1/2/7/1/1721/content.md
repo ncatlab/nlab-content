@@ -954,7 +954,7 @@ This means that the [[four lemma]] applies to this diagram. Inspection shows tha
 ## Examples 
 
 
-* [[ordinary cohomology]]: [[Eilenberg?Mac Lane spectrum]]
+* [[ordinary cohomology]]: [[Eilenberg-Mac Lane spectrum]]
 
 * [[K-theory]]: [[K-theory spectrum]]
 * [[tmf]]
