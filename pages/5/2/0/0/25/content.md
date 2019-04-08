@@ -53,7 +53,7 @@ But for a more precise statement one needs a more conceptual way to think of Lie
 
 * Since, by the [[Gelfand-Naimark theorem]], [[C-star algebra]]s are dual to [[topological space]]s, Paolo Bertozzini et. al proposed to define [[spaceoid]]s to be entities dual to $C^*$-categories ([blog](http://golem.ph.utexas.edu/category/2008/01/spaceoids.html)).
 
-* And finally the **exception from the rule**: a many-object [[monoid]] is _not_ called a _monoidoid_ -- but is called a [[category]]! :-)
+* And finally the **exception to the rule**: a many-object [[monoid]] is _not_ called a _monoidoid_ -- but is called a [[category]]! :-)
 
 +--{: .query}
 [[Mike Shulman|Mike]]: Is there (and do we want there to be) a general rule about whether an X-oid means an [[internal category]] whose one-object version is an X, or an [[enriched category]] whose one-object version is an X?  The examples above seem to be taking the "internal" side, but the Cafe discussion on "ringoids" was about the "enriched" version; the two are very different!  And "dg-algebroid" was suggested for [[dg-category]], which is an enriched oidification of a [[dg-algebra]], but a [[Hopf algebroid]] is an internal oidification of a [[Hopf algebra]].
