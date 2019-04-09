@@ -1390,7 +1390,7 @@ For $X$ a [[topological space]], then its _[[fundamental groupoid]]_
 (as in def. \ref{FundamentalGroupoidAndFundamentalGroup})
 has as set of objects the underlying set of $X$, and for $x,y \in X$
 two points, the set of homomorphisms is the set of [[paths]] from
-$x$ to $y4 modulo [[homotopy relative boundary]]:
+$x$ to $y$ modulo [[homotopy relative boundary]]:
 
 $$
   Hom_{\Pi_1(X)}(x,y) (P_{x,y})/\sim_h
@@ -3752,7 +3752,7 @@ $$
 ###### Example/Definition
 **([[group representations]] are [[groupoid representations]] of [[delooping]] [[groupoids]])**
 
-If here $\mathcal(G) = B G$ is the [[delooping]] groupoid of a [[group]] $G$ (example \ref{GroupoidFromDelooping}), then
+If here $\mathcali{G} = B G$ is the [[delooping]] groupoid of a [[group]] $G$ (example \ref{GroupoidFromDelooping}), then
 a [[groupoid representation]] of $B G$ is a _[[group representation]]_ of $G$ (def. \ref{GroupoidRepresentation}), and one writes
 
 $$
@@ -4772,3 +4772,4 @@ Lecture notes include
 $\,$
 
 $\,$
+
