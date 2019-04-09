@@ -893,6 +893,8 @@ $$
 
 * [[Wick algebra]]
 
+\linebreak
+
 ## References
 
 For instance
@@ -913,6 +915,9 @@ Discussion of scalar fields in [[cosmology]] includes
 
 * J.W. van Holten, _On single scalar field cosmology_ ([arXiv:1301.1174](http://arxiv.org/abs/1301.1174))
 
+Examples in [[AQFT]] of [[non-perturbative quantum field theory|non-perturbative]] [[interacting quantum field theory|interacting]] [[scalar field theory]] in _any_ [[spacetime]] [[dimension]] (in particular in $d \geq 4$) are claimed in 
+
+* [[Detlev Buchholz]], [[Klaus Fredenhagen]], _A $C*$-algebraic approach to interacting quantum field theories_ ([arXiv:1902.06062](https://arxiv.org/abs/1902.06062))
 
 
 
