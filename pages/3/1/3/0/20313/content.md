@@ -1,0 +1,43 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The refinement of [[bordism homology theory]] to [[equivariant stable homotopy theory]].
+
+## Related concepts
+
+* [[equivariant cobordism]]
+
+## References
+
+Early accounts of equivariant bordism groups includes
+
+* {#Wasserman69} [[Arthur Wasserman]], section 3 of _Equivariant differential topology_, Topology Vol. 8, pp. 127-150, 1969 ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/wasserman.pdf))
+
+* {#Stong70} [[Robert Stong]], _Unoriented Bordism and Actions of Finite Groups_, Memoirs AMS 103, Amer Mathematical Society, 1970
+
+* {#tomDieck75} [[Tammo tom Dieck]], _Orbittypen und äquivariante Homologie II_, Arch. Math. (Basel)26(1975), no. 6, 650–662 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/tomdieck2.pdf))
+
+Discussion in [[global equivariant homotopy theory]] is in 
+
+* [[Stefan Schwede]], section 6.2 _[[Global homotopy theory]]_ New Mathematical Monographs, 34 Cambridge University Press, 2018 ([arXiv:1802.09382](https://arxiv.org/abs/1802.09382))
+
+[[!redirects equivariant bordism]]
