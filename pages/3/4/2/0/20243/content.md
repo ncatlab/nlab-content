@@ -342,7 +342,7 @@ describes this construction as a "local [[direct product]]" of [[topological gro
 
 Of early algebraic interest is the structure theory article:
 
-* Stefano Marchiafava, Giuliano Romani, _[Sul classificante del gruppo $Sp(n) \cdot Sp(1)$](https://link.springer.com/article/10.1007/BF02418010)_, Annali di Matematica Pura ed Applicata December 1976, Volume 110, Issue 1, pp 295–319
+* Stefano Marchiafava, Giuliano Romani, _Sul classificante del gruppo $Sp(n) \cdot Sp(1)$_, Annali di Matematica Pura ed Applicata December 1976, Volume 110, Issue 1, pp 295–319 ([doi:10.1007/BF02418010](https://doi.org/10.1007/BF02418010))
 
 More on the [[cohomology]] of $Sp(n)\cdot Sp(1)$ and its [[classifying space]]:
 
