@@ -57,7 +57,7 @@ The **category of simplices** of $X$ is equivalently (in increasing order of exp
 ###### Definition
   
 
-An $n$-[[simplex]] $x\in X_n$ is said to be *nondegenerate* if it is not in the image of any degeneracy map.  
+An $n$-[[simplex]] $x\in X_n$ is said to be *non-degenerate* if it is not in the image of any degeneracy map.  
 
 Write 
 
@@ -65,9 +65,9 @@ $$
   (\Delta\downarrow X)_{nondeg}\hookrightarrow (\Delta\downarrow X)
 $$ 
 
-for the (non-full) subcategory on the nondegenerate simplices.
+for the (non-full) subcategory on the non-degenerate simplices.
 Notice that a morphism of $\Delta\downarrow X$ with source
-a nondegenerate simplex of $X$ is necessary a[[monomorphisms]].
+a non-degenerate simplex of $X$ is necessary a[[monomorphisms]].
 
 This is called the **category of non-degenerate simplices**.
 
@@ -90,7 +90,7 @@ See at _[barycentric subdivision -- Relation to the category of simplices](subdi
 +-- {: .num_prop}
 ###### Proposition
 
-If $X$ has the property that every face of every non-degenerate simplex is again non-degenerate, then the inclusion of the category of non-generate simplices $(\Delta \downarrow X)_{nondeg} \hookrightarrow (\Delta \downarrow X)$ has a [[left adjoint]] and is hence a [[reflective subcategory]].
+If $X$ has the property that every face of every non-degenerate simplex is again non-degenerate, then the inclusion of the category of non-degenerate simplices $(\Delta \downarrow X)_{nondeg} \hookrightarrow (\Delta \downarrow X)$ has a [[left adjoint]] and is hence a [[reflective subcategory]].
 
 =--
 
