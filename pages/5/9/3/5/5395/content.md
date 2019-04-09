@@ -279,6 +279,6 @@ The dual theorem for comonads is also in
 Pacific J. Math. 59, n. 1 (1975) 99-112 [euclid](http://projecteuclid.org/euclid.pjm/1102905501)
 
 
-* [[John Power]], _A unified approach to the lifting of adjoints_ , Cah. Top. G&#233;om. Diff. Cat. **XXIX** no.1 (1988) pp.67-77. ([numdam](http://www.numdam.org/item?id=CTGDC_1988_29_1_67_0)) 
+* [[John Power]], _A unified approach to the lifting of adjoints_ , Cah. Top. G&#233;om. Diff. Cat. **XXIX** no.1 (1988) pp.67-77. ([numdam](http://www.numdam.org/item/CTGDC_1988__29_1_67_0)) 
 
 
