@@ -364,7 +364,7 @@ The [[associator]] and [[unitors]] are just those of the monoidal structure on p
 
 =--
 
-One advantage of abstracting the concept of a [[monoidal category]] is that it allows to prove general statements uniformly for all kinds of tensor products, familar ones and more exotic ones. The following lemma \ref{kel1} and remark \ref{CoherenceForMonoidalCategories} are two important such statements.
+One advantage of abstracting the concept of a [[monoidal category]] is that it allows to prove general statements uniformly for all kinds of tensor products, familiar ones and more exotic ones. The following lemma \ref{kel1} and remark \ref{CoherenceForMonoidalCategories} are two important such statements.
 
 +-- {: .num_lemma #kel1}
 ###### Lemma
@@ -720,7 +720,7 @@ The [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory})
 
 * whose underlying [[monoidal category]] is that of $\mathbb{Z}/2$-[[graded vector spaces]] (example \ref{Z2Zgradedvectorspaces});
 
-* whose [[braiding]] (def. \ref{BraidedMonoidalCategory}) is the unique non-trivial symmtric grading $\tau^{super}$ from prop. \ref{TheTwoNontrivialBraidingsOnZ2GradedVectorSpaces} is called the **[[category of super vector spaces]]**
+* whose [[braiding]] (def. \ref{BraidedMonoidalCategory}) is the unique non-trivial symmetric grading $\tau^{super}$ from prop. \ref{TheTwoNontrivialBraidingsOnZ2GradedVectorSpaces} is called the **[[category of super vector spaces]]**
 
 $$
   sVect_k
