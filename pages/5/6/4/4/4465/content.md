@@ -132,6 +132,12 @@ Rieview of interpretation of [[black holes in string theory]] includes
 
 * [[Dieter Lüst]], Ward Vleeshouwers, sections 21-22 of _Black Hole Information and Thermodynamics_ ([arXiv:1809.01403](https://arxiv.org/abs/1809.01403))
 
+
+* Sebastian De Haro, Jeroen van Dongen, Manus Visser, [[Jeremy Butterfield]], _Conceptual Analysis of Black Hole Entropy in String Theory_ ([arXiv:1904.03232](https://arxiv.org/abs/1904.03232))
+
+* Jeroen van Dongen, Sebastian De Haro, Manus Visser, [[Jeremy Butterfield]], _Emergence and Correspondence for String Theory Black Holes_ ([arXiv:1904.03234](https://arxiv.org/abs/1904.03234))
+
+
 Discussion in view of [[higher curvature corrections]] includes
 
 * [[Thomas Mohaupt]], _Strings, higher curvature corrections, and black holes_ ([arXiv:hep-th/0512048](http://arxiv.org/abs/hep-th/0512048))
