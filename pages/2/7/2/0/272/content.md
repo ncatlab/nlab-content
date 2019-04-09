@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -162,6 +163,8 @@ Introductory lecture notes include
 
 * {#Fredenhagen03} [[Klaus Fredenhagen]], _Algebraische Quantenfeldtheorie_, lecture notes, 2003 ([[FredenhagenAQFT2003.pdf:file]])
 
+* {#FewsterRejzner19} [[Christopher Fewster]], [[Kasia Rejzner]], _Algebraic Quantum Field Theory - an introduction_ ([arXiv:1904.04051](https://arxiv.org/abs/1904.04051))
+
 and for just [[quantum mechanics]] in the algebraic perspective:
 
 * {#Gleason09} Jonathan Gleason, _The $C*$-algebraic formalism of quantum mechanics_, 2009 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/Gleason.pdf), [[GleasonAlgebraic.pdf:file]])
@@ -221,11 +224,16 @@ Construction of examples is considered for instance in
 * Edward Furliani, _Quantization of massive vector fields in curved space&#8211;time_, J. Math. Phys. 40, 2611 (1999) ([web](http://jmp.aip.org/resource/1/jmapaq/v40/i6/p2611_s1?isAuthorized=no))
  {#Furliani}
 
-General discussion of AQFT quantization of free fields is in
+General discussion of AQFT quantization of [[free quantum fields]] is in
 
 * [[Christian Bär]], N. Ginoux, [[Frank Pfäffle]], _Wave Equations on Lorentzian Manifolds and Quantization_, (EMS, 2007) ([arXiv:0806.1036](http://arxiv.org/abs/0806.1036))
 
 * [[Christian Bär]], N. Ginoux, _Classical and quantum fields on lorentzian manifolds_ (2011) ([arXiv:1104.1158](http://arxiv.org/abs/1104.1158))
+
+Examples of [[non-perturbative quantum field theory|non-perturbative]] [[interacting quantum field theory|interacting]] [[scalar field theory]] in _any_ [[spacetime]] [[dimension]] (in particular in $d \geq 4$) are claimed in 
+
+* [[Detlev Buchholz]], [[Klaus Fredenhagen]], _A $C^\ast$-algebraic approach to interacting quantum field theories_ ([arXiv:1902.06062](https://arxiv.org/abs/1902.06062))
+
 
 ### Local gauge theory
  {#LocalGaugeTheory}
