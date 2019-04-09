@@ -1,7 +1,7 @@
 [[!redirects G. E. Reyes]]
 [[!redirects Gonzalo Reyes]]
 
-* [blog](http://po-start.com/reyes/)
+* [blog](https://reyes-reyes.com/)
 
 
 ## Publications
