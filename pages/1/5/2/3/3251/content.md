@@ -82,6 +82,8 @@ For $\mathcal{C}$ an [[abelian category]] this definition reduces ([Barwick 14](
 
 * [[equivariant sphere spectrum]], [[equivariant stable cohomotopy]]
 
+* [[equivariant bordism homology theory]], [[equivariant cobordism cohomology theory]]
+
 * [[equivariant connective topological K-theory]]
 
 [[!include Segal completion -- table]]
