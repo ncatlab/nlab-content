@@ -148,6 +148,8 @@ Survey and exposition of locally covariant algebraic quantum field theory beyond
 
 * {#Rejzner16} [[Katarzyna Rejzner]], _[[Perturbative Algebraic Quantum Field Theory]]_, Mathematical Physics Studies, Springer 2016 ([web](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
 
+* [[Urs Schreiber]], _[[geometry of physics -- perturbative quantum field theory]]_, 2017
+
 * {#Duetsch18} [[Michael Dütsch]], _[[From classical field theory to perturbative quantum field theory]]_, 2018
 
 
