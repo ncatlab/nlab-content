@@ -113,6 +113,10 @@ This is a special case of [Brown 82, Theorem 1.5](#Brown82), reviewed for instan
 
 ## References
 
+
+* Jason Hanson, _Rotations in three, four, and five dimensions_ ([arXiv:1103.5263](https://arxiv.org/abs/1103.5263))
+
+
 See also
 
 * Wikipedia, _[Rotations in 4-dimensional Euclidean space](https://en.wikipedia.org/wiki/Rotations_in_4-dimensional_Euclidean_space)_
