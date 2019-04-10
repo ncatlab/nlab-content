@@ -26,9 +26,9 @@
 A pure type system is an explicitly typed [[lambda calculus]]
 using [[dependent product]] as the type of lambda expressions:
 the basic idea is that
-$$\Gamma, x:A \vdash B:C$$
+$$\Gamma, x:A \vdash b:B$$
 implies
-$$\Gamma \vdash (\lambda x:A . B) : (\prod x:A . C).$$
+$$\Gamma \vdash (\lambda x:A . b) : (\prod x:A . B).$$
 
 In other words a _pure type system_ is
 
