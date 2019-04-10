@@ -85,6 +85,8 @@ $$
   \,.
 $$
 
+The Yoneda embedding is sometimes denoted by &#x3088;, the [hiragana kata](https://en.wikipedia.org/wiki/Yo_(kana%29) for "Yo".
+
 
 ## Remarks
 
