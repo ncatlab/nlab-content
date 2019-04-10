@@ -1,9 +1,14 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
 #### Physics
 +-- {: .hide}
 [[!include physicscontents]]
+=--
+#### Experiments
++-- {: .hide}
+[[!include experiments -- contents]]
 =--
 =--
 =--
@@ -13,23 +18,10 @@
 * table of contents
 {:toc}
 
-## Experiments
+## Examples
 
-* [[Michelson-Morley experiment]]
+[[!include experiments -- contents]]
 
-* [[LHC]]
-
-  [[LHCb]], [[Belle experiment]]
-
-* [[RHIC]]
-
-* [[Super-Kamiokande]]
-
-* [[LIGO]]
-
-* [[EDGES]]
-
-* [[ANITA experiment]]
 
 ## Related entries
 
