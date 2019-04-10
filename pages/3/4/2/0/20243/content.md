@@ -326,9 +326,10 @@ is the [[Grassmannian]] of 3-planes in 8d. ([Cadek-Vanzura 97, Lemma 2.6](#Cadek
  
 ## References
 
-### General
 
-Very early appearances of this notation are mostly in discussions of [[Berger's theorem]] for exceptional [[holonomy]]:
+### $Sp(n)\cdot Sp(1)$
+
+Very early appearances of the notation $Sp(n)\cdot Sp(1)$ are mostly in discussions of [[Berger's theorem]] for exceptional [[holonomy]]:
 
 * {#Gray69} [[Alfred Gray]], [_A Note on Manifolds Whose Holonomy Group is a Subgroup of Sp(n) $\cdot$ Sp(1)_](https://projecteuclid.org/euclid.mmj/1029000212), Michigan Math. J. Volume 16, Issue 2 (1969), 125-128.
 
@@ -368,6 +369,12 @@ Articles dealing specifically with the group $Sp(2)\cdot Sp(1)$:
 
 See also the references at _[[quaternion-Kähler manifold]]_.
 
+### $Spin(n_1)\cdot Spin(n_2)$
+
+The dot notation for general sping groups, $Spin(n_1)\cdot Spin(n_2)$, appears in
+
+* {#HilgertNeeb12} Joachim Hilgert, [[Karl-Hermann Neeb]], Prop. 17.3.1 _Structure and Geometry of Lie Groups_, Springer Monographs in Mathematics, Springer-Verlag New York, 2012 ([doi:10.1007/978-0-387-84794-8](https://link.springer.com/book/10.1007/978-0-387-84794-8))
+
 ### $Sp(1)Sp(1)Sp(1) \simeq Spin(4)\cdot Spin(3) $
  {#ReferencesSpin4Spin3}
 
@@ -403,6 +410,8 @@ Second Series, Vol. 92, No. 2 (1970), pp. 189-223 ([jstor:1970834](https://www.j
 
 [[!redirects Sp(1)Sp(1)Sp(1)]]
 [[!redirects Sp(1).Sp(1).Sp(1)]]
+
+[[!redirects Spin(n).Spin(m)]]
 
 [[!redirects Spin(3)Spin(3)Spin(3)]]
 [[!redirects Spin(3).Spin(3).Spin(3)]]
