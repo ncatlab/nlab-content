@@ -13,10 +13,14 @@
 * [[material set theory|material axioms]]:
   * [[axiom of extensionality]]
   * [[axiom of foundation]]
+  * [[axiom of anti-foundation]]
   * [[Mostowski's axiom]]
   * [[axiom of pairing]]
   * [[axiom of transitive closure]]
   * [[axiom of union]]
+
+* [[structural set theory|structural axioms]]:
+  * [[axiom of materialization]]
 
 * [[axioms of choice]]:
   * [[axiom of choice]]
