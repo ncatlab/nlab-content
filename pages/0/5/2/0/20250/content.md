@@ -265,6 +265,9 @@ Full proof for $SO(3)$ is spelled out for instance in ([Rees 05, theorem 11](fin
 ## References
 
 
+* Jason Hanson, _Rotations in three, four, and five dimensions_ ([arXiv:1103.5263](https://arxiv.org/abs/1103.5263))
+
+
 See also 
 
 * Wikipedia, _[3D rotation group](https://en.wikipedia.org/wiki/3D_rotation_group)_
