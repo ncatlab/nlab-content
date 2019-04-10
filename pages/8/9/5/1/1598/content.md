@@ -212,7 +212,11 @@ The [[exceptional Lie groups]] incude
 
   Encyclopaedia of Mathematical Sciences, Volume 20, Springer 1993
 
+
 * [[Hans Duistermaat]], J. A. C. Kolk, _Lie groups_, 2000
+
+* {#HilgertNeeb12} Joachim Hilgert, [[Karl-Hermann Neeb]], _Structure and Geometry of Lie Groups_, Springer Monographs in Mathematics, Springer-Verlag New York, 2012 ([doi:10.1007/978-0-387-84794-8](https://link.springer.com/book/10.1007/978-0-387-84794-8))
+
 
 * Mark Haiman, lecture notes by [[Theo Johnson-Freyd]], _Lie groups_, Berkeley 2009 ([pdf](http://math.berkeley.edu/~theojf/LieGroups.pdf))
 
