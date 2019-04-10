@@ -1,3 +1,44 @@
+
+\begin{xymatrix}
+    \mathrm{Sp}(1) {\cdot} \mathrm{Sp}(2)
+    \ar@{=}[dddddr]
+    \ar@{_{(}->}[ddrr]|-{ \iota' }
+    \\
+    \\
+    &&
+    \mathrm{Spin}(8)
+    \ar@{->>}[dddddr]
+    &&
+    \mathrm{Spin}(3) {\cdot} \mathrm{Spin}(5)
+    \ar@{->>}[dddddr]
+    \ar@{_{(}->}[ll]|-{\iota}
+    \\
+    \\
+    \mathrm{Sp}(2) {\cdot} \mathrm{Sp}(1)
+     \ar@{=}[dddddr]
+     \ar@{^{(}->}[uurr]
+       |<<<<<<<<<<<<<<<<<<<<<<<<<<{ \phantom{AA \atop AA} }
+       |>>>>>>>>>>>>>>>>>>>>>>>{ \iota'' }
+    \\
+    &
+    \mathrm{Sp}(1) {\cdot} \mathrm{Sp}(2)
+    \ar@{_{(}->}[ddrr]|-{ \iota' }
+    \\
+    \\
+    &&& 
+    \mathrm{SO}(8)
+    &&
+    \mathrm{SO}(3) \times \mathrm{SO}(5)
+    \ar@{_{(}->}[ll]|-{\iota}
+    \\
+    \\
+    &
+    \mathrm{Sp}(2) {\cdot} \mathrm{Sp}(1)
+    \ar@{^{(}->}[uurr]|-{ \iota'' }
+\end{xymatrix}
+
+
+
 $$
   \array{
     S^3 
