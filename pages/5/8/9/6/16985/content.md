@@ -22,10 +22,9 @@
 
 _Spherical T-duality_ ([Bouwknegt-Evslin-Mathai 14a](#BouwknegtEvslinMathai14a)) is the name given to a variation of [[topological T-duality]] where the role of the [[circle]] $S^1$, or the [[circle group]] $U(1)$, is replaced by the [[3-sphere]] $S^3$, or the [[special unitary group]] $SU(2)$. Where topological T-duality relates pairs consisting of total spaces of $U(1)$-[[principal bundles]] equipped with a [[cocycle]] in degree-3 [[ordinary cohomology]], spherical T-duality relates pairs consisting of $SU(2)$-[[principal bundles]] (or just $S^3$-[[fiber bundles]] ([Bouwknegt-Evslin-Mathai 14b](#BouwknegtEvslinMathai14b))) equipped with cocycles in degree-7 cohomology. As for topological T-duality, under suitable conditions spherical T-duality lifts to an isomorphism of [[twisted K-theory]] classes of these bundles with twisting by the 7-class.
 
+In the approximation of [[schreiber:Introduction to Higher Supergeometry|rational super homotopy theory]], topological spherical T-duality has been derived for the [[M5-brane]], not on 11d [[super Minkowski spacetime]] itself, but on its [[M2-brane]]-[[extended super Minkowski spacetime]], and from there on the [[exceptional geometry|exceptional super spacetime]]; see [FSS 18a](#FiorenzaSatiSchreiber18a), reviewed in [FSS 18b](#FiorenzaSatiSchreiber18b).
 
-While [[topological T-duality]] is meant to be a formalization of the [[T-duality]] seen in [[2d CFT]] [[sigma-models]]/[[string theory]], the physical meaning of spherical T-duality, if any, remains unclear at this point, for the moment it takes its motivation from the fact that it is mathematically possible. 
 
-On the other hand, a special role is played in the theory by those $SU(2)$-principal bundles which arise as pullbacks of the [[quaternionic Hopf fibration]] along a map from base space to the [[4-sphere]], and this is, at least [[rational homotopy theory|rationally]], just the structure of the [[M2-brane|M2]]/[[M5-brane]] charges ([[schreiber:The WZW term of the M5-brane|Fiorenza-Sati-Schreiber 15]], [[schreiber:Generalized cohomology of M2/M5-branes|Schreiber 15]]). So maybe there is a relation...
 
 ## Related concepts
 
@@ -47,10 +46,10 @@ A special case of this general story is discussed in some detail in
 
 * [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]], _Spherical T-Duality and the spherical Fourier-Mukai transform_ ([arXiv:1502.04444](http://arxiv.org/abs/1502.04444))
 
-Examples in [[M-theory]] are discussed in 
+The realization in [[M-theory]] at the level of rational super homotopy theory is derived in
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Higher T-duality of super M-branes]]_ ([arXiv:1803.05634](https://arxiv.org/abs/1803.05634))
+* {#FiorenzaSatiSchreiber18a} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Higher T-duality of super M-branes]]_ ([arXiv:1803.05634](https://arxiv.org/abs/1803.05634))
 
-* [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Higher T-duality in M-theory via local supersymmetry]]_, Physics Letters B Volume 781, 10 June 2018, Pages 694-698 ([arXiv:1805.00233](https://arxiv.org/abs/1805.00233), [doi:10.1016/j.physletb.2018.04.058](https://doi.org/10.1016/j.physletb.2018.04.058))
+* {#FiorenzaSatiSchreiber18b} [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Higher T-duality in M-theory via local supersymmetry]]_, Physics Letters B Volume 781, 10 June 2018, Pages 694-698 ([arXiv:1805.00233](https://arxiv.org/abs/1805.00233), [doi:10.1016/j.physletb.2018.04.058](https://doi.org/10.1016/j.physletb.2018.04.058))
 
 [[!redirects spherical T-dualities]]
