@@ -17,10 +17,9 @@
 
 ## Definition
 
-Given a [[topological space]] $X$, then a set of [[subset]] $\{S_i \subset X\}_{i \in I}$ is _locally discrete_ if every point $x \in X$ [[intersection|intersects]] at most one of the $S_i$.
+Given a [[topological space]] $X$, then a set of [[subset]] $\{S_i \subset X\}_{i \in I}$ is _locally discrete_ if every point $x \in X$ has a neighborhood which [[intersection|intersects]] at most one of the $S_i$.
 
-Often one can find a base of a topological space that decomposes into a countable union of locally discrete sets. In this case the base is called [[countably locally discrete set of subsets|$sigma$-discrete]]. Such a base [[open covers of metric spaces have open countably locally discrete refinements|can be found for any metric space]].
-
+Often one can find a base of a topological space that decomposes into a countable union of locally discrete sets. In this case the base is called [[countably locally discrete set of subsets|$\sigma$-discrete]]. Such a base [[open covers of metric spaces have open countably locally discrete refinements|can be found for any metric space]].
 
 ## Related concepts
 
