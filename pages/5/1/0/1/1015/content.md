@@ -76,6 +76,8 @@ There is also [[algebraic set theory]], in which a material set theory is interp
 
 * [[descriptive set theory]]
 
+* [[set-theoretic multiverse]]
+
 ## Literature
 
 ### General
