@@ -80,7 +80,9 @@ This program, initiated by [[André Joyal]] and [[Ieke Moerdijk]], permits a fin
 
 * [[reflection principle]]
 
-* [[algebraic set theory]] 
+* [[algebraic set theory]]
+
+* [[set-theoretic multiverse]]
 
 ## References 
 
