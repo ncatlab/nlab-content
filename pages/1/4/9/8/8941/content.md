@@ -31,9 +31,9 @@ $$
 ###### Compatibility for left-left YD Modules
 
 $$
-b_{(1)} m_{[-1]}\otimes (b_{(1)}\blacktriangleright m_{[0]})
+b_{(1)} m_{[-1]}\otimes (b_{(2)}\blacktriangleright m_{[0]})
 =
-b_{(2)} (b_{(1)}\blacktriangleright m)_{[-1]} \otimes 
+(b_{(1)}\blacktriangleright m)_{[-1]} b_{(2)}  \otimes 
 (b_{(1)}\blacktriangleright m)_{[0]}
 $$
 =--
