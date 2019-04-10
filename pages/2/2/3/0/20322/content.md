@@ -21,9 +21,11 @@ Since well-founded extensional graphs are strongly extensional, the well-founded
 
 * In material set theory, the axiom of well-founded materialization follows from the  [[axiom of foundation]], since then every set *is already* a well-founded pure set.  Similarly, the axiom of ill-founded materialization follows from the [[axiom of anti-foundation]].
 
-* In [[ZF]] set theory without the axiom of foundation, it is provable that every strongly extensional graph can be embedded into a well-founded extensional graph.  Specifically, a graph is a coalgebra for the powerset functor, hence has a cone over the [[transfinite construction of free algebras|terminal coalgebra sequence]] for that endofunctor (which does not converge to a terminal coalgebra).  The kernels of the maps in this cone are the approximations to the bisimilarity of the graph, and hence converge to it at some ordinal $\alpha$.  By strong extensionality, the bisimilarity is the identity, so the $\alpha^{\mathrm{th}}$ map in the cone is an injection into a well-founded set.
+* In the presence of [[excluded middle]] and the [[axiom of replacement]], every strongly extensional graph can be embedded into a well-founded extensional graph.  Specifically, a graph is a coalgebra for the powerset functor, hence has a cone over the [[transfinite construction of free algebras|terminal coalgebra sequence]] for that endofunctor (which exists using the axiom of replacement, even though it does not converge to a terminal coalgebra).  The kernels of the maps in this cone are the approximations to the bisimilarity of the graph, and hence converge to it at some ordinal $\alpha$ (namely the [[Hartogs number]] of the lattice of binary relations; this uses excluded middle).  By strong extensionality, the bisimilarity is the identity, so the $\alpha^{\mathrm{th}}$ map in the cone is an injection into a well-founded set.
 
-  Therefore, in ZF without foundation, the axiom of ill-founded materialization implies the well-founded one.  In particular, if the axiom of foundation in ZF is replaced by the axiom of anti-foundation, then the axiom of *well-founded* materialization is also provable.
+  Thus, given excluded middle and replacement, the axiom of ill-founded materialization implies the well-founded one, hence the two are equivalent.  In particular, if the axiom of foundation in ZF is replaced by the axiom of anti-foundation, then the axiom of *well-founded* materialization is also provable.
+
+  It is unclear whether the two axioms of materialization are distinct in weaker theories such as [[IZF]] or [[Zermelo set theory]].
 
 ## Consequences
 
