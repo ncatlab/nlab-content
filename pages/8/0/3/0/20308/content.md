@@ -17,10 +17,13 @@
 
 ## Definition
 
-Given a [[topological space]] $X$, then a set of [[subsets]] $\{S_i \subset X\}_{i \in I}$ is _countably locally discrete_ or _$\sigma$-locally discrete_ if it is a countable union of [[locally discrete set of subsets|locally finite sets of subsets]].
-
+Given a [[topological space]] $X$, then a set of [[subsets]] $\{S_i \subset X\}_{i \in I}$ is _countably locally discrete_ or _$\sigma$-locally discrete_ if it is a countable union of [[locally discrete set of subsets|locally discrete sets of subsets]].
 
 Note that [[open covers of metric spaces have open countably locally discrete refinements]].
+
+## Example
+
+* Every [[metrisable topological space]] admits a [[topological base|base]] which is $\sigma$-locally discrete, see [[open covers of metric spaces have open countably locally discrete refinements]].
 
 ## Related concepts
 
@@ -38,3 +41,5 @@ Note that [[open covers of metric spaces have open countably locally discrete re
 
 [[!redirects countably locally discrete sets of subsets]]
 [[!redirects sigma-locally discrete sets of subsets]]
+[[!redirects countably locally disjoint sets of subsets]]
+[[!redirects sigma-locally disjoint sets of subsets]]
