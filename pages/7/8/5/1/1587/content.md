@@ -67,7 +67,7 @@ The terms "covering space" and "covering projection", while traditional, are cer
 +-- {: .num_remark}
 ###### Remark
 
-There is a generalizatin to "semi-coverings" ([Brazas12](#Brazas12)). Semicoverings satisfy the "[[2 out of 3]] rule". I.e,, if $f=g h$ and two of $f,g,h$ are semicoverings , then so is the third. This is not true for covering maps. 
+There is a generalization to "semi-coverings" ([Brazas12](#Brazas12)). Semicoverings satisfy the "[[2 out of 3]] rule". I.e,, if $f=g h$ and two of $f,g,h$ are semicoverings , then so is the third. This is not true for covering maps. 
 
 =--
 
@@ -188,7 +188,7 @@ Every covering space (even in the more general sense not requiring any connected
 
 * for a covering space the inverse image of some open set in the base $B$ needs to be, by the definition, a disjoint union of homeomorphic open sets in $E$; however the 'size' of the neighborhoods over various $e$ in the same stalk required in the definition of &#233;tal&#233; space may differ, hence the intersection of their projections does not need to be an open set, if there are infinitely many points in the stalk.
 
-* even if the the stalks of the etale space are finite, it need not be locally trivial. For instance the disjoint union $\coprod_i Ui$ of a collecton of open subsets of a space $X$ with the obvious projection $(\coprod_i U_i) \to X$ is etale, but does not have a typical fiber: the fiber over a given point has cardinality the number of open sets $U_i$ that contain this particular point.
+* even if the stalks of the etale space are finite, it need not be locally trivial. For instance the disjoint union $\coprod_i Ui$ of a collection of open subsets of a space $X$ with the obvious projection $(\coprod_i U_i) \to X$ is etale, but does not have a typical fiber: the fiber over a given point has cardinality the number of open sets $U_i$ that contain this particular point.
 
 
 ### Lifting properties
@@ -987,7 +987,7 @@ $$
   Set^{\Pi_1(X)}
 $$
 
-between the [[category of covering spaces]] and the [[permuation representation|permutation]] [[groupoid representations]] of the [[fundamental groupoid]] of $X$.
+between the [[category of covering spaces]] and the [[permutation representation|permutation]] [[groupoid representations]] of the [[fundamental groupoid]] of $X$.
 
 =--
 
