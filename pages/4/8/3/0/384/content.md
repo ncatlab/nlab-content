@@ -27,8 +27,8 @@ Being, therefore,  essentially combinatorial objects, CW complexes are the princ
 Milnor has argued that the category of spaces which are homotopy equivalent to CW-complexes, also called [[m-cofibrant spaces]], is a [[nice category of spaces|convenient category of spaces]] for [[algebraic topology]].
 
 
-Also, CW complexes are the [[cofibrant objects]] in the [[classical model structure on topological spaces]]. 
-This means in particular that _every_  topological space is _[[weak homotopy equivalence|weakly homotopy equivalent]]_ to a CW-complex (but need not be [[homotopy equivalence|strongly homotopy equivalent]] to one). See also at _[[CW-approximation]]_.  Since every topological space is a [[fibrant object]] in this [[model category]] structure, this means that the [[full subcategory]] of [[Top]] on the CW-complexes is a category of "homotopically very good representatives" of [[homotopy types]]. See at _[[homotopy theory]]_ and _[[homotopy hypothesis]]_ for more on this.
+Also, CW complexes are among the [[cofibrant objects]] in the [[classical model structure on topological spaces]]. 
+In fact, _every_  topological space is _[[weak homotopy equivalence|weakly homotopy equivalent]]_ to a CW-complex (but need not be [[homotopy equivalence|strongly homotopy equivalent]] to one). See also at _[[CW-approximation]]_.  Since every topological space is a [[fibrant object]] in this [[model category]] structure, this means that the [[full subcategory]] of [[Top]] on the CW-complexes is a category of "homotopically very good representatives" of [[homotopy types]]. See at _[[homotopy theory]]_ and _[[homotopy hypothesis]]_ for more on this.
 
 +-- {: .num_remark}
 ###### Remark
@@ -36,19 +36,19 @@ This means in particular that _every_  topological space is _[[weak homotopy equ
 
 The terminology "CW-complex" goes back to [[John Henry Constantine Whitehead]] (and see the discussion in [Hatcher, "Topology of cell complexes", p. 520](#HatcherTopologyOfCellComplexes)). 
 
-To quote from the original paper, which was `an address delivered before the Princeton Meeting of the (American Mathematical) Society on November
-2, 1946, WHitehead states
+To quote from the original paper, which was "an address delivered before the Princeton Meeting of the (American Mathematical) Society on November
+2, 1946", Whitehead states:
 
 
->In this presentation we abandon simplicial complexes in favor of
-cell complexes. This first part consists of geometrical preliminaries,
-including some elementary propositions concerning what we call closure finite complexes with weak topology, abbreviated to CW -complexes, ...
+>In this presentation we abandon [[simplicial complexes]] in favor of
+[[cell complexes]]. This first part consists of geometrical preliminaries,
+including some elementary propositions concerning what we call closure finite complexes with weak topology, abbreviated to CW-complexes, ...
 
 
 
-Thus the CW' stands for the following two properties shared by any CW complex:
+Thus the "CW" stands for the following two properties shared by any CW-complex:
 
-* **C** = "closure finiteness": a [[compact subset]] of a CW complex intersects the [[interior]] of only finitely many cells ([prop.](classical+model+structure+on+topological+spaces#CompactSubsetsAreSmallInCellComplexes)), hence in particular so does the closure of any cell.
+* **C** = "closure finiteness": a [[compact subset]] of a CW-complex intersects the [[interior]] of only finitely many cells ([prop.](classical+model+structure+on+topological+spaces#CompactSubsetsAreSmallInCellComplexes)), hence in particular so does the closure of any cell.
 
 
 * **W** = "weak topology": Since a CW-complex is a [[colimit]] in [[Top]] over its cells, and as such equipped with the [[final topology]] of the cell inclusion maps, a subset of a CW-complex is open or closed precisely if its restriction to (the closure of) each cell is open or closed, respectively.
@@ -56,6 +56,8 @@ Thus the CW' stands for the following two properties shared by any CW complex:
 (Whitehead called the [[interior]] of the [[n-disks]] the "cells", so that their closure of each cell is the corresponding $n$-disk.)
 
 =--
+
+\linebreak
 
 ## Definition
   {#Definition}
