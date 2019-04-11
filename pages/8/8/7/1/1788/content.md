@@ -1,40 +1,64 @@
 
 \begin{xymatrix}
-    \mathrm{Sp}(1) {\cdot} \mathrm{Sp}(2)
-    \ar@{=}[dddddr]
-    \ar@{_{(}->}[ddrr]|-{ \iota' }
+    \mathrm{Spin}(8)
+    \ar@/_4.9pc/@{<->}[dddddddddddddddddddd]_{\simeq}
+    \ar@{<->}@/^4.9pc/[ddddddddddrrrrrrrrrrrr]^-{\simeq}
     \\
     \\
+    \\
+    \\
+    &
+    \mathrm{Sp}(2)\mathrm{Sp}(1)
+    \ar@{<->}@/_3pc/[dddddddddddd]_-{\simeq}
+    \ar@{_{(}->}[uuuul]
+    \ar@{<->}@/^3pc/[ddddddrrrrrrr]^-{\simeq}
+    \\
+    \\
+    \\
+    \\
+    &
+    &
+    \mathrm{Sp}(1)\mathrm{Sp}(1)\mathrm{Sp}(1)
+    \ar@{<->}[dddd]_-{\simeq}
+    \ar@{_{(}->}[uuuul]
+    \ar@{<->}[ddrr]|-{\simeq}
+    \\
+    \\
+    &
+    &
+    &&
+    \mathrm{Sp}(1)\mathrm{Sp}(1)\mathrm{Sp}(1)
+    \ar@{^{(}->}[rrrr]
+    &&
+    {\phantom{AAAAAAAA}}
+    &&
+    \mathrm{Spin}(4)\mathrm{Spin}(3)
+    \ar@{^{(}->}[rrrr]
+    &&
+    {\phantom{AAAAAAAA}}
     &&
     \mathrm{Spin}(8)
-    \ar@{->>}[dddddr]
-    &&
-    \mathrm{Spin}(3) {\cdot} \mathrm{Spin}(5)
-    \ar@{->>}[dddddr]
-    \ar@{_{(}->}[ll]|-{\iota}
-    \\
-    \\
-    \mathrm{Sp}(2) {\cdot} \mathrm{Sp}(1)
-     \ar@{=}[dddddr]
-     \ar@{^{(}->}[uurr]
-       |<<<<<<<<<<<<<<<<<<<<<<<<<<{ \phantom{AA \atop AA} }
-       |>>>>>>>>>>>>>>>>>>>>>>>{ \iota'' }
-    \\
-    &
-    \mathrm{Sp}(1) {\cdot} \mathrm{Sp}(2)
-    \ar@{_{(}->}[ddrr]|-{ \iota' }
-    \\
-    \\
-    &&& 
-    \mathrm{SO}(8)
-    &&
-    \mathrm{SO}(3) \times \mathrm{SO}(5)
-    \ar@{_{(}->}[ll]|-{\iota}
     \\
     \\
     &
-    \mathrm{Sp}(2) {\cdot} \mathrm{Sp}(1)
-    \ar@{^{(}->}[uurr]|-{ \iota'' }
+    &
+    \mathrm{Sp}(1)\mathrm{Sp}(1)\mathrm{Sp}(1)
+    \ar@{^{(}->}[ddddl]
+    \ar@{<->}[uurr]|-{\simeq}
+    \\
+    \\
+    \\
+    \\
+    &
+    \mathrm{Sp}(1)\mathrm{Sp}(2)
+    \ar@{<->}@/_3pc/[uuuuuurrrrrrr]_-{\simeq}
+    \ar@{^{(}->}[ddddl]
+    \\
+    \\
+    \\
+    \\
+    \mathrm{Spin}(8)
+    \ar@{<->}@/_4.9pc/[uuuuuuuuuurrrrrrrrrrrr]_-{\simeq}
 \end{xymatrix}
 
 
