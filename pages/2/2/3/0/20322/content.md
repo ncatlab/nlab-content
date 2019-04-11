@@ -25,7 +25,7 @@ Since well-founded extensional graphs are strongly extensional, the well-founded
 
   Thus, given excluded middle and replacement, the axiom of ill-founded materialization implies the well-founded one, hence the two are equivalent.  In particular, if the axiom of foundation in ZF is replaced by the axiom of anti-foundation, then the axiom of *well-founded* materialization is also provable.
 
-  It is unclear whether the two axioms of materialization are distinct in weaker theories such as [[IZF]] or [[Zermelo set theory]].
+  It is unclear whether the two axioms of materialization are distinct in weaker theories lacking excluded middle or replacement, such as [[IZF]] or [[Zermelo set theory]] with the axiom of foundation removed.
 
 ## Consequences
 
