@@ -42,7 +42,7 @@ There are generalizations e.g. over [[local field]]s in [[rigid analytic geometr
 
 Evidently an [[open subspace]] of a Riemann surface is a Riemann surface.  In particular, an open subset of $\mathbb{C}$ is a Riemann surface in a natural manner.
 
-The [[Riemann sphere]] $P^1(\mathbb{C}) := \mathbb{C} \cup \{ \infty \}$ or $S^2$ is a Riemann sphere with the open sets $U_1 = \mathbb{C}, U_2 = \mathbb{C} - \{0\} \cup \{\infty\}$ and the charts
+The [[Riemann sphere]] $P^1(\mathbb{C}) := \mathbb{C} \cup \{ \infty \}$ or $S^2$ is a Riemann surface with the open sets $U_1 = \mathbb{C}, U_2 = \mathbb{C} - \{0\} \cup \{\infty\}$ and the charts
 \[ \phi_1 =z, \;\phi_2 = \frac{1}{z}.\]
 The transition map is $\frac{1}{z}$ and thus holomorphic on $U_1 \cap U_2 = \mathbb{C}^*$.
 
