@@ -54,7 +54,19 @@ of the [[product]] of the [[spin group]] with the [[circle group]] by the common
 
 =--
 
-Some authors denote this as $Spin^c(n) = Spin(n) \cdot U(1)$, following the notation [[Sp(n).Sp(1)]] (see there for more).
+Some authors (e.g. [Gompf 97, p. 2](#Gompf97)) denote this as 
+
+$$
+  \begin{aligned}
+    Spin^c(n) 
+     & \coloneqq 
+    Spin(n)\cdot Spin(2) 
+     \\
+    & \simeq Spin(n) \cdot U(1)
+  \end{aligned}
+$$
+
+following the notation [[Sp(n).Sp(1)]] (see [there](SpnSp1#SpinnSpin2IsSpinc)).
 
 
 ## Properties
@@ -468,6 +480,12 @@ There is a direct analogy between [[Spin]], [[Spin^c]] and the [[metaplectic gro
 * [[string 2-group]], [[string structure]]
 
 * [[string^c 2-group]]
+
+## References
+
+See also
+
+* {#Gompf97} [[Robert Gompf]], _$Spin^c$ structures and homotopy equivalences_, Geom. Topol. 1 (1997) 41-50 ([arXiv:math/9705218](https://arxiv.org/abs/math/9705218))
 
 
 [[!redirects spin^c group]]
