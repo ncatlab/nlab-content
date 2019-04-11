@@ -20,9 +20,7 @@
 
 ## Idea
 
-To every nonsingular [[algebraic curve]] $C$ (over the [[complex numbers]]) of [[genus of a surface|genus]] $g$ one associates the Jacobian variety or simply Jacobian $J(C)$ either via [[differential 1-forms]] or equivalently via [[line bundles]]:
-
-the Jacobian is the [[moduli space]] of [[degree of a coherent sheaf|degree]]-$0$ [[line bundles]] over $C$, i.e. the connected component 
+To every nonsingular [[algebraic curve]] $C$ (over the [[complex numbers]]) of [[genus of a surface|genus]] $g$ one associates the Jacobian variety or simply Jacobian $J(C)$ either via [[differential 1-forms]] or equivalently via [[line bundles]]: the Jacobian is the [[moduli space]] of [[degree of a coherent sheaf|degree]]-$0$ [[line bundles]] over $C$, i.e. the connected component 
 
 $$
   Jac(X) = Pic_0(X)
@@ -37,11 +35,11 @@ Jacobian varieties are the most important class of [[abelian varieties]].
 
 ### Abel-Jacobi map
 
-The __[[Abel-Jacobi map]]__ $C\to J(C)$ is defined with help of [[periods]] ...)
+The __[[Abel-Jacobi map]]__ $C\to J(C)$ is defined with help of [[periods]].
 
 ### Line bundles and theta functions
 
-over the [[complex numbers]], [[line bundles]] on a Jacobian variety over a given [[Riemann surface]] are naturally encoded by [[Riemann theta functions]].
+Over the [[complex numbers]], [[line bundles]] on a Jacobian variety over a given [[Riemann surface]] are naturally encoded by [[Riemann theta functions]].
 
 ## Related concepts
 
