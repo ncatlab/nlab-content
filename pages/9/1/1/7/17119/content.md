@@ -17,9 +17,10 @@
 
 ## Definition
 
-For $n \in \mathbb{N}$ a [[natural number]], a $4n$-[[dimension|dimensional]] [[Riemannian manifold]] is a _hyperkähler manifold_ if its [[holonomy group]] is (a [[subgroup]] of) the [[quaternionic unitary group]] $Sp(n)$.
+For $n \in \mathbb{N}$ a [[natural number]], a $4n$-[[dimension|dimensional]] [[Riemannian manifold]] is a _hyperkähler manifold_ if its [[holonomy group]] is (a [[subgroup]] of) the [[quaternionic unitary group]] $Sp(n)$. Regarded as a subgroup of $Sp(n) \times Sp(1)$ this is a [[quaternion Kähler manifold]].
 
-Regarded as a subgroup of $Sp(n) \times Sp(1)$ this is a [[quaternion Kähler manifold]].
+Equivalently, a _hyperkähler manifold_ is a [[Riemannian manifold]] $(M,g)$ with three [[complex structure|complex structures]] $I, J, K$ which are [[Kähler manifold|Kähler]] with respect to the metric $g$ and satisfy the [[quaternion|quaternionic]] identities
+$$I^2=J^2=K^2=I J K=-1.$$
 
 ## Properties
 
