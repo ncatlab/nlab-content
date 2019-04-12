@@ -184,11 +184,13 @@ See at _[[Yoneda lemma]]_ the list of references given [there](Yoneda+lemma#Refe
 
 The notation "&#x3088;" for the Yoneda embedding (the [hiragana kata](https://en.wikipedia.org/wiki/Yo_(kana%29) for "Yo") is used for instance in the following:
 
+* [[Theo Johnson-Freyd]], Claudia Scheimbauer, p. 33 of _(Op)lax natural transformations, twisted quantum field theories, and "even higher" Morita categories_,  ([arxiv:1502.06526](https://arxiv.org/pdf/1502.06526v1.pdf#page=33))
+
 * [[Emily Riehl]], [[Dominic Verity]], p. 10 of _Elements of $\infty$-category theory_ ([web](http://www.math.jhu.edu/~eriehl/elements.pdf#page=10)) 
 
   (attributing the suggestion to [[Doug Ravenel]])
 
-* {#Li-Bland15} David Li-Bland, p. 5 of _The stack of higher internal categories and stacks of iterated spans_ ([arXiv:1506.08870](https://arxiv.org/pdf/1506.08870.pdf#page=5) 
+* {#Li-Bland15} David Li-Bland, p. 5 of _The stack of higher internal categories and stacks of iterated spans_ ([arXiv:1506.08870](https://arxiv.org/pdf/1506.08870.pdf#page=5)) 
 
   (attributing the suggestion to Theodore Johnson-Freyd)
 
