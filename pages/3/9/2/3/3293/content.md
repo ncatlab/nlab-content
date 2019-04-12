@@ -44,7 +44,7 @@ It is possible to generalize some concepts of differential geometry from the fin
 
 1. The [[dual vector space|dual]] of a Fr&#233;chet space that is not a [[Banach space]] is never a Fr&#233;chet space, therefore one cannot e.g. define both the tangent and the cotangent bundle as Fr&#233;chet manifolds. More serious is however
 
-2. The existence and uniqueness theorems for ordinary differential equations fail in infinite dimensions, so that theorems depending on that from finite dimensional differential geometry cannot be transscribed to the infinite situation in general. It is possible to do this on a case by case basis however.
+2. The existence and uniqueness theorems for ordinary differential equations fail in infinite dimensions, so that theorems depending on that from finite dimensional differential geometry cannot be transcribed to the infinite situation in general. It is possible to do this on a case by case basis however.
 
 ### Tangent Vectors
 
