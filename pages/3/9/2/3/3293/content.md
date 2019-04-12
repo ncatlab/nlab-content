@@ -69,7 +69,7 @@ The last sentence makes use of the notion of vector bundle, which can be defined
 ###### Definition
 **vector bundle**
 
-A Fr&#233;chet manifold $V$ is a Fr&#233;chet vector bundle over $M$ with projection $\pi$, if for every point $p \in M$ there are charts of $M$ and $V$ such that $V$ is mapped locally to $U \subset F \times G$ for Fr&#233;chet spaces $F, G$, the projection $\pi$ corresponds to the projection of $U \times G$ to $U$, and the vector space structure on each fibre is that induces by the vector space structure on $G$.
+A Fr&#233;chet manifold $V$ is a Fr&#233;chet vector bundle over $M$ with projection $\pi$, if for every point $p \in M$ there are charts of $M$ and $V$ such that $V$ is mapped locally to $U \subset F \times G$ for Fr&#233;chet spaces $F, G$, the projection $\pi$ corresponds to the projection of $U \times G$ to $U$, and the vector space structure on each fibre is induced by the vector space structure on $G$.
 =--
 
 Since, as mentioned before, the dual space of a Fr&#233;chet space that is not a Banach space is itself not a Fr&#233;chet space, we cannot define the cotangent space canonically as the dual space of the tangent space. Instead we define it directly:
@@ -154,7 +154,7 @@ For details on this see at _[[manifold structure of mapping spaces]]_.
 
 (see also [Dodson-Galanis-Vassiliou 15](#DodsonGalanisVassiliou15))
 
-Frecht manifolds may be thought of as [[projective limits]] of [[Banach manifolds]] (see the "added remark" at the end of [this MO comment](http://math.stackexchange.com/a/53020/58526))
+Fréchet manifolds may be thought of as [[projective limits]] of [[Banach manifolds]] (see the "added remark" at the end of [this MO comment](http://math.stackexchange.com/a/53020/58526))
 
 +-- {: .num_example #RInfinity}
 ###### Example
@@ -290,7 +290,7 @@ and reviewed in section 3 of
 
 The preservation of [[mapping spaces]] under this embedding is due to
 
-* {#Waldorf} [[Konrad Waldorf]] _Transgression to Loop Spaces and its Inverse I_ ([arXiv:0911.3212](http://arxiv.org/abs/0911.3212)) 
+* {#Waldorf} [[Konrad Waldorf]], _Transgression to Loop Spaces and its Inverse I_ ([arXiv:0911.3212](http://arxiv.org/abs/0911.3212)) 
  
 
 Fr&#233;chet manifold structure on [[jet bundles]] is discussed in
