@@ -32,8 +32,43 @@ $$I^2=J^2=K^2=I J K=-1.$$
 
 [[!include normed division algebra Riemannian geometry -- table]]
 
+## Related conepts
+
+* [[Kähler manifold]], **hyper-K&#228;hler manifold**, [[quaternionic Kähler manifold]]
+
+* [[ADE singularity]]
+
+
 ## References
 
 * Wikipedia, _[Hyperk&#228;hler manifold](https://en.wikipedia.org/wiki/Hyperkähler_manifold)_
 
 [[!redirects hyperkähler manifolds]]
+
+[[!redirects hyper-Kähler manifold]]
+[[!redirects hyper-Kähler manifolds]]
+
+[[!redirects hyper-Kähler geometry]]
+[[!redirects hyper-Kähler geometries]]
+
+[[!redirects hyper-Kaehler manifold]]
+[[!redirects hyper-Kaehler manifolds]]
+
+[[!redirects Hyperkähler manifold]]
+[[!redirects Hyperkähler manifolds]]
+
+
+
+[[!redirects hyper-Kähler structure]]
+[[!redirects hyper-Kähler structures]]
+
+[[!redirects hyper-Kähler structure]]
+[[!redirects hyper-Kähler structures]]
+
+[[!redirects hyper-Kaehler structure]]
+[[!redirects hyper-Kaehler structures]]
+
+[[!redirects Hyperkähler structure]]
+[[!redirects Hyperkähler structures]]
+
+
