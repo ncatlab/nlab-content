@@ -81,7 +81,7 @@ More generally, the [[topological closure|closure]] of $A$ is the set of all adh
 
 Classically, a point in $A$ that is not an accumulation point of $A$ is precisely an [[isolated point]].  (Constructively, each of these is stronger than the negation of the other.)
 
-A justification for the terminology 'limit point' for an accumulation point is that the concept of [[limit of a fuction]] approaching a point really only makes sense approaching an accumulation point.  (This is for essentially the same reason that every function is continuous at an isolated point.)  More precisely, every answer whatsoever satisfies the definition of $\lim_c f$ if $c$ is a non-accumulation point of $dom f$ (because the [[improper filter]] converges everywhere).
+A justification for the terminology 'limit point' for an accumulation point is that the concept of [[limit of a function]] approaching a point really only makes sense approaching an accumulation point.  (This is for essentially the same reason that every function is continuous at an isolated point.)  More precisely, every answer whatsoever satisfies the definition of $\lim_c f$ if $c$ is a non-accumulation point of $dom f$ (because the [[improper filter]] converges everywhere).
 
 
 ## Related concepts
