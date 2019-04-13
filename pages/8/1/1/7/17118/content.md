@@ -16,7 +16,7 @@
 
 ## Definition
 
-A [[Riemannian manifold]] of [[dimension]] $4n$ for $n \geq 2$ is called a _quaternion-Kähler manifold_ if its [[holonomy group]] is a [[subgroup]] of [[Sp(n).Sp(1)]] (where [[Sp(n)]] is the $n$th [[quaternionic unitary group]], and in particular $Sp(1) \simeq SU(2) \simeq $ [[Spin(3)]], and the product is the [[quotient group]] of the [[direct product group]] by the [[diagonal]] [[center]] $\mathbb{Z}/2$). 
+A [[Riemannian manifold]] of [[dimension]] $4n$ for $n \geq 2$ is called a _quaternion-Kähler manifold_ if its [[holonomy group]] is a [[subgroup]] of [[Sp(n).Sp(1)]] (where [[Sp(n)]] is the $n$th [[quaternionic unitary group]], and in particular $Sp(1) \simeq SU(2) \simeq $ [[Spin(3)]], and the [[central product]] is the [[quotient group]] of the [[direct product group]] by the [[diagonal]] [[center]] $\mathbb{Z}/2$). 
 
 If the [[holonomy]] group is in fact a [[subgroup]] of just the $Sp(n)$-factor, one speaks of a _[[hyperkähler manifold]]_.
 
@@ -105,7 +105,7 @@ Textbook references include:
 
 See also
 
-* Wikipedia, _[Quaternion-K&#228;hler manifold](https://en.wikipedia.org/wiki/Quaternion-K&#228;hler_manifold)_
+* Wikipedia, _[Quaternion-K&#228;hler manifold](https://en.wikipedia.org/wiki/Quaternion-Kaehler_manifold)_
 
 
 Articles discussing quaternion-Kähler [[holonomy]], [[connection]], and relation to other [[hypercomplex]] structures:
