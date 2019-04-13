@@ -93,8 +93,13 @@ A quaternion-Kähler manifold $(X,g)$ is a [[hyper-Kähler manifold]], hence has
 (e.g. [Amann 09, below Def. 1.5](#Amann09))
 
 
+
 ### Positive quaternion-Kähler manifolds
- {#PositiveQuaternionKaehlerManifold}
+ {#PositiveQuaternionKaehlerManifolds}
+
+
++-- {: .num_defn #PositiveQuaternionKaehlerManifold}
+###### Definition
 
 A quaternion-Kähler manifold $(X,g)$ is called _positive_ if 
 
@@ -102,32 +107,56 @@ A quaternion-Kähler manifold $(X,g)$ is called _positive_ if
 
 1. its [[scalar curvature]], which is a [[constant function|constant]] by $(X,g)$ being an [[Einstein manifold]], is a [[positive number]], $R(g) \gt 0$.
 
-(e.g. [Amann 09, Def. 1.5](#Amann09))
+=--
 
-A [[positive quaternion-Kähler manifold]] is necessarily
+([Salamon 82, Section 6](#Salamon82), see e.g. [Amann 09, Def. 1.5](#Amann09))
 
-1. [[compact topological space|compact]];
++-- {: .num_prop}
+###### Proposition
 
-1. [[simply connected topological space]]
+A [[connected topological space|connected]] [[positive quaternion-Kähler manifold]] (Def. \ref{PositiveQuaternionKaehlerManifold}) is necessarily [[compact topological space|compact]].
 
-([Salamon 82, p. 158, p. 163](#Salamon82))
+=--
 
+([Salamon 82, p. 158 (16 of 29)](#Salamon82))
 
-For each [[dimension]] $dim(X)$ there is a [[finite number]] of [[isometry]] [[isomorphism class|classes]] of [[positive quaternion-Kähler manifolds]].
++-- {: .num_prop }
+###### Proposition
+
+A [[connected topological space|connected]] [[positive quaternion-Kähler manifold]] (Def. \ref{PositiveQuaternionKaehlerManifold}) is necessarily [[simply connected topological space|simply connected]].
+
+=--
+
+([Salamon 82, Theorem 6.6](#Salamon82))
+
++-- {: .num_prop}
+###### Proposition
+
+For each [[dimension]] $dim(X)$ there is a [[finite number]] of [[isometry]] [[isomorphism class|classes]] of [[positive quaternion-Kähler manifolds]] (Def. \ref{PositiveQuaternionKaehlerManifold}).
+
+=--
+
+([LeBrun-Salamon 94, Theorem 0.1](#LeBrunSalamon94))
+
++-- {: .num_prop}
+###### Proposition
 
 Every [[Wolf space]] is a [[positive quaternion-Kähler manifold]].
 
-In fact the [[Wolf spaces]] are the only examples known of [[positive quaternion-Kähler manifold]], as of today.
+=--
 
-Conjecture: In every dimension, the [[Wolf spaces]] are the only [[positive quaternion-Kähler manifolds]].
+In fact the [[Wolf spaces]] are the only known examples  of [[positive quaternion-Kähler manifold]] (which is not hyper-Kähler ?!), as of today (e.g. [Salamon 82, Section 5](#Salamon82)).
 
-The conjecture has been proven for [[dimension]]
+This leads to the **conjecture** that un every dimension, the [[Wolf spaces]] are the only [[positive quaternion-Kähler manifolds]].
+
+The conjecture has been proven for the following [[dimensions]]
 
 * $d = 4$ (Hitchin)
 
 * $d = 8 $ (Poon–Salamon, LeBrun–Salamon)
 
 
+\linebreak
 
 ## Related concepts
 
@@ -138,6 +167,8 @@ The conjecture has been proven for [[dimension]]
 Original articles:
 
 * {#Salamon82} [[Simon Salamon]], _Quaternionic Kähler manifolds_, Invent Math (1982) 67: 143. ([doi:10.1007/BF01393378](https://doi.org/10.1007/BF01393378))
+
+* {#LeBrunSalamon94} Claude LeBrun, [[Simon Salamon]], _Strong rigidity of positive quaternion Kähler manifolds_, Inventiones Mathematicae 118, 1994, 109–132 ([dml:144231](https://eudml.org/doc/144231), [doi:10.1007/BF01231528](https://doi.org/10.1007/BF01231528))
 
 Exposition
 
