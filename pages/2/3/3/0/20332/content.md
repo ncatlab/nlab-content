@@ -11,7 +11,38 @@ A [[space]] which is both a [[quaternion-Kähler manifold]] as well as a [[symme
 
 * [[quaternionic projective space]]
 
+## Properties
+
+### As positive quaternion-Kähler manifolds
+
+> under construction
+
++-- {: .num_prop}
+###### Proposition
+
+Every [[Wolf space]] is a [[positive quaternion-Kähler manifold]].
+
+=--
+
+In fact the [[Wolf spaces]] are the only known examples  of [[positive quaternion-Kähler manifold]] (which is not hyper-Kähler ?!), as of today (e.g. [Salamon 82, Section 5](#Salamon82)).
+
+This leads to the **conjecture** that un every dimension, the [[Wolf spaces]] are the only [[positive quaternion-Kähler manifolds]].
+
+The conjecture has been proven for the following [[dimensions]]
+
+* $d = 4$ (Hitchin)
+
+* $d = 8 $ (Poon–Salamon, LeBrun–Salamon)
+
+
+
 ## References 
+
+* Joseph K. Wolf, _Complex homogeneous contact manifolds and quaternionic symmetric spaces_, Journal of Math. and Mech., 14 (1965), p. 166 ([jstor:24901319](https://www.jstor.org/stable/24901319))
+
+* {#Salamon82} [[Simon Salamon]], _Quaternionic Kähler manifolds_, Invent Math (1982) 67: 143. ([doi:10.1007/BF01393378](https://doi.org/10.1007/BF01393378))
+
+* {#Amann09} Amann, _Positive Quaternion Kähler Manifolds_, 2009 ([pdf](https://d-nb.info/996176438/34))
 
 See also 
 
