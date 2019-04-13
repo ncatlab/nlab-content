@@ -16,9 +16,12 @@
 
 ## Definition
 
-A [[Riemannian manifold]] of [[dimension]] $4n$ for $n \geq 2$ is called a _quaternion-Kähler manifold_ if its [[holonomy group]] is a [[subgroup]] of [[Sp(n).Sp(1)]] (where [[Sp(n)]] is the $n$th [[quaternionic unitary group]], and in particular $Sp(1) \simeq SU(2) \simeq $ [[Spin(3)]], and the [[central product]] is the [[quotient group]] of the [[direct product group]] by the [[diagonal]] [[center]] $\mathbb{Z}/2$). 
+A [[Riemannian manifold]] $(X,g)$ of [[dimension]] $4n$ for $n \geq 2$ is called a _quaternion-Kähler manifold_ if its [[holonomy group]] is a [[subgroup]] of [[Sp(n).Sp(1)]] (where [[Sp(n)]] is the $n$th [[quaternionic unitary group]], and in particular $Sp(1) \simeq SU(2) \simeq $ [[Spin(3)]], and the [[central product]] is the [[quotient group]] of the [[direct product group]] by the [[diagonal]] [[center]] $\mathbb{Z}/2$). 
 
 If the [[holonomy]] group is in fact a [[subgroup]] of just the $Sp(n)$-factor, one speaks of a _[[hyperkähler manifold]]_.
+
+
+Quaternion-Kähler manifolds are necessarily [[Einstein manifolds]] (see [below](#AsEinsteinManifolds)). In particular their [[scalar curvature]] $R$ is [[constant function|constant]], and hence a [[real number]] $R \in \mathbb{R}$.  If the scalar curvature is [[positive number|positive]], then one speaks of a _positive quaternion-Kähler manifold_. 
 
 \linebreak
 
@@ -83,6 +86,49 @@ The same conclusion (eq:EulerClassInTermsOfPontryagin) also holds for $Spin(7)$-
 
 See also at _[[C-field tadpole cancellation]]_.
 
+### Reduction to hyper-Kähler structure
+
+A quaternion-Kähler manifold $(X,g)$ is a [[hyper-Kähler manifold]], hence has $Sp(n) \hookrightarrow Sp(n)\cdot Sp(1)$-structure, precisely if its [[scalar curvature]], which is a [[constant function|constant]] by $(X,g)$ being an [[Einstein manifold]], vanishes: $R(g) = 0$.
+
+(e.g. [Amann 09, below Def. 1.5](#Amann09))
+
+
+### Positive quaternion-Kähler manifolds
+ {#PositiveQuaternionKaehlerManifold}
+
+A quaternion-Kähler manifold $(X,g)$ is called _positive_ if 
+
+1. it is a [[geodesically complete]]
+
+1. its [[scalar curvature]], which is a [[constant function|constant]] by $(X,g)$ being an [[Einstein manifold]], is a [[positive number]], $R(g) \gt 0$.
+
+(e.g. [Amann 09, Def. 1.5](#Amann09))
+
+A [[positive quaternion-Kähler manifold]] is necessarily
+
+1. [[compact topological space|compact]];
+
+1. [[simply connected topological space]]
+
+([Salamon 82, p. 158, p. 163](#Salamon82))
+
+
+For each [[dimension]] $dim(X)$ there is a [[finite number]] of [[isometry]] [[isomorphism class|classes]] of [[positive quaternion-Kähler manifolds]].
+
+Every [[Wolf space]] is a [[positive quaternion-Kähler manifold]].
+
+In fact the [[Wolf spaces]] are the only examples known of [[positive quaternion-Kähler manifold]], as of today.
+
+Conjecture: In every dimension, the [[Wolf spaces]] are the only [[positive quaternion-Kähler manifolds]].
+
+The conjecture has been proven for [[dimension]]
+
+* $d = 4$ (Hitchin)
+
+* $d = 8 $ (Poon–Salamon, LeBrun–Salamon)
+
+
+
 ## Related concepts
 
 * [[quaternionic manifold]], [[Kähler manifold]], [[hyper-Kähler manifold]]
@@ -124,9 +170,9 @@ See also
 
 * Simon G. Chiossi, Óscar Maciá, _SO(3)-Structures on 8-manifolds_, Ann. Glob. Anal. Geom. 43 (1) (2013), 1--18 ([arXiv:1105.1746](https://arxiv.org/abs/1105.1746))
 
-On quaternion-Kähler manifold with [[positive number|positive]] [[scalar curvature]]:
+On [[positive quaternion-Kähler manifolds]]
 
-* Amann, _Positive Quaternion Kähler Manifolds_ ([pdf](https://d-nb.info/996176438/34))
+* {#Amann09} Amann, _Positive Quaternion Kähler Manifolds_, 2009 ([pdf](https://d-nb.info/996176438/34))
 
 * Amann, _Partial Classification Results for Positive Quaternion Kaehler Manifolds_ ([arXiv:0911.4587](https://arxiv.org/abs/0911.4587))
 
@@ -140,10 +186,8 @@ Discussion of [[characteristic classes]]:
 [[!redirects quaternion Kähler manifold]]
 [[!redirects quaternion Kähler manifols]]
 
-
 [[!redirects quaternion-Kaehler manifold]]
 [[!redirects quaternion-Kaehler manifolds]]
-
 
 [[!redirects quaternion Kaehler manifold]]
 [[!redirects quaternion Kaehler manifolds]]
@@ -155,9 +199,6 @@ Discussion of [[characteristic classes]]:
 [[!redirects quaternionic-Kahler manifold]]
 [[!redirects quaternionic-Kähler manifolds]]
 [[!redirects quaternionic-Kahler manifolds]]
-
-[[!redirects quternionic-Kähler manifold]]
-[[!redirects quternionic-Kähler manifolds]]
 
 [[!redirects quaternion-Kähler structure]]
 [[!redirects quaternion-Kähler structures]]
@@ -176,5 +217,43 @@ Discussion of [[characteristic classes]]:
 
 [[!redirects Spin(3) x Spin(5) structure]]
 [[!redirects Spin(3) x Spin(5) structures]]
+
+
+
+[[!redirects positive quaternion-Kähler manifolds]]
+
+[[!redirects positive quaternion Kähler manifold]]
+[[!redirects positive quaternion Kähler manifols]]
+
+[[!redirects positive quaternion-Kähler manifold]]
+[[!redirects positive quaternion-Kähler manifols]]
+
+[[!redirects positive quaternion-Kaehler manifold]]
+[[!redirects positive quaternion-Kaehler manifolds]]
+
+[[!redirects positive quaternion Kaehler manifold]]
+[[!redirects positive quaternion Kaehler manifolds]]
+             
+[[!redirects positive quaternionic Kähler manifold]]
+[[!redirects positive quaternionic Kähler manifolds]]
+
+[[!redirects positive quaternionic-Kähler manifold]]
+[[!redirects positive quaternionic-Kahler manifold]]
+[[!redirects positive quaternionic-Kähler manifolds]]
+[[!redirects positive quaternionic-Kahler manifolds]]
+
+[[!redirects positive quaternion-Kähler structure]]
+[[!redirects positive quaternion-Kähler structures]]
+
+[[!redirects quaternion-Kaehler structure]]
+[[!redirects quaternion-Kaehler structures]]
+
+[[!redirects quaternion Kähler structure]]
+[[!redirects quaternion Kähler structures]]
+
+[[!redirects quaternion Kaehler structure]]
+[[!redirects quaternion Kaehler structures]]
+
+
 
 
