@@ -51,7 +51,7 @@ If $X^{8}$ has
 
 or 
 
-* [[Spin(3) x Spin(5)-structure]] 
+* [[Sp(2).Sp(1)-structure]] 
 
 then
 
