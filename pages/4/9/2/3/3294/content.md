@@ -255,7 +255,7 @@ And just as in the finite dimensional case, we can define the partial derivative
 ###### Definition
 **directional derivative**
 
-Let F and G be Fr&#233;chet spaces, $U \subseteq F$ open and $P: U \to G$ a nonlinear continuous map. The derivative of $P$ at the point $f \in U$ in the direction $h \in F$ is the map
+Let $F$ and $G$ be Fr&#233;chet spaces, $U \subseteq F$ open and $P: U \to G$ a nonlinear continuous map. The derivative of $P$ at the point $f \in U$ in the direction $h \in F$ is the map
 $$
 D P: U \times F \to G
 $$
@@ -310,7 +310,7 @@ The [[chain rule]] is valid:
 
 +-- {: .num_theorem}
 ###### Theorem
-If P and Q are $C^1$ then so is their composition $Q \circ P$ and
+If $P$ and $Q$ are $C^1$ then so is their composition $Q \circ P$ and
 $$
 D [Q \circ P](f) h = D Q(P(f)) \; D P(f) \; h
 $$
