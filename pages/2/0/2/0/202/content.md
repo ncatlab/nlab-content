@@ -32,7 +32,7 @@ More generally, if $\mathcal{C}$ is any [[category]] with [[finite products]], t
 
 If one associates to a group $G$ its [[delooping]] one-object [[groupoid]] $B G$, it is sometimes of interest to regard the collection of groups instead as a [[2-category]], namely as the [[full subcategory|full]] sub-$2$-category of [[Grpd]] on one-object groupoids. In this case the $2$-morphisms between homomorphisms of groups come from "intertwiners": [[inner automorphism]]s of the target group -- hence this 2-category is _not_ equivalent to the 1-category of groups.
 
-On the other hand, if we regard $Grp$ as a full sub-$2$-category of $Grpd_*$, the $2$-category of *[[pointed object|pointed]]* groups, then this is [[locally discrete 2-category|locally discrete]] and [[equivalence of categories|equivalent]] to the ordinary [[1-category]] $Grp$.  This is because the only *pointed* intertwiner between two homomorphisms is the identity.
+On the other hand, if we regard $Grp$ as a full sub-$2$-category of $Grpd_*$, the $2$-category of *[[pointed object|pointed]]* groupoids, then this is [[locally discrete 2-category|locally discrete]] and [[equivalence of categories|equivalent]] to the ordinary [[1-category]] $Grp$.  This is because the only *pointed* intertwiner between two homomorphisms is the identity.
 
 Precisely analogous statements hold for the category [[Alg]] of algebras.
 
