@@ -5,7 +5,7 @@
 
 ## Idea
 
-In general, the _center_ (or _centre_) of an algebraic object $X$ is the collection of things which "commute with all elements of $X$."  This has a number of specific incarnations.
+In general, the _center_ (or _centre_) of an [[algebra|algebraic]] [[object]] $A$ is the collection of [[elements]] of $A$ which "commute with all elements of $A$."  This has a number of specific incarnations.
 
 ## Definitions
 
@@ -17,7 +17,7 @@ This notion of center of a group can be generalized to the center of a [[monoid]
 
 ### Of Lie algebras
 
-The __center of a Lie algebra__ $L$ is an abelian Lie subalgebra $Z(L)$, consisting of all elements $ z\in L$ such that $[l,z]=0$ for all $z\in L$. There are generalizations for some other kinds of algebras.
+The __center of a [[Lie algebra__ $L$ is an abelian Lie subalgebra $Z(L)$, consisting of all elements $ z\in L$ such that $[l,z]=0$ for all $z\in L$. There are generalizations for some other kinds of algebras.
 
 
 ### Of categories and higher categories {#OfCategories}
@@ -56,13 +56,19 @@ See [[center of an ∞-group]].
 
 ## Related concepts
 
-[[diagonal matrix]]
+* [[diagonal matrix]]
+
+* [[central product of groups]]
 
 ## References
 
 * R.-E. Hoffmann, _&#220;ber das Zentrum einer Kategorie_ , Math. Nachr. **68** (1975) pp.299-306.
 
 * {#JS96}[[Peter Johnstone|P. Johnstone]], _Remarks on Quintessential and Persistent Localizations_ , TAC **2** no.8 (1996) pp.90-99. ([pdf](http://www.tac.mta.ca/tac/volumes/1996/n8/n8.pdf))
+
+See also
+
+* Wikipedia, _<a href="https://en.wikipedia.org/wiki/Center_(group_theory)">Center (group theory)</a>_
 
 [[!redirects centre]]
 [[!redirects centers]]
