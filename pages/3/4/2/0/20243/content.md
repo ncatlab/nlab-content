@@ -18,12 +18,14 @@
 
 The [[Lie group]] denoted $Sp(n).Sp(1)$ 
 ([Alekseevskii 68](#Alekseevskii68), [Gray 69](#Gray69))
-or just $Sp(n)Sp(1)$ is the [[quotient group]] of the [[direct product group]] of the given [[quaternion unitary groups]] by their [[diagonal]] [[center]] [[cyclic group of order 2]].
+or just $Sp(n)Sp(1)$ is the [[quotient group]] of the [[direct product group]] of the given [[quaternion unitary groups]] by their [[diagonal]] [[center]] [[cyclic group of order 2]]. 
 
 
 A [[smooth manifold]] of [[dimension]] $4n$ with [[G-structure]] for this group $G = Sp(n).Sp(1)$ is a [[quaternion-Kähler manifold]].
 
 Similarly, for $Spin(n_1)$, $Spin(n_2)$ [[spin groups]] in some dimension, the group denoted $Spin(n_1) \cdot Spin(n_2)$ or just $Spin(n_1)Spin(n_2)$ is the [[quotient group]] of the [[direct product group]] $Spin(n_1) \times Spin(n_2)$ by the [[diagonal]] [[center]] [[cyclic group of order 2]].
+
+These products $G_1 \cdot G_2$ are examples of [[central products of groups]].
 
 \linebreak
 
@@ -560,6 +562,8 @@ Second Series, Vol. 92, No. 2 (1970), pp. 189-223 ([jstor:1970834](https://www.j
 [[!redirects Sp(1).Sp(1).Sp(1)]]
 
 [[!redirects Spin(n).Spin(m)]]
+
+[[!redirects Spin(n1).Spin(n2)]]
 
 [[!redirects Spin(3)Spin(3)Spin(3)]]
 [[!redirects Spin(3).Spin(3).Spin(3)]]
