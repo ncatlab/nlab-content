@@ -223,6 +223,12 @@ where $A \in U(n)$.
 
 =--
 
+There are also various exceptional realizations of spheres as coset spaces. For instance:
+
+* [[G2/SU(3) is the 6-sphere]], 
+
+* ....
+
 
 ### Sequences of coset spaces
  {#QuotientMapsOfCosetSpaces}
