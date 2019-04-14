@@ -9,24 +9,33 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The term "multiverse" is used to descibe some picture of [[cosmology]].
+In [[physics]], the term "multiverse" refers to certain picture of [[cosmology]]. The intended meaning tends to differ between authors and/or remain vague (see [below](#General)) but broadly what goes with it is the idea that, just as the configuration of [[matter]] and [[energy]] changes from place to place within our [[observable universe]], clearly, it could be that _beyond_ the [[observable universe]] (for immediate or not so immediate notions of "beyond") eventually even the laws of [[physics]] might change from place to place, possibly altogether, but at least as concerns the values of [[coupling constants]] or even [[field (physics)|field]]-content.
 
-(An unrelated concept in pure mathematics is the [[set-theoretic multiverse]].)
+The idea remains hypothetical, naturally, and might ultimately be empty as an idea about [[physics]] as opposed to [[philosophy]], but it is arguably in historical continuation with a sequence of famously confirmed insights about [[cosmology]], which led from an archaic picture of a cosmos centered all around the world directly experienced by humans (the continent a disk inside an ocean hung in the center of the heavenly spheres), via the Copernican revolution, then the confirmation of distant [[galaxies]] etc., to the realization that the [[observable universe]] is immense and varied and our physical place and whereabouts inside it just a random result of chance, subject only to the tautological condition that it allows us to be here at all -- known as the "anthropic principle" in these discussions. 
 
+Part of the motivation of contemplating a multiverse even in the face of its ontological elusiveness comes from attempts of formulating fundamental [[theory (physics)|theories of physics]] such as [[quantum gravity]] or [[theories of everything]], since the motivation and success of such theories depends to some extent on what one thinks they can or should explain or predict, and how much room for chance and chaos there may remain in a truly fundamental theory of physics. 
+
+For example, if a fundamental [[theory of everything]] were to _predict_, say, the [[generations of fundamental particles]] and the values of the [[Yukawa couplings]] in the [[standard model of particle physics]], then these would be fixed -- by pure [[logic]], ultimately -- to be what they are, and would be the same "everywhere" in the universe, making obsolete the idea of a multiverse. 
+
+Part of the interest in the idea of the multiverse derives from the feeling that this scenario of the [[standard model of particle physics]], with its particular [[field (physics)|field content]] and [[coupling constants]], being fixed by pure logic, is no more likely than [[Johannes Kepler]]'s attempt to derive the distances in the solar system from the [[Platonic solids]] (the old _[[Music of the Spheres]]_), which today we understand is a confusion of what is fundamental law and what is [[random variable|random]] initial conditions.
+
+
+
+ 
 ### General
+ {#General}
 
 On the very largest scales observable in astrophysical [[experiment]], the cosmos is well described by an [[FRW model]] with [[cosmological constant]] $\Lambda$, with plenty of [[dark matter]] and with primordial [[cosmic inflation]] (called the $\Lambda$-CDM "[[standard model of cosmology|concordance model of cosmology]]"). A [[horizon]] in there and everything on smaller scales is the _[[observable universe]]_.
 
 There has never been a reason to assume that beyond this _cosmic horizon_ visible to us today, the cosmos would not extend further. In fact in the simple [[FRW models]] with positive cosmological constant, the [[spacetime]] [[manifold]] is not a [[closed manifold]] and extends indefinitely beyond our observable horizon. This is directly analogous to the ancient mariner who would stand on the deck of his ship and see a few miles of ocean around him. That was the world within his horizon, but there was no telling what lay beyond.
 
-Therefore it is important to distinguish the _observable universe_ from the _universe_ as such. Unfortunately, intellectual laziness tended to ignore this distinction and at some point some people who said "universe" to mean just the stretch of our cosmic horizon felt the need to have a new term for whatever may lie beyond. For better or worse, that new term has become wide-spread these days and is "multiverse". 
+Therefore it is important to distinguish the _[[observable universe]]_ from the _universe_ as such. Unfortunately, intellectual laziness tended to ignore this distinction and at some point some people who said "universe" to mean just the stretch of our cosmic horizon felt the need to have a new term for whatever may lie beyond. For better or worse, that new term has become wide-spread these days and is "multiverse". 
 
 ### In view of cosmic inflation
 
@@ -62,6 +71,9 @@ From ([Ellis 11](#Ellis11)):
  {#RelatedConcepts}
 
 * Vaguely related is the [[possible worlds semantics]] in [[modal logic]] for the formalization of [[metaphysics|metaphyisical]] [[necessity]] and [[possibility]]. For instance ([Kripke 80](#Kripke80)) is much concerned with the logic of "[[possible worlds semantics|possible worlds]]".
+
+* Not really related but arguably somewhat analogous is, in the [[foundations of mathematics]], the [[set-theoretic multiverse]] of different [[set theories]], and similarly the [[2-category]] [[Topos]] of [[toposes]], hence of [[constructive mathematics|constructive]] [[foundations of mathematics]] (see at _[[topos theory]]_ for more on this).
+
 
 ## References
 
