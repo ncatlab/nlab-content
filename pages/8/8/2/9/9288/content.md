@@ -33,7 +33,7 @@ We briefly disucss here some basics of ordinary [[linear algebra]] with an empha
 
 #### Physics motivation: Superposition of states and fields
 
-One key aspect of [[quantum mechanics]], that distribuishes it from [[classical mechanics]], is that there is _linear structure_ on [[quantum states]], as follows (the following applies to quantum states in the [[Schrödinger picture]] only, not to states in the sense of [[state on an operator algebra]], which are really the [[expectation values]] of [[observables]] in the states as discussed here):
+One key aspect of [[quantum mechanics]], that distinguishes it from [[classical mechanics]], is that there is _linear structure_ on [[quantum states]], as follows (the following applies to quantum states in the [[Schrödinger picture]] only, not to states in the sense of [[state on an operator algebra]], which are really the [[expectation values]] of [[observables]] in the states as discussed here):
 
 * The **[[superposition principle]]** in quantum mechanics says that for $\psi_1$ and $\psi_2$ two [[quantum states]] one can form their [[sum]] $\psi_1 + \psi_2$ as well as their difference $\psi_1 - \psi_2$ such that this is again a quantum state. Moreover there is a 0-state such that $\psi + 0 = \psi$ for all $\psi$. Together this means there is the structure of an additive [[abelian group]] on the set of quantum states.
 
