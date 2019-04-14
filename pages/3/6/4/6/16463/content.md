@@ -31,6 +31,8 @@ One issue here is to do so at the level of [[quantum field theory]] proper, for 
 
 * [[gauge coupling unification]]
 
+* [[multiverse]]
+
 ## References
 
 * Wikipedia, _[Theory of everything](http://en.wikipedia.org/wiki/Theory_of_everything)_
