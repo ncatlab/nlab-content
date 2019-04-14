@@ -106,7 +106,7 @@ Here we use not only the fact that elementhood is recursively defined, but that 
 
 Because we have deliberately only put $refl$ (and terms reducing to it) into the identity type, this definition of identity types will validate the "equality reflection" rule of [[extensional type theory]].
 
-There are simple ways to modify the meaning explanation so as to no longer validate the extensional rules.  For instance, if we add to the semantics additional "free variables", so that there are "neutral terms" which do not compute to any canonical form, and modify the rules of the interpretation so as to say that any normalizable neutral term inhabits every type, then extensionality will no longer hold, since the identity type (like any type) will contain all the variables.  This is maybe not a particular compelling model of intensionality, but there are proposals for better ways to expand the meaning explanation to deal with [[intensional type theory]].
+There are simple ways to modify the meaning explanation so as to no longer validate the extensional rules.  For instance, if we add to the semantics additional "free variables", so that there are "neutral terms" which do not compute to any canonical form, and modify the rules of the interpretation so as to say that any normalizable neutral term inhabits every type, then extensionality will no longer hold, since the identity type (like any type) will contain all the variables.  This is maybe not a particularly compelling model of intensionality, but there are proposals for better ways to expand the meaning explanation to deal with [[intensional type theory]].
 
 ### The rules of type theory
 
