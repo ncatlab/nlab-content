@@ -69,7 +69,7 @@ Let in the following $D$ be a [[small category]] and [[Set]] the category of set
 
 The **limit of a Set-valued functor** $F : D^{op} \to Set$ is the [[hom-set]] 
 $$
-  lim F := Hom_{[D^{op}, Set]}(pt, F)
+  lim F \coloneqq Hom_{[D^{op}, Set]}(pt, F)
   \in Set
 $$
 in the [[functor category]] $[D^{op}, Set]$ (the [[presheaf]] category), where
@@ -127,7 +127,7 @@ an arbitrary category if we construct a certain [[presheaf]] on $C$ which we wil
 More precisely, using the [[Yoneda embedding]] $y: C \to [C^{op}, Set]$ define for $F : D^{op} \to C$ the [[presheaf]] $\hat \lim F \in [C^{op}, Set]$ by
 
 $$
-  (\hat \lim F)(c):=Hom_{Set^{D^{op}}}(pt,Hom_C(c,F(-)))
+  (\hat \lim F)(c)\coloneqq Hom_{Set^{D^{op}}}(pt,Hom_C(c,F(-)))
 $$
 
 for all $c \in C$, or suppressing the subscripts for readability:
