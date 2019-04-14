@@ -45,7 +45,7 @@ We discuss three equivalent definitions of comma categories
 $$
   \array{
     f(c_1)
-    &\stackrel{f(\beta)}{\to}&
+    &\stackrel{f(\beta)}{\rightarrow}&
     f(c_2)
     \\
     \downarrow^{\alpha_1}
@@ -62,6 +62,7 @@ $$
     (c_2,d_2, \alpha_2)
   }
 $$
+
 
 * [[composition]] of morphisms is given on components by composition in $C$ and $D$.
 
