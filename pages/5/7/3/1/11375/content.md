@@ -25,6 +25,8 @@ For example, if a fundamental [[theory of everything]] were to _predict_, say, t
 
 Part of the interest in the idea of the multiverse derives from the feeling that this scenario of the [[standard model of particle physics]], with its particular [[field (physics)|field content]] and [[coupling constants]], being fixed by pure logic, is no more likely than [[Johannes Kepler]]'s attempt to derive the distances in the solar system from the [[Platonic solids]] (the old _[[Music of the Spheres]]_), which today we understand is a confusion of what is fundamental law and what is [[random variable|random]] initial conditions.
 
+Of course, at this point, it might as well be the other way around, see also at _[[universal exceptionalism]]_.
+
 
 
  
