@@ -67,7 +67,7 @@ For instance, pure Einstein-Hilbert gravity with cosmological constant (and no o
 
 $$
   \label{EinsteinHilbertWithCosmologicalConstant}
-  S_{EH} + S_{cos} :  (X,g) \mapsto \int_X R\, dvol + \lambda \int_X d vol_g
+  S_{EH} + S_{cc} :  (X,g) \mapsto \int_X R\, dvol + \lambda \int_X d vol_g
   \,,
 $$
 
