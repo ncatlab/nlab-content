@@ -63,11 +63,23 @@ The corresponding clause for elements is
   * if $a\Rightarrow 0$, then $a:A$.
   * if $a\Rightarrow s(b)$ and $b:A$, then $a:A$.
 
-And for equality:
+Note that the recurrence in this inductive definition doesn't go via the overall recursive definition of $a:A$. In other words, to put the above clause more pedantically, we first define
+
+* an inductive predicate $IsNat$:
+  * if $a\Rightarrow 0$, then $IsNat(a)$.
+  * if $a\Rightarrow s(b)$ and $IsNat(b)$, then $IsNat(a)$.
+
+Then say
+
+* if $A\Rightarrow N$, then the collection of terms $a$ such that $a:A$ is those such that $IsNat(a)$.
+
+The clause for equality is
 
 * if $A\Rightarrow N$, then the collection of pairs $a,b$ such that $a=b:A$ is defined inductively by the clauses:
   * if $a\Rightarrow 0$ and $b\Rightarrow 0$, then $a=b:A$.
   * if $a\Rightarrow s(a')$ and $b\Rightarrow s(b')$ and $a'=b':A$, then $a=b:A$.
+
+With a similar separation of the inductive definition.
 
 ### Function types
 
