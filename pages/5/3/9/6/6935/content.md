@@ -210,7 +210,7 @@ The [[type of natural numbers]] $\mathbb{N}$ is the inductive type defined as fo
         \;\;
         \vdash p_0 : P(0)
         \;\;\;
-        x \in \mathbb{N}, p : P(x) \vdash q : P(s x)
+        x \in \mathbb{N}, p : P(x) \vdash q : P(s (x))
        \right)
        \;\;
        \vdash n \in \mathbb{N}
