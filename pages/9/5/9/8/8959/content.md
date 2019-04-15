@@ -47,11 +47,13 @@ The clauses which we include in each case depend on what type constructors we wa
 
 ### Natural numbers
 
-Suppose that we have terms $N$, $0$, and $s(x)$, along with a [[recursion|recursor]] $rec(n,z_0,x r. z_s)$ such that
-$$rec(0,z_0,x r.z_s) \Rightarrow z_0$$
+Suppose that we have terms $N$, $0$, and $s(x)$, along with a [[recursion|recursor]] $rec(n,z_0,x\,r. z_s)$ such that
+$$\frac{n \Rightarrow 0 \qquad z_0 \Rightarrow v}
+{rec(n,z_0,x\,r.z_s) \Rightarrow v}$$
 and
-$$rec(s(n),z_0,x r. z_s) \Rightarrow z_s[n/x,rec(n,z_0,x r.z_s)/r].$$
-The term $rec(n,z_0,x r. z_s)$ is intended to denote the value at $n$ of a recursively defined function specified to be $z_0$ at zero and $z_s$ at successors.  Here $x$ and $r$ are [[variables]] which may occur free in $z_s$ but are bound in $rec(n,z_0,x r. z_s)$, representing the current index and the result of the last recursive call, respectively.
+$$\frac{n' \Rightarrow s(n) \qquad z_s[n/x,rec(n,z_0,x\,r.z_s)/r] \Rightarrow v}
+{rec(n',z_0,x\,r. z_s) \Rightarrow v}.$$
+The term $rec(n,z_0,x\,r. z_s)$ is intended to denote the value at $n$ of a recursively defined function specified to be $z_0$ at zero and $z_s$ at successors.  Here $x$ and $r$ are [[variables]] which may occur free in $z_s$ but are bound in $rec(n,z_0,x\,r. z_s)$, representing the predecessor and the result of the last recursive call, respectively.
 
 Then to explain the [[natural numbers type]], we include a clause in the [[inductive definition]] of "$A$ is a type" which says
 
@@ -84,7 +86,8 @@ With a similar separation of the inductive definition.
 ### Function types
 
 Suppose that we have a term constructor yielding "$A\to B$" for terms $A$ and $B$, and similarly $app(f,a)$ and $\lambda x.t$, such that
-$$ app(\lambda x.t, a) \Rightarrow t[a/x]. $$
+$$\frac{f \Rightarrow \lambda x.t \qquad t[a/x] \Rightarrow v}
+{app(f, a) \Rightarrow v}.$$
 Then to explain the [[function type]], we include a clause in the inductive definition of "$A$ is a type" which says
 
 * if $A$ is a type and $B$ is a type and $C\Rightarrow (A\to B)$, then $C$ is a type.
