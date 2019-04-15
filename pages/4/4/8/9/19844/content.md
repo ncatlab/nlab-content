@@ -306,6 +306,8 @@ In contrast, an argument that the threshold [[statistical significance]] for fla
 
 * Ashutosh Kumar Alok, Dinesh Kumar, Suman Kumbhakar, S Uma Sankar, _Impact of $D^\ast$ polarization measurement on solutions to $R_D$-$R_{D^\ast}$ anomalies_ ([arXiv:1903.10486](https://arxiv.org/abs/1903.10486))
 
+* Pere Arnan, [[Andreas Crivellin]], Marco Fedele, Federico Mescia, _Generic Loop Effects of New Scalars and Fermions in $b \to s \ell^+ \ell^-$ and a Vector-like 4th Generation_ ([arXiv:1904.05890](https://arxiv.org/abs/1904.05890))
+ 
 
 #### Leptoquarks
 
