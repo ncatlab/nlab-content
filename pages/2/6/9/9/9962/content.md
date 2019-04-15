@@ -63,7 +63,9 @@ Even if one assumes that the parameters under consideration are invariantly defi
 
 (p. 39 (4-3))
 
-> The failure of naïve naturalness to describe the world tells us we should look harder for a theory that does, an ‘ultraviolet completion’. Compactified string/ M-theories appear to be strong candidates for such a theory. The alternative to naturalness, often neglected as an alternative, is having a theory. 
+> The failure of naïve naturalness to describe the world tells us we should look harder for a theory that does, an ‘ultraviolet completion’. Compactified string/ M-theories appear to be strong candidates for such a theory. 
+
+> {#TheAlternative} The alternative to naturalness, often neglected as an alternative, is having a theory. 
 
 (p. 57 (6-1))
 
