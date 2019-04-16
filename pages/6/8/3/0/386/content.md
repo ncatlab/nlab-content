@@ -265,6 +265,8 @@ This fact is mentioned in ([Joyal](#Joyal)), to help give some intuition for his
 
 ### Combinatorics
 
+The homogenous symmetric function $h_m(x_1,x_2,{\dots},x_n)$ is the generating function for the set of all morphisms from $[m-1]$ to $[n-1]$.
+
 As an order-preserving function between finite ordinals, any morphism $f : \mathbf{m} \to \mathbf{n}$ in $\Delta_a$ is completely specified by fixing $k$ elements of $\mathbf{n}$ as the [[image]] of $f$, together with a [[partition#of_numbers|composition]] of $\mathbf{m}$ into $k$ parts, each part denoting a non-empty, contiguous subset of elements of $\mathbf{m}$ sharing their value of $f$. That is, each such composition is given by a collection of $k$ interval parts $[0,i_1], [i_1 + 1, i_2], \ldots, [i_{k-1}+1, m-1]$, determined by a $(k-1)$-element subset $\{i_1, \ldots, i_{k-1}\}$ of an $(m-1)$-element set $\{0, \ldots, m-2\}$. Hence, there are a total of
 
 $$
