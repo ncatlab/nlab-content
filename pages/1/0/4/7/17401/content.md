@@ -21,8 +21,15 @@ One can of course additionally ask that a relevance monoidal category be [[close
 
 * The category of [[pointed sets]], which is equivalent to the category of sets and [[partial functions]], is a relevance monoidal category with its pointed [[smash product]].
 
+## Related concepts
+
+* [[monoidal category with diagonals]]
+* [[semicartesian monoidal category]]
+* [[monoidal category]]
+
+
 ## References
 
-* K. Dosen, Z. Petric, *Relevant Categories and Partial Functions*, Publications de l'Institut Math&#233;matique, Nouvelle S&#233;rie, Vol. 82(96), pp. 17&#8211;23 (2007)  [arXiv](http://arxiv.org/abs/math/0504133)
+* K. Dosen and Z. Petric, *Relevant Categories and Partial Functions*, Publications de l'Institut Mathématique, Nouvelle Série, Vol. 82(96), pp. 17–23 (2007)  arXiv:[math/0504133](http://arxiv.org/abs/math/0504133)
 
 [[!redirects relevance monoidal categories]]
