@@ -26,6 +26,8 @@ As well, the application of science and math to the theory of human perception o
 
 * [[dihedral group]]
 
+* [[Music of the Spheres]]
+
 * [[canonical formula of myth]]
 
 ## Links 
@@ -43,6 +45,14 @@ As well, the application of science and math to the theory of human perception o
 A comprehensive anthology of Riemannian and Neo-Riemannian music theory is:
 
 * Edward Gollin, Alexander Rehding (eds.), _The Oxford Handbook of Neo-Riemannian Music Theories_ , Oxford UP 2014.
+
+An excellent textbook on the mathematics of music that ranges from Fourier analysis over digital music to compositional symmetries is
+
+* David J. Benson, _Music - A Mathematical Offering_ , Cambridge UP 2007. ([pdf](https://homepages.abdn.ac.uk/d.j.benson/pages/html/music.pdf))
+
+Comparable in range though presumably more digestible for the non mathematical reader is
+
+* Gareth Loy, _Musimathics - the mathematical foundations of music. Vols. 1,2_ , MIT Press 2007.
 
 Some canonical music theory texts that rely on mathematics:
 
