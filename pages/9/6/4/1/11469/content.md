@@ -70,7 +70,7 @@ Let $X$ be a [[smooth]] [[projective variety|projective]] [[curve]] over the [[f
 +-- {: .num_defn}
 ###### Definition
 The **[[ring of adeles]] of $K_X$** is defined as
-  \[ \mathbf{A}_X = \prod^{res}_x K_x \subset \prod_x K_x, \]
+  \[ \mathbf{A}_X = \product^{res}_x K_x \subset \product_x K_x, \]
 i.e. the subgroup consisting of elements $\{g_x\}_{x \in X}$ such that $g \in G(O_x)$ for all but finitely many $x$.
 =--
 
