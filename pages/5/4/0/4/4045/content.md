@@ -60,6 +60,8 @@
 
 * [[semicartesian monoidal category]]
 
+* [[monoidal category with diagonals]]
+
 * [[multicategory]]
 
 ## Semisimplicity
