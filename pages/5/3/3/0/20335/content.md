@@ -48,3 +48,6 @@ The stronger notion of relevance monoidal category is discussed in
 
 * K. Dosen and Z. Petric, *Relevant Categories and Partial Functions*, Publications de l'Institut Mathématique, Nouvelle Série, Vol. 82(96), pp. 17–23 (2007)  arXiv:[math/0504133](http://arxiv.org/abs/math/0504133)
 
+When a [[premonoidal category]] comes equipped with a morphism $\Delta_x\colon x\to x\otimes x$ for all $x$, such as in the [[Kleisli category]] for a [[strong monad]] on a cartesian category, or in any [[Freyd category]], then the $f$ for which $(f\otimes f)\circ \Delta_x = \Delta_y \circ f$ are called "copyable".
+
+* C. Führmann. *Varieties of effects*, Proc. Fossacs 2002. Doi:[10.1007/3-540-45931-6_11](https://doi.org/10.1007/3-540-45931-6_11)
