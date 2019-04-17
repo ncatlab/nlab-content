@@ -39,6 +39,9 @@ The _strong nuclear force_ is described by a [[gauge field]] with [[gauge group]
 [[!redirects nuclear forces]]
 
 [[!redirects weak nuclear force]]
+[[!redirects weak nuclear forces]]
+
+
 [[!redirects weak interaction]]
 [[!redirects weak interactions]]
 
