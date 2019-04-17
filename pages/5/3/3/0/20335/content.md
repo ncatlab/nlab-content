@@ -1,4 +1,24 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#contents#
+* table of contents
+{:toc}
+
+
 ## Idea
 
 An arbitrary [[monoidal category]] $(C,\otimes)$ does not admit maps $x\to x\otimes x$, unlike the case of a [[cartesian monoidal category]], where the monoidal product is the categorical [[product]]. A **monoidal category with diagonals** is a monoidal category with the extra [[structure]] of a consistent system of such diagonal maps.
