@@ -60,7 +60,7 @@ Implementations of constructive [[real number]] analysis in [[type theory]] impl
 
 * R. O'Connor, _Incompleteness and Completeness: Formalizing Logic and Analysis in Type Theory_, PhD thesis, Radboud University Nijmegen, 2009.
 
-* Robbert Krebbers, [[Bas Spitters]], _Type classes for efficient exact real arithmetic in Coq_ ([arXiv:1106.3448](http://arxiv.org/abs/1106.3448/))
+* {#KrebbersSpitters11} Robbert Krebbers, [[Bas Spitters]], _Type classes for efficient exact real arithmetic in Coq_ ([arXiv:1106.3448](http://arxiv.org/abs/1106.3448/))
 
 * [[Bas Spitters]], _Verified Implementation of Exact Real Arithmetic in Type Theory_, talk at _Computable Analysis and Rigorous Numeric_ ([pdf](http://www.cs.ru.nl/~spitters/CARN.pdf))
 
