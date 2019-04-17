@@ -31,9 +31,9 @@ Analogously there is the notion of graded $k$-[[associative algebra]] over any c
 
 Specifically for $k$ a [[field]] a **graded algebra** is a [[monoid in a monoidal category|monoid in]] [[graded vector spaces]] over $k$.
 
-An $\mathbb{N}$-graded algebra is called _connected_ if in degree-0 it is just the ground ring
+An $\mathbb{N}$-graded algebra is called _connected_ if in degree-0 it is just the ground ring.
 
-A [[differential graded algebra]] is a graded algebra $A$ equipped with a [[derivation]] $d : A\to A$ of degree +1 (or -1, dependig on conventions) and such that $d \circ d = 0$. This is the same as a [[monoid]] in the category of [[chain complexes]].
+A [[differential graded algebra]] is a graded algebra $A$ equipped with a [[derivation]] $d : A\to A$ of degree +1 (or -1, depending on conventions) and such that $d \circ d = 0$. This is the same as a [[monoid]] in the category of [[chain complexes]].
 
 
 ## Properties
