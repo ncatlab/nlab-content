@@ -147,7 +147,7 @@ $$
 ###### Proposition
 **(pointwise product and [[convolution product]] on [[Schwartz space]])
 
-The [[Schwartz space]] $\mathcal{S}(\mathbb{R}^n)$ (def. \ref{SchwartzSpace}) is closed under the following operatios on smooth functions $f,g \in \mathcal{S}(\mathbb{R}^n) \hookrightarrow C^\infty(\mathbb{R}^n)$
+The [[Schwartz space]] $\mathcal{S}(\mathbb{R}^n)$ (def. \ref{SchwartzSpace}) is closed under the following operations on smooth functions $f,g \in \mathcal{S}(\mathbb{R}^n) \hookrightarrow C^\infty(\mathbb{R}^n)$
 
 1. pointwise product:
 
