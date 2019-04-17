@@ -170,9 +170,11 @@ $$ x : Id_N(0,1)  \vdash  5 : N \to N $$
 
 ## References
 
-* [[Per Martin-Löf]], "Constructive mathematics and computer programming" ([pdf](http://www.cs.tufts.edu/~nr/cs257/archive/per-martin-lof/constructive-math.pdf))
+* [[Per Martin-Löf]], _Constructive mathematics and computer programming_ ([pdf](http://www.cs.tufts.edu/~nr/cs257/archive/per-martin-lof/constructive-math.pdf))
 
-* [[UF-IAS-2012]], _[Meaning Explanations](http://uf-ias-2012.wikispaces.com/Meaning+Explanations)_
+* [[Per Martin-Löf]]. _On the Meanings of the Logical Constants and the Justifications of the Logical Laws_, Nordic Journal of Philosophical Logic, 1(1): 11–60, 1996 ([pdf](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf))
+
+* [[UF-IAS-2012]], _[Meaning Explanations](https://ncatlab.org/ufias2012/published/Meaning%20Explanations)_
 
 * {#Sterling15} [[Jon Sterling]], _Type theory and its Meaning Explanations_ , 2015 ([video recording](https://youtu.be/xMAqniX2Paw)). 
 
