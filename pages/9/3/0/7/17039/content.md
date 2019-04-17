@@ -17,6 +17,8 @@
 =--
 =--
 
+This page collects pointers related to the book project:
+
 
 * [[Gabriel Catren]], [[Mathieu Anel]], (eds.)
 
