@@ -170,6 +170,8 @@ $$ x : Id_N(0,1)  \vdash  5 : N \to N $$
 
 ## References
 
+* [[Per Martin-Löf]], _Intuitionistic Type Theory_ (Notes by Giovanni Sambin of a series of lectures given in Padua, June 1980). Napoli, Bibliopolis, 1984. ([pdf](http://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf))
+
 * [[Per Martin-Löf]], _Constructive mathematics and computer programming_ ([pdf](http://www.cs.tufts.edu/~nr/cs257/archive/per-martin-lof/constructive-math.pdf))
 
 * [[Per Martin-Löf]]. _On the Meanings of the Logical Constants and the Justifications of the Logical Laws_, Nordic Journal of Philosophical Logic, 1(1): 11–60, 1996 ([pdf](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf))
