@@ -33,7 +33,7 @@ Another desirable property is that the diagonal map $\Delta_I\colon I\to I\otime
 
 * Any [[cartesian monoidal category]] has a canonical structure of diagonal maps.
 
-* The category of [[pointed sets]] with [[smash product]] is a monoidal category with diagonals, taking the diagonal maps to be the composites $X\stackrel{\Delta}{\to} X\times X \to X \vee X$, where $X\times X \to X\vee X$ is the defining quotient map for the smash product.
+* The category of [[pointed sets]] with [[smash product]] is a monoidal category with diagonals, taking the diagonal maps to be the composites $X\stackrel{\Delta}{\to} X\times X \to X \wedge X$, where $X\times X \to X\wedge X$ is the defining quotient map for the smash product.
 
 ## Related concepts
 
