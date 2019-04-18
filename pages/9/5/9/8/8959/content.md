@@ -56,6 +56,8 @@ The definition is intended to satisfy some properties:
 
 By reflexivity, the specification of which terms have a type is technically redundant. It is just reiterating the reflexivity instances of equality. So for this meaning explanation, the recursive part of the definition is assigning types their meaning as [[partial equivalence relations]] (PERs) on terms.
 
+We expect $a:A$ *if and only if* $a=a:A$, rather than just the one, usual direction because we want equality to only be defined on elements. By symmetry and transitivity, $a=b:A$ implies $a=a:A$ and $b=b:A$, so then by the unusual direction, $a:A$ and $b:A$.
+
 The reverse reduction properties are saying that the relevant information about a term comes from the value it reduces to. Meaning explanations provide a sense in which type theory is about computational behavior. For this system, the computational behavior of a term is to return a value. Note however that not all terms reduce to a value, for example, the $\Omega$ combinator: $(\lambda x.x\,x) (\lambda x.x\,x)$.
 
 The clauses we should include in the inductive-recursive definition depend on what type constructors we want to put into our type theory; in each case the base notion of untyped computation must include corresponding operators.  Here are three paradigmatic examples.
@@ -109,13 +111,21 @@ Then to explain the [[function type]], we include a clause in the inductive defi
 
 The clause for elements is:
 
-* if $C\Rightarrow (A\to B)$ for types $A$ and $B$, and for any $a=a':A$ we have $app(f,a)=app(f,a'):B$, then $f:A\to B$.  In other words, the collection of elements of type $A\to B$ is the collection of terms $f$ such that for any $a=a':A$ we have $app(f,a)=app(f,a'):B$.
+* if $C\Rightarrow (A\to B)$ for types $A$ and $B$, and for any $a=a':A$ we have $app(f,a)=app(f,a'):B$, then $f:C$.  In other words, the collection of elements of type $A\to B$ is the collection of terms $f$ such that for any $a=a':A$ we have $app(f,a)=app(f,a'):B$.
 
 For equality, we have:
 
-* if $C\Rightarrow (A\to B)$ for types $A$ and $B$, and for any $a=a':A$ we have $app(f,a)=app(g,a'):B$, then $f=g:A\to B$.
+* if $C\Rightarrow (A\to B)$ for types $A$ and $B$, and for any $a=a':A$ we have $app(f,a)=app(g,a'):B$, then $f=g:C$.
 
 These are not inductive definitions as we had for the natural numbers; they are merely simple definitions.  On the other hand, we are now using the fact that the function mapping types to their collections of element pairs is recursively defined, since in order to make this definition, we must invoke it at $A$ and $B$. The negative occurrence of $a=a':A$ in this clause (and similar occurrences in other clauses for higher order types) is the reason why the whole explanation cannot just be defined by mutual induction.
+
+This clause for function types is not the one Martin-Löf proposed. Unlike all of Martin-Löf's clauses, this one gives *all* terms of a function type directly; it doesn't just give the canonical terms first, with the rest defined via reduction. This is because it defines the elements in reference to the elimination form, $app$, instead of the introduction form, $\lambda$, as Martin-Löf did. Here's Martin-Löf's clause for elements (adapting for this non-dependent case):
+
+* if $C\Rightarrow (A\to B)$ for types $A$ and $B$, $f \Rightarrow \lambda x.b$ for some (variable $x$ and term) $b$, and for any $a=a':A$ we have $b[a/x]=b[a'/x]:B$, then $f:C$.
+
+The element equality clause gets an analogous change. (Exercise!)
+
+Both styles of function type validate all the usual function rules of extensional type theory.
 
 ### Identity types
 
