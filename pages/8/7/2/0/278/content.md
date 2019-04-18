@@ -127,6 +127,9 @@ With emphasis on [[Cartan geometry]]:
 Lecture notes include
 
 * {#Conrad} [[Brian Conrad]], Handouts on Differential Geometry ([web](http://math.stanford.edu/~conrad/diffgeomPage/handouts.html))
+
+* [[Liviu Nicolaescu]], _Lectures on the Geometry of Manifolds_, 2018 ([pdf](https://www3.nd.edu/~lnicolae/Lectures.pdf))
+
  
 An introduction with an eye towards applications in [[physics]], specifically to [[gravity]] and [[gauge theory]] is in 
 
