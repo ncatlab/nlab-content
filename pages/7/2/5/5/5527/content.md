@@ -319,7 +319,7 @@ By prop. \ref{KernelsInsideAlmostCycles}.
 ### Via exact couples
  {#ViaExactCouples}
 
-The spectral sequence may alternatively be obtained as the [spectral sequence of an exact coupl](exact+couple#SpectralSequencesFromExactCouples)
+The spectral sequence may alternatively be obtained as the [spectral sequence of an exact couple](exact+couple#SpectralSequencesFromExactCouples)
 
 $$ D\overset{\varphi}{\to} D \to E \to D $$
 
