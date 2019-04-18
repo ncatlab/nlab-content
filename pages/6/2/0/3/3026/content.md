@@ -15,9 +15,9 @@
 
 ## Idea
 
-The _one-point compactification_ of a [[topological space]] $X$ is a new [[compact space]] $X^+ = X \cup \{\infty\}$ obtained by adding a single new point "$\infty$" to the original space and declaring in $X^+$ the [[complements]] of the original [[closed subspace|closed]] [[compact space|compact]] [[subspaces]] to be [[open subspace|open]].
+The _one-point compactification_ of a [[topological space]] $X$ is a new [[compact space]] $X^* = X \cup \{\infty\}$ obtained by adding a single new point "$\infty$" to the original space and declaring in $X^*$ the [[complements]] of the original [[closed subspace|closed]] [[compact space|compact]] [[subspaces]] to be [[open subspace|open]].
 
-One may think of the new point added as the "point at infinity" of the original space. A [[continuous function]] on $X$ _[[vanishing at infinity|vanishes at infinity]]_ precisely if it extends to a continuous function on $X^+$ and literally takes the value zero at the point "$\infty$".
+One may think of the new point added as the "point at infinity" of the original space. A [[continuous function]] on $X$ _[[vanishing at infinity|vanishes at infinity]]_ precisely if it extends to a continuous function on $X^*$ and literally takes the value zero at the point "$\infty$".
 
 This one-point compactification is also known as the _Alexandroff compactification_ after a 1924 paper by [[Pavel Aleksandrov|Павел Сергеевич Александров]] (then transliterated 'P.S. Aleksandroff'). 
 
@@ -73,10 +73,7 @@ It is hence sufficient to see that
 Regarding the first statement: Under [[de Morgan duality]] 
 
 $$  
-  \underset{
-     i \in \underset{\text{finite}}{J}
-  }{\bigcap} 
-   (X \backslash CK_i \cup \{\infty\})
+  \underset{i \in \underset{\text{finite}}{J}}{\bigcap} (X \backslash CK_i \cup \{\infty\})
   = 
   \left( X \backslash \left(\underset{i \in \underset{\text{finite}}{J}}{\bigcup} CK_i \right)\right) \cup \{\infty\}
 $$
@@ -86,8 +83,7 @@ and
 $$
   \underset{i \in I}{\bigcup} ( X \backslash CK_i \cup \{\infty\} )
   = 
-  \left(X \backslash \left(\underset{i \in I}{\bigcap} CK_i \right)\right)
-    \cup \{\infty\}
+  \left(X \backslash \left(\underset{i \in I}{\bigcap} CK_i \right)\right) \cup \{\infty\}
 $$
 
 and so the first statement follows from the fact that finite unions of compact subspaces and arbitrary intersections of closed compact subspaces are themselves again compact ([this prop.](compact+space#UnionsAndIntersectionOfCompactSubspaces)).
@@ -103,24 +99,23 @@ Regarding the second statement: That $U \subset X$ is open means that there exis
        (X \backslash C) \cap (X \backslash CK)
        \\
        & =
-       X \backslash ( C \cup CK )
+       X \backslash (C \cup CK).
      \end{aligned}
    $$
 
    Since finite unions of closed subsets are closed, this is again an open subset of $X$;
 
-1. for unions:
+2. for unions:
 
    $$
      \begin{aligned}
        U \cup (X \backslash CK) \cup \{\infty\}
        & = 
-       (X \backslash C) \cup (X \backslash CU) \cup \{\infty\}
+       (X \backslash C) \cup (X \backslash CK) \cup \{\infty\}
        \\
        & =
-       (X \backslash (C \cap CK)) \cup \{\infty\} 
+       (X \backslash (C \cap CK)) \cup \{\infty\} .
      \end{aligned}
-     \,.
    $$ 
 
    For this to be open in $X^\ast$ we need that $C \cap CK$ is again compact. This follows because [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]] and because [[closed subsets of compact spaces are compact]].
