@@ -75,28 +75,19 @@ Regarding the first statement: Under [[de Morgan duality]]
 $$  
   \underset{
      i \in \underset{\text{finite}}{J}
-  }{\cap} 
+  }{\bigcap} 
    (X \backslash CK_i \cup \{\infty\})
   = 
-  X \backslash
-  \left(
-     \left(\underset{i \in \underset{\text{finite}}{J}}{\cup} CK_i \right)
-     \cup
-     \{\infty\}
-  \right)
+  \left( X \backslash \left(\underset{i \in \underset{\text{finite}}{J}}{\bigcup} CK_i \right)\right) \cup \{\infty\}
 $$
 
 and
 
 $$
-  \underset{i \in I}{\cup} ( X \backslash C_i \cup \{\infty\} )
+  \underset{i \in I}{\bigcup} ( X \backslash CK_i \cup \{\infty\} )
   = 
-  X \backslash
-  \left(
-    \left(\underset{i \in I}{\cap} CK_i \right)
-    \cup 
-    \{\infty\}
-  \right)
+  \left(X \backslash \left(\underset{i \in I}{\bigcap} CK_i \right)\right)
+    \cup \{\infty\}
 $$
 
 and so the first statement follows from the fact that finite unions of compact subspaces and arbitrary intersections of closed compact subspaces are themselves again compact ([this prop.](compact+space#UnionsAndIntersectionOfCompactSubspaces)).
