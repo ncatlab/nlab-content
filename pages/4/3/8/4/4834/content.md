@@ -179,7 +179,7 @@ Oxford University Press. ([preprint pdf](http://ttic.uchicago.edu/~dreyer/course
 
 Survey includes
 
-* Frade, _Calculus of inductive constructions_ ([pdf](http://www3.di.uminho.pt/~mjf/pub/SFV-CIC-2up.pdf))
+* Frade, _Calculus of inductive constructions_ ([pdf](http://www4.di.uminho.pt/~mjf/pub/SFV-CIC-2up.pdf))
 
 * {#Cody15} [[Cody Roux]], _Pure type systems: Dependents when you need them_, talk at Boston Haskell Meetup 2015 ([slides](http://de.slideshare.net/imalsogreg/cody-roux-pure-type-systems-boston-haskell-meetup),[video](https://www.youtube.com/watch?v=ZGqKsalJi4s))
 
