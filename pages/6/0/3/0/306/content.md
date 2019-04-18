@@ -363,7 +363,7 @@ but $\Delta = \bot$ forces $A = 0$. So the only such category that can have a su
 
 ## Generalizations: object classifier
 
-In higher topoi the the subobject classifiers are the [[generalized universal bundle|universal fibrations]]:
+In higher topoi the subobject classifiers are the [[generalized universal bundle|universal fibrations]]:
 
 in the [[n-topos|(n+1)-topos]] $n Cat$ of [[n-category|n-categories]] the subobject classifier is the [[stuff, structure, property|forgetful functor]]
 
