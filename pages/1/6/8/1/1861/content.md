@@ -160,6 +160,9 @@ Now
 
 ([Kirby-Melvin-Teichner 12](#KirbyMelvinTeichner12))
 
+
+\linebreak
+
 ## Related concepts
 
 
@@ -213,8 +216,16 @@ Discussion of [[M-brane]] physics in terms of [[equivariant rational homotopy th
 
 * [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_ ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987))
 
+and in terms of [[twisted cohomotopy]]:
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ 
+
+
+
 
 
 
 [[!redirects cohomotopy group]]
 [[!redirects cohomotopy groups]]
+
+[[!redirects Cohomotopy]]
