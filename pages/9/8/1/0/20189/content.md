@@ -184,6 +184,12 @@ $$
 ([Bott-Cattaneo 98, Lemma 2.1](#BottCattaneo98))
 
 
+### Coset spaces
+
+[[!include coset space structure on n-spheres -- table]]
+
+
+
 ### $G$-Structure and exceptional geometry
 
 
