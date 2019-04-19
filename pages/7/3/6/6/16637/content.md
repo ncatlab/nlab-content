@@ -81,6 +81,14 @@ Other coset realizations of the usual [[differentiable manifold|differentiable]]
 
 * $S^7 \simeq_{diff}  Spin(5)/SU(2)$ ([Awada-Duff-Pope 83](#AwadaDuffPope83), [Duff-Nilsson-Pope 83](#DuffNilssonPope83))
 
+These three coset realizations of 'squashed' 7-spheres together with a fourth
+
+* $S^7 \simeq_{diff}  Spin(8)/Spin(7)$,
+
+the realization of the 'round' 7-sphere, may be seen jointly as resulting from the 8-dimensional representations of even [[Clifford algebras]] in 5, 6, 7, and 8 dimensions (see [#Baez](Baez)) and as such related to the four [[normed division algebras]]. 
+
+
+
 The following gives an [[exotic 7-sphere]]:
 
 * $S^7 \simeq_{homeo} Sp(1)\backslash Sp(2)/Sp(1)$ ([[Gromoll-Meyer sphere]])
@@ -218,6 +226,8 @@ On [[coset]]-realizations:
 * {#AwadaDuffPope83} M. A. Awada, [[Mike Duff]], [[Christopher Pope]], _$N=8$ Supergravity Breaks Down to $N=1$_, Phys. Rev. Lett. 50, 294 – Published 31 January 1983 ([doi:10.1103/PhysRevLett.50.294](https://doi.org/10.1103/PhysRevLett.50.294))
 
 * {#DuffNilssonPope83} [[Mike Duff]], [[Bengt Nilsson]], [[Christopher Pope]], _Spontaneous Supersymmetry Breaking by the Squashed Seven-Sphere_, Phys. Rev. Lett. 50, 2043 – Published 27 June 1983; Erratum Phys. Rev. Lett. 51, 846  ([doi:10.1103/PhysRevLett.50.2043](https://doi.org/10.1103/PhysRevLett.50.2043))
+
+* {#Baez} [[John Baez]], _Rotations in the 7th Dimension_, ([blog post](https://golem.ph.utexas.edu/category/2007/09/rotations_in_the_7th_dimension.html)), and _TWF 195_, ([webpage](http://math.ucr.edu/home/baez/week195.html))
 
 [[!redirects 7-spheres]]
 
