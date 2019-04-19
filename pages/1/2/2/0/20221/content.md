@@ -43,6 +43,11 @@ with the [[special unitary group]] of complex dimension 4.
 (e.g. [Figueroa-O'Farrill 10, Lemma 8.1](#FigueroaFarrill10))
 
 
+### Coset spaces
+
+[[!include coset space structure on n-spheres -- table]]
+
+
 ### $G$-Structure and exceptional geometry
 
 
