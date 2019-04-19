@@ -13,3 +13,5 @@
 | [[generalized Spin(7)-structure]] | $Spin(8,8)$ | $Spin(7) \times Spin(7)$ | 
 | [[generalized G2-structure]] | $Spin(7,7)$ | $G_2 \times G_2$ | 
 | [[generalized Calabi-Yau manifold|generalized CY3]] | $Spin(6,6)$ | $SU(3) \times SU(3)$ | 
+
+see also: _[[coset space structure on n-spheres -- table|coset space structure on n-spheres]]_
