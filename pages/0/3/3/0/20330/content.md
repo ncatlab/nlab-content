@@ -32,6 +32,10 @@ $$
   \,.
 $$
 
+## Related concepts
+
+[[!include coset space structure on n-spheres -- table]]
+
 ## References
 
 According to [ABF 17](#ABF17) the statement is originally due to to
