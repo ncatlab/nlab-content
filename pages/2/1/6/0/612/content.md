@@ -125,13 +125,13 @@ Application to [[moduli stack of elliptic curves]]:
 
 ### Elliptic cohomology
 
-* Elliptic cohomology I: Spectral abelian varieties, ([pdf](http://www.math.harvard.edu/~lurie/papers/Elliptic-I.pdf))
+* _Elliptic cohomology I: Spectral abelian varieties_ ([pdf](http://www.math.harvard.edu/~lurie/papers/Elliptic-I.pdf))
 
-* Elliptic cohomology II: Orientations, ([pdf](http://www.math.harvard.edu/~lurie/papers/Elliptic-II.pdf))
+* _Elliptic cohomology II: Orientations_ ([pdf](http://www.math.harvard.edu/~lurie/papers/Elliptic-II.pdf))
 
-* Elliptic cohomology III: Tempered Cohomology, ([pdf](http://www.math.harvard.edu/~lurie/papers/Elliptic-III-Tempered.pdf))
+* _Elliptic cohomology III: Tempered Cohomology_ ([pdf](http://www.math.harvard.edu/~lurie/papers/Elliptic-III-Tempered.pdf))
 
-* Elliptic cohomology IV: Equivariant elliptic cohomology, (announced)
+* _Elliptic cohomology IV: Equivariant elliptic cohomology_, (announced)
 
 ### Publications before thesis
 
