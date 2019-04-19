@@ -116,11 +116,11 @@ The [above](#YMactionfunctional) [[action functional]] describes the dynamics of
 A distribution of  $n$-[[electric charge]] on $X$ is modeled itself by a [[cocycle]] $\hat j_E$ in [[ordinary differential cohomology]] in degree $dim X - n$
 
 $$
-  [\hat j_E] \in H_{diff}^{dim X - d}(X)
+  [\hat j_E] \in H_{diff}^{dim X - n}(X)
   \,.
 $$
 
-The [[curvature]] $j_E$ of $\hat j_E$ is the [[electric current]] form. The [[action functional]] that encodes the [[force]] of the [[gauge field]] exerted on this electric charge distribution is locally on [[coordinate chart]]s $U \subset X$ given by the [[integral]] $\int_X A_U \wedge j_E$, where $A_U$ is the local [[connection on an infinity-bundle|connection]] $n$-form of the gauge fiedl $\nabla$.
+The [[curvature]] $j_E$ of $\hat j_E$ is the [[electric current]] form. The [[action functional]] that encodes the [[force]] of the [[gauge field]] exerted on this electric charge distribution is locally on [[coordinate chart]]s $U \subset X$ given by the [[integral]] $\int_X A_U \wedge j_E$, where $A_U$ is the local [[connection on an infinity-bundle|connection]] $n$-form of the gauge field $\nabla$.
 
 Globally, this contribution is given by the push-forward 
 
@@ -155,10 +155,10 @@ $$
 
 ### ... and with magnetic charge.
 
-We now consider one more additional term in the [[action functional]], one that desribes moreover the interaction of our [[gauge field]] with a distribution of $n$-[[magnetic charge]] on $X$, in addition to the interaction with the distribution of [[electric charge]] described 
+We now consider one more additional term in the [[action functional]], one that describes moreover the interaction of our [[gauge field]] with a distribution of $n$-[[magnetic charge]] on $X$, in addition to the interaction with the distribution of [[electric charge]] described 
 [above](#WithElectricCharge).
 
-The [[magnetic charge]] distribution itself is also modeled as a  [[cocycle]] $\hat j_B$ in [[ordinary differential cohomology]]. As opposed to the [[electric charge]] it is however not part of the dynamics but of the kinemtics of the system: it does not manifestly show up in the integral expression for the [[action functional]], but does modify the nature of the configuration space that this action functional is defined on.
+The [[magnetic charge]] distribution itself is also modeled as a  [[cocycle]] $\hat j_B$ in [[ordinary differential cohomology]]. As opposed to the [[electric charge]] it is however not part of the dynamics but of the kinematics of the system: it does not manifestly show up in the integral expression for the [[action functional]], but does modify the nature of the configuration space that this action functional is defined on.
 
 Namely the kinematic higher [[Maxwell equations]] is a condition of the form
 
@@ -169,7 +169,7 @@ $$
 
 where $j_B$ is the [[magnetic charge]] distribution. If $F_\nabla$ is the [[curvature]] of a [[circle n-bundle with connection]], then necessarily $d F_\nabla = 0$. Therefore the system of higher electromagnetism in the presence of magnetic charge cannot be modeled any more by [[cocycle]]s in [[ordinary differential cohomology]].
 
-One fines that instead, more one has to model $\nabla$ not as a [[circle n-bundle with connection]], but as an $n$-[[twisted bundle]] with connection, where the [[twisted cohomology|twisgt]] is $\hat j_B$. 
+One finds instead that one has to model $\nabla$ not as a [[circle n-bundle with connection]], but as an $n$-[[twisted bundle]] with connection, where the [[twisted cohomology|twist]] is $\hat j_B$. 
 
 We shall write $C^{n+1}_{diff}(X)_{\hat j_B}$ for the [[∞-groupoid]] of twisted cocycles for this fixed twist. The crucial point is now the following:
 
@@ -239,7 +239,7 @@ $$
 
 of gauge fields on the [[product]] of [[spacetime]] $X$ with the parameter space $U$. (See for instance [[Lie integration]] and [[connection on an ∞-bundle]] for details on how differential forms on $U \times X$ encode $U$-families of forms on $X$).
 
-This way the configuration space of higher electromagnetism in the presence of electric and magnetic charge is naturally incarnated as an object in the [[cohesive (∞,1)-topos]] of [[smooth ∞-groupoid]]s, and accordingly all the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#Structures">differential geometric structures</a> in cohesive $(\infty,1)$-topos are available. In particular we may speak of [[circle n-bundle with connection|line bundle with connection]] on $Conf$, gevin for instance by morphisms
+This way the configuration space of higher electromagnetism in the presence of electric and magnetic charge is naturally incarnated as an object in the [[cohesive (∞,1)-topos]] of [[smooth ∞-groupoid]]s, and accordingly all the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#Structures">differential geometric structures</a> in cohesive $(\infty,1)$-topos are available. In particular we may speak of [[circle n-bundle with connection|line bundle with connection]] on $Conf$, given for instance by morphisms
 
 $$
   Anom_{\hat j_B} : Conf \to \mathbf{B} U(1)_{conn}
@@ -255,7 +255,7 @@ We say
     [Anom_{\hat j_B}] \in H^1(Conf, U(1))
   $$
 
-  is **the anomaly** of the system of higher electromagnetism couple to electic and magnetic charge;
+  is **the anomaly** of the system of higher electromagnetism coupled to electric and magnetic charge;
 
 * its [[curvature]] 2-form
 
