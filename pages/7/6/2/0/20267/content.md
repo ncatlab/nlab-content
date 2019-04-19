@@ -95,11 +95,9 @@ This is a re-statement of
 \end{imagefromfile}
 \end{center}
 
-The [[coset spaces]] appearing here:
+[[!include coset space structure on n-spheres -- table]]
 
-* [[G2/SU(3) is the 6-sphere]]
 
-* ...
 
 ### $G$-Structure and exceptional geometry
 
