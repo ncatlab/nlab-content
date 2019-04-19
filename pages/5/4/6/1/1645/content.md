@@ -200,11 +200,9 @@ The mathematical formulation of this in terms of [[index theory]] is due to
 
 * [[Michael Atiyah]], [[Isadore Singer]], _Dirac operators coupled to vector potentials_, Proc. Nat. Acad. Sci. USA __81__, 2597-2600 (1984)
 
-* [[Jean-Michel Bismut]] and [[Daniel Freed]], _The analysis of elliptic families. I. Metrics and connections on
-determinant bundles_ , Comm. Math. Phys. 106 (1986), no. 1, 159&#8211;176.
+* [[Jean-Michel Bismut]] and [[Daniel Freed]], _The analysis of elliptic families. I. Metrics and connections on determinant bundles_ , Comm. Math. Phys. 106 (1986), no. 1, 159&#8211;176.
 
-* [[Jean-Michel Bismut]] and [[Daniel Freed]], _The analysis of elliptic families. II. Dirac operators, eta invariants,
-and the holonomy theorem_ , Comm. Math. Phys. 107 (1986), no. 1, 103&#8211;163.
+* [[Jean-Michel Bismut]] and [[Daniel Freed]], _The analysis of elliptic families. II. Dirac operators, eta invariants, and the holonomy theorem_ , Comm. Math. Phys. 107 (1986), no. 1, 103&#8211;163.
 
 and a clear comprehensive account of the situation (topological anomaly, geometric anomaly) is in 
 
@@ -241,6 +239,10 @@ The anomaly line bundles for [[self-dual higher gauge theory]] is discussed in
 Discussion in the context of [[extended topological field theory]] includes
 
 * {#1410.7442} [[Samuel Monnier]], _Hamiltonian anomalies from extended field theories_, ([arxiv/1410.7442](http://arxiv.org/abs/1410.7442))
+
+Anomaly field theories are discussed in
+
+* {#1903.02828} [[Samuel Monnier]], _A Modern Point of View on Anomalies_, ([arxiv/1903.02828](http://arxiv.org/abs/1903.02828))
 
 ### Gauge anomaly
  {#ReferencesGaugeAnomaly}
