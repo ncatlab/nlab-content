@@ -195,6 +195,10 @@ $$
 (e.g [Varadarajan 01, Theorem 3](#Varadarajan01))
 
 
+[[!include coset space structure on n-spheres -- table]]
+
+\linebreak
+
 ### $G$-Structure and exceptional geometry
 
 [[!include Spin(8)-subgroups and reductions -- table]]
