@@ -157,6 +157,8 @@ For examples see _[7-sphere -- Coset space realization](#7-sphere#CosetSpaceReal
 
 =--
 
+[[!include coset space structure on n-spheres -- table]]
+
 
 \linebreak
 
