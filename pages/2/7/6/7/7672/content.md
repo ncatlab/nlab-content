@@ -530,6 +530,8 @@ Hence: the image of $J$ is essentially the first [[chromatic layer]] of the [[sp
 
 * [[scanning map equivalence]]
 
+* [[twisted cohomotopy]]
+
 \linebreak
 
 ## References
