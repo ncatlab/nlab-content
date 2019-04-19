@@ -124,6 +124,9 @@ $$
   
 * {#Rezk14} [[Charles Rezk]], _[[Global Homotopy Theory and Cohesion]]_ (2014)
 
+* {#Lurie} [[Jacob Lurie]], Section 3 of _Elliptic cohomology III: Tempered Cohomology_ ([pdf](http://www.math.harvard.edu/~lurie/papers/Elliptic-III-Tempered.pdf))
+
+
 See also 
 
 * {#Schwede13} [[Stefan Schwede]], _Global homotopy theory_, 2013 ([pdf](http://www.math.uni-bonn.de/~schwede/global.pdf))
