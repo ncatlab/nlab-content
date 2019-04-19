@@ -152,6 +152,13 @@ $$
 
 =--
 
+## Free cocompletion of large categories
+
+In general, given a large category $\mathcal{A}$, we can define a locally small category of _small presheaves_ on $\mathcal{A}$ as the full subcategory of the functor category $Fun(\mathcal{A}^{\mathrm{op}},\operatorname{Set})$ spanned by those functors $F:\mathcal{A}^{\mathrm{op}} \to \operatorname{Set}$ such that there exists a functor $\gamma:\mathcal{C} \to \mathcal{A}$ with $\mathcal{C}$ small and a presheaf $F': \mathcal{C}^{\mathrm{op}}\to \operatorname{Set}$ such that
+
+$$F=\operatorname{Lan}_{\gamma} F'.$$  
+
+In the case where $\mathcal{A}^{\mathrm{op}}$ is [[locally presentable]], the category of small presheaves on $\mathcal{A}$ is equivalent to the category of [[accessible functors]] $\mathcal{A}^{\mathrm{op}}\to \operatorname{Set}$. In this situation, the category of small functors has many nice properties and is often said to be _almost a topos_. In particular, under this assumption, the category of small presheaves is complete, cocomplete, and Cartesian-closed. See [Day-Lack](#DayLack) for more details.
 
 ## Free cocompletion as a pseudomonad
 
@@ -208,6 +215,9 @@ One can ask for the notion of free cocompletion in the wider context of [[higher
 * for [[(∞,1)-category]] theory there is [[free (∞,1)-cocompletion]] .
 
 ## References 
+
+* [[Brian Day]], [[Steve Lack]], _Limits of small functors_ ([web](https://arxiv.org/abs/math/0610439))
+{#DayLack}
 
 This reference might also give helpful clues:
 
