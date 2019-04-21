@@ -1,4 +1,3 @@
-
 # Complete boolean algebras
 * table of contents
 {: toc}
@@ -7,6 +6,33 @@
 
 A __complete Boolean algebra__ is a [[complete lattice]] that is also a [[Boolean algebra]].  Since lattice homomorphisms of Boolean algebras automatically preserves the Boolean structure, the complete Boolean algebras form a [[full subcategory]] [[CompBoolAlg]] of [[CompLat]].
 
+## Category of complete Boolean algebras
+
+A natural notion of [[morphism]] for complete Boolean algebras
+is that of a continuous homomorphism of Boolean algebras,
+also known as complete Boolean homomorphisms.
+These can be defined as homomorphisms of Boolean algebras that preserve [[suprema]],
+or, equivalently, [[infima]].
+It suffices to require preservation of [[suprema]] of [[directed subsets]].
+
+With this notion of morphisms, complete Boolean algebras form a category.
+
+## Stone duality
+
+The [[Stone duality]] establishes a [[contravariant equivalence]]
+of [[categories]] between the category of [[Boolean algebras]]
+and the category of [[Stone spaces]].
+The latter is a [[full subcategory]] of the category [[Top]]
+of [[topological spaces]] and [[continuous maps]]
+on [[compact]] [[totally disconnected]] [[Hausdorff]] [[topological spaces]].
+
+Recall that a [[Stonean space]] is a [[compact]] [[extremally disconnected]]
+[[Hausdorff]] [[topological space]].
+[[Morphisms]] of [[Stonean spaces]] are defined to be [[open]] [[continuous maps]].
+Restricting the [[Stone duality]] produces a [[contravariant equivalence]]
+between the category of complete Boolean algebres
+and the category of [[Stonean spaces]].
+See Corollary~6.10(2) in Bezhanishvili \cite{SDGC}.
 
 ## CABAs
 
@@ -36,6 +62,13 @@ For instance around theorem 2.4 of
 and
 
 * PlanetMat, _[representing a complete atomic Boolean algebra by power set](http://planetmath.org/RepresentingACompleteAtomicBooleanAlgebraByPowerSet.html)_
+
+The [[Stone duality]] for complete Boolean algebras is explained in
+
+\bibitem{SDGC}
+[[Guram Bezhanishvili]],
+_Stone duality and Gleason covers through de Vries duality_.
+Topology and its Applications 157 (2010), 1064–1080.     
 
 [[!redirects complete Boolean algebra]]
 [[!redirects complete boolean algebra]]
