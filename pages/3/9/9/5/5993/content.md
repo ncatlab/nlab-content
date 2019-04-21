@@ -83,9 +83,17 @@ where $pfaff(M_{k l})$ denotes the Pfaffian of the matrix whose labels are $k,l$
 
 * [[Gregory Moore]], N. Read, _Nonabelions in the fractional quantum hall effect_, Nucl. Phys. 360B(1991)362 [pdf](http://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf)
 
-## Literature and related entries
+## Related entries
 
-* [[determinant]], [[Pfaffian line bundle]], [[hafnian]]
+* [[determinant]], 
+
+* [[Pfaffian line bundle]], 
+
+* [[hafnian]]
+
+## References
+
+### General
 
 * J.-G. Luque, J.-Y. Thibon, _Pfaffian and hafnian identities in shuffle algebras_, [math.CO/0204026](http://arxiv.org/abs/math.CO/0204026)
 * Claudiu Raicu, Jerzy Weyman, _Local cohomology with support in ideals of symmetric minors and Pfaffians_, [arxiv/1509.03954](http://arxiv.org/abs/1509.03954)
@@ -106,6 +114,20 @@ Relation to $\tau$-functions is discussed in
 Other articles:
 
 * Andr&#225;s C. L&#337;rincz, Claudiu Raicu, Uli Walther, Jerzy Weyman, _Bernstein-Sato polynomials for maximal minors and sub-maximal Pfaffians_, [arxiv/1601.06688](http://arxiv.org/abs/1601.06688)
+
+### Euler forms
+
+
+Discussion of _[[Euler forms]]_ ([[differential form]]-representatives of [[Euler classes]] in [[de Rham cohomology]]) as [[Pfaffians]] of [[curvature forms]]:
+
+* {#MathaiQuillen86} [[Varghese Mathai]], [[Daniel Quillen]], below (7.3) of _Superconnections, Thom classes, and equivariant differential forms_, Topology Volume 25, Issue 1, 1986 (<a href="https://doi.org/10.1016/0040-9383(86)90007-8">10.1016/0040-9383(86)90007-8</a>)
+
+* {#Wu05} Siye Wu, Section 2.2 of _Mathai-Quillen Formalism_, pages 390-399 in _Encyclopedia of Mathematical Physics_ 2006 ([arXiv:hep-th/0505003](https://arxiv.org/abs/hep-th/0505003))
+
+* [[Hiro Lee Tanaka]], _Pfaffians and the Euler class_, 2014 ([pdf](http://www.hiroleetanaka.com/pdfs/2014-fall-230a-lecture-26-gauss-bonnet-chern.pdf))
+
+* {#Nicolaescu18} [[Liviu Nicolaescu]], Section 8.3.2 of _Lectures on the Geometry of Manifolds_, 2018 ([pdf](https://www3.nd.edu/~lnicolae/Lectures.pdf), [MO comment](https://mathoverflow.net/a/117982/381))
+
 
 category: algebraic geometry, representation theory
 [[!redirects Pfaffians]]
