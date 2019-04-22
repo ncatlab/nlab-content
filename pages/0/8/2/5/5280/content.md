@@ -7,7 +7,7 @@
 
 The _Cantor--Schroeder--Bernstein_ theorem says that the usual [[order relation]] on [[cardinalities]] of [[set]]s is [[antisymmetric relation|antisymmetric]]. In other words, define an order on sets by $X \leq Y$ if there exists a [[monomorphism]] $f\colon X \to Y$. Then, if both $X \leq Y$ and $Y \leq X$, there exists an [[isomorphism]] of sets $X \cong Y$.
 
-The result is really only interesting in the absence of the [[axiom of choice]] ($AC$).  With $AC$, it is a trivial corollary of the [[well-ordering theorem]].  However, the theorem actually requires only [[excluded middle]], although it does not hold in [[constructive mathematics]].
+The result is really only interesting in the absence of the [[axiom of choice]] ($AC$).  With $AC$, it is a trivial corollary of the [[well-ordering theorem]].  However, the theorem actually requires only [[excluded middle]], although it does not hold in [[constructive mathematics]] --- indeed, it is actually *equivalent* to excluded middle.
 
 
 ## Proof 
@@ -189,7 +189,7 @@ $$(\neg \exists_g \neg \exists_f)^2(1) = X - g Y + g f X - g f g Y + g f g f X,$
 
 etc. The difference between this and the minimal fixed point is the set $\bigcap_{n \geq 1} (g f)^n(X)$, consisting of elements $x$ of $X$ that belong to a doubly infinite sequence or a cyclic sequence (in the terminology of the Wikipedia article). As remarked in that article, for such $x$ we have an option to define $h(x)$ as $f(x)$ or $g^{-1}(x)$; in the present article we defined $h(x) = f(x)$ for all $x$ belonging to whichever fixed point $A$ is used, which includes points in doubly infinite sequences or cyclic sequences if $A$ is the maximal fixed point. In that case the remaining $x$ (belonging to the complement of the maximal fixed point) are mapped to $g^{-1}(x)$. 
 
-## Failure in toposes 
+## Failure in toposes and constructive mathematics
 
 +-- {: .num_example #Top}
 ###### Example
@@ -203,7 +203,10 @@ Counterexample \ref{counterexample2} below shows that the CSB theorem fails in B
 As mentioned above, the Cantor-Schroeder-Bernstein theorem fails in the arrow category $Set^\to$, whose objects are functions $X_0 \to X_1$ between sets and whose morphisms are commutative squares. For example, let $X$ be the object $f: \mathbb{N} \to \mathbb{N}$ that takes $n \in \mathbb{N}$ to $\mathrm{int}(n/2)$, where $\mathrm{int}(x)$ is the greatest integer less than or equal to $x$; let $Y$ be the object $g: \mathbb{N} \to \mathbb{N}$ that takes $n$ to $\mathrm{Int}((n+1)/2)$, where $\mathrm{Int}(x)$ is the least integer greater than or equal to $x$. Pretty clearly $X$ and $Y$ are non-isomorphic, because $g^{-1}(0)$ has cardinality $1$ whereas all fibers of $f$ have cardinality $2$. But, just by drawing pictures of these objects, it is easy to construct monomophisms $i: X \to Y$ and $j: Y \to X$ (e.g., define $i_0(n) = n+1$ and $i_1(n) = n+1$ for all $n$, and define $j_0(n) = n+1$ for $n \gt 0$, $j_0(0) = 0$, and $j_1(n) = n$ for all $n$). 
 =-- 
 
-Nor can one have internal existence of an isomorphism between $X$ and $Y$ in this last example, since internal existence implies external existence as soon as the terminal object is (externally) projective. 
+Nor can one have internal existence of an isomorphism between $X$ and $Y$ in this last example, since internal existence implies external existence as soon as the terminal object is (externally) projective.
+
+In fact, the CSB theorem is equivalent in [[constructive mathematics]] to the [[law of excluded middle]].  This was shown in [Pradic and Brown, 2019](#PB19) using the [[principle of omniscience]] for the [[extended natural numbers]].
+
 
 ## In other categories
 
@@ -240,6 +243,8 @@ The CSB theorem was first stated by [[Georg Cantor]], but his proof relied on th
 
 * [[Saunders Mac Lane]] and [[Ieke Moerdijk]], _Sheaves in Geometry and Logic_, Springer-Verlag 1992. 
 {#MM}
+
+* {#PB19} Pierre Pradic, Chad E. Brown, *Cantor-Bernstein implies Excluded Middle*, [arxiv](https://arxiv.org/abs/1904.09193), 2019
 
 
 [[!redirects Cantor-Schroeder-Bernstein theorem]]
