@@ -41,7 +41,7 @@ where $\overline k$ denotes an algebraic closure of $k$, $k_s$ denotes the subex
 
 +-- {: .proof}
 ###### Proof
-$X$ is &#233;tale iff its skalar extension $X\otimes_k k_s$ is &#233;tale. And a $k_s$-scheme is &#233;tale iff it is constant.
+$X$ is &#233;tale iff its scalar extension $X\otimes_k k_s$ is &#233;tale. And a $k_s$-scheme is &#233;tale iff it is constant.
 =--
 
 +-- {: .num_prop}
