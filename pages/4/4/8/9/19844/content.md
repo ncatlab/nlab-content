@@ -68,7 +68,7 @@ The global tension with the standard model by end of 2018 has [[statistical sign
 
 If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18), [Zupan 19, 4.6](#Zupan19)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]].
 
-This situation was confirmed, if not further improved yet, with the data presented at Moriond 2019 ([Straub 19](#Straub19), [Allanach 19](#Allanach19)). On the other hand, [Caria 19, slide 9](#Caria19) sees a previous 3.8$\sigma$ decrease to $3.1$, but see [Descotes-Genon 19](#DescotesGenon19) for a comprehensive assessment.
+This situation was confirmed, if not further improved yet, with the data presented at Moriond 2019 ([Straub 19](#Straub19), [Allanach 19](#Allanach19)). On the other hand, [Caria 19, slide 9](#Caria19) sees a previous 3.8$\sigma$ decrease to $3.1$, but see [AHMSN 19](#AHMSN19), [Descotes-Genon 19](#DescotesGenon19) for a comprehensive assessment.
 
 Moreover, it had been argued ([Lyons 13b](#Lyons13b), [Dorigo 15](#Dorigo15)) that due to the specific nature of the [[experiment]], the [[statistical significance]]-threshold for detection of anomalies in [[B meson]]-decays should not be taken to be $5 \sigma$, but just $3 \sigma$, hence well exceeded already by the experimental significance:
 
@@ -310,6 +310,7 @@ In contrast, an argument that the threshold [[statistical significance]] for fla
 
 * Pere Arnan, [[Andreas Crivellin]], Marco Fedele, Federico Mescia, _Generic Loop Effects of New Scalars and Fermions in $b \to s \ell^+ \ell^-$ and a Vector-like 4th Generation_ ([arXiv:1904.05890](https://arxiv.org/abs/1904.05890))
  
+* {#AHMSN19} A. Arbey, T. Hurth, F. Mahmoudi, D. Martinez Santos, S. Neshatpour, _Update on the $b \to s$ anomalies_ ([arXiv:1904.08399](https://arxiv.org/abs/1904.08399))
 
 #### Leptoquarks
 
