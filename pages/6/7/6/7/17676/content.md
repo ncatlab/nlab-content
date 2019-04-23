@@ -13,6 +13,15 @@ This first paper provides a discussion of abelian varieties in the setting of [[
 >What does it mean to give an elliptic curve (or, more generally, an
 abelian variety) over a cohomology theory $A$? To what extent do such objects behave like their counterparts in classical algebraic geometry?
 
+It is followed up by the further parts
+
+
+* [[Jacob Lurie]], _Elliptic Cohomology II: Orientations_, 2018. 288pp ([pdf](http://www.math.harvard.edu/~lurie/papers/Elliptic-II.pdf))
+
+* [[Jacob Lurie]], _Elliptic Cohomology III: Tempered Cohomology_, 2019. 286pp ([pdf](http://www.math.harvard.edu/~lurie/papers/Elliptic-III-Tempered.pdf))
+
+* [[Jacob Lurie]], _Elliptic Cohomology IV: Equivariant elliptic cohomology_, to appear.
+
 ### Contents
 
 #### 1 Abelian Varieties in Spectral Algebraic Geometry
