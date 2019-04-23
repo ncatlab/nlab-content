@@ -505,6 +505,11 @@ A comparison of various models, internally in type theory, is in
 
 * [[Benedikt Ahrens]], [[Peter LeFanu Lumsdaine]], [[Vladimir Voevodsky]], *Categorical structures for type theory in univalent foundations*, [arxiv](https://arxiv.org/abs/1705.04310)
 
+Recent work on abstract definitions of (models of) type theory include:
+
+* Valery Isaev, _Algebraic Presentations of Dependent Type Theories_ [arXiv](https://arxiv.org/abs/1602.08504)
+
+* Taichi Uemura, _A General Framework for the Semantics of Type Theory_ [arXiv](https://arxiv.org/abs/1904.04097)
 
 
 [[!redirects categorical model of dependent types]]
