@@ -75,11 +75,11 @@ j(y) & = & g(y) & \; \text{if} \; y \notin \exists_f(A)
 That $j$ is inverse to $h$ uses the fact that $\neg A = \exists_g \neg \exists_f(A)$. The rest is obvious. 
 =--
 
-This classic proof is substantially the proof given in Johnstone's [[Elephant]], D4.1.11. The Boolean condition is not strictly speaking necessary, i.e., the [[principle of excluded middle]] ($EM$) does not logically follow from the Cantor--Schroeder--Bernstein statement since, for example, the latter holds vacuously (every mono is an iso) in the non-Boolean topos 
+This classic proof is substantially the proof given in Johnstone's [[Elephant]], D4.1.11. The Boolean condition is not *strictly speaking* necessary, i.e., the [[principle of excluded middle]] ($EM$) does not logically follow from the Cantor--Schroeder--Bernstein statement since, for example, the latter holds vacuously (every mono is an iso) in the non-Boolean topos 
 
 $$FinSet^C$$ 
 
-where $C$ is any nontrivial [[finite category]]. But $EM$ is certainly the most natural supposition to make.
+where $C$ is any nontrivial [[finite category]]. But $EM$ is certainly the most natural supposition to make. In fact EM does constructively follow from the Cantor-Schroeder-Bernstein statement provided that a [[natural numbers object]] exists; see [Pradic and Brown, 2019](#PB19). 
 
 ### Alternative construction of a fixed point {#alt}
 
