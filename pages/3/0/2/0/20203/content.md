@@ -93,7 +93,7 @@ For references see [there](C-field+tadpole+cancellation#References).
 ### Relation to F-theory 
  {#RelationToFTheory}
 
-If the 8-dimensional [[fibers]] themselves are [[elliptic fibrations]], then [[M-theory]] on these 8-manifolds this is supposedly [[T-duality|T-dual]] to [[F-theory]] [[KK-compactification|KK-compactified]] to $3+1$ [[spacetime]]-[[dimensions]]. 
+If the 8-dimensional [[fibers]] themselves are [[elliptic fibrations]], then [[M-theory]] on these 8-manifolds is supposedly [[T-duality|T-dual]] to [[F-theory]] [[KK-compactification|KK-compactified]] to $3+1$ [[spacetime]]-[[dimensions]]. 
 
 In particular, if there is an [[M2-brane]] [[wrapped brane|filling]] the base 2+1-dimensional spacetime, this is supposedly [[T-duality|T-dual]] to a 3+1-dimensional spacetime filling [[D3-brane]] in [[F-theory]] (e.g. [Condeescu-Micu-Palti 14, p. 2](#CondeescuMicuPalti14))
 
