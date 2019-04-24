@@ -45,7 +45,7 @@ $$
  \,.
 $$
 
-In approaches like ([GKP 12 (around p. 19)](http://ncatlab.org/nlab/show/F-theory#GKP12), [KMW 12](http://ncatlab.org/nlab/show/F-theory#KMW12)) the [[supergravity C-field|C-field]] is factored as a [[cup product in ordinary differential cohomology|cup product]] of a degree-2 cocycle on the elliptic fiber with a degree-2 classin the [[Calabi-Yau space|Calabi-Yau]]-base. This makes the component of the C-field on the elliptic fiber a [[complex line bundle]] (with [[connection on a bundle|connection]]). Notice that the space of complex line bundles on an elliptic curve is dual to the elliptic curve itself.
+In approaches like ([GKP 12 (around p. 19)](http://ncatlab.org/nlab/show/F-theory#GKP12), [KMW 12](http://ncatlab.org/nlab/show/F-theory#KMW12)) the [[supergravity C-field|C-field]] is factored as a [[cup product in ordinary differential cohomology|cup product]] of a degree-2 cocycle on the elliptic fiber with a degree-2 class in the [[Calabi-Yau space|Calabi-Yau]]-base. This makes the component of the C-field on the elliptic fiber a [[complex line bundle]] (with [[connection on a bundle|connection]]). Notice that the space of complex line bundles on an elliptic curve is dual to the elliptic curve itself.
 
 On the other hand in  e.g. ([DFM 03, p.38](supergravity+C-field#DFM)) the factorization is  taken to be that of two degree-3 cocycles in the base (which are then identified with the combined degree-3 [[RR-field]]/[[B-field]] flux coupled to the [[(p,q)-string]]) with, respectively, the two canonical degree-1 cocycles $\hat t_i$ on the elliptic fiber which are given by the two canonical coordinate functions $t_i$ (speaking of a [[framed elliptic curve]]). In this case the fiber-component of the [[supergravity C-field]] "is" the [[elliptic curve]]-fiber, 
 
@@ -53,7 +53,7 @@ $$
   \hat C \coloneqq \hat B_{NS} \cup \hat t_1 + \hat B_{RR} \cup \hat t_2
 $$
 
-or equivalently each pointin the moduli space of $H$-flux in 10d induces an identification of the $G$-flux with the elliptic curve this way.
+or equivalently each point in the moduli space of $H$-flux in 10d induces an identification of the $G$-flux with the elliptic curve this way.
 
 
 
@@ -68,7 +68,7 @@ on the one hand there is naturally a [[cubical structure on a line bundle]] on t
 ## Relation to S-duality and 3-form flux
  {#RelationToSDualityAnd3FormFlux}
 
-The refined perspective on [[perturbative string theory|perturbative]] [[type II string theory]] is that (see also at _[[orientifold]]_) the [[B-field]] is a [[cocycle]] in ([[twisted cohomology|twisted]]) [[ordinary differential cohomology]], while the [[RR-field]] is a [[cocyle]] in [[differential K-theory]] (im fact [[KR-theory]]). This is however not compatible with [[non-perturbative effect|non-perturbative]] [[S-duality]], which mixes the degree- components here. 
+The refined perspective on [[perturbative string theory|perturbative]] [[type II string theory]] is that (see also at _[[orientifold]]_) the [[B-field]] is a [[cocycle]] in ([[twisted cohomology|twisted]]) [[ordinary differential cohomology]], while the [[RR-field]] is a [[cocycle]] in [[differential K-theory]] (im fact [[KR-theory]]). This is however not compatible with [[non-perturbative effect|non-perturbative]] [[S-duality]], which mixes the degree- components here. 
 
 In ([DFM 03, section 9.3](supergravity+C-field#DFM)) it was argued that the cubical structure on the 11d CS term alleviates this problem, even though at face value it does not really solve it. But see at _[S-duality -- Cohomological nature of type II fields](S-duality#CohomologicalNatureOfTypeIIFieldsUnderSDuality)_ for more on this.
 
