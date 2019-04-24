@@ -292,9 +292,7 @@ See also
 
 * {#Lack2004} [[Stephen Lack]] (2004), Composing PROPs, _Theory and Applications of Categories_ **13**, 147--163.  ([web](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html))
 
-
-* R. Rosebrugh, N. Sabadini and R.F.C. Walters (2005), Generic commutative separable algebras and cospans of graphs, _Theory and Applications of Categories_ **15** (Proceedings of CT2004), 164--177.  ([web](http://www.tac.mta.ca/tac/volumes/15/6/15-06abs.html))
-{#Rosebrugh2005}
+* {#Rosebrugh2005} R. Rosebrugh, N. Sabadini and R.F.C. Walters (2005), Generic commutative separable algebras and cospans of graphs, _Theory and Applications of Categories_ **15** (Proceedings of CT2004), 164--177.  ([web](http://www.tac.mta.ca/tac/volumes/15/6/15-06abs.html))
 
 * {#Street2004} [[Ross Street]] (2004), Frobenius monads and pseudomonoids, _J. Math. Phys._ **45**.  ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.91.2686))
 
