@@ -7,7 +7,7 @@
 
 The _Cantor--Schroeder--Bernstein_ theorem says that the usual [[order relation]] on [[cardinalities]] of [[set]]s is [[antisymmetric relation|antisymmetric]]. In other words, define an order on sets by $X \leq Y$ if there exists a [[monomorphism]] $f\colon X \to Y$. Then, if both $X \leq Y$ and $Y \leq X$, there exists an [[isomorphism]] of sets $X \cong Y$.
 
-The result is really only interesting in the absence of the [[axiom of choice]] ($AC$).  With $AC$, it is a trivial corollary of the [[well-ordering theorem]].  However, the theorem actually requires only [[excluded middle]], although it does not hold in [[constructive mathematics]] --- indeed, it is actually *equivalent* to excluded middle.
+The result is really only interesting in the absence of the [[axiom of choice]] ($AC$).  With $AC$, it is a trivial corollary of the [[well-ordering theorem]].  However, the theorem actually requires only [[excluded middle]], although it does not hold in [[constructive mathematics]] --- indeed, it is actually *equivalent* to excluded middle (at least assuming the [[axiom of infinity]]).
 
 
 ## Proof 
@@ -205,7 +205,7 @@ As mentioned above, the Cantor-Schroeder-Bernstein theorem fails in the arrow ca
 
 Nor can one have internal existence of an isomorphism between $X$ and $Y$ in this last example, since internal existence implies external existence as soon as the terminal object is (externally) projective.
 
-In fact, the CSB theorem is equivalent in [[constructive mathematics]] to the [[law of excluded middle]].  This was shown in [Pradic and Brown, 2019](#PB19) using the [[principle of omniscience]] for the [[extended natural numbers]].
+In fact, the CSB theorem is equivalent in [[constructive mathematics]] (with the [[axiom of infinity]]) to the [[law of excluded middle]].  This was shown in [Pradic and Brown, 2019](#PB19) using the [[principle of omniscience]] for the [[extended natural numbers]].
 
 
 ## In other categories
