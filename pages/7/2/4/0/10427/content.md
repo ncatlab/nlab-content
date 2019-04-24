@@ -78,6 +78,10 @@ See also the references at _[[modal type theory]]_.
 
 * Kevin Quirin and Nicolas Tabareau, _Lawvere-Tierney Sheafification in Homotopy Type Theory_, [Workshop](http://hott-uf.gforge.inria.fr/2015/) talk 2015 ([pdf](http://hott-uf.gforge.inria.fr/2015/HOTTUF_Kevin.pdf)), Kevin Quirin [thesis](https://kevinquirin.github.io/thesis/main.pdf)
 
+For an introduction from the perspective of [[philosophy]] see
+
+* [[David Corfield]], _Modal homotopy type theory_, ([PhilSci archive](http://philsci-archive.pitt.edu/15260/))
+
 Specifically for [[cohesive homotopy type theory]] see:
 
 * [[Urs Schreiber]], [[Michael Shulman]], _[[schreiber:Quantum gauge field theory in Cohesive homotopy type theory]]_, in [[Ross Duncan]], [[Prakash Panangaden]] (eds.) _Proceedings 9th Workshop on Quantum Physics and Logic_, Brussels, Belgium, 10-12 October 2012 ([arXiv:1408.0054](http://arxiv.org/abs/1408.0054))
