@@ -20,7 +20,7 @@ The [[Kobayashi-Hitchin correspondence]] generalizes this to more general [[comp
 * {#UhlenbeckYau86} [[Karen Uhlenbeck]], [[Shing-Tung Yau]], _On the existence of Hermitean Yang-Mills-connections on stable bundles over K&#228;hler manifolds_, Comm. Pure Appl. Math. 39 (1986)  257-293
 
 
-* {#LuciaGomez09} Ignacio Sols Luc&#237;a, Tom&#225;s L. G&#243;mez , _The Hermite-Einstein equation and stable principal bundles (an updated survey)_ Geometriae Dedicata, 139 (1). 83-98 . (2009) ([web](eprints.ucm.es/20127/)) 
+* {#LuciaGomez09} Ignacio Sols Luc&#237;a, Tom&#225;s L. G&#243;mez, _The Hermite-Einstein equation and stable principal bundles (an updated survey)_ Geometriae Dedicata, 139 (1). 83-98. (2009) ([web](eprints.ucm.es/20127/)) 
  
 
 * [pdf](http://www.math.mcgill.ca/bsmith/Notes.pdf)
