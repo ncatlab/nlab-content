@@ -33,7 +33,7 @@ This coset realization features in the [[octonionic Hopf fibration]], making man
 
 ## Related concepts
 
-* [[coset space structure on n-spheres -- table]]
+[[!include coset space structure on n-spheres -- table]]
 
 ## References
 
