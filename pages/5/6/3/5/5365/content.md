@@ -21,7 +21,7 @@
 
 ## Idea
 
-An _cell complex_ is an [[object]] in a [[category]] which is obtained by successively "gluing cells" via [[pushouts]].
+A _cell complex_ is an [[object]] in a [[category]] which is obtained by successively "gluing cells" via [[pushouts]].
 
 ## Definition
 
@@ -31,7 +31,7 @@ In practice $C$ is usually a [[cofibrantly generated model category]] with set $
 
 An _$\mathcal{I}$-cell complex_ in $C$ is an [[object]] $X$ which is connected to the [[initial object]] $\emptyset \to X$  by a [[transfinite composition]] of [[pushouts]] of the generating cofibrations in $\mathcal{I}$.
 
-A _relative $\mathcal{I}$-cell complex_ (relative to any object $A$) is any morphism $A \to X$ obtained this starting from $A$.
+A _relative $\mathcal{I}$-cell complex_ (relative to any object $A$) is any morphism $A \to X$ obtained like this starting from $A$.
 
 A _finite cell complex_ or _countable cell complex_ is a cell complex with a [[finite set]] or a [[countable set]] of cells, respectively.
 
