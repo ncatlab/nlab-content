@@ -627,8 +627,7 @@ O(\Delta^4) = & \left\{
 $$
 
 
-This shows that it is a bit of an illusion to think of a _pentagon_ identity: the full geometric shape is really a 4-dimensional tetrahedron (the 4-simplex) whose five tetrahedral faces are the five vertices of the pentagon identity.
-
+This shows that it is a bit of an illusion to think of a _pentagon_ identity: the full geometric shape is really a 4-dimensional tetrahedron (the 4-simplex) whose five tetrahedral faces are the five edges of the pentagon identity.
 
 We can formulate this identification of structure morphisms and coherence laws with orientals more formally using the general notion of [[descent]], which was indeed the original motivation for conceiving the orientals. The descent $\infty$-category $Desc(Y,A)$ (constructed in terms of orientals) can be regarded as a way to formalize "lax $\infty$-functor from $Y$ to $A$".
 
