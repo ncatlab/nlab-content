@@ -16,6 +16,10 @@
 
 ## Idea
 
+What is called the _Gromoll-Meyer sphere_ ([Gromoll-Meyer 74](#GromollMeyer74)) is an example of an [[exotic 7-sphere]], which arises as a _double_ [[coset space]] ("biquotient") of [[quaternionic unitary groups]].
+
+## Definition
+
 Consider the [[quaternion unitary group]] [[Sp(2)]] $\simeq$ [[Spin(5)]] and its two [[subgroup]] inclusion of [[Sp(1)]] $\simeq$ [[SU(2)]] as 
 
 $$
@@ -64,6 +68,10 @@ $$
   S^7_{exotic}
 $$
 
+## Related concepts
+
+[[!include coset space structure on n-spheres -- table]]
+
 
 ## References
 
@@ -84,8 +92,7 @@ See also
 * Jost-Hinrich Eschenburg, Martin Kerin, _Almost positive curvature on the Gromoll-Meyer sphere_,  Proc. Amer. Math. Soc ([arXiv:0711.2987](https://arxiv.org/abs/0711.2987))
 
 
-* Carlos Durán, Thomas Püttmann, _A minimal Brieskorn 5-sphere in the Gromoll-Meyer sphere and its applications_, Michigan Math. J.
-    Volume 56, Issue 2 (2008), 419-451 ([euclid](https://projecteuclid.org/euclid.mmj/1224783521))
+* Carlos Durán, Thomas Püttmann, _A minimal Brieskorn 5-sphere in the Gromoll-Meyer sphere and its applications_, Michigan Math. J. Volume 56, Issue 2 (2008), 419-451 ([euclid](https://projecteuclid.org/euclid.mmj/1224783521))
 
 
 [[!redirects Gromoll-Meyer spheres]]
