@@ -13,7 +13,7 @@
 | $S^7 \simeq_{diff} Spin(6)/SU(3)$ | since [[Spin(6)]] $\simeq$ [[SU(4)]]   | 
 | $S^7 \simeq_{diff} Spin(5)/SU(2)$ | since [[Sp(2)]] is [[Spin(5)]] and [[Sp(1)]] is [[SU(2)]], see  [[Spin(5)/SU(2) is the 7-sphere]]  | 
 | $S^6 \simeq_{diff} G_2/SU(3)$ | [[G2/SU(3) is the 6-sphere]] | 
-
+| $S^15 \simeq_{diff} Spin(9)/Spin(7)$ | [[Spin(9)/Spin(7) is the 15-sphere]] | 
 
 see also _[[Spin(8)-subgroups and reductions -- table|Spin(8)-subgroups and reductions]]_
 
