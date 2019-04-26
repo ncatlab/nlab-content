@@ -29,14 +29,23 @@ His contributions to [[mathematics]] include the following:
 * he introduced [[crossed modules]]
 
 
-## References
+## Selected writings
 
-* [[J. H. C. Whitehead]], 1950,_Algebraic Homotopy Theory_, in Proc. Int. Cong. of Mathematics, Harvard, volume 2, 354 – 357. 51
+* [[J. H. C. Whitehead]], _An expression of Hopf ’s invariant as an integral_, Proc. Nat. Acad. Sci. U. S. A.33 (1947), 117–123 ([jstor:87688](https://www.jstor.org/stable/87688))
 
-* J. H. C. Whitehead, _Combinatorial homotopy I_ , Bull. Amer. Math. Soc, 55, (1949), 213–245.
+  (on the [[Hopf invariant]])
+
+* [[J. H. C. Whitehead]], _Combinatorial homotopy I_ , Bull. Amer. Math. Soc, 55, (1949), 213–245.
 
  * [[J. H. C. Whitehead]],  _Combinatorial Homotopy II_, Bull.
 Amer. Math. Soc., 55 (1949), 453--496.
+
+  (on [[homotopy theory]] via [[crossed modules]])
+
+* [[J. H. C. Whitehead]], _Algebraic Homotopy Theory_, in Proc. Int. Cong. of Mathematics, Harvard, volume 2, 354 – 357. 51 (1950)
+
+  (on [[homotopy theory]])
+
 
 
 
