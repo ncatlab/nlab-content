@@ -67,7 +67,7 @@ The implication countable choice $\Rightarrow$ countable union theorem cannot be
 
 ## References
 
-* ProofWiki, _[Countable Union of Countable Sets is Countable](https://proofwiki.org/wiki/Countable_Union_of_Countable_Set)
+* ProofWiki, _[Countable Union of Countable Sets is Countable](https://proofwiki.org/wiki/Countable_Union_of_Countable_Sets_is_Countable)
 
 * _Countable Unions And The Axiom Of Countable Choice_, [MathOverflow discussion](https://mathoverflow.net/questions/74743/countable-unions-and-the-axiom-of-countable-choice)
 
