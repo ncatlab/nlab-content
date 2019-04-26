@@ -334,7 +334,7 @@ Consider the standard model of [[MU]] as a sequential $S^2$-spectrum with compon
 $$
   M U_{2n}
     \coloneqq
-  Th( E U(n) \underset{}{\times} \mathbb{C}^n)
+  Th( E U(n) \underset{U(n)}{\otimes} \mathbb{C}^n)
   \,.
 $$
 
