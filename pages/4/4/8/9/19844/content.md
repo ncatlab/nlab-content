@@ -68,9 +68,16 @@ The global tension with the standard model by end of 2018 has [[statistical sign
 
 If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18), [Zupan 19, 4.6](#Zupan19)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]].
 
-This situation was confirmed, if not further improved yet, with the data presented at [Moriond 2019](http://moriond.in2p3.fr/2019/) ([Straub 19](#Straub19), [Allanach 19](#Allanach19)). On the other hand, [Caria 19, slide 9](#Caria19) reports that the [[Belle collaboration]] sees a previous [[statistical significance]] of 3.8$\sigma$ decrease to $3.1$, but see [AHMSN 19](#AHMSN19), [Descotes-Genon 19](#DescotesGenon19), [Bardhan-Ghosh 19](#BardhanGhosh19) for a comprehensive assessment of the situation after Moriond 2019
+This situation was confirmed with the completed measurements presented at [Moriond 2019](http://moriond.in2p3.fr/2019/), which showed ([Straub 19](#Straub19), [Allanach 19](#Allanach19)) smaller discrepancy but also with smaller uncertainty, thus keeping the [[statistical significance]] essentially unaffected. On the other hand, [Caria 19, slide 9](#Caria19) reported an as yet unpublished measurement by the [[Belle collaboration]] by which the previous [[statistical significance]] of $3.8 \sigma$ in the $R_D$ sector would decrease to $3.1 \sigma$. Comprehensive assessments of the situation after [Moriond 2019](http://moriond.in2p3.fr/2019/) are given in [AHMSN 19](#AHMSN19), [Descotes-Genon 19](#DescotesGenon19), [Bardhan-Ghosh 19](#BardhanGhosh19) and agree that the flavour anomalies have been confirmed:
 
-Moreover, it had been argued ([Lyons 13b](#Lyons13b), [Dorigo 15](#Dorigo15)) that due to the specific nature of the [[experiment]], the [[statistical significance]]-threshold for detection of anomalies in [[B meson]]-decays should not be taken to be $5 \sigma$, but just $3 \sigma$, hence well exceeded already by the experimental significance:
+>  It appears the reason is that, given the amount of independent measurements (~180!) a smaller deviation because of new physics is easier to accommodate than a large one. Thus the new measurements actually fit better with new physics.
+
+> (Axel Maas, reporting from [ALPS2019](https://indico.cern.ch/event/757995/), [tweet, 23 Apr 2019](https://twitter.com/axelmaas/status/1120653147947655168))
+
+
+\linebreak
+
+In fact, it had been argued prior to the detection of the anomalies ([Lyons 13b](#Lyons13b), [Dorigo 15](#Dorigo15)) that due to the specific nature of the [[experiment]], the [[statistical significance]]-threshold for detection of anomalies in [[B meson]]-decays should not be taken to be $5 \sigma$, but just $3 \sigma$, hence well exceeded already by the experimentally seen  statistical significance:
 
 
 \begin{center}
