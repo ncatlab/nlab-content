@@ -41,6 +41,10 @@ In [[material set theory]], the formula $\alpha^+ \coloneqq \alpha \cup \{\alpha
 
 * [[numeral]]
 
+* [[Hartogs number]]
+
+* [[Lindenbaum number]]
+
 
 [[!redirects successor]]
 [[!redirects successors]]
