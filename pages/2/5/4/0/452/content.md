@@ -179,7 +179,7 @@ $\Pi_2$: (pairs of pointed spaces) $\to$ (crossed modules)
 preserves certain colimits (see reference below).  
 
 
-This last example was one of the first investigated by Whitehead and his proof appears also in a little book by [[Hilton]]; see also [[Nonabelian algebraic topology]], however the more general result of Brown and Higgins determines also the group $\pi_2(X \cup CA,X,x)$ as a crossed $\pi_1(X,x)$ module, and then Whitehead's result is the case with A$ is a wedge of circles. 
+This last example was one of the first investigated by Whitehead and his proof appears also in a little book by [[Hilton]]; see also [[Nonabelian algebraic topology]], however the more general result of Brown and Higgins determines also the group $\pi_2(X \cup CA,X,x)$ as a crossed $\pi_1(X,x)$ module, and then Whitehead's result is the case with $A$ is a wedge of circles. 
 
 
 
@@ -196,13 +196,13 @@ This last example was one of the first investigated by Whitehead and his proof a
 * [[∞-group]], [[simplicial group]], [[crossed complex]], [[hypercrossed complex]]
 
 
+
 ## References
  {#References}
 
 The concept was introduced in
 
-*  [[J. H. C. Whitehead]],  _Combinatorial Homotopy II_, Bull.
-Amer. Math. Soc., 55 (1949), 453--496.
+*  [[J. H. C. Whitehead]],  _Combinatorial Homotopy II_, Bull. Amer. Math. Soc., 55 (1949), 453--496.
 
 see also
 
