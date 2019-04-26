@@ -105,13 +105,17 @@ Grazer Math. Ber. **347** (2005). ([citeseer](http://citeseerx.ist.psu.edu/viewd
 * Alexandre Popoff, _Towards A Categorical Approach of
 Transformational Music Theory_ , arXiv:1204.3216 (2014). ([abstract](http://arxiv.org/abs/1204.3216))
 
+Methods of physics are employed to study tonality in
+
+* Peter beim Graben, Reinhard Blutner, _Toward a Gauge Theory of Musical Forces_ , pp.99-111 in LNCS **10106** (2017).  ([draft](http://www.blutner.de/GrabenBlutnerQI16.pdf))
+
 Hegel's philosophy of music can be found in his lectures on aesthetics though these reflect to a large extent the view of his pupil Heinrich Gustav Hotho who compiled the posthumeous publication:
 
 * [[Georg Hegel|G. W. F. Hegel]], _Vorlesungen über die Ästhetik II_ , Verlag Das Europäische Buch Westberlin $^4$1985. (pp.258-326)
 
 A development of the basic concepts of music theory along his ideas on dialectics can be found in
 
-* M. Hauptmann, _Die Natur der Harmonik und Metrik_ , Breitkopf&Härtel Leipzig 1853. ([online version](https://archive.org/details/dienaturderharm00haupgoog))
+* Moritz Hauptmann, _Die Natur der Harmonik und Metrik_ , Breitkopf&Härtel Leipzig 1853. ([wikisource](https://de.wikisource.org/wiki/Moritz_Hauptmann))
 
 The following introductory texts on psychoaccoustics help provide a foundation to better understand how sound becomes emotion becomes music:
 
