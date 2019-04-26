@@ -268,11 +268,22 @@ Idea of proof: the analogous statement for simplicial Lie algebras replaced by r
 
 ## References
 
+A classical reference on plain [[rational homotopy theory]] is
+
 * {#BousfieldGugenheim76} [[Aldridge Bousfield]], V. K. A. M. Gugenheim, _On PL deRham theory and rational homotopy type_ , Memoirs of the AMS, vol. 179 (1976)
 
+The equivalence between $H R$-module spectra (unparametrized) and $R$-chain complexes is due to
 
 * {#Schwede97} [[Stefan Schwede]], section 3 of _Spectra in model categories and applications to the algebraic cotangent complex_, Journal of Pure and Applied Algebra 120 (1997) 104 ([pdf](http://www.math.uni-bonn.de/people/schwede/modelspec.pdf))
 
 * {#Shipley02} [[Brooke Shipley]], _$H \mathbb{Z}$-algebra spectra are differential graded algebras_ , Amer. Jour. of Math. 129 (2007) 351-379. ([arXiv:math/0209215](http://arxiv.org/abs/math/0209215))
+
+Discussion of rational fiberwise [[suspension spectra]] is in
+
+* Michael Charles Crabb, [[Ioan James]], around Prop. 15.8 of _Fibrewise Homotopy Theory_, Springer Monographs in Mathematics, 1998
+
+* [[Yves Félix]], Aniceto Murillo Daniel Tanré, _Fibrewise stable rational homotopy_, Journal of Topology, Volume 3, Issue 4, 2010, Pages 743–758 ([doi:10.1112/jtopol/jtq023]( https://doi.org/10.1112/jtopol/jtq023))
+
+A discussion of full blown rational parametrized stable homotopy theory is due to
 
 * [[Vincent Braunack-Mayer]], _[[schreiber:thesis Braunack-Mayer|Rational parameterized stable homotopy theory]]_, Zurich, 2018
