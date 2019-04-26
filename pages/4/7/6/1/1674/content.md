@@ -43,7 +43,7 @@ All of the defining formulas in this description involve only bounded quantifica
 
 +-- {: .num_theorem} 
 ###### Theorem 
-There is no [[injection]] to $S$ from $\aleph(S)$. 
+There is no [[injection]] $\aleph(S) \to S$. 
 =--
 
 This theorem is to [[Cantor's theorem]] as [[Burali-Forti's paradox]] is to [[Russell's paradox]]. This observation alone hints how the proof goes: 
@@ -159,6 +159,8 @@ In general, we get a sequence $\omega_\alpha$ of infinite cardinalities of well-
 * [wikipedia entry](https://en.wikipedia.org/wiki/Hartogs_number)
 
 ## Related entries
+
+* [[Lindenbaum number]]
 
 * [[well-ordering theorem]]
 
