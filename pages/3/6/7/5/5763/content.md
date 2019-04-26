@@ -1084,3 +1084,5 @@ and generalized to arbitrary $C^\ast$-algebras in
 [[!redirects Bohr topos]]
 [[!redirects Bohr toposes]]
 [[!redirects Bohrification]]
+
+[[!redirects Nuiten's lemma]]
