@@ -19,7 +19,7 @@
 
 +-- {: .num_prop }
 ###### Proposition
-**(a countable union of countable sets is countable)**
+**(a countable union of countable sets is countable, aka the countable union theorem)**
 
 Assuming the [[axiom of countable choice]] then:
 
@@ -56,6 +56,9 @@ $$\array{
 whose [[limit]] might be denoted $\sum_{j \in J} K_j$ where $K_j \coloneqq J_{f(j)}$. This is certainly a complemented subobject of $\mathbb{N}$, the complement being formed as $\left(\sum_{j \in J} \neg K_j\right) + (\neg J) \cdot \mathbb{N}$, and the limit obviously maps surjectively onto $\sum_{i \in I} S_i$, as desired. 
 =--
 
+The implication countable choice $\Rightarrow$ countable union theorem cannot be reversed, as there are models of [[ZF]] where the latter holds, but countable choice fails. Further, the countable union theorem implies countable choice for countable sets, but this implication also cannot be reversed.
+
+
 ## Related statements
 
 * [[images of unions are unions of images]]
@@ -65,5 +68,7 @@ whose [[limit]] might be denoted $\sum_{j \in J} K_j$ where $K_j \coloneqq J_{f(
 ## References
 
 * ProofWiki, _[Countable Union of Countable Sets is Countable](https://proofwiki.org/wiki/Countable_Union_of_Countable_Set)
+
+* _Countable Unions And The Axiom Of Countable Choice_, [MathOverflow discussion](https://mathoverflow.net/questions/74743/countable-unions-and-the-axiom-of-countable-choice)
 
 [[!redirects countable union of countable sets is countable]]
