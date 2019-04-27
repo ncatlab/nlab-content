@@ -9,10 +9,10 @@
 =--
 =--
 
-> This entry is about the notion of (co)skeleta of simplicial sets. For the notion of skeleton of a category see [[skeleton]].
+> This entry is about the notion of (co)skeleta of [[simplicial sets]]. For the notion of skeleton of a [[category]] see at _[[skeleton]]_.
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -33,7 +33,9 @@ that takes a [[simplicial set]] and restricts it to its degrees $\leq n$.
 This functor has a [[left adjoint]], given by left [[Kan extension]]
 
 $$
-  sk_n : [\Delta_{\leq n},Set] \to SSet
+  sk_n 
+  \;\colon\; 
+  [\Delta_{\leq n},Set] \to SSet
 $$
 
 called the $n$-**skeleton**
@@ -41,14 +43,16 @@ called the $n$-**skeleton**
 and a [[right adjoint]], given by right [[Kan extension]]
 
 $$
-  cosk_n : [\Delta_{\leq n},Set] \to SSet
+  cosk_n 
+  \;\colon\; 
+  [\Delta_{\leq n},Set] \to SSet
 $$
 
 called the $n$-**coskeleton**.
 
 $$
   ( sk_n \dashv tr_n \dashv cosk_n) \;\;
-   :
+   \colon
    \;\;
    sSet_{\leq n}
    \stackrel{\overset{sk_n}{\longrightarrow}}{\stackrel{\overset{tr_n}{\longleftarrow}}{\underset{cosk_n}{\longrightarrow}}}
