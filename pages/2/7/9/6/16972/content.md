@@ -274,3 +274,8 @@ Discussion in [[parameterized homotopy theory]] includes
 Discussion in [[homotopy type theory]] is in
 
 * [[Ulrik Buchholtz]], [[Egbert Rijke]], _The Cayley-Dickson Construction in Homotopy Type Theory_ ([arXiv:1610.01134](https://arxiv.org/abs/1610.01134))
+
+Noteworthy [[fiber products]] with the quaternionic Hopf fibration, notably [[exotic 7-spheres]], are discussed in
+
+* Llohann D. Sperança, _Explicit Constructions over the Exotic 8-sphere_ ([pdf](https://www.ime.unicamp.br/~rigas/sigma8EncontroTopol.pdf), [[SperancaExoticSpheres.pdf:file]])
+
