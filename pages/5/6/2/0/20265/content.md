@@ -16,7 +16,7 @@
 
 ## Idea
 
-What is called the _Gromoll-Meyer sphere_ ([Gromoll-Meyer 74](#GromollMeyer74)) is an example of an [[exotic 7-sphere]]. It arises as a _double_ [[coset space]] ("biquotient") of the [[quaternionic unitary group]] [[Sp(2)]].
+What is called the _Gromoll-Meyer sphere_ ([Gromoll-Meyer 74](#GromollMeyer74)) is an example of an [[exotic 7-sphere]]. It arises as a _double_ [[coset space]] ("[[biquotient]]") of the [[quaternionic unitary group]] [[Sp(2)]].
 
 ## Definition
 
@@ -70,7 +70,7 @@ $$
 
 ##Properties
 
-The Gromoll-Meyer sphere is the only exotic sphere that can be modeled by a biquotient of a compact Lie group ([KZ02, Corollary C](#KZ02)).
+The Gromoll-Meyer sphere is the only exotic sphere that can be modeled by a [[biquotient]] of a [[compact Lie group]] ([KZ02, Corollary C](#KZ02)).
 
 It is a [[3-sphere]]-[[bundle]] over the [[4-sphere]], and is a generator of the group of diffeomorphism classes of oriented homotopy spheres in dimension 7, which is of order 28.
 
@@ -101,7 +101,11 @@ See also
 
 * Carlos Durán, Thomas Püttmann, _A minimal Brieskorn 5-sphere in the Gromoll-Meyer sphere and its applications_, Michigan Math. J. Volume 56, Issue 2 (2008), 419-451 ([euclid](https://projecteuclid.org/euclid.mmj/1224783521))
 
-For a proof that the Gromoll-Meyer sphere is the only exotic sphere that is a biquotient of a compact Lie group see
+* Llohann D. Sperança, _Pulling back the Gromoll-Meyer construction and models of exotic spheres_, Proceedings of the American Mathematical Society 144.7 (2016): 3181-3196 ([arXiv:1010.6039](https://arxiv.org/abs/1010.6039))
+
+* Llohann D. Sperança, _Explicit Constructions over the Exotic 8-sphere_ ([pdf](https://www.ime.unicamp.br/~rigas/sigma8EncontroTopol.pdf), [[SperancaExoticSpheres.pdf:file]])
+
+For a proof that the Gromoll-Meyer sphere is the only exotic sphere that is a [[biquotient]] of a [[compact Lie group]] see
 
 * {#KZ02} Vitali Kapovitch, Wolfgang Ziller, _Biquotients with singly generated rational cohomology_, ([arXiv:math/0210231](https://arxiv.org/abs/math/0210231))
 
