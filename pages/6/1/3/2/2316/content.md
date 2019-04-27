@@ -194,12 +194,14 @@ We may think of $\mathcal{B}G$ as the [[action groupoid]] $*// G$. The above dis
 
 ### Biquotient spaces
 
-Let $H$ be a compact Lie group and $G \subset H \times H$ a closed [[subgroup]] of the product. This $G$ acts on $H$ by left and right multiplication
+Let $H$ be a [[compact Lie group]] and $G \subset H \times H$ a [[closed subspace|closed]] [[subgroup]] of the [[direct product group]]. This $G$ acts on $H$ by left and right multiplication
 
 $$
   (g_1, g_2) : h \mapsto g_1 h g_2^{-1}
   \,.
 $$
+
+The corresponding [[quotient space]] is also called a _[[biquotient]]_.
 
 ...
 
