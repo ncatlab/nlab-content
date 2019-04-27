@@ -21,6 +21,23 @@ The Euler class of the [[tangent bundle]] of a [[manifold]] is its [[Euler chara
 
 ## Properties
 
+### Cup square
+ {#CupSquare}
+
+For $E$ a [[vector bundle]] of [[even number|even]] [[rank of a vector bundle|rank]] $rank(E) = 2 k$, the  [[cup product]] of the [[Euler class]] with itsels equals the $k$th [[Pontryagin class]]
+
+\[
+  \label{EulerSquareIsPontryagin}
+  \chi(E) \smile \chi(E)
+  \;=\;
+  p_k(E)
+  \,.
+\]
+
+(e.g. [Walschap 04, Section 6.3, p. 187](#Walschap04))
+
+When the Euler class is represented by the [[Euler form]] of a [[connection]] $\nabla$ on $E$, which then is [[fiber]]-wise proportional to the [[Pfaffian]] of the [[curvature form]] $F_\nabla$ of $\nabla$, the relation (eq:EulerSquareIsPontryagin) corresponds to the fact that the product of a [[Pfaffian]] with itself is the [[determinant]]: $\big( Pf(F_\nabla) \big)^2 = det(F_A)$.
+
 ### Whitney sum formula
  {#WhitneySumFormula}
 
@@ -39,6 +56,9 @@ $$
 $$
 
 =--
+
+(e.g. [Walschap 04, Section 6.4](#Walschap04))
+
 
 ### Poincaré–Hopf theorem
 
@@ -151,6 +171,8 @@ Review includes
 
 * Michael Hutchings, section 5 of _Cup product and intersections_ ([pdf](https://math.berkeley.edu/~hutching/teach/215b-2011/cup.pdf))
 
+* {#Walschap04} Gerard Walschap, chapter 6.3 of _Metric Structures in Differential Geometry_, Graduate Texts in Mathematics, Springer 2004 
+
 Discussion for [[projective modules]] 
 
 * Satya Manda, _An overview of Euler class theory_ ([pdf](http://mandal.faculty.ku.edu/talks/amsTalk06.pdf))
@@ -164,6 +186,8 @@ Discussion of _[[Euler forms]]_ ([[differential form]]-representatives of Euler 
 * {#MathaiQuillen86} [[Varghese Mathai]], [[Daniel Quillen]], below (7.3) of _Superconnections, Thom classes, and equivariant differential forms_, Topology Volume 25, Issue 1, 1986 (<a href="https://doi.org/10.1016/0040-9383(86)90007-8">10.1016/0040-9383(86)90007-8</a>)
 
 * {#Wu05} Siye Wu, Section 2.2 of _Mathai-Quillen Formalism_, pages 390-399 in _Encyclopedia of Mathematical Physics_ 2006 ([arXiv:hep-th/0505003](https://arxiv.org/abs/hep-th/0505003))
+
+* [Walschap 04, section 6.3](#Walschap04)
 
 * [[Hiro Lee Tanaka]], _Pfaffians and the Euler class_, 2014 ([pdf](http://www.hiroleetanaka.com/pdfs/2014-fall-230a-lecture-26-gauss-bonnet-chern.pdf))
 
