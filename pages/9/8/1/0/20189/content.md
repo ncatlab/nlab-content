@@ -97,7 +97,9 @@ $$
 
 =--
 
-(e.g. [Kalkkinen 06, Section 3](#Kalkkinen06))
+This is a special case of the general statement in [Pittie 91](#Pittie91), see e.g. [Kalkkinen 06, Section 3](#Kalkkinen06)).
+
+\linebreak
 
 +-- {: .num_prop  #FiberIntegrationOfCupPowersOfChiOver4Sphere}
 ###### Proposition
@@ -211,6 +213,8 @@ linebreak
 * {#CadekVanzura97} [[Martin Čadek]], [[Jiří Vanžura]], _On $Sp(2)$ and $Sp(2) \cdot Sp(1)$-structures  in 8-dimensional vector bundles_, Publicacions Matemàtiques Vol. 41, No. 2 (1997), pp. 383-401 ([jstor:43737249](https://www.jstor.org/stable/43737249))
 
 * {#BottCattaneo98} [[Raoul Bott]], [[Alberto Cattaneo]], _Integral Invariants of 3-Manifolds_, J. Diff. Geom., 48 (1998) 91-133 ([arXiv:dg-ga/9710001](https://arxiv.org/abs/dg-ga/9710001))
+
+* {#Pittie91} [[Harsh Pittie]], _The integral homology and cohomology rings of SO(n) and Spin(n)_, Journal of Pure and Applied Algebra Volume 73, Issue 2, 19 August 1991, Pages 105&#8211;153 (<a href="https://doi.org/10.1016/0022-4049(91)90108-E">doi:10.1016/0022-4049(91)90108-E</a>)
 
 * {#Kalkkinen06} Jussi Kalkkinen, _Global Spinors and Orientable Five-Branes_, JHEP0609:028, 2006 ([arXiv:hep-th/0604081](https://arxiv.org/abs/hep-th/0604081))
 
