@@ -37,7 +37,7 @@ $$
  \,.
 $$
 
-It follows from the supersymmetry algebra that $(E \delta_{A B} -  K_{A B})$ is a positive definite [[bilinear form]], which puts a lower bound on the energy given the values of these extra charges. This is called the _BPS bound_.
+It follows from the supersymmetry algebra that $(E \delta_{A B} -  K_{A B})$ is a positive definite [[bilinear form]], which puts a lower bound on the [[energy]] given the values of these extra charges. This is called the _BPS bound_. See also at _[[Bridgeland stability condition]]_.
 
 In particular when this bound is satisfied in that some of the [[eigenvalues]] of the [[matrix]] $(K_{A B})$ are actually equal to the energy/mass, then the corresponding component of the right hand side in the above equation vanishes and hence then the corresponding supersymmetry generators may annihilate the given state, then called a _BPS state_. This way enhanced supersymmetry of states goes along with certain charges taken extremal values.
 
@@ -47,7 +47,7 @@ States with similar behaviour are also considered also in some models of [[solit
 
 BPS states play a central role in the investigation of [[moduli spaces]] of classical [[vacua]] as they form part of the moduli problem which is often the most tractable.
 
-Several mathematical theories in [[geometry]] are interpreted as counting BPS-states in the sense of integration on appropriate compactification of the moduli space of BPS-states in a related physical model attached to the underlying geometry: most notably the [[Gromov-Witten invariants]], [[Donaldson-Thomas invariants]] and the [[Thomas-Pandharipande invariants]]; all the three seem to be deeply interrelated though they are defined in rather very different terms. The compactification of the moduli space involves various stability conditions. 
+Several mathematical theories in [[geometry]] are interpreted as counting BPS-states in the sense of integration on appropriate compactification of the [[moduli space]] of BPS-states in a related physical model attached to the underlying geometry: most notably the [[Gromov-Witten invariants]], [[Donaldson-Thomas invariants]] and the [[Thomas-Pandharipande invariants]]; all the three seem to be deeply interrelated though they are defined in rather very different terms. The compactification of the moduli space involves various [[stability conditions]]. 
 
 
 ### In supergravity
