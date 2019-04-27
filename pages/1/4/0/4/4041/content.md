@@ -9,6 +9,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -27,7 +28,7 @@ In other words, it is an [[initial object]] of the [[comma category]] $(x/U)$.  
 
 Sometimes one says an object $c$ of $C$ is free (relative to a forgetful functor $U: C \to D$ which is often tacitly understood) if there is some object $x$ of $D$ and some arrow $x \to U c$ that is initial in $(x/U)$. For example, the [[Quillen-Suslin theorem]] says that [[finitely generated module|finitely generated]] [[projective modules]] over [[polynomial algebras]] over a [[field]] are free; the tacit forgetful functor is from the category of modules over a polynomial algebra to $Set$. In this way, freeness is understood as a [[stuff, structure, property|property]] of an object. 
 
-Similarly, a __cofree object__ (or __fascist object__) is given by a [[cofree functor]].
+Similarly, a __cofree object__ is given by a [[cofree functor]].
 
 ## Examples
 
