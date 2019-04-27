@@ -145,7 +145,7 @@ The first construction of exotic smooth structures was on the 7-[[sphere]] in
 * {#DeMFreed} De Michelis, Stefano; Freedman, Michael H. (1992) "Uncountably many exotic $\mathbb{R}^4$'s in standard 4-space", J. Diff. Geom. 35, pp. 219-254.
  
 
-* {#Donaldson1} Donaldson, Simon (1987) "Irrationality and the h-cobordism conjecture", J. Diff. Geom. 26, pp. 141-168.
+* {#Donaldson1} [[Simon Donaldson]] (1987) "Irrationality and the h-cobordism conjecture", J. Diff. Geom. 26, pp. 141-168.
 
 
 * {#Donaldson2} [[Simon Donaldson]],  (1990) "Polynomial invariants for smooth four manifolds", Topology 29, pp. 257-315.
@@ -165,15 +165,20 @@ The first construction of exotic smooth structures was on the 7-[[sphere]] in
 
 * {#Milnor1965b} [[John Milnor]], (1965b) _Topology from the Differentiable Viewpoint_ (University Press of Virginia)
 
-* {#WangXu16} Guozhen Wang, Zhouli Xu, _The triviality of the 61-stem in the stable homotopy groups of spheres_ ([arXiv:1601.02184](https://arxiv.org/abs/1601.02184))
+* {#WangXu16} Guozhen Wang, Zhouli Xu, _The triviality of the 61-stem in the stable homotopy groups of spheres_ ([arXiv:1601.02184](https://arxiv.org
+/abs/1601.02184))
+
+* Llohann D. Sperança, _Pulling back the Gromoll-Meyer construction and models of exotic spheres_, Proceedings of the American Mathematical Society 144.7 (2016): 3181-3196 ([arXiv:1010.6039](https://arxiv.org/abs/1010.6039))
+
+* Llohann D. Sperança, _Explicit Constructions over the Exotic 8-sphere_ ([pdf](https://www.ime.unicamp.br/~rigas/sigma8EncontroTopol.pdf), [[SperancaExoticSpheres.pdf:file]])
+
+* {#DRL10} C. Duran, A. Rigas, Llohann D. Sperança, _Bootstrapping Ad-equivariant maps, diffeomorphisms and involutions_, Matematica Contemporanea, 35:27–39, 2010 ([pdf](http://www.ime.unicamp.br/~rigas/bootstrapping))
+
 
 On the open issue of exotic [[4-spheres]]:
 
 * {#FreedmanGompfMorrisonWalker09} [[Michael Freedman]], [[Robert Gompf]], [[Scott Morrison]], [[Kevin Walker]], _Man and machine thinking about the smooth 4-dimensional Poincar&#233; conjecture_, Quantum Topology, Volume 1, Issue 2 (2010), pp. 171-208 ([arXiv:0906.5177](http://arxiv.org/abs/0906.5177))
 
-* Llohann D. Sperança, _Pulling back the Gromoll-Meyer construction and models of exotic spheres_, Proceedings of the American Mathematical Society 144.7 (2016): 3181-3196 ([arXiv:1010.6039](https://arxiv.org/abs/1010.6039))
-
-* Llohann D. Sperança, _Explicit Constructions over the Exotic 8-sphere_ ([pdf](https://www.ime.unicamp.br/~rigas/sigma8EncontroTopol.pdf), [[SperancaExoticSpheres.pdf:file]])
 
 Review includes
 
