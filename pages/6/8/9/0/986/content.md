@@ -24,7 +24,7 @@ Given a topological space $X$ with topology $\mathcal{O}(X)$, the specialization
 
 ## Properties
 
-$X$ is $T_0$ if and only if its specialisation order is a [[partial order]].  $X$ is $T_1$ iff its specialisation order is [[equality]].  $X$ is $R_1$ (like $T_1$ but without $T_0$) iff its specialisation order is an [[equivalence relation]].  (See [[separation axioms]].)
+$X$ is $T_0$ if and only if its specialisation order is a [[partial order]].  $X$ is $T_1$ iff its specialisation order is [[equality]].  $X$ is $R_0$ (like $T_1$ but without $T_0$) iff its specialisation order is an [[equivalence relation]].  (See [[separation axioms]].)
 
 Given a [[continuous map]] $f: X \to Y$ between topological spaces, it is order-preserving relative to the specialisation order.  Thus, we have a [[faithful functor]] $Spec$ from the category of $\Top$ of topological spaces to the category $\Pros$ of preordered sets.
 
