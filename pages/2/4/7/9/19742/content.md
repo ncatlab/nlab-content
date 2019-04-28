@@ -265,7 +265,7 @@ The groups [[Spin(5).Spin(3)]], [[Sp(2).Sp(1)]] and $Sp(1) \cdot Sp(2)$, with th
 
 ### Cohomology of classifying spaces
 
-+-- {: .num_prop}
++-- {: .num_prop #CohomologyRingOfSpin8}
 ###### Proposition
 
 The [[ordinary cohomology|ordinary]] [[cohomology ring]] of the [[classifying space]] $B Spin(8)$ is:
@@ -376,6 +376,131 @@ $$
 =--
 
 This is due to [Quillen 71](#Quillen71), [Čadek-Vanžura 95](#CadekVanzura95), see [Čadek-Vanžura 97, Lemma 4.1](#CadekVanzura97).
+
+
+
++-- {: .num_prop}
+###### Proposition
+
+Consider the [[looping and delooping|delooping]] of the [[triality]] automorphism relating [[Sp(2).Sp(1)]] with [[Spin(5).Spin(3)]] (Prop. \ref{Spin3DotSpin5SubgroupsInSpin8}) on [[classifying spaces]]
+
+$$
+  \array{
+    B 
+    \big(
+      Spin(5) \cdot Spin(3)
+    \big)
+    &\hookrightarrow&
+    B Spin(8)
+    \\
+    \big\downarrow
+    &&
+    \big\downarrow^{ B \mathrlap{tri} }
+    \\
+    B 
+    \big(
+      Sp(2) \cdot Sp(1)
+    \big)
+    &\hookrightarrow&
+    B Spin(8)    
+  }
+$$
+
+Then the pullback of the [[universal characteristic classes]] of $B Spin(8)$ (from Prop. \ref{CohomologyRingOfSpin8}) along $B tri$ is as follows:
+
+$$
+  \big(
+    B tri
+  \big)^\ast
+  \;\colon\;
+  \begin{aligned}
+    \tfrac{1}{2} p_1 & \mapsto \tfrac{1}{2} p_1
+    \\
+    \chi 
+      & \mapsto 
+      \tfrac{1}{4}p_2 
+      - \big(\tfrac{1}{4}p_1\big)^2
+      + \tfrac{1}{2}\chi
+    \\
+      \tfrac{1}{4}p_2 
+      - \big(\tfrac{1}{4}p_1\big)^2
+      - \tfrac{1}{2}\chi
+    & \mapsto 
+      -
+      \big(
+        \tfrac{1}{4}p_2 
+        - \big(\tfrac{1}{4}p_1\big)^2
+        - \tfrac{1}{2}\chi
+      \big)
+  \end{aligned}
+$$
+
+=--
+
+([Čadek-Vanžura 97, Lemma 4.2](#CadekVanzura97))
+
+In fact $tri^{-1} = tri$.
+
+
+Hence, in rational cohomology:
+
+$$
+  \begin{aligned}
+    \big(
+      B tri
+    \big)^\ast
+    \big(
+      \tfrac{1}{4}p_2
+    \big) 
+    & =
+    \big(
+      B tri
+    \big)^\ast
+    \Big(
+      \big(
+        \tfrac{1}{4}p_2 
+        - \big(\tfrac{1}{4}p_1\big)^2
+        - \tfrac{1}{2}\chi
+      \big)
+      + \big(\tfrac{1}{4}p_1\big)^2
+      + \tfrac{1}{2}\chi
+    \Big) 
+    \\
+    & =
+      -
+      \big(
+        \tfrac{1}{4}p_2 
+        - \big(\tfrac{1}{4}p_1\big)^2
+        - \tfrac{1}{2}\chi
+      \big)
+      + \big(\tfrac{1}{4}p_1\big)^2
+      +
+      \tfrac{1}{2}
+      \big(
+        \tfrac{1}{4}p_2 
+        - \big(\tfrac{1}{4}p_1\big)^2
+        + \tfrac{1}{2}\chi
+      \big)
+    \\
+    & =
+      -
+      \tfrac{1}{2}
+      \big(
+        \tfrac{1}{4}p_2 
+        - \big(\tfrac{1}{4}p_1\big)^2
+        - \tfrac{1}{2}\chi
+      \big)
+      + 
+      \big(\tfrac{1}{4}p_1\big)^2
+      +
+      \tfrac{1}{2}
+      \chi
+  \end{aligned}
+$$
+
+
+\linebreak
+
 
 ### $G$-Structure and exceptional geometry
 
