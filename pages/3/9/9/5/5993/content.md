@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -119,6 +130,9 @@ Other articles:
 
 
 Discussion of _[[Euler forms]]_ ([[differential form]]-representatives of [[Euler classes]] in [[de Rham cohomology]]) as [[Pfaffians]] of [[curvature forms]]:
+
+* {#Chern44} [[Shiing-Shen Chern]], _A Simple Intrinsic Proof of the Gauss-Bonnet Formula for Closed Riemannian Manifolds_, Annals of Mathematics Second Series, Vol. 45, No. 4 (1944), pp. 747-752 ([jstor:1969302](https://www.jstor.org/stable/1969302))
+
 
 * {#MathaiQuillen86} [[Varghese Mathai]], [[Daniel Quillen]], below (7.3) of _Superconnections, Thom classes, and equivariant differential forms_, Topology Volume 25, Issue 1, 1986 (<a href="https://doi.org/10.1016/0040-9383(86)90007-8">10.1016/0040-9383(86)90007-8</a>)
 
