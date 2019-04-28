@@ -480,9 +480,10 @@ Lectures notes on [[sheaves]] of modules / modules over a [[ringed space]] are i
 
 * [[Daniel Murfet]], _Modules over a ringed space_ ([pdf](http://therisingsea.org/notes/RingedSpaceModules.pdf))
 
-Lecture notes with an eye towards [[physics]] are in 
+Exposition of basics of [[monoidal categories]] and [[categorical algebra]]:
 
-* _[[geometry of physics]]: [[geometry of physics - modules]]_
+* _[[geometry of physics -- categories and toposes]]_, Section 2: _[Basic notions of categorical algebra](geometry+of+physics+--+categories+and+toposes#BasicNotionsOfCategoricalAlgebra)_
+
 
 ### On modules as enriched presheaves
 
