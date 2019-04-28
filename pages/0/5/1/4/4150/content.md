@@ -41,6 +41,11 @@ An account of the basics may be found at _[[geometry of physics -- categories an
 
 * [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, III Vols. 
 
+Exposition of basics of [[monoidal categories]] and [[categorical algebra]]:
+
+* _[[geometry of physics -- categories and toposes]]_, Section 2: _[Basic notions of categorical algebra](geometry+of+physics+--+categories+and+toposes#BasicNotionsOfCategoricalAlgebra)_
+
+
 See also 
 
 * Wikipedia, _[Categorical algebra](https://en.wikipedia.org/wiki/Categorical_algebra)_
