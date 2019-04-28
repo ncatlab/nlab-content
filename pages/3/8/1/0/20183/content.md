@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -70,10 +71,25 @@ being the rational [[Euler class]] of the [[spherical fibration]].
 In particular, if $E = S(V)$ is the [[unit sphere bundle]] of a [[real vector bundle]] $V \to X$, then 
 
 $$
-  [c_{2k}] = e
+  [c_{2k}] = \chi
 $$
 
-is the [[Euler class]] of that vector bundle.
+is the [[Euler class]] of that vector bundle and $\omega_{2k+1}$ is a [[cochain]] on the [[unit sphere bundle]] $S(E)$ which on the [[fundamental class]] of any [[n-sphere|(2k+1)-sphere]] [[fiber]] evaluates to minus unity:
+
+\[
+  \label{FiberIntegrationOfOddGenerator}
+  \left\langle
+    \omega_{2k+1},
+    \left[
+      S^{2k+1}
+    \right]
+  \right\rangle
+  \;=\;
+  -1
+  \,.
+\]
+
+\linebreak
 
 **$n$ even**
 
@@ -110,7 +126,7 @@ If $n = 2k$ is an [[even number]], then [[generalized the|the]] [[Sullivan model
 
 where
 
-1. the new generator $\omega_{2k}$ restricts to unity on the [[fundamental classes]] of the [[n-sphere|2k-sphere]] [[fibers]] $S^{2k} \simeq E_x \hookrightarrow E$ over each point $x \in X$:
+1. the new generator $\omega_{2k}$ evaluates to unity on the [[fundamental classes]] of the [[n-sphere|2k-sphere]] [[fibers]] $S^{2k} \simeq E_x \hookrightarrow E$ over each point $x \in X$:
 
    $$
      \big\langle  \omega_{2k}, [S^{2k}] \big\rangle
@@ -165,7 +181,7 @@ Moreover, if the [[spherical fibration]] $E \to X$ happens to be the [[unit sphe
 
 =--
 
-([Félix-Halperin-Thomas 00, 15, Example 4, p. 202](#FelixHalperinThomas00))
+This may be found as [Félix-Halperin-Thomas 00, 15, Example 4, p. 202](#FelixHalperinThomas00). The fiber integral (eq:FiberIntegrationOfOddGenerator) follows by [this Prop.](Euler+class#TrivializationOfEulerFormOnUnitSphereBundle).
 
 
 ### Relation to rational mapping space of spheres
