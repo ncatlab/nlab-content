@@ -109,7 +109,7 @@ Appl.  Algebra, 21 (1981) 233-260.
 
 *  [[Ronnie Brown]],  and J.-L. Loday. Homotopical excision, and Hurewicz theorems for $n$-cubes of spaces. Proc. London Math. Soc. (3) 54  (1987) 176--192.
 
-* F.A.  Al-Agl, [[Ronnie Brown]] and R.J. Steiner,Multiple categories: the
+* F.A.  Al-Agl, [[Ronnie Brown]] and R.J. Steiner, Multiple categories: the
 equivalence between a globular and cubical approach, Advances in
 Mathematics, 170 (2002) 71--118.
 
