@@ -15,7 +15,7 @@ Let $A$ be a [[partial combinatory algebra]].  If $E$ is a [[partial equivalence
 
 * as objects, the [[partial equivalence relations]] on $A$.
 
-* as morphisms $E\to E'$, for PERs $E$ and $E'$, the set-theoretic functions $\phi:A/E \to A/E'$ with the [[property]] of being "tracked", i.e. such that there exists an element $f\in A$ such that whenever $(a,a)\in E$ we have $\phi([a]) = [f\cdot a]$ (hence in particular $(f\cdot a,f\cdot a)\in E'$.  Equivalently, it is the quotient of the set of elements $f\in A$ such that $(a,b)\in E$ implies $(f\cdot a,f\cdot b)\in E'$ by the relation $f\sim g$ meaning that $(f\cdot a,g\cdot a)\in E'$ whenever $(a,a)\in E$.
+* as morphisms $E\to E'$, for PERs $E$ and $E'$, the set-theoretic functions $\phi:A/E \to A/E'$ with the [[property]] of being "tracked", i.e. such that there exists an element $f\in A$ such that whenever $(a,a)\in E$ we have $\phi([a]) = [f\cdot a]$ (hence in particular $(f\cdot a,f\cdot a)\in E'$).  Equivalently, it is the quotient of the set of elements $f\in A$ such that $(a,b)\in E$ implies $(f\cdot a,f\cdot b)\in E'$ by the relation $f\sim g$ meaning that $(f\cdot a,g\cdot a)\in E'$ whenever $(a,a)\in E$.
 
 ## Properties
 
