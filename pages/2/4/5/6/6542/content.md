@@ -65,6 +65,36 @@ $$
 * [[Poincaré–Hopf theorem]]
 
 
+### On unit sphere bundles
+
++-- {: .num_prop #TrivializationOfEulerFormOnUnitSphereBundle}
+###### Proposition
+
+Let $X$ be a [[smooth manifold]] and $E \overset{\pi}{\longrightarrow} X$ an oriented [[real vector bundle]] of [[even number|even]] [[rank of a vector bundle|rank]], $rank(E) = 2k + 2$. 
+
+For any choice of [[connection on a bundle|connection]] $\nabla$ on $E$ ($SO(dim(X))$-connection), let $\chi(\nabla_E) \in \Omega^{2k}(X)$ denote the corresponding [[Euler form]].
+
+Then the [[pullback of differential forms|pullback]] of the [[Euler form]] $\chi(\nabla_E)$ to the [[unit sphere bundle]] $S(E) \overset{S(\pi)}{\longrightarrow} X$ is [[exact differential form|exact]] 
+
+$$
+  \big( S(\pi) \big)^\ast
+  \chi(\nabla_E)
+  \;=\;
+  d \Omega
+$$
+
+such that the trivializing form has (minus) unit [[integration of differential forms|integral]] over any of the [[n-sphere|(2k+1)-sphere]]-[[fibers]] $S^{2k+1}_x \overset{\iota_x}{\hookrightarrow} S(E)$:
+
+$$
+  \int_{S^{2k+1}} \iota_x^\ast \Omega 
+  \;=\;
+  -1
+  \,.
+$$
+
+=--
+
+(e.g. [Walschap 04, Chapter 6.6, Thm. 6.1, p. 201-202](#Walschap04), [Poor 07, 3.68](#Poor07))
 
 ### Fiber integration
 
@@ -163,7 +193,6 @@ $$
 
 ## References
 
-Review includes
 
 * [[Allen Hatcher]], _Euler and Pontryagin classes_, section 3.2 in _[Vector bundles and K-theory](http://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html)_ ([pdf](http://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf))
 
@@ -172,6 +201,7 @@ Review includes
 * Michael Hutchings, section 5 of _Cup product and intersections_ ([pdf](https://math.berkeley.edu/~hutching/teach/215b-2011/cup.pdf))
 
 * {#Walschap04} Gerard Walschap, chapter 6.3 of _Metric Structures in Differential Geometry_, Graduate Texts in Mathematics, Springer 2004 
+
 
 Discussion for [[projective modules]] 
 
@@ -188,6 +218,9 @@ Discussion of _[[Euler forms]]_ ([[differential form]]-representatives of Euler 
 * {#Wu05} Siye Wu, Section 2.2 of _Mathai-Quillen Formalism_, pages 390-399 in _Encyclopedia of Mathematical Physics_ 2006 ([arXiv:hep-th/0505003](https://arxiv.org/abs/hep-th/0505003))
 
 * [Walschap 04, section 6.3](#Walschap04)
+
+* {#Poor07} Walter A. Poor, 3.58 of _Differential Geometric Structures_, Dover Books on Mathematics, 2007
+
 
 * [[Hiro Lee Tanaka]], _Pfaffians and the Euler class_, 2014 ([pdf](http://www.hiroleetanaka.com/pdfs/2014-fall-230a-lecture-26-gauss-bonnet-chern.pdf))
 
