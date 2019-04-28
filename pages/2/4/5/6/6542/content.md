@@ -15,16 +15,16 @@
 
 ## Idea
 
-The _Euler class_ is a [[characteristic class]] of the [[special orthogonal group]], hence of [[oriented]] [[real vector bundles]]. 
+The _Euler class_ $\chi$ (or $e$) is a [[characteristic class]] of the [[special orthogonal group]], hence of [[oriented]] [[real vector bundles]]. 
 
-The Euler class of the [[tangent bundle]] of a [[manifold]] is its [[Euler characteristic]].
+The Euler class of the [[tangent bundle]] of a [[smooth manifold]] $X$, evaluated on its [[fundamental class]], is its [[Euler characteristic]] $\chi[X]$.
 
 ## Properties
 
 ### Cup square
  {#CupSquare}
 
-For $E$ a [[vector bundle]] of [[even number|even]] [[rank of a vector bundle|rank]] $rank(E) = 2 k$, the  [[cup product]] of the [[Euler class]] with itsels equals the $k$th [[Pontryagin class]]
+For $E$ a [[vector bundle]] of [[even number|even]] [[rank of a vector bundle|rank]] $rank(E) = 2 k$, the  [[cup product]] of the [[Euler class]] with itself equals the $k$th [[Pontryagin class]]
 
 \[
   \label{EulerSquareIsPontryagin}
