@@ -29,6 +29,6 @@
 
   3) [[(infinity,1)-topos theory]] 
 
-  (recordings: [first lecture](https://www.youtube.com/watch?v=xvm6St4KaVE), [second lecture](https://www.youtube.com/watch?v=qKXHhCpQ9qA), [third lecture](https://www.youtube.com/watch?v=zgPMqZaVaU8), [fourth lecture](https://www.youtube.com/watch?v=WSLEdNg5Yp0))
+  ([recordings with time annotations](https://sites.google.com/site/logiquecategorique/autres-seminaires/ihes/ihestopos/cours/joyal))
 
 category: reference
