@@ -184,6 +184,13 @@ In summary, it is important to make people understand that groups can be identif
 
 * [[categorical algebra]]
 
+## References
+
+Exposition of basics of [[monoidal categories]] and [[categorical algebra]]:
+
+* _[[geometry of physics -- categories and toposes]]_, Section 2: _[Basic notions of categorical algebra](geometry+of+physics+--+categories+and+toposes#BasicNotionsOfCategoricalAlgebra)_
+
+
 [[!redirects monoid]]
 [[!redirects monoids]]
 
