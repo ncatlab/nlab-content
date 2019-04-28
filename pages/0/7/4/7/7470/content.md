@@ -80,9 +80,9 @@ A [[closed monoidal (∞,1)-category]] is naturally enriched over itself.
 
 Further discussion of [[(infinity,n)-categories]] as $\infty$-categories enriched in $(\infty,n-1)$-categories is (via [[Theta-spaces]]) in
 
-* {#BergnerRezk} [[Julie Bergner]], [[Charles Rezk]], _Comparison of models for $(\infty,n)$-categories_ ([arXiv:1204.2013](http://arxiv.org/abs/1204.2013))
+* {#BergnerRezk} [[Julie Bergner]], [[Charles Rezk]], _Comparison of models for $(\infty,n)$-categories_, I ([arXiv:1204.2013](http://arxiv.org/abs/1204.2013))
  
-* {#BergnerRezk14} [[Julie Bergner]], [[Charles Rezk]], _Comparison of models for $(\infty,n)$-categories_ ([arXiv:1406.4182](http://arxiv.org/abs/1406.4182))
+* {#BergnerRezk14} [[Julie Bergner]], [[Charles Rezk]], _Comparison of models for $(\infty,n)$-categories_, II ([arXiv:1406.4182](http://arxiv.org/abs/1406.4182))
 
 See also
 
