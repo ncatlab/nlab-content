@@ -193,6 +193,7 @@ $$
 
 ## References
 
+### General
 
 * [[Allen Hatcher]], _Euler and Pontryagin classes_, section 3.2 in _[Vector bundles and K-theory](http://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html)_ ([pdf](http://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf))
 
@@ -202,16 +203,29 @@ $$
 
 * {#Walschap04} Gerard Walschap, chapter 6.3 of _Metric Structures in Differential Geometry_, Graduate Texts in Mathematics, Springer 2004 
 
+Discussion of [[fiber integration]]:
+
+* {#BottCattaneo98} [[Raoul Bott]], [[Alberto Cattaneo]], _Integral Invariants of 3-Manifolds_, J. Diff. Geom., 48 (1998) 91-133 ([arXiv:dg-ga/9710001](https://arxiv.org/abs/dg-ga/9710001))
+
 
 Discussion for [[projective modules]] 
 
 * Satya Manda, _An overview of Euler class theory_ ([pdf](http://mandal.faculty.ku.edu/talks/amsTalk06.pdf))
 
-Discussion of [[fiber integration]]:
+See also
 
-* {#BottCattaneo98} [[Raoul Bott]], [[Alberto Cattaneo]], _Integral Invariants of 3-Manifolds_, J. Diff. Geom., 48 (1998) 91-133 ([arXiv:dg-ga/9710001](https://arxiv.org/abs/dg-ga/9710001))
+* Wikipedia [Euler class](http://en.wikipedia.org/wiki/Euler_class)
+
+* Robert F. Brown, _On the Lefschetz number and the Euler class_, Transactions of the AMS __118__, (1965)  ([JSTOR](http://www.jstor.org/pss/1993952))
+
+* Solomon Jekel, _A simplicial formula and bound for the Euler class_, Israel Journal of Mathematics __66__, n. 1-3, 247-259 (1989)
+
+
+### Euler forms
 
 Discussion of _[[Euler forms]]_ ([[differential form]]-representatives of Euler classes in [[de Rham cohomology]]) as [[Pfaffians]] of [[curvature forms]]:
+
+* {#Chern44} [[Shiing-Shen Chern]], _A Simple Intrinsic Proof of the Gauss-Bonnet Formula for Closed Riemannian Manifolds_, Annals of Mathematics, Second Series, Vol. 45, No. 4 (1944), pp. 747-752 ([jstor:1969302](https://www.jstor.org/stable/1969302))
 
 * {#MathaiQuillen86} [[Varghese Mathai]], [[Daniel Quillen]], below (7.3) of _Superconnections, Thom classes, and equivariant differential forms_, Topology Volume 25, Issue 1, 1986 (<a href="https://doi.org/10.1016/0040-9383(86)90007-8">10.1016/0040-9383(86)90007-8</a>)
 
@@ -226,13 +240,6 @@ Discussion of _[[Euler forms]]_ ([[differential form]]-representatives of Euler 
 
 * {#Nicolaescu18} [[Liviu Nicolaescu]], Section 8.3.2 of _Lectures on the Geometry of Manifolds_, 2018 ([pdf](https://www3.nd.edu/~lnicolae/Lectures.pdf), [MO comment](https://mathoverflow.net/a/117982/381))
 
-See also
-
-* Wikipedia [Euler class](http://en.wikipedia.org/wiki/Euler_class)
-
-* Robert F. Brown, _On the Lefschetz number and the Euler class_, Transactions of the AMS __118__, (1965)  ([JSTOR](http://www.jstor.org/pss/1993952))
-
-* Solomon Jekel, _A simplicial formula and bound for the Euler class_, Israel Journal of Mathematics __66__, n. 1-3, 247-259 (1989)
 
 [[!redirects Euler classes]]
 
