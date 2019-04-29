@@ -19,5 +19,13 @@
 
 * [[Spin(8)]]
 
+* [[G2/SU(3) is the 6-sphere]]
+
+* [[Spin(7)/G2 is the 7-sphere]]
+
+* [[Spin(5)/SU(2) is the 7-sphere]]
+
+* [[Spin(9)/Spin(7) is the 15-sphere]]
+
 
 category: people
