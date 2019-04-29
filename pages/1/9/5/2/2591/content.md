@@ -107,3 +107,6 @@ See also
 
 [[!redirects rotation group]]
 [[!redirects rotation groups]]
+
+[[!redirects SO(n)]]
+
