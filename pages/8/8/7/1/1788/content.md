@@ -32,8 +32,14 @@
 	\arrow[Rightarrow, from=5-3, to=6-3]
 	\arrow[Rightarrow, from=6-3, to=7-3]
 	\arrow[Rightarrow, from=1-3, to=2-3]
-	\arrow[Rightarrow, from=3-3, to=1-3, controls={+(4.3,2) and +(0,3)}, 
-		"\substack{\text{Nagata-Smirnov} \\ \text{metrization theorem:}\\ \text{if $X$ regular and } \mathrm{T}_2}"{left=30, above=30}]
+	\arrow[Rightarrow, from=3-3, to=1-3, %controls={+(4.3,2) and +(0,3)}, 
+		rounded corners,
+		to path={ 
+			--([xshift=2em]\tikztostart.east)
+			--([yshift=14em, xshift=2em]\tikztostart.east)
+			-- node[above] (B) {$\substack{\text{Nagata-Smirnov} \\ \text{metrization theorem:}\\ \text{if $X$ regular and } \mathrm{T}_2}$} ([yshift=14em]\tikztostart.center)
+			-- (\tikztotarget)}
+	]
 	\arrow[Leftrightarrow, from=3-2, to=3-3, controls={+(2.3,1.5) and +(-2.3,1.5)},
 		"\substack{\text{weakly Lindel\"of } \wedge \\ \sigma\text{-locally finite base}}" {description, name=A} ]
 	\arrow[Rightarrow, from=A, to=1-2] 
