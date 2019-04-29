@@ -142,6 +142,36 @@ where $\mathbf{i} \in S\left( \mathbb{H}_{\mathrm{im}}\right)$ is any unit imagi
 Regard $S^1 = U(1)$ as equipped with its [[circle group]] structure. This makes $S^1$ in particular an [[H-space]]. The Hopf fibration $S^1 \to S^3 \to S^2$  is the [[Hopf construction]] applied to this H-space.
 
 
+### [[Spin(3)]]-[[action|equivariance]]
+
+Consider 
+
+1. the [[Spin(3)]]-[[action]] on the [[2-sphere]] $S^2$ which is induced by the defining action on $\mathbb{R}^3$ under the identification $S^2 \simeq S(\mathbb{R}^3)$;
+
+1. the [[Spin(3)]]-action on the [[3-sphere]] $S^3$ which is induced under the exceptional [[isomorphism]] $Spin(3) \simeq Sp(1) = U(1,\mathbb{H})$ by the canonical left action of $U(1,\mathbb{H})$ on $\mathbb{H}$ via $S^3 \simeq S(\mathbb{H})$.
+
+Then the complex Hopf fibration $S^3 \overset{h_{\mathbb{C}}}{\longrightarrow} S^2$ is [[equivariant]] with respect to these [[actions]].
+
+A way to make the $Spin(3)$-equivariance of the complex Hopf fibration fully explicit is to observe that the it is equivalently the following map of [[coset spaces]]:
+
+$$
+  \array{
+    S^1 
+      &\overset{fib(h_{\mathbb{C}})}{\longrightarrow}& 
+    S^{3}
+      &\overset{h_{\mathbb{C}}}{\longrightarrow}& 
+    S^2
+    \\
+     = && = && =
+    \\
+    \frac{Spin(2)}{Spin(1)}
+    &\longrightarrow&
+    \frac{Spin(3)}{Spin(1)}
+    &\longrightarrow&
+    \frac{Spin(3)}{Spin(2)}  
+  }
+$$
+
 ## On the 1-sphere, 3-sphere, 7-sphere and 15-sphere
  {#OnAllFourSpheres}
 
