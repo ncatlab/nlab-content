@@ -7,10 +7,17 @@
 
   (on [[Sp(n).Sp(1)]]-[[special holonomy]])
 
+* {#GrayGreen70} [[Alfred Gray]], Paul S. Green, _Sphere transitive structures and the triality automorphism_, Pacific J. Math. Volume 34, Number 1 (1970), 83-96 ([euclid:1102976640](https://projecteuclid.org/euclid.pjm/1102976640))
+
+  (on [[transitive actions]] of [[compact Lie groups]] on [[n-spheres]])
 
 ## Related $n$Lab entries
 
 * [[Sp(n).Sp(1)]]
+
+* [[n-sphere]]
+
+* [[Spin(8)]]
 
 
 category: people
