@@ -15,7 +15,7 @@
 
 ## Definition
 
-A **Stone space** is a [[compact space|compact]], [[Hausdorff space|Hausdorff]] [[connected space|totally disconnected]] [[topological space]].
+A **Stone space** is a [[compact space|compact]], [[Hausdorff space|Hausdorff]] [[totally disconnected]] [[topological space]].
 
 Stone spaces are sometimes called _[[profinite spaces]]_, since they are precisely the spaces which are small [[cofiltered limits]] of finite [[discrete spaces]], and moreover (as a consequence of [[Stone duality]]) the [[category]] of Stone spaces is [[equivalence of categories|equivalent]] to the category $pro(FinSet)$ of [[pro-objects]] in [[FinSet]] and finite sets sit $FinSet\hookrightarrow pro(FinSet)$ as finite discrete spaces.  This is especially common when talking about [[profinite groups]] and related topics.
 
