@@ -73,4 +73,6 @@ of some arbitrary element $x \in X$.  In particular, the transitivity of $*$ gua
 
 * [Fundamental theorem of group actions](http://groupprops.subwiki.org/wiki/Fundamental_theorem_of_group_actions) on the Group Properties Wiki.
 
+[[!redirects transitive actions]]
+
 [[!redirects transitive]]
