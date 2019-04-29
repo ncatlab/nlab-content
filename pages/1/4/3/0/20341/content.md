@@ -56,6 +56,9 @@ $$
 
 ## References
 
+* {#GrayGreen70} [[Alfred Gray]], Paul S. Green, p. 2 of _Sphere transitive structures and the triality automorphism_, Pacific J. Math. Volume 34, Number 1 (1970), 83-96 ([euclid:1102976640](https://projecteuclid.org/euclid.pjm/1102976640))
+
+
 Discussion of this [[squashed n-sphere|squashed]] 7-sphere [[coset space]] as a [[fiber]] for [[KK-compactification]] of [[11-dimensional supergravity]]:
 
 * {#AwadaDuffPope83} M. A. Awada, [[Mike Duff]], [[Christopher Pope]], _$N=8$ Supergravity Breaks Down to $N=1$_, Phys. Rev. Lett. 50, 294 – Published 31 January 1983 ([doi:10.1103/PhysRevLett.50.294](https://doi.org/10.1103/PhysRevLett.50.294))
