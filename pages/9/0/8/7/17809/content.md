@@ -531,7 +531,7 @@ One may add further natural conditions on the super-extension in order to narrow
 
 1. From the assumption alone that $S$ is a [[spin representation]] and using that the $Spin$-equivariant pairing has to take [[irreducible representations]] to irreducible representations, one may in some dimensions already deduce that the pairing has to land in $\mathbb{R}^{d} \hookrightarrow \mathfrak{iso}(\mathbb{R}^{d-1,1})$. For $d = 4$ and $S$ the irreducible [[Majorana representation]] this is done in [Varadarajan 04, section 3.2](#Varadarajan04).
 
-1. One may appeal to the _[[Haag??opusza?ski?Sohnius theorem]]_. This does rule out exotic super-extensions, by imposing the
+1. One may appeal to the _[[Haag-Łopuszański-Sohnius theorem]]_. This does rule out exotic super-extensions, by imposing the
    additional condition that $P_a P^a$ remains a [[Casimir operator]]
    after super-extension, and more conditions. These conditions are well motivated from the expected symmetry-behaviour of
    [[S-matrices]] in [[field theory]].
