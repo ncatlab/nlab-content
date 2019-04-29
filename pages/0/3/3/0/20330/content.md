@@ -38,11 +38,18 @@ $$
 
 ## References
 
+According to [Gray-Green 70, p. 2](#GrayGreen70) the statement is originally due to 
+
+* {#MontogomerySamelson43} Deane Montgomery, Hans Samelson, _Transformation Groups of Spheres_, Annals of Mathematics Second Series, Vol. 44, No. 3 (Jul., 1943), pp. 454-470 ([jstor:1968975](https://www.jstor.org/stable/1968975))
+
 According to [ABF 17](#ABF17) the statement is originally due to to
 
 * T. Fukami, S. Ishihara, _Almost Hermitian structure on $S^6$_, Tohoku Math J. 7 (1955), 151–156 ([doi:10.2748/tmj/1178245052](https://doi.org/10.2748/tmj/1178245052))
 
 Review:
+
+* {#GrayGreen70} [[Alfred Gray]], Paul S. Green, p. 2 of _Sphere transitive structures and the triality automorphism_, Pacific J. Math. Volume 34, Number 1 (1970), 83-96 ([euclid:1102976640](https://projecteuclid.org/euclid.pjm/1102976640))
+
 
 * {#Bryant98} [[Robert Bryant]], Section 1.3 of _Manifolds with $G_2$-Holonomy_, lecture notes, 1998 ([web](http://www.math.utah.edu/~mckay/g2.pdf))
 
