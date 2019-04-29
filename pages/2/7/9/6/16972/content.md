@@ -105,7 +105,7 @@ The statement is also almost explicit in [Porteous 95, p. 263](#Porteous95)
 \end{imagefromfile}
 \end{center}
 
-A way to make the $Sp(5)$-equivariance of the quaternionic Hopf fibration fully explicit is to observe that the quaternionic Hopf fibration is equivalently the following map of [[coset spaces]]:
+A way to make the $Spin(5)$-equivariance of the quaternionic Hopf fibration fully explicit is to observe that the quaternionic Hopf fibration is equivalently the following map of [[coset spaces]]:
 
 $$
   \array{
