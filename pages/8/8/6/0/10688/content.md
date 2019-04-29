@@ -139,7 +139,7 @@ Original articles include
 
 * {#Toda62} [[Hiroshi Toda]], _Composition methods in homotopy groups of spheres_, Princeton University Press (1962)
 
-* {#Mahowald85} [[Mark Mahowald]], _Lin's theorem and the EHP sequence_. Conference on algebraic topology in honor of Peter Hilton, Contemp. Math. 37 (1985), 115&#8211;119. Amer. Math. Soc., Providence, RI.
+* {#Mahowald85} [[Mark Mahowald]], _Lin's theorem and the EHP sequence_. Conference on algebraic topology in honor of [[Peter Hilton]], Contemp. Math. 37 (1985), 115&#8211;119. Amer. Math. Soc., Providence, RI.
 
 * [[Marcel Bökstedt]], Anne Marie Svane, _A generalization of the stable EHP spectral sequence_ ([arXiv:1208.3938](http://arxiv.org/abs/1208.3938))
 
