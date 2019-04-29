@@ -289,6 +289,10 @@ and lifted to actions of [[Spin group|Spin(8)]] in
 
 * S. Gadhia, _Supersymmetric quotients of M-theory and supergravity backgrounds_, PhD thesis, School of Mathematics, University of Edinburgh, 2007
 
+Discussion of [[transitive actions]] on $n$-spheres by [[compact Lie groups]]:
+
+* {#GrayGreen70} [[Alfred Gray]], Paul S. Green, _Sphere transitive structures and the triality automorphism_, Pacific J. Math. Volume 34, Number 1 (1970), 83-96 ([euclid:1102976640](https://projecteuclid.org/euclid.pjm/1102976640))
+
 Further discussion of these actions is in
 
 * {#MFFGME09} Paul de Medeiros, [[José Figueroa-O'Farrill]], Sunil Gadhia, [[Elena Méndez-Escobar]], _Half-BPS quotients in M-theory: ADE with a twist_, JHEP 0910:038,2009 ([arXiv:0909.0163](http://arxiv.org/abs/0909.0163), [pdf slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
