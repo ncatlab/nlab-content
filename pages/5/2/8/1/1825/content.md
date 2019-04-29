@@ -146,7 +146,7 @@ $$
 
 =--
 
-And still similarly, the analogous argument for [[unit spheres]] inside (the [[real vector spaces]] underlying) [[quaterniomic vector spaces]], we have
+And still similarly, the analogous argument for [[unit spheres]] inside (the [[real vector spaces]] underlying) [[quaternionic vector spaces]], we have
 
 +-- {: .num_prop #SphereAsSymplecticUnitaryCoset}
 ###### Proposition
@@ -162,16 +162,72 @@ $$
 
 =--
 
-(e.g. [Borel-Serre 53, 17.1](#BorelSerre53))
+Generally:
+
++-- {: .num_prop #TransitiveEffectiveActionsOfConnectedLieGroupsOnSpheres}
+###### Proposition
+
+The [[connected topological space|connected]] [[Lie groups]] with [[effective action|effective]] [[transitive actions]]  on [[n-spheres]] are precisely (up to [[isomorphism]]) the following:
+
+* [[SO(n)]]
+
+* [[U(n)]]
+
+* [[SU(n)]]
+
+* [[Sp(n)]]
+
+* [[Sp(n).Sp(1)|Sp(n).SO(2)]]
+
+* [[Sp(n).Sp(1)]]
+
+* [[G2]]
+
+* [[Spin(7)]]
+
+* [[Spin(9)]]
+
+with [[coset spaces]]
+
+$$
+  \begin{aligned}
+    SO(n)/SO(n-1)
+    & \simeq S^{n-1}
+    \\
+    U(n)/U(n-1) & \simeq S^{2n-1}
+    \\
+    SU(n)/SU(n-1) & \simeq S^{2n-1}    
+    \\
+    Sp(n)/Sp(n-1) & \simeq S^{4n-1}    
+    \\
+    Sp(n)\cdot SO(2)/Sp(n-1)\cdot SO(2) & \simeq S^{4n-1}    
+    \\
+    Sp(n)\cdot Sp(1)/Sp(n-1)\cdot Sp(1) & \simeq S^{4n-1}    
+    \\
+    G_2/SU(3) & \simeq S^6
+    \\
+    Spin(7)/G_2 & \simeq S^7
+    \\
+    Spin(9)/Spin(7) & \simeq S^{15}
+  \end{aligned}
+$$
+
+=--
+
+This goes back to [Montogomery-Samelson 43](#MontogomerySamelson43), see  
+[Gray-Green 70, p. 1-2](#GrayGreen70)
+
+(also e.g [Borel-Serre 53, 17.1](#BorelSerre53))
+
 
 +-- {: .num_remark}
 ###### Remark
 
 The [[isomorphisms]] in Prop. \ref{nSphereAsCosetSpace} and Prop. \ref{OddDimSphereAsSpecialUnitaryCoset} above hold in the [[category]] of [[topological spaces]] ([[homeomorphisms]]), but in fact also in the [[category]] of [[smooth manifolds]] ([[diffeomorphisms]]) and even in the [[category]] of [[Riemannian manifolds]] ([[isometries]]).
 
-But notice that there are sporadically other [[coset space]] realizations of some [[n-spheres]] which are [[homeomorphisms]], but not necessarily [[isometries]] ("[[squashed spheres]]") or not even [[diffeomorphisms]] ("[[exotic spheres]]"). 
+But the other [[coset space]] realizations of some [[n-spheres]] in Prop. \ref{TransitiveEffectiveActionsOfConnectedLieGroupsOnSpheres} are [[homeomorphisms]], but not necessarily [[isometries]] ("[[squashed spheres]]"). There is also a [[double coset space]] realization which is not even a [[diffeomorphisms]] ("[[exotic sphere]]", the [[Gromoll-Meyer sphere]]). 
 
-For examples see _[7-sphere -- Coset space realization](#7-sphere#CosetSpaceRealization)_.
+For more see _[7-sphere -- Coset space realization](#7-sphere#CosetSpaceRealization)_.
 
 =--
 
@@ -290,6 +346,8 @@ and lifted to actions of [[Spin group|Spin(8)]] in
 * S. Gadhia, _Supersymmetric quotients of M-theory and supergravity backgrounds_, PhD thesis, School of Mathematics, University of Edinburgh, 2007
 
 Discussion of [[transitive actions]] on $n$-spheres by [[compact Lie groups]]:
+
+* {#MontogomerySamelson43} Deane Montgomery, Hans Samelson, _Transformation Groups of Spheres_, Annals of Mathematics Second Series, Vol. 44, No. 3 (Jul., 1943), pp. 454-470 ([jstor:1968975](https://www.jstor.org/stable/1968975))
 
 * {#GrayGreen70} [[Alfred Gray]], Paul S. Green, _Sphere transitive structures and the triality automorphism_, Pacific J. Math. Volume 34, Number 1 (1970), 83-96 ([euclid:1102976640](https://projecteuclid.org/euclid.pjm/1102976640))
 
