@@ -1,4 +1,21 @@
-[[!redirects Haag–Lopuszanski–Sohnius theorem]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+#### Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+#### Super-Algebra and Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+=--
+=--
 
 #Contents#
 * table of contents
@@ -16,7 +33,10 @@ Notice that the [[super Poincare Lie algebra]] itself does mix the plain bosonic
 
 ## References
 
-* {#HaagSohniuLopuszanski75} [[Rudolf Haag]], Martin Sohnius, [[Jan ?opusza?ski]], _All possible generators of supersymmetries of the S-matrix_, Nuclear Physics B, 88: 257&#8211;274 (1975). doi link: &lt;http://dx.doi.org/10.1016/0550-3213(75)90279-5>
+* {#HaagSohniuLopuszanski75} [[Rudolf Haag]], Martin Sohnius, [[Jan Łopuszański]], _All possible generators of supersymmetries of the S-matrix_, Nuclear Physics B, 88: 257&#8211;274 (1975). doi link: &lt;http://dx.doi.org/10.1016/0550-3213(75)90279-5>
 
-* Wikipedia,  _[Haag&#8211;Lopuszanski&#8211;Sohnius theorem](http://en.wikipedia.org/wiki/Haag&#8211;Lopuszanski&#8211;Sohnius_theorem)_
+* Wikipedia,  _[Haag-Łopuszański-Sohnius theorem](http://en.wikipedia.org/wiki/Haag&#8211;Lopuszanski&#8211;Sohnius_theorem)_
+
+
+[[!redirects Haag–Lopuszanski–Sohnius theorem]]
 
