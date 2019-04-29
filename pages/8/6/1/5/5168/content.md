@@ -1,5 +1,46 @@
 
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Peter_Hilton)
+
+
 Peter Hilton was a British mathematician who made fundamental contributions to [[algebraic topology]] and in particular to [[homotopy theory]]. He died on 6 November 2010. In mathematics his name is attached for instance to the [[Eckmann-Hilton argument]] and to [[Eckmann-Hilton duality]].
+
+## Selected writings
+
+* {#HiltonWhitehead53} [[Peter Hilton]], [[J. H. C. Whitehead]], _Note on the Whitehead Product_, Annals of Mathematics Second Series, Vol. 58, No. 3 (Nov., 1953), pp. 429-442  ([jstor:1969746](https://www.jstor.org/stable/1969746))
+
+* {#Hilton55} [[Peter Hilton]], _On the homotopy groups of unions of spheres_, J. London Math. Soc., 1955, 30, 154–172 ([[Hilton55.pdf:file]])
+
+  (on the [[Whitehead product]])
+
+* [[Peter J. Hilton]], _An Introduction to Homotopy Theory_, Cambridge University Press 1953
+
+  (on [[homotopy theory]])
+
+* [[Peter Hilton]] (ed.) _Category Theory, Homology Theory and Their Applications III_, volume 99 of Lecture Notes in Mathematics (1969), Springer-Verlag Berlin-Heidelberg-New York.
+
+  (on [[category theory]] and [[homology]])
+
+* {#HiltonStammbach71} [[Peter Hilton]],  U. Stammbach, _A course in homological algebra_, Springer-Verlag, New York, 1971, Graduate Texts in Mathematics, Vol. 4.
+
+  (on [[homological algebra]])
+
+
+* [[Peter Hilton]], _On a generalization of nilpotency to semi-simplicial complexes_ ([pdf](http://plms.oxfordjournals.org/content/s3-10/1/604.full.pdf))
+
+  (on [[semi-simplicial sets]])
+
+* Temple Fay, [[Keith Hardie]], [[Peter Hilton]], _The two-square lemma_, Publicacions Matem&#224;tiques, Vol 33 (1989) ([pdf](http://dmle.cindoc.csic.es/pdf/PUBLICACIONSMATEMATIQUES_1989_33_01_10.pdf))
+
+  (on [[diagram chasing lemmas]])
+
+* {#EckmannHilton} [[Beno Eckmann]] and [[Peter Hilton]], _Unions and intersections in homotopy theory_, Comment. Math. Helv. 3 (1964),2 93-307, [doi](http://dx.doi.org/10.1007/BF02566918)
+
+  (on the [[Mayer-Vietoris sequence]])
+
+* A link to Peter Hilton's Alan Turing lecture 2006 is [here](http://www.colossus-computer.com/hilton.htm).
+
+
+## Obituary 
 
 The following Obituary appeared in the paper in Binghamton, NY, where he had lived for some years.
 
@@ -16,16 +57,30 @@ The following Obituary appeared in the paper in Binghamton, NY, where he had liv
 
 
 
-##Video
-
-A link to Peter Hilton's Alan Turing lecture 2006 is [here](http://www.colossus-computer.com/hilton.htm).
-
 
 ###References
 
-* [Wikipedia](http://en.wikipedia.org/wiki/Peter_Hilton)
 
 * [Biography (History of Mathematics)](http://www-history.mcs.st-andrews.ac.uk/Biographies/Hilton.html)
+
+
+## Related $n$Lab entries
+
+* [[Eckmann-Hilton argument]]
+
+* [[Whitehead product]]
+
+* [[homotopy theory]]
+
+* [[semi-simplicial set]]
+
+* [[homological algebra]]
+
+* [[diagram chasing lemmas]]
+
+* [[injective object]]
+
+* [[category theory]]
 
 category: people
 
