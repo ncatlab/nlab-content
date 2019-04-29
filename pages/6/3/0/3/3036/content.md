@@ -100,7 +100,7 @@ To see this take a countable cover and select a point in each member of the cove
 
 ## Related countability properties
 
-[[!include topology - global countability axioms]]
+[[!include topology - countability axioms]]
 
 ## Related concepts
 
