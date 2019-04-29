@@ -96,6 +96,8 @@ Another proof that instead uses [[topological K-theory]], [[Adams operations]] a
 
 This is reproduced for instance in
 
+* {#Husemoller66} [[Dale Husemöller]], chapter 15 of _Fibre Bundles_, Graduate Texts in Mathematics 20, Springer New York (1966)
+
 * {#Wirthmuller12} [[Klaus Wirthmüller]], section 12 of _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
 
 * {#Hatcher} [[Allen Hatcher]], section 2.3 of _Vector bundles and K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
