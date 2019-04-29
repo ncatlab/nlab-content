@@ -114,3 +114,4 @@ Finally, given a continuous map $f: X \to Y$ with $Y$ totally disconected, each 
 
 [[!redirects totally disconnected topological space]]
 [[!redirects totally disconnected topological spaces]]
+[[!redirects totally disconnected]]
