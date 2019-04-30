@@ -181,7 +181,9 @@ where the wedge product on the right is normalized as in (eq:WedgeProductNormali
 
 =--
 
-([Andrews-Arkowitz 78, Thm. 6.1](#AndrewsArkowitz78), following [Deligne-Griffiths-Morgan-Sullivan 75](#DeligneGriffithsMorganSullivan75))
+([Andrews-Arkowitz 78, Thm. 6.1](#AndrewsArkowitz78), see also [Félix-Halperin-Thomas 00, Prop. 13.16](#FelixHalperinThomas00))
+
+\linebreak
 
 ## Examples
 
@@ -332,10 +334,13 @@ $$
   2 \cdot vol_{S^2} \wedge vol_{S^2} 
 $$
 
-and hence that $c = 2$
+and hence that $c = \pm 2$
 
-?
+? 
 
+(The sign is not the issue, just the scale.)
+
+But [Félix-Halperin-Thomas 00, Example 1 on p. 178](#FelixHalperinThomas00) has $c = -1$.
 
 
 ## References
@@ -344,13 +349,20 @@ Under the general relation between the Sullivan model and the original Quillen m
 
 * {#Quillen69} [[Daniel Quillen]], section I.5 of _Rational Homotopy Theory_, Annals of Mathematics Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([jstor:1970725](https://www.jstor.org/stable/1970725))
 
-The explicit version for Sullivan models is due to
+It is made fully explicit in 
+
+* {#AndrewsArkowitz78} Peter Andrews, [[Martin Arkowitz]], Theorem 6.1 _Sullivan's Minimal Models and Higher Order Whitehead Products_, Canadian Journal of Mathematics, 30(5), 961-982, 1978 ([doi:10.4153/CJM-1978-083-6](https://doi.org/10.4153/CJM-1978-083-6))
+
+where the result is attributed to
 
 * {#DeligneGriffithsMorganSullivan75} [[Pierre Deligne]], [[Phillip Griffiths]], [[John Morgan]], [[Dennis Sullivan]], _Real homotopy theory of Kähler manifolds_, Invent Math (1975) 29: 245 ([doi:10.1007/BF01389853](https://doi.org/10.1007/BF01389853))
 
-and made more explicit in
+which however just touches on it in passing.
 
-* {#AndrewsArkowitz78} Peter Andrews, [[Martin Arkowitz]], Theorem 6.1 _Sullivan's Minimal Models and Higher Order Whitehead Products_, Canadian Journal of Mathematics, 30(5), 961-982, 1978 ([doi:10.4153/CJM-1978-083-6](https://doi.org/10.4153/CJM-1978-083-6))
+
+Textbook accounts:
+
+* {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]], J.C. Thomas, Prop. 13.16 in _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000.
 
 [[!redirects the co-binary Sullivan differential is the dual Whitehead product]]
 [[!redirects the co-binary Sullivan differential is the dual of the Whitehead product]]
