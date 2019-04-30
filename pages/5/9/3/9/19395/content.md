@@ -43,7 +43,7 @@ Super Klein geometries form the _local models_ for [[super Cartan geometries]].
 
 * The supersphere $S^{2|2}$ is the super coset space $UOSp(1|2)/U(1)$.
 
-* The supersphere $S^{3|2}$ is the super coset space $OSp(4|2)/OSp(3|2)$.
+* The supersphere $S^{r-1|2s}$ is the super coset space $OSp(r|2s)/OSp(r-1|2s)$ of orthosymplectic  groups.
 
 ## Related concepts
 
