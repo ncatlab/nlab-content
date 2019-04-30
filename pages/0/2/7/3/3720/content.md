@@ -5,7 +5,7 @@ looking back at some of his letters_ ([pdf](http://www.math.u-psud.fr/~illusie/I
 
 ## Selected writings
 
-Deligne lead a seminar on differential systems corresponding to meromorphic connections, whose basic results were explained in a classic in this are:
+Deligne led a seminar on differential systems corresponding to meromorphic connections, whose basic results were explained in a classic in this are:
 
 * _&#201;quations diff&#233;rentielles &#224; points singuliers r&#233;guliers_, Lect. Notes in Math. __163__, Springer-Verlag (1970)
 
