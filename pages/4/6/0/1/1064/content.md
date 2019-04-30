@@ -96,3 +96,7 @@ Various generic classes of examples of additive and abelian categories are of re
 [[!redirects additive and abelian categories]]
 [[!redirects additive or abelian categories]]
 [[!redirects additive or abelian category]]
+
+[[!redirects AB5-category]]
+[[!redirects AB5-categories]]
+
