@@ -64,8 +64,11 @@ For more on this see at _[Top -- Universal constructions](Top#UniversalConstruct
 
 [[!include universal constructions of topological spaces -- table]]
 
+* [[Whitehead product]]
 
 ## References
+
+See also
 
 * Wikipedia, _[Adjunction space](https://en.wikipedia.org/wiki/Adjunction_space)_
 
