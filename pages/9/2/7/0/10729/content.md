@@ -38,6 +38,8 @@ Many of the basic constructions and theorems in [[chromatic homotopy theory]] ap
 
 * [[finite topological space]], [[finite CW-complex]]
 
+* [[finite type]]
+
 * [[p-local spectrum]]
 
 ## References
