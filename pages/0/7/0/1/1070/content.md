@@ -118,7 +118,7 @@ $$
 $$ 
 
 
-be the [[full subcategory]] of $K(C)$ or on $K^{+,-,b}$, respectively, on those [[chain complexes]] $V$ whose  [[chain homology]] vanishes in every degreey, $H_\bullet(V) = 0$. 
+be the [[full subcategory]] of $K(C)$ or on $K^{+,-,b}$, respectively, on those [[chain complexes]] $V$ whose  [[chain homology]] vanishes in every degree, $H_\bullet(V) = 0$. 
 
 =--
 
