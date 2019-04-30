@@ -32,6 +32,8 @@ The [[homotopy type]] of a finite CW-complex is called a _[[finite homotopy type
 
 * [[finite spectrum]]
 
+* [[finite type]]
+
 [[!redirects finite CW complexes]]
 
 [[!redirects finite CW-complex]]
