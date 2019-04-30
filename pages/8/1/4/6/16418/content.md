@@ -20,10 +20,10 @@
 
 ## Idea
 
-The _orthosymplectic supergroup_ $Osp(N|2p)$ is the sub-[[supergroup]] of the [[general linear supergroup]] $GL(N|2p)$ on those elements which preserve the canonical graded-symmetric [[bilinear form]] on $\mathbb{R}^{N|2p}$, i.e. the form which is the canonical symmetric bilinear form on the even elements $\mathbb{R}^{N}$, is the canonical [[symplectic form]] on the odd elements in $\mathbb{R}^{0|2p}$ and is zero on mixed pairs of elements.
+The _orthosymplectic supergroup_ $OSp(N|2p)$ is the sub-[[supergroup]] of the [[general linear supergroup]] $GL(N|2p)$ on those elements which preserve the canonical graded-symmetric [[bilinear form]] on $\mathbb{R}^{N|2p}$, i.e. the form which is the canonical symmetric bilinear form on the even elements $\mathbb{R}^{N}$, is the canonical [[symplectic form]] on the odd elements in $\mathbb{R}^{0|2p}$ and is zero on mixed pairs of elements.
 
 The corresponding [[super Lie algebras]] are called the _orthosymplectic Lie algebras_ $\mathfrak{osp}(N|2p)$. Over a [[field]] of [[characteristic zero]] these constitute the infinite $B$- and $D$-series in the [classification of simple super Lie algebras](super%20Lie%20algebra#Classification). 
-They are closely related to [[superconformal]] symmetry (e.g. [DAuria-Ferrara-Lledo-Varadarajan 00](#DAuriaFerrareLledoVaradarajan00)), see at _[supersymmetry -- Classification -- Superconformal symmetry](supersymmetry#ClassificationSuperconformal)_.
+They are closely related to [[superconformal]] symmetry (e.g. [D'Auria-Ferrara-Lledo-Varadarajan 00](#DAuriaFerrareLledoVaradarajan00)), see at _[supersymmetry -- Classification -- Superconformal symmetry](supersymmetry#ClassificationSuperconformal)_.
 
 ## Examples
  {#Examples}
@@ -37,7 +37,7 @@ They are closely related to [[superconformal]] symmetry (e.g. [DAuria-Ferrara-Ll
   In fact $OSp(1\vert 64)$ is the smallest simple supergroup that contains the [[M-theory super Lie algebra]]. Moreover, it is generated from its M-theory sub-algebra and the [[special conformal transformations]]  ([Bars-Deliduman-Minic 99, p. 5](#BarsDelidumanMinic99))
 
 
-* The [[super anti de Sitter spacetimes]] are quotients of orthosymplictic super Lie groups:
+* The [[super anti de Sitter spacetimes]] are quotients of orthosymplectic super Lie groups:
 
 | $\phantom{A}$$d$$\phantom{A}$ | $\phantom{A}$[[super anti de Sitter spacetime]]$\phantom{A}$ |
 |-----|---|
