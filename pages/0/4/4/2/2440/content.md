@@ -350,7 +350,7 @@ $$
 
 * [[super q-Schur algebra]]
 
-* For every [[topological space]] of the [[weak homotopy type]] of a [[CW-complex]], the [[Whitehead product]] makes its [[homotopy groups]] into a super Lie algebra over the [[ring]] of [[integers]].
+* For every [[pointer topological space]], the [[Whitehead product]] makes its [[homotopy groups]] into a super Lie algebra over the [[ring]] of [[integers]].
 
 * higher super Lie algebras
 
