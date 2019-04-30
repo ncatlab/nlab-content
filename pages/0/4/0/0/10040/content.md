@@ -49,3 +49,6 @@ This construction is the notion of [[dual morphism]] applied in the [[monoidal c
 
 [[!redirects transpose linear map]]
 [[!redirects transpose linear maps]]
+
+[[!redirects linear dual map]]
+[[!redirects linear dual maps]]
