@@ -50,7 +50,7 @@ of $\mathcal{A}$ on (a [[dense subspace]] of) $\mathcal{H}$; where $\langle -,-\
 
 Originally this was considered for [[C*-algebras]] and [[C*-representations]] ([Gelfand-Naimark 43](#GelfandNaimark43), [Segal 47](#Segal47)), see for instance ([Schm&#252;dgen 90](#Schmuedgen90)), but the construction applies to general [[unital algebra|unital]] [[star algebras]] $\mathcal{A}$ ([Khavkine-Moretti 15](#KhavkineMoretti15)) as well as to other coefficient rings, such as to  [[formal power series algebras]] over $\mathbb{C}[ [\hbar] ]$ ([Bordemann-Waldmann 96](#BordemannWaldmann96)). 
 
-The GNS-construction plays a central role in [[algebraic quantum field theory]] ([Haag 96](#Haag96), [Moretti 13](#Moretti13), [Khavkine-Moretti 15](#KhavkineMoretti15)), where $\mathcal{A}$ plays the role of an [[algebra of observables]] and $\rho \colon \mathcal{A} \to \mathbb{C}$ the role of an actual state of a [[physical system]] (whence the terminology) jointly constituting the "[[Heisenberg picture]]"-perspective of [[quantum physics]]; so that the GNS-construction serves to re-construct a corresponding [[Hilbert space|Hilbert]] [[space of states]] as in the [[Schrödinger picture]] of quantum physics. In this context the version for [[C*-algebras]] corresponds to [[non-perturbative quantum field theory]], while the generalization to [[formal power series algebras]] corresponds to [[perturbative quantum field theory]].
+The GNS-construction plays a central role in [[algebraic quantum field theory]] ([Haag 96](#Haag96), [Moretti 18](#Moretti18), [Khavkine-Moretti 15](#KhavkineMoretti15)), where $\mathcal{A}$ plays the role of an [[algebra of observables]] and $\rho \colon \mathcal{A} \to \mathbb{C}$ the role of an actual state of a [[physical system]] (whence the terminology) jointly constituting the "[[Heisenberg picture]]"-perspective of [[quantum physics]]; so that the GNS-construction serves to re-construct a corresponding [[Hilbert space|Hilbert]] [[space of states]] as in the [[Schrödinger picture]] of quantum physics. In this context the version for [[C*-algebras]] corresponds to [[non-perturbative quantum field theory]], while the generalization to [[formal power series algebras]] corresponds to [[perturbative quantum field theory]].
 
 ## Details
 
@@ -142,7 +142,7 @@ The application to [[algebraic quantum field theory]] is discussed in
 
 * {#Haag96} [[Rudolf Haag]], _Local  Quantum  Physics:  Fields,  Particles,  Algebras_,   Texts  and  Monographs  in Physics. Springer (1996).
 
-* {#Moretti13} [[Valter Moretti]], _Spectral Theory and Quantum Mechanics: With an Introduction to the Algebraic Formulation_, Springer Verlag, Berlin (2013)
+* {#Moretti18} [[Valter Moretti]], _Spectral Theory and Quantum Mechanics :Mathematical Structure of Quantum Theories, Symmetries and introduction to the Algebraic Formulation_, 2nd ed.  Springer Verlag, Berlin (2018)
 
 
 See also 
