@@ -3,7 +3,7 @@
 * [[Luc Illusie]], _From Pierre Deligne's secret garden :
 looking back at some of his letters_ ([pdf](http://www.math.u-psud.fr/~illusie/Illusie-Deligne-NYC.pdf))
 
-## Writings
+## Selected writings
 
 Deligne lead a seminar on differential systems corresponding to meromorphic connections, whose basic results were explained in a classic in this are:
 
@@ -25,6 +25,15 @@ See also article entry [[Catégories Tannakiennes]].
 
 * [wikipedia](http://en.wikipedia.org/wiki/Pierre_Deligne), IAS [page](http://www.math.ias.edu/~phares/deligne/Deligne.html), publication list in [pdf](http://www.math.ias.edu/~phares/deligne/publications.pdf), and the [links](http://www.numdam.org/numdam-bin/recherche?au=Deligne,+Pierre&format=short) to the Deligne's numdam scanned articles.
 
+* {#DeligneGriffithsMorganSullivan75} [[Pierre Deligne]], [[Phillip Griffiths]], [[John Morgan]], [[Dennis Sullivan]], _Real homotopy theory of Kähler manifolds_, Invent Math (1975) 29: 245 ([doi:10.1007/BF01389853](https://doi.org/10.1007/BF01389853))
+
+  (on the statement that _[[the co-binary Sullivan differential is the dual Whitehead product]]_)
+
+* [[Whitehead product]], 
+
+  [[the co-binary Sullivan differential is the dual Whitehead product]]
+
+
 ## Related $n$Lab entries
 
 * [[Deligne completeness theorem]]
@@ -34,6 +43,11 @@ See also article entry [[Catégories Tannakiennes]].
 * [[Tannaka duality]]
 
 * [[Deligne's theorem on tensor categories]]
+
+* [[Whitehead product]], 
+
+  [[the co-binary Sullivan differential is the dual Whitehead product]]
+
 
 category: people
 
