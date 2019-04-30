@@ -34,7 +34,7 @@ In the context of [[regularization (physics)|regularization in physics]], _zeta 
 
 ### Analytic regularization of propagators
 
-One speaks of _analytic regularization_ ([Speer 71](#Speer71)) or _zeta function regularization_ (e.g. [BCEMZ 03, section 2](#BCEMZ03)) if a [[Feynman propagator]]/[[Green's function]] for a [[boson|bosonic]] [[field (physics)|field]], which is naively given by the expression
+One speaks of _analytic regularization_ ([Speer 71](#Speer71)) or _zeta function regularization_ (e.g. [M 99](#M99), [BCEMZ 03, section 2](#BCEMZ03)) if a [[Feynman propagator]]/[[Green's function]] for a [[boson|bosonic]] [[field (physics)|field]], which is naively given by the expression
 "$Tr\left(\frac{1}{H}\right)$" (for $H$ the given [[wave operator]]/[[Laplace operator]]) is made well defined by interpreting it as the [[principal value]] of the [[special values of L-functions|special value]] at $s= 1$ 
 
 $$
@@ -169,6 +169,9 @@ Modern accounts and reviews include
 
 
 * {#Elizalde95} [[Emilio Elizalde]], _Ten Physical Applications of Spectral Zeta Functions_ (1995)
+
+* {#M99}  [[Valter Moretti]], _Local z-function techniques vs point-splitting procedures: a few rigorous results_
+Commun. Math. Phys. 201, 327 (1999).
 
 * {#BCEMZ03} A. Bytsenko, G. Cognola, [[Emilio Elizalde]], [[Valter Moretti]], S. Zerbini, section 2 of _Analytic Aspects of Quantum Fields_, World Scientific Publishing, 2003, ISBN 981-238-364-6
 
