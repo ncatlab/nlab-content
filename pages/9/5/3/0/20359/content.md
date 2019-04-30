@@ -199,7 +199,7 @@ Then the Whitehead product satisfies
 \[
   \label{WhiteheadProductOf2Sphere}
   \big[
-    id_{s^2},
+    id_{S^2},
     \; 
     id_{S^2}
   \big]
