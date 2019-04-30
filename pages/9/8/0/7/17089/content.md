@@ -42,7 +42,7 @@ For more see also at _[[higher category theory and physics]]_.
 
 In their equivalent [[formal dual]] guise of [[Chevalley-Eilenberg algebras]] (see [above](#ReformulationInTermsOfSemifreeDGAlgebra)), $L_\infty$-algebras of [[finite type]] -- in fact [[super L-∞ algebras]] -- appear in pivotal role in the [[D'Auria-Fré formulation of supergravity]] at least since 
 
-* {#DAuriaFre}  [[Riccardo D'Auria]], [[Pietro Fré]] _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140 
+* {#DAuriaFre}  [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140 
 
 In the [[supergravity]] literature these CE-algebras are referred to as "FDA"s. This is short for "free differential algebra", which is a slight misnomer for what in mathematics are called [[semifree dga]]s (or sometimes "quasi-free" dga-s).
 
@@ -50,8 +50,7 @@ The translation of [[D'Auria-Fré formulation of supergravity|D'Auria-Fré forma
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], example 5 in section 6.5.1, p. 54 of _L-infinity algebra connections and applications to String- and Chern-Simons n-transport_, in Quantum Field Theory, Birkh&#228;user (2009) 303-424 ([arXiv:0801.3480](http://arxiv.org/abs/0801.3480))
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_, International Journal of Geometric Methods in Modern Physics Volume 12, Issue 02 (2015) 1550018 ([arXiv:1308.5264]
-(http://arxiv.org/abs/1308.5264))
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_, International Journal of Geometric Methods in Modern Physics Volume 12, Issue 02 (2015) 1550018 ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
 
 connecting them to the [[higher WZW terms]] of the [[Green-Schwarz sigma models]] of fundamental [[super p-branes]] ([[schreiber:The brane bouquet]]).
 
