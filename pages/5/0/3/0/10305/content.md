@@ -37,7 +37,7 @@
 
 * [NS5-D4-D2 bound states](NS5-brane#NS5D4D2BoundStates)
 
-* [M2-M5 brane bound states](M2-brane#M2M5BoundStates)
+* [[M2-M5 brane bound states]]
 
 
 ## References
