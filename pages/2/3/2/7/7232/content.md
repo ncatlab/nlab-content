@@ -5,6 +5,8 @@
 
 * {#Salamon82} [[Simon Salamon]], _Quaternionic Kähler manifolds_, Invent Math (1982) 67: 143. ([doi:10.1007/BF01393378](https://doi.org/10.1007/BF01393378))
 
+* {#PoonSalamon91} Y. S. Poon, [[Simon Salamon]], _Quaternionic Kähler 8-manifolds with positive scalar curvature_, J. Differential Geom. Volume 33, Number 2 (1991), 363-378 ([euclid:1214446322](https://projecteuclid.org/euclid.jdg/1214446322))
+
 * {#LeBrunSalamon94} Claude LeBrun, [[Simon Salamon]], _Strong rigidity of positive quaternion Kähler manifolds_, Inventiones Mathematicae 118, 1994, 109–132 ([dml:144231](https://eudml.org/doc/144231), [doi:10.1007/BF01231528](https://doi.org/10.1007/BF01231528))
 
   (on [[quaternion-Kähler manifolds]])
@@ -27,6 +29,8 @@
 * [[SU(2)-structure]] on [[5-manifolds]]
 
 * [[quaternion-Kähler manifold]]
+
+* [[Wolf space]]
 
 * [[exceptional geometry]]
 
