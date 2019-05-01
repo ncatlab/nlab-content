@@ -39,7 +39,9 @@ A different criticism regards the algorithm itself. If nodes were to co-operate 
 
 \section{References}
 
-{#NakamotoBitcoinAPeerToPeerElectronicCashSystem} Satoshi Nakamoto, _Bitcoin: A peer-to-peer electronic cash system_, 2008 [pdf](https://bitcoin.org/bitcoin.pdf) 
+* this wiki: [[computer science]], [[high performance distributed ledger]], [[Telegram Open Network]], [[virtual machine]]
+
+* {#NakamotoBitcoinAPeerToPeerElectronicCashSystem} Satoshi Nakamoto, _Bitcoin: A peer-to-peer electronic cash system_, 2008 [pdf](https://bitcoin.org/bitcoin.pdf) 
 
 A foundational/mathematical introductory book from the point of view of (building) a distributed computing system is
 
