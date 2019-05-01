@@ -138,8 +138,9 @@ For each [[dimension]] $dim(X)$ there is a [[finite number]] of [[isometry]] [[i
 
 ([LeBrun-Salamon 94, Theorem 0.1](#LeBrunSalamon94))
 
-+-- {: .num_prop}
++-- {: .num_prop #WoldSpacesArePositiveQuaternionKaehler}
 ###### Proposition
+(**[[Wolf spaces]] are [[positive quaternion-Kähler manifolds]])**
 
 Every [[Wolf space]] is a [[positive quaternion-Kähler manifold]].
 
@@ -147,14 +148,29 @@ Every [[Wolf space]] is a [[positive quaternion-Kähler manifold]].
 
 In fact the [[Wolf spaces]] are the only known examples  of [[positive quaternion-Kähler manifold]] (which is not hyper-Kähler ?!), as of today (e.g. [Salamon 82, Section 5](#Salamon82)).
 
-This leads to the **conjecture** that un every dimension, the [[Wolf spaces]] are the only [[positive quaternion-Kähler manifolds]].
+This leads to the **conjecture** that in every dimension, the [[Wolf spaces]] are the only [[positive quaternion-Kähler manifolds]].
 
 The conjecture has been proven for the following [[dimensions]]
 
 * $d = 4$ (Hitchin)
 
-* $d = 8 $ (Poon–Salamon, LeBrun–Salamon)
+* $d = 8 $ ([Poon-Salamon 91](#PoonSalamon91), [LeBrun-Salamon 94](#LeBrunSalamon94))
 
+
+\linebreak
+
+
+## Examples
+
+The archetypical example is
+
+* [[quaternionic projective space]] $\mathbb{H}P^2$
+
+This is the first of the list of examples 
+of spaces that are both [[quaternion-Kähler manifolds]] 
+as well as a [[symmetric spaces]], called _[[Wolf spaces]]_.
+
+See around Prop. \ref{WoldSpacesArePositiveQuaternionKaehler} above.
 
 \linebreak
 
@@ -167,6 +183,8 @@ The conjecture has been proven for the following [[dimensions]]
 Original articles:
 
 * {#Salamon82} [[Simon Salamon]], _Quaternionic Kähler manifolds_, Invent Math (1982) 67: 143. ([doi:10.1007/BF01393378](https://doi.org/10.1007/BF01393378))
+
+* {#PoonSalamon91} Y. S. Poon, [[Simon Salamon]], _Quaternionic Kähler 8-manifolds with positive scalar curvature_, J. Differential Geom. Volume 33, Number 2 (1991), 363-378 ([euclid:1214446322](https://projecteuclid.org/euclid.jdg/1214446322))
 
 * {#LeBrunSalamon94} Claude LeBrun, [[Simon Salamon]], _Strong rigidity of positive quaternion Kähler manifolds_, Inventiones Mathematicae 118, 1994, 109–132 ([dml:144231](https://eudml.org/doc/144231), [doi:10.1007/BF01231528](https://doi.org/10.1007/BF01231528))
 
@@ -193,7 +211,7 @@ Articles discussing quaternion-Kähler [[holonomy]], [[connection]], and relatio
 
 * {#Verbitsky} [[Misha Verbitsky]], "Hyperkähler manifolds with torsion, supersymmetry and Hodge theory", Asian J. Math, V. 6 No. 4, pp. 679-712, Dec. 2002.
 
-* {#Salamon86} [[Simon Salamon]], _Differential Geometry of Quaternionic Manifolds-, Annales scientifiques de l’É.N.S. 4e série, tome 19, no 1 (1986), p. 31-55.
+* {#Salamon86} [[Simon Salamon]], _Differential Geometry of Quaternionic Manifolds_, Annales scientifiques de l’É.N.S. 4e série, tome 19, no 1 (1986), p. 31-55 ([numdam:ASENS_1986_4_19_1_31_0](http://www.numdam.org/item/ASENS_1986_4_19_1_31_0/))
 
 See also
 
