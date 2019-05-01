@@ -139,6 +139,7 @@ Given a [[field]] $k$ with [[separable closure]] $\overline{k}$, then the pro-et
 
 * [[étale cohomology]]
 
+* [[condensed set]]
 
 ## References
 
@@ -174,3 +175,9 @@ Further developments include
 [[!redirects pro-étale toposes]]
 [[!redirects pro-etale topos]]
 [[!redirects pro-etale toposes]]
+
+[[!redirects proetale site]]
+[[!redirects proetale sites]]
+[[!redirects proetale topos]]
+[[!redirects proetale toposes]]
+[[!redirects proetale topoi]]
