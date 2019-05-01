@@ -23,9 +23,11 @@ In [[string theory]], the term _giant graviton_ refers to [[wrapped brane]]-conf
 
 ## Related concepts
 
-* [[wrapped brane]]
+* [[wrapped brane]], [[M2-M5 brane bound state]]
 
 * [[dual graviton]]
+
+
 
 ## References
 
@@ -59,7 +61,7 @@ Further discussion:
 
 * Vijay Balasubramanian, [[Micha Berkooz]], Asad Naqvi, [[Matthew Strassler]], _Giant Gravitons in Conformal Field Theory_, JHEP 0204 (2002) 034 ([arXiv:hep-th/0107119](https://arxiv.org/abs/hep-th/0107119))
 
-Specifically [[M2-brane]]/[[M5-brane]] [[bound state]] giant gravitons are discussed in:
+Specifically [[M2-M5 brane bound state]] giant gravitons are discussed in:
 
 * J. M. Camino, A. V. Ramallo, _M-Theory Giant Gravitons with C field_,  Phys.Lett.B525:337-346, 2002 ([arXiv:hep-th/0110096](https://arxiv.org/abs/hep-th/0110096))
 
