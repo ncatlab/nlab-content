@@ -124,13 +124,7 @@ See at _[[universal complex orientation on MU]]_.
 +-- {: .num_remark}
 ###### Remark
 
-In terms of [[E-∞ geometry]]/[[spectral geometry]], prop. \ref{ComplexOrientationIsMUAlgebraStructure} says that complex orientation on $E$ is equivalently a morphism
-
-$$
-  Spec(E)\longrightarrow Spec(MU)
-$$
-
-exhibiting the affine [[E-∞ scheme]] $Spec(E)$ as sitting over $Spec(MU)$. By [[Quillen's theorem on MU]], 
+One might hope that the above universal property can be refined to say that that if $E$ is an $E_\infty$-ring spectrum, then complex orientations of $E$ are in bijection with $E_\infty$ ring maps $MU \to E$. This is not the case; Ando classified $H_\infty$ ring maps $MU \to E$ in [his thesis](#Ando92) and in particular showed that not every complex orientation gives rise to an $H_\infty$ ring map out of $MU$. More recently, [Hopkins and Lawson](#HopkinsLawson16) have classified the further structure constituting an $E_\infty$ ring map out of $MU$.
 
 =--
 
@@ -704,6 +698,9 @@ and is further developed in
 
 See also the references at _[equivariant cohomology -- References -- Complex oriented cohomology](equivariant+cohomology#InComplexOrientedGeneralizedCohomologyTheory)_-.
 
+A comparison between complex orientations and $H_\infty$ ring maps out of $MU$ was given in
+
+* {#Ando92} [[Matthew Ando]] _Operations in complex-oriented cohomology theories related to subgroups of formal groups_ ([PhD Thesis](https://dspace.mit.edu/bitstream/handle/1721.1/13230/26903638-MIT.pdf?sequence=2))
 
 
 More recent developments include
