@@ -1,7 +1,7 @@
 See also [[virtual machine]], [[zoranskoda:hyperledger]], [[zoranskoda:EOS]], [[Rust]].
 
 __WebAssembly__ (wasm) is a modern low level language (mimicking assembly code, but independent of a machine) intended for implementation via a [[virtual machine]]. 
-It is optimized for small compiling time and near native execution time, at least when implemented on a virtual machine on one of major computer architectures (like 86 series). It is created as a new VM standard for web browsers, backed by major internet companies; it is also used or planned on a number of [[blockchain]] projects, most notably Parity [[zoranskoda:substrate|Substrate]]. On web browsers it is highly interoperable with JavaScript.
+It is optimized for small compiling time and near native execution time, at least when implemented on a virtual machine on one of major [computer architectures](https://en.wikipedia.org/wiki/Instruction_set_architecture) (like the x86 or ARM series). It is created as a new VM standard for web browsers, backed by major internet companies; it is also used or planned on a number of [[blockchain]] projects, most notably Parity [[zoranskoda:substrate|Substrate]]. On web browsers it is highly interoperable with JavaScript.
 
 * WebAssembly [wikipedia](https://en.wikipedia.org/wiki/WebAssembly), [spec](https://webassembly.github.io/spec), [webassembly.org](https://webassembly.org), [msdn](https://developer.mozilla.org/en-US/docs/WebAssembly) docs, [rust-to-wasm](https://developer.mozilla.org/en-US/docs/WebAssembly/Rust_to_wasm), [github](tps://github.com/WebAssembly)
 * [WebAssembly-Links](https://wiki.parity.io/WebAssembly-Links) in Parity Tech Documentation
