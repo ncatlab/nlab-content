@@ -170,6 +170,8 @@ Discussion of [[KK-compactification]] on 8-dimensional [[Spin(7)-manifolds]] (se
 
 * S. Salur, O. Santillan, _New Spin(7) holonomy metrics admiting G2 holonomy reductions and M-theory/IIA dualities_, Phys.Rev.D79:086009, 2009 ([arXiv:0811.4422](https://arxiv.org/abs/0811.4422))
 
+* Adil Belhaj, Luis J. Boya, Antonio Segui, _Holonomy Groups Coming From F-Theory Compactification_, Int J Theor Phys (2010) 49: 681.  ([arXiv:0911.2125](https://arxiv.org/abs/0911.2125))
+
 * Thomas Bruun Madsen, _Spin(7)-manifolds with three-torus symmetry_, J.Geom.Phys.61:2285-2292, 2011 ([arXiv:1104.3089](https://arxiv.org/abs/1104.3089))
 
 * Federico Bonetti, [[Thomas Grimm]], Tom G. Pugh, _Non-Supersymmetric F-Theory Compactifications on Spin(7) Manifolds_, JHEP01(2014)112 ([arXiv:1307.5858](https://arxiv.org/abs/1307.5858))
