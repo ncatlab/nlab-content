@@ -99,7 +99,7 @@ A seminal theoretical argument that it _is_ consistent to neglect cosmic inhomog
 
 > This, in principle, ends the debate about whether backreaction has been excluded as a dark energy candidate: the Green and Wald formalism does not apply to the main body of backreaction research; backreaction remains a viable dark energy candidate.
 
-Accordingly, the review [Coley 18, section 3.5](#Coley18) of [[mathematical physics|mathematical]] [[general relativity]] regards the issue as open:
+Accordingly, the review [Coley 18, section 3.5](#Coley18) of [[mathematical physics|mathematical]] [[general relativity]] again regards the issue as open:
 
 > An important open question in cosmology is whether averaging of inhomogeneities can lead to significant backreaction effects on very large scales. (p. 28)
 
