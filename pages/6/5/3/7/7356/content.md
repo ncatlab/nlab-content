@@ -213,7 +213,7 @@ An early survey of its relation to [[M-theory]] with [[M5-branes]] is in
 
 A more recent survey is
 
-* {#Blumenhagen10} Blumenhagen, _Basics of F-theory from the Type IIB Perspective_ ([arXiv:1002.2836](http://arxiv.org/abs/1002.2836))
+* {#Blumenhagen10} [[Ralph Blumenhagen]], _Basics of F-theory from the Type IIB Perspective_ ([arXiv:1002.2836](http://arxiv.org/abs/1002.2836))
 
 Lecture notes include
 
@@ -234,7 +234,7 @@ Further survey includes
 
 * [[Timo Weigand]], _F-theory: Progress and Prospects_, 2014 ([pdf](https://www.theorie.physik.uni-muenchen.de/activities/workshops/archive_workshops_conferences/string_pheno_ringberg/slides_frontiers/weigand.pdf))
 
-* {#Vafa15} [[Cumrun Vafa]], _Reflections on F-theory_, 2015 ([pdf](http://f-theory15.mpp.mpg.de/talks/Vafa.pdf))
+* {#Vafa15} [[Cumrun Vafa]], _Reflections on F-theory_, 2015 ([pdf](http://wwwth.mpp.mpg.de/conf/f-theory15/talks/Vafa.pdf))
 
 
 Related conferences include
