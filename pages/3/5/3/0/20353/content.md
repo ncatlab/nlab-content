@@ -21,7 +21,7 @@ The _Lindenbaum number_ of a [[set]] $X$ is the smallest [[well-ordered set]] th
 
 ## Definition
 
-Given a set $X$, denote by $\aleph^*(X)$ the set of [[ordinals]] $\alpha$ that admit a [[surjection]] $X\to \alpha$. Equivalently, it is the set of order isomorphism classes of well-orderings of quotients of $X$.
+Given a set $X$, denote by $\aleph^*(X)$, the set of [[ordinals]] $\alpha$ that admit a [[surjection]] $X\to \alpha$. Equivalently, it is the set of order isomorphism classes of well-orderings of quotients of $X$.
 
 ## Properties
 
@@ -29,11 +29,15 @@ By construction, if there were a surjection function $X \to \aleph^*(X)$, then $
 
 If $\aleph(X)$ denotes the [[Hartogs number]] of $X$, then we also have:
 
-* there is an injection $\aleph(X) \to \aleph^*(X)$
+* there is an injection $\aleph(X) \to \aleph^*(X)$,
 
-* for well-orderable $X$, then $\aleph(X) \simeq \aleph^*(X)$
+* for well-orderable $X$, then $\aleph(X) \simeq \aleph^*(X)$,
 
-* for non-well-orderable $X$, it's consistent that the gap can be arbitrarily large ([Karagila 2012, Section 1.2](#Karagila12)).
+* $X$ and $\aleph^*(X)$ are comparable if and only if $X$ is well-orderable, and this holds for both $\lt$ and $\lt^*$, the surjective preordering on cardinals,
+
+* it is consistent that for any well-orderable cardinal $\kappa$, there is a Dedekind-finite set $X$ (i.e. an infinite set such that $\aleph(X)=\aleph_0$) and $\aleph^*(X)\geq\kappa$ ([Monro 1975](#Monro75), so in particular the gap between $\aleph(X)$ and $\aleph^*(X)$ can be arbitrarily large,
+
+* the statement that $\aleph(X)=\aleph^*(X)$ for all $X$ is equivalent to the axiom of choice for well-ordered families (i.e. if $A$ is a well-orderable family of non-empty sets, then $A$ admits a choice function). This was proved by Pincus, and appears in [Pelc 1978](#Pelc78),
 
 * there is an injection $\aleph^*(X) \to \aleph(P(X))$ ([Diener 1992](#Diener92)).
 
@@ -63,4 +67,6 @@ The name appears to be due to
 
 note: version 1 of the arXiv paper!
 
-* {#Karagila12} Asaf Karagila, _Vector spaces and antichains of cardinals in models of set theory_, Master’s thesis, Ben-Gurion University of the Negev, 2012.
+* {#Monro75} G. P. Monro, _Independence results concerning Dedekind-finite sets_, J. Austral. Math. Soc. 19 (1975), 35–46. 
+
+* {#Pelc79} Andrzej Pelc, _On some weak forms of the axiom of choice in set theory_. Bull. Acad. Polon. Sci. Sér. Sci. Math. Astronom. Phys. 26 (1978), no. 7, 585–589.
