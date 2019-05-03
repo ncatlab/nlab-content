@@ -14,7 +14,7 @@
 
 ## Idea
 
-**Synthetic topology**, like [[synthetic domain theory]], [[synthetic differential geometry]], and [[synthetic computability]], are part of [[synthetic mathematics]]. It uses the internal logic of a topos to develop of part of mathematics. In this case topology. This is closely related to topology via logic and [[abstract Stone duality]].
+**Synthetic topology**, like [[synthetic domain theory]], [[synthetic differential geometry]], and [[synthetic computability]], are part of [[synthetic mathematics]]. It uses the internal logic of a topos to develop a part of mathematics. In this case topology. This is closely related to topology via logic and [[abstract Stone duality]].
 
 The formal system of [[type theory]] has semantics in many [[categories]], and in particular in many categories of "spaces".  Thus types may be regarded not just as [[sets]] but as [[general topology|topological objects]].  Interestingly, a good deal of this "topology" can be detected intrinsically in type theory, often corresponding to the possible failure of principles of [[classical mathematics]].
 
