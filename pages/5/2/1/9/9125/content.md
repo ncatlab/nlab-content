@@ -1063,7 +1063,7 @@ $$
   \tau_X \;\colon\; X \to \mathbf{B}GL(n)
 $$ 
 
-be the map that modulates its [[tangent bundle]] (discussed at [_geometry of physics - tangent bundle_](geometry of physics#TangentBundle)). Consider then the following diagram, which shows lifts of this map to the  [[classifying spaces]]/[[moduli stacks]] for various other groups (this is the _[[Whitehead tower]]_ of $\mathbf{B}O(n)$):
+be the map that modulates its [[tangent bundle]] (discussed at [_geometry of physics - tangent bundle_](geometry+of+physics#TangentBundle)). Consider then the following diagram, which shows lifts of this map to the  [[classifying spaces]]/[[moduli stacks]] for various other groups (this is the _[[Whitehead tower]]_ of $\mathbf{B}O(n)$):
 
 $$
   \array{
@@ -3568,9 +3568,13 @@ The moduli stack of these fields is that of background fields that satisfy the [
 
 [[!include holographic principle -- table]]
 
+* [[concept with an attitude]]
+
 ## References
 
 ### Lecture notes and expositions
+
+* _[[geometry of physics -- perturbative quantum field theory]]_, chaper _[3. Fields](https://ncatlab.org/nlab/show/geometry+of+physics+--+perturbative+quantum+field+theory#Fields)_
 
 A survey of the main field species is given in 
 
@@ -3578,7 +3582,7 @@ A survey of the main field species is given in
 
 Most of the above material as of 2013 was written as part of a lecture series
 
-* [[Urs Schreiber]], _Higher Chern-Simons theory_, lecture series at _[Workshop on Topological Aspects of Quantum Field Theories, Singapore (14 - 18 Jan 2013)](http://www2.ims.nus.edu.sg/Programs/013wquantum/index.php)_ on the first sections at _[geometry of physics, II) Physics](http://ncatlab.org/nlab/show/geometry%20of%20physics#PHYSICS)_
+* [[Urs Schreiber]], _Higher Chern-Simons theory_, lecture series at _[Workshop on Topological Aspects of Quantum Field Theories, Singapore (14 - 18 Jan 2013)](http://www2.ims.nus.edu.sg/Programs/013wquantum/index.php)_ on the first sections at _[geometry of physics, II) Physics](geometry%20of%20physics#PHYSICS)_
 
 A exposition specifically for gauge fields is also in 
 
@@ -3649,8 +3653,12 @@ The formulation of this in [[smooth super infinity-groupoids]] is ([FSS, section
 [[!redirects quantum field]]
 [[!redirects quantum fields]]
 
+[[!redirects field (in physics)]]
+[[!redirects fields (in physics)]]
+
 [[!redirects gauge field]]
 [[!redirects gauge fields]]
+
 
 
 [[!redirects field configuration]]
