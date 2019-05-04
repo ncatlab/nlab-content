@@ -24,8 +24,7 @@
 Given a [[functor]] $U : D \rightarrow C$, then a [[parallel pair]] $f,g : a \rightarrow b$ in $D$ is called **$U$-split** if the pair $U f, U g$ has a [[split coequalizer]] in $C$.  Specifically, this means that there is a diagram in $C$: 
 
 $$U a \;\underoverset{U f}{U g}{\rightrightarrows}\; U b \;\overset{h}{\rightarrow}\; c$$
-
-where $h$ has a [[section]] $s$ and $U f$ has a section $t$ such that $U g \cdot t = s \cdot h$.  This implies that the arrow $h$ is necessarily a coequalizer of $U f$ and $U g$.  
+such that $h \cdot U f = h \cdot U g$, and $h$ and $U f$ have respective [[sections]] $s$ and $t$ satisfying $U g \cdot t = s \cdot h$.  This implies that the arrow $h$ is necessarily a coequalizer of $U f$ and $U g$.  
 
 The functor $U$ is said to *create coequalizers of $U$-split pairs* if for any such $U$-split pair, there exists a coequalizer $e$ of $f,g$ in $D$ which is preserved by $U$, and moreover any [[fork]] in $D$ whose image in $C$ is a split coequalizer must itself be a coequalizer (not necessarily split).
 
