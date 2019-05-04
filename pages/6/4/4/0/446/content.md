@@ -33,12 +33,40 @@ A signal feature of allegories is emphasis on the _modular law_ (see def. \ref{A
 +-- {: .num_defn #Allegory}
 ###### Definition
 
-An **allegory** is a [[(1,2)-category]] $A$ equipped with an [[involution]] $(-)^o \colon A^{op} \to A$ which is the [[identity]] on [[objects]], such that
+An **allegory** is a [[locally posetal 2-category]] $A$ equipped with an [[involution]] $(-)^o \colon A^{op} \to A$ which is the [[identity]] on [[objects]], such that
 
-1. each [[hom-object|hom-poset]] $A(x,y)$ has binary [[intersections]], and
+1. the involution is order preserving and distributes over composition, i.e. $ (\psi\phi)^o = \phi^o\psi^o $,
+1. each [[hom-object|hom-poset]] $A(x,y)$ has binary [[meet|meets]], and
 1. the *[[modular lattice|modular law]]* holds: for $\phi\colon x\to y$, $\psi\colon y\to z$, and $\chi\colon x\to z$, we have $\psi \phi \cap \chi \le \psi (\phi \cap \psi^o \chi)$. 
 
 =--
+
+From these properties we immediately get that 
+\[
+(\phi \cap \psi)^o = \phi^o \cap \psi^o
+\]
+because
+
+$$
+\begin{aligned}
+    \chi \leq (\phi \cap \psi)^o
+  &\iff
+    \chi^o \leq \phi \cap \psi
+& \text{involution}
+\\
+  &\iff
+    \chi^o \leq \phi \quad \text{ and } \quad \chi^o \leq \psi
+&\text{meet properties}
+\\
+  &\iff
+    \chi \leq \phi^o \quad \text{ and } \quad \chi \leq \psi^o
+&\text{monotonicity and involution}
+\\
+  &\iff
+    \chi \leq \phi^o \cap \psi^o
+&\text{meet properties.}
+\end{aligned}
+$$
 
 ## Examples 
 
