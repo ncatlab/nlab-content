@@ -37,7 +37,7 @@ on current developments regarding foundations of [[geometry]] in [[mathematics]]
 
 ## Book 
 
-Volume I New Spaces in Mathematics 
+### Volume I: New Spaces in Mathematics 
 
 I.1. Differential geometry
 I.1.1 Diffeologies (Patrick Iglesias-Zemmour)
@@ -45,7 +45,7 @@ I.1.2 New methods for old spaces: synthetic differential geometry (Anders Kock)
 I.1.3 Microlocalanalysis and beyond (Pierre Schapira)
 
 I.2. Topology and algebraic topology
-I.2.1 Topo-logie (Mathieu Anel &amp; Andr&eacute; Joyal)
+I.2.1 Topo-logie (Mathieu Anel &amp; Andr&eacute; Joyal) ([pdf](/http://mathieu.anel.free.fr/mat/doc/Anel-Joyal-Topo-logie.pdf))
 I.2.2 Spaces as infinity-groupoids (Timothy Porter)
 I.2.3 Homotopy type theory: the logic of space (Mike Shulman)
 
@@ -55,7 +55,7 @@ I.3.2 Stacks (Nicole Mestrano &amp; Carlos Simpson)
 I.3.3 The geometry of ambiguity – An introduction to derived geometry (Mathieu Anel)
 I.3.4 Geometry in dg-categories (Maxim Kontsevich)
 
-Volume II New Spaces in Physics
+### Volume II: New Spaces in Physics
 
 II.1. Non-commutative and super-commutative geometries
 II.1.1 Noncommutative Geometry, the spectral standpoint (Alain Connes)
