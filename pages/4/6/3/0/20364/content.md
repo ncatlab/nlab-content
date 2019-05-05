@@ -38,6 +38,8 @@ Pyknotic sets form a [[coherent topos]].
 
 * [[pro-étale site]]
 
+* [[quasi-topological space]] (roughly, the [[concrete sheaf|concrete]] pyknotic sets)
+
 ## References
 
 * [[Clark Barwick]], [[Peter Haine]], _Pyknotic objects, I.  Basic notions_,
