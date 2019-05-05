@@ -219,7 +219,7 @@ where the author provides a modern foundation for logic based on a clear separat
 
 Referring explicitly to these lectures, these are are then just called _hypothetical judgements_ in section 3 of
 
-* [[Frank Pfenning]], Rowan Davies, _A judgemental reconstruction of model logic_ (2000) ([pdf](http://www.cs.cmu.edu/~fp/papers/mscs00.pdf))
+* [[Frank Pfenning]], Rowan Davies, _A judgemental reconstruction of modal logic_ (2000) ([pdf](http://www.cs.cmu.edu/~fp/papers/mscs00.pdf))
  {#Pfenning-Davies}
 
 In section D1.1 of 
