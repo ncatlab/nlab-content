@@ -44,6 +44,14 @@ A _[[field (in physics)]]_ is just a [[section]] of a [[fiber bundle]].
 
 But in [[mathematical physics]] one says _field_ instead of _section of a fiber bundle_ to indicate that one is going to consider a [[Lagrangian density]] on the corresponding [[jet bundle]] of the given [[fiber bundle]] (then called the _[[field bundle]]_ ) and study the induced [[classical field theory|classical]] or [[quantum field theory]]. 
 
+
+### Random variables and estimators
+
+Both [[random variable|random variables]] and estimators are most often used to refer to [[real number|real valued]] [[measurable function| measurable maps]]. The former also often takes values in some [[Polish space]].
+
+But in [[probability theory]] a random variable is interpreted as a map from a _sample space_ to a _space of [[state|states]]_ which represents the observed outcomes or outcomes predicted by some model.
+In contrast in [[statistics]] an estimator guesses or estimates a certain parameter associated to some random model.
+
 (...)
 
 [[!redirects concepts with an attitude]]
