@@ -47,7 +47,7 @@ together with the basic notion of [[Bishop set]]/[[setoid]].
 
 A survey is in
 
-* Herman Geuvers, Milad Niqui, [[Bas Spitters]], [[Freek Widijk]], _Constructive analysis, types and exact real numbers_, Science
+* Herman Geuvers, Milad Niqui, [[Bas Spitters]], [[Freek Wiedijk]], _Constructive analysis, types and exact real numbers_, Science
 Mathematical Structures in Computer Science / Volume 17 / Issue 01 / February 2007, pp 3-36 ([publisher](http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=851596))
 
 An undergraduate real analysis textbook taking a constructive approach using interval analysis is
