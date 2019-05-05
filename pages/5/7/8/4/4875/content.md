@@ -29,7 +29,7 @@
 
 ### Abstractly
 
-In [[differential cohesion]] an [[object]]/[[type]] $D$ is an _infinitesimally thicked point_ if its corresponding [[reduced object]] is the [[terminal object]],
+In [[differential cohesion]] an [[object]]/[[type]] $D$ is an _infinitesimally thickened point_ if its corresponding [[reduced object]] is the [[terminal object]],
 
 $$
   \Re(D) \simeq *
