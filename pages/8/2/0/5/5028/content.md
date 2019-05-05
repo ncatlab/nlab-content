@@ -1,5 +1,5 @@
 
-* [website](http://www.cs.ru.nl/~spitters/)
+* [website](http://www.cs.au.dk/~spitters/)
 
 category: people
 
