@@ -11,7 +11,7 @@ __Quantized coordinate rings__ of quantum groups are essentially dual to the cor
 
 * [[Vladimir Drinfel'd|V. G. Drinfel'd]], _Quantum groups_, Proceedings of the International Congress of Mathematicians 986, Vol. 1, 798&#8211;820, AMS 1987, [djvu:1.3M](http://www.mathunion.org/ICM/ICM1986.1/Main/icm1986.1.0798.0820.ocr.djvu), [pdf:2.5M](http://www.mathunion.org/ICM/ICM1986.1/Main/icm1986.1.0798.0820.ocr.pdf)
 
-* Michio Jimbo, _A $q$-difference analogue of $U(\mathfrak{g})$ and the Yang-Baxter equation, Lett. Math. Phys. 10 (1985), no. 1, 63&#8211;69. 
+* Michio Jimbo, [_A $q$-difference analogue of $U(\mathfrak{g})$ and the Yang-Baxter equation_](https://doi.org/10.1007/BF00704588), Lett. Math. Phys. 10 (1985), no. 1, 63&#8211;69. 
 
 * J.C. Jantzen, _Lectures on quantum groups_, Grad. Stud. Math. 6, Amermer. Math. Soc. 1996
 
