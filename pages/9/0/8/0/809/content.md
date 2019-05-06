@@ -141,7 +141,7 @@ The ordinary [[cube category]] is a _[[test category]]_. This means that bare [[
 
 But the category of cubes _with connection_  is even a _[[strict test category]]_ ([Maltsiniotis, 2008](#Maltsiniotis)). This means that under [[geometric realization]] (see the discussion at [[homotopy hypothesis]]) the [[cartesian product]] of cubical sets with connection is sent to the correct product [[homotopy type]].
 
-The lack of this property for cubical sets without connection was one of the original reasons reasons for abandoning Kan's initial cubical approach to combinatorial [[homotopy theory]] in favour of the simplicial approach; the implications of this new result have yet to be thought through. Another reason was that cubical groups were in general not Kan complexes; however cubical groups with connection are Kan complexes. See the paper by Tonks listed below. 
+The lack of this property for cubical sets without connections was one of the original reasons for abandoning Kan's initial cubical approach to combinatorial [[homotopy theory]] in favour of the simplicial approach; the implications of this new result have yet to be thought through. Another reason was that cubical groups were in general not Kan complexes; however cubical groups with connection are Kan complexes. See the paper by Tonks listed below. 
 
 ## Examples
 
