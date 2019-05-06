@@ -230,6 +230,6 @@ See also
 
 An application to [[knot theory]] is given in
 
-* [[Markus Szymik]], _Alexander-Beck modules detect the unknot_, [Arxiv preprint1610.08306](https://arxiv.org/abs/1610.08306) 
+* [[Markus Szymik]], _Alexander-Beck modules detect the unknot_, Fund. Math. 246 (2019) 89-108.
 
 [[!redirects Beck modules]]
