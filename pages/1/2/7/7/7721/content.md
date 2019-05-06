@@ -393,7 +393,7 @@ The genuine reformulation of type II supergravity as a $(O(d)\times O(d) \hookri
 
 In 
 
-* [[Chris Hull]], _Generalised Geometry for M-Theory_ ([arXiv:hep-th/0701203](http://arxiv.org/abs/hep-th/0701203)) 
+* [[Chris Hull]], _Generalised Geometry for M-Theory_, JHEP 0707:079,2007 ([arXiv:hep-th/0701203](http://arxiv.org/abs/hep-th/0701203)) 
 
 the geometry of the reduction $O(d) \times O(d) \to O(d,d)$ was referred to as "type I geometry", with "type II geometry" instead referring to further [[U-duality]] group extensions, discussed at _[[exceptional generalized geometry]]_.
 
