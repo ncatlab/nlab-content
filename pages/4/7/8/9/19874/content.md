@@ -134,6 +134,8 @@ As a potential solution of the apparent [[B meson]] [[flavour anomaly]]:
 
 * Bhubanjyoti Bhattacharya, Alakabha Datta, Saeed Kamali, David London, _CP Violation in $\bar B^0 \to D^{\ast +} \mu^- \bar \nu_\mu$_, ([arXiv:1903.02567](https://arxiv.org/abs/1903.02567))
 
+* Han Yan, Ya-Dong Yang, Xing-Bo Yuan, _Phenomenology of $b \to c \tau \bar \nu$ decays in a scalar leptoquark model_ ([arXiv:1905.01795](https://arxiv.org/abs/1905.01795))
+
 
 and within [[Randall-Sundrum models]]
 
