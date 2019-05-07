@@ -35,6 +35,44 @@ A __[[large category]]__ is a [[category]] whose class of [[morphisms]] is a pro
 
 Category theorists care about proper classes because many examples of categories in practice (such as [[Set]], to begin with!) are large.
 
+
+## Category of classes
+
+The [[category]] of classes $Class$ is a [[large category]] that is not [[locally small]].
+It admits all [[colimits]], understood in the following sense.
+
+First, given a class $I$, we define an $I$-indexed family of classes
+as a map of classes $f:T\to I$.
+The preimage $f^{-1}(\{i\})$ is precisely the class with index $i$.
+Such families can be pulled back along maps of classes $J\to I$ and pushed forward along maps $I\to J$.
+
+Next, given a category $I$ (not necessarily locally small),
+we define an $I$-indexed diagram of classes
+as a pair $(o:T_O\to Ob(I),m:T_M\to Mor(I))$ of indexed families of classes
+that satisfies the obvious reformulation of conditions in the definition of a [[functor]].
+
+We now claim that an arbitrary $I$-indexed diagram of classes admits a [[colimit]].
+
+First, the standard reduction of $I$-indexed [[colimits]]
+to a [[coequalizer]] of a pair of arrows between coproducts indexed by $Mor(I)$ and $Ob(I)$
+still works in this context since class-indexed families of classes can be pulled back
+along source and target maps $Mor(I)\to Ob(I)$.
+
+Secondly, class-indexed coproducts of classes can be computed simply by taking
+the total class of the corresponding class-indexed family of classes.
+
+Thirdly, [[coequalizers]] of classes exist by [[Scott's trick]].
+Observe that given a pair of arrows $f,g:X\to Y$ between classes,
+we can define an [[equivalence relation]] on $Y$
+by saying that $y~y'$ if there is a map $h:[0,n]\to Y$
+such that $h(0)=y$, $h(n)=y'$
+and for any $i\in[0,n)$ there is $x\in X$ such that $h(i)=f(x)$ and $h(i+1)=g(x)$
+or $h(i)=g(x)$ and $h(i+1)=f(x)$.
+The quotient of $Y$ by this equivalence relation exists by [[Scott's trick]]
+and is precisely the desired coequalizer.
+
+
+
 ## References
 
 A paper detailing one approach to the technical side of how classes appear in [[category theory]] (namely using [[Grothendieck universes]]) is
