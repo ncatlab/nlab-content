@@ -2,6 +2,7 @@
 
 > This entry is about the notion of _lattice_ in [[group theory]]/[[quadratic form]]-theory. For other notions see at _[[lattice (disambiguation)]]_.
 
+
 ***
 
 #Contents#
@@ -39,7 +40,9 @@ The standard diagonal inclusion of a global field (such as a [[number field]]) $
 
 * [[genus of a lattice]]
 
-* [[lattice gauge theory]]
+* [[lattice model]]
+
+  * [[lattice gauge theory]]
 
 ## References
 
