@@ -6,7 +6,7 @@
 
 ## Idea
 
-A _Yangian_ is a certain [[quantum group]] that arises naturally in [[integrable systems]] in [[quantum field theory]].
+A _Yangian_ is a certain [[quantum group]] that arises naturally in [[integrable systems]] in [[quantum field theory]], as well as in _[[semi-holomorphic 4d Chern-Simons theory]]_.
 
 ## References
 
@@ -31,7 +31,7 @@ In
 
 * [[Kevin Costello]], _Supersymmetric gauge theory and the Yangian_ ([arXiv:1303.2632](http://arxiv.org/abs/1303.2632))
 
-is discussed that the holomorphically [[topological twist|twisted]] [[N=1 D=4 super Yang-Mills theory]] is controled by the [[Yangian]] in analogy to how [[Chern-Simons theory]] is controled by a [[quantum group]].
+is discussed that the holomorphically [[topological twist|twisted]] [[N=1 D=4 super Yang-Mills theory]] is controled by the [[Yangian]] in analogy to how [[Chern-Simons theory]] is controled by a [[quantum group]]. See at _[[semi-holomorphic 4d Chern-Simons theory]]_.
 
 
 [[!redirects Yangians]]
