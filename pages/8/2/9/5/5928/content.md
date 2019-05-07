@@ -91,7 +91,7 @@ The [[maximal ideal]] in $R$ correspond precisely to the [[closed subset|closed]
 +-- {: .num_prop}
 ###### Proposition
 
-The Zariski coverage is [[subcanonical coverage|subcanoncial]].
+The Zariski coverage is [[subcanonical coverage|subcanonical]].
 
 =--
 
@@ -169,6 +169,8 @@ Section VIII.6 of
 * [[The Stacks Project]], chapter 33 _Topologies on Schemes_
 
 * Nick Duncan, _Gros and Petit Toposes_, talk notes, [88th Peripatetic Seminar on Sheaves and Logic](http://cheng.staff.shef.ac.uk/pssl88/), [pdf](http://cheng.staff.shef.ac.uk/pssl88/pssl88-duncan.pdf).
+
+* Daniel Murfet, [The Zariski Site](http://therisingsea.org/notes/ZariskiTopology.pdf)
 
 category: algebraic geometry
 
