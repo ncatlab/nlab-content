@@ -537,7 +537,7 @@ The identification of $Spin \dot Spin(2)$ with [[Spin^c]] appears for instance i
 ### $Sp(1)Sp(1)Sp(1) \simeq Spin(4)\cdot Spin(3) $
  {#ReferencesSpin4Spin3}
 
-The group $Spin(4)\cdot Spin(3) \simeq (Spin(3))^3/_{diag} \mathbb{Z}_2$ (Example \ref{Spin4Spin3}) is discussed in the following (largely in describing the Grassmannian of [[Cayley 4-planes]], see [there](Cayley+form#GrassmannianOfCayley4Planes)):
+The group $Spin(4)\cdot Spin(3) \simeq (Spin(3))^3/_{diag} \mathbb{Z}_2$ (Example \ref{Spin4Spin3}) is discussed in the following, largely in describing the Grassmannian of [[Cayley 4-planes]], see [there](Cayley+form#GrassmannianOfCayley4Planes):
 
 * Wu-Chung Hsiang, Wu-Yi Hsiang, Tables A of _Differentiable Actions of Compact Connected Classical Groups: II_, Annals of Mathematics
 Second Series, Vol. 92, No. 2 (1970), pp. 189-223 ([jstor:1970834](https://www.jstor.org/stable/1970834))
@@ -562,6 +562,16 @@ Second Series, Vol. 92, No. 2 (1970), pp. 189-223 ([jstor:1970834](https://www.j
 * {#BettiolMendes15} Renato G. Bettiol, Ricardo A. E. Mendes, _Flag manifolds with strongly positive curvature_, Math. Z. 280 (2015), no. 3-4, 1031-1046 ([arXiv:1412.0039](https://arxiv.org/abs/1412.0039))
 
 * Maurizio Parton, Paolo Piccinni, Victor Vuletescu, Prop. 2.2 in _Clifford systems in octonionic geometry_ ([arXiv:1511.06239](https://arxiv.org/abs/1511.06239))
+
+Discussion of $Sp(1)\cdot Sp(1) \cdot Sp(1)$ in the context of [[super Lie algebras]] and [[superconformal geometry|superconformal symmetry]] is in:
+
+* {#Freund78} [[Peter Freund]], p. 634 of _World topology and gauged internal symmetries_, Proc. 19th Int. Conf. High Energy Physics, Tokyo 1978 ([spire:137780](http://inspirehep.net/record/137780/), [pdf](https://cds.cern.ch/record/870701/files/c78-08-23-p617.pdf))
+
+and possibly with the $\mathbb{Z}_2$-quotient not made explicit:
+
+* [[Peter Goddard]] (auth.), [[Peter Freund]], K. T. Mahanthappa, p. 128 of _Superstrings_, NATO ASI Series 175, Springer 1988
+
+* Kazuo Hosomichi, Sangmin Lee, Sungjay Lee, Jaemo Park, slide 13 of _New  Superconformal Chern-Simons Theories_ ([pdf](http://www3.ic.ac.uk/pls/portallive/docs/1/46083696.PDF))
 
 [[!redirects Sp(2).Sp(1)]]
 [[!redirects Spin(5).Spin(3)]]
