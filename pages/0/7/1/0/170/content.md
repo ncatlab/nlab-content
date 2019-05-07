@@ -21,7 +21,7 @@
 ## Idea
 
 
-An ordinary [[spectral triple]] is, discussed there, the abstract algebraic data characterizing [[supersymmetric quantum mechanics]] on a [[worldline]] and thereby spectrally encoding an effective (possibly [[non-commutative geometry|non-commutative]]) [[target space]] [[geometry]]. 
+An ordinary [[spectral triple]] is, as discussed there, the abstract algebraic data characterizing [[supersymmetric quantum mechanics]] on a [[worldline]] and thereby spectrally encoding an effective (possibly [[non-commutative geometry|non-commutative]]) [[target space]] [[geometry]]. 
 Ordinary [[Riemannian geometry]] with [[spin structure]] is the special case of this where the [[Hilbert space]] in the spectral triple is that of [[square integrable function|square integrable]] [[sections]] of the [[spinor bundle]] and the operator $D$ acting on that is the standard [[Dirac operator]], hence the "supercharge" of the worldline supersymmetry of the [[spinning particle]].
 
 In generalization of this, a "2-spectral triple" should be the analogous algebraic data that encodes the [[worldsheet]] theory of a [[superstring]] propagating on a [[target space]] geometry which is a generalization of [[Riemannian geometry]] with ([[twisted string structure]]) [[string structure]].
@@ -47,7 +47,7 @@ Now, since there is information lost in passing from a stringy "2-spectral tripl
 
 In view of this, it is noteworthy that the spectral triple of the [[Connes-Lott-Chamseddine model]] shares a few key properties with the 2d SCFTs considered in [[string phenomenology]].
 
-The [[Connes-Lott-Chamseddine model]] is an encoding in a spectral triple of the [[standard model of particle physics]] coupled to [[gravity]] realized as a kind of spectral [[Kaluza-Klein compactification]] on an non-commutative fiber space down to ordinary 4d [[Minkowski spacetime]] (or possibly its [[Wick rotation|Wick rotated]] Euclidean version). In order for this to work out, it turns out that the compactified non-commutative fiber space needs to have [[KO-dimension]] equal to $6$. (Here the fiber space is classically just a ("non-commutative") point, but it appears as the singular collapsing limit of a space of finite dimension. This actual dimension is the [[KO-dimension]].)
+The [[Connes-Lott-Chamseddine model]] is an encoding in a spectral triple of the [[standard model of particle physics]] coupled to [[gravity]] realized as a kind of spectral [[Kaluza-Klein compactification]] on a non-commutative fiber space down to ordinary 4d [[Minkowski spacetime]] (or possibly its [[Wick rotation|Wick rotated]] Euclidean version). In order for this to work out, it turns out that the compactified non-commutative fiber space needs to have [[KO-dimension]] equal to $6$. (Here the fiber space is classically just a ("non-commutative") point, but it appears as the singular collapsing limit of a space of finite dimension. This actual dimension is the [[KO-dimension]].)
 
 Hence the claim of the [[Connes-Lott-Chamseddine model]] is that if the standard model is encoded as a singular limit of a [[Kaluza-Klein compactification]] modeled via a [[spectral triple]] then the dimensions of the KK-compactification are
 
@@ -57,7 +57,7 @@ $$
 
 with 4-dimensional base space and 6-dimensional fiber space, to a total of a 10-dimensional [[spacetime]] at high energy (after uncompactification of the fiber). 
 
-This, of course, is precisely the dimensionality of the target spacetime of the critical [[superstring]]. Algebraically, this arises from the fact that the [[BRST complex]] for the [[superstring]] [[worldsheet]] theory is consistent (has BRST differential squaring to 0) precisely if the corresponding [[2d SCFT]] has conformal [[central charge]] 15, and each spacetime dimension contributes $1 \tfrac{1}{2}$ to this centralcharge (a contribution of 1 from each bosonic direction, and another $\tfrac{1}{2}$ for the corresponding fermionic contribution).
+This, of course, is precisely the dimensionality of the target spacetime of the critical [[superstring]]. Algebraically, this arises from the fact that the [[BRST complex]] for the [[superstring]] [[worldsheet]] theory is consistent (has BRST differential squaring to 0) precisely if the corresponding [[2d SCFT]] has conformal [[central charge]] 15, and each spacetime dimension contributes $1 \tfrac{1}{2}$ to this central charge (a contribution of 1 from each bosonic direction, and another $\tfrac{1}{2}$ for the corresponding fermionic contribution).
 
 
 
