@@ -150,3 +150,13 @@ See also [MO/180673](http://mathoverflow.net/questions/180673/category-of-module
 [[!redirects monoid object in a monoidal category]]
 [[!redirects monoid objects in a monoidal category]]
 [[!redirects monoid objects in monoidal categories]]
+
+
+[[!redirects monoid object]]
+[[!redirects monoid objects]]
+[[!redirects internal monoid]]
+[[!redirects internal monoids]]
+
+[[!redirects algebra object]]
+[[!redirects algebra objects]]
+
