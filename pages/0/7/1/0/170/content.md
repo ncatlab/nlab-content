@@ -37,7 +37,7 @@ That the 0-mode sector of a [[2d SCFT]] -- hence the quantum point [[particle]] 
 
 Here the role of the [[Dirac operator]] of the spectral triple is played by the [[Dirac-Ramond operator]] of the [[superstring]], hence the operator whose [[index]] (in the [[large volume limit]]) is the [[Witten genus]]. 
 
-That hence the superstring quantum theory should be regarded as a kind of higher spectral triple was maybe first suggested in ([Chamsedding 97](#Chamsedding97)), together with arguments that the associated [[spectral action]] indeed reproduces the [[action functional]] of the string's [[target space]] [[effective quantum field theory|effective]] [[supergravity]] theory. An exposition of this perspective is in ([Fr&#246;hlich-Grandjean-Recknagel 97, section 7.2](#Fr&#246;hlichGrandjeanRecknagel97)).
+That hence the superstring quantum theory should be regarded as a kind of higher spectral triple was maybe first suggested in ([Chamseddine 97](#Chamseddine97)), together with arguments that the associated [[spectral action]] indeed reproduces the [[action functional]] of the string's [[target space]] [[effective quantum field theory|effective]] [[supergravity]] theory. An exposition of this perspective is in ([Fr&#246;hlich-Grandjean-Recknagel 97, section 7.2](#FroehlichGrandjeanRecknagel97)).
 
 Later it was shown more formally ([Roggenkamp-Wendland 03](#RoggenkampWendland03)), reviewed in ([Roggenkamp-Wendland 08](#RoggenkampWendland08)), that there is a precise algebraically formalization of taking the "point particle limit" of a quantum string, by sending its [[vertex operator algebra]] to a spectral triple obtained by suitably retaining only [[worldsheet]] 0-modes.
 
@@ -86,11 +86,11 @@ An early observation that the 0-mode sector of a [[2d SCFT]] is a [[spectral tri
 
 The suggestion to understand, conversely, the [[string theory|string]]'s [[worldvolume]] [[2d SCFT]] as a higher spectral triple is due to
 
-*  {#Chamsedding97} [[Ali Chamseddine]], _An Effective Superstring Spectral Action_, Phys.Rev. D56 (1997) 3555-3567 ([arXiv:hep-th/9705153](http://arxiv.org/abs/hep-th/9705153)),
+*  {#Chamseddine97} [[Ali Chamseddine]], _An Effective Superstring Spectral Action_, Phys.Rev. D56 (1997) 3555-3567 ([arXiv:hep-th/9705153](http://arxiv.org/abs/hep-th/9705153)),
 
 which claims to show that the corresponding [[spectral action]] reproduces the correct effective background action known in [[string theory]]. A more expository account of this perspective is in
 
-* {#Fr&#246;hlichGrandjeanRecknagel97} [[Jürg Fröhlich]], Oliver Grandjean, [[Andreas Recknagel]], section 7 of _Supersymmetric quantum theory, non-commutative geometry, and gravitation_  Lecture Notes Les Houches (1995) ([arXiv:hep-th/9706132](http://arxiv.org/abs/hep-th/9706132)).
+* {#FroehlichGrandjeanRecknagel97} [[Jürg Fröhlich]], Oliver Grandjean, [[Andreas Recknagel]], section 7 of _Supersymmetric quantum theory, non-commutative geometry, and gravitation_  Lecture Notes Les Houches (1995) ([arXiv:hep-th/9706132](http://arxiv.org/abs/hep-th/9706132)).
 
 
 A more formal derivation of how ordinary [[spectral triples]] arise as point particle limits of [[vertex operator algebra]]s for [[2d SCFTs]] then appears in
