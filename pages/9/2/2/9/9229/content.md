@@ -37,6 +37,8 @@ Holomorphic CS may be understood in terms of a nonabelian version of the _[[beta
 
 ## Related concepts
 
+* [[semi-holomorphic 4d Chern-Simons theory]]
+
 * [[Chern-Simons theory]]
 
 * [[Chern-Simons theory with complex gauge group]]
