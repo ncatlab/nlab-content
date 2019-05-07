@@ -302,8 +302,14 @@ Discussion of the string Lie 2-algebra as the homotopy fiber of the underlying 3
 
 and example 3.5.4 in 
 
-* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:L-∞ algebras of local observables from higher prequantum bundles]]_ ([arXiv:1304.6292](http://arxiv.org/abs/1304.6292))
- {#FiorenzaRogersSchreiber13}
+* {#FiorenzaRogersSchreiber13} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:L-∞ algebras of local observables from higher prequantum bundles]]_ ([arXiv:1304.6292](http://arxiv.org/abs/1304.6292))
+
+
+
+
+More on this in
+
+* {#Schmidt19} [[Lennart Schmidt]], _Twisted Weil Algebras for the String Lie 2-Algebra_, in [[Christian Saemann]], [[Urs Schreiber]], [[Martin Wolf]] (eds.) _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html)_ [Durham Symposium](http://www.maths.dur.ac.uk/lms/) 2018, Fortschritte der Physik 2019 ([arXiv:1903.02873](https://arxiv.org/abs/1903.02873))
 
 
 [[!redirects string Lie 2-algebra]]
