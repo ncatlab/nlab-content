@@ -737,6 +737,7 @@ But there are also [[physical systems]] that one can set up in a laboratory expe
 
   * [[3d Chern-Simons theory]]
 
+  * [[4d Chern-Simons theory]]
 
   * [[5d Chern-Simons theory]]
 
@@ -748,11 +749,14 @@ But there are also [[physical systems]] that one can set up in a laboratory expe
 
   * [[infinite-dimensional Chern-Simons theory]]
 
+* [[holomorphic Chern-Simons theory]]
+
+  * [[semi-holomorphic 4d Chern-Simons theory]]
+
 * [[Chern-Simons theory with complex gauge group]]
 
 * [[analytically continued Chern-Simons theory]]
 
-* [[holomorphic Chern-Simons theory]]
 
 * [[sigma-model]]
 
