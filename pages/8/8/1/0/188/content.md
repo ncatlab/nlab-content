@@ -194,10 +194,3 @@ Exposition of basics of [[monoidal categories]] and [[categorical algebra]]:
 [[!redirects monoid]]
 [[!redirects monoids]]
 
-[[!redirects monoid object]]
-[[!redirects monoid objects]]
-[[!redirects internal monoid]]
-[[!redirects internal monoids]]
-
-[[!redirects algebra object]]
-[[!redirects algebra objects]]
