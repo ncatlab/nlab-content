@@ -168,9 +168,9 @@ A partial binary operation $\ominus$ on a poset $(P, \leq)$ is called a _differe
 
 (2) $b \ominus a \leq b$,
 
-(2) $b \ominus (b \ominus a) = b$,
+(3) $b \ominus (b \ominus a) = a$,
 
-(3) if $a \leq b \leq c$ implies that $c \ominus b \leq c \ominus a$ and $(c \ominus a) \ominus (c \ominus  b) = b \ominus a$.
+(4) if $a \leq b \leq c$ implies that $c \ominus b \leq c \ominus a$ and $(c \ominus a) \ominus (c \ominus  b) = b \ominus a$.
 
 A _D-poset_ is a poset $(P, \leq, \ominus, 1)$ with a difference operation and greatest element $1 \in P$.
 =--
