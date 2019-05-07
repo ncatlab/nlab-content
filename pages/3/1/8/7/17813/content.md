@@ -250,7 +250,7 @@ Acordingly, this is now called the _[[Green-Schwarz action functional]]_.
 
 | [[action functional]] for [[superstring]] | manifest [[supersymmetry]] |
 |----|---|
-| [Neveu-Ramond-Schwarz super-string]] | on [[worldsheet]]  |
+| [[Neveu-Ramond-Schwarz super-string]] | on [[worldsheet]]  |
 | Green-Schwarz super-string | on [[target space|target]] [[spacetime]] |
 
 The basic idea is to pass to the evident [[supergeometry|supergeometric]] analogue of the bosonic string action:
