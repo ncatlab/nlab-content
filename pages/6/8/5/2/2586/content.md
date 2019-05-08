@@ -7,12 +7,17 @@
 +-- {: .hide}
 [[!include higher spin geometry - contents]]
 =--
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
 #### Higher Lie theory
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
 =--
 =--
+
 
 
 
@@ -277,6 +282,8 @@ The [[Whitehead tower]] of the [[orthogonal group]] looks like
 $\cdots \to$ [[fivebrane group]] $\to$ [[string group]] $\to$ **spin group** $\to$ [[special orthogonal group]] $\to$ [[orthogonal group]].
 
 Another extension of $SO$ is the [[spin^c group]].
+
+* [[semi-spin group]]
 
 [[!include table of orthogonal groups and related]]
 
