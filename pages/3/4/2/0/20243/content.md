@@ -596,6 +596,9 @@ and possibly with the $\mathbb{Z}_2$-quotient not made explicit:
 [[!redirects Sp(1)Sp(1)Sp(1)]]
 [[!redirects Sp(1).Sp(1).Sp(1)]]
 
+[[!redirects central product spin group]]
+[[!redirects central product spin groups]]
+
 [[!redirects Spin(n).Spin(m)]]
 
 [[!redirects Spin(n1).Spin(n2)]]
