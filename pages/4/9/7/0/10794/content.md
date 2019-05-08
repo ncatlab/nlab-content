@@ -20,6 +20,16 @@ establishes a contravariant equivalence
 from the category of coherent spaces
 to the category of (bounded) [[distributive lattices]].
 
+A coherent space is Hausdorff if and only if it is a [[Stone space]].
+Under Stone duality for coherent spaces,
+this corresponds to the fact that in a [[distributive lattice]] $L$
+every element has a complement if and only if $L$ is a [[Boolean algebra]].
+
+In particular, restricting the Stone duality equivalence between
+coherent spaces and distributive lattices
+to Stone spaces and Boolean algebras
+recovers the classical Stone duality.
+
 ## Coherent locales
 
 A [[locale]] is coherent if its compact elements
@@ -40,6 +50,8 @@ unlike the point-set version above.
 ## References
 
 * [[Peter Johnstone]], _[[Stone Spaces]]_.
+
+* [[Max Dickmann]], [[Niels Schwartz]], [[Marcus Tressl]], _Spectral Spaces_. New Mathematical Monographs 35 (2019).  Cambridge: Cambridge University Press. ISBN 9781107146723.
 
 * Wikipedia, _[Spectral space](http://en.wikipedia.org/wiki/Spectral_space)_
 
