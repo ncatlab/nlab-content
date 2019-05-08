@@ -46,6 +46,19 @@ $$
 
 This means that all the way up to the 15 [[coskeleton]] the group $E_8$ looks, [[homotopy theory|homotopy theoretically]] like the [[Eilenberg-MacLane space]] $K(\mathbb{Z},3) \simeq B^3 \mathbb{Z} \simeq B^2 U(1) \simeq B \mathbb{C}P^\infty$.
 
+### Subgroups
+  {#Subgroups}
+
+The [[subgroup]] of the [[exceptional Lie group]] [[E8]] which corresponds to the [[Lie algebra]]-inclusion $\mathfrak{so}(16) \hookrightarrow \mathfrak{e}_8$ is the [[semi-spin group]] [[SemiSpin(16)]]
+
+$$
+  SemiSpin(16)
+  \;\subset\;
+  E_8
+$$
+
+On the other hand, the [[special orthogonal group]] $SO(16)$ is _not_ a [[subgroup]] of $E_8$ (e.g. [McInnes 99a, p. 11](SemiSpin16#McInnes99a)).
+
 ### Invariant polynomials
 
 By the above discussion of homotopy groups, it follows (by [[Chern-Weil theory]]) that the first [[invariant polynomials]] on the [[Lie algebra]] $\mathfrak{e}_8$ are the quadratic [[Killing form]] and then next an octic polynomial. That is described in ([Cederwall-Palmkvist](#CederwallPalmkvist)).
