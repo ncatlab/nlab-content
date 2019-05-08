@@ -106,6 +106,18 @@ $$
 where "[[FinSet]]" is the [[category]] of [[finite sets]], "$Ind$" stands for [[ind-objects]], "$Pro$" for [[pro-objects]] and ${}^{op}$ for the [[opposite category]] and the [[equivalence of categories|equivalence]] $FinSet^{op} \simeq FinBool$ is that discussed at _[FinSet -- Opposite category](FinSet#OppositeCategory)_.
 
 
+### Stonean spaces and complete Boolean algebras
+
+The [[category]] of [[Stonean spaces]],
+i.e., compact [[extremally disconnected]] Hausdorff topological spaces
+equipped with open continuous maps as morphisms,
+is contravariantly equivalent to the category
+of [[complete Boolean algebras]] and continuous Boolean homomorphisms
+as morphisms.
+
+See [[complete Boolean algebra]] for more information.
+
+
 ### Profinite algebras
 
 If $T$ is a [[Lawvere theory]] on $Set$, we can talk about *Stone $T$-algebras*, i.e. $T$-algebras with a compatible Stone topology, and compare the resulting category $T Alg(Stone)$ with the category $Pro(Fin T Alg)$ of pro-(finite $T$-algebras).  The previous duality says that these categories are equivalent when $T$ is the identity theory.  It is also true in many other cases, such as:
