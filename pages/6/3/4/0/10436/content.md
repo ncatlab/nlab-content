@@ -218,7 +218,11 @@ Another unwinding to ordinary mathematical language of the above [code](#Favonia
 
 * {#Rezk14} [[Charles Rezk]], _Proof of the Blakers-Massey theorem_, 2014 [pdf](http://www.math.uiuc.edu/~rezk/freudenthal-and-blakers-massey.pdf).
 
-prompted by online discussion [here](https://plus.google.com/+UrsSchreiber/posts/Zzjd8KM7K5s).
+prompted by online discussion at
+
+*  {#Schreiber14} [[Urs Schreiber]], _Explaining the point of HoTT on FOM_, Google+ thread 2014-10-22 ([archived version](https://github.com/DavidMichaelRoberts/Sandbox/blob/master/Schreiber_Gplus_post.md))
+
+(scroll down a fair bit through the list of replies there to see the exchange between [[Charles Rezk]] and [[Favonia]]).
 
 Further developments along these lines are in
 
