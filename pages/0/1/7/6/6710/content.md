@@ -23,7 +23,7 @@
 
 ### Topological
 
-For $n \in \mathbb{N}$ the [[Lie group]] [[spin^c]] is a [[central extension]] 
+For $n \in \mathbb{N}$ the [[Lie group]] [[spin^c|spin<sup><i>c</i></sup>]] is a [[central extension]] 
 
 $$
   U(1) \to Spin^c(n) \to SO(n)
@@ -70,7 +70,7 @@ $$
   \,.
 $$
 
-If the class does not vanish and if hence there is no $Spin^c$-structure, it still makes sense to discuss the structure that remains as _[[twisted spin^c structure]]_ . 
+If the class does not vanish and if hence there is no $Spin^c$-structure, it still makes sense to discuss the structure that remains as _[[twisted spin^c structure|twisted spin<sup><i>c</i></sup> structure]]_ . 
 
 
 ### Smooth
@@ -105,7 +105,7 @@ $$
 
 In parallel to the existence of [higher spin structures](spin+structure#Higher) there are higher analogs of $Spin^c$-structures, related to [[quantum anomaly]] cancellation of theories of higher dimensional [[branes]].
 
-* [[string^c structure]]
+* [[string^c structure|string<sup><i>c</i></sup> structure]]
 
 
 
@@ -278,7 +278,7 @@ For $X$ an [[orientation|oriented]] [[manifold]], the map $X \to \ast$ is [[orie
 
 Let $(X,\omega)$ be a [[compact topological space|compact]] [[symplectic manifold]] equipped with a [[Kähler polarization]] $\mathcal{P}$ hence a [[Kähler manifold]] structure $J$. A [[metaplectic structure]] of this data is a choice of square root $\sqrt{\Omega^{0,n}}$ of the [[canonical line bundle]]. This is equivalently a [[spin structure]] on $X$ (see the discussion at _[[Theta characteristic]]_).
 
-Now given a [[prequantum line bundle]] $L_\omega$, in this case the [Dolbault quantization](geometric+quantization#IndexOfDolbeaultDiracOperator) of $L_\omega$ coincides with the [[spin^c quantization]] of the [[spin^c structure]] induced by $J$ and $L_\omega \otimes \sqrt{\Omega^{0,n}}$.
+Now given a [[prequantum line bundle]] $L_\omega$, in this case the [Dolbault quantization](geometric+quantization#IndexOfDolbeaultDiracOperator) of $L_\omega$ coincides with the [[spin^c quantization|spin<sup><i>c</i></sup> quantization]] of the [[spin^c structure|spin<sup><i>c</i></sup> structure]] induced by $J$ and $L_\omega \otimes \sqrt{\Omega^{0,n}}$.
 
 This appears as ([Paradan 09, prop. 2.2](#Paradan09)).
 
@@ -354,7 +354,7 @@ is the corresponding $Spin^c$-structure.
 
 ## Related concepts
 
-* [[spin^c]]
+* [[spin^c|spin<sup><i>c</i></sup>]]
 
 * [[twisted differential c-structures|(twisted, differential) c-structures]]
 
@@ -362,19 +362,19 @@ is the corresponding $Spin^c$-structure.
 
   * [[spin structure]], [[twisted spin structure]], [[differential spin structure]]
 
-    **$spin^c$ structure**, [[twisted spin^c structure]],
+    **$spin^c$ structure**, [[twisted spin^c structure|twisted spin<sup><i>c</i></sup> structure]],
 
     [[K-orientation]]
 
-    [[Spin^c Dirac operator]]
+    [[Spin^c Dirac operator|Spin<sup><i>c</i></sup> Dirac operator]]
 
   * [[string structure]], [[twisted differential string structure]],
 
-  * [[string^c 2-group]], [[string^c structure]]
+  * [[string^c 2-group|string<sup><i>c</i></sup> 2-group]], [[string^c structure|string<sup><i>c</i></sup> structure]]
 
   * [[fivebrane structure]], [[twisted differential fivebrane structure]]
 
-* [[spin^c quantization]]
+* [[spin^c quantization|spin<sup><i>c</i></sup> quantization]]
 
 
 ## References
@@ -399,7 +399,7 @@ That the $U(1)$-[[gauge field]] on a [[D-brane]] in [[type II string theory]] in
 
 * [[Edward Witten]], _Baryons and Branes In Anti de Sitter Space_, JHEP 9807:006 (1998) ([arXiv:hep-th/9805112](http://arxiv.org/abs/hep-th/9912086)).
 
-The [[twisted spin^c structure]] (see there for more details) on the [[worldvolume]] of [[D-branes]] in the presence of a nontrivial [[B-field]] was discussed in
+The [[twisted spin^c structure|twisted spin<sup><i>c</i></sup> structure]] (see there for more details) on the [[worldvolume]] of [[D-branes]] in the presence of a nontrivial [[B-field]] was discussed in
 
 * [[Daniel Freed]], [[Edward Witten]], _Anomalies in String Theory with D-Branes_ ([arXiv:hep-th/9907189](http://arxiv.org/abs/hep-th/9907189))
 
