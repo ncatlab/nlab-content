@@ -39,7 +39,7 @@ Category theorists care about proper classes because many examples of categories
 ## Category of classes
 
 The [[category]] of classes $Class$ is a [[large category]] that is not [[locally small]].
-It admits all [[colimits]], understood in the following sense.
+It admits all small [[colimits]], understood in the following sense.
 
 First, given a class $I$, we define an $I$-indexed family of classes
 as a map of classes $f:T\to I$.
@@ -56,10 +56,10 @@ We now claim that an arbitrary $I$-indexed diagram of classes admits a [[colimit
 First, the standard reduction of $I$-indexed [[colimits]]
 to a [[coequalizer]] of a pair of arrows between coproducts indexed by $Mor(I)$ and $Ob(I)$
 still works in this context since class-indexed families of classes can be pulled back
-along source and target maps $Mor(I)\to Ob(I)$.
+along source and target maps $Mor(I)\to Ob(I)$. 
 
 Secondly, class-indexed coproducts of classes can be computed simply by taking
-the total class of the corresponding class-indexed family of classes.
+the total class of the corresponding class-indexed family of classes. 
 
 Thirdly, [[coequalizers]] of classes exist by [[Scott's trick]].
 Observe that given a pair of arrows $f,g:X\to Y$ between classes,
@@ -72,6 +72,10 @@ The quotient of $Y$ by this equivalence relation exists by [[Scott's trick]]
 and is precisely the desired coequalizer.
 
 
+If one is working in the category of (definable) classes for [[ZF]] or [[ZFC]], or the category of classes of [[NBG]], then all finite _external_ diagrams $D\to Class$ have colimits.
+The reduction to a coequaliser of a pair of finite coproducts works as per usual.
+_Finite_ coproducts exist as one can use finite disjunctions of the defining formulas (in ZF(C)) or Class Separation (in NBG) to define a new class.
+Coequalisers then exist by the above argument, as [[Scott's trick]] is available due to the class $V$ of sets having well-founded stratifications by sets (for instance the von Neumann [[cumulative hierarchy]] $V = \bigcup_{\alpha\in ORD} V_\alpha).
 
 ## References
 
