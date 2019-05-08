@@ -106,6 +106,8 @@ See also at _[[torsion constraints in supergravity]]_.
 
 ## Related concepts
 
+* [[SemiSpin(16)]], [[SemiSpin(32)]]
+
 * [[E-string]]
 
 * [[string theory]]
