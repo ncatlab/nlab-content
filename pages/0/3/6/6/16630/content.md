@@ -52,7 +52,7 @@ The [[volume conjecture]] for the [[Reshetikhin-Turaev construction]] states tha
 
 * {#Neumann04} [[Walter Neumann]], _Extended Bloch group and the Cheeger-Chern-Simons class_, Geom. Topol. 8 (2004) 413-474 ([arXiv:math/0307092](http://arxiv.org/abs/math/0307092))
 
-* {#Neumann11} [[Walter Neumann]], _Realizing arithmetic invariants of hyperbolic 3-manifolds_, Contemporary Math 541 (Amer. Math. Soc. 2011), 233--246 ([arXiv:1108.0062](http://arxiv.org/abs/1108.0062))
+* {#Neumann11} [[Walter Neumann]], _Realizing arithmetic invariants of hyperbolic 3-manifolds_, Contemporary Math 541, Amer. Math. Soc. 2011, 233--246 ([arXiv:1108.0062](http://arxiv.org/abs/1108.0062))
 
 Relation to the [[volume conjecture]] is discussed in 
 
