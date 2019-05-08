@@ -36,7 +36,7 @@ In [[type theory]], regarding [[propositions as types]], a [[proof]] of a [[prop
 
 An exposition is in 
 
-* [[Robert Harper]], _The Holy Trinity_ (2011) ([web](http://existentialtype.wordpress.com/2011/03/27/the-holy-trinity/)) 
+* [[Robert Harper]], _The Holy Trinity_ (2011) ([web](http://existentialtype.wordpress.com/2011/03/27/the-holy-trinity/), [wayback machine snapshot](https://web.archive.org/web/20170921012554/http://existentialtype.wordpress.com/2011/03/27/the-holy-trinity/)) 
  {#Harper}
 
 That [[Martin-Löf dependent type theory]] can be regarded also as a [[functional programming language]] by identifying proofs as programs was stressed in
