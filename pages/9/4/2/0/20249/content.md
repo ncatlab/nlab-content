@@ -14,8 +14,8 @@
 
 see also 
 
-* [[SemiSpin(16)]]
+* [[SemiSpin(16)]], [[SemiSpin(32)]]
 
-* [[Sp(n).Sp(1)]]
+* [[Spin(5).Spin(3)]]
 
 * [[finite rotation groups]]
