@@ -11,9 +11,16 @@
 
 ## Related $n$Lab entries
 
-  * [[semi-spin group]], [[Spin(n1).Spin(n2)]]
+* [[semi-spin group]]
 
-  * [[heterotic string theory]]/[[Green-Schwarz anomaly cancellation]]
+  * [[SemiSpin(16)]]
+
+  * [[SemiSpin(32)]]
+
+
+* [[Spin(n1).Spin(n2)]]
+
+* [[heterotic string theory]]/[[Green-Schwarz anomaly cancellation]]
 
 
 category: people
