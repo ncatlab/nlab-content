@@ -103,6 +103,10 @@ Accordingly, the review [Coley 18, section 3.5](#Coley18) of [[mathematical phys
 
 > An important open question in cosmology is whether averaging of inhomogeneities can lead to significant backreaction effects on very large scales. (p. 28)
 
+Similarly in [Huang-Gao-Xu 19, p. 2](#HuangGaoXu19):
+
+> The lack of solid proof $[...]$ is a more serious concern.
+
 
 Indeed, [Smoller-Temple-Vogler 14](#SmollerTempleVogler14) claim an analytic solution which does exhibit inhomogeneity effects mimicking dark energy (see [above](#AbstractSmollerTempleVogler14)) and a similar conclusion is claimed in [Sarkar et al. 18](#SarkarEtAl18) (see [above](#SarkarFlowQuote)).  Also relativistic numerical simulation, albeit in their infancy, seem to exhibit noticeable backreaction (see [above](#NumericalSimulation)).
 
@@ -169,6 +173,7 @@ However, this may be over-interpreting the realism of these simple models. Accor
 
 * {#Coley18} [[Alan Coley]], section 3.5 of _Mathematical General Relativity_ ([arXiv:1807.08628](https://arxiv.org/abs/1807.08628))
 
+* {#HuangGaoXu19} Zhiqi Huang, Han Gao, Haoting Xu, _Revisiting Ryskin's Model of Cosmic Acceleration_ ([arXiv:1905.02441](https://arxiv.org/abs/1905.02441))
 
 
 See also 
