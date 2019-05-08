@@ -68,6 +68,7 @@ $$
 This leads to the $SU(5)$-GUT due to [Pati-Salam 74](#PatiSalam74)
 
 ### The $Spin(10)$-GUT (known as "$SO(10)$")
+ {#TheGUTKnownAsSO10}
 
 There is a further inclusion $SU(5) \hookrightarrow Spin(10)$ into the [[spin group]] in 10 (Euclidean) dimensions (still a [[simple Lie group]]), and one [[generation of fundamental particles]] regarded as an $SU(5)$-[[representation]] $\Lambda \mathbb{C}^5$ as [above](#IdeaofSU5GUT) extends to a [[spin representation]] (see [Baez-Huerta 09, theorem 2](#BaezHuerta09)). This has the aesthetically pleasing effect that under this identification the 1-generation rep $V_{SM}$ is now identified as
 
