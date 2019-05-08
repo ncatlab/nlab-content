@@ -98,6 +98,8 @@ $$
 
 =--
 
+([McInnes 99a, p. 9](#McInnes99a), [Hilgert-Neeb 12, Prop. 17.3.1](#HilgertNeeb12))
+
 Sometimes one sees the notation further generalized to include cases such as
 
 * $Spin(n) \cdot U(1) \simeq Spin(n)\cdot Spin(2) \simeq$ [[Spin^c]],
@@ -525,7 +527,7 @@ See also the references at _[[quaternion-Kähler manifold]]_.
 
 ### $Spin(n_1)\cdot Spin(n_2)$
 
-The dot notation for general sping groups, $Spin(n_1)\cdot Spin(n_2)$, appears in
+A textbook occurrence of dot notation for general spin groups, $Spin(n_1)\cdot Spin(n_2)$, appears in
 
 * {#HilgertNeeb12} Joachim Hilgert, [[Karl-Hermann Neeb]], Prop. 17.3.1 _Structure and Geometry of Lie Groups_, Springer Monographs in Mathematics, Springer-Verlag New York, 2012 ([doi:10.1007/978-0-387-84794-8](https://link.springer.com/book/10.1007/978-0-387-84794-8))
 
@@ -533,6 +535,17 @@ The dot notation for general sping groups, $Spin(n_1)\cdot Spin(n_2)$, appears i
 The identification of $Spin \dot Spin(2)$ with [[Spin^c]] appears for instance in
 
 * {#Gompf97} [[Robert Gompf]], _$Spin^c$ structures and homotopy equivalences_, Geom. Topol. 1 (1997) 41-50 ([arXiv:math/9705218](https://arxiv.org/abs/math/9705218))
+
+Discussion of central product spin groups as [[subgroups]] of [[semi-spin groups]] (motivated by analysis of the [[gauge groups]] and [[Green-Schwarz anomaly cancellation]] of [[heterotic string theory]]) is in
+
+* {#McInnes99a} [[Brett McInnes]], p. 9 of _The Semispin Groups in String Theory_, J. Math. Phys. 40:4699-4712, 1999 ([arXiv:hep-th/9906059](https://arxiv.org/abs/hep-th/9906059))
+
+* {#McInnes99b} [[Brett McInnes]], _Gauge Spinors and String Duality_,  Nucl. Phys. B577:439-460, 2000 ([arXiv:hep-th/9910100](https://arxiv.org/abs/hep-th/9910100))
+
+As such these also appear as [[U-duality groups]] and their [[subgroups]], e.g.
+
+* [[Arjan Keurentjes]], p. 10 of _The topology of U-duality (sub-)groups_, Class.Quant.Grav. 21 (2004) 1695-1708 ([arXiv:hep-th/0309106](https://arxiv.org/abs/hep-th/0309106))
+
 
 ### $Sp(1)Sp(1)Sp(1) \simeq Spin(4)\cdot Spin(3) $
  {#ReferencesSpin4Spin3}
