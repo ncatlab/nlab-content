@@ -1,7 +1,7 @@
 
 **[[rotation groups]] in [[low-dimensional topology|low]] [[dimensions]]**:
 
-| [[special orthogonal group|sp. orth. group]] | [[spin group]] | [[pin group]] | 
+| [[special orthogonal group|sp. orth. group]] | [[spin group]] | [[pin group]] |
 |------------------------------|----------------|---------------|
 | [[SO(2)]] | [[Spin(2)]] |  [[Pin(2)]] | 
 | [[SO(3)]] | [[Spin(3)]] |             |
@@ -13,6 +13,8 @@
 | [[SO(9)]] | [[Spin(9)]] |             | 
 
 see also 
+
+* [[SemiSpin(16)]]
 
 * [[Sp(n).Sp(1)]]
 
