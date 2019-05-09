@@ -119,10 +119,35 @@ $$
 
 Just as the category of regular [[monoid|monoids]] is equivalent to the category of locally small (i.e. Set-enriched) categories with one object, the category of monoids in $C$ (with the obvious morphisms) is equivalent to the category of $C$-[[enriched category|enriched categories]] with one object.
 
+
+## Properties
+
+### Preservation by lax monoidal functors
+
+Monoid structure is preserved by [[lax monoidal functor]]s. Comonoid structure by [[oplax monoidal functor]]s. See there for more.
+
+### Category of monoids
+
+For special properties of categories of monoids, see [[category of monoids]].
+
+
 ## Examples
 
-A monoid in a [[category of modules]] is an [[associative unital algebra]].
-A monoid in a [[endofunctor|category of endofunctors]] where tensor product is defined by composition, is a [[monad]].
+* A monoid object in [[Ab]] (with the usual tensor product of $\mathbb{Z}$-modules as the tensor product) is a [[ring]].
+ A monoid object in the category of vector spaces over a field $k$ (with the usual tensor product of vector spaces) is an [[algebra]] over $k$.
+* A monoid in a [[category of modules]] is an [[associative unital algebra]].
+* A monoid object in [[Top]] (with cartesian product as the tensor product) is a [[topological monoid]].
+* A monoid object in [[Ho(Top)]] is an [[H-monoid]].
+* A monoid object in the category of monoids (with cartesian product as the tensor product) is a [[commutative monoid]].  This is a version of the [[Eckmann-Hilton argument]].
+* A monoid object in the category of complete join-[[semilattice]]s (with its tensor product that represents maps preserving joins in each variable separately) is a unital [[quantale]].
+* Given any monoidal category $C$, a monoid in the monoidal category $C^{op}$ is called a [[comonoid]] in $C$.
+* In a [[cocartesian monoidal category]], every object is a monoid object in a unique way.
+* For any category $C$, the [[endofunctor]] category $C^C$ has a monoidal structure induced by composition of endofunctors, and a monoid object in $C^C$ is a [[monad]] on $C$.
+
+These are examples of monoids internal to monoidal categories.  More generally, given any [[bicategory]] $B$ and a chosen object $a$, the [[hom-category]] $B(a,a)$ has the structure of a monoidal category.  So, the concept of monoid makes sense in any [[bicategory]] $B$: we define a **monoid in $B$** to be a monoid in $B(a,a)$ for some object $a \in B$.  This often called a [[monad]] in $B$.  The reason is that a monad in [[Cat]] is the same as monad on a category.
+
+A monoid in a bicategory $B$ may also be described as the [[hom-object]] of a $B$-[[enriched category]] with a single object. 
+
 
 ## Related concepts
 
