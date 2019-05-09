@@ -114,7 +114,8 @@ hence are two times the [[cosine]] of a [[rational number|rational]] [[angle]].
 
 This means that for [[cyclic groups]] the statement of Prop. \ref{CharactersAreCyclotomicIntegers} says equivalently that if the [[cosine]] of a [[rational number|rational]] [[angle]] is a [[rational number]], then it is in fact a half-integer
 
-$$
+\[
+  \label{RationalCosineValuesOfRationalAngles}
   cos
   \big(
     2 \pi \tfrac{k}{n}
@@ -141,7 +142,9 @@ $$
   \big\{
      -1, -1/2, 0, +1/2, +1
   \big\}
-$$
+\]
+
+(remember that $k,n \in \mathbb{Z}$)
 
 A direct [[proof]] of this fact, using identities of [[trigonometric functions]], is given in [Jahnel, Sec. 3](#Jahnel).
 
