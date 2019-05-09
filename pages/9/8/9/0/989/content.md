@@ -21,7 +21,7 @@
 For $R$ a [[commutative ring]], an **associative unital $R$-algebra** 
 is equivalently 
 
-* a [[monoid]] [[internalization|internal to]] $R$[[Mod]] equipped with the [[tensor product of modules]] $\otimes$;
+* a [[monoid in a monoidal category|monoid]] [[internalization|internal to]] $R$[[Mod]] equipped with the [[tensor product of modules]] $\otimes$;
 
 * a [[pointed object|pointed]] one-object category [[enriched category|enriched over]] $(R Mod, \otimes)$;
 
@@ -35,7 +35,7 @@ If there is no danger for confusion, one often says simply 'associative algebra'
 
 More generally, a (merely) **associative algebra** need not have $i: R \to V$; that is, it is a [[semigroup]] instead of a monoid.
 
-Less generally, a **[[commutative algebra]]** (where associative and unital are usually assumed) is an [[abelian monoid]] in $Vect$.
+Less generally, a **[[commutative algebra]]** (where associative and unital are usually assumed) is an [[commutative monoid in a symmetric monoidal category]] in $Vect$.
 
 ### Over monoids in a monoidal category
  {#OverMonoidsInAMonoidalCategory}
