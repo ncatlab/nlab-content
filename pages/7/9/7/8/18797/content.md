@@ -1,4 +1,13 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
+=--
+=--
 
 
 #Contents#
@@ -7,7 +16,9 @@
 
 ## Idea
 
-The sine function $\sin$ is one of the basic functions in [[trigonometry]]. It may be thought of as assigning to any [[angle]] the [[distance]] to a chosen axis of the point on the [[unit circle]] with that angle to that axis.
+The sine function $\sin$ is one of the basic [[trigonometric functions]].
+
+It may be thought of as assigning to any [[angle]] the [[distance]] to a chosen axis of the point on the [[unit circle]] with that angle to that axis.
 
 
 ## Definitions
