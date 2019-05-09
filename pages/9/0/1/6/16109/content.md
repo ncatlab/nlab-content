@@ -1,20 +1,96 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
+=--
+=--
+
 # Contents 
 * table of contents
 {: toc} 
 
 ## Idea 
 
-A trigonometric function is one derived from the basic trigonometric functions $\cos$, $\sin$ (cosine and sine), which are the coordinate (or [[product|product projection]]) functions restricted to the unit [[circle]] $S^1 \hookrightarrow \mathbb{R} \times \mathbb{R}$, or rather the result of composing these restrictions with an [[arc length]] parametrization $\mathbb{R} \to S^1$. They are also called _circular functions_. 
+A _trigonometric function_ is one derived from the basic [[functions]] of [[trigonometry]], $\cos$, $\sin$ ([[cosine]] and [[sine]]), which themselves are the standard [[coordinate functions]] (equivalently: [[Cartesian product|product projections]] $pr_i$) of the [[Cartesian space]] $\mathbb{R}^2$, [[restriction|restricted]] to the unit [[circle]]:
 
-In elementary mathematics, there are six traditional trigonometric functions; in addition to $\sin$ and $\cos$ they are the *tangent* $\tan = \frac{\sin}{\cos}$, the *cotangent* $\cot = \frac{\cos}{\sin}$, the *secant* $\sec = \frac1{\cos}$, and the *cosecant* $\csc = \frac1{\sin}$. The early view was that these functions measured the six possible ratios of side lengths of right triangles (as a basic case in terms of which other triangles can be analyzed; "trigonometry" = "triangle measure"). They figure heavily in [[Euclidean geometry]] where the angles of a triangle sum to $180^\circ$; there are more elaborate offshoots such as [[spherical trigonometry]] which was historically important for terrestrial navigation, and then there are the related [[hyperbolic functions]] which result from a projective change of [[conic section]] (from a circle to a hyperbola). 
+$$
+  \array{
+    & 
+    && \mathbb{R}
+    \\
+    &
+    &
+    {}^{\mathllap{cos}}\nearrow
+    & \big\uparrow{}^{ \mathrlap{pr_1} }
+    \\
+    \mathbb{R}
+    \overset{exp}{\longrightarrow}
+    &
+    S^1 
+    &\hookrightarrow&
+    \mathbb{R}^2 
+    &\simeq&
+    \mathbb{R} \times \mathbb{R}
+    \\
+    &
+    & {}_{\mathllap{sin}}\searrow & \big\downarrow{}^{ \mathrlap{pr_2} }
+    \\
+    &
+    && \mathbb{R}
+  }
+  \,,
+$$
+
+or rather the result of [[composition|composing]] these restrictions with an [[arc length]] parametrization $\mathbb{R} \overset{\exp}{\to} S^1$. They are also called _circular functions_. 
+
+In elementary [[mathematics]], there are six traditional trigonometric functions; 
+
+1. [[sine]] $\;$ $sin$
+
+1. [[cosine]] $\;$ $cos$
+
+1. [[tan|tangent]] $\;$ $\tan = \frac{\sin}{\cos}$, 
+
+1. [[cotan|cotangent]] $\;$ $\cot = \frac{\cos}{\sin}$, 
+
+1. [[secant]] $\;$ $\sec = \frac1{\cos}$, 
+
+1. [[cosecant]] $\;$ $\csc = \frac1{\sin}$.
+
+The early view was that these functions measured the six possible [[ratios]] of side [[lengths]] of right [[triangles]] (as a basic case in terms of which other triangles can be analyzed; "trigonometry" = "triangle measure"). 
+
+These six functions figure prominently in [[Euclidean geometry]] where the angles of a triangle sum to [[arc length]] $\pi$. 
+
+There are more elaborate offshoots such as [[spherical trigonometry]] (see [[elliptic geometry]]) which was historically important for terrestrial navigation. Moreover, there are the related [[hyperbolic functions]] (see [[hyperbolic geometry]]) which result from a projective change of [[conic section]] (from a circle to a [[hyperbola]]). 
 
 ## Definition 
 
-The most useful modern approach to $\cos$, $\sin$ comes from taking [[Euler's formula]] as a working definition. Let $\exp: \mathbb{C} \to \mathbb{C}^\ast$ be the [[complex number|complex]] [[exponential function]], defined by the power series formula 
+The most useful modern approach to [[cos]] and [[sin]] comes from taking [[Euler's formula]] as a working definition:
 
-$$\exp(z) = \sum_{n \geq 0} \frac{z^n}{n!}.$$ 
+Let 
 
-As is well-known, we have some fundamental exponential identities: 
+$$
+  \exp 
+  \;\colon\; 
+  \mathbb{C} 
+    \longrightarrow 
+   \mathbb{C}^\ast
+$$ 
+
+be the [[complex number|complex]] [[exponential function]], defined by the [[exponential]] [[power series]] formula 
+
+$$
+  \exp(z) 
+    \;\coloneqq\; 
+  \sum_{n \geq 0} \frac{z^n}{n!}
+  \,.
+$$ 
+
+These satisfy the following fundamental exponential identities: 
 
 * $\exp(z+w) = \exp(z) \cdot \exp(w)$ ([[homomorphism]] from an additive [[group]] to a multiplicative group), 
 
@@ -65,6 +141,6 @@ There is no question that the trigonometric functions are rich in significance; 
 
 * Wikipedia, _[Trigonometric function](https://en.wikipedia.org/wiki/Trigonometric_functions)_
 
-* Springer [[eom]]: V.I. Bityutskov, [Trigonometric functions](http://www.encyclopediaofmath.org/index.php?title=Trigonometric_functions&oldid=14919)
+* Springer [[eom]]: V.I. Bityutskov, _[Trigonometric functions](http://www.encyclopediaofmath.org/index.php?title=Trigonometric_functions&oldid=14919)_
 
 [[!redirects trigonometric functions]]
