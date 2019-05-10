@@ -5,7 +5,7 @@
 
 ## Idea
 
-A [[trigonometric function]].
+The arccosine, aka the "inverse cosine", is a [[section]] or [[right inverse]] to the cosine function [[cos]], which in turn is one of the [[trigonometric functions]].
 
 ## Related concepts
 
