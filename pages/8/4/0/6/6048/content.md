@@ -172,8 +172,11 @@ around the time when [[M-theory]] became accepted due to
 
 * {#Witten95} [[Edward Witten]], _[[String Theory Dynamics In Various Dimensions]]_ ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
  
+#### Regularization and relation to BFSS
+{#RegularizationReferences}
 
-The regularization of [deWit-Hoppe-Nicolai 88](#deWitHoppeNicolai88) of area-preserveing diffeomorphisms by [[SU(n)|SU(N)]]-matrices and relation of the resulting [[quantization]] of the membrane to  [[BFSS matrix model]] of [[D0-branes]] is further dicussed detail in 
+The proposed regularization, due to [deWit-Hoppe-Nicolai 88](#deWitHoppeNicolai88), of area-preserving diffeomorphisms on the [[membrane]] [[worldvolume]]
+by [[SU(n)|SU(N)]]-matrices and the resulting equivalence of the [[quantization]] of the membrane to the [[BFSS matrix model]] of [[D0-branes]] is reviewed and further dicussed in the following articles:
 
 * {#NicolaiHelling98} [[Hermann Nicolai]], Robert Helling, _Supermembranes and M(atrix) Theory_, In _Trieste 1998, Nonperturbative aspects of strings, branes and supersymmetry_ 29-74 ([arXiv:hep-th/9809103](http://arxiv.org/abs/hep-th/9809103), [spire:476366](http://inspirehep.net/record/476366))
   
