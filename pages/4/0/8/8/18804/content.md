@@ -5,7 +5,11 @@
 
 ## Idea
 
-One of the basic [[functions]] in [[trigonometry]]. The [[ratio]] of the [[sine]] and the [[cosine]]:
+In [[trigonometry]], the _tangent function_ is one of the basic [[trigonometric functions]]. 
+
+## Definition
+
+The tangent function is the [[ratio]] of the [[sine]] and the [[cosine]]:
 
 
 $$
