@@ -465,7 +465,7 @@ $$
   \,.
 $$
 
-Thereofre the stable splitting theorem \ref{StableSplittingOfMappingSpacesOutOfEuclideanSpace} may equivalently be read as expressing the mapping space functor equivalently as the [[limit]] over its [[Goodwillie-Taylor tower]].
+Therefore the stable splitting theorem \ref{StableSplittingOfMappingSpacesOutOfEuclideanSpace} may equivalently be read as expressing the mapping space functor equivalently as the [[limit]] over its [[Goodwillie-Taylor tower]].
 
 ([Arone 99, p. 1-2](#Arone99), [Goodwillie 03, p. 6](#Goodwillie03))
 
