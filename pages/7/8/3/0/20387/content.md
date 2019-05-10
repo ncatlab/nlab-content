@@ -1,5 +1,7 @@
-[[!redirects inverse trigonometric functions]]
 
+#Contents#
+* table of contents
+{:toc}
 
 
 ## Idea
@@ -28,3 +30,5 @@ $$\arcsec(x) = \arccos(\frac1{x}), \qquad \arccsc(x) = \arcsin(\frac1{x}).$$
 
 * [[arctan]]
 
+
+[[!redirects inverse trigonometric functions]]
