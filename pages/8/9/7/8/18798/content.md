@@ -2,12 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Mathematics
+#### Trigonometry
 +-- {: .hide}
-[[!include mathematicscontents]]
+[[!include trigonometry -- contents]]
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
