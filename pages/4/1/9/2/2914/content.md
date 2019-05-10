@@ -200,7 +200,7 @@ The second adjunction is a Quillen equivalence if $Y$ is fibrant.
 
 These adjunctions are Quillen adjunctions because their left (respectively right) adjoints
 are left (respectively right) Quillen functors: in the model structures on
-slice categories (co)fibrations and weak equivalences are created by the forgetful functor to~$A$ or~$B$,
+slice categories (co)fibrations and weak equivalences are created by the forgetful functor to $A$ or $B$,
 see Hirschhorn's note ([Hirschhorn 05](#Hirschhorn05)).
 An object in $A/X$ given by an arrow $Z\to X$ is cofibrant if and only if $Z$ is cofibrant and fibrant if and only if $Z\to X$ is a fibration.
 Quillen's criterion for Quillen equivalences now yields the statements about equivalences.
