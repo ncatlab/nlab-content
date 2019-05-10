@@ -11,8 +11,14 @@
 +--{: .hide}
 [[!include higher geometry - contents]]
 =--
+#### Trigonometry
++-- {: .hide}
+[[!include trigonometry -- contents]]
 =--
 =--
+=--
+
+
 
 # Euclidean spaces
 * table of contents
