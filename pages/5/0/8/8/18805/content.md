@@ -1,7 +1,7 @@
 
-* [[tangent vector]]
+* in [[differential geometry]]: _[[tangent vector]]_
 
-* [[tangent function]]
+* in [[trigonometry]]: _[[tangent function]]_
 
 category: disambiguation
 
