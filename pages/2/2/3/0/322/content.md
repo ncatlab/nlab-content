@@ -513,3 +513,6 @@ See also
 
 [[!redirects colored operad]]
 [[!redirects colored operads]]
+
+[[!redirects substitution product]]
+[[!redirects substitution products]]
