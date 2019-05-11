@@ -183,7 +183,7 @@ $$
     = 
   \left\{
     \array{
-      1 & if i = 0
+      1 & if \; i = 1
       \\
       0 & otherwise 
     }
@@ -194,7 +194,7 @@ $$
     = 
   \left\{
     \array{
-      1 & if i = 0
+      1 & if \; i = 1
       \\
       0 & otherwise 
     }
