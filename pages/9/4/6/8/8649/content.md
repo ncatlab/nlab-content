@@ -47,9 +47,9 @@ The concept is named after
 
 Review is for instance in
 
-* [[Theodore Frankel]], section 16.4e of _[[The Geometry of Physics - An Introduction]]_
+* [[Theodore Frankel]], section 16.4e of _[[The Geometry of Physics - An Introduction]]_ ([doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377))
 
-* L. Mangiarotti, [[Gennadi Sardanashvily]], _Connections in Classical and Quantum Field Theory_, World Scientific, 2000
+* L. Mangiarotti, [[Gennadi Sardanashvily]], _Connections in Classical and Quantum Field Theory_, World Scientific, 2000 ([doi:10.1142/2524](https://doi.org/10.1142/2524))
 
 * [[Daniel Freed]], section 2 of _[[Dirac charge quantization and generalized differential cohomology]]_
 
