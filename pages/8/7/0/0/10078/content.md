@@ -83,9 +83,11 @@ Then it was related to actual worldline quantum field theory in
  
 Reviews include
 
-* {#SchmidtSchubert94} M. G. Schmidt, C. Schubert, _The Worldline Path Integral Approach to Feynman Graphs_ ([arXiv:hep-ph/9412358](http://arxiv.org/abs/hep-ph/9412358))
+* {#SchmidtSchubert94} M. G. Schmidt, Christian Schubert, _The Worldline Path Integral Approach to Feynman Graphs_ ([arXiv:hep-ph/9412358](http://arxiv.org/abs/hep-ph/9412358))
 
 * {#Schubert96} Christian Schubert, _An Introduction to the Worldline Technique for Quantum Field Theory Calculations_, Acta Phys. Polon.B27:3965-4001, 1996 ([arXiv:hep-th/9610108](https://arxiv.org/abs/hep-th/9610108))
+
+* Christian Schubert, _Perturbative Quantum Field Theory in the String-Inspired Formalism_, Phys.Rept. 355 (2001) 73-234 ([arXiv:hep-th/0101036](https://arxiv.org/abs/hep-th/0101036))
 
 Exposition with an eye towards [[quantum gravity]] is in
 
