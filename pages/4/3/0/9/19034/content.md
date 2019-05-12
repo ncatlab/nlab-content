@@ -59,3 +59,10 @@ while the "top-down approach" in [[string phenomenology]] originates with
 [[!redirects top-down model building]]
 
 [[!redirects top-down and bottom-up model building]]
+
+[[!redirects bottom-up model]]
+[[!redirects bottom-up models]]
+
+[[!redirects top-down model]]
+[[!redirects top-down models]]
+
