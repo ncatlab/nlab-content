@@ -182,6 +182,10 @@ Lifts of orientifolds to [[M-theory]] and [[F-theory]] are discussed in
 
 * {#ArgyresMaimonPelland02} Philip C. Argyres, [[Ron Maimon]], Sophie Pelland, _The M theory lift of two O6 planes and four D6 branes_, JHEP 0205 (2002) 008 ([arXiv:hep-th/0204127](https://arxiv.org/abs/hep-th/0204127))
 
+  following
+
+* [[Edward Witten]], _Solutions Of Four-Dimensional Field Theories Via M Theory_, ([arXiv:hep-th/9703166](https://arxiv.org/abs/hep-th/9703166
+
 The MO5 is originally discussed in 
 
 * {#Witten95} [[Edward Witten]], _Five-branes And M-Theory On An Orbifold_, Nucl. Phys. B463:383-397, 1996 ([arXiv:hep-th/9512219](https://arxiv.org/abs/hep-th/9512219))
