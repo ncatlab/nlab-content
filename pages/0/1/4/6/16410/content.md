@@ -37,6 +37,7 @@ $$
 
 
 ## References
+ {#References}
 
 ### In classical gravity
 
@@ -49,9 +50,7 @@ See also
 
 * Wikipedia, _[de Sitter space](http://en.wikipedia.org/wiki/De_Sitter_space)_
 
-A [[no-go theorem]] for [[KK-compactifications]] down to de Sitter spacetime claimed in
 
-* {#MaldacenaNunez01} [[Juan Maldacena]], Carlos Nunez, _Supergravity description of field theories on curved manifolds and a no go theorem_, Int.J.Mod.Phys. A16 (2001) 822-855 ([arXiv:hep-th/0007018](https://arxiv.org/abs/hep-th/0007018))
 
 ### In perturbative quantum gravity
  {#InPerturbativeQuantumGravity}
@@ -85,6 +84,12 @@ Discussion of de Sitter spacetime in [[perturbative quantum gravity]] and its in
 
 
 ### In string/M-theory
+ {#ReferencesInStringTheory}
+
+A [[no-go theorem]] for [[KK-compactifications]] of [[supergravity]] down to de Sitter spacetime is claimed in
+
+* {#MaldacenaNunez01} [[Juan Maldacena]], Carlos Nunez, _Supergravity description of field theories on curved manifolds and a no go theorem_, Int.J.Mod.Phys. A16 (2001) 822-855 ([arXiv:hep-th/0007018](https://arxiv.org/abs/hep-th/0007018))
+
 
 Discussion of de Sitter [[perturbative string theory vacua]] and their role (or not) in the [[landscape of string theory vacua]] includes
 
@@ -130,6 +135,13 @@ Discussion in the context of [[M-theory on G2-manifolds]]:
 
   which suggests that including [[higher curvature corrections]] makes it work
 
+For analogous discussion of embedding of the[[ekpyrotic cosmology]]-scenario into [[string theory]]/[[type IIA supergravity]]:
+
+* {#Uzawa18} [[Kunihito Uzawa]], _No-Go theorems for ekpyrosis from ten-dimensional supergravity_, J. High Energ. Phys. (2018) 2018: 41 ([arXiv:1803.11084](https://arxiv.org/abs/1803.11084), <a href="https://doi.org/10.1007/JHEP06(2018)041">doi:10.1007/JHEP06(2018)041</a>)
+
+  reviewed in:
+
+  Kunihito Uzawa, _Ekpyrotic scenario in string theory_ ([pdf](http://www2.yukawa.kyoto-u.ac.jp/~gc2018/slides/4th/Mar2/Uzawa.pdf))
 
 
 [[!redirects de Sitter spacetimes]]
