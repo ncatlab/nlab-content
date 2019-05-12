@@ -65,6 +65,9 @@ The first such $R^2$ correction leads to the _[[Starobinsky model of cosmic infl
 
 Discussion of inflationary effects of ever higher curvature corrections includes [Arciniega-Edelstein-Jaime 18](#ArciniegaEdelsteinJaime18), [ABCEHJ 18](#ABCEHJ18).
 
+### Ekpyrotic cosmology
+
+See _[[ekpyrotic cosmology]]_.
 
 ## Related concepts
 
