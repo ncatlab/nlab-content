@@ -67,6 +67,9 @@ The collection of all string vacua, possibly subject to some assumptions, has co
 
 [[!redirects perturbative string theory vacua]]
 
+[[!redirects string theory vacuum]]
+[[!redirects string theory vacua]]
+
 [[!redirects string vacuum]]
 [[!redirects string vacua]]
 
