@@ -29,6 +29,8 @@ This page collects material related to the book
 
   Cambridge University Press 2012
 
+  ([doi:10.1017/CBO9781139018951](https://doi.org/10.1017/CBO9781139018951))
+
 on [[string theory phenomenology]], such as via [[intersecting D-brane models]] in [[type II string theory]].
 
 \linebreak
