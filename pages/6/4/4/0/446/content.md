@@ -83,7 +83,7 @@ The [[unit of an adjunction|unit of the adjunction]] $ id_x \leq r^o r $ entails
 
 Any 2-category has a [[bicategory of maps]].  In an allegory, the ordering between maps is discrete, meaning that if $f \leq g$ then $f = g$.  Consequently, the bicategory of maps of an allegory is a [[category]].
 
-A __tabulation__ of a morphism $\phi$ is a pair of maps $f,g$ such that $\phi = g^o f$ and $f^o f \cap g^o g = 1$.  An allegory is **tabular** if every morphism has a tabulation, and **pretabular** if every morphism is contained in one that has a tabulation.
+A __tabulation__ of a morphism $\phi$ is a pair of maps $f,g$ such that $\phi = g f^o$ and $f^o f \cap g^o g = 1$.  An allegory is **tabular** if every morphism has a tabulation, and **pretabular** if every morphism is contained in one that has a tabulation.
 
 Every [[regular category]], and indeed every [[locally regular category]], has a tabular allegory of internal binary relations.  Conversely, by restricting to the morphisms with left adjoints ("maps") in a tabular allegory, we obtain a locally regular category.  These constructions are inverse, so tabular allegories are equivalent to locally regular categories.
 
