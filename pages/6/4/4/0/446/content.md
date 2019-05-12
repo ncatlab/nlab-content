@@ -70,7 +70,7 @@ $$
 
 ## Examples 
 
-* If $C$ is a [[regular category]] and $Rel(C)$ is the [[locally posetal 2-category|locally posetal]]  [[bicategory]] of [[relations]], then $Rel(C)$ is an allegory. 
+* If $C$ is a [[regular category]] and $Rel(C)$ is the [[locally posetal 2-category|locally posetal]]  [[bicategory]] of [[internal relation|internal relations]], then $Rel(C)$ is an allegory. 
 
 * Any [[first-order hyperdoctrine with equality]] similarly gives rise to an allegory, as does any abstract [[bicategory of relations]] in the sense of Carboni-Walters. 
 
