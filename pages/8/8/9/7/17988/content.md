@@ -26,6 +26,9 @@ In the context of [[quantum field theory]] (QFT) the term _asymptotic safety_ ([
 
 A key example of a non-renormalizable QFT is [[Einstein gravity]], and there is speculation that it might be asymptotically safe, and that this might be the solution to the construction of [[quantum gravity]] ([Reuter 96](#Reuter96)).
 
+## Issues
+{#Issues}
+
 Issues that the program of asymptotic safety of gravity is facing include the following:
 
 1. All existing computations that see hints for a UV-fixed point do so by first applying a drastic truncation to the space of couplings, and then checking only whether there is a UV-fixed point for the RG-flow in the remaining small subspace. It seems unclear to which extent these approximate considerations may be extrapolated.
