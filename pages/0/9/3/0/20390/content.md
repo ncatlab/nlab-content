@@ -25,6 +25,8 @@ Just like the [[Randall-Sundrum model]], also the ekpyrotic model is loosely [[s
 
 ## References
 
+### General
+
 The idea was proposed in
 
 * {#KhouryOvrutSteinhardtTurok01} [[Justin Khoury]], [[Burt Ovrut]], [[Paul Steinhardt]], [[Neil Turok]], _The Ekpyrotic Universe: Colliding Branes and the Origin of the Hot Big Bang_, Phys. Rev. D64:123522,2001 ([arXiv:hep-th/0103239](https://arxiv.org/abs/hep-th/0103239))
@@ -39,10 +41,19 @@ See also
 
 * Wikipedia, _[Ekpyrotic universe](https://en.wikipedia.org/wiki/Ekpyrotic_universe)_
 
-Discussion of the (im-)possibility to actually embed the scenario in [[string theory]]:
+### Embedding into string theory
+ {#ReferencesEmbeddingIntoStringTheory}
 
-* {#Uzawa18} Kunihito Uzawa, _No-Go theorems for ekpyrosis from ten-dimensional supergravity_, J. High Energ. Phys. (2018) 2018: 41 ([arXiv:1803.11084](https://arxiv.org/abs/1803.11084), <a href="https://doi.org/10.1007/JHEP06(2018)041">doi:10.1007/JHEP06(2018)041</a>)
+Discussion of [[no-go theorems]] for actually embedding the ekpyrotic scenario in [[string theory]], or at least in [[type IIA supergravity]]:
+
+* {#Uzawa18} [[Kunihito Uzawa]], _No-Go theorems for ekpyrosis from ten-dimensional supergravity_, J. High Energ. Phys. (2018) 2018: 41 ([arXiv:1803.11084](https://arxiv.org/abs/1803.11084), <a href="https://doi.org/10.1007/JHEP06(2018)041">doi:10.1007/JHEP06(2018)041</a>)
 
   reviewed in:
 
   Kunihito Uzawa, _Ekpyrotic scenario in string theory_ ([pdf](http://www2.yukawa.kyoto-u.ac.jp/~gc2018/slides/4th/Mar2/Uzawa.pdf))
+
+This is related to similar discussion of embedding [[de Sitter spacetime|de Sitter]] vacua into [[string theory]], see the references [there](de+Sitter+spacetime#ReferencesInStringTheory).
+
+[[!redirects ekpyrotic cosmologies]]
+
+
