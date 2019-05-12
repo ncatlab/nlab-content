@@ -20,7 +20,7 @@
 
 ## Idea
 
-The _Randall-Sumdrum model_ ([Randall-Sundrum 99a](#RandallSundrum99a), [99b](#RandallSundrum99b)) is a class of [[model (physics)|models]] in combined [[cosmology]] and [[particle physics]], which assume that the [[observable universe]] constitutes the [[asymptotic boundary]] of an ambient [[anti de Sitter spacetime]]: the [[force]] of [[gravity]] would pertain to the full [[anti de Sitter spacetime|anti de sitter]] "[[bulk]]" [[spacetime]], but the [[gauge fields]] and [[fermion field|fermion]] [[matter fields]] would be constrained to reside on that boundary, as would hence be all observations made via [[electromagnetic radiation]] by [[observer]] inside this cosmology.
+The _Randall-Sumdrum model_ ([Randall-Sundrum 99a](#RandallSundrum99a), [99b](#RandallSundrum99b)) is a class of [[string theory inspired model|string theory inspired]] [[model (physics)|models]] in combined [[cosmology]] and [[particle physics]], which assume that the [[observable universe]] constitutes the [[asymptotic boundary]] of an ambient [[anti de Sitter spacetime]]: the [[force]] of [[gravity]] would pertain to the full [[anti de Sitter spacetime|anti de sitter]] "[[bulk]]" [[spacetime]], but the [[gauge fields]] and [[fermion field|fermion]] [[matter fields]] would be constrained to reside on that boundary, as would hence be all observations made via [[electromagnetic radiation]] by [[observer]] inside this cosmology.
 
 Hence the extra [[bulk]] [[dimensions]] in these models need not be small (technically: the [[fiber]] spaces need not be [[compact topological spaces]] with tiny [[Riemannian geometry|Riemannian]] [[volume]]) in order to be unobservable for [[observers]]. This is in contrast to the (historically much older) [[Kaluza-Klein compactification]] models for [[physics]] with extra [[dimensions]]. Therefore Randall-Sumdrum-like models are also referred to as _large extra dimension models_.
 
@@ -37,6 +37,8 @@ For more on this see at _[[intersecting D-brane models]]_ the section _[Cosmolog
 * [[AdS-CFT duality]]
 
 * [[intersecting D-brane model]]
+
+* [[ekpyrotic cosmology]]
 
 * [[standard model of cosmology]]
 
