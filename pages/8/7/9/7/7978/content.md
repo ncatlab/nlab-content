@@ -21,7 +21,7 @@ This page provides a hyperlinked index for the book
 
   Cambridge University Press, 1997, 2004, 2012
 
-  [website](http://www.math.ucsd.edu/~tfrankel/) (with errata and preface for 3rd edition)
+  ([doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377), [website](http://www.math.ucsd.edu/~tfrankel/) with errata and preface for 3rd edition)
 
 on methods of [[differential geometry]] and their meaning and use in [[physics]], especially [[gravity]] and [[gauge theory]].
 
