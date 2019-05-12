@@ -18,6 +18,8 @@
 * table of contents
 {: toc}
 
+## Idea
+
 _Cosmology_ is the study of the [[observable universe]] on its largest [[length scale|scales]].
 
 
@@ -55,9 +57,12 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[length 
 
 * [[Randall-Sundrum model]]
 
+* [intersecting D-brane model cosmology](intersecting+D-brane+model#Cosmology)
+
 * [[brane gas cosmology]]
 
-* [intersecting D-brane model cosmology](intersecting+D-brane+model#Cosmology)
+* [[ekpyrotic cosmology]]
+
 
 * [string theory FAQ -- Does string theory tell us anything about cosmology?](string+theory+FAQ#InsightsIntoCosmology)
 
