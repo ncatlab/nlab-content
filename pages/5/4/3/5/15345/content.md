@@ -56,4 +56,8 @@ See also
 
 * Wikipedia, _[Perfectoid space](https://en.wikipedia.org/wiki/Perfectoid_space)_
 
+Formalization in [[type theory]] (in [[Lean]]):
+
+* {#BCM} [[Kevin Buzzard]], Johan Commelin, Patrick Massot, _[lean-perfectoid-spaces](https://github.com/leanprover-community/lean-perfectoid-spaces)_
+
 [[!redirects perfectoid spaces]]
