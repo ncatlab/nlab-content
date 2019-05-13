@@ -328,6 +328,7 @@ In contrast, an argument that the threshold [[statistical significance]] for fla
 
 * Suman Kumbhakar, Ashutosh Kumar Alok, Dinesh Kumar, S Uma Sankar, _Resolving $R_D$ and $R_{D^\ast}$ anomalies_ ([arXiv:1905.03513](https://arxiv.org/abs/1905.03513))
 
+* Jyoti Saini, Dinesh Kumar, Shireen Gangal, S. B. Dasm, _Probing signatures of beyond standard model physics through $B_s^\ast \to \mu^+ \mu^-$ decay_ ([arXiv:1905.03933](https://arxiv.org/abs/1905.03933))
 
 #### Leptoquarks
 
@@ -378,6 +379,8 @@ Attempts to explain the anomaly include
 * Bhubanjyoti Bhattacharya, Alakabha Datta, Saeed Kamali, David London, _CP Violation in $\bar B^0 \to D^{\ast +} \mu^- \bar \nu_\mu$_ ([arXiv:1903.02567](https://arxiv.org/abs/1903.02567))
 
 * Han Yan, Ya-Dong Yang, Xing-Bo Yuan, _Phenomenology of $b \to c \tau \bar \nu$ decays in a scalar leptoquark model_ ([arXiv:1905.01795](https://arxiv.org/abs/1905.01795))
+
+* Alakabha Datta, Divya Sachdeva, John Waite, _A unified explanation of $b \to s\mu^= \mu^-$ anomalies, neutrino masses and $B \to \pi K$ puzzle_ ([arXiv:1905.04046](https://arxiv.org/abs/1905.04046))
 
 [[leptoquarks]] within a [[Randall-Sundrum model]]:
 
