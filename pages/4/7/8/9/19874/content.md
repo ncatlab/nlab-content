@@ -136,6 +136,8 @@ As a potential solution of the apparent [[B meson]] [[flavour anomaly]]:
 
 * Han Yan, Ya-Dong Yang, Xing-Bo Yuan, _Phenomenology of $b \to c \tau \bar \nu$ decays in a scalar leptoquark model_ ([arXiv:1905.01795](https://arxiv.org/abs/1905.01795))
 
+* Alakabha Datta, Divya Sachdeva, John Waite, _A unified explanation of $b \to s\mu^= \mu^-$ anomalies, neutrino masses and $B \to \pi K$ puzzle_ ([arXiv:1905.04046](https://arxiv.org/abs/1905.04046))
+
 
 and within [[Randall-Sundrum models]]
 
