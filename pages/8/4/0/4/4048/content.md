@@ -58,7 +58,7 @@ Textbook accounts include
 * {#Borceux94} [[Francis Borceux]], theorem 6.3.5 of _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)
 
 
-Generalization to the case that the enriching monoidal category is not [[closed monoidal category|closed]] or [[symmetric monoidal category|symmetric]] is in 
+Generalizations to the case that the enriching monoidal category is not [[closed monoidal category|closed]] or [[symmetric monoidal category|symmetric]] (using [[skew-symmetric category|skew-symmetric categories]] or [[tensored category|tensored categories]]) can be found in 
 
 * {#Street12} [[Ross Street]], _Skew-closed categories_ ([arXiv:1205.6522](https://arxiv.org/abs/1205.6522))
 
