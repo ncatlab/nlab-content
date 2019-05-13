@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
 > under construction
 
 #Contents#
@@ -7,15 +18,21 @@
 
 ## Idea
 
-Logarithmic geometry is a slight variant of [[algebraic geometry]] (resp. [[analytic geometry]]) where [[schemes]] (resp. analytic spaces) and morphisms with mild ("logarithmic") [[singularities]] still behave as [[smooth schemes]] (resp. smooth analytic spaces).
+Logarithmic geometry is a slight variant of [[algebraic geometry]] (resp. [[analytic geometry]]) where [[schemes]] (resp. [[analytic spaces]]) and [[morphisms]] with mild "logarithmic" [[singularities]] still behave as [[smooth schemes]] (resp. smooth analytic spaces).
 
-Where an [[affine variety]] is the formal dual to a [[commutative ring]] $(R,\times, +)$, the analog in logarithmic geometry is such a ring equipped with
+## Definition
+
+More precisely, where an [[affine variety]] is the [[formal dual]] to a [[commutative ring]] $(R,\times, +)$, the analog in logarithmic geometry is such a ring equipped with
 
 1. a [[monoid]] $K$ and a [[monoid]] [[homomorphism]] $\alpha \colon K \longrightarrow (R, \times)$;
 
 1. such that $\alpha^{-1}(R^\times) \simeq K^\times$;
 
 where $R^\times$ is the [[group of units]] of $R$. These two items together are called a _log-structure_ on $R$ (or a _pre-log structure_ if the condition in the second item does not necessarily hold).
+
+## Examples
+
+### Closed immersion of zero-loci
 
 The archetypical example of a logarithmic structure, which gives the concept its name,is that describing logarithmic singularities at closed immersions which are locally of the form of the [[zero locus]]
 
@@ -42,9 +59,6 @@ $\frac{1}{x^i} d x^i = d log x^i$ for $1 \leq i \leq k$.
 
 (e.g. [Pottharst, p. 5](#Pottharst))
 
-
-
-## Examples
 
 ### Affine line
 
@@ -130,7 +144,7 @@ See also
 
 The role of log geometry in [[motivic integration]] is studied in
 
-* Emmanuel Bultot, _Motivic integration and logarithmic geometry_, PhD thesis [arxiv/1505.05688](http://arxiv.org/abs/1505.05688)
+* Emmanuel Bultot, _Motivic integration and logarithmic geometry_, PhD thesis ([arxiv/1505.05688](http://arxiv.org/abs/1505.05688))
 
 Discussion in the context of [[higher algebra]] ([[brave new algebra]]) is in
 
