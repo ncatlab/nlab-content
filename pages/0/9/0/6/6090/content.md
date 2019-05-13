@@ -810,7 +810,7 @@ such that the following two conditions "perturbation" and "causal additivity (jo
 
    For all perturbative [[local observables]] $ O_0, O_1, O_2 \in LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]$ we have
 
-   $$
+   \[
      \label{CausalAdditivity}
      \left(
         {\, \atop \,}
@@ -830,7 +830,7 @@ such that the following two conditions "perturbation" and "causal additivity (jo
        {\, \atop \,}
      \right)
      \,.
-   $$
+   \]
 
 (The [[inverse]] $\mathcal{S}(O)^{-1}$ of $\mathcal{S}(O)$ with respect to the [[Wick algebra]]-[[structure]]
 is implied to exist by axiom "perturbation", see remark \ref{PerturbativeSMatrixInverse} below.)
