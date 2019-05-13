@@ -399,6 +399,14 @@ A compendium, of relevant [[action functionals]] and [[equations of motion]] is 
 
 * M. J. D. Hamilton, _The field and Killing spinor equations of M-theory and type IIA/IIB supergravity in coordinate-free notation_ ([arXiv:1607.00327](http://arxiv.org/abs/1607.00327))
 
+On [[black hole]]-solutions:
+
+* [[Riccardo D'Auria]], [[Pietro Fre]], _BPS black holes in supergravity_, ([hep-th/9812160](http://arxiv.org/abs/hep-th/9812160))
+
+
+* Antonio Gallerati, _Constructing black hole solutions in supergravity theories_ ([arXiv:1905.04104](https://arxiv.org/abs/1905.04104))
+
+
 ### Renormalization
 
 * S. Deser, J.H. Kay, K.S. Stelle, _Renormalizability Properties of Supergravity_, Phys Rev Lett 38, 527 (1977) (reproduced as [arXiv:1506.03757](http://arxiv.org/abs/1506.03757))
