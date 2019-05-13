@@ -11,7 +11,12 @@
 
 
 * [[Bertrand Russell]],
-  _An Essay on the Foundations of Geometry_, Cambridge 1897
+
+  _An Essay on the Foundations of Geometry_,
+
+  Cambridge 1897,
+
+  [online version](http://bertrandrussellsocietylibrary.org/br-efg/br-efg.html)
 
 In his early philosophical work Russell concerned himself with German [[idealism]], which was at that time propounded in Britain by [[J.M. Ellis McTaggart]], while he studied as well the mathematical innovations of the 19th century. The latter questioned the [[Kant|Kantian]] view of [[space]] -- especially in [[geometry]] where a developing plethora of new concepts of space, e.g. [[metric space]] or [[Riemannian manifold]], were hardly compatible with Kantian transcendental aesthetics in which there exists a perception ["Anschauung"] of a space such that every space occurs only as a subspace of this space (Kant, [[Critique of Pure Reason]], B § 2):
 
@@ -42,7 +47,5 @@ In the essay under consideration Russell proposes an alternative version of Kant
 ## References
 
 * [[Kant]], _[[Critique of Pure Reason]]_, second edition (referenced to as "B") 1787
-
-* [[Bertrand Russell]], _An Essay on the Foundations of Geometry_, Cambridge 1897, [online version](http://bertrandrussellsocietylibrary.org/br-efg/br-efg.html)
 
 category: reference
