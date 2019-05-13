@@ -53,4 +53,4 @@ and implementation in [[Lean]] is in
 
   * _[Learning Lean](https://xenaproject.wordpress.com/category/learning-lean/)_
 
-  * _[What maths in in lean?](https://xenaproject.wordpress.com/what-does-lean-already-know/)_
+  * _[What does Lean already know?](https://xenaproject.wordpress.com/what-does-lean-already-know/)_
