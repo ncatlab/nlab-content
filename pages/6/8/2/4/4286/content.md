@@ -108,13 +108,21 @@ Resolved image of the direct vicinity of the [[event horizon]] of the [[black ho
 
 * G. T. Horowitz, A. Strominger, _Counting states of near-extremal black holes_, Phys. Rev. Lett. 77 (1996) 2368&#8211;2371, [hep-th/9602051](http://arxiv.org/abs/hep-th/9602051).
 
-* R. D'Auria, P. Fre', _BPS black holes in [[supergravity]]_, [hep-th/9812160](http://arxiv.org/abs/hep-th/9812160)
 
 * Gregory Galloway, Richard Schoen, _A Generalization of Hawking's Black Hole Topology Theorem to Higher Dimensions_ Commun. Math. Phys. (2006) ([pdf](http://www.math.miami.edu/~galloway/papers/220_2006_19_OnlinePDF.pdf))
 {#GallowaySchoen}
 * R. M. Wald, _Quantum Field Theory in Curved Spacetime and Black Hole Thermodynamics_, University of Chicago Press 1994; _The back reaction effect in particle creation in curved spacetime_, Commun. Math. Phys. __54__, 1 (1977)
 
 * Ahmed Almheiri, Donald Marolf, Joseph Polchinski, James Sully, _Black holes: complementarity or firewalls?_, [http://arxiv.org/abs/arXiv:1207.3123](http://arxiv.org/abs/arXiv:1207.3123)
+
+
+### In supergravity
+
+Black holes in [[supergravity]]:
+
+* [[Riccardo D'Auria]], [[Pietro Fre]], _BPS black holes in supergravity_, ([hep-th/9812160](http://arxiv.org/abs/hep-th/9812160))
+
+* Antonio Gallerati, _Constructing black hole solutions in supergravity theories_ ([arXiv:1905.04104](https://arxiv.org/abs/1905.04104))
 
 
 ### Holographic description
