@@ -28,12 +28,12 @@ Examples:
 
 * Where it might appear that holding the belief that 'Unpunctuality is reprehensible' commits one to the existence of something denoted by 'unpunctuality', rewording the sentence, as Gilbert Ryle did, as 'Whoever is unpunctual deserves that other people should reprove him for being unpunctual' avoids this commitment. As a further step, the meaning of 'X deserves Y' would now be a candidate for analysis.
 
-* Heidegger in _What is Metaphysics?_ passes from his claims "What is to be investigated is being only and &#8212; nothing else; being alone and further &#8212; nothing; solely being, and beyond being &#8212; nothing" to a discussion of what he takes to be their subject by asking "What about this Nothing?". For Carnap this was just to be have misled by the grammar which appear to make 'Nothing' a subject, but is to be properly analyzed in terms of negation and universal quantification.
+* [[Martin Heidegger|Heidegger]] in _What is Metaphysics?_ passes from his claims "What is to be investigated is being only and &#8212; nothing else; being alone and further &#8212; nothing; solely being, and beyond being &#8212; nothing" to a discussion of what he takes to be their subject by asking "What about this Nothing?". For Carnap this was just to be have misled by the grammar which appear to make 'Nothing' a subject, but is to be properly analyzed in terms of negation and universal quantification.
 
 So convinced was Russell of the power of the then new first-order logic that he wrote:
 
 >The old logic put thought in fetters, while the new logic gives it wings. It has, in my opinion, introduced the same kind of advance into philosophy as Galileo introduced into physics, making it possible at last to see what kinds
-of problems may be capable of solution, and what kinds are beyond human powers. And where a solution appears possible, the new logic provides a method which enables us to obtain results that do not merely embody personal idiosyncrasies, but must command the assent of all who are competent to form an opinion. (Bertrand Russell, 'Logic As The Essence Of Philosophy',
+of problems may be capable of solution, and what kinds are beyond human powers. And where a solution appears possible, the new logic provides a method which enables us to obtain results that do not merely embody personal idiosyncrasies, but must command the assent of all who are competent to form an opinion. (Bertrand Russell, '[[Logic as the Essence of Philosophy]]',
 1914)
 
 See also [SEP: Conceptions of Analysis in Analytic Philosophy](http://plato.stanford.edu/entries/analysis/#6). 
