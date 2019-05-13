@@ -109,7 +109,13 @@ This is how [[causal perturbation theory]] gives rise to _[[perturbative AQFT]]_
 
 ## References
 
+The concept goes back to
+
 * {#EpsteinGlaser73} [[Henri Epstein]], [[Vladimir Glaser]], _[[The Role of locality in perturbation theory]]_, Annales Poincar&#233; Phys. Theor. A 19 (1973) 211 ([Numdam](http://www.numdam.org/item?id=AIHPA_1973__19_3_211_0 ))
+
+Lecture notes include
+
+* [[Urs Schreiber]], _[[geometry of physics -- perturbative quantum field theory]]_ (around [this equation](geometry+of+physics+--+perturbative+quantum+field+theory#eq:CausalAdditivity))
 
 See also the references at _[[causal perturbation theory]]_, _[[perturbative AQFT]]_ and _[[S-matrix]]_.
 
