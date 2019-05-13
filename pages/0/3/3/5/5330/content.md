@@ -1,8 +1,24 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Ren%C3%A9_Thom)
 
+## Selected writings
+
 * R. Thom, _Probl&#232;mes rencontr&#233;s dans mon parcours math&#233;matique : un bilan_ , Publications Math&#233;matiques de l'IH&#201;S **70** (1989) pp.199-214. ([pdf](http://archive.numdam.org/article/PMIHES_1989__70__199_0.pdf))
 
+## Quotes
+ {#Quotes}
+
+> Ce qui limite le vrai, ce n’est pas le faux, c’est l’insignifiant. 
+
+i.e.
+
+> The true is bounded not by the false but rather by the insignificant.
+
+from R. Thom _Pr&eacute;dire n’est pas expliquer_, Eshel 1991
+
+See also:
+
+* Alain Chenciner, _Le vrai, le faux, l’insignifiant_ ([pdf](https://perso.imcce.fr/alain-chenciner/Vrai_faux_insignifiant.pdf))
 
 ## Related entries
 
