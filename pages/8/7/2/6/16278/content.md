@@ -56,7 +56,7 @@ Exposure to the work of the German mathematicians [[Richard Dedekind|Dedekind]],
 
 He remarks on the power of rigorous mathematical definition:
 
-> "Continuity" had been, until he [Cantor] defined it, a vague word, convenient for philosophers like Hegel, who wished to introduce metaphysical muddles into mathematics. Cantor gave a precise significance to the word, and showed that continuity, as he defined it, was the concept needed by mathematicians and physicist. By this means a great deal of mysticism, such as that of Bergson, was rendered antiquated. (Chapter XXXI of "A History of Western Philosophy" (1945))
+> "Continuity" had been, until he [Cantor] defined it, a vague word, convenient for philosophers like Hegel, who wished to introduce metaphysical muddles into mathematics. Cantor gave a precise significance to the word, and showed that continuity, as he defined it, was the concept needed by mathematicians and physicist. By this means a great deal of mysticism, such as that of Bergson, was rendered antiquated. (Chapter XXXI of "[[A History of Western Philosophy]]" (1945))
 
 ## Brouwer
 
