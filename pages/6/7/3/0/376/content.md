@@ -386,7 +386,7 @@ More generally, every [[quasitopos]] is locally cartesian closed.
 
 * [[cartesian closed model category]], [[locally cartesian closed model category]]
 
-* [[cartesian closed (∞,1)-category]] [[locally cartesian closed (∞,1)-category]]
+* [[cartesian closed (∞,1)-category]], [[locally cartesian closed (∞,1)-category]]
 
 
 ## References
