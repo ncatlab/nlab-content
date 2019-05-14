@@ -5,7 +5,7 @@
 
 ## Idea
 
-A **cartesian multicategory** is a [[multicategory]]-like structure which is related to categories with finite [[products]] in the same way that ordinary categories are related to [[monoidal categories]].
+A **cartesian multicategory** is a [[multicategory]]-like structure which is related to categories with finite [[products]] in the same way that ordinary multicategories are related to [[monoidal categories]].
 
 
 ## Definition
