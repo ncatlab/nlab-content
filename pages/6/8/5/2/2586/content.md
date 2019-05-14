@@ -187,7 +187,7 @@ Via the [[J-homomorphism]] this is related to the [[stable homotopy groups of sp
 ### Exceptional isomorphisms
  {#ExceptionalIsomorphisms}
 
-In low dimensions the spin group happens to be [[isomorphism|isomorphic]] ("sporadic isomorphisms") to various other classical group (among them the [[general linear group]] $GL(p,V)$ for $V$ the [[real number]]s $\mathbb{R}$, the [[complex number]]s $\mathbb{C}$ and the [[quaternions]] $\mathbb{Q}$, the [[orthogonal group]] $O(p,q)$, the [[unitary group]] $U(p,q)$ and the [[symplectic group]] $Sp(p,q)$).
+In low [[dimensions]] the [[spin groups]] happens to be [[isomorphism|isomorphic]]  to various other [[classical Lie groups]]. One speaks of _[[exceptional isomorphisms]]_ or _[[sporadic isomorphisms]]_.
 
 See for instance ([Garrett 13](#Garrett13)). See also _[[division algebra and supersymmetry]]_.
 
