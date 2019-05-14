@@ -1,7 +1,12 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-### Context
+###Context###
+#### Exceptional structures
++-- {: .hide}
+[[!include exceptional structures -- contents]]
+=--
 #### Group Theory
 +-- {: .hide}
 [[!include group theory - contents]]
