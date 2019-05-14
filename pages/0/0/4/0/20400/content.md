@@ -37,7 +37,7 @@ terms ($t$, $a$, $b$, $f$, $T$, $A$, $B$, $R$, ...)` ::=`
 
 * $a = b \in C \qquad$ (equality type)
 * $\Pi x:A.B \qquad$ (dependent function type)
-* $\bigcap x:A.B \qquad$ (family intersection type)
+* $\cap x:A.B \qquad$ (family intersection type)
 * $Comp \qquad$ (type of computations ([[realizers]]))
 * $\{x:A | B\} \qquad$ (subset/separation type)
 * $\{x = y | R\} \qquad$ ([[PER]] comprehension type)
@@ -118,53 +118,71 @@ $\{A\}\;\coloneqq\;\{\underline{\;}:\top | A\}$
 
 ## Rules
 
+These rules are not the final rules that are planned to be implemented in CLF. The major differences planned for the final rules from those here are:
+
+* Use roughly Nuprl-style hidden assumptions, but with unhiding handled automatically.
+* Have an additional judgment form for goals whose realizer is ignored/arbitrary, which interacts with unhiding.
+* Add formal proof terms.
+
+The expectation and hope is that the result will look fairly similar to algorithmic elaboration-style type checking rules. These rules will be the primitive tactics, and type checking will thus be a special case of running tactic trees.
+
 ### Type Formation
 
 We have a strong equality formation rule, inspired by the medium-strength rule due to Anand & Rahli, which is also stronger than the usual one. Here is respect-based equality formation:
 
-$$\frac{\Gamma \vdash p \Vdash A \prec C \qquad
+$$\begin{gathered}
+\frac{\Gamma \vdash p \Vdash A \prec C \qquad
 \Gamma \vdash q \Vdash B \prec C \qquad
 \Gamma \vdash a \Vdash A \qquad \Gamma \vdash b \Vdash B}
-{\Gamma \vdash a = b \in C\,type}$$
-
-$$\frac{\Gamma \vdash A\,type \qquad \Gamma,x:A \vdash B\,type}
-{\Gamma \vdash \Pi x:A.B\,type}$$
-
-$$\frac{\Gamma \vdash A\,type \qquad \Gamma,x:A \vdash B\,type}
-{\Gamma \vdash \bigcap x:A.B\,type}$$
+{\Gamma \vdash a = b \in C\,type} \\
+\\
+\frac{\Gamma \vdash A\,type \qquad \Gamma,x:A \vdash B\,type}
+{\Gamma \vdash \Pi x:A.B\,type} \\
+\\
+\frac{\Gamma \vdash A\,type \qquad \Gamma,x:A \vdash B\,type}
+{\Gamma \vdash \cap x:A.B\,type}
+\end{gathered}$$
 
 The $Comp$ type, which is called $Base$ in Nuprl:
 
-$$\frac{}{\Gamma \vdash Comp\,type}$$
-
-$$\frac{\Gamma \vdash A\,type \qquad \Gamma,x:A \vdash B\,type}
-{\Gamma \vdash \{x:A | B\}\,type}$$
+$$\begin{gathered}
+\frac{}{\Gamma \vdash Comp\,type} \\
+\\
+\frac{\Gamma \vdash A\,type \qquad \Gamma,x:A \vdash B\,type}
+{\Gamma \vdash \{x:A | B\}\,type}
+\end{gathered}$$
 
 The PER comprehension type is due to Anand & Rahli. However, I think Nuprl had already had $Base$, subsets, and quotients, which make it definable. The real innovation is how PER comprehension and the strengthened equality formation rule interact to allow internal, logical-relations-style type definitions. We only allow forming a PER from a pseudo-PER, rather than implicitly taking the symmetric transitive closure of any family:
 
-$$\frac{\begin{array}{l}\Gamma,x1:Comp,x2:Comp \vdash R\,type \\
+$$\begin{gathered}
+\frac{\begin{array}{l}\Gamma,x1:Comp,x2:Comp \vdash R\,type \\
 \Gamma,y1:Comp,y2:Comp \vdash s \Vdash R[y1,y2/x1,x2] \to R[y2,y1/x1,x2] \\
 \Gamma,y1:Comp,y2:Comp,y3:Comp \vdash t \Vdash R[y1,y2/x1,x2] \to R[y2,y3/x1,x2] \to R[y1,y3/x1,x2]\end{array}}
-{\Gamma \vdash \{x1 = x2 | R\}\,type}$$
-
-$$\frac{}{\Gamma \vdash Bool\,type}$$
+{\Gamma \vdash \{x1 = x2 | R\}\,type} \\
+\\
+\frac{}{\Gamma \vdash Bool\,type}
+\end{gathered}$$
 
 ### Miscellaneous
 
 The untyped beta conversion rules have the same role as Nuprl's direct computation rules:
 
-$$\frac{A \equiv_\beta B \qquad \Gamma \vdash B\,type \qquad
+$$\begin{gathered}
+\frac{A \equiv_\beta B \qquad \Gamma \vdash B\,type \qquad
 \Gamma \vdash t \Vdash A}
-{\Gamma \vdash t \Vdash B}$$
-\linebreak
-$$\frac{t \equiv_\beta t' \qquad \Gamma \vdash t \Vdash T}
-{\Gamma \vdash t' \Vdash T}$$
+{\Gamma \vdash t \Vdash B} \\
+\\
+\frac{t \equiv_\beta t' \qquad \Gamma \vdash t \Vdash T}
+{\Gamma \vdash t' \Vdash T}
+\end{gathered}$$
 
 Every type respects itself, and $Comp$. (Yes, you can use any term you like as the proof.):
 
-$$\frac{\Gamma \vdash A\,type}{\Gamma \vdash p \Vdash A \prec A}$$
-
-$$\frac{\Gamma \vdash A\,type}{\Gamma \vdash p \Vdash Comp \prec A}$$
+$$\begin{gathered}
+\frac{\Gamma \vdash A\,type}{\Gamma \vdash p \Vdash A \prec A} \\
+\\
+\frac{\Gamma \vdash A\,type}{\Gamma \vdash p \Vdash Comp \prec A}
+\end{gathered}$$
 
 ### Equality
 
@@ -174,9 +192,11 @@ $$\frac{\Gamma \vdash t \Vdash T}{\Gamma \vdash p \Vdash t = t \in T}$$
 
 Terms participating in equality are elements. Normally this would only be admissible, but in CLF, it comes in handy to make it into "selectivity" rules:
 
-$$\frac{\Gamma \vdash p \Vdash t1 = t2 \in T}{\Gamma \vdash t1 \Vdash T}$$
-
-$$\frac{\Gamma \vdash p \Vdash t1 = t2 \in T}{\Gamma \vdash t2 \Vdash T}$$
+$$\begin{gathered}
+\frac{\Gamma \vdash p \Vdash t1 = t2 \in T}{\Gamma \vdash t1 \Vdash T} \\
+\\
+\frac{\Gamma \vdash p \Vdash t1 = t2 \in T}{\Gamma \vdash t2 \Vdash T}
+\end{gathered}$$
 
 Note that the above equality rules make ($\Gamma \vdash t \Vdash T$) and ($\Gamma \vdash t \in T$) interderivable, as promised.
 
@@ -198,19 +218,42 @@ That means $\top$ too, which is thus the maximum PER, ordered by subtyping. (Wel
 
 We have the standard application rule, and a variant of function extensionality:
 
-$$\frac{\Gamma \vdash f \Vdash \Pi x:A.B \qquad
+$$\begin{gathered}
+\frac{\Gamma \vdash f \Vdash \Pi x:A.B \qquad
 \Gamma \vdash a \Vdash A}
-{\Gamma \vdash f\,a \Vdash B[a/x]}$$
-
-$$\frac{\Gamma \vdash A\,type \qquad
-\Gamma,x:A \vdash p \Vdash f\,x = f'\,x \in B}
-{\Gamma \vdash q \Vdash f = f' \in \Pi x:A.B}$$
+{\Gamma \vdash f\,a \Vdash B[a/x]} \\
+\\
+\frac{\Gamma \vdash A\,type \qquad
+\Gamma,x:A \vdash p \Vdash f\,x = f'\,x \in B \qquad
+x \notin FV(f,f')}
+{\Gamma \vdash q \Vdash f = f' \in \Pi x:A.B}
+\end{gathered}$$
 
 Unconventionally, we consider function extensionality to be the $\Pi$ intro rule, and derive the fact that lambdas implement functions.
 
 ### Intersection
 
+Elements of a family intersection are like elements of a $\Pi$ type, except you don't have to apply them. An intersection element is *already* an element of all instances of the family. So the rules for family intersection are analogous to the rules for $\Pi$:
+
+$$\begin{gathered}
+\frac{\Gamma \vdash b \Vdash \cap x:A.B \qquad
+\Gamma \vdash a \Vdash A}
+{\Gamma \vdash b \Vdash B[a/x]} \\
+\\
+\frac{\Gamma \vdash A\,type \qquad
+\Gamma,x:A \vdash p \Vdash b = b' \in B \qquad
+x \notin FV(b,b')}
+{\Gamma \vdash q \Vdash b = b' \in \cap x:A.B}
+\end{gathered}$$
+
 ### Computation Formation
+
+$$\begin{gathered}
+\frac{\Gamma,x:Comp \vdash b \Vdash Comp}{\Gamma \vdash \lambda x.b \Vdash Comp} \\
+\\
+\frac{\Gamma \vdash f \Vdash Comp \qquad \Gamma \vdash a \Vdash Comp}
+{\Gamma \vdash f\,a \Vdash Comp}
+\end{gathered}$$
 
 ### Subset
 
