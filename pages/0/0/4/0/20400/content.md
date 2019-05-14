@@ -118,4 +118,62 @@ $\{A\}\;\coloneqq\;\{\underline{\;}:\top | A\}$
 
 ## Rules
 
-$\frac{test}{render}$
+### Type Formation
+
+We have a strong equality formation rule, inspired by the medium-strength rule due to Anand & Rahli, which is also stronger than the usual one. Here is respect-based equality formation:
+
+$\frac{\Gamma \vdash p \Vdash A \prec C \qquad
+\Gamma \vdash q \Vdash B \prec C \qquad
+\Gamma \vdash a \Vdash A \qquad \Gamma \vdash b \Vdash B}
+{\Gamma \vdash a = b \in C\,type}$
+
+$\frac{\Gamma \vdash A\,type \qquad \Gamma,x:A \vdash B\,type}
+{\Gamma \vdash \Pi x:A.B\,type}$
+
+$\frac{\Gamma \vdash A\,type \qquad \Gamma,x:A \vdash B\,type}
+{\Gamma \vdash \bigcap x:A.B\,type}$
+
+The $Comp$ type, which is called $Base$ in Nuprl:
+
+$\frac{}{\Gamma \vdash Comp\,type}$
+
+$\frac{\Gamma \vdash A\,type \qquad \Gamma,x:A \vdash B\,type}
+{\Gamma \vdash \{x:A | B\}\,type}$
+
+The PER comprehension type is due to Anand & Rahli. However, I think Nuprl had already had $Base$, subsets, and quotients, which make it definable. The real innovation is how PER comprehension and the strengthened equality formation rule interact to allow internal, logical-relations-style type definitions. We only allow forming a PER from a pseudo-PER, rather than implicitly taking the symmetric transitive closure of any family:
+
+$\frac{\begin{array}{l}\Gamma,x1:Comp,x2:Comp \vdash R\,type \\
+\Gamma,y1:Comp,y2:Comp \vdash s \Vdash R[y1,y2/x1,x2] \to R[y2,y1/x1,x2] \\
+\Gamma,y1:Comp,y2:Comp,y3:Comp \vdash t \Vdash R[y1,y2/x1,x2] \to R[y2,y3/x1,x2] \to R[y1,y3/x1,x2]\end{array}}
+{\Gamma \vdash \{x1 = x2 | R\}\,type}$
+
+$\frac{}{\Gamma \vdash Bool\,type}$
+
+### Miscellaneous
+
+$\frac{A \equiv_\beta B \qquad \Gamma \vdash B\,type \qquad
+\Gamma \vdash t \Vdash A}
+{\Gamma \vdash t \Vdash B}$
+
+$\frac{t \equiv_\beta t' \qquad \Gamma \vdash t \Vdash T}
+{\Gamma \vdash t' \Vdash T}$
+
+Every type respects itself, and $Comp$. (Yes, you can use any term you like as the proof.):
+
+$\frac{\Gamma \vdash A\,type}{\Gamma \vdash p \Vdash A \prec A}$
+
+$\frac{\Gamma \vdash A\,type}{\Gamma \vdash p \Vdash Comp \prec A}$
+
+### Equality
+
+### Functions
+
+### Intersection
+
+### Computation Formation
+
+### Subset
+
+### PER
+
+### Booleans
