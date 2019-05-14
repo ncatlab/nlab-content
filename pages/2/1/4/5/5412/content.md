@@ -408,7 +408,7 @@ The claim then follows with the assumption that $\mathcal{E}$ has enough points.
 
 ## References
 
-* {#KS06} Masaki Kashiwara, Pierre Schapira, _Categories and Sheaves_ , Springer Heidelberg 2006.
+* {#KS06} [[Masaki Kashiwara]], [[Pierre Schapira]], _Categories and Sheaves_ , Springer Heidelberg 2006.
 
 * {#MacLaneMoerdijk} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (Especially section IV.7)
 
