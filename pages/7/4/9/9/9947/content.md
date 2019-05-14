@@ -36,6 +36,8 @@ Similar to Mizar is [[NuPRL]], [[HOL light]] and [[Isabelle]], which all have de
 
 * [[Coq]], [[Agda]], [[Lean]]
 
+* [[prototype CLF]]
+
 Projects for formalization of mathematics
 
 * [[ForMath]]
