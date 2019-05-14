@@ -3,6 +3,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Exceptional structures
++-- {: .hide}
+[[!include exceptional structures -- contents]]
+=--
 #### Philosophy
 +-- {: .hide}
 [[!include philosophy - contents]]
