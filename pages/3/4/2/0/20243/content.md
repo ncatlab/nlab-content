@@ -163,7 +163,7 @@ $$
 $$
 
 with the [[special orthogonal group]] [[SO(4)]],
-and hence the compatibility diagram (eq:CompatibilityDiagram) now exhibits at the top the exceptional isomorphism $Sp(1) \times Sp(1) \simeq $ [[Spin(4)]] (see [there](Spin4#ExceptionalIsomorphisms))
+and hence the compatibility diagram (eq:CompatibilityDiagram) now exhibits at the top the [[exceptional isomorphism]] $Sp(1) \times Sp(1) \simeq $ [[Spin(4)]] (see [there](Spin4#ExceptionalIsomorphisms))
 
 In summary:
 
