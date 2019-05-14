@@ -81,7 +81,7 @@ Hence the [[order of a group|order]] of the full icosahedral group is $ 60 \time
 +-- {: .num_prop #IsomorphismToSL25}
 ###### Proposition
 
-There is an exceptional [[isomorphism]] 
+There is an [[exceptional isomorphism]] 
 
 $$
   I \;\simeq\; PSL_2(\mathbb{F}_5)
