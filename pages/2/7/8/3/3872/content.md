@@ -9,6 +9,10 @@
 
 * [[Michael Atiyah]], [[Friedrich Hirzebruch]], _Vector bundle and homogeneous spaces_, Proc. Sympos. Pure Math., Vol. III, American Mathematical Society, Providence, R.I., 1961, 3, 7–38 ([[AtiyahHirzebruch61.pdf:file]])
 
+* {#Atiyah66} [[Michael Atiyah]], _K-theory and reality_, The Quarterly Journal of Mathematics. Oxford. Second Series 17 (1) (1966),: 367&#8211;386, ISSN 0033-5606, MR 0206940 ([doi:10.1093/qmath/17.1.367](https://doi.org/10.1093/qmath/17.1.367), [[AtiyahKReal.pdf:file]])
+
+  (introducing [[KR-theory]])
+
 * [[Michael Atiyah]], [[Graeme Segal]], _Equivariant $K$-theory and completion_,  J. Differential Geom. Volume 3, Number 1-2 (1969), 1-18. ([Euclid](http://projecteuclid.org/euclid.jdg/1214428815))
 
 
