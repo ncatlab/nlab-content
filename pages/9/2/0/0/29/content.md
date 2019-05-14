@@ -75,6 +75,8 @@ In [[n-category|higher categories]], isomorphisms generalise to [[equivalence]]s
 
 * **isomorphism**
 
+  * [[exceptional isomorphism]]
+
 * [[equivalence]]
 
 * [[weak equivalence]]
