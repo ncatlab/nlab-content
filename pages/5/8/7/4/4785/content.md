@@ -2,12 +2,18 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $\infty$-Lie theory
+#### Lie theory
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
 =--
 =--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 The classification of [[simple Lie group]]s contains four infinite series of "classical" simple Lie groups:
 
@@ -22,6 +28,10 @@ The classification of [[simple Lie group]]s contains four infinite series of "cl
 Apart from this there are five [[exceptional Lie groups]].
 
 More generally, other [[matrix Lie groups]], such as the [[general linear group]] $GL(n)$, may be called "classical".
+
+## Related concepts
+
+* [[exceptional isomorphism]]
 
 
 [[!redirects classical Lie group]]
