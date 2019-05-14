@@ -29,7 +29,7 @@ The [[spin group]] in [[dimension]] 5.
 +-- {: .num_prop #ExceptionalIsoToSp2}
 ###### Proposition
 
-There is an exceptional [[isomorphism]]
+There is an [[exceptional isomorphism]]
 
 $$
   Spin(5) 
