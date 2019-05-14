@@ -122,73 +122,75 @@ $\{A\}\;\coloneqq\;\{\underline{\;}:\top | A\}$
 
 We have a strong equality formation rule, inspired by the medium-strength rule due to Anand & Rahli, which is also stronger than the usual one. Here is respect-based equality formation:
 
-$\frac{\Gamma \vdash p \Vdash A \prec C \qquad
+$$\frac{\Gamma \vdash p \Vdash A \prec C \qquad
 \Gamma \vdash q \Vdash B \prec C \qquad
 \Gamma \vdash a \Vdash A \qquad \Gamma \vdash b \Vdash B}
-{\Gamma \vdash a = b \in C\,type}$
+{\Gamma \vdash a = b \in C\,type}$$
 
-$\frac{\Gamma \vdash A\,type \qquad \Gamma,x:A \vdash B\,type}
-{\Gamma \vdash \Pi x:A.B\,type}$
+$$\frac{\Gamma \vdash A\,type \qquad \Gamma,x:A \vdash B\,type}
+{\Gamma \vdash \Pi x:A.B\,type}$$
 
-$\frac{\Gamma \vdash A\,type \qquad \Gamma,x:A \vdash B\,type}
-{\Gamma \vdash \bigcap x:A.B\,type}$
+$$\frac{\Gamma \vdash A\,type \qquad \Gamma,x:A \vdash B\,type}
+{\Gamma \vdash \bigcap x:A.B\,type}$$
 
 The $Comp$ type, which is called $Base$ in Nuprl:
 
-$\frac{}{\Gamma \vdash Comp\,type}$
+$$\frac{}{\Gamma \vdash Comp\,type}$$
 
-$\frac{\Gamma \vdash A\,type \qquad \Gamma,x:A \vdash B\,type}
-{\Gamma \vdash \{x:A | B\}\,type}$
+$$\frac{\Gamma \vdash A\,type \qquad \Gamma,x:A \vdash B\,type}
+{\Gamma \vdash \{x:A | B\}\,type}$$
 
 The PER comprehension type is due to Anand & Rahli. However, I think Nuprl had already had $Base$, subsets, and quotients, which make it definable. The real innovation is how PER comprehension and the strengthened equality formation rule interact to allow internal, logical-relations-style type definitions. We only allow forming a PER from a pseudo-PER, rather than implicitly taking the symmetric transitive closure of any family:
 
-$\frac{\begin{array}{l}\Gamma,x1:Comp,x2:Comp \vdash R\,type \\
+$$\frac{\begin{array}{l}\Gamma,x1:Comp,x2:Comp \vdash R\,type \\
 \Gamma,y1:Comp,y2:Comp \vdash s \Vdash R[y1,y2/x1,x2] \to R[y2,y1/x1,x2] \\
 \Gamma,y1:Comp,y2:Comp,y3:Comp \vdash t \Vdash R[y1,y2/x1,x2] \to R[y2,y3/x1,x2] \to R[y1,y3/x1,x2]\end{array}}
-{\Gamma \vdash \{x1 = x2 | R\}\,type}$
+{\Gamma \vdash \{x1 = x2 | R\}\,type}$$
 
-$\frac{}{\Gamma \vdash Bool\,type}$
+$$\frac{}{\Gamma \vdash Bool\,type}$$
 
 ### Miscellaneous
 
-$\frac{A \equiv_\beta B \qquad \Gamma \vdash B\,type \qquad
-\Gamma \vdash t \Vdash A}
-{\Gamma \vdash t \Vdash B}$
+The untyped beta conversion rules have the same role as Nuprl's direct computation rules:
 
-$\frac{t \equiv_\beta t' \qquad \Gamma \vdash t \Vdash T}
-{\Gamma \vdash t' \Vdash T}$
+$$\frac{A \equiv_\beta B \qquad \Gamma \vdash B\,type \qquad
+\Gamma \vdash t \Vdash A}
+{\Gamma \vdash t \Vdash B}$$
+\linebreak
+$$\frac{t \equiv_\beta t' \qquad \Gamma \vdash t \Vdash T}
+{\Gamma \vdash t' \Vdash T}$$
 
 Every type respects itself, and $Comp$. (Yes, you can use any term you like as the proof.):
 
-$\frac{\Gamma \vdash A\,type}{\Gamma \vdash p \Vdash A \prec A}$
+$$\frac{\Gamma \vdash A\,type}{\Gamma \vdash p \Vdash A \prec A}$$
 
-$\frac{\Gamma \vdash A\,type}{\Gamma \vdash p \Vdash Comp \prec A}$
+$$\frac{\Gamma \vdash A\,type}{\Gamma \vdash p \Vdash Comp \prec A}$$
 
 ### Equality
 
 A reflexivity rule, but any term can be the proof:
 
-$\frac{\Gamma \vdash t \Vdash T}{\Gamma \vdash p \Vdash t = t \in T}$
+$$\frac{\Gamma \vdash t \Vdash T}{\Gamma \vdash p \Vdash t = t \in T}$$
 
 Terms participating in equality are elements. Normally this would only be admissible, but in CLF, it comes in handy to make it into "selectivity" rules:
 
-$\frac{\Gamma \vdash p \Vdash t1 = t2 \in T}{\Gamma \vdash t1 \Vdash T}$
+$$\frac{\Gamma \vdash p \Vdash t1 = t2 \in T}{\Gamma \vdash t1 \Vdash T}$$
 
-$\frac{\Gamma \vdash p \Vdash t1 = t2 \in T}{\Gamma \vdash t2 \Vdash T}$
+$$\frac{\Gamma \vdash p \Vdash t1 = t2 \in T}{\Gamma \vdash t2 \Vdash T}$$
 
 Note that the above equality rules make ($\Gamma \vdash t \Vdash T$) and ($\Gamma \vdash t \in T$) interderivable, as promised.
 
 We use a "subsumptive" rewrite rule as equality elimination. "Subsumptive" refers to the property that the proof of the type we rewrite in is unaffected. The terminology "subsumptive" for this is new to CLF, although this is effectively the same equality elimination rule as in Nuprl. The terminology comes from "subsumptive" vs "coercive" implementations of subtyping. Note that formally, CLF has no typed judgmental equality. Semantically, it's an [[extensional type theory]], but the semantic equality judgment is implemented as the equality type. This is sound due to equality reflection. So this rule is semantically a consequence of equality reflection, equality substitution, and (typed) conversion. As with equality reflection, the proof of equality is irrelevant:
 
-$\frac{\Gamma,x:A \vdash B\,type \qquad
+$$\frac{\Gamma,x:A \vdash B\,type \qquad
 \Gamma \vdash p \Vdash a1 = a2 \in A \qquad
 \Gamma \vdash b \Vdash B[a1/x]}
-{\Gamma \vdash b \Vdash B[a2/x]}$
+{\Gamma \vdash b \Vdash B[a2/x]}$$
 
 Any two terms are equal as the (consequently unique) proof of a true equality:
 
-$\frac{\Gamma \vdash t \Vdash T}
-{\Gamma \vdash q \Vdash p1 = p2 \in (t = t \in T)}$
+$$\frac{\Gamma \vdash t \Vdash T}
+{\Gamma \vdash q \Vdash p1 = p2 \in (t = t \in T)}$$
 
 That means $\top$ too, which is thus the maximum PER, ordered by subtyping. (Well, just as soon as we make $tru$ an element of $Bool$.)
 
@@ -196,13 +198,13 @@ That means $\top$ too, which is thus the maximum PER, ordered by subtyping. (Wel
 
 We have the standard application rule, and a variant of function extensionality:
 
-$\frac{\Gamma \vdash f \Vdash \Pi x:A.B \qquad
+$$\frac{\Gamma \vdash f \Vdash \Pi x:A.B \qquad
 \Gamma \vdash a \Vdash A}
-{\Gamma \vdash f\,a \Vdash B[a/x]}$
+{\Gamma \vdash f\,a \Vdash B[a/x]}$$
 
-$\frac{\Gamma \vdash A\,type \qquad
+$$\frac{\Gamma \vdash A\,type \qquad
 \Gamma,x:A \vdash p \Vdash f\,x = f'\,x \in B}
-{\Gamma \vdash q \Vdash f = f' \in \Pi x:A.B}$
+{\Gamma \vdash q \Vdash f = f' \in \Pi x:A.B}$$
 
 Unconventionally, we consider function extensionality to be the $\Pi$ intro rule, and derive the fact that lambdas implement functions.
 
