@@ -50,7 +50,7 @@ Accordingly, tadpole cancellation via [[orientifolds|orientifolding]] is a key c
 
 Traditionally RR-tadpole cancellation is discussed in [[ordinary cohomology]], the common arguments notwithstanding that [[D-brane charge]] should be in [[K-theory]].
 
-Discussion of tadpole cancellation with [[D-brane charge]] regarded in [[K-theory]] was initated in [Uranga 00, Section 5](#Uranga00), see also [Garcia-Uranga 05](#GarciaUranga05), [Marchesano 03, Section 4](#Marchesano03), [Marchesano-Shiu 04](#MarchesanoShiu04), [CKMNW 05, Section 2.2](#CKMNW05), [Maiden-Shiu-Stefanski 06, Section 5](#MaidenShiuStefanski06).
+Discussion of tadpole cancellation with [[D-brane charge]] regarded in [[K-theory]] was initated in [Uranga 00, Section 5](#Uranga00), see also [Garcia-Uranga 05](#GarciaUranga05), [Marchesano 03, Section 4](#Marchesano03), [Marchesano-Shiu 04](#MarchesanoShiu04), [CKMNW 05, Section 2.2](#CKMNW05), [Maiden-Shiu-Stefanski 06, Section 5](#MaidenShiuStefanski06), [DFM 09, p. 6-7](#DFM09).
 
 
 
@@ -1270,6 +1270,8 @@ See also
 * {#MaidenShiuStefanski06} John Maiden, Gary Shiu, [[Bogdan Stefanski]], _D-brane Spectrum and K-theory Constraints of D=4, N=1 Orientifolds_, JHEP0604:052,2006 ([arXiv:hep-th/0602038](https://arxiv.org/abs/hep-th/0602038))
 
 * Tetsuji Kimura, Mitsuhisa Ohta, Kei-Jiro Takahashi, _Type IIA orientifolds and orbifolds on non-factorizable tori_, Nucl.Phys.B798:89-123, 2008 ([arXiv:0712.2281](https://arxiv.org/abs/0712.2281))
+
+* {#DFM09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
 
 For the [[topological string]]:
 
