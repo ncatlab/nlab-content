@@ -474,7 +474,10 @@ The original observation that [[D-brane charge]] for [[orientifolds]] should be 
 
 and was then re-amplified in
 
-* [[Sergei Gukov]], _K-Theory, Reality, and Orientifolds_, Commun.Math.Phys. 210 (2000) 621-639 ([arXiv:hep-th/9901042](https://arxiv.org/abs/hep-th/9901042))
+* {#Gukov99} [[Sergei Gukov]], _K-Theory, Reality, and Orientifolds_, Commun.Math.Phys. 210 (2000) 621-639 ([arXiv:hep-th/9901042](https://arxiv.org/abs/hep-th/9901042))
+
+* {#BergmanGimonSugimoto01} [[Oren Bergman]], E. Gimon, [[Shigeki Sugimoto]], _Orientifolds, RR Torsion, and K-theory_, JHEP 0105:047, 2001 ([arXiv:hep-th/0103183](https://arxiv.org/abs/hep-th/0103183))
+
 
 Discussion of orbi-orienti-folds using [[equivariant K-theory|equivariant]] [[KO-theory]] is in
 
@@ -484,7 +487,11 @@ Discussion of orbi-orienti-folds using [[equivariant K-theory|equivariant]] [[KO
 
 * H. Garcia-Compean, W. Herrera-Suarez, B. A. Itza-Ortiz, O. Loaiza-Brito, _D-Branes in Orientifolds and Orbifolds and Kasparov KK-Theory_, JHEP 0812:007, 2008 ([arXiv:0809.4238](https://arxiv.org/abs/0809.4238))
 
-Discussion of the alleged K-theory classification of Dbrane charge in relation to the [[M-theory]] [[supergravity C-field]] is in
+An elaborate proposal for the correct flavour of real equivariant K-theory needed for [[orientifolds]] is sketched in
+
+* {#Precis} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
+
+Discussion of the alleged K-theory classification of D-brane charge in relation to the [[M-theory]] [[supergravity C-field]] is in
 
 * {#DMW00} D. Diaconescu, [[Gregory Moore]], [[Edward Witten]], _$E_8$ Gauge Theory, and a Derivation of K-Theory from M-Theory_, Adv.Theor.Math.Phys.6:1031-1134,2003 ([arXiv:hep-th/0005090](http://arxiv.org/abs/hep-th/0005090)), summarised in _A Derivation of K-Theory from M-Theory_ ([arXiv:hep-th/0005091](http://arxiv.org/abs/hep-th/0005091))
 
