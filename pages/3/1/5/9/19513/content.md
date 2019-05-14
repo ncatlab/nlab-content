@@ -62,7 +62,7 @@ such that these two structures are compatible in the following way:
 
 Let $\mathcal{C}$ be an [[enriched model category]] (Def. \ref{SimplicialModelCategory}). 
 
-If $Y \in \mathcal{C}$ is a [[cofibrant object]], then the [[enriched hom-functor]] out of $X$
+If $Y \in \mathcal{C}$ is a [[cofibrant object]], then the [[enriched hom-functor]] out of $Y$
 
 $$
   \mathcal{C}(Y,-)
@@ -74,7 +74,7 @@ $$
 
 preserves [[fibrations]] and [[acyclic fibrations]].
 
-If $A \in \mathcal{C}$ is a [[fibrant object]], then the [[enriched hom-functor]] into $X$
+If $A \in \mathcal{C}$ is a [[fibrant object]], then the [[enriched hom-functor]] into $A$
 
 $$
   \mathcal{C}(-,A)
@@ -103,7 +103,8 @@ $$
   \text{and}
   \phantom{AA}
   \mathcal{C}(-,\ast)
-  \;\ast\;
+  \;\simeq\;
+  \ast\;
   \;\;\;
   \in \mathcal{V}
   \,.
