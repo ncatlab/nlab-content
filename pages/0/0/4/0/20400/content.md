@@ -65,7 +65,7 @@ Note that in [[Nuprl]], the ($\Gamma \vdash t \Vdash T$) form is written ($\Gamm
 
 ($\Gamma \vdash t\,:\,T$) is not used in order to avoid the misinterpretation of this judgment form as [[intrinsic and extrinsic views of typing|intrinsic typing]] of terms. Note the contrast with variables, which *are* intrinsically typed.
 
-The ($t\,:\,T$) form can be translated to this system as either ($t \Vdash T$) or ($? \Vdash t \in T$). The latter uses the abbreviation "$\in$" defined below, and the abuse of meta-notation that we don't care what goes in the "$?$". With ($t \Vdash T$), we think of $t$ as resulting from the proof of $T$. With ($? \Vdash t \in T$), we think of the "*semantic judgment*" ($t \in T$) as a goal to prove internally. The rules ensure that these two ways of expressing an element of a type are interchangeable. From this point on, ($\Gamma \vdash ? \Vdash T$) will be written as just ($\Gamma \vdash T$), although it remains informal.
+The ($t\,:\,T$) form can be translated to this system as either ($t \Vdash T$) or ($? \Vdash t \in T$). The latter uses the abbreviation "$\in$" defined below, and the abuse of meta-notation that we don't care what goes in the "$?$". With ($t \Vdash T$), we think of $t$ as resulting from the proof of $T$. With ($? \Vdash t \in T$), we think of the "*semantic judgment*" ($t \in T$) as a goal to prove internally. The rules ensure that these two ways of expressing an element of a type are interderivable. From this point on, ($\Gamma \vdash ? \Vdash T$) will be written as just ($\Gamma \vdash T$), although it remains informal.
 
 ### Abbreviations
 
@@ -166,7 +166,45 @@ $\frac{\Gamma \vdash A\,type}{\Gamma \vdash p \Vdash Comp \prec A}$
 
 ### Equality
 
+A reflexivity rule, but any term can be the proof:
+
+$\frac{\Gamma \vdash t \Vdash T}{\Gamma \vdash p \Vdash t = t \in T}$
+
+Terms participating in equality are elements. Normally this would only be admissible, but in CLF, it comes in handy to make it into "selectivity" rules:
+
+$\frac{\Gamma \vdash p \Vdash t1 = t2 \in T}{\Gamma \vdash t1 \Vdash T}$
+
+$\frac{\Gamma \vdash p \Vdash t1 = t2 \in T}{\Gamma \vdash t2 \Vdash T}$
+
+Note that the above equality rules make ($\Gamma \vdash t \Vdash T$) and ($\Gamma \vdash t \in T$) interderivable, as promised.
+
+We use a "subsumptive" rewrite rule as equality elimination. "Subsumptive" refers to the property that the proof of the type we rewrite in is unaffected. The terminology "subsumptive" for this is new to CLF, although this is effectively the same equality elimination rule as in Nuprl. The terminology comes from "subsumptive" vs "coercive" implementations of subtyping. Note that formally, CLF has no typed judgmental equality. Semantically, it's an [[extensional type theory]], but the semantic equality judgment is implemented as the equality type. This is sound due to equality reflection. So this rule is semantically a consequence of equality reflection, equality substitution, and (typed) conversion. As with equality reflection, the proof of equality is irrelevant:
+
+$\frac{\Gamma,x:A \vdash B\,type \qquad
+\Gamma \vdash p \Vdash a1 = a2 \in A \qquad
+\Gamma \vdash b \Vdash B[a1/x]}
+{\Gamma \vdash b \Vdash B[a2/x]}$
+
+Any two terms are equal as the (consequently unique) proof of a true equality:
+
+$\frac{\Gamma \vdash t \Vdash T}
+{\Gamma \vdash q \Vdash p1 = p2 \in (t = t \in T)}$
+
+That means $\top$ too, which is thus the maximum PER, ordered by subtyping. (Well, just as soon as we make $tru$ an element of $Bool$.)
+
 ### Functions
+
+We have the standard application rule, and a variant of function extensionality:
+
+$\frac{\Gamma \vdash f \Vdash \Pi x:A.B \qquad
+\Gamma \vdash a \Vdash A}
+{\Gamma \vdash f\,a \Vdash B[a/x]}$
+
+$\frac{\Gamma \vdash A\,type \qquad
+\Gamma,x:A \vdash p \Vdash f\,x = f'\,x \in B}
+{\Gamma \vdash q \Vdash f = f' \in \Pi x:A.B}$
+
+Unconventionally, we consider function extensionality to be the $\Pi$ intro rule, and derive the fact that lambdas implement functions.
 
 ### Intersection
 
