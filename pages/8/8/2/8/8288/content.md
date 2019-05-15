@@ -585,7 +585,7 @@ The formally dual statement of prop \ref{MapsOutOfExactIntoInjectiveAreNullHomot
 +-- {: .num_prop #MapsProjectiveIntoExactAreNullHomotopic}
 ###### Lemma
 
-Let $f_\bullet : P_\bullet \to Y_\bullet$ be a [[chain map]] of [[chain complexes]] in non-negative degree, into an [[exact sequence|exact complex]] $0 \simeq_{qi} Y_\bullet$ from a degreewise [[projective object|projective]] complex $X^\bullet$. Then there is a [[null homotopy]] 
+Let $f_\bullet : P_\bullet \to Y_\bullet$ be a [[chain map]] of [[chain complexes]] in non-negative degree, into an [[exact sequence|exact complex]] $0 \simeq_{qi} Y_\bullet$ from a degreewise [[projective object|projective]] complex $P^\bullet$. Then there is a [[null homotopy]] 
 
 $$
   \eta : 0 \Rightarrow f_\bullet
