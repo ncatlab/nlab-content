@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Duality in string theory
++-- {: .hide}
+[[!include duality in string theory -- contents]]
+=--
 #### String theory
 +-- {: .hide}
 [[!include string theory - contents]]
@@ -10,14 +14,6 @@
 +--{: .hide}
 [[!include Langlands correspondence -- contents
 ]]
-=--
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
-=--
-#### Duality
-+--{: .hide}
-[[!include duality - contents]]
 =--
 =--
 =--
