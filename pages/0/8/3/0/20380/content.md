@@ -58,6 +58,7 @@ $$
 
 
 ### SemiSpin(8)
+ {#SemiSpin8}
 
 While also for [[Spin(8)]] it is the case that the [[center]] contains two copies of [[Z/2]], $Z\big( Spin(8)\big) \simeq  \mathbb{Z}_2 \times \mathbb{Z}_2$, in this case the existence of [[triality]] [[automorphisms]] actually makes these two copies behave identically, so that here the would-be semi-spin groups happens to coincide with [[SO(8)]] after all:
 
@@ -66,7 +67,7 @@ $$
   \;\simeq\;
   SO(8)
   \;\simeq\;  
-  Spin(8)/_{\iota} / \mathbb{Z}_2
+  Spin(8)/_{\iota} \mathbb{Z}_2
 $$
 
 (e.g. [McInnes 99a, p. 9](#McInnes99a))
