@@ -58,6 +58,10 @@ and
 
 > If the current [[M-theory]] is a _unique theory_, one should expect it to make use of singular, non-generic mathematical structures. Now it is known that many of the special objects in mathematics are related to [[octonions]], and therefore it is not surprising that this putative _theory-of-everything_ should display geometric and algebraic structures derived from this unique non-associative [[normed division algebra|division algebra]].
 
+[Toppan 03](#Toppan03) writes
+
+> There is a growing interest in the logical possibility that exceptional  mathematical structures (exceptional Lie and superLie algebras, the exceptional Jordan algebra, etc.) could be linked to an ultimate "exceptional" formulation for a Theory Of Everything (TOE). The maximal division algebra of the octonions can be held as the mathematical responsible for the existence of the exceptional structures mentioned above.
+
 [Moore 14](#Moore14) writes, in a survey of the state of [[mathematical physics]] applied to fundamental high energy physics ("Physical Mathematics"):
 
 > it must be said that much of Physical Mathematics has a predilection
@@ -101,3 +105,5 @@ to have evidence to the contrary.
 * {#Vafa15} [[Cumrun Vafa]], _Reflections on F-theory_, 2015 ([pdf](http://f-theory15.mpp.mpg.de/talks/Vafa.pdf))
 
 * {#Penrose15} [[Roger Penrose]], _Twistor theory_, talk at _[[New Spaces for Mathematics and Physics]]_, IHP Paris 2015 ([video recording](https://www.youtube.com/watch?v=kmYfYOW0vSg))
+
+* {#Toppan03} [[Francesco Toppan]], _Exceptional Structures in Mathematics and Physics and the Role of the Octonions_, ([arXiv:hep-th/0312023](https://arxiv.org/abs/hep-th/0312023))
