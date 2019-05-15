@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Duality
-+--{: .hide}
-[[!include duality - contents]]
+#### Duality in string theory
++-- {: .hide}
+[[!include duality in string theory -- contents]]
 =--
 #### String theory
 +-- {: .hide}
