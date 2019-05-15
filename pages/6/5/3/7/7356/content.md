@@ -35,6 +35,8 @@ Or rather, this is [[type IIB string theory]] with some [[non-perturbative effec
 ### Relation to M-theory
  {#From11dSupergravity}
 
+The [[duality between M-theory and F-theory]]:
+
 The following line of argument shows why first compactifying M-theory on a torus $S_1^A \times S_1^B$ to get type IIA on a circle and then T-dualizing that circle to get type IIB indeed only depends on the shape $\frac{R_A}{R_B}$ of the torus, but not on its other geometry.
 
 By the [[dualities in string theory]], 10-dimensional [[type II string theory]] is supposed to be obtained from the [[UV-completion]] of [[11-dimensional supergravity]] by first [[Kaluza-Klein mechanism|dimensionally reducing]] over a circle $S^1_A$ -- to obtain [[type IIA supergravity]] -- and then applying [[T-duality]] along another circle $S^1_B$ to obtain [[type IIB supergravity]].
