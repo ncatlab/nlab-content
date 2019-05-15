@@ -3,6 +3,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Exceptional structures
++-- {: .hide}
+[[!include exceptional structures -- contents]]
+=--
 #### Lie theory
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
@@ -16,6 +20,8 @@
 {:toc}
 
 ## Idea
+
+The _exceptional Lie algebras_ are the [[exceptional structures]] among the [[simple Lie algebras]]:
 
 The classification of the [[simple Lie algebras]] consists of a few infinite series together with a [[finite number]] of examples, called _exceptional Lie algebras_. The [[simple Lie groups]] that these correspond to are the _[[exceptional Lie groups]]_, see there for more.
 
