@@ -23,6 +23,8 @@
 
 ## Idea
 
+The _exceptional Lie groups_ are the [[exceptional structures]] among the [[simple Lie groups]].
+
 The classification of [[simple Lie group]]s consists of four infinite series -- the [[classical Lie group]]s, and five exceptional Lie groups, called
 
 * [[G2]], [[F4]], [[E6]], [[E7]], and [[E8]].
