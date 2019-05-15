@@ -79,6 +79,8 @@ This observation opens the door to a widened interpretation of "interpretation" 
 
 * [[diagram of a first-order structure]]
 
+* [[exceptional structure]]
+
 ## References
 
 Standard textbook accounts include
