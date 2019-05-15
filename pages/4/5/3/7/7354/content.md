@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include string theory - contents]]
 =--
+#### Duality in string theory
++-- {: .hide}
+[[!include duality in string theory -- contents]]
+=--
 =--
 =--
 
@@ -18,23 +22,37 @@
 
 Whatever it is otherwise, [[string theory]] turns out to be an organizational principle that subsumes a wealth of [[effective quantum field theories]] together with hints for their [[UV-completion]]. As such, string theory reveals a multitude of equivalences between superficially very different-looking (classes of) quantum field theories, or between various limits (notably strong/weak coupling limits) of various different-looking quantum field theories. Large classes of these equivalences go by the name of "dualities":
 
+## Examples
+
+The general duality principles in string theory are these:
+
 * **[[T-duality]]**, [[mirror symmetry]]
 
 * **[[S-duality]]**, [[electric-magnetic duality]]
 
 * **[[U-duality]]** .
 
-Then there are the "string-string dualities":
-
-* [[duality between F-theory and heterotic string theory]]
+By applying these, possibly cosecutively, to various corners in the string theory space, one obtains (conjecturally) the following "string-string dualities":
 
 * [[duality between type I and heterotic string theory]]
+
+* [[duality between M-theory and heterotic string theory]]
 
 * [[duality between M-theory and type IIA superstring theory]].
 
 * [[duality between M-theory on Z2-orbifolds and type IIB string theory on K3-fibrations]]
 
-* the [[AdS/CFT correspondence]].
+* [[duality between M-theory and F-theory]]
+
+* [[duality between F-theory and heterotic string theory]]
+
+
+[[duality in string theory -- contents]]
+
+
+Then there is also the
+
+* [[AdS/CFT correspondence]].
 
 ## Overview 
  {#Overview}
