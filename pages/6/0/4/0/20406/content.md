@@ -37,7 +37,7 @@ See also
 
 * Wikipedia, _[Exceptional object](https://en.wikipedia.org/wiki/Exceptional_object#Monstrous_moonshine)_
 
-* Yang-Hui He, [[John McKay]], _Sporadic and Exceptional_, ([arXiv:1505.06742](https://arxiv.org/abs/1505.06742))
+* [[Yang-Hui He]], [[John McKay]], _Sporadic and Exceptional_, ([arXiv:1505.06742](https://arxiv.org/abs/1505.06742))
 
 
 [[!redirects exceptional structures]]
