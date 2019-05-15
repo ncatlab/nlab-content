@@ -41,18 +41,23 @@ O-planes carry effective negative [[RR-charge]] which may (must) cancel against 
 #### For flat orientifolds
  {#OPlaneChargeForFlatOrientifolds}
 
-The charge of the [[spacetime]]-filling $O9$-plane of plain [[type I string theory]] ([[type II string theory]] on the [[orientifold]] $\mathbb{R}^{9,1}\sslash \mathbb{Z}_2$ with [[trivial action|trival]] spacetime $\mathbb{Z}_2$-[[action]]) is found by [[worldsheet]]-computation to be 
+The charge of the [[spacetime]]-filling $O9$-plane of plain [[type I string theory]] ([[type II string theory]] on the [[orientifold]] $\mathbb{R}^{9,1}\sslash \mathbb{Z}_2$ with [[trivial action|trival]] spacetime $\mathbb{Z}_2$-[[action]]) is found by [[worldsheet]]-computation to be $-32$ in [[physical unit|units]] of [[D9]]-[[D-brane charge|brane charge]]:
 
 \[
   \label{O9PlaneCharge}
-  \mu_{O9}
+  q_{O9}
   \;=\;
   -32
+  \,
+  q_{D9}
 \]
+
+
 
 (e.g. [Blumenhagen-Lüst-Theisen 13 (9.83)](#BlumenhagenLustTheisen13)).
 
-This means that [[RR-field tadpole cancellation]] here requires the presence of 32 [[D-branes]], hence a space-filling [[D9-brane]] with [[Chan-Paton bundle]] of [[rank of a vector bundle|rank]] $32$, corresponding to a [[gauge group]] SO(32). For more on this see at _[[type I string theory]] -- [Tadpole cancellation and SO(32)-GUT](type+I+string+theory#TadpoleCancellationAndSO32GUT)_
+This means that [[RR-field tadpole cancellation]] here requires the presence of 32 [[D-branes]] (or rather: 16 and their $\mathbb{Z}_2$-mirror images), hence a space-filling [[D9-brane]] with [[Chan-Paton bundle]] of [[rank of a vector bundle|rank]] $32$, corresponding to a [[gauge group]] [[SO(32)]]. For more on this see at _[[type I string theory]] -- [Tadpole cancellation and SO(32)-GUT](type+I+string+theory#TadpoleCancellationAndSO32GUT)_.
+
 
 From this the O$p$-brane charge for $p \leq n$ follows from [[T-duality]] (as [above](#TDualityWithTypeIStringTheory))
 with respect to [[KK-compactification]] on a [[n-torus|d-torus]] $\mathbb{T}^d$ with $\mathbb{Z}_2$-[[action]] given by canonical [[coordinate function|coordinate]] [[reflection]]
@@ -77,37 +82,37 @@ This results in $O_{9-d}$-planes with [[worldvolume]] $\mathbb{R}^{10-d-1,1}$. B
 Since the number of [[D-branes]] does not change under [[T-duality]], the total O-plane charge should be the same as before
 
 $$
-  2^d \cdot \mu_{O_{9-d}}
+  2^d \cdot q_{O(9-d)}
   \;=\;
-  1 \cdot \mu_{O_9}
+  1 \cdot q_{O9}
   \;=\;
-  -32
+  -32 \cdot q_{D9}
   \;=\;
-  - 2^5
+  - 2^5 \cdot q_{D9}
 $$
 
-which means that the $O_{9-d}$-brane charge is
+which means that the $O(9-d)$-plane charge is
 
 $$
-  \mu_{O_{9-d}}
+  q_{O(9-d)}
   \;=\;
-  - 2^{5-d}
+  - 2^{5-d} \cdot q_{D(p-d)}
 $$
 
 or equivalently
 
 \[
   \label{OpPlaneCharge}
-  \mu_{O_p}
+  q_{O p}
   \;=\;
-  - 2^{ p - 4 }
+  - 2^{ p - 4 } \cdot q_{D p}
 \]
 
 (e.g. [Ibáñez-Uranga 12 (5.52)](#IbanezUranga12), [Blumenhagen-Lüst-Theisen 13 (10.212)](#BlumenhagenLustTheisen13))
 
 {#TableOfOPlaneCharges} In summary, we have the following table of O-plane charges on [[flat orbifolds]]:
 
-| $Op$-plane | charge <br/> $\mu_{Op}$| transverse <br/> [[n-torus|d-torus]] | [[fixed points]] <br/> $\left\vert\left( \mathbb{T}^d\right)^{\mathbb{Z}_2}\right\vert$ |
+| $Op$-plane | charge <br/> $q_{O p}/q_{D p}$| transverse <br/> [[n-torus|d-torus]] | [[fixed points]] <br/> $\left\vert\left( \mathbb{T}^d\right)^{\mathbb{Z}_2}\right\vert$ |
 |------------|--------|-------|----| 
 | $O9$ | $-32$ | $\mathbb{T}^0$  | $\phantom{1}1$ |
 | $O8$ | $-16$ | $\mathbb{T}^1$  | $\phantom{1}2$ |
@@ -116,7 +121,7 @@ or equivalently
 | $O5$ | $-\phantom{1}2$ | $\mathbb{T}^4$  |  $16$ | 
 | $O4$ | $-\phantom{1}1$ | $\mathbb{T}^5$  |  $32$ |
 
-In particular the O4-plane has negative unit charge, so that the total charge of $-32$ here comes entirely from the number $32 = 2^5$ of [[fixed points]] of the $\mathbb{Z}_2$-[[action]] on $\mathbb{T}^5$.
+In particular the O4-plane has negative unit charge (in [[physical unit|units]] of [[D4]]-[[D-brane charge|brane charge]] $q_{D4}$), so that the total charge of $-32$ here comes entirely from the [[number]] $32 = 2^5$ of [[fixed points]] of the $\mathbb{Z}_2$-[[action]] on $\mathbb{T}^5$.
 
 O-plane charges of different dimension may be present
 
@@ -131,7 +136,7 @@ O-plane charges of different dimension may be present
 #### In the presence of discrete torsion
 {#WithDiscreteTorsion} 
 
-In the presence of [[discrete torsion]] in the [[B-field]] and/or the [[RR-fields]], this charge structure of orientifold planes on [[flat orbifolds]] gets further modified ([Bergman-Gimon-Sugimoto 01, Sec. 1](#BergmanGimonSugimoto01)):
+In the presence of [[discrete torsion]] in the [[B-field]] and/or the [[RR-fields]], this charge structure of orientifold planes on [[flat orbifolds]] gets further modified ([Hanany-Kol 00, Sec. 2.1](#HananyKol00), see [Bergman-Gimon-Sugimoto 01, Sec. 1](#BergmanGimonSugimoto01)):
 
 
 \begin{center}
@@ -143,7 +148,8 @@ In the presence of [[discrete torsion]] in the [[B-field]] and/or the [[RR-field
 
 > graphics grabbed from [Bergman-Gimon-Sugimoto 01](#BergmanGimonSugimoto01)
 
-
+(In comparing this table with the above [above table](#TableOfOPlaneCharges),
+notice that this shows the Op-plane charge in [[physical unit|units]] of $q_{Dq} \coloneqq 1/2$.)
 
 #### In differential equivariant KR-theory
 
@@ -279,7 +285,7 @@ Lift to [[M-theory]]:
 
 * {#GKSTY02} E. Gorbatov, V.S. Kaplunovsky, J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, section 3 of _On Heterotic Orbifolds, M Theory and Type I' Brane Engineering_, JHEP 0205:015, 2002 ([arXiv:hep-th/0108135](https://arxiv.org/abs/hep-th/0108135))
 
-* {#HananyKol00} [[Amihay Hanany]], [[Barak Kol]], section 3 of _On Orientifolds, Discrete Torsion, Branes and M Theory_, JHEP 0006 (2000) 013 ([arXiv:hep-th/0003025](https://arxiv.org/abs/hep-th/0003025))
+* {#HananyKol00} [[Amihay Hanany]], [[Barak Kol]], _On Orientifolds, Discrete Torsion, Branes and M Theory_, JHEP 0006 (2000) 013 ([arXiv:hep-th/0003025](https://arxiv.org/abs/hep-th/0003025))
 
 * {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_ ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
 
