@@ -1,7 +1,6 @@
 
-**[[exceptional structures]]**
+**[[exceptional structures]]**, [[exceptional isomorphisms]]
 
-* [[exceptional isomorphism]]
 
 ## Examples
 
@@ -33,7 +32,25 @@
 
 * [[exceptional Lie algebras]]
 
-* [[exceptional Jordan algebra]]
+* [[exceptional Jordan algebra]], [[Albert algebra]]
+
+* [[Leech lattice]] 
+
+* [[Cayley plane]]
+
+## Interrelations
+
+* [[supersymmetry and division algebras]]
+
+* [[Freudenthal magic square]]
+
+* [[moonshine]]
+
+  * [[Mathieu moonshine]]
+
+  * [[umbral moonshine]]
+
+  * [[O'Nan moonshine]]
 
 
 ## Applications
