@@ -6,9 +6,13 @@
 +--{: .hide}
 [[!include supergeometry - contents]]
 =--
-#### $\infty$-Lie theory
+#### Lie theory
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
+=--
+#### Exceptional structures
++-- {: .hide}
+[[!include exceptional structures -- contents]]
 =--
 =--
 =--
