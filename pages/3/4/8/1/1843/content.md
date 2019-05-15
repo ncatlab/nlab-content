@@ -135,8 +135,7 @@ and for the refinement to the [[superstring]] in
 
 * [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Precis_ in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics volume 83 AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795))
 
-* [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Spin structures and superstrings_ ([arXiv:1007.4581](http://arxiv.org/abs/1007.4581))
-
+* {#DistlerFreedMooreII} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Spin structures and superstrings_, Surveys in Differential Geometry, Volume 15 (2010) ([arXiv:1007.4581](http://arxiv.org/abs/1007.4581), [doi:10.4310/SDG.2010.v15.n1.a4](http://dx.doi.org/10.4310/SDG.2010.v15.n1.a4))
 See at _[[orientifold]]_ for more on this.
 
 The role of the KR field in [[twisted K-theory]] is discussed a bit also in 
