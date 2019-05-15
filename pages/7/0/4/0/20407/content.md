@@ -37,7 +37,7 @@ Under the [[duality between type I and heterotic string theory]] this translates
 
 * [[Arkady Tseytlin]], _Heterotic - type I superstring duality and low-energy effective actions_, Nucl.Phys.B467:383-398, 1996 ([arXiv:hep-th/9512081](https://arxiv.org/abs/hep-th/9512081))
 
-* {#APT98} I. Antoniadis, H. Partouche, T.R. Taylor, _Lectures on Heterotic-Type I Duality_, Nucl.Phys.Proc.Suppl. 61A (1998) 58-71; Nucl.Phys.Proc.Suppl. 67 (1998) 3-1
+* {#APT98} I. Antoniadis, H. Partouche, T.R. Taylor, _Lectures on Heterotic-Type I Duality_, Nucl.Phys.Proc.Suppl. 61A (1998) 58-71 ([arXiv:hep-th/9706211](https://arxiv.org/abs/hep-th/9706211))
 
 See also
 
