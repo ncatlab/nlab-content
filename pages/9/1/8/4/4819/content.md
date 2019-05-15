@@ -10,9 +10,9 @@
 +--{: .hide}
 [[!include differential cohomology - contents]]
 =--
-#### Duality
-+--{: .hide}
-[[!include duality - contents]]
+#### Duality in string theory
++-- {: .hide}
+[[!include duality in string theory -- contents]]
 =--
 #### Langlands correspondence
 +--{: .hide}
