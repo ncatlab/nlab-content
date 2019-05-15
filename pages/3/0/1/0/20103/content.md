@@ -128,7 +128,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The underlying [[set]] of $\mathbb{Z}_{2n+1}$ constitutes the canonical [[linear basis]] of $k[\mathbb{Z}_{2n+1}]$. Moreover, this carries a canonical [[linear order]] $(e, g_2, g_2, \cdots, g_{2n+1})$. With respect to this ordering, the [[action]] of each group element $g \in \mathbb{Z}_n$ is by a [[cyclic permutation]]. Since for [[odd number]] of elements the [[signature of a permutation|signature]] of a [[cyclic permutation]] is $+1$, it follows that for every group element
+The underlying [[set]] of $\mathbb{Z}_{2n+1}$ constitutes the canonical [[linear basis]] of $k[\mathbb{Z}_{2n+1}]$. Moreover, this carries a canonical [[linear order]] $(e, g_1, g_2, \cdots, g_{2n+1})$. With respect to this ordering, the [[action]] of each group element $g \in \mathbb{Z}_n$ is by a [[cyclic permutation]]. Since for [[odd number]] of elements the [[signature of a permutation|signature]] of a [[cyclic permutation]] is $+1$, it follows that for every group element
 
 $$
   g(e \wedge g_1 \wedge \cdots \wedge g_{2n+1})
