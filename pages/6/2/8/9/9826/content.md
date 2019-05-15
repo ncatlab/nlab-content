@@ -74,10 +74,10 @@ It follows that every Desarguesian projective line can be embedded into a Desarg
 
 ## References
 
-* {#BeutelspacherRosenbaum} Albrecht Beutelspacher and Ute Rosenbaum, *Projective Geometry: from foundations to applications*.  Cambridge University Press, 1998
+* {#BeutelspacherRosenbaum} Albrecht Beutelspacher and Ute Rosenbaum, *Projective Geometry: from foundations to applications*.  Cambridge University Press, 1998. ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/beutel.pdf))
 
-* {#Buekenhout74} Francis Buekenhout, *Foundations of one Dimensional Projective Geometry based on Perspectivities*.  Abhandlungen aus dem Mathematischen Seminar der Universit&#228;t Hamburg, 43 (1975) 21-29
+* {#Buekenhout74} Francis Buekenhout, *Foundations of one Dimensional Projective Geometry based on Perspectivities*.  Abhandlungen aus dem Mathematischen Seminar der Universit&#228;t Hamburg, 43 (1975) 21-29. doi:[10.1007/BF02995931](https://doi.org/10.1007/BF02995931)
 
-* {#BuekenhoutCohen} Francis Buekenhout and Arjeh M. Cohen, *Diagram Geometry: Related to Classical Groups and Buildings*.  Springer, 2013 ([author pdf](http://www.win.tue.nl/~amc/buek/))
+* {#BuekenhoutCohen} Francis Buekenhout and Arjeh M. Cohen, *Diagram Geometry: Related to Classical Groups and Buildings*.  Springer, 2013, doi:[10.1007/978-3-642-34453-4](https://doi.org/10.1007/978-3-642-34453-4) ([author pdf](http://www.win.tue.nl/~amc/buek/))
 
 [[!redirects projective lines]]
