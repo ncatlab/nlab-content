@@ -31,7 +31,7 @@ The [[semi-spin group]] in [[dimension]] 32.
 
 In [[heterotic string theory]] precisely two ([[isomorphism classes]] of) [[gauge groups]] are consistent (give [[quantum anomaly cancellation]]): one is the [[direct product group]] $E_8 \times E_8$ of the [[exceptional Lie group]] [[E8]] with itself, the other is in fact the [[semi-spin group]] $SemiSpin(32)$ (see [McInnes 99a, p. 5](#McInnes99a)). 
 
-Beware  that the [[string theory]] literature often writes this as $Spin(32)/\mathbb{Z}_2$, which is at best ambiguous and misleading, or even as $SO(32)$, which is wrong. Of course this follows the general tradition in the [[physics]] literature to write identifications of [[Lie groups]] that are really only identifications of their [[Lie algebras]], see also ["SO(10)-GUT theory"](GUT#TheGUTKnownAsSO10).
+Beware  that the [[string theory]] literature often writes this as [[Spin(32)]]$/\mathbb{Z}_2$, which is at best ambiguous and misleading, or even as [[SO(32)]], which is wrong. Of course this follows the general tradition in the [[physics]] literature to write identifications of [[Lie groups]] that are really only identifications of their [[Lie algebras]], see also ["SO(10)-GUT theory"](GUT#TheGUTKnownAsSO10).
 
 
 ## Related entries
