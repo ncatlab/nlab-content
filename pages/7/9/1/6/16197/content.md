@@ -39,7 +39,7 @@ With respect to this data, the Starobinsky model (or "$R^2$ inflation") is the m
 {#Figure1} <img src="https://ncatlab.org/nlab/files/PlanckData.jpg" width="800">
 
 
-This remains true with the data of ([PlanckCollaboration 15](#PlanckCollaboration15)), see ([PlanckCollaboration 15 XIII, figure 22](#PlanckCollaboration15XIII)), which gives the following (from [here](http://resonaances.blogspot.se/2015/02/weekend-plot-inflation15.html)):
+This remains true with the data of ([PlanckCollaboration 15](#PlanckCollaboration15)), see ([PlanckCollaboration 15 XIII, figure 22](#PlanckCollaboration15XIII)) and in the final analysis ([PlanckCollaboration 18X, Fig 8](#PlanckCollaboration18X)), which gives the following (from [here](http://resonaances.blogspot.se/2015/02/weekend-plot-inflation15.html)):
 
 {#Figure2} <img src="https://ncatlab.org/nlab/files/InflationPlanck2015.jpg" width="800">
 
@@ -89,7 +89,7 @@ and the analysis of its predictions is due to
 
 The experimental data supporting the model is due to 
 
-* {#PlanckCollaboration13} [[Planck Collaboration]] _Planck 2013 results. XXII. Constraints on inflation_ ([arXiv:1303.5082](http://arxiv.org/abs/1303.5082))
+* {#PlanckCollaboration13} [[Planck Collaboration]], _Planck 2013 results. XXII. Constraints on inflation_ ([arXiv:1303.5082](http://arxiv.org/abs/1303.5082))
 
 * {#BICEPKeckPlanck15} [[Planck Collaboration]], [[BICEP2]] _A Joint Analysis of BICEP2/Keck Array and Planck Data_ ([arXiv:1502.00612](http://arxiv.org/abs/1502.00612))
 
@@ -99,6 +99,7 @@ The experimental data supporting the model is due to
 
 * {#PlanckCollaboration15XX} [[Planck Collaboration]], _Planck 2015 results. XX. Constraints on inflation_ ([arXiv:1502.02114](http://arxiv.org/abs/1502.02114))
 
+* {#PlanckCollaboration18X} [[Planck Collaboration]], _Planck 2018 results. X. Constraints on inflation_ ([arXiv:1807.06211](https://arxiv.org/abs/1807.06211))
 
 Review and exposition includes
 
