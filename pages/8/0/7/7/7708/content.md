@@ -72,6 +72,7 @@ Generally the [[forgetful functor]] from a category of algebras over an [[algebr
 
 * [[Birkhoff's HSP theorem]]
 
+* [[exceptional structure]]
 
 ## References
 
