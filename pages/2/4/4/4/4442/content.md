@@ -6,12 +6,14 @@
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
 =--
-#### Phyics
-+--{: .hide}
-[[!include physicscontents]]
+#### Duality in string theory
++-- {: .hide}
+[[!include duality in string theory -- contents]]
 =--
 =--
 =--
+
+
 
 
 #Contents#
@@ -513,9 +515,9 @@ Further reviews include the following:
 [[!redirects AdS/CFT]]
 
 [[!redirects AdS/CFT correspondence]]
+
 [[!redirects AdS-CFT correspondence]]
 [[!redirects AdS-CFT correspondence]]
-[[!redirects AdS/CFT correspondence]]
 
 [[!redirects AdS-CFT duality]]
 
