@@ -1,3 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### Exceptional structures
++-- {: .hide}
+[[!include exceptional structures -- contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 The Mathieu groups, denoted $M_{11}$, $M_{12}$, $M_{22}$, $M_{23}$ and $M_{24}$ are [[sporadic finite simple groups]]. They were first described in the 1860-70s by &#201;mile Mathieu, and the first such groups to be discovered.
 
 The orders of the groups are as follows:
