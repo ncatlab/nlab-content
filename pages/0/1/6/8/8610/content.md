@@ -96,9 +96,9 @@ $$
 
 * [[John Tate]], _Galois cohomology_ ([pdf](http://modular.math.washington.edu/edu/2010/582e/refs/tate-galois_cohomology.pdf))
 
-* [[Jean-Pierre Serre]], _Galois cohomology_, Springer Monographs in Mathematics (1997)
+* [[Jean-Pierre Serre]], _Galois cohomology_, Springer Monographs in Mathematics (1997) doi:[10.1007/978-3-642-59141-9](https://doi.org/10.1007/978-3-642-59141-9)
 
-  _Cohomologie galoisienne_, Lecture Notes in Mathematics, 5 (Fifth ed. 1994), Springer-Verlag, MR1324577
+  _Cohomologie galoisienne_, Lecture Notes in Mathematics, 5 (Fifth ed. 1994), Springer-Verlag, MR1324577 doi:[10.1007/BFb0108758)](https://doi.org/10.1007/BFb0108758)
 
 
 * Gr&#233;gory Berhuy, _An introduction to Galois cohomology and its applications_ ([pdf](http://www-fourier.ujf-grenoble.fr/~berhuy/fichiers/NTUcourse.pdf))
