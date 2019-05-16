@@ -180,7 +180,7 @@ $$
 
 =--
 
-### In terms sheaves on a slice site
+### In terms of sheaves on a slice site
   {#PresheafOverTopos}
 
 
@@ -196,7 +196,7 @@ $$
 
 between the [[category of sheaves]] on the [[slice category]] $C/c$ with its evident induced [[structure]] of a [[site]], and the [[slice topos]] of the category of sheaves on $C$, sliced over $L(y(c))$.
 
-This is for instance in Verdier's exposé III.5 prop.5.4 ([[SGA4]], p.295).
+This is for instance in Verdier's exposé III.5 prop.5.4 ([SGA4](#SGA4), p.295).
 
 \linebreak
 
@@ -426,6 +426,8 @@ The claim then follows with the assumption that $\mathcal{E}$ has enough points.
   * [[over-(∞,1)-topos]]
 
 ## References
+
+* {#SGA4}[[Michael Artin]], [[Alexander Grothendieck]], [[Jean-Louis Verdier]], _Théorie des Topos et Cohomologie Etale des Schémas ([[SGA4]])_, Springer **LNM** vol.269 (1972). (In particular, exposé III.5 and exposé IV.5 on the "induced topos" - _topos induit_ = slice topos)
 
 * {#KS06} [[Masaki Kashiwara]], [[Pierre Schapira]], _Categories and Sheaves_ , Springer Heidelberg 2006.
 
