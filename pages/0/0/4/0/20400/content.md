@@ -316,6 +316,75 @@ $$\frac{\Gamma \vdash T\,type \qquad
 \Gamma \vdash p \Vdash \bottom}
 {\Gamma \vdash t \Vdash T}$$
 
+## Discussion
+
+### Admissible rules
+
+#### Structural rules
+
+The structural rules of weakening and substitution are admissible. "Strengthening" is not. Nonadmissibility of strengthening means: just because a variable isn't free in the conclusion doesn't mean the derivation isn't using it. This is typical of "extensional type theory". Typically it's considered all the fault of equality reflection, which may be technically true for some systems. But Nuprl turned this apparent bug into a feature: subsets and intersections provide flexible control over which proofs make it into the computational content, and which are merely establishing external facts. Computational irrelevance is implemented by literally omitting the irrelevant proofs from terms. This leads to the lack of strengthening, and to undecidable type checking. The restriction imposed by equality reflection is that equality proofs never have computational content.
+
+CLF follows Nuprl in trying to give the user maximum control over the terms used to represent elements. The hope is that with care, this can allow significantly greater convenience and performance than with decidable dependent type systems, which are committed to retaining enough annotations to effectively reject ill-typed terms.
+
+#### Sanity and Inversion
+
+You'd think a statement should make sense before you try to prove it. And likewise, that a type should be valid before you try to construct an element. But in practice, it also works to consider a typed construction as providing evidence that the type makes sense. Specifically, the only way to derive ($\Gamma \vdash t \Vdash T$) is if you could also derive ($\Gamma \vdash T\,type$). That's a "sanity check" admissible rule. It's *probably* admissible for the judgments defined by the rules above.
+
+Also, since the only way to derive type validity in this system (not using the sanity admissible rule) is to use a type former, a derivation of type validity implies that there are derivations of validity for the subexpressions of the type expression. These are "inversion" admissible rules.
+
+#### Admissible Rules vs PER Semantics
+
+For full Nuprl, it seems practically impossible to prove admissibility of sanity or inversion, if they're not just included among the primitive rules. But they *can* be included among the primitive rules, because they're true in the semantics. Due to the way hypothetical judgments are defined, making the inversion rules true requires making type equality intensional.
+
+The above rules are the result of an experiment to reason about formal derivability in a Nuprl-style system. In the PER semantics that the above rules were based on, type equality is extensional. So the basic rules directly satisfied were more complicated, since they needed extra premises that inversion would've made redundant. The above rules are actually admissible rules relative to those basic rules. Sanity and inversion are "probably" admissible for the above rules because what's actually known is that they're admissible for the basic rules; they were in fact used to prove the above rules.
+
+So the experiment was partially successful, but I (Matt Oliveri) don't recommend the approach. It cannot be easily adapted to handle universes, and some of the rules above still have type validity premises that a fully semantic approach could avoid.
+
+It may seem weird that Nuprl is based on a particular PER semantics, if you think of it as a mathematical model. But if you think of it as a proof theoretic technique that reasons about realizability instead of formal derivability, perhaps it's more palatable.
+
+Thinking that way, all the consequences of the PER semantics are like admissible rules, and can be added to the formal system if they're useful. But it still seems like a good idea to try and find a stable formal system with enough rules that incompleteness is not a problem in practice.
+
+This raises questions though: If the formal rules of a Nuprl-style system are considered admissible, what defines the system? What are the mathematical models of Nuprl-style systems? If they're considered unnatural, should Nuprl-style systems be modified?
+
+In my (Matt Oliveri's) opinion, Nuprl-style systems are potentially relevant and useful to mathematics, but it's not currently clear exactly how that might work.
+
+#### Loose ends
+
+Now that we've covered the issue that the distinction between derivable and admissible doesn't really matter for this system, we can get to explaining particular aspects that may seem to be in particular need of an explanation.
+
+#### Equality uses respect which uses equality
+
+The equality formation rule refers to the respect ("$\prec$") relation. The latter is not primitive, it's defined in terms of equality. Is that OK? Yes: because of the rule that all types respect $Comp$, we get enough instances of equality formation to prove:
+
+$$\frac{\Gamma \vdash A\,type \qquad \Gamma \vdash B\,type}
+{\Gamma \vdash A \prec B\;type}$$
+
+If it still seems suspiciously circular, rest assured that in the semantics, respecting computational equivalence is more basic than anything in the type system. The rule about respecting $Comp$ just exposes the fact internally.
+
+Because every type respects itself, we get all the instances of equality formation from Martin-Löf type theory. Equality types beyond that are for reasoning about membership.
+
+#### Pi-intro is funny
+
+Not only is $\Pi$ intro not about lambdas, it's not apparently about elements at all; just equality. That's (one place) where the selectivity rules are handy. The function extensionality rule is strong enough to combine with selectivity to derive elements of function type. Proving that lambdas are functions additionally uses beta conversion. Lambdas are functions, not by fiat, but because they produce results when applied. Note that not all functions are lambdas. At the very least, the empty function is denoted by any term you like. That is, a function type with empty domain has the same PER as $\top$.
+
+#### Where are all the congruence rules?
+
+With such a small set of type constructors, it may be hard to tell, but congruence rules are rarely needed as primitives. Beta conversion was already defined as an untyped congruence closure, and for typed equality, the subsumptive rewrite rule does most of the work. The extensionality rules for $\Pi$ and $\cap$ are needed to help with binders and (our ersatz) hidden assumptions. That may turn out to handle everything, with this judgmental setup.
+
+### Semantic Judgmental Reflection
+
+### PER theory
+
+### Type Intensionality
+
+## More admissible rules
+
+### Fun with subsets
+
+### Bool eliminations
+
+### Subtyping (Conjectural)
+
 ## References
 
 * {#AnandRahliITP14} Abhishek Anand, Vincent Rahli, _Towards a Formally Verified Proof Assistant_, Interactive Theorem Proving (ITP) 2014 ([project web](http://www.nuprl.org/html/Nuprl2Coq/), [paper web](http://www.nuprl.org/KB/show.php?ID=726), [pdf](http://www.nuprl.org/documents/Anand/TowardsAFormallyVerifiedProofAssistant.pdf))
