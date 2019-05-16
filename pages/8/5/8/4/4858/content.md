@@ -16,8 +16,8 @@ He made fundamental contributions to the study of mathematical [[general relativ
 ### Mind-Maths-Matter
  {#MindMathsMatter}
 
-Penrose has discussed [[philosophy|philosophical]] questions 
-regarding the interplay of [[mathematics]], [[physics]] with the human [[mind]] ([Penrose 94, section 8.7](#Penrose94), [Penrose 05](#Penrose05)):
+Penrose has highlighted the subtle [[philosophy|philosophical]] issue of the  
+apparent interrelation of [[mathematics]], [[physics]] and the [[mind]] ([Penrose 94, section 8.7](#Penrose94), [Penrose 05](#Penrose05)):
 
 $$
   \array{
@@ -29,7 +29,7 @@ $$
   }
 $$
 
-There is some resonance here with the [[absolute idealism]] of the _[[Science of Logic]]_.
+Here the composite arrow from [[mind]] over [[logic]]/[[mathematics]] to nature/[[physics]] resonates with the [[absolute idealism]] of the _[[Science of Logic]]_.
 
 
 \begin{center}
