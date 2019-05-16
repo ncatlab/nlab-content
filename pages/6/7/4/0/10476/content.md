@@ -183,7 +183,7 @@ The "fine" homotopical structure on [[G-spaces]] (with fixed-point-wise weak equ
 
 The equivalence of the homotopy theory ([[homotopy category]]) of that to presheaves over the orbit category is then due to
 
-* [[Anthony Elmendorf]], _Systems of fixed point sets_, Trans. Amer. Math. Soc., 277(1):275&#8211;284, 1983.
+* [[Anthony Elmendorf]], _Systems of fixed point sets_, Trans. Amer. Math. Soc., 277(1):275&#8211;284, 1983 ([jstor:1999356](https://www.jstor.org/stable/1999356))
 
 which considered all closed subgroups of $G$.  Also
 
