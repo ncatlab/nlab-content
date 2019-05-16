@@ -389,6 +389,24 @@ With such a small set of type constructors, it may be hard to tell, but congruen
 
 ### Bool eliminations
 
+Combining ($Bool \lt\!\!:\;\Comp$) with the above elimination rule for $Bool$, you get this alternative elimination rule, where the motive is a family on $Comp$:
+
+$$\frac{\Gamma,x:Comp \vdash C\,type \qquad
+\Gamma \vdash c \Vdash C[tru/x] \qquad
+\Gamma \vdash c \Vdash C[fls/x] \qquad
+\Gamma \vdash b \Vdash Bool}
+{\Gamma \vdash c \Vdash C[b/x]}$$
+
+Curiously, you can go in the other direction too, and get both of the original rules from this one.
+
+To get the usual elimination rule, prove that Church booleans are self-eliminating functions:
+
+$$\frac{\Gamma,x:Bool \vdash C\,type \qquad
+\Gamma \vdash b \Vdash Bool}
+{\Gamma \vdash b \Vdash C[tru/x] \to C[fls/x] \to C[b/x]}$$
+
+This is reasoning about membership, so we really do want to know that $Bool$s are $Comp$s. The usual elimination rule then just applies $b$ at that function type.
+
 ### Subtyping (Conjectural)
 
 ## References
