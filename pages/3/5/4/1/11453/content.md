@@ -53,8 +53,20 @@ The charge of the [[spacetime]]-filling $O9$-plane of plain [[type I string theo
 \]
 
 
-
 (e.g. [Blumenhagen-Lüst-Theisen 13 (9.83)](#BlumenhagenLustTheisen13)).
+
+
+Beware that there is some convention involved in assigning an absolute value of unit D-brane charge $q_{D9}$. A common choice in the literature is to mean by "one D-brane" one of the two pre-images on the [[covering space]], in which case its obsolute charge is to be 
+
+\[
+  \label{DBraneChargeOnOrbifold}
+  q_{Dp}
+  \;=\;
+   1/2
+\]
+
+(e.g. [BDHKMMS 01, p. 46-47](#BDHKMMS01))
+
 
 This means that [[RR-field tadpole cancellation]] here requires the presence of 32 [[D-branes]] (or rather: 16 and their $\mathbb{Z}_2$-mirror images), hence a space-filling [[D9-brane]] with [[Chan-Paton bundle]] of [[rank of a vector bundle|rank]] $32$, corresponding to a [[gauge group]] [[SO(32)]]. For more on this see at _[[type I string theory]] -- [Tadpole cancellation and SO(32)-GUT](type+I+string+theory#TadpoleCancellationAndSO32GUT)_.
 
@@ -148,8 +160,8 @@ In the presence of [[discrete torsion]] in the [[B-field]] and/or the [[RR-field
 
 > graphics grabbed from [Bergman-Gimon-Sugimoto 01](#BergmanGimonSugimoto01)
 
-(In comparing this table with the above [above table](#TableOfOPlaneCharges),
-notice that this shows the Op-plane charge in [[physical unit|units]] of $q_{Dq} \coloneqq 1/2$.)
+(In comparing this last table with the [above table](#TableOfOPlaneCharges),
+notice that this shows the Op-plane charge in [[physical unit|units]] of $q_{Dq} \coloneqq 1/2$ as in (eq:DBraneChargeOnOrbifold).)
 
 #### In differential equivariant KR-theory
 
@@ -245,6 +257,8 @@ Other early accounts include
 * {#Witten98} [[Edward Witten]], section 5 of _D-branes and K-theory_, J. High Energy Phys., 1998(12):019, 1998 ([arXiv:hep-th/9810188](http://arxiv.org/abs/hep-th/9810188)) 
 
 * [[Sunil Mukhi]], Nemani V. Suryanarayana, _Gravitational Couplings, Orientifolds and M-Planes_, JHEP 9909 (1999) 017 ([arXiv:hep-th/9907215](https://arxiv.org/abs/hep-th/9907215))
+
+* {#BDHKMMS01} [[Jan de Boer]], [[Robbert Dijkgraaf]], [[Kentaro Hori]], [[Arjan Keurentjes]], [[John Morgan]], [[David Morrison]], [[Savdeep Sethi]], section 3 of _Triples, Fluxes, and Strings_, Adv.Theor.Math.Phys. 4 (2002) 995-1186 ([arXiv:hep-th/0103170](https://arxiv.org/abs/hep-th/0103170))
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 5.3.2 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge 2012
 
