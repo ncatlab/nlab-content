@@ -45,7 +45,7 @@ The charge of the [[spacetime]]-filling $O9$-plane of plain [[type I string theo
 
 \[
   \label{O9PlaneCharge}
-  q_{O9}
+  q_{O9^-}
   \;=\;
   -32
   \,
@@ -71,7 +71,7 @@ Beware that there is some convention involved in assigning an absolute value of 
 This means that [[RR-field tadpole cancellation]] here requires the presence of 32 [[D-branes]] (or rather: 16 and their $\mathbb{Z}_2$-mirror images), hence a space-filling [[D9-brane]] with [[Chan-Paton bundle]] of [[rank of a vector bundle|rank]] $32$, corresponding to a [[gauge group]] [[SO(32)]]. For more on this see at _[[type I string theory]] -- [Tadpole cancellation and SO(32)-GUT](type+I+string+theory#TadpoleCancellationAndSO32GUT)_.
 
 
-From this the O$p$-brane charge for $p \leq n$ follows from [[T-duality]] (as [above](#TDualityWithTypeIStringTheory))
+From this the O$p^-$-brane charge for $p \leq n$ follows from [[T-duality]] (as [above](#TDualityWithTypeIStringTheory))
 with respect to [[KK-compactification]] on a [[n-torus|d-torus]] $\mathbb{T}^d$ with $\mathbb{Z}_2$-[[action]] given by canonical [[coordinate function|coordinate]] [[reflection]]
 
 $$
@@ -89,7 +89,7 @@ $$
   \,.
 $$
 
-This results in $O_{9-d}$-planes with [[worldvolume]] $\mathbb{R}^{10-d-1,1}$. But since the [[orbifold]] $\mathbb{T}^d\sslash \mathbb{Z}_2$ now has $2^d$ [[singularities]] /[[fixed points]] ([this Example](Riemannian+orbifold#CoordinateReflectionOnNTorus)) there are now $2^d$ such $O_{9-d}$-planes.
+This results in $O(9-d)^-$-planes with [[worldvolume]] $\mathbb{R}^{10-d-1,1}$. But since the [[orbifold]] $\mathbb{T}^d\sslash \mathbb{Z}_2$ now has $2^d$ [[singularities]] /[[fixed points]] ([this Example](Riemannian+orbifold#CoordinateReflectionOnNTorus)) there are now $2^d$ such $O(9-d)^-$-planes.
 
 Since the number of [[D-branes]] does not change under [[T-duality]], the total O-plane charge should be the same as before
 
@@ -103,10 +103,10 @@ $$
   - 2^5 \cdot q_{D9}
 $$
 
-which means that the $O(9-d)$-plane charge is
+which means that the $O(9-d)^-$-plane charge is
 
 $$
-  q_{O(9-d)}
+  q_{O(9-d)^-}
   \;=\;
   - 2^{5-d} \cdot q_{D(p-d)}
 $$
@@ -115,7 +115,7 @@ or equivalently
 
 \[
   \label{OpPlaneCharge}
-  q_{O p}
+  q_{O p^-}
   \;=\;
   - 2^{ p - 4 } \cdot q_{D p}
 \]
@@ -124,14 +124,14 @@ or equivalently
 
 {#TableOfOPlaneCharges} In summary, we have the following table of O-plane charges on [[flat orbifolds]]:
 
-| $Op$-plane | charge <br/> $q_{O p}/q_{D p}$| transverse <br/> [[n-torus|d-torus]] | [[fixed points]] <br/> $\left\vert\left( \mathbb{T}^d\right)^{\mathbb{Z}_2}\right\vert$ |
+| [[O-plane]] <br/> species | charge <br/> $q_{O p^-}/q_{D p}$| transverse <br/> [[n-torus|d-torus]] | [[fixed points]] <br/> $\left\vert\left( \mathbb{T}^d\right)^{\mathbb{Z}_2}\right\vert$ |
 |------------|--------|-------|----| 
-| $O9$ | $-32$ | $\mathbb{T}^0$  | $\phantom{1}1$ |
-| $O8$ | $-16$ | $\mathbb{T}^1$  | $\phantom{1}2$ |
-| $O7$ | $-\phantom{1}8$ | $\mathbb{T}^2$  | $\phantom{1}4$ |
-| $O6$ | $-\phantom{1}4$ | $\mathbb{T}^3$  |  $\phantom{1}8$ | 
-| $O5$ | $-\phantom{1}2$ | $\mathbb{T}^4$  |  $16$ | 
-| $O4$ | $-\phantom{1}1$ | $\mathbb{T}^5$  |  $32$ |
+| $O9^-$ | $-32$ | $\mathbb{T}^0$  | $\phantom{1}1$ |
+| $O8^-$ | $-16$ | $\mathbb{T}^1$  | $\phantom{1}2$ |
+| $O7^-$ | $-\phantom{1}8$ | $\mathbb{T}^2$  | $\phantom{1}4$ |
+| $O6^-$ | $-\phantom{1}4$ | $\mathbb{T}^3$  |  $\phantom{1}8$ | 
+| $O5^-$ | $-\phantom{1}2$ | $\mathbb{T}^4$  |  $16$ | 
+| $O4^-$ | $-\phantom{1}1$ | $\mathbb{T}^5$  |  $32$ |
 
 In particular the O4-plane has negative unit charge (in [[physical unit|units]] of [[D4]]-[[D-brane charge|brane charge]] $q_{D4}$), so that the total charge of $-32$ here comes entirely from the [[number]] $32 = 2^5$ of [[fixed points]] of the $\mathbb{Z}_2$-[[action]] on $\mathbb{T}^5$.
 
