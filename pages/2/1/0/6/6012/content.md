@@ -13,7 +13,7 @@ A __torsion theory__ in an [[abelian category]] $A$ is a couple $(T,F)$ of addit
 * for all $X\in Ob A$, there exists $Y\subset X$, $Y\in Ob T$ and $X/Y\in Ob F$
 
 Equivalently, a torsion theory in $A$ is a pair $(T,F)$ of [[strictly full subcategories]] of $A$ such that the first and last conditions in the above list hold. Alternatively, we can require the last condition
-and the following 3: $T\cap F=\emptyset$, $T$ is closed under quotients
+and the following 3: $T\cap F=\{0\}$, $T$ is closed under quotients
 and $F$ under subobjects.  It follows also that $T$ and $F$ are stable under extensions. 
 
 #### Torsion part of an object
