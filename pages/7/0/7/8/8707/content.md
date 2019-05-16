@@ -126,7 +126,7 @@ Discussion of modal operators explicitly in [[dependent type theory]] (and with 
 
 * [[Valeria de Paiva]], Eike Ritter, _Fibrational Modal Type Theory_, Electronic Notes in Theoretical Computer Science Volume 323, 11 July 2016, Proceedings of the Tenth Workshop on Logical and Semantic Frameworks, with Applications (LSFA 2015), pp. 143&#8211;161 ([doi:10.1016/j.entcs.2016.06.010](http://www.sciencedirect.com/science/article/pii/S1571066116300378))
 
-* Daniel Gratzer, Jonathan Sterling, and Lars Birkedal, _Implementing Modal Dependent Type Theory_, ([pdf](https://jozefg.github.io/papers/implementing-modal-dependent-type-theory-2019.pdf))
+* Daniel Gratzer, [[Jonathan Sterling]], [[Lars Birkedal]], _Implementing Modal Dependent Type Theory_, ([pdf](https://jozefg.github.io/papers/implementing-modal-dependent-type-theory-2019.pdf), [GitHub](https://github.com/jozefg/blott))
 
 
 A survey of the field of modal type theory is in the collections
