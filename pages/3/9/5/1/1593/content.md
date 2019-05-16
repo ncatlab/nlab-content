@@ -28,7 +28,7 @@ In [[type II string theory]] orientifold backgrounds (inducing [[type I string t
 
 Where generally ([[higher gauge field|higher gauge]]) [[field (physics)|fields]] in [[physics]]/[[string theory]] are [[cocycles]] in ([[differential cohomology theory|differential]]) [[cohomology theory]] and typically in [[complex oriented cohomology theory]], fields on orientifolds are cocycles in genuinely $\mathbb{Z}_2$-[[equivariant cohomology]] and typically in [[real-oriented cohomology theory]]. For instance, the [[B-field]], which otherwise is a (twisted) cocycle in ([[ordinary differential cohomology|ordinary]]) [[differential cohomology]], over an orientifold is a cocycle in (twisted) [[HZR-theory]], and the [[RR-fields]], which usually are cocycles in ([[twisted cohomology|twisted]] [[differential K-theory|differential]]) [[K-theory]], over an orientifold are cocycles in [[KR-theory]] ([Witten 98](#Witten98)).
 
-An explicit model for [[B-fields]] for the [[bosonic string]]  on orientifolds (differential [[HZR-theory]]) is given in ([Schreiber-Schweigert-Waldorf 05](#Jandl)) and examples are analyzed in this context in ([Gawedzki-Suszek-Waldorf 08](#GawedzkiSuszekWaldorf08)). See also ([KMSV 16](#KMSV16)).
+An explicit model for [[B-fields]] for the [[bosonic string]]  on orientifolds (differential [[HZR-theory]]) is given in ([Schreiber-Schweigert-Waldorf 05](#Jandl)) and examples are analyzed in this context in ([Gawedzki-Suszek-Waldorf 08](#GawedzkiSuszekWaldorf08)). See also ([HMSV 16](#HMSV16), [HMSV 19](#HMSV19)).
 
 The claim that for the [[superstring]] the B-field is more generally a cocycle with coefficients in the [[Picard infinity-group]] of [[complex K-theory]] ([[super line 2-bundles]]) and a detailed discussion of the orientifold version of this can be found in ([Distler-Freed-Moore 09](#Precis), [Distler-Freed-Moore 10](#DistlerFreedMooreII)) with details in ([Freed 12](#Freed)).
 
@@ -118,10 +118,11 @@ A definition and study of orientifold [[bundle gerbes]], modeling the [[B-field]
 
 see also
 
-* {#KMSV16} [[Pedram Hekmati]], [[Michael Murray]], [[Richard Szabo]], [[Raymond Vozzo]], _Real bundle gerbes, orientifolds and twisted KR-homology_ ([arXiv:1608.06466](http://arxiv.org/abs/1608.06466))
+* {#HMSV16} [[Pedram Hekmati]], [[Michael Murray]], [[Richard Szabo]], [[Raymond Vozzo]], _Real bundle gerbes, orientifolds and twisted KR-homology_ ([arXiv:1608.06466](http://arxiv.org/abs/1608.06466))
 
+* {#HMSV19} [[Pedram Hekmati]], [[Michael Murray]], [[Richard Szabo]], [[Raymond Vozzo]], _Sign choices for orientifolds_ ([arXiv:1905.06041](https://arxiv.org/abs/1905.06041))
 
-A more encompassing formalization in terms of [[differential cohomology]] in general and [[twisted K-theory|twisted]] [[differential K-theory]] in particular that also takes the spinorial degrees of freedom into account is being announced in 
+An elaborate formalization in terms of [[differential cohomology]] in general and [[twisted K-theory|twisted]] [[differential K-theory]] in particular that also takes the spinorial degrees of freedom into account is briefly sketched out in
 
 * {#Precis} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
  
