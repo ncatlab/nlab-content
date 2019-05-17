@@ -330,7 +330,7 @@ You'd think a statement should make sense before you try to prove it. And likewi
 
 Also, since the only way to derive type validity in this system (not using the sanity admissible rule) is to use a type former, a derivation of type validity implies that there are derivations of validity for the subexpressions of the type expression. These are "inversion" admissible rules.
 
-### Admissible Rules vs PER Semantics
+### Admissible Rules vs PER Semantics {#AdmissSem}
 
 For full Nuprl, it seems practically impossible to prove admissibility of sanity or inversion, if they're not just included among the primitive rules. But they *can* be included among the primitive rules, because they're true in the semantics. Due to the way hypothetical judgments are defined, making the inversion rules true requires making type equality intensional.
 
@@ -377,6 +377,36 @@ With such a small set of type constructors, it may be hard to tell, but congruen
 
 ## Semantic Judgmental Reflection
 
+### Equality reflection
+
+With many type theories $T$, it's cumbersome but straightforward to define collections of the formal derivations of $T$ as type families in $T$. This provides a form of *syntactic* reflection of a system's judgments within itself. [[provability logic|There]] [[modal type theory|are]] [[higher-order abstract syntax|ways]] of making syntactic reflection more convenient and/or powerful.
+
+But Nuprl-style systems provide a quite different kind of judgmental reflection that we'll call "*semantic* judgmental reflection", or just "judgmental reflection" for short. The original example of judgmental reflection, and the basis of the name, is the equality reflection rule of extensional type theory (ETT), which makes the "identity" type family a reflection of the meaning of the element equality judgment of the same system. In a sense, this is still the only judgmental reflection principle in Nuprl-style systems. (But the type family is called "equality".) The difference is in the interpretation of the equality judgment.
+
+There are two styles of interpretation for ETT: [[intrinsic and extrinsic views of typing|intrinsic and extrinsic]]. Extrinsic is the original, since an example is Martin-Löf's [[meaning explanation]], which was the original justification for equality reflection. Intrinsic seems to have become the default one. It's the style considered in [Martin Hofmann's thesis](#HofmannThesis), for example. But Nuprl and CLF commit to the extrinsic style.
+
+An irony is that by considering terms extrinsically typed, you consider them intrinsically meaningful. In Nuprl and CLF, following Martin-Löf, terms have an intrinsic computational meaning. The role of the Nuprl-style type system is to reason about that. (Remember: this can all be considered a [substitute for admissible rules](#AdmissSem)! ...Probably.)
+
+There is actually no interpretation necessary, for terms in general. The type system can be layered over the terms as they are, making use of an operational model of their computational meaning. (A denotational semantics would probably work too.) The details need not concern us here, but some things are important:
+
+* Computational meaning pertains principally to closed terms, because free variables don't compute; they're just placeholders.
+* Some closed terms are designated as types, and denote PERs on closed terms.
+* For closed terms and types, the equality judgment form ($t = t' \in T$) just accesses the PER of the type.
+* For closed terms, the judgment of being an element of a type ($t \in T$) is a special case of equality.
+* It's the judgments about closed terms that are reflected as closed types; judgments about open terms are not involved.
+
+All of these points are important to the design of a Nuprl-style system. But the one that seems to distinguish the approach from intrinsic typing is that being an element is a special case of equality. In the intrinsic approach, equality is only meaningful when applied to two terms known to have the same type. So being an element must be somehow prior to equality. But with the judgment of being an element as a special case of equality, it's simultaneous.
+
+A lot of the power of judgmental reflection is that it *can* be understood as reasoning about the computational content of the language as it actually is. But since it's probably not *necessary* to interpret Nuprl-style systems as being about their own syntax, we should speak of "computations", not "closed terms". In CLF, however they're interpreted, computations are axiomatized as the elements of $Comp$. (And actually, it may be that types need not be computations.) Types are PERs on $Comp$, and are accessed by the equality judgment form, which is reflected by the equality type constructor. So you use equality types to reason about equality in types, and also membership of computations in types.
+
+So then what's with all this respect ("$\prec$") stuff in the equality formation rule? If terms have an intrinsic computational meaning, and equality reasons about it, shouldn't the rule be just:
+
+$$\frac{\Gamma \vdash T\,type}{\Gamma \vdash t1 = t2 \in T\,type}$$
+
+?
+
+No, that doesn't work. The extra complexity has to do with making the axiomatization work for open terms. Consider the type $I\;\coloneqq\;\{x = y | x \in Bool \wedge y \in Bool\}$. Then $tru = fls \in I$. But then consider ($x:I \vdash tru = x \in Bool\,type$). The simple formation rule would derive it, but it doesn't make sense, because ($tru = tru \in Bool$) and ($tru = fls \in Bool$) are different types, although $tru$ and $fls$ are the same $I$. The problem is that equality of types and elements is generally different from equality of computations, and we want well-typed open terms to respect equality of elements. The respect-based equality formation rule doesn't derive the bad type family because you'd need to derive $I \prec Bool$.
+
 ## PER theory
 
 ## More admissible rules
@@ -410,3 +440,5 @@ This is reasoning about membership, so we really do want to know that $Bool$s ar
 * {#AnandRahliITP14} Abhishek Anand, Vincent Rahli, _Towards a Formally Verified Proof Assistant_, Interactive Theorem Proving (ITP) 2014 ([project web](http://www.nuprl.org/html/Nuprl2Coq/), [paper web](http://www.nuprl.org/KB/show.php?ID=726), [pdf](http://www.nuprl.org/documents/Anand/TowardsAFormallyVerifiedProofAssistant.pdf))
 
 * {#PERTypes14} Abhishek Anand, Mark Bickford, Robert L. Constable, Vincent Rahli, _A Type Theory with Partial Equivalence Relations as Types_, Types for Proofs and Programs (TYPES) 2014 ([slides](https://vrahli.github.io/articles/slides-per-types.pdf), [web](http://www.nuprl.org/KB/show.php?ID=722), [pdf](http://www.nuprl.org/documents/Anand/ATypeTheoryWithPartialEquivalenceRelationsAsTypes.pdf))
+
+* {#HofmannThesis} Martin Hofmann, _Extensional concepts in intensional type theory_, Ph.D. dissertation, University of Edinburgh (1995). ([link](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/))
