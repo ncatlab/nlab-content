@@ -305,6 +305,7 @@ For the precise statement see at _[2-topos -- In terms of internal categories](2
 
   * [[2-congruence]]
 
+* [[(n × k)-category]]
 
 * [[internal site]]
 * [[internal logic]]
