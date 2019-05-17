@@ -402,6 +402,8 @@ $$
 
 * [[boundary conformal field theory]]
 
+* [[automorphism of a 2d conformal field theory]]
+
 ## References ##
 
 ### General
