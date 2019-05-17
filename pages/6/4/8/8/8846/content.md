@@ -117,7 +117,7 @@ for all $v \in V$, which translates into saying that $1_V = -\sum_i b_i(f) f$, i
 
 The proof of the Cayley-Hamilton theorem follows the treatment in 
 
-* Serge Lange, _Algebra_ ($3^{rd}$ edition), Addison-Wesley, 1993. 
+* Serge Lang, _Algebra_ ($3^{rd}$ edition), Addison-Wesley, 1993. 
 
 The proof of Proposition \ref{surj} on surjective endomorphisms of finitely generated modules was extracted from 
 
