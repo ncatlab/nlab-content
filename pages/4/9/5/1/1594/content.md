@@ -152,6 +152,12 @@ Survey of basic orbifold theory:
 
 * {#AdemKlaus} [[Alejandro Adem]], Michele Klaus, _Lectures on orbifolds and group cohomology_ ([pdf](http://www.math.ubc.ca/~adem/hangzhou.pdf), [[AdemKlausOrbifolds.pdf:file]])
 
+See also
+
+* Wikipedia,  _[Orbifolds](http://en.wikipedia.org/wiki/Orbifold)_ 
+
+  (which is mainly tailored toward [Thurston's approach](#Thurston)). 
+
 
 Textbook account:
 
@@ -166,6 +172,11 @@ On [[Riemannian orbifolds]]:
 * {#HydeRamsdenRobins14} S. T. Hyde, S. J. Ramsden and V. Robins, _Unification and classification of two-dimensional crystalline patterns using orbifolds_, Acta Cryst. (2014). A70, 319-337 ([doi:10.1107/S205327331400549X](https://doi.org/10.1107/S205327331400549X))
 
 
+Survey of applications in [[mathematical physics]] and notably in [[string theory]]:
+
+* {#AdemMoravaRuan02} [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]], _[[Orbifolds in Mathematics and Physics]]_, Contemporary Mathematics 310 American Mathematical Society, 2002
+
+
 
 Discussion of orbifold as [[Lie groupoids]]/[[differentiable stacks]] is in
 
@@ -173,7 +184,7 @@ Discussion of orbifold as [[Lie groupoids]]/[[differentiable stacks]] is in
 
 * {#MoerdijkPronk97} [[Ieke Moerdijk]], [[Dorette Pronk]], _Orbifolds, sheaves and groupoids_, K-theory 12 3-21 (1997) ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/pronk.pdf), [doi:10.4171/LEM/56-3-4](http://dx.doi.org/10.4171/LEM/56-3-4))
 
-* {#Moerdijk02} [[Ieke Moerdijk]], _Orbifolds as Groupoids: an Introduction_, [[Alejandro Adem]], [[Jack Morava]], Yongbin Ruan (eds.) _Orbifolds in Mathematics and Physics_, Contemporary Math 310 , AMS (2002), 205–222 ([arXiv:math.DG/0203100](http://arxiv.org/abs/math.DG/0203100))
+* {#Moerdijk02} [[Ieke Moerdijk]], _Orbifolds as Groupoids: an Introduction_, [[Alejandro Adem]], [[Jack Morava]], Yongbin Ruan (eds.) _[[Orbifolds in Mathematics and Physics]]_, Contemporary Math 310 , AMS (2002), 205–222 ([arXiv:math.DG/0203100](http://arxiv.org/abs/math.DG/0203100))
   
 
 * {#Lerman08} [[Eugene Lerman]], _Orbifolds as stacks?_, Enseign. Math. (2), 56 3-4 (2010) ([arXiv:0806.4160](http://arxiv.org/abs/0806.4160), [doi:10.4171/LEM/56-3-4](http://dx.doi.org/10.4171/LEM/56-3-4))
@@ -199,12 +210,6 @@ The relation of orbifolds to [[global equivariant homotopy theory]] is discussed
 * [[Stefan Schwede]], _Orbispaces, orthogonal spaces, and the universal compact Lie group_ ([arXiv:1711.06019](https://arxiv.org/abs/1711.06019)) (on the relation to [[orbispaces]]/[[topological stacks]])
 
 
-See also
-
-* Wikipedia,  _[Orbifolds](http://en.wikipedia.org/wiki/Orbifold)_ 
-
-(which is mainly tailored toward Thurston's approach). 
-
 ### Orbifold cobordism
 
 Orbifold [[cobordisms]] are discussed in 
@@ -228,24 +233,39 @@ In [[perturbative string theory]], orbifolds as [[target spaces]] for a [[string
 
 and then further developed notably in 
 
-* {#DVVV89} [[Robbert Dijkgraaf]], [[Cumrun Vafa]], [[Erik Verlinde]], [[Herman Verlinde]], _The operator algebra of orbifold models_, Comm. Math. Phys. Volume 123, Number 3 (1989), 485-526.
+* {#DVVV89} [[Robbert Dijkgraaf]], [[Cumrun Vafa]], [[Erik Verlinde]], [[Herman Verlinde]], _The operator algebra of orbifold models_, Comm. Math. Phys. Volume 123, Number 3 (1989), 485-526 ([euclid:1104178892](https://projecteuclid.org/euclid.cmp/1104178892))
 
 * [[Eric Zaslow]], _Topological orbifold models and quantum cohomology rings_, Comm. Math. Phys. 156 (1993), no. 2, 301&#8211;331.
 
-See also the references at 
+And discussion of [[blow-up]] of orbifold [[singularities]] in string theory:
 
-* _[[Riemannian orbifold]]_ 
+* [[Paul Aspinwall]], _Resolution of Orbifold Singularities in String Theory_ ([arXiv:hep-th/9403123](https://arxiv.org/abs/hep-th/9403123))
+
+For [[orbifolds]] in [[string theory]] also the references at 
+
+* _[[Riemannian orbifold]]_, _[[toroidal orbifold]]_
 
 * _[[fractional D-brane]]_
 
+* _[[Gepner model]]_
+
+* [[orientifold]]
+
 * _[[RR-field tadpole cancellation]]_
 
-Review of orbifolds in the context of string compactifications includes
+Review of orbifolds in the context of string [[KK-compactifications]] includes
 
-* Susanne Reffert, _The Geometer's Toolkit to String Compactifications_, lectures at _[String and M theory approaches to particle physics and cosmology](https://www.ggi.infn.it/showevent.pl?id=11)_, 2007 ([arXiv:0706.1310](https://arxiv.org/abs/0706.1310))
+* {#BailibLove99} D. Bailin, A. Love, _Orbifold compactifications of string theory_, Phys.Rept. 315 (1999) 285-408 (<a href="https://doi.org/10.1016/S0370-1573(98)00126-4">doi:10.1016/S0370-1573(98)00126-4</a>)
+
+* {#Wendland01} [[Katrin Wendland]], _Orbifold Constructions of K3: A Link between Conformal Field Theory and Geometry_, in _[[Orbifolds in Mathematics and Physics]]_ ([arXiv:hep-th/0112006](https://arxiv.org/abs/hep-th/0112006))
+
+* {#Giedt02} Joel Giedt, _Heterotic Orbifolds_ ([arXiv:hep-ph/0204315](https://arxiv.org/abs/hep-ph/0204315))
+
+* {#Reffert07} Susanne Reffert, _The Geometer's Toolkit to String Compactifications_, lectures at _[String and M theory approaches to particle physics and cosmology](https://www.ggi.infn.it/showevent.pl?id=11)_, 2007 ([arXiv:0706.1310](https://arxiv.org/abs/0706.1310))
+
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], Chapter 8 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012 ([doi:10.1017/CBO9781139018951](https://doi.org/10.1017/CBO9781139018951))
 
 * {#BlumenhagenLustTheisen13} [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], Chapter 10.5 _Toroidal orbifolds_,  of _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics pp 585-639 Springer 2013
-
 
 and for orbifolds of [[G2-manifolds]] for [[M-theory on G2-manifolds]]
 
@@ -256,10 +276,8 @@ and for orbifolds of [[G2-manifolds]] for [[M-theory on G2-manifolds]]
 
 For [[topological strings]] the [[path integral as a pull-push transform]] for target orbifolds -- in analogy to what [[Gromov-Witten theory]] is for [[Deligne-Mumford stacks]] -- has first been considered in 
 
-* {#ChenRuan01} Weimin Chen, [[Yongbin Ruan]], _Orbifold Gromov-Witten Theory_, in _Orbifolds in mathematics and physics_ (Madison, WI, 2001), 25&#8211;85, Contemp. Math., 310, Amer. Math. Soc., Providence, RI, 2002 ([arXiv:math/0103156](http://arxiv.org/abs/math/0103156))
- 
-
-A review with further pointers is in 
+* {#ChenRuan01} Weimin Chen, [[Yongbin Ruan]], _Orbifold Gromov-Witten Theory_, in _[[Orbifolds in Mathematics and Physics]]_ (Madison, WI, 2001), 25&#8211;85, Contemp. Math., 310, Amer. Math. Soc., Providence, RI, 2002 ([arXiv:math/0103156](http://arxiv.org/abs/math/0103156))
+ A review with further pointers is in 
 
 * {#Abramovich05} [[Dan Abramovich]], _Lectures on Gromov-Witten invariants of orbifolds_ ([arXiv:math/0512372](http://arxiv.org/abs/math/0512372))
  
