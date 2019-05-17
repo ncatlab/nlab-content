@@ -87,8 +87,9 @@ This is a category version of a corresponding groupoid theorem of Brown and Higg
 
 * [[crossed n-cube]]
 
-
 * [[n-fold complete Segal space]]
+
+* [[(n × k)-category]]
 
 
 ## References ##
