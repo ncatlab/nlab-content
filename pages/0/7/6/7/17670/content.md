@@ -18,7 +18,7 @@
 
 ## Idea
 
-The _Connes-Lott-Chamseddine-Barrett model_ ([Connes-Lott 91](#ConnesLott91), [Barrett 07](#Barrett07), [Chamseddine-Connes-Marcolli 07](#ChamseddineConnesMarcolli07)) is a [[spectral triple]] that spectrally encodes a [[spacetime]] which is the [[product]] of 4d [[Minkowski spacetime]] $X$ with a an exotic [[non-commutative geometry]] space $F$ whose classical dimension is that of a point, but which has [[KO-dimension]] 6 (mod 8). Hence this is a non-commutative version of a [[Kaluza-Klein compactification]] of a spacetime of [[KO-dimension]] $4 + 6$. (See also the discussion at _[[2-spectral triple]]_).
+The _Connes-Lott-Chamseddine-Barrett model_ ([Connes-Lott 91](#ConnesLott91), [Barrett 07](#Barrett07), [Chamseddine-Connes-Marcolli 07](#ChamseddineConnesMarcolli07)) is a [[spectral triple]] that spectrally encodes a [[spacetime]] which is the [[product]] of 4d [[Minkowski spacetime]] $X$ with a _[[non-geometric background|non-geometric]]_ ([[Isbell duality|formal dually]]: [[non-commutative geometry]])  space $F$ whose classical dimension is that of a point, but which has [[KO-dimension]] 6 (mod 8). Hence this is a non-commutative version of a [[Kaluza-Klein compactification]] of a spacetime of [[KO-dimension]] $4 + 6$. (See also the discussion at _[[2-spectral triple]]_).
 
 As in all ([[supersymmetry|super]]-)[[KK-compactification|Kaluza-Klein theory]], what is pure [[pseudo-Riemannian geometry]] (albeit "[[spectral geometry|spectral]]") in 4+6 (KO-)dimension, hence pure [[gravity]], effectively looks like a configuration of [[Einstein-Yang-Mills-Dirac-Higgs theory]] down in 4 dimensions, hence of [[gravity]] coupled to [[gauge fields]] and [[fermions]] and a [[Higgs boson]].
 
@@ -46,7 +46,7 @@ Moreover, the entire field content in one [[generation of fundamental particles|
 
 ### Review
 
-Exposition highlighting the relation to [[KK-compactification]] and [[string theory]]-[[perturbative string theory vacuum|vacua]] includes
+Exposition highlighting the relation to [[KK-compactification]] and [[string theory]]-[[perturbative string theory vacuum|vacua]] ([[2-spectral triples]]) includes
 
 * {#Schreiber16} [[Urs Schreiber]], _[Spectral Standard Model and String Compactifications](https://www.physicsforums.com/insights/spectral-standard-model-string-compactifications/)_, 2016
 
