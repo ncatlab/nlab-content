@@ -22,7 +22,7 @@
 
 _Rational 2d conformal field theories_ are that class of relatively simple [[2d CFTs]], such as the [[WZW model]], which are characterized by the fact that their spaces of [[conformal blocks]] are [[finite dimensional vector spaces]]. Locally such 2d CFTs are given by a [[rational vertex operator algebra]].
 
-Interpreted as [[sigma-models]] as in [[string theory]], rational [[2d CFTs]] correspond to [[target spaces]] which are [[compact topological spaces|compact]] (such as [[fibers]] of [[Kaluza-Klein compactifications]], but not [[Minkowski spacetime]], for instance). See e.g. [Schomerus 05](#Schomerus05) for contrast.
+Interpreted as [[perturbative string theory vacua]], rational [[2d CFTs]] correspond to ([[non-geometric string vacuum|non-geometric]]) [[target spaces]] which are [[compact topological spaces|compact]] (such as [[fibers]] of [[Kaluza-Klein compactifications]], but not [[Minkowski spacetime]], for instance). See e.g. [Schomerus 05](#Schomerus05) for contrast.
 
 ## Properties
 
