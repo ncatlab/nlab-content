@@ -3,6 +3,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Vacua
++-- {: .hide}
+[[!include vacua -- contents]]
+=--
 #### String theory
 +-- {: .hide}
 [[!include string theory - contents]]
@@ -29,7 +33,11 @@ which may be regarded as the [[probability amplitude]] for a quantum in state $b
 
 In the [[worldline formalism]] of field theories these _[[propagators]]_ arise from a 1-dimensional [[field theory]] on the "[[worldline]]" of ([[virtual particle|virtual]]) [[particles]] running from $y$ to $x$.
 
-Now by the very definition of [[perturbative string theory]], these particles are replaced by [[strings]] whose dynamics is now encoded in a 2d field theory on the [[worldsheet]] of strings, specifically a [[2d superconformal field theory]] ([[2d SCFT]]) of [[central charge]] 15. Hence now it is the _[[2d SCFT]]_ which defines the _[[vacuum state]]_ that the perturbative string theory is in. This is then called a _[[perturbative string theory vacuum]]_.
+Now by the very definition of [[perturbative string theory]], these particles are replaced by [[strings]] whose dynamics is now encoded in a 2d field theory on the [[worldsheet]] of strings, specifically a [[2d superconformal field theory]] ([[2d SCFT]]) of [[central charge]] 15. Hence now it is the _[[2d SCFT]]_ which defines the _[[vacuum state]]_ that the perturbative string theory is in. 
+
+This is then called a _[[perturbative string theory vacuum]]_.
+
+If this [[2d SCFT]] arises from [[quantization]] of a [[sigma-model]], then this is called a _geometric background_, otherwise it is a purely algebraically defined _[[non-geometric string vacuum]]_.
 
 In practice full [[2d SCFTs]] are hard to construct, and often one considers them by [[perturbative quantum field theories|perturbation theory]] of a "[[sigma-model]]" which is defined by a [[spacetime]] manifold equipped with extra [[field (physics)|fields]] (e.g. the [[B-field]] etc.). It turns out that to low order these [[background field]] configurations that define [[sigma-model]] [[2d SCFTs]] are given by [[solutions]] to [[equations of motion]] of [[supergravity]] theories (e.g. [[type II supergravity]] for [[type II string theory]], etc.)
 
@@ -62,7 +70,11 @@ The collection of all string vacua, possibly subject to some assumptions, has co
 
   * [[perturbative string theory vacuum]]
 
-  * [[landscape of string theory vacua]]
+    * [[non-geometric string theory vacuum]]
+
+    * [[landscape of string theory vacua]]
+
+[[vacua -- contents]]
 
 
 [[!redirects perturbative string theory vacua]]
