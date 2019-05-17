@@ -1,10 +1,14 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-### Context
-#### Physics
+###Context###
+#### Vacua
 +-- {: .hide}
-[[!include physicscontents]]
+[[!include vacua -- contents]]
+=--
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
 =--
 =--
 =--
