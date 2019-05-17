@@ -38,7 +38,7 @@ According to the [[classification of finite simple groups]], there are 18 counta
 
 ## References
 
-* Robert A. Wilson's _The Finite Simple Groups_. Springer, Graduate Mathematics series **251** (2009).
+* [[Robert A. Wilson]], _The Finite Simple Groups_. Springer, Graduate Mathematics series **251** (2009).
 
 [[!redirects sporadic finite simple groups]]
 [[!redirects sporadic simple group]]
