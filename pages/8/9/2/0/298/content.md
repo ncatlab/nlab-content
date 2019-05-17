@@ -132,6 +132,7 @@ See at _[[monster vertex algebra]]_.
 
 * [[factorization algebra]], 
 
+* [[automorphism of a vertex operator algebra]]
 
 ## References
 
