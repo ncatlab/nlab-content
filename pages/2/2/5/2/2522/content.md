@@ -934,6 +934,8 @@ In special dimensions supersymmetry super Lie algebras have [polyvector extensio
 
 ## Related concepts
 
+* [[number of supersymmetries]]
+
 * [[supermultiplet]], [[adinkra]]
 
 * [[naturalness]]
