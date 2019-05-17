@@ -510,6 +510,11 @@ The concept of "special triples" or ("basic triples") used above seems to go bac
 
 * {#Whitehead71} [[George Whitehead]], appendix A in _Homotopy Theory_, MIT press 1971
 
+Relation to the [[Leech lattice]]:
+
+* {#Wilson09} [[Robert A. Wilson]], _Octonions and the Leech lattice_, Journal of Algebra
+Volume 322, Issue 6, 15 September 2009, Pages 2186-2190, ([pdf](http://www.maths.qmul.ac.uk/~raw/pubs_files/octoLeech1.pdf), [slides](http://www.maths.qmul.ac.uk/~raw/talks_files/Cambridge09.pdf))
+
 [[!redirects octonion]]
 [[!redirects octonions]]
 [[!redirects octonion algebra]]
