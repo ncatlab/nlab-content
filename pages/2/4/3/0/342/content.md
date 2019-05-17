@@ -185,7 +185,6 @@ There are various [[model category]] models for collections of $(n,r)$-categorie
 
 * [[(n,r)-site]]
 
-
 * [[0-category]], [[(0,1)-category]]
 
 * [[category]]
@@ -207,6 +206,8 @@ There are various [[model category]] models for collections of $(n,r)$-categorie
 * [[(∞,n)-category]]
 
 * **(n,r)-category** 
+
+* [[(n × k)-category]], [[n-fold category]]
 
 ## References
 
