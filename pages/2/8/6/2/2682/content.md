@@ -3,6 +3,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Vacua
++-- {: .hide}
+[[!include vacua -- contents]]
+=--
 #### String theory
 +-- {: .hide}
 [[!include string theory - contents]]
@@ -112,7 +116,9 @@ Discussion of [[string phenomenology]] of [[intersecting D-brane models]] [[KK-c
 
   * [[perturbative string theory vacuum]]
 
-  * [[landscape of string theory vacua]]
+    * [[non-geometric string theory vacuum]]
+
+    * [[landscape of string theory vacua]]
 
 
 * [[moduli field]], [[multiverse]]
