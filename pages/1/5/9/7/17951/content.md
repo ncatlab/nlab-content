@@ -31,3 +31,7 @@ The term "bosonic M-theory" was coined in
 The suggestion that the 26 dimensions of the [[target spacetime]] of the [[bosonic string]] could somehow be identified with the $10_{even} + 16_{odd}$ dimensions of the [[heterotic string]] was previously voiced in
 
 * {#BerkovitsVafa93} [[Nathan Berkovits]], [[Cumrun Vafa]], _On the Uniqueness of String Theory_, Mod.Phys.Lett. A9 (1994) 653-664 ([arXiv:hep-th/9310170](https://arxiv.org/abs/hep-th/9310170))
+
+The possibility of a theory in 27-dimensions which is the lift of M-theory through the 16-dimensional [[Cayley plane]] is in
+
+* [[Hisham Sati]], _OP2 bundles in M-theory_, ([arXiv:0807.4899](https://arxiv.org/abs/0807.4899))
