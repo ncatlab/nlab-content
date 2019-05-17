@@ -146,6 +146,9 @@ within [[GUT]]-models and specifically within [[Pati-Salam models]]:
 
 * {#HeekTeresi19} Julian Heeck, Daniele Teresi, _Pati-Salam and lepton universality in B decays_ ([arXiv:1905.05211](https://arxiv.org/abs/1905.05211))
 
+* Oleg Popov, Michael A. Schmidt, Graham White, _$R_2$ as a single leptoquark solution to $R_{D^{(\ast)}}$ and $R_{K^{(\ast)}}$_ ([arXiv:1905.06339](https://arxiv.org/abs/1905.06339))
+
+
 
 and within [[Randall-Sundrum models]]
 
