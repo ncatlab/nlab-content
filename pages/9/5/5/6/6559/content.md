@@ -64,7 +64,9 @@ The [[moduli space]] of these vacua -- which is hardly understood -- has come to
 
 * [[perturbative string theory vacuum]]
 
-* [[landscape of string theory vacua]]
+  * [[non-geometric string theory vacuum]]
+
+  * [[landscape of string theory vacua]]
 
 * [[QFT with defects|topological defects]] due to [[spontaneous symmetry breaking]]
 
