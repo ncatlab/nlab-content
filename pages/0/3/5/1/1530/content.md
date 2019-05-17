@@ -113,6 +113,8 @@ Logicians have attempted to demonstrate that specifically _logical_ construction
 
 * Jeremy Gray, _Felix Klein's Erlangen programme_, in _Landmark Writings in Western Mathematics_, ed. I. Grattan-Guinness, Elsevier, p. 544-552, 2005
 
+* Ernst Cassirer, _The concept of Group and The Theory of Perception_, Philosophy and Phenomenological Research 5(1), pp. 1-36, 1944. A philosophical treatment of the Erlangan Program.
+
 
 
 [[!redirects Erlangen programme]]
