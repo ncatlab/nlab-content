@@ -5,7 +5,7 @@
 
 ## Idea
 
-The _Cayley plane_ is the [[projective plane]] over the [[octonions]].
+The _Cayley plane_ is the [[projective plane]] over the [[octonions]], $\mathbb{O} P^2$.
 
 ## Definition
 
@@ -16,6 +16,12 @@ It can't be constructed using homogeneous coordinates the way we do for projecti
 * One can consider the space of $3\times 3$ matrices over $\mathbb{O}$ that are "Hermitian" and idempotent, hence can be imagined as "projections onto dimension-1 subspaces of $\mathbb{O}^3$".
 
 * Writing out the components of such a matrix explicitly, one obtains a *Veronese vector* $(x_1,x_2,x_3;\xi_1,\xi_2,\xi_3)$ where $x_i\in \mathbb{O}$ and $\xi_i\in \mathbb{R}$, such that $\xi_i \overline{x_i} = x_j x_k$ and $\Vert x_i\Vert^2 = \xi_j \xi_k$ for all cyclic permutations $(i,j,k)$ of $(1,2,3)$.  The Cayley plane can be identified with the space of nonzero such vectors modulo the scalar action of $\mathbb{R}$.
+
+## Properties
+
+* [[F4]] is the [[isometry group]] of $\mathbb{O} P^2$, with the [[stabilizer]] of a point being [[Spin(9)]]. Hence $\mathbb{O} P^2 \cong F_4/Spin(9)$.
+
+* It is a non-Desarguesian plane, that is, Desargues' theorem does not hold. See [[projective plane]].
 
 ## Related concepts
 
