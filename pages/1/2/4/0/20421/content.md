@@ -20,18 +20,18 @@
 
 ## Idea
 
-An _$(n \times k)$-category_ (read "n-by-k category") is an $n$-category internal to a $k$-category.
+An _$(n \times k)$-category_ (read "n-by-k category") is an [[n-category]] [[internalization|internal]] to a $k$-category.
 
 For example:
 
 * A $(1 \times 0)$-category, as well as a $(0 \times 1)$-category, are precisely [[categories]].
 * A $(1 \times 1)$-category is precisely a [[double category]].
 * A $(1 \times 1 \times 1)$-category is precisely a [[triple category]] (that is, a category internal to a double category).
-* An $(n \times 1)$-category is what Batanin calls a [[monoidal n-globular category]].
+* An $(n \times 1)$-category is what [[Michael Batanin|Batanin]] calls a [[monoidal n-globular category]].
 
 An $(n \times k)$-category has $(n + 1)(k + 1)$ kinds of cells.
 
-Under suitable fibrancy conditions, a $(n \times k)$-category will have an underlying $(n + k)$-category (where here, $n + k$ is to be read arithmetically, rather than simply as notation). Fibrant $(1 \times 1)$-categories are known as [[framed bicategories]].
+Under suitable [[fibrant object|fibrancy]] conditions, a $(n \times k)$-category will have an underlying $(n + k)$-category (where here, $n + k$ is to be read arithmetically, rather than simply as notation). Fibrant $(1 \times 1)$-categories are known as [[framed bicategories]].
 
 ## Examples
 
@@ -47,7 +47,11 @@ Under suitable fibrancy conditions, a $(n \times k)$-category will have an under
 
 * [[internal category]]
 
+* [[higher category]]
+
 * [[n-fold category]]
+
+* [[(n,r)-category]]
 
 
 ## References ##
@@ -58,7 +62,7 @@ Under suitable fibrancy conditions, a $(n \times k)$-category will have an under
 
 The following paper contains some discussion on the relationship between various (weak) $(n \times k)$-categories for $n, k \leq 3$.
 
-* {#DH10} C. Douglas, and A.G. Henriques, Internal bicategories, arXiv preprint arXiv:1206.4284 (2012)
+* {#DH10} [[Chris Douglas]], and [[Andre Henriques]], _Internal bicategories_ ([arXiv:1206.4284](https://arxiv.org/abs/1206.4284)) (2012)
 
 There is some discussion on [this n-Category Café post](https://golem.ph.utexas.edu/category/2010/04/symmetric_monoidal_bicategorie.html) as well as [this one](https://golem.ph.utexas.edu/category/2011/03/liang_kong_on_levinwen_models.html).
 
