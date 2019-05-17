@@ -71,7 +71,14 @@ Sometimes one singles out subtypes of such types; for example, the field of all 
 
 * [[surreal number]] 
 
+
+## Related entries
+
+* [[number of supersymmetries]]
+
 (...)
+
+
 
 [[!redirects numbers]]
 
