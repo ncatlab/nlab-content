@@ -21,7 +21,7 @@
 ## Idea
 
 
-An ordinary [[spectral triple]] is, as discussed there, the abstract algebraic data characterizing [[supersymmetric quantum mechanics]] on a [[worldline]] and thereby spectrally encoding an effective (possibly [[non-commutative geometry|non-commutative]]) [[target space]] [[geometry]]. 
+An ordinary [[spectral triple]] is, as discussed there, the abstract algebraic data characterizing [[supersymmetric quantum mechanics]] on a [[worldline]] and thereby spectrally encoding an effective (possibly [[non-commutative geometry|non-commutative]], hence "[[non-geometric background|non-geometric]]") [[target space]] [[geometry]]. 
 Ordinary [[Riemannian geometry]] with [[spin structure]] is the special case of this where the [[Hilbert space]] in the spectral triple is that of [[square integrable function|square integrable]] [[sections]] of the [[spinor bundle]] and the operator $D$ acting on that is the standard [[Dirac operator]], hence the "supercharge" of the worldline supersymmetry of the [[spinning particle]].
 
 In generalization of this, a "2-spectral triple" should be the analogous algebraic data that encodes the [[worldsheet]] theory of a [[superstring]] propagating on a [[target space]] geometry which is a generalization of [[Riemannian geometry]] with ([[twisted string structure]]) [[string structure]].
