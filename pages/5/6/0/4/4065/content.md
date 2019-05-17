@@ -34,9 +34,18 @@ To cut the story short, we end up getting from the Monster group to a module it 
 ## Related concepts
 
 * [[Monster]]
-* [[Mathieu moonshine]]
-* [[umbral moonshine]]
-* [[O'Nan moonshine]]
+
+* moonshine
+
+  * [[Mathieu moonshine]]
+
+  * [[umbral moonshine]]
+
+  * [[O'Nan moonshine]]
+
+* [[automorphism of a vertex operator algebra]]
+
+
 
 
 ## References
@@ -86,14 +95,17 @@ EMS Series of Lectures in Mathematics. European Mathematical Society (EMS), Z&#2
 
 ### Realization in superstring theory
 
-Discussion of possible realizations in [[superstring theory]] (specifically [[heterotic string theory]]) includes
+Discussion of possible realizations in [[superstring theory]] (specifically [[heterotic string theory]]) via [[automorphisms of super vertex operator algebras]], includes
+
+* {#Duncan05} John F. Duncan, _Super-moonshine for Conway's largest sporadic group_ ([arXiv:math/0502267](https://arxiv.org/abs/math/0502267))
+
 
 * {#PaquettePerssonVolpato16} [[Natalie Paquette]], Daniel Persson, Roberto Volpato, _Monstrous BPS-Algebras and the Superstring Origin of Moonshine_ ([arXiv:1601.05412](http://arxiv.org/abs/1601.05412))
 
 * {#KachruPaquetteVolpato16} [[Shamit Kachru]], [[Natalie Paquette]], Roberto Volpato, _3D String Theory and Umbral Moonshine_ ([arXiv:1603.07330](http://arxiv.org/abs/1603.07330))
 
 
-* [[Natalie Paquette]], Daniel Persson, Roberto Volpato, _BPS Algebras, Genus Zero, and the Heterotic Monster_ ([arXiv:1701.05169](https://arxiv.org/abs/1701.05169))
+* {#PaquettePerssonVolpato17} [[Natalie Paquette]], Daniel Persson, Roberto Volpato, _BPS Algebras, Genus Zero, and the Heterotic Monster_ ([arXiv:1701.05169](https://arxiv.org/abs/1701.05169))
 
 * [[Shamit Kachru]], Arnav Tripathy, _The hidden symmetry of the heterotic string_ ([arXiv:1702.02572](https://arxiv.org/abs/1702.02572))
 
