@@ -398,6 +398,8 @@ explanation via assumption of [[leptoquarks]]:
 
 * Andrei Angelescu, _Single Leptoquark Solutions to the $B$-physics Anomalies_, contribution to the [2019 EW session](http://moriond.in2p3.fr/2019/EW/) of the [54th Rencontres de Moriond](http://moriond.in2p3.fr/2019/) ([arXiv:1905.06044](https://arxiv.org/abs/1905.06044))
 
+* Oleg Popov, Michael A. Schmidt, Graham White, _$R_2$ as a single leptoquark solution to $R_{D^{(\ast)}}$ and $R_{K^{(\ast)}}$_ ([arXiv:1905.06339](https://arxiv.org/abs/1905.06339))
+
 [[leptoquarks]] within a [[Randall-Sundrum model]]:
 
 * {#Crivellin18} [[Andreas Crivellin]], _Explaining the Flavour Anomalies with the Pati-Salam Vector Leptoquark_, PoS LHCP2018 (2018) 269 ([spire:1713260](http://inspirehep.net/record/1713260), [doi:10.22323/1.321.0269](https://doi.org/10.22323/1.321.0269))
