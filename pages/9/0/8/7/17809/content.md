@@ -22,7 +22,7 @@ If, by default, spacetime is locally modeled on
 then _supersymmetry_ in the strict sense of the word is super-extension of the [[Poincaré group]]
 by a [[supergroup]] whose odd-graded component is a [[real structure|real]] [[spin representation]] ("[[Majorana representation]]")
 of the [[spin group]] in the given dimension. The result is called the _[[super Poincaré group]]_ for the given
-spacetime dimension and choice of real spin representation, the latter also being called the "number of supersymmetries".
+spacetime dimension and choice of real spin representation, the latter also being called the "[[number of supersymmetries]]".
 
 Just as -- in the spirit of [[Klein geometry]] -- one recovers [[Minkowski spacetime]] as the [[coset space]] of
 the [[Poincaré group]] by the [[Lorentz group]], so the coset [[superspace]] of the
