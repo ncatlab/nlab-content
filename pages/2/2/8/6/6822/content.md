@@ -114,6 +114,7 @@ $$
 ## Examples
 
 * [[Pin(2)]]
+* [[Pin(5)]]
 
 ## Related concepts
 
