@@ -196,6 +196,7 @@ One can also look at this in [[higher category theory]] and consider internal [[
 
 * [[internal (infinity,n)-category]]
 
+The general concept is that of an [[n-by-k category|$(n \times k)$-category]], which is an $n$-category internal to a $k$-category.
 
 
 ## Examples
