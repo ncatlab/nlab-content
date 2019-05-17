@@ -39,6 +39,7 @@ See also [[Moonshine]].
 
 ## History
 
+
 The Monster group was predicted to exist by [[Bernd Fischer]] and [[Robert Griess]] in 1973, as a [[simple group]] containing the [[Fischer groups]] and some other sporadic simple groups as subquotients. Subsequent work by Fischer, Conway, Norton and Thompson estimated the order of $M$ and discovered other properties and subgroups, assuming that it existed. In a famous paper 
 
 * [[Robert Griess]], _The Friendly Giant_ , Inventiones (1982)
@@ -51,6 +52,8 @@ After Griess found this algebra [[Igor Frenkel]], [[James Lepowsky]] and Meurman
 There is a school of thought, going back to at least [[Israel Gelfand]], that sporadic groups are really members of some other infinite families of algebraic objects, but due to numerical coincidences or the like, just happen to be groups (see [this nCafe post](http://golem.ph.utexas.edu/category/2006/09/mathematical_kinds.html)). One version of this, in the case of the Monster (and perhaps for other sporadic groups via [[Moonshine]] phenomena) is that what we know as the Monster is just a shadow of a [[2-group]], as the Monster can be constructed as an automorphism group of a [[conformal field theory]], a structure rich enough to have a automorphism 2-group(oid) (see [this nCafe discussion](http://golem.ph.utexas.edu/category/2008/10/john_mckay_visits_kent.html#c019440)).
 
 ## Presentation 
+
+### Via Coxeter groups
 
 The Monster admits a reasonably succinct description in terms of [[Coxeter groups]]. Let $[n]$ denote the linear [[graph]] with vertices $0, 1, \ldots, n$ with an edge between adjacent numbers $i, i+1$ and no others. If $1$ is the terminal (1-element) graph, there is a map $0: 1 \to [n]$, mapping the vertex of $1$ to the vertex $0$. Regarding this as an object in the [[undercategory]] $1 \downarrow Graph$, let $Y_{443}$ be the [[coproduct]] of the three objects $0: 1 \to [4]$, $0: 1 \to [4]$, $0: 1 \to [3]$ in $1 \downarrow Graph$. This (pointed) graph has 12 elements and is shaped like a $Y$, with arms of length 4, 4, 3 emanating from a central vertex of valence $3$. 
 
@@ -68,6 +71,15 @@ This implicitly describes the Monster in terms of 12 generators and 80 relators.
 
 Such "$Y$-group" presentations (Coxeter group based on a similar $Y$-diagram, modulo a spider relation) are linked to a number of finite simple group constructions, the most famous of which is perhaps $Y_{555}$ which is a presentation of the "Bimonster" (the [[wreath product]] of the Monster with $\mathbb{Z}/2$). See [Ivanov](#Iv) for a general description of these. The presentation of the Monster given above was established in [Ivanov2](#Iv2). 
 
+### Via automorphisms of a super vertex operator algebra
+ {#ViaAutomorphisms}
+
+There is a [[super vertex operator algebra]], the [[Monster vertex operator algebra]], whose [[automorphism group|group of]] of [[automorphisms of a VOA]] is the [[monster group]].
+
+  ([Frenkel-Lepowski-Meurman 89](#FrenkelLepowskiMeurman89), [Griess-Lam 11](#GriessLam11))
+
+
+
 ## Related concepts
 
 * [[Moonshine]],
@@ -76,19 +88,25 @@ Such "$Y$-group" presentations (Coxeter group based on a similar $Y$-diagram, mo
 
 * [[Mathieu group]], [[Mathieu moonshine]]
 
-<div style="float:right;margin:0 20px 10px 20px;"><img width = "80" src="http://t0.gstatic.com/images?q=tbn:nJNML0QhNiejuM:http://open.salon.com/files/cookie-monster3-7769871237963363.jpg
-" alt="The Monster" /></div>
 
 ## References 
 
-* Adam P. Goucher (http://mathoverflow.net/users/39521/adam-p-goucher), _Presentation of the Monster Group_, URL (version: 2013-09-15): http://mathoverflow.net/q/142216 
+* [Adam P. Goucher](http://mathoverflow.net/users/39521/adam-p-goucher), _Presentation of the Monster Group_, ([MO comment 2013-09-15](http://mathoverflow.net/q/142216))  
 
-* Alexander Ivanov, _Y-groups via transitive extension_, Journal of Algebra, Volume 218, Issue 2 (August 15, 1999), 412&#8211;435. ([web](http://www.sciencedirect.com/science/article/pii/S0021869399978821)) 
- {#Iv} 
 
-*  A. A. Ivanov, _Constructing the Monster via its Y-presentation_,
+* {#Iv} Alexander Ivanov, _Y-groups via transitive extension_, Journal of Algebra, Volume 218, Issue 2 (August 15, 1999), 412&#8211;435. ([web](http://www.sciencedirect.com/science/article/pii/S0021869399978821)) 
+  
+
+*  {#Iv2} A. A. Ivanov, _Constructing the Monster via its Y-presentation_,
 in Combinatorics, Paul Erd&#337;s is Eighty, Bolyai Society Mathematical Studies, Vol. 1 (1993), 253-270. 
- {#Iv2} 
+
+* {#FrenkelLepowskiMeurman89} [[Igor Frenkel]], [[James Lepowsky]], Arne Meurman, _Vertex operator algebras and the monster_, Pure and Applied Mathematics __134__, Academic Press, New York 1998. liv+508 pp. [MR0996026](http://www.ams.org/mathscinet-getitem?mr=996026)
+
+* {#GriessLam11} [[Robert Griess]] Jr., Ching Hung Lam, _A new existence proof of the Monster by VOA theory_ ([arXiv:1103.1414](https://arxiv.org/abs/1103.1414))
+  
+<div style="float:right;margin:0 20px 10px 20px;"><img width = "80" src="http://t0.gstatic.com/images?q=tbn:nJNML0QhNiejuM:http://open.salon.com/files/cookie-monster3-7769871237963363.jpg
+" alt="The Monster" /></div>
+
 
 
 [[!redirects Monster]]
