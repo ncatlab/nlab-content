@@ -56,3 +56,7 @@ A comparison of both with related notions like Day-Street [[substitude]]s as wel
 A connection of Feynman categories to (a generalization of) profunctors and to rewriting systems within a proposal to categorification of the [[cyclic operad]]s are exhibited in
 
 * Pierre-Louis Curien, Jovana Obradović, _Categorified cyclic operads_, [arxiv/1706.06788](https://arxiv.org/abs/1706.06788) 
+
+Interesting pair of functors (not an adjoint pair!) between operadic categories and Feynman categories is among the topics studied in
+
+* M. Batanin, M. Markl, _Koszul duality for operadic categories_, [arxiv.org/abs/1812.02935](https://arxiv.org/abs/1812.02935)
