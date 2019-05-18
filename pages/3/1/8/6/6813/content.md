@@ -37,9 +37,9 @@ The types of black branes that can occur in theories of [[supergravity]] that ar
 
 The idea is that both these brane-phenomena are aspects of one single entity: 
 
-* At low string coupling the [[D-brane]]/[[NS-brane]] description is accurate. Low string coupling implies that the coupling of [[gravity]] is weak, hence that the back-reaction of the branes on the background geometry is negligible.
+* At low [[string coupling]] the [[D-brane]]/[[NS-brane]] description is accurate. Low [[string coupling]] implies that the coupling of [[gravity]] is weak, hence that the back-reaction of the branes on the background geometry is negligible.
 
-* At large string coupling but low energy, the [[effective field theory|effective]] [[supergravity]] description becomes accurate. Here the branes do back-react on the gravitational background and hence create the _black brane_ spacetime geometry.
+* At large [[string coupling]] but low [[energy]], the [[effective field theory|effective]] [[supergravity]] description becomes accurate. Here the branes do back-react on the gravitational background and hence create the _black brane_ spacetime geometry.
 
 This duality of the brane picture is at the heart of the [[AdS/CFT correspondence]]. See there for more details.
 
