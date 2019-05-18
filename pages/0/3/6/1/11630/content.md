@@ -205,7 +205,7 @@ Discussion of [[11-dimensional supergravity]] in a form that exhibits the higher
 
 The case of $SL(3,\mathbb{Z}) \times SL(2,\mathbb{Z})$ in [[8d supergravity]] is discussed in 
 
-* {#LiuMinasian97} James T. Liu, [[Ruben Minasian]], _U-branes and $T^3$ fibrations_, Nucl.Phys. B510 (1998) 538-554 ([arXiv:hep-th/9707125](http://arxiv.org/abs/hep-th/9707125))
+* {#LiuMinasian97} [[James Liu]], [[Ruben Minasian]], _U-branes and $T^3$ fibrations_, Nucl.Phys. B510 (1998) 538-554 ([arXiv:hep-th/9707125](http://arxiv.org/abs/hep-th/9707125))
 
 The case of $SL(5,\mathbb{Z})$ in [[7d supergravity]] from [[M-theory]] is discussed in
 
