@@ -35,9 +35,17 @@ In the point-particle limit, these non-geometric string vacua correspond to [[sp
 
 ## Examples
 
+### General
+
 * [[rational 2d CFT]]
 
   * [[Gepner model]]
+
+* [[non-commutative geometry]] (as in [[Connes-Lott models]])
+
+
+### Type II superstring vacua
+
 
 * [[type II geometry]]
 
@@ -45,7 +53,22 @@ In the point-particle limit, these non-geometric string vacua correspond to [[sp
 
 * [[exceptional generalized geometry]]
 
-* [[non-commutative geometry]] (as in [[Connes-Lott models]])
+### Heterotic string vacua
+ {#ExamplesHeteroticString}
+
+Strictly speaking, the [[perturbative string theory vacua]] of  [[heterotic string theory]] are _all_ non-geometric, even if the apparent [[target spacetime]] is plain [[Minkowski spacetime]]: 
+
+The [[2d SCFT]] defining the [[heterotic string]] is the [[direct sum]] of two rather different chiral halfs:  
+
+1. the holomorphic part, say, is one chiral half of a [[superstring]] [[sigma model]] on 10d [[Minkowski spacetime]]
+
+1. the antiholomorphic part is one chiral half of the [[bosonic string]] on a 26d-dimensional [[Minkowski spacetime]] that is [[KK-compactification|compactified]] on the [[Leech lattice]].
+
+While the [[direct sum]] of these two [[super vertex operator algebras]] is again a consistent [[super vertex operator algebra]], in this combination this is not a [[sigma-model]] anymore, even if its two halfs do arise in (two distinct!) sigma-models.
+
+Analogous statements hold for most [[rational CFT]]-constructions of [[perturbative string theory vacua]]. Even if parts of these algebras arise as chiral half of [[sigma-models]] (notably [[WZW models]]), the way they are put together chirally yields a non-geometric construction that defines a non-geometric [[perturbative string theory vacuum]].
+
+
 
 ## Related concepts
 
