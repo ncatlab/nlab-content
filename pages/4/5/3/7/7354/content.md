@@ -24,6 +24,8 @@ Whatever it is otherwise, [[string theory]] turns out to be an organizational pr
 
 ## Examples
 
+### General
+
 The general duality principles in string theory are these:
 
 * **[[T-duality]]**, [[mirror symmetry]]
@@ -32,13 +34,23 @@ The general duality principles in string theory are these:
 
 * **[[U-duality]]** .
 
-By applying these, possibly cosecutively, to various corners in the string theory space, one obtains ([[conjecture|conjecturally]]) the following 
+By applying these, possibly cosecutively, to various corners in the string theory space, one obtains ([[conjecture|conjecturally]]) the following:
+
+### String-fivebrane duality
+
+string-fivebrane duality
+
+* [[dual heterotic string theory]]
+
+### String-string duality
 
 [[string-string duality]]
 
 * [[duality between type I and heterotic string theory|I - HET]]
 
 * [[duality between heterotic and type II string theory|HET - II]]
+
+### M-theory
 
 [[M-theory]]
 
@@ -48,16 +60,21 @@ By applying these, possibly cosecutively, to various corners in the string theor
 
 * [[duality between M-theory on Z2-orbifolds and type IIB string theory on K3-fibrations|M - IIB]]
 
+### F-theory
+
 [[F-theory]]
 
 * [[duality between M-theory and F-theory|M - F]]
 
 * [[duality between F-theory and heterotic string theory|F - HET]]
 
+### String-QFT duality
 
-Then there is also the
+string-QFT duality
 
 * [[AdS/CFT correspondence]].
+
+* [[AdS/QCD correspondence]]
 
 ## Overview 
  {#Overview}
