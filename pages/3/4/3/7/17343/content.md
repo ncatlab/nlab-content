@@ -277,7 +277,7 @@ $$
   S_Y
 $$
 
-(hence the largets subset of $S_X$ on which both functions coincide) and equipped with the [[subspace topology]], example \ref{TopologicalSubspace}.
+(hence the largest subset of $S_X$ on which both functions coincide) and equipped with the [[subspace topology]], example \ref{TopologicalSubspace}.
 
 =--
 
@@ -475,7 +475,7 @@ A _[[partial order]]_ is a [[set]] $S$ equipped with a [[relation]] $\leq$ such 
 
 This we may and will equivalently think of as a [[category]] with [[objects]] the elements of $S$ and a unique morphism $a \to b$ precisely if $a\leq b$. In particular an order-preserving function between partially ordered sets is equivalently a [[functor]] between their corresponding categories.
 
-A _[[bottom element]]_ $\bot$ in a partial order is one such that $\bot \leq a$ for all a. A _[[top element]]_ $\top$ is one for wich $a \leq \top$.
+A _[[bottom element]]_ $\bot$ in a partial order is one such that $\bot \leq a$ for all a. A _[[top element]]_ $\top$ is one for which $a \leq \top$.
 
 A partial order is a _[[total order]]_ if in addition
 
