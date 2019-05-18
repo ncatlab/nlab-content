@@ -52,7 +52,7 @@ $$
     \chi \leq (\phi \cap \psi)^o
   &\iff
     \chi^o \leq \phi \cap \psi
-&\quad& \text{involution}
+&\quad&\text{monotonicity and involution}
 \\
   &\iff
     \chi^o \leq \phi \; \text{ and } \; \chi^o \leq \psi
