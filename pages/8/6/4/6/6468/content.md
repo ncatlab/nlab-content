@@ -128,6 +128,11 @@ The [[formal Brauer group]] is
 
 [[!include moduli of higher lines -- table]]
 
+### As a fiber space in string compactifications
+
+See _[[duality between heterotic and type II string theory]]_
+
+
 ## Related concepts
 
 * [[formal Brauer group]]
@@ -137,6 +142,7 @@ The [[formal Brauer group]] is
 * [[F-theory]],
 
 * [[elliptic fibration]]
+
 
 ## References
 
