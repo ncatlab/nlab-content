@@ -95,7 +95,7 @@ While therefore the premise of perturbative string theory is conceptually sugges
 
 * [[string length scale]] $l_s = \sqrt{\alpha'}$
 
-* string [[coupling constant]] $g_s = e^\lambda$ 
+* [[string coupling constant]] $g_s = e^\lambda$ 
  
   (= radius of [[M-theory]] compactification circle ([Witten 95](http://ncatlab.org/nlab/show/M-theory#Witten95)))
 
