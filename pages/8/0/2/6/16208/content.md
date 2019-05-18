@@ -21,17 +21,29 @@
 
 [Lean](http://leanprover.net/) is a [[proof assistant]] based on [[dependent type theory]]. Like [[Coq]] and [[Agda]], it may be used to implement [[homotopy type theory]].
 
-Lean libraries for [[HoTT]] include:
+## Formalized mathematics
+  {#FormslizedMathematics}
 
-* [github.com/groupoid/lean](https://github.com/groupoid/lean)
 
-* [github.com/gebner/hott3](https://github.com/gebner/hott3)
+Some [[mathematics]] that has been formalized in Lean:
 
-and implementation in [[Lean]] is in 
+* basic [[synthetic mathematics]] [[homotopy theory]] ([[HoTT]])
 
-* [github.com/cmu-phil/Spectral](https://github.com/cmu-phil/Spectral) ([[spectral sequences]])
+  * [github.com/groupoid/lean](https://github.com/groupoid/lean)
 
-* [github.com/leanprover-community/lean-perfectoid-spaces](https://github.com/leanprover-community/lean-perfectoid-spaces) ([[perfectoid spaces]])
+  * [github.com/gebner/hott3](https://github.com/gebner/hott3)
+
+* [[spectral sequences]]
+
+  * [github.com/cmu-phil/Spectral](https://github.com/cmu-phil/Spectral) 
+
+* [[perfectoid spaces]]
+
+  * [github.com/leanprover-community/lean-perfectoid-spaces](https://github.com/leanprover-community/lean-perfectoid-spaces)
+
+* [[schemes]]
+
+  * [[The Stacks Project]]
 
 ## References
 
