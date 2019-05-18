@@ -2448,6 +2448,10 @@ $$
 
 ## References
 
+### General
+
+* {#Stolz14} [[Stephan Stolz]], _Topology and Field Theories_, Contemporary Mathematics 613, American Mathematical Society 2014 ([ams:conm-613](https://bookstore.ams.org/conm-613))
+
 ### Formalization of sewing and locality in terms of functoriality
 
 It was in
@@ -2529,7 +2533,7 @@ or
 
 There is a long-term project by Stephan Stolz and Peter Teichner which originally tried to refine Segal's 1-functorial formulation of conformal field theory to a 2-functorial extended FQFT, as indicated in
 
-* Stephan Stolz and Peter Teichner, _What is an elliptic object?_ ([pdf](http://math.berkeley.edu/~teichner/Papers/Oxford.pdf)).
+* [[Stephan Stolz]] and Peter Teichner, _What is an elliptic object?_ ([pdf](http://math.berkeley.edu/~teichner/Papers/Oxford.pdf)).
 
 
 More recently, Mike Hopkins and Jacob Lurie claimed 
