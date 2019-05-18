@@ -79,7 +79,7 @@ such that
        \\
        {}^{\mathllap{\alpha^{-1}_{A^\ast,A, A^\ast}}}_{\mathllap{\simeq}}\downarrow
        &&
-       \downarrow^{\mathrlap{\ell^{-1}_A \circ r_A}}_{\mathrlap{\simeq}}
+       \downarrow^{\mathrlap{\ell^{-1}_{A^\ast} \circ r_{A^\ast}}}_{\mathrlap{\simeq}}
        \\
        (A^\ast \otimes A) \otimes A^\ast
          &\underset{ev_A \otimes id_{A^\ast}}{\longrightarrow}&
