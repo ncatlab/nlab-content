@@ -24,7 +24,7 @@
 
 ## Idea
 
-A [[duality in string theory]]:
+A [[duality in string theory]]. The [[non-perturbative effect|non=perturbative]] enhancement of [[duality between heterot and type II string theory]]:
 
 [[F-theory]]$\,$"[[KK-compactification|KK-compactified]]" on an [[elliptic fibration|elliptically fibered]] [[K3]] with a [[section]] is supposed to be equivalent to [[heterotic string theory]] [[KK-compactification|KK-compactified]] on a [[2-torus]]. 
 
@@ -127,3 +127,4 @@ The issue with non-reducible $E_8$-gauge connections is highligted in
 
 [[!redirects F/M-theory on elliptically fibered Calabi-Yau 2-folds]]
 
+[[!redirects duality between heterotic string theory and M/F-theory]]
