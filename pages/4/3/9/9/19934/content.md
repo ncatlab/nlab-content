@@ -250,7 +250,7 @@ Flat (toroidal) orbifolds of dimension 4 are discussed in
 
 In the context of [[Mathieu moonshine]] from [[string]] [[sigma models]] on [[K3]]s: 
 
-* [[Matthias Gaberdiel]], [[Stefan Hohenegger]], Roberto Volpato, _Symmetries of K3 sigma models_, Commun.Num.Theor.Phys. 6 (2012) 1-50 ([arXiv:1106.4315](https://arxiv.org/abs/1106.4315))
+* [[Matthias Gaberdiel]], [[Stefan Hohenegger]], [[Roberto Volpato]], _Symmetries of K3 sigma models_, Commun.Num.Theor.Phys. 6 (2012) 1-50 ([arXiv:1106.4315](https://arxiv.org/abs/1106.4315))
 
 * [[Matthias Gaberdiel]], Roberto Volpato, _Mathieu Moonshine and Orbifold K3s_ ([arXiv:1206.5143](https://arxiv.org/abs/1206.5143))
 
@@ -262,7 +262,7 @@ In 6 dimensions (mostly motivated as singular [[supersymmetry and Calabi-Yau man
 
 * S. Reffert, _Toroidal Orbifolds: Resolutions, Orientifolds and Applications in String Phenomenology_ ([arXiv:hep-th/0609040](https://arxiv.org/abs/hep-th/0609040))
 
-* [[Ron Donagi]], [[Katrin Wendland]], _On orbifolds and free fermion constructions_, J.Geom.Phys.59:942-968,2009 ([arXiv:0809.0330](https://arxiv.org/abs/0809.0330))
+* [[Ron Donagi]], [[Katrin Wendland]], _On orbifolds and free fermion constructions_, J. Geom. Phys. 59:942-968, 2009 ([arXiv:0809.0330](https://arxiv.org/abs/0809.0330))
 
 * {#FRTV12} Maximilian Fischer, Michael Ratz, Jesus Torrado, Patrick K.S. Vaudrevange, _Classification of symmetric toroidal orbifolds_, JHEP 1301 (2013) 084 ([arXiv:1209.3906](https://arxiv.org/abs/1209.3906))
 
