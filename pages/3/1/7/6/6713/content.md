@@ -101,7 +101,7 @@ Starting with Kontsevich's [[homological algebra]] reformulation of [[homologica
 ### As black branes
  {#AsBlackBranes}
 
-In [[perturbative string theory]], hence for small string [[coupling constant]] the D-branes are incarnated as boundary conditions for the string's [[worldsheet]] [[2d CFT]], exhibiting submanifolds in [[spacetime]]. As the string [[coupling constant]] increases and becomes non-perturbative, this picture of [[perturbative string theory]] breaks down, but at low energy (large scales) now [[supergravity]] becomes a good description, and now the D-branes are incarnated as [[black branes]].
+In [[perturbative string theory]], hence for small [[string coupling constant]] the D-branes are incarnated as boundary conditions for the string's [[worldsheet]] [[2d CFT]], exhibiting submanifolds in [[spacetime]]. As the string [[coupling constant]] increases and becomes non-perturbative, this picture of [[perturbative string theory]] breaks down, but at low energy (large scales) now [[supergravity]] becomes a good description, and now the D-branes are incarnated as [[black branes]].
 
 <img src="https://ncatlab.org/nlab/files/BlackBrane.png" />
 
