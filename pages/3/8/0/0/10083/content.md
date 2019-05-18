@@ -44,6 +44,6 @@ The [[U-duality]] group of maximax 8d SuGra is $SL(3,\mathbb{Z})\times SL(2,\mat
 
 Discussion of the [[U-duality]] in 8d includes
 
-* {#LiuMinasian97} James T. Liu, [[Ruben Minasian]], _U-branes and $T^3$ fibrations_, Nucl.Phys. B510 (1998) 538-554 ([arXiv:hep-th/9707125](http://arxiv.org/abs/hep-th/9707125))
+* {#LiuMinasian97} [[James Liu]], [[Ruben Minasian]], _U-branes and $T^3$ fibrations_, Nucl.Phys. B510 (1998) 538-554 ([arXiv:hep-th/9707125](http://arxiv.org/abs/hep-th/9707125))
 
 [[!redirects 8d supergravity]]
