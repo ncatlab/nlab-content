@@ -44,5 +44,11 @@ See also
 * K. Foerger, _On Heterotic/Type I Duality in d=8_ ([arXiv:hep-th/9812154](https://arxiv.org/abs/hep-th/9812154))
 
 
-
 [[!redirects duality between heterotic and type I string theory]]
+
+
+[[!redirects I - HET duality]]
+[[!redirects I - HET]]
+[[!redirects HET - I duality]]
+[[!redirects HET - I]]
+
