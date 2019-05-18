@@ -9,7 +9,11 @@
 
 * **[[U-duality]]** 
 
-**string-string dualities**
+**string-fivebrane duality**
+
+* [[dual heterotic string theory]]
+
+**[[string-string dualities]]**
 
 * [[HET - I]]
 
@@ -17,9 +21,13 @@
 
 * [[HET - M]]
 
+**[[M-theory]]**
+
 * [[duality between M-theory and type IIA superstring theory|M - IIA]].
 
 * [[duality between M-theory on Z2-orbifolds and type IIB string theory on K3-fibrations|M- IIB]]
+
+**[[F-theory]]**
 
 * [[duality between M-theory and F-theory|M - F]]
 
@@ -28,3 +36,5 @@
 **string-QFT duality**
 
 * [[AdS-CFT correspondence]]
+
+* [[AdS-QCD correspondence]]
