@@ -108,7 +108,7 @@ $$
 
 By following through the above diagram, one finds how this determines the [[coupling constant]] in the [[type II string theory]]:
 
-First, the KK-reduction of M-theory on $S^1_A$ yields a type IIA string coupling
+First, the [[KK-compactification]] of M-theory on $S^1_A$ yields a type IIA [[string coupling constant]]
 
 $$
   g_{IIA} = \frac{R_A}{\ell_s}
