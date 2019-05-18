@@ -25,6 +25,13 @@ The term "[[M-theory]]" was introduced somewhere around
 * Michael Duff, _M-Theory (the Theory Formerly Known as Strings)_,  Int. J. Mod. Phys. A11 (1996) 5623-5642 ([arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117))
 
 
+* {#DuffKhuri93} [[Michael Duff]], [[Ramzi Khuri]], _Four-Dimensional String/String Duality_, Nucl.Phys. B411 (1994) 473-486 ([arXiv:hep-th/9305142](https://arxiv.org/abs/hep-th/9305142))
+
+* [[Michael Duff]], [[Ruben Minasian]], _Putting string/string duality to the test_, Nucl.Phys. B436 (1995) 507-528 ([arXiv:hep-th/9406198](https://arxiv.org/abs/hep-th/9406198))
+
+  (on [[string-string duality]])
+
+
 
 category: people
 
