@@ -45,8 +45,14 @@ From these properties we immediately get that
 \[
 (\phi \cap \psi)^o = \phi^o \cap \psi^o
 \]
-because
-
+and
+\[
+  (\phi \cap \psi) \chi \leq \phi\chi \cap \psi\chi
+\quad\text{and}\quad
+  \chi (\phi \cap \psi) \leq \chi\phi \cap \psi\chi.
+\]
+\begin{proof}
+The first claim follows from the observation that
 $$
 \begin{aligned}
     \chi \leq (\phi \cap \psi)^o
@@ -67,6 +73,9 @@ $$
 &&\text{meet properties.}
 \end{aligned}
 $$
+
+For the claim $(\phi \cap \psi) \chi \leq \phi\chi \cap \psi\chi$ we use the [[horizontal composition]] in a [[locally posetal 2-category]], i.e. the fact that composition is monoton. Due to $\phi \cap \psi \leq \phi$ we get $(\phi \cap \psi)\chi \leq \phi\chi$. Analogously, we get that $(\phi \cap \psi)\chi \leq \psi\chi$. Hence $(\phi \cap \psi) \chi \leq \phi\chi \cap \psi\chi$. The claim $\chi (\phi \cap \psi) \leq \chi\phi \cap \psi\chi$ follows the the same arguments or by applying involution and the first claim.
+\end{proof}
 
 ## Examples 
 
