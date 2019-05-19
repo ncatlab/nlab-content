@@ -44,7 +44,10 @@ In the more general context of ([[global equivariant stable homotopy theory|glob
 
 [[!include equivariant cohomology -- table]]
 
+
 ## References
+
+* {#Tu11} [[Loring Tu]], _What is... Equivariant Cohomology?_, Notices of the AMS, Volume 85, Number 3, March 2011 ([pdf](https://www.ams.org/notices/201103/rtx110300423p.pdf), [[TuEquivariantCohomology.pdf:file]])
 
 * {#Schwede18} [[Stefan Schwede]], Example 4.5.19 of _[[Global homotopy theory]]_ 2018  ([arXiv:1802.09382](https://arxiv.org/abs/1802.09382))
 
