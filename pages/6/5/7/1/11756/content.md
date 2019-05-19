@@ -49,7 +49,7 @@ Refinement of the construction to [[stable (∞,1)-categories]] and [[exact (inf
 
 * {#Barwick13} [[Clark Barwick]], _On the Q construction for exact quasicategories_ ([arXiv:1301.4725](http://arxiv.org/abs/1301.4725))
 
-* [[C. Barwick]], _On exact infinity-categories and the Theorem of the Heart_, [arXiv:1212.5232](http://arxiv.org/abs/1212.5232).
+* [[Clark Barwick]], _On exact infinity-categories and the Theorem of the Heart_, [arXiv:1212.5232](http://arxiv.org/abs/1212.5232).
 
 See also
 
