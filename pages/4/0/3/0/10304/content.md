@@ -33,6 +33,8 @@
 
 * [[standard model of particle physics]], [[standard model of cosmology]]
 
+* [[empircism]]
+
 ## Relation to mathematical proof
 
 In ([Jaffe-Quinn 93, p. 2](JaffeQuinn93)) it was claimed that
