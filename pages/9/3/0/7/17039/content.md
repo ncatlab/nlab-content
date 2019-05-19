@@ -26,7 +26,11 @@ This page collects pointers related to the conference and book project:
 
   [conference](http://ercpqg-espace.sciencesconf.org/program) (IHP Paris, Oct-Sept 2015)
 
-  and  [book project](http://ercpqg-espace.sciencesconf.org/resource/page/id/1), [table of contents of book](http://mathieu.anel.free.fr/mat/doc/Anel-Catren-NewSpacesTOC.pdf)
+  and  [book project](http://ercpqg-espace.sciencesconf.org/resource/page/id/1), 
+
+  Cambridge University Press 2019
+
+  ([toc pdf](http://mathieu.anel.free.fr/mat/doc/Anel-Catren-NewSpacesTOC.pdf))
 
 on current developments regarding foundations of [[geometry]] in [[mathematics]] and [[physics]].
 
