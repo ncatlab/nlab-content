@@ -5,7 +5,11 @@ This entry collects material related to the book
 
   _Equivariant cohomology theories_, 
 
-  Springer Lecture Notes in Mathematics Vol. 34. 1967 
+  Lecture Notes in Mathematics Vol. 34
+
+  Springer 1967 
+
+  ([doi:10.1007/BFb0082690](https://link.springer.com/book/10.1007/BFb0082690))
 
 announced in
 
