@@ -256,7 +256,7 @@ and in
 
 * {#ProblemsInHomotopyTheoryWiki} _Problems in homotopy theory_ ([wiki](http://topology-octopus.herokuapp.com/problemsinhomotopytheory/show/HomePage))
  
-More regarding the sociology of the field:
+More regarding the sociology of the field (such as its [[folklore]] results):
 
 * {#Barwick17} [[Clark Barwick]], _The future of homotopy theory_, 2017 ([pdf](http://www.maths.ed.ac.uk/~cbarwick/papers/future.pdf), [[BarwickFutureOfHomotopyTheory.pdf:file]])
 
