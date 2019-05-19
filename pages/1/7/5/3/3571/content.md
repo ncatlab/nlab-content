@@ -2,7 +2,7 @@
 * [webpage](http://www.math.cornell.edu/~kbrown/)
 
 
-## Some publications
+## Selected writings
 
 * K. Brown, _[[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]]_.
 
