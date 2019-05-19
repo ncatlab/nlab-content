@@ -25,7 +25,7 @@
 
 ## Idea
 
-In the [[philosophy of science]], the [[philosophy|philosophical]] sentiment which expresses the following perspective on the description of [[physics]] by [[mathematics]] might deserve to be called _universal exceptionalism_ or similar:
+In the [[philosophy of science]] and particularly the _[[philosophy of physics]]_, the [[philosophy|philosophical]] sentiment which expresses the following perspective on the description of [[physics]] by [[mathematics]] might deserve to be called _universal exceptionalism_ or similar:
 
 > _Since nature (reality) is exceptional in that it has existence, it is plausible that it is the [[exceptional structures]] among all [[mathematical structures|mathematical]] [[structures]] -- such as the exceptional examples in the classification of [[simple Lie groups]], the [[exceptional Lie groups]] -- that play a role in the mathematical description of nature, hence in [[physics]] and specifically in [[phenomenology]]._
 
@@ -33,7 +33,7 @@ This may be regarded as a facet or version of [[theoretical aestheticism]], in c
 
 ## Sources
 
-Sources where a sentiment of universal eexceptionalism has been expressed include the following:
+Sources where a sentiment of universal exceptionalism has been expressed include the following:
 
 [Baez 95](#Baez95), in a context of the role of the [[monster group]] in [[physics]], writes:
 
