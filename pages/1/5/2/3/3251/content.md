@@ -129,7 +129,8 @@ The notion of [[cohomology]] relevant in equivariant stable homotopy theory is t
 
 Original articles include
 
-* [[Graeme Segal]], _Equivariant stable homotopy theory_, Actes du Congr&#232;s International des Math&#233;maticiens (Nice, 1970), Tome 2, pp. 59--63. Gauthier-Villars, Paris, 1971. ([pdf](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0059.0064.ocr.pdf))
+* {#Segal71} [[Graeme Segal]], _Equivariant stable homotopy theory_, Actes du Congr&#232;s International des Math&#233;maticiens (Nice, 1970), Tome 2, pp. 59--63. Gauthier-Villars, Paris, 1971. ([[SegalEquivariantStableHomotopyTheory.pdf:file]])
+
 
 A textbook account in terms of [[G-spectra]] modeled on a complete [[G-universe]] is in 
 
