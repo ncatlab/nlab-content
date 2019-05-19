@@ -58,7 +58,7 @@ $$
     \chi \leq (\phi \cap \psi)^o
   &\iff
     \chi^o \leq \phi \cap \psi
-&\quad&\text{monotonicity and involution}
+&\quad&(.)^o\;\text{monotone and involutive}
 \\
   &\iff
     \chi^o \leq \phi \; \text{ and } \; \chi^o \leq \psi
@@ -66,7 +66,7 @@ $$
 \\
   &\iff
     \chi \leq \phi^o \; \text{ and } \; \chi \leq \psi^o
-&&\text{monotonicity and involution}
+&&(.)^o\;\text{ monotone and involutive}
 \\
   &\iff
     \chi \leq \phi^o \cap \psi^o
@@ -162,7 +162,7 @@ Nevertheless, the spare elegance of the naive definition gives one something to 
 A $P$-allegory is an allegory $\mathcal{A}$ with finite coproducts[^1] for which the inclusion $i: Map(\mathcal{A}) \to \mathcal{A}$ has a right adjoint $P$. 
 =-- 
 
-[^1]: We mean coproducts as certain conical colimits *qua* $Pos$-[[enriched categories]]. 
+[^1]: We mean coproducts as certain conical colimits *qua* [[locally posetal 2-category]]. 
 
 As before, the counit is denoted $\ni: i P \to 1_{\mathcal{A}}$. It is perhaps surprising that the notion of $P$-allegory is at least as strong as power allegory in the Freyd-Scedrov sense: 
 
