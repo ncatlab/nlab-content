@@ -7,6 +7,8 @@
 
   Springer 1979
 
+  ([doi:10.1007/BFb0085965](https://link.springer.com/book/10.1007/BFb0085965))
+
 on [[representation theory]], [[equivariant homotopy theory]], [[equivariant cohomology]].
 
 [front matter](https://web.math.rochester.edu/people/faculty/doug/otherpapers/tomDieck-Front.pdf)
@@ -29,6 +31,8 @@ on [[representation theory]], [[equivariant homotopy theory]], [[equivariant coh
 Chapter 7: Equivariant homology and cohomolgy
 
 * [[equivariant cohomology]]
+
+* [[Bredon equivariant cohomology]]
 
 * [[equivariant Adams conjecture]]
 
