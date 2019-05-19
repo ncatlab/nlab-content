@@ -57,6 +57,25 @@ Notably in [[homotopy type theory]] with [[univalence]], which is the [[internal
 (Notice however that the categories of [[mathematical structures]] such as [[groups]], [[modules]], etc., even when regarded as [[(infinity,1)-categories]], i.e. of [[infinity-groups]], [[(infinity,n)-modules]] etc.) are rarely [[(infinity,1)-toposes]]. The "structure" carried by an object in an $(\infty,1)$-topos is generically more a kind of geometric structure. 
 
 
+## Related concepts
+
+
+* [[theoretical aestheticism]]
+
+  [[universal exceptionalism]]
+
+* [[empiricism]]
+
+* [[idealism]]
+
+  * [[objective idealism]], [[objective logic]]
+
+  * [[subjective idealism]]
+
+  * [[absolute idealism]]
+
+
+
 ## References
 
 * {#Awodey96} [[Steve Awodey]], _Structure in mathematics and logic: a categorical perspective_, Philosophia Mathematica (3), vol. 4,  p. 209-237, 1996 ([doi:10.1093/philmat/4.3.209](https://doi.org/10.1093/philmat/4.3.209))
