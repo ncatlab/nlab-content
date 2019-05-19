@@ -15,7 +15,7 @@
 
 ## Idea
 
-In [[mathematics]] (also in [[mathematical physics]] and neighbouring disciplines) a [[theorem]] is sometimes said to be _folklore_ when the community feels that it has been around and generally accepted as true for a long time, without however a proof of it having been submitted and published in the usual manner.
+In [[mathematics]] (also in [[mathematical physics]] and neighbouring disciplines) a [[theorem]] is sometimes said to be _folklore_ when the community feels that it has been around and generally accepted as true for a long time, without however a [[proof]] of it having been submitted and published in the usual manner.
 
 For instance the [[cobordism hypothesis]] -- which is an intuitively  evident statement, whose formalization and proof, however, is notoriously subtle -- is referred to as "folklore" in [Stolz 14, p. vi](FQFT#Stolz14)
 
