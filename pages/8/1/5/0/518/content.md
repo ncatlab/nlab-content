@@ -25,7 +25,7 @@ This entry is about the article
 
   Vol. 186 (1973), 419-458 
  
-  ([JSTOR](http://www.jstor.org/stable/1996573)).
+  ([jstor:1996573](http://www.jstor.org/stable/1996573)).
 
 Brown was a student of [[Dan Quillen]]. He expands in this article work from his thesis on a notion of [[homotopical category]] -- called a [[category of fibrant objects]] -- with a bit less structure than that of a full [[model category]], which he uses to study "generalized [[abelian sheaf cohomology]]": 
 
