@@ -60,9 +60,7 @@ Notably in [[homotopy type theory]] with [[univalence]], which is the [[internal
 ## Related concepts
 
 
-* [[theoretical aestheticism]]
-
-  [[universal exceptionalism]]
+* [[universal exceptionalism]]
 
 * [[empiricism]]
 
