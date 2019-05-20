@@ -29,6 +29,8 @@ The _UniMath_ project (short for _Univalent Mathematics_) on formalization of [[
 
 * [[The QED project]]
 
+* [[Archive of Formal Proofs]]
+
 ## References
 
 * [[Benedikt Ahrens]], _UniMath: its origins, present, and future_ ([pdf](https://unimath.github.io/bham2017/UniMath_origins-present-future.pdf))
