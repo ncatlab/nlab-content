@@ -34,6 +34,8 @@ A project bringing [[formal proof]] and [[proof assistants]] (particularly [[Lea
 
 * [[The QED Project]]
 
+* [[Archive of Formal Proofs]]
+
 
 ## References
 
