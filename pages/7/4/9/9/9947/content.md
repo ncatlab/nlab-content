@@ -40,6 +40,8 @@ Similar to Mizar is [[NuPRL]], [[HOL light]] and [[Isabelle]], which all have de
 
 Projects for formalization of mathematics
 
+* [[Xena]]
+
 * [[ForMath]]
 
 * [[The QED Project]]
