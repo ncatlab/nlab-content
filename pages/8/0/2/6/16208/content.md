@@ -25,7 +25,7 @@
   {#FormslizedMathematics}
 
 
-Some [[mathematics]] that has been formalized in Lean:
+Some [[mathematics]] that has been formalized in Lean (in particular in the [[Xena project]]):
 
 * basic [[synthetic mathematics]] [[homotopy theory]] ([[HoTT]])
 
