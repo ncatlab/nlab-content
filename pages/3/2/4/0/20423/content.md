@@ -28,7 +28,7 @@ The simple Conway groups are three of the seven [[element|members]] of the 'seco
 
 ### As automorphism group of super VOAs
 
-The [[Conway group]] $CO_{0}$ is the [[automorphism group|group of]] [[automorphisms of a super VOA]] of the unique chiral [[number of supersymmetries|N=1]] [[super vertex operator algebra]] of [[central charge]] $c = 12$ without fields of [[conformal weight]] $1/2$
+The [[Conway group]] $Co_{0}$ is the [[automorphism group|group of]] [[automorphisms of a super VOA]] of the unique chiral [[number of supersymmetries|N=1]] [[super vertex operator algebra]] of [[central charge]] $c = 12$ without fields of [[conformal weight]] $1/2$
 
   ([Duncan 05](#Duncan05), see also [Paquette-Persson-Volpato 17, p. 9](#PaquettePerssonVolpato17))
 
