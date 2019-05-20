@@ -43,7 +43,9 @@ See also _[[proofs as programs]]_.
 ### Formal proofs
  {#FormalProof}
 
-A formal proof is whatever is called a 'proof' in a formal system; a formal system for [[mathematics]] then gives rules for producing a proof in the above sense.  Typically, a formal system is [[induction|inductively]] defined, and hence its proofs are fully circumscribed; this is the case for [[deductive systems]] such as [[natural deduction]], [[sequent calculus]], and [[Hilbert systems]].  [[incompleteness theorem|Gödel's theorem]] suggests, however, that no such system can encapsulate all of mathematics.
+A [[formal proof]] is whatever is called a 'proof' in a formal system; a formal system for [[mathematics]] then gives rules for producing a proof in the above sense.  Typically, a formal system is [[induction|inductively]] defined, and hence its proofs are fully circumscribed; this is the case for [[deductive systems]] such as [[natural deduction]], [[sequent calculus]], and [[Hilbert systems]].  [[incompleteness theorem|Gödel's theorem]] suggests, however, that no such system can encapsulate all of mathematics.
+
+
 
 ## Relation to observation in physics
  {#RelationToObservationInPhysics}
@@ -71,6 +73,23 @@ Thus a proof *qua* witness is a construction, and in more elaborated development
 * [[refutation by contradiction]]
 
 * [[proof by contradiction]], 
+
+
+## Libraries of formal proofs
+ {#LibrariesOfFormalProofs}
+
+Libraries of [[formal proofs]] formalized in some [[proof assistant]]:
+
+* [[UniMath project]]
+
+* [[Xena project]]
+
+* [[ForMath project]]
+
+* [[Archive of Formal Proofs]]
+
+* [[The QED Project]]
+
 
 
 ## Related concepts
