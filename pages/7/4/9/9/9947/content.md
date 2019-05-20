@@ -48,6 +48,8 @@ Projects for formalization of mathematics wth proof assistants:
 
 * [[ForMath project]]
 
+* [[Archive of Formal Proofs]]
+
 A historical projects that died out:
 
 * [[The QED Project]]
