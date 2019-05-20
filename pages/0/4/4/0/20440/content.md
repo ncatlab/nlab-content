@@ -21,13 +21,13 @@
 
 What has been called the _Happy Family_ in [Griess 82](#Griess82) is the [[finite set]] of those 20 of the 26 [[sporadic finite simple groups]], which are [[subquotients]] of the [[monster group]], in contrast to the remaining 6 [[pariah groups]].
 
-The happy family includes the
+The _Happy Family_ is taken to be formed of three generations:
 
-* [[Fischer groups]]
+* First: five subgroups of the [[Mathieu group]] $M_{24}$ = symmetries of the [[binary Golay code]], namely the [[Mathieu groups]].
+* Second: seven subquotients of the [[Conway group]] $Co_1$ = symmetries of the [[Leech lattice]], $mod \{\pm 1\}$, including the three simple [[Conway groups]].
+* Third: eight subquotients of the [[Monster group]] = conformal symmetries of the [[monster vertex operator algebra]], including the [[Fischer groups]].
 
-* [[Mathieu groups]]
 
-* ...
 
 ## References
 
