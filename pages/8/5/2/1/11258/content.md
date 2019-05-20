@@ -23,15 +23,23 @@
 
 ## Idea
 
-A project for formalization of parts of [[mathematics]] in formal languages supported by [[proof assistants]].
+A project for formalization of parts of [[mathematics]] ([[formal proof]]) in formal languages supported by [[proof assistants]].
 
 * [ForMath Website](http://wiki.portal.chalmers.se/cse/pmwiki.php/ForMath/ForMath)
+
+## Related projects
+
+* [[UniMath project]]
+
+* [[Xena project]]
+
+* [[The QED Project]]
+
 
 ## Related entries
 
 * [[MathScheme]]
 
-* [[The QED Project]]
-
 * [[formal proof]]
 
+[[!redirects ForMath project]]
