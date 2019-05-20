@@ -15,9 +15,9 @@
 
 ## Idea 
 
-A _Deligne-Mumford stack_ is the analogue in [[algebraic geometry]] of what in [[differential geometry]] is an [[orbifold]]: a [[stack]] quotient of a [[scheme]] over the [[étale site]] all whose [[automorphism group]]s are [[finite group]]s.
+A _Deligne-Mumford stack_ (after [Deligne-Mumford 69](#DeligneMumford69)) is the analogue in [[algebraic geometry]] of what in [[differential geometry]] is an [[orbifold]]: a [[quotient stack]] of a [[scheme]] over the [[étale site]] all whose [[automorphism group]]s are [[finite group]]s.
 
-These are what originally were called [[algebraic stack]]s. The latter term nowadays often refers to the more general notion of [[Artin stack]], where the automorphism groups are allowed to be more generally [[algebraic group]]s. This case is the algebraic version of the general notion of [[geometric stack]].
+These are what originally were called [[algebraic stacks]]. The latter term nowadays often refers to the more general notion of [[Artin stacks]], where the [[automorphism groups]] ([[isotropy groups]]) are allowed to be more generall [[algebraic groups]]. This case is the algebraic version of the general notion of [[geometric stack]].
 
 ## Definition
 
@@ -82,9 +82,13 @@ An important source of DM-stacks are [[moduli space|moduli]] problems, resulting
 
 ## References
 
-DM-stacks are introduced in
+The concept is due to 
 
-* [[Pierre Deligne]], D. Mumford, _The irreducibility of the space of curves of given genus_ . Publications Math&#233;matiques de l'IH&#201;S (Paris) 36: 75&#8211;109 (1969) [numdam](http://www.numdam.org/item?id=PMIHES_1969__36__75_0)
+* {#DeligneMumford69} [[Pierre Deligne]], [[David Mumford]], _The irreducibility of the space of curves of given genus_ . Publications Math&#233;matiques de l'IH&#201;S (Paris) 36: 75&#8211;109 (1969) [numdam](http://www.numdam.org/item?id=PMIHES_1969__36__75_0)
+
+Review (and relation to [[orbifolds]]):
+
+* {#Kresch09} [[Andrew Kresch]], _On the geometry of Deligne-Mumford stacks_ ([doi:10.5167/uzh-21342](https://doi.org/10.5167/uzh-21342), [pdf](https://www.zora.uzh.ch/id/eprint/21342/1/geodm.pdf)), in:  D. Abramovich, A. Bertram, L. Katzarkov, R. Pandharipande, M. Thaddeus (eds.) _Algebraic Geometry: Seattle 2005_, Proceedings of Symposia in Pure Mathematics 80, Providence, Rhode Island: American Mathematical Society 2009, 259-271 ([pspum-80-1](https://bookstore.ams.org/pspum-80-1))
 
 Characterization of higher Deligne-Mumford stacks (see [[generalized scheme]]) are in
 
