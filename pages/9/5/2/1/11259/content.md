@@ -99,29 +99,7 @@ many.  The QED system will be a key component of systems for verifying and
 even synthesizing computing systems, both hardware and software.
 
 
-The third motivation for the QED project is education.  Nothing is more
-important than mathematics education to the creation of infrastructure for
-technology-based economic growth.  The development of mathematical ability is
-notoriously dependent upon `doing' rather than upon `being told' or
-`remembering'.  The QED system will provide, via such techniques as interactive
-proof checking algorithms and an endless variety of mathematical results at all
-levels, an opportunity for the one-on-one presenting, checking, and debugging
-of mathematical technique, which it is so expensive to provide by the method of
-one trained mathematician in dialogue with one student.  QED can provide an
-engaging and non-threatening framework for the carrying out of proofs by
-students, in the same spirit as a long-standing program of Suppes at Stanford
-for example.  Students will be able to get a deeper understanding of
-mathematics by seeing better the role that lemmas play in proofs and by seeing
-which kinds of manipulations are valid in which kinds of structures.  Today few
-students get a grasp of mathematics at a detailed level, but via
-experimentation with a computerized laboratory, that number will increase.  In
-fact, students can be used (eagerly, we think) to contribute to the development
-of the body of definitions and proved theorems in QED.  Let also us make the
-observation that the relationship of QED to education may be seen in the
-following broad context: with increasing technology available, governments will
-look not only to cut costs of education but will increasingly turn to make
-education and its delivery more cost-effective and beneficial for the state and
-the individual.
+The third motivation for the QED project is education.  Nothing is more important than mathematics education to the creation of infrastructure for technology-based economic growth.  The development of mathematical ability is notoriously dependent upon 'doing' rather than upon 'being told' or 'remembering'.  The QED system will provide, via such techniques as interactive proof checking algorithms and an endless variety of mathematical results at all levels, an opportunity for the one-on-one presenting, checking, and debugging of mathematical technique, which it is so expensive to provide by the method of one trained mathematician in dialogue with one student.  QED can provide an engaging and non-threatening framework for the carrying out of proofs by students, in the same spirit as a long-standing program of Suppes at Stanford for example.  Students will be able to get a deeper understanding of mathematics by seeing better the role that lemmas play in proofs and by seeing which kinds of manipulations are valid in which kinds of structures.  Today few students get a grasp of mathematics at a detailed level, but via experimentation with a computerized laboratory, that number will increase.  In fact, students can be used (eagerly, we think) to contribute to the development of the body of definitions and proved theorems in QED.  Let also us make the observation that the relationship of QED to education may be seen in the following broad context: with increasing technology available, governments will look not only to cut costs of education but will increasingly turn to make education and its delivery more cost-effective and beneficial for the state and the individual.
 
 
 Fourth, although it is not a practical motivation, nevertheless
@@ -145,7 +123,7 @@ take some things as inherently valuable in themselves.  We believe
 that the construction, use, and even contemplation of the QED system
 will be one of these, over and above the practical values of such a
 system.  In support of this line of thought, let us cite Aristotle,
-the Philosopher, the Father of Logic, `That which is proper to each
+the Philosopher, the Father of Logic, 'That which is proper to each
 thing is by nature best and most pleasant for each thing; for man,
 therefore, the life according to reason is best and pleasantest, since
 reason more than anything else is man.'  We speculate that this
@@ -169,13 +147,13 @@ believing some recent "theorems" in physics because they offer some
 predictive power rather than that they have any meaning, much less
 rigorous proof, with a possible erosion in established standards of
 rigor.  The QED system could offer an antidote to any such tendency.
-The standard, impartial answer to the question `Has it been proved?'
-could become `Has it been checked by the QED system?'.  Such a
+The standard, impartial answer to the question 'Has it been proved?'
+could become 'Has it been checked by the QED system?'.  Such a
 mechanical proof checker could provide answers immune to pressures of
 emotion, fashion, and politics.
 
 
-Sixth, the `noise level' of published mathematics is too high.  It
+Sixth, the 'noise level' of published mathematics is too high.  It
 has been estimated that something between 50 and 100 thousand
 mathematical papers are published per year.  Nobody knows for sure
 how many contain errors or how many are repetitions, but some
