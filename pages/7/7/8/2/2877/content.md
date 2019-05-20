@@ -34,6 +34,7 @@ See also
 
 * [[Tomasz Brzeziński]], _On synthetic interpretation of quantum principal bundles_, AJSE D - Mathematics 35(1D): 13-27, 2010 [arxiv:0912.0213](http://uk.arxiv.org/abs/0912.0213); _Quantum group differentials, bundles and gauge theory_, Encyclopedia of Mathematical Physics, Acad. Press. 2006, pp. 236&#8211;244
 [doi](http://dx.doi.org/10.1016/B0-12-512666-2/00050-X)
+* Francesco D'Andrea, Alessandro De Paris, _On noncommutative equivariant bundles_, [arxiv/1606.09130](https://arxiv.org/abs/1606.09130)
 
 There is also a theory of [[connections on a noncommutative bundle]]. 
 
