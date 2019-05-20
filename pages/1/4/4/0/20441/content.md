@@ -21,7 +21,7 @@
 
 The _pariah groups_ ([Griess 82](#Griess82)) constitute the [[finite set]] of those 6 [[sporadic finite simple groups]], which are _not_ [[subquotients]] of of the [[monster group]], in contrast to the remaining 20 sporadic groups that constitute the [[Happy Family]].
 
-The pariah groups are: [[J1]], [[J3]], [[Ru]], [[ON]], [[Ly]], [[J4]].
+The pariah groups are: [[J1]], [[J3]], [[J4]] (three of the four Janko groups), [[Ru]] (the Rudvalis group), [[ON]] (the O'Nan, or O'Nan–Sims, group), [[Ly]] (the Lyons group). Coincidentally, $J_1$ and $J_4$ were the first and last sporadic groups discovered (after the five [[Mathieu groups]] in the 19th century).
 
 ## References
 
