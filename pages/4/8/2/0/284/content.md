@@ -359,9 +359,7 @@ The relation between [[quasi-category|quasi-categories]] and [[simplicially enri
 
 The presentation of $(\infty,1)$-categories by [[homotopical categories]] and [[model categories]] is discussed in
 
-* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], 
-  [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories
-and Homotopical Categories]]_ , volume 113 of Mathematical Surveys and Monographs
+* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]],  [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]_ , volume 113 of Mathematical Surveys and Monographs
 
 A model by [[stratified spaces]] is in 
 
@@ -370,10 +368,6 @@ A model by [[stratified spaces]] is in
 A more model-independent abstract formulation is discussed in
 
 * {#RiehlVerity16} [[Emily Riehl]], [[Dominic Verity]], _Infinity category theory from scratch_, 2016 ([pdf](http://www.math.jhu.edu/~eriehl/scratch.pdf))
-
-And is being developed in a book in progress, regularly being updated:
-
-* [[Emily Riehl]] and [[Dominic Verity]], _$\infty$-Categories for the Working Mathematician_, (2018) ([pdf](http://www.math.jhu.edu/~eriehl/ICWM.pdf))
 
 For discussion in [[homotopy type theory]] see _[[internal category in homotopy type theory]]_ and see
 
