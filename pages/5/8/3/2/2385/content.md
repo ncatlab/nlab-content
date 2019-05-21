@@ -126,7 +126,7 @@ The category of [[D-module]]s on a [[space]] is equivalent to that of [[quasicoh
 
 The term _de Rham space_ or _de Rham stack_ apparently goes back to
 
-* {#Simpson96} [[Carlos Simpson]], _Homotopy over the complex numbers and generalized de Rham cohomology_, in M. Maruyama, (ed.) _Moduli of Vector Bundles_ , Dekker (1996), 229-263.
+* {#Simpson96} [[Carlos Simpson]], _Homotopy over the complex numbers and generalized de Rham cohomology_, Toulouse preprint no. 50, April 1995, In: M. Maruyama, (ed.) _Moduli of Vector Bundles (Taniguchi symposium December 1994)_,  Lecture notes in Pure and Applied Mathematics, Issue 189, Page 229-264, Dekker (1996), 229-263 ([web](https://www.tib.eu/en/search/id/BLCP%3ACN013382849/Homotopy-Over-the-Complex-Numbers-and-Generalized/))
 
 But actually there it just has the notation "$X_{dR}$" and then the functor it co-represents is called the "de Rham shape" of $X$.
 
