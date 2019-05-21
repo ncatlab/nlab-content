@@ -16,7 +16,7 @@
 ## Idea
 
 
-Moonshine usually refers to the mysterious connections between the [[Monster simple group]] and the modular function $j$, the [[j-invariant]]. There were a bunch of [[conjectures]] about this connection that were proved by [[Richard Borcherds]], en passant mentioning the existence of the [[Moonshine vertex algebra]] (constructed then later by FLM). Nowadays there is also Moonshine for other simple groups, by the work of J. Duncan. Eventually there should be an entry for the general moonshine phenomenon.
+Moonshine usually refers to the mysterious connections between the [[Monster simple group]] and the modular function $j$, the [[j-invariant]]. There were a bunch of [[conjectures]] about this connection that were proved by [[Richard Borcherds]], en passant mentioning the existence of the [[Moonshine vertex algebra]] (constructed then later in [FLM 89](#FrenkelLepowskiMeurman89)). Nowadays there is also Moonshine for other simple groups, by the work of J. Duncan. Eventually there should be an entry for the general moonshine phenomenon.
 
 The whole idea of moonshine began with [[John McKay]]'s observation that the [[Monster group]]'s first nontrivial [[irreducible representation]] has [[dimension]] 196883, and the [[j-invariant]] $j(\tau)$ has the [[Fourier series]] expansion
 $$
@@ -26,7 +26,7 @@ where $q=\exp(i2\pi\tau)$, and famously 196883+1=196884. Thompson observed in (1
 
 But the monster was merely _conjectured_ to exist until Griess (1982) explicitly constructed it. The construction is horribly complicated (take the sum of three irreducible representations for the [[centralizer]] of an [[involution]] of...). 
 
-[Frenkel-Lepowski-Meurman 89](#FrenkelLepowskiMeurman89) an infinite-dimensional [[module]] for the [[Monster vertex algebra]]. This is by a generalized [[Kac-Moody algebra]] via [[bosonic string theory]] and the [[Goddard-Thorn theorem|Goddard-Thorn "No Ghost" theorem]]. The [[Monster group]] acts naturally on this "Moonshine Module" (denoted by $V\natural$). 
+[Frenkel-Lepowski-Meurman 89](#FrenkelLepowskiMeurman89) constructed an infinite-dimensional [[module]] for the [[Monster vertex algebra]]. This is by a generalized [[Kac-Moody algebra]] via [[bosonic string theory]] and the [[Goddard-Thorn theorem|Goddard-Thorn "No Ghost" theorem]]. The [[Monster group]] acts naturally on this "Moonshine Module" (denoted by $V\natural$). 
 
 To cut the story short, we end up getting from the Monster group to a module it acts on which is related to "modular stuff" (namely, the modular [[j-invariant]]). The idea [[Terry Gannon]] pitches is that Moonshine is a generalization of this association, it's a sort of "mapping" from "Algebraic gadgets" to "Modular stuff". 
 
@@ -74,7 +74,7 @@ _Doc. Math._ 1998, Extra Vol. I, 607&#8211;615 (electronic). [MR1660657](http://
 
 * {#GriessLam11} [[Robert Griess]] Jr., Ching Hung Lam, _A new existence proof of the Monster by VOA theory_ ([arXiv:1103.1414](https://arxiv.org/abs/1103.1414))
 
-* {#FrenkelLepowskiMeurman89} [[Igor Frenkel]], [[James Lepowsky]], Arne Meurman, _Vertex operator algebras and the monster_, Pure and Applied Mathematics __134__, Academic Press, New York 1998. liv+508 pp. [MR0996026](http://www.ams.org/mathscinet-getitem?mr=996026)
+* {#FrenkelLepowskiMeurman89} [[Igor Frenkel]], [[James Lepowsky]], Arne Meurman, _Vertex operator algebras and the monster_, Pure and Applied Mathematics __134__, Academic Press, New York 1989. liv+508 pp. [MR0996026](http://www.ams.org/mathscinet-getitem?mr=996026)
 
 * [[Terry Gannon]], "Monstrous moonshine: the first twenty-five years."
 _Bull. London Math. Soc._ **38** (2006), no. 1, 1&#8211;33.  [MR2201600](http://www.ams.org/mathscinet-getitem?mr=2201600) [arXiv:math/0402345v2](http://arxiv.org/abs/math/0402345) [math.QA]
