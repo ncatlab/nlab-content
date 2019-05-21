@@ -18,6 +18,8 @@ __Gottfried Leibniz__ is responsible for lots of stuff:
 
 * [[Georg Hegel]], _[[Lectures on the History of Philosophy]] -- [Leibniz](Lectures+on+the+History+of+Philosophy#Leibniz)_
 
+* [[Mikhail Katz]], David Sherry, _Leibniz's Infinitesimals: Their Fictionality, Their Modern Implementations, And Their Foes From Berkeley To Russell And Beyond_ ([arXiv:1205.0174](https://arxiv.org/abs/1205.0174))
+
 category: people
 
 [[!redirects Gottfried Wilhelm Leibniz]]
