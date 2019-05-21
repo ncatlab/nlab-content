@@ -7,7 +7,7 @@
 
 ### For knot complements
 
-The original _volume conjecture_ (_Kashaev's conjecture_) states that a certain [[limit of a sequence|limit]] of the [[colored Jones polynomial]] of a [[knot]] $K$ gives the simplicial [[volume]] of its [[complement]] in the [[3-sphere]] (for [[hyperbolic knots]] this is the volume of the complementary [[hyperbolic 3-manifold]])
+The original _volume conjecture_ (also "Kashaev's conjecture", due to [Kashaev 95](#Kashaev95), and understood in terms of the [[colored Jones polynomial]] by [Murakami-Murakami 01](#MurakamiMurakami01)) states that a certain [[limit of a sequence|limit]] of the [[colored Jones polynomial]] of a [[knot]] $K$ gives the simplicial [[volume]] of its [[complement]] in the [[3-sphere]] (for [[hyperbolic knots]] this is the volume of the complementary [[hyperbolic 3-manifold]])
 
 $$
   lim_{N \to \infty}
@@ -43,7 +43,7 @@ See ([Chen-Yang 15](#ChenYang15))
 
 ### Evidence
 
-The volume conjecture has been checked in special cases the computer algebra system [SnapPy](http://scienceblogs.de/mathlog/2010/02/24/snappy/) ([Zickert 07](#Zickert07)).
+The volume conjecture has been checked in special cases, using notably the computer algebra system [SnapPy](http://scienceblogs.de/mathlog/2010/02/24/snappy/) ([Zickert 07](#Zickert07)).
 
 
 
@@ -89,7 +89,6 @@ Review includes
 
 * Wikipedia, _[Volume conjecture](http://en.wikipedia.org/wiki/Volume_conjecture)
 
-* {#Murakami04} H. Murakami, Asymptotic Behaviors Of The Colored Jones Polynomials Of A Torus Knot, Internat. J. Math. 15 (2004) 547-555.
 
 See also
 
@@ -103,13 +102,16 @@ See also
 
 
 
-Discussion in [[string theory]] includes
+Speculative discussion in terms of [[quantum field theory]] or [[string theory]] includes
+
+* {#Gukov03} [[Sergei Gukov]], _Three-Dimensional Quantum Gravity, Chern-Simons Theory, And The A-Polynomial_, Commun. Math. Phys. 255 (2005) 577-627 ([arXiv:hep-th/0306165](https://arxiv.org/abs/hep-th/0306165))
+
 
 * {#DijkgraafFuji09} [[Robbert Dijkgraaf]], Hiroyuki Fuji, _The Volume Conjecture and Topological Strings_ ([arXiv:0903.2084](http://arxiv.org/abs/0903.2084))
 
 * {#DimofteGukov10} [[Tudor Dimofte]], [[Sergei Gukov]], _Quantum Field Theory and the Volume Conjecture_, Contemporary Mathematics 541 (2011), p.41-67 ([arxiv:1003.4808](http://arxiv.org/abs/1003.4808))
 
-* {#Gukov03} [[Sergei Gukov]], _Three-Dimensional Quantum Gravity, Chern-Simons Theory, And The A-Polynomial_, Commun. Math. Phys. 255 (2005) 577-627 ([arXiv:hep-th/0306165](https://arxiv.org/abs/hep-th/0306165))
+
 
 
 A conceptual explanation of the volume conjecture via [[analytically continued Chern-Simons theory]] was proposed in
