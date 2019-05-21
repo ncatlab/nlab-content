@@ -29,7 +29,17 @@ After the discovery of the [[Higgs field]] at the two major other detectors of [
 
 ## Related concepts
 
-* [[flavour anomalies]]
+* related [[experiments]]
+
+  * [[LHCb]]
+
+* observations
+
+  * [[flavour anomaly]]
+
+  * [[V_cb puzzle]]
+
+  * [[pentaquark]]
 
 
 ## References
