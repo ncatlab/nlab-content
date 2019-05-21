@@ -16,7 +16,6 @@
 * table of contents
 {:toc}
 
-
 ## Idea
 
 Quantum information refers to data that can be physically stored in a [[quantum mechanics|quantum system]]. 
@@ -24,7 +23,6 @@ Quantum information refers to data that can be physically stored in a [[quantum 
 Quantum information theory is the study of how such information can be encoded, measured, and manipulated. A notable sub-field is _quantum computation_, a term often used synonymously with quantum information theory, which studies protocols and algorithms that use quantum systems to perform computations.
 
 Categorical quantum information refers to a program in which the cogent aspects of [[Hilbert space]]-based quantum information theory are abstracted to the level of [[symmetric monoidal categories]].
-
 
 ## Quantum protocols and algorithms
 
@@ -164,16 +162,31 @@ Graphically, this means we can "slide boxes" past each other.
 
 CPM, classical structures, ...
 
-## Related concepts
+## References
 
-* [[qbit]]
+* wikipedia [quantum information](https://en.wikipedia.org/wiki/Quantum_information), [Bures metric](https://en.wikipedia.org/wiki/Bures_metric)
 
-* [[quantum logic]]
+#### Related concepts in $n$Lab
 
-* [[quantum computation]]
+* [[quantum logic]], [[quantum theory]], [[Kochen-Specker theorem]]
 
-* [[information theory]]
+* [[quantum computation]], [[qbit]]
 
+* [[information theory]], [[information geometry]]
+
+#### Books
+
+* Masahito Hayashi, _Quantum information theory - mathematical foundation_ Graduate Texts in Physics (2017)
+* Nielsen, Chuang, _Quantum computation and quantum information_, Cambridge Univeristy Press, [ch1 pdf](https://ncatlab.org/nlab/files/NielsenChuangQuantumComputation.pdf)
+
+#### Articles
+
+* Carmen Maria Constantin, _Sheaf-theoretic methods in quantum mechanics and quantum information theory_, PhD thesis, Oxford 2015 [arxiv/1510.02561](https://arxiv.org/abs/1510.02561)
+* Samson Abramsky, Adam Brandenburger, _The sheaf-theoretic structure of nonlocality and contextuality_, [arxiv/1102.0264](https://arxiv.org/abs/1102.0264)
+* Dominik Šafránek, _Simple expression for the quantum Fisher information matrix), Phys. Rev. A97 (2018) [doi](https://doi.org/10.1103/PhysRevA.97.042322)
+* Roman Orus, _Entanglement, quantum phase transitions and quantum algorithms_  arxiv:[quant-ph/0608013](https://arxiv.org/abs/quant-ph/0608013)
+
+> in Chapter 1 we consider the irreversibility of renormalization group flows from a quantum information perspective by using majorization theory and conformal field theory.
 
 
 [[!redirects quantum information theory]]
