@@ -143,7 +143,7 @@ Discussion in [[formal logic]] and [[homotopy type theory]] ([[modal type theory
 * [[Kant]], AA III, 93&#8211; KrV B 106
  {#Kant1900}
 
-* German Wikipedia, _[Modalit&#228;t (Philosophie)](http://de.wikipedia.org/wiki/Modalit&#228;t_(Philosophie))_
+* German Wikipedia, _[Modalit&#228;t (Philosophie)](https://de.wikipedia.org/?curid=3382094)_
 
 * {#SEP} Stanford Encyclopedia of Philosophy, _[Modal Logic](http://plato.stanford.edu/entries/logic-modal/)_
 
