@@ -86,6 +86,11 @@ And conversely:
 
 * [[Matthias Gaberdiel]], [[Rajesh Gopakumar]], _String Theory as a Higher Spin Theory_, J. High Energ. Phys. (2016) 2016: 85 ([arXiv:1512.07237](https://arxiv.org/abs/1512.07237), <a href="https://doi.org/10.1007/JHEP09(2016)085">doi:10.1007/JHEP09(2016)085</a>)
 
+* {#CKSZ16} Simon Caron-Huot, Zohar Komargodski, Amit Sever, Alexander Zhiboedov, _Strings from Massive Higher Spins: The Asymptotic Uniqueness of the Veneziano Amplitude_, JHEP10(2017)026 ([arXiv:1607.04253](https://arxiv.org/abs/1607.04253))
+
+* {#SeverZhiboedov17} Amit Sever, Alexander Zhiboedov, _On Fine Structure of Strings: The Universal Correction to the Veneziano Amplitude_, JHEP06(2018)054 ([arXiv:1707.05270](https://arxiv.org/abs/1707.05270))
+
+
 ### Relation to other systems
 
 Relation to [[Kac-Moody algebras]] is discussed in
