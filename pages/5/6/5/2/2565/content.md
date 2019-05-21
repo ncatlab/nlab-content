@@ -31,9 +31,11 @@ For instance ([Amari, Section 2.1](#AmariTextbook)).
 
 ## References
 
+See also [[Fisher metric]], where Fisher metric in other contexts and quantum generalizations are treated. See also [[quantum information]].
+
 Textbooks providing the big picture
 
-* Nihat Ay, Jürgen Jost, Hông Vân Lê, Lorenz Schwachhöfer, _Information geometry, Ergeb. der Mathematik and ihrer Grenzgebiete 3. Folge, 64, Springer 2017
+* Nihat Ay, Jürgen Jost, Hông Vân Lê, Lorenz Schwachhöfer, _Information geometry_, Ergeb. der Mathematik and ihrer Grenzgebiete 3. Folge, 64, Springer 2017
 * Shun-ichi Amari, O. E. Barndorff-Nielsen, R. E. Kass, S. L. Lauritzen, and C. R. Rao, _Differential geometry in statistical inference_ ([project Euclid](http://projecteuclid.org/euclid.lnms/1215467056))
  {#AmariTextbook}
 * Shun-ichi Amari, _Information geometry and its applications_, Applied Mathematical Sciences 194, Springer 2016
