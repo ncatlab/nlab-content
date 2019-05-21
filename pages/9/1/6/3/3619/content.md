@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -44,7 +43,7 @@ Compare the above example to the state
 
 $|\Psi^{(AB)}\rangle=\frac{1}{\sqrt{2}}\left(|00\rangle +|11\rangle\right)$.
 
-This state is not a product state since it cannot be formed from any combination of individual states in the given basis.  Such a state is known as an **entangled state** because it is said to be _non-factorable_ or _non-separable_.  Entangled states are, in fact, [[pure states]] rather than [[mixed states]] because they cannot be broken down further.
+This state is not a product state since it cannot be formed from any combination of individual states in the given basis.  Such a state is known as an **entangled state** because it is said to be _non-factorable_ or _non-separable_.  The entangled states discussed above are, in fact, [[pure states]] rather than [[mixed states]] because they cannot be broken down further.  However, there is also a notion of entanglement for mixed states.
 
 ## Properties
 
