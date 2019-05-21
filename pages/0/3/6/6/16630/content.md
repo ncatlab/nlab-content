@@ -37,7 +37,7 @@ This appears as the action in [[analytically continued Chern-Simons theory]].
 
 ### Volume conjecture
 
-The [[volume conjecture]] for the [[Reshetikhin-Turaev construction]] states that in the classical limit it converges to the complex volume ([Chen-Yang 15](#ChenYang15))
+The [[volume conjecture]] for the [[Reshetikhin-Turaev construction]] states that in the [[classical limit]] it [[convergence of a sequence|converges]] to the [[complex volume]] ([Chen-Yang 15](#ChenYang15))
 
 ## Related concepts
 
