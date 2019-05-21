@@ -48,9 +48,9 @@ A **weak factorization system** (WFS) on a [[category]] $\mathcal{C}$ is a [[pai
 
 1. The classes are closed under having the [[lifting property]] against each other:
 
-   1. $\mathcal{L}$ is precisely the class of morphisms having the [[left lifting property]] against every morphisms in $\mathcal{R}$;
+   1. $\mathcal{L}$ is precisely the class of morphisms having the [[left lifting property]] against every morphism in $\mathcal{R}$;
 
-   1. $\mathcal{R}$ is precisely the class of morphisms having the [[right lifting property]] against every morphisms in $\mathcal{L}$.
+   1. $\mathcal{R}$ is precisely the class of morphisms having the [[right lifting property]] against every morphism in $\mathcal{L}$.
 
 =--
 
