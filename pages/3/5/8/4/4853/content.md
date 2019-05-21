@@ -26,7 +26,7 @@ A **link** is a generalisation of a [[knot]] where one is allowed more than one 
 
 +-- {: .num_defn #link}
 ###### Definition
-A **link** is an [[embedding]] of a finite number of copies of the [[circle]].  The embedding is usually taken in $\mathbb{R}^3$, or its [[one-point compactification]], $S^3$.
+A **link** is an [[embedding]] of a [[finite number]] of copies of the [[circle]].  The embedding is usually taken in $\mathbb{R}^3$, or its [[one-point compactification]], $S^3$.
 =--
 
 It is possible to generalise this to more varied sources and targets.
@@ -66,10 +66,13 @@ The [[Whitehead link]] is an example of a link that shows the difference between
 
 A __Brunnian link__ is a link which is not an unlink but which has the property that the removal of any of its components results in an unlink.  Technically, this includes the Hopf link and any knot (thanks to [this MO question](http://mathoverflow.net/questions/40724/is-the-hopf-link-a-brunnian-link) for settling that issue). The Borromean rings above are an example of a Brunnian link with three components.
 
+## Related concepts
+
+* [[hyperbolic link]]
 
 ## References
 
-* Milnor, J. (1954). Link groups. _Ann. of Math. (2)_, _59_, 177&#8211;195. [MR](http://www.ams.org/mathscinet-getitem?mr=71020){: #jmLinkGroups}
+* [[John Milnor]],  (1954). Link groups. _Ann. of Math. (2)_, _59_, 177&#8211;195. [MR](http://www.ams.org/mathscinet-getitem?mr=71020){: #jmLinkGroups}
 
 
 [[!redirects link]]
