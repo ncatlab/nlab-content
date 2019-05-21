@@ -24,15 +24,22 @@
 ## Related concepts
  {#RelatedConcepts}
 
+* [[Riemannian geometry]]
+
 | [[synthetic geometry]]  |  kind of [[space]]  |
 |-------------------------|---------------------|
 | [[Euclidean geometry]]  |  [[Euclidean space]]   |
 | [[hyperbolic geometry]] |  [[hyperbolic space]]  |
 | [[elliptic geometry]]   |    |
 
+* [[hyperbolic manifold]]
+
+  * [[hyperbolic 3-manifold]]
+
+* [[hyperbolic link]]
+
 * [[trigonometry]]
 
-* [[Riemannian geometry]]
 
 
 
