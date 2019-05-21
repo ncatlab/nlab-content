@@ -80,7 +80,7 @@ These toposes are related to the smooth topos called $\mathcal{G}$ there, which 
 
 * {#KatzSherry13} [[Mikhail Katz]], David Sherry, _Leibniz's Infinitesimals: Their Fictionality, Their Modern Implementations, And Their Foes From Berkeley To Russell And Beyond_, D. Erkenn (2013) 78: 571 ([arXiv:1205.0174](https://arxiv.org/abs/1205.0174), [doi:10.1007/s10670-012-9370-y](https://link.springer.com/article/10.1007/s10670-012-9370-y))
 
-  (on [[Gottfried Leibniz]]'s concept of infnitesmals)
+  (on [[Gottfried Leibniz]]'s concept of infinitesimals)
 
 
 [[!redirects infinitesimal]]
