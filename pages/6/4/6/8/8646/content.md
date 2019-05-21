@@ -27,6 +27,12 @@ The _weak nuclear force_ is described by a [[gauge field]] with [[gauge group]] 
 
 The _strong nuclear force_ is described by a [[gauge field]] with [[gauge group]] the [[special unitary group]] $SU(3)$ ([[QCD]] ([[gluon]]). It governs the interaction between [[quarks]].
 
+## Related concepts
+
+* [[CKM matrix]]
+
+* [[V_cb puzzle]]
+
 
 ## References
 
