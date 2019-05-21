@@ -21,7 +21,7 @@
 
 ## Idea
 
-A [[link]] $Lsubset S^3$  in the [[3-sphere]] is called a _hyperbolic link_ if its [[complement]] $S^3 \setminus L$ admits the [[structure]] of a [[hyperbolic metric]], hence of a [[hyperbolic 3-manifold]]. If the hyperbolic link is in fact a [[knot]] (has a single [[connected component]]) it is called a _hyperbolic knot_.
+A [[link]] $L \subset S^3$  in the [[3-sphere]] is called a _hyperbolic link_ if its [[complement]] $S^3 \setminus L$ admits the [[structure]] of a [[hyperbolic metric]], hence of a [[hyperbolic 3-manifold]]. If the hyperbolic link is in fact a [[knot]] (has a single [[connected component]]) it is called a _hyperbolic knot_.
 
 ## Related concepts
 
