@@ -27,6 +27,8 @@ D3-brane [[instantons]] are constituted by [[D3-branes]]  [[wrapped brane|wrappe
 
 * [[M5-brane instanton]]
 
+[[!include table of branes]]
+
 ## References
 
 * [[Katrin Becker]], [[Melanie Becker]], [[Andrew Strominger]], section 2.1 of _Five-branes, membranes and nonperturbative string theory_, Nucl. Phys. B 456, 130 (1995) ([hep-th/9507158](http://arxiv.org/abs/hep-th/9507158))
