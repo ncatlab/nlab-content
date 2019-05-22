@@ -36,6 +36,8 @@ More generally, in [[string theory]] a [[brane]] which wraps a completely [[spac
 
 * [[Coleman-De Luccia instanton]]
 
+* [[S-brane]]
+
 * [[wrapped brane]]
 
   * [[membrane instanton]]
