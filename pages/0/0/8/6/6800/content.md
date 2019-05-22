@@ -34,6 +34,10 @@
 | [[M-wave]] |  |   | |
 | [[topological M2-brane]] | [[topological M-theory]]                  |[[C3-field]] on [[G2-manifold]] | |
 | [[topological M5-brane]] | $\,$                  | [[C6-field]] on [[G2-manifold]] | | 
+| **[[S-brane]]** |  |   | |
+| [[SM2-brane]],<br/>[[membrane instanton]] |  |   | |
+| [[M5-brane instanton]] |  |   | |
+| [[D3-brane instanton]] |  |   | |
 | **[[solitons]]** on [[M5-brane]] | [[6d (2,0)-superconformal QFT]] |  |  |
 | [[self-dual string]]    |      |  [[self-dual higher gauge field|self-dual]] [[B-field]] |  |
 | [[3-brane in 6d]] |   |    |   |
