@@ -2,7 +2,14 @@
 
 * [webpage](https://www.physics.harvard.edu/people/facpages/jafferis)
 
-## related $n$Lab entries
+## Selected writings
+
+* [[Clay Cordova]], [[Daniel Jafferis]], _Complex Chern-Simons from M5-branes on the Squashed Three-Sphere_ ([arXiv:1305.2891](https://arxiv.org/abs/1305.2891))
+  
+  (on the [[3d-3d correspondence]])
+
+
+## Related $n$Lab entries
 
 * [[wall crossing]]
 
