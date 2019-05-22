@@ -23,7 +23,7 @@
 
 ## Idea
 
-Motivated by the resemblance of the [[Selberg trace formula]] to Weil's formula for the sum of zeros of the [[Riemann zeta function]], ([Selberg 56](#Selberg56)) defined for any compact hyperbolic [[Riemann surface]] a [[zeta function]]-like expression, the _[[Selberg zeta function of a Riemann surface]]_. (e.g. [Bump, below theorem 19](#Bump)). There is also a Selberg zeta function "of odd type" for odd-dimensional manifolds  ([Millson 78](#Millson78), [Bunke-Olbrich 94a, prop. 4.5](#BunkeOlbrich94a)).
+Motivated by the resemblance of the [[Selberg trace formula]] to Weil's formula for the sum of zeros of the [[Riemann zeta function]], ([Selberg 56](#Selberg56)) defined for any compact [[hyperbolic manifold|hyperbolic]] [[Riemann surface]] a [[zeta function]]-like expression, the _[[Selberg zeta function of a Riemann surface]]_. (e.g. [Bump, below theorem 19](#Bump)). There is also a Selberg zeta function "of odd type" for odd-dimensional manifolds  ([Millson 78](#Millson78), [Bunke-Olbrich 94a, prop. 4.5](#BunkeOlbrich94a)).
 
 ## Definition
 
