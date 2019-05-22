@@ -86,3 +86,9 @@ The relation to the [[Crane-Yetter model]] was discussed in
 
 [[!redirects Turaev-Reshetikhin TQFT]]
 [[!redirects Turaev-Reshetikhin TQFTs]]
+
+[[!redirects Reshetikhin-Turaev invariant]]
+[[!redirects Reshitikhin-Turaev invariants]]
+
+[[!redirects RT-invariant]]
+[[!redirects RT-invariants]]
