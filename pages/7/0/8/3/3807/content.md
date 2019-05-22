@@ -56,7 +56,7 @@ Identification of the zeros of the [[Riemann zeta function]] with the spectrum o
 ### Computer-checks
  {#ReferencesComputerChecks}
 
-Experimental checks of the Riemann hypothesis with computers:
+[[experimental mathematics|Experimental checks]] of the Riemann hypothesis with computers:
 
 * R. P. Brent, J. van de Lune, H. J. J. te Riele and D. T. Winter, _On the Zeros of the Riemann Zeta Function in the Critical Strip. II_, Mathematics of Computation Vol. 39, No. 160 (Oct., 1982), pp. 681-688 ([doi:10.2307/2007345 ](https://www.jstor.org/stable/2007345))
 
