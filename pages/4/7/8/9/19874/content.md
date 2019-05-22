@@ -148,6 +148,7 @@ within [[GUT]]-models and specifically within [[Pati-Salam models]]:
 
 * Oleg Popov, Michael A. Schmidt, Graham White, _$R_2$ as a single leptoquark solution to $R_{D^{(\ast)}}$ and $R_{K^{(\ast)}}$_ ([arXiv:1905.06339](https://arxiv.org/abs/1905.06339))
 
+* [[Andreas Crivellin]], Francesco Saturnino, _Correlating Tauonic B Decays to the Neutron EDM via a Scalar Leptoquark_ ([arXiv:1905.08257](https://arxiv.org/abs/1905.08257))
 
 
 and within [[Randall-Sundrum models]]
