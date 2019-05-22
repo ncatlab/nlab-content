@@ -13,5 +13,7 @@
 
 * [[shtuka]]
 
+* [[prismatic cohomology]]
+
 category: people
 
