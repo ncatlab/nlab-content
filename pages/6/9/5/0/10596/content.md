@@ -5,7 +5,7 @@
 
 ## Idea
 
-The _Selberg trace formua_ ([Selberg 56](#Selberg56)) is an expression for certain sums of [[eigenvalues]] of the [[Laplace operator]] on a compact hyperbolic [[Riemann surface]] (recalled e.g. as [Bump, theorem 19](#Bump)).
+The _Selberg trace formua_ ([Selberg 56](#Selberg56)) is an expression for certain sums of [[eigenvalues]] of the [[Laplace operator]] on a compact [[hyperbolic manifold|hyperbolic]] [[Riemann surface]] (recalled e.g. as [Bump, theorem 19](#Bump)).
 
 It was introduced as a nonabelian generalization of the [[Poisson summation formula]] (e.g.[Voros-Balasz 86, p. 169](#VorosBalasz86)), thought of as a relation between the eigenvalues of the Laplacian and the lengths of closed [[geodesics]].
 
