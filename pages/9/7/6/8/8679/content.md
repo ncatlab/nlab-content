@@ -89,3 +89,16 @@ Discussion of the [[Ising model]] [[2d CFT]] as a boundary theory to a 3d [[TQFT
 [[!redirects Turaev-Viro-Barrett-Westbury model]]
 
 
+[[!redirects Turaev-Viro-invariant]]
+[[!redirects Turaev-Viro-invariants]]
+
+[[!redirects Turaev-Viro invariant]]
+[[!redirects Turaev-Viro invariants]]
+
+[[!redirects TV invariant]]
+[[!redirects TV invariants]]
+
+[[!redirects TV-invariant]]
+[[!redirects TV-invariants]]
+
+
