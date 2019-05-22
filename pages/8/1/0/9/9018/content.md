@@ -188,18 +188,11 @@ relation to [[intersecting D-brane models]]: see [there](intersecting+D-brane+mo
 
 * [[exceptional generalized geometry]]
 
-* [[M-theory on 8-manifolds]]
-
 * [[topological M-theory]], [[Hitchin functional]]
 
 * [[7d Chern-Simons theory]]
 
-* [[M-theory on Calabi-Yau manifolds]]
-
-  * [[F/M-theory on elliptically fibered Calabi-Yau 3-folds]]
-
-  * [[F/M-theory on elliptically fibered Calabi-Yau 4-folds]]
-
+[[!include KK-compactifications of M-theory -- table]]
 
 ## References
  {#References}
