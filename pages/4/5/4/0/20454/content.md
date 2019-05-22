@@ -49,6 +49,11 @@ is the [[action functional]] for $G$-[[Chern-Simons theory]] on $\Sigma$ restric
 
 Now for $G = SL(n,\mathbb{C})$ the complex [[special linear group]] and hence for [[Chern-Simons theory with complex gauge group]], it turns out that the [[imaginary part]] of this flat Chern-Simons/Dijkgraaf-Witten invariant of 3-manifolds always has an expression as a combination of volumes of hyperbolic 3-manifolds.
 
+## Related concepts
+
+* [[low dimensional topology]]
+
+* [[SnapPy]]
 
 
 ## References
