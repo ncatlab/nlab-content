@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Duality in string theory
++-- {: .hide}
+[[!include duality in string theory -- contents]]
+=--
 #### Functorial Quantum field theory
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
@@ -16,6 +20,7 @@
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
@@ -49,6 +54,8 @@ More generally, this construction yields something like a decomposition of the [
 * [[duality in physics]], [[duality in string theory]]
 
 * [[Nekrasov function]]
+
+Wrapping the [[M5-brane]] on a [[3-manifold]] instead yields: [[3d-3d correspondence]].
 
 ## References
 
