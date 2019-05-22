@@ -31,4 +31,12 @@ Hyperbolic planes are also [[homogeneous spaces]]: there is a unique oriented [[
 
 The [[incidence geometry]] of geodesics and points in the hyperbolic plane is equivalent to that of an open circular disc in the Euclidean plane (and several other obviously-equivalent things) &#8212; this is the Beltrami disc model.
 
+## Related concepts
+
+* [[hyperbolic 3-space]]
+
+* [[hyperbolic 3-manifold]]
+
+* [[hyperbolic manifold]]
+
 [[!redirects hyperbolic planes]]
