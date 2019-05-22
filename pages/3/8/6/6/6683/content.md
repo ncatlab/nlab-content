@@ -59,11 +59,14 @@ Discussion of [[boundary conditions]] of the BLG model, leading to [[brane inter
 
 The original article on the $N=6$-case is
 
-* {#ABJM08} [[Ofer Aharony]], [[Oren Bergman]], Daniel Louis Jafferis, [[Juan Maldacena]], _$N=6$ superconformal Chern-Simons-matter theories, M2-branes and their gravity duals_, JHEP 0810:091,2008, [DOI:10.1088/1126-6708/2008/10/091](http://iopscience.iop.org/article/10.1088/1126-6708/2008/10/091/meta;jsessionid=FCE6764D4E19F3038C9530E50B057A56.c3.iopscience.cld.iop.org) ([arXiv:0806.1218](http://arxiv.org/abs/0806.1218))
+* {#ABJM08} [[Ofer Aharony]], [[Oren Bergman]], [[Daniel Jafferis]], [[Juan Maldacena]], _$N=6$ superconformal Chern-Simons-matter theories, M2-branes and their gravity duals_, JHEP 0810:091,2008, [DOI:10.1088/1126-6708/2008/10/091](http://iopscience.iop.org/article/10.1088/1126-6708/2008/10/091/meta;jsessionid=FCE6764D4E19F3038C9530E50B057A56.c3.iopscience.cld.iop.org) ([arXiv:0806.1218](http://arxiv.org/abs/0806.1218))
+
 
 and for [[discrete torsion]] in the [[supergravity C-field]] in
 
-* [[Ofer Aharony]], Oren Bergman, Daniel Louis Jafferis, _Fractional M2-branes_, JHEP 0811:043,2008 ([arXiv:0807.4924](https://arxiv.org/abs/0807.4924))
+* [[Ofer Aharony]], [[Oren Bergman]], [[Daniel Jafferis]], _Fractional M2-branes_, JHEP 0811:043, 2008 ([arXiv:0807.4924](https://arxiv.org/abs/0807.4924))
+
+  (on [[fractional M2-brane|fractional M2-branes]])
 
 inspired by the $N=8$-case of the [[BLG model]]
 
@@ -81,7 +84,7 @@ The $N=5$-case is discussed in
 
 * {#BHRSS08} [[Eric Bergshoeff]], [[Olaf Hohm]], Diederik Roest, [[Henning Samtleben]], [[Ergin Sezgin]], _The Superconformal Gaugings in Three Dimensions_, JHEP0809:101, 2008 ([arXiv:0807.2841](https://arxiv.org/abs/0807.2841))
 
-* {#AharonyBergmanJafferis08} [[Ofer Aharony]], Oren Bergman, Daniel Louis Jafferis, _Fractional M2-branes_, JHEP 0811:043, 2008 ([arXiv:0807.4924](https://arxiv.org/abs/0807.4924))
+* {#AharonyBergmanJafferis08} [[Ofer Aharony]], [[Oren Bergman]], [[Daniel Jafferis]], _Fractional M2-branes_, JHEP 0811:043, 2008 ([arXiv:0807.4924](https://arxiv.org/abs/0807.4924))
 
 The $N=4$-case is discussed in
 
