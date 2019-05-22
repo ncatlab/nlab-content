@@ -22,7 +22,7 @@
 
 The [[Kaluza-Klein compactification]] of [[11-dimensional supergravity]]/[[M-theory]] on [[fibers]] which are [[hyperbolic manifolds]].
 
-This appears naturally as the [[near horizon geometry]] of [[S-branes]], see there.
+This appears naturally as the [[near horizon geometry]] of [[S-branes]], see there. Then there are [[M5-branes]] [[wrapped brane|wrapped]] on [[hyperbolic 3-manifolds]] yielding [[3d-3d correspondence]] ([Gang-Kim-Lee 15, (2.2)](#GangKimLee15)).
 
 ## Related concepts
 
@@ -48,5 +48,9 @@ This appears naturally as the [[near horizon geometry]] of [[S-branes]], see the
 See also
 
 * Alan S. Cornell, _Hyperbolic extra-dimensions in particle physics and beyond_ ([arXiv:1506.05598](https://arxiv.org/abs/1506.05598))
+
+Discussion on [[M5-branes]] [[wrapped brane|wrapped]] on [[hyperbolic 3-space]] in the context of [[3d-3d correspondence]]:
+
+* {#GangKimLee15} Dongmin Gang, Nakwoo Kim, Sangmin Lee, _Holography of 3d-3d correspondence at Large N_, JHEP04 (2015) 091 ([arXiv:1409.6206](https://arxiv.org/abs/1409.6206))
 
 [[!redirects M-theory an a hyperbolic manifold]]
