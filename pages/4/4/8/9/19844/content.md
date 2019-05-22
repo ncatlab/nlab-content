@@ -98,6 +98,12 @@ In fact, it had been argued prior to the detection of the anomalies ([Lyons 13b]
 
 > table taken from [Dorigo 15, p. 16](#Dorigo15)
 
+This attitude is reflected in [SGGJC 19, p. 2](#SGGJC19):
+
+> For some time now, the ratios of semileptonicB-decay rates have appeared to be enhanced with respect to the Standard Model (SM) predictions with a global significance above the evidence threshold.
+
+\linebreak
+
 ## Status and Outlook
  {#Outlook}
 
@@ -293,10 +299,14 @@ Original articles include:
 
 * Monika Blanke, [[Andreas Crivellin]], Stefan de Boer, Teppei Kitahara, Marta Moscati, Ulrich Nierste, Ivan Nišandžić, _Impact of polarization observables and $B_c \to \tau \nu$ on new physics explanations of the $b \to c \tau \nu$ anomaly_ ([arXiv:1811.09603](https://arxiv.org/abs/1811.09603))
 
+* Monika Blanke, [[Andreas Crivellin]], Stefan de Boer, Teppei Kitahara, Marta Moscati, Ulrich Nierste, Ivan Nišandžić, _Addendum: "Impact of polarization observables and $B_c \to \tau \nu$ on new physics explanations of the $b \to c \tau \nu$ anomaly"_ ([arXiv:1905.08253](https://arxiv.org/abs/1905.08253))
+
 
 * {#KumarLondon19} Jacky Kumar, David London, _New physics in $b \to s e^+ e^-$?_ ([arXiv:1901.04516](https://arxiv.org/abs/1901.04516))
 
 * Domagoj Leljak, Blazenka Melic, Monalisa Patra, _On lepton flavour universality in semileptonic $B_c \to \eta_c, J/\psi$ decays_ ([arXiv:1901.08368](https://arxiv.org/abs/1901.08368))
+
+* {#SGGJC19} Rui-Xiang Shi, Li-Sheng Geng, Benjamín Grinstein, Sebastian Jäger, Jorge Martin Camalich, _Revisiting the new-physics interpretation of the $b \to c \tau \nu$ data_ ([arXiv:1905.08498](https://arxiv.org/abs/1905.08498))
 
 
 Cautionary remarks include
@@ -408,6 +418,7 @@ explanation via assumption of [[leptoquarks]]:
 
 * {#BlankeCrivellin18} Monika Blanke, [[Andreas Crivellin]], _$B$ Meson Anomalies in a Pati-Salam Model within the Randall-Sundrum Background_, Phys. Rev. Lett. 121, 011801 (2018) ([arXiv:1801.07256](https://arxiv.org/abs/1801.07256))
 
+* [[Andreas Crivellin]], Francesco Saturnino, _Correlating Tauonic B Decays to the Neutron EDM via a Scalar Leptoquark_ ([arXiv:1905.08257](https://arxiv.org/abs/1905.08257))
 
 [[leptoquarks]] particularly as fields in a [[grand unified theory]]:
 
