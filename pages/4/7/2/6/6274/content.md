@@ -25,6 +25,8 @@ In the context of [[quantum field theory]] conformal structure underlies the for
 
 * [[conformal map]], [[conformal transformation]], [[conformal group]]
 
+* [[conformally flat manifold]]
+
 * [[causal structure]]
 
 * [[Fefferman-Graham ambient construction]]
