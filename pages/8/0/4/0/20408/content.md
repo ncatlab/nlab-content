@@ -38,3 +38,9 @@
 * [[AdS-CFT correspondence]]
 
 * [[AdS-QCD correspondence]]
+
+**QFT-QFT duality** from [[wrapped brane|wrapped]] [[M5-branes]]:
+
+* [[AGT correspondence]]
+
+* [[3d-3d correspondence]]
