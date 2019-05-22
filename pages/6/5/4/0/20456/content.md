@@ -1,0 +1,13 @@
+
+
+## Idea
+
+A type of [[cohomology]] attached to [[prisms]], which are [[delta-ring|$\delta$-rings]] equipped with an ideal satisfying some conditions.
+
+Roughly, it is a unified construction of various $p$-adic cohomology theories, including [[étale cohomology]], [[de Rham cohomology]] and [[crystalline cohomology]], as well as the so far conjectural $q$-de Rham cohomology of [[Peter Scholze]].
+
+## References
+
+* [[Bhargav Bhatt]], _Prismatic cohomology_, course at U. Michigan, 2018 [lecture notes](http://www-personal.umich.edu/~bhattb/teaching/prismatic-columbia/)
+
+* [[Bhargav Bhatt]], [[Peter Scholze]], _Prisms and Prismatic Cohomology_, preprint (2019) arXiv:[1905.08229](https://arxiv.org/abs/1905.08229)
