@@ -70,6 +70,8 @@ The _[[virtually fibered conjecture]]_ says that every closed, irreducible, ator
 
 * [[Kirby calculus]]
 
+* [[low dimensional topology]]
+
 * [[knot theory]]
 
 * [[arithmetic topology]]
