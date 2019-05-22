@@ -33,3 +33,8 @@ Under [[computational trinitarianism]] this is essentially the same as a [[proof
 
 
 [[!redirects programs]]
+
+
+[[!redirects computer program]]
+[[!redirects computer programs]]
+
