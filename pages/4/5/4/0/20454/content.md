@@ -23,6 +23,8 @@
 
 A [[Riemannian manifold]] which is both a [[3-manifold]] and a [[hyperbolic manifold]] is a _hyperbolic 3-manifold_.
 
+Equivalently this is a [[Riemannian manifold]] which is [[isometry|isometric]] to the [[quotient space]] $\mathbb{H}^3/ \Gamma$ of [[hyperbolic 3-space]] by the [[action]] of a [[torsion subgroup|torsion-free]] [[discrete group]] $\Gamma$ acting by [[isometries]].
+
 ## Properties
 
 ### Volume conjecture
@@ -49,6 +51,13 @@ is the [[action functional]] for $G$-[[Chern-Simons theory]] on $\Sigma$ restric
 
 Now for $G = SL(n,\mathbb{C})$ the complex [[special linear group]] and hence for [[Chern-Simons theory with complex gauge group]], it turns out that the [[imaginary part]] of this flat Chern-Simons/Dijkgraaf-Witten invariant of 3-manifolds always has an expression as a combination of volumes of hyperbolic 3-manifolds.
 
+## Examples
+
+* [[hyperbolic 3-space]]
+
+* [[knot complement]] of [[hyperbolic knot]]
+
+
 ## Related concepts
 
 * [[low dimensional topology]]
@@ -57,5 +66,9 @@ Now for $G = SL(n,\mathbb{C})$ the complex [[special linear group]] and hence fo
 
 
 ## References
+
+See also
+
+* [[Manifold Atlas]], _[Hyperbolic 3-manifolds](http://www.map.mpim-bonn.mpg.de/index.php/Hyperbolic_3-manifolds)_
 
 * Wikipedia, _[Hyperbolic 3-manifold](https://en.wikipedia.org/wiki/Hyperbolic_3-manifold)_
