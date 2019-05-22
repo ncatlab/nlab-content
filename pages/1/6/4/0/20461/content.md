@@ -22,6 +22,8 @@
 
 The [[Kaluza-Klein compactification]] of [[11-dimensional supergravity]]/[[M-theory]] on [[fibers]] which are [[hyperbolic manifolds]].
 
+This appears naturally as the [[near horizon geometry]] of [[S-branes]], see there.
+
 ## Related concepts
 
 * [[S-brane]]
