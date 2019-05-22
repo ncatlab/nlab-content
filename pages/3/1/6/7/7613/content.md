@@ -67,7 +67,7 @@ This issue is the very root of the abbreviation "M-theory":
 ### Strongly coupled type IIA strings and D$0$-branes
  {#StronglyCoupledTypeIIAAndD0Branes}
 
-There is a bunch of consistency checks on the statement that the [[KK-compactification]] of [[11-dimensional supergravity]] on a circle gives the [[non-perturbative quantum field theory|strong coupling]] refinement of [[type IIA string theory]].
+There is a bunch of consistency checks on the statement that the [[KK-compactification]] of [[11-dimensional supergravity]] on a circle gives the [[non-perturbative quantum field theory|strong coupling]] refinement of [[type IIA string theory]]. See at _[[duality between M-theory and type IIA string theory]]_.
 
 One aspect of this is that [[type IIA string theory]] with a [[condensate]] of [[D0-branes]] behaves like a 10-dimensional theory that develops a further circular dimension of [[radius]] scaling with the density of [[D0-branes]].  ([Banks-Fischler-Shenker-Susskind 97](#BanksFischlerShenkerSusskind97), [Polchinski 99](#Polchinski99)). See also ([FSS 13, section 4.2](#FSS13)).
 
@@ -136,15 +136,9 @@ A derivation of [[D-brane charge]], [[RR-fields]] and other [[K-theory]] structu
 
 Seet also at _[[cubical structure in M-theory]]_.
 
-### Compactifications
+### Kaluza-Klein compactifications
 
-* [[M-theory on G2-manifolds]]
-
-* [[M-theory on Calabi-Yau manifolds]]
-
-  * [[F/M-theory on elliptically fibered Calabi-Yau 3-folds]]
-
-  * [[F/M-theory on elliptically fibered Calabi-Yau 4-folds]]
+[[!include KK-compactifications of M-theory -- table]]
 
 
 ### Via AdS/CFT
