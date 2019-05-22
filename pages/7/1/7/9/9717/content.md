@@ -22,7 +22,7 @@
 
 A _hyperbolic space_ is the analog of a [[Euclidean space]] as one passes from [[Euclidean geometry]] to [[hyperbolic geometry]]. The generalization of the concept of [[hyperbolic plane]] to higher [[dimension]].
 
-A _hyperbolic manifold_ is a [[Riemannian manifold]] $(X,g)$ of constant [[sectional curvature]] $-1$.
+A _hyperbolic manifold_ is a [[geodesic completeness|geodesically complete]] [[Riemannian manifold]] $(X,g)$ of [[constant function|constant]] [[sectional curvature]] $-1$.
 
 Of particular interest are [[hyperbolic 3-manifold|hyperbolic 3-manifolds]].
 
@@ -37,6 +37,10 @@ There are canonical [[zeta functions]] associated with suitable (odd-dimensional
 
 The [[Mostow rigidity theorem]] states that every [[hyperbolic manifold]] of [[dimension]] $\geq 3$ and of [[finite number|finite]] [[volume]] is uniquely determined by its [[fundamental group]].
 
+
+## Examples
+
+* [[hyperbolic 3-space]]
 
 
 ## Related concepts
@@ -60,6 +64,8 @@ See also
 * [[prime geodesic]]
 
 * [[Bloch group]]
+
+* [[M-theory on hyperbolic manifolds]]
 
 ## References
 
