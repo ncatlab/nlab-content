@@ -15,6 +15,8 @@ for instance for [[anti de Sitter gravity]] it means that spacetime asymptootes 
 
 ## Related concepts
 
+* [[conformally flat manifold]]
+
 * [[conformal compactification]]
 
 ## References
