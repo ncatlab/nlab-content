@@ -1,46 +1,61 @@
-* **[[knot]]**, **[[link]]**
 
-* [[knot theory]]
+**[[knot theory]]**
 
-* [[knot diagram]]
-  * [[isotopy]]
-  * [[Reidemeister move]]
-  * [[Gauss code]]
 
-* [[knot invariants]]
-  * [[crossing number]]
-  * [[bridge number]]
-  * [[unknotting number]]
-  * [[colorability]]
-  * [[knot group]]
-  * [[knot genus]]
-  * [[Jones polynomial]]
-  * [[HOMFLY polynomial]]
-  * [[Alexander polynomial]]
-  * [[Reshetikhin-Turaev invariant]]s
-  * [[Khovanov homology]]
-  * [[Kauffman bracket]]
-  * [[Vassiliev invariants]]
+[[knot]], [[link]]
 
-* Link Invariants
-  * [[Milnor mu-bar invariants]]
-  * [[linking number]]
+* [[trefoil knot]]
 
-* Examples
-  * [[Borromean link]]
-  * [[Whitehead link]]
-  * [[Hopf link]]
+* [[torus knot]]
 
-* Related concepts
-  * [[singular knot]]
-  * [[Vassiliev skein relation]]
-  * [[Seifert surface]]
-  * [[virtual knot theory]]
+* [[singular knot]]
 
-  * [[Dehn surgery]], [[Kirby calculus]]
+* [[hyperbolic knot]]
 
-  * [[volume conjecture]]
+* [[knot complement]]
 
-[edit this sidebar](http://ncatlab.org/nlab/edit/knot+theory+-+contents)
+* [[Borromean link]]
+
+* [[Whitehead link]]
+
+* [[Hopf link]]
+
+
+[[knot diagram]]
+* [[isotopy]]
+* [[Reidemeister move]]
+* [[Gauss code]]
+
+[[knot invariants]]
+* [[crossing number]]
+* [[bridge number]]
+* [[unknotting number]]
+* [[colorability]]
+* [[knot group]]
+* [[knot genus]]
+* [[Jones polynomial]]
+* [[HOMFLY polynomial]]
+* [[Alexander polynomial]]
+* [[Reshetikhin-Turaev invariant]]s
+* [[Khovanov homology]]
+* [[Kauffman bracket]]
+* [[Vassiliev invariants]]
+
+[[link invariants]]
+* [[Milnor mu-bar invariants]]
+* [[linking number]]
+
+Related concepts
+
+* [[Vassiliev skein relation]]
+
+* [[Seifert surface]]
+
+* [[virtual knot theory]]
+
+* [[Dehn surgery]], [[Kirby calculus]]
+
+* [[volume conjecture]]
+
 
 category: knot theory
