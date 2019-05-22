@@ -115,7 +115,9 @@ For the [[type II string theory]]-version see at _[[NS5-brane]]_ the sectoin _[N
 
 ## Related concepts
 
-* [[membrane instanton]]
+* [[membrane instanton]], [[SM2-brane]]
+
+* [[fractional M2-brane]]
 
 * [[triple membrane junction]]
 
