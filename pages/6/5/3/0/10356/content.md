@@ -209,6 +209,7 @@ See at _[[RR-field tadpole cancellation]]_ the section _[For fractional D-branes
 
 * [[permutation brane]]
 
+* [[fractional M2-brane]]
 
 ## References
  {#References}
