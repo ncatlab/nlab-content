@@ -45,6 +45,8 @@ The [[volume conjecture]] for the [[Reshetikhin-Turaev construction]] states tha
 
 * [[Borel regulator]]
 
+* [[SnapPy]]
+
 ## References
 
 * [[Jeff Cheeger]], [[Jim Simons]], _Differential characters and geometric invariants_, in _Geometry and Topology_, Proceedings of the Special Year, University of Maryland 1983-84, eds. J. Alexander and J. Harer, Lecture Notes in Math. 1167, Springer-Verlag, Berlin, Heidelberg, New York, 1985, pp. 50&#8211;80.
