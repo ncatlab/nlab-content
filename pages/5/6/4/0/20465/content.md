@@ -54,6 +54,12 @@ With an eye towards the [[volume conjecture]]:
 
 * {#GangKimLee14} Dongmin Gang, Nakwoo Kim, Sangmin Lee, _Holography of 3d-3d correspondence at Large N_, JHEP04(2015) 091 ([arXiv:1409.6206](https://arxiv.org/abs/1409.6206))
 
+* {#GangKim18} Dongmin Gang, Nakwoo Kim, aound (21) of _Large $N$ twisted partition functions in 3d-3d correspondence and Holography_, Phys. Rev. D 99, 021901 (2019) ([arXiv:1808.02797](https://arxiv.org/abs/1808.02797))
+
+* {#GangKimPandoZayas19} Dongmin Gang, Nakwoo Kim, Leopoldo A. Pando Zayas, _Precision Microstate Counting for the Entropy of Wrapped M5-branes_ ([arXiv:1905.01559](https://arxiv.org/abs/1905.01559))
+
+
+
 [[!redirects 3d-3d correspondences]]
 
 [[!redirects 3d-3d relation]]
