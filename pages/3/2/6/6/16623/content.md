@@ -15,7 +15,9 @@
 
 ## Idea
 
-Membrane [[instantons]] are constituted by [[supermembranes]] ([[M2-branes]])  [[wrapped brane|wrapped]] on [[spacelike]] (and [[supersymmetric cycle|supersymmetric]]) [[cycles]]. These appear as [[non-perturvative effects]] in [[M-theory]] [[model (physics)|model building]]. For instance they generate the [[hierarchy problem|gauge hierarchy]] in constructions of [[M-theory on G2-manifolds]] such as the [[G2-MSSM]].
+Membrane [[instantons]] are constituted by [[supermembranes]] ([[M2-branes]])  [[wrapped brane|wrapped]] on [[spacelike]] (and [[supersymmetric cycle|supersymmetric]]) [[cycles]]. Also known as _[[SM2-branes]]_.
+
+These appear as [[non-perturvative effects]] in [[M-theory]] [[model (physics)|model building]]. For instance they generate the [[hierarchy problem|gauge hierarchy]] in constructions of [[M-theory on G2-manifolds]] such as the [[G2-MSSM]].
 
 Basically the effect is that the [[action functional]] of the given [[11-dimensional supergravity]] is multiplied by the exponentiated [[Nambu-Goto action]] of the [[wrapped brane|wrapping]] membrane configurations $\phi \colon \Sigma \to X$. These are of the form (e.g. [Harvey-Moore 99, (4.13)](#HarveyMoore99), [Atiyah-Witten 01 (4.17)](#AtiyahWitten01), [Curio 02, (2.15)](#Curio02))
 
@@ -42,7 +44,8 @@ Under the [[duality between M-theory and type IIA string theory]], membrane inst
 When here $(\Sigma, \phi^\ast g)$ is a [[hyperbolic 3-manifold]] and $\phi^\ast C = CS(\omega)$ is the [[Chern-Simons form|Chern-Simons invariant]] then this is the exponentiated "[[complex volume]]" of $\Sigma$[^footnote].
 
 
-## related concepts
+
+## Related concepts
 
 * [[hierarchy problem]]
 
@@ -55,6 +58,8 @@ When here $(\Sigma, \phi^\ast g)$ is a [[hyperbolic 3-manifold]] and $\phi^\ast 
 * [[D3-brane instanton]]
 
 * [[M5-brane instanton]]
+
+[[!include table of branes]]
 
 ## References
 
