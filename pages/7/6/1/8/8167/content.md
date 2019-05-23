@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
-=--
 #### Fields and quanta
 +--{: .hide}
 [[!include fields and quanta - table]]
+=--
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
 =--
 =--
 =--
@@ -27,11 +27,14 @@ In [[particle physics]] the letters _MSSM_ are an abbreviation for "minimally su
 
 ## Related concepts
 
+* [[R-parity]]
+
 * [[intersecting D-brane model ]]  
 
 * [[gauge coupling unification]]
 
 * [[supersymmetry and Calabi-Yau manifolds]]
+
 
 
 ## References
@@ -44,6 +47,15 @@ The original articles are
 (1982). 
 
 * [[Steven Weinberg]], Phys. Rev. D 26, 287 (1982)
+
+### Experimental status
+
+(...)
+
+Suggestion that the [[flavour anomalies]] might be pointing to an MSSM without [[R-parity]]:
+
+* {#WangYangYuan19} Dong-Yang Wang, Ya-Dong Yang, Xing-Bo Yuan, _$b \to c \tau \bar \nu$ decays in supersymmetry with R-parity violation_ ([arXiv:1905.08784](https://arxiv.org/abs/1905.08784))
+
 
 ### In heterotic string theory
  {#ReferencesInHeteroticStringTheory}
@@ -126,3 +138,4 @@ A large number of realizations of the exact field content of the MSSM in [[F-the
 
 * {#CveticHalversonLinLiuTian19} [[Mirjam Cvetic]], [[James Halverson]], Ling Lin, Muyang Liu, Jiahua Tian, _A Quadrillion Standard Models from F-theory_ ([arXiv:1903.00009](https://arxiv.org/abs/1903.00009))
 
+[[!redirects minimally supersymmetric standard model]]
