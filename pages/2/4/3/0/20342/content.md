@@ -44,7 +44,7 @@ Various classical theorem of [[differential topology]] are secretly theorems abo
 
 ## References
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 3 of _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ 
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 3 of _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ ([arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
 
 
 [[!redirects twisted Cohomotopy]]
