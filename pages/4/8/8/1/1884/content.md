@@ -2798,7 +2798,13 @@ Topological topological K-theory of [[classifying spaces]] of [[Lie groups]] is 
 
 ### D-brane charge
 
-For references on [[D-branes]] in terms of [[K-theory]] see [there](D-brane#ReferencesKTheoryDescription).
+Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[topological K-theory|K-theory]] and its relation to [[D-brane charge]] in [[type II string theory]] (see also [there](D-brane#ReferencesKTheoryDescription)):
+
+* {#GradySati19a} Daniel Grady, [[Hisham Sati]], _Ramond-Ramond fields and twisted differential K-theory_ ([arXiv:1903.08843](https://arxiv.org/abs/1903.08843))
+
+Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[KO-theory|orthogonal]] [[topological K-theory|K-theory]] and its relation to [[D-brane charge]] in [[type I string theory]] (on [[orientifolds]]):
+
+* {#GradySati19b} Daniel Grady, [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
 
 
 [[!redirects complex K-theory]]
