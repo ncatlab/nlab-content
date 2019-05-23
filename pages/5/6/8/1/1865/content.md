@@ -265,15 +265,23 @@ Relation to [[index theory]]:
 
 See also the references at _[[fiber integration in differential K-theory]]_.
 
-### In the context of QFT / string theory
+### In string theory
 
 A survey of the role of differential $K$-theory in [[quantum field theory]] and [[string theory]] is in 
 
 * [[Daniel Freed]], _K-Theory in Quantum Field Theory_, Current developments in Mathematics (2001) International Press Somerville ([arXiv:math-ph/0206031](http://arxiv.org/abs/math-ph/0206031))
 
-The operation of [[T-duality]] on [[twisted differential K-theory]] is discussed in
+The operation of [[T-duality]] on hypothetical [[twisted differential K-theory]] is discussed in
 
 * [[Alexander Kahle]], [[Alessandro Valentino]], _[[T-Duality and Differential K-Theory]]_
+
+Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[topological K-theory|K-theory]] and its relation to [[D-brane charge]] in [[type II string theory]] (see also [there](D-brane#ReferencesKTheoryDescription)):
+
+* {#GradySati19a} Daniel Grady, [[Hisham Sati]], _Ramond-Ramond fields and twisted differential K-theory_ ([arXiv:1903.08843](https://arxiv.org/abs/1903.08843))
+
+Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[KO-theory|orthogonal]] [[topological K-theory|K-theory]] and its relation to [[D-brane charge]] in [[type I string theory]] (on [[orientifolds]]):
+
+* {#GradySati19b} Daniel Grady, [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
 
 
 ### Further
