@@ -19,9 +19,11 @@
 
 ## Idea
 
-_Flux compactifications_ are a variant of the [[Kaluza-Klein mechanism]] in [[physics]].
+_Flux compactifications_ are [[Kaluza-Klein compactification]]  where a [[gauge field]] or [[higher gauge field]] has non-trivial [[field strength]], hence "generalized electromagnetic [[flux]]" in the [[fiber]]-spaces, whose repulsive [[force]] counteracts the collapsing force of [[gravity]] on the compact fiber spaces.
 
-One way of achieving [[moduli stabilization]] for KK-compactifications in [[Einstein-Maxwell theory]] or [[supergravity]]/[[string theory]] is to consider [[gauge fields]] and/or [[higher gauge fields]] in the compact space. Their (higher) [[field strength]]/[[curvature]] forms ("fluxes") parameterize mass terms for the compactification moduli and hence may, under suitable conditions, stabilize them.
+Applied to [[supergravity]] this may in particular yield [[perturbative string theory vacua]].
+
+One way of achieving [[moduli stabilization]] for KK-compactifications in [[Einstein-Maxwell theory]] or [[supergravity]]/[[string theory]] is to consider [[gauge fields]] and/or [[higher gauge fields]] in the compact space. Their (higher) [[field strength]]/[[curvature]] forms ("[[fluxes]]") parameterize mass terms for the compactification moduli and hence may, under suitable conditions, stabilize them.
 
 ## Related concepts
 
@@ -61,8 +63,15 @@ See also
 
 * [[Jock McOrist]], [[Savdeep Sethi]], _M-theory and Type IIA Flux Compactifications_ ([arXiv:1208.0261](http://arxiv.org/abs/1208.0261))
 
+With [[RR-field tadpole cancellation]] taken into account:
+
+* Philip Betzler, Erik Plauschinn, _Type IIB flux vacua and tadpole cancellation_ ([arXiv:1905.08823](https://arxiv.org/abs/1905.08823))
+
+
 
 ### Non-geometric flux compactifications
+
+[[non-geometric string vacuum|non-geometric]] flux vacua
 
 * R. Blumenhagen, A. Deser, E. Plauschinn, F. Rennecke, _Bianchi identities for non-geometric fluxes: from quasi-Poisson structures to Courant algebroids_, [arXiv:1205.1522](http://arxiv.org/abs/1205.1522)
 
