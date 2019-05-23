@@ -466,6 +466,9 @@ explanations via ssumption of [[Z'-bosons]]:
 
 * Luigi Delle Rose, Shaaban Khalil, Simon J.D. King, Stefano Moretti, _$R_K$ and $R_{K^\ast}$ in an Aligned 2HDM with Right-Handed Neutrinos_ ([arXiv:1903.11146](https://arxiv.org/abs/1903.11146))
 
+[[MSSM]] with [[R-parity]]-violation
+
+* {#WangYangYuan19} Dong-Yang Wang, Ya-Dong Yang, Xing-Bo Yuan, _$b \to c \tau \bar \nu$ decays in supersymmetry with R-parity violation_ ([arXiv:1905.08784](https://arxiv.org/abs/1905.08784))
 
 
 [[!redirects flavour anomalies]]
