@@ -33,7 +33,7 @@ For a summary of uses, see
 
 * {#Cohn-Gordon} Reuben Cohn-Gordon, _Monad Transformers for Natural Language:Combining Monads to Model Effect Interaction_, [pdf](https://reubenharry.github.io/docs/monads.pdf)
 
-* {#Asudeh} [[Ash Asudeh]], _Monads: Some Linguistic Applications_, [pdf](http://users.ox.ac.uk/~cpgl0036/handouts/asudeh-se-lfg13.pdf)
+* {#Asudeh} [[Ash Asudeh]], _Monads: Some Linguistic Applications_, [pdf](http://www.sas.rochester.edu/lin/sites/asudeh/handouts/asudeh-se-lfg13.pdf)
 
 This refers to:
 
