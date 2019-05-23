@@ -2,6 +2,9 @@
 
 [[trigonometry -- contents]]
 
+
+A$\dashv$b
+
 Page creation link: [[prototype CLF]]
 
 
