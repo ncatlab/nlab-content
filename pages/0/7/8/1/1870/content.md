@@ -404,4 +404,9 @@ Discussion of combined [[twisted K-theory|twisted]] and [[equivariant K-theory|e
 
 * {#Gomi17} [[Kiyonori Gomi]], _Freed-Moore K-theory_ ([arXiv:1705.09134](https://arxiv.org/abs/1705.09134))
 
+Discussion of combined [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[KO-theory|orthogonal]] [[topological K-theory|K-theory]] in
+
+* {#GradySati19} Daniel Grady, [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
+
+
 [[!redirects twisted K-theories]]
