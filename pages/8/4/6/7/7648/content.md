@@ -23,7 +23,7 @@ such that $(A,\mu,\eta)$ is an associative unital algebra,
 $(A,\Delta,\epsilon)$ is a coassociative counital coalgebra
 and the following compatibilities hold:
 
-(i) the coproduct $\Delta$ is multiplicative $\Delta(x)\Delta(y)= \Delta(x y)$
+(i) the coproduct $\Delta$ is multiplicative $\Delta(x)\Delta(y)= \Delta(x y)$. If only (i) is satisfied, we may speak of a __prebialgebra__.
 
 (ii) the counit $\epsilon$ satisfies weak multiplicativity
 $$
@@ -69,8 +69,16 @@ $$
 \Pi^L(x) := \epsilon(1_{(1)} x) 1_{(2)},\,\,\,\,
 \Pi^R(x) := 1_{(1)}\epsilon(x 1_{(2)}).
 $$
-These expressions are already met above in two of the axioms for the antipode.
-Then $\epsilon(x z) = \epsilon(x 1 z)  = \epsilon(x 1_({2}))\epsilon(1_{(1)}z)) = \epsilon(x \epsilon(1_{(1)}z))1_{(2)} = \epsilon(x\Pi^L(z)) = \epsilon(\Pi^R(x)z)$. 
+Expressions for $\Pi^L(x),\Pi^R(x)$ are already met above as the right hand sides in two of the axioms for the antipode. Maps $\Pi^L,\Pi^R$
+are idempotents, $\Pi^R\Pi^R = \Pi^R$ and $\Pi^L\Pi^L = \Pi^L$:
+$$\array{
+\Pi^L(\Pi^L(x)) &=& \epsilon\left(1_{(1)'}\epsilon(1_{(1)}x) 1_{(2)}\right)1_{(2)'}
+= \epsilon(1_{(1)}x)\epsilon(1_{(1)'}1_{(2)}) 1_{(2)'} 
+\\ &=&\epsilon(1_{(1)}x)\epsilon(1_{(2)}) 1_{(3)} 
+= \epsilon(1_{(1)}x)1_{(2)} = \Pi^L(x).
+}$$
+
+Notice $\epsilon(x z) = \epsilon(x 1 z)  = \epsilon(x 1_{(2)})\epsilon(1_{(1)}z)) = \epsilon(x \epsilon(1_{(1)}z))1_{(2)} = \epsilon(x\Pi^L(z)) = \epsilon(\Pi^R(x)z)$. 
 The images of the idempotents $A^R = \Pi^R(A)$ and $A^L = \Pi^L(R)$ are dual as $k$-linear spaces: there
 is a canonical nondegenerate pairing $A^L\otimes A^R\to k$ 
 given by $(x,y) \mapsto \epsilon(y x)$.
@@ -81,6 +89,11 @@ Also $\Pi^L(x\Pi^L(y)) = \Pi^L(x y)$
         and $\Delta(A^R)\subset A^R\otimes A$,
  and $\Delta(1)\in A^R\otimes A^L$.
 
+Sometimes it is also useful to consider the maps $\bar\Pi^L,\bar\Pi^R:A\to A$ defined by
+$$
+\bar\Pi^L(x) := \epsilon(1_{(2)} x) 1_{(1)},\,\,\,\,
+\bar\Pi^R(x) := 1_{(2)}\epsilon(x 1_{(1)}).
+$$
 
 ### Relation to fusion categories
 
