@@ -185,7 +185,7 @@ A [[formal proof]] of the G&#246;del-Rosser incompleteness theorem in [[Coq]] is
 
 * [[Russell O'Connor]], _Essential Incompleteness of Arithmetic Verified by Coq_ ([web](http://r6.ca/Goedel/goedel1.html))
 
-Formal proof of the second incompoletenss theorem is discussed in
+Formal proof of the second incompleteness theorem is discussed in
 
 * Lawrence Paulson, _A Mechanised Proof of G&#246;del's Incompleteness Theorems
 using Nominal Isabelle_ ([pdf](https://www.cl.cam.ac.uk/~lp15/papers/Isabelle/Goedel-ar.pdf))
