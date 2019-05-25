@@ -31,9 +31,10 @@
 * table of contents
 {:toc}
 
-> Talking with Bill, I often feel like a fly buzzing around a cow. (It seems to me I can liken Bill to a cow, if I'm just a fly myself.) On any easy question, I'll probably see the answer first. But his thoughts seem to move on a level where I don't function, I can barely see down there. (From an [interview](http://at.yorku.ca/t/o/p/c/06.htm) with [[John Isbell]].)
 
 ## Overview
+
+> Talking with Bill, I often feel like a fly buzzing around a cow. (It seems to me I can liken Bill to a cow, if I'm just a fly myself.) On any easy question, I'll probably see the answer first. But his thoughts seem to move on a level where I don't function, I can barely see down there. (From an [interview](http://at.yorku.ca/t/o/p/c/06.htm) with [[John Isbell]].)
 
 F. William Lawvere 
 
