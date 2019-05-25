@@ -50,9 +50,13 @@ A clear introduction to the use of persistent homology in data analysis is
 
 * [[Robert Ghrist]], _Barcodes: The Persistent Topology of Data_, ([pdf](https://www.math.upenn.edu/~ghrist/preprints/barcodes.pdf))
 
+Bar-codes were discovered under the name of _canonical forms invariants of filtered complexes_ in 
+
+*  Serguei Barannikov, _Framed Morse complex and its invariants_, [pdf](https://www.researchgate.net/profile/Serguei_Barannikov/publication/267672645_The_Framed_Morse_complex_and_its_invariants/links/5970e947458515fa8de6e724/The-Framed-Morse-complex-and-its-invariants.pdf) Advances in Soviet Mathematics __21__ 93–115 (1994)
+
 Other references:
 
-*  Serguei Barannikov,[_Framed Morse complex and its invariants_](https://www.researchgate.net/profile/Serguei_Barannikov/publication/267672645_The_Framed_Morse_complex_and_its_invariants/links/5970e947458515fa8de6e724/The-Framed-Morse-complex-and-its-invariants.pdf) Advances in Soviet Mathematics __21__ 93–115 (1994)
+*  D. Le Peutrec, N. Nier, C. Viterbo, _Precise Arrhenius Law for p-forms: The Witten Laplacian and Morse–Barannikov Complex_, Annales Henri Poincaré __14__ (3): 567–610 (2013) [doi](https://10.1007/s00023-012-0193-9)
 * Robert MacPherson, Benjamin Schweinhart, _Measuring shape with topology_, J. Math. Phys. __53__, 073516 (2012); [doi](http://dx.doi.org/10.1063/1.4737391)
 * A. Zomorodian, [[G. Carlsson]], _Computing persistent homology_, Discrete Comput. Geom. __33__, 249&#8211;274 (2005)
 * Ulrich Bauer, Michael Kerber, Jan Reininghaus, _Clear and compress: computing persistent homology in chunks_, [arxiv/1303.0477](http://arxiv.org/abs/1303.0477)
@@ -66,6 +70,13 @@ Other references:
 * Genki Kusano, Kenji Fukumizu, Yasuaki Hiraoka, _Persistence weighted Gaussian kernel for topological data analysis_, [arxiv/1601.01741](http://arxiv.org/abs/1601.01741)
 * Heather A. Harrington, Nina Otter, Hal Schenck, Ulrike Tillmann, _Stratifying multiparameter persistent homology_, [arxiv/1708.07390](https://arxiv.org/abs/1708.07390)
 * H. Edelsbrunner, D. Morozov, _Persistent homology: theory and practice_ [pdf](http://mrzv.org/publications/persistent-homology-theory-practice/ecm)
+
+The following paper uses persistent homology to single out features relevant for
+training neural networks,
+
+* Jean-Baptiste Bardin, Gard Spreemann, [[Kathryn Hess]], _Topological exploration of artificial neuronal network dynamics_, [arxiv/1810.01747](https://arxiv.org/abs/1810.01747)
+
+category: topology, applications
 
 [[!redirects persistent homology]]
 [[!redirects persistent homology theory]]
