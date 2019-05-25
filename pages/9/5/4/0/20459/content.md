@@ -19,7 +19,7 @@
 
 Hyperbolic 3-space $\mathbb{H}^3$ is [[generalized the|the]] [[simply connected topological space|simply connected]] [[geodesically complete]] [[hyperbolic 3-manifold]]. 
 
-Everey [[hyperbolic 3-manifold]] is [[isometry|isometric]] to the [[quotient space]] $\mathbb{H}^3/\Gamma$ of hyperbolic 3-space by the [[action]] of a [[torsion subgroup|torsion-free]] [[discrete group]] acting via [[isometries]].
+Every [[hyperbolic 3-manifold]] is [[isometry|isometric]] to the [[quotient space]] $\mathbb{H}^3/\Gamma$ of hyperbolic 3-space by the [[action]] of a [[torsion subgroup|torsion-free]] [[discrete group]] acting via [[isometries]].
 
 ## Related concepts
 
