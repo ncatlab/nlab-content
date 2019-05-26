@@ -37,11 +37,7 @@ A **natural numbers object** in a [[topos]] (or any [[cartesian closed category]
 
   * a [[morphism]] $s : \mathbb{N} \to \mathbb{N}$ (successor);
 
-* such that 
-
-  * for every other [[diagram]] $1 \stackrel{q}{\to}A \stackrel{f}{\to} A$
-
-  * there is a unique morphism $u : \mathbb{N} \to A$ such that
+* such that for every other [[diagram]] $1 \stackrel{q}{\to}A \stackrel{f}{\to} A$ there is a unique morphism $u : \mathbb{N} \to A$ such that
 
 $$
   \array{
@@ -83,7 +79,7 @@ A & \stackrel{\langle z \circ !, 1_A\rangle}{\to} & N \times A & \stackrel{s \ti
 }$$ 
 =--
 
-The functions which are constructable out of the structure of a category with finite products and such a "parametrized NNO" are precisely the [[partial recursive function|primitive recursive]] ones. Specifically, the unique structure-preserving functor from the free such category $F$ into [[Set]] yields a bijection between $Hom_F(1, \mathbb{N})$ and the actual natural numbers, as well as surjections from $Hom_F(\mathbb{N}^m, \mathbb{N})$ onto the primitive recursive functions of arity $m$ for each finite $m$. With cartesian closure, however, this identification no longer holds, since non-primitive recursive functions (such as the [[partial recursive function|Ackermann function]]) become definable as well.
+The functions which are constructible out of the structure of a category with finite products and such a "parametrized NNO" are precisely the [[partial recursive function|primitive recursive]] ones. Specifically, the unique structure-preserving functor from the free such category $F$ into [[Set]] yields a bijection between $Hom_F(1, \mathbb{N})$ and the actual natural numbers, as well as surjections from $Hom_F(\mathbb{N}^m, \mathbb{N})$ onto the primitive recursive functions of arity $m$ for each finite $m$. With cartesian closure, however, this identification no longer holds, since non-primitive recursive functions (such as the [[partial recursive function|Ackermann function]]) become definable as well.
 
 In this context an important class is the class of [[pretopos|pretoposes]] with a parametrized NNO - the so called [[arithmetic pretopos|arithmetic pretoposes]].
 
