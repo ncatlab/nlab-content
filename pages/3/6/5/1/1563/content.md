@@ -215,6 +215,8 @@ Lecture notes University of Chicago 1975.
 
 * _Functional Remarks on the General Concept of Chaos_ , IMA reprint 87, 1984 ([pdf](http://www.ima.umn.edu/preprints/pp1984/87s.pdf))
 
+  (on a formalization of the concept of [[chaos]])
+
 * _Toward the description in a smooth topos of the dynamically possible motions and deformations of a continuous body_, Cah.top.g&#233;o.diff.cat, 21 nr.4, 1980, pp.377-392 ([Numdam](http://www.numdam.org/item?id=CTGDC_1980__21_4_377_0))
 
    (contains a section with some remarks on Lagrangian mechanics)
