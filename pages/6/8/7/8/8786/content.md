@@ -25,11 +25,14 @@
 
 ## References
 
+* wikipedia [process calculus](https://en.wikipedia.org/wiki/Process_calculus)
 * [[Bob Harper]], _[Parallelism is not concurrency](http://existentialtype.wordpress.com/2011/03/17/parallelism-is-not-concurrency/)_
  {#Harper}
 
 * [[Lisbeth Fajstrup]], [[Eric Goubault]], [[Emmanuel Haucourt]], [[Samuel Mimram]], [[Martin Raussen]], [[Directed Algebraic Topology and Concurrency]]
 
+* _The Pi calculus: toward global computing_ Rchain [blog](https://blog.rchain.coop/blog/2019/04/03/the-pi-calculus-toward-global-computing)
+* zoranskoda:[[zoranskoda:distributed consensus]]
 
 category:computer science
 
