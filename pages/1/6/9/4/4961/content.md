@@ -60,10 +60,13 @@ Let $S$ be a [[set]] and let $(X,\tau)$ be a [[topological space]]. Then
 
 ## References
 
-The termonology _chaotic topology_ is motivated in
+The terminology _chaotic topology_ is motivated (see also at _[[chaos]]_) in
 
-* [[William Lawvere]], _Functorial remarks on the general concept of chaos_ ([pdf](http://www.ima.umn.edu/sites/default/files/87s.pdf)) via footnote 3 of [pdf](https://pdfs.semanticscholar.org/217f/fec083913671c3396f3fff953e126bb37a0d.pdf)
+* {#Lawvere84} [[William Lawvere]], _Functorial remarks on the general concept of chaos_ IMA preprint #87, 1984 ([pdf](http://www.ima.umn.edu/sites/default/files/87s.pdf)) 
 
+via footnote 3 in
+
+* [[William Lawvere]],  _Categories of spaces may not be generalized spaces, as exemplified by directed graphs_, preprint, State University of New York at Buffalo, (1986) Reprints in Theory and Applications of Categories, No. 9, 2005, pp. 1&#8211;7 ([tac:tr9](http://www.tac.mta.ca/tac/reprints/articles/9/tr9abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/9/tr9.pdf))
 
 and appears for instance in 
 
