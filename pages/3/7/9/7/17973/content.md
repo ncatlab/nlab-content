@@ -96,8 +96,9 @@ The [[Higgs mechanism]] naturally arises in [[intersecting D-brane models]]: The
 
 <img src="https://ncatlab.org/nlab/files/BraneRecombination.png" width="600"/>
 
+Further developments in [Ibanez-Marchesano-Rabadan 01](#IbanezMarchesanoRabadan01), [Hebecker-Knochel-Weigand 13](#HebeckerKnochelWeigand13) and specifically via [[string field theory]] in [HINSS 18](#HINSS18).
 
-See also [Ibanez-Uranga 12, fig 10.2](#IbanezUranga12):
+For review see [Ibanez-Uranga 12, fig 10.2](#IbanezUranga12):
 
 <img src="https://ncatlab.org/nlab/files/BraneRecombinationII.jpg" width="600"/>
 
@@ -234,14 +235,19 @@ for [[D7-branes]]:
 
 * Anshuman Maharana, [[Eran Palti]], _Models of Particle Physics from Type IIB String Theory and F-theory: A Review_ ([arXiv:1212.0555](http://arxiv.org/abs/1212.0555))
 
-Discussion of the [[Higgs mechanism]]:
+Discussion of the [[Higgs mechanism]] in intersecting D-brane models:
 
-* {#CremadesIbanezMarchesano02} D. Cremades, [[Luis Ibáñez]], F. Marchesano, _Intersecting brane models of particle physics and the Higgs mechanism_, JHEP, 0207, 022 2002 ([arXiv:hep-th/0203160](https://arxiv.org/abs/hep-th/0203160))
+* {#IbanezMarchesanoRabadan01} [[Luis Ibáñez]], [[Fernando Marchesano]], R. Rabadan, section 7 of _Getting just the Standard Model at Intersecting Branes_, JHEP 0111:002, 2001 ([arXiv:hep-th/0105155](https://arxiv.org/abs/hep-th/0105155))
 
+* {#CremadesIbanezMarchesano02} D. Cremades, [[Luis Ibáñez]], [[Fernando Marchesano]], _Intersecting brane models of particle physics and the Higgs mechanism_, JHEP, 0207, 022 2002 ([arXiv:hep-th/0203160](https://arxiv.org/abs/hep-th/0203160))
+
+* {#HebeckerKnochelWeigand13} Arthur Hebecker, Alexander K. Knochel, [[Timo Weigand]], _The Higgs mass from a String-Theoretic Perspective_,  Nucl.Phys. B874 (2013) 1-35 ([arXiv:1304.2767](https://arxiv.org/abs/1304.2767))
+
+* {#HINSS18} Manami Noumi Hashi, Hiroshi Isono, Toshifumi Noumi, Gary Shiu, Pablo Soler, _Higgs Mechanism in Nonlocal Field Theories_, JHEP08 (2018) 064 ([arXiv:1805.02676](https://arxiv.org/abs/1805.02676))
 
 See also
 
-* {#AFIRU00} G. Aldazabal, S. Franco, L. E. Ibanez, R. Rabadan, A. M. Uranga, _$D=4$ Chiral String Compactifications from Intersecting Branes_, J.Math.Phys.42:3103-3126, 2001 ([arXiv:hep-th/0011073](https://arxiv.org/abs/hep-th/0011073))
+* {#AFIRU00} G. Aldazabal, S. Franco, [[Luis Ibáñez]], R. Rabadan, A. M. Uranga, _$D=4$ Chiral String Compactifications from Intersecting Branes_, J.Math.Phys.42:3103-3126, 2001 ([arXiv:hep-th/0011073](https://arxiv.org/abs/hep-th/0011073))
 
 * [[Ralph Blumenhagen]], [[Volker Braun]], Boris Kors, [[Dieter Lüst]], _The Standard Model on the Quintic_, Summary of Talks at SUSY02, 1st Intl. Conference on String Phenomenology in Oxford, Strings 2002 and 35th Ahrenshoop Symposium. ([arXiv:hep-th/0210083](http://arxiv.org/abs/hep-th/0210083))
 
