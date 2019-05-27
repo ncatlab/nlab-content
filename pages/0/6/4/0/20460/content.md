@@ -16,7 +16,7 @@
 
 ## Idea
 
-The [[complement]] of (a [[tubular neighbourhood]] of) a [[knot]].
+The [[complement]] in $S^{3}$ or $\mathbb{R}^{3}$ of (a [[tubular neighbourhood]] of) a [[knot]].
 
 ## Related concepts
 
