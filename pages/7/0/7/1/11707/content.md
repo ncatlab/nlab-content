@@ -20,7 +20,7 @@ While Girard's prose is notoriously demanding, exegesis may be found in ([Abrusc
 
 * {#AbrusciPistone12} [Vito Michele Abrusci](http://www.uniroma3.it/persona.php?persona=v9rdc8l%2Fv34h57mDvlwB1jjlJFqAH%2B3Or9wKcvkvgtI%3D&tab=2), Paolo Pistone, _On Trascendental syntax: a Kantian program for logic?_, 2012 ([pdf](https://www.academia.edu/10495057/On_Trascendental_syntax_a_Kantian_program_for_logic))
 
-* {#Rouleau13} [[Vincent Laurence Rouleau]], _Towards an understanding of Girard's transcendental syntax: Syntax by testing_, PhD thesis 2013  ([pdf](https://www.ruor.uottawa.ca/fr/bitstream/handle/10393/23680/Laurence_Rouleau_Vincent_2013_thesis.pdf?sequence=3))
+* {#Rouleau13} [[Vincent Laurence Rouleau]], _Towards an understanding of Girard's transcendental syntax: Syntax by testing_, PhD thesis 2013  ([pdf](https://ruor.uottawa.ca/bitstream/10393/23680/3/Laurence_Rouleau_Vincent_2013_thesis.pdf))
 
 
 
