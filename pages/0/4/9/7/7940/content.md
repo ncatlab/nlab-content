@@ -5,6 +5,10 @@
 
 ## Related entries
 
+* [[symplectic manifold]]
+
+* [[moment map]]
+
 * [[geometric quantization]]
 
   * [[quantomorphism group]]
