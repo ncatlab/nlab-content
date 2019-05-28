@@ -38,7 +38,7 @@ $$
   \,, 
 $$
 
-where $\Pi_g$ and $\Sigma_h$ are the [[dependent product]] and [[dependent sum]] operations, right and left adjoint respectively to [[pullback]] functors $g^*$ and $h^*$.
+where $\Pi_g$ and $\Sigma_h$ are the [[dependent product]] and [[dependent sum]] operations, right and left adjoint respectively to [[pullback#PullbackFunctor|pullback functors]] $g^*$ and $h^*$.
 
 When $W=Z$, this is a **polynomial endofunctor**.
 
