@@ -9,6 +9,10 @@ A **graded modality** is an indexed family of [[modalities]] with some additiona
 
 For example, the [[exponential modality]] of [[linear logic]] $!$ has a graded counterpart in [[bounded linear logic]], where $!$ is replaced with a family of modalities $!_n$ indexed by the natural numbers (the reuse bound).
 
+##Related concepts
+
+* [[graded monad]]
+
 ## References
 
 * Brunel, Aloïs and Gaboardi, Marco and Mazza, Damiano and Zdancewic, Steve, _A Core Quantitative Coeffect Calculus_, ([doi](https://doi.org/10.1007/978-3-642-54833-8_19)) ([pdf](https://lipn.univ-paris13.fr/~mazza/papers/CoreQuantCoeff.pdf))
