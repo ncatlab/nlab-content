@@ -192,7 +192,12 @@ Of particular relevance (besides the original work of Doplicher and Roberts) are
 
 * Hellmut Baumg&#228;rtel: _Operator algebraic Methods in Quantum Field Theory. A series of lectures._ Akademie Verlag 1995 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0839.46063&format=complete))
 
-* Hans Halvorson, Michael M&#252;ger, _Algebraic Quantum Field Theory_ ([arXiv:math-ph/0602036](http://arxiv.org/abs/math-ph/0602036))
+* [[Hans Halvorson]], [[Michael Müger]], _Algebraic Quantum Field Theory_ ([arXiv:math-ph/0602036](http://arxiv.org/abs/math-ph/0602036))
+
+Discussion in the context of [[holographic entanglement entropy]]:
+
+* {#CHMP19} Horacio Casini, Marina Huerta, Javier M. Magan, Diego Pontello, _Entanglement entropy and superselection sectors I. Global symmetries_ ([arXiv:1905.10487](https://arxiv.org/abs/1905.10487))
+
 
 [[!redirects DHR analysis]]
 [[!redirects Doplicher-Haag-Roberts superselection theory]]
