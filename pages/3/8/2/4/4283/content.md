@@ -64,7 +64,9 @@ See also [[AQFT]], [[QFT]] and [[Haag-Kastler axioms]].
 
 * [[Klaas Landsman]], _Quantization and superselection sectors II. Dirac Monopole and Aharonov-Bohm effect_, Review in mathematical physics volume 2, No 1 (1990) ([pdf](http://www.math.ru.nl/~landsman/landsman2.pdf))
 
+Discussion in the context of [[holographic entanglement entropy]]:
 
+* Horacio Casini, Marina Huerta, Javier M. Magan, Diego Pontello, _Entanglement entropy and superselection sectors I. Global symmetries_ ([arXiv:1905.10487](https://arxiv.org/abs/1905.10487))
 
 [[!redirects superselection theory]]
 [[!redirects superselection sector]]
