@@ -39,7 +39,7 @@ Before the proposal for the actual matching rule of ADS/CFT ([Gubser-Klebanov-Po
 
 Generally, AdS/CFT correspondence is an incarnation of [[open/closed string duality]], which is based on the simple observation that the [[string scattering amplitude]] of a [[cylinder]]-shaped [[worldsheet]] has two equivalent interpretations: On the one hand, reading [[worldsheet]]-time along the [[circle]]-direction of the cylinder, it is a [[loop order|1-loop]] [[open string]]-[[vacuum amplitude]] for an [[open string]] attached to some [[D-brane]], while on the other hand, with [[worldsheet]]-time real in the orthogonal direction, it is a [[closed string]] [[loop order|tree-level]] amplitude describing a [[closed string]] emanating from/absorbed by that [[D-brane]]. Since the excitations of the [[open string]] are the quanta of the ("[[Chan-Paton gauge field|Chan-Paton]]")-[[gauge fields]] on the [[D-brane]], while the excitations of the [[closed string]] include the [[gravitons]] witnessing the [[gravity|gravitational]] backreaction of the D-branes, this already indicates that there must be some close relation between the [[worldvolume]] [[super Yang-Mills theory]] on the [[D-brane]] and the [[quantum gravity]] of the ambient [[bulk]] [[spacetime]].
 
-More specifically, it was shown in ([Duff-Sutton 88](#DuffSutton88), [Duff 98](#Duff98)) that the field theory of small perturbation  of a [[Green-Schwarz sigma-model]] for a [[fundamental brane]] stretched over the [[asymptotic boundary]] of the AdS  [[near horizon geometry]] of its own [[black brane]] incarnation is, after [[diffeomorphism]] [[gauge fixing]], a [[conformal field theory]]. This was further developed in [Claus-Kallosh-Proeyen 97](#ClausKalloshProeyen97), [DGGGTT 98](#DGGGTT98), [Claus-Kallosh-Kumar-Townsend 98](#ClausKalloshKumarTownsend98), [Pasti-Sorokin-Tonin 99](#PastiSorokinTonin99). See also at _[super p-brane -- As part of the AdS-CFT correspondence](Green-Schwarz+action+functional#AsPartOfTheAdSCFTCorrespodence)
+More specifically, it was shown in ([Duff-Sutton 88](#DuffSutton88), see [Duff 98](#Duff98), [Duff 99](#Duff99)) that the field theory of small perturbation  of a [[Green-Schwarz sigma-model]] for a [[fundamental brane]] stretched over the [[asymptotic boundary]] of the AdS  [[near horizon geometry]] of its own [[black brane]] incarnation is, after [[diffeomorphism]] [[gauge fixing]], a [[conformal field theory]]. This was further developed in [Claus-Kallosh-Proeyen 97](#ClausKalloshProeyen97), [DGGGTT 98](#DGGGTT98), [Claus-Kallosh-Kumar-Townsend 98](#ClausKalloshKumarTownsend98), [Pasti-Sorokin-Tonin 99](#PastiSorokinTonin99). See also at _[super p-brane -- As part of the AdS-CFT correspondence](Green-Schwarz+action+functional#AsPartOfTheAdSCFTCorrespodence)
 
 For the archetypical case of AdS/CFT relating [[N=4 D=4 super Yang-Mills theory]] to [[type IIB string theory]] on [[super anti de Sitter spacetime]] $AdS_5 \times S^5$, fine detailed checks of the correspondence have been performed ([Beisert et al. 10](#BeisertEtAl10), [Escobedo 12](#Escobedo12)), see the section _[Checks](#Checks)_ below. 
 
@@ -282,8 +282,6 @@ Discussion of how [[Green-Schwarz action functionals]] for super $p$-branes in A
 
 * {#DuffSutton88} [[Mike Duff]], C. Sutton, _The Membrane at the End of the Universe_, New Sci. 118 (1988) 67-71 ([spire:268230](http://inspirehep.net/record/268230?ln=en))
 
-* {#Duff98} [[Mike Duff]], _Anti-de Sitter space, branes, singletons, superconformal field theories and all that_, Int.J.Mod.Phys.A14:815-844,1999 ([arXiv:hep-th/9808100](https://arxiv.org/abs/hep-th/9808100))
-
 and was further developed in
 
 * {#ClausKalloshProeyen97} Piet Claus, [[Renata Kallosh]], [[Antoine Van Proeyen]], _M 5-brane and superconformal $(0,2)$ tensor multiplet in 6 dimensions_, Nucl.Phys. B518 (1998) 117-150 ([arXiv:hep-th/9711161](http://arxiv.org/abs/hep-th/9711161))
@@ -292,8 +290,13 @@ and was further developed in
 
 * {#ClausKalloshKumarTownsend98} Piet Claus, [[Renata Kallosh]], J. Kumar, [[Paul Townsend]], [[Antoine Van Proeyen]], _Conformal Theory of M2, D3, M5 and 'D1+D5' Branes_, JHEP 9806 (1998) 004 ([arXiv:hep-th/9801206](http://arxiv.org/abs/hep-th/9801206))
 
-
 * {#PastiSorokinTonin99} [[Paolo Pasti]], [[Dmitri Sorokin]], Mario Tonin, _Branes in Super-AdS Backgrounds and Superconformal Theories_ ([arXiv:hep-th/9912076](http://arxiv.org/abs/hep-th/9912076))
+
+Review is in 
+
+* {#Duff98} [[Mike Duff]], _Anti-de Sitter space, branes, singletons, superconformal field theories and all that_, Int.J.Mod.Phys.A14:815-844,1999 ([arXiv:hep-th/9808100](https://arxiv.org/abs/hep-th/9808100))
+
+* {#Duff99} [[Mike Duff]], _TASI Lectures on Branes, Black Holes and Anti-de Sitter Space_ ([arXiv:hep-th/9912164](https://arxiv.org/abs/hep-th/9912164))
 
 See also at _[super p-brane -- As part of the AdS-CFT correspondence](Green-Schwarz+action+functional#AsPartOfTheAdSCFTCorrespodence)_.
 
@@ -308,8 +311,6 @@ Surveys and introductions include
 * {#AharonyGubserMaldacenaOoguriOz99} [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, _Large N Field Theories, String Theory and Gravity_, Phys.Rept.323:183-386,2000 ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
 
 * {#Anderson04} Michael T. Anderson, _Geometric aspects of the AdS/CFT correspondence_ ([arXiv:hep-th/0403087](https://arxiv.org/abs/hep-th/0403087)) 
-
-* {#Duff99} [[Mike Duff]], _TASI Lectures on Branes, Black Holes and Anti-de Sitter Space_ ([arXiv:hep-th/9912164](https://arxiv.org/abs/hep-th/9912164))
 
 * [[Horatiu Nastase]], _Introduction to AdS-CFT_ ([arXiv:0712.0689](http://arxiv.org/abs/0712.0689))
 
