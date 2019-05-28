@@ -24,18 +24,20 @@ Proto CLF is a work-in-progress [[proof assistant]] design combining ideas from 
 
 ### Motive
 
-The motivation for CLF is to try and combine the convenience of type systems with the flexibility of program verification, and make the resulting style of correct program construction applicable to mathematics in a general way.
+The motivation for CLF is to try and combine the convenience of [[type theory|type systems]] with the flexibility of [[certified programming|program verification]], and make the resulting style of correct program construction applicable to mathematics in a general way.
 
-In most typed computational languages—even those with rather strong type systems, like the dependent type systems of [[Coq]] and [[Agda]]—there is a distinction between types and program specifications. A specification should
+In most typed computational languages—even those with rather strong type systems, like the [[dependent type theory|dependent type systems]] of [[Coq]] and [[Agda]]—there is a distinction between types and program specifications. A specification should
 
-* constrain the computational behavior of conforming terms, and
+* constrain the computational behavior of conforming [[terms]], and
 * not constrain the way this behavior is implemented.
 
-Types typically constrain both behavior and implementation. Intuitively, this is because types are typically implemented using elaborate syntax checks, so they constrain behavior *by* constraining implementation.
+[[type|Types]] typically constrain both behavior and implementation. Intuitively, this is because types are typically implemented using elaborate [[syntax]] checks, so they constrain behavior *by* constraining implementation.
 
-A *program logic* provides predicates and proofs about programs, and this provides an adequate approach to specifications and verification of computational behavior. The requirement to satisfy a predicate doesn't constrain the way a program is implemented because the syntax rules for forming a program don't take into account any predicates the programmer may hope the program to satisfy. This is the sense in which program verification is more flexible than syntactic typing.
+A *program logic* provides predicates and proof rules about programs, and this provides an adequate approach to specification and verification of computational behavior. The requirement to satisfy a predicate doesn't constrain the way a program is implemented because the syntax rules for forming a program don't take into account any predicates the programmer may hope the program to satisfy. This is the sense in which program verification is more flexible than syntactic typing.
 
-By taking types to denote (certain) [[PER]]s on terms, Nuprl provides an [[intrinsic and extrinsic views of typing|extrinsic]] notion of type that subsumes program specifications. So Nuprl has a type system, and its types provide the flexibility of program verification; but it seems like Nuprl doesn't provide the convenience of a type system with a type checking algorithm.
+Using [[propositions as types]], many dependent type systems support specifications, in addition to types. But with the restriction to syntactic type checking, types and specifications remain distinct notions in practice.
+
+By taking types to denote (certain) [[PER]]s on terms, Nuprl provides an [[intrinsic and extrinsic views of typing|extrinsic]] notion of type that subsumes program specifications. So Nuprl has a type system, and its types provide the flexibility of program verification; but it seems that Nuprl doesn't provide the convenience of a type system with a type checking algorithm.
 
 From a naive perspective, it can't be done. Type checking Nuprl would be undecidable, but more importantly, it would require automatically coming up with proofs of true mathematical statements, and there's no good way to do that.
 
@@ -45,7 +47,7 @@ But that just means there needs to be additional machinery for formal proofs and
 
 CLF is planned to combine a semantics similar to that of Nuprl with a language of proof terms similar to that of [Cedille](https://cedille.github.io/). (Cedille is actually the latest in a series of dependent type systems (co)designed by Aaron Stump in which the meaning of equality pertains to realizers, not proof terms.)
 
-The terms that the CLF type system is about are called "realizers". (Since its Nuprl-inspired PER semantics is a term realizability model.) The proof terms would be an *additional* class of terms. In the case of "obviously-well-typed" programs, the tree structures of the realizers and proof terms should be nearly isomorphic, so the system will resemble a typical syntactic type checker. In general, proof terms have additional information not present in realizers. This is the information that is needed for proof/type checking, but is not part of the computational content of the witness/element.
+The terms that the CLF type system is about are called "[[realizers]]". (Since its Nuprl-inspired PER semantics is a term realizability model.) The proof terms would be an *additional* class of terms. In the case of "obviously-well-typed" programs, the tree structures of the realizers and proof terms should be nearly isomorphic, so the system will resemble a typical syntactic type checker. In general, proof terms have additional information not present in realizers. This is the information that is needed for proof/type checking, but is not part of the computational content of the witness/element.
 
 CLF types only depend on realizers, never proof terms. So to handle proof checking rules analogous to certain rules of dependent type systems, a realizer needs to be extracted from a proof on the fly. (Nuprl works around such rules, since it doesn't extract realizers on the fly.) This seems to be essentially the problem of dependent proof refinement discussed in [Algebraic Foundations of Proof Refinement](#SterlingHarperRefinement). An analogue of on-the-fly realizer extraction is used by Cedille too, and is called "erasure".
 
@@ -65,7 +67,7 @@ The above considerations motivate a whole class of type system implementations t
 
 To justify the proof rules, systems like Nuprl, Cedille, and CLF are based on term realizability models. But it's not currently clear to what extent this approach is compatible with the [[relation between type theory and category theory|categorical semantics of type theory]].
 
-The specifics of CLF are motivated by the insight (of Matt Oliveri, but strongly inspired by [Andromeda](http://www.andromeda-prover.org/)) that [[extensional type theory|extensional type theories]] promise to make great logical frameworks. Although categorical semantics for "structural" fragments of Nuprl-style systems may be feasible and useful, CLF sidesteps the whole issue by being a metalogic for reasoning about formal systems.
+The specifics of CLF are motivated by the insight (of Matt Oliveri, but strongly inspired by [Andromeda](http://www.andromeda-prover.org/)) that [[extensional type theory|extensional type theories]] (with equality reflection) promise to make great logical frameworks. Although categorical semantics for "structural" fragments of Nuprl-style systems may be feasible and useful, CLF sidesteps the whole issue by being a metalogic for reasoning about formal systems.
 
 The idea is that by regarding CLF as a metalogic, its possible lack of categorical semantics is irrelevant because the object logic can be chosen so as to reason about the desired semantics. CLF as a metalogic is a way to try to make the (hypothesized) technical advantages of a Nuprl-Cedille-like approach applicable to any type theory.
 
@@ -116,7 +118,7 @@ Note that in [[Nuprl]], the ($\Gamma \vdash t \Vdash T$) form is written ($\Gamm
 
 In the rules below, however, no attention is paid to what can be metatheoretically computed with terms or derivations. That is (important) future work.
 
-($\Gamma \vdash t\,:\,T$) is not used in order to avoid the misinterpretation of this judgment form as [[intrinsic and extrinsic views of typing|intrinsic typing]] of terms. Note the contrast with variables, which *are* intrinsically typed.
+($\Gamma \vdash t \Vdash T$) is used instead of ($\Gamma \vdash t\,:\,T$) in order to avoid the misinterpretation of this judgment form as [[intrinsic and extrinsic views of typing|intrinsic typing]] of terms. Note the contrast with variables, which *are* intrinsically typed.
 
 The ($t\,:\,T$) form can be translated to this system as either ($t \Vdash T$) or ($? \Vdash t \in T$). The latter uses the abbreviation "$\in$" defined below, and the abuse of meta-notation that we don't care what goes in the "$?$". With ($t \Vdash T$), we think of $t$ as resulting from the proof of $T$. With ($? \Vdash t \in T$), we think of the "*semantic judgment*" ($t \in T$) as a goal to prove internally. The rules ensure that these two ways of expressing an element of a type are interderivable. From this point on, ($\Gamma \vdash ? \Vdash T$) will be written as just ($\Gamma \vdash T$), although it remains informal.
 
@@ -145,7 +147,7 @@ $A \lt\!\!:\;B\;\coloneqq\;(\lambda x.x) \in (A \to B)$
 
 Note: ($A \lt\!\!:\;B$) ought to be logically equivalent to ($A \subseteq B \wedge A \prec B$), using the rules. And also to ($\Pi t:Comp.\Pi t':Comp.(t = t' \in A)\to(t = t' \in B)$). So semantically, thinking of types as PERs, subtypes are subrelations.
 
-"$A$ is a refinement/subquotient of $B$.":
+"$A$ is a refinement/[[subquotient]] of $B$.":
 
 $A \sqsubseteq B\;\coloneqq\;A \subseteq B \wedge B \prec A$
 
@@ -538,8 +540,8 @@ In the current CLF rules though, it doesn't seem possible to derive such rules. 
 
 * {#AnandRahliITP14} Abhishek Anand, Vincent Rahli, _Towards a Formally Verified Proof Assistant_, Interactive Theorem Proving (ITP) 2014 ([project web](http://www.nuprl.org/html/Nuprl2Coq/), [paper web](http://www.nuprl.org/KB/show.php?ID=726), [pdf](http://www.nuprl.org/documents/Anand/TowardsAFormallyVerifiedProofAssistant.pdf))
 
-* {#PERTypes14} Abhishek Anand, Mark Bickford, Robert L. Constable, Vincent Rahli, _A Type Theory with Partial Equivalence Relations as Types_, Types for Proofs and Programs (TYPES) 2014 ([slides](https://vrahli.github.io/articles/slides-per-types.pdf), [web](http://www.nuprl.org/KB/show.php?ID=722), [pdf](http://www.nuprl.org/documents/Anand/ATypeTheoryWithPartialEquivalenceRelationsAsTypes.pdf))
+* {#PERTypes14} Abhishek Anand, Mark Bickford, [[Robert Constable|Robert L. Constable]], Vincent Rahli, _A Type Theory with Partial Equivalence Relations as Types_, Types for Proofs and Programs (TYPES) 2014 ([slides](https://vrahli.github.io/articles/slides-per-types.pdf), [web](http://www.nuprl.org/KB/show.php?ID=722), [pdf](http://www.nuprl.org/documents/Anand/ATypeTheoryWithPartialEquivalenceRelationsAsTypes.pdf))
 
-* {#HofmannThesis} Martin Hofmann, _Extensional concepts in intensional type theory_, Ph.D. dissertation, University of Edinburgh (1995). ([link](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/))
+* {#HofmannThesis} [[Martin Hofmann]], _Extensional concepts in intensional type theory_, Ph.D. dissertation, University of Edinburgh (1995). ([link](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/))
 
-* {#SterlingHarperRefinement} Jonathan Sterling, Robert Harper, _Algebraic Foundations of Proof Refinement_, 2017 ([arXiv](https://arxiv.org/abs/1703.05215))
+* {#SterlingHarperRefinement} [[Jonathan Sterling]], [[Robert Harper]], _Algebraic Foundations of Proof Refinement_, 2017 ([arXiv](https://arxiv.org/abs/1703.05215))
