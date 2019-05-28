@@ -94,7 +94,7 @@ This is [LPAC, Prop. 2.30](#AdamekRosicky).
 +-- {: .num_prop }
 ###### Proposition
 
-In a $\kappa$-accessible category, every $\kappa$-pure morphism is a [[regular monomorphism]].
+In a locally $\kappa$-[[locally presentable category|presentable category]], every $\kappa$-pure morphism is a [[regular monomorphism]].
 
 =--
 
