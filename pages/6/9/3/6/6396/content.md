@@ -1,4 +1,6 @@
 
+Co-founder of [[string theory]].
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/John_Henry_Schwarz)
 
 ## Selected writings
