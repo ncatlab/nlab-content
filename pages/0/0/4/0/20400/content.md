@@ -20,7 +20,58 @@
 
 ## Idea
 
-Proto CLF is a work-in-progress [[proof assistant]] design combining ideas from [[Nuprl]], [[LF]], and [[decidability|undecidable proof checking]]. "CLF" abbreviates "Computational Logical Framework". So far, it's just Matt Oliveri's unpublished plans and metatheory development, but information may appear here.
+Proto CLF is a work-in-progress [[proof assistant]] design combining ideas from [[Nuprl]], [[LF]], and [[decidability|undecidable type checking]]. "CLF" abbreviates "Computational Logical Framework". So far, it's just Matt Oliveri's unpublished plans and metatheory development, but information may appear here.
+
+### Motive
+
+The motivation for CLF is to try and combine the convenience of type systems with the flexibility of program verification, and make the resulting style of correct program construction applicable to mathematics in a general way.
+
+In most typed computational languages—even those with rather strong type systems, like the dependent type systems of [[Coq]] and [[Agda]]—there is a distinction between types and program specifications. A specification should
+
+* constrain the computational behavior of conforming terms, and
+* not constrain the way this behavior is implemented.
+
+Types typically constrain both behavior and implementation. Intuitively, this is because types are typically implemented using elaborate syntax checks, so they constrain behavior *by* constraining implementation.
+
+A *program logic* provides predicates and proofs about programs, and this provides an adequate approach to specifications and verification of computational behavior. The requirement to satisfy a predicate doesn't constrain the way a program is implemented because the syntax rules for forming a program don't take into account any predicates the programmer may hope the program to satisfy. This is the sense in which program verification is more flexible than syntactic typing.
+
+By taking types to denote (certain) [[PER]]s on terms, Nuprl provides an [[intrinsic and extrinsic views of typing|extrinsic]] notion of type that subsumes program specifications. So Nuprl has a type system, and its types provide the flexibility of program verification; but it seems like Nuprl doesn't provide the convenience of a type system with a type checking algorithm.
+
+From a naive perspective, it can't be done. Type checking Nuprl would be undecidable, but more importantly, it would require automatically coming up with proofs of true mathematical statements, and there's no good way to do that.
+
+But that just means there needs to be additional machinery for formal proofs and practical proof checking. The question is then whether the formal proof machinery is as convenient, for developing correct programs, as type checking. The answer, for Nuprl's proof system, is supposedly "no". CLF will try to do better, by checking proof terms in a manner similar to dependent type checking.
+
+### Method
+
+CLF is planned to combine a semantics similar to that of Nuprl with a language of proof terms similar to that of [Cedille](https://cedille.github.io/). (Cedille is actually the latest in a series of dependent type systems (co)designed by Aaron Stump in which the meaning of equality pertains to realizers, not proof terms.)
+
+The terms that the CLF type system is about are called "realizers". (Since its Nuprl-inspired PER semantics is a term realizability model.) The proof terms would be an *additional* class of terms. In the case of "obviously-well-typed" programs, the tree structures of the realizers and proof terms should be nearly isomorphic, so the system will resemble a typical syntactic type checker. In general, proof terms have additional information not present in realizers. This is the information that is needed for proof/type checking, but is not part of the computational content of the witness/element.
+
+CLF types only depend on realizers, never proof terms. So to handle proof checking rules analogous to certain rules of dependent type systems, a realizer needs to be extracted from a proof on the fly. (Nuprl works around such rules, since it doesn't extract realizers on the fly.) This seems to be essentially the problem of dependent proof refinement discussed in [Algebraic Foundations of Proof Refinement](#SterlingHarperRefinement). An analogue of on-the-fly realizer extraction is used by Cedille too, and is called "erasure".
+
+### Intended Style
+
+The primitives of CLF will probably be pretty low-level, and will rely on some "bootstrapping" up to the usual principles of type theory. (Some of this can be seen already, in the discussion of the rules below.) This bootstrapping will rely in crucial ways on the realizers being fundamentally untyped.
+
+However, once the bootstrapping is taken care of, the intent is that the main way of using CLF will be a lot like other dependently-typed proof assistants: Constructions will be thought of as elements of types, and the type system will guide the details of constructing elements.
+
+Given the goal of a system that feels typed, it may seem weird to explicitly base it on untyped realizers. The reason goes back to the flexibility of specifications, compared to purely syntactic typing. It should *always* be possible to construct elements in such a way that the computational content is well-implemented. But it seems that syntactic dependent typing requires ever more tricks to be added to the language in order to express elements using terms that are efficient.
+
+Rather than having to change the language, CLF provides the option of reasoning about assignment of types to untyped realizers to *prove* the missing type theoretic principles. Of course, reasoning about type assignment can also be used, to taste, even when not strictly necessary. In general, there's a spectrum of styles for using an extrinsic type theory, based on how much of the well-typedness of a construction is true by construction, versus proven afterward. Correctness by construction makes the development feel more intrinsic, but this difference in style is not a commitment: the extrinsic perspective applies to everything.
+
+### CLF as a Metalogic
+
+The above considerations motivate a whole class of type system implementations that combine Nuprl-style semantics with a Cedille-like proof term checker. But what about [[category|categories]]?
+
+To justify the proof rules, systems like Nuprl, Cedille, and CLF are based on term realizability models. But it's not currently clear to what extent this approach is compatible with the [[relation between type theory and category theory|categorical semantics of type theory]].
+
+The specifics of CLF are motivated by the insight (of Matt Oliveri, but strongly inspired by [Andromeda](http://www.andromeda-prover.org/)) that [[extensional type theory|extensional type theories]] promise to make great logical frameworks. Although categorical semantics for "structural" fragments of Nuprl-style systems may be feasible and useful, CLF sidesteps the whole issue by being a metalogic for reasoning about formal systems.
+
+The idea is that by regarding CLF as a metalogic, its possible lack of categorical semantics is irrelevant because the object logic can be chosen so as to reason about the desired semantics. CLF as a metalogic is a way to try to make the (hypothesized) technical advantages of a Nuprl-Cedille-like approach applicable to any type theory.
+
+Some discussion is needed to explain what makes extensional type theory good for logical frameworks, what that has to do with metalogics, and what makes CLF a good metalogic. [Later](#CLFasLF).
+
+First, what follows is a draft version of the formal system that will be used in prototype CLF. These rules are non-algorithmic rules pertaining only to types and realizers; the details of the proof system are not designed yet. (And they won't be until some issues are addressed in the semantics and rule set.)
 
 ## Syntax
 
@@ -473,6 +524,16 @@ In the current CLF rules though, it doesn't seem possible to derive such rules. 
 
 ### Subtyping (Conjectural)
 
+## CLF and Logical Frameworks {#CLFasLF}
+
+(Sorry, nothing here yet.)
+
+### LF=
+
+### LF Signatures as Inductive-Inductive Families
+
+### Bishop-style Quotients
+
 ## References
 
 * {#AnandRahliITP14} Abhishek Anand, Vincent Rahli, _Towards a Formally Verified Proof Assistant_, Interactive Theorem Proving (ITP) 2014 ([project web](http://www.nuprl.org/html/Nuprl2Coq/), [paper web](http://www.nuprl.org/KB/show.php?ID=726), [pdf](http://www.nuprl.org/documents/Anand/TowardsAFormallyVerifiedProofAssistant.pdf))
@@ -480,3 +541,5 @@ In the current CLF rules though, it doesn't seem possible to derive such rules. 
 * {#PERTypes14} Abhishek Anand, Mark Bickford, Robert L. Constable, Vincent Rahli, _A Type Theory with Partial Equivalence Relations as Types_, Types for Proofs and Programs (TYPES) 2014 ([slides](https://vrahli.github.io/articles/slides-per-types.pdf), [web](http://www.nuprl.org/KB/show.php?ID=722), [pdf](http://www.nuprl.org/documents/Anand/ATypeTheoryWithPartialEquivalenceRelationsAsTypes.pdf))
 
 * {#HofmannThesis} Martin Hofmann, _Extensional concepts in intensional type theory_, Ph.D. dissertation, University of Edinburgh (1995). ([link](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/))
+
+* {#SterlingHarperRefinement} Jonathan Sterling, Robert Harper, _Algebraic Foundations of Proof Refinement_, 2017 ([arXiv](https://arxiv.org/abs/1703.05215))
