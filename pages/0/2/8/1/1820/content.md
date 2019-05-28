@@ -187,7 +187,7 @@ $$
 We can refine this to a factoring through $J$ as follows:
 by construction 
 the morphism $P \to Q$ factors as 
-$P \stackrel{\in J}{\to} R \stackrel{\in inj(J)}{\to}Q$. Then $L \to Q$ lifts to $L \to R$ and we obtain the factorization 
+$P \stackrel{\in J}{\to} R \stackrel{\in inj(I)}{\to}Q$. Then $L \to Q$ lifts to $L \to R$ and we obtain the factorization 
 
 $$
   \array{
