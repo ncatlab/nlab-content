@@ -530,7 +530,7 @@ In the current CLF rules though, it doesn't seem possible to derive such rules. 
 
 (Sorry, nothing here yet.)
 
-### LF=
+### LF= {#LFEq}
 
 ### LF Signatures as Inductive-Inductive Families
 
