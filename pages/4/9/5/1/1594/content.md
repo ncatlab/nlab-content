@@ -177,6 +177,22 @@ Survey of applications in [[mathematical physics]] and notably in [[string theor
 * {#AdemMoravaRuan02} [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]], _[[Orbifolds in Mathematics and Physics]]_, Contemporary Mathematics 310 American Mathematical Society, 2002
 
 
+Orbifolds often appear as [[moduli spaces]] in differential geometric setting:
+
+* [[Dietmar Salamon]], [[Joel Robbin|Joel W. Robbin]], A construction of the Deligne--Mumford orbifold, J. Eur. Math. Society, ISSN 1435-9855, Vol. 8, N&#186; 4, 2006, 611-699 ([arXiv](http://arxiv.org/abs/math/0407090))
+
+The generalization of orbifolds to _weighted [[branched manifolds]]_ is discussed in
+
+* [[Dusa McDuff]], _Groupoids, branched manifolds and multisections_, J. Symplectic Geom. Volume 4, Number 3 (2006), 259-315 ([project euclid](http://projecteuclid.org/euclid.jsg/1180135649)).
+
+A reference dealing with the [[string topology]] of orbifolds is
+
+* {#ALR07} A. Adem, J. Leida and Y. Ruan, _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
+
+
+### As Lie groupoids
+ {#ReferencesAsLieGroupoids}
+
 
 Discussion of orbifold as [[Lie groupoids]]/[[differentiable stacks]] is in
  
@@ -199,22 +215,18 @@ The [[mapping stacks]] of orbifolds are discussed in
 * {#RobertsVozzo18} [[David Roberts]], [[Raymond Vozzo]], _The Smooth Hom-Stack of an Orbifold_, In : Wood D., de Gier J., Praeger C., Tao T. (eds) 2016 MATRIX Annals. MATRIX Book Series, vol 1. Springer, Cham (2018) ([arXiv:1610.05904](https://arxiv.org/abs/1610.05904), [doi:10.1007/978-3-319-72299-3_3](https://doi.org/10.1007/978-3-319-72299-3_3))
 
 
-Orbifolds often appear as [[moduli spaces]] in differential geometric setting:
-
-* [[Dietmar Salamon]], [[Joel Robbin|Joel W. Robbin]], A construction of the Deligne--Mumford orbifold, J. Eur. Math. Society, ISSN 1435-9855, Vol. 8, N&#186; 4, 2006, 611-699 ([arXiv](http://arxiv.org/abs/math/0407090))
-
-The generalization of orbifolds to _weighted [[branched manifolds]]_ is discussed in
-
-* [[Dusa McDuff]], _Groupoids, branched manifolds and multisections_, J. Symplectic Geom. Volume 4, Number 3 (2006), 259-315 ([project euclid](http://projecteuclid.org/euclid.jsg/1180135649)).
-
-A reference dealing with the [[string topology]] of orbifolds is
-
-* {#ALR07} A. Adem, J. Leida and Y. Ruan, _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
-
-The relation of orbifolds to [[global equivariant homotopy theory]] is discussed in
+An expected relation of orbifolds to [[global equivariant homotopy theory]] is discussed in
 
 * [[Stefan Schwede]], _Orbispaces, orthogonal spaces, and the universal compact Lie group_ ([arXiv:1711.06019](https://arxiv.org/abs/1711.06019)) (on the relation to [[orbispaces]]/[[topological stacks]])
 
+
+### As diffeological spaces
+
+Discussion of orbifolds regarded as naive local quotient [[diffeological spaces]]:
+
+* {#IKZ10} [[Patrick Iglesias-Zemmour]], [[Yael Karshon]], Moshe Zadka, _Orbifolds as diffeologies_, Transactions of the American Mathematical Society 362 (2010), 2811-2831 ([arXiv:math/0501093](https://arxiv.org/abs/math/0501093))
+
+* {#Watts15} [[Jordan Watts]], _The Differential Structure of an Orbifold_, Rocky Mountain Journal of Mathematics, Vol. 47, No. 1 (2017), pp. 289-327 ([arXiv:1503.01740](https://arxiv.org/abs/1503.01740))
 
 ### Orbifold cobordism
 
