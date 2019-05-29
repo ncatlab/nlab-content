@@ -48,6 +48,8 @@ Historically the theory of general relativity was developed by [[Albert Einstein
 ## References
  {#References}
 
+### General
+
 * [[Charles Misner]], [[Kip Thorne]], [[John Wheeler]], _[[Gravitation]]_, 1973
 
 * {#Blau} [[Matthias Blau]], _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
@@ -67,6 +69,12 @@ See also
 * [[Edward Witten]], _Light Rays, Singularities, and All That_ ([arXiv:1901.03928](https://arxiv.org/abs/1901.03928))
 
 See also the references at _[[gravity]]_.
+
+### History
+
+* {#Coles01} Peter Coles, _Einstein, Eddington, and the 1919 Eclipse_ ([arxIv:astro-ph/0102462](https://arxiv.org/abs/astro-ph/0102462))
+
+  (on the [[experiment|experimental]] confirmation of [[general relativity]])
 
 
 
