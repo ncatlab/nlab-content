@@ -96,7 +96,7 @@ If the Coxeter group W is finite, the building is called **spherical**. The reas
 
 ### Introductory
 
-For a short, gentle and geometrical introduction, see:
+* {#Casselman19} Bill Casselman, _Geometry of the tree_, 2019 ([pdf](https://www.math.ubc.ca/~cass/research/pdf/Tree.pdf))
 
 * [[John Baez]], This Week's Finds in Mathematical Physics, [week 263] (http://math.ucr.edu/home/baez/week263.html) second half.
 
@@ -108,7 +108,7 @@ An introductory textbook that starts with explaining Coxeter groups is this:
 
 A short introduction to spherical buildings (this notion will be explained below):
 
-* Richard M. Weiss: The Structure of Spherical Buildings. (Princeton University Press 2004, [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1061.51011&format=complete) )
+* Richard M. Weiss: The Structure of Spherical Buildings. (Princeton University Press 2004, [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1061.51011&format=complete))
 
 
 [[!redirects buildings]]
