@@ -110,6 +110,11 @@ A short introduction to spherical buildings (this notion will be explained below
 
 * Richard M. Weiss: The Structure of Spherical Buildings. (Princeton University Press 2004, [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1061.51011&format=complete))
 
+### Buildings and [[Berkovich spaces]]
+
+* Remy, Bertrand; Thuillier, Amaury; Werner, Annette, _Bruhat-Tits buildings and analytic geometry_ ([arXiv:1110.1362] (https://arxiv.org/abs/1110.1362)).
+
+* Werner, Annette, _Buildings and Berkovich Spaces_ ([pdf](http://www.uni-frankfurt.de/fb/fb12/mathematik/ag/personen/werner/talks/dmvmuench10.pdf))
 
 [[!redirects buildings]]
 
