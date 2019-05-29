@@ -5,6 +5,12 @@ In his Spencer lecture, delivered at Oxford in 1933, Einstein stressed the impor
 
 > Experience can of course guide us in our choice of serviceable mathematical concepts; it cannot possibly be the source from which they are derived; experience of course remains the sole criterion of the serviceability of a mathematical construction for physics, but the truly creative principle resides in mathematics.
 
+## References
+
+* {#Coles01} Peter Coles, _Einstein, Eddington, and the 1919 Eclipse_ ([arxIv:astro-ph/0102462](https://arxiv.org/abs/astro-ph/0102462))
+
+  (on the [[experiment|experimental]] confirmation of [[general relativity]])
+
 category: people
 
 [[!redirects Einstein]]
