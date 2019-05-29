@@ -22,7 +22,7 @@ This entry is about the notion of spectrum in [[stable homotopy theory]]. For ot
 
 ## Idea 
 
-A [[topological space|topological]] spectrum is an [[object]] in the universal [[stable (∞,1)-category]] $Sp(Top) \simeq Sp(\infty Grpd)$ that stabilizes" the [[(∞,1)-category]] [[Top]] or $\simeq$ [[∞-Grpd]] of [[topological spaces]] or [[∞-groupoids]] under the operations of forming [[loop space objects]] and [[reduced suspensions]]: the [[stable (∞,1)-category of spectra]].
+A [[topological space|topological]] spectrum is an [[object]] in the universal [[stable (∞,1)-category]] $Sp(Top) \simeq Sp(\infty Grpd)$ that stabilizes the [[(∞,1)-category]] [[Top]] or $\simeq$ [[∞-Grpd]] of [[topological spaces]] or [[∞-groupoids]] under the operations of forming [[loop space objects]] and [[reduced suspensions]]: the [[stable (∞,1)-category of spectra]].
 
 More generally, one may consider [[spectrum objects]] in any [[presentable (∞,1)-category]].
 
