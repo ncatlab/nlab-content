@@ -414,7 +414,7 @@ $$\frac{\Gamma \vdash A\,type \qquad \Gamma \vdash B\,type}
 
 If it still seems suspiciously circular, rest assured that in the semantics, respecting computational equivalence is more basic than anything in the type system. The rule about respecting $Comp$ just exposes the fact internally.
 
-Because every type respects itself, we get all the instances of equality formation from Martin-Löf type theory. Equality types beyond that are for reasoning about membership.
+Because every type respects itself, we get all the instances of equality formation from [[Martin-Löf type theory]]. Equality types beyond that are for reasoning about membership.
 
 #### Usual Pi-intro rule
 
