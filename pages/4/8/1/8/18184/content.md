@@ -68,6 +68,8 @@ For more on this see at _[Top -- Universal constructions](Top#UniversalConstruct
 
 ## References
 
+* {#BottTu82} [[Raoul Bott]], [[Loring Tu]], Chapter 17, p. 217 of  _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics 82, Springer 1982 ([doi:10.1007/BFb0063500](https://doi.org/10.1007/BFb0063500))
+
 See also
 
 * Wikipedia, _[Adjunction space](https://en.wikipedia.org/wiki/Adjunction_space)_
