@@ -21,7 +21,7 @@ De Morgan's law is equivalent to weak excluded middle.
 =--
 +-- {: .proof}
 ###### Proof
-If de Morgan's law holds, then since $\neg (P \wedge \neg P)$, we have $\neg P \vee \neg\neg P$, as desired.  Conversely, if weak excluded middle holds and we have $\neg (P\wedge Q)$, then from weak excluded middle we get $\neg P \vee \neg\neg P$ and $\neg Q \vee \neg\neg Q$ which give four cases.  In three of those cases $\neg P \vee \neg Q$ holds, while in the fourth we have $\neg\neg P$ and $\neg\neg Q$, which together imply $\neg\neg(P\wedge Q)$, contradicting the assumption of $\neg (P\wedge Q)$; so the fourth case is impossible.
+If de Morgan's law holds, then since $\neg (P \wedge \neg P)$, we have $\neg P \vee \neg\neg P$, as desired. Conversely, if weak excluded middle holds and we have $\neg (P\wedge Q)$, then from weak excluded middle we get $\neg P \vee \neg\neg P$ which gives two cases. In the first case $\neg P$ holds, while in the second we have $\neg\neg P$ from which we can derive $\neg Q$ by applying $\neg \neg P \to \neg Q$, which we can get by reverting the resulting implication of intuitionistical tautology $\neg (P \wedge Q) \to (Q \to \neg P)$.
 =--
 
 [[!redirects principle of weak excluded middle]]
