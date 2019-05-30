@@ -302,6 +302,9 @@ General review includes
 
 * [[Koji Hashimoto]], _D-Brane -- Superstrings and New Perspective of Our World_, Springer 2012 ([doi:10.1007/978-3-642-23574-0](https://link.springer.com/book/10.1007%2F978-3-642-23574-0), [spire:1188897](http://inspirehep.net/record/1188897))
 
+* [[Pietro Fre]], _The Branes: Three Viewpoints_,  In: _Gravity, a Geometrical Course_ Springer 2013 ([spire:1242195](http://inspirehep.net/record/1242195), [doi:10.1007/978-94-007-5443-0_7](https://doi.org/10.1007/978-94-007-5443-0_7))
+
+
 A classical text describing how the physics way to think of D-branes leads to seeing that they are objects in derived categories is
 
 * [[Paul Aspinwall]], _D-Branes on Calabi-Yau Manifolds_ ([arXiv:hep-th/0403166](http://arxiv.org/abs/hep-th/0403166)) 
