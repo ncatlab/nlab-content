@@ -20,7 +20,7 @@ The notion of **final $(\infty,1)$-functor** (also called a **cofinal $(\infty,1
 
 An [[(∞,1)-functor]] $p : K' \to K$ is final precisely if precomposition with $p$ preserves [[colimit]]s: 
 
-if $p$ is final then for for $F : K \to C$ any [[(∞,1)-functor]] we have
+if $p$ is final then for $F : K \to C$ any [[(∞,1)-functor]] we have
 
 $$
   \lim_\to (K \stackrel{F}{\to} C)
