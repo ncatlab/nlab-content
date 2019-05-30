@@ -5,6 +5,8 @@
 
 * {#IglesiasSouriau84} [[Patrick Iglesias-Zemmour]], [[Jean-Marie Souriau]] _Heat, cold and Geometry_, in: M. Cahen et al (eds.) Differential geometry and mathematical physics, 37-68, D. Reidel 1983 ([web](http://www.jmsouriau.com/Heat_Cold_And_Geometry_1983.htm), [pdf](http://www.jmsouriau.com/Publications/JMSouriau-PIglesias-HeatColdAndGeometry1983.pdf), [doi:978-94-009-7022-9_5](https://doi.org/10.1007/978-94-009-7022-9_5))
 
+* [[Patrick Iglesias-Zemmour]], _Essai de «thermodynamique rationnelle» des milieux continus_, Annales de l'I.H.P. Physique théorique, Volume 34 (1981) no. 1,  p. 1-24 ([numdam:AIHPA_1981__34_1_1_0](http://www.numdam.org/item/AIHPA_1981__34_1_1_0))
+
   (on [[thermodynamics]] and [[general relativity]])
 
 * {#PIZ} [[Patrick Iglesias-Zemmour]], _Diffeology_, Mathematical Surveys and Monographs, AMS (2013) ([web](http://math.huji.ac.il/~piz/Site/The%20Book.html), [publisher](http://www.ams.org/bookstore-getitem/item=SURV-185))
