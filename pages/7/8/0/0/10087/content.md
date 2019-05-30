@@ -94,6 +94,9 @@ An original reference is
 
 Reviews include
 
+* {#BottTu82} [[Raoul Bott]], [[Loring Tu]], Chapter 11 of  _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics 82, Springer 1982 ([doi:10.1007/BFb0063500](https://doi.org/10.1007/BFb0063500))
+
+
 * Howard Marcum, Duane Randall, _The homotopy Thom class of a spherical fibration_, Proceedings of the AMS, volume 80, number 2 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/marcum1.pdf))
 
 * Per Holm, Jon Reed, section 7 of _Structure theory of manifolds_, Seminar notes 1971[pdf](http://www.mn.uio.no/math/tjenester/kunnskap/kompendier/seminar-holm.pdf)
