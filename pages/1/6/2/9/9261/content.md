@@ -132,7 +132,7 @@ Review includes
 
 * {#Dorigo15} [[Tommaso Dorigo]], _Extraordinary claims: the $0.000029\%$ solution_, EPJ Web of Conferences 95, 02003 (2015) ([doi:10.1051/epjconf/20159502003](https://doi.org/10.1051/epjconf/20159502003))
 
-
+* {#Barlow19} Roger John Barlow, _Practical Statistics for Particle Physics_ ([arXiv:1905.12362](https://arxiv.org/abs/1905.12362))
 
 See also
 
