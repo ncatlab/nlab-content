@@ -196,6 +196,10 @@ $$
 
 ### General
 
+
+* {#BottTu82} [[Raoul Bott]], [[Loring Tu]], Chapter 11 of  _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics 82, Springer 1982 ([doi:10.1007/BFb0063500](https://doi.org/10.1007/BFb0063500))
+
+
 * [[Allen Hatcher]], _Euler and Pontryagin classes_, section 3.2 in _[Vector bundles and K-theory](http://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html)_ ([pdf](http://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf))
 
 * Anant R. Shastri, section 2.1 of _Vector bundles and Characteristic Classes_ ([pdf](http://www.math.iitb.ac.in/~ars/seminar/bundle.pdf))
@@ -227,6 +231,10 @@ See also
 Discussion of _[[Euler forms]]_ ([[differential form]]-representatives of Euler classes in [[de Rham cohomology]]) as [[Pfaffians]] of [[curvature forms]]:
 
 * {#Chern44} [[Shiing-Shen Chern]], _A Simple Intrinsic Proof of the Gauss-Bonnet Formula for Closed Riemannian Manifolds_, Annals of Mathematics, Second Series, Vol. 45, No. 4 (1944), pp. 747-752 ([jstor:1969302](https://www.jstor.org/stable/1969302))
+
+
+* {#BottTu82} [[Raoul Bott]], [[Loring Tu]], Chapter 11 of  _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics 82, Springer 1982 ([doi:10.1007/BFb0063500](https://doi.org/10.1007/BFb0063500))
+
 
 * {#MathaiQuillen86} [[Varghese Mathai]], [[Daniel Quillen]], below (7.3) of _Superconnections, Thom classes, and equivariant differential forms_, Topology Volume 25, Issue 1, 1986 (<a href="https://doi.org/10.1016/0040-9383(86)90007-8">10.1016/0040-9383(86)90007-8</a>)
 
