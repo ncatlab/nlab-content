@@ -2,11 +2,11 @@
 
 \section{Introduction}
 
-The notion of a _blockchain_, originating with [(Nakamoto2008)](#NakamotoBitcoinAPeerToPeerElectronicCashSystem), allows for the creation of a linear log which can be added to, but is extremely difficult to otherwise modify, in a [[undirected graph|network]] with multiple nodes, without any central authority.
+The notion of a _blockchain_, originating with Wei Dai, 1996 ([web](http://www.weidai.com/bmoney.txt), wikipedia [B-money](https://en.bitcoin.it/wiki/B-money)) and [(Nakamoto2008)](#NakamotoBitcoinAPeerToPeerElectronicCashSystem), allows for the creation of a linear log which can be added to, but is extremely difficult to otherwise modify, in a [[undirected graph|network]] with multiple nodes, without any central authority.
 
 Blockchain can be considered as certain data structure -- chain of blocks -- which are cryptographically "sealed" by hashes which are for each block added to the next block and which is incremented by one of many parties called nodes
 which follow a commonly accepted algorithm and each contains a copy of the blockchain (full node) or its essential part. Who adds a block, or whose added block is respected by other nodes is a part of the algorithm (blockchain protocol) and is desirable to be byzantine fault tolerant. The securest algorithm in nontrusted environment (public blockchain) is the proof of work algorithm. Regarding that blockchain is a tool to establish noncentralized record verification it is common to use blockchains to carry records of assets, including cryptocurrencies and other token, off chain assets, credential records, verification proofs and so on. These data and transaction steps belong and are authorized by accounts. Modern blockchain protocols
-assume also that code handling assets in deterministic manner may be part of the account, when the nodes add new blocks they should also execture the code of the contract, within a blockchain virtual machine; such accounts are called [[smart contract]]s and realize in a specific way the idea of smart contracts outlined in theoretical computer science before the blockchain era. 
+assume also that code handling assets in deterministic manner may be part of the account, when the nodes add new blocks they should also execute the code of the contract, within a blockchain virtual machine; such accounts are called [[smart contract]]s and realize in a specific way the idea of smart contracts outlined in theoretical computer science before the blockchain era. 
 
 The phrase _distributed ledger_ is sometimes viewed as a synonym. Technically,
 distributed ledger is the same idea realized in a more general setup where the record may be organized in non-linear structure, for example when the blocks form a DAG (directed acyclic graph) rather than a single chain, with appropriate protocol. 
@@ -39,7 +39,7 @@ A different criticism regards the algorithm itself. If nodes were to co-operate 
 
 \section{References}
 
-* this wiki: [[computer science]], [[high performance distributed ledger]], [[Telegram Open Network]], [[virtual machine]]
+* this wiki: [[smart contract]], [[Ethereum]], [[computer science]], [[high performance distributed ledger]], [[Telegram Open Network]], [[virtual machine]]
 
 * {#NakamotoBitcoinAPeerToPeerElectronicCashSystem} Satoshi Nakamoto, _Bitcoin: A peer-to-peer electronic cash system_, 2008 [pdf](https://bitcoin.org/bitcoin.pdf) 
 
@@ -55,7 +55,33 @@ The following systematic book written by a several authors offers pretty rigorou
 
 * Sachin S. Shetty, Charles A. Kamhoua, Laurent L. Njilla (eds.) _Blockchain for distributed systems security_, 324 pp. IEEE Press, SMTE Books 2019
 
-For a more comprehensive list of references see [[zoranskoda:blockchain]] (at zoranskoda). 
+Some key papers in [[zoranskoda:distributed consensus]] include
+
+* M. J. Fischer, N. Lynch, M. S. Paterson, _Impossibility of distributed con-
+sensus with one faulty process_, JACM 32:2, 374-382 (1985)
+* M. Castro, B. Liskov, et al., _Practical byzantine fault tolerance_, Proc. 3rd
+Symposium on Operating Systems Design and Implementation (1999) 173–186.
+* L. Lamport, R. Shostak, M. Pease, _The byzantine generals problem_, ACM
+Transactions on Programming Languages and Systems, 4/3 (1982), p. 382–401.
+
+Other references on distributed ledgers
+
+* [[Vitalik Buterin]], _Ethereum: A next-generation smart contract and decentralized application platform_, [pdf](https://github.com/ethereum/wiki/wiki/White-Paper.pdf)
+* Gavin Wood, _Ethereum: a secure decentralised generalised transaction
+ledger_, Ethereum, Tech. Rep. 2017
+* Gavin Wood, _PolkaDot: vision for a heterogeneous multi-chain framework_ [pdf](https://github.com/w3f/polkadot-white-paper/raw/master/PolkaDotPaper.pdf)
+* Joseph Poon, Vitalik Buterin, _Plasma: scalable autonomous smart contracts_,
+[pdf](https://www.plasma.io/plasma.pdf)
+* Joseph Poon, Tadge Dryja, _Lightning network_, [pdf](https://lightning.network/lightning-network-paper.pdf) Mar 2015.
+* [[Vitalik Buterin]], _Chain interoperability_, R3 reports, Sep 2016 [pdf](https://www.r3.com/wp-content/uploads/2018/04/Chain_Interoperability_R3.pdf)
+* Tier Nolan, _Re: Alt chains and atomic transfers_, 2013, bitcointalk discussion [post](https://bitcointalk.org/index.php?topic=193281.msg2224949#msg2224949)
+* [[Nikolai Durov]], _Telegram Open Network_, 132 pp. Dec 2017 [pdf](https://toncoin.tech/TON-official-whitepaper.pdf), mirror [pdf](https://www.kriptovaluta.hr/wp-content/uploads/2018/03/TON-Technology.pdf); _Telegram Open Network Blockchain_, Sep 2018, 121 pp. [pdf](https://www.docdroid.net/qY4sQEv/telegram-open-network-blockchain-september-5-2018.pdf); _Telegram Open Network Virtual Machine_, Sep. 2018, 148 pp. [pdf](https://www.docdroid.net/R3vEKBY/telegram-open-network-virtual-machine-september-5-2018.pdf); _Fift: a brief introduction_ (about a new programming language on TON), May 23, 2019, 87 pp. pdf is at channel [t.me/Tgram/170](https://t.me/Tgram/170)
+* L. Baird, _The Swirlds hashgraph consensus algorithm: fair, fast, byzantine fault tolerance_, [pdf](https://www.swirlds.com/downloads/SWIRLDS-TR-2016-01.pdf) (May 2016); _Hashgraph consensus: detailed examples_ [pdf](https://www.swirlds.com/downloads/SWIRLDS-TR-2016-02.pdf); _Overview of Swirlds Hashgraph: An Introduction To The Hashgraph (SDK Available Now)_ [online](https://steemit.com/technology/@swirlds/overview-of-swirlds-hashgraph-an-introduction-to-the-hashgraph-sdk-available-now); [Hedera](https://www.hedera.com/whitepaper) Hashgraph whitepaper [pdf](https://www.hedera.com/hh-whitepaper-v1.5-190219.pdf); intro to whitepaper [web](https://www.hedera.com/whitepaper)
+* Aggelos Kiayias, Andrew Miller, Dionysis Zindros, _Non-interactive proofs of proof-of-work_, IACR preprint 2017 [pdf](https://eprint.iacr.org/2017/963.pdf) (see also [here](https://ambcrypto.com/pewdiepie-forays-into-cryptospace-by-partnering-with-dlive-a-blockchain-based-live-streaming-platform) and Cardano, IOHK)
+* Mike Hearn, _Corda -- a distributed ledger_ (technical whitepaper, 2016) [pdf](https://docs.corda.net/_static/corda-technical-whitepaper.pdf); Brown et al. _Corda - an introduction_, whitepaper 2016, [pdf](https://docs.corda.net/_static/corda-introductory-whitepaper.pdf); Brown, _Corda - an introduction_ platform whitepaper 2018 [pdf](https://www.corda.net/content/corda-platform-whitepaper.pdf)
+* Ittay Eyal, Emin Gün Sirer, _Majority is not enough: Bitcoin mining is vulnerable_, in: Financial Cryptography and Data Security 436–454, Springer 2014 [pdf](http://fc14.ifca.ai/papers/fc14_submission_82.pdf)
+
+For an extended list of references see [[zoranskoda:blockchain]] (at zoranskoda). 
 
 category: computer science, applications
 
