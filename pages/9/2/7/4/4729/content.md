@@ -36,9 +36,9 @@ See the <a href="http://nlab.mathforge.org/nlab/show/Chern-Weil+theory+in+Smooth
 Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] equippd with [[differential cohesion]] and let $\mathbb{G} \in Grp(\mathbf{H})$ be a [[braided ∞-group]]. Write 
 
 $$
-  curv_{\mathbb{G}}
+  curv_{\mathbb{G}} = \theta_{\mathbf{B}\mathbb{G}}
   \;\colon\;
-  \theta_{\mathbf{B}\mathbb{G}}
+  \mathbf{B}\mathbb{G}
   \to 
   \flat_{dR}\mathbf{B}^2 \mathbb{G}
 $$
