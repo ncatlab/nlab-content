@@ -76,6 +76,10 @@ Named after [[Henri Poincaré]] and [[Heinz Hopf]].
 
 Textbook accounts:
 
+
+* {#BottTu82} [[Raoul Bott]], [[Loring Tu]], Chapter 11 of  _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics 82, Springer 1982 ([doi:10.1007/BFb0063500](https://doi.org/10.1007/BFb0063500))
+
+
 * {#DubrovinNovikovFomenko85} B. A. Dubrovin, [[S. P. Novikov]], A. T. Fomenko, section 15.2 of _Modern Geometry — Methods and Applications: Part II: The Geometry and Topology of Manifolds_, Graduate Texts in Mathematics 104, Springer-Verlag New York, 1985 ([doi:10.1007/978-1-4612-1100-6](https://link.springer.com/book/10.1007/978-1-4612-1100-6))
 
 * {#Walschap04} Gerard Walschap, chapter 6.7 of _Metric Structures in Differential Geometry_, Graduate Texts in Mathematics, Springer 2004 
