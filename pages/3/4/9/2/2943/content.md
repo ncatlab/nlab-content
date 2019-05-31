@@ -60,8 +60,9 @@ See also
 
 
 ### In terms of symplectic geometry (Souriau)
+ {#ReferencesSouriau}
 
-A formalization of thermodynamics in terms of [[symplectic geometry]] is due to
+A covariant formalization of thermodynamics in terms of [[moment maps]] in [[symplectic geometry]] is due to
 
 * [[Jean-Marie Souriau]], _Thermodynamique et g&#233;om&#233;trie_,  Lecture Notes in Math. 676 (1978), 369&#8211;397 ([scan](http://www-lib.kek.jp/cgi-bin/kiss_prepri.v8?KN=197810025))
 
