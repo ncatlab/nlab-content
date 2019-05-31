@@ -316,6 +316,10 @@ On relation to [[type 0 string theory]]:
 
 * {#GLMR00} Roberto Grena, Simone Lelli, Michele Maggiore, Anna Rissone, _Confinement, asymptotic freedom and renormalons in type 0 string duals_, JHEP 0007 (2000) 005 ([arXiv:hep-th/0005213](https://arxiv.org/abs/hep-th/0005213))
 
+See also
+
+* S. S. Afonin, _AdS/QCD without Kaluza-Klein modes: Radial spectrum from higher dimensional QCD operators_ ([arXiv:1905.13086](https://arxiv.org/abs/1905.13086))
+
 ### Application to baryons as solitons/Skyrmions
  {#ReferencesBaryonsSkyrmions}
 
