@@ -221,6 +221,7 @@ An expected relation of orbifolds to [[global equivariant homotopy theory]] is d
 
 
 ### As diffeological spaces
+  {#ReferencesAsDiffeologicalSpaces}
 
 Discussion of orbifolds regarded as naive local quotient [[diffeological spaces]]:
 
