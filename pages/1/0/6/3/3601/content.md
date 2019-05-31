@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -186,7 +185,7 @@ CPM, classical structures, ...
 * Dominik Šafránek, _Simple expression for the quantum Fisher information matrix), Phys. Rev. A97 (2018) [doi](https://doi.org/10.1103/PhysRevA.97.042322)
 * Roman Orus, _Entanglement, quantum phase transitions and quantum algorithms_  arxiv:[quant-ph/0608013](https://arxiv.org/abs/quant-ph/0608013)
 
-> in Chapter 1 we consider the irreversibility of renormalization group flows from a quantum information perspective by using majorization theory and conformal field theory.
+> In Chapter 1 we consider the irreversibility of renormalization group flows from a quantum information perspective by using majorization theory and conformal field theory.
 
 
 [[!redirects quantum information theory]]
