@@ -40,6 +40,7 @@ Since the [[Planck length]] "is tiny" and due to the higher roots of $N$ appeari
 
 
 ### Near-horizon geometry
+ {#NearHorizonGeometry}
 
 For [[black brane|black]] [[M-branes]] ([[black branes]] in [[11-dimensional supergravity]]) of [[dimension]] $p+1$ that preserve some [[supersymmetry]], the near horizon geometry is always a [[Cartesian product]] of an [[anti-de Sitter spacetime]] $AdS_{p+2}$ with a [[compact topological space|compact]] [[Einstein manifold]] $X_{11-(p+2)}$; 
 
@@ -51,6 +52,7 @@ $$
 while for [[black brane|black]] [[D-branes]] and [[NS5-branes]] in [[type II supergravity]] the near horizon geometry is [[conformal transformation|conformal]] to a geometry of this form $AdS_{p+2} \times X_{d-(p+2)}$ (see [AFFHS 98, section 2](#AFFHS98)).
 
 ### Far-horizon geometry
+ {#FarHorizonGeometry}
 
 In contrast, the "far-horizon geometry" of all those [[black branes]] whose near horizon geometry is $AdS_{p+2} \times X_{d-(p+2)}$ (i.e. actual [[anti-de Sitter spacetime]] without conformal factor) is of the form 
 
@@ -59,7 +61,7 @@ $$
   \,,
 $$
 
-where $\mathbb{R}^{p,1}$ is [[Minkowski spacetime]] (the brane [[worldvolume]]) and $C(X_{d-(p+2)})$ is the [[metric cone]] over $X_{d-(p+2)}$ (see [AFFHS 98, section 3](#AFFHS98)). Since this "far-horizon limit" is still a solution to the [[supergravity]] [[equations of motion]] away from the tip of the cone, it may in itself be regarded as a "[[cone brane]]"-solution (see [AFFHS 98, section 3.1](#AFFHS98)).
+where $\mathbb{R}^{p,1}$ is [[Minkowski spacetime]] (the brane [[worldvolume]]) and $C(X_{d-(p+2)})$ is the [[metric cone]] over $X_{d-(p+2)}$, hence an [[orbifold]] (see [AFFHS 98, section 3](#AFFHS98)). Since this "far-horizon limit" is still a solution to the [[supergravity]] [[equations of motion]] away from the tip of the cone, it may in itself be regarded as a "[[cone brane]]"-solution (see [AFFHS 98, section 3.1](#AFFHS98)).
 
 If $X_{d-(p+2)}$ is a smooth [[quotient space]] by the [[action]] of a [[finite subgroup of SU(2)]], then the corresponding [[cone brane]] is a brane "at an [[ADE-singularity]]".
 
