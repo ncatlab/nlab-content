@@ -318,6 +318,8 @@ Since a space of [[smooth functions]] on a [[smooth manifold]] is canonically a 
 ## References 
  {#References}
 
+### General
+
 The basic idea of understanding a smooth space as a [[concrete sheaf]] on a site of smooth test spaces originates in work of Chen. In 
 
 * {#Chen73} [[Kuo Tsai Chen]], _Iterated integrals of differential forms and loop space homology_, Ann. Math. 97 (1973), 217&#8211;246.
@@ -409,6 +411,9 @@ Some [[homotopy theory]] modeled on diffeological spaces instead of on [[topolog
 Discussion in the context of applications to [[continuum mechanics]] is in 
 
 * [[William Lawvere]], [[Stephen Schanuel]] (eds.), _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982, Lecture Notes in Mathematics 1174, 986  
+
+### For orbifolds
+ {#ReferencesForOrbifolds}
 
 On [[orbifolds]] regarded as naive local quotient diffeological spaces:
 
