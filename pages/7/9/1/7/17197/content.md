@@ -1,5 +1,9 @@
 [[!redirects binary pulsars]]
 
+## Idea
+
+A certain [[relativistic binary]]
+
 ## Related entries
 
 * [[gravitational wave]]
