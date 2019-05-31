@@ -115,7 +115,7 @@ See also:
 
 Discussion via [[differential forms]]/[[rational homotopy theory]]:
 
-* [[J. H. C. Whitehead]], _An expression of Hopf's invariant as an integral_, Proc. Nat. Acad. Sci. U. S. A.33 (1947), 117–123 ([jstor:87688](https://www.jstor.org/stable/87688))
+* [[J. H. C. Whitehead]], _An expression of Hopf's invariant as an integral_, Proc. Nat. Acad. Sci. USA 33 (1947), 117–123 ([jstor:87688](https://www.jstor.org/stable/87688))
 
 * [[André Haefliger]], p. 3 of _Whitehead products and differential forms_, In: P.A. Schweitzer (ed.), _Differential Topology, Foliations and Gelfand-Fuks Cohomology_, Lecture Notes in Mathematics, vol 652. Springer 1978 ([doi:10.1007/BFb0063500](https://doi.org/10.1007/BFb0063500))
 
