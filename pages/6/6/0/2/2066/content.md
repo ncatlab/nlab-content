@@ -294,6 +294,10 @@ Formalization in [[homotopy type theory]]:
 
 * {#Shulman14} [[Mike Shulman]], _[Splitting idempotents](http://homotopytypetheory.org/2014/12/08/splitting-idempotents/)_ 
 
+A generalization of the Karoubi envelope for [[n-categories]] is in 
+
+* [[Davide Gaiotto]], [[Theo Johnson-Freyd]], _Condensations in higher categories_, ([arXiv:1905.09566](https://arxiv.org/abs/1905.09566))
+
 
 [[!redirects Karoubi completion]]
 [[!redirects Karoubi complete category]]
