@@ -59,7 +59,7 @@ Some other general treatments of Gabriel-Ulmer duality (and generalizations to o
 
 * C. Centazzo, [[E. M. Vitale]], _A duality relative to a limit doctrine_, Theory and Appl. of Categories __10__, No. 20, 2002, 486&#8211;497, [pdf](http://www.tac.mta.ca/tac/volumes/10/20/10-20.pdf)
 
-* [[Stephen Lack]], [[John Power]], _Gabriel--Ulmer duality and Lawvere Theories enriched over a general base_, [pdf](http://www.scm.uws.edu.au/~stevel/papers/jfp.pdf)
+* [[Stephen Lack]], [[John Power]], _Gabriel--Ulmer duality and Lawvere Theories enriched over a general base_, [pdf](http://maths.mq.edu.au/~slack/papers/jfp.pdf)
 
 * [[M. Makkai]], [[A. Pitts]], _Some results on locally finitely presentable categories_, Trans. Amer. Math. Soc. __299__ (1987), 473-496, [MR88a:03162](http://www.ams.org/mathscinet-getitem?mr=869216), [doi](http://dx.doi.org/10.2307/2000508), [pdf](http://www.ams.org/journals/tran/1987-299-02/S0002-9947-1987-0869216-2/S0002-9947-1987-0869216-2.pdf)
 
