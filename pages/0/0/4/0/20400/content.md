@@ -183,7 +183,7 @@ $fls\;\coloneqq\;\lambda t.\lambda f.f$
 
 $\top\;\coloneqq\;tru = tru \in Bool$
 
-$\bottom\;\coloneqq\;tru = fls \in Bool$
+$\bot\;\coloneqq\;tru = fls \in Bool$
 
 "Squash" of $A$:
 
@@ -381,10 +381,10 @@ $$\frac{\Gamma,x:Bool \vdash C\,type \qquad
 \Gamma \vdash b \Vdash Bool}
 {\Gamma \vdash c \Vdash C[b/x]}$$
 
-An [[ex falso quodlibet]] rule, which is technically about booleans, because of how we defined $\bottom$. Note that this makes $\bottom$ the minimum PER, ordered by inclusion, subtyping, or refinement.
+An [[ex falso quodlibet]] rule, which is technically about booleans, because of how we defined $\bot$. Note that this makes $\bot$ the minimum PER, ordered by inclusion, subtyping, or refinement.
 
 $$\frac{\Gamma \vdash T\,type \qquad
-\Gamma \vdash p \Vdash \bottom}
+\Gamma \vdash p \Vdash \bot}
 {\Gamma \vdash t \Vdash T}$$
 
 ## Admissible rules
