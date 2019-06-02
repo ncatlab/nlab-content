@@ -41,7 +41,20 @@ $$ s \in S, s' \le s \quad  \implies \quad s' \in S. $$
 
 This set of all downsets in $P$, say $\hat{P}$, is ordered by inclusion, and it's a suplattice: any union of downsets is a downset.  There's an embedding of $P$ in  $\hat{P}$ that sends each $p \in P$ to its **principal** downset $\{s \in P : \; s \le p \}$.   (To give a downset is to give an [[antichain]], and so the free suplattice is sometimes described equivalently in terms of antichains.)
 
-To understand this description of the free suplattice on a poset, some [[enriched category theory]] is useful.  [[preorder|Preorders]] are the same as $Bool$-enriched categories, where $Bool$ is the monoidal category with two objects $F$, $T$ and one nontrivial morphism $F \implies T$, its monoidal structure being "and".   Using this idea, the downsets of a poset $P$ correspond in a one-to-one way with $Bool$-enriched functors $f \colon P^{op} \to Bool$, just as presheaves on a category $C$ are functors $f \colon C^{op} \to Set$.   The embedding $y \colon P \to \hat{P}$ that sends each $p \in P$ to its principal downset is the $Bool$-enriched version of the Yoneda embedding.   So, just as the category of presheaves on a category $C$ is the [[free cocompletion|free cocomplete category]] on $C$, $\hat{P}$ is the free cocomplete $Bool$-enriched category on $P$.   But a cocomplete $Bool$-enriched category that happens to be a poset is just the same as a suplattice.
+To understand this description of the free suplattice on a poset, some [[enriched category theory]] is useful.  [[preorder|Preorders]] are the same as $Bool$-enriched categories, where $Bool$ is the monoidal category with two objects $F$, $T$ and one nontrivial morphism $F \implies T$, its monoidal structure being "and".   Using this idea, the downsets of a poset $P$ correspond in a one-to-one way with $Bool$-enriched functors $f \colon P^{op} \to Bool$, just as presheaves on a category $C$ are functors $f \colon C^{op} \to Set$.   The embedding $y \colon P \to \hat{P}$ that sends each $p \in P$ to its principal downset is the $Bool$-enriched version of the Yoneda embedding.   So, just as the category of presheaves on a category $C$ is the [[free cocompletion|free cocomplete category]] on $C$, $\hat{P}$ is the free cocomplete $Bool$-enriched category on $P$.   But a cocomplete $Bool$-enriched category that happens to be a poset is just the same as a suplattice. 
+
+## The category $SupLat$ 
+
+The category of suplattices is monadic over the category of posets, and each algebra structure $\xi: \hat{P} \to P$ is left adjoint to the Yoneda embedding $y: P \to \hat{P}$. This makes suplattices the same thing (up to equivalence) as [[total categories]] in the $Bool$-[[enriched category theory|enriched]] sense. Notice that algebra structure maps, being left adjoints, are cocontinuous and therefore suplattice morphisms. This makes the monad a [[commutative monad]], and therefore according to general theory, $SupLat$ is a [[symmetric monoidal closed category]] where the internal hom $Hom(P, Q)$ between two suplattices is the suplattice of cocontinuous maps $P \to Q$, which are the same as left adjoints $P \to Q$ according to the poset version of the [[adjoint functor theorem]]. 
+
+$SupLat$ is also monadic over $Set$, where the monad $P: Set \to Set$ is the covariant [[power set]] functor. It therefore is a complete and cocomplete [[Barr-exact category]]. 
+
+As stated above, the symmetric monoidal closed category $SupLat$ is a [[star-autonomous category]] where the star-[[involution]] takes a suplattice $P$ to the [[opposite category|opposite]] poset $P^{op}$. In part this says that a suplattice is also an [[inflattice]], a fact which holds internally in any [[topos]] (where we use an internal covariant power-object functor to form an appropriate monad). Thus the tensor product $P \otimes Q$ may be formed as the suplattice $Hom(P, Q^{op})^{op}$. The presence of the equivalence 
+
+$$\ast = (-)^{op}: SupLat^{op} \to SupLat$$ 
+
+(which takes a morphism $f: P \to Q$ to $g^{op}: Q^{op} \to P^{op}$, where $g$ is right adjoint to $f$) also means that colimits may be formed as appropriate limits, which are in turn formed pointwise by monadicity over $Set$. 
+
 
 [[!redirects suplattice]]
 [[!redirects sup lattice]]
