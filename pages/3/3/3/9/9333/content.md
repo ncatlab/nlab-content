@@ -75,7 +75,7 @@ At the roots of differential geometry, prominent in the original work of [[Eli C
 
 A subtopic of this is [[Poisson geometry]], where the foliation is by [[symplectic leaves]]. A fundamental problem in Poisson geometry was the [[deformation quantization]] of [[Poisson manifolds]]. 
 
-   The [[formal deformation quantization]] problem was solved by [[Kontsevich]], which earned him a Fields medal. [[Cattaneo]] and [[Felder]] then showed that his formula for the [[star product]] is naturally understood as an [[3-point function]] of the [[Poisson sigma model]], a [[sigma-model]] [[QFT]] whose [[target space]] is the [[Poisson Lie algebroid]] of the given Poisson manifod. 
+   The [[formal deformation quantization]] problem was solved by [[Kontsevich]], which earned him a Fields medal. [[Cattaneo]] and [[Felder]] then showed that his formula for the [[star product]] is naturally understood as a [[3-point function]] of the [[Poisson sigma model]], a [[sigma-model]] [[QFT]] whose [[target space]] is the [[Poisson Lie algebroid]] of the given Poisson manifold. 
 
    The strengthening of this to the [[strict deformation quantization]] problem for a large class of cases was then established by forming the [[convolution algebra]] of sections of the [[prequantum bundle|prequantization]] of the [[symplectic groupoid]] with [[Lie integration|Lie integrates]] the [[Poisson Lie algebroid]].
 
@@ -125,7 +125,7 @@ infinite-dimensional Lie algebras in general to [[Lie 2-groups]].
 
 [[singularity|Singularities]] arise in [[differential geometry]] if the two kinds of [[universal constructions]] fail to exist as [[smooth manifolds]]:
 
-1. if an _intersection_ (in [[category theory]]: a [[limit]]) fails to exist this is reolved by passing from [[critical loci]] to [[derived critical loci]]:
+1. if an _intersection_ (in [[category theory]]: a [[limit]]) fails to exist this is resolved by passing from [[critical loci]] to [[derived critical loci]]:
 
    [Resolution of singular intersection](#ResolutionOfSingularIntersections)
 
@@ -162,7 +162,7 @@ To a large extent, [[differential geometry]] had been co-evolving with the descr
 
 A more technical survey of is in [FSS 13](#FSS).
 
-Below we first discuss how combining the notion of [[local quantum field theory]] in its modern incarnation as [[extended quantum field theory]] with [[prequantum field theory|Lagranian]] quantum field theory necessitates higher differential geometric structures:
+Below we first discuss how combining the notion of [[local quantum field theory]] in its modern incarnation as [[extended quantum field theory]] with [[prequantum field theory|Lagrangian]] quantum field theory necessitates higher differential geometric structures:
 
 * [Extended prequantum field theory](#ExtendedPrequantumFieldTheory)
 
@@ -175,9 +175,9 @@ Then we turn to modern proposals for [[theory (physics)|theories]] that go beyon
 ### The higher orbit method -- Extended prequantum field theory
  {#ExtendedPrequantumFieldTheory}
 
-A high point of traditional [[differential geometry]] is its impact on [[representation theory]] via the _[[orbit method]]_. This is actually a construction deeply rooted in [[quantum mechanics]]:  given a [[symplectic manifold]] equipped with [[Hamiltonian action]] by a [[Lie group]], regarding this as a [[mechanical system]] and then applying the differental-geometric process of [[geometric quantization]] to its yields a [[space of states]] on which the group is represented. A large class of [[representations]] arises this way and the [[orbit method]] sheds light on the corresponding [[representation theory]].
+A high point of traditional [[differential geometry]] is its impact on [[representation theory]] via the _[[orbit method]]_. This is actually a construction deeply rooted in [[quantum mechanics]]:  given a [[symplectic manifold]] equipped with [[Hamiltonian action]] by a [[Lie group]], regarding this as a [[mechanical system]] and then applying the differential-geometric process of [[geometric quantization]] to its yields a [[space of states]] on which the group is represented. A large class of [[representations]] arises this way and the [[orbit method]] sheds light on the corresponding [[representation theory]].
 
-But speaking of [[physics]] in the first place, certainly the [[quantum mechanics]] governing the [[orbit method]] is just the simplest fragment of the foundational theory of [[physics]], which is [[quantum field theory]] in arbitrary [[dimension]]. Quantum mechanics can be thought of as quantum field theory in dimension 1 ("on the [[worldline]]"). Passig in [[geometric quantization]]/[[orbit method]] from dimension 1 to higher dimensional quantum field theory corresponds precisely, as we discuss now, to passing to [[higher differential geometry]]: "[[extended prequantum field theory|extended prequantum geometry]]".
+But speaking of [[physics]] in the first place, certainly the [[quantum mechanics]] governing the [[orbit method]] is just the simplest fragment of the foundational theory of [[physics]], which is [[quantum field theory]] in arbitrary [[dimension]]. Quantum mechanics can be thought of as quantum field theory in dimension 1 ("on the [[worldline]]"). Passing in [[geometric quantization]]/[[orbit method]] from dimension 1 to higher dimensional quantum field theory corresponds precisely, as we discuss now, to passing to [[higher differential geometry]]: "[[extended prequantum field theory|extended prequantum geometry]]".
 
 
 The notion of _[[quantum field theory]]_ exists without reference to any predefined notion of _[[configuration space]]_ of _[[quantum fields]]_, _[[action functional]]_, _[[phase space]]_ etc.: 
