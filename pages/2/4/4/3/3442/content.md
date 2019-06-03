@@ -150,6 +150,8 @@ In this diagram now
 
 * [[wave equation]], [[Klein-Gordon equation]]
 
+* [[Navier-Stokes equation]]
+
 * [[Schrödinger equation]]
 
 * [[Dirac equation]]
