@@ -1,12 +1,12 @@
 
-* [webpage](http://www.fwaaldijk.nl/mathematics.html)
-* [math science philosophy blog](http://fwaaldijk.wordpress.com)
+* [webpage](https://www.fwaaldijk.nl/mathematics.html)
+* [math science philosophy blog](https://fwaaldijk.wordpress.com)
 
 ## some writings
 
-* _On the foundations of constructive mathematics &#8211; especially in relation to the theory of continuous functions_, 2003 ([pdf](http://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf))
+* _On the foundations of constructive mathematics &#8211; especially in relation to the theory of continuous functions_, 2003 ([pdf](https://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf))
 
-* _On the foundations of constructive mathematics -- especially in relation to the theory of continuous functions_  ([web](http://www.fwaaldijk.nl/mathematics.html#onthefoundations))
+* _modern intuitionistic topology_  (PhD thesis, [web](https://www.fwaaldijk.nl/mathematics.html#modernintuitionistic))
 
   on [[general topology|general]] [[topology]] in [[intuitionistic mathematics]]
 
