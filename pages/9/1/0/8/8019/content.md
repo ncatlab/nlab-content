@@ -47,7 +47,7 @@ Given a [[topological vector space]] $V$, we often consider its [[dual vector sp
 
 More generally, if $V$ is any [[set]], $G$ is any ordered group, and $F$ is any collection of [[functions]] from $V$ to $G$, as long as $F$ is a [[subgroup]] of the group of all functions from $V$ to $G$, then $F$ is an ordered group.
 
-All of these examples are [[abelian group|commutative]], but [Wikipedia](#Wikipedia) defines the concept for noncommutative groups as well, so presumably somebody has done something with those too.
+Non-abelian examples include free groups and torsion-free nilpotent groups.  The basics of the theory for both abelian and nonabelian ordered groups can be found in Birkhoff's Lattice Theory.
 
 
 ## References
