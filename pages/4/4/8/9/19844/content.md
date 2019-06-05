@@ -412,6 +412,9 @@ explanation via assumption of [[leptoquarks]]:
 
 * Oleg Popov, Michael A. Schmidt, Graham White, _$R_2$ as a single leptoquark solution to $R_{D^{(\ast)}}$ and $R_{K^{(\ast)}}$_ ([arXiv:1905.06339](https://arxiv.org/abs/1905.06339))
 
+* {#CrivellinSaturnino19} [[Andreas Crivellin]], Francesco Saturnino, _Explaining the Flavor Anomalies with a Vector Leptoquark (Moriond 2019 update)_ ([arXiv:1906.01222](https://arxiv.org/abs/1906.01222))
+
+
 [[leptoquarks]] within a [[Randall-Sundrum model]]:
 
 * {#Crivellin18} [[Andreas Crivellin]], _Explaining the Flavour Anomalies with the Pati-Salam Vector Leptoquark_, PoS LHCP2018 (2018) 269 ([spire:1713260](http://inspirehep.net/record/1713260), [doi:10.22323/1.321.0269](https://doi.org/10.22323/1.321.0269))
@@ -429,6 +432,7 @@ explanation via assumption of [[leptoquarks]]:
 [[leptoquarks]] as possible explanation also of the anomalies seen in the [[ANITA experiment]]
 
 * Bhavesh Chauhan, Subhendra Mohanty, _A common leptoquark solution of flavor and ANITA anomalies_ ([arXiv:1812.00919](https://arxiv.org/abs/1812.00919))
+
 
 #### $Z'$-boson
 
