@@ -1,11 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
 # Meager set
 * table of contents
 {: toc}
 
 ## Definition
 
-A [[subspace|subset]] $A\subseteq X$ of a [[topological space]] $X$ is called **meager** (alias **first category**) if it is a countable union of [[nowhere dense]] subsets of $X$.
+A [[subspace|subset]] $A\subseteq X$ of a [[topological space]] $X$ is called **meager** (alias **first category**) if it is a [[countable set|countable]] [[union]] of [[nowhere dense set|nowhere dense]] [[subsets]] of $X$.
 
 ## Related pages
 
