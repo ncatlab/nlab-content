@@ -136,7 +136,7 @@ $$
 }
 $$
 
-In the unstable range for low $n$ they instead start out as follows 
+In the unstable range for [[low-dimensional topology|low degrees]] they instead start out as follows 
 
 | $G$ | $\pi_1$ | $\pi_2$ | $\pi_3$ | $\pi_4$ | $\pi_5$ | $\pi_6$ | $\pi_7$ | $\pi_8$ | $\pi_9$ | $\pi_10$ | $\pi_11$ | $\pi_12$ | $\pi_13$ | $\pi_14$ | $\pi_15$ |
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
