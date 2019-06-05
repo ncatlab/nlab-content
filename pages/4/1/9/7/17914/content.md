@@ -5,7 +5,7 @@
 
 ## Definition
 
-A [[subspace|subset]] $A\subseteq X$ of a [[topological space]] $X$ is called **nowhere dense** if the [[interior]] of its [[closure]] is [[empty subspace|empty]]:
+A [[subspace|subset]] $A\subseteq X$ of a [[topological space]] $X$ is called **nowhere dense** (alias **rare**) if the [[interior]] of its [[closure]] is [[empty subspace|empty]]:
 $$ Int(Cl(A)) = \emptyset .$$
 
 
@@ -14,6 +14,12 @@ $$ Int(Cl(A)) = \emptyset .$$
 * [[dense subspace]]
 
 
+[[!redirects rare set]]
+[[!redirects rare sets]]
+[[!redirects rare subset]]
+[[!redirects rare subsets]]
+[[!redirects rare subspace]]
+[[!redirects rare subspaces]]
 [[!redirects nowhere dense set]]
 [[!redirects nowhere dense sets]]
 [[!redirects nowhere dense subset]]
