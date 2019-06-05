@@ -640,6 +640,10 @@ The [[L-infinity algebroid]]-structure of the [[local BV-BRST complex]] on the [
 
 * {#Barnich10} [[Glenn Barnich]], equation(3) of _A note on gauge systems from the point of view of Lie algebroids_, in P. Kielanowski, V. Buchstaber, A. Odzijewicz, 
 M. Schlichenmaier, T Voronov,  (eds.) XXIX Workshop on Geometric Methods in Physics, vol. 1307 of AIP Conference Proceedings, 1307, 7 (2010) ([arXiv:1010.0899](https://arxiv.org/abs/1010.0899), [doi:/10.1063/1.3527427]( https://doi.org/10.1063/1.3527427))
+
+Formulation as [[homotopy AQFT]]:
+
+* {#BeniniBruinsmaSchenkel19} [[Marco Benini]], Simen Bruinsma, [[Alexander Schenkel]], _Linear Yang-Mills theory as a homotopy AQFT_ ([arXiv:1906.00999](https://arxiv.org/abs/1906.00999))
  
 
 ### Lagrangian BV
