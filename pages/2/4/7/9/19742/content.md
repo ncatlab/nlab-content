@@ -263,6 +263,18 @@ The groups [[Spin(5).Spin(3)]], [[Sp(2).Sp(1)]] and $Sp(1) \cdot Sp(2)$, with th
 
 \linebreak
 
+
+### Homotopy groups
+
+
+The [[homotopy groups]] of $SO(8)$ in [[low-dimensional topology|low degrees]]:
+
+| $G$ | $\pi_1$ | $\pi_2$ | $\pi_3$ | $\pi_4$ | $\pi_5$ | $\pi_6$ | $\pi_7$ | $\pi_8$ | $\pi_9$ | $\pi_10$ | $\pi_11$ | $\pi_12$ | $\pi_13$ | $\pi_14$ | $\pi_15$ |
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+| $SO(8)$ | $\mathbb{Z}_2$ | $0$ | $\mathbb{Z}$ | $0$ | $0$ | $0$ | $\mathbb{Z}^{\oplus 2}$ | $\mathbb{Z}_{2}^{\oplus 3}$ | $\mathbb{Z}_{2}^{\oplus 3}$ | $\mathbb{Z}_{8} \oplus \mathbb{Z}_{24}$ | $\mathbb{Z}_2 \oplus \mathbb{Z}$ | 0 | $\mathbb{Z}^{\oplus 2}$ | $\mathbb{Z}_2\oplus\mathbb{Z}_8\oplus\mathbb{Z}_{120}\oplus\mathbb{Z}_{2520}$ | $\mathbb{Z}_2^{\oplus 7}$ |
+
+\linebreak
+
 ### Cohomology of classifying spaces
 
 +-- {: .num_prop #CohomologyRingOfSpin8}
