@@ -7,3 +7,7 @@ Any Boolean category is, in particular, a [[Heyting category]] and therefore sup
 [[!redirects Boolean categories]]
 [[!redirects boolean category]]
 [[!redirects boolean categories]]
+
+## Many-valued logics ##
+
+Many-valued logics can be reduced to Boolean logic, ie. any coherent category is isomorphic to the Principle of Bivalence.
