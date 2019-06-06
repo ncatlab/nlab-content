@@ -1,4 +1,8 @@
 
+> This entry is about the theorem in [[topos theory]]. For the theorem in [[logic]] that often goes by the same name, see at _[[Diaconescu-Goodman–Myhill theorem]]_.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -105,12 +109,12 @@ For this reason one sees in the literature sometimes the term "torsor" for inter
 
 A standard reference is section B3.2 in 
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
-  {#Johnstone}
+* {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+  
 
 The first proof of this result can be found in:
 
-* R. Diaconescu, _Change of base for toposes with generators_ , J. Pure Appl. Algebra __6__ (1975), no. 3, 191-218 [link](http://www.sciencedirect.com/science/article/pii/0022404975900158).
+* [[Radu Diaconescu]], _Change of base for toposes with generators_ , J. Pure Appl. Algebra __6__ (1975), no. 3, 191-218 (<a href="https://doi.org/10.1016/0022-4049(75)90015-8">doi:10.1016/0022-4049(75)90015-8</a>)
 
 Another proof is in 
 
