@@ -42,7 +42,7 @@ The [[full subcategory]] of Vect consisting of [[finite-dimensional vector space
 
 This is a [[compact closed category]] (see [here](finite-dimensional+vector+space#CompactClosure)).
 
-$\Fin Vect$ is where most of ordinary [[linear algebra]] lives, although much of it makes sense in all of $Vect$.  See also at _[[finite quantum mechanics in terms of dagger-compact categories]]_.
+$Fin Vect$ is where most of ordinary [[linear algebra]] lives, although much of it makes sense in all of $Vect$.  See also at _[[finite quantum mechanics in terms of dagger-compact categories]]_.
  
 On the other hand, anything involving transposes or [[inner products]] really takes place in $Fin$ [[Hilb]].
 
