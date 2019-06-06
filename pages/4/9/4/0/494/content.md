@@ -142,10 +142,10 @@ $$
 Given a pair of [[adjoint functors]] 
 
 $$
-  \mathcal{C}
+  \mathcal{D}
     \underoverset
       {\underset{R}{\longrightarrow}}{\overset{L}{\longleftarrow}}{\bot}
-  \mathcal{D}
+  \mathcal{C}
 $$
 according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} one says that 
 
