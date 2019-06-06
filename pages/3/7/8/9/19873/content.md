@@ -27,9 +27,11 @@ Currently the major [[experiment]] studying B-meson [[physics]] is the [[LHCb]].
 
 * B-meson [[experiments]]
 
-  * [[LHCb]]
+  * [[LHCb experiment]]
 
   * [[Belle collaboration]]
+
+  * [[BaBar experiment]]
 
 * observations
 
