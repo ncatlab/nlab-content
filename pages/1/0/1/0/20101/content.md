@@ -24,14 +24,16 @@
 
 The _LHCb experiment_ is one detector/[[experiment]] within the [[Large Hadron Collider]] ("LHC") with focus on the [[physics]] of [[B-mesons]] (similar to the [[Belle experiment]]).
 
-After the discovery of the [[Higgs field]] at the two major other detectors of [[LHC]], the LHCb experiment currently stands out as seeing hints for physics beyond the [[standard model of particle physics]] with considerable [[statistical significance]]: the _[[flavour anomalies]]_ (see there for more).
+After the discovery of the [[Higgs field]] at the two major other detectors of [[LHC]], the LHCb experiment currently stands out as seeing (together with the [[Belle experiment]] and the [[BaBar experiment]]) hints for physics beyond the [[standard model of particle physics]] with considerable [[statistical significance]]: the _[[flavour anomalies]]_ (see there for more).
 
 ## Related concepts
 
 
 * related [[experiments]]
 
-  * [[Belle collaboration]]
+  * [[Belle experiment]]
+
+  * [[BaBar experiment]]
 
 * observations
 
