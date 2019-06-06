@@ -93,7 +93,7 @@ There are a number of weaker axioms which are implied by the full axiom of choic
 
 * Many applications of choice in [[logic]], [[topology]], and [[algebra]] require only the [[ultrafilter principle]] (UF), or equivalently the *Boolean prime ideal theorem*.
 
-* From the perspective of [[constructive mathematics]], the principle of [[excluded middle]] (EM) may be seen as a form of the axiom of choice; EM is equivalent to the statement that every [[Kuratowski-finite set]] is projective.
+* From the perspective of [[constructive mathematics]], the principle of [[excluded middle]] (EM) may be seen as a weak form of the axiom of choice; EM is equivalent to the statement that every [[Kuratowski-finite set]] is projective. See at _[[Diaconescu-Goodman-Myhill theorem]]_.
 
 * A very weak form of choice (which follows from EM) is the statement that [[supports split]] in $Set$.
 
