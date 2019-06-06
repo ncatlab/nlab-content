@@ -127,6 +127,8 @@ Non-geometric [[flux compactification]]:
 
 * Mark Bugden, _Non-abelian T-folds_ ([arXiv:1901.03782](https://arxiv.org/abs/1901.03782))
 
+* Yoan Gautier, [[Chris Hull]], Dan Israël, _Heterotic/type II Duality and Non-Geometric Compactifications_ ([arXiv:1906.02165](https://arxiv.org/abs/1906.02165))
+
 
 [[!redirects non-geometric string vacua]]
 
