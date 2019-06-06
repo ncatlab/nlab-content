@@ -23,7 +23,7 @@
 
 ## Idea
 
-The _Belle experiment_ is an [[experiment]] with focus on the [[physics]] of [[B-mesons]] (similar to the [[LHCb experiment]]).
+The _Belle experiment_ is an [[experiment]] with focus on the [[physics]] of [[B-mesons]] (similar to the [[LHCb experiment]], see also the [[BaBar experiment]]).
 
 After the discovery of the [[Higgs field]] at the two major other detectors of [[LHC]], these [[B-meson]] [[experiments]] currently stand out as seeing hints for physics beyond the [[standard model of particle physics]] with considerable [[statistical significance]]: the _[[flavour anomalies]]_ (see [Adamczyk 19](#Adamczyk19))
 
@@ -32,6 +32,8 @@ After the discovery of the [[Higgs field]] at the two major other detectors of [
 * related [[experiments]]
 
   * [[LHCb]]
+
+  * [[BaBar experiment]]
 
 * observations
 
