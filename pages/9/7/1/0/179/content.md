@@ -129,7 +129,7 @@ $$
   \Xi : dgAlg_{\mathbb{R}}^+ \to Alg_{\mathbb{R}}^{\Delta}
 $$
 
-from non-negatively graded cochain [[dg-algebra]]s to [[cosimplicial algebra]]s (over $\mathb{R}$).
+from non-negatively graded cochain [[dg-algebra]]s to [[cosimplicial algebra]]s (over $\mathbb{R}$).
 
 
 +-- {: .num_defn #PresentationByMonoidalDoldKan}
@@ -590,7 +590,7 @@ $$
   \,.
 $$
 
-Observe that $\mathcal{O}(\mathfrak{a})_\bullet$ is cofibrant in the [[Reedy model structure]] $[\Delta^{op}, (SmoothAlg^\Delta_{proj}})^{op}]_{Reedy}$ relative to the opposite of the projective [[model structure on cosimplicial algebras]]:  the map from the latching object in degree $n$ in $SmoothAlg^\Delta)^{op}$ is dually in $SmoothAlg \hookrightarrow SmoothAlg^\Delta$ the projection 
+Observe that $\mathcal{O}(\mathfrak{a})_\bullet$ is cofibrant in the [[Reedy model structure]] $[\Delta^{op}, (SmoothAlg^{\Delta_{proj}})^{op}]_{Reedy}$ relative to the opposite of the projective [[model structure on cosimplicial algebras]]:  the map from the latching object in degree $n$ in $SmoothAlg^\Delta)^{op}$ is dually in $SmoothAlg \hookrightarrow SmoothAlg^\Delta$ the projection 
 
 $$
   \oplus_{i = 0}^n CE(\mathfrak{a})_i \otimes \wedge^i \mathbb{R}^n
