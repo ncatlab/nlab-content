@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -33,7 +34,7 @@
 
 * [[standard model of particle physics]], [[standard model of cosmology]]
 
-* [[empircism]]
+* [[empiricism]]
 
 ## Relation to mathematical proof
 
@@ -53,7 +54,7 @@ Responses to that claim may be found [here](http://arxiv.org/abs/math/9404229).
 
 * Wikipedia, _[Experiment](http://en.wikipedia.org/wiki/Experiment)_
 
-* Wikipedia. _[Observation](http://en.wikipedia.org/wiki/Observation)_
+* Wikipedia, _[Observation](http://en.wikipedia.org/wiki/Observation)_
 
 Discussion relating experiment to mathematical [[proof]] includes
 
