@@ -33,6 +33,21 @@ In the current [[standard model of particle physics]] the [[fundamental particle
 
 > graphics grabbed from [Cartelle 18](#Cartelle18)
 
+
+## Statistical significance
+ {#StatisticalSignificance}
+
+Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] around $2.5-3$ [[standard deviations|σ]] in [[B meson]] [[scattering amplitude|processes]] in various channels by a number of independent [[experiments]]: the [[LHCb experiment]], the [[Belle experiment]] and the [[BaBar experiment]]:
+
+\begin{center}
+\begin{imagefromfile}
+  "file_name": "FlavourAnomaliesByChannels.jpg",
+  "width": 590
+\end{imagefromfile}
+\end{center}
+
+> table grabbed from [BGV 19](#BGV19)
+
 \begin{imagefromfile}
   "file_name": "FlavourAnomalyAt4Sigma.jpg",
   "width": 320,
@@ -46,15 +61,18 @@ In the current [[standard model of particle physics]] the [[fundamental particle
   } 
 \end{imagefromfile}
 
-## Statistical significance
- {#StatisticalSignificance}
 
-Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] around $3$ [[standard deviations|σ]] in [[B meson]] [[scattering amplitude|processes]] in various [[experiments]] such as at the [[LHC]], specifically at the [[LHCb]], the [[Belle experiment]] and the BaBar experiment (see references [below](#References)).
-
-
-The global tension with the standard model by end of 2018 has [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18), [Bouchard-Cao-Owen 19](#BouchardCaoOwen19)). Various authors see the global tension (i.e. of all decay channels jointly) at over $5 \sigma$ already ([CCDGMV 17](#CCDGMV17), [CFMVV 17](#CFMVV17) [CGMS 18](#CGMS18), [Dordei 18, slide 12](#Dordei18)), which traditionally qualifies as detection (see [here](statistical+significance#ParticlePhysics)), some authors already quote $5.3 \sigma - 5.8 \sigma$ ([ACDGMM 19](#ACDGMM19)) or $6 \sigma$ ([Kumar-London 19](#KumarLondon19)).
+The global (all channels and experiments combined) tension  with the standard model by end of 2018 had [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18), [Bouchard-Cao-Owen 19](#BouchardCaoOwen19)). Various authors see the global tension (i.e. of all decay channels jointly) at over $5 \sigma$ ([CCDGMV 17](#CCDGMV17), [CFMVV 17](#CFMVV17) [CGMS 18](#CGMS18), [Dordei 18, slide 12](#Dordei18)), which traditionally qualifies as detection (see [here](statistical+significance#ParticlePhysics)), some authors already quote $5.3 \sigma - 5.8 \sigma$ ([ACDGMM 19](#ACDGMM19)) or $6 \sigma$ ([Kumar-London 19](#KumarLondon19)).
 
 > graphics grabbed from [Dey 18](#Dey18)
+
+
+This situation was confirmed with the completed measurements presented at [Moriond 2019](http://moriond.in2p3.fr/2019/), which showed ([Straub 19](#Straub19), [Allanach 19](#Allanach19)) smaller discrepancy but also with smaller uncertainty, thus keeping the [[statistical significance]] essentially unaffected. On the other hand, [Caria 19, slide 9](#Caria19) reported an as yet unpublished measurement by the [[Belle collaboration]] by which the previous [[statistical significance]] of $3.8 \sigma$ in the $R_D$ sector would decrease to $3.1 \sigma$ or $2.8 \sigma$ ([Gambino-Jung-Schacht 19 (6)](V_cb+puzzle#GambinoJungSchacht19)).  Comprehensive assessments of the situation after [Moriond 2019](http://moriond.in2p3.fr/2019/) are given in [AHMSN 19](#AHMSN19), [Descotes-Genon 19](#DescotesGenon19), [Bardhan-Ghosh 19](#BardhanGhosh19) and agree that the flavour anomalies have been confirmed:
+
+>  It appears the reason is that, given the amount of independent measurements (~180!) a smaller deviation because of new physics is easier to accommodate than a large one. Thus the new measurements actually fit better with new physics.
+
+> (Axel Maas, reporting from [ALPS2019](https://indico.cern.ch/event/757995/), [tweet, 23 Apr 2019](https://twitter.com/axelmaas/status/1120653147947655168))
+
 
 \begin{center}
 \begin{imagefromfile}
@@ -65,15 +83,7 @@ The global tension with the standard model by end of 2018 has [[statistical sign
 
 > graphics grabbed from [Zupan 19](#Zupan19)
 
-
 If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18), [Zupan 19, 4.6](#Zupan19)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]].
-
-This situation was confirmed with the completed measurements presented at [Moriond 2019](http://moriond.in2p3.fr/2019/), which showed ([Straub 19](#Straub19), [Allanach 19](#Allanach19)) smaller discrepancy but also with smaller uncertainty, thus keeping the [[statistical significance]] essentially unaffected. On the other hand, [Caria 19, slide 9](#Caria19) reported an as yet unpublished measurement by the [[Belle collaboration]] by which the previous [[statistical significance]] of $3.8 \sigma$ in the $R_D$ sector would decrease to $3.1 \sigma$ or $2.8 \sigma$ ([Gambino-Jung-Schacht 19 (6)](V_cb+puzzle#GambinoJungSchacht19)).  Comprehensive assessments of the situation after [Moriond 2019](http://moriond.in2p3.fr/2019/) are given in [AHMSN 19](#AHMSN19), [Descotes-Genon 19](#DescotesGenon19), [Bardhan-Ghosh 19](#BardhanGhosh19) and agree that the flavour anomalies have been confirmed:
-
->  It appears the reason is that, given the amount of independent measurements (~180!) a smaller deviation because of new physics is easier to accommodate than a large one. Thus the new measurements actually fit better with new physics.
-
-> (Axel Maas, reporting from [ALPS2019](https://indico.cern.ch/event/757995/), [tweet, 23 Apr 2019](https://twitter.com/axelmaas/status/1120653147947655168))
-
 
 \linebreak
 
@@ -125,7 +135,7 @@ From [Isodori 19, slide 6](#Isodori19):
 \begin{center}
 \begin{imagefromfile}
   "file_name": "IsidoriExpectations19.jpg",
-  "width": 740
+  "width": 610
 \end{imagefromfile} 
 \end{center}
 
@@ -422,6 +432,8 @@ explanation via assumption of [[leptoquarks]]:
 * {#BlankeCrivellin18} Monika Blanke, [[Andreas Crivellin]], _$B$ Meson Anomalies in a Pati-Salam Model within the Randall-Sundrum Background_, Phys. Rev. Lett. 121, 011801 (2018) ([arXiv:1801.07256](https://arxiv.org/abs/1801.07256))
 
 * [[Andreas Crivellin]], Francesco Saturnino, _Correlating Tauonic B Decays to the Neutron EDM via a Scalar Leptoquark_ ([arXiv:1905.08257](https://arxiv.org/abs/1905.08257))
+
+* {#BGV19} Innes Bigaran, John Gargalionis, Raymond R. Volkas, _A near-minimal leptoquark model for reconciling flavour anomalies and generating radiative neutrino masses_ ([arXiv:1906.01870](https://arxiv.org/abs/1906.01870))
 
 [[leptoquarks]] particularly as fields in a [[grand unified theory]]:
 
