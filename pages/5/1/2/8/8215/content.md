@@ -102,9 +102,9 @@ By writing out the two non-trivial differentials, one can deduce explicitly that
 
 * $H_0(\partial \Delta^3) = \mathbb{Z}$ (reflecting the fact that the tetrahedron is [[connected topological space|connected]]);
 
-* $H_1(\partial \Delta^3) = 0$ (reflectind the fact that it is [[simply-connected topological space|simply-connected]]);
+* $H_1(\partial \Delta^3) = 0$ (reflecting the fact that it is [[simply-connected topological space|simply-connected]]);
 
-* $H_2(\partial \Delta^3) = \mathbb{Z}$ (reflectind the fact, by the [[Hurewicz theorem]], that the second [[homotopy group]] of the 2-sphere is $\mathbb{Z}$ );
+* $H_2(\partial \Delta^3) = \mathbb{Z}$ (reflecting the fact, by the [[Hurewicz theorem]], that the second [[homotopy group]] of the 2-sphere is $\mathbb{Z}$ );
 
 
 =--
