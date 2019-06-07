@@ -33,7 +33,7 @@ The reason for the notation $F$ and $P$ should be clear.
 This basic temporal language does not yet really constitute a sensible logic that could model important features of 'time'. but we can still look at models so as to see what properties of the models can be identified as corresponding to seemingly feasible formulae in the language.
 
 
-## Frames and Models for BTL
+## Frames and models for BTL
 
 A _frame_ for BTL will be a set, $T$, with two binary relations $R_F$ and $R_P$.  We have $R_F x y$ reads that 'at $x$, $y$ is in the future'  - but, in the ordinary common sense meaning of words, this should mean $R_P y x$ and conversely.  In other words $R_P$ should be the _converse_ or [[opposite relation]] of $R_F$. 
 
@@ -63,9 +63,9 @@ $$(4) \quad\quad    F F\phi \to F\phi$$
 
 should be in our logic,  (and similarly for $P$, but that will hold in the bidirectional models since if $R$ is transitive then so will be $R^{op}$).
 
-## Temporal Logic in Terms of Adjoints
+## Temporal type theory in terms of adjoints
 
-Consider a category $\mathcal{C}$, and an [[internal category]] given by $b, e: Time_1 \rightrightarrows Time_0$. Here we understand elements of $Time_1$ as time intervals, and $b$ and $e$ as marking their beginning and end points. We may choose to impose additional structure on $Time$, e.g., that it be an internal [[poset]], or a [[linear order]].
+It is possible to specify a temporal type theory in the context of [[adjoint logic]]. Consider a category $\mathcal{C}$, and an [[internal category]] given by $b, e: Time_1 \rightrightarrows Time_0$. Here we understand elements of $Time_1$ as time intervals, and $b$ and $e$ as marking their beginning and end points. We may choose to impose additional structure on $Time$, e.g., that it be an internal [[poset]], or a [[linear order]].
 
 Now each arrow, $b$ and $e$, generates an adjoint triple, e.g., $\sum_b \dashv  b^{\ast} \dashv \prod_b$, formed of [[dependent sum]], [[base change]], [[dependent product]], going between the slices $\mathcal{C}/Time_0$ and $\mathcal{C}/Time_1$. 
 
@@ -89,6 +89,8 @@ $$\phi U \psi := \Sigma_b (e^* \psi \times \Pi_c (e p)^* \phi).$$
 
 Temporal logicians have debated the relevant advantages of instant-based and interval-based approaches. Some have also considered hybrid approaches ([Balb11](#Balb11)). The analysis of this section suggests that working with intervals and instants together in the form of an internal category allows for a natural treatment via [[adjoint logic]].
 
+An important construction in interval-based temporal logics is the **chop operator**, $C$ ([Venema 1991](#Venema91)). This applies to two interval properties, $\alpha$, $\beta$, so that $\alpha C \beta$ denotes the property of an interval that it may be divided into two sub-intervals such that $\alpha$ holds of the first and $\beta$ of the second. In our current framework we have $\alpha C \beta : \equiv \Sigma_c(p^{\ast}\alpha \times q^{\ast} \beta)$.
+
 One of the consequences of taking $Time$ as an internal category is that the future includes the present, so that $\phi$ could be true now and at no other instant but we would have that $F \phi$ is true when it is supposed to say "$\phi$ will be true at some Future time". Similarly, we would have that $\phi U \psi$ holds now if $\psi$ and $\phi$ both hold now (in general, as defined above it requires $\phi$ to still hold at the instant when $\psi$ becomes true).  
 
 If we wish to change these consequences, we could let $Time_1$ be the $\lt$-intervals instead of the $\le$-ones. In other words, we could take $Time$ to be a [[semicategory]]. While this accords with standard practice, the original alternative has been proposed:
@@ -96,6 +98,8 @@ If we wish to change these consequences, we could let $Time_1$ be the $\lt$-inte
 >The most common practice in temporal logic is to regard time as an irreflexive ordering, so that "henceforth", meaning "at all future times", does not refer to the present moment. On the other hand, the Greek philosopher Diodorus proposed that the necessary be identified with that which is now and will always be the case. This suggests a temporal interpretation of $\Box$ that is naturally formalised by using reflexive orderings. The same interpretation is adopted in the logic of concurrent programs to be discussed. ([Gold92, p. 44](#Gold92))
 
 On the other hand, some temporal logicians look to represent both forms of 'henceforth'.
+
+For an related approach to temporal type theory, see ([Schultz-Spivak 17](#SchSpi17)).
 
 ## Computation tree logic
 
@@ -137,6 +141,14 @@ For the relationship between linear tree logic and functional reactive programmi
 * {#Jeffrey12} Alan Jeffrey _LTL types FRP: Linear-time temporal logic propositions as types, proofs as functional reactive programs_, in: Proceedings of the Sixth Workshop on Programming Languages Meets Program Verification (PLPV ’12)(2012), pp. 49–60. ([pdf](http://ect.bell-labs.com/who/ajeffrey/papers/plpv12.pdf))
 
 * {#Jeltsch12} Wolfgang Jeltsch, _Towards a Common Categorical Semantics for Linear-Time Temporal Logic and Functional Reactive Programming_, Electronic Notes in Theoretical Computer Science 286, pp. 229-242, ([doi](https://doi.org/10.1016/j.entcs.2012.08.015))
+
+For an interval-based approach see
+
+* {#Venema91} Yde Venema, _A modal logic for chopping intervals_. Journal of Logic and Computation, 1(4), pp. 453–476, 1991.
+
+For a termporal type theory see
+
+* {#SchSpi17} Patrick Schultz, David Spivak, _Temporal Type Theory: A topos-theoretic approach to systems and behavior_, ([arXiv:1710.10258](https://arxiv.org/abs/1710.10258))
 
 [[!redirects temporal logic]]
 [[!redirects temporal logics]]
