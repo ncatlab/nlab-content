@@ -47,7 +47,7 @@ $$
 
 be a [[Serre fibration]] over a [[simply connected topological space|simply connected]] [[CW-complex]] with typical [[fiber]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#FibersOfSerreFibrations)) the [[n-sphere]].
 
-Then there exists an element $c \in H^{n+1}(E; R)$ (in the [[ordinary cohomology]] of the total space with [[coefficients]] in $R$, called the **Euler class** of $\pi$) such that the [[cup product]] operation $c \cup (-)$ sits in a [[long exact sequence]] of [[cohomology groups]] of the form
+Then there exists an element $c \in H^{n+1}(E; R)$ (in the [[ordinary cohomology]] of the total space with [[coefficients]] in $R$, called the _[[Euler class]]_ of $\pi$) such that the [[cup product]] operation $c \cup (-)$ sits in a [[long exact sequence]] of [[cohomology groups]] of the form
 
 $$
   \cdots 
@@ -147,7 +147,7 @@ for the image of this element under the differential. We will show that this is 
 
 To that end, notice that every element in $E_{n+1}^{\bullet,n}$ is of the form $\iota \cdot b$ for $b\in E_{n+1}^{\bullet,0} \simeq H^\bullet(B;R)$. 
 
-(Because the [[multiplicative spectral sequence|multiplicative structure]] gives a group homomorphism $\iota \cdot(-) \colon H^\bullet(B;R) \simeq E_{n+1}^{0,0} \to E^{0,n}_{n+1} \simeq H^\bullet(B;R)$, which is an isomorphism because the product in the spectral sequence does come from the [[cup product]] in the [[cohomology ring]], see for instance ([Kochman 96, first equation in the proof of prop. 4.2.9](#Kochmann96)), and since hence $\iota$ does act like the unit that it is in $H^\bullet(B;R)$). 
+(Because the [[multiplicative spectral sequence|multiplicative structure]] gives a group homomorphism $\iota \cdot(-) \colon H^\bullet(B;R) \simeq E_{n+1}^{0,0} \to E^{0,n}_{n+1} \simeq H^\bullet(B;R)$, which is an isomorphism because the product in the spectral sequence does come from the [[cup product]] in the [[cohomology ring]], see for instance [Kochman 96, first equation in the proof of prop. 4.2.9](#Kochmann96), and since hence $\iota$ does act like the unit that it is in $H^\bullet(B;R)$). 
 
 
 Now since $d_{n+1}$ is a graded [[derivation]] and vanishes on $E_{n+1}^{\bullet,0}$ (by the above degree reasoning), it follows that its action on any element is uniquely fixed to be given by the product with $c$:
@@ -332,7 +332,7 @@ Formalization in [[homotopy type theory]] is discussed in
 
 Applications:
 
-* [[Martin Saralegi]] _A Gysin Sequence for Semifree Actions of $S^3$_, Proceedings of the American Mathematical Society Vol. 118, No. 4 (Aug., 1993), pp. 1335-1345 ([jstor](http://www.jstor.org/stable/2160096))
+* [[Martin Saralegi]], _A Gysin Sequence for Semifree Actions of $S^3$_, Proceedings of the American Mathematical Society Vol. 118, No. 4 (Aug., 1993), pp. 1335-1345 ([jstor](http://www.jstor.org/stable/2160096))
 
 
 [[!redirects Thom-Gysin sequences]]
