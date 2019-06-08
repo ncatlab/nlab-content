@@ -1,8 +1,8 @@
 
 
-Following the terminology of [[(n,r)-category|(n,r)-categories]], an __$(\infty,0)$-category__ is an [[∞-category]] in which every $j$-morphism (for $j \gt 0$) is invertible.  
+Following the terminology of [[(n,r)-category|(n,r)-categories]], an __$(\infty,0)$-category__ is an [[∞-category]] in which every $j$-morphism (for $j \gt 0$) is an [[equivalence]].  
 
-So in an $(\infty,0)$-category _every_ morphism is invertible. Such [[∞-categories]] are usually called _[[∞-groupoid]]s_.
+So in an $(\infty,0)$-category _every_ morphism is an [[equivalence]]. Such [[∞-categories]] are usually called _[[∞-groupoid]]s_.
 
 This is directly analogous to how a [[0-category]] is equivalent to a [[set]], a [[(1,0)-category]] is equivalent to a [[groupoid]], and so on.  (In general, an [[(n,0)-category]] is equivalent to an [[n-groupoid]].)
 
