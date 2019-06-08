@@ -391,9 +391,15 @@ $$\frac{\Gamma \vdash T\,type \qquad
 
 ### Structural rules
 
-The structural rules of weakening and substitution are admissible. "Strengthening" is not. Nonadmissibility of strengthening means: just because a variable isn't free in the conclusion doesn't mean the derivation isn't using it. This is typical of extensional type theory. Typically it's considered all the fault of equality reflection, which may be technically true for some systems. But Nuprl turned this apparent bug into a feature: subsets and intersections provide flexible control over which proofs make it into the computational content, and which are merely establishing external facts. Computational irrelevance is implemented by literally omitting the irrelevant proofs from terms. This leads to the lack of strengthening, and to undecidable type checking. The restriction imposed by equality reflection is that equality proofs never have computational content.
+The structural rules of weakening and substitution are admissible. "Strengthening" is not. Strengthening says that a variable that's not free in the conclusion can be removed from the context:
 
-CLF follows Nuprl in trying to give the user maximum control over the terms used to represent elements. The hope is that with care, this can allow significantly greater convenience and performance than with decidable dependent type systems, which are committed to retaining enough annotations to effectively reject ill-typed terms.
+$$\frac{\Gamma_1,x:T,\Gamma_2 \vdash \mathcal{J} \qquad
+x \notin FV(\Gamma_2,\mathcal{J})}
+{\Gamma_1,\Gamma_2 \vdash \mathcal{J}}$$
+
+So nonadmissibility of strengthening means that a derivation can be using a hypothesis without it being obvious from the conclusion derived. This is typical of extensional type theory. Typically it's considered all the fault of equality reflection, which may be technically true for some systems. But Nuprl benefits more from the lack of strengthening: subsets, intersections, quotients, and other "refinement-style" type constructors provide flexible control over which proofs make it into the computational content, and which are merely establishing external facts. ([[quotient|Quotients]] don't have to be refinement-style, but in Nuprl and CLF, they are. See [below](#RefinementQuotients).) Computational irrelevance is implemented by literally omitting the irrelevant proofs from terms. This leads to the lack of strengthening, and to undecidable type checking. The restriction imposed by equality reflection is that equality proofs never have computational content.
+
+CLF follows Nuprl in trying to give the user maximum control over the terms used to represent elements. The hope is that with care, this can allow significantly greater convenience and performance than with decidable dependent type systems, which are committed to retaining enough annotations to effectively reject ill-typed terms. Once proof terms are added to the formal judgments, you probably do get strengthening. (But not decidability.)
 
 ### Sanity and Inversion
 
@@ -577,7 +583,7 @@ In the current CLF rules though, it doesn't seem possible to derive such rules. 
 
 ### LF Signatures as Inductive-Inductive Families
 
-### Bishop-style Quotients
+### Refinement-style Quotients {#RefinementQuotients}
 
 ## References
 
