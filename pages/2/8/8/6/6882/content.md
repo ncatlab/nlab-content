@@ -32,6 +32,8 @@ Analogs of the 2d [[WZW model]] in higher dimension.
 
 * [[Green-Schwarz sigma-model for super p-branes]]
 
+  * [[Hopf-Wess-Zumino term]] for [[M5-branes]]
+
 ## Related concepts
 
 * [[definite globalization of WZW term]]
