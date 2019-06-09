@@ -591,7 +591,7 @@ The formal description of a language in LF and similar logical frameworks is cal
 
 To see how equality reflection is useful for a logical framework, we will propose an extension of LF, called "LF=" (LF with equality), that combines the flexibility of LF's synthetic encoding with the shallowness of LF's analytic encoding. (But in LF=, the encoding is generally not analytic, in the sense of algorithmic judgments. That's the catch.) But first, it's instructive to cover analytic encoding in Martin-Löf's logical framework ("MLLF").
 
-Unlike LF, MLLF doesn't have a fixed judgmental equality. Term formers are specified in roughly the same intrinsically typed way as with the analytic encoding for LF. But then judgmental equality rules for the object language are added by adding corresponding judgmental equality rules to the framework. Thus, MLLF can shallowly encode many type systems with analytic judgments, not just the ones where type equality is very simple, like with LF. MLLF is particularly well suited to specifying variants of Martin-Löf type theory.
+Unlike LF, MLLF doesn't have a fixed judgmental equality. Term formers are specified in roughly the same intrinsically typed way as with the analytic encoding for LF. But meanwhile, judgmental equality rules for the object language are added by adding corresponding judgmental equality rules to the framework. Thus, MLLF can shallowly encode many type systems with analytic judgments, not just the ones where type equality is very simple, like with LF. MLLF is particularly well suited to specifying variants of Martin-Löf type theory.
 
 MLLF is defined and discussed in Martin-Löf's [Analytic and Synthetic Judgements in Type Theory](#AnaSynJudg) and in part III of [Programming in Martin-Löf's Type Theory](#ProgMLTT). The former reference also discusses the notions of analytic and synthetic judgment, while the latter makes it perhaps clearer how the "theory of types" is intended to be used as a logical framework. Martin-Löf's main theory of mathematical collections is the "theory of sets", which is specified using the logical framework.
 
@@ -617,7 +617,7 @@ The equality reflection rule is enough to make the judgments synthetic. That is,
 
 * {#SterlingHarperRefinement} [[Jonathan Sterling]], [[Robert Harper]], _Algebraic Foundations of Proof Refinement_, 2017 ([arXiv](https://arxiv.org/abs/1703.05215))
 
-* {#AnaSynJudg} Per Martin-Löf, _Analytic and Synthetic Judgments in Type Theory_, 1994 ([pdf](http://archive-pml.github.io/martin-lof/pdfs/Martin-Lof-Analytic-and-Synthetic-Judgements-in-Type-Theory.pdf))
+* {#AnaSynJudg} [[Per Martin-Löf]], _Analytic and Synthetic Judgments in Type Theory_, 1994 ([pdf](http://archive-pml.github.io/martin-lof/pdfs/Martin-Lof-Analytic-and-Synthetic-Judgements-in-Type-Theory.pdf))
 
 * {#ProgMLTT} Bengt Nordström, Kent Petersson, Jan M. Smith, _Programming in Martin-Löf's Type Theory_, Oxford University Press (1990) ([web](http://www.cse.chalmers.se/research/group/logic/book/))
 
