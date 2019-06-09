@@ -303,6 +303,8 @@ For the case that of [[?ech cohomology|?ech]] [[hypercohomology]] with coefficie
 
 * [[intersection pairing]]
 
+* [[functional cup product]]
+
 * [[Baer sum]]
 
 * [[cohomology operation]]
@@ -333,12 +335,12 @@ The cup product in &#268;ech cohomology is discussed for instance in section 1.3
 
 Recall from the discussion at [[models for ∞-stack (∞,1)-toposes]] that all [[hypercompletion|hypercomplete]] [[∞-stack]] [[(∞,1)-topos]]es are modeled by the [[model structure on simplicial presheaves]]. Accordingly understanding the cup product on simplicial presheaves goes a long way towards the most general description. For a bit of discussion of this see around page 19 of
 
-* [[John Frederick Jardine]] _Lectures on simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
+* [[John Frederick Jardine]], _Lectures on simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
 
 
 An early treatment of cup product can be found in this classic
 
-* Whitney, _On Products in a Complex_ ([JSTOR](http://www.jstor.org/pss/1968795))
+* [[Hassler Whitney]], _On Products in a Complex_ ([JSTOR](http://www.jstor.org/pss/1968795))
 
 See also 
 
