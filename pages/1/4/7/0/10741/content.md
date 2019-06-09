@@ -133,6 +133,9 @@ The unique free [[coefficient]] of this homomorphism $CE(\mathfrak{l}\phi)$ is t
 
 =--
 
+### Whitehead integral formula
+
+See the references [below](#ReferencesWhiteheadIntegralFormula)
 
 
 ## Related concepts
@@ -156,6 +159,7 @@ See also:
 * Wikipedia, _[Hopf invariant](http://en.wikipedia.org/wiki/Hopf_invariant)_
 
 ### Whitehead's integral formula
+  {#ReferencesWhiteheadIntegralFormula}
 
 Discussion via [[differential forms]]/[[rational homotopy theory]] (see also at [[functional cup product]]):
 
@@ -175,3 +179,10 @@ Discussion via [[differential forms]]/[[rational homotopy theory]] (see also at 
 * {#SinhaWalter13} Dev Sinha, Ben Walter, _Lie coalgebras and rational homotopy theory II: Hopf invariants_, Trans. Amer. Math. Soc. 365 (2013), 861-883  ([arXiv:0809.5084](https://arxiv.org/abs/0809.5084), [doi:10.1090/S0002-9947-2012-05654-6](https://doi.org/10.1090/S0002-9947-2012-05654-6))
 
 [[!redirects Hopf invariants]]
+
+[[!redirects Whitehead integral formula]]
+[[!redirects Whitehead integral formulas]]
+
+[[!redirects Whitehead's integral formula]]
+[[!redirects Whitehead's integral formulas]]
+
