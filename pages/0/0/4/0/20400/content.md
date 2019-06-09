@@ -599,7 +599,7 @@ There are tools that provide a style of language specification very similar to M
 
 These tools are designed under the assumption that, while open-ended, judgmental equality remains analytic. That is, it's something that you can sanely just check automatically. (Or so the story goes.) Trying to add extensional type theory's equality reflection rule to a rewrite engine is not going to work. It generally won't have a good way to solve the premise that proves the equation. (Either the system will give up, or do something useless.)
 
-The equality reflection rule is enough to make the judgments synthetic. That is, something you generally have to prove. To handle type systems with synthetic judgments, you either need to use a synthetic encoding, or use a tool designed to handle synthetic judgments, like Nuprl, [Andromeda](http://www.andromeda-prover.org/), or (eventually, hopefully) CLF.
+The equality reflection rule is enough to make the judgments synthetic. That is, something you generally have to prove. To handle type systems with synthetic judgments, you either need to use a synthetic encoding, or use a tool designed to handle synthetic judgments, like Nuprl, [MetaPRL](http://metaprl.org/), [Andromeda](http://www.andromeda-prover.org/), or (eventually, hopefully) CLF.
 
 ### LF= {#LFEq}
 
