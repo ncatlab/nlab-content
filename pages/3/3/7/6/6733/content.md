@@ -497,40 +497,6 @@ Further developments include
 * Sheng-Lan Ko, [[Dmitri Sorokin]], Pichet Vanichchapongjaroen, _The M5-brane action revisited_ ([arXiv:1308.2231](http://arxiv.org/abs/1308.2231))
 
 
-
-### Anomaly cancellation
- {#ReferencesAnomalyCancellation}
-
-The original computation of the total M5-brane anomaly due to 
-
-* [Witten 96](#Witten96)
-
-left a remnant term of $\tfrac{1}{24} p_2$. It was argued in
-
-* {#FreedHarveyMinasianMoore98} [[Dan Freed]], [[Jeff Harvey]], [[Ruben Minasian]], [[Greg Moore]], _Gravitational Anomaly Cancellation for M-Theory Fivebranes_, Adv.Theor.Math.Phys.2:601-618, 1998 ([arXiv:hep-th/9803205](https://arxiv.org/abs/hep-th/9803205))
-
-* {#HarveyMinasianMoore98b} [[Jeff Harvey]], [[Ruben Minasian]], [[Greg Moore]], _Non-abelian Tensor-multiplet Anomalies_, JHEP9809:004, 1998 ([arXiv:hep-th/9808060](https://arxiv.org/abs/hep-th/9808060))
-
-* {#BilalMetzger03} [[Adel Bilal]], Steffen Metzger, _Anomaly cancellation in M-theory: a critical review_, Nucl.Phys. B675 (2003) 416-446 ([arXiv:hep-th/0307152](https://arxiv.org/abs/hep-th/0307152))
-
-that this term disappears (cancels) when properly taking into account the singularity of the [[supergravity C-field]] at the locus of the [[black brane|black]] [[M5-brane]].
-
-A more transparent version of this argument was offered in
-
-* {#Monnier13} Samuel Monnier, _Global gravitational anomaly cancellation for five-branes_, Advances in Theoretical and Mathematical Physics, Volume 19 (2015) 3 ([arXiv:1310.2250](https://arxiv.org/abs/1310.2250)) 
-
-based on a refined discussion of the quantum anomaly of the [[self-dual higher gauge field]] on the M5-brane in 
-
-
-* {#Monnier14a} Samuel Monnier, _The anomaly line bundle of the self-dual field theory_, Comm. Math. Phys. 325 (2014) 41-72 ([arXiv:1109.2904](http://arxiv.org/abs/1109.2904))
-
-* {#Monnier14b} Samuel Monnier, _The global gravitational anomaly of the self-dual field theory_, Comm. Math. Phys. 325 (2014) 73-104 ([arXiv:1110.4639](http://arxiv.org/abs/1110.4639), [pdf slides](http://www.physics.rutgers.edu/het/video/monnier11b.pdf))
-
-See also
-
-* {#BahBonettiMinasianNardoni18} Ibrahima Bah, Federico Bonetti, [[Ruben Minasian]], Emily Nardoni, _Class $\mathcal{S}$ Anomalies from M-theory Inflow_ ([arXiv:1812.04016](https://arxiv.org/abs/1812.04016))
-
-
 ### Worldvolume theory
  {#ReferencesWorldvolumeTheory}
 
@@ -567,6 +533,66 @@ A proposal for a construction as a [[higher gauge theory]] for [[differential st
 based on 
 
 * {#SaemannSchmidt17a} [[Christian Saemann]], Lennart Schmidt, _The Non-Abelian Self-Dual String and the (2,0)-Theory_ ([arXiv:1705.02353](https://arxiv.org/abs/1705.02353))
+
+
+### Hopf-Wess-Zumino term
+ {#ReferencesHopfWessZuminoTerm}
+
+The [[higher dimensional WZW model|higher WZW term]] of the M5-brane was maybe first proposed in
+
+* {#Aharony94} [[Ofer Aharony]], p. 11 of _String theory dualities from M theory_, Nucl. Phys. B476:470-483, 1996 ([arXiv:hep-th/9604103](https://arxiv.org/abs/hep-th/9604103))
+
+and had been settled by the time of 
+
+* [BLNPST 97 (1)](#BLNPST97).
+
+The resemblence of the first summand of the term to the [[Whitehead integral formula]] for the [[Hopf invariant]] was noticed in
+
+* {#Intriligator00} [[Kenneth Intriligator]], _Anomaly Matching and a Hopf-Wess-Zumino Term in 6d, N=(2,0) Field Theories_, Nucl.Phys. B581 (2000) 257-273 ([arXiv:hep-th/0001205](https://arxiv.org/abs/hep-th/0001205))
+
+which hence introduced the terminology "Hopf-Wess-Zumino term". Followup to this terminology includes
+
+* Shan Hu, Dimitri Nanopoulos, _Hopf-Wess-Zumino term in the effective action of the 6d, (2, 0) field theory revisted_, JHEP 1110:054, 2011 ([arXiv:1110.0861](https://arxiv.org/abs/1110.0861))
+
+More on the relation to the Hopf invariant in
+
+* {#Sati13} [[Hisham Sati]], _Framed M-branes, corners, and topological invariants_, J. Math. Phys. 59 (2018), 062304 ([arXiv:1310.1060](http://arxiv.org/abs/1310.1060))
+
+
+
+### Anomaly cancellation
+ {#ReferencesAnomalyCancellation}
+
+The original computation of the total M5-brane anomaly due to 
+
+* [Witten 96](#Witten96)
+
+left a remnant term of $\tfrac{1}{24} p_2$. It was argued in
+
+* {#FreedHarveyMinasianMoore98} [[Dan Freed]], [[Jeff Harvey]], [[Ruben Minasian]], [[Greg Moore]], _Gravitational Anomaly Cancellation for M-Theory Fivebranes_, Adv.Theor.Math.Phys.2:601-618, 1998 ([arXiv:hep-th/9803205](https://arxiv.org/abs/hep-th/9803205))
+
+* {#HarveyMinasianMoore98b} [[Jeff Harvey]], [[Ruben Minasian]], [[Greg Moore]], _Non-abelian Tensor-multiplet Anomalies_, JHEP9809:004, 1998 ([arXiv:hep-th/9808060](https://arxiv.org/abs/hep-th/9808060))
+
+* {#BilalMetzger03} [[Adel Bilal]], Steffen Metzger, _Anomaly cancellation in M-theory: a critical review_, Nucl.Phys. B675 (2003) 416-446 ([arXiv:hep-th/0307152](https://arxiv.org/abs/hep-th/0307152))
+
+that this term disappears (cancels) when properly taking into account the singularity of the [[supergravity C-field]] at the locus of the [[black brane|black]] [[M5-brane]].
+
+A more transparent version of this argument was offered in
+
+* {#Monnier13} Samuel Monnier, _Global gravitational anomaly cancellation for five-branes_, Advances in Theoretical and Mathematical Physics, Volume 19 (2015) 3 ([arXiv:1310.2250](https://arxiv.org/abs/1310.2250)) 
+
+based on a refined discussion of the quantum anomaly of the [[self-dual higher gauge field]] on the M5-brane in 
+
+
+* {#Monnier14a} Samuel Monnier, _The anomaly line bundle of the self-dual field theory_, Comm. Math. Phys. 325 (2014) 41-72 ([arXiv:1109.2904](http://arxiv.org/abs/1109.2904))
+
+* {#Monnier14b} Samuel Monnier, _The global gravitational anomaly of the self-dual field theory_, Comm. Math. Phys. 325 (2014) 73-104 ([arXiv:1110.4639](http://arxiv.org/abs/1110.4639), [pdf slides](http://www.physics.rutgers.edu/het/video/monnier11b.pdf))
+
+See also
+
+* {#BahBonettiMinasianNardoni18} Ibrahima Bah, Federico Bonetti, [[Ruben Minasian]], Emily Nardoni, _Class $\mathcal{S}$ Anomalies from M-theory Inflow_ ([arXiv:1812.04016](https://arxiv.org/abs/1812.04016))
+
+
 
 ### Relation to D4-brane
 
@@ -632,3 +658,6 @@ A formal proposal is [[schreiber:7d Chern-Simons theory and the 5-brane|here]].
 
 [[!redirects M5-brane]]
 [[!redirects M5-branes]]
+
+[[!redirects Hopf-Wess-Zumino term]]
+[[!redirects Hopf-WZ term]]
