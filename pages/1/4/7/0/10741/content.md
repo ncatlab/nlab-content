@@ -143,6 +143,8 @@ The unique free [[coefficient]] of this homomorphism $CE(\mathfrak{l}\phi)$ is t
 
 ## References
 
+### General
+
 * {#Husemoller66} [[Dale Husemöller]], chapter 15 of _Fibre Bundles_, Graduate Texts in Mathematics 20, Springer New York (1966)
 
 * [[John Michael Boardman]], B. Steer, _On Hopf Invariants_  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/boarstee.pdf))
@@ -153,8 +155,9 @@ See also:
 
 * Wikipedia, _[Hopf invariant](http://en.wikipedia.org/wiki/Hopf_invariant)_
 
+### Whitehead's integral formula
 
-Discussion via [[differential forms]]/[[rational homotopy theory]]:
+Discussion via [[differential forms]]/[[rational homotopy theory]] (see also at [[functional cup product]]):
 
 * [[J. H. C. Whitehead]], _An expression of Hopf's invariant as an integral_, Proc. Nat. Acad. Sci. USA 33 (1947), 117–123 ([jstor:87688](https://www.jstor.org/stable/87688))
 
@@ -166,7 +169,7 @@ Discussion via [[differential forms]]/[[rational homotopy theory]]:
 
 * Lee Rudolph, _Whitehead's Integral Formula, Isolated Critical Points, and the Enhancement of the Milnor Number_, Pure and Applied Mathematics Quarterly Volume 6, Number 2, 2010 ([arXiv:0912.4974](https://arxiv.org/abs/0912.4974))
 
-* {#GriffithMorgan13} [[Phillip Griffiths]], [[John Morgan]], Section 14.5 of _Rational Homotopy Theory and Differential Forms_,  Progress in Mathematics Volume 16, Birkhauser (2013) ([doi:10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4))
+* {#GriffithMorgan13} [[Phillip Griffiths]], [[John Morgan]], Section 14.5 of _Rational Homotopy Theory and Differential Forms_,  Progress in Mathematics Volume 16, Birkhauser (1981, 2013) ([doi:10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4))
 
 
 * {#SinhaWalter13} Dev Sinha, Ben Walter, _Lie coalgebras and rational homotopy theory II: Hopf invariants_, Trans. Amer. Math. Soc. 365 (2013), 861-883  ([arXiv:0809.5084](https://arxiv.org/abs/0809.5084), [doi:10.1090/S0002-9947-2012-05654-6](https://doi.org/10.1090/S0002-9947-2012-05654-6))
