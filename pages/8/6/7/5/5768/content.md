@@ -1,4 +1,22 @@
-Tropical geometry is often thought of as the [[algebraic geometry]] over the [[tropical semiring]]. A good part of it is combinatorial in nature, with relations to the (geometry and combinatorics of) polyhedra and toric geometry. Recently it found applications in explaining [[mirror symmetry]] at a more fundamental level. 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Tropical geometry is often thought of as the [[algebraic geometry]] over the [[tropical semiring]]. A good part of it is combinatorial in nature, with relations to the (geometry and combinatorics of) polyhedra and toric geometry. Recently it found applications in explaining [[mirror symmetry]] at a more fundamental level (see e.g. [Gross 11](#Gross11)). 
 
 
 Tropical algebraic geometry establishes and studies some very general principles to translate algebro-geometric problems into purely combinatorial ones.
@@ -23,7 +41,7 @@ Textbook accounts/lecture notes include
 
 *  [[Diane Maclagan]], [[Bernd Sturmfels]] _Introduction to tropical geometry_, [draft book](http://homepages.warwick.ac.uk/staff/D.Maclagan/papers/TropicalBook.pdf)
 
-* [[Mark Gross]], _Tropical geometry and mirror symmetry_, CBMS regional conf. ser. 114 (2011), based on the CBMS course in Kansas, [AMS book page](http://www.ams.org/bookstore-getitem/item=CBMS-114), [pdf](http://www.math.ucsd.edu/~mgross/kansas.pdf)
+* {#Gross11} [[Mark Gross]], _Tropical geometry and mirror symmetry_, CBMS regional conf. ser. 114 (2011), based on the CBMS course in Kansas, [AMS book page](http://www.ams.org/bookstore-getitem/item=CBMS-114), [pdf](http://www.math.ucsd.edu/~mgross/kansas.pdf)
 
 * G. Mikhalkin, _Tropical geometry_, book, early draft, [scribd](http://www.scribd.com/doc/47771116/Tropical-geometry-Grigory-Mikhalkin); _Tropical geometry and its applications_, Proc. Intern. Congr. Math.,
 V. 2 (Madrid, 2006), Eur. Math. Soc., Z&#252;rich, 2006, 827&#8211;852 [djvu](http://www.mathunion.org/ICM/ICM2006.2/Main/icm2006.2.0827.0852.ocr.djvu) [pdf](http://www.mathunion.org/ICM/ICM2006.2/Main/icm2006.2.0827.0852.ocr.pdf)
