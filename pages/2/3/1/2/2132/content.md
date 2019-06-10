@@ -411,7 +411,7 @@ $$
     d x \wedge d y
     \\
     & =
-    \tfrac{1}{2i} d z \wedge d \overline{z}
+    \tfrac{i}{2} d z \wedge d \overline{z}
   \end{aligned}
 $$
 
