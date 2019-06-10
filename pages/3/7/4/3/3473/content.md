@@ -1,10 +1,25 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
 
-### Idea### 
+#Contents#
+* table of contents
+{:toc}
 
-In Algebraic Topology, profinite homotopy types are frequently encountered. This is often because of the use of [[profinite completion of homotopy type|profinite completion]]s of homotopy types in an attempt to get more 'accessible' information out of a homotopy type. The theory has applications both in Algebraic Geometry and Algebraic topology. 
+## Idea
 
-One origin of the theory can be found in [[Grothendieck's Galois theory]], in which he defined an [[algebraic fundamental group]] of a scheme using its _finite_ 'covering spaces'.  These correspond to the finite field extensions in the [[Grothendieck's Galois theory| classical case of fields]], and from that perspective one can ask what the higher profinite homotopy n-types of a scheme should classify.    
+
+
+In [[algebraic topology]], profinite homotopy types are frequently formed by [[profinite completion]] of a homotopy type in order to generate more 'accessible' information. The theory has applications both in [[algebraic geometry]] and [[algebraic topology]]. 
+
+One origin of the theory can be found in [[Grothendieck's Galois theory]], in which he defined an [[algebraic fundamental group]] of a scheme using its _finite_ 'covering spaces'.  These correspond to the finite field extensions in the [[Grothendieck's Galois theory| classical case of fields]], and from that perspective one can ask what the higher profinite homotopy $n$-types of a scheme should classify.    
 
 In the 1960s Artin and Mazur constructed a functor which associates to
 each locally noetherian scheme $X$ its [[etale homotopy type|étale homotopy type]], $X_{et}$ , an object of
