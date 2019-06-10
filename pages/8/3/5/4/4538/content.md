@@ -300,7 +300,7 @@ $$
     \longrightarrow
   H^n(A \otimes B, N_1 \otimes N_2)
     \longrightarrow
-  Tor(H^\bullet(A,N_1), H^\bullet(A,N_2))
+  Tor(H^\bullet(A,N_1), H^\bullet(B,N_2))
    \to 
   0
 $$
