@@ -552,9 +552,11 @@ The resemblence of the first summand of the term to the [[Whitehead integral for
 
 which hence introduced the terminology "Hopf-Wess-Zumino term". Followup to this terminology includes
 
-* {#KalkkinenStelle02} Jussi Kalkkinen, [[Kellogg Stelle]], Section 3.2 of: _Large Gauge Transformations in M-theory_, J.Geom.Phys. 48 (2003) 100-132 ([arXiv:hep-th/0212081](https://arxiv.org/abs/hep-th/0212081))
+* {#KalkkinenStelle02} Jussi Kalkkinen, [[Kellogg Stelle]], Section 3.2 of: _Large Gauge Transformations in M-theory_, J. Geom. Phys. 48 (2003) 100-132 ([arXiv:hep-th/0212081](https://arxiv.org/abs/hep-th/0212081))
 
 * Shan Hu, Dimitri Nanopoulos, _Hopf-Wess-Zumino term in the effective action of the 6d, (2, 0) field theory revisted_, JHEP 1110:054, 2011 ([arXiv:1110.0861](https://arxiv.org/abs/1110.0861))
+
+* [[Alex Arvanitakis]], Section 4.1 of _Brane Wess-Zumino terms from AKSZ and exceptional generalised geometry as an $L_\infty$-algebroid_ ([arXiv:1804.07303](https://arxiv.org/abs/1804.07303))
 
 More on the relation to the Hopf invariant in
 
