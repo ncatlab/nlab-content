@@ -103,6 +103,7 @@ variables ($x$, $y$, ...)` ::= `(Written as usual. Complain if you can't tell th
 
 terms ($t$, $a$, $b$, $f$, $T$, $A$, $B$, $R$, ...)` ::=`
 
+* $x \qquad$ (variable reference)
 * $\lambda x.b \qquad$ (lambda abstraction)
 * $f\,a \qquad$ (application)
 
