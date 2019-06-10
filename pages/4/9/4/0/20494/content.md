@@ -1,3 +1,4 @@
+[[!redirects absolute pushouts]]
 
 #Contents#
 * table of contents
@@ -11,14 +12,14 @@ An **absolute pushout** is a [[pushout]] which is [[preserved limit|preserved]] 
 
 +-- {: .num_defn #DefBasic}
 ###### Definition
-A particular [[pushout]] diagram in a particular [[category]] $C$ is an **absolute pushout** if it is [[preserved limit|preserved]] by every [[functor]] with domain $C$.
+A particular [[pushout]] [[diagram]] in a particular [[category]] $C$ is an **absolute pushout** if it is [[preserved limit|preserved]] by every [[functor]] with [[domain]] $C$.
 =--
 
-Equivalently, since the Yoneda embedding is the [[free cocompletion]] of $C$. 
+Equivalently, since the [[Yoneda embedding]] is the [[free cocompletion]] of $C$:
 
 +-- {: .num_defn #DefYoneda}
 ###### Definition
-A particular [[pushout]] diagram in a particular [[category]] $C$ is an **absolute pushout** if it is [[preserved limit|preserved]] by the Yoneda embedding $C \hookrightarrow [C^{op},Set]$.
+A particular [[pushout]] diagram in a particular [[category]] $C$ is an **absolute pushout** if it is [[preserved limit|preserved]] by the [[Yoneda embedding]] $C \hookrightarrow [C^{op},Set]$.
 =--
 
 ## Split pushouts
@@ -27,11 +28,13 @@ We propose the following notion of **split pushout**.
 
 +-- {: .num_defn #DefSplitPushout}
 ###### Definition
-A commutative square 
+A [[commutative diagram|commutative]] square 
+
 \begin{center}\begin{tikzcd}
 A \ar[r, "p"] \ar[d, "q"'] & B \ar[d, "m"] \\ C \ar[r, "n"'] & P
 \end{tikzcd}\end{center}
-defines a **split pushout** if there exist sections $p s = 1$, $q t = 1$, $m u = 1$
+
+defines a **split pushout** if there exist [[sections]] $p s = 1$, $q t = 1$, $m u = 1$
 \begin{center}\begin{tikzcd}
 A \ar[r, "p"'] \ar[d, "q"] & B \ar[d, "m"'] \ar[l, bend right, "s"'] \\ C \ar[r, "n"] \ar[u, bend left, "t"] & P \ar[u, bend right, "u"']
 \end{tikzcd}\end{center}
@@ -47,7 +50,7 @@ Split pushouts are absolute pushouts.
 
 +-- {: .proof}
 ###### Proof
-Note that split pushouts are preserved by arbitrary functors, so it suffices to show that a split pushout is a pushout in the category in which it lives. To that end consider, a cone under the span $(p,q)$:
+Note that split pushouts are preserved by arbitrary functors, so it suffices to show that a split pushout is a pushout in the category in which it lives. To that end consider, a [[cone]] under the [[span]] $(p,q)$:
 \begin{center}\begin{tikzcd}
 A \ar[r, "p"] \ar[d, "q"'] & B \ar[d, "b"] \\ C \ar[r, "c"'] & X
 \end{tikzcd}\end{center}
@@ -72,6 +75,6 @@ In their study of [[generalized Reedy categories]], Berger and Moerdijk introduc
 
 The Berger-Moerdijk definition of an Eilenberg-Zilber category appears in:
 
-* [[Clemens Berger]] and [[Ieke Moerdijk]], _On an extension of the notion of Reedy category_ (2008) ([arXiv:0809.3341](http://arxiv.org/abs/0809.3341))
- {#BergerMoerdijk}
+* {#BergerMoerdijk} [[Clemens Berger]] and [[Ieke Moerdijk]], _On an extension of the notion of Reedy category_ (2008) ([arXiv:0809.3341](http://arxiv.org/abs/0809.3341))
+ 
 
