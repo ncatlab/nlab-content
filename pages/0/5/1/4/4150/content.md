@@ -25,7 +25,7 @@ First and foremost this includes the study of [[monoidal category]] theory, and 
 
 More generally, it is about the study of 
 
-1. [[Lawvere theory|algebras over]] [[algebraic theories]], 
+1. [[Lawvere theory|algebras over]]$\,$ [[algebraic theories]], 
 
 1. [[algebra over a monad|algebras over]]$\,$ [[monads]], 
 
