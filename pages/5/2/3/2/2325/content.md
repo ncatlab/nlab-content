@@ -197,6 +197,5 @@ Remarks on the application of $n$-localic $(\infty,1)$-toposes in [[higher geome
 
 [[!redirects localic (∞,1)-topos]]
 [[!redirects localic (infinity,1)-topos]]
-
 [[!redirects n-localic (∞,1)-topos]]
 
