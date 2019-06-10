@@ -1,4 +1,4 @@
-* [website](http://www.uoregon.edu/~ddugger/)
+* [website](https://pages.uoregon.edu/ddugger/)
 
 
 ## Related $n$Lab entries
