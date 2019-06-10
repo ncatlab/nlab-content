@@ -453,6 +453,10 @@ Note that not all functions are denoted by lambdas. At the very least, the empty
 
 $$\Gamma,f:\Pi x:A.B \vdash f = (\lambda x.f\,x) \in \Pi x:A.B$$
 
+as well as (the weaker)
+
+$$\Gamma,f:Comp,Hf:f \in \Pi x:A.B \vdash f = (\lambda x.f\,x) \in \Pi x:A.B$$
+
 but not
 
 $$\Gamma,f:Comp,Hf:f \in \Pi x:A.B \vdash f = (\lambda x.f\,x) \in Comp$$
