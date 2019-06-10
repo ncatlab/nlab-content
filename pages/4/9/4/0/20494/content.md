@@ -31,7 +31,7 @@ A commutative square
 \begin{center}\begin{tikzcd}
 A \ar[r, "p"] \ar[d, "q"'] & B \ar[d, "m"] \\ C \ar[r, "n"'] & P
 \end{tikzcd}\end{center}
-defines a **split pushout** if there exist sections $ps = 1$, $qt = 1$, $mu = 1$
+defines a **split pushout** if there exist sections $p s = 1$, $q t = 1$, $m u = 1$
 \begin{center}\begin{tikzcd}
 A \ar[r, "p"'] \ar[d, "q"] & B \ar[d, "m"'] \ar[l, bend right, "s"'] \\ C \ar[r, "n"] \ar[u, bend left, "t"] & P \ar[u, bend right, "u"']
 \end{tikzcd}\end{center}
