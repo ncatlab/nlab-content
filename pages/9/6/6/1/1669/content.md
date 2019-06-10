@@ -19,7 +19,7 @@ These are all equivalent in [[classical logic]].  In [[intuitionistic logic]], (
 
 The [[false]] statement is the [[identity element|identity]] for this operation; it is the exclusive disjunction of no statements.
 
-In classical logic (but not in intuitionistic logic), this operation is associative, but multiple applications don\'t mean what you may think.  Instead, $(p &#8891; q) &#8891; \equiv p &#8891; (q &#8891; r)$ comes out true if $p, q, r$ are all true; in general,
+In classical logic (but not in intuitionistic logic), this operation is associative, but multiple applications don\'t mean what you may think.  Instead, $(p &#8891; q) &#8891; r \equiv p &#8891; (q &#8891; r)$ comes out true if $p, q, r$ are all true; in general,
 $$ (p_1 &#8891; (p_2 &#8891; \cdots &#8891; p_n)\cdots) $$
 is true if and only if an *odd* number of the statements $p_i$ is true.  But when we write a multiple statement with 'xor', we really mean that *exactly one* of the statements is true.  So by fiat, define the __exclusive disjunction__
 $$ p_1 &#8891; p_2 &#8891; \cdots &#8891; p_n $$
