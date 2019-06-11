@@ -38,7 +38,11 @@ Compactly generated topological spaces embed fully faithfully into pyknotic sets
 
 > One key point, however, is that the relationship between compactly generated topological spaces and pyknotic sets is _dual_ to the relationship between compactly generated topological spaces and general topological spaces: in topological spaces, compactly generated topological spaces are stable under colimits but not limits; in pyknotic sets,compactly generated topological spaces are stable under limits but not colimits ([BarHai 19, 0.2.3](#BarHai19)).
 
-This construction generalizes to pyknotic objects for any $(\infty, 1)$-category. Locally compact abelian groups, normed rings, and complete locally convex topological vector spaces are pyknotic objects.
+This construction generalizes to pyknotic objects for any [[(∞,1)-category]]. 
+
+## Examples
+
+For example [[locally compact topological space|locally compact]] [[abelian groups]], [[normed rings]], and [[complete metric space|complete]] [[locally convex topological vector spaces]] are pyknotic objects.
 
 ## Related concepts
 
@@ -50,8 +54,7 @@ This construction generalizes to pyknotic objects for any $(\infty, 1)$-category
 
 ## References
 
-* {#BarHai19} [[Clark Barwick]], [[Peter Haine]], _Pyknotic objects, I.  Basic notions_,
-[arXiv:1904.09966](https://arxiv.org/abs/1904.09966)
+* {#BarHai19} [[Clark Barwick]], [[Peter Haine]], _Pyknotic objects, I.  Basic notions_, ([arXiv:1904.09966](https://arxiv.org/abs/1904.09966))
 
 [[!redirects pyknotic sets]]
 [[!redirects pyknotic object]]
