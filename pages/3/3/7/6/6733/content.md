@@ -356,7 +356,7 @@ A resolution was proposed in ([Freed-Harvey-Minasian-Moore 98](#FreedHarveyMinas
    
    with $\tfrac{1}{2}\chi$ the degree-4 [[Euler class]], whose integral over the 4-sphere fiber is unity ([this Prop.](Sullivan+model+of+a+spherical+fibration#SullivanModelForSphericalFibration)), reflecting the presence of a single M5.
 
-By this proposal, the anomaly inflow from the bulk would not be just $I_8$, as in (eq:I8AnomalyInflow) but would be all of the following [[fiber integration]] 
+By this proposal ([Bah-Bonetti-Minasian-Nardoni 18 (5)](#BahBonettiMinasianNardoni18), [BBMN 19 (2.9) and appendix A.4, A.5](#BBMN19)), the anomaly inflow from the bulk would not be just $I_8$, as in (eq:I8AnomalyInflow) but would be all of the following [[fiber integration]] 
 
 \[
   \label{FiberIntegration}
@@ -370,7 +370,7 @@ By this proposal, the anomaly inflow from the bulk would not be just $I_8$, as i
       G_4  I_8
     \Big)
     & =
-    - \tfrac{1}{24} p_2 + \tfrac{1}{2}G^{M5}_4 + I_8
+    - \tfrac{1}{24} p_2 + \tfrac{1}{2}(G^{M5}_4)^2 + I_8
   }
 \]
 
@@ -591,14 +591,16 @@ A more transparent version of this argument was offered in
 
 based on a refined discussion of the quantum anomaly of the [[self-dual higher gauge field]] on the M5-brane in 
 
-
 * {#Monnier14a} Samuel Monnier, _The anomaly line bundle of the self-dual field theory_, Comm. Math. Phys. 325 (2014) 41-72 ([arXiv:1109.2904](http://arxiv.org/abs/1109.2904))
 
 * {#Monnier14b} Samuel Monnier, _The global gravitational anomaly of the self-dual field theory_, Comm. Math. Phys. 325 (2014) 73-104 ([arXiv:1110.4639](http://arxiv.org/abs/1110.4639), [pdf slides](http://www.physics.rutgers.edu/het/video/monnier11b.pdf))
 
-See also
+This formulation via an anomaly 12-form is (re-)derived also in
 
-* {#BahBonettiMinasianNardoni18} Ibrahima Bah, Federico Bonetti, [[Ruben Minasian]], Emily Nardoni, _Class $\mathcal{S}$ Anomalies from M-theory Inflow_ ([arXiv:1812.04016](https://arxiv.org/abs/1812.04016))
+* {#BahBonettiMinasianNardoni18} Ibrahima Bah, Federico Bonetti, [[Ruben Minasian]], Emily Nardoni, _Class $\mathcal{S}$ Anomalies from M-theory Inflow_, Phys. Rev. D 99, 086020 (2019) ([arXiv:1812.04016](https://arxiv.org/abs/1812.04016))
+
+* {#BBMN19} Ibrahima Bah, Federico Bonetti, [[Ruben Minasian]], Emily Nardoni, _Anomaly Inflow for M5-branes on Punctured Riemann Surfaces_ ([arXiv:1904.07250](https://arxiv.org/abs/1904.07250))
+
 
 
 
