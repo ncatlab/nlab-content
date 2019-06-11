@@ -63,6 +63,9 @@ Discussion in view of [[AdS-CFT duality]], specifically [[AdS-CFT in condensed m
 
 * {#Maldacena18} [[Juan Maldacena]], _Toy models for black holes II_, talk at PiTP 2018 _From QBits to spacetime_ ([recording](https://video.ias.edu/PiTP/2018/0726-JuanMaldacena))
 
+Further developments in
+
+* Biao Lian, S. L. Sondhi, Zhenbin Yang, _The chiral SYK model_ ([arXiv:1906.03308](https://arxiv.org/abs/1906.03308))
 
 See also 
 
