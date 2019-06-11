@@ -50,3 +50,8 @@ The proof that a Tarski-[[Grothendieck universe]] is equivalently a set of $\kap
 > Abstract: We consider four notions of strong inaccessibility that are equivalent in ZFC and show that they are not equivalent in ZF. 
 
 [[!redirects inaccessible cardinals]]
+
+[[!redirects strongly inaccessible cardinal]]
+[[!redirects strongly inaccessible cardinals]]
+
+
