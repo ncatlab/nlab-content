@@ -206,7 +206,7 @@ J. Geom. Phys. __56__ (2006), no. 4, 533&#8211;558 [math.AG/0405303](http://arxi
 
 #### Geometry of supergravity
 
-Generalized complex geometry and variant of [[exceptional generalized complex geometry]] are natural for describing [[supergravity]] background compactifications in [[string theory]] with their [[T-duality]] and [[U-duality]] symmetries.
+Generalized complex geometry and variants of [[exceptional generalized complex geometry]] are natural for describing [[supergravity]] background compactifications in [[string theory]] with their [[T-duality]] and [[U-duality]] symmetries ([[non-geometric vacua]]).
 
 * Ian Ellwood, _NS-NS fluxes in Hitchin's generalized geometry_ ([arXiv:hep-th/0612100](http://arxiv.org/abs/hep-th/0612100))
 
@@ -214,7 +214,7 @@ Generalized complex geometry and variant of [[exceptional generalized complex ge
 
 * [[Mariana Graña]], [[Ruben Minasian]], Michela Petrini, [[Daniel Waldram]], _T-duality, generalized geometry and non-geometric backgrounds_,  J. High Energy Phys. 2009, no. 4, 075, 39 pp. [arXiv:0807.4527](http://xxx.lanl.gov/abs/0807.4527) [MR2010i:81323](http://www.ams.org/mathscinet-getitem?mr=2505954) [doi](http://dx.doi.org/10.1088/1126-6708/2009/04/075)
 
-* David Andriot, Ruben Minasian, Michela Petrini, _Flux backgrounds from twists_,  J. High Energy Phys. 2009, no. 12, 028 [arXiv:0903.0633](http://arxiv.org/abs/0903.0633) [MR2011c:81201](http://www.ams.org/mathscinet-getitem?mr=2593014) [doi](http://dx.doi.org/10.1088/1126-6708/2009/12/028)
+* David Andriot, [[Ruben Minasian]], Michela Petrini, _Flux backgrounds from twists_,  J. High Energy Phys. 2009, no. 12, 028 [arXiv:0903.0633](http://arxiv.org/abs/0903.0633) [MR2011c:81201](http://www.ams.org/mathscinet-getitem?mr=2593014) [doi](http://dx.doi.org/10.1088/1126-6708/2009/12/028)
 
 
 [[!redirects generalized complex structure]]
