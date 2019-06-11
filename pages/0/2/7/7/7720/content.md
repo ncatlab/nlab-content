@@ -71,6 +71,13 @@ The role of generalized CY-manifolds as (factors of) [[target spaces]] in [[stri
 
 * [[Mariana Graña]], [[Ruben Minasian]], Michela Petrini, [[Alessandro Tomasiello]], _Type II Strings and Generalized Calabi-Yau Manifolds_ ([arXiv:hep-th/0409176](http://arxiv.org/abs/hep-th/0409176))
 
+
+* [[Mariana Grana]], [[Ruben Minasian]], Michela Petrini, [[Alessandro Tomasiello]], _Generalized structures of N=1 vacua_, [hep-th/0505212](http://arxiv.org/abs/hep-th/0505212)
+
+
 * [[Jan Louis]], _Generalized Calabi-Yau compactifications with D-branes and fluxes_, Forthschr. Phys. 53, no 7-8 (2005) ([pdf](http://www.desy.de/~jlouis/talks/770_a.pdf))
 
 [[!redirects generalized Calabi-Yau manifolds]]
+
+[[!redirects generalized Calabi-Yau space]]
+[[!redirects generalized Calabi-Yau spaces]]
