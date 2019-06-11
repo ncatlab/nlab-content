@@ -11,7 +11,7 @@
 
 ## References
 
-* [[Marcos Marino]], [[Ruben Minasian]], [[Gregory Moore]], [[Andrew Strominger]], _Nonlinear Instantons from supersymmetric $p$-Branes_, J. High Energy Phys. 2000, no. 1, Paper 5, 32 pp.
+* [[Marcos Marino]], [[Ruben Minasian]], [[Gregory Moore]], [[Andrew Strominger]], _Nonlinear Instantons from supersymmetric $p$-Branes_, J. High Energy Phys. 2000, no. 1, Paper 5 ([arXiv:hep-th/9911206](https://arxiv.org/abs/hep-th/9911206))
 
 * Jae-Hyouk Lee, [[Naichung Conan Leung]], _Geometric structures on $G_2$ and $Spin(7)$-manifolds_ ([arXiv:math/0202045](http://arxiv.org/abs/math/0202045))
 
