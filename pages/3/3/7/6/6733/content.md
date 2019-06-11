@@ -356,7 +356,7 @@ A resolution was proposed in ([Freed-Harvey-Minasian-Moore 98](#FreedHarveyMinas
    
    with $\tfrac{1}{2}\chi$ the degree-4 [[Euler class]], whose integral over the 4-sphere fiber is unity ([this Prop.](Sullivan+model+of+a+spherical+fibration#SullivanModelForSphericalFibration)), reflecting the presence of a single M5.
 
-By this proposal ([Bah-Bonetti-Minasian-Nardoni 18 (5)](#BahBonettiMinasianNardoni18), [BBMN 19 (2.9) and appendix A.4, A.5](#BBMN19)), the anomaly inflow from the bulk would not be just $I_8$, as in (eq:I8AnomalyInflow) but would be all of the following [[fiber integration]] 
+By this proposal (also [Bah-Bonetti-Minasian-Nardoni 18 (5)](#BahBonettiMinasianNardoni18), [BBMN 19 (2.9) and appendix A.4, A.5](#BBMN19)), the anomaly inflow from the bulk would not be just $I_8$, as in (eq:I8AnomalyInflow) but would be all of the following [[fiber integration]] 
 
 \[
   \label{FiberIntegration}
