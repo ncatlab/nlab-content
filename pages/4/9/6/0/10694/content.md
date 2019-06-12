@@ -751,7 +751,7 @@ Further computational improvements and a computation of the first 70 differentia
 
 More on the $E_2$-term is in 
 
-* {#May74} [[Peter May]] _The Steenrod algebra and its associated graded algebra_, University of Chicago preprint, 1974.
+* {#May74} [[Peter May]], _The Steenrod algebra and its associated graded algebra_, University of Chicago preprint, 1974.
 
 
 Review includes
