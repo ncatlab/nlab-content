@@ -138,7 +138,7 @@ By this proposal (also [Bah-Bonetti-Minasian-Nardoni 18 (5)](#BahBonettiMinasian
       G_4  I_8
     \Big)
     & =
-    - \tfrac{1}{24} p_2 + \tfrac{1}{2}G^{M5}_4 + I_8
+    - \tfrac{1}{24} p_2 + \tfrac{1}{2}(G^{M5}_4)^2 + I_8
   }
 \]
 
