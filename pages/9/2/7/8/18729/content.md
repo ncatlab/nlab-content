@@ -18,6 +18,13 @@
 
 The [[Stokes theorem]] immediately implies that the [[integration of differential forms|integration]] of an [[exact differential form]] with [[compact support]]  vanishes. But in fact also the opposite is true: If the [[integration of differential forms|integration]] of a differential form with [[compact support]] of top degree vanishes, then it is exact (prop. \ref{KernelOfIntegrationOverSmoothManifold} below) .
 
+This statement underlies for instance 
+
+* [[higher Lie integration]] by the "path method"
+
+* the interpretation of the [[BV-BRST complex]] as computing [[expectation values]] (see [there](BV-BRST+formalism#IntegrationOverManifoldsByBVCohomology)).
+
+
 ## Statement
 
 +-- {: .num_prop #KernelOfIntegrationOverSmoothManifold}
@@ -63,4 +70,4 @@ At least when $X = \mathbb{R}^n$ is a [[Cartesian space]], then the statement of
 
 ## References
 
-* {#Lafointaine15} Jacques Lafontaine, section 7.3 of _An introduction to differential manifolds_, Springer 2015
+* {#Lafointaine15} Jacques Lafontaine, section 7.3 of _An introduction to differential manifolds_, Springer 2015 ([doi:10.1007/978-3-319-20735-3](https://link.springer.com/book/10.1007/978-3-319-20735-3))
