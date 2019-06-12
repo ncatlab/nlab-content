@@ -1,16 +1,10 @@
 [[!redirects JA]]
 
-* [JA](http://inquiryintoinquiry.com/) @ [WordPress](http://wordpress.com/)
+* [JA @ WordPress](https://inquiryintoinquiry.com/)
 
-* [JA](http://intersci.ss.uci.edu/wiki/index.php/User:Jon_Awbrey) @ [InterSciWiki](http://intersci.ss.uci.edu/wiki/index.php/Main_Page)
+* [JA @ OEIS Wiki](https://oeis.org/wiki/User:Jon_Awbrey)
 
-* [JA](http://mywikibiz.com/Directory:Jon_Awbrey) @ [MyWikiBiz](http://mywikibiz.com/Main_Page)
-
-* [JA](http://oeis.org/wiki/User:Jon_Awbrey) @ [OEIS Wiki](http://oeis.org/wiki/)
-
-* [JA](http://planetmath.org/users/Jon-Awbrey) @ [PlanetMath](http://planetmath.org/)
-
-* [JA](http://www.proofwiki.org/wiki/User:Jon_Awbrey) @ [ProofWiki](http://www.proofwiki.org/)
+* [JA @ InterSciWiki](http://intersci.ss.uci.edu/wiki/index.php/User:Jon_Awbrey)
 
 # Algebra #
 
