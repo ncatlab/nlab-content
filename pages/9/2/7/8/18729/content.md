@@ -30,7 +30,7 @@ This statement underlies for instance
 +-- {: .num_prop #KernelOfIntegrationOverSmoothManifold}
 ###### Proposition
 
-Let $X$ be an [[orientation|oriented]] [[connected topological space|connected]] [[smooth manifold]] of [[finite number|finite]] [[dimension]]. Write $\Omega^n_{cp}(X)$ for the [[vector space]] of [[differential n-forms]] with [[compact support]] and
+Let $X$ be an [[orientation|oriented]] [[connected topological space|connected]] [[smooth manifold]] of [[finite number|finite]] [[dimension]]. Let $n=\dim X$ and write $\Omega^n_{cp}(X)$ for the [[vector space]] of [[differential n-forms]] with [[compact support]] and
 
 $$
   \int_X \;\colon\; \Omega^n_{cp}(X) \longrightarrow \mathbb{R}
