@@ -23,6 +23,7 @@
 
 The [[Green-Schwarz sigma-model]] of the [[M5-brane]] contains a 6d [[higher WZW term]].  The first summand of this term was called the _Hopf-Wess-Zumino term_ in [Intriligator 00](#Intriligator00), due to its resemblance of the [[Whitehead integral formula]] for the [[Hopf invariant]] if the [[C-field]] is assumed to be classified by a [[smooth function]] to the [[4-sphere]]. But in fact the full term is a [[homotopy Whitehead integral formula]] ("[[functional cup product]]" or "[[homotopy period]]") still computing the [[Hopf invariant]] if the [[C-field]] is assumed to be a cocycle in [[twisted Cohomotopy|twisted]] [[cohomotopy]] in degree 4 ([FSS 19](#FSS19WZ)).
 
+Similar Hopf terms can be considered in all dimensions $4k+2$ ([TN 89](#TN89)).
 
 ## Related concepts
 
@@ -35,6 +36,10 @@ The [[Green-Schwarz sigma-model]] of the [[M5-brane]] contains a 6d [[higher WZW
 * [[M-theory]]
 
 ## References
+
+Hopf-Wess-Zumino terms in general are discussed in
+
+* {#TN89} Hsiung Chia Tze, Soonkeon Nam, _Topological Phase Entanglements of Membrane Solitons in Division Algebra $\sigma$ Models With a Hopf Term_, Annals Phys. 193 (1989) 419-471 ([spire:25058](http://inspirehep.net/record/25058/), <a href="https://doi.org/10.1016/0003-4916(89)90005-5">doi:10.1016/0003-4916(89)90005-5</a>)
 
 The [[higher dimensional WZW model|higher WZW term]] of the [[M5-brane]] was first proposed in
 
