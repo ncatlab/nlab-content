@@ -17,7 +17,7 @@
 
 ## Idea
 
-_Quarks_ are one of the fundamental [[particles]]/[[matter]] [[field (physics)|fields]] in the [[standard model of particle physics]]. Quarks couple to the [[Yang-Mills theory]] given by [[QCD]].
+_Quarks_ ([Gell-Mann 64](#GellMann64), [Zweig 64](#Zweig64)) are one of the fundamental [[particles]]/[[matter]] [[field (physics)|fields]] in the [[standard model of particle physics]]. Quarks couple to the [[Yang-Mills theory]] given by [[QCD]].
 
 At room-[[temperature]] quarks always form [[bound states]] to [[hadrons]]. This phenomenon of _[[confinement]]_ is quantitatively well-reproduced by [[lattice QCD]] computations (see [Fodor-Hoelbling 12](#FodorHoelbling12)) and qualitatively well reproduced by conceptual arguments such as the [[AdS/QCD correspondence]], but a full analytic [[proof]] of confinement from a rigorous [[AQFT]]-like foundation of [[QCD]] remains open, see the _[[mass gap problem]]_.
 
@@ -48,6 +48,7 @@ However, at high [[temperature]] [[QCD]] goes through a _deconfinement_ [[phase 
 
 ## References
 
+
 ### General
 
 * Jean-Marc Richard, _An introduction to the quark model_ ([arXiv:1205.4326](https://arxiv.org/abs/1205.4326))
@@ -57,6 +58,15 @@ Textbooks:
 * {#HalzenMartin84} [[Francis Halzen]], [[Alan Martin]], _Quarks and Leptons: An Introductory Course in Modern Particle Physics_, Wiley 1984 ([pdf](http://ajbell.web.cern.ch/ajbell/Documents/eBooks/Quarks%20&%20Leptons.pdf))
 
 ### History
+
+
+The quark model was proposed independently in 1964 by
+
+* {#GellMann64} [[Murray Gell-Mann]], _A Schematic Model of Baryons and Mesons_, Phys.Lett. 8 (1964) 214-215 ([spire:11880](http://inspirehep.net/record/11880), <a href="https://doi.org/10.1016/S0031-9163(64)92001-3">doi:10.1016/S0031-9163(64)92001-3</a>)
+
+* {#Zweig64} [[George Zweig]], _An SU(3) model for strong interaction symmetry and its breaking_,  version 1 is CERN preprint 8182/TH.401, Jan. 17, 1964, version 2 in _Developments in the Quark Theory of Hadrons_ Volume 1. Edited by D. Lichtenberg and S. Rosen. Nonantum, Mass., Hadronic Press, 1980. pp. 22-101 ([spire:4674](http://inspirehep.net/record/4674))
+
+Review of this history:
 
 * [[George Zweig]], _Origins of the quark model_, 1980 ([pdf](https://authors.library.caltech.edu/18969/1/Origins_of_the_Quark_Model_Final_Zweig%5B1%5D.pdf), [[ZweigQuarkModel1980.pdf:file]])
 
