@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -137,7 +138,7 @@ The unique free [[coefficient]] of this homomorphism $CE(\mathfrak{l}\phi)$ is t
 
 ### Whitehead integral formula
 
-See the references [below](#ReferencesWhiteheadIntegralFormula)
+See at _[[Whitehead integral formula]]_ and see the references [below](#ReferencesWhiteheadIntegralFormula)
 
 
 ## Related concepts
@@ -167,11 +168,11 @@ See also:
 
 Discussion via [[differential forms]]/[[rational homotopy theory]] (see also at [[functional cup product]]):
 
-* [[J. H. C. Whitehead]], _An expression of Hopf's invariant as an integral_, Proc. Nat. Acad. Sci. USA 33 (1947), 117–123 ([jstor:87688](https://www.jstor.org/stable/87688))
+* {#Whitehead47} [[J. H. C. Whitehead]], _An expression of Hopf's invariant as an integral_, Proc. Nat. Acad. Sci. USA 33 (1947), 117–123 ([jstor:87688](https://www.jstor.org/stable/87688))
 
 * [[Hassler Whitney]], Section 31 in _Geometric Integration Theory_, 1957 ([pup:3151](https://press.princeton.edu/titles/3151.html))
 
-* [[André Haefliger]], p. 3 of _Whitehead products and differential forms_, In: P.A. Schweitzer (ed.), _Differential Topology, Foliations and Gelfand-Fuks Cohomology_, Lecture Notes in Mathematics, vol 652. Springer 1978 ([doi:10.1007/BFb0063500](https://doi.org/10.1007/BFb0063500))
+* {#Haefliger78} [[André Haefliger]], p. 3 of _Whitehead products and differential forms_, In: P.A. Schweitzer (ed.), _Differential Topology, Foliations and Gelfand-Fuks Cohomology_, Lecture Notes in Mathematics, vol 652. Springer 1978 ([doi:10.1007/BFb0063500](https://doi.org/10.1007/BFb0063500))
 
 * {#BottTu82} [[Raoul Bott]], [[Loring Tu]], Prop. 17.22 in _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics 82, Springer 1982 ([doi:10.1007/BFb0063500](https://doi.org/10.1007/BFb0063500))
 
@@ -179,14 +180,9 @@ Discussion via [[differential forms]]/[[rational homotopy theory]] (see also at 
 
 * {#GriffithMorgan13} [[Phillip Griffiths]], [[John Morgan]], Section 14.5 of _Rational Homotopy Theory and Differential Forms_,  Progress in Mathematics Volume 16, Birkhauser (1981, 2013) ([doi:10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4))
 
-
 * {#SinhaWalter13} Dev Sinha, Ben Walter, _Lie coalgebras and rational homotopy theory II: Hopf invariants_, Trans. Amer. Math. Soc. 365 (2013), 861-883  ([arXiv:0809.5084](https://arxiv.org/abs/0809.5084), [doi:10.1090/S0002-9947-2012-05654-6](https://doi.org/10.1090/S0002-9947-2012-05654-6))
 
+* {#FSS19} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization]]_, 2019
+
 [[!redirects Hopf invariants]]
-
-[[!redirects Whitehead integral formula]]
-[[!redirects Whitehead integral formulas]]
-
-[[!redirects Whitehead's integral formula]]
-[[!redirects Whitehead's integral formulas]]
 
