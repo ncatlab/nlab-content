@@ -25,11 +25,15 @@ $$
 
 is called a _functional cup product_ in ([Steenrod 49](#Steenrod49)).
 
-This appears notably as the homotopy-version of [[Whitehead's integral formula]] ([Whitehead 47](#Whitehead47)) for the [[Hopf invariant]] (see [Haefliger 78, Remark on p. 17](#Haefliger78), [Griffith-Morgan 81, Section 14.5](#GriffithMorgan81)). More recently [Sinha-Walter 13, Example 1.9](#SinhaWalter13) speak of _homotopy period_ expressions.
+This appears notably as the [[homotopy Whitehead integral formula|homotopy version]] of [[Whitehead's integral formula]] ([Whitehead 47](#Whitehead47)) for the [[Hopf invariant]] (see [Haefliger 78, Remark on p. 17](#Haefliger78), [Griffith-Morgan 81, Section 14.5](#GriffithMorgan81)). More recently [Sinha-Walter 13, Example 1.9](#SinhaWalter13) speak of _homotopy period_ expressions. A transparent proof is given in [FSS 19](#FSS19), relating to the [[Hopf-Wess-Zumino term]] of the [[M5-brane]].
 
 ## Related concepts
 
+* [[homotopy Whitehead integral formula]]
+
 * [[intersection pairing]]
+
+* [[Hopf-Wess-Zumino term]]
 
 ## References
 
@@ -42,6 +46,9 @@ This appears notably as the homotopy-version of [[Whitehead's integral formula]]
 * {#GriffithMorgan81} [[Phillip Griffiths]], [[John Morgan]], Section 14.5 of _Rational Homotopy Theory and Differential Forms_,  Progress in Mathematics Volume 16, Birkhauser (1981, 2013) ([doi:10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4))
 
 * {#SinhaWalter13} Dev Sinha, Ben Walter, _Lie coalgebras and rational homotopy theory II: Hopf invariants_, Trans. Amer. Math. Soc. 365 (2013), 861-883  ([arXiv:0809.5084](https://arxiv.org/abs/0809.5084), [doi:10.1090/S0002-9947-2012-05654-6](https://doi.org/10.1090/S0002-9947-2012-05654-6))
+
+* {#FSS19} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization]]_, 2019
+
 
 [[!redirects functional cup products]]
 
