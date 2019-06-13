@@ -90,7 +90,7 @@ Review includes
 
 * Mammadov, _Reissner-Nordstr&#246;m metric_ ([pdf](http://gmammado.mysite.syr.edu/notes/RN_Metric.pdf))
  
-* Wikipedia, _[Reissner-Nordstr&#246;m metric](https://en.wikipedia.org/wiki/Reissner&#8211;Nordstr&#246;m_metric)_
+* Wikipedia, _<a href="https://en.wikipedia.org/wiki/Reissner%E2%80%93Nordstr%C3%B6m_metric">Reissner-Nordstr&#246;m metric</a>_
 
 That the [[near horizon geometry]] of the [[extremal black hole|extremal]] Reissner-Nordström black hole in 4d ins 2d [[anti de Sitter spacetime]] times the [[2-sphere]], $AdS_2 \times S^2$, was observed in 
 
