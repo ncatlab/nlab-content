@@ -16,10 +16,10 @@
 
 ## Idea
 
-The _axion_ is a hypothetical type of [[field (physics)|field]]/[[fundamental particle]] originally hypothesized ([Weinberg 77](#Weinberg77), [Wilcek 78](#Wilcek78))  as a solution to the [[strong CP problem]] in the [[standard model of particle physics]]. 
-After the initial model for the axion was quickly ruled out by [[experiment]] (see [Wilcek 78](#Wilcek78) for the early history) a variant model was found ([Dine-Fischler-Srednicki 81](#DineFischlerSrednicki81)), called the "invisible axion", which does not violate experimental bounds. 
+The _axion_ is a hypothetical type of [[field (physics)|field]]/[[fundamental particle]] originally hypothesized ([Weinberg 77](#Weinberg77), [Wilczek 78](#Wilczek78))  as a solution to the [[strong CP problem]] in the [[standard model of particle physics]]. 
+After the initial model for the axion was quickly ruled out by [[experiment]] (see [Wilczek 78](#Wilczek78) for the early history) a variant model was found ([Dine-Fischler-Srednicki 81](#DineFischlerSrednicki81)), called the "invisible axion", which does not violate experimental bounds. 
 
-The "invisible axion" turns out to also be a natural candidate for [[dark matter]] [Preskill-Wise-Wilcek 83](#PreskillWiseWilcek83), hence potentially also solves one of the problems with the [[standard model of cosmology]]. More recently it is argued in [Hui-Ostriker-Tremaine-Witten 16](#HOTW16) that indeed axionic dark matter ([[fuzzy dark matter]]) potentially solves the remaining problems of standard WIMP dark matter models: WIMP dark matter models work exceedingly well on [[cosmology|cosmological]] scales but has serious experimental problems on the scale of [[galaxies]]. Due to the extreme lightness of axion particles, their [[de Broglie wavelength]] may be of the scale of galaxies and hence their quantum properties may become relevant at this scale to deviate in the right way from the WIMP models.
+The "invisible axion" turns out to also be a natural candidate for [[dark matter]] [Preskill-Wise-Wilczek 83](#PreskillWiseWilczek83), hence potentially also solves one of the problems with the [[standard model of cosmology]]. More recently it is argued in [Hui-Ostriker-Tremaine-Witten 16](#HOTW16) that indeed axionic dark matter ([[fuzzy dark matter]]) potentially solves the remaining problems of standard WIMP dark matter models: WIMP dark matter models work exceedingly well on [[cosmology|cosmological]] scales but has serious experimental problems on the scale of [[galaxies]]. Due to the extreme lightness of axion particles, their [[de Broglie wavelength]] may be of the scale of galaxies and hence their quantum properties may become relevant at this scale to deviate in the right way from the WIMP models.
 
 The Pecchei-Quinn shift symmetry of the axion and the peculiar nature of the axion [[interaction term]] which are needed to make the axion model work this way have been argued to naturally arise in [[string theory]], if the axion is identified with the [[KK-reduction]] of the [[higher gauge fields]] in [[string theory]]. This we discuss [below](#AsArisingFromStringTheory).
 
@@ -341,7 +341,7 @@ The axion as such was originally proposed in
 
 * {#Weinberg77} [[Steven Weinberg]], _New light boson_, Phys. Rev. Lett. 40:223-6 (1977)
 
-* {#Wilcek78} [[Frank Wilcek]], _Problem of strong P and T invariance in the presence of instantons_, Phys. Rev. Lett. 40:279-82 (1978)
+* {#Wilczek78} [[Frank Wilczek]], _Problem of strong P and T invariance in the presence of instantons_, Phys. Rev. Lett. 40:279-82 (1978)
 
 The experimentally viable variant as the "invisible axion" is due to 
 
@@ -349,7 +349,7 @@ The experimentally viable variant as the "invisible axion" is due to
 
 The observation that the "invisible axion" is a candidate for [[dark matter]] is due to three groups:
 
-* {#PreskillWiseWilcek83} [[John Preskill]], M. Wise, [[Frank Wilcek]], _Cosmology of the invisible axion_, Phys. Lett. B 120:127-32 (1983)
+* {#PreskillWiseWilczek83} [[John Preskill]], M. Wise, [[Frank Wilczek]], _Cosmology of the invisible axion_, Phys. Lett. B 120:127-32 (1983)
 
 * {#AbbottSikivie83} L.F. Abbott, P. Sikivie, _A Cosmological Bound on the Invisible Axion_, Phys.Lett. B120:133-36 (1983)
 
@@ -357,7 +357,7 @@ The observation that the "invisible axion" is a candidate for [[dark matter]] is
 
 A historical recollection of the development until here is in
 
-* [[Frank Wilcek]], _Birth of axions_ in _This Week's Citation Classic_ (1991) ([pdf](http://www.garfield.library.upenn.edu/classics1991/A1991FE76900001.pdf))
+* [[Frank Wilczek]], _Birth of axions_ in _This Week's Citation Classic_ (1991) ([pdf](http://www.garfield.library.upenn.edu/classics1991/A1991FE76900001.pdf))
 
 The argument that the [[topological Yang-Mills theory|topological]] [[interaction]] term $\propto a \langle F \wedge F\rangle$ gives the axion field $a$ a vanishing [[vacuum expectation value]] is due to
 
