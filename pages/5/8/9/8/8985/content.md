@@ -103,11 +103,11 @@ The last statement is almost obvious using Lemma 1 above. Well-pointedness for $
 =--
 +-- {: .num_lemma #WellPointedTransfer}
 ###### Lemma
-Let $F:\mathcal{A} \rightleftarrows \mathcal{B} :G$ be an adjunction and $(S',\sigma')$ an (accessible) well-pointed endofunctor on $\mathcal{B}$.  Let $(S,\sigma)$ be the pushout
+Let $F:\mathcal{A} \rightleftarrows \mathcal{B} :G$ be an adjunction and $(S',\sigma')$ an (accessible) well-pointed endofunctor on $\mathcal{A}$.  Let $(S,\sigma)$ be the pushout
 $$ \array{ F G & \xrightarrow{F \sigma' G} & F S' G \\
   \downarrow && \downarrow \\
   Id & \xrightarrow{\sigma} & S. } $$
-Then $(S,\sigma)$ is (accessible and) well-pointed, and $A\in\mathcal{A}$ is an $S$-algebra exactly when $G A$ is an $S'$-algebra.
+Then $(S,\sigma)$ is (accessible and) well-pointed, and $B\in\mathcal{B}$ is an $S$-algebra exactly when $G B$ is an $S'$-algebra.
 =--
 +-- {: .proof}
 ###### Proof
