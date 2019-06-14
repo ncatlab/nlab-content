@@ -35,6 +35,9 @@ In general $\Pi$ does not exist, but the pro-left adjoint $\Pi_{pro}$ of $\Delta
 
 In general $\Pi_{pro}$ sends the [[terminal object]] to the [[shape of an (∞,1)-topos|shape]] of $\mathbf{H}$.
 
+##Related topics
+
+* [[prorepresentable functor]]
 
 ## References
 
