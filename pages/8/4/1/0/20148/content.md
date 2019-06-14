@@ -70,7 +70,7 @@ $$
 
 ### Appearance in Seiberg-Witten theory and Floer homology
 
-On a spin 4-manifold, the $U(1)$-symmetry of the [[Seiberg-Witten equations]] enhances to a $Pin(2)$-symmetry ([Furuta 01](#Furuta01)). Because of this, $Pin(2)$-equivariance appears in [[Seiberg-Witten theory]] and [[Floer homology]]. See the references below.
+On a [[spin structure|spin]] [[4-manifold]], the $U(1)$-symmetry of the [[Seiberg-Witten equations]] enhances to a $Pin(2)$-symmetry ([Furuta 01](#Furuta01)). Because of this, $Pin(2)$-equivariance appears in [[Seiberg-Witten theory]] and [[Floer homology]]. See the references below.
 
 
 
