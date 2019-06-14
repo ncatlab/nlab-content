@@ -231,6 +231,7 @@ What should be the [[categorical semantics]] of dependent linear type theory was
 * [[indexed monoidal (∞,1)-category]]
 
 ## References
+ {#References}
 
 A [[syntax]] extending [[LF]] with linear dependent types was first published in
 
