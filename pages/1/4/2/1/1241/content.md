@@ -1,4 +1,4 @@
-
+single
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -80,6 +80,12 @@ namely as the [[direct sum]] of [[generalized the|the]] two (complex) [[irreduci
 
 Again, this means that under the embedding of the gauge group $G_{SM}$ all the way into the [[simple Lie group]] $Spin(10)$, its ingredients become _simpler_, not just in a naive sense, but in the technical mathematical sense of _[[simple objects|simple algebraic objects]]_.
 
+Discussion of $SO(10)$ (i.e. $Spin(10)$) GUT-models with realistic [[phenomenology]] is in [Lavoura-Wolfenstein 10](#LavouraWolfenstein10) [Altarelli-Meloni 13](#AltarelliMeloni13) [Dueck-Rodejohann 13](#DueckRodejohann13) [Ohlsson-Pernow 19](#OhlssonPernow19) [CPS 19](#CPS19). 
+
+Disucssion of [[leptoquarks]] in $SO(10)$-models possibly explaining the [[flavour anomalies]]: [AMM 19](#AMM19)
+
+\linebreak
+
 ### Exceptional series GUTs
 
 This way, the most studied choices of GUT-groups $G$ are [[special unitary group|SU(5)]], [[spin group|Spin(10)]] (in the physics literature often referred to as [[special orthogonal group|SO(10)]]) and [[E6]] (review includes [Witten 86, sections 1 and 2](#Witten86)). 
@@ -145,9 +151,11 @@ Discussion of [[string phenomenology]] of [[intersecting D-brane models]] [[KK-c
 ## References 
  {#References}
 
+### General
+
 Original articles include
 
-* {#PatiSalam74} [[Jogesh Pati]], [[Abdus Salam]], _Lepton number as the fourth ``color''_, Phys. Rev. D 10, 275 – Published 1 July 1974 ([doi:10.1103/PhysRevD.10.275](https://doi.org/10.1103/PhysRevD.10.275))
+* {#PatiSalam74} [[Jogesh Pati]], [[Abdus Salam]], _Lepton number as the fourth "color"_, Phys. Rev. D 10, 275 – Published 1 July 1974 ([doi:10.1103/PhysRevD.10.275](https://doi.org/10.1103/PhysRevD.10.275))
 
 
 * {#GeorgiGlashow74} [[Howard Georgi]], [[Sheldon Glashow]], _Unity of All Elementary-Particle Forces_, Phys. Rev. Lett. 32, 438, 1974 ([doi:10.1103/PhysRevLett.32.438](https://doi.org/10.1103/PhysRevLett.32.438))
@@ -188,25 +196,60 @@ Introduction to GUTs aimed more at mathematicians include
 
 * {#BaezHuerta09} [[John Baez]], [[John Huerta]], _The Algebra of Grand Unified Theories_, Bull.Am.Math.Soc.47:483-552,2010 ([arXiv:0904.1556](http://arxiv.org/abs/0904.1556))
 
-Discussion of comparison of GUTs to [[experiment]] and [[phenomenology]] includes
+
+
+### Proton (non-)decay
+  {#ReferencesProtonNonDecay}
+
+Discussion of experimental bounds on [[proton decay]] in GUTs includes
+
+* {#KM14} Helena Kole&#353;ov&#225;, [[Michal Malinský]], _Proton lifetime in the minimal $SO(10)$ GUT and its implications for the LHC_, Phys. Rev. D 90, 115001 (2014) ([arXiv:1409.4961](http://arxiv.org/abs/1409.4961))
+
+Claim that [[proton decay]] may be entirely avoided:
+
+* {#MuetterRatzVaudrvange16} Andreas Mütter, Michael Ratz, Patrick K.S. Vaudrevange, _Grand Unification without Proton Decay_ ([arXiv:1606.02303](https://arxiv.org/abs/1606.02303))
+
+  (claims that many [[string theory]] and [[supergravity]] models have this property)
+
+* {#FornalGrinstein17} Bartosz Fornal, Benjamin Grinstein, _$SU(5)$ Unification without Proton Decay_, Physics Review Letters ([arXiv:1706.08535](https://arxiv.org/abs/1706.08535))
+
+* {#FornalGrinstein18} Bartosz Fornal, Benjamin Grinstein, _Grand Unified Theory with a Stable Proton_, Int. J. Mod. Phys. A 33 (2018) 1844013 ([arXiv:1808.00953](https://arxiv.org/abs/1808.00953))
+
+Claim that [[threshold corrections]] can considerably alter (decrease) proton decay rate predictions in non-supersymmetric GUTs:
+
+* Joydeep Chakrabortty, Stephen F. King, Rinku Maji, _Unification, Proton Decay and Topological Defects in non-SUSY GUTs with Thresholds_ ([arXiv:1901.05867](https://arxiv.org/abs/1901.05867))
+
+
+
+### Realistic models and phenomenology
+ {#ReferencesRealisticModels}
+
+Discussion of [[phenomenology|phenomenologically]] viable GUT-[[model (in theoretical physics)|models]] (compatible with [[experiment]] and the [[standard model of particle physics]]):
 
 for non-superymmetric [[model (physics)|models]]:
 
-* L. Lavoura and Lincoln Wolfenstein, _Resuscitation of minimal $SO(10)$ grand unification_, Phys. Rev. D 48, 264 ([doi:10.1103/PhysRevD.48.264](https://doi.org/10.1103/PhysRevD.48.264))
+* {#LavouraWolfenstein10} L. Lavoura and Lincoln Wolfenstein, _Resuscitation of minimal $SO(10)$ grand unification_, Phys. Rev. D 48, 264 ([doi:10.1103/PhysRevD.48.264](https://doi.org/10.1103/PhysRevD.48.264))
 
-* Guido Altarelli, Davide Meloni, _A non Supersymmetric SO(10) Grand Unified Model for All the Physics below $M_{GUT}$_ ([arXiv:1305.1001](https://arxiv.org/abs/1305.1001))
+* {#AltarelliMeloni13} Guido Altarelli, Davide Meloni, _A non Supersymmetric SO(10) Grand Unified Model for All the Physics below $M_{GUT}$_ ([arXiv:1305.1001](https://arxiv.org/abs/1305.1001))
 
-* Alexander Dueck, Werner Rodejohann, _Fits to $SO(10)$ Grand Unified Models_ ([arXiv:1306.4468](http://arxiv.org/abs/1306.4468))
+* {#DueckRodejohann13} Alexander Dueck, Werner Rodejohann, _Fits to $SO(10)$ Grand Unified Models_ ([arXiv:1306.4468](http://arxiv.org/abs/1306.4468))
 
 * {#FongMeloni14} Chee Sheng Fong, Davide Meloni, Aurora Meroni, Enrico Nardi, _Leptogenesis in $SO(10)$_ ([arXiv:1412.4776](http://arxiv.org/abs/1412.4776))
 
 * {#OhlssonPernow19} Tommy Ohlsson, Marcus Pernow, _Fits to Non-Supersymmetric SO(10) Models with Type I and II Seesaw Mechanisms Using Renormalization Group Evolution_ ([arXiv:1903.08241](https://arxiv.org/abs/1903.08241))
+
+* {#CPS19} Mainak Chakraborty, M.K. Parida, Biswonath Sahoo, _Triplet Leptogenesis, Type-II Seesaw Dominance, Intrinsic Dark Matter, Vacuum Stability and Proton Decay in Minimal SO(10) Breakings_ ([arXiv:1906.05601](https://arxiv.org/abs/1906.05601))
+
+  > Results indicating non-SUSY $SO(10)$ as self sufficient theory for neutrino masses, baryon asymmetry, dark matter, vacuum stability of SM scalar potential, origin of three gauge forces, and observed proton stability.
+
 
 for [[supersymmetry|supersymmetric]] [[model (physics)|models]]:
 
 * Archana Anandakrishnan, B. Charles Bryant, Stuart Raby, _LHC Phenomenology of $SO(10)$ Models with Yukawa Unification II_ ([arXiv:1404.5628](http://arxiv.org/abs/1404.5628))
 
 * Ila Garg, _New minimal supersymmetric $SO(10)$ GUT phenomenology and its cosmological implications_ ([arXiv:1506.05204](http://arxiv.org/abs/1506.05204))
+
+### In string theory
 
 Introductory overview to GUTs in [[string theory]] is in 
 
@@ -243,6 +286,9 @@ of $E_8$ in F-theory_, 2014 ([pdf](http://stringpheno2014.ictp.it/parallels/tues
 
 * {#Vafa15} [[Cumrun Vafa]], _Reflections on F-theory_, 2015 (<a href="http://f-theory15.mpp.mpg.de/talks/Vafa.pdf">pdf</a>)
 
+
+### In Connes-Lott models
+
 Discussion of GUTs within [[Connes-Lott models]]:
 
 * {#ChamseddineConnesMukhanov14} [[Ali Chamseddine]], [[Alain Connes]], Viatcheslav Mukhanov, _Quanta of Geometry: Noncommutative Aspects_, Phys. Rev. Lett. 114 (2015) 9, 091302 ([arXiv:1409.2471](https://arxiv.org/abs/1409.2471))
@@ -252,27 +298,10 @@ Discussion of GUTs within [[Connes-Lott models]]:
 * {#Connes17} [[Alain Connes]], section 4 of _Geometry and the Quantum_, in _Foundations of Mathematics and Physics One Century After Hilbert_, Springer 2018. 159-196 ([arXiv:1703.02470](https://arxiv.org/abs/1703.02470), [doi:10.1007/978-3-319-64813-2](https://www.springer.com/gp/book/9783319648125))
 
 
+### Exotica: Leptoquarks, $Z'$-bosons, etc.
 
 
-Discussion of experimental bounds on [[proton decay]] in GUTs includes
-
-* {#KM14} Helena Kole&#353;ov&#225;, [[Michal Malinský]], _Proton lifetime in the minimal $SO(10)$ GUT and its implications for the LHC_, Phys. Rev. D 90, 115001 (2014) ([arXiv:1409.4961](http://arxiv.org/abs/1409.4961))
-
-Claim that [[proton decay]] may be entirely avoided:
-
-* {#MuetterRatzVaudrvange16} Andreas Mütter, Michael Ratz, Patrick K.S. Vaudrevange, _Grand Unification without Proton Decay_ ([arXiv:1606.02303](https://arxiv.org/abs/1606.02303))
-
-  (claims that many [[string theory]] and [[supergravity]] models have this property)
-
-* {#FornalGrinstein17} Bartosz Fornal, Benjamin Grinstein, _$SU(5)$ Unification without Proton Decay_, Physics Review Letters ([arXiv:1706.08535](https://arxiv.org/abs/1706.08535))
-
-* {#FornalGrinstein18} Bartosz Fornal, Benjamin Grinstein, _Grand Unified Theory with a Stable Proton_, Int. J. Mod. Phys. A 33 (2018) 1844013 ([arXiv:1808.00953](https://arxiv.org/abs/1808.00953))
-
-Claim that [[threshold corrections]] can considerably alter (decrease) proton decay rate predictions in non-supersymmetric GUTs:
-
-* Joydeep Chakrabortty, Stephen F. King, Rinku Maji, _Unification, Proton Decay and Topological Defects in non-SUSY GUTs with Thresholds_ ([arXiv:1901.05867](https://arxiv.org/abs/1901.05867))
-
-Topological defects can play considerable role to constrain the non-SUSy and SUSY GUTs:
+Topological defects can play considerable role to constrain the non-SUSY and SUSY GUTs:
 
 * Joydeep Chakrabortty, Rinku Maji, Sunando Kumar Patra, Tripurari Srivastava, Subhendra Mohanty, _Roadmap of left-right models based on GUTs_ 
 ([arXiv:1711.11391] (https://arxiv.org/abs/1711.11391), Phys.Rev. D97 (2018) no.9, 095010.)
