@@ -68,6 +68,10 @@ $$
   }
 $$
 
+### Appearance in Seiberg-Witten theory and Floer homology
+
+On a spin 4-manifold, the $U(1)$-symmetry of the [[Seiberg-Witten equations]] enhances to a $Pin(2)$-symmetry ([Furuta 01](#Furuta01)). Because of this, $Pin(2)$-equivariance appears in [[Seiberg-Witten theory]] and [[Floer homology]]. See the references below.
+
 
 
 ## Related concepts
@@ -80,6 +84,8 @@ $$
 $Pin(2)$-[[equivariant homotopy theory]]/[[equivariant cohomology theory]] 
 
 application to [[Seiberg-Witten theory]] and [[Floer homology]]:
+
+* {#Furuta01} Mikio Furuta, [_Monopole equation and the $11/8$-conjecture_](https://www.intlpress.com/site/pub/files/_fulltext/journals/mrl/2001/0008/0003/MRL-2001-0008-0003-a005.pdf) Mathematical Research Letters, Volume 8, Number 3, (2001).
 
 * Ciprian Manolescu, _$Pin(2)$-equivariant Seiberg-Witten Floer homology and the Triangulation Conjecture_ ([arXiv:1303.2354](https://arxiv.org/abs/1303.2354))
 
