@@ -229,7 +229,7 @@ Thus, by the general notion of "partial adjoints"; we say
 +-- {: .num_defn #LocalKanExtension}
 ###### Definition
 
-The local **left Kan extension** of  a functor $F\in [C,D]$ along $p : C \to C'$* is, if it exists, a functor
+The local **left Kan extension** of  a functor $F\in [C,D]$ along $p : C \to C'$ is, if it exists, a functor
 
 $$
   Lan_p\,F : C'\to D
