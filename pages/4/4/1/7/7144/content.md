@@ -50,11 +50,11 @@ We reformulate the traditional definition [above](#TraditionalDefinition) from t
 A [[group]] [[action]] $\rho\colon G \times X \to X$ is equivalently encoded in its [[action groupoid]] [[fiber sequence]] in [[Grpd]]
 
 $$
-  X \to X/G \to \mathbf{B}G
+  X \to X//G \to \mathbf{B}G
   \,,
 $$
 
-where the $X/G$ is the [[action groupoid]] itself, $\mathbf{B}G$ is the [[delooping]] [[groupoid]] of $G$ and $X$ is regarded as a [[0-truncated]] groupoid.
+where the $X//G$ is the [[action groupoid]] itself, $\mathbf{B}G$ is the [[delooping]] [[groupoid]] of $G$ and $X$ is regarded as a [[0-truncated]] groupoid.
 
 This fiber sequence may be thought of as being the $\rho$-[[associated bundle]] to the $G$-[[universal principal bundle]]. (Here discussed for $G$ a [[discrete group]] but this discussion goes through verbatim for $G$ a [cohesive group](/nlab/show/cohesive+%28infinity,1%29-topos+--+structures#InfinGroups).)
 
@@ -64,7 +64,7 @@ $$
   x\colon * \to X
 $$
 
-any [[global element]] of $X$, we have an induced element $x\colon * \to X \to X/G$ of the action groupoid and may hence form the first [[homotopy group]] $\pi_1(X/G, x)$. This is the stabilizer group. Equivalently this is the [[loop space object]] of $X/G$ at $x$, given by the [[homotopy pullback]]
+any [[global element]] of $X$, we have an induced element $x\colon * \to X \to X//G$ of the action groupoid and may hence form the first [[homotopy group]] $\pi_1(X//G, x)$. This is the stabilizer group. Equivalently this is the [[loop space object]] of $X//G$ at $x$, given by the [[homotopy pullback]]
 
 $$
   \array{
@@ -72,7 +72,7 @@ $$
      \\
      \downarrow && \downarrow^{\mathrlap{x}}
      \\
-     * &\stackrel{x}{\to}& X/G
+     * &\stackrel{x}{\to}& X//G
   }
   \,.
 $$
@@ -97,7 +97,7 @@ For $X \in \mathbf{H}$ any object, an [[∞-action]] of $G$ on $X$ is equivalent
 
 $$
   \array{
-    X &\longrightarrow& X/G
+    X &\longrightarrow& X//G
     \\
     && \downarrow
     \\
@@ -121,7 +121,7 @@ $$
      \\
      \downarrow && \downarrow
      \\
-     X &\to& X/G
+     X &\to& X//G
   }
   \,.
 $$
@@ -141,7 +141,7 @@ $$
 then the **stabilizer $\infty$-group** $Stab_\rho(x)$ of the $G$-action at $x$ is the [[loop space object]]
 
 $$
-  Stab_\rho(x) \coloneqq \Omega_x (X/G)
+  Stab_\rho(x) \coloneqq \Omega_x (X//G)
  \,.
 $$
 
@@ -153,15 +153,15 @@ $$
 Equivalently, def. \ref{StabilizerInInfinityTopos}, gives the [[loop space object]] of the [[1-image]] $\mathbf{B}Stab_\rho(x)$ of the morphism
 
 $$
-  \ast \stackrel{x}{\to} X \to X/G
+  \ast \stackrel{x}{\to} X \to X//G
   \,.
 $$
 
-As such the [[delooping]] of the stabilizer $\infty$-group sits in a [[1-epimorphism]]/[[1-monomorphism]] factorization $\ast \to \mathbf{B}Stab_\rho(x) \hookrightarrow X/G$ which combines with the homotopy fiber sequence of prop. \ref{InfinityAction} to a diagram of the form
+As such the [[delooping]] of the stabilizer $\infty$-group sits in a [[1-epimorphism]]/[[1-monomorphism]] factorization $\ast \to \mathbf{B}Stab_\rho(x) \hookrightarrow X//G$ which combines with the homotopy fiber sequence of prop. \ref{InfinityAction} to a diagram of the form
 
 $$
   \array{
-    \ast &\stackrel{x}{\longrightarrow}& X &\stackrel{}{\longrightarrow}& X/G
+    \ast &\stackrel{x}{\longrightarrow}& X &\stackrel{}{\longrightarrow}& X//G
     \\
     \downarrow^{\mathrlap{epi}} && & \nearrow_{\mathrlap{mono}} & \downarrow
     \\
@@ -205,7 +205,7 @@ Clearly, for every point $g \in G$ we have $Stab_{\rho}(g) \simeq * \times_* * \
 ### Stabilizers of shapes -- Klein geometry
  {#KleinGeometry}
 
-Let $X \to X/G \stackrel{\rho}{\to} \mathbf{B}G$ be an [[∞-action]] of $G$ on $X$. 
+Let $X \to X//G \stackrel{\rho}{\to} \mathbf{B}G$ be an [[∞-action]] of $G$ on $X$. 
 
 Let $Y \in \mathbf{H}$ any other object, and regard it as equipped with the trivial $G$-action $Y \to Y \times \mathbf{B}G \to \mathbf{B}G$. There is then an induced [[∞-action]] $\rho_Y$ on the [[internal hom]] $[Y,X]$, the [[conjugation action]], given by internal hom in the [[slice (∞,1)-topos]] over $\mathbf{B}G$:
 
@@ -235,7 +235,7 @@ Here  $(\underset{\mathbf{B}G}{\sum} [Y,X]_{/\mathbf{B}G} \to \mathbf{B}G )$ is 
 
 $$
   \array{
-    \underset{\mathbf{B}G}{\sum} [Y,X]_{/\mathbf{B}G} &\to& [Y, X/G]
+    \underset{\mathbf{B}G}{\sum} [Y,X]_{/\mathbf{B}G} &\to& [Y, X//G]
     \\
     \downarrow^{\mathrlap{\rho_Y}} 
     && 
@@ -255,7 +255,7 @@ where the bottom morphism is the [[internal hom]] [[adjunct]] of the [[projectio
 +-- {: .proof}
 ###### Proof
 
-We check the Hom adjunction property, that for any $(A/G \stackrel{\alpha}{\to} \mathbf{B}G) \in \mathbf{B}G$ we have
+We check the Hom adjunction property, that for any $(A//G \stackrel{\alpha}{\to} \mathbf{B}G) \in \mathbf{B}G$ we have
 
 $$
   \mathbf{H}_{/\mathbf{B}G}(A,[Y,X]_{\mathbf{B}G})
@@ -265,7 +265,7 @@ $$
 
 with $[Y,X]_{/\mathbf{B}G}$ replaced by the above pullback. 
 
-Notice that by the $G$-action on $Y$ being trivial, we have $A \times_{\mathbf{B}G} Y \simeq (A/G \times Y  \stackrel{p_1}{\to} A/G \stackrel{\alpha}{\to} \mathbf{B}G) \in \mathbf{H}_{/\mathbf{B}G}$.
+Notice that by the $G$-action on $Y$ being trivial, we have $A \times_{\mathbf{B}G} Y \simeq (A//G \times Y  \stackrel{p_1}{\to} A//G \stackrel{\alpha}{\to} \mathbf{B}G) \in \mathbf{H}_{/\mathbf{B}G}$.
 
 
 Then use the characterization of [Hom-spaces in a slice](over-%28infinity%2C1%29-category#HamSpacesInASlice) to find $\mathbf{H}_{/\mathbf{B}G}(A,[Y,X]_{\mathbf{B}G})$ as the [[homotopy pullback]] on the left of
@@ -275,29 +275,29 @@ $$
   \array{
     \mathbf{H}_{/\mathbf{B}G}(A,[Y,X]_{\mathbf{B}G}) 
       &\longrightarrow& 
-    \mathbf{H}(A/G, [Y,X]/G) &\to& \mathbf{H}(A/G,[Y, X/G])
+    \mathbf{H}(A//G, [Y,X]//G) &\to& \mathbf{H}(A//G,[Y, X//G])
     \\
-    \downarrow && \downarrow^{\mathrlap{\mathbf{H}(A/G,\rho_Y)}} 
+    \downarrow && \downarrow^{\mathrlap{\mathbf{H}(A//G,\rho_Y)}} 
     && 
-    \downarrow^{\mathrlap{\mathbf{H}(A/G,[Y, \rho])}}
+    \downarrow^{\mathrlap{\mathbf{H}(A//G,[Y, \rho])}}
     \\
     \ast 
       &\stackrel{\vdash \alpha}{\longrightarrow}& 
-    \mathbf{H}(A/G,\mathbf{B}G)
+    \mathbf{H}(A//G,\mathbf{B}G)
       &\to&
-    \mathbf{H}(A/G,[Y, \mathbf{B}G])
+    \mathbf{H}(A//G,[Y, \mathbf{B}G])
   }
   \,,
 $$
 
-Now using the Hom-adjunction in $\mathbf{H}$ itself, the fact that $\mathbf{H}(A/G,-)$ preserves [[homotopy pullbacks]] and the [[pasting law]] this is equivalent to
+Now using the Hom-adjunction in $\mathbf{H}$ itself, the fact that $\mathbf{H}(A//G,-)$ preserves [[homotopy pullbacks]] and the [[pasting law]] this is equivalent to
 
 $$
   \array{
     \mathbf{H}_{/\mathbf{B}G}(A\times_{\mathbf{B}G} Y, X) 
       &\longrightarrow&  
       &\longrightarrow& 
-    \mathbf{H}(A/G \times Y, X /G)
+    \mathbf{H}(A//G \times Y, X //G)
     \\
     \downarrow && \downarrow 
     && 
@@ -305,9 +305,9 @@ $$
     \\
     \ast 
       &\stackrel{\vdash \alpha}{\longrightarrow}& 
-    \mathbf{H}(A/G,\mathbf{B}G)
+    \mathbf{H}(A//G,\mathbf{B}G)
       &\to&
-    \mathbf{H}(A/G \times Y,  \mathbf{B}G)
+    \mathbf{H}(A//G \times Y,  \mathbf{B}G)
   }
   \,,
 $$
