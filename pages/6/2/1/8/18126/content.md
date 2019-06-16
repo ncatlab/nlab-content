@@ -130,7 +130,7 @@ In this first part we discuss the foundations of the concept of "sets equipped w
 
 $\,$
 
-+-- {: principle}
++-- {: principle #ClassicalLogic}
 **([[classical logic]])**
 
 The [[proofs]] in the following freely use the [[principle of excluded middle]], hence [[proof by contradiction]],
@@ -5236,7 +5236,7 @@ $\,$
 ### $T_n$ reflection
  {#HausdorffReflections}
 
-While the [[topological subspace]] construction preserves the $T_n$-property  for $n \in \{0,1,2\$
+While the [[topological subspace]] construction preserves the $T_n$-property  for $n \in \{0,1,2\}$
 (example \ref{TiSubspaces}) the construction of [[quotient topological spaces]] in general does not,
 as shown by examples \ref{RQuotientedByQ} and \ref{LineWithTwoOrigins}.
 
