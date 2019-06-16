@@ -22,6 +22,21 @@
 Given an [[action]] $G\times X\to X$ of a ([[discrete group|discrete]]) [[group]] $G$ on a set $X$, any [[set]] of the form $G x = \{g x|g\in G\}$ for a fixed $x\in X$ is called an __orbit__ of the action, or the __$G$-orbit through the point $x$__.  The set $X$ is a [[disjoint union]] of its orbits.
 
 
+### Category of orbits
+
+The _category of orbits_ of a [[group]] $G$ is the full subcategory
+of the category of sets with an action of $G$.
+
+Since any orbit of $G$ is isomorphic to the orbit $G/H$
+for some group $H$, the category of $G$-orbits admits the following
+alternative description: its objects are subgroups $H$ of $G$
+and morphisms $H_1\to H_2$ are elements $[g]\in G/H_2$
+such that $H_1\subset gH_2g^{-1}$.
+
+In particular, the group of automorphisms of a $G$-orbit $G/H$
+is $N_G(H)/H$, where $N_G(H)$ is the [[normalizer]] of $H$ in $G$.
+
+
 ### Topological case
 
 If $G$ is a [[topological group]], $X$ a [[topological space]] and the action [[continuous map|continuous]], then one can distinguish [[closed subset|closed]] orbits from those which are not. Even when one starts with $G,X$ [[Hausdorff space|Hausdorff]], the space of orbits is typically non-Hausdorff. 
