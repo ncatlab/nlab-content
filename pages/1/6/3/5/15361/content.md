@@ -36,6 +36,11 @@ Related:
 
 ***
 
+> The most spectacular successes and interactions with math have been in the areas of [[algebra]], [[geometry]], and [[topology]]. A hallmark of the subject is the astonishing converse of [[The Unreasonable Effectiveness of Mathematics in the Natural Sciences|Wigner's title]]: [[The Unreasonable Effectiveness of Physics in the Mathematical Sciences|The unreasonable effectiveness of physics in the mathematical sciences]]. The subject is dauntingly vast. I will limit my comments to just a few possible future paths.
+
+> ([Moore 14, p. 10](#Moore14))
+
+
 > {#WeStillHaveNo} We still have no fundamental formulation of "[[M-theory]]" - the hypothetical theory of which [[11-dimensional supergravity]] and the five [[string theories]] are all special limiting cases. Work on formulating the fundamental principles underlying M-theory has noticeably waned. 
 
 > {#AGoodStartWasGivenByTheMatrixTheory} A good start was given by the [[BFSS matrix model|Matrix theory]] approach of [[Tom Banks|Banks]], [[Willy Fischler|Fischler]], Shenker and [[Leonard Susskind|Susskind]]. We have every reason to expect that this theory produces the correct [[scattering amplitudes]] of modes in the [[11-dimensional supergravity]] multiplet in 11-dimensional [[Minkowski space]] - even at energies sufficiently large that [[black holes]] should be created. (This latter phenomenon has never been explicitly demonstrated). But Matrix theory is only a beginning and does not give us the whole picture of [[M-theory]]. The program ran into increasing technical difficulties when more complicated compactifications were investigated. (For example, compactification on a six-dimensional torus is not very well understood at all. $[...]$). Moreover, to my mind, as it has thus far been practiced it has an important flaw: It has not led to much significant new mathematics. 
