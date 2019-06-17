@@ -305,11 +305,12 @@ $$
 For instance ([Williams, section 4.2](#Williams)).
 
 ### In ordinary cohomology
+ {#InOrdinaryCohomology}
 
 +-- {: .num_prop #KunnethInOrdinaryCohomology}
 ###### Proposition
 
-Let $R$ be a [[ring]] and let $X,Y$ be topological spaces. If $H^k(Y,R)$ is a finitely generated [[free module]] over $R$, then the comparison map (cross product)
+Let $R$ be a [[ring]] and let $X,Y$ be [[topological spaces]]. If the [[ordinary cohomology|ordinary]] [[cohomology ring]] $H^k(Y,R)$ is a [[finitely generated module|finitely generated]] [[free module]] over $R$, then the comparison map ("cross product")
 
 $$
   H^\bullet(X,R)
@@ -319,13 +320,11 @@ $$
   H^\bullet(X\times Y, R)
 $$
 
-is an [[isomorphism]].
+(from the [[tensor product]] of [[cohomology rings]] to the cohomology ring of the [[product space]]) is an [[isomorphism]].
 
 =--
 
-(e.g. [Hatcher, theorem 3.15](#Hatcher))
-
-In more generality: ([Spanier, section 5.5, theorem 11](#Spanier))
+(e.g. [Hatcher, theorem 3.15](#Hatcher), and in more generality: [Spanier, section 5.5, theorem 11](#Spanier))
 
 ### In Generalised cohomology theories 
 
