@@ -661,7 +661,7 @@ $$
   \end{aligned}
 $$
 
-On the right we are displaying immediate [[equivalence of (∞,1)-categories|equivalences]], the first by Prop. \ref{GorbitCategory}, the second by the general slicing behaviour of $\infty$-toposes ([this Prop.](over-(infinity%2C1)-topos#SlicingCommutesWithPassingToPresheaves)).
+On the right we are displaying immediate [[equivalence of (∞,1)-categories|equivalences]], the first by Prop. \ref{GorbitCategory}, the second by the general slicing behaviour of $\infty$-toposes ([this Prop.](slice+homotopy-topos#SlicingCommutesWithPassingToPresheaves)).
 
 =--
 
