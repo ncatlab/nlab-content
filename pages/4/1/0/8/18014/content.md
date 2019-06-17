@@ -49,6 +49,11 @@ The [[rational homotopy theory]] of nilpotent topological spaces is discussed in
 
 * {#Neisendorfer78} [[Joseph Neisendorfer]], _Lie algebras, coalgebras and rational homotopy theory for nilpotent spaces_, Pacific J. Math. Volume 74, Number 2 (1978), 429-460. ([euclid](http://projecteuclid.org/euclid.pjm/1102810284))
 
+Discussion in [[homotopy type theory]]:
+
+* {#Scoccola19} Luis Scoccola, _Nilpotent Types and Fracture Squares in Homotopy Type Theory_ ([arXiv:1903.03245](https://arxiv.org/abs/1903.03245))
+
+
 
 
 
