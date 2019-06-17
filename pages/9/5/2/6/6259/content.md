@@ -285,18 +285,18 @@ A quick exposition of the basic idea is in
 
 A precise formulation of the phenomenon in terms of [[ordinary differential cohomology]] is given in
 
-* [[Daniel Freed]], [[Greg Moore]], [[Graeme Segal]], 
+* [[Daniel Freed]], [[Greg Moore]], [[Graeme Segal]], _The Uncertainty of Fluxes_  Commun. Math. Phys.271:247-274 (2007) ([arXiv:hep-th/0605198](http://arxiv.org/abs/hep-th/0605198))
 
-  _The Uncertainty of Fluxes_  Commun.Math.Phys.271:247-274 (2007) ([arXiv:hep-th/0605198](http://arxiv.org/abs/hep-th/0605198))
+* [[Daniel Freed]], [[Greg Moore]], [[Graeme Segal]], _Heisenberg Groups and Noncommutative Fluxes_ ,  Annals Phys. 322:236-285 (2007) ([arXiv:hep-th/0605200](http://arxiv.org/abs/hep-th/0605200))
 
-  _Heisenberg Groups and Noncommutative Fluxes_ ,  AnnalsPhys.322:236-285 (2007) ([arXiv:hep-th/0605200](http://arxiv.org/abs/hep-th/0605200))
+* {#BBSS15} Christian Becker, [[Marco Benini]], [[Alexander Schenkel]], [[Richard Szabo]], _Abelian duality on globally hyperbolic spacetimes_, Commun. Math. Phys. 349, 361 (2017) ([arXiv:1511.00316](https://arxiv.org/abs/1511.00316))
 
 The idea of describing self-dual higher gauge theory by [[holography]] with abelian [[higher dimensional Chern-Simons theory]] in one dimension higher originates in 
 
 * {#Witten96} [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ J. Geom. Phys.22:103-133,1997 ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
  
-
 * [[Edward Witten]], _Duality Relations Among Topological Effects In String Theory_, JHEP 0005:031,2000 ([arXiv:hep-th/9912086](http://arxiv.org/abs/hep-th/9912086))
+
 
 Conceptual aspects of this are also discussed in section 6.2 of 
 
@@ -305,6 +305,11 @@ Conceptual aspects of this are also discussed in section 6.2 of
 Motivated by this the [[ordinary differential cohomology]] of self-dual fields had been discussed in 
 
 * {#HopkinsSinger} [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
+
+Discussion of [[S-duality]] in 6d self-dual higher gauge theory via [[non-commutative geometry|non-commutative]]-deformation:
+
+* {#MathaiSati14} [[Varghese Mathai]], [[Hisham Sati]], _Higher abelian gauge theory associated to gerbes on noncommutative deformed M5-branes and S-duality_, J. Geom. Phys. 92:240-251, 2015 ([arXiv:1404.2257](https://arxiv.org/abs/1404.2257))
+
  
 
 Discussion of the [[quantum anomaly]] of self-dual theories is in
