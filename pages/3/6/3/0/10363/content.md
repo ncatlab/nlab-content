@@ -15,6 +15,10 @@
 
   (on [[axions]])
 
+* [[Savas Dimopoulos]] [[Stuart Raby]], [[Frank Wilczek]], _Proton decay in supersymmetric models_, Physics Letters B Volume 112, Issue 2, 6 May 1982, Pages 133-136 (<a href="https://doi.org/10.1016/0370-2693(82)90313-6">doi:10.1016/0370-2693(82)90313-6</a>)
+
+  (on [[R-parity]])
+
 * {#WilczekZee84} [[Frank Wilczek]] and [[Anthony Zee]], _Linking Numbers, Spin, and Statistics of Solitons_, Phys. Rev. Lett. 51, 2250, 1983 ([doi:10.1103/PhysRevLett.51.2250](https://doi.org/10.1103/PhysRevLett.51.2250))
 
   (on [[Hopf-Wess-Zumino terms]])
@@ -30,5 +34,7 @@
 * [[Hopf-Wess-Zumino terms]]
 
 * [[landscape of string theory vacua]]
+
+* [[R-parity]]
 
 category: people
