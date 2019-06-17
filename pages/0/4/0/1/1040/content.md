@@ -53,7 +53,7 @@ An __idempotent monad__  is a [[monad]] $(T,\mu,\eta)$ on a [[category]] $C$ suc
 
 =--
 
-e.g. ([Borceux, prop. 4.3.2](#Borceux)).
+e.g. ([Borceux, prop. 4.2.3](#Borceux)).
 
 +-- {: .num_prop #EquivalentConditions}
 ###### Proposition
