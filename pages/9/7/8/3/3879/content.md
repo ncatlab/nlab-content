@@ -69,6 +69,10 @@ The version of this belief in the necessity of deep mathematics for physics to b
 
 * [[theory (physics)]]
 
+* [[The Unreasonable Effectiveness of Mathematics in the Natural Sciences]]
+
+* [[The Unreasonable Effectiveness of Physics in the Mathematical Sciences]]
+
 * See the related, but disputable notion of [[applied mathematics]]. 
 
 
