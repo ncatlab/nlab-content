@@ -796,7 +796,7 @@ The concept of $C^\infty$-rings in particular and that of [[synthetic differenti
 
 * [[Bill Lawvere]], _Categorical dynamics_ 
 
-  in [[Anders Kock]] (eds.) _Topos theoretic methods in geometry_, volume 30 of _Various Publ. Ser._, pages 1-28, Aarhus Univ. (1997)
+  in [[Anders Kock]] (eds.) _Topos theoretic methods in geometry_, volume 30 of _Various Publ. Ser._, pages 1-28, Aarhus Univ. (1979)
 
 but examples of the concept are older. A discussion from the point of view of [[functional analysis]] is in 
 
