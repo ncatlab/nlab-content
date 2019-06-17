@@ -365,12 +365,13 @@ Writeups on the topic include
 
 * [[Nicolai Kraus]], _Homotopy type theory -- An overview_ ([pdf](http://www.cs.nott.ac.uk/~ngk/homotopy_type_theory.pdf))
 
-* Egbert Rijke, _Homotopy type theory_ (2012) ([pdf](http://hottheory.files.wordpress.com/2012/08/hott2.pdf))
+* [[Egbert Rijke]], _Homotopy type theory_ (2012) ([pdf](http://hottheory.files.wordpress.com/2012/08/hott2.pdf))
 
 * {#PelayoWarren} &#193;lvaro Pelayo, [[Michael Warren]], _Homotopy type theory and Voevodsky's univalent foundations_ ([arXiv:1210.5658](http://arxiv.org/abs/1210.5658))
 
 * Daniel Grayson, _An introduction to univalent foundations for mathematicians_, 2017, [arXiv:1711.01477](https://arxiv.org/abs/1711.01477).
- 
+
+* {#Rijke19} [[Egbert Rijke]], _Introduction to Homotopy Type Theory_ (2019) ([web](http://www.andrew.cmu.edu/user/erijke/hott/), [pdf](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf), [GitHub](https://github.com/EgbertRijke/HoTT-Intro)) 
 
 
 An introduction to the notion of [[equivalence]] in HoTT is in
