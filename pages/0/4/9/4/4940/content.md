@@ -35,6 +35,8 @@ In a [[manifold with boundary]] of [[dimension]] $n$ the boundary is the collect
 
 ## Properties 
 
+### General
+
 One reason behind the notation $\partial$ may be this (cf. [[co-Heyting boundary]]): 
 
 +-- {: .num_prop #Leibniz} 
@@ -62,6 +64,10 @@ $$B \subseteq \neg \partial B = \neg \partial A = A^\circ \cup (\neg A)^\circ,$$
 
 where the right side is a disjoint union of open sets. $B$ is connected, so $B \subseteq A^\circ$ or $B \subseteq (\neg A)^\circ \subseteq \neg A$. The latter cannot occur since $A \cap B$ is inhabited. So $B \subseteq A^\circ \subseteq A$; by symmetry $A \subseteq B$. 
 =-- 
+
+### Collar neighbourhood theorem
+
+For [[topological manifolds]] and [[smooth manifolds]] [[manifold with boundary|with boudnary]], see: _[[collar neighbourhood theorem]]_.
 
 ## Some ramifications
 
