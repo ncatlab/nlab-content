@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Mathematics
++--{: .hide}
+[[!include mathematicscontents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
 This page collects resources related to
 
 * [[Eugene Wigner]]
@@ -22,7 +37,9 @@ See also
 
 * [[David Hilbert]], _[[Naturerkennen und Logik]]_, Lecture at the _Kongress der Gesellschaft Deutscher Naturforscher und &#196;rtze_, 1930  ([pdf](http://math.sfsu.edu/smith/Documents/HilbertRadio/HilbertRadio.pdf), [audio](http://math.sfsu.edu/smith/Documents/HilbertRadio/HilbertRadio.mp3))
 
+* {#AtiyahDijkgraafHitchin10} [[Michael Atiyah]], [[Robbert Dijkgraaf]], [[Nigel Hitchin]], _Geometry and physics_, Phil. Trans. R. Soc. A 13 March 2010 vol. 368 no. 1914 913-926 ([doi;10.1098/rsta.2009.0227](https://royalsocietypublishing.org/doi/10.1098/rsta.2009.0227))
 
+  on, conversely: _[[The Unreasonable Effectiveness of Physics in the Mathematical Sciences]]_
 
 
 
