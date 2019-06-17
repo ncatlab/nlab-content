@@ -247,7 +247,7 @@ that hit the $0 \in \mathbb{R}$ and $1 \in \mathbb{R}$, respectively.
 
 Either of these two examples will do in the following discussion. 
 The second choice is to be thought of as obtained from the first choice
-by adding "infinitely wide collars" at both boundaries of $[0,1]$. While
+by adding "infinitely wide [[collars]]" at both boundaries of $[0,1]$. While
 ${*} \stackrel{0}{\to}[0,1]
 \stackrel{1}{\leftarrow} {*}$ may seem like a more natural choice for a representative of the 
 idea of the "standard interval", the choice ${*} \stackrel{0}{\to} \mathbb{R}
