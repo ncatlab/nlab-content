@@ -13,7 +13,7 @@ From his [cached Pitt faculty page](https://web.archive.org/web/20170811155442/h
 
 ## Selected publications
 
-* Hisham Sati, _[[Geometric and topological structures related to M-branes]]_ , 
+* Hisham Sati, _[[Geometric and topological structures related to M-branes]]_, 
   
   part I, Proc. Symp. Pure Math. 81 (2010), 181-236 ([arXiv:1001.5020](http://arXiv.org/abs/1001.5020)), 
 
@@ -23,48 +23,50 @@ From his [cached Pitt faculty page](https://web.archive.org/web/20170811155442/h
 
 on [[cohomology]] and [[twisted cohomology]] structures in [[string theory]]/[[M-theory]]. See also _[[twisted smooth cohomology in string theory]]_.
 
-* [[Igor Kriz]], [[Hisham Sati]], _M-theory, type IIA superstrings, and elliptic cohomology_, Adv. Theor. Math. Phys. 8 (2004), no. 2, 345&#8211;394 ([Euclid](http://projecteuclid.org/euclid.atmp/1091543172), [arXiv:hep-th/0404013](http://arxiv.org/abs/hep-th/0404013))
- {#SatiKriz04}
+* {#SatiKriz04} [[Igor Kriz]], [[Hisham Sati]], _M-theory, type IIA superstrings, and elliptic cohomology_, Adv. Theor. Math. Phys. 8 (2004), no. 2, 345&#8211;394 ([Euclid](http://projecteuclid.org/euclid.atmp/1091543172), [arXiv:hep-th/0404013](http://arxiv.org/abs/hep-th/0404013))
+ 
 
  on the [[Diaconescu-Moore-Witten anomaly]] interpreted in [[integral Morava K-theory]]:
 
-* H.S., [[Craig Westerland]], _Twisted Morava K-theory and E-theory_ ([arXiv:1109.3867](http://arxiv.org/abs/1109.3867))
+* [[Hisham Sati]], [[Craig Westerland]], _Twisted Morava K-theory and E-theory_ ([arXiv:1109.3867](http://arxiv.org/abs/1109.3867))
 
   (this is followed up on in remark 5.4.12 in [[Michael Hopkins|Hopkins]], [[Jacob Lurie|Lurie]], _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_ )
 
 On [[F4]] and [[Cayley plane]]-[[fiber bundles]] in [[M-theory]]:
 
-* H.S. _$\mathbb{O}P^2$-bundles in M-theory_,  	Commun. Num. Theor. Phys 3:495-530,2009 ([arXiv:0807.4899](http://arxiv.org/abs/0807.4899))
+* [[Hisham Sati]], _$\mathbb{O}P^2$-bundles in M-theory_,  	Commun. Num. Theor. Phys 3:495-530,2009 ([arXiv:0807.4899](http://arxiv.org/abs/0807.4899))
 
 On mathematical foundations of [[quantum field theory]] and [[perturbation theory|perturbative]] [[string theory]]:
 
-* H.S., [[Urs Schreiber]], _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, [volume 83](http://www.ams.org/bookstore?fn=20&arg1=pspumseries&ikey=PSPUM-83) AMS (2011)
+* [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, [volume 83](http://www.ams.org/bookstore?fn=20&arg1=pspumseries&ikey=PSPUM-83) AMS (2011)
 
 
-* H. S., [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:L-∞ algebra connections]]_ in _Quantum Field Theory_, Birkh&#228;user (2009), 303-424, DOI: 10.1007/978-3-7643-8736-5_17  ([publisher link](http://www.springerlink.com/content/p421153213548t31/), [arXiv:0801.3480](http://arxiv.org/abs/0801.3480))
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:L-∞ algebra connections]]_ in _Quantum Field Theory_, Birkh&#228;user (2009), 303-424, DOI: 10.1007/978-3-7643-8736-5_17  ([publisher link](http://www.springerlink.com/content/p421153213548t31/), [arXiv:0801.3480](http://arxiv.org/abs/0801.3480))
 
-* H. S. , [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Twisted Differential String and Fivebrane Structures]]_ Communications in Mathematical Physics  October 2012, Volume 315, Issue 1, pp 169-213
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Twisted Differential String and Fivebrane Structures]]_ Communications in Mathematical Physics  October 2012, Volume 315, Issue 1, pp 169-213
 ([arXiv:0910.4001](http://arxiv.org/abs/0910.4001))
 
 * H. S. , [[Urs Schreiber]], [[Jim Stasheff]] _[[schreiber:Fivebrane structures]]_ Rev. Math. Phys.21:1197-1240 (2009) ([arXiv:0805.0564](http://arxiv.org/abs/0805.0564))
 
 * [[Domenico Fiorenza]], H. S., [[Urs Schreiber]], _[[schreiber:7d Chern-Simons theory and the 5-brane]]_ ([arXiv:1201.5277](http://arxiv.org/abs/1201.5277))
 
-* [[Domenico Fiorenza]], H. S. , [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field]]_ ([arXiv:1202.2455](http://arxiv.org/abs/1202.2455))
+* [[Domenico Fiorenza]], [[Hisham Sati]] , [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field]]_ ([arXiv:1202.2455](http://arxiv.org/abs/1202.2455))
 
-* [[Domenico Fiorenza]], H. S. , [[Urs Schreiber]], _[[schreiber:Extended higher cup-product Chern-Simons theories]]_ Journal of Geometry and Physics
-Volume 74, 2013, Pages 130&#8211;163 ([arXiv:1207.5449](http://arxiv.org/abs/1207.5449))
+* [[Domenico Fiorenza]], [[Hisham Sati]] , [[Urs Schreiber]], _[[schreiber:Extended higher cup-product Chern-Simons theories]]_ Journal of Geometry and Physics, Volume 74, 2013, Pages 130&#8211;163 ([arXiv:1207.5449](http://arxiv.org/abs/1207.5449))
 
-* [[Domenico Fiorenza]], H. S. , [[Urs Schreiber]],  _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_ ([arXiv:1301.2580](http://arxiv.org/abs/1301.2580)) in  Damien Calaque et al. (eds.) _Mathematical Aspects of Quantum Field Theories_  Springer 2014
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]],  _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_ ([arXiv:1301.2580](http://arxiv.org/abs/1301.2580)) in  Damien Calaque et al. (eds.) _Mathematical Aspects of Quantum Field Theories_  Springer 2014
 
-* {#Sati13} H. S., _Framed M-branes, corners, and topological invariants_, J. Math. Phys. 59 (2018), 062304 ([arXiv:1310.1060](http://arxiv.org/abs/1310.1060))
+* {#Sati13} [[Hisham Sati]], _Framed M-branes, corners, and topological invariants_, J. Math. Phys. 59 (2018), 062304 ([arXiv:1310.1060](http://arxiv.org/abs/1310.1060))
   
   (on the [[Hopf-Wess-Zumino term]] of the [[M5-brane]], [[cohomotopy]] in the [[11d supergravity]] [[equations of motion]] and ...)
 
 
 * [[Domenico Fiorenza]], H. S., [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
 
-* H. S., _Framed M-branes, corners, and topological invariants_ ([arXiv:1310.1060](http://arxiv.org/abs/1310.1060))
+
+* {#MathaiSati14} [[Varghese Mathai]], [[Hisham Sati]], _Higher abelian gauge theory associated to gerbes on noncommutative deformed M5-branes and S-duality_, J. Geom. Phys. 92:240-251, 2015 ([arXiv:1404.2257](https://arxiv.org/abs/1404.2257))
+
+  (on a [[non-commutative geometry]]-deformation of the [[self-dual higher gauge theory]] as it appears on the [[M5-brane]] [[worldvolume]], and its [[S-duality]])
 
 * {#Sati14} H. S. , _Ninebrane structures_ ([arXiv:1405.7686](http://arxiv.org/abs/1405.7686))
 
