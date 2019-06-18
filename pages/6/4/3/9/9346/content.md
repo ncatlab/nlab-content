@@ -318,8 +318,8 @@ $$
 
 On the other hand, any _[[model (physics)|model]]_ in string theory may or may not retain [[global supersymmetry]] at some energy scale, after [[spontaneous symmetry breaking]].
 
-In fact the generic model has a priori no reason to preserve any 
-[[global supersymmetry]] at all, just as the generic solution of [[Einstein's equations]] does not preserve any [[Lorentz group]] symmetry. The condition that a [[Kaluza-Klein compactification]] of 10-dimensional [[supergravity]] to 4d exhibits precisely one global supersymmetry is equivalent to the compactification space being a [[Calabi-Yau manifold]]. While this is a famous condition that has been extensively studied (see at _[[supersymmetry and Calabi-Yau manifolds]]_), nothing in the theory seemed to _require_ [[KK-compactification]] on [[Calabi-Yau manifolds]]. These were originally considered because for _[[phenomenology|phenomenological]]_ reasons
+In fact the generic model has a priori no reason to preserve any low energy
+[[global supersymmetry]] below the [[Planck scale]] at all (see e.g. [Giudice-Strumia 11, p. 1-2](split+supersymmetry#GiudiceStrumia11)), just as the generic solution of [[Einstein's equations]] does not preserve any [[Lorentz group]] symmetry. The condition that a [[Kaluza-Klein compactification]] of 10-dimensional [[supergravity]] to 4d exhibits precisely one global supersymmetry is equivalent to the compactification space being a [[Calabi-Yau manifold]]. While this is a famous condition that has been extensively studied (see at _[[supersymmetry and Calabi-Yau manifolds]]_), nothing in the theory seemed to _require_ [[KK-compactification]] on [[Calabi-Yau manifolds]]. These were originally considered because for _[[phenomenology|phenomenological]]_ reasons
 it is (or was) expected that our observed world exhibits global low-energy supersymmetry. 
 
 However, recently arguments for a theoretical preference for $N=1$ supersymmetric compactifications have been advanced after all ([[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation|FSS19, Sec. 3.4]], [Acharya 19](Bobby+Acharya#Acharya19)).
