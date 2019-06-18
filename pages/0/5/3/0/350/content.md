@@ -132,7 +132,7 @@ $$
   \array{
     Hom(X, \Omega) &\stackrel{\simeq}{\to}& Sub(X)
     \\
-    {}^{\mathllap{Hom(X,j)}}\downarrow && \downarrow^{\mathrlap{\overline{(-)}}}
+    {}^{\mathllap{Hom(1,j)}}\downarrow && \downarrow^{\mathrlap{\overline{(-)}}}
     \\
     Hom(X,\Omega) &\stackrel{\simeq}{\to}& Sub(X)
   }
