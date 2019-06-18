@@ -83,6 +83,8 @@ X_{a_0} \sqcup X_{a_1} \sqcup \bigsqcup_{a\neq a_0,a_1} X_a$$
 
 1. The category [[Cat]] is infinitary lextensive.
 
+1. The category [[Vect]] is not even finitely extensive.
+
 
 ## Superextensive sites
 
