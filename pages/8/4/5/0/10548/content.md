@@ -1,5 +1,5 @@
 
-* [Wikipedia entry](http://en.wikipedia.org/wiki/Jos&#233;_&#193;dem)
+* [Wikipedia entry](http://en.wikipedia.org/wiki/José_Ádem)
 
 
 ## Related $n$Lab entries
