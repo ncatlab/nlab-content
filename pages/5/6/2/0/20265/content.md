@@ -84,7 +84,7 @@ It is a [[3-sphere]]-[[bundle]] over the [[4-sphere]], and is a generator of the
 
 The construction is due to 
 
-* {#GromollMeyer74} Detlef Gromoll, Wolfgang Meyer, _An Exotic Sphere With Nonnegative Sectional Curvature_, Annals of Mathematics Second Series, Vol. 100, No. 2 (Sep., 1974), pp. 401-406 ([jstor:1971078](https://www.jstor.org/stable/1971078))
+* {#GromollMeyer74} [[Detlef Gromoll]], Wolfgang Meyer, _An Exotic Sphere With Nonnegative Sectional Curvature_, Annals of Mathematics Second Series, Vol. 100, No. 2 (Sep., 1974), pp. 401-406 ([jstor:1971078](https://www.jstor.org/stable/1971078))
 
 Review includes
 
