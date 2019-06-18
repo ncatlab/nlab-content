@@ -69,6 +69,13 @@ Popular discussion of the "slightly split" [[G2-MSSM]] is in
 
 * {#Kane17} [[Gordon Kane]], _String theory and the real world_, Morgan & Claypool, 2017 (<a href="http://iopscience.iop.org/book/978-1-6817-4489-6">doi:0.1088/978-1-6817-4489-6</a>)
 
+Discussion of [[phenomenology]] in view of the observed near-criticality of the [[Higgs field]] [[vacuum stability]]:
+
+* {#GiudiceStrumia11} [[Gian Giudice]], [[Alessandro Strumia]], _Probing High-Scale and Split Supersymmetry with Higgs Mass Measurements_, Nuclear Physics B Volume 858, Issue 1, 1 May 2012, Pages 63-83 ([arXiv:1108.6077](https://arxiv.org/abs/1108.6077))
+
+* {#IsidoriPattori17} Gino Isidori, Andrea Pattori, _On the tuning in the $(m_h, m_t)$ plane: Standard Model criticality vs. High-scale SUSY_, Physics Letters B Volume 782, 10 July 2018, Pages 551-558 ([arXiv:1710.11060](https://arxiv.org/abs/1710.11060))
+
+
 See also 
 
 * Wikipedia, _[Split supersymmetry](https://en.wikipedia.org/wiki/Split_supersymmetry)_
