@@ -44,7 +44,7 @@ $M^{\mathbb{P}^{op}} \times M \to M$ which arises by restriction of the monoidal
 
 $$i: M \to M^{\mathbb{P}^{op}}: X \mapsto (n \mapsto \delta_{n 0} \cdot X)$$ 
 
-(interpret $X$ as concentrated in the 0-ary or "constants" component), so that an operad $O$ induces a [[monad]] $\hat{O}$ on $M$ via the actegory structure. As a functor, the monad may be defined by a coend formula 
+(interpret $X$ as concentrated in the 0-ary or "constants" component), so that an operad $O$ induces a [[monad]] $\hat{O}$ on $M$ via the actegory structure. As a functor, the monad may be defined by a [[coend]] formula 
 
 $$\hat{O}(X) = \int^{k \in \mathbb{P}} O(k) \otimes X^{\otimes k}$$ 
 
