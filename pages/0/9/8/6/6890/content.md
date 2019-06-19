@@ -77,7 +77,7 @@ Similar but non-dependent type theory software includes _[[Haskell]]_.
 
 * Russell O’Connor, _[Believing In-Consistency](http://r6.ca/blog/20091101T231201Z.html)_
 
-  (on issues of [[predicative mathematics|predicativity]])
+  (On whether the consistency of Coq is believable, given that [[ordinal analysis]] techniques are nowhere near able to handle such strong systems.)
 
 ### Learning Coq
 
