@@ -69,7 +69,7 @@ This is equivalent to saying that $J$ is a theorem in the extended deductive sys
 This use of $\vdash$ to express a statement *about* the deductive system should be distinguished from its use in particular deductive systems as a syntactic ingredient *in judgments*.  For instance, in [[sequent calculus]] the judgments are [[sequents]], which are sequences of statements connected by a turnstile $\vdash$.  Similarly, in [[type theory]] and [[natural deduction]] one often uses $\vdash$ inside a single judgment when that judgment is of a hypothetical sort.  However, when using a [[logical framework]], these two meanings of $\vdash$ become essentially identified.
 =--
 
-## Formal systems
+## Formal systems {#FormalSystems}
 
 Depending on the strength of the metalanguage used to define the judgments and steps, simply having a deductive system does not in itself necessarily yield an *effective procedure* for enumerating valid proof trees and theorems.  Deductive systems which do yield such an enumeration are sometimes referred to as **formal systems**.  For example, G&#246;del's [[incompleteness theorems]] are statements about formal systems in this sense.  It is worth keeping in mind that more general deductive systems are considered in proof theory and type theory, typically because by side-stepping these coding issues one can give a simpler account of computational phenomena such as [[cut-elimination]].  A well-known example of such a so-called "semi-formal system" is [[first-order arithmetic]] with the [[∞-rule]], used by Sch&#252;tte in order to simplify Gentzen's proof that the consistency of first-order arithmetic may be reduced to well-foundedness of the ordinal $\epsilon_0$.
 
