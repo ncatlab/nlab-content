@@ -162,9 +162,6 @@ From [Crivellin 18, p. 2](#Crivellin18):
 > the global fit $[$ to [[flavour anomalies]] $]$ even shows compelling evidence for New Physics $[$... $]$ The vector [[leptoquark]] (LQ) $SU(2)_L$ singlet with hypercharge $-4/3$ arising in the famous [[Pati-Salam model]] is capable of explaining all the $[$[[flavour anomalies|flavour]] $]$ anomalies and therefore several attempts to construct a [[UV completion]] for this LQ to address the anomalies have been made. It can give a sizeable effect in $b \to c(u)\tau \nu$ data without violating bounds from $b \to s(d)\nu \bar \nu$ and/or direct searches, provides (at [[tree level]]) a $C_9 = - C_{10}$ solution to $b \to s \ell^+ \ell^-$ data and does not lead to [[proton decay]] at any order in [[perturbative quantum field theory|perturbation theory]].
 
 
-Incidentally, [[leptoquarks]] are also a candidate explanation of the anomaly seen at over 4$\sigma$ [[statistical significance]] in the [[anomalous magnetic moment]] of the [[muon]], see [there](anomalous+magnetic+moment#Anomalies).
-
-
 * [[leptoquarks]] in a [[Randall-Sundrum model]]:
 
 ([Blanke Crivellin 18](#BlankeCrivellin18), [Crivellin 18](#Crivellin18))
@@ -190,6 +187,14 @@ Other possible [[model (in theoretical physics)|models]] besides [[leptoquarks]]
 * [[right-handed neutrinos]] 
 
   ([MMR 19](#MMR19))
+
+
+## Relation to other anomalies
+ {#RelationToOtherAnomalies}
+
+There is possibly a relation between the [[flavour anomalies]] an the  [anomalies](anomalous magnetic moment#Anomalies) observed in the [[anomalous magnetic moment]] of the [[electron]] and/or the [[muon]] (e.g. [Chiang-Okada 17](#ChiangOkada17))
+
+Indeed, [[leptoquark]] models preferred by the flavour anomalies are also a candidate explanation of the anomaly seen at over 4$\sigma$ [[statistical significance]] in the [[anomalous magnetic moment]] of the [[muon]], see [there](anomalous+magnetic+moment#Anomalies).
 
 
 
@@ -486,6 +491,13 @@ explanations via ssumption of [[Z'-bosons]]:
 
 * {#WangYangYuan19} Dong-Yang Wang, Ya-Dong Yang, Xing-Bo Yuan, _$b \to c \tau \bar \nu$ decays in supersymmetry with R-parity violation_ ([arXiv:1905.08784](https://arxiv.org/abs/1905.08784))
 
+[[Horava-Witten theory]]-type [[KK-compactification]]:
+
+* Jong-Phil Lee, _$B$ anomalies in the nonminimal universal extra dimension model_ ([arXiv:1906.07345](https://arxiv.org/abs/1906.07345)) 
+
+Joint explanation with the [anomalies](anomalous magnetic moment#Anomalies) observed in the [[muon]] [[anomalous magnetic moment]]:
+
+* {#ChiangOkada17} Cheng-Wei Chiang, Hiroshi Okada, _A simple model for explaining muon-related anomalies and dark matter_ ([arXiv:1711.07365](https://arxiv.org/abs/1711.07365))
 
 [[!redirects flavour anomalies]]
 
