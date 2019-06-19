@@ -28,6 +28,9 @@ An [[M5-brane]] [[wrapped brane|wrapped]] on a [[torsion subgroup|torsion]] 3-[[
 
 ## References
 
+* [[Neil Lambert]], [[David Tong]], _Membranes on an Orbifold_, Phys.Rev.Lett.101:041602, 2008 ([arXiv:0804.1114](https://arxiv.org/abs/0804.1114))
+
+
 * {#AharonyBergmanJafferis08} [[Ofer Aharony]], [[Oren Bergman]], [[Daniel Jafferis]], _Fractional M2-branes_, JHEP 0811:043, 2008 ([arXiv:0807.4924](https://arxiv.org/abs/0807.4924))
 
 [[!redirects fractional M2-branes]]
