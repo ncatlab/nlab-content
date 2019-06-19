@@ -220,7 +220,7 @@ The groups [[Spin(5).Spin(3)]], [[Sp(2).Sp(1)]] and $Sp(1) \cdot Sp(2)$, with th
 
 ([Čadek-Vanžura 97, Sec. 2](#CadekVanzura97))
 
-{#Sp2DotSp1SubgroupInclusionsInSummary} In summary:
+{#Sp2DotSp1SubgroupInclusionsInSummary} In summary we have these subgroup inclusions
 
 \begin{xymatrix}
     \mathrm{Sp}(1) {\cdot} \mathrm{Sp}(2)
@@ -260,6 +260,17 @@ The groups [[Spin(5).Spin(3)]], [[Sp(2).Sp(1)]] and $Sp(1) \cdot Sp(2)$, with th
     \ar@{^{(}->}[uurr]|-{ \iota'' }
 \end{xymatrix}
 
+permuted by triality:
+
+
+\begin{center}
+\begin{imagefromfile}
+  "file_name": "TrialityOnSp2Sp1.jpg",
+  "width": 680
+\end{imagefromfile}
+\end{center}
+
+> graphics grabbed from [FSS 19, Sec. 3.3](#FSS19)
 
 \linebreak
 
@@ -549,6 +560,10 @@ On the [[subgroup lattice]] of [[Spin(8)]]
 * Megan M. Kerr, _New examples of homogeneous Einstein metrics_, Michigan Math. J. Volume 45, Issue 1 (1998), 115-134 ([euclid:1030132086](https://projecteuclid.org/euclid.mmj/1030132086))
 
 * {#Kollross02} Andreas Kollross, Prop. 3.3 of _A Classification of Hyperpolar and Cohomogeneity One Actions_, Transactions of the American Mathematical Society Vol. 354, No. 2 (Feb., 2002), pp. 571-612 ([jstor:2693761](https://www.jstor.org/stable/2693761))
+
+Discussion with an eye towards foundations of [[M-theory]]:
+
+* {#FSS19} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ ([arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
 
 
 
