@@ -469,7 +469,7 @@ and using the covariant mechanism for [[self-dual higher gauge fields]] from
 
 * [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _On Lorentz Invariant Actions for Chiral P-Forms_, Phys.Rev. D55 (1997) 6292-6298 ([arXiv:hep-th/9611100](https://arxiv.org/abs/hep-th/9611100))
 
-and the non-covariant form of the [[self-dual higher gauge field|self-duality mechanism]] of
+based on the non-covariant form of the [[self-dual higher gauge field|self-duality mechanism]] due to
 
 * {#PerrySchwarz96} Malcolm Perry, [[John Schwarz]], _Interacting Chiral Gauge Fields in Six Dimensions and Born-Infeld Theory_, Nucl. Phys. B489 (1997) 47-64 ([arXiv:hep-th/9611065](http://arxiv.org/abs/hep-th/9611065))
 
