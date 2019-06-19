@@ -24,7 +24,7 @@ Second-order arithmetic is a [[theory]] of [[arithmetic]] dealing with [[natural
 [^fine]: The logic that governs the language and theory of $Z_2$ is ordinary (first-order) predicate logic. The "second-order" aspect is really in the _models_, where one interprets the symbol $\in$ as membership in a background set theory, i.e., terms of type $P N$ are interpreted as subsets of the set that interprets the type $N$, and an extensionality axiom is in force. A _full model_ is where $P N$ is interpreted as the full power set of $N$. When one sees absoluteness assertions such as "there is only one (full) model of SOA up to isomorphism," it should be clear that this is meant with regard to a given background set theory. Cf. the fact that while there is, up to isomorphism, at most one [[natural numbers object]] $\mathbb{N}$ in a given [[topos]], the set of global elements $\Gamma(\mathbb{N})$ might contain "non-standard elements" as viewed against the background $Set$. 
 
 
-## Definition 
+## Definition
 
 The [[theory|language]] of SOA consists of two sorts, here denoted $N$ and $P N$, together with 
 
@@ -41,7 +41,7 @@ The [[theory|language]] of SOA consists of two sorts, here denoted $N$ and $P N$
 The axioms of SOA may be divided into two parts: the first part comprises the "first-order axioms" that deal only with the sort $N$, and defines which is known as _Robinson arithmetic_. The second part comprises [[induction]] and [[comprehension schemes]] that involve the symbol $\in$. 
 
 
-### "First-order" axioms 
+### "First-order" axioms
 
 Omitting the sort $P N$ and the symbol $\in$ from the language, the [[theory|axioms]] in this section give Robinson arithmetic. The logic throughout is standard first-order (predicate) logic with equality. 
 
@@ -70,7 +70,7 @@ For all the formulas in this section, it is tacitly understood that there are un
 11. $((s(m) \lt n) \vee (s(m) = n)) \leftrightarrow m \lt n$. 
 
 
-### "Second-order" axioms 
+### "Second-order" axioms
 
 Note: according to convention, lower-case letters refer to terms of type $N$, and upper-case letters to terms of type $P N$. 
 
@@ -84,7 +84,7 @@ $$\forall \vec{m} \forall \vec{X} ((\varphi(0) \wedge \forall n (\varphi(n) \rig
 The instance in the full induction scheme where $\varphi$ is the formula $n \in X$ is called simply the _induction axiom_. The induction axiom together with the comprehension scheme implies the full induction scheme. 
 
 
-## Subsystems of SOA 
+## Subsystems of SOA
 
 The theory described above gives full second-order arithmetic. However, in [[reverse mathematics]], one often studies subsystems of weaker proof-theoretic strength than SOA, by limiting in some way the comprehension scheme (often also beefing up the single induction axiom with more instances of the induction scheme, to offset the weakening). The main examples are given in [Wikipedia](http://en.wikipedia.org/wiki/Reverse_mathematics); a standard reference is [Simpson](#Sim). 
 
@@ -110,4 +110,4 @@ Many important subsystems for SOA have been the subject of an [[ordinal analysis
 
 [[!redirects SOA]]
 [[!redirects second order arithmetic]]
-[[!redirects second-order arithmetic]] 
+[[!redirects second-order arithmetic]]
