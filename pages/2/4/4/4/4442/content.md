@@ -406,7 +406,7 @@ arguments are given that the 7d theory is a [[higher spin gauge theory]] extensi
 
 More on the relation between the [[M5-brane]] and supergravity on $AdS_7 \times S^4$ and arguments for the $SO(5)$ [[R-symmetry]] group on the 6d theory from the 7d theory are given in 
 
-* A. J. Nurmagambetov, I. Y. Park, _On the M5 and the AdS7/CFT6 Correspondence_ ([arXiv:hep-th/0110192](http://arxiv.org/abs/hep-th/0110192))
+* [[Alexei Nurmagambetov]], I. Y. Park, _On the M5 and the AdS7/CFT6 Correspondence_ ([arXiv:hep-th/0110192](http://arxiv.org/abs/hep-th/0110192))
 
 See also 
 
