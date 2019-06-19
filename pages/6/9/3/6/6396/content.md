@@ -5,9 +5,19 @@ Co-founder of [[string theory]].
 
 ## Selected writings
 
+On the [[Green-Schwarz sigma-model]] of the [[M5-brane]] with the [[self-dual higher gauge field]]:
+
+* {#PerrySchwarz96} Malcolm Perry, [[John Schwarz]], _Interacting Chiral Gauge Fields in Six Dimensions and Born-Infeld Theory_, Nucl. Phys. B489 (1997) 47-64 ([arXiv:hep-th/9611065](http://arxiv.org/abs/hep-th/9611065))
+
+* {#Schwarz97} [[John Schwarz]], _Coupling a Self-Dual Tensor to Gravity in Six Dimensions_, Phys. Lett. B395:191-195, 1997 ([pdf](http://cds.cern.ch/record/317663/files/9701008.pdf), <a href="https://doi.org/10.1016/S0370-2693(97)00094-4">doi:10.1016/S0370-2693(97)00094-4</a>)
+
+* [[Mina Aganagic]], Jaemo Park, Costin Popescu, [[John Schwarz]], _World-Volume Action of the M Theory Five-Brane_ ([arXiv:hep-th/9701166](http://arxiv.org/abs/hep-th/9701166))
+
+On the history of [[string theory]]:
+
 * [[John Schwarz]], _The Early Years of String Theory: A Personal Perspective_ ([arXiv:0708.1917](http://arxiv.org/abs/0708.1917)), published as _Gravity, unification, and the superstring_, in Filippo Colomo, [[Paolo Di Vecchia]] (eds.) _The birth of string theory_, Cambridge University Press, (2011) ([doi:10.1017/CBO9780511977725.005](https://doi.org/10.1017/CBO9780511977725.005))
 
-  (on the early history of [[string theory]] up to the "first superstring revoluton", the construction of the [[Green-Schwarz anomaly cancellation|Green-Schwarz-anomaly]]-free $SO(32)$ [[type I string theory]] and [[heterotic string]])
+  (on the early history of [[string theory]] up to the "first superstring revolution", the construction of the [[Green-Schwarz anomaly cancellation|Green-Schwarz-anomaly]]-free $SO(32)$ [[type I string theory]] and [[heterotic string]])
 
 * [[John Schwarz]], _The Second Superstring Revolution_, Colloquium-level lecture presented at the Sakharov Conference (Moscow, May 1996) ([arXiv:hep-th/9607067](https://arxiv.org/abs/hep-th/9607067))
 
