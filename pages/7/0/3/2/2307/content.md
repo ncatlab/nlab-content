@@ -23,8 +23,9 @@
 
 In the context of [[cobordism theory]], a [[generalized cohomology theory]] [[Brown representability theorem|represented]] by a [[Thom spectrum]] is called a _cobordism cohomology theory_. (Dually, the corresponding [[generalized homology theory]] is called _[[bordism homology theory]]_.)
 
-By default "cobordism cohomology" usually refers to what is represented by [[MO]]. 
-The cohomology represented by [[MU]] is _[[complex cobordism cohomology]]_. Both are unified by the [[equivariant cohomology theory]] called [[MR-theory]]. The [[periodic cohomology theory]] version is denoted [[MP]].
+By default "cobordism cohomology" usually refers to what is represented by [[MO]].  The cohomology represented by [[MU]] is _[[complex cobordism cohomology]]_. Both are unified by the [[equivariant cohomology theory]] called [[MR-theory]]. The [[periodic cohomology theory]] version is denoted [[MP]].
+
+On the other hand, [[framed manifold|framed]] cobordism cohomology theory ($M G$ for $G$ the [[trivial group]]) is _[[stable cohomotopy]]_ (by the [[Pontryagin-Thom theorem]]).
 
 See at those entries for more.
 
@@ -50,6 +51,7 @@ See at those entries for more.
 
 ## References
 
+For [[complex cobordism theory]] see the references there. 
 
 Original articles include
 
@@ -65,7 +67,12 @@ Textbook accounts include
 
 * {#Rudyak98} [[Yuli Rudyak]], _On Thom spectra, orientability and cobordism_, Springer Monographs in Mathematics, 1998 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/rudyakthom.pdf))
 
-For [[complex cobordism theory]] see the references there. 
+The [[twisted cohomology|twisted]] and [[equivariant cohomology|equivariant]] versions:
+
+* {#Cruickshank99} [[James Cruickshank]], _Twisted  Cobordism and its Relationship to Equivariant Homotopy Theory_, 1999 ([pdf](http://www.collectionscanada.gc.ca/obj/s4/f2/dsk1/tape9/PQDD_0030/NQ46823.pdf), [[Cruickshank99.pdf:file]])
+
+* {#Cruickshank03} [[James Cruickshank]], _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications Volume 129, Issue 3, 1 April 2003, Pages 251-271 (<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">arXiv:10.1016/S0166-8641(02)00183-9</a>)
+
 
 
 [[!redirects cobordism cohomology theories]]
