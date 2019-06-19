@@ -33,6 +33,7 @@ This is closely related to the [[Thom space]]/[[Thom spectrum]] construction for
 
 ## Definition
 
+
 ### In components
 
 For $X$ (the [[homotopy type]] of) a [[topological space]], a _spherical fibration over it_ is a [[fibration]] $E \to X$ such that each [[fiber]] has the [[homotopy type]] of a [[sphere]].
@@ -56,6 +57,15 @@ $$
 $$
 
 to be the [[Grothendieck group]] of stable fiberwise equivalence classes of spherical fibrations, under fiberwise smash product. 
+
+
+### Classifying space
+
+There is an associative [[H-space]], $G_n$, of homotopy equivalences of the $(n-1)$-sphere with composition. Then $B G_n$ acts as the [[classifying space]] for spherical fibrations with spherical fibre $S^{n-1}$ ([Stasheff 63](#Stasheff63)).
+
+There is an inclusion of the [[orthogonal group]] $O(n)$ into $G_n$.
+
+Suspension gives a map $G_n \to G_{n+1}$ whose limit is denoted $G$. Then $B G$ classifies stable spherical fibrations.
 
 ### As $(\infty,1)$-module bundles
 
@@ -91,6 +101,11 @@ An original reference is
 
 * [[Albrecht Dold]], [[Richard Lashof]], _Principal quasifibrations and fibre homotopy equivalence of bundles_, 1958 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/doldlashof.pdf))
  {#DoldLashof58}
+
+Treatment of the classifying space for spherical fibrations is in
+
+* {#Stasheff63} [[James Stasheff]], _A classification theorem for fibre spaces_, Topology Volume 2, Issue 3, October 1963, Pages 239-246.
+
 
 Reviews include
 
