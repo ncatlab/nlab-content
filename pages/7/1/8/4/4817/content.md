@@ -57,7 +57,7 @@ Review of the history of the dual heterotic string conjecture is in
 
 The worldvolume fermion [[quantum anomaly]] of the super-fivebrane is discussed in
 
-* [[Kurt Lechner]], M. Tonin, _Worldvolume and target space anomalies in the D=10 super--fivebrane sigma--model_ ([arXiv:hep-th/9603094](http://arxiv.org/abs/hep-th/9603094))
+* [[Kurt Lechner]], [[Mario Tonin]], _Worldvolume and target space anomalies in the D=10 super--fivebrane sigma--model_ ([arXiv:hep-th/9603094](http://arxiv.org/abs/hep-th/9603094))
 
 * J. A. Dixon, [[Mike Duff]], [[Jan Plefka]], _Putting the string/fivebrane duality to the test_ ([arXiv:hep-th/9208055](http://arxiv.org/abs/hep-th/9208055))
  
