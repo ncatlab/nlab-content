@@ -106,6 +106,11 @@ More on this in relation to [[GUT]] models:
 
 * {#OhlssonPernow19} Tommy Ohlsson, Marcus Pernow, _Fits to Non-Supersymmetric SO(10) Models with Type I and II Seesaw Mechanisms Using Renormalization Group Evolution_ ([arXiv:1903.08241](https://arxiv.org/abs/1903.08241))
 
+Discussion of neutrinos as [[dark matter]]-candidates:
+
+* {#NeutrinoWhite16} _A White Paper on keV Sterile Neutrino Dark Matter_,  Journal of Cosmology and Astroparticle Physics, Volume 2017, January 2017 ([arXiv:1602.04816](https://arxiv.org/abs/1602.04816))
+
+
 Discussion of [[neutrino]] [[masses]] in [[leptoquark]]-[[model (in theoretical physics)|models]] for [[flavour anomalies]]:
 
 * {#BGV19} Innes Bigaran, John Gargalionis, Raymond R. Volkas, _A near-minimal leptoquark model for reconciling flavour anomalies and generating radiative neutrino masses_ ([arXiv:1906.01870](https://arxiv.org/abs/1906.01870))
