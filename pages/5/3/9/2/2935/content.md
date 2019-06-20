@@ -154,22 +154,18 @@ and later independently by P. Schaller, T. Strobl, motivated from an attempt to 
 
 The detailed argument by Cattaneo and Felder on how [[Maxim Kontsevich]]'s formula for the [[deformation quantization]] star product is the 3-point function of the Poisson sigma-model is in
 
-* [[Alberto Cattaneo]], [[Giovanni Felder]], _A path integral approach to the Kontsevich quantization formula_ ,
-Commun. Math. Phys. 212, 591--611 (2000) [doi](http://dx.doi.org/10.1007/s002200000229), [math.QA/9902090](http://arxiv.org/abs/math/9902090).
- {#CattaneoFelder}
+* {#CattaneoFelder} [[Alberto Cattaneo]], [[Giovanni Felder]], _A path integral approach to the Kontsevich quantization formula_, Commun. Math. Phys. 212, 591--611 (2000) [doi](http://dx.doi.org/10.1007/s002200000229), [math.QA/9902090](http://arxiv.org/abs/math/9902090).
+ 
 
-* [[Alberto Cattaneo]], [[Giovanni Felder]], _Poisson sigma models and deformation quantization_ ,
-Mod. Phys. Lett. A 16, 179--190 (2001) [hep-th/0102208](http://arxiv.org/abs/hep-th/0102208).
+* [[Alberto Cattaneo]], [[Giovanni Felder]], _Poisson sigma models and deformation quantization_, Mod. Phys. Lett. A 16, 179--190 (2001) [hep-th/0102208](http://arxiv.org/abs/hep-th/0102208).
 
 
 See also
 
-* [[Alberto Cattaneo]], [[Giovanni Felder]], _Poisson sigma models and symplectic groupoids_ ,
-(ed. [[Klaas Landsman]], M. Pflaum, M. Schlichenmeier), Progress in Mathematics 198, 61--93 (Birkh&#228;user, 2001)
+* [[Alberto Cattaneo]], [[Giovanni Felder]], _Poisson sigma models and symplectic groupoids_ , (ed. [[Klaas Landsman]], M. Pflaum, M. Schlichenmeier), Progress in Mathematics 198, 61--93 (Birkh&#228;user, 2001)
 [math.SG/0003023](http://arxiv.org/abs/math/0003023).
 
-* [[Alberto Cattaneo]], [[Giovanni Felder]], _On the AKSZ formulation of the Poisson sigma model_ ,
-Lett. Math. Phys. 56, 163--179 (2001) [math.QA/0102108](http://arxiv.org/abs/math/0102108).
+* [[Alberto Cattaneo]], [[Giovanni Felder]], _On the AKSZ formulation of the Poisson sigma model_, Lett. Math. Phys. 56, 163--179 (2001) [math.QA/0102108](http://arxiv.org/abs/math/0102108).
 
 The interpretation in terms of [[schreiber:infinity-Chern-Simons theory]] is discussed in
 
