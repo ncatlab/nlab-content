@@ -67,7 +67,7 @@ Moreover, [[differential cohesion]] induces [[de Rham spaces]] and hence the geo
 
 Discussion of differential calculus in terms of [[coinduction]] is in 
 
-* Martin Escardo, [[Duško Pavlović]], _Calculus in coinductive form_ (1998) ([pdf](http://www.isg.rhul.ac.uk/dusko/papers/1998-lapl-LICS.pdf))
+* [[Martín Escardó]], [[Duško Pavlović]], _Calculus in coinductive form_ (1998) ([pdf](http://www.isg.rhul.ac.uk/dusko/papers/1998-lapl-LICS.pdf))
 
 
 [[!redirects differential calculus]]
