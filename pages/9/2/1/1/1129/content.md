@@ -722,7 +722,7 @@ See also
 * 
 {#Lam} T.-Y. Lam, _Lectures on modules and rings_, Graduate Texts in Mathematics 189, Springer Verlag (1999). 
 
-For injective objects in a topos see
+For injective objects in a [[topos]] see
 
 * [[Francis Borceux]], _Handbook of Categorical Algebra vol. 3_ , Cambridge UP 1994. (section 5.6, pp.314-315)
 
@@ -737,6 +737,10 @@ For injective objects in a topos see
 * [[Fred Linton]], _Injective Objects in Topoi III: Stability under coproducts_ , Bull. Acad. Polon. Sci. S&#233;r. Sci. Math. Astronom. Phys. **29** (1981) pp.341-347.
 
 * [[Fred Linton]], [[Robert Paré]], _Injective Objects in Topoi I: Representing coalgebras as algebras_ , pp.196-206 in LNM **719** Springer Heidelberg 1979.
+
+Discussion of injective objects ([[types]]) in [[homotopy type theory]]:
+
+* {#Escardo19} [[Martín Escardó]], _Injectives types in univalent mathematics_ ([arXiv:1903.01211](https://arxiv.org/abs/1903.01211))
 
 For a detailed discussion of internal notions of injectivity see
 
@@ -755,3 +759,6 @@ For the proof of [Lemma](#Adjuncts_Injectives) we consulted
 [[!redirects injective objects]]
 
 [[!redirects enough injectives]]
+
+[[!redirects injective type]]
+[[!redirects injective types]]
