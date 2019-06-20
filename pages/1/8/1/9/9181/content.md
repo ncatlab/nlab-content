@@ -78,11 +78,17 @@ bosinos:
 
 * [[squark]]
 
+**[[dark matter]] candidates**
+
+* [[WIMP]]
+
+* [[axion]]
+
 **Exotica**
 
 * [[preon]]
 
-* [[axion]], [[dilaton]]
+* [[dilaton]]
 
 * [[monopole]]
 
