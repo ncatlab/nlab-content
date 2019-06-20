@@ -153,7 +153,7 @@ $$
 
 The free $\mathbb{E}_\infty$-algebra over $R$ on $n$ generators is the spectrum $Sym_R(R^{\vee n})$. This is typically denoted $R\{x_1, \ldots, x_n\}$. If $R$ is connective, $\pi_0(R\{x_1, \ldots, x_n\})$ can be identified with the polynomial algebra $(\pi_0 R)[x_1, \ldots, x_n]$. The spectrum $R\{x_1, \ldots, x_n\}$ satisfies the following universal property: for any other $\mathbb{E}_\infty$-$R$-algebra $T$,
 $$
-  Map_{Alg_R^{\mathbb{E}_\infty}}(R\{t\}, T) \simeq \Omega^\infty T.
+  Map_{Alg_R^{\mathbb{E}_\infty}}(R\{x_1, \ldots, x_n\}, T) \simeq (\Omega^\infty T)^{\times n}.
 $$
 See ([Lurie 2018, Notation B.1.1.2](#Lurie18))
 
