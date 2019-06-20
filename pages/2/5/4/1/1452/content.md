@@ -7,7 +7,7 @@
 
 The analytic-synthetic distinction has a long history stretching back to the ancient Greeks. It has come to mean different things according to the discipline in which it is employed, but each use can trace its origins to the classical version.
 
-In the classical world, thinkers such as Aristotle, Euclid, Pappus and Proclus, used these terms to distinguish between methods of enquiry. A **synthetic** solution to a problem relies on reasoning from first principles, the kind of reasoning we see displayed in Euclid's _Elements_. The solution is thought to be _put together_ (σύνθεσις). The kinds of first principle allowed are definitions, common notions and postulates, the latter being concerned with the specific subject matter at hand. By contrast, an **analytic** solution operates by working backwards from the solution to see what needs to be the case. Thus it analyses, or _unravels_ (ἀναλύω), the problem. This exercise might then make contact with things already known from first principles, or lead to new such principles. Often analytic discovery was written up in synthetic fashion.
+In the classical world, thinkers such as Aristotle, Euclid, Pappus and Proclus, used these terms to distinguish between methods of enquiry. A **synthetic** solution to a problem relies on reasoning from first principles, the kind of reasoning we see displayed in Euclid's _Elements_. The solution is thought to be _put together_ (συντίθημι). The kinds of first principle allowed are definitions, common notions and postulates, the latter being concerned with the specific subject matter at hand. By contrast, an **analytic** solution operates by working backwards from the solution to see what needs to be the case. Thus it analyses, or _unravels_ (ἀναλύω), the problem. This exercise might then make contact with things already known from first principles, or lead to new such principles. Often analytic discovery was written up in synthetic fashion.
 
 In the seventeenth century, [[Descartes]] understood the distinction in the same way. When asked by Mersennes why he did not present his philosophical arguments in the synthetic fashion, he replied that he considered presentation according to the analytic method as more persuasive. This allowed the reader to see the necessity of the first principles reached, for instance, famously the _Cogito_, 'I think therefore I am'.
 
@@ -21,7 +21,7 @@ In [[philosophy]] the distinction has come to be applied to propositions. An _an
 
 With the introduction of his new logic, [[Frege]] defines analyticity in terms of a proposition's logical form. Where Kant had taken $5+7=12$ as synthetic, Frege now saw it as analytic by virtue of his logicist analysis of number as a class of equinumerous concepts.
 
-Martin-L&ouml;f's account here.
+In the context of his [[Martin-Löf dependent type theory|dependent type theory]],  [[Per Martin-Löf]] ([ML94](#ML94)) draws on Kant to relate the analytic-synthetic distinction to the distinction between judgmental and propositional [[equality]]. Wherever you must construct an element to establish a proposition, that proposition is synthetic. 
 
 ## Analytic and synthetic geometry
 
@@ -41,3 +41,5 @@ He continues
 ## References
 
 * {#Domski} Mary Domski, _Descartes’ Mathematics_, ([SEP](https://plato.stanford.edu/entries/descartes-mathematics))
+
+* {#ML94} [[Per Martin-Löf]], _Analytic and Synthetic Judgements in Type Theory_, ([article](http://archive-pml.github.io/martin-lof/pdfs/Martin-Lof-Analytic-and-Synthetic-Judgements-in-Type-Theory.pdf))
