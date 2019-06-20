@@ -67,12 +67,14 @@ In particular, not all types of the form $steady(f)$ have split support.  Thus, 
 
 ## References
 
-* M. P. Fourman and A. Scedrov. The "world's simplest axiom of choice" fails. 
+* {#FourmanScedrov} M. P. Fourman and A. Scedrov. The "world's simplest axiom of choice" fails. 
 *Manuscripta Math.*, 38(3):325{332, 1982.
- {#FourmanScedrov}
+ 
 
-* [[Nicolai Kraus]] and [[Martin Escardo]] and [[Thierry Coquand]] and [[Thorsten Altenkirch]], "Generalizations of Hedberg's theorem", M. Hasegawa (Ed.): TLCA 2013, LNCS 7941, pp. 173-188. Springer, Heidelberg 2013. [PDF](http://www.cs.bham.ac.uk/~mhe/papers/hedberg.pdf).  In this paper, types with split support are called "h-stable".
- {#KECA}
+* {#KECA} [[Nicolai Kraus]], [[Martin Escardo]], [[Thierry Coquand]], [[Thorsten Altenkirch]], _Generalizations of Hedberg's theorem_, in M. Hasegawa (Ed.): TLCA 2013, LNCS 7941, pp. 173-188. Springer, Heidelberg 2013. [PDF](http://www.cs.bham.ac.uk/~mhe/papers/hedberg.pdf).  
+
+  (In this paper, types with split support are called "h-stable")
+ 
 
 
 [[!redirects split support]]
