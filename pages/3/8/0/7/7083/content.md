@@ -58,6 +58,8 @@ One interesting consequence of this definition is the following, first proven in
 
 +-- {: .num_theorem #DecidableIsSet}
 ###### Theorem
+(**[[Hedberg's theorem]]**)
+
 Suppose that $A$ is a [[type]] which has [[decidable equality]] in the [[propositions as types]] [[logic]] (which is not the logic of h-propositions usually used in HoTT).  In other words, the projection
 $$\array{Paths_A + (0\to A\times A)^{(Paths_A\to A\times A)}\\
 \downarrow\\
@@ -117,7 +119,7 @@ The h-sets in [[HoTT]] form a [[ΠW-pretopos]] ([Rijke-Spitters 13](#RijkeSpitte
 
 * Nicolai Kraus, *A direct proof of Hedberg's theorem*, [blog post](http://homotopytypetheory.org/2012/03/30/a-direct-proof-of-hedbergs-theorem/)
 
-* {#KECA} [[Nicolai Kraus]] and [[Martin Escardo]] and [[Thierry Coquand]] and [[Thorsten Altenkirch]], "Generalizations of Hedberg's theorem", M. Hasegawa (Ed.): TLCA 2013, LNCS 7941, pp. 173-188. Springer, Heidelberg 2013. [PDF](http://www.cs.bham.ac.uk/~mhe/papers/hedberg.pdf)
+* {#KECA} [[Nicolai Kraus]], [[Martin Escardo]], [[Thierry Coquand]] , [[Thorsten Altenkirch]], _Generalizations of Hedberg's theorem_, in M. Hasegawa (Ed.): TLCA 2013, LNCS 7941, pp. 173-188. Springer, Heidelberg 2013. ([pdf](http://www.cs.bham.ac.uk/~mhe/papers/hedberg.pdf))
  
 
 Formalization of [[set theory]] via h-sets in [[homotopy type theory]] is discussed in 
@@ -138,3 +140,6 @@ which became one chapter in
 [[!redirects h-level 2]]
 [[!redirects h-level 2 type]]
 [[!redirects h-level 2 types]]
+
+[[!redirects Hedberg's theorem]]
+[[!redirects Hedberg theorem]]
