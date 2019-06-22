@@ -941,7 +941,7 @@ $$
   \,.
 $$
 
-Now [[shape modality|shape]] &#643; is [[left adjoint]], hence preserves the [[coproducts]] and the [[homotopy quotient]] by $G$ and finally als $G$ itself ($G$ being [[discrete group|discrete]], and &#643; preserving the point (the [[terminal object]]), by [[cohesion]]), so that in conclusion
+Now [[shape modality|shape]] &#643; is [[left adjoint]], hence preserves the [[coproducts]] and the [[homotopy quotient]] by $G$ and finally also $G$ itself ($G$ being [[discrete group|discrete]], and &#643; preserving the point (the [[terminal object]]), by [[cohesion]]), so that in conclusion
 
 $$
   \Big(
@@ -1139,7 +1139,7 @@ $$
   \end{aligned}
 $$
 
-where the first step is by Prop. \ref{OrbifoldsInEquivariantHomotopyTheory}, while the second is by the [[cohesion]] [[adjunction]] $&#643; \dashv Disc$ for [[Smooth∞Groupoids]]. By Example \ref{GlobalHomotopyQuotientsOfSmoothManifolds} we have that $&#643;_{sing}\mathcal{X} \in \infty Groupoids_G$ is indeed the [[G-space]] $X$ regarded in $G$-[[equivariant homotopy theory]].
+where the first step is by Prop. \ref{OrbifoldsInEquivariantHomotopyTheory}, while the second is by the [[cohesion]] [[adjunction]] $&#643; \dashv Disc$ for [[Smooth∞Groupoids]]. By Example \ref{GlobalHomotopyQuotientsOfSmoothManifolds} we have that $&#643; \mathcal{X} \in \infty Groupoids_G$ is indeed the [[G-space]] $X$ regarded in $G$-[[equivariant homotopy theory]].
  
 =--
 
