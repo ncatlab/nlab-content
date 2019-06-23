@@ -41,7 +41,7 @@ The category of [[compactly generated topological space|compactly generated]] we
 
 * {#McCord69} M. C. McCord,  (1969), _Classifying spaces and infinite symmetric products_, Transactions of the American Mathematical Society 146: 273&#8211;298, doi:10.2307/19951
 
-as a more convenient setting than Steenrod's compactly generated Hausdorff spaces, given that the latter do not admit many colimits (for instance quotients).
+as a more convenient setting than Steenrod's compactly generated Hausdorff spaces, given that the latter is not closed under many colimits (for instance quotients) as computed in $Top$.
 
 * [MO discussion](http://mathoverflow.net/q/47702/381)
 
