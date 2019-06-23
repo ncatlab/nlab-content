@@ -4,6 +4,18 @@ As of 2019, Ethereum mainnet, which supports the Ether cryptocurrency is still o
 
 Ethereum 1.0 platform has largely influenced development of many subsequent platforms; in particular, [[zoranskoda:Hyperledger]] Fabric is a permissioned blockchain  developed by IBM and Linux Foundation on the basis of Ethereum.
 
+Most important clients for Ethereum are (see also [here](https://github.com/ethereumbook/ethereumbook/blob/develop/03clients.asciidoc))
+
+* Metamask  (Chrome extension) [metamask.io](https://metamask.io); source at [github](https://github.com/MetaMask/metamask-plugin)
+* Mist browser (web3.js based browser for DApps) is now [deprecated](https://medium.com/@avsa/sunsetting-mist-da21c8e943d2); [github](https://github.com/ethereum/mist), [investopedia](https://www.investopedia.com/terms/m/mist-browser.asp)
+* parity (node software written in [[Rust]]) [setup](https://wiki.parity.io/Setup)
+* Geth (Go Ethereum, node software written in GoLang)
+
+See also about setting your own private Ethereum net in {this tutorial](https://www.edureka.co/blog/ethereum-private-network-tutorial). A comprehensive book on Ethereum is  
+
+
+* Andreas M. Antonopoulos, Gavin Wood, _Mastering Ethereum: building smart contracts and DApps_, O’Reilly Media, 2018. The book is also on [github](https://github.com/ethereumbook/ethereumbook) together with the sourcecode
+
 ## Literature
 
 See also [[blockchain]], [[smart contract]] and wikipedia article [Ethereum](https://en.wikipedia.org/wiki/Ethereum).
@@ -33,6 +45,17 @@ Plans for Ethereum future from Ethereum Foundation as of May 2019:
 * Andrew Ashikhmin, Alexey Akhunov, _Red queen's sync protocol for Ethereum_, github/[pdf](https://github.com/yperbasis/silkworm/raw/master/doc/sync_protocol_v1.pdf)
 * [cointelegraph.com/news/an-ethereum-20-proof-of-stake-testnet-blockchain-is-now-live](https://cointelegraph.com/news/an-ethereum-20-proof-of-stake-testnet-blockchain-is-now-live)
 
+### Whisper
+
+According to Mukhapadhyay, _Ethereum smart contract development_
+
+> When [[Gavin Wood]] laid down the specifications for whisper as a peer-to-peer communication protocol, in his whitepaper on [GitHub](https://github.com/ethereum/wiki/wiki/Whisper-PoC-2-Protocol-Spec), he designed one of the most interesting technologies in the field of cryptography. At a considerable cost of bandwidth and latency, whisper is able to deliver a 100% dark operation. By completely dark operations, we mean that there is zero leakage of metadata during peer-to-peer By technical definition, whisper is a messaging system with multi distributed hash table (DHT), with routing privacy acting as a
+companion protocol to the Ethereum blockchain. 
+
+> Whisper operates in a user-configurable manner with regard to how much information the communicating nodes are willing to leak concerning the decentralized application content that ultimately tracks the user activities. 
+
+> Whisper is based on two key concepts: messages and envelopes. If whisper is considered a datagram messaging service, then an envelope represents an un-encrypted data format, comprehensible by a node, which carries the encrypted message datagram inside it. An envelope consists of original time to live (TTL, in seconds), the absolute time to expiry (UNIX system time), the encrypted message data field, which is the actual payload, topics (cryptographically secure, probabilistic partial classifications of message), and nonce, an arbitrary value. This nonce is used for the PoW to judge the efforts of a peer. The message has a binary flag for signature with an unfixed payload.
+
 ### Ethereum virtual machine, storage and smart contracting
 
 * EVM [storage layout](https://medium.com/@hayeah/diving-into-the-ethereum-vm-part-2-storage-layout-bc5349cb11b7)
@@ -48,6 +71,7 @@ New Technologies, Mobility and Security (NTMS) Feb. 2018, pp. 1–5
 * Ethereum Alarm Clock [documentation](http://docs.ethereum-alarm-clock.com/en/latest)
 * _How can a contract run itself at a later time?_, [
 ethereum.stackexchange](https://ethereum.stackexchange.com/questions/42/how-can-a-contract-run-itself-at-a-later-time)
+* how-data-is-stored-in-ethereum [hackernoon](https://hackernoon.com/getting-deep-into-ethereum-how-data-is-stored-in-ethereum-e3f669d96033)
 
 ### Others
 
