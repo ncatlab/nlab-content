@@ -54,7 +54,9 @@ We say that a category $\mathcal{C}$ is quadrable (resp. coquadrable) if all cos
 
 The term _quadrable_ is supposed to be a translation of the French  _carrable_ , whose use is more wide-spread. It appears for instance in 
 
-* [[Bertrand Toen]], _Cours de Master 2 : Champs alg&#233;briques (2006-2007)_ cours 2 ([web](http://www.math.univ-toulouse.fr/~toen/m2.html)) 
+* [[Bertrand Toen]], _A master course on algebraic stacks (Toulouse 2005)_ cours 2 ([web](https://perso.math.univ-toulouse.fr/btoen/files/2015/02/cours2.pdf))
+
+* [[André Joyal]], _Notes on Clans and Tribes_, [arxiv:1710.10238](https://arxiv.org/abs/1710.10238)
 
 
 [[!redirects quadrable cospan]]
