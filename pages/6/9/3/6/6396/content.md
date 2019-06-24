@@ -5,9 +5,9 @@ Co-founder of [[string theory]].
 
 ## Selected writings
 
-On the [[Green-Schwarz sigma-model]] of the [[M5-brane]] with the [[self-dual higher gauge field]]:
+On the [[Perry-Schwarz action]] for the [[Green-Schwarz sigma-model]] of the [[M5-brane]] with the [[self-dual higher gauge field]] after [[KK-compactification]] to 5d:
 
-* {#PerrySchwarz96} Malcolm Perry, [[John Schwarz]], _Interacting Chiral Gauge Fields in Six Dimensions and Born-Infeld Theory_, Nucl. Phys. B489 (1997) 47-64 ([arXiv:hep-th/9611065](http://arxiv.org/abs/hep-th/9611065))
+* {#PerrySchwarz96} [[Malcolm Perry]], [[John Schwarz]], _Interacting Chiral Gauge Fields in Six Dimensions and Born-Infeld Theory_, Nucl. Phys. B489 (1997) 47-64 ([arXiv:hep-th/9611065](http://arxiv.org/abs/hep-th/9611065))
 
 * {#Schwarz97} [[John Schwarz]], _Coupling a Self-Dual Tensor to Gravity in Six Dimensions_, Phys. Lett. B395:191-195, 1997 ([pdf](http://cds.cern.ch/record/317663/files/9701008.pdf), <a href="https://doi.org/10.1016/S0370-2693(97)00094-4">doi:10.1016/S0370-2693(97)00094-4</a>)
 
