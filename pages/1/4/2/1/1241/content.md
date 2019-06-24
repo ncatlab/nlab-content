@@ -339,6 +339,9 @@ Relation to [[leptoquarks]] and [[flavour anomalies]]:
 
 * {#HeekTeresi19} Julian Heeck, Daniele Teresi, _Pati-Salam and lepton universality in B decays_ ([arXiv:1905.05211](https://arxiv.org/abs/1905.05211))
 
+* {#Malinsky19} [[Michal Malinský]], _Lepton non-universality in $B$-decays in the minimal leptoquark gauge model_ ([arXiv:1906.09174](https://arxiv.org/abs/1906.09174))
+
+
 
 
 
