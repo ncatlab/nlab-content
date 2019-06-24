@@ -38,6 +38,8 @@ A non-empty [[class]] of [[compact Lie groups]] is called a **global family** if
 
 (e.g. [Schwede 18, def. 1.4.1](#Schwede18))
 
+A global family is said to be **reflexive** if and only if the inclusion into the category of all compact Lie groups has a left adjoint. [Schwede 18, def 4.5.7](#Schwede18).
+
 ## Examples
 
 +-- {: .num_example}
