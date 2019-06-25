@@ -88,6 +88,12 @@ Sometimes semi-free DGAs are called _quasi-free_, but this is in collision with 
 [[!redirects semifree dgc-algebra]]
 [[!redirects semifree dgc-algebras]]
 
+[[!redirects semi-free dg-algebra]]
+[[!redirects semi-free dg-algebras]]
+
+[[!redirects semi-free dgc-algebra]]
+[[!redirects semi-free dgc-algebras]]
+
 
 [[!redirects semifree differential graded-commutative algebra]]
 [[!redirects semifree differential graded-commutative algebras]]
