@@ -4,7 +4,11 @@
 
 ## Idea
 
-By analogy with [[graded algebra]], a **$\mathcal{M}$-graded monad** for a [[strict monoidal category]], $(\mathcal{M}, \otimes, I)$, is a lax monoidal functor, $(\mathcal{M}, \otimes, I) \to ([\mathbb{C}, \mathbb{C}], \circ, id_{\mathbb{C}})$.
+By analogy with [[graded algebra]], a **$\mathcal{M}$-graded monad** in a category $\mathbb{C}$ for a [[monoidal category]], $(\mathcal{M}, \otimes, I)$, is a [[lax monoidal functor]], $(\mathcal{M}, \otimes, I) \to ([\mathbb{C}, \mathbb{C}], \circ, id_{\mathbb{C}})$. This generalizes the concept of [[monad]] which may be consider as graded by $\mathbf{1}$, the [[terminal category]].
+
+
+
+ 
 
 ## Related concepts
 
