@@ -135,6 +135,10 @@ The basic idea was being popularized and put to use in
 A detailed discussion in the general context of [[internal categories in an (∞,1)-category]] is in section 1 of
 
 * {#Lurie09} [[Jacob Lurie]], _$(\infty,2)$-Categories and the Goodwillie Calculus I_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
+
+A book on higher categories:
+
+*  [[Simona Paoli]], Simplicial Methods for Higher Categories. ([Springer](https://www.springer.com/gb/book/9783030056735))
  
 
 
