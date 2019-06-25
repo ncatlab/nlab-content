@@ -70,9 +70,18 @@ Similarly in [[superstring theory]] [[open string]] states between [[D-brane]]/[
 
 * [[inflaton field]]
 
+
 ## References
 
 ### General
+
+The concept originates with
+
+* Olexa‐Myron Bilaniuk, V. K. Deshpande, [[E. C. G. Sudarshan]], _"Meta" Relativity_, American Journal of Physics 30, 718 (1962) ([doi:10.1119/1.1941773](https://doi.org/10.1119/1.1941773))
+
+* Olexa‐Myron Bilaniuk, [[E. C. George Sudarshan]], _Particles beyond the light barrier_, Physics Today 22, 5, 43 (1969) ([doi:10.1063/1.3035574](https://doi.org/10.1063/1.3035574))
+
+See also
 
 * Wikipedia, _[Tachyon](http://en.wikipedia.org/wiki/Tachyon)_
 
