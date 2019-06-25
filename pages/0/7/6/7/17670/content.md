@@ -45,12 +45,22 @@ Moreover, the entire field content in one [[generation of fundamental particles|
 ## References
 
 ### Review
+ {#ReferencesReview}
+
+* Robert Brout, _Notes on Connes' Construction of the Standard Model_, Nucl. Phys. Proc. Suppl. 65 (1998) 3-15 ([arXiv:hep-th/9706200](https://arxiv.org/abs/hep-th/9706200))
+
+* Agostino Devastato, Maxim Kurkov, [[Fedele Lizzi]], _Spectral Noncommutative Geometry, Standard Model and all that_ ([arXiv:1906.09583](https://arxiv.org/abs/1906.09583))
+
+
+Relation to the "[[neutrino]]-paradigm":
+
+* {#G-B19} [[José Gracia-Bondia]], _On Marshak's and Connes' views of chirality_, in: [[E. C. G. Sudarshan]] (ed.), _A Gift of Prophecy -- Essays in Celebration of the Life of [[Robert Eugene Marshak]]_, pp. 208-217, World Scientific  (1995)  ([arXiv:hep-th/9706200](https://arxiv.org/abs/hep-th/9706200), [doi:10.1142/9789812831408_0017](https://doi.org/10.1142/9789812831408_0017))
 
 Exposition highlighting the relation to [[KK-compactification]] and [[string theory]]-[[perturbative string theory vacuum|vacua]] ([[2-spectral triples]]) includes
 
 * {#Schreiber16} [[Urs Schreiber]], _[Spectral Standard Model and String Compactifications](https://www.physicsforums.com/insights/spectral-standard-model-string-compactifications/)_, 2016
 
-Other comment in view of [[D-brane]]-physics:
+Other commentary in view of [[D-brane]]-physics:
 
 * [[John Iliopoulos]], _Gauge Theories and non-Commutative Geometry: A review_, EPJ Web Conf. Volume 182, 2018 6th International Conference on New Frontiers in Physics (ICNFP 2017) ([doi:10.1051/epjconf/201818202055](https://doi.org/10.1051/epjconf/201818202055))
 
