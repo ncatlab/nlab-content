@@ -848,9 +848,17 @@ A clasical textbook account of standard material is in chapter VI, vol III of
 
 Some remarks on the notation there as compared to ours: our $d_W$ is their $\delta_W$ on p. 226 (vol III). Their $\delta_E$ is our $d_{CE}$. Their $\delta_\theta$ is our $d_\rho$ ($\theta$/$\rho$ denoting the representation)..
 
-Some related material is also in
+In the context of [[equivariant de Rham cohomology]]:
 
-* Victor Guillemin, Shlomo Sternberg, _Supersymmetry and equivariant de Rham theory_, Springer, (1999).
+* {#AtiyahBott84} [[Michael Atiyah]], [[Raoul Bott]], _The moment map and equivariant cohomology_, Topology 23, 1 (1984) (<a href="https://doi.org/10.1016/0040-9383(84)90021-1">doi:10.1016/0040-9383(84)90021-1</a>, [pdf](https://www.math.stonybrook.edu/~mmovshev/MAT570Spring2008/BOOKS/atiyahbott_moment.pdf))
+
+* {#Kalkman93} Jaap Kalkman, _BRST model applied to symplectic geometry_, Ph.D. Thesis, Utrecht, 1993 ([arXiv:hep-th/9308132](https://arxiv.org/abs/hep-th/9308132), [cds:9308132](http://cds.cern.ch/record/568522), [euclid:1104252784](http://projecteuclid.org/euclid.cmp/1104252784))
+
+and with an eye towards [[supersymmetry]]:
+
+* {#Miettinen96} Mauri Miettinen, _Weil Algebras and Supersymmetry_ ([arXiv:hep-th/9612209](https://arxiv.org/abs/hep-th/9612209), [cds:317377](http://cds.cern.ch/record/317377), [spire:427720](http://inspirehep.net/record/427720))
+
+* {#GuilleminSternberg99} [[Victor Guillemin]], [[Shlomo Sternberg]], _Supersymmetry and equivariant de Rham theory_, Springer, (1999) ([doi:10.1007/978-3-662-03992-2](https://link.springer.com/book/10.1007/978-3-662-03992-2))
 
 The (obvious but conceptually important) observation that [[Lie algebra-valued 1-forms]] regarded as morphisms of graded vector spaces $\Omega^\bullet(X) \leftarrow \wedge^1 \mathfrak{g}^* : A$ are equivalently morphisms of dg-algebras out of the Weil algebra $\Omega^\bullet(X) \leftarrow W(\mathfrak{g}) : A$ and that one may think of as the identity $W(\mathfrak{g}) \leftarrow W(\mathfrak{g}) : Id$ as the _universal $\mathfrak{g}$-connection_ appears in early articles for instance highlighted on p. 15 of
 
