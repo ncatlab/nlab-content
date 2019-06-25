@@ -59,7 +59,7 @@ See _[[Cheeger-Gromoll theorem]]_
 
 For regularity result see
 
-* Anderson, _Convergence  and rigidity of manifolds under Ricci curvature bounds_ , Invent. Math. (1990)
+* Anderson, _Convergence  and rigidity of manifolds under Ricci curvature bounds_, Invent. Math. (1990)
 * Cheeger and Naber, _Lower bounds on Ricci curvature and quantitative behavior of singular sets_ Invent. Math. (2013)
 
 For weaker but more general regularity results see also:
