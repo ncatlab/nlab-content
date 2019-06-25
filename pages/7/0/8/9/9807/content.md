@@ -279,9 +279,9 @@ $$
   \;+\;
   d_W
   \;+\;
-  t^a \wedge \mathcal{L}_a
+  r^a \wedge \iota_{v^a}
   \;-\;
-  r^a \wedge \iota_a
+  t^a \wedge \mathcal{L}_{v^a}
 $$
 
 with $t^a$, $r^a$ from (eq:ExplicitWeilAlgebra) and $\iota_a$ from (eq:WeilModelContractionOnGenerators) and $\mathcal{L}_a$ from (eq:WeilModelLieDerivativeOnGenerators).
@@ -304,25 +304,61 @@ This [[dgc-algebra]]
   \coloneqq
   d_{dR} + d_W 
   +
-  t^a \wedge \mathcal{L}_a
+  r^a \wedge \iota_{v^a}
   -
-  r^a \wedge \iota_a
+  t^a \wedge \mathcal{L}_{v^a}
   \Big)
 \]
 
 is called the _[[BRST-complex|BRST]]-model_ in ([Kalkman 93, section 3](#Kalkman93), see e.g. [Miettinen 96](#Miettinen96)) or now the _Kalkman model_ by some authors, for the $G$-equivariant de Rham cohomology of $X$.
 
-This is [[quasi-isomorphism|quasi-isomorphic]] to the Weil model (eq:WeilModel), the [[quasi-isomorphism]] given by [[conjugation]] with the [[exponential]] $exp\big(  t^a \wedge \iota_a \big)$ ([Kalkman 93, section 3](#Kalkman93))
+This is [[quasi-isomorphism|quasi-isomorphic]] to the Weil model (eq:WeilModel), the [[quasi-isomorphism]] given by [[conjugation]] with the [[exponential]] $exp\big(  t^a \wedge \iota_{v^a} \big)$ ([Kalkman 93, section 3](#Kalkman93))
 
 $$
   \begin{aligned}
     d_K
-    \;=\;
-    \exp\big(  -t^a \wedge \iota_a \big)
+    & =
+    \exp\big(  -t^a \wedge \iota_{v^a} \big)
+    \circ
     \big(
       d_{dR} + d_W 
     \big)
-    \exp\big( t^a \wedge \iota_a \big)
+    \circ
+    \exp\big( t^a \wedge \iota_{v^a} \big)
+    \\
+    & =
+    d_{dR} + d_W 
+    +
+    \big[
+      d_{dR} + d_W,
+      t^a \wedge \iota_{v^a}
+    \big]
+    \\
+    & =
+      d_{dR} + d_W 
+      +
+      \big[ 
+        d_W, t^a
+      \big] 
+      \wedge \iota_{v^a}
+      -
+      t^a 
+      \wedge
+      \big[
+        d_{dR}, \iota_{v^a} 
+      \big]
+      \\
+      & =
+        d_{dR} + d_W 
+        +
+        \big(
+          r^a
+          -
+          \tfrac{1}{2}f_{b c}^a t^b \wedge t^c
+        \big) 
+        \wedge \iota_{v^a}
+        -
+        t^a \wedge \mathcal{L}_{v^a}
   \end{aligned}
 $$
 
