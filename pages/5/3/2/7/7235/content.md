@@ -65,10 +65,6 @@ This presentation is due to [Cartan](#Cartan), for review see [Cremmer-Julia 79,
 
 ## Properties
 
-### As part of the ADE pattern
-
-[[!include ADE -- table]]
-
 
 ### Representation
 
@@ -180,6 +176,9 @@ $$
   \,.
 $$
 
+### As part of the ADE pattern
+
+[[!include ADE -- table]]
 
 
 
