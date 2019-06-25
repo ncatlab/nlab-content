@@ -25,7 +25,7 @@ In [[perturbation theory]] (in [[QFT]]) a _tachyon_ is an excitation/[[particle]
 
 Since the masses of particles in [[perturbation theory]] give the second derivative of the background potential energy at the point about which the [[perturbation series]] is developed, a tachyon in the spectrum indicates that the [[perturbation theory]] is set up about an _unstable_ [[vacuum]].
 
-They [[dynamics]] of a tachyon will hence make it form a [[condensate]] at an actual local [[potential energy]] [[minimum]]. Once there it is no longer a tachyon, but a genuine [[particle]] excitation ("tachyon decay").
+The [[dynamics]] of a tachyon will hence make it form a [[condensate]] at an actual local [[potential energy]] [[minimum]]. Once there it is no longer a tachyon, but a genuine [[particle]] excitation ("tachyon decay").
 
 ## Examples
 
