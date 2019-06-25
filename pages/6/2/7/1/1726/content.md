@@ -136,9 +136,9 @@ A detailed discussion in the general context of [[internal categories in an (∞
 
 * {#Lurie09} [[Jacob Lurie]], _$(\infty,2)$-Categories and the Goodwillie Calculus I_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
 
-A book on higher categories:
+A textbook account is in
 
-*  [[Simona Paoli]], Simplicial Methods for Higher Categories. ([Springer](https://www.springer.com/gb/book/9783030056735))
+* {#Paoli19} [[Simona Paoli]], _Simplicial Methods for Higher Categories -- Segal-type Models of Weak $n$-Categories_, Springer 2019  ([doi:10.1007/978-3-030-05674-2](https://www.springer.com/gb/book/9783030056735), [toc pdf](https://link.springer.com/content/pdf/bfm%3A978-3-030-05674-2%2F1.pdf))
  
 
 
