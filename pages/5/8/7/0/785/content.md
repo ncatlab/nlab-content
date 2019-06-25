@@ -102,7 +102,13 @@ $$
 Spelled out, this is the [[dependent sum]] 
 
 $$
-  \underset{{a \colon A} \atop {b\colon B}}{\sum} (f(a)= g(b))
+  \underset{
+    \array{
+      {a \colon A}  
+      \\
+      {b\colon B}
+    }
+   }{\sum} (f(a)= g(b))
 $$
 
 
