@@ -19,7 +19,7 @@
 
 ## Idea
 
-In the original sense, a _Morita equivalence_ between two [[rings]] is two [[bimodules]] between them that behave as [[inverses]] to each other under [[tensor product of modules]], up to isomorphism of bimodules. This is just the [[equivalence in a 2-category|2-categorical concept of equivalence]] for the two rings regarded as [[objects]] in the [[2-category]] of rings, with [[bimodules]] as [[1-morphisms]] and bimodule homomorphsims ([[intertwiners]]) as [[2-morphisms]] (see [here](bimodule#AsMorphismsInA2Category)).
+In the original sense, a _Morita equivalence_ between two [[rings]] is two [[bimodules]] between them that behave as [[inverses]] to each other under [[tensor product of modules]], up to isomorphism of bimodules. This is just the [[equivalence in a 2-category|2-categorical concept of equivalence]] for the two rings regarded as [[objects]] in the [[2-category]] of rings, with [[bimodules]] as [[1-morphisms]] and bimodule homomorphisms ([[intertwiners]]) as [[2-morphisms]] (see [here](bimodule#AsMorphismsInA2Category)).
 By the [[Eilenberg-Watts theorem]] any such pair of bimodules equivalently induces a suitably "linear" [[equivalence of categories]] between the [[categories of modules]] over the given rings.
  
 This is the original concept equivalence of rings due to [[Kiiti Morita]] (see [below](#ClassicalMoritaTheorem)).
