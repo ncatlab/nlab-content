@@ -41,9 +41,8 @@ Various [[dg-algebras]] are used to model the corresponding $G$-equivariant de R
 
 * _[the Weil model](#TheWeilModel)_
 
-* _[the Kalkman model](#TheKalkmanModel)_
-
 * _[the Cartan model](#TheCartanModel)_
+
 
 
 #### The Weil model
@@ -61,9 +60,10 @@ Let $\big( W(\mathfrak{g}), d_W \big)$ denote the [[Weil algebra]] of $\mathfrak
 
 with induced structure constants for the [[Lie bracket]] being $\big\{f_{b c}^a\big\}_{a,b,c}$ 
 
-$$
+\[
+  \label{StructureConstants}
   [t_a, t_b] \;=\; f_{a b}^c t^b \wedge t^c
-$$
+\]
 
 (using the [[Einstein summation convention]] throughout)
 
@@ -116,7 +116,7 @@ Now consider the [[tensor product of algebras|tensor product of]] [[dgc-algebras
   \,.
 \]
 
-On this consider the following joint [[Cartan calculus]] operations: for each basis element $t_a$ (eq:LinearBasisForG) a graded [[derivation]] of degree -1 (contraction)
+On this consider the following joint [[Cartan calculus]] operations: for each fKalbasis element $t_a$ (eq:LinearBasisForG) a graded [[derivation]] of degree -1 (contraction)
 
 \[
   \label{WeilModelContractionOperation}
@@ -220,9 +220,37 @@ is the [[vector field]] on $X$ which is the [[derivative]] of the [[action]] $\r
 
 and where $\iota_{v^a}$ is ordinary contraction of [[vector fields]] into [[differential forms]] and $\mathcal{L}_{v^a} = [d_{dR}, \iota-{v^a}]$ is [[Lie derivative]] of differential forms.
 
-With this one defines the sub-[[dgc-algebra]] of _basic differential forms_, which are those in the joint [[kernel]] of all these derivations (eq:WeilModelContractionOperation) and (eq:WeilModelLieDerivative)
+With this one defines the sub-[[chain complex]] of _[[horizontal differential forms]]_ as the joint [[kernel]] of the contraction operators (eq:WeilModelContractionOperation)
 
-$$
+\[
+  \label{WeilModelHorizontalForms}
+  \Big(
+    \Omega^\bullet
+    \big(
+      X 
+    \big)
+    \otimes
+    W(\mathfrak{g})
+  \Big)_{hor}
+  \overset{
+    ker\big( \{\iota_a\}_a \big)
+  }{\hookrightarrow}
+  \Big(
+    \Omega^\bullet
+    \big(
+      X 
+    \big)
+    \otimes
+    W(\mathfrak{g})
+  \Big)
+\]
+
+(this subspace need not be preserved by the differential, but the following further subspace is)
+
+and the further sub-[[dgc-algebra]] of _basic differential forms_, which are in addition in the [[kernel]] of the [[Lie derivatives]] (eq:WeilModelLieDerivative)
+
+\[
+  \label{WeilModelBasicForms}
   \Big(
     \Omega^\bullet
     \big(
@@ -232,7 +260,7 @@ $$
     W(\mathfrak{g})
   \Big)_{basic}
   \overset{
-    ker\big( \{\iota_a\}_a, \{\mathcal{L}_a\}_a \big)
+    ker\big( \{\mathcal{L}_a\}_a \big)
   }{\hookrightarrow}
   \Big(
     \Omega^\bullet
@@ -241,8 +269,19 @@ $$
     \big)
     \otimes
     W(\mathfrak{g})
-  \Big)_{basic}
-$$
+  \Big)_{hor}
+  \overset{
+    ker\big( \{\iota_a\}_a \big)
+  }{\hookrightarrow}
+  \Big(
+    \Omega^\bullet
+    \big(
+      X 
+    \big)
+    \otimes
+    W(\mathfrak{g})
+  \Big)
+\]
 
 Since the [[differential]] $d_{dR} + d_W$ (eq:TensorProductOfdeRhamAlgebraWithWeilAlgebra) graded-commutes with $\iota_a$ to $\mathcal{L}_a$ (by definition and by [[Cartan's magic formula]]) and hence graded-commutes with the [[Lie derivative]] $\mathcal{L}_a$ itself, it restricts to this joint [[kernel]], thus defining a sub-[[dgc-algebra]] (just no longer [[semi-free dg-algebra|semi-free]], in generaL)
 
@@ -267,157 +306,199 @@ This [[dgc-algebra]] is called the _Weil model_ for $G$-equivariant de Rham coho
 (see [Atiyah-Bott 84](#AtiyahBott84), [Mathai-Quillen 86, Sec 5](#MathaiQuillen86) [Kalkman 93, Sec.2.1](#Kalkman93), [Miettinen 96, Sec. 2](#Miettinen96)).
 
 
-#### The Kalkman/BRST model
- {#TheKalkmanModel}
-
-Consider the Weil model (eq:WeilModel) but equipped instead with the alternative [[differential]]
-
-$$
-  d_{K}
-  \;\coloneqq\;
-  d
-  \;+\;
-  d_W
-  \;+\;
-  r^a \wedge \iota_{v^a}
-  \;-\;
-  t^a \wedge \mathcal{L}_{v^a}
-$$
-
-with $t^a$, $r^a$ from (eq:ExplicitWeilAlgebra) and $\iota_a$ from (eq:WeilModelContractionOnGenerators) and $\mathcal{L}_a$ from (eq:WeilModelLieDerivativeOnGenerators).
-
-This [[dgc-algebra]]
-
-\[
-  \label{WeilModel}
-  \Big(
-  \Big(
-    \Omega^\bullet
-    \big(
-      X 
-    \big)
-    \otimes
-    W(\mathfrak{g})
-  \Big)_{basic}
-  , 
-  d_K
-  \coloneqq
-  d_{dR} + d_W 
-  +
-  r^a \wedge \iota_{v^a}
-  -
-  t^a \wedge \mathcal{L}_{v^a}
-  \Big)
-\]
-
-is called the _[[BRST-complex|BRST]]-model_ in ([Kalkman 93, section 3](#Kalkman93), see e.g. [Miettinen 96](#Miettinen96)) or now the _Kalkman model_ by some authors, for the $G$-equivariant de Rham cohomology of $X$.
-
-This is [[quasi-isomorphism|quasi-isomorphic]] to the Weil model (eq:WeilModel), the [[quasi-isomorphism]] given by [[conjugation]] with the [[exponential]] $exp\big(  t^a \wedge \iota_{v^a} \big)$ ([Kalkman 93, section 3](#Kalkman93))
-
-$$
-  \begin{aligned}
-    d_K
-    & =
-    \exp\big(  -t^a \wedge \iota_{v^a} \big)
-    \circ
-    \big(
-      d_{dR} + d_W 
-    \big)
-    \circ
-    \exp\big( t^a \wedge \iota_{v^a} \big)
-    \\
-    & =
-    d_{dR} + d_W 
-    +
-    \big[
-      d_{dR} + d_W,
-      t^a \wedge \iota_{v^a}
-    \big]
-    \\
-    & =
-      d_{dR} + d_W 
-      +
-      \big[ 
-        d_W, t^a
-      \big] 
-      \wedge \iota_{v^a}
-      -
-      t^a 
-      \wedge
-      \big[
-        d_{dR}, \iota_{v^a} 
-      \big]
-      \\
-      & =
-        d_{dR} + d_W 
-        +
-        \big(
-          r^a
-          -
-          \tfrac{1}{2}f_{b c}^a t^b \wedge t^c
-        \big) 
-        \wedge \iota_{v^a}
-        -
-        t^a \wedge \mathcal{L}_{v^a}
-  \end{aligned}
-$$
-
-(...)
-
 
 #### The Cartan model
  {#TheCartanModel}
 
-reviews include ([Mathai-Quillen 86, Sec. 5](#MathaiQuillen86), [Kalkman 93, section 2.2](#Kalkman93))
+The Cartan model follows from the Weil model [above](#TheWeilModel) by algebraically solving the horizontality constraint (eq:WeilModelHorizontalForms). This we discuss first [below](#LabelCartanViaHorizontalProjection). Then we summarize state the resulting dgc-algebra further [below](#CartanModelDirectDefinition).
+
+Reviews include ([Mathai-Quillen 86, Sec. 5](#MathaiQuillen86), [Kalkman 93, section 2.2](#Kalkman93))
+
+##### Via horizontal projection of the Weil model
+  {#LabelCartanViaHorizontalProjection}
+
+The _Cartan model_ arises form the Weil model [above](#TheWeilModel) by the observation that the first of the two constraints defining basic differential forms (eq:WeilModelBasicForms), namely the constrain for [[horizontal differential forms]] (eq:WeilModelHorizontalForms), may be uniformly solved:
+
++-- {: .num_lemma #ProjectionOntoHorizontalDifferentialForms}
+###### Lemma
+**([[projection operator]] onto [[horizontal differential forms]])**
+
+Consider the [[normal ordering|normal ordered]] [[exponential]] of minus the sum of the contraction [[derivations]] (eq:WeilModelContractionOperation) followed by wedge product with the corresponding degree-1 generator (eq:ExplicitWeilAlgebra)
+
+\[
+  \label{ExponentialProjectionOperator}
+  :
+    \exp
+    \big(
+      - \theta^a \iota_a
+    \big)
+  :
+  \;=\;
+  1 
+  - \underset{a}{\sum} \theta^a \iota_a
+  + \tfrac{1}{2} \underset{a,b}{\sum} \theta^a \theta^b \iota_b \iota_a
+  - \cdots
+  \;\;\colon\;\;
+  \Omega^\bullet
+  \big(
+    X 
+  \big)
+  \otimes
+  W(\mathfrak{g})
+  \longrightarrow
+  \Omega^\bullet
+  \big(
+    X 
+  \big)
+  \otimes
+  W(\mathfrak{g})
+\]
+
+We have:
+
+1. This is the [[projection operator]] onto the sub-space of [[horizontal differential forms]] (eq:WeilModelHorizontalForms).
+
+1. The restriction of this projector to $\Omega^\bullet\big(X \big)$ is a [[graded algebra]]-[[isomorphism]] onto the horizontal forms in $CE(\mathfrak{g}) \otimes \Omega^\bullet\big(X \big)$
+
+   $$
+     \Omega^\bullet\big(X \big)
+     \underoverset{\simeq}{ :\exp\big( - \theta^a \iota_a \big):  }{\longrightarrow}
+     \big( CE(\mathfrak{g}) \otimes \Omega^\bullet(X) \big)_{hor}    
+   $$
+
+1. Hence the further [[tensor product]] with $\mathbb{R}\big[ \{r^a\}_a \big]$ is an algebra isomorphism onto the full subspace of [[horizontal differential forms]] (eq:WeilModelHorizontalForms)
+
+   $$
+     \mathbb{R}\big[ \{r^a\}_a \big] 
+     \otimes
+     \Omega^\bullet\big(X \big)
+     \underoverset{\simeq}{ 
+       :\exp\big( - \theta^a \iota_a \big):  
+     }{
+       \longrightarrow
+     }
+     \big( CE(\mathfrak{g}) \otimes \Omega^\bullet(X) \big)_{hor}    
+   $$
+
+1. Finally, the operator commutes with the [[Lie derivative]] (eq:WeilModelLieDerivative) and hence restricts to an isomrophism onto the sub-[[dgc-algebra]] of basic differential forms (eq:WeilModelBasicForms)
+
+   \[
+     \label{IsomorphisamCartanToWeilModel}
+     \big(
+       \mathbb{R}\big[ \{r^a\}_a \big] 
+       \otimes
+       \Omega^\bullet\big(X \big)
+     \big)^G
+     \underoverset{\simeq}{ 
+       :\exp\big( - \theta^a \iota_a \big):  
+     }{
+       \longrightarrow
+     }
+     \big( CE(\mathfrak{g}) \otimes \Omega^\bullet(X) \big)_{bas}    
+   \]
 
 
+=--
+
+([Mathai-Quillen 86, around (5.9)](#MathaiQuillen86))
+
++-- {: .proof}
+###### Proof
+
+Observe that the operator (eq:ExponentialProjectionOperator) is equal to the product
+
+$$
+  :
+    \exp
+    \big(
+      - \theta^a \iota_a
+    \big)
+  :
+  \;=\;
+  \big(
+    id - \theta^1 \iota_1
+  \big)
+  \big(
+    id - \theta^2 \iota_2
+  \big)
+  \cdots
+  \big(
+    id - \theta^{dim(\mathfrak{g})} \iota_{dim(\mathfrak{g})}
+  \big)
+  \,.
+$$
+
+Here all factors commute with each other, and each factor is itself a [[projection operator]], with [[image]] the [[kernel]] of the corresponding single contraction operator, e.g.
+
+$$
+  im
+  \big(
+    1 - \theta^1 \iota_1
+  \big)
+  \;\simeq\;
+  ker\big( \iota_1\big)
+$$
+
+etc.
+
+=--
+
+The left hand side [[dgc-algebra]] of the isomorphism (eq:IsomorphisamCartanToWeilModel) is called the _Cartan model_, and by that isomorphism exhibits it equivalent to the Weil model.
+
+In summary, the Cartan model is explicitly the following dgc-algebra:
+
+##### Direct definition
+  {#CartanModelDirectDefinition}
 
 Write
 
 $$
-  (\Omega^\bullet(G, \mathfrak{h}^\ast[1])^G  
+  (\Omega^\bullet(G, \mathfrak{g}^\ast[1])^G  
   \hookrightarrow
-  \Omega(G, \mathfrak{h}^\ast[1])
+  \Omega(G, \mathfrak{g}^\ast[1])
 $$
 
-for the $G$-[[invariant differential forms]] on $G$ with [[coefficients]] in the linear dual of the Lie algebra $\mathfrak{h}$ of $H$, shifted up in degree. So for $\{F^a\} \subset \{t^a\}$ a dual [[basis]] of $\mathfrak{h}$ inside a dual basis for $\mathfrak{g}$, a general element of this space in degree $2 p + q$ is of the form
+for the $G$-[[invariant differential forms]] on $G$ with [[coefficients]] in the [[linear dual]] of the Lie algebra $\mathfrak{g}$, shifted up in degree. So for $\{F^a\}$ a dual [[basis]], a general element of this space in degree $2 p + q$ is of the form
 
 $$
-  \omega = F^{a_1} \wedge \cdots F^{a_p} \wedge \omega_{a_1,\cdots ,a_q}
+   \omega
+   \;=\; 
+   F^{a_1} \wedge \cdots F^{a_p} 
+     \wedge  
+    \omega_{a_1,\cdots ,a_q}
   \,,
 $$
 
 where $\omega_{\cdots}$ are [[differential n-form|differential q-forms]], such that for each $t_a \in \mathfrak{g}$ the [[Lie derivative]] of these forms satisfies
 
 $$
-  \mathcal{L}_{t_a} \omega_{a_1, a_2 \cdots , a_p}
+  \mathcal{L}_{v^a} \omega_{a_1, a_2 \cdots , a_p}
   = 
-  C_{a a_1}{}^b \omega_{b , a_2, \cdots , a_p}
+  f_{a a_1}{}^b \omega_{b , a_2, \cdots , a_p}
   + 
-  C_{a a_2}^{}^b \omega_{a_1 ,  b,  \cdots , a_p}
+  f_{a a_2}^{}^b \omega_{a_1 ,  b,  \cdots , a_p}
   + 
   \cdots
   \,, 
 $$ 
 
-where $\{C_{a b}{}^b\}$ are the structure constants of $\mathfrak{g}$, hence such that $[t_a, t_b] = C_{a b}{}^c t_c$.
+where $\{f_{a b}{}^b\}$ are the structure constants of $\mathfrak{g}$ (eq:StructureConstants).
 
-Equip this [[graded vector space]] $\Omega^\bullet(G, \mathfrak{h}^\ast[1])^G$ with a [[differential]] $d_{CE(\mathfrak{g}//\mathfrak{h})}$ by 
+Equip this [[graded vector space]] $\Omega^\bullet(G, \mathfrak{h}^\ast[1])^G$ with a [[differential]] $d$ by 
 
 $$
-  d_{CE(\mathfrak{g}//\mathfrak{h})} 
-   \colon 
-  \omega \mapsto 
-  d_{dR}\omega - F^a \iota_{t_a} \omega
+  d 
+    \colon 
+  \omega 
+    \mapsto 
+  d_{dR}\omega - F^a \iota_{v^a} \omega
 $$
 
 (e.g. [Kalkman 93 (1.15)](#Kalkman93)).
 
-The resulting [[dg-algebra]] $(\Omega^\bullet(G,\mathfrak{h}^\ast[1])^G, d_{CE}(\mathfrak{g}//\mathfrak{h}))$ is called the **Cartan model** of $H$-equivariant de Rham cohomology of $G$.
+The resulting [[dgc-algebra]] $(\Omega^\bullet(G,\mathfrak{g}^\ast[1])^G, d)$ is the _Cartan model_ for $G$-equivariant de Rham cohomology on $X$.
 
-Observe that in the special case that $X = G$ equipped with its canonical right [[action]] of $H \coloneqq G$ on itself, this construction reduces to that of the [[Weil algebra]] $W(\mathfrak{g})$, whose cohomology is trivial (is concentrated in degree 0, where it is $\mathbb{R}$).
-
-
+\linebreak
 
 ## Related concepts
 
