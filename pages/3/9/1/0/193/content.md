@@ -228,6 +228,12 @@ Chasing the element $1_{R(d)}$ down and then across, we get $f: c \to R(d)$ and 
  
 * {#Lambek82} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co. (1982)
 
+* _[[geometry of physics -- categories and toposes]] -- [Adjunctions](https://ncatlab.org/nlab/show/geometry+of+physics+--+categories+and+toposes#Adjunctions)_
+
+Adjunctions in [[programming languages]]:
+
+* {#Hinze12} Ralf Hinze, _Generic Programming with Adjunctions_,  In: J. Gibbons  (ed.) _Generic and Indexed Programming_ Lecture Notes in Computer Science, vol 7470. Springer 2012 ([pdf](http://www.cs.ox.ac.uk/ralf.hinze/LN.pdf), [slides](http://www.cs.ox.ac.uk/ralf.hinze/SSGIP10/Slides.pdf) [doi:10.1007/978-3-642-32202-0_2](https://doi.org/10.1007/978-3-642-32202-0_2))
+
 See also
 
 * Wikipedia, [Adjoint Functors](http://en.wikipedia.org/wiki/Adjoint_functors)
