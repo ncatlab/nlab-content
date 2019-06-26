@@ -234,6 +234,8 @@ Adjunctions in [[programming languages]]:
 
 * {#Hinze12} Ralf Hinze, _Generic Programming with Adjunctions_,  In: J. Gibbons  (ed.) _Generic and Indexed Programming_ Lecture Notes in Computer Science, vol 7470. Springer 2012 ([pdf](http://www.cs.ox.ac.uk/ralf.hinze/LN.pdf), [slides](http://www.cs.ox.ac.uk/ralf.hinze/SSGIP10/Slides.pdf) [doi:10.1007/978-3-642-32202-0_2](https://doi.org/10.1007/978-3-642-32202-0_2))
 
+* Jeremy Gibbons, Fritz Henglein, Ralf Hinze, Nicolas Wu, _Relational Algebra by Way of Adjunctions_, [pdf](https://www.cs.ox.ac.uk/jeremy.gibbons/publications/reladj.pdf)
+
 See also
 
 * Wikipedia, [Adjoint Functors](http://en.wikipedia.org/wiki/Adjoint_functors)
