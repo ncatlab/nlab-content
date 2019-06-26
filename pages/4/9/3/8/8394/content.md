@@ -71,6 +71,12 @@ A formal language ([[theory]]) for expressing [[programs]]. Used and studied in 
 
 * [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_
 
+Use of [[adjunctions]] in programming languages:
+
+* {#Hinze12} Ralf Hinze, _Generic Programming with Adjunctions_,  In: J. Gibbons  (ed.) _Generic and Indexed Programming_ Lecture Notes in Computer Science, vol 7470. Springer 2012 ([pdf](http://www.cs.ox.ac.uk/ralf.hinze/LN.pdf), [slides](http://www.cs.ox.ac.uk/ralf.hinze/SSGIP10/Slides.pdf) [doi:10.1007/978-3-642-32202-0_2](https://doi.org/10.1007/978-3-642-32202-0_2))
+
+* Jeremy Gibbons, Fritz Henglein, Ralf Hinze, Nicolas Wu, _Relational Algebra by Way of Adjunctions_, Proceedings of the ACM on Programming Languages archive Volume 2 Issue ICFP, September 2018 Article No. 86  ([pdf](https://www.cs.ox.ac.uk/jeremy.gibbons/publications/reladj.pdf), [doi:10.1145/3236781](https://dl.acm.org/citation.cfm?doid=3243631.3236781))
+
 category: software, applications
 
 [[!redirects programming languages]] 
