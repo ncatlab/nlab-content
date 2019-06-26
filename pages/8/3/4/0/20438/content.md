@@ -42,4 +42,6 @@ A project bringing [[formal proof]] and [[proof assistants]] (particularly [[Lea
 
 * {#Buzzard19} [[Kevin Buzzard]], _Using Lean with undergraduate mathematicians_, talk at _[Lean Together 2019 ](https://lean-forward.github.io/lean-together/2019/)_  ([recording](https://av-media.vu.nl/mediasite/Play/1979034f91b640229bffabdecd4eae5c1d?playFrom=76000))
 
+* {#Buzzard19b} [[Kevin Buzzard]], _The future of Mathematics?_, public lecture at the 80th anniversary celebration of CNRS, May 2019 ([recording](https://youtu.be/aZHbnQlFOn4))
+
 [[!redirects Xena]]
