@@ -224,17 +224,29 @@ Chasing the element $1_{R(d)}$ down and then across, we get $f: c \to R(d)$ and 
 
 ## References
 
+For the basics, see any text on [[category theory]] (and see the references at _[[adjoint functor]]_), for instance:
+
 * {#Borceux94} [[Francis Borceux]], Vol 1, Section 3 of _[[Handbook of Categorical Algebra]]_
  
-* {#Lambek82} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co. (1982)
-
 * _[[geometry of physics -- categories and toposes]] -- [Adjunctions](https://ncatlab.org/nlab/show/geometry+of+physics+--+categories+and+toposes#Adjunctions)_
+
+For some early history and illustrative examples see
+
+* {#Lambek82} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co. (1982) ([doi:10.1007/978-94-009-8462-2_6](https://link.springer.com/chapter/10.1007/978-94-009-8462-2_6))
+
+  (more along these lines at _[[objective logic]]_).
+
+The fundamental role of adjunctions in [[logic]]/[[type theory]] originates with the observaiton that [[substitution]] forms an [[adjoint triple]] with [[existential quantification]] and [[universal quantification]]:
+
+* {#Lawvere69} [[William Lawvere]], _Adjointness in Foundations_, ([tac:16](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
+
+* [[William Lawvere]], _Quantifiers and sheaves_, Actes, Congr&#232;s intern, math., 1970. Tome 1, p. 329 &#224; 334 ([pdf](http://www.mathunion.org/ICM/ICM1970.1/Main/icm1970.1.0329.0334.ocr.pdf))
 
 Adjunctions in [[programming languages]]:
 
 * {#Hinze12} Ralf Hinze, _Generic Programming with Adjunctions_,  In: J. Gibbons  (ed.) _Generic and Indexed Programming_ Lecture Notes in Computer Science, vol 7470. Springer 2012 ([pdf](http://www.cs.ox.ac.uk/ralf.hinze/LN.pdf), [slides](http://www.cs.ox.ac.uk/ralf.hinze/SSGIP10/Slides.pdf) [doi:10.1007/978-3-642-32202-0_2](https://doi.org/10.1007/978-3-642-32202-0_2))
 
-* Jeremy Gibbons, Fritz Henglein, Ralf Hinze, Nicolas Wu, _Relational Algebra by Way of Adjunctions_, [pdf](https://www.cs.ox.ac.uk/jeremy.gibbons/publications/reladj.pdf)
+* Jeremy Gibbons, Fritz Henglein, Ralf Hinze, Nicolas Wu, _Relational Algebra by Way of Adjunctions_, Proceedings of the ACM on Programming Languages archive Volume 2 Issue ICFP, September 2018 Article No. 86  ([pdf](https://www.cs.ox.ac.uk/jeremy.gibbons/publications/reladj.pdf), [doi:10.1145/3236781](https://dl.acm.org/citation.cfm?doid=3243631.3236781))
 
 See also
 
