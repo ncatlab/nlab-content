@@ -1341,6 +1341,9 @@ and its fundamental relevance for [[category theory]] was realized due to
 
 * {#Lawvere69} [[William Lawvere]], _Adjointness in Foundations_, ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
 
+For exposition see
+
+* _[[geometry of physics -- categories and toposes]] -- [Adjunctions](https://ncatlab.org/nlab/show/geometry+of+physics+--+categories+and+toposes#Adjunctions)_
 
 For other textbook reference see any of the references listed at _[[category theory]]_, for instance 
 
