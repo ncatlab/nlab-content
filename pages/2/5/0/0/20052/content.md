@@ -105,6 +105,12 @@ This includes in particular every [[metric space]], and every compact Hausdorff 
 
 The more general question of whether one can extend a finite continuous valuation to a Borel measure on any sober space, at the present time, is still open. 
 
+However, we do have the following result for regular spaces.
+
+**Theorem** (Theorem 4.4 in [Manilla](#mpaper)).
+Any locally finite continuous valuation on a [[regular]] topological space
+extends uniquely to a regular τ-smooth Borel measure.
+
 
 ## References
 
@@ -125,9 +131,15 @@ For the theory of [integration over valuations](#integration), see
 
 For the problem of [extending valuations to measures](#extending_valuations_to_measures), see
 
+*  {#mpaper} Mauricio Alvarez-Manilla,
+_Extension of valuations on locally compact sober spaces_.
+
 * Mauricio Alvarez Manilla, Abbas Edalat, and Nasser Saheb-Djahromi, _An extension result for continuous valuations_, 1998. [Link here](https://www.sciencedirect.com/science/article/pii/S1571066105802105#!).
 
 * {#mthesis} Mauricio Alvarez Manilla, _Measure theoretic results for continuous valuations on partially ordered spaces_, Dissertation, 2000. [Link here](http://www.cs.tufts.edu/~nr/cs257/archive/mauricio-alvarez-manilla/public.ps.gz).
 
 * Klaus Keimel and Jimmie D. Lawson, _Measure extension theorems for_
 $T_0$ _spaces_, 2004. [Link here](https://www.sciencedirect.com/science/article/pii/S0166864104002755).
+
+[[!redirects continuous valuation]]
+[[!redirects continuous valuations]]
