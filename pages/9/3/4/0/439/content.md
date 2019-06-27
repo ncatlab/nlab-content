@@ -1,15 +1,25 @@
 
 * [Jim Stasheff's home page](http://www.math.unc.edu/Faculty/jds/)
 
-interview by [[Kathryn Hess]]: [video](https://www.youtube.com/watch?v=K8kPS6FZBoc&feature=youtu.be)
+* interview by [[Kathryn Hess]]: [video](https://www.youtube.com
+/watch?v=K8kPS6FZBoc&feature=youtu.be)
 
-# expositions #
+* John McCleary, _An appreciation of the work of Jim Stasheff_ ([pdf](http://www.math.unc.edu/Faculty/jds/jds.pdf)) 
+
+## Selected writings
+
+
+
+On the [[simplicial de Rham complex]] and [[equivariant de Rham cohomology]]:
+
+* {#BottShulmanStasheff76} [[Raoul Bott]], [[Herbert Shulman]], [[Jim Stasheff]], _On the de Rham theory of certain classifying spaces_, Advances in Mathematics, Volume 20, Issue 1, April 1976, Pages 43-56 (<a href="https://doi.org/10.1016/0001-8708(76)90169-9">doi:10.1016/0001-8708(76)90169-9</a>, [pdf](https://core.ac.uk/download/pdf/82496263.pdf))
+
+On [[homotopy theory]] in [[physics]]:
+
 
 * Jim Stasheff, [[A Survey of Cohomological Physics]]
 
-# about Stasheff's work #
 
-* John McCleary, _An appreciation of the work of Jim Stasheff_ ([pdf](http://www.math.unc.edu/Faculty/jds/jds.pdf)) 
 
 # Related $n$Lab entries #
 
@@ -22,6 +32,8 @@ interview by [[Kathryn Hess]]: [video](https://www.youtube.com/watch?v=K8kPS6FZB
 * [[H-space]]
 
 * [[L-infinity algebra]]
+
+* [[simplicial de Rham complex]]
 
 * [[string field theory]]
 
