@@ -74,5 +74,5 @@ Section 4 of
 
 following
 
-* Martin Bordemann, [[Eckhard Meinrenken]], Martin Schlichenmaier, _Toeplitz Quantization of K&#228;hler Manifolds and $gl(N)$ $N\to\infty$_,  	Commun.Math.Phys. 165 (1994) 281-296 ([arXiv:hep-th/9309134](http://arxiv.org/abs/hep-th/9309134))
- {#BordemannMeinrenkenSchlichenmaier93}
+* {#BordemannMeinrenkenSchlichenmaier93} Martin Bordemann, [[Eckhard Meinrenken]], Martin Schlichenmaier, _Toeplitz Quantization of K&#228;hler Manifolds and $gl(N)$ $N\to\infty$_,  	Commun.Math.Phys. 165 (1994) 281-296 ([arXiv:hep-th/9309134](http://arxiv.org/abs/hep-th/9309134))
+ 
