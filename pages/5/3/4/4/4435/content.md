@@ -62,6 +62,10 @@ There is also the full [[automorphism ∞-Lie algebra]] of any [[dg-algebra]], w
 
 ## Related concepts
 
+* [[horizontal differential form]]
+
+* [[basic differential form]]
+
 * [[equivariant de Rham cohomology]]
 
 ## References
