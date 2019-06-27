@@ -31,6 +31,11 @@ $$
 
 More generally,  for $X$ a smooth manifold with smooth [[action]] of a [[connected topological space|connected]] [[compact Lie group]], the [[equivariant de Rham theorem]] says that the real cohomology of the [[homotopy quotient]] (e.g. [[Borel construction]]) of $X$ is computed by the [[Cartan model]] for [[equivariant de Rham cohomology]] on $X$.
 
+| [[cohomology]] | [[Borel equivariant cohomology|Borel]]-[[equivariant cohomology]] |
+|---|---|
+| [[real cohomology|real]] [[ordinary cohomology]] | real [[equivariant ordinary cohomology]] |
+| [[de Rham cohomology]] | [[equivariant de Rham cohomology]]
+
 ## Related concepts
 
 * [[de Rham cohomology]], [[de Rham theorem]]
