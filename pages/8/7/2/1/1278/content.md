@@ -98,7 +98,7 @@ Other examples:
 ### Characterization following Hopkins-Singer 
  {#HopSin}
 
-A standard definition of differential cohomology is in terms of a [[homotopy pullback]] of a [[generalized (Eilenberg-Steenrod) cohomology theory]] with the complex of [[differential forms]] over real cohomology:
+A standard definition of differential cohomology is in terms of a [[homotopy pullback]] of a [[generalized (Eilenberg-Steenrod) cohomology theory]] with the complex of [[differential forms]] over [[real cohomology]]:
 
 Let $\Gamma^\bullet$ be a generalized cohomology theory in the sense of the generalized Eilenberg--Steenrod axioms, and let 
 $\Gamma^\bullet \to H^\bullet(-,\mathbb{R}) \otimes \Gamma^\bullet(*)$ be a morphism to real singular cohomology with coefficients in the ring of $\Gamma$-cohomology of the point. Then the differential refinement of $\Gamma^q$, the degree $q$**differential $\Gamma$-cohomology** is the [[homotopy pullback]] $\bar \Gamma^\bullet$ in
@@ -161,7 +161,7 @@ $$
 $$
 
 so differential cohomology $\hat H^\bullet(M)$ combines the ordinary cohomology $H^\bullet(M)$
-with a differential form representative of its image in real cohomology.
+with a differential form representative of its image in [[real cohomology]].
 
 * $I$ projects a differential cohomology to its underlying ordinary cohomology class;
 
