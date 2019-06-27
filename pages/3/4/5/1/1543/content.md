@@ -854,8 +854,15 @@ In fact, the history of the development of the theory of principal bundles and [
 
 * [[n-vector bundle]]
 
+
 [[!include gauge field - table]]
 
+
+* [[horizontal differential form]]
+
+* [[basic differential form]]
+
+* [[equivariant de Rham cohomology]]
 
 ## References
  {#References}
@@ -875,7 +882,7 @@ Further textbooks include
 
 * {#Husemoeller} [[Dale Husemöller]], _Fiber bundles_, Springer (1994) 
  
-* [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jur?o]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, 
+* [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurco]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, 
 Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
 
 
