@@ -75,21 +75,21 @@ To obtain adjoint functor theorems for categories that are not preorders, one mu
 +-- {: .num_theorem #StandardAdjointFunctorTheorem}
 ###### Theorem
 
-Sufficient conditions for a limit-preserving functor $G : D \to C$ to be a [[right adjoint]] include:
+Sufficient conditions for a limit-preserving functor $R : C \to D$ to be a [[right adjoint]] include:
 
-* $D$ is [[complete category|complete]] and [[locally small category|locally small]], and $G$ satisfies the [[solution set condition]].  
+* $C$ is [[complete category|complete]] and [[locally small category|locally small]], and $D$ satisfies the [[solution set condition]].  
 
   This is Freyd's original version, sometimes called the "**General Adjoint Functor Theorem**".
 
-* $D$ is complete, locally small [[well-powered category|well-powered]], and has a [[small set|small]] [[cogenerating set]], and $C$ is [[locally small category|locally small]].  
+* $C$ is complete, locally small [[well-powered category|well-powered]], and has a [[small set|small]] [[cogenerating set]], and $D$ is [[locally small category|locally small]].  
 
   This is sometimes called the "**Special Adjoint Functor Theorem**", and abbreviated to SAFT.
 
-* $D$ is locally small and [[total category|cototal]], and $C$ is locally small.
+* $C$ is locally small and [[total category|cototal]], and $D$ is locally small.
 
 =--
 
-In the first two cases, which work by replacing large limits by small ones, it suffices to assume that $G$ preserves small limits (that it preserves all limits will follow).  The third case works by assuming that $D$ has, while not all large limits, enough so that the theorem goes through; thus is this case $G$ must be already known to preserve [[large category|large]] limits as well.
+In the first two cases, which work by replacing large limits by small ones, it suffices to assume that $R$ preserves small limits (that it preserves all limits will follow).  The third case works by assuming that $C$ has, while not all large limits, enough so that the theorem goes through; thus is this case $R$ must be already known to preserve [[large category|large]] limits as well.
 
 
 +-- {: .proof}
