@@ -49,7 +49,7 @@ $$
   }
 $$
 
-whose higher [[Dixmier-Douady class]] class $ \int \Omega \mathbf{c} \in H^{p+2}(X,\mathbb{Z})$ is an integral lift of the real cohomology class encoded by $\omega$ under the [[de Rham isomorphism]]. In the example of [[spin group|Spin]] and $p = 1$ this extension is the [[string 2-group]].
+whose higher [[Dixmier-Douady class]] class $ \int \Omega \mathbf{c} \in H^{p+2}(X,\mathbb{Z})$ is an [[integral cohomology]] lift of the [[real cohomology]] class encoded by $\omega$ under the [[de Rham isomorphism]]. In the example of [[spin group|Spin]] and $p = 1$ this extension is the [[string 2-group]].
 
 Such a [[Lie theory|Lie theoretic]] situation is concisely expressed by a diagram of [[smooth homotopy types]] of the form
 
