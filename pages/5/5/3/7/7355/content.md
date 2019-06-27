@@ -1,4 +1,8 @@
 
+## Related entries
+
+* [[twisted K-theory]]
+
 
 ## References
 
