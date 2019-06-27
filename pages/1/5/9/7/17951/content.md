@@ -35,3 +35,8 @@ The suggestion that the 26 dimensions of the [[target spacetime]] of the [[boson
 The possibility of a theory in 27-dimensions which is the lift of M-theory through the 16-dimensional [[Cayley plane]] is in
 
 * [[Hisham Sati]], _OP2 bundles in M-theory_, ([arXiv:0807.4899](https://arxiv.org/abs/0807.4899))
+
+A suggestion for how to relate bosonic M-theory to actual [[M-theory]] is in
+
+* Michael Rios, Alessio Marrani, David Chester, _Exceptional Super Yang-Mills in $D=27+3$ and Worldvolume M-Theory_ ([arXiv:1906.10709](https://arxiv.org/abs/1906.10709))
+
