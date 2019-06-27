@@ -1724,7 +1724,7 @@ The [[homotopy pullback]] characterization of
 of prop. \ref{HomotopyFiberProductCharacterization} 
 implies that the image consists of precisely those closed differential forms
 which under the [[de Rham theorem]], remark \ref{DeRhamTheorem}, represent
-real cohomology classes that are in the image of integral
+[[real cohomology]] classes that are in the image of integral
 cohomology classes. These are the differential forms
 with integral periods.
 
