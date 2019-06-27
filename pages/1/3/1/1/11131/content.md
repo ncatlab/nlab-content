@@ -66,4 +66,10 @@ Implementations of constructive [[real number]] analysis in [[type theory]] impl
 
 * [[Bas Spitters]], _Verified Implementation of Exact Real Arithmetic in Type Theory_, talk at _Computable Analysis and Rigorous Numeric_ ([pdf](http://www.cs.ru.nl/~spitters/CARN.pdf))
 
+With emphasis on the use of the [[univalence axiom]]:
+
+* {#Booij17} Auke Booij, _Constructive analysis in univalent type theory_, 2017 ([pdf](https://www.cs.bham.ac.uk/~abb538/slides/2018-02-darmstadt.pdf))
+
+* {#Booij18} Auke Booij, _Extensional constructive real analysis via locators_ ([arXiv:1805.06781](https://arxiv.org/abs/1805.06781))
+
 [[!redirects exact analysis]]
