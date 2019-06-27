@@ -34,7 +34,7 @@ The suggestion that the 26 dimensions of the [[target spacetime]] of the [[boson
 
 The possibility of a theory in 27-dimensions which is the lift of M-theory through the 16-dimensional [[Cayley plane]] is in
 
-* [[Hisham Sati]], _OP2 bundles in M-theory_, ([arXiv:0807.4899](https://arxiv.org/abs/0807.4899))
+* [[Hisham Sati]], _$\mathbb{O}P^2$ bundles in M-theory_, ([arXiv:0807.4899](https://arxiv.org/abs/0807.4899))
 
 A suggestion for how to relate bosonic M-theory to actual [[M-theory]] is in
 
