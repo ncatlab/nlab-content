@@ -7,9 +7,13 @@
 
 ## Selected writings
 
+On [[differential forms]] in [[algebraic topology]]:
+
 * {#BottTu82} [[Raoul Bott]], [[Loring Tu]], _Differential forms in algebraic topology_, Graduate Texts in Mathematics __82__, Springer 1982. xiv+331 pp. ([doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/botttu.pdf))
 
-  (on [[differential forms]] in [[algebraic topology]])
+On the [[simplicial de Rham complex]] and [[equivariant de Rham cohomology]]:
+
+* {#BottShulmanStasheff76} [[Raoul Bott]], [[Herbert Shulman]], [[Jim Stasheff]], _On the de Rham theory of certain classifying spaces_, Advances in Mathematics, Volume 20, Issue 1, April 1976, Pages 43-56 (<a href="https://doi.org/10.1016/0001-8708(76)90169-9">doi:10.1016/0001-8708(76)90169-9</a>, [pdf](https://core.ac.uk/download/pdf/82496263.pdf))
 
 
 category: people
