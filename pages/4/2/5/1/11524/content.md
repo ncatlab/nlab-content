@@ -38,7 +38,9 @@ In the more general context of ([[global equivariant stable homotopy theory|glob
 
 ## Examples
 
-* [[ordinary equivariant cohomology]]
+* [[equivariant ordinary  cohomology]]
+
+* [[equivariant de Rham cohomology]]
 
 ## Related concepts
 
