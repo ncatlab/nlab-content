@@ -45,6 +45,8 @@ Nevertheless, on a [[locally compact Hausdorff space]], we may define the __Bore
 
 * [[projective set]]
 
+* [[Borel measure]]
+
 [[!redirects Borel subset]]
 [[!redirects Borel subsets]]
 [[!redirects Borel set]]
