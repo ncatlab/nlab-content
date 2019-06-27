@@ -50,7 +50,7 @@ $$
 
 on integral cohomology classes of base space to equivalence classes of $G$-[[principal bundle]]s by sending a bundle classified by a map $f : X \to B G$ to the class $[f^* c]$.
 
-Let $[c]_\mathbb{R} \in H^n(B G, \mathbb{R})$ be the image of $[c]$ in real cohomology, induced by the evident inclusion of coefficients $\mathbb{Z} \hookrightarrow \mathbb{R}$.
+Let $[c]_\mathbb{R} \in H^n(B G, \mathbb{R})$ be the image of $[c]$ in [[real cohomology]], induced by the evident inclusion of [[coefficients]] $\mathbb{Z} \hookrightarrow \mathbb{R}$.
 
 The **first main statement** of Chern-Weil theory is that there is an [[nLab:invariant polynomial]] 
 
