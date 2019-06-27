@@ -266,6 +266,9 @@ The light-front holography approach is
 
 reviewed in [Zhou-Dosch 18](#ZhouDosch18)
 
+Discussion of [[phase transition]]:
+
+* Varun Sethi, _A study of phases in two flavour holographic QCD_  ([arXiv:1906.10932](https://arxiv.org/abs/1906.10932))
 
 
 * Wikipedia, _[AdS/QCD correspondence](https://en.wikipedia.org/wiki/AdS/QCD_correspondence)_ 
