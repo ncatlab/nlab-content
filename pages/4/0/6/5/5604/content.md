@@ -73,14 +73,30 @@ At least at first glance, this requires $\mathbf{C}$ to be *strongly* complete. 
 
 An alternative approach is to suppose that there is a full [[replete subcategory]] $\mathcal{C}$ of $\mathbf{Set}$ which is complete in the sense of being closed under set-indexed products and equalizers, yet [[essentially small]], i.e. with a small skeleton $\mathbf C$. (Being replete, $\mathcal{C}$ will not itself be small.)  Such a category can be obtained as the repletion of any *weakly* complete *actually* small subcategory, such as exist in realizability toposes.  See [MS09](#MS09).  For discussion about whether this works, see the nForum thread for this page.
 
+On the other hand, it is not necessary for this purpose that $\mathbf{C}$ be *complete*; all it needs is to have products indexed by its own set of *objects*.  Freyd's theorem does not apply in this case, since there might be fewer objects than morphisms; and indeed there are plenty of categories even classically that have products indexed by their set of objects, e.g. any one-object category.  It is true, however, that (assuming classical logic) no *full subcategory of $Set$* can have products indexed by its own set of objects; this (and a bit more) was shown in [Reynolds 84](#Reynolds84), again by reducing to Cantor's diagonal argument.  On the other hand, to break this argument we do not have to move to realizability; Grothendieck toposes suffice, as shown in [Pitts 87](#Pitts87) via the [[Yoneda embedding]] of a syntactic model into its topos of presheaves.
+
 
 ## References
 
+Freyd's theorem may not have been published by him.
+
+The original reference for the complete small categories in the effective topos is:
+
 * {#Hyland88} A small complete category, [[Martin Hyland]], Annals of Pure and Applied Logic 40 (1988), [pdf](https://webdpmms.maths.cam.ac.uk/~martin/Research/Oldpapers/smallcomplete88.pdf)
 
-There was much activity around that time, by [[Peter Freyd]], [[Eugenio Moggi]], [[Andrew Pitts]], [[John Reynolds]], Guiseppe Rosolini, and others.  One important reference, which discusses the strong/weak completeness issue and the relation to stacks in more detail, is:
+It was expanded further in the following paper, which discusses the strong/weak completeness issue and the relation to stacks in more detail:
 
 * {#HRR90} Hyland, J. M., Robinson, E. P. and Rosolini, G. (1990), The Discrete Objects in the Effective Topos. Proceedings of the London Mathematical Society, s3-60: 1-36. [doi:10.1112/plms/s3-60.1.1](https://doi.org/10.1112/plms/s3-60.1.1)
+
+There was much related activity around that time, by [[Peter Freyd]], [[Eugenio Moggi]], [[Andrew Pitts]], [[John Reynolds]], Guiseppe Rosolini, and others, including:
+
+* {#Reynolds84} [[John Reynolds]], Polymorphism is not set-theoretic. In: Kahn G., MacQueen D.B., Plotkin G. (eds) Semantics of Data Types. SDT 1984. Lecture Notes in Computer Science, vol 173. Springer, Berlin, Heidelberg
+
+* {#Pitts87} [[Andy Pitts]], Polymorphism is Set Theoretic, Constructively. In Category Theory and Computer Science, Proceedings, Edinburgh 1987, Lecture Notes in Computer Science Vol. 283 (Springer-Verlag, Berlin, 1987), pp 12-39, [PDF](https://www.cl.cam.ac.uk/~amp12/papers/polist/polist.pdf)
+
+A more recent survey of this type of model for polymorphic type theory is in
+
+* Andrea Asperti and Simone Martini, Categorical models of polymorphism, Information and Computation, Volume 99, Issue 1, 1992, Pages 1-79, [DOI](https://doi.org/10.1016/0890-5401(92)90024-A.)
 
 The idea of using a replete complete subcategory which is essentially small in [[constructive set theory|IZF]] is discussed in
  
