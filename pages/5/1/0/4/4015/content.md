@@ -84,7 +84,7 @@ I need to figure out how it relates to the various versions of [[Konig's lemma|K
 Some of the results above may use [[countable choice]], but probably no more than $AC_{0,0}$ (which is choice for relations between $\mathbb{N}$ and itself).
 
 
-### Importance in analysis
+### Uselessness in analysis
 
 Point-wise real analysis without the fan theorem is very difficult, as the example from Waaldijk shows.  This was Brouwer\'s motivation for introducing the fan theorem.  But if you use [[locales]] (or other pointless approaches), then you don\'t need the fan theorem (or bar theorem).
 
