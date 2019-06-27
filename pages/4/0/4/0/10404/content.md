@@ -32,6 +32,8 @@ Given a [[bundle]] $\pi \colon P \to X$ of [[smooth manifolds]],
 
 * [[vertical differential form]]
 
+* [[basic differential form]]
+
 * [[variational bicomplex]]
 
 [[!redirects horizontal differential forms]]
