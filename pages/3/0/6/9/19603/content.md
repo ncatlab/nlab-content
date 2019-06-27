@@ -65,6 +65,8 @@ Work conducted in homotopy type theory:
 
 * {#Scoccola19} [[Luis Scoccola]], _Nilpotent Types and Fracture Squares in Homotopy Type Theory_ ([arXiv:1903.03245](https://arxiv.org/abs/1903.03245))
 
+* Auke Booij, _Constructive analysis in univalent type theory_, ([slides](https://www.cs.bham.ac.uk/~abb538/slides/2018-02-darmstadt.pdf))
+
 
 ### Modal homotopy type theory
 
