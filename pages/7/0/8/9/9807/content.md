@@ -23,11 +23,17 @@
 
 The [[equivariant cohomology|equivariant]] version of [[de Rham cohomology]].
 
+
 ## Properties
 
-### Models
 
-Let 
+Throughout we consider the following setup:
+
++-- {: .num_defn #SmoothGManifold}
+###### Definition
+**([[smooth manifold]] with [[smooth function|smooth]] [[action]] of a [[Lie group]])**
+
+Let
 
 1. $X$ be a [[smooth manifold]] with [[de Rham algebra]] denoted $\big( \Omega^\bullet(X), d_{dR} \big)$,
 
@@ -35,13 +41,20 @@ Let
 
 1. $X \times G \overset{\rho}{\longrightarrow} X$ a [[smooth function|smooth]] [[action]] of $G$ on $X$.
 
+Often this data is called a _smooth $G$-manifold $X$_, or similar.
+
+=--
+
+### Models
 
 
-Various [[dg-algebras]] are used to model the corresponding $G$-equivariant de Rham cohomology $X$, known as 
+Given a smooth $G$-manifold $X$ (Def. \ref{SmoothGManifold}) various [[dg-algebras]] are used to model the corresponding $G$-equivariant de Rham cohomology $X$, known as 
 
 * _[the Weil model](#TheWeilModel)_
 
 * _[the Cartan model](#TheCartanModel)_
+
+* _the BRST/Kalkman model_
 
 
 
@@ -570,7 +583,8 @@ because $\epsilon$ annihilates, by (eq:WeilAugmentationOverCartan), all summands
 
 The left hand side [[graded algebra]] of the isomorphism (eq:IsomorphisamCartanToWeilModel) equipped with the induced differential (eq:InducedDifferentialOnCartanModel) is called the _Cartan model_, and that isomorphism exhibits it as equivalent to the Weil model:
 
-$$
+\[
+  \label{QuasiIsoFromCartanToWeilModel}
   \array{
   \Big(
      \Big(
@@ -603,7 +617,7 @@ $$
   &&
   \text{Weil model}
   }
-$$
+\]
 
 This statement is originally due to [Cartan 50, Sec. 6](#Cartan50).
 
@@ -663,7 +677,91 @@ $$
 
 The resulting [[dgc-algebra]] $(\Omega^\bullet(G,\mathfrak{g}^\ast[1])^G, d)$ is the _Cartan model_ for $G$-equivariant de Rham cohomology on $X$.
 
+
 \linebreak
+
+
+### Equivariant de Rham theorem
+
+The point of the above dgc-algebras is that, under suitable conditions, their [[cochain cohomology]] computes the [[ordinary cohomology]] with real [[coefficients]] of the [[homotopy type]] of the [[homotopy quotient]] $X \sslash H$, which, as an actual [[topological space]], may be presented by the [[Borel construction]] $X \times_G E G$.
+
+This is the [[equivariant cohomology]]-generalization of the plain [[de Rham theorem]]:
+
++-- {: .num_prop #EquivariantDeRhamTheorem}
+###### Proposition
+**([[equivariant de Rham theorem]])**
+
+Let 
+
+1. $G$ be a [[Lie group]] which is
+
+   1. [[compact Lie group|compact]];
+
+   1. [[connected topological space|connected]];
+
+1. $X$ be a smooth $G$-manifold (Def. \ref{SmoothGManifold}).
+
+Then the [[cochain cohomology]] of (the [[cochain complex]] underlying) the Weil model [[dgc-algebra]] (eq:WeilModel), and hence, by Lemma \ref{ProjectionOntoHorizontalDifferentialForms}, also of the Cartan model [[dgc-algebra]] (eq:QuasiIsoFromCartanToWeilModel). is [[isomorphism|isomorphic]] to the [[ordinary cohomology]] with [[real number|real]] [[coefficients]] of the [[homotopy quotient]] $X \!\sslash\! G$ of the action on (the [[topological space]] underlying) $X$) by the ([[topological group]] underlying) $G$, hence in particular of the [[Borel construction]] $X \times_G E G \simeq  X \!\sslash\! G $:
+
+\[
+  \array{
+  \text{Cartan model cohomology}
+  \\
+  H^\bullet
+  \Big(
+     \Big(
+       \Omega^\bullet\big(X \big)
+       \otimes
+       \mathbb{R}\big[ \{r^a\}_a \big] 
+     \Big)^G
+     \,,\,
+     d_{dR} + r^a \iota_{v^a}
+  \Big)
+  \\
+  {}^{\simeq}
+  \Big\downarrow
+  {}^{
+     H^\bullet\big( : \exp\big( - \theta^a \iota_a \big) : \big)
+  }
+  \\
+  H_\bullet
+  \Big(
+  \Big(
+    \Omega^\bullet
+    \big(
+      X 
+    \big)
+    \otimes
+    W(\mathfrak{g})
+  \Big)_{basic}
+  , 
+  d_{dR} + d_W
+  \Big)
+  &\underoverset{\simeq}{\;\;\;\;\;\;\;\;\;\;\;\;\;}{\longrightarrow}&
+  H^\bullet
+  \big(
+    X \!\sslash\! G
+    \,,\,
+    \mathbb{R}
+  \big)
+  \\
+  \text{Weil model cohomology}
+  &&
+  \mathclap{
+    \text{equivariant real cohomology}
+  }
+  }
+\]
+
+=--
+
+(e.g [Meinrenken 06, Theorem 6.1](#Meinrenken06))
+
+
+
+\linebreak
+
+
 
 ## Related concepts
 
@@ -736,3 +834,5 @@ Discussion in view of [[supersymmetry]]:
 [[!redirects Weil model for equivariant cohomology]]
 [[!redirects Cartan model for equivariant cohomology]]
 [[!redirects Kalkman model for equivariant cohomology]]
+
+[[!redirects equivariant de Rham theorem]]
