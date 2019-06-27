@@ -42,6 +42,9 @@ See also
 * {#Wilson09} [[Robert A. Wilson]], _Octonions and the Leech lattice_, Journal of Algebra
 Volume 322, Issue 6, 15 September 2009, Pages 2186-2190, ([pdf](http://www.maths.qmul.ac.uk/~raw/pubs_files/octoLeech1.pdf)), ([slides](http://www.maths.qmul.ac.uk/~raw/talks_files/Cambridge09.pdf))
 
+* Piero Truini, Michael Rios, Alessio Marrani, _The Magic Star of Exceptional Periodicity_ ([arXiv:1711.07881](https://arxiv.org/abs/1711.07881))
+
+* Michael Rios, Alessio Marrani, David Chester, _Exceptional Super Yang-Mills in $D=27+3$ and Worldvolume M-Theory_ ([arXiv:1906.10709](https://arxiv.org/abs/1906.10709))
 
 [[!redirects exceptional structures]]
 
