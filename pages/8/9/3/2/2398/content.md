@@ -134,6 +134,8 @@ A little bit a long these lines for [[diffeological space]]s is also in
 
 ## Related concepts
 
+* [[equivariant de Rham theorem]]
+
 * [[Poincaré lemma]]
 
 * [[Stokes theorem]]
