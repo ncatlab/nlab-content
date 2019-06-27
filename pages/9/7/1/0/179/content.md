@@ -205,7 +205,7 @@ $$
   U : SmoothAlg \to CAlg_{\mathbb{R}}
 $$
 
-to the category of [[associative algebra|comutative associative algebras]] over the [[real number]]s.
+to the category of [[associative algebra|comutative associative algebras]] over the [[real numbers]].
 
 +-- {: .num_prop #SmoothMonoidalDoldKan}
 ###### Proposition
