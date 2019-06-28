@@ -358,6 +358,10 @@ then this is
 
 (...)
 
+## Related concepts
+
+* [[D=5 super Yang-Mills theory]]
+
 ## References
 
 The Perry-Schwarz action is due to
