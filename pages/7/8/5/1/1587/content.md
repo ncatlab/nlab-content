@@ -25,9 +25,7 @@ A **covering space** (or **wrapping space**) is a [[bundle]] $p: E \to B$ in whi
 
 ## Definition
 
-In [[topology]], for $B$ a [[topological space]]
-
-then a [[continuous function]] $p: E \to B$ is a covering space over $B$ if for each point $x \in B$, there exists an [[open neighborhood]] $U$ of $x$ which is **evenly covered** by $p$ in that the [[pullback]] of $p$ over $U$ is isomorphic to a product bundle with discrete fiber $E_x = p^{-1}(x)$: 
+A [[continuous function]] $p: E \to B$ is a covering space over $B$ if for each point $x \in B$, there exists an [[open neighborhood]] $U$ of $x$ which is **evenly covered** by $p$ in that the [[pullback]] of $p$ over $U$ is isomorphic to a product bundle with discrete fiber $E_x = p^{-1}(x)$: 
 
 $$\array{
 U \times E_x & \cong & p^{-1}(U) & \to & E\\
