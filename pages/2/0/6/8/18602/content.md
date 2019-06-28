@@ -120,6 +120,7 @@ Possible explanation of the anomaly in the anomalous magnetic moments in terms o
 
 * {#Mueller18} Dario Müller, _Leptoquarks in Flavour Physics_, EPJ Web of Conferences 179, 01015 (2018) ([arXiv:1801.03380](https://arxiv.org/abs/1801.03380))
 
+* Junichiro Kawamura, Stuart Raby, Andreas Trautner, _Complete Vector-like Fourth Family and new $U(1)'$ for Muon Anomalies_ ([arXiv:1906.11297](https://arxiv.org/abs/1906.11297))
 
 ### QED contributions
 
