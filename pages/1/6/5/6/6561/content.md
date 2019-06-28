@@ -131,13 +131,30 @@ Construction from [[F-theory]] [[KK-compactification]] is reviewed in
 
 * {#HeckmanRudelius18} [[Jonathan Heckman]], Tom Rudelius, _Top Down Approach to 6D SCFTs_, J. Phys. A: Math. Theor. 52 093001 2018 ([arXiv:1805.06467](https://arxiv.org/abs/1805.06467), [doi:10.1088/1751-8121/aafc81](https://doi.org/10.1088/1751-8121/aafc81))
  
-
-
 See also the references and discussion at _[[M5-brane]]_.
+
+### Compactification to 5d super-Yang-Mills
+
+[[KK-compactification]] on [[circle]] [[fibers]] to [[D=5 super Yang-Mills theory]] is discussed in (see also at [[Perry-Schwarz Lagrangian]]):
+
+* [[Nathan Seiberg]], Sec. 7 of _Notes on Theories with 16 Supercharges_, Nucl. Phys. Proc. Suppl. 67:158-171, 1998 ([arXiv:hep-th/9705117](https://arxiv.org/abs/hep-th/9705117))
+
+* {#Douglas11} [[Michael Douglas]], _On D=5 super Yang-Mills theory and (2,0) theory_, JHEP 1102:011, 2011 ([arXiv:1012.2880](https://arxiv.org/abs/1012.2880))
+
+* [[Neil Lambert]], Constantinos Papageorgakis, Maximilian Schmidt-Sommerfeld, _M5-Branes, D4-Branes and Quantum 5D super-Yang-Mills_, JHEP 1101:083, 2011 ([arXiv:1012.2882](https://arxiv.org/abs/1012.2882))
+
+* {#Witten11} [[Edward Witten]], Sections 4 and 5 of _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216)) 
+
+* [[Chris Hull]], [[Neil Lambert]], _Emergent Time and the M5-Brane_, JHEP06(2014)016 ([arXiv:1403.4532](https://arxiv.org/abs/1403.4532))
+
+* [[Andreas Gustavsson]], _Five-dimensional Super-Yang-Mills and its Kaluza-Klein tower_. JHEP01(2019)222 ([arXiv:1812.01897](https://arxiv.org/abs/1812.01897))
+
+* [[Neil Lambert]], Sec. 3.1 and 3.4.3. of _Lessons from M2's and Hopes for M5's_, _Proceedings of the [LMS-EPSRC Durham Symposium](http://www.maths.dur.ac.uk/lms/):_ _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html), August 2018_ Fortschritte der Physik, 2019 ([arXiv:1903.02825](https://arxiv.org/abs/1903.02825), [slides pdf](http://www.maths.dur.ac.uk/lms/109/talks/1877lambert.pdf))
+
 
 ### Compactification to 4d super-Yang-Mills
 
-The conformal structure of the 6d theory and its relation under [[Kaluza-Klein mechanism|compactification]] on a [[Riemann surface]] to [[electric-magnetic duality]]/[[S-duality]] in 4-dimensions is discussed in
+[[KK-compactification]] on [[torus]] [[fibers]] to [[D=4 super Yang-Mills theory]] and the related [[electric-magnetic duality]]/[[S-duality]] in 4-dimensions is discussed in
 
 * {#Witten07} [[Edward Witten]], _[[Conformal field theory in four and six dimensions]]_ in [[Ulrike Tillmann]] (ed.) _Topology, geometry and quantum field theory_ LMS Lecture Note Series (2004) ([arXiv:0712.0157](http://arxiv.org/abs/0712.0157))
  
