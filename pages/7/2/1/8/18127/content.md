@@ -921,11 +921,9 @@ $$
 **(basepoints)**
 
 Definition \ref{FundamentalGroupoidAndFundamentalGroup} intentionally offers two variants of the
-defintion.
+definition.
 
-The first, the _[[fundamental groupoid]]_ is canonically given, without choosing a
-
-basepoint. As a result, it is a structure that is not quite a [[group]] but, slightly more generally, a "[[groupoid]]"
+The first, the _[[fundamental groupoid]]_ is canonically given, without choosing a basepoint. As a result, it is a structure that is not quite a [[group]] but, slightly more generally, a "[[groupoid]]"
 (a "group with many objects"). We discuss the concept of [[groupoids]] [below](#Groupoid).
 
 The second, the [[fundamental group]], is a genuine group, but its definition requires picking a base point $x \in X$.
