@@ -18,12 +18,7 @@
 =--
 =--
 
-
-According to the [classification of superconformal symmetry](supersymmetry#ClassificationSuperconformal)...
-
-[[!include superconformal symmetry -- table]]
-
-...there exists [[superconformal field theories]] in 4 dimensions:
+There exists [[superconformal field theories]]/[[super Yang-Mills theories]] in 4 dimensions:
 
 * [[N=1 D=4 super Yang-Mills theory]]
 
@@ -31,12 +26,23 @@ According to the [classification of superconformal symmetry](supersymmetry#Class
 
 * [[N=4 D=4 super Yang-Mills theory]]
 
-By [[topological twist|topological twisting]] these give rise to
+and by [[topological twist|topological twisting]] these give rise to
 
 * [[topologically twisted D=4 super Yang-Mills theory]]
+
+
+according to the [classification of superconformal symmetry](supersymmetry#ClassificationSuperconformal)...
+
+[[!include superconformal symmetry -- table]]
+
+
 
 
 [[!redirects 4d superconformal gauge field theories]]
 
 [[!redirects 4d super gauge field theory]]
 [[!redirects 4d super gauge field theories]]
+
+[[!redirects D=4 super Yang-Mills theory]]
+[[!redirects D=4 super Yang-Mills theories]]
+
