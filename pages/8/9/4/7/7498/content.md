@@ -1,4 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
 # Contents
 * table of contents
 {: toc}
@@ -61,9 +79,55 @@ If $G$ is the topological category associated to the group $G$, then a $G$-space
 
 The image of the Borel construction in [[rational homotopy theory]] is the [[Weil model]] for [[equivariant de Rham cohomology]]. See there for more.
 
+\begin{xymatrix}
+  &
+  X \times E G \ar@(ul,ur)^G
+  \ar[d]^-{ q }
+  &
+  \Omega^\bullet( X )
+  \otimes 
+  W(g)
+  \ar@(ur,ul)_{ g }
+  \ar@{<-^{)}}[d]^-{ q^\ast }
+  \\
+  \;
+  X // G
+  \ar@{}[r]|-{
+    \simeq_{\mathrm{whe}}
+  }
+  &  
+  \big(
+    X \times E G 
+  \big)/G
+  &
+  \big(
+    \Omega^\bullet( X )
+    \otimes 
+    W(g)
+  \big)_{\mathrm{basic}} 
+  \ar@{<-}[r]^-{ :\exp\big( t^a \iota_a\big): }_-{\simeq}
+  &
+  \big(
+    \Omega^\bullet( X )\big[ r^a \big]
+  \big)^G
+  \\
+  &
+  \mbox{Borel construction}
+  &
+  \mbox{Weil model}
+  &
+  \mbox{Cartan model}
+\end{xymatrix}
+
+
+
 ## Related concepts
 
 * [[Borel equivariant cohomology]]
+
+  * [[equivariant ordinary cohomology]]
+
+  * [[equivariant de Rham cohomology]]
 
 ## References
 
