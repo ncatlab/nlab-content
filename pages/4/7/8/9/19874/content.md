@@ -157,6 +157,13 @@ within [[GUT]]-models and specifically within [[Pati-Salam models]]:
 
 * {#Malinsky19} [[Michal Malinský]], _Lepton non-universality in $B$-decays in the minimal leptoquark gauge model_ ([arXiv:1906.09174](https://arxiv.org/abs/1906.09174))
 
+* Jordan Bernigaud, Ivo de Medeiros Varzielas, Jim Talbert, _Finite Family Groups for Fermionic and Leptoquark Mixing Patterns_ ([arXiv:1906.11270](https://arxiv.org/abs/1906.11270))
+
+* Junichiro Kawamura, Stuart Raby, Andreas Trautner, _Complete Vector-like Fourth Family and new $U(1)'$ for Muon Anomalies_ ([arXiv:1906.11297](https://arxiv.org/abs/1906.11297))
+
+* Leandro Da Rold, Federico Lamagna, _A vector leptoquark for the B-physics anomalies from a composite GUT_ ([arXiv:1906.11666](https://arxiv.org/abs/1906.11666))
+
+
 
 and within [[Randall-Sundrum models]]
 
