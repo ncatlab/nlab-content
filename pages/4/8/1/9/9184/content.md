@@ -409,6 +409,13 @@ Discussion of stringy axion [[cosmology]] (such as [[fuzzy dark matter]]) is in
 
 * {#AcharyaKaneKumar12} [[Bobby Acharya]], [[Gordon Kane]], [[Piyush Kumar]], _Compactified String Theories -- Generic Predictions for Particle Physics_, Int. J. Mod. Phys. A, Volume 27 (2012) 1230012 ([arXiv:1204.2795](https://arxiv.org/abs/1204.2795))
 
+### In holographic QCD
+
+Realization in the [[Witten-Sakai-SUgimoto model]] for [[holographic QCD]]:
+
+* Francesco Bigazzi, Alessio Caddeo, Aldo L. Cotrone, Paolo Di Vecchia, Andrea Marzolla, _The Holographic QCD Axion_ ([arXiv:1906.12117](https://arxiv.org/abs/1906.12117))
+
+
 
 ### Experimental signature
 
