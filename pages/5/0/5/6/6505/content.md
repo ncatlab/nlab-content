@@ -199,7 +199,7 @@ $$(q,p)\xrightarrow{A\in\text{SO(3)}}(Aq,pA^{-1})$$
 where $q$ is a column vector and $p$ is a row vector. Then the moment map for this Hamiltonian action is 
 $$\mu\colon T^*(\mathbb{R}^3)\to \mathfrak{so}(3)^*,\quad \left\langle\mu(q,p),\;\vec\theta\cdot\begin{pmatrix}\Omega_1\\\Omega_2\\\Omega_3\end{pmatrix} \right\rangle\to (\vec{q}\times \vec p)\cdot\vec{\theta}$$
 where 
-$$\Omega_1=\begin{pmatrix}0&0&0\\0&0&-1\\0&1&0\end{pmatrix},\quad\Omega_2=\begin{pmatrix}0&0&1\\0&0&0\\-1&0&0\end{pmatrix},\quad \Omega_3=\begin{pmatrix}0&-1&0\\1&0&0\\0&0&0\end{pmatrix}$$. 
+$$\Omega_1=\begin{pmatrix}0&0&0\\0&0&-1\\0&1&0\end{pmatrix},\quad\Omega_2=\begin{pmatrix}0&0&1\\0&0&0\\-1&0&0\end{pmatrix},\quad \Omega_3=\begin{pmatrix}0&-1&0\\1&0&0\\0&0&0\end{pmatrix}$$
 
 If we choose $\Omega_1,\Omega_2,\Omega_3$ as an orthonormal basis of $\mathfrak{so}(3)$ and then identify $\mathfrak{so}(3)\cong\mathfrak{so}(3)^*\cong\mathbb{R}^3$, then $\mu(q,p)=\vec q\times\vec p$, which is the angular momentum. 
 
