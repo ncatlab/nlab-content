@@ -25,7 +25,7 @@
 Additive analytic geometry over the [[complex number]] is an analog of classical (called here multiplicative) [[complex analytic geometry]] obtained by replacing the convolution algebra $\ell^1(\mathbb{N},\mathbb{C})$ of converging power series of radius $1$ (discrete [[Mellin transforms]]) by the algebra $L^1(\mathbb{R}_+,\mathbb{C})$ of integrable functions (continuous Mellin transforms) or other variants.
 The analog of the complex unit disc $D_m(0,1)=D(0,1)$ is the hyperbolic/additive unit disc
 $$D_a(-\infty,0)=\{s,Re(s)\leq 0\}\cup \{-\infty\},$$
-(if one choses the right class of functions/distributions, since the Fourier transform of an $L^1$ function vanishes at infinity)
+(if one choses the class of integrable function, we actually have $-\infty=\infty$, since the Fourier transform of an $L^1$ function vanishes at infinity; this may not be the case if we work with another class of functions/distributions)
 and the analog of the affine line $\mathbb{A}^1_m=\mathbb{C}$ is the additive affine line
 $$\mathbb{A}^1_a=\{-\infty\}\cup \mathbb{C}.$$
 The main interest of this new geometry is that it has a built in flow (action of the additive monoid $\mathbb{R}_+$ on itself) and its functions are locally given by continuous Mellin transforms.
