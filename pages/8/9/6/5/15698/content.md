@@ -8,6 +8,8 @@
 
 * [[zeta function regularization]]
 
+* [[Kochen-Specker theorem]]
+
 * [[Gleason's theorem]]
 
 * [[spectral theory]]
