@@ -154,7 +154,7 @@ For general unital [[star-algebras]]:
 
 * {#KhavkineMoretti15}  [[Igor Khavkine]], [[Valter Moretti]], _Algebraic QFT in Curved Spacetime and quasifree Hadamard states: an introduction_, Chapter 5 in [[Romeo Brunetti]] et al. (eds.) _Advances in Algebraic Quantum Field Theory_, , Springer, 2015
 
-in relation with the moment problem
+in relation with the classical moment problem and the notion of [[POVM]]
 
 * {#DragoMoretti19} Nicolò Drago,  [[Valter Moretti]], 
  The notion of observable and the moment problem for *-algebras and their GNS representations ([arXiv.org:1903.07496](https://arxiv.org/abs/1903.07496))
