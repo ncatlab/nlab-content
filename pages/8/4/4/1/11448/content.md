@@ -35,7 +35,17 @@
 
 ## Idea
 
-Type I string theory is [[type II string theory]] on [[orientifold]] [[spacetimes]] (at [[O-planes]]).
+Type I string theory is [[type II string theory]] on [[orientifold]] [[spacetimes]] (at [[O9-planes]]).
+
+$$
+  \array{
+    M 
+    \\
+    {}^{ \mathllap{S^1 \times S^1/\mathbb{Z}_2 }}\big\downarrow
+    \\
+    I' &\underset{T}{\longrightarrow}& I
+  }
+$$
 
 ## Properties
 
@@ -83,6 +93,10 @@ Related lecture notes / slides include
 
 * {#Moore10} [[Greg Moore]], _The RR-charge of an orientifold_, Oberwolfach talk 2010 ([pdf](https://www.physics.rutgers.edu/~gmoore/Oberwolfach_June2010_FINAL.pdf), [[MooreOrientifold2010.pdf:file]], [ppt](http://www.physics.rutgers.edu/~gmoore/AnnArbor_Feb2010_FINAL.ppt))
 
+### Type I'
+
+* {#Schwarz00} [[John Schwarz]], _Some Properties of Type I' String Theory_, in: _The Many Faces of the Superworld, pp. 388-397_ (2000) ([arXiv:hep-th/9907061](https://arxiv.org/abs/hep-th/9907061), [doi:10.1142/9789812793850_0023](https://doi.org/10.1142/9789812793850_0023))
+
 ### Phenomenology
  {#Phenomenology}
 
@@ -113,3 +127,8 @@ More details are then in
 
 [[!redirects type I superstring]]
 [[!redirects type I superstring theory]]
+
+[[!redirects type I' string theory]]
+
+
+
