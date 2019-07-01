@@ -17,7 +17,7 @@
 
 A __vector field__ is a [[section]] of a [[vector bundle]].
 
-More specifically, a vector field is a _[[tangent vector field]]_ which is a [[section]] of a [[tangent bundle]]. Hence this is a function which picks a [[tangent vector]] at each point of a manifold, such that this assignment is suitbably [[differentiable function|differentiable]].
+More specifically, a vector field is a _[[tangent vector field]]_ which is a [[section]] of a [[tangent bundle]]. Hence this is a function which picks a [[tangent vector]] at each point of a manifold, such that this assignment is suitably [[differentiable function|differentiable]].
 
 Equivalently this is a rank $(1,0)$-[[tensor field]] on $X$
 
