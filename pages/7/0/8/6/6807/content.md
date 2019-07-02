@@ -121,6 +121,10 @@ The interpretation of the BFSS model as a regularized [[M2-brane]] [[worldvolume
 
 * {#DasguptaNicolaiPlefka02} Arundhati Dasgupta, [[Hermann Nicolai]], [[Jan Plefka]], _An Introduction to the Quantum Supermembrane_, Grav.Cosmol.8:1,2002; Rev.Mex.Fis.49S1:1-10, 2003 ([arXiv:hep-th/0201182](http://arxiv.org/abs/hep-th/0201182))
 
+Analogous regularizations lead to matrix model descriptions of [[D-branes]]:
+
+* Qiang Jia, _On matrix description of D-branes_ ([arXiv:1907.00142](https://arxiv.org/abs/1907.00142))
+
 ### Ground state problem
   {#ReferencesGroundStateProblem}
 
