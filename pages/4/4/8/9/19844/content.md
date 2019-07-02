@@ -62,7 +62,7 @@ Indications of flavour anomalies have been observed consistently and with increa
 \end{imagefromfile}
 
 
-The global (all channels and experiments combined) tension  with the standard model by end of 2018 had [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18), [Bouchard-Cao-Owen 19](#BouchardCaoOwen19)). Various authors see the global tension (i.e. of all decay channels jointly) at over $5 \sigma$ ([CCDGMV 17](#CCDGMV17), [CFMVV 17](#CFMVV17) [CGMS 18](#CGMS18), [Dordei 18, slide 12](#Dordei18)), which traditionally qualifies as detection (see [here](statistical+significance#ParticlePhysics)), some authors already quote $5.3 \sigma - 5.8 \sigma$ ([ACDGMM 19](#ACDGMM19)) or $6 \sigma$ ([Kumar-London 19](#KumarLondon19)).
+The global (all channels and experiments combined) tension  with the standard model by end of 2018 had [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18), [Bouchard-Cao-Owen 19](#BouchardCaoOwen19)). Various authors see the global tension (i.e. of all decay channels jointly) at over $5 \sigma$ ([CCDGMV 17](#CCDGMV17), [CFMVV 17](#CFMVV17) [CGMS 18](#CGMS18), [Dordei 18, slide 12](#Dordei18)), which traditionally qualifies as detection (see [here](statistical+significance#ParticlePhysics)), some authors already quote $5.3 \sigma - 5.8 \sigma$ ([ACDGMM 19](#ACDGMM19)) or $5-6 \sigma$ ([Kumar-London 19](#KumarLondon19), [Kumar 19](#Kumar19)).
 
 > graphics grabbed from [Dey 18](#Dey18)
 
@@ -317,7 +317,7 @@ Original articles include:
 * Monika Blanke, [[Andreas Crivellin]], Stefan de Boer, Teppei Kitahara, Marta Moscati, Ulrich Nierste, Ivan Nišandžić, _Addendum: "Impact of polarization observables and $B_c \to \tau \nu$ on new physics explanations of the $b \to c \tau \nu$ anomaly"_ ([arXiv:1905.08253](https://arxiv.org/abs/1905.08253))
 
 
-* {#KumarLondon19} Jacky Kumar, David London, _New physics in $b \to s e^+ e^-$?_ ([arXiv:1901.04516](https://arxiv.org/abs/1901.04516))
+* {#KumarLondon19} Jacky Kumar, David London, _New physics in $b \to s e^+ e^-$?_, Phys. Rev. D 99, 073008 (2019) ([arXiv:1901.04516](https://arxiv.org/abs/1901.04516), [doi:10.1103/PhysRevD.99.073008](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.99.073008))
 
 * Domagoj Leljak, Blazenka Melic, Monalisa Patra, _On lepton flavour universality in semileptonic $B_c \to \eta_c, J/\psi$ decays_ ([arXiv:1901.08368](https://arxiv.org/abs/1901.08368))
 
@@ -405,6 +405,9 @@ explanation via assumption of [[leptoquarks]]:
 
 * {#BDFKFS18} Damir Bečirević, Ilja Doršner, Svjetlana Fajfer, Nejc Košnik, Darius A. Faroughy, Olcyr Sumensari, _Scalar leptoquarks from GUT to accommodate the $B$-physics anomalies_, Phys. Rev. D 98, 055003 (2018) ([arXiv:1806.05689](https://arxiv.org/abs/1806.05689))
 
+* {#KumarLondonWatanabe18} Jacky Kumar, David London, Ryoutaro Watanabe, _Combined Explanations of the $b \to s \mu^+ \mu^-$ and $b \to c \tau^- \bar \nu$ Anomalies: a General Model Analysis_, Phys. Rev. D 99, 015007 (2019) ([arXiv:1806.07403](https://arxiv.org/abs/1806.07403))
+
+  (reviewed in [Kumar 19](#Kumar19))
 
 * {#MMR18} Tanumoy Mandal, Subhadip Mitra, Swapnil Raz, _$R_{D^{(\ast)}}$ in minimal leptoquark scenarios: impact of interference on the exclusion limits from LHC data_ ([arXiv:1811.03561](https://arxiv.org/abs/1811.03561))
 
@@ -441,6 +444,10 @@ explanation via assumption of [[leptoquarks]]:
 * Junichiro Kawamura, Stuart Raby, Andreas Trautner, _Complete Vector-like Fourth Family and new $U(1)'$ for Muon Anomalies_ ([arXiv:1906.11297](https://arxiv.org/abs/1906.11297))
 
 * Leandro Da Rold, Federico Lamagna, _A vector leptoquark for the B-physics anomalies from a composite GUT_ ([arXiv:1906.11666](https://arxiv.org/abs/1906.11666))
+
+* {#Kumar19} Jacky Kumar, _Combined explanation of the B-anomalies_, Proceedings for FPCP 2019 ([arXiv:1907.00416](https://arxiv.org/abs/1907.00416))
+  
+  (review of [KumarLondonWatanabe18](#KumarLondonWatanabe18))
 
 [[leptoquarks]] within a [[Randall-Sundrum model]]:
 
