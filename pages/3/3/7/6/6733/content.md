@@ -455,12 +455,11 @@ Discussion in terms of [[E11]]-[[U-duality]] and [[current algebra]] is in
 ### $\sigma$-Model description
  {#ReferencesSigmaModelDescription}
 
-The [[sigma-model]] description of the (single) M5-brane of [[Green-Schwarz action functional]]-type was found in covariant form in 
+The [[Green-Schwarz action functional]]-type [[sigma-model]] of the (single) M5-brane of  was found in covariant form in 
 
 * {#PST97} [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _Covariant Action for a D=11 Five-Brane with the Chiral Field_, Phys. Lett. B398 (1997) 41 ([arXiv:hep-th/9701037](https://arxiv.org/abs/hep-th/9701037))
 
 * {#BLNPST97} [[Igor Bandos]], [[Kurt Lechner]], [[Alexei Nurmagambetov]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _Covariant Action for the Super-Five-Brane of M-Theory_, Phys. Rev. Lett. 78 (1997) 4332-4334 ([arXiv:hep-th/9701149](http://arxiv.org/abs/hep-th/9701149))
-
 
 generally following
 
@@ -479,6 +478,10 @@ based on the non-covariant form of the [[self-dual higher gauge field|self-duali
 * {#Schwarz97} [[John Schwarz]], _Coupling a Self-Dual Tensor to Gravity in Six Dimensions_, Phys. Lett. B395:191-195, 1997 ([cds:317663](http://cds.cern.ch/record/317663), <a href="https://doi.org/10.1016/S0370-2693(97)00094-4">doi:10.1016/S0370-2693(97)00094-4</a>)
 
 * {#APPS97} [[Mina Aganagic]], Jaemo Park, Costin Popescu, [[John Schwarz]], _World-Volume Action of the M Theory Five-Brane_, Nucl.Phys. B496 (1997) 191-214 ([arXiv:hep-th/9701166](http://arxiv.org/abs/hep-th/9701166))
+
+The [[equations of motion]] in [[super spacetime]] were also given in
+
+* {#HoweSezginWest97} [[Paul Howe]], [[Ergin Sezgin]], [[Peter West]], _Covariant Field Equations of the M Theory Five-Brane_, Phys. Lett. B399 (1997) 49-59 ([arXiv:hep-th/9702008](https://arxiv.org/abs/hep-th/9702008))
 
 Discussion in the [[superembedding approach]] is in 
 
