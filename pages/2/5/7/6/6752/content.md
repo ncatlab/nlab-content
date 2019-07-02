@@ -69,13 +69,30 @@ From this [[arithmetic geometry]] point of view the Langlands conjecture seems t
 
 
 ## References
+ {#References}
 
 The original [[conjecture]] is due to 
 
 * {#Langlands67} [[Robert Langlands]], letter to [[Andre Weil]] 1967 ([IAS page](https://publications.ias.edu/rpl/paper/43) including scan and TeXed version, see also [this UBC page](http://sunsite.ubc.ca/DigitalMathArchive/Langlands/functoriality.html#weil1967) for a little more information)
 
-Surveys of the state of the program include
 
+
+Introductions and expository surveys include
+
+* {#Gelbart84} [[Stephen Gelbart]], _An elementary introduction to the Langlands program_,  Bull. Amer. Math. Soc. (N.S.) 10 (1984), no. 2, 177&#8211;219 ([euclid:1183551573](https://projecteuclid.org/euclid.bams/1183551573),  [doi:10.1090/S0273-0979-1984-15237-6](http://www.ams.org/journals/bull/1984-10-02/S0273-0979-1984-15237-6/))
+
+* [[Edward Frenkel]], _Commentary on "An elementary introduction to the Langlands Program" by [[Stephen Gelbart]]_, Bull. Amer. Math. Soc. __48__ (2011), 513-515, ([pdf](http://www.ams.org/journals/bull/2011-48-04/S0273-0979-2011-01347-7/S0273-0979-2011-01347-7.pdf)) 
+
+* Mark Goresky, _Langlands' conjectures for physicists_ ([pdf](http://www.math.ias.edu/~goresky/pdf/Physicists.pdf))
+
+* {#Cogdell12} James W. Cogdell, _L-functions and non-abelian class eld theory, from Artin to Langlands_, 2012 ([pdf](https://people.math.osu.edu/cogdell.1/Artin-www.pdf))
+
+* {#MK14} [[Minhyong Kim]], _A superficial introduction to Langlands functoriality_, 2014 ([pdf](http://people.maths.ox.ac.uk/vonk/automorphic/functoriality.pdf))
+
+*  {#BernsteinGelbart18} [[Joseph Bernstein]], [[Stephen Gelbart]] (eds.), _An Introduction to the Langlands Program_, Springer 2018 ([doi:10.1007/978-0-8176-8226-2](https://link.springer.com/book/10.1007/978-0-8176-8226-2))
+
+
+Surveys of the state of the program include
 
 * {#Taylor02} Richard Taylor, _Galois Representations_, Proceedings of the ICM 2002 ([long version pdf](http://www.math.ias.edu/~rtaylor/longicm02.pdf)).
 
@@ -84,20 +101,6 @@ Surveys of the state of the program include
 
 * {#Harris14} Michael Harris, _Automorphic Galois representations and Shimura varieties_, Proceedings of the ICM 2014 ([pdf](https://www.imj-prg.fr/~michael.harris/2014.pdf)).
 
-
-Introductions and expository surveys include
-
-* {#Gelbart84} [[Stephen Gelbart]], _An elementary introduction to the Langlands program_,  Bull. Amer. Math. Soc. (N.S.) 10 (1984), no. 2, 177&#8211;219 ([doi:10.1090/S0273-0979-1984-15237-6](http://www.ams.org/journals/bull/1984-10-02/S0273-0979-1984-15237-6/))
-
-* [[Edward Frenkel]], _Commentary on "An elementary introduction to the Langlands Program" by Steven Gelbart_, Bull. Amer. Math. Soc. __48__ (2011), 513-515, ([pdf](http://www.ams.org/journals/bull/2011-48-04/S0273-0979-2011-01347-7/S0273-0979-2011-01347-7.pdf)) 
-
-* Mark Goresky, _Langlands' conjectures for physicists_ ([pdf](http://www.math.ias.edu/~goresky/pdf/Physicists.pdf))
-
-* {#Cogdell12} James W. Cogdell, _L-functions and non-abelian class eld theory, from
-Artin to Langlands_, 2012 ([pdf](https://people.math.osu.edu/cogdell.1/Artin-www.pdf))
-
-
-* {#MK14} [[Minhyong Kim]], _A superficial introduction to Langlands functoriality_, 2014 ([pdf](http://people.maths.ox.ac.uk/vonk/automorphic/functoriality.pdf))
  
 Discussion with an eye towards [[geometric class field theory]] and [[geometric Langlands duality]] and [[quantum field theory]] is in 
 
