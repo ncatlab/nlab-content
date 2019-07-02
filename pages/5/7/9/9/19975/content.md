@@ -1,12 +1,10 @@
 
 * [webpage](http://www2.yukawa.kyoto-u.ac.jp/~tadakatsu.sakai/)
 
-## selected writings
 
+## Selected writings
 
-* [webpage](http://www2.yukawa.kyoto-u.ac.jp/~shigeki.sugimoto/index_e.html)
-
-## selected writings
+On the [[Witten-Sakai-Sugimoto model]]:
 
 * {#SakaiSugimoto04} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _Low energy hadron physics in holographic QCD_, Prog.Theor.Phys.113:843-882, 2005 ([arXiv:hep-th/0412141](https://arxiv.org/abs/hep-th/0412141))
 
