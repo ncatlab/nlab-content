@@ -17,4 +17,6 @@
 * [[quaternionic quantum mechanics]]
 
 * [[Gelfand-Naimark-Segal construction]]
+
+* [[Wigner theorem]]
 category: people
