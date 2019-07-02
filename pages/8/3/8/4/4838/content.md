@@ -8,6 +8,8 @@ His numerous works (especically with [[Alexander Beilinson]]) brought to prolife
 * webpage at MathNet.ru: [Russian](http://www.mathnet.ru/php/person.phtml?option_lang=rus&personid=18576)_, [English](http://www.mathnet.ru/php/person.phtml?option_lang=eng&personid=18576); 
 list of publications at mathnet.ru: [pdf](http://www.mathnet.ru/PersLogos/18576/Publication_list.pdf)
 
+## Selected writings
+
 * I. N. Bern&#353;te&#301;n, I. M. Gel&#697;fand, V. A. Ponomarev, 
 Coxeter functors, and Gabriel's theorem. (Russian)
 Uspehi Mat. Nauk __28__ (1973), no. 2(170), 19--33. 
@@ -25,6 +27,11 @@ Uspehi Mat. Nauk __28__ (1973), no. 2(170), 19--33.
 * [[A. Beĭlinson]], J. Bernstein, _A proof of Jantzen conjectures_, I. M. Gel&#697;fand Seminar, 1--50, Adv. Soviet Math. __16__, Part 1, Amer. Math. Soc. 1993, [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/BB%20-%20Jantzen.pdf)
 
 * Joseph Bernstein's notes on [[D-module]]s: [pdf](http://www.math.uchicago.edu/~arinkin/langlands/Bernstein/Bernstein-dmod.pdf)
+
+On the [[Langlands program]]:
+
+*  {#BernsteinGelbart18} [[Joseph Bernstein]], [[Stephen Gelbart]] (eds.), _An Introduction to the Langlands Program_, Springer 2018 ([doi:10.1007/978-0-8176-8226-2](https://link.springer.com/book/10.1007/978-0-8176-8226-2))
+
 
 [[!redirects J. Bernstein]]
 [[!redirects I. N. Bernšteĭn]]
