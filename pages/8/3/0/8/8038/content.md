@@ -88,6 +88,9 @@ A historical overview of the development of on-shell methods/analytic methods is
 
 * {#Dixon13} [[Lance Dixon]], _Calculating Amplitudes_, December 2013 ([web](http://www.preposterousuniverse.com/blog/2013/10/03/guest-post-lance-dixon-on-calculating-amplitudes/))
 
+Annual conference series:
+
+* _[Amplitudes 2019](https://indico.cern.ch/event/750565/timetable/#20190701.detailed)_
 
  
 
