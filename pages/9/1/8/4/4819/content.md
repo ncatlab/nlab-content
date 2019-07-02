@@ -145,8 +145,8 @@ The understanding of this $SL(2,\mathbb{Z})$-symmetry as a remnant conformal tra
 
 * {#Witten95b} [[Edward Witten]], _On S-Duality in Abelian Gauge Theory_ ([arXiv:hep-th/9505186](http://arxiv.org/abs/hep-th/9505186))
 
-* {#Witten07} [[Edward Witten]], _Conformal Field Theory In Four And Six Dimensions_ ([arXiv:0712.0157](http://arxiv.org/abs/0712.0157))
-An exposition of the relation to [[geometric Langlands duality]] is given in
+* {#Witten07} [[Edward Witten]], _[[Conformal field theory in four and six dimensions]]_, in [[Ulrike Tillmann]], _Topology, Geometry and Quantum Field Theory: Proceedings of the 2002 Oxford Symposium in Honour of the 60th Birthday of Graeme Segal_,  London Mathematical Society Lecture Note Series (2004) ([arXiv:0712.0157](http://arxiv.org/abs/0712.0157))
+
 
 The relation of S-duality to [[geometric Langlands duality]] was understood in
 
