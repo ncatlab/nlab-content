@@ -15,7 +15,7 @@
 
 ## Definition
 
-The [[Lorentzian manifold]] which is the [[coset space]] of [[Lorentz groups]]
+Full de Sitter spacetime is the [[Lorentzian manifold]] which is the [[coset space]] of [[Lorentz groups]]
 
 $$
   dS^d \simeq O(d,1)/O(d-1,1)
@@ -31,6 +31,14 @@ $$
 
 (e.g <a href="https://books.google.de/books?id=vtEkBAAAQBAJ&lpg=PA135&ots=zsId1G2lKU&dq=anti-de%20Sitter%20quotient%20of%20SO(3%2C2)&pg=PA135#v=onepage&q=anti-de%20Sitter%20quotient%20of%20SO(3,2)&f=false">here</a>)
 
+This admits different spatial slicings of relevance:
+
+<img src="https://ncatlab.org/nlab/files/deSitterSlicings.png" width="600"/>
+
+
+> graphics grabbed from [this Physics.SE comment](https://physics.stackexchange.com/a/353157/5603)
+
+
 ## Related concepts
 
 [[!include local and global geometry - table]]
@@ -41,10 +49,14 @@ $$
 
 ### In classical gravity
 
-* [[Matthias Blau]], chapter 38 of _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], volume 1, chapter I.3.8 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
+* [[Matthias Blau]], chapter 38 of _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
+
+* Thomas Hartman, _Lecture Notes on Classical de Sitter Space_ ([pdf](http://www.hartmanhep.net/GR2017/desitter-lectures-v2.pdf), [[HartmanDeSitterSpacetime.pdf:file]])
+
+* Marcus Spradlin, [[Andrew Strominger]], Anastasia Volovich, _Les Houches Lectures on De Sitter Space_ ([arXiv:hep-th/0110007](https://arxiv.org/abs/hep-th/0110007))
 
 See also
 
