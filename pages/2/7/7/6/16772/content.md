@@ -100,9 +100,9 @@ $$
 
 The binary dihedral group $2 D_{2n}$ is the [[subgroup]] of that generated from 
 
-1. $ a \coloneqq \exp\left( \pi i \tfrac{1}{n} \right) \in S(\mathbb{C}) \subset Spin_-(2) \subset Spin(3)$
+1. $ a \coloneqq \exp\left( \pi i \tfrac{1}{n} \right) \in S(\mathbb{C}) \subset Pin_-(2) \subset Spin(3)$
 
-1. $x \coloneqq j \in Spin_-(2) \subset Spin(3)$.
+1. $x \coloneqq j \in Pin_-(2) \subset Spin(3)$.
 
 It is manifest that these two generators satisfy the relations
 
