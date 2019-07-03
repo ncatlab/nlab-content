@@ -51,7 +51,10 @@
 
 ### $d = 6$
 
-* [[6d (2,0)-superconformal QFT]]
+* [[D=6 N=(2,0) SCFT]]
+
+* [[D=6 N=(1,0) SCFT]]
+
 
 ## Applications
 
