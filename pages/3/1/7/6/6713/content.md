@@ -423,7 +423,7 @@ A textbook account of D-brane charge in ([[twisted K-theory|twisted]]) [[topolog
 
 See also for instance
 
-* Ilka Brunner, [[Jacques Distler]], _Torsion D-Branes in Nongeometrical Phases_ ([arXiv:hep-th/0102018](https://arxiv.org/abs/hep-th/0102018))
+* [[Ilka Brunner]], [[Jacques Distler]], _Torsion D-Branes in Nongeometrical Phases_ ([arXiv:hep-th/0102018](https://arxiv.org/abs/hep-th/0102018))
 
 Discussion of D-branes in [[KK-theory]] is reviewed in
 
