@@ -67,7 +67,8 @@ The global (all channels and experiments combined) tension  with the standard mo
 > graphics grabbed from [Dey 18](#Dey18)
 
 
-This situation was confirmed with the completed measurements presented at [Moriond 2019](http://moriond.in2p3.fr/2019/), which showed ([Straub 19](#Straub19), [Allanach 19](#Allanach19)) smaller discrepancy but also with smaller uncertainty, thus keeping the [[statistical significance]] essentially unaffected. On the other hand, [Caria 19, slide 9](#Caria19) reported an as yet unpublished measurement by the [[Belle collaboration]] by which the previous [[statistical significance]] of $3.8 \sigma$ in the $R_D$ sector would decrease to $3.1 \sigma$ or $2.8 \sigma$ ([Gambino-Jung-Schacht 19 (6)](V_cb+puzzle#GambinoJungSchacht19)).  Comprehensive assessments of the situation after [Moriond 2019](http://moriond.in2p3.fr/2019/) are given in [AHMSN 19](#AHMSN19), [Descotes-Genon 19](#DescotesGenon19), [Bardhan-Ghosh 19](#BardhanGhosh19) and agree that the flavour anomalies have been confirmed:
+
+This situation was confirmed with the completed measurements presented at [Moriond 2019](http://moriond.in2p3.fr/2019/), which showed ([Straub 19](#Straub19), [Allanach 19](#Allanach19)) smaller discrepancy but also with smaller uncertainty, thus keeping the [[statistical significance]] essentially unaffected. But in spring 2019 [Caria 19, slide 9](#Caria19)  report new numbers by [[Belle collaboration|Belle]] by which the previous [[statistical significance]] of $3.8 \sigma$ in the $R_D$ sector would decrease to $3.1 \sigma$ or $2.8 \sigma$ ([Gambino-Jung-Schacht 19 (6)](V_cb+puzzle#GambinoJungSchacht19)).  See [LHCb 19, p. 2](#LHCb19) for how the new numbers come about. Comprehensive assessments of the situation after [Moriond 2019](http://moriond.in2p3.fr/2019/) are given in [AHMSN 19](#AHMSN19), [Descotes-Genon 19](#DescotesGenon19), [Bardhan-Ghosh 19](#BardhanGhosh19) and agree that the flavour anomalies have been confirmed:
 
 >  It appears the reason is that, given the amount of independent measurements (~180!) a smaller deviation because of new physics is easier to accommodate than a large one. Thus the new measurements actually fit better with new physics.
 
@@ -81,7 +82,8 @@ This situation was confirmed with the completed measurements presented at [Morio
 \end{imagefromfile}
 \end{center}
 
-> graphics grabbed from [Zupan 19](#Zupan19)
+> graphics grabbed from [Zupan 19](#Zupan19), see also [LHCb19, Fig. 5](#LHCb19)
+
 
 If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18), [Zupan 19, 4.6](#Zupan19)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]].
 
@@ -215,6 +217,16 @@ Early suggestion to look for relevant channels are due to
 
 * {#Koppenburg07} [[Patrick Koppenburg]], _Selection of $B_u \to \ell \ell K$ at LHCb and Sensitivity to $R_K$_, 2007 ([cern:1027442](cds.cern.ch/record/1027442), [pdf](cds.cern.ch/record/1027442/files/lhcb-2007-034.pdf))
 
+Comprehensive overview of the latest world-avereaged results to be found at:
+
+* {#HFLAV} _[Heavy Flavour Averaging group](https://hflav.web.cern.ch/)_ (HFLAV)
+
+  * _[Semileptonic B-decays](https://hflav.web.cern.ch/content/semileptonic-b-decays)_
+
+  * _[Rare B decays](https://hflav.web.cern.ch/content/rare-b-decays)_
+
+  * _[B decays to charm final states](https://hflav.web.cern.ch/content/b-hadron-decays-open-or-hidden-charm-hadrons)_
+
 Measurements include
 
 * [[LHCb collaboration]], _Differential branching fractions and isospin asymmetries of $B \to K^{(\ast)}\mu^+ \mu^-$ decays_, JHEP 06 (2014) 133 ([arXiv:1403.8044](https://arxiv.org/abs/1403.8044))
@@ -237,6 +249,7 @@ Measurements include
 
 * [[Belle Collaboration]], _Test of lepton flavor universality in $B \to K^\ast \ell^+ \ell^-$ decays at Belle_ ([arXiv:1904.02440](https://arxiv.org/abs/1904.02440))
 
+* {#LHCb19} [[LHCb collaboration]], _Lepton flavour universality in charged-current $B$ decays_ ([arXiv:1907.01500](https://arxiv.org/abs/1907.01500))
 
 Review includes
 
