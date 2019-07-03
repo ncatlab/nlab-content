@@ -67,7 +67,7 @@ The original articles are
 
 Reviews include
 
-* Andreas Karch, _Field Theory Dynamics from Branes in String Theory_, PhD thesis (1998) [pdf](http://edoc.hu-berlin.de/dissertationen/physik/karch-andreas/PDF/Karch.pdf)
+* [[Andreas Karch]], _Field Theory Dynamics from Branes in String Theory_, PhD thesis (1998) [pdf](http://edoc.hu-berlin.de/dissertationen/physik/karch-andreas/PDF/Karch.pdf)
 
 * [[David Morrison]], _Limitations of Geometric Engineering:
 Implications for Model Building_, talk (2008) [pdf slides](http://hans.math.upenn.edu/StringPhenom2008/slides/d.morrison.pdf)
