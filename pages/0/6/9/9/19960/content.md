@@ -236,7 +236,7 @@ The bottom-up hard-wall model is due to
 
 while the soft-wall refinement is due to 
 
-* {#KKSS06} Andreas Karch, Emanuel Katz, Dam T. Son, Mikhail A. Stephanov, _Linear Confinement and AdS/QCD_, Phys.Rev.D74:015005, 2006 ([arXiv:hep-ph/0602229](https://arxiv.org/abs/hep-ph/0602229))
+* {#KKSS06} [[Andreas Karch]], Emanuel Katz, Dam T. Son, Mikhail A. Stephanov, _Linear Confinement and AdS/QCD_, Phys.Rev.D74:015005, 2006 ([arXiv:hep-ph/0602229](https://arxiv.org/abs/hep-ph/0602229))
 
 see also
 
