@@ -71,6 +71,9 @@ Specifically the _[[AGT correspondence]]_ expresses this relation in terms of th
 
 * [[geometric engineering of quantum field theory]]
 
+[[!include superconformal symmetry -- table]]
+
+
 ## References
 
 ### General
@@ -173,6 +176,9 @@ Discussion of construction of just [[N=1 D=4 super Yang-Mills theory]] this way 
 
 
 [[!redirects N=2 D=4 sYM]]
+
+[[!redirects D=4 N=2 SYM]]
+
 
 [[!redirects N=2 super Yang-Mills theory]]
 [[!redirects N=2 super Yang-Mills theories]]
