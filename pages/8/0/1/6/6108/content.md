@@ -110,7 +110,7 @@ Inc., Boston, MA, 2009 ([arXiv:math.ag/0503632](http://arxiv.org/abs/math.ag/050
 
 General defects of B-twisted affine LG models were first discussed in
 
-* Ilka Brunner, Daniel Roggenkamp, _B-type defects in Landau-Ginzburg models_, JHEP 0708 (2007) 093, ([arXiv:0707.0922](http://arxiv.org/abs/0707.0922))
+* [[Ilka Brunner]], [[Daniel Roggenkamp]], _B-type defects in Landau-Ginzburg models_, JHEP 0708 (2007) 093, ([arXiv:0707.0922](http://arxiv.org/abs/0707.0922))
 
 The graded pivotal bicategory of B-twisted affine LG models is studied in detail in 
 
@@ -118,13 +118,13 @@ The graded pivotal bicategory of B-twisted affine LG models is studied in detail
 
 Orbifolds of defects are studied in
 
-* Ilka Brunner, Daniel Roggenkamp, _Defects and Bulk Perturbations of Boundary Landau-Ginzburg Orbifolds_, JHEP 0804 (2008) 001, ([arXiv:0712.0188](http://arxiv.org/abs/0712.0188))
+* [[Ilka Brunner]], [[Daniel Roggenkamp]], _Defects and Bulk Perturbations of Boundary Landau-Ginzburg Orbifolds_, JHEP 0804 (2008) 001, ([arXiv:0712.0188](http://arxiv.org/abs/0712.0188))
 
 * Nils Carqueville, Ingo Runkel, _Orbifold completion of defect bicategories_, ([arXiv:1210.6363](http://arxiv.org/abs/1210.6363))
 
-* Ilka Brunner, Nils Carqueville, Daniel Plencner, _Orbifolds and topological defects_, Comm. Math. Phys. 332 (2014), 669-712, ([arXiv:1307.3141](http://arxiv.org/abs/1307.3141))
+* [[Ilka Brunner]], Nils Carqueville, Daniel Plencner, _Orbifolds and topological defects_, Comm. Math. Phys. 332 (2014), 669-712, ([arXiv:1307.3141](http://arxiv.org/abs/1307.3141))
 
-* Ilka Brunner, Nils Carqueville, Daniel Plencner, _Discrete torsion defects_, Comm. Math. Phys. 337 (2015), 429-453, ([arXiv:1404.7497](http://arxiv.org/abs/1404.7497))
+* [[Ilka Brunner]], Nils Carqueville, Daniel Plencner, _Discrete torsion defects_, Comm. Math. Phys. 337 (2015), 429-453, ([arXiv:1404.7497](http://arxiv.org/abs/1404.7497))
 
 A relation to [[linear logic]] and the [[geometry of interaction]] is in 
 
