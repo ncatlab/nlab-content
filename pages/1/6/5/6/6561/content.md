@@ -103,8 +103,8 @@ Famously the solutions to [[self-dual Yang-Mills theory]] in [[dimension]] 4 can
 
 [[!include gauge theory from AdS-CFT -- table]]
 
+[[!include superconformal symmetry -- table]]
 
-[[!include table of branes]]
 
 ## References
 
@@ -291,7 +291,9 @@ a summary of
 [[!redirects 6d superconformal gauge field theories]]
 
 [[!redirects D=6 N=(2,0) SCFT]]
-[[!redirects D=6 N=(1,0) SCFT]]
 [[!redirects D=6 N=(1,1) SCFT]]
+
+
+
 
 
