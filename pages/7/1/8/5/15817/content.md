@@ -28,7 +28,7 @@ On [[M-theory on 8-manifolds]] and [[conifold transition]]:
 
 On [[mirror symmetry]]:
 
-* [[Mina Aganagic]], [[Kentaro Hori]], Andreas Karch, [[David Tong]], _Mirror Symmetry in 2+1 and 1+1 Dimensions_, JHEP 0107:022,2001 ([arXiv:hep-th/0105075](http://arxiv.org/abs/hep-th/0105075))
+* [[Mina Aganagic]], [[Kentaro Hori]], [[Andreas Karch]], [[David Tong]], _Mirror Symmetry in 2+1 and 1+1 Dimensions_, JHEP 0107:022,2001 ([arXiv:hep-th/0105075](http://arxiv.org/abs/hep-th/0105075))
 
 
 On [[triality]] and its application on [[string theory]]
