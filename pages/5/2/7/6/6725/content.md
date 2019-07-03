@@ -131,6 +131,7 @@ via [[S-duality]] in the [[F-theory]]-picture...
 
 * [[duality between F-theory and heterotic string theory]]
 
+[[!include KK-compactifications of M-theory -- table]]
 
 
 ## Properties
