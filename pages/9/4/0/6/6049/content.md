@@ -162,7 +162,7 @@ If in addition the [[black brane|black]] [[NS5-brane]] sits at an [[O8-plane]], 
 
 (In [Hanany-Zaffaroni 99](#HananyZaffaroni99) this is interpreted in terms of the [['t Hooft-Polyakov monopole]].)
 
-{#LiftToMTheortyOfNS5Halfbrane} The lift to [[M-theory]] of this situation is an [[M5-brane]] [[brane intersection|intersecting]] an [[M9-brane]]:
+{#LiftToMTheortyOfNS5Halfbrane} The lift to [[M-theory]] of this situation is an [[M5-brane]] [[brane intersection|intersecting]] an [[M9-brane]] (see at _[[M-theory on S1/G_HW times H/G_ADE]]_):
 
 <img src="https://ncatlab.org/nlab/files/M9KK6Intersection.jpg" width="650"/>
 
@@ -361,9 +361,13 @@ Intersection of [[black brane|black]] NS5-branes with [[O8-planes]]/[[black bran
 
 * {#GaiottoTomasiello14} [[Davide Gaiotto]], [[Alessandro Tomasiello]], _Holography for $(1,0)$ theories in six dimensions_ ([arXiv:1404.0711](https://arxiv.org/abs/1404.0711))
 
-
 * {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_ ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
 
+* {#HSS18} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], Example 2.2.7 of: _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_, Communications in Mathematical Physics (2019) ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987), [doi:10.1007/s00220-019-03442-3](http://link.springer.com/article/10.1007/s00220-019-03442-3))
+
+
+
+For more see at _[[M-theory on S1/G_HW times H/G_ADE]]_.
 
 
 ### NS5/D4/D2 bound states
