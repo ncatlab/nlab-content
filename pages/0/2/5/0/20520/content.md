@@ -6,8 +6,9 @@
 
 By analogy with [[graded algebra]], a **$\mathcal{M}$-graded monad** in a category $\mathbb{C}$ for a [[monoidal category]], $(\mathcal{M}, \otimes, I)$, is a [[lax monoidal functor]], $(\mathcal{M}, \otimes, I) \to ([\mathbb{C}, \mathbb{C}], \circ, id_{\mathbb{C}})$. This generalizes the concept of [[monad]] which may be consider as graded by $\mathbf{1}$, the [[terminal category]].
 
+Equivalently, a $\mathcal{M}$-graded monad is a lax [[2-functor]] from the [delooping](https://ncatlab.org/nlab/show/delooping#deloopings_of_higher_categorical_structures) (or "suspension") of $\mathcal{M}$, $\mathbf{B} \mathcal{M} \to Cat$. Just as [[monads]] may be defined in any 2-category, $K$, so we may generalize graded monads to lax 2-functors $\mathbf{B} \mathcal{M} \to K$.
 
-
+Graded monads are also known as **parametric** monads.
  
 
 ## Related concepts
