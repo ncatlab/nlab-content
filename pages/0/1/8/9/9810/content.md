@@ -53,6 +53,8 @@ Then
 
 * [[(∞,1)-comparison lemma]]
 
+* [[dense subsite]]
+
 ## References
 
 * [[Jean-Louis Verdier]], _Fonctorialit&#233; de cat&#233;gories de faisceaux_, _Th&#233;orie des topos et cohomologie &#233;tale de sch&#233;mas_ (SGA 4), Tome 1, Lect. Notes in Math. 269, Springer-Verlag, 1972, pp. 265&#8211;298.
