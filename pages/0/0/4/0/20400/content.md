@@ -91,7 +91,7 @@ The idea is that by regarding CLF as a metalogic, its possible lack of categoric
 
 Some discussion is needed to explain what makes extensional type theory good for logical frameworks, what that has to do with metalogics, and what makes CLF a good metalogic. [Later](#CLFasLF).
 
-First, what follows is a draft version of the formal system that will be used in prototype CLF. These rules are non-algorithmic rules pertaining only to types and realizers; the details of the proof system are not designed yet. (And they won't be until some issues are addressed in the semantics and rule set.)
+First, what follows is a draft version of the formal system that will be used in prototype CLF. These rules are non-algorithmic rules pertaining only to types and realizers; the details of the proof system are not designed yet. (And they won't be until some issues are addressed in the semantics and rule set.) Some sketchy thoughts about the design of the proof system are at the beginning of the [Rules](#Rules) section.
 
 ## Syntax
 
@@ -190,9 +190,9 @@ $\bot\;\coloneqq\;tru = fls \in Bool$
 
 $\lfloor A \rfloor\;\coloneqq\;\{\underline{\;}:\top | A\}$
 
-## Rules
+## Rules {#Rules}
 
-These rules are not the final rules that are planned to be implemented in CLF. The major differences planned for the final rules from those here are:
+These rules are not the final rules that are planned to be implemented in proto CLF. The major differences planned for the final rules from those here are:
 
 * Use roughly Nuprl-style hidden assumptions, but with unhiding handled automatically.
 * Have an additional judgment form for goals whose realizer is ignored/arbitrary, which interacts with unhiding.
@@ -226,7 +226,7 @@ $$\begin{gathered}
 {\Gamma \vdash \{x:A | B\}\,type}
 \end{gathered}$$
 
-The PER comprehension type was originally conceived by Stuart Allen, and then forgotten and subsequently [reintroduced](#PERTypes14). However, I think Nuprl had already had $Base$, subsets, and quotients, which make it definable. The real innovation is how PER comprehension and the strengthened equality formation rule interact to allow internal, logical-relations-style type definitions. We only allow forming a PER type from a pseudo-PER, rather than implicitly taking the symmetric transitive closure of any family:
+A PER comprehension type was originally conceived by Stuart Allen, and then forgotten and subsequently [reintroduced](#PERTypes14). However, I think Nuprl had already had $Base$, subsets, and quotients, which make it definable. The real innovation is how PER comprehension and the strengthened equality formation rule interact to allow internal, logical-relations-style type definitions. We only allow forming a PER type from a pseudo-PER, rather than implicitly taking the symmetric transitive closure of any family:
 
 $$\begin{gathered}
 \frac{\begin{array}{l}\Gamma,x1:Comp,x2:Comp \vdash R\,type \\
