@@ -978,7 +978,7 @@ and how one tends to visualize morphisms $n \to (n+1)$.
 
 =--
 
-The embedding of simplicial sets into dendroidal sets compatibly relates the [[cartesian monoidal category|Cartesian monoidal structure]] $(sSet, \times)$ with the [Boradman-Vogt monoidal structure](#BoardmanVogtTensorProduct) $(dSet, \otimes_{BV})$
+The embedding of simplicial sets into dendroidal sets compatibly relates the [[cartesian monoidal category|Cartesian monoidal structure]] $(sSet, \times)$ with the [Boardman-Vogt monoidal structure](#BoardmanVogtTensorProduct) $(dSet, \otimes_{BV})$
 
 +-- {: .num_prop }
 ###### Proposition
