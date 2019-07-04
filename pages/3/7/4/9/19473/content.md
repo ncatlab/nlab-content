@@ -20,7 +20,7 @@ For example, the [[exponential modality]] of [[linear logic]] $!$ has a graded c
 * Dan R. Ghica and Alex I. Smith, _Bounded Linear Types in a Resource Semiring
 _, ([doi](https://doi.org/10.1007/978-3-642-54833-8_18)) ([pdf](https://www.cs.bham.ac.uk/~drg/papers/esop14.pdf))
 
-* Dominic Orchard, Vilem-Benjamin Liepelt, _Gram:  A linear functional language with graded modal types_, ([extended abstract](https://www.cs.ox.ac.uk/conferences/fscd2017/preproceedings_unprotected/TLLA_Orchard.pdf))
+* [[Dominic Orchard]], Vilem-Benjamin Liepelt, _Gram:  A linear functional language with graded modal types_, ([extended abstract](https://www.cs.ox.ac.uk/conferences/fscd2017/preproceedings_unprotected/TLLA_Orchard.pdf))
 
 * Marco Gaboardi, Shin-ya Katsumata, Dominic Orchard, Flavien Breuvart, Tarmo Uustalu, _Combining Effects and Coeffects via Grading_, ([pdf](https://www.cs.kent.ac.uk/people/staff/dao7/publ/combining-effects-and-coeffects-icfp16.pdf))
 
