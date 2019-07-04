@@ -499,7 +499,9 @@ $$\frac{\Gamma \vdash T\,type}{\Gamma \vdash t1 = t2 \in T\,type}$$
 
 ?
 
-No, that doesn't work. The extra complexity has to do with making the axiomatization work for open terms. Consider the type $I\;\coloneqq\;\{x = y | x \in Bool \wedge y \in Bool\}$. Then $tru = fls \in I$. But then consider ($x:I \vdash tru = x \in Bool\,type$). The simple formation rule would derive it, but it doesn't make sense, because ($tru = tru \in Bool$) and ($tru = fls \in Bool$) are different types, although $tru$ and $fls$ are the same $I$. The problem is that equality of types and elements is generally different from equality of computations, and we want well-typed open terms to respect equality of elements. The respect-based equality formation rule doesn't derive the bad type family because you'd need to find some type $T$ such that ($x:I \vdash x \Vdash T$) and ($T \prec Bool$). But if ($x:I \vdash x \Vdash T$), then $T$ considers $tru$ and $fls$ equal, while if ($T \prec Bool$), then it doesn't. That variables and other open terms cannot generally be treated as computations is the sense in which variables are intrinsically typed: although elements are all realized by computations, an arbitrary element generally cannot be used as a computation, so reasoning about membership is constrained.
+No, that doesn't work. The extra complexity has to do with making the axiomatization work for open terms. Consider the type $I\;\coloneqq\;\{x = y | x \in Bool \wedge y \in Bool\}$. Then $tru = fls \in I$. But then consider ($x:I \vdash tru = x \in Bool\,type$). The simple formation rule would derive it, but it doesn't make sense, because ($tru = tru \in Bool$) and ($tru = fls \in Bool$) are different types, although $tru$ and $fls$ are the same $I$. The problem is that equality of types and elements is generally different from equality of computations, and we want well-typed open terms to respect equality of elements. The respect-based equality formation rule doesn't derive the bad type family because you'd need to find some type $T$ such that ($x:I \vdash x \Vdash T$) and ($T \prec Bool$). But if ($x:I \vdash x \Vdash T$), then $T$ considers $tru$ and $fls$ equal, while if ($T \prec Bool$), then it doesn't.
+
+That variables and other open terms cannot generally be treated as computations is the sense in which variables are intrinsically typed: although elements are all realized by computations, an arbitrary element generally cannot be used as a computation, so reasoning about membership is constrained.
 
 ### Other semantic judgments
 
@@ -629,7 +631,7 @@ We have [seen](#UsuPiIn) that in CLF (as in Nuprl) whether two terms are equal d
 
 Very roughly, it buys us the ability to reason directly using realizers, rather than some other system of terms that denote mathematical objects that are realizable. Intuitively, the realizers are elements of $Comp$, and are fairly intensional compared to most types of mathematical object. But the terms are still written as realizers, no matter the type.
 
-More specifically, it's an aspect of how quotients work that seems to be the root cause of the difference between set theory and "PER theory". PER semantics provides refinement-style quotients: there are no operations needed for mapping into or out of quotients. Quotienting has zero overhead in terms, since terms are realizers, and computationally, quotients don't change anything. It's up to the semantics of the type system to make quotient types work correctly anyway.
+More specifically, it's an aspect of how quotients work that seems to be the root cause of the difference between set theory and "PER theory". PER semantics provides *refinement-style quotients*: there are no operations needed for mapping into or out of quotients. Quotienting has zero overhead in terms, since terms are realizers, and computationally, quotients don't change anything. It's up to the semantics of the type system to make quotient types work correctly anyway.
 
 Eventually, general subquotients should be definable in CLF as:
 
@@ -747,11 +749,25 @@ Of course, if we add reflective equality to the *object language*, then we shoul
 
 Part of the rationale behind CLF—and seemingly many other type system implementations based on synthetic judgments—is that there's no *implementation* reason to distinguish type checking from other forms of proof automation. That type checking really is just automatic "proving" of judgments.
 
-On the other hand, if you insist upon decidable type checking, that would be a reason to distinguish type checking from general proof automation. Implementers of synthetic type systems seem united in not considering decidability very important.
+On the other hand, if you insist upon decidable type checking, that would be a reason to distinguish type checking from general proof automation. Implementers of synthetic type systems seem united in not considering decidability an important property of type checking.
 
 ### LF Signatures as Inductive-Inductive Families
 
+LF, MLLF, and LF= are all specialized, weak languages, wherein the object language is specified as a list of assumptions. CLF is not. Although it's still fairly weak, it's supposed to be strong enough to actually prove stuff. In CLF, the object language is defined as some number of mutually [[inductive-inductive type|inductive-inductive families]].
+
+Declared LF type families correspond to CLF inductive type family definitions. The declared element formers for declared LF families correspond to the constructors of the CLF inductive families. Since multiple families can be declared in LF prior to declaring elements, the CLF inductive families are mutually defined, in general. And since there can also be type dependencies between the families, induction-induction is generally necessary.
+
+LF signatures are not ordinary inductive-inductive families. Although the constructors can take functions as arguments, this does not denote an infinitary constructor, as found in [[W-types]]. Instead, a constructor applied to a function argument denotes an expression with a [[bound variable|binding]] subexpression. This is the HOAS interpretation of function types: applying a function just substitutes into an open expression. Since binding and substitution are rather tame notions from formal syntax, there are no restrictions on recurrences in the inductive definition. For example, a recurrence is allowed in the domain of a function type, unlike with infinitary [[inductive types]].
+
+HOAS should be used in CLF too. But unlike LF, this doesn't involve function types, since CLF's maps out of an inductive definition allow case analysis, which would not be an adequate representation of binding subexpressions. Instead, lambdas from $Comp$ can be used as the representation of binding subexpressions. In the family definitions, free variables will presumably be kept track of explicitly, as usual for an inductive definition of a formal system. It should be possible to develop some generic definition of the families, for some broad type of signature codes. (It should include at least all LF= signatures. See below.)
+
+In other words, in CLF, the HOAS interpretation of signatures should be definable; it's not just part of the metatheory. This should allow CLF to serve as both a logical framework, and a metalanguage for reasoning about derivability. With sufficient proof automation, reasoning about derivability allows the convenient use of object languages. The shallowness of the encoding avoids much of the notational inconvenience and computational overhead usually present when reasoning via a metalanguage definition.
+
 ### Quotient-Inductive-Inductive Families as Refinements {#QIIF}
+
+The addition of reflective equality types to LF= has the consequence that LF= signatures correspond to quotient inductive-inductive families, not just plain inductive-inductive families. The declarations concluding with an equality type correspond to equality constructors.
+
+In CLF, quotienting is actually needed just to define inductive-inductive families, since lambdas in $Comp$ don't already satisfy the eta conversion rule of LF's function type. So in principle, supporting quotient inductive-inductive families should be a straightforward modification to the construction. Due to the use of [refinement-style quotients](#PERtheory), quotienting the inductive-inductive families doesn't make the encoding any deeper.
 
 ## References
 
