@@ -75,6 +75,20 @@ Relation to the [[D=6 N=(2,0) SCFT]] via [[KK-compactification]] on a [[circle]]
 
 * [[Neil Lambert]], Sec. 3.1 and 3.4.3. of _Lessons from M2's and Hopes for M5's_, _Proceedings of the [LMS-EPSRC Durham Symposium](http://www.maths.dur.ac.uk/lms/):_ _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html), August 2018_ Fortschritte der Physik, 2019 ([arXiv:1903.02825](https://arxiv.org/abs/1903.02825), [slides pdf](http://www.maths.dur.ac.uk/lms/109/talks/1877lambert.pdf))
 
+### Relaization on $(p,q)$5-brane webs
+
+Realization ([[geometric engineering of quantum field theory|geometric engineering]]) on [[(p,q)5-brane webs]]:
+
+* {#AharonyHanany97} [[Ofer Aharony]], [[Amihay Hanany]], _Branes, Superpotentials and Superconformal Fixed Points_, Nucl. Phys. B504:239-271, 1997 ([arXiv:hep-th/9704170](https://arxiv.org/abs/hep-th/9704170))
+
+* {#AharonyHananyKrol97} [[Ofer Aharony]], [[Amihay Hanany]], [[Barak Kol]], _Webs of $(p,q)$ 5-branes, Five Dimensional Field Theories and Grid Diagrams_, JHEP 9801:002,1998 ([arXiv:hep-th/9710116](http://arxiv.org/abs/hep-th/9710116))
+
+* [[Oren Bergman]], Gabi Zafrir, _Lifting 4d dualities to 5d_, JHEP04 (2015) 141 ([arXiv:1410.2806](https://arxiv.org/abs/1410.2806))
+Further developments:
+
+* Taro Kimura, Rui-Dong Zhu, Section 2 of _Web Construction of ABCDEFG and Affine Quiver Gauge Theories_ ([arXiv:1907.02382](https://arxiv.org/abs/1907.02382))
+
+
 [[!redirects  D=5 sYM]]
 
 [[!redirects D=5 N=1 super Yang-Mills theory]]
