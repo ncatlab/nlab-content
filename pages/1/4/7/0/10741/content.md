@@ -143,6 +143,12 @@ See at _[[Whitehead integral formula]]_ and see the references [below](#Referenc
 
 ## Related concepts
 
+* [[Whitehead integral formula]]
+
+  * [[functional cup product]]
+
+  * [[Hopf-Wess-Zumino term]]
+
 * [[Hopf degree theorem]]
 
 * [[EHP spectral sequence]]
