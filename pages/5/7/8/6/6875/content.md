@@ -28,6 +28,9 @@ Other references include:
 * K. Ebrahimi-Fard, D. Kreimer, _The Hopf algebra approach to Feynman diagram calculations_, J. Phys. A 38 (2005), no. 50, R385&#8211;R407, [MR2006k:81266](http://www.ams.org/mathscinet-getitem?mr=2199729), [doi](http://dx.doi.org/10.1088/0305-4470/38/50/R01)
 * [[Alain Connes]], [[Dirk Kreimer]], _Renormalization in quantum field theory and the Riemann-Hilbert problem. I. The Hopf algebra structure of graphs and the main theorem_, Comm. Math. Phys. __210__ (2000), no. 1, 249&#8211;273, [hep-th/9912092](http://arxiv.org/abs/hep-th/9912092), [MR2002f:81070](http://www.ams.org/mathscinet-getitem?mr=1748177), [doi](http://dx.doi.org/10.1007/s002200050779), _II. The $\beta$-function, diffeomorphisms and the renormalization group_, Comm. Math. Phys. __216__ (2001), no. 1, 215--241; [hep-th/0003188](http://arxiv.org/abs/hep-th/0003188), [MR2002f:81071](http://www.ams.org/mathscinet-getitem?mr=1748177), [doi](http://dx.doi.org/10.1007/PL00005547)
 * [[Jean-Louis Loday]] and María O. Ronco. Combinatorial Hopf algebras. _Quanta of maths_, Clay Math. Proc. 11, 347–383, Amer. Math. Soc., Providence, RI, 2010. [pdf](http://www-irma.u-strasbg.fr/~loday/PAPERS/2011LodayRonco%28CHA%29.pdf)
+* Bill Schmitt, Hopf algebras of combinatorial structures, Canadian Journal of Mathematics 45 (1993), 412-428. [pdf](http://home.gwu.edu/~wschmitt/papers/hacs.pdf)
+* Bill Schmitt, Hopf algebra methods in graph theory, Journal of Pure and Applied Algebra 101 (1995), 77-90.  [pdf](http://home.gwu.edu/~wschmitt/papers/hamgt.pdf)
+* Bill Schmitt, Incidence Hopf algebras, Journal of Pure and Applied Algebra 96 (1994), 299-330. [pdf](http://home.gwu.edu/~wschmitt/papers/iha.pdf)
 
 See also this nice lecture series on YouTube:
 
