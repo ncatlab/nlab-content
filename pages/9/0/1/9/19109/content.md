@@ -41,7 +41,7 @@ The original articles are
 
 Interpretation in [[string theory]] in terms of "half" [[NS5-branes]] at [[O8-planes]] is due to 
 
-* {#HananyZaffaroni99} [[Amihay Hanany]], Alberto Zaffaroni, _Monopoles in String Theory_, JHEP 9912 (1999) 014 ([arXiv:hep-th/9911113](https://arxiv.org/abs/hep-th/9911113))
+* {#HananyZaffaroni99} [[Amihay Hanany]], [[Alberto Zaffaroni]], _Monopoles in String Theory_, JHEP 9912 (1999) 014 ([arXiv:hep-th/9911113](https://arxiv.org/abs/hep-th/9911113))
 
 See also 
 
