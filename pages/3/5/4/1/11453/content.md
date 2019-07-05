@@ -253,7 +253,7 @@ Other early accounts include
 
 * {#Johnson97} [[Clifford Johnson]], _Anatomy of a Duality_, Nucl.Phys. B521 (1998) 71-116 ([arXiv:hep-th/9711082](https://arxiv.org/abs/hep-th/9711082))
 
-* {#HananyZaffaroni98} [[Amihay Hanany]], Alberto Zaffaroni, _Branes and Six Dimensional Supersymmetric Theories_, Nucl.Phys. B529 (1998) 180-206 ([arXiv:hep-th/9712145](https://arxiv.org/abs/hep-th/9712145))
+* {#HananyZaffaroni98} [[Amihay Hanany]], [[Alberto Zaffaroni]], _Branes and Six Dimensional Supersymmetric Theories_, Nucl.Phys. B529 (1998) 180-206 ([arXiv:hep-th/9712145](https://arxiv.org/abs/hep-th/9712145))
 
 * {#Witten98} [[Edward Witten]], section 5 of _D-branes and K-theory_, J. High Energy Phys., 1998(12):019, 1998 ([arXiv:hep-th/9810188](http://arxiv.org/abs/hep-th/9810188)) 
 
@@ -312,6 +312,14 @@ Lift to [[M-theory]]:
 * {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_ ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
 
 * {#HSS18} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_ ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987))
+
+The [[brane intersection|intersection]] with [[(p,q)5-brane webs]]:
+
+* Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Masato Taki, Futoshi Yagi, _More on 5d descriptions of 6d SCFTs_, JHEP10 (2016) 126 ([arXiv:1512.08239](https://arxiv.org/abs/1512.08239))
+
+* [[Amihay Hanany]], [[Alberto Zaffaroni]], _Issues on Orientifolds: On the brane construction of gauge theories with $SO(2n)$ global symmetry_, JHEP 9907 (1999) 009 ([arXiv:hep-th/9903242](https://arxiv.org/abs/hep-th/9903242))
+
+* Gabi Zafrir, _Brane webs in the presence of an $O5^-$-plane and 4d class S theories of type D_, JHEP07 (2016) 035 ([arXiv:1602.00130](https://arxiv.org/abs/1602.00130))
 
 The [[Witten-Sakai-Sugimoto model]] for [[QCD]] on O-planes:
 
