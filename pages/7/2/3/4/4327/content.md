@@ -49,6 +49,8 @@ $$
 
 =--
 
+* [[SL(2,Z)]]
+
 * not quite an example: [[SL(2,O)]] (over the [[octonions]])
 
 ## Related concepts
