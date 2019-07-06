@@ -7,7 +7,7 @@
 
 ## References
 
-* Wikipedia, _[Tate&#8211;Shafarevich group](http://en.wikipedia.org/wiki/Tate&#8211;Shafarevich_group)_
+* Wikipedia, _[Tate-Shafarevich group](http://en.wikipedia.org/wiki/Tate-Shafarevich_group)_
 
 [[!redirects Tate–Shafarevich groups]]
 
