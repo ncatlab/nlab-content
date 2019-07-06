@@ -33,11 +33,11 @@ The string diagrams corresponding to this category are called sharing graphs.
 
 #Discussion
 
-Peter Selinger said of this example:
+Peter Selinger [said](https://golem.ph.utexas.edu/category/2006/08/categorifying_cccs_seeing_comp.html#c021631) of this example:
 
 "Sharing graphs" are extremely well-studied. See e.g.
 
-[1\] [Stefano Guerrini, A general theory of sharing graphs (1997)](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.52.530)
+(1) [Stefano Guerrini, A general theory of sharing graphs (1997)](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.52.530)
 
 There is a reduction strategy on sharing graphs that is provably the most efficient possible reduction strategy for lambda calculus; this goes back to the work of Levy and Lamping (both cited in the above paper).
 
@@ -45,7 +45,7 @@ Guerrini also gives an algebraic semantics of these sharing graphs, see section 
 
 I also like the book by Peyton-Jones:
 
-[2\] [Simon Peyton Jones, The Implementation of Functional Programming Languages (1987)](http://research.microsoft.com/en-us/um/people/simonpj/papers/slpj-book-1987/)
+(2) [Simon Peyton Jones, The Implementation of Functional Programming Languages (1987)](http://research.microsoft.com/en-us/um/people/simonpj/papers/slpj-book-1987/)
 
 It shows how to use sharing graphs as the basis for a practical implementation of lazy programming languages. As far as I know, this is still state-of-the-art and is used in the implementation of Haskell. In keeping with the practical nature of the book, the sharing graphs
 are represented in slightly different form (with syntactic variables rather than backpointers), but this is of course equivalent.
@@ -54,21 +54,21 @@ As for the categorical semantics, what you have in mind is a kind of abstract sy
 
 Things get slightly more complicated if one adds variable binding to this picture. This has also been studied, though perhaps not in the same form as you are proposing.  Perhaps the closest to your approach is
 
-[3\] [Martin Hofmann, Semantical analysis of higher-order abstract syntax (1999)](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.46.4082)
+(3) [Martin Hofmann, Semantical analysis of higher-order abstract syntax (1999)](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.46.4082)
 
 Here one has $var : V \to T$, $app : T \times T \to T$, and $lam : (V \Rightarrow T) \to T$ (see top of p.9, with the obvious changes in notation). You will note the use of a function space $(V \Rightarrow T)$ in place of your cartesian product $V^* \times T$.
 
 Another very similar paper is
 
-[4\] [M.P.Fiore, G.D.Plotkin and D.Turi. Abstract syntax and variable binding (1999)](http://citeseerx.ist.psu.edu/showciting?cid=198434) (Also available [here](http://www.cl.cam.ac.uk/~mpf23/papers/Types/Types.html).)
+(4) [M.P.Fiore, G.D.Plotkin and D.Turi. Abstract syntax and variable binding (1999)](http://citeseerx.ist.psu.edu/showciting?cid=198434) (Also available [here](http://www.cl.cam.ac.uk/~mpf23/papers/Types/Types.html).)
 
 Here, one has $var : V \to T$, $app : T \times T \to T$, and $lam : \delta T \to T$ (as contained e.g. in the commutative diagram on p.6). Again, $\delta T$ is something akin to the function space $(V \Rightarrow T)$, but is also isomorphic, in a suitable sense, to $(T \Rightarrow T)$, as far as I remember (this is important for substitution, see below).
 
 A third, technically slightly different (but conceptually similar) approach to abstract syntax with variable binders is:
 
-[5\] [Murdoch J. Gabbay, Andrew M. Pitts: A new approach to abstract syntax with variable binding (1999)](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.38.9383)
+(5) [Murdoch J. Gabbay, Andrew M. Pitts: A new approach to abstract syntax with variable binding (1999)](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.38.9383)
 
-[6\] [Murdoch J. Gabbay, Andrew M. Pitts: A new approach to abstract syntax with variable binding (2002)](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.62.9845)
+(6) [Murdoch J. Gabbay, Andrew M. Pitts: A new approach to abstract syntax with variable binding (2002)](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.62.9845)
 
 See especially the second-to-last line of \[6, p.356\], and you immediately see the similarity. Their $[A]T$ operation is akin to $(V \Rightarrow T)$ in \[3\] and $\delta T$ in \[4\].
 
