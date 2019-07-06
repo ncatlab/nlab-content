@@ -19,4 +19,4 @@
 
 * [[n-truncated object in an (infinity,1)-category|n-truncation]]
 
-* [[Pi modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]
+* [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]
