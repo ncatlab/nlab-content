@@ -13,7 +13,7 @@ Let $G$ be a [[linear order|linearly]] [[ordered abelian group]], and $k$ a fiel
 
 +-- {: .un_defn}
 ###### Definition
-The ring of **Hahn series** with [[value group]] $G$, denoted $k[t^G]$, is the ring of functions $f\colon G \to k$ such that $\{x \in G : f(x) \neq 0\}$ is [[well-ordered]] as as a subset of $G$ (or, sometimes, as a subset of the opposite poset $G^{op}$). Addition is defined pointwise, and multiplication is defined by the [[convolution]] product: 
+The ring of **Hahn series** with [[value group]] $G$, denoted $k[t^G]$ (or sometimes $k[[t^G]]$ or $k((t^G))$), is the ring of functions $f\colon G \to k$ such that $\{x \in G : f(x) \neq 0\}$ is [[well-ordered]] as as a subset of $G$ (or, sometimes, as a subset of the opposite poset $G^{op}$). Addition is defined pointwise, and multiplication is defined by the [[convolution]] product: 
 $$(f \cdot g)(x) = \sum_{y+z = x \in G} f(y)g(z)$$
 =-- 
 
@@ -40,3 +40,8 @@ The [[valuation ring|multiplicative valuation]] $v(f)$ of an element $f\in k[t^G
 
 * Well-based [[transseries]] can be constructed by iterating the Hahn series construction.
 
+* If $G=\mathbb{Z}$, then a Hahn series is precisely a [[formal Laurent series]], i.e. $k[t^{\mathbb{Z}}] = k((t))$.
+
+* If $G=\mathbb{Q}$, then $k[t^{\mathbb{Q}}]$ properly contains the [[Levi-Civita field]], as the subclass of those Hahn series whose support is finite below any fixed rational.
+
+* More generally, any Hahn series field $k[t^G]$ contains the [[Novikov field]] of $k$ with value group $G$.
