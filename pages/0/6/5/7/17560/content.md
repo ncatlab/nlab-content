@@ -130,7 +130,7 @@ and for the [[super 1-brane in 3d]] in
 
 Then it was used to define/construct the manifestly spacetime supersymmetric [[Green-Schwarz action functional]] for the [[superstring]] in 10d in
 
-* {#GreenSchwarz84} [[Michael Green]], [[John Schwarz]], _Covariant description of superstrings_, Phys. Lett. B136 (1984), 367&#8211;370 ([web](http://adsabs.harvard.edu/abs/1984PhLB..136..367G))
+* {#GreenSchwarz84} [[Michael Green]], [[John Schwarz]], _Covariant description of superstrings_, Phys. Lett. B136 (1984), 367&#8211;370 ([web](http://adsabs.harvard.edu/abs/1984PhLB..136..367G), [spire:193596](http://inspirehep.net/record/193596), <a href="https://doi.org/10.1016/0370-2693(84)92021-5">doi:10.1016/0370-2693(84)92021-5</a>)
 
 and then for the [[M2-brane]] in 11d in 
 
@@ -140,7 +140,7 @@ and so forth (see the references at _[[super p-brane]]_).
 
 The [[supergeometry|super-geometric]] interpretation of $\kappa$-symmetry as the odd-graded part of the action of [[super-diffeomorphism]] on the [[super p-brane]] [[worldvolume]], regarded itself as a [[supermanifold]] was first suggested in
 
-* {#SorokinTkachVolkov89} [[Dmitri Sorokin]], V. Tkach and [[Dmitrij Volkov]], _Superparticles, twistors and Siegel symmetry_, Mod. Phys. Lett. A4 (1989) 901-908
+* {#SorokinTkachVolkov89} [[Dmitri Sorokin]], V. Tkach and [[Dmitrij Volkov]], _Superparticles, twistors and Siegel symmetry_, Mod. Phys. Lett. A4 (1989) 901-908 ([spire:271923](http://inspirehep.net/record/271923), [doi:10.1142/S0217732389001064](https://doi.org/10.1142/S0217732389001064))
 
 Review of this perspective includes
 
