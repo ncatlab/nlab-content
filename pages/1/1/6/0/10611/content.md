@@ -97,7 +97,7 @@ $$
 
 * [[unit type]] modality, [[empty type]] co-modality ([[nothing]] $\dashv$ [[being]])
 
-* [[!-modality]]
+* [[exponential modality]]
 
 * [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]
 
