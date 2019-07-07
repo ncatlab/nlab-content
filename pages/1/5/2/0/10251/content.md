@@ -23,27 +23,32 @@ As an example, from [Dijkstra-Huiszoon-Schellekens 04b](#DijkstraHuiszoonSchelle
 
 ## Selected writings
 
-* {#LercheLustSchellekens86} [[Wolfgang Lerche]], [[Dieter Lüst]], [[Bert Schellekens]], _Ten dimensional heterotic strings from Niemeier lattices_, Physics Letters B, Volume 181, Issues 1-2, 1986 ([pdf](http://cds.cern.ch/record/170910/files/198609340.pdf))
+On [[heterotic string theory]]:
 
+* {#LercheLustSchellekens86} [[Wolfgang Lerche]], [[Dieter Lüst]], [[Bert Schellekens]], _Ten dimensional heterotic strings from Niemeier lattices_, Physics Letters B, Volume 181, Issues 1-2, 1986 ([pdf](http://cds.cern.ch/record/170910/files/198609340.pdf))
 
 * {#LercheLustSchellekens87} [[Wolfgang Lerche]], [[Dieter Lüst]], [[Bert Schellekens]], _Chiral Four-dimensional Heterotic Strings from Self-dual Lattices_  Nucl. Phys. B 287, 477, 1987 ([pdf](http://lerche.web.cern.ch/lerche/papers/4dhetstrings.pdf))
 
 * {#Schellekens91} [[Bert Schellekens]], _Classification of Ten-Dimensional Heterotic Strings_, Phys.Lett. B277 (1992) 277-284 ([arXiv:hep-th/9112006](http://arxiv.org/abs/hep-th/9112006))
 
-* {#Schellekens98} [[Bert Schellekens]], _Naar een waardig slot_, inauguration speech ar University of Nijmegen, September 1998, ISBN 90-9012073-4
-
-
+On [[orientifold]] [[Gepner model]] [[string phenomenology]]:
 
 * {#DijkstraHuiszoonSchellekens04a} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Chiral Supersymmetric Standard Model Spectra from Orientifolds of Gepner Models_, Phys.Lett. B609 (2005) 408-417 ([arXiv:hep-th/0403196](https://arxiv.org/abs/hep-th/0403196))
 
 * {#DijkstraHuiszoonSchellekens04b} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Supersymmetric Standard Model Spectra from RCFT orientifolds_, Nucl.Phys.B710:3-57,2005 ([arXiv:hep-th/0411129](https://arxiv.org/abs/hep-th/0411129))
 
 
+On the [[landscape of string theory vacua]]:
+
+* {#Schellekens98} [[Bert Schellekens]], _Naar een waardig slot_, inauguration speech ar University of Nijmegen, September 1998, ISBN 90-9012073-4 ([ubn:2066/18631](https://mobile.repository.ubn.ru.nl/handle/2066/18631))
+
 * {#Schellekens06} [[Bert Schellekens]], _The Landscape "avant la lettre"_ ([arXiv:physics/0604134](http://arxiv.org/abs/physics/0604134))
 
 * {#Schellekens08} [[Bert Schellekens]], _The Emperor's Last Clothes?_, Rept.Prog.Phys.71:072201,2008 ([arXiv:0807.3249](https://arxiv.org/abs/0807.3249))
 
 * {#Schellekens16} [[Bert Schellekens]], _Big Numbers in String Theory_ ([arXiv:1601.02462](http://arxiv.org/abs/1601.02462))
+
+
 
 
 ## related $n$Lab entries
