@@ -31,7 +31,7 @@ For interacting second quantization see _[[sigma-model -- exposition of second q
 
 ### Syntax in linear type theory
 
-In [[linear type theory]], which may be regarded as [[quantum logic]] (by the discussion there), the [[Fock space]] construction may naturally be identified with the [[!-modality]]. See there for more.
+In [[linear type theory]], which may be regarded as [[quantum logic]] (by the discussion there), the [[Fock space]] construction may naturally be identified with the [[exponential modality]]. See there for more.
 
 ## References
 
