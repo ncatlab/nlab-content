@@ -44,8 +44,8 @@ are equivalent;
 1. There are [[bimodules]] ${}_R M_S$ and ${}_S N_R$ such that $\otimes_R M$ and $\otimes_S N$ form an [[adjoint equivalence]] between the category of right $S$- and the category of right $R$-modules;
 
 
-1. The ring $R$ is isomorphic to the endomorphism ring of a [[generator]] in the category of left (or right) $S$-modules;
-1. The ring $S$ is isomorphic to the endomorphism ring of a [[generator]] in the category of left (or right) $R$-modules.
+1. The ring $R$ is isomorphic to the endomorphism ring of a finitely generated projective [[generator]] in the category of left (or right) $S$-modules;
+1. The ring $S$ is isomorphic to the endomorphism ring of a finitely generated projective [[generator]] in the category of left (or right) $R$-modules.
 
 An important weakening of the Morita equivalence is [[Morita context]] (in older literature sometimes called pre-equivalence).
 
