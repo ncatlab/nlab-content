@@ -100,7 +100,7 @@ A [[simplicial object]] $X \colon \Delta^{op} \to \mathcal{C}$ satisfies the **S
 +-- {: .num_remark #InfinitySegalCones}
 ###### Remark
 
-This definition immediately generalizes to [[(∞,1)-category theory]] where $\mathcal{C}$ is an [[(∞,1)-category]] and $X$ is a [[simplicial object in an (∞,1)-category]]. Then for $X$ to satisfy the Segal condiitons means that it sends the cocones of def. \ref{SegalCones} to [[(∞,1)-limit]] cones in $\mathcal{C}$.
+This definition immediately generalizes to [[(∞,1)-category theory]] where $\mathcal{C}$ is an [[(∞,1)-category]] and $X$ is a [[simplicial object in an (∞,1)-category]]. Then for $X$ to satisfy the Segal conditons means that it sends the cocones of def. \ref{SegalCones} to [[(∞,1)-limit]] cones in $\mathcal{C}$.
 
 Such a simplicial object is also called a **[[pre-category object in an (∞,1)-category]]** in $\mathcal{C}$.
 
