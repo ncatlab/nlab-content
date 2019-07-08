@@ -137,5 +137,6 @@ where $LoopGraph$ is the category of "loop graphs", i.e., the full subcategory o
 
 * T. R. S. Walsh, _Hypermaps Versus Bipartite Maps_,  Journal of Combinatorial Theory (B) **18** (1975) pp.155-163.
 
+* Martin Schmidt, _Functorial Approach to Graph and Hypergraph Theory_, ([arXiv:1907.02574](https://arxiv.org/abs/1907.02574))
 
 [[!redirects hypergraphs]]
