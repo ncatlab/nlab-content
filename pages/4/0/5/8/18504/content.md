@@ -27,6 +27,23 @@ Note in particular that we do *not* require the morphisms of the category to be 
 
 * Note that the special commutative Frobenius algebras are not required to be "extra-special", meaning that the morphism $I = X^{\otimes 0} \to X^{\otimes 0} = I$ need not be the identity.  Thus, the relevant sort of "hypergraphs" can contain "edges not incident to any vertices".  If we add the extra-special condition, the cospans are replaced by "co-relations", i.e. jointly surjective cospans.
 
+## Hypergraph categories as monoids in a presheaf category
+Let $\mathbf{Cospan}_\Delta$ be the free hypergraph category on generators $\Delta$. The objects are lists of elements of $\Delta$, or equivalently pairs $(m,l)$ of a natural number $m$ and a labelling $l\colon m\to \Delta$. The morphisms are compatible cospans of functions (up to iso). 
+
++-- {: .un_prop}
+###### Theorem 
+[Fong, Spivak](#FongSpivak).
+To give a hypergraph category with chosen objects $\Delta$ that generate it is to give a lax monoidal functor $\mathbf{Cospan}_\Delta\to \mathbf{Set}$. 
+=--
+(Formally, this can be made into an equivalence between the category of objectwise-free hypergraph categories and the lax monoidal functors; and every hypergraph category is in some sense equivalent to an objectwise-free one.)
+
+A hypergraph category is thus a [presheaf](https://ncatlab.org/nlab/show/presheaf) $H\colon \mathbf{Cospan}_\Delta\to \mathbf{Set}$ that has lax monoidal structure 
+\[
+1\to H()\qquad H(\vec a)\times H(\vec b)\to H(\vec a,\vec b)
+\]
+which is strongly reminiscent of the [mix rule](https://ncatlab.org/nlab/show/mix%20rule). 
+A lax monoidal functor is the same thing as a [monoid for the Day convolution](https://ncatlab.org/nlab/show/Day+convolution#Monoids). Thus hypergraph categories are monoids in the presheaf category $[\mathbf{Cospan}_\Delta, \mathbf{Set}]$.
+
 ## References
 
 * Aleks Kissinger, *Finite matrices are complete for (dagger-)hypergraph categories*, [arxiv](https://arxiv.org/abs/1406.5942)
@@ -51,7 +68,8 @@ Computer Science 1376:223&#8211;237. Springer&#8211;Verlag, Berlin Heidelberg, 1
 * J. Morton. Belief propagation in monoidal categories. In B. Coecke, I. Hasuo, P. Panangaden, editors, Quantum Physics and Logic 2014 (QPL 2014), EPTCS 172:262&#8211;269.
  {#Morton}
 
-* B. Fong and D. I. Spivak. *Hypergraph Categories*. [arxiv](https://arxiv.org/abs/1806.08304)
+* B. Fong and D. I. Spivak. *Hypergraph Categories*. [arxiv](https://arxiv.org/abs/1806.08304) 
+ {#FongSpivak}
 
 [[!redirects hypergraph category]]
 [[!redirects hypergraph categories]]
