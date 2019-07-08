@@ -51,6 +51,8 @@ Computer Science 1376:223&#8211;237. Springer&#8211;Verlag, Berlin Heidelberg, 1
 * J. Morton. Belief propagation in monoidal categories. In B. Coecke, I. Hasuo, P. Panangaden, editors, Quantum Physics and Logic 2014 (QPL 2014), EPTCS 172:262&#8211;269.
  {#Morton}
 
+* B. Fong and D. I. Spivak. *Hypergraph Categories*. [arxiv](https://arxiv.org/abs/1806.08304)
+
 [[!redirects hypergraph category]]
 [[!redirects hypergraph categories]]
 [[!redirects well-supported compact closed category]]
