@@ -75,7 +75,7 @@ The morphism $f$ is called (with respect to the given bifibration $\mathcal{C}_{
 
 * an _effective descent morphism_ if the comparison map is an [[equivalence of categories]].
 
-Now the [[Bénabou?Roubaud theorem]] states that if $\mathcal{C}_{(-)}$ satisfies the [[Beck-Chevalley condition]], then descent data is equivalent to the structure of an [[algebra over a monad]] for $T_f$  (equivalently a coalgebra for $J_f$), hence is the [[Eilenberg-Moore category]] for these (co-)monads
+Now the [[Benabou–Roubaud theorem]] states that if $\mathcal{C}_{(-)}$ satisfies the [[Beck-Chevalley condition]], then descent data is equivalent to the structure of an [[algebra over a monad]] for $T_f$  (equivalently a coalgebra for $J_f$), hence is the [[Eilenberg-Moore category]] for these (co-)monads
 
 $$
   Desc_{\mathcal{C}}(f)
