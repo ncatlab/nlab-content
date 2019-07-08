@@ -74,11 +74,16 @@ See also
 
 * Der-Chyn Jong, _Aspects of 7D and 6D gauged supergravities_ PhD thesis (2007) ([web](http://repository.tamu.edu/handle/1969.1/85874))
 
-### KK-Compacification on $S^1_A$ and $S^1_{HW}$
+### KK-Compactification on $S^1_{HW}$
 
 Discussion of [[quantum anomaly]] cancellation and 7d [[Horava-Witten theory]] is in
 
 * {#GherghettaKehagias02} Tony Gherghetta, [[Alex Kehagias]], _Anomaly Cancellation in Seven-Dimensional Supergravity with a Boundary_, Phys.Rev. **D68** (2003), 065019, ([arXiv:hep-th/0212060](http://arxiv.org/abs/hep-th/0212060))
+
+* Spyros D. Avramis, [[Alex Kehagias]], _Gauged $D=7$ Supergravity on the $S^1/\mathbb{Z}_2$ Orbifold ([arXiv:hep-th/0407221](https://arxiv.org/abs/hep-th/0407221))
+
+* T.G. Pugh, [[Ergin Sezgin]], [[Kellogg Stelle]], _$D=7$ / $D=6$ Heterotic Supergravity with Gauged R-Symmetry_ ([arXiv:1008.0726](https://arxiv.org/abs/1008.0726))
+
 
 
 ### By reduction from 10d/11d supergravity
