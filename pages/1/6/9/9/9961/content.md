@@ -52,6 +52,7 @@ Despite the word "theory", lattice gauge theory is more like "computer-simpulate
 * [[string bit model]]
 
 ## References
+ {#References}
 
 The concept was introduced in
 
