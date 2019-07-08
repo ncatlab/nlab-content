@@ -36,6 +36,8 @@ on [[homotopy theory]], [[higher algebra]] and [[higher category theory]].
 
 * [[Lars Hesselholt]], [[Thomas Nikolaus]], _Topological cyclic homology_, ([arXiv:1905.08984](https://arxiv.org/abs/1905.08984))
 
+* [[David Gepner]], _An Introduction to Higher Categorical Algebra_, ([arXiv:1907.02904](https://arxiv.org/abs/1907.02904))
+
 
 * ...
 
