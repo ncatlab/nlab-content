@@ -394,6 +394,10 @@ Lecture notes include
 
 * [[Manifold Atlas]], _[Embeddings in Euclidean space: an introduction to their classification](http://www.map.mpim-bonn.mpg.de/Embeddings_in_Euclidean_space:_an_introduction_to_their_classification)_
 
+Discussion of embeddings of [[spheres]] into each other (generalizing the concept of [[knots]]):
+
+* {#Haefliger66} [[André Haefliger]], _Differentiable Embeddings of $S^n$ in $S^{n+q}$ for $q \gt 2$_, Annals of Mathematics Second Series, Vol. 83, No. 3 (May, 1966), pp. 402-436 ([jstor:1970475](https://www.jstor.org/stable/1970475))
+
 [[!redirects embeddings of differentiable manifolds]]
 
 [[!redirects embedding of smooth manifolds]]
