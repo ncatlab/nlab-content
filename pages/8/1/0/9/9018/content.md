@@ -248,6 +248,9 @@ October 2013, 2013:205 ([arXiv:1306.1832](http://arxiv.org/abs/1306.1832))
 
 * [[Neil Lambert]], Miles Owen, _Charged Chiral Fermions from M5-Branes_ ([arXiv:1802.07766](https://arxiv.org/abs/1802.07766))
 
+* {#BCHS19} [[Andreas Braun]], Sebastjan Cizel, Max Hubner, Sakura Schafer-Nameki, _Higgs Bundles for M-theory on G2-Manifolds_ ([arXiv:1812.06072](https://arxiv.org/abs/1812.06072))
+
+
 
 Discussion of [[Freund-Rubin compactification]] on $\mathbb{R}^4 \times X_7$ "with flux", hence non-vanishing [[supergravity C-field]] and how they preserve one supersymmetry if $X_7$ is of [[weak G2 holonomy]] with $\lambda$ = [[cosmological constant]] = C-[[field strength]] on $\mathbb{R}^4$ is in
 
