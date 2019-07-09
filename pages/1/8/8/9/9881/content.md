@@ -125,9 +125,9 @@ A review of superstring scattering amplitudes is in the last section of ([Staess
 
 * [[Greg Moore]], P. Nelson, [[Joseph Polchinski]], _Strings and supermoduli_, Phys. Lett. B 169 (1986) 47-53.
 
-See also
+On analycity of the superstring [[S-matrix]]:
 
-* Corinne de Lacroix, Harold Erbin, [[Ashoke Sen]], _Analyticity and Crossing Symmetry of Superstring Loop Amplitudes_ ([arXiv:1810.07197](https://arxiv.org/abs/1810.07197))
+* {#dLES18} Corinne de Lacroix, Harold Erbin, [[Ashoke Sen]], _Analyticity and Crossing Symmetry of Superstring Loop Amplitudes_ ([arXiv:1810.07197](https://arxiv.org/abs/1810.07197))
 
 Survey of the presence and role of divergences includes
 
