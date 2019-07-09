@@ -361,18 +361,18 @@ But an object in a reflective subcategory is necessarily isomorphic to its image
 ###### Example
 
 The subcategory
-$$ \mathsf{Cat} \hookrightarrow \mathsf{sSet}$$
-of the [category of categories](https://ncatlab.org/nlab/show/Cat) into the [category of simplical sets](https://ncatlab.org/nlab/show/SimpSet) is a reflective subcategory [Riehl, example 4.5.14 (vi)](#Riehl). The reflection is given by the [homotopy category functor](https://ncatlab.org/nlab/show/homotopy+category). This implies that $\mathsf{Cat}$ is complete and cocomplete because it inherits all limits and colimits from $\mathsf{sSet}$.
+$$ Cat \hookrightarrow sSet$$
+of the [[category of categories]] into the [[sSet|category of simplical sets]] is a reflective subcategory [Riehl, example 4.5.14 (vi)](#Riehl). The reflection is given by the [[homotopy category|homotopy category functor]]. This implies that [[Cat]] is complete and cocomplete because it inherits all limits and colimits from [[sSet]].
 =--
 
 +-- {: .num_example #ModelsOfALawvereTheory}
 ###### Example
 
-For any [Lawvere theory](https://ncatlab.org/nlab/show/Lawvere+theory) $T$, its category of models is the category
-$$\mathrm{Prod}(T, \mathsf{Set}) $$
-of product preserving functors into $\mathsf{Set}$ and natural transformations between them. The inclusion 
-$$\mathrm{Prod}(T, \mathsf{Set}) \hookrightarrow [T, \mathsf{Set}]$$
-is a reflective subcategory [Buckley, theorem 5.2.1](#Buckley). Therefore, because $[T,\mathsf{Set}]$ is complete and cocomplete (limits and colimits are computed pointwise), so is $\mathrm{Prod}(T, \mathsf{Set})$. This implies that many familar algebraic categories such as [$\mathsf{Grp}$](https://ncatlab.org/nlab/show/Grp), [$\mathsf{Mon}$](https://ncatlab.org/nlab/show/category+of+monoids), [$\mathsf{Ring}$](https://ncatlab.org/nlab/show/Ring), etc. are complete and cocomplete as a special case.
+For any [[Lawvere theory]] $T$, its category of models is the category
+$$Prod(T, Set)$$
+of product preserving functors into $Set$ and natural transformations between them. The inclusion 
+$$Prod(T, Set) \hookrightarrow [T, Set]$$
+is a reflective subcategory [Buckley, theorem 5.2.1](#Buckley). Therefore, because $[T,Set]$ is complete and cocomplete (limits and colimits are computed pointwise), so is $Prod(T, Set)$. This implies that many familar algebraic categories such as [[Grp]], [[Mon]], [[Ring]], etc. are complete and cocomplete as a special case.
 =--
 
 ## Related concepts
