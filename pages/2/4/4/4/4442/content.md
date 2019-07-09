@@ -217,6 +217,8 @@ For the more ambitious matching of the spectrum of the dilatation operator of [[
 
 > graphics grabbed from [Escobedo 12](#Escobedo12) 
 
+Comparison to [[string scattering amplitudes]] beyond the planar SCFT limit: [ABP 18](#ABP18).
+
 ## Formalizations
 
 The full formalization of AdS/CFT is still very much out of reach, but maybe mostly for lack of trying. 
@@ -357,6 +359,9 @@ Review of [[Yangian]] symmetry includes
 
 * {#Escobedo12} Jorge Escobedo, _Integrability in AdS/CFT: Exact Results for Correlation Functions_, 2012 ([spire:1264432](http://inspirehep.net/record/1264432))
 
+Computing dual [[string scattering amplitudes]] by AdS/CFT beyond the [[planar limit]]:
+
+* {#ABP18} [[Luis Alday]], [[Agnese Bissi]], [[Eric Perlmutter]], _Genus-One String Amplitudes from Conformal Field Theory_, JHEP06(2019) 010 ([arXiv:1809.10670](https://arxiv.org/abs/1809.10670))
 
 ### $AdS_7 / CFT_6$
 
