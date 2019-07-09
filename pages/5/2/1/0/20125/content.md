@@ -78,8 +78,7 @@ reviewed in
 
 See also
 
-* {#JGPE19} _Majorana dimers and holographic quantum error-correcting codes_
-_Alexander Jahn, Marek Gluza, Fernando Pastawski, Jens Eisert_, https://arxiv.org/abs/1905.03268
+* {#JGPE19} Alexander Jahn, Marek Gluza, Fernando Pastawski, Jens Eisert, _Majorana dimers and holographic quantum error-correcting codes_ ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268)) 
 
 
 ### In higher parallel transport
