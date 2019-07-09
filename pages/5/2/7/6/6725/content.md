@@ -177,17 +177,16 @@ This finally implies that the restriction of $C_3$ to the orbifold fixed points 
 
 ## References
 
+### General
+
 The original articles are
 
 * {#HoravaWitten95} [[Petr Hořava]], [[Edward Witten]], _Heterotic and Type I string dynamics from eleven dimensions_, Nucl. Phys. B460 (1996) 506 ([arXiv:hep-th/9510209](http://arxiv.org/abs/hep-th/9510209))
 
 * {#HoravaWitten96} [[Petr Hořava]], [[Edward Witten]],  _Eleven dimensional supergravity on a manifold with boundary_, Nucl. Phys. B475 (1996) 94 ([arXiv:hep-th/9603142](http://arxiv.org/abs/hep-th/9603142))
   
-Generalization to heterotic [[orbifolds]]/[[KK-monopoles]] at [[ADE-singularities]]:
 
-* V. Kaplunovsky, J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, _On the Duality between Perturbative Heterotic Orbifolds and M-Theory on $\mathbb{T}^4/Z_N$_, Nucl.Phys. B590 (2000) 123-160 ([arXiv:hep-th/9912144](https://arxiv.org/abs/hep-th/9912144))
-
-Reviews are in 
+Review is in 
 
 * [[Piyush Kumar]], _Ho&#345;ava-Witten theory_ (2004) ([pdf](http://theory.uchicago.edu/~sethi/Teaching/P484-W2004/hwitten.pdf))
 
@@ -212,13 +211,41 @@ Explicit discussion of [[worldvolume]] [[CFT]] of the [[M2-branes]] ending on th
 After [[KK-reduction]] to [[5d supergravity]] there is a corresponding 5d mechanism, see the references [there](5-dimensional+supergravity#ReferencesHWCompactification).
 
 
-Disucssion of the [[duality between heterotic and type I string theory]] includes
+Disucussion of the [[duality between heterotic and type I string theory]] includes
 
 * {#APT98} I. Antoniadis, H. Partouche, T.R. Taylor, _Lectures on Heterotic-Type I Duality_, Nucl.Phys.Proc.Suppl. 61A (1998) 58-71; Nucl.Phys.Proc.Suppl. 67 (1998) 3-1
 
 Discussion of [[string phenomenology]] in Horava-Witten theory:
 
 * {#Ovrut18} [[Burt Ovrut]], _Vacuum Constraints for Realistic Heterotic M-Theories_ ([arXiv:1811.08892](https://arxiv.org/abs/1811.08892))
+
+### Generalization to M-theory on $S^1/G_{HW} \times \mathbb{H}/G_{ADE}$
+
+Generalization to [[M-theory on S1/G_HW times H/G_ADE]]:
+
+* Zygmunt Lalak, Steven Thomas, _Gaugino Condensation, Moduli Potentials and Supersymmetry Breaking in M-Theory Models_ ([hep-th/9707223](https://arxiv.org/abs/hep-th/9707223))
+
+* V. Kaplunovsky, J. Sonnenschein,[[Stefan Theisen]], S. Yankielowicz, _On the Duality between Perturbative Heterotic Orbifolds and M-Theory on $T^4/Z_N$_ ([arXiv:hep-th/9912144](https://arxiv.org/abs/hep-th/9912144))
+
+* {#GKSTY02} E. Gorbatov, V.S. Kaplunovsky, J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, _On Heterotic Orbifolds, M Theory and Type I' Brane Engineering_, JHEP 0205:015, 2002 ([arXiv:hep-th/0108135](https://arxiv.org/abs/hep-th/0108135))
+
+* {#GaiottoTomasiello14} [[Davide Gaiotto]], [[Alessandro Tomasiello]], _Holography for $(1,0)$ theories in six dimensions_, JHEP12(2014)003 ([arXiv:1404.0711](https://arxiv.org/abs/1404.0711))
+
+
+
+* {#DHTV14} Michele Del Zotto, [[Jonathan Heckman]], [[Alessandro Tomasiello]], [[Cumrun Vafa]], Section 6 of: _6d Conformal Matter_, JHEP02(2015)054 ([arXiv:1407.6359](https://arxiv.org/abs/1407.6359))
+
+* {#HSS18} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], Example 2.2.7 of: _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_, CMP (2019) ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987), [doi:10.1007/s00220-019-03442-3](http://link.springer.com/article/10.1007/s00220-019-03442-3))
+
+### For 7d supergravity
+
+Discussion for [[7d supergravity]]:
+
+* {#GherghettaKehagias02} Tony Gherghetta, [[Alex Kehagias]], _Anomaly Cancellation in Seven-Dimensional Supergravity with a Boundary_, Phys.Rev. **D68** (2003), 065019, ([arXiv:hep-th/0212060](http://arxiv.org/abs/hep-th/0212060))
+
+* Spyros D. Avramis, [[Alex Kehagias]], _Gauged $D=7$ Supergravity on the $S^1/\mathbb{Z}_2$ Orbifold_ ([arXiv:hep-th/0407221](https://arxiv.org/abs/hep-th/0407221))
+
+* T.G. Pugh, [[Ergin Sezgin]], [[Kellogg Stelle]], _$D=7$ / $D=6$ Heterotic Supergravity with Gauged R-Symmetry_ ([arXiv:1008.0726](https://arxiv.org/abs/1008.0726))
 
 
 
