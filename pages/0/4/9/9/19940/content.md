@@ -37,6 +37,8 @@ Maybe also
 
 ## References
 
+### General
+
 See also 
 
 * Wikipedia, _<a href="https://en.wikipedia.org/wiki/Phase_(matter)">Phase_(matter)</a>_
@@ -44,6 +46,17 @@ See also
 * Wikipedia, _[State of matter](https://en.wikipedia.org/wiki/State_of_matter)_
 
 * Wikipedia, _[Phase diagram](https://en.wikipedia.org/wiki/Phase_diagram)_
+
+### In QCD
+
+On the phase diagram of [[quantum chromodynamics]]:
+
+* [[Edward Shuryak]], _The Phases of QCD_ ([arXiv:hep-ph/9609249](https://arxiv.org/abs/hep-ph/9609249))
+
+* {#Hands01} Simon Hands, _The Phase Diagram of QCD_, Contemp. Phys. 42:209-225, 2001 ([arXiv:physics/0105022](https://arxiv.org/abs/physics/0105022))
+
+* {#Schaefer05} [[Thomas Schaefer]], _Phases of QCD_ ([arXiv:hep-ph/0509068](https://arxiv.org/abs/hep-ph/0509068))
+
 
 [[!redirects phases of matter]]
 
