@@ -70,8 +70,7 @@ The [[KK-compactification]] of $D=10$ super-Yang-Mills to the point is a [[theor
 * {#BonoraPastiTonin87} [[Loriano Bonora]], [[Paolo Pasti]], [[Mario Tonin]], _Superspace formulation of 10D SUGRA+SYM theory a la Green-Schwarz_, Physics Letters B Volume 188, Issue 3, 16 April 1987, Pages 335&#8211;339 (<a href="http://dx.doi.org/10.1016/0370-2693(87)91392-X">doi:10.1016/0370-2693(87)91392-X</a>)
 
 
-* {#BonoraBregolaLechnerPastiTonin87} [[Loriano Bonora]], M. Bregola, [[Kurt Lechner]], [[Paolo Pasti]], [[Mario Tonin]], _Anomaly-free supergravity and super-Yang-Mills theories in ten dimensions_, Nuclear Physics B
-Volume 296, Issue 4, 25 January 1988 (<a href="http://dx.doi.org/10.1016/0550-3213(88)90402-6">doi:10.1016/0550-3213(88)90402-6</a>)
+* {#BonoraBregolaLechnerPastiTonin87} [[Loriano Bonora]], M. Bregola, [[Kurt Lechner]], [[Paolo Pasti]], [[Mario Tonin]], _Anomaly-free supergravity and super-Yang-Mills theories in ten dimensions_, Nuclear Physics B Volume 296, Issue 4, 25 January 1988 (<a href="http://dx.doi.org/10.1016/0550-3213(88)90402-6">doi:10.1016/0550-3213(88)90402-6</a>)
 
 * [[Martin Cederwall]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], _The structure of maximally supersymmetric Yang-Mills theory: constraining higher-order corrections_, JHEP 0106:034,2001 ([arXiv:hep-th/0102009](http://xxx.lanl.gov/abs/hep-th/0102009))
 
