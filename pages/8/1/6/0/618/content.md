@@ -97,7 +97,7 @@ The collection of covering families can be "closed up" under a number of conveni
 
 1. Any presheaf is a sheaf for the singleton family $\{1_U:U\to U\}$.
 
-1. Any presheaf which is a sheaf for a family $\{f_i:U_i\to U\}_{i\in I}$ and also for some family $\{h_{i j}:U_{i j} \to U_i\}_{j\in J_i}$ for each $i$ is also a sheaf for the family of all composites $\{f_i h_{i j}:U_{i j}\to U\}_{i\in I, j\in U_i}$.
+1. Any presheaf which is a sheaf for a family $\{f_i:U_i\to U\}_{i\in I}$ and also for some family $\{h_{i j}:U_{i j} \to U_i\}_{j\in J_i}$ for each $i$ is also a sheaf for the family of all composites $\{f_i h_{i j}:U_{i j}\to U\}_{i\in I, j\in J_i}$.
 
 1. Let $C$ be a site and $\{f_i:U_i\to U\}_{i\in I}$ a covering family, and suppose $\{g_j:V_j\to U\}_{j\in J}$ is a family of morphisms such that each $f_i$ factors through some $g_j$.  Then any sheaf $X$ on $C$ is also a sheaf for the family $\{g_j:V_j\to U\}_{j\in J}$.  _(NB: for this condition, it is essential that $\{f_i\}$ be part of a coverage and that $X$ be a sheaf for the entire coverage, not just for $\{f_i\}$.)_
 
