@@ -30,7 +30,7 @@ where [[Lex]] is the 2-category of:
 
 * small [[finitely complete categories]], 
 
-* [[finite limit]] [[preserved limit|preserving]] [[functors]], and 
+* [[finite limit]]$\:$ [[preserved limit|preserving]] [[functors]], and 
 
 * [[natural transformations]], 
 
@@ -43,6 +43,8 @@ and LFP is the 2-category of
 * [[natural transformations]].
 
 The idea is that an object $C \in Lex$ can be thought of as an [[essentially algebraic theory]], which has a category of [[model|models]] $Lex(C,Set)$.  Gabriel--Ulmer duality says that this category of models is locally finitely presentable, all LFP categories arise in this way, and we can recover the theory $C$ from its category of models.
+
+A version of Gabriel--Ulmer duality for [[enriched category theory]] was proved by [[Max Kelly]] (see [LackTendas](#LackTendas)).
 
 
 ## References
@@ -69,17 +71,25 @@ A formal-categorical account using [[Yoneda structure|Yoneda structures]] can be
 
 * {#DL18} Ivan Di Liberti, [[Fosco Loregian]], _Accessibility and Presentability in 2-Categories_ , arXiv:1804.08710 (2018). ([abstract](https://arxiv.org/abs/1804.08710))
 
-The version for $V$-[[enriched categories]], where $V$ is closed symmetric monoidal category whose underlying category $V_0$ is locally small, complete and cocomplete is in section 9 (cf. theorem 9.8)
+For a discussion of Gabriel--Ulmer duality and related dualities in the context of [[enriched category theory]] see 
 
-* G. M. Kelly, _Structures defined by finite limits in the enriched context_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle cat&#233;goriques, **23** no. 1 (1982), pp. 3-42, [MR648793](http://www.ams.org/mathscinet-getitem?mr=648793),[numdam](http://www.numdam.org/item?id=CTGDC_1982__23_1_3_0)
+* {#LackTendas} [[Stephen Lack]], Giacomo Tendas, _Enriched Regular Theories_, ([arXiv:1907.02301](https://arxiv.org/abs/1907.02301))
+
+This discusses (see Theorem 2.1) Kelly's original result for $V$-[[enriched categories]], where $V$ is a closed symmetric monoidal category whose underlying category $V_0$ is locally small, complete and cocomplete, in section 9 (cf. theorem 9.8) of
+
+* [[Max Kelly]], _Structures defined by finite limits in the enriched context_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle cat&#233;goriques, **23** no. 1 (1982), pp. 3-42, [MR648793](http://www.ams.org/mathscinet-getitem?mr=648793),[numdam](http://www.numdam.org/item?id=CTGDC_1982__23_1_3_0)
 
 For a connection to [[Tannaka duality]] theory see
 
-* ncafe discussion [here](http://golem.ph.utexas.edu/category/2011/07/doctrinal_and_tannakian_recons.html)
+* nCaf&eacute; discussion [here](http://golem.ph.utexas.edu/category/2011/07/doctrinal_and_tannakian_recons.html)
 
 * [[Brian Day]], _Enriched Tannaka duality_, JPAA __108__ (1996) pp.17-22, [MR97d:18008](http://www.ams.org/mathscinet-getitem?mr=1382240) <a href="http://dx.doi.org/10.1016/0022-4049(95)00039-9">doi</a>
 
 For a discussion of an $\infty$-version of Gabriel-Ulmer duality between finitely complete and idempotent complete $(\infty, 1)$-categories and locally finitely presentable $(\infty, 1)$-categories see this [MO discussion](https://mathoverflow.net/q/293031/447).
+
+
+
+
 
 [[!redirects Gabriel-Ulmer duality]]
 [[!redirects Gabriel–Ulmer duality]]
