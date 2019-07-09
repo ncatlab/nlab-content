@@ -59,7 +59,7 @@ In this context the [[Ryu-Takayanagi formula]] for [[holographic entanglement en
 
 ### In holographic entanglement entropy
 
-The use of tensor netwaorks as a tool in [[holographic entanglement entropy]] goes back to
+The use of tensor networks as a tool in [[holographic entanglement entropy]] goes back to
 
 * {#Swingle09} Brian Swingle, _Entanglement Renormalization and Holography_ ([arXiv:0905.1317](https://arxiv.org/abs/0905.1317))
 
@@ -75,6 +75,11 @@ Further interpretation in terms of quantum error correcting codes is due to
 reviewed in
 
 * {#Harlow18} [[Daniel Harlow]], _TASI Lectures on the Emergence of Bulk Physics in AdS/CFT_ ([arXiv:1802.01040](https://arxiv.org/abs/1802.01040))
+
+See also
+
+* {#JGPE19} _Majorana dimers and holographic quantum error-correcting codes_
+_Alexander Jahn, Marek Gluza, Fernando Pastawski, Jens Eisert_, https://arxiv.org/abs/1905.03268
 
 
 ### In higher parallel transport
