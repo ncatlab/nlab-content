@@ -256,6 +256,13 @@ Computation of [[graviton]] scattering amplitudes ([[perturbative quantum gravit
 * [[Taejin Lee]], _Four-Graviton Scattering and String Path Integral in the Proper-time gauge_ ([arXiv:1806.02702](https://arxiv.org/abs/1806.02702))
 
 
+### Via AdS/CFT
+ {#ReferencesViaAdSCFT}
+
+Discussion via [[AdS/CFT]] beyond the [[SCFT]] [[planar limit]], using the [[conformal bootstrap]]:
+
+* {#ABP18} [[Luis Alday]], [[Agnese Bissi]], [[Eric Perlmutter]], _Genus-One String Amplitudes from Conformal Field Theory_, JHEP06(2019) 010 ([arXiv:1809.10670](https://arxiv.org/abs/1809.10670))
+
 
 ### More
 
