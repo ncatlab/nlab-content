@@ -416,13 +416,19 @@ Realization of [[axions]] and solution of [[strong CP-problem]]:
 * Francesco Bigazzi, Alessio Caddeo, Aldo L. Cotrone, Paolo Di Vecchia, Andrea Marzolla, _The Holographic QCD Axion_ ([arXiv:1906.12117](https://arxiv.org/abs/1906.12117))
 
 
-### Application to colour superconductivity
+### Application to QCD phases
  {#ReferencesColourSuperconductivity}
 
-Application to [[colour superconductivity]]:
+Application to [[phase of matter|phases]] of QCD
+
+
+to [[colour superconductivity]]:
 
 * Kazem Bitaghsir Fadafan, Jesus Cruz Rojas, Nick Evans, _A Holographic Description of Colour Superconductivity_ ([arXiv:1803.03107](https://arxiv.org/abs/1803.03107))
 
+to [[confinement]]/[[quark-gluon plasma|deconfinement]] phase transiton:
+
+* {#LYY18} Meng-Wei Li, Yi Yang, Pei-Hung Yuan  _Imprints of Early Universe on Gravitational Waves from First-Order Phase Transition in QCD_ ([arXiv:1812.09676](https://arxiv.org/abs/1812.09676))
 
 [[!redirects AdS-QCD correspondences]]
 
