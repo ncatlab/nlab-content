@@ -38,7 +38,7 @@ Surveys include
 
 * Wikipedia, _[Liouville field theory](http://en.wikipedia.org/wiki/Liouville_field_theory)
 
-* {#AGT09} Luis F. Alday, [[Davide Gaiotto]], [[Yuji Tachikawa]], appendix A.1 of _Liouville Correlation Functions from Four-dimensional Gauge Theories_, Lett.Math.Phys.91:167-197, 2010 ([arXiv:0906.3219](http://arxiv.org/abs/0906.3219))
+* {#AGT09} [[Luis Alday]], [[Davide Gaiotto]], [[Yuji Tachikawa]], appendix A.1 of _Liouville Correlation Functions from Four-dimensional Gauge Theories_, Lett.Math.Phys.91:167-197, 2010 ([arXiv:0906.3219](http://arxiv.org/abs/0906.3219))
 
 
 An argument (via [[Chern-Simons gravity]], but see the caveats there) that [[3d quantum gravity]] with negative [[cosmological constant]] has as [[boundary field theory]] 2d [[Liouville theory]] is due to 
