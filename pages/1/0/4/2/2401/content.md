@@ -43,12 +43,6 @@ below.
 
 The term possibly originates with Riemann, who was the first to study what are now called moduli spaces of (compact) [[Riemann surface]]s. A "modulus" here is meant to be a _parameter_ that parameterizes isomorphism classes of Riemann surfaces.
 
-More precisely, when a moduli space actually does exist as a genuine space (or [[scheme]]), it is called for emphasis a **fine moduli space**. Fine here refers to the completeness of the description, not shared by coarse moduli below.
-
-Those classifying "spaces" that are called moduli spaces are typically [[orbifold]]s, hence modeled not just as spaces but as [[groupoid]]s with extra structure. These are typically conceived as [[stack]]s: these are then called **[[moduli stack]]**s. Typically these are demanded to be [[Deligne-Mumford stack]]s. 
-
-So the term _fine moduli space_ mainly indicates that a given object that might be a [[Deligne-Mumford stack]] is actually just a plain [[scheme]]. But there is also the notion of **coarse moduli space**, which is a kind of conceptual hack designed to be able to keep thinking about what really wants to be a [[stack]] still as a plain [[sheaf]]:
-
 ## Definition
 
 ...
