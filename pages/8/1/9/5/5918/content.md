@@ -33,3 +33,5 @@ A **regular theory** is a [[theory]] in [[regular logic]].
 Section D1.1 of 
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
+[[!redirects regular theories]]
