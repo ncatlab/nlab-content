@@ -65,6 +65,8 @@ Further discussion includes
 
 * Clifford Cheung, Junyu Liu, Grant N. Remmen, _Proof of the Weak Gravity Conjecture from Black Hole Entropy_ ([arXiv:1801.08546](https://arxiv.org/abs/1801.08546))
 
+* [[Ben Heidenreich]], [[Matthew Reece]], [[Tom Rudelius]], _Repulsive Forces and the Weak Gravity Conjecture_ ([arXiv:1906.02206](https://arxiv.org/abs/1906.02206))
+
 
 Relation to [[cosmic censorship hypothesis]]
 
