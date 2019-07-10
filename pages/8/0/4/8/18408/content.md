@@ -72,4 +72,8 @@ Relation to [[cosmic censorship hypothesis]]
 
 * {#HorowitzSantos19} [[Gary Horowitz]], [[Jorge Santos]], _Further evidence for the weak gravity - cosmic censorship connection_ ([arXiv:1901.11096](https://arxiv.org/abs/1901.11096))
 
+Relation, via [[AdS/CFT]] and the [[conformal bootstrap]], to the solution of the [[sphere packing problem]] in [[dimensions]] 8 and 24:
+
+* {#HMR19} [[Thomas Hartman]], [[Dalimil Mazáč]], [[Leonardo Rastelli]], _Sphere Packing and Quantum Gravity_ ([arXiv:1905.01319](https://arxiv.org/abs/1905.01319))
+
 
