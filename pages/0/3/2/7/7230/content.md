@@ -68,7 +68,7 @@ Applications to [[KK-compactification]] of [[11d supergravity]] (see also at _[[
 
 * K. Koepsell, [[Hermann Nicolai]], [[Henning Samtleben]], _An exceptional geometry for d=11 supergravity?_ ([arXiv:hep-th/0006034](http://arxiv.org/abs/hep-th/0006034))
 
-* {#Hull} [[Chris Hull]], _Generalised Geometry for M-Theory_ ([arXiv:hep-th/0701203](http://arxiv.org/abs/hep-th/0701203))
+* {#Hull} [[Chris Hull]], _Generalised Geometry for M-Theory_, JHEP 0707:079, 2007 ([arXiv:hep-th/0701203](http://arxiv.org/abs/hep-th/0701203))
  
 
 For more along these lines see the references at _[[exceptional generalized geometry]]_.
