@@ -35,7 +35,7 @@ This functor has a [[left adjoint]], given by left [[Kan extension]]
 $$
   sk_n 
   \;\colon\; 
-  [\Delta_{\leq n},Set] \to SSet
+  [\Delta_{\leq n},Set] \to  SSet
 $$
 
 called the $n$-**skeleton**
