@@ -400,11 +400,24 @@ and which exhibit the identification (eq:OrbifoldIdentificationForKKMonopole) as
 
 ## References
 
+### General
+
 * Hari K. Kunduri, James Lucietti, _Classification of Near-Horizon Geometries of Extremal Black Holes_ ([web](http://relativity.livingreviews.org/Articles/lrr-2013-8/title.html))
+
+### For extremal black holes
 
 That the near horizon geometry of the [[extremal black hole|extremal]] [[Reissner-Nordström black hole]] in $\mathcal{N}=2$ [[4d supergravity]] is $AdS_2 \times S^2$ was observed in 
 
 * [[Gary Gibbons]], in F. del Aguila, [[J. de Azcarraga]], [[Luis Ibanez]] (eds.) _Supersymmetry, Supergravity and Related Topics_
+
+Description of the near-horizon geometry of near-extremal black holes by [[Jackiw-Teitelboim gravity]]:
+
+* {#NSST18} Pranjal Nayak, Ashish Shukla, Ronak M Soni, [[Sandip Trivedi]], V. Vishal, _On the Dynamics of Near-Extremal Black Holes_ ([arXiv:1802.09547](https://arxiv.org/abs/1802.09547))
+
+* {#MTV18} Upamanyu Moitra, [[Sandip Trivedi]], V. Vishal, _Near-Extremal Near-Horizons_ ([arXiv:1808.08239](https://arxiv.org/abs/1808.08239))
+
+
+### For black branes
 
 That the near horizon geometry of [[black branes]] in [[11-dimensional supergravity]] is (conformal to) [[anti de Sitter spacetime]] times some [[compact space]] is apparently due to 
 
