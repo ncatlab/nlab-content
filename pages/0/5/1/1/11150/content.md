@@ -32,6 +32,8 @@ An argument (via [[Chern-Simons gravity]], but see the caveats there) that [[3d 
 
 * [[AGT correspondence]]
 
+* [[Jackiw-Teitelboim gravity]]
+
 ## References
 
 Surveys include
