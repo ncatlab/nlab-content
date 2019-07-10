@@ -106,6 +106,7 @@ In general, some of the NS5 sit away from the [[O8-plane]], while some sit on to
 Volume 515, Issues 1–2, 30 March 1998, Pages 55-72
 Nuclear Physics B ([hep-th/9707223](https://arxiv.org/abs/hep-th/9707223), <a href="https://doi.org/10.1016/S0550-3213(97)00784-0">doi:10.1016/S0550-3213(97)00784-0</a>)
 
+  (on [[gaugino condensation]])
 
 * [[Vadim Kaplunovsky]], J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, _On the Duality between Perturbative Heterotic Orbifolds and M-Theory on $T^4/Z_N$_, Nuclear Physics B Volume 590, Issues 1–2, 4 December 2000, Pages 123-160 Nuclear Physics B ([arXiv:hep-th/9912144](https://arxiv.org/abs/hep-th/9912144), <a href="https://doi.org/10.1016/S0550-3213(00)00460-0">doi:10.1016/S0550-3213(00)00460-0</a>)
 
