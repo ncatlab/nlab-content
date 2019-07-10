@@ -62,6 +62,8 @@ In [[supergravity]], [[super spacetimes]] which solves the [[equations of motion
 
 ## References
 
+### General
+
 Lecture notes include
 
 * _Parallel and Killing spinor fields_ ([[KillingSpinors.pdf:file]])
@@ -96,10 +98,6 @@ Discussion relating to [[special holonomy]] includes
 
 * Andrei Moroianu, [[Uwe Semmelmann]], _Parallel spinors and holonomy groups_, Journal of Mathematical Physics 41 (2000), 2395-2402 ([arXiv:math/9903062](http://arxiv.org/abs/math/9903062))
 
-A discussion with an eye towards applications in [[supersymmetry]] is around page 907 in volume II of
-
-* [[Pierre Deligne]], P. Etingof, [[Dan Freed]], L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and [[Edward Witten]], (eds.)  _Quantum Fields and Strings, A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
-
 
 Discussion of classification includes
 
@@ -107,13 +105,26 @@ Discussion of classification includes
 
 * [[Thomas Friedrich]], _Zur Existenz paralleler Spinorfelder &#252;ber Riemannschen Mannigfaltigkeiten_, Colloquium Mathematicum vol. XLIV, Fasc. 2 (1981), 277-290.
 
-Discussion relating to [[G2-structures]] includes
+### Relation to supersymmetry
+
+General discussion of Killing with an eye towards applications in [[supersymmetry]] is around page 907 in volume II of
+
+* [[Pierre Deligne]], P. Etingof, [[Dan Freed]], L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and [[Edward Witten]], (eds.)  _Quantum Fields and Strings, A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+specifically
+
+in [[heterotic supergravity]]:
+
+* [[Ulf Gran]], [[George Papadopoulos]], Diederik Roest, _Supersymmetric heterotic string backgrounds_, Phys.Lett.B656:119-126, 2007 ([arXiv:0706.4407](https://arxiv.org/abs/0706.4407))
+
+in [[11-dimensional supergravity]]:
+
+* [[Jerome Gauntlett]], Stathis Pakis, _The Geometry of $D=11$ Killing Spinors_, JHEP 0304 (2003) 039 ([arXiv:hep-th/0212008](http://arxiv.org/abs/hep-th/0212008))
+
+for [[G2-structures]] in [[M-theory on G2-manifolds]]:
 
 * [[Thomas Friedrich]], Stefan Ivanov, _Parallel spinors and connections with skew-symmetric torsion in string theory_, AsianJ.Math.6:303-336,2002 ([arXiv:math/0102142](http://arxiv.org/abs/math/0102142))
 
-Discussion in [[11-dimensional supergravity]] includes
-
-* Jerome P. Gauntlett, Stathis Pakis, _The Geometry of $D=11$ Killing Spinors_, JHEP 0304 (2003) 039 ([arXiv:hep-th/0212008](http://arxiv.org/abs/hep-th/0212008))
 
 
 [[!redirects Killing spinors]]
