@@ -73,8 +73,9 @@ and stated more precisely in
 * {#KapulkinLumsdaine16} [[Chris Kapulkin]], [[Peter Lumsdaine]], _The homotopy theory of type theories_, Advances in Mathematics Volume 337, 15 October 2018, Pages 1-38 ([arXiv:1610.00037](https://arxiv.org/abs/1610.00037))
 
 ### Proof
+ {#ReferencesProof}
 
-The proof of the weaker version (that every [[locally Cartesian closed (∞,1)-category]] has a presentation by a suitable [[type-theoretic model category]] which provides [[categorical semantics]] for [[homotopy type theory]]) is due, independently, to Example 2.16 of 
+The proof of the weaker version of Awodey's conjecture (that every [[locally Cartesian closed (∞,1)-category]] has a presentation by a suitable [[type-theoretic model category]] which provides [[categorical semantics]] for [[homotopy type theory]]) is due, independently, to Example 2.16 of 
 
 * {#Shulman12} [[Michael Shulman]], _Univalence for inverse diagrams and homotopy canonicity_, Mathematical Structures in Computer Science, Volume 25, Issue 5 ( _From type theory and homotopy theory to Univalent Foundations of Mathematics_ ) June 2015 ([arXiv:1203.3253](https://arxiv.org/abs/1203.3253), [doi:/10.1017/S0960129514000565](https://doi.org/10.1017/S0960129514000565))
 
@@ -92,6 +93,9 @@ A general proof was announced in
 
 * {#Shulman19} [[Michael Shulman]], slides 5 to 10 of _Semantics of higher modalities_, talk at _[Geometry in Modal HoTT (2019)](http://www.andrew.cmu.edu/user/fwellen/modal-workshop.html)_ ([pdf slides](http://home.sandiego.edu/~shulman/papers/cmu2019b.pdf), [video recording](https://www.youtube.com/watch?v=Wcpi1vVMrCs))
 
+and appeared in
+
+* {#Shulman19} [[Michael Shulman]], _All $(\infty,1)$-toposes have strict univalent universes_ ([arXiv:1904.07004](https://arxiv.org/abs/1904.07004)).
 
 [[!redirects Awodey proposal]]
 
