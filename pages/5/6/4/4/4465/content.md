@@ -111,7 +111,7 @@ Further developments on black hole entropy are in
 
 A related controversial article that spawned a lot of discussion is
 
-* Ahmed Almheiri, [[Donald Marolf]], [[Joseph Polchinski]], James Sully, _Black holes: complementarity or firewalls?_, ([arXiv:1207.3123](http://arxiv.org/abs/arXiv:1207.3123))
+* [[Ahmed Almheiri]], [[Donald Marolf]], [[Joseph Polchinski]], James Sully, _Black holes: complementarity or firewalls?_, ([arXiv:1207.3123](http://arxiv.org/abs/arXiv:1207.3123))
   
 ### Via Wick-rotated thermal field theory
 
