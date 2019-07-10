@@ -327,6 +327,8 @@ For commentary see also ([Nilsson 00, section 2](#Nilsson00)) and
 
 * {#CGNN00} [[Martin Cederwall]], [[Ulf Gran]], Mikkel Nielsen, [[Bengt Nilsson]], _Manifestly supersymmetric M-theory_, JHEP 0010 (2000) 041 ([arXiv:hep-th/0007035](http://arxiv.org/abs/hep-th/0007035))
 
+* {#HoweSezgin05} [[Paul Howe]], [[Ergin Sezgin]], _The supermembrane revisited_, Class.Quant.Grav. 22 (2005) 2167-2200 ([arXiv:hep-th/0412245](https://arxiv.org/abs/hep-th/0412245))
+
 also
 
 * {#BrinkHowe80} [[Lars Brink]], [[Paul Howe]], _Eleven-dimensional supergravity on the mass shell in superspace_, Phys. Lett. , B91:384&#8211;386, 1980
