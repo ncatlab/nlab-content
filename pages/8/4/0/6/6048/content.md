@@ -145,13 +145,17 @@ For the [[type II string theory]]-version see at _[[NS5-brane]]_ the sectoin _[N
 
 ## References
 
-### As a fundamental brane
+### As a fundamental brane (GS-type $\sigma$-model)
 
 The [[Green-Schwarz sigma-model]]-type formulation of the supermembrane (as in the [[brane scan]]) first appears in 
 
 * {#BergshoeffSezginTownsend87} [[Eric Bergshoeff]], [[Ergin Sezgin]], and [[Paul Townsend]], _Supermembranes and eleven-dimensional supergravity_, Phys. Lett. B189 (1987) 75&#8211;78. ([spire:248230](http://inspirehep.net/record/248230/))
+
+and is formulated elegantly via the [[superembedding approach]] in
+
+* {#HoweSezgin05} [[Paul Howe]], [[Ergin Sezgin]], _The supermembrane revisited_, Class.Quant.Grav. 22 (2005) 2167-2200 ([arXiv:hep-th/0412245](https://arxiv.org/abs/hep-th/0412245))
   
-and its [[quantization]] of the was explored in 
+Its [[quantization]] of the was explored in 
 
 * {#DuffInamiPopeSezginStelle88} [[Mike Duff]], T. Inami, [[Christopher Pope]], [[Ergin Sezgin]],  [[Kellogg Stelle]], _Semiclassical Quantization of the Supermembrane_, Nucl.Phys. B297 (1988) 515-538 ([spire:247064](http://inspirehep.net/record/247064))
 
@@ -166,7 +170,7 @@ The [[double dimensional reduction]] of the M2-brane to the [[Green-Schwarz supe
 
 * {#DuffHoweInamiStelle87} [[Michael Duff]], [[Paul Howe]], T. Inami, [[Kellogg Stelle]], _Superstrings in $D=10$ from Supermembranes in $D=11$_, Phys. Lett. B191 (1987) 70 and in [[Michael Duff]] (ed.) _[[The World in Eleven Dimensions]]_ 205-206 (1987) ([spire](http://inspirehep.net/record/245249))
 
-The interpretation of the membrane as as an object related to [[string theory]], hence as the _M2-brane_ was proposed in 
+The interpretation of the membrane as as an object related to [[string theory]] via [[double dimensional reduction]], hence as the _M2-brane_ was proposed in 
 
 * [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_, Phys.Lett.B350:184-187, 1995 ([arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068))
 
