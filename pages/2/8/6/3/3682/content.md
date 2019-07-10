@@ -119,7 +119,7 @@ Now
 * the right [[derived functor]]
 
   $$
-    R f_* : ([C,A]_{proj})^\circ \to ([C',A]_{proj})^\circ
+    R f_* : ([C,A]_{inj})^\circ \to ([C',A]_{inj})^\circ
   $$
 
   is the **homotopy right Kan extension** functor;
@@ -127,7 +127,7 @@ Now
 * the left [[derived functor]]
 
   $$
-    L f_{!} : ([C,A]_{inj})^\circ \to ([C',A]_{inj})^\circ
+    L f_{!} : ([C,A]_{proj})^\circ \to ([C',A]_{proj})^\circ
   $$
 
   is the **homotopy left Kan extension** functor.
@@ -137,7 +137,7 @@ For the special case that $C' = *$ we have
 * the right [[derived functor]]
 
   $$
-    R f_* : ([C,A]_{proj})^\circ \to ([*,A]_{proj})^\circ =\simeq A^\circ
+    R f_* : ([C,A]_{inj})^\circ \to ([*,A]_{inj})^\circ =\simeq A^\circ
   $$
 
   is the **[[homotopy limit]]** functor;
@@ -145,7 +145,7 @@ For the special case that $C' = *$ we have
 * the left [[derived functor]]
 
   $$
-    L f_{!} : ([C,A]_{inj})^\circ \to ([*,A]_{inj})^\circ = A^\circ
+    L f_{!} : ([C,A]_{proj})^\circ \to ([*,A]_{proj})^\circ = A^\circ
   $$
 
   is the **[[homotopy colimit]]** functor.
