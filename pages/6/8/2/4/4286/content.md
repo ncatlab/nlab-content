@@ -111,9 +111,10 @@ Resolved image of the direct vicinity of the [[event horizon]] of the [[black ho
 
 * Gregory Galloway, Richard Schoen, _A Generalization of Hawking's Black Hole Topology Theorem to Higher Dimensions_ Commun. Math. Phys. (2006) ([pdf](http://www.math.miami.edu/~galloway/papers/220_2006_19_OnlinePDF.pdf))
 {#GallowaySchoen}
-* R. M. Wald, _Quantum Field Theory in Curved Spacetime and Black Hole Thermodynamics_, University of Chicago Press 1994; _The back reaction effect in particle creation in curved spacetime_, Commun. Math. Phys. __54__, 1 (1977)
 
-* Ahmed Almheiri, Donald Marolf, Joseph Polchinski, James Sully, _Black holes: complementarity or firewalls?_, [http://arxiv.org/abs/arXiv:1207.3123](http://arxiv.org/abs/arXiv:1207.3123)
+* [[Robert Wald]], _Quantum Field Theory in Curved Spacetime and Black Hole Thermodynamics_, University of Chicago Press 1994; _The back reaction effect in particle creation in curved spacetime_, Commun. Math. Phys. __54__, 1 (1977)
+
+* [[Ahmed Almheiri]], [[Donald Marolf]], [[Joseph Polchinski]], James Sully, _Black holes: complementarity or firewalls?_, [http://arxiv.org/abs/arXiv:1207.3123](http://arxiv.org/abs/arXiv:1207.3123)
 
 
 ### In supergravity
