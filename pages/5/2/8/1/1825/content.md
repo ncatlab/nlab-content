@@ -317,6 +317,8 @@ Note that this violates the convention that a $1$-foo is a foo; instead the ruli
 
 * [[homotopy sphere]]
 
+* [[sphere packing]]
+
 ## References
 
 ### Formalization
