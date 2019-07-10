@@ -32,9 +32,18 @@ There are various astronomical observations that suggest the existence of dark m
 
 Any further details about the nature of this hypothetical dark matter remain elusive to date. Possible classes of candidates go by various names. For instance "[[weakly interacting massivle particle|weakly interacting massive particles]]" ("[[WIMP]]"s), hence massive particles that interact via [[gravity]] and the [[weak nuclear force]], but not via [[electromagnetism]].
 Certain [[neutrino]]-dark matter scenarios are being discussed ([Neutrino White 16](#NeutrinoWhite16))
- In [[supersymmetry|supersymmetric]] [[theory (physics)|theories]], the _lightest supersmmetric particle_ (LSP, such as the [[gravitino]] or the [[neutralino]]) is a natural candidate for dark matter ([EHNOS 84](#EHNOS84), reviewed in [Ellis-Olive 10](#EllisOlive10))
+ In [[supersymmetry|supersymmetric]] [[theory (physics)|theories]] with [[R-parity]] imposed, the _lightest supersmmetric particle_ (LSP, such as the [[gravitino]] or the [[neutralino]]) is traditionally regarded as a natural candidate for dark matter ([EHNOS 84](#EHNOS84), reviewed in [Ellis-Olive 10](#EllisOlive10)).
 
-## Properties
+## On galactic scales
+ {#Properties}
+
+The cold dark matter paradigm always worked excellently on cosmic scales, while seemingly facing problems with reproducing various observations on the scale of [[galaxies]]. But various recent computer simulations (e.g. with [FIRE](structure+formation#ReferencesFIRE), see the references [below](#ReferencesComputerSimulation)) point to these problems all going away when the complex dynamics of star-formation back-reaction on galactic [[structure formation]] is taken into account. We discuss this for:
+
+1. _[The cusp-core behaviour](#CuspCoreProblem)_
+
+1. _[Galactic rotation profiles](#GalacticRotationCurves)_
+
+1. _[Missing satellites](#MissingSatellites)_
 
 ### Cusp-core behaviour
  {#CuspCoreProblem}
@@ -174,6 +183,7 @@ See also
 
 
 ### Computer simulation
+ {#ReferencesComputerSimulation}
 
 Discussion of computer simulation of [[dark matter]] [[structure formation]] on [[galaxy]]-scales:
 
