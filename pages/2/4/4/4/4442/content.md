@@ -219,6 +219,8 @@ For the more ambitious matching of the spectrum of the dilatation operator of [[
 
 Comparison to [[string scattering amplitudes]] beyond the planar SCFT limit: [ABP 18](#ABP18).
 
+Exact duality check also in the stringy regime for $AdS_3/CFT_2$: [Eberhardt-Gaberdiel 19](#EberhardtGaberdiel19)
+
 ## Formalizations
 
 The full formalization of AdS/CFT is still very much out of reach, but maybe mostly for lack of trying. 
@@ -344,6 +346,12 @@ Review of [[Yangian]] symmetry includes
 
 
 * [[Alessandro Torrielli]], _Yangians, S-matrices and AdS/CFT_,	  J.Phys.A44:263001,2011 ([arXiv:1104.2474](http://arxiv.org/abs/1104.2474))
+
+### $AdS_4 / CFT_3$
+
+
+* {#EberhardtGaberdiel19]} [[Lorenz Eberhardt]], [[Matthias Gaberdiel]], _Strings on $AdS_3 \times S^3 \times S^3 \times S^1$_ ([arXiv:1904.01585](https://arxiv.org/abs/1904.01585))
+
 
 
 ### $AdS_4 / CFT_3$
