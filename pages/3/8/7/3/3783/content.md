@@ -22,7 +22,7 @@
 
 The **Kerr spacetime** is the unique stationary axially symmetric [[asymptotically flat]] vacuum (family of) solution(s) to the [[Einstein field equations]]. Informally, it describes an eternal, rotating [[black hole]] inside an otherwise empty universe. It is thought to closely approximate the gravitational field outside of compact rotating objects, to the point that astrophysical black holes are often described as "Kerr".
 
-These balck holes are characterized by their [[mass]] and their [[angular momentum]].
+These black holes are characterized by their [[mass]] and their [[angular momentum]].
 
 
 ## Abstract ##
@@ -206,7 +206,9 @@ The Kerr spactime admits an extra [[Killing tensor]] and [[Killing-Yano tensor]]
 
 [[!include charged and rotating black holes -- table]]
 
-## References ##
+## References 
+
+### General
 
 Most textbooks about [[General Relativity]] have chapter about the Kerr spacetime, here is a monograph that specializes on the topic:
 
@@ -241,10 +243,33 @@ Kerr-type solutions in dimension $\gt 4$ were first given in
 
 In higher dimensions the uniqueness theorem of 4d breaks down, and there are solutions with non-spherical topology, such as [[black rings]]. This plays a role notably in the discussion of [[black holes in string theory]].
 
+### Observational signature
+
+* Minyong Guo, Niels A. Obers, Haopeng Yan, _Observational signature of near-extremal Kerr-like black holes in a modified gravity theory at the Event Horizon Telescope_, Phys. Rev. D 98, 084063 (2018) ([arXiv:1806.05249](https://arxiv.org/abs/1806.05249))
+
+### Actual observation
+ {#ReferencesObservation}
+
+Near-extremal spinnin black holes are being observed
+
+* Xinyu Dai, Shaun Steele, Eduardo Guerras, Christopher W. Morgan, Bin Chen, _Constraining Quasar Relativistic Reflection Regions and Spins with Microlensing_ ([arXiv:1901.06007](https://arxiv.org/abs/1901.06007))
+
+  exposition in:
+
+  [[Chandra Observatory]], _[Chandra Views Spinning Black Holes Across Cosmic Sea](https://scitechdaily.com/chandra-views-spinning-black-holes-across-cosmic-sea/)_, July 5 2019
+
+
 [[!redirects Kerr spacetimes]]
+
+[[!redirects spinning black hole]]
+[[!redirects spinning black holes]]
+
+
 [[!redirects Kerr solution]]
 [[!redirects Kerr metric]]
 [[!redirects Kerr black hole]]
 [[!redirects Kerr-Newman black hole]]
 [[!redirects Boyer-Lindquist coordinates]]
 [[!redirects Boyer-Lindquist]]
+
+
