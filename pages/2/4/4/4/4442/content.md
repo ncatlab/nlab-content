@@ -353,8 +353,16 @@ Review of [[Yangian]] symmetry includes
 * {#EberhardtGaberdiel19]} [[Lorenz Eberhardt]], [[Matthias Gaberdiel]], _Strings on $AdS_3 \times S^3 \times S^3 \times S^1$_ ([arXiv:1904.01585](https://arxiv.org/abs/1904.01585))
 
 
+### $AdS_2 / CFT_1$
 
-### $AdS_4 / CFT_3$
+
+Via [[Jackiw-Teitelboim gravity]]:
+
+* {#AlmheiriPolchinski14} [[Ahmed Almheiri]], [[Joseph Polchinski]], _Models of $AdS_2$ Backreaction and Holography_, J. High Energ. Phys. (2015) 2015: 14. ([arXiv:1402.6334](https://arxiv.org/abs/1402.6334))
+
+
+
+### $AdS_3 / CFT_2$
 
 * {#KlebanovTorri10} [[Igor Klebanov]], Giuseppe Torri, _M2-branes and AdS/CFT_,  	Int.J.Mod.Phys.A25:332-350,2010 ([arXiv:0909.1580](http://arxiv.org/abs/0909.1580))
   
