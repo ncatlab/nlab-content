@@ -14,6 +14,9 @@ Open games approach games as open systems, making them morphisms of a [[symmetri
 
 Open games have a close connection to [[lens (in computer science)|lenses]]. This can be used to situate open games inside a symmetric monoidal [[double category]] in a game-theoretically interesting way, see [Hedges 2018](#Hedges18).
 
+##Homotopy and game theory##
+
+[[homotopy|Homotopies]] between strategy profiles have been considered as a practical method to compute Nash equilibria (see [Herings and Peeters 2010](#Herings10)). This has never been studied categorically, but it suggests a possible route towards a higher-categorical approach to game theory.
 
 ## References
 
@@ -32,3 +35,4 @@ Libr. 259, pages 29&#8211;68. Dordrecht: Kluwer Academic Publishers, 1997.
 * {#Ghani18a} [[Neil Ghani]], [[Clemens Kupke]], [[Alasdair Lambert]] and [[Fredrik Nordvall Forsberg]], _A compositional treatment of iterated open games_, Theoretical computer science 2018. ([arXiv:1711.07968](https://arxiv.org/abs/1711.07968), [doi:10.1016/j.tcs.2018.05.026](https://doi.org/10.1016/j.tcs.2018.05.026))
 * {#Ghani18b} [[Neil Ghani]], [[Jules Hedges]], [[Viktor Winschel]] and [[Philipp Zahn]], _Compositional game theory_, LiCS 2018. ([arXiv:1603.04641](https://arxiv.org/abs/1603.04641), [doi:10.1145/3209108.3209165](https://doi.org/10.1145/3209108.3209165))
 * {#Hedges18} [[Jules Hedges]], _Morphisms of open games_, MFPS 2018. ([arXiv:1711.07059](https://arxiv.org/abs/1711.07059), [doi:10.1016/j.entcs.2018.11.008](https://doi.org/10.1016/j.entcs.2018.11.008))
+* {#Herings10} P. Jean-Jacques Herings and Ronald Peeters, _Homotopy methods to compute equilibria in game theory_, Economic Theory 2010. ([doi:10.1007/s00199-009-0441-5](https://doi.org/10.1007/s00199-009-0441-5))
