@@ -60,9 +60,9 @@ See also
 * Dhritiman Nandan, [[Jan Plefka]], Oliver Schlotterer, Congkao Wen, _Einstein-Yang-Mills from pure Yang-Mills amplitudes_ ([arXiv:1607.05701](http://arxiv.org/abs/1607.05701))
 
 
-### Gravity amplitudes as Yang-Mills amplitudes "squared"
+### Gravity amplitudes as double copy Yang-Mills amplitudes
 
-The extension of the KLT relation beyond [[tree level]] to "quantum gravity is Yang-Mills squared" originates with
+The extension of the KLT relation beyond [[tree level]] to "quantum gravity is Yang-Mills squared" ("double copy" approach) originates with
 
 * [[Zvi Bern]], John Joseph M. Carrasco, Henrik Johansson, _Perturbative Quantum Gravity as a Double Copy of Gauge Theory_, Phys. Rev .Lett. 105:061602,2010 ([arXiv:1004.0476](https://arxiv.org/abs/1004.0476))
 
@@ -70,7 +70,7 @@ and is further discussed in
 
 * David C. Dunbar, Paul S. Norridge, _Calculation of Graviton Scattering Amplitudes using String-Based Methods_, Nucl.Phys. B433 (1995) 181-208 ([arXiv:hep-th/9408014](https://arxiv.org/abs/hep-th/9408014))
 
-* [[Zvi Bern]], D.C. Dunbar, T. Shimada, _String-Based Methods in Perturbative Gravity_, Phys.Lett.B312:277-284,1993
+* [[Zvi Bern]], D.C. Dunbar, T. Shimada, _String-Based Methods in Perturbative Gravity_, Phys.Lett.B312:277-284, 1993 ([arXiv:hep-th/9307001](https://arxiv.org/abs/hep-th/9307001))
 
 * A. Anastasiou, L. Borsten, [[Mike Duff]], A. Marrani, S. Nagy, M. Zoccali, _Are all supergravity theories Yang-Mills squared?_ ([arXiv:1707.03234](https://arxiv.org/abs/1707.03234))
 
@@ -86,7 +86,13 @@ Discussion in terms of [[superstring scattering amplitudes]] is in
 
 * [[Carlos Mafra]], [[Oliver Schlotterer]], _Towards the $n$-point one-loop superstring amplitude III: One-loop correlators and their double-copy structure_ ([arXiv:1812.10971](https://arxiv.org/abs/1812.10971))
 
+Application to computation of (classical) [[gravitational wave]]-signatures from [[relativistic binary]]-mergers for used at [[LIGO]]:
+
+* {#BCRSSZ19} [[Zvi Bern]], Clifford Cheung, Radu Roiban, Chia-Hsien Shen, Mikhail P. Solon, Mao Zeng, _Scattering Amplitudes and the Conservative Hamiltonian for Binary Systems at Third Post-Minkowskian Order_, Phys. Rev. Lett. 122, 201603 (2019) ([arXiv:1901.04424](https://arxiv.org/abs/1901.04424))
+
 
 [[!redirects KLT relation]]
 
 [[!redirects Yang-Mills squared]]
+
+[[!redirects double copy]]
