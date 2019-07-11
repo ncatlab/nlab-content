@@ -32,8 +32,12 @@ In some literature, the "Rezk-completeness" condition on such categories is omit
 * Particularly useful in the context of such categories are [[displayed categories]].
 
 ## References
+ {#References}
 
-* [[homotopytypetheory:HomePage|HoTT wiki]], _[[homotopytypetheory:category]]_
+### General
+  {#RefetencesGeneral}
+
+
 
 The relation between [[complete Segal space|Segal completeness]] (now often "Rezk completeness") for internal categories in HoTT and the [[univalence axiom]] had been pointed out in
 
@@ -51,6 +55,12 @@ Discussion of implementation of this in [[Coq]] includes
 
 * [[Jason Gross]], [[Adam Chlipala]], [[David Spivak]], _Experience Implementing a Performant Category-Theory Library in Coq_ ([arXiv:1401.7694](http://arxiv.org/abs/1401.7694))
 
+See also
+
+* [[homotopytypetheory:HomePage|HoTT wiki]], _[[homotopytypetheory:category]]_
+
+
+
 Generalization to [[(n,1)-categories]] is discussed in
 
 * {#CapriottiKraus17} [[Paolo Capriotti]], [[Nicolai Kraus]], _Univalent Higher Categories via Complete Semi-Segal Types_ ([arXiv:1707.03693](https://arxiv.org/abs/1707.03693))
@@ -61,13 +71,21 @@ and, by different means, in
 
 * {#Riehl18} [[Emily Riehl]], _The synthetic theory of ∞-categories vs the synthetic theory of ∞-categories_, talk at [Vladimir Voevodsky Memorial Conference 2018](http://www.math.ias.edu/vvmc2018) ([pdf](http://www.math.jhu.edu/~eriehl/Voevodsky.pdf))
 
-A formalization in [[HoTT]]-[[Agda]] of general [[(n,r)-categories]] for $n,r \in \mathbb{N} \sqcup \{\infty\}$ is claimed in
-
-* {#Morrison19} Darin Morrison, [github.com/freebroccolo/agda-nr-cats/blob/master/src/Main.agda#L317-L328](https://github.com/freebroccolo/agda-nr-cats/blob/master/src/Main.agda#L317-L328)
-
 Formalization of [[bicategories]]:
 
 * [[Benedikt Ahrens]], Dan Frumin, Marco Maggesi, Niels van der Weide, _Bicategories in Univalent Foundations_ ([arXiv:1903.01152](https://arxiv.org/abs/1903.01152))
+
+
+### By coinduction
+  {#ReferencesCoinduction}
+
+A formalization in [[HoTT]]-[[Agda]] of general [[(n,r)-categories]] for $n,r \in \mathbb{N} \sqcup \{\infty\}$, defined as [[coinductive types]] of infinity-graphs, with operations defined by induction-coinduction, is implemented in
+
+* {#Morrison19} [[Darin Morrison]], _[agda-nr-cats](https://github.com/freebroccolo/agda-nr-cats/blob/master/src/Main.agda#L317-L328)_
+
+\linebreak
+
+
 
 
 [[!redirects internal categories in homotopy type theory]]
