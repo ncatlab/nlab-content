@@ -61,6 +61,8 @@ Special properties are enjoyed by
 
 * [[D=5 super Yang-Mills theory]]
 
+* [[D=6 super Yang-Mills theory]]
+
 * [[D=7 super Yang-Mills theory]]
 
 * [[D=10 super Yang-Mills theory]]
