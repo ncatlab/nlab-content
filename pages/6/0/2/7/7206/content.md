@@ -242,6 +242,9 @@ Discussion of lifts of [[gauged supergravity|gauged]] 4d supergravity to [[strin
 [[!redirects 4d supergravity]]
 
 [[!redirects N=8 d=4 supergravity]]
+[[!redirects N=8 D=4 supergravity]]
+[[!redirects D=4 N=8 supergravity]]
+
 
 [[!redirects N=1 d=4 supergravity]]
 [[!redirects N=1 D=4 supergravity]]
