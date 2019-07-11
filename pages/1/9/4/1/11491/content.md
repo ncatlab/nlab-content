@@ -1,5 +1,6 @@
+[[!redirects Heiner Kamps]]
 [[!redirects K. H. Kamps]]
-Heiner Kamps is a German mathematician who worked in Abstract Homotopy Theory.
+Klaus Heiner Kamps was a German mathematician who worked in Abstract Homotopy Theory.
 
 He is the joint author, with [[T. Porter]], of the book [[Abstract Homotopy and Simple Homotopy Theory]].
 
