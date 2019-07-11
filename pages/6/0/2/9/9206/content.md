@@ -36,8 +36,11 @@ For relation to the [[D=6 N=(2,0) SCFT]] via [[KK-compactification]] on a [[circ
 
 ### General 
 
-
 * [[Nathan Seiberg]], _Five Dimensional SUSY Field Theories, Non-trivial Fixed Points and String Dynamics_, Phys. Lett. B388:753-760, 1996 ([arXiv:hep-th/9608111](https://arxiv.org/abs/hep-th/9608111))
+
+* Arthur Hebecker, _5D Super Yang-Mills Theory in 4D Superspace, Superfield Brane Operators, and Applications to Orbifold GUTs_ ([arXiv:hep-ph/0112230](https://arxiv.org/abs/hep-ph/0112230))
+
+* [[Clay Cordova]], [[Daniel Jafferis]], _Five-Dimensional Maximally Supersymmetric Yang-Mills in Supergravity Backgrounds_ ([arXiv:1305.2886](https://arxiv.org/abs/1305.2886))
 
 * I.L. Buchbinder, E.A. Ivanov, I.B. Samsonov, _Low-energy effective action in $5D$, $\mathcal{N}=2$ supersymmetric gauge theory_, Nuclear Physics B
 Volume 940, March 2019, Pages 54-62 ([arXiv:1812.07206](https://arxiv.org/abs/1812.07206))
@@ -68,6 +71,8 @@ Relation to the [[D=6 N=(2,0) SCFT]] via [[KK-compactification]] on a [[circle]]
 * [[Neil Lambert]], Constantinos Papageorgakis, Maximilian Schmidt-Sommerfeld, _M5-Branes, D4-Branes and Quantum 5D super-Yang-Mills_, JHEP 1101:083, 2011 ([arXiv:1012.2882](https://arxiv.org/abs/1012.2882))
 
 * {#Witten11} [[Edward Witten]], Sections 4 and 5 of _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216)) 
+
+* Moritz McGarrie, _5D Maximally Supersymmetric Yang-Mills in 4D Superspace: Applications_ ([arXiv:1303.4534](https://arxiv.org/abs/1303.4534))
 
 * [[Chris Hull]], [[Neil Lambert]], _Emergent Time and the M5-Brane_, JHEP06(2014)016 ([arXiv:1403.4532](https://arxiv.org/abs/1403.4532))
 
