@@ -178,7 +178,7 @@ We require $v^5$ (eq:FiberVectorField) to be a [[spacelike]] [[isometry]]. This 
 
 
 
-#### Self-duality after compactification
+#### Self-duality after $S^1$-compactification
 
 Set ([PS 96 (5)](#PerrySchwarz96))
 
@@ -208,8 +208,48 @@ is equivalently ([PS 96 (9)](#PerrySchwarz96), see (eq:EquivalentIncarnationsOfS
   \tilde H
 \]
 
+To make this fully explicit, notice that we have the following chain of logical equivalences:
 
-Defining moreover the [[vector potential]] ([PS 96 above (4)](#PerrySchwarz96))
+\[
+  \label{EquivalentIncarnationsOfSelfDuality}
+  \begin{aligned}
+    \big(
+      H = \star H
+    \big)
+    & \Leftrightarrow
+    \left(
+      \array{
+         &
+         \phantom{\text{and}\;}
+         \iota_{v_5} H  = \iota_{v^5} \star H
+         \\
+         &
+         \text{and}\;
+         \theta^5 \wedge H = \theta^5 \wedge \star H
+      }
+    \right)
+    \\
+    & \Leftrightarrow
+    \big(
+      \iota_{v^5} H = \iota_{v^5} \star H
+    \big)
+    \\
+    &\Leftrightarrow
+    \big(
+      \mathcal{F}
+      \;=\;
+      \widetilde H
+    \big)
+  \end{aligned}
+\]
+
+Here the first step is decomposition of the self-duality equation into components, the second step follows by (eq:HodgeStarCommutingWithIsometryContraction) and the third step invokes the definitions (eq:DefOfCalF) and (eq:DefOfTildeH) and the fourth step the equality (eq:DecompositionOfCalF).
+
+
+#### The gauge field
+
+
+Define the [[vector potential]] ([PS 96 above (4)](#PerrySchwarz96))
 
 \[
   \label{AField}
@@ -219,7 +259,7 @@ Defining moreover the [[vector potential]] ([PS 96 above (4)](#PerrySchwarz96))
   \iota_{v^5} B
 \]
 
-we have
+With this we have
 
 $$
   B
@@ -296,49 +336,6 @@ is equivalently expressed as on the right of the following
   \big)
 \]
 
-To make this fully explicit, notice that we have the following chain of logical equivalences:
-
-\[
-  \label{EquivalentIncarnationsOfSelfDuality}
-  \begin{aligned}
-    \big(
-      H = \star H
-    \big)
-    & \Leftrightarrow
-    \left(
-      \array{
-         &
-         \phantom{\text{and}\;}
-         \iota_{v_5} H  = \iota_{v^5} \star H
-         \\
-         &
-         \text{and}\;
-         \theta^5 \wedge H = \theta^5 \wedge \star H
-      }
-    \right)
-    \\
-    & \Leftrightarrow
-    \big(
-      \iota_{v^5} H = \iota_{v^5} \star H
-    \big)
-    \\
-    &\Leftrightarrow
-    \big(
-      \mathcal{F}
-      \;=\;
-      \widetilde H
-    \big)
-    \\
-    &\Leftrightarrow
-    \big(
-      F + \mathcal{L}_{v^5} B^{\mathrm{hor}}
-      \;=\;
-      \widetilde H
-    \big)
-  \end{aligned}
-\]
-
-Here the first step is decomposition of the self-duality equation into components, the second step follows by (eq:HodgeStarCommutingWithIsometryContraction) and the third step invokes the definitions (eq:DefOfCalF) and (eq:DefOfTildeH) and the fourth step the equality (eq:DecompositionOfCalF).
 
 #### Equation of motion for weak self-duality
 
