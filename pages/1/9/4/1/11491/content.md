@@ -12,13 +12,13 @@ He was the joint author, with [[T. Porter]], of the book [[Abstract Homotopy and
 
 ##Dissertation
 
-[[K. H. Kamps]] (1968), _Faserungenund cofaserungen in kategorien mit homotopie system_, Dissertation, Saarbrucken
+* [[K. H. Kamps]] (1968), _Faserungen und Cofaserungen in Kategorien mit Homotopiesystem_, Dissertation, Saarbrücken
 
 ##Articles
 
-* [[K.H.Kamps]], _Kan-Bedingungen und abstrakte Homotopietheorie_, Math. Z. 124,1972, 215 - 236.
+* [[K. H. Kamps]], _Kan-Bedingungen und abstrakte Homotopietheorie_, Math. Z. 124,1972, 215 - 236.
 
-* [[K. H. Kamps]], _Zur homotopietheorie von Gruppoiden, Arch. Math._, 23 (1972) 610-618. 
+* [[K. H. Kamps]], _Zur Homotopietheorie von Gruppoiden_, Arch. Math., 23 (1972) 610-618. 
 
 category:people
 [[!redirects K.H.Kamps]]
