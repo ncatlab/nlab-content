@@ -1397,6 +1397,8 @@ Now prop. \ref{UnitOfSingularNerveAndRealizationIsWEOnKanComplexes} says that th
 
 * [[model structure on simplicial sets]]
 
+* [[constructive model structure on simplicial sets]]
+
 * [[model structure on reduced simplicial sets]]
 
 * [[classical model structure on topological spaces]]
@@ -1435,6 +1437,7 @@ A standard textbook references for the classical model structure is
 A proof of the model structure not relying on the [[classical model structure on topological spaces]] nor on explicit models for [[Kan fibrant replacement]] is givn in 
 
 * [[Christian Sattler]], _The Equivalence Extension Property and Model Structures_ ([arXiv:1704.06911](https://arxiv.org/abs/1704.06911))
+
 
 [[!redirects Quillen model structure on simplicial sets]]
 [[!redirects Kan-Quillen model structure on simplicial sets]]
