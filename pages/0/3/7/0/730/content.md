@@ -19,16 +19,14 @@
 
 ## Definition
 
-The [[category]] $SimpSet$, or $sSet$ for short, is the category of [[simplicial set]]s.
+The [[category]] $SimpSet$, or $sSet$ for short, is the category whose [[objects]] are [[simplicial sets]] and whose [[morphisms]] are [[simplicial maps]].
 
-This is the [[functor category]] from the [[opposite category]] $\Delta^{op}$ of the [[simplex category]] $\Delta$ to the category [[Set]] of sets:
+[[equivalence of categories|Equivalently]], this is the [[functor category]] from the [[opposite category]] $\Delta^{op}$ of the [[simplex category]] $\Delta$ to the [[category of sets]] [[Set]]:
 
 $$
-  Simp Set := [\Delta^{op}, Set]
+  SimpSet \simeq [\Delta^{op}, Set]
   \,.
 $$
-
-Its [[object]]s are [[simplicial set]]s.
 
 ## Properties
 
@@ -140,4 +138,7 @@ category: category
 [[!redirects SSet]]
 [[!redirects sSet]]
 [[!redirects Simp Set]]
+
+[[!redirects category of simplicial sets]]
+[[!redirects categories of simplicial sets]]
 
