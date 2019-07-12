@@ -1,6 +1,6 @@
 
 
-* [website](http://www.uoregon.edu/~dspivak/)
+* [website](http://math.mit.edu/~dspivak/)
 
 ## Selected writings
 
