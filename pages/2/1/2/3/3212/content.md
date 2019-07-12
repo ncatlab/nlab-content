@@ -2,8 +2,13 @@
 
 * [website](http://www.uoregon.edu/~dspivak/)
 
+## Selected writings
 
-## related $n$Lab entries
+On [[hypergraph categories]]:
+
+* {#FongSpivak} [[Brendan Fong]] and [[David Spivak]], *Hypergraph Categories* ([arxiv:1806.08304](https://arxiv.org/abs/1806.08304)) 
+
+## Related $n$Lab entries
 
 * [[derived smooth manifold]]
 
