@@ -19,9 +19,17 @@ A **hypergraph category** is:
 
 Note in particular that we do *not* require the morphisms of the category to be Frobenius algebra morphisms.
 
+## Examples
+
+* The category [[Rel]] of sets and relations (with cartesian product of sets as the monoidal product) is a hypergraph category, with the Frobenius algebra on $X$ given by the "deleting and copying" [[comonoid]] $\{ (x, *) \mid x \in X \}$, $\{ (x, (x, x)) | x \in X \}$ together with its [[opposite relation|opposite]].
+
+* More generally, categories of [[span|spans]], [[cospan|cospans]], [[relation|relations]] and [[corelation|corelations]] in any category (with the appropriate structure) are hypergraph categories.
+
+* Categories of [[decorated cospan|decorated cospans]] and decorated corelations are hypergraph categories.
+
 ## Remarks
 
-* The reason for the definition is that if $X$ is a special commutative Frobenius algebra, then there is a unique morphism $X^{\otimes m}\to X^{\otimes n} $ induced by the Frobenius algebra structure.  It can of course be defined as the $m$-ary multiplication followed by the $n$-ary comultiplication; the real point is that the special commutative Frobenius axioms ensure that any composite of two such morphisms is again another such morphism.  This is what enables the hypergraph string diagrams described informally above.
+* The reason for the definition is that if $X$ is a special commutative Frobenius algebra, then there is a unique morphism $X^{\otimes m}\to X^{\otimes n} $ induced by the Frobenius algebra structure.  It can of course be defined as the $m$-ary multiplication followed by the $n$-ary comultiplication; the real point is that the special commutative Frobenius axioms ensure that any composite of two such morphisms is again another such morphism.  This is what enables the hypergraph string diagrams described informally above. (Some authors refer to these morphisms as "spiders" due to their appearance in [[string diagram|string diagrams]], as a black node with $m + n$ legs.)
 
 * The free hypergraph category on one object is the category of finite sets and isomorphism classes of cospans.  This is a decategorification of the fact that the free monoidal category containing a (non-special) commutative Frobenius algebra is the category of 1-dimensional [[manifolds]] and isomorphism classes of 2-dimensional [[cobordisms]].  More general free hypergraph categories can be constructed using labeled cospans.
 
