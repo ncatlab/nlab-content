@@ -266,6 +266,8 @@ For the moment see at _[[dendroidal set]]_ the section [Relation to simplicial s
 
 ## Related concepts
 
+* [[simplicial map]]
+
 * [[simplicial object]]
 
   * **simplicial set**
