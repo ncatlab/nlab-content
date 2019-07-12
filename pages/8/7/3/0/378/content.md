@@ -245,6 +245,13 @@ We check successively what this means for increasing $n$:
 
 =--
 
+### Constructive version
+
+The original [[proofs]] of the existence of the [[classical model structure on simplicial sets]] are based in [[classical mathematics]] as they use the [[principle of excluded middle]] and the [[axiom of choice]], and are hence not valid in [[constructive mathematics]]. This becomes more than a philosophical issue with the relevance of this [[model category]]-[[structure]] in [[homotopy type theory]], where [[internalization]] into the [[type theory]] requires [[constructive mathematics|constructive]] methods for interpreting [[proofs as programs]].
+
+A constructively valid model structure on simplicial sets and coinciding with the [[classical model structure on simplicial sets|classical model structure]] if [[excluded middle]] and [[axiom of choice]] are assumed was found in [Henry 19](constructive+model+structure+on+simplicial+sets#Henry19). Alternative simpler proofs were found in [Gambino-Sattler-Szumiło 19](constructive+model+structure+on+simplicial+sets#GambinoSattlerSzumilo19). 
+
+See at _[[constructive model structure on simplicial sets]]_.
 
 
 ## Joyal's Model Structure
