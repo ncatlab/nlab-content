@@ -1,3 +1,19 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Graph theory
++-- {: .hide}
+[[!include graph theory - contents]]
+=--
+=--
+=--
+
+
+
 # Hypergraph categories
 
 * table of contents
@@ -5,7 +21,7 @@
 
 ## Idea
 
-A *hypergraph category* is a [[monoidal category]] whose [[string diagrams]] are [[hypergraphs]].  Recall that in general the vertices of a string diagram correspond to morphisms in a category, and its edges to objects.  An ordinary string diagram is a [[quiver]], where the inputs and outputs of a vertex describe objects appearing in a tensor-product decomposition of the domain and codomain of a morphism; each edge is connected to only one vertex as input and one vertex as output because of how morphisms in a category are composed.  A hypergraph category allows edges to connect to many vertices as input and many vertices as output, which categorically means that we can compose many morphisms containing an object in their codomain with many morphisms containing that object in their domain.
+A *hypergraph category* is a [[monoidal category]] whose [[string diagrams]] are [[hypergraphs]].  Recall that in general the [[vertices]] of a string diagram correspond to [[morphisms]] in a [[category]], and its [[edges]] to [[objects]].  An ordinary string diagram is a [[quiver]], where the inputs and outputs of a vertex describe objects appearing in a [[tensor product]]-decomposition of the [[domain]] and [[codomain]] of a morphism; each edge is connected to only one vertex as input and one vertex as output because of how morphisms in a category are composed.  A hypergraph category allows edges to connect to many vertices as input and many vertices as output, which [[category theory|category theoretically]] means that we may [[composition|compose]] many morphisms containing an object in their [[codomain]] with many morphisms containing that object in their [[domain]].
 
 Hypergraph categories have been reinvented many times and given many different names, such as "well-supported compact closed categories" ([Carboni](#Carboni) and [RSW](#RSW)), "dgs-monoidal categories" ([GH](#GH)), and "spidered/dungeon categories" ([Morton](#Morton)).  The name "hypergraph category" is more recent ([Kissinger](#Kissinger) and [Fong](#FongDC)).
 
@@ -35,8 +51,11 @@ Note in particular that we do *not* require the morphisms of the category to be 
 
 * Note that the special commutative Frobenius algebras are not required to be "extra-special", meaning that the morphism $I = X^{\otimes 0} \to X^{\otimes 0} = I$ need not be the identity.  Thus, the relevant sort of "hypergraphs" can contain "edges not incident to any vertices".  If we add the extra-special condition, the cospans are replaced by "co-relations", i.e. jointly surjective cospans.
 
-## Hypergraph categories as monoids in a presheaf category
-Let $\mathbf{Cospan}_\Delta$ be the free hypergraph category on generators $\Delta$. The objects are lists of elements of $\Delta$, or equivalently pairs $(m,l)$ of a natural number $m$ and a labelling $l\colon m\to \Delta$. The morphisms are compatible cospans of functions (up to iso). 
+## Properties
+
+### As monoids in a presheaf category
+
+Let $\mathbf{Cospan}_\Delta$ be the free hypergraph category on [[generators and relations|generators]] $\Delta$. The objects are [[lists]] of [[elements]] of $\Delta$, or equivalently [[pairs]] $(m,l)$ of a [[natural number]] $m$ and a labelling $l\colon m\to \Delta$. The morphisms are compatible [[cospans]] of [[functions]] (up to [[isomorphism]]). 
 
 +-- {: .un_prop}
 ###### Theorem 
@@ -54,32 +73,31 @@ A lax monoidal functor is the same thing as a [monoid for the Day convolution](h
 
 ## References
 
-* Aleks Kissinger, *Finite matrices are complete for (dagger-)hypergraph categories*, [arxiv](https://arxiv.org/abs/1406.5942)
- {#Kissinger}
+* {#Kissinger} [[Aleks Kissinger]], *Finite matrices are complete for (dagger-)hypergraph categories* ([arxiv:1406.5942](https://arxiv.org/abs/1406.5942))
+ 
 
-* Brendan Fong, *Decorated Cospans*, Theory and Applications of Categories, Vol. 30, 2015, No. 33, pp 1096-1120, [arxiv](https://arxiv.org/abs/1502.00872)
- {#FongDC}
+* {#FongDC} [[Brendan Fong]], *Decorated Cospans*, Theory and Applications of Categories, Vol. 30, 2015, No. 33, pp 1096-1120 ([arxiv:1502.00872](https://arxiv.org/abs/1502.00872))
+ 
 
-* Brendan Fong, *The Algebra of Open and Interconnected Systems*, Ph.D. Thesis, [arxiv](https://arxiv.org/abs/1609.05382)
- {#FongThesis}
+* {#FongThesis} [[Brendan Fong]], *The Algebra of Open and Interconnected Systems*, Ph.D. Thesis ([arxiv:1609.05382](https://arxiv.org/abs/1609.05382))
+ 
 
-* A. Carboni. Matrices, relations and group representations. J. Algebra, 138(2):497&#8211;529, 1991
- {#Carboni}
+* {#Carboni} [[Aurelio Carboni]], _Matrices, relations and group representations_ J. Algebra, 138(2):497&#8211;529, 1991
+ 
 
-* R. Rosebrugh, N. Sabadini, and R. F. C. Walters. *Generic commutative separable algebras and cospans of graphs*. Th. App. Cat. 15(6):164&#8211;177, 2005. [online](http://www.tac.mta.ca/tac/volumes/15/6/15-06abs.html).
- {#RSW}
+* {#RSW} [[Robert Rosebrugh]], N. Sabadini, and R. F. C. Walters. *Generic commutative separable algebras and cospans of graphs*. Th. App. Cat. 15(6):164&#8211;177, 2005. [online](http://www.tac.mta.ca/tac/volumes/15/6/15-06abs.html).
+ 
 
-* F. Gadducci, R. Heckel. *An inductive view of graph transformation*. In "Recent Trends in Algebraic Development Techniques", Lecture Notes in
+* {#GH} F. Gadducci, R. Heckel. *An inductive view of graph transformation*. In "Recent Trends in Algebraic Development Techniques", Lecture Notes in
 Computer Science 1376:223&#8211;237. Springer&#8211;Verlag, Berlin Heidelberg, 1998.
- {#GH}
+ 
 
-* J. Morton. Belief propagation in monoidal categories. In B. Coecke, I. Hasuo, P. Panangaden, editors, Quantum Physics and Logic 2014 (QPL 2014), EPTCS 172:262&#8211;269.
- {#Morton}
+* {#Morton} [[Jeffrey Morton]], _Belief propagation in monoidal categories_ In [[Bob Coecke]], I. Hasuo, P. Panangaden (eds.) _Quantum Physics and Logic_ 2014 (QPL 2014), EPTCS 172:262&#8211;269.
+ 
 
-* B. Fong and D. I. Spivak. *Hypergraph Categories*. [arxiv](https://arxiv.org/abs/1806.08304) 
- {#FongSpivak}
+* {#FongSpivak} [[Brendan Fong]] and [[David Spivak]], *Hypergraph Categories* ([arxiv:1806.08304](https://arxiv.org/abs/1806.08304)) 
+ 
 
-[[!redirects hypergraph category]]
 [[!redirects hypergraph categories]]
 [[!redirects well-supported compact closed category]]
 [[!redirects well-supported compact closed categories]]
