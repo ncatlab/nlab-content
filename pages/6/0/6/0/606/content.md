@@ -141,6 +141,10 @@ Here
 
 =--
 
+## Related concepts
+
+* [[simplicial map]]
+
 ## References
 
 For instance definition 1.1 in 
