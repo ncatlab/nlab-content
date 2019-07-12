@@ -31,6 +31,8 @@
 
 * if quarks themselves were bound states (which they are not according to the [[standard model of particle physics]]) then one would call them bound states of _[[preons]]_
 
+* a [[composite Higgs boson]] would be a bound state of a strongly interacting sector beyond the current [[standard model of particle physics]]
+
 * [[D-branes]] and [[anti D-branes]] form bound states by [[tachyon condensation]], thought to imply the classification of [[D-brane charge]] by [[K-theory]]
 
 * [[D5-branes]] and [[NS5-branes]] form bound states to [[(p,q)5-branes]]
