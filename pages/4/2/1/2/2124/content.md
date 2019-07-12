@@ -256,7 +256,7 @@ Discussion of extremal/BPS [[black branes]] in [[supergravity]] (especially in [
 
 Specifically for $1/2^n$-BPS states of intersecting [[M-branes]] in 11d there is discussion in 
 
-* {#Tseytlin96} [[Arkady Tseytlin]], _Harmonic superpositions of M-branes_, Nucl.Phys.B475:149-163,1996 ([arXiv:hep-th/9604035](https://arxiv.org/abs/hep-th/9604035)) also in [[Chris Hull]] (ed.) chapter 5 of _[[The World in Eleven Dimensions]]_
+* {#Tseytlin96} [[Arkady Tseytlin]], _Harmonic superpositions of M-branes_, Nucl.Phys.B475:149-163,1996 ([arXiv:hep-th/9604035](https://arxiv.org/abs/hep-th/9604035)) also in [[Mike Duff]] (ed.) chapter 5 of _[[The World in Eleven Dimensions]]_
 
 see also 
 
