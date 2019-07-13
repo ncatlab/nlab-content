@@ -19,7 +19,10 @@
 The _conformal bootstrap program_ ([Belavin-Polyakov-Zamolofchikov 84](#BelavinPolyakovZamolofchikov84)) is an attempt to construct and classify [[conformal field theories]] [[non-perturbative field theory|non-perturbatively]] by [[axiom|axiomatizing]] the properties of their [[operator product expansion]]/[[correlation functions]].
 
 
-The conformal bootstrap was proposed in the 1970s as a strategy for calculating the properties of second-order phase transitions. After spectacular success elucidating two-dimensional systems, little progress was made on systems in higher dimensions until a recent renaissance beginning in 2008 ([Poland-Simmons-Duffin 16](#PolandSimmonsDuffin16)). 
+The conformal bootstrap was proposed in the 1970s as a strategy for calculating the properties of second-order [[phase transitions]]. After spectacular success elucidating two-dimensional systems, little progress was made on systems in higher dimensions until a recent renaissance beginning in 2008 ([Poland-Simmons-Duffin 16](#PolandSimmonsDuffin16)). 
+
+The generalization of the conformal bootstrap to [[superconformal field theories]] has the potential to 
+provide, via [[AdS/CFT]], a precise and detailed construction of [[large-N limit|large-N]] and [[asymptotic boundary|asymptotically]] [[anti-de Sitter spacetime|AdS]] [[string theory|string]]/[[M-theory]].
 
 ## Related concepts
 
@@ -57,5 +60,25 @@ For [[superconformal field theory]], such as [[D=4 N=1 SYM]], [[D=4 N=2 SYM]], [
 * {#BRR29} [[Christopher Beem]], [[Leonardo Rastelli]], Balt C. van Rees, _More $N=4$ superconformal bootstrap_ ([arXiv:1612.02363](https://arxiv.org/abs/1612.02363))
 
 
+### In AdS/CFT
+
+Discussion of [[superconformal bootstrap]] in view of [[AdS/CFT]], hence as a precise and detailed construction of [[large-N limit|large-N]] and [[asymptotic boundary|asymptotically]] [[anti-de Sitter spacetime|AdS]] [[string theory]]/[[M-theory]]:
+
+[[KK-compactification|extra dimensions]]:
+
+* [[Luis Alday]], [[Eric Perlmutter]], _Growing Extra Dimensions in AdS/CFT_ ([arXiv1906.01477](https://arxiv.org/abs/1906.01477))
+
+[[string scattering amplitudes]] ;
+
+* {#ABP18} [[Luis Alday]], [[Agnese Bissi]], [[Eric Perlmutter]], _Genus-One String Amplitudes from Conformal Field Theory_, JHEP06(2019) 010 ([arXiv:1809.10670](https://arxiv.org/abs/1809.10670))
+
+[[D=6 N=(2,0) SCFT]]:
+
+* {#ChesterPerlmutter18} Shai M. Chester, [[Eric Perlmutter]], _M-Theory Reconstruction from $(2,0)$ CFT and the Chiral Algebra Conjecture_ ([arXiv:1805.00892](https://arxiv.org/abs/1805.00892))
+
+
+
 
 [[!redirects conformal bootstrap program]]
+
+[[!redirects superconformal bootstrap]]
