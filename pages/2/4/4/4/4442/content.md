@@ -221,6 +221,8 @@ Comparison to [[string scattering amplitudes]] beyond the planar SCFT limit: [AB
 
 Exact duality checks pertaining to the full stringy regime for $AdS_3/CFT_2$: [Eberhardt-Gaberdiel 19a](#EberhardtGaberdiel19a), [Eberhardt-Gaberdiel 19b](#EberhardtGaberdiel19b)
 
+Numerical checks using [[lattice gauge theory]] are reviewed in [Joseph 15](#Joseph15).
+
 ## Formalizations
 
 The full formalization of AdS/CFT is still very much out of reach, but maybe mostly for lack of trying. 
@@ -342,7 +344,13 @@ Further references include:
 
 * [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012))
 
-Review of [[Yangian]] symmetry includes
+Review of [[lattice gauge theory]]-numerics:
+
+
+* {#Joseph15} Anosh Joseph, _Review of Lattice Supersymmetry and Gauge-Gravity Duality_
+([arXiv:1509.01440](https://arxiv.org/abs/1509.01440))
+
+Review of [[Yangian]] symmetry:
 
 
 * [[Alessandro Torrielli]], _Yangians, S-matrices and AdS/CFT_,	  J.Phys.A44:263001,2011 ([arXiv:1104.2474](http://arxiv.org/abs/1104.2474))
