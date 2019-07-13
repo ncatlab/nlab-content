@@ -28,6 +28,8 @@ Many characteristic properties of macroscopic physical systems only appear in th
 
 * [[universality class]]
 
+* [[conformal bootstrap]]
+
 * [[quantum lattice system]]
 
 ## References
