@@ -180,7 +180,11 @@ Relation to [[black holes in string theory]]:
 
 ### Relation to lattice gauge theory
 
-Relation to [[lattice gauge theory]]:
+Relation to [[lattice gauge theory]] and numerical tests of [[AdS/CFT]]:
+
+
+* {#Joseph15} Anosh Joseph, _Review of Lattice Supersymmetry and Gauge-Gravity Duality_
+([arXiv:1509.01440](https://arxiv.org/abs/1509.01440))
 
 * Veselin G. Filev, Denjoe O'Connor, _The BFSS model on the lattice_, JHEP 1605 (2016) 167 ([arXiv:1506.01366](https://arxiv.org/abs/1506.01366))
 
