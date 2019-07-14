@@ -62,7 +62,7 @@ Accordingly an arbitrary locally presentable $(\infty,1)$-category is analogous 
 +-- {: .un_prop}
 ###### Proposition
 
-For $\hat C, \hat D$ two [[(∞,1)-categories of (∞,1)-presheaves]], a morphism $\hat C \to \hat D$ in [[Pr(∞,1)Cat]] is equivalently a [[profunctor]] $C  &#8696; D$.
+For $\hat C, \hat D$ two [[(∞,1)-categories of (∞,1)-presheaves]], a morphism $\hat C \to \hat D$ in [[Pr(∞,1)Cat]] is equivalently a [[(∞,1)-profunctor]] $C  &#8696; D$.
 
 =--
 
