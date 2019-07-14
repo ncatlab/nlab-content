@@ -184,7 +184,7 @@ This is Lemma 9.5.15 and Proposition 9.5.16 of [Hirschhorn](#Hirschhorn).
 
 * The  [[classical model structure on simplicial sets]] $sSet_{Quillen}$ is a [[closed monoidal category|closed]] [[monoidal model category]] and is hence naturally enriched, as a model category, over itself. This is the archetypical simplicial model category.
 
-* The [[classical model structure on topological spaces]] for [[compactly generated topological spaces]] ([here](classical+model+structure+on+topological+spaces#ModelStructureOnCompactlyGeneratedTopologicalSpaces)) is similarly enriched over itself. Under [[geometric realization]] this makes also makes it a simplicial model category. 
+* The [[classical model structure on topological spaces]] for [[compactly generated topological spaces]] ([here](classical+model+structure+on+topological+spaces#ModelStructureOnCompactlyGeneratedTopologicalSpaces)) is similarly enriched over itself. Under [[geometric realization]] this also makes it a simplicial model category. 
 
   (See also for instance [Goerss-Schemmerhorn 06, p. 26](#GoerssSchemmerhorn06))
 
