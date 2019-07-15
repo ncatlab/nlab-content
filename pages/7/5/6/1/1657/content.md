@@ -75,11 +75,25 @@ The first of these conditions will follow for all of the generalised notions of 
 From now on, we drop (2); the next step is to generalize the [[target]] of $\mu$, as follows:
 
 *  Use $[0,\infty]$ (instead of $[0,1]$) for a __positive measure__.
-*  Use $\mathbf{R} = {]{-\infty,\infty}[}$ for a __finite measure__.
-*  Use ${]{-\infty,\infty}]}$ for a __signed measure__.
+*  Use $\mathbf{R} = {]{-\infty,\infty}[}$ for a (finite) __signed measure__ (alias __charge__).
 *  Use $\mathbf{C}$ for a __complex-valued measure__.
 *  Use an arbitrary [[topological vector space]] $V$ for a __vector-valued measure__.
 *  In principle, one could go further yet; $V$ just needs an analogue of addition with a notion of infinitary sum (such as a [[topological abelian group]] has).  But until someone suggests a useful example, we will leave this to the [[centipede mathematics|centipedes]].
+
+We define a __nonfinite measure__ by replacing the domain of $\mu$ by
+an ideal $\Sigma'$ of $\Sigma$ such that the following
+saturation condition is satisfied: if $\{S_i\}_{i\in I}$ is a disjoint
+family of elements of $\Sigma'$ and $\sum_{i\in I}|\mu|(S_i)$ exists (and is finite),
+then $\bigcup_{i\in I}S_i\in\Sigma'$.
+With such a modification, the codomain of $\mu$ should no longer have $\infty$ or $-\infty$ in it and the countable additivity condition should now be modified to require
+$\bigcup_{i\in I}S_i\in\Sigma'$.
+
+A nonfinite measure $\mu$ is __semifinite__ if for any $S\in\Sigma\setminus\Sigma'$
+there is $T\in\Sigma'$ such that $T\subset S$ and $\mu(T)\gt0$.
+The [[Radon-Nikodym theorem]] shows that semifinite complex-valued
+measures that are absolutely continuous with respect to some fixed
+[[localizable measure]] form a [[free module]] over the [[algebra]]
+of complex-valued measurable functions (not necessarily bounded).
 
 Some further terms:
 
