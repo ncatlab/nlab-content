@@ -48,6 +48,11 @@ The original articles are
 
 * [[Steven Weinberg]], Phys. Rev. D 26, 287 (1982)
 
+Theoretical predictions
+
+* Stefano Frixione, Benjamin Fuks, Valentin Hirschi, Kentarou Mawatari, Hua-Sheng Shao, Marthijn P. A. Sunder, Marco Zaro, _Automated simulations beyond the Standard Model: supersymmetry_ ([arXiv:1907.04898](https://arxiv.org/abs/1907.04898))
+
+
 ### Experimental status
 
 (...)
