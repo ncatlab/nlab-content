@@ -18,7 +18,7 @@ Recall that a [[poset]] $P$ consists of a collection of [[elements]] equipped wi
 
 Recall that a [[subset]] $D$ of $P$ is [[directed set|semidirected]] iff, whenever $x, y \in D$, there is some $z \in D$ such that $x \leq z$ and $y \leq z$.  Then $D$ is directed iff it is semidirected and [[inhabited subset|inhabited]].
 
-Recall that an [[upper bound]] of a subset $D$ of $P$ is an element $x$ such that $y \leq x$ whenever $x \in D$, and a [[join]] of $D$ is an upper bound $x$ such that $x \leq y$ whenever $y$ is an upper bound of $D$.  The join of $D$, if one exists, is unique, and we write it $\bigvee D$ (or even put a little arrow on the right flank of the symbol when $D$ is directed).  A [[bottom element]] is a join of the [[empty subset]].
+Recall that an [[upper bound]] of a subset $D$ of $P$ is an element $x$ such that $y \leq x$ whenever $y \in D$, and a [[join]] of $D$ is an upper bound $x$ such that $x \leq y$ whenever $y$ is an upper bound of $D$.  The join of $D$, if one exists, is unique, and we write it $\bigvee D$ (or even put a little arrow on the right flank of the symbol when $D$ is directed).  A [[bottom element]] is a join of the [[empty subset]].
 
 A __directed-complete partial order__ (__DCPO__) or __predomain__ is a poset in which every directed subset has a join.  A __pointed DCPO__ or __complete partial order__ (__CPO__) or __inductive partial order__ (__IPO__) or __semidirected-complete partial order__ or __domain__ or __lift algebra__ is a DCPO with a bottom element, equivalently a poset in which every semidirected subset has a join.
 
