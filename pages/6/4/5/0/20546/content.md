@@ -121,6 +121,9 @@ Nuclear Physics B ([hep-th/9707223](https://arxiv.org/abs/hep-th/9707223), <a hr
 
 * {#HSS18} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], Example 2.2.7 of: _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_, CMP (2019) ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987), [doi:10.1007/s00220-019-03442-3](http://link.springer.com/article/10.1007/s00220-019-03442-3))
 
+* Santiago Cabrera, [[Amihay Hanany]], Marcus Sperling, _Magnetic Quivers, Higgs Branches, and 6d $\mathcal{N}=(1,0)$ Theories_, J. High Energ. Phys. (2019) 2019: 71 ([arXiv:1904.12293](https://arxiv.org/abs/1904.12293))
+
+
 ### Type II/I' perspective
 
 * {#BrunnerKarch97} [[Ilka Brunner]], [[Andreas Karch]], _Branes at Orbifolds versus Hanany Witten in Six Dimensions_, JHEP 9803:003, 1998 ([arXiv:hep-th/9712143](https://arxiv.org/abs/hep-th/9712143))
