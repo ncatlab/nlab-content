@@ -52,7 +52,11 @@ for a proof of these claims.
 
 ## References
 
+* [[Simon Henry]], _Weak model categories in classical and constructive mathematics_ ([arXiv:1807.02650](https://arxiv.org/abs/1807.02650))
+
 * {#Henry19} [[Simon Henry]], _A constructive account of the Kan-Quillen model structure and of Kan's $Ex^\infty$ functor_ ([arXiv:1905.06160](https://arxiv.org/abs/1905.06160))
+
+* [[Nicola Gambino]], [[Simon Henry]], _Towards a constructive simplicial model of Univalent Foundations_ ([arXiv:1905.06281](https://arxiv.org/abs/1905.06281))
 
 * {#GambinoSattlerSzumilo19} [[Nicola Gambino]], [[Christian Sattler]], [[Karol Szumiło]], _The constructive Kan-Quillen model structure: two new proofs_ ([arXiv:1907.05394](https://arxiv.org/abs/1907.05394))
 
