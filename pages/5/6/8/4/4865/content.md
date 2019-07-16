@@ -1,3 +1,5 @@
+[[!redirects 11-dimensional supergravity]]
+[[!redirects 11-dimensional supergravity]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -241,7 +243,7 @@ following
 
 Much computational detail is displayed in
 
-* A. Miemiec, I. Schnakenburg, _Basics of M-Theory_, Fortsch.Phys. 54 (2006) 5-72 ([arXiv:hep-th/0509137](http://arxiv.org/abs/hep-th/0509137))
+* Andre Miemiec, Igor Schnakenburg, _Basics of M-Theory_, Fortsch.Phys. 54 (2006) 5-72 ([arXiv:hep-th/0509137](http://arxiv.org/abs/hep-th/0509137))
 
 ### Classical solutions and BPS states
 	
