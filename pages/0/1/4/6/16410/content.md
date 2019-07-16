@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -111,6 +112,10 @@ Discussion of de Sitter [[perturbative string theory vacua]] and their role in t
 * Jakob Moritz, Ander Retolaza, Alexander Westphal, _Towards de Sitter from 10D_, Phys. Rev. D 97, 046010 (2018) ([arXiv:1707.08678](https://arxiv.org/abs/1707.08678))
 
 * {#Sethi17} [[Savdeep Sethi]], _Supersymmetry Breaking by Fluxes_ ([arXiv:1709.03554](https://arxiv.org/abs/1709.03554))
+
+  re-amplified in:
+
+  [[Savdeep Sethi]], _Hope or No Hope for a String Landscape?_, talk at [StringPheno2019](https://indico.cern.ch/event/782251/) ([pdf](https://indico.cern.ch/event/782251/contributions/3441886/attachments/1870138/3076971/3_Sethi.pdf) [[SethiLandscape2019.pdf:file]])
 
 * {#DanielssonVanRiet18} [[Ulf Danielsson]], [[Thomas Van Riet]],  _What if string theory has no de Sitter vacua?_, International Journal of Modern Physics D, Vol. 27, No. 12, 1830007 (2018)  ([arXiv:1804.01120](https://arxiv.org/abs/1804.01120), [doi:10.1142/S0218271818300070](https://doi.org/10.1142/S0218271818300070))
 
