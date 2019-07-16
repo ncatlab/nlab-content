@@ -64,7 +64,7 @@ A compact closed category is a [[star-autonomous category]]: the [[tensor unit]]
 
 ## Examples
 
-* The category [[FinVect]] of [[finite-dimensional vector spaces]] is compact closed when equipped with the tensor product as monoidal structure, see [here](finite-dimensional+vector+space#CompactClosure). It is not compact closed with the direct sum as monoidal product.
+* The category [[FinVect]] of [[finite-dimensional vector spaces]] is compact closed when equipped with the tensor product as monoidal structure, see [[finite-dimensional vector space]]. It is not compact closed with the direct sum as monoidal product.
 
 * A compact closed [[discrete category]] is just an [[abelian group]].
 
