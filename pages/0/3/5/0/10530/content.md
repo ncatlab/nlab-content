@@ -1,3 +1,4 @@
+[[!redirects 2d (2,0)-superconformal QFT]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -44,7 +45,7 @@ The enhanced [[supersymmetry]] of the $2d$ $(2,0)$-models allows to consider the
 
 ## Related concepts
 
-* [[6d (2,0)-superconformal QFT]]
+* [[D=6 N=(2,0) SCFT]]
 
 * [[gauged linear sigma model]]
 
