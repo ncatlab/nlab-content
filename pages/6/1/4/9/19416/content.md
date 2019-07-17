@@ -24,7 +24,7 @@ The _hypothèse inspiratrice_ or _inspiring assumption_  is an assumption formul
 
 ## Proofs of lifts of the assumption
 
-The _hypothèse inspiratrice_ can be proven relatively easily if one re-formulates the question for a lift of the homotopy category to [[derivator|derivators]], [[(∞,1)-category theory|(∞,1)-category]], or some other such setting for [[homotopy theory]]. One such [[proof]] is given in [Cisinski 08](#Cisinski08). A different proof is given in [Toën-Vezzosi 02](#ToenVezzoi02), as the case $X=1$ of Corollary 5.2.2. 
+The _hypothèse inspiratrice_ can be proven relatively easily if one re-formulates the question for a lift of the homotopy category to [[derivator|derivators]], [[(∞,1)-category|(∞,1)-category theory]], or some other such setting for [[homotopy theory]]. One such [[proof]] is given in [Cisinski 08](#Cisinski08). A different proof is given in [Toën-Vezzosi 02](#ToenVezzoi02), as the case $X=1$ of Corollary 5.2.2. 
 
 ## Proof of the analogous statement for the category of sets
 
@@ -59,13 +59,13 @@ The original formulation in _[[Pursuing Stacks]]_ (page 30 in the pagination of 
 >
 >   Maybe these are facts well-known to the experts, maybe not - it is not my business here anyhow to prove such kind of things. It looks pretty plausible , because if there was any non trivial autoequivalence of $(Hot)$, or automorphism of its identity functor, I guess I would have heard about it, or something of the sort would flip to my mind. It would not be so if we abelianized $(Hot)$ some way or other, as there would be the loop and suspension functor, and homotheties by $-1$ of $id_{(Hot)}$.
 
-It most copies of Pursuing Stacks available, the assumption itself is blacked out. Tim Porter suggests that this is likely due to the text having been highlighted, probably in yellow, leading to the blacking out upon photocopying. Because of the blacking out, the assumption is also not available in circulating typed versions of Pursuing Stacks. Happily, Tim Porter has scanned _[[page 30.pdf|here:file]]_ the relevant page from his personal copy of Pursuing Stacks. The assumption is about mid-page. 
+In most copies of Pursuing Stacks available, the assumption itself is blacked out. Tim Porter suggests that this is likely due to the text having been highlighted, probably in yellow, leading to the blacking out upon photocopying. Because of the blacking out, the assumption is also not available in circulating typed versions of Pursuing Stacks. Happily, Tim Porter has scanned _[[page 30.pdf|here:file]]_ the relevant page from his personal copy of Pursuing Stacks. The assumption is about mid-page. 
 
 Later on (page 71 in the pagination of the original document, section 41, around the 24th of March 1983), Grothendieck writes the following.
 
-> One comment still, upon the role played in the theory I am developing of the assumption (p.30) that the category of autoequivalences of $(Hot)$ is equivalent to the final category. This assumption has been a crucial guide for putting the emphasis where it really belongs, namely upon the set $W \subset Fl(H)$ of weak equivalences within a category $H$ [letter is a bit illegible] which one would like to take in some sense as a category of models for homotopy types -  the functors $H \rightarrow (Hot)$ following along automatically. However, in no statement whatever I proved so far, was this assumption ever used. On the other hand, the notion of a _modelizer_ introduced in the wake of the `assumption'' (of p.31) [this seems like a typo, presumably it should be p.30] was tacitly changed during the reflection, ...
+> One comment still, upon the role played in the theory I am developing of the assumption (p.30) that the category of autoequivalences of $(Hot)$ is equivalent to the final category. This assumption has been a crucial guide for putting the emphasis where it really belongs, namely upon the set $W \subset Fl(H)$ of weak equivalences within a category $H$ [letter is a bit illegible] which one would like to take in some sense as a category of models for homotopy types -  the functors $H \rightarrow (Hot)$ following along automatically. However, in no statement whatever I proved so far, was this assumption ever used. On the other hand, the notion of a _modelizer_ introduced in the wake of the 'assumption' (of p.31) [this seems like a typo, presumably it should be p.30] was tacitly changed during the reflection, ...
 
-Slightly later again (page 73, section 42, 25th of March 1983, the following is written, introducing the phrase "inspiring assumption":
+Slightly later again (page 73, section 42, 25th of March 1983), the following is written, introducing the phrase "inspiring assumption":
 
 > This is indeed very much in the spirit of the "inspiring assumption" of p.30, that the category of autoequivalences of $(Hot)$ is equivalent to the unit category, which implies indeed that for two categories $H, H'$ equivalent to $(Hot)$, there is a unique isomorphism between them.
 
