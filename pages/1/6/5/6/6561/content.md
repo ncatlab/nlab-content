@@ -99,7 +99,11 @@ Famously the solutions to [[self-dual Yang-Mills theory]] in [[dimension]] 4 can
 
 * [[little string theory]]
 
-* [[2d (2,0)-superconformal QFT]]
+* [[D=6 N=(1,0) SCFT]]
+
+* [[D=6 supergravity]]
+
+* [[D=2 N=(2,0) SCFT]]
 
 [[!include gauge theory from AdS-CFT -- table]]
 
