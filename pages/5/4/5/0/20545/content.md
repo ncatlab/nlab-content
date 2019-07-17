@@ -29,6 +29,11 @@ Arises from
 
 [[!include superconformal symmetry -- table]]
 
+
+* [[D=6 N=(2,0) SCFT]]
+
+* [[D=6 supergravity]]
+
 ## References
 
 ### From M-theory
