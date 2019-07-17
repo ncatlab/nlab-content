@@ -361,4 +361,8 @@ Relation to [[leptoquarks]] and [[flavour anomalies]]:
 [[!redirects Pati-Salam model]]
 [[!redirects Pati-Salam models]]
 
+[[!redirects Pati-Salam GUT model]]
+[[!redirects Pati-Salam GUT models]]
+
+
 [[!redirects GUT scale]]
