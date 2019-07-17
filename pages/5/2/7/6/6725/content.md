@@ -282,6 +282,8 @@ Discussion for [[7d supergravity]]:
 [[!redirects Horava–Witten theory]]
 [[!redirects Horava--Witten theory]]
 
+[[!redirects heterotic M-theory]]
+
 [[!redirects duality between M-theory and heterotic string theory]]
 [[!redirects duality between heterotic string theory and M-theory]]
 
