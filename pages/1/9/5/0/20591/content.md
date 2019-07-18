@@ -1,7 +1,11 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-A Mealy machine is a particular type of finite state automaton
+A _Mealy machine_ is a particular type of [[finite state automaton]].
 
 ## Definition
 
@@ -20,7 +24,6 @@ A finite _Mealy machine_, $\mathbf{A}$, consists of
 and
 
 * $\lambda:Q\times A \to B$, which associates  an output symbol with each transition.
-
 
 
 Again as for [[Moore machines]], there is an output response function $\omega_\mathbf{A}:A^*\to B^*$ defined s follows:
