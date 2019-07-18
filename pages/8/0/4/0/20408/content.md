@@ -33,9 +33,9 @@
 
 * [[duality between F-theory and heterotic string theory|F - HET]]
 
-**[[open/closed string dualiy]]**
+**[[open/closed string duality]]**
 
-* [[KLT relation]]
+* [[KLT relations]]
 
 **string-QFT duality**
 
