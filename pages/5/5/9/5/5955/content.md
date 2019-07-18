@@ -70,7 +70,7 @@ This presents a corresponding [[equivalence of (∞,1)-categories]]. If $R$ is a
 
 =--
 
-This equivalence on the level of [[homotopy categories]] is due to ([Robinson](#Robinson)). The refinement to a Quillen equivalence is ([SchwedeShipley, theorem 5.1.6](#SchwedeShipley)). See also the discussion at _[[stable model categories]]_. A direct description as an equivalence of $(\infty,1)$-categories appears as ([Lurie, theorem 7.1.2.13](#Lurie)).
+This equivalence on the level of [[homotopy categories]] is due to ([Robinson](#Robinson)). The refinement to a Quillen equivalence is ([SchwedeShipley, theorem 5.1.6](#SchwedeShipley)). See also the discussion at _[[stable model categories]]_. A direct description as an equivalence of $(\infty,1)$-categories appears as ([Lurie, remark 7.1.1.16](#Lurie)). If $R$ is a commutative ring, then this equivalence underlies an equivalence of symmetric monoidal $(\infty,1)$-categories by ([Lurie, theorem 7.1.2.13](#Lurie)).
 
 
 
