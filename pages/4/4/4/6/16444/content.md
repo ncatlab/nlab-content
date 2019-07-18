@@ -53,16 +53,16 @@ A conformal compactification, of _complexified_ [[Minkowski spacetime]] $\mathbb
 
 * [[Roger Penrose]], _Relativistic Symmetry Groups_, in A.O.Barut (ed.), _Group Theory in Non-Linear Problems: Lectures Presented at the NATO Advanced Study Institute on Mathematical Physics_  (1974)
 
-* Valentina, _Conformal compactifications_ ([pdf](http://www.fysik.su.se/~ingemar/relteori/valentinamaster.pdf))
+* Valentina, _Conformal compactifications_ ([pdf](http://www.fysik.su.se/~ingemar/relteori/valentinamaster.pdf) -- link appears to be dead)
 
-* J&#246;rg Frauendiener, _Conformal Infinity_ ([living reviews](http://relativity.livingreviews.org/Articles/lrr-2000-4/))
+* J&#246;rg Frauendiener, _Conformal Infinity_ ([living reviews](https://doi.org/10.12942/lrr-2004-1))
 
 * {#NikolovTodorov} Nikolay M. Nikolov, Ivan T. Todorov, _Lectures on Elliptic Functions and Modular Forms in Conformal Field Theory_, arXiv:[math-ph/0412039](http://arxiv.org/abs/math-ph/0412039)
  ([inspirehep pdf](http://inspirehep.net/record/674206/files/page1.pdf)).
 
 * {#FioresiLledoVaradarajan07} R. Fioresi, M. A. Lledo, [[Veeravalli Varadarajan]], _The Minkowski and conformal superspaces_, J.Math.Phys.48:113505,2007 ([arXiv:math/0609813](https://arxiv.org/abs/math/0609813))
 
-* {#Wong09} Willie Wong, _Conformal compactification of space-time_ ([web](https://williewong.wordpress.com/2009/10/26/conformal-compactification-of-space-time/)) (2009).
+* {#Wong09} Willie Wong, _Conformal compactification of space-time_ ([web](https://qnlw.info/post/conformal-compactification-spacetime/)) (2009).
 
 
 [[!redirects conformal compactifications]]
