@@ -1,3 +1,11 @@
+
+## Idea
+
+A Moore machine is a particular type of finite state automaton.
+
+## Definition
+
+
 A finite _Moore machine_, $\mathbf{A}$, consists of
 
 * $Q$, a finite set of _states_;
