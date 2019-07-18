@@ -134,6 +134,10 @@ There are connections between the theory of coalgebras and [[modal logic]]  for 
 
 * [[Bart Jacobs]], _Introduction to Coalgebra. Towards Mathematics of States and Observations_ ([book pdf](http://www.cs.ru.nl/B.Jacobs/CLG/JacobsCoalgebraIntro.pdf), [slides](http://cs.ioc.ee/ewscs/2011/jacobs/jacobs-slides.pdf))
 
+and also 
+
+* Corina Cırstea, Alexander Kurz, [[Dirk Pattinson]], Lutz Schroder and Yde Venema, _Modal Logics are Coalgebraic_, from the Computer Journal 2011, [here](http://users.cecs.anu.edu.au/~dpattinson/Publications/cj2011.pdf).
+
 and with [[quantum mechanics]], for which see this and
 
 * [[Samson Abramsky]], _Coalgebras, Chu Spaces, and Representations of Physical Systems_ ([arXiv:0910.3959](http://arxiv.org/abs/0910.3959))
