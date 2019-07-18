@@ -36,7 +36,13 @@ A morphism $f$ : ($Q$, $\delta$, $q_{0}$, $F$) $\to$ ($Q\prime$, $\delta\prime$,
 
 There is a [[category]] $Aut$ whose [[object|objects]] are deterministic sequential Moore automata and whose [[morphism|morphisms]] are simulations.
 
-##Variants
+## Examples
+
+* [[Moore machine]]
+
+* [[Mealy machine]]
+
+## Variants
 
 
 There are several variant forms of automaton.  The above just gives a basic one. Others are treated in the entries:
@@ -69,3 +75,6 @@ category:computer science
 [[!redirects automaton]]
 [[!redirects automata]]
 [[!redirects Aut]]
+
+[[!redirects finite state automaton]]
+[[!redirects finite state automatons]]
