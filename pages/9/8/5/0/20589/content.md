@@ -9,6 +9,6 @@ George H. Mealy was an American [[mathematics|mathematician]] and [[computer sci
 
 * [[Mealy machine]]
 
-
+* [[Mealy morphism]]
 
 category: people
