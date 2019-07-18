@@ -7,6 +7,8 @@
 
 A _Mealy machine_ is a particular type of [[finite state automaton]].
 
+A Mealy machine with input alphabet $A$ and output alphabet, $B$ is just a [[deterministic finite automaton]],which produces a letter of the output alphabet, $B$ at every transition step. More formally
+
 ## Definition
 
 A finite _Mealy machine_, $\mathbf{A}$, consists of
@@ -36,6 +38,20 @@ define $\omega_\mathbf{A}(x)= \lambda(q_0,x_1)\ldots \lambda(q_{n-1},x_n)$.
 
 Mealy machines and [[Moore machines]] have essentially the same descriptive power.
 
-## Related entry
+## Related entries
 
 * [[Moore machine]]
+
+* [[automata]]
+
+* [[Mealy morphism]]
+
+##References
+
+* [[Mark V. Lawson]], _[Finite automata](http://www.ma.hw.ac.uk/~markl/books.html)_, CRC Press, see also [here](http://www.ma.hw.ac.uk/~markl/teaching/AUTOMATA/kleene.pdf) for a shorter version in the form of Course Notes.
+
+
+* [[Dirk Pattinson]], _An Introduction to the Theory of Coalgebras_, [here](http://indiana.edu/~nasslli/2003/datas/DirkPattinson.pdf).
+
+
+[[!redirects Mealy machines]]
