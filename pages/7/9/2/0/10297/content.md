@@ -48,7 +48,7 @@ Further discussion includes
 
 * {#Sati10} [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_ , part I, Proc. Symp. Pure Math. 81 (2010), 181-236 [arXiv:1001.5020](http://arxiv.org/abs/1001.5020),
 
-* {#HoheneggerIqbal13} Stefan Hohenegger, Amer Iqbal, _M-strings, Elliptic Genera and N=4 String Amplitudes_ ([arXiv:1310.1325](http://arxiv.org/abs/1310.1325))
+* {#HoheneggerIqbal13} Stefan Hohenegger, [[Amer Iqbal]], _M-strings, Elliptic Genera and N=4 String Amplitudes_ ([arXiv:1310.1325](http://arxiv.org/abs/1310.1325))
 
 
 [[!redirects self-dual strings]]
