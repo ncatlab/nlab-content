@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On [[open/closed string duality]]:
+
+* [[Leonardo Rastelli]], _Lectures on open/closed string duality_, PiTP 2004 ([pdf](http://www.sns.ias.edu/pitp2/2004/IASrastelli.pdf), [[RastelliStringDuality.pdf:file]])
+
+
 On [[conformal bootstrap]] for [[SCFT]]:
 
 * [[Christopher Beem]], Madalena Lemos, Pedro Liendo, [[Leonardo Rastelli]], Balt C. van Rees, _The $N=2$ superconformal bootstrap_ ([arXiv:1412.7541](https://arxiv.org/abs/1412.7541))
