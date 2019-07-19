@@ -42,6 +42,13 @@ The appearance of self-dual string in six dimensions with an [[ADE classificatio
 
 * {#Witten95} [[Edward Witten]], _Some Comments On String Dynamics_ ([arXiv:hep-th/9507121](http://arxiv.org/abs/hep-th/9507121))
 
+As a [[Green-Schwarz sigma-model]] the [[brane scan]]-cocycle for the superstring in 6d is given in
+
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], (III.7.15) of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific, 1991
+
+  (in [[D'Auria-Fré formulation of supergravity]])
+
+
 Further discussion includes
 
 * [[John Schwarz]], _Self-Dual Superstring in Six Dimensions_ ([arXiv:hep-th/9604171](https://arxiv.org/abs/hep-th/9604171))
@@ -54,3 +61,5 @@ Further discussion includes
 
 
 [[!redirects self-dual strings]]
+
+[[!redirects self-dual string in 6d]]
