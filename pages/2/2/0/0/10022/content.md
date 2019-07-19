@@ -104,6 +104,9 @@ Review is in
 
 * {#NishiokaRyuTakayanagi09} Tatsuma Nishioka, [[Shinsei Ryu]], [[Tadashi Takayanagi]], _Holographic Entanglement Entropy: An Overview_, J.Phys.A42:504008,2009 ([arXiv:0905.0932](https://arxiv.org/abs/0905.0932))
 
+* Matthew Headrick, _Lectures on entanglement entropy in field theory and holography_ ([arXiv:1907.08126](https://arxiv.org/abs/1907.08126))
+
+
 Survey talks include
 
 * Meyers, _Holographic entanglement entropy_,  ([pdf slides](http://www.lpt.ens.fr/IMG/pdf/Myers.pdf))
