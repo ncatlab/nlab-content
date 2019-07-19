@@ -21,6 +21,14 @@ The _Ran space_ $Ran X$ of a [[space]], $X$, is the space of all [[finite set|fi
 
 The Ran space is defined, in [[topology|topological]] and [[algebraic geometry|algebro-geometric]] contexts, for instance in ([Lurie 14, lectures 7-9](#LurieTamagawaNumbers)). It is naturally a [[stratified space]] ([Ayala-Francis-Tanaka 14, section 3.7](#AyalaFrancisTanaka14))
 
+For cardinality $i$
+
+$$
+Ran_{\leq i} X = \text{colim} ( Fin_{surj,\leq i}^{op} \to Strat \to StTop )
+$$
+
+where $Fin_{surj,\leq i}$ has objects that are finite sets of cardinality at most $i$. When $i$ is infinite the subscript is left off as above.
+
 It is named after [[Ziv Ran]].
 
 ## Properties
@@ -32,7 +40,7 @@ The Ran space of a [[connected space|connected]] [[manifold]] is [[weakly contra
 
 
 $$
-  Ran_{2k+1}(S^1) \;\simeq\; S^{2k+1}
+  Ran_{\leq 2k+1}(S^1) \;\simeq\; S^{2k+1}
 $$
 
 ([Bott 52](#Bott52), [Tuffley 02](#Tuffley02))
