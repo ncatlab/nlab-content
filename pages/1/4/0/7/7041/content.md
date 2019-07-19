@@ -85,7 +85,7 @@ $$
 
 By construction the [[support]] of this function is the closed unit ball at the origin, $Supp(\phi) = B_0(1)$. 
 
-We claim that $\phi$ is smooth. That it is smooth away from $r \coloneqq {\Vert x \Vert} = 0$ is clear, hence smoothness only need to be checked at $r = 0$, where it amounts to demanding that all the [[derivatives]] of the exponential function vanish as $r \to 0$.
+We claim that $\phi$ is smooth. That it is smooth away from $r \coloneqq {\Vert x \Vert} = 1$ is clear, hence smoothness only need to be checked at $r = 1$, where it amounts to demanding that all the [[derivatives]] of the exponential function vanish as $r \to 1$.
 
 But that is the case since
 
