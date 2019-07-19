@@ -1,7 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Limits and colimits
++--{: .hide}
 [[!include infinity-limits - contents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -28,3 +34,5 @@ is a [[pushout]] square in some [[category]] then the [[morphism]] $U \to U \sqc
 ## Remarks
 
 * The [[duality|dual]] concept is [[base change]].
+
+
