@@ -30,14 +30,14 @@ The [[S-matrix]] elements obtained this way from the [[string perturbation serie
 (The _first superstring revolution_ was given by the realization that this makes sense: the effective background theories obtained this way are indeed free of [[quantum anomaly|quantum anomalies]].)
 
 
-Hence it is the chocie of [[worldsheet]] [[2d SCFT]] which in [[perturbative string theory]] translates products of "field insertions" into [[scattering amplitudes]]. In [[perturbative AQFT]] it is the choice of [[vacuum state]] which does this, and therefore [[2d SCFTs]] are the [[perturbative string theory vacua]]. 
+Hence it is the choice of [[worldsheet]] [[2d SCFT]] which in [[perturbative string theory]] translates products of "field insertions" into [[scattering amplitudes]]. In [[perturbative AQFT]] it is the choice of [[vacuum state]] which does this, and therefore [[2d SCFTs]] are the [[perturbative string theory vacua]]. 
 
 
 ### narrowing in on the issue ##
 
-The _second superstring revolution_ was given by the realization that all these background field theories seem to fit into one single bigger context that seems to exists independently of their perturbatve definitions. 
+The _second superstring revolution_ was given by the realization that all these background field theories seem to fit into one single bigger context that seems to exists independently of their perturbative definitions. 
 
-Aspects of this bigger non-perturbative context are known as [[M-theory]]. While one couldn't figure out what that actually is, the circumstancial evidence suggested that whatever it is, it has a low-energy limit where it also looks like an effective background field theory, this time [[11-dimensional supergravity]].
+Aspects of this bigger non-perturbative context are known as [[M-theory]]. While one couldn't figure out what that actually is, the circumstantial evidence suggested that whatever it is, it has a low-energy limit where it also looks like an effective background field theory, this time [[11-dimensional supergravity]].
 
 In a different but similar manner, other background field theories were found whose classical solutions are thought to encode "stable solutions" ("[[vacuum]] solutions") of whatever physical theory this non-perturbative definition of string theory is.
 
@@ -56,7 +56,7 @@ So, to summarize in a few words, the landscape of string theory vacua is...
 
 ## Flux compactifications 
 
-One widely studied class of modli-stabilized solutions to the string-theory background equations is that of **[[flux compactifications]]**.
+One widely studied class of moduli-stabilized solutions to the string-theory background equations is that of **[[flux compactifications]]**.
 
 These are classical solutions to the corresponding [[supergravity]] theory that are of the form $M^4 \times CY$ with $CY$ some [[Calabi-Yau manifold]] of six real dimensions such that the [[RR-field]] in the solution has nontrivial values on $CY$. Its components are called the _[[fluxes]]_ .
 
@@ -80,7 +80,7 @@ Discussion of [[string phenomenology]] of [[intersecting D-brane models]] [[KK-c
 
 ## Related concepts
 
-> at least one thing missing in the discussion here is the subtlety explained out by [[Jacques Distler]] in blog dicussion [here](http://golem.ph.utexas.edu/category/2009/10/structural_foundations_of_quan.html#c028474)
+> at least one thing missing in the discussion here is the subtlety explained out by [[Jacques Distler]] in blog discussion [here](http://golem.ph.utexas.edu/category/2009/10/structural_foundations_of_quan.html#c028474)
 
 * [[swampland]]
 
