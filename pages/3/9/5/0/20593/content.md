@@ -1,3 +1,4 @@
+
 # Structured Cospans
 
 * table of contents
@@ -57,10 +58,12 @@ which are composed horizontally in the obvious way.
 
 ## Related concepts
 * [[cospan]]
-* [[decorated cospans]]
+* [[decorated cospan]]
 * [[hypergraph category]]
 
 ## References ##
 Structured cospan categories were invented by Baez, Courser and Vasilakopolou. An introductory talk was given by Courser at the 4th Symposium on Compositional Structures:
 
 * Kenny Courser, _Structured cospans_ ([web](http://math.ucr.edu/home/baez/SYCO4/courser_syco4.pdf))
+
+[[!redirects structured cospans]]
