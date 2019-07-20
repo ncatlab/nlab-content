@@ -1,0 +1,66 @@
+# Structured Cospans
+
+* table of contents
+{: toc}
+
+## Idea
+A *structured cospan* is a modification of the concept of [[decorated cospans]] made to address the defect of what constitutes an isomorphism classes of them. In fact, the decoration of the target of an isomorphism of decorated cospan is completely determined by the decoration of the source and the chosen isomorphism of vertices.
+
+More clearly, let
+$$
+  \array{
+     && c && &&&&&& F(c)\\
+     & {}^{i}\nearrow && \nwarrow^{o} &&&&&& {}^d\nearrow\\
+     a && \downarrow^f && b &&&& 1 & & \downarrow^{F(f)} \\
+     & {}^{i'}\searrow && \swarrow^{o'}  &&&&&& {}^{d'}\searrow \\
+     && c' &&&&&&&& F(c')
+  }
+$$
+be an isomorphism of structured cospans, where $d$ and $d'$ are the decorations of the source and the target, respectively (i.e., the 'top' and the 'bottom' cospan in the left diagram, respectively). Then since the right diagram sits in $Set$, it commutes on the nose. Thus the decoration $d'$ is already determined by the data of bijection $c \to c'$, plus the decoration on the source.
+
+Therefore this definition of isomorphism deprives the situation of a degree of freedom, namely the freedom of specifying an isomorphism for the decorations, too. For example, when open graphs are treated with decorated cospans, the decoration $d$ of a cospan $a \to c \leftarrow b$ is a [[quiver]] with $c$ as vertex set. Therefore an isomorphism of such decorated cospans simply renames the source and target of each edge in $d$. However, isomorphism of quivers can be more than just relabeling of the vertices, hence we end up distinguishing open graphs by frivolous 
+details like the specific names we gave to edges.
+
+Decorated cospans solve this problem by moving the cospans to the 'decorating category', meaning that the data of an isomorphism of cospans now is an arrow between the decorations. In the example of open graphs, we now have to specify an isomorphism of quivers $d \to d'$ instead of getting this from the (poorer) isomorphism of their vertices.
+
+## Definition
+Let $\mathbf A$ be a category admitting finite coproducts, $\mathbf X$ a category admitting finite colimits and $L : \mathbf A \to \mathbf X$ a functor preserving finite coproducts. Then the [[symmetric monoidal category|symmetric monoidal]] [[double category]] of **structured cospans** over $L$ is the category $_L\mathrm{Csp}(\mathbf X)$ which has
+
+* objects given by objects of $\mathbf A$,
+* vertical 1-morphisms given by morphism of $\mathbf A$
+* horizontal 1-morphisms given by structured cospans:
+$$
+  \array{
+     && x
+      \\
+      & {}^{i}\nearrow
+      && \nwarrow^{o}
+     \\
+     L(a)
+     &&&&
+     L(b)
+  }
+$$
+which are composed through the obvious pushout,
+* 2-morphisms given by commutative diagrams of the form
+$$
+  \array{
+     L(a) & \leftarrow^i & x & \rightarrow^o & L(b)\\
+     \downarrow^{L(f)} & & \downarrow^h & & \downarrow^{L(g)}\\
+     L(a') & \leftarrow^{i'} & x' & \rightarrow^{o'} & L(b')\\
+  }
+$$
+which are composed horizontally in the obvious way.
+
+## Examples
+* By taking $L : \mathbf{Set} \to \mathbf{Graph}$ to be the *discrete graph functor*, i.e. the functor assigning to a set $V$ the edgeless graph with vertex set $V$, we get a category $_L\mathrm{Csp}(\mathbf{Graph})$ which models open graphs.
+
+## Related concepts
+* [[cospan]]
+* [[decorated cospans]]
+* [[hypergraph category]]
+
+## References ##
+Structured cospan categories were invented by Baez, Courser and Vasilakopolou. An introductory talk was given by Courser at the 4th Symposium on Compositional Structures:
+
+* Kenny Courser, _Structured cospans_ ([web](http://math.ucr.edu/home/baez/SYCO4/courser_syco4.pdf))
