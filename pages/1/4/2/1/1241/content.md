@@ -250,6 +250,8 @@ for non-superymmetric [[model (physics)|models]]:
 
 * {#FongMeloni14} Chee Sheng Fong, Davide Meloni, Aurora Meroni, Enrico Nardi, _Leptogenesis in $SO(10)$_ ([arXiv:1412.4776](http://arxiv.org/abs/1412.4776))
 
+  (in view of [[leptogenesis]])
+
 * {#OhlssonPernow19} Tommy Ohlsson, Marcus Pernow, _Fits to Non-Supersymmetric SO(10) Models with Type I and II Seesaw Mechanisms Using Renormalization Group Evolution_ ([arXiv:1903.08241](https://arxiv.org/abs/1903.08241))
 
 * {#CPS19} Mainak Chakraborty, M.K. Parida, Biswonath Sahoo, _Triplet Leptogenesis, Type-II Seesaw Dominance, Intrinsic Dark Matter, Vacuum Stability and Proton Decay in Minimal SO(10) Breakings_ ([arXiv:1906.05601](https://arxiv.org/abs/1906.05601))
