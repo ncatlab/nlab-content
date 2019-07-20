@@ -214,7 +214,7 @@ Let $A$ be an abelian category. The morphisms of simplicial objects (variant: of
 
 ##References##
 
-* Goerss, Jardine, _Simplicial homotopy theory_ ([ps](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-1.dvi))
+* Goerss, Jardine, _Simplicial homotopy theory_ ([pdf](http://dodo.pdmi.ras.ru/~topology/books/goerss-jardine.pdf))
 
 Cylinder based homotopy is also discussed extensively in
 
