@@ -113,6 +113,8 @@ Further developments:
 
 [[!redirects  D=5 sYM]]
 
+[[!redirects  D=5 SYM]]
+
 [[!redirects D=5 N=1 super Yang-Mills theory]]
 [[!redirects D=5 N=1 SYM]]
 
