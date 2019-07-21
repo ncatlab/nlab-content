@@ -77,6 +77,7 @@ $$ P, Q \vdash R $$
 
 means roughly that if I am playing three simultaneous games of $P$, $Q$, and $R$, in which I am the left player in $P$ and $Q$ and the right player in $R$, then I have a strategy which will enable me to win at least one of them.  Now the above statements about "resources" translate into saying that I have to play in all the games I am given and can't invent new ones on the fly.
 
+For example, $P \vdash P$ can be won by using the copycat strategy where one makes the two games identical except with left and right players reversed.
 
 ### As a relevant logic
 
@@ -342,6 +343,8 @@ All of these justify the rules for the exponentials, so again we see that there 
 ## Related concepts
 
 * [[bounded linear logic]]
+
+* [[game semantics]]
 
 * [[linear type theory]]
 
