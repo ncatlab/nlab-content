@@ -1,3 +1,4 @@
+[[!redirects 7-dimensional supergravity]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
