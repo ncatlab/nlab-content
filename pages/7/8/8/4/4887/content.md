@@ -30,6 +30,10 @@ The setup is reminiscent of how the [[deformation quantization]] of the phase sp
   
 > ([Gukov-Witten 08, p.4](#GukovWitten08))
 
+## Applications
+
+When the phase space $M$ is the coadjoint orbit for a real form $G_\mathbb{R}$, with the complexification being the complex coadjoint orbit $Y$ for $G_\mathbb{C}$. The particular cases when $G_\mathbb{C} = SL(2,\mathbb{C})$ are covered in section 3 of ([Gukov-Witten 08](#GukovWitten08)). These provide applications to representation theory like in the [[orbit method]].
+
 ## Related concepts
 
 * [[deformation quantization]]
@@ -79,3 +83,5 @@ A relation to the [[path integral]] is discussed in
 Relation to the [[B-model]] via [[mirror symmetry]] is discussed in 
 
 * [[Sergei Gukov]], _Quantization via Mirror Symmetry_ ([arXiv:1011.2218](http://arxiv.org/abs/1011.2218))
+
+[[!redirects brane quantization]]
