@@ -15,10 +15,10 @@ Let $k$ be a [[commutative ring]] and $G$ a [[linear order|linearly]] [[ordered 
 
 +--{: .un_defn}
 ###### Definition
-The **Novikov field** of $k$ with value group $G$ is the ring of functions $f:G\to k$ such that for any $g\in G$ the set $\{ x\in G \mid x \lt g \wedge f(x)\neq 0\}$ is finite.
+The **Novikov ring** of $k$ with value group $G$ is the ring of functions $f:G\to k$ such that for any $g\in G$ the set $\{ x\in G \mid x \lt g \wedge f(x)\neq 0\}$ is finite.
 =--
 
-Notationally, we write such a function as $\sum_{x\in G} f(x)\, t^x$ for $t$ a formal variable.
+Notationally, we write such a function as $\sum_{x\in G} f(x)\, t^x$ for $t$ a formal variable.  If $k$ is a [[field]], then so is the Novikov ring.
 
 
 ## Examples
@@ -48,6 +48,17 @@ It can also (probably) be characterized abstractly as
 * The universal Novikov field of $\mathbb{R}$ is a natural context in which to relate [[magnitude homology]] of finite [[metric spaces]] to their [[magnitude]].  (Hahn series also suffice, but all the action actually takes place in the Novikov field.)
 
 
+## Related pages
+
+Other rings of generalized power series include:
+
+* [[Puiseux series]]
+* [[Hahn series]]
+* [[Ribenboim power series]]
+
+Hahn series are a special kind of Ribenboim power series, but Puiseux and Novikov series are not.  However, they are all instances of the linearization of a [[finiteness space]].
+
+
 ## References
 
 * [Wikipedia: Novikov ring](https://en.wikipedia.org/wiki/Novikov_ring)
@@ -59,6 +70,7 @@ It can also (probably) be characterized abstractly as
 [[!redirects Novikov fields]]
 [[!redirects Novikov ring]]
 [[!redirects Novikov rings]]
+[[!redirects Novikov series]]
 [[!redirects universal Novikov field]]
 [[!redirects universal Novikov fields]]
 [[!redirects universal Novikov ring]]
