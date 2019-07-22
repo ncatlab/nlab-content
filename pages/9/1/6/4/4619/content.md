@@ -57,6 +57,16 @@ The residue class $\bar{u} \in K$ has an $n^{th}$ root (again by algebraic closu
 (Intend to solve for $y$ in $y^3 - x y + 1 = 0$ as a Puiseux series in $x$.) 
 =-- 
 
+## Related pages
+
+Other rings of generalized power series include:
+
+* [[Novikov field]]
+* [[Hahn series]]
+* [[Ribenboim power series]]
+
+Hahn series are a special kind of Ribenboim power series, but Puiseux and Novikov series are not.  However, they are all instances of the linearization of a [[finiteness space]].
+
 ## References
 
 * wikipedia [Puiseux series](http://en.wikipedia.org/wiki/Puiseux_series)
