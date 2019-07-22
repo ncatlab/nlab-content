@@ -47,6 +47,7 @@ It can also (probably) be characterized abstractly as
 
 * The universal Novikov field of $\mathbb{R}$ is a natural context in which to relate [[magnitude homology]] of finite [[metric spaces]] to their [[magnitude]].  (Hahn series also suffice, but all the action actually takes place in the Novikov field.)
 
+* In the [[Fukaya category]], the chain complexes defining Hom's between objects are defined over a Novikov ring.
 
 ## Related pages
 
