@@ -35,7 +35,7 @@ We refer to the elements of $\mathcal{U}$ as **finitary**, and the elements of $
 
 * Let $X$ be a [[linearly ordered set]] and let $\mathcal{U}$ the set of all *left-finite* subsets, i.e. those $u$ such that $u\cap \{ x \mid x \le y\}$ is finite for all $y$.  Since this is of the form $\mathcal{V}^\perp$ for $\mathcal{V}$ the set of subsets $\{x \mid x\le y\}$, it is a finiteness structure.
 
-## Morphisms
+## Categories of finiteness spaces
 
 A **relation** or **morphism** of finiteness spaces is a [[relation]] $R$ from $X$ to $Y$ such that
 
@@ -46,11 +46,47 @@ An equivalent way to say this is that
 
 * If $u\subseteq X$ is finitary and $v\subseteq Y$ is cofinitary, then the set $\{ (x,y) \mid x\in u \wedge y\in v \wedge x R y \} \subseteq X \times Y$ has finite images under both projections $X\times Y\to X$ and $X\times Y\to Y$.
 
-Let $FinSp_{rel}$ denote the category of finiteness spaces and relations, and $FinSp_{par}$ and $FinSp_{fun}$ its [[wide subcategories]] in which the morphisms are restricted to be [[partial functions]] or [[functions]], respectively.  (Note that a partial function lies in $FinSp_{par}$ if and only if the preimage of any cofinitary subset is cofinitary.)  Then:
+Additionally, in the presence of condition (1), condition (2) is equivalent to its special case when $v$ is a [[singleton]].
+
+Let $FinSp_{rel}$ denote the category of finiteness spaces and relations, and $FinSp_{par}$ and $FinSp_{fun}$ its [[wide subcategories]] in which the morphisms are restricted to be [[partial functions]] or [[functions]], respectively.
+
+Note that a partial function lies in $FinSp_{par}$ if and only if the preimage of any cofinitary subset is cofinitary.  For this is precisely the second condition above specialized to a partial function, while conversely if this holds then for any finitary $u\subseteq X$ and cofinitary $v\subseteq Y$, we have a surjection $u\cap f^{-1}(v) \to f(u) \cap v$ so that finiteness of the former implies finiteness of the latter.
+
+### Monoidal structures
 
 * All three categories are [[symmetric monoidal category|symmetric monoidal]] and the inclusions $FinSp_{fun} \hookrightarrow FinSp_{par} \hookrightarrow FinSp_{rel}$ are strict symmetric monoidal.
 * $FinSp_{rel}$ is [[star-autonomous]] (see [Ehrhard](#Ehrhard05)).
-* $FinSp_{par}$ is [[closed monoidal category|closed]], [[complete category|complete]], and [[cocomplete category|cocomplete]] (see [BCJS](#BCJS18)).
+* $FinSp_{par}$ is [[closed monoidal category|closed]] (see [BCJS](#BCJS18)).
+
+### Initial and terminal structures
+
+Let $Set_{par}$ denote the category of sets and [[partial functions]].  Note that $Set_{par}$ is equivalent to the category $Set_*$ of [[pointed sets]], and hence in particular is complete and cocomplete.
+
+The following theorem says that $FinSp_{par}$ and $FinSp_{fun}$ are *almost* [[topological concrete categories]] over $Set_{par}$ and $Set$ respectively.
+
++-- {: .un_theorem}
+###### Theorem
+The ([[faithful functor|faithful]]) forgetful functors $U_{par}:FinSp_{par} \to Set_{par}$ and $U_{fun}:FinSp_{fun} \to Set$ have [[initial lifts]] for all (possibly large) [[sink|sources]] $\{ f_i : X \rightharpoonup U(S_i) \}$ having the property that for all $x\in X$ there exists an $i$ such that $x\in dom(f_i)$.
+=--
++-- {: .proof}
+###### Proof
+The functor $U_{fun}$ is simply the pullback $U_{par}$ along the inclusion $Set \hookrightarrow Set_{par}$, so it suffices to consider the former, which we denote simply $U$.
+
+Let $X$ be a set and $\{ f_i : X \rightharpoonup U(S_i) \}$ a $U$-structured [[sink|source]] satisfying the given condition, where each $(S_i,\mathcal{V}_i)$ is a finiteness space.  Let $\mathcal{V} = \big(\bigcup_i f_i^{-1}(\mathcal{V}_i^\perp)\big)^\perp$, making $X$ a finiteness space for which $u\subseteq X$ is finitary if and only if $u \cap f_i^{-1}(v)$ is finite for all cofinitary $v\subseteq S_i$.  Thus each $f_i$ becomes a morphism in $FinSp_{par}$.
+
+For universality, suppose given a finiteness space $T$ and a partial function $g:U(T)\rightharpoonup X$ such that each composite $f_i\circ g$ is a morphism in $FinSp_{par}$.  The latter means that $(f_i\circ g)^{-1}(v)$ is cofinitary for all cofinitary $v\subseteq S_i$, which is to say $u \cap g^{-1}(f_i^{-1}(v))$ is finite for all finitary $u\subseteq T$.  It follows that $g(u) \cap f_i^{-1}(v)$ is finite (being a surjective image of $u \cap g^{-1}(f_i^{-1}(v))$), hence $g(u)$ is finitary, i.e. condition (1) in the definition of morphism holds.
+
+Thus it remains to show that for any $x\in X$ the preimage $g^{-1}(x)$ is cofinitary in $T$.  By assumption, there exists an $i$ such that $x\in dom(f_i)$, which is to say $x\in f_i^{-1}(f_i(x))$.  But then $g^{-1}(x) \subseteq g^{-1}(f_i^{-1}(f_i(x)))$, hence is cofinitary.
+=--
+
+In the case of $U_{fun}$, the extra condition reduces to the statement that if $X$ is inhabited then so is the set of indices $i$.  This condition is necessary: empty $U_{fun}$-structured sources on inhabited sets do not have initial lifts.  The only candidate is the maximal finiteness structure in which all subsets are finitary and only finite sets are cofinitary, but not all functions into a maximal finiteness space are finiteness functions (only those with finite fibers).
+
+In particular, $FinSp_{fun}$ does not have a terminal object, though it does have all inhabited limits, and the forgetful functor $FinSp_{fun} \to Set$ is a Grothendieck fibration.
+
+A similar argument shows that $FinSp_{par}$ has all inhabited limits.  (The above is essentially the argument given for this in [BCJS](#BCJS18), unraveled into an explicit construction of limits in $Set_{par}$ in terms of the equivalence to $Set_*$.)  But $FinSp_{par}$ also has a terminal object, namely the empty set with its unique finiteness structure, so it is a [[complete category]].
+
+In fact, $FinSp_{par}$ is also a [[cocomplete category]], as shown in [BCJS](#BCJS18).  But its coequalizers are not preserved by $U_{par}$, and in particular not constructed as final lifts of $U_{par}$-structured sinks.
+
 
 ## Linearization
 
