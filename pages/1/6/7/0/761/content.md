@@ -228,8 +228,8 @@ as a background to the following chapters  on versions for crossed modules and c
 
 The proof via homotopy colimits is roughly taken from
 
-* [[Emmanuel Dror Farjoun]], _Fundamental group of homotopy colimits_, Adv. in Math. 182 (2004), 1-27.  &lt;http://www.maths.ed.ac.uk/~aar/papers/farjoun.pdf&gt;
-{#Farjoun}
+* {#Farjoun} [[Emmanuel Dror Farjoun]], _Fundamental group of homotopy colimits_, Adv. in Math. 182 (2004), 1-27.  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/farjoun.pdf))
+
 
 Other references cited above:
 
