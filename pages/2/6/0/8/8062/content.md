@@ -26,7 +26,7 @@ A recent version is in
 _Model Theory for metric structures_, in Model Theory with Applications to Algebra and Analysis, Volume 2, Cambridge University Press, 2008, [pdf](http://matematicas.uniandes.edu.co/~aberenst/mtfms.pdf)
 * Alexander Berenstein, Andres Villaveces, _Hilbert spaces with random predicates_, [pdf](http://matematicas.uniandes.edu.co/~aberenst/amalg10.pdf) 
 
-A discussion of conceptual completeness in the setting of continuous logic is found in
+A discussion of [[conceptual completeness]] in the setting of continuous logic is found in
 
 * Jean-Martin Albert, Bradd Hart. _Metric logical categories and conceptual completeness for first order continuous logic_ [pdf](http://arxiv.org/pdf/1607.03068.pdf)
 
