@@ -200,6 +200,8 @@ and is further developed in the following articles:
 
 * Sergey Ketov, Maxim Khlopov, _Extending Starobinsky inflationary model in gravity and supergravity_ ([arXiv:1809.09975](https://arxiv.org/abs/1809.09975))
 
+* {#ENOV19} [[John Ellis]], [[Dimitri Nanopoulos]], [[Keith Olive]], Sarunas Verner, _A Unified No-Scale Model of Modulus Fixing, Inflation, Supersymmetry Breaking and Dark Energy_, Phys. Rev. D 100, 025009 (2019) ([arXiv:1903.05267](https://arxiv.org/abs/1903.05267), [doi:10.1103/PhysRevD.100.025009](https://doi.org/10.1103/PhysRevD.100.025009))
+
 ### Embedding into 11d supergravity
 
 Discussion of Starobinsky inflation in [[11-dimensional supergravity]] with its [[higher curvature corrections]] included (see [there](11-dimensional+supergravity#HigherCurvatureCorrection)) is in
