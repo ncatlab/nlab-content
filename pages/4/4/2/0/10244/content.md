@@ -48,3 +48,4 @@ Derivation of [[BPS state|1/2 BPS]] superembedding via [[rational equivariant ho
 * {#HSS18} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], Section 4 of _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_, Comm. Math. Phys. 2019 ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987))
 
 
+[[!redirects superembedding formalism]]
