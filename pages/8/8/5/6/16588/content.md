@@ -10,14 +10,16 @@ On realistic [[Yukawa couplings]] and [[fermion]] [[masses]] in an [[MSSM]] [[Pa
 
 * {#ChenLiMayesNanopoulos07b} Ching-Ming Chen, Tianjun Li, [[Van Eric Mayes]], [[Dimitri Nanopoulos]], _Realistic Yukawa Textures and SUSY Spectra from Intersecting Branes_, Phys.Rev.D77:125023, 2008 ([arXiv:0711.0396](https://arxiv.org/abs/0711.0396))
 
-On the [[Starobinsky model of cosmic inflation]]:
+On the [[Starobinsky model of cosmic inflation]] and its embedding into [[supergravity]]:
 
 * {#EllisCarciaNanopoulosOlive15} [[John Ellis]], Marcos A. G. Garcia, [[Dimitri Nanopoulos]], [[Keith Olive]], _Phenomenological Aspects of No-Scale Inflation Models_ ([arXiv:1503.08867](http://arxiv.org/abs/1503.08867))
 
 * [[John Ellis]], [[Dimitri Nanopoulos]], [[Keith Olive]], _No-Scale Supergravity Realization of the Starobinsky Model of Inflation_ Phys. Rev. Lett. 111, 111301 (2013) ([arXiv:1305.1247](http://arxiv.org/abs/1305.1247))
 
-
 * [[John Ellis]], [[Dimitri Nanopoulos]], [[Keith Olive]], _Starobinsky-like Inflationary Models as Avatars of No-Scale Supergravity_ JCAP 1310, 009 (2013) ([arXiv:1307.3537](http://arxiv.org/abs/1307.3537))
+
+* {#ENOV19} [[John Ellis]], [[Dimitri Nanopoulos]], [[Keith Olive]], Sarunas Verner, _A Unified No-Scale Model of Modulus Fixing, Inflation, Supersymmetry Breaking and Dark Energy_, Phys. Rev. D 100, 025009 (2019) ([arXiv:1903.05267](https://arxiv.org/abs/1903.05267), [doi:10.1103/PhysRevD.100.025009](https://doi.org/10.1103/PhysRevD.100.025009))
+
 
 ## Related $n$Lab entries
 
