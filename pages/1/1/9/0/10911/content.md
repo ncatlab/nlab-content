@@ -30,7 +30,11 @@ In ([Kim-Nishimura-Tsuchiya 12](#KimNishimuraTsuchiya12)) it is claimed that com
 
 * [[BFSS matrix model]]
 
+* [[lattice gauge theory]]
+
 ## References
+
+### General
 
 The original articles are
 
@@ -68,7 +72,15 @@ Discussion of [[standard model of particle physics|standard model]] [[phenomenol
 
 * [[Harold Steinacker]], Jochen Zahn, _An extended standard model and its Higgs geometry from the matrix model_, PTEP 2014 (2014) 8, 083B03 ([arXiv:1401.2020](http://arxiv.org/abs/1401.2020))
 
-There are claims that numerical computer simulations show that the IKKT model predicts a spontanously generated spacetime where exactly 3+1 dimensions become macroscopic (hence _[[moduli stabilization]]_)
+
+See also
+
+* A. Stern, Chuang Xu, _Signature change in matrix model solutions_ ([arXiv:1808.07963](https://arxiv.org/abs/1808.07963))
+
+### Computer simulation
+ {#ReferencesComputerSimulation}
+
+There are claims that numerical computer simulations (as in [[lattice gauge theory]], see the references [there](lattice+gauge+theory#ForSuperYangMills)) show that the IKKT matrix model  predicts a spontanously generated spacetime where exactly 3+1 dimensions become macroscopic (hence effectively predicts _[[moduli stabilization]]_ in spintaneous [[KK-compactification]] of [[M-theory]] to $D = 3+1$ macroscopic dimensions ):
 
 * {#KimNishimuraTsuchiya12} S.-W. Kim, J. Nishimura, and A. Tsuchiya, _Expanding (3+1)-dimensional universe from a Lorentzian matrix model for superstring theory in (9+1)-dimensions_, Phys. Rev. Lett. 108, 011601 (2012), ([arXiv:1108.1540](https://arxiv.org/abs/1108.1540)).
 
@@ -76,9 +88,7 @@ There are claims that numerical computer simulations show that the IKKT model pr
 
 * Yuta Ito, Jun Nishimura, Asato Tsuchiya, _Large-scale computation of the exponentially expanding universe in a simplified Lorentzian type IIB matrix model_ ([arXiv:1512.01923](https://arxiv.org/abs/1512.01923))
 
-See also
-
-* A. Stern, Chuang Xu, _Signature change in matrix model solutions_ ([arXiv:1808.07963](https://arxiv.org/abs/1808.07963))
+* {#AHINT19} Toshihiro Aoki, Mitsuaki Hirasawa, Yuta Ito, Jun Nishimura, Asato Tsuchiya, _On the structure of the emergent 3d expanding space in the Lorentzian type IIB matrix model_ ([arXiv:1904.05914](https://arxiv.org/abs/1904.05914))
 
 [[!redirects IIB matrix model]]
 
