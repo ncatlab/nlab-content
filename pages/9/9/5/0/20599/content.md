@@ -19,7 +19,7 @@
 
 ## Definition
 
-A [[locale]] $L$ is __Boolean__ if all of its elements are [[complemented]],
+A [[locale]] $L$ is __Boolean__ if all elements (of the corresponding [[frame]]) are [[complemented]],
 i.e., for any $a\in L$ we have $a\vee\neg a=1$.
 Equivalently, we could say that for all $a\in A$ we have $a=\neg\neg a$.
 
