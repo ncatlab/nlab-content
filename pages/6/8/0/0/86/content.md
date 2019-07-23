@@ -842,8 +842,7 @@ The original references on Hamiltonian BFV formalism are
 
 * [[Igor Batalin]], [[Grigori Vilkovisky]], _Relativistic S-matrix of dynamical systems with boson and fermion constraints_ , Phys. Lett. __B69__ (1977) 309-312; 
 
-* [[Igor Batalin]], [[Efim Fradkin]], _A generalized canonical formalism and quantization of reducible gauge theories_ , Phys. Lett.
-B122 (1983) 157-164.
+* [[Igor Batalin]], [[Efim Fradkin]], _A generalized canonical formalism and quantization of reducible gauge theories_ , Phys. Lett. B122 (1983) 157-164.
 
 Homological Poisson reduction is discussed in 
 
@@ -965,4 +964,6 @@ based on
 
 [[!redirects BV-BRST Lagrangian density]]
 [[!redirects BV-BRST Lagrangian densities]]
+
+[[!redirects BFV-formalism]]
 
