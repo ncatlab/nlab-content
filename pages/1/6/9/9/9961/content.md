@@ -142,22 +142,36 @@ Discussion of [[instantons]] in lattice QCd
 Lattice simulation of [[torus]]-[[KK-compactifications]] of [[10d super Yang-Mills theory]] and numerical test of [[AdS/CFT]]:
 
 
-* {#Joseph15} Anosh Joseph, _Review of Lattice Supersymmetry and Gauge-Gravity Duality_
-([arXiv:1509.01440](https://arxiv.org/abs/1509.01440))
+#### General
 
-
-* Veselin G. Filev, Denjoe O'Connor, _The BFSS model on the lattice_, JHEP 1605 (2016) 167 ([arXiv:1506.01366](https://arxiv.org/abs/1506.01366))
+* {#Joseph15} Anosh Joseph, _Review of Lattice Supersymmetry and Gauge-Gravity Duality_ ([arXiv:1509.01440](https://arxiv.org/abs/1509.01440))
 
 * {#Hanada16} Masanori Hanada, _What lattice theorists can do for superstring/M-theory_,  International Journal of Modern Physics AVol. 31, No. 22, 1643006 (2016)  ([arXiv:1604.05421](https://arxiv.org/abs/1604.05421))
+
+
+#### Compactification to $D = 1$ 
+ {#ReferencesBFSS}
+
+The [[BFSS matrix model]]:
+
+* Veselin G. Filev, Denjoe O'Connor, _The BFSS model on the lattice_, JHEP 1605 (2016) 167 ([arXiv:1506.01366](https://arxiv.org/abs/1506.01366))
 
 * Masanori Hanada, Paul Romatschke, _Lattice Simulations of 10d Yang-Mills toroidally compactified to 1d, 2d and 4d_ ([arXiv:1612.06395](https://arxiv.org/abs/1612.06395))
 
 
-For more see also at
+#### Compactification to $D= 0$  
+ {#ReferencesIKKT}
+ 
 
-* [[BFSS matrix model]]
+The [[IKKT matrix model]] and claims that it predicts spontaneous [[KK-compactification]] of the $D = 10$ [[M-theory|non-perturbative]] [[type IIB string theory]]/[[F-theory]] to $D = 3+1$ macrocopic [[spacetime]] [[dimensions]]:
 
-* [[IKKT matrix model]]
+* {#KimNishimuraTsuchiya12} S.-W. Kim, J. Nishimura, and A. Tsuchiya, _Expanding (3+1)-dimensional universe from a Lorentzian matrix model for superstring theory in (9+1)-dimensions_, Phys. Rev. Lett. 108, 011601 (2012), ([arXiv:1108.1540](https://arxiv.org/abs/1108.1540)).
+
+* S.-W. Kim, J. Nishimura, and A. Tsuchiya, _Late time behaviors of the expanding universe in the IIB matrix model_, JHEP 10, 147 (2012), ([arXiv:1208.0711](https://arxiv.org/abs/1208.0711)).
+
+* Yuta Ito, Jun Nishimura, Asato Tsuchiya, _Large-scale computation of the exponentially expanding universe in a simplified Lorentzian type IIB matrix model_ ([arXiv:1512.01923](https://arxiv.org/abs/1512.01923))
+
+* {#AHINT19} Toshihiro Aoki, Mitsuaki Hirasawa, Yuta Ito, Jun Nishimura, Asato Tsuchiya, _On the structure of the emergent 3d expanding space in the Lorentzian type IIB matrix model_ ([arXiv:1904.05914](https://arxiv.org/abs/1904.05914))
 
 
 
