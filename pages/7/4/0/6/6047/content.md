@@ -69,6 +69,8 @@ $dim \Sigma = 1$ this is the [[relativistic particle]], for $dim \Sigma = 2$ the
 
 * [[Polyakov action]]
 
+* [[Dirac-Born-Infeld action]]
+
 * [[particle]], [[string]], [[membrane]]
 
 * [[membrane instanton]]
