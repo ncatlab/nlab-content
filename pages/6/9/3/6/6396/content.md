@@ -20,13 +20,18 @@ On the [[self-dual string]]:
 
 * [[John Schwarz]], _Self-Dual Superstring in Six Dimensions_ ([arXiv:hep-th/9604171](https://arxiv.org/abs/hep-th/9604171))
 
-On the [[Perry-Schwarz action]] for the [[Green-Schwarz sigma-model]] of the [[M5-brane]] with the [[self-dual higher gauge field]] after [[KK-compactification]] to 5d:
+On the [[Perry-Schwarz action]] for the [[Green-Schwarz sigma-model]] of the [[M5-brane]] with the [[self-dual higher gauge field]] after [[KK-compactification]] to 5d (and [[double dimensional reduction]] to the [[D4-brane]]):
 
 * {#PerrySchwarz96} [[Malcolm Perry]], [[John Schwarz]], _Interacting Chiral Gauge Fields in Six Dimensions and Born-Infeld Theory_, Nucl. Phys. B489 (1997) 47-64 ([arXiv:hep-th/9611065](http://arxiv.org/abs/hep-th/9611065))
 
 * {#Schwarz97} [[John Schwarz]], _Coupling a Self-Dual Tensor to Gravity in Six Dimensions_, Phys. Lett. B395:191-195, 1997 ([pdf](http://cds.cern.ch/record/317663/files/9701008.pdf), <a href="https://doi.org/10.1016/S0370-2693(97)00094-4">doi:10.1016/S0370-2693(97)00094-4</a>)
 
 * [[Mina Aganagic]], Jaemo Park, Costin Popescu, [[John Schwarz]], _World-Volume Action of the M Theory Five-Brane_ ([arXiv:hep-th/9701166](http://arxiv.org/abs/hep-th/9701166))
+
+On [[Green-Schwarz sigma-models]] for [[D-branes]]:
+
+* {#APPS97b} [[Mina Aganagic]], Jaemo Park, Costin Popescu, [[John Schwarz]], _Dual D-Brane Actions_, Nucl. Phys. B496 (1997) 215-230 ([arXiv:hep-th/9702133](https://arxiv.org/abs/hep-th/9702133))
+
 
 On the history of [[string theory]]:
 
