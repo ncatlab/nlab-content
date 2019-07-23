@@ -33,6 +33,13 @@ From [Maldacena 18](#Maldacena18):
 
 > The SYK model gives us a glimpse into the interior of an [[extremal black hole]]... That's the feature of SYK that I find most interesting... It is a feature this model has, that I think no other model has
 
+## Definition
+
+Let $\mathcal{J}_{ijkl}$ be random variables with $E[\mathcal{J}_{ijkl}]=0$ and $E[\mathcal{J}_{ijkl}^2]=\frac{6J^2}{N^3}$. The Lagrangian is then
+
+$$
+L = \frac{1}{2} \sum_{i=1}^N \chi_i \partial_t \chi_i - \frac{1}{4!} \sum_{i,j,k,l=1}^N \mathcal{J}_{ijkl} \chi_i \chi_j \chi_k \chi_l
+$$
 
 ## Related concepts
 
