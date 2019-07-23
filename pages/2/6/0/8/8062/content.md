@@ -28,7 +28,7 @@ _Model Theory for metric structures_, in Model Theory with Applications to Algeb
 
 A discussion of [[conceptual completeness]] in the setting of continuous logic is found in
 
-* Jean-Martin Albert, Bradd Hart. _Metric logical categories and conceptual completeness for first order continuous logic_ [pdf](http://arxiv.org/pdf/1607.03068.pdf)
+* Jean-Martin Albert, Bradd Hart. _Metric logical categories and conceptual completeness for first order continuous logic_, ([arXiv:1607.03068](https://arxiv.org/abs/1607.03068))
 
 A treatment of metric space semantics for continuous logic as a variety of [[enriched categories]] is given in
 
