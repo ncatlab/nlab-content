@@ -4,6 +4,8 @@ A matrix $A$ over the field of [[real numbers]] is __[[totally positive matrix|t
 
 George Lusztig discovered that total positivity is closely related to some phenomena in the theory of [[Lie groups]] and [[quantum groups]]. Later, S. Fomin and [A. Zelevinsky](http://www.math.neu.edu/zelevinsky/andrei.html) studied the canonical bases for [[quantum groups]] and discovered the combinatorics of simple transformations and defined  associated classical and quantum __cluster algebras__ to such situations.   In particular, Stasheff [[associahedron|associahedra]] are  associated to these cluster algebras. Remarkably, they found an unusual [[algebraic geometry]] related to cluster algebras, possessing new, and at the beginning mysterious, [[Laurent phenomenon]]. Later, the cluster algebras appeared also in the connection to the representations of [[quivers]], tilting theory and the wall crossing phenomenon, with the applications in [[representation theory]] and the study of [[triangulated category|triangulated categories]].
 
+A cluster algebra of rank $n$ comes equipped with some subsets of size $n$ called clusters. Some of these clusters are related by sequences of operations called mutations.
+
 ##Definition##
 
 (this is still a stub)
