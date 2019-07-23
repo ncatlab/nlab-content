@@ -2,6 +2,10 @@ $\ldots$
 
 [[!-modality]]
 
+$X \longrightarrow \mathcal{X}$
+
+$\mathcal{X} \longrightarrow &#643;(\mathcal{X})$
+
 $xcv$ [[topos]] $abc$
 
 ***
