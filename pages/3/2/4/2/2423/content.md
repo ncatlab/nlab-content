@@ -499,3 +499,9 @@ $$
 and such that it preserves [[pullback]]
 
 (so its a [[cartesian functor]] between these [[fibered category|fibered categories]] that is also symmetric monoidal)
+
+## Invertible Field Theories
+
+In study of invertible field theories, let $\mid \mid Bord^G_n \mid \mid$ be the fundamental groupoid of the classifying space of $Bord^G_n$. Invertible field theories factor through this and the Picard subgroupoid $\mathcal{C}^*$ of the target.
+
+Kreck, S. Stolz, and P. Teichner.Invertible topological field theories are SKK invariants.
