@@ -112,6 +112,8 @@ $$ (f\cdot g)(m) = \sum_{(m_1,m_2)\in X_m(f,g)} f(m_1)\cdot g(m_2) $$
 
 where $X_m(f,g)$ is the set of pairs $(m_1,m_2)\in supp(f) \times supp(g)$ such that $m_1 \cdot m_2 = m$.
 
+If $X$ is merely a monoid in $FinSp_{rel}$, then the above multiplication is still defined, but may not be associative or unital.
+
 ### Examples
 
 * If $X$ is a minimal finiteness space, then the linearization $A\langle X\rangle$ is then the [[copower]] of $A$ by the set $X$ in [[Ab]].  Any monoid (or partial monoid) $M$ is a finiteness monoid with the minimal finiteness structure, and when $R$ is a ring the resulting ring structure on $R\langle M\rangle$ is induced on the basis elements by the multiplication of $M$.  When $M$ is a group $G$, this is the [[group algebra]] $R[G]$.
@@ -128,7 +130,7 @@ where $X_m(f,g)$ is the set of pairs $(m_1,m_2)\in supp(f) \times supp(g)$ such 
 * T. Ehrhard, *Finiteness spaces*, Mathematical Structures in Computer Science 15, pp. 615--646 (2005)
  {#Ehrhard05}
 
-* Richard Blute, Robin Cockett, Pierre-Alain Jacqmin, and Philip Scott, *Finiteness spaces and generalized power series*, [doi](https://doi.org/10.1016/j.entcs.2018.11.002), [arXiv:1805.09836](https://arxiv.org/abs/1805.09836)
+* Richard Blute, Robin Cockett, Pierre-Alain Jacqmin, and Philip Scott, *Finiteness spaces and generalized power series*, Electronic Notes in Theoretical Computer Science, 341 (2018), 5-22, [doi](https://doi.org/10.1016/j.entcs.2018.11.002), [arXiv:1805.09836](https://arxiv.org/abs/1805.09836)
  {#BCJS18}
 
 [[!redirects finiteness spaces]]
