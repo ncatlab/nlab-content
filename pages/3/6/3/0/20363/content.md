@@ -26,9 +26,11 @@ in the framework of [[homotopical algebra]] for working with algebraic objects t
 A _condensed set_ is a [[sheaf]] of sets on the [[pro-étale site]] of a point.
 That is, a condensed set is a functor
 $$ProfiniteSet^op \to Set$$
-such that the natural map
+such that the natural maps
+$$T(\emptyset)\to *$$
+and
 $$T(S\sqcup S')\to T(S)\times T(S')$$
-is a bijection for any [[profinite sets]] $S$ and $S'$,
+are bijections for any [[profinite sets]] $S$ and $S'$,
 whereas the natural [[fork]]
 $$T(S)\to T(S')\rightrightarrows T(S'\times_S S')$$
 is an [[equalizer]] for any surjection of [[profinite sets]] $S'\to S$.
