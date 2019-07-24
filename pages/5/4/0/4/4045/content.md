@@ -90,7 +90,7 @@
 
 * [[module over a monoid]]
 
-## Examples
+## Examples {#_examples}
 
 * [[tensor product]]
 
