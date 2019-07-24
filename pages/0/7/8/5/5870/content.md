@@ -93,7 +93,7 @@
 
 * [[∞-group extension]], [[Ext-group]]
 
-### Related concepts
+### Related concepts {#_related_concepts}
 
 * [[quantum group]] 
 
