@@ -37,7 +37,7 @@ Even in [[classical mathematics]], a [[frame]] is a Heyting algebra but not a bo
 
 Thus, every [[locale]] $L$ has a [[sublocale]] given by that nucleus, called the __double negation sublocale__ and denoted $L_{\neg\neg}$.  This sublocale is [[dense sublocale|dense]], and in fact it is the smallest dense sublocale of $L$, the [[intersection]] of all dense sublocales.
 
-Classically, we have $L = L_{\neg\neg}$ if and only if $L$ is the [[discrete locale]] on some [[set]] $S$ of points.  In [[constructive mathematics]], $S$ must also have [[decidable equality]].
+In [[classical mathematics]], if $L$ is a [[spatial locale]], then we have $L = L_{\neg\neg}$ if and only if $L$ is the [[discrete locale]] on some [[set]] $S$ of points.  In [[constructive mathematics]], the same holds except that $S$ must also have [[decidable equality]].
 
 +-- {: .num_example}
 ###### Example
