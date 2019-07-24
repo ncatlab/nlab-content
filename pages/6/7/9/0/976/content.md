@@ -31,7 +31,7 @@ Therefore one "expands" the space into a successive system of spaces which are g
 
 ## History
 
-Shape theory was first explicitly introduced by Polish mathematician [Karol Borsuk](http://www-groups.dcs.st-and.ac.uk/~history/Biographies/Borsuk.html) in the 1960s, although Christie, a student of Lefshetz, had done some initial development work on the same basic idea much earlier. One of the modern versions of shape theory is developed in terms of inverse systems of absolute neighbourhood retracts (ANRs) (which are [[pro-object]]s in the homotopy category of polyhedra).  These were introduced in this setting by [[Sibe Mardesic|S. Marde?i?]], and [[Jack Segal|J. Segal]] (1971) and independently, in a slightly different form, by [[Tim Porter]] (thesis, 1971), using the more combinatorial framework of [[pro-objects]] in the category of simplicial sets. This latter approach also indicated the possible link with the &#233;tale homotopy theory of Artin and Mazur, (Springer Lecture Notes 100).
+Shape theory was first explicitly introduced by Polish mathematician [Karol Borsuk](http://www-groups.dcs.st-and.ac.uk/~history/Biographies/Borsuk.html) in the 1960s, although Christie, a student of Lefshetz, had done some initial development work on the same basic idea much earlier. One of the modern versions of shape theory is developed in terms of inverse systems of absolute neighbourhood retracts (ANRs) (which are [[pro-object]]s in the homotopy category of polyhedra).  These were introduced in this setting by [[Sibe Mardesic|S. Mardešić]], and [[Jack Segal|J. Segal]] (1971) and independently, in a slightly different form, by [[Tim Porter]] (thesis, 1971), using the more combinatorial framework of [[pro-objects]] in the category of simplicial sets. This latter approach also indicated the possible link with the &#233;tale homotopy theory of Artin and Mazur, (Springer Lecture Notes 100).
 
 Shape theory is a '[[Cech methods|&#268;ech homotopy theory]]', having a similar relationship to &#268;ech homology as homotopy theory, based on the singular complex construction, has to singular homology. In fact, as mentioned above, the origins of both shape theory and strong shape theory go back than further Borsuk's initial papers  to work by [Lefshetz](http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Lefschetz.html) and his student, D. Christie (thesis plus article, D.E. Christie, _Net homotopy for compacta_,  [Trans. Amer. Math. Soc., 56 (1944) 275--308](www.ams.org/journals/tran/1944-056-00/home.html)). Christie considered a 2-truncated form of strong shape theory, categorically this corresponds to a lax or op-lax 2-categorical version of shape theory.
 Although many of the initial ideas were developed by Christie, the paper went unnoticed until Borsuk developed his slightly different approach in the late 1960s.
@@ -100,7 +100,7 @@ Consider the category $C =$[[Grp]] of groups and its subcategory $D$ of finite g
 
 This aspect is explored reasonably fully in the book by Cordier and Porter (see below).
 
-A different terminology and slightly different emphasis is often used within the shape theoretic literature as it corresponds more to the geometric intuition needed there, deriving originally from the important classical motivation of Borsuk, [[Sibe Marde?i?|Marde?i?]], and [[J. Segal|Segal]].
+A different terminology and slightly different emphasis is often used within the shape theoretic literature as it corresponds more to the geometric intuition needed there, deriving originally from the important classical motivation of Borsuk, [[Sibe Mardesic|Mardešić]], and [[J. Segal|Segal]].
 
 
 ## Shape theory for topological spaces {#ForTopSpaces}
@@ -223,11 +223,11 @@ A generalization in categorical approach is given in
 
 The 'ANR-systems' approach of Marde&#353;i&#263; and Segal appeared a bit later in
 
-* [[Sibe Mardesic|S. Marde?i?]], J. Segal, _Shapes of compacta and ANR-systems, Fund. Math. 72 (1971) 41-59,
+* [[Sibe Mardesic|S. Mardešić]], J. Segal, _Shapes of compacta and ANR-systems, Fund. Math. 72 (1971) 41-59,
 
 and is fully developed in 
 
-* [[Sibe Mardesic|S. Marde?i?]], J. Segal, _Shape theory_, North 
+* [[Sibe Mardesic|S. Mardešić]], J. Segal, _Shape theory_, North 
 Holland, 1982.
 
 The more or less equivalent pro-object approach was independently developed by Porter in 
@@ -238,9 +238,9 @@ The more or less equivalent pro-object approach was independently developed by P
 References relating more to strong shape  theory include:
 
 * D.A. Edwards and H. M. Hastings, (1976), &#268;ech and Steenrod homotopy theories with applications to geometric topology, Lecture Notes in Maths. 542, Springer-Verlag, [pdf](http://www.math.uga.edu/~davide/Cech_and_Steenrod_Homotopy_Theories_with_Applications_to_Geometric_Topology.pdf) 
-* J.T. Lisica and [[Sibe Mardesic|S. Marde?i?]], Coherent prohomotopy and strong shape theory, Glasnik Mat. 19(39) (1984) 335--399. 
+* J.T. Lisica and [[Sibe Mardesic|S. Mardešić]], Coherent prohomotopy and strong shape theory, Glasnik Mat. 19(39) (1984) 335--399. 
 
-* [[Sibe Mardesic|S. Marde?i?]], _Strong shape and homology_, Springer monographs in mathematics, Springer-Verlag. 
+* [[Sibe Mardesic|S. Mardešić]], _Strong shape and homology_, Springer monographs in mathematics, Springer-Verlag. 
 
 * [[Michael Batanin]], [Categorical strong shape theory](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1997__38_1_3_0), Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;g. 38 (1997), no. 1, 3--66.
 
@@ -280,10 +280,10 @@ The links are with K-theory and Kasparov's theory. This connection and a related
 
 That connection with [[asymptotic morphisms]] is fully explored in the work of [[Marius Dadarlat|Dadarlat]]; see his papers,
 
-* [[Marius Dadarlat|Marius D?d?rlat]], _Shape theory and asymptotic morphisms for C$^\ast$-algebras_,  Duke Math. J. 73(3):687-711, 1994, [MR95c:46117](http://www.ams.org/mathscinet-getitem?mr=1262931), [doi](http://dx.doi.org/10.1215/S0012-7094-94-07327-4)
+* [[Marius Dadarlat|Marius Dādārlat]], _Shape theory and asymptotic morphisms for C$^\ast$-algebras_,  Duke Math. J. 73(3):687-711, 1994, [MR95c:46117](http://www.ams.org/mathscinet-getitem?mr=1262931), [doi](http://dx.doi.org/10.1215/S0012-7094-94-07327-4)
  {#Dadarlat}
 
-* [[Marius Dadarlat|Marius D?d?rlat]], Terry A. Loring, _Deformations of topological spaces predicted by E-theory_, in Algebraic methods in operator theory, pages 316-327. Birkh&#228;user 1994. 
+* [[Marius Dadarlat|Marius Dādārlat]], Terry A. Loring, _Deformations of topological spaces predicted by E-theory_, in Algebraic methods in operator theory, pages 316-327. Birkh&#228;user 1994. 
 
 For links with dynamical systems see the early paper
 
