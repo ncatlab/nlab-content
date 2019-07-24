@@ -3,7 +3,14 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Pierre_Ramond)
 
-## related entries
+## Selected writings
+
+On the [[NSR superstring]]:
+
+* [[Pierre Ramond]], _Dual theory for Free Fermions_, Phys Rev. D3  2415 (1971) ([doi:10.1103/PhysRevD.3.2415](https://doi.org/10.1103/PhysRevD.3.2415))
+
+
+## Related $n$Lab entries
 
 * [[string theory]]
 
