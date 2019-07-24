@@ -72,6 +72,7 @@ In [[constructive mathematics]], however, not every arity class besides $\{1\}$ 
 
 * [[∞-ary exact category]], [[∞-ary site]]
 
+* [[arity space]]
 
 [[!redirects arity class]]
 [[!redirects arity classes]]
@@ -80,9 +81,7 @@ In [[constructive mathematics]], however, not every arity class besides $\{1\}$ 
 [[!redirects subunary]]
 [[!redirects finitary]]
 [[!redirects ∞-ary]]
-[[!redirects ?ary]]
+[[!redirects κ-ary]]
 [[!redirects kappa-ary]]
 [[!redirects infinitary]]
 [[!redirects infinity-ary]]
-[[!redirects ∞-ary]]
-[[!redirects ?ary]]
