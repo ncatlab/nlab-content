@@ -4,4 +4,6 @@ Samuel Mimram is a post-doc in the _Mod&#233;lisation et Analyse de Syst&#232;me
 
 ##Selected Preprints and publications
 
-* _Towards Higher dimensional rewriting theory_,[preprint](http://www.pps.univ-paris-diderot.fr/~smimram/docs/mimram_thdrt.pdf)
+* _Towards Higher dimensional rewriting theory_,[semanticscholar](https://pdfs.semanticscholar.org/a887/10b141afeb7bcee157e56beff635dcfb4350.pdf?_ga=2.155145712.991874601.1564010891-2034645618.1564010891)
+
+* _Towards 3-dimensional rewriting theory_,[arxiv](https://arxiv.org/pdf/1403.4094.pdf)
