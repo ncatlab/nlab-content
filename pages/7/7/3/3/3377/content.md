@@ -72,6 +72,8 @@ where the superscript on the right denotes restriction to semistable Higgs bundl
 
 For a Higgs bundle to admit a harmonic metric (...) it needs to be _stable_ (...).
 
+Stability is defined similarly to stability for holomorphic vector bundles except that instead of quantifying over all proper non-zero sub-bundles, one only considers proper $\Phi$ invariant sub-bundles. So in particular for $\Phi=0$, this is stability of the underlying vector bundle.
+
 ### In nonabelian Hodge theory
 
 In [[nonabelian Hodge theory]] the [[moduli space]] of stable Higgs bundles over a [[Riemann surface]] $X$ is identified with that of  [[special linear group]] $SL(n,\mathbb{C})$ [[irreducible representations]] of its [[fundamental group]] $\pi_1(X)$.
