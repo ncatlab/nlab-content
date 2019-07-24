@@ -93,14 +93,9 @@ whose components are identities for $i = j$ and are [[zero morphism|zero]] other
 +-- {: .proof}
 ###### Proof
 
-Consider first the zero-ary case. Given an [[initial object]] $\emptyset$ and a [[terminal object]] $\ast$, observe that since the [[hom-sets]] $Hom(\emptyset,\emptyset)$ and $Hom(\ast,\ast)$ by definition contain a single element, this element has to be the zero element in the abelian group structure. But it also has to be the identity morphism, and hence $id_\emptyset = 0$ and $id_{\ast} = 0$. It follows that the 0-element in $Hom(\ast, \emptyset)$ is a left and right inverse to the unique element in $Hom(\emptyset,\ast)$, and so this is an [[isomorphism]]
+Consider first the nullary (i.e., zero-ary) case. Given a [[terminal object]] $\ast$, for any object $A$ there is a zero morphism $0: \ast \to A$, for which the unique map $!: A \to \ast$, which is also the zero element in $\hom(A, \ast)$, is a left inverse. Being a left inverse, $!$ is an epi. If $f: \ast \to A$ is any map, then $f \circ ! = 0 \circ !$ is the zero element in $\hom(A, A)$, since composition preserves zero elements by $CMon$-enrichment. Then $f = 0$ by epicity, i.e., the only map $\ast \to A$ is the zero map, proving that $\ast$ is initial. (N.B.: this argument applies more generally to categories enriched in pointed sets, and is self-dual.) 
 
-$$
-  0 \;\colon\; \emptyset \overset{\simeq}{\longrightarrow} \ast
-  \,.
-$$
-
-Consider now the case of binary (co-)products. Using the existence of the [[zero object]], hence of [[zero morphisms]], then in addition to its canonical [[projection]] maps $p_i \colon X_1 \times X_2 \to X_i$, any binary [[product]] also receives "injection" maps $X_i \to X_1 \times X_2$, and dually for the [[coproduct]]:
+Consider now the case of binary (co-)products. Using [[zero morphisms]], in addition to its canonical [[projection]] maps $p_i \colon X_1 \times X_2 \to X_i$, any binary [[product]] also admits "injection" maps $X_i \to X_1 \times X_2$, and dually for the [[coproduct]]:
 
 $$
   \array{  
