@@ -45,4 +45,26 @@ In fact, the traditional [[Stonean duality]] is an immediate consequence of the 
 
 ## References
 
+The definition is due to [[Marshall Stone]], see
+
+\bibitem{ACSBR}
+Marshall~H.~Stone,
+_Algebraic characterizations of special Boolean rings_.
+Fundamenta Mathematicae 29:1 (1937), 223–303.
+
+Further investigations of Stonean and [[hyperstonean]] spaces were done by Dixmier:
+
+\bibitem{HS}
+Jacques Dixmier,
+_Sur certains espaces considérés par M.~H.~Stone_.
+Summa Brasiliensis Mathematicae 2 (1951), 151–182.
+[PDF](https://dmitripavlov.org/scans/dixmier.pdf).
+
+An expository account is available in Takesaki's book
+
+\bibitem{TOA}
+Masamichi Takesaki,
+_Theory of operator algebras I_.
+Encyclopaedia of Mathematical Sciences 124 (2002).
+
 [[!redirects Stonean locales]]
