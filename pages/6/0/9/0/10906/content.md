@@ -1,4 +1,3 @@
-[[!redirects coherent spaces]]
 
 #Contents#
 * table of contents
@@ -6,7 +5,7 @@
 
 ## Idea
 
-The notion of _coherent space_ is used for the [[semantics]] of [[linear logic]] in [[proof theory]].
+The notion of _coherent space_ is used for the [[semantics]] of [[linear logic]] in [[proof theory]].  They form a [[star-autonomous category]].
 
 ## References
 
