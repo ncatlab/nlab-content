@@ -183,3 +183,7 @@ A [[duality]] theorem for factorization homology, generalizing [[Poincare dualit
 Discussion in the context of [[extended TQFT]] appears in 
 
 * [[Claudia Scheimbauer]], _Factorization homology as a fully extended topological field theory_ ([pdf](https://people.maths.ox.ac.uk/scheimbauer/ScheimbauerThesis.pdf))
+
+##Videos:
+
+* [Videos from  from the BIRS Workshop 15w5125](http://www.birs.ca/events/2015/5-day-workshops/15w5125/videos) on _Factorizable Structures in Topology and Algebraic Geometry_.
