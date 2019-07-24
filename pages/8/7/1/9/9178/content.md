@@ -19,6 +19,13 @@
 
 _Quarks_ ([Gell-Mann 64](#GellMann64), [Zweig 64](#Zweig64)) are one of the fundamental [[particles]]/[[matter]] [[field (physics)|fields]] in the [[standard model of particle physics]]. Quarks couple to the [[Yang-Mills theory]] given by [[QCD]].
 
+Quarks come in three [[generations of fermions]]:
+
+| 1st generation | 2nd generation    | 3d generation    |
+|----------------|-------------------|------------------|
+|  [[up quark]]  | [[charm quark]]   | [[top quark]]    |
+| [[down quark]] | [[strange quark]] | [[bottom quark]] | 
+
 At room-[[temperature]] quarks always form [[bound states]] to [[hadrons]]. This phenomenon of _[[confinement]]_ is quantitatively well-reproduced by [[lattice QCD]] computations (see [Fodor-Hoelbling 12](#FodorHoelbling12)) and qualitatively well reproduced by conceptual arguments such as the [[AdS/QCD correspondence]], but a full analytic [[proof]] of confinement from a rigorous [[AQFT]]-like foundation of [[QCD]] remains open, see the _[[mass gap problem]]_.
 
 However, at high [[temperature]] [[QCD]] goes through a _deconfinement_ [[phase transition]] and enters another [[phase of matter]] known as the [[quark-gluon plasma]]. As the name suggests, here quarks and [[gluons]] are free.
