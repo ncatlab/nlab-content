@@ -54,3 +54,5 @@ The complement of a [[truth value]] (seen as a subset of the [[point]]) is calle
 
 [[!redirects pseudocomplement]]
 [[!redirects pseudocomplements]]
+
+[[!redirects complemented]]
