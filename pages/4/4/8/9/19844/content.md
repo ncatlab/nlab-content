@@ -223,6 +223,10 @@ General introduction to the issue is in
 
 * {#Alonso19} Rodrigo Alonso, _Lepton (non-) unversality in (flavor changing) neutral current B decays_, Proceedings of [FPCP2019](https://fpcp2019.triumf.ca/) ([arXiv:1907.01716](https://arxiv.org/abs/1907.01716))
 
+and for [[charm quark]] physics in
+
+* [[Alexey Petrov]], _Theory of rare charm decays into leptons_ ([arXiv:1704.03862](https://arxiv.org/abs/1704.03862))
+
 Comprehensive overview of the latest world-avereaged results to be found at:
 
 * {#HFLAV} _[Heavy Flavour Averaging group](https://hflav.web.cern.ch/)_ (HFLAV)
