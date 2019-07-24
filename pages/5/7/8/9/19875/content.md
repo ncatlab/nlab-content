@@ -28,6 +28,8 @@ Hints of [[flavour anomalies]] indicate that something peculiar may be going on 
 
 * [[top quark]]
 
+* [[charm quark]]
+
 ## References
 
 * Wikipedia, _[Bottom quark](https://en.wikipedia.org/wiki/Bottom_quark)_
