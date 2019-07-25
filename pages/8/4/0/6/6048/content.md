@@ -166,7 +166,7 @@ The [[Green-Schwarz sigma-model]]-type formulation of the supermembrane (as in t
 
 and is formulated elegantly via the [[superembedding approach]] in
 
-* {#HoweSezgin05} [[Paul Howe]], [[Ergin Sezgin]], _The supermembrane revisited_, Class.Quant.Grav. 22 (2005) 2167-2200 ([arXiv:hep-th/0412245](https://arxiv.org/abs/hep-th/0412245))
+* {#HoweSezgin05} [[Paul Howe]], [[Ergin Sezgin]], _The supermembrane revisited_, Class. Quant. Grav. 22 (2005) 2167-2200 ([arXiv:hep-th/0412245](https://arxiv.org/abs/hep-th/0412245))
   
 Its [[quantization]] of the was explored in 
 
