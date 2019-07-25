@@ -222,8 +222,6 @@ See also
 [[!redirects Yang-Mills action]]
 [[!redirects Yang-Mills action functional]]
 
-[[!redirects theta-angle]]
-[[!redirects theta-angles]]
 
 
 
