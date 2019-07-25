@@ -1,3 +1,13 @@
+## Reflection Equation
+
+Given a solution $R$ of the [[quantum Yang-Baxter matrix|Yang-Baxter]] equation, the reflection equation (with additive spectral parameter) reads
+
+$$
+R(u-v) K_1 (u) R(u+v) K_2 (v) = K_2 (v) R(u+v) K_1 (u) R(u-v)
+$$
+
+## References
+
 * Dimitri Gurevich, Pavel Pyatov, Pavel Saponov, _Reflection equation algebra in braided geometry_, Journal of Generalized Lie Theory and Applications __2__ (2008), No. 3, 162&#8211;174 [pdf](http://www.ashdin.com/journals/jglta/2008/3/v2_n3_13.pdf)
 * P. P. Kulish, _Reflection equation algebras and quantum groups_, in:
 Quantum and Non-Commutative Analysis, Mathematical Physics Studies __16__ (1993) 207-220 [doi](http://dx.doi.org/10.1007/978-94-017-2823-2_16)
