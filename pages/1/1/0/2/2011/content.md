@@ -34,11 +34,18 @@ For example, only some even-dimensional differentiable manifolds allow for [[sym
 
 This yields the relatively young subjects of symplectic and contact topologies, with the first significant results coming from Gromov. Any (Hausdorff paracompact finite-dimensional) differentiable manifold allows for [[Riemannian manifold|riemannian structure]] however; therefore there is no special subject of 'riemannian topology'.
 
-## Related entries
+## Entries in differential topology
 
 * [[Sard's theorem]], [[transversality]], [[Thom's transversality theorem]]
 
 * [[Reeb sphere theorem]]
+
+* [[cobordism]]
+
+* ...
+
+
+## Related entries
 
 * [[low dimensional topology]]
 
@@ -46,33 +53,46 @@ This yields the relatively young subjects of symplectic and contact topologies, 
 
 * [[equivariant differential topology]]
 
+
+
 ## References
 
-Though some of the basic results, methods and conjectures of differential topology go back to [Poincar&#233;](http://en.wikipedia.org/wiki/Henri_Poincar%C3%A9), Whitney, Morse and Pontrjagin, it became an independent field only in the late 1950s and early 1960s with the seminal works of Smale, Thom, Milnor and Hirsch. Soon after the initial effort on foundations, mainly in American school, a strong activity started in Soviet Union (Albert Schwarz, A. S. Mishchenko, S. Novikov, V. A. Rokhlin, M. Gromov...). 
+Though some of the basic results, methods and conjectures of differential topology go back to [Poincar&#233;](http://en.wikipedia.org/wiki/Henri_Poincar%C3%A9), Whitney, Morse and Pontrjagin, it became an independent field only in the late 1950s and early 1960s with the seminal works of Smale, Thom, Milnor and Hirsch. Soon after the initial effort on foundations, mainly in the American school, a strong activity started in Soviet Union (Albert Schwarz, A. S. Mishchenko, S. Novikov, V. A. Rokhlin, M. Gromov...). 
+
+Introductions and monographs:
 
 * {#Milnor64} [[John Milnor]], _Differential topology_, chapter 6 in T. L. Saaty (ed.) _Lectures On Modern Mathematic II_ 1964 ([web](https://archive.org/details/LecturesOnModernMathematicsIi), [pdf](https://ia801700.us.archive.org/6/items/LecturesOnModernMathematicsIi/Saaty-LecturesOnModernMathematicsIi.pdf)) 
 
-* John Milnor, _Topology from differential viewpoint_
-* James Munkres, Elementary differential geometry 
-* [[Morris Hirsch]], _Differential topology_, Springer GTM 33, [gBooks](http://books.google.com/books/about/?id=iSvnvOodWl8C)
+* [[John Milnor]], _Lectures on the h-cobordism theorem_, 1965 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/surgery/hcobord.pdf)) 
 
-* T. Br&#246;cker, K. J&#228;nich, C. B. Thomas, M. J. Thomas, _Introduction to differentiable topology_, 1982 (translated from German 1973 edition; $\exists$ also 1990 German 2nd edition)
-
-* [[R. Bott]], L. W. Tu, _Differential forms in algebraic topology_, Graduate Texts in Math. __82__, Springer 1982. xiv+331 pp.
-
-* [[Victor Guillemin]], Alan Pollack, _Differential topology_, Prentice-Hall
-
-* [[M. M. Postnikov]], _Introduction to Morse theory_ (in Russian)
-
-* J. Milnor, _Lectures on h-cobordism_ 
+* [[James Munkres]], _Elementary differential topology_, Princeton 1966
 
 * Andrew H. Wallace, _Differential topology: first steps_, Benjamin 1968.
 
+
+* [[Victor Guillemin]], Alan Pollack, _Differential topology_, Prentice-Hall 1974
+
+* [[Morris Hirsch]], _Differential topology_, Springer GTM 33 (1976) ([doi:https://link.springer.com/book/10.1007/978-1-4684-9449-5](https://link.springer.com/book/10.1007/978-1-4684-9449-5), [gBooks](http://books.google.com/books/about/?id=iSvnvOodWl8C))
+
+* T. Br&#246;cker, K. J&#228;nich, C. B. Thomas, M. J. Thomas, _Introduction to differentiable topology_, 1982 (translated from German 1973 edition; $\exists$ also 1990 German 2nd edition)
+
+
+* [[Raoul Bott]], [[Loring Tu]], _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Math. __82__, Springer 1982. xiv+331 pp.
+
+* [[John Milnor]], _Topology from the differential viewpoint_, Princeton University Press, 1997. ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnortop.pdf))
+
+* [[C. T. C. Wall]], _Differential topology_, Cambridge Studies in Advanced Mathematics 154, 2016
+
+
 * [[Joel W. Robbin]], [[Dietmar Salamon]], _Introduction to differential topology_, 294 pp, webdraft 2018 [pdf](https://people.math.ethz.ch/~salamon/PREPRINTS/difftop.pdf)
 
-* [[C. T. C. Wall]], _Differential topology_, Cambridge Studies in Advanced Matyhematics 154, 2016
+* {#Benedetti19} Riccardo Benedetti, _Lectures on Differential Topology_ ([arXiv:1907.10297](https://arxiv.org/abs/1907.10297))
 
-On the [[equivariant homotopy theory]]-version:
+See also 
+
+* Wikipedia, _[Differential topology](https://en.wikipedia.org/wiki/Differential_topology)_
+
+Generalization to [[equivariant differential topology]]:
 
 * {#Wasserman69} [[Arthur Wasserman]], _Equivariant differential topology_, Topology Vol. 8, pp. 127-150, 1969 ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/wasserman.pdf))
 
