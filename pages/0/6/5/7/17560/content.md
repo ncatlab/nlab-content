@@ -22,9 +22,11 @@
 
 ## Idea
 
-What is called _$\kappa$-symmetry_ in [[string theory]] is a certain fermionic [[symmetry]] of [[Green-Schwarz action functionals]] for [[super p-branes]] whose effect is to [[gauge symmetry|gauge away]] half of the [[spinor|spinorial]] [[sigma-model]] [[field (physics)|fields]].
+What is called _$\kappa$-symmetry_ in [[string theory]]/[[M-theory]] is a certain fermionic [[symmetry]] of [[Green-Schwarz action functionals]] for [[super p-branes]] whose effect is to [[gauge symmetry|gauge away]] half of the [[spinor|spinorial]] [[sigma-model]] [[field (physics)|fields]].
 
-In a completely super-covariant formulation of the [[Green-Schwarz action functionals]], this $\kappa$-symmetry is simply the odd-graded part of the [[supermanifold|super]]-[[worldvolume]] [[super-diffeomorphism]] symmetry of the [[sigma-model]] ([Sorokin-Tkach-Volkov 89](#SorokinTkachVolkov89), review includes [Sorokin 99, section 4.3](#Sorokin99), [Howe-Sezgin 04, section 4.3](#HoweSezgin04)): If 
+## As super-diffeomorphisms in the super-embedding approach
+
+In a completely super-covariant formulation of the [[Green-Schwarz action functionals]] -- called the _[[super-embedding formalism]]_ -- this $\kappa$-symmetry is simply the odd-graded part of the [[supermanifold|super]]-[[worldvolume]] [[super-diffeomorphism]] symmetry of the [[sigma-model]] ([Sorokin-Tkach-Volkov 89](#SorokinTkachVolkov89), review includes [Sorokin 99, section 4.3](#Sorokin99), [Howe-Sezgin 04, section 4.3](#HoweSezgin04)): If 
 
 1. $X$ denotes a [[superspacetime]] locally modeled on [[super-Minkowski spacetime]] $\mathbb{R}^{d-1,1\vert \mathbf{N}}$
 
