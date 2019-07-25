@@ -1,4 +1,5 @@
-[[!redirects semi-locally simply connected space]]
+[[!redirects semi-locally simply topological connected space]]
+
 
 #Contents#
 * automatic table of contents goes here
@@ -27,3 +28,5 @@ For a [[topos]]-theoretic notion of locally $n$-connected see [[locally n-connec
 
 [[!redirects locally simply-connected space]]
 [[!redirects locally simply-connected spaces]]
+[[!redirects semi-locally simply topological connected space]]
+[[!redirects semi-locally simply connected space]]
