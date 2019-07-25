@@ -180,8 +180,8 @@ Dependent W-type were introduced in
  {#GambinoHyland04}
 
 Related work is:
-Michael Abbott, Thorsten Altenkirch, and Neil Ghani, _Representing Nested Inductive Types using W-types_
-[PDF](www.cs.nott.ac.uk/~psztxa/publ/icalp04.pdf)
+
+* [[Michael Abbott]], [[Thorsten Altenkirch]], and [[Neil Ghani]], _Representing Nested Inductive Types using W-types_ ([pdf](http://www.cs.nott.ac.uk/~psztxa/publ/icalp04.pdf))
 
 Discussion in relation to [[identity types]] and [[homotopy type theory]] is in
 
