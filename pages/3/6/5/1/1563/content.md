@@ -128,7 +128,7 @@ See also at _[[higher category theory and physics]]_ for more on this.
 
 Lawvere has proposed formalizations in [[category theory]], [[categorical logic]] and [[topos theory]] of concepts which are motivated from [[philosophy]], notably in [[Georg Hegel]]'s _[[Science of Logic]]_ (see there for more). This includes for instance definitions of concepts found there such as: 
 
-* _[[objective and subjective logic]], _[[abstract general]]_, _[[concrete general]]_, _[[concrete particular]]_, _[[unity of opposites]]_, _[[Aufhebung]]_, _[[being]]_, _[[becoming]]_, _[[space and quantity]]_, _[[cohesion]]_, _[[intensive and extensive quantity]]_ 
+* _[[objective and subjective logic]]_, _[[abstract general]]_, _[[concrete general]]_, _[[concrete particular]]_, _[[unity of opposites]]_, _[[Aufhebung]]_, _[[being]]_, _[[becoming]]_, _[[space and quantity]]_, _[[cohesion]]_, _[[intensive and extensive quantity]]_ 
 
 (see the references in these entries for pointers).
 
