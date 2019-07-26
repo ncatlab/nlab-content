@@ -1,4 +1,4 @@
-A __classical r-matrix__ is a solution of classical Yang-Baxter equation. 
+A __classical r-matrix__ is a solution of classical [[Yang-Baxter equation]]. 
 
 ## See Also
 
