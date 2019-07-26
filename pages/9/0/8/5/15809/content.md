@@ -31,7 +31,7 @@ In [[phenomenology]] the theta angle has to be very close to an integer multiple
 
 ## In string theory and AdS/QCD
 
-Within string theory, with [[Yang-Mills theory]] realized on [[intersecting D-brane models]], as on [[D4-branes]] for [[holographic QCD]], the theta angle corresponds to the [[graviphoton]] [[RR-field]] 1-form potential in the [[higher WZW term]] of the [[D4-brane]], which is ([CGNSW 96 (7.4)](#CGNSW96) [APPS97b (51)](#APPS97b))
+Within string theory, with [[Yang-Mills theory]] realized on [[intersecting D-brane models]], as on [[D4-branes]] for [[holographic QCD]], the theta angle corresponds to the [[graviphoton]] [[RR-field]] 1-form potential in the [[higher WZW term]] of the [[D4-brane]], which is ([CGNSW 96 (7.4)](#CGNSW96) [APPS97b (51)](#APPS97b), [CAIB 99, 6.1](#CAIB99))
 
 $$
   \mathbf{L}_{D4}^{WZ}
@@ -69,6 +69,9 @@ The $\theta$-angle as the [[graviphoton]] [[RR-field]]-potential $C_1$ in the [[
 * {#CGNSW96} [[Martin Cederwall]], Alexander von Gussich, [[Bengt Nilsson]], Per Sundell, Anders Westerberg, around (4.6) of _The Dirichlet Super-p-Branes in Ten-Dimensional Type IIA and IIB Supergravity_, Nucl.Phys. B490 (1997) 179-201 ([arXiv:hep-th/9611159](http://arxiv.org/abs/hep-th/9611159))
 
 * {#APPS97b} [[Mina Aganagic]], Jaemo Park, Costin Popescu, [[John Schwarz]], Section 6 of _Dual D-Brane Actions_, Nucl. Phys. B496 (1997) 215-230 ([arXiv:hep-th/9702133](https://arxiv.org/abs/hep-th/9702133))
+
+* {#CAIB99} C. Chryssomalakos, [[José de Azcárraga]], J. M. Izquierdo and C. P&#233;rez Bueno, Sec. 6.1 of _The geometry of branes and extended superspaces_, Nuclear Physics B Volume 567, Issues 1&#8211;2, 14 February 2000, Pages 293&#8211;330 ([arXiv:hep-th/9904137](http://arxiv.org/abs/hep-th/9904137))
+
 
 * {#FSS19c} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Theorem 7.4 of _[[schreiber:Super-exceptional embedding construction of the M5-brane|Super-exceptional geometry: origin of heterotic M-theory and super-exceptional embedding construction of M5]]_
 
