@@ -3,6 +3,15 @@
 * table of contents
 {: toc}
 
+## Idea
+
+A [[functor]] is _amnestic_ if its [[domain]] has no unnecessary duplication of [[isomorphic]] [[objects]].  This formalizes the sense in which the [[concrete category]] $Met_c$ of [[metric spaces]] and [[continuous maps]] is often better thought of as the category $Met Top$ of [[metrizable topological spaces]] (and continuous maps), by identifying a property that the [[forgetful functor]]  $Met Top \to Set$ has but $Met_c \to Set$ does not.
+
+There is a corresponding notion of _amnesticization_ of a functor, which replaces the domain with an [[equivalent category]], relative to which the functor becomes amnestic.  Applying this to $Met_c \to Set$ produces a category [[isomorphic category|isomorphic]] to $Met Top$.
+
+Amnesticity is really a property of [[strict functors]] between [[strict category|strict]] [[groupoids]].
+
+
 ## Definition
 
 An **amnestic functor** is a functor $U : \mathcal{D} \to \mathcal{C}$ (between [[strict categories]]) that reflects [[identity morphism|identity morphisms]]: more precisely, for any [[isomorphism]] $f\colon a \to b$ in $\mathcal{D}$, if $U a = U b$ and $U f = id_{U a}$, then $a = b$ and $f = id_a$.
