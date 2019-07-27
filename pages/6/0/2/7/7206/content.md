@@ -188,7 +188,9 @@ There are two different off-shell formulations, the "old minimal"
 
 and the "new minimal" supergravity
 
-* V. Akulov, D. Volkov and V. Soroka, Theor. Math. Phys. 31 (1977) 285; M.F. Sohnius and P.C. West, idem. Phys. Lett. 105B (1981) 353; idem. Nucl. Phys. B198 (1982) 493.
+* V. Akulov, [[Dmitry Volkov]] and V. Soroka, _Generally covariant theories of gauge fields on superspace_, Theor. Math. Phys. 31 (1977) 285 ([doi:10.1007/BF01041233](https://doi.org/10.1007/BF01041233))
+
+* M.F. Sohnius and P.C. West, idem. Phys. Lett. 105B (1981) 353; idem. Nucl. Phys. B198 (1982) 493.
 
 * M.F. Sohnius and P.C. West, `The New Minimal Formulation of N = 1 Supergravity and its Tensor Calculus', Nueld Workshop, 1981:0187 (London, England, Aug. 1981).
 
