@@ -253,6 +253,8 @@ See at _[intermediate Jacobian -- For complex K-theory](intermediate+Jacobian#Fo
 
 Original articles on the general issue include
 
+* {#HenneauxTeitelboim88} [[Marc Henneaux]], [[Claudio Teitelboim]], _Dynamics of chiral (self-dual) $p$-forms_, Physics Letters B Volume 206, Issue 4, 2 June 1988, Pages 650-654 (<a href="https://doi.org/10.1016/0370-2693(88)90712-5">doi:10.1016/0370-2693(88)90712-5</a>)
+
 * {#PastiSorokinTonin06} [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _On Lorentz Invariant Actions for Chiral P-Forms_, Phys.Rev. D55 (1997) 6292-6298 ([arXiv:hep-th/9611100](https://arxiv.org/abs/hep-th/9611100))
 
 
