@@ -176,18 +176,41 @@ Review of this perspective includes
 
 * {#HoweSezgin04} [[Paul Howe]], [[Ergin Sezgin]], section 4.3 of _The supermembrane revisited_, Class.Quant.Grav. 22 (2005) 2167-2200 ([arXiv:hep-th/0412245](http://arxiv.org/abs/hep-th/0412245))
 
+### For the superstring
+
+The [[equations of motion]] for the [[superstring]] have been derived via the [[superembedding approach]] in Chapter 4 of  
+
+* {#BPSTV95} [[Igor Bandos]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], [[Dmitry Volkov]], _Superstrings and supermembranes in the doubly supersymmetric geometrical approach_, Nucl. Phys. B446:79-118, 1995 ([arXiv:hep-th/9501113](https://arxiv.org/abs/hep-th/9501113))
+
+See also 
+
+* [[Igor Bandos]], [[Dmitrij Sorokin]], [[Dmitrij Volkov]], _On the generalized action principle for superstrings and supermembranes_,  	Phys. Lett. B352:269-275, 1995 ([arXiv:hep-th/9502141](https://arxiv.org/abs/hep-th/9502141))
 
 ### For the M2-brane
 
-Specifically for the [[M2-brane]]:
+The [[equations of motion]] for the [[M2-brane]] have been derived via the [[superembedding approach]] in 
 
-* {#HoweSezgin05} [[Paul Howe]], [[Ergin Sezgin]], _The supermembrane revisited_, Class.Quant.Grav. 22 (2005) 2167-2200 ([arXiv:hep-th/0412245](https://arxiv.org/abs/hep-th/0412245))
+* [BPSTV 95, Chapter 4](#BPSTV95)
+
+and the [[Lagrangian density]] in
+
+* {#HoweSezgin05} [[Paul Howe]], [[Ergin Sezgin]], _The supermembrane revisited_, Class. Quant. Grav. 22 (2005) 2167-2200 ([arXiv:hep-th/0412245](https://arxiv.org/abs/hep-th/0412245))
 
 ### For the M5-brane
 
-Specifically for the [[M5-brane]]
+The [[equations of motion]] for the [[M5-brane]] have been derived via the [[superembedding approach]] in
 
-with 3+3-dimensional split:
+* {#HoweSezgin97} [[Paul Howe]], [[Ergin Sezgin]], _$D=11$, $p=5$_, Phys.Lett. B394 (1997) 62-66 ([arXiv:hep-th/9611008](https://arxiv.org/abs/hep-th/9611008))
+
+following the [[superspace]]-computations in
+
+* {#HoweSezginWest97} [[Paul Howe]], [[Ergin Sezgin]], [[Peter West]], _Covariant Field Equations of the M Theory Five-Brane_, Phys. Lett. B399 (1997) 49-59 ([arXiv:hep-th/9702008](https://arxiv.org/abs/hep-th/9702008))
+
+reviewed in
+
+* [Sorokin 99, Section 5.2](#Sorokin99)
+
+Discussion for 3+3-dimensional split:
 
 * Sheng-Lan Ko, [[Dmitri Sorokin]], Pichet Vanichchapongjaroen, _The M5-brane action revisited_, JHEP11(2013)072 ([arXiv:1308.2231](https://arxiv.org/abs/1308.2231))
 
