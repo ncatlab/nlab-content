@@ -68,11 +68,15 @@ $$
   S^7_{exotic}
 $$
 
-##Properties
+## Properties
 
-The Gromoll-Meyer sphere is the only exotic sphere that can be modeled by a [[biquotient]] of a [[compact Lie group]] ([KZ02, Corollary C](#KZ02)).
 
-It is a [[3-sphere]]-[[bundle]] over the [[4-sphere]], and is a generator of the group of diffeomorphism classes of oriented homotopy spheres in dimension 7, which is of order 28.
+
+* The Gromoll-Meyer sphere is the only [[exotic 7-sphere]] that can be modeled by a [[biquotient]] of a [[compact Lie group]] ([KZ02, Corollary C](#KZ02)).
+
+* The Gromoll-Meyer sphere is a [[3-sphere]]-[[bundle]] over the [[4-sphere]]. 
+
+* It is a generator of the [[group]] of [[diffeomorphism]] [[equivalence class|classes]] of [[orientation|oriented]] [[homotopy spheres]] in [[dimension]] 7, which is of [[order of a group|order]] 28.
 
 
 ## Related concepts
