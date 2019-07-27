@@ -85,8 +85,7 @@ be the [[(∞,1)-category of (∞,1)-sheaves]] over this site.
 
 * Anatoly Konechny and [[Albert Schwarz]], 
 
-  _On $(k \oplus l|q)$-dimensional supermanifolds_ in _Supersymmetry and Quantum Field Theory_ (D. Volkov memorial volume) Springer-Verlag (1998)
-Lecture Notes in Physics, 509 , J. Wess and V. Akulov (editors)([arXiv:hep-th/9706003](http://arxiv.org/abs/hep-th/9706003))
+  _On $(k \oplus l|q)$-dimensional supermanifolds_ in _Supersymmetry and Quantum Field Theory_ ([[Dmitry Volkov]] memorial volume) Springer-Verlag (1998) Lecture Notes in Physics, 509 , J. Wess and V. Akulov (editors)([arXiv:hep-th/9706003](http://arxiv.org/abs/hep-th/9706003))
 
   _Theory of $(k \oplus l|q)$-dimensional supermanifolds_ Sel. math., New ser. 6 (2000) 471 - 486
   {#KonechnySchwarz}
