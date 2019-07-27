@@ -93,7 +93,7 @@ A summary/review is in the appendix of
 
 * {#KonechnySchwarz} Anatoly Konechny, [[Albert Schwarz]], 
 
-  _On $(k \oplus l|q)$-dimensional supermanifolds_ in [[Julius Wess]], V. Akulov (eds.) _Supersymmetry and Quantum Field Theory_ (D. Volkov memorial volume), Lecture Notes in Physics 509, Springer 1998 ([arXiv:hep-th/9706003](http://arxiv.org/abs/hep-th/9706003), [doi:10.1007/BFb0105222](https://www.springer.com/de/book/9783662142004))
+  _On $(k \oplus l|q)$-dimensional supermanifolds_ in [[Julius Wess]], V. Akulov (eds.) _Supersymmetry and Quantum Field Theory_ ([[Dmitry Volkov]] memorial volume), Lecture Notes in Physics 509, Springer 1998 ([arXiv:hep-th/9706003](http://arxiv.org/abs/hep-th/9706003), [doi:10.1007/BFb0105222](https://www.springer.com/de/book/9783662142004))
 
   _Theory of $(k \oplus l|q)$-dimensional supermanifolds_ Sel. math., New ser. 6 (2000) 471 - 486
   
