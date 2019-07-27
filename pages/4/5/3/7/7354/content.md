@@ -32,7 +32,7 @@ The general duality principles in string theory are these:
 
 * **[[S-duality]]**, [[electric-magnetic duality]]
 
-* **[[U-duality]]** .
+* **[[U-duality]]**, [[exceptional generalized geometry]]
 
 By applying these, possibly cosecutively, to various corners in the string theory space, one obtains ([[conjecture|conjecturally]]) the following:
 
