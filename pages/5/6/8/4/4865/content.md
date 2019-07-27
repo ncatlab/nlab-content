@@ -369,3 +369,5 @@ Discussion of [[quantum anomaly]] cancellation and [[Green-Schwarz mechanism]] i
 * Paulo Pires Pacheco, [[Daniel Waldram]], _M-theory, exceptional generalised geometry and superpotentials_ ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
 
 [[!redirects 11d supergravity]]
+
+[[!redirects D=11 supergravity]]
