@@ -91,7 +91,7 @@ and covering uniform locales are equivalent (Corollary XII.3.4.3 in the cited bo
 
 ## References
 
-* [[Jorge Picado]], [[Aleš Pultr]], _Frames and Locales_.
+* [[Jorge Picado]], [[Aleš Pultr]], _[[Frames and Locales]]_.
 
 This paper developes covering uniformities constructively, and includes citations to several other papers that do it classically:
 
