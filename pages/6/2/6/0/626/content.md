@@ -32,7 +32,69 @@ _String diagrams_ are a graphical calculus for expressing operations in a [[mono
 
 Many operations in monoidal categories that look rather unenlightening in symbols become very obvious in string diagram calculus, such as the [[trace]]: an output wire gets bent around and connects to an input.
 
+## Relation to commutative diagrams
 
+String diagrams can be seen as dual (in the sense of [[Poincaré duality]]) to commutative diagrams. For instance, in a 2-category, the string diagram for a 2-cell
+can be obtained as follows:
+
+\begin{centre}
+\begin{tikzpicture}[every node/.style={node distance=1.5cm}]
+\usetikzlibrary{calc,automata}
+
+\node (a) {$A$};
+\node[above right of=a] (b) {$B$};
+\node[right of=b] (c) {$C$};
+\node at ($(b) !.5! (c)$) (bc) {};
+\node[below right of=c] (d) {$D$};
+\node[below of=bc,node distance=1.875cm] (e) {$E$};
+
+\draw[->] (a) edge node[above left] {$f$} (b);
+\draw[->] (b) edge node[above] {$g$} (c);
+\draw[->] (c) edge node[above right] {$h$} (d);
+\draw[->] (a) edge node[below] {$k$} (e);
+\draw[->] (e) edge node[below] {$l$} (d);
+
+\node[below of=bc,node distance=0.9cm] (double) {\large $\Downarrow \alpha$};
+
+\node[right of=d] (egal) {\large $\mapsto$};
+
+\tikzstyle{point}=[circle,draw,fill,inner sep=1pt];
+\node[right of=egal,node distance=3cm,point] (centre) {};
+\draw ($(centre)-(1.5,1.5)$) rectangle ($(centre)+(1.5,1.5)$);
+
+% Points
+\tikzstyle{label}=[node distance=0.3cm]
+\node[inner sep=0pt] at ($(centre)+(-1,1.52)$) (h) {};
+\node[inner sep=0pt] at ($(centre)+(0,1.52)$) (g) {};
+\node[inner sep=0pt] at ($(centre)+(1,1.52)$) (f) {};
+\node[inner sep=0pt] at ($(centre)+(-0.5,-1.52)$) (l) {};
+\node[inner sep=0pt] at ($(centre)+(0.5,-1.52)$) (k) {};
+\node[above of=h,label] {$h$};
+\node[above of=g,label] {$g$};
+\node[above of=f,label] {$f$};
+\node[below of=l,label] {$l$};
+\node[below of=k,label] {$k$};
+\node[right of=centre,label] {$\alpha$};
+
+% Edges
+\draw[thick] (f) edge[bend left] (centre);
+\draw[thick] (h) edge[bend right] (centre);
+\draw[thick] (l) edge[bend left] (centre);
+\draw[thick] (k) edge[bend right] (centre);
+\draw[thick] (g) -- (centre);
+
+% Regions
+\tikzstyle{region}=[node distance=0.9cm]
+\node[below of=centre,region] {$E$};
+\node[left of=centre,region] {$D$};
+\node[right of=centre,region] {$A$};
+\node[below left of=f,region] {$C$};
+\node[below right of=h,region] {$B$};
+\end{tikzpicture}
+
+\end{centre}
+
+String diagrams for monoidal categories can be obtained in the same way, by considering a monoidal category as a 2-category with a single object.
 
 ## Variations
 
