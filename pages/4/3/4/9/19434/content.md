@@ -20,7 +20,7 @@ The concept of a **Yoneda structure** provides in a general 2-categorical settin
 
 ## Preliminaries
 
-The axioms of a Yoneda structure are out to capture the properties of the presheaf construction with [[CAT]] replaced by general 2-category $\mathcal{K}$. In order to handle size issues a class of "legitimate" or "amissible" 0-cells is singled out in $|\mathcal{K}|$ as well as a class of 1-cells that behave well with respect to this class and the presheaf construction. In fact, it suffices to describe the admissible 1-cells since one can then identify the admissible 0-cells with the admissible identity 1-cells.
+The axioms of a Yoneda structure are out to capture the properties of the presheaf construction with [[CAT]] replaced by general 2-category $\mathcal{K}$. In order to handle size issues a class of "legitimate" or "admissible" 0-cells is singled out in $|\mathcal{K}|$ as well as a class of 1-cells that behave well with respect to this class and the presheaf construction. In fact, it suffices to describe the admissible 1-cells since one can then identify the admissible 0-cells with the admissible identity 1-cells.
 
 In $CAT$ relative to the usual presheaf construction one should think of the [[locally small category|locally small categories]] as the admissible 0-cells i.e. those categories $\mathcal{C}$ with all Hom-sets $\mathcal{C}(x,y)$ contained in a category $Set$ of "small" sets itself contained as object in a larger [[Grothendieck universe]] $U_0$. In this setting admissible functors $f:\mathcal{A}\to\mathcal{B}$ are those with all relative Hom-sets $\mathcal{B}(f(a),b)\in Set$. Furthermore, one can show ([Freyd-Street 1995](FS95)) that _a category_ $\mathcal{C}\in CAT$ _is small_ i.e. $|\mathcal{C}|\in Set$ precisely if $\mathcal{C}$ and $Set^{\mathcal{C}^{op}}$ _are locally small_.
 
@@ -176,7 +176,7 @@ $$
 
 yield identity 2-cells.
 
-Of course, this situation expresses an **adjunction** $g\dashv f$ with _unit_ $\eta$ and _counit_ $\epsilon$.  Here the absolute left lifting property of $\eta$ is furthermore equivalent to the left lefting property of $\eta$ plus preservation by $f:A\to B$ (cf. [Street-Walters 1978](#SW78), prop.2).
+Of course, this situation expresses an **adjunction** $g\dashv f$ with _unit_ $\eta$ and _counit_ $\epsilon$.  Here the absolute left lifting property of $\eta$ is furthermore equivalent to the left lifting property of $\eta$ plus preservation by $f:A\to B$ (cf. [Street-Walters 1978](#SW78), prop.2).
 
 =--
 
