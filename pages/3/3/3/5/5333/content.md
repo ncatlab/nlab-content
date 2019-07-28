@@ -189,12 +189,25 @@ Textbook accounts include
 ### Phenomenology
  {#ReferencesPhenomenology}
 
-The origin of all [[string phenomenology]] is the [[top-down model building|top-down approach]] in the [[heterotic string]] due to ([Candelas-Horowitz-Strominger-Witten 85](#CHSW85)).
+The historical origin of all [[string phenomenology]] is the [[top-down model building|top-down approach]] in the [[heterotic string]] due to ([Candelas-Horowitz-Strominger-Witten 85](#CHSW85)).
+
 
 A brief review of motivations for [[GUT]] models in [[heterotic string theory]] is in 
 
 * {#Witten02} [[Edward Witten]], _Quest For Unification_, Heinrich Hertz lecture at [SUSY 2002](http://www.desy.de/susy02/) at DESY, Hamburg ([arXiv:hep-ph/0207124](http://arxiv.org/abs/hep-ph/0207124))
+
+
+Specifically phenomenology for the [[SemiSpin(32)]]-heterotic string (see also at [type I phenomenology](type+I+string+theory#Phenomenology)):
+
+* Kang-Sin Choi, Stefan Groot Nibbelink, Michele Trapletti, _Heterotic $SO(32)$ model building in four dimensions_, JHEP 0412:063, 2004 ([arXiv:hep-th/0410232](https://arxiv.org/abs/hep-th/0410232))
+
+* [[Hans-Peter Nilles]], Saul Ramos-Sanchez, Patrick K.S. Vaudrevange, Akin Wingerter, _Exploring the $SO(32)$ Heterotic String_, JHEP 0604:050, 2006 ([arXiv:hep-th/0603086](https://arxiv.org/abs/hep-th/0603086))
+
+* Saul Ramos-Sanchez, _Towards Low Energy Physics from the Heterotic String_,   Fortsch. Phys. 10:907-1036, 2009 ([arXiv:0812.3560](https://arxiv.org/abs/0812.3560))
+
+  ([[heterotic string|heterotic]] [[SemiSpin(32)]] [[R-parity]] [[MSSM]] [[string theory vacua|vacua]])
  
+
 The following articles establish the existences of exact realization of the [[gauge group]] and [[matter]]-content of the [[MSSM]] in [[heterotic string theory]] (not yet checking [[Yukawa couplings]]):
 
 * [[Volker Braun]], [[Yang-Hui He]], [[Burt Ovrut]], [[Tony Pantev]], _A Heterotic Standard Model_, Phys. Lett. B618 : 252-258 2005 ([arXiv:hep-th/0501070](http://arxiv.org/abs/hep-th/0501070))
