@@ -126,6 +126,20 @@ For the [[worldvolume]] [[physical theory|theory]] of the [[M5-brane]] this is d
 
 * Machiko Hatsuda, Kiyoshi Kamimura, _M5 algebra and $SO(5,5)$ duality_ ([arXiv:1305.2258](http://arxiv.org/abs/1305.2258))
 
+### Super-exceptional generalized geometry
+
+Most of the literature on exceptional generalized geometry discusses bosonic exceptional geometry, not [[supergeometry]]. 
+
+Plausibility arguments that the bosonic body of the [[superspace]] underlying the [[M-theory Lie algebra]] serves as the unifying exceptional generalized geometry for [[M-theory]]:
+
+* [[Igor Bandos]], _Exceptional field theories, superparticles in an enlarged 11D superspace and higher spin theories_, Nucl. Phys. B925 (2017) 28-62 ([arXiv:1612.01321](https://arxiv.org/abs/1612.01321))
+
+Arguments that super-exceptional M-geometry in fact a further fermionic extension of that (to the "hidden supergroup" of D'Auria-Fre):
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Higher T-duality of super M-branes]]_ ([arXiv:1803.05634](https://arxiv.org/abs/1803.05634))
+
+* [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Higher T-duality of super M-branes|Higher T-duality in M-theory via local supersymmetry]]_, Physics Letters B Volume 781 2018  ([arXiv:1805.00233](https://arxiv.org/abs/1805.00233))
+
 
 
 ### $E_6$, $E_7$, $E_8$
