@@ -169,7 +169,7 @@ In this case one says that the vector bundle has _[[rank of a vector bundle|rank
 (Over a [[connected topological space]] this is automatic, but the fiber dimension
 may be distinct over distinct [[connected components]].)
 
-For $[E_1 \overset{\pi_1}{\to} X]$ and $[E_2 \overset{\phi_2}{\to} X]$ two topological vector bundles over the same base space, then a _[[homomorphism]]_
+For $[E_1 \overset{\pi_1}{\to} X]$ and $[E_2 \overset{\pi_2}{\to} X]$ two topological vector bundles over the same base space, then a _[[homomorphism]]_
 between them is
 
 * a [[continuous function]] $f \colon E_1 \longrightarrow E_2$
