@@ -66,8 +66,32 @@ An **entourage uniformity** on a locale $X$ consists of a collection of open par
 
 It is not clear whether these definitions are equivalent.  Most references (see below) use only covering uniformities, although [Johnstone 89](#Johnstone89) promises an equivalence to entourage uniformities in a future paper.
 
+### From entourage uniformities to covering uniformities
+
+Given an entourage $E$ on a locale $L$, we define an open cover $U_E$ by setting
+$$U_E=\{x\in L\mid x\times x\subset E\}.$$
+
+Given an entourage uniformity $\{E_i\}_i$, we construct
+a covering uniformity out of it by taking all open covers $V$
+that are refined by some $U_{E_i}$.
+
+### From covering uniformities to entourage uniformities
+
+Given an open cover $U$, we construct an entourage $E_U$
+by setting $$E_U=\bigvee_{x\in U}x\times x.$$
+
+Given a covering uniformity $\{U^i\}_i$, we construct an entourage uniformity
+out of it by taking all entourages $E$ that contain some $E_{U^i}$.
+
+### Equivalence between covering uniformities and entourage uniformities
+
+Theorem XII.3.3.4 in Picado and Pultr shows that the above correspondence is bijective.
+Furthermore, the categories of entourage uniform locales
+and covering uniform locales are equivalent (Corollary XII.3.4.3 in the cited book).
 
 ## References
+
+* [[Jorge Picado]], [[Aleš Pultr]], _Frames and Locales_.
 
 This paper developes covering uniformities constructively, and includes citations to several other papers that do it classically:
 
