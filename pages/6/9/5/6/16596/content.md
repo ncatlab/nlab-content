@@ -15,9 +15,13 @@ Volume 296, Issue 4, 25 January 1988 (<a href="http://dx.doi.org/10.1016/0550-32
 
 * {#LechnerTonin08} [[Kurt Lechner]], [[Mario Tonin]], _Superspace formulations of ten-dimensional supergravity_, JHEP 0806:021,2008 ([arXiv:0802.3869](https://arxiv.org/abs/0802.3869))
 
-On [[dual heterotic string theory]]:
+On [[dual heterotic string theory]] and the heterotic [[NS5-brane]] [[Green-Schwarz sigma model]]:
 
 * [[Kurt Lechner]], [[Mario Tonin]], _Worldvolume and target space anomalies in the D=10 super--fivebrane sigma--model_ ([arXiv:hep-th/9603094](http://arxiv.org/abs/hep-th/9603094))
+
+* {#Lechner10} [[Kurt Lechner]], _Quantum properties of the heterotic five-brane_, Phys.Lett.B693:323-329, 2010 ([arxiv:1005.5719](https://arxiv.org/abs/1005.5719))
+
+
 
 On [[torsion constraints in supergravity]]:
 
