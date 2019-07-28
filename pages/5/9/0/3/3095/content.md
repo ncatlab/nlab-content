@@ -52,7 +52,7 @@ Linguists may deploy formal methods to understand grammatical strings of words, 
 ### Category theory and linguistics
 
 * [[Joachim Lambek]], _Pregroups and natural language processing_, The Mathematical Intelligencer 28 (2006), 41–48 [pdf](http://www.math.mcgill.ca/rags/JAC/124/Lambek-Pregroups-s.pdf)
-* [[Bob Coecke]], Mehrnoosh Sadrzadeh, Stephen Clark, _Mathematical foundations for a compositional distributional model of meaning_, in the Lambek Festschrift, special issue of Linguistic Analysis, 2010 [arxiv/1003.4394](https://arxiv.org/abs/1003.4394)
+* [[Bob Coecke]], [[Mehrnoosh Sadrzadeh]], Stephen Clark, _Mathematical foundations for a compositional distributional model of meaning_, in the Lambek Festschrift, special issue of Linguistic Analysis, 2010 [arxiv/1003.4394](https://arxiv.org/abs/1003.4394)
 
 
 category: foundations, philosophy
