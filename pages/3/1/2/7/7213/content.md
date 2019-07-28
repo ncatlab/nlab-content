@@ -127,14 +127,19 @@ For the [[worldvolume]] [[physical theory|theory]] of the [[M5-brane]] this is d
 * Machiko Hatsuda, Kiyoshi Kamimura, _M5 algebra and $SO(5,5)$ duality_ ([arXiv:1305.2258](http://arxiv.org/abs/1305.2258))
 
 ### Super-exceptional generalized geometry
+ {#SuperExceptionalGeometryReferences}
 
-Most of the literature on exceptional generalized geometry discusses bosonic exceptional geometry, not [[supergeometry]]. 
+The combination/unification of [[exceptional generalized geometry]] with [[supergeometry]] used to be an open problem:
 
-Plausibility arguments that the bosonic body of the [[superspace]] underlying the [[M-theory Lie algebra]] serves as the unifying exceptional generalized geometry for [[M-theory]]:
+* [[Martin Cederwall]], p. 39 of _Fundamental issues in extended geometry_, 8th Mathematical Physics Meeting, Aug 2014 Belgrade, Serbia ([spire:1477275](http://inspirehep.net/record/1477275))
+
+* [[Martin Cederwall]], Joakim Edlund, Anna Karlsson, p. 4, 7 of _Exceptional geometry and tensor fields_, J. High Energ. Phys. (2013) 2013: 28 ([arXiv:1302.6736](https://arxiv.org/abs/1302.6736))
+
+Plausibility arguments that the bosonic body of the [[superspace]] underlying the [[M-theory Lie algebra]] serves as the unifying exceptional generalized geometry for [[M-theory]] for $n = 11$:
 
 * [[Igor Bandos]], _Exceptional field theories, superparticles in an enlarged 11D superspace and higher spin theories_, Nucl. Phys. B925 (2017) 28-62 ([arXiv:1612.01321](https://arxiv.org/abs/1612.01321))
 
-Arguments that super-exceptional M-geometry in fact a further fermionic extension of that (to the "hidden supergroup" of D'Auria-Fre):
+Arguments that super-exceptional M-geometry for $n = 11$ is in fact a further fermionic extension of that (to the "hidden supergroup" of D'Auria-Fre):
 
 * [[Silvia Vaula]], _On the underlying $E_{11}$ symmetry of the $D= 11$ Free Differential Algebra_, JHEP 0703:010, 2007 ([arXiv:hep-th/0612130](http://arxiv.org/abs/hep-th/0612130))
 
@@ -142,7 +147,7 @@ Arguments that super-exceptional M-geometry in fact a further fermionic extensio
 
 * [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Higher T-duality of super M-branes|Higher T-duality in M-theory via local supersymmetry]]_, Physics Letters B Volume 781 2018  ([arXiv:1805.00233](https://arxiv.org/abs/1805.00233))
 
-A super-exceptional [[E7]]-geometry for compactification to 4 is discussed in 
+A super-exceptional geometry for $n = 7$:
 
 * Daniel Butter, [[Henning Samtleben]], [[Ergin Sezgin]], _$E_{7(7)}$ Exceptional Field Theory in Superspace_, JHEP01(2019)087 ([arXiv:1811.00038](https://arxiv.org/abs/1811.00038))
 
