@@ -152,14 +152,23 @@ The [[space of quantum states]] forms a linear [[representation]] of a given [[a
 
 * [[self-adjoint operator]], [[daseinisation]]
 
+
 ## References
 
-See the references at [[geometric quantization]].
+### In algebraic quantum theory
+
+Comprehensive discussion is in 
+
+* [[Urs Schreiber]], _[[geometry of physics -- perturbative quantum field theory]]_ -- _[Observables](geometry+of+physics+--+perturbative+quantum+field+theory#Observables)_
+
+### In geometric quantization
+
+See also the references at [[geometric quantization]].
 
 Standard facts are recalled for instance around p. 35 of
 
-* [[Matthias Blau]], _Symplectic Geometry and Geometric Quantization_ ([[BlauGeometricQuantization.pdf:file]])
- {#Blau}
+* {#Blau} [[Matthias Blau]], _Symplectic Geometry and Geometric Quantization_ ([[BlauGeometricQuantization.pdf:file]])
+ 
 
 Computation of quantum observables by [[index]] maps in [[equivariant K-theory]] is in (see specifically around p. 8 and 9)
 
