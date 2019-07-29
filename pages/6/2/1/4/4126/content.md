@@ -10,14 +10,13 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-In [[quantum mechanics]], the _Kochen-Specker theorem_ -- developed in 1967 by [[Simon Kochen]] and [[Ernst Specker]] -- is a [[no-go theorem]] that places limits on the types of [[hidden variable theories]] that may be used to explain the (apparent) [[probability theory|probabilistic]] nature of [[quantum mechanics]] in a causal way.  It roughly asserts that it is impossible to assign values to all physical [[observables]] while simultaneously preserving the functional relations between them.  It is a complement to [[Bell's theorem]], developed by [[John Bell]] in 1964, and is related to [[Gleason's theorem]], proven by ([Gleason (1957)](#Gleason57)) (who incidentally is the person who communicated the original Kochen-Specker paper to the _Journal of Mathematics and Mechanics_ ).  [Later in ([Butterfield-Hamilton-Isham 98](#ButterfieldHamiltonIsham)) it was observed that the Kochen-Specker theorem is equivalent to the statement that the [[spectral presheaf]] has no [[global elements]], which led to the proposal that the [[phase space]] in [[quantum mechanics]] is naturally to be understood as a ([[ringed topos|ringed]]) [[topos]], the "[[Bohr topos]]".
+In [[quantum mechanics]], the _Kochen-Specker theorem_ -- developed in 1967 by [[Simon Kochen]] and [[Ernst Specker]] -- is a [[no-go theorem]] that places limits on the types of [[hidden variable theories]] that may be used to explain the (apparent) [[probability theory|probabilistic]] nature of [[quantum mechanics]] in a causal way.  It roughly asserts that it is impossible to assign values to all physical [[observables]] while simultaneously preserving the functional relations between them.  It is a complement to [[Bell's theorem]], developed by [[John Bell]] in 1964, and is related to [[Gleason's theorem]], proven by ([Gleason (1957)](#Gleason57)) (who incidentally is the person who communicated the original Kochen-Specker paper to the _Journal of Mathematics and Mechanics_ ).  Later in ([Butterfield-Hamilton-Isham 98](#ButterfieldHamiltonIsham)) it was observed that the Kochen-Specker theorem is equivalent to the statement that the [[spectral presheaf]] has no [[global elements]], which led to the proposal that the [[phase space]] in [[quantum mechanics]] is naturally to be understood as a ([[ringed topos|ringed]]) [[topos]], the "[[Bohr topos]]".
 
 ## Kochen-Specker theorem
 
@@ -233,5 +232,4 @@ Springer (2019)
 
 The hierarchy of strengths of no-go theorems in quantum context is studied from sheaf theoretic perspective in
 
-* Samson Abramsky, Adam Brandenburger, _The sheaf-theoretic structure of non-locality and contextuality_, [arxiv/1102.0264](https://arxiv.org/abs/1102.0264)
-Samson Abramsky, Adam Brandenburger
+* [[Samson Abramsky]], Adam Brandenburger, _The sheaf-theoretic structure of non-locality and contextuality_, [arxiv/1102.0264](https://arxiv.org/abs/1102.0264)
