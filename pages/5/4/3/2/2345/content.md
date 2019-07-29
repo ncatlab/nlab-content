@@ -94,7 +94,7 @@ P(f)\circ P(g)\circ P(h) \ar@2{->}[d]_{\gamma_{f,g}\star 1_{P(h)}} \ar@2{->}[r]^
 
 \begin{centre}
 
-$\iota_B\star 1_{P(B)}=\gamma_{1_B,g},$
+$\iota_B\star 1_{P(g)}=\gamma_{1_B,g},$
 
 \end{centre}
 
