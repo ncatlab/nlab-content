@@ -1,3 +1,5 @@
+[[!redirects quantum probability]]
+[[!redirects quantum probability]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -49,10 +51,23 @@ The sentiment that [[quantum physics]] _is_ quantum probability theory is also r
 
 ## Properties
 
+### As classical probability theory internal to a Bohr topos
+ {#AsClassicalProbabilityInBohrTopos}
+
+The idea that 
+
+> [[quantum probability]] is "just as" classical [[probability theory]] but generalized to [[non-commutative geometry|non-commutative]] [[probability spaces]], hence, for [[quantum physics]], to quantized [[phase spaces]]
+
+may be made precise and fully manifest by understanding quantum probability theory as being classical [[probability theory]] _[[internalization|internal]]_ to the _[[Bohr topos]]_ of the given [[quantum mechanical system]].
+
+For details see at _[[Bohr topos]]_ the section _[Kinematics in a Bohr topos](Bohr+topos#KinematicsOnBohrTopos)_.
+
+For going deeper, see at _[[order-theoretic structure in quantum mechanics]]_.
+
 ### Conditional expectation and Wave function collapse
  {#ConditionalExpectationAndWaveFunctionCollapse}
 
-There is a close relation between [[wave function collapse]] and [[conditional expectation values]] in [[quantum probability]] (e.g. [Kuperberg 05, section 1.2](#Kuperberg05), [Yuan 12](#Yuan12)):
+Quantum probability theory shows that "[[wave function collapse]]" is just part of the formula for [[conditional expectation values]] in [[quantum probability theory]] (e.g. [Kuperberg 05, section 1.2](#Kuperberg05), [Yuan 12](#Yuan12)):
 
 Let $(\mathcal{A},\langle -\rangle)$ be a [[quantum probability space]], hence a [[complex numbers|complex]] [[star algebra]] $\mathcal{A}$ of [[quantum observables]], and a [[state on a star-algebra]] $\langle -\rangle \;\colon\; \mathcal{A} \to \mathbb{C}$.
 
@@ -196,12 +211,11 @@ Monographs:
 
 * {#Landsman17} [[Klaas Landsman]], _Foundations of quantum theory -- From classical concepts to Operator algebras_, Springer Open 2017 ([pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf))
 
+[[!redirects quantum probability theories]]
 
 [[!redirects quantum probability]]
 [[!redirects quantum probabilities]]
 
-[[!redirects quantum probability theory]]
-[[!redirects quantum probability theories]]
 
 [[!redirects quantum probability space]]
 [[!redirects quantum probability spaces]]
