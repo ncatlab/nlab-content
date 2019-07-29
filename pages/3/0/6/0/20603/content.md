@@ -34,7 +34,7 @@ A **morphism** or **relation** between $\kappa$-arity spaces is a [[relation]] $
 
 **Conjecture:** For any $\kappa$, the category of $\kappa$-arity spaces is [[star-autonomous]].
 
-This might follow from constructing it using double gluing and orthogonality (see discussion thread).
+This might follow from constructing it using [[double gluing]] and orthogonality (see discussion thread).
 
 ## Focused Orthogonality
 
