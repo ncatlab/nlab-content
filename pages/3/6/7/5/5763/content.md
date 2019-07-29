@@ -28,13 +28,23 @@
  {#Idea}
 
 
-A _Bohr topos_ (a notion going back to ideas of ([Butterfield-Hamilton-Isham](#ButterfieldHamiltonIsham)) and further expored in ([Isham-D&#246;ring 07](IshamDoering07)) and ([Heunen-Landsman-Spitters 09](#HeunenLandsmanSpitters09))) is a [[topos]] associated with any [[quantum mechanical system]] which is such that the [[observables]] and [[states]] of the physical system are more or less naturally encoded in the [[internal logic]] of the topos. A detailed motivation/derivation of this from classical theorems on the foundations of standard [[quantum mechanics]] is at _[[order-theoretic structure in quantum mechanics]]_.
+A _Bohr topos_ is a [[topos]] associated with any [[quantum mechanical system]], which is such that 
+
+* the [[quantum observables]] and [[quantum states]] of the [[quantum mechanical system]], hence its [[quantum probability theory]], 
+
+are equivalenly 
+
+* the [[classical physics|classical]] [[observables]] and classical [[states]], hence its classical [[probability theory]], 
+
+  _[[internalization|internal]]_ to the Bohr topos, hence in the _[[internal logic]]_ of the Bohr topos. 
+
+A detailed motivation/derivation of this from classical theorems on the foundations of standard [[quantum mechanics]] is at _[[order-theoretic structure in quantum mechanics]]_.
 
 One might think of a Bohr topos as (part of) a formalization of the "[[coordination]]" of the [[physical theory]] of [[quantum mechanics]], providing a formalized prescription of how to map the theory to [[propositions]] about ([[experiment|experimental]]) [[observables]] of the system. The [[internal logic]] of Bohr toposes has been argued (e.g. [Heunen-Landsman-Spitters 09](#HeunenLandsmanSpitters09)) to be a better formal context for such considerations than the old [[quantum logic]] going back to [[von Neumann]].
 
-The notion of _Bohr topos_ is named after [[Niels Bohr]], whose informal ideas about the nature of quantum mechanics (e.g. [Scheibe 73](#Scheibe)) it is supposed to formalize, see at _[interpretation of quantum mechanics -- Bohr's standpoint](http://ncatlab.org/nlab/show/interpretation+of+quantum+mechanics#BohrStandpoint)_.
+The idea of Bohr toposes goes back to  [Butterfield-Hamilton-Isham](#ButterfieldHamiltonIsham), [Isham-D&#246;ring 07](IshamDoering07)) and [Heunen-Landsman-Spitters 09](#HeunenLandsmanSpitters09). The concept is named after [[Niels Bohr]], whose informal ideas about the nature of quantum mechanics (e.g. [Scheibe 73](#Scheibe)) it is supposed to formalize, see at _[interpretation of quantum mechanics -- Bohr's standpoint](interpretation+of+quantum+mechanics#BohrStandpoint)_.
 
-Sometimes in the literature the discussion of Bohr toposes is referred to as "the topos-theoretic formulation of physics", but actually Bohr toposes currently formalize but one aspect of [[quantum mechanics]], namely "the quantum mechanical [[phase space]]" in the form of the [[quantum observables]] and the [[quantum states]]. The plain Bohr topos does not even encode any [[dynamics]], though in the spirit of [[AQFT]] a certain presheaf of Bohr toposes on [[spacetime]] does encode dynamics ([Nuiten 11](#Nuiten11)). For other and more comprehensive usages of [[topos theory]] in the formalization of [[physics]] see at _[[geometry of physics]]_ and at _[[higher category theory and physics]]_.
+Sometimes in the literature the discussion of Bohr toposes is referred to as "the topos-theoretic formulation of physics". But actually Bohr toposes currently formalize but one aspect of [[quantum mechanics]], namely "the quantum mechanical [[phase space]]" in the form of the [[quantum observables]] and the [[quantum states]]. The plain Bohr topos does not even encode any [[dynamics]], though in the spirit of [[AQFT]] a certain presheaf of Bohr toposes on [[spacetime]] does encode dynamics ([Nuiten 11](#Nuiten11)). For other and more comprehensive usages of [[topos theory]] in the formalization of [[physics]] see at _[[geometry of physics]]_ and at _[[higher category theory and physics]]_.
 
 ### Brief
  {#IdeaInBrief}
@@ -640,7 +650,9 @@ of [[copresheaves]] all these component morphisms are themselves epimorphisms an
  {#KinematicsOnBohrTopos}
 
 
-A key aspect about the Bohr topos $Bohr(A)$ is that that _classical_ [[kinematics]] of the commutative _internal_ $C^*$-algebra $\underline{A} \in Bohr(A)$ is the _quantum_ [[kinematics]] of $A$. In fact, the very definition of $Bohr(A)$ provides a formal context in which [[Gleason's theorem]] has a natural formulation:
+A key aspect of the Bohr topos $Bohr(A)$ of a [[quantum mechanical system]] (as defined [above](#BohrToposOfQMSystem)) is that that _classical_ [[kinematics]] and classical [[probability theory]] of the commutative _internal_ $C^*$-algebra $\underline{A} \in Bohr(A)$ is the _quantum_ [[kinematics]] and [[quantum probability theory]] of $A$. 
+
+In fact, the very definition of $Bohr(A)$ provides a formal context in which [[Gleason's theorem]] has a natural formulation:
 
 +-- {: .num_theorem }
 ###### Theorem 
@@ -991,6 +1003,8 @@ Alternatively one can explore the situation for [[contravariant functors]] on th
 ## Related concepts
 
 * [[quantum logic]]
+
+* [[quantum probability theory]]
 
 ## References
  {#References}
