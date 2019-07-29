@@ -143,6 +143,11 @@ See ([Par&#233;-Rosick&#253;](#Par&#233;Rosick&#253;)).
 
 Every accessible functor satisfies the [[solution set condition]], and every left or right adjoint between accessible categories is accessible.  Therefore, the [[adjoint functor theorem]] takes an especially pleasing form for accessible categories: a functor is a left (resp. right) adjoint iff it is accessible and preserves all small colimits (resp. limits).
 
++-- {: .query}
+This is the familiar statement for **locally presentable categories** but as far as I know it isn't true for accessible categories (because sufficient limits/colimits are needed in the ambient categories to construct the adjoint to a given functor). 
+=--
+
+
 =--
 
 ### Idempotence completeness
