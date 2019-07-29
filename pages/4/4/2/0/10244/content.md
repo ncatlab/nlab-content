@@ -19,7 +19,7 @@
 
 ## Idea
 
-The _super-embedding formalism_ ([Sorokin 99](#Sorokin99)) is a formulation of super-$p$-[[brane]] [[sigma-models]] entirely within [[supergeometry]], where not only the [[target spacetime]] is taken to be a [[supermanifold]], as in [[Green-Schwarz sigma-models]], and not only the [[worldvolume]] is taken to be a supermanifold, as in the [[NSR string]], but where both are taken to be supermanifolds.
+The "doubly supersymmetric geometric approach" ([BPSTV 95](#BPSTV95), [Howe-Sezgin 97](#HoweSezgin97)), also called the _super-embedding approach_ ([Sorokin 99](#Sorokin99)), is a formulation of super-$p$-[[brane]] [[sigma-models]] entirely within [[supergeometry]], where not only the [[target spacetime]] is taken to be a [[supermanifold]], as in [[Green-Schwarz sigma-models]], and not only the [[worldvolume]] is taken to be a supermanifold, as in the [[NSR string]], but where both are taken to be supermanifolds.
 
 <center>
 <img src="https://ncatlab.org/nlab/files/pBraneEmbedding.jpg" width="800">
@@ -152,9 +152,20 @@ In [FSS 19c](#FSS19c) is offered a proof that combining super-embedding formalis
 
 ### General
 
+Under the name "doubly supersymmetric geometrical approach" the formalism originates in
+
+* {#BPSTV95} [[Igor Bandos]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], [[Dmitry Volkov]], _Superstrings and supermembranes in the doubly supersymmetric geometrical approach_, Nucl. Phys. B446:79-118, 1995 ([arXiv:hep-th/9501113](https://arxiv.org/abs/hep-th/9501113))
+
+* {#HoweSezgin97} [[Paul Howe]], [[Ergin Sezgin]], _$D=11$, $p=5$_, Phys.Lett. B394 (1997) 62-66 ([arXiv:hep-th/9611008](https://arxiv.org/abs/hep-th/9611008))
+
+
+Review is in
+
 * {#Sorokin99} [[Dmitri Sorokin]], _Superbranes and Superembeddings_, Phys. Rept. 329:1-101, 2000 ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
 
 * {#Sorokin01} [[Dmitri Sorokin]], _Introduction to the Superembedding Description of Superbranes_, AIP Conference Proceedings 589, 98 (2001) ([arXiv:hep-th/0105102](https://arxiv.org/abs/hep-th/0105102))
+
+where also the term "superembedding approach" is introduced.
 
 Derivation of [[BPS state|1/2 BPS]] superembedding via [[rational equivariant homotopy theory|rational]] [[ADE-singularity|ADE-]][[equivariant cohomotopy]]:
 
@@ -174,9 +185,9 @@ Review of this perspective includes
 
 ### For the superstring
 
-The [[equations of motion]] for the [[superstring]] have been derived via the [[superembedding approach]] in Chapter 4 of  
+The [[equations of motion]] for the [[superstring]] have been derived via the [[superembedding approach]] in
 
-* {#BPSTV95} [[Igor Bandos]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], [[Dmitry Volkov]], _Superstrings and supermembranes in the doubly supersymmetric geometrical approach_, Nucl. Phys. B446:79-118, 1995 ([arXiv:hep-th/9501113](https://arxiv.org/abs/hep-th/9501113))
+* [BPSTV 95, Chapter 4](#BPSTV95)
 
 See also 
 
@@ -196,7 +207,7 @@ and the [[Lagrangian density]] in
 
 The [[equations of motion]] for the [[M5-brane]] have been derived via the [[superembedding approach]] in
 
-* {#HoweSezgin97} [[Paul Howe]], [[Ergin Sezgin]], _$D=11$, $p=5$_, Phys.Lett. B394 (1997) 62-66 ([arXiv:hep-th/9611008](https://arxiv.org/abs/hep-th/9611008))
+* [Howe-Sezgin 97](#HoweSezgin97)
 
 following the [[superspace]]-computations in
 
@@ -210,7 +221,7 @@ Discussion for 3+3-dimensional split:
 
 * Sheng-Lan Ko, [[Dmitri Sorokin]], Pichet Vanichchapongjaroen, _The M5-brane action revisited_, JHEP11(2013)072 ([arXiv:1308.2231](https://arxiv.org/abs/1308.2231))
 
-Claim that combining the super-embedding formalism with [[exceptional generalized geometry]], the [[Perry-Schwarz action functional|Perry-Schwarz-type Lagrangian]] for the [[M5-brane]] emerges as the relative trivialization of the super-cocycle of the M5-brane relative to its super-exceptional embedding:
+Claim that combining the super-embedding formalism with [[super-exceptional generalized geometry]], the [[Perry-Schwarz action functional|Perry-Schwarz-type Lagrangian]] for the [[M5-brane]] emerges as the relative trivialization of the super-cocycle of the M5-brane relative to its super-exceptional embedding:
 
 * {#FSS19c} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Super-exceptional embedding construction of the M5-brane|Super-exceptional geometry: origin of heterotic M-theory and super-exceptional embedding construction of M5]]_
 
