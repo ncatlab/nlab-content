@@ -30,21 +30,21 @@ An [open] **[[open cover|cover]]** of a locale $X$ is a collection $C \subseteq 
 
 * $E_C = \bigcup \{ U\times U \mid U\in C \}$, and $C[A] = E_C[A]$.
 
-* For $A \in Op(X)$, we write $C[A] = E_C[A]$ (see above definition).  If $A$ is overt (such as if $X$ is overt, such as if [[excluded middle]] holds), this is equivalent to $\bigcup \{ B \in C \;|\; A \cap B \text{ is positive } \}$, where positive is in the sense of [[positive element]].
+* For $A \in Op(X)$, we write $C[A] = E_C[A]$ (see above definition).  If $A$ is overt (such as if $X$ is overt, such as if [[excluded middle]] holds), this is equivalent to $\bigvee \{ B \in C \;|\; A \cap B \text{ is positive } \}$, where positive is in the sense of [[positive element]].
 
 * $C^* \coloneqq \{ C[A] \;|\; A \in C\}$.
 
 We now define a **covering uniformity** on a locale $X$ to be a collection of covers, called **[[uniform covers]]**, such that
 
-1. There exists a uniform cover; in light of axiom (4), it follows that the cover $\{X\}$ is a uniform cover.
+1. If $C$ is a uniform cover and $C \prec C'$, then $C'$ is a uniform cover.
 
-2. If $C$ is a uniform cover, there exists a uniform cover $C'$ such that $(C')^* \prec C$.
+2. The cover $\{X\}$ is a uniform cover
+and if $C_1, C_2$ are uniform covers, then so is $C_1 \wedge C_2$.
 
-3. If $C_1, C_2$ are uniform covers, so is some cover that refines $C_1 \wedge C_2$. In light of axiom (4), it follows that $C_1 \wedge C_2$ is a uniform cover.
+3. If $C$ is a uniform cover, there exists a uniform cover $C'$ such that $(C')^* \prec C$.
 
-4. If $C$ is a uniform cover and $C \prec C'$, then $C'$ is a uniform cover.
-
-5. For any open part $A\in Op(X)$, we have
+4. The collection of uniform covers is __admissible__:
+for any open part $A\in Op(X)$, we have
    $$ A = \bigvee \{ B | \exists \;\text{ a uniform cover }\; C \;\text{ such that }\; C[B] \le A \} $$
 
 The last condition is the one saying that "the induced topology is again the topology of $X$."; the other conditions correspond precisely to the [uniform-cover definition](uniform+space#ucov) of a uniform topological space.
@@ -52,19 +52,24 @@ The last condition is the one saying that "the induced topology is again the top
 
 ### Entourage uniformities
 
-An **entourage uniformity** on a locale $X$ consists of a collection of open parts $E\in Op(X\times X)$, called [open] *[[entourages]]*, such that:
+An __entourage__ (Picado and Pultr, Section XII.1.1)
+is an open part $E\in Op(X\times X)$
+such that $\{u\in Op(X)\mid u\times u\le E\}$
+is an open cover of $X$.
 
-1. There exists an entourage (in light of axiom 4 below, it follows that $X\times X$ is an entourage)
+An **entourage uniformity** (Picado and Pultr, Section XII.2.3) on a locale $X$ is a collection of [[entourages]] such that:
 
-2. For any entourage $E$, there exists an entourage $F$ such that $F\circ F \subseteq E$, and an entourage $G$ such that $G\subseteq E^{-1}$.  (In light of axiom 4 below, it follows that $E^{-1}$ is itself an entourage.)  Note that $F\circ F$ is in general only a sublocale (not necessarily open), but we can still ask it to be contained in the open sublocale $E$.
+1. If $E$ is an entourage and $E\subseteq F$, then $F$ is also an entourage.
 
-3. If $E$ and $F$ are entourages, then so is some open part contained in $E\cap F$ (in light of axiom 4 below, it follows that $E\cap F$ is itself an entourage)
+2. The open part $X\times X$ is an entourage
+and if $E$ and $F$ are entourages, then so is $E\cap F$.
 
-4. If $E$ is an entourage and $E\subseteq F$, then $F$ is also an entourage.
+3. If $E$ is an entourage, then so is $E^{-1}$.
 
-5. For any $U\in Op(X)$ we have $U = \bigcup \{ V\in Op(X) \mid E[V] \subseteq U \text{ for some entourage } E\}$.
+4. For any entourage $E$, there exists an entourage $F$ such that $F\circ F \subseteq E$.  The sublocale $F\circ F$ is not always open, but we can still ask it to be contained in the open sublocale $E$.
 
-It is not clear whether these definitions are equivalent.  Most references (see below) use only covering uniformities, although [Johnstone 89](#Johnstone89) promises an equivalence to entourage uniformities in a future paper.
+5. The collection of uniform entourages is __admissible__:
+for any $U\in Op(X)$ we have $U = \bigvee \{ V\in Op(X) \mid E[V] \subseteq U \text{ for some uniform entourage } E\}$.
 
 ### From entourage uniformities to covering uniformities
 
@@ -110,3 +115,4 @@ A constructive and predicative theory in the programme of [[formal topology]] ca
 
 [[!redirects pointless uniformity]]
 [[!redirects pointless uniformities]]
+
