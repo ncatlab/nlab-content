@@ -257,7 +257,7 @@ $$
 
 where $X_{n}$ and $Y_{n}$ are the $n$th coefficients of the functions ${|X|}(z)$ and ${|Y|}(z)$, respectively.
 
-The name "Hadamard product" is used in ([Aguiar-Mahajan10](#AguiarMahajan10)) and ([Bergeron-Labelle-Leroux08](#Bergeron08)).  In ([Baez-Dolan01](#Baez01)) it is called the "inner product" of stuff types, because equipping the category of stuff types with this operation makes it a categorified version of the Hilbert space of a quantum harmonic oscillator.
+The name "Hadamard product" is used in ([Aguiar-Mahajan10](#AguiarMahajan10)) and ([Bergeron-Labelle-Leroux08](#Bergeron08)).  In ([Baez-Dolan01](#Baez01)) ${|\langle X, Y \rangle|}(1)$ is called the "inner product" of stuff types, because equipping the category of stuff types with this operation makes it a categorified version of the Hilbert space of a quantum harmonic oscillator.
 
 
 #### Cauchy product
