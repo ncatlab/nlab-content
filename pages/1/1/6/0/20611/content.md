@@ -10,7 +10,7 @@ The following journals have, at least at some time in the past, published catego
 |[Cahiers de topologie et géométrie différentielle catégoriques](http://cahierstgdc.com/)|self|all|
 |[Homology, Homotopy, and Applications](https://intlpress.com/site/pub/pages/journals/items/hha/_home/_main/)|International Press|[[Ronnie Brown|Brown]]; [[George Janelidze|Janelidze]]; [[Emily Riehl|Riehl]]; [[Brooke Shipley|Shipley]]|
 |[Annals of K-theory](http://www.ktheoryfoundation.org/journal.html)|Cambridge UP|[[Paul Balmer|Balmer]]; [[Amnon Neeman|Neeman]]|
-|[Journal of Homotopy and Related Structures](https://www.springer.com/mathematics/geometry/journal/40062)|[TCMS](http://tcms.org.ge/) via Springer|[[Ronnie Brown|Brown]]; [[Tim Porter|Porter]]; [[Ross Street|Street]] |
+|[Journal of Homotopy and Related Structures](https://www.springer.com/mathematics/geometry/journal/40062)|[TCMS](http://tcms.org.ge/) via Springer|[[Ronnie Brown|Brown]]; [[Tim Porter|Porter]]; [[Ross Street|Street]];[[Simon Willerton|Willerton]] |
 |[Advances in Mathematics](https://www.journals.elsevier.com/advances-in-mathematics/)|Elsevier          |[[Andrew Blumberg|Blumberg]]; Krause; [[Ross Street|Street]]|
 |[Journal of Pure and Applied Algebra](https://www.journals.elsevier.com/journal-of-pure-and-applied-algebra)|Elsevier| [[Jiri Adamek|Adamek]] |
 |[Logical Methods in Computer Science](https://lmcs.episciences.org/)|self  |[[Valeria de Paiva|de Paiva]]; Jagadeesan; Schröder|
