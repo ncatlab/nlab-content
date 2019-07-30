@@ -93,7 +93,7 @@ whose components are identities for $i = j$ and are [[zero morphism|zero]] other
 +-- {: .proof}
 ###### Proof
 
-Consider first the nullary (i.e., zero-ary) case. Given a [[terminal object]] $\ast$, the unique morphism $id_\ast: \ast \to \ast$ is the zero morphism $0$ in its hom-object. For any object $A$, the zero morphism $0_A: \ast \to A$ must equal any morphism $f: \ast \to A$ on account of $f = f id_\ast = f 0 = 0_A$ where the last equation is by $CMon$-enrichment. Hence $\ast$ is initial. (N.B.: this argument applies more generally to categories enriched in pointed sets, and is self-dual.) 
+Consider first the nullary (i.e., zero-ary) case. Given a [[terminal object]] $\ast$, the unique morphism $id_\ast: \ast \to \ast$ is the zero morphism $0$ in its hom-object. For any object $A$, the zero morphism $0_A: \ast \to A$ must equal any morphism $f: \ast \to A$ on account of $f = f id_\ast = f 0 = 0_A$ where the last equation is by $CMon$-enrichment. Hence $\ast$ is initial. (N.B.: this argument applies more generally to categories [[enriched category|enriched]] in [[pointed sets]], and is self-[[formal duality|dual]].) 
 
 Consider now the case of binary (co-)products. Using [[zero morphisms]], in addition to its canonical [[projection]] maps $p_i \colon X_1 \times X_2 \to X_i$, any binary [[product]] also admits "injection" maps $X_i \to X_1 \times X_2$, and dually for the [[coproduct]]:
 
