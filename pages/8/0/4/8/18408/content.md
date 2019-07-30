@@ -22,7 +22,7 @@ The _weak gravity conjecture_ is a [[conjecture]] ([Arkani-Hamed, Motl, Nicolis,
 
 More precisely, what is argued in ([AH-M-N-V 06, section 2](#ArkaniHamedMotlNicolisVafa06)) is that there alwayst must be "[[elementary particles]]" for which the ratio $m/{\vert q\vert}$ of their [[mass]] over their [[gauge field]] [[charge]] (e.g. [[electric charge]], [[magnetic charge]]) is smaller than one: $m/{\vert q\vert} \lt 1$ (in natural [[units]]).
 
-The argument for this in ([AH-M-N-V 06, section 2.2](#ArkaniHamedMotlNicolisVafa06)) is the following. The extremal ([[BPS state]]) bound for [[charged black holes]] is that their mass $M$ _exceeds or equals_ their charge ${\vert Q\vert}$, $M/{\vert Q\vert} \geq 1$. Now via [[black hole radiation]] any black hole is supposed to eventually decay by radiating away elementary particle quanta. If there were no elementary particle with $m/{\vert q\vert} \leq 1$, so the argument goes, then by radiating away particles with $m/{\vert q\vert} \gt 1$ the black hole would eventually lose all its mass, while still having some non-vanishing charge left. But such "black hole remnants" have been argued to lead to inconsistency ([Susskind 96](#Susskind96))
+The argument for this in ([AH-M-N-V 06, section 2.2](#ArkaniHamedMotlNicolisVafa06)) is the following. The [[extremal black hole|extremal]] ([[BPS state]]) bound for [[charged black holes]] is that their mass $M$ _exceeds or equals_ their charge ${\vert Q\vert}$, hence  $M/{\vert Q\vert} \geq 1$. Now via [[black hole radiation]] any black hole is supposed to eventually decay by [[radiation|radiating]] away elementary particle quanta. If there were no elementary particle with $m/{\vert q\vert} \leq 1$, so the argument goes, then by radiating away particles with $m/{\vert q\vert} \gt 1$ the black hole would eventually lose all its mass, while still having some non-vanishing charge left. But such "black hole remnants" have been argued to lead to inconsistency ([Susskind 96](#Susskind96)).
 
 ## In string theory
 
@@ -64,7 +64,11 @@ Review is in
 Further discussion includes
  {#FurtherDiscussion}
 
+* Clifford Cheung, Grant N. Remmen, _Naturalness and the Weak Gravity Conjecture_, Phys. Rev. Lett. 113, 051601 (2014) ([arXiv:1402.2287](https://arxiv.org/abs/1402.2287))
+
 * Yu Nakayama, Yasunori Nomura, _Weak Gravity Conjecture in AdS/CFT_, Phys. Rev. D 92, 126006 (2015) ([arXiv:1509.01647](https://arxiv.org/abs/1509.01647))
+
+* [[Ben Heidenreich]], [[Matthew Reece]], [[Tom Rudelius]], _Sharpening the Weak Gravity Conjecture with Dimensional Reduction_, JHEP02(2016)140 ([arXiv:1509.06374](https://arxiv.org/abs/1509.06374))
 
 * Clifford Cheung, Junyu Liu, Grant N. Remmen, _Proof of the Weak Gravity Conjecture from Black Hole Entropy_ ([arXiv:1801.08546](https://arxiv.org/abs/1801.08546))
 
