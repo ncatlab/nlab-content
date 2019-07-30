@@ -65,5 +65,5 @@ For a simplified notion with "all objects cofibrant"
 
 A book in progress, regularly being updated
 
-* [[Emily Riehl]] and [[Dominic Verity]], _$\infty$-Categories for the Working Mathematician_, (2018) ([pdf](http://www.math.jhu.edu/~eriehl/ICWM.pdf))
+* [[Emily Riehl]] and [[Dominic Verity]], _Elements of $\infty$-Category Theory_, (2019) ([pdf](http://www.math.jhu.edu/~eriehl/elements.pdf))
 
