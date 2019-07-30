@@ -1084,7 +1084,13 @@ The notion of Poincar&#233; supersymmetry was found in parallel by two groups in
 [[André Neveu]], [[Pierre Ramond]] and [[John Schwarz]] wrote down in 1971 the system called the [[spinning string]] -- a 2-dimensional [[quantum field theory]] with [[fermions]] and notice that it just so happens to have an extra graded extension of 2-dimensional Poincar&#233; symmetry.
 
 
-Around the same time Golfand and Likhtman in Russia wrote down the [[super Poincaré Lie algebra]] in four dimensions. This then motivated [[Julius Wess]] and Zumino to study supersymmetric QFTs in four dimensions.
+Around the same time [[Yuri Golfand]] and Likhtman in Russia wrote down the [[super Poincaré Lie algebra]] in four dimensions
+
+* {#GolfandLikhtman72} [[Yuri Golfand]], [[Evgeny Likhtman]],_On the Extensions of the Algebra of the Generators of the Poincaré Group by the Bispinor Generators_, in: [[Victor Ginzburg]] et al. (eds.) _I. E. Tamm Memorial Volume Problems of Theoretical Physics_, (Nauka, Moscow 1972), page 37, 
+
+  translated and reprinted in: [[Mikhail Shifman]] (ed.) _[[The Many Faces of the Superworld]]_ pp. 44-53,  World Scientific (2000) ([doi:10.1142/9789812793850_0006](https://doi.org/10.1142/9789812793850_0006))
+
+This then motivated [[Julius Wess]] and Zumino to study supersymmetric QFTs in four dimensions.
 
 * [[Julius Wess]], [[Bruno Zumino]], Nucl. Phys. B70 (1974) 39; Phys. Letters 49B (1974) 52.
 
