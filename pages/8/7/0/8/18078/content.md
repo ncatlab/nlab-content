@@ -165,3 +165,44 @@ $$
     \cdots
   \end{aligned}
 $$
+
+\linebreak
+
+$$
+  \begin{aligned}
+    & \phantom{= +}\,
+    \epsilon^{a_1 a_2 a_3 d_1 d_2} 
+    \big(
+      F_{a_1 b_1} 
+      F_{a_2 b_2}
+      g_{a_3 b_3}
+      F_{c_1 c_2}
+      F_{d_1 d_2}
+    \big)
+    \epsilon^{b_1 b_2 b_3 c_1 c_2}
+    \\
+    & =
+    -
+    \epsilon^{a_1 a_2 a_3 d_1 d_2} 
+    \big(
+      F_{a_1 b_1} 
+      F_{a_2 c_2}
+      g_{a_3 b_3}
+      F_{c_1 b_2}
+      F_{d_1 d_2}
+    \big)
+    \epsilon^{b_1 b_2 b_3 c_1 c_2}
+    \\
+    & =
+    +
+    \epsilon^{a_1 a_2 a_3 d_1 d_2} 
+    \big(
+      F_{a_1 b_1} 
+      F_{d_1 c_2}
+      g_{a_3 b_3}
+      F_{c_1 b_2}
+      F_{a_2 d_2}
+    \big)
+    \epsilon^{b_1 b_2 b_3 c_1 c_2}
+  \end{aligned}
+$$
