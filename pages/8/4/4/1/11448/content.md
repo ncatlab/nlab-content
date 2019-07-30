@@ -169,7 +169,7 @@ Related lecture notes / slides include
 
 ### Type I'
 
-* {#Schwarz00} [[John Schwarz]], _Some Properties of Type I' String Theory_, in: _The Many Faces of the Superworld, pp. 388-397_ (2000) ([arXiv:hep-th/9907061](https://arxiv.org/abs/hep-th/9907061), [doi:10.1142/9789812793850_0023](https://doi.org/10.1142/9789812793850_0023))
+* {#Schwarz00} [[John Schwarz]], _Some Properties of Type I' String Theory_, in: [[Mikhail Shifman]] (ed.), _[[The Many Faces of the Superworld]]_, pp. 388-397 (2000) ([arXiv:hep-th/9907061](https://arxiv.org/abs/hep-th/9907061), [doi:10.1142/9789812793850_0023](https://doi.org/10.1142/9789812793850_0023))
 
 * Justin R. David, Avinash Dhar, Gautam Mandal, _Probing Type I' String Theory Using D0 and D4-Branes_, Phys. Lett. B415 (1997) 135-143 ([arXiv:hep-th/9707132](https://arxiv.org/abs/hep-th/9707132))
 
