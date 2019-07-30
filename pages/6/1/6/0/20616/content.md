@@ -30,15 +30,20 @@ A **morphism** between tight orthogonality spaces $(X_1,{U_1},{V_1})\to (X_2,{U_
 1. if $u\in {U_1}$, then $f\circ u \in {U_2}$;
 2. if $v\in{V_2}$ then $v\circ f\in {V_1}$.
 
-**Theorem:** (Hyland-Schalk): If an orthogonality $\bot_X\subseteq C(I,X)\times C(X,I^*)$ satisfies four conditions for orthogonalities, a symmetry condition, and a precision condition, then the tight orthogonality spaces form a [[star-polycategory]].
+**Theorem:** (Hyland-Schalk): If an orthogonality $\bot_X\subseteq C(I,X)\times C(X,I^*)$ on a star-autonomous category satisfies four conditions for orthogonalities, a symmetry condition, and a precision condition, then the tight orthogonality spaces form a [[star-polycategory]].
 
 One source of good orthogonality relations $\bot_X\subseteq C(I,X)\times C(X,I^*)$ are the focuses $F\subseteq C(I,I^*)$, from which we can let 
 $u\bot_X v$ if $(v\circ u)\in F$. However, not all the useful orthogonalities arise from focuses.
 
+### Examples
+
+* [[Coherence spaces]]: Let $C=Rel$, and let $u\bot_X v$ if $|u\cap v|\leq 1$.
+* [[Totality spaces]]: Let $C=Rel$, and let $u\bot_X v$ if $|u\cap v|=1$.
+* [[Finiteness spaces]]: Let $C=Rel$, and let $u\bot_X v$ if $|u\cap v|\lt\omega$.
+* [[Probabilistic coherence spaces]]: Let $C$ be the category of weighted relations, i.e. countable sets and $[0,\infty]$-valued matrices between them. Let $u\bot_X v$ if $(v\circ u)\in [0,1]$. In other words, the focus $F\subseteq C(I,I^*)$ comprises the scalars in $[0,1]$.
+* [[Frölicher spaces]]: Dropping the requirement that $C$ is star-autonomous, let $C=Set$, let $I=\mathbb{R}$, and let $u\bot_X v$ if $(v\circ u):\mathbb{R}\to\mathbb{R}$ is smooth. In other words, the focus $F\subseteq C(\mathbb{R},\mathbb{R})$ comprises the smooth maps.
 
 ## References
-
-The theory of focused orthogonality categories is developed in Section 5 of 
 
 * [[Martin Hyland]] and Andrea Schalk, _Glueing and orthogonality for models of linear logic_, Theoretical Computer Science 294 (2003) 183–231 ([pdf](https://core.ac.uk/download/pdf/21173316.pdf))
  {#HylandSchalk}
