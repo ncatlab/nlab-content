@@ -61,7 +61,7 @@ $$
      \wedge 
     F_{a_2 b_2} d x^{a_2}
       \wedge 
-    \eta_{a_3 b_3}  d x^{a_3}
+    g_{a_3 b_3}  d x^{a_3}
     \epsilon^{b_1 b_2 b_3 c_1 c_2} F_{c_1 c_2} 
       \wedge 
     F_{a_4 b_4} d x^{a_4} \wedge d x^{b_4}
@@ -74,8 +74,94 @@ $$
     \delta^{a_3}_{a'_3]}
     F^{a'_1 a'_2} d x^{a'_3}
     F^{c_1 c_2} d x^{c_3}
-    F_{a_1 a_2} \eta_{a_4 a_3} d x^{a_4}
+    F_{a_1 a_2} g_{a_4 a_3} d x^{a_4}
       \wedge 
     F_{a_4 b_4} d x^{a_4} \wedge d x^{b_4}    
+    \\
+    & =
+    \phantom{+}\;
+    \tfrac{1}{2}
+    F_{a_1 b_1} d x^{a_1}
+     \wedge 
+    F_{a_2 c_2} d x^{a_2}
+      \wedge 
+    g_{a_3 b_3}  d x^{a_3}
+    \epsilon^{b_1 b_2 b_3 c_1 c_2} F_{c_1 b_2} 
+      \wedge 
+    F_{a_4 b_4} d x^{a_4} \wedge d x^{b_4}
+    \;+\;
+    \cdots
+  \end{aligned}
+$$
+
+
+\linebreak
+
+
+$$
+  \begin{aligned}
+    & 
+    \Big(
+      \underset{
+        \mathclap{
+          0 \leq a_i \leq 5 
+        }
+      }{\sum}
+      e_{a_1}{}^{a_2} \wedge e_{a_2}{}^{a_3} \wedge e_{a_3}{}^{a_1}
+    \Big)
+    \wedge 
+    \Big(
+      F_{a_4 b_4} d x^{a_4} \wedge d x^{b_4}
+    \Big)
+    \\
+    & =
+    \Big(
+    3
+    \underset{
+      \mathclap{
+        0 \leq a_i \leq 4 
+      }
+    }{\sum}
+    e_{a_1 5} \wedge e_{a_3 5} \wedge e^{a_1 a_3}
+    +
+    \underset{
+      \mathclap{
+        0 \leq a_i \leq 4 
+      }
+    }{\sum}
+    e_{a_1 a_2} 
+     \wedge 
+    e^{a_2 a_3} 
+     \wedge e_{a_3}{}^{a_1}    
+    \Big)
+    \wedge 
+    \Big(
+      F_{a_4 b_4} d x^{a_4} \wedge d x^{b_4}
+    \Big)
+    \\   
+    & =
+    \tfrac{1}{2}
+    F_{a_1 b_1} d x^{a_1}
+     \wedge 
+    F_{a_2 b_2} d x^{a_2}
+      \wedge 
+    g_{a_3 b_3}  d x^{a_3}
+    \epsilon^{b_1 b_2 b_3 c_1 c_2} F_{c_1 c_2} 
+      \wedge 
+    F_{a_4 b_4} d x^{a_4} \wedge d x^{b_4}
+    \\  
+    & =
+    \tfrac{1}{2}
+    \epsilon^{b_1 b_2 b_3 c_1 c_2} 
+    F_{a_1 b_1} 
+    F_{a_2 b_2} 
+    g_{a_3 b_3} 
+    F_{c_1 c_2} 
+    F_{d_1 d_2} 
+    \epsilon^{a_1 a_2 a_3 d_1 d_2}
+    \cdot
+    \mathrm{dvol}
+    \;+\;
+    \cdots
   \end{aligned}
 $$
