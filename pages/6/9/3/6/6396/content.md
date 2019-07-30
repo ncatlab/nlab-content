@@ -36,6 +36,9 @@ On [[Green-Schwarz sigma-models]] for [[D-branes]]:
 
 * {#APPS97b} [[Mina Aganagic]], Jaemo Park, Costin Popescu, [[John Schwarz]], _Dual D-Brane Actions_, Nucl. Phys. B496 (1997) 215-230 ([arXiv:hep-th/9702133](https://arxiv.org/abs/hep-th/9702133))
 
+On [[type I' string theory]]:
+
+* {#Schwarz00} [[John Schwarz]], _Some Properties of Type I' String Theory_, in: [[Mikhail Shifman]] (ed.), _[[The Many Faces of the Superworld]]_, pp. 388-397 (2000) ([arXiv:hep-th/9907061](https://arxiv.org/abs/hep-th/9907061), [doi:10.1142/9789812793850_0023](https://doi.org/10.1142/9789812793850_0023))
 
 On the history of [[string theory]]:
 
