@@ -566,7 +566,7 @@ Second Series, Vol. 92, No. 2 (1970), pp. 189-223 ([jstor:1970834](https://www.j
 * {#BBMOOY96} [[Katrin Becker]], [[Melanie Becker]], [[David Morrison]], [[Hirosi Ooguri]], Y. Oz, Z. Yin, (3.5) of _Supersymmetric Cycles in Exceptional Holonomy Manifolds and Calabi-Yau 4-Folds_, Nucl. Phys. B480:225-238, 1996 ([arXiv:hep-th/9608116](https://arxiv.org/abs/hep-th/9608116))
 
 
-* {#KacSmilga00} [[Victor Kac]], A.V. Smilga, around (1.10) in _Vacuum structure in supersymmetric Yang-Mills theories with any gauge group_, in _The Many Faces of the Superworld, pp. 185-234 (2000)_ ([arXiv:hep-th/9902029](https://arxiv.org/abs/hep-th/9902029), [doi:10.1142/9789812793850_0014](https://doi.org/10.1142/9789812793850_0014))
+* {#KacSmilga00} [[Victor Kac]], A.V. Smilga, around (1.10) in _Vacuum structure in supersymmetric Yang-Mills theories with any gauge group_, in _[[The Many Faces of the Superworld]], pp. 185-234 World Scientific (2000)_ ([arXiv:hep-th/9902029](https://arxiv.org/abs/hep-th/9902029), [doi:10.1142/9789812793850_0014](https://doi.org/10.1142/9789812793850_0014))
 
 * {#OrneaPiccini00} Liviu Ornea, [[Paolo Piccinni]], _Cayley 4-frames and a quaternion-Kähler reduction related to Spin(7)_, Proceedings of the International Congress of Differential Geometry in the memory of A. Gray, held in Bilbao, Sept. 2000 ([arXiv:math/0106116](https://arxiv.org/abs/math/0106116))
 
