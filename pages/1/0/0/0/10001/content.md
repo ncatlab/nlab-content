@@ -88,6 +88,8 @@ The twisted theory itself is then defined to be given by the [[factorization alg
 
 ## Related concepts
 
+* [[topological Yang-Mills theory]]
+
 * [[topological twist]]
 
 * [[N=1 D=4 super Yang-Mills theory]]
