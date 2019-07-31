@@ -40,7 +40,7 @@ A functor with a [[right adjoint]] is oplax monoidal if and only if that right a
 
 This is a special case of the statement of [[doctrinal adjunction]] for the case of the [[2-monad]] whose algebras are monoidal categories, 
 
-=---
+=--
 
 Here is the explicit construction of the oplax monoidal structure from a lax monoidal structure on a right adjoint:
 
@@ -62,7 +62,7 @@ $$
 given by the [[adjunct]] of
 
 $$
-  x \otimes y \stackrel{i_x \otimes i_y}{\to}
+  x \otimes y \stackrel{\eta_x \otimes \eta_y}{\to}
   R L x \otimes R L y
   \stackrel{\nabla_{L x, L y}}{\to}
   R(L x \otimes L y)
@@ -73,7 +73,7 @@ By the formula for [[adjuncts]] in terms of the [[adjunction counit]] ([this pro
 
 $$
   L(x \otimes y) 
-    \stackrel{L(i_x \otimes i_y)}{\longrightarrow}
+    \stackrel{L(\eta_x \otimes \eta_y)}{\longrightarrow}
   L(R L x \otimes R L y)
     \stackrel{L(\nabla_{L x, L y})}{\longrightarrow}
   L R(L x \otimes L y)
