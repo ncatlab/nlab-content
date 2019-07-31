@@ -1,3 +1,5 @@
+[[!redirects Frank Waaldijk]]
+[[!redirects Frank Waaldijk]] (changed her name in 2019, it was 'Frank Waaldijk')
 
 * [webpage](https://www.fwaaldijk.nl/mathematics.html)
 * [math science philosophy blog](https://fwaaldijk.wordpress.com)
