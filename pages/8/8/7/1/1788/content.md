@@ -232,19 +232,13 @@ $$
 (P \diamond Q) (a,c) = \int^b P(a,b)\times Q(b,c)
 $$
 
-defines a composition of bimodules, in a similar way matrix product is defined as
+boils down, on discrete domains $A,B\in\Set$ to a "matrix product of sets" like
 
 $$
-adfafa
+(P \diamond Q)_{ac} = \sum_{b\in B} P_{ab}\times Q_{bc}
 $$
 
-and the composition of relations is defined as
-
-$$
-adfafaf
-$$
-
-Indeed, look how the two concepts correspond bijectively:
+There is also a connection between the ways in which profunctors compose, and the way in which _relations_ do. Indeed, look how the two concepts closely resemble each other:
 
 $$
 \begin{array}{cccccc}
@@ -252,5 +246,7 @@ $$
 		(P\diamond Q)(x,z) & = & \int^y & Q(x,y) & \times & P(y,z) \\
 \end{array}
 $$
+
+(yes, you can make this precise by saying that sets are discrete categories, or even more precisely categories enriched over [truth values](https://ncatlab.org/nlab/show/%28-1%29-categoryhttps://ncatlab.org/nlab/show/%28-1%29-category), and that relations are precisely the $\{0,1\}$-enriched version of profunctors, as they are functions $A\times B \to \{0,1\}$!)
 
 # Doubles for monoidal categories
