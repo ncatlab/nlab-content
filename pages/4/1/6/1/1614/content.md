@@ -64,6 +64,10 @@ In contrast to topological QFTs, non-topological quantum field theories in the [
 
 * [[4d TQFT]]
 
+  * [[topological Yang-Mills theory]]
+
+  * [[topologically twisted D=4 super Yang-Mills theory ]]
+
   * [[4d Chern-Simons theory]]
 
   * [[Yetter model]]  
@@ -91,8 +95,7 @@ See also the references at [[2d TQFT]], [[3d TQFT]] and [[4d TQFT]].
 
 The concept originates in the guise of [[cohomological quantum field theory]] motivated from TQFTs appearing in [[string theory]] in
 
-* {#Witten88} [[Edward Witten]], _Topological quantum field theory_, Comm. Math. Phys.
-Volume 117, Number 3 (1988), 353-386. ([Euclid](http://projecteuclid.org/euclid.cmp/1104161738))
+* {#Witten88} [[Edward Witten]], _Topological quantum field theory_, Comm. Math. Phys. Volume 117, Number 3 (1988), 353-386. ([euclid:1104161738](http://projecteuclid.org/euclid.cmp/1104161738))
 
 * {#Witten91} [[Edward Witten]], _Introduction to cohomological field theory_, International Journal of Modern Physics A, Vol. 6,No 6 (1991) 2775-2792 ([[WittenCQFT.pdf:file]])
 
