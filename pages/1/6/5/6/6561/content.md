@@ -1,5 +1,4 @@
-[[!redirects 6d (2,0)-superconformal QFT]]
-[[!redirects 6d (2,0)-supersymmetric QFT]]
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -297,6 +296,7 @@ a summary of
 [[!redirects D=6 N=(2,0) SCFT]]
 [[!redirects D=6 N=(1,1) SCFT]]
 
+[[!redirects 6d (2,0)-supersymmetric QFT]]
 
 
 
