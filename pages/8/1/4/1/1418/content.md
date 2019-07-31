@@ -36,7 +36,7 @@ An [[object]] $X$ of a [[category]] $C$ is said to be [[finitely presentable obj
 A category $C$ satisfying (any of) the following equivalent conditions is said to be __locally finitely presentable__ (or **lfp**):
 
 1. $C$ has all small [[colimit|colimits]], the category $C_{fp}$ is [[essentially small category|essentially small]], and any object in $C$ is a [[filtered colimit]] of the canonical diagram of finitely presentable objects mapping into it.
-1. $C$ is the category of models for an [[essentially algebraic theory]].  Here an 'essentially algebraic theory' is a small category $D$ with finite limits, and its category of 'models' is the category of finite-limit-preserving functors $D \to Set$.
+1. $C$ is the category of models for an [[essentially algebraic theory]].  Here an 'essentially algebraic theory' is a small category $D$ with finite limits, and its category of 'models' is the category of finite-limit-preserving functors $D \to Set$. (See [[Gabriel--Ulmer duality]].)
 1. $C$ is the category of models for a finite limit [[sketch]].
 1. $C_{fp}$ has finite colimits, and the restricted [[Yoneda embedding]] $C\hookrightarrow [C_{fp}^{op},Set]$ identifies $C$ with the category of finite-limit-preserving functors $C_{fp}^{op} \to Set$.
 
