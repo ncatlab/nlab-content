@@ -51,15 +51,30 @@ The topological Yang-Mills action also appears in the [[generalized Chern-Simons
 
 * [[theta angle]]
 
+* [[topologically twisted D=4 super Yang-Mills theory]]
+
 ## References
 
-A general account emphasizing the relation to [[Chern-Simons theory]] is
+The term originates with
 
-* P van Baal, _An introduction to topological Yang-Mills theory_ , Acta Physica Polonica Vol. B21 ([pdf](http://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=21&page=73))
+* L. Baulieu, [[Isadore Singer]], _Topological Yang-Mills symmetry_, Nuclear Physics B - Proceedings Supplements Volume 5, Issue 2, December 1988, Pages 12-19 (<a href="https://doi.org/10.1016/0920-5632(88)90366-0">doi:10.1016/0920-5632(88)90366-0</a>)
+
+following 
+
+* {#Witten88} [[Edward Witten]], _Topological quantum field theory_, Comm. Math. Phys. Volume 117, Number 3 (1988), 353-386. ([euclid:1104161738](http://projecteuclid.org/euclid.cmp/1104161738))
+
+
+Review emphasizing the relation to [[Chern-Simons theory]] is
+
+* P van Baal, _An introduction to topological Yang-Mills theory_, Acta Phys.Polon. B21 (1990) 73 ([spire:280417](http://inspirehep.net/record/280417), [pdf](http://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=21&page=73))
 
 The relation to [[Chern-Simons theory]] on the boundary in an ambient [[string theory|string theoretic]] context is indicated in section 2 (starting around p. 21) of
 
-* [[Edward Witten]], _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216))
- {#Witten}
+* {#Witten} [[Edward Witten]], _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216))
+ 
+
+See also
+
+* D. Dudal, C. P. Felix, O. C. Junqueira, D. S. Montes, A. D. Pereira, G. Sadovski, R. F. Sobreiro, A. A. Tomaz, _Gribov problem in topological Yang-Mills theories_ ([arXiv:1907.05460](https://arxiv.org/abs/1907.05460))
 
 [[!redirects topological Yang-Mills theories]]
