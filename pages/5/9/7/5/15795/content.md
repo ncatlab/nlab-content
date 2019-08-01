@@ -3,8 +3,10 @@ Marek Golasi&#324;ski is a homotopy theorist working at the University of Warmia
 
 With [[Ronnie Brown]] he gave the folk model structure on the category of [[crossed complex]]es
 
+
 category:people
 
+[[!redirects Marek Golasiński]]
 [[!redirects Marek Golasinski]]
-
-[[!redirects  Golasinski]]
+[[!redirects Golasiński]]
+[[!redirects Golasinski]]
