@@ -30,7 +30,7 @@ From the [[nPOV]], a weak form of the double coset construction is often more na
 ### Mackey's formula
  {#MackeyFormula}
 
-> the following needs to state the assumpotion on the kind of group, e.g. [[finite group]], [[compact Lie groups]], ...
+> the following needs to state the assumption on the kind of group, e.g. [[finite group]], [[compact Lie groups]], ...
 
 Double coset decompositions are useful in [[representation theory]], for example in [[George Mackey]]'s formula for the [[restricted representation|restriction]] back to $H$ of a module [[induced representation|induced]] from $K$. Let $W$ be a [[linear representation]] of $K$. Then
 
