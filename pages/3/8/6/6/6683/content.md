@@ -146,6 +146,10 @@ and derived from this a classification of the possible [[orbifold|orbifolding]] 
 
 * [[José Figueroa-O'Farrill]], _M2-branes, ADE and Lie superalgebras_, talk at IPMU 2009 ([pdf](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/Hongo.pdf))
 
+Discussion via the [[conformal bootstrap]]:
+
+* Nathan B. Agmon, Shai M. Chester, Silviu S. Pufu, _The M-theory Archipelago_ ([arXiv:1907.13222](https://arxiv.org/abs/1907.13222))
+
 
 See also
 
@@ -159,4 +163,6 @@ Computation of [[black hole entropy]] in 4d via [[AdS4-CFT3 duality]] from [[hol
 
 [[!redirects ABJM model]]
 [[!redirects ABJM-model]]
+
+[[!redirects D=3 SCFT]]
 
