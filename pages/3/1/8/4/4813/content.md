@@ -73,8 +73,13 @@ The relation to [[Chern-Simons theory]] on the boundary in an ambient [[string t
 * {#Witten} [[Edward Witten]], _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216))
  
 
-See also
+On the [[Gribov ambiguity]] in topological Yang-Mills theory:
 
 * D. Dudal, C. P. Felix, O. C. Junqueira, D. S. Montes, A. D. Pereira, G. Sadovski, R. F. Sobreiro, A. A. Tomaz, _Gribov problem in topological Yang-Mills theories_ ([arXiv:1907.05460](https://arxiv.org/abs/1907.05460))
+
+See also
+
+* O. C. Junqueira, A. D. Pereira, G. Sadovski, R. F. Sobreiro, A. A. Tomaz, _Absence of radiative corrections in 4-dimensional topological Yang-Mills theories_, Phys. Rev. D 98, 021701 (2018) ([arXiv:1805.01850](https://arxiv.org/abs/1805.01850))
+
 
 [[!redirects topological Yang-Mills theories]]
