@@ -1,6 +1,6 @@
 
 +-- {: .standout}
-rough notes from a talk by [[Bruno Valette]] -- **raw material** to be polished
+rough notes from a talk by [[Bruno Vallette]] -- **raw material** to be polished
 
 see also [[framed little 2-disk operad]] 
 
@@ -297,7 +297,7 @@ For any [[topological vertex algebra]] $A$ with $\mathbb{N}$-graded conformal we
 
 The above material probably roughly follows the talk slides
 
-* [[Bruno Vallette]], _Homotopy Batalin-Vilkovisky algebras_ (dead link))
+* [[Bruno Vallette]], _Homotopy Batalin-Vilkovisky algebras_ , [slides](https://www.math.univ-paris13.fr/~vallette/download/Homotopy%20BV.pdf))
 
 The corresponding article is
 
