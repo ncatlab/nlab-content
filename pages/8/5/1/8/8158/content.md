@@ -22,7 +22,7 @@ Let $C$ and $D$ be two [[strict categories]], and let $U$ be a [[strict functor]
 
 If we follow the [[principle of equivalence]] and refuse to state equations between objects, then we must modify the hypothesis to say that $U(a)$ and $U(b)$ are *[[isomorphic]]* in $C$ (say via $g\colon U(a) \to U b$) and $U(f)$ is the identity *relative to* this isomorphism (so $U(f) = \id_{U(b)} \circ g \circ \id_{U(a)}$; since we can simply let $g$ be $U(f)$, this is trivial (beyond the initial isomorphism $f\colon a \to b$).  Similarly, we must modify the conclusion to say that $a$ and $b$ are *isomorphic* (say via $h\colon a \to b$) and $f$ is the identity *relative to* this isomorphism (so $f = \id_b \circ h \circ \id_a$); since we can simply let $h$ be $f$, this is also trivial.  Thus up to [[equivalence of categories|equivalence]], this property is trivial; on the other hand, it is preserved by [[isomorphism of categories|isomorphism]].
 
-+-- {: .defn #anafunctor}
++-- {: .num_defn #anafunctor}
 ###### Definition
 
 Now let $C$ and $D$ be two [[strict categories]], and let $U$ be an [[anafunctor]] from $D$ to $C$.  We again say that $U$ is __amnestic__ if its [[core]] reflects [[identity morphisms]].  Explicitly, now $U$ is amnestic iff, whenever $a$ and $b$ are [[objects]] of $D$, $f$ is an [[isomorphism]] in $D$ from $a$ to $b$, $\alpha$ is a specification of $a$ for the anafunctor $U$, $\beta$ is a specification of $b$ for the anafunctor $U$, $U_\alpha(a)$ and $U_\beta(b)$ are equal objects in $C$, and $U_{\alpha,\beta}(f)$ is the [[identity morphism]] on this object in $C$, then $a$ and $b$ are equal objects in $D$, and $f$ is the identity morphism on this object in $D$.
