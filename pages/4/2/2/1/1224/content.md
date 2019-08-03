@@ -14,11 +14,14 @@
 
 ## Idea
 
-A [[functor]] $F : C \to D$ is **final** (often called **cofinal**), if we can restrict [[diagram]]s on $D$ to diagrams on $C$ along $F$ without changing their [[colimit]].  
+A [[functor]] $F : C \to D$ is **final**, if we can restrict [[diagram]]s on $D$ to diagrams on $C$ along $F$ without changing their [[colimit]].  
 
-Dually, a functor is **initial** (sometimes called **co-cofinal**, or **final** -- see for example [Borceux](#fb)) if pulling back diagrams along it does not change the [[limit]]s of these diagrams.
+Dually, a functor is **initial** if pulling back diagrams along it does not change the [[limit]]s of these diagrams.
 
 Beware that this property is pretty much unrelated to that of a functor being an [[initial object]] or [[terminal object]] in the [[functor category]] $[C,D]$.  The terminology comes instead from the fact that an object $d\in D$ is initial (resp. terminal) just when the corresponding functor $d:1\to D$ is initial (resp. final).
+
+**Warning:**  In older references, final functors are sometimes called *cofinal*, the terminology having been imported from order theory (e.g. [[cofinality]]).  However, this is confusing in category theory because usually the prefix "co-" denotes dualization.  In at least one place ([Borceux](#fb)) this non-dualization was treated as a dualization and the word "final" used for the *dual* concept, but in general it seems that the consensus is to use "final" for what used to be called "cofinal", and "initial" for the dual concept (since "co-final" would be ambiguous).
+
 
 ## Definition
 
