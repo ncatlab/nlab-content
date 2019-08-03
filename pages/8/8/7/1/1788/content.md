@@ -250,3 +250,4 @@ $$
 (yes, you can make this precise by saying that sets are discrete categories, or even more precisely categories enriched over [truth values](https://ncatlab.org/nlab/show/%28-1%29-categoryhttps://ncatlab.org/nlab/show/%28-1%29-category), and that relations are precisely the $\{0,1\}$-enriched version of profunctors, as they are functions $A\times B \to \{0,1\}$!)
 
 # Doubles for monoidal categories
+
