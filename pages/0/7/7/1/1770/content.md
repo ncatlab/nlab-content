@@ -1,5 +1,3 @@
-[[!redirects smooth space]]
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -412,7 +410,6 @@ As a [[cohesive topos]], smooth sets are discussed in
 [[!redirects smooth space]]
 [[!redirects smooth spaces]]
 
-[[!redirects smooth set]]
 [[!redirects smooth sets]]
 
 [[!redirects SmoothSet]]
