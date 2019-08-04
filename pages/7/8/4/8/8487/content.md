@@ -20,7 +20,7 @@ The _parenthesized braid operad_ is an [[operad]] in [[Grpd]] modelled on the [[
 
 ## Definition
 
-Let $PaB$ be the category defined as follows:
+Let $PaB_n$ be the category defined as follows:
 * its set of [[objects]] is the [[free construction|free]] [[magma]] on one generator, or equivalently the set of [[rooted binary tree]]s.
 * the set of morphisms between two objects $s,t$ is given by the braid group $B_n$ whenever $s$ and $t$ are words of the same legnth $n$, and is empty otherwise.
 
