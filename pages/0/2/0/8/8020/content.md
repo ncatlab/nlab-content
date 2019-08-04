@@ -42,7 +42,7 @@ Then an __abstract vector space__, which came later, is a [[module]] over $K$ th
 
 The original notion of [[Hilbert space]] (the one used by [[David Hilbert]]) was $L^2(\mathbb{R})$, the [[Lebesgue space]] on the [[real line]] (with [[Lebesgue measure]]) of exponent $2$.  This immediately generalises to $L^2(X)$, where $X$ is any [[measure space]].  As a special case, if $X$ is a [[discrete space|discrete]] measure space (a [[set]] equipped with [[counting measure]]), then we have a topological version of the concrete vector space $K^c$.
 
-Either of these (any measure space or only a discrete measure space) may be taken as a __concrete Hilbert space__, while the modern notion is an __abstract Hilbert space__.  An [[orthonormal basis]] on an abstract Hilbert space gives it the structure of a __concrete Hilbert space__ (in the strcter sense).
+Either of these (any measure space or only a discrete measure space) may be taken as a __concrete Hilbert space__, while the modern notion is an __abstract Hilbert space__.  An [[orthonormal basis]] on an abstract Hilbert space gives it the structure of a __concrete Hilbert space__ (in the stricter sense).
 
 
 ### Operator algebras
@@ -51,7 +51,7 @@ With [[operator algebras]], we have the curious situation that special names may
 
 Let $H$ be a [[Hilbert space]] over the [[complex numbers]] and consider the $*$-[[star-algebra|algebra]] $B(H)$ of [[bounded linear operators]] from $H$ to itself.  A __$C^*$-[[C-star-algebra|algebra]]__ is a sub-$*$-algebra of $B(H)$ that is [[closed subspace|closed]] in the [[norm topology]]; a __[[von Neumann algebra]]__ is a sub-$*$-algebra of $B(H)$ that is closed in the [[weak operator topology]] (a stronger condition).
 
-On the abstract side, a __$B^*$-[[B-star-algebra|algebra]]__ is a [[Banach algebra|Banach]] $*$-algebra such that ${\|x^* x\|} = {\|x\|}^2$ always holds, while a __$W^*$-[[W-star-algebra|algebra]]__ is a $B^*$-algebra with a [[predual]] as a [[Banach space]].  It is then a theorem that (as defined above) every $C^*$-algebra is a $B^*$-algebra, and every von Neumann algebra is a $W^*$-algebra, so we may abstractly define a __$C^*$-algebra__ to be a $B^*$-algebra with a [[faithful representation|faithful]] [[representation]] on a Hilbert spcace, and similarly define a __von Neumann algebra__ to be a $W^*$-algebra with a free action on a Hilbert space.
+On the abstract side, a __$B^*$-[[B-star-algebra|algebra]]__ is a [[Banach algebra|Banach]] $*$-algebra such that ${\|x^* x\|} = {\|x\|}^2$ always holds, while a __$W^*$-[[W-star-algebra|algebra]]__ is a $B^*$-algebra with a [[predual]] as a [[Banach space]].  It is then a theorem that (as defined above) every $C^*$-algebra is a $B^*$-algebra, and every von Neumann algebra is a $W^*$-algebra, so we may abstractly define a __$C^*$-algebra__ to be a $B^*$-algebra with a [[faithful representation|faithful]] [[representation]] on a Hilbert space, and similarly define a __von Neumann algebra__ to be a $W^*$-algebra with a free action on a Hilbert space.
 
 The representation theorem here is that every $B^*$-algebra may be given the structure of a $C^*$-algebra, and in fact the term '$B^*$-algebra' is nearly obsolete.  Similarly, every $W^*$-algebra may be given the structure of a von Neumann algebra, but here both terms may yet be found (and even distinguished such that a von Neumann algebra comes with a representation on a Hilbert space but a $W^*$-algebra does not).
 
