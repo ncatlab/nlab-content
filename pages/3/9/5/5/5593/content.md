@@ -90,9 +90,8 @@ out of it by taking all entourages $E$ that contain some $E_{U^i}$.
 
 ### Equivalence between covering uniformities and entourage uniformities
 
-Theorem XII.3.3.4 in Picado and Pultr shows that the above correspondence is bijective.
-Furthermore, the categories of entourage uniform locales
-and covering uniform locales are equivalent (Corollary XII.3.4.3 in the cited book).
+Theorem XII.3.3.4 in Picado and Pultr shows that the above correspondence is bijective.  Furthermore, the categories of entourage uniform locales
+and covering uniform locales are equivalent (Corollary XII.3.4.3 in the cited book).  However, since their book uses [[classical logic]] throughout, it is not entirely clear whether the same equivalence holds constructively.
 
 ## Properties
 
@@ -162,7 +161,7 @@ that has a basis in which all covers are finite.
 
 A detailed treatment of uniform locales can be fund in
 
-\bibitem{PP} [[Jorge Picado]], [[Aleš Pultr]], _[[Frames and Locales]]_.
+* {#PP} [[Jorge Picado]], [[Aleš Pultr]], _[[Frames and Locales]]_.
 
 
 The following paper developes covering uniformities constructively, and includes citations to several other papers that do it classically:
