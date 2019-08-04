@@ -52,6 +52,8 @@ $$
 \end{matrix}
 $$
 
+For instance, in the [[truth value]]-enriched case, the duality is between [[meet semilattices]] and [[algebraic lattices]]. 
+
 ## References
 
 The original source is:
