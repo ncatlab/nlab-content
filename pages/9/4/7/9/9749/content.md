@@ -87,7 +87,7 @@ The other example he gives has $X$ a bounded, closed and convex subset of $\math
 
 Doberkat has a longer article on [[Eilenberg-Moore algebra]]s of the Giry monad as item 5 [here](http://ls10-www.cs.uni-dortmund.de/index.php?id=18). (Unfortunately, the monograph 'Stochastic Relations: Foundations for Markov Transition Systems' doesn't appear to be available.) There are two monads being treated here, one which sends a Polish space to the space of all probability measures, the other to the space of all subprobability measures. The extra structure relating to these monads, is that of a (positive) convex structure. In the case of a convex structure, this intuitively captures the idea that a weighted sum of points in the space has barycentre within the space. 
 
-Doberkat focused on the Giry monad on the category of Polish spaces. A further question is, what is a concrete characterization of the Giry monad on the category of measurable spaces? This is being investigated in ongoing work by Sturtz (e.g. [Sturtz 19](#Sturtz)). See the discussion page at nforum for details. 
+Doberkat focused on the Giry monad on the category of Polish spaces. A further question is, what is a concrete characterization of the Giry monad on the category of measurable spaces? This is being investigated in ongoing work by Sturtz (e.g. [Sturtz 19](#Sturtz)) who is attempting to factor the monad through the category of super convex space (which have been referred to as strongly convex spaces in the quantum mechanics literature, e.g., See Mackey - Math. Found. Q.M.). See the discussion page at nforum for details. 
 
 ## Related constructions
 
@@ -143,19 +143,15 @@ According to [E. Burroni (2009)](#Burroni09) the 'Giry' monad appears also in
 
 The factorization of the Giry monad, defined on the category of measurable spaces, through the category of super convex spaces, is described in
 
-* {#Sturtz19} [[Kirk Sturtz]], _Erratum and Addendum: The factorization of the Giry monad, [arXiv:1907.00372](http://arxiv.org/abs/1907.00372)
+* {#Sturtz19} [[Kirk Sturtz]],_The equivalence of the categories of Giry-algebras and super convex spaces_, [arXiv:1907.03209](http://arxiv.org/abs/1907.03209)
 
-while the result that the category of Giry-algebras is equivalent to the category of super convex spaces is given in
-
-* K. Sturtz, _The equivalence of the categories of Giry-algebras and super convex spaces_, [arXiv:1907.03209](http://arxiv.org/abs/1907.03209)
-
-  Those two short articles generalize the earlier work 
+which generalize the preliminary work 
 
 * K. Sturtz, _Categorical Probability Theory_, [arXiv:1406.6030](http://arxiv.org/abs/1406.6030)
 
-which views probability measures via double dualization, restricted to weakly averaging affine maps which preserves limits.   The preservation of limits (of countable affine sums) is automatic in the category of super convex spaces.
+which views probability measures via double dualization, restricted to weakly averaging affine maps which preserves limits.   The preservation of limits (of countable affine sums) is automatic in the category of super convex spaces, and necessary for the factorization.
 
-That article includes some corrections from an earlier version of the article, _The Giry monad as a codensity monad_, pointed out in
+That article includes some corrections from an earlier version of the article, pointed out in
 
 * T. Avery, _Codensity and the Giry monad_, arXiv:1410.4432 (2014). ([pdf](http://arxiv.org/pdf/1410.4432.pdf))
 
