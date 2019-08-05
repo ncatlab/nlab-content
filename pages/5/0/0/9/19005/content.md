@@ -26,6 +26,12 @@ This is the topic of [[Seiberg-Witten theory]].
 
 Definitions of the Coulomb and Higgs branches have been extended to [[N=4 D=3 super Yang-Mills theory]].
 
+## Definition
+
+### D=4
+
+### D=3
+
 ## Related concepts
 
 * [[symplectic duality]]
