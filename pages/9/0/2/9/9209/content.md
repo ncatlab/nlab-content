@@ -78,6 +78,10 @@ abelian categories_ (2012) ([pdf](http://www.mat.uc.pt/~workCT/slides/Ignacio.pd
 
 Here the author points out that while Deligne's tensor product always exists for finite abelian categories, it does not always exist for general [[abelian categories]].  He argues that in this case it is better to use Kelly's tensor product of finitely cocomplete categories, because it always exists, and it agrees with Deligne's tensor product when the latter exists.  
 
+Kelly's tensor product can be found in section 6.5 of
+
+* [[Max Kelly]], _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press 1982, 245 pp.; remake: TAC reprints 10, [tac](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html),[pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)
+
 Similar remarks (in the context of [[2-rings]]/[[2-modules]]) are from corollary 2.2.5 on in 
 
 * Alexandru Chirvasitu, [[Theo Johnson-Freyd]], _The fundamental pro-groupoid of an affine 2-scheme_ ([arXiv:1105.3104](http://arxiv.org/abs/1105.3104))
