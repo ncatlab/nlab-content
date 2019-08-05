@@ -4,7 +4,7 @@
 
 ## Idea
 
-Continuous logic is a logic whose truth values can take continuous values in $[0,1]$. The main variant used in model theory is motivated by the model theory of Banach spaces and similar structures.  
+Continuous logic is a logic whose truth values can take continuous values in $[0,1]$. The main variant used in model theory is motivated by the model theory of Banach spaces and similar structures. The language has connectives for each continuous function $c: [0,1]^n \to [0,1]$ and the quantifiers are interpreted as infimum and supremum. The models of this logic are bounded complete metric structures equipped with uniformly continuous maps and $[0,1]$-valued predicates. 
 
 As well as satisfying a form of [[completeness theorem]], 
 
