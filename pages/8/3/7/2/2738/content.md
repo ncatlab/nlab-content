@@ -117,7 +117,7 @@ such that
 
 * it has a [[bottom]] element;
 
-* for each element $e \in T$ the set $\{y \in T | T \leq e\}$ is a [[linear order]] under $\leq$;
+* for each element $e \in T$ the set $\{y \in T | y \leq e\}$ is a [[linear order]] under $\leq$;
 
 and equipped with a subset $L \subset max(T)$ of the maximal elements of $T$.
 
