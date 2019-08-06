@@ -328,3 +328,38 @@ $$
 (yes, you can make this precise by saying that sets are discrete categories, or even more precisely categories enriched over [truth values](https://ncatlab.org/nlab/show/%28-1%29-categoryhttps://ncatlab.org/nlab/show/%28-1%29-category), and that relations are precisely the $\{0,1\}$-enriched version of profunctors, as they are functions $A\times B \to \{0,1\}$!)
 
 # Doubles for monoidal categories
+
+## Examples
+
+Trivially, any [[connected geometric morphism]] is surjective.
+
++-- {: .num_prop #topological}
+###### Proposition
+
+For $f : X \to Y$ a [[continuous function]] between [[topological space|topological spaces]] and $(f^* \dashv f_*) : Sh(X) \to Sh(Y)$ the corresponding geometric morphism of [[sheaf topos|sheaf toposes]]: if $f$ is surjective then $(f^* \dashv f_*)$ is a surjective geometric morphism, conversely, if $(f^* \dashv f_*)$ is a surjective geometric morphism and $Y$ a $T_1$-space then $f$ is surjective.
+=--
+
+For a proof see e.g [MacLane-Moerdijk](#MacLaneMoerdijk), p.367. A similar result holds for injective functions and [[geometric embedding|geometric embeddings]] but there $T_0$ suffices as a [[separation axiom|separation requirement]] on $X$.
+
+## Surjective is not epi
+
+Consider the geometric morphism $(\pi^\ast\dashv\pi_\ast): Sh(\mathbb{R})\to Sh(\mathbb{S}^1)$ induced by the universal covering of the circle $\pi:\mathbb{R}\to\mathbb{S}^1$: By the above [proposition](#topological) $(\pi^\ast\dashv\pi_\ast)$ is surjective, now due to the relation between [[torsor|torsors]] and cohomology theory for toposes, there exists two non-isomorphic $\mathbb{Z}_2$-torsors $X$, $Y$ in $Sh(\mathbb{S}^1$ corresponding to the trivial resp. non-trivial action of $\mathbb{Z}_2$ on $\mathbb{S}^1$ classified by two geometric morphisms $Sh(\mathbb{S}^1)\to Set^{\mathbb{Z}_2}$. Composing these with $(\pi^\ast\dashv\pi_\ast)$ yields two geometric morphisms $Sh(\mathbb{R})\to Set^{\mathbb{Z}_2}$ which are naturally isomorphic since $\mathbb{R}$ has trivial cohomology hence the two ${\mathbb{Z}_2}$-torsors in $Sh(\mathbb{R})$ corresponding to the two geometric morphisms are isomorphic.
+
+## Related concepts
+
+* [[geometric morphism]]
+
+  * **geometric surjection**
+
+  * [[geometric embedding]]
+
+  * [[connected geometric morphism]]
+
+* [[monadic descent]]
+
+## References
+
+* {#Johnstone77} [[Peter Johnstone]], _Topos Theory _ , Academic Press New York 1977. (Available as Dover reprint 2014; Section 4.1) 
+
+* {#MacLaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (Section VII.4)
+ 
