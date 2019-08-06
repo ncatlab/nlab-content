@@ -9,7 +9,7 @@
 =--
 =--
 
-#Contemts#
+#Contents#
 * table of contents
 {:toc}
 
@@ -208,11 +208,10 @@ For a proof see e.g [MacLane-Moerdijk](#MacLaneMoerdijk), p.367. A similar resul
 
 ## References
 
-Section VII. 4. of 
+* {#Johnstone77} [[Peter Johnstone]], _Topos Theory _ , Academic Press New York 1977. (Available as Dover reprint 2014; Section 4.1) 
 
-* {#MacLaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+* {#MacLaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (Section VII.4)
  
-
 [[!redirects surjective geometric morphisms]]
 [[!redirects geometric surjection]]
 [[!redirects geometric surjections]]
