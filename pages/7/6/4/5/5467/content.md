@@ -26,11 +26,14 @@ The elements of the constructible universe are called __[[constructible sets]]__
 
 ## Properties
 
-$L$ is a [[transitive set|transitive]] [[big class]] containing all the ordinals. 
+$L$ is a [[transitive set|transitive]] [[big class]] containing all the ordinals.
+
+The sets in this class can be effectively enumerated by von Neumann ordinals. 
 
 
 ## As inner model
-In fact, $L$ is a model of the set theory (consider ZF), the smallest transitive containing all the ordinals. The sets in this class can be effectively enumerated by von Neumann ordinals. Indeed, we can well-order all sets and the axiom of choice holds in the model. And even the generalized continuum hypothesis holds for L as a model. Properties of sets in the set theory might not hold as seen from within the inner model.
+In fact, $L$ is a model of the set theory (consider ZF), namely the smallest transitive containing all the ordinals. Indeed, we can well-order all sets and the axiom of choice holds for $L$ as a model. And even the generalized continuum hypothesis holds for $L$ as a model. 
+Note that properties of sets in the set theory might not hold as seen from within the inner model.
 
 
 ## Relation to the von Neumann universe
