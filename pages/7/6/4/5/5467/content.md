@@ -26,9 +26,17 @@ The elements of the constructible universe are called __[[constructible sets]]__
 
 ## Properties
 
-$L$ is a [[transitive set|transitive]] [[big class]] containing all the ordinals. In fact, it is an (inner) model of the set theory (consider ZF), the smallest transitive containing all the ordinals. The sets in this class can be effectively enumerated by von Neumann ordinals. Indeed, we can well-order all sets and the axiom of choice holds in the model. And even the generalized continuum hypothesis holds for L as a model. Properties of sets in the set theory might not hold as seen from within the inner model.
+$L$ is a [[transitive set|transitive]] [[big class]] containing all the ordinals. 
 
-One may add the axiom $L=V$ to set theory, i.e. collapsing the von Neumann universe $V$ to the "thinner" $L$. However, note that formally stating that axiom is more technical (involving ordinals, etc.) than the standard set theory axioms. The question weather $L\neq V$ can not be decided in ZF. If $L\neq V$ then we still do not know how, without an axiom of choice, to produce specific sets that are not constructible. 
+
+## As inner model
+In fact, $L$ is a model of the set theory (consider ZF), the smallest transitive containing all the ordinals. The sets in this class can be effectively enumerated by von Neumann ordinals. Indeed, we can well-order all sets and the axiom of choice holds in the model. And even the generalized continuum hypothesis holds for L as a model. Properties of sets in the set theory might not hold as seen from within the inner model.
+
+
+## Relation to the von Neumann universe
+
+By $L=V$, set theories refer to the collapsing of the von Neumann universe $V$ to the "thinner" $L$. The question wether $L\neq V$ can not be decided in ZF. If $L\neq V$ then we still do not know how, without an axiom of choice, to produce specific sets that are not constructible. 
+Given the independence, one may add $L=V$ as an axiom. However, note that formally stating that axiom is more technical (involving ordinals, etc.) than the standard set theory axioms. Moreover, by its restrictiveness, that axiom also rules out many other popular studied axioms.
 
 
 ## Links
