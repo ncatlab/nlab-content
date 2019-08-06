@@ -46,8 +46,8 @@ which puts you into nLab and highlights the formula hit (in gray).
 It indexes MathML formulae, using a technique derived from automated theorem proving: Substitution Tree Indexing.
 
 As the project is still under development, the authors would be happy to hear
-your feedback. If you have some comments you can leave it [here]
-(https://nforum.ncatlab.org/discussion/9792/formula-search/#Item_0). If you
+your feedback. If you have some comments you can leave it
+[here](https://nforum.ncatlab.org/discussion/9792/formula-search/#Item_0). If you
 have a bug report or a feature request please open a issue on the github
 [repository](https://github.com/MathWebSearch/mws-frontend).
 
