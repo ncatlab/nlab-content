@@ -191,6 +191,8 @@ Most of the standard structures that are considered in [[algebra]] indeed are mo
 
 * The category [[CartSp]] is the (syntactic category of the) theory of [[smooth algebras]] (as used in [[synthetic differential geometry]]). This is also a [[Fermat theory]]. 
 
+* The terminal Lawvere theory has exactly one morphism $f \colon m \to n$ for each $m,n$.  This is apparently the theory of idempotent commutative monoids.  
+
 
 ### Characterization of examples
  {#CharacterizationOfExamples}
