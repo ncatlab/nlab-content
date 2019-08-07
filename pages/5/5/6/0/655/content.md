@@ -154,6 +154,8 @@ The full result and an explanation of what is going on here is given in
 * [[Julia  G. Cabello]], [[Antonio R. Garzón]]: _Quillen's theory for algebraic models of $n$-types_.  Extracta Math.  9  (1994),  no. 1, 42--47. ((EuDML](https://eudml.org/doc/38395))
 
 
+* [[P. Carrasco]] and [[T. Porter]], _Coproduct of 2-crossed modules. Applications to a definition of a tensor product for 2-crossed complexes_, Collectanea Mathematica, (DOI) 10.1007/s13348-015-0156-9.
+
 *  [[Daniel Conduché]], _Modules crois&#233;s g&#233;n&#233;ralis&#233;s de longueur $2$_, in: 
 Proceedings of the Luminy conference on algebraic $K$-theory (Luminy, 1983). J. Pure Appl. Algebra 34 (1984), no. 2-3, 155--178. 
 
