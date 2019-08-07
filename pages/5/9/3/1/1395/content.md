@@ -14,6 +14,10 @@ __Michael Makkai__ (Hungarian original __Mih&#225;ly Makkai__) is a Canadian mat
 
 * [[opetopic omega-category]]
 
+* [[Makkai duality]]
+
+* [[conceptual completeness]]
+
 category: people
 
 [[!redirects Mihály Makkai]]
