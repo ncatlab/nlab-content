@@ -148,18 +148,17 @@ The full result and an explanation of what is going on here is given in
 
 ## References:
 
-* [[H. J. Baues]]: Combinatorial homotopy and $4$-dimensional complexes. With a preface by Ronald Brown. de Gruyter Expositions in Mathematics, 2. Walter de Gruyter \& Co., Berlin, 1991. 
+* [[H. J. Baues]]: _Combinatorial homotopy and $4$-dimensional complexes._ With a preface by Ronald Brown. de Gruyter Expositions in Mathematics, 2. Walter de Gruyter \& Co., Berlin, 1991. 
 
 
-* [[Julia  G. Cabello]], [[Antonio R. Garzón]]: Quillen's theory for algebraic models of $n$-types.  Extracta Math.  9  (1994),  no. 1, 42--47.
+* [[Julia  G. Cabello]], [[Antonio R. Garzón]]: _Quillen's theory for algebraic models of $n$-types_.  Extracta Math.  9  (1994),  no. 1, 42--47. ((EuDML](https://eudml.org/doc/38395))
 
 
-*  [[Daniel Conduché]]:
-Modules crois&#233;s g&#233;n&#233;ralis&#233;s de longueur $2$. 
+*  [[Daniel Conduché]], _Modules crois&#233;s g&#233;n&#233;ralis&#233;s de longueur $2$_, in: 
 Proceedings of the Luminy conference on algebraic $K$-theory (Luminy, 1983). J. Pure Appl. Algebra 34 (1984), no. 2-3, 155--178. 
 
 
-* [[Joao Faria Martins]] Homotopy of 2-crossed complexes and the homotopy category of pointed 3-types (wed [pdf] (http://ferrari.dmat.fct.unl.pt/~jnm/Hom2XComplexes.pdf))
+* [[Joao Faria Martins]], _Homotopy of 2-crossed complexes and the homotopy category of pointed 3-types_, (wed [pdf] (http://ferrari.dmat.fct.unl.pt/~jnm/Hom2XComplexes.pdf))
 
-* [[Graham Ellis]]: Crossed squares and combinatorial homotopy.  Math. Z.  214  (1993),  no. 1, 93--110.
+* [[Graham Ellis]], _Crossed squares and combinatorial homotopy_, Math. Z.  214  (1993),  no. 1, 93--110.
 
