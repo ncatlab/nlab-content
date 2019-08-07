@@ -30,11 +30,11 @@ But if $G$ is a [[locally compact space|locally compact]] topological group (suc
 
 ## Localic subgroups are closed
 
-A remarkable fact about localic groups is the following (which also proves that $\mathbb{Q}$ cannot be a localic group):
+A remarkable fact about localic groups is the following (Corollary C5.3.2 of the [[Elephant]]; this also proves that $\mathbb{Q}$ cannot be a localic group):
 
 +-- {: .un_theorem}
 ###### Theorem
-Any localic subgroup of a localic group is weakly [[closed sublocale|closed]]. If the ambient localic group is in a [[Boolean topos]] then any localic subgroup is closed.
+Any [[overt space|overt]] localic subgroup of a localic group is weakly [[closed sublocale|closed]]. If the ambient localic group is in a [[Boolean topos]] then any localic subgroup is closed.
 =--
 +-- {: .proof}
 ###### Sketch of Proof
