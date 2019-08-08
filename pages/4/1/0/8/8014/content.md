@@ -23,6 +23,8 @@
 
 * [[quantum group]]
 
+* [[Yangian]]
+
 ## References
 
 ### Ordinary
