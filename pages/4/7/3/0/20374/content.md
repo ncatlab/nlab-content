@@ -48,6 +48,9 @@ The theory and its relation to [[Yangians]] and [[integrable system|integrable]]
 * {#CostelloWittenYamazaki17} [[Kevin Costello]], [[Edward Witten]], [[Masahito Yamazaki]], _Gauge Theory and Integrability, II_, ICCM Not. 6, 120-146 (2018) ([arXiv:1802.01579](https://arxiv.org/abs/1802.01579))
 
 
+* [[Kevin Costello]], [[Masahito Yamazaki]],  _Gauge Theory And Integrability, III_ ([https://arxiv:1908.02289](https://arxiv.org/abs/1908.02289))
+
+
 Discussion of realizations of semi-holomorphic 4d Chern-Simons theory as the [[worldvolume]] theory of [[intersecting brane|intersecting]] [[D-brane]]/[[NS5-brane]] models
 
 * [[Meer Ashwinkumar]], [[Meng-Chwan Tan]], Qin Zhao, _Branes and Categorifying Integrable Lattice Models_ ([arXiv:1806.02821](https://arxiv.org/abs/1806.02821))
