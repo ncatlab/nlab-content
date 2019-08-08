@@ -8,6 +8,10 @@
 
 A _Yangian_ is a certain [[quantum group]] that arises naturally in [[integrable systems]] in [[quantum field theory]], as well as in _[[semi-holomorphic 4d Chern-Simons theory]]_.
 
+## Related Concepts
+
+* [[quantum affine algebra]]
+
 ## References
 
 * Wikipedia, _[Yangian](http://en.wikipedia.org/wiki/Yangian)_ 
