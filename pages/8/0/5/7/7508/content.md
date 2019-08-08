@@ -6,10 +6,10 @@ Depending on the technicalities of how variables are managed, $\alpha$-equivalen
 
 [[!redirects alpha equivalent]]
 [[!redirects alpha-equivalent]]
-[[!redirects ∞-equivalent]]
+[[!redirects α-equivalent]]
 [[!redirects alpha equivalence]]
 [[!redirects alpha-equivalence]]
-[[!redirects ∞-equivalence]]
+[[!redirects α-equivalence]]
 [[!redirects alpha conversion]]
 [[!redirects alpha-conversion]]
-[[!redirects ∞-conversion]]
+[[!redirects α-conversion]]
