@@ -601,7 +601,7 @@ Moreover, the characterization of Cauchy completion by left adjoint profunctors 
 
 In a given ambient context, the following are equivalent:
 
-1. the [[axiom of choice]] hold;
+1. the [[axiom of choice]] holds;
 
 1. every [[profunctor]] $F : A &#8696; C$ between [[posets]] is an ordinary functor when it has a [[right adjoint]].
 
