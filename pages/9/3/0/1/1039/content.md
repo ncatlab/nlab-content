@@ -21,7 +21,7 @@
 
 ### For topological spaces
 
-A [[topological space]] $X$ is **contractible** if the canonical map $X \to \ast$ is a [[homotopy equivalence]]. It is **weakly contractible** is this map is a [[weak homotopy equivalence]], hence if all [[homotopy groups]] of $X$ are trivial.
+A [[topological space]] $X$ is **contractible** if the canonical map $X \to \ast$ is a [[homotopy equivalence]]. It is **weakly contractible** if this map is a [[weak homotopy equivalence]], hence if all [[homotopy groups]] of $X$ are trivial.
 
 Where the [[Whitehead theorem]] does not apply, we may find examples of weakly contractible but not contractible spaces, such as the [double comb space](http://topospaces.subwiki.org/wiki/Double_comb_space) in [[Top]].
 
