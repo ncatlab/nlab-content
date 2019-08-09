@@ -193,7 +193,7 @@ In the case that $G = U(1)$ this reproduces the ordinary [[integral]]
 
 $$
   \left(G = \mathbb{R}\right)
-  \Righarrow
+  \Rightarrow
   \mathcal{P} \exp(\int_{\Delta^1} A)
   = 
   \exp(i \int_{\Delta^1} A)
