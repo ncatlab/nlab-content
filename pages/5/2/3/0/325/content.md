@@ -80,6 +80,38 @@ then $C^{op}$ is the category with
 
 Notice that hence the composition law does _not_ change when passing to the opposite category. Only the interpretation of in which direction the arrows point does change. So forming the opposite category is a completely formal process. Nevertheless, due to the switch of source and target, the opposite category $C^{op}$ is usually far from being [[equivalence of categories|equivalent]] to $C$. See the examples below.
 
+### Opposite functors
+
+Given [[categories]] $C$ and $D$,
+the __opposite functor__ of a [[functor]] $F:C\to D$
+is the functor $F^{op}:C^{op}\to D^{op}$
+such that $F^{op}_{obj}=F_{obj}$ and $F^{op}_{mor}=F_{mor}$.
+
+In the literature, $F^{op}$ is often confused with $F$.
+This is unfortunate, since (for example)
+[[natural transformations]] $F^{op}\to G^{op}$ (of functors $C^{op}\to D^{op}$)
+can be identified with natural transformations $G\to F$ (and not $F\to G$).
+
+### Opposite natural transformations
+
+Given [[categories]] $C$ and $D$,
+[[functors]] $F,G:C\to D$,
+the __opposite natural transformation__
+of a [[natural transformation]] $t:F\to G$
+is the natural transformation $t^{op}:G^{op}\to F^{op}$,
+induced by the same map $C_{obj}\to D_{mor}$ as $t$.
+
+Again, in the literature $t^{op}$ is often confused with $t$.
+
+### The oppositization 2-functor
+
+The above three constructions of the opposite category,
+opposite functor, and opposite natural transformation
+combine together into the __oppositization 2-functor__
+$$Cat^{co}\to Cat,$$
+where $Cat^{co}$ denotes the 2-cell dual of the [[2-category]] $Cat$,
+with the direction of 2-morphisms reversed
+and the direction of 1-morphisms preserved.
 
 ### In enriched category theory ##
 
