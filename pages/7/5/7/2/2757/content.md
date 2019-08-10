@@ -68,7 +68,7 @@ In terms of this the **principle of induction** is equivalent to saying that the
 
 ## References
 
-* [[Ji?í Adámek]], Stefan Milius, Lawrence Moss, _Initial algebras and terminal coalgebras: a survey_ ([pdf](https://www.tu-braunschweig.de/Medien-DB/iti/survey_full.pdf))
+* [[Jiří Adámek]], Stefan Milius, Lawrence Moss, _Initial algebras and terminal coalgebras: a survey_ ([pdf](https://www.tu-braunschweig.de/Medien-DB/iti/survey_full.pdf))
 
 * [[Bart Jacobs]], Jan Rutten, _A tutorial on (co)algebras and (co)induction_, [pdf](http://www.cs.ru.nl/~bart/PAPERS/JR.pdf) EATCS Bulletin (1997); extended and updated version: _An introduction to (co)algebras and (co)induction_,  In: D. Sangiorgi and J. Rutten (eds), Advanced topics in bisimulation and coinduction, p.38-99, 2011, [pdf](http://www.cwi.nl/~janr/papers/files-of-papers/2011_Jacobs_Rutten_new.pdf) 62 pp.
 
