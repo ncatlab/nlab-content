@@ -53,7 +53,7 @@ $$
 
 ### Relation to loop space
 
-The [[fiber product]] of the projection with the [[diagonal]] on $X$ is the [[free loop space]] $\mathcal{L X}$ of $X$:
+The [[fiber product]] of the projection with the [[diagonal]] on $X$ is the [[free loop space]] $\mathcal{L}X$ of $X$:
 
 
 $$
