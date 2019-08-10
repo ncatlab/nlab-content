@@ -9,8 +9,6 @@
 =--
 =--
 
-
-
 # Countable sets
 * table of contents
 {: toc}
@@ -33,16 +31,13 @@ Note that the first two terms are not entirely standardised; some authors use th
 If you accept the [[axiom of choice]], then there is really nothing more to say than what was above.  In weaker [[foundations]], more care may be needed.  The following seem to be the usual definitions in [[constructive mathematics]]:
 
 *  $S$ is __denumerable__ if there exists a [[bijection]] from $\mathbf{N}$ to $S$.
-*  $S$ is __countable__ if there exists a [[surjection]] from a [[decidable subset]] of $\mathbf{N}$ to $S$.
-*  $S$ is __uncountable__ if, given any [[function]] $f$ from a decidable subset of $\mathbf{N}$ to $S$, the function is strongly non-surjective in the sense that there exists an element of $S$ that is not in the [[image]] of $f$.
+*  $S$ is __countable__ if there exists a [[surjection]] from a [[detachable subset|detachable]] [[lower subset]] of $\mathbf{N}$ to $S$.
+*  $S$ is __uncountable__ if, given any [[function]] $f$ from a detachable subset of $\mathbf{N}$ to $S$, the function is strongly non-surjective in the sense that there exists an element of $S$ that is not in the [[image]] of $f$.
 
 Of course, the terms are even less standardised here.
 
 
-
-
 ## Examples and Properties
-
 
 The set of [[real numbers]] is uncountable.  (Arguably, [[set theory]] as such begins with [[Georg Cantor]]\'s [[proof]] of this statement.)
 
@@ -58,14 +53,12 @@ Any uncountable set must be [[infinite set|infinite]].
 
 A [[denumerable set]] is precisely an [[infinite set|infinite]] countable set; sometimes this is written as a _countably infinite set_.
 
-[[countable unions of countable sets are countable]]
-
-
-
+In [[classical mathematics]], [[countable unions of countable sets are countable]].
 
 In [[classical mathematics]] a countable set is either [[finite set|finite]] or [[denumerable set|denumerable]]. This need not hold in [[constructive mathematics]].  We do have, however, that a countable set is either empty or inhabited, which is classically trivial but need not hold constructively for every set.
 
 In some forms of [[constructive mathematics]], especially in the Russian school, it is assumed (or provable from other assumptions) that *every* set is a [[subset]] of a countable set.  The fact the the set of real numbers is uncountable still applies, however, as the inclusion map of the subset need not [[split monomorphism|split]].  In particular, the set of [[computable number]]s is a subset of a countable set, but to prove that it is itself countable requires [[excluded middle]].
+
 
 ## Related concepts
 
@@ -73,21 +66,20 @@ In some forms of [[constructive mathematics]], especially in the Russian school,
 
 * [[countable cover]]
 
+
 [[!redirects countable set]]
 [[!redirects countable sets]]
 [[!redirects countably infinite set]]
 [[!redirects countably infinite sets]]
 [[!redirects denumerable set]]
 [[!redirects denumerable sets]]
+
 [[!redirects uncountable set]]
 [[!redirects uncountable sets]]
+
 [[!redirects countable family]]
 [[!redirects countable families]]
 
-
 [[!redirects numerable]]
 [[!redirects numerable set]]
-[[!redirects denumerable set]]
-
 [[!redirects numerable sets]]
-[[!redirects denumerable sets]]
