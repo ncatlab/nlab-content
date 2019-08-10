@@ -34,7 +34,7 @@ where $N$ is the number of $e$-foldings during inflation (see e.g. [Kehagias-Diz
 
 Models of this type are favored by [[experiment|experimental]] results ([PlanckCollaboration 13](#PlanckCollaboration13), [BICEP2-Keck-Planck 15](#BICEPKeckPlanck15), [PlanckCollaboration 15](#PlanckCollaboration15)) which give a low upper bound on $r$ around $0.1$ (whereas other models like [[chaotic inflation]] are disfavored by these values), see ([PlanckCollaboration 13, page 12](#PlanckCollaboration13)).
 
-With respect to this data, the Starobinsky model (or "$R^2$ inflation") is the model with the highest [[Bayesian reasoning|Bayesian evidence]] ([Rachen, Feb 15](#Rachen15), [PlanckCollaboration 15XX, table 6 on p. 18](#PlanckCollaboration15XX)) as it is right in the center of the likelihood peak ([PlanckCollaboration 13, figure 1](#PlanckCollaboration13), also [Linde 14, figure 5](#Linde14)) and at the same time has the lowest number of free parameters : 
+{#Dat} With respect to this data, the Starobinsky model (or "$R^2$ inflation") is the model with the highest [[Bayesian reasoning|Bayesian evidence]] ([Rachen, Feb 15](#Rachen15), [PlanckCollaboration 15XX, table 6 on p. 18](#PlanckCollaboration15XX)) as it is right in the center of the likelihood peak ([PlanckCollaboration 13, figure 1](#PlanckCollaboration13), also [Linde 14, figure 5](#Linde14)) and at the same time has the lowest number of free parameters : 
 
 {#Figure1} <img src="https://ncatlab.org/nlab/files/PlanckData.jpg" width="800">
 
