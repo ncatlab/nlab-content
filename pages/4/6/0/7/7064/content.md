@@ -222,7 +222,7 @@ Moreover,
 
 * [[Adams–Novikov spectral sequence]]
 
-* [[The Music of the Spheres]]
+* [[Music of the Spheres]]
 
 ## References
 
