@@ -91,7 +91,7 @@ $$
   V_{cl}(r) \;=\; - \frac{G m_1 m_2}{r} 
 $$
 
-between two bodies of [[mass]] $m_1$, $m_2$, respectively, may be computed unambiguously in [[perturbative quantum field theory|perturbative]] quantum gravity [Donoghue 95, Section 9](#Donoghue95).
+between two bodies of [[mass]] $m_1$, $m_2$, respectively, may be computed unambiguously in [[perturbative quantum field theory|perturbative]] quantum gravity ([Donoghue 95, Section 9](#Donoghue95)):
 
 The result is a term of the form
 
