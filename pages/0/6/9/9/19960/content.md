@@ -82,7 +82,7 @@ In this [[Witten-Sakai-Sugimoto model]] for [[non-perturbative effect|strongly c
 
    1. as [[wrapped brane|wrapped]] [[D4-branes]] with $N_c$ [[open strings]] connecting them to the [[D8-brane]]
 
-      ([Witten 98b](#Witten98b), [Gross-Ooguri 98](#GrossOoguri98))
+      ([Witten 98b](#Witten98b), [Gross-Ooguri 98, Sec. 5](#GrossOoguri98))
 
    1. as [[skyrmions]] 
 
