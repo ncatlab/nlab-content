@@ -40,7 +40,7 @@ A **symmetric spectrum** $X$ in [[sSet]] is
 
 1. a sequence $\{X_n| n \in \mathbb{N}\}$ of [[pointed object|pointed]] [[simplicial sets]];
 
-1. a baspoint preserving left [[action]] of the [[symmetric group]] $\Sigma_n$ on $X_n$;
+1. a basepoint preserving left [[action]] of the [[symmetric group]] $\Sigma_n$ on $X_n$;
 
 1. a sequence of morphisms of pointed simplicial sets $\sigma_n \colon X_n \wedge S^1 \longrightarrow X_{n+1}$ 
 
