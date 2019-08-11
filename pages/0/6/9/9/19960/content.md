@@ -73,6 +73,9 @@ The further introduction of [[intersecting D-brane model|intersecting]] [[D8-bra
 
 > graphics grabbed from [Rebhan 14](#Rebhan14)
 
+##### Hadrons
+  {#Hadrons}
+
 
 In this [[Witten-Sakai-Sugimoto model]] for [[non-perturbative effect|strongly coupled]] [[QCD]] the [[hadrons]] in [[QCD]] correspond to [[string theory|string-theoretic]]-phenomena in the [[bulk field theory]]:
 
@@ -82,7 +85,7 @@ In this [[Witten-Sakai-Sugimoto model]] for [[non-perturbative effect|strongly c
 
    1. as [[wrapped brane|wrapped]] [[D4-branes]] with $N_c$ [[open strings]] connecting them to the [[D8-brane]]
 
-      ([Witten 98b](#Witten98b), [Gross-Ooguri 98, Sec. 5](#GrossOoguri98))
+      ([Witten 98b](#Witten98b), [Gross-Ooguri 98, Sec. 5](#GrossOoguri98), [BISY 98](#BISY98), [CGS98](#CGS98))
 
    1. as [[skyrmions]] 
 
@@ -189,7 +192,7 @@ Review:
 
 * {#Aharony02} [[Ofer Aharony]], _The non-AdS/non-CFT correspondence, or three different paths to QCD_, Progress in string, field and particle theory. Springer, Dordrecht, 2003. 3-24 ([arXiv:hep-th/0212193](https://xxx.lanl.gov/abs/hep-th/0212193))
 
-* {#Erlich09} Joshua Erlich, _How Well Does AdS/QCD Describe QCD?_,  	Int.J.Mod.Phys.A25:411-421,2010 ([arXiv:0908.0312](https://arxiv.org/abs/0908.0312))
+* {#Erlich09} Joshua Erlich, _How Well Does AdS/QCD Describe QCD?_,  	Int. J. Mod. Phys.A25:411-421,2010 ([arXiv:0908.0312](https://arxiv.org/abs/0908.0312))
 
 * M. R. Pahlavani, R. Morad, _Application of AdS/CFT in Nuclear Physics_, Advances in High Energy Physics ([arXiv:1403.2501](https://arxiv.org/abs/1403.2501))
 
@@ -280,22 +283,24 @@ Application to [[confinement|confined]] [[hadron]]-physics:
 
 Review:
 
-* Johanna Erdmenger, Nick Evans, Ingo Kirsch, Ed Threlfall, _Mesons in Gauge/Gravity Duals - A Review_, Eur.Phys.J.A35:81-133, 2008 ([arXiv:0711.4467](https://arxiv.org/abs/0711.4467))
+* Henrique Boschi-Filho, _Hadrons in AdS/QCD models_, Journal of Physics: Conference Series, Volume 706, Section 4 2008 ([doi:10.1088/1742-6596/706/4/042008](http://iopscience.iop.org/article/10.1088/1742-6596/706/4/042008))
+
+* Johanna Erdmenger, Nick Evans, Ingo Kirsch, Ed Threlfall, _Mesons in Gauge/Gravity Duals - A Review_, Eur. Phys. J. A35:81-133, 2008 ([arXiv:0711.4467](https://arxiv.org/abs/0711.4467))
 
 * Stanley J. Brodsky, _Hadron Spectroscopy and Dynamics from Light-Front Holography and Superconformal Algebra_ ([arXiv:1802.08552](https://arxiv.org/abs/1802.08552))
 
 
 Original articles:
 
-* {#KatzLewandowskiSchwartz05} Emanuel Katz, Adam Lewandowski, Matthew D. Schwartz, _Phys.Rev.D74:086004, 2006_ ([arXiv:hep-ph/0510388](https://arxiv.org/abs/hep-ph/0510388))
+* {#KatzLewandowskiSchwartz05} Emanuel Katz, Adam Lewandowski, Matthew D. Schwartz, _Phys. Rev. D74:086004, 2006_ ([arXiv:hep-ph/0510388](https://arxiv.org/abs/hep-ph/0510388))
 
 * {#HSSY07} Hiroyuki Hata, [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], Shinichiro Yamato, _Baryons from instantons in holographic QCD_, Prog.Theor.Phys.117:1157, 2007 ([arXiv:hep-th/0701280](https://arxiv.org/abs/hep-th/0701280))
 
-* Henrique Boschi-Filho, _Hadrons in AdS/QCD models_, Journal of Physics: Conference Series, Volume 706, Section 4 2008 ([doi:10.1088/1742-6596/706/4/042008](http://iopscience.iop.org/article/10.1088/1742-6596/706/4/042008))
 
-* [[Koji Hashimoto]], [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _Holographic Baryons : Static Properties and Form Factors from Gauge/String Duality_, Prog.Theor.Phys.120:1093-1137, 2008 ([arXiv:0806.3122](https://arxiv.org/abs/0806.3122))
 
-* Alex Pomarol, Andrea Wulzer, _Baryon Physics in Holographic QCD_, Nucl.Phys.B809:347-361, 2009 ([arXiv:0807.0316](https://arxiv.org/abs/0807.0316))
+* [[Koji Hashimoto]], [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _Holographic Baryons : Static Properties and Form Factors from Gauge/String Duality_, Prog. Theor. Phys.120:1093-1137, 2008 ([arXiv:0806.3122](https://arxiv.org/abs/0806.3122))
+
+* Alex Pomarol, Andrea Wulzer, _Baryon Physics in Holographic QCD_, Nucl. Phys. B809:347-361, 2009 ([arXiv:0807.0316](https://arxiv.org/abs/0807.0316))
 
 * Thomas Gutsche, Valery E. Lyubovitskij, Ivan Schmidt, Alfredo Vega, _Nuclear physics in soft-wall AdS/QCD: Deuteron electromagnetic form factors_, Phys. Rev. D 91, 114001 (2015) ([arXiv:1501.02738](https://arxiv.org/abs/1501.02738))
 
@@ -323,7 +328,7 @@ See also
 
 * S. S. Afonin, _AdS/QCD without Kaluza-Klein modes: Radial spectrum from higher dimensional QCD operators_ ([arXiv:1905.13086](https://arxiv.org/abs/1905.13086))
 
-### Application to baryons as solitons/Skyrmions
+### Baryons as wrapped branes and Skyrmions
  {#ReferencesBaryonsSkyrmions}
 
 Specifically application to [[baryon]] physics via [[Skyrmions]] and (equivalently) [[wrapped brane|wrapped]] [[D4-branes]]:
@@ -336,7 +341,21 @@ Original articles
 
 * {#Witten98b} [[Edward Witten]], _Baryons And Branes In Anti de Sitter Space_, JHEP 9807:006, 1998 ([arXiv:hep-th/9805112](https://arxiv.org/abs/hep-th/9805112))
 
-* {#GrossOoguri98} [[David Gross]], [[Hirosi Ooguri]], _Aspects of Large N Gauge Theory Dynamics as Seen by String Theory_, Phys.Rev.D58:106002,1998 ([arXiv:hep-th/9805129](https://arxiv.org/abs/hep-th/9805129))
+* {#GrossOoguri98} [[David Gross]], [[Hirosi Ooguri]], _Aspects of Large N Gauge Theory Dynamics as Seen by String Theory_, Phys. Rev. D58:106002,1998 ([arXiv:hep-th/9805129](https://arxiv.org/abs/hep-th/9805129))
+
+* {#BISY98} A. Brandhuber, N. Itzhaki, J. Sonnenschein, S. Yankielowicz  _Baryons from Supergravity_, JHEP 9807:020,1998 ([arxiv:hep-th/9806158](https://arxiv.org/abs/hep-th/9806158))
+
+* Yosuke Imamura, _Baryon Mass and Phase Transitions in Large N Gauge Theory_, Prog. Theor. Phys. 100 (1998) 1263-1272 ([arxiv:hep-th/9806162](https://arxiv.org/abs/hep-th/9806162))
+
+* Yosuke Imamura, _Supersymmetries and BPS Configurations on Anti-de Sitter Space_, Nucl. Phys. B537:184-202,1999 ([arxiv:hep-th/9807179](https://arxiv.org/abs/hep-th/9807179))
+
+
+* {#CGS98} Curtis G. Callan, Alberto Guijosa, Konstantin G. Savvidy, _Baryons and String Creation from the Fivebrane Worldvolume Action_ ([arxiv:hep-th/9810092](https://arxiv.org/abs/hep-th/9810092))
+
+
+* Curtis G. Callan, Alberto Guijosa, Konstantin G. Savvidy, Oyvind Tafjord, _Baryons and Flux Tubes in Confining Gauge Theories from Brane Actions_, Nucl. Phys. B555 (1999) 183-200 ([arxiv:hep-th/9902197](https://arxiv.org/abs/hep-th/9902197))
+
+
 
 * Kanabu Nawa, Hideo Suganuma, Toru Kojo, _Baryons in Holographic QCD_, Phys.Rev.D75:086003, 2007 ([arXiv:hep-th/0612187](https://arxiv.org/abs/hep-th/0612187))
 
