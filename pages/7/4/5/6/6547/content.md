@@ -19,7 +19,7 @@
 
 ## Idea
 
-For $X$ a [[space]] equipped with a $G$-[[connection on a bundle]] $\nabla$ (for some [[Lie group]] $G$) and for $x \in X$ any point, the [[parallel transport]] of $\nabla$ assigns to each [[curve]] $\Gamma : S^1 \to X$ in $X$ starting and ending at $x$ an element $ hol_\nabla(\gamma) \in  G$: the [[holonomy]] of $\nabla$ along that curve.
+For $X$ a [[space]] equipped with a $G$-[[connection on a bundle]] $\nabla$ (for some [[Lie group]] $G$) and for $x \in X$ any point, the [[parallel transport]] of $\nabla$ assigns to each [[curve]] $\gamma : S^1 \to X$ in $X$ starting and ending at $x$ an element $ hol_\nabla(\gamma) \in  G$: the [[holonomy]] of $\nabla$ along that curve.
 
 The **holonomy group** of $\nabla$ at $x$ is the subgroup of $G$ on these elements.
 
