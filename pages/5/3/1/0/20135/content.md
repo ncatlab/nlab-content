@@ -35,3 +35,9 @@ See also
 
 * Wikipedia, _[Pentaquark](https://en.wikipedia.org/wiki/Pentaquark)_ 
 
+Discussion in [[AdS/QCD]]:
+
+* Kazuo Ghoroku, Akihiro Nakamura, Tomoki Taminato, Fumihiko Toyoda, _Holographic Penta and Hepta Quark State in Confining Gauge Theories_,
+JHEP 1008:007,2010 ([arxiv:1003.3698](https://arxiv.org/abs/1003.3698))
+
+
