@@ -357,7 +357,7 @@ A typical condition on a  [[geometric stack]] to qualify as an [[orbifold]]/[[De
 
 The theory of proper geometric morphisms is largly due to
 
-* [[Ieke Moerdijk]], Jacob Vermeulen,  _Relative compactness conditions for toposes_ ([pdf](http://igitur-archive.library.uu.nl/math/2001-0702-142944/1039.pdf)) 
+* [[Ieke Moerdijk]], Jacob Vermeulen,  _Relative compactness conditions for toposes_ ([pdf](https://dspace.library.uu.nl/handle/1874/2374)) 
   {#MoerdijkVermeulen}
 
 * [[Ieke Moerdijk]], Jacob Vermeulen, _Proper maps of toposes_ , Memoirs of the American Mathematical Society, no. 705 (2000)
