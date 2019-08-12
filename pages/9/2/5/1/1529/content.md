@@ -88,8 +88,7 @@ This means:
 ##ordinary category of elements##
 
 For $D = $ [[Set]] and $pt_{Set} = {*}$
-the above reproduces the notion of [[category of elements]]#
-of a [[presheaf]].
+the above reproduces the notion of [[category of elements]] of a [[presheaf]].
 
 ##Action Groupoid##
 
