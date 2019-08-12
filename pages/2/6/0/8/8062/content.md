@@ -51,6 +51,10 @@ See also his thesis
 
 * [[Simon Cho]], _Continuity in enriched categories and metric model theory_, ([thesis](http://math.lsa.umich.edu/~simoncho/thesis.pdf))
 
+For [[syntax-semantics duality]] in the case of [[infinitary logic|infinitary]] continuous logic, see
+
+* Ruiyuan Chen, _Representing Polish groupoids via metric structures_, ([arXiv:1908.03268](https://arxiv.org/abs/1908.03268))
+
 An older and rather _different system_ also called continuous logic of a Russian school is surveyed
 
 * Vitaly I. Levin, _Basic concepts of continuous logic_, Studies in logic grammar and rethoric, 11 (24) 2007, [pdf](http://math.univ-lyon1.fr/~begnac/articles/cfo.pdf)
