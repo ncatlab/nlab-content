@@ -24,9 +24,19 @@
 
 The [[AdS-CFT correspondence]] applies _exactly_ only to a few highly symmetric [[quantum field theories]], notably to [[N=4 D=4 super Yang-Mills theory]]. However, away from these special points in field theory space the correspondence does not completely break down, but continues to apply in some approximation and/or with suitable modifications on the [[gravity]]-side of the correspondence.
 
-Notably [[quantum chromodynamics]] (one sector of the [[standard model of particle physics]]) is crucially different from but still similar enough to [[N=4 D=4 super Yang-Mills theory]] that some of its [[observables]], in particular otherwise intractable [[non-perturbative effects]], have been argued to be usefully approximated by [[AdS-CFT]]-type dual [[gravity]]-observables, for instance the [[shear viscosity]] of the [[quark-gluon plasma]]. 
+Notably [[quantum chromodynamics]] (one sector of the [[standard model of particle physics]]) is crucially different from but still similar enough to [[N=4 D=4 super Yang-Mills theory]] that some of its [[observables]], in particular otherwise intractable [[non-perturbative effects]], have been argued to be usefully approximated by [[AdS-CFT]]-type [[duality in string theory|dual]] [[supergravity]]-[[observables]].
 
-This perspective is hence called the _AdS/QCD-correspondence_ or _holographic QCD_ or similar (see also [[AdS-CFT in condensed matter physics]] for similar relations).
+In particular, the realization of [[quantum chromodynamics]] by [[intersecting D-brane models]] gives a conceptual analytic handle on [[confinement|confined]] [[hadron]] spectra, hence of the physics of ordinary [[atomic nuclei]] (see [below](#Hadrons)), which is otherwise computable only via the blind numerics of [[lattice QCD]].
+
+<center>
+<img src="https://ncatlab.org/nlab/files/AdSCFTForQCD.jpg" width="600" />
+</center>
+
+> graphics grabbed from [Aoki-Hashimoto-Iizuka 12](#AHI12)
+
+Other examples of such observables is the [[shear viscosity]] of the [[quark-gluon plasma]]. 
+
+This approach is hence called the _AdS/QCD-correspondence_ or _holographic QCD_ or similar (see also [[AdS-CFT in condensed matter physics]] for similar relations).
 
 ## Models 
  {#Models}
