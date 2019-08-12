@@ -318,8 +318,6 @@ course is also immediately checked explicitly.
 
 * **over-category** 
 
-  * [[slice category]]
-
   * [[enriched over category]]
 
   * [[under category]]
