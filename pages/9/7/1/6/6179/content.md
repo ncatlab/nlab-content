@@ -291,6 +291,12 @@ See also
 
 * {#BEJVS05} [[Peter Bouwknegt]], [[Jarah Evslin]], [[Branislav Jurco]], [[Mathai Varghese]], [[Hisham Sati]], _Flux Compactifications on Projective Spaces and The S-Duality Puzzle_, Adv.Theor.Math.Phys. 10 (2006) 345-394 ([arXiv:hep-th/0501110](http://arxiv.org/abs/hep-th/0501110))
 
+Discussion of [[Montonen-Olive duality]] in [[D=4 super Yang-Mills theory]] via [[ABJM-model]] as [[D3-brane]] model after [[double dimensional reduction]] followed by [[T-duality]]:
+
+* [[Koji Hashimoto]], Ta-Sheng Tai, Seiji Terashima, _Toward a Proof of Montonen-Olive Duality via Multiple M2-branes_, JHEP 0904:025, 2009 ([arxiv:0809.2137](https://arxiv.org/abs/0809.2137))
+
+
+
 ### Relation to geometric Langlands duality
 
 The relation of S-duality to [[geometric Langlands duality]] was understood in
