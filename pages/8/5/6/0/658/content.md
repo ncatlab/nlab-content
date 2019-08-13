@@ -170,7 +170,7 @@ One can show that comma objects are always discrete fibrations, and dually cocom
 
 * If a [[functor]] represents a given profunctor, then the action of the functor on morphisms is determined by the action of the profunctor and the representation isomorphism. For details see at _[[representability determines functoriality]]_
 
-* Profunctors that correspond to functors (via Yoneda, which here looks like $F\mapsto F_*$, with $F_*(d,c)=\mathcal{D}(d,Fc)$) are exactly those that admit right adjoints, which are exactly (maybe modulo size issues) those in the Cauchy completion (see [[Cauchy complete category#InOrdinaryCatTheoryByProfunctors]]); those that don't give so-called [[Mealy morphisms]].
+* If $\mathcal{D}$ is [[Cauchy complete category|Cauchy complete]], then the profunctors that correspond to functors (via Yoneda, which here looks like $F\mapsto F_*$, with $F_*(d,c)=\mathcal{D}(d,Fc)$) are exactly those that admit right adjoints.  In general, right adjoint profunctors correspond to profunctors into the [[Cauchy complete category#InOrdinaryCatTheoryByProfunctors|Cauchy completion]] of their codomain.
 
 ## Related entries ##
 
@@ -181,6 +181,8 @@ One can show that comma objects are always discrete fibrations, and dually cocom
 * [[double profunctor]]
 
 * [[nucleus of a profunctor]]
+
+* [[Mealy morphism]]
 
 ## References ##
 
