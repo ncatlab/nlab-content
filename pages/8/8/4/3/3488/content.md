@@ -282,7 +282,7 @@ $$
 Therefore by essential uniqueness of [[adjoints]] the restriction $\Delta|_{\leq 0} \colon Set \hookrightarrow \infty Grpd \stackrel{\Delta}{\to} \mathbf{H}$ has a [[left adjoint]] given by 
 
 $$
-  \Pi_0 \coloneqq \tau_{\leq 0} \circ \Delta
+  \Pi_0 \coloneqq \tau_{\leq 0} \circ \Pi
   \,.
 $$
 
