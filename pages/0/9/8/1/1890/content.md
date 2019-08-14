@@ -19,7 +19,9 @@
 
 ## Idea
 
-A _strong monad_ over a [[monoidal category]] $V$ is a [[monad]] in the [[bicategory]] of $V$-[[actions]].
+A _strong monad_ over a [[monoidal category]] $V$ is a [[monad]] in the [[bicategory]] of $V$-[[actions]]. 
+
+If $V$ is a [[monoidal closed category]], then a strong monad is the same thing as a $V$-[[enriched monad]]. 
 
 ## Definition 
 
@@ -135,7 +137,7 @@ A\times T^{2}\, B & \xrightarrow{t_{A,T B}} & T(A\times T B) & \xrightarrow{T\: 
 
 ## References 
 
-Usually strong monads are described explicitly in terms of the components of the above structure. The above repackaging of that definition is due to John Baez
+Usually strong monads are described explicitly in terms of the components of the above structure. The above repackaging of that definition appears in the blog post
 
 * [[John Baez]], _The Monads Hurt My Head -- But Not Anymore_ ([blog](http://golem.ph.utexas.edu/category/2009/07/the_monads_hurt_my_head_but_no.html#c025476))
 
