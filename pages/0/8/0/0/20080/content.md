@@ -30,6 +30,7 @@ Application to a variant of [[AdS-CFT duality]], or rather [[AdS-QCD corresponde
 
 * {#GLMR00} Roberto Grena, Simone Lelli, Michele Maggiore, Anna Rissone, _Confinement, asymptotic freedom and renormalons in type 0 string duals_, JHEP 0007 (2000) 005 ([arXiv:hep-th/0005213](https://arxiv.org/abs/hep-th/0005213))
 
+* Mohammad Akhond, Adi Armoni, Stefano Speziali, _Phases of $U(N_c)$ $QCD_3$ from Type 0 Strings and Seiberg Duality_ ([arxiv:1908.04324](https://arxiv.org/abs/1908.04324))
 
 See also
 
