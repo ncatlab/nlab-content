@@ -203,17 +203,17 @@ The [[KK-compactification]] of [[11d supergravity]] of [[fibers]] of [[special h
 
 * {#DauriaFreCastellani91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapter V.6 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
-* [[George Papadopoulos]], [[Paul Townsend]], _Compactification of D=11 supergravity on spaces of exceptional holonomy_, Phys.Lett.B357:300-306,1995 ([arXiv:hep-th/9506150](http://arxiv.org/abs/hep-th/9506150))
+* [[George Papadopoulos]], [[Paul Townsend]], _Compactification of D=11 supergravity on spaces of exceptional holonomy_, Phys. Lett. B357:300-306,1995 ([arXiv:hep-th/9506150](http://arxiv.org/abs/hep-th/9506150))
 
 Specifically [[string phenomenology]] for the case of compactification on [[G2-manifolds]] (or rather [[orbifolds]] ) goes back to
 
-* {#Acharya98} [[Bobby Acharya]], _M theory, Joyce Orbifolds and Super Yang-Mills_, Adv.Theor.Math.Phys. 3 (1999) 227-248 ([arXiv:hep-th/9812205](http://arxiv.org/abs/hep-th/9812205))
+* {#Acharya98} [[Bobby Acharya]], _M theory, Joyce Orbifolds and Super Yang-Mills_, Adv. Theor. Math. Phys. 3 (1999) 227-248 ([arXiv:hep-th/9812205](http://arxiv.org/abs/hep-th/9812205))
 
 * {#Acharya00} [[Bobby Acharya]], _On Realising $N=1$ Super Yang-Mills in M theory_ ([arXiv:hep-th/0011089](http://arxiv.org/abs/hep-th/0011089))
 
 * {#AcharyaSpence00} [[Bobby Acharya]], B. Spence, _Flux, Supersymmetry and M theory on 7-manifolds_ ([arXiv:hep-th/0007213](http://arxiv.org/abs/hep-th/0007213))
 
-* {#AtijayMaldacenaVafa00} [[Michael Atiyah]], [[Juan Maldacena]], [[Cumrun Vafa]], _An M-theory Flop as a Large N Duality_, J.Math.Phys.42:3209-3220, 2001 ([arXiv:hep-th/0011256](https://arxiv.org/abs/hep-th/0011256))
+* {#AtijayMaldacenaVafa00} [[Michael Atiyah]], [[Juan Maldacena]], [[Cumrun Vafa]], _An M-theory Flop as a Large N Duality_, J. Math. Phys.42:3209-3220, 2001 ([arXiv:hep-th/0011256](https://arxiv.org/abs/hep-th/0011256))
 
 * {#BeasleyWitten02} [[Chris Beasley]], [[Edward Witten]], _A Note on Fluxes and Superpotentials in M-theory Compactifications on Manifolds of $G_2$ Holonomy_, JHEP 0207:046,2002 ([arXiv:hep-th/0203061](http://arxiv.org/abs/hep-th/0203061))
 
@@ -223,7 +223,7 @@ Specifically [[string phenomenology]] for the case of compactification on [[G2-m
 
 * {#AcharyaWitten01} [[Bobby Acharya]], [[Edward Witten]], _Chiral Fermions from Manifolds of $G_2$ Holonomy_ ([arXiv:hep-th/0109152](http://arxiv.org/abs/hep-th/0109152))
 
-* {#BerglundBrandhuber02} Per Berglund, Andreas Brandhuber, _Matter from $G_2$-manifolds_, Nucl.Phys. B641 (2002) 351-375 ([arXiv:hep-th/0205184](https://arxiv.org/abs/hep-th/0205184))
+* {#BerglundBrandhuber02} Per Berglund, Andreas Brandhuber, _Matter from $G_2$-manifolds_, Nucl. Phys. B641 (2002) 351-375 ([arXiv:hep-th/0205184](https://arxiv.org/abs/hep-th/0205184))
 
 * {#Barrett06} Adam B. Barrett, _M-Theory on Manifolds with $G_2$ Holonomy_, 2006 ([arXiv:hep-th/0612096](http://arxiv.org/abs/hep-th/0612096))
 
@@ -239,12 +239,11 @@ See also
 
 More discussion of the non-abelian gauge group enhancement at [[orbifold]] singularities includes
 
-* {#CveticShiuUranga01} [[Mirjam Cvetic]], [[Gary Shiu]], [[Angel Uranga]], _Chiral Four-Dimensional $N=1$ Supersymmetric Type IIA Orientifolds from Intersecting D6-Branes_, Nucl.Phys.B615:3-32,2001 ([arXiv:hep-th/0107166](http://arxiv.org/abs/hep-th/0107166))
+* {#CveticShiuUranga01} [[Mirjam Cvetic]], [[Gary Shiu]], [[Angel Uranga]], _Chiral Four-Dimensional $N=1$ Supersymmetric Type IIA Orientifolds from Intersecting D6-Branes_, Nucl. Phys. B615:3-32,2001 ([arXiv:hep-th/0107166](http://arxiv.org/abs/hep-th/0107166))
 
 * {#HalversonMorrison15} [[James Halverson]], [[David Morrison]], _On Gauge Enhancement and Singular Limits in $G_2$ Compactifications of M-theory_ ([arXiv:1507.05965](http://arxiv.org/abs/1507.05965))
 
-* [[Antonella Grassi]], [[James Halverson]], Julius L. Shaneson, _Matter From Geometry Without Resolution_, Journal of High Energy Physics
-October 2013, 2013:205 ([arXiv:1306.1832](http://arxiv.org/abs/1306.1832))
+* [[Antonella Grassi]], [[James Halverson]], Julius L. Shaneson, _Matter From Geometry Without Resolution_, Journal of High Energy Physics October 2013, 2013:205 ([arXiv:1306.1832](http://arxiv.org/abs/1306.1832))
 
 * [[Neil Lambert]], Miles Owen, _Charged Chiral Fermions from M5-Branes_ ([arXiv:1802.07766](https://arxiv.org/abs/1802.07766))
 
