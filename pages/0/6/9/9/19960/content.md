@@ -147,8 +147,7 @@ More generally, the [[Skyrmion]]-model of [[atomic nuclei]] gives good matches w
 
 Instead of starting with [[M5-branes]] in [[supergravity|locally supersymmetric]] [[M-theory]] and then [[spontaneously broken symmetry|spontaneously breaking]] all [[supersymmetry]] by suitable [[KK-compactification]] as in the [Witten-Sakai-Sugimoto model](#WittenSakaiSugimotoModel), one may start with a non-supersymmetric [[bulk field theory|bulk]] [[string theory]] in the first place. 
 
-In this vein, it has been argued in [GLMR 00](#GLMR00) that there is holographic duality between [[type 0 string theory]] and non-supersymmetric 4d [[Yang-Mills theory]] (hence potentially something close to [[QCD]]).
-
+In this vein, it has been argued in [GLMR 00](#GLMR00) that there is holographic duality between [[type 0 string theory]] and non-supersymmetric 4d [[Yang-Mills theory]] (hence potentially something close to [[QCD]]). See also [AAS 19](#AAS19).
 
 
 
@@ -350,6 +349,9 @@ Review:
 On relation to [[type 0 string theory]]:
 
 * {#GLMR00} Roberto Grena, Simone Lelli, Michele Maggiore, Anna Rissone, _Confinement, asymptotic freedom and renormalons in type 0 string duals_, JHEP 0007 (2000) 005 ([arXiv:hep-th/0005213](https://arxiv.org/abs/hep-th/0005213))
+
+* {#AAS19} Mohammad Akhond, Adi Armoni, Stefano Speziali, _Phases of $U(N_c)$ $QCD_3$ from Type 0 Strings and Seiberg Duality_ ([arxiv:1908.04324](https://arxiv.org/abs/1908.04324))
+
 
 See also
 
