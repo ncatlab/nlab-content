@@ -20,6 +20,8 @@
 
 _[[monad]]_ in the context of [[enriched category theory]].
 
+## Kleisli presentation 
+
 The Kleisli presentation of a $V$-enriched monad on a $V$-category $C$ comprises
 
 * for every object $X$, an object $T(X)$;
@@ -37,9 +39,14 @@ such that
 * $
 g^\ast\circ f^\ast = (g^\ast f)^\ast$. 
 
-In the setting of [[monad (in computer science)]], $V=C$ is typically a [[cartesian closed category]] and $T$ needs to exist in the internal language of $V$, so $T$ is necessarily enriched. 
+In the setting of [[monad (in computer science)]], $V=C$ is typically a [[cartesian closed category]] and $T$ needs to exist in the internal language of $V$, so $T$ is necessarily enriched. For example, if $V$ is the [[syntactic category]] of a programming language, then all the definable monads in the language are $V$-enriched. 
 
-If $C$ is $V$-enriched with copowers, e.g. if $V=C$, then $V$ acts on $C$. In this circumstance, a $V$-enriched monad on $C$ is the same thing as a $V$-strong monad on $C$. 
+If $C$ is $V$-enriched with copowers, e.g. if $V=C$, then $V$ acts on $C$. In this circumstance, a $V$-enriched monad on $C$ is the same thing as a $V$-[[strong monad]] on $C$. 
+
+## References 
+
+* [[Max Kelly]] and [[John Power]], *Adjunctions whose counits are coequalizers and presentations of finitary enriched monads*, Journal of Pure and Applied Algebra vol 89, 1993. ([pdf](https://core.ac.uk/download/pdf/82761050.pdf)).
+
 
 ## Related entries
 
