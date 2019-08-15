@@ -43,6 +43,10 @@ In the setting of [[monad (in computer science)]], $V=C$ is typically a [[cartes
 
 If $C$ is $V$-enriched with copowers, e.g. if $V=C$, then $V$ acts on $C$. In this circumstance, a $V$-enriched monad on $C$ is the same thing as a $V$-[[strong monad]] on $C$. 
 
+## Examples
+
+* In the case in of enrichment by [[truth values]], a monad is a [[closure operator]] on a poset.
+
 ## References 
 
 * [[Max Kelly]] and [[John Power]], *Adjunctions whose counits are coequalizers and presentations of finitary enriched monads*, Journal of Pure and Applied Algebra vol 89, 1993. ([pdf](https://core.ac.uk/download/pdf/82761050.pdf)).
@@ -55,5 +59,7 @@ If $C$ is $V$-enriched with copowers, e.g. if $V=C$, then $V$ acts on $C$. In th
 * [[additive monad]]
 
 * [[monad (in computer science)]]
+
+* [[enriched adjunction]]
 
 [[!redirects enriched monads]]
