@@ -164,7 +164,7 @@ Various versions of the definition of the graph complex were introduced in
 
 Decent review of the graph complex as a model for the [[de Rham cohomology]] of the [[Fulton-MacPherson compactification]] of [[configuration spaces of points]] (exhibiting the [[formal smooth manifold|formality]] of the [[little n-disk operads]]) is in
 
-* {#LambrechtsVolic14} [[Pascal Lambrechts]], [[Ismar Volić]], sections 6 and 7 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
+* {#LambrechtsVolic14} [[Pascal Lambrechts]], [[Ismar Volić]], sections 6 and 7 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([arxiv:0808.0457](https://arxiv.org/abs/0808.0457), [doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
 
 further review:
 
