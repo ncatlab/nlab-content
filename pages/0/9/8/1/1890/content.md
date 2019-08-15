@@ -131,6 +131,39 @@ More generally, if a monoidal category $V$ acts on a category $C$
 then a $V$-strength for a monad $T$ on $C$ is a family of morphisms
 $t_{A,B}:A\bullet T(B)\to T(A\bullet B)$ satisfying similar commutative diagrams. 
 
+## Moggi's typing rules and parameterized definition
+
+Moggi proposed the following typing rules for a sequence operator:
+\[
+\frac{\Gamma \vdash t:X}{\Gamma\vdash \eta(t):T(X)}
+\qquad
+\frac{\Gamma,x:X \vdash u: T(Y)\quad \Delta\vdash t:T(X)}
+{\Gamma,\Delta\vdash let\,x=t\,in\,u:T(Y)}
+\]
+To interpret these rules in a category, where types are interpreted as objects and judgements are interpreted as morphisms, we require 
+
+* For each object $X$, an object $T(X)$; 
+
+* a morphism $
+\eta_X:X\to T(X)$ for each $X$ (equivalently, 
+a natural family of functions $C(\Gamma,X)\to C(\Gamma, T(X))$); 
+
+* a family of functions $*_{\Gamma,\Delta}:C(\Gamma\otimes X, T(Y))\times C(\Delta,T(X))\to C(\Gamma\otimes \Delta,T(Y))$ natural in $\Gamma$ and $\Delta$,
+
+such that 
+
+* $f * \eta =f$, $\eta * f=f$, and $h*(g*f)=(h*g)*f$. 
+
+With the subscripts:
+
+* $f *_{\Gamma,X} \eta_X = f$ and $\eta *_{I,\Delta} f=f$, and
+$h *_{\Gamma,\Delta\otimes \Xi} (g *_{\Delta,\Xi} f) = (h *_{\Gamma,\Delta\otimes X} g) *_{\Gamma\otimes\Delta,\Xi} f$. 
+
+Such a structure is the same thing as a strong monad. One way to see this is to notice that it is essentially the same as the Kleisli triple form of an $\hat C$-[[enriched monad]] on $C$, where $\hat C$ is the category of [[presheaves]] on $C$ regarded with the [[Day convolution]] monoidal structure. More concretely, 
+
+\[\eta_{X\otimes Y}*_{X,T(Y)} id_{T(Y)}:X\otimes T(Y)\to T(X\otimes Y)\] 
+
+is a strength map. 
 
 ## Related concepts
 
