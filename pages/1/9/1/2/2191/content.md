@@ -26,6 +26,11 @@ $$\oslash : C \times D \to D$$
 
 that is associative and unital up to natural isomorphism with respect to $\otimes$ in ways that generalize actions of a monoid, and satisfy coherence laws similar to those of a monoidal category.
 
+## Connection with enrichment 
+If a category $D$ is [[enriched category|enriched]] in $C$ with [[copowers]], then the copower structure forms an actegory on the ordinary category underlying $D$. 
+
+Conversely, if an actegory is such that the functor $(-)\oslash d:C\to D$ has a [[right adjoint]] for all objects $d$ of $D$, then the right adjoints $D(d,-):D\to C$ provide an enrichment of $D$ in $C$ for which the action is a copower. 
+
 ## Definition
 
 For any [[category]] $A$, the category of [[endofunctors]] $End(A)$ is [[monoidal category|monoidal]] with respect to the (horizontal) composition (the composition of functors and the [[Godement product]] for natural transformations).
