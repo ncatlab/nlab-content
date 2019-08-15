@@ -23,7 +23,7 @@ Of course, this transformation goes in one particular direction; a *colax morphi
 
 ### For algebras of 2-monads
 
-Let $T$ be a [[2-monad]] on a 2-category $K$, and let $A$ and $B$ be (strict, pseudo, or ever lax or colax) $T$-algebras.  A **lax $T$-morphism** $f\colon A\to B$ is a morphism in $K$ together with a [[2-cell]]
+Let $T$ be a [[2-monad]] on a 2-category $K$, and let $A$ and $B$ be (strict, pseudo, or even lax or colax) $T$-algebras.  A **lax $T$-morphism** $f\colon A\to B$ is a morphism in $K$ together with a [[2-cell]]
 
 $$\array{ T A & \overset{T f}{\to} & T B\\
 ^{a} \downarrow & \swArrow & \downarrow^{b}\\
