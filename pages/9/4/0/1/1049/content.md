@@ -44,6 +44,8 @@ _Todd_: Late to this discussion, but I agree with Mike and Zoran that 'bimorphis
 
 _Qiaochu_: Super late to this discussion, but the term I use is "fake isomorphism." What do you guys think? 
 
+_VRB_: Super duper late to this discussion, but what do you all think about "monepimorphism" & "monepic"?
+
 =--
 
 [[!redirects bimorphisms]]
