@@ -70,7 +70,7 @@ For more on this see also below the discussion _[In homotopy type theory](#InHom
 
 ### Operations on species
 
-There are in fact 5 important monoidal structures on the category of species.  For a discussion of all five, you'll currently have to read about [[Schur functors]], where these operations are discussed in the context of $Fin\Vect$-valued species, i.e. $Fin\Vect$-valued presheaves on the groupoid of finite sets.  But here are two:
+There are in fact 5 important monoidal structures on the category of species.  
 
 #### Sum
 
@@ -81,13 +81,14 @@ $$
   \,.
 $$
 
-In the Schur functor, this is denoted with $\bigoplus$ distinguishing it from below.
+The generating function of the sum of species is the sum of their generating 
+functions.
 
-#### Product
+#### Cauchy product
 
-The category $core(FinSet)$ becomes a [[monoidal category]] under disjoint union of finite sets. This monoidal structure $(core(FinSet), \coprod)$ induces canonically the [[Day convolution]] monoidal structure on $Species := PSh(core(FinSet))$. In the Schur functor article these are denoted with $+$.
+The category $core(FinSet)$ becomes a [[monoidal category]] under disjoint union of finite sets. This monoidal structure $(core(FinSet), \coprod)$ induces canonically the [[Day convolution]] monoidal structure on $Species := PSh(core(FinSet))$.  This is often called the **Cauchy product** of species, or sometimes (confusingly) just the "product", since the generating function of the Cauchy product of species is the product of their generating functions.
 
-For $A$ and $B$ two combinatorial species, their product is given by the [[coend]]
+Explicitly, the Cauchy product of species $A$ and $B$ is given by the [[coend]]
 
 $$
   (A \otimes B)_n
@@ -98,9 +99,24 @@ $$
   \,.
 $$
 
-#### Others
+#### Hadamard product
 
-There are two others from monoidal operations. One is Day convolution induced by the Cartesian product of finite sets denoted by $\times$. The other is $\otimes$ which is given by $(F \otimes G)(V) \simeq F(V) \otimes G(V)$. Finally, there is composition known as plethysm.
+The category of species also has cartesian [[product]]s.  Since products of [[presheaves]] are computed objectwise, we have
+
+$$
+  (A \times B)_n \simeq A_n \times B_n
+  \,.
+$$
+
+This operation is often called the **Hadamard product** of species.
+
+#### Dirichlet product
+
+The category $core(FinSet)$ also becomes a [[monoidal category]] under cartesian product of finite sets. This monoidal structure induces another [[Day convolution]] monoidal structure on $Species := PSh(core(FinSet))$.  This could be called the **Dirichlet product** of species, or sometimes simply the product, since the Dirichlet series of this product of species is the product of their Dirichlet series.  (See [Dirichlet series and the Hasse--Weil zeta function](https://ncatlab.org/johnbaez/show/Dirichlet+species+and+the+Hasse-Weil+zeta+function).)
+
+#### Composition product  
+
+Finally, there is a monoidal structure on the category of species known as **plethysm** or **composition**.  The generating function of a composite of two species is the composite of their generating functions (in the sense of formal power series).    A monoid with respect to the plethysm tensor product is called an [[operad]].
 
 ## In Homotopy Type Theory
  {#InHomotopyTypeTheory}
