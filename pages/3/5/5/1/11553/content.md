@@ -24,9 +24,9 @@
 
 ## Idea
 
-A [[duality in string theory]]. The [[non-perturbative effect|non=perturbative]] enhancement of [[duality between heterotic and type II string theory]]:
+A [[duality in string theory]]. The [[non-perturbative effect|non-perturbative]] enhancement of [[duality between heterotic and type II string theory]]:
 
-[[F-theory]]$\,$"[[KK-compactification|KK-compactified]]" on an [[elliptic fibration|elliptically fibered]] [[K3]] with a [[section]] is supposed to be equivalent to [[heterotic string theory]] [[KK-compactification|KK-compactified]] on a [[2-torus]]. 
+[[F-theory]]$\,$ "[[KK-compactification|KK-compactified]]" on an [[elliptic fibration|elliptically fibered]] [[K3]] with a [[section]] is supposed to be equivalent to [[heterotic string theory]] [[KK-compactification|KK-compactified]] on a [[2-torus]]. 
 
 More generally, [[F-theory]] on a [[complex manifold|complex]] $n$-dimensional $X$ fibered $X\to B$ with elliptic [[K3]]-[[fibers]] is supposed to be equivalent to [[heterotic string theory]] on an [[elliptic fibration|elliptically fibered]] [[Calabi-Yau manifold]] $Z \to B$ of [[complex manifold|complex]] [[dimension]] $(n-1)$.
 
