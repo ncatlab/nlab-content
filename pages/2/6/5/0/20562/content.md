@@ -31,6 +31,29 @@ All earlier papers on DisCoCat use free pregroups for the grammar category, buil
 
 This allows a slightly more elegant reformulation of our basic example. Let $\mathcal{C}$ be the free autonomous category on the objects $n, s$ and the morphisms $Alice : 1 \to n$, $Bob : 1 \to n$ and $loves : 1 \to n^{r} s n^{l}$. Then a sentence such as "Alice loves Bob", together with its grammaticality, is witnessed by a morphism $f : 1 \to s$. Now the word-vectors $[\![ Alice ]\!] = F (Alice)$, $[\![ Bob ]\!] = F (Bob)$ and $[\![ loves ]\!] = F (loves)$ become part of the data defining $F : \mathcal{C} \to FVect$, and the resulting sentence vector is simply $F (f)$.
 
+## The Category of DisCoCat Models
+
+One criticism of DisCoCat is that a single model is unlikely to be complex enough to capture the intricacies of a natural language. A response to this criticism is that DisCoCat models should only model a given fragment of language with some level of detail. These models can then be combined or updated to represent more complex fragments of natural language. Indeed, in _[Translating and Evolving: Towards a Model of Language Change in DisCoCat](https://arxiv.org/abs/1811.11041)_ the authors construct a category $DisCoCat$ of DisCoCat models where
+
+* objects are [[strong monoidal functors]]
+$$ F \colon (J,*) \to (FVect,\otimes) $$
+where $(J,*)$ is a category which is freely monoidal on some set of grammatical types. In practice $J$ might be freely equipped with an [[autonomous]] structure or a [[froebenius algebra]] on each object.
+
+* A morphism from a language model $F \colon J \to FVect$ to a language model $F' \colon J' \to FVect$ is a tuple $(j , \alpha)$ where $j$ is a [[monoidal functor]] $i \colon J \to J'$ and $\alpha \colon F \Rightarrow F' \circ j$ is a [[monoidal natural transformation]] filling the following triangle
+\begin{centre}
+  \begin{xymatrix}
+   J\ar[r]^F \ar[d]_j& FVect \\
+   J' \ar[ur]^{F'}\ & 
+   \end{xymatrix}
+\end{centre}
+Morphisms in $DisCoCat$ are called translations because they represent ways of changing your semantic interpretations of grammatical types in a way which is coherent with a change in grammar. 
+
+### The Product Space Representation
+
+In [_Mathematical foundations for a compositional distributional model of meaning_](https://arxiv.org/abs/1003.4394) a different description of a DisCoCat model was described. Let $J$ be a free [[autonomous category]] representing grammar and assume that you have an assignment $V_a$ of each grammatical type $a$ to a finite dimensional vector space. Then grammatical computations of meaning can be performed in the [[product category]] $J \times FVect$. Let $a_1 \cdot \ldots \cdot a_n$ be an object in $J$ and let $v \in V_{a_1} \otimes \ldots \otimes V_{a_n}$ be its semantic meaning. Then a grammatical reduction $f \colon a \to b$ built from the units and counits in $J$ can be paired with the corresponding structure maps in $FVect$. This pairing allows you to apply the structure maps corresponding to $f$ to the vector $v$ to get a new semantic meaning. In essence, this approach identifies an autonomous subcategory of $J \times FVect$ where meaning computations can occur.
+
+This product space representation can be related to monoidal functor perspective via the [[category of elements]]. Using the forgetful functor $i \colon FVect \to Set$ the product space of a language model $F \colon J \to FVect$ can be defined as the category of elements $\int i \circ F$. The product space representation is useful for equipping a language model with a specific set of words. If $W$ is a set of words then a map $W \to \int i \circ F$ describes an assignment of each word to a grammatical type and semantic meaning.
+
 ## Variations
 
 DisCoCat is relatively easy to modify by replacing the semantic category $FVect$ with some other category with the appropriate structure. Examples include
@@ -54,3 +77,6 @@ DisCoCat is relatively easy to modify by replacing the semantic category $FVect$
 * {#Bolt16} [[Josef Bolt]], [[Bob Coecke]], [[Fabrizio Genovese]], [[Martha Lewis]], [[Daniel Marsden]] and [[Robin Piedeleu]], _Interacting conceptual spaces I: Grammatical composition of concepts_, SLPCS 2016 ([arXiv:1703.08314](https://arxiv.org/abs/1703.08314)
 * {#Felice19} [[Giovanni de Felice]], [[Konstantinos Meichanetzidis]] and [[Alexis Toumi]], _Montague semantics for Lambek pregroups_, ACT 2019. ([arXiv:1905.07408](https://arxiv.org/abs/1905.07408)])
 * {#Hedges18} [[Jules Hedges]] and [[Martha Lewis]], _Towards functorial language-games_, CAPNS 2018. ([arXiv:1807.07828](https://arxiv.org/abs/1807.07828))
+The category $DisCoCat$ and it's relationship to the product space representation is discussed in:
+* [[Tai-Danae Bradley]],[[Martha Lewis]], [[Jade Master]], and [[Brad Theilman]] 
+_Translating and Evolving: Towards a Model of Language Change in DisCoCat_ [arXiv:1811.11041](https://arxiv.org/abs/1811.11041)
