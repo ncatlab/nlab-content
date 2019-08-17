@@ -511,7 +511,7 @@ Review includes
 This underlies the models of configuration spaces by [[graph complexes]], see there for more.
 
 ### Cohomology of configuration spaces
- {ReferencesCohomology}
+ {#ReferencesCohomology}
 
 General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configuration spaces of points includes
 
