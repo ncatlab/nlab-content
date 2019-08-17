@@ -3,7 +3,9 @@
 
 ## Selected writings
 
-On [[graph complex]]-models for [[configuration spaces of points]]:
+On [[graph complex]]-models for [[configuration spaces of points]] (and the Grothedieck-Teichmueller group]]):
+
+* {#Willwacher10} [[Thomas Willwacher]], _M. Kontsevich's graph complex and the Grothendieck-Teichmueller Lie algebra_, Invent. math. (2015) 200: 671 ([arxiv:1009.1654](http://arxiv.org/abs/1009.1654))
 
 * {#CamposWillwacher16} [[Ricardo Campos]], [[Thomas Willwacher]], _A model for configuration spaces of points_ ([arXiv:1604.02043](https://arxiv.org/abs/1604.02043))
 
