@@ -28,9 +28,9 @@ More abstractly, the na&#239;ve definition is about $(-1)$-[[(-1)-truncation|tru
 
 The general pattern is a progression of definitions (of 'simple') from more to less na&#239;ve:
 
-1.  Suitable for a vague summary but obviously not precisely correct: there are no foos.  (Example: a field has no non-invertible elements.)
-2.  Original na&#239;ve definition: there are no nontrivial foos.  (Example: a field has no non-invertible elements except $0$.)
-3.  Sophisticated definition: there are no nontrivial foos, but there is the trivial foo.  (Example: a field has no non-invertible elements except $0$, but $0$ is non-invertible.)
+1.  Suitable for a vague summary but obviously not precisely correct: there are no foos.  (Example: in a field, every element is invertible.)
+2.  Original na&#239;ve definition: there are no nontrivial foos.  (Example: in a field, every element other than $0$ is invertible.)
+3.  Sophisticated definition: there are no nontrivial foos, but there is the trivial foo.  (Example: in a field, every element other than $0$ is invertible, and $0$ is non-invertible.)
 
 In many of the above examples one can obtain the sophisticated definition from the na&#239;ve definition by replacing a 2-ary function by a function of arbitrary (finite) arity. For example we would replace
 
