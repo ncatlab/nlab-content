@@ -36,9 +36,9 @@ Examples of proof assistant software:
 
 * [[Mizar]], [[NuPRL]], [[Isabelle]], [[HOL]]
 
-* [[Coq]], [[Agda]], [[Lean]]
+* [[Coq]], [[Agda]], [[Lean]], [Arend](https://arend-lang.github.io/)
 
-* [[prototype CLF]]
+* [Metamath](http://us.metamath.org/)
 
 Projects for formalization of mathematics wth proof assistants:
 
