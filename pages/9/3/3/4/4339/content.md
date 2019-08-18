@@ -51,7 +51,7 @@ This illustrates one advantage of using unbiased rather than [[biased definition
 
 In a similar vein we can define [[connected space|path connected]] by
 
-* A space is path connected if for each finite subset there is a path passing through every point of that subset.
+* A space is path connected if for each ([[Kuratowski-finite|Kuratowski]])-finite subset there is a [[path]] passing through every point of that subset.
 
 Then the empty space is not path connected because it has no paths at all and hence no path through the empty subset.
 
