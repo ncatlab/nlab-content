@@ -37,10 +37,11 @@ An [[iterated loop space object]] in [[Top]].
 
 * [[Peter May]], _The uniqueness of infinite loop space machines_, Topology, vol 17, pp. 205-224 (1978) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/22.pdf))
 
-Section 5.1.3 of
+* {#Lurie} [[Jacob Lurie]], Section 5.1.3 of _[[Higher Algebra]]_ 
 
-* [[Jacob Lurie]], _[[Higher Algebra]]_
- {#Lurie}
+In relation to [[configuration spaces of points]]:
+
+* {#Segal73} [[Graeme Segal]], _Configuration-spaces and iterated loop-spaces_, Invent. Math. __21__ (1973), 213&#8211;221. MR 0331377 ([pdf](http://dodo.pdmi.ras.ru/~topology/books/segal.pdf))
 
 [[!redirects iterated loop spaces]]
 
