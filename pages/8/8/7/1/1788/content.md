@@ -1,3 +1,5 @@
+do you see this? or this?
+
 # Coend calculus
 
 _Guest post by [Fosco Loregian](http://tetrapharmakon.github.io/) and [Bryce Clarke](https://twitter.com/8ryceClarke)._
@@ -347,3 +349,4 @@ A (left) *Tambara module* on $\mathcal{C}$ consists of:
 $\tau_{A}(X,Y) \colon P(X, Y) \rightarrow P(A \otimes X, A \otimes Y)$ called the *Tambara structure maps*, which
 are natural in $X, Y$ and dinatural in $A$, satisfying
 the equations:
+
