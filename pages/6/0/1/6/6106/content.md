@@ -203,17 +203,17 @@ This is a higher analog of how $G$-[[equivariant K-theory]] of the point gives t
 
 The standard textbook on loop groups is
 
-* Andrew Pressley, [[Graeme Segal]], _Loop groups_ Oxford University Press (1988)
-  {#PressleySegal}
+* {#PressleySegal} Andrew Pressley, [[Graeme Segal]], _Loop groups_ Oxford University Press (1988)
+  
 
 A review talk is 
 
-* [[Graeme Segal]], _Loop groups_ ([pdf](http://people.mpim-bonn.mpg.de/zagier/files/doi/10.1007/BFb0084581/chapter08.pdf))
- {#Segal}
+* {#Segal} [[Graeme Segal]], _Loop groups_ ([pdf](http://people.mpim-bonn.mpg.de/zagier/files/doi/10.1007/BFb0084581/chapter08.pdf))
+ 
 
 A review of some aspects with an eye towards loop groups as part of the [[crossed module]] of groups representing a [[string 2-group]] is in
 
-* BCSS, _From loop groups to 2-groups_ ([web](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos+--+references#BCSS))
+* {#BCSS05} [[John Baez]], [[Alissa Crans]], [[Urs Schreiber]], [[Danny Stevenson]], _From loop groups to 2-groups_, Homology Homotopy Appl. Volume 9, Number 2 (2007), 101-135. ([arXiv:math/0504123](https://arxiv.org/abs/math/0504123))
 
 The relation between [[representations]] of loop groups and [[twisted K-theory]] over the group is the topic of
 
