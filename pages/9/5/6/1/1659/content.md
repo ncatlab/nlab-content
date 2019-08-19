@@ -36,6 +36,10 @@ If you accept the [[axiom of choice]], then there is really nothing more to say 
 
 Of course, the terms are even less standardised here.
 
+Following the usage of terms for different senses of [[finite sets]], we can add 'sub' to the front of any of these words to mean a [[subset]] of such a set; classically, this would make 'subdenumerable', 'subcountable', and 'countable' all synonyms; but constructively, none of these are the same.  In fact, in [[Russian constructivism]], the set of [[real numbers]] is subcountable (because the set of [[computable numbers]] definitely is).  Indeed, one possible axiom for Russian constructivism is that *every* set is subcountable.
+
+We can also change the suffix 'able' to 'ably indexed' to mean a [[quotient set]]; this manifestly makes no difference to 'countable', and even constructively, a denumerably indexed set (which is at least sometimes called an _enumerable set_) is the same thing as an [[inhabited set|inhabited]] countable set.  To use this terminology systematically, it would probably make more sense to define a set to be _countable_ if it has a *bijection* from a detachable lower subset.  One reason for using 'countable' to mean countably indexed is that this is about the most general term that definitely does *not* hold of the set of real numbers.
+
 
 ## Examples and Properties
 
