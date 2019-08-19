@@ -89,7 +89,9 @@ $$
 * N. Chriss, V. Ginzburg, _Representation theory and complex geometry_, Birkh&#228;user 1997. x+495 pp.
 * Walter Borho, Robert MacPherson, _Repr&#233;sentations des groupes de Weyl et homologie d'intersection pour les vari&#233;t&#233;s nilpotentes_, C. R. Acad. Sci. Paris S&#233;r. I Math. 292 (1981), no. 15, 707&#8211;710 [MR82f:14002](http://www.ams.org/mathscinet-getitem?mr=618892)
 
-* {#May96} [[Peter May]], _Equivariant homotopy and cohomology theory_ CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996. With contributions by M. Cole, G. Comezana, S. Costenoble, A. D. Elmendorf, J. P. C. Greenlees, L. G. Lewis, Jr., R. J. Piacenza, G. Triantafillou, and S. Waner. ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/alaska1.pdf))
+* {#May96} [[Peter May]], _Equivariant homotopy and cohomology theory_ CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996. 
+With contributions by M. Cole, G. Comezana, S. Costenoble, A. D. Elmendorf, J. P. C. Greenlees, L. G. Lewis, Jr., R. J. Piacenza, G. Triantafillou, and S. Waner. ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/alaska1.pdf), [cbms-91](https://bookstore.ams.org/cbms-91))
+
 
 
 [[!redirects Weyl groups]]
