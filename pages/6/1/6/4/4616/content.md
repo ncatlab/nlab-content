@@ -129,16 +129,13 @@ In the case $X_\bullet$ that is a [good](#GoodSimplicialSpace) [[simplicial topo
 
 The definition of _proper_ simplicial space goes back to 
 
-* [[Peter May]], _The Geometry of Iterated Loop Spaces_ ,
-  Lecture Notes in Mathematics, 1972, Volume 271(1972), 100-112, 
-  ([pdf](http://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
+* [[Peter May]], _The Geometry of Iterated Loop Spaces_ , Lecture Notes in Mathematics, 1972, Volume 271(1972), 100-112 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
 
 May originally said _strictly proper_ for what now is just called _proper_ .
 
 The definition of _good_ simplicial space goes back to 
 
-* [[Graeme Segal]], _Configuration-Spaces and Iterated Loop-Spaces_ , 
-  Inventiones math. 21,213-221 (1973)
+* [[Graeme Segal]], _Configuration-Spaces and Iterated Loop-Spaces_, Inventiones math. 21,213-221 (1973)
 
 The implication $good \Rightarrow proper$ seems to be handled like a folk theorem. Its origin is maybe in 
 
