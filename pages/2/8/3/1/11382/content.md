@@ -86,12 +86,16 @@ Review of the theoretical predictions and their experimental verification is giv
 
 * {#Damour16} [[Thibault Damour]], _Gravitational Waves and Binary Systems_, talk at IHES, Feb 2016 ([video recording](https://www.youtube.com/watch?v=qYong_D4VUI))
 
+* {#Damour19} [[Thibault Damour]], _On the gravitational interaction of spinning bodies_, talk at _[Souriau2019](http://souriau2019.fr/?page_id=2)_  ([video recording](https://www.youtube.com/watch?v=8HO3DLKircs))
+
+
 Discussion using the [[string theory results applied elsewhere|string theoretic]] [[KLT relation]]/[[double copy]]-approach for computing higher order corrections to gravitational wave-signatures of [[relativistic binary]] mergers for use with [[LIGO]]:
 
 * {#BCRSSZ19} [[Zvi Bern]], Clifford Cheung, Radu Roiban, Chia-Hsien Shen, Mikhail P. Solon, Mao Zeng, _Scattering Amplitudes and the Conservative Hamiltonian for Binary Systems at Third Post-Minkowskian Order_, Phys. Rev. Lett. 122, 201603 (2019) ([arXiv:1901.04424](https://arxiv.org/abs/1901.04424))
 
 
 ### Experimental observation
+ {#ReferencesExperimentalObservation}
 
 Indirect detection of gravitational waves based on energy loss of a [[binary pulsar]] system is due to 
 
