@@ -523,11 +523,10 @@ See at _[[globular theory]]_ for more.
 
 ## References
 
-The "Segal conditions" are first discussed in 
+The "Segal conditions" are originally due to
 
-* [[Graeme Segal]], _Classifying spaces and spectral sequences_, Inst.
-Hautes &#201;tudes Sci. Publ. Math., vol. 34, pp. 105&#8211;112 (1968)
- {#Segal}
+* {#Segal} [[Graeme Segal]], _Classifying spaces and spectral sequences_, Inst. Hautes &#201;tudes Sci. Publ. Math., vol. 34, pp. 105&#8211;112 (1968)
+ 
  
 where they are attributed to [[Alexander Grothendieck]].
 
@@ -543,7 +542,7 @@ and discussed for [[strict infinity-categories]] in
 
 Based on that, an iterative and homotopy-theoretic formulation of the cellular Segal conditions is in section 5 of 
 
-* * [[Charles Rezk]], _A cartesian presentation of weak $n$-categories_ Geom. Topol. 14 (2010), no. 1, 521&#8211;571 ([arXiv:0901.3602](http://arxiv.org/abs/0901.3602))
- {#Rezk}
+* {#Rezk} [[Charles Rezk]], _A cartesian presentation of weak $n$-categories_ Geom. Topol. 14 (2010), no. 1, 521&#8211;571 ([arXiv:0901.3602](http://arxiv.org/abs/0901.3602))
+ 
 
 [[!redirects Segal conditions]]
