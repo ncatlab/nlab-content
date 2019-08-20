@@ -61,4 +61,6 @@ For example, in the category [[Grp]] of (possibly nonabelian) groups one has a s
 
 * [[homotopy extension property]]
 
+[[!include extension theorems -- table]]
+
 [[!redirects extensions]]
