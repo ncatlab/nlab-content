@@ -41,7 +41,7 @@ Coq and Agda is consistent with [[Homotopy type theory]], while Idris [is not](h
 
 A wiki platform based on Haskell, running texmath
 
-* [gitit](http://gitit.net) 
+* [gitit](https://github.com/jgm/gitit) 
 
 ## Related concepts
 
