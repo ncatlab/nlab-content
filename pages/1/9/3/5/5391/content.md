@@ -52,6 +52,7 @@ $C$ making above a short exact sequence in $C$.
 
 The [[Tietze extension theorem]] is about *extensions of continuous maps* from a subspace to a normal toplogical space. 
 
+[[!include extension theorems -- table]]
 
 ### Group extensions
 
@@ -61,6 +62,6 @@ For example, in the category [[Grp]] of (possibly nonabelian) groups one has a s
 
 * [[homotopy extension property]]
 
-[[!include extension theorems -- table]]
+
 
 [[!redirects extensions]]
