@@ -1,0 +1,72 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A generalization of the [[Tietze extension theorem]] to [[equivariant functions]] provides conditions under which a [[continuous function|continuous]] and [[equivariant function]] from a [[subspace]] of a [[topological G-space]] to another [[topological G-space]] has an [[extension]] to a [[continuous function|continuous]] and [[equivariant function]] to the full $G$-space.
+
+## Statement
+
++-- {: .num_theorem}
+###### Theorem
+**(Teietze-Gleason extension theorem)
+
+Let $G$ be a [[compact Lie group]].
+
+Let $X, Y$ be [[topological G-spaces]] and $A \subset X^G \subset X$ an [[fixed point|G-fixed]] [[topological subspace]] of $X$, and let $A \overset{f}{\longrightarrow} Y$ be a $G$-[[equivariant function|equivariant]] [[continuous function]].
+
+If 
+
+* $A \subset X$ is a [[compact subspace]]
+
+or
+
+* $X$ is a [[normal topological space]] and $A \subset X$ is a [[closed subspace]] 
+
+then $f$ has an [[extension]] to an [[equivariant function|equivariant]] [[continuous function]] $\widehat f$ on all of $X$.
+
+
+=--
+
+([Gleason 50](#Gleason50), [Palais 60, Theorem 1.4.3](#Palais60))
+
+## Related concepts
+
+[[!include extension theorems -- table]]
+
+## References
+
+* {#Gleason50} [[Andrew Gleason]], _Spaces with a compact Lie group of transformations_,  Proc. Amer. Math. Soc. 1 (1950), 35-43 ([doi:10.1090/S0002-9939-1950-0033830-7](https://doi.org/10.1090/S0002-9939-1950-0033830-7))
+
+* {#Palais60} [[Richard Palais]], Theorem 1.4.3 in: _The classification of $G$-spaces_, Memoirs of the American Mathematical Society, Number 36, 1960 ([pdf](http://vmm.math.uci.edu/PalaisPapers/ClassificationOfG-Spaces.pdf))
+
+* {#Jaworowski73} [[Jan Jaworowski]], _Equivariant extensions of maps_, Pacific J. Math. Volume 45, Number 1 (1973), 229-244 ([euclid:1102947720](https://projecteuclid.org/euclid.pjm/1102947720))
+
+* {#Jaworowski81} [[Jan Jaworowski]], _An equivariant extension theorem and $G$-retracts with a finite structure_, Manuscripta Math (1981) 35: 323 ([doi:10.1007/BF01263266](https://doi.org/10.1007/BF01263266))
+
+* [[Richard Lashof]], _The Equivariant Extension Theorem_, Proceedings of the American Mathematical Society Vol. 83, No. 1 (Sep., 1981), pp. 138-140 ([jstor:2043909](https://www.jstor.org/stable/2043909))
+
+[[!redirects equivariant Tietze extension theorems]]
+
+[[!redirects equivariant extension theorem]]
+[[!redirects equivariant extension theorems]]
