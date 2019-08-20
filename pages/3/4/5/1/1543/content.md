@@ -874,7 +874,7 @@ An original reference on the notion of a principal bundle as a quotient map by a
 * {#Cartan} _S&#233;minaire [[Henri Cartan]]_ 1949-1950 ([numdam](http://www.numdam.org/numdam-bin/browse?id=SHC_1948-1949__1_))
   
 
-some of which is recollected in ([Palais](#Palais)).
+some of which is recollected in ([Palais 61](#Palais61)).
 
 Further textbooks include
 
@@ -905,7 +905,8 @@ Lecture notes on the topic include
 
 * [[Anders Kock]], _Fibre bundles in general categories_, Journal of Pure and Applied Algebra 56(3):233-245, 1989; _Generalized fibre bundles_, in: Categorical Algebra and its Applications, Lecture Notes in Mathematics 1348, pp 194-207 (2006)
 * C. Townsend, _Principal bundles as Frobenius adjunctions with application to geometric morphisms_, Math. Proc. Camb. Phil. Soc. 159(03) (2015), 433-444 [pdf](http://www.christophertownsend.org/Documents/Principal.pdf)
-* [[Tomasz Brzezi?ski]], _On synthetic interpretation of quantum principal bundles_, AJSE D - Mathematics 35(1D): 13-27, 2010 [arxiv:0912.0213](http://uk.arxiv.org/abs/0912.0213)
+
+* [[Tomasz Brzezinski]], _On synthetic interpretation of quantum principal bundles_, AJSE D - Mathematics 35(1D): 13-27, 2010 [arxiv:0912.0213](http://uk.arxiv.org/abs/0912.0213)
 
 ### In relation to Lie groupoids
  {#ReferencesInRelationToLieGroupoids}
