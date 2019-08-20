@@ -37,7 +37,7 @@ One implication is that [[topological vector bundles]] over a topological space 
 +-- {: .num_theorem}
 ###### Theorem
 
-For $X$ a [[normal topological space]] and $A \subset X$ a [[closed subspace]], there is for every [[continuous function]] $f \colon A \to \mathbb{R}$ to the [[real line]] (with its [[Euclidean space|Euclidean]] [[metric topology]]) a continuous function $\hat f \colon X \to \mathbb{R}$ extending it, i.e. such that $\hat f|_A = f$:
+For $X$ a [[normal topological space]] and $A \subset X$ a [[closed subspace]], there is for every [[continuous function]] $f \colon A \to \mathbb{R}$ to the [[real line]] (with its [[Euclidean space|Euclidean]] [[metric topology]]) a continuous function $\hat f \colon X \to \mathbb{R}$ [[extension|extending]] it, i.e. such that $\hat f|_A = f$:
 
 $$
   \array{
@@ -296,7 +296,7 @@ defines an element in $C^\infty(\mathbb{R}^n)/I$.
 
 ## Related theorems
 
-[[extension theorems -- table]]
+[[!include extension theorems -- table]]
 
 * [[Urysohn's lemma]]
 
