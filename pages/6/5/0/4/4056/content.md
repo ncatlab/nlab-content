@@ -136,7 +136,7 @@ Other theorems about the foundations and [[interpretation of quantum mechanics]]
 
 Gleason's original paper outlining the theorem is
 
-* {#Gleason57} A.M. Gleason, _Measures on the closed subspaces of a Hilbert space_, Journal of Mathematics and Mechanics,  Indiana Univ. Math. J. 6 No. 4 (1957), 885&#8211;893 ([web](http://www.iumj.indiana.edu/IUMJ/FULLTEXT/1957/6/56050))
+* {#Gleason57} [[Andrew Gleason]], _Measures on the closed subspaces of a Hilbert space_, Journal of Mathematics and Mechanics,  Indiana Univ. Math. J. 6 No. 4 (1957), 885&#8211;893 ([web](http://www.iumj.indiana.edu/IUMJ/FULLTEXT/1957/6/56050))
   
 
 A standard textbook exposition of the theorem and its meaning is 
@@ -163,9 +163,7 @@ The failure of Gleason's theorem for _classical_ states (on [[Poisson algebra]]s
 
 Gleason\'s Theorem proved for real, complex and quaternionic Hilbert spaces using the notion of real trace. 
 
-* [[Valter Moretti]], Marco Oppio, _The correct formulation of Gleason's theorem in quaternionic  Hilbert spaces_
-Ann. Henri Poincaré 19 (2018), 3321-3355 
-([arXiv](http://arxiv.org/abs/1803.06882))
+* [[Valter Moretti]], Marco Oppio, _The correct formulation of Gleason's theorem in quaternionic  Hilbert spaces_, Ann. Henri Poincaré 19 (2018), 3321-3355  ([arXiv:1803.06882](http://arxiv.org/abs/1803.06882))
 
 
 See also
