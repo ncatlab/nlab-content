@@ -72,6 +72,7 @@ $$
 [[!include extension theorems -- table]]
 
 ## References
+ {#References}
 
 * {#Gleason50} [[Andrew Gleason]], _Spaces with a compact Lie group of transformations_,  Proc. Amer. Math. Soc. 1 (1950), 35-43 ([doi:10.1090/S0002-9939-1950-0033830-7](https://doi.org/10.1090/S0002-9939-1950-0033830-7))
 
