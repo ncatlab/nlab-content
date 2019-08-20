@@ -27,28 +27,45 @@ A generalization of the [[Tietze extension theorem]] to [[equivariant functions]
 
 ## Statement
 
-+-- {: .num_theorem}
++-- {: .num_theorem #TietzeGleasonExtensionTheorem}
 ###### Theorem
-**(Teietze-Gleason extension theorem)
+**(Tietze-Gleason extension theorem)
 
-Let $G$ be a [[compact Lie group]].
+Let 
 
-Let $X, Y$ be [[topological G-spaces]] and $A \subset X^G \subset X$ an [[fixed point|G-fixed]] [[topological subspace]] of $X$, and let $A \overset{f}{\longrightarrow} Y$ be a $G$-[[equivariant function|equivariant]] [[continuous function]].
+* $G$ be a [[compact Lie group]],
+
+* $X$ a [[topological G-spaces]],
+
+* $A \subset X^G \subset X$ a [[fixed point|G-fixed]] [[topological subspace]] of $X$,
+
+* $E$ be a [[Euclidean space|Euclidean]] [[topological G-spaces]],
+
+* $A \overset{f}{\longrightarrow} E$ a $G$-[[equivariant function|equivariant]] [[continuous function]].
 
 If 
 
 * $A \subset X$ is a [[compact subspace]]
 
-or
+[[or]]
 
 * $X$ is a [[normal topological space]] and $A \subset X$ is a [[closed subspace]] 
 
 then $f$ has an [[extension]] to an [[equivariant function|equivariant]] [[continuous function]] $\widehat f$ on all of $X$.
 
+$$
+  \array{
+    A &\overset{f}{\longrightarrow}& E
+    \\
+    \cup & \nearrow_{\mathrlap{ \widehat{f} }}
+    \\
+    X
+  }
+$$
 
 =--
 
-([Gleason 50](#Gleason50), [Palais 60, Theorem 1.4.3](#Palais60))
+([Gleason 50](#Gleason50), see [Palais 60, Theorem 1.4.3](#Palais60))
 
 ## Related concepts
 
@@ -67,6 +84,9 @@ then $f$ has an [[extension]] to an [[equivariant function|equivariant]] [[conti
 * [[Richard Lashof]], _The Equivariant Extension Theorem_, Proceedings of the American Mathematical Society Vol. 83, No. 1 (Sep., 1981), pp. 138-140 ([jstor:2043909](https://www.jstor.org/stable/2043909))
 
 [[!redirects equivariant Tietze extension theorems]]
+
+[[!redirects Tietze-Gleason extension theorem]]
+[[!redirects Tietze-Gleason extension theorems]]
 
 [[!redirects equivariant extension theorem]]
 [[!redirects equivariant extension theorems]]
