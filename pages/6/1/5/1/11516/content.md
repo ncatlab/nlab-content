@@ -35,6 +35,10 @@ In the context of [[stable homotopy theory]] the [[stabilization]] of $G$-spaces
 
 ## Properties
 
+### Equivariant Tietze extension theorem
+
+See at _[[equivariant Tietze extension theorem]]_
+
 ### Model structure and homotopy theory
  {#ModelStructureAndHomotopyTheory}
 
