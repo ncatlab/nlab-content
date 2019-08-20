@@ -296,6 +296,8 @@ defines an element in $C^\infty(\mathbb{R}^n)/I$.
 
 ## Related theorems
 
+[[extension theorems -- table]]
+
 * [[Urysohn's lemma]]
 
 * [[Hadamard lemma]]
