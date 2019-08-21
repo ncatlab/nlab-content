@@ -109,9 +109,9 @@ The maximal $N=8$ supergravity in 4d was obtained by [[KK-reduction]] of [[11-di
 
 Its $SO(8)$-[[gauged supergravity|gauged]] version was obtained in 
 
-* [[Bernard de Wit]], [[Hermann Nicolai]], Phys. Lett. 108 B (1982) 285; 
+* [[Bernard de Wit]], [[Hermann Nicolai]], _$N=8$ supergravity with local $SO(8)\times SU(8)$ invariance_, Phys. Lett. 108 B (1982) 285 (<a href="https://doi.org/10.1016/0370-2693(82)91194-7">doi:10.1016/0370-2693(82)91194-7</a>)
 
-* [[Bernard de Wit]]. [[Hermann Nicolai]], Nucl. Phys. B208 (1982) 323
+* [[Bernard de Wit]]. [[Hermann Nicolai]], _$N = 8$ supergravity_,  Nucl. Phys. B208 (1982) 323 (<a href="https://doi.org/10.1016/0550-3213(82)90120-1">doi:10.1016/0550-3213(82)90120-1</a>)
 
 and further gaugings by non-compact gauge groups in
 
