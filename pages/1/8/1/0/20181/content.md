@@ -612,8 +612,7 @@ and all degrees  must differ from that of the class of the [[identity function]]
 
 ### Equivariant Cohomotopy of representation tori
 
-
-<img src="https://ncatlab.org/nlab/files/EquivariantCohomotopyOfRepresentationTorusI.jpg" width="600">
+<img src="https://ncatlab.org/nlab/files/EquivariantCohomotopyOfRepresentationTorusII.jpg" width="700">
 
 (...)
 
