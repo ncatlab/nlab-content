@@ -47,11 +47,23 @@ The name derives from the fact that the other two comonents are identified in [[
 
 ## References
 
-Discussion of the gravitiono as a [[dark matter]] candidate is in  
+### General
 
+See also
+
+* Wikipedia, _[Gravitino](https://en.wikipedia.org/wiki/Gravitino)_
+
+### As a dark matter candidate
+
+Discussion of the gravitiono as a [[dark matter]] candidate:
 
 * {#EllisOlive10} [[John Ellis]], [[Keith Olive]], _Supersymmetric Dark Matter Candidates_ ([arXiv:1001.3651](http://arxiv.org/abs/1001.3651))
 
+A proposal for super-heavy [[gravitinos]] as [[dark matter]], by embedding [[D=4 N=8 supergravity]] into [[E10]]-[[U-duality]]-invariant [[M-theory]]:
+
+* {#MeissnerNicolai18a} Krzysztof A. Meissner, [[Hermann Nicolai]], _Standard Model Fermions and Infinite-Dimensional R-Symmetries_, Phys. Rev. Lett. 121, 091601 (2018) ([arXiv:1804.09606](https://arxiv.org/abs/1804.09606))
+
+* {#MeissnerNicolai18b} Krzysztof A. Meissner, [[Hermann Nicolai]], _Planck Mass Charged Gravitino Dark Matter_, Phys. Rev. D 100, 035001 (2019) ([arXiv:1809.01441](https://arxiv.org/abs/1809.01441))
 
 
 
