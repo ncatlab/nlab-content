@@ -5,7 +5,7 @@
 
 ## Idea
 
-(Note that $S5 = S5_{(1)}$.)
+(Note that $S5 = S5_{(1)}$. See [[S5 modal logic]])
 
 Although better than $K$ (resp. $K(m)$), and $T$ (resp. $T(m)$), $S4$ (resp. $S4(m)$) is still not considered adequate for knowledge representation.  Because of this further axioms have been put forward, too many to be mentioned here.  We will limit ourselves, (at this stage in the development of these entries, at least) to introducing one more axiom, that is a bit more contentious, (but is nice from the nPOV.) 
 
@@ -32,7 +32,7 @@ Axiom (5) interprets as saying 'If agent $i$ does not know that $p$ holds, then 
 
 * $S5$ - this logic is obtained from $S4$ by adding the axiom $B$.
 
-* $S5_{(m)}$ starting from $S4_{(m)}$, add, for each $i = 1,\ldots, m$ the axiom $B_i$.
+* $S5_{(m)}$ starting from $S4_{(m)}$ [[the logic S4(m)]], add, for each $i = 1,\ldots, m$ the axiom $B_i$.
 
 
 In either case the same result can be obtained by adding in $5$ or $(5)_i$ in place of the corresponding $B$.
