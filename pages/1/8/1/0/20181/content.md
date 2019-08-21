@@ -253,6 +253,8 @@ Moreover, for each $[f] \in \pi_0 \mathrm{Maps}\big( X,Y \big)^G$ and for each $
 
 ## Examples
 
+### Equivariant Cohomotopy of representation spheres
+
 As a special case of the [[equivariant Hopf degree theorem]] (Theorem \ref{EquivariantHopfDegreeTheorem}), we obtain the following:
 
 
@@ -605,6 +607,15 @@ $$
 and all degrees  must differ from that of the class of the [[identity function]] by a multiple of this multiplicity. Finally, the offset of the identity function is clearly $offs\left(id_{S^{\mathbb{H}}},1\right) = deg\left( id_{S^{\mathbb{H}}}\right) = 1$.
 
 =--
+
+\linebreak
+
+### Equivariant Cohomotopy of representation tori
+
+
+<img src="https://ncatlab.org/nlab/files/EquivariantCohomotopyOfRepresentationTorusI.jpg" width="600">
+
+(...)
 
 <br/>
 
