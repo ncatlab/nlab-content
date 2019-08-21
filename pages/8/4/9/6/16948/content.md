@@ -117,6 +117,15 @@ In addition we have
 
 > (beware that [Dugger 08](#Dugger08) uses a different bi-degree labeling convention: the $(p,q)$ here is $(p+q,p)$ in [Dugger 08](#Dugger08), matching the coordinates of the above table) 
 
+|  |  $n_{sgn} + n $ | $0$ | $1$ | $2$ | $3$ |
+|--|----------------|--|----|---|--|
+| $n_{sgn}$ | $\pi^{st}_{n_{sgn},n}$ |  |  |  |  |
+| $2$ |   |  $0$ |  $0$ | $\mathbb{Z} = \langle (h_{\mathbb{C}})^2\rangle$ | $\mathbb{Z}_{24} = \langle h_{\mathbb{H}}\rangle$  |
+| $1$ |   |  $0$ |  $\mathbb{Z} = \langle h_{\mathbb{C}}\rangle$ | $\pi_1^{st} \oplus \mathbb{Z}_2$ | $\pi^{st}_2 \oplus \mathbb{Z}_2 $ |
+| $0$ |   |  $\pi_0^{st} \oplus \mathbb{Z}$ |  $\pi_1^{st} \oplus (\mathbb{Z}_2)^2 $ | $\pi_2^{st} \oplus (\mathbb{Z}_2)^2$ | $\pi_3^{st} \oplus \mathbb{Z}_8 \oplus \mathbb{Z}_{24}$ |
+
+
+
 
 ### Cyclic ($G_D \hookrightarrow SO(2)$-)equivariance
 
