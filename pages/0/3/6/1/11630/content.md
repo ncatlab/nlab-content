@@ -201,19 +201,28 @@ Discussion of [[11-dimensional supergravity]] in a form that exhibits the higher
 * {#HohmSamtleben13} [[Olaf Hohm]], [[Henning Samtleben]], _Exceptional Form of $D=11$ Supergravity_, Phys. Rev. Lett. 111, 231601 (2013) ([arXiv:1308.1673](http://arxiv.org/abs/1308.1673))
 
 
-### In various dimensions
+### $n=3$
 
 The case of $SL(3,\mathbb{Z}) \times SL(2,\mathbb{Z})$ in [[8d supergravity]] is discussed in 
 
 * {#LiuMinasian97} [[James Liu]], [[Ruben Minasian]], _U-branes and $T^3$ fibrations_, Nucl.Phys. B510 (1998) 538-554 ([arXiv:hep-th/9707125](http://arxiv.org/abs/hep-th/9707125))
 
+### $n=4$
+
 The case of $SL(5,\mathbb{Z})$ in [[7d supergravity]] from [[M-theory]] is discussed in
 
 * {#Rozali97} [[Moshe Rozali]], _Matrix Theory and U-Duality in Seven Dimensions_, Phys.Lett. B400 (1997) 260-264 ([arXiv:hep-th/9702136](http://arxiv.org/abs/hep-th/9702136))
 
+### $n=7$
+
+
 The $E_{7(7)}$-symmetry was first discussed in 
 
 * [[Bernard de Wit]], [[Hermann Nicolai]], _$D = 11$ Supergravity With Local $SU(8)$ Invariance_, Nucl. Phys. B 274, 363 (1986)
+
+
+### $n=8$
+
 
 The case of $E_{8(8)}$ is discussed in
 
@@ -223,9 +232,16 @@ The case of $E_{8(8)}$ is discussed in
 supergravity?_, Class. Quant. Grav. 17, 3689 (2000) ([arXiv:hep-th/0006034](http://arxiv.org/abs/hep-th/0006034)).
 
 
+### $n=9$
+
+
 The case of [[E9]] is discussed in
 
 * {#EHKNT07} [[François Englert]], Laurent Houart, [[Axel Kleinschmidt]], [[Hermann Nicolai]], Nassiba Tabti, _An E9 multiplet of BPS states_, JHEP 0705:065,2007 ([arXiv:hep-th/0703285](http://arxiv.org/abs/hep-th/0703285))
+
+
+### $n=10$
+ {#Referencesn10}
 
 The case of [[E10]] is discussed for [[boson|bosonic]] degrees of freedom in 
 
@@ -239,9 +255,25 @@ and for fermionic degrees of freedom in [[supergravity|supersymmetric]] [[quantu
 
 * {#Damour14} [[Thibault Damour]], _Quantum supersymmetric Bianchi IX  Cosmology and its hidden Kac-Moody Structure_, talk at [Gravitation, Solitons and Symmetries](http://www.lestudium-ias.com/#!registration-conference-21-may-gibbons/ci2z) ([[DamourSQC14.pdf:file]])
 
-More recent review includes
+Review includes
+
+* {#Nicolai08} [[Hermann Nicolai]], _Wonders of $E_{10}$ and $K(E_{10})$_ (2008) ([pdf](http://ipht.cea.fr/Pisp/pierre.vanhove/Paris08/talk_PDF/nicolai.pdf))
 
 * {#Nicolai14} [[Hermann Nicolai]], _On Exceptional Geometry and Supergravity_, talk at [Gravitation, Solitons and Symmetries](http://www.lestudium-ias.com/#!registration-conference-21-may-gibbons/ci2z) ([[NicolaiTalk14.pdf:file]])
+
+Discussion of [[phenomenology]]:
+
+* [[Axel Kleinschmidt]], [[Hermann Nicolai]], _Standard model fermions and $K(E_{10})$_ ([arXiv:1504.01586](https://arxiv.org/abs/1504.01586))
+
+* {#MeissnerNicolai18a} Krzysztof A. Meissner, [[Hermann Nicolai]], _Standard Model Fermions and Infinite-Dimensional R-Symmetries_, Phys. Rev. Lett. 121, 091601 (2018) ([arXiv:1804.09606](https://arxiv.org/abs/1804.09606))
+
+* {#MeissnerNicolai18b} Krzysztof A. Meissner, [[Hermann Nicolai]], _Planck Mass Charged Gravitino Dark Matter_, Phys. Rev. D 100, 035001 (2019) ([arXiv:1809.01441](https://arxiv.org/abs/1809.01441))
+
+
+
+
+### $n=11$
+
 
 The case of of [[E11]] is discussed in 
 
