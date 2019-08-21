@@ -128,6 +128,8 @@ Discussion of modal operators explicitly in [[dependent type theory]] (and with 
 
 * Daniel Gratzer, [[Jonathan Sterling]], [[Lars Birkedal]], _Implementing Modal Dependent Type Theory_, ([pdf](https://jozefg.github.io/papers/2019-implementing-modal-dependent-type-theory.pdf), [GitHub](https://github.com/jozefg/blott))
 
+* Daniel Gratzer, _Implementing Modal Dependent Type Theory_, talk at [ICFP 19](https://icfp19.sigplan.org/) ([slides pdf](https://jozefg.github.io/papers/2019-icfp-modal-slides.pdf))
+
 
 A survey of the field of modal type theory is in the collections
 
