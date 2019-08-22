@@ -17,7 +17,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -101,9 +100,10 @@ $$
 ### Homotopy fiber
   {#HomotopyFiber}
 
-If $X$ is an "grouplike H-space", in that it is a topological [[magma]] such that left multiplication acts by [[weak homotopy equivalences]], then the [[homotopy fiber]] of the Hopf construction $X \ast X \to \Sigma X$ over any point is [[weak homotopy equivalence|weakly homotopy equivalent]] to $X$ ([here](https://nforum.ncatlab.org/discussion/3391/hopf-fibration/?Focus=76088#Comment_76088)).
+If $X$ is an "grouplike H-space", in that it is a topological [[magma]] such that left multiplication acts by [[weak homotopy equivalences]], then the [[homotopy fiber]] of the Hopf construction $X \ast X \to \Sigma X$ over any point is
+[[weak homotopy equivalence|weakly homotopy equivalent]] to $X$ ([here](https://nforum.ncatlab.org/discussion/3391/hopf-fibration/?Focus=76088#Comment_76088)).
 
-Beware that it may not generally be true that the ordinary [[fibers]] of the Hopf construction are [[weak homotopy equivalent|weakly homotopy equivalent]] to the [[homotopy fibers]], see also the discussion of [[quasifibrations]] [below](#RealizationAsAQuasiFibration). But in the classical examples it Happens to be the case, see at [[Hopf fibration]].
+Beware that it may not generally be true that the ordinary [[fibers]] of the Hopf construction are [[weak homotopy equivalence|weakly homotopy equivalent]] to the [[homotopy fibers]], see also the discussion of [[quasifibrations]] [below](#RealizationAsAQuasiFibration). But in the classical examples it Happens to be the case, see at [[Hopf fibration]].
 
 
 
