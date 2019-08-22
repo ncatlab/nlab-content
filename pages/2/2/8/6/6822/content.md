@@ -120,6 +120,8 @@ $$
 
 [[!include table of orthogonal groups and related]]
 
+[[!include low dimensional rotation groups -- table]]
+
 
 ## References
 
