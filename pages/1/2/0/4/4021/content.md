@@ -142,6 +142,9 @@ For references related to [[Giry's monad]] and variants see there.
 
 For a setting of probability theory within category theory see
 
+* [[Tobias Fritz]], _A synthetic approach to Markov kernels, conditional independence, and theorems on sufficient statistics_, ([arXiv:1908.07021](https://arxiv.org/abs/1908.07021))
+
+
 * [[Kirk Sturtz]], _Categorical Probability Theory_ ([arXiv:1406.6030](https://arxiv.org/abs/1406.6030))
 
 For a more convenient setting for 'higher-order' probability theory, that is, one which admits higher-order functions, the following article uses the [[cartesian closed category]] of [[quasi-Borel space|quasi-Borel spaces]] rather than the category of measurable spaces:
