@@ -99,6 +99,17 @@ This construction generalizes to [[equivariant cohomotopy]], see [there](equivar
 <img src="https://ncatlab.org/nlab/files/PontrjaginThomConstructionI.jpg" width="800">
 </center>
 
+
+For example:
+
+{#nCohomotopyOfEuclideanNSpaceIllustration}$\,$
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/nCohomotopyOfEuclideanNSpace.jpg" width="840">
+</center>
+
+
 ### Relation to configuration spaces
   {#RelationToConfigurationSpaces}
 
