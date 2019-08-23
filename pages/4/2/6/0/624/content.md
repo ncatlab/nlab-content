@@ -309,7 +309,6 @@ The notion of duals in a symmetric monoidal $(\infty,n)$-category is due to sect
 [[!redirects right dual]]
 [[!redirects right duals]]
 
-[[!redirects dualizable object]]
 [[!redirects dualizable objects]]
 [[!redirects dualisable object]]
 [[!redirects dualisable objects]]
