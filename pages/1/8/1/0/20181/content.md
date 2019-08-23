@@ -615,9 +615,11 @@ and all degrees  must differ from that of the class of the [[identity function]]
 \linebreak
 
 ### Equivariant Cohomotopy of representation tori
+ {#EquivariantCohomotopyOfRepresentationTori}
 
-<img src="https://ncatlab.org/nlab/files/EquivariantCohomotopyOfRepresentationTorusII.jpg" width="700">
-
+<center>
+<img src="https://ncatlab.org/nlab/files/EquivariantCohomotopyOfToroidalOrientifold.jpg" width="850">
+</center>
 (...)
 
 <br/>
