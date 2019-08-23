@@ -1,4 +1,8 @@
 
+\begin{tikzpicture}
+  \draw node at (0,0) {$X$};
+\end{tikzpicture}
+
 $\varnothing$
 
 $\to$
