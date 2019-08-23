@@ -436,7 +436,9 @@ This is reviewed/further discussed in
 * [[Paul-André Melliès]] , _Categorial Semantics of Linear Logic_, in _Interactive models of computation and program behaviour_, Panoramas et synth&#232;ses 27, 2009 ([pdf](http://www.pps.univ-paris-diderot.fr/~mellies/papers/panorama.pdf))
  {#Mellies09}
 
+The relation of dual intuitionistic linear logic and $\pi$-calculus is given in
 
+* Luis Caires, Frank Pfenning. _Session Types as Intuitionistic Linear Propositions_.
 
 Noncommutative linear logic is discussed for instance in
 
