@@ -2,6 +2,8 @@
 
 * [[Grothendieck construction]] 
 * [[monoidal category]]
+* [[monoidal fibration]]
+* [[indexed monoidal category]]
 
 
 ## References
