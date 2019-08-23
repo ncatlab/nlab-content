@@ -86,7 +86,7 @@ A poset is **[[locally finite poset|locally finite]]** if every closed bounded i
 
 A poset with a [[top element]] and [[bottom element]] is called __bounded__.  (But note that a *[[subset]]* of a poset may be bounded without being a bounded as a poset in its own right.)  More generally, it is __bounded above__ if it is has a top element and __bounded below__ if it has a bottom element.
 
-A poset with all [[meets]] and [[joins]] is called a __[[lattice]]__; if it has only one or the other, it is still a __[[semilattice]]__.
+A poset with all finite [[meets]] and [[joins]] is called a __[[lattice]]__; if it has only one or the other, it is still a __[[semilattice]]__.
 
 A poset in which every finite set has an upper bound (but perhaps not a *least* upper bound, that is a join) is a __[[directed set]]__.
 
