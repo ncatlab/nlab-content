@@ -254,6 +254,7 @@ Moreover, for each $[f] \in \pi_0 \mathrm{Maps}\big( X,Y \big)^G$ and for each $
 ## Examples
 
 ### Equivariant Cohomotopy of representation spheres
+ {#EquivariantCohomotopyOfRepresentationSpheres}
 
 As a special case of the [[equivariant Hopf degree theorem]] (Theorem \ref{EquivariantHopfDegreeTheorem}), we obtain the following:
 
@@ -530,6 +531,9 @@ $$
 
 =--
 
+<center>
+<img src="https://ncatlab.org/nlab/files/EquivariantNCohomotopyOfEuclideanNOrientifold.jpg" width="840">
+</center>
 
 +-- {: .num_remark}
 ###### Remark
