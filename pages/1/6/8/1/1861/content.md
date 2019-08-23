@@ -18,7 +18,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -68,7 +67,7 @@ relation to the [[Freudenthal suspension theorem]] ([Spanier 49, section 9](#Spa
 
 For $X$ a [[compact topological space|compact]] [[smooth manifold]], there is a [[smooth function]] $X \to S^n$ representing every cohomotopy class (with respect to the standard [[smooth structure]] on the [[sphere]] [[manifold]]).
 
-### Relation to cobordism classes of normally framed submanifolds
+### PT-Construction and normally framed submanifolds
   {#RelationToCobordismGroup}
 
 For $X$ a [[closed manifold|closed]] [[smooth manifold]] of [[dimension]] $D$, the [[Pontryagin-Thom construction]] (e.g. [Kosinski 93, IX.5](#Kosinski93)) identifies the [[set]] 
@@ -81,7 +80,7 @@ of [[cobordism classes]] of  [[closed manifold|closed]] and [[normally framed su
 
 $$
   SubMfd_{/bord}^{d}(X)
-    \underoverset{\simeq}{PT}{\longrightarrow}
+    \underoverset{\simeq}{\;\;\;PT\;\;\;}{\longrightarrow}
   \pi^{D-d}(X)
   \,.
 $$
@@ -93,6 +92,12 @@ In particular, by this [[bijection]] the canonical [[group]] [[structure]] on [[
 
 
 This construction generalizes to [[equivariant cohomotopy]], see [there](equivariant+cohomotopy#PontryaginThomConstruction).
+
+{#PontrjaginThomConstructionGraphics}$\,$
+
+<center>
+<img src="https://ncatlab.org/nlab/files/PontrjaginThomConstructionI.jpg" width="800">
+</center>
 
 ### Relation to configuration spaces
   {#RelationToConfigurationSpaces}
