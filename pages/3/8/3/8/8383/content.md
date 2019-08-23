@@ -56,6 +56,8 @@ In many cases, the reindexing functors $f^\ast\colon C^B \to C^A$ induced by a m
 
 * [[dependent linear type theory]], [[Wirthmüller context]]
 
+* [[monoidal Grothendieck construction]]
+
 ## References
 
 The definition is due to
