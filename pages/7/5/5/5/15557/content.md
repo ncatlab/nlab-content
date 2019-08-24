@@ -7,7 +7,7 @@
 
 The _Weil zeta function_ is a [[zeta function]] for [[arithmetic varieties]] over [[finite fields]] which, under the [[function field analogy]], is [[analogy|analogous]] to the [[Dedekind zeta function]] for [[number fields]] $K$ (and hence of the [[Riemann zeta function]], for $K = \mathbb{Q}$).
 
-The (proof of the) [[Weil conjectures]] concerns the properties of the Weil zeta function.
+The [[Weil conjectures]], and their proof, concern the properties of the Weil zeta function.
 
 ## Properties
 
