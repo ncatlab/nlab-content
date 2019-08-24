@@ -37,6 +37,12 @@ The [[image]] of the canonical [[homomorphism]] $\beta$ from the [[Burnside ring
 
 ## References
 
+* David H. Bailey, Jonathan M. Borwein, _Experimental Mathematics: Examples, Methods and Implications_, Notices of the AMS, Volume 52, Number 5, 502-514. ([pdf](https://www.ams.org/notices/200505/fea-borwein.pdf))
+
+* David H. Bailey, Jonathan M. Borwein, Neil J. Calkin, Roland Girgensohn, D. Russell Luke, Victor H. Moll, _Experimental Mathematics in Action_. ([pdf](https://math.dartmouth.edu/archive/m56s13/public_html/BaileyBorweinetal2006book_Experimental_Mathematics_in_Action.pdf))
+
+* Herbert S. Wilf, _Mathematics: An Experimental Science_. ([pdf](https://www.math.upenn.edu/~wilf/website/Mathematics_AnExperimentalScience.pdf))
+
 See also
 
 * Wikipedia, _[Experimental mathematics](https://en.wikipedia.org/wiki/Experimental_mathematics)_
