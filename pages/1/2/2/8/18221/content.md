@@ -88,6 +88,7 @@ A formalization in [[HoTT]]-[[Agda]] of general [[(n,r)-categories]] for $n,r \i
 
 
 
+
 [[!redirects internal categories in homotopy type theory]]
 
 [[!redirects internal category in HoTT]]
