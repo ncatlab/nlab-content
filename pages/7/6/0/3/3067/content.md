@@ -23,7 +23,7 @@ Eventually these should probably have their own pages.
 
 ##References##
 
-*Ross Street and Brian Day, [Monoidal Bicategories and Hopf Algebroids](http://www.sciencedirect.com/science/article/pii/S0001870897916492). 
+*Ross Street and Brian Day, [Monoidal Bicategories and Hopf Algebroids](http://www.sciencedirect.com/science/article/pii/S0001870897916492), Advances in Mathematics, Volume 129, Issue 1, 15 July 1997, Pages 99-157. 
 
 [[!redirects pseudomonoid]]
 [[!redirects pseudomonoids]]
