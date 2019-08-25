@@ -9,10 +9,24 @@
 =--
 =--
 
+<center>
+<img src="https://ncatlab.org/nlab/files/GrassmannGradedCommutativityI.jpg" width="460">
+</center>
+<center>
+<img src="https://ncatlab.org/nlab/files/GrassmannGradedCommutativityII.jpg" width="460">
+</center>
+
+
+> from [Grassmann 1844, p. 61 and 84](Ausdehnungslehre#Grassmann44)
+
+
 
 #Contents#
 * table of contents
 {:toc}
+
+
+
 
 ## Idea
 
