@@ -140,6 +140,8 @@ Not to be confused with [[C*-algebra]]-[[E-theory]].
 
 ## References
 
+Named after [[Jack Morava]] (see at _[[Morava K-theory]]_).
+
 Relevant background lecture notes include
 
 * [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_, course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
