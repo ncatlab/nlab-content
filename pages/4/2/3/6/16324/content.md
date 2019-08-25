@@ -15,7 +15,7 @@
 
 This page collects material related to the book
 
-* [[Hermann Grassmann]],
+* {#Grassmann44} [[Hermann Grassmann]],
 
   _Die Wissenschaft der extensive Gr&#246;ssen oder die Ausdehnungslehre_
 
@@ -25,7 +25,22 @@ This page collects material related to the book
 
   ([pdf scan of original](http://www.uni-potsdam.de/u/philosophie/grassmann/Werke/Hermann/Ausdehnungslehre_1844.pdf), [Internet Archive copy](https://archive.org/details/dielinealeausde00grasgoog/page/n11))
 
-which introduced for the first time basic concepts of what today is known as [[linear algebra]] (including [[affine spaces]] as [[torsors]] over [[vector spaces]]) and introduced in addition an _exterior product_ (&#167;37, &#167;55) on [[vectors]], forming what today is known as _[[exterior algebra]]_ or _[[Grassmann algebra]]_, hence in fact _[[superalgebra]]_. 
+which introduced for the first time basic concepts of what today is known as [[linear algebra]] (including [[affine spaces]] as [[torsors]] over [[vector spaces]]) and introduced in addition an _exterior product_ (&#167;37, &#167;55) on [[vectors]], forming what today is known as _[[exterior algebra]]_ or _[[Grassmann algebra]]_, hence in fact _[[superalgebra]]_.
+
+{#GrassmannDefinesSuperalgebra} Here is Grassmann introducing the [[signs in supergeometry|sign rule of superalgebra]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/GrassmannGradedCommutativityI.jpg" width="460">
+</center>
+
+> from [Grassmann 1844, p. 61](#Grassmann44)
+
+<center>
+<img src="https://ncatlab.org/nlab/files/GrassmannGradedCommutativityII.jpg" width="460">
+</center>
+
+> from [Grassmann 1844, p. 84](#Grassmann44)
+
 
 Grassmann advertizes his work (p. xxv) as being the theory of _[[extensive quantity]]_. The modern way of speaking about this is that the elements of the [[exterior algebra]] he considered are [[differential forms]] on [[Euclidean space]].
 
