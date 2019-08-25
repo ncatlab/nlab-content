@@ -78,7 +78,7 @@ First of all, the forcing relation is _monotone_ and _local_ :
 
 +-- {: .num_prop #Monotone_Local}
 ###### Proposition
-If $f:V\to U$ and $U\models \varphi (\alpha)$ then $V\models \varphi (\alpha\circ f)$. Conservely, if $f:V\to U$ is _epic_ and $V\models \varphi (\alpha\circ f)$ then $U\models \varphi (\alpha)$.
+If $f:V\to U$ and $U\models \varphi (\alpha)$ then $V\models \varphi (\alpha\circ f)$. Conversely, if $f:V\to U$ is _epic_ and $V\models \varphi (\alpha\circ f)$ then $U\models \varphi (\alpha)$.
 =--
 
 The short proof can be found in MacLane-Moerdijk ([1994](#MM94), p.304).
