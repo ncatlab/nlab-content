@@ -6870,6 +6870,7 @@ see also [PN&#167;193b](#PN193b)
  {#DieMechanik}
 
 #### Mathematische Mechanik -- Raum und Zeit
+ {#MathematischeMechanikRaumUndZeit}
 
 ##### Der Raum
  {#DerRaum}
@@ -6901,12 +6902,14 @@ This is essentially the motto of _[[synthetic geometry]]_, see also [PN&#167;254
 ##### Die Zeit
 
 ##### Einheit von Raum und Zeit
+ {#EinheitVonRaumUndZeit}
 
 ###### Ort und Bewegung
 
 > {#PN260} PN&#167;260 Der Raum ist in sich selbst der Widerspruch des gleichg&#252;ltigen Auseinanderseins und der unterschiedlosen Kontinuit&#228;t, die reine Negativit&#228;t seiner selbst und das &#220;bergehen zun&#228;chst in die Zeit. Ebenso ist die Zeit, da deren in Eins zusammengehaltene entgegengesetzte Momente sich unmittelbar aufheben, das unmittelbare Zusammenfallen in die Indifferenz, in das ununterschiedene Au&#223;ereinander oder den Raum. So ist an diesem die negative Bestimmung, der ausschlie&#223;ende Punkt, nicht mehr nur an sich dem Begriffe nach, sondern gesetzt und in sich concret durch die totale Negativit&#228;t welche die Zeit ist; -- der so konkrete Punkt ist der Ort.
 
-modern terminology here would be: [[spacetime]] [[event]]
+> Space is in itself the contradiction of the indifferent being-apart and of the difference-less continuity, the pure negativity of itself and the transformation to, first of all, time. In the same manner time -- since its opposite moments, held together in unity, immeditely sublate themselves -- is the undifferentiated being-apart or: space.
+
 
 ###### Materie und Bewegung
 
@@ -6915,7 +6918,9 @@ modern terminology here would be: [[spacetime]] [[event]]
 > This disappearance and regeneration of space in time and of time in space is motion;-- a becoming, which, however, is itself just as much immediately the identically existing unity of both, or matter.
 
 
-So [[space]] and [[time]] transmute into each other, forming a unity. The appropriate modern word for this is clearly _[[spacetime]]_. That Hegel's perspective fits well with modern [[general relativity]] has been argued in ([Wandschneider82](#Wandschneider82)).
+So [[space]] and [[time]] transmute into each other, this dynamics being the becoming of [[matter]]. 
+
+The appropriate modern term for the unity of space and time is, clearly, _[[spacetime]]_. That Hegel's perspective fits well with modern [[general relativity]] has been argued in ([Wandschneider82](#Wandschneider82)).
 
 Moreover, this unity of space and time in spacetime is [[matter]] and by [PN&#167;26d](#PN26d) it is matter _with_ the [[forces]] acting on it included. This is very much the perspective of the modern concept of _[[Kaluza-Klein compactification]]_ in which theories of pure ([[supergravity]]-)[[gravity]] give rise to matter and forces depending on how parts of spacetime take certain shape. For instance [[model (physics)|models]] such as the [[G2-MSSM]] are theories of pure gravity (in this case [[11d supergravity]]) taking shape in the form of a [[KK-compactification]] on a [[G2-manifold]] [[fiber bundle]], and all the [[matter]] (and [[force]] field) content of the [[standard model of particle physics]] arises from just this (super-)geometry.
 
