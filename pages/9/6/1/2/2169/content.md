@@ -135,6 +135,13 @@ The [[automorphism groups]] of the real normed division algebras, as [[normed al
 
 * $Aut(\mathbb{O}) = G_2$, the [[exceptional Lie group]] [[G2]].
 
+Incidentally, there is a sense in which this sequence of groups continues, with the [[infinity-group]] [[G3]] (the [[Dwyer-Wilkerson H-space]]):
+
+| $n=$ | 1 | 2 | 3 | 4 | 
+|--|--|--|--|--|
+| $DI(n)=$ | [[Z/2]] | [[SO(3)]] | [[G2]] | [[G3]] |
+|          | [= Aut(C)](complex+number#AutomorphismsOfComplexNumbersIsZ2)        | [= Aut(H)](quaternion#AutomorphismsOfQUatrnionsAlgebraIsSO3)       |  [= Aut(O)](octonion#AutomorphismsOfOctonionAlgebraIsG2)  |   |
+
 ### Relation to H-space structures on sphere (Hopf invariant one)
 
 The [[Hopf invariant one theorem]] says that the [[spheres]] carrying [[H-space]] structure are precisely the unit spheres in one of the normed division algebras
