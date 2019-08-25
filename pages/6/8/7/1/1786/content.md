@@ -39,21 +39,35 @@ There are dual notions of $H$-counitoid (or $H'$-space, or [[co-H-space]]), $H$-
 
 ## Examples
 
+### Loop spaces
+
 The main example of an $H$-group is the [[loop space]] $\Omega X$ of a space $X$, which however is naturally even an [[A-infinity space]]. 
 
-(The main example of an [[co-H-space|H-cogroup]] in $Top_*$ is the [[suspension]] $S X= S^1\wedge X$ of a pointed topological space $X$. )
+### Suspensions
+
+The main example of an [[co-H-space|H-cogroup]] in $Top_*$ is the [[suspension]] $S X= S^1\wedge X$ of a pointed topological space $X$. 
+
+### Spheres
 
 The only [[n-spheres]] $S^n$ which have $H$-space structure are those for $n = 0,1,3,7$, and their H-space structure is given by identifying them as the unit spheres in one of the four [[normed division algebras]] ([[real numbers]], [[complex numbers]], [[quaternions]], [[octonions]]) and taking the product to be that induced by the algebra product. 
 
 An example of an H-space that does not lift to an [[A-infinity space]] is the [[7-sphere]] $S^7$. It can't be delooped because its [[delooping]] would have [[cohomology group]] a [[polynomial ring]] on a generator in degree 8, and this is impossible by mod $p$ [[Steenrod operations]] for any odd $p$, see [Lemma 2, Adams61](#Adams61). The 7-sphere is also not an $H$-group.
 
+### Mapping spaces into H-groups
+
 If $K$ is an $H$-group then for any topological space $X$, the set of [[homotopy classes]] $[X,K]$ has a natural group structure in the strict sense; analogously if $K'$ is an $H$-cogroup then $[K',X]$ has a group structure. If there is more than one $H$-group structure on a space, then the induced group structures on the set of homotopy classes coincide. 
 
 If an $H$-space is equivalent to a [[delooping|deloopable one]], then it is a [[groupoid object in an (infinity,1)-category|group object in the (∞,1)-category]] [[Top]]. In other words, in that case, the associativity and other axioms hold up to **coherent homotopy**. 
 
-For more details see at [[loop space]].
+### K-Theory space
+
 
 The [[classifying space]] $B U \times \mathbb{Z}$ for (complex) [[topological K-theory]] is an H-ring space (p. 205 (213 of 251) in _[[A Concise Course in Algebraic Topology]]_.)
+
+### Dwyer-Wilkerson space
+
+See at _[[Dwyer-Wilkerson H-space]]_
+
 
 ## Properties
 
