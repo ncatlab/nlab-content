@@ -983,9 +983,9 @@ In special dimensions supersymmetry super Lie algebras have [polyvector extensio
 ### History
  {#ReferencesHistory}
 
-The notion of [[super Poincaré Lie algebra|Poincaré supersymmetry]] was discoveted in parallel by two groups in the early 1970s (separated and isolated at that time by "Cold War" nuisances):
+The notion of [[super Poincaré Lie algebra|Poincaré supersymmetry]] was discovered in parallel by two groups in the early 1970s (separated and isolated at that time by "Cold War" nuisances):
 
-On the one hand, [[André Neveu]], [[Pierre Ramond]] and [[John Schwarz]] wrote down in 1971 the [[model (in theoretical physics)|model]] originally called the _[[spinning string]]_ -- a 2-dimensional [[quantum field theory]] with [[fermions]] -- and noticed that it just so happens to have an extra graded extension of 2-dimensional Poincar&#233; symmetry. Ever since the previously baptized [[spinning string]] became known as the _[[superstring]]_ (specifically: the _[[NSR-superstring]]_:
+On the one hand, [[André Neveu]], [[Pierre Ramond]] and [[John Schwarz]] wrote down in 1971 the [[model (in theoretical physics)|model]] originally called the _[[spinning string]]_ -- a 2-dimensional [[quantum field theory]] with [[fermions]] -- and noticed that it just so happens to have an extra graded extension of 2-dimensional Poincar&#233; symmetry. Ever since the previously baptized [[spinning string]] became known as the _[[superstring]]_ (specifically: the _[[NSR-superstring]]_):
 
 * [[André Neveu]], [[John Schwarz]], _Factorizable dual model of pions_, Nucl. Phys. B31, 86 (1971) (<a href="https://doi.org/10.1016/0550-3213(71)90448-2">doi:10.1016/0550-3213(71)90448-2</a>)
 
@@ -1021,7 +1021,7 @@ Historically the first textbook on supersymmetry was
 
 * [[Jim Gates]], M.T. Grisaru, [[Martin Roček]], [[Warren Siegel]],  _Superspace, or One thousand and one lessons in supersymmetry_, Front.Phys. 58 (1983) 1-548 ([arXiv:hep-th/0108200](https://arxiv.org/abs/hep-th/0108200))
 
-Further physics texts include
+Further physics texts:
 
 * Stephen P. Martin, _A Supersymmetry Primer_ ([arXiv:hep-ph/9709356](http://arxiv.org/abs/hep-ph/9709356))
 
@@ -1029,24 +1029,20 @@ Further physics texts include
 
 * Howard E. Haber, Laurel Stephenson Haskins, _Supersymmetric Theory and Models_ ([arXiv:1712.05926](https://arxiv.org/abs/1712.05926))
 
-More mathematical accounts include
-
-* {#Varadarajan04} [[Veeravalli Varadarajan]], _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society, Providence, R.I 2004
-
-* C. Carmeli, L. Caston, R. Fioresi, _Mathematical foundation of supersymmetry_,
-with an appendix by I. Dimitrov, EMS Series of Lectures in Mathematics (European
-Mathematical Society, Zurich, 2011)
-
-* {#Freed99} [[Daniel Freed]], _[[Five lectures on supersymmetry]]_ AMS (1999)
-
-
-also ([Deligne-Freed 99](#DeligneFreed99)).
-
-More physics-style accounts include
-
 * [[Joseph Polchinski]], appendix B of _[[String theory]]_, volume II, 
 
 * [[John Terning]], _Modern Supersymmetry_, Oxford Science Publications 
+
+More mathematical accounts:
+
+* {#Varadarajan04} [[Veeravalli Varadarajan]], _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society, Providence, R.I 2004
+
+* C. Carmeli, L. Caston, R. Fioresi, _Mathematical foundation of supersymmetry_, with an appendix by I. Dimitrov, EMS Series of Lectures in Mathematics (European Mathematical Society, Zurich, 2011)
+
+* {#Freed99} [[Daniel Freed]], _[[Five lectures on supersymmetry]]_, AMS (1999)
+
+also ([Deligne-Freed 99](#DeligneFreed99)).
+
 
 
 Discussion with an eye towards [[non-perturbative effects]] such as in [[AdS-CFT]] includes
