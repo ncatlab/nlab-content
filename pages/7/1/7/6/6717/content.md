@@ -54,3 +54,11 @@ In the [[ADE-classification]] of [[finite subgroups of SU(2)]], the group of ord
 [[!redirects cyclic group of order two]]
 [[!redirects cyclic group of order 2]]
 
+[[!redirects finite group of order 2]]
+[[!redirects finite cyclic group of order 2]]
+
+[[!redirects finite group of order two]]
+[[!redirects finite cyclic group of order two]]
+
+
+
