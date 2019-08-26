@@ -97,6 +97,8 @@ The standard example is the sequence of consecutive doubles starting with $\math
 
 ## References
 
+Named after [[Arthur Cayley]] and [[Leonard Dickson]].
+
 *  [[M M Postnikov]], _Lectures on geometry, Semester V: Lie groups and Lie algebras_, Lec. 14 (russian and english editions)
 
 * {#Baez02} [[John Baez]], _[The Cayley--Dickson construction](http://math.ucr.edu/home/baez/octonions/node5.html)_, in _[The octonions](http://math.ucr.edu/home/baez/octonions/)_, Bull. Amer. Math. Soc. 39 (2002), 145-205, [doi](http://dx.doi.org/10.1090/S0273-0979-01-00934-X)
