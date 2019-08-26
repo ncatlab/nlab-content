@@ -32,8 +32,14 @@ See also at _[[relation between compact Lie groups and reductive algebraic group
 
 ## Related concepts
 
-* [[locally compact topological group]], [[compact topological group]], [[maximal compact subgroup]]
+* [[locally compact topological group]]
+
+* [[compact topological group]]
+
+* [[maximal compact subgroup]]
 
 * [[proper Lie groupoid]]
+
+* [[p-compact group]]
 
 [[!redirects compact Lie groups]]
