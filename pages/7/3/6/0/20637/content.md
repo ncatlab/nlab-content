@@ -38,9 +38,11 @@ While $G_3$ is not a [[compact Lie group]], it is a [[p-compact group|2-compact 
 ### Cohomology
  {#Cohomology}
 
-The [[ordinary cohomology]] of the [[classifying space]]/[[delooping]] $B G_3$ with [[coefficients]] in the [[prime field]] $\mathbb{F}_2$ is, as an [[associative algebra]] over the [[Steenrod algebra]], the ring of mod 2 [[Dickson invariants]] of rank 4.
+The [[ordinary cohomology]] of the [[classifying space]]/[[delooping]] $B G_3$ with [[coefficients]] in the [[prime field]] $\mathbb{F}_2$ is, as an [[associative algebra]] over the [[Steenrod algebra]], the ring of mod 2 [[Dickson invariants]] of rank 4. This is the ring of invariants of the natural action of $GL(4, \mathbf{F}_2)$ on the rank 4 polynomial algebra $H^{\ast}((B \mathbf{Z}/2)^4, \mathbf{F}_2)$, a polynomial algebra on classes $c_8$, $c_12$, $c_14$, and $c_15$ with $Sq^4 c_8 = c_{12}$, $Sq^2 c_{12} = c_{14}$, and $Sq^1 c_{14} = c_{15}$.
 
 ([Dwyer-Wilkerson 93, Theorem 1.1](#DwyerWilkerson93))
+
+
 
 As such, $G_3$ is the last in a series of [[infinity-groups]] whose [[classifying spaces]]/[[deloopings]] have as mod 2 [[cohomology ring]] the mod 2 [[Dickson invariants]] for rank $n$, which starts with three ordinary [[compact Lie groups]]:
 
