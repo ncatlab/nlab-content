@@ -15,7 +15,7 @@
 {:toc}
 
 
-The notion of _nerve_ is part of a notion of pairs of [[adjoint functors]]. For the general abstract theory behind this see
+The _nerve_ is the right adjoint of a pair of [[adjoint functors]] that exists in many situations.  For the general abstract theory behind this see
 
 * [[nerve and realization]].
 
@@ -43,9 +43,9 @@ $$
   \,.
 $$
 
-This [[simplicial set]] is called the _nerve_ of $A$ (with respect to the chosen [[geometric realization|realization]] of the standard simplicies in $C$).
+This [[simplicial set]] is called the _nerve_ of $A$ (with respect to the chosen [[geometric realization|realization]] of the standard simplices in $C$).  Typically the nerve defines a functor $N \colon C \to Set^{\Delta^op}$ that has a left adjoint $|\cdot| \colon Set^{\Delta^op} \to C$ called [[realization]].
 
-There are various obvious generalizations of this procedure, some of which are described below.
+There are many generalizations of this procedure, some of which are described below.
 
 ## Definition ##
 
