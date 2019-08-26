@@ -17,7 +17,7 @@
 
 Consider how the [[complex numbers]] are formed from the [[real numbers]].  If generalized carefully, this kind of operation may be performed again to yield the [[quaternions]], then the [[octonions]] (hence the four real [[normed division algebra]]), then the [[sedenions]], and so on.  
 
-This is a special case of a construction which takes a real [[star-algebra]] $A$ to a new star-algebra whose elements are pairs of elements of $A$.  This operation is the __Cayley--Dickson construction__.
+This is a special case of a construction which takes a real [[star-algebra]] $A$ to a new star-algebra whose elements are pairs of elements of $A$.  This operation is the __Cayley--Dickson construction__, named after [[Arthur Cayley]] and [[Leonard Dickson]].
 
 
 
