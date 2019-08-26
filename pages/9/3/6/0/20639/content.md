@@ -7,7 +7,7 @@
 
 ## Idea
 
-(...)
+Let $q$ be a prime power, $V$ a [[vector space]] of dimension $n$ over the finite field $\mathbf{F}_q$, and $\mathbf {G L}(V)$, the group of invertible linear transformations on $V$. The ring of **Dickson invariants** is defined as $Sym(V)^{\mathbf{G L}(V)}$. It is a polynomial algebra on $n$ variables. The degrees of the generators are $q^n - q^i$ for $i=0,\dots,n-1$. 
 
 See [Wilkerson 83](#Wilkerson83).
 
