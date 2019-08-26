@@ -62,7 +62,7 @@ This means in particular that the cohomology is an [[exterior algebra]] on gener
  {#AsA2CompactGroup}
 
 $G_3$ is the only exotic 2-group, or, in other words, the only simple 
-[[p-compact group|2-compact group]] not arising as the 2-completion of a compact connected Lie group ([Bendersky-Davis 07, p. 1](#BenderskyDavis07)).
+[[p-compact group|2-compact group]] not arising as the 2-completion of a compact connected Lie group ([Andersen-Grodal 06](#AndersenGrodal06)).
 
 
 ### Weyl group
@@ -103,6 +103,9 @@ See also
 * {#BenderskyDavis07} Martin Bendersky, Donald M. Davis, _$v_1$-periodic homotopy groups of the Dwyer-Wilkerson space_ ([arXiv:0706.0993](https://arxiv.org/abs/0706.0993))
 
 * [[Andrew Baker]], [[Tilman Bauer]], _The realizability of some finite-length modules over the Steenrod algebra by spaces_ ([arXiv:1903.10288](https://arxiv.org/abs/1903.10288))
+
+* {#AndersenGrodal06} Kasper Andersen, Jesper Grodal, _The classification of 2-compact groups_, ([arXiv:math/0611437](https://arxiv.org/abs/math/0611437))
+
 
 
 [[!redirects Dwyer-Wilkerson H-sapces]]
