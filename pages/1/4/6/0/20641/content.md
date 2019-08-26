@@ -1,4 +1,4 @@
-Leonard Eugene Dickson was an American mathematician (1874-1954) best known for his work in [[algebra]] and [[number theory]].
+Leonard Eugene Dickson (1874-1954) was an American mathematician best known for his work in [[algebra]] and [[number theory]].
 
 ###Related $n$Lab entries
 
