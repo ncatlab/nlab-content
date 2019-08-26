@@ -137,10 +137,11 @@ The [[automorphism groups]] of the real normed division algebras, as [[normed al
 
 Incidentally, there is a sense in which this sequence of groups continues, with the [[infinity-group]] [[G3]] (the [[Dwyer-Wilkerson H-space]]):
 
-| $n=$ | 1 | 2 | 3 | 4 | 
-|--|--|--|--|--|
-| $DI(n)=$ | [[Z/2]] | [[SO(3)]] | [[G2]] | [[G3]] |
-|          | [= Aut(C)](complex+number#AutomorphismsOfComplexNumbersIsZ2)        | [= Aut(H)](quaternion#AutomorphismsOfQUatrnionsAlgebraIsSO3)       |  [= Aut(O)](octonion#AutomorphismsOfOctonionAlgebraIsG2)  |   |
+| $n=$ | 0 | 1 | 2 | 3 | 4 | 
+|--|--|--|--|--|--|
+| $DI(n)=$ | [[trivial group|1]] |  [[Z/2]] | [[SO(3)]] | [[G2]] | [[G3]] |
+|          | = Aut(R) | [= Aut(C)](complex+number#AutomorphismsOfComplexNumbersIsZ2)        | [= Aut(H)](quaternion#AutomorphismsOfQUatrnionsAlgebraIsSO3)       |  [= Aut(O)](octonion#AutomorphismsOfOctonionAlgebraIsG2)  |  
+
 
 ### Relation to H-space structures on sphere (Hopf invariant one)
 
