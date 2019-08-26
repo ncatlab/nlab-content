@@ -27,7 +27,7 @@ The _Dwyer-Wilkerson space_ $G_3$ ([Dwyer-Wilkerson 93](#DwyerWilkerson93)) is a
 | $DI(n)=$ | [[Z/2]] | [[SO(3)]] | [[G2]] | [[G3]] |
 |          | [= Aut(C)](complex+number#AutomorphismsOfComplexNumbersIsZ2)        | [= Aut(H)](quaternion#AutomorphismsOfQUatrnionsAlgebraIsSO3)       |  [= Aut(O)](octonion#AutomorphismsOfOctonionAlgebraIsG2)  |   |
 
-whence the notation $G_3$ (suggested by [[Jack Morava]]).
+whence the notation $G_3$ (suggested by [[Jack Morava]]). $G_3$ is the only exotic 2-group, or, in other words, the only simple 2-compact group not arising as the 2-completion of a compact connected Lie group ([Bendersky-Davis 07, p. 1](#BenderskyDavis07)).
 
 
 ## Properties
@@ -92,7 +92,7 @@ Due to
 
 See also
 
-* Martin Bendersky, Donald M. Davis, _$v_1$-periodic homotopy groups of the Dwyer-Wilkerson space_ ([arXiv:0706.0993](https://arxiv.org/abs/0706.0993))
+* {#BenderskyDavis07} Martin Bendersky, Donald M. Davis, _$v_1$-periodic homotopy groups of the Dwyer-Wilkerson space_ ([arXiv:0706.0993](https://arxiv.org/abs/0706.0993))
 
 * [[Andrew Baker]], [[Tilman Bauer]], _The realizability of some finite-length modules over the Steenrod algebra by spaces_ ([arXiv:1903.10288](https://arxiv.org/abs/1903.10288))
 
