@@ -85,7 +85,7 @@ According to the [[Benabou–Roubaud theorem]], the Chevalley condition  is cruc
 
 ### "Local" Beck--Chevalley condition {#Local}
 
-Suppose that $f^*$ and $h^*$ do not have entire left adjoints, but that for a particular object $x$ the left adjoint $f_!(x)$ exists.  This means that we have an object "$f_! x$" and a morphism $\eta_x\colon x \to f^* f_! x$ which is initial in the [[comma category]] $(x / f^*)$.  Then we have $k^*(\eta) \colon k^* x \to k^* f^* f_! x \to h^* g^* f_! x$, and we say that the square satisfies the *local Beck-Chevalley condition at $x$* if $k^*(\eta)$ is initial in the comma category $(k^* x / h^*)$, and hence exhibits $g^* f_! x$ as "$h_! k^* x$" (although we have not asumed that the entire functor $h_!$ exists).
+Suppose that $f^*$ and $h^*$ do not have entire left adjoints, but that for a particular object $x$ the left adjoint $f_!(x)$ exists.  This means that we have an object "$f_! x$" and a morphism $\eta_x\colon x \to f^* f_! x$ which is initial in the [[comma category]] $(x / f^*)$.  Then we have $k^*(\eta) \colon k^* x \to k^* f^* f_! x \to h^* g^* f_! x$, and we say that the square satisfies the *local Beck-Chevalley condition at $x$* if $k^*(\eta)$ is initial in the comma category $(k^* x / h^*)$, and hence exhibits $g^* f_! x$ as "$h_! k^* x$" (although we have not assumed that the entire functor $h_!$ exists).
 
 If the functors $f_!$ and $h_!$ do exist, then the square satisfies the (global) Beck-Chevalley condition as defined above if and only if it satisfies the local one defined here at every object.
 
