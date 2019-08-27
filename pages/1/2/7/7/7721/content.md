@@ -20,7 +20,7 @@
 ## Idea
 
 
-_Type II geometry_ is to [[Riemannian geometry]] as [[generalized complex geometry]] is to [[complex geometry]].
+_Type II geometry_ (often _doubled geometry_ as in "[[double field theory]]") is to [[Riemannian geometry]] as [[generalized complex geometry]] is to [[complex geometry]].
 
 Where the latter is the [[geometry]] induced by [[reduction of the structure group]] of the [[generalized tangent bundle]] of an even dimensional [[manifold]] along the inclusion $U(d,d) \to O(2d,2d)$ of the indefinite [[unitary group]] into the [[orthogonal group]], type II geometry is the geometry induced by reduction along the inclusion of the product of [[orthogonal group|orthogonal groups]]
 
@@ -384,6 +384,8 @@ encoded by type II geometry.
 
 ## References
 
+### General
+
 The appearance of type II geometry in [[type II supergravity]]/[[type II string theory]] is discussed for instance in
 
 * Ian Ellwood, _NS-NS fluxes in Hitchin's generalized geometry_ ([arXiv:hep-th/0612100](http://arxiv.org/abs/hep-th/0612100))
@@ -401,11 +403,49 @@ In
 
 the geometry of the reduction $O(d) \times O(d) \to O(d,d)$ was referred to as "type I geometry", with "type II geometry" instead referring to further [[U-duality]] group extensions, discussed at _[[exceptional generalized geometry]]_.
 
+### Doubled super-geometry
+  {#ReferencesDoubledSupergeometry}
+
+Much of the discussion of type II geometry has in fact been purely bosonic, ignoring the [[super-geometry]] of [[supergravity]].
+
+In contrast, discussion combining [[doubled geometry]] with [[super-geometry]] includes the following:
+
+* Machiko Hatsuda, Kiyoshi Kamimura, [[Warren Siegel]], _Superspace with manifest T-duality from type II superstring_, J. High Energ. Phys. (2014) 2014: 39 ([arXiv:1403.3887](https://arxiv.org/abs/1403.3887))
+
+* {#Bandos15} [[Igor Bandos]], _Superstring in doubled superspace_, Physics Letters B Volume 751, 17 December 2015, Pages 408-412 Physics Letters B ([arXiv:1507.07779](https://arxiv.org/abs/1507.07779))
+
+* {#Cederwall16} [[Martin Cederwall]], _Double supergeometry_, J. High Energ. Phys. (2016) 2016: 155 ([arXiv:1603.04684](https://arxiv.org/abs/1603.04684))
+
+* Bojan Nikolić, Branislav Sazdović, _T-dualization of type II superstring theory in double space_, Eur. Phys. J. C77 (2017) no.3, 197 ([arXiv:1505.06044](https://arxiv.org/abs/1505.06044))
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 6 of: _[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]_, [ATMP Volume 22 (2018) Number 5](http://www.intlpress.com/site/pub/pages/journals/items/atmp/content/vols/0022/0005/) ([arXiv:1611.06536](https://arxiv.org/abs/1611.06536))
+
+* Bojan Nikolić, Branislav Sazdović, _Advantage of the second-order formalism in double space T-dualization of type II superstring_ ([arXiv:1907.03571](https://arxiv.org/abs/1907.03571))
 
 
-The above formulation in terms of [[twisted smooth cohomology in string theory|twisted smooth cohomology]] is discussed in section 5 of
 
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+See also the references on the corresponding [[super-geometry]]-enhancement of [[exceptional generalized geometry]]: _[Super-exceptional geometry -- References](exceptional+generalized+geometry#SuperExceptionalGeometryReferences)_
+
+
 
 [[!redirects type II geometries]]
+
+
+[[!redirects double geometry]]
+[[!redirects doubled geometry]]
+
+[[!redirects double geometries]]
+[[!redirects doubled geometries]]
+
+[[!redirects double supergeometry]]
+[[!redirects double supergeometries]]
+[[!redirects double super-geometry]]
+[[!redirects double super-geometries]]
+
+[[!redirects doubled supergeometry]]
+[[!redirects doubled supergeometries]]
+[[!redirects doubled super-geometry]]
+[[!redirects doubled super-geometries]]
+
+
 
