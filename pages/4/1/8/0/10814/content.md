@@ -24,7 +24,7 @@
 
 ## Idea
 
-The term _double field theory_ has come to be used for [[field theory]] ([[prequantum field theory]]/[[quantum field theory]]) on [[spacetimes]] which are [[T-folds]] hence for "[[T-duality]]-[[equivariance|equivariant]] field theory".
+The term _double field theory_ has come to be used for [[field theory]] ([[prequantum field theory]]/[[quantum field theory]]) on [[spacetimes]] which are [[T-folds]] ([[doubled geometries]]) hence for "[[T-duality]]-[[equivariance|equivariant]] field theory".
 
 ## T-duality-covariant formalism 
 ### Para-hermitian geometry
@@ -161,9 +161,12 @@ Similarly in DFT, when $M$ is an (integrable) para-hermitian manifold we make a 
 
 ## Related concepts
 
+* [[doubled geometry]], [[generalized geometry]], [[exceptional generalized geometry]]
+
 * [[exceptional field theory]]
 
 * [[T-fold]]
+
 
 ## References
 
