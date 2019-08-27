@@ -96,7 +96,7 @@ The [[ordinary cohomology]] with [[coefficients]] in the [[prime field]] $\mathb
 
 ### Relation to the Conway group, $Co_3$
 
-$B G_3$ receives a homomorphism from $B Co_3$, the delooping of the [[Conway group]], $Co_3$. This map has the property that it injects the mod two cohomology of $B G_3$ as a subring over which the mod two cohomology of $B Co_3$ is finitely generated as a module (see [Benson 94](#Benson94)).
+$B G_3$ receives a map from $B Co_3$, the [[delooping]] of the [[Conway group]], $Co_3$. This map has the property that it injects the mod two cohomology of $B G_3$ as a subring over which the mod two cohomology of $B Co_3$ is finitely generated as a module (see [Benson 94](#Benson94)).
 
 ## Related concepts
 
@@ -130,6 +130,11 @@ See also
 
 * {#Benson94} David Benson, _Conway’s group $Co_3$ and the Dickson invariants_, Manuscripta Math (1994) 85: 177.
 
+Speculation on possible geometric roles of $G_3$:
+
+* {#Wilson09} [[Robert Wilson]], Slide 94 of: _A new approach to the Leech lattice_, talk at University of Cambridge, 21st October 2009 ([slides pdf](http://www.maths.qmul.ac.uk/~raw/talks_files/Cambridge09.pdf))
+
+  (on an [[octonions|octonionic]] construction of the [[Leech lattice]])
 
 
 [[!redirects Dwyer-Wilkerson H-spaces]]
