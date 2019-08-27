@@ -23,7 +23,9 @@ A **strong monomorphism** in a [[category]] $C$ is a [[monomorphism]] which is r
 
 * If $C$ has [[coequalizers]], then any morphism which is right orthogonal to epimorphisms must automatically be a monomorphism.
 
-* Every [[regular monomorphism]] is strong.
+* If $C$ has [[kernel pairs]] and [[coequalizers]] of kernel pairs, then any morphism which is right orthogonal to epimorphisms must automatically be a monomorphism.
+
+* Every [[regular monomorphism]] is strong. The converse is true if $C$ is [[regular category| co-regular]].
 
 * Every strong monomorphism is [[extremal monomorphism|extremal]]; the converse is true if $C$ has [[pushouts]].
 
@@ -32,6 +34,12 @@ A **strong monomorphism** in a [[category]] $C$ is a [[monomorphism]] which is r
 ## Examples 
 
 * A nice example of strong monomorphisms in a category are the subspace inclusions in the category of [[diffeological spaces]].  In this setting, any subset $Y$ of a diffeological space $X$ is again a diffeological space.  If smooth, the inclusion $\iota:Y \rightarrow X$ is always a monomorphism, but it is a strong monomorphism if and only if $Y$ has "enough" plots, that is if $\varphi: U\rightarrow Y$ is a plot if and only if the composite $\iota\varphi: U\rightarrow X$ is a plot.
+
+* Let $C$ be the category whose objects are the integers $\mathbf{Z}$, and whose morphisms are generated from arrows
+$$ s_i, t_i : i \to i+1 $$ 
+subject to the relations
+$$ s\circ s = s\circ t = t\circ s = t\circ t.$$
+Then the only epimorphisms and monomorphisms in $C$ are the identities, thus every map is right orthogonal to all epimorphisms but only the identities are strong monomorphisms.
 
 ## Properties
 
