@@ -20,9 +20,9 @@
 
 ## Idea
 
-The Mathieu groups, denoted $M_{11}$, $M_{12}$, $M_{22}$, $M_{23}$ and $M_{24}$ are four of the [[sporadic finite simple groups]] in the [[Happy Family]]. They were first described in the 1860-70s by &#201;mile Mathieu, and the first such groups to be discovered.
+The Mathieu groups, denoted $M_{11}$, $M_{12}$, $M_{22}$, $M_{23}$ and $M_{24}$ are five of the [[sporadic finite simple groups]] in the [[Happy Family]]. They were first described in the 1860-70s by &#201;mile Mathieu, and the first such groups to be discovered.
 
-The [[order of a group|orders]] of the groups are as follows:
+They arise as the [[automorphism groups]] of [[Steiner systems]]. The [[order of a group|orders]] of the groups are as follows:
 
 * $M_{11}$ - 7920;
 * $M_{12}$ - 95040;
