@@ -132,7 +132,7 @@ See also
 
 Speculation on possible geometric roles of $G_3$:
 
-* {#Wilson09} [[Robert Wilson]], Slide 94 of: _A new approach to the Leech lattice_, talk at University of Cambridge, 21st October 2009 ([slides pdf](http://www.maths.qmul.ac.uk/~raw/talks_files/Cambridge09.pdf))
+* {#Wilson09} [[Robert A. Wilson]], Slide 94 of: _A new approach to the Leech lattice_, talk at University of Cambridge, 21st October 2009 ([slides pdf](http://www.maths.qmul.ac.uk/~raw/talks_files/Cambridge09.pdf))
 
   (on an [[octonions|octonionic]] construction of the [[Leech lattice]])
 
