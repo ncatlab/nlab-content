@@ -18,6 +18,10 @@ On [[type II supergravity]]:
 
 * {#BNS04} [[Igor Bandos]], [[Alexei Nurmagambetov]], [[Dmitri Sorokin]], _Various Faces of Type IIA Supergravity_, Nucl. Phys. B676 (2004) 189-228 ([arXiv:hep-th/0307153](https://arxiv.org/abs/hep-th/0307153))
 
+On [[double supergeometry]]:
+
+* {#Bandos15} [[Igor Bandos]], _Superstring in doubled superspace_, Physics Letters B Volume 751, 17 December 2015, Pages 408-412 Physics Letters B ([arXiv:1507.07779](https://arxiv.org/abs/1507.07779))
+
 On [[super-exceptional generalized geometry]]:
 
 * {#Bandos16} [[Igor Bandos]], _Exceptional field theories, superparticles in an enlarged 11D superspace and higher spin theories_, Nucl. Phys. B925 (2017) 28-62 ([arXiv:1612.01321](https://arxiv.org/abs/1612.01321))
