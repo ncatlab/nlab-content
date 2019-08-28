@@ -248,7 +248,7 @@ and let
   }
 \]
 
-be given componentwise by the identity on $\mathbb{C}^2$ and by multiplication with some fixed non-vanishing number on $V$.
+be given componentwise by the identity on $\mathbb{C}$ and by multiplication with some fixed non-vanishing number on $V$.
 
 Then the [[subgroup]] of the [[Jordan algebra]] [[automorphism]] group $Aut\left(Mat_{3\times 3}^{herm}(\mathbb{O}), \circ \right) \;\simeq\; F_4$ (Prop. \ref{JordanAutomorphisms}) of elements that commute with $w$ (eq:ComponentwiseiFixingAutomorphism)
 
@@ -271,7 +271,7 @@ $$
   \,,
 $$
 
-where every element in the [[product group]] of the [[special unitary group]] with itself
+where every element in the [[direct product group]] of [[SU(3)]] with itself
 
 $$
   (A, B) \in SU(3) \times SU(3)
@@ -392,7 +392,7 @@ where the [[quotient group|quotient]] is by the [[cyclic group|cyclic]] [[subgro
 
 This was claimed without proof in [Dubois-Violette & Todorov 18](#DuboisVioletteTodorov18).
 
-\begin{proof} By Prop. \ref{JordanAlgebraAutomorphismsFixingAnImaginaryOctonion} (eq:MatrixMultiplicationRepresentationOfiFixingJordanAutomorphism) it is clear that the subgroup in question is that represented by those [[pairs]] $(A,B) \in SU(3) \times SU(3)$ for which $A$ is $(1 + 2)$-block diagonal. Such matrices $A$ form the [[subgroup]] of $SU(3)$ of [[matrices]] that may be written in the form
+\begin{proof} By Prop. \ref{JordanAlgebraAutomorphismsFixingAnImaginaryOctonion} (eq:MatrixMultiplicationRepresentationOfiFixingJordanAutomorphism) it is clear that the subgroup in question is that represented by those [[pairs]] $(A,B) \in SU(3) \times SU(3)$ for which $A$ is $(1 + 2)$-block diagonal. Such matrices $A$ form the [[subgroup]] of [[SU(3)]] of [[matrices]] that may be written in the form
 
 $$
   diag\left(
@@ -400,7 +400,7 @@ $$
   \right)
 $$
 
-for $c \in U(1)$ and $\mathbf{\sigma} \in SU(2)$. The [[kernel]] of the [[group homomorphism]]
+for $c \in U(1)$ and $\mathbf{\sigma} \in $ [[SU(2)]]. The [[kernel]] of the [[group homomorphism]]
 
 \[
   \label{IdentifyingU1SU2inSU3}
