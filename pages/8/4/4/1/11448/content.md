@@ -49,6 +49,13 @@ $$
   }
 $$
 
+<center>
+<img src="https://ncatlab.org/nlab/files/OrientifoldLocalTadpoleCancellation.jpg" width="520">
+</center>
+
+> table from [BLT 13](#BlumenhagenLustTheisen13)
+
+
 ## Properties
 
 ### Tadpole cancellation and $SO(32)$-GUT in Type I
@@ -158,7 +165,9 @@ $$
 
 ### General
 
-* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 4.4.3 of of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 4.4.3 of: _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
+
+* {#BlumenhagenLustTheisen13} [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], Section 9.4 and 10.6 of: _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics, Springer 2013
 
 Relation to [[M-theory]] (via [[Horava-Witten theory]]):
 
