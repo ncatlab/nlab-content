@@ -16,7 +16,7 @@
 
 ## Idea
 
-The [[standard model of particle physics]] has the curious property that its content of [[fermions]] appears in three sets of particles that share all properties except that their [[rest mass]] increases drastically from one set to the next. These are called the three "generations" of fermionic particles.
+The [[standard model of particle physics]] has the curious property that its content of [[fermions]] appears in three sets of particles that share all properties except that their [[rest mass]] increases drastically from one set to the next. These are called the three "generations" "families" of fermionic particles.
 
 The first generation contains the
 
@@ -36,6 +36,8 @@ One suggestion to explain this phenomenon appears in [[intersecting D-brane mode
 ## Related concepts
 
 * [[flavour anomaly]]
+
+* [[fourth generation of fundamental particles]]
 
 ## References
 
@@ -62,3 +64,11 @@ On [[model (in theoretical physics)|model building]] with realistic [[Yukawa cou
 
 [[!redirects generation of fermions]]
 [[!redirects generations of fermions]]
+
+[[!redirects family of fundamental particles]]
+[[!redirects families of fundamental particles]]
+
+[[!redirects family of fermions]]
+[[!redirects families of fermions]]
+
+
