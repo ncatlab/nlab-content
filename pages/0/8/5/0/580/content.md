@@ -5,16 +5,14 @@
 
 ## Definition
 
-An __extremal epimorphism__ (also sometimes called a _[[cover]]_) in a [[category]] $C$ is a [[morphism]] $e$ such that if $e = m \circ g$ where $m$ is a [[monomorphism]], then $m$ is an [[isomorphism]].
+An __extremal epimorphism__ (also sometimes called a _[[cover]]_) in a [[category]] $C$ is an [[epimorphism]] $e$ such that if $e = m \circ g$ where $m$ is a [[monomorphism]], then $m$ is an [[isomorphism]].
 
-The dual notion is an __extremal monomorphism__: a morphism $m$ such that if $m = g \circ e$ where $e$ is an [[epimorphism]], then $e$ is an isomorphism.
-
-Despite the terminology, it is not necessarily true that an extremal epimorphism is in fact an [[epimorphism]], so sometimes this is required as well (and dually for extremal monomorphisms).  On the other, this does often follow, as in the first remark below.
+The dual notion is an __extremal monomorphism__: a monomorphism $m$ such that if $m = g \circ e$ where $e$ is an [[epimorphism]], then $e$ is an isomorphism.
 
 
 ## Remarks
 
-* If $C$ has all [[equalizers]], then any extremal epimorphism must actually be an [[epimorphism]].
+* If $C$ has all [[equalizers]], then the assumption that $e$ is an epimorphism is redundant in the definition -- in this case any morphism admitting no non-trivial factorizations through monomorphisms is automatically epic.
 
 * Any [[strong epimorphism]] is extremal.  The converse is true if $C$ has all [[pullbacks]].
 
