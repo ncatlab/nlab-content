@@ -55,8 +55,13 @@ The charge of the [[spacetime]]-filling $O9$-plane of plain [[type I string theo
 
 (e.g. [Blumenhagen-Lüst-Theisen 13 (9.83)](#BlumenhagenLustTheisen13)).
 
++-- {: .num_remark #ContingOfDBranesOnOrientifolds}
+###### Remark
+**counting of D-branes on orientifolds**
 
-**Beware** that there is some convention involved in assigning an absolute value of unit D-brane charge $q_{D9}$. A common choice in the literature is to mean by "one D-brane" one of the two pre-images on the [[covering space]], in which case its obsolute charge is to be 
+Beware that there is some convention involved in assigning an absolute value of unit D-brane charge $q_{D9}$. A common choice in the literature is to mean by "one D-brane" one of the two pre-images on the [[covering space]], in which case its obsolute charge is to be 
+
+
 
 \[
   \label{DBraneChargeOnOrbifold}
@@ -65,10 +70,14 @@ The charge of the [[spacetime]]-filling $O9$-plane of plain [[type I string theo
    1/2
 \]
 
-(e.g. [BDHKMMS 01, p. 46-47](#BDHKMMS01))
+(e.g. [BDHKMMS 01, p. 46-47](#BDHKMMS01)). From [BLT 13, p. 318](#BlumenhagenLustTheisen13):
+
+<img src="https://ncatlab.org/nlab/files/DBraneCountingOnOrientifoldsI.jpg" width="500"/>
 
 
-This means that [[RR-field tadpole cancellation]] here requires the presence of 32 [[D-branes]] (or rather: 16 and their $\mathbb{Z}_2$-mirror images), hence a space-filling [[D9-brane]] with [[Chan-Paton bundle]] of [[rank of a vector bundle|rank]] $32$, corresponding to a [[gauge group]] [[SO(32)]]. For more on this see at _[[type I string theory]] -- [Tadpole cancellation and SO(32)-GUT](type+I+string+theory#TadpoleCancellationAndSO32GUT)_.
+=--
+
+This means that [[RR-field tadpole cancellation]] here requires the presence of 32 [[D-branes]] (or rather, by Remark \ref{ContingOfDBranesOnOrientifolds}: 16 and their $\mathbb{Z}_2$-mirror images), hence a space-filling [[D9-brane]] with [[Chan-Paton bundle]] of [[rank of a vector bundle|rank]] $32$, corresponding to a [[gauge group]] [[SO(32)]]. For more on this see at _[[type I string theory]] -- [Tadpole cancellation and SO(32)-GUT](type+I+string+theory#TadpoleCancellationAndSO32GUT)_.
 
 
 From this the O$p^-$-brane charge for $p \leq n$ follows from [[T-duality]] (as [above](#TDualityWithTypeIStringTheory))
