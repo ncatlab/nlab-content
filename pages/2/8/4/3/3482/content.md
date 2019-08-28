@@ -40,12 +40,13 @@ Precisely, $WISC$ is the statement that for any [[set]] $X$, the [[full subcateg
 * WISC implies (in [[ZF]]) that there exist arbitrarily large [[regular cardinals]].  Therefore, WISC is not provable in ZF, as Moti Gitik constructed a model of ZF with only one regular cardinal, using large cardinal assumptions. A proof without large cardinals was given in  ([Karagila](#Karagila14)).
 
 
-## Relation to local smallness of anafunctor categories
+### Applications
 
+#### Local smallness of anafunctor categories
 
 +-- {: .num_prop} 
 ######Proposition
-WISC implies the local essential smallness of $Cat_ana$.
+WISC implies the local essential smallness of $Cat_ana$, the bicategory of categories and [[anafunctors]].
 =-- 
 
 +-- {: .proof} 
@@ -64,6 +65,10 @@ $$
 $$
 where $X[V] \to X$ is the canonical fully faithful functor arising from $V\to X_0$ (the arrows of $X[V]$ are given by $V^2 \times_{X_0^2} X_1$). This gives rise to a transformation from $(j,f)$ to a span with left leg $k$. Thus $Cat_{ana}(X,Y)$ is equivalent to the [[full subcategory]] of anafunctors where the left leg has as object component an element of the weakly initial set of surjections. Since there is only a set of functors $X[V] \to Y$ for each $V\to X_0$, this subcategory is small.
 =--
+
+#### Existence of higher inductive types
+
+[Swan](#Swan18) showed that WISC implies the existence of [[W-types with reductions]], a kind of simple [[higher inductive type]].
 
 
 ## In other sites - external version
@@ -93,28 +98,26 @@ Given a site $(C,J)$ with $J$ subcanonical, and $C$ finitely complete, we can de
 
 ## In other categories - internal version
 
-To consider an _internal_ version of WISC, which doesn't refer to an external notion of set, one needs to assume that the ambient category $C$ has a strong enough [[internal logic]], such as a pretopos (this is the context in which van den Berg and Moerdijk work). Then the ordinary statement of WISC in set can be written in the internal logic, using the [[stack semantics]], as a statement about the objects and arrows of $C$. It is in this form that WISC is useful as a replacement choice principle in intuitionistic, constructive or predicative set theory, as these are modelled on various topos-like categories (or in the case of van den Berg and Moerdijk, a [[algebraic set theory|category of classes]], although this is not necessary for the approach).
+To consider an _internal_ version of WISC, which doesn't refer to an external notion of set, one needs to assume that the ambient category $C$ has a strong enough [[internal logic]], such as a pretopos (this is the context in which van den Berg and Moerdijk work). Then the ordinary statement of WISC in set can be written in the internal logic, using the [[stack semantics]], as a statement about the objects and arrows of $C$. It is in this form that WISC is useful as a replacement choice principle in intuitionistic, constructive or predicative set theory, as these are modelled on various topos-like categories (or in the case of [van den Berg and Moerdijk](#vdBM12), a [[algebraic set theory|category of classes]], although this is not necessary for the approach).
 
+Importantly, the internal form of WISC is stable under many more categorical constructions than other forms of choice.  For instance, any [[Grothendieck topos]] or [[realizability topos]] inherits WISC from its base topos of sets (even if the latter is constructive or even predicative); see [van den Berg](#vdBerg12).  This is in contrast to nearly all other choice principles, including weaker forms such as [[COSHEP]] and [[SVC]], which fail in at least some Grothendieck toposes even when the base is a model of ZFC.
 
 ## References
 
-* [[Benno van den Berg]], [[Ieke Moerdijk]], *The Axiom of Multiple Choice and Models for Constructive Set Theory*, [arXiv](http://arxiv.org/abs/1204.4045).  In this paper WISC is called the "axiom of multiple choice".
+* {#vdBM12} [[Benno van den Berg]], [[Ieke Moerdijk]], *The Axiom of Multiple Choice and Models for Constructive Set Theory*, [arXiv](http://arxiv.org/abs/1204.4045).  In this paper WISC is called the "axiom of multiple choice".
 
 * [[Thomas Streicher]], *Realizability Models for $CZF + \neg Pow$*, [unpublished note](http://www.mathematik.tu-darmstadt.de/~streicher/CIZF/rmczfnp.pdf).  In this note WISC is called $TTCA_f$ ($TTCA$ stands for "type-theoretic collection axiom).
 
 * [[Benno van den Berg]], *WISC is independent from ZF*, [PDF](http://www.staff.science.uu.nl/~berg0002/papers/WISC.pdf)
 
-In 
+* {#vdBerg12} [[Benno van den Berg]], _Predicative toposes_ ([arXiv:1207.0959](http://arxiv.org/abs/1207.0959)).  In this paper WISC is called the "axiom of multiple choice".
 
-* [[Benno van den Berg]], _Predicative toposes_ ([arXiv:1207.0959](http://arxiv.org/abs/1207.0959)){#vdBerg}
+* {#Swan18} [[Andrew Swan]], *W-Types with Reductions and the Small Object Argument*, 2018, [arxiv:1802.07588](https://arxiv.org/abs/1802.07588)
 
-WISC is called the "axiom of multiple choice".
-
-The following two papers give models of set theory (without large cardinals) in which WISC fails
+The following two papers give models of set theory (without large cardinals) in which WISC fails.
 
 * {#Karagila14} Asaf Karagila, *Embedding Orders Into Cardinals With $DC_\kappa$*, Fund. Math. 226 (2014), 143-156, doi:[10.4064/fm226-2-4](http://dx.doi.org/10.4064/fm226-2-4), [arXiv:1212.4396](http://arxiv.org/abs/1212.4396).
 {#Karagila}
-
 
 * {#Roberts15} [[David Roberts]], _The weak choice principle WISC may fail in the category of sets_, [Studia Logica](http://link.springer.com/journal/11225) Volume 103 (2015) Issue 5, pp 1005-1017, doi:[10.1007/s11225-015-9603-6](http://dx.doi.org/10.1007/s11225-015-9603-6) [arXiv:1311.3074](http://arxiv.org/abs/1311.3074)
 
