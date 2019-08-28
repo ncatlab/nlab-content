@@ -149,6 +149,11 @@ Discussion in [[string theory]]:
 
 * {#Sen97} [[Ashoke Sen]], _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001,1997 ([arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123))
 
+* [[Paul Aspinwall]], [[David Morrison]], _Point-like Instantons on K3 Orbifolds_,  Nucl. Phys. B503 (1997) 533-564 ([arXiv:hep-th/9705104](https://arxiv.org/abs/hep-th/9705104))
+
+* [[Kenneth Intriligator]], _New String Theories in Six Dimensions via Branes at Orbifold Singularities_, Adv. Theor. Math. Phys.1:271-282, 1998 ([arXiv:hep-th/9708117](https://arxiv.org/abs/hep-th/9708117))
+
+
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6.3.3 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
 For more seet at _[[M-theory on G2-manifolds]]_ the section [Orbifold singularities](M-theory+on%20G2-manifolds#EnhancedGaugeGroups)
