@@ -94,6 +94,16 @@ Discussion of [[leptoquarks]] in $SO(10)$-models possibly explaining the [[flavo
 
 \linebreak
 
+### The $Spin(16), Spin(18)$-GUT (known as "$SO(16), SO(18)$")
+ {#TheGUTKnownAsSO16}
+
+[Wilczek-Zee 82](#WilczekZee82), [Senjanovic-Wilczek-Zee 84](#SenjanovicWilczekZee84), [Martínez-Melfo-Nesti-Senjanovic 11](#MartínezMelfoNestiSenjanovic11)
+
+See also [di Lucio 11, p. 44](#diLucio11)
+
+Predicts [[fourth generation of fermions]]...
+
+
 ### Exceptional series GUTs
 
 This way, the most studied choices of GUT-groups $G$ are [[special unitary group|SU(5)]], [[spin group|Spin(10)]] (in the physics literature often referred to as [[special orthogonal group|SO(10)]]) and [[E6]] (review includes [Witten 86, sections 1 and 2](#Witten86)). 
@@ -156,6 +166,7 @@ Discussion of [[string phenomenology]] of [[intersecting D-brane models]] [[KK-c
 
 * [[Connes-Lott-Chamseddine-Barrett model]]
 
+
 ## References 
  {#References}
 
@@ -168,9 +179,6 @@ Original articles include
 
 * {#GeorgiGlashow74} [[Howard Georgi]], [[Sheldon Glashow]], _Unity of All Elementary-Particle Forces_, Phys. Rev. Lett. 32, 438, 1974 ([doi:10.1103/PhysRevLett.32.438](https://doi.org/10.1103/PhysRevLett.32.438))
 
-* {#GellMann83} [[Murray Gell-Mann]], introductory talk at _[Shelter Island II](https://en.wikipedia.org/wiki/Shelter_Island_Conference)_, 1983 ([[Gell-Mann_ShelterIslandII_1983.pdf:file]]) 
-
-  in: _Shelter Island II: Proceedings of the 1983 Shelter Island Conference on Quantum Field Theory and the Fundamental Problems of Physics_. MIT Press. pp. 301&#8211;343. ISBN 0-262-10031-2.
 
 See also
 
@@ -178,9 +186,23 @@ See also
 
 * Wikipedia, _[Grand unification energy](https://en.wikipedia.org/wiki/Grand_unification_energy)_
 
-An original article with an eye towards [[supergravity]] unification is
+Discussion with an eye towards [[supergravity]] unification:
 
-* [[Murray Gell-Mann]], [[Pierre Ramond]], Richard Slansky, _Complex Spinors and Unified Theories_, Supergravity, [[Peter van Nieuwenhuizen]] and D.Z. Freedman, eds, North Holland Publishing Co, 1979, reprinted as [arXiv:1306.4669](http://arxiv.org/abs/1306.4669)
+* {#GellMann83} [[Murray Gell-Mann]], introductory talk at _[Shelter Island II](https://en.wikipedia.org/wiki/Shelter_Island_Conference)_, 1983 ([[Gell-Mann_ShelterIslandII_1983.pdf:file]]) 
+
+  in: _Shelter Island II: Proceedings of the 1983 Shelter Island Conference on Quantum Field Theory and the Fundamental Problems of Physics_. MIT Press. pp. 301&#8211;343. ISBN 0-262-10031-2.
+
+
+* [[Murray Gell-Mann]], [[Pierre Ramond]], Richard Slansky, _Complex Spinors and Unified Theories_, Supergravity, [[Peter van Nieuwenhuizen]] and D.Z. Freedman, eds, North Holland Publishing Co, 1979, (reprinted as [arXiv:1306.4669](http://arxiv.org/abs/1306.4669))
+
+Discussion of [[Spin(16)]]-[[grand unified theories]] (traditionally called "SO(16)" GUT):
+
+* {#WilczekZee82} [[Frank Wilczek]], [[Anthony Zee]], _Families from spinors_, Phys. Rev. D 25, 553 (1982) ([doi:10.1103/PhysRevD.25.55310.1103/PhysRevD.25.553](https://doi.org/10.1103/PhysRevD.25.553))
+
+* {#SenjanovicWilczekZee84} Goran Senjanović, [[Frank Wilczek]], [[Anthony Zee]], _Reflections on mirror fermions_,  Physics Letters B Volume 141, Issues 5–6, 5 July 1984, Pages 389-394 Physics Letters B (<a href="https://doi.org/10.1016/0370-2693(84)90269-7">doi:10.1016/0370-2693(84)90269-7</a>)
+
+* {#MartínezMelfoNestiSenjanovic11} Homero Martínez, Alejandra Melfo, Fabrizio Nesti, Goran Senjanović, _Three Extra Mirror or Sequential Families: a Case for Heavy Higgs and Inert Doublet_, Phys. Rev. Lett.106:191802, 2011 ([arXiv:1101.3796](https://arxiv.org/abs/1101.3796))
+
 
 A basic textbook account is in
 
@@ -190,6 +212,9 @@ and a detailed one is in
 
 * A. Hebecker, J. Hisano, _Grand Unified Theories_, chapter 114. in Particle Data Group's _[The Review of Particle Physics](http://pdg.lbl.gov/2018/)_ 2018 ([pdf](http://pdg.lbl.gov/2018/reviews/rpp2018-rev-guts.pdf))
 
+See also 
+
+* {#diLucio11} Luca di Lucio, _Aspects of Symmetry Breaking inGrand Unified Theories_, 2011 ([pdf](https://www.sissa.it/tpp/phdsection/AlumniThesis/Luca%20Di%20Luzio.pdf))
 
 Survey of arguments for the hypothesis of grand unification includes
 
