@@ -40,6 +40,15 @@ These are the smallest [[non-abelian groups]].
 
 ## References
 
+For $D_6$:
+
+* group names, _[S3](https://people.maths.bris.ac.uk/~matyd/GroupNames/1/S3.html)_
+
+
+For $2 D_6$
+
+* group names, _[Dic3](https://people.maths.bris.ac.uk/~matyd/GroupNames/1/Dic3.html)_
+
 See also 
 
 * Wikipedia, _[Dihedral group of order 6](https://en.wikipedia.org/wiki/Dihedral_group_of_order_6)_
