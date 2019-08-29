@@ -13,6 +13,7 @@
 * table of contents
 {: toc}
 
+
 ## Definition
 
 A __simple Lie group__ is a non-[[abelian group|abelian]] [[connected space|connected]] [[Lie group]] $G$ with no nontrivial [[connected space|connected]] [[normal subgroups]].
@@ -34,6 +35,12 @@ The classification of simple Lie groups consists of four infinite series -- the 
 
 See Wikipedia\'s [list of simple Lie groups](http://en.wikipedia.org/wiki/List_of_simple_Lie_groups).
 
+<center>
+<img src="http://jakobschwichtenberg.com/wp-content/uploads/2016/10/dynkinclassification.jpg">
+</center>
+
+> graphics grabbed from [Schwichtenberg](http://jakobschwichtenberg.com/classification-of-simple-lie-groups/)
+
 See also at _[[ADE classification]]_
 
 ## Examples
@@ -54,4 +61,6 @@ See also
 
 [[!redirects simple Lie group]]
 [[!redirects simple Lie groups]]
+
+[[!redirects classification of simple Lie groups]]
 
