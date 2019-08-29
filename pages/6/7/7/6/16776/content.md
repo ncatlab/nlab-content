@@ -5,7 +5,7 @@
 
 ## Idea
 
-A _dihedron_ is a degenerate [[Platonic solid]] with only two (identical) faces, which can be any [[polygon]] (including possibly the degenerate 2-gon, which would make the dihedron very degenerate!)
+A _dihedron_ is a degenerate [[Platonic solid]] with only two (identical) faces, which may be any [[regular polygon]] (including possibly the degenerate [[bigon]], which would make the dihedron very degenerate!)
 
 
 [[!include ADE -- table]]
