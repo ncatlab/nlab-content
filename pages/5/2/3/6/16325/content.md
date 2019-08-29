@@ -15,7 +15,7 @@ on the [[theory (physics)|theory]] of [[Einstein gravity]] ([[general relativity
 
 ## References
 
-* Wikipediam _[Gravitation (book)](http://en.wikipedia.org/wiki/Gravitation_%28book%29)_
+* Wikipedia _[Gravitation (book)](http://en.wikipedia.org/wiki/Gravitation_%28book%29)_
 
 category: reference
 
