@@ -3,7 +3,7 @@
 * table of contents
 {:toc}
 
-In [[computer science]], originally in database theory, **lenses** are used in situations where some structure is converted to a different form -- a *view* -- in such a way that changes made to the view can be reflected as updates to the original structure. The same construction has been devised on numerous occasions ([Hedges](#Hedges)).
+In [[computer science]], originally in [[database theory]], **lenses** are used in situations where some structure is converted to a different form -- a *view* -- in such a way that changes made to the view can be reflected as updates to the original structure. The same construction has been devised on numerous occasions ([Hedges](#Hedges)).
 
 ## Definition
 
