@@ -58,6 +58,8 @@ In [[Spin(16)]]- and [[Spin(18)]]-[[GUT]] ("SO(16)-, SO(18)-GUT"):
 
 * {#diLucio11} Luca di Lucio, p. 44 of: _Aspects of Symmetry Breaking inGrand Unified Theories_, 2011 ([pdf](https://www.sissa.it/tpp/phdsection/AlumniThesis/Luca%20Di%20Luzio.pdf))
 
+* {#Guigan19} Michael McGuigan, _Dark Horse, Dark Matter: Revisiting the $SO(16) \times SO(16)'$ Nonsupersymmetric Model in the LHC and Dark Energy Era_ ([arXiv:1907.01944](https://arxiv.org/abs/1907.01944))
+
 
 In [[heterotic string theory]]:
 
