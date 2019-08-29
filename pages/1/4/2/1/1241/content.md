@@ -70,7 +70,9 @@ $$
 
 This leads to the $SU(5)$-GUT due to [Georgi-Glashow 74](#GeorgiGlashow74)
 
-### The $Spin(10)$-GUT (known as "$SO(10)$")
+### D-Series GUTs
+
+#### The $Spin(10)$-GUT (known as "$SO(10)$")
  {#TheGUTKnownAsSO10}
 
 There is a further inclusion $SU(5) \hookrightarrow $ [[Spin(10)]] into the [[spin group]] in 10 (Euclidean) dimensions (still a [[simple Lie group]]), and one [[generation of fundamental particles]] regarded as an $SU(5)$-[[representation]] $\Lambda \mathbb{C}^5$ as [above](#IdeaofSU5GUT) extends to a [[spin representation]] (see [Baez-Huerta 09, theorem 2](#BaezHuerta09)). This has the aesthetically pleasing effect that under this identification the 1-generation rep $V_{SM}$ is now identified as
@@ -97,7 +99,8 @@ Discussion of [[leptoquarks]] in $SO(10)$-models possibly explaining the [[flavo
 
 \linebreak
 
-### The $Spin(11)$-GUT (known as "$SO(11)$")
+
+#### The $Spin(11)$-GUT (known as "$SO(11)$")
  {#TheGUTKnownAsSO11}
 
 Models with [[Spin(11)]] ("[[SO(11)]]") GUT group.
@@ -110,7 +113,7 @@ See the references [below](#ReferencesSpin11).
 
 \linebreak
 
-### The $Spin(12)$-GUT (known as "$SO(12)$")
+#### The $Spin(12)$-GUT (known as "$SO(12)$")
  {#TheGUTKnownAsSO12}
 
 
@@ -124,7 +127,7 @@ See the references [below](#ReferencesSpin12).
 
 
 
-### The $Spin(16), Spin(18)$-GUT (known as "$SO(16), SO(18)$")
+#### The $Spin(16), Spin(18)$-GUT (known as "$SO(16), SO(18)$")
  {#TheGUTKnownAsSO16}
 
 Models with [[Spin(16)]] ("[[SO(16)]]") GUT group.
@@ -137,11 +140,24 @@ See also [di Lucio 11, p. 44](#diLucio11) and see the references [below](#Refere
 Predicts [[fourth generation of fermions]]...
 
 
-### Exceptional series GUTs
+### E-series GUTs
 
-This way, the most studied choices of GUT-groups $G$ are [[special unitary group|SU(5)]], [[spin group|Spin(10)]] (in the physics literature often referred to as [[special orthogonal group|SO(10)]]) and [[E6]] (review includes [Witten 86, sections 1 and 2](#Witten86)). 
+The most studied choices of GUT-groups $G$ are [[special unitary group|SU(5)]], [[spin group|Spin(10)]] (in the physics literature often referred to as [[special orthogonal group|SO(10)]]) and [[E6]] (review includes [Witten 86, sections 1 and 2](#Witten86)). 
 
 It so happens that, mathematically, the sequence [[special unitary groups|SU(5)]], [[spin group|Spin(10)]], [[E6]] naturally continues (each step by consecutively adding a node to the [[Dynkin diagrams]]) with the [[exceptional Lie groups]] [[E7]], [[E8]] that naturally appear in [[heterotic string theory|heterotic]] [[string phenomenology]] (exposition is in [Witten 02a](#Witten02a)) and conjecturally further via the [[U-duality]] [[Kac-Moody groups]] [[E9]], [[E10]], [[E11]] that are being argued to underly [[M-theory]]. In the context of [[F-theory]] model building, also properties of the observes [[Yukawa couplings]] may point to exceptional GUT groups ([Zoccarato 14, slide 11](#Zoccarato14), [Vafa 15, slide 11](#Vafa15)).
+
+#### The $E_6$-GUT
+
+(...)
+
+#### The $E_7$-GUT (?)
+
+(...)
+
+#### The $E_8$-GUT (?)
+
+(...)
+
 
 ## Properties
 
