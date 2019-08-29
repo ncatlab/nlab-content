@@ -1,7 +1,7 @@
 
-# Petri nets
-* automatic table of contents goes here
-{:toc}
+# Contents
+* table of contents
+{: toc}
 
 See also the [Petri net](http://www.azimuthproject.org/azimuth/show/Petri+net) in The Azimuth Project.
 
