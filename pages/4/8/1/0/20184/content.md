@@ -21,6 +21,7 @@
 
 $Spin(4)$ is the [[spin group]] in dimension 4, the [[double cover]] of [[SO(4)]].
 
+
 ## Properties
 
 ### Exceptional isomorphisms
@@ -58,6 +59,7 @@ This induces a [[group homomorphism]]
 The [[group homomorphism]] (eq:Spin3SquareToO4) is a [[double cover]] and hence exhibits an [[isomorphism]] between [[Spin(4)]] and the [[direct product group]] of [[Spin(3)]] with itself:
 
 \[
+  \label{Spin3TimesSpin3IsSpin4}
   \label{Spin3SquareIsSpin4}
   \vartheta \;\colon\;
   Spin(3) \times Spin(3)
@@ -134,6 +136,59 @@ where
 
 =--
 
++-- {: .num_remark #ExceptionalIsoViaDynkinDiagrams}
+###### Remark
+**(exceptional isomorphism via Dynkin diagrams)**
+
+Under the [[classification of simple Lie groups]] via [[Dynkin diagrams]], 
+and via the further exceptional isomorphism [[Spin(3)]] $\simeq$ [[SU(2)]], the exceptional isomorphism (eq:Spin3TimesSpin3IsSpin4) corresponds to the coincidence of the [[D3]] with the [[A3]] diagrams, both with their central node removed:
+
+
+
+\begin{tikzpicture}
+
+  \node at (0,1.4)  {$\mathrm{Spin}(4)$};
+  \node at (3.4,1.4)  {$\mathrm{SU}(2) \times \mathrm{SU}(2)$};
+
+  \node at (1.7,1.4) {$\simeq$};
+
+  \node (center) at (0,0) {};
+  \node (topright) at (30:1) {};
+  \node (left) at (180-30:1) {};
+  \node (botright) at (0,-1) {};
+  %\node (D5) at (-2,0) {};
+  %\node (D6) at (-3,0) {};
+  
+  \draw[draw=lightgray, fill=lightgray] (center) circle (.1);
+  \draw[fill=black] (topright) circle (.1);
+  \draw[draw=lightgray, fill=lightgray] (botright) circle (.1);
+  \draw[fill=black] (left) circle (.1);
+
+  %\draw[fill=black] (D5) circle (.1);
+  %\draw[fill=black] (D6) circle (.1);
+
+  \draw[lightgray] (center) to (topright);
+  \draw[lightgray] (center) to (botright);
+  \draw[lightgray] (center) to (left);
+  
+  %\draw (D5) to (left);
+  %\draw (D6) to (D5);
+  
+  \begin{scope}[shift={(3.4,0)}]
+  \node (center) at (0,0) {};
+  \node (left) at (-1,0) {};
+  \node (right) at (+1,0) {};
+
+  \draw[draw=lightgray, fill=lightgray] (center) circle (.1);
+  \draw[fill=black] (left) circle (.1);
+  \draw[fill=black] (right) circle (.1);
+
+  \draw[lightgray] (center) to (left);
+  \draw[lightgray] (center) to (right);
+  \end{scope}
+\end{tikzpicture}
+
+=--
 
 
 <br/>
