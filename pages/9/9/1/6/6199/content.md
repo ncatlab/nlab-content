@@ -53,4 +53,6 @@ Discussion in terms of [[category theory]]:
 
 * George Dimitrov, Fabian Haiden, [[Ludmil Katzarkov]], [[Maxim Kontsevich]], _Dynamical systems and categories_, [arxiv/1307.8418](http://arxiv.org/abs/1307.8418)
 
+* [[Patrick Schultz]], [[David I. Spivak]], and [[Christina Vasilakopoulou]], _Dynamical Systems and Sheaves_. To appear in Applied Categorical Structures (2019). ([ACS](https://link.springer.com/article/10.1007/s10485-019-09565-x))
+
 [[!redirects dynamical systems]]
