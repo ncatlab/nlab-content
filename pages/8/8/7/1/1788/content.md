@@ -1,3 +1,42 @@
+
+\begin{tikzpicture}
+
+  \node (Spin6) at (0,1.4)  {$\mathrm{Spin}(6)$};
+  \node (SU4) at (3.4,1.4)  {$\mathrm{SU}(4)$};
+
+  \draw[white] (Spin6) to node {\color{black}$\simeq$} (SU4);
+
+  \node (center) at (0,0) {};
+  \node (topright) at (30:1) {};
+  \node (left) at (180-30:1) {};
+  \node (botright) at (0,-1) {};
+  
+  \draw[fill=black] (center) circle (.1);
+  \draw[fill=black] (topright) circle (.1);
+  \draw[draw=lightgray, fill=lightgray] (botright) circle (.1);
+  \draw[fill=black] (left) circle (.1);
+
+
+  \draw (center) to (topright);
+  \draw[lightgray] (center) to (botright);
+  \draw (center) to (left);
+    
+  \begin{scope}[shift={(3.4,0)}]
+  \node (center) at (0,0) {};
+  \node (left) at (-1,0) {};
+  \node (right) at (+1,0) {};
+
+  \draw[fill=black] (center) circle (.1);
+  \draw[fill=black] (left) circle (.1);
+  \draw[fill=black] (right) circle (.1);
+
+  \draw (center) to (left);
+  \draw (center) to (right);
+  \end{scope}
+\end{tikzpicture}
+
+
+
 \begin{tikzpicture}
   \node (center) at (0,0) {};
   \node (topright) at (60:1) {};
