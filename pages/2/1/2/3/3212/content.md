@@ -15,3 +15,5 @@ On [[hypergraph categories]]:
 * [[relation between quasi-categories and simplicial categories]]
 
 category: people
+
+[[!redirects David I. Spivak]]
