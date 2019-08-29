@@ -4,33 +4,42 @@
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Nicholas_Manton)
 
 
-## selected writings
+## Selected writings
+
+On [[gauge-Higgs unification]]:
+
+* {#Manton79} [[Nicholas Manton]], _A new six-dimensional approach to the Weinberg-Salam model_, Nuclear Physics B Volume 158, Issue 1, 8 October 1979, Pages 141-153 (<a href="https://doi.org/10.1016/0550-3213(79)90192-5">doi:10.1016/0550-3213(79)90192-5</a>)
+
+On constructing [[Skyrmions]] from [[instantons]]:
 
 * {#AtiyahManton89} [[Michael Atiyah]], [[Nicholas Manton]], _Skyrmions from instantons_, Phys.  Lett.  B, 222(3):438–442, 1989 (<a href="https://doi.org/10.1016/0370-2693(89)90340-7">doi:10.1016/0370-2693(89)90340-7</a>)
 
-  (constructing [[Skyrmions]] form [[instantons]])
+
+On [[Skyrmion]] [[model (in theoretical physics)|model]] for [[carbon]] [[nucleus]]:
 
 * D. T. J. Feist, P. H. C. Lau, [[Nicholas Manton]], _Skyrmions up to Baryon Number 108_ ([arXiv:1210.1712](https://arxiv.org/abs/1210.1712))
 
 
 * {#LauMaonton14} P.H.C. Lau, [[Nicholas Manton]], _States of Carbon-12 in the Skyrme Model_,  Phys. Rev. Lett. 113, 232503 (2014) ([arXiv:1408.6680](https://arxiv.org/abs/1408.6680))
 
-  ([[Skyrmion]] [[model (in theoretical physics)|model]] for [[carbon]] [[nucleus]])
-
-* {#AtiyahManton16} [[Michael Atiyah]], [[Nicholas Manton]], _Complex Geometry of Nuclei and Atoms_ ([arXiv:1609.02816](https://arxiv.org/abs/1609.02816))
-
-  (patterns in the [[characteristic classes]] ([[Chern classes]]) of [[complex surfaces]], together with some speculations about an anlogy with [[atomic number]] of [[atomic nuclei]])
+On [[skyrmion]] [[model (in theoretical physics)|models]] of [[atomic nuclei]]:
 
 * {#BattyeMantonSutcliffe10} R. A. Battye, [[Nicholas Manton]], [[Paul Sutcliffe]], _Skyrmions and Nuclei_, pp. 3-39 (2010) ([doi:10.1142/9789814280709_0001](https://doi.org/10.1142/9789814280709_0001)) in:  M. Rho, Ismail Zahed (eds.) _The Multifaceted Skyrmion_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
-
-  ([[skyrmion]] [[model (in theoretical physics)|models]] of [[atomic nuclei]])
 
 
 * [[Nicholas Manton]], _Lightly Bound Skyrmions, Tetrahedra and Magic Numbers_ ([arXiv:1707.04073](https://arxiv.org/abs/1707.04073))
 
 
+On patterns in the [[characteristic classes]] ([[Chern classes]]) of [[complex surfaces]], together with some speculations about an anlogy with [[atomic number]] of [[atomic nuclei]]:
 
-## related $n$Lab entries
+* {#AtiyahManton16} [[Michael Atiyah]], [[Nicholas Manton]], _Complex Geometry of Nuclei and Atoms_ ([arXiv:1609.02816](https://arxiv.org/abs/1609.02816))
+
+
+
+
+
+
+## Related $n$Lab entries
 
 * [[Skyrmion]]
 
@@ -41,5 +50,7 @@
   [[meson]], [[hadron]]
 
 * [[atomic nucleus]]
+
+* [[gauge-Higgs unification]]
 
 category: people
