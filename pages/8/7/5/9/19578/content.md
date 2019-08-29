@@ -44,6 +44,8 @@ For more on this see at _[[intersecting D-brane models]]_ the section _[Cosmolog
 
 ## References
 
+### General
+
 The model was introduced in
 
 * {#RandallSundrum99a} Lisa Randall, Raman Sundrum, _A Large Mass Hierarchy from a Small Extra Dimension_, Phys.Rev.Lett.83:3370-3373, 1999 ([arXiv:hep-ph/9905221](https://arxiv.org/abs/hep-ph/9905221))
@@ -65,6 +67,15 @@ a well as [[intersecting D-brane models]].
 Review includes
 
 * Yoonbai Kim, Chong Oh Lee, Ilbong Lee, JungJai Lee, _Brane World of Warp Geometry: An Introductory Review_, J. Kor. Astron. Soc. 37 (2004) 1-14 ([arXiv:hep-th/0307023](https://arxiv.org/abs/hep-th/0307023))
+
+Possible relation to [[flavour anomalies]] via potential [[leptoquarks]]:
+
+* {#Crivellin18} [[Andreas Crivellin]], _Explaining the Flavour Anomalies with the Pati-Salam Vector Leptoquark_, PoS LHCP2018 (2018) 269 ([spire:1713260](http://inspirehep.net/record/1713260), [doi:10.22323/1.321.0269](https://doi.org/10.22323/1.321.0269))
+
+* {#BlankeCrivellin18} Monika Blanke, [[Andreas Crivellin]], _$B$ Meson Anomalies in a Pati-Salam Model within the Randall-Sundrum Background_, Phys. Rev. Lett. 121, 011801 (2018) ([arXiv:1801.07256](https://arxiv.org/abs/1801.07256))
+
+
+### As intersecting brane models in string theory 
 
 Discussion of relation to [[string theory]] originates around
 
@@ -94,12 +105,31 @@ Relation to [[AdS-CFT duality]]:
 
 * {#Soda10} Jiro Soda, _AdS/CFT on the brane_, Lect.Notes Phys.828:235-270, 2011 ([arXiv:1001.1011](https://arxiv.org/abs/1001.1011))
 
-Relation to [[flavour anomalies]] via potential [[leptoquarks]]:
 
-* {#Crivellin18} [[Andreas Crivellin]], _Explaining the Flavour Anomalies with the Pati-Salam Vector Leptoquark_, PoS LHCP2018 (2018) 269 ([spire:1713260](http://inspirehep.net/record/1713260), [doi:10.22323/1.321.0269](https://doi.org/10.22323/1.321.0269))
+### In gauge-Higgs grand unification
 
-* {#BlankeCrivellin18} Monika Blanke, [[Andreas Crivellin]], _$B$ Meson Anomalies in a Pati-Salam Model within the Randall-Sundrum Background_, Phys. Rev. Lett. 121, 011801 (2018) ([arXiv:1801.07256](https://arxiv.org/abs/1801.07256))
+RS-like models for [[gauge-Higgs unification|gauge-Higgs]] [[grand unified theories]]:
 
+with [[Spin(11)]] ("[[SO(11)]]") [[gauge group]]:
+
+* {#HosotaniYamatsu15} Yutaka Hosotani, Naoki Yamatsu, _Gauge–Higgs grand unification_, Progress of Theoretical and Experimental Physics, Volume 2015, Issue 11, November 2015 ([doi:10.1093/ptep/ptv153](https://doi.org/10.1093/ptep/ptv153), [doi:10.1093/ptep/ptw116](https://doi.org/10.1093/ptep/ptw116))
+
+* {#FuruiHosotaniYamatsu16} Atsushi Furui, Yutaka Hosotani, Naoki Yamatsu, _Toward Realistic Gauge-Higgs Grand Unification_, Progress of Theoretical and Experimental Physics, Volume 2016, Issue 9, September 2016, 093B01 ([arXiv:1606.07222](https://arxiv.org/abs/1606.07222))
+
+* {#Hosotani17} Yutaka Hosotani, _New dimensions from gauge-Higgs unification_ ([arXiv:1702.08161](https://arxiv.org/abs/1702.08161))
+
+* {#HosotaniYamatsu17} Yutaka Hosotani, Naoki Yamatsu, _Electroweak Symmetry Breaking and Mass Spectra in Six-Dimensional Gauge-Higgs Grand Unification_ ([arXiv:1710.04811](https://arxiv.org/abs/1710.04811))
+
+with [[Spin(12)]] ("[[SO(12)]]") [[gauge group]]:
+
+
+* S. Rajpoot and P. Sithikong, _Implications of the $SO(12)$ gauge symmetry for grand unification_, Phys. Rev. D 23, 1649 (1981) ([doi:10.1103/PhysRevD.23.1649](https://doi.org/10.1103/PhysRevD.23.1649))
+
+* Takaaki Nomura and Joe Sato, _Standard(-like) Model from an $SO(12)$ Grand Unified Theory in six-dimensions with $S^2$ extra-space_, Nucl.Phys.B811:109-122, 2009 ([arXiv:0810.0898](https://arxiv.org/abs/0810.0898))
+
+* Takaaki Nomura, _Physics beyond the standard model with $S^2$ extra-space_, 2009 ([pdf](http://krishna.th.phy.saitama-u.ac.jp/joe/doctor/nomura-doctor.pdf), [[NomuraSO12GUT.pdf:file]])
+
+* Cheng-Wei Chiang, Takaaki Nomura, Joe Sato, _Gauge-Higgs unification models in six dimensions with $S^2/\mathbb{Z}_2$ extra space and GUT gauge symmetry_ ([arXiv:1109.5835](https://arxiv.org/abs/1109.5835))
 
 
 [[!redirects Randall-Sundrum models]]
