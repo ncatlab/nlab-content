@@ -11,7 +11,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -33,7 +32,9 @@ $$
 which is the [[direct sum]] of the $\mathbb{R}$-[[associative algebra|algebras]] of [[complex numbers]], [[quaternions]] and $3x3$ complex [[matrices|matrix algebra]].
 
 
-Moreover, the entire field content in one [[generation of fundamental particles|generation]] of [[fermions]] (i.e. [[electrons]], [[quarks]], [[neutrinos]]) is claimed to be encoded precisely in the [[bimodule]] over this algebra which is the direct sum of all inequivalent irreducible odd bimodules ([Connes 06, prop. 2.2 - prop 2.5](#Connes06))
+Moreover, the entire field content in one [[generation of fundamental particles|generation]] of [[fermions]] (i.e. [[electrons]], [[quarks]], [[neutrinos]]) is claimed to be encoded precisely in the [[bimodule]] over this algebra which is the direct sum of all inequivalent irreducible odd bimodules ([Connes 06, prop. 2.2 - prop 2.5](#Connes06)).
+
+The Connes-Lott models realize a non-commutative version of [[gauge-Higgs unification]].
 
 ## Related entries
 
