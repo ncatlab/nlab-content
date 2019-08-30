@@ -15,6 +15,8 @@ By restricting the analysis to language fragments, Montague overcome obstacles l
 
 ## Related entries
 
+* [[Montague semantics]]
+
 * [[generalized quantifier]]
 
 * [[Alfred Tarski]]
@@ -24,6 +26,11 @@ By restricting the analysis to language fragments, Montague overcome obstacles l
 * [[reflection principle]]
 
 ## References
+
+
+* Richard Montague, _English as a formal language_, Linguaggi nella societa e nella tecnica. Edizioni di Communita. pp. 188-221 (1970)
+* Richard Montague, _Universal grammar_, Theoria 36 (3):373--398 (1970)
+* Richard Montague, _The Proper Treatment of Quantification in Ordinary English_, Approaches to Natural Language (1973)
 
 * B. Partee, _Richard Montague (1930-1971)_ , pp.255-257 in Brown (ed.) _Encyclopedia of Language and Linguistics_ , Elsevier Oxford 2006&#178;. ([preprint](http://people.umass.edu/partee/docs/Richard_Montague_by_Partee_05.pdf))
 
