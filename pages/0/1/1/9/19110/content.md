@@ -276,20 +276,17 @@ Now the tadpole cancellation condition is that (all representations are real and
 
 \[
   \label{InhomogeneousTadpoleCancellation}
-  \chi_{V}\left(g_{k \geq 1}\right) 
-    -
-  \chi_{O}\left( g_{k \geq 1} \right) \;=\; 0
+  \chi_{V}\left(g_{k \geq 1}\right)  \;=\; 0
+  \phantom{AA}
+  \text{and}
+  \phantom{AA}
+  dim(V) = dim(O)
   \,.
 \]
 
-([Marchesano 03 (4.15)](#Marchesano03), following [Honecker 02 (28)](#Honecker02))
+(e.g. [Buchel0Shiu-Tye 99 (18)](#BuchelShiuTye99))
 
-The general solution to (eq:InhomogeneousTadpoleCancellation) is of course the sum of $O$ with any solution to the homogeneous equation (eq:VanishingOfCharacterValuesOnNontrivialSubgroups). By Prop. \ref{RegularRepSpansSolutionToHomogeneousTadpoleCancellation} the latter are exactly the multiples $n \cdot k[G/1]$ of the [[regular representation]], so that the general solution to the tadpole cancellation condition (eq:InhomogeneousTadpoleCancellation) for [[fractional D-branes]] is 
-
-$$
-  V \;=\; O + n \cdot k[G/1]
-  \,.
-$$
+By Prop. \ref{RegularRepSpansSolutionToHomogeneousTadpoleCancellation} the only possible solution of this is the $n$th multiple of the [[regular representation]], if $dim(O)$ is $n$ times the dimension of the regular representation.
 
 
 In basic examples the [[O-plane]]-charge 
@@ -298,13 +295,14 @@ $$
   O = 2^{p-4} n \cdot  \mathbf{1}
 $$
 
-is for $n_O$ coincident [[O-planes]] is the corresponding multiple by the [[O-plane charge]] $\mu_{Op} = -2^{8-4}$ ([here](orientifold+plane#eq:OpPlaneCharge)) of the [[trivial representation|trivial]] [[irrep]], whence the general solution to the tadpole cancellation condition then is the [[affine space|affine]] version of (eq:VanishingOfCharacterValuesOnNontrivialSubgroups), being $+ 2^{p-4} \cdot \mathbf{1}$ plus, by Prop. \ref{RegularRepSpansSolutionToHomogeneousTadpoleCancellation}, any numbers of the [[regular representation]]:
+is for $n_O$ coincident [[O-planes]] is the corresponding multiple by the [[O-plane charge]] $\mu_{Op} = -2^{8-4}$ ([here](orientifold+plane#eq:OpPlaneCharge)) of the [[trivial representation|trivial]] [[irrep]], whence a solution to the tadpole cancellation exists if $ \frac{2^{p-4}}{\vert G\vert } \in \mathbb{N} \subset \mathbb{Q}$ and is then given by 
 
 $$
-  V \;=\; 2^{p-4} n_O \cdot \mathbf{1} 
-    \;+\; n \cdot k[G/1]
+  V \;=\; \frac{2^{p-4}}{\vert G\vert } \cdot k[G/1]
   \,.
 $$
+
+
 
 
 
@@ -389,15 +387,17 @@ $$
 $$
 
 
-#### At a $\mathbb{Z}_3$-orientifold singularity
+#### At a $\mathbb{Z}_4$-orientifold singularity
 
-For $G = \mathbb{Z}_3$ the [[cyclic group]] of [[order of a group|order]] ${\vert \mathbb{Z}_3\vert} = 3$, the [[character of a linear representation|characters]]/[[D-brane charges]] of the complex [[irreducible representations]]/[[fractional D-branes]] are (e.g. [here](https://people.maths.bris.ac.uk/~matyd/GroupNames/1/C3.html))
+For $G = \mathbb{Z}_4$ the [[cyclic group of order 4]], the [[character of a linear representation|characters]]/[[D-brane charges]] of the complex [[irreducible representations]]/[[fractional D-branes]] are (e.g. [here](https://people.maths.bris.ac.uk/~matyd/GroupNames/1/C4.html))
 
-| $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  
-|--|--|--|--|
-| $\chi_{V_1} =$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ |
-| $\chi_{V_2} =$ | $\phantom{-}1$ | $\exp\left( \tfrac{1}{3} 2 \pi i \right)$ | $\exp\left( \tfrac{2}{3} 2 \pi i \right)$ |
-| $\chi_{V_3} =$ | $\phantom{-}1$ | $\exp\left( \tfrac{2}{3} 2 \pi i \right)$ | $\exp\left( \tfrac{1}{3} 2 \pi i \right)$ |
+| $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ | $\left[\langle g_2\rangle\right]$ | $\left[\langle g_3\rangle\right]$ |  
+|--|--|--|--|--|
+| $\chi_{V_1} =$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ | $\phantom{-}1$ |
+| $\chi_{V_2} =$ | $\phantom{-}1$ | $\phantom{-}1$ | $-1$ | $-1$ |
+| $\chi_{V_3} =$ | $\phantom{-}1$ | $-1$ | $-i$ | $\phantom{-}i$ |
+| $\chi_{V_4} =$ | $\phantom{-}1$ | $-1$ | $\phantom{-}i$ | $-i$ |
+
 
 
 One sees immediately that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G = \mathbb{Z}_3$ is
@@ -412,6 +412,8 @@ $$
     1 \cdot V_2 
     + 
     1 \cdot V_3 
+    + 
+    1 \cdot V_4 
   \Big)
   \,,
   \phantom{AAA}
@@ -423,12 +425,12 @@ whose minimal [[positive number|positive]]  [[mass]] (net brane number) is
 
 $$
   \begin{aligned}
-    M_{\mathbb{Z}_3}
+    M_{\mathbb{Z}_4}
     & =
-    dim(V)  / {\vert \mathbb{Z}_3 \vert }
+    dim(V)  / {\vert \mathbb{Z}_4 \vert }
     \\
       & =
-    \chi_V([\langle e\rangle]) / {\vert \mathbb{Z}_3 \vert}
+    \chi_V([\langle e\rangle]) / {\vert \mathbb{Z}_4 \vert}
     \\
       & =
       \big(
@@ -437,18 +439,19 @@ $$
       1 \cdot 1
         +
       1 \cdot 1
-     \big) / {3}
+        +
+      1 \cdot 1
+     \big) / {4}
       & 
       \\
       & 
       =
-      3 / 3
+      4 / 4
       \\
       & = 1
   \end{aligned}
 $$
 
-This pattern immediately continues for all [[cyclic groups]] $\mathbb{Z}_n$.
 
 
 #### At a $2 D_4$-orientifold singularity
@@ -1251,6 +1254,9 @@ Critical outlook in
 See also
 
 * {#ABIU99} G. Aldazabal, D. Badagnani, [[Luis Ibáñez]], [[Angel Uranga]], _Tadpole versus anomaly cancellation in $D=4,6$ compact IIB orientifolds_, JHEP 9906:031, 1999 ([arXiv:hep-th/9904071](https://arxiv.org/abs/hep-th/9904071))
+
+* {#BuchelShiuTye99} Alex Buchel, [[Gary Shiu]], S.-H. Henry Tye, _Anomaly Cancelations in Orientifolds with Quantized B Flux_, Nucl.Phys. B569 (2000) 329-361 ([arXiv:hep-th/9907203](https://arxiv.org/abs/hep-th/9907203))
+
 
 * {#Uranga00} [[Angel Uranga]], _D-brane probes, RR tadpole cancellation and K-theory charge_, Nucl.Phys.B598:225-246, 2001 ([arXiv:hep-th/0011048](https://arxiv.org/abs/hep-th/0011048))
 
