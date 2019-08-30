@@ -172,7 +172,7 @@ See also
 
 * {#Ziemianski} Krzysztof Ziemia&nacute;ski, _A faithful complex representation of the 2-compact group DI(4)_, ([thesis](https://www.mimuw.edu.pl/~ziemians/pap/Thesis.pdf))
 
-* {#Benson94} David Benson, _Conway’s group $Co_3$ and the Dickson invariants_, Manuscripta Math (1994) 85: 177.
+* {#Benson94} David Benson, _Conway’s group $Co_3$ and the Dickson invariants_, Manuscripta Math (1994) 85: 177 ([dml:156016](https://eudml.org/doc/156016))
 
 * {#BakerBauer19} Andrew Baker, Tilman Bauer, _The realizability of some finite-length modules over the Steenrod algebra by spaces_, ([arXiv:1903.10288](https://arxiv.org/abs/1903.10288))
 
