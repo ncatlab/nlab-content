@@ -215,7 +215,7 @@ Review includes
 
 * {#Marchesano03} [[Fernando Marchesano]], _Intersecting D-brane Models_ ([arXiv:hep-th/0307252](https://arxiv.org/abs/hep-th/0307252))
 
-* {#BCLS05} [[Ralph Blumenhagen]], [[Mirjam Cvetic]], Paul Langacker, Gary Shiu, _Towards Realistic Intersecting D-Brane Models_, Ann. Rev. Nucl. Part. Sci. 55:71-139, 2005 ([arXiv:hep-th/0502005](http://arxiv.org/abs/hep-th/0502005))
+* {#BCLS05} [[Ralph Blumenhagen]], [[Mirjam Cvetic]], Paul Langacker, [[Gary Shiu]], _Towards Realistic Intersecting D-Brane Models_, Ann. Rev. Nucl. Part. Sci. 55:71-139, 2005 ([arXiv:hep-th/0502005](http://arxiv.org/abs/hep-th/0502005))
 
 A textbook account is
 
