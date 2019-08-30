@@ -44,7 +44,7 @@ and reflected in [[target spacetime]] by non-trivial total [[RR-field]] [[flux]]
 
 > graphics grabbed from [Ibanez-Uranga 12](#IbanezUranga12)
 
-This anomaly cancels if the [[D-branes]] are accompanied by a suitable collection of [[O-planes]], hence if one considers [[orientifold]] backgrounds ([Sagnotti 88, pp. 5](#Sagnotti88), [Simon-Polchinski 96, section 3](#SimonPolchinski96)). (For space-filling [[O-planes]] this means to consider [[type I string theory]] instead.)
+This anomaly cancels if the [[D-branes]] are accompanied by a suitable collection of [[O-planes]], hence if one considers [[orientifold]] backgrounds ([Sagnotti 88, pp. 5](#Sagnotti88), [Gimon-Polchinski 96, section 3](#SimonPolchinski96)). (For space-filling [[O-planes]] this means to consider [[type I string theory]] instead.)
 
 Accordingly, tadpole cancellation via [[orientifolds|orientifolding]] is a key consistency condition in the construction of [[intersecting D-brane models]] for [[string phenomenology]].
 
