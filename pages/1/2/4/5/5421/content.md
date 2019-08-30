@@ -7,7 +7,7 @@ The notion of context-free grammar, now used in [[linguistics]], [[computer scie
 
 We write $X + Y$ for the [[disjoint union]] of two sets and use vector notation and the Kleene star $\vec{v} \in X^\star$ to denote sequences in the [[free monoid]].
 
-A context-free grammar is a tuple $(\Sigma, N, R, s)$ where $\Sigma$ and $N$ are finite sets called the _vocabulary_ (also called the _terminals_) and the _non-terminals_ respectively, $R \subseteq N \times (N + \Sigma)^\star$ is a finite set of _production rules_ and $s \in N$ is called the _start symbol_.
+A context-free grammar is a tuple $(\Sigma, N, R, s)$ where $\Sigma$ and $X$ are finite sets called the _vocabulary_ (also called the _terminals_) and the _non-terminals_ respectively, $R \subseteq X \times (X + \Sigma)^\star$ is a finite set of _production rules_ and $s \in X$ is called the _start symbol_.
 
 The _language_ of a context-free grammar is given by $L(G) = \{ \vec{u} \in V^\star \vert s \to_R \vec{u} \}$ where the rewriting relation $(\to_R) \subseteq (V + X)^\star \times (V + X)^\star$ is traditionally defined as the transitive closure of the following directed graph:
 
@@ -17,7 +17,7 @@ $$
 
 One may redefine $L(G) = \big\{ \vec{u} \in \Sigma^\star \vert \C_G(s, \vec{u}) \neq \emptyset \big\}$ where $C_G$ is the free [[monoidal category]] with:
 
-* generating objects the [[disjoint union]] $\Sigma + N$,
+* generating objects the [[disjoint union]] $\Sigma + X$,
 * generating arrows the production rules $(x, \vec{v}) \in R$ with $dom(x, \vec{v}) = x$ and $cod(x, \vec{v}) = \vec{v}$.
 
 That is, a string $\vec{u} \in \Sigma^\star$ is _grammatical_ whenever there exists an arrow from the start symbol $s$ to $\vec{u}$ in $C_G$. Arrows in $C_G$ may be encoded as a _syntax tree_, seen as a special case of a [[string diagram]], e.g.:
