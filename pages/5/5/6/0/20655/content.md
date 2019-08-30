@@ -1,3 +1,7 @@
+[[!redirects pregroup]]
+[[!redirects pregroups]]
+[[!redirects pregroup grammars]]
+
 **Pregroup grammar** is a mathematical model of natural language grammar introduced by [[Lambek]], it is part of the [[categorial grammar]] tradition.
 
 * table of contents
@@ -5,7 +9,7 @@
 
 ## Pregroups
 
-As defined in [Lambek99](#Lambek99), [Lambek08](#Lambek08), a **pregroup** is a partially-ordered monoid $(P, \leq, \cdot, 1)$ such that every object $t \in P$ has left- and right-adjoints $t^l, t^r \in P$.
+As defined in [Lambek 1999](#Lambek99), [Lambek 2008](#Lambek08), a **pregroup** is a partially-ordered monoid $(P, \leq, \cdot, 1)$ such that every object $t \in P$ has left- and right-adjoints $t^l, t^r \in P$.
 Explicitly we have the following four axioms:
 
 * $t^l  t \leq 1, \quad t t^r \leq 1 \quad$ (contraction)
@@ -13,7 +17,7 @@ Explicitly we have the following four axioms:
 
 In other words, a pregroup is a [[rigid monoidal category]] which is [[thin category|thin]] and [[skeletal category|skeletal]].
 Note that a commutative pregroup is simply a [[group]].
-Here are a few variants of pregroups that appear in the literature, see [Coecke13](#Coecke13):
+Here are a few variants of pregroups that appear in the literature, see [Coecke 2013](#Coecke13):
 
 * If we drop the anti-symmetry axiom for posets, we get a **quasi-pregroup**,
 * If we drop the two expansion axioms, we get a **protogroup**.
@@ -24,12 +28,12 @@ In [[linguistics|linguistic]] applications, one starts with a [[partial order|po
 For a basic type $b \in B$, iterated adjoints $\dots, b^{ll}, b^l, b, b^r, b^{rr}, \dots \in P_B$ are called **simple types**; an arbitrary type $t \in P_B$ may then be given as a sequence of simple types.
 The following lemma makes the parsing problem for free pregroups decidable --- i.e. given a sentence type $s \in P_B$ and the types for a sequence of words $t_1, \dots, t_n \in P_B$, is $t_1 \dots  t_n \leq s$?
 
-**Switching lemma [Lambek99](#Lambek99):** For any pair of types $t, t' \in P_B$, if $t \leq t'$ then there is a type $t'' \in P_B$ such that $t \leq t''$ without expansions and $t'' \leq t'$ without contractions, i.e. free protogroups recognise the same language as free pregroups.
+**Switching lemma [Lambek 1999](#Lambek99):** For any pair of types $t, t' \in P_B$, if $t \leq t'$ then there is a type $t'' \in P_B$ such that $t \leq t''$ without expansions and $t'' \leq t'$ without contractions, i.e. free protogroups recognise the same language as free pregroups.
 
 
 ### From pregroups to compact 2-categories
 
-In [PrellerLambek07](#PrellerLambek07), Preller and Lambek generalise the free pregroup construction above to free compact 2-categories in order to capture [[proof relevance]].
+In [Preller, Lambek 2007](#PrellerLambek07), Preller and Lambek generalise the free pregroup construction above to free compact 2-categories in order to capture [[proof relevance]].
 This allows to distinguish between the distinct parsings of ambiguous phrases such as
 "(men and women) who like maths" vs. "men and (women who like maths)".
 
@@ -38,7 +42,7 @@ A non-symmetric compact closed 2-category with one object is simply a [[rigid mo
 
 Given a poset of basic types $B$, the objects of the free rigid monoidal category $C_B$ are the same as that of the free (quasi-)pregroup, the arrows may be described as planar [[string diagram|string diagrams]]. Given two types $t, t' \in P_B$, we have that $t \leq t'$ if and only if there is an arrow $r : t \to t'$ in $C_B$.
 
-## Pregroup grammars
+## Pregroup grammars {#PregroupGrammar}
 
 A **pregroup grammar** is a tuple $G = (B, \Sigma, \Delta, s)$ where $B$ and $\Sigma$ are finite sets called the _basic types_ and the _vocabulary_ respectively, $\Delta \subseteq \Sigma \times P_B$ is a relation called the _dictionnary_ and $s \in P_B$ is a designated _sentence type_.
 We require that $\Delta$ is finite, i.e. the set of possible types $\Delta(w) \subseteq P_B$ is finite for each word $w \in \Sigma$.
@@ -97,13 +101,18 @@ Contractions are depicted as cups, e.g. from $(Alice, n), (loves, n^r s n^l), (B
 \end{tikzpicture}
 \end{centre}
 
-**Theorem ([BuszkowskiMoroz08](#BuszkowskiMoroz08)):** For each pregroup grammar $G$, there is a [[context-free grammar]] $G'$ such that $L(G) = L(G')$. Furthermore, $G'$ may be computed in time polynomial in the size of $G$.
+**Theorem ([Buszkowski, Moroz 2008](#BuszkowskiMoroz08)):** For each pregroup grammar $G$, there is a [[context-free grammar]] $G'$ such that $L(G) = L(G')$. Furthermore, $G'$ may be computed in time polynomial in the size of $G$.
 
 The opposite direction also holds, hence pregroup grammar and [[context-free grammar]] are said to be **weakly equivalent**: the translation preserves only the generated languages, it does not preserve the structure of syntax trees. 
 
-## Natural Language Processing & Semantics
+## Pregroup semantics as monoidal functors
 
-Categorical semantics for pregroup grammar was developed in [Preller05](#Preller05) as well as in a series of papers by Coecke and collaborators, see [Clark et al. 08](#ClarkCoeckeSadrzadeh08), [Coecke et al. 10](#ClarkCoeckeSadrzadeh10).
+One may give a [[semantics]] to a pregroup grammar $G = (B, \Sigma, \Delta, s)$ by defining a strong [[monoidal functor]] $F : C_G \to S$, where $C_G$ is the free [[rigid monoidal category]] described in [section 2](#PregroupGrammar). $S$ is a suitable [[rigid monoidal category]], e.g. $\text{FdVect}$ or $\text{Rel}$, depending on the application.
+Note the similarity with a [[Lawvere theory]] as a monoidal functor from a syntactic category to $\text{Set}$.
+
+We require the image for all words $w \in \Sigma$ to be the monoidal unit $F(w) = I$, hence the image for each dictionnary entry $(w, t) \in \Delta$ is given by a state $F(w, t) : I \to F(t)$.
+Then the meaning for a sentence $w_1 \dots w_n$ with grammatical reduction $r : w_1 \dots w_n \to s$ is computed compositionally as a state $F(r) : I \to F(s)$.
+This has been developed in [Preller 2005](#Preller05) as well as in a series of papers by Coecke and others, see [[categorical compositional distributional semantics]].
 
 ## References
 
@@ -115,11 +124,6 @@ Categorical semantics for pregroup grammar was developed in [Preller05](#Preller
 
 * {#Lambek08} Joachim Lambek, _From Word to Sentence: A Computational Algebraic Approach to Grammar_, Polimetrica 2008 ([pdf](http://www.math.mcgill.ca/barr/lambek/pdffiles/2008lambek.pdf))
 
-* {#ClarkCoeckeSadrzadeh08} Stephen Clark, Bob Coecke, Mehrnoosh Sadrzadeh, _A Compositional Distributional Model of Meaning_, Proceedings of the Second Symposium on Quantum Interaction 2008 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.363.8703&rep=rep1&type=pdf))
-
 * {#BuszkowskiMoroz08} Wojciech Buszkowski, Katarzyna Moroz, _Pregroup Grammars and Context-free Grammars_, Computational Algebraic Approaches to Natural Language, Polimetrica (2008) ([pdf](https://pdfs.semanticscholar.org/1924/30f2252b6e0a7f982a3ae69a3ccf9c2981c0.pdf))
-
-* {#ClarkCoeckeSadrzadeh10} Bob Coecke, Mehrnoosh Sadrzadeh, Stephen Clark, _Mathematical Foundations for a Compositional Distributional Model of Meaning_, Lambek Festschirft, special issue of Linguistic Analysis, 2010 ([arXiv:1003.4394](https://arxiv.org/abs/1003.4394))
-
 
 * {#Coecke13} Bob Coecke, _An alternative Gospel of structure: order, composition, processes_, Introductory chapter to C. Heunen, M. Sadrzadeh, and E. Grefenstette. Quantum Physics and Linguistics: A Compositional, Diagrammatic Discourse. Oxford University Press, 2013 ([arxiv:1307.4038](https://arxiv.org/abs/1307.4038))
