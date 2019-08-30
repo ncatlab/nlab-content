@@ -435,6 +435,10 @@ Classification of more general M5-brane [[ADE-singularities]] is in section 8.3 
 
 * {#MFF12} Paul de Medeiros, [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
 
+also to some extent in
+
+* Changhyun Ahn, Kyungho Oh, Radu Tatar, _Orbifolds $AdS_7 \times S^4$ and Six Dimensional $(0, 1)$ SCFT_, Phys. Lett. B442 (1998) 109-116 ([arXiv:hep-th/9804093](https://arxiv.org/abs/hep-th/9804093))
+
 but see p. 3 of 
 
 * {#ZHTV14} Michele Del Zotto, [[Jonathan Heckman]], [[Alessandro Tomasiello]], [[Cumrun Vafa]], _6d Conformal Matter_, <a href="https://link.springer.com/article/10.1007%2FJHEP02%282015%29054">10.1007/JHEP02(2015)054</a> ([arXiv:1407.6359](https://arxiv.org/abs/1407.6359))
