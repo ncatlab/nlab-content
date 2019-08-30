@@ -1,3 +1,4 @@
+[[!redirects Noam Chomsky]]
 **Noam Chomsky** is an American [[linguistics|linguist]], [[philosophy|philosopher]], cognitive scientist, historian, social critic, and political activist.
 He has also done some early work on [[language|formal language]] theory and computational [[complexity theory]].
 
