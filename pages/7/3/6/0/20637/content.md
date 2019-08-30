@@ -184,7 +184,7 @@ Speculation on possible geometric roles of $G_3$:
 
 * {#SolomonStancu08} Eon Solomon, Radu Stancu, p. 175 of: _Conjectures on finite and p-local groups_, L'Enseignement Mathématique (2) 54 (2008) 171-176 ([[SolomonStancuConjectures.pdf:file]], [doi:10.5169/seals-109929](http://doi.org/10.5169/seals-109929))
 
-* {#Benson98) David Benson, _Cohomology of Sporadic Groups, Finite Loop Spaces, and the Dickson Invariants_, in P. Kropholler, G. Niblo, & R. Stöhr (Eds.), Geometry and Cohomology in Group Theory (London Mathematical Society Lecture Note Series, pp. 10-23), 1998. Cambridge University Press. 
+* {#Benson98} David Benson, _Cohomology of Sporadic Groups, Finite Loop Spaces, and the Dickson Invariants_, in P. Kropholler, G. Niblo, & R. Stöhr (Eds.), Geometry and Cohomology in Group Theory (London Mathematical Society Lecture Note Series, pp. 10-23), 1998. Cambridge University Press. 
 
 * {#Wilson09a} [[Robert A. Wilson]], Slide 94 of: _A new approach to the Leech lattice_, talk at University of Cambridge, 21st October 2009 ([slides pdf](http://www.maths.qmul.ac.uk/~raw/talks_files/Cambridge09.pdf))
 
