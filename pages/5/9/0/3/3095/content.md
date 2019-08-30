@@ -1,7 +1,6 @@
-
-# Linguistics
+# Contents
 * table of contents
-{: toc}
+{:toc}
 
 ## Idea
 
