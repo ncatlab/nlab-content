@@ -9,7 +9,7 @@
 
 ## Pregroups
 
-As defined in [Lambek 1999](#Lambek99), [Lambek 2008](#Lambek08), a **pregroup** is a partially-ordered monoid $(P, \leq, \cdot, 1)$ such that every object $t \in P$ has left- and right-adjoints $t^l, t^r \in P$.
+As defined in [Lambek 1999](#Lambek99), [Lambek 2008](#Lambek08), a **pregroup** is a [[partial order|partially-ordered]] [[monoid]] $(P, \leq, \cdot, 1)$ such that every object $t \in P$ has [[category with duals|left- and right-adjoints]] $t^l, t^r \in P$.
 Explicitly we have the following four axioms:
 
 * $t^l  t \leq 1, \quad t t^r \leq 1 \quad$ (contraction)
@@ -28,7 +28,7 @@ In [[linguistics|linguistic]] applications, one starts with a [[partial order|po
 For a basic type $b \in B$, iterated adjoints $\dots, b^{ll}, b^l, b, b^r, b^{rr}, \dots \in P_B$ are called **simple types**; an arbitrary type $t \in P_B$ may then be given as a sequence of simple types.
 The following lemma makes the parsing problem for free pregroups decidable --- i.e. given a sentence type $s \in P_B$ and the types for a sequence of words $t_1, \dots, t_n \in P_B$, is $t_1 \dots  t_n \leq s$?
 
-**Switching lemma [Lambek 1999](#Lambek99):** For any pair of types $t, t' \in P_B$, if $t \leq t'$ then there is a type $t'' \in P_B$ such that $t \leq t''$ without expansions and $t'' \leq t'$ without contractions, i.e. free protogroups recognise the same language as free pregroups.
+**Switching lemma ([Lambek 1999](#Lambek99)):** For any pair of types $t, t' \in P_B$, if $t \leq t'$ then there is a type $t'' \in P_B$ such that $t \leq t''$ without expansions and $t'' \leq t'$ without contractions, i.e. free protogroups recognise the same language as free pregroups.
 
 
 ### From pregroups to compact 2-categories
@@ -42,7 +42,7 @@ A non-symmetric compact closed 2-category with one object is simply a [[rigid mo
 
 Given a poset of basic types $B$, the objects of the free rigid monoidal category $C_B$ are the same as that of the free (quasi-)pregroup, the arrows may be described as planar [[string diagram|string diagrams]]. Given two types $t, t' \in P_B$, we have that $t \leq t'$ if and only if there is an arrow $r : t \to t'$ in $C_B$.
 
-## Pregroup grammars {#PregroupGrammar}
+## Pregroup grammars as free rigid monoidal categories {#PregroupGrammar}
 
 A **pregroup grammar** is a tuple $G = (B, \Sigma, \Delta, s)$ where $B$ and $\Sigma$ are finite sets called the _basic types_ and the _vocabulary_ respectively, $\Delta \subseteq \Sigma \times P_B$ is a relation called the _dictionnary_ and $s \in P_B$ is a designated _sentence type_.
 We require that $\Delta$ is finite, i.e. the set of possible types $\Delta(w) \subseteq P_B$ is finite for each word $w \in \Sigma$.
@@ -105,14 +105,14 @@ Contractions are depicted as cups, e.g. from $(Alice, n), (loves, n^r s n^l), (B
 
 The opposite direction also holds, hence pregroup grammar and [[context-free grammar]] are said to be **weakly equivalent**: the translation preserves only the generated languages, it does not preserve the structure of syntax trees. 
 
-## Pregroup semantics as monoidal functors
+## Pregroup semantics as strong monoidal functors
 
 One may give a [[semantics]] to a pregroup grammar $G = (B, \Sigma, \Delta, s)$ by defining a strong [[monoidal functor]] $F : C_G \to S$, where $C_G$ is the free [[rigid monoidal category]] described in [section 2](#PregroupGrammar). $S$ is a suitable [[rigid monoidal category]], e.g. $\text{FdVect}$ or $\text{Rel}$, depending on the application.
 Note the similarity with a [[Lawvere theory]] as a monoidal functor from a syntactic category to $\text{Set}$.
 
 We require the image for all words $w \in \Sigma$ to be the monoidal unit $F(w) = I$, hence the image for each dictionnary entry $(w, t) \in \Delta$ is given by a state $F(w, t) : I \to F(t)$.
-Then the meaning for a sentence $w_1 \dots w_n$ with grammatical reduction $r : w_1 \dots w_n \to s$ is computed compositionally as a state $F(r) : I \to F(s)$.
-This has been developed in [Preller 2005](#Preller05) as well as in a series of papers by Coecke and others, see [[categorical compositional distributional semantics]].
+The meaning $F(r) : I \to F(s)$ for a sentence $w_1 \dots w_n \in \Sigma^n$ with grammatical reduction $r : w_1 \dots w_n \to s$ may then be computed from the individual meanings $F(w_i, t_i) : I \to F(t_i)$ of the words, following [[Gottlob Frege|Frege's]] principle of [[compositionality]].
+This has been developed in [Preller 2005](#Preller05) as well as in a series of papers by [[Bob Coecke]] and others, see [[categorical compositional distributional semantics]].
 
 ## References
 
