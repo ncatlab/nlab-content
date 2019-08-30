@@ -78,6 +78,7 @@ The concept originates around
 * {#DaiLinPolchinski89} Jin Dai, R.G. Leigh, [[Joseph Polchinski]], p. 12 of _New Connections Between String Theories_, Mod.Phys.Lett. A4 (1989) 2073-2083 ([spire:25758](http://inspirehep.net/record/25758), [pdf scan](https://lib-extopc.kek.jp/preprints/PDF/1989/8905/8905564.pdf))
 
 
+
 Early accounts include
 
 * {#BDHKMMS01} [[Jan de Boer]], [[Robbert Dijkgraaf]], [[Kentaro Hori]], [[Arjan Keurentjes]], [[John Morgan]], [[David Morrison]], [[Savdeep Sethi]], section 3 of _Triples, Fluxes, and Strings_, Adv.Theor.Math.Phys. 4 (2002) 995-1186 ([arXiv:hep-th/0103170](https://arxiv.org/abs/hep-th/0103170))
@@ -108,6 +109,7 @@ and was re-amplified in
 
 * {#Gukov00} [[Sergei Gukov]], _K-Theory, Reality, and Orientifolds_, Commun.Math.Phys. 210 (2000) 621-639 ([arXiv:hep-th/9901042](http://arxiv.org/abs/hep-th/9901042))
 
+### In terms of KO-theory
 
 Discussion of orbi-orienti-folds in terms of [[equivariant K-theory|equivariant]] [[KO-theory]] is in
 
@@ -167,11 +169,25 @@ More on this in section 3.3.10 of
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
 
+### Examples and Models
+
+Specifically [[K3]] [[orientifolds]]:
+
+* Eric G. Gimon, [[Joseph Polchinski]], Section 3.2 of: _Consistency Conditions for Orientifolds and D-Manifolds_, Phys. Rev. D54: 1667-1676, 1996 ([arXiv:hep-th/9601038](https://arxiv.org/abs/hep-th/9601038))
+
+* {#GimonJohnson96} Eric Gimon, [[Clifford Johnson]], _K3 Orientifolds_, Nucl. Phys. B477: 715-745, 1996 ([arXiv:hep-th/9604129](https://arxiv.org/abs/hep-th/9604129))
+
+Specifically $\mathbb{T}^4/\mathbb{Z}_4$-orientifolds:
+
+* {#BuchelShiuTye99} Alex Buchel, Gary Shiu, S.-H. Henry Tye, _Anomaly Cancelations in Orientifolds with Quantized B Flux_, Nucl.Phys. B569 (2000) 329-361 ([arXiv:hep-th/9907203](https://arxiv.org/abs/hep-th/9907203))
+
 The [[Witten-Sakai-Sugimoto model]] for [[QCD]] on orientifolds:
 
 * {#ImotoSakaiSugimoto09} Toshiya Imoto, [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _$O(N)$ and $USp(N)$ QCD from String Theory_, Prog.Theor.Phys.122:1433-1453, 2010 ([arXiv:0907.2968](https://arxiv.org/abs/0907.2968))
 
-### In M-theory
+
+
+### Lift to M-theory
  {#ReferencesInMTheory}
 
 
