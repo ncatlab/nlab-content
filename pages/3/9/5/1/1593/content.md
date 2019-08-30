@@ -179,7 +179,7 @@ Specifically [[K3]] [[orientifolds]]:
 
 Specifically $\mathbb{T}^4/\mathbb{Z}_4$-orientifolds:
 
-* {#BuchelShiuTye99} Alex Buchel, Gary Shiu, S.-H. Henry Tye, _Anomaly Cancelations in Orientifolds with Quantized B Flux_, Nucl.Phys. B569 (2000) 329-361 ([arXiv:hep-th/9907203](https://arxiv.org/abs/hep-th/9907203))
+* {#BuchelShiuTye99} Alex Buchel, [[Gary Shiu]], S.-H. Henry Tye, _Anomaly Cancelations in Orientifolds with Quantized B Flux_, Nucl.Phys. B569 (2000) 329-361 ([arXiv:hep-th/9907203](https://arxiv.org/abs/hep-th/9907203))
 
 The [[Witten-Sakai-Sugimoto model]] for [[QCD]] on orientifolds:
 
