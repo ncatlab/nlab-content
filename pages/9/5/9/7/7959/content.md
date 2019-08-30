@@ -308,7 +308,7 @@ Reviews of [[intersecting D-brane model]] in [[type II string theory]] (in [[ori
 
 * [[Ralph Blumenhagen]], [[Volker Braun]], Boris Kors, [[Dieter Lüst]], _The Standard Model on the Quintic_, Summary of Talks at SUSY02, 1st Intl. Conference on String Phenomenology in Oxford, Strings 2002 and 35th Ahrenshoop Symposium. ([arXiv:hep-th/0210083](http://arxiv.org/abs/hep-th/0210083))
 
-* [[Ralph Blumenhagen]], [[Mirjam Cvetic]], Paul Langacker, Gary Shiu, _Towards Realistic Intersecting D-Brane Models_, Ann.Rev.Nucl.Part.Sci.55:71-139, 2005 ([arXiv:hep-th/0502005](http://arxiv.org/abs/hep-th/0502005))
+* [[Ralph Blumenhagen]], [[Mirjam Cvetic]], Paul Langacker, [[Gary Shiu]], _Towards Realistic Intersecting D-Brane Models_, Ann.Rev.Nucl.Part.Sci.55:71-139, 2005 ([arXiv:hep-th/0502005](http://arxiv.org/abs/hep-th/0502005))
 
 * Ching-Ming Chen, Tianjun Li, Dimitri V. Nanopoulos, _Standard-Like Model Building on Type II Orientifolds_, Nucl.Phys.B732:224-242,2006 ([arXiv:hep-th/0509059](http://arxiv.org/abs/hep-th/0509059))
 
