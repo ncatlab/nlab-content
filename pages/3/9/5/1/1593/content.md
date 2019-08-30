@@ -171,13 +171,11 @@ More on this in section 3.3.10 of
 
 ### Examples and Models
 
-Specifically [[K3]] [[orientifolds]]:
+Specifically [[K3]] [[orientifolds]] ($\mathbb{T}^4/G_{ADE}$):
 
 * Eric G. Gimon, [[Joseph Polchinski]], Section 3.2 of: _Consistency Conditions for Orientifolds and D-Manifolds_, Phys. Rev. D54: 1667-1676, 1996 ([arXiv:hep-th/9601038](https://arxiv.org/abs/hep-th/9601038))
 
 * {#GimonJohnson96} Eric Gimon, [[Clifford Johnson]], _K3 Orientifolds_, Nucl. Phys. B477: 715-745, 1996 ([arXiv:hep-th/9604129](https://arxiv.org/abs/hep-th/9604129))
-
-Specifically $\mathbb{T}^4/\mathbb{Z}_4$-orientifolds:
 
 * {#BuchelShiuTye99} Alex Buchel, [[Gary Shiu]], S.-H. Henry Tye, _Anomaly Cancelations in Orientifolds with Quantized B Flux_, Nucl.Phys. B569 (2000) 329-361 ([arXiv:hep-th/9907203](https://arxiv.org/abs/hep-th/9907203))
 
