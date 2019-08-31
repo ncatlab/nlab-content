@@ -40,6 +40,6 @@ Then the $A$-**cohomology localization** of $C$ is -- if it exists -- the [[loca
 
 * [[Carles Casacuberta]], Dirk Scevenels, [[Jeff Smith]], _Implications of large-cardinal principles in homotopical localization_  Advances in Mathematics Volume 197, Issue 1, 20 October 2005, Pages 120-139 
 
-* Joan Bagaria, [[Carles Casacuberta]], A. R. D. Mathias, [[Jiri Rosicky]], _Definable orthogonality classes in accessible categories are small_ ([arXiv:1101.2792](http://arxiv.org/abs/1101.2792))
+* Joan Bagaria, [[Carles Casacuberta]], A. R. D. Mathias, [[Jiri Rosicky]], _Definable orthogonality classes in accessible categories are small_.  Journal of the European Mathematical Society (2015). Volume: 017, Issue: 3, page 549-589, ([arXiv:1101.2792](http://arxiv.org/abs/1101.2792))
 
 [[!redirects homotopy localizations]]
