@@ -1,4 +1,10 @@
 
+| $H \subset G$ | $N_G H$ | $W_G H$ | $\left\vert W_G H\right\vert$ |
+|---------------|---------|-------|-------------------------------|
+| $1 \subset \mathbb{Z}_2$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ | $2$ |
+| $\mathbb{Z}_2 \subset \mathbb{Z}_2$ | $\mathbb{Z}_2$ | $1$ | $1$ |
+
+
 
 | [[Dynkin diagram]]/ <br/> [[Dynkin quiver]]  | [[dihedron]],<br/> [[Platonic solid]] | [[classification of finite rotation groups|finite subgroups of SO(3)]] | [[classification of finite rotation groups|finite subgroups of SU(2)]] | [[simple Lie group]] |
 |---------------------|---|-----|---------------|----------------------|
