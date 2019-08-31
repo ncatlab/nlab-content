@@ -192,6 +192,10 @@ The orbifold quotient of the [[4-torus]] by the sign [[involution]] on all four 
 
 > graphics grabbed from [Snowden 11](orbifold#Snowden11)
 
+Also $\mathbb{T}^4\sslash\mathbb{Z}_4$ gives a toroidal orbifold. As [[orientifolds]] with [[D5-branes]] in [[type IIB string theory]] these are discussed in [Buchel-Shiu-Tye 99, Sec. II](RR-field+tadpole+cancellation#BuchelShiuTye99).
+
+\linebreak
+
 ### Flat compact 6-dimensional orbifolds
 
 see [FRTV 12](#FRTV12)
