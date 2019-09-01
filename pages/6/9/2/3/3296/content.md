@@ -22,7 +22,7 @@ In the general context of [[cohomology]], as described there, a [[cocycle]] repr
 The same applies with the object $A$ taken as the domain object: for $B$ yet another object, the $B$-valued cohomology of $A$ is similarly $H(A,B) = \pi_0 \mathbf{H}(A,B)$. For $[k] \in H(A,B)$ any cohomology class in there, we obtain an [[∞-functor]]
 
 $$
-  [k(-)] : \mathbf{H}(X,A) \to H(X,B)
+  [k(-)] : \mathbf{H}(X,A) \to \mathbf{H}(X,B)
 $$
 
 from the $A$-valued cohomology of $X$ to its $B$-valued cohomology, simply from the composition operation
@@ -69,10 +69,10 @@ $$
   H^n(B G, A) = \pi_0 \mathbf{H}(B G, B^n A)
 $$
 
-is the [[cohomology]] of $B G$ with coefficients in $A$. Every [[cocycle]] $c : B G \to B^n A$ represents a characteristic class $[c]$ on $B G$ with coefficients in $A$.
+is the [[cohomology]] of $B G$ with coefficients in $A$. Every [[cocycle]] $k : B G \to B^n A$ represents a characteristic class $[k]$ on $B G$ with coefficients in $A$.
 
-A $G$-[[principal bundle]] $P \to X$ is classified by some map $c : X \to B G$. For any $k \in H^n(\mathcal{B}G,\mathbb{Z})$ a degree $n$ cohomology class of the classifying space, the corresponding composite map
-$X \stackrel{c}{\to} B G \stackrel{k}{\to} \mathcal{B}^n A$ represents a class $[k(c)] \in H^n(X,\mathbb{Z})$. This is the corresponding characteristic class of the bundle.
+A $G$-[[principal bundle]] $P \to X$ is classified by some map $c: X \to B G$. For any $k \in H^n(B G, A)$ a degree $n$ cohomology class of the classifying space, the corresponding composite map
+$X \stackrel{c}{\to} B G \stackrel{k}{\to} B^n A$ represents a class $[k(c)] \in H^n(X,A)$. This is the corresponding characteristic class of the bundle.
 
 Notable families of examples include:
 
