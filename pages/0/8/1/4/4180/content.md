@@ -10,7 +10,7 @@ An **inverse semigroup** is a [[semigroup]] $S$ (a set with an associative binar
 
 Needless to say, a [[group]] is an inverse semigroup. More to the point however: 
 
-* The fundamental example is the following: for any set $X$, let $I(X)$ be the set of all partial [[bijections]] on $X$, i.e. bijections between subsets of $X$.  The composite of partial bijections is their composite as [[relations]] (or as [[partial functions]]).
+* The fundamental example is the following: for any set $X$, let $I(X)$ be the set of all partial [[bijections]] on $X$, i.e. bijections between subsets of $X$.  The composite of partial bijections is their composite as [[relations]] (or as [[partial functions]]).  In fact, any inverse semigroup is isomorphic to a sub-inverse-semigroup of $I(X)$ by the "Cayley's theorem" for inverse semigroups (see below).
 
 This inverse semigroup plays a role in the theory similar to that of [[permutation]] groups in the theory of [[groups]].  It is also paradigmatic of the general philosophy that
 
@@ -192,6 +192,23 @@ x e x^\ast x e & = & x e e x^\ast x e & \\
 }$$ 
 
 as was to be shown. 
+=-- 
+
+### "Cayley's Theorem" for inverse semigroups
+
++-- {: .num_theorem}
+###### Theorem 
+
+Every inverse semigroup $S$ can be realized as a semigroup of partial bijections on a set.
+=-- 
+
++-- {: .proof}
+###### Proof
+First use the conventional Cayley's theorem to embed $S$ in $\text{End}(S)$ through the map sending $s\in S$ to the map $x\mapsto sx$.  We can now consider $S$ a subset of $\text{End}(S)$.
+
+For each map $s\in S$, $s^\ast s s^\ast=s^\ast$, so $s|_{s^\ast(S)}:s^\ast(S)\rightarrow s(S)$ has left inverse $s^\ast|_{s(S)}:s(S)\rightarrow s^\ast(S)$.  Similarly, as $s s^\ast s=s$, this map is a right inverse, so $s|_{s^\ast(S)}$ is a bijection.
+
+Consider the map $S\rightarrow I(S)$ defined by $s\mapsto (s|_{s^\ast(S)}: s^\ast(S)\rightarrow s(S))$.  We now check that this map is a homomorphism.  For $s,t\in S$, we want to compose the partial bijections $s|_{s^\ast(S)}$ and $t|_{t^\ast(S)}$.  To do this, we first compute the overlap between the codomain of the former and the domain of the latter, which is $s(S)\cap t^\ast (S)$.  The domain of $t|_{t^\ast(S)}\circ s|_{s^\ast(S)}$ is then $s^\ast (s(S)\cap t^\ast (S))=s^\ast t^\ast(S)=(ts)^\ast (S)$ as required.  Finally, we check injectivity.  If $s,t\in S$ and $s_{s^\ast(S)}=t_{t^\ast(S)}$, then $s^\ast(S)=t^\ast(S)$ so $ss^\ast=ts^\ast$.  But then $s^\ast s s^\ast = s^\ast t s^\ast$, so $s=t$.
 =-- 
 
 ##Links
