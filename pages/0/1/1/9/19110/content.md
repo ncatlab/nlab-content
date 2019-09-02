@@ -1265,7 +1265,7 @@ See also
 
 * {#Uranga00} [[Angel Uranga]], _D-brane probes, RR tadpole cancellation and K-theory charge_, Nucl.Phys.B598:225-246, 2001 ([arXiv:hep-th/0011048](https://arxiv.org/abs/hep-th/0011048))
 
-* {#Honecker02} Gabriele Honecker, _Intersecting brane world models from D8-branes on $(T^2 \times T^4\mathbb{Z}_3)/\Omega\mathcal{R}_1$ type IIA orientifolds_, JHEP 0201 (2002) 025 ([arXiv:hep-th/0201037](https://arxiv.org/abs/hep-th/0201037))
+* {#Honecker02} Gabriele Honecker, _Intersecting brane world models from D8-branes on $(T^2 \times T^4/\mathbb{Z}_3)/\Omega\mathcal{R}_1$ type IIA orientifolds_, JHEP 0201 (2002) 025 ([arXiv:hep-th/0201037](https://arxiv.org/abs/hep-th/0201037))
 
 * Maria E. Angulo, David Bailin, Huan-Xiong Yang, _Tadpole and Anomaly Cancellation Conditions in D-brane Orbifold Models_,  	Int.J.Mod.Phys.A18:3637-3694, 2003 ([arXiv:hep-th/0210150](https://arxiv.org/abs/hep-th/0210150))
 
