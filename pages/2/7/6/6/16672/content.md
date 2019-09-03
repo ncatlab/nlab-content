@@ -10,9 +10,12 @@ On [[C-field tadpole cancellation]]:
 
 * Keshav Dasgupta, Govindan Rajesh, [[Savdeep Sethi]], _M Theory, Orientifolds and G-Flux_, JHEP 9908 (1999) 023 ([arXiv:hep-th/9908088](https://xxx.lanl.gov/abs/hep-th/9908088))
 
-
 * {#Sethi07} [[Savdeep Sethi]], around (2) in _A Note on Heterotic Dualities via M-theory_, Phys.Lett.B659:385-387, 2008 ([arXiv:0707.0295](https://arxiv.org/abs/0707.0295))
 
+
+On [[string theory]] [[perturbative string theory vacuum|vacua]] [[KK-compactification|compactified]] on [[orbifolds]] and [[orientifolds]]:
+
+* {#BDHKMMS01} [[Jan de Boer]], [[Robbert Dijkgraaf]], [[Kentaro Hori]], [[Arjan Keurentjes]], [[John Morgan]], [[David Morrison]], [[Savdeep Sethi]], section 3 of _Triples, Fluxes, and Strings_, Adv.Theor.Math.Phys. 4 (2002) 995-1186 ([arXiv:hep-th/0103170](https://arxiv.org/abs/hep-th/0103170))
 
 On [[de Sitter spacetime]] (or not) among the [[landscape of string theory vacua]]:
 
