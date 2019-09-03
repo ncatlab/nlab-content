@@ -65,6 +65,11 @@ When $C = D$, then an [[algebra for an endofunctor]] is simply an $(F, id_C)$-di
 
 Initial dialgebras provide [[categorical semantics]] for [[inductive-inductive types]]. 
 
+## Relationship to program semantics (process calculi)
+
+Dialgebras can be used to provide semantics to interactive programs; [[coalgebras]] have also been frequently used for the purpose. In contrast, dialgebras provide a natural way to express interactions (using the functor $F$). Semantics in dialgebras is not obtained via final objects (which are frequently absent in categories of dialgebras), but rather via quotients. 
+
+
 
 ## Related concepts
 
@@ -78,5 +83,10 @@ Initial dialgebras provide [[categorical semantics]] for [[inductive-inductive t
 * {#lam} Tatsuya Hagino, _A Typed Lambda Calculus with Categorical Type Constructors_, 2005, [link](https://link.springer.com/chapter/10.1007/3-540-18508-9_24)
 
 * {#cat} Thorsten Altenkirch, Peter Morris, [[Fredrik Nordvall Forsberg]], [[Anton Setzer]],  _A Categorical Semantics for Inductive-Inductive Definitions_, CALCO, 2011 [link](https://link.springer.com/chapter/10.1007%2F978-3-642-22944-2_6)
+
+* {#ccs} Vincenzo Ciancia, _Interaction and Observation: Categorical Semantics of Reactive Systems Trough Dialgebras_, CALCO, 2013 [link](https://link.springer.com/chapter/10.1007%2F978-3-642-40206-7_10)
+
+* {#abthesis} Alwin Blok, _Interaction, observation and denotation.
+A study of dialgebras for program semantics_ Master Thesis, Institute for Logic, Language and Computation, University of Amsterdam. [link](https://eprints.illc.uva.nl/872/1/MoL-2012-06.text.pdf)
 
 [[!redirects dialgebras]]
