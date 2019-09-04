@@ -42,7 +42,7 @@ Physics is _dynamics_ in _spaces_ .
 * A general context for geometrical spaces and **processes** in these spaces is a [[cohesive (∞,1)-topos]].
 
 An example of relevance for much of physics is the cohesive $(\infty,1)$-topos 
-$\mathbf{H} = $ [[?LieGrpd]] of [[∞-Lie groupoid]]s. This contains
+$\mathbf{H} = $ [[∞LieGrpd]] of [[∞-Lie groupoid]]s. This contains
 
 * [[smooth manifold]]s;
 
