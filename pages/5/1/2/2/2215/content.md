@@ -1,1 +1,1 @@
-The material previously on this page may be found at [InterSciWiki](http://intersci.ss.uci.edu/wiki/index.php/Continuous_predicate).
+The material previously on this page may be found at [OEIS Wiki](https://oeis.org/wiki/Continuous_predicate).
