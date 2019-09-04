@@ -103,7 +103,7 @@ The [[ordinary cohomology]] with [[coefficients]] in the [[prime field]] $\mathb
 ### Relation to the Conway group, $Co_3$
 {#RelationtoCo3}
 
-$B G_3$ receives a map from $B Co_3$, the [[delooping]] of the [[Conway group]], $Co_3$. This map has the property that it injects the mod two cohomology of $B G_3$ as a subring over which the mod two cohomology of $B Co_3$ is finitely generated as a module (see [Benson 94](#Benson94)). This continues a pattern from $B A_5 \to B SO(3)$ and $B M_{12} \to B G_2$, where $M_{12}$ is a [[Mathieu group]].
+$B G_3$ receives a map from $B Co_3$, the [[delooping]] of the [[Conway group]], $Co_3$. This map has the property that it injects the mod two cohomology of $B G_3$ as a subring over which the mod two cohomology of $B Co_3$ is finitely generated as a module (see [Benson 94](#Benson94)). This continues a pattern from $B A_5 \to B SO(3)$ and $B M_{12} \to B G_2$, where $M_{12}$ is a [[Mathieu group]]. For further developments see ([Aschbacher-Chermak 10]({#AschbacherChermak10})).
 
 
 ### Relation to octonionic $3 \times 3$ matrix algebra?
@@ -180,6 +180,7 @@ See also
 
 * {#BakerBauer19} Andrew Baker, Tilman Bauer, _The realizability of some finite-length modules over the Steenrod algebra by spaces_, ([arXiv:1903.10288](https://arxiv.org/abs/1903.10288))
 
+* {#AschbacherChermak10}, Michael Aschbacher, Andrew Chermak, _A group-theoretic approach to a family of 2-local finite groups constructed by Levi and Oliver_, ([paper](http://annals.math.princeton.edu/2010/171-2/p06))
 
 
 
