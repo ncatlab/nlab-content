@@ -28,7 +28,7 @@ The [[geometric infinity-stacks]] within all [[smooth infinity-groupoids]] are c
 [[!redirects ∞-Lie groupoid]]
 [[!redirects ∞-Lie groupoids]]
 
-[[!redirects ?LieGrpd]]
+[[!redirects ∞LieGrpd]]
 
 [[!redirects Lie-infinity groupoid]]
 [[!redirects Lie ∞-groupoids]]
