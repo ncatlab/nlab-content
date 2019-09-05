@@ -51,7 +51,9 @@ One distinguishes [[bottom-up and top-down model building]]] strategies:
 
 One of the most striking special properties of the [[standard model of particle physics]] is that its content of [[fermionic]] [[fundamental particles]] is "[[chiral fermion|chiral]]", in that the left and right [[Weyl spinor]]-components of the would-be [[Dirac spinor]]-representation of the [[quarks]], [[electrons]] and [[neutrinos]] couple _differently_ to the [[gauge fields]] (for review see e.g. [Ibanez-Uranga 12, section 1.1](#IbanezUranga12)).
 
-The observation that such [[Weyl spinor|chiral fermions]] do indeed appear when [[D6-branes]]  [[brane intersection|intersect]] at an angle on an $\mathbb{R}^{3,1}$ is due to ([Berkooz-Douglas-Leigh 96](#BerkoozDouglasLeigh96)), see also ([AFIRU 00, section 4](#AFIRU00), [BCLS 05, section 2.3](#BCLS05)).
+The observation that such [[Weyl spinor|chiral fermions]] do indeed appear when [[D6-branes]]  [[brane intersection|intersect]] at an angle on an $\mathbb{R}^{3,1}$ is due to ([Berkooz-Douglas-Leigh 96](#BerkoozDouglasLeigh96)), see also ([AFIRU 00, section 4](#AFIRU00), [BCLS 05, section 2.3](#BCLS05)). For review with an eye towards [[RR-field tadpole cancellation]] on [[toroidal orbifold|toroidal]] [[orientifolds]] see also [Forste-Honecker-Schreyer 01](#ForsteHoneckerSchreyer01), [Honecker 01, Sec. 2](#Honecker01).
+
+
 
 <img src="https://ncatlab.org/nlab/files/D6BranesIntersectingAtAnAngle.png" width="650"/>
 
@@ -207,11 +209,18 @@ The observation that [[Weyl spinor|chiral fermions]] appear when [[D6-branes]]  
 
 * {#BerkoozDouglasLeigh96} [[Micha Berkooz]], [[Michael Douglas]], [[Robert Leigh]], _Branes Intersecting at Angles_, Nucl.Phys.B480:265-278, 1996 ([arXiv:hep-th/9606139](https://arxiv.org/abs/hep-th/9606139))
 
+see also
+
+* {#ForsteHoneckerSchreyer01} Stefan Forste, [[Gabriele Honecker]], Ralph Schreyer, _Orientifolds with branes at angles_, JHEP 0106:004, 2001 ([arXiv:hep-th/0105208](https://arxiv.org/abs/hep-th/0105208))
+
+* {#Honecker01} [[Gabriele Honecker]], _Non-supersymmetric Orientifolds with D-branes at Angles_, Fortsch.Phys. 50 (2002) 896-902 ([arXiv:hep-th/0112174](https://arxiv.org/abs/hep-th/0112174))
+
 
 
 Review includes
 
 * G. Aldazabal, [[Luis Ibáñez]], F. Quevedo, _On Realistic Brane Worlds from Type I Strings_ ([arXiv:hep-ph/0005033](https://arxiv.org/abs/hep-ph/0005033))
+
 
 * {#Marchesano03} [[Fernando Marchesano]], _Intersecting D-brane Models_ ([arXiv:hep-th/0307252](https://arxiv.org/abs/hep-th/0307252))
 
@@ -350,3 +359,5 @@ Quick survey is in
 [[!redirects intersecting D-brane models]]
 
 [[!redirects intersecting D-brane model building]]
+
+[[!redirects branes at angles]]
