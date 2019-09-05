@@ -68,7 +68,7 @@ As a [[Green-Schwarz sigma-model]]:
 
 * {#Sakaguchi00} Makoto Sakaguchi, _IIB-Branes and New Spacetime Superalgebras_, JHEP 0004 (2000) 019 ([arXiv:hep-th/9909143](https://arxiv.org/abs/hep-th/9909143))
 
-### Double dimensional reduction to D4-brane
+### Double dimensional reduction from M5-brane
 
 The relation of the [[M5-brane]] to the [[D4-brane]] and the [[D=5 super Yang-Mills theory]] in its [[worldvolume]] [[physical theory|theory]] by [[double dimensional reduction]]:
 
@@ -83,6 +83,36 @@ The relation of the [[M5-brane]] to the [[D4-brane]] and the [[D=5 super Yang-Mi
 * Chong-Sun Chu, Sheng-Lan Ko, _Non-abelian Action for Multiple Five-Branes with Self-Dual Tensors_, ([arXiv:1203.4224](http://arxiv.org/abs/1203.4224)) JHEP05(2012)028
 
 * [[Neil Lambert]], Miles Owen, _Charged Chiral Fermions from M5-Branes_ ([arXiv:1802.07766](https://arxiv.org/abs/1802.07766))
+
+### D4-D8 intersection
+
+On [[D4-D8 bound states]]:
+
+With an eye towards [[holographic QCD]]:
+
+* {#Nastase03} [[Horatiu Nastase]], _On Dp-Dp+4 systems, QCD dual and phenomenology_ ([arXiv:hep-th/0305069](https://arxiv.org/abs/hep-th/0305069))
+
+
+### String phenomenology / intersecting D4-brane models
+
+[[intersecting D-brane models]] with intersecting D4-branes:
+
+
+Only [[D4-branes]]:
+
+
+* {#BKL01} D. Bailin, G. V. Kraniotis, A. Love, _Standard-like models from intersecting D4-branes_, Phys. Lett. B530 (2002) 202-209 ([arXiv:hep-th/0108131](https://arxiv.org/abs/hep-th/0108131))
+
+
+* {#KataokaShimojo01} H. Kataoka, M. Shimojo, _$SU(3) \times SU(2) \times U(1)$ Chiral Models from Intersecting D4-/D5-branes_, Progress of Theoretical Physics, Volume 107, Issue 6, June 2002, Pages 1291–1296 ([arXiv:hep-th/0112247](https://arxiv.org/abs/hep-th/0112247), [doi:10.1143/PTP.107.1291](https://doi.org/10.1143/PTP.107.1291))
+
+* {#Bailin02} D. Bailin, _Standard-like models from D-branes_, J Phys (2003) 60: 199 ([arXiv:hep-th/0210227](https://arxiv.org/abs/hep-th/0210227))
+
+* D. Bailin, G. V. Kraniotis, A. Love, _New Standard-like Models from Intersecting D4-Branes_, Phys. Lett. B547 (2002) 43-50 ([arXiv:hep-th/0208103](https://arxiv.org/abs/hep-th/0208103))
+
+[[D4-branes]] that [[brane intersection|intersect]] [[D8-branes]]:
+
+* [[Witten-Sakai-Sugimoto model]] for [[non-perturbative effect|non-perturbative]] [[quantum chromodynamics]]
 
 ### Relation to Khovanov homology
 
