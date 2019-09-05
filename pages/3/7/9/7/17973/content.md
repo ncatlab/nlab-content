@@ -38,7 +38,7 @@ See also at [[string phenomenology]] the section _[Models in type II with inters
 ## Bottom-up and Top-down approaches
 
 
-One distinguishes [[bottom-up and top-down model building]]] strategies:
+One distinguishes [[bottom-up and top-down model building]] strategies:
 
 <img src="https://ncatlab.org/nlab/files/BottomUpAndTopDownIntersDBraneModelBuilding.png" width="700"/>
 
