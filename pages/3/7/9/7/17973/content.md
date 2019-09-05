@@ -114,6 +114,7 @@ Consistent intersecting D-brane models have to be in [[type I string theory]], o
 
 This is a key consistency condition in intersecting D-brane model building (e.g. [BCLS 05, section 2.4](#BCLS05), [Ibanez-Uranga 12, section 4.4](#IbanezUranga12))
 
+[[!include RR-field tadpole cancellation on toroidal orientifolds -- table]]
 
 ### Intersections of D6s with D8/O8s
  {#IntersectionOfD6WithO8}
@@ -195,6 +196,53 @@ Discussion of [[string phenomenology]] of [[intersecting D-brane models]] [[KK-c
 >  The blue dot indicates the couplings in $SU(5)$-[[GUT]] theory. The faint lines are NOT drawn by hand, but reflect increased density of Gepner models as seen by the computer scan.
 
 
+## Examples
+
+### Intersecting D6-brane models
+
+(...)
+
+* {#IshiharaKataokaSato99} S. Ishihara, H. Kataoka, Hikaru Sato, _$D=4$, $N=1$, Type IIA Orientifolds_, Phys. Rev. D60 (1999) 126005 ([arXiv:hep-th/9908017](https://arxiv.org/abs/hep-th/9908017))
+
+(...)
+
+### Intersecting D4-brane models
+ {#IntersectingD4BraneModels}
+
+
+Only [[D4-branes]]:
+
+
+* {#BKL01} D. Bailin, G. V. Kraniotis, A. Love, _Standard-like models from intersecting D4-branes_, Phys. Lett. B530 (2002) 202-209 ([arXiv:hep-th/0108131](https://arxiv.org/abs/hep-th/0108131))
+
+
+* {#KataokaShimojo01} H. Kataoka, M. Shimojo, _$SU(3) \times SU(2) \times U(1)$ Chiral Models from Intersecting D4-/D5-branes_, Progress of Theoretical Physics, Volume 107, Issue 6, June 2002, Pages 1291–1296 ([arXiv:hep-th/0112247](https://arxiv.org/abs/hep-th/0112247), [doi:10.1143/PTP.107.1291](https://doi.org/10.1143/PTP.107.1291))
+
+
+* {#Bailin02} D. Bailin, _Standard-like models from D-branes_, J Phys (2003) 60: 199 ([arXiv:hep-th/0210227](https://arxiv.org/abs/hep-th/0210227))
+
+* D. Bailin, G. V. Kraniotis, A. Love, _New Standard-like Models from Intersecting D4-Branes_, Phys. Lett. B547 (2002) 43-50 ([arXiv:hep-th/0208103](https://arxiv.org/abs/hep-th/0208103))
+
+[[D4-D8 brane bound states]]:
+
+give the [[Witten-Sakai-Sugimoto model]] for [[holographic QCD]]
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/SakaiSugimotoModel.jpg" width="600">
+</center>
+
+> graphics grabbed from [Erlich 09, section 1.1](WSS-model#Erlich09)
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/IntersectingBranesSSWModel.jpg" width="700">
+</center>
+
+> graphics grabbed from [Rebhan 14](WSS-model#Rebhan14)
+
+
+(...)
 
 ## References
 
