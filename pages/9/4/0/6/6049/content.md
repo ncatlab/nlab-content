@@ -182,7 +182,15 @@ In general, some of the NS5 sit away from the [[O8-plane]], while some sit on to
 > from [Hanany-Zaffaroni 98](#HananyZaffaroni98)
 
 
+<img src="https://ncatlab.org/nlab/files/ApruzziFazziHalfM5.jpg" width="500"/>
+
+
+> graphics grabbed from [Apruzzi-Fazzi 17, p. 18](#ApruzziFazzi17)
+
+
 See also at _[[intersecting D-brane models]]_ the section _[Intersection of D6s with O8s](intersecting+D-brane+model#IntersectionOfD6WithO8)_.
+
+
 
 #### Webs
 
@@ -377,7 +385,11 @@ Intersection of [[black brane|black]] NS5-branes with [[O8-planes]]/[[black bran
 
 * {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_, JHEP05(2019)203 ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
 
+* {#ApruzziFazzi17} Fabio Apruzzi, Marco Fazzi, _$AdS_7/CFT_6$ with orientifolds_, J. High Energ. Phys. (2018) 2018: 124 ([arXiv:1712.03235](https://arxiv.org/abs/1712.03235))
+
 * {#HSS18} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], Example 2.2.7 of: _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_, Communications in Mathematical Physics (2019) ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987), [doi:10.1007/s00220-019-03442-3](http://link.springer.com/article/10.1007/s00220-019-03442-3))
+
+* {#FSS19c} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 4 of: _[[schreiber:Super-exceptional embedding construction of the M5-brane|Super-exceptional geometry: origin of heterotic M-theory and super-exceptional embedding construction of M5]]_ ([arXiv:1908.00042](https://arxiv.org/abs/1908.00042))
 
 
 
