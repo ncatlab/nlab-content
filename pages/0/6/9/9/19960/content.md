@@ -68,7 +68,7 @@ This already produces a pure [[Yang-Mills theory]] whose [[glueball]]-spectra  m
 
 > graphics grabbed from [Rebhan 14](#Rebhan14)
 
-The further introduction of [[intersecting D-brane model|intersecting]] [[D8-branes]] and [[anti D-brane|anti]] [[D8-branes]] makes a sensible sector of [[chiral fermions]] appear in this model ([Sakai-Sugimoto 04](#SakaiSugimoto04), [Sakai-Sugimoto 05](#SakaiSugimoto05))
+The further introduction of [[intersecting D-brane model|intersecting]] [[D8-branes]] and [[anti D-brane|anti]] [[D8-branes]] to [[D4-D8 brane bound states]] makes a sensible sector of [[chiral fermions]] appear in this model ([Sakai-Sugimoto 04](#SakaiSugimoto04), [Sakai-Sugimoto 05](#SakaiSugimoto05))
 
 <center>
 <img src="https://ncatlab.org/nlab/files/SakaiSugimotoModel.jpg" width="600">
@@ -516,6 +516,9 @@ to [[confinement]]/[[quark-gluon plasma|deconfinement]] phase transiton:
 
 [[!redirects Sakai-Sugimoto-Witten model]]
 [[!redirects Sakai-Sugimoto-Witten models]]
+
+[[!redirects WSS model]]
+[[!redirects WSS models]]
 
 [[!redirects holographic QCD]]
 [[!redirects holographic quantum chromodynamics]]
