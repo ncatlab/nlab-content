@@ -27,6 +27,7 @@ Plays a central role in the discussion of [[black holes in string theory]].
 
 * [NS5-D4-D2 bound states](NS5-brane#NS5D4D2BoundStates)
 
+* [[D4-D8 brane bound state]]
 
 * [[bound state]]
 
