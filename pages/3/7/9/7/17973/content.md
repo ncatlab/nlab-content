@@ -51,7 +51,7 @@ One distinguishes [[bottom-up and top-down model building]] strategies:
 
 One of the most striking special properties of the [[standard model of particle physics]] is that its content of [[fermionic]] [[fundamental particles]] is "[[chiral fermion|chiral]]", in that the left and right [[Weyl spinor]]-components of the would-be [[Dirac spinor]]-representation of the [[quarks]], [[electrons]] and [[neutrinos]] couple _differently_ to the [[gauge fields]] (for review see e.g. [Ibanez-Uranga 12, section 1.1](#IbanezUranga12)).
 
-The observation that such [[Weyl spinor|chiral fermions]] do indeed appear when [[D6-branes]]  [[brane intersection|intersect]] at an angle on an $\mathbb{R}^{3,1}$ is due to ([Berkooz-Douglas-Leigh 96](#BerkoozDouglasLeigh96)), see also ([AFIRU 00, section 4](#AFIRU00), [BCLS 05, section 2.3](#BCLS05)). For review with an eye towards [[RR-field tadpole cancellation]] on [[toroidal orbifold|toroidal]] [[orientifolds]] see also [Forste-Honecker-Schreyer 01](#ForsteHoneckerSchreyer01), [Honecker 01, Sec. 2](#Honecker01).
+The observation that such [[Weyl spinor|chiral fermions]] do indeed appear when [[D6-branes]]  [[brane intersection|intersect]] at an angle on an $\mathbb{R}^{3,1}$ is due to ([Berkooz-Douglas-Leigh 96](#BerkoozDouglasLeigh96)), see also ([AFIRU 00, section 4](#AFIRU00), [BCLS 05, section 2.3](#BCLS05)). For review with an eye towards [[RR-field tadpole cancellation]] on [[toroidal orbifold|toroidal]] [[orientifolds]] see also [Forste-Honecker-Schreyer 01](#ForsteHoneckerSchreyer01), [Honecker 01, Sec. 2](#Honecker01), [Honecker 02](#Honecker02).
 
 
 
@@ -209,12 +209,13 @@ The observation that [[Weyl spinor|chiral fermions]] appear when [[D6-branes]]  
 
 * {#BerkoozDouglasLeigh96} [[Micha Berkooz]], [[Michael Douglas]], [[Robert Leigh]], _Branes Intersecting at Angles_, Nucl.Phys.B480:265-278, 1996 ([arXiv:hep-th/9606139](https://arxiv.org/abs/hep-th/9606139))
 
-see also
+development for [[toroidal orbifold|toroidal]] [[orientifolds]] is due to
 
 * {#ForsteHoneckerSchreyer01} Stefan Forste, [[Gabriele Honecker]], Ralph Schreyer, _Orientifolds with branes at angles_, JHEP 0106:004, 2001 ([arXiv:hep-th/0105208](https://arxiv.org/abs/hep-th/0105208))
 
 * {#Honecker01} [[Gabriele Honecker]], _Non-supersymmetric Orientifolds with D-branes at Angles_, Fortsch.Phys. 50 (2002) 896-902 ([arXiv:hep-th/0112174](https://arxiv.org/abs/hep-th/0112174))
 
+* {#Honecker02} [[Gabriele Honecker]], _Non-supersymmetric orientifolds and chiral fermions from intersecting D6- and D8-branes_, thesis 2002 ([[HoneckerIntersectingDBraneModels02.pdf:file]])
 
 
 Review includes
