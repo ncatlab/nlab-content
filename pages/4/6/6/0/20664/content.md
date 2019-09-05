@@ -10,7 +10,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -69,6 +68,18 @@ As [[black brane]] [[supergravity]]-solutions:
 * {#VanPol15} Bert Van Pol, Section 5 of: _Aspects of D-branes in supergravity_, thesis 2015 ([pdf](http://inspirehep.net/record/1404388/files/bertvanpol-phdthesis.pdf), [[VanPolThesis15.pdf:file]])
 
 * {#DibitettoPetri18} Giuseppe Dibitetto, Nicolò Petri, _Surface defects in the D4-D8 brane system_, J. High Energ. Phys. (2019) 2019: 193 ([arXiv:1807.07768](https://arxiv.org/abs/1807.07768))
+
+With application to [[holographic QCD]]:
+
+* [[David Morrison]], [[Nathan Seiberg]], _Extremal Transitions and Five-Dimensional Supersymmetric Field Theories_, Nucl. Phys.B483:229-247, 1997 ([arXiv:hep-th/9609070](https://arxiv.org/abs/hep-th/9609070))
+
+* [Nastase 03, Sec. 5](#Nastase03)
+
+* Hee-Cheol Kim, Sung-Soo Kim, Kimyeong Lee, _5-dim Superconformal Index with Enhanced En Global Symmetry_, JHEP 1210 (2012) 142 ([arXiv:1206.6781](https://arxiv.org/abs/1206.6781))
+
+Review:
+
+* Yolanda Lozano, Section 2 of: _Hints on 5d Fixed Point Theories from Non-Abelian T-duality_, IFT 2014 ([slides pdf](https://www.unioviedo.es/hepth/people/Yolanda/talks/IFT2014.pdf), [[Lozano5d.pdf:file]])
 
 Among review of the [[Witten-Sakai-Sugimoto model]]:
 
