@@ -1,3 +1,24 @@
+$$
+\array{
+  & (M \otimes M) \otimes M
+    & \stackrel{\alpha}{\longrightarrow}
+  & M \otimes (M \otimes M)
+    & \stackrel{1 \otimes \mu}{\longrightarrow}
+  & M \otimes M
+  \\
+  & {}_{\mu \otimes 1}\searrow
+    &&
+    && \swarrow_{\mu}
+  &
+  \\
+  &&
+  M \otimes M
+    & \stackrel{\mu}{\longrightarrow}
+  M
+  &&
+}
+$$
+
 
 | $H \subset G$ | $N_G H$ | $W_G H$ | $\left\vert W_G H\right\vert$ |
 |---------------|---------|-------|-------------------------------|
