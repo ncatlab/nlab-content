@@ -1325,6 +1325,8 @@ Specifically [[K3]] [[orientifolds]] ($\mathbb{T}^4/G_{ADE}$) in [[type IIB stri
 
 * {#BuchelShiuTye99} Alex Buchel, [[Gary Shiu]], S.-H. Henry Tye, _Anomaly Cancelations in Orientifolds with Quantized B Flux_, Nucl.Phys. B569 (2000) 329-361 ([arXiv:hep-th/9907203](https://arxiv.org/abs/hep-th/9907203))
 
+* P. Anastasopoulos, A. B. Hammou, _A Classification of Toroidal Orientifold Models_, Nucl. Phys. B729:49-78, 2005 ([arXiv:hep-th/0503044](https://arxiv.org/abs/hep-th/0503044))
+
 Specifically [[K3]] [[orientifolds]] ($\mathbb{T}^4/G_{ADE}$) in [[type IIA string theory]], hence for [[D8-branes]] and [[D4-branes]]:
 
 * {#ParkUranga98} J. Park, [[Angel Uranga]], _A Note on Superconformal N=2 theories and Orientifolds_, Nucl. Phys. B542:139-156, 1999 ([arXiv:hep-th/9808161](https://arxiv.org/abs/hep-th/9808161))
@@ -1342,13 +1344,22 @@ Specifically [[K3]] [[orientifolds]] ($\mathbb{T}^4/G_{ADE}$) in [[type IIA stri
 
 * {#Honecker02b} [[Gabriele Honecker]], _Non-supersymmetric orientifolds and chiral fermions from intersecting D6- and D8-branes_, thesis 2002 ([[HoneckerIntersectingDBraneModels02.pdf:file]])
 
+Specifically D5 brane models [[T-duality|T-dual]] to D6/D8 models:
+
+* [[Angel Uranga]], _A New Orientifold of $\mathbb{C}^2/\mathbb{Z}_N$ and Six-dimensional RG Fixed Points_, Nucl. Phys. B577:73-87, 2000 ([arXiv:hep-th/9910155](https://arxiv.org/abs/hep-th/9910155))
+
+* {#FengHeKarchUranga01} Bo Feng, [[Yang-Hui He]], [[Andreas Karch]], [[Angel Uranga]], _Orientifold dual for stuck NS5 branes_, JHEP 0106:065, 2001 ([arXiv:hep-th/0103177](https://arxiv.org/abs/hep-th/0103177))
+
+
 Specifically for [[D6-branes]]:
 
 * {#IshiharaKataokaSato99} S. Ishihara, H. Kataoka, Hikaru Sato, _$D=4$, $N=1$, Type IIA Orientifolds_, Phys. Rev. D60 (1999) 126005 ([arXiv:hep-th/9908017](https://arxiv.org/abs/hep-th/9908017))
 
+* [[Mirjam Cvetic]], Paul Langacker, Tianjun Li, Tao Liu, _D6-brane Splitting on Type IIA Orientifolds_, Nucl. Phys. B709:241-266, 2005 ([arXiv:hep-th/0407178](https://arxiv.org/abs/hep-th/0407178))
+
 Specifically for [[D3-branes]]/[[D7-branes]]:
 
-* {#FengHeKarchUranga01} Bo Feng, [[Yang-Hui He]], [[Andreas Karch]], [[Angel Uranga]], _Orientifold dual for stuck NS5 branes_, JHEP 0106:065, 2001 ([arXiv:hep-th/0103177](https://arxiv.org/abs/hep-th/0103177))
+* [Feng-He-Karch-Uranga 01](#FengHeKarchUranga01)
 
 Various:
 
