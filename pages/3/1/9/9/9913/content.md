@@ -12,6 +12,11 @@ On [[intersecting D-brane models]] (on [[orbifolds]]/[[orientifolds]] with [[RR-
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
+On [[NS5-branes]] and [[orientifolds]] with [[RR-field tadpole cancellation]]:
+
+* {#FengHeKarchUranga01} Bo Feng, [[Yang-Hui He]], [[Andreas Karch]], [[Angel Uranga]], _Orientifold dual for stuck NS5 branes_, JHEP 0106:065, 2001 ([arXiv:hep-th/0103177](https://arxiv.org/abs/hep-th/0103177))
+
+
 
 ## related $n$Lab entries
 
