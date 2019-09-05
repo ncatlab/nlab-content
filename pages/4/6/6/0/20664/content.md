@@ -22,7 +22,7 @@
 
 ### As a black brane
 
-As a [[black brane]] [[supergravity]] solution:  [Brandhuber-Oz 99](#BrandhuberOz99), [Nastase 03, Sec. 2 and 3](#Nastase03), [Van Pol 15, Sec 5](#VanPol15), [Dibitetto-Petri 18](#DibitettoPetri18)
+As a [[black brane]] [[supergravity]] solution:  [Brandhuber-Oz 99](#BrandhuberOz99), [Nastase 03, Sec. 2 and 3](#Nastase03), [BSU 09](#BSU09),  [Van Pol 15, Sec 5](#VanPol15), [Dibitetto-Petri 18](#DibitettoPetri18)
 
 ### As the Witten-Sakai-Sugimoto model for QCD
 
@@ -64,6 +64,8 @@ As [[black brane]] [[supergravity]]-solutions:
 * {#BrandhuberOz99} [[Andreas Brandhuber]], [[Yaron Oz]], _The D4-D8 Brane System and Five Dimensional Fixed Points_, Phys.Lett. B460:307-312, 1999 ([arXiv:hep-th/9905148](https://arxiv.org/abs/hep-th/9905148))
 
 * {#Nastase03} [[Horatiu Nastase]], Sections 2, 3 of: _On Dp-Dp+4 systems, QCD dual and phenomenology_ ([arXiv:hep-th/0305069](https://arxiv.org/abs/hep-th/0305069))
+
+* {#BSU09} Pierre Binetruy, Misao Sasaki, Kunihito Uzawam, _Dynamical D4-D8 and D3-D7 branes in supergravity_, Phys. Rev. D80:026001, 2009 ([arXiv:0712.3615](https://arxiv.org/abs/0712.3615))
 
 * {#VanPol15} Bert Van Pol, Section 5 of: _Aspects of D-branes in supergravity_, thesis 2015 ([pdf](http://inspirehep.net/record/1404388/files/bertvanpol-phdthesis.pdf), [[VanPolThesis15.pdf:file]])
 
