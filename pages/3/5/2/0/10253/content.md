@@ -7,6 +7,7 @@
 
 On [[intersecting D-brane models]] on [[toroidal orbifolds]]/[[orientifolds]] with [[RR-field tadpole cancellation]] with [[branes at angles]]:
 
+* {#Honecker02} [[Gabriele Honecker]], _Non-supersymmetric orientifolds and chiral fermions from intersecting D6- and D8-branes_, thesis 2002 ([[HoneckerIntersectingDBraneModels02.pdf:file]])
 
 * {#ForsteHoneckerSchreyer01} Stefan Forste, [[Gabriele Honecker]], Ralph Schreyer, _Orientifolds with branes at angles_, JHEP 0106:004, 2001 ([arXiv:hep-th/0105208](https://arxiv.org/abs/hep-th/0105208))
 
