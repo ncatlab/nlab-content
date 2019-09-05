@@ -54,24 +54,21 @@ Traditionally RR-tadpole cancellation is discussed in [[ordinary cohomology]], t
 Discussion of tadpole cancellation with [[D-brane charge]] regarded in [[K-theory]] was initated in [Uranga 00, Section 5](#Uranga00), see also [Garcia-Uranga 05](#GarciaUranga05), [Marchesano 03, Section 4](#Marchesano03), [Marchesano-Shiu 04](#MarchesanoShiu04), [CKMNW 05, Section 2.2](#CKMNW05), [Maiden-Shiu-Stefanski 06, Section 5](#MaidenShiuStefanski06), [DFM 09, p. 6-7](#DFM09).
 
 
+But the situation remains somewhat inconclusive (see also [Moore 14, p. 21-22](#Moore14)).
 
-But the situation seems to remain somewhat inconclusive (see also [Moore 14, p. 21-22](#Moore14)).
+\linebreak
 
-## In toroidal orientifolds
+## In plane and toroidal orientifolds
  {#ForFractionalDBranes}
 
-More details are understood in the special case of [[toroidal orbifold|toroidal orientifolds]] where [[fractional D-branes]] may be stuck at [[orbifold]]/[[orientifold]] singularities, whose [[D-brane charge]] is supposed to be in the [[equivariant K-theory]] of the point, hence the [[representation ring]] of the given [[isotropy group]].
+More details are understood in the special case of plane orbifolds $V^{cpt} \!\sslash\! G$ and [[toroidal orbifold|toroidal orientifolds]] $\mathbb{T}^V \!\sslash\! G$ where [[fractional D-branes]] may be stuck at [[orbifold]]/[[orientifold]] singularities, whose [[D-brane charge]] is supposed to be in the [[equivariant K-theory]] of the point, hence the [[representation ring]] of the given [[isotropy group]].
 
 ### In terms of equivariant K-theory / the representation ring
  {#InTermsOfEquivariantKTheory}
 
 In this case tadpole cancellation conditions are given by [[representation theory|representation theoretic]] [[equations]], constraining the [[character of a linear representation|characters]] of the [[linear representations]] corresponding to the [[fractional D-branes]].
 
-Detailed review of this is 
-
-in [Buchel-Shiu-Tye 99, Section II.A](#BuchelShiuTye99) for [[K3]]-orientifolds $\mathbb{T}^4/\mathbb{Z}_N^{DE}$, following [Simon-Polchinski 96, Section 2](#GimonPolchinski96), 
-
-also in [Marchesano 03, Section 4](#Marchesano03), based on [ABIU 99](#ABIU99), [Honecker 02](#Honecker02).
+spring
 
 Let $G$ be a [[finite group]]. Let 
 
@@ -124,7 +121,7 @@ This way every [[virtual representation]] $[V] \in RU(G) = KU_G(\ast)$ (the [[D-
 
 Here $dim(V) \in \mathbb{Z}$ is the [[mass]], hence the net number of [[fractional D-branes]]/[[anti-branes]] in the [[bound state]], while $tr_V\left(g_k\right)$ is (up to a global [[rational number]]-factor $1/{\vert G \vert}$) supposed to be its  [[charge]] as seen by the [[RR-fields]] in the $g_k$-[[twisted sector]].
 
-In fact, since we are dealing with fractional D-branes, both the charge and mass in the above table are in factional units $1/{\vert G\vert}$ of the [[order of a group|order]] of the [[isotropy group]] $G_{DE}$ (by [this formula](fractional+D-brane#eq:RRChargeOfFractionalDBraneInGTwistedSector)), so that normalized [[mass]] and [[charge]] is
+In fact, since we are dealing with fractional D-branes, both the charge and mass in the above table are in factional units $1/{\vert G\vert}$ of the [[order of a group|order]] of the [[isotropy group]] $G$ (by [this formula](fractional+D-brane#eq:RRChargeOfFractionalDBraneInGTwistedSector)), so that normalized [[mass]] and [[charge]] is
 
 \[
   \label{ChargeMass}
@@ -144,7 +141,10 @@ In fact, since we are dealing with fractional D-branes, both the charge and mass
   \,.
 \]
 
-Now in terms of this, the tadpole cancellation condition for [[fractional D-branes]] is that the RR-charges in all non-trivially twisted sectors vanish:
+#### Local/twisted tadpole cancellation
+ {#TwistedTadpoleCancellation}
+
+The **twisted (local) tadpole cancellation condition** for [[fractional D-branes]] at orbifold singularities is that the RR-charges in all non-trivially twisted sectors vanish:
 
 \[
   \label{VanishingOfCharacterValuesOnNontrivialSubgroups}
@@ -158,9 +158,6 @@ Now in terms of this, the tadpole cancellation condition for [[fractional D-bran
   g \neq e
 \]
 
-(for [[D4-branes]]: [AFIRU01a, 4.2.1](#AFIRU01a) [AFIRU 01 (7.2)](#AFIRU01b), [Marchesano 03 (4.9)](#Marchesano03))
-
-(for [[D5-branes]]: [Buchel-Shiu-Tye 99 (18)](#BuchelShiuTye99))
 
 +-- {: .num_example #UnitRegularRepresentation}
 ###### Example
@@ -187,7 +184,7 @@ These multiples of the [[regular representation]] are regarded as trivial soluti
 +-- {: .num_prop #RegularRepSpansSolutionToHomogeneousTadpoleCancellation}
 ###### Proposition
 
-In fact, the multiples of the [[regular representation]] (Example \ref{UnitRegularRepresentation}) are the _only_ solutions to the homogeneous tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for [[fractional D-branes]].
+In fact, the multiples of the [[regular representation]] (Example \ref{UnitRegularRepresentation}) are the _only_ solutions to the local/twisted tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for [[fractional D-branes]].
 
 =--
 
@@ -268,8 +265,9 @@ This is indeed the case for the multiples $V = n\cdot k[G/1]$ of the [[regular r
 
 =--
 
+#### Global/untwisted tadpole cancellation
+ {#UntwistedTadpoleCancellation}
 
-<br/>
 
 On the other hand, at an [[orientifold]] singularity, the [[O-plane]] itself carries such charge -- [[O-plane charge]] (see [there](orientifold+plane#OPlaneCharge)):
 
@@ -278,7 +276,9 @@ On the other hand, at an [[orientifold]] singularity, the [[O-plane]] itself car
 | $\chi_O =$ | $dim(O)$ |  $tr_O\left( g_1\right)$ |  $tr_O\left(g_2\right)$ | $\cdots$ |  $tr_O\left(g_{\vert ConjCl(G)\vert}\right)$ | 
 | $\text{O-plane}$ |   | ${\text{O-plane charge in} \atop {g_1\text{-twisted sector}}}$  | ${\text{O-plane-charge in} \atop {g_2\text{-twisted sector}}}$  | $\cdots$  | $\cdots$  | 
 
-Now the tadpole cancellation condition is that (all representations are real and) this [[O-plane charge]] is cancelled against the [[D-brane charge]], an [[affine space|affine]] version of the previous condition:
+(These are $O^-$-plane charges. There may also be $O^+$-plane charges. Alternatively, these are $O^-$-branes with a fractional D-brane stuck on them.)
+
+Now the **untwisted (global) tadpole cancellation condition** is that (all representations are real and) this [[O-plane charge]] is cancelled against the [[D-brane charge]]:
 
 \[
   \label{InhomogeneousTadpoleCancellation}
@@ -290,9 +290,14 @@ Now the tadpole cancellation condition is that (all representations are real and
   \,.
 \]
 
-this is ([Buchel-Shiu-Tye 99 (18)](#BuchelShiuTye99))
 
-By Prop. \ref{RegularRepSpansSolutionToHomogeneousTadpoleCancellation} the only possible solution of this is the $n$th multiple of the [[regular representation]], if $dim(O)$ is $n$ times the dimension of the regular representation.
+By Prop. \ref{RegularRepSpansSolutionToHomogeneousTadpoleCancellation} the only possible solution of this is the $n$th multiple of the [[regular representation]], if $dim(O)$ is $n$ times the dimension of the [[regular representation]]:
+
+\[
+  \label{VIsMultipleOfRegularRepresentation}
+  V = N \cdot k[G/1]
+  \,.
+\]
 
 
 In basic examples the [[O-plane]]-charge 
@@ -308,52 +313,30 @@ $$
   \,.
 $$
 
-### Examples of toroidal orientifolds
+Sometimes the condition (eq:VIsMultipleOfRegularRepresentation) is found with an offset by a trivial representation
 
-| [[toroidal orbifold|toroidal]] [[orientifold]] |  local/twisted <br/> [[RR-field tadpole cancellation|tadpole cancellation condition]] |  global/untwisted <br/> [[RR-field tadpole cancellation|tadpole cancellation condition]] | comment |
-|----|----|----|---|
-| [[D5-branes]] <br/> transv. to $\mathbb{T}^{\mathbf{4}_{\mathbb{H}}}\!\sslash\! \mathbb{Z}_{2}$ | $\chi = N \cdot \mathbf{2}_{reg}$ <br/> ([Buchel-Shiu-Tye 99 (19)](#BuchelShiuTye99)) | $\chi = 16 \cdot \mathbf{2}_{reg}$ <br/> ([Buchel-Shiu-Tye 99 (18)](#BuchelShiuTye99)) | following <br/> [Gimon-Polchinski 96](#GimonPolchinski96), <br/> [Gimon-Johnson 96](#GimonJohnson96) |
-| [[D5-branes]] <br/> transv. to $\mathbb{T}^{\mathbf{4}_{\mathbb{H}}} \!\sslash\! \mathbb{Z}_{4}$ | $\chi = N \cdot \mathbf{4}_{reg}$ <br/> ([Buchel-Shiu-Tye 99 (19)](#BuchelShiuTye99)) | $\chi = 8 \cdot \mathbf{4}_{reg}$ <br/> ([Buchel-Shiu-Tye 99 (18)](#BuchelShiuTye99)) | following <br/> [Gimon-Polchinski 96](#GimonPolchinski96), <br/> [Gimon-Johnson 96](#GimonJohnson96)  |
-| [[D4-branes]] <br/> transv. to $\mathbb{T}^{\mathbf{1}_{\mathrm{triv}} + \mathbf{4}_{\mathbb{H}}} \!\sslash\! \mathbb{Z}_k$ | $\chi = N \cdot \mathbf{k}_{reg}$ <br/> ([AFIRU 01a, 4.2.1](#AFIRU01a), <br/> [AFIRU 01b, 7](#AFIRU01b) ) |  |  |
+\[
+  \label{VIsMultipleOfRegularRepresentation}
+  V = N \cdot k[G/1] + \mathbf{p}_{triv}
+  \,.
+\]
 
-
-#### D4/NS5/D6
-
-[Park-Uranga 98](#ParkUranga98)
+This corresponds to single fractional D-branes sitting on top of the O-planes, turning $O^-$-planes into $O^+$-planes.
 
 
 
-(...)
+### Examples for toroidal orientifolds
+ {#ExamplesForToroidalOrientifolds}
 
 
-#### D5/D9-branes in $\mathbb{T}^4/\mathbb{Z}_{0,2,4}-orientifolds$
-
-(...)
-
-[Gimon-Polchinski 96](#GimonPolchinski96)
-[Gimon-Johnson 96](#GimonJohnson96)
-[Buchel-Shiu-Tye 99](#BuchelShiuTye99)
-
-
-(...)
-
-#### D6/D8-branes in $\mathbb{T}^2 \times \mathbb{T}^4/\mathbb{Z}_n$-orientifolds
-
-(...)
-
-
-[Honecker 01](#Honecker01)
-[Honecker 02](#Honecker02)
-
-
-(...)
+[[!include RR-field tadpole cancellation on toroidal orientifolds -- table]]
 
 
 
 ### Examples of non-compact singularities
  {#ExamplesForFractionalDBranes}
 
-We discuss more explicitly the solutions to the homogeneous tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for [[fractional D-branes]] at [[orbifold]] [[singularities]] for [[isotropy group]] one of  the [[nonabelian group|non-abelian]] [[finite subgroups of SU(2)]], 
+We discuss more explicitly the solutions to the local/twisted tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for [[fractional D-branes]] at [[orbifold]] [[singularities]] for [[isotropy group]] one of  the [[nonabelian group|non-abelian]] [[finite subgroups of SU(2)]], 
 
 $$
   G_{DE}
@@ -375,7 +358,7 @@ $$
 Since the tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) in particular requires the characters/charges to be integral (specifically: zero) the general solution to the tadpole cancellation condition is indeed in this sub-lattice, and so that is where we may and do solve it, below.
 
 In accord with the general Prop. \ref{RegularRepSpansSolutionToHomogeneousTadpoleCancellation}
-we find that in each case there is precisely a 1-dimensional (i.e. $\simeq \mathbb{Z}$) sublattice of the charge lattice (the [[representation ring]]) which solves the homogenous tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups), hence a sublattice given by the [[integer]]-multiples $n \cdot V_0$ of one single [[fractional D-brane]] [[bound state]] $V_0 \in KO^0_G(\ast)$. There are then necessarily two of these generators $\pm V_0$. We check below that in all cases the normalized [[mass]] of these is $\pm$ unity, as it must be for the [[regular representation]], by Prop. \ref{RegularRepSpansSolutionToHomogeneousTadpoleCancellation}.
+we find that in each case there is precisely a 1-dimensional (i.e. $\simeq \mathbb{Z}$) sublattice of the charge lattice (the [[representation ring]]) which solves the twisted tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups), hence a sublattice given by the [[integer]]-multiples $N \cdot V_0$ of one single [[fractional D-brane]] [[bound state]] $V_0 \in KO^0_G(\ast)$. There are then necessarily two of these generators $\pm V_0$. We check below that in all cases the normalized [[mass]] of these is $\pm$ unity, as it must be for the [[regular representation]], by Prop. \ref{RegularRepSpansSolutionToHomogeneousTadpoleCancellation}.
 
 
 #### At a $\mathbb{Z}_2$-orientifold singularity
@@ -388,7 +371,7 @@ For $G = \mathbb{Z}_2$ the [[cyclic group]] of [[order of a group|order]] ${\ver
 | $\chi_{V_2} =$ | $\phantom{-}1$ | $-1$ | 
 
 
-One sees immediately that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G = \mathbb{Z}_2$ is
+One sees immediately that the general solution to the local/twisted tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G = \mathbb{Z}_2$ is
 
 $$
   V 
@@ -444,7 +427,7 @@ For $G = \mathbb{Z}_4$ the [[cyclic group of order 4]], the [[character of a lin
 
 
 
-One sees immediately that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G = \mathbb{Z}_3$ is
+One sees immediately that the general solution to the local/twisted tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G = \mathbb{Z}_3$ is
 
 $$
   V 
@@ -512,7 +495,7 @@ For $G = 2 D_4 = Q_8$ the [[binary dihedral group]] of [[order of a group|order]
 | $\chi_{V_4} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $-1$ |  $-1$ | 
 | $\chi_{V_5} =$ | $\phantom{-}4$ |  $-4$ |  $\phantom{-}0$ | $\phantom{-}0$ |  $\phantom{-}0$ | 
 
-One sees ([here](https://www.wolframalpha.com/input/?i=Nullspace+Transpose%5B%7B%7B1,1,1,1%7D,%7B1,%E2%88%921,1,-1%7D,%7B1,-1,-1,1%7D,%7B1,1,-1,-1%7D,%7B-4,0,0,0%7D%7D%5D)) that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_4$ is
+One sees ([here](https://www.wolframalpha.com/input/?i=Nullspace+Transpose%5B%7B%7B1,1,1,1%7D,%7B1,%E2%88%921,1,-1%7D,%7B1,-1,-1,1%7D,%7B1,1,-1,-1%7D,%7B-4,0,0,0%7D%7D%5D)) that the general solution to the local/twisted tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_4$ is
 
 $$
   V 
@@ -569,7 +552,7 @@ For $G = 2 D_6$ the [[binary dihedral group]] of [[order of a group|order]] ${\v
 | $\chi_{V_4} =$ | $\phantom{-}2$ |  $-2$ |  $\phantom{-}2$ | $\phantom{-}0$ |  $\phantom{-}0$ | $-2$ |
 | $\chi_{V_5} =$ | $\phantom{-}4$ |  $-4$ |  $-2$ | $\phantom{-}0$ |  $\phantom{-}0$ | $\phantom{-}2$ |
 
-One finds ([here](https://www.wolframalpha.com/input/?i=Nullspace+Transpose%5B%7B%7B1,1,1,1,1%7D,%7B1,1,%E2%88%921,%E2%88%921,1%7D,%7B2,%E2%88%921,0,0,%E2%88%921%7D,%7B%E2%88%922,2,0,0,%E2%88%922%7D,%7B%E2%88%924,%E2%88%922,0,0,2%7D%7D%5D)) that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_6$ is
+One finds ([here](https://www.wolframalpha.com/input/?i=Nullspace+Transpose%5B%7B%7B1,1,1,1,1%7D,%7B1,1,%E2%88%921,%E2%88%921,1%7D,%7B2,%E2%88%921,0,0,%E2%88%921%7D,%7B%E2%88%922,2,0,0,%E2%88%922%7D,%7B%E2%88%924,%E2%88%922,0,0,2%7D%7D%5D)) that the general solution to the local/twisted tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_6$ is
 
 $$
   V 
@@ -641,7 +624,7 @@ For $G = 2 D_8$ the [[binary dihedral group]] of [[order of a group|order]] ${\v
 | $\chi_{V_6} =$ | $\phantom{-}8$ |  $-8$ |  $\phantom{-}0$ | $\phantom{-}0$ |  $\phantom{-}0$ | $\phantom{-}0$ | $\phantom{-}0$ |
 
 
-One finds ([here](https://www.wolframalpha.com/input/?i=Nullspace+Transpose%5B%7B%7B1,1,1,1,1,1%7D,%7B1,1,-1,1,-1,-1%7D,%7B1,1,-1,-1,1,1%7D,%7B1,1,1,-1,-1,-1%7D,%7B2,-2,0,0,0,0%7D,%7B-8,0,0,0,0,0%7D%7D%5D)), that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_8$ is
+One finds ([here](https://www.wolframalpha.com/input/?i=Nullspace+Transpose%5B%7B%7B1,1,1,1,1,1%7D,%7B1,1,-1,1,-1,-1%7D,%7B1,1,-1,-1,1,1%7D,%7B1,1,1,-1,-1,-1%7D,%7B2,-2,0,0,0,0%7D,%7B-8,0,0,0,0,0%7D%7D%5D)), that the general solution to the local/twisted tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_8$ is
 
 $$
   V 
@@ -718,7 +701,7 @@ For $G = 2 D_{10}$ the [[binary dihedral group]] of [[order of a group|order]] $
 
 
 
-One finds ([here](https://www.wolframalpha.com/input/?i=Nullspace+Transpose%5B%7B%7B1,1,1,1,1,1,1%7D,%7B1,-1,-1,1,1,1,1%7D,%7B-2,0,0,2,2,-2,-2%7D,%7B4,0,0,-1,-1,-1,-1%7D,%7B-8,0,0,-2,-2,2,2%7D%7D%5D)) that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_{10}$ is
+One finds ([here](https://www.wolframalpha.com/input/?i=Nullspace+Transpose%5B%7B%7B1,1,1,1,1,1,1%7D,%7B1,-1,-1,1,1,1,1%7D,%7B-2,0,0,2,2,-2,-2%7D,%7B4,0,0,-1,-1,-1,-1%7D,%7B-8,0,0,-2,-2,2,2%7D%7D%5D)) that the general solution to the local/twisted tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_{10}$ is
 
 $$
   V 
@@ -794,7 +777,7 @@ For $G = 2 D_{12}$ the [[binary dihedral group]] of [[order of a group|order]] $
 
 
 
-One sees ([here](https://www.wolframalpha.com/input/?i=Nullspace+Transpose%5B%7B%7B1,1,1,1,1,1,1,1%7D,%7B1,1,-1,-1,1,1,1,1%7D,%7B1,1,-1,1,-1,1,-1,-1%7D,%7B1,1,1,-1,-1,1,-1,-1%7D,%7B2,-1,0,0,2,-1,-1,-1%7D,%7B2,-1,0,0,-2,-1,1,1%7D,%7B-4,4,0,0,0,-4,0,0%7D,%7B-8,-4,0,0,0,4,0,0%7D%7D%5D)) that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_{12}$ is
+One sees ([here](https://www.wolframalpha.com/input/?i=Nullspace+Transpose%5B%7B%7B1,1,1,1,1,1,1,1%7D,%7B1,1,-1,-1,1,1,1,1%7D,%7B1,1,-1,1,-1,1,-1,-1%7D,%7B1,1,1,-1,-1,1,-1,-1%7D,%7B2,-1,0,0,2,-1,-1,-1%7D,%7B2,-1,0,0,-2,-1,1,1%7D,%7B-4,4,0,0,0,-4,0,0%7D,%7B-8,-4,0,0,0,4,0,0%7D%7D%5D)) that the general solution to the local/twisted tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_{12}$ is
 
 $$
   V 
@@ -881,7 +864,7 @@ For $G = 2 D_{14}$ the [[binary dihedral group]] of [[order of a group|order]] $
 
 
 
-One sees by immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_{14}$ is
+One sees by immediate inspection, that the general solution to the local/twisted tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_{14}$ is
 
 $$
   V 
@@ -956,7 +939,7 @@ For $G = 2 D_{16}$ the [[binary dihedral group]] of [[order of a group|order]] $
 
 
 
-One sees by immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_{16}$ is
+One sees by immediate inspection, that the general solution to the local/twisted tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_{16}$ is
 
 $$
   V 
@@ -1034,7 +1017,7 @@ For $G = 2 T$ the [[binary tetrahedral group]] (whose [[order of a group|order]]
 | $\chi_{V_5} =$ | $\phantom{-}4$ |  $-4$ |  $-2$ | $-2$ |  $\phantom{-}0$ | $\phantom{-}2$ | $\phantom{-}2$ |
 
 
-One finds ([here](https://www.wolframalpha.com/input/?i=Nullspace+Transpose%5B%7B%7B1,1,1,1,1,1%7D,%7B2,-1,-1,2,-1,-1%7D,%7B3,0,0,-1,0,0%7D,%7B-4,1,1,0,-1,-1%7D,%7B-4,-2,-2,0,2,2%7D%7D%5D)) that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G = 2T$ is
+One finds ([here](https://www.wolframalpha.com/input/?i=Nullspace+Transpose%5B%7B%7B1,1,1,1,1,1%7D,%7B2,-1,-1,2,-1,-1%7D,%7B3,0,0,-1,0,0%7D,%7B-4,1,1,0,-1,-1%7D,%7B-4,-2,-2,0,2,2%7D%7D%5D)) that the general solution to the local/twisted tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G = 2T$ is
 
 $$
   V 
@@ -1109,7 +1092,7 @@ For $G = 2 O$ the [[binary octahedral group]] (whose [[order of a group|order]] 
 
 
 
-One finds ([here](https://www.wolframalpha.com/input/?i=Nullspace+Transpose%5B%7B%7B1,1,1,1,1,1,1%7D,%7B1,1,1,-1,1,-1,-1%7D,%7B2,-1,2,0,-1,0,0%7D,%7B3,0,-1,1,0,-1,-1%7D,%7B3,0,-1,-1,0,1,1%7D,%7B-8,2,0,0,-2,0,0%7D,%7B-8,-4,0,0,4,0,0%7D%7D%5D)) that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G = 2O$ is
+One finds ([here](https://www.wolframalpha.com/input/?i=Nullspace+Transpose%5B%7B%7B1,1,1,1,1,1,1%7D,%7B1,1,1,-1,1,-1,-1%7D,%7B2,-1,2,0,-1,0,0%7D,%7B3,0,-1,1,0,-1,-1%7D,%7B3,0,-1,-1,0,1,1%7D,%7B-8,2,0,0,-2,0,0%7D,%7B-8,-4,0,0,4,0,0%7D%7D%5D)) that the general solution to the local/twisted tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G = 2O$ is
 
 $$
   V 
@@ -1191,7 +1174,7 @@ For $G = 2 I$ the [[binary icosahedral group]] (whose [[order of a group|order]]
 
 
 
-One finds ([here](https://www.wolframalpha.com/input/?i=Nullspace+Transpose%5B%7B%7B1,1,1,1,1,1,1,1%7D,%7B4,1,0,-1,-1,1,-1,-1%7D,%7B5,-1,1,0,0,-1,0,0%7D,%7B6,0,-2,1,1,0,1,1%7D,%7B-12,0,0,2,2,0,-2,-2%7D,%7B-8,2,0,-2,-2,-2,2,2%7D,%7B-8,-4,0,-2,-2,4,2,2%7D%7D%5D)) that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G = 2I$ is
+One finds ([here](https://www.wolframalpha.com/input/?i=Nullspace+Transpose%5B%7B%7B1,1,1,1,1,1,1,1%7D,%7B4,1,0,-1,-1,1,-1,-1%7D,%7B5,-1,1,0,0,-1,0,0%7D,%7B6,0,-2,1,1,0,1,1%7D,%7B-12,0,0,2,2,0,-2,-2%7D,%7B-8,2,0,-2,-2,-2,2,2%7D,%7B-8,-4,0,-2,-2,4,2,2%7D%7D%5D)) that the general solution to the local/twisted tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G = 2I$ is
 
 $$
   V 
@@ -1347,13 +1330,21 @@ Specifically [[K3]] [[orientifolds]] ($\mathbb{T}^4/G_{ADE}$) in [[type IIA stri
 * {#ParkUranga98} J. Park, [[Angel Uranga]], _A Note on Superconformal N=2 theories and Orientifolds_, Nucl. Phys. B542:139-156, 1999 ([arXiv:hep-th/9808161](https://arxiv.org/abs/hep-th/9808161))
 
 
+* {#AFIRU00a} G. Aldazabal, S. Franco, [[Luis Ibanez]], R. Rabadan, [[Angel Uranga]], _D=4 Chiral String Compactifications from Intersecting Branes_, J. Math. Phys. 42:3103-3126, 2001 ([arXiv:hep-th/0011073](https://arxiv.org/abs/hep-th/0011073))
+
+* {#AFIRU00b} G. Aldazabal, S. Franco, [[Luis Ibanez]], R. Rabadan, [[Angel Uranga]], _Intersecting Brane Worlds_, JHEP 0102:047, 2001 ([arXiv:hep-ph/0011132](https://arxiv.org/abs/hep-ph/0011132))
+
+* {#KataokaShimojo01} H. Kataoka, M. Shimojo, _$SU(3) \times SU(2) \times U(1)$ Chiral Models from Intersecting D4-/D5-branes_, Progress of Theoretical Physics, Volume 107, Issue 6, June 2002, Pages 1291–1296 ([arXiv:hep-th/0112247](https://arxiv.org/abs/hep-th/0112247), [doi:10.1143/PTP.107.1291](https://doi.org/10.1143/PTP.107.1291))
+
 * {#Honecker01} [[Gabriele Honecker]], _Non-supersymmetric Orientifolds with D-branes at Angles_, Fortsch.Phys. 50 (2002) 896-902 ([arXiv:hep-th/0112174](https://arxiv.org/abs/hep-th/0112174))
 
-* {#AFIRU01a} G. Aldazabal, S. Franco, [[Luis Ibanez]], R. Rabadan, [[Angel Uranga]], _D=4 Chiral String Compactifications from Intersecting Branes_, J. Math. Phys. 42:3103-3126, 2001 ([arXiv:hep-th/0011073](https://arxiv.org/abs/hep-th/0011073))
+* {#Honecker02a} [[Gabriele Honecker]], _Intersecting brane world models from D8-branes on $(T^2 \times T^4/\mathbb{Z}_3)/\Omega\mathcal{R}_1$ type IIA orientifolds_, JHEP 0201 (2002) 025 ([arXiv:hep-th/0201037](https://arxiv.org/abs/hep-th/0201037))
 
-* {#AFIRU01b} G. Aldazabal, S. Franco, [[Luis Ibanez]], R. Rabadan, [[Angel Uranga]], _Intersecting Brane Worlds_, JHEP 0102:047, 2001 ([arXiv:hep-ph/0011132](https://arxiv.org/abs/hep-ph/0011132))
+* {#Honecker02b} [[Gabriele Honecker]], _Non-supersymmetric orientifolds and chiral fermions from intersecting D6- and D8-branes_, thesis 2002 ([[HoneckerIntersectingDBraneModels02.pdf:file]])
 
-* {#Honecker02} [[Gabriele Honecker]], _Intersecting brane world models from D8-branes on $(T^2 \times T^4/\mathbb{Z}_3)/\Omega\mathcal{R}_1$ type IIA orientifolds_, JHEP 0201 (2002) 025 ([arXiv:hep-th/0201037](https://arxiv.org/abs/hep-th/0201037))
+Specifically for [[D6-branes]]:
+
+* {#IshiharaKataokaSato99} S. Ishihara, H. Kataoka, Hikaru Sato, _$D=4$, $N=1$, Type IIA Orientifolds_, Phys. Rev. D60 (1999) 126005 ([arXiv:hep-th/9908017](https://arxiv.org/abs/hep-th/9908017))
 
 
 
