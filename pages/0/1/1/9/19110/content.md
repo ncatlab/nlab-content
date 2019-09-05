@@ -308,16 +308,25 @@ $$
   \,.
 $$
 
-### D4/NS5/D6
+### Examples of toroidal orientifolds
+
+| [[toroidal orbifold|toroidal]] [[orientifold]] |  local/twisted <br/> [[RR-field tadpole cancellation|tadpole cancellation condition]] |  global/untwisted <br/> [[RR-field tadpole cancellation|tadpole cancellation condition]] | comment |
+|----|----|----|---|
+| [[D5-branes]] <br/> transv. to $\mathbb{T}^{\mathbf{4}_{\mathbb{H}}}\!\sslash\! \mathbb{Z}_{2}$ | $\chi = N \cdot \mathbf{2}_{reg}$ <br/> ([Buchel-Shiu-Tye 99 (19)](#BuchelShiuTye99)) | $\chi = 16 \cdot \mathbf{2}_{reg}$ <br/> ([Buchel-Shiu-Tye 99 (18)](#BuchelShiuTye99)) | following <br/> [Gimon-Polchinski 96](#GimonPolchinski96), <br/> [Gimon-Johnson 96](#GimonJohnson96) |
+| [[D5-branes]] <br/> transv. to $\mathbb{T}^{\mathbf{4}_{\mathbb{H}}} \!\sslash\! \mathbb{Z}_{4}$ | $\chi = N \cdot \mathbf{4}_{reg}$ <br/> ([Buchel-Shiu-Tye 99 (19)](#BuchelShiuTye99)) | $\chi = 8 \cdot \mathbf{4}_{reg}$ <br/> ([Buchel-Shiu-Tye 99 (18)](#BuchelShiuTye99)) | following <br/> [Gimon-Polchinski 96](#GimonPolchinski96), <br/> [Gimon-Johnson 96](#GimonJohnson96)  |
+| [[D4-branes]] <br/> transv. to $\mathbb{T}^{\mathbf{1}_{\mathrm{triv}} + \mathbf{4}_{\mathbb{H}}} \!\sslash\! \mathbb{Z}_k$ | $\chi = N \cdot \mathbf{k}_{reg}$ <br/> ([AFIRU 01a, 4.2.1](#AFIRU01a), <br/> [AFIRU 01b, 7](#AFIRU01b) ) |  |  |
+
+
+#### D4/NS5/D6
 
 [Park-Uranga 98](#ParkUranga98)
 
-[AFIRU 01a, 4.2.1](#AFIRU01a), [AFIRU 01b, 7](#AFIRU01b)
+
 
 (...)
 
 
-### D5/D9-branes in $\mathbb{T}^4/\mathbb{Z}_{0,2,4}-orientifolds$
+#### D5/D9-branes in $\mathbb{T}^4/\mathbb{Z}_{0,2,4}-orientifolds$
 
 (...)
 
@@ -328,7 +337,7 @@ $$
 
 (...)
 
-### D6/D8-branes in $\mathbb{T}^2 \times \mathbb{T}^4/\mathbb{Z}_n$-orientifolds
+#### D6/D8-branes in $\mathbb{T}^2 \times \mathbb{T}^4/\mathbb{Z}_n$-orientifolds
 
 (...)
 
@@ -1338,13 +1347,13 @@ Specifically [[K3]] [[orientifolds]] ($\mathbb{T}^4/G_{ADE}$) in [[type IIA stri
 * {#ParkUranga98} J. Park, [[Angel Uranga]], _A Note on Superconformal N=2 theories and Orientifolds_, Nucl. Phys. B542:139-156, 1999 ([arXiv:hep-th/9808161](https://arxiv.org/abs/hep-th/9808161))
 
 
-* {#Honecker01} Gabriele Honecker, _Non-supersymmetric Orientifolds with D-branes at Angles_, Fortsch.Phys. 50 (2002) 896-902 ([arXiv:hep-th/0112174](https://arxiv.org/abs/hep-th/0112174))
+* {#Honecker01} [[Gabriele Honecker]], _Non-supersymmetric Orientifolds with D-branes at Angles_, Fortsch.Phys. 50 (2002) 896-902 ([arXiv:hep-th/0112174](https://arxiv.org/abs/hep-th/0112174))
 
 * {#AFIRU01a} G. Aldazabal, S. Franco, [[Luis Ibanez]], R. Rabadan, [[Angel Uranga]], _D=4 Chiral String Compactifications from Intersecting Branes_, J. Math. Phys. 42:3103-3126, 2001 ([arXiv:hep-th/0011073](https://arxiv.org/abs/hep-th/0011073))
 
 * {#AFIRU01b} G. Aldazabal, S. Franco, [[Luis Ibanez]], R. Rabadan, [[Angel Uranga]], _Intersecting Brane Worlds_, JHEP 0102:047, 2001 ([arXiv:hep-ph/0011132](https://arxiv.org/abs/hep-ph/0011132))
 
-* {#Honecker02} Gabriele Honecker, _Intersecting brane world models from D8-branes on $(T^2 \times T^4/\mathbb{Z}_3)/\Omega\mathcal{R}_1$ type IIA orientifolds_, JHEP 0201 (2002) 025 ([arXiv:hep-th/0201037](https://arxiv.org/abs/hep-th/0201037))
+* {#Honecker02} [[Gabriele Honecker]], _Intersecting brane world models from D8-branes on $(T^2 \times T^4/\mathbb{Z}_3)/\Omega\mathcal{R}_1$ type IIA orientifolds_, JHEP 0201 (2002) 025 ([arXiv:hep-th/0201037](https://arxiv.org/abs/hep-th/0201037))
 
 
 
