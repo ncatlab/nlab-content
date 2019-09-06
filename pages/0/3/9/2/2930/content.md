@@ -8,7 +8,7 @@ much of the theory of [[combinatorial model category|combinatorial model categor
 
 Other contributions include:
 
-* [[symetric spectra]]
+* [[symmetric spectra]]
 
 * [[Hopkins-Smith nilpotence theorem]]
 
