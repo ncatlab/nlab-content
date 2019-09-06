@@ -226,6 +226,21 @@ More details are then in
 
 * {#PolchinskiWitten96} [[Joseph Polchinski]], [[Edward Witten]], _Evidence for Heterotic - Type I String Duality_, Nucl.Phys.B460:525-540,1996 ([arXiv:hep-th/9510169](http://arxiv.org/abs/hep-th/9510169))
 
+### Geometric engineering of $D=6$ $\mathcal{N}=(1,0)$ SCFT
+
+On [[D=6 N=(1,0) SCFTs]] via [[geometric engineering of QFT|geometric engineering]] on [[M5-branes]]/[[NS5-branes]] at D-, E-type [[ADE-singularities]], notably from [[M-theory on S1/G_HW times H/G_ADE]], hence from [[orbifolds]] of [[type I' string theory]] (see at [half NS5-brane](NS5-brane#NSHalfBranes)):
+
+* Michele Del Zotto, [[Jonathan Heckman]], [[Alessandro Tomasiello]], [[Cumrun Vafa]], _6d Conformal Matter_, JHEP02(2015)054 ([arXiv:1407.6359](https://arxiv.org/abs/1407.6359))
+
+* {#GaiottoTomasiello14} [[Davide Gaiotto]], [[Alessandro Tomasiello]], _Holography for $(1,0)$ theories in six dimensions_, JHEP12(2014)003 ([arXiv:1404.0711](https://arxiv.org/abs/1404.0711))
+
+* Kantaro Ohmori, Hiroyuki Shimizu, _$S^1/T^2$ Compactifications of 6d $\mathcal{N} = (1,0)$ Theories and Brane Webs_, J. High Energ. Phys. (2016) 2016: 24 ([arXiv:1509.03195](https://arxiv.org/abs/1509.03195))
+
+* {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_, JHEP05 (2019)203 ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
+
+* Ibrahima Bah, Achilleas Passias, [[Alessandro Tomasiello]], _$AdS_5$ compactifications with punctures in massive IIA supergravity_, JHEP11 (2017)050 ([arXiv:1704.07389](https://arxiv.org/abs/1704.07389))
+
+
 
 [[!redirects type I superstring]]
 [[!redirects type I superstring theory]]
