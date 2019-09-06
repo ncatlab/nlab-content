@@ -9,7 +9,7 @@ Sasha Rosenberg had defended in 1973 dissertation at Moscow State University stu
 
 Rosenberg's coauthors in pure mathematics works are [[Valery Lunts]] and [[Maxim Kontsevich]]. One should be warned that most of the newly released articles of Rosenberg are not at the arXiv but at the Max Planck Bonn [preprint server](http://www.mpim-bonn.mpg.de/Research/MPIM+Preprint+Series) and many of works are republished in a volume
 
-* [Selected papers on noncommutative geometry](http://newprairiepress.org/ebooks/1), New Prarie Press 2014, which are open access
+* [Selected papers on noncommutative geometry](http://newprairiepress.org/ebooks/1), New Prairie Press 2014, which are open access
 
 Rosenberg's available papers and online resources include:
 
