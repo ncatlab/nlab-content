@@ -94,6 +94,8 @@ In general, some of the NS5 sit away from the [[O8-plane]], while some sit on to
 
 ## Related concepts
 
+* [[D4-D8 bound states]]
+
 [[!include KK-compactifications of M-theory -- table]]
 
 
@@ -112,6 +114,10 @@ Nuclear Physics B ([hep-th/9707223](https://arxiv.org/abs/hep-th/9707223), <a hr
 
 
 * {#GKSTY02} E. Gorbatov, [[Vadim Kaplunovsky]], J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, _On Heterotic Orbifolds, M Theory and Type I' Brane Engineering_, JHEP 0205:015, 2002 ([arXiv:hep-th/0108135](https://arxiv.org/abs/hep-th/0108135))
+
+* Monika Marquart, [[Daniel Waldram]], _F-theory duals of M-theory on $S^1/\mathbb{Z}_2 \times T^4 / \mathbb{Z}_N$_ ([arXiv:hep-th/0204228](https://arxiv.org/abs/hep-th/0204228))
+
+  (the [[F-theory]] perspective)
 
 * {#GaiottoTomasiello14} [[Davide Gaiotto]], [[Alessandro Tomasiello]], _Holography for $(1,0)$ theories in six dimensions_, JHEP12(2014)003 ([arXiv:1404.0711](https://arxiv.org/abs/1404.0711))
 
