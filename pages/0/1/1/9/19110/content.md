@@ -1338,7 +1338,7 @@ Specifically [[K3]] [[orientifolds]] ($\mathbb{T}^4/G_{ADE}$) in [[type IIA stri
 
 * {#KataokaShimojo01} H. Kataoka, M. Shimojo, _$SU(3) \times SU(2) \times U(1)$ Chiral Models from Intersecting D4-/D5-branes_, Progress of Theoretical Physics, Volume 107, Issue 6, June 2002, Pages 1291–1296 ([arXiv:hep-th/0112247](https://arxiv.org/abs/hep-th/0112247), [doi:10.1143/PTP.107.1291](https://doi.org/10.1143/PTP.107.1291))
 
-> The $\mathbb{Z}_N$ action with even N=$N$ contains an order 2 element $[ ...]$  Then there will be D8-branes in the type IIA D4-brane theory. Since the concept of intersecting D-branesinvolves use of the same dimensional D-branes, we restrict ourselves to the case thatthe order $N$ of $\mathbb{Z}_N$ is odd.
+> The $\mathbb{Z}_N$ action with even $N$ contains an order 2 element $[ ...]$  Then there will be D8-branes in the type IIA D4-brane theory. Since the concept of intersecting D-branesinvolves use of the same dimensional D-branes, we restrict ourselves to the case that the order $N$ of $\mathbb{Z}_N$ is odd. ([p. 4](https://arxiv.org/pdf/hep-th/0112247.pdf#page=4))
 
 * {#Honecker01} [[Gabriele Honecker]], _Non-supersymmetric Orientifolds with D-branes at Angles_, Fortsch.Phys. 50 (2002) 896-902 ([arXiv:hep-th/0112174](https://arxiv.org/abs/hep-th/0112174))
 
