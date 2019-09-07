@@ -237,6 +237,8 @@ Dark Energy?_, 2009 ([[NotariInhomogeneousCosmology.pdf:file]])
 
 * {#Sarkar18} [[Subir Sarkar]], _Is the universe isotropic?_, talk at _[Current Themes in High Energy Physics and Cosmology 2018](https://indico.nbi.ku.dk/event/973/)_ ([pdf](https://indico.nbi.ku.dk/event/973/contributions/8344/attachments/2648/3858/Sarkar_Copenhagen18_cosmo.pdf))
 
+* {#Lombriser19} Lucas Lombriser, _On the cosmological constant problem_, Phys. Lett. B 797, 134804 (2019) ([arXiv:1901.08588](https://arxiv.org/abs/1901.08588), [doi:10.1016/j.physletb.2019.134804](https://doi.org/10.1016/j.physletb.2019.134804)) 
+
 ### No effective dark energy from inhomogeneity
  {#ReferencesNoEffect}
 
