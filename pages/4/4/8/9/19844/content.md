@@ -502,7 +502,7 @@ and in relation to [[axions]]:
 
 #### $Z'$-boson
 
-explanations via ssumption of [[Z'-bosons]]:
+explanations via assumption of [[Z'-bosons]]:
 
 * {#GauldGoertzHaisch13} Rhorry Gauld, Florian Goertz, Ulrich Haisch, _An explicit Z'-boson explanation of the $B \to K^\ast \mu^+ \mu^-$ anomaly_, JHEP01(2014)069 ([arXiv:1310.1082](https://arxiv.org/abs/1310.1082))
 
@@ -513,6 +513,7 @@ explanations via ssumption of [[Z'-bosons]]:
 
 * Joe Davighi, _Connecting neutral current $B$ anomalies with the heaviness of the third family_, Contribution to the [2019 QCD session](http://moriond.in2p3.fr/2019/QCD/) of the [54th Rencontres de Moriond](http://moriond.in2p3.fr/2019/) ([arXiv:1905.06073](https://arxiv.org/abs/1905.06073))
 
+* Wolfgang Altmannshofer, Joe Davighi, Marco Nardecchia, _Gauging the accidental symmetries of the Standard Model, and implications for the flavour anomalies_ ([arXiv:1909.02021](https://arxiv.org/abs/1909.02021))
 
 #### Other
 
