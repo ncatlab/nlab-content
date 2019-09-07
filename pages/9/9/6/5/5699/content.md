@@ -21,6 +21,15 @@ Cumrun Vafa is a [[string theory|string theorist]] at Harvard.
 
 ## Selected writings
 
+On [[D0-D4-brane bound states]]:
+
+* [[Cumrun Vafa]], _Instantons on D-branes_, Nucl. Phys. B463 (1996) 435-442 ([arXiv:hep-th/9512078](https://arxiv.org/abs/hep-th/9512078))
+
+with emphasis to the resulting [[configuration spaces of points]], as in
+
+* [[Cumrun Vafa]], [[Edward Witten]], Section 4.1 of: _A Strong Coupling Test of S-Duality_, Nucl. Phys. B431:3-77, 1994 ([arXiv:hep-th/9408074](https://arxiv.org/abs/hep-th/9408074))
+
+
 On [[electric-magnetic duality]]:
 
 * [[Cumrun Vafa]], _Geometric Origin of Montonen-Olive Duality_, Adv.Theor.Math.Phys.1:158-166, 1998 ([arXiv:hep-th/9707131](https://arxiv.org/abs/hep-th/9707131))
