@@ -15,7 +15,7 @@
 
 ## Idea
 
-[[bound states]] of [[D-branes|Dp-branes]] with [[D-brane|D(P=4)-branes]].
+[[bound states]] of [[D-branes|Dp-branes]] with [[D-brane|D(p+4)-branes]].
 
 ## Properties
 
