@@ -182,6 +182,12 @@ Further refinement to the "soft-wall model" is due to [KKSS 06](#KKSS06) and fur
 
 These computations shown so far all use just the field theory in the bulk, not yet the stringy modes ([[limit of a sequence|limit]] of vanishing [[string length]] $\sqrt{\alpha'} \to 0$). Incorporating bulk string corrections further improves these results, see [Sonnenschein-Weissman 18](#SonnenscheinWeissman18).
 
+### Embedding into a full standard model
+
+
+[Nastase 03, p. 2](#Nastase03):
+
+> An obvious question then is can one lift this D brane construction for the holographic dual of [[QCD]] to a [[standard model of particle physics|Standard Model]] embedding?  I study this question in the context of [[intersecting D-brane models|D-brane-world]] [[GUT]] models and find that one needs to have [[TeV-scale string theory]].
 
 
 ## Related concepts
@@ -210,7 +216,8 @@ Review:
   _Gauge/string duality, hot QCD and heavy ion collisions_, 
 
   Cambridge University Press, 2014 ([arXiv:1101.0618](https://arxiv.org/abs/1101.0618))
-
+-7+9
+32
 * {#AHI12} Sinya Aoki, [[Koji Hashimoto]], Norihiro Iizuka, _Matrix Theory for Baryons: An Overview of Holographic QCD for Nuclear Physics_, Reports on Progress in Physics, Volume 76, Number 10 ([arxiv:1203.5386](https://arxiv.org/abs/1203.5386))
 
 
@@ -242,11 +249,15 @@ reviewed in
 
 * {#Rebhan14} Anton Rebhan, _The Witten-Sakai-Sugimoto model: A brief review and some recent results_, 3rd International Conference on New Frontiers in Physics, Kolymbari, Crete, 2014 ([arXiv:1410.8858](https://arxiv.org/abs/1410.8858))
 
-The Sakai-Sugimoto model at [[O-planes]]: 
+More on [[D4-D8 brane bound states]]:
+
+* {#Nastase03} [[Horatiu Nastase]], Sections 2, 3 of: _On Dp-Dp+4 systems, QCD dual and phenomenology_ ([arXiv:hep-th/0305069](https://arxiv.org/abs/hep-th/0305069))
+
+The Witten-Sakai-Sugimoto model with [[orthogonal group|orthogonal]]  [[gauge groups]] realized by [[D4-D8 brane bound states]] at [[O-planes]]: 
 
 * {#ImotoSakaiSugimoto09} Toshiya Imoto, [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _$O(N)$ and $USp(N)$ QCD from String Theory_, Prog.Theor.Phys.122:1433-1453, 2010 ([arXiv:0907.2968](https://arxiv.org/abs/0907.2968))
 
-* Hee-Cheol Kim, Sung-Soo Kim, Kimyeong Lee, _5-dim Superconformal Index with Enhanced En Global Symmetry_, JHEP 1210 (2012) 142 ([arXiv:1206.6781](https://arxiv.org/abs/1206.6781))
+* Hee-Cheol Kim, Sung-Soo Kim, Kimyeong Lee, _5-dim Superconformal Index with Enhanced $E_n$ Global Symmetry_, JHEP 1210 (2012) 142 ([arXiv:1206.6781](https://arxiv.org/abs/1206.6781))
 
 The bottom-up hard-wall model is due to
 
