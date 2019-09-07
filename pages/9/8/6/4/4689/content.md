@@ -268,7 +268,7 @@ Derivation of [[graviton]]-[[scattering amplitudes]] from [[string field theory]
 
 It is being argued that after embedding into consistent [[quantum gravity]], all [[global symmetries]] must become [[local symmetries]].
 
-A substantiation of this argument via [[AdS/CFT]] is given n
+A substantiation of this argument via [[AdS/CFT]] is given in
 
 * [[Daniel Harlow]], [[Hirosi Ooguri]], _Symmetries in quantum field theory and quantum gravity_ ([arXiv:1810.05338](https://arxiv.org/abs/1810.05338))
 
