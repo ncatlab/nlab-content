@@ -541,6 +541,17 @@ Further discussion of the graph complex as a model for the [[de Rham cohomology]
 
 * [[Ricardo Campos]], Julien Ducoulombier, Najib Idrissi, [[Thomas Willwacher]], _A model for framed configuration spaces of points_ ([arXiv:1807.08319](https://arxiv.org/abs/1807.08319))
 
+### As moduli of Dp-D(p+4)-brane bound states:
+ {#AsModuliOfD0D4BraneBoundStates}
+
+Discussion of [[configuration spaces of points]] as [[moduli spaces]] of [[D0-D4-brane bound states]]
+
+* [[Cumrun Vafa]], _Instantons on D-branes_, Nucl. Phys. B463 (1996) 435-442 ([arXiv:hep-th/9512078](https://arxiv.org/abs/hep-th/9512078))
+
+with emphasis to the resulting [[configuration spaces of points]], as in
+
+* [[Cumrun Vafa]], [[Edward Witten]], Section 4.1 of: _A Strong Coupling Test of S-Duality_, Nucl. Phys. B431:3-77, 1994 ([arXiv:hep-th/9408074](https://arxiv.org/abs/hep-th/9408074))
+
 
 
 
