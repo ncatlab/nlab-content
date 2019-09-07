@@ -16,17 +16,9 @@
 
 ## Idea
 
-[[bound states]] of [[D4-branes]] with [[D8-branes]] 
+[[bound states]] of [[D4-branes]] with [[D8-branes]]. A special case of the general phenomenon of [[Dp-D(p+4)-brane bound states]].
 
-Generally, due to the [[higher WZW term]] $\propto \int_{D_{p+4}} C_{p+1} \wedge \langle F \wedge F \rangle$ in the [[Green-Schwarz sigma model]] for [[D-brane|D(p+4)-branes]], $D p$-branes are equivalently [[Yang-Mills instantons]] in the worldvolume Yang-Millsgauge theory of $D (p+4)$-branes (e.g. [Tong 05, 1.4](#Tong05)).
 
-In terms of [[holographic QCD]] this corresponds to [[baryon]]-states ([Sakai-Sugimoto 04, 5.7](#SakaiSugimoto04)).
-
-<center>
-<img src="https://ncatlab.org/nlab/files/BaryonsAsD4Branes.jpg" width="700">
-</center>
-
-> graphics grabbed from [Sugimoto 16](AdS/QCD#Sugimoto16)
 
 
 ## Properties
@@ -36,6 +28,7 @@ In terms of [[holographic QCD]] this corresponds to [[baryon]]-states ([Sakai-Su
 As a [[black brane]] [[supergravity]] solution:  [Brandhuber-Oz 99](#BrandhuberOz99), [Nastase 03, Sec. 2 and 3](#Nastase03), [BSU 09](#BSU09),  [Van Pol 15, Sec 5](#VanPol15), [Dibitetto-Petri 18](#DibitettoPetri18)
 
 ### As geometric engineering of QCD
+ {#AsGeometricEngineeringOfQCD}
 
 The D4-D8 system is the [[intersecting D-brane model]] underlying the [[Witten-Sakai-Sugimoto model]] for [[holographic QCD]]
 
@@ -52,6 +45,20 @@ The D4-D8 system is the [[intersecting D-brane model]] underlying the [[Witten-S
 </center>
 
 > graphics grabbed from [Rebhan 14](#Rebhan14)
+
+### As instantons on the D8-brane
+
+Generally, due to the [[higher WZW term]] $\propto \int_{D_{p+4}} C_{p+1} \wedge \langle F \wedge F \rangle$ in the [[Green-Schwarz sigma model]] for [[D-brane|D(p+4)-branes]], [[Yang-Mills instantons]] in the [[Chan-Paton gauge field]] on $D (p+4)$-branes are equivalently [[Dp-D(p+4)-brane bound states]] (see e.g. [Polchinski 96, 5.4](#Polchinski96), [Tong 05, 1.4](#Tong05)).
+
+
+In terms of [[holographic QCD]] as [above](#AsGeometricEngineeringOfQCD) these instantons correspond to [[baryon]]-[[bound states]] ([Sakai-Sugimoto 04, 5.7](#SakaiSugimoto04)).
+
+<center>
+<img src="https://ncatlab.org/nlab/files/BaryonsAsD4Branes.jpg" width="700">
+</center>
+
+> graphics grabbed from [Sugimoto 16](AdS/QCD#Sugimoto16)
+
 
 ## Related entries
 
@@ -88,7 +95,7 @@ As [[black brane]] [[supergravity]]-solutions:
 
 ### As geometric engineering of QCD
 
-With application to [[geometric engineering of QFTs|geometric engineering]] of [[QCD]] ("[[holographic QCD]]", such as the [[Wittem-Sakai-Sugimoto model]]):
+With application to [[geometric engineering of QFTs|geometric engineering]] of [[QCD]] ("[[holographic QCD]]", such as the [[Witten-Sakai-Sugimoto model]]):
 
 * [[David Morrison]], [[Nathan Seiberg]], _Extremal Transitions and Five-Dimensional Supersymmetric Field Theories_, Nucl. Phys.B483:229-247, 1997 ([arXiv:hep-th/9609070](https://arxiv.org/abs/hep-th/9609070))
 
@@ -100,7 +107,7 @@ Review:
 
 * Yolanda Lozano, Section 2 of: _Hints on 5d Fixed Point Theories from Non-Abelian T-duality_, IFT 2014 ([slides pdf](https://www.unioviedo.es/hepth/people/Yolanda/talks/IFT2014.pdf), [[Lozano5d.pdf:file]])
 
-As a model for [[hadrons]]:
+As a model for [[baryons]]:
 
 * {#SakaiSugimoto04} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _Low energy hadron physics in holographic QCD_, Prog. Theor. Phys.113:843-882, 2005 ([arXiv:hep-th/0412141](https://arxiv.org/abs/hep-th/0412141))
 
@@ -112,14 +119,35 @@ Among review of the [[Witten-Sakai-Sugimoto model]]:
 
 ### General $D p$-$D(p+4)$-brane bound states
 
-* {#Tong05} [[David Tong]], _TASI Lectures on Solitons_ ([hep-th/0509216](https://arxiv.org/abs/hep-th/0509216))
+The argument that [[Yang-Mills instantons]] in the [[Chan-Paton gauge field]] on a [[D-brane|D(p+4)-brane]] are equivalent to [[Dp-D(p+4) brane bound states]] goes back to 
+
+* [[Edward Witten]], _Small Instantons in String Theory_,  	Nucl. Phys. B460:541-559, 1996 ([arXiv:hep-th/9511030](https://arxiv.org/abs/hep-th/9511030))
+
+* [[Michael Douglas]], _Gauge Fields and D-branes_, J. Geom. Phys. 28 (1998) 255-262 ([arXiv:hep-th/9604198](https://arxiv.org/abs/hep-th/9604198))
+
+
+Review is in:
+
+* {#Polchinski96} [[Joseph Polchinski]], Section 5.4 of: _TASI Lectures on D-Branes_ ([arXiv:hep-th/9611050](https://arxiv.org/abs/hep-th/9611050))
+
+* {#Tong05} [[David Tong]], Section 1.4 of _TASI Lectures on Solitons_ ([hep-th/0509216](https://arxiv.org/abs/hep-th/0509216))
+
+Discussion specifically of [[D0-D4-brane bound states]]:
+
+* [[Cumrun Vafa]], _Instantons on D-branes_, Nucl. Phys. B463 (1996) 435-442 ([arXiv:hep-th/9512078](https://arxiv.org/abs/hep-th/9512078))
+
+with emphasis to the resulting [[configuration spaces of points]], as in
+
+* [[Cumrun Vafa]], [[Edward Witten]], Section 4.1 of: _A Strong Coupling Test of S-Duality_, Nucl. Phys. B431:3-77, 1994 ([arXiv:hep-th/9408074](https://arxiv.org/abs/hep-th/9408074))
+
+Discussion specifically of [[D1-D5-brane bound states]]
+
+* [[Neil Lambert]], _D-brane Bound States and the Generalised ADHM Construction_, Nucl. Phys. B519 (1998) 214-224 ([arXiv:hep-th/9707156](https://arxiv.org/abs/hep-th/9707156))
+
 
 [[!redirects D4-D8 brane bound states]]
 
 [[!redirects D4-D8-brane bound state]]
 [[!redirects D4-D8-brane bound states]]
 
-
-[[!redirects Dp-D(p+4)-brane bound state]]
-[[!redirects Dp-D(p+4)-brane bound states]]
 
