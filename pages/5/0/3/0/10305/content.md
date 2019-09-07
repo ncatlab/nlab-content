@@ -37,13 +37,18 @@
 
 * [[D5-branes]] and [[NS5-branes]] form bound states to [[(p,q)5-branes]]
 
-* [[D1-D5 brane bound states]]
+* [[M2-M5 brane bound states]]
+
+* [[Dp-D(p+4)-brane bound state]]
+
+  * [[D0-D4 brane bound state]]
+
+  * [[D1-D5 brane bound state]]
+
+  * [[D4-D8 brane bound state]]
 
 * [NS5-D4-D2 bound states](NS5-brane#NS5D4D2BoundStates)
 
-* [[M2-M5 brane bound states]]
-
-* [[D4-D8 brane bound states]]
 
 ## References
 
