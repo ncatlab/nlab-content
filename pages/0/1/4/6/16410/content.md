@@ -125,9 +125,6 @@ Discussion of de Sitter [[perturbative string theory vacua]] and their role in t
 
 * {#vanRiet18a} [[Thomas Van Riet]], _Status of KKLT_, talk at _[Simons summer workshop 2018](http://scgp.stonybrook.edu/archives/24870)_ ([recording](http://scgp.stonybrook.edu/video_portal/video.php?id=3730))
 
-* {#BDDGS18} Souvik Banerjee, [[Ulf Danielsson]], Giuseppe Dibitetto, Suvendu Giri, Marjorie Schillo, _Emergent de Sitter cosmology from decaying AdS_ ([arXiv:1807.01570](https://arxiv.org/abs/1807.01570))
-
-* Souvik Banerjee, [[Ulf Danielsson]], Giuseppe Dibitetto, Suvendu Giri, Marjorie Schillo, _de Sitter Cosmology on an expanding bubble_ ([arXiv:1907.04268](https://arxiv.org/abs/1907.04268))
 
 * {#Danielsson18} [[Ulf Danielsson]], _The quantum swampland_ ([arXiv:1809.04512](https://arxiv.org/abs/1809.04512))
 
@@ -142,6 +139,12 @@ Discussion of de Sitter [[perturbative string theory vacua]] and their role in t
 
 * [[Clay Cordova]], G. Bruno De Luca, [[Alessandro Tomasiello]], _Classical de Sitter Solutions of Ten-Dimensional Supergravity_ ([arXiv:1812.04147](https://arxiv.org/abs/1812.04147))
 
+On  [[de Sitter spacetime]] [[cosmology]] realized in [[brane world models]] in ambient $\sim$[[anti de Sitter spacetime|AdS]]-[[bulk]] [[spacetime]]:
+
+* {#BDDGS18} Souvik Banerjee, [[Ulf Danielsson]], Giuseppe Dibitetto, Suvendu Giri, Marjorie Schillo, _Emergent de Sitter cosmology from decaying AdS_ ([arXiv:1807.01570](https://arxiv.org/abs/1807.01570))
+
+* Souvik Banerjee, [[Ulf Danielsson]], Giuseppe Dibitetto, Suvendu Giri, Marjorie Schillo, _de Sitter Cosmology on an expanding bubble_ ([arXiv:1907.04268](https://arxiv.org/abs/1907.04268))
+
 
 Discussion in the context of [[M-theory on G2-manifolds]]:
 
@@ -154,7 +157,7 @@ Discussion in the context of [[M-theory on G2-manifolds]]:
 
   which suggests that including [[higher curvature corrections]] makes it work
 
-For analogous discussion of embedding of the[[ekpyrotic cosmology]]-scenario into [[string theory]]/[[type IIA supergravity]]:
+For analogous discussion of embedding of the [[ekpyrotic cosmology]]-scenario into [[string theory]]/[[type IIA supergravity]]:
 
 * {#Uzawa18} [[Kunihito Uzawa]], _No-Go theorems for ekpyrosis from ten-dimensional supergravity_, J. High Energ. Phys. (2018) 2018: 41 ([arXiv:1803.11084](https://arxiv.org/abs/1803.11084), <a href="https://doi.org/10.1007/JHEP06(2018)041">doi:10.1007/JHEP06(2018)041</a>)
 
