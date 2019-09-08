@@ -45,7 +45,7 @@ For discussion in [[philosophy]] and linguistics, see
 
  {#philosophy} Earlier work in philosophy includes
 
-* Lou Goble, 1970. Grades Of Modality. Logique Et Analyse 13: 323-334.
+* Lou Goble, 1970. Grades Of Modality. Logique Et Analyse 13, pp. 323-334, ([paper](http://virthost.vub.ac.be/lnaweb/ojs/index.php/LogiqueEtAnalyse/article/view/405)).
 
 * Kit Fine, 1972. In so many possible worlds. Notre Dame Journal of Formal Logics 13: 516–520.
 
