@@ -9,6 +9,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -74,6 +75,8 @@ See also
 
 * Wikipedia, _[Baryon](http://en.wikipedia.org/wiki/Baryon)_
 
+* Aarts, _Baryons at finite temperature_ ([[AartsBaryonsAtFiniteTemperature.pdf:file]])
+
 ### In Witten-Sakai-Sugimoto model for AdS-QCD
 
 
@@ -86,6 +89,9 @@ See also
 * {#SakaiSugimoto05} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _More on a holographic dual of QCD_, Prog.Theor.Phys.114:1083-1118, 2005 ([arXiv:hep-th/0507073](https://arxiv.org/abs/hep-th/0507073))
 
 * {#HSSY07} Hiroyuki Hata, [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], Shinichiro Yamato, _Baryons from instantons in holographic QCD_, Prog.Theor.Phys.117:1157, 2007 ([arXiv:hep-th/0701280](https://arxiv.org/abs/hep-th/0701280))
+
+* Hiroyuki Hata, Masaki Murata, _Baryons and the Chern-Simons term in holographic QCD with three flavors_ ([arXiv:0710.2579](https://arxiv.org/abs/0710.2579))
+
 
 
 Review
