@@ -88,8 +88,8 @@ can be obtained as follows:
 \node[below of=centre,region] {$E$};
 \node[left of=centre,region] {$D$};
 \node[right of=centre,region] {$A$};
-\node[below left of=f,region] {$C$};
-\node[below right of=h,region] {$B$};
+\node[below left of=f,region] {$B$};
+\node[below right of=h,region] {$C$};
 \end{tikzpicture}
 
 \end{centre}
@@ -279,7 +279,6 @@ Discussion for [[double categories]] and [[2-category equipped with proarrows|pr
 See also at _[[opetopic type theory]]_.
 
 
-[[!redirects string diagram]]
 [[!redirects string diagrams]]
 [[!redirects circuit diagram]]
 [[!redirects circuit diagrams]]
