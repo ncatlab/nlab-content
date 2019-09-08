@@ -402,7 +402,14 @@ Discussion for [[cosmology]] of [[intersecting D-brane models]] (ambient $\sim$ 
 
 Quick survey is in
 
-* {#Teraguchi07} Shunsuke Teraguchi, around slide 21 _String theory and its relation to particle physics_, 2007 ([pdf](http://phys.cts.ntu.edu.tw/ppp7/talks/PPP7_Shunsuke_Teraguchi.pdf))
+* {#Teraguchi07} Shunsuke Teraguchi, around slide 21 of: _String theory and its relation to particle physics_, 2007 ([pdf](http://phys.cts.ntu.edu.tw/ppp7/talks/PPP7_Shunsuke_Teraguchi.pdf))
+
+Discussion of 4d [[de Sitter spacetime]] [[cosmology]] models on brane worlds in $\sim$ [[anti de Sitter spacetime|AdS]] [[bulk]] spacetimes:
+
+* {#BDDGS18} Souvik Banerjee, [[Ulf Danielsson]], Giuseppe Dibitetto, Suvendu Giri, Marjorie Schillo, _Emergent de Sitter cosmology from decaying AdS_ ([arXiv:1807.01570](https://arxiv.org/abs/1807.01570))
+
+* Souvik Banerjee, [[Ulf Danielsson]], Giuseppe Dibitetto, Suvendu Giri, Marjorie Schillo, _de Sitter Cosmology on an expanding bubble_ ([arXiv:1907.04268](https://arxiv.org/abs/1907.04268))
+
 
 
 [[!redirects intersecting D-brane models]]
@@ -410,3 +417,6 @@ Quick survey is in
 [[!redirects intersecting D-brane model building]]
 
 [[!redirects branes at angles]]
+
+[[!redirects brane world model]]
+[[!redirects brane world models]]
