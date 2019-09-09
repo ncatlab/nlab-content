@@ -132,25 +132,38 @@ See the references [below](#ReferencesGeometricEngineeringOfDIs6NIs1SCFT), for e
 
 ### General
 
+The original articles:
+
+* Michael Faux, [[Dieter Lüst]], [[Burt Ovrut]], _Intersecting Orbifold Planes and Local Anomaly Cancellation in M-Theory_, Nucl. Phys. B554: 437-483, 1999 ([arXiv:hep-th/9903028](https://arxiv.org/abs/hep-th/9903028))
+
+* Michael Faux, [[Dieter Lüst]], [[Burt Ovrut]], _Local Anomaly Cancellation, M-Theory Orbifolds and Phase-Transitions_, Nucl. Phys. B589: 269-291, 2000 ([arXiv:hep-th/0005251](https://arxiv.org/abs/hep-th/0005251))
+
+* Michael Faux, [[Dieter Lüst]], [[Burt Ovrut]], _An M-Theory Perspective on Heterotic K3 Orbifold Compactifications_, Int. J. Mod. Phys. A18:3273-3314, 2003 ([arXiv:hep-th/0010087](https://arxiv.org/abs/hep-th/0010087))
+
+* Michael Faux, [[Dieter Lüst]], [[Burt Ovrut]], _Twisted Sectors and Chern-Simons Terms in M-Theory Orbifolds_, Int. J. Mod. Phys. A18: 2995-3014, 2003 ([arXiv:hep-th/0011031](https://arxiv.org/abs/hep-th/0011031))
+
+* [[Vadim Kaplunovsky]], J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, _On the Duality between Perturbative Heterotic Orbifolds and M-Theory on $T^4/Z_N$_, Nuclear Physics B Volume 590, Issues 1–2, 4 December 2000, Pages 123-160 Nuclear Physics B ([arXiv:hep-th/9912144](https://arxiv.org/abs/hep-th/9912144), <a href="https://doi.org/10.1016/S0550-3213(00)00460-0">doi:10.1016/S0550-3213(00)00460-0</a>)
+
+* {#GKSTY02} E. Gorbatov, [[Vadim Kaplunovsky]], J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, _On Heterotic Orbifolds, M Theory and Type I' Brane Engineering_, JHEP 0205:015, 2002 ([arXiv:hep-th/0108135](https://arxiv.org/abs/hep-th/0108135))
+
+
+Discussion of [[heterotic M-theory]] on smooth [[K3]] originates around
+
+* {#SeibergWitten96} [[Nathan Seiberg]], [[Edward Witten]], _Comments on String Dynamics in Six Dimensions_, Nucl. Phys. B471:121-134, 1996 ([arXiv:hep-th/9603003](https://arxiv.org/abs/hep-th/9603003))
+
 * Zygmunt Lalak, Steven Thomas, _Gaugino Condensation, Moduli Potentials and Supersymmetry Breaking in M-Theory Models_, Nuclear Physics B
 Volume 515, Issues 1–2, 30 March 1998, Pages 55-72
 Nuclear Physics B ([hep-th/9707223](https://arxiv.org/abs/hep-th/9707223), <a href="https://doi.org/10.1016/S0550-3213(97)00784-0">doi:10.1016/S0550-3213(97)00784-0</a>)
 
   (on [[gaugino condensation]])
 
-* [[Vadim Kaplunovsky]], J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, _On the Duality between Perturbative Heterotic Orbifolds and M-Theory on $T^4/Z_N$_, Nuclear Physics B Volume 590, Issues 1–2, 4 December 2000, Pages 123-160 Nuclear Physics B ([arXiv:hep-th/9912144](https://arxiv.org/abs/hep-th/9912144), <a href="https://doi.org/10.1016/S0550-3213(00)00460-0">doi:10.1016/S0550-3213(00)00460-0</a>)
 
+See also
 
-* {#GKSTY02} E. Gorbatov, [[Vadim Kaplunovsky]], J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, _On Heterotic Orbifolds, M Theory and Type I' Brane Engineering_, JHEP 0205:015, 2002 ([arXiv:hep-th/0108135](https://arxiv.org/abs/hep-th/0108135))
-
-* Monika Marquart, [[Daniel Waldram]], _F-theory duals of M-theory on $S^1/\mathbb{Z}_2 \times T^4 / \mathbb{Z}_N$_ ([arXiv:hep-th/0204228](https://arxiv.org/abs/hep-th/0204228))
-
-  (the [[F-theory]] perspective)
-
+* Jacob Cole Claussen, _The deconstruction of orbifold fixed points in heterotic M-theory_, 2016 ([hdl:2152/41748](http://hdl.handle.net/2152/41748))
 
 * {#HSS18} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], Example 2.2.7 of: _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_, CMP (2019) ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987), [doi:10.1007/s00220-019-03442-3](http://link.springer.com/article/10.1007/s00220-019-03442-3))
 
-* Santiago Cabrera, [[Amihay Hanany]], Marcus Sperling, _Magnetic Quivers, Higgs Branches, and 6d $\mathcal{N}=(1,0)$ Theories_, J. High Energ. Phys. (2019) 2019: 71 ([arXiv:1904.12293](https://arxiv.org/abs/1904.12293))
 
 
 ### Type II/I' perspective
@@ -166,9 +179,15 @@ Nuclear Physics B ([hep-th/9707223](https://arxiv.org/abs/hep-th/9707223), <a hr
 
 * Ibrahima Bah, Achilleas Passias, [[Alessandro Tomasiello]], _$AdS_5$ compactifications with punctures in massive IIA supergravity_, JHEP11 (2017)050 ([arXiv:1704.07389](https://arxiv.org/abs/1704.07389))
 
-### On $S^1 \sslash G_{HW} \times K_3 $
+### F-theory perspective
 
-* {#SeibergWitten96} [[Nathan Seiberg]], [[Edward Witten]], _Comments on String Dynamics in Six Dimensions_, Nucl. Phys. B471:121-134, 1996 ([arXiv:hep-th/9603003](https://arxiv.org/abs/hep-th/9603003))
+The [[F-theory]] perspective:
+
+* Monika Marquart, [[Daniel Waldram]], _F-theory duals of M-theory on $S^1/\mathbb{Z}_2 \times T^4 / \mathbb{Z}_N$_ ([arXiv:hep-th/0204228](https://arxiv.org/abs/hep-th/0204228))
+
+* Christoph Lüdeling, Fabian Ruehle, _F-theory duals of singular heterotic K3 models_, Phys. Rev. D 91, 026010 (2015) ([arXiv:1405.2928](https://arxiv.org/abs/1405.2928))
+
+
 
 ### Geometric engineering of $D=6, \mathcal{N}=(1,0)$ SCFT 
  {#ReferencesGeometricEngineeringOfDIs6NIs1SCFT}
@@ -186,8 +205,10 @@ On [[D=6 N=(1,0) SCFTs]] via [[geometric engineering of QFT|geometric engineerin
 
 * Ibrahima Bah, Achilleas Passias, [[Alessandro Tomasiello]], _$AdS_5$ compactifications with punctures in massive IIA supergravity_, JHEP11 (2017)050 ([arXiv:1704.07389](https://arxiv.org/abs/1704.07389))
 
+* Santiago Cabrera, [[Amihay Hanany]], Marcus Sperling, _Magnetic Quivers, Higgs Branches, and 6d $\mathcal{N}=(1,0)$ Theories_, J. High Energ. Phys. (2019) 2019: 71 ([arXiv:1904.12293](https://arxiv.org/abs/1904.12293))
 
 
+[[!redirects heterotic M-theory on ADE-orbifolds]]
 
 
 
