@@ -132,7 +132,14 @@ See the references [below](#ReferencesGeometricEngineeringOfDIs6NIs1SCFT), for e
 
 ### General
 
-The original articles:
+The first discussion of this compactification is possibly
+
+* {#Sen97} [[Ashoke Sen]], Section 3 of: _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001,1997 ([arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123))
+
+in the context of the [[M-theory lift of gauge enhancement on D6-branes]].
+
+
+The original articles focusing on this situation:
 
 * Michael Faux, [[Dieter Lüst]], [[Burt Ovrut]], _Intersecting Orbifold Planes and Local Anomaly Cancellation in M-Theory_, Nucl. Phys. B554: 437-483, 1999 ([arXiv:hep-th/9903028](https://arxiv.org/abs/hep-th/9903028))
 
