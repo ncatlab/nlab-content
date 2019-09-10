@@ -392,7 +392,7 @@ Discussion for [[cosmology]] of [[intersecting D-brane models]] (ambient $\sim$ 
 
 * {#Kaloper04} Nemanja Kaloper, _Origami World_, JHEP 0405 (2004) 061 ([arXiv:hep-th/0403208](https://arxiv.org/abs/hep-th/0403208))
 
-* {#Uranga05} [[Angel Uranga]], section 18 of _TASI lectures on String Compactification, Model Building, and Fluxes_, 2005 ([pdf](http://cds.cern.ch/record/933469/files/cer-002601054.pdf))
+* {#Uranga05} [[Angel Uranga]], section 18 of _TASI lectures on String Compactification, Model Building, and Fluxes_, 2005 ([pdf](http://cds.cern.ch/record/933469/files/cer-002601054.pdf), [cern:933469](http:cds.cern.ch/record/933469))
 
 * {#FlachiMinamitsuji09} Antonino Flachi, Masato Minamitsuji, _Field localization on a brane intersection in anti-de Sitter spacetime_, Phys.Rev.D79:104021, 2009 ([arXiv:0903.0133](https://arxiv.org/abs/0903.0133))
 
