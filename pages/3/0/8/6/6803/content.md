@@ -98,7 +98,7 @@ With an eye towards [[holographic QCD]]:
 [[intersecting D-brane models]] with intersecting D4-branes:
 
 
-Only [[D4-branes]]:
+Only [[D4-branes]] (possibly on [[O4-plane]] [[orientifolds]]):
 
 
 * {#BKL01} D. Bailin, G. V. Kraniotis, A. Love, _Standard-like models from intersecting D4-branes_, Phys. Lett. B530 (2002) 202-209 ([arXiv:hep-th/0108131](https://arxiv.org/abs/hep-th/0108131))
