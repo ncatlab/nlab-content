@@ -431,9 +431,9 @@ That this metric, as well as that of every black $p$ brane for _odd_ $p$, is com
 
 * [[Gary Gibbons]], [[Gary Horowitz]], [[Paul Townsend]], p. 15 of _Higher-dimensional resolution of dilatonic black hole singularities_, Class.Quant.Grav.12:297-318,1995 ([arXiv:hep-th/9410073](https://arxiv.org/abs/hep-th/9410073))
 
-Classification of more general M5-brane [[ADE-singularities]] is in section 8.3 of 
+Classification of more general M5-brane [[ADE-singularities]] is in  
 
-* {#MFF12} Paul de Medeiros, [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
+* {#MFF12} Paul de Medeiros, [[José Figueroa-O'Farrill]], Section 8.3 of: _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
 
 also to some extent in
 
