@@ -54,6 +54,11 @@ Conversely, this means that supersymmetry, as opposed to ([[gauge symmetry|gauge
 
 > graphics grabbed from [Fayet-Ferrara 77, Fig. 1 on p. 286 (38 of  86)](#FayetFerrara77)
 
+## Examples
+
+### Scherk-Schwarz mechanism
+
+The _[[Scherk-Schwarz mechanism]]_ ([Scherk-Schwarz 79](Scherk-Schwarz+mechaniusm#ScherkSchwarz79)) is the [[spontaneously broken symmetry|spontaneous]] [[supersymmetry breaking]] by [[KK-compactification]] on a [[circle]] whose [[spin structure]] imposes anti-periodic [[boundary conditions]] for [[fermion fields]].
 
 
 ## Related concepts
