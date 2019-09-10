@@ -166,6 +166,11 @@ For more see [[supersymmetry and Calabi-Yau manifolds]].
 This is discussed in a bit of detail for instance in 
 ([Strominger, lecture 2](#Strominger)).
 
+#### Scherk-Schwarz mechanism
+
+Specifically, the _[[Scherk-Schwarz mechanism]]_ ([Scherk-Schwarz 79](#ScherkSchwarz79)) is the [[spontaneously broken symmetry|spontaneous]] [[supersymmetry breaking]] by [[KK-compactification]] on a [[circle]] whose [[spin structure]] imposes anti-periodic [[boundary conditions]] for [[fermion fields]].
+
+
 
 ## Related concepts
 
