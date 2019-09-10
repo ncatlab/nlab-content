@@ -61,9 +61,9 @@ The [[Green-Schwarz superstring]] [[sigma-model]] gives an alternative descripti
 
 The concept is due to 
 
-* {#GSO77} F. Gliozzi, J. Scherk, D. I. Olive, _Supersymmetry, supergravity theories and the dual spinor model_, Nucl. Phys, B122, 253 (1977)
+* {#GSO77} F. Gliozzi, [[Joël Scherk]], D. I. Olive, _Supersymmetry, supergravity theories and the dual spinor model_, Nucl. Phys, B122, 253 (1977)
 
-* {#GSO77} F. Gliozzi, J. Scherk and D. I. Olive, _Supersymmetry, Supergravity Theories and the Dual Spinor Model_, Nucl. Phys. B 122 (1977), 253 ([spire](http://inspirehep.net/record/111434))
+* {#GSO77} F. Gliozzi, [[Joël Scherk]], D. I. Olive, _Supersymmetry, Supergravity Theories and the Dual Spinor Model_, Nucl. Phys. B 122 (1977), 253 ([spire](http://inspirehep.net/record/111434))
 
 Review includes
 
