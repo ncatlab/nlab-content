@@ -38,11 +38,15 @@ The quadratic pairing entering the [[11d Chern-Simons theory]] that governs the 
 
 ### Lifts to M-theory F-theory
 
-Lifts of orientifold background from [[type II string theory]] to [[F-theory]] go back to ([Sen 96](#Sen96), [Sen 97a](#Sen97a)).
+Lifts of orientifold background from [[type II string theory]] to [[F-theory]] go back to ([Sen 96](#Sen96), [Sen 97a](#Sen97a)). 
 
-Lifts of type IIA orientifolds of [[D6-branes]] to [[ADE singularities|D-type ADE singularities]] in [[M-theory]] (through the [[duality between M-theory and type IIA string theory]]) goes back to ([Sen 97b](#Sen97b)). 
+Lifts of [[type IIA string theory]] orientifolds of [[D6-branes]] to [[ADE singularities|D-type ADE singularities]] in [[M-theory]] (through the [[duality between M-theory and type IIA string theory]]) goes back to ([Sen 97b](#Sen97b)). See at _[[heterotic M-theory on ADE-orbifolds]]_.
 
 A more general scan of possible lifts of type IIA orientifolds to M-theory is indicated in ([Hanany-Kol 00, around (3.2)](#HananyKol00)), see ([Huerta-Sati-Schreiber 18, Prop. 4.7](#HuertaSatiSchreiber18)) for details.
+
+For instance the [[O4-plane]] lifts to the [[MO5-plane]].
+
+(...)
 
 ## Related concepts
 
@@ -260,7 +264,7 @@ Lifts of orientifolds to [[M-theory]] and [[F-theory]] are discussed in
 
 * [[Edward Witten]], _Solutions Of Four-Dimensional Field Theories Via M Theory_, ([arXiv:hep-th/9703166](https://arxiv.org/abs/hep-th/9703166))
 
-The MO5 is originally discussed in 
+The [[MO5]] is originally discussed in 
 
 * Keshav Dasgupta, [[Sunil Mukhi]], _Orbifolds of M-theory_, Nucl. Phys. B465 (1996) 399-412 ([arXiv:hep-th/9512196](https://arxiv.org/abs/hep-th/9512196))
 
