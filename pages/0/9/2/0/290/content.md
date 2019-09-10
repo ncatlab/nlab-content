@@ -260,8 +260,12 @@ See also
 
 * [[Tom Banks]], _Modern quantum field theory, A concise introduction_ ([pdf](http://web.phys.ntnu.no/~mika/banks.pdf))
 
+[[!redirects quantum field theories]]
+
 
 [[!redirects QFT]]
-[[!redirects quantum field theories]]
+[[!redirects QFTs]]
+
+
 
 
