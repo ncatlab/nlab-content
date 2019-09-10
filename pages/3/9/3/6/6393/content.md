@@ -85,9 +85,9 @@ Definition of the NSR string in [[RR-field]] [[background field|backgrounds]] is
 
 The [[GSO projection]] and the conjecture that this makes also the target space theory of the spinning string [[supergravity|locally supersymmetric]] is due to
 
-* F. Gliozzi, J. Scherk, D. I. Olive, _Supergravity and its spinor dual model,_  Phys. Letters B65, 282 (1976)
+* F. Gliozzi, [[Joël Scherk]], D. I. Olive, _Supergravity and its spinor dual model,_  Phys. Letters B65, 282 (1976)
 
-* F. Gliozzi, J. Scherk, D. I. Olive, _Supersymmetry, supergravity theories and the dual spinor model_ , Nucl. Phys, B122, 253 (1977)
+* F. Gliozzi, [[Joël Scherk]], D. I. Olive, _Supersymmetry, supergravity theories and the dual spinor model_ , Nucl. Phys, B122, 253 (1977)
 
 The demonstration of this fact is due to 
 
