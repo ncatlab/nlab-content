@@ -185,7 +185,7 @@ But moreover, as the long-winded proof above makes manifest, even more abstractl
 ###### Theorem
 **(Tannaka duality for permutation representations of categories)**
 
-Let $C$ be a [[locally small category]] and $Rep_{Set}(C) := Func(C,Set)$ the [[functor category]]. For every object $c \in C$ let $F_c : C \to Set$ be the fiber-functor that evaluates at $c$.
+Let $C$ be a [[locally small category]] and $Rep_{Set}(C) := Func(C,Set)$ the [[functor category]]. For every object $c \in C$ let $F_c : Rep_{Set}(C) \to Set$ be the fiber-functor that evaluates at $c$.
 
 Then we have a [[natural isomorphism]]
 
