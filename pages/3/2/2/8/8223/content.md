@@ -29,7 +29,7 @@ This article is a modest bridge, indicating that the _[[category]] of [[graphs]]
 
 By a **simple [[graph]]**, we mean a [[set]] $V$ whose elements are called *vertices*, together with a collection of 2-element subsets $\{x, y\}$ of $V$; these are called *edges* of the graph. 
 
-There are various ways of forming a category of simple graphs. Perhaps the most straightforward is to define a function $f: V \to W$ between the vertex sets to be a graph morphism  $G \to H$ if $\{f(x), f(y)\}$ is an edge of $H$ whenever $\{x, y\}$ is an edge of $G$. 
+There are various ways of forming a category of simple graphs. Perhaps the most straightforward is to define a graph morphism $G \to H$ to be a function $f: V \to W$ between the vertex sets such that $\{f(x), f(y)\}$ is an edge of $H$ whenever $\{x, y\}$ is an edge of $G$. 
 
 Another option -- and this is the one chosen for this article -- starts by regarding a simple graph as carrying the same information as a set $V$ equipped with a [[symmetric relation|symmetric]] [[reflexive relation|reflexive]] [[relation]] $E$. Indeed, such a relation determines (and is uniquely determined by) a simple graph $G$ where for given vertices $x, y \in V$, there is an edge $\{x, y\}$ between $x$ and $y$ in $G$ iff both $(x, y) \in E$ and $x \neq y$. We will write $E(x, y)$ to mean $(x, y) \in E$. 
 
