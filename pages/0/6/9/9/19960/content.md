@@ -481,9 +481,12 @@ Holographic discussion of the [[shear viscosity]] of the quark-gluon plasma goes
 
 Other original articles include:
 
+* Brett McInnes, _Holography of the Quark Matter Triple Point_ ([arXiv:0910.4456](http://arxiv.org/abs/0910.4456))
+
 * Hovhannes R. Grigoryan, Paul M. Hohler, Mikhail A. Stephanov, _Towards the Gravity Dual of Quarkonium in the Strongly Coupled QCD Plasma_ ([arXiv:1003.1138](http://arxiv.org/abs/1003.1138))
 
-* Brett McInnes, _Holography of the Quark Matter Triple Point_ ([arXiv:0910.4456](http://arxiv.org/abs/0910.4456))
+* Mansi Dhuria, Aalok Misra, _Towards MQGP_, JHEP 1311 (2013) 001 ([arXiv:1306.4339](https://arxiv.org/abs/1306.4339))
+
 
 ### Application to lepton anomalous magnetic moment
 
@@ -511,9 +514,14 @@ Discussion of the [[theta angle]] via the the [[graviphoton]] in the [[higher WZ
 
 ### Application to the QCD trace anomaly
 
-Application to the [[QCD trace anomaly]]:
+Discussion of the [[QCD trace anomaly]]:
 
-* Jose L. Goity, Roberto C. Trinchero, _Holographic models and the QCD trace anomaly_, Phys. Rev. D 86, 034033, 2012 ([arXiv:1204.6327](https://arxiv.org/abs/1204.6327))
+* Jose L. Goity, Roberto C. Trinchero, _Holographic models and the QCD trace anomaly_, Phys. Rev. D 86, 034033 – 2012 ([arXiv:1204.6327](https://arxiv.org/abs/1204.6327))
+
+* Aalok Misra, Charles Gale, _The QCD Trace Anomaly at Strong Coupling from M-Theory_ ([arXiv:1909.04062](https://arxiv.org/abs/1909.04062))
+
+The [[QCD trace anomaly]] affects notably the [[equation of state]] of the [[quark-gluon plasma]], see there at _[References -- Holographic description of quark-gluon plasma](quark-gluon+plasma#ReferencesViaAdSCFT)_
+
 
 ### Application to QCD phases
  {#ReferencesColourSuperconductivity}
