@@ -96,4 +96,6 @@ See at _[homotopy pullback -- concrete constructions -- In homotopy type theory]
 
 * [[master equation]]
 
+* [[equation of state]]
+
 [[!redirects equations]]
