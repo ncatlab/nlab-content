@@ -69,6 +69,8 @@ See the references [below](#ReferencesInEarlyUniverseCosmology).
 
 * The quark-gluon plasma is naturally studied in terms of [[infinite-temperature thermal field theory]] ([Blaizot-Iancu-Rebhan 03, section 2.2.4](#BlaizotIancuRebhan03), [Blaizot 04, around p. 17](#Blaizot04))
 
+* the [[QCD trace anomaly]] affects the [[equation of state]] of the quark-gluon plasma.
+
 ## References
 
 ### General
@@ -145,10 +147,10 @@ Discussion of the quark gluon-plasma in [[cosmology]] as the [[phase of matter]]
 
 * Sz. Borsanyi, Z. Fodor, K. H. Kampert, S. D. Katz, T. Kawanai, T. G. Kovacs, S. W. Mages, A. Pasztor, F. Pittler, J. Redondo, A. Ringwald, K. K. Szabo, _Lattice QCD for Cosmology_ ([arXiv:1606.07494](https://arxiv.org/abs/1606.07494))
 
-### Description via AdS/CFT
+### Description via geometric engineering of QCD on intersecting branes
  {#ReferencesViaAdSCFT}
 
-Description via [[AdS/CFT]], hence "[[AdS/QCD]]" (see at [[string theory results applied elsewhere]]):
+Description via [[geometric engineering of QFTs|geometric engineering]] of [[QCD]] on [[intersecting branes]] ("[[holographic QCD]]" see also at [[string theory results applied elsewhere]]):
 
 Expositions and reviews include
 
@@ -180,12 +182,16 @@ Holographic discussion of the [[shear viscosity]] of the quark-gluon plasma goes
 
 Other original articles include:
 
+* Brett McInnes, _Holography of the Quark Matter Triple Point_ ([arXiv:0910.4456](http://arxiv.org/abs/0910.4456))
+
 * Hovhannes R. Grigoryan, Paul M. Hohler, Mikhail A. Stephanov, _Towards the Gravity Dual of Quarkonium in the Strongly Coupled QCD Plasma_ ([arXiv:1003.1138](http://arxiv.org/abs/1003.1138))
 
-* Brett McInnes, _Holography of the Quark Matter Triple Point_ ([arXiv:0910.4456](http://arxiv.org/abs/0910.4456))
+
+* Mansi Dhuria, Aalok Misra, _Towards MQGP_, JHEP 1311 (2013) 001 ([arXiv:1306.4339](https://arxiv.org/abs/1306.4339))
 
 * Sara Heshmatian, Razieh Morad, _Jet suppression in non-conformal plasma using AdS/CFT_ ([arXiv:1812.09374](https://arxiv.org/abs/1812.09374))
 
 [[!redirects quark-gluon plasmas]]
 
-
+[[!redirects quark gluon plasma]]
+[[!redirects quark gluon plasmas]]
