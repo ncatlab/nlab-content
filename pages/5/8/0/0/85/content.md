@@ -163,7 +163,7 @@ $$
     \overset{(c_1,c_2)}{\int}
     \mathcal{C}(c_1 \otimes_{\mathcal{C}} c_2, c) 
     \wedge
-     X(c_1) \otimes_V X(c_2) 
+     X(c_1) \otimes_V Y(c_2) 
   \end{aligned} 
   \,.
 $$
@@ -182,7 +182,7 @@ $$
   [\mathcal{C}, V](X \otimes_{Day} Y, Z) 
     \simeq 
   [\mathcal{C}\times \mathcal{C}, V](
-    X \overline{\otimes} Y,\; Z \circ \otimes_V
+    X \overline{\otimes} Y,\; Z \circ \otimes_C
   )
   \,,
 $$
