@@ -5,10 +5,17 @@
 
 On [[phenomenology]] of [[supersymmetry]]:
 
-* [JOHN ELLIS ON THE SYMBIOSIS BETWEEN PARTICLE PHYSICS & ASTROPHYSICS](http://archive.sciencewatch.com/ana/st/super/12janSTSuperElli/)
-SPECIAL TOPIC OF SUPERSYMMETRY INTERVIEW, JANUARY 2012
+* [John Ellis on the symbiosis between particle physics & astrophysics](http://archive.sciencewatch.com/ana/st/super/12janSTSuperElli/), Special topic of supersymmetry interview, January 2012
 
 ## Selected writings
+
+On the [[QCD trace anomaly]]:
+
+
+* M. S. Chanowitz, [[John Ellis]], _Canonical Anomalies and Broken Scale Invariance_, Phys. Lett. 40B397 (1972) (<a href="https://doi.org/10.1016/0370-2693(72)90829-5">doi:10.1016/0370-2693(72)90829-5</a>)
+
+* M. S. Chanowitz, [[John Ellis]], _Canonical Trace Anomalies_, Phys. Rev.D72490 (1973) ([doi:10.1103/PhysRevD.7.2490](https://doi.org/10.1103/PhysRevD.7.2490))
+
 
 On the [[Starobinsky model of cosmic inflation]] 
 
