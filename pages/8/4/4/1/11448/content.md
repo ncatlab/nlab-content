@@ -80,6 +80,14 @@ Discussion of [[Spin(16)]]-[[GUT]] phenomenology:
 (...)
 
 
+### Orbifolds of type I
+
+Type I' on [[toroidal orbifold|toroidal]] [[orientifolds]] with [[ADE-singularities]] (e.g. [Bergman&Rodriguez-Gomez 12, Sec. 3](#BergmanRodriguezGomez12))
+
+[[duality in string theory|dual]] to [[heterotic M-theory on ADE-orbifolds]].
+
+
+
 (...)
 
 
@@ -195,9 +203,17 @@ Related lecture notes / slides include
 
 ### Type I'
 
+Original articles on [[type I' string theory]]:
+
 * {#Schwarz00} [[John Schwarz]], _Some Properties of Type I' String Theory_, in: [[Mikhail Shifman]] (ed.), _[[The Many Faces of the Superworld]]_, pp. 388-397 (2000) ([arXiv:hep-th/9907061](https://arxiv.org/abs/hep-th/9907061), [doi:10.1142/9789812793850_0023](https://doi.org/10.1142/9789812793850_0023))
 
 * Justin R. David, Avinash Dhar, Gautam Mandal, _Probing Type I' String Theory Using D0 and D4-Branes_, Phys. Lett. B415 (1997) 135-143 ([arXiv:hep-th/9707132](https://arxiv.org/abs/hep-th/9707132))
+
+Type I' on [[toroidal orbifold|toroidal]] [[orientifolds]] with [[ADE-singularities]] ([[duality in string theory|dual]] to [[heterotic M-theory on ADE-orbifolds]]):
+
+* {#BergmanRodriguezGomez12} [[Oren Bergman]], Diego Rodriguez-Gomez, _5d quivers and their $AdS_6$ duals_, JHEP07 (2012) 171 ([arxiv:1206.3503](https://arxiv.org/abs/1206.3503))
+
+
 
 ### Phenomenology
  {#Phenomenology}
