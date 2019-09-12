@@ -23,13 +23,7 @@ The _UniMath_ project (short for _Univalent Mathematics_) on formalization of [[
 
 ## Related projects
 
-* [[Xena project]]
-
-* [[ForMath project]]
-
-* [[The QED project]]
-
-* [[Archive of Formal Proofs]]
+[[!include proof assistants and formalization projects -- list]]
 
 ## References
 
