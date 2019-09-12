@@ -20,13 +20,11 @@ __Isabelle__ is a [[proof assistant]]. Its main application is _[[HOL]]_. Relate
 In contrast to other proof assistants, Isabelle is based on classical [[set theory|set theoretic]] [[foundation of mathematics|foundations]].
 The [[Archive of Formal Proofs]] is an online library of proofs formalized  in Isabelle.
 
-## Other proof assistants
+## Related entries
 
-* [[Coq]]
+[[!include proof assistants and formalization projects -- list]]
 
-* [[Agda]]
 
-* [[Lean]]
 
 ## Links
 
