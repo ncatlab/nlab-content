@@ -4,9 +4,9 @@
 |  | [[syntax]] | [[semantics]] |
 |  |  [[natural deduction]] |  [[universal construction]] | 
 |  | **[[dependent sum type]]** | **[[dependent sum]]** |
-| [[type formation]] | $\frac{\vdash\: X \colon Type \;\;\;\;\; x \colon X \;\vdash\; A(x)\colon Type}{\vdash \; \left(\sum_{x \colon X} A\left(x\right)\right) \colon Type}$ | $\left(X \in \mathcal{C}, \array{ A \\ \downarrow^{\mathrlap{p_1}} \\ X} \; \in \mathcal{C}/X \right) \Rightarrow \left( A \in \mathcal{C}\right)$ |
-| [[term introduction]] | $\frac{x \colon X \;\vdash\; a \colon A(x)}{\vdash (x,a) \colon \sum_{x' \colon X} A\left(x'\right) }$ | $\array{ Q &\stackrel{(x,a)}{\to}& A \\ & {}_{\mathllap{x}}\searrow & \\ && X }$ |
-| [[term elimination]] | $\frac{\vdash\; t \colon \left(\sum_{x \colon X} A\left(x\right)\right)}{\vdash\; p_1(t) \colon X\;\;\;\;\; \vdash\; p_2(t) \colon A(p_1(t))}$ | $\array{ Q &\stackrel{t}{\to}& A \\ &  & \downarrow^{\mathrlap{p_1}} \\ && X }$ |
-| [[computation rule]] | $p_1(x,a) = x\;\;\;\; p_2(x,a) = a$ | $\array{ Q &\stackrel{(x,a)}{\to}& A \\ & {}_{\mathllap{x}}\searrow & \downarrow^{\mathrlap{p_1}} \\ && X }$ | 
+| [[type formation]] | $\frac{\vdash\: A \colon Type \;\;\;\;\; x \colon A \;\vdash\; B(x)\colon Type}{\vdash \; \left(\sum_{x \colon A} B\left(x\right)\right) \colon Type}$ | $\left(A \in \mathcal{C}, \array{ B \\ \downarrow^{\mathrlap{p_1}} \\ A} \; \in \mathcal{C}/A \right) \Rightarrow \left( B \in \mathcal{C}\right)$ |
+| [[term introduction]] | $\frac{\vdash\: a \colon A \;\;\;\;\; \vdash\; b \colon B(a)}{\vdash (a,b) \colon \sum_{x \colon A} B\left(x\right) }$ | $\array{ Q &\stackrel{(a,b)}{\to}& B \\ & {}_{\mathllap{a}}\searrow & \\ && A }$ |
+| [[term elimination]] | $\frac{\vdash\; t \colon \left(\sum_{x \colon A} B\left(x\right)\right)}{\vdash\; p_1(t) \colon A\;\;\;\;\; \vdash\; p_2(t) \colon B(p_1(t))}$ | $\array{ Q &\stackrel{t}{\to}& B \\ &  & \downarrow^{\mathrlap{p_1}} \\ && A }$ |
+| [[computation rule]] | $p_1(a,b) = a\;\;\;\; p_2(a,b) = b$ | $\array{ Q &\stackrel{(a,b)}{\to}& B \\ & {}_{\mathllap{a}}\searrow & \downarrow^{\mathrlap{p_1}} \\ && A }$ | 
 
 
