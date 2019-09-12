@@ -157,8 +157,8 @@ It follows that the [[tensor product of chain complexes]] $C_\bullet \otimes I_\
 $$
   \cdots
   \to 
-  C_1 \oplus C_{2} \oplus C_2
-  \to C_0 \oplus C_{1} \oplus C_{1} \to  C_{-1} \oplus C_0 \oplus C_0 \to \cdots
+  C_2 \oplus C_{2} \oplus C_1
+  \to C_1 \oplus C_{1} \oplus C_0 \to  C_0 \oplus C_0 \oplus C_{-1} \to \cdots
  \,.
 $$
 
