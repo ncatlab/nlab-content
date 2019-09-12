@@ -9,7 +9,7 @@
 
 * [[M-theory on hyperbolic manifolds]]
 
-* [[M-theory on S1/G_HW times H/G_ADE]]
+* [[M-theory on S1/G_HW times H/G_ADE]] ([[heterotic M-theory on ADE-orbifolds]])
 
 * [[M-theory on Calabi-Yau manifolds]]
 
