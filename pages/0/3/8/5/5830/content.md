@@ -308,9 +308,14 @@ together with the map `inl`, `inr` and the homotopy `glue`.
   [[opetopic type theory]]
 
 
+\linebreak
 
 [[!include homotopy n-types - table]]
 
+
+\linebreak
+
+[[!include proof assistants and formalization projects -- list]]
 
 
 
