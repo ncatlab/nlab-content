@@ -73,6 +73,7 @@ See at _[[Sullivan model of a spherical fibration]]_ for more on this.
 
 ## References
 
+### Sullivan models for mapping spaces
 
 * {#MollerRaussen85} [[Jesper Møller]], [[Martin Raussen]], _Rational Homotopy of Spaces of Maps Into Spheres and Complex Projective Spaces_, Transactions of the American Mathematical Society Vol. 292, No. 2 (Dec., 1985), pp. 721-732 ([jstor:2000242](https://www.jstor.org/stable/2000242)) 
 
@@ -80,6 +81,22 @@ See at _[[Sullivan model of a spherical fibration]]_ for more on this.
 
 * {#BuijsFelixMurillo12} [[Urtzi Buijs]], [[Yves Félix]], [[Aniceto Murillo]], _$L_\infty$-rational homotopy of mapping spaces_,  published as _$L_\infty$-models of based mapping spaces_,  J. Math. Soc. Japan Volume 63, Number 2 (2011), 503-524 ([arXiv:1209.4756](https://arxiv.org/abs/1209.4756), [doi:10.2969/jmsj/06320503](https://doi.org/10.2969/jmsj/06320503))
 
+### Spectral sequence for rational homotopy of mapping spaces
+
+A [[spectral sequence]] computing the [[rational homotopy theory|rational homotopy]] of [[mapping spaces]]:
+
+* {#Smith97} Samuel B. Smith, _A based Federer spectral sequence and the rational homotopy of function spaces_, Manuscripta Math (1997) 93: 59 ([doi:10.1007/BF02677458](https://doi.org/10.1007/BF02677458))
+
+based on 
+
+* {#Federer56} Herbert Federer, _A Study of Function Spaces by Spectral Sequences_,  Transactions of the American Mathematical Society Vol. 82, No. 2 (Jul., 1956), pp. 340-361 ([jstor:1993052](https://www.jstor.org/stable/1993052))
+
+[[!redirects rational models of mapping spac]]
+
+[[!redirects rational model of mapping spaces]]
+[[!redirects rational models of mapping spaces]]
+
+[[!redirects Sullivan model of mapping space]]
 [[!redirects Sullivan models of mapping space]]
 [[!redirects Sullivan models of mapping spaces]]
 
