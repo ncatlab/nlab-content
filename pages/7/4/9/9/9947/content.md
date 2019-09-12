@@ -32,33 +32,8 @@ Similar to Mizar is [[NuPRL]], [[HOL light]] and [[Isabelle]], which all have de
 
 ## Examples
 
-Examples of proof assistant software:
+[[!include proof assistants and formalization projects -- list]]
 
-* [[Mizar]], [[NuPRL]], [[Isabelle]], [[HOL]]
-
-* [[Coq]], [[Agda]], [[Lean]], [Arend](https://arend-lang.github.io/)
-
-* [[Metamath]]
-
-Projects for formalization of mathematics wth proof assistants:
-
-* [[Xena project]]
-
-* [[UniMath project]]
-
-* [[ForMath project]]
-
-* [[Archive of Formal Proofs]]
-
-A historical projects that died out:
-
-* [[The QED Project]]
-
-Specifically for [[higher category theory]]:
-
-* [[opetopic type theory]]
-
-* [[Globular]], [[homotopy.io]]
 
 ## References
 
