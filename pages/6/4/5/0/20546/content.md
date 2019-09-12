@@ -31,7 +31,13 @@ which are, locally, the [[Cartesian product]] of
 
 1. the [[quaternions]] [[orbifold|orbifolded]] by a [[finite subgroup of SU(2)]] $G_{ADE}$.
 
+
+([Sen 97, Sec 3](#Sen97), [Faux-Lüst-Ovrut 99](#FLO99), [Kaplunovsky-Sonnenschein-Theisen-Yankielowicz 99](#KSTY99), [Faux-Lüst-Ovrut 00a](#FLO00a), [00b](#FLO00b), [00c](#FLO00c))
+
+
 > graphics grabbed from [HSS18, Example 2.2.7](#HSS18)
+
+
 
 For $G_{ADE} = \mathbb{Z}_2$ this subsumes M-theory on [[K3]] times $S^1 \sslash G_{HW}$ ([Seiberg-Witten 96](#SeibergWitten96))
 
@@ -61,7 +67,9 @@ The following graphics shows how the three perspectives arise from [[KK-compacti
 
 (...)
 
-[[Horava-Witten theory]], hence [[heterotic string theory]], [[ADE-singularities]] $\mathbb{H} \sslash G_{ADE}$
+[[Horava-Witten theory]], hence [[heterotic string theory]], on [[ADE-singularities]] $\mathbb{H} \sslash G_{ADE}$
+
+([Witten 99](#Witten99),...)
 
 (...)
 
@@ -143,15 +151,15 @@ in the context of the [[M-theory lift of gauge enhancement on D6-branes]].
 
 The original articles focusing on this situation:
 
-* Michael Faux, [[Dieter Lüst]], [[Burt Ovrut]], _Intersecting Orbifold Planes and Local Anomaly Cancellation in M-Theory_, Nucl. Phys. B554: 437-483, 1999 ([arXiv:hep-th/9903028](https://arxiv.org/abs/hep-th/9903028))
+* {#FLO99} Michael Faux, [[Dieter Lüst]], [[Burt Ovrut]], _Intersecting Orbifold Planes and Local Anomaly Cancellation in M-Theory_, Nucl. Phys. B554: 437-483, 1999 ([arXiv:hep-th/9903028](https://arxiv.org/abs/hep-th/9903028))
 
-* Michael Faux, [[Dieter Lüst]], [[Burt Ovrut]], _Local Anomaly Cancellation, M-Theory Orbifolds and Phase-Transitions_, Nucl. Phys. B589: 269-291, 2000 ([arXiv:hep-th/0005251](https://arxiv.org/abs/hep-th/0005251))
+* {#FLO00a} Michael Faux, [[Dieter Lüst]], [[Burt Ovrut]], _Local Anomaly Cancellation, M-Theory Orbifolds and Phase-Transitions_, Nucl. Phys. B589: 269-291, 2000 ([arXiv:hep-th/0005251](https://arxiv.org/abs/hep-th/0005251))
 
-* Michael Faux, [[Dieter Lüst]], [[Burt Ovrut]], _An M-Theory Perspective on Heterotic K3 Orbifold Compactifications_, Int. J. Mod. Phys. A18:3273-3314, 2003 ([arXiv:hep-th/0010087](https://arxiv.org/abs/hep-th/0010087))
+* {#FLO00b} Michael Faux, [[Dieter Lüst]], [[Burt Ovrut]], _An M-Theory Perspective on Heterotic K3 Orbifold Compactifications_, Int. J. Mod. Phys. A18:3273-3314, 2003 ([arXiv:hep-th/0010087](https://arxiv.org/abs/hep-th/0010087))
 
-* Michael Faux, [[Dieter Lüst]], [[Burt Ovrut]], _Twisted Sectors and Chern-Simons Terms in M-Theory Orbifolds_, Int. J. Mod. Phys. A18: 2995-3014, 2003 ([arXiv:hep-th/0011031](https://arxiv.org/abs/hep-th/0011031))
+* {#FLO00c} Michael Faux, [[Dieter Lüst]], [[Burt Ovrut]], _Twisted Sectors and Chern-Simons Terms in M-Theory Orbifolds_, Int. J. Mod. Phys. A18: 2995-3014, 2003 ([arXiv:hep-th/0011031](https://arxiv.org/abs/hep-th/0011031))
 
-* [[Vadim Kaplunovsky]], J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, _On the Duality between Perturbative Heterotic Orbifolds and M-Theory on $T^4/Z_N$_, Nuclear Physics B Volume 590, Issues 1–2, 4 December 2000, Pages 123-160 Nuclear Physics B ([arXiv:hep-th/9912144](https://arxiv.org/abs/hep-th/9912144), <a href="https://doi.org/10.1016/S0550-3213(00)00460-0">doi:10.1016/S0550-3213(00)00460-0</a>)
+* {#KSTY99} [[Vadim Kaplunovsky]], J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, _On the Duality between Perturbative Heterotic Orbifolds and M-Theory on $T^4/Z_N$_, Nuclear Physics B Volume 590, Issues 1–2, 4 December 2000, Pages 123-160 Nuclear Physics B ([arXiv:hep-th/9912144](https://arxiv.org/abs/hep-th/9912144), <a href="https://doi.org/10.1016/S0550-3213(00)00460-0">doi:10.1016/S0550-3213(00)00460-0</a>)
 
 * {#GKSTY02} E. Gorbatov, [[Vadim Kaplunovsky]], J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, _On Heterotic Orbifolds, M Theory and Type I' Brane Engineering_, JHEP 0205:015, 2002 ([arXiv:hep-th/0108135](https://arxiv.org/abs/hep-th/0108135))
 
@@ -174,21 +182,33 @@ See also
 * {#HSS18} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], Example 2.2.7 of: _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_, CMP (2019) ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987), [doi:10.1007/s00220-019-03442-3](http://link.springer.com/article/10.1007/s00220-019-03442-3))
 
 
+### As $HET_E$-theory with ADE-singularities
 
-### Type II/I' perspective
+As [[heterotic string theory]] on [[orbifold]] [[ADE-singularities]]:
 
+* {#Witten99} [[Edward Witten]], _Heterotic String Conformal Field Theory And A-D-E Singularities_, JHEP 0002:025, 2000 ([arXiv:hep-th/9909229](https://arxiv.org/abs/hep-th/9909229))
+
+### As $I'$-theory with D6-branes
+
+As [[type I' string theory]] with [[D6-branes]]:
+ 
 * {#BrunnerKarch97} [[Ilka Brunner]], [[Andreas Karch]], _Branes at Orbifolds versus Hanany Witten in Six Dimensions_, JHEP 9803:003, 1998 ([arXiv:hep-th/9712143](https://arxiv.org/abs/hep-th/9712143))
 
 * {#HananyZaffaroni98} [[Amihay Hanany]], [[Alberto Zaffaroni]], _Branes and Six Dimensional Supersymmetric Theories_, Nucl.Phys. B529 (1998) 180-206 ([arXiv:hep-th/9712145](https://arxiv.org/abs/hep-th/9712145))
 
 * {#HananyZaffaroni99} [[Amihay Hanany]], [[Alberto Zaffaroni]], _Monopoles in String Theory_, JHEP 9912 (1999) 014 ([arXiv:hep-th/9911113](https://arxiv.org/abs/hep-th/9911113))
 
-* {#BergmanRodriguezGomez12} [[Oren Bergman]], Diego Rodriguez-Gomez, Section 3 of: _5d quivers and their $AdS_6$ duals_, JHEP07 (2012) 171 ([arxiv:1206.3503](https://arxiv.org/abs/1206.3503))
-
 * Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Masato Taki, Futoshi Yagi, _A new 5d description of 6d D-type minimal conformal matter_, JHEP 1508:097, 2015 ([arXiv:1505.04439](https://arxiv.org/abs/1505.04439))
 
 
 * Ibrahima Bah, Achilleas Passias, [[Alessandro Tomasiello]], _$AdS_5$ compactifications with punctures in massive IIA supergravity_, JHEP11 (2017)050 ([arXiv:1704.07389](https://arxiv.org/abs/1704.07389))
+
+### As $I'$-theory with ADE-singularities
+
+As [[type I' string theory]] at [[orbifold]] [[ADE-singularities]]:
+
+* {#BergmanRodriguezGomez12} [[Oren Bergman]], Diego Rodriguez-Gomez, Section 3 of: _5d quivers and their $AdS_6$ duals_, JHEP07 (2012) 171 ([arxiv:1206.3503](https://arxiv.org/abs/1206.3503))
+
 
 ### F-theory perspective
 
