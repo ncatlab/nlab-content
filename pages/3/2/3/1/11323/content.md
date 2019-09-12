@@ -22,9 +22,7 @@ Mizar is a [[proof assistant]] system. It is based on [[Tarski–Grothendieck se
 
 ## Related systems
 
-* [[NuPRL]], [[Isabelle]], [[HOL]]
-
-* [[Coq]], [[Agda]]
+[[!include proof assistants and formalization projects -- list]]
 
 
 ## References
