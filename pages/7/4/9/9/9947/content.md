@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _proof assistant_ or _proof management system_ is a kind of [[programming language]] designed to help with [[proofs]] in formalized [[mathematics]].
+A _proof assistant_ or _proof management system_ is a kind of software designed to help with [[proofs]] in formalized [[mathematics]]. Many proof assistants resemble and/or include a [[programming language]].
 
 There are two threads of current development in proof systems: foundational and coverage. 
 
