@@ -35,9 +35,18 @@ There are various definitions of the notion of kernel, depending on the properti
 
 In a [[category]] with an [[initial object]] $0$ and [[pullbacks]], the __kernel__ $ker(f)$ of a [[morphism]] $f: A \to B$ is the [[pullback]] $ker(f) \to A$ along $f$ of the unique morphism $0 \to B$
 
- 
-
-![](https://lh3.googleusercontent.com/khOombA3zv7t4HK1yT9gmsbs2zIOBHF7nkPMEL-4h8yJmSJVXgwQn4PmBEitCQnxsqYfjQ=s107)
+$$
+  \array{
+    ker(f)
+    &\to&
+    0
+    \\
+    {}^{\mathllap{p}}\downarrow && \downarrow
+    \\
+    A &\stackrel{f}{\to}& B
+  }
+  \,.
+$$
 
 =--
 
