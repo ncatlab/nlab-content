@@ -230,6 +230,10 @@ Composites produced by <i>Globular</i> are in generic position; for example, no 
 The coordinate system for an $n$-diagram is defined in the following way. An $n$-cell at height $y$ has coordinate $[y]$. A $k$-cell for $k \lt n$ has leading coordinate given by its height $z$ in the diagram, and subsequent coordinates given by its coordinates in the slice diagram at that height.
 
 
+## Related entries
+
+[[!include proof assistants and formalization projects -- list]]
+
 ## References
  {#References}
 
