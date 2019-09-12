@@ -47,6 +47,8 @@ A wiki platform based on Haskell, running texmath
 
 * [[domain specific embedded programming language]]
 
+[[!include proof assistants and formalization projects -- list]]
+
 ## References
 
 ### General
