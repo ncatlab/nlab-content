@@ -34,6 +34,11 @@ The PRL part of the name evidently stands for "Proof Refinement Logic".
 
 * [[prototype CLF|Prototype CLF]]: A tentative design for a modern, minimalistic variant of Nuprl's logic, with an emphasis on internally reflecting the semantic judgments.
 
+## Related entries
+
+[[!include proof assistants and formalization projects -- list]]
+
+
 ## References
 
 * _[PRL Project](http://www.nuprl.org/)_ .
