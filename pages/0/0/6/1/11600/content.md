@@ -44,9 +44,9 @@ From their [Mission page](http://www.cas.mcmaster.ca/research/mathscheme/mission
 
 ## Related entries
 
-* [[ForMath]]
-
 * [[formal proof]]
+
+[[!include proof assistants and formalization projects -- list]]
 
 ## References
 
