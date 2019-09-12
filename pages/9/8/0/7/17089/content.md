@@ -231,7 +231,7 @@ Comprehesive survey and exposition of this situation is in
 
 Further identification of [[L-∞ algebras]]-[[structure]] in the [[Feynman amplitudes]]/[[S-matrix]] of [[Lagrangian field theory|Lagrangian]] [[perturbative quantum field theory]]:
 
-* {#Froeb18} [[Markus Fröb]], _Anomalies in time-ordered products and applications to the BV-BRST formulation of quantum gauge theories_ ([arXiv:1803.10235](https://arxiv.org/abs/1803.10235))
+* {#Froeb18} [[Markus Fröb]], _Anomalies in time-ordered products and applications to the BV-BRST formulation of quantum gauge theories_ [Communications in Mathematical Physics](https://dx.doi.org/10.1007/s00220-019-03558-6) 2019 (online first) ([arXiv:1803.10235](https://arxiv.org/abs/1803.10235))
 
 * {#Arvanitakis19} [[Alex Arvanitakis]], _The $L_\infty$-algebra of the S-matrix_ ([arXiv:1903.05643](https://arxiv.org/abs/1903.05643))
 
