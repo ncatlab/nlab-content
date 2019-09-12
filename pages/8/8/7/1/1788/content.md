@@ -1,9 +1,14 @@
 
 $\underline{A} \colon C \in \mathcal{C}(A) \mapsto C$
 
+$\{\rho_C \vert C \subset A \; \}$
+
 $I'$
 
 $\rho \colon A \to \mathbb{C}$
+
+$\rho_C \colon C \subset  A \to \mathbb{C}$
+
 
 $\sfrac{1}{2}$
 
