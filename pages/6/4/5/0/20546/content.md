@@ -104,7 +104,7 @@ In general, some of the NS5 sit away from the [[O8-plane]], while some sit on to
 ### $I'$-theory on ADE-singularities intersecting O8-planes
 {#IPrimeTheoryOnADESingularitiesIntersectingO8Planes}
 
-[Bergman,Rodriguez-Gomez 12, Sec. 3](#BergmanRodriguezGomez12))
+([Bergman & Rodriguez-Gomez 12, Sec. 3](#BergmanRodriguezGomez12))
 
 (...)
 
@@ -183,9 +183,7 @@ See also
 
 * {#HananyZaffaroni99} [[Amihay Hanany]], [[Alberto Zaffaroni]], _Monopoles in String Theory_, JHEP 9912 (1999) 014 ([arXiv:hep-th/9911113](https://arxiv.org/abs/hep-th/9911113))
 
-
-* {#BergmanRodriguezGomez12} [[Oren Bergman]], Diego Rodriguez-Gomez, _5d quivers and their AdS(6) duals_, JHEP07 (2012) 171 ([arxiv:1206.3503](https://arxiv.org/abs/1206.3503))
-
+* {#BergmanRodriguezGomez12} [[Oren Bergman]], Diego Rodriguez-Gomez, Section 3 of: _5d quivers and their $AdS_6$ duals_, JHEP07 (2012) 171 ([arxiv:1206.3503](https://arxiv.org/abs/1206.3503))
 
 * Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Masato Taki, Futoshi Yagi, _A new 5d description of 6d D-type minimal conformal matter_, JHEP 1508:097, 2015 ([arXiv:1505.04439](https://arxiv.org/abs/1505.04439))
 
