@@ -1,8 +1,15 @@
 
 
-* [webpage](http://math.syr.edu/Bios/lewis.html)
+* [webpage](http://math.syr.edu/bios/lewis-gaunce.html)
 
-## related $n$Lab entries
+## Selected writings
+
+On [[equivariant stable homotopy theory]]:
+
+* {#LewisMaySteinberger86} [[L. Gaunce Lewis]], [[Peter May]], and Mark Steinberger (with contributions by J.E. McClure), _Equivariant stable homotopy theory_, Springer Lecture Notes in Mathematics Vol.1213. 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf), [doi:10.1007/BFb0075778](https://link.springer.com/book/10.1007/BFb0075778))
+
+
+## Related $n$Lab entries
 
 * [[compactly generated topological space]]
 
