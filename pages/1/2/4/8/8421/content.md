@@ -224,3 +224,6 @@ The standard rules for type-formation, term introduction/elimination and computa
 
 [[!redirects inference rule]]
 [[!redirects inference rules]]
+
+[[!redirects rule of inference]]
+[[!redirects rules of inference]]
