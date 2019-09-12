@@ -20,6 +20,11 @@ _HOL_ (short for [[higher-order logic]]) is a kind of [[simply typed lambda calc
 
 Other proof assistants of this kind are HOL4, [[HOL Light]], HOL Zero, and ProofPower.
 
+## Related entries
+
+[[!include proof assistants and formalization projects -- list]]
+
+
 ## References
 
 * T. Nipkow, L. Paulson, M. Wenzel. _Isabelle/HOL &#8212; A Proof Assistant for Higher-Order
