@@ -10,6 +10,21 @@ The _complex projective plane_ $\mathbb{C}P^2$ is the [[complex projective space
 
 ## Properties
 
+### Rational homotopy type
+
+A [[Sullivan model]] is given by
+
+$$
+  \array{
+    d\, \alpha_2 & = 0
+    \\
+    d\, \alpha_5 & = \alpha_2 \wedge \alpha_2 \wedge \alpha_2
+  }
+$$
+
+* Luc Menichi, Section 5.3 of: _Rational homotopy – Sullivan models_
+
+
 ### Quotient by complex conjugation is 4-sphere
 
 The [[quotient space]] of the [[complex projective plane]] by the [[action]] on homogeneous coordinates of [[complex conjugation]] is the [[4-sphere]].
