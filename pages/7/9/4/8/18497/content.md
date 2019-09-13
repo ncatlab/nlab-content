@@ -17,14 +17,17 @@
 
 ## Idea
 
-What is called the **mysterious duality** in [Iqbal-Neitzke-Vafa 01](#INV01) is a kind of "[[duality in string theory]]" in the form of a correspondence between [[torus|toroidal]] [[KK-compactifications]] of [[M-theory]] and [[del Pezzo surfaces]]: 
+What is called the **mysterious duality** in [Vafa 00](#Vafa00), [Iqbal-Neitzke-Vafa 01](#INV01) is a kind of "[[duality in string theory]]" in the form of a correspondence between [[torus|toroidal]] [[KK-compactifications]] of [[M-theory]] and [[del Pezzo surfaces]]: 
 Here M-theory on the $k$-[[torus]] $T^k$ corresponds to the [[complex projective space]] $\mathbb{C}P^2$ [[blow up|blown up]] at $k$ [[generic points]]. In particular, for $k = 1$ this corresponds to  [[type IIA string theory]] (via [[duality between M-theory and type IIA string theory]]). [[type II string theory|Type IIB]]  corresponds to $\mathbb{P}^1 \times \mathbb{P}^1$.
 
 Moreover, the [[moduli]] of [[KK-compactifications]] of [[M-theory]] on rectangular tori are mapped to K&#228;hler moduli of del Pezzo surfaces. The [[U-duality]] group of M-theory corresponds to a group of classical symmetries of the del Pezzo represented by global [[diffeomorphisms]]. The $\frac{1}{2}$-[[BPS state|BPS]] [[brane]] charges of M-theory correspond to [[spheres]] in the del Pezzo, and their tension to the exponentiated volume of the corresponding spheres.
 
 The [[S-duality]] of type IIB in 10 dimensions corresponds to the exchange of the two [[complex projective curves]] $\mathbb{C}P^1$s in $\mathbb{C}P^1 \times \mathbb{C}P^1$.
 
-##References
+## References
+
+* {#Vafa00} [[Cumrun Vafa]], from slide 42 in: _Mirror symmetry_, Talk at [String Theory at the Millennium](http://theory.caltech.edu/conf2000/), Caltech, January 2000 ([slides html](http://www.theory.caltech.edu/conf2000/Vafa/fs1.html))
+
 
 * {#INV01} [[Amer Iqbal]], [[Andrew Neitzke]], [[Cumrun Vafa]], _A mysterious duality_, ([arXiv:hep-th/0111068](https://arxiv.org/abs/hep-th/0111068))
 
