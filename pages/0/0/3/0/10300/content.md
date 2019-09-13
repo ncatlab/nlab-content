@@ -54,6 +54,10 @@ In any projective plane, we can define a "scalar" to be an ordered set of four c
 
 If Desargues' theorem fails, then we can still construct a sort of algebraic structure on the scalars, called a [[ternary ring]], which suffices to reconstruct our plane.  However, distinct ternary rings can give rise to isomorphic projective planes, in contrast to the situation for fields and division rings.
 
+## Examples
+
+* [[complex projective plane]]
+
 ## Related pages
 
 * [[projective 3-space]]
