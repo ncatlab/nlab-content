@@ -40,3 +40,7 @@ The [[biholomorphisms]], i.e. the bijective [[conformal transformations]] from t
 
 
 [[!redirects Riemann spheres]]
+
+[[!redirects complex projective curve]]
+[[!redirects complex projective curves]]
+
