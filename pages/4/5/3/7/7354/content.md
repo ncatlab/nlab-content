@@ -103,7 +103,11 @@ string-QFT duality
 
 * [[Gopakumar-Vafa duality]]
 
-* [[Hořava-Witten theory]]
+* [[mysterious duality]]
+
+* [[magic pyramid]]
+
+
 
 ## References
 
