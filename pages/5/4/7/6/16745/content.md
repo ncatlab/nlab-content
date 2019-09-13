@@ -20,7 +20,7 @@ The concept of **Borcherds algebra** or **Borcherds-Kac-Moody algebra** is a gen
 
 ## References
 
-* Wikipedia, _[Generaralized Kac-Moody algebra](https://en.wikipedia.org/wiki/Generalized_Kac&#8211;Moody_algebra)_
+
 
 * [[Richard Borcherds]], _Generalized Kac-Moody algebras_, J. Algebra 115 (1988), 501&#8211;512. 
 
@@ -28,7 +28,7 @@ The concept of **Borcherds algebra** or **Borcherds-Kac-Moody algebra** is a gen
 
 * [[Victor Kac]], _Infinite dimensional Lie algebras_, third edition, Cambridge University Press, 1990.
 
-Relation to [[U-duality]] and [[E11]] is discussed in 
+Relation to [[U-duality]] and [[E11]] (via  [[mysterious duality]]) is discussed in 
 
 * Pierre Henry-Labordere, [[Bernard Julia]], Louis Paulot, _Borcherds symmetries in M-theory_, JHEP 0204 (2002) 049 ([arXiv:http://arxiv.org/abs/hep-th/0203070](http://arxiv.org/abs/hep-th/0203070))
 
@@ -40,6 +40,13 @@ and specifically to [[exceptional generalized geometry]] in
 * Jakob Palmkvist, _Exceptional geometry and Borcherds superalgebras_ ([arXiv:1507.08828](http://arxiv.org/abs/1507.08828))
 
 * {#Palmkvist12} Jakob Palmkvist, _Tensor hierarchies, Borcherds algebras and $E_{11}$_, JHEP 1202 (2012) 066 ([arXiv:1110.4892](http://arxiv.org/abs/1110.4892))
+
+See also:
+
+* Wikipedia, _[Generaralized Kac-Moody algebra](https://en.wikipedia.org/wiki/Generalized_Kac&#8211;Moody_algebra)_
+
+
+
 
 [[!redirects Borcherds algebras]]
 
