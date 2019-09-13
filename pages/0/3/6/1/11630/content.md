@@ -132,6 +132,8 @@ U-duality may be understood as being the combination of [[T-duality]] for the co
 
 * [[magic pyramid]]
 
+* [[mysterious duality]]
+
 ## References
  {#References}
 
