@@ -192,7 +192,7 @@ The orbifold quotient of the [[4-torus]] by the sign [[involution]] on all four 
 
 > graphics grabbed from [Snowden 11](orbifold#Snowden11)
 
-Also $\mathbb{T}^4\sslash\mathbb{Z}_4$ gives a toroidal orbifold. As [[orientifolds]] with [[D5-branes]] in [[type IIB string theory]] these are discussed in [Buchel-Shiu-Tye 99, Sec. II](RR-field+tadpole+cancellation#BuchelShiuTye99).
+Also $\mathbb{T}^4\sslash\mathbb{Z}_4$ gives a toroidal orbifold. As [[orientifolds]] with [[D5-branes]] in [[type IIB string theory]] these are discussed in [Buchel-Shiu-Tye 99, Sec. II](#BuchelShiuTye99).
 
 \linebreak
 
@@ -248,11 +248,38 @@ In 2 dimensions
 
 #### Of dimension 4
 
-Flat (toroidal) orbifolds of dimension 4 are discussed in
+Flat (toroidal) orbifolds of dimension 4:
+
+In the the context of [[black holes in string theory]]:
+
 
 * Justin R. David, Gautam Mandal, Spenta R. Wadia, _Microscopic Formulation of Black Holes in String Theory_, Phys.Rept.369:549-686,2002 ([arXiv:hep-th/0203048](https://arxiv.org/abs/hep-th/0203048))
 
-  (in the context of [[black holes in string theory]])
+
+In the context of [[RR-field tadpole cancellation]] for [[intersecting D-brane models]] on toroidal orientifolds:
+
+Specifically [[K3]] [[orientifolds]] ($\mathbb{T}^4/G_{ADE}$) in [[type IIB string theory]], hence for [[D9-branes]] and [[D5-branes]]:
+
+
+* Eric G. Gimon, [[Joseph Polchinski]], Section 3.2 of: _Consistency Conditions for Orientifolds and D-Manifolds_, Phys. Rev. D54: 1667-1676, 1996 ([arXiv:hep-th/9601038](https://arxiv.org/abs/hep-th/9601038))
+
+* {#GimonJohnson96} Eric Gimon, [[Clifford Johnson]], _K3 Orientifolds_, Nucl. Phys. B477: 715-745, 1996 ([arXiv:hep-th/9604129](https://arxiv.org/abs/hep-th/9604129))
+
+* {#BuchelShiuTye99} Alex Buchel, [[Gary Shiu]], S.-H. Henry Tye, _Anomaly Cancelations in Orientifolds with Quantized B Flux_, Nucl.Phys. B569 (2000) 329-361 ([arXiv:hep-th/9907203](https://arxiv.org/abs/hep-th/9907203))
+
+* P. Anastasopoulos, A. B. Hammou, _A Classification of Toroidal Orientifold Models_, Nucl. Phys. B729:49-78, 2005 ([arXiv:hep-th/0503044](https://arxiv.org/abs/hep-th/0503044))
+
+Specifically [[K3]] [[orientifolds]] ($\mathbb{T}^4/G_{ADE}$) in [[type IIA string theory]], hence for [[D8-branes]] and [[D4-branes]]:
+
+* {#ParkUranga98} J. Park, [[Angel Uranga]], _A Note on Superconformal N=2 theories and Orientifolds_, Nucl. Phys. B542:139-156, 1999 ([arXiv:hep-th/9808161](https://arxiv.org/abs/hep-th/9808161))
+
+
+* {#AFIRU00a} G. Aldazabal, S. Franco, [[Luis Ibanez]], R. Rabadan, [[Angel Uranga]], _D=4 Chiral String Compactifications from Intersecting Branes_, J. Math. Phys. 42:3103-3126, 2001 ([arXiv:hep-th/0011073](https://arxiv.org/abs/hep-th/0011073))
+
+* {#AFIRU00b} G. Aldazabal, S. Franco, [[Luis Ibanez]], R. Rabadan, [[Angel Uranga]], _Intersecting Brane Worlds_, JHEP 0102:047, 2001 ([arXiv:hep-ph/0011132](https://arxiv.org/abs/hep-ph/0011132))
+
+* {#KataokaShimojo01} H. Kataoka, M. Shimojo, _$SU(3) \times SU(2) \times U(1)$ Chiral Models from Intersecting D4-/D5-branes_, Progress of Theoretical Physics, Volume 107, Issue 6, June 2002, Pages 1291–1296 ([arXiv:hep-th/0112247](https://arxiv.org/abs/hep-th/0112247), [doi:10.1143/PTP.107.1291](https://doi.org/10.1143/PTP.107.1291))
+
 
 In the context of [[Mathieu moonshine]] from [[string]] [[sigma models]] on [[K3]]s: 
 
