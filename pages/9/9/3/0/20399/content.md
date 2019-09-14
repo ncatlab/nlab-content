@@ -18,7 +18,7 @@ On the [[ABJM model]]:
 On [[D-brane charge]] in [[K-theory]] on [[orientifolds]]:
 
 
-* {#BergmanGimonSugimoto01} [[Oren Bergman]], E. Gimon, [[Shigeki Sugimoto]], _Orientifolds, RR Torsion, and K-theory_, JHEP 0105:047, 2001 ([arXiv:hep-th/0103183](https://arxiv.org/abs/hep-th/0103183))
+* {#BergmanGimonSugimoto01} [[Oren Bergman]], [[Eric Gimon]], [[Shigeki Sugimoto]], _Orientifolds, RR Torsion, and K-theory_, JHEP 0105:047, 2001 ([arXiv:hep-th/0103183](https://arxiv.org/abs/hep-th/0103183))
 
 On [[D4-brane]] [[ADE-singularity|ADE]]-[[orientifold]] models in [[type I' string theory]]:
 
