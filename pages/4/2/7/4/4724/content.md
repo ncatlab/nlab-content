@@ -388,9 +388,9 @@ with respect to this equivalence relation is called a _[[smooth structure]]_ on 
 
 =--
 
-## As Etalé Spaces
+## As Étale Spaces
 
-Differentiable manifolds can be viewed as akin to [[etalé spaces]], very much in alignment with the language of [[algebraic geometry]]. For [[smooth manifolds]] and [[complex manifolds]] the requisite atlas conditions can be stated in terms of a particular structure sheaf.  Here we illustrate the differentiable case. For any $A \subset {\mathbf R}^n$, we write $\mathcal{D}_A$ for the sheaf of germs of functions $f \in C^{\infty}(A, {\bf R})$. That is, $\mathcal{D}_A$ is the functor $ \mathcal{D}_A :  \text{Open} (A) \rightarrow {\mathbf Ring}^{\text{op}}$ s.t. $ \mathcal{D}_A  : B \mapsto C^{\infty}(B, {\mathbf R})$ and $ \mathcal{D}_A  : B \subset B' \mapsto  C^{\infty}(B, {\mathbf R}) \hookrightarrow C^{\infty}(B', {\mathbf R})$. This turns $ (A, \mathcal{D}_A)$ into a ringed space, and any ringed space modeled on one of this kind can be regarded as a differentiable (by which is always meant "real") manifold. More precisely, given a ringed space $(X, D_X)$, there must an open set $A \subset {\mathbf R}^n$ and local isomorphism $(f, f_*)$  where $f: A \rightarrow X$ is a continuous function with sheaf pushfoward $f_* : (\mathcal{O}_A \rightarrow \mathcal{O}_X )$. The following property, which holds at the continuous level, is essential.
+Differentiable manifolds can be viewed as akin to [[étale spaces]], very much in alignment with the language of [[algebraic geometry]]. For [[smooth manifolds]] and [[complex manifolds]] the requisite atlas conditions can be stated in terms of a particular structure sheaf.  More precisely, this definition yields an [[equivalence of categories]] between the category of smooth manifolds as in \ref{Charts} and the category of locally ringed spaces modeled on domains of $\mathbf{R}^n$ with a sheaf of germs of smooth functions. The same goes for topological and complex manifolds, where the local models are domains with sheafs of germs of continuous and holomorphic functions respectively. Here we illustrate the differentiable case. For any $A \subset {\mathbf R}^n$, we write $\mathcal{D}_A$ for the sheaf of germs of functions $f \in C^{\infty}(A, \mathbf{R} )$. That is, $\mathcal{D}_A$ is the functor $ \mathcal{D}_A :  \text{Open} (A) \rightarrow {\mathbf Ring}^{\text{op}}$ s.t. $ \mathcal{D}_A  : B \mapsto C^{\infty}(B, {\mathbf R})$ and $ \mathcal{D}_A  : B \subset B' \mapsto  C^{\infty}(B, {\mathbf R}) \hookrightarrow C^{\infty}(B', {\mathbf R})$. This turns $ (A, \mathcal{D}_A)$ into a ringed space, and any ringed space modeled on one of this kind can be regarded as a differentiable (by which is always meant "real") manifold. More precisely, given a ringed space $(X, D_X)$, there must an open set $A \subset {\mathbf R}^n$ and local isomorphism $(f, f_*)$  where $f: A \rightarrow X$ is a continuous function with sheaf pushfoward $f_* : (\mathcal{O}_A \rightarrow \mathcal{O}_X )$. The following property, which holds at the continuous level, is essential.
 
 +-- {: .num_lemma} 
 ###### Lemma
@@ -402,12 +402,11 @@ We can phrase the example of $\mathbf{R}P^n$ in this language.
 
 +-- {: .num_example #DifferentiableManifoldCartesianSpace}
 ###### Example
-**([[real projective space]] as a [[smooth manifold]] in this [[etalé map]] sense)
+**([[real projective space]] as a [[smooth manifold]] in this [[étale map]] sense)
 
-We need only show that the functions $f : V \subset {\mathbf R}P^n \rightarrow {\mathbf R}^n$ which are smooth when composed with the canonical projection $\pi : {\mathbf R}^{n+1}/\{ 0 \} \rightarrow {\mathbf R }P^n$ form a sheaf on ${\mathbf R}^n$. Denote these $\mathcal{O}_{{\mathbf R}P^n}$. Certainly they form a presheaf, and checking the pullback as in the lemma confirms that they are a sheaf. Hence $({\mathbf R}P^n, \mathcal{O}_{{\mathbf R}P^n})$ is a smooth manifold.
+We need only show that the functions $f : V \subset {\mathbf R}P^n \rightarrow {\mathbf R}^n$ which are smooth when composed with the canonical projection $\pi : {\mathbf R}^{n+1}/\{ 0 \} \rightarrow {\mathbf R }P^n$ form a sheaf on ${\mathbf R}^n$. Denote these $\mathcal{O}_{{\mathbf R}P^n}$. Certainly they form a presheaf, and checking the pullback as in the lemma confirms that they are a sheaf. So far this only confirms that ${\mathbf R}P^n$ is a real topological manifold. To establish its differentiable structure we take for each chart $(U, \varphi)$ of ${\mathbf R}P^n$ the ringed space $(\varphi(U), \varphi_* \mathcal{O}_{{\mathbf R}P^n}|_U )$ obtained from restriction and then pushforward, a local isomorphism of locally ringed spaces by construction. Hence $({\mathbf R}P^n, \mathcal{O}_{{\mathbf R}P^n})$ is a smooth manifold.
 
 =--
-
 
 ## Examples
  {#Examples}
