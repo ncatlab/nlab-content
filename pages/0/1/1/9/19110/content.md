@@ -68,7 +68,6 @@ More details are understood in the special case of plane orbifolds $V^{cpt} \!\s
 
 In this case tadpole cancellation conditions are given by [[representation theory|representation theoretic]] [[equations]], constraining the [[character of a linear representation|characters]] of the [[linear representations]] corresponding to the [[fractional D-branes]].
 
-spring
 
 Let $G$ be a [[finite group]]. Let 
 
