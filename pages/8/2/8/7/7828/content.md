@@ -199,6 +199,8 @@ This is with motivation from _[[orientifolds]]_, see the references given there 
 
 * {#DMR13} [[Charles Doran]], Stefan Mendez-Diez, [[Jonathan Rosenberg]], _T-duality For Orientifolds and Twisted KR-theory_ ([arXiv:1306.1779](http://arxiv.org/abs/1306.1779))
 
+  (but see [HMSV 19, p.5 footnote 1](#HMSV19))
+
 * {#DMR14} [[Charles Doran]], Stefan Mendez-Diez, [[Jonathan Rosenberg]], _String theory on elliptic curve orientifolds and KR-theory_ ([arXiv:1402.4885](http://arxiv.org/abs/1402.4885))
 
 A general proposal for [[differential K-theory|differential]] [[equivariant K-theory|equivariant]] KR-theory of [[orientifolds]] and [[O-plane charge]]
@@ -225,11 +227,11 @@ which is reviewed and amplified further in
 
 * {#Mathew} Akhil Mathew, section 2 of _The homotopy groups of $TMF$_, talk notes ([pdf](http://math.mit.edu/~sglasman/tmfhomotopy.pdf))
 
-Disucssion of [[twisted cohomology|twists]] of KR-theory by [[HZR-theory]] in degree 3 via [[bundle gerbes]] ([[Jandl gerbes]]) includes
+Discussion of [[twisted cohomology|twists]] of [[KR-theory]] by [[HZR-theory]] in degree 3 via [[bundle gerbes]] ([[Jandl gerbes]]) suitable for classifying [[D-brane charge]] on [[orientifolds]]:
 
 * [[Pedram Hekmati]], [[Michael Murray]], [[Richard Szabo]], [[Raymond Vozzo]], _Real bundle gerbes, orientifolds and twisted KR-homology_ ([arXiv:1608.06466](http://arxiv.org/abs/1608.06466))
 
-
+* {#HMSV19} [[Pedram Hekmati]], [[Michael Murray]], [[Richard Szabo]], [[Raymond Vozzo]], _Sign choices for orientifolds_ ([arXiv:1905.06041](https://arxiv.org/abs/1905.06041)) 
 
 [[!redirects KR-homology]]
 
