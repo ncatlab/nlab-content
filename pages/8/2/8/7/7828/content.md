@@ -180,11 +180,18 @@ Remarks on homotopy-theoretic KR in the context of [[algebraic K-theory]] are in
 
 * [[Vigleik Angeltveit]], [[Andrew Blumberg]], Teena Gerhardt, [[Michael Hill]], _Algebraic K-theory and equivariant homotopy theory_, 2012 ([pdf](http://www.birs.ca/workshops/2012/12w5116/report12w5116.pdf))
 
-Explicit [[groupoid]]/[[stack]] models for equivariant and twisted KR-theory theory are discussed in
+Discussion of [[equivariant K-theory|equivariant]] and [[twisted K-theory|twisted]] versions of KR-theory
 
-* El-ka&#239;oum M. Moutuou, _Twistings of KR for Real groupoids_ ([arXiv:1110.6836](http://arxiv.org/abs/1110.6836))
+* [[El-kaïoum M. Moutuou]], _Twistings of KR for Real groupoids_ ([arXiv:1110.6836](http://arxiv.org/abs/1110.6836))
+
+* [[El-kaïoum M. Moutuou]], _Graded Brauer groups of a groupoid with involution_, J. Funct. Anal. 266 (2014), no.5 ([arXiv:1202.2057](https://arxiv.org/abs/1202.2057))
 
 * {#Freed12} [[Daniel Freed]], _Lectures on twisted K-theory and orientifolds_, lectures at ESI Vienna, 2012 ([[FreedESI2012.pdf:file]])
+
+* [[Daniel Freed]], [[Gregory Moore]], Section 7 of: _Twisted equivariant matter_,  Ann. Henri Poincaré (2013) 14: 1927 ([arXiv:1208.5055](https://arxiv.org/abs/1208.5055))
+
+* {#Gomi17} [[Kiyonori Gomi]], _Freed-Moore K-theory_ ([arXiv:1705.09134](https://arxiv.org/abs/1705.09134), [spire:1601772](http://inspirehep.net/record/1601772))
+
 
 This is with motivation from _[[orientifolds]]_, see the references given there for more. A long list of computations of twisted $KR$-classes on tori with applications to [[T-duality]] on [[orientifolds]]/[[O-planes]] is in
 
@@ -214,7 +221,7 @@ Discussion of $KU$ with its $\mathbb{Z}_2$-action as the [[E-∞ ring]]-valued [
 
 which is reviewed and amplified further in 
 
-* {#Mathew13} [[Akhil Mathew]], section 3 of _The homology of $tmf$ ([arXiv:1305.6100](http://arxiv.org/abs/1305.6100)) 
+* {#Mathew13} [[Akhil Mathew]], section 3 of _The homology of $tmf$_ ([arXiv:1305.6100](http://arxiv.org/abs/1305.6100)) 
 
 * {#Mathew} Akhil Mathew, section 2 of _The homotopy groups of $TMF$_, talk notes ([pdf](http://math.mit.edu/~sglasman/tmfhomotopy.pdf))
 
@@ -222,9 +229,6 @@ Disucssion of [[twisted cohomology|twists]] of KR-theory by [[HZR-theory]] in de
 
 * [[Pedram Hekmati]], [[Michael Murray]], [[Richard Szabo]], [[Raymond Vozzo]], _Real bundle gerbes, orientifolds and twisted KR-homology_ ([arXiv:1608.06466](http://arxiv.org/abs/1608.06466))
 
-Discussion of combined [[twisted K-theory|twisted]] and [[equivariant K-theory|equivariant]] and [[real K-theory|real]] K-theory
-
-* {#Gomi17} [[Kiyonori Gomi]], _Freed-Moore K-theory_ ([arXiv:1705.09134](https://arxiv.org/abs/1705.09134))
 
 
 [[!redirects KR-homology]]
