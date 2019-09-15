@@ -100,7 +100,11 @@ Discussion of [[permutation D-branes]] for Gepner models, via [[boundary conform
 
 * {#EngerRecknagelRoggenkamp05} Håkon Enger, [[Andreas Recknagel]], [[Daniel Roggenkamp]], _Permutation branes and linear matrix factorisations_, JHEP0601:087, 2006 ([arXiv:hep-th/0508053](https://arxiv.org/abs/hep-th/0508053))
 
-Discussion of [[string phenomenology]] and the [[landscape of string theory vacua]] of Gepner model compactifications is in
+Gepner model [[orientifolds]]:
+
+* Brandon Bates, [[Charles Doran]], Koenraad Schalm, _Crosscaps in Gepner Models and the Moduli space of T2 Orientifolds_ ([arXiv:hep-th/0612228](https://arxiv.org/abs/hep-th/0612228))
+
+Specifically [[string phenomenology]] and the [[landscape of string theory vacua]] of Gepner model [[orientifold]] compactifications:
 
 * {#DijkstraHuiszoonSchellekens04a} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Chiral Supersymmetric Standard Model Spectra from Orientifolds of Gepner Models_, Phys.Lett. B609 (2005) 408-417 ([arXiv:hep-th/0403196](https://arxiv.org/abs/hep-th/0403196))
 
