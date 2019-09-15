@@ -4,6 +4,7 @@
 
 * [[bundle gerbes]]
 * [[caloron correspondence]]
+* [[KR cohomology theory]]
 
 
 category:people
