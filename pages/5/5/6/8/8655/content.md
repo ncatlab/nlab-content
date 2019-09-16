@@ -25,31 +25,7 @@ In fundamental physics, notably in [[quantum field theory]] and [[string theory]
 
 ## Examples
 
-* [[Kramers-Wannier duality]]
-
-* [[Seiberg duality]], [[AGT conjecture]]
-
-* [[S-duality]]
-
-  * [[electro-magnetic duality]], [[Montonen-Olive duality]], [[geometric Langlands duality]]
-
-* [[T-duality]]
-  
-  * [[mirror symmetry]]
-
-* [[U-duality]]
-
-* [[open/closed string duality]]
-
-  * [[AdS/CFT|AdS/CFT duality]]
-
-  * [[KLT relations]]
-
-While most of these dualities refer to equivalences between [[quantum field theories]], they find their conceptual explanation in [[string theory]]. See at 
-
-* [[duality in string theory]] 
-
-for more.
+[[!include duality in string theory -- contents]]
 
 
 
