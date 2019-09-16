@@ -72,7 +72,7 @@ a proof in terms of [[moduli stacks]] is given in [Mathew 13, section 3](#Mathew
 
 There are close relations between K-theory and [[Clifford algebras]]. One conceptual statement relating them is this:
 
-_KO-theory is the first Weiss-derivative (in [[orthogonal calculus]]) of the K-theory of Clifford algebras._ ([[Charles Rezk]], [MO comment, Sept '13](http://mathoverflow.net/a/142091/381))
+_KO-theory is the first Weiss-derivative (in [[orthogonal calculus]]) of the K-theory of [[Clifford algebras]]._ ([[Charles Rezk]], [MO comment, Sept '13](http://mathoverflow.net/a/142091/381))
 
 
 ## Related concepts
