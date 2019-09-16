@@ -5,9 +5,22 @@
 * math-net.ru [page](http://www.mathnet.ru/php/person.phtml?personid=21996&option_lang=eng)
 
 
-## Related entries
+## Selected writings
+
+On [[Alexandroff spaces]] ([[specialization topology]]):
+
+* [[Paul Alexandroff]], _Diskrete R&#228;ume_ ([web](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=sm&paperid=5579&option_lang=eng)) (1973)
+
+
+On [[one-point compactification]]:
+
+* {#Aleksandrov24} [[Pavel Aleksandrov]], _Über die Metrisation der im Kleinen kompakten topologischen Räume_, Mathematische Annalen (1924) Volume: 92, page 294-301 ([dml:159072](https://eudml.org/doc/159072))
+
+## Related $n$Lab entries
 
 * [[Alexandroff space]] ([[specialization topology]])
+
+* [[one-point compactification]]
 
 
 category: people
