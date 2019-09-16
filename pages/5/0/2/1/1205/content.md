@@ -38,3 +38,5 @@ Hopf algebras_, J. London Math. Soc. (2) 69 (2004) 44&#8211;64 ([doi](http://dx.
 * A.M. Semikhatov, _Yetter--Drinfeld structures on Heisenberg doubles and chains_, [arXiv:0908.3105](http://arxiv.org/abs/0908.3105)
 
 * Daniele Rosso, Alistair Savage, _Twisted Heisenberg doubles_, [arxiv/1405.7889](http://arxiv.org/abs/1405.7889)
+
+* Robert Laugwitz, _Braided Drinfeld and Heisenberg doubles_, J. Pure Appl. Alg. __219__:10 (2015) 4541-4596 [doi](https://doi.org/10.1016/j.jpaa.2015.02.031)
