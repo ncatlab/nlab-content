@@ -3,13 +3,12 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### String theory
+#### Duality in string theory
 +-- {: .hide}
-[[!include string theory - contents]]
+[[!include duality in string theory -- contents]]
 =--
 =--
 =--
-
 
 
 #Contents#
@@ -60,9 +59,14 @@ Discussion of the duality at the level of [[type II supergravity]] [[equations o
 
 * [[Branislav Jurco]], [[Jan Vysoky]], _Poisson-Lie T-duality of String Effective Actions: A New Approach to the Dilaton Puzzle_, Journal of Geometry and Physics Volume 130, August 2018, Pages 1-26 ([arXiv:1708.04079](https://arxiv.org/abs/1708.04079))
 
+Discussion within a broader picture of [[duality in physics|dual]] [[higher gauge theories]], including 4d [[electric-magnetic duality]]:
+
+* [[Ján Pulmann]], [[Pavol Ševera]], [[Fridrich Valach]], _A non-abelian duality for (higher) gauge theories_ ([arXiv:1909.06151](https://arxiv.org/abs/1909.06151))
+
+
 See also
 
-* [[Pavol Ševera]], Fridrich Valach, _Courant algebroids, Poisson-Lie T-duality, and type II supergravities_ ([arXiv:1810.07763](https://arxiv.org/abs/1810.07763))
+* [[Pavol Ševera]], [[Fridrich Valach]], _Courant algebroids, Poisson-Lie T-duality, and type II supergravities_ ([arXiv:1810.07763](https://arxiv.org/abs/1810.07763))
 
 * {#Hassler17} [[Falk Hassler]], _Poisson-Lie T-Duality in Double Field Theory_ ([arXiv:1707.08624](https://arxiv.org/abs/1707.08624))
 
