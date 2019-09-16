@@ -158,6 +158,10 @@ Exposition of this is in
 
 * [[Edward Frenkel]],  _What Do Fermat's Last Theorem and Electro-magnetic Duality Have in Common?_ KITP talk 2011 ([web](http://online.kitp.ucsb.edu/online/bblunch/frenkel/))
 
+A perspective unifying EM-duality of [[higher gauge theories]]  with [[non-abelian T-duality]]:
+
+* [[Ján Pulmann]], [[Pavol Ševera]], [[Fridrich Valach]], _A non-abelian duality for (higher) gauge theories_ ([arXiv:1909.06151](https://arxiv.org/abs/1909.06151))
+
 
 [[!redirects electric-magnetic dualities]]
 
