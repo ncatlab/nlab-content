@@ -63,7 +63,7 @@ All structure on [[generalized smooth spaces]] $X$ is thereby reduced to _compat
 one for each smooth "probe" $f\colon \mathbb{R}^n \to X$. This is called "[[functorial geometry]]".
 
 Notice that the popular concept of a _[[smooth manifold]]_ (def./prop. \ref{SmoothManifoldInsideDiffeologicalSpaces} below)
-is essentially that o a [[smooth space]] which _locally looks just like_ a [[Cartesian space]],
+is essentially that of a [[smooth space]] which _locally looks just like_ a [[Cartesian space]],
 in that there exist sufficiently many $f \colon \mathbb{R}^n \to X$ which are ([[open map|open]]) _[[isomorphisms]]_
 onto their [[images]]. Historically it was a long process to arrive at the insight that it is wrong to _fix_
 such local coordinate identifications $f$, or to have any structure depend on such a choice. But it is useful
@@ -77,7 +77,7 @@ to [[differential geometry]] by [Lawvere 67](synthetic+differential+geometry#Law
 
 This allows to combine the best of two superficially disjoint worlds: On the one hand we may reduce
 all constructions and computations to [[coordinates]], the way traditionally done in the [[physics]] literature;
-on the other hand we have full conceptial control over the coordinate-free generalized spaces analyzed thereby.
+on the other hand we have full conceptual control over the coordinate-free generalized spaces analyzed thereby.
 What makes this work is that all [[coordinate]]-constructions are _[[functorial geometry|functorially]]_ considered
 over all abstract coordinate systems.
 
