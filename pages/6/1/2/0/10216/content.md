@@ -1,5 +1,7 @@
 
-* [webpage](http://131.220.77.52/lueck/)
+* [webpage](http://www.him.uni-bonn.de/lueck/)
+
+* [webpage at Hausdorff Centre](https://www.hcm.uni-bonn.de/people/profile/wolfgang-lueck/)
 
 ## Selected writings
 
