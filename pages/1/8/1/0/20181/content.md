@@ -78,7 +78,7 @@ and
 1. $Y^H$ is $(dim(X^H)-1)$-[[n-connected topological space|connected]]
 
    $$
-     pi_{ \lt \mathrm{dim}\big( X^H \big) }
+     \pi_{ \lt \mathrm{dim}\big( X^H \big) }
      \big( 
        Y^H
      \big)
