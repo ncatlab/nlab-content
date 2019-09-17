@@ -43,7 +43,7 @@ such that it does not move the endpoints:
 $$
   \eta(0,-) = const_{\gamma_1(0)} = const_{\gamma_2(0)}
   \phantom{AAAAAA}
-  \eta(1,-) = const_{\gamma_1(0)} = const_{\gamma_2(1)}
+  \eta(1,-) = const_{\gamma_1(1)} = const_{\gamma_2(1)}
   \,.
 $$
 
