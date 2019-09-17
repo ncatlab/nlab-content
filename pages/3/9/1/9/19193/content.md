@@ -126,6 +126,10 @@ baryonic [[Tully-Fisher relation]] qualitatively reproduced in [El-Badry 18, Fig
 
 * Daniel Angles-Alcazar, _Multi-scale physical modeling in galaxy formation and evolution_, 2019 ([web](http://www.simonsfoundation.org/event/cca-seminar-daniel-angles-alcazar/))
 
+#### Other
+
+* _The Quijote simulations_ ([arXiv:1909.05273](https://arxiv.org/abs/1909.05273))
+
 [[!redirects galaxy formation]]
 
 [[!redirects cosmic structure formation]]
