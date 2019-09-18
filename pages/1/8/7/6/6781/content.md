@@ -17,7 +17,8 @@
 
 ### General
 
-The notion of a _quasi-Hopf algebra_ generalizes this of a [[Hopf algebra]] by weakening the [[associativity]] [[coherence]] ([Drinfeld 89](#Drinfeld89)). 
+The notion of a quasibialgebra generalizes this of a 
+[[bialgebra]][[Hopf algebra]] by introducing a nontrivial [[associativity]] [[coherence]] ([Drinfeld 89](#Drinfeld89)) isomorphisms (representable by multiplication with an element in triple tensor product) into axioms; a _quasi-Hopf algebra_ is a quasibialgebra with an antipode satisfying axioms which also involve nontrivial left and right unit coherences. 
 
 In particular, quasi-Hopf algebras may be obtained from ordinary Hopf algebras by twisting by a [[Drinfeld associator]], i.e. a nonabelian [[bialgebra cocycle|bialgebra 3-cocycle]].
 
@@ -67,6 +68,12 @@ and some arguments about the general relevance of quasi-Hopf algebras is in
 
 * Gerhard Mack, [[Volker Schomerus]], _Quasi Hopf quantum symmetry in quantum theory_,  Nuclear Physics B 370:1 (1992) 185--230 <a href="http://dx.doi.org/10.1016/0550-3213(92)90350-K">doi</a>
 
+Recently a monograph appeared
+
+* Daniel Bulacu, Stefaan Caenepeel, Florin Panaite, Freddy Van Oystaeyen, _Quasi-Hopf algebras: a categorical approach_, 544 pp., EMA 174 (2019)
+
+Wikipedia article: [Quasi-Hopf algebra](https://en.wikipedia.org/wiki/Quasi-Hopf_algebra)
+
 Other articles include 
 
 * &#1042;. &#1043;. &#1044;&#1088;&#1080;&#1085;&#1092;&#1077;&#1083;&#1100;&#1076;, _&#1054; &#1089;&#1090;&#1088;&#1091;&#1082;&#1090;&#1091;&#1088;&#1077; &#1082;&#1074;&#1072;&#1079;&#1080;&#1090;&#1088;&#1077;&#1091;&#1075;&#1086;&#1083;&#1100;&#1085;&#1099;&#1093; &#1082;&#1074;&#1072;&#1079;&#1080;&#1093;&#1086;&#1087;&#1092;&#1086;&#1074;&#1099;&#1093; &#1072;&#1083;&#1075;&#1077;&#1073;&#1088;_, &#1060;&#1091;&#1085;&#1082;&#1094;. &#1072;&#1085;&#1072;&#1083;&#1080;&#1079; &#1080; &#1077;&#1075;&#1086; &#1087;&#1088;&#1080;&#1083;. __26__:1 (1992), 78&#8211;80, [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=faa&paperid=768&what=fullt&option_lang=rus); transl. V. G. Drinfeld, _Structure of quasitriangular quasi-hopf algebras_, Funct. Anal. Appl., 26:1 (1992), 63&#8211;65
@@ -75,6 +82,9 @@ Other articles include
 
 * [[Shahn Majid]], _Quantum double for quasi-Hopf algebras_, Lett. Math. Phys. __45__ (1998), no. 1, 1&#8211;9, [MR2000b:16077](http://www.ams.org/mathscinet-getitem?mr=1631648), [doi](http://dx.doi.org/10.1023/A:1007450123281), [q-alg/9701002](http://arxiv.org/abs/q-alg/9701002)
 * Peter Schauenburg, _Hopf modules and the double of a quasi-Hopf algebra_, Trans. Amer. Math. Soc. __354__ (2002), 3349-3378 [pdf](http://www.ams.org/journals/tran/2002-354-08/S0002-9947-02-02980-X/S0002-9947-02-02980-X.pdf)
+* M. Jimbo, H. Konno, S. Odake, J. Shiraishi, _Quasi-Hopf twistors for elliptic quantum groups_, Transformation Groups 4(4), 303–327 (1999) [doi](http://sci-hub.tw/10.1007/BF01238562)
+* Ivan Kobyzev, Ilya Shapiro, _A categorical approach to cyclic cohomology of quasi-Hopf algebras and Hopf algebroids_, Applied Categorical Structures, __27__:1 (2019) 85–109 [doi](https://doi.org/10.1007/s10485-018-9544-0)
+* L Frappat, D Issing, E Ragoucy, _The quantum determinant of the elliptic algebra $\mathcal{A}_{q, p}(\widehat{gl}_N)$_, J. Phys. __A51__:44, [doi](https://doi.org/10.1088/1751-8121/aae296)
 
 [[!redirects quasibialgebra]]
 [[!redirects quasihopf algebra]]
