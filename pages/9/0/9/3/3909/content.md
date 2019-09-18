@@ -528,6 +528,9 @@ Introductions and surveys include
 
 * {#Adamo17} Tim Adamo, _Lectures on twistor theory_ ([arXiv:1712.02196](https://arxiv.org/abs/1712.02196))
 
+* L. J. Mason, N. M. J. Woodhouse, _Integrability, self-duality and twistor theory_, OUP 1996
+* R. S. Ward, R. O. Wells, Jr. _Twistor geometry and field theory_, Cambridge Univ. Press 1990
+
 Review of the application in [[super Yang-Mills theory]] includes
 
 * {#Adamo13} [[Tim Adamo]], _Twistor actions for gauge theory and gravity_ ([arXiv:1308.2820](https://arxiv.org/abs/1308.2820)) 
@@ -541,13 +544,17 @@ See also
 
 A discussion in the general context of [[geometric representation theory]] is in
 
-* R. J. Baston, M. G. Eastwood, _The Penrose Transform Its Interaction with Representation Theory_ Oxford Science Publications, Clarendon Press, 1989 
+* R. J. Baston, M. G. Eastwood, _The Penrose transform its interaction with representation theory_ Oxford Science Publications, Clarendon Press, 1989 
  {#BastonEastwood89}
 
 and the further generalization to [[Cartan geometry]]/[[parabolic geometry]] is discussed in
 
 * {#Cap01} [[Andreas Čap]], _Correspondence spaces and twistor spaces for parabolic geometries_, J. Reine Angew. Math. 582 (2005) 143-172 ([arXiv:math/0102097](http://arxiv.org/abs/math/0102097))
   
+### Palatial twistor theory
+
+* Roger Penrose, _Palatial twistor theory and the twistor googly problem_, Phil. Trans. Royal Soc. A373: 20140237 (2015) [doi](http://dx.doi.org/10.1098/rsta.2014.0237)
+* R. Penrose, _Twistor theory as an approach to fundamental physics_, in: Foundations of mathematics and physics one century after Hilbert, 253-285 (2018), ed. Joseph Kouneiher [doi](https://doi.org/10.1007/978-3-319-64813-2_10)
 
 ### Application to quantum field theory
 
@@ -575,25 +582,25 @@ Discussion of twistors in dimensions 3,4,6 and 10 using the [[normed division al
 
 and specifically for dimension 10 in 
 
-* {#Witten86} [[Edward Witten]], _Twistor-like transform in ten dimensions_, Nuclear Physics, Section B, Volume 266, Issue 2, p. 245-264. (1986) <a href="http://dx.doi.org/10.1016/0550-3213(86)90090-8">10.1016/0550-3213(86)90090-8</a>
+* {#Witten86} [[Edward Witten]], _Twistor-like transform in ten dimensions_, Nuclear Physics __B266__:2, 245-264. (1986) <a href="http://dx.doi.org/10.1016/0550-3213(86)90090-8">10.1016/0550-3213(86)90090-8</a>
 
 #### Application to the 6d self-dual 2-form field
  {#ReferencesApplicationToSelfDual2FormField}
 
 A general discussion of Penrose-Ward-type transforms sending [[circle 2-bundles]] ([[holomorphic line 2-bundles]]) on some twistor space to [[circle 2-bundles with connection]] and self-dual [[curvature]] 3-form on spacestime (expected to play a role in the description of the [[6d (2,0)-superconformal QFT]]) is in 
 
-* [[David Chatterjee]], sections 4 and 8 of _On Gerbs_, 1998 ([pdf](http://people.maths.ox.ac.uk/hitchin/hitchinstudents/chatterjee.pdf))
+* [[David Chatterjee]], sections 4 and 8 of _On gerbs_, 1998 ([pdf](http://people.maths.ox.ac.uk/hitchin/hitchinstudents/chatterjee.pdf))
 
-* L. J. Mason, R. A. Reid-Edwards, A. Taghavi-Chabert, appendix of _Conformal Field Theories in Six-Dimensional Twistor Space_, J. Geom. Phys. 62 (2012), no. 12, 2353-2375 ([arXiv:1111.2585](http://arxiv.org/abs/1111.2585))
+* L. J. Mason, R. A. Reid-Edwards, A. Taghavi-Chabert, appendix of _Conformal field theories in six-dimensional twistor space_, J. Geom. Phys. 62 (2012), no. 12, 2353-2375 ([arXiv:1111.2585](http://arxiv.org/abs/1111.2585))
  {#MREIC11}
 
-* [[Christian Saemann]], [[Martin Wolf]], _On Twistors and Conformal Field Theories from Six Dimensions_, J. Math. Phys. 54:013507, 2013  ([arXiv.1111.2539](http://arxiv.org/abs/1111.2539))
+* [[Christian Saemann]], [[Martin Wolf]], _On twistors and conformal field theories from six dimensions_, J. Math. Phys. 54:013507, 2013  ([arXiv.1111.2539](http://arxiv.org/abs/1111.2539))
 
 More generally, there are arguments that the [[worldvolume]] theory of several coincident [[M5-branes]] carries not just an abelian but a nonabelian [[higher gauge field]] given by a [[principal 2-bundle]] [[principal 2-connection]].
 
 The idea of generalizing the Penrose-Ward transform to one that takes nonabelian [[principal 2-bundles]] to [[self-dual higher gauge field|self-dual]] [[principal 2-connections]] is explored in 
 
-* [[Christian Saemann]], [[Martin Wolf]], _Six-Dimensional Superconformal Field Theories from Principal 3-Bundles over Twistor Space_ ([arXiv:1305.4870](http://arxiv.org/abs/1305.4870))
+* [[Christian Saemann]], [[Martin Wolf]], _Six-dimensional superconformal field theories from principal 3-bundles over twistor space_ ([arXiv:1305.4870](http://arxiv.org/abs/1305.4870))
 
 
 [[!redirects twistor spaces]]
