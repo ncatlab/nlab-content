@@ -46,6 +46,8 @@ Chapter 7: Equivariant homology and cohomolgy
 
 * [[Burnside ring is equivariant stable cohomotopy of the point]]
 
+[Chapter 10: Geometric modules over the Burnside ring](https://web.math.rochester.edu/people/faculty/doug/otherpapers/tomDieck-geometric.pdf)
+
 [Chapter 11: Homotopy equivalent stable G-vector bundles](https://web.math.rochester.edu/people/faculty/doug/otherpapers/tomDieck-equiv-bundle.pdf)
 
 * [[J-homomorphism]]
