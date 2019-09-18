@@ -5,7 +5,7 @@
 
 ## Idea
 
-In natural language, the definite article ('the' in English) is generally used only for nouns which are uniquely characterized by context.  Hence we have "the United States of America" and "the book I was just reading," but only "a car" or "a wild late-night party." (Sometimes "the book I was just reading" is abbreviated to "the book", but it should be clear from context that only one book could be meant.)
+In natural language, the definite article ('the' in English) is generally used only for nouns which are uniquely characterized by context.  Hence we have "the United States of America" and "the book I was just reading," but only "a car" or "a wild late-night party." (Sometimes "the book I was just reading" is abbreviated to "the book", but it should be clear from context that only one book could be meant.) Philosophers call this use of the definite article to pick out an individual [[definite description]].
 
 In [[mathematics]], and especially in [[category theory]], [[homotopy theory]] and [[higher category theory]], it is common to use "the" more generally for something which is characterized uniquely up to unique [[coherence|coherent]] [[isomorphism]] (that is, a unique isomorphism appropriate given the context).  
 
