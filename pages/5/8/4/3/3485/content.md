@@ -10,7 +10,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -397,7 +396,7 @@ Isomorphy for the case of cyclic groups is spelled out in [tom Dieck 09, Example
 
 Surjectivity for the case of symmetric groups follows from the theory of [[Young diagrams]] ([Dress 86, section 3](#Dress86)), see also Example \ref{VirtualPermuationRepresentationOfS4} below for further pointers.
 
-The proof of surjectivity for [[p-primary groups]] is due to [Segal 72](#Segal72). (As Segal remarks on his first page, it may also be deduced from [Feit 67 (14.3)](#Feit67). See also [Ritter 72](#Ritter72).)
+The proof of surjectivity for [[p-primary groups]] is due to [Segal 72](#Segal72). (As Segal remarks on his first page, it may also be deduced from [Feit 67 (14.3)](#Feit67). See also [Ritter 72](#Ritter72).) The proof is recalled as [tom Dieck 79, Theorem 4.4.1](#tomDieck79).
 
 Surjectivity for [[binary dihedral groups]] $2 D_{2n}$ for (at least) $2 n \leq 12$, the [[binary tetrahedral group]], [[binary octahedral group]], [[binary icosahedral group]] and the [[general linear group]] $GL(2,\mathbb{F}_3)$ is checked by [[computer experiment]] in [Burton-Sati-Schreiber 18](#BurtonSatiSchreiber18).
 
@@ -542,6 +541,9 @@ Textbook accounts and lecture notes include
 * Charles Curtis, Irving Reiner, from p. 43 on in _Representation theory of finite groups and associative algebras_, AMS 1962
 
 * {#Feit67} [[Walter Feit]], _Characters of Finite Groups_, W. A. Benjamin New York, 1967
+
+* {#tomDieck79} [[Tammo tom Dieck]], Section 4 of _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics 766, Springer 1979 ([doi:10.1007/BFb0085965](https://link.springer.com/book/10.1007/BFb0085965))
+
 
 * {#tomDieck09} [[Tammo tom Dieck]], section 1.2 of _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
 
