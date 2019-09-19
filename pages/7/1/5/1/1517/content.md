@@ -56,14 +56,16 @@ If $F$ is equipped with the structure of a [[monad]], then a coalgebra for it is
 
 ## Examples 
 
-### Coalgebras for functors on $Set$
+### Coalgebras for endofunctors on $Set$
 
-* $X \to F(X) = D(X)$, the set of probability distributions on $X$: Markov chain on $X$.
-* $X \to F(X) = \mathcal{P}(X)$, the [[power set]] on $X$: binary relation on $X$, and also the simplest type of [[Kripke frames]].
-* $X \to F(X) = X^A \times bool$: [[deterministic automaton]].
-* $X \to F(X) = \mathcal{P}(X )^A\times bool$: [[nondeterministic automaton]].
-* $X \to F(X) = A \times X \times X$, for a set of labels, $A$: labelled binary tree.
-* $X \to F(X) = \mathcal{P}(A\times X)$, for a set of labels, $A$: [[transition system|labelled transition system]].
+Each of the following examples is of the form $X\to F(X)$, (description of endofunctor $F\colon Set\to Set$) : (description of coalgebra). Where it appears, $A$ is a given fixed set.
+
+* $X \to D(X)$, the set of [[probability distributions]] on $X$: Markov chain on $X$.
+* $X \to \mathcal{P}(X)$, the [[power set]] of $X$: binary relation on $X$, and also the simplest type of [[Kripke frames]].
+* $X \to X^A \times bool$, with $X^A$ the set of functions $A\to X$ and $bool = \{0,1\}$: [[deterministic automaton]].
+* $X \to \mathcal{P}(X)^A\times bool$: [[nondeterministic automaton]].
+* $X \to A \times X \times X$: labelled binary tree with labels from $A$.
+* $X \to \mathcal{P}(A\times X)$: [[transition system|labelled transition system]] with labels from $A$.
 
 
 See [[coalgebra]] for examples on categories of modules.
