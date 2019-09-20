@@ -92,6 +92,10 @@ A __[[discrete fibration]]__ is one in which we use [[Set]] instead of [[Cat]] a
 
   * [[minimal Joyal fibration]]
 
+## Fibrations in type theory
+
+Fibrations are employed in [[type theory]] as the [[categorical models of dependent types]].
+
 ## Related concepts
 
 Both forms of [[opposite 2-category|2-categorical dualization]] are commonly encountered in the context of fibrations. Moreover, the distinction between the two is appreciable. [[Cofibrations]] play a role dual to that of fibrations in homotopy theory, notably in the axioms for a [[model category]]. In this context, cofibrations have an entirely different geometric flavor from fibrations. On the other hand, [[opfibrations]] are the same as fibrations homotopically because of the invertibility of 2-cells. The duality between fibrations and opfibrations is more visible in [[category theory]], where it's the same duality as one finds between limits and colimits, for example. Confusingly, some (much?) of the older categorical (and algebro-geometric?) literature uses "cofibration" to mean "opfibration".
