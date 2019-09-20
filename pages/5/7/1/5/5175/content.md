@@ -203,3 +203,5 @@ and for $k \in \mathbb{N}$ the [[order of a distribution|order]] of $u$.
 [[!redirects Dirac delta functions]]
 [[!redirects Dirac ∞-function]]
 [[!redirects Dirac ∞-functions]]
+
+[[!redirects Dirac functional]]
