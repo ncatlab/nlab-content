@@ -70,7 +70,7 @@ The global (all channels and experiments combined) tension  with the standard mo
 
 
 
-This situation was confirmed with the completed measurements presented at [Moriond 2019](http://moriond.in2p3.fr/2019/), which showed ([Straub 19](#Straub19), [Allanach 19](#Allanach19)) smaller discrepancy but also with smaller uncertainty, thus keeping the [[statistical significance]] essentially unaffected. But in spring 2019 [Caria 19, slide 9](#Caria19)  report new numbers by [[Belle collaboration|Belle]] by which the previous [[statistical significance]] of $3.8 \sigma$ in the $R_D$ sector would decrease to $3.1 \sigma$ or $2.8 \sigma$ ([Gambino-Jung-Schacht 19 (6)](V_cb+puzzle#GambinoJungSchacht19)).  See [LHCb 19, p. 2](#LHCb19) for how the new numbers come about. Comprehensive assessments of the situation after [Moriond 2019](http://moriond.in2p3.fr/2019/) are given in [AHMSN 19](#AHMSN19), [Descotes-Genon 19](#DescotesGenon19), [Bardhan-Ghosh 19](#BardhanGhosh19) and agree that the flavour anomalies have been confirmed:
+This situation was confirmed with the completed measurements presented at [Moriond 2019](http://moriond.in2p3.fr/2019/), which showed ([Straub 19](#Straub19), [Allanach 19](#Allanach19)) smaller discrepancy but also with smaller uncertainty, thus keeping the [[statistical significance]] essentially unaffected. But in 2019 [Caria 19, slide 9](#Caria19)  report new numbers by [[Belle collaboration|Belle]] by which the previous [[statistical significance]] of $3.8 \sigma$ in the $R_D$ sector would decrease to $3.1 \sigma$ or $2.8 \sigma$ ([Gambino-Jung-Schacht 19 (6)](V_cb+puzzle#GambinoJungSchacht19)).  See [LHCb 19, p. 2](#LHCb19) for how the new numbers come about. Comprehensive assessments of the situation after [Moriond 2019](http://moriond.in2p3.fr/2019/) are given in [AHMSN 19](#AHMSN19), [Descotes-Genon 19](#DescotesGenon19), [Bardhan-Ghosh 19](#BardhanGhosh19), [Alguero 19](#Alguero19) and agree that the flavour anomalies have been confirmed:
 
 >  It appears the reason is that, given the amount of independent measurements (~180!) a smaller deviation because of new physics is easier to accommodate than a large one. Thus the new measurements actually fit better with new physics.
 
@@ -85,6 +85,27 @@ This situation was confirmed with the completed measurements presented at [Morio
 \end{center}
 
 > graphics grabbed from [Zupan 19](#Zupan19), see also [LHCb19, Fig. 5](#LHCb19)
+
+The [[statistical significances]] of pull away from the [[standard model of particle physics|stanmdard model]] for [[effective field theory|effective]] New Physics models:
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/AlgueroBsll19Fits.jpg" width="600">
+</center>
+
+> table grabbed from [Alguero 19](#Alguero19)
+
+There is the claim ([DGKV 19](#DGKV19)) that the discrepancy with the standard model increases further if non-trivial [[hadron|hadronic]] [[form factors]] are taken into account:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/DescotesGenonBsll19FormfactorCorrectionA.jpg" width="600">
+</center>
+
+<center>
+<img src="https://ncatlab.org/nlab/files/DescotesGenonBsll19FormfactorCorrectionB.jpg" width="600">
+</center>
+
+> slide grabbed from [Descotes-Genon 19b](#DescotesGenon19b)
 
 
 If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18), [Zupan 19, 4.6](#Zupan19)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]].
@@ -291,6 +312,8 @@ Review includes
 
 * {#BardhanGhosh} Debjyoti Bardhan, Diptimoy Ghosh, _B-meson charged current anomalies: the post-Moriond status_ ([arXiv:1904.10432](https://arxiv.org/abs/1904.10432))
 
+* {#Alguero19} Marcel Alguero, _Emerging patterns of New Physics with and without Lepton Flavour Universal contributions_, talk at [bsll2019](https://indico.in2p3.fr/event/18646/) ([pdf](https://indico.in2p3.fr/event/18646/contributions/74403/attachments/54790/71933/Marcel_Alguero_Lyon.pdf), [[AlgueroBsll19.pdf:file]])
+
 Outlook:
 
 * {#AllanachGripaiosYou17} [[Ben Allanach]], Ben Gripaios, Tevong You, _The Case for Future Hadron Colliders From $B \to K^{(\ast)}\mu^+ \mu^-$ Decays_, JHEP03(2018)021 ([arXiv:1710.06363](https://arxiv.org/abs/1710.06363))
@@ -309,6 +332,13 @@ Emphasis of [[non-perturbative effects]]:
 Emphasis of higher [[loop order]]-effects:
 
 * {#CGMS18} [[Andreas Crivellin]], Christoph Greub, Dario Müller, Francesco Saturnino, _Importance of Loop Effects in Explaining the Accumulated Evidence for New Physics in B Decays with a Vector Leptoquark_, Phys. Rev. Lett. 122, 011805 (2019) ([arXiv:1807.02068](https://arxiv.org/abs/1807.02068))
+
+Emphasis of effects of [[hadron|hadronic]] [[form factors]]:
+
+* {#DGKV19} Sébastien Descotes-Genon, Alexander Khodjamirian, Javier Virto, _Light-Cone Sum Rules for $B \to K \pi$ Form Factors and Applications to Rare Decays_ ([arXiv:1908.02267](https://arxiv.org/abs/1908.02267))
+
+* {#DescotesGenon19b} Sebastien Descotes-Genon, _Light-cone sum rules for $B \to K \pi$ form factorsand applications to rare decays_, talk at [bsll2019](https://indico.in2p3.fr/event/18646/) ([pdf](https://indico.in2p3.fr/event/18646/contributions/74316/attachments/54770/71918/slides_bslllyon.pdf), [[DescotesGenonBssl19.pdf:file]])
+
 
 
 
