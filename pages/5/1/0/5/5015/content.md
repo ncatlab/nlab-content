@@ -184,7 +184,7 @@ Every [[orbifold]] is an &#233;tale [[Lie groupoid]].
 
 A standard textbook account is section 5.5. of 
 
-* [[Ieke Moerdijk]], [[Janez Mr?un]], _[[Introduction to foliations and Lie groupoids]]_, Cambridge (2003)
+* [[Ieke Moerdijk]], [[Janez Mrčun]], _[[Introduction to foliations and Lie groupoids]]_, Cambridge (2003)
 
 The relation between &#233;tale groupoid and [[foliations]] is analyzed in detail in 
 
@@ -206,10 +206,10 @@ Further discussion of &#233;tale groupoids and their properties includes
 
 The [[groupoid convolution algebra|convolution]]-[[Hopf algebroids]] of &#233;tale Lie groupoids have been characterized in
 
-* [[Janez Mr?un]], _On spectral representation of coalgebras and Hopf algebroids_ ([arXiv:math/0208199](http://arxiv.org/abs/math/0208199))  
+* [[Janez Mrčun]], _On spectral representation of coalgebras and Hopf algebroids_ ([arXiv:math/0208199](http://arxiv.org/abs/math/0208199))  
  {#Mrcun99}
 
-* [[Jure Kali?nik]], [[Janez Mr?un]], _Equivalence between the Morita categories of etale Lie groupoids and of locally grouplike Hopf algebroids_ ([arXiv:math/0703374](http://arxiv.org/abs/math/0703374))
+* [[Jure Kališnik]], [[Janez Mrčun]], _Equivalence between the Morita categories of etale Lie groupoids and of locally grouplike Hopf algebroids_ ([arXiv:math/0703374](http://arxiv.org/abs/math/0703374))
  {#KalisnikMrcun07}
 
 
