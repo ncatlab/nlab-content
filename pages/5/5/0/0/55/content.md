@@ -187,7 +187,7 @@ Contemporary textbooks include:
 
 * K. C. H. Mackenzie, _Lie groupoids and Lie algebroids in differential geometry_, London Mathematical Society Lecture Note Series, 124. Cambridge University Press, Cambridge, 1987. xvi+327 pp ([MathSciNet](http://www.ams.org/mathscinet-getitem?mr=896907))
 
-* [[Janez Mr?un]], [[Ieke Moerdijk]], _Introduction to foliations and Lie groupoids_, Cambridge Studies in Advanced Mathematics __91__, Cambridge University Press 2003. x+173 pp. ISBN: 0-521-83197-0
+* [[Janez Mrčun]], [[Ieke Moerdijk]], _Introduction to foliations and Lie groupoids_, Cambridge Studies in Advanced Mathematics __91__, Cambridge University Press 2003. x+173 pp. ISBN: 0-521-83197-0
 
 For an infinite-dimensional version used in stochastic analysis see
 
