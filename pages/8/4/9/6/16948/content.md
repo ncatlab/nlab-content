@@ -173,7 +173,8 @@ Discussion of $G$-equivariant homotopy groups for $G = \mathbb{Z}/2$ is in
 
 with exposition in
 
-* {#Dugger08} [[Daniel Dugger]], _Motivic stable homotopy groups of spheres_, talk at [Third Arolla Conference on Algebraic Topology](http://sma.epfl.ch/~hessbell/arolla/) 2008 ([pdf](http://sma.epfl.ch/~hessbell/arolla/slides12/Dugger.pdf))
+* {#Dugger08} [[Daniel Dugger]], _Motivic stable homotopy groups of spheres_, talk at [Third Arolla Conference on Algebraic Topology](http://sma.epfl.ch/~hessbell/arolla/) 2008 ([pdf](http://sma.epfl.ch/~hessbell/arolla/slides12/Dugger.pdf), [[DuggerMotivicStableHomotopy08.pdf:file]])
+
 
 
 ### $\mathbb{Z}/4$-equivariance
