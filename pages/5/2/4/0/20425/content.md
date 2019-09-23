@@ -84,7 +84,7 @@ We list references that use the "non-geometric"-terminology. But notice that all
 
 * Alex Flournoy, Brian Wecht, Brook Williams, _Constructing Nongeometric Vacua in String Theory_, Nucl.Phys.B706:127-149, 2005 ([arXiv:hep-th/0404217](https://arxiv.org/abs/hep-th/0404217))
 
-* [[Katrin Becker]], [[Melanie Becker]], [[Cumrun Vafa]], Johannes Walcher, _Moduli Stabilization in Non-Geometric Backgrounds_, j.nuclphysb.2007.01.034 ([arXiv:hep-th/0611001](https://arxiv.org/abs/hep-th/0611001))
+* [[Katrin Becker]], [[Melanie Becker]], [[Cumrun Vafa]], Johannes Walcher, _Moduli Stabilization in Non-Geometric Backgrounds_,  	Nucl.Phys.B770:1-46,2007 ([arXiv:hep-th/0611001](https://arxiv.org/abs/hep-th/0611001))
 
 * Erik Plauschinn, _Non-geometric backgrounds in string theory_, j.physrep.2018.12.002 ([arXiv:1811.11203](https://arxiv.org/abs/1811.11203))
 
