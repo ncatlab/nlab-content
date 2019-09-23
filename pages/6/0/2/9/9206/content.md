@@ -40,6 +40,8 @@ For relation to the [[D=6 N=(2,0) SCFT]] via [[KK-compactification]] on a [[circ
 
 * [[D=10 super Yang-Mills theory]]
 
+[[!include superconformal symmetry -- table]]
+
 ## References
 
 ### General 
@@ -54,6 +56,8 @@ For relation to the [[D=6 N=(2,0) SCFT]] via [[KK-compactification]] on a [[circ
 
 * I.L. Buchbinder, E.A. Ivanov, I.B. Samsonov, _Low-energy effective action in $5D$, $\mathcal{N}=2$ supersymmetric gauge theory_, Nuclear Physics B
 Volume 940, March 2019, Pages 54-62 ([arXiv:1812.07206](https://arxiv.org/abs/1812.07206))
+
+* Lakshya Bhardwaj, _On the classification of 5d SCFTs_ ([arXiv:1909.09635](https://arxiv.org/abs/1909.09635))
 
 [[instantons]]:
 
