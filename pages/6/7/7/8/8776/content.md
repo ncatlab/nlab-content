@@ -191,7 +191,7 @@ surveyed in
 
 ### General
 
-Basic discussion includes
+General discussion includes
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapter III.5 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
@@ -204,6 +204,9 @@ Basic discussion includes
 * Sorin Cucu, _From M-theory to D=5 supergravity and duality-symmetric theories_ ([arXiv:hep-th/0310105](http://arxiv.org/abs/hep-th/0310105))
 
 * [[Eric Bergshoeff]], Sorin Cucu, Tim de Wit, Jos Gheerardyn, Stefan Vandoren, [[Antoine Van Proeyen]], _$N=2$ supergravity in five dimensions revisited_ ([arXiv:hep-th/0403045](http://arxiv.org/abs/hep-th/0403045))
+
+* [[Katrin Becker]], [[Melanie Becker]], Daniel Butter, William D. Linch III, Stephen Randall, _Five-dimensional Supergravity in N = 1/2 Superspace_ ([arXiv:1909.09208](https://arxiv.org/abs/1909.09208))
+
 
 ### Via M-theory on Calabi-Yau 3-folds
 
