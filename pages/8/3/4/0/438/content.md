@@ -26,14 +26,14 @@ Don Knuth proposed that every professor should be required to have both a "major
 I have given a summary in my [private $n$Lab area](http://ncatlab.org/timporter/show/HomePage) of some of the research area that I have worked in with references for further 'enlightenment'. Some of these are in areas that continue to interest me, and I have various 'projects' and lists of 'work in progress' there as well, some of which are mentioned below. Some more recent ones have been added (August 2018).
 
 
-I am writing a series of notes on the theory and application of crossed gadgetry in algebra and topology, and some parts of these notes (approximately first 10 chapters) have been made available on the web at various times. I am currently trying to write new sections on the links between homotopy quantum field theory and non-Abelian cohomology.
+I am writing a series of notes on the theory and application of crossed gadgetry in algebra and topology, and some parts of these notes (approximately first 14 chapters) have been made available on the web at various times. I am currently trying to write new sections on the links between homotopy quantum field theory and non-Abelian cohomology.
 
 
 I am also very interested in directed homotopy theory and the application of ideas from the general area of the infinity category/homotopy toolkit in topological data analysis, artificial intelligence, and computer science. This relates both to the use of [[stratified spaces]] and possibly to [[defects]] in TQFTs. Some material can be found on those personal pages or should be added .
 
 
 
-See also my [private $n$Lab area](http://ncatlab.org/timporter/show/HomePage), where I have put a link to a recent version of the first 10 chapters of the Menagerie.
+See also my [private $n$Lab area](http://ncatlab.org/timporter/show/HomePage), where I have put a link to a recent version of the first 14 chapters of the Menagerie.
 
 Other goodies there include parts of a draft monograph on [profinite algebraic homotopy](https://ncatlab.org/timporter/show/profinite+algebraic+homotopy), and a (slightly reformatted) version of a research proposal from 2002, that did not get funded, but may be useful as it does have some ideas in it (or related to it) that are worth pursuing especially since the recent progress on the cobordism and TQFT problems. There are links to notes for the Lisbon school and workshop on Higher Gauge Theory etc.,  (Feb. 2011). There are also some lecture notes from lectures in Hagen and La Laguna, and a survey article that grew out of talks in 1991 in Italy. 
 
