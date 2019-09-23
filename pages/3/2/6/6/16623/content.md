@@ -86,3 +86,6 @@ which concludes that with taking [[non-perturbative effects]] from membrane inst
 
 [[!redirects M2-instanton]]
 [[!redirects M2-instantons]]
+
+[[!redirects M2-brane instanton]]
+[[!redirects M2-brane instantons]]
