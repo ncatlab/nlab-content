@@ -2,13 +2,8 @@
 This entry is about the document
 
 
-* [[Tim Porter]], _The Crossed Menagerie: 
-an introduction to crossed gadgetry and cohomology in algebra and 
-topology_. 
-(Notes, in part, prepared for the  _XVI Encuentro Rioplatense de 
-Algebra y Geometr&#237;a Algebraica_, in Buenos Aires, 12-15 December 
-2006, and for course MATH5312, Spring-Summer term 2007, 
-University of Ottawa) ([[menagerie12a.pdf|pdf:file]])
+* [[Tim Porter]], _The Crossed Menagerie: an introduction to crossed gadgetry and cohomology in algebra and topology_. (Notes, in part, prepared for the  _XVI Encuentro Rioplatense de Algebra y Geometr&#237;a Algebraica_, in Buenos Aires, 12-15 December 2006, and for course MATH5312, Spring-Summer term 2007, 
+University of Ottawa) ([[menagerie14.pdf|pdf:file]])
 
 This is an ongoing set of notes outlining an approach to [[nonabelian cohomology]], [[stack]]s, etc., and Grothendieck's conjectured extension of 'Galois-Poincar&#233; theory'. The title refers to the array of strange beasties that occur as generalisations of [[crossed modules]]. (The present version is over 1004 pages long, and is changing quite often. A fairly stable version (but up-dates are planned shortly!) is available as a download,  [[menagerie12a.pdf|here:file]].
 
@@ -18,7 +13,7 @@ These notes, or at least the first few chapters of them, acted as course notes f
 
 ##Table of Contents ##
 
-(This gives Chapter and section headings. Subsection headings give too long a list to be that useful, so if you want more detail (for the moment) look at the pdf file.)
+(This gives an indication of the Chapter and section headings, although these have changed in detail for the latest version available. Subsection headings give too long a list to be that useful, so if you want more detail (for the moment) look at the pdf file.)
 
 * Introduction 
 
@@ -71,117 +66,122 @@ These notes, or at least the first few chapters of them, acted as course notes f
 
   * 3\.8 Re-examining group cohomology with Abelian coefficients
 
-* 4 Beyond 2-types 
-
-  * 4\.1 Crossed squares 
+* 4 Syzygies, and higher generation by subgroups
 
 
-  * 4\.2 2-crossed modules and related ideas 
+* 5 Beyond 2-types 
 
-  * 4\.3 Cat$^n$ -groups and crossed $n$-cubes 
-
-  * 4\.4 Loday's Theorem and its extensions
-
-  * 4\.5 Crossed N-cubes 
-
-* 5 Classifying spaces, and extensions 
-
-  * 5\.1 Non-Abelian extensions revisited 
-
-  * 5\.2 Classifying spaces 
-
-  * 5\.3 Simplicial Automorphisms and Regular Representations 
-
-  * 5\.4 Simplicial actions and principal fibrations 
-
-  * 5\.5 $\overline{W}$, $W$,  and twisted Cartesian products 
-
-  * 5\.6 More examples of Simplicial Groups 
-
-* 6 Non-Abelian Cohomology: Torsors, and Bitorsors 
-
-  * 6\.1 Descent: Bundles, and Covering Spaces 
-
-  * 6\.2 Descent: simplicial fibre bundles 
+  * 5\.1 Crossed squares 
 
 
+  * 5\.2 2-crossed modules and related ideas 
 
-  * 6\.3 Descent: Sheaves 
+  * 5\.3 Cat$^n$ -groups and crossed $n$-cubes 
 
-  * 6\.4 Descent: Torsors 
+  * 5\.4 Loday's Theorem and its extensions
 
-  * 6\.5 Bitorsors 
+  * 5\.5 Crossed N-cubes 
+
+* 6 Classifying spaces, and extensions 
+
+  * 6\.1 Non-Abelian extensions revisited 
+
+  * 6\.2 Classifying spaces 
+
+  * 6\.3 Simplicial Automorphisms and Regular Representations 
+
+  * 6\.4 Simplicial actions and principal fibrations 
+
+  * 6\.5 $\overline{W}$, $W$,  and twisted Cartesian products 
+
+  * 6\.6 More examples of Simplicial Groups 
+
+* 7 Non-Abelian Cohomology: Torsors, and Bitorsors 
+
+  * 7\.1 Descent: Bundles, and Covering Spaces 
+
+  * 7\.2 Descent: simplicial fibre bundles 
 
 
 
-  * 6\.6 Relative $M$-torsors
+  * 7\.3 Descent: Sheaves 
+
+  * 7\.4 Descent: Torsors 
+
+  * 7\.5 Bitorsors 
 
 
 
-
-
-* 7 Hypercohomology and exact sequences 
-
-  * 7\.1 Hyper-cohomology 
-
-
-  * 7\.2 Mapping cocones and Puppe sequences
-
-  * 7\.3 Puppe sequences and classifying spaces
-
-
-
-* 8 Non-Abelian Cohomology: Stacks 
-
-  * 8\.1 Fibred Categories 
-
-  * 8\.2 The Grothendieck construction
-
-  * 8\.3 Prestacks: sheaves of local morphisms
-
-  * 8\.4 From prestacks to stacks 
+  * 7\.6 Relative $M$-torsors
 
 
 
 
 
-* 9 Non-Abelian Cohomology: Gerbes 
+* 8 Hypercohomology and exact sequences 
 
-  * 9\.1 Gerbes 
-
-  * 9\.2 Geometric examples of gerbes   
-
-  * 9\.3 Cocycle description of gerbes
+  * 8\.1 Hyper-cohomology 
 
 
+  * 8\.2 Mapping cocones and Puppe sequences
 
-* 10 Homotopy Coherence and Enriched Categories  
+  * 8\.3 Puppe sequences and classifying spaces
 
-  * 10\.1 Case study: examples of homotopy coherent diagrams 
 
-  * 10\.2 Simplicially enriched categories 
 
-  * 10\.3 Structure 
+* 9 Non-Abelian Cohomology: Stacks 
 
-  * 10\.4 Nerves and Homotopy Coherent Nerves
+  * 9\.1 Fibred Categories 
 
-  * 10\.5 Useful examples 
+  * 9\.2 The Grothendieck construction
 
-  * 10\.6 Two nerves for 2-groups 
+  * 9\.3 Prestacks: sheaves of local morphisms
 
-  * 10\.7 Pseudo-functors between 2-groups 
+  * 9\.4 From prestacks to stacks 
 
-* 11 Other enrichments, other versions of homotopy coherence
 
-  * 11\.1 Other enrichments`?
 
-  * 11\.2 From simplicially enriched to chain complex enriched
+
+
+* 10 Non-Abelian Cohomology: Gerbes 
+
+  * 10\.1 Gerbes 
+
+  * 10\.2 Geometric examples of gerbes   
+
+  * 10\.3 Cocycle description of gerbes
+
+
+
+* 11 Homotopy Coherence and Enriched Categories  
+
+  * 11\.1 Case study: examples of homotopy coherent diagrams 
+
+  * 11\.2 Simplicially enriched categories 
+
+  * 11\.3 Structure 
+
+  * 11\.4 Nerves and Homotopy Coherent Nerves
+
+  * 11\.5 Useful examples 
+
+  * 11\.6 Two nerves for 2-groups 
+
+  * 11\.7 Pseudo-functors between 2-groups 
+
+* 12 Other enrichments, other versions of homotopy coherence
+
+  * 12\.1 Other enrichments`?
+
+  * 12\.2 From simplicially enriched to chain complex enriched
 
     * [[Eilenberg-Zilber map]], [[shuffle]], [[products of simplices]]
 
     * [[monoidal Dold-Kan correspondence]]
  
-* 12 More simplicial constructions!
+* 13 More simplicial constructions!
+
+* 14 Indexed / weighted limits and colimits
 
 (This gives the list for the first few chapters. There are more, but they are in a more fluid state.  Anyone who would like a `fluid copy' is welcome to contact the author.)
 
