@@ -5270,10 +5270,9 @@ $$
   Ho(Top_{Quillen})
    \simeq
   (Top_{Retract(Cell)})/_\sim
-   \simeq
+   \hookrightarrow
   Top/_\sim
-    =
-  \hookrightarrow hTop
+  \simeq hTop
   \,.
 $$
 
