@@ -27,4 +27,4 @@ Manon Didry, _Construction of groups associated to Lie- and to Leibniz-algebras_
 
 [[!redirects Zinbiel algebra]]
 [[!redirects dual Leibniz algebra]]
-[[!redirect Zinbiel coalgebra]]
+[[!redirects Zinbiel coalgebra]]
