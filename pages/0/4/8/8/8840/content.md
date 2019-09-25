@@ -21,7 +21,7 @@
 
 The _Aharonov-Bohm effect_ is a configuration of the [[electromagnetic field]] which has vanishing electric/magnetic [[field strength]] (vanishing [[Faraday tensor]] $F = 0$) and but is nevertheless non-trivial, in that the [[vector potential]] $A$ is non-trivial. Since the vector potential affects the [[phase|quantum mechanical phase]] on the [[wavefunction]] of [[electrons]] moving in an electromagnetic field, in such a configuration classical physics sees no effect, but the phase of quantum particles, which may be observed as a [[quantum interference|interference]] pattern on some screen, does.
 
-More technically, a configuration of the [[electromagnetic field]] is generally given by a [[circle]]-[[principal connection]] and an Aharonov-Bohm configuration is one coming from a [[flat connection]], whose [[curvature]]/[[field strength]] hence vanishes, but which is itself globally non-trivial. This is only possible on [[spaces]] ([[spacetimes]]) which have a non-trivial [[fundamental group]], hence for instance it does never happen on [[Minkowski spacetime]].
+More technically, a configuration of the [[electromagnetic field]] is generally given by a [[circle]]-[[principal connection]] and an Aharonov-Bohm configuration is one coming from a [[flat connection]], whose [[curvature]]/[[field strength]] hence vanishes, but which is itself globally non-trivial. This is only possible on [[spaces]] ([[spacetimes]]) which have a non-trivial [[fundamental group]], hence for instance it doesn't happen on [[Minkowski spacetime]].
 
 In practice one imagines an idealized [[electric current]]-carrying [[solenoid]] in [[Euclidean space]]. Away from the solenoid itself the [[magnetic field]] produced by it gives such a configuration.
 
