@@ -1,4 +1,3 @@
-
 the **main [[separation axioms]]** 
 
 | number | name | statement | reformulation |
