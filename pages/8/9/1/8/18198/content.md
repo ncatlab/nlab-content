@@ -14,7 +14,7 @@ There is a variant where $X$ is arbitrary and $Y$ is $T_3$.
 ## References
 
 * A.D. Taĭmanov, _О распространении непрерывных отображений
-топологических пространств_ (_On extension of continuous mappings of topological spaces._) Mat. Sbornik N.S. 31(73), (1952). 459–463. [mathnet.ru page](http://mi.mathnet.ru/eng/msb/v73/i2/p459)
+топологических пространств_ (*On extension of continuous mappings of topological spaces.*) Mat. Sbornik N.S. 31(73), (1952). 459–463. [mathnet.ru page](http://mi.mathnet.ru/eng/msb/v73/i2/p459)
 
 The result is stated, for instance, as Theorem 3.2.1 in
 
