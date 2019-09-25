@@ -88,7 +88,7 @@ The literature on vector spaces is now extremely large, including lots of elemen
 * P. R. Halmos, Finite dimensional vector spaces
 * [[M M Postnikov]], Lectures on geometry, semester 2: Linear algebra
 
-Affine spaces are sets which are torsors over the abelian group of vectors of a vector space. Thus vector spaces may serve as a basis for the affine and for the Eucledian geometry. This approach has been invented by [[Hermann Weyl]] in 1918. Dieudonne wrote an influential book on such an approach to 2d and 3d Euclidian geometry, in which the basics of vector spaces in low dimension is introduced along the way (the book is intended for high school teachers):
+Affine spaces are sets which are torsors over the abelian group of vectors of a vector space. Thus vector spaces may serve as a basis for the affine and for the Euclidean geometry. This approach has been invented by [[Hermann Weyl]] in 1918. Dieudonné wrote an influential book on such an approach to 2d and 3d Euclidian geometry, in which the basics of vector spaces in low dimension is introduced along the way (the book is intended for high school teachers):
 
 * Jean Alexandre Dieudonn&#233;, Linear algebra and geometry
 
