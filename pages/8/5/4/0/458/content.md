@@ -424,14 +424,14 @@ Other textbook accounts include
  
 * {#MacLaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
-
-* Jorge Picado, Ale&#353; Pultr, _Frames and Locales.  Topology without points_, Birkh&#228;user (2012)
+* Jorge Picado & Aleš Pultr (2012). _Frames and Locales:  Topology without points_. Springer. [Web page](http://www.mat.uc.pt/%7Epicado/publicat/bookpage.html) (with preface, contents, and errata).
 
 and
 
 * [[Steve Vickers]], _Topology via logic_, Cambridge University Press (1989)
 
 where the latter develops topology from the point of view of its [[internal logic]].
+
 
 An introductory survey is
 
@@ -440,8 +440,6 @@ An introductory survey is
 See also
 
 * [[eom]], _[Locale](https://www.encyclopediaofmath.org/index.php/Locale)_
-
-
 
 
 Lex totality is the subject of an article of Street, 
