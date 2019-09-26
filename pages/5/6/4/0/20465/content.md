@@ -63,7 +63,9 @@ With an eye towards the [[volume conjecture]] and [[M5-brane]] [[entropy]]:
 
 * {#GangKimPandoZayas19} Dongmin Gang, Nakwoo Kim, Leopoldo A. Pando Zayas, _Precision Microstate Counting for the Entropy of Wrapped M5-branes_ ([arXiv:1905.01559](https://arxiv.org/abs/1905.01559))
 
+Applied to computation of [[Bekenstein-Hawking entropy]] for [[black holes in string theory]]:
 
+* Francesco Benini, Dongmin Gang, Leopoldo A. Pando Zayas, _Rotating Black Hole Entropy from M5 Branes_ ([arXiv:1909.11612](https://arxiv.org/abs/1909.11612))
 
 [[!redirects 3d-3d correspondences]]
 
