@@ -69,11 +69,11 @@ See [[strict 2-group]] for further discussion and examples.
 
 ### Weak $2$-groups 
 
-A __weak $2$-group__, or simply __$2$-group__, is a (weak) [[monoidal category]] *such that*:
+A __weak $2$-group__, or simply __$2$-group__, is a (weak) [[monoidal category]] where every morphism is invertible and *such that*:
 
 *  given any object $x$, there exists an object $x^{-1}$ such that the monoidal products $x \otimes x^{-1}$ and $x^{-1} \otimes x$ are each [[isomorphism|isomorphic]] to the monoidal unit $1$.
 
-A __coherent $2$-group__ is a monoidal category *equipped with*:
+A __coherent $2$-group__ is a monoidal category where every morphism is invertible and *equipped with*:
 
 *  for each object $x$ a specific object $x^{-1}$ and specific [[isomorphism]]s from $x \otimes x^{-1}$ and $x^{-1} \otimes x$ to $1$ which form an [[adjoint equivalence]].
 
