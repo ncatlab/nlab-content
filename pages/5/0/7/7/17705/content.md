@@ -62,7 +62,7 @@ This is contained in props.1.7-8 in Moerdijk-Reyes ([1984](#MR85)).
 
 * {#SGA4} [[Michael Artin|M.Artin]], [[Alexander Grothendieck|A.Grothendieck]], [[J. L. Verdier]] (eds.), _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas - SGA 4_ , LNM **269** Springer Heidelberg 1972.
 
-* [[Michael Fourman]], _T$_1$ Spaces over Topological Sites_ , JPAA **27** (1983) pp.223-224.
+* [[Michael Fourman]], _T$_1$ Spaces over Topological Sites_ , JPAA **27** (1983) pp.223-224. [link](https://core.ac.uk/download/pdf/82251219.pdf)
 
 * [[Michael Fourman]], _Continuous Truth I: non-constructive objects_ , pp.161-180 in Lolli, Longo, Marcja (eds.), _Proc. Logic Colloquium, Florence 1982_ , Elsevier Amsterdam 1984. ([draft](http://homepages.inf.ed.ac.uk/mfourman/research/publications/pdf/fourman84-continuous-truth-I.pdf))
 
