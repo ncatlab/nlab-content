@@ -29,5 +29,11 @@ Symmetric multicategories are equivalently called _coloured [[symmetric operads]
 
 With respect to the [[Boardman-Vogt tensor product]] (see there for details) symmetric multicategories form a [[closed monoidal category|closed]] [[symmetric monoidal category]].
 
-[[!redirects symmetric multicategories]]
+### Thomason model structure
 
+A full subcategory of based symmetric multicategories admit a Thomason-style model structure that is [[Quillen equivalent]] to [[connective spectra]], according to \cite{Fuentas-Keuthan}.
+
+\bibitem{Fuentas-Keuthan}
+_Modeling connective spectra via multicategories_, [[Daniel Fuentes-Keuthan]]
+
+[[!redirects symmetric multicategories]]
