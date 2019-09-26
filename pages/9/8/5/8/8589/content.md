@@ -67,6 +67,9 @@ On the other hand, the conclusion that one draws from the [[nPOV]] is a simpler 
 * [[Albert Einstein]], M. Grossmann, _Entwurf einer verallgemeinerten Relativit&#228;tstheorie und einer Theorie der Gravitation_ Zeitschrift f&#252;r Math. Phys. 62, 225&#8211;259 (1914)
  {#EinsteinGrossmann}
 
+For a treatment in terms of [[HoTT]], see
+
+* [[John Dougherty]], _The Hole Argument, take n_, Foundations of Physics (2019), ([doi](https://doi.org/10.1007/s10701-019-00291-x)).
 
 * Wikipedia, _[hole argument] (http://en.wikipedia.org/wiki/Hole_argument)_
 
