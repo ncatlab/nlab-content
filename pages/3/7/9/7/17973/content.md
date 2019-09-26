@@ -413,6 +413,14 @@ Discussion of 4d [[de Sitter spacetime]] [[cosmology]] models on brane worlds in
 * Souvik Banerjee, [[Ulf Danielsson]], Giuseppe Dibitetto, Suvendu Giri, Marjorie Schillo, _de Sitter Cosmology on an expanding bubble_ ([arXiv:1907.04268](https://arxiv.org/abs/1907.04268))
 
 
+### Experimental tests
+
+Discussion of observational/[[experiment|experimental]] test of brane world models:
+
+by analysis of the [[event horizon]] of the [[black hole]] in the center of the [[galaxy]] [[Messier 87]]:
+
+
+* Indrani Banerjee, Sumanta Chakraborty, Soumitra SenGupta, _What shadow of the black hole in M87 tells us about the extra dimensions?_ ([arXiv:1909.09385](https://arxiv.org/abs/1909.09385))
 
 [[!redirects intersecting D-brane models]]
 
