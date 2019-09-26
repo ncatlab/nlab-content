@@ -108,7 +108,7 @@ There is the claim ([DGKV 19](#DGKV19)) that the discrepancy with the standard m
 > slide grabbed from [Descotes-Genon 19b](#DescotesGenon19b)
 
 
-If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18), [Zupan 19, 4.6](#Zupan19)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]].
+If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18), [Zupan 19, 4.6](#Zupan19)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]]. More recent extrapolation based on [LHCb Collaboration 18](#LHCbCollaboration18) predicts a [[statistical significance]] between 6 and 10 $\sigma$ by 2015 [LKLR 19, p. 12](#LKLR19) by they year 2025.
 
 \linebreak
 
@@ -318,10 +318,13 @@ Outlook:
 
 * {#AllanachGripaiosYou17} [[Ben Allanach]], Ben Gripaios, Tevong You, _The Case for Future Hadron Colliders From $B \to K^{(\ast)}\mu^+ \mu^-$ Decays_, JHEP03(2018)021 ([arXiv:1710.06363](https://arxiv.org/abs/1710.06363))
 
+* {#LHCbCollaboration18} [[LHCb collaboration]], _Physics case for an LHCb Upgrade II - Opportunities in flavour physics, and beyond, in the HL-LHC era_ ([arXiv:1808.08865](https://arxiv.org/abs/1808.08865))
+
 * {#CrivellinEtAl18} A. Cerri, [[Andreas Crivellin]] et. al. _Opportunities in Flavour Physics at the HL-LHC and HE-LHC_, Report from Working Group 4 on the [Physics of the HL-LHC, and Perspectives at the HE-LHC](https://indico.cern.ch/event/686494/) ([arXiv:1812.07638](https://arxiv.org/abs/1812.07638))
 
 * {#Isodori19} Gino Isodori, _Flavor physics & CP violation_, talk at [Symposium on the European Strategy for Particle Physics](https://indico.cern.ch/event/808335/timetable/#20190513.detailed) 2019 ([pdf](https://indico.cern.ch/event/808335/contributions/3365125/attachments/1842875/3022853/Granada_GI_13May.pdf))
 
+* {#LKLR19} Luca Di Luzio, Matthew Kirk, Alexander Lenz, Thomas Rauh, _$\Delta M_s$ theory precision confronts flavour anomalies_ ([arXiv:1909.11087](https://arxiv.org/abs/1909.11087))
 
 Emphasis of [[non-perturbative effects]]:
 
