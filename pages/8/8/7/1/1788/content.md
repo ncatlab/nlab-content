@@ -1,4 +1,6 @@
 
+https://twitter.com/SchreiberUrs/status/1128995769615376384
+
 $\underline{A} \colon C \in \mathcal{C}(A) \mapsto C$
 
 $\{\rho_C \vert C \subset A \; \}$
