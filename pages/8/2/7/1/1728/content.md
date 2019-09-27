@@ -273,7 +273,7 @@ Defect TQFTs as 1-functors on stratified decorated bordisms are discussed in
 
 Details in dimension 2 and 3 are discussed in
 
-* [[Chris Schommer-Pries]], _Topological Defects and Classification of Local TQFTs in Low Dimension_, [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]] ([pdf](http://sites.google.com/site/chrisschommerpriesmath/Home/Slides-MFO-6-11-09.pdf?attredirects=0))
+* [[Chris Schommer-Pries]], _Topological Defects and Classification of Local TQFTs in Low Dimension_, [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]] ([pdf](https://ncatlab.org/nlab/files/SchommerPriesDefects.pdf))
 
 Discussion of defects in [[prequantum field theory]], hence for [[coefficients]] in an [[(∞,n)-category of spans]] is in 
 
