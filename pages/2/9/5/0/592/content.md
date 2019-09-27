@@ -277,19 +277,19 @@ Suppose that $(\mathrm{T},\mathcal{C})$ is either
 Suppose that 
 $$\array{
 O_{0,1} & \to & O_{1,1} \\
-\downarrow m &&\downarrow h  \\
+m \downarrow  &&\downarrow h  \\
 O_{0,0} & \to & O_{1,0}
 }$$
 is a [[commutative diagram]] in $\mathcal{C}$ such that 
 
-* * $m$ is $\mathrm{T}$ in $\mathcal{C}$
-* * the diagram is a pushout in $\mathcal{C}$
+* $m$ is $\mathrm{T}$ in $\mathcal{C}$
+* the diagram is a pushout in $\mathcal{C}$
 
 
 Then 
 
-* * $h$ is $\mathrm{T}$ in $\mathcal{C}$
-* * the diagram is a pullback in $\mathcal{C}$
+* $h$ is $\mathrm{T}$ in $\mathcal{C}$
+* the diagram is a pullback in $\mathcal{C}$
 
 =--
 
