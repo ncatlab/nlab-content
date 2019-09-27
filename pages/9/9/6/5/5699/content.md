@@ -69,6 +69,12 @@ On the [[KK-compactification]] of [[D=6 N=(1,0) SCFT]] (on [[M5-branes]]) to [[D
 * Jin Chen, Babak Haghighat, Shuwei Liu, Marcus Sperling, _4d N=1 from 6d D-type N=(1,0)_ ([arXiv:1907.00536](https://arxiv.org/abs/1907.00536))
 
 
+On the [[KK-compactification]] of [[D=6 N=(1,0) SCFT]] (on [[M5-branes]]) to [[D=5 super Yang-Mills theory]]:
+
+
+* Lakshya Bhardwaj, Patrick Jefferson, Hee-Cheol Kim, Houri-Christina Tarazi, [[Cumrun Vafa]], _Twisted Circle Compactification of 6d SCFTs_ ([arXiv:1909.11666](https://arxiv.org/abs/1909.11666))
+
+
 ## Related $n$Lab entries
 
 * [[string theory]]
