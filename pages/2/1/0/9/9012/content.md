@@ -19,7 +19,7 @@
 
 ## Definition
 
-The _[[Picard groupoid]]_ $PIC(\mathcal{C}, \otimes)$ of a [[monoidal category]] $(\mathcal{C}, \otimes)$ is its [[full subcategory]] on the objects that are [[invertible objects]] under the tensor operation. This inherits the monoidal structure from $(\mathcal{C}, \otimes)$ and hence becomes a [[2-group]]. This is the **Picard 2-group** of $(\mathcal{C}, \otimes)$.
+The _[[Picard groupoid]]_ $PIC(\mathcal{C}, \otimes)$ of a [[monoidal category]] $(\mathcal{C}, \otimes)$ is the [[core]] of its [[full subcategory]] on those [[objects]] that are [[invertible objects]] under the [[tensor product]]. This inherits the monoidal structure from $(\mathcal{C}, \otimes)$ and hence becomes a [[2-group]]. This is the **Picard 2-group** of $(\mathcal{C}, \otimes)$.
 
 In geometric contexts this is also called the _[[Picard stack]]_.
 
