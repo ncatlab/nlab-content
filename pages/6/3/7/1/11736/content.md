@@ -95,6 +95,10 @@ Review and discussion of further details includes
 
 * {#Katz04} [[Sheldon Katz]], _ADE Quiver representations and branes_ ([pdf](http://math.tecnico.ulisboa.pt/galg/WAGP04/Katz-lecture2.pdf)), lecture 2 of _ADE Geometry and dualities_  ([pdf](http://math.tecnico.ulisboa.pt/galg/WAGP04/Katz-lecture1.pdf))
 
+In [[heterotic string theory]] in relation to [[Donaldson-Thomas theory]]:
+
+* {#HeLee12} [[Yang-Hui He]], Seung-Joo Lee, _Quiver Structure of Heterotic Moduli_, J. High Energ. Phys. (2012) 2012: 119 ([arXiv:1208.3004](https://arxiv.org/abs/1208.3004))
+
 With emphasis on [[string phenomenology]]:
 
 * [[Angel Uranga]], _From quiver diagrams to particle physics_ ([arXiv:hep-th/0007173](https://arxiv.org/abs/hep-th/0007173))
