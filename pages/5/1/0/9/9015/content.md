@@ -20,7 +20,7 @@
 
 ## Definition
 
-For $(\mathcal{C}, \otimes)$ a [[monoidal (∞,1)-category]], its **Picard $\infty$-group** is the [[∞-group]] induced on the full sub-[[∞-groupoid]] $PIC(\mathcal{C}, \otimes)$ on the objects that are invertible under the tensor product. 
+For $(\mathcal{C}, \otimes)$ a [[monoidal (∞,1)-category]], its **Picard $\infty$-group** is the [[∞-group]] induced on the [[core]] of the [[full sub-(∞,1)-category|full sub-]][[∞-groupoid]] $PIC(\mathcal{C}, \otimes)$ on those [[objects]] that are invertible under the [[tensor product]]. 
 
 ## Properties
 
