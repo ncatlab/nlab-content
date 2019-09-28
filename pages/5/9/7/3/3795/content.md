@@ -28,9 +28,9 @@ Its critical points are holomorphically flat connections: $F^{0,2}_A = 0$. One w
 
 Under the [[mirror symmetry]], the holomorphic bundles correspond to the [[Lagrangian submanifold]]s in the mirror, and the stability condition restricts the attention to the [[special Lagrangian submanifold]]s in the mirror. 
 
-### In physics
+### In string theory
 
-for the moment see [this comment](http://mathoverflow.net/questions/75482/donaldson-thomas-invariants-in-physics/75493#75493)
+... in [[heterotic string theory]]: [He-Lee 12](#HeLee12)...
 
 ### Motivic DT invariants {#Motivic}
 
@@ -41,6 +41,7 @@ A more general setup of [[motive|motivic]] Donaldson-Thomas invariants is given 
 ### General
 
 * [[Simon Donaldson]], ...
+
 * Young-Hoon Kiem, Jun Li, _Categorification of Donaldson-Thomas invariants via Perverse Sheaves_, [arxiv/1212.6444](http://arxiv.org/abs/1212.6444)
 
 ### Motivic Donaldson-Thomas invariants
@@ -80,6 +81,22 @@ See also
 
 * sbseminar blog: [Hall algebras and Donaldson-Thomas invariants-i](http://sbseminar.wordpress.com/2009/03/25/hall-algebras-and-donaldson-thomas-invariants-i)
 
+### Relation to string theory
+ {#RelationToStringTheory}
+
+In [[heterotic string theory]]:
+
+* {#HeLee12} [[Yang-Hui He]], Seung-Joo Lee, _Quiver Structure of Heterotic Moduli_, J. High Energ. Phys. (2012) 2012: 119 ([arXiv:1208.3004](https://arxiv.org/abs/1208.3004))
+
+Relation to [[Hilbert schemes]]:
+
+* Michele Cirafici, Annamaria Sinkovics, [[Richard Szabo]], _Cohomological gauge theory, quiver matrix models and Donaldson-Thomas theory_, Nucl. Phys. B809: 452-518, 2009 ([arXiv:0803.4188](https://arxiv.org/abs/0803.4188))
+
+* Artan Sheshmani, _Hilbert Schemes, Donaldson-Thomas theory, Vafa-Witten and Seiberg-Witten theories_, Notices of the International Congress  of Chines Mathematics (2019) ([j.mp:2U7qd01](http://j.mp/2U7qd01), [pdf](https://scholar.harvard.edu/files/artan/files/iccm_07_02_a03.pdf))
+
+
 [[!redirects Donaldson-Thomas invariants]]
 
 [[!redirects motivic Donaldson-Thomas invariant]]
+
+[[!redirects Donaldson-Thomas theory]]
