@@ -103,6 +103,8 @@ With application to [[geometric engineering of QFTs|geometric engineering]] of [
 
 * Hee-Cheol Kim, Sung-Soo Kim, Kimyeong Lee, _5-dim Superconformal Index with Enhanced En Global Symmetry_, JHEP 1210 (2012) 142 ([arXiv:1206.6781](https://arxiv.org/abs/1206.6781))
 
+* Chiung Hwang, Joonho Kim, Seok Kim, Jaemo Park, _General instanton counting and 5d SCFT_ ([arxiv:1406.6793](https://arxiv.org/abs/1406.6793))
+
 Review:
 
 * Yolanda Lozano, Section 2 of: _Hints on 5d Fixed Point Theories from Non-Abelian T-duality_, IFT 2014 ([slides pdf](https://www.unioviedo.es/hepth/people/Yolanda/talks/IFT2014.pdf), [[Lozano5d.pdf:file]])
