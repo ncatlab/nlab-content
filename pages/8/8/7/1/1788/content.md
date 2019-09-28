@@ -1,3 +1,5 @@
+diagrams horizontally next to each other:
+
 
 https://twitter.com/SchreiberUrs/status/1128995769615376384
 
