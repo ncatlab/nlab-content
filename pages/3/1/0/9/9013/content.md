@@ -19,7 +19,7 @@
 
 ## Definition
 
-For $(\mathcal{C}, \otimes)$ a [[monoidal 2-category]], its **Picard 3-group** or **Picard-Brauer 3-group** is the [[3-group]] induced on the full sub-2-groupoid $PIC(\mathcal{C}, \otimes)$ on the objects that are invertible under the tensor product. 
+For $(\mathcal{C}, \otimes)$ a [[monoidal 2-category]], its **Picard 3-group** or **Picard-Brauer 3-group** is the [[3-group]] [[structure]] induced on the [[core]] of the full sub-2-groupoid $PIC(\mathcal{C}, \otimes)$ on those [[objects]] that are invertible under the [[tensor product]]. 
 
 * If $(\mathcal{C}, \otimes)$ is a [[braided monoidal 2-category]], then $PIC(\mathcal{C}, \otimes)$ is a [[braided 3-group]]. 
 
