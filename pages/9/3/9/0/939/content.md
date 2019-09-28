@@ -39,12 +39,16 @@ by dualization the same is true for [[comonads]]. Monads internal to the 2-categ
 A __distributive law__ from a monad  $\mathbf{T} = (T, \mu^T, \eta^T)$ in $A$ to an endofunctor
 $P$ is a 2-cell $l : T P \Rightarrow P T$ such that
 $l \circ (\eta^T)_P = P(\eta^T)$ and
-$l \circ (\mu^T)_P = P(\mu^T) \circ l_T \circ T(l)$. The latter identitity is the commutativity of the pentagon
-$$\array{
-T T P&\stackrel{T l}\to&T P T&\stackrel{l T}\to&P T T\\
-\downarrow \mu^T P&&&&\downarrow P\mu^T\\
-T P &&\stackrel{l}\to && P T
-}$$
+$l \circ (\mu^T)_P = P(\mu^T) \circ l_T \circ T(l)$. In diagrams:
+\begin{tikzcd}
+& P \ar{dl}[swap]{\eta^T P} \ar{dr}{P \eta^T} \\
+T P \ar{rr}{l} && P T
+\end{tikzcd}
+\begin{tikzcd}
+T T P \ar{d}{\mu^T P} \ar{r}{T l} & T P T \ar{r}{l T} & P T T \ar{d}{P \mu^T} \\
+T P \ar{rr}{l} && P T
+\end{tikzcd}
+
 Distributive laws from the monad $\mathbf{T}$ to the endofunctor $P$ are in a canonical bijection with lifts of $P$ to an endofunctor $P^{\mathbf T}$ in the [[Eilenberg-Moore category]] $A^{\mathbf T}$,
 satisfying $U^{\mathbf T} P^{\mathbf T} = P U^{\mathbf T}$. Indeed, the endofunctor $P^{\mathbf T}$
 is given by $(M,\nu) \mapsto (P M,P(\nu)\circ l_M)$.
@@ -55,7 +59,17 @@ $\mathbf{P} = (P, \mu^P, \eta^P)$ in $A$
 is a distributive law from $\mathbf T$ to the endofunctor $P$,
 compatible with $\mu^P,\eta^P$ in the sense that
 $l \circ T(\eta^P) = (\eta^P)_T$ and
-$l \circ T(\mu^P) = (\mu^P)_T \circ P(l) \circ l_P$. Thus all together a distributive law from a monad to a monad is a 2-cell for which 2 triangles and 2 pentagons commute. In the entwining case, 
+$l \circ T(\mu^P) = (\mu^P)_T \circ P(l) \circ l_P$. In diagrams:
+\begin{tikzcd}
+& T \ar{dl}[swap]{T \eta^P} \ar{dr}{\eta^P T} \\
+T P \ar{rr}{l} && P T
+\end{tikzcd}
+\begin{tikzcd}
+T P P \ar{d}{T \mu^P} \ar{r}{l P} & P T P \ar{r}{P l} & P P T \ar{d}{\mu^P T} \\
+T P \ar{rr}{l} && P T
+\end{tikzcd}
+
+Thus all together a distributive law from a monad to a monad is a 2-cell for which 2 triangles and 2 pentagons commute. In the entwining case, 
 Brzezi&#324;ski and Majid combined the 4 diagrams into one picture which they call the _bow-tie diagram_. 
 
 Similarly, there are definitions of distributive law of a comonad over a comonad, a monad over a comonad (sometimes called a __mixed__ distributive law), and so on.
