@@ -313,7 +313,7 @@ pages 43-56, 1994.
 
   (on [[cohesive topos|cohesive toposes]])
 
-* _Open problems in topos theory_, April 2009 ([pdf](http://cheng.staff.shef.ac.uk/pssl88/lawvere.pdf))
+* _Open problems in topos theory_, April 2009 ([pdf](https://web.archive.org/web/20170421103453/http://cheng.staff.shef.ac.uk/pssl88/lawvere.pdf))
 
   (problem 7 presented there "The algebra of time", concerns the characterization of _[[Toposes of laws of motion]]_)
 
