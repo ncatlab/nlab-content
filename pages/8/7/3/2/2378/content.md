@@ -334,3 +334,7 @@ identification on the bottom right mapping space out of the point space.
 
 
 [[!redirects compact open topology]]
+
+[[!redirects space of maps]]
+[[!redirects spaces of maps]]
+
