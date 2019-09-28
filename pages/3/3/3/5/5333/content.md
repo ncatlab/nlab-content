@@ -176,7 +176,7 @@ Heterotic strings were introduced in
 
 * {#Schellekens91} [[Bert Schellekens]], _Classification of Ten-Dimensional Heterotic Strings_, Phys.Lett. B277 (1992) 277-284 ([arXiv:hep-th/9112006](http://arxiv.org/abs/hep-th/9112006))
 
-Textbook accounts include
+Textbook accounts:
 
 * {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], vol 3 (which is part 6) of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
@@ -185,6 +185,10 @@ Textbook accounts include
 * [[Eric D'Hoker]], _String theory -- lecture 8: Heterotic strings_  in part 3 (p. 941 of volume II) of
 
   [[Pierre Deligne]], P. Etingof, [[Dan Freed]], L. Jeffrey, [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds. . _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+Relation to [[Donaldson-Thomas theory]] and [[quiver gauge theory]]:
+
+* {#HeLee12} [[Yang-Hui He]], Seung-Joo Lee, _Quiver Structure of Heterotic Moduli_, J. High Energ. Phys. (2012) 2012: 119 ([arXiv:1208.3004](https://arxiv.org/abs/1208.3004))
 
 ### Orbifold and orientifold compactifications
 
