@@ -80,3 +80,5 @@ A systematic development of [[Euclidean field theory|Euclidean]] [[perturbative 
 [[!redirects correlators as differential forms on a configuration space of points]]
 [[!redirects correlators as differential forms on configuration spaces of points]]
 
+[[!redirects Feynman amplitudes as differential forms on configuration spaces of points]]
+
