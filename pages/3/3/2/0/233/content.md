@@ -344,7 +344,7 @@ A $\mathbb{Z}$-module, hence an abelian group, is not a free module if it has a 
 
 For $R = k$ a [[field]], an $R$-module is equivalently a [[vector space]] over $k$.
 
-Every [[finitely generated module|finitely generated]] [[free module|free]] $k$-module is a [[free module]], hence everey finite dimensional vector space has a [[basis of a free module|basis]]. For infinite dimensions this is true if the [[axiom of choice]] holds.
+Every [[finitely generated module|finitely generated]] [[free module|free]] $k$-module is a [[free module]], hence every finite dimensional vector space has a [[basis of a free module|basis]]. For infinite dimensions this is true if the [[axiom of choice]] holds.
 
 =--
 
