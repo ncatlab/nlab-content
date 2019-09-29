@@ -55,7 +55,7 @@ So from the [[nPOV]] there is no mystery here, but the above argument originally
 
 The conclusion of Einstein and therefore of [[general relativity]] was however that the statement "at a certain region in time and space that contains no matter, there is (or isn't) gravitation" is _not_ independent of the observer. This means that the _physical_ notions of space and time do not have the same objective meaning as in Newton's physics.
 
-On the other hand, the conclusion that one draws from the [[nPOV]] is a simpler and much more general one: when identifing isomorphic objects in a category, we have to remember which isomorphism we used.
+On the other hand, the conclusion that one draws from the [[nPOV]] is a simpler and much more general one: when identifing isomorphic objects in a category, we have to remember which isomorphism we used. For a formulation of the situation in terms of [[homotopy type theory]] see the relevant section in [general covariance](general+covariance#InHomotopyTypeTheory).
 
 
 ## Related concepts
