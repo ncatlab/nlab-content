@@ -766,7 +766,7 @@ Cocycles on some object $X$ do come with a notion of classification of certain s
 
 * [[universal colimits]],
 
-* [[groupoid object in an (infinity,1)-category|effective group objcts]]
+* [[groupoid object in an (infinity,1)-category|effective group objects]]
 
 in the ambient [[(∞,1)-category]]. 
 
