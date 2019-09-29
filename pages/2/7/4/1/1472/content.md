@@ -468,6 +468,11 @@ For general (formal) accounts of physics see also the references at [[books and 
 
 ### Introductions to category theory in physics {#CatsinPhysics}
 
+The translation between the axioms of [[functorial quantum field theory]] and [[path integral]] imagery is explained in
+
+* [[Edward Witten]], Section 1 of: _Geometric Langlands From Six Dimensions_ ([arXiv:0905.2720](https://arxiv.org/abs/0905.2720))
+
+
 In 
 
 * [[Bob Coecke]], _Introducing categories to the practicing physicist_ ([arXiv:0808.1032](http://arxiv.org/abs/0808.1032))
