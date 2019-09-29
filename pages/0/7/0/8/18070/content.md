@@ -366,14 +366,14 @@ $\,$
 ### Relation to twisted Cohomotopy
  {#RelationToTwistedCohomotopy}
 
-The [[scanning map]]-equivalences on [[configuration spaces of points]] may be regarded as generalizations of the [Pontryagin-Thom theorem](cohomotopy#RelationToCobordismGroup) from [[sets]] of [[Cohomotopy]] [[cohomology class|classes]] to [[homotopy types]] of [[twisted Cohomotopy]] [[cocycles]]:
+The May-Segal theorem \ref{ScanningMapEquivalenceOverCartesianSpace} generalizes from [[spheres]] to [[closed manifold|closed]] [[smooth manifolds]] if at the same time one passes from plain [[Cohomotopy]] to [[twisted Cohomotopy]], twisted, via the [[J-homomorphism]], by the [[tangent bundle]]:
 
 +-- {: .num_prop #ScanningMapEquivalenceOverClosedManifold}
 ###### Proposition
 
 Let 
 
-1. $X^n$ be a [[closed manifold]] of [[dimension]] $n$;
+1. $X^n$ be a [[smooth manifold|smooth]] [[closed manifold]] of [[dimension]] $n$;
 
 1. $1 \leq k \in \mathbb{N}$ a [[positive number|positive]] [[natural number]].
 
