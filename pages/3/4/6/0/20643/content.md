@@ -28,11 +28,12 @@ Exposition:
 
 * David B. Cline, _Beyond Truth and Beauty: A Fourth Family of Particles, _Scientific American Vol. 259, No. 2 (AUGUST 1988), pp. 60-67 ([jstor:24989195](https://www.jstor.org/stable/24989195))
 
-
 ### Experimental constraints
  {#ReferencesExperimentalConstraints}
 
-* Alexander Lenz, _Constraints on a fourth generation of fermions from Higgs Boson searches_, Adv. High Energy Phys. 2013 (2013) 910275 ([doi:10.1155/2013/910275](https://doi.org/10.1155/2013/910275))
+* {#Lenz13} [[Alexander Lenz]], _Constraints on a fourth generation of fermions from Higgs Boson searches_, Adv. High Energy Phys. 2013 (2013) 910275 ([doi:10.1155/2013/910275](https://doi.org/10.1155/2013/910275))
+
+* [[Alexander Lenz]], _How to really kill a physics model_, talk notes 2012 ([pdf](https://www.ippp.dur.ac.uk/~lenz/Talk_Bern_Lenz.pdf), [[Lenz4thGenerationConstraints.pdf:file]])
 
 * N.S. Mankoč Borštnik, H.B.F. Nielsen, _Do Present Experiments Exclude the Fourth Family Quarks as Well as the Existence of More Than One Scalar?_, Bled Workshops Phys. 17 (2016) no. 2, 128-146 ([spire:1510166](http://inspirehep.net/record/1510166))
 
@@ -70,3 +71,8 @@ In [[heterotic string theory]]:
 [[!redirects fourth family of fundamental particles]]
 [[!redirects fourth family of fermions]]
 
+[[!redirects 4th generation of fundamental particles]]
+[[!redirects 4th generation of fermions]]
+
+[[!redirects 4th family of fundamental particles]]
+[[!redirects 4th family of fermions]]
