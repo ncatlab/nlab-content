@@ -671,5 +671,8 @@ Formulation of this in [[linear homotopy-type theory]] is discussed in
 [[!redirects push-forward in generalized cohomology]]
 [[!redirects pushforward in generalized cohomology]]
 
+[[!redirects fiber integral]]
+[[!redirects fiber integrals]]
+
 [[!redirects fiberwise integral]]
 [[!redirects fiberwise integrals]]
