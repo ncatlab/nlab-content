@@ -191,7 +191,7 @@ def. \ref{FunctorsOfFunctionAlgebras}.
 +-- {: .num_remark #ForLocallyCompactTopologicalSpaces}
 ###### Remark
 
-Since [[locally compact Hausdorff spaces are equivalently open subspaces of compact Hausdorff spaces]], via the construction that sends a locally compact Hausdorff space $X$ to its [[one-point compactification]], and since a [[continuous function]] on the compact Hausdorff spce $X^\ast$ which vanishes at the extra point is equivalently a continuous function on $X$ which [[vanishing at infinity|vanishes at infinity]], the above induces an equivalence between locally compact Hausdorff spaces and $C^\ast$-algebras of functions that vanish at infinity.
+Since [[locally compact Hausdorff spaces are equivalently open subspaces of compact Hausdorff spaces]], via the construction that sends a locally compact Hausdorff space $X$ to its [[one-point compactification]], and since a [[continuous function]] on the compact Hausdorff space $X^\ast$ which vanishes at the extra point is equivalently a continuous function on $X$ which [[vanishing at infinity|vanishes at infinity]], the above induces an equivalence between locally compact Hausdorff spaces and $C^\ast$-algebras of functions that vanish at infinity.
 
 With due care on defining the right morphisms, the duality generalizes also to [[locally compact topological spaces]]. See for instance ([Brandenburg 07](#Brandenburg07)).
 
