@@ -1,7 +1,5 @@
-diagrams horizontally next to each other:
 
-
-https://twitter.com/SchreiberUrs/status/1128995769615376384
+$\Sigma$
 
 $\underline{A} \colon C \in \mathcal{C}(A) \mapsto C$
 
