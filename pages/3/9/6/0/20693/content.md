@@ -16,7 +16,7 @@
 
 ## Definition
 
-For $(A,d)$ a [[differential algebra]], a _differential idea_ is an [[ideal]] $I \subset A$ in the underlying [[associative algebra]] $A$ which is preserved by the [[derivation]] $d$, in that $d(I) \subset I$.
+For $(A,d)$ a [[differential algebra]], a _differential ideal_ is an [[ideal]] $I \subset A$ in the underlying [[associative algebra]] $A$ which is preserved by the [[derivation]] $d$, in that $d(I) \subset I$.
 
 ## Properties
 
