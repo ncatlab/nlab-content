@@ -207,7 +207,7 @@ See at _[[Becker-Gottlieb transfer]]_.
  {#RelationToComplexVolumes}
 
 
-There is some relation betwee the Borel regulators and [[complex volumes]] of [[hyperbolic manifolds]] via maps out of the [[Bloch group]] ([Suslin 90](#Suslin90), [Neumann-Yang 97, p. 17](#NeumannYang97), [Zickert 07, p. 3](#Zickert07), [Zickert 09](#Zickert09)).
+There is some relation between the Borel regulators and [[complex volumes]] of [[hyperbolic manifolds]] via maps out of the [[Bloch group]] ([Suslin 90](#Suslin90), [Neumann-Yang 97, p. 17](#NeumannYang97), [Zickert 07, p. 3](#Zickert07), [Zickert 09](#Zickert09)).
 
 For $k$ an [[algebraic number field]] and $\sigma_1, \cdots, \sigma_{r_2}\colon k \to \mathbb{C}$ its complex embeddings up to [[conjugation]], then write
 
@@ -302,7 +302,7 @@ See also
 
 * Wikipedia, _[Beilinson regulator](http://en.wikipedia.org/wiki/Beilinson_regulator)_
 
-Formore references see also at _[[Beilinson conjecture]]_.
+For more references see also at _[[Beilinson conjecture]]_.
 
 Relation of the Borel regulator to the [[Bloch group]], the [[Cheeger-Simons class]]/[[complex volumes]] of [[hyperbolic manifolds]] is discussed in
 
