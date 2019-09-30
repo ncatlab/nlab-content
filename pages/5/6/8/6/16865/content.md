@@ -102,6 +102,8 @@ Note, since they are naturally equivalent to $Hom_\mathcal{C}(-,X)$ which preser
 
 * {#Law08}[[F. William Lawvere]], _Core Varieties, Extensivity, and Rig Geometry_ , TAC **20** no.14 (2008) pp. 497&#8211;503. ([pdf](http://www.tac.mta.ca/tac/volumes/20/14/20-14.pdf))
 
+* {#MM19}[[Francisco Marmolejo|F. Marmolejo]], [[Matías Menni|M. Menni]], *Level $\epsilon$* , arXiv:1909.12757 (2019). ([abstract](https://arxiv.org/abs/1909.12757))
+
 * {#Menni14a}[[Matías Menni]], _Sufficient Cohesion over Atomic Toposes_ , Cah. Top. G&#233;om. Diff. Cat. **LV** no.2 (2014) pp.113-149. ([preprint](https://sites.google.com/site/matiasmenni/SufCohesion12.pdf?attredirects=0))
 
 
