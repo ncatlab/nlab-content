@@ -29,27 +29,7 @@ Equivalently this is a [[Riemannian manifold]] which is [[isometry|isometric]] t
 
 ### Volume conjecture
 
-See _[[volume conjecture]]_.
-
-> Adjust the following text
-
-There is a curious relation of [[volumes]] of hyperbolic 3-manifolds to the [[action functional]] of [[Chern-Simons theory]]/[[Dijkgraaf-Witten theory]] ([[volume conjecture]]).
-
-Let $G$ be a [[Lie group]] and $\mathbf{c} \colon \mathbf{B}G \to \mathbf{B}^3 U(1)$ a [[cocycle]] in degree-3 (generalized) [[Lie group cohomology]]. Write $\flat G$ for the underlying [[discrete group]] and $\flat \mathbf{c} \colon \mathbf{B} \flat G \to \mathbf{B}^3 \flat U(1)$ for the induced [[cocycle]] in ordinary (discrete) [[group cohomology]], $[\flat \mathbf{c}] \in H^3_{Grp}(G_{disc},U(1)_{disc})$.
-
-Then for $\Sigma$ a [[closed manifold]] of [[dimension]] 3, a map (of [[smooth infinity-groupoids]]) $\Sigma \to \mathbf{B}\flat G$ is a [[flat connection|flat]] $G$-[[principal connection]] on $\Sigma$ and the composite
-
-$$
-  [\Sigma, \mathbf{B}\flat G]
-  \stackrel{[\Sigma, \flat \mathbf{c}]}{\to}
-  [\Sigma, \mathbf{B}^3 \flat U(1)]
-  \stackrel{\int_{\Sigma}}{\to}
-  U(1)
-$$
-
-is the [[action functional]] for $G$-[[Chern-Simons theory]] on $\Sigma$ restricted to $G$-[[flat connections]], or equivalently is the action functional of $\flat G$-[[Dijkgraaf-Witten theory]].
-
-Now for $G = SL(n,\mathbb{C})$ the complex [[special linear group]] and hence for [[Chern-Simons theory with complex gauge group]], it turns out that the [[imaginary part]] of this flat Chern-Simons/Dijkgraaf-Witten invariant of 3-manifolds always has an expression as a combination of volumes of hyperbolic 3-manifolds.
+For the moment see at _[[volume conjecture]]_.
 
 ## Examples
 
@@ -67,8 +47,34 @@ Now for $G = SL(n,\mathbb{C})$ the complex [[special linear group]] and hence fo
 
 ## References
 
+### General
+
 See also
 
 * [[Manifold Atlas]], _[Hyperbolic 3-manifolds](http://www.map.mpim-bonn.mpg.de/index.php/Hyperbolic_3-manifolds)_
 
 * Wikipedia, _[Hyperbolic 3-manifold](https://en.wikipedia.org/wiki/Hyperbolic_3-manifold)_
+
+### M5-branes wrapped on hyperbolic 3-manifolds
+
+Discussion of [[black brane|black]] [[M5-branes]] [[wrapped brane|wrapped]] on [[hyperbolic 3-manifolds]]:
+
+* Aristomenis Donos, [[Jerome Gauntlett]], [[Nakwoo Kim]], Oscar Varelam, _Wrapped M5-branes, consistent truncations and AdS/CMT_, JHEP 1012:003, 2010 ([arXiv:1009.3805](https://arxiv.org/abs/1009.3805)) 
+
+* {#GangKimLee14a} Dongmin Gang, [[Nakwoo Kim]], Sangmin Lee, _Holography of Wrapped M5-branes and Chern-Simons theory_, Physics Letters B
+Volume 733, 2 June 2014, Pages 316-319 ([arXiv:1401.3595](https://arxiv.org/abs/1401.3595))
+
+* {#GangKimLee14b} Dongmin Gang, [[Nakwoo Kim]], Sangmin Lee, _Holography of 3d-3d correspondence at Large $N$_, JHEP04(2015) 091 ([arXiv:1409.6206](https://arxiv.org/abs/1409.6206))
+
+* {#GangKim18} Dongmin Gang, [[Nakwoo Kim]], _Large $N$ twisted partition functions in 3d-3d correspondence and Holography_, Phys. Rev. D 99, 021901 (2019) ([arXiv:1808.02797](https://arxiv.org/abs/1808.02797))
+
+* {#GangKimPandoZayas19} Dongmin Gang, [[Nakwoo Kim]], Leopoldo A. Pando Zayas, _Precision Microstate Counting for the Entropy of Wrapped M5-branes_ ([arXiv:1905.01559](https://arxiv.org/abs/1905.01559))
+
+
+Suggestion that the statement of the [[volume conjecture]] is reall8 [[AdS-CFT duality]] combined with the [[3d-3d correspondence]] for [[M5-branes]] [[wrapped brane|wrapped]] on [[hyperbolic 3-manifolds]]:
+
+
+* [Gang-Kim-Lee 14b, Section 3.2](#GangKimLee14b)
+
+* [Gang-Kim 18, around (21)](#GangKim18)
+
