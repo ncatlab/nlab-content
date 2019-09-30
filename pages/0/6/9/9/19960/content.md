@@ -513,6 +513,12 @@ Discussion of the [[theta angle]] via the the [[graviphoton]] in the [[higher WZ
 
 *  Si-wen Li, around (3.1) of _The theta-dependent Yang-Mills theory at finite temperature in a holographic description_ ([arXiv:1907.10277](https://arxiv.org/abs/1907.10277))
 
+Discussion of the Witten-Veneziano mechanism
+
+* Josef Leutgeb, Anton Rebhan, _Witten-Veneziano mechanism and pseudoscalar glueball-meson mixing in holographic QCD_ ([arxiv:1909.12352](https://arxiv.org/abs/1909.12352))
+
+
+
 ### Application to the QCD trace anomaly
 
 Discussion of the [[QCD trace anomaly]]:
