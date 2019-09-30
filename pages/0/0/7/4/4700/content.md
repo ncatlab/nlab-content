@@ -103,10 +103,11 @@ This was originally sketched in [Kontsevich 94, p. 11-12](#Kontsevich94). A deta
 
 
 
-A clean definition of the graph complex for points in [[Euclidean space]] $\mathbb{R}^D$ is given in [Lambrechts-Volić 14, Section 6](#LambrechtsVolic14). For definiteness, we here state the definition for $D = 3$. 
+A clean definition of the graph complex for points in [[Euclidean space]] $\mathbb{R}^D$ is given in [Lambrechts-Volić 14, Section 6](#LambrechtsVolic14). For definiteness, we here state the definition for $D = 3$, this is Def. \ref{GraphComplexDgcAlgebra} below.
 
 (But for general $D \in \mathbb{N}$ the definition is essentially the same, differing only in the degrees assigned to graphs, and in the signs appearing in the equivalence relation between graphs and in the definition of the differential. For even dimensions these signs depend on a linear order on the set of edges instead of fthe set of vertices.)
 
+\linebreak
 
 ### Graphs
 
@@ -132,6 +133,14 @@ In the following, by a **[[graph]]** we mean specifically:
    of "external" and "internal" vertices.
 
 1. a [[linear order]] on $V$, such that $V_{ext} \lt V_{int}$.
+
+Hence both $Vert_{ext}$ and $Vert_{int}$ are [[linear orders]], and 
+
+$$
+  Vert = Vert_{ext} \sqcup_{{}_{\lt}} Vert_{int}
+$$
+
+is their ordered [[disjoint union]].
 
 An [[isomorphism]] $\Gamma \simeq \Gamma'$ of such graphs is a [[pair]] of [[bijections]] between sets of edges and vertices
 
@@ -244,12 +253,13 @@ In particular, graphs may have [[tadpoles]]. But the next definition makes such 
 
 For a fixed [[finite set|finite]] [[linear order]] $Vert_{ext} \simeq \{1, 2, \cdots, \#\!Vert_{ext}\}$, consider the [[real numbers|real]] [[linear span]] on the [[set]] of [[isomorphism classes]] (eq:IsomorphismOfGraphs) of graphs, according to Def. \ref{Graphs}, with that set of external [[vertices]]:
 
-$$
+\[
+  \label{LinearSpanOfIsoClassesOfGraphs}
   \mathbb{R}
   \Big[
     \big\{
      Edg 
-      \underoverset{s}{t}{\rightrightarrows} 
+      \underoverset{t}{s}{\rightrightarrows} 
      Vert_{ext} 
       \sqcup
      Vert_{int}
@@ -260,7 +270,7 @@ $$
   \;\in\;
   Vect_{\mathbb{R}}
   \,.
-$$
+\]
 
 The degree associated with a graph (Def. \ref{DegreeOfAGraph}) makes this a [[graded vector space]].
 
@@ -284,7 +294,8 @@ On this [[real vector space]], consider the linear [[equivalence relation]]  $\s
 and
 
 
-$$
+\[
+  \label{SignRuleFromOrderingInternalVertices}
   \Gamma
   \;\sim\;
   -\Gamma'
@@ -294,17 +305,27 @@ $$
     \\
     \text{a pair of consecutive internal vertices transposed}
   }
-$$
+\]
 
 
 =--
 
 ([Lambrechts-Volić 14, Def. 6.5 & Def. 6.5](#LambrechtsVolic14))
 
-Since this [[equivalence relation]] is linear, the set of its [[equivalence classes]] 
+Since this [[equivalence relation]] is linear, the set of its [[equivalence classes]] is still a [[vector space]], and since the equivalence relation also preserves the degrees (Def. \ref{DegreeOfAGraph}), it is still a [[graded vector space]]:
+
+
++-- {: .num_defn #GradedVectorSpaceOfGraphs}
+###### Definition
+**(graded vector space of graphs)**
+
+For $n \in \mathbb{N}$, $n \coloneqq \#\! Vert_{ext}$, we write
+
 
 \[
   \label{VectorSpaceOfGraphsWithSignRulesImposed}
+  \widehat{Graphs}_n\big(\mathbb{R}^3\big)
+  \;\coloneqq\;
   \mathbb{R}
   \Big[
     \big\{
@@ -322,7 +343,7 @@ Since this [[equivalence relation]] is linear, the set of its [[equivalence clas
   \,.
 \]
 
-is still a [[vector space]], and since the equivalence relation preserves the degrees, it is still a [[graded vector space]]
+for the [[real vector space|real]] [[graded vector space]] of [[equivalence classes]] under the sign rules (eq:SignFromOrientationReversal) and (eq:SignRuleFromOrderingInternalVertices) in the [[linear span]] (eq:LinearSpanOfIsoClassesOfGraphs) of the [[isomorphism classes]] of graphs (Def. \ref{Graphs}) with $n$ external vertices.
 
 For $\Gamma$ any graph, we write 
 
@@ -330,26 +351,22 @@ For $\Gamma$ any graph, we write
   \label{EquivalenceClassOfAGraphForSignRules}
   \big[ \Gamma \big]
   \;\in\;
-  \mathbb{R}
-  \Big[
-    \big\{
-     Edg 
-      \underoverset{s}{t}{\rightrightarrows} 
-     Vert_{ext} 
-      \sqcup
-     Vert_{int}
-     \;\vert\;
-     Vert_{int} \in FinLinOrd
-    \big\}_{/\sim}
-  \Big]_{/\sim}
+  \widehat{Graphs}_n\big(\mathbb{R}^3\big)
   \,.
 \]
 
-for its [[equivalence class]].
+for the [[equivalence class]] of the element in this [[real vector space|real]] [[graded vector space]] that it represents. 
+
+If no confusion may arise, we will still refer to this equivalence class $[\Gamma]$ as a _graph_.
+
+=--
 
 <center>
 <img src="https://ncatlab.org/nlab/files/GraphComplexSignsFromOrientationReversal.jpg" width="400">
 </center>
+
+
+A further [[quotient space]] $Graphs_n(\mathbb{R}^3)$ of $widehat Graphs_n(\mathbb{R}^3)$ (eq:VectorSpaceOfGraphsWithSignRulesImposed) will underly the actual graph complex [below](#TheGraphComplex).
 
 
 
@@ -361,7 +378,7 @@ A direct consequence of quotienting out the [[equivalence relation]]
 (eq:SignFromOrientationReversal)
 is that graphs with "[[tadpoles]]", namely with edges
 that have coinciding [[source]] and [[target]] [[vertex]], 
-vanish in the graph complex:
+vanish in $\widehat Graphs_n(\mathbb{R}^3)$ (eq:VectorSpaceOfGraphsWithSignRulesImposed):
 
 $$
   e \in Edg_\Gamma
@@ -375,17 +392,121 @@ $$
   0
 $$
 
-(This holds for all odd $D  = 2k + 1$.)
+(This holds more generally for all $\mathbb{R}^D$ with odd $D  = 2k + 1$.)
 
 <center>
 <img src="https://ncatlab.org/nlab/files/GraphsWithDirectLoopsVanishInTheGraphComplex.jpg" width="700">
 </center>
 
+=--
+
+\linebreak
+
+### The algebra of graphs
+
++-- {: .num_defn #WedgeProductOfGraphs}
+###### Definition
+**(wedge product of graphs)**
+
+For 
+
+$$
+  [\Gamma_1], [\Gamma_2]
+  \;\in\;
+  \widehat Graphs_n\big( \mathbb{R}^D\big)
+$$ 
+
+two equivalence classes (eq:VectorSpaceOfGraphsWithSignRulesImposed) of isomorphism classes of graphs (Def. \ref{GradedVectorSpaceOfGraphs}) with the same number of external, their _wedge product_ is the element
+
+$$
+  [\Gamma_1] \wedge [\Gamma_2]
+  \coloneqq
+  [\Gamma_1 \wedge \Gamma_2]
+  \;\in\;
+  \widehat Graphs_n\big( \mathbb{R}^D\big)
+$$ 
+
+represented by the graph (Def. \ref{Graphs}) which is given by the [[disjoint union]] of [[linear orders]] of edges and _internal_ vertices
+
+$$
+  \Gamma_1 \wedge \Gamma_2
+  \;\coloneqq\;
+  \Big(
+    Edgs_{\Gamma_1}
+    \sqcup_{{}_{\lt}}
+    Edgs_{\Gamma_2}
+    \underoverset{t_1 \sqcup_{\lt} t_2}{s_1 \sqcup_{\lt} s_2}{\rightrightarrows}
+    Vert_{ext}
+    \sqcup_{{}_{\lt}}
+    \big(    
+      Vert_{int,1}
+      \sqcup_{{}_{\lt}}
+      Vert_{int,2}
+    \big)
+  \Big)
+  \,.
+$$
+
 
 =--
 
+([Lambrechts-Volić 14, 6.3](#LambrechtsVolic14))
 
-### The differential
+It is immediate that:
+
++-- {: .num_defn #GradedCommutativeAlgebraOfGraphs}
+###### Lemma
+**(graded commutative algebra of graphs)**
+
+For $n \in \mathbb{N}$, the [[graded vector space]] $\widehat Graphs_n\big( \mathbb{R}^3\big)$ (eq:VectorSpaceOfGraphsWithSignRulesImposed) of graphs  (Def. \ref{GradedVectorSpaceOfGraphs}) equipped with the wedge product of graphs from Def. \ref{WedgeProductOfGraphs}
+
+$$
+  \array{
+    \widehat{Graphs}_n(\mathbb{R}^3)
+    \otimes
+    \widehat{Graphs}_n(\mathbb{R}^3)
+    &\overset{\wedge}{\longrightarrow}&
+    \widehat{Graphs}_n(\mathbb{R}^3)
+    \\
+    \big(
+      [\Gamma_1], [\Gamma_2]
+    \big)
+    &\mapsto&
+    [\Gamma_1 \wedge \Gamma_2]
+  }
+$$
+
+is a [[graded-commutative algebra]].
+
+=--
+
+In fact this graded-graded commutative algebra is [[free construction]] on
+
+1. one generator of degree 2
+
+   $$
+     e_{a b } \coloneqq e_{b a}
+   $$
+
+   for all $1 \leq a \lt b \in \mathbb{N}$
+
+   (the [[edges]] without any [[tadpoles]])
+
+1. one generator of degree -3
+
+   $$
+     v_{n + k}
+   $$
+
+   for all $1 \leq k \in \mathbb{N}$
+
+   (the internal vertices).
+
+
+\linebreak
+
+
+### The differential on graphs
  {#TheDifferential}
 
 The [[differential]] on the graded vector space of equivalence classes of graphs (eq:VectorSpaceOfGraphsWithSignRulesImposed) is defined in terms of contraction of certain edges in the graph (Def. \ref{ContractionOfAnEdge} below). For this we first say which edges count as _contractible_ (Def. \ref{ContractibleEdges}) and which sign is picked up when contracting them (Def. \ref{SignOfAContractibleEdge}):
@@ -509,19 +630,59 @@ where on the right we are identifying the [[linear order]] on the vertices with 
 ###### Definition
 **(differential on graphs)**
 
-For $Vert_{ext}$ a fixed [[finite set|finite]] [[linear order]] of external vertices, define on the [[graded vector space]] (eq:VectorSpaceOfGraphsWithSignRulesImposed) of [[isomorphism classes]] of graphs, modulo the sign rules of Def. \ref{SignRulesForGraphs}, the [[linear map|linear]] [[endomorphism]] $d$ which is given on the class $[\Gamma]$ \eqref{EquivalenceClassOfAGraphForSignRules} of a graph $\Gamma$ by the [[linear combination]] of all its edge contractions $\Gamma/e$ (Def. \ref{ContractionOfAnEdge}) for all contractible edges (Def. \ref{ContractibleEdges}) weighted by their sign (Def. \ref{SignOfAContractibleEdge}):
+For $Vert_{ext}$ a fixed [[finite set|finite]] [[linear order]] of $n = \#\! Vert_{ext}$ external vertices, define on the [[graded vector space]] 
+$\widehat Graphs_n\big( \mathbb{R}^3\big)$ (eq:VectorSpaceOfGraphsWithSignRulesImposed) a [[linear map|linear]] [[endomorphism]] $d$ given on the class $[\Gamma]$ \eqref{EquivalenceClassOfAGraphForSignRules} of a graph $\Gamma$ (Def. \ref{Graphs}) by the [[linear combination]] of all its edge contractions $\Gamma/e$ (Def. \ref{ContractionOfAnEdge}) for all contractible edges (Def. \ref{ContractibleEdges}) weighted by their sign (Def. \ref{SignOfAContractibleEdge}):
 
 $$
-  d [\Gamma]
-  \;\coloneqq\;
-  \underset{ e \in Edg^{contr}_\Gamma }{\sum}
-  \epsilon(\Gamma) \cdot [\Gamma/e]
+  \array{
+    \widehat Graphs_n\big( \mathbb{R}^3\big)
+    &\overset{d}{\longrightarrow}&
+    \widehat Graphs_n\big( \mathbb{R}^3\big)
+    \\
+    [\Gamma]
+    &\mapsto&
+    \underset{ e \in Edg^{contr}_\Gamma }{\sum}
+    \epsilon(\Gamma) \cdot [\Gamma/e]
+  }
   \,.
 $$
 
 =--
 
-([Lambrechts-Volić 14, (84) and Lemma 6.11](#LambrechtsVolic14))
+([Lambrechts-Volić 14, (84) ](#LambrechtsVolic14))
+
+
++-- {: .num_lemma #DifferentialProperties}
+###### Lemma
+**(differential graded algebra structure)**
+
+The [[linear map]] $d$ in Def. \ref{DifferentialOnGraphs} makes the [[graded vector space]] $\widehat Graphs_n(\mathbb{R}^D)$ a [[cochain complex]], and, with its [[graded algebra]]-[[structure]] from Lemma \ref{GradedCommutativeAlgebraOfGraphs} in fact a [[differential graded algebra]], in that:
+
+1. (well defined) $d$ indeed only depends on the equivalence class $[\Gamma]$;
+
+1. (degree) $d$ increases degree by +1
+
+1. (nilpotency) 
+
+   $$
+     d \circ d = 0
+   $$
+
+1. ([[derivation]])  
+
+   $$
+     d( [\Gamma_1] \wedge [\Gamma_2] )
+     \;=\;
+     \big( d[\Gamma_1]  \big) \wedge [\Gamma_2]
+     +
+     (-1)^{deg(\Gamma_1)} [\Gamma_1] \wedge \big( d [\Gamma_2]\big)     
+     \,.
+   $$
+
+=--
+
+([Lambrechts-Volić 14, Lemmas 6.11 - 6.14](#LambrechtsVolic14))
+
 
 +-- {: .num_example #ThreeTermRelation}
 ###### Example
@@ -561,11 +722,79 @@ $$
 ([Lambrechts-Volić 14, Figure 1 and 2](#LambrechtsVolic14))
 
 
+\linebreak
+
+
 ### The graph complex
+ {#TheGraphComplex}
 
-The actual graph complex is now the quotient of the complex defined above by the [[differential ideal]] of non-admissible graphs 
++-- {: .num_defn #VanishingGraphs}
+###### Definition
+**(vanishing graphs)**
 
-(...)
+We say that a graph $\Gamma$ (Def. \ref{Graphs}) is a _vanishing graph_ if at least one of the following conditions applies
+
+* $\Gamma$ contains a [[tadpole]] (Example \ref{GraphsWithDirectLoopsVanish});
+
+* $\Gamma$ contains a less than trivalent internal vertex, hence an internal vertex with less than 3 edges attached to it;
+
+* $\Gamma$ contains a pair $(a,b)$ of vertices, with more than one edge between them, i.e. if the [[preimage]] $(s,t)^{-1}\big\{(a,b)\big\}$ contains more than one element;
+
+Write 
+
+$$
+  {\widehat Graphs}^{nil}_n(\mathbb{R}^3)
+  \;\subset\;
+  \widehat Graphs_n\big( \mathbb{R}^3 \big)
+$$
+
+for the [[subspace]] spanned by vanishing graphs $[\Gamma]$ inside the [[graded vector space]] (eq:VectorSpaceOfGraphsWithSignRulesImposed) of all graphs.
+
+
+=--
+
+([Lambrechts-Volić 14, Def. 6.16](#LambrechtsVolic14))
+
+
++-- {: .num_lemma #VanishingGraphsAreDifferentialIdeal}
+###### Lemma
+**(vanishing graphs form a differential ideal)**
+
+The subspace of vanishing graphs (Def. \ref{VanishingGraphs}) is a [[differential ideal]] in the [[differential graded-commutative algebra]] of all graphs (Lemma \ref{DifferentialProperties}).
+
+=--
+
+([Lambrechts-Volić 14, Lemma 6.17](#LambrechtsVolic14))
+
+This implises that the quotient of all graphs by the vanishing graphs is still a differential graded-commutative algebra:
+
++-- {: .num_defn #GraphComplexDgcAlgebra}
+###### Definition
+**(graph complex)**
+
+For $n \in \mathbb{N}$, the _graph complex_ on $n$ external vertices is the [[differential graded-commutative algebra]]
+
+$$
+  Graphs_n
+  \big(
+    \mathbb{R}^3
+  \big)
+  \;\coloneqq\;
+  \frac{
+    {\widehat Graphs}_n\big( \mathbb{R}^3\big)
+  }
+  {
+    {\widehat Graphs}^{nil}_n\big( \mathbb{R}^3\big)
+  }
+$$
+
+of the [[differential graded-commutative algebra]] of all graphs (Lemma \ref{DifferentialProperties}) by its [[differential ideal]] (Lemma \ref{VanishingGraphsAreDifferentialIdeal}) of vanishing graphs (Def. \ref{VanishingGraphs}).
+
+=--
+
+([Lambrechts-Volić 14, Def. 6.19](#LambrechtsVolic14))
+
+\linebreak
 
 ## Properties
 
