@@ -173,7 +173,7 @@ The  [[linear order]] on the [[vertices]] in Def. \ref{Graphs} is equivalently a
   \big\}
 \]
 
-With this understood, we may deoict graphs as as diagrams with oriented edges and numbered vertices.
+With this understood, we may depict graphs as as diagrams with oriented edges and numbered vertices.
 
 =--
 
