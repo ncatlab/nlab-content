@@ -241,6 +241,9 @@ The general perspective is due to
 
 * {#Lawvere92} [[William Lawvere]], _Categories of space and quantity_, in: J. Echeverria et al (eds.), _The Space of mathematics_, de Gruyter, Berlin, New York (1992) ([pdf](https://github.com/mattearnshaw/lawvere/blob/master/pdfs/1992-categories-of-space-and-quantity.pdf))
 
+See also
+
+* [[William Lawvere]], _John Isbell's Adequate Subcategories_, TopCom **11** no.1 2006. ([link](http://at.yorku.ca/t/o/p/d/65.htm)) 
 
 [[!redirects quantity]]
 [[!redirects quantities]]
