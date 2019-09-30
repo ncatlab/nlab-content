@@ -456,7 +456,7 @@ An explicit relalization of the [[Green-Schwarz action functional]] of the [[M5-
 * {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
 
 
-### Generalization beyond exact AdS and/or exact CFT
+### Generalization beyond exact AdS / exact CFT
 
 Discussion for [[cosmology]] of [[intersecting D-brane models]] (ambient $\sim$ [[anti de Sitter spacetimes]] with the $\sim$ conformal intersecting branes at the [[asymptotic boundary]]) includes the following (see also at _[[Randall-Sundrum model]]_):
 
@@ -479,8 +479,9 @@ Discussion for [[cosmology]] of [[intersecting D-brane models]] (ambient $\sim$ 
 
 
 
-### Applications
+### Applications to physics
  {#Appications}
+
 
 #### To gravity
 
@@ -533,7 +534,9 @@ Other original articles include:
 
 #### To particle physics
 
-* [[Joseph Polchinski]], [[Matthew Strassler]], _Hard Scattering and Gauge/String Duality_, Phys.Rev.Lett.88:031601,2002, ([arXiv:hep-th/0109174](http://lanl.arxiv.org/abs/hep-th/0109174))
+* [[Joseph Polchinski]], [[Matthew Strassler]], _Hard Scattering and Gauge/String Duality_, Phys. Rev. Lett. 88:031601, 2002, ([arXiv:hep-th/0109174](http://lanl.arxiv.org/abs/hep-th/0109174))
+
+For more see at _[[AdS/QCD correspondence]]_.
 
 #### To condensed matter physics
  {#ToCondensedMatterPhysics}
@@ -556,6 +559,21 @@ Further reviews include the following:
 
 * _[Holography and Extreme Chromodynamics](http://igfae.usc.es/~holoquark2018/)_, Santiago de Compostela, July 2018
 
+### Applications in mathematics
+
+#### To the volume conjecture
+
+Suggestion that the statement of the [[volume conjecture]] is really [[AdS-CFT duality]] combined with the [[3d-3d correspondence]] for [[M5-branes]] [[wrapped brane|wrapped]] on [[hyperbolic 3-manifolds]]:
+
+
+* {#GangKimLee14b} Dongmin Gang, [[Nakwoo Kim]], Sangmin Lee, Section 3.2_Holography of 3d-3d correspondence at Large $N$_, JHEP04(2015) 091 ([arXiv:1409.6206](https://arxiv.org/abs/1409.6206))
+
+
+* {#GangKim18} Dongmin Gang, [[Nakwoo Kim]], around (21) of: _Large $N$ twisted partition functions in 3d-3d correspondence and Holography_, Phys. Rev. D 99, 021901 (2019) ([arXiv:1808.02797](https://arxiv.org/abs/1808.02797))
+
+
+
+
 [[!redirects AdS/CFT]]
 
 [[!redirects AdS/CFT correspondence]]
@@ -564,6 +582,7 @@ Further reviews include the following:
 [[!redirects AdS-CFT correspondence]]
 
 [[!redirects AdS-CFT duality]]
+[[!redirects AdS/CFT duality]]
 
 [[!redirects AdS7-CFT6]]
 [[!redirects AdS7-CFT6 duality]]
