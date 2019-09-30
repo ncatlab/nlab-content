@@ -21,7 +21,22 @@
 
 A [[duality in string theory]]: relation between the 3d [[superconformal geometry|superconformal]] [[worldvolume]] [[quantum field theory]] on [[M5-brane]] [[wrapped brane|wrapped]] on a ([[hyperbolic 3-manifold|hyperbolic]]) [[3-manifold]] and 3d [[Chern-Simons theory]]/[[analytically continued Chern-Simons theory]]. 
 
-Possibly the conceptual reason behind the truth of the [[volume conjecture]] ([Gang-Kim-Lee 14b, 3.2](#GangKimLee14b))
+## Properties
+
+### Relation to volume conjecture
+ {#RelationToTheVolumeConjecture}
+
+In [Gang-Kim-Lee 14b, 3.2](#GangKimLee14b), [Gang-Kim 18 (21)](#GangKim18) it is argued that the [[volume conjecture]] for [[Chern-Simons theory]] on [[hyperbolic 3-manifolds]] $\Sigma^3$ is the combined statement of two [[dualities in string theory]]
+
+1. [[AdS/CFT duality]]
+
+1. [[3d-3d correspondence]]
+
+for the situation of [[M5-branes]] [[wrapped brane|wrapped on]] $\Sigma^3$ ([DGKV 10](#DGKV10)):
+
+<center>
+<img src="https://ncatlab.org/nlab/files/VolumeConjectureAsAdSCFTPlus3d3dDuality.jpg" width="650">
+</center>
 
 ## Related concepts
 
@@ -55,7 +70,7 @@ Review is in
 
 Discussion of [[D=11 N=1 supergravity]] solutions for the [[near horizon geometry]] of [[black brane|black]] [[M5-branes]] [[wrapped brane|wrapped]] on [[hyperbolic 3-manifolds]] $\Sigma^3 = H^3/\Gamma$:
 
-* Aristomenis Donos, [[Jerome Gauntlett]], [[Nakwoo Kim]], Oscar Varelam, _Wrapped M5-branes, consistent truncations and AdS/CMT_, JHEP 1012:003, 2010 ([arXiv:1009.3805](https://arxiv.org/abs/1009.3805)) 
+* {#DGKV10} Aristomenis Donos, [[Jerome Gauntlett]], [[Nakwoo Kim]], Oscar Varelam, _Wrapped M5-branes, consistent truncations and AdS/CMT_, JHEP 1012:003, 2010 ([arXiv:1009.3805](https://arxiv.org/abs/1009.3805)) 
 
 * {#GangKimLee14a} Dongmin Gang, [[Nakwoo Kim]], Sangmin Lee, _Holography of Wrapped M5-branes and Chern-Simons theory_, Physics Letters B
 Volume 733, 2 June 2014, Pages 316-319 ([arXiv:1401.3595](https://arxiv.org/abs/1401.3595))
