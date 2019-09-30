@@ -85,6 +85,8 @@ Generalization from [[gauge group]] [[SU(2)]] to [[SU(n)]]: [Chen-Liu-Zhu 15](#C
 
 ## References
 
+### General
+
 Original articles include
 
 * {#Kashaev95} [[Rinat Kashaev]], _A Link Invariant from Quantum Dilogarithm_,  Modern Physics Letters AVol. 10, No. 19, pp. 1409-1418 (1995) ([arXiv:q-alg/9504020](https://arxiv.org/abs/q-alg/9504020))
@@ -130,7 +132,9 @@ See also
 
 * {#GaroufalidisThurstonZickert11} Stavros Garoufalidis, [[Dylan Thurston]], [[Christian Zickert]], _The complex volume of $SL(n,\mathbb{C})$-representations of 3-manifolds_ ([arXiv:1111.2828](http://arxiv.org/abs/1111.2828), [Euclid](http://projecteuclid.org/euclid.dmj/1259332507))
 
+### Via string theory
 
+#### General
 
 Speculative discussion in terms of [[quantum field theory]] or [[string theory]] includes
 
@@ -141,9 +145,6 @@ Speculative discussion in terms of [[quantum field theory]] or [[string theory]]
 
 * {#DimofteGukov10} [[Tudor Dimofte]], [[Sergei Gukov]], _Quantum Field Theory and the Volume Conjecture_, Contemporary Mathematics 541 (2011), p.41-67 ([arxiv:1003.4808](http://arxiv.org/abs/1003.4808))
 
-
-
-
 A conceptual explanation of the volume conjecture via [[analytically continued Chern-Simons theory]] was proposed in
 
 * {#Witten10} [[Edward Witten]], _Analytic Continuation Of Chern-Simons Theory_, AMS/IP Stud. Adv. Math 50 (2011): 347 ([arXiv:1001.2933](https://arxiv.org/abs/1001.2933))
@@ -151,13 +152,16 @@ A conceptual explanation of the volume conjecture via [[analytically continued C
 (but it seems that as a sketch or strategy for a rigorous proof, it didn't catch on).
 
 
-In terms of [[M5-branes]] [[wrapped brane|wrapped]] on the [[hyperbolic 3-manifold]] ([[3d-3d correspondence]]):
+#### As AdS/CFT + 3d/3d duality for M5 on hyperbolic 3-folds
 
-* Dongmin Gang, Nakwoo Kim, Sangmin Lee, _Holography of Wrapped M5-branes and Chern-Simons theory_, j.physletb.2014.04.051 ([arXiv:1401.3595](https://arxiv.org/abs/1401.3595))
 
-* {#GangKimLee14} Dongmin Gang, Nakwoo Kim, Sangmin Lee, Section 3.2 of _Holography of 3d-3d correspondence at Large N_, JHEP04(2015) 091 ([arXiv:1409.6206](https://arxiv.org/abs/1409.6206))
+Suggestion that the statement of the [[volume conjecture]] is really [[AdS-CFT duality]] combined with the [[3d-3d correspondence]] for [[M5-branes]] [[wrapped brane|wrapped]] on [[hyperbolic 3-manifolds]]:
 
-* {#GangKim18} Dongmin Gang, Nakwoo Kim, aound (21) of _Large $N$ twisted partition functions in 3d-3d correspondence and Holography_, Phys. Rev. D 99, 021901 (2019) ([arXiv:1808.02797](https://arxiv.org/abs/1808.02797))
+
+* {#GangKimLee14b} Dongmin Gang, [[Nakwoo Kim]], Sangmin Lee, Section 3.2_Holography of 3d-3d correspondence at Large $N$_, JHEP04(2015) 091 ([arXiv:1409.6206](https://arxiv.org/abs/1409.6206))
+
+
+* {#GangKim18} Dongmin Gang, [[Nakwoo Kim]], around (21) of: _Large $N$ twisted partition functions in 3d-3d correspondence and Holography_, Phys. Rev. D 99, 021901 (2019) ([arXiv:1808.02797](https://arxiv.org/abs/1808.02797))
 
 
 
