@@ -95,5 +95,7 @@ The corresponding [[adjoint modalities]] are $(q_!\cdot i_!)\cdot (i^\ast \cdot 
 
 * {#LW11}[[Rory Lucyshyn-Wright|R. Lucyshyn-Wright]], _Totally Distributive Toposes_ , arXiv.1108.4032 (2011). ([pdf](http://arxiv.org/pdf/1108.4032v3))
 
+* {#MM19}[[Francisco Marmolejo|F. Marmolejo]], [[Matías Menni|M. Menni]], *Level $\epsilon$* , arXiv:1909.12757 (2019). ([abstract](https://arxiv.org/abs/1909.12757))
+
 * {#VT01}[[Enrico Vitale|E. M. Vitale]], _Essential Localizations and Infinitary Exact Completions_ , TAC **8** no.17 (2001) pp.465-480. ([pdf](http://www.tac.mta.ca/tac/volumes/8/n17/n17.pdf))
 
