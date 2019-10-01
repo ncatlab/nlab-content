@@ -37,7 +37,7 @@ A general and systematic discussion of [[perturbative quantum field theory]] and
 
 This approach to [[pQFT]] was originally considered specifically for the [[Chern-Simons propagator]] in  [[quantization of 3d Chern-Simons theory]] in [Axelrod-Singer 93](#AxelrodSinger93), see also [Bott-Cattaneo 97, Remark 3.6](#BottCattaneo97) and [Cattaneo-Mnev 10, Remark 11](#CattaneoMnev10). The analysis applies verbatim to [[higher Chern-Simons theory]] such as notably the [[AKSZ sigma-models]], too, since the [[Feynman propagator]]  depends only on the [[free field theory]]-[[equations of motion]], which is $d A = 0$ in all these cases. 
 
-Here the [[Chern-Simons propagator]] regarded as a non-singular [[differential form]] on the [[Fulton-MacPherson compactification|compactification]] of the [[configuration space of points]] serves to exhibit its [[Feynman amplitudes]] as providing [[graph complex]]-models for the [[de Rham cohomology]] of these [[Fulton-MacPherson compactification|compactified]] [[configuration spaces of points]], a point originally due to [Kontsevich 94](#Kontsevich94) and re-amplified in [Campos-Idrissi-Lambrechts-Willwacher 18, p. 66](#CamposIdrissiLambrechtsWillwacher18).
+Here the [[Chern-Simons propagator]] regarded as a non-singular [[differential form]] on the [[Fulton-MacPherson compactification|compactification]] of the [[configuration space of points]] serves to exhibit its [[Feynman amplitudes]] as providing [[graph complex]]-models for the [[de Rham cohomology]] of these [[Fulton-MacPherson compactification|compactified]] [[configuration spaces of points]], a point due to [Kontsevich 94](#Kontsevich94), [Kontsevich 93, 5](#Kontsevich93):
 
 \[
   \label{TheQuasiIsomorphism}
@@ -115,7 +115,11 @@ which was re-amplified  in
 
 and highlighted as a means to obtain [[graph complex]]-models for the [[de Rham cohomology]] of [[configuration spaces of points]] in 
 
+
+* {#Kontsevich93} [[Maxim Kontsevich]], _Vassiliev's knot invariants_, Advances in Soviet Mathematics, Volume 16, Part 2, 1993 ([pdf](http://pagesperso.ihes.fr/~maxim/TEXTS/VassilievKnot.pdf))
+
 * {#Kontsevich94} [[Maxim Kontsevich]], pages 11-12 of _Feynman diagrams and low-dimensional topology_, First European Congress of Mathematics, 1992, Paris, vol. II, Progress in Mathematics __120__, Birkh&#228;user (1994), 97&#8211;121 ([pdf](http://www.ihes.fr/~maxim/TEXTS/Feynman%20%20diagrams%20and%20low-dimensional%20topology.pdf))
+
 
 with full details and proofs in
 
