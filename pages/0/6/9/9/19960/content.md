@@ -220,7 +220,6 @@ Review:
 ([arXiv:1107.0155](https://arxiv.org/abs/1107.0155), [doi:10.1155/2011/259025](http://dx.doi.org/10.1155/2011/259025))
 
 
-
 * M. R. Pahlavani, R. Morad, _Application of AdS/CFT in Nuclear Physics_, Advances in High Energy Physics ([arXiv:1403.2501](https://arxiv.org/abs/1403.2501))
 
 * Jorge Casalderrey-Solana, Hong Liu, David Mateos, Krishna Rajagopal, Urs Achim Wiedemann,
@@ -241,7 +240,10 @@ Volume 68, January 2013, Pages 55-112 Progress in Particle and Nuclear Physics (
 
 * {#Guijosa16} Alberto Guijosa, _QCD, with Strings Attached_, IJMPE Vol. 25, No. 10 (2016) 1630006 ([arXiv:1611.07472](https://arxiv.org/abs/1611.07472))
 
-* {#ZhouDosch18} Liping Zou, H.G. Dosch, _A very Practical Guide to Light Front Holographic QCD_, ([arXiv:1801.00607](https://arxiv.org/abs/1801.00607))
+See also
+
+* Wikipedia, _[AdS/QCD correspondence](https://en.wikipedia.org/wiki/AdS/QCD_correspondence)_ 
+
 
 The top-down Sakai-Sugimoto model is due to 
 
@@ -303,16 +305,16 @@ The extreme form of bottom-up holographic model building is explored in
 
 where an appropriate [[bulk]] geometry is computer-generated from specified boundary behaviour.
 
-The light-front holography approach is 
+The light-front holography approach is reviewed in
 
-reviewed in [Zhou-Dosch 18](#ZhouDosch18)
+* {#ZhouDosch18} Liping Zou, H.G. Dosch, _A very Practical Guide to Light Front Holographic QCD_, ([arXiv:1801.00607](https://arxiv.org/abs/1801.00607))
 
-Discussion of [[phase transition]]:
+see also
 
-* Varun Sethi, _A study of phases in two flavour holographic QCD_  ([arXiv:1906.10932](https://arxiv.org/abs/1906.10932))
+* Harun Omer, _Embedding LFHQCD in Worldsheet String Theory_ ([arXiv:1909.12866](https://arxiv.org/abs/1909.12866))
 
 
-* Wikipedia, _[AdS/QCD correspondence](https://en.wikipedia.org/wiki/AdS/QCD_correspondence)_ 
+
 
 
 ### Hadron physics
@@ -398,7 +400,6 @@ original articles:
 
 * {#BISY98} A. Brandhuber, N. Itzhaki, J. Sonnenschein, S. Yankielowicz  _Baryons from Supergravity_, JHEP 9807:020,1998 ([arxiv:hep-th/9806158](https://arxiv.org/abs/hep-th/9806158))
 
-* Yosuke Imamura, _Baryon Mass and Phase Transitions in Large N Gauge Theory_, Prog. Theor. Phys. 100 (1998) 1263-1272 ([arxiv:hep-th/9806162](https://arxiv.org/abs/hep-th/9806162))
 
 * Yosuke Imamura, _Supersymmetries and BPS Configurations on Anti-de Sitter Space_, Nucl. Phys. B537:184-202,1999 ([arxiv:hep-th/9807179](https://arxiv.org/abs/hep-th/9807179))
 
@@ -542,6 +543,14 @@ to [[colour superconductivity]]:
 to [[confinement]]/[[quark-gluon plasma|deconfinement]] phase transiton:
 
 * {#LYY18} Meng-Wei Li, Yi Yang, Pei-Hung Yuan  _Imprints of Early Universe on Gravitational Waves from First-Order Phase Transition in QCD_ ([arXiv:1812.09676](https://arxiv.org/abs/1812.09676))
+
+See also
+
+* Yosuke Imamura, _Baryon Mass and Phase Transitions in Large N Gauge Theory_, Prog. Theor. Phys. 100 (1998) 1263-1272 ([arxiv:hep-th/9806162](https://arxiv.org/abs/hep-th/9806162))
+
+
+* Varun Sethi, _A study of phases in two flavour holographic QCD_  ([arXiv:1906.10932](https://arxiv.org/abs/1906.10932))
+
 
 [[!redirects AdS-QCD correspondences]]
 
