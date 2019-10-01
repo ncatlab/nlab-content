@@ -63,7 +63,7 @@ London Math. Soc. Lecture Notes Series 330 ([pdf](http://www.maths.ed.ac.uk/~aar
 
 * [[Z. Škoda]], _Noncommutative localization in noncommutative geometry_, in (NLOC, above) pp. 220--313, [math.QA/0403276](http://arxiv.org/abs/math.QA/0403276)
 
-* [[Andrew Ranicki]], _Noncommutative localization in algebra and topology_, talk at Knot theory meeting, 2008, slides [pdf](http://www.maths.ed.ac.uk/~aar/slides/heidel2.pdf); _Noncommutative localization_, Pierre Vogel 65th birthday conference, Paris, 27 October 2010, [slides pdf](http://www.maths.ed.ac.uk/~aar/slides/vogel.pdf)
+* [[Andrew Ranicki]], _Noncommutative localization in algebra and topology_, talk at Knot theory meeting, 2008, slides [pdf](http://www.maths.ed.ac.uk/~aar/slides/heidel2.pdf); _Noncommutative localization_, [[Pierre Vogel]] 65th birthday conference, Paris, 27 October 2010, [slides pdf](http://www.maths.ed.ac.uk/~aar/slides/vogel.pdf)
 
 
 One can also look at localization with inverses just from one side:
@@ -72,7 +72,7 @@ One can also look at localization with inverses just from one side:
 
 Universal localization of [[group rings]] is discussed in
 
-* [[M. Farber]], [[P. Vogel]], _The Cohn locaization of the free group ring_, Math. Proc.  Camb. Phil. Soc. (1992) 111, 433  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/fv.pdf))
+* [[M. Farber]], [[Pierre Vogel]], _The Cohn locaization of the free group ring_, Math. Proc.  Camb. Phil. Soc. (1992) 111, 433  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/fv.pdf))
 
 
 [[!redirects Cohn localization]]
