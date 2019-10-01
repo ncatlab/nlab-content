@@ -323,6 +323,12 @@ On this [[real vector space]], consider the linear [[equivalence relation]]  $\s
 \]
 
 
+<center>
+<img src="https://ncatlab.org/nlab/files/GraphComplexSignsFromOrientationReversal.jpg" width="400">
+</center>
+
+
+
 and
 
 
@@ -389,13 +395,10 @@ For $\Gamma$ any graph, we write
 
 for the [[equivalence class]] of the element in this [[real vector space|real]] [[graded vector space]] that it represents. 
 
-If no confusion may arise, we will still refer to this equivalence class $[\Gamma]$ as a _graph_.
+When there is not risk of confusion, we will still refer to this equivalence class $[\Gamma]$ as a _graph_.
 
 =--
 
-<center>
-<img src="https://ncatlab.org/nlab/files/GraphComplexSignsFromOrientationReversal.jpg" width="400">
-</center>
 
 
 A further [[quotient space]] $Graphs_n(\mathbb{R}^3)$ of $widehat Graphs_n(\mathbb{R}^3)$ (eq:VectorSpaceOfGraphsWithSignRulesImposed) will underly the actual graph complex [below](#TheGraphComplex).
@@ -683,6 +686,85 @@ $$
 
 ([Lambrechts-Volić 14, (84) ](#LambrechtsVolic14))
 
++-- {: .num_example #DifferentialOnLinearGraph}
+###### Example
+**(differential of propagator graph vanishes)**
+
+The differential from Def. \ref{DifferentialOnGraphs}
+vanishes on all graphs without any internal vertices (since these have no contractible edges in the sense of Def. \ref{ContractibleEdges}). 
+In particular it vanishes on the graph for the single [[Chern-Simons propagator]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/DifferentialOnPropagatorGraphVanishes.jpg" width="270">
+</center>
+
+=--
+
++-- {: .num_example #DifferentialOnLinearGraph}
+###### Example
+**(differential on linear graphs)**
+
+The differential of Def. \ref{DifferentialOnGraphs} applied to the linear graph with one internal vertex:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/DifferentialOfSimpleLinearGraphInGraphComplex.jpg" width="700">
+</center>
+
+Here the right hand side vanishes, due to the sign rule (eq:SignFromOrientationReversal).
+
+While this example illustrates the general action of the differential, beware that this particular differential relation will not actually contribute to the graph complex, as the graph on the left is a "vanishing graph" in the sense of Def. \ref{VanishingGraphs} below (since the valence of the internal vertex is $\lt 3$).
+
+
+=--
+
+
+
++-- {: .num_example #ThreeTermRelation}
+###### Example
+**(the "3-term relation")**
+
+The image of the single trivalent internal vertex under the differential from Def. \ref{DifferentialOnGraphs} is as shown in the following:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/DifferentialOfSingleTrivalentInternalVertex.jpg" width="800">
+</center>
+
+
+Under the [[quasi-isomorphism]] (eq:TheQuasiIsomorphism) from the [[graph complex]] to the [[de Rham complex]] on the [[Fulton-MacPherson compactification]] of a [[configuration space of points]], given by sending each [[graph]] to its [[Chern-Simons propagator|Chern-Simons]] [[Feynman amplitude on compactified configuration spaces of points]] ([this Prop.](Fulton-MacPherson+operad#QuasiIsomorphismBetweenGraphComplexAndDeRhamComplexOfFM)), this relation becomes the "3-term relation" ([this Prop.](Fulton-MacPherson+operad#DeRhamCohomologyOfFMCompactification)):
+
+$$
+     \left[g_{i j}\right] \wedge \left[ g_{j k} \right]
+     +
+     \left[g_{j k}\right] \wedge \left[ g_{k i} \right]
+     +
+     \left[g_{k i}\right] \wedge \left[ g_{i j} \right]
+     \;\sim\;
+     0
+$$
+
+satisfied by the [[Chern-Simons propagator]] form
+
+$$
+  \left(
+    g_{i j}
+    \;\in\;
+    \Omega^2_{PA}
+    \Big(
+      Conf_n
+      \big(
+        \mathbb{R}^D 
+      \big)  
+    \Big)
+  \right)
+  \,.
+$$
+
+=--
+
+([Lambrechts-Volić 14, Figure 1 and 2](#LambrechtsVolic14))
+
+
+
 
 +-- {: .num_lemma #DifferentialProperties}
 ###### Lemma
@@ -714,45 +796,6 @@ The [[linear map]] $d$ in Def. \ref{DifferentialOnGraphs} makes the [[graded vec
 =--
 
 ([Lambrechts-Volić 14, Lemmas 6.11 - 6.14](#LambrechtsVolic14))
-
-
-+-- {: .num_example #ThreeTermRelation}
-###### Example
-**(the "3-term relation")**
-
-The image of the single trivalent vertex under the differential from Def. \ref{DifferentialOnGraphs} is as shown in the following:
-
-<center>
-<img src="https://ncatlab.org/nlab/files/GraphComplexThreeTermRelation.jpg" width="800">
-</center>
-
-Under the [[quasi-isomorphism]] (eq:TheQuasiIsomorphism) from the [[graph complex]] to the [[de Rham complex]] on the [[Fulton-MacPherson compactification]] of a [[configuration space of points]] given by sending each [[graph]] to its [[Chern-Simons propagator|Chern-Simons]] [[Feynman amplitude on compactified configuration spaces of points]] ([this Prop.](Fulton-MacPherson+operad#QuasiIsomorphismBetweenGraphComplexAndDeRhamComplexOfFM)) this relation becomes the "3-term relation" ([this Prop.](Fulton-MacPherson+operad#DeRhamCohomologyOfFMCompactification)):
-
-$$
-     \left[g_{i j}\right] \wedge \left[ g_{j k} \right]
-     +
-     \left[g_{j k}\right] \wedge \left[ g_{k i} \right]
-     +
-     \left[g_{k i}\right] \wedge \left[ g_{i j} \right]
-     \;\sim\;
-     0
-$$
-
-satisfied by the [[Chern-Simons propagator]] form
-
-$$
-  \left(
-    g_{i j}
-    \;\in\;
-    \Omega^2\left( FM_n(\mathbb{R}^d)  \right)
-  \right)
-  \,.
-$$
-
-=--
-
-([Lambrechts-Volić 14, Figure 1 and 2](#LambrechtsVolic14))
-
 
 \linebreak
 
