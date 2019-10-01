@@ -29,7 +29,7 @@ In the perturbative [[quantization of 3d Chern-Simons theory]] the CS propagator
 
 ### As a smooth differential form on compactified configuration spaces
 
-The Chern-Simons propagator was re-formulated as a [[Feynman amplitudes on compactified configuration spaces of points|smooth differential form on compactified configuration space]] in [Axelrod-Singer 93, p. 5-6](#AxelrodSinger93). In this specific form its mathematical nature was amplified in [Bott-Cattaneo 97, remark 3.6](#BottCattaneo97) and [Cattaneo-Mnev 10, Remark 11](#CattaneoMnev10). It was suggested that this serves to exhibit its [[Feynman amplitudes]] as exhibiting a [[graph complex]]-model for the [[de Rham cohomology]] of [[configuration spaces of points]] in [Kontsevich 94](#Kontsevich94), which was proven in [Lambrechts-Volic 14](#LambrechtsVolic14). This role of the Chern-Simons propagator is advertized also in [Campos-Idrissi-Lambrechts-Willwacher 18, p. 66](#CamposIdrissiLambrechtsWillwacher18).
+The Chern-Simons propagator was re-formulated as a [[Feynman amplitudes on compactified configuration spaces of points|smooth differential form on compactified configuration space]] in [Axelrod-Singer 93, p. 5-6](#AxelrodSinger93). In this specific form its mathematical nature was amplified in [Bott-Cattaneo 97, remark 3.6](#BottCattaneo97) and [Cattaneo-Mnev 10, Remark 11](#CattaneoMnev10). It was suggested that this serves to exhibit its [[Feynman amplitudes]] as exhibiting a [[graph complex]]-model for the [[de Rham cohomology]] of [[configuration spaces of points]] in [Kontsevich 93](#Kontsevich93), [Kontsevich 94](#Kontsevich94), which was proven in [Lambrechts-Volic 14](#LambrechtsVolic14). This role of the Chern-Simons propagator is advertized also in [Campos-Idrissi-Lambrechts-Willwacher 18, p. 66](#CamposIdrissiLambrechtsWillwacher18).
 
 
 
@@ -49,6 +49,8 @@ Original articles include the following
 * {#BottCattaneo97} [[Raoul Bott]], [[Alberto Cattaneo]], Remark 3.6 in _Integral invariants of 3-manifolds_, J. Diff. Geom., 48 (1998) 91-133 ([arXiv:dg-ga/9710001](https://arxiv.org/abs/dg-ga/9710001))
 
 * {#CattaneoMnev10} [[Alberto Cattaneo]], [[Pavel Mnev]], Remark 11 in _Remarks on Chern-Simons invariants_, Commun.Math.Phys.293:803-836,2010 ([arXiv:0811.2045](https://arxiv.org/abs/0811.2045))
+
+* {#Kontsevich93} [[Maxim Kontsevich]], _Vassiliev's knot invariants_, Advances in Soviet Mathematics, Volume 16, Part 2, 1993 ([pdf](http://pagesperso.ihes.fr/~maxim/TEXTS/VassilievKnot.pdf))
 
 
 * {#Kontsevich94} [[Maxim Kontsevich]], pages 11-12 of _Feynman diagrams and low-dimensional topology_, First European Congress of Mathematics, 1992, Paris, vol. II, Progress in Mathematics __120__, Birkh&#228;user (1994), 97&#8211;121 ([pdf](http://www.ihes.fr/~maxim/TEXTS/Feynman%20%20diagrams%20and%20low-dimensional%20topology.pdf))
