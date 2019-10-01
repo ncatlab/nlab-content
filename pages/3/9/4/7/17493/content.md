@@ -101,7 +101,7 @@ See below for explanations.
 | $\omega^3$                                   | EFA                                        | RCA$_0^*$                              |                                |
 | $\omega^\omega$                              | PRA,I$\Sigma_1$                            | RCA$_0$, WKL$_0$                       | CPRC                           |
 | **Predicative systems**                      |                                            |                                        |                                |
-| $\varepsilon_0=\varphi(1,0)$                 | PA                                         | ACA$_0$                                | EM$_0$                         |
+| $\varepsilon_0=\varphi(1,0)$                 | PA                                         | ACA$_0$, $\Delta_1^1$-CA$_0$, $\Sigma^1_1$-AC$_0$ | EM$_0$              |
 | $\varphi(1,\varepsilon_0)$                   |                                            | ACA                                    |                                |
 | $\varphi(\omega,0)$                          | ID$_1^#$                                   | $\Delta_1^1$-CR                        | EM$_0$+JR                      |
 | $\varphi(\varepsilon_0,0)$                   | $\widehat{\mathrm{ID}}_1$                  | $\Delta_1^1$-CA, $\Sigma^1_1$-AC       | EM$_0$+J, ML$_1$               |
