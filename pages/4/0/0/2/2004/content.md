@@ -134,7 +134,13 @@ of the [[category of presheaves]] on the [[Kleisli category]] along the [[Yoneda
 
 =--
 
-This statement appears as ([Street 72, theorem 14](#Street72)). It seems to go back to ([Linton 69](#Linton69)), see ([Melli&#232;s 10, p. 4](#Mellies10)). ([Street-Walters 78](#StreetWalters78)) show that it holds in any 2-category equipped with a [[Yoneda structure]]
+This statement appears as ([Street 72, theorem 14](#Street72)). It seems to go back to ([Linton 69](#Linton69)), see ([Melli&#232;s 10, p. 4](#Mellies10)). ([Street-Walters 78](#StreetWalters78)) show that it holds in any 2-category equipped with a [[Yoneda structure]].
+
++-- {: .proof}
+###### Sketch of proof
+It is easy to see that the square commutes. To see that it is a pullback, assume that $P:C_T^{op}\to Set$ is a presheaf on the Kleisli category and $A$ is an object of $C$ such that $YA=P\circ F_T^{op}$. Then a $T$-algebra structure $\alpha:TA\to A$ on $A$ 
+is given by $\alpha=P(1_{TA})(1_A)$, where $1_{TA}$ is viewed as a [[Kleisli category#in_terms_of_kleisli_morphisms|Kleisli morphism]] from $TA$ to $A$ in $C_T$.
+=--
 
 ### By lax 2-limits
 
