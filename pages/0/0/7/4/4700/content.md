@@ -10,8 +10,6 @@
 =--
 =--
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -22,11 +20,11 @@
 A _graph complex_ is a certain [[cochain complex]] [[linear span|spanned]] by [[equivalence classes]] of certain labeled [[directed graphs]], whose [[differential]] encodes the operation of contracting away [[edges]] in a graph.
 
 A concrete implementation of this general idea 
-originally sketched in [Kontsevich 94 (p. 11-12)](#Kontsevich94) and worked out in [Lambrechts-Volić 14](#LambrechtsVolic14)
+originally sketched in [Kontsevich 94 (p. 11-12)](#Kontsevich94), and worked out in [Lambrechts-Volić 14](#LambrechtsVolic14)
 is often referred to by default as _the graph complex_ and yields a [[real numbers|real]] [[cochain complex]], and in fact a [[differential graded-commutative algebra]]
 
 $$
-  Graphs_n(D)
+  Graphs_n\big( \mathbb{R}^D \big)
   \;\in\;
   dgcAlg_{\mathbb{R}}
   \phantom{AA}
@@ -54,7 +52,7 @@ $$
 
 of (the [[Fulton-MacPherson compactification]] of) the [[configuration space of points]] $Conf_n(\mathbb{R}^D)$ for $n$ points in $D$-dimensional [[Euclidean space]].
 
-The [[chain map]] which exhibits this [[quasi-isomorphism]] is essentially given by sending each graph to the corresponding [[Feynman amplitude]] in [[free field theory|free]] [[Chern-Simons theory|Chern-Simons]]/[[AKSZ theory]] on $X$, by regarding [[Feynman amplitudes as differential forms on configuration spaces of points]]:
+The [[chain map]] which exhibits this [[quasi-isomorphism]] is essentially given by sending each graph to the corresponding [[Feynman amplitude]] in [[free field theory|free]] [[Chern-Simons theory|Chern-Simons]]/[[AKSZ theory]] on $X$, by regarding [[Feynman amplitudes as differential forms on configuration spaces of points]] ([Kontsevich 93, 5](#Kontsevich93)):
 
 
 
@@ -134,14 +132,100 @@ This was originally sketched in [Kontsevich 94, p. 11-12](#Kontsevich94). A deta
  {#GraphComplex}
 
 
+In general, the definition of a graph complex depends on a choice of [[smooth manifold]] $\Sigma$, possibly [[manifold with boundary|with boundary]], namely such that the graph complex $Graphs(\Sigma)$ provides a model for the cohomoloy of the [[configuration space of points]] in $\Sigma$
 
-A clean definition of the graph complex for points in [[Euclidean space]] $\mathbb{R}^D$ is given in [Lambrechts-Volić 14, Section 6](#LambrechtsVolic14). For definiteness, we here state the definition for $D = 3$, this is Def. \ref{GraphComplexDgcAlgebra} below.
+$$
+  Graphs\big( \Sigma \big)
+  \leftrightarrow
+  \Omega^\bullet\big(  Conf(Sigma) \big)
+  \,.
+$$
 
-(But for general $D \in \mathbb{N}$ the definition is essentially the same, differing only in the degrees assigned to graphs, and in the signs appearing in the equivalence relation between graphs and in the definition of the differential. For even dimensions these signs depend on a linear order on the set of edges instead of fthe set of vertices.)
+The [[configuration spaces of points]] are naturally [[filtering|filtered]] by [[subspaces]] of a fixed number $n \in \mathbb{N}$ of points. In the graph complexes this correpsonds to graphs with a fixed number $n$ of _external_ vertices:
+
+
+$$
+  \underset{
+    \mathclap{
+    \color{blue}
+    \array{
+       \phantom{A}
+       \\
+       \text{graphs with}
+       \\
+        n\;\text{external vertices}
+    }
+    }
+  }{
+    Graphs_n\big( \Sigma\big)
+  }
+  \;\;\;\leftrightarrow\;\;\;
+  \Omega^\bullet\big(
+     \underset{
+       \mathclap{
+       \color{blue}
+       \array{
+         \phantom{A}
+         \\
+         \text{configuration space}
+         \\
+         \text{of}\;n\;\text{points}
+       }
+       }
+     }{  
+       \underbrace{
+         Conf_n(Sigma) 
+       }
+     }
+  \big)
+  \,.
+$$
+
+The full graph complexes/configuration spaces are just the [[direct sum]]/[[union]] of those for fixed number $n$ of external vertices/points, hence one may focus attention on the latter.
+
+The precise form of these relations is the content of the theorems discussed below. Before stating this in detail, we make some general remarks on how the situation depends on $\Sigma$:
+
+### Overview: (Non-)Dependence on the manifold $\Sigma$
+ {#NonDependenceOnSigma}
+
+Beware that the graphs $[\Gamma] \in Graphs_n(\Sigma)$ themselves are _not_ going to carry an embedding into the manifold $\Sigma$, they are just abstract graphs. But the construction of the above correspondence to the cohomology of the configuration space of points is given by associating with a graph the corresponding [[correlator as differential form on configuration space of points|correlator]] in a [[Chern-Simons theory|Chern-Simons]]/[[AKSZ theory|AKSZ]]-type [[perturbative quantum field theory]] on the space $\Sigma$.
+
+As a consequence, the dependence of the graph complexes themselves on $\Sigma$ is mild:
+
+In particular, in the case that $\Sigma = \mathbb{R}^D$ is a [[Euclidean space]], the corresponding graph complexes $Graphs\big( \mathbb{R}^D \big)$ depend essentially only on whether the [[dimension]] $D$ is [[even number|even]] or [[odd number|odd]]. Concretely, the degree of a graph in the [[graded vector space]] $Graphs_n(\mathbb{R}^D)$ is
+
+$$
+  deg\big( [\Gamma]\big) 
+  \;=\;
+  (D-1) \cdot \#\!Edges - D \cdot \#\!Vertices_{int}
+  \,,
+$$
+
+hence each [[edge]] contributes a degree $D-1$ and each internal vertex a degree $-D$. As a consequence,  due to the [[signs in supergeometry|sign rule]] in the [[graded-commutative algebra]] [[structure]] on $Graphs_n(\mathbb{R}^D)$ we have the following parities
+
+|   $\Sigma = \mathbb{R}^D$ | edges | internal vertices |
+|-------------------|-------|-------------------|
+| $D$ even |  odd  | even |
+| $D$ odd  | even | odd | 
+
+and, up to an absolute _even_ change of grading, the graph complexes $Graphs_n(\mathbb{R}^D)$ depend only on these parities, hence depend only on whether $D$ is [[even number|even]] or [[odd number|odd]].
+ 
+Finally, beware that many authors consider the case where $\Sigma = \mathbb{R}^D$ by default, and don't mention a dependence on a choice of manifold, but just on a natural number $D$. This natural number is the often denoted $n$, whereas our number $n$ of external vertices is often implicitly taken to be 0. 
+
+For instance:
+
+* the "graph complex with anti-symmetric set of edges" of [Bar-Natan & McKay, Def. 3.3](#BarNatanMcKay) is denoted $GC_2$ in [Willwacher 10](#Willwacher10) and is our $Graphs_0\big(\mathbb{R}^2\big)$;
+
+* similarly $GC_3$ in [Koroshkin-Willwacher-Živković 14](#KoroshkinWillwacherZivkovic14) is our $Graphs_0\big( \mathbb{R}^3\big)$.
 
 \linebreak
 
-### Graphs
+### $Graphs_n\big( \mathbb{R}^3 \big)$
+
+We state the definition of the graph complexes $Graphs_n\big( \mathbb{R}^3\big)$ (Def. \ref{GraphComplexDgcAlgebra} below) associated with [[Euclidean space]] of [[dimension]] 3, following [Lambrechts-Volić 14, Section 6](#LambrechtsVolic14).
+
+
+#### Graphs
 
 +-- {: .num_defn #Graphs}
 ###### Definition
@@ -437,7 +521,7 @@ $$
 
 \linebreak
 
-### The algebra of graphs
+#### The algebra of graphs
 
 +-- {: .num_defn #WedgeProductOfGraphs}
 ###### Definition
@@ -541,7 +625,7 @@ In fact this graded-graded commutative algebra is [[free construction]] on
 \linebreak
 
 
-### The differential on graphs
+#### The differential on graphs
  {#TheDifferential}
 
 The [[differential]] on the graded vector space of equivalence classes of graphs (eq:VectorSpaceOfGraphsWithSignRulesImposed) is defined in terms of contraction of certain edges in the graph (Def. \ref{ContractionOfAnEdge} below). For this we first say which edges count as _contractible_ (Def. \ref{ContractibleEdges}) and which sign is picked up when contracting them (Def. \ref{SignOfAContractibleEdge}):
@@ -812,7 +896,7 @@ The [[linear map]] $d$ in Def. \ref{DifferentialOnGraphs} makes the [[graded vec
 \linebreak
 
 
-### The graph complex
+#### The graph complex
  {#TheGraphComplex}
 
 +-- {: .num_defn #VanishingGraphs}
@@ -883,6 +967,10 @@ of the [[differential graded-commutative algebra]] of all graphs (Lemma \ref{Dif
 
 \linebreak
 
+### $Graphs_n\big(  \mathbb{R}^2 \big)$
+
+(...)
+
 ## Properties
 
 ### General properties
@@ -896,7 +984,7 @@ The structure of a graph complex reflects a structure in the [[Chevalley-Eilenbe
 
 ### $L_\infty$-algebra structure
 
-The Graph complex carries the structure of a [[dg-Lie algebra]] ([[L-infinity algebra]]) which acts on the space of choices of [[formal deformation quantization]] of [[Poisson manifolds]]. Its degree-0 [[chain homology]] is the [[Lie algebra]] of the [[Grothendieck-Teichmüller group]]. 
+The Graph complex carries the structure of a [[dg-Lie algebra]] ([[L-∞ algebra]]) which acts on the space of choices of [[formal deformation quantization]] of [[Poisson manifolds]]. Its degree-0 [[chain homology]] is the [[Lie algebra]] of the [[Grothendieck-Teichmüller group]]. 
 
 The homology in negative degree vanishes and that in positive degree is still unknown, but computer experiements show that at least the third cohomology contains nontrivial elements.
 
@@ -914,7 +1002,21 @@ See at _[Grothendieck-Teichm&#252;ller group -- relation to the graph complex](G
 ### Relation to configuration spaces
  {#RelationToConfigurationSpaces}
 
-The system of graph complexes is [[quasi-isomorphism|quasi-isomorphic]] to the [[real cohomology]] of [[configuration spaces of points]] ([Campos-Willwacher 16, theorem 1](#CamposWillwacher16)).
+The system of graph complexes is [[quasi-isomorphism|quasi-isomorphic]] to the [[real cohomology]] of [[configuration spaces of points]] 
+
+([Lambrechts-Volić 14](#LambrechtsVolic14))
+
+### Cohomology
+
+on the [[cochain cohomology]] of the graph complexes
+
+* $H^{\bullet \lt 0}\big(  Graphs_0(\mathbb{R}^2) \big) = 0$
+
+* $H^{0}\big(  Graphs_0(\mathbb{R}^2) \big) = \mathfrak{grt}_1$
+
+([Willwacher 10, Theorem 1.1](#Willwacher10))
+
+
 
 ## Examples 
 
@@ -952,9 +1054,13 @@ There are generalizations for $d$-algebras (algebras over little disc operad in 
 
 ## References
 
-Various versions of the definition of the graph complex were introduced in
+### General
+
+The rough definition of the graph complex was introduced in
 
 * {#Kontsevich94} [[Maxim Kontsevich]], pages 11-12 of _Feynman diagrams and low-dimensional topology_, First European Congress of Mathematics, 1992, Paris, vol. II, Progress in Mathematics __120__, Birkh&#228;user (1994), 97&#8211;121 ([pdf](http://www.ihes.fr/~maxim/TEXTS/Feynman%20%20diagrams%20and%20low-dimensional%20topology.pdf))
+
+* {#Kontsevich93} [[Maxim Kontsevich]], _Vassiliev's knot invariants_, Advances in Soviet Mathematics, Volume 16, Part 2, 1993 ([pdf](http://pagesperso.ihes.fr/~maxim/TEXTS/VassilievKnot.pdf))
 
 * {#Kontsevich99b} [[Maxim Kontsevich]], around Def. 15 and Lemma 3 in _Operads and Motives in Deformation Quantization_, Lett. Math. Phys. 48 35-72, 1999 ([arXiv:math/9904055](https://arxiv.org/abs/math/9904055))
 
@@ -969,7 +1075,6 @@ further review:
 
 Further discussion of the graph complex as a model for the [[de Rham cohomology]] of  [[configuration spaces of points]] is in
 
-* {#Willwacher10} [[Thomas Willwacher]], _M. Kontsevich's graph complex and the Grothendieck-Teichmueller Lie algebra_, Invent. math. (2015) 200: 671 ([arxiv:1009.1654](http://arxiv.org/abs/1009.1654))
 
 * Najib Idrissi, _The Lambrechts-Stanley Model of Configuration Spaces_, Invent. Math, 2018 ([arXiv:1608.08054](https://arxiv.org/abs/1608.08054), [doi:10.1007/s00222-018-0842-9](https://dx.doi.org/10.1007/s00222-018-0842-9))
 
@@ -1020,6 +1125,34 @@ The following survey has discussion of context between the graph complex and [[B
 * [[Alastair Hamilton]], [[Andrey Lazarev]], _Graph cohomology classes in the [[BV-BRST formalism|Batalin-Vilkovisky formalism]]_, J.Geom.Phys. __59__:555-575, 2009, [arxiv/0701825](http://arxiv.org/abs/math/0701825)
 
 
+### Cohomology
+ {#ReferencesCohomology}
+
+On the [[cochain cohomology]] of [[graph complexes]]:
+
+Concrete examples of cohomology classes in $Graphs(\mathbb{R}^2)$ by [[computer experiment]]:
+
+* {#BarNatanMcKay} [[Dror Bar-Natan]], [[Brendan McKay]], _Graph cohomology -- An overview and some computations_ ([[BarNatanMcKayGraphCohomology.pdf:file]])
+
+
+$H^0\big( Graphs_0(\mathbb{R}^2) \big)$ is the [[Lie algebra]] of the [[Grothendieck-Teichmüller group]]:
+
+* {#Willwacher10} [[Thomas Willwacher]], _M. Kontsevich's graph complex and the Grothendieck-Teichmueller Lie algebra_, Invent. math. (2015) 200: 671 ([arxiv:1009.1654](http://arxiv.org/abs/1009.1654))
+
+On $H^3\big( Graphs_0(\mathbb{R}^3) \big)$ and [[Vassiliev knot invariants]]:
+
+
+* Jan Kneissler, _On spaces of connected graphs I: Properties of Ladders_, Proc. Internat. Conf. "Knots in Hellas '98", Series on Knots and Everything, vol. 24 (2000), 252-273 ([arXiv:math/0301018](https://arxiv.org/abs/math/0301018))
+
+* Jan Kneissler, _On spaces of connected graphs II: Relations in the algebra Lambda_, Jour. of Knot Theory and its Ramif. vol. 10, no. 5 (2001), 667-674 ([arXiv:math/0301019](https://arxiv.org/abs/math/0301019))
+
+* Jan Kneissler, _On spaces of connected graphs III: The Ladder Filtration_, Jour. of Knot Theory and its Ramif. vol. 10, no. 5 (2001), 675-686 ([arXiv:math/0301020](https://arxiv.org/abs/math/0301020))
+
+* [[Pierre Vogel]], _Algebraic structures on modules of diagrams_, Journal of Pure and Applied Algebra Volume 215, Issue 6, June 2011, Pages 1292-1339 ([pdf](https://webusers.imj-prg.fr/~pierre.vogel/diagrams.pdf))
+
+More:
+
+* {#KoroshkinWillwacherZivkovic14} Anton Khoroshkin, [[Thomas Willwacher]], Marko Živković, _Differentials on graph complexes_ ([arXiv:1411.2369](https://arxiv.org/abs/1411.2369))
 
 
 [[!redirects graph complexes]]
