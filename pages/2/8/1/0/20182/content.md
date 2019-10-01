@@ -106,3 +106,4 @@ based on
 [[!redirects rational models of mapping spaces]]
 
 [[!redirects Sullivan model mapping space]]
+[[!redirects Sullivan model of mapping spaces]]
