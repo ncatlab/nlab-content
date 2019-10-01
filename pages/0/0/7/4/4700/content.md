@@ -164,7 +164,7 @@ In the following, by a **[[graph]]** we mean specifically:
 
    of "external" and "internal" vertices.
 
-1. a [[linear order]] on $V$, such that $V_{ext} \lt V_{int}$.
+1. a [[linear order]] on $Vert$, such that $Vert_{ext} \lt Vert_{int}$.
 
 Hence both $Vert_{ext}$ and $Vert_{int}$ are [[linear orders]], and 
 
@@ -196,7 +196,7 @@ which respects all [[structure]], hence the [[source]] and [[target]] maps, the 
 
 ([Lambrechts-Volić 14, Def. 6.1](#LambrechtsVolic14))
 
-We write $\#\! Vert \coloneqq \left\vert V \right\vert$ for the [[cardinality]] of the sets of vertices, etc.
+We write $\#\! Vert \coloneqq \left\vert Vert \right\vert$ for the [[cardinality]] of the sets of vertices, etc.
 
 
 +-- {: .num_defn #DenotationForLinearOrderOnVertices}
@@ -401,7 +401,7 @@ When there is not risk of confusion, we will still refer to this equivalence cla
 
 
 
-A further [[quotient space]] $Graphs_n(\mathbb{R}^3)$ of $widehat Graphs_n(\mathbb{R}^3)$ (eq:VectorSpaceOfGraphsWithSignRulesImposed) will underly the actual graph complex [below](#TheGraphComplex).
+A further [[quotient space]] $Graphs_n(\mathbb{R}^3)$ of $\widehat Graphs_n(\mathbb{R}^3)$ (eq:VectorSpaceOfGraphsWithSignRulesImposed) will underly the actual graph complex [below](#TheGraphComplex).
 
 
 
