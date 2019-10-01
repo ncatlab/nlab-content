@@ -81,9 +81,14 @@ Conversely, one can ask which functions on chord diagrams come from finite type 
 
 * [[V. A. Vassiliev]], _Complements of discriminants of smooth maps: topology and applications_, Amer. Math. Soc. 1992. 
 
+* [[Maxim Kontsevich]], _Vassiliev's knot invariants_, Advances in Soviet Mathematics, Volume 16, Part 2, 1993 ([pdf](http://pagesperso.ihes.fr/~maxim/TEXTS/VassilievKnot.pdf))
+
+  (via [[Chern-Simons propagators]] assigned via the [[graph complex]])
+
+
 * {#BarNatan95} [[Dror Bar-Natan]], _On the Vassiliev knot invariants_, Topology Volume 34, Issue 2, April 1995, Pages 423-472 ([web](http://www.math.toronto.edu/~drorbn/papers/OnVassiliev/), <a href="https://doi.org/10.1016/0040-9383(95)93237-2">doi:10.1016/0040-9383(95)93237-2</a>)
 
-* [[Maxim Kontsevich]], _Vassiliev's knot invariants_, Advances in Soviet Mathematics, Volume 16, Part 2, 1993 ([pdf](http://pagesperso.ihes.fr/~maxim/TEXTS/VassilievKnot.pdf))
+
 
 * S. Chmutov, S. Duzhin, J. Mostovoy, _Introduction to Vassiliev knot invariants_, [arxiv/1103.5628](http://arxiv.org/abs/1103.5628)
 
