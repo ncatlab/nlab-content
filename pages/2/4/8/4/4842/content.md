@@ -10,12 +10,12 @@
 =--
 
 # Vassiliev knot invariants
-* tic
+* table of contents
 {: toc}
 
 ## Idea ##
 
-The space of knots in $\mathbb{R}^3$ (or $S^3$) is an open submanifold of the [[smooth loop space]].  Knot invariants are locally constant functions on this manifold.  The complement of the space of knots is called the [[discriminant]] and consists of all [[singular knots]].
+The space of [[knots]] in the [[Euclidean space]] $\mathbb{R}^3$ (or in the [[3-sphere]] $S^3$) is an [[open subset|open]] [[submanifold]] of the [[smooth loop space]].  [[knot invariant|Knot invariants]] are [[locally constant functions]] on this manifold.  The [[complement]] of the space of knots is called the [[discriminant]] and consists of all [[singular knots]].
 
 If we consider those singular knots with only a finite number of double points, we can build a [[cubical complex]] from this data.  The vertices in the complex are labelled by the isotopy classes of knots, and more generally the $n$-cubes by the isotopy classes of singular knots with $n$ double points (and a few other technical pieces of information).  The boundary operator resolves a double crossing either upwards or downwards according to the orientation at the crossing.
 
@@ -53,7 +53,7 @@ The importance of this construction for singular knots comes from the fact that 
 Let $v$ be a Vassiliev invariant of degree $\le n$.  Then the value of $v$ on a singular knot with $n$ distinct double points depends only on the chord diagram of the knot, and not on the knot itself.
 =-- 
 
-Conversely, one can ask which functions on chord diagrams come from finite type invariants.  The answer is that Vassiliev invariants (of degree $\le n$) can essentially be identified with _weight systems_ (of order $n$), which are functions on chord diagrams (of order $n$) satisfying two properties called the "1-term relation" (or "framing independence") and the "4-term relation": see Theorem 1 of [Bar-Natan](#Bar-Natan) (or Theorem 6.2.13 of [Lando & Zvonkin](#LandoZvonkin)).
+Conversely, one can ask which functions on chord diagrams come from finite type invariants.  The answer is that Vassiliev invariants (of degree $\le n$) can essentially be identified with _weight systems_ (of order $n$), which are functions on chord diagrams (of order $n$) satisfying two properties called the "1-term relation" (or "framing independence") and the "4-term relation": see Theorem 1 of [Bar-Natan 95](#BarNatan95) (or Theorem 6.2.13 of [Lando & Zvonkin](#LandoZvonkin)).
 
 ## Examples ##
 
@@ -66,13 +66,19 @@ Conversely, one can ask which functions on chord diagrams come from finite type 
 * [[Kontsevich integral]]
 * [[singularity]] 
 
-## References ##
+
+
+## References 
 
 
 * [[V. A. Vassiliev]], _Complements of discriminants of smooth maps: topology and applications_, Amer. Math. Soc. 1992. 
-* {#Bar-Natan} [[Dror Bar-Natan]], On the Vassiliev knot invariants, _Topology_ 34 (1995), 423-472. ([html](http://www.math.toronto.edu/~drorbn/papers/OnVassiliev/))
+
+* {#BarNatan95} [[Dror Bar-Natan]], _On the Vassiliev knot invariants_, Topology Volume 34, Issue 2, April 1995, Pages 423-472 ([web](http://www.math.toronto.edu/~drorbn/papers/OnVassiliev/), <a href="https://doi.org/10.1016/0040-9383(95)93237-2">doi:10.1016/0040-9383(95)93237-2</a>)
+
 * There is a huge online bibliography on Vassiliev invariants maintained by [[Dror Bar-Natan]] and Sergei Duzhin [here](http://www.pdmi.ras.ru/~duzhin/VasBib/Long).
+
 * S. Chmutov, S. Duzhin, J. Mostovoy, _Introduction to Vassiliev knot invariants_, [arxiv/1103.5628](http://arxiv.org/abs/1103.5628)
+
 * Wolframworld [Vassiliev invariant](http://mathworld.wolfram.com/VassilievInvariant.html)
 
 See also Chapter 6 of
@@ -80,6 +86,7 @@ See also Chapter 6 of
 * {#LandoZvonkin} Sergei K. Lando and Alexander K. Zvonkin, _Graphs on Surfaces and Their Applications_, Springer, 2004.
 
 category: geometry, topology
+
 [[!redirects Vassiliev knot invariant]]
 [[!redirects Vassiliev invariants]]
 [[!redirects Vassiliev finite type invariants]]
