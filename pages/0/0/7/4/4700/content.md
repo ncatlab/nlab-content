@@ -1115,7 +1115,10 @@ Review is in [Volić 13, Section 4](#Volic13).
 
 
 
-Various authors discuss Vassiliev invariants in terms of graphs subject to the "STU-relation" and the "HKX-relation". 
+Various authors discuss Vassiliev invariants in terms of graphs subject to the "STU-relation" 
+ ([Kontsevich 93, Figure 8](#Kontsevich93)
+[Bar-Natan 95, Figure 3](Vassiliev+invariant#BarNatan95))
+and the "IHX-relation"  which it implies ([Bar-Natan 95, Theorem 6](Vassiliev+invariant#BarNatan95))
 
 
 <center>
