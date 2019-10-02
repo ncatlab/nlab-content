@@ -321,6 +321,8 @@ identification on the bottom right mapping space out of the point space.
 
 * [[C-k topology]]
 
+* [[space of knots]]
+
 ##References
 
 * Ralph H. Fox, _On Topologies for Function Spaces_
