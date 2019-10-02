@@ -11,6 +11,15 @@ On [[deformation quantization]]:
 
 * [[Alberto Cattaneo]], _From topological field theory to deformation quantization and reduction_, ICM 2006. ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/icm.pdf))
 
+On higher order [[Vassiliev invariants]] as [[Chern-Simons theory]]-[[correlators]], hence as [[configuration space of points|configuration space]]-[[integrals]] of [[wedge products]] of [[Chern-Simons propagators]] assigned to [[edges]] of [[Feynman diagrams]] in the [[graph complex]]:
+
+
+* [[Alberto Cattaneo]], Paolo Cotta-Ramusino, Riccardo Longoni, _Configuration spaces and Vassiliev classes in any dimension_, Algebr. Geom. Topol. 2 (2002) 949-1000 ([arXiv:math/9910139](https://arxiv.org/abs/math/9910139))
+
+* [[Alberto Cattaneo]], Paolo Cotta-Ramusino, Riccardo Longoni, _Algebraic structures on graph cohomology_, Journal of Knot Theory and Its Ramifications, Vol. 14, No. 5 (2005) 627-640 ([arXiv:math/0307218](https://arxiv.org/abs/math/0307218))
+
+
+
 
 
 On the [[Poisson sigma-model]]:
