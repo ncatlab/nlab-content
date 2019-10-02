@@ -147,6 +147,10 @@ with [[Spin(12)]] ("[[SO(12)]]") [[gauge group]]:
 
 * Cheng-Wei Chiang, Takaaki Nomura, Joe Sato, _Gauge-Higgs unification models in six dimensions with $S^2/\mathbb{Z}_2$ extra space and GUT gauge symmetry_ ([arXiv:1109.5835](https://arxiv.org/abs/1109.5835))
 
+### Observation
+
+* Indrani Banerjee, Sumanta Chakraborty, Soumitra SenGupta, _Silhouette of M87${}^*$: A new window to peek into the world of hidden dimensions_ ([arXiv:1909.09385](https://arxiv.org/abs/1909.09385))
+
 
 [[!redirects Randall-Sundrum models]]
 
