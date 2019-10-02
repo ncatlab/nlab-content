@@ -273,7 +273,7 @@ A detailed discussion of $E_k$ in the context of [[(∞,1)-operads]] is in
 
 An elementary computation of the [[homology]] of the little $n$-disk operad in terms of _solar system calculus_ is in
 
-* Dev Sinha, _The homology of the little disks operad_ ([arXiv:math/0610236](http://arxiv.org/abs/math/0610236))
+* [[Dev Sinha]], _The homology of the little disks operad_ ([arXiv:math/0610236](http://arxiv.org/abs/math/0610236))
 
 For the relation to Poisson Operads see
 
