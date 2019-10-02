@@ -156,3 +156,4 @@ A systematic development of [[Euclidean field theory|Euclidean]] [[perturbative 
 [[!redirects Feynman amplitude on compactified configuration spaces of points]]
 [[!redirects Feynman amplitudes on compactified configuration spaces of points]]
 
+[[!redirects propagators regarded as differential forms on configuration spaces]]
