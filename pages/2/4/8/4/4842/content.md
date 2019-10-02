@@ -103,6 +103,17 @@ See also
 
 * Mathworld, _[Vassiliev invariant](http://mathworld.wolfram.com/VassilievInvariant.html)_
 
+Concrete computations:
+
+* Jan Kneissler, _On spaces of connected graphs I: Properties of Ladders_, Proc. Internat. Conf. "Knots in Hellas '98", Series on Knots and Everything, vol. 24 (2000), 252-273 ([arXiv:math/0301018](https://arxiv.org/abs/math/0301018))
+
+* Jan Kneissler, _On spaces of connected graphs II: Relations in the algebra Lambda_, Jour. of Knot Theory and its Ramif. vol. 10, no. 5 (2001), 667-674 ([arXiv:math/0301019](https://arxiv.org/abs/math/0301019))
+
+* Jan Kneissler, _On spaces of connected graphs III: The Ladder Filtration_, Jour. of Knot Theory and its Ramif. vol. 10, no. 5 (2001), 675-686 ([arXiv:math/0301020](https://arxiv.org/abs/math/0301020))
+
+* [[Pierre Vogel]], _Algebraic structures on modules of diagrams_, Journal of Pure and Applied Algebra Volume 215, Issue 6, June 2011, Pages 1292-1339 ([pdf](https://webusers.imj-prg.fr/~pierre.vogel/diagrams.pdf))
+
+
 
 ### As Chern-Simons amplitudes
 
