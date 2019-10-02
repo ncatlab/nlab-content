@@ -186,7 +186,7 @@ The precise form of these relations is the content of the theorems discussed bel
 ### Overview: (Non-)Dependence on the manifold $\Sigma$
  {#NonDependenceOnSigma}
 
-Beware that the graphs $[\Gamma] \in Graphs_n(\Sigma)$ themselves are _not_ going to carry an embedding into the manifold $\Sigma$, they are just abstract graphs. But the construction of the above correspondence to the cohomology of the configuration space of points is given by associating with a graph the corresponding [[correlator as differential form on configuration space of points|correlator]] in a [[Chern-Simons theory|Chern-Simons]]/[[AKSZ theory|AKSZ]]-type [[perturbative quantum field theory]] on the space $\Sigma$.
+Beware that the graphs $[\Gamma] \in Graphs_n(\Sigma)$ themselves are _not_ going to carry an embedding into the manifold $\Sigma$, they are just abstract graphs. But the construction of the above correspondence to the cohomology of the configuration space of points is given by associating with a graph the corresponding [[correlator as differential form on configuration space of points|correlator]] in a [[Chern-Simons theory|Chern-Simons]] [[perturbative quantum field theory]] on the space $\Sigma$.
 
 As a consequence, the dependence of the graph complexes themselves on $\Sigma$ is mild:
 
@@ -216,7 +216,7 @@ For instance:
 
 * similarly $GC_3$ in [Koroshkin-Willwacher-Živković 14](#KoroshkinWillwacherZivkovic14) is our $Graphs_0\big( \mathbb{R}^3\big)$.
 
-> something amiss here... there must be external vertices .. check
+(While the cohomology of $Graphs_0(\Sigma)$ -- being equivalent to that of $Conf_0(\Sigma) \simeq \ast$ -- is trivial, these authors consider further filtrations which have non-trivial cohomology in filtration stages, see [Bar-Natan & McKay, Def. 3.6](#BarNatanMcKay)).
 
 \linebreak
 
