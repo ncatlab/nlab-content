@@ -425,7 +425,7 @@ Discussion of observational/[[experiment|experimental]] test of brane world mode
 by analysis of the [[event horizon]] of the [[black hole]] in the center of the [[galaxy]] [[Messier 87]]:
 
 
-* Indrani Banerjee, Sumanta Chakraborty, Soumitra SenGupta, _What shadow of the black hole in M87 tells us about the extra dimensions?_ ([arXiv:1909.09385](https://arxiv.org/abs/1909.09385))
+* Indrani Banerjee, Sumanta Chakraborty, Soumitra SenGupta, _Silhouette of M87${}^*$: A new window to peek into the world of hidden dimensions_ ([arXiv:1909.09385](https://arxiv.org/abs/1909.09385))
 
 [[!redirects intersecting D-brane models]]
 
