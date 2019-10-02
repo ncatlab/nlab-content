@@ -104,14 +104,19 @@ See also
 * Mathworld, _[Vassiliev invariant](http://mathworld.wolfram.com/VassilievInvariant.html)_
 
 
-### Via Chern-Simons amplitudes and graph complex
+### As Chern-Simons amplitudes
 
-Discussion in term of [[Chern-Simons propagators]] assigned to diagrams in the [[graph complex]]:
+Discussion of higher order Vassiliev invariants as [[Chern-Simons theory]]-[[correlators]], hence as [[configuration space of points|configuration space]]-[[integrals]] of [[wedge products]] of [[Chern-Simons propagators]] assigned to [[edges]] of [[Feynman diagrams]] in the [[graph complex]]:
 
 * [Kontsevich 93, Section 5](#Kontsevich93)
 
-* {#Volic13} [[Ismar Volić]], Section 4 of: _Configuration space integrals and the topology
-of knot and link spaces_ ([arxiv:1310.7224](https://arxiv.org/abs/1310.7224))
+* [[Alberto Cattaneo]], Paolo Cotta-Ramusino, Riccardo Longoni, _Configuration spaces and Vassiliev classes in any dimension_, Algebr. Geom. Topol. 2 (2002) 949-1000 ([arXiv:math/9910139](https://arxiv.org/abs/math/9910139))
+
+* [[Alberto Cattaneo]], Paolo Cotta-Ramusino, Riccardo Longoni, _Algebraic structures on graph cohomology_, Journal of Knot Theory and Its Ramifications, Vol. 14, No. 5 (2005) 627-640 ([arXiv:math/0307218](https://arxiv.org/abs/math/0307218))
+
+Reviewed in:
+
+* {#Volic13} [[Ismar Volić]], Section 4 of: _Configuration space integrals and the topology of knot and link spaces_, [Morfismos, Vol 17, no 2, 2013](https://fdocuments.co/amp/document/morfismos-vol-17-no-2-2013.html) ([arxiv:1310.7224](https://arxiv.org/abs/1310.7224))
 
 
 
