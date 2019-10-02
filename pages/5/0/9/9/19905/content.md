@@ -579,7 +579,7 @@ which was corrected in
 
 and developed in detail in 
 
-* {#Sinha03} Dev Sinha, _Manifold theoretic compactifications of configuration spaces_, Selecta Math. (N.S.) 10(3):391-428, 2004 ([arXiv:math/0306385](https://arxiv.org/abs/math/0306385))
+* {#Sinha03} [[Dev Sinha]], _Manifold theoretic compactifications of configuration spaces_, Selecta Math. (N.S.) 10(3):391-428, 2004 ([arXiv:math/0306385](https://arxiv.org/abs/math/0306385))
 
 which also shows the equivalence to [Fulton-MacPherson 94](#FultonMacPherson94).
 
