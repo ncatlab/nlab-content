@@ -40,6 +40,8 @@ There are many different notations used in the literature for the bidirectional 
 
 * [[Conor McBride]], *Basics of bidirectionality*, [blog post](https://pigworker.wordpress.com/2018/08/06/basics-of-bidirectionalism/)
 
+* David Christiansen, *Bidirectional typing rules: a tutorial*, [pdf](http://www.davidchristiansen.dk/tutorials/bidirectional.pdf)
+
 ### For dependent types
 
 * [[Thierry Coquand]], *An algorithm for type-checking dependent types*, 1996, [pdf](https://core.ac.uk/download/pdf/82345314.pdf)
