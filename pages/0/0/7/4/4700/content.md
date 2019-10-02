@@ -19,19 +19,18 @@
 
 A _graph complex_ is a certain [[cochain complex]] [[linear span|spanned]] by [[equivalence classes]] of certain labeled [[directed graphs]], whose [[differential]] encodes the operation of contracting away [[edges]] in a graph.
 
-A concrete implementation of this general idea 
-originally sketched in [Kontsevich 94 (p. 11-12)](#Kontsevich94), and worked out in [Lambrechts-Volić 14](#LambrechtsVolic14)
-is often referred to by default as _the graph complex_ and yields a [[real numbers|real]] [[cochain complex]], and in fact a [[differential graded-commutative algebra]]
+A concrete implementation of this general idea, 
+originally sketched in [Kontsevich 94 (p. 11-12)](#Kontsevich94) and worked out in [Lambrechts-Volić 14](#LambrechtsVolic14),
+is often referred to by default as _the graph complex_ and yields, for $\Sigma$ a [[smooth manifold]] often taken to be [[Euclidean space]], a [[real numbers|real]] [[cochain complex]], and in fact a [[differential graded-commutative algebra]]
 
 $$
-  Graphs_n\big( \mathbb{R}^D \big)
+  Graphs_n\big( \Sigma \big)
   \;\in\;
   dgcAlg_{\mathbb{R}}
   \phantom{AA}
   n, D \in \mathbb{N}
   \,,
 $$
-
 
 which is [[quasi-isomorphism|quasi-isomorphic]] to the [[de Rham cohomology]], and in fact to the semi-algebraic [[de Rham algebra]]
 
@@ -41,7 +40,7 @@ $$
   \big(
     Conf_n
     \big( 
-      \mathbb{R}^D
+      \Sigma
     \big)
   \big)
   \;\in\;
@@ -52,8 +51,7 @@ $$
 
 of (the [[Fulton-MacPherson compactification]] of) the [[configuration space of points]] $Conf_n(\mathbb{R}^D)$ for $n$ points in $D$-dimensional [[Euclidean space]].
 
-The [[chain map]] which exhibits this [[quasi-isomorphism]] is essentially given by sending each graph to the corresponding [[Feynman amplitude]] in [[free field theory|free]] [[Chern-Simons theory|Chern-Simons]]/[[AKSZ theory]] on $X$, by regarding [[Feynman amplitudes as differential forms on configuration spaces of points]] ([Kontsevich 93, 5](#Kontsevich93)):
-
+The [[chain map]] which exhibits this [[quasi-isomorphism]] is given by sending each graph to the corresponding [[Feynman amplitude]] in [[Chern-Simons theory]] on $\Sigma$, namely to the [[configuration space of points|configuration space]]-[[integral]] of the [[wedge product]] of [[Chern-Simons propagators]] associated to the [[edges]] in a graph ([[Feynman diagram]]), by regarding [[Feynman amplitudes as differential forms on configuration spaces of points]] ([Kontsevich 93, 5](#Kontsevich93)):
 
 
 \[
@@ -82,7 +80,7 @@ The [[chain map]] which exhibits this [[quasi-isomorphism]] is essentially given
     \array{
       \text{assign Feynman amplitudes}
       \\
-      \text{of free CS/AKSZ theory}
+      \text{of Chern-Simons theory}
       \\
       \phantom{A}
     }
@@ -208,15 +206,17 @@ hence each [[edge]] contributes a degree $D-1$ and each internal vertex a degree
 | $D$ even |  odd  | even |
 | $D$ odd  | even | odd | 
 
-and, up to an absolute _even_ change of grading, the graph complexes $Graphs_n(\mathbb{R}^D)$ depend only on these parities, hence depend only on whether $D$ is [[even number|even]] or [[odd number|odd]].
+Up to an absolute _even_ change of grading, the graph complexes $Graphs_n(\mathbb{R}^D)$ depend only on these parities, hence depend only on whether $D$ is [[even number|even]] or [[odd number|odd]].
  
-Finally, beware that many authors consider the case where $\Sigma = \mathbb{R}^D$ by default, and don't mention a dependence on a choice of manifold, but just on a natural number $D$. This natural number is the often denoted $n$, whereas our number $n$ of external vertices is often implicitly taken to be 0. 
+Finally, beware that many authors consider the case where $\Sigma = \mathbb{R}^D$ by default, and don't mention a dependence on a choice of manifold, but just on a natural number $D$. This natural number is then often denoted "$d$" or "$n$".
 
 For instance:
 
 * the "graph complex with anti-symmetric set of edges" of [Bar-Natan & McKay, Def. 3.3](#BarNatanMcKay) is denoted $GC_2$ in [Willwacher 10](#Willwacher10) and is our $Graphs_0\big(\mathbb{R}^2\big)$;
 
 * similarly $GC_3$ in [Koroshkin-Willwacher-Živković 14](#KoroshkinWillwacherZivkovic14) is our $Graphs_0\big( \mathbb{R}^3\big)$.
+
+> something amiss here... there must be external vertices .. check
 
 \linebreak
 
@@ -1132,6 +1132,25 @@ The following survey has discussion of context between the graph complex and [[B
 * Jian Qiu, Maxim Zabzine, _Knot weight systems from graded symplectic geometry_, [arxiv/1110.5234](http://arxiv.org/abs/1110.5234) 
 
 * [[Alastair Hamilton]], [[Andrey Lazarev]], _Graph cohomology classes in the [[BV-BRST formalism|Batalin-Vilkovisky formalism]]_, J.Geom.Phys. __59__:555-575, 2009, [arxiv/0701825](http://arxiv.org/abs/math/0701825)
+
+
+### Relation to higher order Vassiliev invariants
+
+Discussion of the graph complex as computing higher order [[Vassiliev invariants]], hence the [[real cohomology]] of spaces of [[knots]] (with the cohomology in degree-0 being the ordinary [[Vassiliev invariants]]):
+
+
+* [Kontsevich 93, Section 5](#Kontsevich93)
+
+* [[Alberto Cattaneo]], Paolo Cotta-Ramusino, Riccardo Longoni, _Configuration spaces and Vassiliev classes in any dimension_, Algebr. Geom. Topol. 2 (2002) 949-1000 ([arXiv:math/9910139](https://arxiv.org/abs/math/9910139))
+
+* [[Alberto Cattaneo]], Paolo Cotta-Ramusino, Riccardo Longoni, _Algebraic structures on graph cohomology_, Journal of Knot Theory and Its Ramifications, Vol. 14, No. 5 (2005) 627-640 ([arXiv:math/0307218](https://arxiv.org/abs/math/0307218))
+
+Reviewed in:
+
+* {#Volic13} [[Ismar Volić]], Section 4 of: _Configuration space integrals and the topology of knot and link spaces_, [Morfismos, Vol 17, no 2, 2013](https://fdocuments.co/amp/document/morfismos-vol-17-no-2-2013.html) ([arxiv:1310.7224](https://arxiv.org/abs/1310.7224))
+
+
+
 
 
 ### Cohomology
