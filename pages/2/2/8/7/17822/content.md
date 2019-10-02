@@ -29,7 +29,7 @@ Given a [[vector bundle]], its _dual_ is the vector bundle obtained by passing [
 +-- {: .num_prop #FinitrRankBundleHomomorphismIsSectionOfTensorProductWithDual}
 ###### Proposition
 
-Let $X$ be a [[topological space]] and let $E_i \overset{p_i}{\to} X$ be a two [[topological vector bundles]] over $X$, of [[finite number|finite]] [[rank of a vector bundle]]. Then a [[homomorphism]] of vector bundles
+Let $X$ be a [[topological space]] and let $E_i \overset{p_i}{\to} X$ be two [[topological vector bundles]] over $X$, of [[finite number|finite]] [[rank of a vector bundle]]. Then a [[homomorphism]] of vector bundles
 
 $$
   f \;\colon\; E_1 \rightarrow E_2
