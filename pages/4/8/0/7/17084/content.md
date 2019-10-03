@@ -95,11 +95,9 @@ The unique free [[coefficient]] of this homomorphism $CE(\mathfrak{l}\phi)$ is t
 
 * [[Serre finiteness theorem]]
 
-* [[Sullivan model of a spherical fibration]]
 
-* [[Sullivan model of mapping space]]
+[[!include Sullivan models -- examples]]
 
-* [[Sullivan model of free loop space]]
 
 [[!redirects rational n-spheres]]
 
@@ -108,3 +106,7 @@ The unique free [[coefficient]] of this homomorphism $CE(\mathfrak{l}\phi)$ is t
 
 [[!redirects Sullivan model of a sphere]]
 [[!redirects Sullivan models of spheres]]
+
+[[!redirects Sullivan model of an n-sphere]]
+[[!redirects Sullivan model of n-spheres]]
+
