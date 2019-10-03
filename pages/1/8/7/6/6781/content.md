@@ -30,21 +30,56 @@ A special case of the motivation in RCFT has a toy example of [[Dijkgraaf-Witten
 explained. Namely, where the [[groupoid convolution algebra]] of the [[delooping]] [[groupoid]] $\mathbf{B}G$ of a [[finite group]] $G$ naturally has the structure of a Hopf algebra, the [[twisted groupoid convolution algebra]] of $\mathbf{B}G$ equipped with a 3-[[cocycle]] $c \colon \mathbf{B}G \to \mathbf{B}^3 U(1)$ is naturally a quasi-Hopf algebra.
 Since such a 3-cocycle is precisely the [[background gauge field]] of the 3d [[TFT]] called [[Dijkgraaf-Witten theory]], and hence quasi-Hopf algebras arise there ([Dijkgraaf-Pasquier-Roche 91](#DijkgraafPasquierRoche)).
 
-## Definition
+## Definition (Drinfeld)
 
 A __quasibialgebra__ is a unital [[associative algebra]] $(A,m,\eta)$ with a structure of not necessarily coassociative coalgebra $(A,\Delta,\epsilon)$ and an invertible element $\phi \in A\otimes A\otimes A$ such that 
+
+(i) the coassociativity is modified by conjugation by $\phi$ in the sense
 
 $$
 (\Delta \otimes 1)\Delta(a) = \phi\left((1\otimes\Delta)\Delta(a)\right)\phi^{-1},\,\,\,\,\,\forall a\in A,
 $$
+
+(ii) the following pentagon identity holds 
+
 $$
 (1\otimes 1\otimes\Delta)(\phi)(\Delta\otimes 1\otimes 1)(\phi) =
 (1\otimes\phi)(1\otimes\Delta\otimes 1)(\phi)(\phi\otimes 1)
 $$
 
-and some identities involving unit $\eta$ and counit $\epsilon$ hold.
+(iii) some identities involving unit $\eta$ and counit $\epsilon$ hold:
 
-A __quasi-Hopf algebra__ is a quasibialgebra with a suitable notion of an antipode.
+$$ (\epsilon\otimes A)\Delta(a) = a = (A\otimes\epsilon)\Delta(a), \,\,\,\,\,\,a\in A;$$
+$$
+(A\otimes\epsilon\otimes A)\phi = 1.
+$$
+It follows that $(\epsilon\otimes\epsilon\otimes A)\phi
+ = 1 = (A\otimes\epsilon\otimes\epsilon)\phi$.
+
+The category of left $A$-modules is a monoidal category, namely the coproduct is used to define the action of $A$ on the tensor product of modules $(M,\nu^M)$, $(N,\nu^N)$:
+
+$$
+A \otimes (M\otimes N) \stackrel{\Delta\otimes M\otimes N}\longrightarrow (A\otimes A)\otimes(M\otimes N)
+\rightarrow (A\otimes M)\otimes (A\otimes N)\stackrel{\nu_M\otimes\nu_N}\longrightarrow M\otimes N
+$$
+
+Using the Sweedler-like notation $\phi = \sum \phi^1\otimes \phi^2\otimes \phi^3$, formulas
+
+$$
+\Phi_{M,N,P}: (M\otimes N)\otimes P\stackrel\cong\longrightarrow M\otimes (N\otimes P)
+$$
+$$
+(m\otimes n)\otimes p\mapsto \sum (\phi^1\triangleright m)
+\otimes ((\phi^2\triangleright n)\otimes (\phi^3\triangleright p))
+$$
+define a natural transformation $\Phi$ 
+and the pentagon for $\phi$ yields the MacLane's pentagon for $\Phi$ understood as a new associator,
+$$
+(M\otimes\Phi_{N,P,Q})\Phi_{M,N\otimes P,Q}(\Phi_{M,N,P}\otimes Q)=\Phi_{M,N,P\otimes Q}\Phi_{M\otimes N,P,Q}
+$$
+For this reason, $\phi$ is sometimes called the associator of the quasibialgebra. 
+
+A __quasi-Hopf algebra__ is a quasibialgebra with a suitable notion of antipode.
 
 ## Related concepts
 
