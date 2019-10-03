@@ -1110,12 +1110,46 @@ The definition is almost exactly the same as that of $\oplus_n Graphs_n\big( \ma
 
 ([CCRL 02, (4.6)](#CattaneoCottaRamusinoLongoni02), [Volić 13, Def. 4.3](#Volic13))
 
-**2)** There is implicit a contractible edge from the $k$th to the $(k+1)$st external vertex, in that the definition of the differential (Def. \ref{DifferentialOnGraphs}) regards these as contractible edges.
+**2)** There is implicit a contractible edge from the $k$th to the $(k+1)$st external vertex (an _arc_), in that the definition of the differential (Def. \ref{DifferentialOnGraphs}) regards these as contractible edges.
 
 ([CCRL 02, 4.2](#CattaneoCottaRamusinoLongoni02), [Volić 13, p. 35](#Volic13))
 
+**3)** Apparently it must be understood that graphs whose labelling of external vertices differs by a cyclic permutation are identified. (?!)
 
 (...)
+
++-- {: .num_example #KnotGraphCocycleOfOrder2}
+###### Example
+**(knot graph cocycle of order 2)**
+
+The differential in $KnotGraphs(\mathbb{R}^3)$ of the single trivalent internal vertext is computd just as in $Graphs_3(\mathbb{R}^3)$ (Example \ref{ThreeTermRelation}):
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/The3TermRelationInTheKnotGraphComplex.jpg" width="680">
+</center>
+
+Notice here that, in principle, the differential also contracts each of the 3 arcs, but since the result of these contractions is a pair of parallel edges, these contributions are vanishing graphs (Def. \ref{VanishingGraphs}).
+
+In contrast, the differential of the diagram in $KnotGraphs(\mathbb{R}^3)$ consisting of just two overlapping chords gets contributions only from contraction of the four arcs:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/Diff2ChordsDiagramInKnotGraphs.jpg" width="720">
+</center>
+
+In both cases, the identification of graphs whose external labels are ccyclically permutated identifies the right hand sides of both these coboundaries with multiples of one and the same element in the graph complex.
+
+Accordingly, the corresponding linear combination yields a [[cocycle]] of degree 0 in $KnotGraphs(\mathbb{R}^3)$:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/CocycleInKnotGraphs.jpg" width="460">
+</center>
+
+=--
+
+([Cattaneo, Cotta-Ramusino, Longoni 02, Figure 2](#CattaneoCottaRamusinoLongoni02))
+
+\linebreak
 
 
 ### $Graphs_n\big(  \mathbb{R}^2 \big)$
