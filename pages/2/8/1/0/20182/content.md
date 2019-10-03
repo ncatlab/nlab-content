@@ -70,6 +70,11 @@ the generator in $\left\{ \array{ H_{2n+1}\big( SO(n+1), \mathbb{Q} \big) \simeq
 
 See at _[[Sullivan model of a spherical fibration]]_ for more on this.
 
+## Related concepts
+
+[[!include Sullivan models -- examples]]
+
+
 
 ## References
 
@@ -107,3 +112,6 @@ based on
 
 [[!redirects Sullivan model mapping space]]
 [[!redirects Sullivan model of mapping spaces]]
+
+[[!redirects Sullivan model of a mapping space]]
+
