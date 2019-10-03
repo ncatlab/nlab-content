@@ -277,11 +277,7 @@ for $n = 2k$ an [[even number]] the rational [[Pontryagin class]] (eq:RationalPo
 
 ## Related concepts
 
-* [[Sullivan model of a sphere]]
-
-* [[Sullivan model of mapping space]]
-
-* [[Sullivan model of free loop space]]
+[[!include Sullivan models -- examples]]
 
 
 ## References
