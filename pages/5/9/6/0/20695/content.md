@@ -23,7 +23,7 @@
 Given a [[manifold]] $\Sigma$, such as the [[3-sphere]], its _space of knots_ is a [[topological space]] parametrizing [[knots]] in $\Sigma$, hence something like the [[topological subspace]] 
 
 $$
-  Emd(S^1, \Sigma)
+  Emb(S^1, \Sigma)
   \;\subset\;
   Maps(S^1,\Sigma)
 $$
