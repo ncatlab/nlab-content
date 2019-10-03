@@ -131,6 +131,15 @@ Claim that the galaxy core-cusp problem is not resolved after all is discussed i
 
 * Heling Deng, Mark P. Hertzberg, Mohammad Hossein Namjoo, Ali Masoumi, _Can Light Dark Matter Solve the Core-Cusp Problem?_ ([arXiv:1804.05921](https://arxiv.org/abs/1804.05921))
 
+Computer simulation of [[structure formation]] with fuzzy dark matter:
+
+* Philip Mocz et al., _First Star-Forming Structures in Fuzzy Cosmic Filaments_, Phys. Rev. Lett. 123, 141301 – 2019 ([doi:10.1103/PhysRevLett.123.141301](https://doi.org/10.1103/PhysRevLett.123.141301))
+
+
+
+
+
+
 
 [[!redirects Bose-Einstein condensate dark matter]]
 [[!redirects BEC dark matter]]
