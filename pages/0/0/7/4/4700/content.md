@@ -10,7 +10,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -639,6 +638,34 @@ $$
 
 =--
 
++-- {: .num_example #TrivalenGraphs}
+###### Example
+**(trivalent graphs)**
+
+A graph without external vertices has degree (Def. \ref{DegreeOfAGraph}) equal to zero precisely if all its vertices (which are all internal, by assumption) are trivalent:
+
+$$
+  \#\!Verts_{ext} = 0
+  \;\;\Rightarrow\;\;
+  \big(
+     deg(\Gamma) = 0
+     \;\;\Leftrightarrow\;\;
+     \text{all vertices are trivalent}
+  \big)
+  \,.
+$$
+
+The following is the smallest example of such a trivalent graph:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/TheDegreeZeroGraph.jpg" width="300">
+</center>
+
+Below in Example \ref{TheZeroCocycle} we see that this is also a graph cocycle
+
+=--
+
+
 \linebreak
 
 #### The algebra of graphs
@@ -1065,7 +1092,8 @@ This implises that the quotient of all graphs by the vanishing graphs is still a
 
 For $n \in \mathbb{N}$, the _graph complex_ on $n$ external vertices is the [[differential graded-commutative algebra]]
 
-$$
+\[
+  \label{TheGraphComplexAsQuotientByVanishingGraphs}
   Graphs_n
   \big(
     \mathbb{R}^3
@@ -1077,13 +1105,36 @@ $$
   {
     {\widehat Graphs}^{nil}_n\big( \mathbb{R}^3\big)
   }
-$$
+\]
 
 of the [[differential graded-commutative algebra]] of all graphs (Lemma \ref{DifferentialProperties}) by its [[differential ideal]] (Lemma \ref{VanishingGraphsAreDifferentialIdeal}) of vanishing graphs (Def. \ref{VanishingGraphs}).
 
 =--
 
 ([Lambrechts-Volić 14, Def. 6.19](#LambrechtsVolic14))
+
+
++-- {: .num_defn #TheZeroCocycle}
+###### Example
+**(The 0-Cocycle)**
+
+The _Peace Symbol_ graph in degree 0 (Example \ref{TrivalenGraphs}) is closed in the graph complex:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/The0CocycleInTheGraphComplex.jpg" width="800">
+</center>
+
+
+Here each of the six summands in the differential vanishes
+separately, because each contains a pair of vertices 
+with more than one edge between them and is hence a _vanishing graph_ (Def. \ref{VanishingGraphs}) which is set to zero in the quotient (eq:TheGraphComplexAsQuotientByVanishingGraphs) that defines the graph complex (Def. \ref{GraphComplexDgcAlgebra}).
+
+This cocycle should be non-exact, and hence
+generates $H^0\Big( \mathrm{Graphs}_0\big( \mathbb{R}^3\big)\Big)
+\simeq H^0\Big( \mathrm{Conf}_0\big( \mathbb{R}^3\big) \Big)
+\simeq H^0(\ast) \simeq \mathbb{R}$. 
+
+=--
 
 \linebreak
 
@@ -1373,7 +1424,7 @@ The rough definition of the graph complex, and its relation to [[Chern-Simons th
 
 * {#Kontsevich92} [[Maxim Kontsevich]], pages 11-12 of _Feynman diagrams and low-dimensional topology_, First European Congress of Mathematics, 1992, Paris, vol. II, Progress in Mathematics __120__, Birkh&#228;user (1994), 97&#8211;121 ([pdf](http://www.ihes.fr/~maxim/TEXTS/Feynman%20%20diagrams%20and%20low-dimensional%20topology.pdf))
 
-* {#Kontsevich93} [[Maxim Kontsevich]], Section 5 of_Vassiliev's knot invariants_, Advances in Soviet Mathematics, Volume 16, Part 2, 1993 ([pdf](http://pagesperso.ihes.fr/~maxim/TEXTS/VassilievKnot.pdf))
+* {#Kontsevich93} [[Maxim Kontsevich]], Section 5 of: _Vassiliev's knot invariants_, Advances in Soviet Mathematics, Volume 16, Part 2, 1993 ([pdf](http://pagesperso.ihes.fr/~maxim/TEXTS/VassilievKnot.pdf), [[KontsevichVassilievInvariants93.pdf:file]])
 
 * {#Kontsevich99b} [[Maxim Kontsevich]], around Def. 15 and Lemma 3 in _Operads and Motives in Deformation Quantization_, Lett. Math. Phys. 48 35-72, 1999 ([arXiv:math/9904055](https://arxiv.org/abs/math/9904055))
 
