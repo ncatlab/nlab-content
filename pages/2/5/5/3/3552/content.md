@@ -294,42 +294,16 @@ See at _[[the co-binary Sullivan differential is the dual Whitehead product]]_.
 
 ## Examples 
 
-
-### $n$-Sphere
-
-See at _[[rational n-sphere]]_.
+[[!include Sullivan models -- examples]]
 
 
-### Spherical fibrations
-
-See at _[[Sullivan model of a spherical fibration]]_.
-
-### Complex projective space
-
-...
-
-### Product spaces
-
-...
-
-### Formal spaces
-
-* [[formal dg-algebra]]
-
-### Mapping spaces
-
-* [[Sullivan model of mapping space]]
-
-### Free loop spaces
-
-* [[Sullivan model of free loop space]]
 
 
-### Suspensions
 
-* [[Sullivan model of a suspension]]
 
 ## Related concepts
+
+* [[formal dg-algebra]]
 
 * [[minimal dg-module]]
 
