@@ -102,4 +102,6 @@ See at _[one-point compactification -- Examples -- Spheres](one-point+compactifi
 
     * [[suspension of a chain complex]]
 
+    * [[Sullivan model of a suspension]]
+
 [[!redirects reduced suspensions]]
