@@ -692,6 +692,9 @@ Minimal Sullivan models (def. \ref{SullivanModel}) are unique up to [[isomorphis
 e.g [Hess 06, prop 1.18](#Hess06).
 
 
+[[!include Sullivan models -- examples]]
+
+
 
 ### Homotopy theory
  {#HomotopyTheory}
