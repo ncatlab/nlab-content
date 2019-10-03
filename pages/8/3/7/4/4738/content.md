@@ -29,7 +29,7 @@ In such a model $[C^{op},(n,r)Cat]$ for $\mathbf{H}$, a [[morphism]] in $\mathbf
 
 $$
   \array{
-    \hat X &\to& X
+    \hat X &\to& Y
     \\
     \downarrow^{\mathrlap{\simeq}}
     \\
