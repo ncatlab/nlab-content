@@ -10,23 +10,55 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 
 ## Idea
+ {#Idea}
 
 A _graph complex_ is a certain [[cochain complex]] [[linear span|spanned]] by [[equivalence classes]] of certain labeled [[directed graphs]], whose [[differential]] encodes the operation of contracting away [[edges]] in a graph.
 
-Two similar but different classes of examples are usually referred to as just "the graph complex". Given a [[smooth manifold]] $\Sigma$, often taken to be [[Euclidean space]] $\mathbb{R}^D$, these are the following:
+Two similar but different classes of examples are usually referred to by default as just "the graph complex", going back to hints in [Kontsevich 92, P. 11-12](#Kontsevich92), [Kontsevich 93, 5](#Kontsevich93):
 
-**1) $Graphs\big( \Sigma\big)$ -- Graph complex models of [[configuration spaces of points]]**  
+Given a [[smooth manifold]] $\Sigma$, often taken to be [[Euclidean space]] $\mathbb{R}^D$, there is
 
-originally sketched in [Kontsevich 92 (p. 11-12)](#Kontsevich92) and worked out in [Lambrechts-Volić 14](#LambrechtsVolic14) a [[real numbers|real]] [[cochain complex]], and in fact a [[differential graded-commutative algebra]]
+1. a [graph complex model for the real cohomology of the configuration space of points](#IdeaGraphComplexModelsForConfigurationSpacesOfPoints) in $\Sigma$
+
+1. a [graph complex model for the real cohomology of the space of knots](#IdeaGraphComplexModelForSpacesOfKnots) in $\Sigma$.
+
+In both cases, the graphs are interpreted as [[Feynman diagrams]] for [[circle group|U(1)]]-[[Chern-Simons theory]] and the map which identifies these with [[cocycles]] in [[real cohomology]] of either the [[configuration space of points]] or the [[space of knots]] is given by sending a Feynman diagram to its [[Feynman amplitude]]. In the first case this is an [[n-point function]], [[correlator as differential form on configuration space of points|regarded as a differential form on the configuration space]] of $n$-points, while in the second case this is a [[vacuum amplitude]] depending on the [[isotopy]] [[equivalence class|class]] of the  [[Wilson loop]] encoded by the [[knot]] -- a [[Vassiliev knot invariant]].
+
+\linebreak
+
+**Beware** that these graph complex models **differ only in very small technical detail** as the manifold $\Sigma$ varies and the choice between models for configuration space of points or spaces of knots is made (see the [Overview of definitions](#OverviewOfDefinitions) below), and yet these small details **completely change the cohomological nature** of the resulting graph complexes; a point not often made manifest when any given author discusses  "the graph complex".
+
+\linebreak
+
+
+### Model for configuration spaces of points
+ {#IdeaGraphComplexModelsForConfigurationSpacesOfPoints}
+
+
+The graph complex model for [[configuration spaces of points]] was originally sketched in [Kontsevich 92 (p. 11-12)](#Kontsevich92) and worked out in detail in [Lambrechts-Volić 14](#LambrechtsVolic14) for $\Sigma = \mathbb{R}^D$ a [[Euclidean space]]. Other authors have claimed generalization to $\Sigma$ a [[closed manifold]] ([Campos-Willwacher 16](#CamposWillwacher16)) possibly [[manifold with boundary|with boundary]] ([Campos-Idrissi-Lambrechts-Willwacher 18](#CamposIdrissiLambrechtsWillwacher18)).
+
+Here we denote this version of the graph complex by "$Graphs$", in contrast to "$KnotGraphs$" for the other model, discussed further [below](#IdeaGraphComplexModelForSpacesOfKnots).
+
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/AGraphInTheGraphComplexII.jpg" width="160">
+</div>
+
+
+
+This graph complex is [[linear span|spanned]] by [[finite set|finite]] [[directed graphs]] with [[linear order|linearly ordered]] internal and external [[vertices]], subject to a sign rule reflecting the [[orientation]] of [[edges]]. The [[differential]] sends any graph to a signed sum of graphs obtained by contracting one of the [[edges]] with at least one internal vertex. 
+
+Under ordered disjoint union of edges and _internal_ vertices this [[cochain complex]] becomes a [[differential graded-commutative algebra]]
 
 $$
-  Graphs_n\big( \Sigma \big)
+  Graphs_n\big( \mathbb{R}^D \big)
   \;\in\;
   dgcAlg_{\mathbb{R}}
   \phantom{AA}
@@ -34,11 +66,11 @@ $$
   \,,
 $$
 
-which is [[quasi-isomorphism|quasi-isomorphic]] to the [[de Rham cohomology]], and in fact to the semi-algebraic [[de Rham algebra]]
+As such, this is [[quasi-isomorphism|quasi-isomorphic]] to the semi-algebraic [[de Rham algebra]]
 
 
 $$
-  \Omega^\bullet_{PA}
+  \Omega^\bullet
   \big(
     Conf_n
     \big( 
@@ -51,10 +83,9 @@ $$
   n, D \in \mathbb{N}
 $$
 
-of (the [[Fulton-MacPherson compactification]] of) the [[configuration space of points]] $Conf_n(\mathbb{R}^D)$ for $n$ points in $D$-dimensional [[Euclidean space]].
+of the [[Fulton-MacPherson compactification]] of the [[configuration space of points]] $Conf_n(\mathbb{R}^D)$ for $n$ points in $D$-dimensional [[Euclidean space]].
 
-The [[chain map]] which exhibits this [[quasi-isomorphism]] is given by sending each graph to the corresponding [[Feynman amplitude]] in [[Chern-Simons theory]] on $\Sigma$, namely to the [[configuration space of points|configuration space]]-[[integral]] of the [[wedge product]] of [[Chern-Simons propagators]] associated to the [[edges]] in a graph ([[Feynman diagram]]), by regarding [[Feynman amplitudes as differential forms on configuration spaces of points]] ([Kontsevich 93, 5](#Kontsevich93)):
-
+The [[chain map]] which exhibits this [[quasi-isomorphism]] is given by regarding a graph as a [[Feynman diagram]] for [[circle group|U(1)]]-[[Chern-Simons theory]] on $Sigma = \mathbb{R}^D$ and sending it to its corresponding [[Feynman amplitude]], namely to the [[configuration space of points|configuration space]]-[[integral]] of the [[wedge product]] of [[Chern-Simons propagators]] associated to the [[edges]], regarding [[Feynman amplitudes as differential forms on configuration spaces of points]]: 
 
 \[
   \label{TheQuasiIsomorphism}
@@ -97,16 +128,12 @@ The [[chain map]] which exhibits this [[quasi-isomorphism]] is given by sending 
       \\
       \text{de Rham algebra}
       \\
-      \text{of semi-algebraic differential forms}
-      \\
-      \text{on the FM-compactification}
-      \\
       \text{of the configuration space of n points}
       \\
       \text{in}\; \Sigma
     }
   }{
-  \Omega^\bullet_{PA}
+  \Omega^\bullet
   \big(
     Conf_n\big(  \Sigma \big)
   \big)
@@ -114,25 +141,37 @@ The [[chain map]] which exhibits this [[quasi-isomorphism]] is given by sending 
   \,.
 \]
 
-This means that for each [[edge]] in a [[graph]] a [[Chern-Simons propagator]] is assigned, and for each of $n_{int} \in \mathbb{N}$ internal [[vertices]] the [[fiber integral]] of the adjacent [[Chern-Simons propagators]] along the canonical [[fibration]] of [[configuration spaces of points]]:
+This means that for each [[edge]] in a [[graph]] a [[Chern-Simons propagator]] is assigned, and for each of $n_{int} \in \mathbb{N}$ internal [[vertices]] the [[wedge product]] of its adjacent [[Chern-Simons propagators]] is [[fiber integral|fiber integrated]] along the canonical [[fibration]] of [[configuration spaces of points]]:
 
 $$
   Conf_{n + n_{int}}( \mathbb{R}^D )
   \longrightarrow
   Conf_{n}( \mathbb{R}^D )
-  \,.
 $$
 
-This was originally sketched in [Kontsevich 92, p. 11-12](#Kontsevich92). A detailed construction and proof was laid out in [Lambrechts-Volić 14](#LambrechtsVolic14). Other authors have claimed various generalizations of this result, generalizing [[Euclidean space]] $\mathbb{R}^D$ to more general [[smooth manifolds]], possibly [[manifold with boundary|with boundary]].
+just as befits the definition of a [[Feynman amplitude]] when [[correlator as differential form on configuration space of points|regarding them as differential forms on configuration spaces of points]].
+
 
 \linebreak
 
-**2) $KnotGraphs\big( \Sigma\big)$ -- Graph complex models of [[spaces of knots]]**  
+### Model for spaces of knots  
+ {#IdeaGraphComplexModelForSpacesOfKnots}
 
-originally sketched in [Kontsevich 93, Section 5](#Kontsevich93), worked out in [Cattaneo, Cotta-Ramusino, Longoni 02](#CattaneoCottaRamusinoLongoni02), [05](#CattaneoCottaRamusinoLongoni02)spring 
+The graph complex model for [[spaces of knots]] was originally sketched in [Kontsevich 93, Section 5](#Kontsevich93) and worked out in [Cattaneo, Cotta-Ramusino, Longoni 02](#CattaneoCottaRamusinoLongoni02), [05](#CattaneoCottaRamusinoLongoni05).
+
+Here we denote this version of the graph complex by "$KnotGraphs$", in contrast to "$Graphs$" for the other model, discussed [above](#IdeaGraphComplexModelsForConfigurationSpacesOfPoints).
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/AKnotGraphInTheKnotGraphComplexII.jpg" width="190">
+</div>
+
+
+The explicit definition is almost exactly the same as that of the model for configuration spaces of points [above](#IdeaGraphComplexModelsForConfigurationSpacesOfPoints), except that the external vertices here have a degree -1 instead of 0, and that the differential sees contractible [[edges]] between consecutive external vertices, often called _arcs_, shown by dashed lines on the right.
+
+Together these two innocent modifications make the graphs now represent [[vacuum amplitude|vacuum]] [[Feynman diagrams]] for [[Chern-Simons theory]] in the presence of a [[Wilson loop]], with the external vertices now attached to this [[knot]] (corresponding to the dashed line shown on the right):
 
 \[
-  \label{TheQuasiIsomorphism}
+  \label{KnotGraphsTheQuasiIsomorphism}
   \underset{
     \color{blue}
     \array{
@@ -144,7 +183,9 @@ originally sketched in [Kontsevich 93, Section 5](#Kontsevich93), worked out in 
       \\
       \text{for Chern-Simons theory}
       \\
-      \text{with knots in} \; \Sigma 
+      \text{on} \; \Sigma 
+      \\
+      \text{in the presence of a Wilson loop knot}
     }
   }{
     KnotGraphs_n(\Sigma)
@@ -171,14 +212,14 @@ originally sketched in [Kontsevich 93, Section 5](#Kontsevich93), worked out in 
       \\
       \text{de Rham algebra}
       \\
-      \text{of space of knots}
+      \text{of the space of knots}
       \\
       \text{in}\; \Sigma
       \\
       \text{(higher Vassiliev knot invariants)}
     }
   }{
-  \Omega^\bullet_{PA}
+  \Omega^\bullet
   \big(
     Emb(S^1,  \Sigma \big)
   \big)
@@ -186,18 +227,15 @@ originally sketched in [Kontsevich 93, Section 5](#Kontsevich93), worked out in 
   \,.
 \]
 
-(...)
 
-This yields higher [[Vassiliev knot invariants]].
-
-(...) 
+This yields higher [[Vassiliev knot invariants]], a good review is in [Volić 13](#Volic13).
 
 
 ## Definition
  {#GraphComplex}
 
 ### Overview
- {#NonDependenceOnSigma}
+ {#OverviewOfDefinitions}
 
 There are two different classes of (Kontsevich) graph complexes, modelling the [[real cohomology]] of, respectively,
 
@@ -205,9 +243,9 @@ There are two different classes of (Kontsevich) graph complexes, modelling the [
 
 1. [[spaces of knots]].
 
-Their definitions are almost identical, except for some small but crucial difference in the definition of degrees and labels of edges.
+Their definitions are almost identical, except for some small but crucial difference in the definition of degrees and labels of edges (see [below](#KnotGraphsDefinition)).
 
-In addition, the definition of a graph complex depends on a choice of [[smooth manifold]] $\Sigma$, possibly [[manifold with boundary|with boundary]], namely such that the graph complex $Graphs(\Sigma)$ provides a model for the cohomology of the [[configuration space of points]] in $\Sigma$
+In addition, the definition of the graph complex model for configuration spaces of points depends on a choice of [[smooth manifold]] $\Sigma$, possibly [[manifold with boundary|with boundary]], namely such that the graph complex $Graphs(\Sigma)$ provides a model for the cohomology of the [[configuration space of points]] in $\Sigma$
 
 $$
   Graphs\big( \Sigma \big)
@@ -267,12 +305,13 @@ As a consequence, the dependence of the graph complexes themselves on $\Sigma$ i
 
 In particular, in the case that $\Sigma = \mathbb{R}^D$ is a [[Euclidean space]], the corresponding graph complexes $Graphs\big( \mathbb{R}^D \big)$ depend essentially only on whether the [[dimension]] $D$ is [[even number|even]] or [[odd number|odd]]. Concretely, the degree of a graph in the [[graded vector space]] $Graphs_n(\mathbb{R}^D)$ is
 
-$$
+\[
+  \label{DegreeOfAGraph}
   deg\big( [\Gamma]\big) 
   \;=\;
   (D-1) \cdot \#\!Edges - D \cdot \#\!Vertices_{int}
   \,,
-$$
+\]
 
 hence each [[edge]] contributes a degree $D-1$ and each internal vertex a degree $-D$. As a consequence,  due to the [[signs in supergeometry|sign rule]] in the [[graded-commutative algebra]] [[structure]] on $Graphs_n(\mathbb{R}^D)$ we have the following parities
 
@@ -289,15 +328,21 @@ For instance:
 
 * the "graph complex with anti-symmetric set of edges" of [Bar-Natan & McKay, Def. 3.3](#BarNatanMcKay) is denoted $GC_2$ in [Willwacher 10](#Willwacher10) and is our $Graphs_0\big(\mathbb{R}^2\big)$;
 
-* similarly $GC_3$ in [Koroshkin-Willwacher-Živković 14](#KoroshkinWillwacherZivkovic14) is our $Graphs_0\big( \mathbb{R}^3\big)$.
+* similarly $GC_3$ in [Koroshkin-Willwacher-Živković 14](#KoroshkinWillwacherZivkovic14) is our $KnotGraphs\big( \mathbb{R}^3\big)$.
 
 (While the cohomology of $Graphs_0(\Sigma)$ -- being equivalent to that of $Conf_0(\Sigma) \simeq \ast$ -- is trivial, these authors consider further filtrations which have non-trivial cohomology in filtration stages, see [Bar-Natan & McKay, Def. 3.6](#BarNatanMcKay)).
 
+
+
 \linebreak
 
-### $Graphs_n\big( \mathbb{R}^3 \big)$
 
-We state the definition of the graph complexes $Graphs_n\big( \mathbb{R}^3\big)$ (Def. \ref{GraphComplexDgcAlgebra} below) associated with [[Euclidean space]] of [[dimension]] 3, following [Lambrechts-Volić 14, Section 6](#LambrechtsVolic14).
+### $Graphs_n\big( \mathbb{R}^3 \big)$
+ \label{GraphComplexForConfigurationsOfPointsInR3}
+
+
+
+We state the definition of the graph complexes $Graphs_n\big( \mathbb{R}^3\big)$ (as motivated [above](#IdeaGraphComplexModelsForConfigurationSpacesOfPoints), see Def. \ref{GraphComplexDgcAlgebra} below) associated with [[Euclidean space]] of [[dimension]] 3, following [Lambrechts-Volić 14, Section 6](#LambrechtsVolic14).
 
 
 #### Graphs
@@ -1042,6 +1087,37 @@ of the [[differential graded-commutative algebra]] of all graphs (Lemma \ref{Dif
 
 \linebreak
 
+### $KnotGraphs\big( \mathbb{R}^3 \big)$
+ {#KnotGraphsDefinition}
+
+We state the definition of the graph complexes $KnotGraphs\big( \mathbb{R}^3\big)$ of _knot graphs_ (according to the [above](#IdeaGraphComplexModelForSpacesOfKnots)) associated with [[Euclidean space]] of [[dimension]] 3, following [Cattaneo, Cotta-Ramusino, Longoni 02](#CattaneoCottaRamusinoLongoni02) [05](#CattaneoCottaRamusinoLongoni05).
+
+The definition is almost exactly the same as that of $\oplus_n Graphs_n\big( \mathbb{R}^3\big)$ [above](#GraphComplexForConfigurationsOfPointsInR3), except for the following two differences:
+
+**1)** external vertices now carry degree -1, so that the formula (eq:DegreeOfAGraph) for the degree of a graph is changed to
+
+\[
+  \label{DegreeOfAKnoptGraph}
+  deg\big( [\Gamma]\big) 
+  \;=\;
+  (D-1) \cdot \#\!Edges 
+  \;
+  - D \cdot \#\!Vertices_{int}
+  \;
+  - 1 \cdot \#\!Vertices_{ext}
+  \,,
+\]
+
+([CCRL 02, (4.6)](#CattaneoCottaRamusinoLongoni02), [Volić 13, Def. 4.3](#Volic13))
+
+**2)** There is implicit a contractible edge from the $k$th to the $(k+1)$st external vertex, in that the definition of the differential (Def. \ref{DifferentialOnGraphs}) regards these as contractible edges.
+
+([CCRL 02, 4.2](#CattaneoCottaRamusinoLongoni02), [Volić 13, p. 35](#Volic13))
+
+
+(...)
+
+
 ### $Graphs_n\big(  \mathbb{R}^2 \big)$
 
 (...)
@@ -1124,9 +1200,9 @@ yields a [[quasi-isomorphism]] from the graph complex to the [[real cohomology]]
 
 \linebreak
 
-### Cohomology of knot space / higher Vassiliev invariants, via Feynman diagrams
+### Cohomology of knot space / higher Vassiliev invariants
 
-Reading a graph as a [[Chern-Simons theory]] [[Feynman diagram]] as above, but now with the external vertices integrated along a [[knot]] $S^1 \hookrightarrow \mathbb{R}^3$, gives a  [[cochain map]] from the graph complex to the [[real cohomology]] of the space of [[knots]] $Emb(S^1, \mathbb{R}^3)$, which in degree 0 produces [[Vassiliev knot invariants]].
+The [[Feynman amplitudes]] of knot graphs (as [above](#KnotGraphsDefinition)) are  [[Vassiliev knot invariants]].
 
 This was originally hinted at in [Kontsevich 93, Section 5](#Kontsevich93).
 Details are in [Cattaneo, Cotta-Ramusino, Longoni 02](#CattaneoCottaRamusinoLongoni02).
@@ -1147,7 +1223,7 @@ Review is in [Volić 13, Section 4](#Volic13).
       \text{on} \; \Sigma 
     }
   }{
-    Graphs_n(\Sigma)
+    KnotGraphs(\Sigma)
   }
   \underoverset{
   }
@@ -1202,7 +1278,7 @@ and the "IHX-relation"  which it implies ([Bar-Natan 95, Theorem 6](Vassiliev+in
 
 > graphics grabbed from [Kontsevich 93](#Kontsevich93)
 
-That these relations characterize the cohomology of the graph complex in the respective degrees is shown in [Koytcheff-Munson-Volic 13, Section 3.4](#KoytcheffMunsonVolic13)
+That these relations characterize the cohomology of the knot-graph complex in the respective degrees is shown in [Koytcheff-Munson-Volic 13, Section 3.4](#KoytcheffMunsonVolic13)
 
 
 <center>
