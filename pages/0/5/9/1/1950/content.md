@@ -44,12 +44,10 @@ For $\Delta^k$ the simplicial $k$-[[simplex]] let $sd \Delta^k$ be its **barycen
 
 Notice that this simplicial set $sd \Delta^k$ encodes the shape of a $k$-fold [[cospan]] of [[cospan]]s.
 
-For instance
-
+For instance,
 $$
   sd \Delta^1 = \{0 \to (0,1) \leftarrow 1\}
 $$
-
 is the ordinary [[cospan]].
 
 These multi-cospan simplicial sets define a functor $Ex : SSet \to SSet$ by setting
@@ -85,9 +83,30 @@ Then
 
 * $Ex^\infty X$ is a [[Kan complex]];
 
-* $X \to Ex^\infty X$ is a natural weak equivalence.
+* $X \to Ex^\infty X$ is a natural weak equivalence,
+in fact, an [[acyclic cofibration]],
+even more strongly, it is a strong anodyne extension,
+i.e., a transfinite composition of cobase changes of horn inclusions
+(without retracts involved).
+
+* $Ex^\infty$ preserves all 5 classes of maps:
+[[weak equivalences]], (acyclic) [[cofibrations]],
+and (acyclic) [[fibrations]],
+as well as strong anodyne extensions
+and simplicial homotopy equivalences.
+
+* $Ex^\infty$ preserves [[finite limits]] and [[filtered colimits]].
+
+* $Ex^\infty(f)$ is a simplicial weak equivalences
+if and only if $f$ is a simplicial homotopy equivalence.
 
 
+## Applications
+
+For now, see here:
+
+* Why is Kan's Ex∞ functor useful?
+[https://mathoverflow.net/questions/324738/why-is-kans-ex-infty-functor-useful](MathOverflow).
 
 ## References ##
 
