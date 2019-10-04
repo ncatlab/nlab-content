@@ -1,4 +1,25 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 Given a [[set]] $A$, the __empty subset__ of $A$, denoted $\empty_A$, is the [[subset]] of $A$ defined by the property that, for every [[element]] $x$ of $A$, it is [[false]] that $x$ belongs to $\empty_A$.
 
 The underlying set (or _shadow_) of any empty subset is [[the]] [[empty set]].  That is, if we interpret $\empty_A$ as an [[injective function]] $S \hookrightarrow A$, then the [[source]] $S$ of this function is the empty set.
@@ -7,6 +28,9 @@ In the usual framework of [[material set theory]], every empty subset is identic
 
 In the context of [[topology]], we often speak of the __empty subspace__.  In point-set topology, this is indeed an empty subset of the set of points, but in point-free topology, a space is not necessarily the [[empty space]] just because it has no points, and the empty subspace is similarly subtle.
 
+## Related concepts
+
+[[!include empty objects -- contents]]
 
 [[!redirects empty subset]]
 [[!redirects empty subsets]]
