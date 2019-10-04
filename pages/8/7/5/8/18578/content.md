@@ -43,5 +43,9 @@ Discussion in context of [[causal perturbation theory]]/[[perturbative AQFT]] is
 
 [[!redirects tadpoles]]
 
+[[!redirects tadpole diagram]]
+[[!redirects tadpole diagrams]]
 
+[[!redirects tadpole-diagram]]
+[[!redirects tadpole-diagrams]]
 
