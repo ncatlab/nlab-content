@@ -50,7 +50,9 @@ where $\eta$ is a unit and $\varepsilon'$ is a counit of appropriate [[adjunctio
 
 Conversely, given a traced monoidal category $\mathcal{C}$, there is a [[free construction]] completion of it to a [[compact closed category]] $Int(\mathcal{C})$ ([Joyal-Street-Verity 96](#JoyalStreetVerity96)):
 
-the objects of $Int(\mathcal{C})$ are pairs $(A^+, A^-)$ of objects of $\mathcal{C}$, a morphism $(A^+ , A^-) \to (B^+ , B^-)$ in $Int(\mathcal{C})$ is given by a morphism of the form $A^+\otimes B^- \longrightarrow A^- \otimes B^+$ in $\mathcal{C}$, and [[composition]] of two such morphisms $(A^+ , A^-) \to (B^+ , B^-)$ and $(B^+ , B^-) \to (C^+ , C^-)$ is given by [[trace|tracing out]] $B^+$ and $B^-$ in the evident way.
+the objects of $Int(\mathcal{C})$ are pairs $(A^+, A^-)$ of objects of $\mathcal{C}$, a morphism $(A^+ , A^-) \to (B^+ , B^-)$ in $Int(\mathcal{C})$ is given by a morphism of the form $A^+\otimes B^- \longrightarrow A^- \otimes B^+$ in $\mathcal{C}$, and [[composition]] of two such morphisms $(A^+ , A^-) \to (B^+ , B^-)$ and $(B^+ , B^-) \to (C^+ , C^-)$ is given by [[trace|tracing out]] $B^-$ from the composite
+$$ A^+ \otimes B^- \otimes C^- \xrightarrow{f\otimes 1} A^- \otimes B^+ \otimes C^- \xrightarrow{1\otimes g} A^- \otimes B^- \otimes C^+. $$
+Note that $\mathcal{C}$ embeds [[fully faithful functor|fully-faithfully]] in $Int(\mathcal{C})$ by sending $A$ to $(A,I)$, where $I$ is the unit object of the monoidal structure.
 
 ### In cartesian monoidal categories
 
