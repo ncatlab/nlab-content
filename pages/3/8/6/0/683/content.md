@@ -83,7 +83,7 @@ Alternative definitions can be formulated at the level of the homotopy category 
 
 In the enriched case, this must be suitably modified to deal with [[weighted limit|weighted limits]] as well as enrichment of both $C$  and $D$.
 
-In particular, if $C$ is equipped with the extra structure of a [[simplicial model category]] and $K$ is an (small) [[sSet]]-[[enriched category]] we may also hope to equip the [[enriched functor]] category $[D,C]$ with the structure of a simplicial model category.  There are two different "canonical" such structures:
+In particular, if $C$ is equipped with the extra structure of a [[simplicial model category]] and $D$ is an (small) [[sSet]]-[[enriched category]] we may also hope to equip the [[enriched functor]] category $[D,C]$ with the structure of a simplicial model category.  There are two different "canonical" such structures:
 
 * the _projective_ [[model structure on functors]] $[D,C]_{proj}$;
 
