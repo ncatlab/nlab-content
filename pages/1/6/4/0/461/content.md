@@ -48,13 +48,10 @@ Alternatively, since the [[axiom of infinity]] states the existence of a set (an
 
 ## Related concepts
 
-* [[empty type]]
-
-* [[empty function]]
+[[!include empty objects -- contents]]
 
 * [[nothing]]
 
-* [[empty category]], [[empty diagram]]
 
 category: foundational axiom
 
