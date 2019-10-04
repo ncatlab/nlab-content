@@ -51,11 +51,11 @@ See [[too simple to be simple]] for general theory.
 
 ## Related concepts
 
+[[!include empty objects -- contents]]
+
 * [[Sierpinski space]]
 
 * [[discrete space]]
-
-* [[empty set]], [[empty category]], [[empty diagram]]
 
 * [[nothing]]
 
