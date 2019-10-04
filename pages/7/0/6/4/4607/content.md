@@ -33,6 +33,8 @@ In [[foundations]] without [[proper classes]], it may be tricky to specify exact
 
 * [[dependent type]]
 
+* [[empty family]]
+
 [[!redirects family]]
 [[!redirects families]]
 [[!redirects indexed family]]
