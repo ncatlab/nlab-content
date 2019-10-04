@@ -1555,13 +1555,10 @@ That these relations characterize the cohomology of the knot-graph complex in th
 
 Graph complex controls the universal $L_\infty$-deformations of the space of polyvector fields. 
 
-## Generalizations
-
-There are generalizations for $d$-algebras (algebras over little disc operad in higher dimension). The cohomological graph complex is then the case for $d=2$. There is also a "directed" version. On the other hand, graph complex 
 
 ## Related concepts
 
-* [[configuration space of points]]
+* [[configuration space of points]], [[space of knots]]
 
 * [[Fulton-MacPherson operad]]
 
@@ -1593,9 +1590,14 @@ The rough definition of the graph complex, and its relation to [[Chern-Simons th
 
 ### As a rational model for configuration spaces
 
-A clean account and proof of the graph complex as a model for the [[de Rham cohomology]] of the [[Fulton-MacPherson compactification]] of [[configuration spaces of points]] (exhibiting the [[formal smooth manifold|formality]] of the [[little n-disk operads]]) is in
+A clean account and proof of the graph complex as a model for the [[rational homotopy type]] of the [[Fulton-MacPherson compactification]] of [[configuration spaces of points]] (exhibiting the [[formal smooth manifold|formality]] of the [[little n-disk operads]]) is in
 
 * {#LambrechtsVolic14} [[Pascal Lambrechts]], [[Ismar Volić]], sections 6 and 7 and 9 of: _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society no. 1079, 2014  ([arxiv:0808.0457](https://arxiv.org/abs/0808.0457), [doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
+
+Discussion as a direct model for the rationalized [[homotopy groups]] of the [[configuration space of points]]:
+
+* [[Pascal Lambrechts]], Victor Tourtchine, _Homotopy graph-complex for configuration and knot spaces_, Transactions of the AMS, Volume 361, Number 1, January 2009, Pages 207–222 ([arxiv:math/0611766](https://arxiv.org/abs/math/0611766))
+
 
 further review:
 
