@@ -399,6 +399,16 @@ which respects all [[structure]], hence the [[source]] and [[target]] maps, the 
 
 ([Lambrechts-Volić 14, Def. 6.1](#LambrechtsVolic14))
 
+
++-- {: .num_remark #EmptyGraph}
+###### Remark
+**([[empty graph]])**
+
+The [[empty graph]] counts as a graph, according to Def. \ref{Graphs}.
+
+=--
+
+
 We write $\#\! Vert \coloneqq \left\vert Vert \right\vert$ for the [[cardinality]] of the sets of vertices, etc.
 
 
@@ -658,10 +668,30 @@ $$
 The following is the smallest example of such a trivalent graph:
 
 <center>
-<img src="https://ncatlab.org/nlab/files/TheDegreeZeroGraph.jpg" width="300">
+<img src="https://ncatlab.org/nlab/files/TheDegreeZeroGraph.jpg" width="240">
 </center>
 
-Below in Example \ref{TheZeroCocycle} we see that this is also a graph cocycle
+Hence in general, the degree of a trivalent graph is three times its number of external vertices:
+
+$$
+  \Gamma 
+  \;
+  \text{trivalent}
+  \;\;\;\Rightarrow \;\;\;
+  deg\big( [\Gamma] \big)
+  \;=\;
+  3 \cdot \#\!Verts_{ext}
+  \,.
+$$
+
+(Because such a graph is the result of taking a trivalent graph in degree 0 and replacing internal vertices of degree -3 with external vertices of degree 0.)
+
+For example, the following graph, obtained from the above trivalent graph by replacing the three internal vertices labeled 1,2 and 3 with external vertices, is of degree $3 \cdot 3 = 9$:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/ATrivalentGraphOfDegree9.jpg" width="240">
+</center>
+
 
 =--
 
@@ -1116,27 +1146,17 @@ of the [[differential graded-commutative algebra]] of all graphs (Lemma \ref{Dif
 ([Lambrechts-Volić 14, Def. 6.19](#LambrechtsVolic14))
 
 
-+-- {: .num_defn #TheZeroCocycle}
++-- {: .num_defn #DifferentialOfThePeaceSymbolGraph}
 ###### Example
-**(A 9-Cocycle in $Graphs_3(\mathbb{R}^3)$)**
+**(Differential of the Peace Symbol graph)**
 
-The _Peace Symbol_ graph in degree 9 is closed in the graph complex:
+The differential of the _Peace Symbol_ graph from Example \ref{TrivalenGraphs}
 
-> the vertices 1,2 ,3 must be marked external, ...
 
 <center>
 <img src="https://ncatlab.org/nlab/files/The0CocycleInTheGraphComplex.jpg" width="800">
 </center>
 
-
-Here each of the six summands in the differential vanishes
-separately, because each contains a pair of vertices 
-with more than one edge between them and is hence a _vanishing graph_ (Def. \ref{VanishingGraphs}) which is set to zero in the quotient (eq:TheGraphComplexAsQuotientByVanishingGraphs) that defines the graph complex (Def. \ref{GraphComplexDgcAlgebra}).
-
-This cocycle should be non-exact, and hence
-generate $H^0\Big( \mathrm{Graphs}_0\big( \mathbb{R}^3\big)\Big)
-\simeq H^0\Big( \mathrm{Conf}_0\big( \mathbb{R}^3\big) \Big)
-\simeq H^0(\ast) \simeq \mathbb{R}$. 
 
 =--
 
