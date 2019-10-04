@@ -105,8 +105,7 @@ if and only if $f$ is a simplicial homotopy equivalence.
 
 For now, see here:
 
-* Why is Kan's Ex∞ functor useful?
-[https://mathoverflow.net/questions/324738/why-is-kans-ex-infty-functor-useful](MathOverflow).
+* Why is Kan's Ex∞ functor useful? [MathOverflow question](https://mathoverflow.net/questions/324738/why-is-kans-ex-infty-functor-useful).
 
 ## References ##
 
