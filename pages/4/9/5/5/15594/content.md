@@ -1,12 +1,5 @@
 See:
 
-* [[empty category]]
-* [[empty context]]
-* [[empty family]]
-* [[empty function]]
-* [[empty set]]
-* [[empty space]]
-* [[empty subset]]
-* [[empty type]]
+[[!include empty objects -- contents]]
 
 category:adjective
