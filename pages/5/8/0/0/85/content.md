@@ -269,7 +269,7 @@ $$
 
 In analogy to the cartesian [[closed monoidal structure on presheaves]]
 we see that if the [[internal hom]] in $[\mathcal{C},V]$ exists at all, 
-(with $[-,X]_{Day}$ [[right adjoint]] to $(-) \otimes_{Day} X$) then by the [[enriched Yoneda lemma]] and by the [[end]]-expression for the [[hom-objects]] in the [[enriched functor category]] $[\mathcal{C},V]$ it has to be given by
+(with $[X,-]_{Day}$ [[right adjoint]] to $(-) \otimes_{Day} X$) then by the [[enriched Yoneda lemma]] and by the [[end]]-expression for the [[hom-objects]] in the [[enriched functor category]] $[\mathcal{C},V]$ it has to be given by
 
 $$
   \begin{aligned}
