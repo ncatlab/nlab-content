@@ -217,6 +217,8 @@ But I can't determine *exactly* what it is, because, if you read the first parts
 
 * [[planar graph]], [[connected graph]]
 
+* [[empty graph]]
+
 * [[ribbon graph]]
 
 * [[hypergraph]]
