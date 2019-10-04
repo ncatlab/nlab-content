@@ -11,6 +11,10 @@ Given a [[set]] $X$, the __empty function__ to $X$ is the [[function]] to $X$ fr
 
 The empty function to the [[empty set]] is _not_ a [[constant function]].
 
+## Related concepts
+
+[[!include empty objects -- contents]]
+
 
 [[!redirects empty function]]
 [[!redirects empty functions]]
