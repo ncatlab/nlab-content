@@ -60,11 +60,10 @@ The two definitions are provably equivalent, but only using the [[contraction ru
 
 ## Related concepts
 
-* [[empty set]]
+[[!include empty objects -- contents]]
+
 
 * [[nothing]], 
-
-* [[empty space]], [[empty category]], [[empty diagram]]
 
 * [[sum type]]
 * [[unit type]]
