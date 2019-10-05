@@ -1596,7 +1596,7 @@ A clean account and proof of the graph complex as a model for the [[rational hom
 
 Discussion as a direct model for the rationalized [[homotopy groups]] of the [[configuration space of points]]:
 
-* [[Pascal Lambrechts]], Victor Tourtchine, _Homotopy graph-complex for configuration and knot spaces_, Transactions of the AMS, Volume 361, Number 1, January 2009, Pages 207–222 ([arxiv:math/0611766](https://arxiv.org/abs/math/0611766))
+* [[Pascal Lambrechts]], [[Victor Tourtchine]], _Homotopy graph-complex for configuration and knot spaces_, Transactions of the AMS, Volume 361, Number 1, January 2009, Pages 207–222 ([arxiv:math/0611766](https://arxiv.org/abs/math/0611766))
 
 
 further review:
@@ -1607,16 +1607,16 @@ further review:
 Further discussion of the graph complex as a model for the [[de Rham cohomology]] of  [[configuration spaces of points]] is in
 
 
-* Najib Idrissi, _The Lambrechts-Stanley Model of Configuration Spaces_, Invent. Math, 2018 ([arXiv:1608.08054](https://arxiv.org/abs/1608.08054), [doi:10.1007/s00222-018-0842-9](https://dx.doi.org/10.1007/s00222-018-0842-9))
+* [[Najib Idrissi]], _The Lambrechts-Stanley Model of Configuration Spaces_, Invent. Math, 2018 ([arXiv:1608.08054](https://arxiv.org/abs/1608.08054), [doi:10.1007/s00222-018-0842-9](https://dx.doi.org/10.1007/s00222-018-0842-9))
 
 * {#CamposWillwacher16} [[Ricardo Campos]], [[Thomas Willwacher]], _A model for configuration spaces of points_ ([arXiv:1604.02043](https://arxiv.org/abs/1604.02043))
 
 * {#Campos17} [[Ricardo Campos]], _Batalin-Vilkovisky formality and configuration spaces of points_, 2017 ([doi:10.3929/ethz-a-010886114](https://doi.org/10.3929/ethz-a-010886114))
 
 
-* {#CamposIdrissiLambrechtsWillwacher18} [[Ricardo Campos]], Najib Idrissi, [[Pascal Lambrechts]], [[Thomas Willwacher]], _Configuration Spaces of Manifolds with Boundary_ ([arXiv:1802.00716](https://arxiv.org/abs/1802.00716))
+* {#CamposIdrissiLambrechtsWillwacher18} [[Ricardo Campos]], [[Najib Idrissi]], [[Pascal Lambrechts]], [[Thomas Willwacher]], _Configuration Spaces of Manifolds with Boundary_ ([arXiv:1802.00716](https://arxiv.org/abs/1802.00716))
 
-* [[Ricardo Campos]], Julien Ducoulombier, Najib Idrissi, [[Thomas Willwacher]], _A model for framed configuration spaces of points_ ([arXiv:1807.08319](https://arxiv.org/abs/1807.08319))
+* [[Ricardo Campos]], Julien Ducoulombier, [[Najib Idrissi]], [[Thomas Willwacher]], _A model for framed configuration spaces of points_ ([arXiv:1807.08319](https://arxiv.org/abs/1807.08319))
 
 See also
 
@@ -1653,7 +1653,7 @@ The following survey has discussion of context between the graph complex and [[B
 * [[Alastair Hamilton]], [[Andrey Lazarev]], _Graph cohomology classes in the [[BV-BRST formalism|Batalin-Vilkovisky formalism]]_, J.Geom.Phys. __59__:555-575, 2009, [arxiv/0701825](http://arxiv.org/abs/math/0701825)
 
 
-### Relation to higher order Vassiliev invariants
+### As construction of higher order Vassiliev invariants
 
 Discussion of the graph complex as computing higher order [[Vassiliev invariants]], hence the [[real cohomology]] of spaces of [[knots]] (with the cohomology in degree-0 being the ordinary [[Vassiliev invariants]]):
 
