@@ -11,6 +11,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -157,7 +158,7 @@ just as befits the definition of a [[Feynman amplitude]] when [[correlator as di
 ### Model for spaces of knots  
  {#IdeaGraphComplexModelForSpacesOfKnots}
 
-The graph complex model for [[spaces of knots]] was originally sketched in [Kontsevich 93, Section 5](#Kontsevich93) and worked out in [Cattaneo, Cotta-Ramusino, Longoni 02](#CattaneoCottaRamusinoLongoni02), [05](#CattaneoCottaRamusinoLongoni05).
+The graph complex model for [[spaces of knots]] was originally sketched in [Kontsevich 93, Section 5](#Kontsevich93) and worked out in [Cattaneo, Cotta-Ramusino, Longoni 02](#CattaneoCottaRamusinoLongoni02), [05](#CattaneoCottaRamusinoLongoni05), see also [Bar-Natan 91](#BarNatan91)
 
 Here we denote this version of the graph complex by "$KnotGraphs$", in contrast to "$Graphs$" for the other model, discussed [above](#IdeaGraphComplexModelsForConfigurationSpacesOfPoints).
 
@@ -1301,7 +1302,7 @@ Hence the only non-vanishing graphs of degree 0 are those which have some isolat
 
 We discussion graph complexes $KnotGraphs(\Sigma)$ modelling the [[real cohomology]] of [[spaces of knots]] $Emb(S^1,\Sigma)$. 
 
-For the case of $\Sigma = \mathbb{R}^D$ these were originally hinted at in [Kontsevich 93, Section 5](#Kontsevich93) and discussed in detail in [Cattaneo, Cotta-Ramusino, Longoni 02](#CattaneoCottaRamusinoLongoni02) [05](#CattaneoCottaRamusinoLongoni05). Review is in [Volić 13, Section 4](#Volic13).
+For the case of $\Sigma = \mathbb{R}^D$ these were originally hinted at in [Kontsevich 93, Section 5](#Kontsevich93) and discussed in detail in [Cattaneo, Cotta-Ramusino, Longoni 02](#CattaneoCottaRamusinoLongoni02) [05](#CattaneoCottaRamusinoLongoni05), see also [Bar-Natan 91](#BarNatan91). Review is in [Volić 13, Section 4](#Volic13).
 
 
 \linebreak
@@ -1357,15 +1358,30 @@ In contrast, the differential of the diagram in $KnotGraphs(\mathbb{R}^3)$ consi
 
 In both cases, the identification of graphs whose external labels are ccyclically permutated identifies the right hand sides of both these coboundaries with multiples of one and the same element in the graph complex.
 
-Accordingly, the corresponding linear combination yields a [[cocycle]] of degree 0 in $KnotGraphs(\mathbb{R}^3)$:
+Accordingly, the corresponding linear combination 
+
+is a [[cocycle]] of degree 0 in $KnotGraphs(\mathbb{R}^3)$:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/CocycleInKnotGraphs.jpg" width="460">
 </center>
 
+
 =--
 
-([Cattaneo, Cotta-Ramusino, Longoni 02, Figure 2](#CattaneoCottaRamusinoLongoni02))
+([Bar-Natan 91, 4.3.2](#BarNatan91), [Cattaneo, Cotta-Ramusino, Longoni 02, Figure 2](#CattaneoCottaRamusinoLongoni02))
+
+
+<div style="float:left;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/KnotGraphCocycleOfOrder2.jpg" width="300">
+</div>
+
+\linebreak
+\linebreak
+
+$\in H^0\Big( KnotGraphs\big( \mathbb{R}^3 \big) \Big)$
+
+
 
 \linebreak
 
@@ -1589,6 +1605,28 @@ Review is in [Volić 13, Section 4](#Volic13).
 \]
 
 
++-- {: .num_prop #FirstKnotInvariantFromChernSimonsFeynmanAmplitude}
+###### Proposition
+**([[knot invariant]] from [[Chern-Simons theory]] [[Feynman amplitude]])**
+
+
+The [[Feynman amplitude]] 
+of the knot graph cocycle [[Feynman diagram]] from Example \ref{KnotGraphCocycleOfOrder2}, in [[Chern-Simons theory]] with a [[Wilson loop]] [[knot]], is a [[knot invariant]]:
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/FeynmanAmplitudeKnotInvariant.jpg" width="600">
+</center>
+
+
+=--
+
+
+This is due to [Guadagnini-Martellini-Mintchev 89](#GuadagniniMartelliniMintchev89)
+and [Bar-Natan91](#BarNatan91), recalled im [Volić 13, Theorem 3.3.5](#Volic13).
+
+\linebreak
+
 
 Various authors discuss Vassiliev invariants in terms of graphs subject to the "STU-relation" 
  ([Kontsevich 93, Figure 8](#Kontsevich93)
@@ -1613,11 +1651,6 @@ That these relations characterize the cohomology of the knot-graph complex in th
 
 
 
-## Examples 
-
-* Graph complexes may be obtained from the [[Feynman transform]] of a [[modular operad]].
-
-
 ## Further applications
 
 ...moduli spaces
@@ -1626,10 +1659,9 @@ That these relations characterize the cohomology of the knot-graph complex in th
 
 ...Rozansky-Witten theory
 
-
 ...description of the classifying space $BOut(F_n)$ of the group of outer automorphisms of a free group with $n$ generators
 
-Graph complex controls the universal $L_\infty$-deformations of the space of polyvector fields. 
+... another graph complex controls the universal $L_\infty$-deformations of the space of polyvector fields. 
 
 
 ## Related concepts
@@ -1733,12 +1765,17 @@ The following survey has discussion of context between the graph complex and [[B
 
 Discussion of the graph complex as computing higher order [[Vassiliev invariants]], hence the [[real cohomology]] of spaces of [[knots]] (with the cohomology in degree-0 being the ordinary [[Vassiliev invariants]]):
 
-
 * [Kontsevich 93, Section 5](#Kontsevich93)
 
 * {#CattaneoCottaRamusinoLongoni02} [[Alberto Cattaneo]], Paolo Cotta-Ramusino, Riccardo Longoni, _Configuration spaces and Vassiliev classes in any dimension_, Algebr. Geom. Topol. 2 (2002) 949-1000 ([arXiv:math/9910139](https://arxiv.org/abs/math/9910139))
 
 * {#CattaneoCottaRamusinoLongoni05} [[Alberto Cattaneo]], Paolo Cotta-Ramusino, Riccardo Longoni, _Algebraic structures on graph cohomology_, Journal of Knot Theory and Its Ramifications, Vol. 14, No. 5 (2005) 627-640 ([arXiv:math/0307218](https://arxiv.org/abs/math/0307218), [doi:10.1142/S0218216505004019](http://dx.doi.org/10.1142/S0218216505004019), [math.GT/0307218](http://arxiv.org/abs/math/0307218), [MR2006g:58021](http://www.ams.org/mathscinet-getitem?mr=2006g:58021))
+
+* {#GuadagniniMartelliniMintchev89} E. Guadagnini, E. Martellini, M. Mintchev, _Chern-Simons field theory and  link invariants_,  In:   _Knots,  Topology  and  QuantumField Theories_,  Proceedings of the Johns Hopkins Workshop onCurrent Problems in Particle Theory 13, Florence (1989), World Scientific ([doi:10.1142/9789814540742](https://doi.org/10.1142/9789814540742))
+
+* {#BarNatan91} [[Dror Bar-Natan]], _Perturbative aspects of the Chern-Simons topological quantum field theory_, thesis 1991 ([spire:323500](http://inspirehep.net/record/323500), [proquest:303979053](https://search.proquest.com/docview/303979053), [[BarNatanPerturbativeCS91.pdf:file]])
+
+
 
 Reviewed in:
 
