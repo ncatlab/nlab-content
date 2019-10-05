@@ -30,7 +30,8 @@ The _Freyd--Mitchell embedding theorem_ says that every [[abelian category]] is 
 +-- {: .num_remark}
 ###### Remark
 
-It is easy to see that not every abelian category is _[[equivalence of categories|equivalent]]_ to $R$[[Mod]] for some [[ring]] $R$.  The reason is that $R Mod$ has all [[small category|small]] [[limits]] and [[colimits]].  
+It is easy to see that not every abelian category is _[[equivalence of categories|equivalent]]_ to $R$[[Mod]] for some [[ring]] $R$.  The reason is that $R Mod$ has all [[small category|small]] [[limits]] and [[colimits]].  But for instance, for $R$ Noetherian, the category of [[finitely generated module|finitely generated]] $R$-modules is an abelian category but lacks these properties.
+
 =--
 
 However, we have
