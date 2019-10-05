@@ -116,7 +116,7 @@ organize into a single degree-0 bilinear pairing on the [[graded abelian group]]
 \[
   \label{DegreeShiftedHomotopyGroups}
   \array{
-    \pi_{\bullet - 1}(X) 
+    \pi_{\bullet + 1}(X) 
     =
     &
     \pi_1(X)
