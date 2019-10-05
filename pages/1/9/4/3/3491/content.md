@@ -158,7 +158,7 @@ with $X \to Z$ a left/right/inner anodyne cofibration and $Z \to Y$ accordingly 
 
 Under the operation of forming the [[opposite quasi-category]], left fibrations turn into right fibrations, and vice versa: if $p : C \to D$ is a left fibration then $p^{op} : C^{op} \to D^{op}$ is a right fibration.
 
-Therefore it is sufficient to list properties of only one type of these fib rations, that for the other follows.
+Therefore it is sufficient to list properties of only one type of these fibrations, that for the other follows.
 
 =--
 
@@ -292,7 +292,7 @@ A canonical class of examples of a [[fibered category]] is the [[codomain fibrat
 +-- {: .num_prop}
 ###### Proposition
 
-Let $p : K \to C$ be an arbitrary morphism to a [[quasi-category]] $C$ and let $C_{p/}$ be the corresponding [[over quasi-category|under quasi-category]]. Then the canonical propjection $C_{p/} \to C$ is a left fibration.
+Let $p : K \to C$ be an arbitrary morphism to a [[quasi-category]] $C$ and let $C_{p/}$ be the corresponding [[over quasi-category|under quasi-category]]. Then the canonical projection $C_{p/} \to C$ is a left fibration.
 
 =--
 
