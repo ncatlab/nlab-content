@@ -1045,7 +1045,7 @@ $$
 ([Lambrechts-Volić 14, Figure 1 and 2](#LambrechtsVolic14))
 
 
-+-- {: .num_defn #DifferentialOfMinimalTrivalenVacuumGraph}
++-- {: .num_example #DifferentialOfMinimalTrivalenVacuumGraph}
 ###### Example
 **(Differential of minimal trivalent [[vacuum diagram]])**
 
@@ -1341,14 +1341,13 @@ The definition is almost exactly the same as that of $\oplus_n Graphs_n\big( \ma
 ###### Example
 **(knot graph cocycle of order 2)**
 
-The differential in $KnotGraphs(\mathbb{R}^3)$ of the single trivalent internal vertext is computd just as in $Graphs_3(\mathbb{R}^3)$ (Example \ref{ThreeTermRelation}):
-
+The differential in $KnotGraphs(\mathbb{R}^3)$ of the single trivalent internal vertext is a variant of that in $Graphs_3\big(\mathbb{R}^3\big)$ (Example \ref{ThreeTermRelation}) and that in $Graphs_0\big( \mathbb{R}^3\big)$ (Example \ref{DifferentialOfMinimalTrivalenVacuumGraph}):
 
 <center>
-<img src="https://ncatlab.org/nlab/files/The3TermRelationInTheKnotGraphComplex.jpg" width="680">
+<img src="https://ncatlab.org/nlab/files/The3TermRelationInTheKnotGraphComplexII.jpg" width="680">
 </center>
 
-Notice here that, in principle, the differential also contracts each of the 3 arcs, but since the result of these contractions is a pair of parallel edges, these contributions are vanishing graphs (Def. \ref{VanishingGraphs}).
+Notice how the edges parallel to the outer dashed arcs do not make the graphs in the first line vanish, but the [[parallel edges]] appearing in the second line make vanishing graphs (Def. \ref{VanishingGraphs}).
 
 In contrast, the differential of the diagram in $KnotGraphs(\mathbb{R}^3)$ consisting of just two overlapping chords gets contributions only from contraction of the four arcs:
 
