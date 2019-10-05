@@ -16,7 +16,7 @@
 
 ## Idea
 
-Two [[morphisms]] in a category $C$ are __parallel__ if they have the same [[source]] and [[target]]. Equivalently a pair of __parallel morphisms__ in $C$ consists of an [[object]] $x$, and object $y$, and two morphisms $f, g: x \to y$.
+Two [[morphisms]] in a category $C$ (or just [[edges]] in a [[directed graph]]) are __parallel__ if they have the same [[source]] and [[target]]. Equivalently a pair of __parallel morphisms__ in $C$ consists of an [[object]] $x$, and object $y$, and two morphisms $f, g: x \to y$.
 
 $$
   \array{
@@ -54,3 +54,7 @@ The [[limit]] of a pair (or family) or morphisms is called their __[[equalizer]]
 
 [[!redirects pair of parallel morphisms]]
 [[!redirects pairs of parallel morphisms]]
+
+[[!redirects parallel edge]]
+[[!redirects parallel edges]]
+
