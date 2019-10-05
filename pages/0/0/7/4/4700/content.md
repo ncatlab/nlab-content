@@ -341,7 +341,7 @@ For instance:
 ### **1)** Graph complexes modelling configuration spaces of points
  {#GraphComplexesModellingConfigurationSpacesOfPoints}
 
-We discussion graph complexes $Graphs_n(\Sigma)$ modelling the [[real cohomology]] of [[configuration spaces of points]] $Conf_n(\Sigma)$. 
+We discuss graph complexes $Graphs_n(\Sigma)$ modelling the [[real cohomology]] of [[configuration spaces of points]] $Conf_n(\Sigma)$. 
 
 For the case of $\Sigma = \mathbb{R}^D$ these were originally hinted at in [Kontsevich 92 (p. 11-12)](#Kontsevich92) and discussed in detail in [Lambrechts-Volić 14](#LambrechtsVolic14).
 
@@ -1300,7 +1300,7 @@ Hence the only non-vanishing graphs of degree 0 are those which have some isolat
   {#GraphComplexesModellingSpacesOfKnots}
 
 
-We discussion graph complexes $KnotGraphs(\Sigma)$ modelling the [[real cohomology]] of [[spaces of knots]] $Emb(S^1,\Sigma)$. 
+We discuss graph complexes $KnotGraphs(\Sigma)$ modelling the [[real cohomology]] of [[spaces of knots]] $Emb(S^1,\Sigma)$. 
 
 For the case of $\Sigma = \mathbb{R}^D$ these were originally hinted at in [Kontsevich 93, Section 5](#Kontsevich93) and discussed in detail in [Cattaneo, Cotta-Ramusino, Longoni 02](#CattaneoCottaRamusinoLongoni02) [05](#CattaneoCottaRamusinoLongoni05), see also [Bar-Natan 91](#BarNatan91). Review is in [Volić 13, Section 4](#Volic13).
 
@@ -1381,6 +1381,7 @@ is a [[cocycle]] of degree 0 in $KnotGraphs(\mathbb{R}^3)$:
 
 $\in H^0\Big( KnotGraphs\big( \mathbb{R}^3 \big) \Big)$
 
+For the correspinding [[Feynman amplitude]] [[knot invariant]] see Prop. \ref{FirstKnotInvariantFromChernSimonsFeynmanAmplitude} below.
 
 
 \linebreak
