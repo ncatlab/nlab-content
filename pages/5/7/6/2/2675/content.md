@@ -6,8 +6,15 @@
 
 * biography at MacTutor [history of math archive](http://www-history.mcs.st-andrews.ac.uk/Biographies/Arnold.html)
 
+## Selected writings
 
-# related $n$Lab entries
+On the [[real cohomology]] of [[configuration spaces of points]]:
+
+* {#Arnold69} [[Vladimir Arnold]], _The cohomology ring of the colored braid group_, Mat. Zametki, 1969, Volume 5, Issue 2, Pages 227–231 ([mathnet:mz6827](http://mi.mathnet.ru/eng/mz6827))
+
+
+
+## Related $n$Lab entries
 
 * [[symplectic geometry]]
 
