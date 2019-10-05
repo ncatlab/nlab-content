@@ -95,7 +95,7 @@ See also
 
 * [[Valerio Toledano-Laredo]], _Flat connections and quantum groups_, Acta Appl. Math. 73 (2002), 155-173, [math.QA/0205185](http://arxiv.org/abs/math.QA/0205185)
 
-* Toshitake Kohno, _Conformal field theory and topology_, transl. from the 1998 Japanese original by the author. Translations of Mathematical Monographs __210__. Iwanami Series in Modern Mathematics. Amer. Math. Soc. 2002. x+172 pp.
+* [[Toshitake Kohno]], _Conformal field theory and topology_, transl. from the 1998 Japanese original by the author. Translations of Mathematical Monographs __210__. Iwanami Series in Modern Mathematics. Amer. Math. Soc. 2002. x+172 pp.
 
 * [[P. Etingof]], N. Geer, _Monodromy of trigonometric KZ equations_, [math.QA/0611003](http://arxiv.org/abs/math.QA/0611003)
 * [[Valerio Toledano-Laredo]], _A Kohno-Drinfeld theorem for quantum Weyl groups_, [math.QA/0009181](http://arxiv.org/abs/math.QA/0009181)
