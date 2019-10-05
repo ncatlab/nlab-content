@@ -68,11 +68,15 @@ A **Petri net** $N$ consists of
 
 * [[G. Winskel]], M. Nielsen, _Models for concurrency_, Handbook of Logic in Computer Science vol. 3, pp. 100 -- 200, Oxford Univ. Press 1994. (see also [online technical report](http://www.daimi.au.dk/PB/463/PB-463.pdf)).
 
+* [[John C. Baez]] and [[Jacob Biamonte]], _Quantum techniques in stochastic mechanics_, World Scientific, 2018. [World Scientific](https://www.worldscientific.com/worldscibooks/10.1142/10623#t=suppl) [pdf](http://math.ucr.edu/home/baez/stoch_stable.pdf)
+
+* [[José Meseguer]] and [[Ugo Montanari]], _Petri nets are monoids_, Information and Computation, Volume 88, Issue 2, Pages 105-155, 1990. [journal](https://www.sciencedirect.com/science/article/pii/0890540190900138), [pdf](https://core.ac.uk/download/pdf/82342688.pdf)
+
 * [wikipedia](http://en.wikipedia.org/wiki/Petri_net)
 
 For an introduction to Petri nets (en francais, which is very clear and accessible) look at
 
-* Robert Valette, [Les R&#233;seaux de Petri](http://homepages.laas.fr/robert/enseignement.d/cour01.pdf).
+* [[Robert Valette]], [Les R&#233;seaux de Petri](http://homepages.laas.fr/robert/enseignement.d/cour01.pdf).
 
 Connection to linear logic:
 
