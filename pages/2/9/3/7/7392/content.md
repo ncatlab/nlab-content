@@ -1,5 +1,5 @@
 
-The entries of the following table display models, [[model categories]], and  [[Quillen equivalences]] between these that [[presentable (∞,1)-category|present]] the [[(∞,1)-category]] of [[(∞,1)-categories]] (second table), of [[(∞,1)-operads]] (third table) and of $\mathcal{O}$-[[monoidal (∞,1)-categories]] (fourth table).
+The entries of the following table display [[model categories]] and  [[Quillen equivalences]] between these that [[presentable (∞,1)-category|present]] the [[(∞,1)-category]] of [[(∞,1)-categories]] (second table), of [[(∞,1)-operads]] (third table) and of $\mathcal{O}$-[[monoidal (∞,1)-categories]] (fourth table).
 
 |  | general pattern |  | |  |
 |--|--|--|-|--|
