@@ -508,6 +508,92 @@ configuration spaces of points canonically have the [[structure]] of [[algebras 
 
 For more see [there](Goodwillie+derivatives+of+the+identity+functor#Properties)
 
+### Cohomology
+ {#Cohomology}
+
+
++-- {: .num_prop #RealCohomologyOfConfigurationSpaceOfOrderedPointsInEuclideanSpace}
+###### Proposition
+**([[real cohomology]] of configuration spaces of ordered points in [[Euclidean space]])**
+
+The [[real cohomology|real]] [[cohomology ring]] of the configuration spaces 
+
+$$
+  Conf_n\big( \mathbb{R}^D \big) 
+  \;\coloneqq\;
+  \big( \mathbb{R}^D \big)^n \setminus FatDiag
+$$
+
+of $n$ ordered points in [[Euclidean space]] $\mathbb{R}^D$ is [[generators and relations|generated]] by elements 
+
+$$ 
+  \omega_{i j}
+  \;\;
+  \in
+  H^2
+  \Big(
+    Conf_n\big( \mathbb{R}^D \big),
+    \mathbb{R}
+  \Big)
+$$
+
+for $i, j \in \{1, \cdots, n\}$
+
+subject to these three [[generators and relations|relations]]:
+
+1. $\omega_{i j} = (-1)^D \omega_{j i} $;
+
+1. $\omega_{i j} \wedge \omega_{i j} \;=\; 0$;
+
+1. $\omega_{i j} \wedge \omega_{j k} + \omega_{j k} \omega_{k i} + \omega_{k i} \wedge \omega_{i j} = 0$.
+
+Hence:
+
+$$
+  H^\bullet
+  \Big(
+    Conf_n\big( \mathbb{R}^D \big),
+    \mathbb{R}
+  \Big)
+  \;\simeq\;
+  \mathbb{R}\Big[ \big\{\omega_{i j} \big\}_{i, j \in \{1, \cdots, n\}} \Big]
+  \Big/
+  \left(
+    \array{
+      \omega_{i j} = (-1)^D \omega_{j i}
+      \\
+      \omega_{i j} \wedge \omega_{i j} = 0
+      \\
+      \omega_{i j} \wedge \omega_{j k} + \omega_{j k} \omega_{k i} + \omega_{k i} \wedge \omega_{i j} = 0    
+     }
+     \;\;
+     \text{for}\;
+     i,j \in \{1, \cdots, n\}
+  \right)
+$$
+
+=--
+
+This is due to [Arnold 69](#Arnold69), [Cohen 73](#Cohen73).
+
+See also at _[[Fulton-MacPherson compactification]]_ the section _[de Rham cohomology](Fulton-MacPherson+operad#deRhamCohomology)_.
+
+
+
++-- {: .num_remark #RealCohomologyOfConfigurationSpaceInTermsOfGraphCohomology} 
+###### Remark
+**([[real cohomology]] of the configuration space in terms of [[graph cohomology]])**
+
+In the [[graph complex]]-model for the [[rational homotopy type]] of the ordered [[configuration space of points]] $Conf_n\big( \mathbb{R}^D\big)$ the three relations in Prop. \ref{RealCohomologyOfConfigurationSpaceOfOrderedPointsInEuclideanSpace} are incarnated as follows:
+
+1. a graph changes sign when one of its edges is reversed ([this Def.](graph+complex#SignRulesForGraphs))
+
+1. a graph with [[parallel edges]] is a vanishing graph ([this Def.](graph+complex#VanishingGraphs))
+
+1. the graph coboundary of a single trivalent internal vertex ([this Example](graph+complex#ThreeTermRelation)).
+
+=--
+
 
 ## Occurrences and Applications 
   {#OccurrencesAndApplications}
@@ -548,12 +634,19 @@ Math. Scand. __10__ (1962) 111-118, [MR141126](http://www.ams.org/mathscinet-get
 
 * Edward R. Fadell, Sufian Y. Husseini, _Geometry and topology of configuration spaces_, Springer Monographs in Mathematics (2001), [MR2002k:55038](http://www.ams.org/mathscinet-getitem?mr=2002k:55038), xvi+313 pp.
 
-* F. R. Cohen, [[Sam Gitler|S. Gitler]], _On loop spaces of configuration spaces_, Trans. Amer. Math. Soc. __354__ (2002), no. 5, 1705&#8211;1748, [MR2002m:55020](http://www.ams.org/mathscinet-getitem?mr=1881013)
+* [[Fred Cohen]], [[Sam Gitler|S. Gitler]], _On loop spaces of configuration spaces_, Trans. Amer. Math. Soc. __354__ (2002), no. 5, 1705&#8211;1748, [MR2002m:55020](http://www.ams.org/mathscinet-getitem?mr=1881013)
 
 
 * [[Sadok Kallel]], Ines Saihi, _Homotopy Groups of Diagonal Complements_, Algebr. Geom. Topol. 16 (2016) 2949-2980 ([arXiv:1306.6272](https://arxiv.org/abs/1306.6272))
 
 
+### Cohomology 
+ {#ReferencesCohomology}
+
+
+* {#Arnold69} [[Vladimir Arnold]], _The cohomology ring of the colored braid group_, Mat. Zametki, 1969, Volume 5, Issue 2, Pages 227–231 ([mathnet:mz6827](http://mi.mathnet.ru/eng/mz6827))
+
+* {#Cohen73} [[Fred Cohen]], _Cohomology of braid spaces_, Bull. Amer. Math. Soc. Volume 79, Number 4 (1973), 763-766 ([euclid:1183534761](https://projecteuclid.org/euclid.bams/1183534761))
 
 
 ### Electric field map/Scanning map and cohomotopy
