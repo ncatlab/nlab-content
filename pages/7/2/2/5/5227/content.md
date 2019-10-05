@@ -74,6 +74,10 @@ For an introduction to Petri nets (en francais, which is very clear and accessib
 
 * Robert Valette, [Les R&#233;seaux de Petri](http://homepages.laas.fr/robert/enseignement.d/cour01.pdf).
 
+Connection to linear logic:
+
+* [[Uffe Engberg]] and [[Glynn Winskel]], _Petri nets as models of linear logic_. CAAP 1990. Lecture Notes in Computer Science, vol 431. Springer, Berlin, Heidelberg. [Springer](https://link.springer.com/chapter/10.1007/3-540-52590-4_46), [pdf on ResearchGate](https://www.researchgate.net/publication/318253097_Petri_Nets_as_Models_of_Linear_Logic)
+
 
 [[!redirects Petri net]]
 [[!redirects Petri nets]]
