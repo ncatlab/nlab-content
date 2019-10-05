@@ -19,7 +19,7 @@
 
 ## Idea
 
-The [[Denis-Charles Cisinski|Cisinski]]--[[Ieke Moerdijk|Moerdijk]] [[model category]] structure on the [[category]] $dSet$ of [[dendroidal sets]] models [[(∞,1)-operads]] in generalization of the way the [[Andre Joyal|Joyal]] [[model structure on simplicial sets]] models [[(∞,1)-category|(∞,1)-categories]].
+The [[Denis-Charles Cisinski|Cisinski]]--[[Ieke Moerdijk|Moerdijk]] [[model category]] structure on the [[category]] [[dSet]] of [[dendroidal sets]] models [[(∞,1)-operads]] in generalization of the way the [[Andre Joyal|Joyal]] [[model structure on simplicial sets]] models [[(∞,1)-category|(∞,1)-categories]].
 
 ## Overview
 
