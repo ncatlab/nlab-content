@@ -388,7 +388,13 @@ Some pointers regarded the [[perturbative quantum field theory|perturbative]] [[
 
 The standard [[Feynman perturbation series]] for [[perturbative quantum field theory]] based on the [[Chern-Simons propagator]] (see there for more) was discussed in [Axelrod-Singer 91, 93](#AxelrodSinger), via [[Feynman amplitudes on compactified configuration spaces of points]].
 
-This led [Kontsevich 94](#Kontsevich) to suggest that the perturbative Chern-Simons [[Feynman amplitudes]] serves to exhibit a [[graph complex]]-model for the [[Fulton-MacPherson compactification]] of [[configuration spaces of points]], which was proven in [Lambrechts-Volic 14](#LambrechtsVolic14)
+This led [Kontsevich 94](#Kontsevich) to suggest that the perturbative Chern-Simons [[Feynman amplitudes]] serves to exhibit a [[graph complex]]-model for the [[Fulton-MacPherson compactification]] of [[configuration spaces of points]] and for the [[spaces of knots]].
+
+For the first case this was proven in[Lambrechts-Volic 14](#LambrechtsVolic14).
+
+For the second case see [CattaneoCottaRamusinoLongoni02](graph+complex#CattaneoCottaRamusinoLongoni02), [Volić 13](graph+complex#Volic13) and [Bar-Natan 91](#BarNatan91)
+
+
 
 #### Path integral quantization
  {#PerturbativePathIntegralQuantization}
@@ -976,8 +982,11 @@ Discussion of [[perturbation theory|perturbative quantization]] of Chern-Simons 
  
 * {#LambrechtsVolic14} [[Pascal Lambrechts]], [[Ismar Volić]], sections 6 and 7 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([arXiv:0808.0457](https://arxiv.org/abs/0808.0457), [doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
 
+Discussion of [[Vassiliev invariant|Vassiliev]] [[knot invariants]] from perturbative Chern-Simons [[Feynman amplitudes]]
 
-See also the [[graph complex]]-model for the _[[Fulton-MacPherson compactification]] of [[configuration spaces of points]]_.
+* {#BarNatan91} [[Dror Bar-Natan]], _Perturbative aspects of the Chern-Simons topological quantum field theory_, thesis 1991 ([spire:323500](http://inspirehep.net/record/323500), [proquest:303979053](https://search.proquest.com/docview/303979053), [[BarNatanPerturbativeCS91.pdf:file]])
+
+For more on this see at _[[graph complex]]_  as a model for the [[spaces of knots]]_.
 
 Perturbative quantization along the lines of _[Renormalization - Of theories in BV-CS form](renormalization#OfTheoriesInBVForm)_ is in
 
