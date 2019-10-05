@@ -508,7 +508,19 @@ configuration spaces of points canonically have the [[structure]] of [[algebras 
 
 For more see [there](Goodwillie+derivatives+of+the+identity+functor#Properties)
 
-### Cohomology
+
+
+
+\linebreak
+
+
+### Rational homotopy type
+ {#RationalHomotopyType}
+
+We discuss aspects of the [[rational homotopy type]] of configuration spaces of points. See also at _[[graph complex]]_.
+
+
+#### Rational cohomology
  {#Cohomology}
 
 
@@ -574,7 +586,7 @@ $$
 
 =--
 
-This is due to [Arnold 69](#Arnold69), [Cohen 73](#Cohen73).
+This is due to [Arnold 69](#Arnold69), [Cohen 73](#Cohen73). See also [Lambrechts-Tourtchine 09](#LambrechtsTourtchine09).
 
 See also at _[[Fulton-MacPherson compactification]]_ the section _[de Rham cohomology](Fulton-MacPherson+operad#deRhamCohomology)_.
 
@@ -594,6 +606,64 @@ In the [[graph complex]]-model for the [[rational homotopy type]] of the ordered
 
 =--
 
+\linebreak
+
+#### Rational homotopy and Whitehead products
+ {#RationalHomotopyGroups}
+
+Write again
+
+$$
+  Conf_n\big( \mathbb{R}^D \big) 
+  \;\coloneqq\;
+  \big( \mathbb{R}^D \big)^n \setminus FatDiag
+$$
+
+for the configuration space of $n$ ordered points in [[Euclidean space]].
+
++-- {: .num_prop #RationalHomotopyOfConfigurationSpaceOfOrderedPointsInEuclideanSpace}
+###### Proposition
+
+
+The [[Whitehead product]] [[super Lie algebra]] of [[rationalization|rationalized]] [[homotopy groups]]
+
+$$
+  L^n
+  \;\coloneqq\;
+  \pi_{\bullet+1}\Big(  Conf_n\big( \mathbb{R}^D \big) \Big)
+  \otimes_{\mathbb{Z}} \mathbb{Q}
+$$
+
+is [[generators and relations|generated]] from elements
+
+$$
+  \omega^{i j}
+  \;\in\;
+  \pi_2
+  \Big(
+    Conf_n\big( \mathbb{R}^D \big)  
+  \Big)
+  \phantom{AAA}
+  i \neq j \in \{1, \cdots, n\}
+  \,,
+$$
+
+subject to the following [[generators and relations|relations]]:
+
+1. $\omega^{i j} = (-1)^D \omega^{j i}$
+
+1. $\big[ \omega^{i j}, \omega^{k l} \big]$ $\;\;\;$ if $i,j,k,l$ are pairwise distinct;
+
+1. $\big[ \omega^{i j}, \omega^{j k} + \omega^{k i}  \big] = 0$.
+
+=--
+
+
+This is due to [Kohno 02](#Kohno02). See also [Lambrechts-Tourtchine 09](#LambrechtsTourtchine09).
+
+
+
+\linebreak
 
 ## Occurrences and Applications 
   {#OccurrencesAndApplications}
@@ -640,13 +710,7 @@ Math. Scand. __10__ (1962) 111-118, [MR141126](http://www.ams.org/mathscinet-get
 * [[Sadok Kallel]], Ines Saihi, _Homotopy Groups of Diagonal Complements_, Algebr. Geom. Topol. 16 (2016) 2949-2980 ([arXiv:1306.6272](https://arxiv.org/abs/1306.6272))
 
 
-### Cohomology 
- {#ReferencesCohomology}
 
-
-* {#Arnold69} [[Vladimir Arnold]], _The cohomology ring of the colored braid group_, Mat. Zametki, 1969, Volume 5, Issue 2, Pages 227–231 ([mathnet:mz6827](http://mi.mathnet.ru/eng/mz6827))
-
-* {#Cohen73} [[Fred Cohen]], _Cohomology of braid spaces_, Bull. Amer. Math. Soc. Volume 79, Number 4 (1973), 763-766 ([euclid:1183534761](https://projecteuclid.org/euclid.bams/1183534761))
 
 
 ### Electric field map/Scanning map and cohomotopy
@@ -744,12 +808,19 @@ Review includes
 
 This underlies the models of configuration spaces by [[graph complexes]], see there for more.
 
-### Cohomology of configuration spaces
+
+
+### Cohomology 
  {#ReferencesCohomology}
 
-General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configuration spaces of points includes
+General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configuration spaces of points
 
-* [[Carl-Friedrich Bödigheimer]], F. Cohen, L. Taylor, _On the homology of configuration spaces_, Topology Vol. 28 No. 1, p. 111-123 1989 ([pdf](https://core.ac.uk/download/pdf/82124359.pdf))
+
+* {#Arnold69} [[Vladimir Arnold]], _The cohomology ring of the colored braid group_, Mat. Zametki, 1969, Volume 5, Issue 2, Pages 227–231 ([mathnet:mz6827](http://mi.mathnet.ru/eng/mz6827))
+
+* {#Cohen73} [[Fred Cohen]], _Cohomology of braid spaces_, Bull. Amer. Math. Soc. Volume 79, Number 4 (1973), 763-766 ([euclid:1183534761](https://projecteuclid.org/euclid.bams/1183534761))
+
+* [[Carl-Friedrich Bödigheimer]], [[Fred Cohen]], L. Taylor, _On the homology of configuration spaces_, Topology Vol. 28 No. 1, p. 111-123 1989 ([pdf](https://core.ac.uk/download/pdf/82124359.pdf))
 
 * [[Ben Knudsen]], _Betti numbers and stability for configuration spaces via factorization homology_, Algebr. Geom. Topol. 17 (2017) 3137-3187 ([arXiv:1405.6696](https://arxiv.org/abs/1405.6696))
 
@@ -761,9 +832,8 @@ That the [[de Rham cohomology]] of (the [[Fulton-MacPherson compactification]] o
 
 * {#Kontsevich99b} [[Maxim Kontsevich]], around Def. 15 and Lemma 3 in _Operads and Motives in Deformation Quantization_, Lett.Math.Phys.48:35-72,1999 ([arXiv:math/9904055](https://arxiv.org/abs/math/9904055))
 
-niecely reviewed in
+nicely reviewed in [Lambrechts-Volic 14](#LambrechtsVolic14)
 
-* {#LambrechtsVolic14} [[Pascal Lambrechts]], Ismar Volic, sections 6 and 7 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([arXiv:0808.0457](https://arxiv.org/abs/0808.0457), [doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
 
 Further discussion of the graph complex as a model for the [[de Rham cohomology]] of  [[configuration spaces of points]] is in
 
@@ -774,6 +844,14 @@ Further discussion of the graph complex as a model for the [[de Rham cohomology]
 * [[Ricardo Campos]], Najib Idrissi, [[Pascal Lambrechts]], [[Thomas Willwacher]], _Configuration Spaces of Manifolds with Boundary_ ([arXiv:1802.00716](https://arxiv.org/abs/1802.00716))
 
 * [[Ricardo Campos]], Julien Ducoulombier, Najib Idrissi, [[Thomas Willwacher]], _A model for framed configuration spaces of points_ ([arXiv:1807.08319](https://arxiv.org/abs/1807.08319))
+
+### Homotopy
+
+Discussion of [[homotopy groups]] of configuration spaces:
+
+* {#Kohno02} [[Toshitake Kohno]], _Loop spaces of configuration spaces and finite type invariants_, Geom. Topol. Monogr. 4 (2002) 143-160 ([arXiv:math/0211056](https://arxiv.org/abs/math/0211056))
+
+* {#LambrechtsTourtchine09} [[Pascal Lambrechts]], [[Victor Tourtchine]], _Homotopy graph-complex for configuration and knot spaces_, Transactions of the AMS, Volume 361, Number 1, January 2009, Pages 207–222 ([arxiv:math/0611766](https://arxiv.org/abs/math/0611766))
 
 ### As moduli of Dp-D(p+4)-brane bound states:
  {#AsModuliOfD0D4BraneBoundStates}
