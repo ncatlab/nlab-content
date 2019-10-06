@@ -81,6 +81,7 @@ Similarly, the free join-semilattice on a poset $P$ is the $Bool$-enriched analo
 ## Examples
 
 * [[semilattice of commutative subalgebras]]
+* [[suplattice]]
 
 
 [[!redirects meet-semilattice]]
