@@ -354,6 +354,8 @@ $$
 
 * [[sphere packing]]
 
+* The [[non-abelian cohomology|non-abelian]] [[generalized cohomology theory]] [[representable functor|represented]] by [[n-spheres]] is [[Cohomotopy cohomology theory]].
+
 ## References
 
 ### Formalization
