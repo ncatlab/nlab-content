@@ -67,6 +67,7 @@ The formula in prop. \ref{SullivanModelForTheFreeLoopSpace} is the same as that 
 
 ### Homotopy quotient by $S^1$ and cyclic homology
 
+
 +-- {: .num_prop #ModelForS1quotient}
 ###### Proposition
 
@@ -168,6 +169,8 @@ An [[(infinity,1)-category theory|infinity-category theoretic]] proof of this fa
 
 ### The 4-sphere and twisted de Rham cohomology
  {#4SphereAndTwistedDeRham}
+
+We discuss the Sullivan model for the free and cyclic loop space of the [[4-sphere]]. This may also be thought of as the [[cocycle space]] for [[rational Cohomotopy|rational 4-Cohomotopy]], see [FSS16, Section 3](#FiorenzaSatiSchreiber16).
 
 +-- {: .num_example}
 ###### Example
@@ -467,7 +470,9 @@ Review is in
 
 * [[Luc Menichi]], _Sullivan models and free loop space_, A short introduction to Sullivan models, with the Sullivan model of a free loop space and the detailed proof of Vigu&#233;-Sullivan theorem on the Betti numbers of free loop space. Workshop on free loop space &#224; Strasbourg, November 2008 (scanned notes [pdf](http://math.univ-angers.fr/perso/lmenichi/Sullivan_models_free_loop_space.pdf))
 
-* {#FiorenzaSatiSchreiber16} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Rational sphere valued supercocycles in M-theory]]_, ([arXiv:1606.03206](https://arxiv.org/abs/1606.03206)) 
+
+* {#FiorenzaSatiSchreiber16} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: _[[schreiber:Rational sphere valued supercocycles in M-theory|Rational sphere valued supercocycles in M-theory and type IIA string theory]]_, Journal of Geometry and Physics, Volume 114, Pages 91-108 (2017) ([arXiv:1606.03206](https://arxiv.org/abs/1606.03206))
+
 
 * {#FSS16b} [[nLab:Domenico Fiorenza]], [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]_ ([arXiv:1611.06536](https://arxiv.org/abs/1611.06536))
 
