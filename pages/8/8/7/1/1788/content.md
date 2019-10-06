@@ -1,5 +1,93 @@
 
 
+$$
+  A
+  \;\coloneqq\;
+  \left(
+    \underoverset{n}{i = 1}{\bigoplus}
+     Sym
+     \Big(
+       \big(
+         H_{n-i}(X)
+       \big)
+       [i] 
+     \Big) 
+  \right)
+  \otimes
+  \underoverset{i = 2}{2n}{\bigotimes}
+  Sym
+  \Big(
+    \big(
+      H_{2n - i}(X)
+    \big)[i - 1]
+  \Big)
+$$
+
+
+$$
+  H_n\big( S^3, \mathbb{R}\big)
+  \;=\;
+  \left\{
+  \array{
+    \mathbb{R} &\vert& n \in \{0,3\}
+    \\
+    0 &\vert& \text{otherwise}
+  }
+  \right.
+$$
+
+$$
+  a_{{}_{3}}
+$$
+
+$$
+  b_{{}_{4-3}}
+  ,
+  b_{{}_{4-0}}  
+$$
+
+$$
+  v_{{}_{8-4}}
+  ,
+  v_{{}_{8-1}}
+$$
+
+$$
+  s_{{}_{6}}
+  \;=\;
+  -
+  b_{{}_{4-3}}
+  \vee 
+  b_{{}_{4-3}}  
+  \otimes
+  a_{{}_{3}}
+  \wedge 
+  a_{{}_{3}}
+$$
+
+$$
+  CE
+  \Big( 
+    \mathfrak{l}
+    Maps
+    \big(
+      S^3, S^4
+    \big)
+  \Big)
+  \left(
+  \begin{aligned}
+    d\, b_4 & = 0
+    \\
+    d\, b_1 & = 0
+    \\
+    d\, v_{{}_{4}} & = 2 \cdot b_{{}_{4}} \wedge b_{{}_{1}}
+    \\
+    d\, v_{{}_{7}} & = 2 \cdot b_{{}_{4}} \wedge b_{{}_{4}}
+  \end{aligned}
+  \right)
+$$
+
+
 
 \[
   \label{TheQuasiIsomorphism}
