@@ -29,5 +29,7 @@ Hence, with the pertinent conditions on the [[domain]] [[space]] $X$ satisfied, 
 
 * [[real cohomology]]
 
+* [[rational Cohomotopy]]
+
 * [[rational homotopy theory]]
 
