@@ -128,4 +128,9 @@ In a sequence of followup articles, authors found this problematic and tried to 
 [[!redirects Ramond–Ramond field]]
 [[!redirects Ramond--Ramond field]]
 
+[[!redirects Ramond-Ramond fields]]
+[[!redirects Ramond–Ramond fields]]
+[[!redirects Ramond--Ramond fields]]
+
+
 [[!redirects RR-charge]]
