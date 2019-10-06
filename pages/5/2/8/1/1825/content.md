@@ -269,15 +269,50 @@ All [[PL manifold|PL]] [[4-manifolds]] are _simple_ branched covers of the  [[4-
 But the [[n-torus]] for $n \geq 3$ is _not a [[cyclic group|cyclic]]_ branched over of the [[n-sphere]] ([Hirsch-Neumann 75](branched+cover#HirschNeumann75))
 
 
+### Iterated loop spaces
 
-## Low dimensions
++-- {: .num_prop #RationalCohomologyOfIteratedLoopSpaceOf2kSphere}
+###### Proposition     
+**([[rational cohomology]] of [[iterated loop space]] of the [[n-sphere|2k-sphere]])**
+
+Let 
+
+$$
+  1 \leq D \lt n = 2k \in \mathbb{N}
+
+$$ 
+
+(hence two [[positive number|positive]] [[natural numbers]], one of them required to be [[even number|even]] and the other required to be smaller than the first) and consider the [[iterated loop space|D-fold loop space]] $\Omega^D S^n$ of the [[n-sphere]]. 
+
+Its [[rational cohomology|rational]] [[cohomology ring]] is the [[free construction|free]] [[graded-commutative algebra]] over $\mathbb{Q}$ on one [[generators and relations|generator]] $e_{n-D}$ of degree $n - D$ and one generator $a_{2n - D - 1}$ of degree $2n - D - 1$:
+
+$$
+  H^\bullet
+  \big(
+    \Omega^D S^n
+    ,
+    \mathbb{Q}
+  \big)
+  \;\simeq\;
+  \mathbb{Q}\big[ e_{n - D}, a_{2n - D - 1} \big] 
+  \,.
+$$  
+
+=--
+
+([Kallel-Sjerve 99, Prop. 4.10](#KallelSjerve99))
+
+
+## Examples
+ {#Examples}
 
 *  The $(-1)$-sphere is the [[empty space]].
-*  The [[0-sphere]] is the [[disjoint union]] of two [[points]].
-*  The $1$-sphere is the [[circle]].
-*  The $2$-sphere is usual sphere from ordinary geometry. This canonically carries the structure of a [[complex manifold]] which makes it the [[Riemann sphere]].
 
-Note that this violates the convention that a $1$-foo is a foo; instead the ruling convention being used is that an $n$-foo has dimension $n$.  One could follow both by saying '$n$-circle' instead, although this might get confused with the $n$-[[torus]].
+*  The [[0-sphere]] is the [[disjoint union]] of two [[points]].
+
+*  The [[1-sphere]] is the [[circle]].
+
+*  The [[2-sphere]] is usual sphere from ordinary geometry. This canonically carries the structure of a [[complex manifold]] which makes it the [[Riemann sphere]].
 
 * The [[3-sphere]] and [[4-sphere]] and [[6-sphere]] and [[7-sphere]] are interesting, too.
 
@@ -375,11 +410,15 @@ The following to be handled with care:
 
 * [[Michael Atiyah]], _The non-existent complex 6-sphere_, [arxiv/1610.09366](https://arxiv.org/abs/1610.09366)
 
-### Embeddings of sphere
+### Embeddings of spheres
 
 The ([[isotopy]] [[equivalence class|class]] of an) [[embedding of differentiable manifolds|embedding]] of a [[circle]] (1-sphere) into the [[3-sphere]] is a _[[knot]]_. Discussion of embeddings of spheres of more general dimensions into each other:
 
 * {#Haefliger66} [[André Haefliger]], _Differentiable Embeddings of $S^n$ in $S^{n+q}$ for $q \gt 2$_, Annals of Mathematics Second Series, Vol. 83, No. 3 (May, 1966), pp. 402-436 ([jstor:1970475](https://www.jstor.org/stable/1970475))
+
+### Iterated loop spaces
+
+* {#KallelSjerve99} [[Sadok Kallel]], [[Denis Sjerve]], _On Brace Products and the Structur eof Fibrations with Section_, 1999 ([pdf](https://www.math.ubc.ca/~sjer/brace.pdf), [[KallelSjerv99.pdf:file]])
 
 [[!redirects n-sphere]]
 [[!redirects n-spheres]]
