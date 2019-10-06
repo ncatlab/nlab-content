@@ -23,7 +23,9 @@ Given two [[topological spaces]] $X$, $Y$ one may ask for the [[rational homotop
 
 See at _[[Sullivan model of free loop space]]_.
 
-### Mapping spaces between spheres
+### Rational Cohomotopy spaces
+
+We discuss tesults on the [[rational homotopy type]] of [[spaces of maps]] inti an [[n-sphere]], hence [[rational Cohomotopy]] [[cocycle]] spaces.
 
 +-- {: .num_prop}
 ###### Proposition     
@@ -108,18 +110,11 @@ $$
 
 ## References
 
-### Rational cohomology of mapping spaces
 
-On [[rational cohomology]] of [[iterated loop spaces]] of [[n-spheres]]:
-
-* {#KallelSjerve99} [[Sadok Kallel]], [[Denis Sjerve]], _On Brace Products and the Structur eof Fibrations with Section_, 1999 ([pdf](https://www.math.ubc.ca/~sjer/brace.pdf), [[KallelSjerv99.pdf:file]])
-
-### Sullivan models for mapping spaces
+### General
  {#ReferencesSullivanModelsForMappingSpaces}
 
-Discussion of [[Sullivan models]] and models via [[L-∞ algebra]]:
-
-* {#MollerRaussen85} [[Jesper Møller]], [[Martin Raussen]], _Rational Homotopy of Spaces of Maps Into Spheres and Complex Projective Spaces_, Transactions of the American Mathematical Society Vol. 292, No. 2 (Dec., 1985), pp. 721-732 ([jstor:2000242](https://www.jstor.org/stable/2000242)) 
+Discussion of [[Sullivan models]] and models via [[L-∞ algebra]] for [[spaces of maps]]:
 
 * {#CohenVoronov05} [[Ralph Cohen]], [[Alexander Voronov]], _Notes on string topology_ ([arXiv:math/0503625](https://arxiv.org/abs/math/0503625))
 
@@ -130,6 +125,19 @@ Discussion of [[Sullivan models]] and models via [[L-∞ algebra]]:
 * [[Alexander Berglund]], _Rational homotopy theory of mapping spaces via Lie theory for $L_\infty$ algebras_,  Homology, Homotopy and Applications, Volume 17 (2015) Number 2 ([arXiv:1110.6145](https://arxiv.org/abs/1110.6145), [doi:10.4310/HHA.2015.v17.n2.a16]( http://dx.doi.org/10.4310/HHA.2015.v17.n2.a16))
 
 * {#BuijsFelixMurillo12} [[Urtzi Buijs]], [[Yves Félix]], [[Aniceto Murillo]], _$L_\infty$-rational homotopy of mapping spaces_,  published as _$L_\infty$-models of based mapping spaces_,  J. Math. Soc. Japan Volume 63, Number 2 (2011), 503-524 ([arXiv:1209.4756](https://arxiv.org/abs/1209.4756), [doi:10.2969/jmsj/06320503](https://doi.org/10.2969/jmsj/06320503))
+
+### Rational Cohomotopy cocycle spaces
+ {#ReferencesRationalCohomotopy}
+
+
+* {#MollerRaussen85} [[Jesper Møller]], [[Martin Raussen]], _Rational Homotopy of Spaces of Maps Into Spheres and Complex Projective Spaces_, Transactions of the American Mathematical Society Vol. 292, No. 2 (Dec., 1985), pp. 721-732 ([jstor:2000242](https://www.jstor.org/stable/2000242)) 
+
+
+### Rational cohomology of mapping spaces
+
+On [[rational cohomology]] of [[iterated loop spaces]] of [[n-spheres]]:
+
+* {#KallelSjerve99} [[Sadok Kallel]], [[Denis Sjerve]], _On Brace Products and the Structur eof Fibrations with Section_, 1999 ([pdf](https://www.math.ubc.ca/~sjer/brace.pdf), [[KallelSjerv99.pdf:file]])
 
 
 ### Spectral sequence for rational homotopy of mapping spaces
