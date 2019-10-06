@@ -77,3 +77,7 @@ A discussion in the context of [[algebraic model categories]] is in
 
 [[!redirects cell]]
 [[!redirects cells]]
+
+[[!redirects n-cell]]
+[[!redirects n-cells]]
+
