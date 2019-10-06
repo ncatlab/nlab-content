@@ -46,3 +46,5 @@ More generally,  for $X$ a smooth manifold with smooth [[action]] of a [[connect
 
 * [[rational homotopy theory]]
 
+* [[rational Cohomotopy]]
+
