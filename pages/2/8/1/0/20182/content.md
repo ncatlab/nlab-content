@@ -169,3 +169,22 @@ based on
 
 [[!redirects Sullivan model of a mapping space]]
 
+
+
+[[!redirects rational model for mapping space]]
+[[!redirects rational model for mapping spaces]]
+[[!redirects rational models for mapping spaces]]
+
+[[!redirects Sullivan model for mapping space]]
+[[!redirects Sullivan models for mapping space]]
+[[!redirects Sullivan models for mapping spaces]]
+
+[[!redirects rational model for mapping space]]
+[[!redirects rational models for mapping space]]
+[[!redirects rational models for mapping spaces]]
+
+[[!redirects Sullivan model for mapping spaces]]
+
+[[!redirects Sullivan model for a mapping space]]
+
+
