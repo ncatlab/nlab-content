@@ -38,6 +38,8 @@ More generally,  for $X$ a smooth manifold with smooth [[action]] of a [[connect
 
 ## Related concepts
 
+* [[rational cohomology]]
+
 * [[de Rham cohomology]], [[de Rham theorem]]
 
 * [[equivariant de Rham cohomology]], [[equivariant de Rham theorem]]
