@@ -91,9 +91,9 @@ In order to get minimal [[N=1 d=4 supergravity]] after [[KK-compactification]], 
 Discussion of the relation between then [[G2-manifold]] fibers for [[M-theory on G2-manifolds]] and the corresponding [[Calabi-Yau manifold|Calabi-Yau 4-manifold]] fibers in F-theory includes ([Gukov-Yau-Zaslow 02](#GukovYauZaslow02), [Belhaj 02](#Belhaj02)). 
 
 
-#### Relation to M-theory on $S^1\sslash \mathbb{Z}_2^{HW} \times \mathbb{H}\sslash G^{ADE}$
+#### Relation to heterotic M-theory on ADE-singularities 
 
-Relation to [[M-theory on S1/G_HW times H/G_ADE]]:
+Relation to [[heterotic M-theory on ADE-singularities]]:
 
 * Monika Marquart, [[Daniel Waldram]], _F-theory duals of M-theory on $S^1/\mathbb{Z}_2 \times T^4 / \mathbb{Z}_N$_ ([arXiv:hep-th/0204228](https://arxiv.org/abs/hep-th/0204228))
 
