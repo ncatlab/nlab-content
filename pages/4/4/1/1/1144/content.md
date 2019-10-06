@@ -3,6 +3,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Rational homotopy theory
++--{: .hide}
+[[!include differential graded objects - contents]]
+=--
 #### Homotopy theory
 +--{: .hide}
 [[!include homotopy - contents]]
@@ -13,6 +17,9 @@
 =--
 =--
 =--
+
+
+
 
 
 #Contents#
@@ -1150,6 +1157,8 @@ There are various variants of [[homotopy theory]], such as [[stable homotopy the
 
 
 ## Related concepts
+
+* [[rational cohomology]]
 
 * from the [[nPOV]]: [[rational homotopy theory in an (infinity,1)-topos]].
 
