@@ -49,11 +49,18 @@ A Frobenius algebra in a [[monoidal category]] is a quintuple $(A, \delta, \epsi
 1. the **Frobenius laws** hold: $(1 \otimes \mu) \circ (\delta \otimes 1) = \delta \circ \mu = (\mu \otimes 1) \circ (1 \otimes \delta)$.
 =--
 
-In terms of [[string diagram]]s, this definition says:
+In terms of [[string diagrams]], this definition says:
 
 [[frobenius_algebra.jpg:pic]]
 
 The first line here shows the associative law and left/right unit laws for a [[monoid]].  The second line shows the coassociative law and left/right counit laws for a [[comonoid]].  The third line shows the Frobenius laws.
+
+In fact, although this seems rarely to be remarked, the two Frobenius laws can be replaced by the single axiom $(1 \otimes \mu) \circ (\delta \otimes 1) = (\mu \otimes 1) \circ (1 \otimes \delta)$.  Here is a proof in string diagram notation that this axiom implies $(1 \otimes \mu) \circ (\delta \otimes 1) = \delta \circ \mu$ (taken from [Pastro-Street 2008](#PastroStreet2008)):
+
+[[frobenius_axioms_one_to_two.png:pic]]
+
+Here the first and fifth steps use the counitality property of the comonoid structure, the second and fourth steps use the assumed axiom (once in each direction), and the third step uses coassociativity.
+
 
 ### As associative algebra with linear form
  {#AsAssociativeAlgebraWithLinearForm}
@@ -300,6 +307,8 @@ See also
 * R. F. C. Walters, R. J. Wood, _Frobenius Objects in Cartesian Bicategories_ , TAC **20** no. 3 (2008) pp.25-47. ([pdf](http://www.tac.mta.ca/tac/volumes/20/3/20-03.pdf))
 
 * [[F. W. Lawvere]], _Ordinal Sums and Equational Doctrines_ , pp.141-155 in Eckmann (ed.), _Seminar on Triples and Categorical Homology Theory_ , LNM **80** Springer Heidelberg 1969. ([TAC Reprint of vol. 80](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)) 
+
+* {#PastroStreet2008} Craig Pastro and [[Ross Street]], *Weak Hopf monoids in braided monoidal categories*, 2008, [arxiv](https://arxiv.org/abs/0801.4067)
 
 [[!redirects Frobenius algebra]]
 [[!redirects Frobenius algebras]]
