@@ -77,6 +77,8 @@ The study of knots is very pictorial.  There are various knot-related SVGs that 
 
 * [[space of knots]]
 
+* [[knot complement]]
+
 * [[knot diagram]]
 
 * [[isotopy]], [[smooth isotopy]]
@@ -96,23 +98,25 @@ The study of knots is very pictorial.  There are various knot-related SVGs that 
 
 ### General
 
-For introductions to Knot Theory,
+
+Expositions:
+
+* [[Abhijit Champanerkar]], _The geometry of knot complements_ ([pdf](https://www.math.csi.cuny.edu/~abhijit/talks/knot-geometry-h.pdf), [[ChampanerkarKnotComplements.pdf:file]])
+
+
+Introductions:
 
  * [[R. H. Crowell]], [[R. H. Fox]], _Introduction to knot theory_, Springer, Graduate Texts 57, 1963.
 
  * [[N. D. Gilbert]], [[T. Porter]], _Knots and surfaces_, Oxford U.P., 1994.
 
-These do not, of course, handle some of the more modern developments.
-
 Other classic sources are 
 
 * Dale Rolfsen, _Knots and links_, AMS Chelsea, vol. __346__, 2003.
 
-* [[L. H. Kauffman]], _Knots and physics_, World Scientific, 1991.
+* [[L. H. Kauffman]], _Knots and physics_, World Scientific, 1991
 
-The second of these discusses many of the connections between knots and state sum calculations related to quantum field theories.
-
-Another reference for the classical theory is
+  (relation to state sum models in [[quantum field theory]])
 
 * G. Burde, H. Zieschang, _Knots_, De Gruyter (1989).
 
