@@ -447,6 +447,10 @@ $$
 
 * [[cyclic homology]]
 
+* [[rational model of mapping spaces]]
+
+* [[rational Cohomotopy]]
+
 [[!include Sullivan models -- examples]]
 
 
