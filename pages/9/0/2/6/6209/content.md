@@ -23,11 +23,11 @@ The classical [[Baire category theorem]] states that:
 
 *  Any [[complete metric space]] (or rather its [[forgetful functor|underlying]] topological space, hence any completely metrizable topological space) is a Baire space. 
 
-A second source of examples: 
+A second theorem, sometimes dubbed "BCT2" (as in Wikipedia):
 
-*  Any [[locally compact Hausdorff space]] is a Baire space. In fact, any [[G-delta set]] of a locally compact Hausdorff space is a Baire space under the [[subspace]] topology. 
+*  Any [[locally compact Hausdorff space]], or indeed any locally compact [[sober space]] according to Wikipedia, is a Baire space. Moreover, any [[G-delta set]] of a locally compact Hausdorff space is a Baire space under the [[subspace]] topology. 
 
-Moreover:
+Furthermore:
 
 *  Any [[open subspace]] of a Baire space is also a Baire space. 
 
