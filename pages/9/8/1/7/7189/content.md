@@ -96,6 +96,10 @@ A very nice overview is provided by
 
 * {#Leinster13}[[Tom Leinster]], _Codensity and the Ultrafilter Monad_ , TAC **12** no.13 (2013) pp.332-370.  ([abstract](http://www.tac.mta.ca/tac/volumes/28/13/28-13abs.html))
 
+Codenity monads arising from subcategory inclusions are studied in
+
+* {#diLiberti19} [[Ivan di Liberti]], _Codensity: Isbell duality, pro-objects, compactness and accssibility_ , arXiv:1910.01014 (2019). ([abstract](https://arxiv.org/abs/1910.01014))
+
 The role in shape theory is discussed in
 
 * Armin Frei, _On categorical shape theory_ , Cah. Top. Géom. Diff. **XVII** no.3 (1976) pp.261-294. ([numdam](http://www.numdam.org/item/?id=CTGDC_1976__17_3_261_0))
