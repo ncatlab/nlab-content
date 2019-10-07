@@ -30,7 +30,7 @@ Given a [[smooth manifold]] $\Sigma$, often taken to be [[Euclidean space]] $\ma
 
 1. a [graph complex model for the real cohomology of the space of knots](#IdeaGraphComplexModelForSpacesOfKnots) in $\Sigma$.
 
-In both cases, the graphs are interpreted as [[Feynman diagrams]] for [[circle group|U(1)]]-[[Chern-Simons theory]] and the map which identifies these with [[cocycles]] in [[real cohomology]] of either the [[configuration space of points]] or the [[space of knots]] is given by sending a Feynman diagram to its [[Feynman amplitude]]. In the first case this is an [[n-point function]], [[correlator as differential form on configuration space of points|regarded as a differential form on the configuration space]] of $n$-points, while in the second case this is a [[vacuum amplitude]] depending on the [[isotopy]] [[equivalence class|class]] of the  [[Wilson loop]] encoded by the [[knot]] -- a [[Vassiliev knot invariant]].
+In both cases, the graphs are interpreted as [[Feynman diagrams]] for [[Chern-Simons theory]] and the map which identifies these with [[cocycles]] in [[real cohomology]] of either the [[configuration space of points]] or the [[space of knots]] is given by sending a Feynman diagram to its [[Feynman amplitude]]. In the first case this is an [[n-point function]], [[correlator as differential form on configuration space of points|regarded as a differential form on the configuration space]] of $n$-points, while in the second case this is a [[vacuum amplitude]] depending on the [[isotopy]] [[equivalence class|class]] of the  [[Wilson loop]] encoded by the [[knot]] -- a [[Vassiliev knot invariant]].
 
 \linebreak
 
@@ -86,7 +86,7 @@ $$
 
 of the [[Fulton-MacPherson compactification]] of the [[configuration space of points]] $Conf_n(\mathbb{R}^D)$ for $n$ points in $D$-dimensional [[Euclidean space]].
 
-The [[chain map]] which exhibits this [[quasi-isomorphism]] is given by regarding a graph as a [[Feynman diagram]] for [[circle group|U(1)]]-[[Chern-Simons theory]] on $Sigma = \mathbb{R}^D$ and sending it to its corresponding [[Feynman amplitude]], namely to the [[configuration space of points|configuration space]]-[[integral]] of the [[wedge product]] of [[Chern-Simons propagators]] associated to the [[edges]], regarding [[Feynman amplitudes as differential forms on configuration spaces of points]]: 
+The [[chain map]] which exhibits this [[quasi-isomorphism]] is given by regarding a graph as a [[Feynman diagram]] for [[Chern-Simons theory]] on $Sigma = \mathbb{R}^D$ and sending it to its corresponding [[Feynman amplitude]], namely to the [[configuration space of points|configuration space]]-[[integral]] of the [[wedge product]] of [[Chern-Simons propagators]] associated to the [[edges]], regarding [[Feynman amplitudes as differential forms on configuration spaces of points]]: 
 
 \[
   \label{TheQuasiIsomorphism}
