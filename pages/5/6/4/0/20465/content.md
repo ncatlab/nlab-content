@@ -70,6 +70,15 @@ Review is in
 
 * {#Dimofte14} [[Tudor Dimofte]], _3d Superconformal Theories from Three-Manifolds_, In: [[Jörg  Teschner]] (ed.), *Exact Results on $\mathcal{N} = 2$ Supersymmetric Gauge Theories*, Springer 2015 ([arXiv:1412.7129](https://arxiv.org/abs/1412.7129), [doi:10.1007/978-3-319-18769-3_11](https://doi.org/10.1007/978-3-319-18769-3_11))
 
+
+Relation of the [[AGT-correspondence]] to the [[D=6 N=(2,0) SCFT]] and the [[3d-3d correspondence]]:
+
+* [[Clay Cordova]], [[Daniel Jafferis]], _Toda Theory From Six Dimensions_, J. High Energ. Phys. (2017) 2017: 106 ([arxiv:1605.03997](https://arxiv.org/abs/1605.03997))
+
+* Sam van Leuven, Gerben Oling, _Generalized Toda Theory from Six Dimensions and the Conifold_, J. High Energ. Phys. (2017) 2017: 50 ([arxiv:1708.07840](https://arxiv.org/abs/1708.07840))
+
+
+
 ### Black 5-branes and AdS/CFT
 
 Discussion of [[D=11 N=1 supergravity]] solutions for the [[near horizon geometry]] of [[black brane|black]] [[M5-branes]] [[wrapped brane|wrapped]] on [[hyperbolic 3-manifolds]] $\Sigma^3 = H^3/\Gamma$:
