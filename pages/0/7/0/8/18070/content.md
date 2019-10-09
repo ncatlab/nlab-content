@@ -679,7 +679,7 @@ The [[Fulton-MacPherson compactification]] of configuration spaces of points in 
 
 The [[stable splitting of mapping spaces]] says that [[suspension spectra]] of suitable [[mapping spaces]] are equivalently [[wedge sums]] of [[suspension spectra]] of configuration spaces of points.
 
-### Correlators as differential forms on configiration spaces
+### Correlators as differential forms on configuration spaces
 
 In [[Euclidean field theory]] the [[correlators]] are often regarded as [[distributions of several variables]] with [[singularities]] on the [[fat diagonal]]. Hence they become [[non-singular distributions]] after [[restriction of distributions]] to the corresponding configuration space of points. 
 
