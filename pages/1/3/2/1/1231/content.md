@@ -91,8 +91,7 @@ A "curved" generalization is discussed in
 [MR2204036](http://www.ams.org/mathscinet-getitem?mr=2204036)
 [doi](http://dx.doi.org/10.1090/S0002-9947-05-04035-3)
 
-[[Bernhard Keller]] and his student Lef&#232;vre-Hasegawa
-described rather general framework for Koszul duality using dg-(co)algebras and [[twisting cochain]]s:
+[[Bernhard Keller]] and his student Lef&#232;vre-Hasegawa described rather general framework for Koszul duality using dg-(co)algebras and [[twisting cochain]]s:
 
 * [[Bernhard Keller]], _Koszul duality and coderived categories (after Lef&#232;vre-Hasegawa)_ (2003) [abstract](http://www.math.jussieu.fr/~keller/publ/kdcabs.html) [dvi](http://www.math.jussieu.fr/~keller/publ/kdc.dvi) [pdf](http://www.math.jussieu.fr/~keller/publ/kdc.pdf) [ps](http://www.math.jussieu.fr/~keller/publ/kdc.ps)
 * Kenji Lef&#232;vre-Hasegawa, _Sur les A-infini cat&#233;gories_, [pdf](http://people.math.jussieu.fr/~keller/lefevre/TheseFinale/tel-00007761.pdf) [math/0310337](http://arxiv.org/abs/math.CT/0310337)
@@ -101,5 +100,6 @@ described rather general framework for Koszul duality using dg-(co)algebras and 
 * M. M. Kapranov, _On DG-modules over the de rham complex and the vanishing cycles functor_, Algebraic Geometry, 
 Lecture Notes in Mathematics __1479__, 1991, pp 57-86 
 * Theo Johnson-Freyd, _Exact triangles, Koszul duality, and coisotropic boundary conditions_, [arxiv/1608.08598](https://arxiv.org/abs/1608.08598)
+* [[Jonathan Beardsley]], [[Maximilien Péroux]], _Koszul Duality in Higher Topoi_, ([arXiv:1909.11724](https://arxiv.org/abs/1909.11724))
 
 [[!redirects Koszul dual]]
