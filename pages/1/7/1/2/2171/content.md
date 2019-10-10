@@ -448,6 +448,17 @@ Ableitungen in die Zopfgruppe_ , Computing **7** no.3-4 (1971) pp.293-310.
 
 
 category : knot theory
+
+[[!redirects braid groups]]
+
+[[!redirects braid]]
+[[!redirects braids]]
+
+
+[[!redirects pure braid]]
+[[!redirects pure braids]]
+
+
 [[!redirects Artin braid group]]
 [[!redirects Hurwitz braid group]]
 [[!redirects surface braid group]]
