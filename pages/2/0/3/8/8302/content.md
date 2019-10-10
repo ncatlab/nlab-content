@@ -229,6 +229,8 @@ see at _[[ordinary homology spectra split]]_
 
 * [[string topology]]
 
+* [[Pontrjagin ring]]
+
 * [[stable homotopy homology theory]]
 
 * [[bordism homology theory]]
