@@ -40,6 +40,8 @@ May be regarded as a "[[2-spectral triple]]" (see there for more), the 2-dimensi
 
   * [[Gepner model]]
 
+  * [[Kazama-Suzuki model]]
+
   * [[(2,1)-dimensional Euclidean field theories and tmf]]
 
 ## Properties
