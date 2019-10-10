@@ -24,7 +24,17 @@ Since about the turn of the millennium Witten has tended to more esoteric mathem
 
 ## Quotes
 
-> {#Witten21stCenturyQuote} Back in the early '70s, the Italian physicist, [[Daniele Amati]] reportedly said that string theory was part of 21st-century physics that fell by chance into the 20th century. I think it was a very wise remark. ([[Edward Witten]], [Nova interview 2003](http://www.pbs.org/wgbh/nova/elegant/view-witten.html), also [American Scientist Astronomy Issue 2002](http://www.sns.ias.edu/~witten/papers/string.pdf))
+In [Nova interview 2003](http://www.pbs.org/wgbh/nova/elegant/view-witten.html), also [American Scientist Astronomy Issue 2002](http://www.sns.ias.edu/~witten/papers/string.pdf):
+
+> {#Witten21stCenturyQuote} Back in the early '70s, the Italian physicist, [[Daniele Amati]] reportedly said that string theory was part of 21st-century physics that fell by chance into the 20th century. I think it was a very wise remark. 
+
+\linebreak
+
+In interview with Graham Farmelo, ["The Universe Speaks in Numbers", interview 5](https://grahamfarmelo.com/the-universe
+-speaks-in-numbers-interview-5) (2019):
+
+> I actually believe that string / M-theory is on  the right track toward a deeper explanation.  But at a very fundamental level it’s not well  understood. And I’m not even confident that  we have a good concept of what sort of thing is  missing or where to find it.
+
 
 
 ## Fields medal work
