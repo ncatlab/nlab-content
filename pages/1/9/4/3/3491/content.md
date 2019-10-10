@@ -396,7 +396,7 @@ $$
   }
 $$
 
-by the above the bottom morphism is already unqiely specified by the remaining diagram. 
+by the above the bottom morphism is already uniquely specified by the remaining diagram. 
 
 $$
   \array{
