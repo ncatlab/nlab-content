@@ -9,7 +9,7 @@ On [[algebraic topology]] and [[homotopy theory]]:
 
 * Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto,  _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
-On the [[ordinary homology]] of [[loop spaces]] of [[configuration spaces of points]]:
+On the [[ordinary homology]] of [[loop spaces]] of [[configuration spaces of points]] and their relation to [[Vassiliev invariants]]:
 
 * [[Fred Cohen]], [[Samuel Gitler]], _Loop spaces of configuration spaces, braid-like groups, and knots_, In: Aguadé J., Broto C., [[Carles Casacuberta]]  (eds.) _Cohomological Methods in Homotopy Theory_. Progress in Mathematics, vol 196. Birkhäuser, Basel ([doi:10.1007/978-3-0348-8312-2_7](https://doi.org/10.1007/978-3-0348-8312-2_7))
 
