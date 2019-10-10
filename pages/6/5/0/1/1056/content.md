@@ -28,7 +28,7 @@ By regarding a [[simplicial set]] as an [[object]] in the standard [[model struc
 
 If the original simplicial set is the [[nerve]] of a [[category]], the corresponding Kan fibrant replacement is something like the _$\infty$-groupoidification_ of that category: see [[geometric realization of categories]].
 
-This way each ordinary category models an [[∞-groupoid]]. The _Thomason_ [[model category]] structure on [[Cat]] exhibits this: in this [[model category]] a morphism between two categories is a weak equivalence, precisely if it induces a weak equivalence of the corresponding $\infty$-groupoids.
+This way each ordinary category models an [[∞-groupoid]]. The _Thomason_ [[model category]] structure on [[Cat]] exhibits this: in this [[model category]] a morphism between two categories is a weak equivalence, precisely if it induces a weak equivalence of the corresponding $\infty$-groupoids.  
 
 It turns out the Thomason model structure on [[Cat]] is [[Quillen equivalence|Quillen equivalent]] to the standard [[model structure on simplicial sets]].
 
