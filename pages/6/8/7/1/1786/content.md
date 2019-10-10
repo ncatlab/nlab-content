@@ -114,7 +114,7 @@ Some other papers in the 1950s include
 * Arthur H. Copeland, _On $H$-spaces with two nontrivial homotopy groups_, Proc. AMS __8__, 1957, 109--129.
 
 * M. Sugawara:
-  * _$H$-spaces and spaces of loops_, Math. J. Okazama Univ, __5__, 1955, 5--11;
+  * _$H$-spaces and spaces of loops_, Math. J. Okayama Univ, __5__, 1955, 5--11;
   * _A condition that a space is an $H$-space_, Math. J. Okayama Univ. __6__, 1957, 109--129;
   * _A condition that a space is group-like_, Math. J. Okayama Univ. __7__, 1957, 123--149.
 
