@@ -13,7 +13,7 @@ On the [[ordinary cohomology]] of [[configuration spaces of points]] (such as in
 * [[Carl-Friedrich Bödigheimer]], [[Fred Cohen]], L. Taylor, _On the homology of configuration spaces_, Topology Vol. 28 No. 1, p. 111-123 1989 ([pdf](https://core.ac.uk/download/pdf/82124359.pdf))
 
 
-On the [[ordinary homology]] of [[loop spaces]] of [[configuration spaces of points]]:
+On the [[ordinary homology]] of [[loop spaces]] of [[configuration spaces of points]] and their relation to [[Vassiliev invariants]]:
 
 * [[Fred Cohen]], [[Samuel Gitler]], _Loop spaces of configuration spaces, braid-like groups, and knots_, In: Aguadé J., Broto C., [[Carles Casacuberta]]  (eds.) _Cohomological Methods in Homotopy Theory_. Progress in Mathematics, vol 196. Birkhäuser, Basel ([doi:10.1007/978-3-0348-8312-2_7](https://doi.org/10.1007/978-3-0348-8312-2_7))
 
