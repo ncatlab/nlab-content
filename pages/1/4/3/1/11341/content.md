@@ -56,6 +56,8 @@ Discussion of [[string phenomenology]] of [[intersecting D-brane models]] [[KK-c
 
 * [[WZW model]]
 
+* [[Kazama-Suzuki model]]
+
 * [[heterotic string]], [[type II superstring]]
 
 * [[KK-compactification]]
