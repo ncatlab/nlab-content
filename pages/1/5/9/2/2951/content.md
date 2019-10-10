@@ -11,6 +11,10 @@ On [[classifying spaces]] and [[spectral sequences]] (and introducing the "[[Seg
 
 * {#Segal} [[Graeme Segal]], _Classifying spaces and spectral sequences_, Inst. Hautes &#201;tudes Sci. Publ. Math., vol. 34, pp. 105&#8211;112 (1968)
 
+On the [[group completion theorem]]:
+
+* {#McDuffSegal76} [[Dusa McDuff]], [[Graeme Segal]], _Homology fibrations and the “group-completion” theorem_, Inventiones mathematicae, October 1976, Volume 31, Issue 3, pp 279–284 ([doi:10.1007/BF01403148](https://doi.org/10.1007/BF01403148))
+
 On [[equivariant K-theory]]:
 
 * {#Segal68} [[Graeme Segal]], _Equivariant K-theory_, Inst. Hautes Etudes Sci. Publ. Math.  No. 34 (1968) p. 129-151 
