@@ -104,7 +104,7 @@ Further developments are in
 
 A model structure for [[(infinity,n)-categories]] is presented in
 
-* Viktoriya Ozornova, Martina Rovelli, Model structures for (∞,n)-categories on (pre)stratified simplicial sets and prestratified simplicial spaces, [arxiv](https://arxiv.org/abs/1809.10621)
+* [[Viktoriya Ozornova]], Martina Rovelli, Model structures for (∞,n)-categories on (pre)stratified simplicial sets and prestratified simplicial spaces, [arxiv](https://arxiv.org/abs/1809.10621)
 
 
 
