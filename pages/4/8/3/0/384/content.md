@@ -213,7 +213,7 @@ Apart from attaching a set of cells all at once to a fixed base space, we may "a
 
 
 Let $X$ be a topological space, then 
-A _topological [[relative cell complex]]_ of countable height based on $X$ is a [[continuous function]]
+a _topological [[relative cell complex]]_ of countable height based on $X$ is a [[continuous function]]
 
 $$
   f \colon X \longrightarrow Y
@@ -260,7 +260,7 @@ such that
 
 If here $X = \emptyset$ is the [[empty space]] then the result is a map $\emptyset \hookrightarrow Y$, which is equivalently just a space $Y$ built form "attaching cells to nothing". This is then called just a _topological [[cell complex]]_ of countable hight.
 
-Finally, a topological (relative) cell complex of countable hight is called a **CW-complex** is the $(k+1)$-st cell attachment $X_k \to X_{k+1}$ is entirely by $(k+1)$-cells, hence exhibited specifically by a pushout of the following form:
+Finally, a topological (relative) cell complex of countable hight is called a **CW-complex** if the $(k+1)$-st cell attachment $X_k \to X_{k+1}$ is entirely by $(k+1)$-cells, hence exhibited specifically by a pushout of the following form:
 
 $$
   \array{
