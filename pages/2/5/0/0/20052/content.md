@@ -81,16 +81,33 @@ The converse problem of whether a valuation is the restriction of a Borel measur
 
 ### Null sets and support
 
-Valuations admit a notion of [[support]] to that of measures. In particular, continuous valuations, just as [[tau-additive measure|$\tau$-additive measures]], have a well-defined and well-behaved support.
+Valuations admit a notion of [[support]] similar to that of measures. In particular, continuous valuations, just as [[tau-additive measure|$\tau$-additive measures]], have a well-defined and well-behaved support.
 
 Let $\nu$ be a valuation on a [[locale]] or [[topological space]] $X$, and $U$ an open set of $X$ (i.e. an element of the corresponding [[frame]]). We say that $U$ is a **null** or **measure zero set** for $\nu$ if $\nu(U)=0$. The [[complement]] of $U$, which is a [[closed subspace#locales|closed subspace]] of $X$, is said to have **full measure**.
 
 Since a finite union of null sets is null, null sets form a directed net in the frame. Therefore, if $\nu$ is a continuous valuation, it admits a unique maximal null open set. The [[complement]] of this set, which is the largest closed subspace of full measure, is called the **[[support]]** of $\nu$.
 
+The support induces a [[monad#the_bicategory_of_monads|morphism of monads]] (see [Fritz-Perrone-Rezagholi](#support), section 5). 
+
 
 ### Integration
 
+There is an integration theory for valuation analogous to that of measures, where lower semicontinuous functions play the role of measurable functions
+(see also [[correspondence between measure and valuation theory]]).
+
 (...)
+
+
+## Monads of valuations
+
+Just as there are several [[monad|monads]] of probability measures (see [[Giry monad]]), there are a number of analogous monads of valuations.
+The most famous are
+
+* The [[probabilistic powerdomain]] on the category of [[dcpo|dcpos]], defined by Jones and Plotkin, of wide use in theoretical computer science.
+
+* The **extended probabilistic powerdomain** on the [[Top|category of topological spaces]] It was introduced by [Heckmann](#monad). Its algebras have recently been studied by [Goubault-Larrecq and Jia](#algebras).
+
+* The **valuation monad on the [[Loc|category of locales]]**, defined by [Steve Vickers](#vmonad).
 
 
 ## Extending valuations to measures
@@ -114,19 +131,32 @@ extends uniquely to a regular τ-smooth Borel measure.
 
 ## References
 
+* {#monad} Reinhold Heckmann, _Spaces of valuations_, Papers on General Topology and Ap-plications, 1996. [Link here](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.45.5845&rep=rep1&type=pdf).
 
-For a general treatment, see
+* Mauricio Alvarez-Manilla, Achin Jung, Klaus Keimel, _The probabilistic powerdomain for stably compact spaces_, Theoretical Computer Science 328, 2004. [Link here](https://www.sciencedirect.com/science/article/pii/S0304397504004074).
+
+* {#algebras} Jean Goubault-Larrecq and Xiaodong Jia, _Algebras of the extended probabilistic powerdomain monad_, ENTCS 345, 2019. [Link here](https://www.sciencedirect.com/science/article/pii/S1571066119300349).
+
+* {#support} [[Tobias Fritz]], Paolo Perrone and Sharwin Rezagholi, _Probability, valuations, hyperspace: Three monads on Top and the support as a morphism_, 2019. [Link here](https://arxiv.org/abs/1910.03752).
+
+
+For valuations on locales, see
 
 * {#vmonad} [[Steve Vickers]], _A monad of valuation locales_, 2011. [Link here](https://www.cs.bham.ac.uk/~sjv/Riesz.pdf).
 
-* Wikipedia, _<a href="https://en.wikipedia.org/wiki/Valuation_(measure_theory)">Valuation (measure theory)</a>_
-
-
 For the theory of [integration over valuations](#integration), see 
 
-* {#vintegral} [[Steve Vickers]], _A localic theory of lower and upper integrals_, 2008. [Link here](https://onlinelibrary.wiley.com/doi/abs/10.1002/malq.200710028).
+* {#kirch} Olaf Kirch, _Bereiche und Bewertungen_ (in German), Master Thesis, Technische Hochschule Darmstadt, 1993. [Link here](http://fb04286.mathematik.tu-darmstadt.de/fbereiche/logik/research/Domains/papers/kirch/diplom.ps.gz).
+
+* {#jung} Achim Jung, _Stably compact spaces and the probabilistic powerspace construction_, ENTCS 87, 2004. [Link here](https://www.sciencedirect.com/science/article/pii/S1571066104051345).
+
+
 
 * [[Thierry Coquand]] and [[Bas Spitters]], _Integrals and Valuations_, 2009. [Link here](http://logicandanalysis.org/index.php/jla/article/view/14/12).
+
+Integration on locales can be found in
+
+* {#vintegral} [[Steve Vickers]], _A localic theory of lower and upper integrals_, 2008. [Link here](https://onlinelibrary.wiley.com/doi/abs/10.1002/malq.200710028).
 
 
 For the problem of [extending valuations to measures](#extending_valuations_to_measures), see
