@@ -35,11 +35,38 @@ This property can be considered an instance of [[Scott topology|Scott continuity
 
 ## Examples
 
-(...)
+Every [[Radon measure]] on a [[Hausdorff space]] is $\tau$-additive. This includes most regular measures of common use, such as
+
+* the [[Dirac distribution|Dirac measures]],
+* the [[Lebesgue measure]] on the real line,
+* the measure induced by the [[volume form]] of a Riemannian manifold,
+* the [[Haar measure]] on a Lie group (or more generally a locally compact Hausdorff topological group).
 
 ## Properties
 
-(...)
+### Pushforward, products and marginals
+
+* The [[pushforward measure]] of a $\tau$-additive measure along a [[continuous map]] is itself $\tau$-additive. In particular, the [[marginals]] of a $\tau$-additive measure are $\tau$-additive.
+
+* The [[product measure|product]] of two $\tau$-additive measures on a product space can be extended to a $\tau$-additive measure. 
+
+### Null sets and support 
+
+Given a tau-additive measure $\mu$ on a topological space $X$, an open set $U\subseteq X$ is called **null** for $\mu$ if $\mu(U)=0$. A set has **full measure** if its complement is null.
+
+By $\tau$-additivity, the union of all null open sets is null. Its [[complement]], which is a closed set, is called the **[[support]]** of $\mu$.
+It can be seen as the smallest closed set of full measure. 
+
+This definition can be extended to [[valuation (measure theory)#null_sets_and_support|continuous valuations]].
+
+### Relationship with other measure-theoretical notions 
+
+* Every [[Radon measure]] on a [[Hausdorff space]] is $\tau$-additive.
+* Every $\tau$-additive measure on a [[compactum|compact Hausdorff space]] is [[Radon measure|Radon]].
+* Every $\tau$-additive measure can be restricted to a [[continuous valuation]].
+* Every [[continuous valuation]] on a [[regular space|regular]] [[Hausdorff space]] or on a [[locally compact space|locally compact]] [[sober space]] can be extended to a $\tau$-additive measure. 
+
+See also: [[valuation (measure theory)#extending_valuations_to_measures|Extending valuations to measures]].
 
 ## Related notions
 
