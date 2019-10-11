@@ -18,6 +18,8 @@ Math. 64 (2013), no. 3, 795–803.
 
 * Simon Gritschacher, _A remark on the group-completion theorem_ ([arxiv:1709.02036](https://arxiv.org/abs/1709.02036))
 
+* [[Thomas Nikolaus]], _The group completion theorem via localizations of ring spectra_, [pdf](https://people.mpim-bonn.mpg.de/thoni/Papers/Group_completion.pdf).
+
 [[!redirects group completion theorems]]
 [[!redirects group-completion theorem]]
 [[!redirects group-completion theorems]]
