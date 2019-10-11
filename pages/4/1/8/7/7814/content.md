@@ -27,7 +27,12 @@ If $Supp(f) \subset X$ is a [[compact subspace]], then one says that $f$ has _[[
 
 * [[support of a distribution]]
 
-### In field theoy
+### In measure theory
+
+* [[tau-additive measure#null_sets_and_support|Support of a measure]]
+* [[valuation (measure theory)#null_sets_and_support|Support of a valuation]]
+
+### In field theory
 
 * [[spacetime support]]
 
