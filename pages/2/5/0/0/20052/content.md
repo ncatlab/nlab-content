@@ -139,6 +139,8 @@ The most famous are
 
 * The **valuation monad on the [[Loc|category of locales]]**, defined by [Steve Vickers](#vmonad).
 
+See also [[monads of probability, measures, and valuations]]
+
 
 ## Extending valuations to measures
 
