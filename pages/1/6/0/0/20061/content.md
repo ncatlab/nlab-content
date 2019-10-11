@@ -96,7 +96,7 @@ Note that on many topological spaces of interest, such as [[metric spaces]], mos
  </tr>
 </table>
 
-*See also [[monads of probability, measures, and valuations]].
+$*$ See also [[monads of probability, measures, and valuations]].
 
 ## References
 
