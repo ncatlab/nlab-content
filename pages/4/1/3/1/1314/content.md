@@ -436,7 +436,7 @@ A standard textbook is
 
 This is based on
 
-* [[Dennis Sullivan]], _Infinitesimal computations in topology_, Publications Math&#233;matiques de l'IH&#201;S, 47 (1977), p. 269-331 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=PMIHES_1977__47__269_0))
+* [[Dennis Sullivan]], _Infinitesimal computations in topology_, Publications Math&#233;matiques de l'IH&#201;S, 47 (1977), p. 269-331 ([numdam](http://www.numdam.org/item/PMIHES_1977__47__269_0/))
 
 A useful survey is in 
 
