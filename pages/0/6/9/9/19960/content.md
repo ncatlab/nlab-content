@@ -22,7 +22,7 @@
 
 ## Idea
 
-[[geometric engineering of QFT|geometric engineering]] of [[QCD]] via [[D4-D8-brane bound state]] [[intersecting D-brane models]]
+The [[geometric engineering of QFT|geometric engineering]] of [[quantum chromodynamics]] via [[D4-D8-brane bound state]] [[intersecting D-brane models]] is traditionslly referred to as the _AdS/QCD correspondence_ or as _holographic QCD_, or similar, referring to the use of the _[[AdS/CFT correspondence]]_. (Notice "CFT" as opposed to "QCD").
 
 The [[AdS-CFT correspondence]] applies _exactly_ only to a few highly symmetric [[quantum field theories]], notably to [[N=4 D=4 super Yang-Mills theory]]. However, away from these special points in field theory space the correspondence does not completely break down, but continues to apply in some approximation and/or with suitable modifications on the [[gravity]]-side of the correspondence.
 
