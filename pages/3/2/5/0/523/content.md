@@ -19,4 +19,8 @@ object in a general model category (obeying certain technical conditions). Based
 
 * _[[T-Duality in K-theory and Elliptic Cohomology]]_, talk at _String Geometry Network Meeting_, Feb 2014, ESI Vienna ([website](http://www.ingvet.kau.se/juerfuch/conf/esi14/esi14_34.html))
 
+* _The group completion theorem via localizations of ring spectra_, 2017 ([pdf](https://people.mpim-bonn.mpg.de/thoni/Papers/Group_completion.pdf))
+
+  ([[group completion theorem]] and [[Quillen plus construction]])
+
 category: people
