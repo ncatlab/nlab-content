@@ -437,7 +437,7 @@ Further discussion of the [[shape modality]] on smooth $\infty$-groupoids is in
 [[!redirects smooth infinity-groupoids]]
 
 [[!redirects Lie infinity-groupoid]]
-[[!redirects Lie infinity-groupoid]]
+[[!redirects Lie infinity-groupoids]]
 
 [[!redirects smooth ∞-group]]
 [[!redirects smooth ∞-groups]]
