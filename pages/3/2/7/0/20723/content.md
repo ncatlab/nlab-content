@@ -10,7 +10,11 @@ what is called the _group completion theorem_ ([McDuff-Segal 76](#McDuffSegal76)
 
 ## References
 
+The original article is
+
 * {#McDuffSegal76} [[Dusa McDuff]], [[Graeme Segal]], _Homology fibrations and the “group-completion” theorem_, Inventiones mathematicae, October 1976, Volume 31, Issue 3, pp 279–284 ([doi:10.1007/BF01403148](https://doi.org/10.1007/BF01403148))
+
+Alternative formulation for the case of [[commutative monoid|commutative]] [[topological monoids]]:
 
 * [[Oscar Randal-Williams]], _Group-completion, local coefficient systems and perfection_, Q. J.
 Math. 64 (2013), no. 3, 795–803.
@@ -18,7 +22,10 @@ Math. 64 (2013), no. 3, 795–803.
 
 * Simon Gritschacher, _A remark on the group-completion theorem_ ([arxiv:1709.02036](https://arxiv.org/abs/1709.02036))
 
-* [[Thomas Nikolaus]], _The group completion theorem via localizations of ring spectra_, [pdf](https://people.mpim-bonn.mpg.de/thoni/Papers/Group_completion.pdf).
+
+Generalization to [[generalized homology]] represented by [[ring spectra]] and relation to the [[Quillen plus construction]]:
+
+* [[Thomas Nikolaus]], _The group completion theorem via localizations of ring spectra_, 2017 ([pdf](https://people.mpim-bonn.mpg.de/thoni/Papers/Group_completion.pdf))
 
 [[!redirects group completion theorems]]
 [[!redirects group-completion theorem]]
