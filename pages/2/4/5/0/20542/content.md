@@ -69,7 +69,7 @@ Every tight [[τ-additive]] measure is Radon.
 Every Borel measure on a separable metric space X is τ-additive.
 Moreover, this is true if X is [[hereditary Lindelöf]].
 
-Every [[τ-additive]] measure has a support, which is a closed subset.
+Every [[τ-additive]] measure has a [[support]], which is a closed subset.
 
 ## Extension properties
 
