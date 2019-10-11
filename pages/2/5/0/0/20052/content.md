@@ -21,6 +21,9 @@
 
 A **valuation** is a construction analogous to that of a [[measure]], which is however more compatible with [[constructive mathematics]], and readily generalizable to contexts such as [[point-free topology]].
 
+On most spaces of interest for measure theory and probability (such as [[metric spaces]]) the notions of suitably continuous valuations and measures coincide (see [below](#extending_valuations_to_measures)).
+
+
 ## Definition
 
 ### Valuations on lattices
@@ -112,21 +115,17 @@ The most famous are
 
 ## Extending valuations to measures
 
-As we have seen [above](#borel_measures), a [[Borel subset|Borel measure]] always restricts to a valuation. It is natural to ask the converse question of whether a valuation can always be extended to a Borel measure. In general, the answer is negative. In the case of *continuous* valuations, however, one would expect that in many cases the valuation can be extended to a [[tau-additive measure|$\tau$-additive Borel measure]]. 
+As we have seen [above](#borel_measures), a [[Borel measure]] always restricts to a valuation. It is natural to ask the converse question of whether a valuation can always be extended to a Borel measure. In general, the answer is negative. In the case of *continuous* valuations, however, one would expect that in many cases the valuation can be extended to a [[tau-additive measure|$\tau$-additive Borel measure]]. 
 
 The question is known, for example, to be true on all regular Hausdorff ($T_3$) spaces: 
 
-**Theorem** (see [Manilla, Theorems 3.23 and 3.27](#mthesis)). On every $T_3$ topological space, and on every locally compact [[sober space]], a locally finite continuous valuation extends uniquely to a regular, [[tau-additive measure|$\tau$-additive Borel measure]].
+**Theorem** (see Manilla's Theorems 3.23 and 3.27 [here](#mthesis) and Theorem 4.4 [here](#mpaper)). On every $T_3$ topological space, on every [[regular]] topological space, and on every locally compact [[sober space]], a locally finite continuous valuation extends uniquely to a regular, [[tau-additive measure|$\tau$-additive Borel measure]].
 
 This includes in particular every [[metric space]], and every compact Hausdorff space. So, in many spaces of interest for analysis and probability theory, working with measures and working with valuations is only a difference in the language. 
 
 The more general question of whether one can extend a finite continuous valuation to a Borel measure on any sober space, at the present time, is still open. 
 
-However, we do have the following result for regular spaces.
 
-**Theorem** (Theorem 4.4 in [Manilla](#mpaper)).
-Any locally finite continuous valuation on a [[regular]] topological space
-extends uniquely to a regular τ-smooth Borel measure.
 
 
 ## References
