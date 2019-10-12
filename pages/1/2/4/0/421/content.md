@@ -29,7 +29,7 @@ For $n \in \mathbb{N}$, the standard _simplicial $n$-simplex_ $\Delta[n]$ is the
 ### Cellular (simplicial) simplex
  {#CellularSimplex}
 
-Likewise, there is a standard toplogical $n$-simplex, which is (more or less by definition) the [[geometric realization]] of the standard simplicial $n$-simplex.
+Likewise, there is a standard topological $n$-simplex, which is (more or less by definition) the [[geometric realization]] of the standard simplicial $n$-simplex.
 
 ### Topological simplex
  {#TopologicalSimplex}
@@ -159,14 +159,14 @@ $$
 ###### Proposition
 
 The collection of face inclusions, def. \ref{FaceInclusionInBarycentricCoords}
-and degenracy projections, def. \ref{DegeneracyProjectionsInBarycentricCoords}
+and degeneracy projections, def. \ref{DegeneracyProjectionsInBarycentricCoords}
 satisfy the (dual) [[simplicial identities]]. Equivalently, they constitute the components of a [[functor]]
 
 $$
   \Delta^\bullet : \Delta \to Top
 $$
 
-from the [[simplex category]] $\Delta$ to the category [[Top]] of [[topological spaces]]. This is, up to [[isomorphism]], the canonical [[cosimplicial object]] in $Top$.
+from the [[simplex category]] $\Delta$ to the category [[Top]] of [[topological spaces]]. This is, up to [[isomorphism]], the standard [[cosimplicial object]] in $Top$.
 
 =--
 
@@ -284,7 +284,7 @@ $$
 ###### Proposition
 
 For every $n \in \mathbb{N}$ the function $S_n$ is a [[homeomorphism]]
-and respects the face and degenracy maps.
+and respects the face and degeneracy maps.
 
 Equivalently, $S_\bullet$ is a [[natural isomorphism]] of [[functors]] 
 $\Delta^n \to Top$, hence an [[isomorphism]] of [[cosimplicial objects]]
