@@ -21,7 +21,7 @@ More precisely, this is a **left** pre-Lie algebra.  We can also define right pr
 
 Every [[associative algebra]] is a pre-Lie algebra, but not conversely.  The reason pre-Lie algebras have the name they do is that this weakening of the concept of associative algebra is still enough to give a [[Lie algebra]]!  In other words: it is well-known that if $A$ is an associative algebra, the operation
 $$  [a,b] = a \cdot b - b \cdot a $$
-makes $A$ into a Lie algebra.  But this is also true for pre-Lie algebras!  It is a fun exercise to derive the Jacobi identity from equation \eqref{identity}.
+makes $A$ into a Lie algebra.  But this is also true for pre-Lie algebras!  It is a fun exercise to derive the [[Jacobi identity]] from equation \eqref{identity}.
 
 
 ## Examples
