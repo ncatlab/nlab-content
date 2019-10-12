@@ -81,7 +81,8 @@ $$
 
 =--
 
-This is due to ([Giansiracusa-Salvatore-Severa 09)](#Giansiracusa-Salvatore-Severa)). See also ([Valette, slide 35](#Valette)).
+This is due to [Severa 09](#Severa09),
+[Giansiracusa-Salvatore 09)](#GiansiracusaSalvatore09). See also ([Valette, slide 35](#Valette)).
 
 Accordingly one makes the following definition:
 
@@ -135,12 +136,12 @@ For the relation to ribbons see
 
 The formality of $fD_2$ was shown in 
 
-* [[Jeff Giansiracusa|Jeffrey Giansiracusa]]-[[Paolo Salvatore]], _Formality of the framed little 2-discs operad and semidirect products_ , in: Homotopy theory of function spaces and related topics, Cont. Math. 519, AMS, pp. 115-121  ([arxiv 0911.4428v2](http://arxiv.org/PS_cache/arxiv/pdf/0911/0911.4428v2.pdf))
- {#GiansiracusaSalvatoreSevera}
+* {#GiansiracusaSalvatore09} [[Jeffrey Giansiracusa]], [[Paolo Salvatore]], _Formality of the framed little 2-discs operad and semidirect products_ , in: _Homotopy theory of function spaces and related topics_, Cont. Math. 519, AMS, pp. 115-121  ([arxiv 0911.4428](http://arxiv.org/PS_cache/arxiv/abs/0911/0911.4428))
+ 
 
 and 
 
-* [[Pavol Severa]], _Formality of the chain operad of framed little disks_,  ([arxiv AT 0902.3576v2](http://arxiv.org/PS_cache/arxiv/pdf/0902/0902.3576v2.pdf))
+* {#Severa09} [[Pavol Severa]], _Formality of the chain operad of framed little disks_,  ([arxiv AT 0902.3576](http://arxiv.org/PS_cache/arxiv/abs/0902/0902.3576))
 
 
 Discussion of [[homotopy BV-algebra]]s is in 
