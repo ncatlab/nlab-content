@@ -662,7 +662,8 @@ subject to these three [[generators and relations|relations]]:
 
 Hence:
 
-$$
+\[
+  \label{RealCohomologyOfUnorderedConfigurationSpaceInEuclideanSpace}
   H^\bullet
   \Big(
     \underset{
@@ -688,7 +689,7 @@ $$
      \text{for}\;
      i,j \in \{1, \cdots, n\}
   \right)
-$$
+\]
 
 =--
 
