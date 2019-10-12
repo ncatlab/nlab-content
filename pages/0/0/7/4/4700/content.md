@@ -1,6 +1,4 @@
 
-> under construction
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -73,7 +71,7 @@ As such, this is [[quasi-isomorphism|quasi-isomorphic]] to the semi-algebraic [[
 $$
   \Omega^\bullet
   \big(
-    Conf_n
+    \underset{{}^{1,\cdots,n}}{Conf}
     \big( 
       \Sigma
     \big)
@@ -84,7 +82,7 @@ $$
   n, D \in \mathbb{N}
 $$
 
-of the [[Fulton-MacPherson compactification]] of the [[configuration space of points]] $Conf_n(\mathbb{R}^D)$ for $n$ points in $D$-dimensional [[Euclidean space]].
+of the [[Fulton-MacPherson compactification]] of the [[configuration space of points]] $\underset{{}^{1,\cdots,n}}{Conf}(\mathbb{R}^D)$ for $n$ points in $D$-dimensional [[Euclidean space]].
 
 The [[chain map]] which exhibits this [[quasi-isomorphism]] is given by regarding a graph as a [[Feynman diagram]] for [[Chern-Simons theory]] on $Sigma = \mathbb{R}^D$ and sending it to its corresponding [[Feynman amplitude]], namely to the [[configuration space of points|configuration space]]-[[integral]] of the [[wedge product]] of [[Chern-Simons propagators]] associated to the [[edges]], regarding [[Feynman amplitudes as differential forms on configuration spaces of points]]: 
 
@@ -136,7 +134,7 @@ The [[chain map]] which exhibits this [[quasi-isomorphism]] is given by regardin
   }{
   \Omega^\bullet
   \big(
-    Conf_n\big(  \Sigma \big)
+    \underset{{}^{1,\cdots,n}}{Conf}\big(  \Sigma \big)
   \big)
   }
   \,.
@@ -145,9 +143,23 @@ The [[chain map]] which exhibits this [[quasi-isomorphism]] is given by regardin
 This means that for each [[edge]] in a [[graph]] a [[Chern-Simons propagator]] is assigned, and for each of $n_{int} \in \mathbb{N}$ internal [[vertices]] the [[wedge product]] of its adjacent [[Chern-Simons propagators]] is [[fiber integral|fiber integrated]] along the canonical [[fibration]] of [[configuration spaces of points]]:
 
 $$
-  Conf_{n + n_{int}}( \mathbb{R}^D )
+  \underset{
+    {}^{\{1, \cdots, n + n_{int} \}}
+  }{
+    Conf
+  }
+  \big(
+    \mathbb{R}^D 
+  \big)
   \longrightarrow
-  Conf_{n}( \mathbb{R}^D )
+  \underset{
+    {}^{\{1,\cdots,n\}}
+  }{
+    Conf
+  }
+  \big( 
+    \mathbb{R}^D 
+  \big)
 $$
 
 just as befits the definition of a [[Feynman amplitude]] when [[correlator as differential form on configuration space of points|regarding them as differential forms on configuration spaces of points]].
@@ -242,7 +254,7 @@ There are two different classes of (Kontsevich-) graph complexes, modelling the 
 
 | [[configuration space]]   |    |   |  [[graph complex]]  |  |
 |----|----|---|----|--|
-| [[configuration spaces of points]] | $Conf_n(\Sigma)$ | $\;\;\leftrightarrow\;\;$ | $Graphs_n(\Sigma)$ |  [(1)](#GraphComplexesModellingConfigurationSpacesOfPoints) |  
+| [[configuration spaces of points]] | $\underset{{}^{1,\cdots,n}}{Conf}(\Sigma)$ | $\;\;\leftrightarrow\;\;$ | $Graphs_n(\Sigma)$ |  [(1)](#GraphComplexesModellingConfigurationSpacesOfPoints) |  
 | [[spaces of knots]] | $Emb(S^1,\Sigma)$ | $\;\;\leftrightarrow\;\;$ | $KnotGraphs(\Sigma)$ | [(2)](#GraphComplexesModellingSpacesOfKnots) |
 
 Despite their very deifferent cohomological nature, the explicit definitions of these two kinds of graph complexes are mostly identical, except for some small but crucial difference in the definition of degrees and labels of edges (see [below](#KnotGraphsDefinition)).
@@ -289,7 +301,7 @@ $$
        }
      }{  
        \underbrace{
-         Conf_n(\Sigma) 
+         \underset{{}^{1,\cdots,n}}{Conf}(\Sigma) 
        }
      }
   \big)
@@ -341,7 +353,7 @@ For instance:
 ### **1)** Graph complexes modelling configuration spaces of points
  {#GraphComplexesModellingConfigurationSpacesOfPoints}
 
-We discuss graph complexes $Graphs_n(\Sigma)$ modelling the [[real cohomology]] of [[configuration spaces of points]] $Conf_n(\Sigma)$. 
+We discuss graph complexes $Graphs_n(\Sigma)$ modelling the [[real cohomology]] of [[configuration spaces of points]] $\underset{{}^{1,\cdots,n}}{Conf}(\Sigma)$. 
 
 For the case of $\Sigma = \mathbb{R}^D$ these were originally hinted at in [Kontsevich 92 (p. 11-12)](#Kontsevich92) and discussed in detail in [Lambrechts-Volić 14](#LambrechtsVolic14).
 
@@ -1011,7 +1023,7 @@ $$
     \;\in\;
     \Omega^2_{PA}
     \Big(
-      Conf_n
+      \underset{{}^{1,\cdots,n}}{Conf}
       \big(
         \mathbb{R}^D 
       \big)  
@@ -1435,7 +1447,7 @@ yields a [[quasi-isomorphism]] from the graph complex to the [[real cohomology]]
   }{
   \Omega^\bullet_{PA}
   \big(
-    Conf_n\big(  \Sigma \big)
+    \underset{{}^{1,\cdots,n}}{Conf}\big(  \Sigma \big)
   \big)
   }
   \,.
@@ -1449,7 +1461,7 @@ yields a [[quasi-isomorphism]] from the graph complex to the [[real cohomology]]
 The [[real cohomology|real]] [[cohomology ring]] of the configuration spaces 
 
 $$
-  Conf_n\big( \mathbb{R}^D \big) 
+  \underset{{}^{1,\cdots,n}}{Conf}\big( \mathbb{R}^D \big) 
   \;\coloneqq\;
   \big( \mathbb{R}^D \big)^n \setminus FatDiag
 $$
@@ -1462,7 +1474,7 @@ $$
   \in
   H^2
   \Big(
-    Conf_n\big( \mathbb{R}^D \big),
+    \underset{{}^{1,\cdots,n}}{Conf}\big( \mathbb{R}^D \big),
     \mathbb{R}
   \Big)
 $$
@@ -1482,7 +1494,7 @@ Hence:
 $$
   H^\bullet
   \Big(
-    Conf_n\big( \mathbb{R}^D \big),
+    \underset{{}^{1,\cdots,n}}{Conf}\big( \mathbb{R}^D \big),
     \mathbb{R}
   \Big)
   \;\simeq\;
@@ -1510,7 +1522,7 @@ This is due to [Arnold 69](configuration+space+of+points#Arnold69), [Cohen 73](c
 
 | [[real cohomology]] of [[configuration space of points]] |  [[graph complex]] ([this Prop.](configuration+space+of+points#RealCohomologyOfConfigurationSpaceOfOrderedPointsInEuclideanSpace)) | 
 |------------------|-------------------------|
-| generator <br/> $\omega_{i j} \in H^2\Big( Conf_n\big( \mathbb{R}^3\big) \Big)$ | [[edge]] <br/> $i \longrightarrow j$   | 
+| generator <br/> $\omega_{i j} \in H^2\Big( \underset{{}^{1,\cdots,n}}{Conf}\big( \mathbb{R}^3\big) \Big)$ | [[edge]] <br/> $i \longrightarrow j$   | 
 | **[[generators and relations|relations]]:** | **[[generators and relations|relations]]:** |
 | $\omega_{i j} = - \omega_{j i} $ | graph changes sign when edge is reversed (Def. \ref{SignRulesForGraphs}) | 
 | $\omega_{i j} \wedge \omega_{i j} \;=\; 0 $ | graph with [[parallel edges]] vanishes (Def. \ref{VanishingGraphs}) |  
@@ -1770,7 +1782,7 @@ Reviewed in:
 
 On the [[cochain cohomology]] of [[graph complexes]]:
 
-Characterization of $H^{ n }\big( Conf_n(\mathbb{R}^3) \big)$ in terms of STU- and HKX-relations:
+Characterization of cohomology of (...) in terms of STU- and HKX-relations:
 
 * {#KoytcheffMunsonVolic13} Robin Koytcheff, Brian A. Munson, [[Ismar Volić]], Section 3.4 of: _Configuration space integrals and the cohomology of the space of homotopy string links_, J. Knot Theory Ramif. 22, no. 11, 73 pp. (2013) ([arXiv:1109.0056](https://arxiv.org/abs/1109.0056))
 
