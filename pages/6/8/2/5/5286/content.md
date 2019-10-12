@@ -106,7 +106,7 @@ The generalization to higher dimensional framed little disks is discussed in
 * {#CohenVoronov} [[Ralph Cohen]], [[Alexander Voronov]], _Notes on string topology_ ([arXiv:math/0503625](http://arxiv.org/abs/math/0503625))
 
 
-* {#SalvatoreWahl} [[Paolo Salvatore]], Nathalie Wahl, _Framed discs operads and Batalin-Vilkovisky algebras_ ([pdf](http://www.math.ku.dk/~wahl/SalvatoreWahl.pdf))
+* {#SalvatoreWahl} [[Paolo Salvatore]], [[Nathalie Wahl]], _Framed discs operads and Batalin-Vilkovisky algebras_ ([pdf](http://www.math.ku.dk/~wahl/SalvatoreWahl.pdf))
 
 
 There are examples coming from Lagrangian intersection theory
