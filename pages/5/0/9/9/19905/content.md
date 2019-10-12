@@ -613,7 +613,7 @@ The [[de Rham cohomology]] was determined in
 
 The equivalence to the [[little n-disk operad]] was established in 
 
-* {#Salvatore01} Paolo Salvatore, _Configuration spaces with summable labels_, Cohomological methods in homotopy theory. Birkhäuser, Basel, 2001. 375-395.
+* {#Salvatore01} [[Paolo Salvatore]], _Configuration spaces with summable labels_, Cohomological methods in homotopy theory. Birkhäuser, Basel, 2001. 375-395.
 
 
 
