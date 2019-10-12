@@ -53,9 +53,9 @@ Original articles:
 
 * {#CubicalHIT} [[Thierry Coquand]], [[Simon Huber]], [[Anders Mörtberg]], _On Higher Inductive Types in Cubical Type Theory_ ([arXiv:1802.01170](https://arxiv.org/abs/1802.01170))
 
-* [[homotopytypetheory:Evan Cavallo]], [[Robert Harper]], _Parametric Cubical Type Theory_ ([arXiv:1901.00489](https://arxiv.org/abs/1901.00489))
+* [[homotopytypetheory:Evan Cavallo]], [[Robert Harper]], _Internal parametricity for cubical type theory_ ([PDF](http://www.cs.cmu.edu/~ecavallo/works/parametric-cubical.pdf))
 
-* [[homotopytypetheory:Evan Cavallo]], [[homotopytypetheory:Anders Mortberg]], _A unifying cartesian cubical type theory_, 2019, [PDF](http://www.cs.cmu.edu/~ecavallo/works/unifying-cartesian.pdf)
+* [[homotopytypetheory:Evan Cavallo]], [[Anders Mörtberg]], [[Andrew W Swan]], _Unifying Cubical Models of Univalent Type Theory_, 2019, [PDF](https://github.com/mortberg/gen-cart/blob/master/conference-paper.pdf)
 
 * [[Thierry Coquand]], [[Simon Huber]], [[Christian Sattler]] _Homotopy canonicity for cubical type theory_, 2019 [PDF](https://arxiv.org/pdf/1902.06572)
 
