@@ -27,12 +27,14 @@ which realizes $C$ as a [[coreflective subcategory]] of $Chu(C, d)$. Being star-
 
 Many concrete dualities in mathematics can be seen as embedded in a larger ambient self-duality on a Chu construction. This applies in particular to the category of _Chu spaces_, $Chu(Set, 2)$ (see below).
 
-This construction may be [[categorified]] to what might be called a **2-Chu construction**, producing for example $Chu(Cat, Set)$ (see [Shulman17](#Shulman17)).
+This construction may be [[categorified]] to what might be called a **2-Chu construction**, producing for example $Chu(Cat, Set)$ (see [Shulman17](#Shulman17)).  It also generalizes to a [[double Chu construction]] and to operations on [[multicategories]] and [[polycategories]].
 
 
 ## Definition ## 
 
-The objects of $Chu(C, d)$ are triples $(a, b; r: a \otimes b \to d)$ (called _$d$-valued pairings_ between $a$ and $b$), where $a$ and $b$ are objects of $C$ and $r$ is a morphism of $C$. The special triple $(d, I; \rho: d \otimes I \cong d)$, where $\rho$ is an instance of the canonical isomorphism (the right unitor) for the monoidal unit $I$, will play the role of [[dualizing object]] in $Chu(C, d)$. 
+### As a category with self-duality
+
+Let $C$ be a closed symmetric monoidal category and $d\in C$ an object.  The objects of $Chu(C, d)$ are triples $(a, b; r: a \otimes b \to d)$ (called _$d$-valued pairings_ between $a$ and $b$), where $a$ and $b$ are objects of $C$ and $r$ is a morphism of $C$. The special triple $(d, I; \rho: d \otimes I \cong d)$, where $\rho$ is an instance of the canonical isomorphism (the right unitor) for the monoidal unit $I$, will play the role of [[dualizing object]] in $Chu(C, d)$. 
 
 The morphisms of $Chu(C, d)$, 
 
@@ -54,7 +56,9 @@ which takes an object $(a, b; r: a \otimes b \to d)$ to
 
 $$(b, a; r^\dagger = [b \otimes a \overset{\sigma}{\cong} a \otimes b \overset{r}{\to} d])$$ 
 
-where $\sigma$ is an instance of the symmetry isomorphism, so that $r^\dagger$ is the evident transpose. On morphisms, it takes a pair $(f, g)$ to $(g, f)$; note well that the directions of the arrows make the functor contravariant on $Chu(C, d)$. 
+where $\sigma$ is an instance of the symmetry isomorphism, so that $r^\dagger$ is the evident transpose. On morphisms, it takes a pair $(f, g)$ to $(g, f)$; note well that the directions of the arrows make the functor contravariant on $Chu(C, d)$.
+
+### As a $\ast$-autonomous category
 
 Armed with just this much knowledge, and knowledge of how star-autonomous categories behave (as categorified versions of [[Boolean algebra]]s, or perhaps better [[Boolean rig]]s), the star-autonomous structure on $Chu(C, d)$ can pretty much be deduced (or strongly guessed) by the diligent reader, and this is actually a very good exercise. One could sketch this as follows: 
 
@@ -111,6 +115,28 @@ $$colim_i (a_i, b_i; r_i: a_i \otimes b_i \to d) = (colim_i a_i, lim_i b_i; r)$$
 where $r$ is the decurrying of 
 $$lim_i (b_i \to d^{a_i}) \cong lim_i b_i \to d^{colim_i a_i}$$ 
 and the formula for limits is obtained by dualizing the formula for colimits in $Chu(C, d)$.  
+
+### As a polycategory
+
+We can also deduce the $\ast$-autonomous structure of $Chu(C,d)$ by constructing it directly as a [[star-polycategory]] and then observing that it is representable.  This has the additional benefit of giving a universal property to the tensor product, as well as applying to more general inputs $C$ (and giving a result that may not be representable), and giving a convenient way to phrase the universal property of $Chu(C,d)$ itself (see below).
+
+Let $C$ be a (symmetric) [[polycategory]] in which every morphism has codomain arity 0 or 1 (a *co-subunary polycategory*).  For instance, if $C$ is any [[symmetric multicategory]] and $d\in C$ an object, we can obtain a co-subunary polycategory by defining $C(x_1,\dots,x_n; ) = C(x_1,\dots,x_n; d)$.  (In fact the construction can be generalized even further; see [Shulman 18](#Shulman18).)
+
+The objects of $Chu(C)$ are now pairings $(a, b; r : (a,b) \to ())$ in the appropriate polycategorical sense.  A morphism $(a,b,r) \to (x,y,s)$ is a pair of morphisms $f:a\to x$ and $g:y\to b$ that are "adjoint" with respect to the pairings, in the sense that the following square commutes:
+\begin{tikzcd}
+  (a,y) \ar[r,"{(f,1)}"] \ar[d,"{(1,g)}"'] & (c,y) \ar[d,"s"] \\ (a,x) \ar[r,"r"'] & ().
+\end{tikzcd}
+More generally, we can directly make $Chu(C)$ into a polycategory by taking the morphisms to be a suitable kind of [[multivariable adjunctions]].  For instance, a morphism $((a,b,r),(x,y,s)) \to (u,v,t)$ consists of three morphisms
+$$ f : (a,x) \to u \qquad g : (a,v) \to y \qquad h : (x,v) \to b $$
+such that the following three composites are equal modulo symmetries:
+$$ (a,x,v) \xrightarrow{(f,1)} (u,v) \xrightarrow{t} () $$
+$$ (x,a,v) \xrightarrow{(1,g)} (x,y) \xrightarrow{s} () $$
+$$ (a,x,v) \xrightarrow{(1,h)} (a,b) \xrightarrow{r} (). $$
+Similarly, a morphism $(a,b,r) \to ((x,y,s),(u,v,t))$ consists of three morphisms
+$$ f : (a,y) \to u \qquad g : (x,b) \to u \qquad h : (y,v) \to b $$
+such that three composite morphisms $(a,y,v) \to ()$ are equal.  With a suitable extension to $m$-$n$-ary morphisms we obtain a polycategory, and indeed a $\ast$-polycategory: the dual of $(a,b,r)$ is $(b,a,r^\dagger)$.
+
+It is then a straightforward exercise to check that if $C$ is closed, representable, has pullbacks, and a "counit" in the sense that $C(\Gamma;) \cong C(\Gamma;d)$, then $Chu(C)$ is representable on both sides and hence a $\ast$-autonomous category, where all the structure coincides with the previous definition.
 
 
 ## Chu spaces (General case)##
@@ -187,6 +213,15 @@ One of the simplest occurrences of Chu space constructions, and the one explored
 
 * Chu spaces give fairly easy to construct examples of closed monoidal categories in which [[coproduct]] injections are not necessarily monic; see [this MO answer](http://mathoverflow.net/a/208643/49).
 
+## Related pages
+
+* [[double Chu construction]]
+* [[2-Chu construction]]
+* [[double gluing]]
+* [[poset-valued set]]
+* [[ternary frame]]
+* [[multivariable adjunction]]
+
 ## References ##
 
 * A nice post by [[Todd Trimble]] on the <a href="http://golem.ph.utexas.edu/category/2007/09/category_theory_in_machine_lea.html#c012536">n-Cafe</a>.
@@ -196,9 +231,11 @@ One of the simplest occurrences of Chu space constructions, and the one explored
 
 * [[Vaughan Pratt]], *Linear process algebra*, [pdf](http://boole.stanford.edu/pub/bhub.pdf), uses $Chu(Set,K)$ where $K$ is a 4-element set to model concurrency.
 
-For a categorification, see 
+For categorifications and generalizations, see 
 
 * {#Shulman17} Mike Shulman, _The 2-Chu Construction_, ([blog post](https://golem.ph.utexas.edu/category/2017/11/the_2chu_construction.html))
+
+* {#Shulman18} Mike Shulman, _The 2-Chu-Dialectica construction and the polycategory of multivariable adjunctions_, 2018 [arxiv](https://arxiv.org/abs/1806.06082)
 
 category: category
 
