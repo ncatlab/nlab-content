@@ -64,7 +64,7 @@ Related entries: [[crystal]], [[infinitesimal site]], [[rigid cohomology]], [[Di
 
 An original account of the definition of the crystalline topos is [section 7, page 299](http://www.math.jussieu.fr/~leila/grothendieckcircle/DixExp.pdf#page=299) of
 
-* [[Alexander Grothendieck]], _Crystals and de Rham cohomology of schemes_ , chapter IX in _Dix Exposes sur la cohomologie des schema_ ([pdf](http://www.math.jussieu.fr/~leila/grothendieckcircle/DixExp.pdf))
+* [[Alexander Grothendieck]], _Crystals and de Rham cohomology of schemes_ , chapter IX in _Dix Exposes sur la cohomologie des schemas ([pdf](http://www.math.jussieu.fr/~leila/grothendieckcircle/DixExp.pdf))
 
 A more recent account is
 
