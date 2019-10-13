@@ -312,7 +312,6 @@ Reviews of [[intersecting D-brane model]] in [[type II string theory]] (in [[ori
 
 * Ching-Ming Chen, Tianjun Li, Dimitri V. Nanopoulos, _Standard-Like Model Building on Type II Orientifolds_, Nucl.Phys.B732:224-242,2006 ([arXiv:hep-th/0509059](http://arxiv.org/abs/hep-th/0509059))
 
-* Ching-Ming Chen, Tianjun Li, V. E. Mayes, Dimitri V. Nanopoulos, _A Realistic World from Intersecting D6-Branes_, Phys.Lett.B665:267-270, 2008 ([arXiv:hep-th/0703280](https://arxiv.org/abs/hep-th/0703280))
 
 * [[Angel Uranga]], _The standard model from D-branes in string theory_, talk at Padova, January 2008 ([pdf](http://active.pd.infn.it/g4/seminars/2008/files/uranga.pdf))
 
@@ -332,9 +331,17 @@ Computer scan of [[toroidal orbifold]]-[[KK-compactification]] of [[intersecting
 
 * {#GBHLW05} [[Florian Gmeiner]], [[Ralph Blumenhagen]], [[Gabriele Honecker]], [[Dieter Lüst]], [[Timo Weigand]], _One in a Billion: MSSM-like D-Brane Statistics_, JHEP 0601:004, 2006 ([arXiv:hep-th/0510170](https://arxiv.org/abs/hep-th/0510170))
 
-Discussion of realistic [[Yukawa couplings]] and [[fermion]] [[masses]]:
+Realistic [[Yukawa couplings]] and [[fermion]] [[masses]] in an [[MSSM]] [[Pati-Salam GUT model]] with 3 [[generations of fermions]] realized on [[intersecting D-brane model|intersecting]] [[D6-branes]] [[KK-compactification|KK-compactified]] on a [[toroidal orbifold]] $T^6\sslash (\mathbb{Z}_2 \times \mathbb{Z}_2)$ are claimed in
 
-* {#Mayes19} Van E. Mayes, _All Fermion Masses and Mixings in an Intersecting D-brane World_ ([arXiv:1902.00983](https://arxiv.org/abs/1902.00983))
+* {#ChenLiMayesNanopoulos07a} Ching-Ming Chen, Tianjun Li, [[Van Eric Mayes]], [[Dimitri Nanopoulos]], _A Realistic World from Intersecting D6-Branes_, Phys.Lett.B665:267-270, 2008 ([arXiv:hep-th/0703280](https://arxiv.org/abs/hep-th/0703280), [doi:10.1016/j.physletb.2008.06.024](https://doi.org/10.1016/j.physletb.2008.06.024))
+
+* {#ChenLiMayesNanopoulos07b} Ching-Ming Chen, Tianjun Li, [[Van Eric Mayes]], [[Dimitri Nanopoulos]], _Realistic Yukawa Textures and SUSY Spectra from Intersecting Branes_, Phys.Rev.D77:125023, 2008 ([arXiv:0711.0396](https://arxiv.org/abs/0711.0396))
+
+* {#Mayes19} [[Van Eric Mayes]], _All Fermion Masses and Mixings in an Intersecting D-brane World_ ([arXiv:1902.00983](https://arxiv.org/abs/1902.00983))
+
+* {#GemillHowingtonMayes19} Jordan Gemmill, Evan Howington, [[Van Eric Mayes]], _One String to Rule Them All: Neutrino Masses and Mixing Angles_ ([arXiv:1907.07106](https://arxiv.org/abs/1907.07106))
+
+* Tianjun Li, Adeel Mansha, Rui Sun, _Revisiting the Supersymmetric Pati-Salam Models from Intersecting D6-branes_ ([arXiv:1910.04530](https://arxiv.org/abs/1910.04530))
 
 
 #### Type I string theory model
