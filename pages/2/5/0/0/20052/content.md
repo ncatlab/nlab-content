@@ -151,11 +151,14 @@ The question is known, for example, to be true on all regular Hausdorff ($T_3$) 
 +-- {: .num_theorem #ExtensionOfValuationToBorelMeasure}
 ###### Theorem
 
-On every [[separation axiom|T3]] [[topological space]], on every [[regular topological space]], and on every [[locally compact topological space|locally compact]] [[sober space]], a locally finite continuous valuation extends uniquely to a regular, [[tau-additive measure|$\tau$-additive Borel measure]].
+A locally finite continuous valuation on a [[regular topological space]]
+extends uniquely to a regular τ-smooth [[Borel measure]].
+A locally finite continuous valuation on a [[locally compact]] [[sober space]]
+extends uniquely to a τ-smooth [[Borel measure]].
 
 =--
 
-([Manilla 00, Theorems 3.23 and 3.27](#Manilla00), [Manilla 02, Theorem 4.4](#Manilla02))
+([Manilla 02, Theorems 4.4 and 4.12](#Manilla02))
 
 This includes in particular every [[metric space]], and every compact Hausdorff space. So, in many spaces of interest for analysis and probability theory, working with measures and working with valuations is only a difference in the language. 
 
