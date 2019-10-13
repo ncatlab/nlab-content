@@ -972,7 +972,7 @@ A definition of the Bousfield-Kan map, and the Reedy model category theory neces
 
 The (fat) geometric realization of ([[nerve]]s of) [[topological groupoid]]s is discussed in section 2.3 of
 
-* {#GepnerHenriques} [[David Gepner]], [[André Henriques]], _Homotopy theory of orbispaces_ ([pdf](http://www.math.uni-muenster.de/sfb/about/publ/heft448.pdf))
+* {#GepnerHenriques} [[David Gepner]], [[André Henriques]], _Homotopy theory of orbispaces_ ([arXiv:math/0701916](https://arxiv.org/abs/math/0701916))
 
 See also
 
