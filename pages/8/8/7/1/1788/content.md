@@ -642,6 +642,7 @@ $\tau_{A}(X,Y) \colon P(X, Y) \rightarrow P(A \otimes X, A \otimes Y)$ called th
 are natural in $X, Y$ and dinatural in $A$, satisfying
 the equations:
 
-
+[Backus' 1977 lecture](#Backus1977)
+[[#Backus1977|Backus' 1977 lecture]]
 [[functional programming#Backus1977|Backus' 1977 lecture]]
 
