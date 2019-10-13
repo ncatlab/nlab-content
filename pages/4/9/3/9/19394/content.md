@@ -49,12 +49,14 @@ The other end of the [[M2-brane]]-lift of the E-string is [[M2-M5 brane bound st
 
 In contrast, if both ends of the [[M2-brane]] are on an [[M5-brane]], some authors speak of "M-strings":
 
-
-> graphics grabbed from [HLV 14](#HLV14)
-
 <center>
 <img src="https://ncatlab.org/nlab/files/MStringFromM2BetweenM5AndM5.jpg" width="500">
 </center>
+
+
+> graphics grabbed from [HLV 14](#HLV14)
+
+
 
 
 ## Related concepts
