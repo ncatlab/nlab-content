@@ -69,6 +69,10 @@ Realistic [[Yukawa couplings]] and [[fermion]] [[masses]] in an [[MSSM]] [[Pati-
 
 * {#GemillHowingtonMayes19} Jordan Gemmill, Evan Howington, Van E. Mayes, _One String to Rule Them All: Neutrino Masses and Mixing Angles_ ([arXiv:1907.07106](https://arxiv.org/abs/1907.07106))
 
+* Tianjun Li, Adeel Mansha, Rui Sun, _Revisiting the Supersymmetric Pati-Salam Models from Intersecting D6-branes_ ([arXiv:1910.04530](https://arxiv.org/abs/1910.04530))
+
+
+
 
 [[!redirects Yukawa couplings]]
 
