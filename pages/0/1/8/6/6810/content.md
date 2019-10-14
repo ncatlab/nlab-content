@@ -63,11 +63,11 @@ The maximally [[number of supersymmetries|N=4]] supersymmetric $SO(5)$-[[gauged 
 
 There are also gaugings for non-compact groups
 
-* M. Pernici, K. Pilch, [[Peter van Nieuwenhuizen]], and N. P. Warner, _Noncompact Gauging and Critical Points of Maximal Supergravity in Seven Dimensions_ , Nucl. Phys. B249 (1985) 381.
+* M. Pernici, K. Pilch, [[Peter van Nieuwenhuizen]], and N. P. Warner, _Noncompact Gauging and Critical Points of Maximal Supergravity in Seven Dimensions_, Nucl. Phys. B249 (1985) 381.
 
-The [[number of supersymmetries|N=2]] $Sp(1)$-gauged theory was described in
+The [[number of supersymmetries|N=2]] [[Sp(1)]]-gauged theory was described in
 
-* [[Paul Townsend]] and [[Peter van Nieuwenhuizen]], _Gauged Seven-Dimensional Supergravity_ , Phys. Lett. 125B (1983) 41.
+* [[Paul Townsend]], [[Peter van Nieuwenhuizen]], _Gauged Seven-Dimensional Supergravity_ , Phys. Lett. 125B (1983) 41 ([spire:189055](http://inspirehep.net/record/189055), <a hraf="https://doi.org/10.1016/0370-2693(83)91230-3">doi:10.1016/0370-2693(83)91230-3</a>)
 
 See also
 
@@ -92,7 +92,7 @@ Discussion of [[quantum anomaly]] cancellation and 7d [[Horava-Witten theory]] i
 The following references discuss construction of full 7d sugra theories or of their solutions by [[Kaluza-Klein mechanism|KK-reduction]] from [[11-dimensional supergravity]] or from 10d [[type II supergravity]].
 
 
-The construction of 7d supergravity by reduction from [[11-dimensional supergravity]] was first indicated in 
+The construction of 7d supergravity by [[KK-reduction]] from [[11-dimensional supergravity]] was first indicated in 
 
 * [[Peter Freund]], M. A. Rubin, _Dynamics of dimensional reduction_  Phys. Lett. 97B (1980) 233.
 
