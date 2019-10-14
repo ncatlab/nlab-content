@@ -102,21 +102,8 @@ Notice well the two assumptions that were made to make this argument work:
 
 ## Examples
 
-* [[moduli space of complex structures]], [[moduli space of conformal structures]]
+[[!include moduli spaces -- contents]]
 
-* [[moduli space of Riemannian metrics]]
-
-* [[moduli stack of elliptic curves]]
-
-* [[moduli space of Calabi-Yau spaces]]
-
-* [[moduli space of connections]], [[moduli space of flat connections]]
-
-* [[moduli space of framed manifolds]]
-
-* [[moduli space of bundles]]
-
-* [[moduli space of (higher) line bundles]]
 
 ## Related concepts 
 
