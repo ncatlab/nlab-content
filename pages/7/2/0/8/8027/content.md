@@ -71,7 +71,13 @@ The [[2d TQFT]] obtained from this by forming the 4d index is discussed in
 
 * {#GPRR10} Abhijit Gadde, Elli Pomoni, Leonardo Rastelli, Shlomo S. Razamat, _S-duality and 2d Topological QFT_, JHEP 1003:032, 2010 ([arXiv:0910.2225](http://arxiv.org/abs/0910.2225))
 
-Relation of the [[AGT-correspondence]] to the [[D=6 N=(2,0) SCFT]] and the [[3d-3d correspondence]]:
+Relation of the [[AGT-correspondence]] to the [[D=6 N=(2,0) SCFT]]
+
+* Benjamin Assel, Sakura Schafer-Nameki, Jin-Mann Wong, _M5-branes on $S^2 \times M_4$: Nahm's Equations and 4d Topological Sigma-models_, J. High Energ. Phys. (2016) 2016: 120 ([arxiv:1604.03606](https://arxiv.org/abs/1604.03606))
+
+
+
+and to the [[3d-3d correspondence]]:
 
 * [[Clay Cordova]], [[Daniel Jafferis]], _Toda Theory From Six Dimensions_, J. High Energ. Phys. (2017) 2017: 106 ([arxiv:1605.03997](https://arxiv.org/abs/1605.03997))
 
@@ -99,31 +105,31 @@ See also
 
 * [[Alexander Belavin]], M. A. Bershtein, B. L. Feigin, A. V. Litvinov, G. M. Tarnopolsky, _Instanton moduli spaces and bases in coset conformal field theory_ ([arxiv/1111.2803](http://arxiv.org/abs/1111.2803))
 
-* [[Volker Schomerus]], Paulina Suchanek, _Liouville's imaginary shadow_, [arxiv/1210.1856](http://arxiv.org/abs/1210.1856)
+* [[Volker Schomerus]], Paulina Suchanek, _Liouville's imaginary shadow_ ([arxiv/1210.1856](http://arxiv.org/abs/1210.1856))
 
-* A.Mironov, A.Morozov, _The power of Nekrasov functions_, [arxiv/0908.2190](http://arxiv.org/abs/0908.2190)
+* A.Mironov, A.Morozov, _The power of Nekrasov functions_ ([arxiv/0908.2190](http://arxiv.org/abs/0908.2190))
 
-* D. Galakhov, A. Mironov, A. Morozov, _S-duality as a beta-deformed Fourier transform_, [arxiv/1205.4998](http://arxiv.org/abs/1205.4998)
+* D. Galakhov, A. Mironov, A. Morozov, _S-duality as a beta-deformed Fourier transform_ ([arxiv/1205.4998](http://arxiv.org/abs/1205.4998))
 
-* A. Mironov, _Spectral duality in integrable systems from AGT conjecture_, [arxiv/1204.0913](http://arxiv.org/abs/1204.0913)
+* A. Mironov, _Spectral duality in integrable systems from AGT conjecture_ ([arxiv/1204.0913](http://arxiv.org/abs/1204.0913))
 
-* A. Belavin, V. Belavin, _AGT conjecture and integrable structure of conformal field theory for $c=1$_, Nucl.Phys.B850:199-213 (2011) [arxiv/1102.0343](http://arxiv.org/abs/1102.0343)
+* A. Belavin, V. Belavin, _AGT conjecture and integrable structure of conformal field theory for $c=1$_, Nucl.Phys.B850:199-213 (2011) ([arxiv/1102.0343](http://arxiv.org/abs/1102.0343))
 
-* A. Belavin, V. Belavin, M. Bershtein, _Instantons and 2d Superconformal field theory_, [arxiv/1106.4001](http://arxiv.org/abs/1106.4001)
+* A. Belavin, V. Belavin, M. Bershtein, _Instantons and 2d Superconformal field theory_ ([arxiv/1106.4001](http://arxiv.org/abs/1106.4001))
 
-* Kazunobu Maruyoshi, _Quantum integrable systems, matrix models, and AGT correspondence_, seminar [slides](http://db.ipmu.jp/seminar/sysimg/seminar/428.pdf)
+* Kazunobu Maruyoshi, _Quantum integrable systems, matrix models, and AGT correspondence_, seminar ([slides pdf](http://db.ipmu.jp/seminar/sysimg/seminar/428.pdf))
 
-* Giulio Bonelli, Alessandro Tanzini, _Hitchin systems, N=2 gauge theories and W-gravity_, [arxiv/0909.4031](http://arxiv.org/abs/0909.4031)
+* Giulio Bonelli, Alessandro Tanzini, _Hitchin systems, N=2 gauge theories and W-gravity_ ([arxiv/0909.4031](http://arxiv.org/abs/0909.4031))
 
-* Giulio Bonelli, Kazunobu Maruyoshi, Alessandro Tanzini, _Quantum Hitchin systems via beta-deformed matrix models_, [arxiv/1104.4016](http://arxiv.org/abs/1104.4016)
+* Giulio Bonelli, Kazunobu Maruyoshi, Alessandro Tanzini, _Quantum Hitchin systems via beta-deformed matrix models_ ([arxiv/1104.4016](http://arxiv.org/abs/1104.4016))
 
-* {#ChacaltanaDistler10} [[Oscar Chacaltana]], [[Jacques Distler]], _Tinkertoys for Gaiotto Duality_, JHEP 1011:099,2010, ([arXiv:1008.5203](http://arxiv.org/abs/arXiv:1008.5203), \cite{chacaltana:2010ks, MR3046557})
+* {#ChacaltanaDistler10} [[Oscar Chacaltana]], [[Jacques Distler]], _Tinkertoys for Gaiotto Duality_, JHEP 1011:099,2010, ([arXiv:1008.5203](http://arxiv.org/abs/arXiv:1008.5203))
 
-* Satoshi Nawata, _Givental J-functions, Quantum integrable systems, AGT relation with surface operator_, [arXiv/1408.4132](http://arxiv.org/abs/1408.4132)
+* Satoshi Nawata, _Givental J-functions, Quantum integrable systems, AGT relation with surface operator_ ([arXiv/1408.4132](http://arxiv.org/abs/1408.4132))
 
 The AGT correspondence is treated with the help of a [[Riemann-Hilbert problem]] in 
 
-* G. Vartanov, [[Jörg Teschner]], _Supersymmetric gauge theories, quantization of moduli spaces of flat connections, and conformal field theory_, [arxiv/1302.3778](http://arxiv.org/abs/1302.3778)
+* G. Vartanov, [[Jörg Teschner]], _Supersymmetric gauge theories, quantization of moduli spaces of flat connections, and conformal field theory_ ([arxiv/1302.3778](http://arxiv.org/abs/1302.3778))
  
 
 category: physics
