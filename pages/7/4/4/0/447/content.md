@@ -301,9 +301,24 @@ The previous two sections show that the geometric realization preserves finite l
 
 ## References
 
+### General
+
 * {#Quillen68} [[Daniel Quillen]], *The geometric realization of a Kan fibration is a Serre fibration.  Proc. Amer. Math. Soc. 19 1968 1499--1500.  [pdf](https://www.ams.org/journals/proc/1968-019-06/S0002-9939-1968-0238322-1/S0002-9939-1968-0238322-1.pdf)
 
 * {#FP90} Fritsch and Piccinini, *Cellular Structures in Topology*, Cambridge University Press, 1990, ISBN 0521327849
+
+### Compatibility with homotopy limits
+
+Discussion of sufficient conditions for homotopy geometric realization to be compatible with [[homotopy pullback]] (see also at _[[geometric realization of simplicial topological spaces]]_):
+
+* D. Anderson, _Fibrations and geometric realization_ , 
+Bull. Amer. Math. Soc. Volume 84, Number 5 (1978), 765-788. ([euclid:1183541139](http://projecteuclid.org/euclid.bams/1183541139))
+
+* {#Rezk14} [[Charles Rezk]], _When are homotopy colimits compatible with homotopy base change?_, 2014 ([pdf](https://faculty.math.illinois.edu/~rezk/i-hate-the-pi-star-kan-condition.pdf), [[RezkHomotopyColimitsBaseChange.pdf:file]])
+
+* Edoardo Lanari, _Compatibility of homotopy colimits and homotopy pullbacks of simplicial presheaves_ ([pdf](http://algant.eu/documents/theses/lanari.pdf), [[LanariHomotopyColimitsBaseChange.pdf:file]])
+
+  (expanded version of [Rezk 14](#Rezk14))
 
 [[!redirects geometric realisation]]
 
