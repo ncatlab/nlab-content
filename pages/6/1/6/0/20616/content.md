@@ -5,7 +5,9 @@
 
 ## Idea
 
-**Double gluing**, coupled with orthogonality, is a method for creating new models of [[linear logic]] such as [[star-polycategories]] and [[star-autonomous categories]]. It is a variation of gluing methods (such as [[Artin gluing]]) that works for classical rather than intuitionistic (linear) logic. It is a general method that encompases many existing spaces such as [[phase spaces]], [[coherence spaces]], [[finiteness spaces]], [[totality spaces]], [[probabilistic coherence spaces]]. 
+**Double gluing**, coupled with orthogonality, is a method for creating new models of [[linear logic]] such as [[star-polycategories]] and [[star-autonomous categories]]. It is a variation of gluing methods (such as [[Artin gluing]]) that works for classical rather than intuitionistic (linear) logic. It is a general method that encompases many existing spaces such as [[phase spaces]], [[coherence spaces]], [[finiteness spaces]], [[totality spaces]], [[probabilistic coherence spaces]].
+
+Although the name presumably refers to gluing along "two functors at once", it turns out to also be closely connected to [[double categories]], and in particular to [[comma double categories]]. 
 
 
 ## Double gluing along hom-sets with orthogonality
