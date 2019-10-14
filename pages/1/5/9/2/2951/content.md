@@ -23,7 +23,6 @@ On the [[Atiyah-Segal completion theorem]]:
 
 * [[Michael Atiyah]], [[Graeme Segal]], _Equivariant $K$-theory and completion_,  J. Differential Geom. Volume 3, Number 1-2 (1969), 1-18. ([Euclid](http://projecteuclid.org/euclid.jdg/1214428815))
 
-
 On [[equivariant stable homotopy theory]] and the isomorphism between the [[Burnside ring]] and the [[equivariant stable Cohomotopy]] of the point:
 
 * {#Segal71} [[Graeme Segal]], _Equivariant stable homotopy theory_, Actes du Congr&#232;s International des Math&#233;maticiens (Nice, 1970), Tome 2, pp. 59--63. Gauthier-Villars, Paris, 1971 ([[SegalEquivariantStableHomotopyTheory.pdf:file]])
@@ -39,6 +38,11 @@ On the [[Kahn-Priddy theorem]] (and a pre-cursor of [[Snaith's theorem]]):
 On [[K-theory of permutative categories]] and [[Gamma spaces]] as models for [[connective spectra]]:
 
 * [[Graeme Segal]], _Categories and cohomology theories_, Topology 13 (1974).
+
+On the [[homotopy type]] of the [[space of maps|space of]] [[rational functions]] from the [[Riemann sphere]] to itself (related to the [[moduli space of monopoles]] in $\mathbb{R}^3$ and to the [[configuration space of points]] in $\mathbb{R}^2$):
+
+* [[Graeme Segal]], _The topology of spaces of rational functions_, Acta Math. Volume 143 (1979), 39-72 ([euclid:1485890033](https://projecteuclid.org/euclid.acta/1485890033))
+
 
 On [[loop groups]] of [[compact Lie groups]] and their [[Kac-Moody group]] [[central extension]]:
 
