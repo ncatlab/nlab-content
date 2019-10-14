@@ -85,6 +85,11 @@ For $X$ a smooth manifold, $Met(X)$ itself is a [[contractible space]].
 
 In the context of the theory of [[gravity]], the moduli space of pseudo-Riemannian metrics on $X$ is the [[configuration space]] of the [[quantum field theory|field theory]] of gravity ([[general relativity]]). The moduli space of Einstein metrics is then called the [[covariant phase space]]: this is the subspace of solutions of the [[Einstein equations]].
 
+## Related concepts
+
+[[!include moduli spaces -- contents]]
+
+
 ## References
 
 Textbook references include 
