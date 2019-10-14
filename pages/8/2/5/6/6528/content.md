@@ -246,6 +246,8 @@ Due to the [[higher WZW term]] $\propto \int_{D_{p+4}} C_{p+1} \wedge \langle F 
 
 * [[contact instanton]]
 
+* [[Nahm transform]]
+
 * [[caloron]]
 
 * [[non-perturbative effect]]
@@ -319,7 +321,7 @@ Yang-Mills instantons on spaces other than just spheres are explicitly discussed
 
 based on 
 
-* [[Chris Isham]] [[Gabor Kunstatter]], Phys. Letts. v.102B, p.417, 1981. ([doi](http://dx.doi.org/10.1016/0370-2693%2881%2991244-2))
+* [[Chris Isham]], [[Gabor Kunstatter]], Phys. Letts. v.102B, p.417, 1981. ([doi](http://dx.doi.org/10.1016/0370-2693%2881%2991244-2))
 
 * [[Chris Isham]] [[Gabor Kunstatter]], J. Math. Phys. v.23, p.1668, 1982. ([doi](http://dx.doi.org/10.1063/1.525552))
 
