@@ -24,13 +24,12 @@ Specifically for once-punctured 2-dimensional manifolds of [[genus]] 1 ([[tori]]
 
 ## Related concepts
 
-* [[moduli space of conformal structures]]
-
-* [[moduli space of curves]]
-
 * [[Teichmüller theory]]
 
 * [[Kodaira-Spencer theory]]
+
+[[!include moduli spaces -- contents]]
+
 
 ## References
 
