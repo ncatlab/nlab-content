@@ -29,6 +29,10 @@ Of particular interest are [[vacuum amplitudes]] which are scattering amplitudes
 
 The Feynman amplitudes of [[higher Chern-Simons theory]], such as [[AKSZ sigma-models]], regarded in their incarnation as [[Feynman amplitudes on compactified configuration spaces of points]], serve to exhibit a [[graph complex]]-model for the [[de Rham complex]] of [[Fulton-MacPherson compactifications]] of [[configuration spaces of points]] by the construction recalled [there](Fulton-MacPherson+operad#RelationToGraphComplexes). See the pointers at _[[Chern-Simons theory]]_ [here](Chern-Simons+theory#FeynmanPerturbationSeries).
 
+### Of monopoles
+
+See at _[[moduli space of monopoles]]_ the section _[Scattering amplitudes of monopoles](moduli+space+of+monopoles#ScatteringAmplitudesofMonopoles)_.
+
 ## Related concepts
 
 * [[scattering]]
