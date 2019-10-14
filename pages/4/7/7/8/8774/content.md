@@ -19,7 +19,7 @@
 
 ## Idea
 
-A variant of [[Yang-Mills theory]] in which the [[field strength]]/[[curvature]] 2-form of the [[Yang-Mills field]] is constrained to be self-dual.
+A variant of [[Yang-Mills theory]] in which the [[field strength]]/[[curvature]] 2-form of the [[Yang-Mills field]] is constrained to be [[Hodge star operator|Hodge]] self-dual.
 
 ## Definition
 
@@ -160,6 +160,8 @@ $$
 Solutions to the [[equations of motion]] of self-dual Yang-Mills theory are naturally produced by seding cohomology classes on [[twistor space]] through the [[Penrose-Ward twistor transform]]. See there for more details.
 
 ## Related concepts
+
+* [[Bogomolny equation]], [[Nahm equation]]
 
 * [[self-dual higher gauge theory]]
 
