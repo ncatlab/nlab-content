@@ -12,9 +12,10 @@ a [[moduli space]] of [[conformal structures]]
 
 ## Related concepts
 
-* [[moduli space of complex structures]]
-
 * [[Teichmüller theory]]
+
+[[!include moduli spaces -- contents]]
+
 
 ## References
 
