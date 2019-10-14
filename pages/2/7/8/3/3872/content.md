@@ -28,6 +28,11 @@ On [[instantons]] in [[Yang-Mills theory]]:
 
 * {#AtiyahJones78} [[Michael Atiyah]], [[John David Stuart Jones]], _Topological aspects of Yang-Mills theory_, Comm. Math. Phys. Volume 61, Number 2 (1978), 97-118 ([arXiv:1103904210](https://projecteuclid.org/euclid.cmp/1103904210))
 
+On [[moduli spaces of monopoles]]:
+
+* [[Michael Atiyah]], [[Nigel Hitchin]], _The geometry and dynamics of magnetic monopoles_  M. B. Porter Lectures. Princeton University Press, Princeton, NJ, 1988 ([jstor:j.ctt7zv206](https://www.jstor.org/stable/j.ctt7zv206))
+
+
 On [[skyrmions]]:
 
 * {#AtiyahManton89} [[Michael Atiyah]], [[Nicholas Manton]], _Skyrmions from instantons_, Phys.  Lett.  B, 222(3):438–442, 1989 (<a href="https://doi.org/10.1016/0370-2693(89)90340-7">doi:10.1016/0370-2693(89)90340-7</a>)
@@ -55,7 +60,7 @@ On patterns in the [[characteristic classes]] ([[Chern classes]]) of [[complex s
 
 > (M.F. Atiyah, "How research is carried out", Bull. IMA., 10:232&#8211;234, 1974)
 
-## related $n$Lab entries
+## Related $n$Lab entries
 
 * [[equivariant de Rham cohomology]]
 
@@ -77,7 +82,9 @@ On patterns in the [[characteristic classes]] ([[Chern classes]]) of [[complex s
 
 * [[configuration space of points]]
 
-* [[instanton]], [[Skyrmion]]
+* [[instanton]], [[magnetic monopole]], [[Skyrmion]]
+
+* [[moduli space of monopoles]]
 
 * ...many more...
 
