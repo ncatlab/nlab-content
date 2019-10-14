@@ -38,7 +38,7 @@
 
 The original articles;
 
-* [[Werner Nahm]], _The construction of all self-dual multi-monopoles by the ADHM method_, In: Craigie et al. (eds.), _Monopoles in quantum theory_, Singapore, World Scientific 1982 ([spire:178340](http://inspirehep.net/record/178340)
+* [[Werner Nahm]], _The construction of all self-dual multi-monopoles by the ADHM method_, In: Craigie et al. (eds.), _Monopoles in quantum theory_, Singapore, World Scientific 1982 ([spire:178340](http://inspirehep.net/record/178340))
 
 * [[Werner Nahm]], _Self-dual monopoles and calorons_, In: G. Denardo, G. Ghirardi and T. Weber (eds.), _Group theoretical methods in physics_, Lecture Notes in Physics 201. Berlin, Springer-Verlag 1984 ([doi:10.1007/BFb0016145](https://doi.org/10.1007/BFb0016145))
 
