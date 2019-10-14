@@ -41,9 +41,10 @@ is a homotopy 1-type.
 
 ## Related concepts
 
-* [[moduli space of complex structures]]
-
 * [[cobordism category]], [[cobordism hypothesis]]
+
+
+[[!include moduli spaces -- contents]]
 
 
 ## References
