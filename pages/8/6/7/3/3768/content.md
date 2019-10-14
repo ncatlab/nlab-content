@@ -152,11 +152,12 @@ e.g. ([Sorger 99, theorem 5.1.1](#Sorger99))
 
 ## Related concepts
 
-* [[moduli space of flat connections]]
 
 * [[Narasimhan–Seshadri theorem]], [[Donaldson-Uhlenbeck-Yau theorem]], [[Kobayashi-Hitchin correspondence]]
 
-* [[moduli space of (higher) line bundles]]
+
+[[!include moduli spaces -- contents]]
+
 
 ## References
 
