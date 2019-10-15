@@ -261,7 +261,7 @@ hence an embedding of the [[quantomorphism n-group]] into the $n$-[[group of bis
 
 The original references in order of appearance are
 
-* [[Pavol ?evera]], _Letters to A. Weinstein_ ([web](http://sophia.dtp.fmph.uniba.sk/~severa/letters/), [arXiv:1707.00265](https://arxiv.org/abs/1707.00265))
+* [[Pavol Ševera]], _Letters to A. Weinstein_ ([web](http://sophia.dtp.fmph.uniba.sk/~severa/letters/), [arXiv:1707.00265](https://arxiv.org/abs/1707.00265))
 
 * [[Dmitry Roytenberg]], [[Alan Weinstein]], _Courant algebroids and strongly homotopy Lie algebras_, Lett. Math. Physics __46__(1):81-93, 1998.
 
@@ -269,7 +269,7 @@ The original references in order of appearance are
 thesis, University of California, Berkeley, 1999.
 ([math.DG/9910078](http://arxiv.org/abs/math.DG/9910078))
 
-* [[Pavol Severa]], _Some title containing the words "homotopy" and "symplectic", e.g. this one_, In Travaux
+* [[Pavol Ševera]], _Some title containing the words "homotopy" and "symplectic", e.g. this one_, In Travaux
 math&#233;matiques. Fasc. XVI, chapter Trav. Math., XVI, pp. 121-137. Univ. Luxembourg, 2005.
 
 * [[Dmitry Roytenberg]], _On the structure of graded symplectic supermanifolds and Courant algebroids_, pp. 169--185. in Contemporary Mathematics __315__, _Quantization, Poisson brackets and beyond_ (Manchester, 2001), Theodore Voronov, editor, Amer. Math. Soc. 2002.
@@ -327,6 +327,8 @@ Discussion of [[Riemannian geometry]] on Courant algebroids and relation to [[su
 See also
 
 * Xu Xiaomeng, _Twisted Courant algebroids and coisotropic Cartan geometries_ ([arXiv:1206.2282](http://arxiv.org/abs/1206.2282))
+
+* [[Jan Vysoky]], _Hitchhiker's Guide to Courant Algebroid Relations_ ([arXiv:1910.05347](https://arxiv.org/abs/1910.05347))
 
 [[!redirects Courant Lie algebroid]]
 [[!redirects Courant Lie algebroids]]
