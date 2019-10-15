@@ -37,7 +37,7 @@ The _quark-gluon plasma_ is the [[phase of matter]] of [[quantum chromodynamics]
 Despite the [[confinement|deconfinement]] beyond [[temperature]] $T_c$, the quark-gluon plasma at temperature $\sim 4-5 T_c$ as produced in [[experiment]] ([Adams et al. 05](#AdamsEtAl05), [Adcox et al. 05](#AdcoxEtAl05)) is apparently strongly [[coupling constant|coupled]], meaning that its properties are [[non-perturbative effects]] requiring discussion of [[QCD]] as a [[non-perturbative field theory]]. With an exact such theory largely missing, much of the theoretical discussion of the quark-gluon plasma involves [[lattice QCD]] computer simulation. Indication for strong coupling of the QG-plasma comes from the nature of the _elliptic flow_ seen both in [[experiment]] as well as in these computer simulations, which shows [[hydrodynamic]] behaviour with extremely small [[shear viscosity]] (e.g. [Shuryak 01](#Shuryak01), [Chakraborty 12](#Chakraborty12)).
 
 
-It has been proposed ([Policastro-Son-Starinets 01](#PolicastroSonStarinets01)) that, therefore, an analytic approach to a description of the quark-gluon plasma (i.e. not just via [[lattice QCD]] computer experiment) might be given by approximate [[AdS-CFT duality]] (see e.g. [Biagazzi-Cotrone 12](#BiagazziCotrone12)). The difficulty with this approach is that for [[QCD]] (as opposed to [[N=4 D=4 SYM]]) [[AdS-CFT duality]] applies only to some approximation.
+It has been proposed ([Policastro-Son-Starinets 01](#PolicastroSonStarinets01)) that, therefore, an analytic approach to a description of the quark-gluon plasma (i.e. not just via [[lattice QCD]] computer experiment) might be given by approximate [[AdS-CFT duality]], hence by the [[AdS/QCD correspondence]] or [[fluid/gravity correspondence]] (see e.g. [Biagazzi-Cotrone 12](#BiagazziCotrone12)). The difficulty with this approach is that for [[QCD]] (as opposed to [[N=4 D=4 SYM]]) [[AdS-CFT duality]] applies only to some approximation, see at _[[AdS/QCD correspondence]]_ for more.
 
 ### Perturbative regime
 
@@ -70,6 +70,8 @@ See the references [below](#ReferencesInEarlyUniverseCosmology).
 * The quark-gluon plasma is naturally studied in terms of [[infinite-temperature thermal field theory]] ([Blaizot-Iancu-Rebhan 03, section 2.2.4](#BlaizotIancuRebhan03), [Blaizot 04, around p. 17](#Blaizot04))
 
 * the [[QCD trace anomaly]] affects the [[equation of state]] of the quark-gluon plasma.
+
+* In as far as the quark-gluon plasma is described by [[fluid dynamics]], the [[fluid/gravity correspondence]] applies.
 
 ## References
 
