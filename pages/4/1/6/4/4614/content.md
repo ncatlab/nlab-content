@@ -999,7 +999,7 @@ Geometric realization of general [[Cech nerve]]s is discussed in
 ### (Non-)Compatibility with homotopy pullbacks
  {#ReferencesCompatibilityHomotopyPullback}
 
-Discussion of sufficiant conditions for geometric realization to be compatible with [[homotopy pullbacks]]:
+Discussion of sufficient conditions for geometric realization to be compatible with [[homotopy pullbacks]]:
 
 * D. Anderson, _Fibrations and geometric realization_ , 
 Bull. Amer. Math. Soc. Volume 84, Number 5 (1978), 765-788. ([euclid:1183541139](http://projecteuclid.org/euclid.bams/1183541139))
