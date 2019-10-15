@@ -139,7 +139,9 @@ See the article by Selinger below for more examples.
 
 * [[Feynman diagram]]
 
-* [[tensor network]]
+* [[tensor network]],
+
+* [[neural network]]
 
 * [[linguistics|natural language syntax]]
 
@@ -238,8 +240,8 @@ For [[closed monoidal categories]] in
 * [[John Baez]], Quantum Gravity Seminar - Fall 2006.  &lt;http://math.ucr.edu/home/baez/qg-fall2006/index.html#computation>
  {#BaezQG06}
 
-* [[John Baez]] and [[Mike Stay]], *Physics, Topology, Logic and Computation: A Rosetta Stone*, [arxiv](https://arxiv.org/abs/0903.0340)
- {#Rosetta}
+*  {#Rosetta} [[John Baez]] and [[Mike Stay]], *Physics, Topology, Logic and Computation: A Rosetta Stone*, [arxiv](https://arxiv.org/abs/0903.0340)
+
 
 * Francois Lamarche, *Proof Nets for Intuitionistic Linear Logic: Essential nets*, 2008 [pdf](http://hal.inria.fr/docs/00/34/73/36/PDF/prfnet1.pdf)
  {#Lamarche08}
@@ -279,7 +281,6 @@ Discussion for [[double categories]] and [[2-category equipped with proarrows|pr
 See also at _[[opetopic type theory]]_.
 
 
-[[!redirects string diagram]]
 [[!redirects string diagrams]]
 [[!redirects circuit diagram]]
 [[!redirects circuit diagrams]]
