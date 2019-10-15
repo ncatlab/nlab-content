@@ -207,5 +207,11 @@ On the [[rational cohomology]]:
 
 [[!redirects iterated loop spaces]]
 
+[[!redirects iterated based loop space]]
+[[!redirects iterated based loop spaces]]
+
 [[!redirects n-fold loop space]]
 [[!redirects n-fold loop spaces]]
+
+
+
