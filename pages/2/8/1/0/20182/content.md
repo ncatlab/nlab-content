@@ -27,8 +27,9 @@ See at _[[Sullivan model of free loop space]]_.
 
 We discuss tesults on the [[rational homotopy type]] of [[spaces of maps]] inti an [[n-sphere]], hence [[rational Cohomotopy]] [[cocycle]] spaces.
 
-+-- {: .num_prop}
++-- {: .num_prop #RationalHomotopyTypeOfMapsNSphereToNsphere}
 ###### Proposition     
+**([[rational homotopy type]] of [[space of maps]] from [[n-sphere]] to itself)**
 
 Let $n \in \mathbb{N}$ be a [[natural number]] and $f\colon S^n \to S^n$ a [[continuous function]] from the [[n-sphere]] to itself. Then the [[connected component]] $Maps_f\big( S^n, S^n\big)$ of the [[mapping space]] which contains this map has the following [[rational homotopy theory|rational]] [[homotopy type]]:
 
@@ -100,7 +101,9 @@ $$
 
 =--
 
-([Kallel-Sjerve 99, Prop. 4.10](#KallelSjerve99))
+(by [this Prop.](Sullivan+model+of+free+loop+space#SullivanModelsOfMapsFromSkToSnFornLargerk) at _[[Sullivan model of based loop space]]_; see also  [Kallel-Sjerve 99, Prop. 4.10](#KallelSjerve99))
+
+
 
 ## Related concepts
 
