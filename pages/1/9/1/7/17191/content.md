@@ -40,7 +40,7 @@ where each hook is a [[homotopy fiber sequence]].
 
 ## Properties
 
-The [[long exact sequences of homotopy groups]] for each of the hooks in the tower combine to yield an [[exact couple]]. The corresponding [[spectral sequence of an exact couple]] is a means to (approximately) computethe [[homotopy groups]] of the base object $X$ of the tower
+The [[long exact sequences of homotopy groups]] for each of the hooks in the tower combine to yield an [[exact couple]]. The corresponding [[spectral sequence of an exact couple]] is a means to (approximately) compute the [[homotopy groups]] of the base object $X$ of the tower
 
 ## Examples
 
