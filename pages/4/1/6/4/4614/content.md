@@ -398,7 +398,7 @@ Write ${\Vert * \Vert}$ for the fat geometric realization of the point. Notice t
 [fat geometric realization of the point](#GeometricRealizationOfThePoint).
 
 +-- {: .num_prop #FatRealizationPreservesConnectedFiniteLimits}
-###### Proposition
+###### Claim
 
 The functor
 
