@@ -37,7 +37,7 @@ Adjoint to $\Sigma$ is the [[based loop space]] functor: $\Omega Y$ is the space
 
 Using ordinary (co)homology to study spaces such as CW-complexes, we naturally use the complexes of (cellular) chains on spaces. The structure of chains on the suspension is  easy to work out using the obvious cellular structure, but that on the loop space is much harder as $\Omega X$ is given the [[compact-open topology]] and only has the homotopy type of a CW-complex, so no nice cellular structure is given us 'on a plate'.  The idea is thus to start with  a chain complex model, $C_*(X)$, for a CW-complex, $X$, (usually the complex of cellular chains on $X$),  and we try to construct from $C_*(X)$ a 'model' for the chain complex of  the loop space $\Omega X$ of $X$. Adams' cobar construction was such a method (see below). This was adjoint to a bar construction defined by Eilenberg and MacLane. 
 
-Both directions use an abstract algebraic model of concatenation of paths and so their construction is linked to that of free monoids, and through those to monads, operads and related abstract machinery to handle concatenation and its higher categorical analogues in categorical contexts.
+Both directions use an abstract algebraic model of concatenation of paths and so their construction is linked to that of free monoids, and through those to [[monads]], [[operads]] and related abstract machinery to handle concatenation and its higher categorical analogues in categorical contexts.
 
 The chain complex $C_*(X)$ has a rich coalgebraic structure induced by a cellular diagonal approximation on $X$ so the *cobar* construction will start with a [[differential graded coalgebra|dg-coalgebra]] as 'input' and as output we will hope for both a coalgebra structure (reflecting the chain coalgebra idea) and an algebra structure (coming from modelling the concatenation of loops). We therefore might hope for, and in fact do get, a [[differential graded Hopf algebra]].
 
@@ -67,14 +67,14 @@ where
 
 *  $D = d_I + d_E$, where
 
-$$d_I(sa_1\otimes \ldots\otimes sa_n) = -\sum_{i = 1} ^n\eta(i-1)sa_1\otimes \ldots \otimes sa_{i-2}\otimes sda_{i-1}\otimes\ldots sa_n,$$ 
+$$d_I(s a_1\otimes \ldots\otimes s a_n) = -\sum_{i = 1} ^n\eta(i-1)s a_1\otimes \ldots \otimes s a_{i-2}\otimes s d a_{i-1}\otimes\ldots s a_n,$$ 
 
 and
 
-$$d_E(sa_1\otimes \ldots\otimes sa_n) = -\sum_{i = 1} ^n\eta(i-1)sa_1\otimes \ldots \otimes sa_{i-2}\otimes sa_{i-1}.a_i\otimes \ldots sa_n,$$ 
+$$d_E(s a_1\otimes \ldots\otimes s a_n) = -\sum_{i = 1} ^n\eta(i-1)s a_1\otimes \ldots \otimes s a_{i-2}\otimes s a_{i-1}.a_i\otimes \ldots s a_n,$$ 
 
 
-with $\eta(i) = (-1)^{\sum_{k=1}^i |sa_k|}$.
+with $\eta(i) = (-1)^{\sum_{k=1}^i |s a_k|}$.
 
 **Note** that _the image of a 1-connected cdga is a connected commutative Hopf algebra_.
 #### Things to note in this construction:
