@@ -314,6 +314,7 @@ This map is evidently a [[deformation retraction]] hence in particular a [[homot
 
 
 ### Monoid structure and its group completion
+ {#MonoidStructureAndItsGroupCompletion}
 
 On [[Euclidean spaces]] (and maybe more generally on[[framed manifolds]]) any configuration space of points gets the [[mathematical structure]] of a [[topological monoid]] with product operation being the [[disjoint union]] of point configurations, after a suitable shrinking to put them next to each other ([Segal 73, p. 1-2](#Segal73)).
 
