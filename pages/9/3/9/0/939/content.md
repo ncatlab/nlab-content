@@ -136,6 +136,9 @@ J. Pure Appl. Algebra 175 (2002), no. 1-3, 243--265.
 
 * [[Francisco Marmolejo]] and [[Adrian Vazquez-Marquez]], *No-iteration mixed distributive laws*, [doi](https://doi.org/10.1017/S0960129514000656)
 
+* Enrique Ruiz Hernández, *Another characterization of no-iteration distributive laws*, [arxiv](https://arxiv.org/abs/1910.06531)
+
+
 [[!redirects distributive laws]]
 
 [[!redirects distributivity law]]
