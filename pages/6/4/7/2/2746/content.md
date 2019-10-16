@@ -6,6 +6,13 @@ My Ph.D thesis was on [[higher symplectic geometry]], and was supervised by [[Jo
 
 More information (current research projects, publications, etc.) can be found [here](https://sites.google.com/site/chrisrogersmath/home).
 
+## Selected writings
+
+On [[graph complexes]] and the [[Lie algebra]] of the [[Grothendieck-Teichmüller group]]:
+
+* {#DolgushevRogers12} [[Vasily Dolgushev]], [[Christopher Rogers]], _Notes on Algebraic Operads, Graph Complexes, and Willwacher's Construction_, In: Mathematical aspects of quantization 583 (2012): 25-145. ([arXiv:1202.2937](https://arxiv.org/abs/1202.2937))
+
+
 
 category: people
 
