@@ -23,4 +23,8 @@ On models of [[knot spaces]] via ([[cosimplicial object|co]]-)[[simplicial objec
 
 * [[Dev Sinha]], _The Topology of Spaces of Knots: Cosimplicial Models_, American Journal of Mathematics, Vol. 131, No. 4 (Aug., 2009), pp. 945-980 (36 pages) ([arXiv:math/0202287](https://arxiv.org/abs/math/0202287), [jstor:40263760 ](https://www.jstor.org/stable/40263760)) 
 
+On the [[bar and cobar construction]] and [[Koszul duality]]:
+
+* [[Dev Sinha]], _Koszul duality in algebraic topology - an historical perspective_, J. Homotopy Relat. Struct. (2013) 8: 1 ([arXiv:1001.2032](https://arxiv.org/abs/1001.2032))
+
 category: people
