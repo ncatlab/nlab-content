@@ -53,7 +53,7 @@ One way to ensure that $\mathrm{Ext}(L,L)$ is nice is if the algebra $A$ is [[gr
 In this case, $B=\mathrm{Ext}(L,L)$ is forced to be formal (if it had any interesting $A_\infty$ operations, they would break the grading), so you're dealing with a derived equivalence between actual algebras, though you have to be a bit careful about the dg-issues.  Thus the derived category of usual modules over $A$ is equivalent to dg-modules over $B$ (with its unique grading) and vice versa.  This can be fixed by taking graded modules on both sides.
 
 
-##Examples
+## Examples
 
 * The most famous example of Koszul dual algebras are the [[exterior algebra]] $Alt^{\bullet}V[-1]$ and the [[polynomial algebra]] $Sym^\bullet V^*[-2]$.
 
@@ -63,6 +63,10 @@ In this case, $B=\mathrm{Ext}(L,L)$ is forced to be formal (if it had any intere
 
 * Braden, Licata, Proudfoot and Webster gave a combinatorial construction of a large family of Koszul dual algebras in [Gale duality and Koszul duality](http://arxiv.org/abs/0806.3256).
 
+
+## Related concepts
+
+* [[bar and cobar construction]]
 
 ## References
 
@@ -94,12 +98,26 @@ A "curved" generalization is discussed in
 [[Bernhard Keller]] and his student Lef&#232;vre-Hasegawa described rather general framework for Koszul duality using dg-(co)algebras and [[twisting cochain]]s:
 
 * [[Bernhard Keller]], _Koszul duality and coderived categories (after Lef&#232;vre-Hasegawa)_ (2003) [abstract](http://www.math.jussieu.fr/~keller/publ/kdcabs.html) [dvi](http://www.math.jussieu.fr/~keller/publ/kdc.dvi) [pdf](http://www.math.jussieu.fr/~keller/publ/kdc.pdf) [ps](http://www.math.jussieu.fr/~keller/publ/kdc.ps)
+
+See also:
+
+
+
 * Kenji Lef&#232;vre-Hasegawa, _Sur les A-infini cat&#233;gories_, [pdf](http://people.math.jussieu.fr/~keller/lefevre/TheseFinale/tel-00007761.pdf) [math/0310337](http://arxiv.org/abs/math.CT/0310337)
 * Leonid Positselski, _Two kinds of derived categories, Koszul duality, and comodule-contramodule correspondence_, [arxiv/0905.2621](http://arxiv.org/abs/0905.2621)
+
+* [[Dev Sinha]], _Koszul duality in algebraic topology - an historical perspective_, J. Homotopy Relat. Struct. (2013) 8: 1 ([arXiv:1001.2032](https://arxiv.org/abs/1001.2032))
+
+
 * Aaron M Royer, _Generalized string topology and derived Koszul duality_, [arxiv/1306.6708](http://arxiv.org/abs/1306.6708)
-* M. M. Kapranov, _On DG-modules over the de rham complex and the vanishing cycles functor_, Algebraic Geometry, 
+
+
+* [[Mikhail Kapranov]], _On DG-modules over the de Rham complex and the vanishing cycles functor_, Algebraic Geometry, 
 Lecture Notes in Mathematics __1479__, 1991, pp 57-86 
-* Theo Johnson-Freyd, _Exact triangles, Koszul duality, and coisotropic boundary conditions_, [arxiv/1608.08598](https://arxiv.org/abs/1608.08598)
+
+
+* [[Theo Johnson-Freyd]], _Exact triangles, Koszul duality, and coisotropic boundary conditions_, [arxiv/1608.08598](https://arxiv.org/abs/1608.08598)
+
 * [[Jonathan Beardsley]], [[Maximilien Péroux]], _Koszul Duality in Higher Topoi_, ([arXiv:1909.11724](https://arxiv.org/abs/1909.11724))
 
 [[!redirects Koszul dual]]
