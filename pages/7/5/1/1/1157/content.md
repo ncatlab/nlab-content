@@ -178,6 +178,8 @@ $$C\to s^{-1}\overline{C} \to \overline{T(s^{-1}\overline{C})}\to \overline{sT(s
 
 ## References
 
+
+
 The source used for the above was 
 
 * D. Tanr&#233;, _Homotopie rationnelle: Mod&#232;les de Chen, Quillen, Sullivan_, Lecture Notes in Maths No. 1025, Springer, 1983.
@@ -196,7 +198,11 @@ Review:
 
 * [[Dev Sinha]], Section 1 in: _Koszul duality in algebraic topology - an historical perspective_, J. Homotopy Relat. Struct. (2013) 8: 1 ([arXiv:1001.2032](https://arxiv.org/abs/1001.2032))
 
-Generalization to [[dg-Hopf algebras]]:
+Generalization of the bar-cobar constructions to [[dg-Hopf algebras]]:
+
+* [[Benoit Fresse]], _The universal Hopf operads of the bar construction_ ([arXiv:math/0701245](https://arxiv.org/abs/math/0701245))
+
+* [[Murray Gerstenhaber]], [[Alexander Voronov]], Section 3.2 of: _Homotopy G-algebras and moduli space operad_, Internat. Math. Research Notices (1995) 141-153 ([arXiv:hep-th/9409063](https://arxiv.org/abs/hep-th/9409063))
 
 * Justin Young, _Brace Bar-Cobar Duality_ ([arXiv:1309.2820](https://arxiv.org/abs/1309.2820))
 
