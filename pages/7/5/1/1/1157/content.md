@@ -171,6 +171,10 @@ These latter morphisms are defined by
 * $\hat{\beta} : (C,\partial) \to (T(\overline{sT(s^{-1}\overline{C}}),D)$ is the unique lifting of 
 $$C\to s^{-1}\overline{C} \to \overline{T(s^{-1}\overline{C})}\to \overline{sT(s^{-1}\overline{C})}.$$
 
+## Related concepts
+
+* [[Koszul duality]]
+
 ## References
 
 The source used for the above was 
@@ -181,6 +185,17 @@ This was augmented with material from
 
 * H. J. Baues, _Geometry of loop spaces and the cobar construction_, Mem. Amer.
 Math. Soc. 25 (230) (1980) ix+171.
+
+See also:
+
+* [[Yves Felix]], [[Stephen Halperin]], [[Jean-Claude Thomas]], _Adams' Cobar Equivalence_, Transactions of the American Mathematical Society, Vol. 329, No. 2 (1992), pp. 531-549 ([jstor:2153950](https://www.jstor.org/stable/2153950))
+
+
+Review:
+
+* [[Dev Sinha]], _Koszul duality in algebraic topology - an historical perspective_, J. Homotopy Relat. Struct. (2013) 8: 1 ([arXiv:1001.2032](https://arxiv.org/abs/1001.2032))
+
+
 
 [[!redirects cobar construction]]
 [[!redirects cobar constructions]]
