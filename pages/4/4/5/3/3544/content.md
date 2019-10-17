@@ -3,7 +3,7 @@
 
 * Scanned images of Quillen's research notebooks, Clay Mathematical Institute, [web](http://www.claymath.org/publications/quillen-notebooks).
 
-## related $n$Lab entries
+## Related $n$Lab entries
 
 * [[model category]], [[model structure on topological spaces]]
 
@@ -27,7 +27,6 @@
 
 ## Selected writings
 
-(...)
 
 On [[model category]]-theory for [[homotopy theory]]:
 
@@ -45,6 +44,10 @@ On [[equivariant de Rham cohomology]]:
 Also
 
 * [[J. Cuntz]], [[Daniel Quillen]], _Algebra extensions and nonsingularity_, J. Amer. Math. Soc. __8__  (1995),  no. 2, 251&#8211;289, [MR96c:19002](http://www.ams.org/mathscinet-getitem?mr=1303029), [doi](http://ams.mpim-bonn.mpg.de/leavingmsn?url=http://dx.doi.org/10.2307/2152819); _Cyclic homology and nonsingularity_,  J. Amer. Math. Soc. __8__  (1995),  no. 2, 373&#8211;442, [MR96e:19004](http://www.ams.org/mathscinet-getitem?mr=1303030), [doi](http://dx.doi.org/10.2307/2152822)
+
+On the [[group completion theorem]]:
+
+* [[Daniel Quillen]], _On the group completion of a simplicial monoid_, Appendix Q in: [[Eric Friedlander]], [[Barry Mazur]], _Filtrations on the homology of algebraic varieties_, Memoir of the A.M.S., Vol. 110, no. 529 (1994) ([doi:10.1090/memo/0529](http://dx.doi.org/10.1090/memo/0529))
 
 [[!redirects Dan Quillen]]
 [[!redirects D. Quillen]]
