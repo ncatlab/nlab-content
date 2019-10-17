@@ -16,7 +16,7 @@ $$
 
 Of course, as it is true for the expression minor in general, sometimes it denotes the determinant of the submatrix and for some authors it is the submatrix itself called that way.
 
-The principal minors appear as the denominators in the Gauss decomposition of matrices, and consequently in the description of relations between matrix elements in a linear group $GL(n)$ (or $SL(n)$) and canonical coordinates on the big Bruhat cell on its [[flag variety]]. 
+The principal minors appear as the denominators in the [[Gauss decomposition]] of matrices, and consequently in the description of relations between matrix elements in a linear group $GL(n)$ (or $SL(n)$) and canonical coordinates on the big Bruhat cell on its [[flag variety]]. 
 
 ### Principal quasiminors
 
