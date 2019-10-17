@@ -1,3 +1,25 @@
+
+The explanation by the laws of topology of surprising stability effects in dynamical physical systems goes back, at least, to Lord Kelvin, who observed that vortices in what was then thought to be the space-filling ether, would take the shape of knots, which, much like smoke rings in air, would move and vibrate but not break their linked and knotted structure. 
+
+(See e.g. 
+Lomonaco 96 http://www.ams.org/books/psapm/051/)
+Kraph 03 onlinelibrary.wiley.com/doi/abs/10.1034/j.1600-0498.2002.440102.x
+
+While Kelvin and his contemporaries were famously wrong about the existence of a space-filling ether, the idea of knotted topological structures appearing in physical substances and stabilizing their shapes turned out to be spot-on and has seen dramatic confirmation in a multitude of of physical systems, ranging over all scales, from fundamental particle physics, over solid state physics to cosmology.
+
+In fundamental particle physics it remains an open problem to explain the existence of protons and neutrons, hence of atomic nuclei and hence of ordinary matter(!), as stable bound states of fundamental quarks. In the guise of the Mass Gap Problem, this is one of the Millenium Problems whose solution awaits a million dollar award by the Clay Maths Institute. While still open, the best contender for an answer are knotted topological structures in the pion field known as Skyrmions (e.g. Atiyah-Manton 89). Recently Skyrmions have been shown to correctly explain the properties of atomic nuclei all the way from Helium up to Carbon (Lau-Manton 14), a feat that no other model achieves. Moreover, the Skyrmion model of nucleons has been found to be implied by realizations of quantum chromodynaics in string theory (Sakai-Sugimoto 04, 05, Sugimoto 16).
+
+In solid state physics, there have been three phases of matter known since antiquity (solid, fluid, gas) and one more discovered in the 20th century (plasmas) but the 21st century saw the discovery of an entirely new class of phases of matter visible at low tempterature in quantum crystals and known as _topological phases of matter_. Here the stable knotted structures appear in patterns of the energy bands that electrons in these materials may occupy. Topological phases in particular control the behaviour of graphene, the new ultralight ultrastrong carbon crystal that was discovered in 2004. 
+
+Finally, on the very largest scales of the universe, topological defects in te space-filling Higgs field which was famously discovered a few years ago, are thought to play an important role in the explanation of properties of the cosmic microwave background. This includes cosmic monopoles, vertices and cosmic strings.
+
+
+
+
+
+
+
+
 {#top}
 
 $\ldots$
