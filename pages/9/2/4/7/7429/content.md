@@ -9,6 +9,12 @@ students included [[Ronnie Brown]] and [[Peter Eccles]].
 
 * [obituary](https://lists.lehigh.edu/pipermail/algtop-l/2015q4/002298.html) by Bill Richter
 
+## Selected writings
+
+On the [[group completion theorem]]:
+
+* [[Michael Barratt]], [[Stewart Priddy]], _On the homology of non-connected monoids and their associated groups_, Commentarii Mathematici Helvetici (1972) 47: 1 ([doi:10.1007/BF02566785](https://doi.org/10.1007/BF02566785))
+
 ## Related entries
 
 * [[Barratt-Eccles operad]]
