@@ -21,7 +21,7 @@ For $X$ a [[topological space]] and $n \in \mathbb{N}$ a [[natural number]], the
 
 ### Relation to unordered configuration space of points
 
-The [[topological subspace]]  of finite subsets of cardinarliy exactly equal to $n$ is the [[unordered configuration space of points]] in $X$
+The [[topological subspace]]  of finite subsets of cardinality exactly equal to $n$ is the [[unordered configuration space of points]] in $X$
 
 \[
   \label{InjectionOfUnorderedConfigurationSpaceOfPoints}
