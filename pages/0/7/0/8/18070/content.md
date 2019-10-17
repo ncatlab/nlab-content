@@ -986,6 +986,8 @@ General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configura
 
 * Christoph Schiessl, _Integral cohomology of configuration spaces of the sphere_ ([arxiv:1801.04273](https://arxiv.org/abs/1801.04273))
 
+* Dan Petersen, _Cohomology of generalized configuration spaces_ ([arXiv:1807.07293](https://arxiv.org/abs/1807.07293))
+
 * Roberto Pagaria, _The cohomology rings of the unordered configuration spaces of the torus_ ([arxiv:1901.01171](https://arxiv.org/abs/1901.01171))
 
 
