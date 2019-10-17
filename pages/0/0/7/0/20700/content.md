@@ -10,3 +10,5 @@
 * [[Sullivan model of free loop space]]
 
 * [[Sullivan model of a suspension]]
+
+* [[Sullivan model of a finite G-quotient]]
