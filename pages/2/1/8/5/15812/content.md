@@ -29,11 +29,12 @@ presented the hypothesis that [[atoms]] ([[elementary particles]]) are fundament
 
 Review and discussion includes
 
-* {#Krage} Helge Kragh, 2002, _The Vortex Atom: A Victorian Theory of Everything_, Centaurus, 44(1-2), pp. 32&#8211;114
+* {#Krage} Helge Kragh, 2002, _The Vortex Atom: A Victorian Theory of Everything_, Centaurus, 44(1-2), pp. 32&#8211;114 ([philpapers:KRAVTA](https://philpapers.org/rec/KRATVA), [doi:10.1034/j.1600-0498.2002.440102.x](https://doi.org/10.1034/j.1600-0498.2002.440102.x))
 
 * {#Corfield} [[David Corfield]] ([[CorfieldVortexAtoms.pdf:file]])
 
-* Samuel Lomonaco, _The modern legacies of Thomson's atomic vortex theory in classical electrodynamics_ ([pdf](http://www.csee.umbc.edu/~lomonaco/kelvin/kelvin23.pdf))
+* Samuel Lomonaco, _The modern legacies of Thomson's atomic vortex theory in classical electrodynamics_, in: [[Louis Kauffman]] (ed.) _The Interface of Knots and Physics_, Proceedings of Symposia in Applied Mathematics
+Volume 51 (1996) ([pdf](http://www.csee.umbc.edu/~lomonaco/kelvin/kelvin23.pdf), [doi:10.1090/psapm/051](https://doi.org/10.1090/psapm/051))
 
 #Contents#
 * table of contents
