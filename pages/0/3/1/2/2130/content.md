@@ -116,7 +116,7 @@ A _[[metaplectic structure]]_ on a symplectic or almost symplectic manifold is i
 ### Relation to almost Hermitian and K&#228;hler structure
 
 By the [above](#SymplecticStructure), a symplectic manifold structure is an
-[[integrable G-structure|integrable]] $Sp(2n,\mathbb{R}) \hookrightarrow GL(2n,\mathbb{R})$-structure. Further [[reduction of the structure group]] along the [[maximal compact subgroup]] inclusion of the [[unitary group]] $U(n) \hookrightarow Sp(2n,\mathbb{R})$ yields is an [[almost Hermitian structure]]. If that is again [[integrable G-structure|first order integrable]] then it is _[[Kähler structure]]_. 
+[[integrable G-structure|integrable]] $Sp(2n,\mathbb{R}) \hookrightarrow GL(2n,\mathbb{R})$-structure. Further [[reduction of the structure group]] along the [[maximal compact subgroup]] inclusion of the [[unitary group]] $U(n) \hookrightarrow Sp(2n,\mathbb{R})$ yields is an [[almost Hermitian structure]]. If that is again [[integrable G-structure|first order integrable]] then it is _[[Kähler structure]]_. 
 
 Such  a refinement from symplectic to K&#228;hler structure is also called a choice of _[[Kähler polarization]]_.
 
