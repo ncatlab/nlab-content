@@ -896,10 +896,14 @@ In relation to the [[space of finite subsets]]:
 * {#FelixTanre2010} [[Yves Félix]], [[Daniel Tanré]] _Rational homotopy of symmetric products and Spaces of finite subsets_, Contemp. Math 519 (2010): 77-92 ([pdf](http://tanre.org/Pro/Articles_files/SpnFiniteDef.pdf))
 
 
+The [[algebra over an operad|algebra]]-[[structure]] of configuration spaces over [[little n-disk operads]]/[[Fulton-MacPherson operads]]:
 
-### Electric field map/Scanning map and cohomotopy
+* {#Markl99} [[Martin Markl]], _A compactification  of  the  real  configuration  space  as  an  operadic completion, J. Algebra 215 (1999), no. 1, 185–204
 
-The electric field map/[[scanning map]] and hence the relation of configuration spaces to [[cohomotopy]] goes back to 
+
+### Relation to Cohomotopy
+
+The [[scanning map]] ("electric field map") and hence the relation of configuration spaces to [[Cohomotopy]] goes back to 
 
 * {#May72} [[Peter May]], _The geometry of iterated loop spaces_, Springer 1972 ([pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
 
@@ -943,15 +947,7 @@ In speculation regarding [[Galois theory]] over the [[sphere spectrum]]:
 * {#MoravaBeardsly17} [[Jack Morava]], [[Jonathan Beardsley]], _Toward a Galois theory of the integers over the sphere spectrum_,  Journal of Geometry and Physics Volume 131, September 2018, Pages 41-51 ([arXiv:1710.05992](https://arxiv.org/abs/1710.05992))
 
 
-### Algebra structure over little $dim(X)$-disk operad
-  {#ReferencesAlgebraStructureOverOperad}
 
-The [[algebra over an operad|algebra]]-[[structure]] of configuration spaces over [[little n-disk operads]]/[[Fulton-MacPherson operads]]:
-
-* {#Markl99} [[Martin Markl]], _A compactification  of  the  real  configuration  space  as  an  operadic completion, J. Algebra 215 (1999), no. 1, 185–204
-
-
-* ...
 
 
 
@@ -1019,6 +1015,11 @@ General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configura
 
 * [[Carl-Friedrich Bödigheimer]], [[Fred Cohen]], L. Taylor, _On the homology of configuration spaces_, Topology Vol. 28 No. 1, p. 111-123 1989 ([pdf](https://core.ac.uk/download/pdf/82124359.pdf))
 
+
+* E. Ossa, _On the cohomology of configuration spaces_, In: Broto C., [[Carles Casacuberta]], Mislin G. (eds.), _Algebraic Topology: New Trends in Localization and Periodicity_,  Progress in Mathematics, vol 136. Birkhäuser Basel (1996) ([doi:10.1007/978-3-0348-9018-2_26](https://doi.org/10.1007/978-3-0348-9018-2_26))
+
+
+
 * [[Yves Félix]], [[Jean-Claude Thomas]], _Rational Betti numbers of configuration spaces_, Topology and its Applications, Volume 102, Issue 2, 8 April 2000, Pages 139-149 (<a href="https://doi.org/10.1016/S0166-8641(98)00148-5">doi:10.1016/S0166-8641(98)00148-5</a>)
 
 * {#FelixTanre03} [[Yves Félix]], [[Daniel Tanré]], _The cohomology algebra of unordered configuration spaces_, Journal of the LMS, Vol 72, Issue 2 ([arxiv:math/0311323](https://arxiv.org/abs/math/0311323), [doi:10.1112/S0024610705006794](https://doi.org/10.1112/S0024610705006794))
@@ -1037,6 +1038,13 @@ General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configura
 * Dan Petersen, _Cohomology of generalized configuration spaces_ ([arXiv:1807.07293](https://arxiv.org/abs/1807.07293))
 
 * Roberto Pagaria, _The cohomology rings of the unordered configuration spaces of the torus_ ([arxiv:1901.01171](https://arxiv.org/abs/1901.01171))
+
+### Rational homotopy type
+
+Discussion of the [[rational homotopy type]]:
+
+* [[Igor Kriz]], _On the Rational Homotopy Type of Configuration Spaces_, Annals of Mathematics
+Second Series, Vol. 139, No. 2 (Mar., 1994), pp. 227-237 ([jstor:2946581](https://www.jstor.org/stable/2946581))
 
 
 
