@@ -56,6 +56,7 @@ Strictly increasing (and strictly decreasing) functions are particularly importa
 The alternative sort of monotone function on a single proset $S$ is rather different; we mention it here largely because of the potential terminological confusion, but it might as well have its own article if we find a nice name for it.  As a functor, it is a functor for which every object is an [[algebra for a functor|algebra]]; the condition is part of the requirements of a [[Moore closure]] (a [[monad]] on $S$).
 
 
+[[!redirects monotone]]
 [[!redirects monotone function]]
 [[!redirects monotone functions]]
 [[!redirects monotone map]]
