@@ -149,6 +149,16 @@
 (...to be expanded...)
 
 
+## See also
+
+* [[monad]], [[algebra over a monad]]
+* [[monad (in computer science)]]
+* [[Giry monad]]
+* [[probability theory]]
+* [[measure theory]]
+* [[valuation (measure theory)]]
+
+
 ## References
 
 * {#monad} Reinhold Heckmann, _Spaces of valuations_, Papers on General Topology and Ap-plications, 1996. [Link here](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.45.5845&rep=rep1&type=pdf).
