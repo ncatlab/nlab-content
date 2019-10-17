@@ -34,6 +34,10 @@ A __pointed dcpo__ is a DCPO with a [[bottom element]] (which is rather more spe
 DCPOs are studied widely in [[domain theory]].
 
 
+
+
+[[!redirects directed supremum]]
+[[!redirects directed suprema]]
 [[!redirects directed join]]
 [[!redirects directed joins]]
 
