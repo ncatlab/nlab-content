@@ -134,9 +134,15 @@ The [[category]] [[FinSet]] of finite sets is [[equivalence of categories|equiva
 
 * [[finite category]]
 
-## Reference
+* [[space of finite subsetc]]
+
+## References
 
 * [[Kazimierz Kuratowski|C. Kuratowski]], _Sur la notion d'ensemble fini_ , Fund. Math. **I** (1920) pp.130-131. ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm1/fm1117.pdf))
+
+See also
+
+* Wikipedia, _[Finite set](https://en.wikipedia.org/wiki/Finite_set)_
 
 
 [[!redirects finite set]]
