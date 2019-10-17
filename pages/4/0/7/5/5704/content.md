@@ -252,7 +252,9 @@ closed and $f$-saturated subsets to closed subsets.
 
 
 
-## Related pages
+## Related concepts
+
+* [[Sullivan model of finite G-quotient]]
 
 * [[image]]
 
