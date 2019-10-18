@@ -1286,7 +1286,6 @@ with emphasis to the resulting [[configuration spaces of points]], as in
 
 
 
-
 [[!redirects configuration spaces of points]]
 [[!redirects configuration space of n points]]
 [[!redirects configuration spaces of n points]]
@@ -1306,15 +1305,6 @@ with emphasis to the resulting [[configuration spaces of points]], as in
 [[!redirects configuration space (mathematics)]]
 [[!redirects configuration spaces (mathematics)]]
 
-
-[[!redirects scanning map]]
-[[!redirects scanning maps]]
-
-[[!redirects Cohomotopy charge map]]
-[[!redirects Cohomotopy charge maps]]
-
-[[!redirects scanning map equivalence]]
-[[!redirects scanning map equivalences]]
 
 
 
