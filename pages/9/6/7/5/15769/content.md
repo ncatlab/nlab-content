@@ -3,7 +3,13 @@ Oscar Randal-Williams is professor of pure [[mathematics]] at Cambridge.
 
 * [webpage](https://www.dpmms.cam.ac.uk/~or257/)
 
-## related $n$Lab entries
+## Selected writings
+
+On the [[ordinary homology]] of [[configuration spaces of points]]:
+
+* {#RandallWilliams13} [[Oscar Randal-Williams]], _Homological stability for unordered configuration spaces_, The Quarterly Journal of Mathematics, Volume 64, Issue 1, March 2013, Pages 303–326 ([arXiv:1105.5257](https://arxiv.org/abs/1105.5257))
+
+## Related $n$Lab entries
 
 * [[moduli space of framed surfaces]]
 
