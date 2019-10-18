@@ -34,7 +34,7 @@ The original articles are
 
 * {#McDuffSegal76} [[Dusa McDuff]], [[Graeme Segal]], _Homology fibrations and the “group-completion” theorem_, Inventiones mathematicae, October 1976, Volume 31, Issue 3, pp 279–284 ([doi:10.1007/BF01403148](https://doi.org/10.1007/BF01403148))
 
-* {#Quillen94} [[Daniel Quillen]], _On the group completion of a simplicial monoid_, Appendix Q in: [[Eric Friedlander]], [[Barry Mazur]], _Filtrations on the homology of algebraic varieties_, Memoir of the A.M.S., Vol. 110, no. 529 (1994) ([doi:10.1090/memo/0529](http://dx.doi.org/10.1090/memo/0529))
+* {#Quillen94} [[Daniel Quillen]], _On the group completion of a simplicial monoid_, Appendix Q in: [[Eric Friedlander]], [[Barry Mazur]], _Filtrations on the homology of algebraic varieties_, Memoir of the A.M.S., Vol. 110, no. 529 (1994) ([doi:10.1090/memo/0529](http://dx.doi.org/10.1090/memo/0529), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/quillencomp.pdf))
 
 Alternative proof using a [[model category]] of [[bisimplicial sets]]:
 
