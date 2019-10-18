@@ -19,14 +19,16 @@
 
 ## Idea
 
-Confinement (e.g [Espiru 94](#Espiru94)) is the (expected) phenomenon in [[Yang-Mills theory]]/[[QCD]] that [[quark]]-excitations must form [[bound state|bound states]] which are neutral under the color charge -- such as the [[hadron|hadrons]] ([[proton|protons]], [[neutron|neutrons]]) and [[meson|mesons]].
+Confinement (e.g [Espiru 94](#Espiru94)) is the (expected) phenomenon in [[Yang-Mills theory]] generally and especially in [[quantum chromodynamics]] that the fundamental [[quarks]], which the [[Yang-Mills theory|YM]]/[[QCD]]-[[Lagrangian density]] actually describes, must form [[baryon|baryonic]] [[bound state|bound states]] which are neutral under the color charge -- the [[mesons]] and [[hadron|hadrons]] ([[proton|protons]], [[neutron|neutrons]]). Hence confinement in particular concerns the emergence and existence of [[atomic nuclei]], hence of ordinary [[matter]], which is not manifest at all in the [[quark]]-model. 
 
-Confinement is a [[non-perturbative effect]] (e.g [Espiru 94](#Espiru94)).
+Part of the issue is that confinement is a [[non-perturbative effect]] (e.g [Espiru 94](#Espiru94)) outside the range of validity of [[perturbative quantum field theory]].
 
 ## Open problem
  {#OpenProblem}
 
-While [[experiment]] as well as [[lattice gauge theory]]-computer simulation clearly show that confinement takes place, a real theoretical understanding is missing (see also at _[[mass gap problem]]_). Here are quotes from some references highlighting the open problem:
+While [[experiment]] as well as [[lattice gauge theory]]-computer simulation clearly show that confinement takes place, a real theoretical understanding is missing (see also at _[[mass gap problem]]_).
+
+Here are quotes from some references highlighting the open problem:
 
 * {#Kutschke96} Robert Kutschke, section 3.1 _Heavy flavour spectroscopy_, in D. Bugg (ed.), _Hadron Spectroscopy and the Confinement Problem_, Proceedings of a NATO Advanced Study Institute, Plenum Press 1996  ([doi:10.1007/978-1-4613-0375-6](https://www.springer.com/cn/book/9780306453038))
 
@@ -58,10 +60,15 @@ _  ([pdf](http://www.infn.it/csn1/White_paper_documents/NPQCD.pdf))
 
 * V. A. Petrov, _Asymptotic Regimes of Hadron Scattering in QCD_ ([arXiv:1901.02628](https://arxiv.org/abs/1901.02628))
 
-> This is a commonplace that so far we do not have a full-fledged theory
-of interaction of [[hadrons]], derived from the first principles of [[QCD]] and having a regular way of calculating of hadronic [[scattering amplitude|amplitudes]], especially at high energies and small momentum transfers. The problem is related to a more general problem that QCD Lagrangian would yield [[confinement|colour confinement]] with massive
+> This is a commonplace that so far we do not have a full-fledged theory of interaction of [[hadrons]], derived from the first principles of [[QCD]] and having a regular way of calculating of hadronic [[scattering amplitude|amplitudes]], especially at high energies and small momentum transfers. The problem is related to a more general problem that QCD Lagrangian would yield [[confinement|colour confinement]] with massive
 colourless physical states (hadrons).
 
+* Christian Drischler, Wick Haxton, Kenneth McElvain, Emanuele Mereghetti, Amy Nicholson, Pavlos Vranas, André Walker-Loud, _Towards grounding nuclear physics in QCD_ ([arxiv:1910.07961](https://arxiv.org/abs/1910.07961))
+
+> the entirety of the rich field of [[nuclear physics]] emerges from [[QCD]]: from the [[forces]] binding [[protons]] and [[neutrons]] into the nuclear landscape, to the fusion and fission reactions between [[atomic nucleus|nuclei]], to the prospective interactions of nuclei with BSM physics, and
+to the unknown [[phase of matter|state of matter]] at the cores of [[neutron stars]]. 
+
+> How does this emergence take place exactly? How is the clustering of [[quarks]] into [[nucleons]] and [[alpha particles]] realized? What are the mechanisms behind collective phenomena in nuclei as strongly correlated many-body systems? How does the extreme fine-tuning required to reproduce nuclear binding energies proceed? – are big open questions in [[nuclear physics]].
 
 ## Potential solutions
 
@@ -80,9 +87,17 @@ It has been argued that, after [[Wick rotation]], confinement may be derived fro
 
 See also at _[[glueball]]_.
 
-### Via AdS/QCD correspondence
+### Via Skyrmions and D4-brane models
 
-For the moment see at _[[AdS/QCD correspondence]]_.
+A good qualitative and moderate quantitative explanation of confinement in [[quantum chromodynamics]] is found in [[intersecting D-brane models]], specifically in the [[Witten-Sakai-Sugimoto model]] which [[geometric engineering of QFT|geometrically engineers]] [[QCD]] on [[D4-D8 brane bound states]].
+
+For more on this see at
+
+* _[[AdS/QCD correspondence]]_
+
+and at
+
+* _[[skyrmion]]_ .
 
 ### In $\mathcal{N}=2$ super Yang-Mills theory via Seiberg-Witten theory
   {#InN2SYM}
@@ -182,7 +197,7 @@ Other technical reviews include
 
 * G. M. Prosperi, _Confinement and bound states in QCD_ ([arXiv:hep-ph/0202186](http://arxiv.org/abs/hep-ph/0202186))
 
-* Christian Drischler, Wick Haxton, Kenneth McElvain, Emanuele Mereghetti, Amy Nicholson, Pavlos Vranas, André Walker-Loud, _Towards grounding nuclear physics in QCD_ ([arxiv:1910.07961](https://arxiv.org/abs/1910.07961))
+* {#DHMMNVW19} Christian Drischler, Wick Haxton, Kenneth McElvain, Emanuele Mereghetti, Amy Nicholson, Pavlos Vranas, André Walker-Loud, _Towards grounding nuclear physics in QCD_ ([arxiv:1910.07961](https://arxiv.org/abs/1910.07961))
 
 #### Via monopole condensation
  {#ViaMonopoleCondensation}
