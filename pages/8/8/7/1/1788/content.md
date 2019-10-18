@@ -312,7 +312,7 @@ $\left\vert \nabla \phi \right\vert = const$
 | $n=$ | 0 | 1 | 2 | 3 | 4 | 
 |--|--|--|--|--|--|
 | $DI(n)=$ | [[trivial group|1]] |  [[Z/2]] | [[SO(3)]] | [[G2]] | [[G3]] |
-|          | = Aut(R) | [= Aut(C)](complex+number#AutomorphismsOfComplexNumbersIsZ2)        | [= Aut(H)](quaternion#AutomorphismsOfQUatrnionsAlgebraIsSO3)       |  [= Aut(O)](octonion#AutomorphismsOfOctonionAlgebraIsG2)  |   |
+|          | = Aut(R) | [[complex+number#AutomorphismsOfComplexNumbersIsZ2|= Aut(C)]]        | [[quaternion#AutomorphismsOfQUatrnionsAlgebraIsSO3|= Aut(H)]]       |  [[(octonion#AutomorphismsOfOctonionAlgebraIsG2|= Aut(O)]]  |   |
 
 
 \begin{tikzpicture}
@@ -679,5 +679,6 @@ the equations:
 
 [[#top|Top of page]]
 
-
 Create a [[Dev Sandbox]]
+
+[[Dev Sandbox 2]]
