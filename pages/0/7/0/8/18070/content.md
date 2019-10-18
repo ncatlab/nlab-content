@@ -146,7 +146,7 @@ For emphasis, we write $B_{{}_{\sqcup}\!} Conf(\mathbb{R}^D)$ for the [[deloopin
 +-- {: .num_remark }
 ###### Remark
 
-The configuration space of unodered unlabeled configurations of $n$ points (Def. \ref{OrderedUnlabeledConfigurations}) is naturally a [[topological subspace]] of the [[space of finite subsets]] of [[cardinality]] $\leq n$
+The configuration space of unordered unlabeled configurations of $n$ points (Def. \ref{OrderedUnlabeledConfigurations}) is naturally a [[topological subspace]] of the [[space of finite subsets]] of [[cardinality]] $\leq n$
 
 \[
   \label{InjectionOfUnorderedConfigurationSpaceOfPoints}
@@ -840,7 +840,6 @@ Let $X$ be
 * of [[dimension]] $dim(X) \geq 2$.
 
 Then for all $n \in \mathbb{N}$ there are inclusion [[maps]]
-
 $$
   Conf_n
   \big(
@@ -853,8 +852,7 @@ $$
   \big)
 $$
 
-of the unordered configuration soace of $n$ points in $X$ (Def. \ref{UnorderedUnlabeledConfigurations}) into that of $n + 1$ points, 
-such that on [[ordinary homology]] with [[integer]] [[coefficients]] these maps induce [[split monomorphism]] in all degrees, 
+of the unordered configuration space of $n$ points in $X$ (Def. \ref{UnorderedUnlabeledConfigurations}) into that of $n + 1$ points, given by pushing configuration points away from the boundary and then adding a new point near to a point on the boundary of $X$, such that on [[ordinary homology]] with [[integer]] [[coefficients]] these maps induce [[split monomorphisms]] in all degrees, 
 
 $$
   H_\bullet
