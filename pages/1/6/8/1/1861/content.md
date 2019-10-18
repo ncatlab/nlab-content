@@ -164,27 +164,237 @@ Further by the [[equivariant Hopf degree theorem]] (see [there](equivariant+Hopf
 
 \linebreak
 
-### Relation to configuration spaces
+### Cohomotopy charge map and Relation to configuration spaces
  {#RelationToConfigurationSpaces}
 
 
-+-- {: .num_remark }
-###### Remark
-**([[configuration space (mathematics)|configuration spaces]] and [[twisted cohomology|twisted]] cohomotopy)**
+The _[[Cohomotopy charge map]]_ is the [[function]] that assigns to a [[configuration space of points|configuration of points]] their total [[charge]] as measured in [[Cohomotopy]]-[[generalized cohomology|cohomology theory]].
 
-The [[scanning map equivalence]] ([this Prop.](scanning+map#ScanningMapEquivalence)) identifies the [[configuration space]] of points in $X$ with labels in an [[n-sphere]] with the [[cocycle]]-space/-[[infinity-groupoid]] of $\tau_X$-[[twisted cohomology|twisted]] cohomotopy in degree $\tau + n$, where $\tau_X \coloneqq [S_X(T X)]$ is the class of the [[spherical fibration]] of the tangent bundle.
+This is alternatively known as the "electric field map" ([Salvatore 01](Cohomotopy+charge#Salvatore01) following [Segal 73, Section 1](Cohomotopy+charge#Segal73), see also [Knudsen 18, p. 49](Cohomotopy+charge#Knudsen18)) or the "scanning map" ([Kallel 98](Cohomotopy+charge#Kallel98)).
 
-In particular if $X$ is a [[parallelizable manifold]]/[[framed manifold]], then $\tau_X = dim(X)$ and the equivalence identifies the [[configuration space]] with the plain cohomotopy of $X$ in degree $dim(X) + n$:
+
+For $D \in \mathbb{N}$ the _Cohomotopy charge map_ is the  [[continuous function]]
+
+\[
+  \label{CohomotopyChargeMapOnEuclideanSpace}
+  Conf\big( \mathbb{R}^D \big)
+  \overset{cc}{\longrightarrow}
+  \mathbf{\pi}^D
+  \Big( 
+    \big( \mathbb{R}^D \big)^{cpt}
+  \Big)
+  =
+  Maps^{\ast/\!}\Big( \big(\mathbb{R}^D\big)^{cpt} , S^D\big)
+  =
+  \Omega^{D} S^D
+\]
+
+from the [[configuration space of points]] in the [[Euclidean space]] $\mathbb{R}^D$ to the $D$-[[Cohomotopy]] [[cocycle space]] [[vanishing at infinity]] on the [[Euclidean space]](which is equivalently the [[space of maps|space of pointed maps]] from the [[one-point compactification]] $S^D \simeq \big( \mathbb{R}^D \big)$ to itself, and hence equivalently the $D$-fold [[iterated based loop space]] of the [[n-sphere|D-sphere]]), which sends a configuration of points in $\mathbb{R}^D$, each regarded as carrying unit [[charge]] to their total [[charge]] as measured in  [[Cohomotopy]]-[[generalized cohomology|cohomology theory]] ([Segal 73, Section 3](Cohomotopy+charge#Segal73)).
+
+This has evident generalizations to other manifolds than just Euclidean spaces, to spaces of labeleed configurations and to [[equivariant Cohomotopy]]. The following graphics illustrates the Cohomotopy charge map on [[G-space]] [[tori]] for $G = \mathbb{Z}_2$ with values in $\mathbb{Z}_2$-[[equivariant Cohomotopy]]:
+
+<center>
+<a href="https://arxiv.org/pdf/1909.12277.pdf#page=24">
+<img src="https://ncatlab.org/schreiber/files/EquivariantCohomotopyTadpoleCancellationN.jpg" width="700">
+</a>
+</center>
+
+> graphics grabbed from [SS 19](#SatiSchreiber19)
+
+In some situations the [[Cohomotopy charge map]] is a [[weak homotopy equivalence]] and hence exhibits, for all purposes of [[homotopy theory]], the [[Cohomotopy]] [[cocycle space]] of Cohomotopy charges as an equivalent reflection of the [[configuration space of points]]. 
+
+
+
++-- {: .num_prop #GroupCompletionOfConfigurationSpaceIsIteratedBasedLoopSpace}
+###### Proposition
+**([[group completion]] on [[configuration space of points]] is [[iterated based loop space]])**
+
+The [[Cohomotopy charge map]] (eq:CohomotopyChargeMapOnEuclideanSpace)
 
 $$
-  Conf(X,S^n)
-  \;\simeq\;
-  Maps( X, S^{dim(X) + n} )
-  \,.
+  Conf
+  \big(
+    \mathbb{R}^D
+  \big)
+  \overset{
+    cc
+  }{\longrightarrow}
+  \Omega^D S^D
 $$
 
+from the full unordered and unlabeled configuration space ([here](configuration+space+of+points#eq:UnorderedUnlabeledConfigurationSpace)) of [[Euclidean space]] $\mathbb{R}^D$  to the $D$-fold [[iterated based loop space]] of the [[n-sphere|D-sphere]], exhibits the [[group completion]] ([here](configuration+space+of+points#eq:GroupCompletionOfConfigurationSpaceMonoid)) of the configuration space monoid 
+
+$$
+  \Omega B_{{}_{\sqcup}\!} 
+  Conf
+  \big(
+    \mathbb{R}^D
+  \big)
+  \overset{
+    \simeq
+  }{\longrightarrow}
+  \Omega^D S^D
+$$
 
 =--
+
+([Segal 73, Theorem 1](Cohomotopy+charge#Segal73))
+
++-- {: .num_prop #CohomotopyChargeMapIsEquivalenceOnSPhereLabeledConfihgurationSpace}
+###### Proposition
+**([[Cohomotopy charge map]] is [[weak homotopy equivalence]] on sphere-labeled [[configuration space of points]])**
+
+For $D, k \in \mathbb{N}$ with $k \geq 1$, the [[Cohomotopy charge map]] (eq:CohomotopyChargeMapOnEuclideanSpace)
+
+$$
+  Conf
+  \big(
+    \mathbb{R}^D,
+    S^k
+  \big)
+  \underoverset{\simeq}{cc}{\longrightarrow}
+  \Omega^D S^{D + k}
+$$
+
+is a [[weak homotopy equivalence]] from the configuration space ([here](configuration+space+of+points#eq:UnorderedLabeledCOnfigurationSpace)) of unordered points with labels in $S^k$ and vanishing at the base point of the label space to the $D$-fold [[iterated loop space]] of the [[n-sphere|D+k-sphere]].
+
+=--
+
+([Segal 73, Theorem 3](Cohomotopy+charge#Segal73))
+
+
+The May-Segal theorem \ref{ScanningMapEquivalenceOverCartesianSpace} generalizes from [[Euclidean space]] to [[closed manifold|closed]] [[smooth manifolds]] if at the same time one passes from plain [[Cohomotopy]] to [[twisted Cohomotopy]], twisted, via the [[J-homomorphism]], by the [[tangent bundle]]:
+
++-- {: .num_prop #ScanningMapEquivalenceOverClosedManifold}
+###### Proposition
+
+Let 
+
+1. $X^n$ be a [[smooth manifold|smooth]] [[closed manifold]] of [[dimension]] $n$;
+
+1. $1 \leq k \in \mathbb{N}$ a [[positive number|positive]] [[natural number]].
+
+Then the [[Cohomotopy charge map]] constitutes a [[weak homotopy equivalence]]
+
+$$
+  \underset{
+    \color{blue}
+    { \phantom{a} \atop \text{ J-twisted Cohomotopy space}}
+  }{
+    Maps_{{}_{/B O(n)}}
+    \Big(
+      X^n 
+      \;,\; 
+      S^{
+        \mathbf{n}_{def} + \mathbf{k}_{\mathrm{triv}}    
+      }
+      \!\sslash\!
+      O(n)
+    \Big)
+  }
+  \underoverset
+  {\simeq}
+  {
+    \color{blue}
+    \text{Cohomotopy charge map}
+  }
+  {\longleftarrow}
+  \underset{
+    \mathclap{
+    \color{blue}
+      {
+        \phantom{a}
+        \atop
+        {
+          \text{configuration space}
+          \atop 
+          \text{of points}
+        }
+      }
+    }
+  }{
+    Conf
+    \big(
+      X^n,
+      S^k
+    \big)
+  }
+$$
+
+between 
+
+1. the [[J-homomorphism|J]]-[[twisted Cohomotopy|twisted (n+k)-Cohomotopy]] space of $X^n$, hence the [[space of sections]] of the $(n + k)$-[[spherical fibration]] over $X$ which is [[associated fiber bundle|associated]] via the [[tangent bundle]] by the [[O(n)]]-[[action]] on $S^{n+k} = S(\mathbb{R}^{n} \times \mathbb{R}^{k+1})$
+
+1. the [[configuration space of points]] on $X^n$ with labels in $S^k$.
+
+=--
+
+([Bödigheimer 87, Prop. 2](Cohomotopy+charge#Boedigheimer87), following [McDuff 75](Cohomotopy+charge#McDuff75))
+
++-- {: .num_prop #ScanningMapEquivalenceOverClosedFramedManifold}
+###### Remark
+
+In the special case that the [[closed manifold]] $X^n$ in Prop. \ref{ScanningMapEquivalenceOverClosedManifold} is [[parallelizable manifold|parallelizable]], hence that its [[tangent bundle]] is [[trivial bundle|trivializable]], the statement of Prop. \ref{ScanningMapEquivalenceOverClosedManifold} reduces to this:
+
+Let
+
+1. $X^n$ be a [[parallelizable manifold|parallelizable]] [[closed manifold]] of [[dimension]] $n$;
+
+1. $1 \leq k \in \mathbb{N}$ a [[positive number|positive]] [[natural number]].
+
+Then the [[Cohomotopy charge map]] constitutes a [[weak homotopy equivalence]]
+
+$$
+  \underset{
+    \color{blue}
+    { \phantom{a} \atop \text{ Cohomotopy space}}
+  }{
+    Maps
+    \Big(
+      X^n 
+      \;,\; 
+      S^{
+       n + k    
+      }
+    \Big)
+  }
+  \underoverset
+  {\simeq}
+  {
+    \color{blue}
+    \text{Cohomotopy charge map}
+  }
+  {\longleftarrow}
+  \underset{
+    \mathclap{
+    \color{blue}
+      {
+        \phantom{a}
+        \atop
+        {
+          \text{configuration space}
+          \atop 
+          \text{of points}
+        }
+      }
+    }
+  }{
+    Conf
+    \big(
+      X^n,
+      S^k
+    \big)
+  }
+$$
+
+between 
+
+1. $(n+k)$-[[Cohomotopy]] space of $X^n$, hence the [[space of maps]] from $X$ to the [[n-sphere|(n+k)-sphere]]
+
+1. the [[configuration space of points]] on $X^n$ with labels in $S^k$.
+
+=--
+
 
 
 
