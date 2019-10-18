@@ -326,6 +326,9 @@ Outlook:
 
 * {#LKLR19} Luca Di Luzio, Matthew Kirk, Alexander Lenz, Thomas Rauh, _$\Delta M_s$ theory precision confronts flavour anomalies_ ([arXiv:1909.11087](https://arxiv.org/abs/1909.11087))
 
+* {#Grinstein19} [[Benjamin Grinstein]], _A path to flavor_, talk at _[Implications of LHCb measurement and future prospects](https://indico.cern.ch/event/769902/)_ CERN 2019 ([pdf](https://indico.cern.ch/event/769902/contributions/3582540/attachments/1926501/3193107/Grinstein-high-res.pdf), [[GrinsteinFlavor2019.pdf:file]], [indico:3582540](https://indico.cern.ch/event/769902/contributions/3582540))
+
+
 Emphasis of [[non-perturbative effects]]:
 
 * {#Nierste18} Ulrich Nierste, _Flavour Anomalies: Phenomenology and BSM Interpretations_, talk at [Planck 2018](https://indico.desy.de/indico/event/18498/), Bonn 2018 ([pdf](https://indico.desy.de/indico/event/18498/session/5/contribution/52/material/slides/0.pdf))
