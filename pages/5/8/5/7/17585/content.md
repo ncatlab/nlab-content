@@ -532,6 +532,165 @@ $$
 
 (see also [Kallel-Sjerve 99, Prop. 4.10](#KallelSjerve99))
 
+For the edge case $\Omega^D S^D$ the above formula does not apply, since $\Omega^{D-1} S^D$ is not [[simply connected topological space|simply connected]] (its [[fundamental group]] is $\pi_1\big( \Omega^{D-1}S^D \big) = \pi_0 \big(\Omega^D S^D\big) = \pi_D(S^D) = \mathbb{Z}$, the 0th [[stable homotopy group of spheres]]). 
+
+But:
+
++-- {: .num_example #RationalModelsForBasedMappingSpaceSDToSD}
+###### Example   
+
+The rational model for $\Omega^D S^D$ follows from [this Prop.](Sullivan+model+of+mapping+space#RationalHomotopyTypeOfMapsNSphereToNsphere) by realizing the pointed mapping space as the [[homotopy fiber]] of the [[evaluation map]] from the free mapping space:
+
+$$
+  \array{
+    \mathllap{
+      \Omega^D S^D
+      \simeq
+    \;}
+    Maps^{\ast/\!}\big( S^D, S^D\big)
+    \\
+    \big\downarrow^{\mathrlap{fib(ev_\ast)}}
+    \\
+    Maps(S^D, S^D)
+    \\
+    \big\downarrow^{\mathrlap{ev_\ast}}
+    \\
+    S^D
+  }
+$$
+
+This yields for instance the following examples.
+
+In odd dimensions:
+
+\begin{xymatrix}
+    \mathrm{Maps}^{\ast/\!}
+    \big(
+      S^3, S^3
+    \big)
+    \ar[d]^-{ \mathrm{fib}_{(\mathrm{ev}_\ast)} }
+    \ar@{}[r]|-{ \simeq_{\mathbb{Q}} }
+    &
+    \underset{
+      n \in \mathbb{Z}
+    }{\sqcup}
+    \ast
+    \ar@{^{(}->}[d]
+    \\
+    \mathrm{Maps}
+    \big(
+      S^3, S^3
+    \big)
+    \ar[d]^-{ \mathrm{ev}_\ast }
+    \ar@{}[r]|-{ \simeq_{\mathbb{Q}} }
+    &
+    \underset{
+      n  \in \mathbb{Z}
+    }{\sqcup}
+    S^3
+    \ar[d]^-{ (\mathrm{id}_{S^3})_{n \in \mathbb{N}} }
+    \\
+    S^3
+    \ar@{=}[r]
+    &
+    S^3
+\end{xymatrix}
+
+In even dimensions:
+
+(In the following $h_{\mathbb{K}}$ denotes the [[Hopf fibration]] of the [[division algebra]] $\mathbb{K}$, hence $h_{\mathbb{C}}$ denotes the [[complex Hopf fibration]] and $h_{\mathbb{H}}$ the [[quaternionic Hopf fibration]].)
+
+\begin{xymatrix}
+    \mathrm{Maps}^{\ast/\!}
+    \big(
+      S^2, S^2
+    \big)
+    \ar[d]^-{ \mathrm{fib}_{(\mathrm{ev}_\ast)} }
+    \ar@{}[r]|-{ \simeq_{\mathbb{Q}} }
+    &
+    \underset{
+      n \in \mathbb{Z}
+    }{\sqcup}
+    S^1
+    \ar@{^{(}->}[d]
+    \\
+    \mathrm{Maps}
+    \big(
+      S^2, S^2
+    \big)
+    \ar[d]^-{ \mathrm{ev}_\ast }
+    \ar@{}[r]|-{ \simeq_{\mathbb{Q}} }
+    &
+    \big(
+      S^2 \times S^1
+    \big)
+    \sqcup
+    \big(
+      \underset{
+        n \neq 0  \in \mathbb{Z}
+      }{\sqcup}
+      S^3
+    \big)
+    \ar[d]^-{
+      \big(
+        p_1, (h_{\mathbb{C}})_{n \neq 0 \in \mathbb{N}}
+      \big)
+    }
+    \\
+    S^2
+    \ar@{=}[r]
+    &
+    S^2
+\end{xymatrix}
+
+
+\begin{xymatrix}
+    \mathrm{Maps}^{\ast/\!}
+    \big(
+      S^4, S^4
+    \big)
+    \ar[d]^-{ \mathrm{fib}_{(\mathrm{ev}_\ast)} }
+    \ar@{}[r]|-{ \simeq_{\mathbb{Q}} }
+    &
+    \underset{
+      n \in \mathbb{Z}
+    }{\sqcup}
+    S^3
+    \ar@{^{(}->}[d]
+    \\
+    \mathrm{Maps}
+    \big(
+      S^4, S^4
+    \big)
+    \ar[d]^-{ \mathrm{ev}_\ast }
+    \ar@{}[r]|-{ \simeq_{\mathbb{Q}} }
+    &
+    \big(
+      S^4 \times S^3
+    \big)
+    \sqcup
+    \big(
+      \underset{
+        n \neq 0  \in \mathbb{Z}
+      }{\sqcup}
+      S^7
+    \big)
+    \ar[d]^-{ 
+      \big(
+        p_1, (h_{\mathbb{H}})_{n \neq 0 \in \mathbb{N}} 
+      \big)
+    }
+    \\
+    S^4
+    \ar@{=}[r]
+    &
+    S^4
+\end{xymatrix}
+
+
+
+=--
+
 
 ## Related concepts
 
