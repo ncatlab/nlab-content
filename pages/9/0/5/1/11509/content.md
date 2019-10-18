@@ -20,6 +20,8 @@ Where [[D-brane charge]] is the [[charge]] in [[K-theory]] carried by [[D-branes
 
 ## Related concepts
 
+* [[Cohomotopy charge]]
+
 [[!include genera and partition functions - table]]
 
 
