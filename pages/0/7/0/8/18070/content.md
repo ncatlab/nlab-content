@@ -74,7 +74,8 @@ This is the space of ordered but otherwise unlabeled configurations of $n$ point
 Let $X$ be a [[closed manifold|closed]] [[smooth manifold]],
 For $n \in \mathbb{N}$ write
 
-$$
+\[
+  \label{UnorderedUnlabelednPointConfigurationSpaces}
   \begin{aligned}
     Conf_n
     \big(
@@ -100,13 +101,51 @@ $$
       \mathbf{\Delta}^n_X
     \Big) / Sym(n)
   \end{aligned}
-$$
+\]
 
 for the [[quotient space]] of the ordered configuration space (Def. \ref{OrderedUnlabeledConfigurations}) by the evident [[action]] of the [[symmetric group]] $Sym(n)$ via [[permutation]] of the [[ordering]] of the points.
 
 This is the space of unordered and unlabeled configurations of $n$ points_ in $X$.
+
+We write
+
+\[
+  \label{UnorderedUnlabeledConfigurationSpace}
+  Conf(X)
+  \;\coloneqq\;
+  \underset{n \in \mathbb{N}}{\sqcup}
+  Conf_n\big( X\big)
+\]
+
+for the unordered unlabeled configuration space of any [[finite number]] of points, being the [[disjoint union]] of these spaces (eq:UnorderedUnlabelednPointConfigurationSpaces) over all [[natural numbers]] $n$.
  
 =--
+
+
++-- {: .num_remark #MonoidStructureAndItsGroupCompletion}
+###### Remark
+**([[monoid]]-[[mathematical structure|structure]] on [[configuration space of points]])
+
+For $X = \mathbb{R}^D$ a [[Euclidean spaces]] the configuration space of points $Conf\big( \mathbb{R}^D \big)$ (eq:UnorderedUnlabeledConfigurationSpace) carriesthe [[mathematical structure|structure]] of a [[topological monoid]] with product operation being the [[disjoint union]] of point configurations, after a suitable shrinking to put them next to each other ([Segal 73, p. 1-2](#Segal73)).
+
+For emphasis, we write $B_{{}_{\sqcup}\!} Conf(\mathbb{R}^D)$ for the [[delooping]] ("[[classifying space]]") with respect to this [[topological monoid]]-[[structure]]. The corresponding [[based loop space]] is then the [[group completion]] of the configuration space, with respect to disjoint union of points:
+
+\[
+  \label{GroupCompletionOfConfigurationSpaceMonoid}
+  Conf
+  \big( 
+    \mathbb{R}^D
+  \big)
+  \overset{\color{blue}\text{group completion}}{\longrightarrow}
+  \Omega B_{{}_{\sqcup}\!} Conf(\mathbb{R}^D)
+  \,.
+\]
+
+=--
+
+
++-- {: .num_remark }
+###### Remark
 
 The configuration space of unodered unlabeled configurations of $n$ points (Def. \ref{OrderedUnlabeledConfigurations}) is naturally a [[topological subspace]] of the [[space of finite subsets]] of [[cardinality]] $\leq n$
 
@@ -117,6 +156,7 @@ The configuration space of unodered unlabeled configurations of $n$ points (Def.
   \exp^n(X)
 \]
 
+=--
 
 +-- {: .num_prop #UnorderedConfigurationSpaceInSpaceOfFiniteSubsets}
 ###### Proposition
@@ -363,27 +403,48 @@ This map is evidently a [[deformation retraction]] hence in particular a [[homot
 ## Properties
 
 
-### Monoid structure and its group completion
- {#MonoidStructureAndItsGroupCompletion}
-
-On [[Euclidean spaces]] (and maybe more generally on[[framed manifolds]]) any configuration space of points gets the [[mathematical structure]] of a [[topological monoid]] with product operation being the [[disjoint union]] of point configurations, after a suitable shrinking to put them next to each other ([Segal 73, p. 1-2](#Segal73)).
-
-Write
-
-$$
-  B_{\sqcup} Conf(\mathbb{R}^D)
-$$
-
-for the [[delooping]]
-("[[classifying space]]") with respect to this [[topological monoid]]-[[structure]]. The corresponding [[based loop space]] is then the [[group completion]] of the configuration space, with respect to disjoint union of points.
-
-
-
-
-
 
 ### Relation to iterated loop spaces of iterated suspensions
  {#LoopSpacesOfSuspensions}
+
+
+#### General
+
++-- {: .num_prop #GroupCompletionOfConfigurationSpaceIsIteratedBasedLoopSpace}
+###### Proposition
+**([[group completion]] on [[configuration space of points]] is [[iterated based loop space]])**
+
+The [[Cohomotopy charge map]]
+
+$$
+  Conf
+  \big(
+    \mathbb{R}^D
+  \big)
+  \overset{
+    cc
+  }{\longrightarrow}
+  \Omega^D S^D
+$$
+
+from the full unordered and unlabeled configuration space (eq:UnorderedUnlabeledConfigurationSpace) of [[Euclidean space]] $\mathbb{R}^D$  to the $D$-fold [[iterated based loop space]] of the [[n-sphere|D-sphere]], exhibits the [[group completion]] (eq:GroupCompletionOfConfigurationSpaceMonoid) of the configuration space monoid 
+
+$$
+  \Omega B_{{}_{\sqcup}\!} 
+  Conf
+  \big(
+    \mathbb{R}^D
+  \big)
+  \overset{
+    \simeq
+  }{\longrightarrow}
+  \Omega^D S^D
+$$
+
+=--
+
+([Segal 73, Theorem 1](#Segal73))
+
 
 
 +-- {: .num_prop #ScanningMapEquivalenceOverCartesianSpace}
@@ -397,14 +458,14 @@ For
 
 1. $Y$ a [[manifold]], with [[inhabited set|non-empty]] [[manifold with boundary|boundary]] so that  $Y / \partial Y$ is [[connected topological space|connected]],
 
-the electric field map/[[scanning map]] constitutes a [[homotopy equivalence]]
+the [[Cohomotopy charge map]] constitutes a [[homotopy equivalence]]
 
 $$
   Conf\left( 
-    \mathbb{R}^d, Y
+    \mathbb{R}^D, Y
   \right)
-  \overset{scan}{\longrightarrow}
-  \Omega^d \Sigma^d (Y/\partial Y)
+  \overset{cc}{\longrightarrow}
+  \Omega^D \Sigma^D (Y/\partial Y)
 $$
 
 between 
@@ -417,10 +478,10 @@ In particular when $Y = \mathbb{D}^k$ is the [[closed ball]] of [[dimension]] $k
 
 $$
   Conf\left( 
-    \mathbb{R}^d, \mathbb{D}^k
+    \mathbb{R}^D, \mathbb{D}^k
   \right)
-  \overset{scan}{\longrightarrow}
-  \Omega^d S^{ d + k }
+  \overset{cc}{\longrightarrow}
+  \Omega^D S^{ D + k }
 $$
 
 with the [[iterated loop space|d-fold loop space]] of the [[n-sphere|(d+k)-sphere]].
@@ -454,7 +515,7 @@ between
 
 1. the [[direct sum]] (hence: [[wedge sum]]) of [[suspension spectra]] of the [[configuration space of points|configuration spaces]] of a fixed number of points in $\mathbb{R}^d \times Y$, vanishing at the boundary and distinct already as points in $\mathbb{R}^d$ (also Def. \ref{ConfigurationSpacesOfnPoints}).
 
-Combined with the [[stabilization]] of the electric field map/[[scanning map]] [[homotopy equivalence]] from Prop. \ref{ScanningMapEquivalenceOverCartesianSpace} this yields a [[stable weak homotopy equivalence]]
+Combined with the [[stabilization]] of the [[Cohomotopy charge map]] [[homotopy equivalence]] from Prop. \ref{ScanningMapEquivalenceOverCartesianSpace} this yields a [[stable weak homotopy equivalence]]
 
 $$
   Maps_{cp}(\mathbb{R}^d, \Sigma^d (Y / \partial Y))
@@ -462,7 +523,7 @@ $$
   Maps^{\ast/}( S^d, \Sigma^d (Y / \partial Y))
   =
   \Omega^d \Sigma^d (Y/\partial Y)
-  \underoverset{\Sigma^\infty scan}{\simeq}{\longrightarrow}
+  \underoverset{\Sigma^\infty cc}{\simeq}{\longrightarrow}
   \Sigma^\infty Conf(\mathbb{R}^d, Y)
   \overset{\simeq}{\longrightarrow}
   \underset{n \in \mathbb{N}}{\oplus} \Sigma^\infty Conf_n(\mathbb{R}^d, Y)
@@ -524,7 +585,7 @@ Let
 
 1. $1 \leq k \in \mathbb{N}$ a [[positive number|positive]] [[natural number]].
 
-Then the [[scanning map]] constitutes a [[weak homotopy equivalence]]
+Then the [[Cohomotopy charge map]] constitutes a [[weak homotopy equivalence]]
 
 $$
   \underset{
@@ -546,7 +607,7 @@ $$
   {\simeq}
   {
     \color{blue}
-    \text{scanning map}
+    \text{Cohomotopy charge map}
   }
   {\longleftarrow}
   \underset{
@@ -1248,6 +1309,9 @@ with emphasis to the resulting [[configuration spaces of points]], as in
 
 [[!redirects scanning map]]
 [[!redirects scanning maps]]
+
+[[!redirects Cohomotopy charge map]]
+[[!redirects Cohomotopy charge maps]]
 
 [[!redirects scanning map equivalence]]
 [[!redirects scanning map equivalences]]
