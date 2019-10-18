@@ -580,5 +580,6 @@ See also
 [[!redirects improved holographic QCD]]
 [[!redirects improved holographic quantum chromodynamics]]
 
+[[!redirects Ads/QCD]]
 
 
