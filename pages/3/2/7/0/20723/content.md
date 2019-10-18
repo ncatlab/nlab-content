@@ -42,8 +42,7 @@ Alternative proof using a [[model category]] of [[bisimplicial sets]]:
 
 Alternative formulation for the case of [[commutative monoid|commutative]] [[topological monoids]]:
 
-* [[Oscar Randal-Williams]], _Group-completion, local coefficient systems and perfection_, Q. J.
-Math. 64 (2013), no. 3, 795–803.
+* [[Oscar Randal-Williams]], _Group-completion, local coefficient systems and perfection_, Q. J. Math. 64 (2013), no. 3, 795–803.
 
 
 * Simon Gritschacher, _A remark on the group-completion theorem_ ([arxiv:1709.02036](https://arxiv.org/abs/1709.02036))
