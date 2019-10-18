@@ -588,6 +588,11 @@ Joint explanation with the [anomalies](anomalous+magnetic+moment#Anomalies) obse
 
 * Junichiro Kawamura, Stuart Raby, Andreas Trautner, _Complete Vector-like Fourth Family and new $U(1)'$ for Muon Anomalies_ ([arXiv:1906.11297](https://arxiv.org/abs/1906.11297))
 
+Exotic [[Higgs field]] couplings to a [[hidden sector]]:
+
+* Jared A. Evans, [[Philip Tanedo]], Mohammadreza Zakeri, _Exotic Lepton-Flavor Violating Higgs Decays_ ([arxiv:1910.07533](https://arxiv.org/abs/1910.07533))
+
+
 [[!redirects flavour anomalies]]
 
 [[!redirects flavor anomaly]]
