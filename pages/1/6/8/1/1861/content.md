@@ -237,9 +237,13 @@ Now
 
 [[!include flavours of cohomotopy -- table]]
 
-$\,$
+\linebreak
 
 [[!include Segal completion -- table]]
+
+\linebreak
+
+* [[Cohomotopy charge map]]
 
 ## References
 
