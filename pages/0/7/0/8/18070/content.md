@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -827,6 +826,31 @@ For more see [there](Goodwillie+derivatives+of+the+identity+functor#Properties)
 ### Homology and stabilization in homology
  {#HomologyAndStabilization}
 
+Let $X$ be a [[topological space]] which is the [[interior]] of a [[compact topological space|compact]] [[manifold with boundary]] $\overline{X}$. We may think of the [[boundary]] $\partial \overline X$ as consisting of the "points at infinity" in $X$. 
+
+In particular, there are then inclusion maps
+
+\[
+  \label{InclusionOfUnorderedConfigurationSpaces}
+  Conf_n
+  \big(
+    X
+  \big)
+  \overset{i_n}{\longrightarrow}
+  Conf_{n+1}
+  \big(
+    X
+  \big)
+\]
+
+of the unordered configuration space of $n$ points in $X$ (Def. \ref{UnorderedUnlabeledConfigurations}) into that of $n + 1$ points, 
+formalizing the idea of "adding a point at infinity" to a configuration.
+More formally, these maps are given by pushing configuration points away from the boundary a little and then adding a new point near to a point on the boundary of $X$.
+
+([Randal-Williams 13, Section 4](#RandalWilliams13))
+
+The [[homotopy class]] of these maps depends (just) on the [[connected component]] of the [[boundary]] $\partial \overline{X}$ at which one chooses to bring in the new point. But for any choice, they have the following effect on [[cycles]] in [[ordinary homology]]:
+
 +-- {: .num_prop #HomologicalStabilizationForUnorderedConfigurationSpaces}
 ###### Proposition
 **(homological stabilization for unordered configuration spaces)**
@@ -839,20 +863,7 @@ Let $X$ be
 
 * of [[dimension]] $dim(X) \geq 2$.
 
-Then for all $n \in \mathbb{N}$ there are inclusion [[maps]]
-$$
-  Conf_n
-  \big(
-    X
-  \big)
-  \overset{i_n}{\longrightarrow}
-  Conf_{n+1}
-  \big(
-    X
-  \big)
-$$
-
-of the unordered configuration space of $n$ points in $X$ (Def. \ref{UnorderedUnlabeledConfigurations}) into that of $n + 1$ points, given by pushing configuration points away from the boundary and then adding a new point near to a point on the boundary of $X$, such that on [[ordinary homology]] with [[integer]] [[coefficients]] these maps induce [[split monomorphisms]] in all degrees, 
+Then for all $n \in \mathbb{N}$ the inclusion [[maps]] (eq:InclusionOfUnorderedConfigurationSpaces) are such that on [[ordinary homology]] with [[integer]] [[coefficients]] these maps induce [[split monomorphisms]] in all degrees, 
 
 $$
   H_\bullet
@@ -925,7 +936,7 @@ $$
 
 =--
 
-([Randall-Williams 13, Theorem A and Threorem B](#RandallWilliams13))
+([Randal-Williams 13, Theorem A and Threorem B](#RandalWilliams13))
 
 
 
@@ -1298,7 +1309,7 @@ General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configura
 
 * [[Yves Félix]], [[Jean-Claude Thomas]], _Rational Betti numbers of configuration spaces_, Topology and its Applications, Volume 102, Issue 2, 8 April 2000, Pages 139-149 (<a href="https://doi.org/10.1016/S0166-8641(98)00148-5">doi:10.1016/S0166-8641(98)00148-5</a>)
 
-* {#RandallWilliams13} [[Oscar Randal-Williams]], _Homological stability for unordered configuration spaces_, The Quarterly Journal of Mathematics, Volume 64, Issue 1, March 2013, Pages 303–326 ([arXiv:1105.5257](https://arxiv.org/abs/1105.5257))
+* {#RandalWilliams13} [[Oscar Randal-Williams]], _Homological stability for unordered configuration spaces_, The Quarterly Journal of Mathematics, Volume 64, Issue 1, March 2013, Pages 303–326 ([arXiv:1105.5257](https://arxiv.org/abs/1105.5257))
 
 * {#FelixTanre03} [[Yves Félix]], [[Daniel Tanré]], _The cohomology algebra of unordered configuration spaces_, Journal of the LMS, Vol 72, Issue 2 ([arxiv:math/0311323](https://arxiv.org/abs/math/0311323), [doi:10.1112/S0024610705006794](https://doi.org/10.1112/S0024610705006794))
 
