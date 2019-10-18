@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -150,6 +151,8 @@ $$
 
 
 ### Unordered labeled points
+
+
 
 +-- {: .num_defn #ConfigurationSpacesOfnPoints}
 ###### Definition
@@ -654,6 +657,117 @@ For more see [there](Goodwillie+derivatives+of+the+identity+functor#Properties)
 
 
 
+\linebreak
+
+
+### Homology and stabilization in homology
+ {#HomologyAndStabilization}
+
++-- {: .num_prop #HomologicalStabilizationForUnorderedConfigurationSpaces}
+###### Proposition
+**(homological stabilization for unordered configuration spaces)**
+
+Let $X$ be 
+
+* a [[connected topological space|connected]] [[smooth manifold]] 
+
+* which is the [[interior]] of a [[compact topological space|compact]] [[manifold with boundary]] 
+
+* of [[dimension]] $dim(X) \geq 2$.
+
+Then for all $n \in \mathbb{N}$ there are canonical inclusion [[maps]]
+
+$$
+  Conf_n
+  \big(
+    X
+  \big)
+  \overset{i_n}{\longrightarrow}
+  Conf_{n+1}
+  \big(
+    X
+  \big)
+$$
+
+of the unordered configuration soace of $n$ points in $X$ (Def. \ref{UnorderedUnlabeledConfigurations}) into that of $n + 1$ points, 
+such that on [[ordinary homology]] with [[integer]] [[coefficients]] these maps induce [[split monomorphism]] in all degrees, 
+
+$$
+  H_\bullet
+  \big( 
+    Conf_n(X)
+    ,
+    \mathbb{Z}
+  \big)
+  \overset{
+    H_\bullet( i_n, \mathbb{Z} )
+  }{\hookrightarrow}
+  H_\bullet
+  \big( 
+    Conf_{n+1}(X)
+    ,
+    \mathbb{Z}
+  \big)  
+$$
+
+and in degrees $\leq n/2$ these are even [[isomorphisms]]
+
+$$
+  H_p
+  \big( 
+    Conf_n(X)
+    ,
+    \mathbb{Z}
+  \big)
+  \underoverset{\simeq}{
+    H_p( i_n, \mathbb{Z} )
+  }{\hookrightarrow}
+  H_p
+  \big( 
+    Conf_{n+1}(X)
+    ,
+    \mathbb{Z}
+  \big)
+  \phantom{AAAA}
+  \text{for}
+  \;
+  p \leq n/2
+  \,.
+$$
+
+Finally, for [[ordinary homology]] with [[rational number|rational]] [[coefficients]], these maps induce [[isomorphisms]] all the way up to degree $n$:
+
+
+$$
+  H_p
+  \big( 
+    Conf_n(X)
+    ,
+    \mathbb{Q}
+  \big)
+  \underoverset{\simeq}{
+    H_p( i_n, \mathbb{Q} )
+  }{\hookrightarrow}
+  H_p
+  \big( 
+    Conf_{n+1}(X)
+    ,
+    \mathbb{Q}
+  \big)
+  \phantom{AAAA}
+  \text{for}
+  \;
+  p \leq n
+  \,.
+$$
+
+=--
+
+([Randall-Williams 13, Theorem A and Threorem B](#RandallWilliams13))
+
+
+
+
 
 \linebreak
 
@@ -1022,6 +1136,8 @@ General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configura
 
 * [[Yves Félix]], [[Jean-Claude Thomas]], _Rational Betti numbers of configuration spaces_, Topology and its Applications, Volume 102, Issue 2, 8 April 2000, Pages 139-149 (<a href="https://doi.org/10.1016/S0166-8641(98)00148-5">doi:10.1016/S0166-8641(98)00148-5</a>)
 
+* {#RandallWilliams13} [[Oscar Randal-Williams]], _Homological stability for unordered configuration spaces_, The Quarterly Journal of Mathematics, Volume 64, Issue 1, March 2013, Pages 303–326 ([arXiv:1105.5257](https://arxiv.org/abs/1105.5257))
+
 * {#FelixTanre03} [[Yves Félix]], [[Daniel Tanré]], _The cohomology algebra of unordered configuration spaces_, Journal of the LMS, Vol 72, Issue 2 ([arxiv:math/0311323](https://arxiv.org/abs/math/0311323), [doi:10.1112/S0024610705006794](https://doi.org/10.1112/S0024610705006794))
 
 
@@ -1038,6 +1154,17 @@ General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configura
 * Dan Petersen, _Cohomology of generalized configuration spaces_ ([arXiv:1807.07293](https://arxiv.org/abs/1807.07293))
 
 * Roberto Pagaria, _The cohomology rings of the unordered configuration spaces of the torus_ ([arxiv:1901.01171](https://arxiv.org/abs/1901.01171))
+
+### Homotopy
+
+Discussion of [[homotopy groups]] of configuration spaces:
+
+* [Kohno 02](#Kohno02)
+
+* {#LambrechtsTourtchine09} [[Pascal Lambrechts]], [[Victor Tourtchine]], _Homotopy graph-complex for configuration and knot spaces_, Transactions of the AMS, Volume 361, Number 1, January 2009, Pages 207–222 ([arxiv:math/0611766](https://arxiv.org/abs/math/0611766))
+
+* [[Sadok Kallel]], Ines Saihi, _Homotopy Groups of Diagonal Complements_, Algebr. Geom. Topol. 16 (2016) 2949-2980 ([arXiv:1306.6272](https://arxiv.org/abs/1306.6272))
+
 
 ### Rational homotopy type
 
@@ -1067,15 +1194,6 @@ Further discussion of the graph complex as a model for the [[de Rham cohomology]
 
 * [[Ricardo Campos]], Julien Ducoulombier, Najib Idrissi, [[Thomas Willwacher]], _A model for framed configuration spaces of points_ ([arXiv:1807.08319](https://arxiv.org/abs/1807.08319))
 
-### Homotopy
-
-Discussion of [[homotopy groups]] of configuration spaces:
-
-* [Kohno 02](#Kohno02)
-
-* {#LambrechtsTourtchine09} [[Pascal Lambrechts]], [[Victor Tourtchine]], _Homotopy graph-complex for configuration and knot spaces_, Transactions of the AMS, Volume 361, Number 1, January 2009, Pages 207–222 ([arxiv:math/0611766](https://arxiv.org/abs/math/0611766))
-
-* [[Sadok Kallel]], Ines Saihi, _Homotopy Groups of Diagonal Complements_, Algebr. Geom. Topol. 16 (2016) 2949-2980 ([arXiv:1306.6272](https://arxiv.org/abs/1306.6272))
 
 ### Loop spaces of configuration spaces of points
 
