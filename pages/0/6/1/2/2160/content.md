@@ -26,4 +26,12 @@ and P.P. Cook's [blog](http://ppcook.blogspot.com/2005/12/dilogarithms.html) and
 
 * W. Nahm, _Conformal field theory and torsion elements of the Bloch group_, in Frontiers in Number Theory, Physics, and Geometry, II, Springer, Berlin, 2007, 67&#8211;132 [MR2290759](http://www.ams.org/mathscinet-getitem?mr=2290759) [doi](http://dx.doi.org/10.1007/978-3-540-30308-4_2)
 
+* Marco Aldi, Reimundo Heluani, _Dilogarithms, OPE, and twisted T-duality_, International Mathematics Research Notices 2014:6, 1528–1575, [doi](https://doi.org/10.1093/imrn/rns258)
+
+* Andreas Deser, _Lie algebroids, non-associative structures and non-geometric fluxes_, [arXiv]()
+
+* Fock, Vladimir V.; Goncharov, Alexander B., _Cluster ensembles, quantization and the dilogarithm_, Annales scientifiques de l'École Normale Supérieure, Serie 4, __42__:6 (2009) 865-930 [doi](https://doi.org/10.24033/asens.2112)
+
+* E. Aldrovandi, _On hermitian-holomorphic classes related to uniformization, the dilogarithm, and the Liouville Aaction_, Commun. Math. Phys. (2004) 251: 27. [doi](https://doi.org/10.1007/s00220-004-1168-6)
+
 category: analysis, physics
