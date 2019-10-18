@@ -1,4 +1,123 @@
 
+\begin{xymatrix}
+    \mathrm{Maps}^{\ast/\!}
+    \big(
+      S^3, S^3
+    \big)
+    \ar[d]^-{ \mathrm{fib}_{(\mathrm{ev}_\ast)} }
+    \ar@{}[r]|-{ \simeq_{\mathbb{Q}} }
+    &
+    \underset{
+      n \in \mathbb{Z}
+    }{\sqcup}
+    \ast
+    \ar@{^{(}->}[d]
+    \\
+    \mathrm{Maps}
+    \big(
+      S^3, S^3
+    \big)
+    \ar[d]^-{ \mathrm{ev}_\ast }
+    \ar@{}[r]|-{ \simeq_{\mathbb{Q}} }
+    &
+    \underset{
+      n  \in \mathbb{Z}
+    }{\sqcup}
+    S^3
+    \ar[d]^-{ (\mathrm{id}_{S^3})_{n \in \mathbb{N}} }
+    \\
+    S^3
+    \ar@{=}[r]
+    &
+    S^3
+\end{xymatrix}
+
+\begin{xymatrix}
+    \mathrm{Maps}^{\ast/\!}
+    \big(
+      S^4, S^4
+    \big)
+    \ar[d]^-{ \mathrm{fib}_{(\mathrm{ev}_\ast)} }
+    \ar@{}[r]|-{ \simeq_{\mathbb{Q}} }
+    &
+    \underset{
+      n \in \mathbb{Z}
+    }{\sqcup}
+    S^3
+    \ar@{^{(}->}[d]
+    \\
+    \mathrm{Maps}
+    \big(
+      S^4, S^4
+    \big)
+    \ar[d]^-{ \mathrm{ev}_\ast }
+    \ar@{}[r]|-{ \simeq_{\mathbb{Q}} }
+    &
+    \big(
+      S^4 \times S^3
+    \big)
+    \sqcup
+    \big(
+      \underset{
+        n \neq 0  \in \mathbb{Z}
+      }{\sqcup}
+      S^7
+    \big)
+    \ar[d]^-{ 
+      \big(
+        p_1, (h_{\mathbb{H}})_{n \neq 0 \in \mathbb{N}} 
+      \big)
+    }
+    \\
+    S^4
+    \ar@{=}[r]
+    &
+    S^4
+\end{xymatrix}
+
+\begin{xymatrix}
+    \mathrm{Maps}^{\ast/\!}
+    \big(
+      S^2, S^2
+    \big)
+    \ar[d]^-{ \mathrm{fib}_{(\mathrm{ev}_\ast)} }
+    \ar@{}[r]|-{ \simeq_{\mathbb{Q}} }
+    &
+    \underset{
+      n \in \mathbb{Z}
+    }{\sqcup}
+    S^1
+    \ar@{^{(}->}[d]
+    \\
+    \mathrm{Maps}
+    \big(
+      S^2, S^2
+    \big)
+    \ar[d]^-{ \mathrm{ev}_\ast }
+    \ar@{}[r]|-{ \simeq_{\mathbb{Q}} }
+    &
+    \big(
+      S^2 \times S^1
+    \big)
+    \sqcup
+    \big(
+      \underset{
+        n \neq 0  \in \mathbb{Z}
+      }{\sqcup}
+      S^3
+    \big)
+    \ar[d]^-{
+      \big(
+        p_1, (h_{\mathbb{C}})_{n \neq 0 \in \mathbb{N}}
+      \big)
+    }
+    \\
+    S^2
+    \ar@{=}[r]
+    &
+    S^2
+\end{xymatrix}
+
 The explanation by the laws of topology of surprising stability effects in dynamical physical systems goes back, at least, to Lord Kelvin, who observed that vortices in what was then thought to be the space-filling ether, would take the shape of knots, which, much like smoke rings in air, would move and vibrate but not break their linked and knotted structure. 
 
 (See e.g. 
