@@ -50,6 +50,12 @@ For Skyrmion models of nuclei to match well to [[experiment]], not just the [[pi
 > graphics grabbed form [Naya-Sutcliffe 18](#NayaSutcliffe18)
 
 
+## Related concepts
+
+* [[alpha particle]]
+
+* [[confinement]]
+
 ## References
 
 [[skyrmion]] [[model (in theoretical physics)|models]]:
