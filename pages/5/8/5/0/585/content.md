@@ -391,6 +391,9 @@ A comparison of Trimble's definition with that of a [[Batanin omega-category]] i
 
 * [[Eugenia Cheng]], _Comparing operadic theories of $n$-category_ ([arXiv](http://arxiv.org/abs/0809.2070))
 
+Weak ω-category construction via terminal coalgebras
+
+* [[Eugenia Cheng]] and [[Tom Leinster]], _Weak ω-categories via terminal coalgebras_ ([arXiv](https://arxiv.org/abs/1212.5853))
 
 ## Discussion
 
