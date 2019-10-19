@@ -42,11 +42,23 @@ The monograph on Kac algebras is
 
 * M. Enock, J. M. Schwartz, _Kac algebras and duality of locally compact groups_,  Springer-Verlag, 1992, , x+257 pp. [gBooks](http://books.google.com/books/about/Kac_algebras_and_duality_of_locally_comp.html?id=U6e6aD1gj3oC), [MR94e:46001](http://www.ams.org/mathscinet-getitem?mr=1215933)
 
+and a more recent view of duality between Hopf algebra approach and an approach to quantum groups via multiplicative unitaries is in the book
+
+* Thomas Timmermann, _An invitation to quantum groups and duality: From Hopf algebras to multiplicative unitaries and beyond_, Europ. Math. Soc. 2008.
+
+Introduction to Ch. 7 says in Timmerman's book says
+
+> Multiplicative unitaries are fundamental to the theory of quantum groups in the set-
+ting of $C^*$-algebras and [[von Neumann algebra]]s, and to generalizations of [[Pontrjagin duality]]. Roughly, a multiplicative unitary is one single map that encodes all structure maps of a quantum group and of its generalized Pontrjagin dual simultaneously.
+
+Woronowicz has introduced managaeble multiplicative unitaries
+
+* [[S. L. Woronowicz]], _From multiplicative unitaries to quantum groups_, Internat. J. Math. __7__ (1996), 127–149.
+
 It is useful to look at the survey
 
 * Johan Kustermans, Stefaan Vaes, _The operator algebra approach to quantum groups_, 
 Proc Natl Acad Sci USA 97(2): 547–552 (2000) [doi](https://doi.org/10.1073/pnas.97.2.547)
-
 
 * A. Van Daele, S. Van Keer, _The Yang-Baxter and pentagon equation_, Compositio Mathematica __91__:2 (1994)  201-221 [numdam](http://www.numdam.org/item/CM_1994__91_2_201_0)
 
@@ -74,4 +86,4 @@ The multiplicative unitary representing quantum dilogarithm has been studied ana
 
 * [[S. L. Woronowicz]], _Quantum exponential function_, Reviews in Mathematical Physics __12__:06,  873-920 (2000) [doi](https://doi.org/10.1142/S0129055X00000344)
 
-The role of quantum torus is here quite clear; later treatments of more general quantum [[dilogarithm]]s influenced by Kontsevich-Soibelman work on [[wall crossing]] and related Goncharov's cluster varieties quantization also witness the appearance of the simialr quantum torus. 
+The role of quantum torus is here quite clear; later treatments of more general quantum [[dilogarithm]]s influenced by Kontsevich-Soibelman work on [[wall crossing]] and related Goncharov's cluster varieties quantization also witness the appearance of the similar quantum torus. 
