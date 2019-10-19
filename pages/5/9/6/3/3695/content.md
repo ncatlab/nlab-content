@@ -76,7 +76,7 @@ Invent. Math. 146 (2001), no. 3, 479&#8211;506. [MR1869848](http://www.ams.org/m
 
 Interconnection between exact WKB method, Stokes data and cluster algebras has been studied in
 
-* Kohei Iwaki, Tomoki Nakanishi, _Exact WKB analysis and cluster algebras_, J. Phys. A 47 (2014) 474009 [arxiv/1401.7094](http://arxiv.org/abs/1401.7094)
+* Kohei Iwaki, Tomoki Nakanishi, _Exact WKB analysis and cluster algebras_, J. Phys. A 47 (2014) 474009 [arxiv/1401.7094](http://arxiv.org/abs/1401.7094); _Exact WKB analysis and cluster algebras II: simple poles, orbifold points, and generalized cluster algebras_, [arXiv:1409.4641](http://arxiv.org/abs/1409.4641)
 
 Proceedings volumes:
 
