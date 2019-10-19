@@ -67,12 +67,16 @@ An explicit associator over $\mathbf{C}$ was constructed by [[Drinfeld]] from th
 * [[Drinfeld-Kohno theorem]]
 * [[Etingof-Kazhdan quantization functor]]
 * [[Formality]] of the [[little 2-disk operad]]
-* Construction of a functorial [[universal finite type invariant]]. 
+* Construction of a functorial [[universal finite type invariant]]
+* [[dilogarithm]] 
 
 ## References
 
 * [[Vladimir Drinfeld]]. On quasitriangular quasi-Hopf algebras and on a group that is closely connected with Gal($\overline{\mathbf{Q}}/\mathbf{Q}$). _Leningrad Math. J._ 2:4 (1990), 829–860. ([mathnet.ru](http://mi.mathnet.ru/eng/aa199))
 
 * [[Dror Bar-Natan]]. On associators and the Grothendieck-Teichmuller group I. _Selecta Math. (N.S.)_ 4:2 (1998), 183–212. ([pdf](https://www.math.toronto.edu/drorbn/papers/GT1/GT1.pdf))
+* A. Alekseev, C. Torossian, The Kashiwara-Vergne conjecture and Drinfeld’s associators, Ann. of Math. 175 (2012), no.2, 415–463
+* A. Alekseev, B. Enriques, C. Torossian, Drinfeld associators, braid groups and explicit solutions of the Kashiwara-Vergne equations, Publ. Math. Inst. Hautes ́Etudes Sci. 112 (2010), 143–189
+* Anton Alekseev, Florian Naef, Xiaomeng Xu, Chenchang Zhu, _Chern–Simons, Wess–Zumino and other cocycles from Kashiwara–Vergne and associators_, Letters in Mathematical Physics __108__:3 (2018) 757–778 [doi](https://doi.org/10.1007/s11005-017-0985-4)
 
 [[!redirects Drinfeld associators]]
