@@ -15,6 +15,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -56,13 +57,16 @@ for the [[space of maps|space of]] [[pointed topological space|pointed]] [[ratio
 
 To each configuration $ c \in \mathcal{M}_k$ of $k \in \mathbb{N}$ magnetic monopoles is associated a [[scattering amplitude]] 
 
-$$
+\[
+  \label{ScatteringAmplitudes}
   S(c) \in R_k
-$$
+\]
 
 ([Atiyah-Hitchin 88 (2.8)](#AtiyahHitchin88))
 
-This assignment is in fact a [[diffeomorphism]]
+### Charge quantization in complex-rational Cohomotopy
+
+The assignment (eq:ScatteringAmplitudes) is in fact a [[diffeomorphism]]
 
 $$
   \mathcal{M}_k
@@ -70,9 +74,19 @@ $$
   R_k
 $$
 
-from the moduli space (eq:ModuliSpaceOfkInstantons) of $k$ magnetic monopoles to the space (eq:SpaceOfRationalFunctionsOfDegreek) of rational functions of degree $k$.
+identifying the moduli space (eq:ModuliSpaceOfkInstantons) of $k$ magnetic monopoles with the space (eq:SpaceOfRationalFunctionsOfDegreek) of complex-[[rational functions]] form the [[Riemann sphere]] to itself, of [[degree of a continuous function|degree]] $k$ (hence the [[cocycle space]] of complex-rational 2-[[Cohomotopy]]).
 
 ([Atiyah-Hitchin 88, Theorem 2.10](#AtiyahHitchin88))
+
+{#Illustration} $\,$
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/AtiyahHitchinChargeQuantizationII.jpg" width="640">
+</center>
+
+
+This is a [[non-abelian group|non-abelian]] analog of the [[Dirac charge quantization]] of the [[electromagnetic field]], with [[ordinary cohomology]] replaced by [[Cohomotopy]] [[generalized cohomology theory|cohomology theory]].
 
 ## Related concepts
 
@@ -100,3 +114,5 @@ The moduli space of monopoles appears in the [[KK-compactification]] of the [[M5
 * Benjamin Assel, Sakura Schafer-Nameki, Jin-Mann Wong, _M5-branes on $S^2 \times M_4$: Nahm's Equations and 4d Topological Sigma-models_, J. High Energ. Phys. (2016) 2016: 120 ([arxiv:1604.03606](https://arxiv.org/abs/1604.03606))
 
 [[!redirects moduli spaces of monopoles]]
+
+[[!redirects Atiyah-Hitchin charge quantization]]
