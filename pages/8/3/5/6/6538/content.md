@@ -38,22 +38,7 @@ for $\phi\in k G$ and where $S: k G\to (k G)^{op,cop}$ is the antipode.
 These formulas make sense for more general [[dual bialgebra|Hopf algebras in duality]] provided there are appropriate analogues of $\Lambda$ and $\Lambda^*$ and $\langle \Lambda^*, \Lambda\rangle$ is invertible in $k$. That generalization is called the __quantum group Fourier transform__. 
 
 
-They can also be related to the __fundamental operator__ in Hopf algebra $H$, which is the invertible operator $W : H\otimes H \to H\otimes H$ satisfying the pentagon identity
-
-$$
-W_{1 2} W_{1 3} W_{2 3} = W_{2 3} W_{1 2}
-$$
-in  the tensor cube of the space of linear endomorphisms of $H$ and such that
-
-$$
-\Delta(h) = W (h\otimes 1) W^{-1} 
-$$ 
-
-$$
-S h = (\epsilon\otimes id)\circ W^{-1}(h\otimes - )
-$$
-
-for all $h\in H$. For finite-dimensional Hopf algebras $W(g\otimes h) = g_{(1)}\otimes g_{(2)} h$ and $W^{-1}(g\otimes h = g_{(1)}\otimes (S g_{(2)}) h$. 
+They can also be related to the [[fundamental operator]] in Hopf algebra $H$, see under [[multiplicative unitary]].
 
 * [[Shahn Majid]], _Foundations of quantum group theory_, 1995, 2nd. ed 2000
 * M. Enock, J. M. Schwartz, _Kac algebras and duality of locally compact groups_,  Springer-Verlag, 1992, , x+257 pp. [gBooks](http://books.google.com/books/about/Kac_algebras_and_duality_of_locally_comp.html?id=U6e6aD1gj3oC), [MR94e:46001](http://www.ams.org/mathscinet-getitem?mr=1215933)
