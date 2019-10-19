@@ -272,6 +272,12 @@ is a [[?ech cohomology|?ech cocycle]] with coefficients in the degree 2 [[Delign
 ## Charge quantization
  {#ChargeQuantization}
 
+See at _[[Dirac charge quantization]]_.
+
+<center>
+<img src="https://ncatlab.org/nlab/files/DiracChargeQuantization.jpg" width="640">
+</center>
+
 ### Dirac's original argument
  {#DiracArgument}
 
