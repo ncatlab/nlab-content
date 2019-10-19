@@ -20,6 +20,9 @@ A cluster algebra of rank $n$ comes equipped with some subsets of size $n$ calle
 
 * Arkady Berenstein, Andrei Zelevinsky, _Quantum cluster algebras_, [math.QA/0404446](http://arxiv.org/abs/math/0404446)
 
+* K. Goodearl, M. Yakimov, _Quantum cluster algebras and quantum nilpotent algebras_
+Proc Natl Acad Sci USA 111(27):9696-703  (2014) [doi](https://doi.org/10.1073/pnas.1313071111)
+
 * B. Keller, _Cluster algebras, quiver representations and triangulated categories_, [arXiv:0807.1960](http://arXiv.org/abs/0807.1960) [MR2681708](http://www.ams.org/mathscinet-getitem?mr=2681708)
 
 * Lots of links at [Cluster algebras portal](http://www.math.lsa.umich.edu/~fomin/cluster.html) including to the Fomin's [course slides](http://www.math.lsa.umich.edu/~fomin/nordfjordeid.html).
@@ -32,7 +35,7 @@ A cluster algebra of rank $n$ comes equipped with some subsets of size $n$ calle
 * [[Bernard Leclerc]], _Cluster algebras and representation theory_, [arxiv/1009.4552](http://arxiv.org/abs/1009.4552)
 * Christof Geiss, Bernard Leclerc, Jan Schr&#246;er, _Preprojective algebras and cluster algebras_, [arxiv/0804.3168](http://arxiv.org/abs/0804.3168); _Kac-Moody groups and cluster algebras_, [arxiv/1001.3545](http://arxiv.org/abs/1001.3545); _Cluster structures on quantum coordinate rings_, [arxiv/1104.0531](http://arxiv.org/abs/1104.0531)
 
-* Tomoki Nakanishi, _Dilogarithm identities for conformal field theories and cluster algebras: Simply laced case_, Nagoya Math. J. __202__ (2011), 23-43, [MR2804544](http://www.ams.org/mathscinet-getitem?mr=2804544) [doi](http://dx.doi.org/10.1215/00277630-1260432)
+* Tomoki Nakanishi, _[[dilogarithm|Dilogarithm]] identities for conformal field theories and cluster algebras: Simply laced case_, Nagoya Math. J. __202__ (2011), 23-43, [MR2804544](http://www.ams.org/mathscinet-getitem?mr=2804544) [doi](http://dx.doi.org/10.1215/00277630-1260432)
 
 The connections to the exact WKB method a la Voros are studied in 
 
