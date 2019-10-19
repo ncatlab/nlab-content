@@ -55,6 +55,14 @@ Sibuya's has a textbook chapter on Stokes phenomena
 
 * R. Balian, G. Parisi, A. Voros, _Discrepancies from asymptotic series and their relation to complex classical trajectories_, Phys. Rev. Lett. __41__ (1978), 1141-1144. 
 
+* A. Voros, _The return of the quartic oscillator. The complex WKB method_, Annales de l'I.H.P. Physique théorique 39:3 (1983) 211-338 [eudml](http://eudml.org/doc/76217)
+
+* E Delabaere, H Dillinger, F Pham, _Résurgence de Voros et périodes des courbes hyperelliptiques_, Annales de l'institut Fourier, 1993 [doi](https://doi.org/10.5802/aif.1326); _Exact semiclassical expansions for one-dimensional quantum oscillators_
+J. Math. Physics __38__ (1997) 6126 [doi](https://doi.org/10.1063/1.532206) 
+
+* Eric Delabaere, Frédéric Pham, _Unfolding the quartic oscillator_ Annals of Physics
+__261__:2 (1997) 180-218 [doi](https://doi.org/10.1006/aphy.1997.5737)
+
 * R.B. Paris, A.D. Wood, _Stokes phenomenon demystified_, Bull. Inst. Math. Appl. __31__ (1995) 21-28.
 
 * A R Its, A A Kapaev, _Quasi-linear Stokes phenomenon for the second
@@ -64,8 +72,7 @@ Painlev&#233; transcendent_, Nonlinearity __16__ (2003) 363&#8211;386, [doi](htt
 
 * D. G. Babbitt, V. S. Varadarajan, _Local moduli for meromorphic differential equations_,  Bull. Amer. Math. Soc. (N.S.) __12__, N. 1 (1985), 95-98.
 
-* P. Boalch, _Symplectic manifolds and isomonodromic deformations_, [link](http://www.dma.ens.fr/~boalch/files/smid.pdf); _Geometry and braiding of Stokes data; fission and wild character varieties_, [arXiv:1111.6228](http://arxiv.org/abs/1111.6228); P. P. Boalch, _Stokes matrices, Poisson Lie groups and Frobenius manifolds_, 
-Invent. Math. 146 (2001), no. 3, 479&#8211;506. [MR1869848](http://www.ams.org/mathscinet-getitem?mr=1869848) [doi](http://dx.doi.org/10.1007/s002220100170)
+* P. Boalch, _Symplectic manifolds and isomonodromic deformations_, [link](http://www.dma.ens.fr/~boalch/files/smid.pdf); _Geometry and braiding of Stokes data; fission and wild character varieties_, [arXiv:1111.6228](http://arxiv.org/abs/1111.6228); P. P. Boalch, _Stokes matrices, Poisson Lie groups and Frobenius manifolds_, Invent. Math. 146 (2001), no. 3, 479&#8211;506. [MR1869848](http://www.ams.org/mathscinet-getitem?mr=1869848) [doi](http://dx.doi.org/10.1007/s002220100170)
 * A. A. Kapaev, _Quasi-linear Stokes phenomenon for the Painlev&#233; first equation_, J. Phys. A: Math. Gen. __37__, 11149 (2004) [doi](http://dx.doi.org/10.1088/0305-4470/37/46/005)
 
 * Kiran S. Kedlaya, _Good formal structures for flat meromorphic connections, I: Surfaces_, Duke Math. J. __154__, n. 2 (2010), 343-418, [MR2682186](http://www.ams.org/mathscinet-getitem?mr=2682186), [euclid](http://projecteuclid.org/euclid.dmj/1281963652) 
@@ -77,6 +84,9 @@ Invent. Math. 146 (2001), no. 3, 479&#8211;506. [MR1869848](http://www.ams.org/m
 Interconnection between exact WKB method, Stokes data and cluster algebras has been studied in
 
 * Kohei Iwaki, Tomoki Nakanishi, _Exact WKB analysis and cluster algebras_, J. Phys. A 47 (2014) 474009 [arxiv/1401.7094](http://arxiv.org/abs/1401.7094); _Exact WKB analysis and cluster algebras II: simple poles, orbifold points, and generalized cluster algebras_, [arXiv:1409.4641](http://arxiv.org/abs/1409.4641)
+
+* Xiaomeng Xu, _Stokes phenomenon and Yang-Baxter equations_, [arxiv/1808.07654](https://arxiv.org/abs/1808.07654), [doi](https://doi.org/10.1007/s00220-019-03565-7); _Stokes phenomenon, dynamical r-matrices and Poisson geometry_, [doi](https://doi.org/10.13097/archive-ouverte/unige:84496); _Frobenius manifolds and quantum groups_ [arxiv/1801.00123](https://arxiv.org/abs/1801.00123); _Stokes phenomenon, Gelfand-Zeitlin systems and relative Ginzburg-Weinstein linearization_ [arxiv/1701.08113](https://arxiv.org/abs/1701.08113)
+
 
 Proceedings volumes:
 
