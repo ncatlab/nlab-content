@@ -275,7 +275,7 @@ is a [[?ech cohomology|?ech cocycle]] with coefficients in the degree 2 [[Delign
 See at _[[Dirac charge quantization]]_.
 
 <center>
-<img src="https://ncatlab.org/nlab/files/DiracChargeQuantization.jpg" width="640">
+<img src="https://ncatlab.org/nlab/files/DiracChargeQuantizationII.jpg" width="640">
 </center>
 
 ### Dirac's original argument
