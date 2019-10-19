@@ -100,6 +100,10 @@ A class of examples of such Hopf algebroids internally in a monoidal category of
 
 This starts with a different concept of [[bialgebroid]], which is discussed here on the nLab.  Namely: any $k$-algebra $R$ gives a pseudomonoid $R^e = R^{op} \otimes R$ in the bicategory $Mod_k$ of k-algebras, bimodules, and bimodule homomorphisms, and a **bialgebroid** is then an opmonoidal monad $A$ on $R^e$.   When the fusion (or Galois) operator for this opmonoidal monad is invertible, we say that $A$ is a **Hopf algebroid**.  In G. B&#246;hm's work this definition is stated in a less compressed, more down-to-earth way.
 
+A notion of multiplier Hopf algebroid is studied in
+
+* T. Timmermann, A. Van Daele, _Multiplier Hopf algebroids. Basic theory and examples_,  Commun. Alg. __46__:5 (2018) [arxiv/1307.0769](https://arxiv.org/abs/1307.0769) [doi](https://doi.org/10.1080/00927872.2017.1363220); _Multiplier Hopf algebroids arising from weak multiplier Hopf algebras_, [arxiv/1406.3509](https://arxiv.org/abs/1406.3509)
+* Frank Taipe, _Quantum transformation groupoids: An algebraic and analytical approach_, PhD thesis (2018) [link](https://hal.archives-ouvertes.fr/tel-02288186)
 
 category: algebra
 [[!redirects Hopf algebroids]]
