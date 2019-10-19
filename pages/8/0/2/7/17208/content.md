@@ -725,3 +725,6 @@ Detailed review of the [[Atiyah-Hirzebruch spectral sequence]] for [[complex ori
 
 
 [[!redirects complex projective spaces]]
+
+[[!redirects infinite complex projective space]]
+[[!redirects infinite complex projective spaces]]
