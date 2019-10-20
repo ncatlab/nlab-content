@@ -50,7 +50,9 @@ Explicitly this is given by the [[pointwise order]]: given preorders $X$ and $Y$
 The stochastic order can be seen as a way to turn a [[probability monad]] on a category of preorders into a [[2-monad]] by equipping it with an action on the 2-cells. 
 In particular, let $P$ be a [[probability monad]] on a category of preorders. In order to make it a [[2-functor]], and so a [[2-monad]], we want to say that if $f,g:X\to Y$ are such that $f\le g$, then also $P f\le P g$ as maps $P X\to P Y$. The latter condition means that for all $p\in P X$, $(P f)(p) \le (P g)(p)$ in $P Y$, so we need a preorder relation on $P Y$ that is suitably compatible with the order on $Y$, in such a way that $P$ preserves these 2-cells (inequalities). The stochastic order is the canonical choice of such a preorder.
 
-Equivalently, the stochastic order can be seen as a way of making the functor $P$ [[enriched functor|enriched]] in [[truth values]].
+One can actually _define_ the stochastic order directly in terms of 2-cells as follows: given $f,g:X\to Y$ as above, $P f\le P g$ _if and only if_ $f\le g$.
+
+Similarly, the stochastic order can be seen as a way of making the functor $P$ [[enriched functor|enriched]] in [[truth values]].
 
 
 ## See also
