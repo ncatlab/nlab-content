@@ -48,6 +48,22 @@ From the perspective of [[mathematics]], such a functor is a way to break up [[d
 
 If one considers [[manifolds with corners]] then there is a fairly evident refinement of the concept of cobordism that allows to further refine this process to gluing of [[extended cobordisms]] of any dimension $k$ going between [[extended cobordisms]] of dimension $k-1$. Such extended cobordisms of maximal dimension $n$ form a [[symmetric monoidal (infinity,n)-category]] called, naturally, the [[(infinity,n)-category of cobordisms]]. The [[cobordism hypothesis]] asserts that this is a most fundamental object in [[higher category theory]] and [[higher algebra]], namely that it is the _[[free construction|free]]_ [[symmetric monoidal (infinity,n)-category]] [[(infinity,n)-category with duals|with duals]]. The corresponding extended concept of [[topological quantum field theory]] is accordingly called [[extended TQFT]] or similar.
 
+## Properties
+
+### Relation to Cohomotopy
+ {#RelationToCohomotopy}
+
+The [[Pontrjagin-Thom isomorphism]]  says that assigning [[Cohomotopy charge]] identifies suitable [[cobordism classes]]  of [[submanifolds]] or abstract [[manifolds]] with [[cocycles]] in [[Cohomotopy|unstable Cohomotopy]] (see [here](cohomotopy#RelationToCobordismGroup)) or [[stable Cohomotopy]].
+
+The following graphics illustrates the [[Cohomotopy charge map]] of the pair creation/annihilation cobordism for 0-dimensional [[submanifolds]]:
+
+<center>
+<a href="https://arxiv.org/pdf/1909.12277.pdf#page=11">
+<img src="https://ncatlab.org/schreiber/files/BraneAntibranePairCreationInCohomotopy.jpg" width="700">
+</a>
+</center>
+
+> graphics grabbed from [SS 19](cohomotopy+charge#SatiSchreiber19)
 
 
 ## Related concepts
