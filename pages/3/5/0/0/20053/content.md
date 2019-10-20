@@ -88,6 +88,8 @@ See also: [[valuation (measure theory)#extending_valuations_to_measures|Extendin
 [[!redirects τ-regular measure]]
 [[!redirects τ-regular measures]]
 [[!redirects tau-additive]]
+[[!redirects tau-smooth]]
+[[!redirects tau-regular]]
 [[!redirects τ-additive]]
 [[!redirects τ-smooth]]
 [[!redirects τ-regular]]
