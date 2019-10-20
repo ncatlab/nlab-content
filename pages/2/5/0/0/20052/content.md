@@ -98,7 +98,7 @@ The assignment gives a well-defined valuation, which is continuous if $\nu$ is c
 
 Compare with the [[pushforward measure|analogous construction for measures]].
 
-This construction allows to makes the assignment [[functor]], which is even a [[monad]] (see [[monads of probability, measures and valuations#functor_ unit_and_multiplication|probability monads]] for more on this).
+This construction allows to makes the assignment [[functor]], which is even a [[monad]] (see [[monads of probability, measures and valuations#functor_ unit_and_multiplication|measure monads]] for more on this).
 
 
 ### Joints, marginals and products
@@ -168,7 +168,7 @@ This integral satisfies analogous properties to the Lebesgue integral, such as [
 
 ## Monads of valuations
 
-Just as there are several [[monad|monads]] of probability measures (such as the [[Giry monad]]), there are a number of analogous monads of valuations.
+Just as there are several [[monad|monads]] of measures (such as the [[Giry monad]]), there are a number of analogous monads of valuations.
 The most famous are
 
 * The [[extended probabilistic powerdomain]] on the [[Top|category of topological spaces]], which was introduced by [Heckmann 96](#Heckmann96). 
@@ -177,7 +177,7 @@ The most famous are
 
 * The [[probabilistic powerdomain]] on the category of [[dcpo|dcpos]], defined by Jones and Plotkin, of wide use in theoretical computer science.
 
-See also [[monads of probability, measures, and valuations]].
+See also the list at [[monads of probability, measures, and valuations]].
 
 
 ## Extending valuations to measures
