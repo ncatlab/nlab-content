@@ -15,7 +15,7 @@
 
 ## Idea
 
-In many categorical approaches to [[measure theory]] and [[probability]], one consider a [[category]] of [[spaces]], such as [[measurable spaces]] or [[topological spaces]], and equips this category with a [[monad]] whose [[functor]] part assigns to each space $X$ a space $P X$ of [[measures]], [[probability measures]], or [[valuation (measure theory)|valuations]] on $X$, or a variation thereof.
+In many categorical approaches to [[measure theory]] and [[probability]], one considers a [[category]] of [[spaces]], such as [[measurable spaces]] or [[topological spaces]], and equips this category with a [[monad]] whose [[functor]] part assigns to each space $X$ a space $P X$ of [[measures]], [[probability measures]], or [[valuation (measure theory)|valuations]] on $X$, or a variation thereof.
 
 For probability theory, this can be interpreted as adding to the [[points]] of a space $X$ new "random points", modelled as probability measures or valuations.
 The old points, which we can think of as deterministic, are embedded in $P X$ via the unit of the monad $X\to P X$. Just as well, the [[Kleisli morphisms]] of $P$ can be seen as [[stochastic maps]].
@@ -116,7 +116,7 @@ See [the table below](#detailed_list) for more details.
   <td markdown="1">...</td>
  </tr>
  <tr>
-  <th markdown="1">[[Probabilistic powerdomain]]</th>
+  <th markdown="1">[[probabilistic powerdomain]]</th>
   <td markdown="1">[[dcpo]]</td>
   <td markdown="1">[[continuous valuations]]</td>
   <td markdown="1">[[stochastic order]]</td>
@@ -134,7 +134,7 @@ See [the table below](#detailed_list) for more details.
  <tr>
   <th markdown="1">[[Distribution monad]] (a.k.a. finitary Giry monad, convex combination monad)</th>
   <td markdown="1">[[Set]]</td>
-  <td markdown="1">[[Convex combinations]] or finitely-[[support#in_measure_theory|supported]] [[probability measures]]</td>
+  <td markdown="1">[[convex combinations]] or finitely-[[support#in_measure_theory|supported]] [[probability measures]]</td>
   <td markdown="1">(just a set)</td>
   <td markdown="1">[[convex spaces|Convex spaces]]</td>
   <td markdown="1">...</td>
@@ -142,7 +142,7 @@ See [the table below](#detailed_list) for more details.
  <tr>
   <th markdown="1">[[Infinitary distribution monad]] (a.k.a. countable convex combination monad)</th>
   <td markdown="1">[[Set]]</td>
-  <td markdown="1"> Countable [[convex combinations]] or countably-[[support#in_measure_theory|supported]] [[probability measures]]</td>
+  <td markdown="1"> countable [[convex combinations]] or countably-[[support#in_measure_theory|supported]] [[probability measures]]</td>
   <td markdown="1">(just a set)</td>
   <td markdown="1">[[Hyperconvex spaces]]</td>
   <td markdown="1">...</td>
