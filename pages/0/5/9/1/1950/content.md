@@ -89,11 +89,7 @@ even more strongly, it is a strong anodyne extension,
 i.e., a transfinite composition of cobase changes of horn inclusions
 (without retracts involved).
 
-* $Ex^\infty$ preserves all 5 classes of maps:
-[[weak equivalences]], (acyclic) [[cofibrations]],
-and (acyclic) [[fibrations]],
-as well as strong anodyne extensions
-and simplicial homotopy equivalences.
+* $Ex^\infty$ preserves all 5 classes of maps: [[weak equivalences]], (acyclic) [[cofibrations]], and (acyclic) [[fibrations]], as well as strong anodyne extensions and simplicial homotopy equivalences.
 
 * $Ex^\infty$ preserves [[finite limits]] and [[filtered colimits]].
 
