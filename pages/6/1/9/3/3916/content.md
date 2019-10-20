@@ -8,14 +8,32 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
+ {#Idea}
 
-Given an [[embedding]] of [[manifolds]] $i : X \hookrightarrow Y$, the _Thom collapse map_ is a useful approximation to its would-be [[left inverse]]. It is used to define pushforward of [[cohomology]]-classes along $i$ ("[[Umkehr maps]]"). It also appears as the key step in [[Thom's theorem]].
+Given an [[embedding of topological spaces|embedding]] of [[smooth manifolds]] $i colon X \hookrightarrow Y$ of [[codimension]] $n$, the _Thom collapse map_ ([Thom 54](#Thom54)) is the [[continuous function]] from $X$ to the [[n-sphere]] which assigns **asymptotic normal distance** from the [[submanifold]], measured 
+
+1. in [[direction vector|direction]] [[orthogonality|perpendicular]] to the submanifold, with respect to a [[normal framing]];
+
+1. asymptotically, regarding all points outside a [[tubular neighbourhood]] as being [[one-point compactification|at infinity]].
+
+<center>
+<a href="https://arxiv.org/pdf/1909.12277.pdf#page=24">
+<img src="https://ncatlab.org/nlab/files/CohomotopyChargeAsymptoticDistance.jpg" width="630">
+</a>
+</center>
+
+For maximal codimension $n$, hence for 0-dimensioonal [[submanifolds]], hence for [[configuration space of points|configurations of points]], this is alternatively known as the "electric field map" ([Salvatore 01](cohomotopy+charge#Salvatore01) following [Segal 73, Section 1](cohomotopy+charge#Segal73), see also [Knudsen 18, p. 49](cohomotopy+charge#Knudsen18)) or the "scanning map" ([Kallel 98](cohomotopy+charge#Kallel98)).
+
+The [[homotopy class]] of the Thom collpase map may be regarded as the _[[Cohomotopy charge]]_ of the submanifolds, as measured in $n$-[[Cohomotopy]]-[[generalized cohomology|cohomology theory]].
+
+The PT collapse is a useful approximation to the would-be [[left inverse]] of the [[embedding of topological spaces]]
+
+As such, it is is used to define pushforward of [[cohomology]]-classes along $i$ ("[[Umkehr maps]]"). It also appears as the key step in [[Thom's theorem]].
 
 ## Definition
 
@@ -286,7 +304,11 @@ In particular, by this [[bijection]] the canonical [[group]] [[structure]] on [[
 
 ## References
 
-* [[Lev Pontryagin]], _Smooth manifolds and their applications in homotopy theory_. 1959 American Mathematical Society Translations, Ser. 2, Vol. 11 pp. 1–114 American Mathematical Society, Providence, R.I. ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/pont4.pdf), [arXiv:10.1142/9789812772107_0001](https://doi.org/10.1142/9789812772107_0001))
+
+* {#Thom54} [[René Thom]], _Quelques propri&#233;t&#233;s globales des vari&#233;t&#233;s diff&#233;rentiables_ Comment. Math. Helv. 28, (1954). 17-86 ([digiz:GDZPPN002056259](http://www.digizeitschriften.de/dms/img/?PID=GDZPPN002056259))
+
+* {#Pontrjagin55} [[Lev Pontrjagin]], _Smooth manifolds and their applications in Homotopy theory_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/pont4.pdf), [doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001))
+
 
 * {#Milnor65} [[John Milnor]], section 7 of _Topology -- From the differentiable viewpoint_, 1965 ([pdf](http://teachingdm.unito.it/paginepersonali/sergio.console/Dispense/Milnor%20Topology%20from%20%23681EA.pdf))
 
