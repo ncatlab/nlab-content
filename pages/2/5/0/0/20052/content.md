@@ -92,6 +92,8 @@ f_*\nu (U) \coloneqq \nu(f^{-1}(U)) .
 $$
 The assignment gives a well-defined valuation, which is continuous if $\nu$ is continuous. We call $f_*\nu$ the **pushforward valuation** of $\nu$ along $f$.
 
+Compare with the [[pushforward measure|analogous construction for measures]].
+
 This construction allows to makes the assignment [[functor]], which is even a [[monad]] (see [[monads of probability, measures and valuations#functor_ unit_and_multiplication|probability monads]] for more on this).
 
 
