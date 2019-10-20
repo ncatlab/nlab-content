@@ -24,23 +24,29 @@ $$
   \,.
 $$
 
+## As a functor
+
+The construction of pushforward measures is how one can make the [[Giry monad]], or other [[monads of measures]], functorial. Given a measurable (or continuous, etc.) map $f:X\to Y$, the pushforward gives a well-defined, measurable map $P X\to P Y$ (where $P$ denotes the [[Giry monad]]), making $P$ into a [[functor]].
+
+## Properties
+
+* The pushforward of a [[τ-additive measure]] along a [[continuous map]] is again τ-additive.
+
+* If a [[continuous valuation]] $\nu$ on a topological space $X$ is [[valuation (measure theory)#extending_valuations_to_measures|extendable to a measure]] $\nu$, its [[valuation (measure theory)#pushforward|pushforward (as a valuation)]] $f_*\mu$ along a [[continuous map]] $f:X\to Y$ is again extendable, and it extends to $f_*\nu$.
+
 ## Related concepts
+
+* [[Borel measure]], [[Radon measure]], [[τ-additive measure]]
+* [[monads of probability, measures, and valuations]]
+* [[Giry monad]]
 
 * [[conditional expectation]]
 
-* [[counting measure]]
 
-* [[Haar measure]]
 
-* [[Borel measure]]
 
-* [[Radon measure]]
 
-* [[Gaussian measure]]
 
-* [[spectral measure]]
-
-* [[Wiener measure]]
 
 
 ## References
