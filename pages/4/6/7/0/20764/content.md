@@ -42,7 +42,7 @@ Equivalently:
 ### As Yang-Mills instantons in heterotic string theory
  {#AsYangMillsInstantons}
 
-In ([[dual heterotic string theory|dual]]) [[heterotic string theory]] [[wrapped brane]]] [[NS5-branes]] are equivalently [[Yang-Mills instantons]] in the transversal [[Yang-Mills theory]]  ([Strominger 90](#Strominger90), [Witten 96, p. 10](#Witten96)) -- 
+In ([[dual heterotic string theory|dual]]) [[heterotic string theory]] [[wrapped brane|wrapped]] [[NS5-branes]] are equivalently [[Yang-Mills instantons]] in the transversal [[Yang-Mills theory]]  ([Strominger 90](#Strominger90), [Witten 96, p. 10](#Witten96)) -- 
 as is generally the case for  [[Dp-D(p+4)-brane bound states]]  (see [there](DpDpPlus4BraneBoundState#AsYangMillsInstantons)).
 
 ### As half NS5-branes in type I'
