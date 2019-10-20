@@ -116,3 +116,10 @@ $*$ See also [[monads of probability, measures, and valuations]].
 * {#vmonad} [[Steve Vickers]], _A monad of valuation locales_, 2011. [Link here](https://www.cs.bham.ac.uk/~sjv/Riesz.pdf).
 
 * {#vintegral} [[Steve Vickers]], _A localic theory of lower and upper integrals_, 2008. [Link here](https://onlinelibrary.wiley.com/doi/abs/10.1002/malq.200710028).
+
+[[!redirects correspondence between measures and valuations]]
+[[!redirects correspondence between measure theory and valuations]]
+[[!redirects correspondence between measure theory and valuation theory]]
+[[!redirects correspondence between valuations and measures]]
+[[!redirects correspondence between valuations and measure theory]]
+[[!redirects correspondence between valuation theory and measure theory]]
