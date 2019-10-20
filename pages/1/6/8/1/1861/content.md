@@ -85,7 +85,7 @@ As for any [[generalized cohomology theory]] there are immediate variants to pla
 ### As the absolute cohomology theory
  {#AsTheAbsoluteCohomologyTheory}
 
-In some sense Cohomotopy is the most fundamental of all [[generalized cohomology theories]].
+In some sense Cohomotopy is the most fundamental of all [[generalized cohomology theories]] ("[[The Music of the Spheres]]").
 
 Concretely, [[stable Cohomotopy cohomology theory]] is the [[initial object]] among [[multiplicative cohomology theories]], in that the [[sphere spectrum]] is the [[initial object in an (infinity,1)-category|initial object]] in ([[E-infinity ring|E-infinity]]) [[ring spectra]]. This means that for any other [[multiplicative cohomology theory|multiplicative]] [[generalized (Eilenberg-Steenrod) cohomology theory|cohomology theory]] $E$ there is an essentially unique multiplicative [[natural transformation]]  
 
