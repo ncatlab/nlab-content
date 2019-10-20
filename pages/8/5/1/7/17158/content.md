@@ -53,6 +53,10 @@ Modern [[equivariant stable homotopy theory]] makes contact between this kind of
 
 > For whatever it's worth, all these items come together in the _[[schreiber:Equivariant cohomology of M2/M5-branes]]_
 
+## Related concepts
+
+* [[Cohomotopy]]
+
 ## Refrences
 
 * Wikipedia, _[Musica universalis](https://en.wikipedia.org/wiki/Musica_universalis)_
