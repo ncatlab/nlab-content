@@ -25,24 +25,168 @@
 
 ## Idea
 
+### General
+
 _Cohomotopy cohomology theory_ $\pi^\bullet$ is the ([[non-abelian cohomology|non-abelian]]) [[generalized cohomology theory]] whose [[cocycle spaces]] are [[spaces of maps]] into an [[n-sphere]], hence whose [[cohomology classes]] are [[homotopy classes]] of [[maps]] into an [[n-sphere]]: 
 
 $$
-  \pi^n(X) \;\coloneqq\; \pi_0 Maps\big( X, S^n\big) 
+  \pi^n(X) \;\coloneqq\; Maps\big( X, S^n\big)/_{\sim_{homotopy}}
 $$
 
-So dually to how [[homotopy groups]] are groups of [[homotopy classes]] of maps out of [[spheres]], $\pi_n(X)\coloneqq [S^n \to X]$, Cohomotopy sets are sets of homotopy classes of maps _into_ spheres, $\pi^n(X) \coloneqq [X \to S^n]$, whence the name.
-
-If instead one considers mapping into the [[stabilization]] of the spheres, hence into (some [[suspension spectrum|suspension]] of) the [[sphere spectrum]], then one speaks of _[[stable Cohomotopy]]_
+So, dually to how [[homotopy groups]] 
 
 $$
-  \mathbb{S}(X) \;\coloneqq\; Maps(X , \Sigma^\infty S^0)
+  \pi_n(X)\coloneqq Maps\big( S^n, X\big)/_{\sim_{homotopy}}
+$$
+
+are [[groups]] of [[homotopy classes]] of maps _out_ of [[spheres]], Cohomotopy sets are sets of homotopy classes of maps _into_ spheres, whence the [[duality|dual]] name.
+
+If instead one considers only the [[stable homotopy theory|stable]] aspect of Cohomotopy sets, by mapping into the [[stabilization]] of the spheres, hence into (some [[suspension spectrum|suspension]] of) the [[sphere spectrum]], then one speaks of _[[stable Cohomotopy]]_, written
+
+$$
+  \mathbb{S}^n(X) 
+    \;\coloneqq\; 
+  Maps
+  \big(
+    X , \Sigma^{\infty} S^n
+  \big)/_{\sim_{homotopy}}
   \,.
 $$
 
 In other words, the [[generalized (Eilenberg-Steenrod) cohomology]] theory which is [[Brown representability theorem|represented]] by the [[sphere spectrum]] is _[[stable Cohomotopy]]_.
 
-In this vein, regarding terminology: the concept of [[cohomology]] (as discussed there) in the very general sense of [[non-abelian cohomology]], is about [[homotopy classes]] of maps _into_ any object $A$ (in some [[(∞,1)-topos]]). In this way, general non-abelian cohomology is sort of dual to homotopy, and hence might generally be called co-homotopy. This is the statement of _[[Eckmann-Hilton duality]]_. The duality between homotopy (groups) and co-homotopy proper may then be thought of as being the special case of this where $A$ is taken to be a sphere. 
++-- {: .num_remark #RemarkOnTerminology}
+###### Remark
+**(terminology)**
+
+Therefore "Cohomotopy theory" is really shorthand for "Cohomotopy cohomology theory" and as such is [[duality|dual]] to _homotopy homology theory_, which in the stable case is known as _[[stable homotopy homology theory]]_.
+
+In particular, cohomotopy theory is a [[concrete particular]] and not dual to the [[abstract general]] of [[homotopy theory]]; and is hence also not on par with the [[abstract general]] of [[cohomology theory]]. Rather, Cohomotopy theory is one _instance_ of a [[generalized cohomology|cohomologyy theory]], and as such is a sibling of [[ordinary cohomology theory]] ([[HR]]-theory)), [[K-theory]], etc.
+
+To emphasize this, one might, in the [[stable cohomotopy theory|stable case]], say _$\mathbb{S}$-theory_ instead of "stable Cohomotopy theory"; where $\mathbb{S}$ denotes the [[sphere spectrum]]. In the unstable case there is no widely adopted notation, but one might consider saying "$\mathbf{\pi}$-theory" (with $\pi$ the established symbol for (co)[[homotopy groups]]) or _$S$-theory_ (with "$S$" for [[n-spheres]] $S^n$) for unstable Cohomotopy theory.
+
+In any case, to highlight that Cohomotopy theory is a [[concrete particular]] and not an [[abstract general]], it makes good sense to capitalize the term and speak of _Cohomotopy cohomology theory_ or just _Cohomotopy theory_, for short.
+
+The following table indicates the pattern:
+
+| [[generalized cohomology theory]] |  [[generalized homology theory]] | [[classifying space]] | [[Brown representability theorem|representing]] [[spectrum]] |
+|--|--|--|--|
+| [[Cohomotopy theory]] <br/> ([[non-abelian cohomology|non-abelian]]) |  | [[n-sphere]] <br/> $S^n$ |  |
+| [[stable Cohomotopy theory]] <br/> ([[generalized (Eilenberg-Steenrod) cohomology theory|abelian]]) | [[stable homotopy homology theory]] | [[sphere spectrum]] <br/> $\mathbb{S}$  | $\,$ | [[sphere spectrum]] <br/> $\mathbb{S}$ |
+| [[ordinary cohomology]]: <br/> [[HR]]-[[generalized (Eilenberg-Steenrod) cohomology theory|cohomology theory]] |  [[ordinary homology]]: [[HR]]-[[generalized homology theory|homology theory]] | [[Eilenberg-MacLane space]] $K(R,n)$  |  [[Eilenberg-MacLane spectrum]] <br/> $H R$ | 
+| [[topological K-theory|K-cohomology theory]] | [[K-homology theory]] | [[stable unitary group]] <br/> [[stable unitary group|BU]]  | [[K-theory spectrum]] <br/> [[KU]], ... |
+
+=--
+
+As for any [[generalized cohomology theory]] there are immediate variants to plain Cohomotopy theory, as shown in the following table:
+
+[[!include flavours of cohomotopy -- table]]
+
+### As the absolute cohomology theory
+ {#AsTheAbsoluteCohomologyTheory}
+
+In some sense Cohomotopy is the most fundamental of all [[generalized cohomology theories]].
+
+Concretely, [[stable Cohomotopy cohomology theory]] is the [[initial object]] among [[multiplicative cohomology theories]], in that the [[sphere spectrum]] is the [[initial object in an (infinity,1)-category|initial object]] in ([[E-infinity ring|E-infinity]]) [[ring spectra]]. This means that for any other [[multiplicative cohomology theory|multiplicative]] [[generalized (Eilenberg-Steenrod) cohomology theory|cohomology theory]] $E$ there is an essentially unique multiplicative [[natural transformation]]  
+
+\[
+  \label{BoardmanHomomorphism}
+  \mathbb{S}^\bullet(X)
+  \overset{\beta(X)}{\longrightarrow}
+  E^\bullet(X)
+\]
+
+from Cohomotopy cohomology groups to $E$-cohomology groups -- the _[[Boardman homomorphism]]_.
+
+Specifically for $E = K \mathbb{F}$ the [[algebraic K-theory]] of a [[field]] $\mathbb{F}$ (such as a [[prime field]] $\mathbb{F}_p$) there is such a comparison morphism; and another way how stable Cohomotopy is the most fundamental of all K-theories is that it is equivalently the [[algebraic K-theory]] over the "absolute base", namely over the "[[field with one element]]" $\mathbb{F}_1$ (see [there](stable+cohomotopy#AsAlgebraicKTheoryOverTheFieldWithOneElement) for more):
+
+$$
+  \mathbb{S}^\bullet(X) 
+  \;\simeq\;
+  K\mathbb{F}_1 ^ \bullet(X)
+  \,.
+$$
+
+For example, for $E = $ [[KU]] and in the case of $G$-[[equivariant cohomology theory]] ([[equivariant Cohomotopy theory]] and [[equivariant K-theory]]) the [[Boardman homomorphism]] (eq:BoardmanHomomorphism) gives the comparison map
+
+$$
+  \mathbb{S}^0_G(\ast)
+  \simeq
+  R_{\mathbb{F}_1}(G)
+  \simeq
+  A(G)
+  \overset{\mathbb{C}[-]}{\longrightarrow}
+  R_{\mathbb{C}}(G)
+  \simeq
+  KU^0_G(\ast)
+$$
+
+from the [[Burnside ring]] to the [[representation ring]] of the [[finite group]] $G$, by forming [[permutation representations]]; where we may think of the [[Burnside ring]] as being the [[representation ring]] over the "[[field with one element]]" (see e.g. [Chu-Lorscheid-Santhanam 10](field+with+one+element#ChuLorscheidSanthanam10)), as indicated above.
+
+So far, this applies to [[stable Cohomotopy theory]], which historically has received almost all the attention. But, while [[stabilization]]  makes the immensely rich nature of [[homotopy theory]] a tad more tractable, it is only an approximation (just the first [[Goodwillie calculus|Goodwillie derivative]]!) of full unstable/[[non-abelian cohomology]].
+Hence the one concept more fundamental than stable Cohomotopy theory is actual Cohomotopy theory.
+
+For example, the classification of [[Yang-Mills instantons]] on $\mathbb{R}^4$ is typically regarded in the [[non-abelian cohomology]] theory represented by the [[classifying space]] $B SU(N)$ of the [[special unitary group]] (for $N \geq 2$, starting with [[SU(2)]])
+
+$$
+  (B SU(N))^0
+  \Big(
+    \big(
+      \mathbb{R}^{4}
+    \big)^{cpt}
+  \Big)
+  \;\coloneqq\;
+  \Big\{ 
+    \big(
+      \mathbb{R}^{4}
+    \big)^{cpt}
+    \to
+    B SU(N)
+  \Big\}/_{\sim_{homotopy}}
+  \;\simeq\;
+  \underset{
+    \mathclap{
+    \color{blue}
+    {\text{instanton} \atop \text{number}}
+    }
+  }{
+    \mathbb{Z}
+  }
+  \,.
+$$
+
+But since the [[one-point compactification]] of 4d [[Euclidean space]] is the [[4-sphere]] $\big( \mathbb{R}^4\big)^{cpt} \simeq S^4$, this classification factors through one in unstable Cohomotopy theory, via the "unstable Boardman homomorphism" $S^4 \longrightarrow B SU(N)$ representing the generator of the 4th [[homotopy group]] of $B SU(N)$ (see [there](unitary+group#HomotopyGroups))
+
+$$
+  \pi^0
+  \Big(
+    \big(
+      \mathbb{R}^{4}
+    \big)^{cpt}
+  \Big)
+  \;\coloneqq\;
+  \Big\{ 
+    \big(
+      \mathbb{R}^{4}
+    \big)^{cpt}
+    \to
+    S^4
+  \Big\}/_{\sim_{homotopy}}
+  \;\simeq\;
+  \underset{
+    \mathclap{
+    \color{blue}
+    {\text{instanton} \atop \text{number}}
+    }
+  }{
+    \mathbb{Z}
+  }
+  \,.
+$$
+
+(see [SS 19, p. 9-10](#SatiSchreiber19)) This is the tip of an iceberg. Which needs to be discussed elsewhere.
+
+\linebreak
 
 ## Properties
 
@@ -557,15 +701,19 @@ and in terms of [[twisted cohomotopy]]:
 * {#SatiSchreiber19} [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[schreiber:Equivariant Cohomotopy implies orientifold tadpole cancellation]]_ ([arXiv:1909.12277](https://arxiv.org/abs/1909.12277))
 
 
+[[!redirects Cohomotopy]]
+
+[[!redirects cohomotopy theory]]
+[[!redirects Cohomotopy theory]]
 
 [[!redirects cohomotopy group]]
 [[!redirects cohomotopy groups]]
+[[!redirects Cohomotopy group]]
+[[!redirects Cohomotopy groups]]
 
-[[!redirects Cohomotopy]]
 
 [[!redirects cohomotopy cohomology ]]
 [[!redirects cohomotopy cohomology theory]]
-
 [[!redirects Cohomotopy cohomology ]]
 [[!redirects Cohomotopy cohomology theory]]
 
