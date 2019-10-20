@@ -50,3 +50,7 @@ See also
 * Wikipedia, _[Pushforward measure](https://en.wikipedia.org/wiki/Pushforward_measure)_
 
 [[!redirects pushforward measures]]
+[[!redirects push-forward measure]]
+[[!redirects push-forward measures]]
+[[!redirects image measure]]
+[[!redirects image measures]]
