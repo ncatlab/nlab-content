@@ -91,6 +91,8 @@ Doberkat focused on the Giry monad on the category of Polish spaces. A further q
 
 ## Related constructions
 
+See also [[monads of probability, measures, and valuations]].
+
 ### Voevodsky's work
 
 [[Vladimir Voevodsky]] has also worked on a category theoretic treatment of [[probability theory]], and gave few talks on this at IHES, Miami, in Moscow etc. Voevodsky had in mind applications in [[mathematical biology]], for example, population genetics: 
@@ -121,6 +123,15 @@ Panangaden emphasises that the mechanism is similar to the way that the category
 What is gained by the move from probability measures to subprobability measures? One motivation seems to be to model probabilistic processes from $X$ to a [[coproduct]] $X + Y$. This you can iterate to form a process which looks to see where in $Y$ you eventually end up. This relates to $SRel$ being traced.
 
 There is a [[monad]] on $MeasureSpaces$, $1 + -: Meas \to Meas$. A probability measure on $1 + X$ is a subprobability measure on $X$. Panangaden's monad is a composite of Giry's and $1 + -$.
+
+
+## Related concepts
+
+* [[monads of probability, measures, and valuations]]
+* [[measure]], [[probability measure]], [[pushforward measure]]
+* [[measure theory]], [[probability theory]], [[random variable]]
+* [[Radon monad]], [[distribution monad]], [[probabilistic powerdomain]], [[extended probabilistic powerdomain]]
+
 
 ## References
 
