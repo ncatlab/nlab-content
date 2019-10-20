@@ -63,7 +63,7 @@ See [the table below](#detailed_list) for more details.
   <th markdown="1">[[Giry monad]]</th>
   <td markdown="1">[[Meas]]</td>
   <td markdown="1">[[probability measures]]</td>
-  <td markdown="1">Initial [[σ-algebra]] of evaluation maps</td>
+  <td markdown="1">initial [[σ-algebra]] of evaluation maps</td>
   <td markdown="1">...</td>
   <td markdown="1">...</td>
  </tr>
@@ -71,7 +71,7 @@ See [the table below](#detailed_list) for more details.
   <th markdown="1">[[Giry monad]]</th>
   <td markdown="1">[[Pol]]</td>
   <td markdown="1">[[Borel measure|Borel probability measures]]</td>
-  <td markdown="1">Initial topology of integration maps</td>
+  <td markdown="1">[[initial topology]] of integration maps</td>
   <td markdown="1">...</td>
   <td markdown="1">...</td>
  </tr>
@@ -79,23 +79,23 @@ See [the table below](#detailed_list) for more details.
   <th markdown="1">[[Radon monad]]</th>
   <td markdown="1">[[compactum#category_of_compacta|Comp]]</td>
   <td markdown="1">[[Radon measure|Radon probability measures]]</td>
-  <td markdown="1">Weak topology w.r.t. continuous functions</td>
+  <td markdown="1">[[weak topology]] w.r.t. continuous functions</td>
   <td markdown="1">...</td>
   <td markdown="1">...</td>
  </tr>
  <tr>
-  <th markdown="1">[[Ordered Radon monad]]</th>
-  <td markdown="1">[[Compact ordered spaces]]</td>
+  <th markdown="1">(ordered) [[Radon monad]]</th>
+  <td markdown="1">[[compact ordered spaces]]</td>
   <td markdown="1">[[Radon measure|Radon probability measures]]</td>
-  <td markdown="1">Weak topology w.r.t. continuous functions, [[stochastic order]]</td>
+  <td markdown="1">[[weak topology]] w.r.t. continuous functions, [[stochastic order]]</td>
   <td markdown="1">...</td>
   <td markdown="1">...</td>
  </tr>
  <tr>
-  <th markdown="1">[[extended probabilistic powerdomain#the_monad_of_measures_on_top|monad of measures on Top]]</th>
+  <th markdown="1">[[extended probabilistic powerdomain#the_measure_monad_on_top|measure monad on Top]]</th>
   <td markdown="1">[[Top]]</td>
   <td markdown="1">[[τ-additive measures]]</td>
-  <td markdown="1">[[extended probabilistic powerdomain#the_monad_of_measures_on_top|A-topology]], [[stochastic order]]</td>
+  <td markdown="1">[[extended probabilistic powerdomain#the_measure_monad_on_top|A-topology]], [[stochastic order]]</td>
   <td markdown="1">...</td>
   <td markdown="1">...</td>
  </tr>
@@ -116,27 +116,27 @@ See [the table below](#detailed_list) for more details.
   <td markdown="1">...</td>
  </tr>
  <tr>
-  <th markdown="1">[[Valuation monad]]</th>
+  <th markdown="1">[[valuation monad on locales]]</th>
   <td markdown="1">[[Loc]]</td>
   <td markdown="1">[[continuous valuations]]</td>
-  <td markdown="1">initial topology of evaluation maps</td>
+  <td markdown="1">[[initial topology]] of evaluation maps</td>
   <td markdown="1">...</td>
   <td markdown="1">...</td>
  </tr>
  <tr>
   <th markdown="1">[[Kantorovich monad]]</th>
-  <td markdown="1">[[Cauchy-complete|Complete]] [[metric spaces]]</td>
+  <td markdown="1">[[Cauchy-complete|complete]] [[metric spaces]]</td>
   <td markdown="1">[[Radon measure|Radon probability measures]] of finite first moment</td>
   <td markdown="1">[[Kantorovich-Wasserstein metric]]</td>
-  <td markdown="1">Closed [[convex subsets]] of [[Banach spaces]]</td>
+  <td markdown="1">closed [[convex subsets]] of [[Banach spaces]]</td>
   <td markdown="1">...</td>
  </tr>
  <tr>
-  <th markdown="1">(Ordered) [[Kantorovich monad]]</th>
-  <td markdown="1">[[Cauchy-complete|Complete]] [[L-ordered]] [[metric spaces]]</td>
+  <th markdown="1">(ordered) [[Kantorovich monad]]</th>
+  <td markdown="1">[[Cauchy-complete|complete]] [[L-ordered]] [[metric spaces]]</td>
   <td markdown="1">[[Radon measure|Radon probability measures]] of finite first moment</td>
   <td markdown="1">[[Kantorovich-Wasserstein metric]], [[stochastic order]]</td>
-  <td markdown="1">Closed [[convex subsets]] of [[ordered Banach spaces]]</td>
+  <td markdown="1">closed [[convex subsets]] of [[ordered Banach spaces]]</td>
   <td markdown="1">...</td>
  </tr>
  <tr>
@@ -144,7 +144,7 @@ See [the table below](#detailed_list) for more details.
   <td markdown="1">[[Set]]</td>
   <td markdown="1">[[convex combinations]] or finitely-[[support#in_measure_theory|supported]] [[probability measures]]</td>
   <td markdown="1">(just a set)</td>
-  <td markdown="1">[[convex spaces|Convex spaces]]</td>
+  <td markdown="1">[[convex spaces]]</td>
   <td markdown="1">...</td>
  </tr>
  <tr>
@@ -152,7 +152,7 @@ See [the table below](#detailed_list) for more details.
   <td markdown="1">[[Set]]</td>
   <td markdown="1"> countable [[convex combinations]] or countably-[[support#in_measure_theory|supported]] [[probability measures]]</td>
   <td markdown="1">(just a set)</td>
-  <td markdown="1">[[Hyperconvex spaces]]</td>
+  <td markdown="1">[[hyperconvex spaces]]</td>
   <td markdown="1">...</td>
  </tr>
 </table>
