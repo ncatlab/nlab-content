@@ -2,7 +2,12 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_Atiyah)
 
-## Some publications
+
+* [[Alain Connes]], Joseph Kouneiher, _Sir Michael Atiyah, a Knight Mathematician A tribute to Michael Atiyah, an inspiration and a friend_ ([arxiv:1910.07851](https://arxiv.org/abs/1910.07851))
+
+
+## Selected writings
+
 
 On [[moment maps]] and [[equivariant de Rham cohomology]]
 
