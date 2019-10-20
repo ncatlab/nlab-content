@@ -65,6 +65,7 @@ The following graphics illustrates the [[Cohomotopy charge map]] of the pair cre
 
 > graphics grabbed from [SS 19](cohomotopy+charge#SatiSchreiber19)
 
+(See also at _[[Cohomotopy charge]] -- [For charged points](Cohomotopy+charge#ForChargedPoints)_.)
 
 ## Related concepts
 
