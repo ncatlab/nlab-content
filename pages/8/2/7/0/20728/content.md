@@ -92,6 +92,38 @@ See [the table below](#detailed_list) for more details.
   <td markdown="1">...</td>
  </tr>
  <tr>
+  <th markdown="1">[[extended probabilistic powerdomain#the_monad_of_measures_on_top|monad of measures on Top]]</th>
+  <td markdown="1">[[Top]]</td>
+  <td markdown="1">[[τ-additive]] [[probability measures]]</td>
+  <td markdown="1">[[extended probabilistic powerdomain#the_monad_of_measures_on_top|A-topology]], [[stochastic order]]</td>
+  <td markdown="1">...</td>
+  <td markdown="1">...</td>
+ </tr>
+ <tr>
+  <th markdown="1">[[probabilistic powerdomain]]</th>
+  <td markdown="1">[[dcpo]]</td>
+  <td markdown="1">[[continuous valuations]]</td>
+  <td markdown="1">[[stochastic order]]</td>
+  <td markdown="1">...</td>
+  <td markdown="1">...</td>
+ </tr>
+ <tr>
+  <th markdown="1">[[extended probabilistic powerdomain]]{#extprobpow}</th>
+  <td markdown="1">[[Top]]</td>
+  <td markdown="1">[[continuous valuations]]</td>
+  <td markdown="1">[[extended probabilistic powerdomain#spaces_of_valuations|initial topology of evaluation maps]], [[stochastic order]]</td>
+  <td markdown="1">...</td>
+  <td markdown="1">...</td>
+ </tr>
+ <tr>
+  <th markdown="1">[[Valuation monad]]</th>
+  <td markdown="1">[[Loc]]</td>
+  <td markdown="1">[[continuous valuations]]</td>
+  <td markdown="1">initial topology of evaluation maps</td>
+  <td markdown="1">...</td>
+  <td markdown="1">...</td>
+ </tr>
+ <tr>
   <th markdown="1">[[Kantorovich monad]]</th>
   <td markdown="1">[[Cauchy-complete|Complete]] [[metric spaces]]</td>
   <td markdown="1">[[Radon measure|Radon probability measures]] of finite first moment</td>
@@ -108,31 +140,7 @@ See [the table below](#detailed_list) for more details.
   <td markdown="1">...</td>
  </tr>
  <tr>
-  <th markdown="1">[[extended probabilistic powerdomain#the_monad_of_measures_on_top|monad of measures on Top]]</th>
-  <td markdown="1">[[Top]]</td>
-  <td markdown="1">[[τ-additive]] [[probability measures]]</td>
-  <td markdown="1">initial topology of evaluation maps ("A-topology"), [[stochastic order]]</td>
-  <td markdown="1">...</td>
-  <td markdown="1">...</td>
- </tr>
- <tr>
-  <th markdown="1">[[probabilistic powerdomain]]</th>
-  <td markdown="1">[[dcpo]]</td>
-  <td markdown="1">[[continuous valuations]]</td>
-  <td markdown="1">[[stochastic order]]</td>
-  <td markdown="1">...</td>
-  <td markdown="1">...</td>
- </tr>
- <tr>
-  <th markdown="1">[[extended probabilistic powerdomain]]{#extprobpow}</th>
-  <td markdown="1">[[Top]]</td>
-  <td markdown="1">[[continuous valuations]]</td>
-  <td markdown="1">initial topology of evaluation maps, [[stochastic order]]</td>
-  <td markdown="1">...</td>
-  <td markdown="1">...</td>
- </tr>
- <tr>
-  <th markdown="1">[[Distribution monad]] (a.k.a. finitary Giry monad, convex combination monad)</th>
+  <th markdown="1">[[distribution monad]] (a.k.a. finitary Giry monad, convex combination monad)</th>
   <td markdown="1">[[Set]]</td>
   <td markdown="1">[[convex combinations]] or finitely-[[support#in_measure_theory|supported]] [[probability measures]]</td>
   <td markdown="1">(just a set)</td>
@@ -140,19 +148,11 @@ See [the table below](#detailed_list) for more details.
   <td markdown="1">...</td>
  </tr>
  <tr>
-  <th markdown="1">[[Infinitary distribution monad]] (a.k.a. countable convex combination monad)</th>
+  <th markdown="1">[[infinitary distribution monad]] (a.k.a. countable convex combination monad)</th>
   <td markdown="1">[[Set]]</td>
   <td markdown="1"> countable [[convex combinations]] or countably-[[support#in_measure_theory|supported]] [[probability measures]]</td>
   <td markdown="1">(just a set)</td>
   <td markdown="1">[[Hyperconvex spaces]]</td>
-  <td markdown="1">...</td>
- </tr>
- <tr>
-  <th markdown="1">[[Valuation monad]]</th>
-  <td markdown="1">[[Loc]]</td>
-  <td markdown="1">[[continuous valuations]]</td>
-  <td markdown="1">initial topology of evaluation maps</td>
-  <td markdown="1">...</td>
   <td markdown="1">...</td>
  </tr>
 </table>
