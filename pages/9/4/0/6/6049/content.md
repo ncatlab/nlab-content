@@ -188,7 +188,10 @@ In general, some of the NS5 sit away from the [[O8-plane]], while some sit on to
 > graphics grabbed from [Apruzzi-Fazzi 17, p. 18](#ApruzziFazzi17)
 
 
+The lift to [[M-theory]] under [[duality between M-theory and heterotic string theory]] is the [[half M5-brane]]. 
+
 See also at _[[intersecting D-brane models]]_ the section _[Intersection of D6s with O8s](intersecting+D-brane+model#IntersectionOfD6WithO8)_.
+
 
 
 
