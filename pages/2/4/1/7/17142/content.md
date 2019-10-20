@@ -1318,6 +1318,8 @@ The first condition is guaranteed by [[Sard's theorem]], the second by [[Thom's 
 
 * [[Thom's transversality theorem]]
 
+* [[Cohomotopy cohomology theory]], [[Cohomotopy charge]]
+
 ## References
 
 Due to 
