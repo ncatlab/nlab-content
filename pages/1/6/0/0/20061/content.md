@@ -91,7 +91,7 @@ Note that on many topological spaces of interest, such as [[metric spaces]], mos
  <tr>
   <th markdown="1">[[monad|Monad]]*</th>
   <td>[[Giry monad]]</td>
-  <td>[[extended probabilistic powerdomain##the_monad_of_measures_on_top|monad of measures on Top]]</td>
+  <td>[[extended probabilistic powerdomain##the_measure_monad_on_top|measure monad on Top]]</td>
   <td>[[valuation monad on locales]]</td>
  </tr>
 </table>
