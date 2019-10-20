@@ -228,7 +228,7 @@ For $X$ a [[compact topological space|compact]] [[smooth manifold]], there is a 
 ### PT-Construction and normally framed submanifolds
   {#RelationToCobordismGroup}
 
-For $X$ a [[closed manifold|closed]] [[smooth manifold]] of [[dimension]] $D$, the [[Pontryagin-Thom construction]] (e.g. [Kosinski 93, IX.5](#Kosinski93)) identifies the [[set]] 
+For $X$ a [[closed manifold|closed]] [[smooth manifold]] of [[dimension]] $D$, the assignment of [[Cohomotopy charge]] ([[Pontryagin-Thom construction]], e.g. [Kosinski 93, IX.5](#Kosinski93)) identifies the [[set]] 
 
 $$
   SubMfd_{/bord}^{d}(X)
