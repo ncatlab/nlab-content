@@ -6,7 +6,7 @@ Pontrjagin was a full member of the (Soviet) Academy of Sciences. He was blind s
 
 ## Selected writings
 
-ON [[smooth manifolds]] in [[homotopy theory]]:
+ON [[smooth manifolds]] in [[homotopy theory]] ([[Thom collapse]]/[[Cohomotopy charge]], [[cobordisms]]):
 
 * [[Lev Pontryagin]], _Smooth manifolds and their applications in homotopy theory_, 1959 American Mathematical Society Translations, Ser. 2, Vol. 11 pp. 1–114 American Mathematical Society, Providence, R.I. ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/pont4.pdf), [arXiv:10.1142/9789812772107_0001](https://doi.org/10.1142/9789812772107_0001))
 
