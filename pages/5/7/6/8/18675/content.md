@@ -31,7 +31,10 @@ Beware that there are also the [[antifields]] of the [[ghost fields]], which tec
 
 ## References
 
-Named after [[Benny Lautrup]] and some Nakanishi who is sometimes misspelled as "Takanishi".
+Named after [[Benny Lautrup]] and Noburo Nakanishi, who is sometimes misspelled as "Takanishi".
+
+* Noburo Nakanishi, _Covariant quantization of the electromagnetic Field in the Landau Gauge_, Prog. Theor. Phys. 35, 1111 (1966)
+* Benny Lautrup, _Canonical quantum electrodynamics in covariant gauges_, Kong. Dan. Vid. Sel. Mat. Fys. Med. 35, 29 (1967)
 
 Review for the case of [[electromagnetism]] and with [[path integral]] terminology is in
 
