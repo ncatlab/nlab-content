@@ -18,9 +18,9 @@
 
 There are two types of [[black brane]] solutions in [[11-dimensional supergravity]], one of dimension $2+1$, one of dimension 5+1. These are thought to correspond to a fundamental 2-brane and its [[electric-magnetic duality|EM dual]], called the
 
-* [[M2-brane]]
+* [[M2-brane]] ([[fractional M2-brane]])
 
-* [[M5-brane]]
+* [[M5-brane]] ([[half M5-brane]])
 
 * [[MK6-brane]]
 
@@ -41,6 +41,7 @@ The M2-brane carries [[electric charge]] under the [[supergravity C-field]]. The
 * [[anti M-brane]]
 
 * [[M2-M5 brane bound state]]
+
 
 [[!include table of branes]]
 
