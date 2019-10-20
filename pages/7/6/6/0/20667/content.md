@@ -20,6 +20,7 @@
 ## Properties
 
 ### As Yang-Mills instantons in the Chan-Paton gauge field
+ {#AsYangMillsInstantons}
 
 Due to the [[higher WZW term]] $\propto \int_{D_{p+4}} C_{p+1} \wedge \langle F \wedge F \rangle$ in the [[Green-Schwarz sigma model]] for [[D-brane|D(p+4)-branes]], [[Yang-Mills instantons]] in the [[Chan-Paton gauge field]] on $D (p+4)$-branes are equivalently [[Dp-D(p+4)-brane bound states]] (see e.g. [Polchinski 96, 5.4](#Polchinski96), [Tong 05, 1.4](#Tong05)).
 
@@ -97,5 +98,7 @@ Discussion as [[half M5-branes]]:
 
 [[!redirects Dp-D(p+4) brane bound state]]
 [[!redirects Dp-D(p+4) brane bound states]]
+
+[[!redirects DpDpPlus4BraneBoundState]]
 
 
