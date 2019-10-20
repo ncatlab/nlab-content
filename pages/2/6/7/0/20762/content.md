@@ -25,11 +25,27 @@ The idea of this monad was first given by Kirch for the case of [[domains]] (see
 
 ### Spaces of valuations
 
-Given a [[topological space]] $X$, denote by $V X$ the space whose points are [[continuous valuations]] on $X$ with values in $[0,\infty]$, and whose [[topology]] is [[topological basis|generated]] by the sets in the form
+Given a [[topological space]] $X$, denote by $V X$ the space whose points are [[continuous valuations]] on $X$ with values in $[0,\infty]$. Equip $V X$ with the [[topology]] [[topological basis|generated]] by the sets in the form
 $$
 \theta(U,r) \coloneqq \{ \nu \in V X \,|\, \nu(U) \gt r \},
 $$
-for $r\ge 0$ and $U\subseteq X$ [[open]]. 
+for $r\ge 0$ and $U\subseteq X$ [[open]], or equivalently by the sets in the form
+$$
+\Theta(g,r) \coloneqq \left\{ \nu \in V X \,\Big|\, \int g \,d\nu \gt r \right\}
+$$
+for $r\ge 0$ and $g:X\to[0,\infty]$ [[lower semicontinuous]].
+
+This topology can be seen as the [[pointwise topology]] if we view valuations either as functions on the [[open sets]] or as [[functionals]] on lower semicontinuous functions (via [[continuous valuation#integration|integration]]).
+It is also the [[initial topology]] of either evaluation of open sets or integration of functions, meaning that it is the coarsest topology for which either the assignments
+$$
+\nu \mapsto \nu(U)
+$$
+for every open $U\subseteq X$, or 
+$$
+\nu \mapsto \int g \, d\nu 
+$$
+for every lower semicontinuous $g:X\to[0,\infty]$, are lower semicontinuous.
+Lower semicontinuity, in some sense, plays the role that [[measurable function|measurability]] plays for the [[Giry monad]] (see also [[correspondence between measure and valuation theory]]).
 
 The [[specialization preorder]] of this topology is known as the [[stochastic order]], and can be seen as the [[pointwise order]] of valuations as functions on the open sets. 
 
@@ -77,10 +93,10 @@ See also [[monads of probability, measures, and valuations#detailed_list|monads 
 If one restricts to _normalized_ valuations, i.e.~those $\nu\in V X$ with $\nu(X)=1$, one obtains a submonad of $V$ which can be thought of as the one of [[probability]] valuations. 
 
 
-### The monad of measures on Top
+### The measure monad on Top
 
-One can restrict $V$ only to those valuations which are [[valuation (measure theory)#extending_valuations_to_measures|extendable to measures]]. The resulting subspace $M X\subseteq V X$ (for every topological space $X$) is the space of [[tau-additive measures]] on $X$, with the subspace topology inherited by $V X$. For probability measure, this topology is sometimes known as the **A-topology**, after Alexandrov (not to be confused with the [[Alexandrov topology]], which is a different concept). The [[specialization preorder]] is again the [[stochastic order]]. 
-Since extendable valuations are stable with respect to pushforwards and integrations $M$ forms a submonad of $V$, the **monad of measures on [[Top]]**.
+One can restrict $V$ only to those valuations which are [[valuation (measure theory)#extending_valuations_to_measures|extendable to measures]]. The resulting subspace $M X\subseteq V X$ (for every topological space $X$) is the space of [[tau-additive measures]] on $X$, with the subspace topology inherited by $V X$. For probability measures, this topology is sometimes known as the **A-topology**, after Alexandrov (not to be confused with the [[Alexandrov topology]], which is a different concept), for example in [Bogachev, section 8.10.iv](#bogachev2). The [[specialization preorder]] is again the [[stochastic order]]. 
+Since extendable valuations are stable with respect to pushforwards and integrations, $M$ forms a submonad of $V$, the **measure monad on [[Top]]**.
 
 More details can be found in [Fritz-Perrone-Rezagholi '19](#support), worked out explicitly for the normalized case (see below). 
 
@@ -88,9 +104,9 @@ See also [[correspondence between measure and valuation theory]].
 
 ### The probability monad on Top
 
-If one restricts the previous monad to the $\tau$-smooth _probability_ measures (i.e. normalized), one obtains again a submonad, which seems to be the most general [[monad of probability measures]] on [[Top]]. 
+If one restricts the measure monad above to the $\tau$-smooth _probability_ measures (i.e. normalized), one obtains again a submonad, which seems to be the most general [[probability monad]] on [[Top]]. 
 
-If a topological space is [[Tychonoff space|Tychonoff]] (for example a [[metric spaces]] or a [[compactum|compact Hausdorff space]]), the A-topology for probability measures coincides with the usual [[weak topology]] of measures with respect to continuous functions. 
+If a topological space is [[Tychonoff space|Tychonoff]] (for example a [[metric space]] or a [[compactum|compact Hausdorff space]]), the A-topology for probability measures coincides with the usual [[weak topology]] of measures with respect to continuous functions. 
 In particular, on the [[subcategory]] of [[compactum|compact Hausdorff spaces]], this monad restricts to the [[Radon monad]]. 
 
 ### The monad of topological cones
@@ -128,6 +144,9 @@ If one further restricts to _normalized_ simple valuations, one obtains as submo
 ([doi:10.1016/j.entcs.2019.07.015](https://doi.org/10.1016/j.entcs.2019.07.015))
 
 * {#support} [[Tobias Fritz]], Paolo Perrone and Sharwin Rezagholi, _Probability, valuations, hyperspace: Three monads on Top and the support as a morphism_, 2019 ([arXiv:1910.03752](https://arxiv.org/abs/1910.03752))
+
+
+* {#bogachev2} V. Bogachev, _Measure Theory_, vol. 2 (2007).
 
 
 [[!redirects extended probabilistic powerdomain]]
