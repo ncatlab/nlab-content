@@ -262,10 +262,14 @@ A lift of [[Seiberg-Witten invariants]] to classes in [[circle group]]-[[equivar
 * _A stable cohomotopy refinement of Seiberg-Witten invariants: II_ ([arXiv:math/0204267](http://arxiv.org/abs/math/0204267))
 
 
-[[!redirects stable cohomotopy theory]]
-
 [[!redirects stable Cohomotopy]]
+
+
+[[!redirects stable cohomotopy theory]]
+[[!redirects stable Cohomotopy theory]]
 
 [[!redirects stable cohomotopy cohomology theory]]
 [[!redirects stable Cohomotopy cohomology theory]]
+
+
 
