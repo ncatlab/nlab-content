@@ -228,6 +228,9 @@ Often this is interpreted as saying that "a Yang-Mills instanton describes the [
 
 Due to the [[higher WZW term]] $\propto \int_{D_{p+4}} C_{p+1} \wedge \langle F \wedge F \rangle$ in the [[Green-Schwarz sigma model]] for [[D-brane|D(p+4)-branes]], [[Yang-Mills instantons]] in the [[Chan-Paton gauge field]] on $D (p+4)$-branes are equivalently [[Dp-D(p+4)-brane bound states]] (see e.g. [Polchinski 96, 5.4](#Polchinski96), [Tong 05, 1.4](#Tong05)).
 
+The lift to [[M-theory]] as [[M5-MO9 brane bound states]] is due to [Strominger 90](#Strominger90), [Witten 96](#Witten96).
+
+[[!include Dp-D(p+4)-brane bound states -- contents]]
 
 ## Examples
 
@@ -336,9 +339,14 @@ is a discussion of Yang-Mills instantons on a 7-dimensional [[manifold with spec
 
 The argument that [[Yang-Mills instantons]] in the [[Chan-Paton gauge field]] on a [[D-brane|D(p+4)-brane]] are equivalent to [[Dp-D(p+4) brane bound states]] goes back to 
 
-* [[Edward Witten]], _Small Instantons in String Theory_,  	Nucl. Phys. B460:541-559, 1996 ([arXiv:hep-th/9511030](https://arxiv.org/abs/hep-th/9511030))
+* {#Witten96} [[Edward Witten]], _Small Instantons in String Theory_, Nucl. Phys. B460:541-559, 1996 ([arXiv:hep-th/9511030](https://arxiv.org/abs/hep-th/9511030))
 
 * [[Michael Douglas]], _Gauge Fields and D-branes_, J. Geom. Phys. 28 (1998) 255-262 ([arXiv:hep-th/9604198](https://arxiv.org/abs/hep-th/9604198))
+
+following
+
+* {#Strominger90} [[Andrew Strominger]], _Heterotic solitons_, Nucl. Phys. B343 (1990) 167-184 (<a href="https://doi.org/10.1016/0550-3213(90)90599-9">doi:10.1016/0550-3213(90)90599-9</a>) Erratum: Nucl. Phys. B353 (1991) 565-565 (<a href="https://doi.org/10.1016/0550-3213(91)90349-3">doi:10.1016/0550-3213(91)90349-3</a>) ([spire:27900](http://inspirehep.net/record/27900))
+
 
 
 Review is in:
