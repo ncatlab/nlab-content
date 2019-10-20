@@ -52,7 +52,7 @@ Every [[Radon measure]] on a [[Hausdorff space]] is $\tau$-additive. This includ
 
 ### Monad structure
 
-One can form a [[monad of measures]] analogous to the [[Giry monad]], whose functor part assigns to a topological space the space of $\tau$-additive measures over it. This monad is a submonad of the [[extended probabilistic powerdomain]]. See [[extended probabilistic powerdomain#the_monad_of_measures_on_top|the monad of measures on Top]] for more details.
+One can form a [[measure monad]] analogous to the [[Giry monad]], whose functor part assigns to a topological space the space of $\tau$-additive measures over it. This monad is a submonad of the [[extended probabilistic powerdomain]]. See [[extended probabilistic powerdomain#the_measure_monad_on_top|the measure monad on Top]] for more details.
 
 
 ### Null sets and support 
@@ -90,6 +90,10 @@ See also: [[valuation (measure theory)#extending_valuations_to_measures|Extendin
 * V. Bogachev, _Measure Theory_, vol. 2 (2007).
 
 [[!redirects tau-additive measures]]
+[[!redirects tau-regular measure]]
+[[!redirects tau-regular measures]]
+[[!redirects tau-smooth measure]]
+[[!redirects tau-smooth measures]]
 [[!redirects τ-additive measure]]
 [[!redirects τ-additive measures]]
 [[!redirects τ-smooth measure]]
@@ -111,3 +115,12 @@ See also: [[valuation (measure theory)#extending_valuations_to_measures|Extendin
 [[!redirects $\tau$-regular measure]]
 [[!redirects $\tau$-regular measures]]
 [[!redirects $\tau$-regular]]
+[[!redirects tau-additivity]]
+[[!redirects tau-smoothness]]
+[[!redirects tau-regularity]]
+[[!redirects τ-additivity]]
+[[!redirects τ-smoothness]]
+[[!redirects τ-regularity]]
+[[!redirects $\tau$-additivity]]
+[[!redirects $\tau$-smoothness]]
+[[!redirects $\tau$-regularity]]
