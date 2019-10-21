@@ -157,6 +157,10 @@ Discussion in the context of [[M-theory on G2-manifolds]]:
 
   which suggests that including [[higher curvature corrections]] makes it work
 
+
+* Iosif Bena, Alex Buchel, Severin Lüst, _Throat destabilization (for profit and for fun)_ ([arxiv:1910.08094](https://arxiv.org/abs/1910.08094))
+
+
 For analogous discussion of embedding of the [[ekpyrotic cosmology]]-scenario into [[string theory]]/[[type IIA supergravity]]:
 
 * {#Uzawa18} [[Kunihito Uzawa]], _No-Go theorems for ekpyrosis from ten-dimensional supergravity_, J. High Energ. Phys. (2018) 2018: 41 ([arXiv:1803.11084](https://arxiv.org/abs/1803.11084), <a href="https://doi.org/10.1007/JHEP06(2018)041">doi:10.1007/JHEP06(2018)041</a>)
