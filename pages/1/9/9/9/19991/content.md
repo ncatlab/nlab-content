@@ -174,3 +174,6 @@ See also
 
 [[!redirects crystallographic group]]
 [[!redirects crystallographic groups]]
+
+[[!redirects representation torus]]
+[[!redirects representation tori]]
