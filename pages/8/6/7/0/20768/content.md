@@ -8,7 +8,7 @@ Quoting the seminar [page](https://math.temple.edu/~vald/KV.html),
 * M. Andler, A. Dvorsky, S. Sahi, _Kontsevich quantization and invariant distributions on Lie groups_, [arxiv/9910104](https://arxiv.org/abs/math/9910104)
 * M. Andler, S. Sahi, C. Torossian, _Convolution of invariant distributions: proof of the Kashiwara-Vergne conjecture_, [math.QA/0104100](https://arxiv.org/abs/math/0104100)
 * D. Bar-Natan, _On associators and the Grothendieck-Teichmuller Group I_, [q-alg/9606021](https://arxiv.org/abs/q-alg/9606021)
-* V.G. [[Drinfeld]], _On quasitriangular quasi-Hopf algebras and on a group that is closely connected with $Gal(\bar{\mathbf{Q}}/\mathbf{Q})$_ 
+* V.G. [[Drinfeld]], _On quasitriangular quasi-Hopf algebras and on a group that is closely connected with $Gal(\bar{\mathbf{Q}}/\mathbf{Q})$_, (Russian) Algebra i Analiz __2__:4, 149–181 (1990); translation in Leningrad Math. J. 2:4, 829–860 (1991)
 * [[Thomas Willwacher]], _M. Kontsevich's graph complex and the Grothendieck-Teichmueller Lie algebra_ [arxiv/1009.1654](https://arxiv.org/abs/1009.1654)
 * Maria Podkopaeva, _On the Jacobson element and generators of the Lie algebra_ [arxiv/0812.0772](https://arxiv.org/abs/0812.0772)
 * [[Anton Alekseev]], Florian Naef, Xiaomeng Xu, [[Chenchang Zhu]], _Chern–Simons, Wess–Zumino and other cocycles from Kashiwara–Vergne and associators_, Letters in Mathematical Physics __108__:3 (2018) 757–778 [doi](https://doi.org/10.1007/s11005-017-0985-4)
