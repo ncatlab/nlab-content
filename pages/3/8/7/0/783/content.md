@@ -98,7 +98,7 @@ See _[Mathematics Genealogy for Grothendieck](http://www.genealogy.ams.org/id.ph
 
 [A. Grothendieck](http://matematicas.unex.es/~navarro/res/) by J. A. Navarro
 
-[A. Grothendieck](https://carmonamateo.github.io/groth.html) by M. Carmona
+[A. Grothendieck](https://agrothendieck.github.io/) by M. Carmona
 
 A. Grothendieck, una guía a la obra matemática y filosófica ([pdf](http://matematicas.unex.es/~navarro/res/zalamea.pdf)) por F. Zalamea
 
