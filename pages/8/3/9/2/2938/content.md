@@ -112,9 +112,7 @@ Actually, the HKR theorem holds on the level of chains: there is a [[quasi-isomo
 The HKR map is a map of dg vector spaces, but not a map of 
 [[dg-algebra]]s nor a map of [[dg-Lie algebra]]s. However, the [[Kontsevich formality|formality theorem]] of [[Maxim Kontsevich]] states that nevertheless the HKR map can be extended to an $L_\infty$ quasi-isomorphism. See [this MO post](http://mathoverflow.net/questions/32889/a-few-questions-about-kontsevich-formality) for details. 
 
-The HKR map is only an isomorphism of vector spaces, not an isomorphism of algebras. In order to make it an isomorphism of algebras, one must add a "correction" by the square root of the $\hat{A}$ class. This is analogous to the [[Duflo isomorphism]]. See Kontsevich and Caldararu.
-
-
+The HKR map is only an isomorphism of vector spaces, not an isomorphism of algebras. In order to make it an isomorphism of algebras, one must add a "correction" by the square root of the $\hat{A}$ class. In the case of the quantization of linear Poisson structures (when the quantization becomes a universal enveloping algebra of a Lie algebra) this refines the [[Duflo isomorphism]]. See Kontsevich and Caldararu.
 
 
 ### For non-commutative algebras
@@ -189,3 +187,5 @@ The version for $E_\infty$-algebras is discussed in
 [[!redirects Hochschild?Kostant?Rosenberg theorem]]
 [[!redirects Hochschild?Kostant?Rosenberg's theorem]]
 [[!redirects Hochschild--Kostant--Rosenberg theorem]]
+[[!redirects Hochschild-Kostant-Rosenberg isomorphism]]
+[[!redirects Hochschild-Kostant-Rosenberg map]]
