@@ -15,6 +15,7 @@
 {:toc}
 
 
+
 ## Definition
 
 For $G$ a [[group]] (tyically a [[finite group]]), consider a [[G-set]] $(S, \rho)$, hence a [[set]] $S$ (typically a [[finite set]]), equipped with an [[action]] of $G$
@@ -216,6 +217,17 @@ we may regard this as [[extension of scalars]] along $\mathbb{F}_1 \to  \mathbb{
 \]
 
 =--
+
+
+<center>
+<a href="https://arxiv.org/pdf/1909.12277.pdf#page=23">
+<img src="https://ncatlab.org/schreiber/files/EquivariantCohomotopyLinearizedToKTheory.jpg" width="640">
+</a>
+</center>
+
+> graphics grabbed from [SS19](equivariant+Hopf+degree+theorem#SatiSchreiber19)
+
+See also at _[[equivariant Hopf degree theorem]]_.
 
 [[!include Segal completion -- table]]
 
