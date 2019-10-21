@@ -30,7 +30,15 @@ In case $Y$ is a pointed [[metric space]] (such as a [[Banach space]], with base
 
 ### Relation to compactifications
 
-One way of considering this definition is that one can adjoin to $X$ a point "at infinity", denoted $\infty$, by declaring that the open neighborhoods of $\infty$ are sets of the form $\{\infty\} \cup Ext(K)$ for $K \subset X$ compact. This is called the [[one-point compactification]], denoted $X^+$. Then a map $f\colon X \to A$ vanishes at infinity iff there exists an extension of $f$ to a map $X^+ \to A$, continuous at $\infty$ (at least) that sends $\infty$ to $0$ (thus literally "vanishing at $\infty$").
+One way of considering this definition is that one can adjoin to $X$ a point "at infinity", denoted $\infty$, by declaring that the [[open neighborhoods]] of $\infty$ are sets of the form $\{\infty\} \cup Ext(K)$ for $K \subset X$ compact. This is called the [[one-point compactification]], denoted $X^{cpt}$. Then a [[continuous function]] $f \colon X \to A$ vanishes at infinity equivalently if it [[extension|extends]] $f$ to a map $X^{cpt} \to A$, continuous at $\infty$ (at least) that sends $\infty$ to $0$ -- thus _literally- "vanishing at $\infty$".
+
+For more see 
+
+* at _[[one-point compactification]] -- [Relevance for Monopoles and Instantons](one-point+compactification#RelevanceForMonopolesAndInstantons)_
+
+
+* at _[Yang-Mills instanton -- SU(2)-instantons from the correct maths to the traditional physics story](Yang-Mills+instanton#FromTheMathsToThePhysicsStory)_.
+
 
 
 
