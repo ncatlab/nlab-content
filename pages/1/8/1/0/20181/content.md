@@ -139,6 +139,7 @@ is a _choice of singularity-wise [[orientations]]_.  Given such a choice and an 
 
 +-- {: .num_example #RepresentationSphereToRepresentationSphereIsMatchingPair}
 ###### Example
+**([[representation spheres]] match [[representation spheres]])**
 
 Let $G$ be a [[finite group]] and $V \in RO(G)$ a [[finite-dimensional vector space|finite-dimensional]] [[orthogonal group|orthogonal]] [[linear representation]] of $G$. Then the pair 
 
@@ -159,6 +160,7 @@ First notice that an $H$-[[fixed locus]] of any $G$-representation sphere is its
 
 +-- {: .num_example #RepresentationTorusToRepresentationSphereIsMatchingPair}
 ###### Example
+**([[representation tori]] match [[representation spheres]])**
 
 Let $G$ be a [[finite group]] which arises as the [[point group]] $G \simeq S/N$ of a [[crystallographic group]] $S \subset Iso(E)$ of some [[Euclidean space]] $E$. Then the pair
 
@@ -188,6 +190,14 @@ The [[torus]] $E/N$ carries the [[structure]] of a [[smooth manifold]] for which
 Moreover, the orientability and connectivity assumptions in Def. \ref{MatchingGSpaces} are evidently satisfied, using the fact that both $E/N$ as well as $S^E$ are modeled on the same linear $G$-representation space $E$.
 
 =--
+
+<center>
+<a href="https://arxiv.org/pdf/1909.12277.pdf#page=13">
+<img src="https://ncatlab.org/schreiber/files/ExamplesOfLinearRepsAndInducedGSpaces.jpg" width="690">
+</a>
+</center>
+
+> graphics grabbed from [SS 19](#SatiSchreiber19)
 
 <br/>
 
