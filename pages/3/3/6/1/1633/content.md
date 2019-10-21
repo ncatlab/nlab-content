@@ -290,6 +290,7 @@ Locally compact Hausdorff spaces are [[paracompact space|paracompact]] whenever 
 
 [[!redirects locally compact Hausdorff space]]
 [[!redirects locally compact Hausdorff spaces]]
+[[!redirects local compactness]]
 [[!redirects local compactum]]
 [[!redirects local compactums]]
 [[!redirects local compacta]]
