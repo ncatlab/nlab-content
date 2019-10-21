@@ -49,6 +49,8 @@ Lower semicontinuity, in some sense, plays the role that [[measurable function|m
 
 The [[specialization preorder]] of this topology is known as the [[stochastic order]], and can be seen as the [[pointwise order]] of valuations as functions on the open sets. 
 
+It is known (see [Jung '04](#jung2)) that if $X$ is [[stably compact]], then $V X$ is stably compact too, so that the monad $V$ restrict to the subcategory of [[stably compact spaces]]. 
+
 
 ### Functoriality
 
@@ -137,6 +139,8 @@ If one further restricts to _normalized_ simple valuations, one obtains as submo
 * {#kirch} Olaf Kirch, _Bereiche und Bewertungen_ (in German), Master Thesis, Technische Hochschule Darmstadt, 1993 ([ps.gz](http://fb04286.mathematik.tu-darmstadt.de/fbereiche/logik/research/Domains/papers/kirch/diplom.ps.gz))
 
 * {#Heckmann96} Reinhold Heckmann, _Spaces of valuations_, Papers on General Topology and Ap-plications, 1996 ([doi:10.1111/j.1749-6632.1996.tb49168.x](https://doi.org/10.1111/j.1749-6632.1996.tb49168.x),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.45.5845&rep=rep1&type=pdf))
+
+* {#jung2} Achim Jung, _Stably compact spaces and the probabilistic powerspace construction_, ENTCS 87, 2004 ([doi:10.1016/j.entcs.2004.10.001](https://doi.org/10.1016/j.entcs.2004.10.001)).
 
 * {#Jung}Mauricio Alvarez-Manilla, Achin Jung, Klaus Keimel, _The probabilistic powerdomain for stably compact spaces_, Theoretical Computer Science 328, 2004 ([doi:10.1016/j.tcs.2004.06.021](https://doi.org/10.1016/j.tcs.2004.06.021))
 
