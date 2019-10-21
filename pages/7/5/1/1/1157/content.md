@@ -193,6 +193,9 @@ See also:
 
 * {#FelixHalperinThomas92} [[Yves Felix]], [[Stephen Halperin]], [[Jean-Claude Thomas]], _Adams' Cobar Equivalence_, Transactions of the American Mathematical Society, Vol. 329, No. 2 (1992), pp. 531-549 ([jstor:2153950](https://www.jstor.org/stable/2153950))
 
+* Rivera, _Adams' cobar construction revisited_ ([arxiv:1910.08455](https://arxiv.org/abs/1910.08455))
+
+
 
 Review:
 
