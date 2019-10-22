@@ -24,7 +24,7 @@
 Compact ordered spaces can be thought of as a refinement of the notion of [[compact Hausdorff space]] to [[order theory|ordered]] spaces. They share many properties of compact Hausdorff spaces, where equality is replaced by the order relation. 
 These spaces are a convenient choice for notions of [[convergence]] in an [[order theory|ordered]] setting.
 
-In particular, just as [[compact Hausdorff spaces]] can be seen as [[algebra over a monad|algebras]] of the [[ultrafilter|ultrafilter monad]] on [[Set]], compact ordered spaces can be seen as algebras of the [[prime filter monad]] on [[Pos]], (see [below](#as_algebras)).
+In particular, just as [[compact Hausdorff spaces]] can be seen as [[algebra over a monad|algebras]] of the [[ultrafilter#ultrafilters_form_a_monad|ultrafilter monad]] on [[Set]], compact ordered spaces can be seen as algebras of the [[prime upper filter monad]] on [[Pos]], (see [below](#as_algebras)).
 
 
 The concept was introduced by Nachbin (see [Nachbin '65](#nachbin)).
@@ -38,6 +38,8 @@ A **compact ordered space** or **compact pospace** is a [[compact topological sp
 ## Properties
 
 * A compact ordered space is always [[Hausdorff]], i.e. it is a [[compactum]]. To see this, note that since the [[relation]] is a closed subset of $X\times X$, so is the [[opposite relation]], and hence their intersection too, which is the [[diagonal]] of $X\times X$. 
+
+* Conversely, a [[compact Hausdorff space]] can be seen as a compact ordered space with the [[discrete order]].
 
 (...)
 
