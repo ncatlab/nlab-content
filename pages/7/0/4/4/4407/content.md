@@ -29,7 +29,7 @@ Despite its name, the fundamental theorem of algebra makes reference to a concep
 
 The rest of the proof is algebraic and, unlike the other proof methods, applies to all [[real closed field]]s, which need not be archimedean. It is due to [[Emil Artin]], and forms a basic chapter in the Artin--Schreier theory of real closed fields.
 
-We recall that a _real closed field_ is an [[ordered field]] such that every positive element has a [[square root]], and every polynomial of odd degree has a root. Clearly, the polynomial $x^2 + 1$ need not have a root in a real closed field.
+We recall that a _real closed field_ is an [[ordered field]] such that every positive element has a [[square root]], and every polynomial of odd degree has a root. Clearly the polynomial $x^2 + 1$ has no root in a real closed field. 
 
 +-- {: .num_theorem}
 ###### Theorem 
