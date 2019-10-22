@@ -188,6 +188,8 @@ is the [[multiplication|product]] of the [[exponent of a group|exponents]] of th
 
 * [[Boardman homomorphism]]
 
+* [[Spanier-Whitehead duality]]
+
 
 ## References
 
