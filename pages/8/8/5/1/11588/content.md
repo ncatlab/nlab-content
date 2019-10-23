@@ -28,7 +28,7 @@ The $\tau$-function for [[KP hierarchy]] has originally being studied in
 
 * [[Masaki Kashiwara]], [[Tetsuji Miwa]], _The $\tau$-function of the Kadomtsev-Petviashvili equation transformation groups for soliton equations, I_, Proc. Japan Acad. Ser. A Math. Sci. __57__, N. 7 (1981), 337-386 [euclid](http://projecteuclid.org/euclid.pja/1195516327)
 
-The background on the context of infinite Grassmanians is in 
+The background on the context of [[Sato-Segal-Wilson Grassmanian]]s is in 
 
 * Andrew Pressley, Graeme Segal, _Loop groups_, Oxford University Press (1988)
 * G. Segal, G. Wilson, _Loop groups and equations of KdV type_, Inst. Hautes Etudes Sci. Publ. Math. 61 (1985) 5&#8211;65.
@@ -37,6 +37,11 @@ Reviews include
 
 * A. Alexandrov, A. Zabrodin, _Free fermions and tau-functions_, J.Geom.Phys. __67__ (2013) 37-80 [arxiv/1212.6049](http://arxiv.org/abs/1212.6049) [doi](http://dx.doi.org/10.1016/j.geomphys.2013.01.007)
 * A. Zabrodin, _Bethe ansatz and Hirota equation in integrable models_, [arxiv/1211.4428](http://arxiv.org/abs/1211.4428)
+
+The connection to 2D [[gravity]] is elucidated in
+
+* [[Victor Kac]], [[Albert Schwarz]], _Geometric interpretation of the partition function of 2D gravity_ Phys. Lett. B
+257 (1991), no. 3-4, 329–334 [pdf](https://web.phys.ntu.edu.tw/string/matrix/PhysLettB257(1991)329_Kac_Schwarz_GeometricInterpretationOfThePartitionFunctionOf2DGravity.pdf)
 
 Some special cases of $\tau$-functions include
 
