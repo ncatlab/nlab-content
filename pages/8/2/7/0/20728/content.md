@@ -60,6 +60,14 @@ See [the table below](#detailed_list) for more details.
   <th markdown="1">References</th>
  </tr>
  <tr>
+  <th markdown="1">[[distribution monad]] (a.k.a. finitary Giry monad, convex combination monad)</th>
+  <td markdown="1">[[Set]]</td>
+  <td markdown="1">[[convex combinations]] or finitely-[[support#in_measure_theory|supported]] [[probability measures]]</td>
+  <td markdown="1">(just a set)</td>
+  <td markdown="1">[[convex spaces]]</td>
+  <td markdown="1">[Fritz '09](#fritzconvex), [Jacobs '18](#jacobs)</td>
+ </tr>
+ <tr>
   <th markdown="1">[[Giry monad]]</th>
   <td markdown="1">[[Meas]]</td>
   <td markdown="1">[[probability measures]]</td>
@@ -78,7 +86,7 @@ See [the table below](#detailed_list) for more details.
  <tr>
   <th markdown="1">[[Radon monad]]</th>
   <td markdown="1">[[compactum#category_of_compacta|Comp]]</td>
-  <td markdown="1">[[Radon measure|Radon probability measures]]</td>
+  <td markdown="1">[[Radon measure|Radon probability measures]] (or [[continuous valuations]])</td>
   <td markdown="1">[[weak topology]] w.r.t. continuous functions</td>
   <td markdown="1">[[compact]] [[convex subsets]] of [[locally convex topological vector spaces]]</td>
   <td markdown="1">[Swirszcz '74](#swirszcz), [Keimel '08](#radonkeimel)</td>
@@ -86,7 +94,7 @@ See [the table below](#detailed_list) for more details.
  <tr>
   <th markdown="1">[[Radon monad#the_ordered_case|ordered Radon monad]]</th>
   <td markdown="1">[[compact ordered spaces]]</td>
-  <td markdown="1">[[Radon measure|Radon probability measures]]</td>
+  <td markdown="1">[[Radon measure|Radon probability measures]] (or [[continuous valuations]])</td>
   <td markdown="1">[[weak topology]] w.r.t. continuous functions, [[stochastic order]]</td>
   <td markdown="1">[[compact]] [[convex subsets]] of [[ordered vector space|ordered]] [[locally convex topological vector spaces]]</td>
   <td markdown="1">[Swirszcz '74](#swirszcz), [Keimel '08](#radonkeimel)</td>
@@ -101,15 +109,15 @@ See [the table below](#detailed_list) for more details.
  </tr>
  <tr>
   <th markdown="1">[[probabilistic powerdomain]]</th>
-  <td markdown="1">[[dcpo]]</td>
+  <td markdown="1">[[dcpo]], [[continuous domains]]</td>
   <td markdown="1">[[continuous valuations]]</td>
   <td markdown="1">[[stochastic order]]</td>
-  <td markdown="1">...</td>
-  <td markdown="1">...</td>
+  <td markdown="1">[[abstract probabilistic domains]] (continuous case)</td>
+  <td markdown="1">[J-P '89](#jonesplotkin)</td>
  </tr>
  <tr>
   <th markdown="1">[[extended probabilistic powerdomain]]{#extprobpow}</th>
-  <td markdown="1">[[Top]]</td>
+  <td markdown="1">[[Top]], [[stably compact spaces]]</td>
   <td markdown="1">[[continuous valuations]]</td>
   <td markdown="1">[[extended probabilistic powerdomain#spaces_of_valuations|initial topology of evaluation maps]], [[stochastic order]]</td>
   <td markdown="1">Full characterization unknown. [[extended probabilistic powerdomain#algebras|Dedicated section here]]</td>
@@ -138,22 +146,6 @@ See [the table below](#detailed_list) for more details.
   <td markdown="1">[[Kantorovich-Wasserstein metric]], [[stochastic order]]</td>
   <td markdown="1">closed [[convex subsets]] of [[ordered Banach spaces]]</td>
   <td markdown="1">[F-P](#orderedkantorovich)</td>
- </tr>
- <tr>
-  <th markdown="1">[[distribution monad]] (a.k.a. finitary Giry monad, convex combination monad)</th>
-  <td markdown="1">[[Set]]</td>
-  <td markdown="1">[[convex combinations]] or finitely-[[support#in_measure_theory|supported]] [[probability measures]]</td>
-  <td markdown="1">(just a set)</td>
-  <td markdown="1">[[convex spaces]]</td>
-  <td markdown="1">[Fritz '09](#fritzconvex), [Jacobs '18](#jacobs)</td>
- </tr>
- <tr>
-  <th markdown="1">[[infinitary distribution monad]] (a.k.a. countable convex combination monad)</th>
-  <td markdown="1">[[Set]]</td>
-  <td markdown="1"> countable [[convex combinations]] or countably-[[support#in_measure_theory|supported]] [[probability measures]]</td>
-  <td markdown="1">(just a set)</td>
-  <td markdown="1">[[hyperconvex spaces]]</td>
-  <td markdown="1">...</td>
  </tr>
 </table>
 
@@ -185,7 +177,9 @@ See [the table below](#detailed_list) for more details.
 
 * {#jung} Mauricio Alvarez-Manilla, Achin Jung, Klaus Keimel, _The probabilistic powerdomain for stably compact spaces_, Theoretical Computer Science 328, 2004. [Link here](https://www.sciencedirect.com/science/article/pii/S0304397504004074).
 
-* {#algebras} Jean Goubault-Larrecq and Xiaodong Jia, _Algebras of the extended probabilistic powerdomain monad_, ENTCS 345, 2019
+* {#jonesplotkin} C. Jones and [[Gordon. D. Plotkin]], _A probabilistic powerdomain of evaluations_, LICS 4, 1989. ([doi:10.1109/LICS.1989.39173](https://doi.org/10.1109/LICS.1989.39173))
+
+* {#algebras} [[Jean Goubault-Larrecq]] and Xiaodong Jia, _Algebras of the extended probabilistic powerdomain monad_, ENTCS 345, 2019
 ([doi:10.1016/j.entcs.2019.07.015](https://doi.org/10.1016/j.entcs.2019.07.015))
 
 * {#support} [[Tobias Fritz]], Paolo Perrone and Sharwin Rezagholi, _Probability, valuations, hyperspace: Three monads on Top and the support as a morphism_, 2019. [Link here](https://arxiv.org/abs/1910.03752).
