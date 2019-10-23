@@ -1,11 +1,11 @@
 Hirota equations are certain bilinear equations related to [[integrable models]]/hierarchies. The dependent variables can, in most cases, be identified with $\tau$-[[tau-function|functions]], as it was first observed by Miwa. One often speaks of Hirota's direct method in solving integrable equations. We say that an equation is put in Hirota bilinear form
 if it is written as $P(D)(f\cdot f) = 0$ where $D$ is the Hirota derivative (or difference) operator. One defines it by 
 $$
-D_x^n (f\cdot g) = (\partial_{x_1}-\partial_{x_n})^n (f(x_1)g(x_2))|_{x_1=x_2=x}
+D_x^n (f\cdot g) = (\partial_{x_1}-\partial_{x_2})^n (f(x_1)g(x_2))|_{x_1=x_2=x}
 $$
 The difference version of Hirota operator is obtained by exponentiating.
 The Hirota equations enable easier finding of [[multisoliton]] solutions. 
-Recent $Y$-systems may also be viewed as a version of generalized Hirota equations.
+Recent [[Y-system|$Y$-system]]s may also be viewed as a version of generalized Hirota equations.
 
 One can consider partition functions as made up from characters; $GL(N)$/characters are by Weyl formula given in terms of (ratios of) certain determinants. Flag minor determinants satisfy bilinear [[Pluecker relation]]s. If the tau functions are 
 interpreted in terms of infinite Grassmanians (fermionic approach) then the Hirota relations sometimes boil down to Pluecker relations. 
