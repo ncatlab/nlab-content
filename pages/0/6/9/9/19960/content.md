@@ -530,6 +530,16 @@ Discussion of the [[QCD trace anomaly]]:
 
 The [[QCD trace anomaly]] affects notably the [[equation of state]] of the [[quark-gluon plasma]], see there at _[References -- Holographic description of quark-gluon plasma](quark-gluon+plasma#ReferencesViaAdSCFT)_
 
+### Application to parton distribution
+
+* Akira Watanabe, Takahiro Sawada, Mei Huang, _Extraction of gluon distributions from structure functions at small x in holographic QCD_ ([arxiv:1910.10008](https://arxiv.org/abs/1910.10008))
+
+> Understanding the nucleon structure is one of the most
+important research topics in fundamental science, and tremendous efforts have been done to deepen our knowledge over several decades. $[...]$ Since $[these]$ are highly nonperturbative physical quantities, in principle they are not calculable by the direct use of QCD. Furthermore, although there is available data, this has large errors. These facts cause the huge uncertainties which can be seen in the preceding studies based on the global QCD analysis.
+
+> In this work, we investigate the gluon distribution in nuclei by calculating the structure functions in the framework of holographic QCD, which is constructed based on the AdS/CFT correspondence.
+
+
 
 ### Application to QCD phases
  {#ReferencesColourSuperconductivity}
