@@ -175,7 +175,7 @@ See [the table below](#detailed_list) for more details.
 
 * {#Heckmann96} Reinhold Heckmann, _Spaces of valuations_, Papers on General Topology and Ap-plications, 1996 ([doi:10.1111/j.1749-6632.1996.tb49168.x](https://doi.org/10.1111/j.1749-6632.1996.tb49168.x),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.45.5845&rep=rep1&type=pdf))
 
-* {#jung} Mauricio Alvarez-Manilla, Achin Jung, Klaus Keimel, _The probabilistic powerdomain for stably compact spaces_, Theoretical Computer Science 328, 2004. [Link here](https://www.sciencedirect.com/science/article/pii/S0304397504004074).
+* {#jung} Mauricio Alvarez-Manilla, Achin Jung, [[Klaus Keimel]], _The probabilistic powerdomain for stably compact spaces_, Theoretical Computer Science 328, 2004. [Link here](https://www.sciencedirect.com/science/article/pii/S0304397504004074).
 
 * {#jonesplotkin} C. Jones and [[Gordon. D. Plotkin]], _A probabilistic powerdomain of evaluations_, LICS 4, 1989. ([doi:10.1109/LICS.1989.39173](https://doi.org/10.1109/LICS.1989.39173))
 
