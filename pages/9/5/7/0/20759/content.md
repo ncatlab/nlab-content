@@ -47,7 +47,7 @@ For general $n$ this is known as the "[[Pontrjagin-Thom collapse construction]]"
 ### For charged points
  {#ForChargedPoints}
 
-For maximal [[codimension]] $n$ inside an [[orientation|oriented]] [[smooth manifold|manifold]], hence for 0-dimensional submanifolds, hence for [[configuration space of points|configurations of points]] and with all points regarded as equipped with positive normal framing, the Cohomotopy charge map is alternatively known as the "electric field map" ([Salvatore 01](#Salvatore01) following [Segal 73, Section 1](#Segal73), see also [Knudsen 18, p. 49](#Knudsen18)) or the "scanning map" ([Kallel 98](#Kallel98)):
+For maximal [[codimension]] $n$ inside an [[orientation|oriented]] [[smooth manifold|manifold]], hence for 0-dimensional submanifolds, hence for [[configuration space of points|configurations of points]] and with all points regarded as equipped with positive normal framing, the Cohomotopy charge map is alternatively known as the "electric field map" ([Salvatore 01](#Salvatore01) following [Segal 73, Section 1](#Segal73), see also [Knudsen 18, p. 49](#Knudsen18)) or the "scanning map" ([Kallel 98](#Kallel98), [Manthorpe-Tillmann 13](#ManthorpeTillmann13)):
 
 
 In maximal [[codimension]] $D \in \mathbb{N}$, the _Cohomotopy charge map_ is thus the  [[continuous function]]
@@ -365,6 +365,8 @@ See also:
 * {#Kallel98} [[Sadok Kallel]], _Particle Spaces on Manifolds and Generalized Poincaré Dualities_ ([arXiv:math/9810067](https://arxiv.org/abs/math/9810067)) 
 
 * {#Salvatore01} [[Paolo Salvatore]], _Configuration spaces with summable labels_, In: Aguadé J., Broto C., [[Carles Casacuberta]]  (eds.) _Cohomological Methods in Homotopy Theory_. Progress in Mathematics, vol 196. Birkhäuser, Basel, 2001 ([arXiv:math/9907073](https://arxiv.org/abs/math/9907073))
+
+* {#ManthorpeTillmann13} Richard Manthorpe, [[Ulrike Tillmann]], _Tubular configurations: equivariant scanning and splitting_, Journal of the London Mathematical Society, Volume 90, Issue 3 ([arxiv:1307.5669](https://arxiv.org/abs/1307.5669), [doi:10.1112/jlms/jdu050](https://doi.org/10.1112/jlms/jdu050))
 
 * {#Knudsen18} [[Ben Knudsen]], _Configuration spaces in algebraic topology_ ([arXiv:1803.11165](https://arxiv.org/abs/1803.11165))
 
