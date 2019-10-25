@@ -125,20 +125,21 @@ Relation to $\tau$-functions is discussed in
 Other articles:
 
 * Andr&#225;s C. L&#337;rincz, Claudiu Raicu, Uli Walther, Jerzy Weyman, _Bernstein-Sato polynomials for maximal minors and sub-maximal Pfaffians_, [arxiv/1601.06688](http://arxiv.org/abs/1601.06688)
+* M. Spera, _A C*–algebraic approach to determinants and Pfaffians, Acta Cosmologica Fasc. XXI-2, (1995) 203–208.
 
 ### Euler forms
 
 
 Discussion of _[[Euler forms]]_ ([[differential form]]-representatives of [[Euler classes]] in [[de Rham cohomology]]) as [[Pfaffians]] of [[curvature forms]]:
 
-* {#Chern44} [[Shiing-Shen Chern]], _A Simple Intrinsic Proof of the Gauss-Bonnet Formula for Closed Riemannian Manifolds_, Annals of Mathematics Second Series, Vol. 45, No. 4 (1944), pp. 747-752 ([jstor:1969302](https://www.jstor.org/stable/1969302))
+* {#Chern44} [[Shiing-Shen Chern]], _A simple intrinsic proof of the Gauss-Bonnet formula for closed Riemannian manifolds_, Annals of Mathematics Second Series __45__:4 (1944) 747-752 ([jstor:1969302](https://www.jstor.org/stable/1969302))
 
 
 * {#MathaiQuillen86} [[Varghese Mathai]], [[Daniel Quillen]], below (7.3) of _Superconnections, Thom classes, and equivariant differential forms_, Topology Volume 25, Issue 1, 1986 (<a href="https://doi.org/10.1016/0040-9383(86)90007-8">10.1016/0040-9383(86)90007-8</a>)
 
-* {#Wu05} Siye Wu, Section 2.2 of _Mathai-Quillen Formalism_, pages 390-399 in _Encyclopedia of Mathematical Physics_ 2006 ([arXiv:hep-th/0505003](https://arxiv.org/abs/hep-th/0505003))
+* {#Wu05} Siye Wu, Section 2.2 of _Mathai-Quillen formalism_, pages 390-399 in _Encyclopedia of Mathematical Physics_ 2006 ([arXiv:hep-th/0505003](https://arxiv.org/abs/hep-th/0505003))
 
-* {#Walschap04} Gerard Walschap, chapter 6.3 of _Metric Structures in Differential Geometry_, Graduate Texts in Mathematics, Springer 2004 
+* {#Walschap04} Gerard Walschap, ch. 6.3 of _Metric structures in differential deometry_, Graduate Texts in Mathematics, Springer 2004 
 
 * [[Hiro Lee Tanaka]], _Pfaffians and the Euler class_, 2014 ([pdf](http://www.hiroleetanaka.com/pdfs/2014-fall-230a-lecture-26-gauss-bonnet-chern.pdf))
 
