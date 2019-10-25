@@ -41,8 +41,9 @@ The general notion of Pfaffian line bundle is described in section 3 of
 
 * [[Dan Freed]], _On determinant line bundles_, Math. aspects of [[string theory]], ed. S. T. Yau, World Sci. Publ. 1987,  (revised [pdf](http://www.math.utexas.edu/~dafr/Index/determinants.pdf), [dg-ga/9505002](http://arxiv.org/abs/dg-ga/9505002))
 
+* D. Borthwick, _The Pfaffian line bundle_, Commun. Math. Phys. __149__ (1992) (3) 463–493 [doi](https://doi.org/10.1007/BF02096939) [euclid](https://projecteuclid.org/euclid.cmp/1104251304)
 
-The [[nLab:string theory|string]] worldsheet [[Green-Schwarz mechanism]] which trivializes the worldsheet Pfaffian line bundle, and its relation to [[string structure]]s that goes bak to Killingback and [[Edward Witten]] has been formalized in
+The [[nLab:string theory|string]] worldsheet [[Green-Schwarz mechanism]] which trivializes the worldsheet Pfaffian line bundle, and its relation to [[string structure]]s, that goes back to Killingback and [[Edward Witten]], has been formalized in
 
 * [[Ulrich Bunke]], _String structures and trivialisations of a Pfaffian line bundle_ ([arXiv](http://arxiv.org/abs/0909.0846))
 
