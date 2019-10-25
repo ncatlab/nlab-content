@@ -82,9 +82,16 @@ Notice that $\Pi_1(X,X)$ recovers the full fundamental groupoid, while $\Pi_1(X,
 See [[fundamental ∞-groupoid]].
 
 
+### Simplicial version
+
+See [[simplicial fundamental groupoid]].
+
+
 ## Related concepts
 
 * **fundamental groupoid**, [[fundamental ∞-groupoid]]
+
+* [[simplicial fundamental groupoid]]
 
 * [[fundamental category]], [[fundamental (∞,1)-category]]
 
