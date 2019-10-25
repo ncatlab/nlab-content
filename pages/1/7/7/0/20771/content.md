@@ -43,6 +43,14 @@ A **compact ordered space** or **compact pospace** is a [[compact topological sp
 
 (...)
 
+## Categories of compact ordered spaces
+
+A canonical choice of [[morphisms]] between compact ordered spaces is [[continuous map|continuous]], [[monotone maps]], which form a category. This category is usually just called the **category of compact ordered spaces**, and denoted by __$CompOrd$__. 
+
+With the 2-cell structure given by the [[pointwise order]], __$CompOrd$__ becomes a [[locally posetal 2-category]]. 
+
+(...)
+
 ## As algebras
 
 For now, see [Flagg '96](#flagg).
@@ -79,3 +87,10 @@ For now, see [Jung '04](#jung2).
 [[!redirects ordered compact topological spaces]]
 [[!redirects compact pospace]]
 [[!redirects compact pospaces]]
+[[!redirects CompOrd]]
+[[!redirects category of compact ordered spaces]]
+[[!redirects category of ordered compact spaces]]
+[[!redirects category of compact ordered topological spaces]]
+[[!redirects category of ordered compact topological spaces]]
+[[!redirects category of compact ordered spaces]]
+[[!redirects category of compact pospaces]]
