@@ -19,13 +19,15 @@
 
 The term _soliton_ comes from an abbreviation of "solitary wave".
 
-A **soliton solution** of a nonlinear [[wave equation]] is a solution whose large amplitude part is **localized in space** and is **asymptotically stable in time**. This asymptotic stability (more precisely non-damping and asymptotic preservation of shape, up to translation) is typically a feature of an infinite number of [[conservation law]]s, and many models of equations allowing soliton solutions are in fact integrable systems (with infinitely many degrees of freedom). Soliton solution often combine to multisoliton solutions in a nonlinear way, with a period of interaction when they "meet", but after a passage of some time, the waves gradually uncouple and regain their original shape when outgoing to infinity.  A typical example of a nonlinear wave equation exhibiting soliton solutions is the exactly solvable "nonlinear Schroedinger equation" appearing in [[optics]]. 
+A **soliton solution** of a nonlinear [[wave equation]] is a solution whose large amplitude part is **localized in space** and is **asymptotically stable in time**. This asymptotic stability (more precisely non-damping and asymptotic preservation of shape, up to translation) is typically a feature of an infinite number of [[conservation law]]s, and many models of equations allowing soliton solutions are in fact [[integrable system]]s (with infinitely many degrees of freedom). Soliton solution often combine to multisoliton solutions in a nonlinear way, with a period of interaction when they "meet", but after a passage of some time, the waves gradually uncouple and regain their original shape when outgoing to infinity.  A typical example of a nonlinear wave equation exhibiting soliton solutions is the exactly solvable "nonlinear Schroedinger equation" appearing in [[optics]]. 
+
+Solitons appear in description of many natural phenomena. For example, Davydov soliton ([wikipedia](https://en.wikipedia.org/wiki/Davydov_soliton)) has a role in stabilizing dynamics of proteins.
 
 ## Related concepts
 
-* [[vortex]]
+* [[vortex]], [[instanton]], [[caloron]], [[skyrmion]]
 
-* [[instanton]], [[caloron]], [[skyrmion]]
+* [[integrable model]], [[Korteweg de Vries equation]]
 
 * [[black hole]], [[black brane]]
 
