@@ -46,4 +46,6 @@ Solitons appear in description of many natural phenomena. For example, Davydov s
 
 * Anastasia Doikou, Iain Findlay, _Solitons: conservation laws & dressing methods_ ([arXiv:1812.11914](https://arxiv.org/abs/1812.11914))
 
+* Fritz Gesztesy, Helge Holden, _Soliton equations and their algebro-geometric solutions_ (vol. I), Cambridge Univ. Press 2003; vol. II, with Johanna Michor, Gerald Teschl, 2008.
+
 [[!redirects solitons]]
