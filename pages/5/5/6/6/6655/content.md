@@ -253,7 +253,7 @@ The original reference is
 
 A philosophical examination is
 
-* [[Göran Sundholm]], _Proof Theory and Meaning_ (1986), ([pdf](https://openaccess.leidenuniv.nl/bitstream/handle/1887/11978/9_05?sequence=1))
+* [[Göran Sundholm​]], _Proof Theory and Meaning_ (1986), ([pdf](https://openaccess.leidenuniv.nl/bitstream/handle/1887/11978/9_05?sequence=1))
 
 An introduction and survey (with an eye towards [[homotopy type theory]]) is in chapter 1 of
 
