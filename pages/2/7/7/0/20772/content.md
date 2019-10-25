@@ -86,9 +86,28 @@ Conversely, it can be proven that every $P$-algebra is of this form (see [Swirsz
 
 ## The ordered case
 
-(Work in progress. For now see [Keimel '08](#radonkeimel).)
+The Radon monad can be lifted to the [[CompOrd#categories_of_compact_ordered_spaces|category of compact ordered spaces]] (and [[continuous map|continuous]] [[monotone maps]]).
+This is done by means of the [[stochastic order]].
 
-(...)
+Here we sketch the construction. For more details, see [Keimel '08](#radonkeimel).
+
+### Construction of the spaces
+
+Given a [[compact ordered space]] $X$, we can form the spaces $R X$ and $P X$ as for the unordered case, and then equip them with the [[stochastic order]]. Over compact ordered spaces, the stochastic order is antisymmetric (i.e. it is a partial order), and it has [[closed graph]], so that $R X$ and $P X$ are again compact ordered spaces. 
+
+Given a monotone map $f:X\to Y$, the maps $R f$ and $P f$ are monotone for the stochastic order, and so are the monad structure maps. This way, $P$ and $R$ lift to a monad on [[CompOrd#categories_of_compact_ordered_spaces|CompOrd]].
+
+For the canonical [[locally posetal 2-category]] structure of [[CompOrd#categories_of_compact_ordered_spaces|CompOrd]] given by the [[pointwise order]], $P$ and $R$ are even [[2-monads]], since whenever $f\le g:X\to Y$, we have $R f\le R g$ $P f\le P g$.
+
+Both the resulting monads are known in the literature as **ordered Radon monad**.
+
+### Algebras
+
+The algebras of the ordered Radon monad $P$ are known to be [[compact]] [[convex space|convex]] subsets of [[locally convex topological vector space|locally convex]] [[ordered topological vector spaces]]. This can be seen as the ordered equivalent of the characterization [above](#algebras).
+
+The algebras of $R$, similarly, can be seen as the ordered equivalent of [[Kegelspitze]]. 
+
+See [Keimel '08](#radonkeimel) for more.
 
 
 ## See also
