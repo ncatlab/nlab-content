@@ -43,6 +43,8 @@ The general notion of Pfaffian line bundle is described in section 3 of
 
 * D. Borthwick, _The Pfaffian line bundle_, Commun. Math. Phys. __149__ (1992) (3) 463–493 [doi](https://doi.org/10.1007/BF02096939) [euclid](https://projecteuclid.org/euclid.cmp/1104251304)
 
+* Section 1.3 in: Ema Previato, Mauro Spera, _Isometric embeddings of infinite-dimensional Grassmannians_, Regul. Chaot. Dyn. (2011) 16: 356 [doi](https://doi.org/10.1134/S1560354711030099)
+
 The [[nLab:string theory|string]] worldsheet [[Green-Schwarz mechanism]] which trivializes the worldsheet Pfaffian line bundle, and its relation to [[string structure]]s, that goes back to Killingback and [[Edward Witten]], has been formalized in
 
 * [[Ulrich Bunke]], _String structures and trivialisations of a Pfaffian line bundle_ ([arXiv](http://arxiv.org/abs/0909.0846))
