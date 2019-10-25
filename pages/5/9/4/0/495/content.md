@@ -137,7 +137,7 @@ Representables, and arbitrary coproducts of representables, are projective, and 
 
 ## Discussion
 
-* Forum discussions [one](http://nforum.mathforge.org/discussion/3008/internally-projective-objects/), [two](http://nforum.mathforge.org/discussion/4342/internally-projective-objects/).
+* Forum discussions [one](http://nforum.ncatlab.org/discussion/3008/internally-projective-objects/), [two](http://nforum.ncatlab.org/discussion/4342/internally-projective-objects/).
 
 ## Related concepts
 
