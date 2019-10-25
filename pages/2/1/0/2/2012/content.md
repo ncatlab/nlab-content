@@ -31,23 +31,17 @@ were invented with a view toward quantum integrable systems systematizing analog
 
 ## Related entries
 
-* [[integrable PDE]]
+* [[Liouville integrability]], [[integrable PDE]], [[soliton]] 
 
-* [[quasitriangular bialgebra]], 
+* [[Bethe ansatz]]
 
-* [[Dunkl operator]], 
+* [[quasitriangular bialgebra]], [[Yangian]], [[quantum group]] 
 
-* [[Yangian]], 
+* [[Lax equation]], [[spectral curve]], [[Burchnall-Chaundy theory]]
 
-* [[Bethe ansatz]], 
+* [[tau-function]], [[Sato Grassmannian]]
 
-* [[Calogero model]], 
-
-* [[Lax equation]], 
-
-* [[Liouville integrability]], 
-
-* [[spectral curve]],
+* [[Calogero model]], [[Dunkl operator]]
 
 * [[topological recursion]]
 
