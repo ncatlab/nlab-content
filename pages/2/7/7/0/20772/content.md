@@ -109,6 +109,7 @@ The algebras of $R$, similarly, can be seen as the ordered equivalent of [[Kegel
 
 See [Keimel '08](#radonkeimel) for more.
 
+(...)
 
 ## See also
 
