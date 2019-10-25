@@ -41,6 +41,8 @@ A **compact ordered space** or **compact pospace** is a [[compact topological sp
 
 * Conversely, a [[compact Hausdorff space]] can be seen as a compact ordered space with the [[discrete order]].
 
+* In a compact ordered space, the [[up-sets]] and [[down-sets]] $\uparrow\!\{x\}$ and $\downarrow\!\{x\}$ are always [[closed set|closed]] and [[compact]].
+
 (...)
 
 ## Categories of compact ordered spaces
