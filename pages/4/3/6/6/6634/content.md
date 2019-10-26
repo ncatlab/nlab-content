@@ -61,6 +61,9 @@ Note that a lax morphism of algebras for the 2-comonad $W$ is a *colax* morphism
 
 * If $T$ is a [[lax-idempotent 2-monad]], then (by definition) *every* morphism in the underlying 2-category $K$ between (the objects underlying) $T$-algebras has a unique structure of lax $T$-morphism.  For instance, every functor between categories with (some class of) [[colimits]] is a lax morphism for the 2-monad which assigns those colimits; the unique lax structure map is the canonical comparison $colim (F\circ D) \to F(colim D)$.  Such a morphism is strong/pseudo exactly when it preserves the colimits in question.
 
+* For [[probability monads]] on a [[locally posetal 2-category]], such as the [[Radon monad#the_ordered_case|ordered Radon monad]], the lax morphisms of algebras corresponds to [[concave maps]] or a suitable generalization thereof.
+
+
 ## Categories of lax morphisms
 
 For any 2-monad $T$, there are a 2-categories:
