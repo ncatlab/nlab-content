@@ -10,6 +10,8 @@
 =--
 =--
 
+## Overview
+
 Handling higher structures such as [[higher category theory|higher categories]] usually involves conceiving them as  conglomerates of _cells_ of certain _shape_.
 
 Examples for possible shapes used to model higher categories are
@@ -18,11 +20,13 @@ Examples for possible shapes used to model higher categories are
 
 * [[simplex|simplices]];
 
-* [[cube|cubes]]. 
+* [[prisms]];
 
-* [[trees]].
+* [[cube|cubes]];
 
-* [[cell category|globular cells]]
+* [[trees]];
+
+* [[cell category|globular cells]];
 
 * [[opetopes]], aka [[multitopes]].
 
