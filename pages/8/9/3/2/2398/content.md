@@ -105,6 +105,11 @@ between the [[de Rham complex]] and the collection of [[singular cohomology|sing
 
 This is due to ([Gugenheim, 1977](#Gugenheim)).
 
+Furthermore, the [[E-infinity algebra]] structure on [[differential forms]]
+(trivially induced by the [[commutative dga]] structure)
+and [[singular cochains]] (as witnessed by the action of
+the [[sequence operad]] of McClure and Smith on [[singular cochains]])
+is also preserved.
 
 ### Synthetic version
 
