@@ -44,7 +44,7 @@ This is often called the _Schrödinger representation_ (after [[Erwin Schröding
 
 ## Related concepts
 
-* for the Schrödinger representation obtained via [[geometric quantization]] see [there](geometric+quantization#ExamplesSchroedingerRepresentation)
+* For the Schrödinger representation obtained via [[geometric quantization]] see [there](geometric+quantization#ExamplesSchroedingerRepresentation).
 
 ## References
 
