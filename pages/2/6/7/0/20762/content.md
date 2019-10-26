@@ -130,7 +130,7 @@ If one further restricts to _normalized_ simple valuations, one obtains as submo
 
 * [[Giry monad]], [[Radon monad]], [[probabilistic powerdomain]], [[valuation monad on locales]], [[distribution monad]]
 
-* [[convex space]]
+* [[convex space]], [[conical space]]
 
 
 
