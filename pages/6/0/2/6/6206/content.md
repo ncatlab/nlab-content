@@ -47,6 +47,7 @@ A comprehensive discussion of the corresponding gradient flows is in
 [[!redirects Wasserstein distance]]
 [[!redirects Wasserstein distances]]
 [[!redirects Kantorovich-Wasserstein metric]]
+[[!redirects Kantorovich-Wasserstein distance]]
 [[!redirects Kantorovich-Wasserstein norm]]
 [[!redirects Kantorovich metric]]
 [[!redirects Kantorovich distance]]
