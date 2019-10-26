@@ -90,7 +90,7 @@ Of course, most of the examples given above are cancellative, being manifestly g
 * [[convex function]]
 * [[distribution monad]]
 * [[monads of probability, measures, and valuations]]
-* [[vector space]]
+* [[vector space]], [[affine space]], [[conical space]]
 
 ## References
 
