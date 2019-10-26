@@ -24,6 +24,11 @@ Each such tree may naturally be regarded as specifying an (colored) [[symmetric 
 
 As such, $\Omega$ is by construction a full subcategory of that of [[symmetric operads]] enriched over [[Set]].
 
+### Operadic structure
+
+$\Omega$ can be turned into a (symmetric) [[operad]]
+by grafting trees.
+
 ## Dendroidal sets
 
 A [[presheaf]] on $\Omega$ is a [[dendroidal set]], a generalization of a [[simplicial set]].
@@ -44,3 +49,6 @@ A [[presheaf]] on $\Omega$ is a [[dendroidal set]], a generalization of a [[simp
 
 [[!redirects category of trees]]
 [[!redirects categories of trees]]
+
+[[!redirects operad of trees]]
+[[!redirects operads of trees]]
