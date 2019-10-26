@@ -24,13 +24,15 @@ There is another context where people say a function is convex if it is a [[Lips
 
 ## Definition 
 
-Let $D$ be a [[convex space]]. A [[function]] $f \colon D \to \mathbb{R}$ is *convex* if the [[set]] $\{(x, y) \in D \times \mathbb{R}: y \geq f(x)\}$ is a convex subspace of $D \times \mathbb{R}$. Equivalently, $f$ is convex if for all $x, y \in D$, 
+Let $D$ be a [[convex space]]. A [[function]] $f \colon D \to \mathbb{R}$ is **convex** if the [[set]] $\{(x, y) \in D \times \mathbb{R}: y \geq f(x)\}$ is a convex subspace of $D \times \mathbb{R}$. Equivalently, $f$ is **convex** if for all $x, y \in D$, 
 
 $$f(t x + (1-t) y) \leq t f(x) + (1-t) f(y)$$ 
 
 whenever $0 \leq t \leq 1$. 
 
 This definition obviously extends to functions $f \colon D \to I$ where $I$ is an [[interval]] of $\mathbb{R}$ (whether open or closed or half-open, it doesn't matter). 
+
+The function $f$ is called **concave** if it satisfy the reverse inequality to the one given above.
 
 ## Examples 
 
@@ -138,7 +140,16 @@ See also
 
 * Wikipedia, _[Convex function](http://en.wikipedia.org/wiki/Convex_function)_
 
+[[!redirects convex map]]
+[[!redirects convex maps]] 
 [[!redirects convex function]]
 [[!redirects convex functions]] 
 [[!redirects log-convex function]] 
 [[!redirects log-convex functions]] 
+
+[[!redirects concave map]]
+[[!redirects concave maps]] 
+[[!redirects concave function]]
+[[!redirects concave functions]]
+[[!redirects log-concave function]] 
+[[!redirects log-concave functions]]  
