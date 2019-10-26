@@ -81,7 +81,16 @@ p \mapsto \int_{C} c \,dp(c) .
 $$
 Since the space is [[compact]], the integral above is well-defined, and it returns an element of $C$ which we can view as the "center of mass" of $p$. 
 
-Conversely, it can be proven that every $P$-algebra is of this form (see [Swirszcz '74](#swirszcz) and the later [Keimel '08](#radonkeimel)).
+Conversely, it can be proven that every $P$-algebra is of this form.
+
+The [[Eilenberg-Moore category|morphisms of algebras]] are the continuous maps between algebras which commute with the operation of taking integrals. 
+It can be shown that these coincide with the _affine_ maps, i.e. those maps $f:A\to B$ which satisfy
+$$
+f\big( \lambda\, a + \mu\, b  \big) \;=\; \lambda\,f(a) + \mu\,f(b)
+$$
+for all $a,b\in A$ and $0\le\lambda,\mu\le 1$ (with $\lambda+\mu=1$ for the normalized case).
+
+For more information, see [Swirszcz '74](#swirszcz) and the later [Keimel '08](#radonkeimel).
 
 
 ## The ordered case
@@ -109,7 +118,27 @@ The algebras of $R$, similarly, can be seen as the ordered equivalent of [[Kegel
 
 See [Keimel '08](#radonkeimel) for more.
 
-(...)
+Just as for the unordered case, the [[Eilenberg-Moore category|algebra morphisms]] are the continuous affine maps, which here are also required to be monotone.
+
+### Lax morphisms are concave maps
+
+Differently from the unordered case, in the ordered setting we have a [[2-category]], and so it makes sense to talk about [[lax morphisms]] of algebras. 
+By definition, these amount to maps between algebras $f:A\to B$ with the [[stuff, structure, property|property]] that 
+$$
+f \left( \int a \, dp(a) \right) \;\le\; \int f(a) \, dp(a)
+$$
+for all $p\in P A$ (resp. $R A$).
+
+By the generalized [[Jensen's inequality]], these are precisely the (continuous, monotone) [[concave maps]], i.e. the maps that satisfy
+$$
+f\big( \lambda\, a + \mu\, b  \big) \;\le\; \lambda\,f(a) + \mu\,f(b) .
+$$
+(Compare with the strict case by replacing the order with equalities.)
+
+Just as well, the oplax morphisms are the (continuous, monotone) [[convex maps]].
+
+(For more information see the analogous discussion for the [[Kantorovich monad]] in [F-P '18](#orderedkantorovich).)
+
 
 ## See also
 
@@ -129,6 +158,10 @@ See [Keimel '08](#radonkeimel) for more.
 * {#swirszcz} T. Swirszcz, _Monadic functors and convexity_, Bulletin de l'Academie Polonais des Sciences 22, 1974 ([pdf](https://www.fuw.edu.pl/~kostecki/scans/swirszcz1974.pdf))
 
 * {#radonkeimel} [[Klaus Keimel]], _The monad of probability measures over compact ordered spaces and its Eilenberg-Moore algebras_, Topology and its Applications, 2008 ([doi:10.1016/j.topol.2008.07.002](https://doi.org/10.1016/j.topol.2008.07.002))
+
+
+* {#orderedkantorovich} [[Tobias Fritz]] and Paolo Perrone, _Stochastic order on metric spaces and the ordered Kantorovich monad_, submitted, 2018. ([arXiv:1808.09898](https://arxiv.org/abs/1808.09898))
+
 
 [[!redirects ordered Radon monad]]
 [[!redirects radon monad]]
