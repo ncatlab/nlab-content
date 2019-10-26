@@ -37,7 +37,7 @@ Equip both sets with the [[weak topology|topology of weak convergence]] with res
 
 Since [[tau-additive measure#relationship_with_other_measuretheoretical_notions|on compact Hausdorff spaces Radon and τ-additive measures coincide]], we can equivalently define $R X$ and $P X$ as the sets of subnormalized and normalized [[τ-additive measures]].
 
-For probability measures, the [[weak topology]] and the [[extended probabilistic powerdomain#the_measure_monad_on_top|A-topology]] coincide, so that $P$ an be extended to a submonad of the [[extended probabilistic powerdomain#the_probability_monad_on_top|probability monad on Top]].
+For probability measures, the [[weak topology]] and the [[extended probabilistic powerdomain#the_measure_monad_on_top|A-topology]] coincide, so that $P$ an be extended to the [[extended probabilistic powerdomain#the_probability_monad_on_top|probability monad on Top]].
 
 The same cannot be said for $R$, since the weak topology and the A-topology do not coincide for _subnormalized_ measures: given $\mu\in R X$, the measure $r \mu$ for $0 \le r \le 1$ is in the [[closure]] of $\mu$ for the $A$-topology, while the weak topology is [[Hausdorff]].
 
@@ -144,7 +144,7 @@ Just as well, the oplax morphisms are the (continuous, monotone) [[convex maps]]
 
 * [[monads of probability, measures, and valuations]]
 
-* [[Giry monad]], [[extended probabilistic powerdomain]]
+* [[Giry monad]], [[extended probabilistic powerdomain]], [[Kantorovich monad]]
 
 * [[locally convex topological vector space]], [[ordered vector space]], [[convex space]]
 
