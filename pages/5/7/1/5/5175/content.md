@@ -17,6 +17,8 @@
 
 A **Dirac distribution** or **Dirac $\delta$-distribution** $\delta(p)$ is the [[distribution]] that is given by [[evaluation|evaluating]] a [[function]] at a point $p$.
 
+It is closely related to [[Dirac measures]], in the language of [[measure theory]].
+
 ## Properties
 
 
@@ -164,6 +166,8 @@ and for $k \in \mathbb{N}$ the [[order of a distribution|order]] of $u$.
 * [[Green's function]]
 
 * [[Kronecker delta]]
+
+* [[Dirac measure]]
 
 ## References
 
