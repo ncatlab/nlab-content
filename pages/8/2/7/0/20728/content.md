@@ -140,7 +140,7 @@ See [the table below](#detailed_list) for more details.
   <td markdown="1">[van Breugel '05](#vanbreugel), [F-P '19](#kantorovich19)</td>
  </tr>
  <tr>
-  <th markdown="1">(ordered) [[Kantorovich monad]]</th>
+  <th markdown="1">[[Kantorovich monad#the_ordered_case|ordered Kantorovich monad]]</th>
   <td markdown="1">[[Cauchy-complete|complete]] [[L-ordered]] [[metric spaces]]</td>
   <td markdown="1">[[Radon measure|Radon probability measures]] of finite first moment</td>
   <td markdown="1">[[Kantorovich-Wasserstein metric]], [[stochastic order]]</td>
