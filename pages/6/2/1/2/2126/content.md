@@ -154,8 +154,14 @@ A previous version of this entry led to the following discussion, which later le
 ## References
 
 * {#Sella16} [[Yehonatan Sella]], _Comparison of sheaf cohomology and singular cohomology_ ([arXiv:1602.06674](http://arxiv.org/abs/1602.06674))
+
 [[!redirects Betti cohomology]]
 
+[[!redirects singular chain]]
+[[!redirects singular chains]]
 [[!redirects singular chain complex]]
-
 [[!redirects singular chain complexes]]
+[[!redirects singular cochain]]
+[[!redirects singular cochains]]
+[[!redirects singular cochain complex]]
+[[!redirects singular cochain complexes]]
