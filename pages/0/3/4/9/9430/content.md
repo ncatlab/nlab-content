@@ -46,6 +46,8 @@ One can compute intervals for homological features algorithmically over field co
 
 ## References
 
+### General
+
 A clear introduction to the use of persistent homology in data analysis is
 
 * [[Robert Ghrist]], _Barcodes: The Persistent Topology of Data_, ([pdf](https://www.math.upenn.edu/~ghrist/preprints/barcodes.pdf))
@@ -75,6 +77,15 @@ The following paper uses persistent homology to single out features relevant for
 training neural networks,
 
 * Jean-Baptiste Bardin, Gard Spreemann, [[Kathryn Hess]], _Topological exploration of artificial neuronal network dynamics_, [arxiv/1810.01747](https://arxiv.org/abs/1810.01747)
+
+### Variants
+
+Discussion of persistent [[Cohomotopy]]:
+
+
+* Peter Franek, Marek Krčál, _Persistence of Zero Sets_, ([arXiv:1507.04310](https://arxiv.org/abs/1507.04310)); 
+
+  accompanying talk: _Cohomotopy groups capture robust Properties of Zero Sets via Homotopy Theory_, ([slides](https://www2.ist.ac.at/fileadmin/user_upload/events_pages/acat/ACAT2015_Marek_Krcal.pdf))
 
 category: topology, applications
 
