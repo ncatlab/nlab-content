@@ -126,8 +126,10 @@ For more details, see [F-P '19](#kantorovich19).
 
 * {#vanbreugel} Franck van Breugel, _The metric monad for probabilistic nondeterminism_, unpublished, 2005. ([pdf](http://www.cse.yorku.ca/~franck/research/drafts/monad.pdf))
 
-* {#kantorovich19} [[Tobias Fritz]] and Paolo Perrone, _A probability monad as the colimit of spaces of finite samples_, Theory and Applications of Categories 34, 2019. ([pdf](http://www.tac.mta.ca/tac/volumes/34/7/34-07.pdf))
+* {#kantorovich19} [[Tobias Fritz]] and Paolo Perrone, _A probability monad as the colimit of spaces of finite samples_, Theory and Applications of Categories 34, 2017. ([pdf](http://www.tac.mta.ca/tac/volumes/34/7/34-07.pdf))
 
 * {#orderedkantorovich} [[Tobias Fritz]] and Paolo Perrone, _Stochastic order on metric spaces and the ordered Kantorovich monad_, submitted, 2018. ([arXiv:1808.09898](https://arxiv.org/abs/1808.09898))
 
 * {#villani} [[Cedric Villani]], _Optimal transport: old and new_, Springer, 2008.
+
+* {#behavioral} Paolo Baldan, Filippo Bonchi, Henning Kerstan and Barbara König, _Coalgebraic behavioral metrics_, Logical Methods in Computer Science 14(3), 2018. ([doi: 10.23638/LMCS-14(3:20)2018](https:doi.org/10.23638/LMCS-14%283:20%292018)) 
