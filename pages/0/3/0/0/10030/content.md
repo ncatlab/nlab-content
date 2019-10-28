@@ -20,7 +20,7 @@
 
 ### General
 
-An _asymptotic expansion_ of a [[function]] is a [[formal power series]] that may not [[convergence|converge]], but whose terms decrease fast enough such that the truncation of the series at any finite order still provides a controled approximation to a given [[function]].  
+An _asymptotic expansion_ of a [[function]] is a [[formal power series]] that may not [[convergence|converge]], but whose terms decrease fast enough such that the truncation of the series at any finite order still provides a controlled approximation to a given [[function]].  
 
 A key class of examples of asymptotic expansions are the [[Taylor series]] of [[smooth functions]] (example \ref{TaylorSeriesOfSmoothFunctionIsAsymptoticSeries} below) around any point. Beware that by [[Borel's theorem]] this means that _every_ [[formal power series]] is the asymptotic expansion of _some_ smooth function and of more than one smooth function (remark \ref{TheoremBorel} below).
 
