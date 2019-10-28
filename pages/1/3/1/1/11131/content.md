@@ -72,4 +72,8 @@ With emphasis on the use of the [[univalence axiom]]:
 
 * {#Booij18} Auke Booij, _Extensional constructive real analysis via locators_ ([arXiv:1805.06781](https://arxiv.org/abs/1805.06781))
 
+See also 
+
+* {#Johansson19} Fredrik Johansson, _Reliable real computing_, talk at Mathematical Institute of Oxfird, 2019 ([pdf](http://fredrikj.net/math/oxford2019.pdf))
+
 [[!redirects exact analysis]]
