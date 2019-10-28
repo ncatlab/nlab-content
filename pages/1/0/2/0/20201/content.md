@@ -30,7 +30,7 @@ From [Awodey 09, p. 13](#Awodey09), [Awodey 10, p. 15](#Awodey10):
 
 A concise statement would be that the [[internal logic of an (∞,1)-topos|internal logic of (∞,1)-toposes]] is [[homotopy type theory]], though there is fine print involved.
 
-Following this suggestion, the weaker form of this idea, ignoring the [[univalence|univalent]] [[type universe]] and relating to the broader class of [[locally Cartesian closed (∞,1)-categories]], was stated more concretely as a conjecture in [Joyal 11](#Joyal11). Fore more precision see [Kapulkin-Lumsdaine 16, p. 9](#KapulkinLumsdaine16).
+Following this suggestion, the weaker form of this idea, ignoring the [[univalence|univalent]] [[type universe]] and relating to the broader class of [[locally Cartesian closed (∞,1)-categories]], was stated more concretely as a conjecture in [Joyal 11](#Joyal11). For more precision see [Kapulkin-Lumsdaine 16, p. 9](#KapulkinLumsdaine16).
 
 Roughly, this is about the following table of correspondences (for more see at [[relation between type theory and category theory]]):
 
