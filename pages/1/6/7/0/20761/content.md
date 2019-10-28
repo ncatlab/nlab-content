@@ -34,7 +34,7 @@ $$
 
 In the setup of operator algebras, the multiplicative unitaries were introduced as so called Kac–Takesaki operator. Following some ideas on noncommutative extensions of Pontrjagin duality (in Tannaka-Krein spirit) by George's Kac and also M. Takesaki, Lecture Notes in Mathematics. 247, Berlin: Springer; 1972. pp. 665–785. The followup work of Baaj and Skandalis introduced two more fundamental axioms, regularity and irreducibility, important in $C^*$-algebraic setup. 
 
-* Saad Baaj, Georges Skandalis, _Unitaires multiplicatifs et dualité pour les produits croisés de $C^*$-algèbre_, Annales scientifiques de l'École Normale Supérieure __26__:4 (1993) 425-488  [numdam](https://doi.org/10.24033/asens.1677); _Transformations pentagonales (Pentagonal transformations)_, Comptes Rendus de l'Académie des Sciences, I - Mathematics __327__:7 (1998) 623-628 [doi](https://doi.org/10.1016/S0764-4442(99)80090-1)
+* Saad Baaj, Georges Skandalis, _Unitaires multiplicatifs et dualité pour les produits croisés de $C^*$-algèbre_, Annales scientifiques de l'École Normale Supérieure __26__:4 (1993) 425-488  [numdam](https://doi.org/10.24033/asens.1677); _Transformations pentagonales (Pentagonal transformations)_, Comptes Rendus de l'Académie des Sciences, I - Mathematics __327__:7 (1998) 623-628, <a: href="https://doi.org/10.1016/S0764-4442(99)80090-1">doi</a>
 
 * Saad Baaj, Étienne Blanchard, Georges Skandalis, _Unitaires multiplicatifs en dimension finieet leurs sous-objets_, Annales de l’institut Fourier, tome  49, no4 (1999), p. 1305-1344 [numdam](http://www.numdam.org/item?id=AIF_1999__49_4_1305_0)
 
@@ -60,6 +60,11 @@ It is useful to look at the survey
 Proc Natl Acad Sci USA 97(2): 547–552 (2000) [doi](https://doi.org/10.1073/pnas.97.2.547)
 
 * A. Van Daele, S. Van Keer, _The Yang-Baxter and pentagon equation_, Compositio Mathematica __91__:2 (1994)  201-221 [numdam](http://www.numdam.org/item/CM_1994__91_2_201_0)
+
+The categorical background of the pentagon equation has been studied in
+
+* [[Ross Street]], _Fusion operators and cocycloids in
+monoidal categories_, Applied Categorical Structures 6: 177–191 (1998) [doi](https://doi.org/10.1023/A:1008655911796)
 
 A finite dimensional version is reformulated in section 3 of
 
