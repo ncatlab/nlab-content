@@ -224,19 +224,31 @@ Discussion of the experimentally observed tiny cosmological constant and the fol
 ### In string theory
   {#ReferencesInStringTheory}
 
-Discussion from the point of view of [[perturbative string theory]], where the cosmological constant is fixed by the choice of [[perturbative string theory vacuum]] includes
+Discussion from the point of view of [[perturbative string theory]], where the cosmological constant is fixed by the choice of [[perturbative string theory vacuum]].
+
+#### For fundamentally vanishing cc
+
+An argument for [[string phenomenology]] with fundamentally vanishing [[cosmological constant]] based on 4d [[T-duality|T-duals]] of 3d [[M-theory on 8-manifolds]]
 
 * {#Witten00} [[Edward Witten]], _The Cosmological Constant From The Viewpoint Of String Theory_ ([arXiv:hep-ph/0002297](https://arxiv.org/abs/hep-ph/0002297))
 
+  (see bottom of p. 6)
+
 See also
 
-* [[Edward Witten]], _Strong coupling and the cosmological constant_, Mod.Phys.Lett.A10:2153-2156,1995 ([arXiv:hep-th/9506101](https://arxiv.org/abs/hep-th/9506101))
+* [[Edward Witten]], _Strong coupling and the cosmological constant_, Mod. Phys.Lett. A10:2153-2156,1995 ([arXiv:hep-th/9506101](https://arxiv.org/abs/hep-th/9506101))
 
-for discussion in terms of the [[M-theory]]/[[type IIA string theory|type IIA]] relation [[KK-compactification|KK-compactified]] to a 4d/3d scenario, where the 3d physics is weakly coupled and the 4d physics strongly coupled. (Recall the [[super 2-brane in 4d]].)  
+for discussion in terms of the [[duality between M-theory and type IIA string theory]] [[KK-compactification|KK-compactified]] to a 4d/3d scenario, where the 3d physics is weakly coupled and the 4d physics strongly coupled. (Recall the [[super 2-brane in 4d]].)  
 
 This discussion was later supplemented by 
 
 * [[Edward Witten]], section 3 of _Some Comments On String Dynamics_ ([arXiv:hep-th/9507121](http://arxiv.org/abs/hep-th/9507121))
+
+and related to realization in [[F-theory]] in 
+
+* Cumrun Vafa, Section 4.3 of: _Evidence for F-Theory_, Nucl.Phys.B469:403-418,1996 ([arxiv:hep-th/9602022](https://arxiv.org/abs/hep-th/9602022))
+
+#### For fundamentally non-vanishing cc
 
 But a) there might be a large space of [[perturbative string theory vacua]]  and b) the [[de Sitter spacetime|de Sitter vacua]] that seem to correspond to observation tend to exist (only) as metastable vacua:
 
