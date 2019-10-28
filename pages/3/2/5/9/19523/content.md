@@ -14,7 +14,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -25,7 +24,7 @@ What is called _inhomogeneous cosmology_ is the study of [[cosmology]] via cosmo
 
 This is in contrast to the [[standard model of cosmology]], based on [[FRW model]]-type solutions to [[Einstein's equations]], where [[spacetime]] _is_ assumed to be spatially homogeneous (an assumption also known as the _cosmological principle_). 
 
-Of course the [[observable universe]] is clearly not _exactly_ homogeneous (due to initial [[CMB]] fluctuation and ensuing [[structure formation]]), but the question is whether on cosmic [[scales]] the deviation from homogeneity is small enough that it may be neglected, to first approximation, for the purpose of modelling cosmological evolution, or whether it exerts relevant "backreaction" on the global evolution of spacetime. For a clean account of the question see [Kolb-Marra-Matarrese 10](#KolbMarraMatarrese10).
+Of course the [[observable universe]] is clearly not _exactly_ homogeneous (due to initial [[CMB]] fluctuation and ensuing [[structure formation]]), but the question is whether on cosmic [[scales]] the deviation from homogeneity is small enough that it may be neglected, to first approximation, for the purpose of modelling cosmological evolution, or whether it exerts relevant "backreaction" on the global evolution of spacetime. For a clean account of the question see [Kolb-Marra-Matarrese 10](#KolbMarraMatarrese10), for review see [Ellis 18](#Ellis18).
 
 It has been shown that the effect of such backreaction is small or invisible if the inhomogeneity is modeled in a non-[[relativistic field theory|relativistic]] (i.e. Newtonian) limit, instead of taking [[general relativity|relativity]] into account ([Buchert 00](#Buchert00), [Buchert-Ehlers 95](#BuchertEhlers95)), which however is the standard approximation currently used in comparing the [[standard model of cosmology]] to data.
 
@@ -124,6 +123,12 @@ A seminal theoretical argument that it _is_ consistent to neglect cosmic inhomog
 
 > This, in principle, ends the debate about whether backreaction has been excluded as a dark energy candidate: the Green and Wald formalism does not apply to the main body of backreaction research; backreaction remains a viable dark energy candidate.
 
+Later, [Ostrowski 19](#Ostrowski19) summarizes this as follows:
+
+> Green and Wald formalism, being a special case of two-scale asymptotic homogenization is not applicable to gravitational systems with hierarchical structures
+
+> any features of backreaction (including backreaction being trace-free) based on Green and Wald formalism are unjustified
+
 Accordingly, the review [Coley 18, section 3.5](#Coley18) of [[mathematical physics|mathematical]] [[general relativity]] again regards the issue as open:
 
 > An important open question in cosmology is whether averaging of inhomogeneities can lead to significant backreaction effects on very large scales. (p. 28)
@@ -135,6 +140,7 @@ Similarly in [Huang-Gao-Xu 19, p. 2](#HuangGaoXu19):
 and [CosmoBack 18](#CosmoBack18):
 
 > Indeed, the actual amplitude of the backreaction effect, whether it requires a fully nonlinear general relativistic treatment or whether a perturbative approach is sufficient, the impact of the gauge choice, of coarse-graining, and of averaging procedures in defining the observables are still open problems. 
+
 
 and [Koksbang 19, p. 3](#Koksbang19):
 
@@ -169,6 +175,12 @@ However, this may be over-interpreting the realism of these simple models. Accor
 * [[structure formation]]
 
 ## References
+
+General review:
+
+* {#Ellis18} [[George Ellis]], summary talk at [CosmoBack 2018](https://cosmoback.sciencesconf.org/) ([[EllisCosmoBack18.pdf:file]])
+
+
 
 See also 
 
@@ -223,7 +235,10 @@ See also
 
 * {#CosmoBack18} [CosmoBack 2018](https://cosmoback.sciencesconf.org/) , _From inhomogeneous gravity to cosmological backreaction. Theoretical opportunity? Observational evidence?_
 
-* Syksy Räsänen, _Ways to settle the backreaction conjecture_, talk at [CosmoBack 2018](https://cosmoback.sciencesconf.org ([[RasanenWaysToSettle18.pdf:file]])
+* {#Ostrowski19} Jan Ostrowski, _Green and Wald formalism: The aftermath of the "backreaction debate"_, talk at [CosmoBack 2018](https://cosmoback.sciencesconf.org)
+([[OstrowskiBackreactionDebate19.pdf:file]])
+
+* Syksy Räsänen, _Ways to settle the backreaction conjecture_, talk at [CosmoBack 2018](https://cosmoback.sciencesconf.org) ([[RasanenWaysToSettle18.pdf:file]])
 
 
 
