@@ -51,7 +51,7 @@ $$
 
 Compare with the [[pushforward of measures]]. 
 
-This makes $D$ into an endofunctor on [[Set]]. 
+This makes $D$ into an [[endofunctor]] on [[Set]]. 
 
 ### Monad structure
 
