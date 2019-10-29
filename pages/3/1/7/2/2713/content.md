@@ -188,6 +188,12 @@ Traditionally spectral triples are discussed without specifying their [[homomorp
 
 (See also the pointers concerning the relation to [[KK-theory]] [below](#ReferencesRelationToKKTheory)).
 
+Spectral triples over [[Jordan algebras]]:
+
+* Latham Boyle, Shane Farnsworth,
+_The standard model, the Pati-Salam model, and "Jordan geometry"_ ([arxiv:1910.11888](https://arxiv.org/abs/1910.11888))
+
+
 ### Relation to quantum physics 
 
 A discussion of spectral triples as [[FQFT]] data encoding a [[representation]] of a category of 1-dimensional [[cobordisms]] with [[Riemannian manifold|Riemannian]] structure and vertices is in section 1.4 of 
