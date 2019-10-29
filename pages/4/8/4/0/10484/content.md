@@ -711,6 +711,10 @@ $$
 
 ## Related concepts
 
+* [[Euclidean space]]
+
+* [[Euclidean G-space]]
+
 [[!include geometries of physics -- table]]
 
 * [[super-Cartan geometry]]
