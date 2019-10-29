@@ -1,6 +1,8 @@
+
 # Axioms of replacement and collection
 * table of contents
 {: toc}
+
 
 ## Idea
 
@@ -37,7 +39,10 @@ Generally, $\phi$ will need to be an [[entire relation]] for the axiom to apply;
 
 So much for the hypothesis of the axiom; the conclusion asserts the existence of a [[family of sets]] to which appropriate $Y$s belong.  In a material set theory, we can simply state the existence of set $\mathcal{F}$ such that certain $Y \in \mathcal{F}$.  In a structural set theory, we state the existence of an index set $I$, a total set $E$, and a function $f\colon E \to I$ such that each [[fibre]] $f^*(x)$ for $x \in I$ is equal to (or at least isomorphic to) certain $Y$.  (Often we can take $I$ to be $A$, but that does not come into the statement of the axioms.)
 
-...
++-- {: .query}
+Who wants to write out some of these?
+=--
+
 
 ## Lawvere on replacement
 
@@ -45,11 +50,15 @@ So much for the hypothesis of the axiom; the conclusion asserts the existence of
 
 See also the remarks on pages 721 and 727 of ([Lawvere 2000](#Lawvere00)).
 
-## Related pages
+
+## Related discussion
 
 * [[Thomas Streicher]], [[William Lawvere]], [[Colin McLarty]] et al, *Categorical formulations of replacement*, March 2008. ([link](http://www.mta.ca/~cat-dist/archive/2008/08-3))
 
 * MO-discussion: _Who needs Replacement anyway ?_  ([link](http://mathoverflow.net/questions/208711/who-needs-replacement-anyway))
+
+* Akihiro Kanamori (2012). _In Praise of Replacement_. The Bulletin of Symoblic Logic 18:1 (2012 March).  [pdf](http://math.bu.edu/people/aki/20.pdf).
+
 
 ## Related entries
 
@@ -60,6 +69,7 @@ See also the remarks on pages 721 and 727 of ([Lawvere 2000](#Lawvere00)).
 * [[axiom of choice]]
 
 * [[ETCS]]
+
 
 ## References
 
@@ -89,7 +99,7 @@ See also the remarks on pages 721 and 727 of ([Lawvere 2000](#Lawvere00)).
 
 * [[Paul Taylor]], *[[Practical Foundations of Mathematics]]*, Cambridge UP 1999. (ch. 9)
 
-* George Tourlakis, *Lectures in Logic and Set Theory*, Volume 2: Set Theory_, Cambridge University Press (2003). (section III.8)
+* George Tourlakis, *Lectures in Logic and Set Theory*, Volume 2: _Set Theory_, Cambridge University Press (2003). (section III.8)
 
 
 [[!redirects axiom of replacement]]
