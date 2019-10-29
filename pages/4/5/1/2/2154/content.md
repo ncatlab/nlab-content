@@ -74,6 +74,8 @@ and other inner products are recovered by linearity.  (We must then use the axio
 
 ## Related concepts
 
+* [[Euclidean G-space]]
+
 * [[super-Euclidean space]]
 
 * [[Euclidean geometry]]
