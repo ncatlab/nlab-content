@@ -74,6 +74,6 @@ With emphasis on the use of the [[univalence axiom]]:
 
 See also 
 
-* {#Johansson19} Fredrik Johansson, _Reliable real computing_, talk at Mathematical Institute of Oxfird, 2019 ([pdf](http://fredrikj.net/math/oxford2019.pdf))
+* {#Johansson19} Fredrik Johansson, _Reliable real computing_, talk at Mathematical Institute of Oxford, 2019 ([pdf](http://fredrikj.net/math/oxford2019.pdf))
 
 [[!redirects exact analysis]]
