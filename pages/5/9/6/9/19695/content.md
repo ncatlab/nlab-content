@@ -117,3 +117,7 @@ Without the assumption of [[proper action]] in Prop. \ref{FixedLociOfSmoothPrope
 [[!redirects fixed locus]]
 [[!redirects fixed loci]]
 
+[[!redirects fixed point subspace]]
+[[!redirects fixed point subspaces]]
+
+
