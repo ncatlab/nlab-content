@@ -314,6 +314,10 @@ Review includes
 
 * {#Alguero19} Marcel Alguero, _Emerging patterns of New Physics with and without Lepton Flavour Universal contributions_, talk at [bsll2019](https://indico.in2p3.fr/event/18646/) ([pdf](https://indico.in2p3.fr/event/18646/contributions/74403/attachments/54790/71933/Marcel_Alguero_Lyon.pdf), [[AlgueroBsll19.pdf:file]])
 
+* Jon Butterworth, Section 1 in: _Highlights of EPS HEP 2019_, talk at [eps-hep2019](http://eps-hep2019.eu/)
+ ([arxiv:1910.12768](https://arxiv.org/abs/1910.12768))
+
+
 Outlook:
 
 * {#AllanachGripaiosYou17} [[Ben Allanach]], Ben Gripaios, Tevong You, _The Case for Future Hadron Colliders From $B \to K^{(\ast)}\mu^+ \mu^-$ Decays_, JHEP03(2018)021 ([arXiv:1710.06363](https://arxiv.org/abs/1710.06363))
