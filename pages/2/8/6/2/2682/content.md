@@ -350,6 +350,9 @@ On the other hand, discussion casting doubt on the existence of a large number o
 
 * [[Tom Banks]], _The Top $10^{500}$ Reasons Not to Believe in the Landscape_ ([arXiv:1208.5715](https://arxiv.org/abs/1208.5715))
 
+* [[Tom Banks]], _On the Limits of Effective Quantum Field Theory: Eternal Inflation, Landscapes, and Other Mythical Beasts_ ([arxiv:1910.12817](https://arxiv.org/abs/1910.12817))
+
+
 * [Brennan-Carta-Vafa 17](#BrennanCartaVafa17)
 
 * [[David Kutasov]], Travis Maxfield, Ilarion Melnikov, [[Savdeep Sethi]], _Constraining de Sitter Space in String Theory_, Phys. Rev. Lett. 115, 071305 (2015) ([arXiv:1504.00056](https://arxiv.org/abs/1504.00056))
