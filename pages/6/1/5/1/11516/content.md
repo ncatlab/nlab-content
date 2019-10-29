@@ -63,6 +63,9 @@ Then the underlying [[Euclidean space]] $\mathbb{R}^V$ inherits the [[mathematic
    \mathbb{R}^V\ar@(ul,ur)^G
 \end{xymatrix}
 
+We may call this the _[[Euclidean G-space]]_ associated with the linear representation $V$.
+
+
 ### Representation spheres
 
 
