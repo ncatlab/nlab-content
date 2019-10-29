@@ -30,7 +30,7 @@ $$
 
 The category $Ab$ serves as the basic [[enriched category theory|enriching]] category in [[homological algebra]]. There [[Ab-enriched categories]] play much the same role as [[Set]]-enriched categories ([[locally small categories]]) play in general. 
 
-In this vein, the analog of $Ab$  in [[homotopy theory]] -- or rather in _[[stable homotopy theory]] -- is the category of [[spectra]], either regarded as the [[stable homotopy category]] or rather refined to the [[stable (infinity,1)-category of spectra]]. A spectrum is much like an abelian group up to [[coherence law|coherent]] [[homotopy]] and the role of the archetypical abelian group $\mathbb{Z}$ is the played by the [[sphere spectrum]] $\mathbb{S}$
+In this vein, the analog of $Ab$ in [[homotopy theory]] -- or rather in _[[stable homotopy theory]]_ -- is the category of [[spectra]], either regarded as the [[stable homotopy category]] or rather refined to the [[stable (infinity,1)-category of spectra]]. A spectrum is much like an abelian group up to [[coherence law|coherent]] [[homotopy]] and the role of the archetypical abelian group $\mathbb{Z}$ is the played by the [[sphere spectrum]] $\mathbb{S}$.
 
 
 ## Properties
@@ -46,7 +46,7 @@ $$
   U : Ab \to Set
 $$
 
-to [[Set]] sends a group, regarded as a [[set]] $A$ equipped with the [[structure]] $(+,0)$ of a chose element $0 \in A$ and a binary, associative and 0-unital operation $+$ to its underlying set
+to [[Set]] sends a group, regarded as a [[set]] $A$ equipped with the [[structure]] $(+,0)$ of a chosen element $0 \in A$ and a binary, associative and 0-unital operation $+$ to its underlying set
 
 $$
   (A, +, 0) \mapsto A
