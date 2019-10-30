@@ -1,4 +1,5 @@
 [[!redirects coherent quantum state]]
+[[!redirects coherent quantum state]]
 
 #Contents#
 * table of contents
@@ -6,7 +7,7 @@
 
 ## Idea
 
-_Coherent states_ are members of special overcomplete families of elements (usually in the projectivization) of [[Hilbert space]] of states of certain systems in [[quantum mechanics]]. This entry is mainly about Perelomov style CS, see a separate page for [[Hall coherent state]]s.
+_Coherent states_ are members of special overcomplete families of elements (usually in the projectivization) of [[Hilbert space]] of states of certain systems in [[quantum mechanics]]. This entry is mainly about Perelomov style CS, see a separate page for [[Hall coherent state]]s. Coherence in the sense of quantum optics, and in the sense of statistical density matrix is one of the features of these very specifical objects in mathematical physics (thus coherent quantum states would be states of high degree of features of coherence in those senses, rather than refering to the specific families in mathematical physics). 
 
 ## Examples
 
