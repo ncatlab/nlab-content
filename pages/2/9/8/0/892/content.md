@@ -1,14 +1,13 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### $(0,1)$-Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include (0,1)-category theory - contents]]
 =--
 =--
 =--
-
 
 # Power sets
 * table of contents
@@ -24,11 +23,12 @@ Given a [[set]] $S$, the __power set__ of $S$ is the set $\mathcal{P}S$ of all [
 
 * the [[slice category]] $Inj/S$, where [[Inj]] is the [[wide subcategory]] of [[Set]] with morphisms restricted to [[injection|injections]]. This is similar to the subobject definition but is more unpacked. $Inj/S$ has objects that are injections to $S$ and morphisms that are commuting triangles of injections.
 
+
 ## Foundational status
 
 One generally needs a specific axiom in the [[foundations of mathematics]] to ensure the existence of power sets.  In [[material set theory]], this can be phrased as follows:
 
-+-- {: .num_defn}
++-- {: .un_defn}
 ###### Axiom (power sets)
 
 If $S$ is a set, then there exists a set $\mathcal{P}$ such that $A \in \mathcal{P}$ if $A \subseteq S$.
@@ -59,9 +59,11 @@ in the usual arithmetic of [[cardinal numbers]].
 
 The power set construction gives rise to two functors, the contravariant powers set functor $Set^op \to Set$ and the covariant power set functor $Set \to Set$. The first sends a function $f\colon S\to T$ to the _preimage_ function $f^*\colon P(T) \to P(S)$, whereas the second sends $f$ to the _image_ function $f_*\colon P(S) \to P(T)$.
 
+
 ## Related concepts
 
 * A [[closure operator]] on a power set is a _[[Moore closure]]_.
+
 * [[power object]]
 
 * [[poly-morphism]]
