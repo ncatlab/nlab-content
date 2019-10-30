@@ -350,8 +350,23 @@ On the other hand, discussion casting doubt on the existence of a large number o
 
 * [[Tom Banks]], _The Top $10^{500}$ Reasons Not to Believe in the Landscape_ ([arXiv:1208.5715](https://arxiv.org/abs/1208.5715))
 
-* [[Tom Banks]], _On the Limits of Effective Quantum Field Theory: Eternal Inflation, Landscapes, and Other Mythical Beasts_ ([arxiv:1910.12817](https://arxiv.org/abs/1910.12817))
+* {#Banks19} [[Tom Banks]], _On the Limits of Effective Quantum Field Theory: Eternal Inflation, Landscapes, and Other Mythical Beasts_ ([arxiv:1910.12817](https://arxiv.org/abs/1910.12817))
 
+  from pages 14-22:
+
+  > these considerations lead to conclusions at odds with the seemingly similar arguments of $[$ the [[swampland conjectures]] $]$. $[\cdots]$  Perturbative moduli space completely distorts the true nature of the class of consistent models.
+
+  > It’s important to realize that the entire procedure just outlined for finding (meta) stable AdS minima of a non-perturbative effective potential is purely hypothetical and has no basis in well founded string theory calculations. $[\cdots].$ 
+
+  > The hypothesis of the String Landscape is entirely based on low energy effective field theory ideas about finding "vacua" by minimizing an effective potential.  Everything that’s been said above indicates that this idea has no validity in genuine models of quantum gravity. $[\cdots]$
+
+  > The most serious issue,  in  my  opinion,  is  the  contention  that  one  can  make  the  AdS  radius  much  larger  thanthe size of the compact manifold.  All well established examples of large radius AdS/CFT havea compact manifold of dimension 2 or greater whose radius is comparable to that of the AdSspace.  In Appendix A we’ll present an argument based on the properties of AdS black holes,that this is in fact necessary.
+
+  > The next step in the construction of "realistic" models involves "adding an anti-brane to break supersymmetry and make the c.c.  positive".  This is supposed to be a small modification of the model, calculable in low energy effective field theory, and that seems manifestly incorrect. $[\cdots]$.
+
+  > even if one believes that the construction of meta-stable dS models is reliable, there is no clear argument about  what  the  proper  observables  of  the  model  are  nor  that different  dS  constructions are part of the same model.  Neither is there an interpretation of these correlators as transition amplitudes in a quantum mechanical model. $[\cdots]$
+
+  > The conclusion  that  effective  field  theorists  should  draw  from  this is that unlike super-symmetric string models in flat or AdS space-time, many of which have at least perturbative definitions as mathematical models obeying the axioms of quantum mechanics, all literature on the String Landscape is speculation based on the unfounded notion that all string models with a given amount of SUSY are part of one single model and that it makes sense to define an effective action that encompasses all string models. Every single non-perturbative construction of string models contradicts this claim $[\cdots]$
 
 * [Brennan-Carta-Vafa 17](#BrennanCartaVafa17)
 
