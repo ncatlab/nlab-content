@@ -333,6 +333,30 @@ Based on this large number of realizations of the exact field content of the [[s
 
 * {#TaylorTurner19} [[Washington Taylor]], Andrew P. Turner, _Generic construction of the Standard Model gauge group and matter representations in F-theory_ ([arXiv:1906.11092](https://arxiv.org/abs/1906.11092))
 
+#### Cosmological constant
+
+
+An argument for [[non-perturbative effect|non-perturbative]] non-[[supersymmetry|supersymmetric]] 4d [[string phenomenology]] with fundamentally vanishing [[cosmological constant]], based on 3d [[M-theory on 8-manifolds]]
+decompactified at strong coupling to 4d via [[duality between M-theory and type IIA string theory]] (recall the [[super 2-brane in 4d]]):
+
+* {#Witten00} [[Edward Witten]], _The Cosmological Constant From The Viewpoint Of String Theory_, lecture at [DM2000](http://inspirehep.net/record/972507) ([arXiv:hep-ph/0002297](https://arxiv.org/abs/hep-ph/0002297))
+
+  (see p. 7)
+
+* [[Edward Witten]], _Strong coupling and the cosmological constant_, Mod. Phys. Lett. A 10:2153-2156, 1995 ([arXiv:hep-th/9506101](https://arxiv.org/abs/hep-th/9506101))
+
+* [[Edward Witten]], Section 3 of _Some Comments On String Dynamics_, talk at [Strings95](https://cds.cern.ch/record/305869) ([arXiv:hep-th/9507121](http://arxiv.org/abs/hep-th/9507121))
+
+The realization of this scenario in [[F-theory]]:
+
+* [[Cumrun Vafa]], Section 4.3 of: _Evidence for F-Theory_, Nucl. Phys. B469:403-418, 1996 ([arxiv:hep-th/9602022](https://arxiv.org/abs/hep-th/9602022))
+
+* [[Jonathan Heckman]], Craig Lawrie, Ling Lin, Gianluca Zoccarato, _F-theory and Dark Energy_, Fortschritte der Physik  ([arXiv:1811.01959](https://arxiv.org/abs/1811.01959), [doi:10.1002/prop.201900057]( https://doi.org/10.1002/prop.201900057))
+
+* [[Jonathan Heckman]], Craig Lawrie, Ling Lin, Jeremy Sakstein, Gianluca Zoccarato, _Pixelated Dark Energy_ ([arXiv:1901.10489](https://arxiv.org/abs/1901.10489))
+
+
+
 ### 4-Form flux and instantons
  {#FluxAndInstantons}
 
