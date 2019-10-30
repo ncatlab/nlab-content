@@ -18,13 +18,13 @@ and P.P. Cook's [blog](http://ppcook.blogspot.com/2005/12/dilogarithms.html) and
 * A. N. Kirillov, _Dilogarithm identities_, Progr. Theoret. Phys. Suppl. 118 (1995), 61&#8211;142 [hep-th/9408113](http://arxiv.org/abs/hep-th/9408113)
 [MR1356515](http://www.ams.org/mathscinet-getitem?mr=1356515) [doi](http://dx.doi.org/10.1143/PTPS.118.61); _Identities for the Rogers dilogarithm function connected with simple Lie algebras_, J. Soviet Math. 47 (1989), 2450&#8211;2458.
 
-* Rinat M. Kashaev, Tomoki Nakanishi, _Classical and quantum dilogarithm identities_, [arxiv/1104.4630](https://arxiv.org/abs/1104.4630) [doi](https://doi.org/10.3842/SIGMA.2011.102)
+* R.M. Kashaev, _Heisenberg double and the pentagon relation_, St. Petersburg Math. J. 8 (1997) 585&#8211; 592 [q-alg/9503005](http://arxiv.org/abs/q-alg/9503005)
+* Rinat M. Kashaev, Tomoki Nakanishi, _Classical and quantum dilogarithm identities_, [arxiv/1104.4630](https://arxiv.org/abs/1104.4630) [doi](https://doi.org/10.3842/SIGMA.2011.102) (treatment in terms of [[cluster algebra]]s)
+* Tomoki Nakanishi, _Dilogarithm identities for conformal field theories and cluster algebras: Simply laced case_, Nagoya Math. J. __202__ (2011), 23-43, [MR2804544](http://www.ams.org/mathscinet-getitem?mr=2804544) [doi](http://dx.doi.org/10.1215/00277630-1260432)
 
 * B. Richmond, G. Szekeres, _Some formulas related to dilogarithm, the zeta function and the Andrews-Gordon identities_, J. Aust. Math. Soc. __31__ (1981), 362&#8211;373 [MR633444](http://www.ams.org/mathscinet-getitem?mr=633444) [doi](http://dx.doi.org/10.1017/S1446788700019492)
 
 * S. Bloch, _Applications of the dilogarithm function in algebraic K-theory and algebraic geometry_, in: Proc. Int. Symp. on Alg. Geometry, Kinokuniya, Tokyo 1978.
-
-* Tomoki Nakanishi, _Dilogarithm identities for conformal field theories and cluster algebras: Simply laced case_, Nagoya Math. J. __202__ (2011), 23-43, [MR2804544](http://www.ams.org/mathscinet-getitem?mr=2804544) [doi](http://dx.doi.org/10.1215/00277630-1260432)
 
 * W. Nahm, _Conformal field theory and torsion elements of the Bloch group_, in Frontiers in Number Theory, Physics, and Geometry, II, Springer, Berlin, 2007, 67&#8211;132 [MR2290759](http://www.ams.org/mathscinet-getitem?mr=2290759) [doi](http://dx.doi.org/10.1007/978-3-540-30308-4_2)
 
