@@ -1,3 +1,4 @@
+[[!redirects coherent quantum state]]
 
 #Contents#
 * table of contents
@@ -67,6 +68,3 @@ counterparts_, J. Math. Phys. __36__ (1995), pp. 2030--2052.
 * N. Aizawa, R. Chakrabarti, _Coherent state on $SU_q(2)$ homogeneous space_, J. Phys. A __42__:29 [arXiv:0905.0194](http://arxiv.org/abs/0905.0194).
 
 [[!redirects coherent quantum states]]
-
-[[!redirects coherent state]]
-[[!redirects coherent states]]
