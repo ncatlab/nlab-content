@@ -22,7 +22,7 @@
 
 The [[Kaluza-Klein compactification]] of [[11-dimensional supergravity]]/[[M-theory]] on [[fibers]] which are [[hyperbolic manifolds]].
 
-This appears naturally as the [[near horizon geometry]] of [[S-branes]], see there. Then there are [[M5-branes]] [[wrapped brane|wrapped]] on [[hyperbolic 3-manifolds]] yielding [[3d-3d correspondence]] ([Gang-Kim-Lee 15, (2.2)](#GangKimLee15)).
+This appears naturally as the [[near horizon geometry]] of [[S-branes]], see there. Then there are [[M5-branes]] [[wrapped brane|wrapped]] on [[hyperbolic 3-manifolds]] yielding the [[3d-3d correspondence]] ([Gang-Kim-Lee 15, (2.2)](#GangKimLee15)).
 
 ## Related concepts
 
@@ -37,7 +37,7 @@ This appears naturally as the [[near horizon geometry]] of [[S-branes]], see the
 
 * Chiang-Mei Chen, Pei-Ming Ho, Ishwaree P. Neupane, Nobuyoshi Ohta, John E. Wang, _Hyperbolic Space Cosmologies_, JHEP 0310:058, 2003 ([arXiv:hep-th/0306291](https://arxiv.org/abs/hep-th/0306291))
 
-* A. A. Bytsenko, M. E. X. Guimaraes, R. Kerner, _A. A. Bytsenko (DF/UEL), M. E. X. Guimaraes (MAT/UnB), R. Kerner_, Eur. Phys. J. C39:519-524, 2005 ([arXiv:hep-th/0501008](https://arxiv.org/abs/hep-th/0501008))
+* A. A. Bytsenko, M. E. X. Guimaraes, R. Kerner, _Orbifold Compactification and Solutions of M--Theory from Milne Spaces_, Eur. Phys. J. C39:519-524, 2005 ([arXiv:hep-th/0501008](https://arxiv.org/abs/hep-th/0501008))
 
 * Andrey A. Bytsenko, Maria Emília X. Guimarães, José Abdalla Helayël-Neto, _Hyperbolic Space Forms and Orbifold Compactification in M-Theory_, PoS WC2004 (2005) pp.017 ([arXiv:hep-th/0502031](https://arxiv.org/abs/hep-th/0502031), [cds:819828](https://cds.cern.ch/record/819828/))
 
