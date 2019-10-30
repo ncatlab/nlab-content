@@ -12,7 +12,7 @@ In [[material set theory]] as a [[foundation of mathematics]], the axiom of unio
 
 The __axiom of union__ states the following:
 
-+-- {: .un_axiom}
++-- {: .un_defn}
 ###### Axiom (union)
 
 If $\mathcal{X}$ is a (material) set, then there exists a set $U$ such that $a \in U$ whenever $a \in B \in \mathcal{X}$.
