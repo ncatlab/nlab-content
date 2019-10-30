@@ -113,7 +113,7 @@ and specifically discussion of [[leptoquarks]] and possible relation to [[flavou
 
 
 
-Relation to actual [[quantum gravity]] induced by quantized maps from [[spacetime]] to the [[4-sphere]] is claimed in
+Relation to actual [[quantum gravity]] induced by quantized maps from [[spacetime]] to the [[4-sphere]] (see also at _[[Cohomotopy]]_) is claimed in
 
 * {#ChamseddineConnesMukhanov14} [[Ali Chamseddine]], [[Alain Connes]], Viatcheslav Mukhanov, _Quanta of Geometry: Noncommutative Aspects_, Phys. Rev. Lett. 114 (2015) 9, 091302 ([arXiv:1409.2471](https://arxiv.org/abs/1409.2471))
 
