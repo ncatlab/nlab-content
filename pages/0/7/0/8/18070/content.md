@@ -1458,6 +1458,7 @@ Further discussion of the graph complex as a model for the [[de Rham cohomology]
 
 
 ### Loop spaces of configuration spaces of points
+ {#ReferencesLoopSpacesOfConfigurationSpaces}
 
 On [[loop spaces]] of [[configuration spaces of points]]:
 
