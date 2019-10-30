@@ -46,15 +46,13 @@ In a foundational [[type theory]], ordered pairs are usually also given by fiat,
 
 ## Generalisations
 
-... [[tuples]] ...
+* [[tuples]]
 
-... [[families]] ...
+* [[families]]
 
-... [[pairings]] ...
+* [[pairings]]
 
-... [[dependent sums]] ...
-
-
+* [[dependent sums]]
 
 
 [[!redirects ordered pair]]
