@@ -36,6 +36,8 @@ Besides the axioms themselves, other nice properties hold in dream mathematics. 
 
 *  Any two [[complete space|complete]] [[norms]] (or even [[F-norms]]) on a given [[vector space]] over the [[real numbers]] must be [[topological equivalence|topologically equivalent]], which nicely explains why you have never seen two *specific* inequivalent complete norms on a given real vector space.
 
+All of the above statements are theorems (in $ZF$) for vector spaces with finite [[dimension]] (or measure spaces with finite [[cardinality]]); dream mathematics makes these true in infinite dimensions as well.
+
 
 ## References
 
