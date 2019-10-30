@@ -1,4 +1,31 @@
 
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/NYUADInstitute.jpg" width="130"/>
+</div>
+
+\linebreak
+
+**M-Theory and Mathematics 2020** 
+
+[Research Institute of NYUAD](nyuad.nyu.edu/en/institute-events.html)
+
+New York University, Abu Dhabi 
+
+**Confirmed speakers:**
+
+| | | |
+|--|--|--|
+| [[Katrin Becker]] | [[David Berman]] | [[Peter Bouwknegt]] |
+| [[Martin Cederwall]] | [[Chong-Sun Chu]] | [[Jacques Distler]] | 
+| [[Michael Duff]] | [[José Figueroa-O'Farrill]] | [[Domenico Fiorenza]] | 
+| [[Sergei Gukov]] | [[Fei Han]] | [[Chris Hull]] |
+| [[Amer Iqbal]] | [[Branislav Jurčo]] | [[Neil Lambert]] | 
+| [[Varghese Mathai]] | [[Christian Saemann]] | [[Henning Samtleben]] | 
+| [[Hisham Sati]] | [[Urs Schreiber]] | [[Ashoke Sen]] | 
+| [[Eric Sharpe]] | [[Dmitri Sorokin]] | [[Meng-Chwan Tan]] | 
+
+
 \begin{xymatrix}
     \mathrm{Maps}^{\ast/\!}
     \big(
