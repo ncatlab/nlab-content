@@ -3,6 +3,8 @@ Hisham Sati ([faculty page](https://nyuad.nyu.edu/en/academics/divisions/science
 
 Hisham Sati is an associate  professor of mathematics at NYU Abu Dhabi.
 
+* [webpage](https://nyuad.nyu.edu/en/academics/divisions/science/faculty/hisham-ahmad-sati.html)
+
 From his [cached Pitt faculty page](https://web.archive.org/web/20170811155442/http://www.mathematics.pitt.edu/person/hisham-sati):
 
 > My research is interdisciplinary and lies in the intersection of [[differential geometry]], [[algebraic topology]], and [[mathematical physics|mathematical/theoretical physics]]. I am mainly interested in geometric and topological structures arising from [[quantum field theory|quantum (topological) field theory]], [[string theory]], and [[M-theory]].  This includes [[orientation in generalized cohomology|orientations]] with respect to [[generalized cohomology theories]], and corresponding description via [[higher geometry|higher geometric]], [[topology|topological]], and [[category theory|categorical]] notions of [[bundles]].
