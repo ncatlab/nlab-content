@@ -17,7 +17,7 @@
 
 ## Idea
 
-Given a ([[Hausdorff topological space|Hausdorff]]) [[topological group]] $G$, the _Milnor construction_ of the [[universal principal bundle]] for $G$ (also known as _Milnor's join construction_) constructs the [[join of topological spaces|join]] of infinitely many copies of $ G $, i.e., the colimit of [[join of topological spaces|joins]]
+Given a ([[Hausdorff topological space|Hausdorff]]) [[compact topological group]] $G$, the _Milnor construction_ of the [[universal principal bundle]] for $G$ (also known as _Milnor's join construction_) constructs the [[join of topological spaces|join]] of infinitely many copies of $ G $, i.e., the colimit of [[join of topological spaces|joins]]
 
 $$
   (E G)_{Milnor} := colim \; G \ast G \ast \ldots \ast G,
