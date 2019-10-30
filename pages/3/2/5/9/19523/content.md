@@ -265,6 +265,8 @@ See also
 
 * {#Rasanen18} [[Syksy Räsänen]], _Ways to settle the backreaction conjecture_, talk at [CosmoBack 2018](https://cosmoback.sciencesconf.org) ([[RasanenWaysToSettle18.pdf:file]])
 
+* {#Macpherson19} Hayley J. Macpherson, _Inhomogeneous cosmology in an anisotropic Universe_ ([arxiv:1910.13380](https://arxiv.org/abs/1910.13380))
+
 
 
 ### Effective dark energy from inhomogeneity
