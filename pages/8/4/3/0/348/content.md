@@ -402,8 +402,8 @@ $$
   (Y(U_1) \coprod_{Y(U_1 \times_V U_2)} Y(U_2))(W)
   =
   \{
-    maps W \to V that factor through either U_1
-    or U_2
+    \text{ maps } W \to V \text{ that factor through either } U_1
+    \text{ or } U_2
   \}
   \,.
 $$
