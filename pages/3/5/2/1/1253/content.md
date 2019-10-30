@@ -18,7 +18,7 @@ In the context of the [[axiom of foundation]], we may use [[weak extensionality]
 
 Taking [[equality]] as a primitive:
 
-+-- {: .num_axiom}
++-- {: .un_defn}
 ###### Axiom
 
 If two sets have the same members, then they are equal.
@@ -26,7 +26,7 @@ If two sets have the same members, then they are equal.
 
 Or taking equality as defined:
 
-+-- {: .num_axiom}
++-- {: .un_defn}
 ###### Axiom
 
 If two sets have the same members, then they are members of the same sets.
@@ -34,7 +34,7 @@ If two sets have the same members, then they are members of the same sets.
 
 Here we define two sets to be equal if they have the same members.
 
-Note that we may prove, using the [[axiom of separation]] (bounded separation is enough) that two sets must be equal if they are members of the same sets.
+Note that we may prove, using the [[axiom of separation]] (bounded separation is enough), the converse: two sets must be equal if they are members of the same sets (as long as we have something, such as the [[axiom of pairing]] or [[axiom of power sets|power sets]], to guarantee that each set is a member of some set).
 
 
 category: foundational axiom
