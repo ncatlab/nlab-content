@@ -60,8 +60,19 @@ and
 
 * [[Alan Weinstein]], _The local structure of Poisson manifolds_, J. Diff. Geom. 18, 523&#8211;557 (1983)
 
+A textbook accounts are in
+
+* Ch. 4 _Dual pairs_, in: A. Cannas da Silva, [[Alan Weinstein]], _Geometric models for noncommutative algebras_, Berkeley Math. Lec. Notes Series, AMS 1999, [pdf](http://math.berkeley.edu/%7Ealanw/Models.pdf)
+*  J.-P. Ortega, T.S. Ratiu, _Momentum maps and Hamiltonian reduction_, Progress in Math. 222, Birkhauser 2004
+
+Other
+
+* Paul Skerritt, Cornelia Vizman, _Dual pairs for matrix Lie groups_, [arxiv/1805.01519](https://arxiv.org/abs/1805.01519)
+
 A review with an eye towards [[geometric quantization]] with codomain [[KK-theory]] ([[geometric quantization by push-forward]]) is in section 3 of 
 
 * [[Klaas Landsman]], _Functorial quantization and the Guillemin-Sternberg conjecture_,  Proc. Bialowieza 2002 ([arXiv:math-ph/0307059](http://arxiv.org/abs/math-ph/0307059))
+
+
 
 [[!redirects symplectic dual pairs]]
