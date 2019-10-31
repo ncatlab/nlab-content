@@ -287,6 +287,7 @@ The conjecture that with combined targetspace/worldsheet modular transformations
 
 * {#KrizSati05} [[Igor Kriz]], [[Hisham Sati]], _Type II string theory and modularity_, JHEP 0508 (2005) 038 ([arXiv:hep-th/0501060](http://arxiv.org/abs/hep-th/0501060))
 
+
 See also
 
 * {#BEJVS05} [[Peter Bouwknegt]], [[Jarah Evslin]], [[Branislav Jurco]], [[Mathai Varghese]], [[Hisham Sati]], _Flux Compactifications on Projective Spaces and The S-Duality Puzzle_, Adv.Theor.Math.Phys. 10 (2006) 345-394 ([arXiv:hep-th/0501110](http://arxiv.org/abs/hep-th/0501110))
@@ -295,6 +296,10 @@ Discussion of [[Montonen-Olive duality]] in [[D=4 super Yang-Mills theory]] via 
 
 * [[Koji Hashimoto]], Ta-Sheng Tai, Seiji Terashima, _Toward a Proof of Montonen-Olive Duality via Multiple M2-branes_, JHEP 0904:025, 2009 ([arxiv:0809.2137](https://arxiv.org/abs/0809.2137))
 
+See also:
+
+
+* Surya Raghavendran, Philsang Yoo, _Twisted S-Duality_ ([arxiv:1910.13653](https://arxiv.org/abs/1910.13653))
 
 
 ### Relation to geometric Langlands duality
