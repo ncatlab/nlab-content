@@ -83,6 +83,16 @@ So far the following volumes have been retyped:
 [Part 3](http://www.math.polytechnique.fr/~laszlo/sga4/SGA4-3/sga43.pdf).
 - [SGA $4{1\over2}$](https://github.com/dkmiller/sga4.5) - Edited by Daniel Miller.
 
+
+
+See also: 
+
+- [SGA 4](http://fabrice.orgogozo.perso.math.cnrs.fr/SGA4/index.html) Edited by F. Orgogozo
+
+
+
+
+
 ##References
 
 There are Wikipedia entries
