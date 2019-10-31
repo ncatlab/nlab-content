@@ -1,5 +1,5 @@
 
-+ [website](http://www.mat.uniroma2.it/~longo/Home%20page.html)
++ [website](http://www.mat.uniroma2.it/longo)
 
 ## Selected writings
 
