@@ -62,6 +62,8 @@ The following graphics shows how the three perspectives arise from [[KK-compacti
 <img src="https://ncatlab.org/nlab/files/MTheoryOnS1HWxT4ADE-Reductions.jpg" width="740">
 </center>
 
+> graphics grabbed from [SS19](#SatiSchreiber19)
+
 ### $HET_{E}$-Theory on ADE-singularities
  {#HetEWithADESingularities}
 
@@ -180,6 +182,10 @@ See also
 
 * {#HSS18} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], Example 2.2.7 of: _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_, CMP (2019) ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987), [doi:10.1007/s00220-019-03442-3](http://link.springer.com/article/10.1007/s00220-019-03442-3))
 
+* {#FSS19c} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 4 of: _[[schreiber:Super-exceptional embedding construction of the M5-brane|Super-exceptional geometry: origin of heterotic M-theory and super-exceptional embedding construction of M5]]_ ([arXiv:1908.00042](https://arxiv.org/abs/1908.00042))
+
+
+* {#SatiSchreiber19} [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], Section 4.1 of: _[[schreiber:Equivariant Cohomotopy implies orientifold tadpole cancellation]]_ ([arXiv:1909.12277](https://arxiv.org/abs/1909.12277))
 
 ### As $HET_E$-theory with ADE-singularities
 
