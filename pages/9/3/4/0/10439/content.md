@@ -45,4 +45,6 @@ $B$-theorists claim they have science on the side, in particular the [[theory of
 
 * Wikipedia, _[Proper time](http://en.wikipedia.org/wiki/Proper_time)_
 
+* [[Roberto Longo]], _The emergence of time_ ([arxiv:1910.13926](https://arxiv.org/abs/1910.13926))
+
 [[!redirects proper time]]
