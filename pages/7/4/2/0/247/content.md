@@ -1,3 +1,4 @@
+
 I am an Assistant Professor at the [University of San Diego](http://www.sandiego.edu).  Here is my [web page](http://home.sandiego.edu/~shulman/).
 
 I have recently been deeply involved in [[homotopy type theory]].  I am also interested in (higher) [[category theory]] and its applications to the rest of mathematics, particularly [[homotopy theory]].  I also tend to be a partisan of higher-categorical structures other than $n$-categories (such as [[double categories]], [[multicategories]], [[proarrow equipments]], [[F-categories]], and so on), which sometimes seem to get neglected.
@@ -24,7 +25,11 @@ And here's the esh $&#643;$ (see [here](http://nforum.ncatlab.org/discussion/459
 
       &#643;
 
+
 category: people
 
+[[!redirects Mike Shulman]]
 [[!redirects MikeShulman]]
 [[!redirects Michael Shulman]]
+[[!redirects Michael A Shulman]]
+[[!redirects Michael A. Shulman]]
