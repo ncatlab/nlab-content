@@ -1,9 +1,9 @@
 
-a book collection in preparation
+A book to be published December 2019
 
 * [[Haynes Miller]] (ed.)
 
-  _Handbook of Homotopy Theory_
+  _Handbook of Homotopy Theory_ ([table of contents](http://math.mit.edu/~hrm/papers/handbook-toc.pdf))
 
 on [[homotopy theory]], [[higher algebra]] and [[higher category theory]].
 
