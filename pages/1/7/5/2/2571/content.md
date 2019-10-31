@@ -79,7 +79,7 @@ $CZF$ uses axioms (1--8) and (10), usually weak forms, in [[intuitionistic logic
 
 Note that adding (9) to $IZF$ implies [[excluded middle]] and so makes $ZFC$.  However, some authors like to include a weak form of (9), such as [[dependent choice]] or [[COSHEP]].
 
-[[Mike Shulman]]\'s unfinished survey of material and structural set theories takes $CPZ^{\circlearrowleft-}$ as the most basic form; it consists of (1--4) and the weakest versions (Bounded Separation and Weak Replacement) of (5&6) in intuitionistic logic.  Adding (10) gives $CPZ^{-}$, adding (8) gives $CPZ^{\circlearrowleft}$, and adding both gives $CPZ$, __constructive pre-Zermelo set theory__.  Shulman gives systematic notation for other versions, which includes those (constructive and classical) listed above.
+[[Mike Shulman]]\'s survey of material and structural set theories ([Shulman 2010](#Shulman2010)) takes $CPZ^{\circlearrowleft-}$ as the most basic form; it consists of (1--4) and the weakest versions (Bounded Separation and Weak Replacement) of (5&6) in intuitionistic logic.  Adding (10) gives $CPZ^{-}$, adding (8) gives $CPZ^{\circlearrowleft}$, and adding both gives $CPZ$, __constructive pre-Zermelo set theory__.  Shulman gives systematic notation for other versions, which includes those (constructive and classical) listed above.
 
 Myhill has another version, __constructive set theory__ ($CST$); this consists of (1--4), Bounded Separation for (5), Replacement for (6), the weakest (Exponentiation) form of (7), (8), and a weak version (Dependent Choice) of (9).  It also uses a variation of the language, with [[urelements]] for natural numbers; note that the existence of $\omega$ still follows using (6).  This classifies $CST$ as $\mathrm{C}{\Pi}ZF^{\circlearrowleft} + DC$ in Shulman\'s system if one ignores the use of urelements and strengthens Replacement to Strong Collection.
 
@@ -115,7 +115,7 @@ The $GCH$ itself, or its negation, could also be regarded as an additional axiom
 
 The structural set theory **[[ETCS]]** is equivalent to $BZC$ in that the [[category of sets]] in that theory satisfies $ETCS$ while the well-founded [[pure sets]] in $ETCS$ satisfy $BZC$.  This uses (1--4), Bounded Separation for (5), and (7--10), with Weak Replacement following from (5) and (7).
 
-Shulman\'s **[[SEAR|SEARC]]** is equivalent to $ZFC$ in the same way.  $SEAR$, which lacks the axiom of choice, is equivalent to $ZF^{\circlearrowleft}$, which is $ZF$ without (10), in a weaker sense of equivalence. 
+[[Mike Shulman]]\'s **[[SEAR|SEARC]]** is equivalent to $ZFC$ in the same way.  $SEAR$, which lacks the axiom of choice, is equivalent to $ZF^{\circlearrowleft}$, which is $ZF$ without (10), in a weaker sense of equivalence. 
 
 
 ## Related entries 
@@ -140,6 +140,11 @@ English versions of the early key texts on set theory by Zermelo, Fraenkel, Skol
 There are many texts which discuss ZFC and the [[cumulative hierarchy]] from a traditional (material) set-theoretic perspective. A good example is 
 
 * Kenneth Kunen, _Set Theory: An Introduction to Independence Proofs_, Studies in Logic and the Foundations of Mathematics Vol. 102 (2006), Elsevier. 
+
+A classification of axioms of variants of $ZFC$, with an eye towards corresponding [[structural set theories]], is
+
+* [[Michael A. Shulman]] (2010). Stack semantics and the comparison of material and structural set theories. [arXiv:1004.3802](https://arxiv.org/abs/1004.3802).
+  {#Shulman2010}
 
 
 [[!redirects ZF]]
