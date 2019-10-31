@@ -1074,7 +1074,7 @@ And Supergroup Chern-Simons Theories_ ([arXiv:1505.03130](https://arxiv.org/abs/
 ### On D-brane worldvolumes
  {#ReferencesOnBraneWorldvolumes}
 
-On [[Chern-Simons theories]] arising from the [[higher WZ term]] on [[super p-brane]] [[worldvolumes]] (notably on [[D2-branes]]):
+On 3d [[Chern-Simons theories]] arising from the [[higher WZ term]] on [[super p-brane]] [[worldvolumes]] (notably on [[D2-branes]]):
 
 * {#Brodie00} [[John Brodie]], _D-branes in Massive IIA and Solitons in Chern-Simons Theory_, JHEP 0111:014, 2001 ([arXiv:hep-th/0012068](https://arxiv.org/abs/hep-th/0012068))
 
@@ -1084,6 +1084,9 @@ On [[Chern-Simons theories]] arising from the [[higher WZ term]] on [[super p-br
 
 * Gyungchoon Go, O-Kab Kwon, D. D. Tolla, _$\mathcal{N}=3$ Supersymmetric Effective Action of D2-branes in Massive IIA String Theory_, Phys. Rev. D 85, 026006, 2012 ([arXiv:1110.3902](https://arxiv.org/abs/1110.3902))
 
+Specifically on [[D8-branes]] in the context of [[AdS/QCD]]:
+
+* Ho-Ung Yee, Ismail Zahed, _Holographic two dimensional QCD and Chern-Simons term_, JHEP 1107:033, 2011 ([arXiv:1103.6286](https://arxiv.org/abs/1103.6286))
 
 ### Workshops and conferences
 
