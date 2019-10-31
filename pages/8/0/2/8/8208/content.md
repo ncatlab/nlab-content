@@ -57,6 +57,9 @@ See also
 
 * Dhritiman Nandan, [[Jan Plefka]], Oliver Schlotterer, Congkao Wen, _Einstein-Yang-Mills from pure Yang-Mills amplitudes_ ([arXiv:1607.05701](http://arxiv.org/abs/1607.05701))
 
+* Luiz Antonio Barreiro, Ricardo Medina, _The origin of the KLT relations and nonlinear relations for Yang-Mills amplitudes_ ([arxiv:1910.13519](https://arxiv.org/abs/1910.13519))
+
+
 
 ### Gravity amplitudes as double copy Yang-Mills amplitudes
 
