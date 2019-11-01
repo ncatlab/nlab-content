@@ -40,7 +40,8 @@ See also:
 
 #### Top-down
 
-Top-down construction of 2d QCD analogous to the [[Witten-Sakai-Sugimoto model]] for 4d [[QCD]]
+[[bottom-up and top-down model building|top-down model building]]
+ construction of 2d QCD analogous to the [[Witten-Sakai-Sugimoto model]] for 4d [[QCD]]
 
 * Yi-hong Gao, Weishui Xu, Ding-fang Zeng, _NGN, $QCD_2$ and chiral phase transition from string theory_, Nucl.Phys. B400:181-210, 1993 ([arXiv:hep-th/0605138](https://arxiv.org/abs/hep-th/0605138))
 
@@ -48,8 +49,14 @@ Specifically concerning the 3d [[Chern-Simons theory]] on the [[D8-branes]]:
 
 * Ho-Ung Yee, Ismail Zahed, _Holographic two dimensional QCD and Chern-Simons term_, JHEP 1107:033, 2011 ([arXiv:1103.6286](https://arxiv.org/abs/1103.6286))
 
+and its relation to [[baryons]]:
+
+* Hideo Suganuma, Yuya Nakagawa, Kohei Matsumoto, _1+1 Large $N_c$ QCD and its Holographic Dual $\sim$ Soliton Picture of Baryons in Single-Flavor World_, JPS Conf. Proc. 13, 020013 (2017) ([arXiv:1610.02074](https://arxiv.org/abs/1610.02074))
+
 
 #### Bottom-up
+
+[[bottom-up and top-down model building|bottom up model building]]
 
 * Emanuel Katz, Takemichi Okui, _The 't Hooft Model As A Hologram_, JHEP 0901:013, 2009 ([arXiv:0710.3402](https://arxiv.org/abs/0710.3402))
 
