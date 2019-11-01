@@ -16,7 +16,22 @@ On dg-algebraic models for [[rational parameterized stable homotopy theory]]:
 
   [pdf](https://ncatlab.org/schreiber/files/VBM_RPSHT.pdf)
 
-On [[rational parameterized stable homotopy theory]] applied to foundations of [[string theory]]/[[M-theory]]:
+* [[Vincent Braunack-Mayer]] 
+
+  _Strict algebraic models for rational parametrised spectra I_ 
+
+  [arXiv:1910.14608](https://arxiv.org/abs/1910.14608)
+
+On [[combinatorial model category]] [[presentable (infinity,1)-category|presentations]] of [[tangent (∞,1)-toposes]]:
+
+* [[nLab:Vincent Braunack-Mayer]], 
+
+  _**Combinatorial parametrised spectra**_, 
+
+  ([arXiv:1907.08496](https://arxiv.org/abs/1907.08496))
+
+
+On [[rational parameterized stable homotopy theory]] applied to the mathematical analysis of the [[duality between M-theory and type IIA string theory]]:
 
 * [[nLab:Vincent Braunack-Mayer]], [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]]
 
@@ -44,17 +59,10 @@ On [[rational parameterized stable homotopy theory]] applied to foundations of [
 
   [arXiv:1903.02862](https://arxiv.org/abs/1903.02862)
 
-On [[combinatorial model category]] [[presentable (infinity,1)-category|presentations]] of [[tangent (∞,1)-toposes]]:
-
-* [[nLab:Vincent Braunack-Mayer]], 
-
-  _**Combinatorial parametrised spectra**_, 
-
-  ([arXiv:1907.08496](https://arxiv.org/abs/1907.08496))
 
 ## Related $n$Lab entries
 
-* [[tangent (∞,1)-topos]]
+* [[tangent (∞,1)-topos]], [[parametrized homotopy theory]]
 
 * [[rational parameterized stable homotopy theory]]
 
