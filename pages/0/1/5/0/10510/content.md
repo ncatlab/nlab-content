@@ -43,6 +43,9 @@ For formalizations see at
 
 * {#MaySigurdsson06} [[Peter May]], J. Sigurdsson, _[[Parametrized Homotopy Theory]]_, 2006
 
+* [[Vincent Braunack-Mayer]], _Combinatorial parametrised spectra_,  ([arXiv:1907.08496](https://arxiv.org/abs/1907.08496))
+
+
 
 [[!redirects parameterized stable homotopy theory]]
 [[!redirects parametrized homotopy theory]]
