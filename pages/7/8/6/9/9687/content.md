@@ -91,7 +91,7 @@ See also at _[[glueball]]_.
 
 A good qualitative and moderate quantitative explanation of confinement in [[quantum chromodynamics]] is found in [[intersecting D-brane models]], specifically in the [[Witten-Sakai-Sugimoto model]] which [[geometric engineering of QFT|geometrically engineers]] [[QCD]] on [[D4-D8 brane bound states]].
 
- ([Sakai-Sugimoto 04](Ads/QCD#SakaiSugimoto04), [Sakai-Sugimoto 05](Ads/QCD#SakaiSugimoto05))
+([Witten 98](#Witten98), followed up on in [Sakai-Sugimoto 04](Ads/QCD#SakaiSugimoto04), [Sakai-Sugimoto 05](Ads/QCD#SakaiSugimoto05))
 
 <center>
 <img src="https://ncatlab.org/nlab/files/SakaiSugimotoModel.jpg" width="600">
@@ -300,6 +300,8 @@ Reviews with discussion of the impact on confinement in plain YM include
 ### Under the AdS/CFT correspondence
 
 Discussion in the context of the [[AdS-CFT correspondence]] is in
+
+* {#Witten98} [[Edward Witten]], _Anti-de Sitter Space, Thermal Phase Transition, And Confinement In Gauge Theories_, Adv. Theor. Math. Phys.2:505-532, 1998 ([arXiv:hep-th/9803131](https://arxiv.org/abs/hep-th/9803131))
 
 * [[David Berman]], Maulik K. Parikh, _Confinement and the AdS/CFT Correspondence_, Phys.Lett. B483 (2000) 271-276 ([arXiv:hep-th/0002031](https://arxiv.org/abs/hep-th/0002031))
 
