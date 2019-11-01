@@ -1083,6 +1083,8 @@ On 3d [[Chern-Simons theories]] arising from the [[higher WZ term]] on [[super p
 
 * Mitsutoshi Fujita, Wei Li, [[Shinsei Ryu]], [[Tadashi Takayanagi]], _Fractional Quantum Hall Effect via Holography: Chern-Simons, Edge States, and Hierarchy_, JHEP 0906:066, 2009 ([arXiv:0901.0924](https://arxiv.org/abs/0901.0924))
 
+* Kristan Jensen, p. 9,10 of: _Chiral anomalies and AdS/CMT in two dimensions_, JHEP 1101:109, 2011 ([arXiv:1012.4831](https://arxiv.org/abs/1012.4831))
+
 * Gyungchoon Go, O-Kab Kwon, D. D. Tolla, _$\mathcal{N}=3$ Supersymmetric Effective Action of D2-branes in Massive IIA String Theory_, Phys. Rev. D 85, 026006, 2012 ([arXiv:1110.3902](https://arxiv.org/abs/1110.3902))
 
 Specifically on [[D8-branes]] in the context of [[geometric engineering of QFT|geometric engineering]] of [[2d QCD]] ([[AdS/QCD]]):
