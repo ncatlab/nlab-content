@@ -143,7 +143,7 @@ There are many texts which discuss ZFC and the [[cumulative hierarchy]] from a t
 
 A classification of axioms of variants of $ZFC$, with an eye towards corresponding [[structural set theories]], is
 
-* [[Michael A. Shulman]] (2010). Stack semantics and the comparison of material and structural set theories. [arXiv:1004.3802](https://arxiv.org/abs/1004.3802).
+* [[Michael Shulman]] (2018). Comparing material and structural set theories. [arXiv:1808.05204](https://arxiv.org/abs/1808.05204).
 {#Shulman2010}
 
 
