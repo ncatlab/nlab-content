@@ -53,6 +53,8 @@ QCD has an intricate [[phase diagram]] (e.g. [Hands 01](#Hands01), [Schaefer 05]
 
 ## Related concepts
 
+* [[D=2 QCD]]
+
 * [[lattice QCD]]
 
 * [[AdS/QCD correspondence]]
