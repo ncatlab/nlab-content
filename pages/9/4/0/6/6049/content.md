@@ -137,7 +137,11 @@ Next, this construction may be repeated, having the [[D6-branes]] end on differe
 <img src="https://ncatlab.org/nlab/files/D6SuspendedNS5.png"/>
 
 
-And on the other end the D6-branes may end on [[D8-branes]]:
+#### D6 branes intersecting D8-branes over NS5-branes
+
+And on the other end the D6-branes may end on [[D8-branes]] over an NS5-brane ([Janssen-Meessen-Ortin 99, Section 3](#JanssenMeessenOrtin99)).
+
+
 
 <img src="https://ncatlab.org/nlab/files/GaiottoNS5D6.jpg" width="600">
 
@@ -374,11 +378,13 @@ The above discussion makes use of some blog comments (notably by [[Jacques Distl
 
 * [[Urs Schreiber]], _4d QFT for Khovanov Homology_ ([web](http://golem.ph.utexas.edu/category/2011/02/4d_qft_for_khovanov_homology.html))
 
-### Intersection with O8 planes
+### Intersection with O8/D8
 
 Intersection of [[black brane|black]] NS5-branes with [[O8-planes]]/[[black brane|black]] [[D8-branes]] is discussed in
 
 * {#HananyZaffaroni98} [[Amihay Hanany]], [[Alberto Zaffaroni]], _Branes and Six Dimensional Supersymmetric Theories_, Nucl.Phys. B529 (1998) 180-206 ([arXiv:hep-th/9712145](https://arxiv.org/abs/hep-th/9712145))
+
+* {#JanssenMeessenOrtin99} Bert Janssen, Patrick Meessen, Tomas Ortin, _The D8-Brane Tied up: String and Brane Solutions in Massive Type IIA Supergravity_, Phys. Lett. B453 (1999) 229-236 ([arXiv:hep-th/9901078](https://arxiv.org/abs/hep-th/9901078))
 
 * {#HananyZaffaroni99} [[Amihay Hanany]], [[Alberto Zaffaroni]], _Monopoles in String Theory_, JHEP 9912 (1999) 014 ([arXiv:hep-th/9911113](https://arxiv.org/abs/hep-th/9911113))
 
