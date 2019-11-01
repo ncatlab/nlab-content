@@ -124,7 +124,7 @@ A comprehensive textbook account on parameterized spectra in [[∞Grpd]] $\simeq
 
 A formulation of aspects of this in [[(∞,1)-category theory]] is in 
 
-* {#AndoBlumbergGepner11} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Parametrized spectra, multiplicative Thom spectra, and the twisted Umkehr map_ ([arXiv:1112.2203](http://arxiv.org/abs/1112.2203))
+* {#AndoBlumbergGepner11} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Parametrized spectra, multiplicative Thom spectra, and the twisted Umkehr map_, Geom. Topol. 22 (2018) 3761-3825 ([arXiv:1112.2203](http://arxiv.org/abs/1112.2203))
   
 Discussion of convenient [[model category]] [[presentable (infinity,1)-category|presentations]]:
 
