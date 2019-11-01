@@ -114,6 +114,19 @@ For review see [Sugimoto 16](#Sugimoto16), also [Rebhan 14, around (18)](#Rebhan
 
 Equivalently, these baryon states are the [[Yang-Mills instantons]] on the [[D8-brane]] giving the [[D4-D8 brane bound state]] ([Sakai-Sugimoto 04, 5.7](#SakaiSugimoto04)) as a special case of the general situation for [[Dp-D(p+4)-brane bound states]] (e.g. [Tong 05, 1.4](Dp-D%28p%2B4%29-brane+bound+state#Tong05)).
 
+<center>
+<img src="https://ncatlab.org/nlab/files/BaryonVertexDefectInAdSQCD.jpg" width="490">
+</center>
+
+> graphics grabbed from [Cai-Li 17](#CaiLi17)
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/D6InD8InAdSQCD.jpg" width="700">
+</center>
+
+> graphics grabbed from [ABBCN 18](#ABBCN18)
+
 
 This already produces [[baryon]] [[mass]] spectra with moderate quantitative agreement with [[experiment]] ([HSSY 07](#HSSY07)):
 
@@ -273,6 +286,10 @@ The Witten-Sakai-Sugimoto model with [[orthogonal group|orthogonal]]  [[gauge gr
 
 * Hee-Cheol Kim, Sung-Soo Kim, Kimyeong Lee, _5-dim Superconformal Index with Enhanced $E_n$ Global Symmetry_, JHEP 1210 (2012) 142 ([arXiv:1206.6781](https://arxiv.org/abs/1206.6781))
 
+The analogoue of the WSS model for [[2d QCD]]:
+
+* Yi-hong Gao, Weishui Xu, Ding-fang Zeng, _NGN, $QCD_2$ and chiral phase transition from string theory_, Nucl.Phys. B400:181-210, 1993 ([arXiv:hep-th/0605138](https://arxiv.org/abs/hep-th/0605138))
+
 The bottom-up hard-wall model is due to
 
 * {#ErlichKatzSonStephanov05} Joshua Erlich, Emanuel Katz, Dam T. Son, Mikhail A. Stephanov, _QCD and a Holographic Model of Hadrons_, Phys.Rev.Lett.95:261602, 2005 ([arXiv:hep-ph/0501128](https://arxiv.org/abs/hep-ph/0501128))
@@ -343,6 +360,7 @@ Review:
 
 * Marco Claudio Traini, _Generalized Parton Distributions: confining potential effects within AdS/QCD_, Eur. Phys. J. C (2017) 77:246 ([arXiv:1608.08410](https://arxiv.org/abs/1608.08410))
 
+* {#CaiLi17} Wenhe Cai, Si-wen Li, _Holographic three flavor baryon in the Witten-Sakai-Sugimoto model with the D0-D4 background_, Eur. Phys. J. C (2018) 78: 446 ([arXiv:1712.06304](https://arxiv.org/abs/1712.06304))
 
 #### Baryons as instantons
 
@@ -558,8 +576,12 @@ See also
 
 * Yosuke Imamura, _Baryon Mass and Phase Transitions in Large N Gauge Theory_, Prog. Theor. Phys. 100 (1998) 1263-1272 ([arxiv:hep-th/9806162](https://arxiv.org/abs/hep-th/9806162))
 
-
 * Varun Sethi, _A study of phases in two flavour holographic QCD_  ([arXiv:1906.10932](https://arxiv.org/abs/1906.10932))
+
+* {#ABBCN18} Riccardo Argurio, Matteo Bertolini, Francesco Bigazzi, Aldo L. Cotrone, Pierluigi Niro, _QCD domain walls, Chern-Simons theories and holography_, J. High Energ. Phys. (2018) 2018: 90 ([arXiv:1806.08292](https://arxiv.org/abs/1806.08292))
+
+
+
 
 
 [[!redirects AdS-QCD correspondences]]
