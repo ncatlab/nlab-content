@@ -176,6 +176,30 @@ More generally, the [[Skyrmion]]-model of [[atomic nuclei]] gives good matches w
 
 <br/>
 
+#### WSS-type model for 2d QCD
+ {#WSSTypeModelFor2dQCD}
+
+There is a direct analogue for [[2d QCD]] of the [above](#WittenSakaiSugimotoModel) [[WSS model]] for 4d [[QCD]]
+([Gao-Xu-Zeng 06](#GaoXuZeng06), [Yee-Zahed 11](#YeeZahed11)). 
+
+The corresponding [[intersecting D-brane model]] is much as that for 4d QCD [above](#WSSBraneConfiguration), just with 
+
+1. [[colour charge|color]] [[D2-branes]] instead of [[D4-branes]];
+
+1. [[baryon]]$\,$ [[D6-branes]] instead of [[D4-branes]];
+
+1. [[meson]]$\,$ [[field (physics)|fields]] given by  3d [[Chern-Simons theory]] instead of [[5d Chern-Simons theory]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/WSSBraneConfigurationEngineering2dQCD.jpg" width="740"/>
+</center>
+
+
+
+
+
+
+
 #### Type0B/$YM_4$-correspondence
  {#Type0StringCorrespondence}
 
@@ -303,7 +327,17 @@ The Witten-Sakai-Sugimoto model with [[orthogonal group|orthogonal]]  [[gauge gr
 
 The analogoue of the WSS model for [[2d QCD]]:
 
-* Yi-hong Gao, Weishui Xu, Ding-fang Zeng, _NGN, $QCD_2$ and chiral phase transition from string theory_, Nucl.Phys. B400:181-210, 1993 ([arXiv:hep-th/0605138](https://arxiv.org/abs/hep-th/0605138))
+* {#GaoXuZeng06} Yi-hong Gao, Weishui Xu, Ding-fang Zeng, _NGN, $QCD_2$ and chiral phase transition from string theory_, Nucl.Phys. B400:181-210, 1993 ([arXiv:hep-th/0605138](https://arxiv.org/abs/hep-th/0605138))
+
+Specifically concerning the 3d [[Chern-Simons theory]] on the [[D8-branes]]:
+
+* {#YeeZahed11} Ho-Ung Yee, Ismail Zahed, _Holographic two dimensional QCD and Chern-Simons term_, JHEP 1107:033, 2011 ([arXiv:1103.6286](https://arxiv.org/abs/1103.6286))
+
+and its relation to [[baryons]]:
+
+* {#SuganumaNakagawaMatsumoto16} Hideo Suganuma, Yuya Nakagawa, Kohei Matsumoto, _1+1 Large $N_c$ QCD and its Holographic Dual $\sim$ Soliton Picture of Baryons in Single-Flavor World_, JPS Conf. Proc. 13, 020013 (2017) ([arXiv:1610.02074](https://arxiv.org/abs/1610.02074))
+
+
 
 The bottom-up hard-wall model is due to
 
