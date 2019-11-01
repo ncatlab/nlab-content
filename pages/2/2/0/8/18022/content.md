@@ -286,8 +286,23 @@ Discussion of rational fiberwise [[suspension spectra]] is in
 
 * [[Yves Félix]], Aniceto Murillo [[Daniel Tanré]], _Fibrewise stable rational homotopy_, Journal of Topology, Volume 3, Issue 4, 2010, Pages 743–758 ([doi:10.1112/jtopol/jtq023]( https://doi.org/10.1112/jtopol/jtq023))
 
+
 A discussion of full blown rational parametrized stable homotopy theory is due to
 
 * [[Vincent Braunack-Mayer]], _[[schreiber:thesis Braunack-Mayer|Rational parameterized stable homotopy theory]]_, Zurich, 2018
+  
+* [[Vincent Braunack-Mayer]], _Strict algebraic models for rational parametrised spectra I_ ([arXiv:1910.14608](https://arxiv.org/abs/1910.14608))
+
+Application to mathematical analysis of [[duality between M-theory and type IIA string theory]]:
+
+* [[Vincent Braunack-Mayer]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Gauge enhancement of Super M-Branes|Gauge enhancement of Super M-Branes rational parameterized stable homotopy theory]]_, Communications in Mathematical Physics 371: 197 (2019) ([arXiv:1806.01115](https://arxiv.org/abs/1806.01115), [doi:10.1007/s00220-019-03441-4](https://doi.org/10.1007/s00220-019-03441-4))
+
+
+* [[Vincent Braunack-Mayer]], _[[schreiber:Parametrised homotopy theory and gauge enhancement]]_, talk at _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html)_ Durham Symposium 2018 , Fortschritte der Physik (2019) ([doi:10.1002/prop.201910003](https://onlinelibrary.wiley.com/doi/abs/10.1002/prop.201910003)m [arXiv:1903.02862](https://arxiv.org/abs/1903.02862))
+
+  
+
+
+
 
 [[!redirects rational parametrized stable homotopy theory]]
