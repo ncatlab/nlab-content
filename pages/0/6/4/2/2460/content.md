@@ -20,13 +20,12 @@ The notion _universal localization_ or _Cohn localization_ of a [[ring]] is a va
 
 ## Definition
 
-Let $\Sigma$ be a [[multiplicative set]] of [[matrices]] over a (typically noncommutative) [[ring]] $R$. 
+Let $\Sigma$ be a set of finite square [[matrices]] (of different sizes) over a (typically noncommutative) [[ring]] $R$. Without loss of generality, one assumes that $\Sigma$ is left or right multiplicative. It is left multiplicative if for any matrices $A,B,C$ of right sizes such that $A,B\in\Sigma$ and $C$ fits into matrix $New = \left(\array{ A & 0\\ C & B}\right)$, matrix $New$ is also in $\Sigma$.
 
-We say that a [[homomorphism]] of rings $f: R\to S$ is _$\Sigma$-inverting_ if all matrices $f(A)$ over $S$ where $A\in \Sigma$ 
-are invertible in $S$.
-The Cohn localization of a ring $R$, is a homomorphism of rings $R\to \Sigma^{-1} R$ which is initial in the category of all $\Sigma$-inverting maps (which is the subcategory of coslice category $R/Ring$).
+We say that a [[homomorphism]] of rings $f: R\to S$ is _$\Sigma$-inverting_ if all matrices $f(A)$ over $S$ where $A\in \Sigma$ are invertible in $S$.
+The Cohn localization of a ring $R$, is a homomorphism of rings $R\to \Sigma^{-1} R$ which is initial in the category of all $\Sigma$-inverting maps (which is the subcategory of coslice category $R/Ring$). In the left hand version, the elements in the localized ring are thought of as solutions of linear equations $A x = b$ where $b$ is a column vector with elements in $R$ and $A\in\Sigma$. 
 
-## More general definition 
+### More general definition 
 
 Given a [[ring]] $R$ and a family $S$ of morphisms in the [[category]] $R$[[Mod]] of (say left) [[finitely generated module|finitely generated]] [[projective module|projective]] $R$-[[modules]], we say that a morphism of rings $f:R\to T$ is **$S$-inverting** if the [[extension of scalars]] from $R$ to $T$ along $f$
 
@@ -70,9 +69,9 @@ One can also look at localization with inverses just from one side:
 
 * [[P. M. Cohn]], _One-sided localization in rings_, J. Pure Appl. Algebra __88__ (1993), no. 1-3, 37&#8211;42 []()
 
-Universal localization of [[group rings]] is discussed in
+Universal localization of [[group rings]] (and connections to certain noncommutative rational function rings and [[Fox derivative]]s) is discussed in
 
-* [[M. Farber]], [[Pierre Vogel]], _The Cohn locaization of the free group ring_, Math. Proc.  Camb. Phil. Soc. (1992) 111, 433  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/fv.pdf))
+* [[M. Farber]], [[Pierre Vogel]], _The Cohn localization of the free group ring_, Math. Proc.  Camb. Phil. Soc. (1992) 111, 433  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/fv.pdf))
 
 
 [[!redirects Cohn localization]]
