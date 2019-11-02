@@ -20,31 +20,6 @@ See also
 
 ***
 
-+--{.query}
-**Editing help wanted**
-
-[This is what it is supposed to look like](http://topologicalmusings.wordpress.com/2008/09/10/etcs-internalizing-the-logic/).
-
-Starting with the raw Wordpress text, I first replaced "$latex" with "$", which fixed >300 instances. The next big fix is to replace "<blockquote>" with "$" and "</blockquote>" with "$". That puts it into pretty good shape.
-
-Replace "\mbox" with "\\:\text"
-
-Some remaining issues:
-
-* Need a replacement for \cong
-
-[[Jon Awbrey]]: Maybe this is an old note, but I'm reading \cong okay.  Otherwise, I think I used to use an underlined \asymp or something, can't recall, will check.
-
-* Etc.
-
-The easy thing to do is to Edit this page, copy the text to your favorite editor, find/replace, paste text back here.
-
-* [[Jon Awbrey]]: I think I took care of all the remaining formatting issues, but a 2nd or 3rd pair of eyes would be good.
-
-* Jon Phillips: I'm a 2nd pair of eyes - corrected a couple of minor things (hopefully my changes will come out as I expect)
-
-=--
-
 ## ETCS : Internalizing the logic ##
 
 This post is a continuation of the discussion of "the elementary theory of the category of sets" [ETCS] which we had begun last time, [here](http://topologicalmusings.wordpress.com/2008/09/01/zfc-and-etcs-elementary-theory-of-the-category-of-sets/) and in the comments which followed.  My thanks go to all who commented, for some useful feedback and thought-provoking questions.
@@ -334,12 +309,8 @@ Let's first write out a logical formula which expresses intersection:
 
 $$x \in \bigcap F \;\text{if and only if}\; \forall_{S \in PX} (S \in F) \Rightarrow (x \in S).$$
 
-[[Jon Awbrey]]:  There seemed to be an orphan right bracket in the above line, also on your blog.
-
 We have all the ingredients to deal with the logical formula on the right:  we have an implication operator "$\Rightarrow$" as part of the internal Heyting algebra structure on $P(1)$, and we have the quantification operator "$\forall_{PX}$".  The atomic expressions $(S \in F)$ and $(x \in S)$ refer to internal elementhood:  $(x \in S)$ means $\langle x, S \rangle \in X \times PX$ is in $\in_{X} \subseteq X \times PX$, and $(S \in F)$ means $\langle S, F \rangle \in PX \times PPX$ is in $\in_{PX} \subseteq PX \times PPX$.
 
-[[Jon Awbrey]]:  I didn't know what to do with the extra slashes in the above paragraph that weren't parsing, so I deleted them.
- 
 There is a slight catch, in that the predicates "$(S \in_{PX} F)$" and "$(x \in_X S)$" (as generalized predicates over $PX$, where $S$ lives) are taken over different domains.  The first is of the form $\phi_1 : PPX \to P(1)^{PX}$, and the second is of the form $\phi_2 : X \to P(1)^{PX}$.  No matter:  we just substitute in some dummy variables.  That is, we just pull these maps back to a common domain $PPX \times X$, forming the composites
 
 $$\displaystyle \psi_1 = (PPX \times X \stackrel{\pi_1}{\to} PPX \stackrel{\phi_1}{\to} P(1)^{PX})$$
