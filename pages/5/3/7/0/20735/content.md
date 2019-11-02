@@ -115,6 +115,10 @@ For transversal [[D1-D3-brane bound states]]:
 
 * {#Diaconescu97} Duiliu-Emanuel Diaconescu,  _D-branes, Monopoles and Nahm Equations_, Nucl. Phys. B503 (1997) 220-238 ([arxiv:hep-th/9608163](https://arxiv.org/abs/hep-th/9608163))
 
+For transversal [[D2-D4-brane bound states]] (with an eye towards [[AdS/QCD]]):
+
+* Alexander Gorsky, Valentin Zakharov, Ariel Zhitnitsky, _On Classification of QCD defects via holography_, Phys. Rev. D79:106003, 2009 ([arxiv:0902.1842](https://arxiv.org/abs/0902.1842))
+
 With emphasis on [[half NS5-branes]] in [[type I' string theory]]:
 
 * {#HananyZaffaroni99} [[Amihay Hanany]], [[Alberto Zaffaroni]], _Monopoles in String Theory_, JHEP 9912 (1999) 014 ([arxiv:hep-th/9911113](https://arxiv.org/abs/hep-th/9911113))
