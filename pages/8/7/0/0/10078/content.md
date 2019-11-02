@@ -96,6 +96,12 @@ Exposition with an eye towards [[quantum gravity]] is in
 
 * {#Witten15} [[Edward Witten]], _What every physicist should know about string theory_, talk at [Strings2015](https://strings2015.icts.res.in)  ([pdf](https://strings2015.icts.res.in/talkDocuments/26-06-2015-Edward-Witten.pdf), [[WittenWorldlineFormalism.pdf:file]], [video recording](https://www.youtube.com/watch?v=H0jLD0PphTY))
 
+Discussion for [[QCD]] with emphasis of [[2d QCD]] and [[AdS/QCD]]:
+
+* Adi Armoni, Oded Mintakevich, _Comments on Mesonic Correlators in the Worldline Formalism_, 
+ Nuclear Physics B, Volume 852, Issue 1, 1 November 2011, Pages 61-70 ([arxiv:1102.5318](https://arxiv.org/abs/1102.5318))
+
+
 
 Further development includes
 
