@@ -47,6 +47,10 @@ Universal localization is much used in algebraic K-theory, algebraic L-theory an
 
 ## References
 
+The existence of the universal localization is exhibited in
+
+* P. M. Cohn, _Free rings and their relations_, Academic Press 1971
+
 Original articles include
 
 * [[P. M. Cohn]], _Inversive localization in noetherian rings_, Communications on Pure and Applied Mathematics __26__:5-6, pp. 679&#8211;691, 1973 [doi](http://dx.doi.org/10.1002/cpa.3160260510) 
