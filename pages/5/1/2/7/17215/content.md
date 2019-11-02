@@ -9,6 +9,7 @@ Related $n$Lab pages include [[denotational semantics]], [[operational semantics
 * Robert Harper, _Practical foundations for programming languages_, [pdf](http://www.cs.cmu.edu/~rwh/plbook/book.pdf)
 * Shriram Krishnamurthi, _Programming languages, Application and interpretation_, [pdf](http://www.cs.brown.edu/courses/cs173/2012/book/book.pdf)
 * Hanne Riis Nielson, Flemming Nielson, _Semantics with applications: a formal introduction_, Wiley 1992, 1999 [page with book and other files](http://www.daimi.au.dk/~bra8130/Wiley_book/wiley.html) (postscript recommended for the book)
+* Frank J. Oles, _A category-theoretic approach to the semantics of programming languages_, 1982 ([pdf](https://www.cs.cmu.edu/afs/cs.cmu.edu/project/fox-19/member/jcr/www/FrankOlesThesis.pdf))
 * cstheory.stackexchange discussion of books on semantics [html](http://cstheory.stackexchange.com/questions/3533/books-on-programming-language-semantics)
 * Robert M. Amadio, Pierre-Louis Currien, _Domains and lambda-calculi_, Cambridge tracts in theoretical computer science 46, [gBooks](https://books.google.co.uk/books?id=2FycO5h5SocC)
 * Tobias Nipkow, Gerwin Klein, _Concrete semantics with   Isabelle/HOL_, 2014 [book page](http://www21.in.tum.de/~nipkow/Concrete-Semantics)
