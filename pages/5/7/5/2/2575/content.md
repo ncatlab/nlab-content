@@ -1091,6 +1091,9 @@ Specifically on [[D8-branes]] in the context of [[geometric engineering of QFT|g
 
 * Ho-Ung Yee, Ismail Zahed, _Holographic two dimensional QCD and Chern-Simons term_, JHEP 1107:033, 2011 ([arXiv:1103.6286](https://arxiv.org/abs/1103.6286))
 
+* Mitsutoshi Fujita, Charles M. Melby-Thompson, Rene Meyer, [[Shigeki Sugimoto]], _Holographic Chern-Simons Defects_, JHEP06 (2016) 163 ([arxiv:1601.00525](https://arxiv.org/abs/1601.00525))
+
+
 ### Workshops and conferences
 
 * [Chern-Simons Gauge Theory: 20 years after](http://www.hausdorff-center.uni-bonn.de/event/2009/gauge_theory/) was a workshop at the Max Planck Institute in Bonn from 3--7 August 2009.
