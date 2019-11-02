@@ -24,6 +24,10 @@ Specifically on [[skyrmions]]:
 
 * {#Sugimoto16} [[Shigeki Sugimoto]], _Skyrmion and String theory_, chapter 15 in M. Rho, Ismail Zahed (eds.) _The Multifaceted Skyrmion_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
+On 3d [[Chern-Simons theory]] in [[intersecting D-brane models]]:
+
+* Mitsutoshi Fujita, Charles M. Melby-Thompson, Rene Meyer, [[Shigeki Sugimoto]], _Holographic Chern-Simons Defects_, JHEP06 (2016) 163 ([arxiv:1601.00525](https://arxiv.org/abs/1601.00525))
+
 
 ## Related $n$Lab entries
 
