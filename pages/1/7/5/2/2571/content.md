@@ -79,7 +79,7 @@ $CZF$ uses axioms (1--8) and (10), usually weak forms, in [[intuitionistic logic
 
 Note that adding (9) to $IZF$ implies [[excluded middle]] and so makes $ZFC$.  However, some authors like to include a weak form of (9), such as [[dependent choice]] or [[COSHEP]].
 
-[[Mike Shulman]]\'s survey of material and structural set theories ([Shulman 2010](#Shulman2010)) takes $CPZ^{\circlearrowleft-}$ as the most basic form; it consists of (1--4) and the weakest versions (Bounded Separation and Weak Replacement) of (5&6) in intuitionistic logic.  Adding (10) gives $CPZ^{-}$, adding (8) gives $CPZ^{\circlearrowleft}$, and adding both gives $CPZ$, __constructive pre-Zermelo set theory__.  Shulman gives systematic notation for other versions, which includes those (constructive and classical) listed above.
+[[Mike Shulman]]\'s survey of material and structural set theories ([Shulman 2018](#Shulman2018)) takes $CPZ^{\circlearrowleft-}$ as the most basic form; it consists of (1--4) and the weakest versions (Bounded Separation and Weak Replacement) of (5&6) in intuitionistic logic.  Adding (10) gives $CPZ^{-}$, adding (8) gives $CPZ^{\circlearrowleft}$, and adding both gives $CPZ$, __constructive pre-Zermelo set theory__.  Shulman gives systematic notation for other versions, which includes those (constructive and classical) listed above.
 
 Myhill has another version, __constructive set theory__ ($CST$); this consists of (1--4), Bounded Separation for (5), Replacement for (6), the weakest (Exponentiation) form of (7), (8), and a weak version (Dependent Choice) of (9).  It also uses a variation of the language, with [[urelements]] for natural numbers; note that the existence of $\omega$ still follows using (6).  This classifies $CST$ as $\mathrm{C}{\Pi}ZF^{\circlearrowleft} + DC$ in Shulman\'s system if one ignores the use of urelements and strengthens Replacement to Strong Collection.
 
@@ -144,7 +144,7 @@ There are many texts which discuss ZFC and the [[cumulative hierarchy]] from a t
 A classification of axioms of variants of $ZFC$, with an eye towards corresponding [[structural set theories]], is
 
 * [[Michael Shulman]] (2018). Comparing material and structural set theories. [arXiv:1808.05204](https://arxiv.org/abs/1808.05204).
-{#Shulman2010}
+{#Shulman2018}
 
 
 [[!redirects ZF]]
