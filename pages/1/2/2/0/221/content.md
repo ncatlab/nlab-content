@@ -21,26 +21,6 @@ See also
 
 ***
 
-+--{.query}
-**Editing help wanted**
-
-[This is what it is supposed to look like](http://topologicalmusings.wordpress.com/2008/12/15/etcs-building-joins-and-coproducts/).
-
-Starting with the raw Wordpress text, replace "$latex" with "$". The next big fix is to replace "<blockquote>" with "$" and "</blockquote>" with "$". That puts it into pretty good shape.
-
-Replace "\mbox" with "\:\text"
-
-Some remaining issues:
-
-* Need a replacement for \cong
-* Etc
-
-The easy thing to do is to Edit this page, copy the text to your favorite editor, find/replace, paste text back here.
-
-* [[Jon Awbrey]]: I think I took care of all the remaining formatting issues, but a final once-over by the author would be good &#8212; after which this box could be removed.
-
-=--
-
 ## ETCS : Building joins and coproducts ##
 
 After a long hiatus, I'd like to renew the discussion of axiomatic categorical set theory, more specifically the Elementary Theory of the Category of Sets ([[ETCS]]).  [Last
