@@ -47,7 +47,9 @@
 
   * [[D4-D8 brane bound state]]
 
-  * [[M5-MO9 brane bound state]]  
+  * [[M5-MO9 brane bound state]] 
+
+* [[Dp-D(p+2)-brane bound state]]
 
 * [NS5-D4-D2 bound states](NS5-brane#NS5D4D2BoundStates)
 
