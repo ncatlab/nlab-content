@@ -137,7 +137,9 @@ It follows that an [[associative algebra|algebra]], while not itself the filtere
 
 * {#Sweedler69} [[Moss Sweedler]], _Hopf algebras_, 1969
 
-* {#Michaelis03}  [[Walter Michaelis]], _Coassociative Coalgebras_, Handbook of Algebra Volume 3, Elsevier (2003). 
+* {#Michaelis03}  [[Walter Michaelis]], _Coassociative coalgebras_, Handbook of Algebra Volume 3, Elsevier (2003). 
+
+* Luzius Grunenfelder, [[Robert Paré]], _Families parametrized by coalgebras_,  J. Alg. __107__:2 (1987) 316-375 <a href="https://doi.org/10.1016/0021-8693(87)90093-7">doi</a> [pdf](https://core.ac.uk/download/pdf/82530098.pdf)
 
 * {#AbramsWeibel99} [[Lowell Abrams]], [[Charles Weibel]], _Cotensor products of modules_ ([arXiv:math/9912211](http://arxiv.org/abs/math/9912211))
 
@@ -145,6 +147,7 @@ It follows that an [[associative algebra|algebra]], while not itself the filtere
  
 
 * [[Kathryn Hess]], [[Brooke Shipley]], _The homotopy theory of coalgebras over a comonad_ ([arXiv:1205.3979](http://arxiv.org/abs/1205.3979))
+
 
 
 [[!redirects coalgebras]]
