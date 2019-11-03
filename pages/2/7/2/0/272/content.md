@@ -43,7 +43,8 @@ This is traditionally formulated (implicitly) as a structure in ordinary [[categ
 
 * [[blob homology]].
 
-On the other hand, all three of these encode what in physics are called _Euclidean_ quantum field theories, whereas only the notion of [[local net]] so far really incorporates crucially the fact that the underlying spacetime of a quantum field theory is a [[smooth Lorentzian space]].
+Initially, all three of these encoded what in physics are called _Euclidean_ quantum field theories, whereas only the notion of [[local net]] incorporated the fact that the underlying spacetime of a quantum field theory is a [[smooth Lorentzian space]]. Recent developments in the formalism of [[factorization algebra]]s have extended their theory to globally hyperbolic [[Lorentzian manifolds]]. 
+ 
 
 In the context of the Haag-Kastler axioms there is a precise theorem, the [[Osterwalder-Schrader theorem]], relating the Euclidean to the Lorentzian formulation: this is the operation known as [[Wick rotation]].
 
@@ -309,6 +310,7 @@ and a textbook acount is in
 ### Further developments
 
 * {#DLM} [[Claudio Dappiaggi]], [[Gandalf Lechner]], E. Morfa-Morales, _Deformations of quantum field theories on spacetimes with Killing vector fields_, Commun.Math.Phys.305:99-130, (2011), ([arXiv:1006.3548](http://arxiv.org/abs/1006.3548))
+*[[Marco Benini]], [[Marco Perin]], [[Alexander Schenkel]], _Model-independent comparison between factorization algebras and algebraic quantum field theory on Lorentzian manifolds_, ([arXiv:1903.03396v2](https://arxiv.org/abs/1903.03396))
  
 
 ### Relation to functorial QFT
