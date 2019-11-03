@@ -39,9 +39,13 @@ Many of these extend to [[link invariant|link invariants]] or have variants that
 
 ## References
 
-Discussion of knot invariants in terms of [[BPS states]] [[M5-branes]] in [[string theory]] ([[M-theory]]) includes
+Discussion of knot invariants in terms of [[BPS states]] [[M5-branes]] in [[string theory]] ([[M-theory]]):
+
 
 * [[Edward Witten]], _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216))
+
+* [[Davide Gaiotto]], [[Edward Witten]], _Knot Invariants from Four-Dimensional Gauge Theory_, Advances in Theoretical and Mathematical Physics, Volume 16 (2012) Number 3 ([arxiv:1106.4789](https://arxiv.org/abs/1106.4789))
+
 
 * [[Sergei Gukov]], [[Marko Stošić]], _Homological algebra of knots and BPS states_ ([arXiv:1112.0030](http://arxiv.org/abs/1112.0030))
 
