@@ -72,6 +72,10 @@ For transversal [[D1-D3-brane bound states]]:
 
 * [[Amihay Hanany]], [[Edward Witten]], _Type IIB Superstrings, BPS Monopoles, And Three-Dimensional Gauge Dynamics_, Nucl. Phys. B492:152-190, 1997 ([arxiv:hep-th/9611230](https://arxiv.org/abs/hep-th/9611230))
 
+* Jessica K. Barrett, Peter Bowcock, _Using D-Strings to Describe Monopole Scattering_ ([arxiv:hep-th/0402163](https://arxiv.org/abs/hep-th/0402163))
+
+* Jessica K. Barrett, Peter Bowcock, _Using D-Strings to Describe Monopole Scattering - Numerical Calculations_ ([arxiv:hep-th/0512211](https://arxiv.org/abs/hep-th/0512211))
+
 For transversal [[D2-D4-brane bound states]] (with an eye towards [[AdS/QCD]]):
 
 * {#GZZ09} Alexander Gorsky, Valentin Zakharov, Ariel Zhitnitsky, _On Classification of QCD defects via holography_, Phys. Rev. D79:106003, 2009 ([arxiv:0902.1842](https://arxiv.org/abs/0902.1842))
@@ -79,6 +83,8 @@ For transversal [[D2-D4-brane bound states]] (with an eye towards [[AdS/QCD]]):
 For transversal [[D6-D8-brane bound states]] (with an eye towards [[AdS/QCD]]):
 
 * {#HLPY08} Deog Ki Hong, Ki-Myeong Lee, Cheonsoo Park, Ho-Ung Yee, Section V of: _Holographic Monopole Catalysis of Baryon Decay_, JHEP 0808:018, 2008 ([https:arXiv:0804.1326](https://arxiv.org/abs/0804.1326))
+
+
 
 
 
