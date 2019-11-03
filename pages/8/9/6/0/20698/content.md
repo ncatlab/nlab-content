@@ -46,6 +46,7 @@ The category $PF$ of [[sets]] and [[partial functions]] is the prototypical exam
 
 * [[partial function]]
 * [[cartesian restriction category]]
+* [[Turing category]]
 
 ## References
 
@@ -54,3 +55,5 @@ The category $PF$ of [[sets]] and [[partial functions]] is the prototypical exam
 * [[Robin Cockett]], [[Steve Lack]], _Restriction categories II: partial map classification_ ([web](http://maths.mq.edu.au/~slack/papers/restii.html))
 
 * [[Robin Cockett]], [[Steve Lack]], _Restriction categories III: colimits, partial limits, and extensivity_ ([arXiv:math/0610500](http://arxiv.org/abs/math/0610500))
+
+[[!redirects restriction categories]]
