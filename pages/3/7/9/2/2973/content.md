@@ -51,5 +51,3 @@ as a more convenient setting than Steenrod's compactly generated Hausdorff space
 [[!redirects weakly Hausdorff spaces]]
 
 [[!redirects weakly Hausdorff topological spaces]]
-
-[[!redirects weakly Hausdorff space]]
