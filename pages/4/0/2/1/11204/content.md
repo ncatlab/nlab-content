@@ -53,5 +53,6 @@ See also
 * {#Schroeder04} Matthias Schr&#246;der, _Spaces Allowing Type-2 Complexity Theory Revisited_, 2004 ([pdf](http://homepages.inf.ed.ac.uk/als/Research/Others/schroeder-mlq04.pdf))
 
 [[!redirects Type-2 Theory of Effectivity]]
+[[!redirects Type II computability]] 
 
 
