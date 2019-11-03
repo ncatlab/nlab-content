@@ -135,5 +135,6 @@ For a [[locally ringed topos]] with [[structure sheaf]] $\mathcal{O}$, the stalk
 
 * [[James Milne]], section 6 of _[[Lectures on Étale Cohomology]]_
  {#Milne}
+* [[Ofer Gabber]], Shane Kelly, _Points in algebraic geometry_, J. Pure App. Alg. __219__:10 (2015) 4667-4680 [doi](https://doi.org/10.1016/j.jpaa.2015.03.001)
 
 [[!redirects stalks]]
