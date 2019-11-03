@@ -310,7 +310,8 @@ and a textbook acount is in
 ### Further developments
 
 * {#DLM} [[Claudio Dappiaggi]], [[Gandalf Lechner]], E. Morfa-Morales, _Deformations of quantum field theories on spacetimes with Killing vector fields_, Commun.Math.Phys.305:99-130, (2011), ([arXiv:1006.3548](http://arxiv.org/abs/1006.3548))
-*[[Marco Benini]], [[Marco Perin]], [[Alexander Schenkel]], _Model-independent comparison between factorization algebras and algebraic quantum field theory on Lorentzian manifolds_, ([arXiv:1903.03396v2](https://arxiv.org/abs/1903.03396))
+
+* [[Marco Benini]], [[Marco Perin]], [[Alexander Schenkel]], _Model-independent comparison between factorization algebras and algebraic quantum field theory on Lorentzian manifolds_, ([arXiv:1903.03396v2](https://arxiv.org/abs/1903.03396))
  
 
 ### Relation to functorial QFT
