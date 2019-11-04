@@ -40,6 +40,14 @@ Another example of such observables is the [[shear viscosity]] of the [[quark-gl
 
 This approach is hence called the _AdS/QCD-correspondence_ or _holographic QCD_ or similar (see also [[AdS-CFT in condensed matter physics]] for similar relations).
 
+From [Suganuma-Nakagawa-Matsumoto 16](#SuganumaNakagawaMatsumoto16):
+
+> Since 1973, quantum chromodynamics (QCD) has been established as the fundamental theory of the strong interaction. Nevertheless, it is very difficult to solve QCD directly in an analytical manner, and many effective models of QCD have been used instead of QCD, but most models cannot be derived from QCD and its connection to QCD is unclear. To analyze nonperturbative QCD, the lattice QCD Monte Carlo simulation has been also used as a first-principle calculation of the strong interaction. However, it has several weak points. For example, the state information (e.g. the wave function) is severely limited, because lattice QCD is based on the path-integral formalism. Also, it is difficult to take the chiral limit, because zero-mass pions require infinite volume lattices. There appears a notorious "sign problem" at finite density.
+
+> On the other hand, [[holographic QCD]] has a direct connection to QCD, and can be derived from QCD in some limit. In fact, [[holographic QCD]] is equivalent to infrared QCD in large $N_c$ and strong 't Hooft coupling $\lambda$, via gauge/gravity correspondence. Remarkably, holographic QCD is successful to reproduce many hadron phenomenology such as vector meson dominance, the KSRF relation, hidden local symmetry, the GSW model and the Skyrme soliton picture. Unlike lattice QCD simulations, holographic QCD is usually formulated in the chiral limit, and does not have the sign problem at finite density.
+
+
+
 ## Models 
  {#Models}
 
@@ -267,6 +275,10 @@ Review:
 * {#Aharony02} [[Ofer Aharony]], _The non-AdS/non-CFT correspondence, or three different paths to QCD_, Progress in string, field and particle theory. Springer, Dordrecht, 2003. 3-24 ([arXiv:hep-th/0212193](https://arxiv.org/abs/hep-th/0212193))
 
 * {#Erlich09} Joshua Erlich, _How Well Does AdS/QCD Describe QCD?_,  	Int. J. Mod. Phys.A25:411-421,2010 ([arXiv:0908.0312](https://arxiv.org/abs/0908.0312))
+
+* Marco Panero, _QCD thermodynamics in the large-$N$ limit_, 2010 ([[PaneroAdsQCD.pdf:file|pdf]])
+
+
 
 * Youngman Kim and Deokhyun Yi, _Holography at Work for Nuclear and Hadron Physics_, Advances in High Energy Physics, Volume 2011, Article ID 259025, 62 pages
 ([arXiv:1107.0155](https://arxiv.org/abs/1107.0155), [doi:10.1155/2011/259025](http://dx.doi.org/10.1155/2011/259025))
