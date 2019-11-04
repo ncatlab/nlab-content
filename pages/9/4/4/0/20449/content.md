@@ -6,3 +6,6 @@ Most references about Fisher metric are at [[information geometry]], here we add
 
 * P. Facchi, R. Kulkarni, V. I. Man'ko, G. Marmo, E. C. G. Sudarshan, F. Ventriglia, _Classical and quantum Fisher information in the geometrical formulation of quantum mechanics_, Physics Letters A 374 pp. 4801 (2010)[doi](https://doi.org/10.1016/j.physleta.2010.10.005)
 
+There is an analogue in [[free probability]]
+
+* D.-V. Voiculescu, _The analogues of entropy and of Fisher’s information measure in free probability theory. V: Noncommutative Hilbert transforms_, Invent. Math. 132:1 (1998) 189–227.
