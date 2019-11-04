@@ -219,9 +219,10 @@ For the more ambitious matching of the spectrum of the dilatation operator of [[
 
 Comparison to [[string scattering amplitudes]] beyond the planar SCFT limit: [ABP 18](#ABP18).
 
-Exact duality checks pertaining to the full stringy regime for $AdS_3/CFT_2$: [Eberhardt-Gaberdiel 19a](#EberhardtGaberdiel19a), [Eberhardt-Gaberdiel 19b](#EberhardtGaberdiel19b)
-
 Numerical checks using [[lattice gauge theory]] are reviewed in [Joseph 15](#Joseph15).
+
+Exact duality checks pertaining to the full stringy regime for $AdS_3/CFT_2$: [Eberhardt-Gaberdiel 19a](#EberhardtGaberdiel19a), [Eberhardt-Gaberdiel 19b](#EberhardtGaberdiel19b), [Eberhardt-Gaberdiel-Gopakumar 19](#EberhardtGaberdielGopakumar19).
+
 
 ## Formalizations
 
@@ -360,6 +361,15 @@ Review of [[Yangian]] symmetry:
 ### On $AdS_2 / CFT_1$
  {#ReferencesAdS2CFT1}
 
+
+Via [[Jackiw-Teitelboim gravity]]:
+
+* {#AlmheiriPolchinski14} [[Ahmed Almheiri]], [[Joseph Polchinski]], _Models of $AdS_2$ Backreaction and Holography_, J. High Energ. Phys. (2015) 2015: 14. ([arXiv:1402.6334](https://arxiv.org/abs/1402.6334))
+
+
+### On $AdS_3 / CFT_2$
+ {#ReferencesAdS3CFT2}
+
 An exact correspondence of the symmetric [[orbifold]] [[CFT]] of [[Liouville theory]] with a string theory on $AdS_3$ is claimed in:
 
 
@@ -367,16 +377,11 @@ An exact correspondence of the symmetric [[orbifold]] [[CFT]] of [[Liouville the
 
 * {#EberhardtGaberdiel19b} [[Lorenz Eberhardt]], [[Matthias Gaberdiel]], _Strings on $AdS_3 \times S^3 \times S^3 \times S^1$_ ([arXiv:1904.01585](https://arxiv.org/abs/1904.01585))
 
+* {#EberhardtGaberdielGopakumar19} [[Lorenz Eberhardt]], [[Matthias Gaberdiel]], [[Rajesh Gopakumar]], _Deriving the $AdS_3/CFT_2$ Correspondence_ ([arXiv:1911.00378](https://arxiv.org/abs/1911.00378))
+
 based on
 
 * Shouvik Datta, [[Lorenz Eberhardt]], [[Matthias Gaberdiel]], _Stringy $\mathcal{N} = (2,2)$ holography for $AdS_3$_ JHEP 1801 (2018) 146 ([arXiv:1709.06393](https://arxiv.org/abs/1709.06393))
-
-
-### On $AdS_3 / CFT_2$
-
-Via [[Jackiw-Teitelboim gravity]]:
-
-* {#AlmheiriPolchinski14} [[Ahmed Almheiri]], [[Joseph Polchinski]], _Models of $AdS_2$ Backreaction and Holography_, J. High Energ. Phys. (2015) 2015: 14. ([arXiv:1402.6334](https://arxiv.org/abs/1402.6334))
 
 
 ### On $AdS_4 / CFT_3$
