@@ -1,5 +1,4 @@
 
-> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -29,7 +28,7 @@ By the [[Nahm transform]], the [[moduli space]] of time-translation invariant [[
 The moduli space 
 
 \[
-  \label{ModuliSpaceOfkInstantons}
+  \label{ModuliSpaceOfkMonopoles}
   \mathcal{M}_k
   \;\coloneqq\;
   \cdots
@@ -46,9 +45,9 @@ Write
 
 \[
   \label{SpaceOfRationalFunctionsOfDegreek}
-  R_k
+  Maps_{cplx\,rtnl}^{\ast/}\big( \mathbb{C}P^1, \mathbb{C}P^1 \big)_k
   \;\subset\;
-  RationalFunctions\big( \mathbb{C}P^1, \mathbb{C}P^1 \big)
+  Maps_{cplx\,rtnl}^{\ast/}\big( \mathbb{C}P^1, \mathbb{C}P^1 \big)
   \;\subset\;
   Maps^{\ast/}\big( S^2, S^2 \big)
 \]
@@ -59,24 +58,101 @@ To each configuration $ c \in \mathcal{M}_k$ of $k \in \mathbb{N}$ magnetic mono
 
 \[
   \label{ScatteringAmplitudes}
-  S(c) \in R_k
+  S(c) 
+    \in    
+  Maps_{cplx\,rtnl}^{\ast/}\big( \mathbb{C}P^1, \mathbb{C}P^1 \big)_k
+
 \]
 
 ([Atiyah-Hitchin 88 (2.8)](#AtiyahHitchin88))
 
-### Charge quantization in complex-rational Cohomotopy
+\linebreak
 
-The assignment (eq:ScatteringAmplitudes) is in fact a [[diffeomorphism]]
+### Charge quantization in Cohomotopy
+
++-- {: .num_prop #ModuliSpaceOfKMonopolesIsSpaceOfComplexRationalFunctions}
+###### Proposition
+**([[moduli space of monopoles|moduli space of k monopoles]] is [[space of maps|space of]] [[degree of a continuous function|degree]] $k$ [[complex number|complex]]-[[rational functions]] from [[Riemann sphere]] to itself)**
+
+The assignment (eq:ScatteringAmplitudes) is a [[diffeomorphism]]
+identifying the moduli space (eq:ModuliSpaceOfkMonopoles) of $k$ magnetic monopoles with the space (eq:SpaceOfRationalFunctionsOfDegreek) of complex-[[rational functions]] from the [[Riemann sphere]] to itself, of [[degree of a continuous function|degree]] $k$ (hence the [[cocycle space]] of complex-rational 2-[[Cohomotopy]]) 
 
 $$
   \mathcal{M}_k
-  \overset{ S }{\longrightarrow}
-  R_k
+  \;
+  \underoverset{
+    \simeq_{diff}
+  }{ 
+    S 
+  }{
+    \;\;\longrightarrow\;\;
+  }
+  \;
+  Maps_{cplx\,rtnl}^{\ast/}
+  \big( 
+    \mathbb{C}P^1, \mathbb{C}P^1 
+  \big)_k
 $$
 
-identifying the moduli space (eq:ModuliSpaceOfkInstantons) of $k$ magnetic monopoles with the space (eq:SpaceOfRationalFunctionsOfDegreek) of complex-[[rational functions]] form the [[Riemann sphere]] to itself, of [[degree of a continuous function|degree]] $k$ (hence the [[cocycle space]] of complex-rational 2-[[Cohomotopy]]).
+=--
 
-([Atiyah-Hitchin 88, Theorem 2.10](#AtiyahHitchin88))
+(due to [Donaldson 84](#Donaldson84), see also [Atiyah-Hitchin 88, Theorem 2.10](#AtiyahHitchin88)).
+
++-- {: .num_prop #SpaceOfComplexRationalMapsOnRiemannSpherekEquivalentToCohomotopyCocycleSpace}
+###### Proposition
+**([[space of maps|space of]] [[degree of a continuous function|degree]] $k$ [[complex number|complex]]-[[rational functions]] from [[Riemann sphere]] to itself is [[n-equivalence|k-equivalent]] to [[Cohomotopy]] [[cocycle space]] in degree $k$)**
+
+The inclusion of the complex rational self-maps maps of [[degree of a continuous function|degree]] $k$ into the full based [[space of maps]] of [[degree of a continuous function|degree]] $k$ (hence the $k$-component of the second [[iterated loop space]] of the [[2-sphere]], and hence the plain [[Cohomotopy]] [[cocycle space]]) induces an [[isomorphism]] of [[homotopy groups]] in degrees $\leq k$ (in particular a [[n-equivalence|k-equivalence]]):
+
+$$
+  Maps_{cplx\,rtnl}^{\ast/}
+  \big( 
+    \mathbb{C}P^1, \mathbb{C}P^1 
+  \big)_k
+  \;
+  \underset{
+    \simeq_{\leq k}
+  }{
+    \;\;\hookrightarrow\;\;
+  }
+  \;
+  Maps^{\ast/}\big( S^2, S^2 \big)_k
+$$
+
+
+=--
+
+([Segal 79, Prop. 1.1](#Segal79))
+
+Hence, Prop. \ref{ModuliSpaceOfKMonopolesIsSpaceOfComplexRationalFunctions} and Prop. \ref{SpaceOfComplexRationalMapsOnRiemannSpherekEquivalentToCohomotopyCocycleSpace} together say that the moduli space of $k$-monopoles is $k$-equivalent to the Cohomotopy cocycle space $\mathbf{\pi}^2\big( S^2 \big)_k$.
+
+$$
+  \mathcal{M}_k
+  \;
+  \underoverset{
+    \simeq_{diff}
+  }{ 
+    S 
+  }{
+    \;\;\longrightarrow\;\;
+  }
+  \;
+  Maps_{cplx\,rtnl}^{\ast/}
+  \big( 
+    \mathbb{C}P^1, \mathbb{C}P^1 
+  \big)_k
+  \;
+  \underset{
+    \simeq_{\leq k}
+  }{
+    \;\;\hookrightarrow\;\;
+  }
+  \;
+  Maps^{\ast/}\big( S^2, S^2 \big)_k
+$$
+
+This is a [[non-abelian group|non-abelian]] analog of the [[Dirac charge quantization]] of the [[electromagnetic field]], with [[ordinary cohomology]] replaced by [[Cohomotopy]] [[generalized cohomology theory|cohomology theory]]:
+
 
 {#Illustration} $\,$
 
@@ -85,8 +161,28 @@ identifying the moduli space (eq:ModuliSpaceOfkInstantons) of $k$ magnetic monop
 <img src="https://ncatlab.org/nlab/files/AtiyahHitchinChargeQuantizationII.jpg" width="640">
 </center>
 
+\linebreak
 
-This is a [[non-abelian group|non-abelian]] analog of the [[Dirac charge quantization]] of the [[electromagnetic field]], with [[ordinary cohomology]] replaced by [[Cohomotopy]] [[generalized cohomology theory|cohomology theory]].
+
+### Relation to braid groups
+
++-- {: .num_prop #ModuliSpaceOfkMonopolesStablyWeakHomotopyEquivbalentToClassifyingSpaceOfBraids}
+###### Proposition
+**([[moduli space of monopoles]] is [[stable weak homotopy equivalence|stably weak homotopy equivalent]] to [[classifying space]] of [[braid group]])**
+
+For $k \in \mathbb{N}$ there is a [[stable weak homotopy equivalence]] between the [[moduli space of k monopoles]] (eq:ModuliSpaceOfkInstantons) and the [[classifying space]] of the [[braid group]] $Braids_{2k}$ on $2 k$ strands:
+
+$$
+  \Sigma^\infty \mathcal{M}_k
+  \;\simeq\;
+  \Sigma^\infty Braids_{2k}
+$$
+
+=--
+
+([Cohen-Cohen-Mann-Milgram 91](#CohenCohenMannMilgram91))
+
+\linebreak
 
 ## Related concepts
 
@@ -99,9 +195,15 @@ This is a [[non-abelian group|non-abelian]] analog of the [[Dirac charge quantiz
 
 ### General
 
+* {#Donaldson84} [[Simon Donaldson]], _Nahm's Equations and the Classification of Monopoles_, Comm. Math. Phys., Volume 96, Number 3 (1984), 387-407, ([euclid:cmp.1103941858](https://projecteuclid.org/euclid.cmp/1103941858))
+
 * {#AtiyahHitchin88} [[Michael Atiyah]], [[Nigel Hitchin]], _The geometry and dynamics of magnetic monopoles_  M. B. Porter Lectures. Princeton University Press, Princeton, NJ, 1988 ([jstor:j.ctt7zv206](https://www.jstor.org/stable/j.ctt7zv206))
 
 * {#Segal79} [[Graeme Segal]], _The topology of spaces of rational functions_, Acta Math. Volume 143 (1979), 39-72 ([euclid:1485890033](https://projecteuclid.org/euclid.acta/1485890033))
+
+* {#GibbonsManton86} [[Gary Gibbons]], [[Nicholas Manton]], _Classical and Quantum Dynamics of BPS Monopoles_, Nucl. Phys. B274 (1986) 183-224 ([spire:18322](http://inspirehep.net/record/18322), <a href="https://doi.org/10.1016/0550-3213(86)90624-3">doi:10.1016/0550-3213(86)90624-3</a>)
+
+* [[Ralph Cohen]], _Stability phenomena in the topology of moduli spaces_ ([arXiv:0908.1938](https://arxiv.org/abs/0908.1938))
 
 See also
 
@@ -111,7 +213,7 @@ See also
 
 Relation to [[braid groups]]:
 
-* [[Fred Cohen]], [[Ralph Cohen]], B. M. Mann, R. J. Milgram, _The topology of rational functions and divisors of surfaces_, Acta Math (1991) 166: 163 ([doi:10.1007/BF02398886](https://doi.org/10.1007/BF02398886))
+* {#CohenCohenMannMilgram91} [[Fred Cohen]], [[Ralph Cohen]], B. M. Mann, R. J. Milgram, _The topology of rational functions and divisors of surfaces_, Acta Math (1991) 166: 163 ([doi:10.1007/BF02398886](https://doi.org/10.1007/BF02398886))
 
 * [[Ralph Cohen]], John D. S. Jones  _Monopoles, braid groups, and the Dirac operator_, Comm. Math. Phys. Volume 158, Number 2 (1993), 241-266 ([euclid:cmp/1104254240](https://projecteuclid.org/euclid.cmp/1104254240))
 
@@ -152,9 +254,13 @@ The moduli space of monopoles appears also in the [[KK-compactification]] of the
 
 [[!redirects moduli spaces of monopoles]]
 
+[[!redirects moduli space of k monopoles]]
+[[!redirects moduli spaces of k monopoles]]
+
 [[!redirects Atiyah-Hitchin charge quantization]]
 
 [[!redirects Yang-Mills monopole]]
 [[!redirects Yang-Mills monopoles]]
+
 
 
