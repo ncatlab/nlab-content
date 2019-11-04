@@ -32,6 +32,8 @@ issue, Preface,
 
 * Marco Bertola, _Fredholm determinants and (noncommutative) Painlev&#233; II equation_, slides, [pdf](http://www.impan.pl/~fasde/presentations/Bertola.pdf)
 
+* A. Okounkov, E. Rains, _Noncommutative geometry and Painlevé equations_, Algebra & Number Theory 9(6) 1363–1400 (2015) [doi](https://doi.org/10.2140/ant.2015.9.1363)
+
 Multidimensional generalizations of Painlev&#233; VI are introduced in 
 
 * G. Aminov, S. Arthamonov, A. Levin, M. Olshanetsky, A. Zotov, _Painlev&#233; field theory_, [arxiv/1306.3265](http://arxiv.org/abs/1306.3265)
