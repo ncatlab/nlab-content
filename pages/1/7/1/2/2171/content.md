@@ -15,7 +15,7 @@
 * table of contents
 {:toc}
 
-##Idea
+## Idea
 
 The _braid group_ $Br_n$ is the [[group]] whose elements are [[isotopy]] classes of $n$ [[dimension|1-dimensional]] _braids_ running vertically in 3-dimensional [[Cartesian space]], the group operation being their concatenation.
 
@@ -317,9 +317,11 @@ This is the inverse of the first 3-braid we saw.
 
 There are useful [[group presentations]] of the braid groups.   We will return later to the interpretation of the [[generators and relations]] in terms of diagrams. 
 
-## Geometric definition 
+## Definition
 
-Let $C_n \hookrightarrow \mathbb{C}^n$ be the space of configurations of $n$ points in the [[complex plane]], whose elements are those $n$-tuples $(z_1, \ldots, z_n)$ such that $z_i \neq z_j$ whenever $i \neq j$. The [[symmetric group]] $S_n$ acts on $C_n$ by permuting coordinates. Let $C_n/S_n$ be the orbit space (the space of $n$-element subsets of $\mathbb{C}$ if one likes), and let $[z_1, \ldots, z_n]$ be the image of $(z_1, \ldots, z_n)$ under the quotient $\pi: C_n \to C_n/S_n$. We take $p = (1, 2, \ldots, n)$ as basepoint for $C_n$, and $[p] = [1, 2, \ldots n]$ as basepoint for $C_n/S_n$. 
+### Geometric definition 
+
+Let $C_n \hookrightarrow \mathbb{C}^n$ be the space of [[configuration space of points|configurations of n points]] in the [[complex plane]], whose elements are those [[n-tuples]] $(z_1, \ldots, z_n)$ such that $z_i \neq z_j$ whenever $i \neq j$. The [[symmetric group]] $S_n$ acts on $C_n$ by permuting coordinates. Let $C_n/S_n$ be the orbit space (the space of $n$-element subsets of $\mathbb{C}$ if one likes), and let $[z_1, \ldots, z_n]$ be the image of $(z_1, \ldots, z_n)$ under the quotient $\pi: C_n \to C_n/S_n$. We take $p = (1, 2, \ldots, n)$ as basepoint for $C_n$, and $[p] = [1, 2, \ldots n]$ as basepoint for $C_n/S_n$. 
 
 +-- {: .num_defn} 
 ###### Definition 
@@ -332,10 +334,13 @@ $$1 \to P_n \to Br_n \to S_n \to 1$$
 
 which is part of a long exact homotopy sequence corresponding to the fibration $\pi: C_n \to C_n/S_n$. 
 
-## Group-theoretic descriptions 
 
 
-### Artin presentation of $Br_{n+1}$
+
+
+### Group-theoretic definition
+
+#### Artin presentation
 
 The **Artin braid group**, $Br_{n+1}$, defined using $n+1$ strands is a [[group]] given by 
 
@@ -347,7 +352,7 @@ The **Artin braid group**, $Br_{n+1}$, defined using $n+1$ strands is a [[group]
 
   * $r_{i,i+1}\equiv y_i y_{i+1} y_i y_{i+1}^{-1} y_i^{-1} y_{i+1}^{-1}$ for $1 \leq i \lt n$. 
 
-### In terms of automorphisms on free groups 
+#### In terms of automorphisms on free groups 
 
 The braid group $B_n$ may be alternatively described as the [[mapping class group]] of a 2-disk $D^2$ with $n$ punctures (call it $X_n$). Meanwhile, the [[fundamental group]] $\pi_1(X_n)$ (with basepoint on the boundary) is a [[free group]] $F_n$ on $n$ generators; the functoriality of $\pi_1$ implies we have an induced homomorphism 
 
@@ -363,20 +368,39 @@ Explicitly, the generator $y_i$ used in the Artin presentation above is mapped t
 
 $$\sigma_i(x_i) = x_{i+1}, \sigma_i(x_{i+1}) = x_{i+1}^{-1} x_i x_{i+1}, \; \else\; \sigma(x_j) = x_j.$$ 
 
+## Properties
+
+### Relation to moduli space of monopoles
+
++-- {: .num_prop #ModuliSpaceOfkMonopolesStablyWeakHomotopyEquivbalentToClassifyingSpaceOfBraids}
+###### Proposition
+**([[moduli space of monopoles]] is [[stable weak homotopy equivalence|stably weak homotopy equivalent]] to [[classifying space]] of [[braid group]])**
+
+For $k \in \mathbb{N}$ there is a [[stable weak homotopy equivalence]] between the [[moduli space of k monopoles]] (eq:ModuliSpaceOfkInstantons) and the [[classifying space]] of the [[braid group]] $Braids_{2k}$ on $2 k$ strands:
+
+$$
+  \Sigma^\infty \mathcal{M}_k
+  \;\simeq\;
+  \Sigma^\infty Braids_{2k}
+$$
+
+=--
+
+([Cohen-Cohen-Mann-Milgram 91](#CohenCohenMannMilgram91))
+
 
 ## Examples
 
-We will look at such groups for small values of $n$.
+The first few examples for low values of $n$:
 
 +-- {: .num_example}
-
 ###### The group $Br_1$
 
 By default, $Br_1$ has no generators and no relations, so is trivial.
+
 =--
 
 +-- {: .num_example}
-
 ###### The group $Br_2$
 
 By default, $Br_2$ has one generator and no relations, so is infinite cyclic.
@@ -385,7 +409,6 @@ By default, $Br_2$ has one generator and no relations, so is infinite cyclic.
 
 
 +-- {: .num_example}
-
 ###### The group $Br_3$
 
 (We will simplify notation writing $u = y_1$, $v = y_2$.)
@@ -423,9 +446,6 @@ $$
 
 * [[braid category]]
 
-## Related pages
-
-* Wikipedia: _[Braid group](http://en.wikipedia.org/wiki/Braid_group)_
 
 ## References
 
@@ -441,6 +461,11 @@ A recent monograph is
 
 * C. Kassel, V. Turaev, _Braid Groups_ , GTM **247** Springer Heidelberg 2008.
 
+See also
+
+* Wikipedia: _[Braid group](http://en.wikipedia.org/wiki/Braid_group)_
+
+
 For orderings of the braid group see
 
 * [[Patrick Dehornoy]], _Braid groups and left distributive operations_ , Transactions AMS **345** no.1 (1994) pp.115&#8211;150.
@@ -451,7 +476,6 @@ Ableitungen in die Zopfgruppe_ , Computing **7** no.3-4 (1971) pp.293-310.
 ### Relation to moduli space of monopoles
 
 On [[moduli spaces of monopoles]] related to [[braid groups]]:
-
 
 * [[Fred Cohen]], [[Ralph Cohen]], B. M. Mann, R. J. Milgram, _The topology of rational functions and divisors of surfaces_, Acta Math (1991) 166: 163 ([doi:10.1007/BF02398886](https://doi.org/10.1007/BF02398886))
 
