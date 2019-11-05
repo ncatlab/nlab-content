@@ -315,7 +315,7 @@ Sketch of a derivation of AdS/CFT:
 
 Surveys and introductions include
 
-* {#AharonyGubserMaldacenaOoguriOz99} [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, _Large N Field Theories, String Theory and Gravity_, Phys.Rept.323:183-386,2000 ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
+* {#AharonyGubserMaldacenaOoguriOz99} [[Ofer Aharony]], [[Steven Gubser]], [[Juan Maldacena]], [[Hirosi Ooguri]], [[Yaron Oz]], _Large $N$ Field Theories, String Theory and Gravity_, Phys.Rept.323:183-386,2000 ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
 
 * {#Anderson04} Michael T. Anderson, _Geometric aspects of the AdS/CFT correspondence_ ([arXiv:hep-th/0403087](https://arxiv.org/abs/hep-th/0403087)) 
 
