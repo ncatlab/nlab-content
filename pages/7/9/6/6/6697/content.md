@@ -154,3 +154,5 @@ Discussion of [[black holes in anti de Sitter spacetime]]:
 [[!redirects horospheric coordinates]]
 [[!redirects horospheric coordinate chart]]
 [[!redirects horospheric coordinate charts]]
+
+[[!redirects AdS spacetime]]
