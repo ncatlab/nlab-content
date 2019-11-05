@@ -57,7 +57,7 @@ $$
   P \longrightarrow A \underset{C}{\times}B
 $$
 
-is an [[epimorphism]].
+is a [[split epimorphism]].
 
 ## Weak terminal objects
 
