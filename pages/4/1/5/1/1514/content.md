@@ -371,3 +371,9 @@ MathOverflow questions: [mathematics-of-path-integral-state-of-the-art](http://m
 
 [[!redirects Feynman path integral]]
 [[!redirects Feynman path integrals]]
+
+[[!redirects path-integral]]
+[[!redirects path-integrals]]
+
+[[!redirects Feynman path-integral]]
+[[!redirects Feynman path-integrals]]
