@@ -33,6 +33,14 @@ Since the explicit [[non-perturbative quantum field theory|non-perturbative]] fo
 
 Despite the word "theory", lattice gauge theory is more like "computer-simpulated [[experiment]]". While it allows to see phenomena of QCD, it usually cannot provide a conceptual explanation, and of course not a mathematical derivation of problems such as [[confinement]]/[[mass gap]]. Lattice gauge theory is to the [[confinement]]/[[mass gap]]-problems as explicit computation of zeros of the [[Riemann zeta-function]] is to the [[Riemann hypothesis]] (see [there](#Riemann+hypothesis#ReferencesComputerChecks))).
 
+## Properties
+
+### Sign problem
+ {#SignProblem}
+
+(...)
+
+* Wikipedia, _[Numerical sign problem](https://en.wikipedia.org/wiki/Numerical_sign_problem)_
 
 
 ## Related concepts
@@ -174,8 +182,13 @@ The [[IKKT matrix model]] and claims that it predicts spontaneous [[KK-compactif
 * {#AHINT19} Toshihiro Aoki, Mitsuaki Hirasawa, Yuta Ito, Jun Nishimura, Asato Tsuchiya, _On the structure of the emergent 3d expanding space in the Lorentzian type IIB matrix model_ ([arXiv:1904.05914](https://arxiv.org/abs/1904.05914))
 
 
-
+[[!redirects lattice gauge theories]]
 
 [[!redirects lattice gauge field theory]]
+[[!redirects lattice gauge field theorues]]
+
+[[!redirects lattice field theory]]
+[[!redirects lattice field theories]]
+
 
 [[!redirects lattice QCD]]
