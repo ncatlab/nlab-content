@@ -198,6 +198,10 @@ An exposition with an eye towards [[homotopy type theory]] is in
 
 * {#Shulman17} [[Mike Shulman]], _The logic of space_, chapter in [[Gabriel Catren]], [[Mathieu Anel]] (eds.), _[[New Spaces for Mathematics and Physics]]_ ([arXiv:1703.03007](https://arxiv.org/abs/1703.03007))
 
+Lecture notes:
+
+* _[[Introduction to Homotopy Theory]]_
+
 Survey
 
 * [[Haynes Miller]] (ed.), _[[Handbook of Homotopy Theory]]_
@@ -242,11 +246,13 @@ See also
 
 * [[William Dwyer]], _Homotopy theory and classifying spaces_, Copenhagen, June 2008 ([pdf](http://www.math.ku.dk/~jg/homotopical2008/Dwyer.CopenhagenNotes.pdf))
 
-* [[William Dwyer]], P .Hirschhorn, [[Daniel Kan]], [[Jeff Smith]], _Homotopy Limit Functors on Model Categories and Homotopical Categories_, volume 113 of _Mathematical Surveys and Monographs_, American Mathematical Society (2004) (there exists [this](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf) pdf copy of what seems to be a preliminary version of this book)
+* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], [[Jeff Smith]], _Homotopy Limit Functors on Model Categories and Homotopical Categories_, volume 113 of _Mathematical Surveys and Monographs_, American Mathematical Society (2004) (there exists [this](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf) pdf copy of what seems to be a preliminary version of this book)
 
 * K. H. Kamps and [[Tim Porter]], _Abstract Homotopy and Simple Homotopy Theory_ ([GoogleBooks](http://books.google.de/books?id=7JYKxInRMdAC&dq=Porter+Kamps&printsec=frontcover&source=bl&ots=uuyl_tIjs4&sig=Lt8I92xQBZ4DNKVXD0x76WkcxCE&hl=de&sa=X&oi=book_result&resnum=3&ct=result#PPP1,M1))
 
 * [[Emily Riehl]], _Categorical homotopy theory_, Lecture notes ([pdf](http://www.math.harvard.edu/~eriehl/266x/lectures.pdf))
+
+* {#Richter19} [[Birgit Richter]], _From categories to homotopy theory_  Cambridge studies in advanced mathematics, 2019 ([webpage](https://www.math.uni-hamburg.de/home/richter/catbook.html))
 
 Brief indications of open questions and future directions (as of 2013) of [[algebraic topology]] and [[stable homotopy theory]] are in 
 
