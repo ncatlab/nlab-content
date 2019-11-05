@@ -40,7 +40,7 @@ Another example of such observables is the [[shear viscosity]] of the [[quark-gl
 
 This approach is hence called the _AdS/QCD-correspondence_ or _holographic QCD_ or similar (see also [[AdS-CFT in condensed matter physics]] for similar relations).
 
-From [Suganuma-Nakagawa-Matsumoto 16, p. 1](#SuganumaNakagawaMatsumoto16):
+{#FromSNM16} From [Suganuma-Nakagawa-Matsumoto 16, p. 1](#SuganumaNakagawaMatsumoto16):
 
 > Since 1973, [[quantum chromodynamics]] (QCD) has been established as the fundamental theory of the [[strong nuclear force|strong interaction]]. Nevertheless, it is very difficult to solve QCD directly in an analytical manner, and many effective models of QCD have been used instead of QCD, but most models cannot be derived from QCD and its connection to QCD is unclear. 
 
