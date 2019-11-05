@@ -112,7 +112,7 @@ The __graph__ of a [[relation]] of arbitrary arity is similarly a subset of an a
 
 [[Bill Lawvere]] has also considered the __cograph__ of a function, which is dually a [[quotient set]] of the [[disjoint union]] $X \uplus Y$; $a$ is identified with $b$ if $f(a) = b$ (and additional identifications may follow).  However it may make more sense to define the cograph to be a quotient [[poset]] of (the discrete poset) $X \uplus Y$; we declare $a \lt b$ if $f(a) = b$ (and *no* additional relationships follow).  By regarding again a set as a [[0-category]], the latter notion of cograph is a special case of the notion of [[cograph of a functor]], as follows:
 
-A function $f : X \to Y$ determins a [[functor]] $\bar f : I \to Set$ from the [[interval category]] $I = \mathbf{2} = \{a \to b\}$ to [[Set]] by setting $\bar f(a) = X$, $\bar f(b) = Y$ and $\bar f(a \to b) = f$.
+A function $f : X \to Y$ determines a [[functor]] $\bar f : I \to Set$ from the [[interval category]] $I = \mathbf{2} = \{a \to b\}$ to [[Set]] by setting $\bar f(a) = X$, $\bar f(b) = Y$ and $\bar f(a \to b) = f$.
 
 Then let $cograph(f)$ be the corresponding [[category of elements]], given by the [[2-pullback]]
 
