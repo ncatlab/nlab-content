@@ -216,6 +216,14 @@ based on
 
 * {#Sutcliffe10} [[Paul Sutcliffe]], _Skyrmions, instantons and holography_, JHEP 1008:019, 2010 ([arXiv:1003.0023](https://arxiv.org/abs/1003.0023))
 
+### In solid state physics
+
+In [[solid state physics]] skyrmions in the magnetization of thin atomic layers are known as magnetic skyrmions. 
+
+See:
+
+* Wikipedia, _[Magnetic skyrmions](https://en.m.wikipedia.org/wiki/Magnetic_skyrmion)_
+
 
 
 ### In string theory
