@@ -395,6 +395,11 @@ Monographs on [[topos theory]]:
 
 * [[Eugenia Cheng]], [[Aaron Lauda]], _Higher-dimensional categories: an illustrated guide book_ [free online] (http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf)
 
+Towards [[homotopy theory]]:
+
+
+* [[Birgit Richter]], _From categories to homotopy theory_  Cambridge studies in advanced mathematics, 2019 ([webpage](https://www.math.uni-hamburg.de/home/richter/catbook.html))
+
 ### Foundations
 
 The [[foundation]] of category theory in [[homotopy type theory]] (see at _[[internal category in homotopy type theory]]_) is discussed in 
