@@ -181,7 +181,7 @@ And, it would mean there's an equivalence of categories
 $$ hom_{CocompleteCat} (F C, D) \simeq
    hom_{Cat} (C, U D)  $$
 
-for every $C \in Cat$, $D \in CocompleteCat$.  And fiinally, it would also be saying that this equivalence is [[pseudonatural transformation|pseudonatural]] as a function of $C$ and $D$.
+for every $C \in Cat$, $D \in CocompleteCat$.  And finally, it would also be saying that this equivalence is [[pseudonatural transformation|pseudonatural]] as a function of $C$ and $D$.
 
 If we have a pseudonatural equivalence of categories
 
