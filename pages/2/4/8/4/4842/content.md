@@ -233,6 +233,9 @@ Reviewed in:
 
 * {#Volic13} [[Ismar Volić]], Section 4 of: _Configuration space integrals and the topology of knot and link spaces_, [Morfismos, Vol 17, no 2, 2013](https://fdocuments.co/amp/document/morfismos-vol-17-no-2-2013.html) ([arxiv:1310.7224](https://arxiv.org/abs/1310.7224))
 
+### Vassiliev invariants of braids
+
+* [[Dror Bar-Natan]], _Vassiliev and Quantum Invariants of Braids_, Geom. Topol. Monogr. 4 (2002) 143-160 ([arxiv:q-alg/9607001](https://arxiv.org/abs/q-alg/9607001))
 
 
 
@@ -256,3 +259,5 @@ category: geometry, topology
 [[!redirects finite type invariant]]
 [[!redirects finite-type invariants]]
 [[!redirects finite-type invariant]]
+
+[[!redirects Vassiliev invariants of braids]]
