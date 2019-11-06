@@ -39,7 +39,17 @@ Many of these extend to [[link invariant|link invariants]] or have variants that
 
 ## References
 
-Discussion of knot invariants in terms of [[BPS states]] [[M5-branes]] in [[string theory]] ([[M-theory]]):
+### General
+
+(...)
+
+### In string theory
+
+Knot invariants arising in [[string theory]]/[[M-theory]]:
+
+#### Via 5-brane BPS states
+
+Discussion of [[knot invariants]] in terms of [[BPS states]] of [[M5-branes]]:
 
 
 * [[Edward Witten]], _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216))
@@ -52,6 +62,17 @@ Discussion of knot invariants in terms of [[BPS states]] [[M5-branes]] in [[stri
 * Ross Elliot, [[Sergei Gukov]], _Exceptional knot homology_ ([arXiv:1505.01635](http://arxiv.org/abs/1505.01635))
 
 * Satoshi Nawata, Alexei Oblomkov, _Lectures on knot homology_ ([arXiv:1510.01795](http://arxiv.org/abs/1510.01795))
+
+#### Via D$p$/D$(p+2)$ bound states / monopoles
+
+
+Relation of [[Dp-D(p+2)-brane bound states]]/[[Yang-Mills monopoles]] to [[knot invariants]] via [[chord diagrams]]:
+
+* S. Ramgoolam, B. Spence, S. Thomas, Section 3.2 of: _Resolving brane collapse with $1/N$ corrections in non-Abelian DBI_, Nucl. Phys. B703 (2004) 236-276 ([arxiv:hep-th/0405256](https://arxiv.org/abs/hep-th/0405256))
+
+* S. McNamara, Constantinos Papageorgakis, S. Ramgoolam, B. Spence, Appendix A of: _Finite $N$ effects on the collapse of fuzzy spheres_, JHEP 0605:060, 2006 ([arxiv:hep-th/0512145](https://arxiv.org/abs/hep-th/0512145))
+
+* Constantinos Papageorgakis, p. 161-162 of: _On matrix D-brane dynamics and fuzzy spheres_, 2006 ([[Papageorgakis06.pdf:file]])
 
 category: knot theory
 
