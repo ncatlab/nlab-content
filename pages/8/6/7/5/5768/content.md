@@ -16,7 +16,7 @@
 
 ## Idea
 
-Tropical geometry is often thought of as the [[algebraic geometry]] over the [[tropical semiring]]. A good part of it is combinatorial in nature, with relations to the (geometry and combinatorics of) polyhedra and toric geometry. Recently it found applications in explaining [[mirror symmetry]] at a more fundamental level (see e.g. [Gross 11](#Gross11)). 
+Tropical geometry is often thought of as the [[algebraic geometry]] over the [[tropical semiring]]. Many central results are combinatorial in nature, with relations to the (geometry and combinatorics of) polyhedra, [[matroid]]s, [[cluster algebra]]s and toric geometry. Recently it found applications in explaining [[mirror symmetry]] at a more fundamental level (see e.g. [Gross 11](#Gross11)). 
 
 
 Tropical algebraic geometry establishes and studies some very general principles to translate algebro-geometric problems into purely combinatorial ones.
@@ -71,7 +71,7 @@ V. 2 (Madrid, 2006), Eur. Math. Soc., Z&#252;rich, 2006, 827&#8211;852 [djvu](ht
 * Oleg Viro, _Hyperfields for tropical geometry I. hyperfields and dequantization_, [arxiv/1006.3034](http://arxiv.org/abs/1006.3034); _Tropical geometry and hyperfields_, talk at Mathematics - XXI century. PDMI 70th anniversary, [video](http://www.mathnet.ru/php/presentation.phtml?option_lang=eng&presentid=1286); _On basic concepts of tropical geometry_, Trudy Mat. Inst. Steklova __273__ (2011),  271&#8211;303
 * Patrick Popescu-Pampu, Dmitry Stepanov, _Local tropicalization_, [arxiv/1204.6154](http://arxiv.org/abs/1204.6154) 
 * W. Gubler, _Tropical varieties for non-Archimedean analytic spaces_, Invent. Math. __169__ (2007), 321&#8211;376.
-* David Speyer, [[Bernd Sturmfels]], _Tropical mathematics_, [math.CO/0408099](http://arxiv.org/abs/math/0408099)
+* David Speyer, [[Bernd Sturmfels]], _Tropical mathematics_, [math.CO/0408099](http://arxiv.org/abs/math/0408099); _The tropical Grassmannian_, Adv. Geom. 4 (2004) 389–411 [math.AG/0304218](https://arxiv.org/abs/math/0304218) [emis](http://emis.ams.org/journals/AG/4-3/4_389.pdf)
 * Andreas Gathmann, _Tropical algebraic geometry_, [math.AG/0601322](http://arxiv.org/abs/math/0601322)
 * [[Diane Maclagan]], _Polyhedral structures on tropical varieties_, [arXiv:1302.5372](http://arxiv.org/abs/1302.5372)
 * Paul Johnson, _Hurwitz numbers, ribbon graphs, and tropicalization_, [arxiv/1303.1543](http://arxiv.org/abs/1303.1543) (pages 55-72 in CM580)  
