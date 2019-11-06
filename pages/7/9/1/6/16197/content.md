@@ -101,6 +101,11 @@ The experimental data supporting the model is due to
 
 * {#PlanckCollaboration18X} [[Planck Collaboration]], _Planck 2018 results. X. Constraints on inflation_ ([arXiv:1807.06211](https://arxiv.org/abs/1807.06211))
 
+See also
+
+* Debika Chowdhury, Jerome Martin, Christophe Ringeval, Vincent Vennin, _Inflation after Planck: Judgment Day_ ([arxiv:1902.03951](https://arxiv.org/abs/1902.03951))
+
+
 Review and exposition includes
 
 * {#KehagiasDizgahRiotto13} [[Alex Kehagias]], Azadeh Moradinezhad Dizgah, Antonio Riotto, _Comments on the Starobinsky Model of Inflation and its Descendants_, Phys. Rev. D 89, 043527 (2014) ([arXiv:1312.1155](http://arxiv.org/abs/1312.1155))
