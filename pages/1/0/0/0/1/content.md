@@ -111,7 +111,7 @@ The domain `ncatlab.org` is owned by [[Urs Schreiber]].
 
 The $n$Lab server is hosted at Carnegie Mellon University, funded in the context of the [HoTT MURI grant](http://homotopytypetheory.org/2014/04/29/hott-awarded-a-muri/). 
 
-> The nLab runs on a server at Carnegie Mellon University that is supported by MURI grant FA9550-15-1-0053 from the Air Force Office of Scientific Research. Any opinions, findings and conclusions or recommendations expressed on the nLab are those of the authomors and do not necessarily reflect the views of the AFOSR.
+> The nLab runs on a server at Carnegie Mellon University that is supported by MURI grant FA9550-15-1-0053 from the Air Force Office of Scientific Research. Any opinions, findings and conclusions or recommendations expressed on the nLab are those of the authors and do not necessarily reflect the views of the AFOSR.
 
 The technical administration of the software installation is currently in the hands of [[Richard Williamson]]. (If you wish to lend a hand, please [contact us](https://nforum.ncatlab.org/).)
 
