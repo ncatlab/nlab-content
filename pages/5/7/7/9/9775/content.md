@@ -25,7 +25,7 @@ A [[super L-infinity algebra|super Lie 2-algebra]] [[infinity-Lie algebra cohomo
 The [[Chevalley-Eilenberg algebra]] of the $\mathfrak{sugra}_{typeII}$ (defining it) is that of the $D = 10$ $N = 2$ [[super Poincaré Lie algebra]] generated from $\{E, \Psi\}$ with one further generator $B$ in degree 2 and [[differential]] given schematically by
 
 $$
-  d B = \overline{\Psi} \Gamma^a \Gamma_{11} \Psi E_a
+  d B = \big( \overline{\Psi} \Gamma^a \Gamma_{11} \Psi\big) \wedge  E_a
   \,.
 $$
 
