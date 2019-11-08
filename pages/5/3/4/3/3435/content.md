@@ -27,7 +27,7 @@ This book first introduced a general [[localization]] and [[reflective localizat
 
 The book has large historical importance for a clean and innovative formalism treating the interaction of [[category theory]] (including [[adjoint functors]], [[Kan extensions]], [[strict 2-category|strict 2-categories]]), [[simplicial set|simplicial]] methods and [[homotopy theory]]. An important version of a definition of a [[homotopy category]] by the abstract categorical localization by the class of [[weak equivalences]] is introduced. 
 
-It has been proved that the [[homotopy categories]] of [[CW complexes]] and of [[simplicial sets]] are equivalent. The method of the notion of a _fundamental category_ of a simplicial set (now sometimes also called the [[homotopy category]]), refining in a sense the notion of [[fundamental groupoid]], is defined using [[adjoint functor|adjointness]]. 
+It has been proved that the [[homotopy categories]] of [[CW complexes]] and of [[simplicial sets]] are equivalent. The notion of a _fundamental category_ of a simplicial set (now sometimes also called the [[homotopy category]]), refining the notion of [[fundamental groupoid]], is defined using [[adjoint functor|adjointness]]. 
 
 An important method for studying [[cofibrations]] of [[simplicial sets]], namely the notion of an [[anodyne extension]], is introduced for the first time and effectively used. 
 
