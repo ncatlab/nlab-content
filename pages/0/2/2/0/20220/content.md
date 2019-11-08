@@ -28,7 +28,7 @@ $$
     I_8(X^8)
   }{
     \underbrace{
-      \tfrac{1}{48}\big( p_2 - \tfrac{1}{2}p_1^2  \big)[X^{8}]
+      \tfrac{1}{48}\big( p_2 - (\tfrac{1}{2}p_1)^2  \big)[X^{8}]
     }
   }
   \;\;\;\;
