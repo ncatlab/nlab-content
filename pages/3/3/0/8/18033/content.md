@@ -74,7 +74,11 @@ Discussion of [[superconformal bootstrap]] in view of [[AdS/CFT]], hence as a pr
 
 The [[D=6 N=(2,0) SCFT]] on the [[M5-brane]]:
 
-* {#ChesterPerlmutter18} Shai M. Chester, [[Eric Perlmutter]], _M-Theory Reconstruction from $(2,0)$ CFT and the Chiral Algebra Conjecture_ ([arXiv:1805.00892](https://arxiv.org/abs/1805.00892))
+* {#ChesterPerlmutter18} Shai M. Chester, [[Eric Perlmutter]], _M-Theory Reconstruction from $(2,0)$ CFT and the Chiral Algebra Conjecture_, J. High Energ. Phys. (2018) 2018: 116 ([arXiv:1805.00892](https://arxiv.org/abs/1805.00892))
+
+  from p. 2:
+
+  > On the other hand, given our utter lack of a complete description of M-theory, the bulk is  not  terribly  useful  for  determining  finite aspects of the dual CFT. However, we can turn this problem around using the modern perspective of the conformal bootstrap, which gives an a priori independent formulation of the (local sector of the) CFT. This provides an independent tool for constructing M-theory at the non-perturbative level, a philosophy that we will substantiate in this work.
 
 The [[D=3 SCFT]] ([[BLG-model]], [[ABJM model]]) on the [[M2-brane]]:
 
