@@ -1,7 +1,15 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 a variant of the [[torus]] in [[noncommutative geometry]]
+
+## Related concepts
+
+* [[fuzzy sphere]]
 
 ## References
 
