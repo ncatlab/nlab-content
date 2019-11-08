@@ -21,7 +21,7 @@
 
 ## Idea
 
-By the [[Nahm transform]], the [[moduli space]] of time-translation invariant [[self-dual Yang-Mills theory]] [[solitons]] on 4d [[Minkowski spacetime]] $\mathbb{R}^{3,1}$ is equivalently the space of solutions to the [[Bogomolny equations]] on 3d [[Euclidean space]], which in turn may be thought of as [[magnetic monopoles]] in 3d [[Euclidean field theory|Euclidean]] [[Yang-Mills theory]] coupled to a charged [[scalar field]] (a "[[Higgs field]]"). Therefore this moduli space is traditionally referred to simply as the _moduli space of magnetic monopoles_ (e.g. [Atiyah-Hitchin 88](#AtiyahHitchin88)) or just the _moduli space of monopoles_.
+By the [[Nahm transform]], the [[moduli space]] of time-translation invariant [[self-dual Yang-Mills theory]] [[solitons]] on 4d [[Minkowski spacetime]] $\mathbb{R}^{3,1}$ is equivalently the space of solutions to the [[Bogomolny equations]] on 3d [[Euclidean space]], which in tur# iN n may be thought of as [[magnetic monopoles]] in 3d [[Euclidean field theory|Euclidean]] [[Yang-Mills theory]] coupled to a charged [[scalar field]] (a "[[Higgs field]]"). Therefore this moduli space is traditionally referred to simply as the _moduli space of magnetic monopoles_ (e.g. [Atiyah-Hitchin 88](#AtiyahHitchin88)) or just the _moduli space of monopoles_.
 
 ## Definition
 
@@ -211,19 +211,7 @@ See also
 
 * Wikipedia, _[Monopole moduli space](https://en.wikipedia.org/wiki/Monopole_moduli_space)_
 
-### Relation to braids
-
-Relation to [[braid groups]]:
-
-* {#CohenCohenMannMilgram91} [[Fred Cohen]], [[Ralph Cohen]], B. M. Mann, R. J. Milgram, _The topology of rational functions and divisors of surfaces_, Acta Math (1991) 166: 163 ([doi:10.1007/BF02398886](https://doi.org/10.1007/BF02398886))
-
-* [[Ralph Cohen]], John D. S. Jones  _Monopoles, braid groups, and the Dirac operator_, Comm. Math. Phys. Volume 158, Number 2 (1993), 241-266 ([euclid:cmp/1104254240](https://projecteuclid.org/euclid.cmp/1104254240))
-
-
-
-
-
-### In string theory
+### As transversal D$p$/D$(p+2)$-brane intersections
 
 In [[string theory]] [[Yang-Mills monopoles]] are [[geometric engineering of QFT|geometrically engineeted]] as transversally [[intersecting brane|intersecting]] [[Dp-D(p+2)-brane bound states]]:
 
@@ -253,6 +241,29 @@ With emphasis on [[half NS5-branes]] in [[type I' string theory]]:
 The moduli space of monopoles appears also in the [[KK-compactification]] of the [[M5-brane]] on a complex surface ([[AGT-correspondence]]):
 
 * Benjamin Assel, Sakura Schafer-Nameki, Jin-Mann Wong, _M5-branes on $S^2 \times M_4$: Nahm's Equations and 4d Topological Sigma-models_, J. High Energ. Phys. (2016) 2016: 120 ([arxiv:1604.03606](https://arxiv.org/abs/1604.03606))
+
+
+### Relation to braids
+
+Relation to [[braid groups]]:
+
+* {#CohenCohenMannMilgram91} [[Fred Cohen]], [[Ralph Cohen]], B. M. Mann, R. J. Milgram, _The topology of rational functions and divisors of surfaces_, Acta Math (1991) 166: 163 ([doi:10.1007/BF02398886](https://doi.org/10.1007/BF02398886))
+
+* [[Ralph Cohen]], John D. S. Jones  _Monopoles, braid groups, and the Dirac operator_, Comm. Math. Phys. Volume 158, Number 2 (1993), 241-266 ([euclid:cmp/1104254240](https://projecteuclid.org/euclid.cmp/1104254240))
+
+
+Relation of [[Dp-D(p+2)-brane bound states]] ([hence](Dp-Dp+2-brane+bound+states#ReferencesRelationToMonopoles)
+[[Yang-Mills monopoles]]) to [[Vassiliev braid invariants]] via [[chord diagrams]] computing [[radii]] of [[fuzzy spheres]]:
+
+* [[Sanyaje Ramgoolam]], [[Bill Spence]], S. Thomas, Section 3.2 of: _Resolving brane collapse with $1/N$ corrections in non-Abelian DBI_, Nucl. Phys. B703 (2004) 236-276 ([arxiv:hep-th/0405256](https://arxiv.org/abs/hep-th/0405256))
+
+* [[Simon McNamara]], [[Constantinos Papageorgakis]], [[Sanyaje Ramgoolam]], [[Bill Spence]], Appendix A of: _Finite $N$ effects on the collapse of fuzzy spheres_, JHEP 0605:060, 2006 ([arxiv:hep-th/0512145](https://arxiv.org/abs/hep-th/0512145))
+
+* [[Simon McNamara]], Section 4 of: _Twistor Inspired Methods in Perturbative FieldTheory and Fuzzy Funnels_, 2006 ([spire:1351861](http://inspirehep.net/record/1351861), [pdf](https://strings.ph.qmul.ac.uk/sites/default/files/Mcnamaraphd.pdf), [[McNamara06.pdf:file]])
+
+* [[Constantinos Papageorgakis]], p. 161-162 of: _On matrix D-brane dynamics and fuzzy spheres_, 2006 ([[Papageorgakis06.pdf:file]])
+
+
 
 [[!redirects moduli spaces of monopoles]]
 
