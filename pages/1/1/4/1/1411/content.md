@@ -32,6 +32,9 @@ An identity is also called a [[neutral element]] or sometimes a __[[unit]]__ (al
 
 Similarly, a __unit law__ is the statement that a given operation has an identity element.  In [[higher category theory]], we generalise from the [[property]] of uniticity/unitality to the [[structure]] of a [[unitor]].
 
+## Examples
+
+* The identity element in a [[matrix algebra]] is the corresponding [[identity matrix]].
 
 ## Related concepts
 
