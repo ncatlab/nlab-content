@@ -29,4 +29,4 @@ The [[stable homotopy theory]] of [[local spectra]], local with respect to the [
 
 ## References
 
-* [[Jeroen van der Meer]], _A Stack-theoretic perspective on KU-local stable homotopy theory_, 2019 ([pdf](https://www.universiteitleiden.nl/binaries/content/assets/science/mi/scripties/master/2018-2019/jvd-meer-thesisroot.pdf))
+* [[Jeroen van der Meer]], _A Stack-Theoretic Perspective on $\mathrm{KU}$-Local Stable Homotopy Theory_ ([pdf](https://www.universiteitleiden.nl/binaries/content/assets/science/mi/scripties/master/2018-2019/jvd-meer-thesisroot.pdf))
