@@ -9,7 +9,7 @@
 =--
 =--
 
-This page collecs material related to 
+This page collects material related to 
 
 * [[Georg Hegel]],
 
