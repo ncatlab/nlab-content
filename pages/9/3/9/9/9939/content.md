@@ -734,7 +734,7 @@ Lecture notes include
 * {#VanKoughnett13} [[Paul VanKoughnett]], _Spectra and localization_, 2013 ([[VanKoughnettLocalization.pdf:file]])
 
 
-Discussion the general context of [[higher algebra]]/[[stable homotopy theory]] includes
+Discussion in the general context of [[higher algebra]]/[[stable homotopy theory]] includes
 
 * {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture notes (2010) ([web](http://www.math.harvard.edu/~lurie/252x.html)),  Lecture 20 _Bousfield localization_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture20.pdf))
 
@@ -749,6 +749,10 @@ See also
 section 2.4 of
 
 * Holger Reeker, _On K(1)-local SU-bordism_ ([arXiv:0907.4299](http://arxiv.org/abs/0907.4299))
+
+Discussion specifically of $\mathrm{KU}_{(p)}$-local spectra includes Chapter 4 of
+
+* Jeroen W. van der Meer, _A Stack-Theoretic Perspective on $\mathrm{KU}$-Local Stable Homotopy Theory_ ([pdf](https://www.universiteitleiden.nl/binaries/content/assets/science/mi/scripties/master/2018-2019/jvd-meer-thesisroot.pdf))
 
 [[!redirects local spectrum]]
 [[!redirects local spectra]]
