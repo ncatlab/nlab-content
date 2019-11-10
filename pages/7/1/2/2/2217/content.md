@@ -1,5 +1,5 @@
 
-We had this error message up briefly in 2009 when we changed servers.  It was [cited in _New Scientist_](http://zenmischief.blogspot.com/2010/12/defining-normal.html), so now we have to keep it forever, so you can all verify for yourselves what geeks we are (or 
+We had this error message up briefly in 2009 when we changed servers.  It was [cited in _New Scientist_](http://zenmischief.com/2010/12/defining-the-normal/), so now we have to keep it forever, so you can all verify for yourselves what geeks we are (or 
 were in 2009).
 
 ***
