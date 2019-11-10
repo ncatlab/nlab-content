@@ -39,9 +39,63 @@ In general this is a [[cohomology class]] in [[ordinary cohomology]] with [[rati
 
 The expression (eq:TheTerm) controls certain [[quantum anomaly cancellation]] in [[M-theory]] and [[type IIA string theory]] ([Vafa-Witten 95](#VafaWitten95), [Duff-Liu-Minasian 95 (3.10) with (3.14)](#DuffLiuMinasian95)). Since it was first obtain as a [[1-loop]]-contribution in [[perturbative quantum gravity|perturbative quantum]] [[supergravity]], it is often known as _the one-loop anomaly term_ or the _one-loop anomaly polynomial_ in [[M-theory]]/[[type IIA string theory]].
 
+
 \linebreak
 
 ## Properties
+
+### As a higher curvature correction to 11d Supergravity
+ {#AsHigherCurvatureCorrectionTo11dSugra}
+
+A systematic analysis of the possible [[supersymmetry|supersymmetric]] [[higher curvature corrections]] of [[D=11 supergravity]] makes the $I_8$ appear as the higher curvature correction at order $\ell^6$, where $\ell$ is the [[Planck length]] in 11d ([Souères-Tsimpis 17, Section 4](#SoueresTsimpis17)).
+
+At this order, the [[equation of motion]] for the [[supergravity C-field]] [[flux]] $G_4$ and its dual $G_7$ is ([Souères-Tsimpis 17, (4.3)](#SoueresTsimpis17))
+
+$$
+  d G_7(\ell)
+  \;=\;
+  -\tfrac{1}{2}
+  G_4(\ell) \wedge G_4(\ell)
+  + 
+  \ell^6 I_8(R)
+  \,,
+$$
+
+where the flux forms themselves appear in their higher order corrected form as [[power series]] in the [[Planck length]]
+
+$$
+  G_4(\ell)
+  \;=\;
+  G_4 + \ell^6 G_4^{(1)} + \cdots
+$$
+
+$$
+  G_7(\ell)
+  \;=\;
+  G_7 + \ell^6 G_7^{(1)} + \cdots
+$$
+
+([Souères-Tsimpis 17, (4.4)](#SoueresTsimpis17))
+
+Beware that this is not the lowest order [[higher curvature correction]]: there is already one at $\mathcal{O}(\ell^3)$, given by $\ell^3 G_4 \wedge \tfrac{1}{2}p_1(R)$ ([Souères-Tsimpis 17, Section 3.2](#SoueresTsimpis17)). Hence the full correction at $\mathcal{O}(\ell^3)$ should be the further modification of (eq:11dSugraBIAtOrder6) to
+
+\[
+  \label{11dSugraBIAtOrder6}
+  d G_7(\ell)
+  \;=\;
+  -\tfrac{1}{2}
+  G_4(\ell) \wedge 
+  \big( 
+    G_4(\ell)
+    -
+    \tfrac{1}{2} p_1(R)
+  \big)
+  + 
+  \ell^6 I_8(R)
+  \,,
+\]
+
+
 
 ### Inflow to M5-brane anomalies
  {#InflowToM5BraneAnomaly}
@@ -167,6 +221,8 @@ which would cancel against the first term $\tfrac{1}{24} p_2$ in (eq:FiberIntegr
 
 ## References
 
+### General
+
 The term showed  in [[string theory]]/[[M-theory]] [[anomaly cancellation]] in 
 
 * {#VafaWitten95} [[Cumrun Vafa]], [[Edward Witten]], _A One-Loop Test Of String Duality_, Nucl.Phys.B447:261-270, 1995 ([arXiv:hep-th/9505053](https://arxiv.org/abs/hep-th/9505053))
@@ -185,6 +241,15 @@ For further discussion see
   part _II: Twisted $String$ and $String^c$ structures_, J. Australian Math. Soc. 90 (2011), 93-108 ([arXiv:1007.5419](http://arxiv.org/abs/1007.5419)); 
 
   part _III: Twisted higher structures_, Int. J. Geom. Meth. Mod. Phys. 8 (2011), 1097-1116 ([arXiv:1008.1755](http://arxiv.org/abs/1008.1755))
+
+### From higher curvature corrections to 11d Supergravity
+
+Derivation from classification of [[higher curvature corrections]] to [[D=11 supergravity]]:
+
+* {#SoueresTsimpis17} Bertrand Souères, [[Dimitrios Tsimpis]], Section 4 of: _The action principle and the supersymmetrisation of Chern-Simons terms in eleven-dimensional supergravity_, Phys. Rev. D 95, 026013 (2017) ([arXiv:1612.02021](https://arxiv.org/abs/1612.02021))
+
+
+### In relation to the quantum anomaly of the M5-brane
 
 In relation to the [[quantum anomaly]] of the [[M5-brane]]:
 
