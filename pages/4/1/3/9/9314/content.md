@@ -32,7 +32,7 @@ $$
   \,.
 $$
 
-Now given an [[action]] $\rho$ of $G$ on some [[smooth manifold]] $V$, and regardiing this action via its [[action groupoid]] projection $p_\rho \colon V//G \to \mathbf{B}G$ as discussed [above](#ActionsOf1Groups), then we may consider these two morphisms into $\mathbf{B}G$ jointly
+Now given an [[action]] $\rho$ of $G$ on some [[smooth manifold]] $V$, and regarding this action via its [[action groupoid]] projection $p_\rho \colon V//G \to \mathbf{B}G$ as discussed [above](#ActionsOf1Groups), then we may consider these two morphisms into $\mathbf{B}G$ jointly
 
 $$
   \array{
