@@ -692,6 +692,10 @@ Thoughts about type theory and [[metaphysics]] are in
 
 * {#MartinLoef90} [[Per Martin-Löf]], _A path from logic to metaphysics_, talk at _Nuovi problemi della logica e della filosofia della scienza_, Jan 1990 ([pdf](http://archive-pml.github.io/martin-lof/pdfs/A-path-from-logic-to-metaphysics-1991.pdf))
 
+For a type theory suitable for non-cartesian monoidal categories see
+
+* [[Michael Shulman]], _A practical type theory for symmetric monoidal categories_, ([arXiv:1911.00818](https://arxiv.org/abs/1911.00818))
+
 Further online resources include
 
 * Type theory summer school G&#246;teborg 2005, ([materials](http://www.cse.chalmers.se/research/group/logic/TypesSS05/program.html))
