@@ -9,31 +9,38 @@ Michael Duff is professor of theoretical physics at Imperial College London. He 
 
 Among his former students is [[Hisham Sati]].
 
-## selected publications
+## Selected writing
 
-* Michael Duff, _M-Theory (the Theory Formerly Known as Strings)_,  Int. J. Mod. Phys. A11 (1996) 5623-5642 ([arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117))
+On [[quantization]] of the [[M2-brane]] [[Green-Schwarz sigma-model]]:
 
-  ([[M-theory]])
+* {#DuffInamiPopeSezginStelle88} [[Mike Duff]], T. Inami, [[Christopher Pope]], [[Ergin Sezgin]],  [[Kellogg Stelle]], _Semiclassical Quantization of the Supermembrane_, Nucl.Phys. B297 (1988) 515-538 ([spire:247064](http://inspirehep.net/record/247064))
 
-* Mike Duff _[[The World in Eleven Dimensions]]_ (1999)
+On [[black brane|black]] [[M2-brane]]-solutions to [[D=11 supergravity]]:
 
-  ((pre-)history of [[M-theory]])
+* {#DuffStelle91} [[Mike Duff]], [[Kellogg Stelle]], _Multi-membrane solutions of $D = 11$ supergravity_, Phys. Lett. B 253, 113 (1991) ([spire](http://inspirehep.net/record/299386), <a href="https://doi.org/10.1016/0370-2693(91)91371-2">doi:10.1016/0370-2693(91)91371-2</a>)
+
+
+On [[M-theory]]:
+
+* [[Michael Duff]], _M-Theory (the Theory Formerly Known as Strings)_,  Int. J. Mod. Phys. A11 (1996) 5623-5642 ([arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117))
+
+* [[Michael Duff]], _[[The World in Eleven Dimensions]]_ (1999)
+
+On the [[brane scan]] which classifies super $p$-[[brane]] [[sigma-models]] given by [[Green-Schwarz action functionals]]:
 
 * Michael Duff, _Supermembranes: the first fifteen weeks_ CERN-TH.4797/87 (1987) ([scan](http://ccdb4fs.kek.jp/cgi-bin/img/allpdf?198708425))
 
-  ([[brane scan]] which classifies super $p$-[[brane]] [[sigma-models]] given by [[Green-Schwarz action functionals]])
+On [[string-string duality]]:
 
 * {#DuffKhuri93} [[Michael Duff]], [[Ramzi Khuri]], _Four-Dimensional String/String Duality_, Nucl.Phys. B411 (1994) 473-486 ([arXiv:hep-th/9305142](https://arxiv.org/abs/hep-th/9305142))
 
-  (on [[string-string duality]])
-
 * [[Michael Duff]], [[Ruben Minasian]], _Putting string/string duality to the test_, Nucl.Phys. B436 (1995) 507-528 ([arXiv:hep-th/9406198](https://arxiv.org/abs/hep-th/9406198))
 
+and specifically on the [[I8]]-term:
 
 * [[Michael Duff]], [[James Liu]], [[Ruben Minasian]], _Eleven Dimensional Origin of String/String Duality: A One Loop Test_, Nucl.Phys. B452 (1995) 261-282 ([arXiv:hep-th/9506126](https://arxiv.org/abs/hep-th/9506126))
 
 
-  (on [[string-string duality]] and the [[I8]]-anomaly term)
 
 
 
