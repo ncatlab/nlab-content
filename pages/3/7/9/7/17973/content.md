@@ -198,6 +198,11 @@ Discussion of [[string phenomenology]] of [[intersecting D-brane models]] [[KK-c
 
 ## Examples
 
+### General
+
+[[!include brane bound states -- table]]
+
+
 ### Intersecting D6-brane models
 
 (...)
