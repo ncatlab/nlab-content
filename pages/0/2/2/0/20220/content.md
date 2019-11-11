@@ -17,7 +17,7 @@
 
 ## Idea
 
-In [[M-theory]] [[KK-compactification|compactified]] on 8-dimensional [[compact topological space|compact]] [[fibers]] $X^{(8)}$ (see _[[M-theory on 8-manifolds]]_) [[tadpole cancellation]] for the [[supergravity C-field]] is equivalently the condition
+In [[M-theory]] [[KK-compactification|compactified]] on 8-dimensional [[compact topological space|compact]] [[fibers]] $X^{(8)}$ (see _[[M-theory on 8-manifolds]]_) [[tadpole cancellation]] for the [[supergravity C-field]] has been argued ([Sethi-Vafa-Witten 96](#SethiVafaWitten96), [Becker-Becker 96](#BeckerBecker96), [Dasgupta-Mukhi 97](#DasguptaMukhi97)) to be the condition
 
 $$
   N_{M2}
@@ -214,15 +214,15 @@ $$
 
 The C-field tadpole cancellation condition in the special case of vanishing $C$-field flux is due to
 
-* [[Savdeep Sethi]], [[Cumrun Vafa]], [[Edward Witten]], _Constraints on Low-Dimensional String Compactifications_, Nucl.Phys.B480:213-224, 1996 ([arXiv:hep-th/9606122](https://arxiv.org/abs/hep-th/9606122))
+* {#SethiVafaWitten96} [[Savdeep Sethi]], [[Cumrun Vafa]], [[Edward Witten]], _Constraints on Low-Dimensional String Compactifications_, Nucl.Phys.B480:213-224, 1996 ([arXiv:hep-th/9606122](https://arxiv.org/abs/hep-th/9606122))
 
 * [[Edward Witten]], p. 3 of _On Flux Quantization In M-Theory And The Effective Action_, J.Geom.Phys.22:1-13, 1997 ([arXiv:hep-th/9609122](https://arxiv.org/abs/hep-th/9609122))
 
 and the general condition is due to
 
-* [[Katrin Becker]], [[Melanie Becker]], around (2.58) in _M-Theory on Eight-Manifolds_, Nucl.Phys. B477 (1996) 155-167 ([arXiv:hep-th/9605053](https://arxiv.org/abs/hep-th/9605053))
+* {#BeckerBecker96} [[Katrin Becker]], [[Melanie Becker]], around (2.58) in _M-Theory on Eight-Manifolds_, Nucl.Phys. B477 (1996) 155-167 ([arXiv:hep-th/9605053](https://arxiv.org/abs/hep-th/9605053))
 
-* Keshav Dasgupta, [[Sunil Mukhi]], equation (1) in _A Note on Low-Dimensional String Compactifications_, Phys. Lett. B398:285-290, 1997 ([arXiv:hep-th/9612188](https://arxiv.org/abs/hep-th/9612188))
+* {#DasguptaMukhi97} Keshav Dasgupta, [[Sunil Mukhi]], equation (1) in _A Note on Low-Dimensional String Compactifications_, Phys. Lett. B398:285-290, 1997 ([arXiv:hep-th/9612188](https://arxiv.org/abs/hep-th/9612188))
 
 Further discussion:
 
@@ -241,3 +241,6 @@ Application in [[dualities in string theory]]:
 Application in [[string phenomenology]]
 
 * [[Mirjam Cvetic]], [[James Halverson]], Ling Lin, Muyang Liu, Jiahua Tian, equation (9) in _A Quadrillion Standard Models from F-theory_ ([arXiv:1903.00009](https://arxiv.org/abs/1903.00009))
+
+[[!redirects C-field tadpole cancellation condition]]
+[[!redirects tadpole cancellation condition for the supergravity C-field]]
