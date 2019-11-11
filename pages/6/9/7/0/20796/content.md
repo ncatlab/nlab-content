@@ -10,30 +10,14 @@ The special case of [[Dp-D(p+2)-brane bound states]] for [[D1-brane|D1]]-[[D3-br
 
 ## Related concepts
 
+[[!include brane bound states -- table]]
 
-* [[M2-M5 brane bound states]]
-
-* [[Dp-D(p+4)-brane bound state]]
-
-  * [[D0-D4 brane bound state]]
-
-  * [[D1-D5 brane bound state]]
-
-  * [[D4-D8 brane bound state]]
-
-  * [[M5-MO9 brane bound state]] 
-
-* [[Dp-D(p+2)-brane bound state]]
-
-  * [[D1-D3-brane bound state]]
-
-  * [[D2-D4-brane bound state]]
-
-  * [[D6-D8-brane bound state]]
-
-* [NS5-D4-D2 bound states](NS5-brane#NS5D4D2BoundStates)
 
 ## References
+
+For more see the references at _[[Dp-D(p+2)-brane bound state]]_:
+
+### General
 
 Identification with [[Yang-Mills monopoles]]:
 
@@ -43,5 +27,12 @@ Identification with [[Yang-Mills monopoles]]:
 * Jessica K. Barrett, Peter Bowcock, _Using D-Strings to Describe Monopole Scattering - Numerical Calculations_ ([arxiv:hep-th/0512211](https://arxiv.org/abs/hep-th/0512211))
 
 
+### Lift to M2-M5-brane bound states
+ {#ReferencesLiftToMTheory}
 
+The lift of [[Dp-D(p+2)-brane bound states]] in [[string theory]] to [[M2-M5-brane bound states]]/[[E-strings]] in  [[M-theory]], under [[duality between M-theory and type IIA string theory]]+[[T-duality]], via generalization of [[Nahm's equation]] (this eventually motivated the [[BLG-model]]/[[ABJM model]]):
+
+* [[Anirban Basu]], [[Jeffrey Harvey]], _The M2-M5 Brane System and a Generalized Nahm's Equation_, Nucl.Phys. B713 (2005) 136-150 ([arXiv:hep-th/0412310](https://arxiv.org/abs/hep-th/0412310))
+
+* {#BaggerLambertMukhiPapageorgakis13} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], Section 2.2.1 of _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 1 June 2013, Pages 1-100 ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
 
