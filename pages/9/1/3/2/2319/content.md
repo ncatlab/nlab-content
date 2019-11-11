@@ -596,3 +596,8 @@ Discussions of spin structures in the context of [[quantum anomaly]] cancellatio
 [[!redirects Spin-structures]]
 [[!redirects spin structures]]
 [[!redirects spin-structures]]
+
+[[!redirects spin manifold]]
+[[!redirects spin manifolds]]
+[[!redirects spin-manifold]]
+[[!redirects spin-manifolds]]
