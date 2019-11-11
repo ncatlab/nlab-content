@@ -51,9 +51,7 @@ Under [[S-duality]] the [[modular group]] $SL_2(\mathbb{Z})$ acts on these $(p,q
 
 * [[F-theory]]
 
-* [[string web]]
-
-* [[(p,q)5-brane]]
+[[!include brane bound states -- table]]
 
 
 ## References
