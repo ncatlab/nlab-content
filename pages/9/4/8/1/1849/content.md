@@ -19,16 +19,139 @@
 
 ## Idea
 
-The field content of 11-dimensional [[nLab:supergravity]] contains a [[higher U(1)-gauge field]] called the _supergravity C-field_ or _M-theory 3-form_ , which is locally a 3-form and globally _some_ variant of a [[circle n-bundle with connection|circle 3-bundle with connection]]. There have been several suggestions for what _precisely_ its correct global description must be.
+The field content of 11-dimensional [[nLab:supergravity]] contains a [[higher U(1)-gauge field]] called the _supergravity C-field_ or _M-theory 3-form_ , which is locally a 3-form and globally _some_ variant of a [[circle n-bundle with connection|circle 3-bundle with connection]]. 
+
+There have been several suggestions for what _precisely_ its correct global description must be, see at _[Models](#Models)_ below
+
+## Consistency conditions
+ {#ConsistencyConditions}
+
+Several subtle consistency conditions ([[quantum anomaly cancellation]]-conditions) have been argued for the [[charge quantization]] of the supergravity C-field:
+
+1. [Shifted flux quantization condition](#ShiftedCFieldFluxQuantizationCondition)
+
+1. [C-Field tadpole cancellation condition](#CFieldTadpoleCancellationCondition)
+
+### Shifted flux quantization condition
+ {#ShiftedCFieldFluxQuantizationCondition}
+ 
+
+The _[[shifted C-field flux quantization condition]]_ is a [[charge quantization]]-condition on the [[supergravity C-field]] expected in [[M-theory]]. It says that the [[real cohomology]] class of the [[flux density]] ([[field strength]]) [[differential 4-form]] $G_4 \in \Omega^4(X)$ on [[spacetime]] $X$ becomes integral after shifted by one quarter of the [[first Pontryagin class]], hence the condition that with the shifted 4-flux density defined as
+
+\[
+  \label{Shiftwed}
+  \widetilde G_4 
+  \;\coloneqq\;
+  G_4 + \tfrac{1}{4}p_1(\nabla_{T X})
+  \;\in\;
+  \Omega^4(X)
+\]
+
+(for $\nabla_{T X}$ any [[affine connection]] on [[spacetime]], in particular the [[Levi-Civita connection]]) we have (using the [[de Rham theorem]] to translate from [[de Rham cohomology]] to [[real cohomology]]) that $\widetilde G_4$ represents an [[integral cohomology]]-class:
+
+$$
+  [\widetilde G_4]
+  \;\in\;
+  H^4(X, \mathbb{Z})
+  \overset{H^4(X, \mathbb{Z}\hookrightarrow \mathbb{R})}{\longrightarrow}  
+  H^4(X, \mathbb{R})
+  \,.
+$$
+
+
+This condition was originally argued for in ([Witten 96a](#Witten96a), [Witten 96b](#Witten96b)) as a sufficient condition for ensuring that the [[prequantum line bundle]] for the [[7d Chern-Simons theory]] on an [[M5-brane]] [[worldvolume]] is divisible by 2.
+
+Proposals for encoding this condition by a [[Wu class]]-shifted variant of [[generalized (Eilenberg-Steenrod) cohomology theory|stable]] [[ordinary differential cohomology]] were considered in [Hopkins-Singer 02](#HopkinsSinger02), [Diaconescu-Freed-Moore 03](#DiaconescuFreedMoore03), [FSS 12](#FSS12).
+
+It turns out that the shifted flux quantization condition on the C-field is naturally implied ([FSS1 19b, Prop. 4.12](#FSS19b)) by the requirement that $G_4$ is the differential form datum underlying, via [[Sullivan model|Sullivan's theorem]], a [[cocycle]] in unstable [[J-homomorphism|J-]] [[twisted Cohomotopy]] in degree 4 ([[schreiber:Hypothesis H]]).
+
+
+### C-Field tadpole cancellation condition
+ {#CFieldTadpoleCancellationCondition}
+
+In [[M-theory]] [[KK-compactification|compactified]] on 8-dimensional [[compact topological space|compact]] [[fibers]] $X^{(8)}$ (see _[[M-theory on 8-manifolds]]_) [[tadpole cancellation condition for the supergravity C-field]] has been argued ([Sethi-Vafa-Witten 96](shifted+C-field+flux+quantization#SethiVafaWitten96), [Becker-Becker 96](shifted+C-field+flux+quantization#BeckerBecker96), [Dasgupta-Mukhi 97](shifted+C-field+flux+quantization#DasguptaMukhi97)) to be the condition
+
+$$
+  N_{M2}
+  \;+\;
+  \tfrac{1}{2} \big( G_4[X^{(8)}]\big)^2
+  \;=\;
+  \underset{
+    I_8(X^8)
+  }{
+    \underbrace{
+      \tfrac{1}{48}\big( p_2 - (\tfrac{1}{2}p_1)^2  \big)[X^{8}]
+    }
+  }
+  \;\;\;\;
+  \overset{!}{\in}
+  \mathbb{Z}
+  \,,
+$$
+
+where
+
+1. $N_{M2}$ is the net number of [[M2-branes]] in the spacetime (whose [[worldvolume]] appears as points in $X^{(8)}$);
+
+1. $G_4$ is the [[field strength]]/flux of the [[supergravity C-field]]
+
+1. $p_1$ is the [[first Pontryagin class]] and $p_2$ the [[second Pontryagin class]] combining to [[I8]], all regarded here in [[rational homotopy theory]].
+
+
+If $X^{8}$ has 
+
+* [[Spin(7)-structure]] (hence in particular if it is a [[Calabi-Yau manifold]], which has $SU(4) = $ [[Spin(6)]]-structure) 
+
+or 
+
+* [[Sp(2).Sp(1)-structure]] 
+
+then
+
+$$
+  \tfrac{1}{2}\big( p_2 - \tfrac{1}{4}(p_1)^2  \big)
+  \;=\;
+  \chi
+$$
+
+is the [[Euler class]] (see [this Prop.](Spin7-manifold#CharacteristicClassesForSpinStructure) and [this Prop.](quaternion-Kähler+manifold#CharacteristicClassesForSpin5Spin3Structure), respectively), hence in these cases the condition is equivalently
+
+\[
+  \label{DasguptaMukhiConditionInTermsOfEuler}
+  N_{M2}
+  \;=\;
+  -
+  \tfrac{1}{2} \big( G_4[X^{(8)}]\big)^2
+  \;+\;
+  \tfrac{1}{24}\chi[X^8]
+  \;\;\;\;
+  \in
+  \mathbb{Z}
+  \,,
+\]
+
+where $\chi[X]$ is the [[Euler characteristic]] of $X$.
 
 
 
-## The DFM-model
+## Models
+ {#Models}
+
+One proposal for a mathematical model of the C-field is as a [[cocycle]] in a [[Wu class]]-shifted variant of [[ordinary differential cohomology]] in degree 4:
+
+* [The DFM model](#DFMmodel)
+
+Another proposal is that the C-field is simply a [[cocycle]] in [[J-homomorphism|J-]] [[twisted Cohomotopy]] ([[schreiber:Hypothesis H]]):
+
+* [C-field charge quantization in J-twisted Cohomotopy](#ModelByTwistedCohomotopy)
+
+
+### The DFM-model
  {#DFMmodel}
 
-### Construction via $E_8$ gauge fields
+#### Construction via $E_8$ gauge fields
 
-In ([DFM, section 3](#DFM)) the following definition is considered and argued to be a good model of the supergravity $C$-field.
+In ([DFM, section 3](#DiaconescuFreedMoore03)) the following definition is considered and argued to be a good model of the supergravity $C$-field.
 
 +-- {: .num_note #NatureOfE8}
 ###### Note
@@ -111,7 +234,7 @@ for the [[groupoid]] whose
 
 =--
 
-See ([DFM, (3.22), (3.23)](#DFM)).
+See ([DFM, (3.22), (3.23)](#DiaconescuFreedMoore03)).
 
 Here we think of $X$ as equipped with a [[pseudo-Riemannian manifold|pseudo]] [[Riemannian manifold|Riemannian structure]] and [[spin connection]] $\omega$ and think of each object $(P,\nabla,C)$ of $\mathbf{E}(X)$ as inducing an degree-4 cocycle in [[ordinary differential cohomology]] with [[curvature]] 4-form
 
@@ -138,7 +261,7 @@ The first, the set of connected components (gauge equivalence classes of $C$-fie
 The second, the [[fundamental group]], is that of flat [[circle bundle]]s.
 
 
-### Orientation and fractional classes
+#### Orientation and fractional classes
   {#DFMOrientationAndFractionalClasses}
 
 Ordinarily, given a $Spin \times E_8$-bundle $P \to Y$ with first fractional [[Pontryagin class]]
@@ -162,12 +285,12 @@ $$
 
 Since in general $\lambda = \frac{1}{2}p_1(P)$ is not further divisible in integral cohomology, this means that this cannot be the curvature of any [[differential character]]/[[bundle 2-gerbe]]/[[circle n-bundle with connection|circle 3-bundle with connection]], since these are necessarily the images in de Rham cohomology of their integral classes.
 
-See ([DFM 03, section 12.1](#DFM), [FSS 12](#FSS12)) 
+See ([DFM 03, section 12.1](#DiaconescuFreedMoore03), [FSS 12](#FSS12)) 
 
 
-### Restriction to the boundary
+#### Restriction to the boundary
 
-By [DFM, section 12](#DFM) on a manifold $Y$ with boundary $X = \partial Y$ we are to impose $C|_{\partial Y} = 0$. 
+By [DFM, section 12](#DiaconescuFreedMoore03) on a manifold $Y$ with boundary $X = \partial Y$ we are to impose $C|_{\partial Y} = 0$. 
 
 See the discussion [below](#RestrictionToBoundaryInChernWeil) for how this reproduces the [[Green-Schwarz mechanism]] for heterotic [[supergravity]] on the boundary.
 
@@ -175,11 +298,11 @@ See the discussion [below](#RestrictionToBoundaryInChernWeil) for how this repro
 
 
 
-## Description in $\infty$-Chern-Weil theory
+### Description in $\infty$-Chern-Weil theory
 
 Some remarks on ways to regard the $C$-field from the point of view of [[∞-Chern-Weil theory]].
 
-### Abstract definition
+#### Abstract definition
 
 We shall consider the sum of two $C$ fields,  whose curvature is the image in de Rham cohomology of the proper integral class $2 a - \lambda $
 
@@ -262,7 +385,7 @@ Finally in
 
 we comment how genuine $E_8$-connections may appear inside the second presentation of the $C$-model. 
 
-### General properties
+#### General properties
   {#CWPerspectiveGeneralProperties}
 
 
@@ -305,7 +428,7 @@ $$
 that maps $C$-field configurations to [[ordinary differential cohomology]] in degree 4, whose [[curvature]] $\omega(\hat \chi)$ is the image $(\mathbf{c}_2)_{dR}- (\frac{1}{2}\mathbf{p}_2)_{dR} :=  curv(2\mathbf{c}_2 - \frac{1}{2}\mathbf{p}_2)$ in de Rham cohomology of the second Chern-class of some $E_8$-bundle.
 
 
-The differential cocycle $\hat \chi(C)$ has all the general properties that make its [[higher parallel transport]] over [[membrane]] worldvolumes be well-defined. (Apart from the coefficient of $\lambda$, this is the only requirement from which [DFM](#DFM) deduce their model.)
+The differential cocycle $\hat \chi(C)$ has all the general properties that make its [[higher parallel transport]] over [[membrane]] worldvolumes be well-defined. (Apart from the coefficient of $\lambda$, this is the only requirement from which [DFM](#DiaconescuFreedMoore03) deduce their model.)
 
 
 =--
@@ -461,7 +584,7 @@ is the set of smooth functions $Y \to E_8$ (to be thought of as the the set of [
 
 
 
-### Presentation by differential form data
+#### Presentation by differential form data
   {#CWPresentationByDifferentialFormData}
 
 In order to compute the $(\infty,1)$-pullback $C Field(X)$ more explicitly, we follow the discussion at  [[differential string structure]], where presentations of this pullback in terms of [[simplicial presheaves]] arising from  [[Lie integration]] is given.
@@ -640,7 +763,7 @@ where
 
 
 
-### Restriction to the boundary
+#### Restriction to the boundary
   {#RestrictionToBoundaryInChernWeil}
 
 We have seen that $C Field(Y)$ is the 3-groupoid of those [[Cech cohomology|Cech cocycles]] on $Y$ with coefficients in $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)_{diff}$ such that the curvature 4-form $\mathcal{G}_4$ has a fixed globally defined value. 
@@ -702,6 +825,11 @@ This means that cocycles with coefficients in this subobject for $C = 0$ are coc
   \frac{1}{2}\langle F_{\omega} \wedge F_{\omega} \rangle
 \]
 
+### Model by twisted Cohomotopy
+ {#ModelByTwistedCohomotopy}
+
+It turns out that the [[shifted C-field flux quantization condition]] is naturally implied ([FSS1 19b, Prop. 4.12](#FSS19b)) by the requirement that $G_4$ is the differential form datum underlying, via [[Sullivan model|Sullivan's theorem]], a [[cocycle]] in unstable [[J-homomorphism|J-]] [[twisted Cohomotopy]] in degree 4 ([[schreiber:Hypothesis H]]).
+
 
 ## Related concepts
 
@@ -726,9 +854,15 @@ This means that cocycles with coefficients in this subobject for $C = 0$ are coc
 ## References
  {#References}
 
-The state-of-the-art in the literature concerning attempts to find the correct mathematical model for the supergravity C-field seems to be
+The [[shifted C-field flux quantization condition]] was originally proposed in
 
-* {#DFM} E. Diaconescu, [[Dan Freed]], [[Greg Moore]],  _The $M$-theory 3-form and $E_8$-gauge theory_, chapter in [[Haynes Miller]], [[Douglas Ravenel]] (eds.) _Elliptic Cohomology Geometry, Applications, and Higher Chromatic Analogues_, Cambridge University Press 2007 ([arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069), [doi:10.1017/CBO9780511721489](https:
+* {#Witten96a} [[Edward Witten]], _On Flux Quantization In M-Theory And The Effective Action_, J. Geom. Phys. 22:1-13, 1997 ([arXiv:hep-th/9609122](https://arxiv.org/abs/hep-th/9609122))
+
+* {#Witten96b} [[Edward Witten]], _Five-Brane Effective Action In M-Theory_, J. Geom. Phys. 22:103-133, 1997 ([arXiv:hep-th/9610234](https://arxiv.org/abs/hep-th/9610234))
+
+Proposals to model the condition by a [[Wu class]]-shifted variant of [[ordinary differential cohomology]] include the following:
+
+* {#DiaconescuFreedMoore03} E. Diaconescu, [[Dan Freed]], [[Greg Moore]],  _The $M$-theory 3-form and $E_8$-gauge theory_, chapter in [[Haynes Miller]], [[Douglas Ravenel]] (eds.) _Elliptic Cohomology Geometry, Applications, and Higher Chromatic Analogues_, Cambridge University Press 2007 ([arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069), [doi:10.1017/CBO9780511721489](https:
 //doi.org/10.1017/CBO9780511721489))
 
 
@@ -747,15 +881,15 @@ The discussion in [[twisted differential c-structures|twisted nonabelian differe
 
 * {#FiSaSc} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:7d Chern-Simons theory and the 5-brane|M5-branes, String 2-connections, and 7d nonabelian Chern-Simons theory]]_ Advances in Theoretical and Mathematical Physics, Volume 18, Number 2 (2014) p. 229?321   ([arXiv:1201.5277](http://arxiv.org/abs/1201.5277), [doi:10.4310/ATMP.2014.v18.n2.a1](https://dx.doi.org/10.4310/ATMP.2014.v18.n2.a1))
 
-Discussion with [[Dirac charge quantization]] in [[twisted Cohomotopy]]:
+Discussion with [[Dirac charge quantization]] of the C-field in [[twisted Cohomotopy]]:
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ ([arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
+* {#FSS19b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ ([arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization]]_ ([arXiv:1906.07417](https://arxiv.org/abs/1906.07417))
 
 and in [[equivariant Cohomotopy]]:
 
-* [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[schreiber:Equivariant Cohomotopy implies orientifold tadpole cancellation]]_ ([arXiv:1909.12277](https://arxiv.org/abs/1909.12277))
+* [[Hisham Sati]], [[Urs Schreiber]], _[[Equivariant Cohomotopy implies orientifold tadpole cancellation]]_ ([arXiv:1909.12277](https://arxiv.org/abs/1909.12277))
  
 
 Discussion of the dual 6-form field to the 3-form C-field (required notably in the context of [[exceptional generalized geometry]]) includes
