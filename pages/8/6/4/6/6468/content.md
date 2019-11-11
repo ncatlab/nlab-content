@@ -167,7 +167,7 @@ For every [[closed manifold|closed]] [[complex manifold]] the evaluation of the 
 =--
 
 
-+-- {: .num_prop #FirstChernClassOfK3}
++-- {: .num_prop #FirstPontryaginClassOfK3}
 ###### Proposition
 **([[first Chern class]] of [[K3]])**
 
@@ -179,6 +179,8 @@ $$
 $$
 
 =--
+
+(see also e.g. [Duff-Liu-Minasian 95 (5.10)](I8#DuffLiuMinasian95))
 
 +-- {: .proof}
 ###### Proof
@@ -207,6 +209,9 @@ $$
 
 Now consider the [[Cartesian product|Cartesian]] [[product space]] $K3 \times K3$.
 
+See also at _[[C-field tadpole cancellation]]_ the section _[Integrality on $K3 \times K3$](C-field+tadpole+cancellation#IntegralityOnK3TimesK3)_.
+
+
 +-- {: .num_prop #EulerCharacteristicOfK3TimesK3}
 ###### Proposition
 **([[Euler characteristic]] of [[K3]]$\times$[[K3]])**
@@ -231,12 +236,12 @@ By the [Whitney sum formula for the Euler class](Euler%20class#EulerClassOfWhitn
 ###### Proposition
 **([[first Pontryagin class]] of [[K3]]$\times$[[K3]])**
 
-The [[first Pontryagin class]] evaluated on $K3 \times K3$ is $8 \times 24^2$:
+The [[first Pontryagin class]] evaluated on $K3 \times K3$ is:
 
 $$
   p_1[K3 \times K3]
   \;=\;
-  2 \times 48^2
+  - 2 \times 48
 $$
 
 =--
@@ -259,12 +264,74 @@ $$
   \end{aligned}
 $$
 
-With this, the statement follows by Prop. \ref{FirstChernClassOfK3}.
+With this, the statement follows by Prop. \ref{FirstPontryaginClassOfK3}.
 
 =--
 
 
-See also at _[[C-field tadpole cancellation]]_ the section _[Integrality on $K3 \times K2$](C-field+tadpole+cancellation#IntegralityOnK3TimesK3)_.
+
+
+#### Of $K3 \times X^4$
+
+
+Now consider the [[Cartesian product|Cartesian]] [[product space]] $K3 \times X^4$ of [[K3]] with some [[4-manifold]].
+
++-- {: .num_prop #EulerCharacteristicOfK3TimesK3}
+###### Proposition
+**([[Euler characteristic]] of [[K3]]$\times X^4$)**
+
+The [[Euler characteristic]] of $K3 \times K3$ is $24$ times the Euler characteristic of $X^4$:
+
+$$
+  \chi_8[K3\times X^4] \;=\; 24 \cdot \chi_4[X^4]
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [Whitney sum formula for the Euler class](Euler%20class#EulerClassOfWhitneySumIsCupProductOfEulerClasses) we have $\chi_8[K3 \times X^4] = \chi_4[K3] \cdot \chi_4[X^4]$. Hence the statement follows by Prop. \ref{EulerCharacteristicOfK3}.
+
+=--
+
++-- {: .num_prop #FirstPontryaginClassOfK3TimesK3}
+###### Proposition
+**([[first Pontryagin class]] of [[K3]]$\times X^4$)**
+
+The [[first Pontryagin class]] evaluated on $K3 \times X^4$ is:
+
+$$
+  p_1[K3 \times X^4]
+  \;=\;
+  p_1[X^4] - 48
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the general formula for [[Pontryagin classes]] of [[product spaces]] we have
+
+$$
+  \begin{aligned}
+    p_1[K3 \times X^4]
+    & =\;
+    p_0[K3] \smile p_1[X^4]
+    +
+    p_1[K3] \smile p_0[X^4]
+    \\
+    & = 
+    p_1[X^4] + p_1[K3]
+  \end{aligned}
+$$
+
+With this, the statement follows by Prop. \ref{FirstPontryaginClassOfK3}.
+
+=--
+
 
 
 
