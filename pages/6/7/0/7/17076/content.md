@@ -30,6 +30,7 @@ e.g. [Calabrese 16](#Calabrese16), for more see at _[[homotopy groups of spheres
 
 * [[Hopf fibration]]
 
+* [[fuzzy 3-sphere]]
 
 * [[2-sphere]]
 
@@ -38,6 +39,8 @@ e.g. [Calabrese 16](#Calabrese16), for more see at _[[homotopy groups of spheres
 * [[7-sphere]]
 
 * [[n-sphere]]
+
+
 
 ## References
 
