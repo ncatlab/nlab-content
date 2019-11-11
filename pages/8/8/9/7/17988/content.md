@@ -31,18 +31,25 @@ A key example of a non-renormalizable QFT is [[Einstein gravity]], and there is 
 
 Issues that the program of asymptotic safety of gravity is facing include the following:
 
+### Theoretical issues
+
 1. All existing computations that see hints for a UV-fixed point do so by first applying a drastic truncation to the space of couplings, and then checking only whether there is a UV-fixed point for the RG-flow in the remaining small subspace. It seems unclear to which extent these approximate considerations may be extrapolated.
 
 1. Most existing computations consider only pure Einstein gravity without matter coupling. It seems unclear to which extent these results may be extrapolated to the situation where matter is taken account of (but see [Biemans-Platania-Saueressig 17](#BiemansPlataniaSaueressig17)).
+
+1. {#DonoghueSummarizes} [Donoghue 19](#Donoghue19) claims technical problems with the handling of [[renormalization group flow]] in Newton's constant $G_N$ as currently practiced in the asymptotic safety program: 
+
+    1. The "[[running coupling constant|running]]" $G_N(E)$ comes from power-divergent corrections that vanish in [[dimensional regularization]].
+
+      1. Computing different [[Minkowski spacetime]] processes gives different power-divergent corrections: there is no generic common $G_N(E)$. 
+
+      1. There is no generic [[energy]] $E$: some processes depend on $s \sim + E^2$, others on $t \sim -E^2$ and (unlike in the usual log running) this makes a difference.
 
 1. If one assumes (as is widely, but no generally believed) that [[Bekenstein-Hawking entropy]] seen in classical gravity is to correspond to a microscopic [[entropy]] of its quantum degrees of freedom, then the scaling of this entropy with area as opposed to volume contradicts the assumption that [[quantum gravity]] is a [[local field theory]] at small scales and higher energies ([Shomer 07, section IV](#Shomer07)) and hence then it contradicts the asymptotic safety of gravity. 
 
    Similarly, if one trusts the [[AdS/CFT correspondence]] then gravity is fundamentally not a local field theory, only its boundary [[CFT]] is, in contradiction with asymptotic safety of gravity ([Shomer 07, section IV](#Shomer07)).
 
-## Properties
-
-### Higgs particle self-coupling
- {#HiggsParticle}
+### Experimental issues
 
 The near criticality of the [[Higgs field]] [[vacuum]] (see there at _[Higgs mass and vacuum (in-)stability](Higgs+field#MassAndVacuumInstability)_) implies that the [[coefficient]] $\lambda$ of the quartic part of the Higgs potential is close to zero after [[renormalization group flow]] ("RGE") to around the [[Planck scale]] of about $10^{19}$ [[GeV]] (e.g. [BDGGSSS 13, p. 17-18](#BDGGSSS13)):
 
@@ -59,8 +66,6 @@ Earlier it has been suggested that this reflects the principle of asymptotic saf
 
 
 <img src="https://ncatlab.org/nlab/files/HiggsQuarticBetaFunction.png" width="800"/>
-
-
 
 
 ## References
@@ -96,7 +101,7 @@ Critical review:
 
 * {#Shomer07} Assaf Shomer, _A pedagogical explanation for the non-renormalizability of gravity_ ([arXiv:0709.3555](https://arxiv.org/abs/0709.3555))
 
-* [[John Donoghue]], _A Critique of the Asymptotic Safety Program_ ([arXiv:1911.02967](https://arxiv.org/abs/1911.02967)) 
+* {#Donoghue19} [[John Donoghue]], _A Critique of the Asymptotic Safety Program_ ([arXiv:1911.02967](https://arxiv.org/abs/1911.02967)) 
 
 See also
 
