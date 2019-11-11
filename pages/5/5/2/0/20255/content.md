@@ -44,6 +44,31 @@ The expression (eq:TheTerm) controls certain [[quantum anomaly cancellation]] in
 
 ## Properties
 
+### For $Spin(7)$- or $Sp(1)\cdot Sp(2)$-structure
+
+If $X^{8}$ has 
+
+* [[Spin(7)-structure]] (hence in particular if it is a [[Calabi-Yau manifold]], which has $SU(4) = $ [[Spin(6)]]-structure) 
+
+or 
+
+* [[Sp(2).Sp(1)-structure]] 
+
+then
+
+$$
+  \tfrac{1}{2}\big( p_2 - \tfrac{1}{4}(p_1)^2  \big)
+  \;=\;
+  \chi_8
+$$
+
+is the [[Euler class]] (see [this Prop.](Spin7-manifold#CharacteristicClassesForSpinStructure) and [this Prop.](quaternion-Kähler+manifold#CharacteristicClassesForSpin5Spin3Structure), respectively), hence then 
+
+$$
+  I_8 = \tfrac{1}{24} \chi_8
+  \,.
+$$
+
 ### As a higher curvature correction to 11d Supergravity
  {#AsHigherCurvatureCorrectionTo11dSugra}
 
