@@ -44,6 +44,11 @@ then such triple membrane junctions must correspond to blowups of the [[dihedral
 
 <img src="https://ncatlab.org/nlab/files/D4Dynkin.jpg">
 
+## Related concepts
+
+[[!include brane bound states -- table]]
+
+
 ## References
 
 Discussion of triple-membrane junction-shaped [[black brane]]-solutions to [[11-dimensional supergravity]] is in
