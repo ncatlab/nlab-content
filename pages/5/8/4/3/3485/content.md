@@ -583,7 +583,7 @@ American Journal of Mathematics Vol. 93, No. 4 (Oct., 1971), pp. 857-866 ([jstor
 
 * Vladimir V. Kornyak, _An Algorithm to Decompose Permutation Representations of Finite Groups: Polynomial Algebra Approach_ ([arXiv:1801.09786](https://arxiv.org/abs/1801.09786))
 
-* {#BurtonSatiSchreiber18} [[Simon Burton]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The image of the Burnside ring in the Representation ring|The image of the Burnside ring in the Representation ring -- for binary Platonic groups]]_ ([arXiv:1812.09679](https://arxiv.org/abs/1812.09679), [Python code](https://arxiv.org/src/1812.09679v1/anc))
+* {#BurtonSatiSchreiber18} [[Simon Burton]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Lift of fractional D-brane charge to equivariant Cohomotopy theory|Lift of fractional D-brane charge to equivariant Cohomotopy theory]]_ ([arXiv:1812.09679](https://arxiv.org/abs/1812.09679), [Python code](https://arxiv.org/src/1812.09679v1/anc))
 
 
 See also
