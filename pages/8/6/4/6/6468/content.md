@@ -110,6 +110,161 @@ $$
 
 (e.g. [Barth-Peters-Van den Ven 84, VIII Prop. 3.3](#BarthPetersVandenVen84))
 
+\linebreak
+
+### Characteristic classes
+  {#CharacteristicClasses}
+
+We discuss some [[characteristic classes]] of (the [[tangent bundle]] of) [[K3]], and their evaluation on (the [[fundamental class]] of) $K3$ (i.e. their [[integration]] over $K3$).
+
+#### Of $K3$
+
++-- {: .num_prop #EulerCharacteristicOfK3}
+###### Proposition
+**([[Euler characteristic]] of [[K3]])**
+
+The [[Euler characteristic]] of [[K3]] is 24:
+
+$$
+  \chi[K3] \;=\; 24
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #FirstChernClassOfK3}
+###### Proposition
+**([[first Chern class]] of [[K3]])**
+
+The [[first Chern class]] of [[K3]] vanishes:
+
+$$
+  c_1(K3) \;=\; 0
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop #SecondChernClassOfK3}
+###### Proposition
+**([[second Chern class]] of [[K3]])**
+
+The [[second Chern class]] of [[K3]] evaluates to 24:
+
+$$
+  c_2[K3] \;=\; 24
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For every [[closed manifold|closed]] [[complex manifold]] the evaluation of the top degree [[Chern class]] equals the [[Euler characteristic]]. Hence the statement follows from Prop. \ref{EulerCharacteristicOfK3}.
+
+=--
+
+
++-- {: .num_prop #FirstChernClassOfK3}
+###### Proposition
+**([[first Chern class]] of [[K3]])**
+
+The [[first Pontryagin class]] of [[K3]] evaluates to 48:
+
+$$
+  p_1[K3] \;=\; -48
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For a [[complex manifold]] the [[first Pontryagin class]] is the following [[polynomial]] in the [[first Chern class]] and the [[second Chern class]].
+By Prop. \ref{FirstChernClassOfK3} the first Chern class vanishes,
+and by Prop. \ref{SecondChernClassOfK3} the second Chern class evaluates to 24:
+
+
+$$
+  \begin{aligned}
+    p_1[K3]
+      & =\;
+    \underset{= 0}{\underbrace{c_1 \cup c_1}}[K3] 
+    - 2 
+    \underset{24}{\underbrace{c_2[K3]}}
+    \\
+    & = - 48
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+#### Of $K3 \times K3$
+
+Now consider the [[Cartesian product|Cartesian]] [[product space]] $K3 \times K3$.
+
++-- {: .num_prop #EulerCharacteristicOfK3TimesK3}
+###### Proposition
+**([[Euler characteristic]] of [[K3]]$\times$[[K3]])**
+
+The [[Euler characteristic]] of $K3 \times K3$ is 24^2:
+
+$$
+  \chi[K3\times K3] \;=\; 24^2
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [Whitney sum formula for the Euler class](Euler%20class#EulerClassOfWhitneySumIsCupProductOfEulerClasses) we have $\chi[K3 \times K3] = (\chi[K3])^2$. Hence the statement follows by Prop. \ref{EulerCharacteristicOfK3}.
+
+=--
+
++-- {: .num_prop #FirstPontryaginClassOfK3TimesK3}
+###### Proposition
+**([[first Pontryagin class]] of [[K3]]$\times$[[K3]])**
+
+The [[first Pontryagin class]] evaluated on $K3 \times K3$ is $8 \times 24^2$:
+
+$$
+  p_1[K3 \times K3]
+  \;=\;
+  2 \times 48^2
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the general formula for [[Pontryagin classes]] of [[product spaces]] we have
+
+$$
+  \begin{aligned}
+    p_1(K3 \times K3)
+    & =\;
+    p_0(K3) \smile p_1(K3)
+    +
+    p_1(K3) \smile p_0(K3)
+    \\
+    & = 
+    2 p_1(K3)
+  \end{aligned}
+$$
+
+With this, the statement follows by Prop. \ref{FirstChernClassOfK3}.
+
+=--
+
+
+
 
 ### Moduli of higher line bundles and deformation theory
  {#ModuliOfHigherLineBundles}
