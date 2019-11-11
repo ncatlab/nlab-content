@@ -7,6 +7,10 @@
 
 * [[M-theory on G2-manifolds]]
 
+  * [[G2-MSSM]]
+
+* [[M-theory on Sp(1)-manifolds]]
+
 * [[M-theory on hyperbolic manifolds]]
 
 * [[M-theory on S1/G_HW times H/G_ADE]] ([[heterotic M-theory on ADE-orbifolds]])
