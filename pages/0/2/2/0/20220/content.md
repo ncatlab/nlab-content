@@ -32,7 +32,7 @@ $$
     }
   }
   \;\;\;\;
-  \in
+  \overset{!}{\in}
   \mathbb{Z}
   \,,
 $$
@@ -63,19 +63,146 @@ $$
 
 is the [[Euler class]] (see [this Prop.](Spin7-manifold#CharacteristicClassesForSpinStructure) and [this Prop.](quaternion-Kähler+manifold#CharacteristicClassesForSpin5Spin3Structure), respectively), hence in these cases the condition is equivalently
 
-$$
+\[
+  \label{DasguptaMukhiConditionInTermsOfEuler}
   N_{M2}
-  \;+\;
-  \tfrac{1}{2} \big( G_4[X^{(8)}]\big)^2
   \;=\;
+  -
+  \tfrac{1}{2} \big( G_4[X^{(8)}]\big)^2
+  \;+\;
   \tfrac{1}{24}\chi[X^8]
   \;\;\;\;
   \in
   \mathbb{Z}
   \,,
-$$
+\]
 
 where $\chi[X]$ is the [[Euler characteristic]] of $X$.
+
+## Properties
+
+### Integrality on $K3 \times K3$
+ {#IntegralityOnK3TimesK3}
+
+That (eq:DasguptaMukhiConditionInTermsOfEuler) should be an [[integer]] is a highly non-trivial condition on the manifold $X^8$.
+
+One case where this is satisfied is for $X^8$ being the [[product space]] of [[K3]] with itself.
+
+To see this, one needs the [[shifted C-field flux quantization]]-condition
+
+\[
+  \label{ShiftedCFieldFluxQuantization}
+  [\tilde G_4]
+  \;\in\;
+  H^4(X^8, \mathbb{Z})
+  \to
+  H^4(X^8, \mathbb{R})
+\]
+
+for
+
+\[
+  \label{ShiftedCFieldFLux}
+  \tilde G_4
+  \;\coloneqq\;
+  G_4 + \tfrac{1}{4}p_1(\nabla_{T X^8})
+\]
+
++-- {: .num_prop }
+###### Proposition
+
+With the [[shifted C-field flux quantization]] (eq:ShiftedCFieldFLux), the Dasgupta-Mukhi-expression (eq:DasguptaMukhiConditionInTermsOfEuler) for the number of [[M2-branes]] is indeed an [[integer]] on the [[product space]] $X^8 = K3 \times K3$ of [[K3]] with itself:
+
+\[
+  \tfrac{1}{24}\chi[K3 \times K3]
+  -
+  \tfrac{1}{2} \big( G_4[K3 \times K3]\big)^2
+  \;\in\;
+  \mathbb{Z}
+  \,,
+\]
+
+=--
+
++-- {: .proof}
+###### Proof
+
+After replacing $G_4$ by $\widetilde G_4$ (eq:ShiftedCFieldFLux) the expression becomes
+
+\[
+  \label{ExpressingDasgupteMukhInTildeG4}
+  \begin{aligned}
+    & 
+    \tfrac{1}{24}\chi
+    -
+    \tfrac{1}{2} \big( G_4\big)^2
+    \\
+    & =
+    \tfrac{1}{24}\chi
+    -
+    \tfrac{1}{2}\big( \tfrac{1}{4} p_1 \big)^2
+    -
+    \underset{
+      \in \mathbb{Z}
+    }{
+    \underbrace{
+      \tfrac{1}{2} 
+      \widetilde G_4 \cdot \big( \widetilde G_4 - \tfrac{1}{2}p_1\big)
+    }
+    }   
+    \,,
+  \end{aligned}
+\]
+
+where the summand over the brace is an integral class (by [this Corollary](Wu+class#DivisibilityOfCupSquare)), because $K3$ is a [[spin manifold]] so that $\tfrac{1}{2}p_1$ is the [[Wu class]] $\nu_4$ (by [this Prop.](Wu+class#InTermsOfPontryagin)).
+
+Hence it is now sufficient to show that the first two summands on the right of (eq:ExpressingDasgupteMukhInTildeG4) are both [[integers]], when evaluated on $K3 \times K3$.
+
+But we have
+
+1. $\chi[K3\times K3] \;=\; 24^2$ (by [this Prop.](K3+surface#EulerCharacteristicOfK3TimesK3))
+
+1. $ p_1[K3 \times K3] \;=\; 2 \times 48^2$ (by [this Prop.](K3+surface#FirstPontryaginClassOfK3TimesK3))
+
+Hence 
+
+$$
+  \begin{aligned}
+    \tfrac{1}{24}\chi[K3 \times K3] 
+    & = \tfrac{1}{24} 24^2 
+    \\
+    & = 24 \;\in\; \mathbb{Z}
+  \end{aligned}
+$$
+
+and
+
+$$
+  \begin{aligned}
+    \tfrac{1}{32} p_1[K3 \times K3] 
+    & = 
+    \tfrac{1}{32} \times 2 \times 
+    (
+      \underset{
+        \mathclap{
+          = 3 \times 2^4
+        }
+      }
+      {
+        \underbrace{48}
+      }
+    )^2
+    \\
+    & =
+    2^{-5 + 1 + 2 \times 4} \times 3^2
+    \;\in\;
+    \mathbb{Z}
+  \end{aligned}
+$$
+
+=--
+
+
 
 ## Related concepts
 
