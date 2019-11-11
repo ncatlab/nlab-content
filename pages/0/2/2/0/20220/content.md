@@ -162,7 +162,7 @@ But we have
 
 1. $\chi[K3\times K3] \;=\; 24^2$ (by [this Prop.](K3+surface#EulerCharacteristicOfK3TimesK3))
 
-1. $ p_1[K3 \times K3] \;=\; 2 \times 48^2$ (by [this Prop.](K3+surface#FirstPontryaginClassOfK3TimesK3))
+1. $ p_1[K3 \times K3] \;=\; - 2 \times 48$ (by [this Prop.](K3+surface#FirstPontryaginClassOfK3TimesK3))
 
 Hence 
 
@@ -179,22 +179,22 @@ and
 
 $$
   \begin{aligned}
-    \tfrac{1}{32} p_1[K3 \times K3] 
+    \tfrac{1}{32} (p_1[K3 \times K3])^2
     & = 
-    \tfrac{1}{32} \times 2 \times 
+    \tfrac{1}{32} \times 
     (
       \underset{
         \mathclap{
-          = 3 \times 2^4
+          = 3 \times 32
         }
       }
       {
-        \underbrace{48}
+        \underbrace{ 2 \times 48}
       }
     )^2
     \\
     & =
-    2^{-5 + 1 + 2 \times 4} \times 3^2
+    9 \times 32
     \;\in\;
     \mathbb{Z}
   \end{aligned}
