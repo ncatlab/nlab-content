@@ -98,7 +98,7 @@ The original articles are
 
 * {#BaggerLambert06} [[Jonathan Bagger]], [[Neil Lambert]], _Modeling Multiple M2's_, Phys. Rev. D75, 045020 (2007). ([hep-th/0611108](http://arxiv.org/abs/hep-th/0611108)). 
 
-* [[Jonathan Bagger]], [[Neil Lambert]], Phys. Rev. D77, 065008 (2008). ([arXiv:0711.0955](http://arXiv.org/abs/0711.0955)). 
+* [[Jonathan Bagger]], [[Neil Lambert]], _Gauge Symmetry and Supersymmetry of Multiple M2-Branes_, Phys. Rev. D77, 065008 (2008). ([arXiv:0711.0955](http://arXiv.org/abs/0711.0955)). 
 
 and concerning the "3-algebra"-structure also
 
@@ -112,7 +112,7 @@ The interpretation in terms of branes at a $\mathbb{Z}/2$-[[ADE-singularities]] 
 
 A comprehensive review is in 
 
-* {#BaggerLambert12} [[Jonathan Bagger]], [[Neil Lambert]], Sunil Mukhi, Constantinos Papageorgakis, _Multiple Membranes in M-theory_ ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546))
+* {#BaggerLambert12} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 1 June 2013, Pages 1-100 ([arXiv:1203.3546](#http://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
 
 and a review talk is
 
@@ -127,7 +127,8 @@ Discussion of [[boundary conditions]] leading to [[brane intersection]] with [[M
 
 Discussion in [[Horava-Witten theory]] reducing M2-branes to [[heterotic strings]] is in
 
-* {#Lambert15} [[Neil Lambert]], _Heterotic M2-branes_ ([arXiv:1507.07931](http://arxiv.org/abs/1507.07931))
+* {#Lambert15} [[Neil Lambert]], _Heterotic M2-branes_, Physics Letters B
+Volume 749, 7 October 2015, Pages 363-367 ([arXiv:1507.07931](http://arxiv.org/abs/1507.07931))
  
 
 The interpretation of at least most of the "3-algebra" appearing in the membrane literature in terms of plain [[Lie algebras]] is due to
