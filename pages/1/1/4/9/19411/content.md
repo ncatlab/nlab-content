@@ -11,6 +11,14 @@ and their lift to [[M-theory]] ([[MO5]], [[MO9]]):
 
 * Keshav Dasgupta, [[Sunil Mukhi]], _Orbifolds of M-theory_, Nucl. Phys. B465 (1996) 399-412 ([arXiv:hep-th/9512196](https://arxiv.org/abs/hep-th/9512196))
 
+On [[C-field tadpole cancellation]]:
+
+* {#DasguptaMukhi97} Keshav Dasgupta, [[Sunil Mukhi]], equation (1) in _A Note on Low-Dimensional String Compactifications_, Phys. Lett. B398:285-290, 1997 ([arXiv:hep-th/9612188](https://arxiv.org/abs/hep-th/9612188))
+
+
+On multiple [[M2-branes]] and their worldvolume [[BLG model]]/[[ABJM model]]:
+
+* {#BaggerLambertMukhiPapageorgakis13} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 1 June 2013, Pages 1-100 ([arXiv:1203.3546](#http://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
 
 ## Related $n$Lab entries
 
