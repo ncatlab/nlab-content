@@ -74,7 +74,7 @@ The result of connecting several such [[brane intersections]] are called _$(p,q)
 
 * [[D=5 N=1 SYM]]
 
-* [[brane intersection]], [[brane web]]
+[[!include brane bound states -- table]]
 
 [[!include F-branes -- table]]
 
