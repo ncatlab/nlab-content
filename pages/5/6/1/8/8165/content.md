@@ -52,9 +52,9 @@ It has been argued that ([Acharya-Kane-Kumar 12, section  V.A.2 (p. 10-11)](#Ach
 
 * [[G2]], [[G2-manifold]]
 
-* [[M-theory on G2-manifolds]]
-
 * [[split supersymmetry]]
+
+[[!include KK-compactifications of M-theory -- table]]
 
 ## References
 
