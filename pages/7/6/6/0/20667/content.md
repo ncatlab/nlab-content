@@ -30,7 +30,7 @@ Due to the [[higher WZW term]] $\propto \int_{D_{p+4}} C_{p+1} \wedge \langle F 
 
 ## Related concepts
 
-* [[Dp-D(p+2)-brane bound state]]
+[[!include brane bound states -- table]]
 
 
 
