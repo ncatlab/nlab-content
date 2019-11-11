@@ -208,15 +208,17 @@ $$
 
 * [[RR-field tadpole cancellation]]
 
+* [[shifted C-field flux quantization]]
+
 ## References
  {#References}
 
 
 The C-field tadpole cancellation condition in the special case of vanishing $C$-field flux is due to
 
-* {#SethiVafaWitten96} [[Savdeep Sethi]], [[Cumrun Vafa]], [[Edward Witten]], _Constraints on Low-Dimensional String Compactifications_, Nucl.Phys.B480:213-224, 1996 ([arXiv:hep-th/9606122](https://arxiv.org/abs/hep-th/9606122))
+* {#SethiVafaWitten96} [[Savdeep Sethi]], [[Cumrun Vafa]], [[Edward Witten]], _Constraints on Low-Dimensional String Compactifications_, Nucl. Phys. B480:213-224, 1996 ([arXiv:hep-th/9606122](https://arxiv.org/abs/hep-th/9606122))
 
-* [[Edward Witten]], p. 3 of _On Flux Quantization In M-Theory And The Effective Action_, J.Geom.Phys.22:1-13, 1997 ([arXiv:hep-th/9609122](https://arxiv.org/abs/hep-th/9609122))
+* [[Edward Witten]], p. 3 of _On Flux Quantization In M-Theory And The Effective Action_, J. Geom. Phys. 22:1-13, 1997 ([arXiv:hep-th/9609122](https://arxiv.org/abs/hep-th/9609122))
 
 and the general condition is due to
 
@@ -226,9 +228,9 @@ and the general condition is due to
 
 Further discussion:
 
-* [[Sergei Gukov]], [[Cumrun Vafa]], [[Edward Witten]], _CFT's From Calabi-Yau Four-folds_, Nucl.Phys.B584:69-108,2000; Erratum-ibid.B608:477-478, 2001 ([arXiv:hep-th/9906070](https://arxiv.org/abs/hep-th/9906070))
+* [[Sergei Gukov]], [[Cumrun Vafa]], [[Edward Witten]], _CFT's From Calabi-Yau Four-folds_, Nucl. Phys. B584:69-108,2000; Erratum-ibid.B608:477-478, 2001 ([arXiv:hep-th/9906070](https://arxiv.org/abs/hep-th/9906070))
 
-* Keshav Dasgupta, Govindan Rajesh, [[Savdeep Sethi]], _M Theory, Orientifolds and G-Flux_, JHEP 9908 (1999) 023 ([arXiv:hep-th/9908088](https://xxx.lanl.gov/abs/hep-th/9908088))
+* Keshav Dasgupta, Govindan Rajesh, [[Savdeep Sethi]], _M Theory, Orientifolds and G-Flux_, JHEP 9908 (1999) 023 ([arXiv:hep-th/9908088](https://arxiv.org/abs/hep-th/9908088))
 
 Lecture notes:
 
@@ -236,7 +238,7 @@ Lecture notes:
 
 Application in [[dualities in string theory]]:
 
-* {#Sethi07} [[Savdeep Sethi]], around (2) in _A Note on Heterotic Dualities via M-theory_, Phys.Lett.B659:385-387, 2008 ([arXiv:0707.0295](https://arxiv.org/abs/0707.0295))
+* {#Sethi07} [[Savdeep Sethi]], around (2) in _A Note on Heterotic Dualities via M-theory_, Phys. Lett. B659:385-387, 2008 ([arXiv:0707.0295](https://arxiv.org/abs/0707.0295))
 
 Application in [[string phenomenology]]
 
