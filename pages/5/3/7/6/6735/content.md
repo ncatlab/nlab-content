@@ -90,9 +90,19 @@ It has also been suggested that "3-algebras" are to be interpreted in **[[n-plec
 
 ## References
 
-Precursors:
+### Precursors
 
 * [[John Schwarz]], _Superconformal Chern-Simons Theories_ ([arXiv:arXiv:hep-th/0411077](https://arxiv.org/abs/hep-th/0411077)
+
+The lift of [[Dp-D(p+2)-brane bound states]] in [[string theory]] to [[M2-M5-brane bound states]]/[[E-strings]] in  [[M-theory]], under [[duality between M-theory and type IIA string theory]]+[[T-duality]], via generalization of [[Nahm's equation]] (this eventually motivated the [[BLG-model]]/[[ABJM model]]):
+
+* [[Anirban Basu]], [[Jeffrey Harvey]], _The M2-M5 Brane System and a Generalized Nahm's Equation_, Nucl.Phys. B713 (2005) 136-150 ([arXiv:hep-th/0412310](https://arxiv.org/abs/hep-th/0412310))
+
+* {#BaggerLambertMukhiPapageorgakis13} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], Section 2.2.1 of _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 1 June 2013, Pages 1-100 ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
+
+
+
+### General
 
 The original articles are
 
