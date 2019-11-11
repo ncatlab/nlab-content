@@ -1,4 +1,43 @@
 
+$$
+  \begin{aligned}
+    & 
+    - 
+    \big( 
+      \tfrac{1}{4}
+      p_1[K3 \times X^4]
+    \big)^2
+    +
+    \chi_8[K3 \times X_4]
+    \\
+    & =
+    - 
+    \big( 
+      \tfrac{1}{4}
+      p_1[X^4] - 48
+    \big)^2
+    +
+    24 \cdot \chi_4[X^4]
+    \\
+    & =
+    - 
+    \big( 
+      \tfrac{1}{4}
+      p_1[X^4]
+    \big)^2
+    +
+    48
+    \cdot
+    \big(
+      \tfrac{1}{2} p_1[X^4]
+      -
+      48
+    \big)
+    +
+    24 \cdot \chi_4[X^4]
+  \end{aligned}
+$$
+
 $\ldots$
 
 <div style="float:right;margin:0 10px 10px 0;">
