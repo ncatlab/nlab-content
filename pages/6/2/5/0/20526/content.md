@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -24,9 +23,9 @@ More in detail, there is supposedly a map
 
 \[
   \label{PointParticleLimitMap}
-  StringVacua
+  \text{String Vacua}
   \overset{\;\;ppl\;\;}{\longrightarrow}
-  eQFTVacua
+  \text{effective QFT Vacua}
 \]
 
 that takes [[string theory vacua]] to their low-energy approximation by [[vacuum state|vacua]] of [[effective quantum field theories]]. One way to possibly formalize this is to take the point-particle limit (ppl) of [[2d SCFTs]] to obtain [[spectral triples]] (as discussed at _[[2-spectral triple]]_) taking [[string]] [[worldsheets]] to [[Feynman diagrams]]:
@@ -51,13 +50,13 @@ For example, part of what it means to specify a [[string theory vacuum]] is to d
 
 $$
   \array{
-    StringVacua
+    \text{String Vacua}
     &\overset{\;\;ppl\;\;}{\longrightarrow}&
-    eQFTVacua
+    \text{effective QFT Vacua}
     \\
     \left\{
     \array{
-      \text{D-brane RR-flux}
+      \text{D-brane RR-charge}
       \\
       \text{in K-theory}
     }
@@ -65,7 +64,7 @@ $$
     &\overset{\text{Chern character}}{\longrightarrow}&
     \left\{
     \array{
-      \text{RR-field in}
+      \text{flux forms in}
       \\
       \text{ordinary cohomology}
     }
@@ -75,7 +74,15 @@ $$
 
 The [[Chern character]] in general does have non-trivial [[cokernel]] ("swampland RR-fields") and [[kernel]] (choices of [[UV-completion]] of the effective RR-fields). In fact it fits not just in a [[short exact sequence]], but in the [[differential cohomology hexagon]] (see there for more) of [[K-theory]].
 
+<center>
+<img src="https://ncatlab.org/nlab/files/CohomotopySwampland.jpg" width="700">
+</center>
+
+> graphics grabbed from [SS 18](#SS18)
+
 In contrast to this example, the literature on the "swampland" phenomenon is currently dominated by informal hand-wavy arguments. Starting with [Ooguri-Vafa 06](#OoguriVafa06) is an attempt to guess semi-precise rules-of-thumb for recognizing [[effective field theory|EFTs]] in the swampland, now known as the _swampland conjectures_. Motivated by the re-opening of the question whether [[de Sitter spacetime]] actually appears in [[string theory vacua]] or not ([Danielsson-van Riet 18](#DanielssonVanRiet18)), these swampland conjecture currently revolve around bounds on the [[cosmological constant]] in relation to [[scalar fields]] in the theory.
+
+An argument that much of the existing swampland literature does not even live up to the level of rigour of [[folklore]] string theory, and in fact that it is fundamentally flawed, is made in [Banks 19](#Banks19).
 
 
 ## References
@@ -98,13 +105,11 @@ Further discussion includes
 
 * [[Ben Heidenreich]], [[Matthew Reece]], [[Tom Rudelius]], _Emergence and the Swampland Conjectures_ ([arXiv:1802.08698](https://arxiv.org/abs/1802.08698))
 
-
-
 See also 
 
 * Wikipedia, _<a href="https://en.wikipedia.org/wiki/Swampland_(physics)">Swampland_(physics)</a>_
 
-Beware that the landscape literature is presently completly dominated by non-rigorous hand-wavy [[string phenomenology]]:
+Beware that the landscape literature is presently dominated by non-rigorous hand-wavy [[string phenomenology]]:
 
 * {#Banks19} [[Tom Banks]], _On the Limits of Effective Quantum Field Theory: Eternal Inflation, Landscapes, and Other Mythical Beasts_ ([arxiv:1910.12817](https://arxiv.org/abs/1910.12817))
 
@@ -124,7 +129,9 @@ Beware that the landscape literature is presently completly dominated by non-rig
 
   > The conclusion  that  effective  field  theorists  should  draw  from  this is that unlike super-symmetric string models in flat or AdS space-time, many of which have at least perturbative definitions as mathematical models obeying the axioms of quantum mechanics, all literature on the String Landscape is speculation based on the unfounded notion that all string models with a given amount of SUSY are part of one single model and that it makes sense to define an effective action that encompasses all string models. Every single non-perturbative construction of string models contradicts this claim $[\cdots]$
 
+Identification of the swampland charge structure with the [[cokernel]] of the [[Chern character]]:
 
+* {#SS18} [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Lift of fractional D-brane charge to equivariant Cohomotopy theory|Lift of fractional D-brane charge to equivariant Cohomotopy theory]]_ ([arXiv:1812.09679](https://arxiv.org/abs/1812.09679), [Python code](https://arxiv.org/src/1812.09679v1/anc))
 
 
 ### de Sitter vacua
