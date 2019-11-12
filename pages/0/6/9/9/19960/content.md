@@ -26,6 +26,7 @@ The [[geometric engineering of QFT|geometric engineering]] of [[quantum chromody
 
 The [[AdS-CFT correspondence]] applies _exactly_ only to a few highly symmetric [[quantum field theories]], notably to [[N=4 D=4 super Yang-Mills theory]]. However, away from these special points in field theory space the correspondence does not completely break down, but continues to apply in some approximation and/or with suitable modifications on the [[gravity]]-side of the correspondence.
 
+
 Notably [[quantum chromodynamics]] (one sector of the [[standard model of particle physics]]) is crucially different from, but still similar enough to, [[N=4 D=4 super Yang-Mills theory]] that some of its [[observables]], in particular otherwise intractable [[non-perturbative effects]], have been argued to be usefully approximated by [[AdS-CFT]]-type [[duality in string theory|dual]] [[supergravity]]-[[observables]].
 
 In particular, the realization of [[quantum chromodynamics]] by [[intersecting D-brane models]] gives a conceptual analytic handle on [[confinement|confined]] [[hadron]] spectra, hence of the physics of ordinary [[atomic nuclei]] (see [below](#Hadrons)). This means ([Witten 98](#Witten98)) that AdS/QCD provides a conceptual solution to the _[[mass gap problem]]_ (albeit not yet a rigorous one), which is out of reach for [[perturbative quantum field theory|perturbation theory]] and otherwise computable only via the blind numerics of [[lattice QCD]].
@@ -77,11 +78,45 @@ This model realizes something close to [[QCD]] on [[intersecting D-brane models|
 
 The further introduction of [[intersecting D-brane model|intersecting]] [[D8-branes]] and [[anti D-brane|anti]] [[D8-branes]] to [[D4-D8 brane bound states]] makes a sensible sector of [[chiral fermions]] appear in this model ([Sakai-Sugimoto 04](#SakaiSugimoto04), [Sakai-Sugimoto 05](#SakaiSugimoto05))
 
-The following diagram indicates the Witten-Sakai-Sugimoto [[intersecting D-brane model]] that [[geometric engineering of QFT|geometrically engineers]] [[QCD]]:
+{#BraneConfigurationDiagram} The following diagram indicates the Witten-Sakai-Sugimoto [[intersecting D-brane model]] that [[geometric engineering of QFT|geometrically engineers]] [[QCD]]:
 
 <center>
-<img src="https://ncatlab.org/nlab/files/WSSBraneConfigurationEngineeringQCD.jpg" width="740"/>
+<img src="https://ncatlab.org/nlab/files/WSSBraneConfigurationEngineeringQCDII.jpg" width="740"/>
 </center>
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/D8D6NS5.jpg" width="380"/>
+</div>
+
+Here we are showing
+
+1. the [[color charge|color]] [[D4-branes]];
+
+1. the [[flavour (particle physics)|flavor]] [[D8-branes]];
+
+   with
+
+   1. the [[5d Chern-Simons theory]] on their [[worldvolume]]
+
+   1. the corresponding [[4d WZW model]] on the boundary
+
+   both exhibiting the [[meson fields]];
+
+1. the [[baryon]] [[D4-branes]]
+
+   (see below at _[Baryons](#Baryons)_);
+
+1. the [[Yang-Mills monopole]] [[D6-branes]] 
+
+   (see at _[[D6-D8-brane bound state]]_);
+
+1. the [[NS5-branes]] (often not considered here).
+
+\linebreak
+
+\linebreak
+
+\linebreak
 
 Here are some further illustrations, taken from the literature:
 
@@ -116,17 +151,23 @@ Already before adding the D8-branes (hence already in the Witten model) this pro
 
 In this [[Witten-Sakai-Sugimoto model]] for [[non-perturbative effect|strongly coupled]] [[QCD]] the [[hadrons]] in [[QCD]] correspond to [[string theory|string-theoretic]]-phenomena in the [[bulk field theory]]:
 
-1. the [[mesons]] ([[bound states]] of 2 [[quarks]]) correspond to [[open strings]] in the bulk, whose two endpoints on the [[asymptotic boundary]] correspond to the two quarks
+###### Mesons
 
-1. [[baryons]] ([[bound states]] of $N_c$ [[quarks]]) appear in two different but equivalent ([Sugimoto 16, 15.4.1](#Sugimoto16)) guises:
 
-   1. as [[wrapped brane|wrapped]] [[D4-branes]] with $N_c$ [[open strings]] connecting them to the [[D8-brane]]
+The [[mesons]] ([[bound states]] of 2 [[quarks]]) correspond to [[open strings]] in the bulk, whose two endpoints on the [[asymptotic boundary]] correspond to the two quarks
 
-      ([Witten 98b](#Witten98b), [Gross-Ooguri 98, Sec. 5](#GrossOoguri98), [BISY 98](#BISY98), [CGS98](#CGS98))
+###### Baryons
+ {#Baryons}
 
-   1. as [[skyrmions]] 
+The [[baryons]] ([[bound states]] of $N_c$ [[quarks]]) appear in two different but equivalent ([Sugimoto 16, 15.4.1](#Sugimoto16)) guises:
 
-      ([Sakai-Sugimoto 04, section 5.2](#SakaiSugimoto04), [Sakai-Sugimoto 05, section 3.3](#SakaiSugimoto05), see [Bartolini 17](#Bartolini17)). 
+1. as [[wrapped brane|wrapped]] [[D4-branes]] with $N_c$ [[open strings]] connecting them to the [[D8-brane]]
+
+   ([Witten 98b](#Witten98b), [Gross-Ooguri 98, Sec. 5](#GrossOoguri98), [BISY 98](#BISY98), [CGS98](#CGS98))
+
+1. as [[skyrmions]] 
+
+   ([Sakai-Sugimoto 04, section 5.2](#SakaiSugimoto04), [Sakai-Sugimoto 05, section 3.3](#SakaiSugimoto05), see [Bartolini 17](#Bartolini17)). 
 
 For review see [Sugimoto 16](#Sugimoto16), also [Rebhan 14, around (18)](#Rebhan14).
 
