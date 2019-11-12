@@ -301,7 +301,7 @@ Given an $(\infty,1)$-adjunction $(L \dashv R) : C \to  D$
 
   In this case $C$ is a [[reflective (∞,1)-subcategory]] of $D$.
 
-* $L$ is a [[full and faithful (∞,1)-functor]] precisely is the unit $Id \to L R$ is an [[equivalence of quasi-categories|equivalence]] of [[(∞,1)-functors]].
+* $L$ is a [[full and faithful (∞,1)-functor]] precisely is the unit $Id \to R L$ is an [[equivalence of quasi-categories|equivalence]] of [[(∞,1)-functors]].
 
 =--
 
