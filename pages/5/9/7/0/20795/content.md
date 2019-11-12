@@ -36,13 +36,47 @@
 
 Parallel: dissolves ([Gava-Narain-Sarmadi 97](#GavaNarainSarmadi97))
 
-### Relation to monopoles -- Transversal intersection
+### Transversal intersection -- Yang-Mills monopoles
  {#TransverseIntersection}
 
 Transversally intersecting D$p$-D$(p+2)$-branes [[geometric engineering of QFT|geometrically engineer]] [[Yang-Mills monopoles]]: their [[moduli space]] is the [[moduli space of monopoles]]/solutions of [[Nahm's equation]]
 
 ([Diaconescu 97](#Diaconescu97), [Hanany-Zaffaroni 99](#HananyZaffaroni99), [HLPY 08](#HLPY08), 
 [GZZ 09](#GZZ09))
+
+Specifically for $p = 6$, i.e. for [[D6-D8-brane intersections]], this fits with the [[Witten-Sakai-Sugimoto model]] [[geometric engineering of QFT|geometrically engineering]] [[quantum chromodynamics]], and then gives a [[geometric engineering of QFT|geometric engineering]] of the [[Yang-Mills monopoles]] in actual [[QCD]] ([HLPY 08, p. 16](#HLPY08)).
+
+<center>
+<img src="https://ncatlab.org/nlab/files/WSSBraneConfigurationEngineeringQCDII.jpg" width="740"/>
+</center>
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/D8D6NS5.jpg" width="380"/>
+</div>
+
+Here we are showing
+
+1. the [[color charge|color]] [[D4-branes]];
+
+1. the [[flavour (particle physics)|flavor]] [[D8-branes]];
+
+   with
+
+   1. the [[5d Chern-Simons theory]] on their [[worldvolume]]
+
+   1. the corresponding [[4d WZW model]] on the boundary
+
+   both exhibiting the [[meson fields]]
+
+1. the [[baryon]] [[D4-branes]]
+
+   (see below at _[WSS -- Baryons](Witten-Sakai-Sugimoto+model#Baryons)_)
+
+1. the [[Yang-Mills monopole]] [[D6-branes]] 
+
+   (see at _[[D6-D8-brane bound state]]_)
+
+1. the [[NS5-branes]].
 
 ## Related concepts
 
@@ -120,4 +154,10 @@ The lift of [[Dp-D(p+2)-brane bound states]] in [[string theory]] to [[M2-M5-bra
 
 [[!redirects Dp/D(p+2)-bound state]]
 [[!redirects Dp/D(p+2)-bound states]]
+
+
+[[!redirects Dp-D(p+2)-brane intersection]]
+[[!redirects Dp-D(p+2)-brane intersections]]
+[[!redirects Dp/D(p+2)-brane intersection]]
+[[!redirects Dp/D(p+2)-brane intersections]]
 
