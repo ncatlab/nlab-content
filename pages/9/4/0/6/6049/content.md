@@ -142,10 +142,48 @@ Next, this construction may be repeated, having the [[D6-branes]] end on differe
 And on the other end the D6-branes may end on [[D8-branes]] over an NS5-brane ([Janssen-Meessen-Ortin 99, Section 3](#JanssenMeessenOrtin99)).
 
 
-
 <img src="https://ncatlab.org/nlab/files/GaiottoNS5D6.jpg" width="600">
 
 > graphics grabbed from [Gaiotto-Tomasiello 14](#GaiottoTomasiello14)
+
+Generally [[Dp-D(p+2)-brane intersections]] [[geometric engineering of QFT|geometrically engineer]] [[Yang-Mills monopoles]] in the [[worldvolume]] of the higher dimensional D$(p+2)$-branes.
+
+Specifically for $p = 6$, i.e. for [[D6-D8-brane intersections]], this fits with the [[Witten-Sakai-Sugimoto model]] [[geometric engineering of QFT|geometrically engineering]] [[quantum chromodynamics]], and then gives a [[geometric engineering of QFT|geometric engineering]] of the [[Yang-Mills monopoles]] in actual [[QCD]] ([HLPY 08, p. 16](D6-D8-brane+intersection#HLPY08)).
+
+<center>
+<img src="https://ncatlab.org/nlab/files/WSSBraneConfigurationEngineeringQCDII.jpg" width="740"/>
+</center>
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/D8D6NS5.jpg" width="380"/>
+</div>
+
+Here we are showing
+
+1. the [[color charge|color]] [[D4-branes]];
+
+1. the [[flavour (particle physics)|flavor]] [[D8-branes]];
+
+   with
+
+   1. the [[5d Chern-Simons theory]] on their [[worldvolume]]
+
+   1. the corresponding [[4d WZW model]] on the boundary
+
+   both exhibiting the [[meson fields]]
+
+1. the [[baryon]] [[D4-branes]]
+
+   (see below at _[WSS -- Baryons](Witten-Sakai-Sugimoto+model#Baryons)_)
+
+1. the [[Yang-Mills monopole]] [[D6-branes]] 
+
+   (see at _[[D6-D8-brane bound state]]_)
+
+1. the [[NS5-branes]].
+
+
+
 
 
 #### NS5 half-branes
