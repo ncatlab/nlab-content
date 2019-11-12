@@ -23,7 +23,7 @@ In [[linear logic]]/[[linear type theory]], one of the two linear versions of [[
 
 The [[categorical semantics]] of the multiplicative conjunction is as the [[tensor product]] with respect to a ([[symmetric monoidal category|symmetric]]) [[monoidal category]] structure on the collection of [[types]].
 
-If one retains of all [[conjunctions]] in linear logic only the multiplicative conjunction, then one speaks of the [[fragment]] of linear logic called _multiplicative linear logic_ or _multiplicative intuitionistic linear logic_ or _MILL_ for short. See also at _[[linear type theory]]_ for more on this.
+There are various fragments of linear logic that contain the multiplicative conjunction.  For instance, _multiplicative linear logic_ (MLL) contains $\otimes$ along with its unit $\mathbf{1}$ and also the [[multiplicative disjunction]] $\parr$ and its unit $\bot$ and the linear [[negation]] $(-)^\bot$.  While _multiplicative intuitionistic linear logic_ (MILL)  contains $\otimes$ and $\mathbf{1}$ along with the linear implication $\multimap$.
 
 
 ## Related concepts
@@ -44,6 +44,4 @@ If one retains of all [[conjunctions]] in linear logic only the multiplicative c
 [[!redirects cotenability conjunction]]
 [[!redirects cotenability conjunctions]]
 [[!redirects cotenability]]
-[[!redirects multiplicative linear logic]]
-[[!redirects multiplicative intuitionistic linear logic]]
-[[!redirects MILL]]
+
