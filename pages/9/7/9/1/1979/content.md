@@ -60,7 +60,9 @@ Noncommutative projective spaces, noncommutative grassmannians, universal noncom
 
 * M. Artin, J. Zhang, _Noncommutative projective schemes_, Adv. Math. 109, 228--287 (1994).
 
-* [[Dmitri Orlov]], _Smooth and proper noncommutative schemes and gluing of DG categories_, [arXiv](http://arxiv.org/abs/1402.7364v1).
+For a derived analogue see 
+
+* [[Dmitri Orlov]], _Smooth and proper noncommutative schemes and gluing of DG categories_, [arXiv](http://arxiv.org/abs/1402.7364v1); _Derived noncommutative schemes, geometric realizations, and finite dimensional algebras_, [arxiv/1808.02287](https://arxiv.org/abs/1808.02287)
 
 category: algebraic geometry, noncommutative geometry
 [[!redirects noncommutative scheme]]
