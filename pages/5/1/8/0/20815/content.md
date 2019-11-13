@@ -21,6 +21,10 @@
 
     * [[D4-D8 brane bound state]]
 
+* Dp-D(p+6) brane bound state
+
+  * [[D2-D8 brane bound state]]
+
 * [NS5-D4-D2 bound states](NS5-brane#NS5D4D2BoundStates)
 
 [[S-duality]]$\,$[[bound states]]:
