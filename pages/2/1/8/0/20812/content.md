@@ -63,8 +63,6 @@ In the presence of non-vanishing [[C-field]] [[flux]] $G_4$, the electric [[flux
 
 
 
-
-
 \[
   \label{FirstCorrectionToG7}
   \widetilde G'_7 
@@ -86,7 +84,7 @@ But in fact (eq:FirstCorrectionToG7) does not quite make general sense, for two 
 
 1. In general $G_4 = 0$ is not an admissible condition and is not the actual vanshing of the [[C-field]], due to the [[shifted C-field flux quantization]].
 
-1. Even if $G_4$ happens to be intregrally quantizaed (if $\tfrac{1}{4}p_1$ is interal) the appearance of a globally defined [[C-field]] potential $C_3$ in (eq:FirstCorrectionToG7),means that the total [[flux]] actually does vanish after all.
+1. Even if $G_4$ happens to be intregrally quantizaed (if $\tfrac{1}{4}p_1$ is integral) the appearance of a globally defined [[C-field]] potential $C_3$ in (eq:FirstCorrectionToG7),means that the total [[flux]] actually does vanish after all.
 
 \linebreak
 
