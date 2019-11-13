@@ -31,7 +31,7 @@ Everyone agrees that ! should be a comonad (and ? should be a monad), but there 
 
 +-- {: .num_defn}
 ###### Definition
-Let $C$ be an $\ast$-[[star-autonomous category|autonomous]] category with [[cartesian products]].  A Seely !-modality on $C$ is a comonad that is a [[strong monoidal functor]] from the [[cartesian monoidal category|cartesian monoidal structure]] to the $\ast$-autonomous monoidal structure, i.e. we have $!(A\times B)\cong !A \otimes !B$ coherently.  (There is also a [[coherence]] [[axiom]] that should be imposed; see [Mellies, section 7.3](#Mellies09).)
+Let $C$ be an $\ast$-[[star-autonomous category|autonomous]] category with [[cartesian products]].  A Seely !-modality on $C$ is a comonad that is a [[strong monoidal functor]] from the [[cartesian monoidal category|cartesian monoidal structure]] to the $\ast$-autonomous monoidal structure, i.e. we have $!(A\times B)\cong !A \otimes !B$ and $!1\cong I$ coherently.  (There is also an additional [[coherence]] [[axiom]] that should be imposed; see [Mellies, section 7.3](#Mellies09).)
 =--
 
 (Note that in linear logic, the cartesian monoidal structure $\times$ is sometimes denoted by $\&$.)  This implies that the [[Kleisli category of a comonad|Kleisli category]] of ! is a [[cartesian closed category]], which is a categorical version of the translation of intuitionistic logic into linear logic.
