@@ -59,8 +59,8 @@ On the other hand, the last two definitions are given only for "intuitionistic" 
 Let $C$ be a [[linearly distributive category]] with tensor product $\otimes$ and cotensor product $\parr$.  A (!,?)-modality on $C$ consists of:
 
 1. a $\otimes$-monoidal comonad ! and a $\parr$-comonoidal monad ?
-1. ? is a !-strong monad, and ! is a ∞-strong comonad
-1. all free !-coalgebras are naturally commutative $\otimes$-comonoids, and all free ∞-algebras are naturally commutative $\parr$-monoids.
+1. ? is a !-strong monad, and ! is a ?-strong comonad
+1. all free !-coalgebras are naturally commutative $\otimes$-comonoids, and all free ?-algebras are naturally commutative $\parr$-monoids.
 =--
 
 Here a functor $F$ is [[strong functor|strong]] with respect to a lax monoidal functor $G$ if there is a natural transformation $F A \otimes G B \to F(A\otimes G B)$ satisfying some natural axioms, and we similarly require compatibility of the monad and comonad structure transformations.
