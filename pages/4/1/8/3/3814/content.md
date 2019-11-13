@@ -255,6 +255,9 @@ Further review and outlook includes
 
 * {#Wulzer19} Andrea Wulzer, _Behind the Standard Model_ ([arXiv:1901.01017](https://arxiv.org/abs/1901.01017))
 
+* [[James Wells]], _The Once and Present Standard Model of Elementary Particle Physics_ ([arxiv:1911.04604](https://arxiv.org/abs/1911.04604))
+
+
 Review specifically with an eye towards [[grand unified theory]] is in
 
 * {#BaezHuerta09} [[John Baez]], [[John Huerta]], _The Algebra of Grand Unified Theories_, Bull.Am.Math.Soc.47:483-552,2010 ([arXiv:0904.1556](http://arxiv.org/abs/0904.1556))
