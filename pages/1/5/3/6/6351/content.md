@@ -3,6 +3,12 @@
 
 ## Selected writings
 
+On [[Yang-Mills instantons]] as [[Dp-D(p+4) brane bound states]]:
+
+* [[Michael Douglas]], _Branes within Branes_, In: Baulieu L., Di Francesco P., Douglas M., Kazakov V., Picco M., Windey P. (eds.) _[Strings, Branes and Dualities](https://link.springer.com/book/10.1007/978-94-011-4730-9)_ NATO ASI Series (Series C: Mathematical and Physical Sciences), vol 520. Springer, Dordrecht ([arxiv:hep-th/9512077](https://arxiv.org/abs/hep-th/9512077), [doi:10.1007/978-94-011-4730-9_10](https://doi.org/10.1007/978-94-011-4730-9_10))
+
+* [[Michael Douglas]], _Gauge Fields and D-branes_, J. Geom. Phys. 28 (1998) 255-262 ([arXiv:hep-th/9604198](https://arxiv.org/abs/hep-th/9604198))
+
 On [[2d QCD]]:
 
 * [[Michael Douglas]], Keke Li, Matthias Staudacher, _Generalized Two-Dimensional QCD_ ([arXiv:hep-th/9401062](https://arxiv.org/abs/hep-th/9401062))
