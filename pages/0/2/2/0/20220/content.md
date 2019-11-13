@@ -214,21 +214,29 @@ $$
  {#References}
 
 
-The C-field tadpole cancellation condition in the special case of vanishing $C$-field flux is due to
+The C-field tadpole cancellation condition is claimed in
 
-* {#SethiVafaWitten96} [[Savdeep Sethi]], [[Cumrun Vafa]], [[Edward Witten]], _Constraints on Low-Dimensional String Compactifications_, Nucl. Phys. B480:213-224, 1996 ([arXiv:hep-th/9606122](https://arxiv.org/abs/hep-th/9606122))
+* {#SethiVafaWitten96} [[Savdeep Sethi]], [[Cumrun Vafa]], [[Edward Witten]], p. 2 of: _Constraints on Low-Dimensional String Compactifications_, Nucl. Phys. B480:213-224, 1996 ([arXiv:hep-th/9606122](https://arxiv.org/abs/hep-th/9606122))
+
+referring for proof to the computation in
+
+* [[Cumrun Vafa]], [[Edward Witten]], p. 11 (12 of 14) of: _A One-Loop Test Of String Duality_, Nucl. Phys. B480:213-224, 1996 ([arxiv:hep-th/9505053](https://arxiv.org/abs/hep-th/9505053))
+
+A comment is also in
 
 * [[Edward Witten]], p. 3 of _On Flux Quantization In M-Theory And The Effective Action_, J. Geom. Phys. 22:1-13, 1997 ([arXiv:hep-th/9609122](https://arxiv.org/abs/hep-th/9609122))
 
-and the general condition is due to
+Another condition appears in
 
 * {#BeckerBecker96} [[Katrin Becker]], [[Melanie Becker]], around (2.58) in _M-Theory on Eight-Manifolds_, Nucl. Phys. B477 (1996) 155-167 ([arXiv:hep-th/9605053](https://arxiv.org/abs/hep-th/9605053))
+
+The formulas of [Sethi-Vafa-Witten 96](#SethiVafaWitten96) and [Becker-Becker 96](#BeckerBecker96) have been plugged together in
 
 * {#DasguptaMukhi97} Keshav Dasgupta, [[Sunil Mukhi]], equation (1) in _A Note on Low-Dimensional String Compactifications_, Phys. Lett. B398:285-290, 1997 ([arXiv:hep-th/9612188](https://arxiv.org/abs/hep-th/9612188))
 
 Further discussion:
 
-* [[Sergei Gukov]], [[Cumrun Vafa]], [[Edward Witten]], _CFT's From Calabi-Yau Four-folds_, Nucl. Phys. B584:69-108,2000; Erratum-ibid.B608:477-478, 2001 ([arXiv:hep-th/9906070](https://arxiv.org/abs/hep-th/9906070))
+* [[Sergei Gukov]], [[Cumrun Vafa]], [[Edward Witten]], _CFT's From Calabi-Yau Four-folds_, Nucl. Phys. B584:69-108, 2000; Erratum-ibid.B608:477-478, 2001 ([arXiv:hep-th/9906070](https://arxiv.org/abs/hep-th/9906070))
 
 * Keshav Dasgupta, Govindan Rajesh, [[Savdeep Sethi]], _M Theory, Orientifolds and G-Flux_, JHEP 9908 (1999) 023 ([arXiv:hep-th/9908088](https://arxiv.org/abs/hep-th/9908088))
 
