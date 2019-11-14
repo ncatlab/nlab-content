@@ -1,4 +1,6 @@
 
+$\tau$
+
 $$
   \begin{aligned}
     & 
