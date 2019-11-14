@@ -56,7 +56,7 @@ Then, even assuming that in this corner all the crucial [[generalized (Eilenberg
 
 Furthermore, there are technical open issues, such as the open question whether the theory has a decent ground state the way it needs to have to make sense (see the references below [below](#ReferencesGroundStateProblem)).
 
-A similar assessment has been given by [[Greg Moore]], from pages 43-44 of his _[[Physical Mathematics and the Future]]_ ([here](https://ncatlab.org/nlab/show/Physical+Mathematics+and+the+Future#AGoodStartWasGivenByTheMatrixTheory)):
+A similar assessment has been given by [[Greg Moore]], from pages 43-44 of his _[[Physical Mathematics and the Future]]_ ([here](Physical+Mathematics+and+the+Future#AGoodStartWasGivenByTheMatrixTheory)):
 
 > A good start $[$with defining M-theory$]$ was given by the Matrix theory approach of Banks, Fischler, Shenker and Susskind. We have every reason to expect that this theory produces the correct scattering amplitudes of modes in the 11-dimensional supergravity multiplet in 11-dimensional Minkowski space - even at energies sufficiently large that black holes should be created. (This latter phenomenon has never been explicitly demonstrated). But Matrix theory is only a beginning and does not give us the whole picture of M-theory. The program ran into increasing technical difficulties when more complicated compactifications were investigated. (For example, compactification on a six-dimensional torus is not very well understood at all. $[$...$]$). Moreover, to my mind, as it has thus far been practiced it has an important flaw: It has not led to much significant new mathematics.
 
