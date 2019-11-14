@@ -227,7 +227,7 @@ The [[isomorphisms]] in Prop. \ref{nSphereAsCosetSpace} and Prop. \ref{OddDimSph
 
 But the other [[coset space]] realizations of some [[n-spheres]] in Prop. \ref{TransitiveEffectiveActionsOfConnectedLieGroupsOnSpheres} are [[homeomorphisms]], but not necessarily [[isometries]] ("[[squashed spheres]]"). There is also a [[double coset space]] realization which is not even a [[diffeomorphisms]] ("[[exotic sphere]]", the [[Gromoll-Meyer sphere]]). 
 
-For more see _[7-sphere -- Coset space realization](#7-sphere#CosetSpaceRealization)_.
+For more see _[7-sphere -- Coset space realization](7-sphere#CosetSpaceRealization)_.
 
 =--
 
