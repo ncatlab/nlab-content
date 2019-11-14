@@ -16,12 +16,12 @@ On multiple [[M2-branes]] and the [[BLG model]]/[[ABJM model]] of their [[worldv
 
 * {#BaggerLambertMukhiPapageorgakis13} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 1 June 2013, Pages 1-100 ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
 
-* {#Lambert18} [[Neil Lambert]], _M-Branes: Lessons from M2’s and Hopes for M5’s_,  talk at _[Higher Structures in M-Theory, Durham, August 2018](http://www.maths.dur.ac.uk/lms/109/index.html)_ ([pdf slides](http://www.maths.dur.ac.uk/lms/109/talks/1877lambert.pdf), [video recording](http://www.maths.dur.ac.uk/lms/109/movies/1877lamb.mp4))
+* {#Lambert18}  [[Neil Lambert]], _Lessons from M2's and Hopes for M5's_, _Proceedings of the [LMS-EPSRC Durham Symposium](http://www.maths.dur.ac.uk/lms/):_ _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html), August 2018_ Fortschritte der Physik, 2019 ([arXiv:1903.02825](https://arxiv.org/abs/1903.02825), [slides pdf](http://www.maths.dur.ac.uk/lms/109/talks/1877lambert.pdf), [video recording](http://www.maths.dur.ac.uk/lms/109/movies/1877lamb.mp4))
+
 
 and specifically in relation to [[heterotic M-theory]]:
 
-* {#Lambert15} [[Neil Lambert]], _Heterotic M2-branes_, Physics Letters B
-Volume 749, 7 October 2015, Pages 363-367 ([arXiv:1507.07931](http://arxiv.org/abs/1507.07931))
+* {#Lambert15} [[Neil Lambert]], _Heterotic M2-branes_, Physics Letters B Volume 749, 7 October 2015, Pages 363-367 ([arXiv:1507.07931](http://arxiv.org/abs/1507.07931))
 
 
 On [[D1-D5-brane bound states]]:
