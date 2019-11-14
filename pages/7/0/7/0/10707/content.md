@@ -93,6 +93,8 @@ Inside the moduli stack of formal groups sit, in that order, that of [[cubic cur
  
  
 * {#LurieLect21} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 21 _Lubin-Tate theory_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture21.pdf))
+
+* [[Jeroen van der Meer]], _A Stack-Theoretic Perspective on $\mathrm{KU}$-Local Stable Homotopy Theory_, Chapter 3 _The Moduli Stack of Formal Groups_. 2019 ([pdf](https://www.universiteitleiden.nl/binaries/content/assets/science/mi/scripties/master/2018-2019/jvd-meer-thesisroot.pdf))
  
 On [[quasicoherent sheaves]] over $\mathcal{M}_{fg}$:
 
