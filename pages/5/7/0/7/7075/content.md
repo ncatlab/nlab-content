@@ -152,7 +152,7 @@ Consider
 
 Then the complex Hopf fibration $S^3 \overset{h_{\mathbb{C}}}{\longrightarrow} S^2$ is [[equivariant]] with respect to these [[actions]].
 
-A way to make the $Spin(3)$-equivariance of the complex Hopf fibration fully explicit is to observe that the it is equivalently the following map of [[coset spaces]]:
+A way to make the $Spin(3)$-equivariance of the complex Hopf fibration fully explicit is to observe that it is equivalently the following map of [[coset spaces]]:
 
 $$
   \array{
