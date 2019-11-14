@@ -315,7 +315,7 @@ which discusses twists of $KO$ and $KU$ over some $X$ by elements in $H^0(X,\mat
 
 The formulation in terms of sections of Fredholm bundles seems to go back to 
 
-* {#Rosenberg89} [[Jonathan Rosenberg]], _Continuous-trace algebras from the bundle theoretic point of view_ , J. Austral. Math. Soc. Ser. A 47 (1989), no. 3, 368-381 ([doi:10.1017/S1446788700033097]( https://doi.org/10.1017/S1446788700033097)) 
+* {#Rosenberg89} [[Jonathan Rosenberg]], _Continuous-trace algebras from the bundle theoretic point of view_ , J. Austral. Math. Soc. Ser. A 47 (1989), no. 3, 368-381 ([doi:10.1017/S1446788700033097](https://doi.org/10.1017/S1446788700033097)) 
 
 A comprehensive account of twisted K-theory with twists in $H^3(X, \mathbb{Z})$ is in
 
