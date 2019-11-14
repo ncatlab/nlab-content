@@ -153,18 +153,43 @@ This approach to computing putative M-theory scattering amplitudes is due to  ([
 (...)
 
 ## The open problem of formulating M-theory
+ {#TheOpenProblem}
 
 The tight web of hints and plausiblity checks notwithstanding, an actual formulation of M-theory as an actual theory remains an open problem. 
 
 This is not outrageous in itself: In [[mathematics]] there are good examples of cases where a collection of situations was or is suspected to be limiting cases of a single unified theory, without that theory itself having been or being known. 
 
-One example of this is the putative theory of [[arithmetic geometry]] "over the absolute [[ground field|base]] [[field with one element]]". In this [[analogy]], the various [[perturbative string theories]] ([[heterotic string theory|HET]], [[type I string theory|type I]], [[type IIA string theory|IIA]], [[type IIB string theory|IIB]] and their [[KK-compactifications]]) correspond to [[arithmetic geometry|arithmetic geometries]] over [[ground field|base]] [[prime field]] $\mathbb{F}_p$ for $p \geq 2$, and the putative M-theory corresponds to the putative theory of the [[field with one element]] that unifies all this, by describing it at a deeper level (literally: a deeper base).
+One example of this is the putative theory "absolute geometry over the [[field with one element]]". In this [[analogy]], the various [[perturbative string theories]] ([[heterotic string theory|HET]], [[type I string theory|I]], [[type IIA string theory|IIA]], [[type IIB string theory|IIB]] and their [[KK-compactifications]]) correspond to [[arithmetic geometry|arithmetic geometries]] over [[ground field|base]] [[prime field]] $\mathbb{F}_p$ for $p \geq 2$, and the would-be M-theory corresponds to a  theory of a "[[field with one element]]" that unifies all this, by describing it at a deeper level (literally: a deeper base). 
 
 On the other hand, parts of the physics-minded literature tends to forget or downplay the [[conjecture|conjectural]] nature of many assumptions or leaps of faiths that are being made when it comes to discussion of [[D-brane]]/[[M-brane]] dynamics and generally of [[non-perturbative effects]] in string theory. 
 
-The following is a collection of quotes from authors that highlight the open problem
+The following is a collection of quotes from authors that highlight the open problem:
 
+\linebreak
 
+[Nicolai-Helling 98, p. 2](BFSS+atrix+model#NicolaiHelling98)::
+
+> Despite the recent excitement, however, we do not think that [[BFSS matrix model|M(atrix) theory]] and the [[M2-brane|d= 11 supermembrane]] in their present incarnation are already the final answer in the search for [[M-theory|M-Theory]], even though they probably are important pieces of the puzzle. There are still too many ingredients missing that we would expect the final theory to possess. For one thing, we would expect a true theory of quantum gravity to exhibit certain pregeometrical features corresponding to a “dissolution” of space-time and the emergence of some kind of non-commutative geometry at short distances; although the matrix model does achieve that to some extent by replacing commuting coordinates by non-commuting matrices, it seems to us that a still more radical departure from conventional ideas about space and time may be required in order to arrive at a truly background independent formulation (the matrix model “lives” in nine _flat_ transverse dimensions only). Furthermore, there should exist some huge and so far completely hidden symmetries generalizing not only the duality symmetries of extended supergravity and string theory, but also the principles underlying general relativity.
+
+\linebreak
+
+[[Physical Mathematics and the Future|Moore 14, pages 43-44]]:
+
+>  We still have no fundamental formulation of "[[M-theory]]" - the hypothetical theory of which [[11-dimensional supergravity]] and the five [[string theories]] are all special limiting cases. Work on formulating the fundamental principles underlying M-theory has noticeably waned. 
+
+> A good start was given by the Matrix theory approach of Banks, Fischler, Shenker and Susskind. We have every reason to expect that this theory produces the correct scattering amplitudes of modes in the 11-dimensional supergravity multiplet in 11-dimensional Minkowski space - even at energies sufficiently large that black holes should be created. (This latter phenomenon has never been explicitly demonstrated). But Matrix theory is only a beginning and does not give us the whole picture of M-theory. The program ran into increasing technical difficulties when more complicated compactifications were investigated. (For example, compactification on a six-dimensional torus is not very well understood at all. $[$...$]$). Moreover, to my mind, as it has thus far been practiced it has an important flaw: It has not led to much significant new mathematics.
+
+\linebreak
+
+[Chester-Perlmutter 18, p. 2](conformal+bootstrap#ChesterPerlmutter18):
+
+> given our utter lack of a complete description of [[M-theory]], the [[bulk]] is  not terribly useful for determining finite aspects of the [[AdS/CFT|dual CFT]]. However, we can turn this problem around using the modern perspective of the [[conformal bootstrap]], which gives an a priori independent formulation of the (local sector of the) CFT. This provides an independent tool for constructing M-theory at the non-perturbative level, a philosophy that we will substantiate in this work.
+
+\linebreak
+
+[Witten 19, USN Interview](Edward+Witten#WhatIsMissing):
+
+> I actually believe that string/M-theory is on the right track toward a deeper explanation.  But at a very fundamental level it’s not well understood. And I’m not even confident that we have a good concept of what sort of thing is  missing or where to find it. The reason I am not is that in hindsight it is clear the view given in the 1980s of what is missing was too narrow. Instead of discovering what we thought was missing, we broadened the picture in the 90s, in unexpected directions.
 
 ## Related entries
 
