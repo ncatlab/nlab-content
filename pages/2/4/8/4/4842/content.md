@@ -121,7 +121,8 @@ $$
 
 and is related to the complex [[dimensions]] of spaces of Vassiliev invariants according to 
 
-$$
+\[
+  \label{HomotopyOfOmegaConfR3IsBraidVassiliev}
   \chi 
   H_\bullet
   \Big(
@@ -131,7 +132,7 @@ $$
   \underset{k \in \mathbb{N}}{\sum}
   dim_{\mathbb{C}}\big( A^n_k \big) 
   t^k
-$$
+\]
 
 ([Cohen-Gitler 01, Prop. 9.1](#CohenGitler01), based on [Cohen 76](#Cohen76) and [Kohno 94](#Kohno94))
 
