@@ -26,6 +26,13 @@ This is the [[UV-completion]] of [[massive type IIA supergravity]] in analogy to
 
 ## Properties
 
+### Black D8-branes
+
+It is (only) massive type IIA string theory where [[D8-branes]] exist as actual [[black branes]] ([BdRGPT96 96](#BergshoessdeRooGreenPapadopoulosTownsend96), [Chamblin-Perry 97](#ChamblinPerry97), [Janssen-Meessen-Ortin 99](#JanssenMeessenOrtin99))
+Similarly for [[D6-D8-brane bound states]] ([Singh 02a](#Singh02a), [Singh 02b](#Singh02b)).
+
+This is because the [[normal bundle|normal]] [[n-sphere]] around a [[D8-brane]] (with its 9-dimensional [[worldvolume]]) in 10-dimensional [[spacetime]] is a [[0-sphere]], [[D-brane charge|D8-brane charge]] is measured by the [[RR-field]] 0-[[flux form]] $F_0$, or else by its [[Hodge duality|Hodge dual]] 10-form $F_{10}$. These behave like a [[cosmological constant]] in the corresponding [[D=10 supergravity]] ("[[Romans supergravity]]") and causes the mass term for the [[B-field]].
+
 ### Lift to M-theory?
 
 The massive version of the [[duality between type IIA string theory and M-theory]] is more subtle, since [[D=11 supergravity]] does not admit a corresponding mass deformation ([BDHS 97](#BDHS97), [Deser 97](#Deser97), [Tsimpis 05](#Tsimpis05)).
@@ -54,9 +61,9 @@ Serious development in
 
 See also:
 
-* Michael Haack, [[Jan Louis]], Harvendra Singh, _Massive Type IIA Theory on K3_, JHEP 0104:040, 2001 ([arXiv:hep-th/0102110](https://arxiv.org/abs/hep-th/0102110))
+* Michael Haack, [[Jan Louis]], [[Harvendra Singh]], _Massive Type IIA Theory on K3_, JHEP 0104:040, 2001 ([arXiv:hep-th/0102110](https://arxiv.org/abs/hep-th/0102110))
 
-* Harvendra Singh, _Romans type IIA theory and the heterotic strings_, Phys.Lett.B545:403-410, 2002 ([arXiv:hep-th/0201206](https://arxiv.org/abs/hep-th/0201206))
+* [[Harvendra Singh]], _Romans type IIA theory and the heterotic strings_, Phys.Lett.B545:403-410, 2002 ([arXiv:hep-th/0201206](https://arxiv.org/abs/hep-th/0201206))
 
 * [[Tom Banks]], K. van den Broek, _Massive IIA flux compactifications and U-dualities_, JHEP 0703:068, 2007 ([arXiv:hep-th/0611185](https://arxiv.org/abs/hep-th/0611185))
 
@@ -74,7 +81,9 @@ See also
 
 On [[D6-D8-brane bound states]] in [[massive type IIA string theory]]:
 
-* Harvendra Singh, _Note on (D6,D8) Bound State, Massive Duality and Non-commutativity_, Nucl. Phys. B661 (2003) 394-408 ([arXiv:hep-th/0212103](https://arxiv.org/abs/hep-th/0212103))
+* [[Harvendra Singh]], _Duality symmetric massive type II theories in $D=8$ and $D=6$_, JHEP 0204:017, 2002 ([arXiv:hep-th/0109147](https://arxiv.org/abs/hep-th/0109147))
+
+* [[Harvendra Singh]], _Note on (D6,D8) Bound State, Massive Duality and Non-commutativity_, Nucl. Phys. B661 (2003) 394-408 ([arXiv:hep-th/0212103](https://arxiv.org/abs/hep-th/0212103))
 
 ### M-Theory/Strong coupling limit
 
