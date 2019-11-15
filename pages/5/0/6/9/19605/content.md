@@ -1,7 +1,19 @@
 
 * [webpage](https://www2.physics.ox.ac.uk/contacts/people/sarkar)
 
-## related $n$Lab entries
+## Selected writings
+
+On [[inhomogeneous cosmology]] as a possible explanation for apparent [[dark energy]]:
+
+* {#Sarkar08} [[Subir Sarkar]], _Is the evidence for dark energy secure?_, Gen. Rel. Grav.40:269-284, 2008 ([arXiv:0710.5307](https://arxiv.org/abs/0710.5307))
+
+* {#SarkarEtAl18} J. Colin, R. Mohayaee, [[Mohamed Rameez]], [[Subir Sarkar]], _Evidence for anisotropy of cosmic acceleration_, Astronomy & Astrophysics Letters ([arXiv:1808.04597](https://arxiv.org/abs/1808.04597))
+
+* {#Sarkar18} [[Subir Sarkar]], _Is the universe isotropic?_, talk at _[Current Themes in High Energy Physics and Cosmology 2018](https://indico.nbi.ku.dk/event/973/)_ ([pdf](https://indico.nbi.ku.dk/event/973/contributions/8344/attachments/2648/3858/Sarkar_Copenhagen18_cosmo.pdf))
+
+
+
+## Related $n$Lab entries
 
 * [[inhomogeneous cosmology]]
 
