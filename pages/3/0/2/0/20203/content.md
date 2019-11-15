@@ -110,6 +110,22 @@ Hence when regarded from the point of view of [[M-theory on 8-manifolds]], exoti
 
 See also [Morrison-Plesser 99, section 3.2](#MorrisonRPlesser99).
 
+### Relation to J-twisted Cohomotopy
+ {#RelationToJTwistedCohomotopy}
+
+On a [[spin-manifold]] [[8-manifold|of dimension 8]] a choice of topological [[Spin(7)]]-[[G-structure|structure]] is equivalently a choice of [[cocycle]] in [[J-homomorphism|J-]][[twisted Cohomotopy cohomology theory]]. This follows ([[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation|FSS 19, 3.4]]) from 
+
+1. the standard [[coset space]]-[[structures]] on the [[7-sphere]] (see [here](7-sphere#CosetSpaceRealization)) 
+
+1. the fact that [[coset spaces]] $G/H$ are the [[homotopy fibers]] of the maps $B H \to B G$ of the corresponding [[classifying spaces]] (see [here](coset#ForInfinityGroups))
+
+\begin{imagefromfile}
+  "file_name": "ExceptionalSpheres.jpg",
+  "width": 730
+\end{imagefromfile}
+
+
+
 
 ## Related concepts
 
@@ -196,7 +212,7 @@ and argued to be [[duality in string theory|dual]] to [[M-theory on G2-manifolds
 
 See also
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 4 of _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ ([arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
+* {#FSS19b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 4 of _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ ([arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
 
 ### Phenomenology and cosmological constant
 
