@@ -26,9 +26,8 @@ Hints of [[flavour anomalies]] indicate that something peculiar may be going on 
 
 ## Related concepts
 
-* [[top quark]]
+[[!include flavors of fundamental particles -- table]]
 
-* [[charm quark]]
 
 ## References
 
