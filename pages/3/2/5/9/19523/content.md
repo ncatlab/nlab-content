@@ -34,8 +34,7 @@ The [[standard model of cosmology]] assumes that such inhomogeneities may be neg
 
 Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15](standard+model+of+cosmology#BCKRW15), [Riess et. al. 16](#RiessEtAl16)) related to _[[dark energy]]_ (a [[cosmological constant]], and possibly related issues such as [[cosmic inflation]]), it has been suggested that these may be but an artefact of the overly idealistic approximation of cosmic homogeneity, and that a more accurate inhomogeneous cosmology would not need to assume any [[dark energy]]/[[cosmological constant]].
 
-References suggesting/discussing/checking this idea include the following: [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Räsänen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Buchert 11](#Buchert11), [Buchert-Räsänen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Smoller-Temple-Vogler 14](#SmollerTempleVogler14), [Moffat 16](#Moffat16), [Sarkar et al. 18](#SarkarEtAl18), [Sarkar 18](#Sarkar18), [Lombriser 19](#Lombriser19),
-[Deledicque 19](#Deledicque19).
+References suggesting/discussing/checking this idea include the following: [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Räsänen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Buchert 11](#Buchert11), [Buchert-Räsänen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Smoller-Temple-Vogler 14](#SmollerTempleVogler14), [Moffat 16](#Moffat16), [Colin-Mohayaee-Rameez-Sarkar 18](#SarkarEtAl18), [Sarkar 18](#Sarkar18), [Lombriser 19](#Lombriser19), [Deledicque 19](#Deledicque19).
 
 Discussion specifically of cosmic inhomogenity as the possible cause of the $H_0$-tension: [Bolejko 17](#Bolejko17).
 
@@ -83,14 +82,22 @@ rises, so the average expansion rate can rise ([Räsänen 10, p. 8](#Rasanen10))
 > Our analysis is based on the discovery of a closed ansatz for perturbations of the SM during the p$ = 0$ epoch of the Big Bang which triggers instabilities that create unexpectedly large regions of accelerated uniform expansion  within  Einstein’s  original  theory  without  the  cosmological constant.  We prove that these accelerated regions introduce
 precisely the same range of corrections to redshift vs luminosity as are produced by the cosmological constant in the theory of Dark Energy. 
 
-A similar conclusion is reached in [Sarkar et al. 18](#SarkarEtAl18), which in [Sarkar 18, slide 44](#Sarkar18) is summarized as follows:
+A similar conclusion is reached in [Colin-Mohayaee-Rameez-Sarkar 18](#SarkarEtAl18), which in [Sarkar 18, slide 44](#Sarkar18) is summarized as follows:
 
 > {#SarkarFlowQuote} There is a dipole in the recession velocities of host galaxies of supernovae $\Rightarrow$ we are in a "bulk flow" stretching out _well_ beyond the expected scale ($\sim 100 Mpc$) at which the universe is expected to become statistically homogeneous. The inference that the Hubble expansion rate is accelerating may be an artefact of the local bulk flow $[...]$ The "standard" assumptions of exact isotropy and homogeneity are _questionable $[...]$
+
+and a potential fallacy in the widely accepted interpretation of the data is claimed, which in [Rameez 19](#Rameez19) is summarized as follows:
+
+> [The Fitting Problem in cosmology](#EllisStoeger87) was written in 1987. In the context of this work and the significant theoretical difficulties involved in inferring fundamental physics from the real Universe, any claims of having measured a cosmological constant from directionally skewed, sparse samples of intrinsically scattered observations should have been taken with a grain of salt.  By honouring this claim with a Nobel Prize, the Swedish Academy may have induced runaway prestige bias in favour of some of the least principled analyses in science, strengthening the confirmation bias that seems prevalent in cosmology.
+
+A conclusion along these lines, albeit weaker, is also reached independently in [Lin-Mack-Hou 19, p. 5](#LinMackHou19):
+
+> some proposals suggest some local/environmental factors ($z \leq 0.03$) can  bias  the  local  determinations.  This would mean the locally measured $H_0$ cannot be interpreted as the global Hubble constant of the homogeneous universe. An example is a local underdense region (Lombriser 2019; Shanks et al. 2019). Recent studies have shown observational evidence supporting a  small-scale local underdense region (Boehringer et al. 2019; Pustilnik et al. 2019), though it has been argued that the likelihood for a local void to substantially affect the local measurement may be low (Kenworthyet al. 2019).   These local factors do not pose a problem tothe standard ΛCDM model at large scales, but instead point to the need for a more detailed description of our local environment to account for such a systematic effect that can shift all  local measurements in the same way. If all local measurements produce high values of $H_0$, it would favor such a local/environmental-factor explanation over systematic effects that may be unique to each observation.
 
 
 Survey of the field of inhomogeneous cosmology and of attitudes in the community towards open issues is in [Belejko-Korzyński 16](#BelejkoKorzynski16).
 
-If the apparent small positive [[cosmological constant]] ([[dark energy]]) were but an artefact of neglecting backreaction of inhomogeneities, some theoretical puzzlements regarding [[quantum gravity]] on [[de Sitter spacetimes]] would disappear (see [Rajaraman 16](de+Sitter+spacetime#Rajaraman16) for general discussion and [Danielsson-VanRiet 18, p. 27](#DanielssonVanRiet18) for discussion of [[perturbative string theory vacua]]).
+If the apparent small positive [[cosmological constant]] ([[dark energy]]) were but an artefact of neglecting backreaction of inhomogeneities, some theoretical puzzlements regarding [[quantum gravity]] on [[de Sitter spacetimes]] would disappear (see [Rajaraman 16](de+Sitter+spacetime#Rajaraman16) for general discussion and [Danielsson-VanRiet 18, p. 27](#DanielssonVanRiet18) for discussion of [[perturbative string theory vacua]]) and some theoretically attractive models could become phenomenologically viable again, such as "[Witten's dark fantasy](cosmological+constant#ReferencesStringTheoryVanishingCC)".
 
 ## Numerical simulation
  {#NumericalSimulation}
@@ -123,6 +130,7 @@ Similarly [Adamek 18, slide 14](#Adamek18) on simulations obtained with [[gevolu
 future surveys
 
 For more see also the pointers in [Räsänen 18, slide 7](#Rasanen18).
+
 
 ## The "backreaction debate"
  {#BackreactionDebate}
@@ -167,7 +175,7 @@ of the Universe.
 
 
 
-Indeed, [Smoller-Temple-Vogler 14](#SmollerTempleVogler14) claim an analytic solution which does exhibit inhomogeneity effects mimicking dark energy (see [above](#AbstractSmollerTempleVogler14)) and a similar conclusion is claimed in [Sarkar et al. 18](#SarkarEtAl18) (see [above](#SarkarFlowQuote)).  Also relativistic numerical simulation, albeit in their infancy, seem to exhibit noticeable backreaction (see [above](#NumericalSimulation)).
+Indeed, [Smoller-Temple-Vogler 14](#SmollerTempleVogler14) claim an analytic solution which does exhibit inhomogeneity effects mimicking dark energy (see [above](#AbstractSmollerTempleVogler14)) and a similar conclusion is claimed in [Colin-Mohayaee-Rameez-Sarkar 18](#SarkarEtAl18) (see [above](#SarkarFlowQuote)).  Also relativistic numerical simulation, albeit in their infancy, seem to exhibit noticeable backreaction (see [above](#NumericalSimulation)).
 
 
 
@@ -193,6 +201,10 @@ However, this may be over-interpreting the realism of these simple models. Accor
 ## References
 
 ### General
+
+
+* {#EllisStoeger87} [[George Ellis]], W. Stoeger, _The 'fitting problem' in cosmology_,  Classical and Quantum Gravity, Volume 4, Number 6, 1987 ([doi:10.1088/0264-9381/4/6/025](https://iopscience.iop.org/article/10.1088/0264-9381/4/6/025))
+
 
 General review:
 
@@ -324,14 +336,17 @@ Dark Energy?_, 2009 ([[NotariInhomogeneousCosmology.pdf:file]])
 
 * {#MacphersonLaskyPrice18} Hayley Macpherson, Paul D. Lasky, Daniel J. Price, _The trouble with Hubble: Local versus global expansion rates in inhomogeneous cosmological simulations with numerical relativity_,  ApJ Letters ([arXiv:1807.01714](https://arxiv.org/abs/1807.01714))
 
-* {#SarkarEtAl18} J. Colin, R. Mohayaee, M. Rameez, [[Subir Sarkar]], _Evidence for anisotropy of cosmic acceleration_, Astronomy & Astrophysics Letters ([arXiv:1808.04597](https://arxiv.org/abs/1808.04597))
+* {#SarkarEtAl18} J. Colin, R. Mohayaee, [[Mohamed Rameez]], [[Subir Sarkar]], _Evidence for anisotropy of cosmic acceleration_, Astronomy & Astrophysics Letters ([arXiv:1808.04597](https://arxiv.org/abs/1808.04597))
 
 * {#Sarkar18} [[Subir Sarkar]], _Is the universe isotropic?_, talk at _[Current Themes in High Energy Physics and Cosmology 2018](https://indico.nbi.ku.dk/event/973/)_ ([pdf](https://indico.nbi.ku.dk/event/973/contributions/8344/attachments/2648/3858/Sarkar_Copenhagen18_cosmo.pdf))
+
+* {#Rameez19} [[Mohamed Rameez]], _On the Real Inhomogeneous Universe and the Weirdness of 'Dark Energy'_ ([Nov. 14, 2019](https://4gravitons.com/2019/11/15/guest-post-on-the-real-inhomogeneous-universe-and-the-weirdness-of-dark-energy/))
 
 * {#Lombriser19} Lucas Lombriser, _On the cosmological constant problem_, Phys. Lett. B 797, 134804 (2019) ([arXiv:1901.08588](https://arxiv.org/abs/1901.08588), [doi:10.1016/j.physletb.2019.134804](https://doi.org/10.1016/j.physletb.2019.134804)) 
 
 * {#Deledicque19} Vincent Deledicque, _Theoretical developments on the adequacy of the fitting of the FLRW metric on the universe's real metric_ ([arxiv:1907.01580](https://arxiv.org/abs/1907.01580))
 
+* {#LinMackHou19} Weikang Lin, Katherine J. Mack, Liqiang Hou, _Investigating the Hubble Constant Tension -- Two Numbers in the Standard Cosmological Model_ ([arXiv:1910.02978](https://arxiv.org/abs/1910.02978))
 
 
 ### No effective dark energy from inhomogeneity
