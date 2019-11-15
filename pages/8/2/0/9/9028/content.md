@@ -76,6 +76,8 @@ See also at _[[C-field tadpole cancellation]]_.
 
 * [[M-theory on Spin(7)-manifolds]]
 
+* [[F-theory on Spin(7)-manifolds]]
+
 * [[8-manifold]]
 
 
