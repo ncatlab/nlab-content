@@ -46,9 +46,9 @@ The second issue is that not every "generalized object" over $X$ may have a name
 
 One way to deal with this is to suppose some (possibly [[ordinal|transfinite]]) sequence of object classifiers, each contained in the next, such that every generalized object is eventually classified by some one of them.  In the internal logic, this corresponds roughly to the idea of [[universe polymorphism]] in [[type theory]].
 
-Another way is, of course, to move outside of $C$.  In particular, if we work in a category of presheaves/sheaves/stacks on $C$ at one category-level up, then the [[self-indexing]] of $C$ (or its [[core]]) will be an object $U$ which classifies *exactly* the desired category $C/X$ of generalized objects for each $X\in C$.  (The exhaustive sequence of universes can also be regarded as moving outside of $C$, perhaps to a category of [[ind-objects]] in $C$.)  The fragment of the internal logic of this category of stacks which deals only with objects of $C$ itself can then be identified with the direct Kripke-Joyal style stack-semantics described above.
+Another way is, of course, to move outside of $C$.  In particular, if we work in a category of presheaves/sheaves/stacks on $C$ at one category-level up, then the [[self-indexing]] of $C$ (or its [[core]]) will be an object $U$ which classifies *exactly* the desired category $C/X$ of generalized objects for each $X\in C$.  (The exhaustive sequence of universes can also be regarded as moving outside of $C$, perhaps to a category of [[ind-objects]] in $C$.)  The fragment of the internal logic of this category of stacks which deals only with objects of $C$ itself can then be identified with the direct Kripke--Joyal style stack-semantics described above.
 
-Of course, one can also embrace this second limitation and just live with a "partial" stack semantics that only allows us to talk about a particular subclass of generalized objects.  The [[Mitchell-Bénabou language]] of a [[topos]] can be regarded as a partial stack semantics in this sense, in which the only generalized objects we can classify over are the [[subterminal objects]] (i.e. the [[subobjects]] $A \hookrightarrow X$).  The object $U$ in this case is, of course, the [[subobject classifier]].
+Of course, one can also embrace this second limitation and just live with a "partial" stack semantics that only allows us to talk about a particular subclass of generalized objects.  The [[Mitchell–Bénabou language]] of a [[topos]] can be regarded as a partial stack semantics in this sense, in which the only generalized objects we can classify over are the [[subterminal objects]] (i.e. the [[subobjects]] $A \hookrightarrow X$).  The object $U$ in this case is, of course, the [[subobject classifier]].
 
 One can also embrace the first limitation and not worry about having multiple names for the same object.  This leads to notions such as a [[universe in a topos]] and the field of [[algebraic set theory]].
 
@@ -72,13 +72,14 @@ Examples:
 
 * [[semantics]]
 
-* [[Kripke-Joyal semantics]]
+* [[Kripke–Joyal semantics]]
+
 
 ## References
 
 * [[Mike Shulman]], _[Stack semantics and the comparison of material and structural set theories](http://arxiv.org/abs/1004.3802)_ (2010)
 
-* J. Penon, _Categories localement internes_, C. R. Acad. Sci. Paris __278__ (1974) A1577-1580
+* J. Penon, _Categories localement internes_, C. R. Acad. Sci. Paris __278__ (1974) A1577--1580
 {#Penon}
 
 * Locally internal categories, Appendix in: [[Peter Johnstone]], _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977, xxiii+367 pp.
