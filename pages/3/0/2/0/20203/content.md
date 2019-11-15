@@ -97,7 +97,7 @@ If the 8-dimensional [[fibers]] themselves are [[elliptic fibrations]], then [[M
 
 In particular, if there is an [[M2-brane]] [[wrapped brane|filling]] the base 2+1-dimensional spacetime, this is supposedly [[T-duality|T-dual]] to a 3+1-dimensional spacetime filling [[D3-brane]] in [[F-theory]] (e.g. [Condeescu-Micu-Palti 14, p. 2](#CondeescuMicuPalti14))
 
-For more on this see at _[[F/M-theory on elliptically fibered Calabi-Yau 4-folds]]_.
+For more on this see at _[[F/M-theory on elliptically fibered Calabi-Yau 4-folds]]_ and at _[[F-theory on Spin(7)-manifolds]]_.
 
 \linebreak
 
@@ -150,7 +150,7 @@ See also [Morrison-Plesser 99, section 3.2](#MorrisonRPlesser99).
 ### With $Spin(7)$-structure
   {#ReferencesWithSpin7Structure}
 
-Discussion of [[KK-compactification]] on 8-dimensional [[Spin(7)-manifolds]] (see also at _[[M-theory on G2-manifolds]]_):
+Discussion of [[KK-compactification]] on 8-dimensional [[Spin(7)-manifolds]] (see also at _[[M-theory on G2-manifolds]]_ and at _[[F-theory on Spin(7)-manifolds]]_):
 
 * [[Mirjam Cvetic]], [[Gary Gibbons]], H. Lu, [[Christopher Pope]], _New Complete Non-compact Spin(7) Manifolds_, Nucl.Phys.B620:29-54, 2002 ([arXiv:hep-th/0103155](https://arxiv.org/abs/hep-th/0103155))
 
@@ -166,15 +166,15 @@ Discussion of [[KK-compactification]] on 8-dimensional [[Spin(7)-manifolds]] (se
 
 * Dragos Constantin, _Flux Compactification of M-theory on Compact Manifolds with Spin(7) Holonomy_, Fortsch.Phys. 53 (2005) 1272-1329 ([arXiv:hep-th/0507104](https://arxiv.org/abs/hep-th/0507104))
 
-* [[Dimitrios Tsimpis]], _M-theory on eight-manifolds revisited: N=1 supersymmetry and generalized $Spin(7)$ structures_, JHEP 0604 (2006) 027 ([arXiv:hep-th/0511047](https://arxiv.org/abs/hep-th/0511047))
+* [[Dimitrios Tsimpis]], _M-theory on eight-manifolds revisited: $N=1$ supersymmetry and generalized $Spin(7)$ structures_, JHEP 0604 (2006) 027 ([arXiv:hep-th/0511047](https://arxiv.org/abs/hep-th/0511047))
 
-* S. Salur, O. Santillan, _New Spin(7) holonomy metrics admiting G2 holonomy reductions and M-theory/IIA dualities_, Phys.Rev.D79:086009, 2009 ([arXiv:0811.4422](https://arxiv.org/abs/0811.4422))
+* S. Salur, O. Santillan, _New $Spin(7)$ holonomy metrics admiting $G_2$ holonomy reductions and M-theory/IIA dualities_, Phys.Rev.D79:086009, 2009 ([arXiv:0811.4422](https://arxiv.org/abs/0811.4422))
 
 * Adil Belhaj, Luis J. Boya, Antonio Segui, _Holonomy Groups Coming From F-Theory Compactification_, Int J Theor Phys (2010) 49: 681.  ([arXiv:0911.2125](https://arxiv.org/abs/0911.2125))
 
-* Thomas Bruun Madsen, _Spin(7)-manifolds with three-torus symmetry_, J.Geom.Phys.61:2285-2292, 2011 ([arXiv:1104.3089](https://arxiv.org/abs/1104.3089))
+* Thomas Bruun Madsen, _$Spin(7)$-manifolds with three-torus symmetry_, J.Geom.Phys.61:2285-2292, 2011 ([arXiv:1104.3089](https://arxiv.org/abs/1104.3089))
 
-* Federico Bonetti, [[Thomas Grimm]], Tom G. Pugh, _Non-Supersymmetric F-Theory Compactifications on Spin(7) Manifolds_, JHEP01(2014)112 ([arXiv:1307.5858](https://arxiv.org/abs/1307.5858))
+* Federico Bonetti, [[Thomas Grimm]], Tom G. Pugh, _Non-Supersymmetric F-Theory Compactifications on $Spin(7)$ Manifolds_, JHEP01(2014)112 ([arXiv:1307.5858](https://arxiv.org/abs/1307.5858))
 
 * Federico Bonetti, [[Thomas Grimm]], Eran Palti, Tom G. Pugh, _F-Theory on Spin(7) Manifolds: Weak-Coupling Limit_, JHEP02(2014)076 ([arXiv:1309.2287](https://arxiv.org/abs/1309.2287))
 
@@ -200,8 +200,9 @@ See also
 
 ### Phenomenology and cosmological constant
 
-An argument for [[non-perturbative effect|non-perturbative]] non-[[supersymmetry|supersymmetric]] 4d [[string phenomenology]] with fundamentally vanishing [[cosmological constant]], based on 3d [[M-theory on 8-manifolds]]
-decompactified at strong coupling to 4d via [[duality between M-theory and type IIA string theory]] (recall the [[super 2-brane in 4d]]):
+For more on the following see at _[[Witten's Dark Fantasy]]_:
+
+An argument for [[non-perturbative effect|non-perturbative]] non-[[supersymmetry|supersymmetric]] 4d [[string phenomenology]] with fundamentally vanishing [[cosmological constant]], based on 3d [[M-theory on 8-manifolds]] decompactified at strong coupling to 4d via [[duality between M-theory and type IIA string theory]] (recall the [[super 2-brane in 4d]]):
 
 * {#Witten00} [[Edward Witten]], _The Cosmological Constant From The Viewpoint Of String Theory_, lecture at [DM2000](http://inspirehep.net/record/972507) ([arXiv:hep-ph/0002297](https://arxiv.org/abs/hep-ph/0002297))
 
