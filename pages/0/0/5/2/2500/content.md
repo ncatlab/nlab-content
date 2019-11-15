@@ -298,7 +298,15 @@ All lower dimensional theories in this class appear as [[KK-compactifications]] 
 
 * [[10-dimensional supergravity]] 
 
-  * [[type II supergravity]], [[heterotic supergravity]]
+  * [[type II supergravity]]
+
+    * [[type IIA supergravity]]
+  
+      * [[massive type IIA supergravity]]
+
+    * [[type IIB supergravity]]
+
+  * [[heterotic supergravity]]
 
 * [[9-dimensional supergravity]]
 
