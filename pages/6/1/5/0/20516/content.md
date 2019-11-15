@@ -7,6 +7,10 @@ On the [[Perry-Schwarz action]] for [[self-dual higher gauge fields]] in 6dand t
 
 * {#PerrySchwarz96} [[Malcolm Perry]], [[John Schwarz]], _Interacting Chiral Gauge Fields in Six Dimensions and Born-Infeld Theory_, Nucl. Phys. B489 (1997) 47-64 ([arXiv:hep-th/9611065](http://arxiv.org/abs/hep-th/9611065))
 
+On [[black brane|black]] [[D8-brane]]-solutions in [[massive type IIA supergravity]]/[[massive type IIA string theory]]:
+
+* {#ChamblinPerry97} A. Chamblin, [[Malcolm Perry]], _Dynamic D8-branes in IIA string theory_ ([arXiv:hep-th/9712112](https://arxiv.org/abs/hep-th/9712112))
+
 ## Related $n$Lab entries
 
 * [[M5-brane]]
