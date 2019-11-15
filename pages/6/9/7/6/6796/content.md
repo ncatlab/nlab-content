@@ -52,8 +52,13 @@ If $\Sigma$ is contractible in $X$, hence if there is a $\hat \Sigma \hookrighta
 [[!redirects flux density]]
 [[!redirects flux densities]]
 
+[[!redirects flux form]]
+[[!redirects flux forms]]
+
+
 [[!redirects magnetic flux]]
 [[!redirects electric flux]]
+
 
 
 
