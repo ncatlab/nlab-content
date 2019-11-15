@@ -218,3 +218,6 @@ Discussion of unstabilized twisted cohomotopy, with application to foundations o
 
 [[!redirects twisted cohomotopy theory]]
 [[!redirects twisted Cohomotopy theory]]
+
+[[!redirects twisted cohomotopy cohomology theory]]
+[[!redirects twisted Cohomotopy cohomology theory]]
