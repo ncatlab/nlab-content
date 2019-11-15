@@ -23,6 +23,10 @@ The _muon_ is one of the fundamental [[particles]]/[[matter]] [[field (physics)|
 
 * [[anomalous magnetic moment]]
 
+## Related concepts
+
+[[!include flavors of fundamental particles -- table]]
+
 
 ## References
 
