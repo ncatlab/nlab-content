@@ -515,6 +515,9 @@ In ([Madsen 07](Mumford+conjecture#Madsen07)) it says with respect to the [[proo
 
 * {#Schwarz16} [[John Schwarz]], _String Theory in the Twentieth Century_, talk at [Strings 2016](http://ymsc.tsinghua.edu.cn:8090/strings/) ([pdf](https://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2016/main/Schwarz.pdf), [[SchwarzString2016.pdf:file]])
 
+* [[Lars Brink]], _Hadronic Strings -- A Revisit in the Shade of Moonshine_ ([arxiv:1911.06026](https://arxiv.org/abs/1911.06026))
+
+
 
 [[!redirects string theories]]
 
