@@ -36,5 +36,10 @@ In [[quantum electrodynamics]] the electron [[interaction|interacts]] with the [
 
 * [[quantum electrodynamics]]
 
+\linebreak
+
+[[!include flavors of fundamental particles -- table]]
+
+
 
 [[!redirects electrons]]
