@@ -19,7 +19,16 @@
 
 ## Idea
 
-(...)
+The [[fermion]] [[fundamental particles]] in the [[standard model of particle physics]] arrange in three "[[generation of fundamental particles|generation]]". Between generations, particles differ in their [[mass]] and in further properties referred to as _flavor quantum numbers_, but otherwise their interactions are the same, to high accuracy. Hence _flavor physics_ refers to the [[phenomenology]] of processes that do involve or depend on flavor quantum numbers, notably when flavor changes through interactions via the [[weak nuclear force]] and [[Yukawa interactions]].
+
+For the [[leptons]] these flavor quantum numbers are _[[electron]] number_, _[[muon]] number_ and _[[tauon]] number_ as well as the corresponding three _[[neutrino]] numbers_.
+
+For the [[quarks]] the flavor quantum numbers are _[[isospin]]_, _[[charm quark|charm]]_, _[[strange quark|strange]]-ness_,  _[[bottom quark|bottom]]-ness_ and _[[top quark|top]]-ness_.
+
+[[!include flavors of fundamental particles -- table]]
+
+
+See [yotams](#yotams) for a good quick introduction.
 
 ## Properties
 
@@ -28,7 +37,6 @@
 The flavor sector of the [[standard model of particle physics]] is maybe the least well understood in detail; in any case persistent [[flavor anomalies]] reflect a discrepancy between [[experiment]] ([[LHCb]], [[Belle experiment|Belle]], [[BaBar experiment|BaBar]]) and theoretical computations. 
 
 See at _[[flavour anomalies]]_ for more.
-
 
 ### Geometric engineering on D8-branes
  {#GeometircEngineeringInDBranes}
@@ -85,7 +93,18 @@ Here we are showing
 
 ### General
 
+A good quick account is in 
+
+* {#yotams} yotams, _What is flavor?_ ([pdf](https://webhome.weizmann.ac.il/home/yotams/notes/ep1_flavor.pdf), [[yotamsFlavor.pfd:file]])
+
+
+Lecture notes:
+
+* [[Yuval Grossman]], _Introduction to flavor physics_, CERN Yellow Report CERN-2010-002, pp. 111-144 ([arXiv:1006.3534](https://arxiv.org/abs/1006.3534))
+
 * [[Benjamin Grinstein]], _TASI-2013 Lectures on Flavor Physics_ ([arXiv:1501.05283](https://arxiv.org/abs/1501.05283))
+
+* [[Yuval Grossman]], Philip Tanedo, _Just a Taste: Lectures on Flavor Physics_, Chapter 4 in: _Anticipating the Next Discoveries in Particle Physics (TASI 2016)_ ([arXiv:1711.03624](https://arxiv.org/abs/1711.03624),  [doi:10.1142/9789813233348_0004](https://doi.org/10.1142/9789813233348_0004))
 
 * Jure Zupan, _Introduction to flavour physics_ ([arXiv:1903.05062](https://arxiv.org/abs/1903.05062))
 
@@ -120,7 +139,7 @@ and then developed in detail for [[QCD]] on [[D8-branes]] in the [[Sakai-Sugimot
 
 
 
-
+[[!redirects flavor (particle physics)]]
 
 
 [[!redirects flavour in particle physics]]
