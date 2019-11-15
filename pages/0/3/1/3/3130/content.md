@@ -18,6 +18,7 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
 Traditionally, in the strict sense of the term, the _Chern character_ is a [[universal characteristic class]] of [[vector bundles]] or equivalently of their [[topological K-theory]] classes, which is a [[rational number|rational]] combination of all [[Chern classes]].
 
