@@ -21,15 +21,7 @@
 
 **[[matter]] [[field (physics)|field]] [[fermions]]** ([[spinors]], [[Dirac fields]])
 
-* [[electron]]
-
-* [[quark]]
-
-| 1st | 2nd | 3d |
-|----------------|-------------------|------------------|
-|  [[up quark|up]]  | [[charm quark|charm]]   | [[top quark|top]]    |
-| [[down quark|down]] | [[strange quark|strange]] | [[bottom quark|bottom]] | 
-
+[[!include flavors of fundamental particles -- table]]
 
 
 * [[neutrino]]
