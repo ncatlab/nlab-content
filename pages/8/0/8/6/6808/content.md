@@ -9,7 +9,7 @@ On [[string phenomenology]] via [[D=2 N=(2,0) SCFT]]:
 
 On the [[BFSS matrix model]] ([[M-theory]] as [[D0-brane]] [[quantum mechanics]] in [[non-perturbative effect|non-perturbative]] [[type IIA string theory]]):
 
-* {#BanksFischlerShenkerSusskind96} [[Tom Banks]], [[Willy Fischler]], S.H. Shenker and [[Leonard Susskind]], _M Theory As A Matrix Model: A Conjecture_  Phys. Rev. D55 (1997). ([arXiv:hep-th/9610043](http://arxiv.org/abs/hep-th/9610043))
+* {#BanksFischlerShenkerSusskind96} [[Tom Banks]], [[Willy Fischler]], [[Stephen Shenker]], [[Leonard Susskind]], _M Theory As A Matrix Model: A Conjecture_  Phys. Rev. D55 (1997). ([arXiv:hep-th/9610043](http://arxiv.org/abs/hep-th/9610043))
 
 * [[Tom Banks]], _Matrix Theory_, Nucl.Phys.Proc.Suppl. 67 (1998) 180-224 ([arXiv:hep-th/9710231](https://arxiv.org/abs/hep-th/9710231))
 
@@ -18,6 +18,12 @@ On [[black holes in string theory]] via the [[BFSS matrix model]]:
 * [[Tom Banks]], [[Willy Fischler]], [[Igor Klebanov]], [[Leonard Susskind]],  _Schwarzschild Black Holes from Matrix Theory_, Phys.Rev.Lett.80:226-229,1998 ([arXiv:hep-th/9709091](https://arxiv.org/abs/hep-th/9709091))
 
 * [[Tom Banks]], [[Willy Fischler]], [[Igor Klebanov]], [[Leonard Susskind]], _Schwarzchild Black Holes in Matrix Theory II_, JHEP 9801:008,1998 ([arXiv:hep-th/9711005](https://arxiv.org/abs/hep-th/9711005))  
+
+
+On [[massive type IIA string theory]]:
+
+* [[Tom Banks]], K. van den Broek, _Massive IIA flux compactifications and U-dualities_, JHEP 0703:068, 2007 ([arXiv:hep-th/0611185](https://arxiv.org/abs/hep-th/0611185))
+
 
 On the [[firewall problem]] via the [[BFSS matrix model]]:
 
