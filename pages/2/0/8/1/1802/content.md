@@ -13,10 +13,9 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -48,11 +47,13 @@ The Mitchell--B&#233;nabou language, like the [[internal logic]] of any [[catego
 
 As is usual for type theories, we can conversely generate a [[syntactic category|syntactic]] or [[free topos]] $E(L)$ from any suitable theory $L$ phrased in the above language.  The universal property of this topos says that [[logical functors]] $E(L)\to E$, for any other topos $E$, are equivalent to models of the theory $L$ in $E$.
 
+
 ## Related concepts
 
-* [[Kripke-Joyal semantics]]
+* [[Kripke–Joyal semantics]]
 
 * [[internal logic of an (infinity,1)-topos]]
+
 
 [[!redirects Mitchell-Benabou language]]
 [[!redirects Mitchell–Benabou language]]
@@ -60,5 +61,22 @@ As is usual for type theories, we can conversely generate a [[syntactic category
 [[!redirects Mitchell-Bénabou language]]
 [[!redirects Mitchell–Bénabou language]]
 [[!redirects Mitchell--Bénabou language]]
+[[!redirects Mitchell-Benabou languages]]
+[[!redirects Mitchell–Benabou languages]]
+[[!redirects Mitchell--Benabou languages]]
+[[!redirects Mitchell-Bénabou languages]]
+[[!redirects Mitchell–Bénabou languages]]
+[[!redirects Mitchell--Bénabou languages]]
 
 [[!redirects internal logic of a topos]]
+[[!redirects internal logics of a topos]]
+[[!redirects internal logic of toposes]]
+[[!redirects internal logics of toposes]]
+[[!redirects internal logic of topoi]]
+[[!redirects internal logics of topoi]]
+[[!redirects internal language of a topos]]
+[[!redirects internal languages of a topos]]
+[[!redirects internal language of toposes]]
+[[!redirects internal languages of toposes]]
+[[!redirects internal language of topoi]]
+[[!redirects internal languages of topoi]]
