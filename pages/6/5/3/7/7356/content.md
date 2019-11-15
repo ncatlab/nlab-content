@@ -196,6 +196,7 @@ A large number of realizations of the exact field content of the [[standard mode
 
 [[!include F-theory compactifications -- table]]
 
+* [[F-theory on Spin(7)-manifolds]]
 
 ## References
  {#References}
