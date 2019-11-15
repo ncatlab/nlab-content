@@ -70,7 +70,9 @@ The global (all channels and experiments combined) tension  with the standard mo
 
 
 
-This situation was confirmed with the completed measurements presented at [Moriond 2019](http://moriond.in2p3.fr/2019/), which showed ([Straub 19](#Straub19), [Allanach 19](#Allanach19)) smaller discrepancy but also with smaller uncertainty, thus keeping the [[statistical significance]] essentially unaffected. But in 2019 [Caria 19, slide 9](#Caria19)  report new numbers by [[Belle collaboration|Belle]] by which the previous [[statistical significance]] of $3.8 \sigma$ in the $R_D$ sector would decrease to $3.1 \sigma$ or $2.8 \sigma$ ([Gambino-Jung-Schacht 19 (6)](V_cb+puzzle#GambinoJungSchacht19)).  See [LHCb 19, p. 2](#LHCb19) for how the new numbers come about. Comprehensive assessments of the situation after [Moriond 2019](http://moriond.in2p3.fr/2019/) are given in [AHMSN 19](#AHMSN19), [Descotes-Genon 19](#DescotesGenon19), [Bardhan-Ghosh 19](#BardhanGhosh19), [Alguero 19](#Alguero19) and agree that the flavour anomalies have been confirmed:
+This situation was confirmed with the completed measurements presented at [Moriond 2019](http://moriond.in2p3.fr/2019/), which showed ([Straub 19](#Straub19), [Allanach 19](#Allanach19)) smaller discrepancy but also with smaller uncertainty, thus keeping the [[statistical significance]] essentially unaffected. But in 2019 [Caria 19, slide 9](#Caria19)  report new numbers by [[Belle collaboration|Belle]] by which the previous [[statistical significance]] of $3.8 \sigma$ in the $R_D$ sector would decrease to $3.1 \sigma$ or $2.8 \sigma$ ([Gambino-Jung-Schacht 19 (6)](V_cb+puzzle#GambinoJungSchacht19)).  See [LHCb 19, p. 2](#LHCb19) for how the new numbers come about. The statistical significance over all sectors is still seen $\gt 4 \sigma$ ([London 19, p. 7](#London19)).
+
+Comprehensive assessments of the situation after [Moriond 2019](http://moriond.in2p3.fr/2019/) are given in [AHMSN 19](#AHMSN19), [Descotes-Genon 19](#DescotesGenon19), [Bardhan-Ghosh 19](#BardhanGhosh19), [Alguero 19](#Alguero19) and agree that the flavour anomalies have been confirmed:
 
 >  It appears the reason is that, given the amount of independent measurements (~180!) a smaller deviation because of new physics is easier to accommodate than a large one. Thus the new measurements actually fit better with new physics.
 
@@ -135,7 +137,7 @@ In fact, it had been argued prior to the detection of the anomalies ([Lyons 13b]
 
 This attitude is reflected in [SGGJC 19, p. 2](#SGGJC19):
 
-> For some time now, the ratios of semileptonicB-decay rates have appeared to be enhanced with respect to the Standard Model (SM) predictions with a global significance above the evidence threshold.
+> For some time now, the ratios of semileptonic B-decay rates have appeared to be enhanced with respect to the Standard Model (SM) predictions with a global significance above the evidence threshold.
 
 \linebreak
 
@@ -316,6 +318,13 @@ Review includes
 
 * Jon Butterworth, Section 1 in: _Highlights of EPS HEP 2019_, talk at [eps-hep2019](http://eps-hep2019.eu/)
  ([arxiv:1910.12768](https://arxiv.org/abs/1910.12768))
+
+* Antonio Pich, _Flavour Anomalies_ ([arxiv:1911.06211](https://arxiv.org/abs/1911.06211))
+
+* {#London19} David London, _Anomalies in B Decays: A Sign of New Physics?_,
+talk at [XIth International Symposium on Quantum Theory and Symmetries](http://www.crm.umontreal.ca/2019/QTS2019/index_e.php), July 1-5, 2018 Centre de recherches mathématiques, Montréal, Canada ([arxiv:1911.06238](https://arxiv.org/abs/1911.06238))
+
+
 
 
 Outlook:
