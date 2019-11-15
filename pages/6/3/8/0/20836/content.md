@@ -19,11 +19,43 @@ The [[KK-compactification]] of [[F-theory]] on [[Spin(7)-manifolds]] to 4d.
 
 Related by [[T-duality]] to 3d [[M-theory on Spin(7)-manifolds]]
 
+## Properties
 
 
-## Cosmology
+### (Non-)Supersymmetry and (vanishing) cosmological constant
 
-See at _[[Witten's Dark Fantasy]]_.
+What has been called _[[Witten's dark fantasy]]_ in [Heckmann-Lawrie-Lin-Zoccarato 19, Section 8](#HeckmannLawrieLinZoccarato19) is an argument, going back to [Witten 95a](#Witten95a), [Witten 95b, Sec. 3](#Witten95b), [Witten 00, p. 7](#Witten00) for the existence of [[non-perturbative effect|non-perturbative]] non-[[supersymmetry|supersymmetric]] 4d [[string vacua]]/[[string phenomenology]] with fundamentally _vanishing_ [[cosmological constant]] ("[[dark energy]]").
+
+The original idea was formulated in terms of 3d [[M-theory on 8-manifolds]] decompactified at strong coupling to 4d via [[duality between M-theory and type IIA string theory]] (recall the [[super 2-brane in 4d]]).
+
+Based on the observation of [Vafa 96, Section 4.3](#Vafa96) that the argument should have a natural realization in 4d [[F-theory on Spin(7)-manifolds]] ([[T-duality|T-dual]] to the previous perspective), a detailed construction was finally laid out in [Bonetti-Grimm-Pugh 13](#BonettiGrimmPugh13), [Heckmann-Lawrie-Lin-Zoccarato1 18](#HeckmannLawrieLinZoccarato118), [Heckman-Lawrie-Lin-Sakstein-Zoccarato 19](#HeckmanLawrieLinSaksteinZoccarato19).
+
+The key technical point is the claim that a careful analysis of [[D=4 N=1 supergravity]] obtained after [[KK-compactification]] of  [[F-theory on Spin(7)-manifolds]] [[T-duality|T-dual to]] [[M-theory on Spin(7)-manifolds]] reveals a "1/2 supersymmetry" where 
+
+1. the [[vacuum state]] is [[supersymmetry|supersymnmetric]] and hence has vanishing [[cosmological constant]];
+
+1. but no [[finite number|finite]]-[[energy]]-excitation of the vacuum appears supersymmetrically, 
+
+   hence [[fermions]] and [[bosons]] in the model do _not_ appear in supersymmetric spectra. 
+
+([Vafa 96, Sec. 4.3](#Vafa96) [BGP 13](#BonettiGrimmPugh13), [HLLZ 18, Sec. 4](#HeckmannLawrieLinZoccarato118))
+
+
+### Relation to J-twisted Cohomotopy
+ {#RelationToJTwistedCohomotopy}
+
+On a [[spin-manifold]] [[8-manifold|of dimension 8]] a choice of topological [[Spin(7)]]-[[G-structure|structure]] is equivalently a choice of [[cocycle]] in [[J-homomorphism|J-]][[twisted Cohomotopy cohomology theory]]. This follows ([[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation|FSS 19, 3.4]]) from 
+
+1. the standard [[coset space]]-[[structures]] on the [[7-sphere]] (see [here](7-sphere#CosetSpaceRealization)) 
+
+1. the fact that [[coset spaces]] $G/H$ are the [[homotopy fibers]] of the maps $B H \to B G$ of the corresponding [[classifying spaces]] (see [here](coset#ForInfinityGroups))
+
+\begin{imagefromfile}
+  "file_name": "ExceptionalSpheres.jpg",
+  "width": 730
+\end{imagefromfile}
+
+
 
 
 ## Related concepts
