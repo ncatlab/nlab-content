@@ -25,9 +25,8 @@ It is the [[fundamental particle]] with by far the largest [[rest mass]] (after 
 
 ## Related concepts
 
-* [[bottom quark]]
+[[!include flavors of fundamental particles -- table]]
 
-* [[charm quark]]
 
 ## References
 
