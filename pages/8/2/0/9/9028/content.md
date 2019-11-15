@@ -33,6 +33,20 @@ Equivalently: an [[8-manifold]] equipped with a globalization of the [[Cayley 4-
 
 [[!include Spin(8)-subgroups and reductions -- table]]
 
+### Relation to J-twisted Cohomotopy
+ {#RelationToJTwistedCohomotopy}
+
+On a [[spin-manifold]] [[8-manifold|of dimension 8]] a choice of topological [[Spin(7)]]-[[G-structure|structure]] is equivalently a choice of [[cocycle]] in [[J-homomorphism|J-]][[twisted Cohomotopy cohomology theory]]. This follows ([[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation|FSS 19, 3.4]]) from 
+
+1. the standard [[coset space]]-[[structures]] on the [[7-sphere]] (see [here](7-sphere#CosetSpaceRealization)) 
+
+1. the fact that [[coset spaces]] $G/H$ are the [[homotopy fibers]] of the maps $B H \to B G$ of the corresponding [[classifying spaces]] (see [here](coset#ForInfinityGroups))
+
+\begin{imagefromfile}
+  "file_name": "ExceptionalSpheres.jpg",
+  "width": 730
+\end{imagefromfile}
+
 ### Characteristic classes
 
 +-- {: .num_prop #CharacteristicClassesForSpinStructure}
