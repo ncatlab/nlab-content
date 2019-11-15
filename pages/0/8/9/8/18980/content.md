@@ -19,7 +19,9 @@
 
 In the [[standard model of particle physics]], a _lepton_ is a [[fermion]] that couples to the [[electromagnetic field]] or the [[weak nuclear force]] nut _not_ to the [[strong nuclear force]]. (Otherwise one speaks of _[[hadrons]]_.)
 
-This includes the [[electron]], [[muon]], ...
+
+[[!include flavors of fundamental particles -- table]]
+
 
 ## Properties
 
