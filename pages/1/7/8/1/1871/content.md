@@ -139,24 +139,24 @@ This is the problem of [[non-perturbative quantum field theory|non-perturbative]
 
 Yang-Mills theory is named after the article
 
-* [[Chen Ning Yang]], [[Robert Mills]], _Conservation of Isotopic Spin and Isotopic Gauge Invariance_. Physical Review 96 (1): 191&#8211;195.
-(1954) ([web](http://prola.aps.org/abstract/PR/v96/i1/p191_1))
+* [[Chen Ning Yang]], [[Robert Mills]], _Conservation of Isotopic Spin and Isotopic Gauge Invariance_. Physical Review 96 (1): 191&#8211; 195. (1954) ([web](http://prola.aps.org/abstract/PR/v96/i1/p191_1))
 
 which was the first to generalize the principle of [[electromagnetism]] to a [[non-abelian group|non-abalian]] [[gauge group]]. This became accepted as formulation of [[QCD]] and [[weak interactions]] (only) after [[spontaneous symmetry breaking]] (the [[Higgs mechanism]]) was understood in the 1960s.
 
-For modern reviews of the basics see
+Modern reviews of the basics
  
-
 * {#JaffeWitten} [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_  ([pdf](http://www.arthurjaffe.com/Assets/pdf/QuantumYangMillsWebRevised.pdf))
 
 * [[Simon Donaldson]], _Yang-Mills theory and geometry_ (2005) [pdf](http://www2.imperial.ac.uk/~skdona/YMILLS.PDF)
 
-Lecture notes include 
-
 * [[José Figueroa-O'Farrill]], _[Gauge theory](http://empg.maths.ed.ac.uk/Activities/GT/index.html)_
 
+* {#Uhlenbeck12} [[Karen Uhlenbeck]], notes by [[Laura Fredrickson]], _Equations of Gauge Theory_, lecture at Temple University, 2012 ([pdf](https://web.stanford.edu/~ljfred4/Attachments/TempleLectures.pdf), [[UhlenbeckGaugeTheory.pdf:file]])
 
-See also the references at _[[QCD]]_, _[[gauge theory]]_, and _[[super Yang-Mills theory]]_.
+* [[Simon Donaldson]], _Mathematical uses of gauge theory_ ([pdf](http://wwwf.imperial.ac.uk/~skdona/EMP.PDF), [[DonaldsonGaugeTheory.pdf:file]])
+
+
+See also the references at _[[QCD]]_, _[[gauge theory]]_, _[[Yang-Mills monopole]]_, _[[Yang-Mills instanton]]_ and at _[[super Yang-Mills theory]]_.
 
 Classical discussion of YM-theory over [[Riemann surfaces]] (which is closely related to [[Chern-Simons theory]], see also at _[[moduli space of flat connections]]_) is in 
 
@@ -178,7 +178,7 @@ For the relation to [[Tamagawa numbers]] see
 
 ### Classical solutions
 
-Wu and Yang (1968) found a static solution to the sourceless $SU(2)$ Yang-Mills equations. Recent references include
+Wu and Yang (1968) found a static solution to the sourceless $SU(2)$ [[Yang-Mills equations]]. Recent references include
 
 * J. A. O. Marinho, O. Oliveira, B. V. Carlson, T. Frederico, _Revisiting the Wu-Yang Monopole: classical solutions and conformal invariance_ 
 
@@ -187,7 +187,9 @@ There is an old review,
 
 * Alfred Actor, _Classical solutions of $SU(2)$ Yang&#8212;Mills theories_, Rev. Mod. Phys. 51, 461&#8211;525 (1979), 
 
-that provides some of the known solutions of $SU(2)$ gauge theory in [[Minkowski spacetime|Minkowski]] ([[monopoles]], plane waves, etc) and [[Euclidean space]] ([[instantons]] and their cousins). For general [[gauge groups]] one can get solutions by embedding $SU(2)$'s. For instantons the most general solution is known, first worked out by
+that provides some of the known solutions of $SU(2)$ gauge theory in [[Minkowski spacetime|Minkowski]] ([[monopoles]], plane waves, etc) and [[Euclidean space]] ([[instantons]] and their cousins). For general [[gauge groups]] one can get solutions by embedding $SU(2)$'s. 
+
+For [[Yang-Mills instantons]] the most general solution is known, first worked out by
 
 * [[Michael Atiyah]], [[Nigel Hitchin]], [[Vladimir Drinfeld]], [[Yuri Manin]], _Construction of instantons_, Physics Letters 65 A, 3, 185--187 (1978) [pdf](http://www.new.ox.ac.uk/system/files/ADHM.pdf)
 
@@ -195,7 +197,7 @@ for the [[classical groups]] [[special unitary group|SU]], [[special orthogonal 
 
 * C. Bernard, N. Christ, A. Guth, E. Weinberg, _Pseudoparticle Parameters for Arbitrary Gauge Groups_, Phys. Rev. __D16__, 2977 (1977)  
 
-for exceptional groups. The latest twist on the instanton story is the construction of solutions with non-trivial [[holonomy]]: 
+for [[exceptional Lie groups]]. The latest twist on the [[Yang-Mills instanton]] story is the construction of solutions with non-trivial [[holonomy]]: 
 
 * Thomas C. Kraan, Pierre van Baal, _Periodic instantons with nontrivial holonomy_, Nucl.Phys. B533 (1998) 627-659, [hep-th/9805168](http://arxiv.org/abs/hep-th/9805168)
 
