@@ -135,9 +135,9 @@ This is part of the statement of the [[Quillen adjunction]] between then [[class
  {#Closedness}
 
 
-Every Hurewicz cofibration $i$ is an injective map and if the [[image]] $i(A)$ is [[closed subspace|closed]] then it is a [[homeomorphism]] onto its image. In the category of [[weakly Hausdorff space|weakly Hausdorff]] [[compactly generated spaces]], $i(A)$ is always closed (the same in the category of all [[Hausdorff spaces]]), but in the category [[Top]] of all topological spaces there are pathological counterexamples. 
+Every Hurewicz cofibration $i$ injective and a [[homeomorphism]] onto its image ([Homotopietheorie](#Homotopietheorie) (1.17)). In the category of [[weakly Hausdorff space|weakly Hausdorff]] [[compactly generated spaces]], $i(A)$ is always closed (the same in the category of all [[Hausdorff spaces]]), but in the category [[Top]] of all topological spaces there are pathological counterexamples. 
 
-The simplest example (see the classical monograph Dieck, Kamps, Puppe, _Homotopietheorie_, LNM 157) is the following: let $A =\{a\}$ and $X=\{a,b\}$ be the one and two element sets, both with the [[codiscrete topology]] (only $X$ and $\emptyset$ are open in $X$), and $i:A\hookrightarrow X$ is the inclusion $a\mapsto a$. Then $i$ is a non-closed cofibration (useful exercise!). 
+The simplest example (see [Homotopietheorie](#Homotopietheorie)) is the following: let $A =\{a\}$ and $X=\{a,b\}$ be the one and two element sets, both with the [[codiscrete topology]] (only $X$ and $\emptyset$ are open in $X$), and $i:A\hookrightarrow X$ is the inclusion $a\mapsto a$. Then $i$ is a non-closed cofibration (useful exercise!). 
 
 
 
@@ -216,6 +216,8 @@ The [[product]] of two closed cofibrations is a closed cofibration.
 * [[Dieter Puppe]], _Bemerkungen &#252;ber die Erweiterung von Homotopien_, Arch. Math. (Basel) 18 1967 81--88; MR0206954 (34 #6770) [doi](http://dx.doi.org/10.1007/BF01899475)
 
 * [[Arne Strøm]], _Note on cofibrations_,  Math. Scand.  19  1966 11--14 [file](http://www.mscand.dk/article.php?id=1782) MR0211403 (35 #2284); _Note on cofibrations II_,  Math. Scand.  22  1968 130--142 (1969) [file](http://www.mscand.dk/article.php?id=1867) MR0243525 (39 #4846) 
+
+* {#Homotopietheorie} [[Tammo tom Dieck]], [[Klaus Heiner Kamps]], and [[Dieter Puppe]]. Homotopietheorie. Vol. 157. Springer-Verlag, 1970.
 
 The fact that morphisms of fibrant pullback diagrams along closed cofibrations induce closed cofibrations is in
 
