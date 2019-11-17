@@ -28,7 +28,7 @@ Based on the observation of [Vafa 96, Section 4.3](#Vafa96) that the argument sh
 
 ## $1/2$-Supersymmetry
 
-The key technical point is the claim that a careful analysis of [[D=4 N=1 supergravity]] obtained after [[KK-compactification]] of  [[F-theory on Spin(7)-manifolds]] [[T-duality|T-dual to]] [[M-theory on Spin(7)-manifolds]] reveals a "1/2 supersymmetry" where 
+The key technical point is the claim that a careful analysis of [[D=4 N=1 supergravity]] obtained after [[KK-compactification]] of  [[F-theory on Spin(7)-manifolds]] [[T-duality|T-dual to]] [[M-theory on Spin(7)-manifolds]] reveals, in contrast to the [[number of supersymmetries|N=1 supersymmetry]] of [[F-theory on CY4-folds]], an "$N= 1/2$ supersymmetry" where 
 
 1. the [[vacuum state]] is [[supersymmetry|supersymnmetric]] and hence has vanishing [[cosmological constant]];
 
@@ -60,7 +60,9 @@ The observation that the idea naturally embeds in [[F-theory]] is due to
 
 A detailed implementation of the idea in [[F-theory]] is developed in:
 
-* {#BonettiGrimmPugh13} Federico Bonetti, [[Thomas Grimm]], Tom G. Pugh, _Non-Supersymmetric F-Theory Compactifications on $Spin(7)$ Manifolds_, JHEP01(2014)112 ([arXiv:1307.5858](https://arxiv.org/abs/1307.5858))
+* {#BonettiGrimmPugh13} [[Federico Bonetti]], [[Thomas Grimm]], [[Tom Pugh]], _Non-Supersymmetric F-Theory Compactifications on $Spin(7)$ Manifolds_, JHEP 01 (2014) 112 ([arXiv:1307.5858](https://arxiv.org/abs/1307.5858))
+
+* {#BonettiGrimmPugh13b} [[Federico Bonetti]], [[Thomas Grimm]], Eran Palti, [[Tom Pugh]], _F-Theory on $Spin(7)$ Manifolds: Weak-Coupling Limit_, JHEP 02 (2014) 076 ([arXiv:1309.2287](https://arxiv.org/abs/1309.2287))
 
 * {#HeckmannLawrieLinZoccarato118} [[Jonathan Heckman]], Craig Lawrie, Ling Lin, Gianluca Zoccarato, _F-theory and Dark Energy_, Fortschritte der Physik  ([arXiv:1811.01959](https://arxiv.org/abs/1811.01959), [doi:10.1002/prop.201900057]( https://doi.org/10.1002/prop.201900057))
 
