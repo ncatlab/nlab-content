@@ -80,10 +80,10 @@ The following articles establish the existences of exact realization of the [[ga
 * [[Vincent Bouchard]], [[Ron Donagi]], _An SU(5) Heterotic Standard Model_, Phys. Lett. B633:783-791,2006 ([arXiv:hep-th/0512149](http://arxiv.org/abs/hep-th/0512149))
 
 
-A computer search through the "[[landscape of string theory vacua|landscape]]" of [[Calabi-Yau varieties]] showed severeal hundreds more such exact heterotic standard models (about one billionth of all CYs searched, and most of them arising as $SU(5)$-[[GUTs]])
+A computer search through the "[[landscape of string theory vacua|landscape]]" of [[Calabi-Yau varieties]] showed several hundreds more such exact heterotic standard models (about one billionth of all CYs searched, and most of them arising as $SU(5)$-[[GUTs]])
 
 
-* [[Lara Anderson]], [[Yang-Hui He]], [[Andre Lukas]], _Heterotic Compactification, An Algorithmic Approach_,  	JHEP 0707:049, 2007 ([arXiv:hep-th/0702210](https://arxiv.org/abs/hep-th/0702210))
+* [[Lara Anderson]], [[Yang-Hui He]], [[Andre Lukas]], _Heterotic Compactification, An Algorithmic Approach_, JHEP 0707:049, 2007 ([arXiv:hep-th/0702210](https://arxiv.org/abs/hep-th/0702210))
 
 * [[Lara Anderson]], James Gray, [[Andre Lukas]], [[Eran Palti]], _Two Hundred Heterotic Standard Models on Smooth Calabi-Yau Threefolds_ ([arXiv:1106.4804](http://arxiv.org/abs/1106.4804))
 
