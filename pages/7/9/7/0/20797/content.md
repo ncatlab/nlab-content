@@ -25,7 +25,7 @@ For transversal [[D2-D4-brane bound states]] (with an eye towards [[AdS/QCD]]):
 
 ### As defects in D6/D8 realizing $AdS_3/CFT_2$
 
-[[black brane|black]]$\;$[[D6-D8-brane bound states]] in [[massive type IIA string theory]], with [[defect QFT|defect]] [[D2-D4-brane bound states]] inside them realizing [[AdS3-CFT2]] "inside" [[AdS7-CFT6]]:
+On [[black brane|black]]$\;$[[D6-D8-brane bound states]] in [[massive type IIA string theory]], with [[defect QFT|defect]] [[D2-D4-brane bound states]] inside them realizing [[AdS3-CFT2]] "inside" [[AdS7-CFT6]]:
 
 * Giuseppe Dibitetto, Nicolò Petri, _6d surface defects from massive type IIA_, JHEP 01 (2018) 039 ([arxiv:1707.06154](https://arxiv.org/abs/1707.06154))
 
@@ -56,3 +56,5 @@ The lift of [[Dp-D(p+2)-brane bound states]] in [[string theory]] to [[M2-M5-bra
 
 [[!redirects D2-D4-brane bound states]]
 
+[[!redirects D2-D4 brane bound state]]
+[[!redirects D2-D4 brane bound states]]
