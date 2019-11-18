@@ -149,20 +149,25 @@ On a [[spin-manifold]] [[8-manifold|of dimension 8]] a choice of topological [[S
 
 * [[Savdeep Sethi]], [[Cumrun Vafa]], [[Edward Witten]], _Constraints on Low-Dimensional String Compactifications_, Nucl. Phys. B480: 213-224, 1996 ([arXiv:hep-th/9606122](https://arxiv.org/abs/hep-th/9606122))
 
+### In terms of $G$-structure
+
+Discussion in terms of [[G-structures]]:
 
 * {#CondeescuMicuPalti14} Cezar Condeescu, [[Andrei Micu]], [[Eran Palti]], _M-theory Compactifications to Three Dimensions with M2-brane Potentials_, JHEP 04 (2014) 026 ([arXiv:1311.5901](https://arxiv.org/abs/1311.5901))
 
-* Daniël Prins, [[Dimitrios Tsimpis]], _IIA supergravity and M-theory on manifolds with SU(4) structure_, Phys. Rev. D 89.064030 ([arXiv:1312.1692](https://arxiv.org/abs/1312.1692))
+* Daniël Prins, [[Dimitrios Tsimpis]], _IIA supergravity and M-theory on manifolds with $SU(4)$ structure_, Phys. Rev. D 89.064030 ([arXiv:1312.1692](https://arxiv.org/abs/1312.1692))
 
-* [[Mariana Graña]], C. S. Shahbazi, [[Marco Zambon]], _$Spin(7)$-manifolds in compactifications to four dimensions_, JHEP 11 (2014) 046 ([arXiv:1405.3698](http://arxiv.org/abs/1405.3698))
-
-* Elena Mirela Babalic, [[Calin Lazaroiu]], _Foliated eight-manifolds for M-theory compactification_, JHEP 01 (2015) 140 ([arXiv:1411.3148](https://arxiv.org/abs/1411.3148))
+* [[Elena Babalic]], [[Calin Lazaroiu]], _Foliated eight-manifolds for M-theory compactification_, JHEP 01 (2015) 140 ([arXiv:1411.3148](https://arxiv.org/abs/1411.3148))
 
 * C. S. Shahbazi, _M-theory on non-Kähler manifolds_, JHEP 09 (2015) 178 ([arXiv:1503.00733](https://arxiv.org/abs/1503.00733))
 
-* Elena Mirela Babalic, [[Calin Lazaroiu]], _The landscape of G-structures in eight-manifold compactifications of M-theory_, JHEP 11 (2015) 007 ([arXiv:1505.02270](https://arxiv.org/abs/1505.02270))
+* [[Elena Babalic]], [[Calin Lazaroiu]], _Singular foliations for M-theory compactification_, JHEP 03 (2015) 116 ([arXiv:1411.3497](https://arxiv.org/abs/1411.3497))
 
-* Elena Mirela Babalic, [[Calin Lazaroiu]], _Internal circle uplifts, transversality and stratified G-structures_, JHEP 11 (2015) 174 ([arXiv:1505.05238](https://arxiv.org/abs/1505.05238))
+* [[Elena Babalic]], [[Calin Lazaroiu]], _The landscape of $G$-structures in eight-manifold compactifications of M-theory_, JHEP 11 (2015) 007 ([arXiv:1505.02270](https://arxiv.org/abs/1505.02270))
+
+* [[Elena Babalic]], [[Calin Lazaroiu]], _Internal circle uplifts, transversality and stratified $G$-structures_, JHEP 11 (2015) 174 ([arXiv:1505.05238](https://arxiv.org/abs/1505.05238))
+
+
 
 ### With $Spin(7)$-structure
   {#ReferencesWithSpin7Structure}
@@ -205,6 +210,11 @@ Discussion of [[KK-compactification]] on 8-dimensional [[Spin(7)-manifolds]] (se
 * [[Andreas Braun]], Sakura Schaefer-Nameki, _$Spin(7)$-Manifolds as Generalized Connected Sums and 3d $N=1$ Theories_, JHEP 06 (2018) 103 ([arXiv:1803.10755](https://arxiv.org/abs/1803.10755))
 
   (generalization of [[compact twisted connected sum G2-manifolds]])
+
+See also 
+
+* [[Mariana Graña]], C. S. Shahbazi, [[Marco Zambon]], _$Spin(7)$-manifolds in compactifications to four dimensions_, JHEP 11 (2014) 046 ([arXiv:1405.3698](http://arxiv.org/abs/1405.3698))
+
 
 ### With $Sp(2)\cdot Sp(1)$-structure
 
