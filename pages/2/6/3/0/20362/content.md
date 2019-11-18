@@ -55,13 +55,16 @@ for the relation to [[giant gravitons]]: ([Camino-Ramallo 01](#CaminoRamallo01))
 
 * [[George Papadopoulos]], [[Dimitrios Tsimpis]], _The holonomy of the supercovariant connection and Killing spinors_, JHEP 0307:018, 2003 ([arXiv:hep-th/0306117](https://arxiv.org/abs/hep-th/0306117))
 
+* Giuseppe Dibitetto, Nicolò Petri, _BPS objects in $D=7$ supergravity and their M-theory origin_, JHEP 12 (2017) 041 ([arxiv:1707.06152](https://arxiv.org/abs/1707.06152))
+
+
 * {#Petri18} Nicolò Petri, slide 14 of _Surface defects in massive IIA_, talk at [Recent Trends in String Theory and Related Topics](http://physics.ipm.ac.ir/conferences/stringtheory3/) 2018 ([pdf](http://physics.ipm.ac.ir/conferences/stringtheory3/note/N.Petri.pdf))
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 4 of _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ ([arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
 
 * Jay Armas, Vasilis Niarchos, Niels A. Obers, Section 2 of _Thermal transitions of metastable M-branes_ ([arXiv:1904.13283](https://arxiv.org/abs/1904.13283))
 
-Further [[bound states]] of M2/[[M5-branes]] to [[giant gravitons]]:
+Further [[bound states]] of [[M2-branes]]/[[M5-branes]] to [[giant gravitons]]:
 
 * {#CaminoRamallo01} J. M. Camino, A. V. Ramallo, _M-Theory Giant Gravitons with C field_, Phys.Lett.B525:337-346,2002 ([arXiv:hep-th/0110096](https://arxiv.org/abs/hep-th/0110096))
 
