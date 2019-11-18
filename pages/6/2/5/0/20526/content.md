@@ -95,7 +95,7 @@ The terminology originates with
 
 Comprehensive review is in:
 
-* Eran Palti, _The Swampland: Introduction and Review_, lecture notes ([arXiv:1903.06239](https://arxiv.org/abs/1903.06239))
+* [[Eran Palti]], _The Swampland: Introduction and Review_, lecture notes ([arXiv:1903.06239](https://arxiv.org/abs/1903.06239))
 
 Further discussion includes
 
