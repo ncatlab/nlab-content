@@ -17,7 +17,14 @@ The special case of [[Dp-D(p+2)-brane bound states]] for [[D1-brane|D1]]-[[D3-br
 
 For more see the references at _[[Dp-D(p+2)-brane bound state]]_:
 
-### General
+### Parallel intersection
+
+* Gianluca Grignani, Troels Harmark, Andrea Marini, Marta Orselli, _Thermal DBI action for the D3-brane at weak and strong coupling_, JHEP 03 (2014) 114 ([arxiv:1311.3834](https://arxiv.org/abs/1311.3834))
+
+
+
+
+### Transversal intersection and monopoles
 
 Identification with [[Yang-Mills monopoles]]:
 
