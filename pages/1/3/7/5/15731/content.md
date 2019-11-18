@@ -90,7 +90,7 @@ Lecture notes for 1-loop vacuum amplitudes for [[strings]] (vacuum [[string scat
 
 * {#Edelstein13} [[José Edelstein]], _Lecture 8: 1-loop closed string vacuum amplitude_, 2013 ([pdf](http://www-fp.usc.es/~edels/Strings/Lect8Str.pdf))
 
-* {#Palti} Eran Palti, _The IIA/B superstring one-loop vacuum amplitude_ ([pdf](http://www.thphys.uni-heidelberg.de/~palti/Stringcourse/problemset11.pdf))
+* {#Palti} [[Eran Palti]], _The IIA/B superstring one-loop vacuum amplitude_ ([pdf](http://www.thphys.uni-heidelberg.de/~palti/Stringcourse/problemset11.pdf))
 
 * {#Han89} Seung Kee Han, _Vanishing vacuum amplitude of four-dimensional heterotic string theory compactified on N=2 superconformal field theory_, Phys. Rev. D 39, 2322 &#8211; Published 15 April 1989 ([web](http://journals.aps.org/prd/abstract/10.1103/PhysRevD.39.2322))
 
