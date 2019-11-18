@@ -143,15 +143,14 @@ On a [[spin-manifold]] [[8-manifold|of dimension 8]] a choice of topological [[S
 
 * {#Witten95} [[Edward Witten]], _Strong Coupling and the Cosmological Constant_, Mod. Phys. Lett.A10:2153-2156, 1995 ([arXiv:hep-th/9506101](https://arxiv.org/abs/hep-th/9506101))
 
-  (on possible relation to the [[cosmological constant]])
+  (on possible relation to the [[cosmological constant]]: [[Witten's Dark Fantasy]])
 
 * [[Katrin Becker]], [[Melanie Becker]], _M-Theory on Eight-Manifolds_, Nucl. Phys. B477 (1996) 155-167 ([arXiv:hep-th/9605053](https://arxiv.org/abs/hep-th/9605053))
 
 * [[Savdeep Sethi]], [[Cumrun Vafa]], [[Edward Witten]], _Constraints on Low-Dimensional String Compactifications_, Nucl. Phys. B480: 213-224, 1996 ([arXiv:hep-th/9606122](https://arxiv.org/abs/hep-th/9606122))
 
-* {#GukovSparks02} [[Sergei Gukov]], [[James Sparks]], _M-Theory on $Spin(7)$ Manifolds_, Nucl. Phys. B625 (2002) 3-69 ([arXiv:hep-th/0109025](https://arxiv.org/abs/hep-th/0109025))
 
-* {#CondeescuMicuPalti14} Cezar Condeescu, Andrei Micu, Eran Palti, _M-theory Compactifications to Three Dimensions with M2-brane Potentials_, JHEP 04 (2014) 026 ([arXiv:1311.5901](https://arxiv.org/abs/1311.5901))
+* {#CondeescuMicuPalti14} Cezar Condeescu, [[Andrei Micu]], [[Eran Palti]], _M-theory Compactifications to Three Dimensions with M2-brane Potentials_, JHEP 04 (2014) 026 ([arXiv:1311.5901](https://arxiv.org/abs/1311.5901))
 
 * Daniël Prins, [[Dimitrios Tsimpis]], _IIA supergravity and M-theory on manifolds with SU(4) structure_, Phys. Rev. D 89.064030 ([arXiv:1312.1692](https://arxiv.org/abs/1312.1692))
 
@@ -176,6 +175,9 @@ Discussion of [[KK-compactification]] on 8-dimensional [[Spin(7)-manifolds]] (se
 
 * [[Ralph Blumenhagen]], [[Volker Braun]], _Superconformal Field Theories for Compact Manifolds with Spin(7) Holonomy_, JHEP 0112:013, 2001 ([arXiv:hep-th/0111048](https://arxiv.org/abs/hep-th/0111048))
 
+
+* {#GukovSparks02} [[Sergei Gukov]], [[James Sparks]], _M-Theory on $Spin(7)$ Manifolds_, Nucl. Phys. B625 (2002) 3-69 ([arXiv:hep-th/0109025](https://arxiv.org/abs/hep-th/0109025))
+
 * [[Sergei Gukov]], James Sparks, [[David Tong]], _Conifold Transitions and Five-Brane Condensation in M-Theory on $Spin(7)$ Manifolds_, Class. Quant. Grav.20: 665-706, 2003 ([arXiv:hep-th/0207244](https://arxiv.org/abs/hep-th/0207244))
 
 * [[Melanie Becker]], Dragos Constantin, [[Sylvester James Gates Jr.]], William D. Linch III, Willie Merrell, J. Phillips, _M-theory on $Spin(7)$ Manifolds, Fluxes and 3D, $\mathcal{N}=1\,$ Supergravity_, Nucl. Phys. B683 (2004) 67-104 ([arXiv:hep-th/0312040](https://arxiv.org/abs/hep-th/0312040))
@@ -192,9 +194,9 @@ Discussion of [[KK-compactification]] on 8-dimensional [[Spin(7)-manifolds]] (se
 
 * Thomas Bruun Madsen, _$Spin(7)$-manifolds with three-torus symmetry_, J. Geom. Phys. 61: 2285-2292, 2011 ([arXiv:1104.3089](https://arxiv.org/abs/1104.3089))
 
-* Federico Bonetti, [[Thomas Grimm]], Tom G. Pugh, _Non-Supersymmetric F-Theory Compactifications on $Spin(7)$ Manifolds_, JHEP 01 (2014) 112 ([arXiv:1307.5858](https://arxiv.org/abs/1307.5858))
+* [[Federico Bonetti]], [[Thomas Grimm]], [[Tom Pugh]], _Non-Supersymmetric F-Theory Compactifications on $Spin(7)$ Manifolds_, JHEP 01 (2014) 112 ([arXiv:1307.5858](https://arxiv.org/abs/1307.5858))
 
-* Federico Bonetti, [[Thomas Grimm]], Eran Palti, Tom G. Pugh, _F-Theory on $Spin(7)$ Manifolds: Weak-Coupling Limit_, JHEP02(2014)076 ([arXiv:1309.2287](https://arxiv.org/abs/1309.2287))
+* [[Federico Bonetti]], [[Thomas Grimm]], [[Eran Palti]], [[Tom Pugh]], _F-Theory on $Spin(7)$ Manifolds: Weak-Coupling Limit_, JHEP02(2014)076 ([arXiv:1309.2287](https://arxiv.org/abs/1309.2287))
 
 
 * {#Pugh} [[Tom Pugh]], _M-theory on $Spin(7)$-manifolds and their F-theory duals_ ([[PughMTheoryOnSpin7.pdf:file]])
@@ -216,13 +218,15 @@ See also
 
 * {#FSS19b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 4 of _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ ([arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
 
-### Phenomenology and cosmological constant
+### Witten's Dark Fantasy
 
 For more on the following see at _[[Witten's Dark Fantasy]]_:
 
 An argument for [[non-perturbative effect|non-perturbative]] non-[[supersymmetry|supersymmetric]] 4d [[string phenomenology]] with fundamentally vanishing [[cosmological constant]], based on 3d [[M-theory on 8-manifolds]] decompactified at strong coupling to 4d via [[duality between M-theory and type IIA string theory]] (recall the [[super 2-brane in 4d]]):
 
-* {#Witten00} [[Edward Witten]], _The Cosmological Constant From The Viewpoint Of String Theory_, lecture at [DM2000](http://inspirehep.net/record/972507) ([arXiv:hep-ph/0002297](https://arxiv.org/abs/hep-ph/0002297))
+
+* {#Witten00} [[Edward Witten]], p. 7 of: _The Cosmological Constant From The Viewpoint Of String Theory_, lecture at [DM2000](http://inspirehep.net/record/972507), in: David Kline (ed.) _Sources and detection of dark matter and dark energy in the universe 2000_, Springer 2001. 27-36. ([arXiv:hep-ph/0002297](https://arxiv.org/abs/hep-ph/0002297), [doi:10.1007/978-3-662-04587-9](https://link.springer.com/book/10.1007/978-3-662-04587-9))
+
 
   (see p. 7)
 
@@ -237,7 +241,7 @@ The realization of this scenario in [[F-theory on Spin(7)-manifolds]]:
 
 * {#BonettiGrimmPugh13a} [[Federico Bonetti]], [[Thomas Grimm]], [[Tom Pugh]], _Non-Supersymmetric F-Theory Compactifications on $Spin(7)$ Manifolds_, JHEP 01 (2014) 112 ([arXiv:1307.5858](https://arxiv.org/abs/1307.5858))
 
-* {#BonettiGrimmPugh13b} [[Federico Bonetti]], [[Thomas Grimm]], Eran Palti, [[Tom Pugh]], _F-Theory on $Spin(7)$ Manifolds: Weak-Coupling Limit_, JHEP 02 (2014) 076 ([arXiv:1309.2287](https://arxiv.org/abs/1309.2287))
+* {#BonettiGrimmPugh13b} [[Federico Bonetti]], [[Thomas Grimm]], [[Eran Palti]], [[Tom Pugh]], _F-Theory on $Spin(7)$ Manifolds: Weak-Coupling Limit_, JHEP 02 (2014) 076 ([arXiv:1309.2287](https://arxiv.org/abs/1309.2287))
 
 * [[Jonathan Heckman]], Craig Lawrie, Ling Lin, Gianluca Zoccarato, _F-theory and Dark Energy_, Fortschritte der Physik  ([arXiv:1811.01959](https://arxiv.org/abs/1811.01959), [doi:10.1002/prop.201900057]( https://doi.org/10.1002/prop.201900057))
 
