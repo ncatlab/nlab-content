@@ -68,8 +68,11 @@ The concept goes back to
 
 * {#Vafa96} [[Cumrun Vafa]], Section 4.3 of: _Evidence for F-Theory_, Nucl. Phys. B469:403-418, 1996 ([arxiv:hep-th/9602022](https://arxiv.org/abs/hep-th/9602022))
 
-which already mentions the relation to [[Witten's Dark Fantasy]], then developed in
 
+### Witten's Dark Fantasy
+
+
+Already [Vafa 96, Section 4.3](#Vafa96) mentions the relation to [[Witten's Dark Fantasy]], then developed in
 
 * {#BonettiGrimmPugh13} [[Federico Bonetti]], [[Thomas Grimm]], [[Tom Pugh]], _Non-Supersymmetric F-Theory Compactifications on $Spin(7)$ Manifolds_, JHEP 01 (2014) 112 ([arXiv:1307.5858](https://arxiv.org/abs/1307.5858))
 
@@ -82,15 +85,18 @@ which already mentions the relation to [[Witten's Dark Fantasy]], then developed
 
 See also
 
-* Tom Pugh, _M-theory on $Spin(7)$-manifold duals and their F-theory duals_ (<a href="http://indico.hep.manchester.ac.uk/getFile.py/access?contribId=282&sessionId=7&resId=0&materialId=slides&confId=4221">pdf</a>)
+* [[Tom Pugh]], _M-theory on $Spin(7)$-manifold duals and their F-theory duals_ (<a href="http://indico.hep.manchester.ac.uk/getFile.py/access?contribId=282&sessionId=7&resId=0&materialId=slides&confId=4221">pdf</a>)
 
-* Federico Bonetti, Thomas W. Grimm, Eran Palti, Tom G. Pugh, _F-Theory on Spin(7) Manifolds: Weak-Coupling Limit_, J. High Energ. Phys. (2014) 2014: 76 ([arXiv:1309.2287](https://arxiv.org/abs/1309.2287))
+* [[Federico Bonetti]], [[Thomas Grimm]], [[Eran Palti]], [[Tom Pugh]], _F-Theory on Spin(7) Manifolds: Weak-Coupling Limit_, J. High Energ. Phys. (2014) 2014: 76 ([arXiv:1309.2287](https://arxiv.org/abs/1309.2287))
 
+### General
 
 * [[Mariana Graña]], C. S. Shahbazi, [[Marco Zambon]], _$Spin(7)$-manifolds in compactifications to four dimensions_, JHEP11(2014)046 ([arXiv:1405.3698](http://arxiv.org/abs/1405.3698))
 
 * [[Andreas Braun]], Sakura Schaefer-Nameki, _Spin(7)-Manifolds as Generalized Connected Sums and 3d $N=1$ Theories_, JHEP06(2018)103 ([arXiv:1803.10755](https://arxiv.org/abs/1803.10755))
 
   (generalization of [[compact twisted connected sum G2-manifolds]])
+
+
 
 
