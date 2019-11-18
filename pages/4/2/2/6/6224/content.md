@@ -45,7 +45,7 @@ $$ 1 \to G_3/G_2 \to G/G_2 \to G/G_2 \to 1$$
 $$ \dots $$
 $$ 1 \to G/G_{n-1} \to G/G_{n-1} \to 1 \to 1$$
 and therefore a sequence of [[normal subgroups]]
-$$ 1 = G_0 \trianglelefteq G_1 \trianglelefteq G_2 \trianglelefteq \dots \trianglelefteq G_{n-1} \trianglelefteq G_0 = G $$
+$$ 1 = G_0 \trianglelefteq G_1 \trianglelefteq G_2 \trianglelefteq \dots \trianglelefteq G_{n-1} \trianglelefteq G_n = G $$
 such that each $G_i/G_{i-1}$ is central in $G/G_{i-1}$.
 This is the "usual" definition of central series.
 
