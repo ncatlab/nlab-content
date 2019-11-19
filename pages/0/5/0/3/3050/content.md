@@ -450,9 +450,11 @@ Review and further developments include
 
 * {#JanelidzeTholen94} [[George Janelidze]], [[Walter Tholen]], _Facets of Descent I_, Applied Categorical Structures 1994, Volume 2, Issue 3, pp 245-281
 
-* {#JanelidzeTholen97} [[George Janelidze]], [[Walter Tholen]], _Facets of Descent II_, Applied Categorical Structures September 1997, Volume 5, Issue 3, pp 229-248
+* {#JanelidzeTholen97} [[George Janelidze]], [[Walter Tholen]], _Facets of Descent II_, Applied Categorical Structures __5__:3 (1997) 229-248
 
-* [[Francis Borceux]], S. Caenepeel, [[George Janelidze]], _Monadic approach to Galois descent and cohomology_ ([arXiv:0812.1674](http://arxiv.org/abs/0812.1674))
+* Bachuki Mesablishvili, _Monads of effective descent type and comonadicity_, Theory and Applications of Categories __16__:1 (2006) 1-45, [link](http://tac.mta.ca/tac/volumes/16/1/16-01abs.html)
+
+* [[Francis Borceux]], S. Caenepeel, [[George Janelidze]], _Monadic approach to Galois descent and cohomology_, [arXiv:0812.1674](http://arxiv.org/abs/0812.1674)
 
 Discussion in [[homotopy theory]] for [[(infinity,1)-monads]] is in
 
