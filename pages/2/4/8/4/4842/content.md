@@ -72,13 +72,13 @@ We discuss the relation between Vassiliev invariants and the [[Euler characteris
 
 For $n, q \in \mathbb{N}$ and $q \geq 1$, write 
 
-1. $Conf_n\big( \mathbb{R}^{q+2} \big)$ for the [[configuration space of points|configuration space of n ordered points]] in [[Euclidean space]] $mathbb{R}^{q+2}$;
+1. $\underset{{}^{\{1,\cdots, n\}}}{Conf}\big( \mathbb{R}^{q+2} \big)$ for the [[configuration space of points|configuration space of n ordered points]] in [[Euclidean space]] $mathbb{R}^{q+2}$;
 
-1. $\Omega Conf_n\big( \mathbb{R}^{q+2} \big)$ for the corresponding [[based loop space]] (for any choice of base point);
+1. $\Omega \underset{{}^{\{1,\cdots, n\}}}{Conf}\big( \mathbb{R}^{q+2} \big)$ for the corresponding [[based loop space]] (for any choice of base point);
 
-1. $H_\bullet\Big(\Omega Conf_n\big( \mathbb{R}^{q+2} \big), \mathbb{C} \Big)$ for the [[ordinary homology]] of this loop space, with [[coefficients]] in the [[complex numbers]];
+1. $H_\bullet\Big(\Omega \underset{{}^{\{1,\cdots, n\}}}{Conf}\big( \mathbb{R}^{q+2} \big), \mathbb{C} \Big)$ for the [[ordinary homology]] of this loop space, with [[coefficients]] in the [[complex numbers]];
 
-1. $\chi H_\bullet\Big(\Omega Conf_n\big( \mathbb{R}^{q+2} \big), \mathbb{C} \Big)$ for the [[Euler characteristic]]-series of the homology 
+1. $\chi H_\bullet\Big(\Omega \underset{{}^{\{1,\cdots, n\}}}{Conf}\big( \mathbb{R}^{q+2} \big), \mathbb{C} \Big)$ for the [[Euler characteristic]]-series of the homology 
 
 
 Write also
@@ -102,7 +102,7 @@ Then:
 The [[Euler characteristic]]-series (...) of the homology of the loop spaces of configuration spaces 
 
 $$
-  \chi H_\bullet\Big(\Omega Conf_n\big( \mathbb{R}^{q+2} \big), \mathbb{C} \Big)
+  \chi H_\bullet\Big(\Omega \underset{{}^{\{1,\cdots, n\}}}{Conf}\big( \mathbb{R}^{q+2} \big), \mathbb{C} \Big)
   \;=\;
   \Big[
   \big(
@@ -126,7 +126,7 @@ and is related to the complex [[dimensions]] of spaces of Vassiliev invariants a
   \chi 
   H_\bullet
   \Big(
-    \Omega Conf_n\big( \mathbb{R}^{3} \big), \mathbb{C} 
+    \Omega \underset{{}^{\{1,\cdots, n\}}}{Conf}\big( \mathbb{R}^{3} \big), \mathbb{C} 
   \Big)
   \;=\;
   \underset{k \in \mathbb{N}}{\sum}
