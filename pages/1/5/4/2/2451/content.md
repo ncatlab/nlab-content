@@ -72,7 +72,7 @@ The [[fundamental group]] of the free groupoid of a graph with a single vertex i
 
 * Philip Higgins, _Categories and groupoids_, Van Nostrand Reinhold, 1971; Reprints in Theory and Applications of Categories, No. 7 (2005) pp 1-195 ([pdf available] (http://www.tac.mta.ca/tac/reprints/articles/7/tr7abs.html))
 
-* [[Ronald Brown|Ronnie Brown]] _Topology and Groupoids_,  ([details here] (http://pages.bangor.ac.uk/~mas010/topgpds.html))
+* [[Ronald Brown|Ronnie Brown]], _Topology and Groupoids_,  ([details here] (http://pages.bangor.ac.uk/~mas010/topgpds.html))
 
 * Omar Antolin Camarena and [[Ronald Brown|Ronnie Brown]], "Corrigendum to "Groupoids, the Phragmen-Brouwer Property, and the Jordan Curve Theorem", J. Homotopy and Related Structures 1 (2006) 175-183." J. Homotopy and Related Structures ([pdf] (http://pages.bangor.ac.uk/~mas010/pdffiles/brouwer-cor-fin.pdf))
 
