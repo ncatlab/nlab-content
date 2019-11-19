@@ -25,6 +25,8 @@ A [[group]] which is not an [[abelian group]].
 
 * [[nonabelian cohomology]]
 
+* [[non-abelian T-duality]]
+
 [[!redirects non-abelian groups]]
 
 [[!redirects nonabelian group]]
