@@ -114,7 +114,14 @@ On [[black brane|black]]$\;$[[D6-D8-brane bound states]] in [[massive type IIA s
 
 ### In geometric engineering of monopoles
 
-For transversal [[D6-D8-brane bound states]] with an eye towards describing [[Yang-Mills monopoles]] via [[AdS/QCD]]:
+For transversal [[D6-D8-brane bound states]] with an eye towards describing [[Yang-Mills monopoles]]:
+
+
+with an emphasis of [[half NS5-brane]] in [[type I' string theory]]:
+
+* {#HananyZaffaroni99} [[Amihay Hanany]], [[Alberto Zaffaroni]], _Monopoles in String Theory_, JHEP 9912 (1999) 014 ([arxiv:hep-th/9911113](https://arxiv.org/abs/hep-th/9911113))
+
+with an emphasis on [[holographic QCD]]:
 
 * {#HLPY08} Deog Ki Hong, Ki-Myeong Lee, Cheonsoo Park, Ho-Ung Yee, Section V of: _Holographic Monopole Catalysis of Baryon Decay_, JHEP 0808:018, 2008 ([arXiv:0804.1326](https://arxiv.org/abs/0804.1326))
 
