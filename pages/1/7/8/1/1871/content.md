@@ -153,7 +153,7 @@ Modern reviews of the basics
 
 * {#Uhlenbeck12} [[Karen Uhlenbeck]], notes by [[Laura Fredrickson]], _Equations of Gauge Theory_, lecture at Temple University, 2012 ([pdf](https://web.stanford.edu/~ljfred4/Attachments/TempleLectures.pdf), [[UhlenbeckGaugeTheory.pdf:file]])
 
-* [[Simon Donaldson]],  _Gauge Theory: Mathematical Applications_, Encyclopedia of Mathematical Physics, Academic Press, Pages 468-481, 2006, doi:[10.1016/B0-12-512666-2/00075-4](https://doi.org/10.1016/B0-12-512666-2/00075-4) ([author pdf](http://wwwf.imperial.ac.uk/~skdona/EMP.PDF), [[DonaldsonGaugeTheory.pdf:file]])
+* {#Donaldson06} [[Simon Donaldson]], _Gauge Theory: Mathematical Applications_, Encyclopedia of Mathematical Physics, Academic Press, Pages 468-481, 2006  ([doi:10.1016/B0-12-512666-2/00075-4](https://doi.org/10.1016/B0-12-512666-2/00075-4), [author pdf](http://wwwf.imperial.ac.uk/~skdona/EMP.PDF), [[DonaldsonGaugeTheory.pdf:file]])
 
 
 See also the references at _[[QCD]]_, _[[gauge theory]]_, _[[Yang-Mills monopole]]_, _[[Yang-Mills instanton]]_ and at _[[super Yang-Mills theory]]_.
