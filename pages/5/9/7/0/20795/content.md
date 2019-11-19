@@ -118,7 +118,7 @@ For transversal [[D6-D8-brane bound states]] (with an eye towards [[AdS/QCD]]):
 * {#HLPY08} Deog Ki Hong, Ki-Myeong Lee, Cheonsoo Park, Ho-Ung Yee, Section V of: _Holographic Monopole Catalysis of Baryon Decay_, JHEP 0808:018, 2008 ([https:arXiv:0804.1326](https://arxiv.org/abs/0804.1326))
 
 
-With emphasis on [[half NS5-branes]] in [[type I' string theory]]:
+and as transversal [[D6-D8-brane bound states]] on a [[half NS5-brane]] in [[type I' string theory]]:
 
 * {#HananyZaffaroni99} [[Amihay Hanany]], [[Alberto Zaffaroni]], _Monopoles in String Theory_, JHEP 9912 (1999) 014 ([arxiv:hep-th/9911113](https://arxiv.org/abs/hep-th/9911113))
 
