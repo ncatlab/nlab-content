@@ -42,12 +42,13 @@ See at _[[asymptotic freedom]]_.
 See at _[[QCD trace anomaly]]_.
 
 ### Phase diagram
+ {#PhaseDiagram}
 
-QCD has an intricate [[phase diagram]] (e.g. [Hands 01](#Hands01), [Schaefer 05](#Schaefer05)) including
+[[QCD]] has an intricate [[phase diagram]] (e.g. [Shuryak 96](#Shuryak96) [Hands 01](#Hands01), [Schaefer 05](#Schaefer05)), phases including
 
-* [[quark-gluon plasma]]
+* [[quark-gluon plasma]],
 
-* [[colour superconductivity]]
+* [[colour superconductivity]],
 
 * ...
 
@@ -129,10 +130,11 @@ See also
 * Christian Drischler, Wick Haxton, Kenneth McElvain, Emanuele Mereghetti, Amy Nicholson, Pavlos Vranas, André Walker-Loud, _Towards grounding nuclear physics in QCD_ ([arxiv:1910.07961](https://arxiv.org/abs/1910.07961))
 
 ### Phase diagram
+ {#Phases}
 
-On the [[phase diagram]] of QCD
+On the [[phase diagram]] of [[QCD]]:
 
-* [[Edward Shuryak]], _The Phases of QCD_ ([arXiv:hep-ph/9609249](https://arxiv.org/abs/hep-ph/9609249))
+* {#Shuryak96} [[Edward Shuryak]], _The Phases of QCD_ ([arXiv:hep-ph/9609249](https://arxiv.org/abs/hep-ph/9609249))
 
 * {#Hands01} Simon Hands, _The Phase Diagram of QCD_, Contemp. Phys. 42:209-225, 2001 ([arXiv:physics/0105022](https://arxiv.org/abs/physics/0105022))
 
