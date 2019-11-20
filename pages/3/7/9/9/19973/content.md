@@ -113,6 +113,9 @@ See also
 * Wikipedia, <a href="https://en.wikipedia.org/wiki/Flavour_(particle_physics)">Flavour (particle physcs)</a>
 
 
+* Fernando Abreu de Souza, Gero von Gersdorff, _A Random Clockwork of Flavor_ ([arxiv:1911.08476](https://arxiv.org/abs/1911.08476))
+
+
 
 ### Flavour anomalies
 
