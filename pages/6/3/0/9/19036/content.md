@@ -1,6 +1,14 @@
 
 * [webpage](http://www.weizmann.ac.il/particle/content/micha-berkooz)
 
+### Selected writings
+
+
+Discussion of [[chord diagrams]] encoding [[SYK model]] [[correlators]] as representing [[hyperbolic space|hyperbolic]]/[[AdS-CFT|holographic content]]:
+
+* [[Micha Berkooz]], Mikhail Isachenkov, Vladimir Narovlansky, Genis Torrents, Section 5 of: _Towards a full solution of the large $N$ double-scaled SYK model_, JHEP 03 (2019) 079 ([arxiv:1811.02584](https://arxiv.org/abs/1811.02584))
+
+
 ## Related $n$Lab entries
 
 * [[intersecting D-brane model]]
