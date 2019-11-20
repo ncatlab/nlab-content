@@ -112,6 +112,8 @@ On [[D6-D8-brane bound states]] in [[massive type IIA string theory]]:
 * [[Harvendra Singh]], _Note on (D6,D8) Bound State, Massive Duality and Non-commutativity_, Nucl. Phys. B661 (2003) 394-408 ([arXiv:hep-th/0212103](https://arxiv.org/abs/hep-th/0212103))
 
 
+* Fabio Apruzzi, Marco Fazzi, Dario Rosa, [[Alessandro Tomasiello]],  _All $AdS_7$ solutions of type II supergravity_, JHEP 04 (2014) 064 ([arxiv:1309.2949](https://arxiv.org/abs/1309.2949))
+
 ### As geometric engineering of flavor physics
  {#ReferencesAsGeometricEngineeringOfFlavorPhysics}
 
