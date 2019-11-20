@@ -59,9 +59,10 @@ Original articles:
 
 * [[Thierry Coquand]], [[Simon Huber]], [[Christian Sattler]] _Homotopy canonicity for cubical type theory_, 2019 [PDF](https://arxiv.org/pdf/1902.06572)
 
+* {#Bentzen2019} [[Bruno Bentzen]], _Naive cubical type theory_, 2019 ([pdf](https://arxiv.org/pdf/1911.05844.pdf))
+
 Discussion of implementation in the [[proof assistant]] [[Cubical Agda]]:
 
 * {#VMA19} [[homotopytypetheory:Andrea Vezzosi]], [[Anders Mörtberg]] and Andreas Abel, _Cubical Agda: A Dependently Typed Programming Language with Univalence and Higher Inductive Types_, 2019 ([pdf](http://www.cs.cmu.edu/~amoertbe/papers/cubicalagda.pdf))
-
 
 [[!redirects cubical type theories]]
