@@ -106,6 +106,11 @@ More general discussion is in
 
 * Tigran Tchrakian, _Dirac-Yang monopoles and their regular counterparts_ ([arXiv:hep-th/0612249](http://arxiv.org/abs/hep-th/0612249))
 
+See also
+
+* Frederik Nørfjand, Nikolaj Thomas Zinner, _Non-existence theorems and solutions of the Wu-Yang monopole equation_ ([arxiv:1911.08140](https://arxiv.org/abs/1911.08140))
+
+
 ### In string theory
 
 Appearance of Yang monopoles in [[string theory]] goes back to 
