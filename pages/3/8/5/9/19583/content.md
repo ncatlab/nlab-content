@@ -46,6 +46,8 @@ $$
 
 ## Related concepts
 
+* [[Jackiw-Teitelboim gravity]]
+
 * [[AdS-CFT in condensed matter physics]]
 
 * [[AdS-CFT correspondence]]
