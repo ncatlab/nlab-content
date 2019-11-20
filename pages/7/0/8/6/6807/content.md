@@ -70,6 +70,8 @@ A similar assessment has been given by [[Greg Moore]], from pages 43-44 of his _
 
 * [[membrane matrix model]]
 
+* [[SYK model]]
+
 * [[Myers effect]]
 
 ## References
@@ -206,6 +208,13 @@ Relation to [[lattice gauge theory]] and numerical tests of [[AdS/CFT]]:
 
 
 * {#Hanada16} Masanori Hanada, _What lattice theorists can do for superstring/M-theory_,  International Journal of Modern Physics AVol. 31, No. 22, 1643006 (2016)  ([arXiv:1604.05421](https://arxiv.org/abs/1604.05421))
+
+### Holography
+
+On [[AdS/CFT]] in the form of $AdS_2/CFT_1$ with the [[BFSS matrix model]] on the CFT side and [[black hole in string theory|black hole-like solutions]] in [[type IIA supergravity]] on the AdS side:
+
+* [[Juan Maldacena]], Alexey Milekhin, _To gauge or not to gauge?_, JHEP 04 (2018) 084 ([arxiv:1802.00428](https://arxiv.org/abs/1802.00428))
+
 
 
 
