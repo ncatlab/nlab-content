@@ -66,6 +66,9 @@ Original articles include
 
 * [[Clay Cordova]], [[Daniel Jafferis]], _Complex Chern-Simons from M5-branes on the Squashed Three-Sphere_ ([arXiv:1305.2891](https://arxiv.org/abs/1305.2891))
 
+* Sungbong Chun, [[Sergei Gukov]], Sunghyuk Park, Nikita Sopenko, _3d-3d correspondence for mapping tori_ ([arxiv:1911.08456](https://arxiv.org/abs/1911.08456))
+
+
 Review is in
 
 * {#Dimofte14} [[Tudor Dimofte]], _3d Superconformal Theories from Three-Manifolds_, In: [[Jörg  Teschner]] (ed.), *Exact Results on $\mathcal{N} = 2$ Supersymmetric Gauge Theories*, Springer 2015 ([arXiv:1412.7129](https://arxiv.org/abs/1412.7129), [doi:10.1007/978-3-319-18769-3_11](https://doi.org/10.1007/978-3-319-18769-3_11))
