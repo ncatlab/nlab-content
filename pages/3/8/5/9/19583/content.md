@@ -93,5 +93,16 @@ Relation to [[black holes in string theory]] and [[random matrix theory]]:
 
 * Jordan S. Cotler, Guy Gur-Ari, Masanori Hanada, [[Joseph Polchinski]], Phil Saad, [[Stephen Shenker]], [[Douglas Stanford]], Alexandre Streicher, Masaki Tezuka, _Black Holes and Random Matrices_,  JHEP 1705:118, 2017 ([arXiv:1611.04650](https://arxiv.org/abs/1611.04650))
 
+Discussion of [[chord diagrams]] encoding [[SYK model]] [[correlators]] as representing [[hyperbolic space|hyperbolic]]/[[AdS-CFT|holographic content]]:
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/ChordDiagramHolographic.jpg" width="400">
+</div>
+
+* [[Micha Berkooz]], Mikhail Isachenkov, Vladimir Narovlansky, Genis Torrents, Section 5 of: _Towards a full solution of the large $N$ double-scaled SYK model_, JHEP 03 (2019) 079 ([arxiv:1811.02584](https://arxiv.org/abs/1811.02584))
+
+* Vladimir Narovlansky, Slide 23 (of 28) of: _Towards a Solution of Large $N$ Double-Scaled SYK_, 2019 ([[NarovlanskySYK19.pdf:file]])
+
+
 
 [[!redirects SYK model]]
