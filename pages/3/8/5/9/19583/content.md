@@ -36,12 +36,12 @@ From [Maldacena 18](#Maldacena18):
 ## Definition
  {#Definition}
 
-Let $\mathcal{J}_{ijkl}$ be [[random variables]] with [[expectation values]] $E[\mathcal{J}_{ijkl}]=0$ and $E[\mathcal{J}_{ijkl}^2]=\frac{6J^2}{N^3}$. 
+Let $\mathcal{J}_{i j k l}$ be [[random variables]] with [[expectation values]] $E[\mathcal{J}_{i j k l}]=0$ and $E[\mathcal{J}_{i j k l}^2]=\frac{6J^2}{N^3}$. 
 
-The [[Lagrangian density]] definign the SYK model is this:
+The [[Lagrangian density]] defining the SYK model is this:
 
 $$
-L = \frac{1}{2} \sum_{i=1}^N \chi_i \partial_t \chi_i - \frac{1}{4!} \sum_{i,j,k,l=1}^N \mathcal{J}_{ijkl} \chi_i \chi_j \chi_k \chi_l
+L = \frac{1}{2} \sum_{i=1}^N \chi_i \partial_t \chi_i - \frac{1}{4!} \sum_{i,j,k,l=1}^N \mathcal{J}_{i j k l} \chi_i \chi_j \chi_k \chi_l
 $$
 
 ## Related concepts
