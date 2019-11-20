@@ -75,11 +75,13 @@ On [[D6-D8-brane bound states]] as [[black brane]]-solutions in [[massive type I
 
 * [[Harvendra Singh]], _Note on (D6,D8) Bound State, Massive Duality and Non-commutativity_, Nucl. Phys. B661 (2003) 394-408 ([arXiv:hep-th/0212103](https://arxiv.org/abs/hep-th/0212103))
 
+* Fabio Apruzzi, Marco Fazzi, Dario Rosa, [[Alessandro Tomasiello]],  _All $AdS_7$ solutions of type II supergravity_, JHEP 04 (2014) 064 ([arxiv:1309.2949](https://arxiv.org/abs/1309.2949))
+
 In view of [[AdS/CFT]]:
 
 * Fabio Apruzzi, Giuseppe Dibitetto, Luigi Tizzano, _A new 6d fixed point from holography_, JHEP 11 (2016) 126 ([arxiv:1603.06576](https://arxiv.org/abs/1603.06576))
 
-* Nikolay Bobev, Giuseppe Dibitetto, Fridrik Freyr Gautason, Brecht Truijen, _Holography, Brane Intersections and Six-dimensional SCFTs_, JHEP 1702 (2017) 116 ([arxiv:1612.06324](https://arxiv.org/abs/1612.06324))
+* Nikolay Bobev, [[Giuseppe Dibitetto]], Fridrik Freyr Gautason, Brecht Truijen, _Holography, Brane Intersections and Six-dimensional SCFTs_, JHEP 1702 (2017) 116 ([arxiv:1612.06324](https://arxiv.org/abs/1612.06324))
 
 
 #### With D2/D4-defects realizing $AdS_3/CFT_2$
