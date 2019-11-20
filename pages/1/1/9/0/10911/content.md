@@ -90,6 +90,9 @@ There are claims that numerical computer simulations (as in [[lattice gauge theo
 
 * {#AHINT19} Toshihiro Aoki, Mitsuaki Hirasawa, Yuta Ito, Jun Nishimura, Asato Tsuchiya, _On the structure of the emergent 3d expanding space in the Lorentzian type IIB matrix model_ ([arXiv:1904.05914](https://arxiv.org/abs/1904.05914))
 
+* Kohta Hatakeyama, Akira Matsumoto, Jun Nishimura, Asato Tsuchiya, Atis Yosprakob, _The emergence of expanding space-time and intersecting D-branes from classical solutions in the Lorentzian type IIB matrix model_ ([arxiv:1911.08132](https://arxiv.org/abs/1911.08132))
+
+
 [[!redirects IIB matrix model]]
 
 [[!redirects IKKT model]]
