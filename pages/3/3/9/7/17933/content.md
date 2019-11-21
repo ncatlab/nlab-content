@@ -1,6 +1,6 @@
 
 
-The traditional story in the [[physics]] textbooks (copied endlessly from one textbook to the next, over generations) of $SU(2)$-[[instantons]] ([[BPTS instantons]]) tends to fail to highlight some key global points, without which the whole construction really collapses. The following text means to explain the correct description (using the mathematics of [[Cech cohomology]] cocycles via the [[clutching construction]] on the [[one-point compactification]] of [[Minkowski spacetime]]) but presented and phrased such that the [[folklore]] physics story becomes fully visible -- including its crucial fix.
+The traditional story in the [[physics]] textbooks (copied endlessly from one textbook to the next, over generations) of [[SU(2)]]-[[instantons]] ([[BPTS instantons]]) tends to fail to highlight some key global points, without which the whole construction really collapses. The following text means to explain the correct description (using the mathematics of [[Cech cohomology]] cocycles via the [[clutching construction]] on the [[one-point compactification]] of [[Minkowski spacetime]]) but presented and phrased such that the [[folklore]] physics story becomes fully visible -- including its crucial fix.
 
 $\,$
 
