@@ -30,6 +30,12 @@ On [[topological string theory]]:
 ## Selected writings
  {#SelectedWritings}
 
+On [[Landau-Ginzburg models]]:
+
+* {#VafaWarner89} [[Cumrun Vafa]], [[Nicholas Warner]], _Catastrophes and the Classification of Conformal Theories_, Phys.Lett. B218 (1989) 51 (<a href="https://doi.org/10.1016/0370-2693(89)90473-5">doi:10.1016/0370-2693(89)90473-5</a>)
+
+
+
 On [[D0-D4-brane bound states]]:
 
 * [[Cumrun Vafa]], _Instantons on D-branes_, Nucl. Phys. B463 (1996) 435-442 ([arXiv:hep-th/9512078](https://arxiv.org/abs/hep-th/9512078))
