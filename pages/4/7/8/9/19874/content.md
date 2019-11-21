@@ -167,6 +167,7 @@ within [[GUT]]-models and specifically within [[Pati-Salam models]]:
 
 * C. Hati, J. Kriewald, J. Orloff, A.M. Teixeira, _A nonunitary interpretation for a single vector leptoquark combined explanation to the B-decay anomalies_ ([arXiv:1907.05511](https://arxiv.org/abs/1907.05511))
 
+* Shyam Balaji, Michael A. Schmidt, _A unified $SU(4)$ theory for the $R_D^{(\ast)}$ and $R_K^{(\ast)}$ anomalies_ ([arXiv:1911.08873](https://arxiv.org/abs/1911.08873))
 
 
 and within [[Randall-Sundrum models]]
