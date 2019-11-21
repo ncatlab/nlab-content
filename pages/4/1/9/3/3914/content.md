@@ -613,7 +613,7 @@ The latter, on passing to [[homotopy groups]], are [[genera]] on manifolds with 
 
 For $E$ a [[multiplicative cohomology theory|multiplicative]] [[weakly periodic cohomology theory|weakly periodic]] [[complex orientable cohomology theory]] then $Spec E^0(B U\langle 6\rangle)$ is naturally equivalent to the space of [[cubical structure on a line bundle|cubical structures]] on the trivial line bundle over the [[formal group]] of $E$.
 
-In particular, [[homotopy classes]] of maps of [[E-infinity ring]] spectra $MU\angle 6\rangle \to E$ from the [[Thom spectrum]] to $E$, and hence universal $MU\langle 6\rangle$-[[orientation in generalized cohomology|orientations]] (see there) of $E$ are in natural bijection with these cubical structures.
+In particular, [[homotopy classes]] of maps of [[E-infinity ring]] spectra $MU\langle 6\rangle \to E$ from the [[Thom spectrum]] to $E$, and hence universal $MU\langle 6\rangle$-[[orientation in generalized cohomology|orientations]] (see there) of $E$ are in natural bijection with these cubical structures.
 
 See at _[[cubical structure]]_ for more details and references.
 This way for instance the [[string orientation of tmf]] has been constructed. See there for more.
@@ -656,7 +656,7 @@ Discussion in terms of [[Thom classes]]:
 
 * [[Manifold Atlas]], _[Orientation of manifolds in generalized cohomology theories](http://www.map.mpim-bonn.mpg.de/Orientation_of_manifolds_in_generalized_cohomology_theories)_
 
-A comprehensive account of the general abstract persepctive (with predecessors in [Ando-Hopkins-Rezk 10](#AndoHopkinsRezk10)) is in 
+A comprehensive account of the general abstract perspective (with predecessors in [Ando-Hopkins-Rezk 10](#AndoHopkinsRezk10)) is in 
 
 * {#ABGHR} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
  
