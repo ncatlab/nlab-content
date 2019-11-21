@@ -1,6 +1,8 @@
 
 $\tau$
 
+
+
 $$
   \begin{aligned}
     & 
@@ -74,7 +76,11 @@ $$
   \end{aligned}
 $$
 
+$\infty$
+
 $\ldots$
+
+$\subset$
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/NYUADInstitute.jpg" width="130"/>
