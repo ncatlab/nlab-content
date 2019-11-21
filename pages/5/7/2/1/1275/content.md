@@ -56,17 +56,20 @@ $$
 
 ## Properties
 
-### Relation to tensor product
+### Induced comodules and a relation to tensor product
 
-Let now $\mathcal{M}=({}_k\mathrm{Mod},\otimes_k)$ be the symmetric monoidal category of $k$-modules.
+Let now $\mathcal{M}=({}_k\mathrm{Mod},\otimes_k)$ be the symmetric monoidal category of $k$-modules where $k$ is a commutative unital ring.
 
 Let $D$ be another $k$-coalgebra, with coproduct $\Delta_C$.
 If $D$ is [[flat module|flat]] as a $k$-module
 (e.g. $k$ is a field), and $N$ a left $D$- right $C$-bicomodule,
-then the cotensor product $N \Box M$ is a $D$-subcomodule of the [[tensor product]] $N \otimes_k M$. In particular, under the flatness assumption, if $\pi \colon D \rightarrow C$ is a surjection of coalgebras then $D$ is a left $D$- right $C$-bicomodule via $\Delta_D$ and $(\id \otimes \pi) \circ \Delta_D$
-respectively, hence $\mathrm{Ind}^D_C \coloneqq D \Box^C -$
+then the cotensor product $N \Box M$ is a $D$-subcomodule of the [[tensor product]] $N \otimes_k M$. In particular, under the flatness assumption, if $\pi \colon D \rightarrow C$ is a homomorphism of coalgebras (usually surjective in applications), then $D$ is a left $D$-right $C$-bicomodule via $\Delta_D$ and $(\id \otimes \pi) \circ \Delta_D$
+respectively, hence 
+$$
+\mathrm{Ind}^D_C : C-Comod\to D-comod: \coloneqq D \Box^C -
+$$
 is a functor from left $C$- to left
-$D$-comodules called the [[induced comodule|induction]] functor for left comodules from $C$ to $D$. 
+$D$-comodules called the [[induced comodule|induction]] (corepresentation) functor for left comodules from $C$ to $D$. 
 
 ### For comodules over commutative Hopf coalgebroids
  {#ForComodulesOverCommutativeHopfCoalgebroids}
@@ -215,7 +218,8 @@ In computing the second page of $E$-[[Adams spectral sequences]], the second sta
 
 ## Related concepts
 
-* The [[derived functor]] of cotensoring is called _[[Cotor]]_.
+* a special case of the cotensor product as a functor of one variable is the [[induced comodule]] construction
+* The [[derived functor]] of cotensoring is called _[[Cotor]]_. 
 
 ## References
 
@@ -223,14 +227,27 @@ Cotensor products in [[noncommutative geometry]] appear in the role of [[space o
 
 * [[Shahn Majid]], _Foundations of quantum groups theory_, 2nd extended edition, paperback, Cambridge Univ. Press 2000.
 
+Basic homological algebra of cotensor products for coalgebras over a field is advanced in
+
+* Yukio Doi, _Homological coalgebra_, J. Math. Soc. Japan __33__:1 (1981) 31–50 [MR597479](https://mathscinet.ams.org/mathscinet-getitem?mr=597479) [euclid](https://projecteuclid.org/euclid.jmsj/1239888030)
+
+(Co)flatness conditions play major role for study of cotensor products when coalgebras are over commutative rings, or in the categories of bimodules ([[coring]]s), 
+
+* Leonid Positselski, _Homological algebra of semimodules and semicontramodules: Semi-infinite homological algebra of associative algebraic structures_, [arxiv/0708.3398](https://arxiv.org/abs/0708.3398)
+* [[T. Brzeziński]], R. Wisbauer, _Corings and comodules_, London Math. Soc. Lec. Note Series 309, Cambridge 2003.
+
 For a nonaffine extension of the sections of associated quantum vector bundle, using [[localization]] theory see
 
 * [[Zoran Škoda]], _Coherent states for Hopf algebras_,
 Lett. Math. Phys. 81 (2007), no. 1, 1--17. ([arXiv:math.QA/0303357](http://front.math.ucdavis.edu/0303.5357))
 
-In [[Hopf algebra]] theory, cotensor products appear as early as in 
+In [[Hopf algebra]] theory motivated by algebraic topology, cotensor products appear as early as in 
 
-* [[John Milnor]], [[John Moore]], On the structure of Hopf algebras.  Ann. of Math. (2)  81  1965 211--264.
+* [[John Milnor]], [[John Moore]], _On the structure of Hopf algebras_, Ann. of Math. (2)  81  1965 211--264
+
+and along with its derived functor Cotor used in computation of $E^2$-term of a [[spectral sequence]] of a [[fibration]] in
+
+* [[Samuel Eilenberg]], John. C Moore, _Homology and fibrations. I. Coalgebras, cotensor product and its derived functors_, Comment. Math. Helv. __40__ (1966) 199–236 [MR203730](https://mathscinet.ams.org/mathscinet-getitem?mr=203730) [doi](http://doi.org/10.1007/BF02564371)
 
 The authors mention that they learned the notion from Mac Lane who knew it earlier in more general contexts. 
 
