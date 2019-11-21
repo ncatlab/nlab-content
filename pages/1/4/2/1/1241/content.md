@@ -464,6 +464,9 @@ Relation to [[leptoquarks]] and [[flavour anomalies]]:
 
 * {#Malinsky19} [[Michal Malinský]], _Lepton non-universality in $B$-decays in the minimal leptoquark gauge model_ ([arXiv:1906.09174](https://arxiv.org/abs/1906.09174))
 
+* Shyam Balaji, Michael A. Schmidt, _A unified $SU(4)$ theory for the $R_D^{(\ast)}$ and $R_K^{(\ast)}$ anomalies_ ([arXiv:1911.08873](https://arxiv.org/abs/1911.08873))
+
+
 
 
 
