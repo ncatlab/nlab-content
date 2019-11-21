@@ -1,0 +1,23 @@
+
+* [webpage](https://dornsife.usc.edu/cf/faculty-and-staff/faculty.cfm?pid=1003810)
+
+## Selected writings
+
+On [[supersymmetry]] and [[G-structure]] (notably [[Spin(7)-structure]] in [[M-theory on 8-manifolds]]):
+
+* {#IshamPope88} [[Chris Isham]], [[Christopher Pope]], _Nowhere Vanishing Spinors and Topological Obstructions to the Equivalence of the NSR and GS Superstrings_, Class. Quant. Grav. 5 (1988) 257 ([spire:251240](http://inspirehep.net/record/251240), [doi:10.1088/0264-9381/5/2/006](https://doi.org/10.1088/0264-9381/5/2/006))
+
+* {#IshamPopeWarner88} [[Chris Isham]], [[Christopher Pope]], [[Nicholas Warner]], _Nowhere-vanishing spinors and triality rotations in 8-manifolds_,  Classical and Quantum Gravity, Volume 5, Number 10, 1988 ([cds:185144](http://cds.cern.ch/record/185144), [doi:10.1088/0264-9381/5/10/009](https://iopscience.iop.org/article/10.1088/0264-9381/5/10/009))
+
+On [[Landau-Ginzburg models]]:
+
+* {#VafaWarner89} [[Cumrun Vafa]], [[Nicholas Warner]], _Catastrophes and the Classification of Conformal Theories_, Phys.Lett. B218 (1989) 51 (<a href="https://doi.org/10.1016/0370-2693(89)90473-5">doi:10.1016/0370-2693(89)90473-5</a>)
+
+On [[gauged supergravity|gauged]] [[D=5 supergravity]]:
+
+* [[Murat Günaydin]], [[L. J. Romans]] and [[Nicholas Warner]], _Gauged $N = 8$ Supergravity in Five Dimensions_, Phys. Lett. 154B, (1985) 268 ([spire:207663](http://inspirehep.net/record/207663), <a href="https://doi.org/10.1016/0370-2693(85)90361-2">doi:10.1016/0370-2693(85)90361-2</a>)
+
+* [[Murat Günaydin]], [[L. J. Romans]] and [[Nicholas Warner]], _Compact and Non&#8211;Compact Gauged Supergravity Theories in Five Dimensions_, Nucl. Phys. B272 (1986) 598 ([spire:219727](http://inspirehep.net/record/219727), <a href="https://doi.org/10.1016/0550-3213(86)90237-3">doi:10.1016/0550-3213(86)90237-3</a>)
+
+
+categoiry: people
