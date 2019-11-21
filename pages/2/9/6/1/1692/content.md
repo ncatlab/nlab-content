@@ -44,7 +44,7 @@ are pairs of morphisms $f: a \to x$, $g: y \to b$ which are adjoint with respect
 
 $$\array{
  & a \otimes y & \overset{1_a \otimes g}{\to} & a \otimes b\\
-f \otimes 1_x & \downarrow & & \downarrow r\\
+f \otimes 1_y & \downarrow & & \downarrow r\\
 & x \otimes y & \overset{s}{\to} & d
 }$$
 
