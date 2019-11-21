@@ -20,7 +20,7 @@
 
 ## Idea
 
-A [[cohomology theory]] $E$ is called _multiplicative_ if each [[graded module|graded]] [[abelian group|abelian]] $E$-[[cohomology group]] $E^\bullet(X)$ is compatibly equippd with the structure of a [[graded ring]]. 
+A [[cohomology theory]] $E$ is called _multiplicative_ if each [[graded module|graded]] [[abelian group|abelian]] $E$-[[cohomology group]] $E^\bullet(X)$ is compatibly equipped with the structure of a [[graded ring]]. 
 
 
 ## Definition
