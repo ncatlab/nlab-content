@@ -15,7 +15,7 @@
 
 ## Idea
 
-The generalization of the notion of _[[presheaf]]_ from [[category theory]] to [[2-category theory]].
+The generalization of the notion of _[[presheaf]]_ from [[category theory]] to [[2-category theory]] is an [[indexed category]].
 
 
 [[!redirects 2-presheaves]]
