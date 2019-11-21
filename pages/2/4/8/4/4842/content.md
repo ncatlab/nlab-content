@@ -72,7 +72,7 @@ We discuss the relation between Vassiliev invariants and the [[Euler characteris
 
 For $n, q \in \mathbb{N}$ and $q \geq 1$, write 
 
-1. $\underset{{}^{\{1,\cdots, n\}}}{Conf}\big( \mathbb{R}^{q+2} \big)$ for the [[configuration space of points|configuration space of n ordered points]] in [[Euclidean space]] $mathbb{R}^{q+2}$;
+1. $\underset{{}^{\{1,\cdots, n\}}}{Conf}\big( \mathbb{R}^{q+2} \big)$ for the [[configuration space of points|configuration space of n ordered points]] in [[Euclidean space]] $\mathbb{R}^{q+2}$;
 
 1. $\Omega \underset{{}^{\{1,\cdots, n\}}}{Conf}\big( \mathbb{R}^{q+2} \big)$ for the corresponding [[based loop space]] (for any choice of base point);
 
