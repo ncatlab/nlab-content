@@ -44,13 +44,13 @@ Generally, for any $n$ $\mathbf{B}^{n-1}U(1)$ is an [[n-group]] that corresponds
 The [[geometric realization]] of the circle $n$-group is the [[Eilenberg-MacLane space]] 
 
 $$
-  |\mathbf{B}^n U(1)|
+  |\mathbf{B}^{n-1} U(1)|
   \simeq
-  B^{n} U(1)
+  B^{n-1} U(1)
   \simeq
-  B^{n+1} \mathbb{Z}
+  B^{n} \mathbb{Z}
   \simeq
-  K(\mathbb{Z}, n+1)
+  K(\mathbb{Z}, n)
  \,.
 $$
 
