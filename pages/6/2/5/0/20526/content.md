@@ -105,6 +105,8 @@ Further discussion includes
 
 * [[Ben Heidenreich]], [[Matthew Reece]], [[Tom Rudelius]], _Emergence and the Swampland Conjectures_ ([arXiv:1802.08698](https://arxiv.org/abs/1802.08698))
 
+* Jacob McNamara, [[Cumrun Vafa]], _Cobordism Classes and the Swampland_ ([arXiv:1909.10355](https://arxiv.org/abs/1909.10355))
+
 See also 
 
 * Wikipedia, _<a href="https://en.wikipedia.org/wiki/Swampland_(physics)">Swampland_(physics)</a>_
