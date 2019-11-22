@@ -454,6 +454,8 @@ Review and further developments include
 * Bachuki Mesablishvili, _Monads of effective descent type and comonadicity_, Theory and Applications of Categories __16__:1 (2006) 1-45, [link](http://tac.mta.ca/tac/volumes/16/1/16-01abs.html); _Pure morphisms of commutative rings are effective descent morphisms for modules—a new proof_, Theory Appl. Categ. 7(3), 38–42 (2000)
 
 * [[Francis Borceux]], [[Stefan Caenepeel]], [[George Janelidze]], _Monadic approach to Galois descent and cohomology_, [arXiv:0812.1674](http://arxiv.org/abs/0812.1674)
+* S. Caenepeel, _Galois corings from the descent theory point of view,_ in: Fields Inst. Commun. __43__ (2004) 163–186
+* [[Tomasz Brzeziński]], Adrian Vazquez Marquez, Joost Vercruysse, _The Eilenberg-Moore category and a Beck-type theorem for a Morita context_, J. Appl Categor Struct (2011) 19: 821 [doi](https://doi.org/10.1007/s10485-009-9217-0)
 
 In tringulated setup there are several results including
 
