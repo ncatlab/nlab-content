@@ -39,3 +39,6 @@ The sociology of folklore theorems can be subtle. In semi-formalized areas such 
 
 * [[analogy]]
 
+## References
+
+* {#Aubert2019} [[Clément Aubert]], _Categories for Me, and You?_, 2019 ([arxiv:1910.05172](https://arxiv.org/abs/1910.05172))
