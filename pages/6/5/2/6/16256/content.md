@@ -259,11 +259,11 @@ Discussion of [[topological T-duality]] for KK-monopoles is in
 
 * {#BerglundBrandhuber02} Per Berglund, Andreas Brandhuber, _Matter From $G_2$ Manifolds_, Nucl.Phys. B641 (2002) 351-375 ([arXivLhep-th/0205184](http://arxiv.org/abs/hep-th/0205184))
 
-* {#GaillardSchmude09} Jerome Gaillard, [[Johannes Schmude]], _The lift of type IIA supergravity with D6 sources: M-theory with torsion_, JHEP 1002:032,2010 ([arXiv:0908.0305](http://arxiv.org/abs/0908.0305))
+* {#GaillardSchmude09} [[Jérôme Gaillard]], [[Johannes Schmude]], _The lift of type IIA supergravity with D6 sources: M-theory with torsion_, JHEP 1002:032,2010 ([arXiv:0908.0305](http://arxiv.org/abs/0908.0305))
 
 Discussion in terms of [[G-structures]]:
 
-* [[Ulf Danielsson]], Giuseppe Dibitetto, Adolfo Guarino, _KK-monopoles and G-structures in M-theory/type IIA reductions_, JHEP 1502 (2015) 096 ([arXiv:1411.0575](https://arxiv.org/abs/1411.0575))
+* [[Ulf Danielsson]], [[Giuseppe Dibitetto]], Adolfo Guarino, _KK-monopoles and $G$-structures in M-theory/type IIA reductions_, JHEP 1502 (2015) 096 ([arXiv:1411.0575](https://arxiv.org/abs/1411.0575))
 
 #### Review
 
