@@ -5,6 +5,11 @@ Gray Gibbons is professor for theoretical [[physics]] at Cambridge.
 
 ## Selected writings
 
+On [[D1-D3 brane intersections]] as spikes/[[BIons]] in the [[D3-brane]] [[DBI action|DBI-theory]]:
+
+* [[Gary Gibbons]], _Born-Infeld particles and Dirichlet p-branes_,  	Nucl. Phys. B514: 603-639, 1998 ([arXiv:hep-th/9709027](https://arxiv.org/abs/hep-th/9709027))
+
+
 On [[Yang-Mills monopoles]]:
 
 * {#GibbonsManton86} [[Gary Gibbons]], [[Nicholas Manton]], _Classical and Quantum Dynamics of BPS Monopoles_, Nucl. Phys. B274 (1986) 183-224 ([spire:18322](http://inspirehep.net/record/18322), <a href="https://doi.org/10.1016/0550-3213(86)90624-3">doi:10.1016/0550-3213(86)90624-3</a>)
