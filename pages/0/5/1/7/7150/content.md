@@ -6,6 +6,10 @@ Neil Lambert is professor for theoretical [[physics]] at King's College London.
 ## Selected writings
 
 
+On [[Dp-D(p+2) brane intersections]] (such as [[D1-D3 brane intersections]]) as spikes/[[BIons]] from the [[M5-brane]]:
+
+* [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _The Self-Dual String Soliton_, Nucl. Phys. B515 (1998) 203-216 ([arXiv:hep-th/9709014](https://arxiv.org/abs/hep-th/9709014))
+
 On multiple [[M2-branes]] and the [[BLG model]]/[[ABJM model]] of their [[worldvolume]] theory:
 
 * {#BaggerLambert06} [[Jonathan Bagger]], [[Neil Lambert]], _Modeling Multiple M2's_, Phys. Rev. D75, 045020 (2007). ([hep-th/0611108](http://arxiv.org/abs/hep-th/0611108)). 
