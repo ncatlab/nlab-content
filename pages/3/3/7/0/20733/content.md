@@ -32,6 +32,14 @@ Transversally intersecting [[Dp-D(p+2)-brane bound states]] [[geometric engineer
 
 ## Related concepts
 
+* [[Yang-Mills monopole]]
+
+  * [[fuzzy funnel]]
+
+  * [[D1-D3-brane intersection]]
+
+  * [[Dp-D(p+2)-brane intersection]]
+
 * [[Yang-Mills instanton]]
 
 * [[ADHM construction]]
