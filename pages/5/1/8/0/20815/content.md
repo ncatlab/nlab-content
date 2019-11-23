@@ -7,6 +7,8 @@
 
   * [[Dp-D(p+2)-brane bound state]] and [[Yang-Mills monopoles]]
 
+    * [[D0-D2 brane bound state]]
+
     * [[D1-D3-brane bound state]]
 
     * [[D2-D4-brane bound state]]
@@ -24,6 +26,8 @@
     * [[D4-D8 brane bound state]]
 
 * Dp-D(p+6) brane bound state
+  
+  * [[D1-D7 brane bound state]]
 
   * [[D2-D8 brane bound state]]
 
