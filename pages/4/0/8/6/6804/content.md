@@ -25,6 +25,17 @@ Under [[S-duality]] the D1-brane mixes with the [[fundamental string]] to form t
 
 A formalization of this in terms of the [[homotopy theory]] of the [[super L-infinity algebras]] which constitute the respective [[extended super spacetimes]] is in ([FSS 13](#FSS13)).
 
+### Bound states
+
+[[bound states]]/[[brane intersections]] involving D1-branes:
+
+* [[D1-D3 brane bound state]]
+
+* [[D1-D5 brane bound state]]
+
+* [[D1-D7 brane bound state]]
+
+
 ### Black hole entropy
 
 At low string coupling [[D1-D5 brane bound states]] are described by 2d [[CFT]], which is well understood. After passage to the corresponding [[non-perturbative field theory|strongly coupled]] [[black brane]] configurations in [[type IIB supergravity]], which are [[black holes]] in the given [[Kaluza-Klein mechanism|compactification]], the [[entropy]] of these 2d CFTs matches the [[Bekenstein-Hawking entropy]] of these black holes. See at _[[black holes in string theory]]_ for more on this.
