@@ -19,7 +19,7 @@
 
 ## Idea
 
-The _dependent product_ is a [[universal construction]] in [[category theory]]. It generalizes the [[internal hom]], and hence indexed [[products]], to the situation where the codomain may _depend_ on the domain, hence it forms _[[sections]]_ of a [[bundle]]. 
+The _dependent product_ is a [[universal construction]] in [[category theory]]. It generalizes the [[internal hom]] to the situation where the codomain may _depend_ on the domain, and [[internalization|internalizes]] indexed [[products]]. Hence it forms _[[sections]]_ of a [[bundle]]. 
 
 The [[duality|dual]] concept is that of _[[dependent sum]]_.
 
