@@ -5,11 +5,22 @@
 
 ## Selected writings
 
-On [[D1-D3-brane intersections]] as [[fuzzy funnels]]:
+Introducing the [[Myers effect]]:
 
-* Neil Constable, [[Robert Myers]], Oyvind Tafjord, _The Noncommutative Bion Core_, Phys. Rev. D61 (2000) 106009 ([arXiv:hep-th/9911136](https://arxiv.org/abs/hep-th/9911136))
+* {#Myers99} [[Robert Myers]], _Dielectric-Branes_, JHEP 9912 (1999) 022 ([arXiv:hep-th/9910053](https://arxiv.org/abs/hep-th/9910053))
 
-* [[Robert Myers]], Section 4 of: _Nonabelian D-branes and Noncommutative Geometry_, J. Math. Phys. 42: 2781-2797, 2001 ([arXiv:hep-th/0106178](https://arxiv.org/abs/hep-th/0106178))
+On [[D1-D3-brane intersections]] as [[fuzzy funnels]] on [[fuzzy 2-spheres]]
+
+* [[Neil Constable]], [[Robert Myers]], Oyvind Tafjord, _The Noncommutative Bion Core_, Phys. Rev. D61 (2000) 106009 ([arXiv:hep-th/9911136](https://arxiv.org/abs/hep-th/9911136))
+
+On [[D1-D5-brane intersections]] as [[fuzzy funnels]] on [[fuzzy 4-spheres]]:
+
+* [[Neil Constable]], [[Robert Myers]], Oyvind Tafjord, _Non-abelian Brane Intersections_, JHEP 0106:023, 2001 ([arXiv:hep-th/0102080](https://arxiv.org/abs/hep-th/0102080))
+
+Generally on [[noncommutative geometry]] in [[D-brane]]-physics:
+
+* [[Robert Myers]], _Nonabelian D-branes and Noncommutative Geometry_, J. Math. Phys. 42: 2781-2797, 2001 ([arXiv:hep-th/0106178](https://arxiv.org/abs/hep-th/0106178))
+
 
 
 ## Related $n$Lab entries
