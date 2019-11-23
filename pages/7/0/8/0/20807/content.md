@@ -212,6 +212,8 @@ Comparison with the definition of $\mathrm{sl}(2)$-weight system Vassiliev invar
 
 ## Related concepts
 
+* [[fuzzy funnel]]
+
 * [[noncommutative torus]]
 
 ## References
@@ -263,4 +265,7 @@ Discussion in the context of [[M2-M5-brane bound states]]/[[E-strings]]:
 
 [[!redirects fuzzy 3-sphere]]
 [[!redirects fuzzy 3-spheres]]
+
+[[!redirects fuzzy 4-sphere]]
+[[!redirects fuzzy 4-spheres]]
 
