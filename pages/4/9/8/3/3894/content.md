@@ -551,9 +551,24 @@ In relation to [[torsion constraints in supergravity]]:
 
 * {#Lott90} [[John Lott]], _The Geometry of Supergravity Torsion Constraints_, Comm. Math. Phys. 133 (1990), 563&#8211;615, (exposition in [arXiv:0108125](http://arxiv.org/abs/math/0108125))
 
-In relation to [[BPS states]]/partial reduction of [[supersymmetry]]:
+In relation to [[BPS states]]/partial reduction of [[number of supersymmetries]] under [[KK-compactification]]:
+
+* [[Paul Koerber]], _Lectures on Generalized Complex Geometry for Physicists_, Fortsch. Phys. 59: 169-242, 2011 ([arXiv:1006.1536](https://arxiv.org/abs/1006.1536))
+
+  (with application to [[generalized complex geometry]])
+
 
 * [[Jerome Gauntlett]], Dario Martelli, Stathis Pakis, [[Daniel Waldram]], _G-Structures and Wrapped NS5-branes_, Commun.Math.Phys. 247 (2004) 421-445 ([arxiv:hep-th/0205050](https://arxiv.org/abs/hep-th/0205050))
+
+  (application to [[flux compactifications]])
+
+* [[Jérôme Gaillard]], _On $G$-structures in gauge/string duality_, 2011 ([cronfa:42569](https://cronfa.swan.ac.uk/Record/cronfa42569) [spire:1340775](http://inspirehep.net/record/1340775), [[GaillardGStructure.pdf:file]])
+
+  (with application to [[holographic QCD]])
+
+* [[Ulf Danielsson]], [[Giuseppe Dibitetto]], Adolfo Guarino, _KK-monopoles and $G$-structures in M-theory/type IIA reductions_, JHEP 1502 (2015) 096 ([arXiv:1411.0575](https://arxiv.org/abs/1411.0575))
+
+  (with application to [[D6-branes]]/[[KK-monopoles]] in [[M-theory]])
 
 and specifically so for [[M-theory on 8-manifolds]]:
 
