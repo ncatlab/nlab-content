@@ -152,6 +152,9 @@ The lift of [[Dp-D(p+2)-brane bound states]] in [[string theory]] to [[M2-M5-bra
 
 [[!redirects Dp-D(p+2)-brane bound states]]
 
+[[!redirects Dp-D(p+2) brane bound state]]
+[[!redirects Dp-D(p+2) brane bound states]]
+
 [[!redirects Dp-Dp+2-brane bound state]]
 [[!redirects Dp-Dp+2-brane bound states]]
 
