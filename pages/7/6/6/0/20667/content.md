@@ -30,6 +30,10 @@ Due to the [[higher WZW term]] $\propto \int_{D_{p+4}} C_{p+1} \wedge \langle F 
 
 ## Related concepts
 
+* [[fuzzy funnel]]
+
+\linebreak
+
 [[!include brane bound states -- table]]
 
 
@@ -110,4 +114,6 @@ Discussion as [[half M5-branes]]:
 
 [[!redirects DpDpPlus4BraneBoundState]]
 
+[[!redirects Dp-D(p+4)-brane intersection]]
+[[!redirects Dp-D(p+4)-brane intersections]]
 
