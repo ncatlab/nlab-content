@@ -39,12 +39,22 @@ For more see the references at _[[Dp-D(p+2)-brane bound state]]_:
 * Gianluca Grignani, Troels Harmark, Andrea Marini, Marta Orselli, _Thermal DBI action for the D3-brane at weak and strong coupling_, JHEP 03 (2014) 114 ([arxiv:1311.3834](https://arxiv.org/abs/1311.3834))
 
 
-
 ### Transversal intersection 
 
-#### As fuzzy funnels
+#### As spikes/BIons (D3-brane perspective)
 
-As [[fuzzy funnels]]:
+As spikes/BIons in the [[D3-brane]] [[DBI action|DBI-theory]]:
+
+* [[Curtis Callan]], [[Juan Maldacena]], _Brane Dynamics From the Born-Infeld Action_, Nucl. Phys. B513 (1998) 198-212 ([arXiv:hep-th/9708147](https://arxiv.org/abs/hep-th/9708147))
+
+* [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _The Self-Dual String Soliton_, Nucl. Phys. B515 (1998) 203-216 ([arXiv:hep-th/9709014](https://arxiv.org/abs/hep-th/9709014))
+
+* [[Gary Gibbons]], _Born-Infeld particles and Dirichlet p-branes_,  	Nucl. Phys. B514: 603-639, 1998 ([arXiv:hep-th/9709027](https://arxiv.org/abs/hep-th/9709027))
+
+
+#### As fuzzy funnels (D1-brane perspective)
+
+As [[fuzzy funnels]] (the [[D1-brane]] [[matrix model]] perspective):
 
 * [[Neil Constable]], [[Robert Myers]], Oyvind Tafjord, _The Noncommutative Bion Core_, Phys. Rev. D61 (2000) 106009 ([arXiv:hep-th/9911136](https://arxiv.org/abs/hep-th/9911136))
 
