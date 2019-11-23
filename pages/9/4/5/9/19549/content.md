@@ -34,6 +34,8 @@ A famous open problem is the question whether the 6-sphere admits an actual [[co
 
 ## Related entries
 
+* [[fuzzy 6-sphere]]
+
 * [[2-sphere]]
 
 * [[3-sphere]]
