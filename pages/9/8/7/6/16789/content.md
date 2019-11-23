@@ -701,6 +701,7 @@ from the [[homotopy quotient]] by the [[circle action]] (def. \ref{CircleActionO
 
 ## Related entries
 
+* [[fuzzy 4-sphere]]
 
 * [[2-sphere]]
 
