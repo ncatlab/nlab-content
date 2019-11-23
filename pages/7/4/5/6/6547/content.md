@@ -119,7 +119,7 @@ See also
 
 Discussion of special holonomy manifolds in [[supergravity]] and [[superstring theory]] as fiber-spaces for [[KK-compactifications]] preserving some [[number of supersymmetries]]:
 
-* [[Steven Gubser]], _Special holonomy in string theory and M-theory_, In [[Steven Gubser]], Joseph Lykken (eds.) _Strings, Branes and Extra Dimensions - TASI 2001_, World Scientific 2004 ([arXiv:hep-th/0201114](https://arxiv.org/abs/hep-th/0201114), [doi:10.1142/5495](https://doi.org/10.1142/5495))
+* {#Gubser01} [[Steven Gubser]], _Special holonomy in string theory and M-theory_, In [[Steven Gubser]], Joseph Lykken (eds.) _Strings, Branes and Extra Dimensions - TASI 2001_, World Scientific 2004 ([arXiv:hep-th/0201114](https://arxiv.org/abs/hep-th/0201114), [doi:10.1142/5495](https://doi.org/10.1142/5495))
 
 
 [[!redirects manifold with special holonomy]]
