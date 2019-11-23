@@ -1,4 +1,13 @@
-[[!redirects D1-D3-brane bound states]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
 
 #Contents#
 * table of contents
@@ -8,9 +17,17 @@
 
 The special case of [[Dp-D(p+2)-brane bound states]] for [[D1-brane|D1]]-[[D3-brane]] [[bound states]].
 
+
 ## Related concepts
 
+* [[fuzzy sphere]]
+
+* [[fuzzy funnel]]
+
+\linebreak
+
 [[!include brane bound states -- table]]
+
 
 
 ## References
@@ -23,8 +40,22 @@ For more see the references at _[[Dp-D(p+2)-brane bound state]]_:
 
 
 
+### Transversal intersection 
 
-### Transversal intersection and monopoles
+#### As fuzzy funnels
+
+As [[fuzzy funnels]]:
+
+* [[Neil Constable]], [[Robert Myers]], Oyvind Tafjord, _The Noncommutative Bion Core_, Phys. Rev. D61 (2000) 106009 ([arXiv:hep-th/9911136](https://arxiv.org/abs/hep-th/9911136))
+
+* [[Robert Myers]], Section 4 of: _Nonabelian D-branes and Noncommutative Geometry_, J. Math. Phys. 42: 2781-2797, 2001 ([arXiv:hep-th/0106178](https://arxiv.org/abs/hep-th/0106178))
+
+* [[Neil Constable]], [[Neil Lambert]], _Calibrations, Monopoles and Fuzzy Funnels_, Phys. Rev. D66 (2002) 065016 ([arXiv:hep-th/0206243](https://arxiv.org/abs/hep-th/0206243))
+
+* Rajsekhar Bhattacharyya, Robert de Mello Koch, _Fluctuating Fuzzy Funnels_, JHEP 0510 (2005) 036 ([arXiv:hep-th/0508131](https://arxiv.org/abs/hep-th/0508131))
+
+
+#### As monopoles
 
 Identification with [[Yang-Mills monopoles]]:
 
@@ -42,4 +73,19 @@ The lift of [[Dp-D(p+2)-brane bound states]] in [[string theory]] to [[M2-M5-bra
 * [[Anirban Basu]], [[Jeffrey Harvey]], _The M2-M5 Brane System and a Generalized Nahm's Equation_, Nucl.Phys. B713 (2005) 136-150 ([arXiv:hep-th/0412310](https://arxiv.org/abs/hep-th/0412310))
 
 * {#BaggerLambertMukhiPapageorgakis13} [[Jonathan Bagger]], [[Neil Lambert]], [[Sunil Mukhi]], [[Constantinos Papageorgakis]], Section 2.2.1 of _Multiple Membranes in M-theory_, Physics Reports, Volume 527, Issue 1, 1 June 2013, Pages 1-100 ([arXiv:1203.3546](http://arxiv.org/abs/1203.3546), [doi:10.1016/j.physrep.2013.01.006](https://doi.org/10.1016/j.physrep.2013.01.006))
+
+[[!redirects D1-D3-brane bound states]]
+
+[[!redirects D1-D3 brane bound state]]
+[[!redirects D1-D3 brane bound state]]
+
+
+[[!redirects D1-D3-brane intersection]]
+[[!redirects D1-D3-brane intersections]]
+
+[[!redirects D1-D3 brane intersection]]
+[[!redirects D1-D3 brane intersections]]
+
+
+
 
