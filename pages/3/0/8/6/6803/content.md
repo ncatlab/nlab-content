@@ -54,6 +54,17 @@ Notice that after the above [[T-duality]] operation the $(D4-D6)$-system wraps t
 Lifting that configuration to [[11-dimensional supergravity]] gives [[M5-branes]] (the erstwhile [[D4-brane]]s) on [[Taub-NUT spacetime|Taub-NUT]] ($\times S^1$). The [[M5-branes]] wrap the circle-fiber of [[Taub-NUT space]], which shrinks to zero size at the origin (the [[MK6]], the location of the erstwhile D6, which is where the D4s "end"). The low-energy theory, on a stack of M5-branes, is the [[6d (2,0)-susy QFT]]. 
 
 
+### Bound states
+
+[[bound states]]/[[brane intersections]] involving D4-branes:
+
+* [[D0-D4 brane bound state]]
+
+* [[D2-D4 brane bound state]]
+
+* [[D4-D8 brane bound state]]
+
+
 ## Related concepts
 
 [[!include superconformal symmetry -- table]]
