@@ -32,6 +32,7 @@ $$
 $$
 
 ## Properties
+ {#Properties}
 
 ### As a coset space
 
