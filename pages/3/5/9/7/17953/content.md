@@ -22,6 +22,8 @@ What is called the _Myers effect_ ([Myers 99](#Myers99)) in [[string theory]] is
 
 ## Related concepts
 
+* [[fuzzy funnel]]
+
 * [[BFSS matrix model]]
 
 ## References
