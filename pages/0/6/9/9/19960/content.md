@@ -385,6 +385,13 @@ The Witten-Sakai-Sugimoto model with [[orthogonal group|orthogonal]]  [[gauge gr
 
 * Hee-Cheol Kim, Sung-Soo Kim, Kimyeong Lee, _5-dim Superconformal Index with Enhanced $E_n$ Global Symmetry_, JHEP 1210 (2012) 142 ([arXiv:1206.6781](https://arxiv.org/abs/1206.6781))
 
+Analogous discussion for [[flavour (particle physics)|flavour]] [[D6-branes]]:
+
+* [[Jérôme Gaillard]], _On $G$-structures in gauge/string duality_, 2011 ([cronfa:42569](https://cronfa.swan.ac.uk/Record/cronfa42569) [spire:1340775](http://inspirehep.net/record/1340775), [[GaillardGStructure.pdf:file]])
+
+  (with emphasis of [[G-structures]])
+
+
 The analogoue of the WSS model for [[2d QCD]]:
 
 * {#GaoXuZeng06} Yi-hong Gao, Weishui Xu, Ding-fang Zeng, _NGN, $QCD_2$ and chiral phase transition from string theory_, Nucl.Phys. B400:181-210, 1993 ([arXiv:hep-th/0605138](https://arxiv.org/abs/hep-th/0605138))
