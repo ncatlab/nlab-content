@@ -174,7 +174,7 @@ The following is a collection of quotes from authors that highlight the open pro
 \linebreak
 
 
-[Nicolai-Helling 98, p. 2](BFSS+atrix+model#NicolaiHelling98)::
+[Nicolai-Helling 98, p. 2](BFSS+matrix+model#NicolaiHelling98)::
 
 > Despite the recent excitement, however, we do not think that [[BFSS matrix model|M(atrix) theory]] and the [[M2-brane|d= 11 supermembrane]] in their present incarnation are already the final answer in the search for [[M-theory|M-Theory]], even though they probably are important pieces of the puzzle. There are still too many ingredients missing that we would expect the final theory to possess. For one thing, we would expect a true theory of quantum gravity to exhibit certain pregeometrical features corresponding to a “dissolution” of space-time and the emergence of some kind of non-commutative geometry at short distances; although the matrix model does achieve that to some extent by replacing commuting coordinates by non-commuting matrices, it seems to us that a still more radical departure from conventional ideas about space and time may be required in order to arrive at a truly background independent formulation (the matrix model “lives” in nine _flat_ transverse dimensions only). Furthermore, there should exist some huge and so far completely hidden symmetries generalizing not only the duality symmetries of extended supergravity and string theory, but also the principles underlying general relativity.
 
