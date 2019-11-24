@@ -49,7 +49,7 @@ Every [[covering space]] (even in the more general sense not requiring any conne
 
 * for a covering space the [[inverse image]] of some [[open subset]] in the base $B$ needs to be, by the definition, a [[disjoint union]] of homeomorphic open sets in $E$; however the 'size' of the [[open neighborhoods]] over various $e$ in the same [[stalk]] required in the definition of &#233;tal&#233; space may differ, hence the intersection of their projections does not need to be an open set, if there are infinitely many points in the stalk.
 
-* even if the the stalks of the &#233;tal&#233; space are finite, it need not be locally trivial. For instance the [[disjoint union]] $\coprod_i U_i$ of a collecton of [[open subsets]] of a topological space $X$ with the obvious projection $(\coprod_i U_i) \to X$ is &#233;tale, but does not have a typical fiber: the fiber over a given point has [[cardinality]] the number of open sets $U_i$ that contain this particular point.
+* even if the the stalks of the &#233;tal&#233; space are finite, it need not be locally trivial. For instance the [[disjoint union]] $\coprod_i U_i$ of a collection of [[open subsets]] of a topological space $X$ with the obvious projection $(\coprod_i U_i) \to X$ is &#233;tale, but does not have a typical fiber: the fiber over a given point has [[cardinality]] the number of open sets $U_i$ that contain this particular point.
 
 
 ## Grammar note
