@@ -1826,3 +1826,7 @@ More:
 [[!redirects graph cohomology]]
 [[!redirects graph cohomology group]]
 [[!redirects graph cohomology groups]]
+
+[[!redirects knot-graph complex]]
+[[!redirects knot-graph complexes]]
+
