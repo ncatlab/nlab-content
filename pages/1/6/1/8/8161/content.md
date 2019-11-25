@@ -71,7 +71,7 @@ and for a filtration of [[abelian groups]]:
 
 * **complete** if $\underset{\longleftarrow}{\lim}^1_s X_n = 0$ (also the first [[derived functor|derived]] [[limit]] ([[lim^1]]) vanishes)
 
-=---
+=--
 
 ([Boardman 99, def. 2.1](#Boardman99), see also [Rognes 12, section 2.1](#Rognes12))
 
@@ -115,23 +115,9 @@ $$
 ([Boardman 99, prop. 2.5](#Boardman99))
 
 
-## Examples
-
-* [[filtered topological space]], [[spectral sequence of a tower of fibrations]]
-
-* [[filtered chain complex]], [[spectral sequence of a filtered complex]]
-
-* [[filtered ring]]
-
-* [[conditional convergence]] (of a [[spectral sequence]])
-
 ## Related concepts
 
-* [[associated graded object]]
-
-* [[filtered object in an (infinity,1)-category]]
-
-  * [[spectral sequence of a filtered stable homotopy type]]
+[[!include filtered objects -- contents]]
 
 ## References
 
