@@ -19,21 +19,26 @@
 
 
 # The Kontsevich Integral
-* tic
+* table of contents
 {: toc}
 
 ## Idea
 
-The **Kontsevich integral** generalises the [[Gauss integral formula]] which computes the linking number of two embedded circles via integration.  The Kontsevich integral is a _universal_ [[Vassiliev invariant]] in that all Vassiliev invariants can be obtained by first applying the (final) Kontsevich integral to the knot and then applying an [[unframed weight system]] to the result.
+The **Kontsevich integral** generalises the [[Gauss integral formula]] which computes the [[linking number]] of two [[embedding of topological spaces|embedded]] [[circles]] via [[integration]].  The Kontsevich integral is a _universal_ [[Vassiliev invariant]] in that all Vassiliev invariants can be obtained by first applying the (final) Kontsevich integral to the [[knot]] and then applying an [[unframed weight system]] to the result.
 
 ## Definition
 
 +-- {: .num_definition #kint}
 ###### Definition
+
 Let $K$ be a [[strict Morse knot]].  Let $\widehat{\mathcal{A}}$ be the [[graded completion]] of the [[algebra of chord diagrams]] with $1$-term relations.  The **Kontsevich integral** of $K$ is given by:
+
 $$
-Z(K) = \sum_{m = 0}^\infty \frac{1}{(2 \pi i)^m} \int_{t_{\min} \lt t_m \lt \cdots \lt t_1 \lt t_{\max} \over t_j\; \text{non-critical}} \sum_{P = \{(z_j,z_j')\}} (-1)^{\downarrow P} D_p \bigwedge_{j=1}^m \frac{d z_j - d z_j'}{z_j - z_j'}
+  Z(K) 
+  \;=\; 
+  \sum_{m = 0}^\infty \frac{1}{(2 \pi i)^m} \int_{t_{\min} \lt t_m \lt \cdots \lt t_1 \lt t_{\max} \over t_j\; \text{non-critical}} \sum_{P = \{(z_j,z_j')\}} (-1)^{\downarrow P} D_p \bigwedge_{j=1}^m \frac{d z_j - d z_j'}{z_j - z_j'}
 $$
+
 =--
 
 In this definition:
@@ -46,13 +51,24 @@ In this definition:
 
 ## Invariance
 
-The Kontsevich integral is an invariant of [[Morse knots]] but is not quite a knot invariant.  When a "hump" is introduced to the knot then it is multiplied by $Z(H)$ where $H$ is the "humped" unknot.  Therefore, it can be made in to a genuine knot invariant via the formula
+The Kontsevich integral is an invariant of [[Morse knots]] but is not quite a [[knot invariant]].  When a "hump" is introduced to the knot then it is multiplied by $Z(H)$ where $H$ is the "humped" unknot.  Therefore, it can be made in to a genuine knot invariant via the formula
 $$
 I(K) = \frac{Z(K)}{Z(H)^{c/2}}
 $$
 where $c$ is the number of critical points of $K$.  To distinguish this from the Kontsevich integral, it is sometimes called the **final** Kontsevich integral (and the other the **preliminary** one).
 
+## Related concepts
+
+* [[Vassiliev invariant]]
+
+* [[graph complex]]
+
+* [[Chern-Simons theory]]
+
 ## References
 
-* S. Chmutov, S. Duzhin and J. Mostovoy, _Introduction to Vassiliev Knot Invariants_, 
- Cambridge University Press  (2012)
+Textbook accounts
+
+* {#ChmutovDuzhinMostovoy11} [[Sergei Chmutov]], [[Sergei Duzhin]], [[Jacob Mostovoy]], Section 4 of:  _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv/1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
+
+[[!redirects Kontsevich integrals]]
