@@ -149,11 +149,13 @@ and is related to the complex [[dimensions]] of spaces of Vassiliev invariants a
 
 * [[chord diagram]], [[Jacobi diagram]]
 
+* [[weight system]]
+
+* [[Kontsevich integral]]
+
 * [[knot theory]]
 
 * [[Jones polynomial]]
-
-* [[Kontsevich integral]]
 
 * [[singularity]] 
 
@@ -171,7 +173,7 @@ The original articles are
 
 Textbook accounts:
 
-* S. Chmutov, Sergei Duzhin, J. Mostovoy, _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv/1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
+* {#ChmutovDuzhinMostovoy11} [[Sergei Chmutov]], [[Sergei Duzhin]], [[Jacob Mostovoy]], _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv/1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
 
 * [[David Jackson]], [[Iain Moffat]], _An Introduction to Quantum and Vassiliev Knot Invariants_, Springer 2019 ([doi:10.1007/978-3-030-05213-3](https://link.springer.com/book/10.1007/978-3-030-05213-3))
 
@@ -191,7 +193,7 @@ Further review:
 
 More literature is listed at
 
-* [[Dror Bar-Natan]], Sergei Duzhin, _[Bibliography of Vassiliev Invariants](http://www.pdmi.ras.ru/~duzhin/VasBib/Long)_
+* [[Dror Bar-Natan]], [[Sergei Duzhin]], _[Bibliography of Vassiliev Invariants](http://www.pdmi.ras.ru/~duzhin/VasBib/Long)_
 
 See also
 
