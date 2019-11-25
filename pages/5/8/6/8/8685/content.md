@@ -26,6 +26,11 @@ The **associated graded ring** to a filtered ring is the corresponding _[[associ
 
 A version of [[PBW theorem]] states that if a [[Lie algebra]] $g$ over a [[field]] $k$ is [[flat module|flat]] as a $k$-[[module]] over a commutative ground ring $k\supset \mathbb{Q}$ containing [[rational numbers|rationals]], then the associated graded ring $Gr U(g)$ is [[isomorphism|isomorphic]] to the [[symmetric algebra]] $Sym(g)$ of the underlying $k$-module of $g$. 
 
+## Related concepts
+
+[[!include filtered objects -- contents]]
+
+
 
 [[!redirects associated graded rings]]
 [[!redirects associated graded algebra]]
