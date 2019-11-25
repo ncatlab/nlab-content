@@ -31,7 +31,7 @@ In [[physics]] and especially in [[continuum mechanics]] and [[thermodynamics]],
 
 * _extensive_ if it is a [[density]] or [[linear distribution]] on (the physical system extended in) space.
 
-For instance for a [[solid body]] its [[temperature]] is intensive, but its [[mass]] is extensive: there is a temperature assigned to every point of the body (in the idealization of [[classical mechanics|classical]] [[continuum mechanics]] anyway) but a mass is assigned only to every little "extended" piece of the body, not to a single point.
+For instance, for a [[solid body]] its [[temperature]] is intensive, but its [[mass]] is extensive: there is a temperature assigned to every point of the body (in the idealization of [[classical mechanics|classical]] [[continuum mechanics]] anyway) but a mass is assigned only to every little "extended" piece of the body, not to a single point.
 
 This terminology in [[physics]] appears vaguely in ([Hegel 1812](#Hegel1812)), [Hegel 1817](#Hegel1817)), more precisely in ([Grassmann 1844](#Grassmann1844)) and in its fully modern form is maybe due to [[Richard Tolman]] ([1917](#Tolman1917)).
 
