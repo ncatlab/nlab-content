@@ -80,6 +80,9 @@ Further developments in
 
 * Biao Lian, S. L. Sondhi, Zhenbin Yang, _The chiral SYK model_ ([arXiv:1906.03308](https://arxiv.org/abs/1906.03308))
 
+* Alexandre Streicher, _SYK Correlators for All Energies_ ([arxiv:1911.10171](https://arxiv.org/abs/1911.10171))
+
+
 See also 
 
 * Wikipedia, _[SYK model of non-Fermi liquids and black holes](https://en.wikipedia.org/wiki/Subir_Sachdev#SYK_model_of_non-Fermi_liquids_and_black_holes)_
