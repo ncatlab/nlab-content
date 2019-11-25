@@ -1,4 +1,3 @@
-[[!redirects chord diagrams modulo 4T are Chern-Simons diagrams modulo STU]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -22,15 +21,26 @@ Consider
 
 1. the [[set]] $\mathcal{D}^c$ of [[chord diagrams]];
 
-1. the set $\mathcal{D}^t$ of [[Jacobi diagrams]];
+1. the [[set]] $\mathcal{D}^t$ of [[Jacobi diagrams]];
+
 
 Write
 
-* $\mathcal{D}^c \overset{i}{\hookrightarrow} \mathcal{D}^t$ for the canonical [[injection]];
+\[
+  \label{InjectionOfChordDiagramsIntoJacobiDiagrams}
+  \mathcal{D}^c 
+    \overset{i}{\hookrightarrow} 
+  \mathcal{D}^t
+\]
 
-* $Span(\mathcal{D}^c)$ and $Span(\mathcal{D}^t)$, respectively, for the [[linear span]] of these sets 
+for the canonical [[injection]], regarding [[chord diagrams]] as [[Jacobi diagrams]] without internal [[vertices]], hence with all [[vertices]] on the circle.
 
-  > [[characteristic zero]] necessary?
+For $R \in $ [[CRing]] a [[commutative ring]], write
+
+1. $R\langle \mathcal{D}^c \rangle$ for the $R$-[[linear span]] of [[chord diagrams]];
+
+1. $R\langle \mathcal{D}^t \rangle$ for the $R$[[linear span]] of [[Jacobi diagrams]]
+
 
 and finally
 
@@ -38,12 +48,12 @@ and finally
   \label{QuotientSpaces}
   \mathcal{A}^c 
     \;\coloneqq\;
-  Span(\mathcal{D}^c)/4T 
+  R\langle \mathcal{D}^c \rangle/4T 
   \,,
   \phantom{AAAA}
   \mathcal{A}^t 
     \;\coloneqq\;
-  Span(\mathcal{D}^t)/STU
+  R\langle \mathcal{D}^t\rangle/STU
 \]
 
 for the respective [[quotient spaces]] by the [[4T relations]] 
@@ -62,7 +72,7 @@ respectively.
 
 ## Statement
 
-The linear extension of the canonical inclusion $\mathbb{D}^c \overset{i}{\hookrightarrow} \mathbb{D}^t$ descends to the quotients (eq:QuotientSpaces) and yields a [[linear isomorphism]]:
+The linear extension of the canonical inclusion $\mathbb{D}^c \overset{i}{\hookrightarrow} \mathbb{D}^t$ (eq:InjectionOfChordDiagramsIntoJacobiDiagrams) descends to the quotients (eq:QuotientSpaces) and yields a [[linear isomorphism]]:
 
 $$
   \mathcal{A}^c
@@ -84,6 +94,22 @@ The key step of the **proof** is to observe that the [[STU-relations]] imply the
 
 > graphics grabbed form [Bar-Natan & Stoimenow 97](#BarNatanStoimenow97)
 
+## Application
+
+### Relation to weight systems
+
+The immediate consequence is that the space of [[framed weight systems]] $\mathcal{W}$, which by definition is the [[dual vector space]] to the [[linear span]] of [[chord diagrams]] [[quotient vector space|modulo]] the [[4T-relations]], is equiuvalently also the [[dual vector space]] to the [[linear span]] of [[chord diagrams]] [[quotient vector space|modulo]] the [[4T-relations]]:
+
+$$
+  \begin{aligned}
+    \mathcal{W}
+    & \coloneqq
+    (\mathcal{A}^c)^\ast
+    \\
+    & \simeq 
+    (\mathcal{A}^t)^\ast
+  \end{aligned}
+$$
 
 ## Related concepts
 
@@ -103,16 +129,8 @@ Lecture notes
 
 Textbook accounts:
 
-* {#ChmutovDuzhinMostovoy11} S. Chmutov, Sergei Duzhin, J. Mostovoy, Sectin 5.3 of  _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv/1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
+* {#ChmutovDuzhinMostovoy11} [[Sergei Chmutov]], [[Sergei Duzhin]], [[Jacob Mostovoy]], Section 5.3 of  _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv:1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
 
 
+[[!redirects chord diagrams modulo 4T are Chern-Simons diagrams modulo STU]]
 
-[[!redirects 4T relation]]
-[[!redirects 4T relations]]
-[[!redirects 4T-relation]]
-[[!redirects 4T-relations]]
-
-[[!redirects STU relation]]
-[[!redirects STU relations]]
-[[!redirects STU-relation]]
-[[!redirects STU-relations]]
