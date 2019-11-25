@@ -925,7 +925,14 @@ $$ E^{(2)}_{p,q} \simeq H_p(B,\mathcal{H}_q(A|_{b})) $$
 
 * [[Cartan-Eilenberg spectral sequence]]
 
+\linebreak
+
 [[!include Lurie spectral sequences -- table]]
+
+\linebreak
+
+[[!include filtered objects -- contents]]
+
 
 ## References
 
