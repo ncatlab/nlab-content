@@ -180,7 +180,7 @@ Textbook accounts:
 
 Further review:
 
-* {#BarNatan95} [[Dror Bar-Natan]], _On the Vassiliev knot invariants_, Topology Volume 34, Issue 2, April 1995, Pages 423-472 ([web](http://www.math.toronto.edu/~drorbn/papers/OnVassiliev/), <a href="https://doi.org/10.1016/0040-9383(95)93237-2">doi:10.1016/0040-9383(95)93237-2</a>)
+* {#BarNatan95} [[Dror Bar-Natan]], _On the Vassiliev knot invariants_, Topology Volume 34, Issue 2, April 1995, Pages 423-472 (<a href="https://doi.org/10.1016/0040-9383(95)93237-2">doi:10.1016/0040-9383(95)93237-2</a>, [pdf](https://www.math.toronto.edu/drorbn/papers/OnVassiliev/OnVassiliev.pdf))
 
 * [[Simon Willerton]], _On the Vassiliev invariants for knots and for pure braids_, 1997 ([hdl:1842/11581](http://hdl.handle.net/1842/11581), [ethos.663801](https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.663801), [[WillertonVasdilievInvariants1997.pdf:file]])
 
