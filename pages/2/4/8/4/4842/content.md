@@ -60,11 +60,41 @@ The importance of this construction for singular knots comes from the fact that 
 +-- {: .un_theorem}
 ######Theorem 
 
-Let $v$ be a Vassiliev invariant of degree $\le n$.  Then the value of $v$ on a singular knot with $n$ distinct double points depends only on the chord diagram of the knot, and not on the knot itself.
+Let $v$ be a Vassiliev invariant of degree $\le n$.  Then the value of $v$ on a singular knot with $n$ distinct double points depends only on the [[chord diagram]] of the singular knot, and not on the knot itself.
 
 =-- 
 
-Conversely, one can ask which functions on chord diagrams come from finite type invariants.  The answer is that Vassiliev invariants (of degree $\le n$) can essentially be identified with _weight systems_ (of order $n$), which are functions on chord diagrams (of order $n$) satisfying two properties called the "1-term relation" (or "framing independence") and the "4-term relation": see Theorem 1 of [Bar-Natan 95](#BarNatan95) (or Theorem 6.2.13 of [Lando & Zvonkin](#LandoZvonkin)).
+Conversely, one can ask which functions on chord diagrams come from finite type invariants.  The answer is that Vassiliev invariants (of degree $\le n$) can essentially be identified with _[[weight systems]]_ (of order $n$), which are functions on chord diagrams (of order $n$) satisfying two properties called the "[[1T relation]]" (or "framing independence") and the "[[4T relation]]": see Theorem 1 of [Bar-Natan 95](#BarNatan95) (or Theorem 6.2.13 of [Lando & Zvonkin](#LandoZvonkin)):
+
+
+
+
++-- {: .num_prop #WeightSystemsAreAssociatedGradedOfVassilievInvariants}
+###### Proposition
+**([[weight systems are associated graded of Vassiliev invariants]])**
+
+For [[ground field]] $k = \mathbb{R}, \mathbb{C}$ the [[real numbers]] or [[complex numbers]], there is for each [[natural number]] $n \in \mathbb{N}$ a canonical [[linear isomorphism]]
+
+$$
+  \mathcal{V}_n/\mathcal{V}_{n-1}
+  \underoverset{\simeq}{\phantom{AAAA}}{\longrightarrow}
+  \big( 
+    \mathcal{A}_n^u
+  \big)^\ast
+$$
+
+from 
+
+1. the [[quotient vector space]] of order-$n$ [[Vassiliev invariants]] of [[knots]] by those of order $n-1$ 
+
+1. to the space of [[unframed weight systems]] of order $n$.
+
+In other words, in [[characteristic zero]], the [[graded vector space]] of [[unframed weight systems]] is the [[associated graded vector space]] of the [[filtered vector space]] of [[Vassiliev invariants]].
+
+=--
+
+([Bar-Natan 95, Theorem 1](#BarNatan95), following [Kontsevich 93](#Kontsevich93))
+
 
 ### Relation to homology of loop spaces of configuration spaces of points
   {#RelationToHomologOfLoopSpacesOfConfigurationSpaces}
@@ -136,6 +166,62 @@ and is related to the complex [[dimensions]] of spaces of Vassiliev invariants a
 \]
 
 ([Cohen-Gitler 01, Prop. 9.1](#CohenGitler01), based on [Cohen 76](#Cohen76) and [Kohno 94](#Kohno94))
+
+\linebreak
+
+Alternatively, we have the combination of the following two facts, via [[weight systems]]:
+
+
++-- {: .num_prop #WeightSystemsAreCohomologyOfLoopSpaceOfConfigurationSpace}
+###### Proposition
+**([[weight systems are cohomology of loop space of configuration space]])**
+
+For [[ground field]] $k = \mathbb{R}$ the [[real numbers]], 
+there is a canonical [[injection]] of the [[real vector space]] $\mathcal{W}$ of [[framed weight systems]] (eq:SpaceOfWeightSystemsAsLinearDual) into the [[real cohomology]] of the [[based loop spaces]] of the ordered [[configuration spaces of points]] in 3-[[dimension|dimensional]] [[Euclidean space]]:
+
+$$
+  \mathcal{W}
+  \;\overset{\;\;\;\;}{\hookrightarrow}\;
+  H^\bullet
+  \Big(
+    \Omega 
+    \underset{{}^{\{1,\cdots,n\}}}{Conf}
+    \big(
+      \mathbb{R}^3 
+    \big)
+  \Big)
+$$
+
+=--
+
+This is stated as [Kohno 02, Theorem 4.2](#Kohno02).
+
++-- {: .num_prop #WeightSystemsAreAssociatedGradedOfVassilievInvariants}
+###### Proposition
+**([[weight systems are associated graded of Vassiliev invariants]])**
+
+For [[ground field]] $k = \mathbb{R}, \mathbb{C}$ the [[real numbers]] or [[complex numbers]], there is for each [[natural number]] $n \in \mathbb{N}$ a canonical [[linear isomorphism]]
+
+$$
+  \mathcal{V}_n/\mathcal{V}_{n-1}
+  \underoverset{\simeq}{\phantom{AAAA}}{\longrightarrow}
+  \big( 
+    \mathcal{A}_n^u
+  \big)^\ast
+$$
+
+from 
+
+1. the [[quotient vector space]] of order-$n$ [[Vassiliev invariants]] of [[knots]] by those of order $n-1$ 
+
+1. to the space of [[unframed weight systems]] of order $n$.
+
+In other words, in [[characteristic zero]], the [[graded vector space]] of [[unframed weight systems]] is the [[associated graded vector space]] of the [[filtered vector space]] of [[Vassiliev invariants]].
+
+=--
+
+([Bar-Natan 95, Theorem 1](#BarNatan95), following [Kontsevich 93](#Kontsevich93))
+
 
 
 
