@@ -72,8 +72,17 @@ The [[spectral sequence of a filtered stable homotopy type]] associated with the
 
 [[!include Lurie spectral sequences -- table]]
 
+\linebreak
 
 [[!redirects filtered objects in an (∞,1)-category]]
+
+\linebreak
+
+[[!include filtered objects -- contents]]
+
+
+
+
 
 [[!redirects filtered object in an (infinity,1)-category]]
 [[!redirects filtered objects in an (infinity,1)-category]]
