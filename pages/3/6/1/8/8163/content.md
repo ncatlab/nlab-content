@@ -23,13 +23,8 @@ A _filtered chain complex_ is a [[filtered object]] in a [[category of chain com
 
 ## Related concepts
 
-* [[associated graded]]
+[[!include filtered objects -- contents]]
 
-* [[spectral sequence of a filtered complex]]
-
-* [[filtered stable homotopy type]]
-
-* [[spectral sequence of a filtered stable homotopy type]]
 
 ## References
 
