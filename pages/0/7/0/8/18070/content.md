@@ -1244,8 +1244,32 @@ This is due to [Kohno 02](#Kohno02). See also [Lambrechts-Tourtchine 09, Section
 \linebreak
 
 
+### Relation to weight systems 
 
++-- {: .num_prop #WeightSystemsAreCohomologyOfLoopSpaceOfConfigurationSpace}
+###### Proposition
+**([[weight systems are cohomology of loop space of configuration space]])**
 
+For [[ground field]] $k = \mathbb{R}$ the [[real numbers]], 
+there is a canonical [[injection]] of the [[real vector space]] $\mathcal{W}$ of [[framed weight systems]] (eq:SpaceOfWeightSystemsAsLinearDual) into the [[real cohomology]] of the [[based loop spaces]] of the ordered [[configuration spaces of points]] in 3-[[dimension|dimensional]] [[Euclidean space]]:
+
+$$
+  \mathcal{W}
+  \;\overset{\;\;\;\;}{\hookrightarrow}\;
+  H^\bullet
+  \Big(
+    \underset{n \in \mathbb{N}}{\sqcup}
+    \Omega 
+    \underset{{}^{\{1,\cdots,n\}}}{Conf}
+    \big(
+      \mathbb{R}^3 
+    \big)
+  \Big)
+$$
+
+=--
+
+This is stated as [Kohno 02, Theorem 4.2](#Kohno02).
 
 
 
