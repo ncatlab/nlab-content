@@ -145,11 +145,20 @@ And on the other end the D6-branes may end on [[D8-branes]] over an NS5-brane ([
 
 > graphics grabbed from [Gaiotto-Tomasiello 14](#GaiottoTomasiello14)
 
+Subject to the [[s-rule]]:
+
 <center>
 <img src="https://ncatlab.org/nlab/files/D6D8BraneIntersectionsSubjetToSRule.jpg" width="600">
 </center>
 
 > graphics grabbed from [Fazzi 17](#Fazzi17)
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/D6D8BraneIntersectionWithImplicitSRume.jpg" width="600">
+</center>
+
+> graphics grabbed from [GKSTY 02](#GKSTY02)
 
 [[fuzzy funnel]] [[noncommutative geometry]]:
 
@@ -196,7 +205,7 @@ Here we are showing
 
 1. the [[NS5-branes]].
 
-
+> graphics grabbed from [Sati-Schreiber 20]()
 
 
 
