@@ -17,18 +17,42 @@
 
 The special case of [[Dp-D(p+2)-brane bound state]] for [[D6-brane|D6]]-[[D8-brane]] [[bound states]].
 
+
+
 ## Properties
 
 ### Fuzzy funnel geometry
  {#FuzzyFunnelGeometry}
 
-The [[fuzzy funnel]]/[[fuzzy 2-sphere]] [[noncommutative geometry]] of $D6\BOT d8$-brane intersections, from the point of the of the [[D6-brane]] non-abelian [[DBI-action]] ([Gaiotto-Tomassiello 14](#GaiottoTomassiello14), [Fazzi 17, p. 41-46](#Fazzi17)):
+The [[fuzzy funnel]]/[[fuzzy 2-sphere]] [[noncommutative geometry]] of $D6\BOT d8$-brane intersections, from the point of the of the [[D6-brane]] non-abelian [[DBI-action]] ([Gaiotto-Tomasiello 14](#GaiottoTomasiello14), [Fazzi 17, p. 41-46](#Fazzi17)):
 
 <center>
 <img src="https://ncatlab.org/nlab/files/D6D8FuzzyFunnel.jpg" width="600">
 </center>
 
-> graphics grabbed from [Fazzi 17, Fig. 3.14](#Fazzi17), taken in turn from [Gaiotto-Tomassiello 14, Figure 5](#GaiottoTomassiello14)
+> graphics grabbed from [Fazzi 17, Fig. 3.14](#Fazzi17), taken in turn from [Gaiotto-Tomasiello 14, Figure 5](#GaiottoTomasiello14)
+
+
+<img src="https://ncatlab.org/nlab/files/GaiottoNS5D6.jpg" width="600">
+
+> graphics grabbed from [Gaiotto-Tomasiello 14](#GaiottoTomasiello14)
+
+
+### The s-rule
+
+By the [[s-rule]] a [[supersymmetry|supersymmetric]] configurations of [[D6-branes]] stretching between [[NS5-branes]] and [[D8-branes]] has at most one [[D6-brane]] ending on any [[D8-brane]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/D6D8BraneIntersectionsSubjetToSRule.jpg" width="600">
+</center>
+
+> graphics grabbed from [Fazzi 17](#Fazzi17)
+
+
+<img src="https://ncatlab.org/nlab/files/GaiottoNS5D6.jpg" width="600">
+
+> graphics grabbed from [Gaiotto-Tomasiello 14](#GaiottoTomasiello14)
+
 
 ### As QCD Monopoles in the Witten-Sakai-Sugimoto model
  {#AsQCDMnopoles}
@@ -91,7 +115,7 @@ On [[D6-D8-brane bound states]] as [[black brane]]-solutions in [[massive type I
 
 With emphases of the [[fuzzy funnel]] [[noncommutative geometry]]:
 
-* {#GaiottoTomassiello14} [[Davide Gaiotto]], [[Alessandro Tomasiello]], _Holography for $(1,0)$ theories in six dimensions_, JHEP 12 (2014) 003 ([arXiv:1404.0711](https://arxiv.org/abs/1404.0711))
+* {#GaiottoTomasiello14} [[Davide Gaiotto]], [[Alessandro Tomasiello]], _Holography for $(1,0)$ theories in six dimensions_, JHEP 12 (2014) 003 ([arXiv:1404.0711](https://arxiv.org/abs/1404.0711))
 
 * {#Fazzi17} [[Marco Fazzi]], p. 41-46 of: _Higher-dimensional field theories from type II supergravity_ ([arxiv:1712.04447](https://arxiv.org/abs/1712.04447))
 
