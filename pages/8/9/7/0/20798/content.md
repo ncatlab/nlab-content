@@ -53,6 +53,12 @@ By the [[s-rule]] a [[supersymmetry|supersymmetric]] configurations of [[D6-bran
 
 > graphics grabbed from [Gaiotto-Tomasiello 14](#GaiottoTomasiello14)
 
+<center>
+<img src="https://ncatlab.org/nlab/files/D6D8BraneIntersectionWithImplicitSRume.jpg" width="600">
+</center>
+
+> graphics grabbed from [GKSTY 02](NS5-brane#GKSTY02)
+
 
 ### As QCD Monopoles in the Witten-Sakai-Sugimoto model
  {#AsQCDMnopoles}
