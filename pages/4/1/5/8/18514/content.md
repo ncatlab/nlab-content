@@ -464,7 +464,7 @@ are [[continuous linear functionals]] in the standard sense of [[distributions]]
 [[Schwartz kernel theorem]]  implies the existence of [[integral kernels]] being [[distributions in two variables]]
 
 $$
-\Delta_{\pm} \in \mathcal{D}(\mathbb{R}^{p,1} \times \mathbb{R}^{p,1})
+\Delta_{\pm} \in \mathcal{D}'(\mathbb{R}^{p,1} \times \mathbb{R}^{p,1})
 $$
 
 such that, in the notation of [[generalized functions]],
