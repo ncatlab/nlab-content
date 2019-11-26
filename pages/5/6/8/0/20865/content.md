@@ -9,18 +9,21 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea 
 
-In [[knot theory]] a _framed weight system_ is an assignment of [[numbers]] to [[chord diagrams]] which is [[invariant]] under the [[4T-relation]]. 
+In [[knot theory]] a _framed weight system_ is an assignment of [[numbers]] to [[chord diagrams]] that is [[invariant]] under the [[4T-relation]]. 
 
 If the assignment is in addition invariant under the [[1T-relation]], then it is called an _unframed weight system_, or just _weight system_, for short.
 
+Similarly, in [[braid group]]-theory, a _horizontal weight system_ is an assignment of [[numbers]] to [[horizontal chord diagrams]] that is invariant under the horizontal [[2T relation]] and horizontal [[4T relation]].
+ 
 ## Definition
+
+### Weight systems (circular)
 
 +-- {: .num_defn #LinearSpanOfChordDiagramsModulo4T}
 ###### Definition
@@ -40,7 +43,7 @@ Let $k$ be a [[field]] of [[characteristic zero]]. Write
 ###### Definition
 **([[framed weight system]])**
 
-A _$k$-values framed weight system_ is a [[linear function]] on the [[linear span]] of [[chord diagrams]] [[quotient vector space|modulo]] [[4T-relations]] (Def. \ref{LinearSpanOfChordDiagramsModulo4T})
+A _$k$-valued framed weight system_ is a [[linear function]] on the [[linear span]] of [[chord diagrams]] [[quotient vector space|modulo]] [[4T-relations]] (Def. \ref{LinearSpanOfChordDiagramsModulo4T})
 
 $$
   w 
@@ -133,6 +136,10 @@ of the [[quotient vector space]] $\mathcal{A}^t \coloneqq k\langle \mathcal{D}^t
 
 =--
 
+### Horizontal weight systems
+
+(...)
+
 ## Properties
 
 ### As the associated graded space of Vassiliev invariants
@@ -216,7 +223,8 @@ we get this situation:
 
 ## Related concepts
 
-* [[Vassiliev invariant]]
+[[!include chord diagrams and weight systems -- table]]
+
 
 * [[Kontsevich integral]]
 
@@ -229,6 +237,10 @@ Textbook accounts
 * {#ChmutovDuzhinMostovoy11} [[Sergei Chmutov]], [[Sergei Duzhin]], [[Jacob Mostovoy]], Section 4 of:  _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv:1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
 
 * {#JacksonMoffat19} [[David Jackson]], [[Iain Moffat]], Section 11.7 of: _An Introduction to Quantum and Vassiliev Knot Invariants_, Springer 2019 ([doi:10.1007/978-3-030-05213-3](https://link.springer.com/book/10.1007/978-3-030-05213-3))
+
+### From Lie algebras
+
+* E. Kulakova, S. Lando, T. Mukhutdinova, G. Rybnikov, _On a weight system conjecturally related to $\mathfrak{sl}_2$_, European Journal of Combinatorics Volume 41, October 2014, Pages 266-277 ([arXiv:1307.4933](https://arxiv.org/abs/1307.4933))
 
 
 ### As the associated graded space of Vassiliev invariants
@@ -264,5 +276,8 @@ In: Yoshiaki Maeda, Hideki Omori and [[Alan Weinstein]] (eds.), _Symplectic Geom
 
 [[!redirects un-framed weight system]]
 [[!redirects un-framed weight systems]]
+
+[[!redirects horizontal weight system]]
+[[!redirects horizontal weight systems]]
 
 
