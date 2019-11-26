@@ -446,6 +446,8 @@ $$
 
 * [[braid category]]
 
+[[!include chord diagrams and weight systems -- table]]
+
 
 ## References
 
