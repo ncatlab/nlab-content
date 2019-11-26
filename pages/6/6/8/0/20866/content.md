@@ -40,6 +40,8 @@ For [[horizontal chord diagrams]] the 4T relations is the following:
 
 ([Bar-Natan 96, p. 3](#BarNatan96))
 
+When the [[linear span]] of [[horizontal chord diagrams]] is regarded as an [[associative algebra]] under concatenation of diagrams along strands, this relation is part of the [[infinitesimal braid relation]].
+
 ## Properties
 
 ### Relation to STU-relations
@@ -55,12 +57,11 @@ For [[horizontal chord diagrams]] the 4T relations is the following:
 
 ## Related concepts
 
-* [[weight system]]
+* [[infinitesimal braid relation]]
 
 * [[STU relation]]
 
-* [[Vassiliev invariant]]
-
+[[!include chord diagrams and weight systems -- table]]
 
 ## References
 
