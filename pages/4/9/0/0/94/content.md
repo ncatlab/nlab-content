@@ -157,12 +157,12 @@ such that the following conditions hold:
 
    where $\chi(\sigma,v_1,\cdots, v_n)$ is the $(v_1,\cdots,v_n)$-graded signature of the permuation $\sigma$, according to def. \ref{GradedSignatureOfPermutation};
 
-1. (**strong homotopy [[Jacobi identity]]**) for all $n \in \mathbb{N}$, and for all [[n-tuple|(n+1)-tuples]] $(v_1, \cdots, v_{n+1})$ of homogeneously graded elements $v_i \in \mathfrak{g}_{\vert v_i \vert}$ the followig [[equation]] holds
+1. (**strong homotopy [[Jacobi identity]]**) for all $n \in \mathbb{N}$, and for all [[n-tuple|$n$-tuples]] $(v_1, \cdots, v_n)$ of homogeneously graded elements $v_i \in \mathfrak{g}_{\vert v_i \vert}$ the followig [[equation]] holds
 
    \[
      \label{LInfinityJacobiIdentity}
      \sum_{{i,j \in \mathbb{N}} \atop {i+j = n+1}} 
-     \sum_{\sigma \in UnShuff(i,j)}
+     \sum_{\sigma \in UnShuff(i,j-1)}
      \chi(\sigma,v_1, \cdots, v_{n})
      (-1)^{i(j-1)}
       l_{j} \left(
@@ -173,7 +173,7 @@ such that the following conditions hold:
      \,,
    \]
 
-   where the inner sum runs over all $(i,j)$-[[unshuffles]] $\sigma$ and where $\chi$ is the graded signature sign from def. \ref{GradedSignatureOfPermutation}.
+   where the inner sum runs over all $(i,j-1)$-[[unshuffles]] $\sigma$ and where $\chi$ is the graded signature sign from def. \ref{GradedSignatureOfPermutation}.
 
 =--
 
