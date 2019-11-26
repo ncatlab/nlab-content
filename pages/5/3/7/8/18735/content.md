@@ -26,7 +26,7 @@ Often the convolution product is considered in [[analysis]] for suitably [[integ
 $$
   (f_1 \star f_2)(x)
   \;\coloneqq\;
-  \int_{t \in\mathbb{R}} f_1(t) f_2(x-t) \, d x
+  \int_{t \in\mathbb{R}} f_1(t) f_2(x-t) \, d t
   \,.
 $$
 
