@@ -159,11 +159,8 @@ However, such chord diagrams nonetheless play an important role in the theory of
 
 ## Related concepts
 
-* [[horizontal chord diagram]]
+[[!include chord diagrams and weight systems -- table]]
 
-* [[weight system]]
-
-* [[Vassiliev invariant]]
 
 * [[combinatorial map]]
 
