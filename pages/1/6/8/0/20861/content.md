@@ -64,9 +64,8 @@ The term "Jacobi diagram" ([Chmutov-Duzhin-Mostovoy 11, Chapter 5](#ChmutovDuzhi
 
 ## Related concepts
 
-* [[weight system]]
+[[!include chord diagrams and weight systems -- table]]
 
-* [[Vassiliev invariant]]
 
 ## References
 
