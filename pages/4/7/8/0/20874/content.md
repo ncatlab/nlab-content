@@ -27,7 +27,7 @@ Together with the horizontal [[4T relations]] these are the relations respected 
 
 ## Related concepts
 
-[[chord diagrams and weight systems -- table]]
+[[!include chord diagrams and weight systems -- table]]
 
 ## References
 
