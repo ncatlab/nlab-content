@@ -1,3 +1,9 @@
+
+> This entry is about standard circular chord diagrams. For [[horizontal chord diagrams]] see there.
+
+***
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -16,13 +22,13 @@
 
 ## Idea
 
-A _chord diagram_ is a graphical representation of a matching on a (cyclically or linearly) ordered set.
+A _chord diagram_ is a trivalent [[graph]] with an embedded [[circle]]
+and all [[vertices]] on that circle.
 Chord diagrams are a basic object of study in [[combinatorics]] with applications in diverse areas, notably in [[knot theory]].
-They come in both _rooted_ and _unrooted_ versions.
 
-### Illustration
 
-A typical graphical representation of a chord diagram is as a [[circle]] with some marked [[points]] and [[lines]] connecting those points, something like so:
+Here is a typical chord diagram:
+
 <center>
 [[!include chord diagram > chord diagram unlabelled]]
 </center>
@@ -31,6 +37,7 @@ If we label the points of the diagram,
 [[!include chord diagram > chord diagram]]
 </center>
 then the chords can be seen as describing a matching (or equivalently, an [[involution]]) on the set of marked points which pairs (or equivalently, _swaps_) $A$ with $C$, $B$ with $D$, and $E$ with $F$.
+
 The marked points are also equipped with a cyclic order coming from the orientation of the circle, and the subtle point is that a chord diagram can have non-trivial [[symmetries]] when considered up to this action of rotation.
 For that reason, in many situations it is useful to equip the circle with a distinguished [[basepoint]] (distinct from the marked points), the result being called a "rooted" diagram.
 Rooted chord diagrams may be conveniently visualized by "cutting open" the circle at the basepoint.
@@ -152,9 +159,15 @@ However, such chord diagrams nonetheless play an important role in the theory of
 
 ## Related concepts
 
-* [[involution]]
+* [[horizontal chord diagram]]
+
+* [[weight system]]
+
 * [[Vassiliev invariant]]
+
 * [[combinatorial map]]
+
+
 
 ## References
 
