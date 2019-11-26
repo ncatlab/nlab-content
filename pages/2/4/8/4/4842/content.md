@@ -345,9 +345,12 @@ Reviewed in:
 
 #### General
 
-Vassiliev invariants of [[braid group|braids]] via [[chord diagrams]]:
+Vassiliev invariants of [[braid group|braids]] via [[horizontal chord diagrams]]:
 
 * {#BarNatan96} [[Dror Bar-Natan]], _Vassiliev and Quantum Invariants of Braids_, Geom. Topol. Monogr. 4 (2002) 143-160 ([arxiv:q-alg/9607001](https://arxiv.org/abs/q-alg/9607001))
+
+* Louis Funar, _Vassiliev invariants I: Braid groups and rational homotopy theory_ ([arXiv:q-alg/9510008](https://arxiv.org/abs/q-alg/9510008))
+
 
 
 #### As observables on fuzzy spheres
