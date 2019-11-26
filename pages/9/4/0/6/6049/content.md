@@ -139,12 +139,26 @@ Next, this construction may be repeated, having the [[D6-branes]] end on differe
 
 #### D6 branes intersecting D8-branes over NS5-branes
 
-And on the other end the D6-branes may end on [[D8-branes]] over an NS5-brane ([Janssen-Meessen-Ortin 99, Section 3](#JanssenMeessenOrtin99)).
-
+And on the other end the D6-branes may end on [[D8-branes]] over an NS5-brane ([Janssen-Meessen-Ortin 99, Section 3](#JanssenMeessenOrtin99)) yielding [[D6-D8 brane intersections]]:
 
 <img src="https://ncatlab.org/nlab/files/GaiottoNS5D6.jpg" width="600">
 
 > graphics grabbed from [Gaiotto-Tomasiello 14](#GaiottoTomasiello14)
+
+<center>
+<img src="https://ncatlab.org/nlab/files/D6D8BraneIntersectionsSubjetToSRule.jpg" width="600">
+</center>
+
+> graphics grabbed from [Fazzi 17](#Fazzi17)
+
+[[fuzzy funnel]] [[noncommutative geometry]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/D6D8FuzzyFunnel.jpg" width="600">
+</center>
+
+> graphics grabbed from [Fazzi 17, Fig. 3.14](#Fazzi17), taken in turn from [Gaiotto-Tomassiello 14, Figure 5](#GaiottoTomassiello14)
+
 
 Generally [[Dp-D(p+2)-brane intersections]] [[geometric engineering of QFT|geometrically engineer]] [[Yang-Mills monopoles]] in the [[worldvolume]] of the higher dimensional D$(p+2)$-branes.
 
@@ -174,7 +188,7 @@ Here we are showing
 
 1. the [[baryon]] [[D4-branes]]
 
-   (see below at _[WSS -- Baryons](Witten-Sakai-Sugimoto+model#Baryons)_)
+   (see at _[WSS -- Baryons](Witten-Sakai-Sugimoto+model#Baryons)_)
 
 1. the [[Yang-Mills monopole]] [[D6-branes]] 
 
