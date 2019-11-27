@@ -420,6 +420,11 @@ Discussion of  [[Lie algebra extensions]] for super Lie algebras includes
 
 * [[Dmitri Alekseevsky]], [[Peter Michor]], Wolfgang Ruppert, _Extensions of super Lie algebras_, J. Lie Theory 15 (2005) No. 1, 125--134 ([arXiv:math/0101190](http://arxiv.org/abs/math/0101190))
 
+On [[Lie algebra weight systems]] arising from [[super Lie algebras]]:
+
+* {#FFKV97} [[José Figueroa-O’Farrill]], [[Takashi Kimura]], [[Arkady Vaintrob]], _The universal Vassiliev invariant for the Lie superalgebra $\mathfrak{gl}(1\vert1)$_, Commun. Math. Phys. 185 (1997) 93-127 ([arXiv:q-alg/9602014](https://arxiv.org/abs/q-alg/9602014))
+
+
 
 [[!redirects Lie superalgebra]]
 [[!redirects super Lie algebras]]
