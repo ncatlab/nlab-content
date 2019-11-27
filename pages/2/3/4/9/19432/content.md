@@ -63,7 +63,7 @@ Lift of and relation to [[string networks]] is discussed in
 
 Possible relation to [[hypermatrices]] is discussed in
 
-* {#FLST10} Yuhan Fang, Shir Levkowitz, [[Hisham Sati]], Daniel Thompson, _Hypermatrix factors for string and membrane junctions_, J.Phys.A43:505401, 2010 ([arXiv:1001.5166](https://arxiv.org/abs/1001.5166))
+* {#FLST10} Yuhan Fang, Shir Levkowitz, [[Hisham Sati]], Daniel Thompson, _Hypermatrix factors for string and membrane junctions_, J. Phys. A43: 505401, 2010 ([arXiv:1001.5166](https://arxiv.org/abs/1001.5166))
 
 [[!redirects triple membrane junctions]]
 
