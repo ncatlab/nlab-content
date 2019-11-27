@@ -57,5 +57,5 @@ In other words, in [[characteristic zero]], the [[graded vector space]] of [[unf
 
 * {#BarNatan95} [[Dror Bar-Natan]], _On the Vassiliev knot invariants_, Topology Volume 34, Issue 2, April 1995, Pages 423-472 (<a href="https://doi.org/10.1016/0040-9383(95)93237-2">doi:10.1016/0040-9383(95)93237-2</a>, [pdf](https://www.math.toronto.edu/drorbn/papers/OnVassiliev/OnVassiliev.pdf))
 
-
+[[!redirects horizontal weight systems are associated graded of Vassiliev braid invaraints]]
 
