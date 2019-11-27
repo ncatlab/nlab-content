@@ -69,6 +69,16 @@ If $X$ is a variety over a field of positive characteristic $p$, the terms "$O_X
 
 Discussion of [[six operations yoga]] for pull-push of ([[coherent D-module|coherent]], [[holonomic D-module|holonomic]]) D-modules is in ([Bernstein, around p. 18](#Bernstein)). This is  reviewed for instance in ([Etingof](#Etingof), [Ben-Zvi & Nadler 09](#BenZviNadler09)).
 
+The most efficient and intuitive way to define the [[six operations]]
+on D-modules is to transfer them from [[Ω-modules]]
+(i.e., modules over the differential graded algebra
+of differential forms)
+using [[Koszul duality]].
+The [[six operations]] on [[Ω-modules]] can be defined
+in the standard way using the fact that differential
+forms can be pulled back, unlike differential operators.
+See the article [[Koszul duality]] for more information.
+
 ### Relation to geometric representation theory
  {#RelationToGeometricRepresentationTheory}
 
