@@ -43,7 +43,7 @@ of Drinfeld centers. Then we spell out what this means in components in
 
 For $(\mathcal{C}, \otimes)$ a [[monoidal category]], write $\mathbf{B}_\otimes \mathcal{C}$ for its [[delooping]], the pointed [[2-category]] with a single [[object]] $*$ such that $Hom_{\mathbf{B}_\otimes \mathcal{C}}(*, *) \simeq \mathcal{C}$.
 
-The **Drinfeld center** $Z(\mathcal{C}, \otimes)$ of $(C, \otimes)$ is the [[monoidal category]] of [[endofunctor|endo]]-[[pseudonatural transformations]] of the [[identity]]-[[2-functor]] on $\mathbf{B}_\otimes \mathcal{C}$:
+The **Drinfeld center** $Z(\mathcal{C}, \otimes)$ of $(\mathcal{C}, \otimes)$ is the [[monoidal category]] of [[endofunctor|endo]]-[[pseudonatural transformations]] of the [[identity]]-[[2-functor]] on $\mathbf{B}_\otimes \mathcal{C}$:
 
 $$
   Z(\mathcal{C}, \otimes)
