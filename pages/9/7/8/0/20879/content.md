@@ -43,6 +43,21 @@ Review and highlighting of the [[fuzzy funnel]] geometry with [[fuzzy 2-sphere]]
 
 * {#Fazzi17} [[Marco Fazzi]], Section 3.2.3 of: _Higher-dimensional field theories from type II supergravity_ ([arxiv:1712.04447](https://arxiv.org/abs/1712.04447))
 
+With emphasis on the [[Hanany-Witten effect]]:
+
+* Benjamin Assel, _Hanany-Witten effect and $SL(2,\mathbb{Z})$ dualities in matrix models_, JHEP 10 (2014) 117 ([arXiv:1406.5194](https://arxiv.org/abs/1406.5194))
+
+
+* Naotaka Kubo, Sanefumi Moriyama, _Hanany-Witten Transition in Quantum Curves_ ([arXiv:1907.04971](https://arxiv.org/abs/1907.04971))
+
+See also
+
+* Curtis G. Callan, Alberto Guijosa, Konstantin G. Savvidy, 
+_Baryons and String Creation from the Fivebrane Worldvolume Action_, Nucl.Phys. B547 (1999) 127-142 ([arXiv:hep-th/9810092](https://arxiv.org/abs/hep-th/9810092))
+
+
+
+
 [[!redirects D3-D5 brane bound states]]
 [[!redirects D3-D5-brane bound state]]
 [[!redirects D3-D5-brane bound states]]
