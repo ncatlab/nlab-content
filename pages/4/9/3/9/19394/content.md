@@ -78,6 +78,12 @@ In contrast, if both ends of the [[M2-brane]] are on an [[M5-brane]], some autho
 
 * {#GHKKLV15} Abhijit Gadde, Babak Haghighat, Joonho Kim, Seok Kim, Guglielmo Lockhart, [[Cumrun Vafa]], _6d String Chains_, JHEP 1802 (2018) 143 ([arXiv:1504.04614](https://arxiv.org/abs/1504.04614)) 
 
+### In F-theory
+
+Discussion in [[F-theory]]:
+
+* Jie Gu, Babak Haghighat, [[Albrecht Klemm]], Kaiwen Sun, Xin Wang, _Elliptic Blowup Equations for 6d SCFTs. III: E--strings, M--strings and Chains_ ([arXiv:1911.11724](https://arxiv.org/abs/1911.11724))
+
 ### Relation to D$p$-D$(p+2)$-brane bound states
 
 The lift of [[Dp-D(p+2)-brane bound states]] in [[string theory]] to [[M2-M5-brane bound states]]/[[E-strings]] in  [[M-theory]], under [[duality between M-theory and type IIA string theory]]+[[T-duality]], via generalization of [[Nahm's equation]] (eventually motivating the [[BLG model]]/[[ABJM model]]):
