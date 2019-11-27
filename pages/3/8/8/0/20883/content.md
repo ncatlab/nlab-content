@@ -19,7 +19,9 @@
 
 ## Idea
 
-In [[knot theory]], a large class of [[weight systems]] arises from reading a ([[horizontal chord diagram|horizontal]]) [[chord diagram]] as a [[string diagram]] in the evident way, and then labelling it by the structure morphisms of a [[Lie algebra object]] equipped with an [[invariant polynomial|invariant]] metric and  a [[Lie algebra representation]] [[internalization|internal to]] a suitable [[tensor category]]. This does yield weight systems because the required relations translate into the structural equations satisfied by [[Lie modules]] ([[Jacobi identity]] and Lie action property).
+In [[knot theory]], a large class of [[weight systems]] arises from reading a ([[horizontal chord diagram|horizontal]]) [[chord diagram]] as a [[string diagram]] in the evident way, and then labelling it by the structure morphisms of a [[Lie algebra object]] equipped with an [[invariant polynomial|invariant]] metric and  a [[Lie algebra representation]] [[internalization|internal to]] a suitable [[tensor category]]. 
+
+This does yield weight systems, because, using that [[chord diagrams modulo 4T are Jacobi diagrams modulo STU]], the required [[STU-relations]] translate into the structural equations satisfied by [[Lie modules]] ([[Jacobi identity]] and Lie action property); see [Roberts & Willerton 06, Theorem 3.1](#RobertsWillerton06), following [Vaintrob 94](#Vaintrob94), [Vogel 11](#Vogel11) following [Bar-Natan96](#BarNatan96) following [[Maxim Kontsevich]].
 
 The [[weight systems]] arising this way are called _Lie algebra weight systems_.
 
@@ -29,7 +31,7 @@ The [[weight systems]] arising this way are called _Lie algebra weight systems_.
 
 Examples of [[weight systems]] which are _not_ Lie algebra weight systems are rare. Originally it was conjectured that none exist ([Bar-Natan 95, Conjecture 1](#BarNatan95), [Bar-Natan & Stoimenow 97, Conjecture 2.4](#BarNatanStoimenow97)). 
 
-Eventually, a (counter-)example of a weight system which at least does not arise from any [[finite dimensional vector space|finite-dimensional]] [[super Lie algebra]] was given by [Vogel 11](#Vogel11).
+Eventually, a (counter-)example of a weight system which at least does not arise from any [[finite dimensional vector space|finite-dimensional]] [[super Lie algebra]] was given in [Vogel 11](#Vogel11).
 
 ## References
 
@@ -63,7 +65,7 @@ The interpretation of Lie algebra weight systems as [[string diagram]]-calculus 
 
 and fully explicit in
 
-* {#RobertsWillerton} [[Justin Roberts]], [[Simon Willerton]], Section 3 of: _On the Rozansky-Witten weight systems_, Algebr. Geom. Topol. 10 (2010) 1455-1519 ([arXiv:math/0602653](https://arxiv.org/abs/math/0602653))
+* {#RobertsWillerton06} [[Justin Roberts]], [[Simon Willerton]], Section 3 of: _On the Rozansky-Witten weight systems_, Algebr. Geom. Topol. 10 (2010) 1455-1519 ([arXiv:math/0602653](https://arxiv.org/abs/math/0602653))
 
 ### For $\mathfrak{sl}(2)$
 
