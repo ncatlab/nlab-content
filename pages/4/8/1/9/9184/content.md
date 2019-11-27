@@ -353,7 +353,7 @@ The observation that the "invisible axion" is a candidate for [[dark matter]] is
 
 * {#AbbottSikivie83} L.F. Abbott, P. Sikivie, _A Cosmological Bound on the Invisible Axion_, Phys.Lett. B120:133-36 (1983)
 
-* {#DineFischler83} [[Michael Dine]], [[Willy Fischler]], _The Not So Harmless Axion_, Phys.Lett. B120:137-141 (1983)
+* {#DineFischler83} [[Michael Dine]], [[Willy Fischler]], _The Not So Harmless Axion_, Phys. Lett. B120 :137-141 (1983)
 
 A historical recollection of the development until here is in
 
