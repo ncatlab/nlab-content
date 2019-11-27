@@ -93,3 +93,19 @@ Lecture notes:
 [[!redirects 4 term relations]]
 [[!redirects 4-term relation]]
 [[!redirects 4-term relations]]
+
+
+
+[[!redirects horizontal 4T relation]]
+[[!redirects horizontal 4T relations]]
+
+[[!redirects horizontal 4T-relation]]
+[[!redirects horizontal 4T-relations]]
+
+[[!redirects horizontal 4 term relation]]
+[[!redirects horizontal 4 term relations]]
+[[!redirects horizontal 4-term relation]]
+[[!redirects horizontal 4-term relations]]
+
+
+
