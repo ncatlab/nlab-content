@@ -49,6 +49,10 @@ See also
 
 * Wikipedia, _[Jackiw-Teitelboim gravity](https://en.wikipedia.org/wiki/Jackiw%E2%80%93Teitelboim_gravity)_
 
+Further development:
+
+* Andreas Blommaert, Thomas G. Mertens, Henri Verschelde, _Eigenbranes in Jackiw-Teitelboim gravity_ ([arXiv:1911.11603](https://arxiv.org/abs/1911.11603))
+
 ### AdS/CFT Holography
  {#ReferencesHolography}
 
