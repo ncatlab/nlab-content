@@ -44,6 +44,14 @@ Via [[tropical geometry]]:
 
 * Koushik Ray, _String networks as tropical curves_, JHEP 0809:098, 2008 ([arXiv:0804.1870](https://arxiv.org/abs/0804.1870))
 
+Relation to [[Lie algebras]] and [[Lie algebra representations]]:
+
+* Oliver DeWolfe, [[Barton Zwiebach]], _String Junctions for Arbitrary Lie Algebra Representations_,  Nucl. Phys. B541 (1999) 509-565 ([arXiv:hep-th/9804210](https://arxiv.org/abs/hep-th/9804210))
+
+* Oliver DeWolfe, Tamas Hauer, [[Amer Iqbal]], [[Barton Zwiebach]], _Uncovering the Symmetries on $[p,q]$ 7-branes: Beyond the Kodaira Classification_, Adv. Theor. Math. Phys. 3 (1999) 1785-1833 ([arXiv:hep-th/9812028](https://arxiv.org/abs/hep-th/9812028))
+
+
+
 
 See also 
 
@@ -57,6 +65,9 @@ The lift to [[11d supergravity]]/[[M-theory]] via [[membrane triple junctions]] 
 
 
 [[!redirects string networks]]
+
+[[!redirects string junction]]
+[[!redirects string junctions]]
 
 [[!redirects string triple junction]]
 [[!redirects string triple junctions]]
