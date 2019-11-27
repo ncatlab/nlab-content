@@ -143,6 +143,8 @@ See the article by Selinger below for more examples.
 
 * [[neural network]]
 
+* [[Lie algebra weight system]]
+
 * [[linguistics|natural language syntax]]
 
 ## References
