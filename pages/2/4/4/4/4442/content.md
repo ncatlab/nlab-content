@@ -380,6 +380,9 @@ On  $AdS_2/CFT_1$ with the [[BFSS matrix model]] on the CFT side and [[black hol
 
 * [[Juan Maldacena]], Alexey Milekhin, _To gauge or not to gauge?_, JHEP 04 (2018) 084 ([arxiv:1802.00428](https://arxiv.org/abs/1802.00428))
 
+and on its analog of [[holographic entanglement entropy]]:
+
+* Tarek Anous, Joanna L. Karczmarek, Eric Mintun, [[Mark Van Raamsdonk]], Benson Way, _Areas and entropies in BFSS/gravity duality_ ([arXiv:1911.11145](https://arxiv.org/abs/1911.11145))
 
 ### On $AdS_3 / CFT_2$
  {#ReferencesAdS3CFT2}
@@ -646,7 +649,6 @@ On the [[deep learning]] algorithm on [[neural networks]] as analogous to the [[
 
 
 
-
 [[!redirects AdS/CFT]]
 
 [[!redirects AdS/CFT correspondence]]
@@ -656,6 +658,11 @@ On the [[deep learning]] algorithm on [[neural networks]] as analogous to the [[
 
 [[!redirects AdS-CFT duality]]
 [[!redirects AdS/CFT duality]]
+
+[[!redirects AdS2-CFT1]]
+[[!redirects AdS2/CFT1]]
+[[!redirects AdS2-CFT1 duality]]
+[[!redirects AdS2/CFT1 duality]]
 
 [[!redirects AdS7-CFT6]]
 [[!redirects AdS7-CFT6 duality]]
