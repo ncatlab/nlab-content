@@ -118,7 +118,7 @@ A careful non-technical exposition is in
 
 * {#Zaffaroni19} [[Alberto Zaffaroni]], _Lectures on AdS Black Holes, Holography and Localization_ ([arXiv:1902.07176](https://arxiv.org/abs/1902.07176))
 
-
+* Lorenzo Pieri, _Black Holes in String Theory_ ([arXiv:1911.11670](https://arxiv.org/abs/1911.11670))
 
 Lectures on AdS Black Holes, Holography and Localization
 Alberto Zaffaroniee also 
