@@ -9,6 +9,7 @@
 =--
 =--
 =--
+
 #Contents#
 * table of contents
 {:toc}
@@ -22,6 +23,8 @@ The [[Lie algebra]] $\mathfrak{su}(n)$ of the [[special unitary group]] $SU(n)$.
 * [[unitary Lie algebra]]
 
 * [[special orthogonal Lie algebra]]
+
+* [[special linear Lie algebra]]
 
 
 
