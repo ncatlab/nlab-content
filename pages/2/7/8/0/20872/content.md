@@ -28,17 +28,17 @@ For [[ground ring]] $R = \mathbb{Z}$ the [[integers]], there is, for each [[natu
 1. the integral [[weight systems]]
 
    $$
-     \mathcal{W}^{pb}_n  
+     \mathcal{W}_{pb}
      \;\coloneqq\;
      Hom_{\mathbb{Z} Mod}
      \big(
        \underset{
-         \mathcal{A}^{pb}_n
+         \mathcal{A}^{pb}
        }{
          \underbrace{
            \mathbb{Z}
            \langle 
-             \mathcal{D}^{pb}_n 
+             \mathcal{D}^{pb}
            \rangle
            /(2T,4T)
          } 
@@ -62,9 +62,9 @@ $$
     (\mathbb{R}^3)
   \big)
   \;\simeq\;
-  (\mathcal{W}^{pb}_n)^\bullet
+  \mathcal{W}_{pb}^\bullet
   \;\simeq\;
-  Gr^\bullet( \mathcal{V}^{pb}_n )
+  Gr^\bullet( \mathcal{V}_{pb} )
   \,.
 $$
 
