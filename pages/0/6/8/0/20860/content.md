@@ -90,9 +90,10 @@ This is due to [Bar-Natan 95, Theorem 6](#BarNatan95). See also [Chmutov-Duzhin-
 
 The key step of the **proof** is to observe that the [[STU-relations]] imply the [[4T-relations]] as follows:
 
-<img src="https://ncatlab.org/nlab/files/4TRelationFromSTURelation.jpg" width="600">
+<center>
+<img src="https://ncatlab.org/nlab/files/STURelationImplies4TRelation.jpg" width="400">
+</center>
 
-> graphics grabbed form [Bar-Natan & Stoimenow 97](#BarNatanStoimenow97)
 
 ## Application
 
