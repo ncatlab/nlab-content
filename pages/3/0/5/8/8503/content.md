@@ -47,6 +47,8 @@ In [[physics]]:
 
 * [[ultraviolet catastrophe]]
 
+* [[black hole information paradox]]
+
 
 [[!redirects paradox]]
 [[!redirects paradoxes]]
