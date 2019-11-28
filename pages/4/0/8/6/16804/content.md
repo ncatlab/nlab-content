@@ -95,6 +95,26 @@ An **unrooted chord diagram** of order $n$ is a rooted chord diagram of order $n
 
 =--
 
+### Trace from horizontal chord diagrams
+ {#TraceFromHorizontalChordDiagrams}
+
+Given a [[horizontal chord diagram]] on $n$ strands and given any choice of [[cyclic permutation]] of $n$ elements, the [[trace of horizontal to round chord diagrams]] is the [[round chord diagram]] obtained by gluing the ends of the strands according to the cyclic permutation, and retaining the chords in the evident way.
+
+The following graphics shows basic examples of the trace operation for [[cyclic permutation]] of strands one step to the right:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/TracingHorizontalChordDiagramsExamplesI.jpg" width="800">
+</center>
+
+This defines a [[function]]
+
+$$
+  tr \;\colon\; \mathcal{C}^{pb} \longrightarrow \mathcal{C}^c
+$$
+
+from the [[set]] of [[horizontal chord diagrams]] to the set of [[round chord diagrams]].
+
+
 ## Properties
 
 ### Representation as involutions
