@@ -128,6 +128,7 @@ For parallel intersection:
 ### For transversal intersections
 
 ### As spikes/BIons
+ {#AsSpikesBIons}
 
 On [[Dp-D(p+2) brane intersections]] as spikes/[[BIons]] from the [[M5-brane]]:
 
