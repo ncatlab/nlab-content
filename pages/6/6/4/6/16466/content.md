@@ -23,7 +23,11 @@
 
 ## Idea
 
-Deligne's theorem on tensor categories ([Deligne 02](#Deligne02), recalled as theorem \ref{TheTheorem} below) establishes [[Tannaka duality]] between linear [[tensor categories]] in [[characteristic zero]] subject to just a mild size constraint (subexponential growth, def. \ref{SubexponentialGrowth} below), and [[supergroups]] ("[[supersymmetries]]"), realizing these tensor categories as [[categories of representations]] of these supergroups.
+_Deligne's theorem on tensor categories_ ([Deligne 02](#Deligne02), recalled as theorem \ref{TheTheorem} below) establishes [[Tannaka duality]] between 
+
+1. linear [[tensor categories]] in [[characteristic zero]] subject to just a mild size constraint (subexponential growth, def. \ref{SubexponentialGrowth} below), 
+
+1. [[supergroups]] ("[[supersymmetries]]"), realizing these tensor categories as [[categories of representations]] of these supergroups.
 
 
 ## Relevance
