@@ -1,4 +1,82 @@
 
+$$
+  \left\{
+  \underset{
+    \color{blue}
+    {trajectories\;of}
+    \atop
+    {\color{blue}collisionless\;points}
+  }{
+    \underbrace{
+      \Omega \underset{{}^{\{1,\cdots, n\}}}{Conf}(\mathbb{R}^3)
+    }
+  }
+  \overset{
+    \color{blue} observable
+  }{\longrightarrow}
+  \Sigma^\bullet H \mathbb{R}
+  \right\}
+  \;\simeq\;
+  \underset{
+    {
+    {\color{blue}real\,cohomology\,of}
+    \atop
+    {\color{blue}loop\,space\,of}
+    }
+    \atop
+    {
+    {\color{blue}configuration\,space\,of}
+    \atop
+    {\color{blue}n\,ordered\,points}
+    }
+  }{
+  \underbrace{
+  H^\bullet
+  \big( 
+      \Omega \underset{{}^{\{1,\cdots, n\}}}{Conf}(\mathbb{R}^3)
+      ,
+      \mathbb{R}
+  \big)
+  }
+  }
+$$
+
+$$
+  \underset{
+    {
+    {\color{blue}cohomology\,of}
+    \atop
+    {\color{blue}loop\,space\,of}
+    }
+    \atop
+    {
+    {\color{blue}configuration\,space\,of}
+    \atop
+    {\color{blue}n\,ordered\,points}
+    }
+  }{
+  \underbrace{
+    H^\bullet
+    \big( 
+      \underset{
+        n \in \mathbb{N}
+      }{\sqcup}
+      \Omega \underset{{}^{\{1,\cdots, n\}}}{Conf}(\mathbb{R}^3)
+    \big)
+    }
+  }
+  \;\simeq\;
+  \underset{
+    {\color{blue} horizontal}
+    \atop
+    {\color{blue}weight\,systems}
+  }{
+  \underbrace{
+    \mathcal{W}^\bullet_{pb}
+  }
+  }
+$$
+
 $\tau$
 
 
