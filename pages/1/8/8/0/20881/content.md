@@ -78,10 +78,10 @@ See also
 
 For [[D6-D8 brane intersections]]:
 
-* {#GaiottoTomasiello14} [[Davide Gaiotto]], [[Alessandro Tomasiello]], _Holography for $(1,0)$ theories in six dimensions_, JHEP 12 (2014) 003 ([arXiv:1404.0711](https://arxiv.org/abs/1404.0711))
+* {#GaiottoTomasiello14} [[Davide Gaiotto]], [[Alessandro Tomasiello]], p. 24-25 in: _Holography for $(1,0)$ theories in six dimensions_, JHEP 12 (2014) 003 ([arXiv:1404.0711](https://arxiv.org/abs/1404.0711))
 
 Review includes: 
 
-* {#Fazzi17} [[Marco Fazzi]], around Figure 3.5 in: _Higher-dimensional field theories from type II supergravity_ ([arxiv:1712.04447](https://arxiv.org/abs/1712.04447))
+* {#Fazzi17} [[Marco Fazzi]], around Figure 3.5 and Figure 3.13 in: _Higher-dimensional field theories from type II supergravity_ ([arxiv:1712.04447](https://arxiv.org/abs/1712.04447))
 
 [[!redirects S-rule]]
