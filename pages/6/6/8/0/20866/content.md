@@ -12,20 +12,23 @@
 
 
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-### For chord diagrams (circular)
+### For round chord diagrams
  {#ForCircularChordDiagrams}
 
 In [[knot theory]] by the _4-term relations_ or _4T-relations_, for short, one means the following [[relations]] in the [[linear span]] of [[chord diagrams]]:
 
-<img src="https://ncatlab.org/nlab/files/4TRelation.jpg" width="500">
+<center>
+<img src="https://ncatlab.org/nlab/files/4TRelationsForRoundChordDiagrams.jpg" width="450">
+</center>
 
-> graphics grabbed from [Bar-Natan 95](#BarNatan95)
+([Bar-Natan 95, Def. 1.6 & Figure 1](#BarNatan95))
 
 These are the relations respected by [[weight systems]] on chord diagrams.
 
@@ -40,9 +43,30 @@ For [[horizontal chord diagrams]] the 4T relations is the following:
 
 ([Bar-Natan 96, p. 3](#BarNatan96))
 
-When the [[linear span]] of [[horizontal chord diagrams]] is regarded as an [[associative algebra]] under concatenation of diagrams along strands, this relation is part of the [[infinitesimal braid relation]].
+When the [[linear span]] of [[horizontal chord diagrams]] is regarded as an [[associative algebra]] under concatenation of strands ([here](horizontal+chord+diagram#AlgebraOfHorizontalChordDiagrams)), this relation is the [[infinitesimal braid relation]]
+
+$$
+  \big[
+    t_{i k} + t_{j k} 
+    \,,\, 
+    t_{i j}
+  \big]
+  \;=\;
+  0
+  \,.
+$$
 
 ## Properties
+
+### Relation between horizontal and round 4T relations
+
+The 4T-relations for [[round chord diagrams]] are the image of the
+4T relations for [[horizontal chord diagrams]] under [[tracing horizontal to round chord diagrams]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/4TRelationsHorizontalToRound.jpg" width="800">
+</center>
+
 
 ### Relation to STU-relations
 
