@@ -95,7 +95,7 @@ $\partial \Sigma_{(1)}$.
 We consider the following fields on the worldsheet:
 
 
-* $\tilde X : \Sigma \to \mathbb{R}/(2\pi/R)\mathbb{Z} = S^1_R$ -- a circle-valued function; this is the standard $\sigma$-model field describing propagation of the string on the circle;
+* $\tilde X : \Sigma \to \mathbb{R}/(2\pi/R)\mathbb{Z} = S^1_{1/R}$ -- a circle-valued function; this is the standard $\sigma$-model field describing propagation of the string on the circle;
 
 * $X_{i} : \partial \Sigma_{(i)} \to S^1_R$ -- the boundary values of this field;
 
