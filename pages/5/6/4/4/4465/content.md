@@ -13,7 +13,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -157,6 +156,12 @@ Discussions of the interpreation of BH entropy as [[holographic entanglement ent
 Computation of [[black hole entropy]] in 4d via [[AdS4-CFT3 duality]] from [[holographic entanglement entropy]] in the [[ABJM theory]] for the [[M2-brane]] is discussed in
 
 * Jun Nian, Xinyu Zhang, _Entanglement Entropy of ABJM Theory and Entropy of Topological Black Hole_ ([arXiv:1705.01896](https://arxiv.org/abs/1705.01896))
+
+Claim that the proper application of [[holographic entanglement entropy]] to the discussion of [[Bekenstein-Hawking entropy]] resolves the apparent [[black hole information paradox]]:
+
+* [[Geoff Penington]], [[Stephen Shenker]], [[Douglas Stanford]], [[Zhenbin Yang]], _Replica wormholes and the black hole interior_ ([arXiv:1911.11977](https://arxiv.org/abs/1911.11977))
+
+* [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _Replica Wormholes and the Entropy of Hawking Radiation_ ([arXiv"1911.12333](https://arxiv.org/abs/1911.12333))
 
 [[!redirects black hole entropy]]
 [[!redirects BH entropy]]
