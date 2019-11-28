@@ -23,18 +23,33 @@
 
 In [[knot theory]], by the _STU-relations_, one means the following [[relations]] in the [[linear span]] of [[Jacobi diagrams]]:
 
+<center>
 <img src="https://ncatlab.org/nlab/files/STURelation.jpg" width="500">
+</center>
 
 > graphics grabbed from [Bar-Natan 95](#BarNatan95)
 
 
-These are the relations respected by [[weight systems]] on [[Jacobi diagrams]].
-
 ## Properties
 
-### Relation to 4T-relations
+### Relation to weight systems and Lie algebra objects
 
-[[chord diagrams modulo 4T are Jacobi diagrams modulo STU]]:
+By definition, the STU-relations are the relations respected by [[weight systems]] on [[Jacobi diagrams]].
+
+When regarded as relations of [[string diagrams]], the STU relations characterize the [[Jacobi identity]] for [[Lie algebra objects]], or more generally the action-property of [[Lie modules]]. This is the reason behind the existence of [[Lie algebra weight systems]].
+
+
+### Relation to 4T-relations
+ {#RelationTo4TRelations}
+
+Under the embedding of the set of [[round chord diagrams]] into the set of [[Jacobi diagrams]], the [[STU-relations]] imply the [[4T relations]] on [[round chord diagrams]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/STURelationImplies4TRelation.jpg" width="400">
+</center>
+
+
+Using this, one finds that [[chord diagrams modulo 4T are Jacobi diagrams modulo STU]]:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/ChordsMod4TIsCSModSTU.jpg" width="840">
