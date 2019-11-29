@@ -21,24 +21,39 @@
 \tableofcontents
 
 ## Idea
+ {#Idea}
 
-A _chord diagram_ is a trivalent [[graph]] with an embedded [[circle]]
-and all [[vertices]] on that circle.
-Chord diagrams are a basic object of study in [[combinatorics]] with applications in diverse areas, notably in [[knot theory]].
+A _chord diagram_ is a trivalent undirected [[graph]] with an embedded [[orientation|oriented]] [[circle]] and all [[vertices]] on that circle. 
 
-
-Here is a typical chord diagram:
+A typical chord diagram looks like this:
 
 <center>
-[[!include chord diagram > chord diagram unlabelled]]
+<img src="https://ncatlab.org/nlab/files/ChordDiagram.jpg" width="300">
 </center>
-If we label the points of the diagram,
+
+Chord diagrams are a basic object of study in [[combinatorics]] with remarkably many applications in [[mathematics]] and [[physics]], notably in [[knot theory]] and [[Chern-Simons theory]].
+
+
+
+
+## Definitions
+
+Chord diagrams can be defined both in topological terms, which formalize the graphical intuition, as well as in purely combinatorial terms.
+We present only the combinatorial definition here, starting from _rooted_ chord diagrams and using those to define unrooted chord diagrams, rather than the other way around.
+
+(For topological definitions of both unrooted and rooted chord diagrams, see for example Chapter 6 of [Lando and Zvonkin]({#LandoZvonkin}), or Definition 1.5 of [Bar-Natan 1995](#Bar-Natan1995) for the unrooted case.)
+
+
+### Rooted chord diagrams
+
+If we would label the points of a chord diagram,
 <center>
 [[!include chord diagram > chord diagram]]
 </center>
 then the chords can be seen as describing a matching (or equivalently, an [[involution]]) on the set of marked points which pairs (or equivalently, _swaps_) $A$ with $C$, $B$ with $D$, and $E$ with $F$.
 
-The marked points are also equipped with a cyclic order coming from the orientation of the circle, and the subtle point is that a chord diagram can have non-trivial [[symmetries]] when considered up to this action of rotation.
+
+A subtle point is that a chord diagram can have non-trivial [[symmetries]] when considered up to this action of rotation.
 For that reason, in many situations it is useful to equip the circle with a distinguished [[basepoint]] (distinct from the marked points), the result being called a "rooted" diagram.
 Rooted chord diagrams may be conveniently visualized by "cutting open" the circle at the basepoint.
 For example, here we have rooted the chord diagram above at a basepoint lying on the interval AF, and opened up the circle:
@@ -49,13 +64,6 @@ The marked points of a rooted chord diagram are intrinsically equipped with a [[
 
 Finally, it is also at times useful to consider chord diagrams with marked points which are not attached to any chord; if we think of the diagram as representing an involution, then this allows for the possibility of representing involutions with [[fixed points]].
 
-## Definitions
-
-Chord diagrams can be defined both in topological terms, which formalize the graphical intuition, as well as in purely combinatorial terms.
-We present only the combinatorial definition here, starting from _rooted_ chord diagrams and using those to define unrooted chord diagrams, rather than the other way around.
-(For topological definitions of both unrooted and rooted chord diagrams, see for example Chapter 6 of [Lando and Zvonkin]({#LandoZvonkin}), or Definition 1.5 of [Bar-Natan 1995](#Bar-Natan1995) for the unrooted case.)
-
-### Rooted chord diagrams
 
 +-- {: .un_defn}
 ###### Definition
