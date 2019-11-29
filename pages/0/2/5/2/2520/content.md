@@ -102,11 +102,11 @@ The formulation of (3) above is still not manifestly coordinate independent.  Ho
 ### Extended local action functionals in (higher) gauge theory
  {#ExtendedLocalInGaugeTheory}
 
-For [[gauge theories]] and [[higher gauge theories]] the configuration spaceds of the physical system are in general not plain [[manifolds]] or similar, but are [[orbifolds]] or more generally [[smooth groupoids]], [[smooth ∞-groupoids]]. (An exposition of and introduction to much of the following is at _[[geometry of physics]]_.)
+For [[gauge theories]] and [[higher gauge theories]] the configuration spaces of the physical system are in general not plain [[manifolds]] or similar, but are [[orbifolds]] or more generally [[smooth groupoids]], [[smooth ∞-groupoids]]. (An exposition of and introduction to much of the following is at _[[geometry of physics]]_.)
 
 For instance for $G$ a [[Lie group]] and $\mathbf{B}G_{conn}$ the smooth [[moduli stack]] of $G$-[[principal connections]] (see at [[connection on a bundle]]), then the [[smooth groupoid]] of $G$-[[gauge field]] configurations is the [[internal hom]]/[[mapping stack]] $[\Sigma, \mathbf{B}G_{conn}] \in $[[Smooth∞Grpd]] (or some concretification thereof, see at _[geometric of physics -- differential moduli](geometry%20of%20physics#DifferentialModuli)_: this is the [[smooth groupoid]] whose [[objects]] are $G$-[[gauge field]]-configurations on $\Sigma$ ([[connection on a bundle|connections]] on $G$-[[principal bundles]] over $\Sigma$), and whose [[morphisms]] are [[gauge transformations]] between these. The [[infinitesimal space|infinitesimal]] approximation to this [[smooth ∞-groupoid]], its _[[∞-Lie algebroid]]_ is the (off-shell) [[BRST complex]] of the theory. The tangent to the $n$-fold [[higher gauge transformations]] becomes the $n$-fold _ghosts_ in the BRST complex.
 
-More generall $G$ here can by any [[smooth ∞-group]], such as the [[circle n-group]] $\mathbf{B}^{n-1}U(1)$ or the [[String 2-group]] or the [[Fivebrane 6-group]], and so on, in which case $[\Sigma, \mathbf{B}G_{conn}]$ is the [[smooth ∞-groupoid]] of [[higher gauge theory|higher gauge field]], [[gauge transformations]] between these, [[higher gauge transformations]] between those, and so on.
+More generally $G$ here can by any [[smooth ∞-group]], such as the [[circle n-group]] $\mathbf{B}^{n-1}U(1)$ or the [[String 2-group]] or the [[Fivebrane 6-group]], and so on, in which case $[\Sigma, \mathbf{B}G_{conn}]$ is the [[smooth ∞-groupoid]] of [[higher gauge theory|higher gauge field]], [[gauge transformations]] between these, [[higher gauge transformations]] between those, and so on.
 
 Notice that this means in particular that in [[higher geometry]] a [[gauge theory]] is a [[sigma-model]] [[quantum field theory]]: one whose [[target space]] is not just a plain [[manifold]] but is a [[moduli stack]] of gauge field configurations.
 
@@ -117,9 +117,9 @@ $$
   \,.
 $$
 
-This is of particular interst, again, if it is _local_. In fact, in this context now we can also ask that it is "extended" in the sense of [[extended topological quantum field theory]]: that we have an action functional not only in top dimension, being a function, but also in codimension 1, being a [[prequantum bundle]], and in higher codimension, being a [[prequantum n-bundle]].
+This is of particular interest, again, if it is _local_. In fact, in this context now we can also ask that it is "extended" in the sense of [[extended topological quantum field theory]]: that we have an action functional not only in top dimension, being a function, but also in codimension 1, being a [[prequantum bundle]], and in higher codimension, being a [[prequantum n-bundle]].
 
-This is notably the case for all (higher) gauge theoris of [[schreiber:infinity-Chern-Simons theory]] type, such as ordinary [[Chern-Simons theory]] and such as ordinary [[Dijkgraaf-Witten theory]], as well as its higher generalizations. In these cases the action functional $\exp(i S(-)) \colon [\Sigma, \mathbf{B}G_{conn}]$ arises itself from [[transgression]] of an [[extended Lagrangian]] that is defined on the universal [[moduli stack]] of gauge field configurations $\mathbf{B}G_{conn}$ itself, namely from a [[universal characteristic class]] in higher nonabelian [[differential cohomology]] of the form
+This is notably the case for all (higher) gauge theories of [[schreiber:infinity-Chern-Simons theory]] type, such as ordinary [[Chern-Simons theory]] and such as ordinary [[Dijkgraaf-Witten theory]], as well as its higher generalizations. In these cases the action functional $\exp(i S(-)) \colon [\Sigma, \mathbf{B}G_{conn}]$ arises itself from [[transgression]] of an [[extended Lagrangian]] that is defined on the universal [[moduli stack]] of gauge field configurations $\mathbf{B}G_{conn}$ itself, namely from a [[universal characteristic class]] in higher nonabelian [[differential cohomology]] of the form
 
 $$
   \mathbf{L} \colon \mathbf{B}G_{conn} \to \mathbf{B}^n U(1)_{conn}
@@ -131,7 +131,7 @@ This is hence a fully local [[Lagrangian]]: an _[[extended Lagrangian]]_. Altern
 
 For instance for ordinary [[Chern-Simons theory]] here $n = 3$ $G$ is a [[semisimple Lie group]] and $\mathbf{L}$ is a smooth and differential refinement of the [[first Pontryagin class]]/[[second Chern class]], or of an integral multiple of that (the "level" of the theory). In this case $\mathbf{L}$ may also be thought of as modulating the universal [[Chern-Simons circle 3-bundle]]. If instead $G$ is a [[discrete group]] then $\mathbf{L}$ is a [[cocycle]] in the $U(1)$-[[group cohomology]] and this is the [[extended Lagrangian]] of [[Dijkgraaf-Witten theory]].
 
-This [[extended Lagrangian]] becomes an extended action functional after [[transgression]]: the operaton of [[fiber integration in ordinary differential cohomology]] refines to a morphism of moduli stacks of the form
+This [[extended Lagrangian]] becomes an extended action functional after [[transgression]]: the operation of [[fiber integration in ordinary differential cohomology]] refines to a morphism of moduli stacks of the form
 
 $$
   \exp(2 \pi i \int_{\Sigma_k} (-))
