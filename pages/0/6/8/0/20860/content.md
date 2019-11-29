@@ -58,17 +58,18 @@ and finally
 
 for the respective [[quotient spaces]] by the [[4T relations]] 
 
-<img src="https://ncatlab.org/nlab/files/4TRelation.jpg" width="500">
+<center>
+<img src="https://ncatlab.org/nlab/files/4TRelationsForRoundChordDiagrams.jpg" width="320">
+</center>
 
 
 and by the [[STU relations]]
 
-
-<img src="https://ncatlab.org/nlab/files/STURelation.jpg" width="500">
+<center>
+<img src="https://ncatlab.org/nlab/files/STU-relation.jpg" width="500">
+</center>
 
 respectively.
-
-> graphics grabbed from [Bar-Natan 95](#BarNatan95)
 
 ## Statement
 
