@@ -119,6 +119,10 @@ On [[D6-D8-brane bound states]] as [[black brane]]-solutions in [[massive type I
 
 * Fabio Apruzzi, [[Marco Fazzi]], Dario Rosa, [[Alessandro Tomasiello]],  _All $AdS_7$ solutions of type II supergravity_, JHEP 04 (2014) 064 ([arxiv:1309.2949](https://arxiv.org/abs/1309.2949))
 
+With emphasis on [[charge quantization]] of the [[RR-field]] [[flux]] forms via [[bundle gerbes]]:
+
+* [[Jussi Kalkkinen]], _Gerbes and Massive Type II Configurations_, JHEP 9907  :002, 1999 ([arXiv:hep-th/9905018](https://arxiv.org/abs/hep-th/9905018))
+
 With emphases of the [[fuzzy funnel]] [[noncommutative geometry]]:
 
 * {#GaiottoTomasiello14} [[Davide Gaiotto]], [[Alessandro Tomasiello]], _Holography for $(1,0)$ theories in six dimensions_, JHEP 12 (2014) 003 ([arXiv:1404.0711](https://arxiv.org/abs/1404.0711))
