@@ -216,7 +216,7 @@ linebreak
 
 * {#Pittie91} [[Harsh Pittie]], _The integral homology and cohomology rings of SO(n) and Spin(n)_, Journal of Pure and Applied Algebra Volume 73, Issue 2, 19 August 1991, Pages 105&#8211;153 (<a href="https://doi.org/10.1016/0022-4049(91)90108-E">doi:10.1016/0022-4049(91)90108-E</a>)
 
-* {#Kalkkinen06} Jussi Kalkkinen, _Global Spinors and Orientable Five-Branes_, JHEP0609:028, 2006 ([arXiv:hep-th/0604081](https://arxiv.org/abs/hep-th/0604081))
+* {#Kalkkinen06} [[Jussi Kalkkinen]], _Global Spinors and Orientable Five-Branes_, JHEP 0609: 028, 2006 ([arXiv:hep-th/0604081](https://arxiv.org/abs/hep-th/0604081))
 
 [[!redirects Sp(2)]]
 
