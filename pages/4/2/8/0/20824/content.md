@@ -94,6 +94,10 @@ On [[D6-D8-brane bound states]] in [[massive type IIA string theory]]:
 
 * [[Marco Fazzi]], _Higher-dimensional field theories from type II supergravity_ ([arxiv:1712.04447](https://arxiv.org/abs/1712.04447))
 
+With emphasis on [[charge quantization]] of the [[RR-field]] [[flux]] forms via [[bundle gerbes]]:
+
+* [[Jussi Kalkkinen]], _Gerbes and Massive Type II Configurations_, JHEP 9907  :002, 1999 ([arXiv:hep-th/9905018](https://arxiv.org/abs/hep-th/9905018))
+
 
 
 #### D6-D8-brane bound states with D2-D4-brane defects
