@@ -19,8 +19,17 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-A closed _Jacobi diagram_ is a suitably oriented connected trivalent [[graph]] with an embedded [[circle]]. If all the [[vertices]] sit on the circle, Jacobi diagrams specialize to [[chord diagrams]].
+A closed _Jacobi diagram_ is a connected [[graph]] with oriented trivalent vertices and with an embedded oriented [[circle]]. 
+
+Here is a picture of a typical Jacobi diagram:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/JacobiDiagram.jpg" width="300">
+</center>
+
+If all the [[vertices]] sit on the circle, Jacobi diagrams specialize to [[chord diagrams]].
 
 Half the number of vertices of a Jacobi diagram is called its _order_
 
@@ -48,7 +57,7 @@ In applications to [[Vassiliev invariants]] in [[knot theory]], Jacobi diagrams 
 or "[[Feynman diagrams]] for [[Chern-Simons theory]]" ([Kricker-Spence-Aitchison 97](#KrickerSpenceAitchison97))
 or "circle diagrams" ([Kneissler 97](#Kneissler97))
 or "round diagrams" ([Willerton 99](#Willerton99)).
-The term "Jacobi diagram" ([Chmutov-Duzhin-Mostovoy 11, Chapter 5](#ChmutovDuzhinMostovoy11), [Jackson-Moffat 19, Section 13](#JacksonMoffat19)) alludes to the [[Jacobi identity]], via the fact that these diagrams are naturally labelled by a [[Lie algebra]] equipped with a [[Lie algebra representation]] (which is really just the [[interaction]]-aspect of their interpretation as [[Chern-Simons theory]] [[Feynman diagrams]]...).
+The term "Jacobi diagram" ([Chmutov-Duzhin-Mostovoy 11, Chapter 5](#ChmutovDuzhinMostovoy11), [Jackson-Moffat 19, Section 13](#JacksonMoffat19)) alludes to the [[Jacobi identity]] -- here also called the [[STU relation]] -- via the fact that these diagrams are naturally labelled by a [[Lie algebra]] equipped with a [[Lie algebra representation]] (which is really just the [[interaction]]-aspect of their interpretation as [[Chern-Simons theory]] [[Feynman diagrams]]...).
 
 ## Properties
 
