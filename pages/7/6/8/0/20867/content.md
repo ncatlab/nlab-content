@@ -20,14 +20,15 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
 In [[knot theory]], by the _STU-relations_, one means the following [[relations]] in the [[linear span]] of [[Jacobi diagrams]]:
 
+
 <center>
-<img src="https://ncatlab.org/nlab/files/STURelation.jpg" width="500">
+<img src="https://ncatlab.org/nlab/files/STU-relation.jpg" width="500">
 </center>
 
-> graphics grabbed from [Bar-Natan 95](#BarNatan95)
 
 
 ## Properties
@@ -52,7 +53,7 @@ Under the embedding of the set of [[round chord diagrams]] into the set of [[Jac
 Using this, one finds that [[chord diagrams modulo 4T are Jacobi diagrams modulo STU]]:
 
 <center>
-<img src="https://ncatlab.org/nlab/files/ChordsMod4TIsCSModSTU.jpg" width="840">
+<img src="https://ncatlab.org/nlab/files/ChordsMod4TIsCSModSTU.jpg" width="700">
 </center>
 
 > graphics grabbed form [Bar-Natan & Stoimenow 97](#BarNatanStoimenow97)
@@ -82,11 +83,11 @@ That the STU-relations characterize the [[cochain cohomology]] of the [[knot-gra
 
 ### General
 
-Original articles
+Original articles:
 
-* {#BarNatan95} [[Dror Bar-Natan]], _On the Vassiliev knot invariants_, Topology Volume 34, Issue 2, April 1995, Pages 423-472 (<a href="https://doi.org/10.1016/0040-9383(95)93237-2">doi:10.1016/0040-9383(95)93237-2</a>, [pdf](https://www.math.toronto.edu/drorbn/papers/OnVassiliev/OnVassiliev.pdf))
+* {#BarNatan95} [[Dror Bar-Natan]], Def. 1.9 in: _On the Vassiliev knot invariants_, Topology Volume 34, Issue 2, April 1995, Pages 423-472 (<a href="https://doi.org/10.1016/0040-9383(95)93237-2">doi:10.1016/0040-9383(95)93237-2</a>, [pdf](https://www.math.toronto.edu/drorbn/papers/OnVassiliev/OnVassiliev.pdf))
 
-Textbook accounts
+Textbook accounts:
 
 * {#ChmutovDuzhinMostovoy11} [[Sergei Chmutov]], [[Sergei Duzhin]], [[Jacob Mostovoy]], Section 4 of:  _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv/1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
 
