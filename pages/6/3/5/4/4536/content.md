@@ -4,7 +4,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $\infty$-Lie theory
+#### Lie theory
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
@@ -12,7 +12,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -20,8 +20,6 @@
 The Jacobi identity is an important equational identity that holds in [[Lie algebras]] and is also of interest in other [[nonassociative algebra|algebras]].  It can be generalised to [[higher algebra]]s.
 
 There is a non-additive non-abelian form of the Jacobi identity that occurs in considering certain examples in [[identities among relations]] in the presentation of certain groups. There it is also called the Hall-Witt identity.
-
-
 
 ## For $1$-algebras
 
@@ -70,6 +68,66 @@ $$
   d \circ d = 0
   \,.
 $$
+
+
+### In terms of string diagrams / Jacobi diagrams
+ {#InTermsOfStringDiagrams}
+
+In [[string diagram]]-notation for [[Lie algebra objects]] [[internalization|interal]] to [[tensor categories]], the [[Lie action property]] looks as follows:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/LieActionPropertyAsSTURelation.jpg" width="500">
+</center>
+
+$$
+  \begin{aligned}
+    \Leftrightarrow
+    &
+    \;\;\;\;\;
+    \rho(f(x,y),z) \;=\; \rho(y,\rho(x,z)) - \rho(x,\rho(y,z))
+    \\
+    \underset{
+      {f = [-,-]}
+      \atop
+      {Lie\;bracket}
+    }{
+      \Leftrightarrow
+    }
+    &
+    \;\;\;\;\;
+    \underset{
+       {Lie\;action\;property}
+    }{
+    \underbrace{
+      \rho([x,y],z) \;=\; \rho(y,\rho(x,z)) - \rho(x,\rho(y,z))
+    }
+    }
+    \\
+    \underset{
+      {\rho = -[-,-]}
+      \atop
+      {adjoint\;action}
+    }{
+      \Leftrightarrow
+    }
+    &
+    \;\;\;\;\;
+    \underset{
+       {Jacobi\;identity}
+    }{
+    \underbrace{
+      [[x,y],z] \;=\; - [y,[x,z]] + [x,[y,z]]
+    }
+    }
+  \end{aligned}
+$$
+
+where the last line shows the equivalence to the [[Jacobi identity]] on the [[Lie algebra object]] itself in the case that the Lie action is the [[adjoint action]].
+
+In the language of [[Jacobi diagrams]] this is called the _[[STU-relation]]_.
+and is the reason behind the existence of [[Lie algebra weight systems]] in [[knot theory]].
+
+
 
 
 ## For $L_\infty$-algebras
