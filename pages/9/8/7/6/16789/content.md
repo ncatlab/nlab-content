@@ -733,8 +733,10 @@ from the [[homotopy quotient]] by the [[circle action]] (def. \ref{CircleActionO
 
 * {#BettiolMendes15} Renato G. Bettiol, Ricardo A. E. Mendes, _Flag manifolds with strongly positive curvature_, Math. Z. 280 (2015), no. 3-4, 1031-1046 ([arXiv:1412.0039](https://arxiv.org/abs/1412.0039))
 
-
 * Selman Akbulut, _Homotopy 4-spheres associated to an infinite order loose cork_ ([arXiv:1901.08299](https://arxiv.org/abs/1901.08299))
+
+* Akio Kawauchi, _Smooth homotopy 4-sphere_ ([arXiv:1911.11904](https://arxiv.org/abs/1911.11904))
+
 
 ### Branched covers
 
