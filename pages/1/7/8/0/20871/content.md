@@ -65,3 +65,5 @@ _Knot polynomials and Vassiliev's invariants_, Invent Math (1993) 111: 225 ([doi
 
 [[!redirects horizontal weight systems are associated graded of Vassiliev braid invaraints]]
 
+[[!redirects weight systems are the associated graded of Vassiliev invariants]]
+
