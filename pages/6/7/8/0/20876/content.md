@@ -27,7 +27,8 @@ For $n \in \mathbb{N}$ a [[natural number]], let $F(\{t_{i j}\}_{i\neq j \in \{1
 
 The _infinitesimal braid relations_ are the following [[generators and relations|relations]] on the underlying [[vector space]] of this free Lie algebra
 
-$$
+\[
+  \label{InfinitesimalBriadRelations}
   \left.
  \array{
     R0: \;\; & t_{i j} - t_{j i} & = 0 
@@ -40,9 +41,19 @@ $$
   \right\}
   \phantom{AAA}
   \text{for all pairwise distinct tuples of indices}
-$$
+\]
 
-If $F(\{t_{i j}\}_{i\neq j \in \{1,\cdots, n\}})/R0$ is identified with the Lie algebra of [[horizontal chord diagrams]] on $n$ strands (under concatenation of diagrams along strands) then the remaining relations are the following
+## Properties
+
+### Relation to horizontal chord diagrams
+
+If $F(\{t_{i j}\}_{i\neq j \in \{1,\cdots, n\}})/R0$ is identified with the [[commutator]] Lie algebra of [[horizontal chord diagrams]] on $n$ strands under [[concatenation]] of diagrams along strands, as in 
+
+<center>
+<img src="https://ncatlab.org/nlab/files/AlgebraStrucOnSpanofHorizontalChordDiagrams.jpg" width="500">
+</center>
+
+then the remaining infinitesimal braid relations (eq:InfinitesimalBriadRelations) are equivalently the following:
 
 R1 is the the [[2T relation]]:
 
