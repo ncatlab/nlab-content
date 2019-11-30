@@ -48,7 +48,9 @@ This is the structure to which the [[cobordism hypothesis]] applies. Of course t
 
 Opetopic type theory is due to
 
-* {#Finster12} [[Eric Finster]], _Type Theory and the Opetopes_, talk at [Polish Seminar on Category Theory and its Applications, June 2012](http://www.mimuw.edu.pl/~zawado/SemTK/OSTKA.html)  ([pdf](http://sma.epfl.ch/~finster/opetope/types-and-opetopes.pdf))
+* {#Finster12} [[Eric Finster]], _Type Theory and the Opetopes_, talk at [Polish Seminar on Category Theory and its Applications, June 2012](http://www.mimuw.edu.pl/~zawado/SemTK/OSTKA.html) 
+([[FinsterTypesAndOpetopes2012.pdf:file]])
+
 
 It [[syntax|syntactically]] implements the definition of [[opetopic omega-category]] due to 
 
