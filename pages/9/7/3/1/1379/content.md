@@ -76,6 +76,8 @@ The reduction to a coequaliser of a pair of finite coproducts works as per usual
 _Finite_ coproducts exist as one can use finite disjunctions of the defining formulas (in ZF(C)) or Class Separation (in NBG) to define a new class.
 Coequalisers then exist by the above argument, as [[Scott's trick]] is available due to the class $V$ of sets having well-founded stratifications by sets (for instance the von Neumann [[cumulative hierarchy]] $V = \bigcup_{\alpha\in ORD} V_\alpha$).
 
+Just as an [[elementary topos]] is an axiomatization of basic properties of the category [[Set]], a [[category with class structure]] is an axiomatization of basic properties of the category $Class$.  See also [[algebraic set theory]].
+
 ## References
 
 A paper detailing one approach to the technical side of how classes appear in [[category theory]] (namely using [[Grothendieck universes]]) is
