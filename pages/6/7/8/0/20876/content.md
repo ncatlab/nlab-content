@@ -25,7 +25,7 @@
 
 For $n \in \mathbb{N}$ a [[natural number]], let $F(\{t_{i j}\}_{i\neq j \in \{1,\cdots, n\}})$ be the [[free Lie algebra]] on [[generators and relations|generators]] $t_{i j}$ with two indices ranging from 1 to $n$ and distinct.
 
-The _infinitesimal braid relations_ are the following [[generators and relations|relations]] on the underlying [[vector space]] of this free Lie algebra
+The _infinitesimal braid relations_ are the following [[generators and relations|relations]] on the underlying [[vector space]] of the [[free construction|free]] [[Lie algebra]] on [[generators and relations|generators]] $\{t_{i j}\}_{i\neq j \in \{1,\cdots, n\}}$ 
 
 \[
   \label{InfinitesimalBriadRelations}
@@ -40,7 +40,11 @@ The _infinitesimal braid relations_ are the following [[generators and relations
   \;\;
   \right\}
   \phantom{AAA}
-  \text{for all pairwise distinct tuples of indices}
+  {
+  \text{for all pairwise distinct}
+  \atop
+  \text{tuples of indices}
+  }
 \]
 
 ## Properties
