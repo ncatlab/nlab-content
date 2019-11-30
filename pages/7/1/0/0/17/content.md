@@ -525,9 +525,6 @@ First quantization is a mystery, but second quantization is a functor.
 =--
 
 
-### How to fiddle with the CSS (i.e. create query boxes, etc.) on your personal ncatlab web
-
-Click on 'Edit web' in the menu at the bottom to see any existing stylesheet tweaks. To make new ones, please ask at the [nForum](https://nforum.ncatlab.org/discussions/?CategoryID=0). This could be done through the 'Edit web' interface using the password for the overall nLab, but we do not generally make that available. 
 
 
 ### How to include one page within another
