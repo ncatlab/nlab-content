@@ -72,6 +72,8 @@ For instance the associativity law in an [[A-infinity algebra]] is the special c
 
 * [[co-associativity]]
 
+* [[commutative monoidal category]]
+
 ## References
 
 The [[coherence law]] of associativity is stated in 
