@@ -1,3 +1,4 @@
+[[!redirects Pre-net]]
 ## Idea
 
 A pre-net is a [[Petri net]] equipped with an ordering on the input and output of each event. These freely generate strict [[symmetric monoidal categories]] whereas [[Petri nets]] freely generate [[commutative monoidal categories]]. Pre-nets are the same as the [[tensor schemes]] defined by [Joyal and Street](#schemes)
@@ -39,3 +40,8 @@ Pre-nets were introduced in
 Tensor schemes were introduced in
 
 * {#schemes} [[André Joyal]], and [[Ross Street]]. _The geometry of tensor calculus I_ Advances in mathematics 88, no. 1 (1991): 55-112. [pdf](https://core.ac.uk/download/pdf/82659437.pdf)
+
+[[!redirects Pre-net]] 
+[[!redirects pre-nets]] 
+[[!redirects tensor scheme]] 
+[[!redirects tensor schemes]] 
