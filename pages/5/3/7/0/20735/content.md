@@ -283,7 +283,7 @@ With emphasis on [[half NS5-branes]] in [[type I' string theory]]:
 
 The moduli space of monopoles appears also in the [[KK-compactification]] of the [[M5-brane]] on a complex surface ([[AGT-correspondence]]):
 
-* Benjamin Assel, Sakura Schafer-Nameki, Jin-Mann Wong, _M5-branes on $S^2 \times M_4$: Nahm's Equations and 4d Topological Sigma-models_, J. High Energ. Phys. (2016) 2016: 120 ([arxiv:1604.03606](https://arxiv.org/abs/1604.03606))
+* Benjamin Assel, [[Sakura Schafer-Nameki]], Jin-Mann Wong, _M5-branes on $S^2 \times M_4$: Nahm's Equations and 4d Topological Sigma-models_, J. High Energ. Phys. (2016) 2016: 120 ([arxiv:1604.03606](https://arxiv.org/abs/1604.03606))
 
 
 ### Relation to braids
