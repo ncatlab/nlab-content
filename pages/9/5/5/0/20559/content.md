@@ -3,9 +3,16 @@
 
 ## Selected writings
 
+
+On [[single trace operators]]/[[BMN operators]] in [[D=4 N=4 super Yang-Mills theory]] identified as [[integrable system|integrable]] [[spin chains]] with respect to the [[dilatation opetator]], and the correspondence of their spectrum with the [[classical field theory|classical]] [[Green-Schwarz superstring]] on [[anti de Sitter spacetime|AdS5]] under the [[AdS/CFT correspondence]]:
+
+* {#BeisertEtAl10} [[Niklas Beisert]], [[Luis Alday]], [[Radu Roiban]], [[Sakura Schafer-Nameki]], [[Matthias Staudacher]], [[Alessandro Torrielli]], [[Arkady Tseytlin]], et. al., _Review of AdS/CFT Integrability: An Overview_, Lett. Math. Phys. 99, 3 (2012) ([arXiv:1012.3982](https://arxiv.org/abs/1012.3982))
+
 On [[Liouville theory]]:
 
 * {#AGT09} [[Luis Alday]], [[Davide Gaiotto]], [[Yuji Tachikawa]], appendix A.1 of _Liouville Correlation Functions from Four-dimensional Gauge Theories_, Lett.Math.Phys.91:167-197, 2010 ([arXiv:0906.3219](http://arxiv.org/abs/0906.3219))
+
+
 
 
 Discussion of [[superconformal bootstrap]] in view of [[AdS/CFT]], hence as a precise and detailed construction of [[large-N limit|large-N]] and [[asymptotic boundary|asymptotically]] [[anti-de Sitter spacetime|AdS]] [[string theory]]/[[M-theory]]:
