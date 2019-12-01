@@ -249,7 +249,7 @@ More discussion of the non-abelian gauge group enhancement at [[orbifold]] singu
 
 * [[Neil Lambert]], Miles Owen, _Charged Chiral Fermions from M5-Branes_ ([arXiv:1802.07766](https://arxiv.org/abs/1802.07766))
 
-* {#BCHS19} [[Andreas Braun]], Sebastjan Cizel, Max Hubner, Sakura Schafer-Nameki, _Higgs Bundles for M-theory on G2-Manifolds_ ([arXiv:1812.06072](https://arxiv.org/abs/1812.06072))
+* {#BCHS19} [[Andreas Braun]], Sebastjan Cizel, Max Hubner, [[Sakura Schafer-Nameki]], _Higgs Bundles for M-theory on G2-Manifolds_ ([arXiv:1812.06072](https://arxiv.org/abs/1812.06072))
 
 
 
