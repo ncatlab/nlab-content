@@ -4,13 +4,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Spheres
++--{: .hide}
+[[!include spheres -- contents]]
+=--
 #### Geometric quantization
 +--{: .hide}
 [[!include geometric quantization - contents]]
-=--
-#### Representation theory
-+-- {: .hide}
-[[!include representation theory - contents]]
 =--
 =--
 =--
