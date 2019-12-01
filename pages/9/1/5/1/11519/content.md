@@ -6,13 +6,13 @@
 +-- {: .hide}
 [[!include representation theory - contents]]
 =--
+#### Spheres
++--{: .hide}
+[[!include spheres -- contents]]
+=--
 #### Homotopy theory
 +--{: .hide}
 [[!include homotopy - contents]]
-=--
-#### Topology
-+--{: .hide}
-[[!include topology - contents]]
 =--
 =--
 =--
