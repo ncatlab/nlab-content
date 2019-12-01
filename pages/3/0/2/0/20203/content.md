@@ -216,7 +216,7 @@ Discussion of [[KK-compactification]] on 8-dimensional [[Spin(7)-manifolds]] (se
 * {#Pugh} [[Tom Pugh]], _M-theory on $Spin(7)$-manifolds and their F-theory duals_ ([[PughMTheoryOnSpin7.pdf:file]])
 
 
-* [[Andreas Braun]], Sakura Schaefer-Nameki, _$Spin(7)$-Manifolds as Generalized Connected Sums and 3d $N=1$ Theories_, JHEP 06 (2018) 103 ([arXiv:1803.10755](https://arxiv.org/abs/1803.10755))
+* [[Andreas Braun]], [[Sakura Schaefer-Nameki]], _$Spin(7)$-Manifolds as Generalized Connected Sums and 3d $N=1$ Theories_, JHEP 06 (2018) 103 ([arXiv:1803.10755](https://arxiv.org/abs/1803.10755))
 
   (generalization of [[compact twisted connected sum G2-manifolds]])
 
