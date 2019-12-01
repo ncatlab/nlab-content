@@ -15,7 +15,6 @@
 
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -60,6 +59,55 @@ These warped throat models go back to [Klebanov-Strassler 00](#KlebanovStrassler
 In particular this means that AdS-CFT duality applies in _some approximation_ to intersecting D-brane models (e.g. [Soda 10](#Soda10), [GHMO 16](#GHMO16)), thus allowing to compute, to some approximation, [[non-perturbative effects]] in the [[Yang-Mills theory]] on the intersecting branes in terms of [[gravity]] on the ambient warped throat $\sim$ [[anti de Sitter spacetime|AdS]] ([Klebanov-Strassler 00, section 6](#KlebanovStrassler00))
 
 Such approximate version of [[AdS-CFT]] for gauge theories realized on intersecting D-branes are used for instance to estimate [[non-perturbative effects]] in [[QCD]], such as the [[shear viscosity]] of the [[quark-gluon plasma]] ([Policastro-Son-Starinets 01](#PolicastroSonStarinets01)). For more on this approximate relation see at _[[AdS-QCD correspondence]]_.
+
+## Matching single trace CFT observables to string excitation
+
+The [[single trace operators]]/observables in [[conformal field theories]] such as [[super Yang-Mills theories]] play a special role in the [[AdS-CFT correspondence]]: They correspond to single [[string]] excitations on the [[AdS spacetime|AdS]]-[[supergravity]] side of the correspondence, where, curiously, the "string of characters/letters" in the argument of the trace gets literally mapped to a [[superstring]] in [[spacetime]] (see the references [below](#ReferencesRelationToStringExcitations)).
+
+From [Polyakov 02](#Polyakov02), referring to gauge fields and their single trace operators as _letter_ and _words_, respectively:
+
+> The picture which slowly arises from the above considerations is that of the space-time gradually disappearing in the regions of large curvature. The natural description in this case is provided by a gauge theory in which the basic objects are the texts formed from the gauge-invariant words. The theory provides us with the expectation values assigned to the various texts, words and sentences.
+
+
+> These expectation values can be calculated either from the gauge theory or from the strongly coupled 2d sigma model. The coupling in this model is proportional to the target space curvature. This target space can be interpreted as a usual continuous space-time only when the curvature is small. As we increase the coupling, this interpretation becomes more and more fuzzy and finally completely meaningless. 
+
+From [Berenstein-Maldacena-Nastase 02](#BerensteinMaldacenaNastase02), who write $Z$ for the elementary [[field observables]] ("letters") $\mathbf{\Phi}$ above:
+
+> In summary, the "string of $Z$s" becomes the physical string and that each $Z$ carries one unit of $J$ which is one unit of $p_+$. Locality along the worldsheet of the string comes from the fact that planar diagrams allow only contractions of neighboring operators. So the Yang Mills theory gives a string bit model (see $[23]$) where each bit is a $Z$ operator. 
+
+On the [[CFT]] side these _[[BMN operators]]_ of fixed length (of "letters") are usefully identified as  [[spin chains]] which, with the [[dilatation operator]] regarded as their [[Hamiltonian]], are [[integrable systems]] ([Minahan-Zarembo 02](#MinahanZarembo02), [Beisert-Staudacher 03](#BeisertStaudacher03)).
+
+This integrability allows a detailed matching between 
+
+* [[single trace operators]]/[[BMN operators]] in [[D=4 N=4 super Yang-Mills theory]] 
+
+* the [[classical field theory|classical]] [[Green-Schwarz superstring]] on [[anti de Sitter spacetime|AdS5]] $\times$ [[5-sphere|S5]]
+
+under [[AdS/CFT duality]] ([Beisert-Frolov-Staudacher-Tseytlin 03](#BeisertFrolovStaudacherTseytlin03), ...). For review see [BBGK 04](#BBGK04), [Beisert et al. 10](#BeisertEtAl10).
+
+(...)
+
+## Checks
+ {#Checks}
+
+At the heart of the duality is the observation that the classical [[action functionals]] for various [[field (physics)|fields]] coupled to [[Einstein gravity]] on [[anti de Sitter spacetime]] are, when expressed as [[functions]] of the [[asymptotic boundary]] values of the [[field (physics)|fields]], equal to the [[generating functions]] for the [[correlators]]/[[n-point functions]] of a [[conformal field theory]] on that asymptotic boundary. 
+
+These computations were laid out in [Witten 98, section 2.4 "Some sample computation"](#Witten98). These follow from elementary manipulation in [[differential geometry]] (involving neither [[supersymmetry]] nor [[string theory]]).
+
+For the more ambitious matching of the spectrum of the dilatation operator of [[N=4 D=4 super Yang-Mills theory]] to the corresponding spectrum of the [[Green-Schwarz superstring]] on the [[super anti de Sitter spacetime]] $AdS_5 \times S^5$ detailed checks are summarized in [Beisert et al. 10](#BeisertEtAl10), [Escobedo 12](#Escobedo12)
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/AdSCFTFrolovTseytlinLimitCheck.jpg" width="600">
+</center>
+
+> graphics grabbed from [Escobedo 12](#Escobedo12) 
+
+Comparison to [[string scattering amplitudes]] beyond the planar SCFT limit: [ABP 18](#ABP18).
+
+Numerical checks using [[lattice gauge theory]] are reviewed in [Joseph 15](#Joseph15).
+
+Exact duality checks pertaining to the full stringy regime for $AdS_3/CFT_2$: [Eberhardt-Gaberdiel 19a](#EberhardtGaberdiel19a), [Eberhardt-Gaberdiel 19b](#EberhardtGaberdiel19b), [Eberhardt-Gaberdiel-Gopakumar 19](#EberhardtGaberdielGopakumar19).
 
 
 
@@ -209,27 +257,6 @@ See the _[References -- Applications -- In condensed matter physics](#ToCondense
 
 [[!include gauge theory from AdS-CFT -- table]]
 
-## Checks
- {#Checks}
-
-At the heart of the duality is the observation that the classical [[action functionals]] for various [[field (physics)|fields]] coupled to [[Einstein gravity]] on [[anti de Sitter spacetime]] are, when expressed as [[functions]] of the [[asymptotic boundary]] values of the [[field (physics)|fields]], equal to the [[generating functions]] for the [[correlators]]/[[n-point functions]] of a [[conformal field theory]] on that asymptotic boundary. 
-
-These computations were laid out in [Witten 98, section 2.4 "Some sample computation"](#Witten98). These follow from elementary manipulation in [[differential geometry]] (involving neither [[supersymmetry]] nor [[string theory]]).
-
-For the more ambitious matching of the spectrum of the dilatation operator of [[N=4 D=4 super Yang-Mills theory]] to the corresponding spectrum of the [[Green-Schwarz superstring]] on the [[super anti de Sitter spacetime]] $AdS_5 \times S^5$ detailed checks are summarized in [Beisert et al. 10](#BeisertEtAl10), [Escobedo 12](#Escobedo12)
-
-
-<center>
-<img src="https://ncatlab.org/nlab/files/AdSCFTFrolovTseytlinLimitCheck.jpg" width="600">
-</center>
-
-> graphics grabbed from [Escobedo 12](#Escobedo12) 
-
-Comparison to [[string scattering amplitudes]] beyond the planar SCFT limit: [ABP 18](#ABP18).
-
-Numerical checks using [[lattice gauge theory]] are reviewed in [Joseph 15](#Joseph15).
-
-Exact duality checks pertaining to the full stringy regime for $AdS_3/CFT_2$: [Eberhardt-Gaberdiel 19a](#EberhardtGaberdiel19a), [Eberhardt-Gaberdiel 19b](#EberhardtGaberdiel19b), [Eberhardt-Gaberdiel-Gopakumar 19](#EberhardtGaberdielGopakumar19).
 
 
 ## Formalizations
@@ -368,6 +395,38 @@ Review of [[Yangian]] symmetry:
 
 * [[Alessandro Torrielli]], _Yangians, S-matrices and AdS/CFT_,	  J.Phys.A44:263001,2011 ([arXiv:1104.2474](http://arxiv.org/abs/1104.2474))
 
+### On single trace operators
+
+The correspondence of single trace operators to [[superstring]] excitations under the [[AdS-CFT correspondence]] originates with these articles:
+
+* {#Polyakov02} [[Alexander Polyakov]], _Gauge Fields and Space-Time_, Int. J. Mod. Phys. A17S1 (2002) 119-136 ([arXiv:hep-th/0110196](https://arxiv.org/abs/hep-th/0110196))
+
+
+* {#BerensteinMaldacenaNastase02} [[David Berenstein]], [[Juan Maldacena]], [[Horatiu Nastase]], _Strings in flat space and pp waves from $\mathcal{N} = 4$ Super Yang Mills_, JHEP 0204 (2002) 013 ([arXiv:hep-th/0202021](https://arxiv.org/abs/hep-th/0202021))
+
+  (whence "[[BMN operators]]")
+
+* [[Steven Gubser]], [[Igor Klebanov]], [[Alexander Polyakov]], _A semi-classical limit of the gauge/string correspondence_, Nucl. Phys. B636 (2002) 99-114 ([arXiv:hep-th/0204051](https://arxiv.org/abs/hep-th/0204051))
+
+
+* {#Kruczenski04} Martin Kruczenski, _Spiky strings and single trace operators in gauge theories_, JHEP 0508:014, 2005 ([arXiv:hep-th/0410226](https://arxiv.org/abs/hep-th/0410226))
+
+The identification of the relevant [[single trace operators]] with [[integrable system|integrable]] [[spin chains]] is due to
+
+* {#MinahanZarembo02}  J. A. Minahan, [[Konstantin Zarembo]], _The Bethe-Ansatz for $N=4$ Super Yang-Mills_, JHEP 0303 (2003) 013 ([arXiv:hep-th/0212208](https://arxiv.org/abs/hep-th/0212208))
+
+* {#BeisertStaudacher03} [[Niklas Beisert]], [[Matthias Staudacher]], _The $\mathcal{N}=4$ SYM Integrable Super Spin Chain_, 
+Nucl. Phys. B670:439-463, 2003 ([arXiv:hep-th/0307042](https://arxiv.org/abs/hep-th/0307042))
+
+which led to more detailed matching of [[single trace operators]] to rotating string excitations in
+
+* {#BeisertFrolovStaudacherTseytlin03} [[Niklas Beisert]], [[Sergey Frolov]], [[Matthias Staudacher]], [[Arkady Tseytlin]], _Precision Spectroscopy of AdS/CFT_, JHEP 0310:037, 2003 ([arXiv:hep-th/0308117](https://arxiv.org/abs/hep-th/0308117))
+
+Review includes
+
+* {#BBGK04} A. V. Belitsky, [[Volker Braun]], A. S. Gorsky, G. P. Korchemsky, _Integrability in QCD and beyond_, Int. J. Mod. Phys. A19:4715-4788, 2004 ([arXiv:hep-th/0407232](https://arxiv.org/abs/hep-th/0407232))
+
+* {#BeisertEtAl10} [[Niklas Beisert]], [[Luis Alday]], [[Radu Roiban]], [[Sakura Schafer-Nameki]], [[Matthias Staudacher]], [[Alessandro Torrielli]], [[Arkady Tseytlin]], et. al., _Review of AdS/CFT Integrability: An Overview_, Lett. Math. Phys. 99, 3 (2012) ([arXiv:1012.3982](https://arxiv.org/abs/1012.3982))
 
 
 ### On $AdS_2 / CFT_1$
@@ -446,7 +505,7 @@ On [[black brane|black]]$\;$[[D4-D8-brane bound states]] in [[massive type IIA s
 
 ### On $AdS_5 / CFT_4$
 
-* {#BeisertEtAl10} N. Beisert et al., _Review of AdS/CFT Integrability, An Overview_, Lett. Math. Phys. vv, pp (2011), ([arXiv:1012.3982](http://arxiv.org/abs/1012.3982)).
+* [Beisert et. al. 10](#BeisertEtAl10)
 
 * {#Escobedo12} Jorge Escobedo, _Integrability in AdS/CFT: Exact Results for Correlation Functions_, 2012 ([spire:1264432](http://inspirehep.net/record/1264432))
 
@@ -671,6 +730,10 @@ On the [[deep learning]] algorithm on [[neural networks]] as analogous to the [[
 
 [[!redirects AdS5-CFT4]]
 [[!redirects AdS5-CFT4 duality]]
+[[!redirects AdS5/CFT4]]
+[[!redirects AdS5/CFT4 duality]]
+
+
 
 [[!redirects AdS4-CFT3]]
 [[!redirects AdS4-CFT3 duality]]
