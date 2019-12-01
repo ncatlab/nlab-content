@@ -50,7 +50,7 @@ Therefore, superficially, it looks like this might be the trinary bracket on an 
 On the one hand, indeed, by the discussion at _[[supergravity C-field]]_ , the M2-brane is charged under a [[circle n-bundle with connection|circle 3-bundle with connection]] whose [[higher gauge theory]] is controled by [[Lie n-algebra|Lie 3-algebra]]s in direct analogy to how the [[higher gauge theory]] of the [[string]] is controled by [[gerbes]]/[[principal 2-bundles]] and their [[Lie 2-algebra]]s and that of charged [[particles]] by ordinary [[Lie algebra]]s.
 
 
-Apparantly motivated by an intuition along these lines, ([BaggerLambert](#BaggerLambert)) named $(V,[-,-,-])$ a **3-algebra**. This terminology was picked up by many authors In the process, it transmuted sometimes to "3-Lie algebra" and sometimes even to "Lie 3-algebra".
+Apparantly motivated by an intuition along these lines, ([BaggerLambert](#BaggerLambert)) named $(V,[-,-,-])$ a **[[3-Lie algebra|3-algebra]]**. This terminology was picked up by many authors In the process, it transmuted sometimes to "[[3-Lie algebra]]" and sometimes even to "Lie 3-algebra".
 
 Unfortunately, the Bagger-Lambert "3-algebra" is **not** a _[[Lie n-algebra|Lie 3-algebra]]_ in the established sense of an [[L-∞ algebra]] structure on a [[graded vector space]] $V$ concentrated in the lowest three degrees. At least not without some modifications in the interpretation of the map $[-,-,-]$. 
 
@@ -141,13 +141,13 @@ Discussion in [[Horava-Witten theory]] reducing M2-branes to [[heterotic strings
 Volume 749, 7 October 2015, Pages 363-367 ([arXiv:1507.07931](http://arxiv.org/abs/1507.07931))
  
 
-The interpretation of at least most of the "3-algebra" appearing in the membrane literature in terms of plain [[Lie algebras]] is due to
+The interpretation of at least most of the "[[3-Lie algebra]]" appearing in the membrane literature in terms of plain [[metric Lie algebras]] is due to
 
 * {#MFMR} Paul de Medeiros, [[José Figueroa-O'Farrill]], Elena M&#233;ndez-Escobar, Patricia Ritter, _On the Lie-algebraic origin of metric 3-algebras_, Commun.Math.Phys.290:871-902,2009 ([arXiv:0809.1086](http://arxiv.org/abs/0809.1086))
  
 See also
 
-* [[José Figueroa-O'Farrill]], section _Triple systems and Lie superalgebras_ in _M2-branes, ADE and Lie superalgebras_, talk at IPMU 2009 ([pdf](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/Hongo.pdf))
+* [[José Figueroa-O'Farrill]], _Triple systems and Lie superalgebras_ in _M2-branes, ADE and Lie superalgebras_, talk at IPMU 2009 ([pdf](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/Hongo.pdf), [[FigueroaOFarrillM2Branes02.pdf:file]])
 
 
 The suggestion that BGL "3-algebras" are to be interpreted in [[2-plectic geometry]] appears in
