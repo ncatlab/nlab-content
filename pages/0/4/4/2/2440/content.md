@@ -31,8 +31,7 @@ There are various equivalent ways to state the definition of super Lie algebras.
 +-- {: .num_defn #SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}
 ###### Definition
 
-A _[[super Lie algebra]]_ is a [[Lie algebra]] [[internalization|internal]]
-to the [[symmetric monoidal category]] $sVect = (Vect^{\mathbb{Z}/2}, \otimes_k, \tau^{super} )$ of [[super vector spaces]] (a _[[Lie algebra object]] in [[super vector spaces]]_).
+A _[[super Lie algebra]]_ is a [[Lie algebra object]] [[internalization|internal]] to the [[symmetric monoidal category]] $sVect = (Vect^{\mathbb{Z}/2}, \otimes_k, \tau^{super} )$ of [[super vector spaces]] (a _[[Lie algebra object]] in [[super vector spaces]]_).
 Hence this is
 
 1. a [[super vector space]] $\mathfrak{g}$;
@@ -217,7 +216,7 @@ as a [[full subcategory]] of the [[opposite category]] of [[differential-graded 
 
 
 
-Equivalently, a super Lie algebra is a "super-representable" Lie algebra [[internalization|internal]] to the [[cohesive (∞,1)-topos]] [[Super∞Grpd]] over the site of [[super points]] ([Sachse 08, Section 3.2, towards cor. 3.3](#Sachse08)). 
+Equivalently, a super Lie algebra is a "super-representable" [[Lie algebra object]] [[internalization|internal]] to the [[cohesive (∞,1)-topos]] [[Super∞Grpd]] over the site of [[super points]] ([Sachse 08, Section 3.2, towards cor. 3.3](#Sachse08)). 
 
 See the discussion at [[superalgebra]] for details on this.
 
