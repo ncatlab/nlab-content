@@ -406,9 +406,9 @@ and independently in
 
 And the generalization to [[colored operads]] over more general suitable enriching categories is in
 
-* {#Caviglia14} Giovanni Caviglia, _A Model Structure for Enriched Coloured Operads_ ([arXiv:1401.6983](http://arxiv.org/abs/1401.6983))
+* {#Caviglia14} [[Giovanni Caviglia]], _A Model Structure for Enriched Coloured Operads_ ([arXiv:1401.6983](http://arxiv.org/abs/1401.6983))
 
-(generalizing acorresponding [[model structure on enriched categories]]).
+(generalizing a corresponding [[model structure on enriched categories]]).
 
 An explicit construction of cofibrant resolution in this model structure and its relation to the original constructon of the [[Boardman-Vogt resolution]] is in
 
