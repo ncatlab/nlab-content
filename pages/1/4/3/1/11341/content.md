@@ -96,7 +96,7 @@ See also
 
 * [[Andreas Recknagel]], [[Volker Schomerus]], _D-branes in Gepner models_, Nucl.Phys. B531 (1998) 185-225 ([arXiv:hep-th/9712186](http://arxiv.org/abs/hep-th/9712186))
 
-* {#BraunSchaeferNameki05} [[Volker Braun]], Sakura Schafer-Nameki, _D-Brane Charges in Gepner Models_, J.Math.Phys. 47 (2006) 092304 ([arXiv:hep-th/0511100](https://arxiv.org/abs/hep-th/0511100))
+* {#BraunSchaeferNameki05} [[Volker Braun]], [[Sakura Schafer-Nameki]], _D-Brane Charges in Gepner Models_, J. Math. Phys. 47 (2006) 092304 ([arXiv:hep-th/0511100](https://arxiv.org/abs/hep-th/0511100))
 
 Discussion of [[permutation D-branes]] for Gepner models, via [[boundary conformal field theory]], includes
 
