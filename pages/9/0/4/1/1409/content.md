@@ -31,9 +31,13 @@ More generally, in any [[concrete category]], the identity morphism of each obje
 
 * [[neutral element]]
 
-* [[identity type]]
+* [[identity morphism]]
 
 * [[identity functor]]
+
+* [[identity natural transformation]]
+
+* [[identity type]]
 
 [[!redirects identity function]]
 [[!redirects identity functions]]
