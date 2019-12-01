@@ -27,6 +27,8 @@ More generally, for arbitrary sets $A$ and $B$ we can define an $A\times B$-matr
 
 * [[matrix multiplication]], [[matrix calculus]]
 
+* [[square matrix]]
+
 * [[diagonal matrix]]
 
 * [[inverse matrix]]
