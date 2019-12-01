@@ -89,7 +89,7 @@ An interpretation of $3$-Lie algebras as [[Lie 2-algebras]] equipped with a bina
   
 based on a result in
 
-* {#MFFMER08} Paul de Medeiros, [[José Figueroa-O'Farrill]], [[Elena Méndez-Escobar]], [[Patricia Ritter]], _On the Lie-algebraic origin of metric 3-algebras_, Commun.Math.Phys.290:871-902,2009 ([arXiv:0809.1086](http://arxiv.org/abs/0809.1086))
+* {#MFFMER08} Paul de Medeiros, [[José Figueroa-O'Farrill]], [[Elena Méndez-Escobar]], [[Patricia Ritter]], _On the Lie-algebraic origin of metric 3-algebras_, Commun. Math. Phys. 290:871-902, 2009 ([arXiv:0809.1086](http://arxiv.org/abs/0809.1086))
 
 and reviewed in 
 
