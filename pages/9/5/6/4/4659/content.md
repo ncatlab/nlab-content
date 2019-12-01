@@ -32,7 +32,7 @@ $$
   \langle x,y \rangle \coloneqq tr (ad_x \circ ad_y)
 $$
 
-is non-degenerate as a [[bilinear form]].
+is non-degenerate as a [[bilinear form]] (hence making $\mathfrak{g}$ a [[metric Lie algebra]]).
 
 The corresponding cocycle $\langle -,[-,-]\rangle$ in [[Lie algebra cohomology]] is the one that classifies the [[string Lie 2-algebra]]-extension of $\mathfrak{g}$.
 
