@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include stable homotopy theory - contents]]
 =--
+#### Spheres
++--{: .hide}
+[[!include spheres -- contents]]
+=--
 =--
 =--
 
