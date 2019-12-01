@@ -19,15 +19,27 @@
 
 Commutative monoidal categories are [[symmetric monoidal categories]] whose  [[tensor product]] is _strictly_ [[associative]] and [[unital]] (as for [[permutative categories]]), but also strictly [[commutative monoid|commutative]], in that the [[associators]], [[unitors]], and [[braidings]] are all the  [[identity natural transformation]]. 
 
-Notice that the [[coherence theorem for symmetric monoidal categories]] only says that [[symmetric monoidal categories]] are symmetric monoidally equivalent to [[strict monoidal categories]] whose [[braidings]], however, may not be given by the identity. 
+Notice that the [[coherence theorem for symmetric monoidal categories]] only says that [[symmetric monoidal categories]] are symmetric monoidally equivalent to [[strict monoidal categories]] whose [[braidings]], however, may not be given by the identity.  
+
+We conjecture that a symmetric monoidal category is symmetric monoidally equivalent to a commutative monoidal category iff all its self-braidings
+
+$$   B_{x,x} \colon x \otimes x \to x \otimes x $$
+
+are identity morphisms.
 
 ## Examples
 
-Commutative monoidal categories are the natural type of category that [[Petri nets]] freely generate ([Baez-Master 18, Section 2](#BaezMaster18))
+Commutative monoidal categories are the natural type of category that [[Petri nets]] freely generate ([Baez-Master 18, Section 2](#BaezMaster18)).   
+
+The symmetric monoidal category of [[line bundles]] on a topological space, or [[smooth line bundles]] on a manifold, or [[invertible sheaf|invertible sheaves]] on a variety or scheme, is symmetric monoidally equivalent to a commutative monoidal category under the usual tensor product of these structures.
+
+Any abelian group object in $Cat$ is a commutative monoidal category.
 
 ## Definition
 
-A commutative monoidal category is a [[commutative monoid object]]  in [[Cat]]  with its [[cartesian product]].  Explicitly, the data of a commutative monoidal category is:
+A commutative monoidal category is a [[commutative monoid object]]  in [[Cat]]  with its [[cartesian product]].  Equivalently, it is an [[internal category]] in the category of [[commutative monoids]].
+
+Explicitly, the data of a commutative monoidal category are:
 
 * A commutative monoid of objects $C_1$,
 
