@@ -14,6 +14,6 @@ On [[PROPs]] and the [[biequivalence]] between [[Feynman categories]] and [[colo
 
 See also
 
-* [[Giovanni Caviglia]], [[Geoffroy Horel]], _Rigidification of higher categorical structures_, Algebraic & Geometric Topology, Vol. 16 (2016), pp. 3533–3562. (preprint version [arXiv:1511.01119](https://arxiv.org/abs/1511.01119)).
+* [[Giovanni Caviglia]], [[Geoffroy Horel]], _Rigidification of higher categorical structures_, Algebraic & Geometric Topology, Vol. 16 (2016), pp. 3533–3562 ([doi:10.2140/agt.2016.16.3533](https://msp.org/agt/2016/16-6/p13.xhtml), [euclid:agt/1510841268](https://projecteuclid.org/euclid.agt/1510841268) [arXiv:1511.01119](https://arxiv.org/abs/1511.01119))
 
 category: people
