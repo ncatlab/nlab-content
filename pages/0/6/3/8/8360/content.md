@@ -13,6 +13,8 @@ On the [[AdS-CFT correspondence]] between [[single trace operators]] and [[super
 > These expectation values can be calculated either from the gauge theory or from the strongly coupled 2d sigma model. The coupling in this model is proportional to the target space curvature. This target space can be interpreted as a usual continuous space-time only when the curvature is small. As we increase the coupling, this interpretation becomes more and more fuzzy and finally completely meaningless. 
 
 
+* [[Steven Gubser]], [[Igor Klebanov]], [[Alexander Polyakov]], _A semi-classical limit of the gauge/string correspondence_, Nucl. Phys. B636 (2002) 99-114 ([arXiv:hep-th/0204051](https://arxiv.org/abs/hep-th/0204051))
+
 
 
 ## Related $n$Lab entries
