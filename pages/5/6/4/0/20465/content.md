@@ -83,7 +83,7 @@ Relation of the [[AGT-correspondence]] to the [[D=6 N=(2,0) SCFT]] and the [[3d-
 See also
 
 
-* Julius Eckhard, Heeyeon Kim, Sakura Schafer-Nameki, Brian Willett, _Higher-Form Symmetries, Bethe Vacua, and the 3d-3d Correspondence_ ([arxiv:1910.14086](https://arxiv.org/abs/1910.14086))
+* Julius Eckhard, Heeyeon Kim, [[Sakura Schafer-Nameki]], Brian Willett, _Higher-Form Symmetries, Bethe Vacua, and the 3d-3d Correspondence_ ([arxiv:1910.14086](https://arxiv.org/abs/1910.14086))
 
 
 
