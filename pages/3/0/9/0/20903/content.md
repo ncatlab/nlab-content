@@ -73,6 +73,56 @@ Such binary pairings inside the trace are induced notably after statistical aver
 
 For more on this see at _[[weight systems on chord diagrams in physics]]_.
 
+## Examples
+
+### Shape of D$p$ $\bot$ D$(p+2)$-fuzzy funnels
+  {#SingleTraceObservablesAsWeightSystemsOnChordDiagrams}
+
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/WeightSystemsAsShapeObservabesOnFuzzySphere.jpg" width="400">
+</div>
+
+We discuss how the [[single trace observables]] on the [[fuzzy 2-sphere]]-sections  of [[Dp-D(p+2) brane intersection]] [[fuzzy funnels]] are given by [[su(2)]]-[[Lie algebra weight systems]] on [[chord diagrams]] (following [Ramgoolam-Spence-Thomas 04](#RamgoolamSpenceThomas04), [McNamara-Papageorgakis 05](#McNamaraPapageorgakis05), see [McNamara 06, Section 4](#McNamara06) for review).
+
+\linebreak
+
+
+While in the commutative [[large N limit]], all powers of the [[radius]] function on the [[fuzzy 2-sphere]] are equal
+
+$$
+  \underset{N\to \infty}{\lim}
+  \int_{S^2_N} R^{2 k}
+  \;=\;  
+  4 \pi 
+  \,;
+$$
+
+for [[finite number|finite]] $N$ there is an ordering ambiguity: In fact, the number of functions on the [[fuzzy 2-sphere]] at [[finite number|finite]] $N$ that all go to the same function $R^{2k}$ in the [[large N limit]] grows rapidly with $k$.
+
+At $k = 1$ there is the single radius observable (eq:RadiusOfFuzzy2Sphere)
+
+$$
+  \int_{S^2_N} R^2 
+  \;=\; 
+  \int_{S^2_N}
+  \underset{i}{\sum} X_i \cdot X_i
+  \;=\;
+  4 \pi \tfrac{ N }{ \sqrt{N^2 -1} }
+$$
+
+At $k = 2$ there are, under the integral (eq:FuzzyS2Integration), two radius observables:
+
+1. $ \int_{S^2_N} \underset{i,j}{\sum} X_i X_i X_j X_j$
+
+1. $\int_{S^2_N} \underset{i,j}{\sum} X_i X_j X_j X_i$
+
+(Here we are using that under the integral/trace, a [[cyclic permutation]] of the factors in the integrand does not change the result).
+
+Similarly for higher $k$, where the number of possible orderings increases rapidly. The [[combinatorics]] that appears here is familiar in [[knot theory]]:
+
+Every ordering of operators, up to cyclic permutation, in the [[single trace observable]] $Tr(R^2)^n$ is encoded in a [[chord diagram]] and the value of the corresponding [[single trace observable]] is the value of the [[su(2)]]-[[Lie algebra weight system]] on this chord diagram.
+
 
 ## References
 
