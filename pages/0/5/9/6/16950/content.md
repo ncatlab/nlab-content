@@ -17,7 +17,7 @@
 
 ## Idea
 
-A square [[matrix]] $(A_{x,y})\in Mat_{n \times n}(R)$ whose values for $x\neq y$ are all [[zero]] is called a _diagonal matrix_.
+A [[square matrix]] $(A_{x,y})\in Mat_{n \times n}(R)$ whose values for $x\neq y$ are all [[zero]] is called a _diagonal matrix_.
 
 ## Examples
 
@@ -30,6 +30,8 @@ Diagonal matrices form the [[center]] of the ring of matrices under [[matrix mul
 ## Related concepts
 
 * [[permutation matrix]]
+
+* [[invertible matrix]]
 
 * [[Smith normal form]]
 
