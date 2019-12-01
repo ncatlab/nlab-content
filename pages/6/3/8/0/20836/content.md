@@ -93,7 +93,7 @@ See also
 
 * [[Mariana Graña]], C. S. Shahbazi, [[Marco Zambon]], _$Spin(7)$-manifolds in compactifications to four dimensions_, JHEP11(2014)046 ([arXiv:1405.3698](http://arxiv.org/abs/1405.3698))
 
-* [[Andreas Braun]], Sakura Schaefer-Nameki, _Spin(7)-Manifolds as Generalized Connected Sums and 3d $N=1$ Theories_, JHEP06(2018)103 ([arXiv:1803.10755](https://arxiv.org/abs/1803.10755))
+* [[Andreas Braun]], [[Sakura Schafer-Nameki]], _Spin(7)-Manifolds as Generalized Connected Sums and 3d $N=1$ Theories_, JHEP06(2018)103 ([arXiv:1803.10755](https://arxiv.org/abs/1803.10755))
 
   (generalization of [[compact twisted connected sum G2-manifolds]])
 
