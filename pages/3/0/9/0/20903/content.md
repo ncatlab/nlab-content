@@ -5,7 +5,7 @@
 
 ## Idea
 
-In [[quantum field theory]] and [[statistical physics]], a _single trace operator_ is an [[observable]]/[[correlator]] on [[square matrix]]- or rather [[adjoint representation]]-valued [[scalar fields]]/[[random variables]] $\{\phi_i\}_{i \in I}$ which is built from the elementary [[field observables]] $\mathbf{\Phi}_i$ as a [[trace]] over the [[matrix product]] of a finite string of them:
+In [[quantum field theory]] and [[statistical physics]], a _single trace operator_ is an [[observable]]/[[correlator]] on [[square matrix]]- or rather [[adjoint representation]]-valued [[scalar fields]]/[[random variables]] $\{\phi_i\}_{i \in I}$ (notationally subsuming [[derivatives]] of fields) which is built from the elementary [[field observables]] $\mathbf{\Phi}_i$ as a [[trace]] over the [[matrix product]] of a finite string of them:
 
 \[
   \label{ASingleTraceObservable}
@@ -31,9 +31,9 @@ If the [[field (physics)|fields]] $\phi_i$ indeed take values in the [[adjoint r
 
 ## Properties
 
-### Relation to strings under AdS/CFT
+### Correspondence to strings under AdS/CFT
 
-Single trace operators/observables in [[conformal field theories]] such as [[super Yang-Mills theories]] play a special role in the [[AdS-CFT correspondence]], under which they correspond to single [[string]] excitations on the [[AdS spacetime|AdS]]-[[supergravity]] side of the correspondence, where, curiously, the "string of characters/letters" in the argument of the trace gets literally mapped to a [[superstring]] in [[spacetime]] (see the references [below](#ReferencesRelationToStringExcitations)).
+Single trace operators/observables in [[conformal field theories]] such as [[super Yang-Mills theories]] play a special role in the [[AdS-CFT correspondence]]: They correspond to single [[string]] excitations on the [[AdS spacetime|AdS]]-[[supergravity]] side of the correspondence, where, curiously, the "string of characters/letters" in the argument of the trace gets literally mapped to a [[superstring]] in [[spacetime]] (see the references [below](#ReferencesRelationToStringExcitations)).
 
 From [Polyakov 02](#Polyakov02), referring to gauge fields and their single trace operators as _letter_ and _words_, respectively:
 
@@ -45,6 +45,16 @@ From [Polyakov 02](#Polyakov02), referring to gauge fields and their single trac
 From [Berenstein-Maldacena-Nastase 02](#BerensteinMaldacenaNastase02), who write $Z$ for the elementary [[field observables]] ("letters") $\mathbf{\Phi}$ above:
 
 > In summary, the "string of $Z$s" becomes the physical string and that each $Z$ carries one unit of $J$ which is one unit of $p_+$. Locality along the worldsheet of the string comes from the fact that planar diagrams allow only contractions of neighboring operators. So the Yang Mills theory gives a string bit model (see $[23]$) where each bit is a $Z$ operator. 
+
+On the [[CFT]] side these _[[BMN operators]]_ of fixed length (of "letters") are usefully identified as  [[spin chains]] which, with the [[dilatation operator]] regarded as their [[Hamiltonian]], are [[integrable systems]] ([Minahan-Zarembo 02](#MinahanZarembo02), [Beisert-Staudacher 03](#BeisertStaudacher03)).
+
+This integrability allows a detailed matching between 
+
+* [[single trace operators]]/[[BMN operators]] in [[D=4 N=4 super Yang-Mills theory]] 
+
+* the [[classical field theory|classical]] [[Green-Schwarz superstring]] on [[anti de Sitter spacetime|AdS5]] $\times$ [[5-sphere|S5]]
+
+under [[AdS/CFT duality]] ([Beisert-Frolov-Staudacher-Tseytlin 03](#BeisertFrolovStaudacherTseytlin03), ...). For review see [BBGK 04](#BBGK04), [Beisert et al. 10](#BeisertEtAl10).
 
 (...)
 
@@ -130,19 +140,39 @@ Every ordering of operators, up to cyclic permutation, in the [[single trace obs
 
 (...)
 
-### Relation to string excitations under AdS/CFT
+### Correspondence to string excitations under AdS/CFT
  {#ReferencesRelationToStringExcitations}
 
-Relation of single trace operators to [[superstring]] excitations under the [[AdS-CFT correspondence]]:
+The correspondence of single trace operators to [[superstring]] excitations under the [[AdS-CFT correspondence]] originates with these articles:
 
 * {#Polyakov02} [[Alexander Polyakov]], _Gauge Fields and Space-Time_, Int. J. Mod. Phys. A17S1 (2002) 119-136 ([arXiv:hep-th/0110196](https://arxiv.org/abs/hep-th/0110196))
 
 
 * {#BerensteinMaldacenaNastase02} [[David Berenstein]], [[Juan Maldacena]], [[Horatiu Nastase]], _Strings in flat space and pp waves from $\mathcal{N} = 4$ Super Yang Mills_, JHEP 0204 (2002) 013 ([arXiv:hep-th/0202021](https://arxiv.org/abs/hep-th/0202021))
 
+  (whence "[[BMN operators]]")
+
+* [[Steven Gubser]], [[Igor Klebanov]], [[Alexander Polyakov]], _A semi-classical limit of the gauge/string correspondence_, Nucl. Phys. B636 (2002) 99-114 ([arXiv:hep-th/0204051](https://arxiv.org/abs/hep-th/0204051))
+
+
 * {#Kruczenski04} Martin Kruczenski, _Spiky strings and single trace operators in gauge theories_, JHEP 0508:014, 2005 ([arXiv:hep-th/0410226](https://arxiv.org/abs/hep-th/0410226))
 
-(...)
+The identification of the relevant [[single trace operators]] with [[integrable system|integrable]] [[spin chains]] is due to
+
+* {#MinahanZarembo02}  J. A. Minahan, [[Konstantin Zarembo]], _The Bethe-Ansatz for $N=4$ Super Yang-Mills_, JHEP 0303 (2003) 013 ([arXiv:hep-th/0212208](https://arxiv.org/abs/hep-th/0212208))
+
+* {#BeisertStaudacher03} [[Niklas Beisert]], [[Matthias Staudacher]], _The $\mathcal{N}=4$ SYM Integrable Super Spin Chain_, 
+Nucl. Phys. B670:439-463, 2003 ([arXiv:hep-th/0307042](https://arxiv.org/abs/hep-th/0307042))
+
+which led to more detailed matching of [[single trace operators]] to rotating string excitations in
+
+* {#BeisertFrolovStaudacherTseytlin03} [[Niklas Beisert]], [[Sergey Frolov]], [[Matthias Staudacher]], [[Arkady Tseytlin]], _Precision Spectroscopy of AdS/CFT_, JHEP 0310:037, 2003 ([arXiv:hep-th/0308117](https://arxiv.org/abs/hep-th/0308117))
+
+Review includes
+
+* {#BBGK04} A. V. Belitsky, [[Volker Braun]], A. S. Gorsky, G. P. Korchemsky, _Integrability in QCD and beyond_, Int. J. Mod. Phys. A19:4715-4788, 2004 ([arXiv:hep-th/0407232](https://arxiv.org/abs/hep-th/0407232))
+
+* {#BeisertEtAl10} [[Niklas Beisert]], [[Luis Alday]], [[Radu Roiban]], [[Sakura Schafer-Nameki]], [[Matthias Staudacher]], [[Alessandro Torrielli]], [[Arkady Tseytlin]], et. al., _Review of AdS/CFT Integrability: An Overview_, Lett. Math. Phys. 99, 3 (2012) ([arXiv:1012.3982](https://arxiv.org/abs/1012.3982))
 
 ### Relation to weight systems on chord diagrams
 
@@ -200,6 +230,8 @@ Discussion of [[weight systems]] on [[chord diagrams]] as [[single trace observa
 * [[Constantinos Papageorgakis]], p. 161-162 of: _On matrix D-brane dynamics and fuzzy spheres_, 2006 ([[Papageorgakis06.pdf:file]])
 
 
+
+
 [[!redirects single trace operators]]
 
 [[!redirects single-trace operator]]
@@ -210,4 +242,8 @@ Discussion of [[weight systems]] on [[chord diagrams]] as [[single trace observa
 
 [[!redirects single-trace observable]]
 [[!redirects single-trace observables]]
+
+[[!redirects BMN operator]]
+[[!redirects BMN operators]]
+
 
