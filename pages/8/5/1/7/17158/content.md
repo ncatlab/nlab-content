@@ -7,12 +7,19 @@
 +-- {: .hide}
 [[!include philosophy - contents]]
 =--
+#### Spheres
++--{: .hide}
+[[!include spheres -- contents]]
+=--
 #### Stable Homotopy theory
 +--{: .hide}
 [[!include stable homotopy theory - contents]]
 =--
 =--
 =--
+
+
+
 
 #Contents#
 * table of contents
