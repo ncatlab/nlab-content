@@ -43,7 +43,7 @@ Eventually, a (counter-)example of a weight system which at least does not arise
 
 #### On horizontal chord diagrams
 
-However, for [[horizontal chord diagrams]] the situation is clear-cut:
+However, for [[horizontal chord diagrams]] the situation is clear-cut: [[all horizontal weight systems are Lie algebra weight systems]]. We state this as Prop. \ref{AllHorizontalWeightSystemsAreslNWeightSystems} below, but first to recall the ingredients:
 
 For $\mathfrak{g}$ a [[metric Lie algebra]], write  
 
@@ -84,6 +84,168 @@ $$
 =--
 
 This is due to [Bar-Natan 96, Corollary 2.6](#BarNatan96).
+
+### As expectation values of single trace observables
+ {#AsExpectationValuesOfSingleTraceOperators}
+
+We discuss how [[Lie algebra weight systems]] on round [[chord diagrams]] arise in [[quantum field theory]] and [[statistical mechanics]] as [[expectation values]] of suitable [[single trace observables]] subject to [[Wick's theorem]].
+
+So consider
+
+* $\mathfrak{g}$ be a [[metric Lie algebra]], with metric denoted $k$, 
+
+* $(\mathfrak{g}\otimes C \overset{\rho}{\to} C) \in \mathfrak{g}Mod$ be a [[finite-dimensional vector space|finite-dimensional]] [[Lie algebra representation]] of $\mathfrag{g}$.
+
+For comparison with traditional literature, choose 
+
+1. a [[linear basis]] $\{v^a\}$ of $C$
+
+1. a [[linear basis]] $\{t^i\}$ of $\mathfrak{g}$
+
+In terms of these linear bases, the representation is given by a sequence $\rho^i$ of [[square matrices]] $\big((\rho^i)^a{}_b\big)$ such that 
+
+$$
+  (\rho^i)^a{}_b v^b
+  \;\coloneqq\;
+  \rho(t^i, v^a) 
+$$
+
+with the [[Einstein summation convention]] understood here and in the following.
+
+We write $k = (k_{i j})$ for the components of the Lie algebra metric in this basis, and write
+
+$$
+  \rho_i \;\coloneqq\; k_{i j} \rho^j
+$$
+
+
+With all this understood, a [[field (physics)|field]]/[[random variable]] with values in $\mathfrak{g}$ is
+
+$$
+  Z \;=\; Z_i \cdot \rho^i \;\;
+$$
+
+for [[scalar field]] components $Z_i$.
+
+
+Now assume that the $Z_i$ are [[free fields]]/[[random variables]] with [[Gaussian distribution]], hence such that
+
+$$
+  \langle Z_i \rangle \;=\; 0
+$$
+
+$$
+  \langle Z_i Z_j \rangle \;=\; k_{i k}
+$$
+
+and such that [[Wick's theorem]] applies to higher [[moments]]:
+
+$$
+  \langle Z_{i_1} Z_{i_2} Z_{i_3} Z_{i_4} \rangle 
+  \;=\; 
+  k_{i_1 i_2} k_{i_3 i_4}
+  +
+  k_{i_1 i_3} k_{i_2 i_4}
+  +
+  k_{i_1 i_4} k_{i_2 i_3}
+$$
+
+etc.
+
+Consider the [[expectation values]] of [[single trace observables]]:
+
+$$
+  \Big\langle 
+    tr
+    \big(
+      \underset{
+        \mathclap{
+          n\, factors
+        }
+      }{
+      \underbrace{
+        Z Z \cdots Z
+      }
+      }
+    \big)
+  \Big\rangle
+  \;\coloneqq\;
+  \big\langle
+    Z_{i_1}
+    Z_{i_2}
+    \cdots
+    Z_{i_n}
+  \big\rangle
+  \cdot
+  tr
+  \big(
+    Z^{i_1} 
+    \cdot
+    Z^{i_2} 
+    \cdots
+    Z^{i_n} 
+  \big)
+$$
+
+Using [[Wick's theorem]], they are given by
+
+$$
+  \begin{aligned}
+    \Big\langle 
+      tr
+      \big(
+        Z Z Z Z
+      \big)
+    \Big\rangle
+    & 
+    =
+  \big\langle
+    Z_{i_1}
+    Z_{i_2}
+    Z_{i_3}
+    Z_{i_4}
+  \big\rangle
+  \cdot
+  tr
+  \big(
+    Z^{i_1} 
+    \cdot
+    Z^{i_2} 
+    \cdot
+    Z^{i_3} 
+    \cdot
+    Z^{i_4} 
+  \big)
+  \\
+  & =
+  2
+  \cdot
+  tr
+  \big(
+    Z_i 
+    \cdot
+    Z^i 
+    \cdot
+    Z_j
+    \cdot
+    Z^j
+  \big)
+  +
+  tr
+  \big(
+    Z_{i} 
+    \cdot
+    Z_j
+    \cdot
+    Z^i 
+    \cdot
+    Z^j
+  \big)
+  \end{aligned}
+$$
+
+etc.  The values of the traces in the last line are
+the values of the [[Lie algebra weight system]] $w_C$ on the [[chord diagram]] which reflects the Wick-contractions modulo cyclic permutation.
 
 ## Related concepts
 
