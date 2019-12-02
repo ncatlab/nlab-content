@@ -73,7 +73,7 @@ Apart from the archeytpical example of the [[simplex category]] we have the foll
 
 * The [[groupoid]]-analog $\tilde \Theta$ of the [[Theta category]] is a test category ([Ara](#Ara)).
 
-* The [[tree category]] $\Omega$ is a test category. This was proven in an unpublished note of Cisinski.
+* The [[tree category]] $\Omega$ is a test category. This was proven in an unpublished note of Cisinski, and later appeared as [Ara, Cisinski, Moerdijk, 2019](#AraCisinskiMoerdijk).
 
 ## Related concepts
 
@@ -91,7 +91,7 @@ The notion of test category was introduced in
 
 Various conjectures made there are proven in 
 
-* [[Denis-Charles Cisinski]], _Les pr&#233;faisceaux comme mod&#232;les des types d'homotopie_, Asterisque __308__, [pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf).{#Cisinksi}
+* {#Cisinksi} [[Denis-Charles Cisinski]], _Les pr&#233;faisceaux comme mod&#232;les des types d'homotopie_, Asterisque __308__, [pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf). 
 
 which moreover develops the main toolset and establishes the [[model structure on presheaves over a test category]].
 
@@ -121,7 +121,11 @@ That the category of [[cubes]] _equipped with [[connection on a cubical set]]_ f
 
 The test category nature of the groupoidal [[Theta category]] is discussed in 
 
-* [[Dimitri Ara]], _The groupoidal analogue $\tilde \Theta$ to Joyal's category $\Theta$ is a test category_ ([arXiv:1012.4319](http://arxiv.org/abs/1012.4319))
+* {#Ara} [[Dimitri Ara]], _The groupoidal analogue $\tilde \Theta$ to Joyal's category $\Theta$ is a test category_ ([arXiv:1012.4319](http://arxiv.org/abs/1012.4319)) 
+
+That fact that the [[tree category]] is a test category was proved in 
+
+* {#AraCisinskiMoerdijk} [[Dimitri Ara]], [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _The dendroidal category is a test category_, Mathematical Proceedings of the Cambridge Philosophical Society, 167(1), 107-121, 2019, ([doi:10.1017/S030500411800021X](https://doi.org/10.1017/S030500411800021X), [arXiv:1703.07098](http://arxiv.org/abs/1703.07098)).
 
 A short introduction can be found in
 
