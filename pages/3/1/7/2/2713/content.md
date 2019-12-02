@@ -186,12 +186,19 @@ Traditionally spectral triples are discussed without specifying their [[homomorp
 
 * {#BCL08} [[Paolo Bertozzini]], [[Roberto Conti]], Wicharn Lewkeeratiyutkul, _Non-Commutative Geometry, Categories and Quantum Physics_, East-West Journal of Mathematics "Contributions in Mathematics and Applications II" Special Volume 2007, 213-259 (2008) ([arXiv:0801.2826](http://arxiv.org/abs/0801.2826))
 
+
+
 (See also the pointers concerning the relation to [[KK-theory]] [below](#ReferencesRelationToKKTheory)).
 
 Spectral triples over [[Jordan algebras]]:
 
 * Latham Boyle, Shane Farnsworth,
 _The standard model, the Pati-Salam model, and "Jordan geometry"_ ([arxiv:1910.11888](https://arxiv.org/abs/1910.11888))
+
+See also
+
+
+* Ludwik Dabrowski, Andrzej Sitarz, _Multiwisted real spectral triples_ ([arXiv:1911.12873](https://arxiv.org/abs/1911.12873))
 
 
 ### Relation to quantum physics 
