@@ -1,4 +1,3 @@
-[[!redirects superembedding approach]]
 
 
 +-- {: .rightHandSide}
@@ -227,3 +226,12 @@ Claim that combining the super-embedding formalism with [[super-exceptional gene
 
 
 [[!redirects superembedding formalism]]
+
+[[!redirects super-embedding approach]]
+[[!redirects superembedding approach]]
+
+[[!redirects super-embedding construction]]
+[[!redirects superembedding construction]]
+
+
+
