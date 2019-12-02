@@ -78,6 +78,10 @@ Numbers may be similarly elaborated within this context. The definition of $\geq
 
 In [[homotopy type theory]], the surreal numbers can be defined as a [[higher inductive type]], roughly following Conway's definition but imposing the "defined" notion of equality as the "actual" equality with an identification-constructor.  This can also be done constructively by separating $\lt$ from $\le$, as remarked above.  See chapter 11.6 of the [[HoTT Book]].
 
+## In algebraic set theory
+
+An axiomatic approach to surreal numbers analogous to the approach to sets and ordinals in [[algebraic set theory]] can be found in [Rangel-Mariano 19](#RM19).
+
 ## Properties of surreal numbers 
 
 The surreal numbers form a large (i.e., proper-class size) [[real closed field]] with exponentiation. 
@@ -101,5 +105,10 @@ To some degree, and with appropriate caveats, one can do analysis and number the
 * [[Donald Knuth|Donald E. Knuth]], _Surreal numbers_, Addison-Wesley (1974) 
 
 * The [[HoTT Book]], chapter 11.6.
+
+* Dimi Rocha Rangel, Hugo Luiz Mariano, *An algebraic (set) theory of surreal numbers, I*, 2019, [arxiv](https://arxiv.org/abs/1911.12726)
+ {#RM19}
+
+
 
 [[!redirects surreal numbers]] 
