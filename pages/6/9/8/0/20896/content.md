@@ -72,5 +72,7 @@ are identity morphisms.  Note that since a commutative monoidal category has thi
 
 
 [[!redirects commutative monoidal categories]]
+[[!redirects Commutative monoidal category]]
+[[!redirects Commutative monoidal categories]]
 
 
