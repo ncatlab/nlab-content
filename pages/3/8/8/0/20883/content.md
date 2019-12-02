@@ -294,10 +294,18 @@ $$
   \end{aligned}
 $$
 
-etc.  The values of the traces in the last line are
+etc.  
+
+{#TracedWickTheorem} Here [[Wick's theorem]] in the first lines is given by a sum over [[linear chord diagrams]], and the [[trace]] then serves to close these to [[round chord diagrams]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/SingleTraceOprtrAsWeightSystemOnChordDiagram.jpg" width="830">
+</center>
+
+
+The values of the traces in the last line are
 the values of the [[Lie algebra weight system]] $w_C$ on the [[chord diagram]] which reflects the Wick-contractions modulo cyclic permutation.
 
-...[[linear chord diagram]]...
 
 ## Related concepts
 
@@ -342,7 +350,6 @@ and fully explicit in
 For complex-valued weight systems see also
 
 * Alexander Schrijver, _On Lie algebra weight systems for 3-graphs_ ([arXiv:1412.6923](https://arxiv.org/abs/1412.6923))
-
 
 ### For $\mathfrak{sl}(2)$
 
