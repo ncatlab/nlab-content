@@ -1,4 +1,9 @@
 
+The Green-Schwarz-type action functional for the supermembrane in 11d, i.e. for the fundamental M2-brane sigma model, turns out to elegantly arise as the supersymmetric trivialization of the C-field superspace 4-cocycle restricted from 11d-superspace to the M2 brane's super-worldvolume. This is known as the "super-embedding construction". An analogous construction of the M5-brane's GS sigma-model action had remained an open problem. In this talk I review a recent result (arxiv.org/abs/1908.00042) which shows that the M5-brane action, too, does arise from a super-embedding construction -- but after first passing from plain 11d superspace to super-exceptional superspace. 
+
+This is joint work with H. Sati and D. Fiorenza. Slides will be available at ncatlab.org/schreiber/show/Super-exceptional+embedding+construction+of+the+M5-brane
+
+
 $$
   \left\{
   \underset{
