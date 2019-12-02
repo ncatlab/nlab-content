@@ -179,11 +179,11 @@ $$
   \cdot
   tr
   \big(
-    Z^{i_1} 
+    \rho^{i_1} 
     \cdot
-    Z^{i_2} 
+    \rho^{i_2} 
     \cdots
-    Z^{i_n} 
+    \rho^{i_n} 
   \big)
 $$
 
@@ -208,38 +208,88 @@ $$
   \cdot
   tr
   \big(
-    Z^{i_1} 
+    \rho^{i_1} 
     \cdot
-    Z^{i_2} 
+    \rho^{i_2} 
     \cdot
-    Z^{i_3} 
+    \rho^{i_3} 
     \cdot
-    Z^{i_4} 
+    \rho^{i_4} 
   \big)
+  \\
+  & =
+  \phantom{+\;}
+  k_{i_1 i_2} \, k_{i_3 i_4}
+  \cdot
+  tr
+  \big(
+    \rho^{i_1} 
+    \cdot
+    \rho^{i_2} 
+    \cdot
+    \rho^{i_3} 
+    \cdot
+    \rho^{i_4} 
+  \big)
+  \\
+  & 
+  \phantom{=\;}
+  + 
+  k_{i_1 i_3} \, k_{i_2 i_4}
+  \cdot
+  tr
+  \big(
+    \rho^{i_1} 
+    \cdot
+    \rho^{i_2} 
+    \cdot
+    \rho^{i_3} 
+    \cdot
+    \rho^{i_4} 
+  \big)  
+  \\
+  & 
+  \phantom{=\;}
+  + 
+  k_{i_1 i_4} \, k_{i_2 i_3}
+  \cdot
+  tr
+  \big(
+    \rho^{i_1} 
+    \cdot
+    \rho^{i_2} 
+    \cdot
+    \rho^{i_3} 
+    \cdot
+    \rho^{i_4} 
+  \big)  
   \\
   & =
   2
   \cdot
   tr
   \big(
-    Z_i 
+    \rho_i 
     \cdot
-    Z^i 
+    \rho^i 
     \cdot
-    Z_j
+    \rho_j
     \cdot
-    Z^j
+    \rho^j
   \big)
+  \\
+  &
+  \phantom{=\;}
   +
   tr
   \big(
-    Z_{i} 
+    \rho_{i} 
     \cdot
-    Z_j
+    \rho_j
     \cdot
-    Z^i 
+    \rho^i 
     \cdot
-    Z^j
+    \rho^j
   \big)
   \end{aligned}
 $$
