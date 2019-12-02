@@ -53,7 +53,7 @@ whenever all composites are defined.
 
 ## Characterization up to equivalence
 
-We conjecture that a symmetric monoidal category is symmetric monoidally equivalent to a commutative monoidal category iff all its self-braidings
+One might [[conjecture]] that a symmetric monoidal category is symmetric monoidally equivalent to a commutative monoidal category iff all its self-braidings
 
 $$   B_{x,x} \colon x \otimes x \to x \otimes x $$
 
@@ -62,9 +62,13 @@ are identity morphisms.  Note that since a commutative monoidal category has thi
 
 ## References
 
+
+
 * {#BaezMaster18} [[John Baez]], [[Jade Master]], Section 2 of: _Open Petri Nets_ ([arXiv:1808.05415](https://arxiv.org/abs/1808.05415))
 
-* [[James Dolan]], [Doctrines of algebraic geometry](https://ncatlab.org/jamesdolan/published/Algebraic+Geometry)
+* [[James Dolan]], _[[jamesdolan:Algebraic Geometry|Doctrines of Algebraic Geometry]]_
+
+
 
 
 [[!redirects commutative monoidal categories]]
