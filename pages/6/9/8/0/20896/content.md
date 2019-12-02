@@ -19,13 +19,7 @@
 
 Commutative monoidal categories are [[symmetric monoidal categories]] whose  [[tensor product]] is _strictly_ [[associative]] and [[unital]] (as for [[permutative categories]]), but also strictly [[commutative monoid|commutative]], in that the [[associators]], [[unitors]], and [[braidings]] are all the  [[identity natural transformation]]. 
 
-Notice that the [[coherence theorem for symmetric monoidal categories]] only says that [[symmetric monoidal categories]] are symmetric monoidally equivalent to [[strict monoidal categories]] whose [[braidings]], however, may not be given by the identity.  
-
-We conjecture that a symmetric monoidal category is symmetric monoidally equivalent to a commutative monoidal category iff all its self-braidings
-
-$$   B_{x,x} \colon x \otimes x \to x \otimes x $$
-
-are identity morphisms.
+Notice that the [[coherence theorem for symmetric monoidal categories]] only says that [[symmetric monoidal categories]] are symmetric monoidally equivalent to [[strict monoidal categories]] whose [[braidings]], however, may not be given by the identity.
 
 ## Examples
 
@@ -57,9 +51,20 @@ $$ (g \circ f) + (h \circ k) = (g + h) \circ (f + k) $$
 
 whenever all composites are defined.
 
+## Characterization up to equivalence
+
+We conjecture that a symmetric monoidal category is symmetric monoidally equivalent to a commutative monoidal category iff all its self-braidings
+
+$$   B_{x,x} \colon x \otimes x \to x \otimes x $$
+
+are identity morphisms.  Note that since a commutative monoidal category has this property, and this property is invariant under symmetric-monoidal-equivalence, the "only if" part of the characterization is certainly true.
+
+
 ## References
 
 * {#BaezMaster18} [[John Baez]], [[Jade Master]], Section 2 of: _Open Petri Nets_ ([arXiv:1808.05415](https://arxiv.org/abs/1808.05415))
+
+* [[James Dolan]], [Doctrines of algebraic geometry](https://ncatlab.org/jamesdolan/published/Algebraic+Geometry)
 
 
 [[!redirects commutative monoidal categories]]
