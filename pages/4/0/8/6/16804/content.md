@@ -1,5 +1,5 @@
 
-> This entry is about standard circular chord diagrams. For [[horizontal chord diagrams]] or [[Jacobi diagrams]] see there.
+> This entry is about standard round chord diagrams. For [[linear chord diagrams]] or [[horizontal chord diagrams]] or [[Jacobi diagrams]] see there.
 
 ***
 
@@ -39,9 +39,9 @@ If also (trivalent) internal vertices are considered, one speaks of _[[Jacobi di
 ## Definitions
 
 Chord diagrams can be defined both in topological terms, which formalize the graphical intuition, as well as in purely combinatorial terms.
-We present only the combinatorial definition here, starting from _rooted_ chord diagrams and using those to define unrooted chord diagrams, rather than the other way around.
+We present only the combinatorial definition here, starting from _[[rooted chord diagrams]]_ and using those to define unrooted chord diagrams, rather than the other way around.
 
-(For topological definitions of both unrooted and rooted chord diagrams, see for example Chapter 6 of [Lando and Zvonkin]({#LandoZvonkin}), or Definition 1.5 of [Bar-Natan 1995](#Bar-Natan1995) for the unrooted case.)
+(For topological definitions of both unrooted and [[rooted chord diagrams]], see for example Chapter 6 of [Lando and Zvonkin]({#LandoZvonkin}), or Definition 1.5 of [Bar-Natan 1995](#Bar-Natan1995) for the unrooted case.)
 
 
 ### A combinatorial definition
@@ -57,13 +57,13 @@ then the chords can be seen as describing a matching (or equivalently, an [[invo
 
 
 A subtle point is that a chord diagram can have non-trivial [[symmetries]] when considered up to this action of rotation.
-For that reason, in many situations it is useful to equip the circle with a distinguished [[basepoint]] (distinct from the marked points), the result being called a "rooted" diagram.
+For that reason, in many situations it is useful to equip the circle with a distinguished [[basepoint]] (distinct from the marked points), the result being called a _[[rooted chord diagram]]_.
 Rooted chord diagrams may be conveniently visualized by "cutting open" the circle at the basepoint.
 For example, here we have rooted the chord diagram above at a basepoint lying on the interval AF, and opened up the circle:
 <center>
 [[!include chord diagram > arc diagram latin]]
 </center>
-The marked points of a rooted chord diagram are intrinsically equipped with a [[linear order]] ($A \lt B \lt C \lt D \lt E \lt F$) rather than a cyclic order.
+The marked points of a [[rooted chord diagram]] are intrinsically equipped with a [[linear order]] ($A \lt B \lt C \lt D \lt E \lt F$) rather than a cyclic order.
 
 Finally, it is also at times useful to consider chord diagrams with marked points which are not attached to any chord; if we think of the diagram as representing an involution, then this allows for the possibility of representing involutions with [[fixed points]].
 
@@ -71,7 +71,7 @@ Finally, it is also at times useful to consider chord diagrams with marked point
 +-- {: .un_defn}
 ###### Definition
 
-A **rooted chord diagram** of order $n$ is a [[surjective]] [[monotone function]]
+A **[[rooted chord diagram]]** of order $n$ is a [[surjective]] [[monotone function]]
 $$
   D : \underset{n\,\text{times}}{\underbrace{[0,1] + \dots + [0,1]}} \twoheadrightarrow [0,2n-1]
 $$
@@ -293,12 +293,7 @@ On [[Vassiliev invariants]] of [[braid group|braids]] via [[chord diagrams]]:
 
 
 [[!redirects chord diagrams]]
-[[!redirects rooted chord diagram]]
-[[!redirects rooted chord diagrams]]
-[[!redirects arc diagram]]
-[[!redirects arch diagram]]
-[[!redirects arc diagrams]]
-[[!redirects arch diagrams]]
+
 [[!redirects Gauss diagram]]
 [[!redirects Gauss diagrams]]
 [[!redirects Gauss code]]
