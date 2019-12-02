@@ -525,19 +525,29 @@ A textbook account is in
 
 * {#SpringerVeltkamp00} [[Tonny Springer]], [[Ferdinand Veldkamp]], chapter 5 of _Octonions, Jordan Algebras, and Exceptional Groups_, Springer Monographs in Mathematics, 2000
 
+
 Further discussion:
 
 * {#Baez02} [[John Baez]], [section 3.4](http://math.ucr.edu/home/baez/octonions/node12.html) _$\mathbb{O}P^2$ and the Exceptional Jordan Algebra_ of _The Octonions_,  Bull. Amer. Math. Soc. 39 (2002), 145-205. ([web](http://math.ucr.edu/home/baez/octonions/octonions.html)) 
 
 * {#Yokota09} Ichiro Yokota, _Exceptional Lie groups_ ([arXiv:0902.0431](https://arxiv.org/abs/0902.0431))
 
-* {#ManogueDray09} [[Corinne Manogue]], [[Tevian Dray]], _Octonions, $E_6$, and Particle Physics_, J.Phys.Conf.Ser.254:012005,2010 ([arXiv:0911.2253](http://arxiv.org/abs/0911.2253))
-
-* {#DuboisVioletteTodorov18} Michel Dubois-Violette, Ivan Todorov, _Exceptional quantum geometry and particle physics II_ ([arXiv:1808.08110](https://arxiv.org/abs/1808.08110))
-
 See also
 
 * Wikipedia, _[Albert algebra](https://en.wikipedia.org/wiki/Albert_algebra)_
+
+
+
+Attempts to identify aspects of the [[standard model of particle physics]] within the exceptional Jordan algebra:
+
+* {#ManogueDray09} [[Corinne Manogue]], [[Tevian Dray]], _Octonions, $E_6$, and Particle Physics_, J. Phys. Conf.Ser.254:012005,2010 ([arXiv:0911.2253](http://arxiv.org/abs/0911.2253))
+
+* {#DuboisVioletteTodorov18} Michel Dubois-Violette, Ivan Todorov, _Exceptional quantum geometry and particle physics II_ ([arXiv:1808.08110](https://arxiv.org/abs/1808.08110))
+
+* Ivan Todorov, _Exceptional quantum algebra for the standard model of particle physics_ ([arXiv:1911.13124](https://arxiv.org/abs/1911.13124))
+
+
+
 
 
 [[!redirects exceptional Jordan algebra]]
