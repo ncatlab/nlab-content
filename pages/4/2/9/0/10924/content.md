@@ -1,3 +1,4 @@
+[[!redirects Lectures on Logic]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -22,7 +23,7 @@ This page collects links related to
 
 * [[Jean-Yves Girard]]
 
-  _Lectures on Logic_
+  _The Blind Spot: Lectures on Logic_
 
   European Mathematical Society 2011
 
@@ -37,10 +38,9 @@ from p. xii:
 
 from p. xiii:
 
-> The blind spot is what one does not see and what one is not even conscious of not seeing4. The most trivial blind spot is the cheap modal logic justified by an even cheaper Kripke semantics and vice versa; but one finds similar blindings in the most elaborated interpretations. The good news of these lectures is that the procedural standpoint seems to be capable of dislodging the unsaid, the unseen. Simply, while the absence of Hauptsatz is enough to show that logic S5 is nonsense, one has to work much more to imagine what could be wrong in the principles justifying &#8211; say &#8211; the function $2^n$.
+> The blind spot is what one does not see and what one is not even conscious of not seeing. The most trivial blind spot is the cheap modal logic justified by an even cheaper Kripke semantics and vice versa; but one finds similar blindings in the most elaborated interpretations. The good news of these lectures is that the procedural standpoint seems to be capable of dislodging the unsaid, the unseen. Simply, while the absence of Hauptsatz is enough to show that logic S5 is nonsense, one has to work much more to imagine what could be wrong in the principles justifying &#8211; say &#8211; the function $2^n$.
 
 ## Part I The basics
-
 
 ## Part II Around Curry-Howard 
 
