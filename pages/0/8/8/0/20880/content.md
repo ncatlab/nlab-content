@@ -35,6 +35,10 @@ By the [[s-rule]] a [[supersymmetry|supersymmetric]] configurations of [[D4-bran
 
 ## References
 
+With emphasis on the [[s-rule]]:
+
+* [[Kentaro Hori]], [[Hirosi Ooguri]], [[Yaron Oz]], Section 3 of: _Strong Coupling Dynamics of Four-Dimensional N=1 Gauge Theories from M Theory Fivebrane_, Adv. Theor. Math. Phys.1:1-52, 1998 ([arXiv:hep-th/9706082](https://arxiv.org/abs/hep-th/9706082))
+
 * {#Fazzi17} [[Marco Fazzi]], around Figure 3.5 in: _Higher-dimensional field theories from type II supergravity_ ([arxiv:1712.04447](https://arxiv.org/abs/1712.04447))
 
 [[!redirects D4-D6 brane bound states]]
