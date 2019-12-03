@@ -111,6 +111,10 @@ For example:
 <img src="https://ncatlab.org/nlab/files/HorizontalChordDiagramPartitioning.jpg" width="600">
 </center>
 
+<center>
+<img src="https://ncatlab.org/nlab/files/HorizontalChordDiagramPartitioningGeneric.jpg" width="700">
+</center>
+
 
 
 \linebreak
