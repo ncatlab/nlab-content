@@ -28,7 +28,7 @@ We state this precisely as Prop. \ref{AllHorizontalWeightSystemsAreslNWeightSyst
 ## Ingredients
  {#Ingredients}
 
-Given any [[ground field]] (or in fact just any [[commutative ring|commutative]] [[ground ring]])
+Given any [[ground field]] $\mathbb{F}$ (or in fact just any [[commutative ring|commutative]] [[ground ring]])
 
 1) write $\mathcal{A}^{pb}$ for  the [[linear span]] of [[horizontal chord diagrams]] [[quotient vector space|modulo]] the [[2T relations]] and the [[4T relations]] 
 
@@ -36,11 +36,9 @@ Given any [[ground field]] (or in fact just any [[commutative ring|commutative]]
 <img src="https://ncatlab.org/nlab/files/HorizontalChordDiagramsModulo2TAnd4T.jpg" width="900">
 </center>
 
-regarded as a [[graded vector space]], graded by the number of chords;
+regarded as a [[graded vector space]], graded by the number of chords,
 
-2) $\mathcal{A}^{pb} \overset{ p_n }{\to}  \mathcal{A}^{pb}_n \overset{ i_n }{\hookrightarrow} \mathcal{A}^{pb} $ for projection onto and inclusion of the linear subspace spanned by [[horizontal chord diagrams]] with $n$ strands;
-
-3) write
+and write
 
 \[
   \label{SpaceOfHorizontalWeightSystems}
@@ -49,11 +47,68 @@ regarded as a [[graded vector space]], graded by the number of chords;
   (\mathcal{A}^{pb})^\ast
 \]
 
-for the degreewise [[dual vector space]], called the space of _[[horizontal weight systems]]_.
+for its degreewise [[dual vector space]]: the space of _[[horizontal weight systems]]_;
+
+
+2) write
+
+$$
+  \mathcal{A}^{pb} 
+    \overset{ 
+      \;\;\; p_n \;\;\; 
+    }{\longrightarrow}  
+  \mathcal{A}^{pb}_n 
+    \overset{ 
+      \;\;\; i_n \;\;\; 
+    }{\hookrightarrow} 
+  \mathcal{A}^{pb} 
+$$ 
+
+for projection onto and inclusion of the linear subspace spanned by [[horizontal chord diagrams]] with $n$ strands;
+
+3) write
+
+$$
+  \underset{\mathbb{N}}{\oplus} \mathbb{N}
+  \overset{
+    \;\;\;
+      \Delta^{(-)}
+    \;\;\;
+  }{\longrightarrow}
+  End( \mathcal{A}^{pb} \big)
+$$
+
+for the operation that reads in a [[finite number|finite]] [[tuple]] $k \coloneqq (k_1, \cdots, k_n)$ of [[natural numbers]], with [[sum]] $\left\vert k\right\vert \coloneqq \underset{i}{sum} k_i$, and produces the [[linear map]]
+
+\[
+  \label{Delta}
+  \mathcal{A}^{pb}
+  \overset{
+    \; 
+    p_n 
+    \;
+  }{\to}
+  \mathcal{A}^{pb}_{n} 
+    \overset{
+      \;\;\;
+      \Delta^k
+      \;\;\;
+     }{\longrightarrow}
+  \mathcal{A}^{pb}_{\left\vert k \right \vert}   
+  \overset{ 
+    \;
+    i_{\left\vert k \right\vert} 
+    \;
+  }{\hookrightarrow}
+  \mathcal{A}^{pb}
+\]
+
+which takes a [[horizontal chord diagram]] with $n$ strands to the [[linear combination]] of chord diagrams obtained by replacing its $i$-th strand by $k_i$ strands for all $i$ and then summing over all ways of re-attaching chords, with any vertex previously on some strand $i$ now to be put on one of the $k_i$ strands ([Bar-Natan 96, Def. 2.2](#BarNatan96)).
+
 
 \linebreak
 
-Moreover, for $\mathfrak{g}$ a [[metric Lie algebra]]:
+Moreover, for $\mathfrak{g}$ a [[metric Lie algebra]]
 
 1) write 
 
@@ -69,79 +124,122 @@ for its [[set]] of [[isomorphism classes]] of [[finite dimensional vector space|
   \label{AssignLieAlgebraWeightSystem}
   \mathfrak{g}Mod_{/\sim} 
     \overset{ w_{(-)} }{\longrightarrow} 
-  \mathcal{W}_{pb}
+  \underset{n \in \mathbb{N}}{\oplus}
+  Hom_{\mathbb{F}}
+  \big(
+    \mathcal{A}^{pb}_n
+    ,
+    End(C^{\otimes n})
+  \big)
 \]
 
-for the [[function]] that sends a [[Lie module]] $C$ over $\mathfrak{g}$ to the corresponding [[Lie algebra weight system]] $w_C$ on [[horizontal chord diagrams]];
+for the [[function]] that sends a [[Lie module]] $C$ over $\mathfrak{g}$ to the corresponding [[endomorphism ring]]-valued [[Lie algebra weight system]] $w_C$ on [[horizontal chord diagrams]].
 
-3) write
+Finally, for 
 
-$$
-  \underset{\mathbb{N}}{\sqcup} \mathbb{N}
-  \overset{
-    \;\;\Delta\;\;
-  }{\longrightarrow}
-  End( \mathcal{A}^{pb} \big)
-$$
+1. $C \in \mathfrak{g} Mod$ a [[Lie algebra representation]] of $\mathfrak{g}$, 
 
-for the operation that reads in a [[finite number|finite]] [[tuple]] $k \coloneqq (k_1, \cdots, k_n)$ of [[natural numbers]] and produces the map
+1. $n \in \mathbb{N}$ a [[natural number]],
+
+1. $\sigma \in Sym(n)$ a [[permutation]] of $n$ elements
+
+write
 
 \[
-  \label{Delta}
-  \mathcal{A}^{pb}
-  \overset{p_n}{\to}
-  \mathcal{A}^{pb}_{n} 
-    \overset{
-      \;\;\;
-      \Delta^k
-      \;\;\;
-     }{\longrightarrow}
-  \mathcal{A}^{pb}_{\left\vert k \right \vert}   
-    \overset{ i_n }{\hookrightarrow}
-  \mathcal{A}^{pb}
+  \label{PermutationTraceOperation}
+  tr_\sigma 
+    \;\colon\;
+  End
+  \big( 
+    C^{\otimes n}
+  \big)
+  \longrightarrow 
+  \mathbb{F}
 \]
 
-which takes a [[horizontal chord diagram]] with $n$ strands to the [[linear combination]] of chord diagrams obtained by replacing its $i$-th strand by $k_i$ strands for all $i$ and then reconnecting its chords in all possible ways.
 
-([Bar-Natan 96, Def. 2.2](#BarNatan96))
+for the [[composition|composite]] operation of 
 
+1. [[composition|composing]] an [[endomorphism]] on the $n$-fold [[tensor product of vector spaces|tensor power]] of $C$ by the [[braiding]] according to the [[permutation]] $\sigma$;
 
-4) The  [[composition]] of the partitioning function (eq:Delta) with the assignment (eq:AssignLieAlgebraWeightSystem) of [[Lie algebra weight systems]] yields a [[function]]
+1. forming the [[trace]] of the resulting endomorphism of $C^{\otimes n}$.
+
+Then the  [[composition]] of 
+
+1. the partitioning function (eq:Delta);
+
+1. the assignment (eq:AssignLieAlgebraWeightSystem) of [[Lie algebra weight systems]];
+
+1. the permuted [[trace]] operation (eq:PermutationTraceOperation)
+
+yields a [[function]] from [[triples]] consisting of a [[Lie module]], a [[tuple]] of [[natural numbers]] and a [[permutation]] to [[horizontal weight systems]]:
 
 \[
   \label{MapAssigningPartitionedLieWeightSystemsToModules}
-  \mathfrak{g}Mod_{/\sim} 
-    \times 
-  \underset{\mathbb{N}}{\sqcup} \mathbb{N}
-    \overset{ 
-      \;\;
-      w_{(-)} \circ \Delta 
-      \;\;
-    }{
-      \longrightarrow
-    } 
-  \mathcal{W}_{pb}
+  \array{
+    \big(
+      \mathfrak{g}Mod_{/\sim} 
+    \big)
+      \;\times\; 
+    \big(
+      \underset{\mathbb{N}}{\oplus} \mathbb{N}
+    \big)
+      \;
+      \underset{
+        \mathbb{N}
+      }{\times}
+      \;
+    \big(
+      \underset{n \in \mathbb{N}}{\sqcup} Sym(n)
+    \big)
+    &
+      \overset{ 
+        \;\;
+        tr_{(-)} \circ w_{(-)} \circ \Delta 
+        \;\;
+      }{
+        \longrightarrow
+      } 
+    &
+    \mathcal{W}_{pb}
+    \\
+    (C, \; k = (k_1, \cdots, k_n), \; \sigma)
+    &\mapsto&
+    \left(
+      D 
+        \;\mapsto\;
+      tr_\sigma 
+        \circ 
+      w_C
+        \circ 
+      \Delta^k (D)
+    \right)
+  }
 \] 
 
-Write also
+Finally, write also
 
 \[
   \label{LinearExtensionOfMapAssigningPartitionedLieWeightSystemsToModules}
     Span
     \big(
       \mathfrak{g}Mod_{/\sim} 
-        \times 
-      \underset{\mathbb{N}}{\sqcup} \mathbb{N} \big) 
+        \;\times\; 
+      \underset{\mathbb{N}}{\oplus} \mathbb{N} 
+        \;\underset{\mathbb{N}}{\times}\;
+      \underset{n \in \mathbb{N}}{\mathbb{N}} Sym(n)
+   \big)
       \overset{ 
-        w_{(-)} \circ \Delta 
+        tr_{(-)} \circ w_{(-)} \circ \Delta^{(-)} (-)
       }{
         \longrightarrow
       } 
   \mathcal{W}_{pb}
 \] 
 
-for its linear extension to the [[linear span]] of [[pairs]] consisting of an [[isomorphism classes]] of [[Lie modules]] and a [[finite set|finite]] [[tuple]] of [[natural numbers]].
+for the linear extension of this function (eq:MapAssigningPartitionedLieWeightSystemsToModules) to the [[linear span]] of its [[domain]] [[set]].
 
+\linebreak
 
 ## Statement
 
@@ -155,45 +253,162 @@ Then the space $\mathcal{W}_{pb} \coloneqq (\mathcal{A}^{pb})^\ast$ (eq:SpaceOfH
 in that the linear extension (eq:LinearExtensionOfMapAssigningPartitionedLieWeightSystemsToModules) of the function (eq:MapAssigningPartitionedLieWeightSystemsToModules) assigning $\mathfrak{sl}(N)$-[[Lie algebra weight systems]] composed with partitioning (eq:Delta) is an [[epimorphism]]:
 
 $$
+  \array{
   Span
   \Big(
+    \big(
     \underset{
       \mathclap{
       \color{blue}
-      {Lie\,data}
+      {Lie\;modules}
       }
     }{
       \underbrace{
-        \mathfrak{sl}(N) Mod_{/\sim}
+        \mathclap{\phantom{\vert \atop \vert}}
+        \mathfrak{sl}(N) \, Mod_{/\sim}
       }
     }
+    \big)
     \;
       \times
     \;
+    \big(
     \underset{
       \mathclap{
       \color{blue}
-      partitioning
+      tuples\;of\;numbers
       }
     }{
       \underbrace{
-        \underset{\mathbb{N}}{\sqcup} \mathbb{N}
+        \mathclap{ \phantom{\vert \atop \vert }  }
+        \underset{\mathbb{N}}{\oplus} \mathbb{N}
       }
     }
-  \Big)
-  \underoverset{\color{blue}epi}{ 
-     \;\;\; w_{(-)} \circ \Delta \;\;\; 
+    \big)
+    \;
+    \underset{\mathbb{N}}{\times}
+    \;
+    \big(
+      \underset{
+        \color{blue}
+        permutations
+      }{
+        \underbrace{
+          \underset{n \in \mathbb{N}}{\sqcup}
+          Sym(n)
+        }
+      }
+    \big)
+  \Big) 
+  &
+  \underoverset{\color{blue}epimorphism}{ 
+     \;\;\; 
+     tr_{(-)}
+      \circ
+     w_{(-)} 
+      \circ 
+     \Delta^{(-)}
+     (-)
+     \;\;\; 
   }{\longrightarrow}
-  \mathcal{W}_{pb}
+  &
+  \overset{
+    \mathclap{
+      {\color{blue} horizontal\;weight\;systems}
+      \atop
+      {\phantom{a}}
+    }
+  }{
+    \mathcal{W}_{pb}
+  }
+  \\
+    (
+      C, \;\; k = (k_1, \cdots, k_n), \;\; \sigma
+    )
+    &\mapsto&
+    \left(
+      \;\;\;\;\;\;
+      \array{
+        \overset{
+          \mathclap{
+            \color{blue}
+            {
+              {horizontal}
+                \atop
+              {
+                {chord}
+                \atop
+                {diagram}
+              }
+            }
+            \atop
+            {\phantom{a}}
+          }
+        }{
+          D
+        } 
+          \mapsto
+        & 
+        \phantom{=\;} 
+        \overset{
+          \mathclap{
+            \color{blue} \sigma\text{-}trace
+          }
+        }{
+          \overbrace{
+            tr_\sigma 
+          }
+        }
+          \circ 
+        \underset{
+          \mathclap{
+            {\color{blue}RT\;invariant}
+          }
+        }{
+          \underbrace{
+            W_{{}_{C^{\otimes k_1}, \cdots , C^{\otimes k_n} }}(D)
+          }
+        }
+        \;\;\;\;\;\;\;\;\;
+        \\
+        & 
+        = 
+        tr_\sigma 
+          \circ 
+        \underset{
+           \mathclap{
+             {\color{blue} End\text{-}valued\;Lie\;algebra\;weight\;system}
+           }
+        }{
+          \underbrace{
+            w_C
+          }
+       }
+          \circ
+        \overset{
+          \mathclap{
+            {\color{blue} partitioning}
+          }
+        }{ 
+          \overbrace{
+            \Delta^k 
+          }
+        }
+        (D)
+      }
+    \right)
+  }
   \,.
 $$
 
 =--
 
+This is the statement of [Bar-Natan 96, Corollary 2.6](#BarNatan96).
+
 
 ## References
 
-The theorem is due to
+The theorem and its proof is due to:
 
 * {#BarNatan96} [[Dror Bar-Natan]], _Vassiliev and Quantum Invariants of Braids_, Geom. Topol. Monogr. 4 (2002) 143-160 ([arxiv:q-alg/9607001](https://arxiv.org/abs/q-alg/9607001))
 
