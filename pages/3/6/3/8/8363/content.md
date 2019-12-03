@@ -43,7 +43,7 @@ The axioms of SOA may be divided into two parts: the first part comprises the "f
 
 ### "First-order" axioms
 
-Omitting the sort $P N$ and the symbol $\in$ from the language, the [[theory|axioms]] in this section give Robinson arithmetic. The logic throughout is standard first-order (predicate) logic with equality. 
+Omitting the sort $P N$ and the symbol $\in$ from the language, the [[theory|axioms]] in this section give [[Robinson arithmetic]]. The logic throughout is [[classical logic|classical]] [[first-order logic|first-order]] (predicate) logic with [[equality predicate|equality]]. 
 
 For all the formulas in this section, it is tacitly understood that there are universal quantifiers at the heads of formulas, binding all variables which appear freely. 
 
@@ -76,7 +76,7 @@ Note: according to convention, lower-case letters refer to terms of type $N$, an
 
 1. [[comprehension scheme|Comprehension scheme]]: for any [[formula]] $\varphi$ in the language of SOA with [[free variables]] $\vec{m} = m_1, \ldots, m_j$ and $\vec{X} = X_1, \ldots, X_k$, 
 $$\forall \vec{m} \forall \vec{X} \exists Z \forall n (n\in Z \leftrightarrow \varphi(n))$$ 
-provided that the variable $Z$ does not appear in $\varphi$. 
+provided that the variable $Z$ does not appear in $\varphi$. (Using [[alpha-equivalence]] to rename variables, it\'s enough that $Z$ does not appear free in $\varphi$.)
 
 2. Full [[induction]] scheme: for $\varphi$ any formula with a free variable $n$ and possible remaining free variables $\vec{m} = m_1, \ldots, m_j$ and $\vec{X} = X_1, \ldots, X_k$, 
 
@@ -93,6 +93,14 @@ The theory described above gives full second-order arithmetic. However, in [[rev
 
 Many important subsystems for SOA have been the subject of an [[ordinal analysis]].
 
+Another important subsystem is _intuitionistic_ second-order arithmetic, or second-order [[Heyting arithmetic]].  Here, we use [[intuitionistic logic]] rather than classical logic as the underlying first-order logic.  In a subsystem without the induction axiom, we must add axioms stating that equality and order are [[decidable predicate|decidable]]:
+
+* $(m = n) \vee ((m = n) \rightarrow \bot)$;
+
+* $(m \lt n) \vee ((m \lt n) \rightarrow \bot)$.
+
+Full (classical) SOA may be recovered from intuitionistic SOA by adding a similar axiom that set membership is decidable; in a subsystem without the comprehension scheme, this needs to be strengthened to an axiom scheme that every proposition (with any free variables) is true or false (effectively making the logic classical again).
+
 
 ## Related concepts
 
@@ -101,6 +109,7 @@ Many important subsystems for SOA have been the subject of an [[ordinal analysis
 * [[elementary function arithmetic]] 
 
 * [[descriptive set theory]]
+
 
 ## References
 
