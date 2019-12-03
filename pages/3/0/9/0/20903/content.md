@@ -32,6 +32,7 @@ If the [[field (physics)|fields]] $\phi_i$ indeed take values in the [[adjoint r
 ## Properties
 
 ### Correspondence to strings under AdS/CFT
+ {#CorrespondenceToStringsUnderAdSCFT}
 
 Single trace operators/observables in [[conformal field theories]] such as [[super Yang-Mills theories]] play a special role in the [[AdS-CFT correspondence]]: They correspond to single [[string]] excitations on the [[AdS spacetime|AdS]]-[[supergravity]] side of the correspondence, where, curiously, the "string of characters/letters" in the argument of the trace gets literally mapped to a [[superstring]] in [[spacetime]] (see the references [below](#ReferencesRelationToStringExcitations)).
 
