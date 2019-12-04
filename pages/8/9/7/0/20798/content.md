@@ -186,6 +186,8 @@ For more see the references at _[[Dp-D(p+2)-brane bound states]]_.
 
 [[!redirects D6-D8-brane bound states]]
 
+[[!redirects D6-D8 brane intersection]]
+[[!redirects D6-D8 brane intersections]]
 [[!redirects D6-D8-brane intersection]]
 [[!redirects D6-D8-brane intersections]]
 
