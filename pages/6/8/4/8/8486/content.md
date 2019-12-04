@@ -21,9 +21,9 @@
 +-- {: .num_defn #TraditionalDefinition}
 ###### Definition
 
-Let $(X_1 \stackrel{(d_0, d_1)}{\to} X_0 \times X_0)$ be a [[Lie groupoid]].
+Let $X=(X_1 \stackrel{(d_0, d_1)}{\to} X_0 \times X_0)$ be a [[Lie groupoid]].
 
-A **bisection** of is a [[smooth function]] $\sigma : X_0 \to X_1$ such that
+A **bisection** of $X$ is a [[smooth function]] $\sigma : X_0 \to X_1$ such that
 
 1. $\sigma$ is a [[section]] of $d_1$;
 
