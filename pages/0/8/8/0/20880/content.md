@@ -37,6 +37,8 @@ By the [[s-rule]] a [[supersymmetry|supersymmetric]] configurations of [[D4-bran
 
 With emphasis on the [[s-rule]]:
 
+* {#OoguriVafa97} [[Hirosi Ooguri]], [[Cumrun Vafa]], _Geometry of $N = 1$ Dualities in Four Dimensions_, Nucl. Phys. B 500:62-74, 1997 ([arXiv:hep-th/9702180](https://arxiv.org/abs/hep-th/9702180))
+
 * [[Kentaro Hori]], [[Hirosi Ooguri]], [[Yaron Oz]], Section 3 of: _Strong Coupling Dynamics of Four-Dimensional N=1 Gauge Theories from M Theory Fivebrane_, Adv. Theor. Math. Phys.1:1-52, 1998 ([arXiv:hep-th/9706082](https://arxiv.org/abs/hep-th/9706082))
 
 * {#Fazzi17} [[Marco Fazzi]], around Figure 3.5 in: _Higher-dimensional field theories from type II supergravity_ ([arxiv:1712.04447](https://arxiv.org/abs/1712.04447))
