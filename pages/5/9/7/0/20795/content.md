@@ -183,7 +183,7 @@ For parallel intersection:
 
 ### For transversal intersections
 
-### As spikes/BIons
+#### As spikes/BIons
  {#AsSpikesBIons}
 
 On [[Dp-D(p+2) brane intersections]] as spikes/[[BIons]] from the [[M5-brane]]:
@@ -193,18 +193,18 @@ On [[Dp-D(p+2) brane intersections]] as spikes/[[BIons]] from the [[M5-brane]]:
 #### Relation to monopoles
  {#ReferencesRelationToMonopoles}
 
-On transversal [[brane intersection|intersection]] of D$p$/D$(p+2)$-branes as [[Yang-Mills monopoles]]:
+On transversal [[Dp-D(p+2) brane intersections]] as [[Yang-Mills monopoles]] / [[fuzzy funnel]]-solutions to [[Nahm's equation]]:
 
 For transversal [[D1-D3 brane intersections]]:
 
 * {#Diaconescu97} Duiliu-Emanuel Diaconescu,  _D-branes, Monopoles and Nahm Equations_, Nucl. Phys. B503 (1997) 220-238 ([arxiv:hep-th/9608163](https://arxiv.org/abs/hep-th/9608163))
-
 
 * [[Amihay Hanany]], [[Edward Witten]], _Type IIB Superstrings, BPS Monopoles, And Three-Dimensional Gauge Dynamics_, Nucl. Phys. B492:152-190, 1997 ([arxiv:hep-th/9611230](https://arxiv.org/abs/hep-th/9611230))
 
 * Jessica K. Barrett, Peter Bowcock, _Using D-Strings to Describe Monopole Scattering_ ([arxiv:hep-th/0402163](https://arxiv.org/abs/hep-th/0402163))
 
 * Jessica K. Barrett, Peter Bowcock, _Using D-Strings to Describe Monopole Scattering - Numerical Calculations_ ([arxiv:hep-th/0512211](https://arxiv.org/abs/hep-th/0512211))
+
 
 For transversal [[D2-D4-brane bound states]] (with an eye towards [[AdS/QCD]]):
 
@@ -214,11 +214,9 @@ For transversal [[D3-D5 brane intersections]]:
 
 * {#GaiottoWitten08} [[Davide Gaiotto]], [[Edward Witten]], _Supersymmetric Boundary Conditions in N=4 Super Yang-Mills Theory_, J Stat Phys (2009) 135: 789 ([arXiv:0804.2902](https://arxiv.org/abs/0804.2902))
 
-
 For transversal [[D6-D8 brane intersections]] (with an eye towards [[AdS/QCD]]):
 
 * {#HLPY08} Deog Ki Hong, Ki-Myeong Lee, Cheonsoo Park, Ho-Ung Yee, Section V of: _Holographic Monopole Catalysis of Baryon Decay_, JHEP 0808:018, 2008 ([https:arXiv:0804.1326](https://arxiv.org/abs/0804.1326))
-
 
 and as transversal [[D6-D8-brane bound states]] on a [[half NS5-brane]] in [[type I' string theory]]:
 
