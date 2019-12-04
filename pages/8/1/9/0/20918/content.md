@@ -416,6 +416,13 @@ $$
 
 This is the statement of [Bar-Natan 96, Corollary 2.6](#BarNatan96).
 
+{#Example} For example:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/PartitionedLieAlgebraWeightSystem.jpg" width="840">
+</center>
+
+
 
 ## References
 
