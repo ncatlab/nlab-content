@@ -14,7 +14,7 @@
 
 ## Idea
 
-A _quantum lassice system_ is a [[quantum mechanical system]] whose [[states]]/[[observables]] are arise from basic states/observables assigned to each vertex of some [[lattice]], such as $\mathbb{Z}^d$.
+A _quantum lattice system_ is a [[quantum mechanical system]] whose [[states]]/[[observables]] are arise from basic states/observables assigned to each vertex of some [[lattice]], such as $\mathbb{Z}^d$.
 
 Quantum lattice systems are of relevance in [[solid state physics]], where the lattice typically corresponds to an actual physical lattice of [[atoms]], or as approximations to continuous structures, as in [[lattice gauge theory]].
 
