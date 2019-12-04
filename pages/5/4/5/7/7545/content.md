@@ -92,9 +92,11 @@ The reason that $\mathrm{d}s$ determines $\mathrm{d}S$ is that lengths determine
 
 ## Related concepts
 
-* exterior [[differential forms]]
+* exterior [[differential forms]] and [[pseudoforms]] (the more well-known variations);
 
-* [[cogerm differential forms]] are a more general concept including both.
+* [[cojet differential forms]] (and [[cogerm differential forms]] more generally) generalize both exterior and absolute $1$-forms and pseudo-$1$-forms;
+
+* [[coflare differential form]]s are a common generalization of exterior forms, absolute forms, and cojet forms (although not all cogerm forms).
 
 
 ## References
