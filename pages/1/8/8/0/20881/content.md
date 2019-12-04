@@ -76,6 +76,9 @@ Review:
 
 * [[Amit Giveon]], [[David Kutasov]], p. 83 onwards in: _Brane Dynamics and Gauge Theory_, Rev. Mod. Phys. 71:983-1084, 1999 ([arXiv:hep-th/9802067](https://arxiv.org/abs/hep-th/9802067))
 
+Relation to the [[Pauli exclusion principle]]:
+
+* [[Constantin Bachas]], [[Michael Green]], _A Classical Manifestation of the Pauli Exclusion Principle_, JHEP 9801 (1998) 015 ([arXiv:hep-th/9712187](https://arxiv.org/abs/hep-th/9712187))
 
 See also
 
@@ -85,8 +88,18 @@ For [[D2-D4 brane intersections]]:
 
 * Minoru Eto, Youichi Isozumi, Muneto Nitta, Keisuke Ohashi, Kazutoshi Ohta, Norisuke Sakai, Section 3 of: _D-brane Construction for Non-Abelian Walls_, Phys. Rev. D71 (2005) 125006 ([arXiv:hep-th/0412024](https://arxiv.org/abs/hep-th/0412024))
 
+For [[D3-D5 brane intersections]]:
+
+* [[Constantin Bachas]], [[Michael Green]], Adam Schwimmer, Section 2.3 of: _$(8,0)$ Quantum mechanics and symmetry enhancement in type I' superstrings_, JHEP 9801 :006, 1998 ([arXiv:hep-th/9712086](https://arxiv.org/abs/hep-th/9712086))
+
+* Akikazu Hashimoto, Peter Ouyang, Masahito Yamazaki, Section 3.6 of: _Boundaries and Defects of N=4 SYM with 4 Supercharges, Part II: Brane Constructions and 3d N=2 Field Theories_, JHEP 1410 : 108, 2014 ([arXiv:1406.5501](https://arxiv.org/abs/1406.5501))
+
+* Federico Carta, Hirotaka Hayashi, _Hilbert series and mixed branches of $T[SU(N)]$ theory_, JHEP 02 (2017) 037 ([arXiv:1609.08034](https://arxiv.org/abs/1609.08034))
+
 
 For [[D4-D6 brane intersections]]:
+
+* {#OoguriVafa97} [[Hirosi Ooguri]], [[Cumrun Vafa]], Section 6.2 of: _Geometry of $N = 1$ Dualities in Four Dimensions_, Nucl. Phys. B 500:62-74, 1997 ([arXiv:hep-th/9702180](https://arxiv.org/abs/hep-th/9702180))
 
 * [[Kentaro Hori]], [[Hirosi Ooguri]], [[Yaron Oz]], Section 3 of: _Strong Coupling Dynamics of Four-Dimensional N=1 Gauge Theories from M Theory Fivebrane_, Adv. Theor. Math. Phys.1:1-52, 1998 ([arXiv:hep-th/9706082](https://arxiv.org/abs/hep-th/9706082))
 
