@@ -112,7 +112,7 @@ For example:
 </center>
 
 <center>
-<img src="https://ncatlab.org/nlab/files/HorizontalChordDiagramPartitioningGeneric.jpg" width="700">
+<img src="https://ncatlab.org/nlab/files/HorizontalChordDiagramPartitioningGenericII.jpg" width="700">
 </center>
 
 
