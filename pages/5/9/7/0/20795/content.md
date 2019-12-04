@@ -10,7 +10,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -73,7 +72,7 @@ Transversally intersecting D$p$-D$(p+2)$-branes [[geometric engineering of QFT|g
 ([Diaconescu 97](#Diaconescu97), [Hanany-Zaffaroni 99](#HananyZaffaroni99), [HLPY 08](#HLPY08), 
 [GZZ 09](#GZZ09))
 
-Specifically for $p = 6$, i.e. for [[D6-D8-brane intersections]], this fits with the [[Witten-Sakai-Sugimoto model]] [[geometric engineering of QFT|geometrically engineering]] [[quantum chromodynamics]], and then gives a [[geometric engineering of QFT|geometric engineering]] of the [[Yang-Mills monopoles]] in actual [[QCD]] ([HLPY 08, p. 16](#HLPY08)).
+Specifically for $p = 6$, i.e. for [[D6-D8 brane intersections]], this fits with the [[Witten-Sakai-Sugimoto model]] [[geometric engineering of QFT|geometrically engineering]] [[quantum chromodynamics]], and then gives a [[geometric engineering of QFT|geometric engineering]] of the [[Yang-Mills monopoles]] in actual [[QCD]] ([HLPY 08, p. 16](#HLPY08)).
 
 <center>
 <img src="https://ncatlab.org/nlab/files/WSSBraneConfigurationEngineeringQCDII.jpg" width="740"/>
@@ -196,7 +195,7 @@ On [[Dp-D(p+2) brane intersections]] as spikes/[[BIons]] from the [[M5-brane]]:
 
 On transversal [[brane intersection|intersection]] of D$p$/D$(p+2)$-branes as [[Yang-Mills monopoles]]:
 
-For transversal [[D1-D3-brane bound states]]:
+For transversal [[D1-D3 brane intersections]]:
 
 * {#Diaconescu97} Duiliu-Emanuel Diaconescu,  _D-branes, Monopoles and Nahm Equations_, Nucl. Phys. B503 (1997) 220-238 ([arxiv:hep-th/9608163](https://arxiv.org/abs/hep-th/9608163))
 
@@ -211,7 +210,12 @@ For transversal [[D2-D4-brane bound states]] (with an eye towards [[AdS/QCD]]):
 
 * {#GZZ09} Alexander Gorsky, Valentin Zakharov, Ariel Zhitnitsky, _On Classification of QCD defects via holography_, Phys. Rev. D79:106003, 2009 ([arxiv:0902.1842](https://arxiv.org/abs/0902.1842))
 
-For transversal [[D6-D8-brane bound states]] (with an eye towards [[AdS/QCD]]):
+For transversal [[D3-D5 brane intersections]]:
+
+* {#GaiottoWitten08} [[Davide Gaiotto]], [[Edward Witten]], _Supersymmetric Boundary Conditions in N=4 Super Yang-Mills Theory_, J Stat Phys (2009) 135: 789 ([arXiv:0804.2902](https://arxiv.org/abs/0804.2902))
+
+
+For transversal [[D6-D8 brane intersections]] (with an eye towards [[AdS/QCD]]):
 
 * {#HLPY08} Deog Ki Hong, Ki-Myeong Lee, Cheonsoo Park, Ho-Ung Yee, Section V of: _Holographic Monopole Catalysis of Baryon Decay_, JHEP 0808:018, 2008 ([https:arXiv:0804.1326](https://arxiv.org/abs/0804.1326))
 
