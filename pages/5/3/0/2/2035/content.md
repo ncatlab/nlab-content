@@ -1,3 +1,17 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
 * table of contents
 {: toc}
 
@@ -13,8 +27,12 @@ The structure rings of classical [[algebraic variety|algebraic varieties]] are f
 ## Related pages
 
 * [[nilpotent group]]
+
 * [[nilpotent topological space]]
 
+For [[Lie algebras]]:
+
+* [[Jacobson-Morozov theorem]]
 
 [[!redirects nilpotent]]
 [[!redirects nilpotent element]]
