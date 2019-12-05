@@ -85,6 +85,8 @@ Imposing the symmetry axiom then gives us enriched $\dagger$-[[dagger category|c
 
 (The requisite axioms for an enriched groupoid do not make sense when the enriching category is not cartesian, but one might argue that since in a poset "they would commute automatically anyway", it makes sense to call any poset-enriched $\dagger$-category also an "enriched groupoid".  However, perhaps it makes more sense just to speak about enriched $\dagger$-categories.)
 
+Note that like any kind of enriched category, Lawvere metric spaces are [[monads]] in a [[bicategory]] of "matrices", whose objects are sets and whose morphisms from $X$ to $Y$ are functions $d:X\times Y \to [0,\infty]$.  This sort of perspective can be generalized to many other kinds of topological structures; an exposition can be found in the book [Monoidal topology](#HST).
+
 The category of metric spaces and categories of random maps as generalised metric spaces were studied in the [thesis](#Meng) of Lawvere's student Xiao-qing Meng. 
 
 
@@ -156,20 +158,6 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 
 [[!include generalized uniform structures - table]]
 
-### A semigroup related to metric spaces
-
-Let us call _most general nonnegative real metrics_ (MGNRM) the precategory of all extended nonnegative ($\mathbb{R}_{+}\cup\{+\infty\}$) real functions (on some fixed set) of two arguments and the "composition" operation
-\[ (\sigma\circ\rho)(x,z) = \inf_{y\in\mho}(\rho(x,y)+\sigma(z,y)) \]
-and _most general nonnegative real metric_ an element of this precategory.
-
-So metric spaces are elements of a certain precategory (or a semgroup, if we limit to a fixed set).
-
-Furthermore, every binary relation can be represented as a distance that equals to zero for related elements and $+\infty$ for non-related. So a function is a special case of a MGNRM.
-
-If we follow [[Victor Porton]]'s definition of generalized continuity, then generalized continuous functions for metric spaces are exactly [contractions](short+map).
-
-See [book](#Porton).
-
 
 ## References
 
@@ -180,6 +168,7 @@ See [book](#Porton).
 
 * {#Meng} [[Xiao-qing Meng]], _Categories of convex sets and of metric spaces with applications to stochastic programming and related areas_, PhD thesis ([[Meng.djvu|djvu:file]]) 
  
+* {#HST} Dirk Hofmann, Gavin J. Seal, and Walter Tholen (editors), *Monoidal topology: A Categorical Approach to Order, Metric, and Topology*,  Cambridge University Press, 2014
 
 * {#Porton} [[Victor Porton]], _[Algebraic General Topology: Book 3: Algebra](https://mathematics21.org/the-algebra-of-general-topology/)_
 
