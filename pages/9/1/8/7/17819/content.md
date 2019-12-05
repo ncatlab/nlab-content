@@ -5,12 +5,14 @@
 
 ## Idea
 
-A clone is a [[cartesian multicategory]] with one object, in the same way that an [[operad]] is a [[symmetric multicategory]] with one object.  Thus, a clone could equivalently be called a *cartesian operad*.  Equivalently, a clone is a presentation of a single-sorted [[algebraic theory]] in terms of algebraic operations, equivalent to a [[Lawvere theory]] but organized slightly differently.
+An (abstract) clone is a [[cartesian multicategory]] with one object, in the same way that an [[operad]] is a [[symmetric multicategory]] with one object.  Thus, a clone could equivalently be called a *cartesian operad*.  Equivalently, a clone is a presentation of a single-sorted [[algebraic theory]] in terms of algebraic operations, equivalent to a [[Lawvere theory]] but organized slightly differently.
 
 ## Definition
 
-A set of algebraic operations on a fixed set $S$ is a __clone__
+A set of algebraic operations on a fixed set $S$ is a __(concrete) clone__
 on $S$ if it contains all (component) projections $S^{n}\to S$ and is closed under composition ("superposition").
+
+An **abstract clone** consists of an abstract set of "$n$-ary operations" for every $n$ together with projection and composition operations.  For now, see [wikipedia](https://en.wikipedia.org/wiki/Clone_%28algebra%29).  This is the notion that's equivalent to a cartesian operad or a Lawvere theory.
 
 ## References 
 
