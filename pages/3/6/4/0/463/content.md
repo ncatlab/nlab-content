@@ -1,14 +1,7 @@
 * [webpage](http://www.ma.utexas.edu/users/benzvi)
 
-#Related entries#
+## Selected writings
 
-* [[geometric function theory]]
-
-#Further resources#
-
-* Talk at NorthWestern University, May 2009, [Gauge Theory and Representation Theory](http://math.utexas.edu/users/benzvi/GRASP/lectures/NWTFT/nwtft.pdf)
-
-* Talk at Hamburg Center of mathematical physics, Febuary 2009, [[BenZviHamburg2009.pdf:file]]
 
 * D. Ben-Zvi, J. Francis, D. Nadler, _Integral transforms and Drinfeld centers in derived algebraic geometry_, [arXiv:0805.0157](http://arxiv.org/abs/0805.0157), Jour. Amer. Math. Soc. 2010, [doi](http://dx.doi.org/10.1090/S0894-0347-10-00669-7)
 
@@ -21,10 +14,28 @@
 
 * D. Ben-Zvi, [[BenZviGeometricFunctionTheory.pdf:file]] (Jan 2009).
 
+
+Discussion of [[topological quantum field theory]] with an eye towards [[supersymmetry|supersymmetric]] field theory, in terms of the [[ordinary homology]] of [[configuration spaces of points]] (see also at _[[correlators as differential forms on configuration spaces of points]]_):
+
+* [[Christopher Beem]], [[David Ben-Zvi]], [[Mathew Bullimore]], [[Tudor Dimofte]], [[Andrew Neitzke]], _Secondary products in supersymmetric field theory_ ([arXiv:1809.00009](https://arxiv.org/abs/1809.00009))
+
+
+## Selected talks
+
+* Talk at NorthWestern University, May 2009, [Gauge Theory and Representation Theory](http://math.utexas.edu/users/benzvi/GRASP/lectures/NWTFT/nwtft.pdf)
+
+* Talk at Hamburg Center of mathematical physics, Febuary 2009, [[BenZviHamburg2009.pdf:file]]
+
 * talk at _[ASPECTS of Topology](https://people.maths.ox.ac.uk/tillmann/ASPECTS.html)_ 2012, _[[Loop Groups, Characters and Elliptic Curves]]_ ([pdf slides](https://people.maths.ox.ac.uk/tillmann/ASPECTSbenzvi.pdf))
 
 
 * D. Ben-Zvi has given many interesting answers to [http://mathoverflow.net](MathOverflow) questions, and a list can be found at [MO user page:David Ben-Zvi](http://mathoverflow.net/users/582/david-ben-zvi).
+
+## Related $n$Lab entries
+
+* [[geometric function theory]]
+
+
 
 category: people
 
