@@ -48,9 +48,16 @@ By including $\mathbb{C}^*$ equivariance as well, this gives a non-commutative d
 
 ## References
 
+### General
+
 The terminology "Coulomb branch" and "Higgs branch" first appears in 
 
 * {#SeibergWitten94} [[Nathan Seiberg]], [[Edward Witten]], _Monopoles, Duality and Chiral Symmetry Breaking in $N=2$ Supersymmetric QCD_ ([arXiv:hep-th/9408099](http://arxiv.org/abs/hep-th/9408099))
+
+The definition is summarized (specifically for [[super QCD]]) in [Assel-Cremoni 17, Section 2.1](#AsselCremoni17).
+
+
+
 
 Quick exposition of the basic idea includes
 
@@ -67,6 +74,16 @@ For mathematical discussion see
 * [[Constantin Teleman]], _The role of Coulomb branches in 2D gauge theory_, ([arXiv:1801.10124](https://arxiv.org/abs/1801.10124))
 
 * [[Ben Webster]], _Koszul duality between Higgs and Coulomb categories $\mathcal{O}$_, ([ arXiv:1611.06541](https://arxiv.org/abs/1611.06541))
+
+### Singularities
+
+Discussion of Coulomb branch [[singularities]]:
+
+* [[Mathew Bullimore]], [[Tudor Dimofte]], [[Davide Gaiotto]], _The Coulomb Branch of 3d $\mathcal{N}=4$ Theories_, Commun. Math. Phys. (2017) 354: 671 ([arXiv:1503.04817](https://arxiv.org/abs/1503.04817))
+
+  (relation to [[Nahm's equations]])
+
+* {#AsselCremoni17} [[Benjamin Assel]], [[Stefano Cremonesi]], _The Infrared Physics of Bad Theories_, SciPost Phys. 3, 024 (2017) ([arXiv1707.03403](https://arxiv.org/abs/1707.03403))
 
 
 [[!redirects Coulomb branches]]
