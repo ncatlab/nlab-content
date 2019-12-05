@@ -13,6 +13,10 @@ Introducing the [[fuzzy 4-sphere]]:
 
   (via [[D5-branes]])
 
+On [[D0-D6 brane bound states]]:
+
+* [[Washington Taylor]], _Adhering 0-branes to 6-branes and 8-branes_, Nucl. Phys. B508: 122-132, 1997 ([arXiv:hep-th/9705116](https://arxiv.org/abs/hep-th/9705116))
+
 
 On [[F-theory]] [[string phenomenology]]:
 
