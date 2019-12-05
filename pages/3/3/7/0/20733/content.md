@@ -15,6 +15,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -81,7 +82,13 @@ See also
 
 * Wikipedia, _[Nahm equations](https://en.m.wikipedia.org/wiki/Nahm_equations)_
 
-### For Dp-D(p+2) brane intersections
+### In terms of Coulomb branch singularities in SYM
+
+In terms of [[Coulomb branch]] [[singularities]] on [[super Yang-Mills theories]]:
+
+* [[Mathew Bullimore]], [[Tudor Dimofte]], [[Davide Gaiotto]], _The Coulomb Branch of 3d $\mathcal{N}=4$ Theories_, Commun. Math. Phys. (2017) 354: 671 ([arXiv:1503.04817](https://arxiv.org/abs/1503.04817))
+
+### In term of Dp-D(p+2) brane intersections
 
 On transversal [[Dp-D(p+2) brane intersections]] as [[Yang-Mills monopoles]] / [[fuzzy funnel]]-solutions to [[Nahm's equation]]:
 
