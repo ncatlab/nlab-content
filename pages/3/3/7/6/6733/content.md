@@ -439,7 +439,7 @@ Classification of more general M5-brane [[ADE-singularities]] is in
 
 * S. Ferrara, A. Kehagias, H. Partouche, A. Zaffaroni, _Membranes and Fivebranes with Lower Supersymmetry and their AdS Supergravity Duals_, Phys.Lett. B431 (1998) 42-48 ([arxiv:hep-th/9803109](https://arxiv.org/abs/hep-th/9803109))
 
-* {#MFF12} Paul de Medeiros, [[José Figueroa-O'Farrill]], Section 8.3 of: _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
+* {#MFF12} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], Section 8.3 of: _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
 
 also to some extent in
 
