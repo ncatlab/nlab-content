@@ -38,6 +38,9 @@ such that $\langle -,-\rangle$
 
 "Most" [[weight systems]] on [[chord diagrams]] come from [[dualizable object|dualizable]] [[Lie algebra representations]] over [[metric Lie algebras]]: these are the _[[Lie algebra weight systems]]_.
 
+## Related concepts
+
+* [[metric Lie representation]]
 
 ## References
 
