@@ -51,7 +51,7 @@ Review includes
 
 The relation to [[topological M-theory]]/the [[topological membrane]] is discussed for instance in
 
-* [[Jan de Boer]], Paul de Medeiros, Sheer El-Showk, Annamaria Sinkovics, _Open $G_2$ Strings_ ([arXiv:hep-th/0611080](http://arxiv.org/abs/hep-th/0611080))
+* [[Jan de Boer]], [[Paul de Medeiros]], Sheer El-Showk, Annamaria Sinkovics, _Open $G_2$ Strings_ ([arXiv:hep-th/0611080](http://arxiv.org/abs/hep-th/0611080))
 
 See also
 
