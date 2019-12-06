@@ -278,6 +278,9 @@ Review of work on 4-modules (implicitly) as [[trialgebras]]/[[Hopf monoidal cate
 [[!redirects 3-algebra]]
 [[!redirects 3-algebras]]
 
+[[!redirects n-algebra]]
+[[!redirects n-algebras]]
+
 
 [[!redirects n-module]]
 [[!redirects n-modules]]
