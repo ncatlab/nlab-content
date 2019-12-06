@@ -9,7 +9,7 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
-#### Higher category theory
+#### Higher category theory Sur
 +--{: .hide}
 [[!include higher category theory - contents]]
 =--
@@ -151,23 +151,29 @@ See the article by Selinger below for more examples.
 
 ## References
 
-### Introductory material
+### Introduction and survey
+
+* {#Selinger} [[Peter Selinger]], _A survey of graphical languages for monoidal categories_ ([arXiv:0908.334](http://arxiv.org/abs/0908.3347))
+ 
+
+* [[Ross Street]], [Low dimensional topology and higher-order categories](http://www.mta.ca/~cat-dist/CT95Docs/LowDim.ps) -- talks about surface diagrams and includes some pictures (PS version only).
+
+* [[Ross Street]], _Categorical structures_ 
+
+  (discusses string diagrams for [[bicategories]])
+
 
 * [[John Baez]], QG Seminar Fall 2000 ([web](http://math.ucr.edu/home/baez/qg-fall2000/)), Winter 2001 ([web](http://math.ucr.edu/home/baez/qg-winter2001/)), Fall 2006 ([web](http://math.ucr.edu/home/baez/qg-fall2006/index.html#computation)).
 
-* John Baez and Mike Stay, _Physics, Topology, Logic and Computation: A Rosetta Stone_, [arXiv](http://arxiv.org/abs/0903.0340)
+* [[John Baez]], [[Mike Stay]], _Physics, Topology, Logic and Computation: A Rosetta Stone_ ([arXiv:0903.0340](http://arxiv.org/abs/0903.0340))
 
-* The Catsters (Simon Willerton), _String diagrams_ ([YouTube](http://www.youtube.com/view_play_list?p=50ABC4792BD0A086))
+* [[Simon Willerton]], _String diagrams_ ([YouTube](http://www.youtube.com/view_play_list?p=50ABC4792BD0A086))
 
-The higher dimensional string diagrams ("zoom complexes" ([Kock-Joyal-Batanin-Mascari 07](#KockJoyalBataninMascari07))) used for presenting [[opetopes]] in the context of [[opetopic type theory]] are introduced in 
+* [[Aleks Kissinger]], _Pictures of Processes: Automated Graph Rewriting for Monoidal Categories and Applications to Quantum Computing_ ([arXiv:1203.0202](https://arxiv.org/abs/1203.0202))
 
-* [[Eric Finster]], _Opetopic Diagrams 1 - Basics_ ([video](http://www.youtube.com/watch?v=OANwLohwJqk))
+Some philosophical discussion is given in  
 
-* [[Eric Finster]], _Opetopic Diagrams 2 - Geometry_ ([video](http://www.youtube.com/watch?v=E7OvuA1jRKM))
-
-### Software
-
-* [[Globular]] is a web-based proof assistant for finitely-presented semistrict globular higher categories. It allows one to formalize higher-categorical proofs in finitely-presented n-categories and visualize them as string diagrams. 
+* [[David Corfield]], Section 10.4 of: _Towards a Philosophy of Real Mathematics_, CUP, 2003.
 
 ### Original articles 
  {#OriginalArticles}
@@ -175,6 +181,7 @@ The higher dimensional string diagrams ("zoom complexes" ([Kock-Joyal-Batanin-Ma
 [[Günter Hotz]] introduced "plane nets" (=string diagrams) and their categories in his 1965 habilitation thesis. This seems to be the first formal definition of string diagrams in the literature.
 
 String diagrams appeared first in [[Max Kelly]] and Laplaza's paper on [[coherence theorem for monoidal categories|coherence for compact closed categories]]
+
 
 * [[Max Kelly]] and M. L. Laplaza, _Coherence for compact closed categories_. Journal of Pure and Applied Algebra, 19:193&#8211;213, 1980.
 
@@ -203,17 +210,6 @@ which are not inherent in the (braided or symmetric compact closed) monoidal str
 1992.
 
 For more on the history of the notion see the bibliography in ([Selinger 09](#Selinger)).
-
-### Surveys
-
-* [[Peter Selinger]], _A survey of graphical languages for monoidal categories_ ([arXiv:0908.334](http://arxiv.org/abs/0908.3347))
- {#Selinger}
-
-* [[Ross Street]], [Low dimensional topology and higher-order categories](http://www.mta.ca/~cat-dist/CT95Docs/LowDim.ps) -- talks about surface diagrams and includes some pictures (PS version only).
-
-* Ross Street, "Categorical structures" -- discusses string diagrams for bicategories.
-
-* Some philosophical discussion is given in section 10.4 of [[David Corfield]], _Towards a Philosophy of Real Mathematics_, CUP, 2003.
 
 
 ### Details
@@ -285,6 +281,20 @@ Discussion for [[double categories]] and [[2-category equipped with proarrows|pr
 * {#Myers16} David Jaz Myers, _String Diagrams For Double Categories and (Virtual) Equipments_ ([arXiv:1612.02762](https://arxiv.org/abs/1612.02762))
 
 See also at _[[opetopic type theory]]_.
+
+
+### Software
+
+The higher dimensional string diagrams ("zoom complexes" ([Kock-Joyal-Batanin-Mascari 07](#KockJoyalBataninMascari07))) used for presenting [[opetopes]] in the context of [[opetopic type theory]] are introduced in 
+
+* [[Eric Finster]], _Opetopic Diagrams 1 - Basics_ ([video](http://www.youtube.com/watch?v=OANwLohwJqk))
+
+* [[Eric Finster]], _Opetopic Diagrams 2 - Geometry_ ([video](http://www.youtube.com/watch?v=E7OvuA1jRKM))
+
+
+* [[Globular]] is a web-based proof assistant for finitely-presented semistrict globular higher categories. It allows one to formalize higher-categorical proofs in finitely-presented n-categories and visualize them as string diagrams. 
+
+
 
 
 [[!redirects string diagrams]]
