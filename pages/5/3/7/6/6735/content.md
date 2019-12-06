@@ -145,9 +145,9 @@ Discussion in [[Horava-Witten theory]] reducing M2-branes to [[heterotic strings
 Volume 749, 7 October 2015, Pages 363-367 ([arXiv:1507.07931](http://arxiv.org/abs/1507.07931))
  
 
-The interpretation of at least most of the "[[3-Lie algebra]]" appearing in the membrane literature in terms of plain [[metric Lie algebras]] is due to
+The interpretation of at least most of the "[[M2-brane 3-algebra]]" appearing in the membrane literature in terms of plain [[metric Lie algebras]] is due to
 
-* {#MFMR} Paul de Medeiros, [[José Figueroa-O'Farrill]], Elena M&#233;ndez-Escobar, Patricia Ritter, _On the Lie-algebraic origin of metric 3-algebras_, Commun.Math.Phys.290:871-902,2009 ([arXiv:0809.1086](http://arxiv.org/abs/0809.1086))
+* {#MFMR} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], [[Elena Méndez-Escobar]], [[Patricia Ritter]], _On the Lie-algebraic origin of metric 3-algebras_, Commun. Math. Phys. 290: 871-902, 2009 ([arXiv:0809.1086](http://arxiv.org/abs/0809.1086))
  
 See also
 
