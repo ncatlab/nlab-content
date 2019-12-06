@@ -81,7 +81,7 @@ Discussion of the case that $X_7$ is an [[orbifold]] or has other [[singularitie
 
 Specifically, discussion of an [[ADE classification]] of 1/2 [[BPS state|BPS]]-compactifications on $S^7/\Gamma$ for a [[finite group]] $\Gamma$ is in 
 
-* Paul de Medeiros, [[José Figueroa-O'Farrill]], Sunil Gadhia, [[Elena Méndez-Escobar]], _Half-BPS quotients in M-theory: ADE with a twist_, 	JHEP 0910:038,2009 ([arXiv:0909.0163](http://arxiv.org/abs/0909.0163), [pdf slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
+* [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], [[Sunil Gadhia]], [[Elena Méndez-Escobar]], _Half-BPS quotients in M-theory: ADE with a twist_, JHEP 0910:038,2009 ([arXiv:0909.0163](http://arxiv.org/abs/0909.0163), [pdf slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
 
 
 Discussion of [[weak G2 holonomy]] on $X_7$ is in 
