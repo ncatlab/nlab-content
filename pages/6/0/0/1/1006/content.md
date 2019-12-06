@@ -1,4 +1,8 @@
 
+> This entry is about the concept that became famous with the [[BLG model]] while it is NOT about what in [[homotopy theory]] are known as [[Lie n-algebras]] ([[homotopy theory|homotopy-theoretic]] [[Lie algebras]]), NOR [[n-algebras]] ([[categorification|categorifies]] [[associative algebras]]).
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -59,11 +63,11 @@ Similar (but different) discussion is in
 
 ### Re-inventions
 
-The notion of $n$-Lie algebras, for $n=3$, was re-invented by string physicists in the [[BLG model]]
+The notion of $n$-Lie algebras, for $n=3$, was re-invented, in the form of the _[[M-brane 3-algebra]]_ by string physicists in the [[BLG model]]
 
 * [[Jonathan Bagger]], [[Neil Lambert]], _Gauge Symmetry and Supersymmetry of Multiple M2-Branes_ ([arXiv](http://arxiv.org/abs/0711.0955))
 
-which sparked a tremendous amount of [activity](http://people.physik.hu-berlin.de/~ahoop08/klose.pdf). 
+which sparked a tremendous amount of activity.
 
 
 See the blog entry
@@ -107,3 +111,6 @@ See also
 
 [[!redirects 3-Lie algebra]]
 [[!redirects 3-Lie algebras]]
+
+[[!redirects Filippov algebra]]
+[[!redirects Filippov algebras]]
