@@ -324,6 +324,7 @@ This and the relation to [[shape theory]], more precisely the [[strong shape]], 
 
 See also
 
-* {#Hoyois13} [[Marc Hoyois]], _Higher Galois theory_ ([pdf](http://math.mit.edu/~hoyois/papers/highergalois.pdf)).
+* {#Hoyois13} [[Marc Hoyois]], _Higher Galois theory_,  	Algebraic & Geometric Topology __17__-1 (2017) 567-643 [arxiv/1506.07155](https://arxiv.org/abs/1506.07155) [doi](https://doi.org/10.2140/agt.2017.17.567)
+* Ilan Barnea, Yonatan Harpaz, Geoffroy Horel, _Pro-categories in homotopy theory_, [arxiv/1507.01564](https://arxiv.org/abs/1507.01564) 
 
 [[!redirects shape of an (∞,1)-topos]]
