@@ -7,6 +7,10 @@
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
 =--
 =--
 
@@ -170,7 +174,7 @@ An _orthogonal representation of a metric Lie algebra_ is
 **(linear duals and adjuncts/transposition)**
 
 Given an orthogonal representation of a metric Lie algebra as in Def. \ref{ModulesOfMetricLieAlgebras}, 
-the non-degenerate [[inner products]] $g$  on $\mathfrak{g}$ and $k$ on $V$ exhibit these as [[dualizable objects]] in the [[monoidal category]] of [[finite-dimensional vector spaces]] (with respect to the [[tensor product of vector spaces]]).
+the non-degenerate [[inner products]] $g$  on $\mathfrak{g}$ and $k$ on $V$ exhibit these as [[self-dual objects]] in the [[monoidal category]] of [[finite-dimensional vector spaces]] (with respect to the [[tensor product of vector spaces]]).
 
 This means that by passsing to [[adjuncts]] we may regard [[linear maps]] of the form
 
@@ -189,23 +193,51 @@ where $V^\ast$ is the [[dual vector space]]; and similarly for $\mathfrak{g}$.
 
 Once we choose a [[linear basis]] $\{v_i\}_{i \in \{1, \cdots, dim(V)\}}$ of $V$, with respect to which the metric tensor $k$ has components
 
-$$
+\[
+  \label{ComponentsOfMetricOnV}
   k_{i j} \;\coloneqq\; k(v_i, v_j)
-$$
+\]
 
+this forming of adjuncts is equivalently the yoga of "raising and lowering of indices via the metric". Similarly for a choice of [[linear basis]] $\{t_a\}_{a \in \{1,\cdots, dim(\mathfrak{g})\}}$ for the Lie algebra, and the induced components
 
-this forming of adjuncts is equivalently the yoga of "raising and lowering of indices via the metric". Similarly for a choice of [[linear basis]] $\{t_a\}_{a \in \{1,\cdots, dim(\mathfrak{g})\}}$ for the Lie alegebra, and the induced components
-
-$$
+\[
+  \label{ComponentsOfMetricOng}
   g_{a b} \;\coloneqq\; g(t_a, t_b)
-$$
+\]
+
+Specifically, given the basis component $(\rho_a{}^{i}{}_j)_{a,i,j}$ of the [[Lie algebra representation|Lie action]] $\mathfrak{g} \otimes V \overset{\rho}{\longrightarrow} V$, defined by
+
+\[
+  \label{ComponentsOfLieAction}
+  \rho(t_a, v_i)
+  \;\coloneqq\;
+  \rho_a{}^{i}{}_j v_i
+\]
+
+we get the components $(\tilde \rho^a{}_{i j})_{a,i,j}$ of the [[adjunct]]
+
+\[
+  \label{AdjunctOfLieAction}
+  V \otimes V \overset{ \tilde \rho }{\longrightarrow} \mathfrak{g}
+\]
+
+by contracting the original component (eq:ComponentsOfLieAction) with the components (eq:ComponentsOfMetricOnV) (eq:ComponentsOfMetricOng)  of the metric tensors:
+
+\[
+  \label{ComponentsOfAdjunctOfLieAction}
+  \tilde \rho^a{}_{i j})_{a,i,j}
+  \;=\;
+  g_{l j} k^{a b} \, \rho_b{}^l{}_i
+\]
+
+
 
 =--
 
 
 +-- {: .num_defn #TrilinearMapInducedFromOrthogonalRepOfMetricLieAlgebra}
 ###### Definition
-**(trilinear map induced from [[metric Lie representation]])**
+**(trilinear map induced from [[metric Lie representation]] -- [[Faulkner construction]])**
 
 Given an orthogonal representation $\mathfrak{g} \otimes V \overset{\rho}{\to} V$ of a metric Lie algebra as in Def. \ref{ModulesOfMetricLieAlgebras}, define
 
@@ -255,7 +287,7 @@ Given an orthogonal representation $\mathfrak{g} \otimes V \overset{\rho}{\to} V
 =--
 
 
-In this form and with this notation  this is [dMFFMER 08, equation (9) and over Prop. 10](#dMFFMER08) (except that we write "$\rho(X,x)$" for their "$X \cdot x$")
+In this form and with this notation  this is [dMFFMER 08, equation (9) and over Prop. 10](#dMFFMER08) (except that we write "$\rho(X,x)$" for their "$X \cdot x$"). The construction itself, up to one dualization of $V$, was introduced in [Faulkner 73](#Faulkner73).
 
 
 +-- {: .num_remark}
@@ -303,7 +335,17 @@ $$
   \text{for all indices}
 $$
 
-hence says that the [[tensor]] $D$ is equal to the action tensor $\rho$ up to the evident "raising and lowering of indices by via the metrics".
+hence says that the [[tensor]] $D$ is equal to the adjunct (eq:AdjunctOfLieAction) of the Lie action tensor $\rho$, given in components by the evident "raising and lowering of indices via the metrics" as in (eq:ComponentsOfAdjunctOfLieAction):
+
+$$
+  D_{i j}{}^a
+  \;=\;
+  \rho^a{}_{i j}
+  \;\;\;\;
+  \text{for all indices}
+  \,.
+$$
+
 
 With this, the induced trilinear bracket (eq:DefiningEquationForInducedTrilinearBracket)
 
@@ -425,7 +467,7 @@ In [[string diagram]]-notation, the trilinear bracket induced by a [[metric Lie 
 <img src="https://ncatlab.org/nlab/files/MBrane3AlgebraFromMetricLieRepresentation.jpg" width="600">
 </center>
 
-With Prop. \ref{M2Brane3AlgebrasEquivalentToMetricLieRepresentation} this shows that M2-brane 3-algebras are equivalently the datum that [[Lie algebra weight systems]] on [[chord diagrams]] assign to a single chord.
+With Prop. \ref{M2Brane3AlgebrasEquivalentToMetricLieRepresentation} this shows that M2-brane 3-algebras are equivalently the datum that [[Lie algebra weight systems]] on ([[horizontal chord diagram|horizontal]]) [[chord diagrams]] assign to a single chord.
 
 > from [Sati-Schreiber 19]()
 
@@ -470,6 +512,18 @@ The full identification of M2-brane 3-algebras with dualizable [[Lie algebra rep
 
 * {#dMFFMER08} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], [[Elena Méndez-Escobar]], [[Patricia Ritter]], _On the Lie-algebraic origin of metric 3-algebras_, Commun. Math. Phys. 290:871-902, 2009 ([arXiv:0809.1086](http://arxiv.org/abs/0809.1086))
 
+reviewed in
+
+* [[José Figueroa-O'Farrill]], slide 145 onwards in: _Triple systems and Lie superalgebras_ in _M2-branes, ADE and Lie superalgebras_, talk at IPMU 2009 ([pdf](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/Hongo.pdf), [[FigueroaOFarrillM2Branes02.pdf:file]])
+
+further explored in 
+
+* [[José Figueroa-O'Farrill]], _Simplicity in the Faulkner construction_,  Journal of Physics A: Mathematical and Theoretical, Volume 42, Number 44 ([arXiv:0905.4900](https://arxiv.org/abs/0905.4900))
+
+and putting to use the [[Faulkner construction]] that was previously introduced in 
+
+* {#Faulkner73} [[John Faulkner]], _On the geometry of inner ideals_, Journal of Algebra, Volume 26, Issue 1, July 1973, Pages 1-9 (<a href="https://doi.org/10.1016/0021-8693(73)90032-X">doi:10.1016/0021-8693(73)90032-X</a>)
+
 See also:
 
 * Sam Palmer, [[Christian Saemann]], section 2 of _M-brane Models from Non-Abelian Gerbes_, JHEP 1207:010, 2012 ([arXiv:1203.5757](http://arxiv.org/abs/1203.5757))
@@ -478,10 +532,15 @@ See also:
 
 * {#Saemann16} [[Christian Saemann]], appendix A of _Lectures on Higher Structures in M-Theory_ ([arXiv:1609.09815](https://arxiv.org/abs/1609.09815))
 
-* [[José Figueroa-O'Farrill]], _Triple systems and Lie superalgebras_ in _M2-branes, ADE and Lie superalgebras_, talk at IPMU 2009 ([pdf](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/Hongo.pdf), [[FigueroaOFarrillM2Branes02.pdf:file]])
+
+
 
 
 [[!redirects M-brane 3-algebras]]
 
 [[!redirects M2-brane 3-algebra]]
 [[!redirects M2-brane 3-algebras]]
+
+[[!redirects Faulkner construction]]
+[[!redirects Faulkner constructions]]
+
