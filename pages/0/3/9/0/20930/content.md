@@ -18,6 +18,22 @@
 
 Given a [[Lie algebra]] $(\mathfrak{g}, [-,-])$ and a [[Lie algebra representation]] $\mathfrak{g} \otimes V \overset{\rho}{\to} V$, and given non-degenerate [[inner products]], hence "metrics", both on $\mathfrak{g}$ and on $V$, one may ask that all [[mathematical structure|structure]] is compatible with these metrics. For the Lie algebra this means to have a _[[metric Lie algebra]]_ and for the representation this means to have an [[orthogonal Lie algebra|orthogonal]] representation. Hence together this is an  _orthogonal representation of a metric Lie algebra_, or _metric Lie representation_, for short.
 
+## Definition
+ {#Definition}
+
+The following table shows the data in a metric Lie representation equivalently
+
+1. in [[category theory]]-notation;
+
+1. in [[Penrose notation]] ([[string diagrams]]);
+
+1. in index notation:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/MetricLieRepresentationStructure.jpg" width="800">
+</center>
+
+
 ## Properties
 
 ### Structures induced from metric Lie representations
@@ -32,6 +48,13 @@ The following [[mathematical structures]] are induced from the data of metric Li
 
 See there for more.
 
+## Related concepts
+
+* [[metric Lie algebra]]
+
+* [[Lie algebra weight system]]
+
+* [[M2-brane 3-algebra]]
 
 ## References
 
