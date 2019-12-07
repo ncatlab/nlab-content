@@ -35,8 +35,7 @@ Many operations in monoidal categories that look rather unenlightening in symbol
 
 ## Relation to commutative diagrams
 
-String diagrams can be seen as dual (in the sense of [[Poincaré duality]]) to commutative diagrams. For instance, in a 2-category, the string diagram for a 2-cell
-can be obtained as follows:
+String diagrams can be seen as dual (in the sense of [[Poincaré duality]]) to commutative diagrams. For instance, in a [[2-category]], an example of a string diagram for a [[2-morphism]] (shown on the left) is shown on the right here:
 
 \begin{centre}
 \begin{tikzpicture}[every node/.style={node distance=1.5cm}]
@@ -154,23 +153,25 @@ See the article by Selinger below for more examples.
 
 ### Introduction and survey
 
+Introductions to and surveys of string diagram calculus:
+
 * {#Selinger} [[Peter Selinger]], _A survey of graphical languages for monoidal categories_ ([arXiv:0908.334](http://arxiv.org/abs/0908.3347))
- 
-
-* [[Ross Street]], [Low dimensional topology and higher-order categories](http://www.mta.ca/~cat-dist/CT95Docs/LowDim.ps) -- talks about surface diagrams and includes some pictures (PS version only).
-
-* [[Ross Street]], _Categorical structures_ 
-
-  (discusses string diagrams for [[bicategories]])
-
 
 * [[John Baez]], QG Seminar Fall 2000 ([web](http://math.ucr.edu/home/baez/qg-fall2000/)), Winter 2001 ([web](http://math.ucr.edu/home/baez/qg-winter2001/)), Fall 2006 ([web](http://math.ucr.edu/home/baez/qg-fall2006/index.html#computation)).
 
 * [[John Baez]], [[Mike Stay]], _Physics, Topology, Logic and Computation: A Rosetta Stone_ ([arXiv:0903.0340](http://arxiv.org/abs/0903.0340))
 
+* [[Aleks Kissinger]], _Pictures of Processes: Automated Graph Rewriting for Monoidal Categories and Applications to Quantum Computing_ ([arXiv:1203.0202](https://arxiv.org/abs/1203.0202))
+ 
 * [[Simon Willerton]], _String diagrams_ ([YouTube](http://www.youtube.com/view_play_list?p=50ABC4792BD0A086))
 
-* [[Aleks Kissinger]], _Pictures of Processes: Automated Graph Rewriting for Monoidal Categories and Applications to Quantum Computing_ ([arXiv:1203.0202](https://arxiv.org/abs/1203.0202))
+* [[Ross Street]], _Low dimensional topology and higher-order categories_ ([ps](http://www.mta.ca/~cat-dist/CT95Docs/LowDim.ps))
+
+  (about surface diagrams)
+
+* [[Ross Street]], _Categorical structures_, in: M. Hazewinkel (ed.), _Handbook of algebra -- Volume 1_, Elsevier 1996 ([pdf](http://maths.mq.edu.au/~street/45.pdf), [978-0-444-82212-3](https://www.elsevier.com/books/handbook-of-algebra/hazewinkel/978-0-444-82212-3))
+
+  (discusses string diagrams in the generality of [[bicategories]])
 
 Some philosophical discussion is given in  
 
@@ -203,7 +204,7 @@ Application of string diagrams to [[tensor]]-calculus in [[mathematical physics]
 
 * [[Roger Penrose]], _Angular momentum: An approach to combinatorial spacetime_, in Ted Bastin (ed.) _Quantum Theory and Beyond_, Cambridge University Press (1971), pp.151-180 ([[PenroseAngularMomentum71.pdf:file]])
 
-* [[Roger Penrose]], _On the nature of quantum geometry_, in: J. Klauder (ed.) _Magic Without Magic, Freeman, San Francisco, 1972, pp. 333–354 ([spire:74082](http://inspirehep.net/record/74082), [[PenroseQuantumGeometry.pdf:file]])
+* [[Roger Penrose]], _On the nature of quantum geometry_, in: J. Klauder (ed.) _Magic Without Magic_, Freeman, San Francisco, 1972, pp. 333–354 ([spire:74082](http://inspirehep.net/record/74082), [[PenroseQuantumGeometry.pdf:file]])
 
 * [[Roger Penrose]], [[Wolfgang Rindler]], appendix (p. 424-434) of: _Spinors and space-time -- Volume 1: Two-spinor calculus and relativistic fields_, Cambridge University Press 1984 ([doi:10.1017/CBO9780511564048](https://doi.org/10.1017/CBO9780511564048))
 
@@ -211,7 +212,7 @@ See also
 
 * Wikipedia, _[Penrose graphical notation](https://en.wikipedia.org/wiki/Penrose_graphical_notation)_
 
-From the point of view of [[monoidal category|monoidal]] [[category theory]], string diagrams are first described (without actually being depicted, see the above comments) in
+From the point of view of [[monoidal category|monoidal]] [[category theory]], an early description of string diagram calculus (without actually depicting any string diagrams, see the above comments) in
 
 * {#KellyLaplaza80} [[Max Kelly]], M. L. Laplaza, _Coherence for compact closed categories_. Journal of Pure and Applied Algebra, 19:193&#8211;213, 1980 (<a hef="https://doi.org/10.1016/0022-4049(80)90101-2">doi:10.1016/0022-4049(80)90101-2</a>, [pdf](https://core.ac.uk/download/pdf/82696829.pdf))
 
