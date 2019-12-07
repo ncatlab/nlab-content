@@ -175,25 +175,38 @@ Some philosophical discussion is given in
 
 * [[David Corfield]], Section 10.4 of: _Towards a Philosophy of Real Mathematics_, CUP, 2003.
 
+
 ### Original articles 
  {#OriginalArticles}
 
+The development and use of string diagram calculus pre-dates its graphical appearance in print, due to the effort of printing non-tex elements at that time.
+
+> Many calculations in earlier works were quite clearly worked out with string diagrams, then painstakingly copied into equations. Sometimes, clearly graphical structures were described in some detail without actually being drawn: e.g. the construction of free compact closed categories in Kelly and Laplazas 1980 "Coherence for compact closed categories".
+
+([Pawel Sobocinski, 2 May 2017](http://angg.twu.net/categories-2017may02.html#.1))
+
+> This idea that string diagrams are, due to technical issues, only useful for private calculation, is said explicitly by Penrose. Penrose and Rindler's book "Spinsors and Spacetime" (CUP 1984) has an 11-page appendix full of all sorts of beautiful, carefully hand-drawn graphical notation for tensors and various operations on them (e.g. anti-symmetrization and covariant derivative). On the second page, he says the following:
+
+> "The notation has been found very useful in practice as it grealy simplifies the appearance of complicated tensor or spinor equations, the various interrelations expressed being discernable at a glance. Unfortunately the notation seems to be of value mainly for private calculations because it cannot be printed in the normal way."
+
+([Alex Kissinger, 2 May 2017](http://angg.twu.net/categories-2017may02.html#.2))
+
+
+
 [[Günter Hotz]] introduced "plane nets" (=string diagrams) and their categories in his 1965 habilitation thesis. This seems to be the first formal definition of string diagrams in the literature.
 
-String diagrams appeared first in [[Max Kelly]] and Laplaza's paper on [[coherence theorem for monoidal categories|coherence for compact closed categories]]
-
+String diagrams are descibed (without actually being depicted, see the above comments) 
 
 * [[Max Kelly]] and M. L. Laplaza, _Coherence for compact closed categories_. Journal of Pure and Applied Algebra, 19:193&#8211;213, 1980.
 
-+-- {: .query}
-Where in Kelly-Laplaza do string diagrams appear?  I can't find any picture of a string diagram in the paper.  Perhaps they are described somewhere in the text, but I can't see it.
-=--
+which proves the [[coherence theorem for monoidal categories|coherence for compact closed categories]]
+
 
 and again in [[Ross Street]]'s work with [[André Joyal]] in the mid-80's:
 
-* [[Andre Joyal]] and [[Ross Street]], _The geometry of tensor calculus I_, Advances in Math. 88 (1991) 55-112; MR92d:18011.  ([pdf](http://tqft.net/other-papers/Geometry%20of%20Tensor%20Calculus%20-%20Joyal%20&%20Street.pdf))
+* [[André Joyal]], [[Ross Street]], _The geometry of tensor calculus I_, Advances in Math. 88 (1991) 55-112; MR92d:18011 ([pdf](http://tqft.net/other-papers/Geometry%20of%20Tensor%20Calculus%20-%20Joyal%20&%20Street.pdf), [[JoyalStreetGeometryOfTensorCalculusI.pdf:file]])
 
-* [[Andre Joyal]] and [[Ross Street]], _The geometry of tensor calculus II_.  ([pdf](http://www.math.mq.edu.au/~street/GTCII.pdf).
+* [[André Joyal]] and [[Ross Street]], _The geometry of tensor calculus II_.  ([pdf](http://www.math.mq.edu.au/~street/GTCII.pdf), [[JoyalStreetGeometryOfTensorCalculusII.pdf:file]])
 
 An early amplification of the use of string-diagram notation as an alternative for the traditional index-calculus for [[tensors]] is due to  [[Roger Penrose]]. 
 
