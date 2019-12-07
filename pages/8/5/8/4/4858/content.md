@@ -12,6 +12,19 @@ He made fundamental contributions to the study of mathematical [[general relativ
 
 ## Selected thoughts
 
+### Penrose graphical notation (string diagrams)
+ {#PenroseGraphicalNotation}
+
+On [[Penrose graphical notation]] ([[string diagrams]]) for [[tensor]]-calculus:
+
+* [[Roger Penrose]], _Applications of negative dimensional tensors_, Combinatorial Mathematics and its Applications, Academic Press (1971) ([pdf](http://www2.math.uic.edu/~kauffman/Penrose.pdf))
+
+* [[Roger Penrose]], _Angular momentum: An approach to combinatorial spacetime_, in Ted Bastin (ed.) _Quantum Theory and Beyond_, Cambridge University Press (1971), pp.151-180 ([[PenroseAngularMomentum71.pdf:file]])
+
+* [[Roger Penrose]], _On the nature of quantum geometry_, in: J. Klauder (ed.) _Magic Without Magic, Freeman, San Francisco, 1972, pp. 333–354 ([spire:74082](http://inspirehep.net/record/74082), [[PenroseQuantumGeometry.pdf:file]])
+
+* [[Roger Penrose]], [[Wolfgang Rindler]], appendix (p. 424-434) of: _Spinors and space-time -- Volume 1: Two-spinor calculus and relativistic fields_, Cambridge University Press 1984 ([doi:10.1017/CBO9780511564048](https://doi.org/10.1017/CBO9780511564048))
+
 
 ### Mind-Maths-Matter
  {#MindMathsMatter}
