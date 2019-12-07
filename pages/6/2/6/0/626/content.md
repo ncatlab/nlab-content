@@ -16,6 +16,7 @@
 =--
 =--
 
+
 # String diagrams
 * table of contents
 {: toc}
@@ -179,41 +180,65 @@ Some philosophical discussion is given in
 ### Original articles 
  {#OriginalArticles}
 
-The development and use of string diagram calculus pre-dates its graphical appearance in print, due to the effort of printing non-tex elements at that time.
+The development and use of string diagram calculus pre-dates its graphical appearance in print, due to the difficulty of printing non-text elements at the time.
 
 > Many calculations in earlier works were quite clearly worked out with string diagrams, then painstakingly copied into equations. Sometimes, clearly graphical structures were described in some detail without actually being drawn: e.g. the construction of free compact closed categories in Kelly and Laplazas 1980 "Coherence for compact closed categories".
 
-([Pawel Sobocinski, 2 May 2017](http://angg.twu.net/categories-2017may02.html#.1))
+> ([Pawel Sobocinski, 2 May 2017](http://angg.twu.net/categories-2017may02.html#.1))
 
-> This idea that string diagrams are, due to technical issues, only useful for private calculation, is said explicitly by Penrose. Penrose and Rindler's book "Spinsors and Spacetime" (CUP 1984) has an 11-page appendix full of all sorts of beautiful, carefully hand-drawn graphical notation for tensors and various operations on them (e.g. anti-symmetrization and covariant derivative). On the second page, he says the following:
+> This idea that string diagrams are, due to technical issues, only useful for private calculation, is said explicitly by Penrose. Penrose and Rindler's book "Spinors and Spacetime" (CUP 1984) has an 11-page appendix full of all sorts of beautiful, carefully hand-drawn graphical notation for tensors and various operations on them (e.g. anti-symmetrization and covariant derivative). On the second page, he says the following:
 
 > "The notation has been found very useful in practice as it grealy simplifies the appearance of complicated tensor or spinor equations, the various interrelations expressed being discernable at a glance. Unfortunately the notation seems to be of value mainly for private calculations because it cannot be printed in the normal way."
 
-([Alex Kissinger, 2 May 2017](http://angg.twu.net/categories-2017may02.html#.2))
+> ([Alex Kissinger, 2 May 2017](http://angg.twu.net/categories-2017may02.html#.2))
 
 
+The first formal definition of string diagrams in the literature appears to be in
 
-[[Günter Hotz]] introduced "plane nets" (=string diagrams) and their categories in his 1965 habilitation thesis. This seems to be the first formal definition of string diagrams in the literature.
+* [[Günter Hotz]], _Eine Algebraisierung des Syntheseproblems von Schaltkreisen_, EIK, Bd. 1, (185-205), Bd, 2, (209-231) 1965 ([part I](https://www.magentacloud.de/lnk/LiPMlYfh), [part II](https://www.magentacloud.de/lnk/YivslUWJ))
 
-String diagrams are descibed (without actually being depicted, see the above comments) 
+Application of string diagrams to [[tensor]]-calculus in [[mathematical physics]] (hence for the case that the ambient [[monoidal category]] is that of [[finite dimensional vector spaces]] equipped with the [[tensor product of vector spaces]]) was propagated by [[Roger Penrose]], whence [[physics|physicists]] know string diagrams as _Penrose notation for tensor calculus_:
 
-* [[Max Kelly]] and M. L. Laplaza, _Coherence for compact closed categories_. Journal of Pure and Applied Algebra, 19:193&#8211;213, 1980.
+* [[Roger Penrose]], _Applications of negative dimensional tensors_, Combinatorial Mathematics and its Applications, Academic Press (1971) ([pdf](http://www2.math.uic.edu/~kauffman/Penrose.pdf))
 
-which proves the [[coherence theorem for monoidal categories|coherence for compact closed categories]]
+* [[Roger Penrose]], _Angular momentum: An approach to combinatorial spacetime_, in Ted Bastin (ed.) _Quantum Theory and Beyond_, Cambridge University Press (1971), pp.151-180 ([[PenroseAngularMomentum71.pdf:file]])
+
+* [[Roger Penrose]], _On the nature of quantum geometry_, in: J. Klauder (ed.) _Magic Without Magic, Freeman, San Francisco, 1972, pp. 333–354 ([spire:74082](http://inspirehep.net/record/74082), [[PenroseQuantumGeometry.pdf:file]])
+
+* [[Roger Penrose]], [[Wolfgang Rindler]], appendix (p. 424-434) of: _Spinors and space-time -- Volume 1: Two-spinor calculus and relativistic fields_, Cambridge University Press 1984 ([doi:10.1017/CBO9780511564048](https://doi.org/10.1017/CBO9780511564048))
+
+See also 
+
+* Wikipedia, _[Penrose graphical notation](https://en.wikipedia.org/wiki/Penrose_graphical_notation)_
+
+From the point of view of [[monoidal category|monoidal]] [[category theory]], string diagrams are first described (without actually being depicted, see the above comments) in
+
+* {#KellyLaplaza80} [[Max Kelly]], M. L. Laplaza, _Coherence for compact closed categories_. Journal of Pure and Applied Algebra, 19:193&#8211;213, 1980 (<a hef="https://doi.org/10.1016/0022-4049(80)90101-2">doi:10.1016/0022-4049(80)90101-2</a>, [pdf](https://core.ac.uk/download/pdf/82696829.pdf))
+
+  (proving the [[coherence theorem for monoidal categories|coherence for compact closed categories]])
+
+following 
+
+* {#Kelly72} [[Max Kelly]], _Many-variable functorial calculus I_, in: [[Max Kelly]], M. Laplaza , [[L. Gaunce Lewis, Jr.]], [[Saunders Mac Lane]] (eds.) _Coherence in Categories_, Lecture Notes in Mathematics, vol 281. Springer, Berlin, Heidelberg 1972 ([doi:10.1007/BFb0059556](https://doi.org/10.1007/BFb0059556))
+
+  (which does include the hand-drawn diagrams that are missing in [Kelly-Laplaza 80](#KellyLaplaza80)!) 
+
+and in
+
+* [[André Joyal]], [[Ross Street]], _The geometry of tensor calculus I_, Advances in Math. 88 (1991) 55-112; MR92d:18011 ([pdf](http://tqft.net/other-papers/Geometry%20of%20Tensor%20Calculus%20-%20Joyal%20&%20Street.pdf), <a href="https://doi.org/10.1016/0001-8708(91)90003-P">doi:10.1016/0001-8708(91)90003-P</a>)
+
+* [[André Joyal]] and [[Ross Street]], _The geometry of tensor calculus II_  ([pdf](http://www.math.mq.edu.au/~street/GTCII.pdf))
 
 
-and again in [[Ross Street]]'s work with [[André Joyal]] in the mid-80's:
+String diagram calculus was apparently popularized by its use in
 
-* [[André Joyal]], [[Ross Street]], _The geometry of tensor calculus I_, Advances in Math. 88 (1991) 55-112; MR92d:18011 ([pdf](http://tqft.net/other-papers/Geometry%20of%20Tensor%20Calculus%20-%20Joyal%20&%20Street.pdf), [[JoyalStreetGeometryOfTensorCalculusI.pdf:file]])
+* [[Louis Kauffman]], _Knots and physics_, Series on _Knots and Everything_, Volume 1,  World Scientific, 1991 ([doi:10.1142/1116](https://doi.org/10.1142/1116))
 
-* [[André Joyal]] and [[Ross Street]], _The geometry of tensor calculus II_.  ([pdf](http://www.math.mq.edu.au/~street/GTCII.pdf), [[JoyalStreetGeometryOfTensorCalculusII.pdf:file]])
+  (in the context of [[knot theory]])
 
-An early amplification of the use of string-diagram notation as an alternative for the traditional index-calculus for [[tensors]] is due to  [[Roger Penrose]]. 
+Probably [[David Yetter]] was the first (at least in public) to write string diagrams  with "coupons" (a term used by [[Nicolai Reshitikhin]] and [[Turaev]] a few months later) to represent maps which are not inherent in the (braided or symmetric compact closed) monoidal structure. 
 
-* [[Roger Penrose]], _Applications of negative dimensional tensors_ , in Combinatorial Mathematics and its Applications, Academic Press (1971) ([pdf](http://www2.math.uic.edu/~kauffman/Penrose.pdf))
-
-Probably [[David Yetter]] was the first (at least in public) to write them  with "coupons" (a term used by [[Nicolai Reshitikhin]] and [[Turaev]] a few months later) to represent maps
-which are not inherent in the (braided or symmetric compact closed) monoidal structure. See also these:
+See also these:
 
 * [[Peter Freyd]], [[David Yetter]], _Braided compact closed categories with applications to low dimensional topology_ Advances in Mathematics, 77:156&#8211;182, 1989.
 
@@ -242,7 +267,7 @@ For [[1-categories]] in
 
 * [[Dan Marsden]], _Category Theory Using String Diagrams_, ([arXiv:1401.7220](https://arxiv.org/abs/1401.7220)).
 
-(therein: many explicit calculations, colored illustrations, avoiding the common practice of indicating 0-cells by non-filled circles)
+  (therein: many explicit calculations, colored illustrations, avoiding the common practice of indicating 0-cells by non-filled circles)
 
 For [[traced monoidal categories]] in
 
@@ -313,4 +338,9 @@ The higher dimensional string diagrams ("zoom complexes" ([Kock-Joyal-Batanin-Ma
 [[!redirects string diagrams]]
 [[!redirects circuit diagram]]
 [[!redirects circuit diagrams]]
+
 [[!redirects graphical calculus]]
+
+[[!redirects Penrose notation]]
+[[!redirects Penrose graphical notation]]
+
