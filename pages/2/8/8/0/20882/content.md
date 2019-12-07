@@ -25,6 +25,7 @@ The notion of _[[Lie algebra]]_ may be formulated [[internalization|internal to]
 ## Definition
 
 ### As internal Lie algebras
+ {#AsInternalLieAlgebras}
 
 Consider a [[commutative unital ring]] $k$, and a (strict for simplicity) [[symmetric monoidal category|symmetric monoidal]] $k$-[[linear category]] $(\mathcal{C},\otimes,1)$ with [[braiding]] $\tau$.
 
@@ -126,7 +127,7 @@ $$
 where the last line shows the equivalence to the [[Jacobi identity]] on the [[Lie algebra object]] itself in the case that the Lie action is the [[adjoint action]].
 
 In the language of [[Jacobi diagrams]] this is called the _[[STU-relation]]_.
-and is the reason behind the existence of [[Lie algebra weight systems]] in [[knot theory]].
+and is the reason behind the existence of [[Lie algebra weight systems]] in [[knot theory]]. For more see also at _[[metric Lie representation]]_.
 
 
 ### As algebras over the Lie operad
