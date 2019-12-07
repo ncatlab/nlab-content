@@ -21,9 +21,9 @@
 * table of contents
 {: toc}
 
-## Overview
+## Idea
 
-_String diagrams_ are a graphical calculus for expressing operations in a [[monoidal category]]. The idea is roughly to think of objects in a monoidal category as "strings" and a morphism from one tensor product to another as a node which the source strings enter and the target strings exit. Further structure on the monoidal category is encoded in geometrical properties on these strings. For instance
+_String diagrams_ constitute a graphical calculus for expressing operations in [[monoidal categories]]. The idea is roughly to think of [[objects]] in a monoidal category as "strings" and of [[morphisms]] from one [[tensor product]] to another as a node which the source strings enter and the target strings exit. Further structure on the monoidal category is encoded in geometrical properties on these strings. For instance
 
 * putting strings next to each other denotes the monoidal product, and having no string at all denotes the unit;
 
@@ -33,9 +33,7 @@ _String diagrams_ are a graphical calculus for expressing operations in a [[mono
 
 Many operations in monoidal categories that look rather unenlightening in symbols become very obvious in string diagram calculus, such as the [[trace]]: an output wire gets bent around and connects to an input.
 
-## Relation to commutative diagrams
-
-String diagrams can be seen as dual (in the sense of [[Poincaré duality]]) to commutative diagrams. For instance, in a [[2-category]], an example of a string diagram for a [[2-morphism]] (shown on the left) is shown on the right here:
+String diagrams may be seen as dual (in the sense of [[Poincaré duality]]) to [[commutative diagrams]]. For instance, in a [[2-category]], an example of a string diagram for a [[2-morphism]] (shown on the left) is shown on the right here:
 
 \begin{centre}
 \begin{tikzpicture}[every node/.style={node distance=1.5cm}]
@@ -96,7 +94,8 @@ String diagrams can be seen as dual (in the sense of [[Poincaré duality]]) to c
 
 String diagrams for monoidal categories can be obtained in the same way, by considering a monoidal category as a 2-category with a single object.
 
-## Variations
+
+## Variants
 
 There are many additional structures on monoidal categories, or similar structures, which can usually be represented by encoding further geometric properties.  For instance:
 
@@ -124,8 +123,24 @@ There are many additional structures on monoidal categories, or similar structur
 
 * Proof nets for [[classical mathematics|classical]] [[linear logic]] similarly give string diagrams for [[*-autonomous categories]], or more generally [[linearly distributive categories]]; see [Blute-Cockett-Seely-Trimble](#BCST).
 
-See the article by Selinger below for more examples.
+See also [Selinger 09](#Selinger09).
 
+## Examples
+ {#Examples}
+
+### In Lie theory
+
+For applications of string diagram calculus in [[Lie theory]], see at 
+
+* _[[Lie algebra object]]_
+
+* _[[metric Lie algebra]]_
+
+* _[[metric Lie representation]]_
+
+* _[[Lie algebra weight system]]_.
+
+(...)
 
 ## Related concepts
 
