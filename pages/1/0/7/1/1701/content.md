@@ -60,7 +60,7 @@ of gerbes, all one needs is to remember that $\infty$-stacks are general notions
 
 All of these are the same structure implemented in different contexts of generalized spaces.
 
-For instance the last item here interprets extensions $G \to H \to K$ of a [[group]] $K$ by a group $G$ as a $G$-gerbe over $\mathbf{B}K$, namely as a fibration  $\mathbf{B}H \to \mathbf{B}K$ with fiber $\mathbf{B}G$.
+For instance the last item here interprets [[group extension|extensions]] $G \to H \to K$ of a [[group]] $K$ by a group $G$ as a $G$-gerbe over $\mathbf{B}K$, namely as a fibration  $\mathbf{B}H \to \mathbf{B}K$ with fiber $\mathbf{B}G$.
 
 
 
