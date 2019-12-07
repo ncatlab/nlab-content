@@ -212,6 +212,8 @@ For the [[type II string theory]]-version see at _[[NS5-brane]]_ the sectoin _[N
 
 * [[BLG model]], [[ABJM model]], [[membrane matrix model]]
 
+  [[M2-brane 3-algebra]]
+
 * [[string theory]]
 
 * [[11-dimensional supergravity]], [[M-theory]]
