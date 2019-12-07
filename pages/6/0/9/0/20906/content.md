@@ -40,6 +40,8 @@ The following table shows the data in a metric Lie representation equivalently
 <img src="https://ncatlab.org/nlab/files/MetricLieAlgebra.jpg" width="800">
 </center>
 
+> graphics from [Sati-Schreiber 19]()
+
 
 
 ## Examples
