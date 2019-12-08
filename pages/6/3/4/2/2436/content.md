@@ -505,7 +505,7 @@ for all objects $x, y$
 +-- {: .num_remark #SymmetricMonoidalCategoriesCoherenceTheorem}
 ###### Remark
 
-In analogy to the [[coherence theorem for monoidal categories]] (remark \ref{CoherenceForMonoidalCategories}) there is a [[coherence theorem for symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}), saying that every diagram built freely (see remark \ref{SymmetricMonoidalCategoriesCoherenceTheorem}) from [[associators]], [[unitors]] and [[braidings]] such that both sides of the diagram correspond to the same [[permutation]] of objects, coincide.
+In analogy to the [[coherence theorem for monoidal categories]] (remark \ref{CoherenceForMonoidalCategories}, roughly speaking "all diagrams commute") there is a [[coherence theorem for symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}), saying that two parallel morphisms, built freely (see remark \ref{SymmetricMonoidalCategoriesCoherenceTheorem}) from [[associators]], [[unitors]] and [[braidings]], are equal if and only if they correspond to the same [[permutation]] of objects.
 
 =--
 
@@ -718,9 +718,11 @@ $$
 
 The [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory})
 
-* whose underlying [[monoidal category]] is that of $\mathbb{Z}/2$-[[graded vector spaces]] (example \ref{Z2Zgradedvectorspaces});
+* whose underlying [[monoidal category]] is that of $\mathbb{Z}/2$-[[graded vector spaces]] (example \ref{Z2Zgradedvectorspaces}) and 
 
-* whose [[braiding]] (def. \ref{BraidedMonoidalCategory}) is the unique non-trivial symmetric grading $\tau^{super}$ from prop. \ref{TheTwoNontrivialBraidingsOnZ2GradedVectorSpaces} is called the **[[category of super vector spaces]]**
+* whose [[braiding]] (def. \ref{BraidedMonoidalCategory}) is the unique non-trivial symmetric grading $\tau^{super}$ from prop. \ref{TheTwoNontrivialBraidingsOnZ2GradedVectorSpaces} 
+
+is called the **[[category of super vector spaces]]**:
 
 $$
   sVect_k
