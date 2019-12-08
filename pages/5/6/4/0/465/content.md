@@ -41,7 +41,7 @@ The definition refers only to *some* parallel pair, but often there is a canonic
 
 Although the definition doesn\'t state so explicitly, it is true (and easy to prove) that any regular epimorphism is an [[epimorphism]].  In fact, every regular epimorphism is a [[strong epimorphism]], hence an [[extremal epimorphism]].  In particular, this implies that a regular epimorphism which is also a [[monomorphism]] must in fact be an [[isomorphism]].
 
-Frequently (such as in a [[regular category]]), every strong or extremal epimorphism is regular.  Moreover, in a regular category, every regular epimorphism is [[pullback-stability|stable]], and therefore a [[descent morphism]].  If the category is moreover [[exact category|exact]], or has stable [[reflexive coequalizers]], then every regular epimorphism is an [[effective descent morphism]].
+Frequently (such as in a [[regular category]]), every strong or extremal epimorphism is regular.  Moreover, in a regular category, every regular epimorphism is [[pullback-stability|pullback-stable]], and therefore a [[descent morphism]].  If the category is moreover [[exact category|exact]], or has stable [[reflexive coequalizers]], then every regular epimorphism is an [[effective descent morphism]].
 
 On the other hand, every [[split epimorphism]] is regular, but the converse holds only rarely (it is an [[internalization|internal]] form of the [[axiom of choice]]).
 
@@ -50,7 +50,7 @@ On the other hand, every [[split epimorphism]] is regular, but the converse hold
 +-- {: .num_prop #StableUnderPullback}
 ###### Proposition
 
-In a [[regular category]], regular epimorphisms are preserved by [[pullback]].
+In a [[regular category]], [[regular epimorphisms]] are [[preserved limit|preserved]] by [[pullback]].
 
 =--
 
