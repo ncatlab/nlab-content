@@ -546,7 +546,7 @@ For further properties of quintessential localizations see at [[quality type]].
 
 ## A guide to the literature
 
-On the philosophical side, the lectures notes [Koch (2009)](#Koch09) that suggest the use of [[pure set|non-wellfounded set theory]] as interpretative tool may serve as a good general introduction to Hegel's ideas on logic and metaphysics. [Krahn (2014)](#Krahn14) considers Hegel's concept of Aufhebung in the context of postmodern thought. For lucid accounts of Hegel's concept of dialectics in general consult Brauer ([1982](#Brauer82)) and Wolff ([2010](#Wolff10)) the latter highlighting Hegel as 'a philosopher of mathematics' in this context.
+On the philosophical side, the lectures notes [Koch (2009)](#Koch09) that suggest the use of [[pure set|non-wellfounded set theory]] as interpretative tool may serve as a good general introduction to Hegel's ideas on logic and metaphysics. [Krahn (2014)](#Krahn14) considers Hegel's concept of Aufhebung in the context of postmodern thought. For lucid accounts of Hegel's concept of dialectics in general consult Brauer ([1982](#Brauer82)) and Wolff ([2010](#Wolff10)) the latter highlighting Hegel as 'a philosopher of mathematics' in this context. Wegerhoff ([2008](#Wegerhoff08)) offers an interesting structural account of the dialectics inspired by Dedekind's theory of natural numbers.
 
 On the mathematical side, the book by [La Palme-Reyes-Zolfaghari (2004)](#RRZ04) provides a good general entry to the 'mathematics of Lawvere' from an elementary point of view and contains even a page on the adjoint cylinder. Goldblatt's book on [[topos theory]] ([Goldblatt 1984](#Goldblatt84)) covers a good deal of ground yet stays accessible and is available online.
 
@@ -652,6 +652,8 @@ Further results on essential localizations can be found in the papers by [Borceu
 * [[R. Street]], *The petit topos of globular sets*, JPAA **154** (2000) pp.299-315.
 
 * {#VT01}[[Enrico Vitale|E. M. Vitale]], *Essential Localizations and Infinitary Exact Completions*, TAC **8** no.17 (2001) pp.465-480. ([pdf](http://www.tac.mta.ca/tac/volumes/8/n17/n17.pdf))
+
+* {#Wegerhoff08} Tilman Wegerhoff, _Hegels Dialektik - Eine Theorie der positionalen Differenz_ , Vandenhoeck&Ruprecht Göttingen 2008.
 
 * {#Wolff10} Michael Wolff, _Der Begriff des Widerspruchs - Eine Studie zur Dialektik Kants und Hegels_ , Frankfurt UP &#178;2010.
 
