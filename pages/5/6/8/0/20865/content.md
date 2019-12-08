@@ -292,7 +292,7 @@ $$
 This is stated as [Kohno 02, Theorem 4.1](#Kohno02)
 
 
-#### For chord diagrams (circular)
+#### For round chord diagrams
 
 +-- {: .num_prop}
 ###### Proposition
