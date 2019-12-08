@@ -812,7 +812,7 @@ By the above definition, any structure in $sVect$ works just like the correspond
 ## References
 
 
-* {#Varadarajan04} [[Veeravalli Varadarajan]], section 3.1 of  _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society Providence, R.I 2004
+* {#Varadarajan04} [[Veeravalli Varadarajan]], section 3.1 of  _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society Providence, R.I 2004 ([doi:10.1090/cln/011](http://dx.doi.org/10.1090/cln/011))
 
 * {#Westra09} [[Dennis Westra]], section 3 of _Superrings and supergroups_, 2009 ([pdf](http://www.mat.univie.ac.at/~michor/westra_diss.pdf))
  
