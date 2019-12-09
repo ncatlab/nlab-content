@@ -5,6 +5,29 @@
 ##Idea
 A number of researchers are using [[dependent type theory]] as a formal tool to understand [[linguistics|natural language]]. Some are using in particular [[homotopy type theory]].
 
+## History
+
+In the _Preface_ to his book, _Type-theoretic Grammar_ ([Ranta 94](#Ranta94)), [[Aarne Ranta]] recounts how the idea of studying natural language in constructive type theory occurred to him in 1986: 
+
+> In Stockholm, when I first discussed the project with [[Per Martin-Löf]], he said that he had designed type theory for mathematics, and than natural language is something else. I said that similar work had been done within predicate calculus, which is just a part of type theory, to which he replied that he found it equally problematic. But his general attitude was far from discouraging: it was more that he was so serious about natural language and saw the problems of my enterprise more clearly than I, who had already assumed the point of view of logical semantics. His criticism was penetrating but patient, and he was generous in telling me about his own ideas. So we gradually developed a view that satisfied both of us, that formal grammar begins with what is well understood formally, and then tries to see how this formal structure is manifested in natural language, instead of starting with natural language in all it unlimitedness and trying to force it into some given formalism. 
+
+A noted early application of dependent type theory was [[Göran Sundholm|Göran Sundholm's]] treatment ([Sundholm 86](#Sundholm86)) of the _Donkey sentence_.
+
+> Any farmer who owns a donkey beats it,
+
+which he rendered as 
+
+$$
+\prod_{z: \sum_{x: Farmer} (\sum_{y: Donkey}Owns(x, y))}Beats(p(z), p(q(z))).
+$$
+
+This marks an improvement over first-order logic which has to rewrite the Donkey sentence as something like:
+
+> For all farmers and for all donkeys, if the farmer owns the donkey then he beats it.
+
+$$
+\forall x \forall y (Farmer(x) \wedge Donkey(y) \wedge Own(x, y) \to Beat(x, y)).
+$$
 
 
 ##Related entries
@@ -33,8 +56,8 @@ A number of researchers are using [[dependent type theory]] as a formal tool to 
 * [[Zhaohui Luo]], Formal Semantics in Modern Type Theories: Is It Model-theoretic, Proof-theoretic, or Both?, [pdf](http://www.cs.rhul.ac.uk/home/zhaohui/LACL14FINAL.pdf).
 * Koji Mineshima, A Presuppositional Analysis of Definite Descriptions in Proof Theory, New Frontiers in Artificial Intelligence Lecture Notes in Computer Science Volume 4914, 2008, pp 214-227 [Springer](http://link.springer.com/chapter/10.1007%2F978-3-540-78197-4_20)
 * P.  Piwek  and  E.  Krahmer,  ‘Presuppositions  in  Context:  Constructing Bridges’, in Formal Aspects of Context, eds., P. Bonzon, M. Cavalcanti,and R. Nossum, volume 20 of Applied Logic Series, 85–106, Kluwer Academic Publishers, Dordrecht, (2000).
-* [[Aarne Ranta]], Type-theoretical grammar. Oxford University Press (1994)
-* Sundholm, G.: Proof theory and meaning. In: Gabbay, D., Guenthner, F. (eds.) Handbook of Philosophical Logic, vol. 3, pp. 471&#8211;506. Springer (1986)
+* {#Ranta94} [[Aarne Ranta]], Type-theoretical grammar. Oxford University Press (1994)
+* {#Sundholm86} [[Göran Sundholm]], _Proof theory and meaning_. In: Gabbay, D., Guenthner, F. (eds.) Handbook of Philosophical Logic, vol. 3, pp. 471&#8211;506. Springer (1986)
 * Tanaka, R., Mineshima, K., Bekki, D.: Resolving modal anaphora in Dependent Type Semantics. In: Proceedings of LENLS11. pp. 43&#8211;56 (2014), [Springer](http://link.springer.com/chapter/10.1007%2F978-3-662-48119-6_7).
 
 ### Papers using homotopy type theory
