@@ -23,7 +23,8 @@ The microscopic geometry of transversal [[Dp-D(p+2)-brane intersections]] and [[
 <img src="https://ncatlab.org/nlab/files/D6D8FuzzyFunnel.jpg" width="600">
 </center>
 
-> graphics grabbed from [Fazzi 17, Fig. 3.14](#Fazzi17), taken in turn from [Gaiotto-Tomassiello 14, Figure 5](#GaiottoTomassiello14)
+> graphics grabbed from [Fazzi 17, Fig. 3.14](#Fazzi17), taken in turn from 
+[Gaiotto-Tomassiello 14, Figure 5](#GaiottoTomassiello14)
 
 <center>
 <img src="https://ncatlab.org/nlab/files/D3D5FuzzyFunnel.jpg" width="600">
@@ -122,7 +123,7 @@ On [[D1-D3 brane intersections]] as fuzzy funnels on [[fuzzy 2-spheres]]:
 
 On [[D3-D5 brane intersections]] as fuzzy funnels on [[fuzzy 2-spheres]]:
 
-* [[Davide Gaiotto]], [[Edward Witten]], Section 4.3 of: _Supersymmetric Boundary Conditions in N=4 Super Yang-Mills Theory_, J Stat Phys (2009) 135: 789 ([arXiv:0804.2902](https://arxiv.org/abs/0804.2902))
+* [[Davide Gaiotto]], [[Edward Witten]], Section 3.4.3 of: _Supersymmetric Boundary Conditions in N=4 Super Yang-Mills Theory_, J Stat Phys (2009) 135: 789 ([arXiv:0804.2902](https://arxiv.org/abs/0804.2902))
 
 * {#Fazzi17} [[Marco Fazzi]], Section 3.2.3 of: _Higher-dimensional field theories from type II supergravity_ ([arxiv:1712.04447](https://arxiv.org/abs/1712.04447))
 
