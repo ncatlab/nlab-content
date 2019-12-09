@@ -39,7 +39,7 @@ In other words, in [[characteristic zero]], the [[graded vector space]] of [[unf
 
 =--
 
-([Bar-Natan 95, Theorem 1](#BarNatan95), following [Kontsevich 93](#Kontsevich93))
+([Bar-Natan 95, Theorem 1](#BarNatan95), following [Kontsevich 93, Theorem 2.1](#Kontsevich93))
 
 ## Related theorems
 
