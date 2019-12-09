@@ -7,3 +7,4 @@ A philosopher based in Leiden in The Netherlands. Research interests: Philosophy
 
 * [[Per Martin-Löf]]
 * [[Martin-Löf dependent type theory]]
+* [[dependent type theoretic methods in natural language semantics]]
