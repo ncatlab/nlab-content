@@ -1,6 +1,7 @@
-__Mitsuhiro Takeuchi__ is a Japanese algebraist. Much of his work is dedicated to bialgebras, Hopf algebras, coalgebras, (co)module algebras and generalizations as well as applications of bialgebras to the theory of algebraic and formal groups and quotients.
+__Mitsuhiro Takeuchi__ is a Japanese algebraist. Much of his work is dedicated to bialgebras, Hopf algebras, coalgebras, (co)module algebras, [[Hopf-Galois extension]]s and various generalizations of these concepts as well as applications of bialgebras to the theory of algebraic and formal groups and quotients.
 
 * _A simple proof of Gabriel and Popesco’s theorem_, J. Alg. 18,  112-113 (1971) [pdf](https://core.ac.uk/download/pdf/82301148.pdf)
+* H. F. Kreimer, M. Takeuchi, _Hopf algebras and Galois extensions of an algebra_, Indiana Univ. Math. J. 30 (1981), 615-692 [web](https://www.iumj.indiana.edu/IUMJ/fulltext.php?year=1981&volume=30&artid=30052) [pdf](https://www.iumj.indiana.edu/IUMJ/FTDLOAD/1981/30/30052/pdf) [djvu](https://www.iumj.indiana.edu/IUMJ/FTDLOAD/1981/30/30052/djvu)
 * [[Stefaan Caenepeel]], Septimiu Crivei, Andrei Marcus, Mitsuhiro Takeuchi, _Morita equivalences induced by bimodules over Hopf–Galois extensions_, J. Algebra __314__ (2007) 267–302 [pdf](https://core.ac.uk/download/pdf/81180359.pdf)
 * Y. Doi, Mitsuhiro Takeuchi, _Cleft comodule algebras for a bialgebra_, Comm. Alg. __14__ (1986) 801--818 [doi](https://doi.org/10.1080/00927878608823337)
 
