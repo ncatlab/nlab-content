@@ -11,6 +11,11 @@ There is a rather vast literature on the subject and we should list the more imp
 * S. Majid, _Quantum and braided group Riemannian geometry_, J. Geom. Phys. __30__ (1999) 113-146, [q-alg/9709025](http://xxx.lanl.gov/abs/q-alg/9709025)
 * M. Dubois-Violette, P. Michor, _Connections on central bimodules in noncommutative differential geometry_, J. Geom. Phys. __20__ (1996) 218
 * [[Michel Dubois-Violette|M. Dubois-Violette]], J. Madore, T. Masson, J. Mourad, _On curvature in noncommutative geometry_, [q-alg/9512004](http://arxiv.org/abs/q-alg/9512004)
+
+In framework of [[spectral triple]]s, see
+
+* Branimir Ćaćić, Bram Mesland, _Gauge theory on noncommutative Riemannian principal bundles_, [arxiv/1912.04179](https://arxiv.org/abs/1912.04179)
+
 [[!redirects connection on a noncommutative bundle]]
 [[!redirects connections on a noncommutative bundle]]
 [[!redirects connections in noncommutative geometry]]
