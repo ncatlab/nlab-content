@@ -1,4 +1,56 @@
 
+
+
+## Idea
+
+The [[cochain cohomology]] of the framed [[knot graph complex]] (sometimes called the "Wilson graoh complex") in the bidegree corresponding to strictly trivalent graphs (i.e. [[Jacobi diagrams]]) coincides with the space of framed [[weight systems]] on [[round chord diagrams]]
+
+$$
+  H^{\bullet,  
+   \overset{ 
+     \mathclap{
+       {deg=0} \atop {i.e.\; trivalent} 
+     }
+   }{
+     \overbrace{ 0 }}
+   }
+  \big(
+    KnotGraphs 
+  \big)
+  \;\simeq\;
+  \underset{
+    \color{blue}
+    {
+      {\weight\;systems\;on}
+      \atop
+      {round\;chord\;diagrams}
+    }
+  }{
+    (\mathcal{W}^c)^\bullet
+  }
+  \;\simeq\;
+  \underset{
+    \color{blue}
+    {
+      {\weight\;systems\;on}
+      \atop
+      {Jacobi\;diagrams}
+    }
+  }{
+    (\mathcal{W}^t)^\bullet
+  }
+$$
+
+## References
+
+* Daniel Altschuler, Laurent Freidel, _Vassiliev knot invariants and Chern-Simons perturbation theory to all orders_, Commun. Math. Phys. 187 (1997) 261-287 ([arXiv:q-alg/9603010](https://arxiv.org/abs/q-alg/9603010))
+
+* {#CattaneoCottaRamusinoLongoni02} [[Alberto Cattaneo]], Paolo Cotta-Ramusino, Riccardo Longoni, _Configuration spaces and Vassiliev classes in any dimension_, Algebr. Geom. Topol. 2 (2002) 949-1000 ([arXiv:math/9910139](https://arxiv.org/abs/math/9910139))
+
+
+
+
+
 The Green-Schwarz-type action functional for the supermembrane in 11d, i.e. for the fundamental M2-brane sigma model, turns out to elegantly arise as the supersymmetric trivialization of the C-field superspace 4-cocycle restricted from 11d-superspace to the M2 brane's super-worldvolume. This is known as the "super-embedding construction". An analogous construction of the M5-brane's GS sigma-model action had remained an open problem. In this talk I review a recent result (arxiv.org/abs/1908.00042) which shows that the M5-brane action, too, does arise from a super-embedding construction -- but after first passing from plain 11d superspace to super-exceptional superspace. 
 
 This is joint work with H. Sati and D. Fiorenza. Slides will be available at ncatlab.org/schreiber/show/Super-exceptional+embedding+construction+of+the+M5-brane
