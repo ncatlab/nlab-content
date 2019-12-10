@@ -1,6 +1,10 @@
 There are many approaches to the generalizations of [[principal bundles]] to various flavours of [[noncommutative geometry]]. Not only that the base and total space of a principal bundle are replaced by noncommutative spaces, but various frameworks of noncommutative geometry also allow that the structure group be replaced by some analogue or generalization, something like [[quantum group]]. Some people hence talk about "quantum principal bundles".
 
-In [[noncommutative algebraic geometry]], the most studied is the case in which the base and total space are affine, i.e. each represented by a single algebra, say base by $U$ and the total space by $E$. If the structure group is a [[Hopf algebra]], then the standard requirement is that $E$ is a right $H$-comodule algebra which is a [[Hopf-Galois extension]] of $U$. One generalization of this picture are the "coalgebra bundles" 
+In [[noncommutative algebraic geometry]], the most studied is the case in which the base and total space are affine, i.e. each represented by a single algebra, say base by $U$ and the total space by $E$. If the structure group is a [[Hopf algebra]], then the standard requirement is that $E$ is a right $H$-comodule algebra which is a [[Hopf-Galois extension]] of $U$ (for algebraic story, see the references there). An affine case of connections on principal bundles is considered in 
+
+* [[Tomasz Brzeziński]], [[Shahn Majid]], _Quantum group gauge theory on quantum spaces_, Commun.Math. Phys. __157__, 591–638 (1993) [doi](https://doi.org/10.1007/BF02096884)
+
+One generalization of this picture are the "coalgebra bundles" 
 
 * [[T. Brzeziński]], [[Shahn Majid|S. Majid]], _Coalgebra bundles_, Comm. Math. Phys.  191  (1998),  no. 2, 467--492 ([arXiv version](http://arxiv.org/abs/q-alg/9602022)). 
 
@@ -34,9 +38,18 @@ See also
 
 * [[Tomasz Brzeziński]], _On synthetic interpretation of quantum principal bundles_, AJSE D - Mathematics 35(1D): 13-27, 2010 [arxiv:0912.0213](http://uk.arxiv.org/abs/0912.0213); _Quantum group differentials, bundles and gauge theory_, Encyclopedia of Mathematical Physics, Acad. Press. 2006, pp. 236&#8211;244
 [doi](http://dx.doi.org/10.1016/B0-12-512666-2/00050-X)
-* Francesco D'Andrea, Alessandro De Paris, _On noncommutative equivariant bundles_, [arxiv/1606.09130](https://arxiv.org/abs/1606.09130)
+* Francesco D'Andrea, Alessandro De Paris, _On noncommutative equivariant bundles_,  Commun. Alg. __47__:12 (2019) 5443-5461 [arxiv/1606.09130](https://arxiv.org/abs/1606.09130) [doi](https://doi.org/10.1080/00927872.2019.1631320)
 
-There is also a theory of [[connections on a noncommutative bundle]]. 
+For principal bundles in the context of operator algebras, see
+
+* D. A. Ellwood, A new characterisation of principal actions, J. Funct. Anal. __173__(2000) 49–60, Zbl 0960.46049 [MR1760277](https://mathscinet.ams.org/mathscinet-getitem?mr=1760277)
+* Kenny De Commer, Makoto Yamashita, _A construction of finite index $C^*$-algebra inclusions from free actions of compact quantum groups_, Publ. Res. Inst. Math. Sci. __49__ (2013) 709-735 [doi](https://dx.doi.org/10.4171/PRIMS/117) [arxiv/1201.4022](https://arxiv.org/abs/1201.4022)
+
+In framework of [[spectral triple]]s, see
+
+* Branimir Ćaćić, Bram Mesland, _Gauge theory on noncommutative Riemannian principal bundles_, [arxiv/1912.04179](https://arxiv.org/abs/1912.04179)
+
+See also specifically the theory of [[connections on a noncommutative bundle]]. 
 
 category: noncommutative geometry
 [[!redirects noncommutative principal bundles]]
