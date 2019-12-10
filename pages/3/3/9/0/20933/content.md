@@ -73,13 +73,13 @@ $$
   }
 $$
 
-This is stated as [CCRL 02, Prop. 7.6](#CattaneoCottaRamusinoLongoni02), attributed there to the proof of [AF 96, Theorem 1](#AF96), where in turn the argument is attributed to ([Kohno 94](#Kohno94)). (?)
+This statement is made explicit as [CCRL 02, Prop. 7.6](#CattaneoCottaRamusinoLongoni02), where it is noticed that this is implicit in statement and proof of [AF 96, Theorem 1](#AF96) (where in turn the argument is attributed to [Kohno 94](#Kohno94)!)
 
 Moreover: 
 
 If $w \in \mathcal{W}^c$ is a [[weight system]] and $D \in \mathcal{D}^t$ is a [[Jacobi diagram]] such that $w(D) \neq 0$, then $\phi(w) \in KnotGraphs$ contains a non-vanishing multiple of $D$ as a summand.
 
-This is [CCRL 02, Remark 7.7](#CattaneoCottaRamusinoLongoni02).
+This is made explicit as [CCRL 02, Remark 7.7](#CattaneoCottaRamusinoLongoni02) and again this is implicit in the statement of [AF 96, Theorem 1](#AF96).
 
 ## References
 
