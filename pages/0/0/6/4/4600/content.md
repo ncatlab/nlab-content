@@ -163,7 +163,7 @@ In [[physics]]
 
 * the [[Kalb-Ramond field]] is a cocycle in degree 3;
 
-* the [[supergravity C-field]] is a cocyce in degree 4.
+* the [[supergravity C-field]] is a cocycle in degree 4.
 
 In abelian [[higher dimensional Chern-Simons theory]] in dimension $(4k+3)$ a field configuration is a cocycle in ordinary differential geometry of degree $(2k+2)$, for $k \in \mathbb{N}$.
 
