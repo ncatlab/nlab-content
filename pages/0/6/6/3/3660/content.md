@@ -127,7 +127,7 @@ This subcategory of $Corolla$ is usually *not* full, however.  In particular, fo
 
 * [[Dennis Borisov]], _Comparing definitions of weak higher categories, I_ ([arXiv:0909.2534](http://arxiv.org/abs/0909.2534))
  {#Borisov}
-* [[Clark Barwick]], _On Reedy Model Cateogires_ ([arXiv:0708.2832](https://arxiv.org/abs/0708.2832))
+* [[Clark Barwick]], _On Reedy Model Categories_ ([arXiv:0708.2832](https://arxiv.org/abs/0708.2832))
  {#Barwick}
 
 
