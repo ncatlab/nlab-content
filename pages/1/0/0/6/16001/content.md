@@ -15,7 +15,7 @@ $$
 (\Z_\eta,\|\cdot \|_2)\to (\Z_\eta,\|\cdot\|_2)^t
 $$
 for every $t\geq 1$.
-We will then define a category of rational domain rig categories that will be the building blocks of analytic ring categories and analytic ringed spaces. The definitions proposed in the coming Sections is not clearly adapted to the setting of Banach rings, because the metric enrichment should be done on the full infinity groupoid of morphisms in a rig category (and this last point is yet a problematic issue). All these constructions will be compatible with the standard flow on metrics and absolute value given by taking $t$-th power for $t\in \mathbb{R}_+^*$.
+We will then define a category of rational domain rig categories that will be the building blocks of analytic ring categories and analytic ringed spaces. The definitions proposed in the coming Sections is not clearly adapted to the setting of Banach rings, because the metric enrichment should be done on the full infinity groupoid of morphisms in a rig category (and this last point is yet a problematic issue; one should probably use simplicial Cauchy spaces or metric spaces with Cauchy maps, to make an $\infty$-category adapted to the enrichment). All these constructions will be compatible with the standard flow on metrics and absolute value given by taking $t$-th power for $t\in \mathbb{R}_+^*$.
 
 ## Seminormed and metrized ring $\infty$-categories
 
@@ -70,23 +70,15 @@ $$
 
 ## Classical approach: the metrized spectrum
 
-If $(\mathcal{A},d_{\mathcal{A}})$ is a metrized ring category,
-we may define its metrized spectrum as the set $X=\mathcal{D}(\mathcal{A},d_{\mathcal{A}})$ of multiplicative metrics such that
-$d\leq d_\mathcal{A}$. This set has a natural map to the Berkovich
-spectrum of the associated seminorm $d_\mathcal{A}(0,-)$,
-but one needs to work with metrics instead of norms to be able to
-define completions of non-additive ring categories. One may define
-germs $\mathcal{O}_x$ at
-a point $x\in X$ as equivalence classes of pairs $(V,(f_n))$ composed
-of an open neighborhood $V$ of $x$ and a sequence of rational functions
-without poles $f_n\in \mathcal{K}(V)$ such that $y\mapsto d(f_n(y),f_m(y))$
-is bounded on $V$ for every $n,m$ and the limit of $sup_{y\in V}d(f_n(y),f_m(y))$
-is zero as $n,m$ tend to $\infty$. We then define analytic functions as maps
+If $(\mathcal{A},d_{\mathcal{A}})$ is a metrized pointed ring category,
+we may define its Berkovich spectrum as the set $X=\mathcal{M}(\mathcal{A},d_{\mathcal{A}}(0,\cdot))$ of multiplicative seminorms such that
+$|\cdot|\leq d_\mathcal{A}(0,\cdot)$. One may define the presheaf of uniform limits (i.e., the completion) of rational functions without poles, and then germs $\mathcal{O}_x$ at a point $x\in X$ as equivalence classes of pairs $(V,(f_n))$ composed of an open neighborhood $V$ of $x$ and a Cauchy sequence of rational functions without poles $f_n\in \mathcal{K}(V)$.
+
+We then define analytic functions as maps
 $$f:U\to \coprod_{x\in U} \Hom_{\mathcal{O}_x}(M,N)$$
 ($M$ and $N$ are objects of $\mathcal{A}$, seen as objects of $\mathcal{O}_x$)
-such that for every point $x\in U$, there is a neighborhood $V$ of $x$
-and a sequence of rational function $(f_n)$ such that $y\mapsto d(f_n(y),f(y))$
-is bounded on $V$ and its supremum tends to zero. The obtained sheaf $\mathcal{O}_X$ has a map from rational functions $\mathcal{K}_X$ by definition.
+such that for every point $x\in U$, there is a neighborhood $V$ of $x$ such
+that $f$ comes from the completion of rational functions without poles on $V$. The obtained sheaf $\mathcal{O}_X$ has a map from rational functions $\mathcal{K}_X$ by definition.
 
 Morphisms of analytic spaces will be those induced by morphisms of
 metrized ring categories.
