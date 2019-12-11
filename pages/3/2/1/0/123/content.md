@@ -50,7 +50,7 @@ A **functor** $F$ from a [[category]] $C$ to a category $D$ is a map sending eac
 
 * $F$ preserves [[composition]]: $F(g\circ f) = F(g)\circ F(f)$ whenever the left-hand side is well-defined,
 
-* $F$ preserves [[identity morphisms]]: for each object $x \in X$, $F(1_x) = 1_{F(x)}$.
+* $F$ preserves [[identity morphisms]]: for each object $x \in C$, $F(1_x) = 1_{F(x)}$.
 
 Or equivalently, since compositions $g f = g\circ f$ (commuting triangles) and identities $1_x$ (commuting loops) are both simple commuting diagrams, we can combine the above conditions to the single statement
 
