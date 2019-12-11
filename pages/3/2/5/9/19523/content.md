@@ -34,7 +34,7 @@ The [[standard model of cosmology]] assumes that such inhomogeneities may be neg
 
 Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15](standard+model+of+cosmology#BCKRW15), [Riess et. al. 16](#RiessEtAl16)) related to _[[dark energy]]_ (a [[cosmological constant]], and possibly related issues such as [[cosmic inflation]]), it has been suggested that these may be but an artefact of the overly idealistic approximation of cosmic homogeneity, and that a more accurate inhomogeneous cosmology would not need to assume any [[dark energy]]/[[cosmological constant]].
 
-References suggesting/discussing/checking this idea include the following: [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Räsänen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Buchert 11](#Buchert11), [Buchert-Räsänen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Smoller-Temple-Vogler 14](#SmollerTempleVogler14), [Moffat 16](#Moffat16), [Colin-Mohayaee-Rameez-Sarkar 18](#SarkarEtAl18), [Sarkar 18](#Sarkar18), [Lombriser 19](#Lombriser19), [Deledicque 19](#Deledicque19).
+References suggesting/discussing/checking this idea include the following: [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Räsänen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Buchert 11](#Buchert11), [Buchert-Räsänen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Smoller-Temple-Vogler 14](#SmollerTempleVogler14), [Moffat 16](#Moffat16), [Colin-Mohayaee-Rameez-Sarkar 19](#SarkarEtAl18), [Sarkar 18](#Sarkar18), [Lombriser 19](#Lombriser19), [Deledicque 19](#Deledicque19).
 
 Discussion specifically of cosmic inhomogenity as the possible cause of the $H_0$-tension: [Bolejko 17](#Bolejko17).
 
@@ -82,7 +82,7 @@ rises, so the average expansion rate can rise ([Räsänen 10, p. 8](#Rasanen10))
 > Our analysis is based on the discovery of a closed ansatz for perturbations of the SM during the p$ = 0$ epoch of the Big Bang which triggers instabilities that create unexpectedly large regions of accelerated uniform expansion  within  Einstein’s  original  theory  without  the  cosmological constant.  We prove that these accelerated regions introduce
 precisely the same range of corrections to redshift vs luminosity as are produced by the cosmological constant in the theory of Dark Energy. 
 
-A similar conclusion is reached in [Colin-Mohayaee-Rameez-Sarkar 18](#SarkarEtAl18), which in [Sarkar 18, slide 44](#Sarkar18) is summarized as follows:
+A similar conclusion is reached in [Colin-Mohayaee-Rameez-Sarkar 19](#SarkarEtAl18), which in [Sarkar 18, slide 44](#Sarkar18) is summarized as follows:
 
 > {#SarkarFlowQuote} There is a dipole in the recession velocities of host galaxies of supernovae $\Rightarrow$ we are in a "bulk flow" stretching out _well_ beyond the expected scale ($\sim 100 Mpc$) at which the universe is expected to become statistically homogeneous. The inference that the Hubble expansion rate is accelerating may be an artefact of the local bulk flow $[...]$ The "standard" assumptions of exact isotropy and homogeneity are _questionable $[...]$
 
@@ -175,7 +175,7 @@ of the Universe.
 
 
 
-Indeed, [Smoller-Temple-Vogler 14](#SmollerTempleVogler14) claim an analytic solution which does exhibit inhomogeneity effects mimicking dark energy (see [above](#AbstractSmollerTempleVogler14)) and a similar conclusion is claimed in [Colin-Mohayaee-Rameez-Sarkar 18](#SarkarEtAl18) (see [above](#SarkarFlowQuote)).  Also relativistic numerical simulation, albeit in their infancy, seem to exhibit noticeable backreaction (see [above](#NumericalSimulation)).
+Indeed, [Smoller-Temple-Vogler 14](#SmollerTempleVogler14) claim an analytic solution which does exhibit inhomogeneity effects mimicking dark energy (see [above](#AbstractSmollerTempleVogler14)) and a similar conclusion is claimed in [Colin-Mohayaee-Rameez-Sarkar 19](#SarkarEtAl18) (see [above](#SarkarFlowQuote)).  Also relativistic numerical simulation, albeit in their infancy, seem to exhibit noticeable backreaction (see [above](#NumericalSimulation)).
 
 
 
@@ -336,7 +336,7 @@ Dark Energy?_, 2009 ([[NotariInhomogeneousCosmology.pdf:file]])
 
 * {#MacphersonLaskyPrice18} Hayley Macpherson, Paul D. Lasky, Daniel J. Price, _The trouble with Hubble: Local versus global expansion rates in inhomogeneous cosmological simulations with numerical relativity_,  ApJ Letters ([arXiv:1807.01714](https://arxiv.org/abs/1807.01714))
 
-* {#SarkarEtAl18} J. Colin, R. Mohayaee, [[Mohamed Rameez]], [[Subir Sarkar]], _Evidence for anisotropy of cosmic acceleration_, Astronomy & Astrophysics Letters ([arXiv:1808.04597](https://arxiv.org/abs/1808.04597))
+* {#SarkarEtAl18} J. Colin, R. Mohayaee, [[Mohamed Rameez]], [[Subir Sarkar]], _Evidence for anisotropy of cosmic acceleration_, Astronomy & Astrophysics **631** L13 (2019) doi:[10.1051/0004-6361/201936373](https://doi.org/10.1051/0004-6361/201936373), ([arXiv:1808.04597](https://arxiv.org/abs/1808.04597))
 
 * {#Sarkar18} [[Subir Sarkar]], _Is the universe isotropic?_, talk at _[Current Themes in High Energy Physics and Cosmology 2018](https://indico.nbi.ku.dk/event/973/)_ ([pdf](https://indico.nbi.ku.dk/event/973/contributions/8344/attachments/2648/3858/Sarkar_Copenhagen18_cosmo.pdf))
 
