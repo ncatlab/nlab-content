@@ -4,7 +4,7 @@
 
 ## Idea
 
-Various more or less geometrical concepts are called [[spaces]], to name a few [[vector spaces]], [[topological spaces]], [[algebraic spaces]], ....  If such objects form a [[category]], it is natural to look for the [[subobject]]s and to call them _subspaces_.  However, often the natural subspaces in the field are the [[regular subobjects]]; convsersely, it is also often the case that variants which are not subobjects in categorical sense are allowed, such as an [[immersed submanifold]] (whose image topological subspace is not a manifold in general).
+Various more or less geometrical concepts are called [[spaces]], to name a few [[vector spaces]], [[topological spaces]], [[algebraic spaces]], ....  If such objects form a [[category]], it is natural to look for the [[subobjects]] and to call them _subspaces_.  However, often the natural subspaces in the field are the [[regular subobjects]]; conversely, it is also often the case that variants which are not subobjects in the categorical sense are allowed, such as an [[immersed submanifold]]. (These may have self-intersections, and then the immersion map is not monic, nor can this map be replaced by the inclusion of the image, since this image is usually not a manifold.)
 
 
 ## Definitions and examples
@@ -24,9 +24,10 @@ If a [[continuous map]] $f:Z\to X$ is a [[homeomorphism]] onto its [[image]] $f(
 
 See at _[[topological subspace]]_.
 
+
 ### Topological vector subspaces
 
-A 'subspace' of a [[topological vector space]] usually means simply a linear subspace, that is a subspace of the underlying discrete vector space.
+A 'subspace' of a [[topological vector space]] usually means simply a [[linear subspace]], that is a subspace of the underlying discrete vector space.
 
 However, the subspaces that we really want in categories such as [[Ban]] are the *closed* linear subspaces.  (Essentially, this is because we want our subspaces to be [[complete space|complete]] whenever our objects are complete.)
 
@@ -45,6 +46,7 @@ Given a [[locale]] $L$, which can also be thought of as a [[frame]], a [[subloca
 
 For Grothendieck topologies, one instead of a subspace has a concept of a [[subsite]]. 
 
+
 ## Related concepts
 
 * [[subobject]]
@@ -54,5 +56,3 @@ For Grothendieck topologies, one instead of a subspace has a concept of a [[subs
 
 [[!redirects subspace]]
 [[!redirects subspaces]]
-
-
