@@ -275,7 +275,7 @@ Discussion of lifts of 4d black holes to 5d black holes and [[black rings]] and 
 
 * I. Bena, [[Per Kraus]], _Microscopic description of black rings in AdS/CFT_ JHEP 12 (2004) 070 ([hep-th/0408186](http://arxiv.org/abs/hep-th/0408186))
 
-* I. Bena and P. Kraus, _Microstates of the D1-D5-KK system_ Phys. Rev. D72 (2005) 025007 ([hep-th/0503053](http://arxiv.org/abs/hep-th/0503053))
+* I. Bena, [[Per Kraus]], _Microstates of the D1-D5-KK system_ Phys. Rev. D72 (2005) 025007 ([hep-th/0503053](http://arxiv.org/abs/hep-th/0503053))
 
 * [[Davide Gaiotto]], [[Andrew Strominger]], and X. Yin, _5D black rings and 4D black holes_ JHEP 02 (2006) 023 ([hep-th/0504126](http://arxiv.org/abs/hep-th/0504126))
 
@@ -287,7 +287,7 @@ Discussion of lifts of 4d black holes to 5d black holes and [[black rings]] and 
 
 Review includes
 
-* [[Per Kraus]], _Lectures on black holes and the $AdS_3$ / $CFT_2$ correspondence_ ([arXiv:hep-th/0609074](http://arxiv.org/abs/hep-th/0609074))
+* [[Per Kraus]], _Lectures on black holes and the $AdS_3$/$CFT_2$ correspondence_ ([arXiv:hep-th/0609074](http://arxiv.org/abs/hep-th/0609074))
 
   _Stringy black holes in five dimensions_, 2007 ([pdf slides](http://hep.ps.uci.edu/~arajaram/Irvine.07.pdf))
 
