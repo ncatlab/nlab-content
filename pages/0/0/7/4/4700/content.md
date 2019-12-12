@@ -1768,6 +1768,8 @@ Discussion of the graph complex as computing higher order [[Vassiliev invariants
 
 * [Kontsevich 93, Section 5](#Kontsevich93)
 
+* Daniel Altschuler, Laurent Freidel, _Vassiliev knot invariants and Chern-Simons perturbation theory to all orders_, Commun. Math. Phys. 187 (1997) 261-287 ([arxiv:q-alg/9603010](https://arxiv.org/abs/q-alg/9603010))
+
 * {#CattaneoCottaRamusinoLongoni02} [[Alberto Cattaneo]], Paolo Cotta-Ramusino, Riccardo Longoni, _Configuration spaces and Vassiliev classes in any dimension_, Algebr. Geom. Topol. 2 (2002) 949-1000 ([arXiv:math/9910139](https://arxiv.org/abs/math/9910139))
 
 * {#CattaneoCottaRamusinoLongoni05} [[Alberto Cattaneo]], Paolo Cotta-Ramusino, Riccardo Longoni, _Algebraic structures on graph cohomology_, Journal of Knot Theory and Its Ramifications, Vol. 14, No. 5 (2005) 627-640 ([arXiv:math/0307218](https://arxiv.org/abs/math/0307218), [doi:10.1142/S0218216505004019](http://dx.doi.org/10.1142/S0218216505004019), [math.GT/0307218](http://arxiv.org/abs/math/0307218), [MR2006g:58021](http://www.ams.org/mathscinet-getitem?mr=2006g:58021))
