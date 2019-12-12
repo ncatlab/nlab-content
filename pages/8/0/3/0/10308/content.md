@@ -155,11 +155,15 @@ Discussion of [[equivariant elliptic cohomology]] (see there at _[interpretation
 ## References
  {#References}
 
+### Non-perturbative geometric quantization
+
+Discussion of [[non-perturbative QFT|non-perturbative]] [[geometric quantization]] of [[Chern-Simons theory]]:
+
 Basics are recalled for instance in
 
-* Fernando Falceto, [[Krzysztof Gaw?dzki]], _Chern-Simons States at Genus One_, Commun.Math.Phys. 159 (1994) 549-580 ([arXiv:hep-th/9211003](http://arxiv.org/abs/hep-th/9211003))
+* Fernando Falceto, [[Krzysztof Gawedzki]], _Chern-Simons States at Genus One_, Commun.Math.Phys. 159 (1994) 549-580 ([arXiv:hep-th/9211003](http://arxiv.org/abs/hep-th/9211003))
 
-* {#Gawedzki99} [[Krzysztof Gaw?dzki]], _Conformal field theory: a case study_ in Y. Nutku, C. Saclioglu, T. Turgut (eds.) _Frontier in Physics_ 102, Perseus Publishing (2000) ([hep-th/9904145](http://xxx.lanl.gov/abs/hep-th/9904145))
+* {#Gawedzki99} [[Krzysztof Gawedzki]], _Conformal field theory: a case study_ in Y. Nutku, C. Saclioglu, T. Turgut (eds.) _Frontier in Physics_ 102, Perseus Publishing (2000) ([hep-th/9904145](http://xxx.lanl.gov/abs/hep-th/9904145))
 
 * Yasuhiro Abe, _Application of abelian holonomy formalism to the elementary theory of numbers_ ([arXiv:1005.4299](http://arxiv.org/abs/1005.4299))
 
@@ -228,5 +232,26 @@ Discussion of [[quantization of Chern-Simons theory]] in terms of [[Weyl quantiz
 Another approach is
 
 * [[Daniel Freed]], [[Mike Hopkins]], [[Constantin Teleman]], [[Jacob Lurie]], _[TQFT from compact Lie groups -- 3d Chern-Simons as a fully extended TQFT](http://ncatlab.org/nlab/show/Topological+Quantum+Field+Theories+from+Compact+Lie+Groups#3dCSFullyExtended)_.
+
+### Perturbative quantization
+ {#ReferencesPerturbative}
+
+Discussion of  [[perturbative quantum field theory|perturbative]] [[quantization of Chern-Simons theory]] (yielding [[Vassiliev invariants]]):
+
+* {#BarNatan91} [[Dror Bar-Natan]], _Perturbative aspects of the Chern-Simons topological quantum field theory_, thesis 1991 ([spire:323500](http://inspirehep.net/record/323500), [proquest:303979053](https://search.proquest.com/docview/303979053), [[BarNatanPerturbativeCS91.pdf:file]])
+
+* {#BarNatan95} [[Dror Bar-Natan]], _Perturbative Chern-Simons theory_,  Journal of Knot Theory and Its RamificationsVol. 04, No. 04, pp. 503-547 (1995) ([doi:10.1142/S0218216595000247](https://doi.org/10.1142/S0218216595000247))
+
+* {#AxelrodSinger} [[Scott Axelrod]], [[Isadore Singer]], _Chern-Simons Perturbation Theory_, in S. Catto, A. Rocha (eds.) Proc. XXthe DGM Conf. World Scientific Singapore, 1992, 3-45; ([arXiv:hep-th/9110056](http://arxiv.org/abs/hep-th/9110056))
+
+* [[Scott Axelrod]], [[Isadore Singer]],_Chern--Simons Perturbation Theory II_, J. Diff. Geom. 39 (1994) 173-213 ([arXiv:hep-th/9304087](http://arxiv.org/abs/hep-th/9304087)) 
+ 
+* {#Kontsevich} [[Maxim Kontsevich]], _Feynman diagrams and low-dimensional topology_, in First European Congress of Mathematics, Vol. II (Paris, 1992), volume 120 of Progr. Math., pages 97&#8211;121, Birkh&#228;user, Basel, 1994. ([pdf](https://www.ihes.fr/~maxim/TEXTS/Feynman%20%20diagrams%20and%20low-dimensional%20topology.pdf))
+ 
+* {#LambrechtsVolic14} [[Pascal Lambrechts]], [[Ismar Volić]], sections 6 and 7 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([arXiv:0808.0457](https://arxiv.org/abs/0808.0457), [doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
+
+See also at _[[correlator as differential form on configuration space of points]]_ and see at _[[graph complex]]_  as a model for the [[spaces of knots]]_.
+
+
 
 [[!redirects quantization of Chern-Simons theory]]
