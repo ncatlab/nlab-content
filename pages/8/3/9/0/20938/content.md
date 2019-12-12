@@ -99,7 +99,7 @@ In both rules, $\Gamma_2$ is split to find the scope to which the projections ar
 
 The projections cannot go in a scope outside one with resources used, because then there would be no way to get the variables out there in ordinary MILL using a match.
 
-On the other hand, it can be trouble to put the projections in a scope more inside than necessary, since the lambda rule checks that everything in its scope was consumed. The projections only need to be consumed before one of their dependencies goes out of scope. For example, ($\lambda x:A.((\lambda y:B.f_{(1)}(x)),f_{(2)}(x))$) means ($\lambda x:A.let\;(f_1,f_2) = f(x)\;in\;((\lambda y:B.f_1),f_2)$), but would be rejected if we naively put $f(x)$ into the scope in which it's first encountered.
+On the other hand, it can be trouble to put the projections in a scope more inside than necessary, since the lambda rule checks that everything in its scope was consumed. The projections only need to be consumed before one of their dependencies goes out of scope. For example, ($\lambda x:A.((\lambda y:B.(y,f_{(1)}(x))),f_{(2)}(x))$) means ($\lambda x:A.let\;(f_1,f_2) = f(x)\;in\;((\lambda y:B.(y,f_1)),f_2)$), but would be rejected if we naively put $f(x)$ into the scope in which it's first encountered.
 
 ## References
 
