@@ -35,8 +35,9 @@ In [Gang-Kim-Lee 14b, 3.2](#GangKimLee14b), [Gang-Kim 18 (21)](#GangKim18) it is
 for the situation of [[M5-branes]] [[wrapped brane|wrapped on]] $\Sigma^3$ ([DGKV 10](#DGKV10)):
 
 <center>
-<img src="https://ncatlab.org/nlab/files/VolumeConjectureAsAdSCFTPlus3d3dDuality.jpg" width="650">
+<img src="https://ncatlab.org/nlab/files/VolumeConjectureAsAdSCFTPlus3d3dDualityII.jpg" width="650">
 </center>
+
 
 ## Related concepts
 
