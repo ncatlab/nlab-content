@@ -4,11 +4,11 @@ How do you type check [[linear logic|MILL]], but with projections rather than ma
 
 ## Judgment form, Notations
 
-$U \subseteq \Gamma \vdash t\,:\,T\,\Box\,U' \subseteq \Gamma'$
+$U \subseteq \Gamma \vdash t\,:\,T\,\boxtimes\,U' \subseteq \Gamma'$
 
 $U$, $\Gamma$, and $t$ are inputs; $T$, $U'$, and $\Gamma'$ are outputs.
 
-The "$\Box$" would ideally be a `\boxtimes`, like in [Allais](#Allais), but that doesn't seem to be available. The observation was that a term is implicitly tensored with the identity on all the unused resources.
+The observation was that a term is implicitly tensored with the identity on all the unused resources.
 
 $\Gamma$ and $\Gamma'$ are [[contexts]] with some natural number of semicolon "scope" delimiters. $U$ and $U'$ are "usage" sets, which are subsets of the (domains of the) respective contexts. In [Allais](#Allais), the usage sets are represented as bit vectors (which is a fine way to implement them). Unlike [Allais](#Allais), the usage before and after are for *different* contexts, because type checking a term generally adds projections to the context as potentially-consumed resources.
 
@@ -16,7 +16,7 @@ The purpose of delimited scopes in the context is to remember by when we must've
 
 In the rules, I implicitly coerce a context to the usage set of its entire domain. The abbreviation $(\Gamma \mapsto \Gamma')U$ "weakens" $U$ to include all entries in $\Gamma'$ but not $\Gamma$. Set theoretically speaking: $(\Gamma \mapsto \Gamma')U \coloneqq U \cup (\Gamma' \setminus \Gamma)$. "$\Delta$" and variants are used as metavariables for contexts *without any delimiters*.
 
-Some important (intended) properties of the judgment form are that if $U \subseteq \Gamma \vdash t\,:\,T\,\Box\,U' \subseteq \Gamma'$, then:
+Some important (intended) properties of the judgment form are that if $U \subseteq \Gamma \vdash t\,:\,T\,\boxtimes\,U' \subseteq \Gamma'$, then:
 
 * $U \subseteq \Gamma$ and $U' \subseteq \Gamma'$
 * $\Gamma$ and $\Gamma'$ have the same number of delimiters.
@@ -33,63 +33,63 @@ Functions take exactly one argument, and have one or more results. Semantically,
 
 ## Rules
 
-$$\frac{t:T \in U}{U \subseteq \Gamma \vdash t\,:\,T\,\Box\,U \setminus \{t\} \subseteq \Gamma}$$
+$$\frac{t:T \in U}{U \subseteq \Gamma \vdash t\,:\,T\,\boxtimes\,U \setminus \{t\} \subseteq \Gamma}$$
 
 Yes, you get *terms* out of the context, not just variables. For now, the only terms that end up in the context are variables and tensor projections. $(t:T) \in U$ really means $(t:T) \in \Gamma$ and $t \in U$, since the type is stored in $\Gamma$.
 
 $$\begin{gathered}
 \frac{f \in \mathcal{G}(A;\overrightarrow{B})}
-{U \subseteq \Gamma \vdash f\,:\,A \multimap \overrightarrow{B}\,\Box\,U \subseteq \Gamma} \\
+{U \subseteq \Gamma \vdash f\,:\,A \multimap \overrightarrow{B}\,\boxtimes\,U \subseteq \Gamma} \\
 \\
-\frac{}{U \subseteq \Gamma \vdash ()\,:\,\mathbf{1}\,\Box\,U \subseteq \Gamma} \\
+\frac{}{U \subseteq \Gamma \vdash ()\,:\,\mathbf{1}\,\boxtimes\,U \subseteq \Gamma} \\
 \\
-\frac{U \subseteq \Gamma \vdash c\,:\,\mathbf{1}\,\Box\,U_1 \subseteq \Gamma_1 \qquad
-U_1 \subseteq \Gamma_1 \vdash t\,:\,T\,\Box\,U_2 \subseteq \Gamma_2}
-{U \subseteq \Gamma \vdash c;\,t\,:\,T\,\Box\,U_2 \subseteq \Gamma_2} \\
+\frac{U \subseteq \Gamma \vdash c\,:\,\mathbf{1}\,\boxtimes\,U_1 \subseteq \Gamma_1 \qquad
+U_1 \subseteq \Gamma_1 \vdash t\,:\,T\,\boxtimes\,U_2 \subseteq \Gamma_2}
+{U \subseteq \Gamma \vdash c;\,t\,:\,T\,\boxtimes\,U_2 \subseteq \Gamma_2} \\
 \\
-\frac{U \subseteq \Gamma \vdash a\,:\,A\,\Box\,U_1 \subseteq \Gamma_1 \qquad
-U_1 \subseteq \Gamma_1 \vdash b\,:\,B\,\Box\,U_2 \subseteq \Gamma_2}
-{U \subseteq \Gamma \vdash (a,b)\,:\,A \otimes B\,\Box\,U_2 \subseteq \Gamma_2} \\
+\frac{U \subseteq \Gamma \vdash a\,:\,A\,\boxtimes\,U_1 \subseteq \Gamma_1 \qquad
+U_1 \subseteq \Gamma_1 \vdash b\,:\,B\,\boxtimes\,U_2 \subseteq \Gamma_2}
+{U \subseteq \Gamma \vdash (a,b)\,:\,A \otimes B\,\boxtimes\,U_2 \subseteq \Gamma_2} \\
 \\
-\frac{}{U \subseteq \Gamma \vdash \pi\,:\,(A \otimes B) \multimap (A,B)\,\Box\,U \subseteq \Gamma}
+\frac{}{U \subseteq \Gamma \vdash \pi\,:\,(A \otimes B) \multimap (A,B)\,\boxtimes\,U \subseteq \Gamma}
 \end{gathered}$$
 
 Yeah, that's tensor elim now. Kind of funky.
 
-$$\frac{U \cup \{x\} \subseteq \Gamma;x:A \vdash b\,:\,B_1 \otimes \dots \otimes B_n\,\Box\,U' \subseteq \Gamma';\Delta \qquad
+$$\frac{U \cup \{x\} \subseteq \Gamma;x:A \vdash b\,:\,B_1 \otimes \dots \otimes B_n\,\boxtimes\,U' \subseteq \Gamma';\Delta \qquad
 U' \cap \Delta = \emptyset}
-{U \subseteq \Gamma \vdash \lambda x:A.b\,:\,A \multimap (B_1,\dots,B_n)\,\Box\,U' \subseteq \Gamma'}$$
+{U \subseteq \Gamma \vdash \lambda x:A.b\,:\,A \multimap (B_1,\dots,B_n)\,\boxtimes\,U' \subseteq \Gamma'}$$
 
 There is a new scope for checking the body, which starts out with just the bound variable. When done checking, there's generally more stuff in it. Currently, that would only be tensor projections. In any case, everything in the new scope must've been consumed.
 
-$$\frac{U \subseteq \Gamma \vdash f\,:\,A \multimap B\,\Box\,U_1 \subseteq \Gamma_1 \qquad
-U_1 \subseteq \Gamma_1 \vdash a\,:\,A\,\Box\,U_2 \subseteq \Gamma_2}
-{U \subseteq \Gamma \vdash f(a)\,:\,B\,\Box\,U_2 \subseteq \Gamma_2}$$
+$$\frac{U \subseteq \Gamma \vdash f\,:\,A \multimap B\,\boxtimes\,U_1 \subseteq \Gamma_1 \qquad
+U_1 \subseteq \Gamma_1 \vdash a\,:\,A\,\boxtimes\,U_2 \subseteq \Gamma_2}
+{U \subseteq \Gamma \vdash f(a)\,:\,B\,\boxtimes\,U_2 \subseteq \Gamma_2}$$
 
 That's the *nice* application rule, for when there's one result. Now for the *nasty* ones...
 
 $$\frac{\begin{array}{l}f_{(i)}(a) \notin \Gamma \\
-U \subseteq \Gamma \vdash f\,:\,A \multimap \overrightarrow{B}\,\Box\,U_1 \subseteq \Gamma_1 \\
-U_1 \subseteq \Gamma_1 \vdash a\,:\,A\,\Box\,U_2 \subseteq \Gamma_2 \\
+U \subseteq \Gamma \vdash f\,:\,A \multimap \overrightarrow{B}\,\boxtimes\,U_1 \subseteq \Gamma_1 \\
+U_1 \subseteq \Gamma_1 \vdash a\,:\,A\,\boxtimes\,U_2 \subseteq \Gamma_2 \\
 |\overrightarrow{B}| \gt 1 \qquad 0 \lt i \leq |\overrightarrow{B}| \\
 U_d = (\Gamma \mapsto \Gamma_2)U \setminus U_2 \\
 \Gamma_2 = \Gamma_l;\Delta;\Gamma_r \\
 U_d \cap \Gamma_r = \emptyset \qquad U_d \cap \Delta \neq \emptyset \\
 \Gamma_3 = \Gamma_l;\Delta,\overrightarrow{f(a):B};\Gamma_r \\
 U_3 = (\Gamma_2 \mapsto \Gamma_3)U_2 \setminus \{f_{(i)}(a)\}\end{array}}
-{U \subseteq \Gamma \vdash f_{(i)}(a)\,:\,B_i\,\Box\,U_3 \subseteq \Gamma_3}$$
+{U \subseteq \Gamma \vdash f_{(i)}(a)\,:\,B_i\,\boxtimes\,U_3 \subseteq \Gamma_3}$$
 
 $$\;$$
 
 $$\frac{\begin{array}{l}f^u_{(i)}(a) \notin \Gamma \\
-U \subseteq \Gamma \vdash f\,:\,A \multimap \overrightarrow{B}\,\Box\,U_1 \subseteq \Gamma_1 \\
-U_1 \subseteq \Gamma_1 \vdash a\,:\,A\,\Box\,U_2 \subseteq \Gamma_2 \\
+U \subseteq \Gamma \vdash f\,:\,A \multimap \overrightarrow{B}\,\boxtimes\,U_1 \subseteq \Gamma_1 \\
+U_1 \subseteq \Gamma_1 \vdash a\,:\,A\,\boxtimes\,U_2 \subseteq \Gamma_2 \\
 |\overrightarrow{B}| \gt 1 \qquad 0 \lt i \leq |\overrightarrow{B}| \\
 (\Gamma \mapsto \Gamma_2)U \setminus U_2 = \emptyset \\
 \Gamma_2 = \Delta_l;\Gamma_r \\
 \Gamma_3 = \Delta_l,\overrightarrow{f^u(a):B};\Gamma_r \\
 U_3 = (\Gamma_2 \mapsto \Gamma_3)U_2 \setminus \{f^u_{(i)}(a)\}\end{array}}
-{U \subseteq \Gamma \vdash f^u_{(i)}(a)\,:\,B_i\,\Box\,U_3 \subseteq \Gamma_3}$$
+{U \subseteq \Gamma \vdash f^u_{(i)}(a)\,:\,B_i\,\boxtimes\,U_3 \subseteq \Gamma_3}$$
 
 Whew. These rules add tensor projections of a function application to the context, the first time the application is encountered in a given scope. There are two rules because if the application doesn't consume any resources, there's generally an ambiguity between multiple instances of the application, so we add a "label" to disambiguate. $u$ is the label metavariable. This labeling idea is from [Shulman](#Shulman). See there for a discussion of the problem.
 
