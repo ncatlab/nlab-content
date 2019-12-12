@@ -101,7 +101,7 @@ A careful non-technical exposition is in
 
 * [[Barton Zwiebach]], chapter 22 of _A first course in string theory_
 
-* [[Per Kraus]], _Lectures on black holes and the AdS_3 / CFT_2 correspondence_ ([arXiv:hep-th/0609074](http://arxiv.org/abs/hep-th/0609074))
+* [[Per Kraus]], _Lectures on black holes and the $AdS_3/CFT_2$ correspondence_,  Lect. Notes Phys.755:193-247, 2008 ([arXiv:hep-th/0609074](https://arxiv.org/abs/hep-th/0609074))
 
   _Stringy black holes in five dimensions_, 2007 ([pdf slides](http://hep.ps.uci.edu/~arajaram/Irvine.07.pdf))
 
