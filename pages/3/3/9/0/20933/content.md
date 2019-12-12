@@ -148,7 +148,7 @@ Write
   \label{JacobiDiagramsModuloSTU}
   \mathcal{A}_\bullet 
   \;\coloneqq\;
-  Soan
+  Span
   \left( 
     \mathcal{D}^t
   \right)/(STU)
