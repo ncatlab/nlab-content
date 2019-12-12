@@ -56,14 +56,19 @@ Reviews include
 
 * {#Gawedzki99} [[Krzysztof Gawędzki]], around p. 30 of _Conformal field theory: a case study_ ([arXiv:hep-th/9904145](http://arxiv.org/abs/hep-th/9904145))
  
-* {#Witten96} [[Edward Witten]], section 2 of _Five-Brane Effective Action In M-Theory_ J. Geom. Phys.22:103-133,1997 ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
+* {#Witten96} [[Edward Witten]], section 2 of _Five-Brane Effective Action In M-Theory_ J. Geom. Phys. 22: 103-133, 1997 ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
 
-The relation of this to the [[AdS-CFT correspondence]] is discussed in
+The relation of this $CS_3/WZW_2$-duality to the [[AdS-CFT correspondence]] is discussed in
 
-* {#GukovMartinecMooreStrominger04} [[Sergei Gukov]], [[Emil Martinec]], [[Gregory Moore]], [[Andrew Strominger]], _Chern-Simons Gauge Theory and the AdS(3)/CFT(2) Correspondence_, in [[Mikhail Shifman]] et al.  (ed.) _From fields to strings_, vol. 2, 1606-1647, 2004 ([arXiv:hep-th/0403225](http://xxx.lanl.gov/abs/hep-th/0403225))
+* {#GukovMartinecMooreStrominger04} [[Sergei Gukov]], [[Emil Martinec]], [[Gregory Moore]], [[Andrew Strominger]], _Chern-Simons Gauge Theory and the $AdS_3/CFT_2$ Correspondence_, in: [[Mikhail Shifman]] et al.  (eds.) _From fields to strings_, vol. 2, 1606-1647, 2004 ([arXiv:hep-th/0403225](https://arxiv.org/abs/hep-th/0403225))
  
+* Kristan Jensen, _Chiral anomalies and AdS/CMT in two dimensions_, JHEP 1101:109,2011 ([arXiv:1012.4831](https://arxiv.org/abs/1012.4831))
 
-* Kristan Jensen, _Chiral anomalies and AdS/CMT in two dimensions_, JHEP 1101:109,2011 ([arXiv:1012.4831](http://lanl.arxiv.org/abs/1012.4831))
+* [[Per Kraus]], [[Finn Larsen]], _Partition functions and elliptic genera from supergravity_, JHEP 0701:002, 2007 ([arXiv:hep-th/0607138](https://arxiv.org/abs/hep-th/0607138))
+
+* [[Per Kraus]], _Lectures on black holes and the $AdS_3/CFT_2$ correspondence_,  Lect. Notes Phys.755:193-247, 2008 ([arXiv:hep-th/0609074](https://arxiv.org/abs/hep-th/0609074))
+
+* Ville Keranen, _Chern-Simons interactions in AdS3 and the current conformal block_ ([arXiv:1403.6881](https://arxiv.org/abs/1403.6881))
 
 A general argument about the relation between AdS/CFT duality and [[schreiber:infinity-Chern-Simons theory]] is in 
 
