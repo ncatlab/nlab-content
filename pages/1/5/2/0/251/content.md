@@ -185,7 +185,20 @@ This last example is due to a factorization property: if we can factor the two l
 
 In fact, it seems hard to find a naturally occurring double category in which pinwheels and more general arranguments *cannot* be composed, although such composability definitely does not follow from the double-category axioms.  This suggests that perhaps the usual definition of double category is too naive, and we should actually require all "unbiased" composites to exist, including the pinwheel.  There is probably a monad of some sort on a suitable category whose algebras are "double categories with generalized composites" in this sense.
 
-(It is tempting to try to axiomatize such a structure finitely by adding a basic "pinwheel-composition" operation, but although every non-composable arrangement reduces to one "containing" a pinwheel, the containment is not necessarily of a sort to which such an operation could be applied.  So it is not clear whether there is any finitary axiomatization of such "augmented" double categories.)
+(It is tempting to try to axiomatize such a structure finitely by adding a basic "pinwheel-composition" operation, but although every non-composable arrangement reduces to one "containing" a pinwheel, the containment is not necessarily of a sort to which such an operation could be applied.  For example, here is a configuration that cannot be composed even with a "pinwheel-composition" operation:
+
+\begin{tikzpicture}[scale=0.7]
+      \draw (0,0) rectangle (2,1);
+      \draw (1,1) rectangle (2,2);
+      \draw (0,1) rectangle (1,3);
+      \draw (1,2) rectangle (4,3);
+      \draw (3,1) rectangle (4,2);
+      \draw (2,0) rectangle (3,2);
+      \draw (3,0) rectangle (5,1);
+      \draw (4,1) rectangle (5,3);
+\end{tikzpicture}
+
+Thus, it is not clear whether there is any finitary axiomatization of such "augmented" double categories.)
 
 
 ## Higher categories of double categories
