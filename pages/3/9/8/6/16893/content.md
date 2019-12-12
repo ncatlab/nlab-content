@@ -26,7 +26,7 @@ A first step in this direction of a good homotopy theory for global analytic spa
 
 However, one would like the theory not to depend on the choice of a particular Banach ring, because it is also desirable to be invariant by the natural power action of $\mathbb{R}_+^*$ on [[proxi-Banach ring|Banach proxi-norms]], that are multiplicative maps that fulfill the weak triangular inequality
 $$
-|a+b|\leq C\cdot \max(|a|,|b|).
+|a+b|\leq \max(|2|,|1|)\cdot \max(|a|,|b|).
 $$
 
 A possible research direction is to look at Gromov's ideas about metric homotopy theory: one may try to define a category of geometric objects whose homotopy groups are naturally equipped with Banach pseudo-norms. If one looks for non-linear versions of Banach spaces, it is natural to look at metric spaces with Lipschitz maps between them (because their sets of maps are equipped with a natural "norm"). So one may try to develop global analytic homotopy theory (a way to look for interesting cohomological invariants for global analytic spaces, such as [[topological cyclic homology]] or [[topological derived de Rham cohomology]]) by developing the stable homotopy theory of metric spaces.
