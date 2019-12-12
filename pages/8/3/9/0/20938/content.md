@@ -1,6 +1,6 @@
 ## Idea
 
-How do you type check [[linear logic|MILL]], but with projections rather than matching to eliminate $\otimes$? This page gives algorithmic rules that are intended to do that. [Mike Shulman](#Shulman) showed a not-especially-algorithmic type system based on [[PROPs]], but it doesn't handle linear implication.
+How do you type check [[linear logic|MILL]], but with projections rather than matching to eliminate $\otimes$? This page gives algorithmic rules that are intended to do that. [Mike Shulman](#Shulman) showed a not-especially-algorithmic type system based on [[PROPs]], but it doesn't handle [[linear implication]].
 
 ## Judgment form, Notations
 
