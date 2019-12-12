@@ -32,7 +32,7 @@ Existing literature knows three sectors of this problem, which overlap but do no
 
 1. [[path integral quantization]]. This may be made precise sense of in [[perturbation theory]] where it involves lots of interesting structure such as [[analytic torsion]] ([Witten 89](Chern-Simons#theory#Witten89)). However, being just [[perturbation theory]] it is just an approximation to the full answer.
 
-1. [[geometric quantization]] yields the full (non-pertutbative quantization) in [[codimension]] 1, but does not say anything about codimension 0.
+1. [[geometric quantization]] yields the full (non-perturbative quantization) in [[codimension]] 1, but does not say anything about codimension 0.
 
 1. The [[Reshetikhin-Turaev construction]] produces a [[3d TQFT]] from algebraic data that is naturally associated with the prequantum data defining Chern-Simons theory (such as the category of [[positive energy representations]] of the [[loop group]] of the given [[gauge group]] $G$, or else of a [[quantum group]] [Sawin 06](#Sawin06)), but it is not a priori clear that this 3d quantum field theory is genuinely the result of quantizing the Chern-Simons [[action functional]].
 
