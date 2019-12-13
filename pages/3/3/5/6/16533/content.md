@@ -58,6 +58,12 @@ Realization of [[JT-gravity]] as [[Kaluza-Klein reduction]] of [[D=6 supergravit
 
 * Iosif Bena, Pierre Heidmann, David Turton, _$AdS_2$ Holography: Mind the Cap_, JHEP 1812 (2018) 028 ([arXiv:1806.02834](https://arxiv.org/abs/1806.02834))
 
+### Via $Ads_3/CFT_2$
+
+Via [[AdS3-CFT2]]:
+
+* E. Gava, A.B. Hammou, J.F. Morales, K.S.Narain, _AdS/CFT correspondence and D1/D5 systems in theories with 16 supercharges_, JHEP 0103:035, 2001 ([arXiv:hep-th/0102043](https://arxiv.org/abs/hep-th/0102043))
+
 
 
 [[!redirects D1-D5 brane bound states]]
