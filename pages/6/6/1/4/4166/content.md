@@ -131,7 +131,7 @@ Notice that this is a direct generalization of the corresponding formula
 for the algebraic K-theory of a ring $R$,
 
 $$
-  K(R) = \Omega B (\coprod_{n \geq 0} B Gl(R))
+  K(R) = \Omega B (\coprod_{n \geq 0} B Gl_n(R))
   \,.
 $$
 
