@@ -128,6 +128,11 @@ On [[black brane|black]]$\;$[[D6-D8-brane bound states]] in [[massive type IIA s
 
 * Kostas Filippas, _Non-integrability on $AdS_3$ supergravity_ ([arxiv:1910.12981](https://arxiv.org/abs/1910.12981))
 
+On [[AdS3-CFT2]] for [[D1/D5 brane bound states]]:
+
+* E. Gava, A.B. Hammou, J.F. Morales, K.S.Narain, _AdS/CFT correspondence and D1/D5 systems in theories with 16 supercharges_, JHEP 0103:035, 2001 ([arXiv:hep-th/0102043](https://arxiv.org/abs/hep-th/0102043))
+
+
 On [[black brane|black]]$\;$[[D4-D8-brane bound states]] in [[massive type IIA string theory]], with [[defect QFT|defect]] [[D2-D6-brane bound states]] inside them realizing [[AdS3-CFT2]] "inside" [[AdS7-CFT6]]:
 
 * {#DibitettoPetri18} [[Giuseppe Dibitetto]], [[Nicolò Petri]], _Surface defects in the D4 − D8 brane system_, JHEP 01 (2019) 193 ([arxiv:1807.07768](https://arxiv.org/abs/1807.07768))
@@ -138,3 +143,4 @@ On [[black brane|black]]$\;$[[D4-D8-brane bound states]] in [[massive type IIA s
 [[!redirects CS-WZW correspondence]]
 
 [[!redirects AdS3-CFT2]]
+[[!redirects AdS3/CFT2]]
