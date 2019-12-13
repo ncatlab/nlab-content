@@ -1,6 +1,7 @@
 ## Idea
 
-How do you type check [[linear logic|MILL]], but with projections rather than matching to eliminate $\otimes$? This page gives algorithmic rules that are intended to do that. [Mike Shulman](#Shulman) showed a not-especially-algorithmic type system based on [[PROPs]], but it doesn't handle [[linear implication]].
+How do you type check [[linear logic|MILL]], but with projections rather than matching to eliminate $\otimes$?  [Mike Shulman](#Shulman) gave one such system, but its type-checking algorithm requires two passes (if this algorithm were incorporated into the rules, there would be an extra intermediate judgment with "activeness" annotations on the types), and doesn't handle additional type constructors such as [[linear implication]].  This page is intended to give algorithmic rules for a system with tensor projections and linear implication.
+
 
 ## Judgment form, Notations
 
