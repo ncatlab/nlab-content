@@ -9,7 +9,7 @@ $U \subseteq \Gamma \vdash t\,:\,T\,\boxtimes\,U' \subseteq \Gamma'$
 
 $U$, $\Gamma$, and $t$ are inputs; $T$, $U'$, and $\Gamma'$ are outputs.
 
-The observation in [Allais](#Allais) motivating the use of "$\boxtimes$" was that a term is implicitly tensored with the identity on all the unused resources.
+The observation mentioned in [Allais](#Allais) motivating the use of "$\boxtimes$" was that a term generally doesn't use all the resources it's given, so the rest are passed back out, tensored with the result type.
 
 $\Gamma$ and $\Gamma'$ are [[contexts]] with some natural number of semicolon "scope" delimiters. $U$ and $U'$ are "usage" sets, which are subsets of the (domains of the) respective contexts. In [Allais](#Allais), the usage sets are represented as bit vectors (which is a fine way to implement them). Unlike [Allais](#Allais), the usage before and after are for *different* contexts, because type checking a term generally adds projections to the context as potentially-consumed resources.
 
