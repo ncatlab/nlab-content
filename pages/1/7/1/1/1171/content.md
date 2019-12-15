@@ -119,9 +119,9 @@ A __cluster space__ is a [[set]] $S$ together with a [[relation]] $\rightsquigar
 3. Directed: If $F\cap G \rightsquigarrow x$ then $F \rightsquigarrow x$ or $G \rightsquigarrow x$.
 4. Nontrivial: If $F \rightsquigarrow x$, then $F$ is proper.
 
-Note that the logic of isotony and directedness for clustering is the reverse of that for convergence.  Nontriviality implies the nullary version of directedness (and, in [[classical logic]], is implied by it).  Alternatively, we can take $\rightsquigarrow$ as a relation only on the proper filters; then nontriviality may be omitted from the axioms.
+Note that the logic of isotony and directedness for clustering is the reverse of that for convergence.  Nontriviality implies the nullary version of directedness (and, in [[classical logic]], is implied by it).  Alternatively, we can take $\rightsquigarrow$ as a relation only on the proper filters; then nontriviality may be omitted from the axioms (as was done in the original reference).
 
-Every convergence space is a cluster space (using the definition of $\rightsquigarrow$ from $\to$ above) and many of the notions of convergence generalize to cluster spaces, including continuous functions, open/closed sets, neighborhood filters, pre-closure, compactness, etc.
+Every convergence space is a cluster space (using the definition of $\rightsquigarrow$ from $\to$ above, although the proof of directedness is not constructive) and many of the notions of convergence generalize to cluster spaces, including continuous functions, open/closed sets, neighborhood filters, pre-closure, compactness, etc.
 
 
 ## References
