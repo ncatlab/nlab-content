@@ -26,7 +26,7 @@ So the notion can be understood as modelling the notion of an [[sSet]]-[[enriche
 Indeed, Segal categories may be considered with enrichment not just over [[sSet]], but over other suitable [[model categories]]. In particular, an iterated enrichment over itself gives rise to the notion of _[[Segal n-category]]_ which is a model for _[[(∞,n)-categories]]_.
 
 Since the major difference between ([[small category|small]])
-$\mathcal{V}$-[[enriched categories]] and $\mathcal{V}$-[[internal categories]] is that in the first case the [[objects]] (as opposed to all the [[hom objects]]) form an ordinary [[set]], while in the second these form an object of $\mathcal{V}$, too, accordingly a the definition of _Segal category_ is like that of _([[complete Segal space|complete]]) [[Segal space]]_, only that the simplicial set of objects is required to be an ordinary set (a [[discrete object|discrete]] simplicial set).
+$\mathcal{V}$-[[enriched categories]] and $\mathcal{V}$-[[internal categories]] is that in the first case the [[objects]] (as opposed to all the [[hom objects]]) form an ordinary [[set]], while in the second these form an object of $\mathcal{V}$, too, accordingly the definition of _Segal category_ is like that of _([[complete Segal space|complete]]) [[Segal space]]_, only that the simplicial set of objects is required to be an ordinary set (a [[discrete object|discrete]] simplicial set).
 
 ## Definition
 
