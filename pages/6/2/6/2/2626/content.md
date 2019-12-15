@@ -24,7 +24,7 @@ The theory of knots is very visual. It can provide a link between the concrete a
 
 ## Definition
 
-A __knot__ is a [[smooth map|smooth]] (or PL) [[embedding]] of the [[circle]] $S^1$ into $\mathbb{R}^3$, or equivalently into the $3$-[[sphere]] $S^3$ (one can also consider knots in other [[3-manifold]]s).
+A __knot__ is a [[smooth map|smooth]] (or piecewise-linear) [[embedding]] of the [[circle]] $S^1$ into $\mathbb{R}^3$, or equivalently into the $3$-[[sphere]] $S^3$ (one can also consider knots in other [[3-manifold]]s).
 
 Sometimes, higher dimensional knots are also considered. $n$-dimensional knot (or simply an $n$-knot) is a smooth embedding of $n$-dimensional closed manifold (usually an $n$-sphere) into the $(n+2)$-dimensional sphere $\mathbb{S}^n$.  
 
