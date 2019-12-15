@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context
+### Context
 #### Analysis
 +-- {: .hide}
 [[!include analysis - contents]]
@@ -107,7 +107,8 @@ The only hard part is proving that, if $f(\mathcal{F}) \to^* f(x)$ whenever $\ma
 But the theorem is in fact perfectly [[constructive mathematics|constructive]]: the filter $\mathcal{N}_x$ of neighbourhoods of $x$ converges to $x$, so $f(\mathcal{N}_x) \to^* f(x)$; all that really matters is that $f(\mathcal{N}_x) \rightsquigarrow f(x)$, so that for each $V \ni^\circ f(x)$ and $U \ni^\circ x$, for some $W$ with $x \in^\circ W \subseteq U$, $f(W) \subseteq V$, so $W \subseteq f^*(V)$, making $f^*(V)$ a neighbourhood of $x$.
 =--
 
-## Cluster Spaces
+
+## Cluster spaces
 
 The notion of clustering generalizes convergence.
 
@@ -116,8 +117,12 @@ A __cluster space__ is a [[set]] $S$ together with a [[relation]] $\rightsquigar
 1. Centred: The [[principal ultrafilter]] $F_x\rightsquigarrow x$;
 2. Isotone: If $F \supseteq G$ and $F \rightsquigarrow x$, then $G \rightsquigarrow x$;
 3. Directed: If $F\cap G \rightsquigarrow x$ then $F \rightsquigarrow x$ or $G \rightsquigarrow x$.
+4. Nontriviality: If $F \rightsquigarrow x$, then $F$ is proper.
 
-Every convergence space is a cluster space and many of the notions of convergence generalize to cluster spaces, including continuous functions, open/closed sets, neighborhood filter, pre-closure, compactness, etc.
+Note that the logic of isotony and directedness are reversed for clustering from those of convergence.  Note that nontriviality implies the nullary version of directedness (and, in [[classical logic]], is implied by it).  Alternatively, we can take $\rightsquigarrow$ as a relation only on the proper filters; then nontriviality may be omitted from the axioms.
+
+Every convergence space is a cluster space (using the definition of $\rightsquigarrow$ from $\to$ above) and many of the notions of convergence generalize to cluster spaces, including continuous functions, open/closed sets, neighborhood filters, pre-closure, compactness, etc.
+
 
 ## References
 
@@ -125,6 +130,7 @@ Every convergence space is a cluster space and many of the notions of convergenc
   {#LC}
 
 * Joseph Muscat (2015) An axiomatization of filter clustering. Conference: 2015 12th International Conference on Fuzzy Systems and Knowledge Discovery (FSKD)
+
 
 [[!redirects convergence space]]
 [[!redirects convergence spaces]]
