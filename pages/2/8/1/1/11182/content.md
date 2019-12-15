@@ -349,7 +349,11 @@ It is unclear whether there is a notion of exterior differential which is signif
 
 ## Nonsymmetrized version
 
-More general than cojet forms (but analytic), we have the _coflare differential forms_, in which there are any number of differentials (or higher differentials) $\mathrm{d}_1x$, $\mathrm{d}_2x$, $\mathrm{d}_{2,1}x = \mathrm{d}_2\mathrm{d}_1x$, etc.  Both cojet forms and [[exterior differential forms]] are included in the calculus of coflare forms.
+More general than cojet forms (but analytic), we have the _coflare differential forms_, in which there are any number of differentials (or higher differentials) $\mathrm{d}_{0}x$, $\mathrm{d}_{1}x$, $\mathrm{d}_{1,0}x = \mathrm{d}_{1}\mathrm{d}_{0}x$, etc.  Whereas jets are based on the [[tangent bundle]] $T X$, flares (of rank, say, $3$) are based on the iterated tangent bundle $T (T (T X))$.  Both cojet forms and [[exterior differential forms]] are included in the calculus of coflare forms, as are nonlinear versions of exterior forms such as [[absolute differential forms]].  The differentials in cojet forms always have the subscript $0$ (which we may take to be the default), while the exterior form $\mathrm{d}x \wedge \mathrm{d}y$ is really $\mathrm{d}_{0}x \mathrm{d}_{1}y - \mathrm{d}_{1}x \mathrm{d}_{0}y$ (possibly divided by $2!$, depending on your conventions).
+
+A more abstract version of coflare forms (including both cogerm forms and the coflare forms of the previous paragraph) may be based on germs of maps with domain $\mathbb{R}^p$ instead of only curves (with domain $\mathbb{R}$).  We number the coordinates on $\mathbb{R}^p$ from $0$ to $p - 1$; if $\phi$ is a partial function from $U$ to $\mathbb{R}$ and $U$ is the subset of $\dom \phi$ on which $\phi$ is (say) $3$-times differentiable, then we write $\mathrm{D}_{i,j,k}\phi\colon U \to \mathbb{R}$ for the third partial derivative of $\phi$ with respect to variable $i$, variable $j$, and variable $k$ (in any order).  If $c$ is a partial function from $\mathbb{R}^p$ to $X$ and $f$ is a partial function from $X$ to $\mathbb{R}$, then we have $\langle \mathrm{d}_{i,j,k}f | c \rangle \coloneqq \mathrm{D}_{i,j,k}(f \circ c)(0)$, etc.
+
+Even more abstractly, there is no reason to limit the domain of $c$ to $\mathbb{R}^p$, although it\'s not clear if the forms on more general classes of germs correspond to anything of independent interest.
 
 
 ## References
