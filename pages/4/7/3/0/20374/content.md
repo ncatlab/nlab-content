@@ -1,3 +1,4 @@
+[[!redirects semi-holomorphic 4d Chern-Simons theory]]
 
 
 +-- {: .rightHandSide}
@@ -16,11 +17,11 @@
 
 ## Idea
 
-In [[mathematical physics|mathematical]]/[[theoretical physics]], _semi-holomorphic 4d Chern-Simons theory_ is a variant of ordinary [[3d Chern-Simons theory]] where, roughly, one of the three [[coordinate functions]] is promoted from an ordinary real-valued coordinate to a [[holomorphic function|holomorphic coordinate]]. 
+In [[mathematical physics|mathematical]]/[[theoretical physics]], _semi-topologicsl_ or _semi-holomorphic 4d Chern-Simons theory_ is a variant of ordinary [[3d Chern-Simons theory]] where, roughly, one of the three [[coordinate functions]] is promoted from an ordinary real-valued coordinate to a [[holomorphic function|holomorphic coordinate]]. 
 
-Hence semi-holomorphic 4d Chern-Simons theory is a [[field theory]] defined on [[spacetimes]] of the form $\Sigma^2 \times C$ where $\Sigma^2$ is a real [[smooth manifold]], while $C$ is a [[complex curve]], and whose [[Lagrangian density]] is schematically the ordinary [[Chern-Simons form]], but with one of the wedge factors promoted from $d x^i$ to $d z$.
+Hence semi-topological/holomorphic 4d Chern-Simons theory is a [[field theory]] defined on [[spacetimes]] of the form $\Sigma^2 \times C$ where $\Sigma^2$ is a real [[smooth manifold]], while $C$ is a [[complex curve]], and whose [[Lagrangian density]] is schematically the ordinary [[Chern-Simons form]], but with one of the wedge factors promoted from $d x^i$ to $d z$.
 
-Accordingly, this [[field theory]] is a [[topological field theory]] (only) with respect to $\Sigma^2$, while it behaves like a [[conformal field theory]] with respect to $C$, whence "semi-holomorphic" Chern-Simons theory: If one instead promotes all three coordinates of ordinary 3d Chern-Simons theory to holomorphic coordinates, one obtains full 6d [[holomorphic Chern-Simons theory]].
+Accordingly, this [[field theory]] is a [[topological field theory]] (only) with respect to $\Sigma^2$, while it behaves like a [[conformal field theory]] with respect to $C$, whence "semi-topological/holomorphic" Chern-Simons theory: If one instead promotes all three coordinates of ordinary 3d Chern-Simons theory to holomorphic coordinates, one obtains full 6d [[holomorphic Chern-Simons theory]].
 
 But beware that in the literature this is often referred to just as _[[4d Chern-Simons theory]]_.
 
