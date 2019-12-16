@@ -97,7 +97,7 @@ Comprehensive review is in:
 
 * [[Eran Palti]], _The Swampland: Introduction and Review_, lecture notes ([arXiv:1903.06239](https://arxiv.org/abs/1903.06239))
 
-Further discussion includes
+Further discussion:
 
 * {#OoguriVafa06} [[Hirosi Ooguri]], [[Cumrun Vafa]], _On the Geometry of the String Landscape and the Swampland_, Nucl.Phys.B766:21-33, 2007 ([arXiv:hep-th/0605264](https://arxiv.org/abs/hep-th/0605264))
 
@@ -106,6 +106,9 @@ Further discussion includes
 * [[Ben Heidenreich]], [[Matthew Reece]], [[Tom Rudelius]], _Emergence and the Swampland Conjectures_ ([arXiv:1802.08698](https://arxiv.org/abs/1802.08698))
 
 * Jacob McNamara, [[Cumrun Vafa]], _Cobordism Classes and the Swampland_ ([arXiv:1909.10355](https://arxiv.org/abs/1909.10355))
+
+* Hee-Cheol Kim, Houri-Christina Tarazi, [[Cumrun Vafa]], _Four Dimensional $\mathcal{N}=4$ SYM and the Swampland_ ([arXiv:1912.06144](https://arxiv.org/abs/1912.06144))
+
 
 See also 
 
