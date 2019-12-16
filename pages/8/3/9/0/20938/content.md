@@ -1,6 +1,8 @@
 ## Idea
 
-How do you type check [[linear logic|MILL]], but with projections rather than matching to eliminate $\otimes$?  [Mike Shulman](#Shulman) gave one such system, but its type-checking algorithm requires two passes (if this algorithm were incorporated into the rules, there would be an extra intermediate judgment with "activeness" annotations on the types), and doesn't handle additional type constructors such as [[linear implication]].  This page is intended to give algorithmic rules for a system with tensor projections and linear implication.
+How do you type check [[linear logic|MILL]], but with projections rather than matching to eliminate $\otimes$?  [Mike Shulman](#Shulman) gave one such system, but its type-checking algorithm requires two passes (if this algorithm were incorporated into the rules, there would be an extra intermediate judgment with "activeness" annotations on the types), and doesn't handle additional type constructors such as [[linear implication]].
+
+This page is intended to give algorithmic rules for a system with tensor projections and linear implication, but at present it is incomplete and its interpretation into monoidal categories is unclear.
 
 
 ## Judgment form, Notations
