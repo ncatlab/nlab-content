@@ -100,6 +100,8 @@ Note, since they are naturally equivalent to $Hom_\mathcal{C}(-,X)$ which preser
 
 * {#Law91}[[F. William Lawvere]], _Some Thoughts on the Future of Category Theory_ , pp.1-13 in LNM **1488** Springer Heidelberg (1991). (pp.3-6)
 
+* {#Law00}[[F. William Lawvere]], _Comments on the development of topos theory_ , pp.715-734 in Jean-Pierre Pier (ed.), _Development of Mathmatics 1950-2000_ , Birkhäuser Basel 1995. Reprinted with author comment as TAC Reprint no.24 (2014). ([abstract](http://www.tac.mta.ca/tac/reprints/articles/24/tr24abs.html); p.727)
+
 * {#Law08}[[F. William Lawvere]], _Core Varieties, Extensivity, and Rig Geometry_ , TAC **20** no.14 (2008) pp. 497&#8211;503. ([pdf](http://www.tac.mta.ca/tac/volumes/20/14/20-14.pdf))
 
 * {#MM19}[[Francisco Marmolejo|F. Marmolejo]], [[Matías Menni|M. Menni]], *Level $\epsilon$* , arXiv:1909.12757 (2019). ([abstract](https://arxiv.org/abs/1909.12757))
