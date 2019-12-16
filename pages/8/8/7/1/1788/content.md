@@ -1,5 +1,31 @@
 
 
+Super-exceptional geometry origin of heterotic M-theory and super-exceptional embedding construction of M5
+
+to appear in
+
+Journal of High Energy Physics
+
+arxiv:1908.00042
+
+
+Background reviewed in
+
+
+"The rational higher structure of M-theory"
+
+Proceedings of the LMS-EPSRC Durham Symposium:
+
+Higher Structures in M-Theory, August 2018
+
+Fortschritte der Physik, 2019
+
+arXiv:1903.02834
+
+doi:10.1002/prop.201910017
+
+
+
 super L-infinity algebras inside super dgc algebras
 
 super rational homotopy theory
