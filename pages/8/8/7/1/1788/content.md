@@ -1,3 +1,68 @@
+
+
+super L-infinity algebras inside super dgc algebras
+
+super rational homotopy theory
+
+example: EM-spaces and spheres
+
+example super-spacetime 
+
+as a supermanifold
+
+M2-brane cocycle
+
+ADE-action
+
+super-embedding construction
+
+open problem: M5
+
+M5-brane cochain not a cocycle by itself
+
+But unifies to S^4 cocycle
+
+form homotopy pullback of universal Hopf fibration
+
+gives m2brane super Lie 3-algebra with M5 7-cocycle.
+
+ask for super-1-manifold that factors this
+
+gives super-exceptional spacetime (D'Auria-Fre's "hidden supergroup")
+
+what is the black M5 spacetime?
+
+recall 1/2 M5 super-spacetime
+
+heterotic/type I' N=(1,0)
+
+super-exceptional embedding construction of M5
+
+with PS Lagrangian for worldvolume flux field
+
+$F = iota_v H - L_v B$
+
+$\tilde F = H - F \wedge \theta$
+
+$L = -\tfrac{1}{2} F \wedge \tilde F$
+
+Conclusion:
+
+Single M-brane dynamics all encoded in super rational 4-Cohomotopy cocycle.
+
+How much more?
+
+Observe that by 11d Sugra, this cocycle underlies the C-field snd its dual.
+
+Hence Hypothesis H:
+
+C-field is charge-quantized in J-twisted Cohomotopy.
+
+
+
+
+
+
 $\boxtimes$
 
 
