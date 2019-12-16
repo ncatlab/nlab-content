@@ -114,14 +114,16 @@ The notion of clustering generalizes convergence.
 
 A __cluster space__ is a [[set]] $S$ together with a [[relation]] $\rightsquigarrow$ from $\mathcal{F}S$ to $S$; if $F \rightsquigarrow x$, we say that $F$ __clusters__ at $x$ or that $x$ is a __cluster point__ of $F$.  The axioms are as follows:
 
-1. Centred: The [[principal ultrafilter]] $F_x\rightsquigarrow x$;
+1. Centred: The [[principal ultrafilter]] $F_x \rightsquigarrow x$;
 2. Isotone: If $F \supseteq G$ and $F \rightsquigarrow x$, then $G \rightsquigarrow x$;
-3. Directed: If $F\cap G \rightsquigarrow x$ then $F \rightsquigarrow x$ or $G \rightsquigarrow x$.
+3. Directed: If $F \cap G \rightsquigarrow x$ then $F \rightsquigarrow x$ or $G \rightsquigarrow x$.
 4. Nontrivial: If $F \rightsquigarrow x$, then $F$ is proper.
 
-Note that the logic of isotony and directedness for clustering is the reverse of that for convergence.  Nontriviality implies the nullary version of directedness (and, in [[classical logic]], is implied by it).  Alternatively, we can take $\rightsquigarrow$ as a relation only on the proper filters; then nontriviality may be omitted from the axioms (as was done in the original reference).
+Note that the logic of isotony and directedness for clustering is the reverse of that for convergence.  Nontriviality is the nullary version of directedness (equivalent to the statement that the improper filter never clusters at any point), which we explicitly need this time.  Alternatively, we can take $\rightsquigarrow$ as a relation only on the *proper* filters; then nontriviality may be omitted from the axioms (as was done in the original reference, [Muscat 2015](#Muscat2015)).
 
-Every convergence space is a cluster space (using the definition of $\rightsquigarrow$ from $\to$ above, although the proof of directedness is not constructive) and many of the notions of convergence generalize to cluster spaces, including continuous functions, open/closed sets, neighborhood filters, pre-closure, compactness, etc.
+Every convergence space is a cluster space (using the usual definition of $\rightsquigarrow$ from $\to$), and many of the notions of convergence generalize to cluster spaces, including continuous functions, open/closed sets, neighborhood filters, pre-closure, compactness, etc.
+
+This definition of a cluster space does not seem to work in [[constructive mathematics]].  In particular, Muscat\'s proof that every convergence space satisfies the directedness axiom relies on [[excluded middle]], and the [[lesser limited principle of omniscience]] follows if it holds in the [[real line]], for example.  It\'s not clear yet what if any alternative will work better.
 
 
 ## References
@@ -129,7 +131,8 @@ Every convergence space is a cluster space (using the definition of $\rightsquig
 * Eva Lowen-Colebunders (1989). Function Classes of Cauchy Continuous Maps. Dekker, New York, 1989.
   {#LC}
 
-* Joseph Muscat (2015) An axiomatization of filter clustering. Conference: 2015 12th International Conference on Fuzzy Systems and Knowledge Discovery (FSKD)
+* Joseph Muscat (2015). An axiomatization of filter clustering. Conference: 2015 12th International Conference on Fuzzy Systems and Knowledge Discovery (FSKD)
+  {#Muscat2015}
 
 
 [[!redirects convergence space]]
