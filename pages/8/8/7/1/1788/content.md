@@ -1,6 +1,6 @@
 
 
-Super-exceptional geometry origin of heterotic M-theory and super-exceptional embedding construction of M5
+**Super-exceptional embedding construction of M5
 
 to appear in
 
@@ -8,8 +8,12 @@ Journal of High Energy Physics
 
 arxiv:1908.00042
 
+**General Open Problem** What is M-theory?
 
-Background reviewed in
+(Not so) New idea: Re-analyse local supersymmetry from the point of view of homotopy theory ("higher structures")
+
+
+**Background** reviewed in
 
 
 "The rational higher structure of M-theory"
@@ -23,6 +27,11 @@ Fortschritte der Physik, 2019
 arXiv:1903.02834
 
 doi:10.1002/prop.201910017
+
+
+Ask Google for:
+
+"Introduction to higher Supergeometry"
 
 
 
@@ -42,19 +51,50 @@ ADE-action
 
 super-embedding construction
 
-open problem: M5
+as equivariant cocycle
+
+"Real ADE-equivariant (co)homotopy and Super M-branes"
+
+Communications in Mathematical Physics 371: 425. (2019)
+
+arXiv:1805.05987
+
+
+**open problem: 
+super-embedding construction of M5**
 
 M5-brane cochain not a cocycle by itself
 
-But unifies to S^4 cocycle
+But unifies to $S^4$ cocycle
 
-form homotopy pullback of universal Hopf fibration
+"Rational sphere valued supercocycles in M-theory and type IIA string theory"
 
-gives m2brane super Lie 3-algebra with M5 7-cocycle.
+Journal of Geometry and Physics,
 
-ask for super-1-manifold that factors this
+Volume 114, Pages 91-108
 
-gives super-exceptional spacetime (D'Auria-Fre's "hidden supergroup")
+April 2017
+
+arXiv:1606.03206
+
+
+form homotopy pullback of quaternionic Hopf fibration
+
+gives m2brane super Lie 3-algebra with M5 7-cocycle
+
+"The WZW term of the M5-brane and differential cohomotopy"
+
+J. Math. Phys. 56, 102301 (2015)
+
+arXiv:1506.07557
+
+
+now ask for super-1-manifold that factors this
+
+gives 11d super-exceptional spacetime 
+(D'Auria-Fre's "hidden supergroup")
+
+Riccardo D'Auria, Pietro Fré, "Geometric Supergravity in D=11 and its hidden supergroup", Nuclear Physics B201 (1982) 101-140
 
 what is the black M5 spacetime?
 
@@ -66,11 +106,13 @@ super-exceptional embedding construction of M5
 
 with PS Lagrangian for worldvolume flux field
 
-$F = iota_v H - L_v B$
+$F = \iota_v H - L_v B$
 
 $\tilde F = H - F \wedge \theta$
 
 $L = -\tfrac{1}{2} F \wedge \tilde F$
+
+Malcolm Perry, John Schwarz, "Interacting Chiral Gauge Fields in Six Dimensions and Born-Infeld Theory", Nucl. Phys. B489 (1997) 47-64 (arXiv:hep-th/9611065)
 
 Conclusion:
 
@@ -78,11 +120,13 @@ Single M-brane dynamics all encoded in super rational 4-Cohomotopy cocycle.
 
 How much more?
 
-Observe that by 11d Sugra, this cocycle underlies the C-field snd its dual.
+Observe that by 11d Sugra, this cocycle underlies the C-field and its dual.
 
 Hence Hypothesis H:
 
 C-field is charge-quantized in J-twisted Cohomotopy.
+
+Ask Google for "Hypothesis H in M-theory"
 
 
 
