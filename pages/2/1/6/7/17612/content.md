@@ -15,6 +15,8 @@ and specifically concerning [[black holes in string theory]]:
 Discussion of [[BTZ black hole|BTZ]] [[black hole entropy]] and more generally of [[holographic entanglement entropy]] in [[3d quantum gravity]]/[[AdS3/CFT2]] via [[Wilson line observables]] in [[Chern-Simons theory]]:
 
 
+* Mert Besken, Ashwin Hegde, Eliot Hijano, [[Per Kraus]], _Holographic conformal blocks from interacting Wilson lines_, JHEP 08 (2016) 099 ([arXiv:1603.07317](https://arxiv.org/abs/1603.07317))
+
 * [[Eric D'Hoker]], [[Per Kraus]], _Gravitational Wilson lines in $AdS_3$_ ([arXiv:1912.02750](https://arxiv.org/abs/1912.02750))
 
 
