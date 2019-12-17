@@ -39,6 +39,10 @@ A general argument that in sectors of the [[AdS-CFT correspondence]] the [[confo
 
 ## Related concepts
 
+* [[3d quantum gravity]]
+
+* [[BTZ black hole]]
+
 * [[quantization of Chern-Simons theory]]/[[quantization of loop groups]]
 
 * [[super 1-brane in 3d]]
@@ -53,7 +57,7 @@ The original article on the CS/WZW correspondence is
 
 More details were developed in 
 
-* D.C.Cabra, G.L.Rossini, _Explicit connection between conformal field theory and 2+1 Chern-Simons theory_, Mod.Phys.Lett. A12 (1997) 1687-1697 ([arXiv:hep-th/9506054](https://arxiv.org/abs/hep-th/9506054))
+* D. C. Cabra, G. L. Rossini, _Explicit connection between conformal field theory and 2+1 Chern-Simons theory_, Mod. Phys. Lett. A12 (1997) 1687-1697 ([arXiv:hep-th/9506054](https://arxiv.org/abs/hep-th/9506054))
 
 
 Reviews include
@@ -70,7 +74,7 @@ The relation of this $CS_3/WZW_2$-duality to the [[AdS-CFT correspondence]] is d
 
 * [[Per Kraus]], [[Finn Larsen]], _Partition functions and elliptic genera from supergravity_, JHEP 0701:002, 2007 ([arXiv:hep-th/0607138](https://arxiv.org/abs/hep-th/0607138))
 
-* [[Per Kraus]], _Lectures on black holes and the $AdS_3/CFT_2$ correspondence_,  Lect. Notes Phys.755:193-247, 2008 ([arXiv:hep-th/0609074](https://arxiv.org/abs/hep-th/0609074))
+* [[Per Kraus]], _Lectures on black holes and the $AdS_3/CFT_2$ correspondence_,  Lect. Notes Phys. 755: 193-247, 2008 ([arXiv:hep-th/0609074](https://arxiv.org/abs/hep-th/0609074))
 
 * Ville Keranen, _Chern-Simons interactions in AdS3 and the current conformal block_ ([arXiv:1403.6881](https://arxiv.org/abs/1403.6881))
 
