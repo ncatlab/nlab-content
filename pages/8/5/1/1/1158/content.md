@@ -42,7 +42,7 @@ $$
 
 Deligne cohomology $H^{n+1}_{conn}(X, \mathbb{Z})$ in degree $(n+1)$ is the [[abelian sheaf cohomology]] with [[coefficients]] in this [[chain complex]] of [[sheaves of abelian groups]] ("[[hypercohomology]]"). 
 
-This was introduced in ([Deligne 71](#Deligne71)) in the context of [[analytic geometry]] (hence using [[holomorphic differential forms]]) as a [[Hodge filtration|Hodge-filtered]] version of [[singular cohomology]], designed to be a target for the [[Beilinson regulator]] from [[motivic cohomology]]. But the form of the definition applies more generally, in particular also in smooth [[differential geometry]], a fact amplified and popularized in ([Brylinski 93](#Brylinski93)).
+This was introduced in ([Deligne 71, Section 2.2](#Deligne71)) in the context of [[analytic geometry]] (hence using [[holomorphic differential forms]]) as a [[Hodge filtration|Hodge-filtered]] version of [[singular cohomology]], designed to be a target for the [[Beilinson regulator]] from [[motivic cohomology]]. But the form of the definition applies more generally, in particular also in smooth [[differential geometry]], a fact amplified and popularized in ([Brylinski 93](#Brylinski93)).
 
 In smooth [[differential geometry]] the typical minor variant has the sheaf $\underline{U}(1) = C^\infty(-,U(1))$ of [[circle group]]-valued [[smooth functions]] in degree $n$:
 
@@ -2111,7 +2111,7 @@ As described in some detail at [[electromagnetic field]] in abelian higher [[gau
 
 Deligne cohomology was introduced in [[complex analytic geometry]] (by a [[chain complex]] of [[holomorphic differential forms]]) in 
 
-* {#Deligne71} [[Pierre Deligne]], _Th&#233;orie de Hodge II_ , IHES Pub. Math. (1971), no. 40, 5&#8211;57 ([pdf](http://www.math.jussieu.fr/~ai/d/Theory%20of%20Hodge%202.pdf))
+* {#Deligne71} [[Pierre Deligne]], Section 2.2 of: _Th&#233;orie de Hodge II_, IHES Pub. Math. (1971), no. 40, 5&#8211;57 ([numdam:PMIHES_1971__40__5_0](http://www.numdam.org/item/?id=PMIHES_1971__40__5_0))
 
 with applications to [[Hodge theory]] and [[intermediate Jacobians]]. The same definition appears in 
 
