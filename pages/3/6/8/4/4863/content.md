@@ -116,13 +116,13 @@ In [[physics]] [[model building]] the problem of constructing such a more genera
 ### Formalization
  {#Formalization}
 
-KK-compactification along trivial fibrations is closely related to forming [[mapping stacks]]: if $\mathbf{Fields}_n$ is the [[moduli stack]] of [[field (physics)|fields]]] for an $n$-dimensional field theory (see at _[[prequantum field theory]]_ for more on this), then for $\Sigma_{k}$ a  $k$-dimensional manifold with $k \lt n$ the [[mapping stack]] 
+KK-compactification along trivial fibrations is closely related to forming [[mapping stacks]]: if $\mathbf{Fields}_n$ is the [[moduli stack]] of [[field (physics)|fields]] for an $n$-dimensional field theory (see at _[[prequantum field theory]]_ for more on this), then for $\Sigma_{k}$ a  $k$-dimensional manifold with $k \lt n$ the [[mapping stack]] 
 
 $$
   \mathbf{Fields}_{n-k} \coloneqq [\Sigma_k, \mathbf{Fields}]
 $$
 
-may be thought of as the [[moduli stack]] of fields for an $(n-k)$-dimensional field theory. By the definition [[universal property]] of the mapping stack, this lower dimensional field theory is then such that a field configiuration over an $(n-k)$-dimensional [[spacetime]] $X_{n-k}$
+may be thought of as the [[moduli stack]] of fields for an $(n-k)$-dimensional field theory. By the definition [[universal property]] of the mapping stack, this lower dimensional field theory is then such that a field configuration over an $(n-k)$-dimensional [[spacetime]] $X_{n-k}$
 
 $$
   \phi \colon X_{n-k} \longrightarrow \mathbf{Fields}_{n-k}
@@ -136,7 +136,7 @@ $$
 
 on the [[product]] space $X_{n-k}\times \Sigma_k$ (the trivial $\Sigma_{k}$-[[fiber bundle]] over $X_{n-k}$).
 
-Traditionally KK-reduction is understood as retaining only parts of $\mathbf{Fields}_{n-k}$ (the "0-modes" of fields on $\Sigma_k$ only) but of course one may consider arbitrary corrections to this picture and eventially retain the full information.
+Traditionally KK-reduction is understood as retaining only parts of $\mathbf{Fields}_{n-k}$ (the "0-modes" of fields on $\Sigma_k$ only) but of course one may consider arbitrary corrections to this picture and eventually retain the full information.
 
 One example of KK-reduction where the full mapping stack appears is the reduction of [[topological twist|topologically twisted]] [[N=4 D=4 super Yang-Mills theory]] on a complex curve $C$ as it appears in the explanation of [[geometric Langlands duality]] as a special case of [[S-duality]] ([Witten 08, section 6](#Witten08)). Here $\mathbf{Fields}_4 = \mathbf{B}G_{\mathrm{conn}}$ is the universal moduli stack of $G$-[[principal connections]] (or rther that of $G$-[[Higgs bundles]]).
 
