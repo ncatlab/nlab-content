@@ -22,7 +22,7 @@ The _canonical resolution_ of $c$ in $C$ with respect to a monad $T:C\to C$ is a
 ###Monadic Cohomology
 {#monadiccohomology}
 
-Given a suitable functor $E:C\to A$, for $A$ an [[additive category]], we can define the [[monadic cohomology]] of an object $c$ to be the [[cohomology]] of the [[cochain complex]] associated to the composition of [[functors]] $E\circ CanRes_T:\Delta_+\to A.$ By suitably dualizing, we can define _comonadic cohomology_. 
+Given a suitable functor $E:C\to A$, for $A$ an [[additive category]], we can define the [[monadic cohomology]] of an object $c$ to be the [[cohomology]] of the [[cochain complex]] associated to the composition of [[functors]] $E\circ CanRes_T:\Delta_+\to A.$ This has been introduced by Godement who called monad and the resolution from it the standard construction (thus, standard resolution is a term which is still used). By suitably dualizing, we can define _comonadic homology_. 
 
 ###Resolution of a $T$-algebra
 
@@ -46,6 +46,6 @@ Thus we may produce the cosimplicial canonical resolution of any set $X$. If $X$
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
 
-
+[[!redirects standard resolution]]
 [[!redirects cotriple homology]]
 [[!redirects triple cohomology]]
