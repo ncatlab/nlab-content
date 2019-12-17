@@ -2115,13 +2115,13 @@ Deligne cohomology was introduced in [[complex analytic geometry]] (by a [[chain
 
 with applications to [[Hodge theory]] and [[intermediate Jacobians]]. The same definition appears in 
 
-* [[Barry Mazur]], [[William Messing]], _Universal extensions and one-dimensional crystalline cohomology_, Springer lecture notes 370, 1974
+* [[Barry Mazur]], [[William Messing]], _Universal extensions and one-dimensional crystalline cohomology_, Springer lecture notes 370, 1974 ([doi:10.1007/BFb0061628](https://link.springer.com/book/10.1007/BFb0061628))
 
 * {#ArtinMazur77} [[Michael Artin]], [[Barry Mazur]], section III.1 of _Formal Groups Arising from Algebraic Varieties_, Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure, S&#233;r. 4, 10 no. 1 (1977), p. 87-131  [numdam](http://www.numdam.org/item?id=ASENS_1977_4_10_1_87_0), [MR56:15663](http://www.ams.org/mathscinet-getitem?mr=56:15663)
 
 under the name "multiplicative de Rham complex" (and in the context of studying its [[deformation theory]] by [[Artin-Mazur formal groups]]). The theory was further developed in
 
-* {#Beilinson85} [[Alexander Beilinson]] _[[Higher regulators and values of L-functions]]_, Journal of Soviet Mathematics 30 (1985), 2036-2070, ([mathnet (Russian)](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=intd&paperid=73&option_lang=eng), [DOI](http://dx.doi.org/10.1007%2FBF02105861)) (reviewed in [Esnault-Viehweg 88](#EsnaultViehweg88))
+* {#Beilinson85} [[Alexander Beilinson]], _[[Higher regulators and values of L-functions]]_, Journal of Soviet Mathematics 30 (1985), 2036-2070, ([mathnet (Russian)](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=intd&paperid=73&option_lang=eng), [DOI](http://dx.doi.org/10.1007%2FBF02105861)) (reviewed in [Esnault-Viehweg 88](#EsnaultViehweg88))
 
 with the application to [[Beilinson regulators]]. Later the evident version of the Deligne complex in [[differential geometry]] over [[smooth manifolds]] gained more attention and is still referred to as "Deligne cohomology".
 
