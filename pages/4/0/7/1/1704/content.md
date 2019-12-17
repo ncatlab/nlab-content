@@ -776,6 +776,9 @@ Closely related discussion of homotopy fiber sequences and homotopy action but i
 
 There, conditions are given for a morphism $A_\bullet \to B_\bullet$ to a [[reduced Segal space]] to have a fixed homotopy fiber, and hence encode an action of the loop group of $B$ on that fiber. 
 
+Discussion in [[higher differential geometry]] of [[Kaluza-Klein compactification]] along [[principal ∞-bundles]], relating to [[double field theory]], [[T-folds]], [[non-abelian T-duality]], [[type II geometry]], [[exceptional geometry]]:
+
+* [[Luigi Alfonsi]], _Global Double Field Theory is Higher Kaluza-Klein Theory_ ([arXiv:1912.07089](https://arxiv.org/abs/1912.07089))
 
 
 
