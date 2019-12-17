@@ -62,7 +62,7 @@ Classification of possible long-range [[forces]], hence of [[scattering]] proces
 
 Quick review:
 
-* [[Daniel Baumann]], _What long-range forces are allowed?, 2019 ([[BaumannLongRange19.pdf:file]])
+* [[Daniel Baumann]], _What long-range forces are allowed?_, 2019 ([[BaumannLongRange19.pdf:file]])
 
 
 
