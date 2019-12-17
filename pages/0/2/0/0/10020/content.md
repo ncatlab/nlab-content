@@ -50,7 +50,11 @@ A general argument that in sectors of the [[AdS-CFT correspondence]] the [[confo
 The original article on the CS/WZW correspondence is
 
 * {#Witten89} [[Edward Witten]], _Quantum Field Theory and the Jones Polynomial_ Commun. Math. Phys. 121 (3) (1989) 351&#8211;399. MR0990772 ([project EUCLID](http://projecteuclid.org/euclid.cmp/1104178138))
- 
+
+More details were developed in 
+
+* D.C.Cabra, G.L.Rossini, _Explicit connection between conformal field theory and 2+1 Chern-Simons theory_, Mod.Phys.Lett. A12 (1997) 1687-1697 ([arXiv:hep-th/9506054](https://arxiv.org/abs/hep-th/9506054))
+
 
 Reviews include
 
