@@ -9,6 +9,11 @@ On the [[Drinfeld-Kohno theorem]]:
 
 * [[Toshitake Kohno]], _Conformal field theory and topology_, transl. from the 1998 Japanese original by the author. Translations of Mathematical Monographs __210__. Iwanami Series in Modern Mathematics. Amer. Math. Soc. 2002. x+172 pp.
 
+On [[braid groups]], [[Yang-Baxter equations]] and [[infinitesimal braid relations]]:
+
+* {#Kohno88} [[Toshitake Kohno]], _Linear representations of braid groups and classical  Yang-Baxter equations_, in: [[Joan S. Birman]], Anatoly Libgober (eds.) _Braids_ Cont. Math. 78 (1988), 339-363 ([doi:10.1090/conm/078](http://dx.doi.org/10.1090/conm/078))
+
+
 On [[weight systems]]/[[Vassiliev invariants]] as the [[real cohomology]] of [[based loop spaces]] of [[configuration spaces of points]]:
 
 * {#Kohno94} [[Toshitake Kohno]], _Vassiliev invariants and de Rham complex on the space of knots_, 
