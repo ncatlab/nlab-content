@@ -62,3 +62,5 @@ and is further developed in (e.g. regarding [[Hadamard states]]) in
 * [[Claudio Dappiaggi]], B. Lang, _Quantization of Maxwell&#8217;s equations on curved backgrounds and general local covariance_, Lett. Math. Phys. 101(3), 265&#8211;287 (2012)
 
 [[!redirects electrodynamics]]
+
+[[!redirects Maxwell theory]]
