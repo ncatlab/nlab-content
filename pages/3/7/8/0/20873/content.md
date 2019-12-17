@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -64,15 +63,21 @@ from the [[set]] of [[horizontal chord diagrams]] to the set of [[round chord di
 
 ### Algebra of horizontal chord diagrams
  {#AlgebraOfHorizontalChordDiagrams}
- 
-For $n \in \mathbb{N}$ and for $R \in $ [[CRing]] a [[commutative ring]], the [[linear span]] $R \langle \mathcal{D}^{pb} \rangle$ on the set of horizontal chord diagrams on $n$ strands becomes an [[graded algebra|graded]] [[associative algebra]] 
 
++-- {: .num_defn #AlgebraHorizontalChordDiagrams}
+###### Definition
+
+For $n \in \mathbb{N}$ and for , the [[linear span]] $Span\big( \mathcal{D}_n^{pb}\big)$ on the set of horizontal chord diagrams on $n$ strands becomes an [[graded algebra|graded]] [[associative algebra]] 
 
 $$
-  \big( R\langle \mathcal{D}^{pb}\rangle, \circ \big)
+  \big( Span\big( \mathcal{D}_n^{pb}\big), \circ \big)
 $$
 
-under [[concatenation]] of strands. For example:
+under [[concatenation]] of strands. 
+
+=--
+
+For example:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/AlgebraStrucOnSpanofHorizontalChordDiagrams.jpg" width="500">
@@ -80,6 +85,9 @@ under [[concatenation]] of strands. For example:
 
 
 ### The 2T- and 4T-relations
+
++-- {: .num_defn #2TAnd4TRelations}
+###### Definition
 
 On the $R$-[[module]] $R\langle \mathcal{D}^{pb}\rangle$ of [[horizontal chord diagrams]] consider the following [[relations]]:
 
@@ -94,6 +102,8 @@ and the [[4T relations]]:
 <center>
 <img src="https://ncatlab.org/nlab/files/HorizontalChordDiagram4TRelation.jpg" width="600">
 </center>
+
+=--
 
 In terms of the [[commutator]] [[Lie algebra]] of the [above](#AlgebraOfHorizontalChordDiagrams) algebra $\big( R\langle \mathcal{D}^{pb}\rangle, \circ \big)$ of horizontal chord diagrams, these are the [[infinitesimal braid relations]].
 
@@ -112,6 +122,38 @@ for the [[quotient algebra]] of horizontal chord diagrams by these relations.
 <img src="https://ncatlab.org/nlab/files/HorizontalChordDiagramsModulo2TAnd4T.jpg" width="900">
 </center>
 
+
+### Universal enveloping of infinitesimal braid relations
+
++-- {: .num_prop #UniversalEnvelopingOfInfinitesimalBraidsIsHorizontalChords}
+###### Proposition
+**([[universal enveloping algebra]] of [[infinitesimal braid Lie algebra]] is [[horizontal chord diagrams]] [[quotient vector space|modulo]] [[2T relations|2T]]&[[4T relations|4T]])
+
+The [[associative algebra]] 
+
+$$
+  \Big(
+  \mathcal{A}_n^{pb}
+  \;\coloneqq\;
+  Span
+  \big( 
+    \mathcal{D}_n^{pb}
+  \big)/(2T, 4T)
+  ,
+  \circ
+  \Big)
+$$
+
+of [[horizontal chord diagrams]] on $n$ strands with product given by [[concatenation]] of strands (Def. \ref{AlgebraHorizontalChordDiagrams}) [[quotient vector space|modulo]] the [[2T relations]] and [[4T relations]] (Def. \ref{2TAnd4TRelations}) is [[isomorphism|isomorphic]] to the [[universal enveloping algebra]] of the [[infinitesimal braid Lie algebra]] ([this Def.](infinitesimal+braid+relation#InfinitesimalBraidLieAlgebra)):
+
+$$
+  \big(\mathcal{A}_n^{pb}, \circ\big)
+  \;\simeq\;
+  \mathcal{U}(\mathcal{L}_n(D))
+  \,.
+$$
+
+=--
 
 ### Horizontal weight systems
 
