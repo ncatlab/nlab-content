@@ -11423,7 +11423,7 @@ Then
        {Hom_{Set}(X \times Z, Y) }
        {\underbrace{
          \left\{
-            X \times Y \longrightarrow Y
+            X \times Z \longrightarrow Y
          \right\}
        }}
          &\underoverset{}{\phantom{AA}\simeq\phantom{AA}}{\longrightarrow}&
