@@ -364,6 +364,12 @@ and specifically with an eye to discussion of the [[quark-gluon plasma]] in
 * {#Blaizot04} Jean-Paul Blaizot, around p. 17 of _Thermodynamics of the high temperature Quark-Gluon Plasma_, AIP Conf. Proc. 739, 63-96 (2004) ([doi:10.1063/1.1843592](https://doi.org/10.1063/1.1843592))
 
 
+### On higher bundles
+
+Discussion in [[higher differential geometry]] of Kaluza-Klein compactification along [[principal ∞-bundles]], relating to [[double field theory]], [[T-folds]], [[non-abelian T-duality]], [[type II geometry]], [[exceptional geometry]]:
+
+* [[Luigi Alfonsi]], _Global Double Field Theory is Higher Kaluza-Klein Theory_ ([arXiv:1912.07089](https://arxiv.org/abs/1912.07089))
+
 
 [[!redirects Kaluza-Klein theory]]
 
