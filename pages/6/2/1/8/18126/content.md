@@ -11369,9 +11369,9 @@ is the [[topological space]]
 
   $U^K \subset Hom_{Top}(X,Y)$ for labels
 
-  * $K \subset Y$ a [[compact topological space|compact]] subset,
+  * $K \subset X$ a [[compact topological space|compact]] subset,
 
-  * $U \subset X$ an [[open subset]]
+  * $U \subset Y$ an [[open subset]]
 
   and defined to be those subsets of all those [[continuous functions]] $f$ that take $K$ to $U$:
 
