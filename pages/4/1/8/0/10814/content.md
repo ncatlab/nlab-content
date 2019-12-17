@@ -184,7 +184,7 @@ Discussion in the context of [[L-infinity algebra]] includes
 
 Comprehensive discussion in [[higher differential geometry]]:
 
-* [[Luigi Alfonsi]], _Global Double Field Theory is Higher Kaluza-Klein Theory_ ([arXiv:1912.07089](https://arxiv.org/abs/1912.07089))
+* {#Alfonsi19} [[Luigi Alfonsi]], _Global Double Field Theory is Higher Kaluza-Klein Theory_ ([arXiv:1912.07089](https://arxiv.org/abs/1912.07089))
 
   (relating [[Kaluza-Klein compactification]] on [[principal ∞-bundles]] to [[double field theory]], [[T-folds]], [[non-abelian T-duality]], [[type II geometry]], [[exceptional geometry]], ...)
 
