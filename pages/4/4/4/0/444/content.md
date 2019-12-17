@@ -432,16 +432,18 @@ In particular in light of their generalization to nerves of higher categories, d
 ###### Example
 **(bar construction)** 
 
-Let $A$ be a [[monoid]] (for instance a [[group]]) and write $\mathbf{B} A$ for the corresponding one-object [[category]] with $Mor(\mathbf{B} A) = A$. Then the nerve $N(\mathbf{B} A)$ of $\mathbf{B}A$ is the simplicial set which is the usual [[bar construction]] of $A$
+Let $A$ be a [[monoid]] (for instance a [[group]]) with multiplication $m$, and write $\mathbf{B} A$ for the corresponding one-object [[category]] with $Mor(\mathbf{B} A) = A$. Then the nerve $N(\mathbf{B} A)$ of $\mathbf{B}A$ is the simplicial set which is given by a [[two-sided bar construction]] of $A$, namely $B(1, A, 1)$: 
   $$
     N(\mathbf{B}A)
     =
     \left(
        \cdots
-       A \times A \times A \stackrel{\to}{\stackrel{\to}{\to}} 
-       A \times A \stackrel{\to}{\to} A \to {*}
+       A \times A \stackrel{\to}{\stackrel{\to}{\to}} 
+       A \stackrel{\to}{\to} {*}
     \right)
   $$
+where for example the three parallel face maps on display are $\pi_1, m, \pi_2: A \times A \to A$. 
+
   In particular, when $A = G$ is a discrete group, then the [[geometric realization]] $|N(\mathbf{B} G)|$ of the nerve of $\mathbf{B}G$ is the [[classifying space|classifying]] [[topological space]] $ \cdots \simeq B G$ for $G$-[[principal bundles]].
 
 =--
