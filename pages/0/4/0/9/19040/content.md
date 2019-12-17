@@ -11,9 +11,22 @@ There is no natural 2-category that contains *both* lax and colax morphisms, sin
 
 ## Definition
 
-Let $T$ be a [[2-monad]] on a [[2-category]] $K$.  The objects of the double category $T \mathbf{Alg}$ are the $T$-algebras, the horizontal morphisms are the [[lax morphism|lax]] $T$-morphisms, and the vertical morphisms are the colax $T$-morphisms.  The 2-cells are 2-cells in $K$ between composites of underlying morphisms, such that a certain cube of structure 2-cells commutes.
-
-For example, in the case of monoidal categories, where we have [[lax monoidal functors]] $F:A\to B$ and $G:C\to D$ and colax monoidal functors $H:B\to D$ and $K:A\to C$, this cube becomes a commutative hexagon:
+Let $T$ be a [[2-monad]] on a [[2-category]] $K$.  The objects of the double category $T \mathbf{Alg}$ are the $T$-algebras, the horizontal morphisms are the [[lax morphism|lax]] $T$-morphisms, and the vertical morphisms are the colax $T$-morphisms.  The 2-cells are 2-cells in $K$ between composites of underlying morphisms, such that a certain cube of structure 2-cells commutes: consider a square
+\begin{tikzcd}
+A \ar[r, "f"]\ar[d,"h"] & B\ar[d, "g"] \\
+C \ar[r,"k"]& D
+\end{tikzcd}
+where horizontal arrows are lax $T$-morphism, and vertical ones are colax. A 2-cell $\alpha : g f \Rightarrow k h$ fills the square and it is such that the equality of pasting diagrams 
+\begin{tikzcd}[row sep=5mm]
+& TB \ar[shorten <=12mm,shorten >=12mm, Rightarrow, dddl]\arrow[rd] \arrow[dd] & & & & TB\ar[shorten <=4mm,shorten >=4mm, Rightarrow, dd, "T\alpha"] \arrow[rd] & \\
+TA \arrow[ru] \arrow[dd] & & TD\arrow[dd] & & TA \arrow[rd] \arrow[ru] \arrow[dd] & & TD \ar[shorten <=12mm,shorten >=12mm, Rightarrow, dddl] \arrow[dd] \\
+& B\ar[shorten <=4mm,shorten >=4mm, Rightarrow, ur] \ar[shorten <=4mm,shorten >=4mm, Rightarrow, dd, "\alpha"]\arrow[rd] & & = & & TC \arrow[ru] \arrow[dd] & \\
+A \arrow[ru] \arrow[rd] & & D & & A \arrow[rd] \ar[shorten <=4mm,shorten >=4mm, Rightarrow, ur] && D \\
+ & C \arrow[ru] & & & & C \arrow[ru] & 
+\end{tikzcd}
+holds. This means that a certain diagram of 2-cells, that can be obtained translating the above equality into a commutative hexagon, is commutative.
+ 
+For a concrete example in the case of monoidal categories, take [[lax monoidal functors]] $F:A\to B$ and $G:C\to D$ and colax monoidal functors $H:B\to D$ and $K:A\to C$, this cube becomes a commutative hexagon:
 
 $$\array{
 H(F x \otimes F y) & \to & H F (x\otimes y) & \to & G K (x\otimes y) \\
