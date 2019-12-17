@@ -12,6 +12,12 @@ and specifically concerning [[black holes in string theory]]:
 
 * [[Per Kraus]], _Lectures on black holes and the $AdS_3/CFT_2$ correspondence_,  Lect. Notes Phys.755:193-247, 2008 ([arXiv:hep-th/0609074](https://arxiv.org/abs/hep-th/0609074))
 
+Discussion of [[BTZ black hole|BTZ]] [[black hole entropy]] and more generally of [[holographic entanglement entropy]] in [[3d quantum gravity]]/[[AdS3/CFT2]] via [[Wilson line observables]] in [[Chern-Simons theory]]:
+
+
+* [[Eric D'Hoker]], [[Per Kraus]], _Gravitational Wilson lines in $AdS_3$_ ([arXiv:1912.02750](https://arxiv.org/abs/1912.02750))
+
+
 On [[black rings]] in [[D=5 supergravity]]:
 
 * I. Bena, [[Per Kraus]], _Microscopic description of black rings in AdS/CFT_ JHEP 12 (2004) 070 ([hep-th/0408186](http://arxiv.org/abs/hep-th/0408186))
