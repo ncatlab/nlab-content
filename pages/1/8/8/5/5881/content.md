@@ -35,5 +35,14 @@ The [[bound states]] of gluons are [[glueballs]].
 
 * [[gluino]]
 
+## References
+
+### General
+
+(...)
+
+[[!include classification of long-range forces -- references]]
+
+
 
 [[!redirects gluons]]
