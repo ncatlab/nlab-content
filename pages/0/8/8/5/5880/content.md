@@ -34,18 +34,17 @@ In [[quantum electrodynamics]] the photon [[interaction|interacts]] with the [[e
 
 ## Refereces
 
-Discussion in the context of [[causal perturbation theory]] is in 
-
-* {#Scharf95} [[Günter Scharf]], section 3.3 of _[[Finite Quantum Electrodynamics -- The Causal Approach]]_, Berlin: Springer-Verlag, 1995, 2nd edition
-
-## References
+### General
 
 Discussion in the context of [[causal perturbation theory]] is in 
 
 * {#Scharf95} [[Günter Scharf]], section 3.3 of _[[Finite Quantum Electrodynamics -- The Causal Approach]]_, Berlin: Springer-Verlag, 1995, 2nd edition
 
+[[!include classification of long-range forces -- references]]
 
-[[!include fields and quanta - table]]
+
+
+
 
 
 [[!redirects photons]]
