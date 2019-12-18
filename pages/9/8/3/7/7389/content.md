@@ -3,6 +3,13 @@
 
 ## Selected writings
 
+On [[Chern-Simons theory with complex gauge group]]:
+
+* {#DGLZ09} [[Tudor Dimofte]], [[Sergei Gukov]], Jonatan Lenells, [[Don Zagier]], _Exact Results for Perturbative Chern-Simons Theory with Complex Gauge Group_ ([arXiv:0903.2472](http://arxiv.org/abs/0903.2472))
+
+* {#Dimofte16} [[Tudor Dimofte]],  _Perturbative and nonperturbative aspects of complex Chern-Simons Theory_, Journal of Physics A: Mathematical and Theoretical, Volume 50, Number 44 ([arXiv:1608.02961](https://arxiv.org/abs/1608.02961))
+
+
 On [[Coulomb branch]] [[singularities]]:
 
 * [[Mathew Bullimore]], [[Tudor Dimofte]], [[Davide Gaiotto]], _The Coulomb Branch of 3d $\mathcal{N}=4$ Theories_, Commun. Math. Phys. (2017) 354: 671 ([arXiv:1503.04817](https://arxiv.org/abs/1503.04817))
