@@ -131,7 +131,7 @@ This definition of a cluster space does not seem to work in [[constructive mathe
 * Eva Lowen-Colebunders (1989). Function Classes of Cauchy Continuous Maps. Dekker, New York, 1989.
   {#LC}
 
-* Joseph Muscat (2015). An axiomatization of filter clustering. Conference: 2015 12th International Conference on Fuzzy Systems and Knowledge Discovery (FSKD)
+* Joseph Muscat (2015). An axiomatization of filter clustering. Conference: 2015 12th International Conference on Fuzzy Systems and Knowledge Discovery (FSKD). [DOI:10.1109/FSKD.2015.7381908](https://doi.org/10.1109/FSKD.2015.7381908).
   {#Muscat2015}
 
 
