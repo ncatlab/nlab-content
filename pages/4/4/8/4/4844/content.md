@@ -5,6 +5,10 @@
 
 ## Selected writings
 
+Review of [[perturbative quantization of 3d Chern-Simons theory]]:
+
+* [[Robbert Dijkgraaf]], _Perturbative topological field theory_, In: *Trieste 1993, Proceedings, String theory, gauge theory and quantum gravity '93* 189-227 ([spire:399223](http://inspirehep.net/record/399223/), [[DijkgraafPerturbativeCS93.pdf:file]])
+
 On [[Dijkgraaf-Witten theory]]:
 
 * {#DijkgraafWitten90} [[Robbert Dijkgraaf]], [[Edward Witten]], _[[DW.pdf:file]]_, Commun. Math. Phys. __129__ (1990), 393
