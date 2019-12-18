@@ -170,6 +170,9 @@ Exposition from the point of view of [[worldline formalism]] is in
 
 * {#Witten11} [[Edward Witten]], _Quantum Gravity_, Solomon Lefschetz Memorial Lecture Series, November 2011 ([video](https://www.youtube.com/watch?v=uRdCJMYc2Ds#t=15))
 
+Textbook account:
+
+* Claus Kiefer, _Quantum Gravity_, Oxford University Press 2007 ([doi:10.1093/acprof:oso/9780199585205.001.0001](https://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199585205.001.0001/acprof-9780199585205))
 
 ### As a perturbative quantum field theory
  {#ReferencesAsAnEffectiveFieldTheory}
