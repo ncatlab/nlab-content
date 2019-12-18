@@ -76,7 +76,7 @@ Generalization from [[gauge group]] [[SU(2)]] to [[SU(n)]]: [Chen-Liu-Zhu 15](#C
 ### As combined AdS/CFT + 3d/3d duality for wrapped M5-branes
  {#AsAdSCFTPlus3d3dDuality}
 
-In [Gang-Kim-Lee 14b, 3.2](#GangKimLee14b), [Gang-Kim 18 (21)](#GangKim18) it is argued that the [[volume conjecture]] for [[Chern-Simons theory]] on [[hyperbolic 3-manifolds]] $\Sigma^3$ is the combined statement of two [[dualities in string theory]]
+In [Gang-Kim-Lee 14b, 3.2](#GangKimLee14b), [Gang-Kim 18 (21)](#GangKim18) it is argued that the [[volume conjecture]] for [[Chern-Simons theory]] on [[hyperbolic 3-manifolds]] $\Sigma^3$ is the combined statement of two [[dualities in string theory]]:
 
 1. [[AdS/CFT duality]]
 
@@ -88,6 +88,7 @@ for the situation of [[M5-branes]] [[wrapped brane|wrapped on]] $\Sigma^3$ ([DGK
 <img src="https://ncatlab.org/nlab/files/VolumeConjectureAsAdSCFTPlus3d3dDuality.jpg" width="660">
 </center>
 
+For review of the literature see slso [Dimofte 16, Section 4.1](#Dimofte16).
 
 ## Related concepts
 
@@ -160,6 +161,8 @@ Speculative discussion in terms of [[quantum field theory]] or [[string theory]]
 * {#DijkgraafFuji09} [[Robbert Dijkgraaf]], Hiroyuki Fuji, _The Volume Conjecture and Topological Strings_ ([arXiv:0903.2084](http://arxiv.org/abs/0903.2084))
 
 * {#DimofteGukov10} [[Tudor Dimofte]], [[Sergei Gukov]], _Quantum Field Theory and the Volume Conjecture_, Contemporary Mathematics 541 (2011), p.41-67 ([arxiv:1003.4808](http://arxiv.org/abs/1003.4808))
+
+* {#Dimofte16} [[Tudor Dimofte]], Section 4.1 of:  _Perturbative and nonperturbative aspects of complex Chern-Simons Theory_, Journal of Physics A: Mathematical and Theoretical, Volume 50, Number 44 ([arXiv:1608.02961](https://arxiv.org/abs/1608.02961))
 
 A conceptual explanation of the volume conjecture via [[analytically continued Chern-Simons theory]] was proposed in
 
