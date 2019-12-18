@@ -64,5 +64,14 @@ In [[supergravity]] this is accompanied by the [[gravitino]].
 
   * [[gravitino]], [[gaugino]] , [[dilatino]]
 
+## References
+
+### General
+
+(...)
+
+[[!include classification of long-range forces -- references]]
+
+
 
 [[!redirects gravitons]]
