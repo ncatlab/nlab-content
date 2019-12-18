@@ -58,24 +58,7 @@ See also
 
 * Wikipedia: [scattering](http://en.wikipedia.org/wiki/Scattering), [scattering theory](http://en.wikipedia.org/wiki/Scattering_theory), [inverse scattering](http://en.wikipedia.org/wiki/Inverse_scattering), [Raman scattering](http://en.wikipedia.org/wiki/Raman_scattering), [Rayleigh scattering](http://en.wikipedia.org/wiki/Rayleigh_scattering),
 
-### Classification of long-range forces
-
-Classification of possible long-range [[forces]], hence of scattering processes of [[mass|massless]] [[field (physics)|fields]], by classification of suitably factorizing and decaying [[Poincaré group|Poincaré]]-[[invariant]] [[S-matrices]] depending on particle spin, leading to uniqueness statements about [[Maxwell theory|Maxwell]]/[[photon]]-, [[Yang-Mills theory|Yang-Mills]]/[[gluon]]-, [[gravity]]/[[graviton]]- and [[supergravity]]/[[gravitino]]-[[interactions]]:
-
-* [[Steven Weinberg]], _Feynman Rules for Any Spin. 2. Massless Particles_, Phys. Rev. 134 (1964) B882 ([doi:10.1103/PhysRev.134.B882](https://doi.org/10.1103/PhysRev.134.B882))
-
-* [[Steven Weinberg]], _Photons and Gravitons in $S$-Matrix Theory: Derivation of Charge Conservationand Equality of Gravitational and Inertial Mass_, Phys. Rev. 135 (1964) B1049 ([doi:10.1103/PhysRev.135.B1049](https://doi.org/10.1103/PhysRev.135.B1049))
-
-* [[Steven Weinberg]], _Photons and Gravitons in Perturbation Theory: Derivation of Maxwell’s and Einstein’s Equations,” Phys. Rev. 138 (1965) B988 ([doi:10.1103/PhysRev.138.B988](https://doi.org/10.1103/PhysRev.138.B988))
-
-* Paolo Benincasa, Freddy Cachazo, _Consistency Conditions on the S-Matrix of Massless Particles_ ([arXiv:0705.4305](https://arxiv.org/abs/0705.4305))
-
-* David A. McGady, Laurentiu Rodina, _Higher-spin massless S-matrices in four-dimensions_, Phys. Rev. D 90, 084048 (2014) ([arXiv:1311.2938](https://arxiv.org/abs/1311.2938), [doi:10.1103/PhysRevD.90.084048](https://doi.org/10.1103/PhysRevD.90.084048))
-
-Quick review:
-
-* [[Daniel Baumann]], _What long-range forces are allowed?_, 2019 ([[BaumannLongRange19.pdf:file]])
-
+[[!include classification of long-range forces -- references]]
 
 
 
