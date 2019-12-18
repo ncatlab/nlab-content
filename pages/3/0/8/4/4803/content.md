@@ -53,6 +53,9 @@ See also
 
 * Wikipedia, _[Gravitino](https://en.wikipedia.org/wiki/Gravitino)_
 
+[[!include classification of long-range forces -- references]]
+
+
 ### As a dark matter candidate
 
 Discussion of the gravitiono as a [[dark matter]] candidate:
@@ -70,6 +73,8 @@ following the proposal towards the end of
 * {#GellMann83} [[Murray Gell-Mann]], introductory talk at _[Shelter Island II](https://en.wikipedia.org/wiki/Shelter_Island_Conference)_, 1983 ([[Gell-Mann_ShelterIslandII_1983.pdf:file]]) 
 
   in: _Shelter Island II: Proceedings of the 1983 Shelter Island Conference on Quantum Field Theory and the Fundamental Problems of Physics_. MIT Press. pp. 301&#8211;343. ISBN 0-262-10031-2.
+
+
 
 
 
