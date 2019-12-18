@@ -550,6 +550,8 @@ and hence that with the above the map $H_{n-1}(X_{n-1}) \to H_{n-1}(X)$ is surje
 
 * [[cell complex]]
 
+* [[cellular map]]
+
 * [[CW approximation]]
 
 * [[quasi-finite CW-complex]]
@@ -571,7 +573,7 @@ and hence that with the above the map $H_{n-1}(X_{n-1}) \to H_{n-1}(X)$ is surje
 
 The introduction of the term is contained in 
 
-* J. H. C. Whitehead, _Combinatorial homotopy I_ , Bull. Amer. Math. Soc, 55, (1949), 213–245.
+* [[J. H. C. Whitehead]], _Combinatorial homotopy I_ , Bull. Amer. Math. Soc, 55, (1949), 213–245.
 
 
 Basic textbook accounts include
