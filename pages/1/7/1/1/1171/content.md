@@ -115,11 +115,11 @@ The notion of clustering generalizes convergence.
 A __cluster space__ is a [[set]] $S$ together with a [[relation]] $\rightsquigarrow$ from $\mathcal{F}S$ to $S$; if $F \rightsquigarrow x$, we say that $F$ __clusters__ at $x$ or that $x$ is a __cluster point__ of $F$.  The axioms are as follows:
 
 1. Centred: The [[principal ultrafilter]] $F_x \rightsquigarrow x$;
-2. Isotone: If $F \supseteq G$ and $F \rightsquigarrow x$, then $G \rightsquigarrow x$;
-3. Directed: If $F \cap G \rightsquigarrow x$ then $F \rightsquigarrow x$ or $G \rightsquigarrow x$.
+2. Antitone: If $F \supseteq G$ and $F \rightsquigarrow x$, then $G \rightsquigarrow x$;
+3. Codirected: If $F \cap G \rightsquigarrow x$ then $F \rightsquigarrow x$ or $G \rightsquigarrow x$.
 4. Nontrivial: If $F \rightsquigarrow x$, then $F$ is proper.
 
-Note that the logic of isotony and directedness for clustering is the reverse of that for convergence.  Nontriviality is the nullary version of directedness (equivalent to the statement that the improper filter never clusters at any point), which we explicitly need this time.  Alternatively, we can take $\rightsquigarrow$ as a relation only on the *proper* filters; then nontriviality may be omitted from the axioms (as was done in the original reference, [Muscat 2015](#Muscat2015)).
+Note that the direction of isotony and directedness for clustering is the reverse of that for convergence (hence 'antitone' and 'codirected').  Nontriviality is the nullary version of directedness (equivalent to the statement that the improper filter never clusters at any point), which we explicitly need this time.  Alternatively, we can take $\rightsquigarrow$ as a relation only on the *proper* filters; then nontriviality may be omitted from the axioms (as was done in the original reference, [Muscat 2015](#Muscat2015)).
 
 Every convergence space is a cluster space (using the usual definition of $\rightsquigarrow$ from $\to$), and many of the notions of convergence generalize to cluster spaces, including continuous functions, open/closed sets, neighborhood filters, pre-closure, compactness, etc.
 
