@@ -124,13 +124,21 @@ Discussion via [[Wick rotation]] to [[Euclidean field theory]] on spacetimes wit
 
 ### Interpretation in string theory
 
-Rieview of interpretation of [[black holes in string theory]] includes 
+Microscopic explanation of [[Bekenstein-Hawking entropy]] via [[geometric engineering of QFT|geometric engineering]] of [[black holes in string theory]] as [[bound states of D-branes]]:
+
+
+
+* {#StromingerVafa96} [[Andrew Strominger]], [[Cumrun Vafa]], _Microscopic Origin of the Bekenstein-Hawking Entropy_, Phys. Lett. B379: 99-104, 1996 ([arXiv:hep-th/9601029](http://arxiv.org/abs/hep-th/9601029))
+
+Review of interpretation of [[black holes in string theory]] includes 
 
 * {#AGMOO} [[Ofer Aharony]], S. S. Gubser, [[Juan Maldacena]], [[Hirosi Ooguri]], Y. Oz, Chapter 5 of _Large N field theories, string theory and gravity_, [arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111)
- 
+
+* [[Per Kraus]], _Lectures on black holes and the $AdS_3/CFT_2$ correspondence_,  Lect. Notes Phys.755:193-247, 2008 ([arXiv:hep-th/0609074](https://arxiv.org/abs/hep-th/0609074))
+
+* {#Sen07} [[Ashoke Sen]], _Black Hole Entropy Function, Attractors and Precision Counting of Microstates_, Gen. Rel. Grav. 40: 2249-2431, 2008 ([arXiv:0708.1270](http://arxiv.org/abs/0708.1270))
 
 * [[Dieter Lüst]], Ward Vleeshouwers, sections 21-22 of _Black Hole Information and Thermodynamics_ ([arXiv:1809.01403](https://arxiv.org/abs/1809.01403))
-
 
 * Sebastian De Haro, Jeroen van Dongen, Manus Visser, [[Jeremy Butterfield]], _Conceptual Analysis of Black Hole Entropy in String Theory_ ([arXiv:1904.03232](https://arxiv.org/abs/1904.03232))
 
