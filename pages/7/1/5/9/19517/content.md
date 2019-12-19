@@ -59,7 +59,7 @@ be a [[Quillen adjunction]]. Then
 
    $$
      L(Q(R(P(c))))
-       \overset{ p_{R(P(c))} }{\longrightarrow}
+       \overset{ L( p_{R(P(c))} ) }{\longrightarrow}
      L R(P(c)) 
        \overset{\epsilon_{P(c)}}{\longrightarrow}
      P(c)
