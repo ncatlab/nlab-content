@@ -34,6 +34,9 @@
 
 * Vijay Kumar, Daniel S. Park, [[Washington Taylor]], _6D supergravity without tensor multiplets_, JHEP 1104:080,2011 ([arXiv:1011.0726](http://arxiv.org/abs/1011.0726))
 
+* Ángel Murcia, C. S. Shahbazi, _Contact metric three manifolds and Lorentzian geometry with torsion in six-dimensional supergravity_ ([arXiv:1912.08723](https://arxiv.org/abs/1912.08723))
+
+
 
 ### KK-reduction  to JT gravity
 
