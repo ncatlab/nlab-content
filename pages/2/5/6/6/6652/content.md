@@ -1,7 +1,15 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Ashoke_Sen)
 
-## related $n$Lab entries
+## Selected writings
+
+On microscopic explanation of [[Bekenstein-Hawking entropy]] via [[geometric engineering of QFT|geometric engineering]] of [[black holes in string theory]] as [[bound states of D-branes]]:
+
+* [[Ashoke Sen]], _Extremal black holes and elementary string states_,  Mod. Phys. Lett. A10: 2081-2094, 1995 ([arXiv:hep-th/9504147](http://arxiv.org/abs/hep-th/9504147))
+
+* {#Sen07} [[Ashoke Sen]], _Black Hole Entropy Function, Attractors and Precision Counting of Microstates_, Gen. Rel. Grav. 40: 2249-2431, 2008 ([arXiv:0708.1270](http://arxiv.org/abs/0708.1270))
+
+## Related $n$Lab entries
 
 * [[Sen's conjecture]]
 
