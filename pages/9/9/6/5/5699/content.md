@@ -10,14 +10,26 @@ Cumrun Vafa is a [[string theory|string theorist]] at Harvard.
 
 ## Selected talks
 
+
 On [[mirror symmetry]], [[topological string theory]] and a [[mysterious duality]]:
 
 * {#Vafa00} [[Cumrun Vafa]], _Mirror symmetry_, Talk at [String Theory at the Millennium](http://theory.caltech.edu/conf2000/), Caltech, January 2000 ([slides html](http://www.theory.caltech.edu/conf2000/Vafa/fs1.html))
+
+
+On [[geometric engineering of quantum field theory]]:
+
+* {#KatzKlemmVafa97} [[Sheldon Katz]], [[Albrecht Klemm]], [[Cumrun Vafa]], _Geometric Engineering of Quantum Field Theories_, Nucl.Phys. B497 (1997) 173-195 ([arXiv:hep-th/9609239](http://arxiv.org/abs/hep-th/9609239))
+
+* {#KatzKlemm96} [[Sheldon Katz]], [[Cumrun Vafa]], _Geometric Engineering of $N=1$ Quantum Field Theories_, Nucl.Phys. B497 (1997) 196-204 ([arXiv:hep-th/9611090](http://arxiv.org/abs/hep-th/9611090))
 
 On [[geometric engineering of QFT]] on [[D4-D6 brane intersections]] subject to the [[s-rule]]:
 
 * {#OoguriVafa97} [[Hirosi Ooguri]], [[Cumrun Vafa]], _Geometry of $N = 1$ Dualities in Four Dimensions_, Nucl. Phys. B 500:62-74, 1997 ([arXiv:hep-th/9702180](https://arxiv.org/abs/hep-th/9702180))
 
+
+On microscopic explanation of [[Bekenstein-Hawking entropy]] via [[geometric engineering of QFT|geometric engineering]] of [[black holes in string theory]] as [[bound states of D-branes]]:
+
+* {#StromingerVafa96} [[Andrew Strominger]], [[Cumrun Vafa]], _Microscopic Origin of the Bekenstein-Hawking Entropy_, Phys. Lett. B379: 99-104, 1996 ([arXiv:hep-th/9601029](http://arxiv.org/abs/hep-th/9601029))
 
 On [[topological string theory]]:
 
