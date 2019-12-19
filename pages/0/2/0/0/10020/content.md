@@ -148,6 +148,7 @@ On [[black brane|black]]$\;$[[D4-D8-brane bound states]] in [[massive type IIA s
 * [[Giuseppe Dibitetto]], [[Nicolò Petri]], _$AdS_3$ vacua and surface defects in massive IIA_ ([arxiv:1904.02455](https://arxiv.org/abs/1904.02455))
 
 ### CS Wilson lines in $AdS_3/CFT_2$
+ {#CSWilsonLinesInAdS3}
 
 Discussion of [[BTZ black hole|BTZ]] [[black hole entropy]] and more generally of [[holographic entanglement entropy]] in [[3d quantum gravity]]/[[AdS3/CFT2]] via [[Wilson line observables]] in [[Chern-Simons theory]]:
 
