@@ -9,6 +9,33 @@ Michael Duff is professor of theoretical physics at Imperial College London. He 
 
 Among his former students is [[Hisham Sati]].
 
+## Quotes
+
+On the open problem of formulating [[M-theory]]:
+
+[Duff 96, totality of Section 6](#Duff96):
+
+> The overriding problem in superunification in the coming years will be to take the Mystery out of M-theory, while keeping the Magic and the Membranes.
+
+[Duff 98a, last paragraph (p. 6)](#Duff98):
+
+> Despite all these successes, physicists are glimpsing only small corners of M-theory; the big picture is still lacking.
+
+> $[...]$
+
+> Indeed future historians may judge the late 20th century as a time when theorists were like  children  playing  on  the  seashore, diverting themselves with the smoother pebbles or prettier shells of superstrings while the great ocean of M-theory lay undiscovered before them.
+
+\linebreak
+
+[Duff 98b, p. 6](#Duff98b):
+
+> we are only just beginning to scratch the surface of the ultimate meaning of M-theory, and for the time being therefore, M stands for Magic and Mystery too.
+
+[Duff 99, p.330](#Duff99):
+
+> future historians may judge the period 1984-95 as a time when theorists were like boys playing by the sea shore, and diverting themselves with the smoother pebbles or prettier shells of perturbative ten-dimensiorial superstrings while the great ocean of non-perturbative eleven-dimensional M-theory lay all undiscovered before them. 
+
+
 ## Selected writing
 
 On [[Kaluza-Klein compactification]]
@@ -31,9 +58,14 @@ On [[black brane|black]] [[M2-brane]]-solutions to [[D=11 supergravity]]:
 
 On [[M-theory]]:
 
-* [[Michael Duff]], _M-Theory (the Theory Formerly Known as Strings)_,  Int. J. Mod. Phys. A11 (1996) 5623-5642 ([arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117))
+* {#Duff96} [[Michael Duff]], _M-Theory (the Theory Formerly Known as Strings)_,  Int. J. Mod. Phys. A11 (1996) 5623-5642 ([arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117))
 
-* [[Michael Duff]], _[[The World in Eleven Dimensions]]_ (1999)
+* {#Duff98} [[Michael Duff]], _The Theory Formerly Known as Strings_, Scientific American 1998 ([pdf](https://www.nikhef.nl/pub/services/biblio/bib_KR/sciam14395569.pdf), [[DuffFormerlyStrings98.pdf:file]])
+
+* {#Duff98b} [[Michael Duff]], _A Layman's Guide to M-theory_, 	Abdus Salam Memorial Meeting, Trieste, Italy, 19 - 22 Nov 1997, pp.184-213 ([arXiv:hep-th/9805177](https://arxiv.org/abs/hep-th/9805177), [cds:355721](https://cds.cern.ch/record/355721))
+
+* {#Duff99} [[Michael Duff]], _[[The World in Eleven Dimensions]]_ (1999)
+
 
 On the [[brane scan]] which classifies super $p$-[[brane]] [[sigma-models]] given by [[Green-Schwarz action functionals]]:
 
@@ -48,7 +80,6 @@ On [[string-string duality]]:
 and specifically on the [[I8]]-term:
 
 * [[Michael Duff]], [[James Liu]], [[Ruben Minasian]], _Eleven Dimensional Origin of String/String Duality: A One Loop Test_, Nucl.Phys. B452 (1995) 261-282 ([arXiv:hep-th/9506126](https://arxiv.org/abs/hep-th/9506126))
-
 
 
 
