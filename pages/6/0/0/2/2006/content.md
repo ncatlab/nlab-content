@@ -69,7 +69,7 @@ As another way of looking at this, we can keep the same objects as in $C$ but re
 The **Kleisli category** $C_{\mathbf{T}}$ has as objects the objects of $C$, and as [[morphisms]] $M\to N$ the elements of the [[hom-set]] $C(M,T(N))$, in other words [[morphisms]] of the form $M \to T(N)$ in $C$, called **Kleisli morphisms**.
 
 Composition is given by the **Kleisli composition** rule $g\circ_{Kleisli} f = \mu_P\circ T(g)\circ f$
-(as in the [[Grothendieck construction]] (here $M\stackrel{f}\to N\stackrel{g}\to P$).
+(as in the [[Grothendieck construction]] (here $M\stackrel{f}\to N\stackrel{g}\to P$)).
 
 =--
 
