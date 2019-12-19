@@ -3,6 +3,12 @@
 
 ## Selected writings
 
+
+On [[geometric engineering of quantum field theory]]:
+
+* {#KatzKlemmVafa97} [[Sheldon Katz]], [[Albrecht Klemm]], [[Cumrun Vafa]], _Geometric Engineering of Quantum Field Theories_, Nucl.Phys. B497 (1997) 173-195 ([arXiv:hep-th/9609239](http://arxiv.org/abs/hep-th/9609239))
+
+
 On [[toroidal orbifolds]] in [[string theory]]:
 
 * Jens Erler, [[Albrecht Klemm]], _Comment on the Generation Number in Orbifold Compactifications_, Commun. Math. Phys. 153:579-604, 1993 ([arXiv:hep-th/9207111](https://arxiv.org/abs/hep-th/9207111))
