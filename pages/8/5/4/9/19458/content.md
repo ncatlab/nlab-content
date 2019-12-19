@@ -43,7 +43,7 @@ $$
   c_1,c_2 \mapsto \mathcal{C}(c_1,c_2)
 $$
 
-and wich omn [[hom-objects]] of $\mathcal{C}^{op} \times \mathcal{C}$ is given by the evident pre- and post-[[composition]] operation.
+and which on [[hom-objects]] of $\mathcal{C}^{op} \times \mathcal{C}$ is given by the evident pre- and post-[[composition]] operation.
 
 =--
 
