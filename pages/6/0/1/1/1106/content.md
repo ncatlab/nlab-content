@@ -29,7 +29,7 @@ For a similar link lists see also
 * _[[Sketches of an Elephant]]_
 
 
-# Content #
+# Contents #
 * automatic table of contents goes here
 {:toc}
 
