@@ -67,7 +67,7 @@ On [[duality in string theory]], mostly [[S-duality]] and [[dual heterotic strin
 
 On whether "M" is really for "[[membrane]]" after all:
 
-> In other words, perhaps $D = 11$ supergravity together with [[M-brane|its BPS configurations]]: plane wave, membrane, fivebrane, KK monopole and the $D = 11$ embedding of the Type II eightbraneare are all there is to $M$-theory and that we need look no further for new degrees of freedom. (p. 329)
+> In other words, perhaps $D = 11$ supergravity together with [[M-brane|its BPS configurations]]: [[M-wave|plane wave]], [[M2-brane|membrane]], [[M5-brane|fivebrane]], [[KK monopole]] and the $D = 11$ embedding of the Type II [[D8-brane|eight brane]] are are all there is to $M$-theory and that we need look no further for new degrees of freedom. (p. 329)
 
 Concluding with:
 
@@ -78,5 +78,7 @@ Compare to the situation 20 years later as in
 * [[Greg Moore]], _[[Physical Mathematics and the Future]]_, talk at [Strings 2014](http://physics.princeton.edu/strings2014/)
 
 with its section 12: "Keep true to the dreams of thy youth: M-theory"
+
+For more see at _[M-theory -- The open problem](M-theory#TheOpenProblem)_
 
 category: reference
