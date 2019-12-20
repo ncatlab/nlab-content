@@ -29,6 +29,7 @@ In [[knot theory]], by the _STU-relations_, one means the following [[relations]
 <img src="https://ncatlab.org/nlab/files/STU-relation.jpg" width="500">
 </center>
 
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 
 ## Properties
@@ -109,6 +110,7 @@ Using this, one finds that [[chord diagrams modulo 4T are Jacobi diagrams modulo
 <img src="https://ncatlab.org/nlab/files/ChordDiagModulo4TAreJAcobiDiagModuloSTU.jpg" width="840">
 </center>
 
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 ### Relation to knot-graph complex
 
