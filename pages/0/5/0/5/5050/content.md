@@ -20,7 +20,7 @@ A [[manifold]] is a [[topological space]] that is locally isomorphic to a [[Cart
 
 A **manifold with [[boundary]]** is a topological space that is locally isomorphic either to an $\mathbb{R}^n$ or to a **half-space** $H^n = \{ \vec x \in \mathbb{R}^n | x^n \geq 0\}$.
 
-A **manifold with corners** is a topological space that is locally isomorphic to an $H^n_i = \{ \vec x \in \mathbb{R}^n | x^i , x^{i+1}, \cdots, x^n \geq 0\}$ for $0 \leq i \leq n$.
+A **manifold with corners** is a topological space that is locally isomorphic to an $H^n_i = \{ \vec x \in \mathbb{R}^n | x^{i+1}, \cdots, x^n \geq 0\}$ for $0 \leq i \leq n$.
 
 For details see at _[[manifold]]_.
 
