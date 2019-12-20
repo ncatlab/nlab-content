@@ -30,7 +30,7 @@ The [[fuzzy funnel]] [[noncommutative geometry]] of transveral $D3 \bot D5$-bran
 > graphics grabbed from [Fazzi 17](#Fazzi17)
 
 
-## Related cocepts
+## Related concepts
 
 [[!include brane bound states -- table]]
 
