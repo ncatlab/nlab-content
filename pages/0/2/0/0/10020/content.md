@@ -91,7 +91,11 @@ Discussion of the [[Ising model]] [[2d CFT]] as a boundary theory to a 3d [[TQFT
 
 * {#FreedTeleman18} [[Daniel Freed]], [[Constantin Teleman]], _Topological dualities in the Ising model_ ([arXiv:1806.00008](https://arxiv.org/abs/1806.00008))
 
+[[!include 3d gravity and Chern-Simons theory -- references]]
+
 ### $AdS_3$/$CFT_2$
+
+Discussion of [[AdS/CFT correspondence]] for [[3d gravity]]/[[2d CFT]]:
 
 * [[Andrea Prinsloo]], [[Vidas Regelskis]], [[Alessandro Torrielli]], _Integrable open spin-chains in AdS3/CFT2_ ([arXiv:1505.06767](http://arxiv.org/abs/1505.06767))
 
