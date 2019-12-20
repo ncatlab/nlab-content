@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On the [[non-abelian DBI action]]:
+
+* [[Eric Bergshoeff]], [[Adel Bilal]], M. de Roo and A. Sevrin, _Supersymmetric non-abelian Born-Infeld revisited_, JHEP 0107, 029 (2001) ([arXiv:hep-th/0105274](https://arxiv.org/abs/hep-th/0105274))
+
 
 On [[black brane|black]]$\,$[[D8-brane]]-solutions in [[massive type IIA supergravity]]/[[massive type IIA string theory]]:
 
