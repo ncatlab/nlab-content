@@ -1074,6 +1074,8 @@ Computations of flat Chern-Simons/[[Dijkgraaf-Witten theory]] [[action functiona
 * Victor Mikhaylov, _Analytic Torsion, 3d Mirror Symmetry,
 And Supergroup Chern-Simons Theories_ ([arXiv:1505.03130](https://arxiv.org/abs/1505.03130))
 
+[[!include 3d gravity and Chern-Simons theory -- references]]
+
 
 ### On D-brane worldvolumes
  {#ReferencesOnBraneWorldvolumes}
