@@ -56,9 +56,15 @@ See also
 
 Discussion of the generalization of the DBI action to  [[non-abelian group|non-abelian]] [[Chan-Paton gauge fields]] (hence: for coincident [[D-branes]]) includes the following:
 
-A proposal for the formulation appears in 
+A proposal for the formulation by using the symmetrized trace is due to
 
 * {#Tseytlin97} [[Arkady Tseytlin]], _On non-Abelian generalization of Born-Infeld action in string theory_, Nucl.Phys. B501 (1997) 41-52 ([spire:439767](http://inspirehep.net/record/439767))
+
+followed by
+
+* [[Robert Myers]], _Dielectric-Branes_, JHEP 9912 (1999) 022 ([arXiv:hep-th/9910053](https://arxiv.org/abs/hep-th/9910053))
+
+  (introducing the [[Myers effect]])
 
 Review includes:
 
@@ -68,13 +74,29 @@ Issues with this proposal at higher order have been found in
 
 * [[Akikazu Hashimoto]], [[Washington Taylor]], _Fluctuation Spectra of Tilted and Intersecting D-branes from the Born-Infeld Action_, Nucl. Phys. B503: 193-219, 1997 ([arXiv:hep-th/9703217](https://arxiv.org/abs/hep-th/9703217))
 
-
 * [[Eric Bergshoeff]], [[Adel Bilal]], M. de Roo and A. Sevrin, _Supersymmetric non-abelian Born-Infeld revisited_, JHEP 0107, 029 (2001) ([arXiv:hep-th/0105274](https://arxiv.org/abs/hep-th/0105274))
 
+* P. Bain, _On the non-abelian Born-Infeld action_, In: L. Baulieu , [[Michael Green]], Picco M., Windey P. (eds.) _Progress in String Theory and M-Theory_. NATO Science Series (Series C: Mathematical and Physical Sciences), vol 564. Springer, Dordrecht ([arXiv:hep-th/9909154](https://arxiv.org/abs/hep-th/9909154), [doi:10.1007/978-94-010-0852-5_12](https://doi.org/10.1007/978-94-010-0852-5_12))
 
+Correction terms have been proposed in
+
+* {#TaylorVanRaamsdonk99} [[Washington Taylor]], [[Mark Van Raamsdonk]], _Multiple D$p$-branes in Weak Background Fields_, Nucl. Phys. B573:703-734, 2000 ([arXiv:hep-th/9910052](https://arxiv.org/abs/hep-th/9910052))
 
 
 For actual derivation of [[gauge enhancement]] on coincident D-branes see the references [there](enhanced+gauge+symmetry#ReferencesOnCoincidentDBranes).
+
+### Single trace observables as weight systems on chord duagrams
+
+Relation of [[single trace observables]] in the [[non-abelian DBI action]] on [[Dp-D(p+2)-brane bound states]] ([hence](Dp-Dp+2-brane+bound+states#ReferencesRelationToMonopoles)
+[[Yang-Mills monopoles]]) to [[su(2)]]-[[Lie algebra weight systems]] on [[chord diagrams]] computing [[radii]] averages of [[fuzzy spheres]]:
+
+* {#RamgoolamSpenceThomas04} [[Sanyaje Ramgoolam]], [[Bill Spence]], S. Thomas, Section 3.2 of: _Resolving brane collapse with $1/N$ corrections in non-Abelian DBI_, Nucl. Phys. B703 (2004) 236-276 ([arxiv:hep-th/0405256](https://arxiv.org/abs/hep-th/0405256))
+
+* {#McNamaraPapageorgakis05} [[Simon McNamara]], [[Constantinos Papageorgakis]], [[Sanyaje Ramgoolam]], [[Bill Spence]], Appendix A of: _Finite $N$ effects on the collapse of fuzzy spheres_, JHEP 0605:060, 2006 ([arxiv:hep-th/0512145](https://arxiv.org/abs/hep-th/0512145))
+
+* {#McNamara06} [[Simon McNamara]], Section 4 of: _Twistor Inspired Methods in Perturbative FieldTheory and Fuzzy Funnels_, 2006 ([spire:1351861](http://inspirehep.net/record/1351861), [pdf](https://strings.ph.qmul.ac.uk/sites/default/files/Mcnamaraphd.pdf), [[McNamara06.pdf:file]])
+
+* [[Constantinos Papageorgakis]], p. 161-162 of: _On matrix D-brane dynamics and fuzzy spheres_, 2006 ([[Papageorgakis06.pdf:file]])
 
 [[!redirects DBI action]]
 [[!redirects DBI-action]]
@@ -83,7 +105,17 @@ For actual derivation of [[gauge enhancement]] on coincident D-branes see the re
 [[!redirects non-abelian DBI-action]]
 
 [[!redirects DBI field theory]]
+[[!redirects DBI field theories]]
+
+[[!redirects nonabelian DBI field theory]]
+[[!redirects nonabelian DBI field theories]]
 [[!redirects non-abelian DBI field theory]]
+[[!redirects non-abelian DBI field theories]]
+
+[[!redirects nonabelian Born-Infeld action]]
+[[!redirects nonabelian Born-Infeld actions]]
+[[!redirects non-abelian Born-Infeld action]]
+[[!redirects non-abelian Born-Infeld actions]]
 
 [[!redirects Dirac-Born-Infeld action functional]]
 [[!redirects DBI action functional]]
