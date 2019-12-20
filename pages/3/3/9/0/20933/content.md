@@ -348,7 +348,8 @@ In **summary** we have the following situation:
 <img src="https://ncatlab.org/nlab/files/TheGrandStoryOfVassilievKnotInvariants.jpg" width="800">
 </center>
 
-> graphics taken from [Sati-Schreiber 19b]()
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
 
 ## Related theorems
 
