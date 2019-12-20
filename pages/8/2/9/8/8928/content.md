@@ -177,6 +177,9 @@ More recent developments include
 
 * {#CKJN18} Sunjin Choi, Joonho Kim, Seok Kim, June Nahmgoong, _Large AdS black holes from QFT_ ([arxiv:1810.12067](https://arxiv.org/abs/1810.12067))
 
+* Behnam Pourhassan, Mubasher Jamil, Mir Faizal, _Black Remnants from T-Duality_ ([arXiv:1912.09235](https://arxiv.org/abs/1912.09235))
+
+
 ### Black holes in supergravity
 
 Black holes in [[supergravity]]:
