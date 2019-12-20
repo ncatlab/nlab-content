@@ -4,7 +4,7 @@ Physicist at the University of California, Santa Barbara.
 
 ##Selected writings
 
-An elaboration of [[Murray Gell-Mann|Murray Gell-Mann's]] _Nature Conformable to Herself_ ([Gell-Mann 96](https://ncatlab.org/nlab/show/Murray+Gell-Mann#Gell-Mann96))
+An elaboration of [[Murray Gell-Mann|Murray Gell-Mann's]] _[[Nature conformable to herself]]_ ([Gell-Mann 96](https://ncatlab.org/nlab/show/Murray+Gell-Mann#Gell-Mann96))
 
 * [[James Hartle]], _How Nature is Conformable to Herself: A View from Quantum Cosmology_, ([arXiv:1909.08724](https://arxiv.org/abs/1909.08724))
 
