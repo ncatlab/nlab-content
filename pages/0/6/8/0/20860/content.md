@@ -71,6 +71,8 @@ and by the [[STU relations]]
 
 respectively.
 
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
 ## Statement
  {#Statement}
 
@@ -97,7 +99,8 @@ The key step of the **proof** is to observe that the [[STU-relations]] imply the
 <img src="https://ncatlab.org/nlab/files/STURelationImplies4TRelation.jpg" width="350">
 </center>
 
-> graphics from [Sati-Schreiber 19]()
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
 
 ## Application
 
