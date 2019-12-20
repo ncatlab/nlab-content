@@ -9,7 +9,7 @@
 =--
 =--
 
-#Moduli space of curves and#
+#Moduli space of curves#
 * table of contents
 {:toc}
 
