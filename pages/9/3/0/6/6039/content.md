@@ -507,3 +507,7 @@ and for the non-abelian case:
 
 [[!redirects Chan-Paton gauge bundle]]
 [[!redirects Chan-Paton gauge bundles]]
+
+[[!redirects Chan-Paton factor]]
+[[!redirects Chan-Paton factors]]
+
