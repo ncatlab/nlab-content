@@ -267,7 +267,7 @@ The lift of [[Dp-D(p+2)-brane bound states]] in [[string theory]] to [[M2-M5-bra
 
 ### Single trace observables as weight systems on chord duagrams
 
-Relation of [[single trace observables]] on [[Dp-D(p+2)-brane bound states]] ([hence](Dp-Dp+2-brane+bound+states#ReferencesRelationToMonopoles)
+Relation of [[single trace observables]] in the [[non-abelian DBI action]] on [[Dp-D(p+2)-brane bound states]] ([hence](Dp-Dp+2-brane+bound+states#ReferencesRelationToMonopoles)
 [[Yang-Mills monopoles]]) to [[su(2)]]-[[Lie algebra weight systems]] on [[chord diagrams]] computing [[radii]] averages of [[fuzzy spheres]]:
 
 * {#RamgoolamSpenceThomas04} [[Sanyaje Ramgoolam]], [[Bill Spence]], S. Thomas, Section 3.2 of: _Resolving brane collapse with $1/N$ corrections in non-Abelian DBI_, Nucl. Phys. B703 (2004) 236-276 ([arxiv:hep-th/0405256](https://arxiv.org/abs/hep-th/0405256))
