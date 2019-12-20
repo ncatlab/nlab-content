@@ -51,6 +51,10 @@ As spikes/BIons in the [[D3-brane]] [[DBI action|DBI-theory]]:
 
 * [[Gary Gibbons]], _Born-Infeld particles and Dirichlet p-branes_,  	Nucl. Phys. B514: 603-639, 1998 ([arXiv:hep-th/9709027](https://arxiv.org/abs/hep-th/9709027))
 
+from the [[M5-brane]]:
+
+* {#HoweLambertWest97} [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _The Self-Dual String Soliton_, Nucl. Phys. B515 (1998) 203-216 ([arXiv:hep-th/9709014](https://arxiv.org/abs/hep-th/9709014))
+
 
 #### As fuzzy funnels (D1-brane perspective)
 
