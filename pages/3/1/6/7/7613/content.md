@@ -233,6 +233,15 @@ A key ingredient of [[M-theory]] is supposedly the physics of [[intersecting bra
 
 \linebreak
 
+
+[Taylor-VanRaamsdonk 99, p. 1](Dirac-Born-Infeld+action#TaylorVanRaamsdonk99):
+
+> For a system of multiple D$p$-branes, the world-volume action is much less well understood than for a single brane. The extension of $[$  the [[super Yang-Mills theory|super Yang-Mills action]] $]$ to a full super-symmetric or [[kappa-symmetry|κ-symmetric]] [[nonabelian Born-Infeld action]] is not known. 
+
+> $[$the proposal by [Tseytlin 97](Dirac-Born-Infeld+action#Tseytlin97)$]$ has not yet been derived from any more fundamental principles
+
+\linebreak
+
 [Schwarz 01, Section 2](Dirac-Born-Infeld+action#Schwarz01):
 
 > The explicit construction of such an action is a difficult problem that has been studied extensively (starting with [17]), but is not yet completely settled.
