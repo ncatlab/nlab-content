@@ -231,7 +231,7 @@ For transversal [[D2-D4-brane bound states]] (with an eye towards [[AdS/QCD]]):
 
 For transversal [[D3-D5 brane intersections]]:
 
-* {#GaiottoWitten08} [[Davide Gaiotto]], [[Edward Witten]], _Supersymmetric Boundary Conditions in N=4 Super Yang-Mills Theory_, J Stat Phys (2009) 135: 789 ([arXiv:0804.2902](https://arxiv.org/abs/0804.2902))
+* {#GaiottoWitten08} [[Davide Gaiotto]], [[Edward Witten]], Section 2.4 of: _Supersymmetric Boundary Conditions in N=4 Super Yang-Mills Theory_, J Stat Phys (2009) 135: 789 ([arXiv:0804.2902](https://arxiv.org/abs/0804.2902))
 
 For transversal [[D6-D8 brane intersections]] (with an eye towards [[AdS/QCD]]):
 
