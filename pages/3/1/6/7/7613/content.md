@@ -165,7 +165,8 @@ On the other hand, parts of the physics-minded literature tends to forget or dow
 
 The following is a collection of quotes from authors that highlight the open problem:
 
-\linebreak
+### General
+
 
 [Duff 96, totality of Section 6](#Duff96):
 
@@ -224,6 +225,26 @@ The following is a collection of quotes from authors that highlight the open pro
 [Witten 19, USN Interview](Edward+Witten#WhatIsMissing):
 
 > I actually believe that string/M-theory is on the right track toward a deeper explanation.  But at a very fundamental level it’s not well understood. And I’m not even confident that we have a good concept of what sort of thing is  missing or where to find it. The reason I am not is that in hindsight it is clear the view given in the 1980s of what is missing was too narrow. Instead of discovering what we thought was missing, we broadened the picture in the 90s, in unexpected directions.
+
+
+### Non-abelian DBI-action
+
+A key ingredient of [[M-theory]] is supposedly the physics of [[intersecting branes]] with [[gauge enhancement]] in their [[worldvolume]] [[super Yang-Mills theory]]/[[DBI field theory]]. But the actual derivation or even formulation of the expected [[non-abelian DBI action]] remains open:
+
+\linebreak
+
+[Schwarz 01, Section 2](Dirac-Born-Infeld+action#Schwarz01):
+
+> The explicit construction of such an action is a difficult problem that has been studied extensively (starting with [17]), but is not yet completely settled.
+
+\linebreak
+
+[Chemissany 04, p. 5 (7 of 84)](Dirac-Born-Infeld+action#Chemissany04)
+
+> Several attempts to generalize the Born-Infeld action describing on D-brane to non-Abelian action describing a stack of them have been made. The proper (perhaps closed) form of it is however not known up to date.
+
+
+
 
 ## Related entries
 
