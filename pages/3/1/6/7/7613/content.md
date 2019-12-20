@@ -241,7 +241,7 @@ A key ingredient of [[M-theory]] is supposedly the physics of [[intersecting bra
 
 [Chemissany 04, p. 5 (7 of 84)](Dirac-Born-Infeld+action#Chemissany04)
 
-> Several attempts to generalize the Born-Infeld action describing on D-brane to non-Abelian action describing a stack of them have been made. The proper (perhaps closed) form of it is however not known up to date.
+> Several attempts to generalize the Born-Infeld action describing one D-brane to non-Abelian action describing a stack of them have been made. The proper (perhaps closed) form of it is however not known up to date.
 
 
 
