@@ -26,6 +26,8 @@ In [[F-theory]] these are the degenration loci of the [[axio-dilaton]] [[ellipti
 
 * [[D1-D7 brane bound state]]
 
+* [[D3-D7 brane bound state]]
+
 ### Relation to other branes
 
 [[!include F-branes -- table]]
