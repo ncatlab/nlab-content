@@ -16,7 +16,7 @@ on [[homotopy theory]], [[higher algebra]] and [[higher category theory]].
 
 1. [[Anthony Bahri]], [[Martin Bendersky]], and [[Fred Cohen]], _Polyhedral products and features of their homotopy theory_, ([arXiv:1903.04114](https://arxiv.org/abs/1903.04114))
 
-1. [[Paul Balmer]], _A guide to tensor-triangular classification_, ([pdf](http://www.math.ucla.edu/~balmer/Pubfile/HTHandbook-tt-guide.pdf))
+1. [[Paul Balmer]], _A guide to tensor-triangular classification_, ([arXiv:1912.08963](https://arxiv.org/abs/1912.08963))
 
 1. [[Tobias Barthel]] and [[Agnès Beaudry]], _Chromatic structures in stable homotopy theory_, ([arXiv:1901.09004](https://arxiv.org/abs/1901.09004))
 
