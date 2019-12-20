@@ -160,3 +160,10 @@ On [[black brane|black]]$\;$[[D4-D8-brane bound states]] in [[massive type IIA s
 
 [[!redirects AdS3-CFT2]]
 [[!redirects AdS3/CFT2]]
+
+
+[[!redirects AdS3/CFT2 duality]]
+[[!redirects AdS3-CFT2 duality]]
+[[!redirects AdS3/CFT2 dualities]]
+[[!redirects AdS3-CFT2 dualities]]
+
