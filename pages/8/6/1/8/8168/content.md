@@ -13,6 +13,11 @@ Introducing the [[fuzzy 4-sphere]]:
 
   (via [[D5-branes]])
 
+On the [[non-abelian DBI action]] for [[intersecting branes]] with non-abelian [[gauge enhancement]] on their worldvolume:
+
+* [[Akikazu Hashimoto]], [[Washington Taylor]], _Fluctuation Spectra of Tilted and Intersecting D-branes from the Born-Infeld Action_, Nucl. Phys. B503: 193-219, 1997 ([arXiv:hep-th/9703217](https://arxiv.org/abs/hep-th/9703217))
+
+
 On [[D0-D6 brane bound states]]:
 
 * [[Washington Taylor]], _Adhering 0-branes to 6-branes and 8-branes_, Nucl. Phys. B508: 122-132, 1997 ([arXiv:hep-th/9705116](https://arxiv.org/abs/hep-th/9705116))
