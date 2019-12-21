@@ -56,6 +56,7 @@ Actually, all three possibilities discussed by Kant appear in modern mathematics
 #### Transcendental Logic
 
 Achourioti and van Lambalgen (June and November 2011) offered a formalization of Kant's logic in terms of [[geometric logic]].
+For the development of Kant's distinction between general logic and transcendental logic Kant's _[[Attempt to Introduce the Concept of Negative Quantities into Philosophy]]_ from 1763 constitutes a crucial step.
 
 ###Transcendental Doctrine of Methods
 
