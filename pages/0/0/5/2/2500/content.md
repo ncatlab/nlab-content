@@ -499,14 +499,19 @@ A survey of the [[Chern-Simons gravity]]-style action functionals for supergravi
 
 The idea of supergravity was proposed by
 
-* [D.V. Volkov](http://ivv5hpp.uni-muenster.de/u/douplii/volkov), V.P. Akulov, _Possible universal neutrino interaction_, ZhETF Pis. Red. (JETP Letters, AIP translation), 16, n.11 (1972) 621 ([pdf](http://www.jetpletters.ac.ru/ps/1766/article_26864.shtml))
+* [[Dmitry Volkov]], V.P. Akulov, _Possible universal neutrino interaction_, ZhETF Pis. Red. (JETP Letters, AIP translation), 16, n.11 (1972) 621 ([pdf](http://www.jetpletters.ac.ru/ps/1766/article_26864.shtml))
 
 followed up by the first model of supergravity (in nonlinear realization) constructed in 
 
-* [D.V. Volkov](http://ivv5hpp.uni-muenster.de/u/douplii/volkov) and [V.A. Soroka](http://ivv5hpp.uni-muenster.de/u/douplii/soroka), _Higgs effect for Goldstone particles with spin 1/2_, ZhETF Pis. Red. (JETP Letters, AIP translation), 18, n.8 (1973) 529 ([pdf](https://www.jetpletters.ac.ru/ps/1568/article_24038.shtml))  
+* [[Dmitry Volkov]] and [[Vyacheslav Soroka]], _Higgs effect for Goldstone particles with spin 1/2_, ZhETF Pis. Red. (JETP Letters, AIP translation), 18, n.8 (1973) 529 ([pdf](https://www.jetpletters.ac.ru/ps/1568/article_24038.shtml))  
 
-However, the term "supergravity" was coined later by Freedman, van Nieuwenhuizen, and Ferrara (see below), whose work on supergravity is regarded as foundational for the subject
-([discussion](http://www.researchgate.net/post/Supergravity_was_discovered_by_DV_Volkov_and_VA_Soroka_in_1973_wasnt_it) and explanation ([pdf](http://www.slideshare.net/duplij/s-duplij-supergravity-was-discovered-by-dv-volkov-and-va-soroka-in-1973-wasnt-it))).
+However, the term "supergravity" was coined later by
+[Freedman, Nieuwenhuizen, Ferrara 76](#FreedmanNieuwenhuizenFerrara76), whose work on supergravity is regarded as foundational for the subject.
+
+This early history is discussed in
+
+* [[Steven Duplij]], _Supergravity was discovered by D.V. Volkov and V.A. Soroka in 1973, wasn't it?_, East Eur. J. Phys., v3, p. 81-82 (2019) ([arXiv:1910.03259](https://arxiv.org/abs/1910.03259))
+ 
 
 Supergravity, in the guise of [[4d supergravity]], was first found (constructed) in
 
@@ -518,23 +523,24 @@ Accounts of the early history include the following:
 * [[Sergio Ferrara]], _Supergravity and the quest for a unified theory_ ([arxiv:hep-th/9405065](https://arxiv.org/abs/hep-th/9405065))
 
 
-* [D.V. Volkov](http://ivv5hpp.uni-muenster.de/u/douplii/volkov), _Supergravity before 1976_,
+* [[Dmitry Volkov]], _Supergravity before 1976_,
 International Conference on the History of Original Ideas and Basic Discoveries in Particle Physics, Erice, 1994 ([Springer, Chapter](http://link.springer.com/chapter/10.1007/978-1-4613-1147-8_34) or [arXiv:hep-th/9410024](http://arxiv.org/abs/hep-th/9410024))
 
 * R. Arnowitt, [[Ali Chamseddine]], Pran Nath, _The Development of Supergravity Grand Unification: Circa 1982-85_ ([arXiv:1206.3175](http://arxiv.org/abs/1206.3175))
 
-* [D.V. Volkov](http://ivv5hpp.uni-muenster.de/u/douplii/volkov), _Supergravity before and after 1976. The story of goldstonions_, in  [Concise Encyclopedia of Supersymmetry,
+* [[Dmitry Volkov]], _Supergravity before and after 1976. The story of goldstonions_, in  [Concise Encyclopedia of Supersymmetry,
 S. Duplij, J. Bagger, W. Siegel (Eds.), Springer, 2004](http://www.springer.com/gp/book/9781402013386) or [arXiv:hep-th/9404153](http://arxiv.org/abs/hep-th/9404153)
 
 * David Appell, _When supergravity was born_, 2012 ([pdf](http://www.davidappell.com/articles/PWSep12appell-supergravity.pdf))
 
 * [[Peter van Nieuwenhuizen]], _Aspects of supergravity_, 2014 ([pdf](http://media.scgp.stonybrook.edu/presentations/20140109_vanNieuwenhuizen.pdf))
 
-* [V.A. Soroka](http://ivv5hpp.uni-muenster.de/u/douplii/soroka), _The Sources of Supergravity_ in [The Supersymmetric World. The Beginnings of the Theory, G. Kane and M. Shifman (Eds.), World Scientific, 2000](http://www.worldscientific.com/doi/10.1142/9789812385505_0011) or [arXiv:hep-th/0203171](https://arxiv.org/abs/hep-th/0203171)
+* [[Vyacheslav Soroka]], _The Sources of Supergravity_ in [The Supersymmetric World. The Beginnings of the Theory, G. Kane and M. Shifman (Eds.), World Scientific, 2000](http://www.worldscientific.com/doi/10.1142/9789812385505_0011) or [arXiv:hep-th/0203171](https://arxiv.org/abs/hep-th/0203171)
 
 * [[Sergio Ferrara]], A. Sagnotti, _Supergravity at 40: Reflections and Perspectives_, Based in part on the talk delivered by S. F. at the "Infeld Colloquium and Discrete", in Warsaw, on December 1 2016, and on a joint CERN Courier article. Dedicated to [[John Schwarz]] on the occasion of his 75-th birthday ([arXiv:1702.00743](https://arxiv.org/abs/1702.00743))
 
 * [[Stanley Deser]], _A brief history of Supergravity: the first three weeks_ ([arXiv:1704.05886](https://arxiv.org/abs/1704.05886))
+
 
 ### Related
 
@@ -551,9 +557,7 @@ Further physics monographs on supergravity include
 
 The [[Cauchy problem]] for classical solutions of simple supergravity has been discussed in
 
-* [[Yvonne Choquet-Bruhat]], 
-  _[[The Cauchy Problem in Classical Supergravity]]_
-  Letters in Mathematical Physics 7 (1983) 459-467. 0377
+* [[Yvonne Choquet-Bruhat]], _[[The Cauchy Problem in Classical Supergravity]]_, Letters in Mathematical Physics 7 (1983) 459-467. 0377
 
 A canonical textbook reference for the role of Calabi-Yau manifolds in compactifications of 10-dimensional [[supergravity]] is volume II, starting on page 1091 in
 
