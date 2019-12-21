@@ -213,6 +213,9 @@ spacetime of an [[M2-brane]].
 ### $AdS_3 / CFT_2$ -- Horizon limit of D$p$-D($p+k$) brane bound states
  {#AdS3CFT2}
 
+(for more see at _[[AdS3-CFT2 and CS-WZW correspondence]]_)
+
+
 [[D1-D5 brane system]] in [[type IIB string theory]]
 
 ([Maldacena 97, section 4](#Maldacena97a))
@@ -227,9 +230,7 @@ spacetime of an [[M2-brane]].
 
 ([Dibitetto-Petri 18](#DibitettoPetri18), ...)
 
-see also at _[[AdS3-CFT2 and CS-WZW correspondence]]_
 
-(...)
 
 ### Non-conformal duals
 
@@ -369,7 +370,7 @@ Surveys and introductions include
 
 * {#Natsuume15} [[Makoto Natsuume]], _AdS/CFT Duality User Guide_, Lecture Notes in Physics 903, Springer 2015 ([arXiv:1409.3575](https://arxiv.org/abs/1409.3575))
 
-* wikipedia: [AdS/CFT correspondence](http://en.wikipedia.org/wiki/AdS/CFT_correspondence)
+* Wikipedia: [AdS/CFT correspondence](http://en.wikipedia.org/wiki/AdS/CFT_correspondence)
 
 * an AdS/CFT [bibliography](http://www.personal.uni-jena.de/~p5thul2/notes/adscft.html)
 
