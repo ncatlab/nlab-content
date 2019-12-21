@@ -40,7 +40,7 @@ In other words, where default [[homotopy type theory]] has [[categorical semanti
 
 * More recently the proposals of [ACK](#ACK17) simply assumes [[uniqueness of identity proofs]] for the exact equality; this seems to suffice for most if not all purposes.
 
-* [[computational type theory|Computational]] [[cubical type theory]] can also include  a non-fibrant layer: its syntax is interpreted as cubical sets, where "fibrancy" is a *defined* condition on pretypes (existence of Kan operations).
+* [[computational type theory|Computational]]  [[cubical type theory]] can also include  a non-fibrant layer: its syntax is interpreted as cubical sets, where "fibrancy" is a *defined* condition on pretypes (existence of Kan operations).
 
 ## Applications
 
