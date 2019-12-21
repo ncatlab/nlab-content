@@ -69,13 +69,13 @@ The concept of real opposition preserving (the reality of) the opposites positiv
 
 * {#Giovanelli15} M. Giovanelli, *Trendelenburg and the Concept of Negation in Post-Kantian Philosophy*, to appear in Munk (ed.), *Proceedings of the Amsterdam 2010 Colloquium: Natur des Denkens und das Denken der Natur: Spinoza, Trendelenburg und H. Cohen*. ([draft](https://www.dropbox.com/s/mxm4db8id7je924/Giovanelli%2C%20Marco%20-%20Trendenleburg%20and%20the%20Concept%20of%20Negation%20in%20Post-Kantian%20Philosophy%20Proceedings%20of%20the%20Connference.pdf?dl=0))
 
-* {#Kaestner58} Abraham Gotthelf K&#228;stner, _Anfangsgr&#252;nde der Arithmetik, Algebra, Geometrie, ebenen und sph&#228;rischen Trigonometrie, und Perspectiv_ , G&#246;ttingen 1758. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/toc/?PID=PPN812429885))
+* {#Kaestner58} Abraham Gotthelf K&#228;stner, _Anfangsgr&#252;nde der Arithmetik, Algebra, Geometrie, ebenen und sph&#228;rischen Trigonometrie, und Perspectiv_, G&#246;ttingen 1758. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/toc/?PID=PPN812429885))
 
-* Sre&#263;ko Kova&#269;, _In what sense is Kantian principle of contradiction non-classical?_ , Logic and Logical Philosophy **17** (2008) pp.251-274. ([link](http://dx.doi.org/10.12775/LLP.2008.013))
+* Sre&#263;ko Kova&#269;, _In what sense is Kantian principle of contradiction non-classical?_, Logic and Logical Philosophy **17** (2008) pp.251-274. ([link](http://dx.doi.org/10.12775/LLP.2008.013))
 
-* {#Rosenkranz40} [[Karl Rosenkranz]], _Geschichte der Kant'schen Schule_ , Akademie-Verlag Berlin 1987[1840].
+* {#Rosenkranz40} [[Karl Rosenkranz]], _Geschichte der Kant'schen Schule_, Akademie-Verlag Berlin 1987[1840].
 
-* {#Wolff10} Michael Wolff, _Der Begriff des Widerspruchs - Eine Studie zur Dialektik Kants und Hegels_ , Frankfurt UP &#178;2010.
+* {#Wolff10} Michael Wolff, _Der Begriff des Widerspruchs - Eine Studie zur Dialektik Kants und Hegels_, Frankfurt UP &#178;2010.
 
 
 
