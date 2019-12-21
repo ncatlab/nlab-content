@@ -13,7 +13,7 @@ Let $\pi: E \to B$ be a [[principal bundle|principal]] $G$-[[fiber bundle]] whic
 $$\array{
 X & \overset{f}{\to} & E \\
 i_0 \downarrow & & \downarrow \pi \\
-X \times I & \underset{\phi}{\to} B
+X \times I & \underset{\phi}{\to} & B
 }$$ 
 
 where $i_0$ is the composite inclusion $X \cong X \times \{0\} \hookrightarrow X \times I$. We are trying to show that $\phi$ lifts through $\pi$. 
