@@ -15,7 +15,7 @@ Very important class are so called __orthogonal polynomials__; they are neatly c
 
 Some other important special functions include [[gamma function]], [[Euler beta function]], [[theta functions]] ( [[Jacobi theta functions]], [[elliptic theta functions]]), Weierstrass elliptic $\mathcal{P}$-function, elliptic integrals, hyperelliptic integrals, [[mock theta functions]], [[Riemann zeta function]], ultraspherical polynomials, Whittaker functions, [[Airy funtion]], [[dilogarithm]], [[Bessel functions]]...
 
-...and $q$-version of many of the mentioned functions (e.g. Ramanujan's $q$/beta integral); 
+...and $q$-version of many of the mentioned functions (e.g. [[Ramanujan]]'s $q$/beta integral); 
 
 ...many interesting functions with parametyers or with many variables (e.g. Hall polynomials, [[Macdonald polynomial]]s, Kostka polynomials...). 
 
