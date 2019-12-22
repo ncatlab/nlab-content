@@ -38,7 +38,7 @@ $$
   RFib(C) \simeq \infty Func(C^{op}, \infty Grpd)
 $$
 
-between [[right fibration]]s [[fibrations of quasi-categories|of quasi-categories]] and [[(∞,1)-functor]]s to [[? Grpd]], while the full Grothendieck construction for [[(∞,1)-categories]] constitutes an equivalence 
+between [[right fibration]]s [[fibrations of quasi-categories|of quasi-categories]] and [[(∞,1)-functor]]s to [[∞Grpd]], while the full Grothendieck construction for [[(∞,1)-categories]] constitutes an equivalence 
 
 $$
   CartFib(C) \simeq \infty Func(C^{op}, (\infty,1)Cat)
