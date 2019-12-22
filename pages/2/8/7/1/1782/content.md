@@ -429,6 +429,12 @@ implementing a suggestion stated in
 
 * {#Drinfeld03} [[Vladimir Drinfeld]], _Infinite-dimensional vector bundles in algebraic geometry (an introduction)_ ([arXiv:math/0309155](http://arxiv.org/abs/math/0309155))
 
+### Equivariant versions
+
+Refinement to [[global equivariant stable homotopy theory]]:
+
+* [[Stefan Schwede]], _Global algebraic K-theory_ ([arXiv:1912.08872](https://arxiv.org/abs/1912.08872))
+
 ### Examples
 
 * {#Ananyevskiy} Alexey Ananyevskiy, _On the algebraic $K$-theory of some homogeneous varieties_ ([pdf](http://www.math.uni-bielefeld.de/lag/man/431.pdf))
