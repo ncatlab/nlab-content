@@ -329,6 +329,11 @@ Discussion from a perspective of [[homotopy type theory]] is in
 
 * {#Shulman15} [[Mike Shulman]], _Univalence for inverse EI diagrams_ ([arXiv:1508.02410](http://arxiv.org/abs/1508.02410))
 
+The example of global equivariant [[algebraic K-theory]]:
+
+* [[Stefan Schwede]], _Global algebraic K-theory_ ([arXiv:1912.08872](https://arxiv.org/abs/1912.08872))
+
+
 [[!redirects global homotopy theory]]
 
 [[!redirects global equivariant homotopy category]]
