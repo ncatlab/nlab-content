@@ -103,6 +103,10 @@ Discussion for collections of [[finite group|finite]] [[subgroups]] includes
 
 * [[Markus Hausmann]], _Symmetric spectra model global homotopy theory of finite groups_ ([arXiv:1509.09270](http://arxiv.org/abs/1509.09270))
 
+The example of [[algebraic K-theory]]:
+
+* [[Stefan Schwede]], _Global algebraic K-theory_ ([arXiv:1912.08872](https://arxiv.org/abs/1912.08872))
+
 
 [[!redirects global stable homotopy theory]]
 [[!redirects global equivariant homotopy theory]]
