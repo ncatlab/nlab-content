@@ -469,7 +469,7 @@ In [[Penrose notation]] ([[string diagram]]-notation), the trilinear bracket ind
 
 With Prop. \ref{M2Brane3AlgebrasEquivalentToMetricLieRepresentation} this shows that M2-brane 3-algebras are equivalently the datum that [[Lie algebra weight systems]] on ([[horizontal chord diagram|horizontal]]) [[chord diagrams]] assign to a single chord.
 
-> from [Sati-Schreiber 19]()
+> from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 
 ## References
