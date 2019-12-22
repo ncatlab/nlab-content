@@ -14,6 +14,11 @@ On [[Yang-Mills monopoles]]:
 
 * {#GibbonsManton86} [[Gary Gibbons]], [[Nicholas Manton]], _Classical and Quantum Dynamics of BPS Monopoles_, Nucl. Phys. B274 (1986) 183-224 ([spire:18322](http://inspirehep.net/record/18322), <a href="https://doi.org/10.1016/0550-3213(86)90624-3">doi:10.1016/0550-3213(86)90624-3</a>)
 
+*  [[Gary Gibbons]] and M.~C.~Werner,
+  Applications of the Gauss-Bonnet theorem to gravitational lensing,
+  Class. Quant. Grav. 25, 235009 (2008).
+ arXiv:0807.0854 [gr-qc].
+
 
 ## Related $n$Lab entries
 
