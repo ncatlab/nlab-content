@@ -16,6 +16,23 @@ A **linearly compact vector space** over a field $k$ is a topological vector spa
 * Any family of closed affine subspaces with the finite intersection property has nonempty intersection.
 * The topology is Hausdorff. 
 
+More generally, a __linearly compact module__ $M$
+over a [[topological ring]] $R$
+is a Hausdorff linearly topologized
+(meaning there is a basis of neighborhoods
+of 0 consisting of open submodules)
+such that every family of closed cosets
+with the finite intersection property
+(meaning finite subfamilies have nonempty intersections)
+has nonempty intersection.
+
+## Examples
+
+Every [[pseudocompact module]] is linearly compact.
+
+## Related concepts
+
+* [[pseudocompact module]]
 
 ## Literature
 
