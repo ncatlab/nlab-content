@@ -1,7 +1,15 @@
 
 * [webpage](http://www.weizmann.ac.il/particle/content/micha-berkooz)
 
+
+
+
 ## Selected writings
+
+On [[thermal AdS3]]/[[BTZ black holes]]:
+
+* [[Micha Berkooz]], Zohar Komargodski, Dori Reichmann, _Thermal $AdS_3$, BTZ and competing winding modes condensation_, JHEP 0712:020, 2007 ([arXiv:0706.0610](https://arxiv.org/abs/0706.0610))
+
 
 On [[weight systems]] on [[chord diagrams]] as [[single trace observables]] in [[SYK-model]]-like [[AdS-CFT duality|dual]] descriptions of [[black hole thermodynamics]] (see at [[weight systems on chord diagrams in physics]]):
 
