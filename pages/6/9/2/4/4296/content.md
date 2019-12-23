@@ -86,16 +86,14 @@ The _[[virtually fibered conjecture]]_ says that every closed, irreducible, ator
 
 ## References
 
-The quote of Hatcher is from 
+### General
 
-* {#Hatcher}  [[Allen Hatcher]], _The classification of 3-manifolds -- a brief overview_, ([pdf](https://www.math.cornell.edu/~hatcher/Papers/3Msurvey.pdf)). 
- 
 
-A classic set of notes that was later typed up is
+Review:
 
 * {#Thurston80} [[William Thurston]], _Geometry and topology of three-manifolds_ (1980), electronic version 1.1 (2002) available from MSRI ([web](http://library.msri.org/books/gt3m/))
 
-See also
+* {#Hatcher}  [[Allen Hatcher]], _The classification of 3-manifolds -- a brief overview_, ([pdf](https://www.math.cornell.edu/~hatcher/Papers/3Msurvey.pdf)). 
 
 * {#Martelli16} Bruno Martelli, _An Introduction to Geometric Topology_ ([arXiv:1610.02592](https://arxiv.org/abs/1610.02592))
 
@@ -106,5 +104,17 @@ See also
 See also
 
 * {#BottCattaneo98} [[Raoul Bott]], [[Alberto Cattaneo]], _Integral Invariants of 3-Manifolds_, J. Diff. Geom., 48 (1998) 91-133 ([arXiv:dg-ga/9710001](https://arxiv.org/abs/dg-ga/9710001))
+
+### Hyperbolic 3-manifolds
+
+On [[hyperbolic 3-manifolds]]:
+
+* [[William Thurston]], _Hyperbolic Structures on 3-manifolds, I: Deformation of acylindrical manifolds_, Annals of Math, 124 (1986), 203--246 ([jstor:1971277](https://www.jstor.org/stable/1971277), [arXiv:math/9801019](https://arxiv.org/abs/math/9801019))
+
+* [[William Thurston]], _Hyperbolic Structures on 3-manifolds, II: Surface groups and 3-manifolds which fiber over the circle_ ([arXiv:math/9801045](https://arxiv.org/abs/math/9801045))
+
+* [[William Thurston]], _Three dimensional manifolds, Kleinian groups and hyperbolic geometry_, Bull. Amer. Math. Soc. (N.S.) Volume 6, Number 3 (1982), 357-381 ([euclid.bams/1183548782](https://projecteuclid.org/euclid.bams/1183548782))
+
+
 
 [[!redirects 3-manifolds]]
