@@ -1,15 +1,21 @@
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition
 
 A [[topological module]] over a [[topological ring]]
-is __pseudocompact__ if it is isomorphic
-to the [[limit]] in the category of [[topological modules]]
-of discrete [[topological modules]] of finite length
+is __pseudocompact__ if it is [[isomorphism|isomorphic]]
+to the [[limit]] in the [[category]] of [[topological modules]]
+of [[discrete topological space|discrete]] [[topological modules]] of finite length
 (meaning there is an upper bound on the length of
 increasing chains of submodules).
 
 Equivalently, a pseudocompact module $M$
-is a complete Hausdorff [[topoological module]] that
-has a basis of neighborhood of 0
+is a complete Hausdorff [[topological module]] that
+has a [[basis of neighborhoods]] of 0
 consisting of open submodules $P$ such that
 $M/P$ has finite length.
 
