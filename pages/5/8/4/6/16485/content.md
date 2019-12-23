@@ -1,4 +1,6 @@
-# Linearly compact vector spaces, modules, rings, objects
+# Linearly compact vector spaces, modules, rings, objects#
+* table of contents
+{:toc}
 
 ## Motivation
 
