@@ -53,7 +53,7 @@ For the moment see at _[[volume conjecture]]_.
 
 * [[William Thurston]], _Hyperbolic Structures on 3-manifolds, II: Surface groups and 3-manifolds which fiber over the circle_ ([arXiv:math/9801045](https://arxiv.org/abs/math/9801045))
 
-* [[William Thurston]], _Three dimensional manifolds, Kleinian groups and hyperbolic geometry_, Bull. Amer. Math. Soc. (N.S.) Volume 6, Number 3 (1982), 357-381 ([euclid.bams/1183548782](https://projecteuclid.org/euclid.bams/1183548782))
+* {#Thurston82} [[William Thurston]], _Three dimensional manifolds, Kleinian groups and hyperbolic geometry_, Bull. Amer. Math. Soc. (N.S.) Volume 6, Number 3 (1982), 357-381 ([euclid.bams/1183548782](https://projecteuclid.org/euclid.bams/1183548782))
 
 See also
 
