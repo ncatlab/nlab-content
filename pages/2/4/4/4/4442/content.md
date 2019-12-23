@@ -446,6 +446,11 @@ and on its analog of [[holographic entanglement entropy]]:
 
 * Tarek Anous, Joanna L. Karczmarek, Eric Mintun, [[Mark Van Raamsdonk]], Benson Way, _Areas and entropies in BFSS/gravity duality_ ([arXiv:1911.11145](https://arxiv.org/abs/1911.11145))
 
+On [[AdS2/CFT1]] on [[D1-D3 brane intersections]]:
+
+* [[Giuseppe Dibitetto]], Yolanda Lozano, [[Nicolò Petri]], Anayeli Ramirez, _Holographic Description of M-branes via $AdS_2$_ ([arXiv:1912.09932](https://arxiv.org/abs/1912.09932))
+
+
 ### On $AdS_3 / CFT_2$
  {#ReferencesAdS3CFT2}
 
