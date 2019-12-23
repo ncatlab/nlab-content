@@ -64,7 +64,7 @@ Such approximate version of [[AdS-CFT]] for gauge theories realized on intersect
 
 The [[single trace operators]]/observables in [[conformal field theories]] such as [[super Yang-Mills theories]] play a special role in the [[AdS-CFT correspondence]]: They correspond to single [[string]] excitations on the [[AdS spacetime|AdS]]-[[supergravity]] side of the correspondence, where, curiously, the "string of characters/letters" in the argument of the trace gets literally mapped to a [[superstring]] in [[spacetime]] (see the references [below](#ReferencesRelationToStringExcitations)).
 
-From [Polyakov 02](#Polyakov02), referring to gauge fields and their single trace operators as _letter_ and _words_, respectively:
+From [Polyakov 02](#Polyakov02), referring to gauge fields and their [[single trace operators]] as _letter_ and _words_, respectively:
 
 > The picture which slowly arises from the above considerations is that of the space-time gradually disappearing in the regions of large curvature. The natural description in this case is provided by a gauge theory in which the basic objects are the texts formed from the gauge-invariant words. The theory provides us with the expectation values assigned to the various texts, words and sentences.
 
@@ -230,6 +230,11 @@ spacetime of an [[M2-brane]].
 
 ([Dibitetto-Petri 18](#DibitettoPetri18), ...)
 
+### $AdS_2 / CFT_1$
+ {#AdS2CFT1}
+
+see at _[[nearly AdS2/CFT1]]_
+
 
 
 ### Non-conformal duals
@@ -394,11 +399,11 @@ Review of [[lattice gauge theory]]-numerics:
 Review of [[Yangian]] symmetry:
 
 
-* [[Alessandro Torrielli]], _Yangians, S-matrices and AdS/CFT_,	  J.Phys.A44:263001,2011 ([arXiv:1104.2474](http://arxiv.org/abs/1104.2474))
+* [[Alessandro Torrielli]], _Yangians, S-matrices and AdS/CFT_,	  J. Phys. A44: 263001, 2011 ([arXiv:1104.2474](http://arxiv.org/abs/1104.2474))
 
 ### On single trace operators
 
-The correspondence of single trace operators to [[superstring]] excitations under the [[AdS-CFT correspondence]] originates with these articles:
+The correspondence of [[single trace operators]] to [[superstring]] excitations under the [[AdS-CFT correspondence]] originates with these articles:
 
 * {#Polyakov02} [[Alexander Polyakov]], _Gauge Fields and Space-Time_, Int. J. Mod. Phys. A17S1 (2002) 119-136 ([arXiv:hep-th/0110196](https://arxiv.org/abs/hep-th/0110196))
 
@@ -430,29 +435,15 @@ Review includes
 * {#BeisertEtAl10} [[Niklas Beisert]], [[Luis Alday]], [[Radu Roiban]], [[Sakura Schafer-Nameki]], [[Matthias Staudacher]], [[Alessandro Torrielli]], [[Arkady Tseytlin]], et. al., _Review of AdS/CFT Integrability: An Overview_, Lett. Math. Phys. 99, 3 (2012) ([arXiv:1012.3982](https://arxiv.org/abs/1012.3982))
 
 
-### On $AdS_2 / CFT_1$
- {#ReferencesAdS2CFT1}
+[[!include AdS2-CFT1 -- references]]
 
-
-On [[Jackiw-Teitelboim gravity]] dual to [[random matrix theory]]:
-
-* {#AlmheiriPolchinski14} [[Ahmed Almheiri]], [[Joseph Polchinski]], _Models of $AdS_2$ Backreaction and Holography_, J. High Energ. Phys. (2015) 2015: 14. ([arXiv:1402.6334](https://arxiv.org/abs/1402.6334))
-
-On  $AdS_2/CFT_1$ with the [[BFSS matrix model]] on the CFT side and [[black hole in string theory|black hole-like solutions]] in [[type IIA supergravity]] on the AdS side:
-
-* [[Juan Maldacena]], Alexey Milekhin, _To gauge or not to gauge?_, JHEP 04 (2018) 084 ([arxiv:1802.00428](https://arxiv.org/abs/1802.00428))
-
-and on its analog of [[holographic entanglement entropy]]:
-
-* Tarek Anous, Joanna L. Karczmarek, Eric Mintun, [[Mark Van Raamsdonk]], Benson Way, _Areas and entropies in BFSS/gravity duality_ ([arXiv:1911.11145](https://arxiv.org/abs/1911.11145))
-
-On [[AdS2/CFT1]] on [[D1-D3 brane intersections]]:
-
-* [[Giuseppe Dibitetto]], Yolanda Lozano, [[Nicolò Petri]], Anayeli Ramirez, _Holographic Description of M-branes via $AdS_2$_ ([arXiv:1912.09932](https://arxiv.org/abs/1912.09932))
 
 
 ### On $AdS_3 / CFT_2$
  {#ReferencesAdS3CFT2}
+
+(For more see the references at _[[AdS3/CFT2]]_.)
+
 
 An exact correspondence of the symmetric [[orbifold]] [[CFT]] of [[Liouville theory]] with a string theory on $AdS_3$ is claimed in:
 
