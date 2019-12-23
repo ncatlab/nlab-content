@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+
+General aspects of [[nearly AdS2-CFT1]] ([[JT-gravity]]/matrix models):
+
+* [[Juan Maldacena]], [[Douglas Stanford]], [[Zhenbin Yang]], _Conformal symmetry and its breaking in two dimensional Nearly Anti-de-Sitter space_ ([arXiv:1606.01857](https://arxiv.org/abs/1606.01857))
+
 On [[random matrix theory]] applied to [[AdS/CFT]] and [[black holes in string theory]]:
 
 via the [[SYK model]]:
