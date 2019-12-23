@@ -518,7 +518,7 @@ Notice that
    $$
      Hom_{\mathcal{D}}(L(-),d)
      \;\in\;
-     [\mathcal{D}^{op}, Set]
+     [\mathcal{C}^{op}, Set]
    $$
 
    is [[representable functor|represented]] by the object $R(d)$, and [[natural transformation|naturally]] so. 
@@ -528,9 +528,9 @@ Notice that
    $$
      y 
        \;\colon\;
-     \mathcal{D}
+     \mathcal{C}
       \hookrightarrow
-     [\mathcal{D}^{op}, Set]
+     [\mathcal{C}^{op}, Set]
    $$ 
 
    we have 
