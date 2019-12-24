@@ -56,7 +56,6 @@ with an eye towards [[black hole entropy]] computed via [[AdS3/CFT2]]:
 * {#Kraus06} [[Per Kraus]], _Lectures on black holes and the $AdS_3/CFT_2$ correspondence_,  Lect. Notes Phys. 755: 193-247, 2008 ([arXiv:hep-th/0609074](https://arxiv.org/abs/hep-th/0609074))
 
 
-See also
 
 * {#Gukov03} [[Sergei Gukov]], Appendix A of: _Three-Dimensional Quantum Gravity, Chern-Simons Theory, and the A-Polynomial_, Commun. Math. Phys. 255: 577-627, 2005 ([arXiv:hep-th/0306165](https://arxiv.org/abs/hep-th/0306165))
 
@@ -67,7 +66,16 @@ See also
 
   (relation to [[holographic entanglement entropy]])
 
+* Ingmar Akira Saberi, around Figure 4.3 of: _Knots, Trees, and Fields: Common Ground Between Physics and Mathematics_ ([doi:10.7907/Z9VX0DHZ](https://thesis.library.caltech.edu/9896), [pdf](https://thesis.library.caltech.edu/9896/1/Saberi_Ingmar_2016.pdf))
+
+  (with generalization to [[p-adic string theory]])
+
+See also:
+
 * Wikipedia, _[BTZ black hole](http://en.wikipedia.org/wiki/BTZ_black_hole)_
+
+
+
 
 
 
