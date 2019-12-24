@@ -23,6 +23,12 @@ Every [[hyperbolic 3-manifold]] is [[isometry|isometric]] to the [[quotient spac
 
 ## Related concepts
 
+* [[hyperbolic solid torus]]
+
+  * [[BTZ black hole]]
+
+  * [[thermal AdS3]]
+
 * [[hyperbolic plane]]
 
 ## References
