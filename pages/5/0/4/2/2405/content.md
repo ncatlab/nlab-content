@@ -87,4 +87,10 @@ See also
 
 * [[Jean-Benoit Bost]], [[Klaus Künnemann]], _Hermitian vector bundles and extension groups on arithmetic schemes. II. The arithmetic Atiyah extension_ ([arXiv:0807.4374](http://arxiv.org/abs/0807.4374))
 
+### Relation to AdS3/CFT2
+
+Relation of [[AdS3/CFT2]] to [[hyperbolic geometry]] and [[Arakelov geometry]] of [[algebraic curves]]:
+
+* [[Yuri Manin]], [[Matilde Marcolli]], _Holography principle and arithmetic of algebraic curves_, Adv. Theor. Math. Phys. 5 (2002) 617-650 ([arXiv:hep-th/0201036](https://arxiv.org/abs/hep-th/0201036)
+
 [[!redirects Arakelov theory]]
