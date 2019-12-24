@@ -88,6 +88,8 @@ The further introduction of [[intersecting D-brane model|intersecting]] [[D8-bra
 <img src="https://ncatlab.org/nlab/files/D8D6NS5.jpg" width="380"/>
 </div>
 
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
 Here we are showing
 
 1. the [[color charge|color]] [[D4-branes]];
