@@ -25,9 +25,11 @@
 
 ### Euclidean BTZ is hyperbolic solid torus
 
-The [[Euclidean field theory|Euclidean]] [[BTZ black hole]] is a [[hyperbolic 3-manifold]] [[homeomorphism|homeomorphic]] to (the [[interior]] of) the [[solid torus]], hence to the [[knot complement]] of the [[unknot]] in the [[3-sphere]].
+The [[Euclidean field theory|Euclidean]] [[BTZ black hole]] is a [[hyperbolic 3-manifold]] [[homeomorphism|homeomorphic]] to (the [[interior]] of) the [[hyperbolic solid torus]], hence to the [[knot complement]] of the [[unknot]] in the [[3-sphere]].
 
 (e.g [Gukov 03, appendix A](#Gukov03), [Kraus 06, around Fig. 1](#Kraus06), [BKR 07, 2.1](#BKR07))
+
+Notice that the [[volume]] of the [[hyperbolic solid torus]] is _not [[finite number|finite]]_.  Therefore this [[hyperbolic 3-manifold]] [[knot complement]] does not count as a "knot complement with hyperbolic structure" in the sense of [[William Thurston|Thurston]]'s [[classification of 3-manifolds]] (see also [this MO discussion](https://mathoverflow.net/q/302038/381)).
 
 ## Related concepts
 
