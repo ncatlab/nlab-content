@@ -83,6 +83,26 @@ Let $F: C^{op} \times C \to X$ be a functor. An **end** of $F$ is a universal we
 
 Dually, a cowedge is given by maps $F(c, c) \to w$ satisfying similar commutativity conditions, and a coend is a universal cowedge.
 
+#### Ends as right adjoint functors
+
+In complete analogy to how [[limits]] are right adjoint functors
+to the diagonal functor,
+ends are right adjoint functors to the hom functor.
+
+In more detail, suppose $C$ and $X$ are categories.
+
+If any diagram $C^{op}\times C\to X$ admits an end,
+then we have a functor
+$$end\colon Fun(C^{op}\times C,X)\to X$$
+whose left adjoint is the hom functor
+$$hom\colon X\to Fun(C^{op}\times C,X)$$
+that sends an object $x\in X$
+to the functor $hom(x)\colon C^{op}\times C\to X$
+that sends $(c,d)$ to $\coprod_{hom(c,d)}x=hom(c,d)\otimes x$.
+(For coends one uses $x^{hom(c,d)}$ instead.)
+
+This immediately implies a Fubini theorem for ends and coends.
+
 ### In enriched category theory
 
 There is a definition of _end_ in [[enriched category theory]], as follows. 
