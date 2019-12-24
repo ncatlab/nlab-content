@@ -124,7 +124,7 @@ For more see at _[[weight systems on chord diagrams in physics]]_.
 <img src="https://ncatlab.org/nlab/files/WeightSystemsAsShapeObservabesOnFuzzySphere.jpg" width="400">
 </div>
 
-> graphics grabbed from [Sati-Schreiber 19b]()
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 \linebreak
 
