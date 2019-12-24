@@ -23,7 +23,7 @@
 
 ## Idea
 
-The term _tensor network_ has become popular in [[quantum physics]] for essentially what in [[monoidal category|monoidal]] [[category theory]] is referred to a _[[string diagrams]]_.
+The term _tensor network_ has become popular in [[quantum physics]] for essentially what in [[mathematical physics]] is known as _[[Penrose notation]]_ and in [[monoidal category|monoidal]] [[category theory]] is referred to as _[[string diagrams]]_.
 
 The term rose to prominence in [[quantum physics]] partly with discussion of [[finite quantum mechanics in terms of dagger-compact categories]] but then mainly via its use in [[holographic entanglement entropy]]
 
@@ -61,7 +61,10 @@ In this context the [[Ryu-Takayanagi formula]] for [[holographic entanglement en
 
 ### General
 
-* Jacob Biamonte, Ville Bergholm, _Tensor Networks in a Nutshell_, Contemporary Physics ([arxiv:1708.00006](https://arxiv.org/abs/1708.00006))
+* [[Jacob Biamonte]], Ville Bergholm, _Tensor Networks in a Nutshell_, Contemporary Physics ([arxiv:1708.00006](https://arxiv.org/abs/1708.00006))
+
+* {#Biamonte19} [[Jacob Biamonte]], _Lectures on Quantum Tensor Networks_ ([arXiv:1912.10049](https://arxiv.org/abs/1912.10049))
+
 
 Relation to [[spin chains]]:
 
