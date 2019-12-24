@@ -94,6 +94,8 @@ For more on this see at _[[weight systems on chord diagrams in physics]]_.
 <img src="https://ncatlab.org/nlab/files/WeightSystemsAsShapeObservabesOnFuzzySphere.jpg" width="400">
 </div>
 
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
 We discuss how the [[single trace observables]] on the [[fuzzy 2-sphere]]-sections  of [[Dp-D(p+2) brane intersection]] [[fuzzy funnels]] are given by [[su(2)]]-[[Lie algebra weight systems]] on [[chord diagrams]] (following [Ramgoolam-Spence-Thomas 04](#RamgoolamSpenceThomas04), [McNamara-Papageorgakis 05](#McNamaraPapageorgakis05), see [McNamara 06, Section 4](#McNamara06) for review).
 
 \linebreak
