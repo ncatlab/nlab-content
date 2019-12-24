@@ -97,6 +97,8 @@ Asymptotically anti-de Sitter spaces play a central role in the realization of t
 
 ## Related concepts
 
+* [[thermal AdS3]]
+
 * [[anti de Sitter group]]
 
 * [[de Sitter spacetime]]
