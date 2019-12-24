@@ -47,9 +47,17 @@ The [[Mostow rigidity theorem]] states that every [[hyperbolic manifold]] of [[d
 
 ## Examples
 
+* [[hyperbolic plane]]
+
 * [[hyperbolic 3-manifold]]
 
   * [[hyperbolic 3-space]]
+
+  * [[hyperbolic solid torus]]
+
+    * [[BTZ black hole]]
+
+    * [[thermal AdS3]]
 
 
 ## Related concepts
