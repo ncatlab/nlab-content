@@ -628,7 +628,9 @@ The standard reference is
 
 * [Ends](http://golem.ph.utexas.edu/category/2014/01/ends.html), $n$-Category Caf&#233; discussion.
 
-* {#Fosco} [[Fosco Loregian]], _This is the (co)end, my only (co)friend_ ([arXiv](http://arxiv.org/abs/1501.02503)).
+A textbook account is available in the book
+
+* {#Fosco} [[Fosco Loregian]], _Coend calculus_ ([arXiv](http://arxiv.org/abs/1501.02503)).
 
 Application in [[conformal field theory]]:
 
