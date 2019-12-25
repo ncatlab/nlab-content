@@ -24,6 +24,12 @@ On the [[AdS-CFT correspondence]]:
 * {#AharonyGubserMaldacenaOoguriOz99} [[Ofer Aharony]], [[Steven Gubser]], [[Juan Maldacena]], [[Hirosi Ooguri]], [[Yaron Oz]], _Large $N$ Field Theories, String Theory and Gravity_, Phys.Rept.323:183-386,2000 ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
 
 
+On [[AdS3-CFT2]] for [[D1/D5 brane bound states]] and [[black hole entropy]] [[black holes in string theory|in string theory]]:
+
+* [[Robbert Dijkgraaf]], [[Juan Maldacena]], [[Gregory Moore]], [[Erik Verlinde]], _A Black Hole Farey Tail_ ([arXiv:hep-th/0005003](https://arxiv.org/abs/hep-th/0005003), [spire:526744](http://inspirehep.net/record/526744))
+
+
+
 General aspects of [[nearly AdS2-CFT1]] ([[JT-gravity]]/matrix models):
 
 * [[Juan Maldacena]], [[Douglas Stanford]], [[Zhenbin Yang]], _Conformal symmetry and its breaking in two dimensional Nearly Anti-de-Sitter space_ ([arXiv:1606.01857](https://arxiv.org/abs/1606.01857))
@@ -34,7 +40,7 @@ On  [[AdS2/CFT1]] with the [[BFSS matrix model]] on the CFT side and [[black hol
 
 Claim that the proper application of [[holographic entanglement entropy]] to the discussion of [[Bekenstein-Hawking entropy]] resolves the apparent [[black hole information paradox]]:
 
-* [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _Replica Wormholes and the Entropy of Hawking Radiation_ ([arXiv"1911.12333](https://arxiv.org/abs/1911.12333))
+* [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _Replica Wormholes and the Entropy of Hawking Radiation_ ([arXiv:1911.12333](https://arxiv.org/abs/1911.12333))
 
 
 ## Related entries
