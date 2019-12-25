@@ -51,6 +51,9 @@ The [[Euclidean field theory|Euclidean]] [[BTZ black hole]] as well as [[thermal
 ### As BTZ black hole and thermal $AdS_3$
 
 
+* [[Kirill Krasnov]], _Holography and Riemann Surfaces_, Adv. Theor. Math. Phys. 4 (2000) 929-979 ([arXiv:hep-th/0005106](https://arxiv.org/abs/hep-th/0005106))
+
+* [[Kirill Krasnov]], around Figure 6 of: _Analytic Continuation for Asymptotically AdS 3D Gravity_, Class. Quant. Grav. 19 (2002) 2399-2424 ([arXiv:gr-qc/0111049](https://arxiv.org/abs/gr-qc/0111049))
 
 
 * {#Gukov03} [[Sergei Gukov]], Appendix A of: _Three-Dimensional Quantum Gravity, Chern-Simons Theory, and the A-Polynomial_, Commun. Math. Phys. 255: 577-627, 2005 ([arXiv:hep-th/0306165](https://arxiv.org/abs/hep-th/0306165))
