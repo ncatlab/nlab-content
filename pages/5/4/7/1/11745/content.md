@@ -1,6 +1,6 @@
 
 
-* [Wikipedia entry]
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Suren_Arakelov)
 
 ## related $n$Lab entries
 
