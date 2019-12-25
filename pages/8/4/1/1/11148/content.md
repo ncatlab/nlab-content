@@ -46,11 +46,23 @@ The original articles:
 * [[Máximo Bañados]], [[Marc Henneaux]], [[Claudio Teitelboim]], [[Jorge Zanelli]], 
 _Geometry of the 2+1 Black Hole_, Phys. Rev. D48: 1506-1525, 1993 ([arXiv:gr-qc/9302012](https://arxiv.org/abs/gr-qc/9302012))
 
+Further discussion:
+
+* Stefan Aminneborg, Ingemar Bengtsson, Dieter Brill, Soren Holst, Peter Peldan,
+_Black Holes and Wormholes in 2+1 Dimensions_, Class. Quant. Grav. 15 (1998) 627-644 ([arXiv:gr-qc/9707036](https://arxiv.org/abs/gr-qc/9707036))
+
+
+* Dieter Brill, _Black Holes and Wormholes in 2+1 Dimensions_, In: Cotsakis S., Gibbons G.W. (eds) _Mathematical and Quantum Aspects of Relativity and Cosmology_. Lecture Notes in Physics, vol 537. Springer, Berlin, Heidelberg
+ ([arXiv:gr-qc/9904083](https://arxiv.org/abs/gr-qc/9904083), [doi:10.1007/3-540-46671-1_6](https://doi.org/10.1007/3-540-46671-1_6)
+)
+
 
 
 ### Euclidean BTZ black holes
 
 Discussion of [[Euclidean field theory|Euclidean]] [[BTZ black holes]]/[[thermal AdS3]] (the [[hyperbolic solid torus]]), partly with an eye towards [[black hole entropy]] computed via [[AdS3/CFT2]]:
+
+* [[Kirill Krasnov]], _Holography and Riemann Surfaces_, Adv. Theor. Math. Phys. 4 (2000) 929-979 ([arXiv:hep-th/0005106](https://arxiv.org/abs/hep-th/0005106))
 
 * [[Kirill Krasnov]], around Figure 6 of: _Analytic Continuation for Asymptotically AdS 3D Gravity_, Class. Quant. Grav. 19 (2002) 2399-2424 ([arXiv:gr-qc/0111049](https://arxiv.org/abs/gr-qc/0111049))
 
