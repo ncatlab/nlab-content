@@ -65,3 +65,4 @@ One can add additional terms arriving at what is called _massive 3d gravity mode
 
  
 [[!redirects 3d gravity]]
+[[!redirects D=3 gravity]]
