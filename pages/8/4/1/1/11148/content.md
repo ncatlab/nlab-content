@@ -39,17 +39,18 @@ Notice that the [[volume]] of the [[hyperbolic solid torus]] is _not [[finite nu
 
 ### General
 
-The original articles:
+The original BTZ black hole with trivial internal topology is due to:
 
 * [[Máximo Bañados]], [[Claudio Teitelboim]], [[Jorge Zanelli]], _The Black Hole in Three Dimensional Space Time_, Phys. Rev. Lett. 69 (1992) 1849-1851 ([arXiv:hep-th/9204099](https://arxiv.org/abs/hep-th/9204099))
 
 * [[Máximo Bañados]], [[Marc Henneaux]], [[Claudio Teitelboim]], [[Jorge Zanelli]], 
 _Geometry of the 2+1 Black Hole_, Phys. Rev. D48: 1506-1525, 1993 ([arXiv:gr-qc/9302012](https://arxiv.org/abs/gr-qc/9302012))
 
-Further discussion:
+The generalization to arbitrary black holes in 2+1-dimensional AdS gravity, with generally non-trivial internal topology:
 
-* Stefan Aminneborg, Ingemar Bengtsson, Dieter Brill, Soren Holst, Peter Peldan,
-_Black Holes and Wormholes in 2+1 Dimensions_, Class. Quant. Grav. 15 (1998) 627-644 ([arXiv:gr-qc/9707036](https://arxiv.org/abs/gr-qc/9707036))
+* Stefan Aminneborg, [[Ingemar Bengtsson]], Dieter Brill, Soren Holst, Peter Peldan, _Black Holes and Wormholes in 2+1 Dimensions_, Class. Quant. Grav. 15 (1998) 627-644 ([arXiv:gr-qc/9707036](https://arxiv.org/abs/gr-qc/9707036))
+
+* Stefan Aminneborg, [[Ingemar Bengtsson]], Soren Holst, _A Spinning Anti-de Sitter Wormhole_, Class. Quant. Grav. 16 (1999) 363-382 ([arXiv:gr-qc/9805028](https://arxiv.org/abs/gr-qc/9805028))
 
 
 * Dieter Brill, _Black Holes and Wormholes in 2+1 Dimensions_, In: Cotsakis S., Gibbons G.W. (eds) _Mathematical and Quantum Aspects of Relativity and Cosmology_. Lecture Notes in Physics, vol 537. Springer, Berlin, Heidelberg
@@ -65,6 +66,9 @@ Discussion of [[Euclidean field theory|Euclidean]] [[BTZ black holes]]/[[thermal
 * [[Kirill Krasnov]], _Holography and Riemann Surfaces_, Adv. Theor. Math. Phys. 4 (2000) 929-979 ([arXiv:hep-th/0005106](https://arxiv.org/abs/hep-th/0005106))
 
 * [[Kirill Krasnov]], around Figure 6 of: _Analytic Continuation for Asymptotically AdS 3D Gravity_, Class. Quant. Grav. 19 (2002) 2399-2424 ([arXiv:gr-qc/0111049](https://arxiv.org/abs/gr-qc/0111049))
+
+* [[Kirill Krasnov]], _Black Hole Thermodynamics and Riemann Surfaces_, Class. Quant. Grav. 20 (2003) 2235-2250 ([arXiv:gr-qc/0302073](https://arxiv.org/abs/gr-qc/0302073))
+ 
 
 
 * {#Gukov03} [[Sergei Gukov]], Appendix A of: _Three-Dimensional Quantum Gravity, Chern-Simons Theory, and the A-Polynomial_, Commun. Math. Phys. 255: 577-627, 2005 ([arXiv:hep-th/0306165](https://arxiv.org/abs/hep-th/0306165))
