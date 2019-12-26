@@ -95,6 +95,8 @@ For more see
 * {#GelcaUribe10b} [[Razvan Gelca]], [[Alejandro Uribe]], section 4 of _Quantum mechanics and non-abelian theta functions for the gauge group $SU(2)$_ ([arXiv:1007.2010](http://arxiv.org/abs/1007.2010))
 
 
+[[!include Jones polynomial as Wilson loop observable -- references]]
+
 [[!include Chern-Simons Wilson lines in AdS3-CFT2 -- references]]
 
 ### In QFT with defects
