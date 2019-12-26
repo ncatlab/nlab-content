@@ -12,5 +12,9 @@ Discussion of [[Euclidean field theory|Euclidean]] [[BTZ black holes]]/[[thermal
 
 * [[Kirill Krasnov]], _Black Hole Thermodynamics and Riemann Surfaces_, Class. Quant. Grav. 20 (2003) 2235-2250 ([arXiv:gr-qc/0302073](https://arxiv.org/abs/gr-qc/0302073))
 
+On the exact [[gauge group]] of the [[standard model of particle physics]] (see [there](standard+model+of+particle+physics#GaugeGroup)) as [[isomorphism|isomorphic]] to the [[subgroup]] of [[Spin(9)]]  which respects a splitting $\mathbb{H} \oplus \mathbb{H} \simeq_{\mathbb{R}} \mathbb{C} \oplus \mathbb{C}^3$:
+
+* {#Krasnov19} [[Kirill Krasnov]], _$SO(9)$ characterisation of the Standard Model gauge group_ ([arXiv:1912.11282](https://arxiv.org/abs/1912.11282))
+
 
 category: people
