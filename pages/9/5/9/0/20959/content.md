@@ -140,10 +140,12 @@ Quantum Field Theory; General Relativity; Quantum Mechanics
 
 *Master Students: Elif Şahin (2017); Kemal Gültekin (2016); Özer Özdal (2016); Ozan Sargın (2014); Tuğrul Güner (2014); Aslı Altaş (2013); Onur Tosun (2012); Selin Soysal (2012); Hale Sert (2010); Canan Karahan (2010); Aslı Sabancı (2008); Alper Hayreter (2008); Hanif Tanyıldızı (2007); Beyhan Puliçe (2006); Sevdiye Mutlu (2006); Altan Çakır (2006)
 
-*Bachelor Students: Ceren Bayraktar (2019); Uğurcan Erdem (2013); Habib Gültekin (2011); Ali Övgün (2010); Göktuğ Karpat (2007); Banu Yaman (2005); Aslı Uğur (2004)
+*Bachelor Students: Ceren Bayraktar (2019); Uğurcan Erdem (2013); Habib Gültekin (2011); [[Ali Övgün]] (2010); Göktuğ Karpat (2007); Banu Yaman (2005); Aslı Uğur (2004)
 
 *Bachelor TÜBİTAK Projects: [Onur Akbal, Onur Benli, Mehmet Günay] (2009-2010); [Onur Tosun, Seçil Gürkan] (2008-2009); [Günnur Görücü, Serap Yiğen] (2006-2008); [Ozan Arslan, Tuna Demircik, Durmuş Karabacak] (2006-2008)
 
 [Homepage](http://myweb.sabanciuniv.edu/durmusdemir/)
 [Wikipedia](https://en.wikipedia.org/wiki/Durmus_A._Demir)
 [Google Scholar](https://scholar.google.com/citations?user=P2e-HFIAAAAJ&hl=tr&oi=ao)
+
+category: people
