@@ -1834,6 +1834,7 @@ More:
 
 [[!redirects knot graph complex]]
 [[!redirects knot graph complexes]]
+[[!redirects knot graph cohomology]]
 
 
 [[!redirects knot-graph complex]]
