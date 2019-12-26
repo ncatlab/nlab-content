@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On the [[Jones polynomial]] via [[Chern-Simons theory]]:
+
+* [[Jürg Fröhlich]], C. King, _The Chern-Simons theory and knot polynomials_, Comm. Math. Phys.
+Volume 126, Number 1 (1989), 167-199 ([euclid.cmp/1104179728](https://projecteuclid.org/euclid.cmp/1104179728))
+
 On [[quantum probability theory]] and the [[operator algebra]]-foundations for [[quantum physics]]:
 
 * {#FroehlichSchubnel15} [[Jürg Fröhlich]],  B. Schubnel, _Quantum Probability Theory and the Foundations of Quantum Mechanics_. In: Blanchard P., Fröhlich J. (eds.) _The Message of Quantum Science_. Lecture Notes in Physics, vol 899. Springer 2015 ([arXiv:1310.1484](https://arxiv.org/abs/1310.1484), [doi:10.1007/978-3-662-46422-9_7](https://doi.org/10.1007/978-3-662-46422-9_7))
