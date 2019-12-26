@@ -19,7 +19,7 @@ On the [[colored Jones polynomial]]:
 
 Relation of the [[colored Jones polynomial]] to [[Lie algebra weight systems]] on [[chord diagrams]]:
 
-* [[Dror Bar-Natan]], [[Stavros Garoufalidis]], _On the Melvin–Morton–Rozansky conjecture_, Invent math (1996) 125: 103 ([doi:10.1007/s002220050070](https://doi.org/10.1007/s002220050070))
+* [[Dror Bar-Natan]], [[Stavros Garoufalidis]], _On the Melvin–Morton–Rozansky conjecture_, Invent math (1996) 125: 103 ([doi:10.1007/s002220050070](https://doi.org/10.1007/s002220050070), [[BarNatanGaroufaldis96.pdf:file]])
 
 On the [[complex volume]] of [[hyperbolic 3-manifolds]] and the [[volume conjecture]]:
 
