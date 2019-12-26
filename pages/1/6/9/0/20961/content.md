@@ -1,4 +1,4 @@
-[[!redirects Ali Ovgun]]
+
 
 
 
@@ -11,7 +11,7 @@ Ali Övgün - Mustafa Halilsoy - Yavuz Nutku-
 **Ali Övgün** was born in 1988 in North Cyprus. He graduated from  Girne 19 Mayıs Türk Maarif Koleji in 2005.
 
 He attended İzmir Institute of Technology (IZTECH), Turkey as an undergraduate, earning a B.Sc. in Physics in 2010
-under the advisor of Prof. Dr. Durmuş Ali Demir.  
+under the advisor of Prof. Dr. [[Durmuş Ali Demir]].  
 
 He spent a year at the  University of Southampton, England, , to gain experience in astroparticle physics via SEPnet Ph.D. Scholarships in 2011. He  then returned to Eastern  Mediterranean University (EMU), North Cyprus, to complete his M.Sc. in 2013 and Ph.D.in Physics in 2016 under the supervisor of Prof. Dr. Mustafa Halilsoy and Prof. Dr. İzzet Sakallı. 
 
@@ -90,4 +90,8 @@ He is studying this relationship further in order to understand the deep connect
 [Webpage](https://aovgun.weebly.com/)
 [ArXiv](https://arxiv.org/a/ovgun_a_2.html)
 [Publons](https://publons.com/researcher/485929/ali-ovgun)
+
+category: people
+
+[[!redirects Ali Ovgun]]
 
