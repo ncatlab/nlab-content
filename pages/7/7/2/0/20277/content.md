@@ -45,6 +45,14 @@ $$
   }
 $$
 
+### Relation to standard model gauge group
+
+The exact [[gauge group]] of the [[standard model of particle physics]] (see [there](standard+model+of+particle+physics#GaugeGroup)) is [[isomorphism|isomorphic]] to the [[subgroup]] of the [[Jordan algebra]] [[automorphism group]] of the [[octonions|octonionic]] [[Albert algebra]] that "[[stabilizer subgroup|stabilizes]] a 4d sub-[[Minkowski spacetime]]" (see [there](Albert+algebra#StabilizerOf4dMinkowskiInsideOctonionicAlbertAlgebra) for details).
+
+   More concretely, it is identified with the [[subgroup]] of [[Spin(9)]] which respects a splitting $\mathbb{H} \oplus \mathbb{H} \simeq_{\mathbb{R}} \mathbb{C} \oplus \mathbb{C}^3$ ([Krasnov 19](#Krasnov19), see also at [SO(10)-GUT](GUT#TheGUTKnownAsSO10))
+
+
+
 ## Related concepts
 
 [[!include low dimensional rotation groups -- table]]
@@ -56,6 +64,8 @@ $$
 * {#OrneaPartonPiccinniVuletescu12} Liviu Ornea, Maurizio Parton, Paolo Piccinni, Victor Vuletescu, _Spin(9) geometry of the octonionic Hopf fibration_, ([arXiv:1208.0899](http://arxiv.org/abs/1208.0899), [doi:10.1007/s00031-013-9233-x]( https://doi.org/10.1007/s00031-013-9233-x))
 
 * Maurizio Parton, Paolo Piccinni, _The Role of Spin(9) in Octonionic Geometry_, ([arXiv:1810.06288](https://arxiv.org/abs/1810.06288))
+
+* {#Krasnov19} [[Kirill Krasnov]], _$SO(9)$ characterisation of the Standard Model gauge group_ ([arXiv:1912.11282](https://arxiv.org/abs/1912.11282))
 
 [[!redirects Spin9]]
 
