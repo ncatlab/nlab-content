@@ -26,6 +26,14 @@ The **colored Jones polynomial** of a [[knot]] or [[link]] is a generalization o
 
 ## References
 
-* Stavros Garoufalidis, Martin Loebl, _A non-commutative formula for the colored Jones function_ ([arXiv:math/0411505](https://arxiv.org/abs/math/0411505))
+* [[Stavros Garoufalidis]], Martin Loebl, _A non-commutative formula for the colored Jones function_ ([arXiv:math/0411505](https://arxiv.org/abs/math/0411505))
+
+Relation of the [[colored Jones polynomial]] to [[Lie algebra weight systems]] on [[chord diagrams]]:
+
+* [[Dror Bar-Natan]], [[Stavros Garoufalidis]], _On the Melvin–Morton–Rozansky conjecture_, Invent math (1996) 125: 103 ([doi:10.1007/s002220050070](https://doi.org/10.1007/s002220050070))
+
+
+
+
 
 [[!redirects colored Jones polynomials]]
