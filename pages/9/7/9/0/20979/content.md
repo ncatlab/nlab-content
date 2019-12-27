@@ -23,84 +23,22 @@ A _universal Vassiliev invariant_ is a [[Vassiliev knot invariant]] with [[coeff
 
 By evaluating (framed) [[weight systems]] on the [[Jacobi diagram]] [[coefficients]] of a universal Vassiliev invariant it defines a [[function]] from framed [[weight systems]] on [[Jacobi diagrams]], [[chord diagrams modulo 4T are Jacobi diagrams modulo STU|equivalently]] on [[round chord diagrams]] to actual ([[ground field]]-valued) [[Vassiliev knot invariants]].
 
-$$
-  \underset{
-    \phantom{a}
-    \atop
-    {
-      {\color{blue}framed\;weight\;systems\;on}
-      \atop
-      {\color{blue}round\;chord\;diagrams}
-    }
-  }{
-    \mathcal{W}^\bullet
-  }
-  \;\simeq\;
-  \underset{
-    \phantom{a}
-    \atop
-    {
-      {\color{blue}\weight\;systems\;on}
-      \atop
-      {\color{blue}Jacobi\;diagrams}
-    }
-  }{
-    \mathcal{W}^\bullet
-  }
-  \underoverset
-  {
-   \;\;\;\simeq\;\;\;
-  }
-  {
-    (w,\mathcal{K})
-    \mapsto
-    \left\langle
-      Tr_{{}_{w}}
-      \text{P}\exp
-      \left(
-        \int_{\mathcal{K}} A
-      \right)
-    \right\rangle
-  }
-  {
-    \longrightarrow
-  }
-  \underset{
-    \mathclap{
-    {\phantom{a}}
-    \atop
-    {
-      {\color{blue}cohomology\;of\;knot\;graph\;complex}
-      \atop
-      {\color{blue}spanned\;by\;trivalent\;graphs}
-    }
-    }
-  }{
-  C^\infty
-  \big(
-    Emb(S^1, S^3)
-  \big)
-  }
-$$
+This construction in particular yields the proof that [[weight systems are associated graded of Vassiliev invariants]].
+
+In principle there is a vector space of universal Vassiliev invariants, but all that appear in the literature tend to agree ([BNGRT 97](#BNGRT97))
+and are identified  ([AF 96](#AF96)) with the un-traced [[Wilson loop observable]] of [[perturbative quantization of 3d Chern-Simons theory|perturbative Chern-Simons theory]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/UniversalWilsonLoopObservable.jpg" width="700">
+</center>
 
 
-
-What [AF 96](#AF96) explicitly construct is a [[universal Vassiliev invariant]], which they identify with the un-traced [[Wilson loop observable]]
-
-$$
-  \mathcal{K}
-  \mapsto
-    \left\langle
-      Tr_{{}_{(w)}}
-      \text{P}\exp
-      \left(
-        \int_{\mathcal{K}} A
-      \right)
-    \right\rangle
-$$
+<center>
+<img src="https://ncatlab.org/nlab/files/TheGrandStoryOfVassilievKnotInvariants.jpg" width="800">
+</center>
 
 
-of [[perturbative quantization of 3d Chern-Simons theory|perturbative Chern-Simons theory]]. 
+> from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 
 \linebreak
@@ -350,20 +288,10 @@ According to [CCRL 02, Prop. 7.6](#CattaneoCottaRamusinoLongoni02) this map is a
 
 To see this, use 1) [AF 96, Theorem 5, Condition U2](#AF96) to find that the map is an [[injection]], and 2) the fact that [[weight systems are associated graded of Vassiliev invariants]].
 
-In **summary** we have the following situation:
 
 
-<center>
-<img src="https://ncatlab.org/nlab/files/UniversalWilsonLoopObservable.jpg" width="700">
-</center>
 
 
-<center>
-<img src="https://ncatlab.org/nlab/files/TheGrandStoryOfVassilievKnotInvariants.jpg" width="800">
-</center>
-
-
-> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 ## Related concepts
 
@@ -372,22 +300,38 @@ In **summary** we have the following situation:
 
 ## References
 
-
-* {#AF96} Daniel Altschuler, Laurent Freidel, _Vassiliev knot invariants and Chern-Simons perturbation theory to all orders_, Commun. Math. Phys. 187 (1997) 261-287 ([arXiv:q-alg/9603010](https://arxiv.org/abs/q-alg/9603010))
-
+### General
 
 
+* {#Kontsevich93} Theorem 2.3 of: [[Maxim Kontsevich]], _Vassiliev's knot invariants_, Advances in Soviet Mathematics, Volume 16, Part 2, 1993 ([pdf](http://pagesperso.ihes.fr/~maxim/TEXTS/VassilievKnot.pdf))
+
+* [[Le Tu Quoc Thang]], [[Jun Murakami]], _The universal Vassiliev-Kontsevich invariant for framed oriented links_, Compositio Math. 102 (1996), 42–64 ([arXiv:hep-th/9401016](https://arxiv.org/abs/hep-th/9401016))
+
+* [[Le Tu Quoc Thang]], [[Jun Murakami]], _Representation of the category of tangles by Kontsevich's iterated integral_, ([euclid.cmp/1104272488](https://projecteuclid.org/euclid.cmp/1104272488))
+
+
+* Daniel Altschuler, Laurent Freidel, _On Universal Vassiliev Invariants_, Commun. Math. Phys. 170 (1995) 41-62 ([arXivhep-th/9403053](https://arxiv.org/abs/hep-th/9403053))
+
+
+* {#AF96} Daniel Altschuler, Laurent Freidel, Theorem 5 of: _Vassiliev knot invariants and Chern-Simons perturbation theory to all orders_, Commun. Math. Phys. 187 (1997) 261-287 ([arXiv:q-alg/9603010](https://arxiv.org/abs/q-alg/9603010))
+
+Review:
+
+* {#BarNatanStoimenow97} [[Dror Bar-Natan]], Alexander Stoimenow, _The Fundamental Theorem of Vassiliev Invariants_ ([arXiv:q-alg/9702009](https://arxiv.org/abs/q-alg/9702009))
+
+
+### Special values
 
 
 
 
-Computation of the perturbative [[Wilson loop observable]] ([[universal Vassiliev invariant]]) of the [[unknot]] ("[[Wheels theorem]]"):
+Computation of the [[perturbative quantization of 3d Chern-Simons theory|perturbative Chern-Simons]]  [[Wilson loop observable]] ([[universal Vassiliev invariant]]) of the [[unknot]] ("[[Wheels theorem]]"):
 
-* [[Dror Bar-Natan]], Thang T Q Le, [[Dylan Thurston]], _Two applications of elementary knot theory to Lie algebras and Vassiliev invariants_, Geom. Topol. Volume 7, Number 1 (2003), 1-31 ([euclid.gt/1513883092](https://projecteuclid.org/euclid.gt/1513883092))
+* [[Dror Bar-Natan]], [[Le Tu Quoc Thang]], [[Dylan Thurston]], _Two applications of elementary knot theory to Lie algebras and Vassiliev invariants_, Geom. Topol. Volume 7, Number 1 (2003), 1-31 ([euclid.gt/1513883092](https://projecteuclid.org/euclid.gt/1513883092))
 
 following
 
-* [[Dror Bar-Natan]], [[Stavros Garoufalidis]], [[Lev Rozansky]], [[Dylan Thurston]], _Wheels, wheeling, and the Kontsevich integral of  the unknot_ ([q-alg/9703025](http://arxiv.org/abs/q-alg/9703025))
+* {#BNGRT97} [[Dror Bar-Natan]], [[Stavros Garoufalidis]], [[Lev Rozansky]], [[Dylan Thurston]], _Wheels, wheeling, and the Kontsevich integral of  the unknot_ ([q-alg/9703025](http://arxiv.org/abs/q-alg/9703025))
 
 
 
