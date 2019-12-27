@@ -7,6 +7,10 @@
 +--{: .hide}
 [[!include knot theory - contents]]
 =--
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
 =--
 =--
 
@@ -15,7 +19,11 @@
 
 ## Idea
 
-The _Wheels theorem_ says that the [[quantization of 3d Chern-Simons theory|perturbative]] [[Wilson loop observable]] ([[Kontsevich integral]]) of the [[unknot]] is, as a [[universal Vassiliev invariant]] with values in [[Jacobi diagrams]], a [[series]] of wheel-shaped [[Jacobi diagrams]] with [[coefficients]] [[modified Bernoulli numbers]].
+The _Wheels theorem_ says that the [[quantization of 3d Chern-Simons theory|perturbative]] [[Wilson loop observable]] ([[Kontsevich integral]]) of the [[unknot]] is, as a [[universal Vassiliev invariant]] with values in [[Jacobi diagrams]], a [[series]] of wheel-shaped [[Jacobi diagrams]] with [[coefficients]] the [[modified Bernoulli numbers]].
+
+## Related theorems
+
+* [[Duflo isomorphism]]
 
 ## References
 
