@@ -1,7 +1,5 @@
 
 
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -88,6 +86,24 @@ Moreover:
 If $w \in \mathcal{W}$ is a [[weight system]] and $D \in \mathcal{D}$ is a [[Jacobi diagram]] such that $w(D) \neq 0$, then its image $\left\langle Tr_{{}_{w}} \text{P}\exp \left( \int_{(-)} A \right) \right\rangle$ under the above isomorphism contains a non-vanishing multiple of $D$ as a summand.
 
 This is made explicit as [CCRL 02, Remark 7.7](#CattaneoCottaRamusinoLongoni02) and again this is implicit in the statement of [AF 96, Theorem 1](#AF96).
+
+What [AF 96](#AF96) explicitly construct is a [[universal Vassiliev invariant]], which they identify with the un-traced [[Wilson loop observable]]
+
+$$
+  \mathcal{K}
+  \mapsto
+    \left\langle
+      Tr_{{}_{(w)}}
+      \text{P}\exp
+      \left(
+        \int_{\mathcal{K}} A
+      \right)
+    \right\rangle
+$$
+
+
+of [[perturbative quantization of 3d Chern-Simons theory|perturbative Chern-Simons theory]]. 
+
 
 \linebreak
 
@@ -380,6 +396,5 @@ following
 
 
 
-[[!redirects universal Vassiliev invariant]]
 
 [[!redirects cohomology of knot graph complex is weight systems on chord diagrams]]
