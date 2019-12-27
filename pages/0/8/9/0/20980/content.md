@@ -6,7 +6,7 @@
 
 On the [[universal Vassiliev invariant]]:
 
-* [[Le Tu Quoc Thang]], Jun Murakami, _The universal Vassiliev-Kontsevich invariant for framed oriented links_, Compositio Math. 102 (1996), 42–64 ([arXiv:hep-th/9401016](https://arxiv.org/abs/hep-th/9401016))
+* [[Le Tu Quoc Thang]], [[Jun Murakami]], _The universal Vassiliev-Kontsevich invariant for framed oriented links_, Compositio Math. 102 (1996), 42–64 ([arXiv:hep-th/9401016](https://arxiv.org/abs/hep-th/9401016))
 
 Computation of the [[perturbative quantization of 3d Chern-Simons theory|perturbative Chern-Simons]]  [[Wilson loop observable]] ([[universal Vassiliev invariant]]) of the [[unknot]] ("[[Wheels theorem]]"):
 
