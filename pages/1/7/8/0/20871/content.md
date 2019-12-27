@@ -41,6 +41,8 @@ In other words, in [[characteristic zero]], the [[graded vector space]] of [[unf
 
 ([Bar-Natan 95, Theorem 1](#BarNatan95), following [Kontsevich 93, Theorem 2.1](#Kontsevich93))
 
+The **proof** proceeds via construction of a [[universal Vassiliev invariant]] identified with the un-traced [[Wilson loop observable]] of [[perturbative quantization of 3d Chern-Simons theory| perturbative Chern-Simons theory]].
+
 ## Related theorems
 
 * [[weight systems are cohomology of loop space of configuration space]]
@@ -63,6 +65,10 @@ In other words, in [[characteristic zero]], the [[graded vector space]] of [[unf
 _Knot polynomials and Vassiliev's invariants_, Invent Math (1993) 111: 225 ([doi:10.1007/BF01231287](https://doi.org/10.1007/BF01231287))
 
 * {#BarNatan95} [[Dror Bar-Natan]], _On the Vassiliev knot invariants_, Topology Volume 34, Issue 2, April 1995, Pages 423-472 (<a href="https://doi.org/10.1016/0040-9383(95)93237-2">doi:10.1016/0040-9383(95)93237-2</a>, [pdf](https://www.math.toronto.edu/drorbn/papers/OnVassiliev/OnVassiliev.pdf))
+
+Review:
+
+* {#BarNatanStoimenow97} [[Dror Bar-Natan]], Alexander Stoimenow, _The Fundamental Theorem of Vassiliev Invariants_ ([arXiv:q-alg/9702009](https://arxiv.org/abs/q-alg/9702009))
 
 
 
