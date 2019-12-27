@@ -25,11 +25,13 @@ The _Wheels theorem_ says that the [[quantization of 3d Chern-Simons theory|pert
 
 * [[Duflo isomorphism]]
 
+* [[PBW theorem]]
+
 ## References
 
 The full proof is due to
 
-* [[Dror Bar-Natan]], Thang T Q Le, [[Dylan Thurston]], _Two applications of elementary knot theory to Lie algebras and Vassiliev invariants_, Geom. Topol. Volume 7, Number 1 (2003), 1-31 ([euclid.gt/1513883092](https://projecteuclid.org/euclid.gt/1513883092))
+* [[Dror Bar-Natan]], [[Le Tu Quoc Thang]], [[Dylan Thurston]], _Two applications of elementary knot theory to Lie algebras and Vassiliev invariants_, Geom. Topol. Volume 7, Number 1 (2003), 1-31 ([euclid.gt/1513883092](https://projecteuclid.org/euclid.gt/1513883092))
 
 The weaker version for [[Lie algebra weight systems]] was proven in:
 
