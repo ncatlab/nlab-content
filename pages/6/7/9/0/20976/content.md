@@ -5,7 +5,6 @@ Discussion of  [[perturbative quantum field theory|perturbative]] [[quantization
 
 * {#BarNatan91} [[Dror Bar-Natan]], _Perturbative aspects of the Chern-Simons topological quantum field theory_, thesis 1991 ([spire:323500](http://inspirehep.net/record/323500), [proquest:303979053](https://search.proquest.com/docview/303979053), [[BarNatanPerturbativeCS91.pdf:file]])
 
-
 * {#AxelrodSinger} [[Scott Axelrod]], [[Isadore Singer]], _Chern-Simons Perturbation Theory_, in S. Catto, A. Rocha (eds.) Proc. XXthe DGM Conf. World Scientific Singapore, 1992, 3-45; ([arXiv:hep-th/9110056](http://arxiv.org/abs/hep-th/9110056))
 
 * [[Scott Axelrod]], [[Isadore Singer]], _Chern--Simons Perturbation Theory II_, J. Diff. Geom. 39 (1994) 173-213 ([arXiv:hep-th/9304087](http://arxiv.org/abs/hep-th/9304087)) 
@@ -29,5 +28,13 @@ Review:
 * {#ChmutovDuzhinMostovoy11} [[Sergei Chmutov]], [[Sergei Duzhin]], [[Jacob Mostovoy]], Section 4 of:  _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv/1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
 
 
-
 See also at _[[correlator as differential form on configuration space of points]]_ and see at _[[graph complex]]_  as a model for the [[spaces of knots]]_.
+
+
+Computation of the perturbative [[Wilson loop observable]] ([[universal Vassiliev invariant]]) of the [[unknot]] ("[[Wheels theorem]]"):
+
+* [[Dror Bar-Natan]], Thang T Q Le, [[Dylan Thurston]], _Two applications of elementary knot theory to Lie algebras and Vassiliev invariants_, Geom. Topol. Volume 7, Number 1 (2003), 1-31 ([euclid.gt/1513883092](https://projecteuclid.org/euclid.gt/1513883092))
+
+following
+
+* [[Dror Bar-Natan]], [[Stavros Garoufalidis]], [[Lev Rozansky]], [[Dylan Thurston]], _Wheels, wheeling, and the Kontsevich integral of  the unknot_ ([q-alg/9703025](http://arxiv.org/abs/q-alg/9703025))
