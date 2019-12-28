@@ -177,10 +177,10 @@ A conceptual explanation of the volume conjecture via [[analytically continued C
 Suggestion that the statement of the [[volume conjecture]] is really [[AdS-CFT duality]] combined with the [[3d-3d correspondence]] for [[M5-branes]] [[wrapped brane|wrapped]] on [[hyperbolic 3-manifolds]]:
 
 
-* {#GangKimLee14b} Dongmin Gang, [[Nakwoo Kim]], Sangmin Lee, Section 3.2 of: _Holography of 3d-3d correspondence at Large $N$_, JHEP 04 (2015) 091 ([arXiv:1409.6206](https://arxiv.org/abs/1409.6206))
+* {#GangKimLee14b} [[Dongmin Gang]], [[Nakwoo Kim]], Sangmin Lee, Section 3.2 of: _Holography of 3d-3d correspondence at Large $N$_, JHEP 04 (2015) 091 ([arXiv:1409.6206](https://arxiv.org/abs/1409.6206))
 
 
-* {#GangKim18} Dongmin Gang, [[Nakwoo Kim]], around (21) of: _Large $N$ twisted partition functions in 3d-3d correspondence and Holography_, Phys. Rev. D 99, 021901 (2019) ([arXiv:1808.02797](https://arxiv.org/abs/1808.02797))
+* {#GangKim18} [[Dongmin Gang]], [[Nakwoo Kim]], around (21) of: _Large $N$ twisted partition functions in 3d-3d correspondence and Holography_, Phys. Rev. D 99, 021901 (2019) ([arXiv:1808.02797](https://arxiv.org/abs/1808.02797))
 
 
 
