@@ -17,7 +17,7 @@ A [[resummation]] prescription.
 
 * Wikipedia, _[Borel summation](http://en.wikipedia.org/wiki/Borel_summation)_
 
-* {#CostinDunne17} Ovidiu Costin, Gerald V. Dunne, _Convergence from Divergence_ ([arXiv:1705.09687](https://arxiv.org/abs/1705.09687))
+* {#CostinDunne17} Ovidiu Costin, [[Gerald Dunne]], _Convergence from Divergence_ ([arXiv:1705.09687](https://arxiv.org/abs/1705.09687))
 
 
 [[!redirects Borel summations]]
