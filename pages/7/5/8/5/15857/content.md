@@ -41,6 +41,6 @@ The systematic use of the tensor product structure here goes back to ([Balmer 02
 
 * {#Lurie} [[Jacob Lurie]], _[[Tannaka duality for geometric stacks]]_.
 
-* {#CJF11} [[Alexandru Chirvasitu]], [[Theo Johnson-Freyd]], _The fundamental pro-groupoid of an affine 2-scheme_ ([arXiv:1105.3104](http://arxiv.org/abs/1105.3104))
+* {#CJF11} [[Alexandru Chirvasitu]], [[Theo Johnson-Freyd]], _The fundamental pro-groupoid of an affine 2-scheme_, Applied Categorical Structures, Vol 21, Issue 5 (2013), pp. 469–522. ([DOI](http://dx.doi.org/10.1007/s10485-011-9275-y), [arXiv:1105.3104](http://arxiv.org/abs/1105.3104))
 
 * {#Brandenburg14} [[Martin Brandenburg]], _Tensor categorical foundations of algebraic geometry_ ([arXiv:1410.1716](http://arxiv.org/abs/1410.1716))
