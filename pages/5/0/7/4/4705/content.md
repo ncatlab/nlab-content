@@ -49,6 +49,9 @@ As [[topological twist|topologically twisted]] [[KK-compactification]] of the [[
 
 * {#GukovPutrovVafa17}  [[Sergei Gukov]], Pavel Putrov, [[Cumrun Vafa]], Sections 3.2 and 3.4 of: _Fivebranes and 3-manifold homology_, J. High Energ. Phys. (2017) 2017: 71 ([arXiv:1602.05302](https://arxiv.org/abs/1602.05302))
 
+* Cyril Closset, Heeyeon Kim, Section 6.1 of: _Comments on twisted indices in 3d supersymmetric gauge theories_, JHEP 08 (2016) 059 ([arXiv:1605.06531](https://arxiv.org/abs/1605.06531))
+
+
 
 See also:
 
