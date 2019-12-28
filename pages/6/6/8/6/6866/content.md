@@ -34,19 +34,22 @@ A discussion (with an eye towards [[supersymmetric quantum field theory]] and [[
 
 Review includes
 
-* Gerald V. Dunne, _Heisenberg-Euler Effective Lagrangians : Basics and Extensions_, From Fields to Strings: Circumnavigating Theoretical Physics: pp. 445-522. ([arXiv:hep-th/0406216](https://arxiv.org/abs/hep-th/0406216), [doi:10.1142/9789812775344_0014](https://doi.org/10.1142/9789812775344_0014))
+* [[Gerald Dunne]], _Heisenberg-Euler Effective Lagrangians : Basics and Extensions_, From Fields to Strings: Circumnavigating Theoretical Physics: pp. 445-522. ([arXiv:hep-th/0406216](https://arxiv.org/abs/hep-th/0406216), [doi:10.1142/9789812775344_0014](https://doi.org/10.1142/9789812775344_0014))
 
 A review of effective actions in the [[background field formalism]] is in section 3.1 of 
 
 * Darren Trevor Grasso, _Higher order contributions to the effective action of $\mathcal{N} = 2$ and $4$ supersymmetric Yang-Mills theories from heat kernel techniques in superspace_ Thesis (2007) ([web](	
 http://repository.uwa.edu.au:80/R/-∞func=dbin-jump-full&object_id=9240&current_base=GEN01-INS01))
 
+[[!redirects effective action functionals]]
+
+
+[[!redirects effective action]]
 [[!redirects effective actions]]
 
 [[!redirects 1PI action]]
 [[!redirects 1PI actions]]
 
-[[!redirects 1PI action]]
 
 [[!redirects relative effective action]]
 [[!redirects relative effective actions]]
