@@ -92,7 +92,7 @@ Textbook accounts;
 
 Exposition:
 
-* [[Pierre Cartier]], chapter 3 in: _Mathemagics_ ([pdf](http://www.mat.univie.ac.at/~slc/wpapers/s44cartier1.pdf))
+* [[Pierre Cartier]], chapter 3 in: _Mathemagics_, S&eacute;minaire Lotharingien de Combinatoire 44 (2000), Article B44d ([pdf](http://www.mat.univie.ac.at/~slc/wpapers/s44cartier1.pdf), [[CartierMathemagics.pdf:file]])
 
 * [[John Baez]], _The Bernoulli numbers_, 2003 expository notes ([pdf](http://math.ucr.edu/home/baez/qg-winter2004/bernoulli.pdf))
 
@@ -124,7 +124,15 @@ See also:
 
 * [[Dror Bar-Natan]], [[Stavros Garoufalidis]], [[Lev Rozansky]], [[Dylan Thurston]], _Wheels, wheeling, and the Kontsevich integral of  the unknot_ ([q-alg/9703025](http://arxiv.org/abs/q-alg/9703025))
 
-  ( [[modified Bernoulli numbers]] in the [[universal Vassiliev invariant]] of the [[unknot]])
+  ([[modified Bernoulli numbers]] in the [[universal Vassiliev invariant]] of the [[unknot]])
+
+### In QFT and string theory
+
+Appearance of [[Bernoulli numbers]] in [[perturbative quantum field theory]] and [[string theory]]:
+
+* [[Gerald Dunne]], [[Christian Schubert]], _Bernoulli Number Identities from Quantum Field Theory and Topological String Theory_, Communications in Number Theory and Physics, Volume 7 (2013) Number 2, 225 - 249 ([arXiv:math/0406610](https://arxiv.org/abs/math/0406610))
+
+
 
 ### In algebraic topology
 
