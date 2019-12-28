@@ -22,10 +22,10 @@ An __integer__ is a [[number]] that is a [[natural number]] or the [[negative nu
 
 The [[ring]] $\mathbb{Z}$ of all integers may defined as the [[free group]] on one generator or as the [[initial object|initial]] [[ring]]. 
 
-In keeping with a historical point of view in which integers are whole numbers with a sign attached, one may write 
+In keeping with a historical point of view in which integers are natural numbers with a sign attached, one may write 
 
 $$
-  \mathbb{Z} = \{0\} \cup \{n, -n | n \in \mathbb{N}, n \gt 0\} = \{ \ldots, -3, -2, -1, 0, 1, 2, 3, \ldots \}
+  \mathbb{Z} = \{n, -n | n \in \mathbb{N}, 0 = -0\} = \{ \ldots, -3, -2, -1, 0, 1, 2, 3, \ldots \}
   \,.
 $$
 
