@@ -17,7 +17,10 @@ On [[Vassiliev invariants]] for [[knots]], the proof that [[chord diagrams modul
 
 * {#BarNatanStoimenow97} [[Dror Bar-Natan]], Alexander Stoimenow, _The Fundamental Theorem of Vassiliev Invariants_ ([arXiv:q-alg/9702009](https://arxiv.org/abs/q-alg/9702009))
 
-On [[Vassiliev invariants of braids]] via [[chord diagrams]]:
+* [[Dror Bar-Natan]], _Finite Type Invariants_, in:  J.-P. Francoise, G.L. Naber and Tsou S.T. (eds.) Encyclopedia of Mathematical Physics, Oxford: Elsevier, 2006, volume 2 page 340
+([arXiv:math/0408182](https://arxiv.org/abs/math/0408182))
+
+On [[Vassiliev invariants of braids]] via [[horizontal chord diagrams]]:
 
 * [[Dror Bar-Natan]], _Vassiliev and Quantum Invariants of Braids_, Geom. Topol. Monogr. 4 (2002) 143-160 ([arxiv:q-alg/9607001](https://arxiv.org/abs/q-alg/9607001))
 
