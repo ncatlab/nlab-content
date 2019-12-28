@@ -399,6 +399,9 @@ category: geometry, topology
 [[!redirects finite-type invariants]]
 [[!redirects finite-type invariant]]
 
+[[!redirects Vassiliev link invariant]]
+[[!redirects Vassiliev link invariants]]
+
 [[!redirects Vassiliev invariants of braids]]
 
 [[!redirects Vassiliev braid invariant]]
