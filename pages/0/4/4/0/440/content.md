@@ -10,7 +10,7 @@ On [[knot invariants]] via [[Feynman amplitudes]] in [[Chern-Simons theory]] ([[
 
 * {#Willerton99} [[Simon Willerton]], _The Kontsevich integral and algebraic structures on the space of diagrams_ in: Knots in Hellas ’98. Series on Knots and Everything, vol. 24, World Scientific, 2000, 530–546 ([arXiv:math/9909151](https://arxiv.org/abs/math/9909151))
 
-On [[Lie algebra weight systems]] and [[Rozansky-Witten theory]]:
+On [[Rozansky-Witten weight systems]] as [[Lie algebra weight systems]]:
 
 * {#RobertsWillerton} [[Justin Roberts]], [[Simon Willerton]], _On the Rozansky-Witten weight systems_, Algebr. Geom. Topol. 10 (2010) 1455-1519 ([arXiv:math/0602653](https://arxiv.org/abs/math/0602653))
 
