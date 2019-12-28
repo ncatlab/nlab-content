@@ -204,7 +204,7 @@ Basic introductions include
 * Richard Chapling, _Asymptotic methods_, 2016 ([pdf](https://rc476.user.srcf.net/asymptoticmethods/am_notes.pdf))
 
 
-* Gerald Dunne, _Introduction to Resurgence, Trans-series and
+* [[Gerald Dunne]], _Introduction to Resurgence, Trans-series and
 Non-perturbative Physics_, 2018 ([pdf](https://www.icts.res.in/sites/default/files/NUMSTRINGS2018-2018-01-27-Gerald-Dunne.pdf))
 
 
