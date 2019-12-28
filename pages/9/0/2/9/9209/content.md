@@ -83,7 +83,7 @@ Kelly's tensor product can be found in section 6.5 of
 
 Similar remarks (in the context of [[2-rings]]/[[2-modules]]) are from corollary 2.2.5 on in 
 
-* Alexandru Chirvasitu, [[Theo Johnson-Freyd]], _The fundamental pro-groupoid of an affine 2-scheme_ ([arXiv:1105.3104](http://arxiv.org/abs/1105.3104))
+* [[Alexandru Chirvasitu]], [[Theo Johnson-Freyd]], _The fundamental pro-groupoid of an affine 2-scheme_, Applied Categorical Structures, Vol 21, Issue 5 (2013), pp. 469–522. ([DOI](http://dx.doi.org/10.1007/s10485-011-9275-y), [arXiv:1105.3104](http://arxiv.org/abs/1105.3104))
  {#ChirvasituJohnson-Freyd11}
 
 In this set of lecture notes
