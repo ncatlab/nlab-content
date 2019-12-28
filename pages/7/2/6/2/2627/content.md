@@ -326,7 +326,7 @@ The proposal that a 2-ring should be a compatibly monoidal cocomplete category i
 
 The proposal that a 2-ring should be a compatibly monoidal presentable category is due to
 
-* {#CJF} [[Alexandru Chirvasitu]], [[Theo Johnson-Freyd]], _The fundamental pro-groupoid of an affine 2-scheme_ ([arXiv:1105.3104](http://arxiv.org/abs/1105.3104))
+* {#CJF} [[Alexandru Chirvasitu]], [[Theo Johnson-Freyd]], _The fundamental pro-groupoid of an affine 2-scheme_, Applied Categorical Structures, Vol 21, Issue 5 (2013), pp. 469–522. ([DOI](http://dx.doi.org/10.1007/s10485-011-9275-y), [arXiv:1105.3104](http://arxiv.org/abs/1105.3104))
  
 see also
 
