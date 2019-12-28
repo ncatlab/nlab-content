@@ -84,11 +84,11 @@ Then it was related to actual worldline quantum field theory in
  
 Reviews include
 
-* {#SchmidtSchubert94} M. G. Schmidt, Christian Schubert, _The Worldline Path Integral Approach to Feynman Graphs_ ([arXiv:hep-ph/9412358](http://arxiv.org/abs/hep-ph/9412358))
+* {#SchmidtSchubert94} M. G. Schmidt, [[Christian Schubert]], _The Worldline Path Integral Approach to Feynman Graphs_ ([arXiv:hep-ph/9412358](http://arxiv.org/abs/hep-ph/9412358))
 
-* {#Schubert96} Christian Schubert, _An Introduction to the Worldline Technique for Quantum Field Theory Calculations_, Acta Phys. Polon.B27:3965-4001, 1996 ([arXiv:hep-th/9610108](https://arxiv.org/abs/hep-th/9610108))
+* {#Schubert96} [[Christian Schubert]], _An Introduction to the Worldline Technique for Quantum Field Theory Calculations_, Acta Phys. Polon.B27:3965-4001, 1996 ([arXiv:hep-th/9610108](https://arxiv.org/abs/hep-th/9610108))
 
-* Christian Schubert, _Perturbative Quantum Field Theory in the String-Inspired Formalism_, Phys.Rept. 355 (2001) 73-234 ([arXiv:hep-th/0101036](https://arxiv.org/abs/hep-th/0101036))
+* [[Christian Schubert]], _Perturbative Quantum Field Theory in the String-Inspired Formalism_, Phys.Rept. 355 (2001) 73-234 ([arXiv:hep-th/0101036](https://arxiv.org/abs/hep-th/0101036))
 
 Exposition with an eye towards [[quantum gravity]] is in
 
@@ -105,7 +105,7 @@ Discussion for [[QCD]] with emphasis of [[2d QCD]] and [[AdS/QCD]]:
 
 Further development includes
 
-* M. G. Schmidt, C. Schubert, _Worldline Green Functions for Multiloop Diagrams_, Phys.Lett. B331 (1994) 69-76 ([arXiv:hep-th/9403158](https://arxiv.org/abs/hep-th/9403158))
+* M. G. Schmidt, [[Christian Schubert]], _Worldline Green Functions for Multiloop Diagrams_, Phys.Lett. B331 (1994) 69-76 ([arXiv:hep-th/9403158](https://arxiv.org/abs/hep-th/9403158))
 
 * [[Eric D'Hoker]], Darius G. Gagne, _Worldline Path Integrals for Fermions with General Couplings_, Nucl.Phys. B467 (1996) 297-312 ([arXiv:hep-th/9512080](https://arxiv.org/abs/hep-th/9512080))
 
