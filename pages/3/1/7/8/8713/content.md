@@ -26,7 +26,7 @@ A [[manifold]] is called **closed** if it is
 
 * [[manifold with boundary]]
 
-* [[configuration space (mathematics)]], [[graph complex]]
+* [[compact hyperkähler manifold]]
 
 * [[cobordism]]
 
