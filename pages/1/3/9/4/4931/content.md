@@ -162,7 +162,7 @@ Let $C \subset \mathbb{R}^n$ be a [[star-shaped]] [[open subset]] of a [[Cartesi
 +-- {: .num_remark #LiteratureOnStarShapedOpenDiffeoToOpenBall}
 ###### Remark
 
-Theorem \ref{StarShapedOpenDiffeomorphicToOpenBall} is a [[folk theorem]], but explicit **proofs** in the literature are hard to find. See the discussion at [References](#References). An explicit proof has been written out by Stefan Born, and this appears as the proof of [theorem 237](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf#page=154) in ([Ferus 07](#Ferus07)). A simplr proof is given in [Gonnord-Tosel 98](#GonnordTosel98) reproduced [here](http://mathoverflow.net/a/212595/381).
+Theorem \ref{StarShapedOpenDiffeomorphicToOpenBall} is a [[folk theorem]], but explicit **proofs** in the literature are hard to find. See the discussion at [References](#References). An explicit proof has been written out by Stefan Born, and this appears as the proof of [theorem 237](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf#page=154) in ([Ferus 07](#Ferus07)). A simpler proof is given in [Gonnord-Tosel 98](#GonnordTosel98) reproduced [here](http://mathoverflow.net/a/212595/381).
 
 =--
 
@@ -185,9 +185,7 @@ Finally, define the desired diffeomorphism $d\colon{\mathbb{R}}^n\to T$ as the g
 The map $g$ is smooth because for $1/2\lt {\|x\|} \lt 2$ both definitions give the same value.
 =--
 
-And here is another proof, due to Gonnord and Tosel,
-translated into English by Erwann Aubry
-and available on MathOverflow:
+And here is another proof, due to Gonnord and Tosel, translated into English by Erwann Aubry and available on MathOverflow:
 
 \begin{theorem}
 Every open star-shaped set $\Omega$ in $\mathbb{R}^n$ is $C^\infty$-diffeomorphic to $\mathbb{R}^n$.
