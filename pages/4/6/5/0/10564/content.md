@@ -614,7 +614,7 @@ See also the references at _[equivariant cohomology -- References --  Complex or
 
 That equivariant elliptic cohomology is related to [[representations]] of [[loop groups]] as [[equivariant K-theory]] is related to the [[representation theory]] of the underlying groups had long been conjectured. The idea appears in
 
-* {#Grojnowski94} I. Grojnowski, _Delocalised equivariant elliptic cohomology_ (1994), in _Elliptic cohomology_, volume 342 of London Math. Soc. Lecture Note Ser., pages 114&#8211;121. Cambridge Univ. Press, Cambridge, 2007 ([pdf](http://hopf.math.purdue.edu/Grojnowski/deloc.pdf))
+* {#Grojnowski94} [[Ian Grojnowski]], _Delocalised equivariant elliptic cohomology_ (1994), in _Elliptic cohomology_, volume 342 of London Math. Soc. Lecture Note Ser., pages 114&#8211;121. Cambridge Univ. Press, Cambridge, 2007 ([pdf](http://hopf.math.purdue.edu/Grojnowski/deloc.pdf))
 
 based on
 
