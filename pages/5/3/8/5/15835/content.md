@@ -6,7 +6,7 @@ __Viktor A. Vassiliev__, a Russian geometer, a pupil of [[Vladimir Arnold]]. He 
 
 Introducing [[Vassiliev knot invariants]]:
 
-* [[Viktor Vassiliev]], _Complements of discriminants of smooth maps: topology and applications_, Amer. Math. Soc. 1992. 
+* [[Viktor Vassiliev]], _Complements of discriminants of smooth maps: topology and applications_, Amer. Math. Soc. 1992 ([ams:mmono-98](https://bookstore.ams.org/mmono-98))
 
 Further:
 
