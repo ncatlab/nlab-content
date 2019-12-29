@@ -35,15 +35,26 @@ Original articles:
 
 * [[Mikhail Kapranov]], _Rozansky&#8211;Witten invariants via Atiyah classes_,  Compositio Math.  __115__ (1999), no. 1, 71--113, [MR2000h:57056](http://www.ams.org/mathscinet-getitem?mr=2000h:57056), [doi](http://dx.doi.org/10.1023/A:1000664527238), [alg-geom/9704009](http://arxiv.org/abs/alg-geom/9704009)
 
+* [[Justin Roberts]], [[Justin Sawon]], _Generalisations of Rozansky-Witten invariants_, Geom. Topol. Monogr. 4 (2002) 263-279 ([arXiv:math/0112210](https://arxiv.org/abs/math/0112210))
+
+* [[Justin Sawon]], _Rozansky-Witten invariants of hyperkähler manifold_, Cambridge 2000 ([arXiv:math/0404360](https://arxiv.org/abs/math/0404360))
+
+Unified description of [[Rozansky-Witten weight systems]] as [[Lie algebra weight systems]] for [[Lie algebra objects]] in the [[derived category of quasi-coherent sheaves]], and unified [[Wheels theorem]]:
+
+* {#RobertsWillerton} [[Justin Roberts]], [[Simon Willerton]], _On the Rozansky-Witten weight systems_, Algebr. Geom. Topol. 10 (2010) 1455-1519 ([arXiv:math/0602653](https://arxiv.org/abs/math/0602653))
+
+
 Review:
 
 * {#Roberts01} [[Justin Roberts]], _Rozansky-Witten theory_ ([arXiv:math/0112209](https://arxiv.org/abs/math/0112209))
 
-
-Relation to [[Chern-Simons theory]]:
+Further relation to [[Chern-Simons theory]]:
 
 * [[Anton Kapustin]], [[Natalia Saulina]], _Chern-Simons-Rozansky-Witten topological field theory_, Nucl. Phys. B823 (2009) 403-427 ([arXiv:0904.1447](https://arxiv.org/abs/0904.1447)
 [spire:817599/](http://inspirehep.net/record/817599/))
+
+* Jian Qiu, Maxim Zabzine, _Odd Chern-Simons theory, Lie algebra cohomology and characteristic classes_, Commun. Math. Phys. 300:789-833, 2010
+ ([arxiv/0912.1243](http://arxiv.org/abs/0912.1243))
 
 As [[topological twist|topologically twisted]] [[KK-compactification]] of the [[D=6 N=(2,0) SCFT]] on the [[M5-brane]]:
 
@@ -53,17 +64,11 @@ As [[topological twist|topologically twisted]] [[KK-compactification]] of the [[
 
 
 
-See also:
-
-* Jian Qiu, Maxim Zabzine, _Odd Chern-Simons theory, Lie algebra cohomology and characteristic classes_, [arxiv/0912.1243](http://arxiv.org/abs/0912.1243)
 
 
 
-Unified description of [[Rozansky-Witten weight systems]] with [[Lie algebra weight systems]], and unified [[Wheels theorem]]:
 
-* {#RobertsWillerton} [[Justin Roberts]], [[Simon Willerton]], _On the Rozansky-Witten weight systems_, Algebr. Geom. Topol. 10 (2010) 1455-1519 ([arXiv:math/0602653](https://arxiv.org/abs/math/0602653))
 
-Review in [Roberts 01](#Roberts01).
 
 
 
