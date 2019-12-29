@@ -134,7 +134,7 @@ $$
   \mathcal{O} : \mathcal{G} \to \mathcal{X}
 $$
 
-is a $\mathcal{G}$-[[algebra over an algebraic theory|algebra]] in $\mathcal{X}$. This makes $\mathcal{X}$ is $\mathcal{G}$-[[ringed topos]]. For $\mathcal{G} = $ [[CartSp]] this algebra is a [[smooth algebra]] in $\mathcal{X}$. If $\mathcal{X}$ has a [[site]] of definition $X$, then this is a [sheaf] of [[smooth algebra]]s on $X$. 
+is a $\mathcal{G}$-[[algebra over an algebraic theory|algebra]] in $\mathcal{X}$. This makes $\mathcal{X}$ is $\mathcal{G}$-[[ringed topos]]. For $\mathcal{G} = $ [[CartSp]] this algebra is a [[smooth algebra]] in $\mathcal{X}$. If $\mathcal{X}$ has a [[site]] of definition $X$, then this is a [[sheaf]] of [[smooth algebra]]s on $X$. 
 
 If $\mathcal{O}$ sends [[covering]] families $\{U_i \to U\}$ in $\mathcal{G}$ to [[effective epimorphism]] $\coprod_i \mathcal{O}(U_i) \to \mathcal{O}(U)$ we say that it is a _local $\mathcal{G}$-algebra_ in $\mathcal{X}$, making $\mathcal{X}$ a $\mathcal{G}$-[[locally ringed topos]].
 
