@@ -21,26 +21,28 @@ The Hilbert scheme of $\mathbb{C}^2$ is widely studied in combinatorics and geom
 
 ### General
 
-* J. Bertin, _The punctual Hilbert scheme: An introduction_ ([pdf](https://www-fourier.ujf-grenoble.fr/sites/ifmaquette.ujf-grenoble.fr/files/bertin_rev.pdf))
+See also 
+
+* Wikipedia, _[Hibert scheme](https://en.wikipedia.org/wiki/Hilbert_scheme)
+
+### Hilbert schemes of points
+
+
+
 
 * [[Hiraku Nakajima]], _Lectures on Hilbert schemes of points on surfaces_, University Lecture Series, vol. 18, American Mathematical Society, Providence, RI, 1999 ([ams:ulect-18](https://bookstore.ams.org/ulect-18))
 
 * [[Hiraku Nakajima]], _More lectures on Hilbert schemes of points on surfaces_, Advanced Studies in Pure Mathematics 69, 2016, Development of Moduli Theory -- Kyoto 2013, 173-205 ([arXiv:1401.6782](https://arxiv.org/abs/1401.6782))
 
-
-
-See also 
-
-* Wikipedia, _[Hibert scheme](https://en.wikipedia.org/wiki/Hilbert_scheme)_
-
-### Hilbert schemes of points
-
-Specifically on [[Hilbert schemes of points]]:
-
-* Barbara Bolognese and Ivan Losev, _A general introduction to the Hilbert scheme of points on the plane_ ([pdf](https://web.northeastern.edu/iloseu/Barbara_14_complete.pdf))
+* J. Bertin, _The punctual Hilbert scheme: An introduction_ ([pdf](https://www-fourier.ujf-grenoble.fr/sites/ifmaquette.ujf-grenoble.fr/files/bertin_rev.pdf))
 
 
 * Dori Bejleri, _Hilbert schemes: Geometry, combionatorics, and representation theory_ ([pdf](http://math.harvard.edu/~bejleri/Hilbertschemes_gss.pdf))
+
+* Barbara Bolognese, Ivan Losev, _A general introduction to the Hilbert scheme of points on the plane_ ([pdf](https://web.northeastern.edu/iloseu/Barbara_14_complete.pdf))
+
+
+
 
 * Joachim Jelisiejew, _Pathologies on the Hilbert scheme of points_ ([arXiv:1812.08531](https://arxiv.org/abs/1812.08531))
 
@@ -48,11 +50,14 @@ Discussion in relation to the [[Fulton-MacPherson compactifications]] of [[confi
 
 * {#FultonMacPherson94} [[William Fulton]], [[Robert MacPherson]], p. 189 of: _A compactification of configuration spaces_, Ann. of Math. (2), 139(1):183–225, 1994 ([jstor:2946631](https://www.jstor.org/stable/2946631))
 
-#### As moduli spaces of instantons
+### As moduli spaces of instantons
 
 Discussion in their role as [[moduli spaces]] of [[instantons]]:
 
 * Sean Pohorence, _Hilbert scheme of points and the ADHM construction_ ([pdf](http://www.ihes.fr/~celliott/Hilbert_Schemes_of_Points.pdf))
+
+* [[Ian Grojnowski]], _Instantons and affine algebras I: The Hilbert scheme and vertex operators_ ([arXiv:alg-geom/9506020](https://arxiv.org/abs/alg-geom/9506020))
+ 
 
 Specifically in relation to [[Donaldson-Thomas theory]]:
 
@@ -71,14 +76,14 @@ See also
 
 * Jian Zhou, _K-Theory of Hilbert Schemes as a Formal Quantum Field Theory_ ([arXiv:1803.06080](https://arxiv.org/abs/1803.06080))
 
-#### On K3 surfaces
+### On K3 surfaces
 
 Discussion of the [[Hilbert scheme of points]] on [[K3-surfaces]] with an eye towards [[Rozansky-Witten theory]]:
 
 
 * [[Justin Sawon]], Section 5.3 of: _Rozansky-Witten invariants of hyperkähler manifold_, Cambridge 2000 ([arXiv:math/0404360](https://arxiv.org/abs/math/0404360))
 
-#### Hilbert schemes as Coulomb branches
+### Hilbert schemes as Coulomb branches
 
 Relation to [[Coulomb branches]]:
 
