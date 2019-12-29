@@ -373,6 +373,9 @@ In **summary** we have the following situation:
 
 * [[weight systems are cohomology of loop space of configuration space]]
 
+* [[stringy weight systems span classical Lie algebra weight systems]]
+
+
 * [[chord diagrams modulo 4T are Jacobi diagrams modulo STU]]
 
 
