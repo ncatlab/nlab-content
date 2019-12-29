@@ -23,6 +23,20 @@
 
 (...)
 
+## Examples
+
+### Ground-field valued weight systems
+
+In order for Rozansky-Witten weight systems to take values in the [[ground field]], hence to be actual [[weight systems]], the [[hyperkähler manifold]] has to be [[compact topological space|compact]] (i.e. [[closed manifold|closed]]). The only known examples of [[compact hyperkähler manifolds]] are [[Hilbert schemes of points]] $X^{[n+1]}$ (for $n \in \mathbb{N}$) for $X$ either
+
+1. a [[K3-surface]]
+
+1. a [[4-torus]] (in which case the [[compact hyperkähler manifolds]] is really the [[fiber]] of $(\mathbb{T}^4)^{[n]} \to \mathbb{T}^4$)
+
+([Beauville 83](compact+hyperkähler+manifold#Beauville83))
+and two exceptional examples ([O'Grady 99](compact+hyperkähler+manifold#OGrady99), [O'Grady 03](compact+hyperkähler+manifold#OGrady03)
+), see [Sawon 04, Sec. 5.3](compact+hyperkähler+manifold#Sawon04).
+
 ## Related concepts
 
 * [[Lie algebra weight system]]
