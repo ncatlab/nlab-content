@@ -17,10 +17,17 @@ The Hilbert scheme of $\mathbb{C}^2$ is widely studied in combinatorics and geom
 
 ## Properties
 
-### On K3-surfaces
+### Compact hyperkähler structure
 
-The only known examples of [[compact hyperkähler manifolds]] are [[Hilbert schemes of points]] $X^{[n+1]}$ of [[K3-surfaces]] $X$ (and of [[4-tori]]) for $n \in \mathbb{N}$ and a small finite number of slight variants of these.
+The only known examples of [[compact hyperkähler manifolds]] are [[Hilbert schemes of points]] $X^{[n+1]}$ (for $n \in \mathbb{N}$) for $X$ either
 
+1. a [[K3-surface]]
+
+1. a [[4-torus]] (in which case the [[compact hyperkähler manifolds]] is really the [[fiber]] of $(\mathbb{T}^4)^{[n]} \to \mathbb{T}^4$)
+
+([Beauville 83](#Beauville83))
+and two exceptional examples ([O'Grady 99](compact+hyperkähler+manifold#OGrady99), [O'Grady 03](compact+hyperkähler+manifold#OGrady03)
+), see [Sawon 04, Sec. 5.3](#Sawon04).
 
 ## References
 
@@ -31,9 +38,6 @@ See also
 * Wikipedia, _[Hibert scheme](https://en.wikipedia.org/wiki/Hilbert_scheme)
 
 ### Hilbert schemes of points
-
-
-
 
 * [[Hiraku Nakajima]], _Lectures on Hilbert schemes of points on surfaces_, University Lecture Series, vol. 18, American Mathematical Society, Providence, RI, 1999 ([ams:ulect-18](https://bookstore.ams.org/ulect-18))
 
@@ -64,9 +68,6 @@ Discussion in their role as [[moduli spaces]] of [[instantons]]:
 * [[Ian Grojnowski]], _Instantons and affine algebras I: The Hilbert scheme and vertex operators_ ([arXiv:alg-geom/9506020](https://arxiv.org/abs/alg-geom/9506020))
 
 
-
-
-
  
 
 Specifically in relation to [[Donaldson-Thomas theory]]:
@@ -86,9 +87,37 @@ See also
 
 * Jian Zhou, _K-Theory of Hilbert Schemes as a Formal Quantum Field Theory_ ([arXiv:1803.06080](https://arxiv.org/abs/1803.06080))
 
-### On K3 surfaces
+### Of ADE singularities
 
-Discussion of the [[Hilbert scheme of points]] on [[K3-surfaces]].
+Discussion of the [[Hilbert schemes of points]] of [[ADE-singularities]]:
+
+
+* Kenji Mohri, _Kähler Moduli Space of a D-Brane at Orbifold Singularities_, Commun. Math. Phys. 202 (1999) 669-699 ([arXiv:hep-th/9806052](https://arxiv.org/abs/hep-th/9806052))
+
+* [[Ron Donagi]], [[Sheldon Katz]], [[Eric Sharpe]], _Spectra of D-branes with Higgs vevs_, Adv.Theor.Math.Phys. 8 (2005) 813-859 ([arXiv:hep-th/0309270](https://arxiv.org/abs/hep-th/0309270))
+
+
+* D. Maulik, A. Oblomkov, _Quantum cohomology of the Hilbert scheme of points on A_n-resolutions_, J. Amer. Math. Soc. 22 (2009), 1055-1091 ([arXiv:0802.2737](https://arxiv.org/abs/0802.2737))
+
+
+
+See also:
+
+* Yukari Ito, [[Hiraku Nakajima]], _McKay correspondence and Hilbert schemes in dimension three_ ([math/9803120](https://arxiv.org/abs/math/9803120))
+
+
+
+### Of K3 surfaces
+
+Discussion of the [[Hilbert schemes of points]] of [[K3-surfaces]]:
+
+* {#Beauville83} [[Arnaud Beauville]], _Variétés Kähleriennes dont la premiere classe de Chern est nulle_, Jour.
+Diff. Geom. 18 (1983), 755–782 ([euclid.jdg/1214438181](https://projecteuclid.org/euclid.jdg/1214438181))
+
+* Georg Oberdieck, _Gromov-Witten invariants of the Hilbert schemes of points of a K3 surface_, Geom. Topol. 22 (2018) 323-437 ([arXiv:1406.1139](https://arxiv.org/abs/1406.1139), [[OberdieckK3HilbertSchemes.pdf:file]])
+
+  (using [[Gromov-Witten invariants]])
+
 
 Discussion of configuration spaces of _possibly coincident_ points on [[K3-surfaces]] $X$, hence of [[symmetric products]] $X^n/Sym(n)$ as [[moduli spaces]] of [[D0-D4-brane bound states]]:
 
@@ -105,9 +134,9 @@ with an eye towards [[Rozansky-Witten theory]] ([[ground field]]-valued [[Rozans
 
 * {#RobertsWillerton06} [[Justin Roberts]], [[Simon Willerton]], p. 17 of: _On the Rozansky-Witten weight systems_, Algebr. Geom. Topol. 10 (2010) 1455-1519 ([arXiv:math/0602653](https://arxiv.org/abs/math/0602653))
 
-* [[Justin Sawon]], Section 5.3 of: _Rozansky-Witten invariants of hyperkähler manifold_, Cambridge 2000 ([arXiv:math/0404360](https://arxiv.org/abs/math/0404360))
+* {#Sawon04} [[Justin Sawon]], Section 5.3 of: _Rozansky-Witten invariants of hyperkähler manifold_, Cambridge 2000 ([arXiv:math/0404360](https://arxiv.org/abs/math/0404360))
 
-### Hilbert schemes as Coulomb branches
+### Hilbert schemes and Coulomb branches
 
 Relation to [[Coulomb branches]]:
 
