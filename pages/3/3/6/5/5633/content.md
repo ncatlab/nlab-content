@@ -9,13 +9,17 @@ More recently he has been investigating [[quantum sheaf cohomology]].
 
 In ([Sharpe 15](#Sharpe15)) he lays out a general perspective of the role of [[2-group]] and generally [[n-group]] ([[infinity-group]]) global [[higher gauge symmetry]] in [[quantum field theory]] and [[string theory]].
 
-## Some articles
+## Selected writings
+
+On [[discrete torsion]]:
 
 * [[Eric Sharpe]], _Discrete torsion_, Phys.Rev. D68 (2003) 126003 ([arXiv:hep-th/0008154](https://arxiv.org/abs/hep-th/0008154))
 
 * {#Sharpe99} [[Eric Sharpe]], _Discrete Torsion and Gerbes I_ ([arXiv:hep-th/9909108](http://arxiv.org/abs/hep-th/9909108))
 
   _Discrete Torsion and Gerbes II_ ([arXiv:hep-th/9909120](http://arxiv.org/abs/hep-th/9909120))
+
+On [[stacks]] as [[target spaces]] for [[sigma-models]]:
 
 * {#Sharpe01} [[Eric Sharpe]],  _Discrete Torsion, Quotient Stacks, and String Orbifolds_ ([arXiv:math/0110156](http://arxiv.org/abs/math/0110156))
 
@@ -27,11 +31,17 @@ In ([Sharpe 15](#Sharpe15)) he lays out a general perspective of the role of [[2
 
 * {#Sharpe15} Eric Sharpe, _Notes on generalized global symmetries in QFT_ ([arXiv:1508.04770](http://arxiv.org/abs/1508.04770))
 
+On [[duality in string theory]] in view of [[category theory]] and [[higher geometry]]:
+
 * {#Sharpe19} [[Eric Sharpe]], _Categorical Equivalence and the Renormalization Group_, Proceedings of LMS/EPSRC Symposium _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html)_, Fortschritte der Physik 2019 ([arXiv:1903.02880](https://arxiv.org/abs/1903.02880))
 
-  (on [[duality in string theory]] in view of [[category theory]] and [[higher geometry]])
 
-## Some talks
+
+Discussion of the [[Hilbert schemes of points]] of [[ADE-singularities]]:
+
+* [[Ron Donagi]], [[Sheldon Katz]], [[Eric Sharpe]], _Spectra of D-branes with Higgs vevs_, Adv.Theor.Math.Phys. 8 (2005) 813-859 ([arXiv:hep-th/0309270](https://arxiv.org/abs/hep-th/0309270))
+
+## Selected talks
 
 * [[Eric Sharpe]], _Sigma models on gerbes_, talk at _[Higher Structures in M-Theory, Durham, August 2018](http://www.maths.dur.ac.uk/lms/109/index.html)_ ([pdf slides](http://www.maths.dur.ac.uk/lms/109/talks/1864sharpe.pdf), [video recording](http://www.maths.dur.ac.uk/lms/109/movies/1864shar.mp4))
 
