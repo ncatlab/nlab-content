@@ -91,8 +91,6 @@ But a geometry modeled on a [[small category|small]] [[full subcategory]] of [[T
 
 * [[motivation for higher differential geometry]]
 
-* [[motivation for cohesion]]
-
 
 
 category: motivation
