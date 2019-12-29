@@ -254,7 +254,7 @@ In other words, in [[characteristic zero]], the [[graded vector space]] of [[unf
 
 The original articles are
 
-* [[Viktor Vassiliev]], _Complements of discriminants of smooth maps: topology and applications_, Amer. Math. Soc. 1992. 
+* [[Viktor Vassiliev]], _Complements of discriminants of smooth maps: topology and applications_, Amer. Math. Soc. 1992 ([ams:mmono-98](https://bookstore.ams.org/mmono-98))
 
 * {#Kontsevich93} [[Maxim Kontsevich]], _Vassiliev's knot invariants_, Advances in Soviet Mathematics, Volume 16, Part 2, 1993 ([pdf](http://pagesperso.ihes.fr/~maxim/TEXTS/VassilievKnot.pdf))
 
