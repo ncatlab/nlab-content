@@ -36,11 +36,17 @@ The term "K3" is
 
 ## Properties
 
-### Basic properties
+
+
+### Compact hyperkähler structure
+
+Over the [[complex numbers]] [[K3 surfaces]] are all [[Kähler manifold|Kähler]], and even [[hyperkähler manifold|hyperkähler]].
+
+The only known examples of [[compact hyperkähler manifolds]] are [[Hilbert schemes of points]] $X^{[n+1]}$ of [[K3-surfaces]] $X$ (and of [[4-tori]]) for $n \in \mathbb{N}$ and a small finite number of slight variants of these.
+
+### Homotopy
 
 * All K3 surfaces are [[simply connected]]. 
-
-* Over the [[complex numbers]] they are all [[Kähler manifold|Kähler]], and even [[hyperkähler manifold|hyperkähler]].
 
 ### Cohomology
 
@@ -449,4 +455,7 @@ Specifically in relation to [[little string theory]]:
 
 [[!redirects Kummer surface]]
 [[!redirects Kummer surfaces]]
+
+[[!redirects generalized Kummer surface]]
+[[!redirects generalized Kummer surfaces]]
 
