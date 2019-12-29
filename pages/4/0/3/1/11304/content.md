@@ -10,4 +10,8 @@ On [[geometric engineering of quantum field theory]]:
 
 * {#KatzKlemm96} [[Sheldon Katz]], [[Cumrun Vafa]], _Geometric Engineering of $N=1$ Quantum Field Theories_, Nucl.Phys. B497 (1997) 196-204 ([arXiv:hep-th/9611090](http://arxiv.org/abs/hep-th/9611090))
 
+Discussion of the [[Hilbert schemes of points]] of [[ADE-singularities]]:
+
+* [[Ron Donagi]], [[Sheldon Katz]], [[Eric Sharpe]], _Spectra of D-branes with Higgs vevs_, Adv.Theor.Math.Phys. 8 (2005) 813-859 ([arXiv:hep-th/0309270](https://arxiv.org/abs/hep-th/0309270))
+
 category: people
