@@ -3,9 +3,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Quantum field theory
+#### Quantum Field Theory
 +--{: .hide}
-[[!include functorial quantum field theory - contents]]
+[[!include AQFT and operator algebra contents]]
 =--
 #### Super-Geometry
 +--{: .hide}
@@ -44,6 +44,10 @@ See also the discussion at _[[symplectic duality]]_.
 
 * [[3d superconformal gauge field theory]]
 
+  * [[D=3 N=4 super Yang-Mills theory]]
+
+* [[3d-3d correspondence]]
+
 * [[N=2 D=4 super Yang-Mills theory]]
 
 * [[N=4 D=4 super Yang-Mills theory]]
@@ -62,6 +66,10 @@ The mirror symmetry operation was discussed in
 
 * {#IntriligatorSeiberg96} [[Ken Intriligator]], [[Nathan Seiberg]], _Mirror Symmetry in Three Dimensional Gauge Theories_, Phys. Lett.B 387 : 513-519,1996 ([arXiv:hep-th/9607207](http://arxiv.org/abs/hep-th/9607207))
 
+On [[mirror symmetry]] between [[Higgs branches]]/[[Coulomb branches]] of [[D=3 N=4 super Yang-Mills theory]] (with emphasis of [[Hilbert schemes of points]]):
+
+* [[Jan de Boer]], [[Kentaro Hori]], [[Hirosi Ooguri]], [[Yaron Oz]], _Mirror Symmetry in Three-Dimensional Gauge Theories, Quivers and D-branes_, Nucl. Phys. B493:101-147, 1997 ([arXiv:hep-th/9611063](https://arxiv.org/abs/hep-th/9611063))
+
 ### Coulomb branch
 
 On a mathematical definition of [[Coulomb branches]] of [[D=3 N=4 super Yang-Mills theory]]:
@@ -73,10 +81,22 @@ On a mathematical definition of [[Coulomb branches]] of [[D=3 N=4 super Yang-Mil
 
 * [[Alexander Braverman]], [[Michael Finkelberg]], [[Hiraku Nakajima]], _Towards a mathematical definition of Coulomb branches of 3-dimensional $\mathcal{N} = 4$ gauge theories, II_, Adv. Theor. Math. Phys. 22 (2018) 1071-1147 ([arXiv:1601.03586](http://arxiv.org/abs/1601.03586))
 
-
 * [[Alexander Braverman]], [[Michael Finkelberg]], [[Hiraku Nakajima]], _Line bundles over Coulomb branches_ ([arXiv:1805.11826](https://arxiv.org/abs/1805.11826))
 
   (relation to [[Hilbert schemes]])
+
+### Hilbert schemes and Higgs/Coulomb branches
+
+Identification of [[Higgs branches]]/[[Coulomb branches]] in [[D=3 N=4 super Yang-Mills theory]] with [[Hilbert schemes of points]] of [[complex curves]]:
+
+* [[Jan de Boer]], [[Kentaro Hori]], [[Hirosi Ooguri]], [[Yaron Oz]], _Mirror Symmetry in Three-Dimensional Gauge Theories, Quivers and D-branes_, Nucl. Phys. B493:101-147, 1997 ([arXiv:hep-th/9611063](https://arxiv.org/abs/hep-th/9611063))
+
+
+* [[Stefano Cremonesi]], [[Amihay Hanany]], [[Alberto Zaffaroni]], around (4.4) of: _Monopole operators and Hilbert series of Coulomb branches of 3d $\mathcal{N} = 4$ gauge theories_, JHEP 01 (2014) 005 ([arXiv:1309.2657](https://arxiv.org/abs/1309.2657))
+
+
+* [[Alexander Braverman]], [[Michael Finkelberg]], [[Hiraku Nakajima]], _Line bundles over Coulomb branches_ ([arXiv:1805.11826](https://arxiv.org/abs/1805.11826))
+
 
 
  
