@@ -301,12 +301,15 @@ To see this, use 1) [AF 96, Theorem 5, Condition U2](#AF96) to find that the map
 
 ### General
 
-
 * {#Kontsevich93} Theorem 2.3 of: [[Maxim Kontsevich]], _Vassiliev's knot invariants_, Advances in Soviet Mathematics, Volume 16, Part 2, 1993 ([pdf](http://pagesperso.ihes.fr/~maxim/TEXTS/VassilievKnot.pdf))
+
 
 * [[Le Tu Quoc Thang]], [[Jun Murakami]], _The universal Vassiliev-Kontsevich invariant for framed oriented links_, Compositio Math. 102 (1996), 42–64 ([arXiv:hep-th/9401016](https://arxiv.org/abs/hep-th/9401016))
 
-* [[Le Tu Quoc Thang]], [[Jun Murakami]], _Representation of the category of tangles by Kontsevich's iterated integral_, ([euclid.cmp/1104272488](https://projecteuclid.org/euclid.cmp/1104272488))
+* {#BarNatan95} [[Dror Bar-Natan]], 4.4.2 of: _On the Vassiliev knot invariants_, Topology Volume 34, Issue 2, April 1995, Pages 423-472 (<a href="https://doi.org/10.1016/0040-9383(95)93237-2">doi:10.1016/0040-9383(95)93237-2</a>, [pdf](https://www.math.toronto.edu/drorbn/papers/OnVassiliev/OnVassiliev.pdf))
+
+
+* [[Le Tu Quoc Thang]], [[Jun Murakami]], _Representation of the category of tangles by Kontsevich's iterated integral_,  Comm. Math. Phys., Volume 168, Number 3 (1995), 535-562. ([euclid.cmp/1104272488](https://projecteuclid.org/euclid.cmp/1104272488))
 
 
 * Daniel Altschuler, Laurent Freidel, _On Universal Vassiliev Invariants_, Commun. Math. Phys. 170 (1995) 41-62 ([arXivhep-th/9403053](https://arxiv.org/abs/hep-th/9403053))
@@ -320,6 +323,9 @@ Review:
 
 * {#BarNatanStoimenow97} [[Dror Bar-Natan]], Alexander Stoimenow, _The Fundamental Theorem of Vassiliev Invariants_ ([arXiv:q-alg/9702009](https://arxiv.org/abs/q-alg/9702009))
 
+* {#ChmutovDuzhinMostovoy11} [[Sergei Chmutov]], [[Sergei Duzhin]], [[Jacob Mostovoy]], Section 8.8 of: _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv:1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
+
+* [[David Jackson]], [[Iain Moffat]], Section 18 of: _An Introduction to Quantum and Vassiliev Knot Invariants_, Springer 2019 ([doi:10.1007/978-3-030-05213-3](https://link.springer.com/book/10.1007/978-3-030-05213-3))
 
 ### Special values
 
