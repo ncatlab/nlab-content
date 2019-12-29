@@ -65,15 +65,19 @@ Quick exposition of the basic idea includes
 
 For mathematical discussion see
 
-* Hiraku Nakajima, _Introduction to a provisional mathematical definition of Coulomb branches of 3-dimensional $\mathcal{N} = 4$ gauge theories_ ([arXiv:1706.05154](http://arxiv.org/abs/1706.05154))
+* [[Hiraku Nakajima]], _Introduction to a provisional mathematical definition of Coulomb branches of 3-dimensional $\mathcal{N} = 4$ gauge theories_ ([arXiv:1706.05154](http://arxiv.org/abs/1706.05154))
 
-* Hiraku Nakajima, _Towards a mathematical definition of Coulomb branches of 3-dimensional $\mathcal{N} = 4$ gauge theories, I_ ([arXiv:1503.03676](http://arxiv.org/abs/1503.03676))
+* [[Hiraku Nakajima]], _Towards a mathematical definition of Coulomb branches of 3-dimensional $\mathcal{N} = 4$ gauge theories, I_ ([arXiv:1503.03676](http://arxiv.org/abs/1503.03676))
 
-* Alexander Braverman, Michael Finkelberg, Hiraku Nakajima, _Towards a mathematical definition of Coulomb branches of 3-dimensional $\mathcal{N} = 4$ gauge theories, II_ ([arXiv:1601.03586](http://arxiv.org/abs/1601.03586))
+* [[Alexander Braverman]], [[Michael Finkelberg]], [[Hiraku Nakajima]], _Towards a mathematical definition of Coulomb branches of 3-dimensional $\mathcal{N} = 4$ gauge theories, II_, Adv. Theor. Math. Phys. 22 (2018) 1071-1147 ([arXiv:1601.03586](http://arxiv.org/abs/1601.03586))
 
 * [[Constantin Teleman]], _The role of Coulomb branches in 2D gauge theory_, ([arXiv:1801.10124](https://arxiv.org/abs/1801.10124))
 
 * [[Ben Webster]], _Koszul duality between Higgs and Coulomb categories $\mathcal{O}$_, ([ arXiv:1611.06541](https://arxiv.org/abs/1611.06541))
+
+* [[Alexander Braverman]], [[Michael Finkelberg]], [[Hiraku Nakajima]], _Line bundles over Coulomb branches_ ([arXiv:1805.11826](https://arxiv.org/abs/1805.11826))
+
+  (relation to [[Hilbert schemes]])
 
 ### Singularities
 
