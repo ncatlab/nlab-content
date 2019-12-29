@@ -248,6 +248,8 @@ This has been shown in ([Godin](#Godin)). One of the $B U(1)$-summands is also p
 
 ## Related concepts
 
+* [[stringy weight system]]
+
 * [[graph]]
 
 * [[directed graph]]
