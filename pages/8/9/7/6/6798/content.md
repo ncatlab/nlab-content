@@ -57,7 +57,11 @@ Special properties are enjoyed by
 
 * [[topologically twisted D=4 super Yang-Mills theory]]
 
-* [[N=4 D=3 super Yang-Mills theory]]
+* [[3d superconformal gauge field theory]]
+
+  * [[D=3 N=2 super Yanf-Mills theory]]
+ 
+  * [[D=3 N=4 super Yang-Mills theory]]
 
 * [[D=5 super Yang-Mills theory]]
 
