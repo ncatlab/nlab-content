@@ -19,13 +19,13 @@
 
 Rozansky-Witten weight systems are [[weight systems]] on [[Jacobi diagrams]] ([[chord diagrams modulo 4T are Jacobi diagrams modulo STU|equivalently]] on [[round chord diagrams]]) given by [[Rozansky-Witten invariants]] on [[hyperkähler manifolds]], with [[coefficients]] in certain [[Dolbeault cohomology]] [[cohomology groups|groups]].
 
-For [[compact hyperkähler manifolds]] the induced RW-weight systems take values in the [[ground field]] and hence are actual [[weight systems]].
+For asymptotically flat and for [[compact hyperkähler manifolds]] the induced RW-weight systems take values in the [[ground field]] and hence are actual [[weight systems]].
 
 ## Examples
 
 ### Ground-field valued weight systems
 
-In order for Rozansky-Witten weight systems to take values in the [[ground field]], hence to be actual [[weight systems]], the [[hyperkähler manifold]] has to be [[compact topological space|compact]] (i.e. [[closed manifold|closed]]). The only known examples of [[compact hyperkähler manifolds]] are [[Hilbert schemes of points]] $X^{[n+1]}$ (for $n \in \mathbb{N}$) for $X$ either
+In order for Rozansky-Witten weight systems to take values in the [[ground field]], hence to be actual [[weight systems]], the [[hyperkähler manifold]] has to be asymptotically flat or  [[compact topological space|compact]] (i.e. [[closed manifold|closed]]). The only known examples of [[compact hyperkähler manifolds]] are [[Hilbert schemes of points]] $X^{[n+1]}$ (for $n \in \mathbb{N}$) for $X$ either
 
 1. a [[K3-surface]]
 
@@ -38,6 +38,8 @@ and two exceptional examples ([O'Grady 99](compact+hyperkähler+manifold#OGrady9
 ## Related concepts
 
 * [[Lie algebra weight system]]
+
+* [[D=3 N=4 super Yang-Mills theory]]
 
 ## References
 
