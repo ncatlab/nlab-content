@@ -4,6 +4,11 @@
 
 ## Selected writings
 
+Identification of the [[Coulomb branch]] of [[D=3 N=4 super Yang-Mills theory]] with the [[moduli space of monopoles]] in [[Yang-Mills theory]]:
+
+* N. Dorey, V. V. Khoze, M. P. Mattis, [[David Tong]], S. Vandoren, _Instantons, Three-Dimensional Gauge Theory, and the Atiyah-Hitchin Manifold_, Nucl. Phys. B502 (1997) 59-93 ([arXiv:hep-th/9703228](https://arxiv.org/abs/hep-th/9703228))
+
+
 On [[string theory]]:
 
 * {#Tong09} [[David Tong]], _Lectures on String Theory_ ([arXiv:0908.0333](https://arxiv.org/abs/0908.0333))
