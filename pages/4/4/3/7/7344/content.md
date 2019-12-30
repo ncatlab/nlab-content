@@ -69,6 +69,10 @@ Discussion as the [[worldvolume]]-theory of [[D3-D5 brane intersections]]:
 
 * [[Amihay Hanany]], [[Edward Witten]], _Type IIB Superstrings, BPS Monopoles, And Three-Dimensional Gauge Dynamics_, Nucl. Phys. B492:152-190, 1997 ([arXiv:hep-th/9611230](https://arxiv.org/abs/hep-th/9611230)) 
 
+Review of the [[moduli space]] of [[vacua]]:
+
+* Federici Carta, _Moduli Spaces of $\mathcal{N} = 4$, $d = 3$ Quiver Gauge Theories and Mirror Symmetry_, ([tesi.cab.unipd.it/46485/](http://tesi.cab.unipd.it/46485/))
+
 ### Mirror symmetry for $D=3$ $\mathcal{N}=4$ SYM
 
 On [[mirror symmetry]] for [[D=3 N=4 super Yang-Mills theory]]
