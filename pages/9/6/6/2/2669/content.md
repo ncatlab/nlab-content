@@ -2,7 +2,6 @@
 * table of contents
 {:toc}
 
-
 ## Idea
 
 Hilbert schemes are [[moduli space|moduli spaces]] of subvarieties, hence [[configuration space (mathematics)|configuration spaces]] in [[algebraic geometry]].
@@ -150,6 +149,9 @@ Identification of [[Higgs branches]]/[[Coulomb branches]] in [[D=3 N=4 super Yan
 
 * [[Jan de Boer]], [[Kentaro Hori]], [[Hirosi Ooguri]], [[Yaron Oz]], _Mirror Symmetry in Three-Dimensional Gauge Theories, Quivers and D-branes_, Nucl. Phys. B493:101-147, 1997 ([arXiv:hep-th/9611063](https://arxiv.org/abs/hep-th/9611063))
 
+* [[Jan de Boer]], [[Kentaro Hori]], [[Hirosi Ooguri]], [[Yaron Oz]], Zheng Yin, _Mirror Symmetry in Three-Dimensional Gauge Theories, $SL(2,\mathbb{Z})$ and D-Brane Moduli Spaces_, Nucl. Phys. B493:148-176, 1997 ([arXiv:hep-th/9612131](https://arxiv.org/abs/hep-th/9612131))
+
+
 
 * [[Stefano Cremonesi]], [[Amihay Hanany]], [[Alberto Zaffaroni]], sround (4.4) of: _Monopole operators and Hilbert series of Coulomb branches of 3d $\mathcal{N} = 4$ gauge theories_, JHEP 01 (2014) 005 ([arXiv:1309.2657](https://arxiv.org/abs/1309.2657))
 
@@ -161,8 +163,7 @@ Identification of [[Higgs branches]]/[[Coulomb branches]] in [[D=3 N=4 super Yan
 * [[Ben Webster]], _Coherent sheaves on Hilbert schemes through the Coulomb lens_, 2018 ([[WebsterHilbertScheme18.pdf:file]])
 
 
-
-
+* Mykola Dedushenko, Yale Fan, Silviu Pufu, Ran Yacoby, Section E.2 of: _Coulomb Branch Quantization and Abelianized Monopole Bubbling_, JHEP 10 (2019) 179 ([arXiv:1812.08788](https://arxiv.org/abs/1812.08788))
 
 
 
