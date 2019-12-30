@@ -300,6 +300,9 @@ Identification of the [[Coulomb branch]] of [[D=3 N=4 super Yang-Mills theory]] 
 
 * [[David Tong]], _Three-Dimensional Gauge Theories and ADE Monopoles_, Phys. Lett. B448 (1999) 33-36 ([arXiv:hep-th/9803148](https://arxiv.org/abs/hep-th/9803148))
 
+* [[Mathew Bullimore]], [[Tudor Dimofte]], [[Davide Gaiotto]], _The Coulomb Branch of 3d $\mathcal{N}=4$ Theories_, Commun. Math. Phys. (2017) 354: 671 ([arXiv:1503.04817](https://arxiv.org/abs/1503.04817))
+
+
 ### Relation to braids
 
 Relation to [[braid groups]]:
