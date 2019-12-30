@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On embedding [[D=3 N=4 super Yang-Mills theory]] in [[M-theory]]:
+
+* M. Porrati, [[Alberto Zaffaroni]], _M-Theory Origin of Mirror Symmetry in Three Dimensional Gauge Theories_, Nucl. Phys. B490 (1997) 107-120 ([arXiv:hep-th/9611201](https://arxiv.org/abs/hep-th/9611201))
+
 [[(p,q)5-brane webs]] intersected with [[orientifolds]]:
 
 * [[Amihay Hanany]], [[Alberto Zaffaroni]], _Issues on Orientifolds: On the brane construction of gauge theories with $SO(2n)$ global symmetry_, JHEP 9907 (1999) 009 ([arXiv:hep-th/9903242](https://arxiv.org/abs/hep-th/9903242))
