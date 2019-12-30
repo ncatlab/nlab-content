@@ -63,7 +63,7 @@ See also the discussion at _[[symplectic duality]]_.
 
 The construction of [[D=3 N=4 super Yang-Mills theory]] by [[Kaluza-Klein mechanism|dimensional reduction]] from [[N=2 D=4 super Yang-Mills theory]] was first considered in
 
-* {#SeibergWitten96} [[Nathan Seiberg]], [[Edward Witten]], _Gauge Dynamics And Compactification To Three Dimensions_ ([arXiv:hep-th/9607163](http://arxiv.org/abs/hep-th/9607163))
+* {#SeibergWitten96} [[Nathan Seiberg]], [[Edward Witten]], _Gauge Dynamics And Compactification To Three Dimensions_, In: J.M. Drouffe, J.B. Zuber (eds.) _The mathematical beauty of physics: A memorial volume for Claude Itzykson_ Proceedings, Conference, Saclay, France, June 5-7, 1996 ([arXiv:hep-th/9607163](http://arxiv.org/abs/hep-th/9607163), [spire:420925](http://inspirehep.net/record/420925))
 
 Discussion as the [[worldvolume]]-theory of [[D3-D5 brane intersections]]:
 
