@@ -371,6 +371,9 @@ Realistic [[Yukawa couplings]] and [[fermion]] [[masses]] in an [[MSSM]] [[Pati-
 
 * Tianjun Li, Adeel Mansha, Rui Sun, _Revisiting the Supersymmetric Pati-Salam Models from Intersecting D6-branes_ ([arXiv:1910.04530](https://arxiv.org/abs/1910.04530))
 
+* Tianjun Li, Adeel Mansha, Rui Sun, _Generalized Supersymmetric Pati-Salam Models from Intersecting D6-branes_ ([arXiv:1912.11633](https://arxiv.org/abs/1912.11633))
+
+
 
 ### Lift to M-theory
  {#ReferencesLiftToMTheory}
