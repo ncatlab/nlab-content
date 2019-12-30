@@ -292,6 +292,13 @@ The moduli space of monopoles appears also in the [[KK-compactification]] of the
 
 * Benjamin Assel, [[Sakura Schafer-Nameki]], Jin-Mann Wong, _M5-branes on $S^2 \times M_4$: Nahm's Equations and 4d Topological Sigma-models_, J. High Energ. Phys. (2016) 2016: 120 ([arxiv:1604.03606](https://arxiv.org/abs/1604.03606))
 
+### As Coulomg branches of $D=3$ $\mathcal{N}=4$ SYM
+
+Identification of the [[Coulomb branch]] of [[D=3 N=4 super Yang-Mills theory]] with the [[moduli space of monopoles]] in [[Yang-Mills theory]]:
+
+* N. Dorey, V. V. Khoze, M. P. Mattis, [[David Tong]], S. Vandoren, _Instantons, Three-Dimensional Gauge Theory, and the Atiyah-Hitchin Manifold_, Nucl. Phys. B502 (1997) 59-93 ([arXiv:hep-th/9703228](https://arxiv.org/abs/hep-th/9703228))
+
+* [[David Tong]], _Three-Dimensional Gauge Theories and ADE Monopoles_, Phys. Lett. B448 (1999) 33-36 ([arXiv:hep-th/9803148](https://arxiv.org/abs/hep-th/9803148))
 
 ### Relation to braids
 
