@@ -121,6 +121,10 @@ On  [[de Sitter spacetime]] [[cosmology]] realized in [[brane world models]] in 
 
 * Souvik Banerjee, [[Ulf Danielsson]], Giuseppe Dibitetto, Suvendu Giri, Marjorie Schillo, _de Sitter Cosmology on an expanding bubble_ ([arXiv:1907.04268](https://arxiv.org/abs/1907.04268))
 
+More generally on gravity on the brane:
+
+* A. A. Zheltukhin, _Brane mechanism of spontaneously generated gravity_ ([arXiv:1912.11520](https://arxiv.org/abs/1912.11520))
+
 
 ### In gauge-Higgs grand unification
 
