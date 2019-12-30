@@ -30,6 +30,10 @@ The special case of [[super Yang-Mills theory]] over a [[spacetime]] of [[dimens
 
 ## Properties
 
+### Coulomb- and Higgs-branches
+
+Both the [[Coulomb branches]] and the [[Higgs branch]] of [[D=3 N=4 super Yang-Mills theory]] are [[hyperkähler manifolds]]. In special cases they are [[compact hyperkähler manifolds]] (e.g. [dBHOO 96](#dBHOO96)).
+
 ### Reduction from $N = 2$, $D = 4$
 
 The $N = 4$, $D = 3$ SYM theory can be obtained by [[Kaluza-Klein mechanism|dimensional reduction]] from [[N=2 D=4 super Yang-Mills theory]] ([Seiberg-Witten 96](#SeibergWitten96))
@@ -57,20 +61,44 @@ See also the discussion at _[[symplectic duality]]_.
 ### General
 
 
-The [[Kaluza-Klein mechanism|dimensional reduction]] from [[N=2 D=4 super Yang-Mills theory]] was first considered in
+The construction of [[D=3 N=4 super Yang-Mills theory]] by [[Kaluza-Klein mechanism|dimensional reduction]] from [[N=2 D=4 super Yang-Mills theory]] was first considered in
 
 * {#SeibergWitten96} [[Nathan Seiberg]], [[Edward Witten]], _Gauge Dynamics And Compactification To Three Dimensions_ ([arXiv:hep-th/9607163](http://arxiv.org/abs/hep-th/9607163))
- 
+
+Discussion as the [[worldvolume]]-theory of [[D3-D5 brane intersections]]:
+
+* [[Amihay Hanany]], [[Edward Witten]], _Type IIB Superstrings, BPS Monopoles, And Three-Dimensional Gauge Dynamics_, Nucl. Phys. B492:152-190, 1997 ([arXiv:hep-th/9611230](https://arxiv.org/abs/hep-th/9611230)) 
+
+### Mirror symmetry for $D=3$ $\mathcal{N}=4$ SYM
+
+On [[mirror symmetry]] for [[D=3 N=4 super Yang-Mills theory]]
 
 The mirror symmetry operation was discussed in 
 
 * {#IntriligatorSeiberg96} [[Ken Intriligator]], [[Nathan Seiberg]], _Mirror Symmetry in Three Dimensional Gauge Theories_, Phys. Lett.B 387 : 513-519,1996 ([arXiv:hep-th/9607207](http://arxiv.org/abs/hep-th/9607207))
 
-On [[mirror symmetry]] between [[Higgs branches]]/[[Coulomb branches]] of [[D=3 N=4 super Yang-Mills theory]] (with emphasis of [[Hilbert schemes of points]]):
+Discussion with emphasis of [[Higgs branches]]/[[Coulomb branches]] as [[Hilbert schemes of points]]
 
 * [[Jan de Boer]], [[Kentaro Hori]], [[Hirosi Ooguri]], [[Yaron Oz]], _Mirror Symmetry in Three-Dimensional Gauge Theories, Quivers and D-branes_, Nucl. Phys. B493:101-147, 1997 ([arXiv:hep-th/9611063](https://arxiv.org/abs/hep-th/9611063))
 
+* [[Jan de Boer]], [[Kentaro Hori]], [[Hirosi Ooguri]], [[Yaron Oz]], Zheng Yin, _Mirror Symmetry in Three-Dimensional Gauge Theories, $SL(2,\mathbb{Z})$ and D-Brane Moduli Spaces_, Nucl. Phys. B493:148-176, 1997 ([arXiv:hep-th/9612131](https://arxiv.org/abs/hep-th/9612131))
+
+### Lift to M-theory
+
+Lift to [[M-theory]]:
+
+* M. Porrati, [[Alberto Zaffaroni]], _M-Theory Origin of Mirror Symmetry in Three Dimensional Gauge Theories_, Nucl. Phys. B490 (1997) 107-120 ([arXiv:hep-th/9611201](https://arxiv.org/abs/hep-th/9611201))
+
 ### Coulomb branch
+
+Identification of the [[Coulomb branch]] of [[D=3 N=4 super Yang-Mills theory]] with the [[moduli space of monopoles]] in [[Yang-Mills theory]]:
+
+* N. Dorey, V. V. Khoze, M. P. Mattis, [[David Tong]], S. Vandoren, _Instantons, Three-Dimensional Gauge Theory, and the Atiyah-Hitchin Manifold_, Nucl. Phys. B502 (1997) 59-93 ([arXiv:hep-th/9703228](https://arxiv.org/abs/hep-th/9703228))
+
+* [[David Tong]], _Three-Dimensional Gauge Theories and ADE Monopoles_, Phys. Lett. B448 (1999) 33-36 ([arXiv:hep-th/9803148](https://arxiv.org/abs/hep-th/9803148))
+
+* [[Mathew Bullimore]], [[Tudor Dimofte]], [[Davide Gaiotto]], _The Coulomb Branch of 3d $\mathcal{N}=4$ Theories_, Commun. Math. Phys. (2017) 354: 671 ([arXiv:1503.04817](https://arxiv.org/abs/1503.04817))
+
 
 On a mathematical definition of [[Coulomb branches]] of [[D=3 N=4 super Yang-Mills theory]]:
 
@@ -85,11 +113,14 @@ On a mathematical definition of [[Coulomb branches]] of [[D=3 N=4 super Yang-Mil
 
   (relation to [[Hilbert schemes]])
 
+
 ### Hilbert schemes and Higgs/Coulomb branches
 
 Identification of [[Higgs branches]]/[[Coulomb branches]] in [[D=3 N=4 super Yang-Mills theory]] with [[Hilbert schemes of points]] of [[complex curves]]:
 
-* [[Jan de Boer]], [[Kentaro Hori]], [[Hirosi Ooguri]], [[Yaron Oz]], _Mirror Symmetry in Three-Dimensional Gauge Theories, Quivers and D-branes_, Nucl. Phys. B493:101-147, 1997 ([arXiv:hep-th/9611063](https://arxiv.org/abs/hep-th/9611063))
+* {#dBHOO96} [[Jan de Boer]], [[Kentaro Hori]], [[Hirosi Ooguri]], [[Yaron Oz]], _Mirror Symmetry in Three-Dimensional Gauge Theories, Quivers and D-branes_, Nucl. Phys. B493:101-147, 1997 ([arXiv:hep-th/9611063](https://arxiv.org/abs/hep-th/9611063))
+
+* [[Jan de Boer]], [[Kentaro Hori]], [[Hirosi Ooguri]], [[Yaron Oz]], Zheng Yin, _Mirror Symmetry in Three-Dimensional Gauge Theories, $SL(2,\mathbb{Z})$ and D-Brane Moduli Spaces_, Nucl. Phys. B493:148-176, 1997 ([arXiv:hep-th/9612131](https://arxiv.org/abs/hep-th/9612131))
 
 
 * [[Stefano Cremonesi]], [[Amihay Hanany]], [[Alberto Zaffaroni]], around (4.4) of: _Monopole operators and Hilbert series of Coulomb branches of 3d $\mathcal{N} = 4$ gauge theories_, JHEP 01 (2014) 005 ([arXiv:1309.2657](https://arxiv.org/abs/1309.2657))
@@ -97,7 +128,7 @@ Identification of [[Higgs branches]]/[[Coulomb branches]] in [[D=3 N=4 super Yan
 
 * [[Alexander Braverman]], [[Michael Finkelberg]], [[Hiraku Nakajima]], _Line bundles over Coulomb branches_ ([arXiv:1805.11826](https://arxiv.org/abs/1805.11826))
 
-
+* Mykola Dedushenko, Yale Fan, Silviu Pufu, Ran Yacoby, Section E.2 of: _Coulomb Branch Quantization and Abelianized Monopole Bubbling_, JHEP 10 (2019) 179 ([arXiv:1812.08788](https://arxiv.org/abs/1812.08788))
 
  
 
