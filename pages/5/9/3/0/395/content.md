@@ -172,7 +172,9 @@ The point of the axioms of a category of fibrant objects is that when passing fr
 
 
 +-- {: .num_defn}
-###### Definition ($\infty$-groupoid valued sheaves)
+###### Definition 
+
+**($\infty$-groupoid valued sheaves)**
 
 For $C$ be a [[site]] such that the [[sheaf]] [[topos]]
 $Sh(C)$ has [[point of a topos|enough points]],
