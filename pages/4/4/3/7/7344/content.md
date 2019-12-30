@@ -93,15 +93,22 @@ Lift to [[M-theory]]:
 
 * M. Porrati, [[Alberto Zaffaroni]], _M-Theory Origin of Mirror Symmetry in Three Dimensional Gauge Theories_, Nucl. Phys. B490 (1997) 107-120 ([arXiv:hep-th/9611201](https://arxiv.org/abs/hep-th/9611201))
 
-### Coulomb branch
+### Coulomb branch and monopole moduli
 
 Identification of the [[Coulomb branch]] of [[D=3 N=4 super Yang-Mills theory]] with the [[moduli space of monopoles]] in [[Yang-Mills theory]]:
+
+* [Seiberg-Witten 96](#SeibergWitten96)
 
 * N. Dorey, V. V. Khoze, M. P. Mattis, [[David Tong]], S. Vandoren, _Instantons, Three-Dimensional Gauge Theory, and the Atiyah-Hitchin Manifold_, Nucl. Phys. B502 (1997) 59-93 ([arXiv:hep-th/9703228](https://arxiv.org/abs/hep-th/9703228))
 
 * [[David Tong]], _Three-Dimensional Gauge Theories and ADE Monopoles_, Phys. Lett. B448 (1999) 33-36 ([arXiv:hep-th/9803148](https://arxiv.org/abs/hep-th/9803148))
 
 * [[Mathew Bullimore]], [[Tudor Dimofte]], [[Davide Gaiotto]], _The Coulomb Branch of 3d $\mathcal{N}=4$ Theories_, Commun. Math. Phys. (2017) 354: 671 ([arXiv:1503.04817](https://arxiv.org/abs/1503.04817))
+
+The [[Rozansky-Witten invariants]] of these moduli spaces:
+
+
+* {#RozanskyWitten96} [[Lev Rozansky]], [[Edward Witten]], p. 36 of: _Hyper-K&#228;hler geometry and invariants of 3-manifolds_, Selecta Math., New Ser. __3__ (1997), 401&#8211;458 ([arXiv:hep-th/9612216](https://arxiv.org/abs/hep-th/9612216), [doi:10.1007/s000290050016](https://doi.org/10.1007/s000290050016), [MR98m:57041](http://www.ams.org/mathscinet-getitem?mr=98m:57041))
 
 
 On a mathematical definition of [[Coulomb branches]] of [[D=3 N=4 super Yang-Mills theory]]:
