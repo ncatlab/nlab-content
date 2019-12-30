@@ -36,6 +36,16 @@ $$I^2=J^2=K^2=I J K=-1.$$
 
 [[!include normed division algebra Riemannian geometry -- table]]
 
+## Examples
+
+### Coulomb- and Higgs-branches of $D=3$ $\mathcal{N} =4 $ SYM
+
+Both the [[Coulomb branches]] and the [[Higgs branch]] of [[D=3 N=4 super Yang-Mills theory]] are [[hyperkähler manifolds]]. In special cases they are [[compact hyperkähler manifolds]] (e.g. [dBHOO 96](D=3+N=4+super+Yang-Mills+theory#dBHOO96)).
+
+### Rozansky-Witten weight systems
+
+Every [[hyperkähler manifold]] induces a [[Rozansky-Witten weight system]] with [[coefficients]] in certain [[Dolbeault cohomology]]-groups. For [[compact hyperkähler manifolds]] there are induced [[Rozansky-Witten weight system]] with values in the [[ground field]], hence actual [[weight systems]].
+
 ## Related concepts
 
 * [[Kähler manifold]], **hyper-K&#228;hler manifold**, [[quaternionic Kähler manifold]]
