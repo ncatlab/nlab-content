@@ -43,6 +43,8 @@ and two exceptional examples ([O'Grady 99](compact+hyperkähler+manifold#OGrady9
 
 ## References
 
+### General
+
 Original articles:
 
 
@@ -59,4 +61,13 @@ Unified description of [[Rozansky-Witten weight systems]] with [[Lie algebra wei
 Review:
 
 * {#Roberts01} [[Justin Roberts]], _Rozansky-Witten theory_ ([arXiv:math/0112209](https://arxiv.org/abs/math/0112209))
+
+### Relation to Seiberg-Witten invariants
+
+On relation between [[Rozansky-Witten invariants]] and [[Seiberg-Witten invariants]] of [[3-manifolds]]:
+
+* [[Matthias Blau]], George Thompson, _On the Relationship between the Rozansky-Witten and the 3-Dimensional Seiberg-Witten Invariants_, Adv. Theor. Math. Phys. 5 (2002) 483-498 ([arXiv:hep-th/0006244](https://arxiv.org/abs/hep-th/0006244))
+
+
+
 
