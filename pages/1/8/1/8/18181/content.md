@@ -11,12 +11,13 @@
 
 * [[Kant]]
 
-  _Kritik der Reinen Vernunft_
+  _Kritik der Reinen Vernunft_ (Critique of Pure Reason), abbreviated KrV.
 
-  (Critique of Pure Reason)
+  * first edition 1781. Normally and in this article denoted by "A", e.g. "A111" refers to page 111 of the original first edition. But the Akademieausgabe uses A¹.
 
-  first edition 1781 (denoted by "A"), second edition 1787 (denoted by "B")1781/1787
+  * second edition 1787. Normally and in this article denoted by "B". Akademieausgabe uses A².
 
+  The second edition comprises a considerable extension of the first addition, though some passages were left out in former.
 
 ## Contents
 
@@ -49,6 +50,8 @@ Actually, all three possibilities discussed by Kant appear in modern mathematics
 
 1. "Space is essentially one, and multiplicity in it, consequently the general notion of spaces, of this or that space, depends solely upon limitations." (German: "Er [Der Raum] ist wesentlich einig, das Mannigfaltige  in ihm, mithin auch der allgemeine Begriff von Räumen überhaupt beruht lediglich auf Einschränkungen.") A situation like this is found if any space in a geometrical theory can be considered as a subspace of one fix space. Good examples of such situations are given, as mentioned, by noncommutative geometry ([Petitot 2009](#Petitot09)), which is concerned with subspaces of the space of bounded operators on a [[separable space|separable]] [[Hilbert space]], or by [[descriptive set theory]] that can be understood as the study of subsets of the real line.
 
+  Making such comparisons maybe a word of caution is in order to note that what Kant meant by the intuition of e.g. "space" is certainly not exactly any of the objects described above. But Kant's "formal intuition" ("formale Anschauung"), which he mentions later in the Transcendental Deduction as a footnote in B §26, comes probably quite close.
+
 
 
 ##### Of Time
@@ -56,7 +59,14 @@ Actually, all three possibilities discussed by Kant appear in modern mathematics
 #### Transcendental Logic
 
 Achourioti and van Lambalgen (June and November 2011) offered a formalization of Kant's logic in terms of [[geometric logic]].
+
+##### Introduction (General Logic and Transcendental Logic)
+
 In the development of Kant's distinction between general logic and transcendental logic Kant's _[[Attempt to Introduce the Concept of Negative Quantities into Philosophy]]_ from 1763 constitutes a crucial step.
+
+##### Of the Transcendental Clue to the Discovery of all Pure Conceptions of the Understanding
+
+##### Transcendental Deduction
 
 ###Transcendental Doctrine of Methods
 
