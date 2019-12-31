@@ -160,7 +160,7 @@ Early accounts include
 
 A fun scan of the (pre-)history of the stable homotopy category is in 
 
-* [[Peter May]], _The hare and the hedgehog_, speech at [[Michael Boardman]]'s birthday meeting ([txt](http://hopf.math.purdue.edu/May/boardman.txt))
+* [[Peter May]], _The hare and the tortoise_, speech at [[Michael Boardman]]'s birthday meeting ([txt](http://hopf.math.purdue.edu/May/boardman.txt))
 
 See also the references at _[[stable homotopy theory]]_.
 
