@@ -39,7 +39,7 @@ For Kant space is not a concept but an intuition, more precisely an intuition, "
 The intuition (in the ordinary sense) Kant has concerning space is similar to a number theorist who considers "the" [[natural number|natural numbers]] as the object of her studies, though she certainly has limitations in specifying what she means. Indeed, common way to do so have limitation: for instance, one can not uniquely determine the natural numbers by a list of axioms, as [[incompleteness theorem|Gödel's fist incompleteness theorem]] demonstrates, nor is it satisfying to describe the natural numbers by a concrete model, because there are several ways to do so.
 
 Due to his intuition that there is "one" space, Kant discards the first two out of the three possibilities he discusses.
-Since Kant this intuition has been dropped mostly by geometers in favor of the first introducing pioneering concepts like [[On the hypotheses which underlie geometry|Riemannian manifolds in 1854]]. In his very early work [[Bertrand Russell]] tried to adapt Kant's work to this new view (see [[An Essay on the Foundations of Geometry]]).
+Since Kant this intuition has been dropped mostly by geometers in favor of the first introducing pioneering concepts like [[On the hypotheses which underlie geometry|Riemannian manifolds in 1854]]. In his very early work [[Bertrand Russell]] tried to adapt Kant's work to this new view (see [[An Essay on the Foundations of Geometry]]). Later Kant's idea appeared again in the framework of [[noncommutative geometry]] ([Petitot 2009](#Petitot09)) 
 
 Actually, all three possibilities discussed by Kant appear in modern mathematics:
 
@@ -47,7 +47,7 @@ Actually, all three possibilities discussed by Kant appear in modern mathematics
 
 1. a space that "antecede this one all-embracing space, as the component parts from which the aggregate can be made up" (German: "vor dem einigen allbefassenden Raume gleichsam als dessen Bestandtheile (daraus seine Zusammensetzung möglich sei) vorhergehen"). A modern concept that matches this description quite well is the concept of a [[classifying space]], that does not contain each member of a certain class of spaces as a subspace, but from which "antecede" each such space by [[pullback]].
 
-1. "Space is essentially one, and multiplicity in it, consequently the general notion of spaces, of this or that space, depends solely upon limitations." (German: "Er [Der Raum] ist wesentlich einig, das Mannigfaltige  in ihm, mithin auch der allgemeine Begriff von Räumen überhaupt beruht lediglich auf Einschränkungen.") A situation like this is found if any space in a geometrical theory can be considered as a subspace of one fix space. Good examples of such situations are given by [[descriptive set theory]] that can be understood as the study of subsets of the real line.
+1. "Space is essentially one, and multiplicity in it, consequently the general notion of spaces, of this or that space, depends solely upon limitations." (German: "Er [Der Raum] ist wesentlich einig, das Mannigfaltige  in ihm, mithin auch der allgemeine Begriff von Räumen überhaupt beruht lediglich auf Einschränkungen.") A situation like this is found if any space in a geometrical theory can be considered as a subspace of one fix space. Good examples of such situations are given, as mentioned, by noncommutative geometry ([Petitot 2009](#Petitot09)), which is concerned with subspaces of the space of bounded operators on a [[separable space|separable]] [[Hilbert space]], or by [[descriptive set theory]] that can be understood as the study of subsets of the real line.
 
 
 
@@ -95,6 +95,9 @@ Compare to the identification of concepts with the [[types]] in the sense of [[t
 * Achourioti and van Lambalgen, _A formalization of Kant's transcendental logic_. (June 2011). 
 
 * Achourioti and van Lambalgen, _The Completeness of Kant's Table of Judgments & Consequences for Philosophy of Mathematics_. Talk given at the Munich Center for Mathematical Philosophy (November 2011). [Video](https://www.youtube.com/watch?v=gPAZcxAGRVs).
+
+* Bitbol, Michel, Kerszberg, Pierre, Petitot, Jean (Eds.), _Constituting Objectivity: Transcendental Perspectives on Modern Physics_ Springer (2009)
+  * {#Petitot09}Jean Petitot, _[Noncommutative Geometry and Transcendental Physics](http://topologicalmedialab.net/xinwei/classes/readings/Petitot/Petitot_NoncommutativeGeometry.pdf)_, pgs 415-455
 
 category: reference
 
