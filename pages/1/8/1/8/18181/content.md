@@ -13,7 +13,7 @@
 
   _Kritik der Reinen Vernunft_ (Critique of Pure Reason), abbreviated KrV.
 
-  * first edition 1781. Normally and in this article denoted by "A", e.g. "A111" refers to page 111 of the original first edition. But the Akademieausgabe uses A¹.
+  * [first edition 1781](#1stEd). Normally and in this article denoted by "A", e.g. "A111" refers to page 111 of the original first edition. But the Akademieausgabe uses A¹.
 
   * second edition 1787. Normally and in this article denoted by "B". Akademieausgabe uses A².
 
@@ -58,7 +58,7 @@ Actually, all three possibilities discussed by Kant appear in modern mathematics
 
 #### Transcendental Logic
 
-Achourioti and van Lambalgen (June and November 2011) offered a formalization of Kant's logic in terms of [[geometric logic]].
+Achourioti and van Lambalgen ([2011/2012](#AchouriotiVanLambalgen)) offered a formalization of Kant's logic in terms of [[geometric logic]].
 
 ##### Introduction (General Logic and Transcendental Logic)
 
@@ -98,16 +98,24 @@ Compare to the identification of concepts with the [[types]] in the sense of [[t
 
 * Wikipedia, _[Critique of Pure Reason](https://en.wikipedia.org/wiki/Critique_of_Pure_Reason)_
 
-* Wikisource, [First edition](https://de.wikisource.org/wiki/Critik_der_reinen_Vernunft_%281781%29) (1881) and [several English translations](https://en.wikisource.org/wiki/Critique_of_Pure_Reason)
+* {#1stEd}Wikisource, [First edition](https://de.wikisource.org/wiki/Critik_der_reinen_Vernunft_%281781%29) (1881) and [several English translations](https://en.wikisource.org/wiki/Critique_of_Pure_Reason)
 
 * [english translation](http://www.gutenberg.org/files/4280/4280-h/4280-h.htm) by [J. M. D. Meiklejohn](https://en.wikipedia.org/wiki/John_Meiklejohn)
 
-* Achourioti and van Lambalgen, _A formalization of Kant's transcendental logic_. (June 2011). 
-
-* Achourioti and van Lambalgen, _The Completeness of Kant's Table of Judgments & Consequences for Philosophy of Mathematics_. Talk given at the Munich Center for Mathematical Philosophy (November 2011). [Video](https://www.youtube.com/watch?v=gPAZcxAGRVs).
 
 * Bitbol, Michel, Kerszberg, Pierre, Petitot, Jean (Eds.), _Constituting Objectivity: Transcendental Perspectives on Modern Physics_ Springer (2009)
   * {#Petitot09}Jean Petitot, _[Noncommutative Geometry and Transcendental Physics](http://topologicalmedialab.net/xinwei/classes/readings/Petitot/Petitot_NoncommutativeGeometry.pdf)_, pgs 415-455
+
+
+{#AchouriotiVanLambalgen}Achourioti and van Lambalgen's approach appeared in
+
+* Achourioti and van Lambalgen, _A formalization of Kant's transcendental logic_. (June 2011). Review of Symbolic Logic 4 (2):254-289. 
+
+* Achourioti and van Lambalgen, _The Completeness of Kant's Table of Judgments & Consequences for Philosophy of Mathematics_. Talk given at the Munich Center for Mathematical Philosophy (November 2011). [Video](https://www.youtube.com/watch?v=gPAZcxAGRVs).
+
+Later the authors elaborated on the table of judgements in
+
+* Achourioti and van Lambalgen, _Kant’s Logic Revisited_ (January 2016). In: Proceedings of PhML 2012, Saint Petersburg. Also published (2017) in: The IfCoLog Journal of Logics and their Applications  4(4), 845-865.
 
 category: reference
 
