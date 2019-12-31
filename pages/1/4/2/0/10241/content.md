@@ -17,7 +17,7 @@
 
 ## Idea
 
-There is, by the [[brane scan]], a [[superstring]] propagating in the 6-dimensional [[worldvolume]] of an [[NS5-brane]]. This is often called the _little string_, with respect to the [[superstrings]] in the ambient 10-dimensional [[heterotic supergravity]] and [[type II supergravity]] that in turn the [[NS5-brane]] is propagating in.
+There is, by the [[brane scan]], a [[superstring]] propagating in the 6-dimensional [[worldvolume]] of an [[NS5-brane]]. This is often called the _little string_ of [[little string theory]], with respect to the [[superstrings]] in the ambient 10-dimensional [[heterotic supergravity]] and [[type II supergravity]] that in turn the [[NS5-brane]] is propagating in.
 
 ## Related concepts
 
@@ -37,5 +37,4 @@ On [[D=3 N=4 super Yang-Mills theories]] with [[compact hyperkähler manifold]] 
 
 [[!redirects little strings]]
 
-[[!redirects little string theory]]
-[[!redirects little string theories]]
+
