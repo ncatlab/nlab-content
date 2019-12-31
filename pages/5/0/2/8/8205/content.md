@@ -224,11 +224,17 @@ chapter 5 of
 
 ### Application to pure mathematics
 
+> string theory "knows more mathematics than we do" and its study has led to the development of a large quantity of new mathematics: [[mirror symmetry]] (enumerative formulas, [[homological mirror symmetry]], [[Bridgeland stability]]), new invariants ([[Gromov-Witten invariants|Gromov-Witten]], [[Donaldson-Thomas invariant|Donaldson-Thomas]], [[Gopakumar-Vafa invariant|Gopakumar-Vafa]], etc.), [[topological field theory]] and topological [[quantum gravity]], etc. ([Douglas 19, slide 30](#Douglas19))
+
 Reviews include
 
 * [[Gregory Moore]], _[[The Impact of D-Branes on Mathematics]]_ (2014), _[[Physical Mathematics and the Future]]_ (2014)
 
 * [[Mina Aganagic]], _String Theory and Math: Why This Marriage May Last_, ([arXiv:1508.06642](https://arxiv.org/abs/1508.06642))
+
+For a review of prospects of computerized support for string theory, see
+
+* {#Douglas19} [[Michael Douglas]], _Physics and Formal Methods_, ([slides](https://www.icms.org.uk/downloads/bigproof/Douglas.pdf))
 
 See also [Fields medal (and other) work related to string theory](string+theory#FieldMedalWork)
 
