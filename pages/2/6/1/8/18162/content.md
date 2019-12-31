@@ -19,7 +19,7 @@
 
 ## Idea
 
-In [[topology]], some of the [[separation axioms]] that may be considered on [[topological spaces]] may equivalently be refomrulated in terms of [[lifting properties]] ([Gavrilovich 14](#MG)). 
+In [[topology]], some of the [[separation axioms]] that may be considered on [[topological spaces]] may equivalently be reformulated in terms of [[lifting properties]] ([Gavrilovich 14](#MG)). 
 
 
 ## Background and notation
