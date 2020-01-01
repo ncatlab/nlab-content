@@ -1,3 +1,6 @@
+[[!redirects N=1 D=4 super Yang-Mills theory]]
+[[!redirects N=1 D=4 super Yang-Mills theory]]
+
 #Contents#
 * table of contents
 {:toc}
@@ -30,9 +33,11 @@
 
 ## References
 
+### General
+
 * Yuji Tachikawa, _Lectures on $4d$ $N=1$ dynamics and related topics_ ([arXiv:1812.08946](https://arxiv.org/abs/1812.08946))
 
-See also iat _[[N=2 D=4 super Yang-Mills theory]]_.
+See also at _[[N=2 D=4 super Yang-Mills theory]]_.
 
 The [[KK-compactification]] of the [[D=6 N=(1,0) SCFT]] (on [[M5-branes]]) to [[D=4 N=1 super Yang-Mills]]:
 
@@ -52,6 +57,11 @@ The [[KK-compactification]] of the [[D=6 N=(1,0) SCFT]] (on [[M5-branes]]) to [[
 
 * Jin Chen, Babak Haghighat, Shuwei Liu, Marcus Sperling, _4d N=1 from 6d D-type N=(1,0)_ ([arXiv:1907.00536](https://arxiv.org/abs/1907.00536))
 
+### Witten index
+
+The [[Witten index]]:
+
+* [[Leonardo Rastelli]], Shlomo S. Razamat, _The supersymmetric index in four dimensions_, Journal of Physics A: Mathematical and Theoretical, Volume 50, Number 44 ([arXiv:1608.02965](https://arxiv.org/abs/1608.02965))
 
 [[!redirects N=1 D=4 sYM]]
 
