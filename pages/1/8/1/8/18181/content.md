@@ -64,7 +64,7 @@ Achourioti and van Lambalgen ([2011/2012](#AchouriotiVanLambalgen)) offered a fo
 
 In the development of Kant's distinction between general logic and transcendental logic Kant's _[[Attempt to Introduce the Concept of Negative Quantities into Philosophy]]_ from 1763 constitutes a crucial step.
 
-##### Of the Transcendental Clue to the Discovery of all Pure Conceptions of the Understanding
+##### Of the Transcendental Clue [Leitfaden] to the Discovery of all Pure Conceptions of the Understanding
 
 ##### Transcendental Deduction
 
