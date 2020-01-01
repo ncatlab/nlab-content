@@ -148,6 +148,13 @@ Identification of [[Higgs branches]]/[[Coulomb branches]] in [[D=3 N=4 super Yan
 
 * Mykola Dedushenko, Yale Fan, Silviu Pufu, Ran Yacoby, Section E.2 of: _Coulomb Branch Quantization and Abelianized Monopole Bubbling_, JHEP 10 (2019) 179 ([arXiv:1812.08788](https://arxiv.org/abs/1812.08788))
 
+### Witten index
+
+Discussion of the [[Witten index]]:
+
+* [[Mathew Bullimore]], Andrea E.V. Ferrari, Heeyeon Kim, _Twisted Indices of 3d N=4 Gauge Theories and Enumerative Geometry of Quasi-Maps_ ([arXiv:1812.05567](https://arxiv.org/abs/1812.05567))
+
+
 [[!redirects D=3 N=4 super Yang-Mills theories]]
  
 [[!redirects N=4 D=3 super Yang-Mills theory]]
