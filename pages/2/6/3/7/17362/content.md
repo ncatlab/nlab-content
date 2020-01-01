@@ -18,7 +18,7 @@
 
 In [[computer science]] and to some extent also in [[formal logic]], **sugaring** refers to the modification of formal notation ([[syntax]]) into a form which is more readable for humans, thereby "sweetening" it for consumption. Syntactic sugar does not add to the functionality or expressivity of the language.
 
-[[Peter Landin]] first used the expression 'syntactic sugaring' in the context of interpretations of terms in the [[∞-calculus]] ([Landin64](#Landin64)).
+[[Peter Landin]] first used the expression 'syntactic sugaring' in the context of interpretations of terms in the [[λ-calculus]] ([Landin64](#Landin64)).
 
 The reverse process to expressions in the more formal language is sometimes known as 'desugaring'.
 
