@@ -66,6 +66,8 @@ For some discussion of partition functions of 2-dimensional QFTs see [[(2,1)-dim
 
 * [[vacuum amplitude]], [[vacuum energy]]
 
+* [[Witten index]]
+
 * [[Riemann hypothesis and physics]]
 
 
