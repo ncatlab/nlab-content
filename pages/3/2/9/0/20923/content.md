@@ -13,5 +13,10 @@ Discussion of [[topological quantum field theory]] with an eye towards [[supersy
 
 * [[Christopher Beem]], [[David Ben-Zvi]], [[Mathew Bullimore]], [[Tudor Dimofte]], [[Andrew Neitzke]], _Secondary products in supersymmetric field theory_ ([arXiv:1809.00009](https://arxiv.org/abs/1809.00009))
 
+On the [[Witten index]] of [[D=3 N=4 super Yang-Mills theory]]:
+
+
+* [[Mathew Bullimore]], Andrea E.V. Ferrari, Heeyeon Kim, _Twisted Indices of 3d N=4 Gauge Theories and Enumerative Geometry of Quasi-Maps_ ([arXiv:1812.05567](https://arxiv.org/abs/1812.05567))
+
 
 category: people
