@@ -25,7 +25,7 @@
 
 ## Idea
 
-The special case of [[super Yang-Mills theory]] over a [[spacetime]] of [[dimension]] 3 and with $N = 4$ [[supersymmetry]].
+The special case of [[super Yang-Mills theory]] over a [[spacetime]] of [[dimension]] 3 and with $\mathcal{N}=4$ [[number of supersymmetries]].
 
 ## Properties
 
@@ -150,7 +150,8 @@ Identification of [[Higgs branches]]/[[Coulomb branches]] in [[D=3 N=4 super Yan
 
 ### Witten index
 
-Discussion of the [[Witten index]]:
+Discussion of the [[Witten index]] of [[D=3 N=4 super Yang-Mills theory]]:
+
 
 * [[Mathew Bullimore]], Andrea E.V. Ferrari, Heeyeon Kim, _Twisted Indices of 3d N=4 Gauge Theories and Enumerative Geometry of Quasi-Maps_ ([arXiv:1812.05567](https://arxiv.org/abs/1812.05567))
 
