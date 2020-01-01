@@ -159,6 +159,11 @@ in the context of [[Chern-Simons theory]] and in more general gauge theory to
 
 * {#KapustinWitten06} [[Anton Kapustin]], [[Edward Witten]], _Electric-Magnetic Duality And The Geometric Langlands Program_, Communications in Number Theory and Physics Volume 1 (2007) Number 1 ([arXiv:hep-th/0604151](http://arxiv.org/abs/hep-th/0604151))
 
+[[!redirects Wilson loop operator]]
+[[!redirects Wilson loop operators]]
+
+
+
 
 [[!redirects Wilson loop]]
 [[!redirects Wilson loops]]
