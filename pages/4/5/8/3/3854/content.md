@@ -10,6 +10,10 @@ __Anton Kapustin__ is a Russian mathematical physicist, now a Professor at Calte
 
 * [[Sergei Gukov]], [[Anton Kapustin]], _[[Topological Quantum Field Theory, Nonlocal Operators, and Gapped Phases of Gauge Theories]]_ ([arXiv:1307.4793](http://arxiv.org/abs/1307.4793))
 
+On [[Rozansky-Witten theory]] as a [[boundary field theory]]:
+
+* [[Anton Kapustin]], [[Lev Rozansky]], [[Natalia Saulina]], 
+_Three-dimensional topological field theory and symplectic algebraic geometry I_ ([arXiv:0810.5415](https://arxiv.org/abs/0810.5415))
 
 On the relation between [[Rozansky-Witten theory]] and [[Chern-Simons theory]]:
 
