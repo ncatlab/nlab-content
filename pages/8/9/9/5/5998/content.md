@@ -134,28 +134,28 @@ Another, more recent take on pure lambda calculus as a certain kind of [[algebra
 [[!redirects lambda calculi]]
 [[!redirects lambda-calculus]]
 [[!redirects lambda-calculi]]
-[[!redirects ∞-calculus]]
-[[!redirects ∞-calculi]]
+[[!redirects λ-calculus]]
+[[!redirects λ-calculi]]
 
 [[!redirects pure lambda calculus]]
 [[!redirects pure lambda-calculus]]
-[[!redirects pure ∞-calculus]]
+[[!redirects pure λ-calculus]]
 
 [[!redirects untyped lambda calculus]]
 [[!redirects untyped lambda-calculus]]
-[[!redirects untyped ∞-calculus]]
+[[!redirects untyped λ-calculus]]
 
 
 [[!redirects unityped lambda calculus]]
 [[!redirects unityped lambda-calculus]]
-[[!redirects unityped ∞-calculus]]
+[[!redirects unityped λ-calculus]]
 
 [[!redirects typed lambda calculus]]
 [[!redirects typed lambda-calculus]]
-[[!redirects typed ∞-calculus]]
+[[!redirects typed λ-calculus]]
 
 [[!redirects simply typed lambda calculus]]
 [[!redirects simply typed lambda-calculus]]
-[[!redirects simply typed ∞-calculus]]
+[[!redirects simply typed λ-calculus]]
 
 [[!redirects simply-typed lambda calculus]]
