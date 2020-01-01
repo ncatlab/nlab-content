@@ -73,6 +73,8 @@ Original articles include
 
 * Sungbong Chun, [[Sergei Gukov]], Sunghyuk Park, Nikita Sopenko, _3d-3d correspondence for mapping tori_ ([arxiv:1911.08456](https://arxiv.org/abs/1911.08456))
 
+* Hee-Joong Chung, _Index for a Model of 3d-3d Correspondence for Plumbed 3-Manifolds_ ([arXiv:1912.13486](https://arxiv.org/abs/1912.13486))
+
 
 Review is in
 
