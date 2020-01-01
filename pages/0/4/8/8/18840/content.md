@@ -1,5 +1,4 @@
-[[!redirects quantum probability]]
-[[!redirects quantum probability]]
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
