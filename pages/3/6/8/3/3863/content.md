@@ -65,6 +65,9 @@ For [[D=3 N=4 super Yang-Mills theory]]:
 
 * [[Mathew Bullimore]], Andrea E.V. Ferrari, Heeyeon Kim, _Twisted Indices of 3d N=4 Gauge Theories and Enumerative Geometry of Quasi-Maps_ ([arXiv:1812.05567](https://arxiv.org/abs/1812.05567))
 
+* [[Davide Gaiotto]], Tadashi Okazaki, _Sphere correlation functions and Verma modules_ ([arXiv:1911.11126](https://arxiv.org/abs/1911.11126))
+
+
 
 ### For $D=4$ $\mathcal{N}=1$ SYM 
 
