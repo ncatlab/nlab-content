@@ -154,6 +154,8 @@ Discussion of the [[Witten index]] of [[D=3 N=4 super Yang-Mills theory]]:
 
 * [[Mathew Bullimore]], Andrea E.V. Ferrari, Heeyeon Kim, _Twisted Indices of 3d N=4 Gauge Theories and Enumerative Geometry of Quasi-Maps_ ([arXiv:1812.05567](https://arxiv.org/abs/1812.05567))
 
+* [[Davide Gaiotto]], Tadashi Okazaki, _Sphere correlation functions and Verma modules_ ([arXiv:1911.11126](https://arxiv.org/abs/1911.11126))
+
 See also on the [[Witten index]] for [[D=3 N=2 super Yang-Mills theory]]:
 
 * [[Mathew Bullimore]], Andrea E. V. Ferrari, Heeyeon Kim, _The 3d Twisted Index and Wall-Crossing_ ([arXiv:1912.09591](https://arxiv.org/abs/1912.09591))
