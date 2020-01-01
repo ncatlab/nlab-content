@@ -98,7 +98,10 @@ Compare to the identification of concepts with the [[types]] in the sense of [[t
 
 ## References
 
-* Wikipedia, _[Critique of Pure Reason](https://en.wikipedia.org/wiki/Critique_of_Pure_Reason)_
+Publications of Kant's original work include:
+
+
+* Cambridge University Press, First and second editions, English translation. _Critique of Pure Reason_ (1998) (The Cambridge Edition of the Works of Immanuel Kant) (P. Guyer & A. Wood, Eds.). doi:10.1017/CBO9780511804649
 
 * {#1stEd}Wikisource, [First edition, German](https://de.wikisource.org/wiki/Critik_der_reinen_Vernunft_%281781%29) (1781) and [several English translations](https://en.wikisource.org/wiki/Critique_of_Pure_Reason)
 
@@ -106,6 +109,9 @@ Compare to the identification of concepts with the [[types]] in the sense of [[t
 
 * [english translation](http://www.gutenberg.org/files/4280/4280-h/4280-h.htm) by [J. M. D. Meiklejohn](https://en.wikipedia.org/wiki/John_Meiklejohn)
 
+Secondary literature include:
+
+* Wikipedia, _[Critique of Pure Reason](https://en.wikipedia.org/wiki/Critique_of_Pure_Reason)_
 
 * Bitbol, Michel, Kerszberg, Pierre, Petitot, Jean (Eds.), _Constituting Objectivity: Transcendental Perspectives on Modern Physics_ Springer (2009)
   * {#Petitot09}Jean Petitot, _[Noncommutative Geometry and Transcendental Physics](http://topologicalmedialab.net/xinwei/classes/readings/Petitot/Petitot_NoncommutativeGeometry.pdf)_, pgs 415-455
