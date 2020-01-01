@@ -30,4 +30,8 @@ See also:
 
 * Wikipedia, _[Montague grammar](https://en.m.wikipedia.org/wiki/Montague_grammar)_
 
+##Related entries
+
+* [[dependent type theoretic methods in natural language semantics]]
+
 [[!redirects Montague grammar]]
