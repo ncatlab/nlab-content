@@ -45,19 +45,21 @@ This classification may be paired with that for [[supergravity]] theories, to yi
 
 ## Examples
 
-Special properties are enjoyed by
 
 * [[4d superconformal gauge field theory]]
 
-  * [[N=1 D=4 super Yang-Mills theory]]
+  * [[D=4 N=1 super Yang-Mills theory]]
 
-  * [[N=2 D=4 super Yang-Mills theory]]
+  * [[D=4 N=2 super Yang-Mills theory]]
 
-  * [[N=4 D=4 super Yang-Mills theory]] 
+  * [[D=4 N=4 super Yang-Mills theory]] 
 
-* [[topologically twisted D=4 super Yang-Mills theory]]
+
+  * [[topologically twisted D=4 super Yang-Mills theory]]
 
 * [[3d superconformal gauge field theory]]
+
+  * [[D=3 N=1 super Yang-Mills theory]]
 
   * [[D=3 N=2 super Yang-Mills theory]]
  
@@ -72,7 +74,6 @@ Special properties are enjoyed by
 * [[D=10 super Yang-Mills theory]]
 
 
-See there for more details.
 
 ## Related concepts
 
