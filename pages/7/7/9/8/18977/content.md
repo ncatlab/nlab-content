@@ -17,9 +17,9 @@
 
 The **principle of compositionality** asserts that the nature of complex structures is entirely determined by that of their simpler parts and the way these are composed.
 
-This is sometimes called **Frege's principle** after [[Gottlob Frege]], although it was arguably assumed in [Boole 1854](#Boole1854), decades before Frege's work, and possibly not even embraced by Frege (see [Pelletier 01](#Pelletier01)).
+In the context of the [[semantics]] of languages, this is sometimes called **Frege's principle** after [[Gottlob Frege]], although it was arguably assumed in [Boole 1854](#Boole1854), decades before Frege's work, and possibly not even embraced by Frege (see [Pelletier 01](#Pelletier01)).
 
-The concept became popular in [[linguistics]] with the formalization of [[semantics]] of formal and informal languages via [[Montague semantics]]
+Taking up [[Alfred Tarski|Alfred Tarski's]] work on truth definitions from 1933, the concept became popular in [[linguistics]] with the formalization of [[semantics]] of formal and informal languages via [[Montague semantics]]
 ([Montague 70a](#Montague70a),
 [Montague 70b](#Montague70b),
 [Montague 73](#Montague73)), where the principle asserts that the meaning of a complex expression is determined by the meanings of its constituent expressions and the rules used to combine them. 
@@ -66,7 +66,7 @@ The principle was promoted in [[linguistics]] via [[Montague semantics]]:
 
 See also
 
-* Wikipedia, _[Principle of Compositopnality](https://en.m.wikipedia.org/wiki/Principle_of_compositionality)_
+* Wikipedia, _[Principle of Compositionality](https://en.m.wikipedia.org/wiki/Principle_of_compositionality)_
 
 * SEP, _[Compositionality](https://plato.stanford.edu/entries/compositionality/)_
 
