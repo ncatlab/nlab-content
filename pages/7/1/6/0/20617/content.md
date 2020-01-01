@@ -33,6 +33,11 @@ On [[super Yang-Mills theory]]:
 
 * {#KacSmilga00} [[Victor Kac]], A.V. Smilga, _Vacuum structure in supersymmetric Yang-Mills theories with any gauge group_, in _[[The Many Faces of the Superworld]], pp. 185-234 World Scientific (2000)_ ([arXiv:hep-th/9902029](https://arxiv.org/abs/hep-th/9902029), [doi:10.1142/9789812793850_0014](https://doi.org/10.1142/9789812793850_0014))
 
+On the [[Witten index]] of [[D=3 N=1 super Yang-Mills theory]]:
+
+* [[Edward Witten]], _Supersymmetric Index Of Three-Dimensional Gauge Theory_, in: _[[The many faces of the superworld]]_ ([arXiv:hep-th/9903005](https://arxiv.org/abs/hep-th/9903005))
+
+
 
 * ...
 
