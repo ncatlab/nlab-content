@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -13,6 +27,11 @@ The [[Green-Schwarz action functional]] for super [[D-branes]] contains a genera
 ### General
 
 Named after [[Paul Dirac]], [[Max Born]] and [[Leopold Infeld]].
+
+Review:
+
+* Paul Koerber, _Abelian and Non-abelian D-brane Effective Actions_, Fortsch. Phys. 52 (2004) 871-960 ([arXiv:hep-th/0405227](https://arxiv.org/abs/hep-th/0405227))
+
 
 Detailed discussion of the relation to the [[Polyakov action]] and the [[Nambu-Goto action]] is in
 
@@ -81,6 +100,11 @@ Issues with this proposal at higher order have been found in
 Correction terms have been proposed in
 
 * {#TaylorVanRaamsdonk99} [[Washington Taylor]], [[Mark Van Raamsdonk]], _Multiple D$p$-branes in Weak Background Fields_, Nucl. Phys. B573:703-734, 2000 ([arXiv:hep-th/9910052](https://arxiv.org/abs/hep-th/9910052))
+
+and a completely different approach via [[TT deformation]] of the abelian DBI action is proposed in
+
+
+* T. Daniel Brennan, Christian Ferko, [[Savdeep Sethi]], _A Non-Abelian Analogue of DBI from $T \bar T$ ([arXiv:1912.12389](https://arxiv.org/abs/1912.12389))
 
 
 For actual derivation of [[gauge enhancement]] on coincident D-branes see the references [there](enhanced+gauge+symmetry#ReferencesOnCoincidentDBranes).
