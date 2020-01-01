@@ -448,6 +448,9 @@ see also
 
 * Harun Omer, _Embedding LFHQCD in Worldsheet String Theory_ ([arXiv:1909.12866](https://arxiv.org/abs/1909.12866))
 
+* Stanley J. Brodsky, _Color Confinement and Supersymmetric Properties of Hadron Physics from Light-Front Holography_ ([arXiv:1912.12578](https://arxiv.org/abs/1912.12578))
+
+
 
 
 
