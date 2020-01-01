@@ -215,6 +215,8 @@ The notion of symplectic manifold is equivalent to that of [[symplectic Lie n-al
 
 * [[geometric quantization]], [[canonical momentum]]
 
+* [[holomorphic symplectic manifold]]
+
 * [[contact manifold]]
 
 * [[G2-manifold]]
