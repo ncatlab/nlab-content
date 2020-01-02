@@ -67,6 +67,10 @@ For [[D=3 N=4 super Yang-Mills theory]]:
 
 * [[Davide Gaiotto]], Tadashi Okazaki, _Sphere correlation functions and Verma modules_ ([arXiv:1911.11126](https://arxiv.org/abs/1911.11126))
 
+using discussion in
+
+* [[Andrei Okounkov]], Section 3.4 of: _Lectures on K-theoretic computations in enumerative geometry_ ([arXiv:1512.07363](https://arxiv.org/abs/1512.07363))
+
 
 
 ### For $D=4$ $\mathcal{N}=1$ SYM 
@@ -75,7 +79,8 @@ For [[D=4 N=1 super Yang-Mills theory]]:
 
 * [[Leonardo Rastelli]], Shlomo S. Razamat, _The supersymmetric index in four dimensions_, Journal of Physics A: Mathematical and Theoretical, Volume 50, Number 44 ([arXiv:1608.02965](https://arxiv.org/abs/1608.02965))
 
-
+[[!redirects Witten indices]]
 
 [[!redirects supersymmetric index]]
+[[!redirects supersymmetric indices]]
 
