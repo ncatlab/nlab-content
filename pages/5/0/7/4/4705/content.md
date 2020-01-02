@@ -103,8 +103,7 @@ Review:
 
 Further relation to [[Chern-Simons theory]]:
 
-* [[Anton Kapustin]], [[Natalia Saulina]], _Chern-Simons-Rozansky-Witten topological field theory_, Nucl. Phys. B823 (2009) 403-427 ([arXiv:0904.1447](https://arxiv.org/abs/0904.1447)
-[spire:817599/](http://inspirehep.net/record/817599/))
+* [[Anton Kapustin]], [[Natalia Saulina]], _Chern-Simons-Rozansky-Witten topological field theory_, Nucl. Phys. B823 (2009) 403-427 ([arXiv:0904.1447](https://arxiv.org/abs/0904.1447), [spire:817599/](http://inspirehep.net/record/817599/))
 
 * Jian Qiu, Maxim Zabzine, _Odd Chern-Simons theory, Lie algebra cohomology and characteristic classes_, Commun. Math. Phys. 300:789-833, 2010
  ([arxiv/0912.1243](http://arxiv.org/abs/0912.1243))
