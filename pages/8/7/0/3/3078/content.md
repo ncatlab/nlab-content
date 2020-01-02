@@ -7,7 +7,14 @@ Mikhail Kapranov is a professor of mathematics at Kavli IPMU in Tokyo.
 
 * lecture at msri 2000 _Noncommutative neighborhoods and noncommutative Fourier transform_: [link](http://msri.org/publications/ln/msri/2000/interact/kapranov/1/index.html)
 
-## related $n$Lab entries
+## Selected writings
+
+On [[Rozansky-Witten invariants]]:
+
+* {#Kapranov99} [[Mikhail Kapranov]], _Rozansky&#8211;Witten invariants via Atiyah classes_,  Compositio Math.  __115__ (1999), no. 1, 71--113 ([MR2000h:57056](http://www.ams.org/mathscinet-getitem?mr=2000h:57056), [doi](http://dx.doi.org/10.1023/A:1000664527238), [alg-geom/9704009](http://arxiv.org/abs/alg-geom/9704009))
+
+
+## Related $n$Lab entries
 
 * [[Kapranov's noncommutative geometry]]
 
