@@ -95,9 +95,7 @@ On the [[KK-compactification]] of [[D=6 N=(1,0) SCFT]] (on [[M5-branes]]) to [[D
 
 * Hee-Cheol Kim, Shlomo S. Razamat, [[Cumrun Vafa]], Gabi Zafrir, _Compactifications of ADE conformal matter on a torus_, JHEP09(2018)110 ([arXiv:1806.07620](https://arxiv.org/abs/1806.07620))
 
-* Shlomo S. Razamat, Gabi Zafrir, _Compactification of 6d minimal SCFTs on Riemann surfaces_, Phys. Rev. D 98, 066006 (2018) ([arXiv:1806.09196](https://arxiv.org/abs/1806.09196))
 
-* Jin Chen, Babak Haghighat, Shuwei Liu, Marcus Sperling, _4d N=1 from 6d D-type N=(1,0)_ ([arXiv:1907.00536](https://arxiv.org/abs/1907.00536))
 
 
 On the [[KK-compactification]] of [[D=6 N=(1,0) SCFT]] (on [[M5-branes]]) to [[D=5 super Yang-Mills theory]]:
