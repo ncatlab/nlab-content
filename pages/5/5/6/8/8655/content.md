@@ -37,9 +37,12 @@ One should beware that the use of the word "duality" in physics is in general di
 
 For instance in [[T-duality]] only simple cases exhibit such obviously "dual" behaviour and in general cases such as [[U-duality]] really only the notion of _[[equivalence]]_ remains. This more closely resembles the mathematical concept of [[Morita equivalence]], see [Relation to Morita equivalence](#Morita). However, in some cases such as _[[Montonen-Olive duality]]/[[S-duality]]_ the equivalence involves some actual [[duality]] in the mathematical sense, as in replacing the [[gauge group]] by its [[Langlands dual group]]. 
 
+### General formulation
+ {#FormalizationGeneral}
+
 One way to accurately formalize most of what is usually meant by "duality" in physics might instead be the following.
 
-### General formulation
+\linebreak
 
 Write $LagrangianData$ for a [[moduli stack]] of [[prequantum field theory]] data consisting of species of [[field (physics)|fields]] and of [[Lagrangians]]/[[action functionals]] defined  on these.
 
@@ -193,10 +196,11 @@ b) quantization is the result of forming the [[homotopy quotient]] of the space 
 It is one of the clauses of the [[Giraud theorem]] in [[(∞,1)-topos theory]] that these two perspectives are equivalent.
 
 ### Examples
+ {#FormalizationExamples}
 
-For a concrete example, consider the class of [[Chern-Simons theories]] and [[Rozansky-Witten theories]]. As [[Lagrangian field theories]] they are very different, but after [[perturbative quantum field theory|perturbative quantization]], their [[Lagrangian density|Lagrangian data]] maps to the same  abstract vector space of [[quantum observables]]: the [[Vassiliev knot invariants]].
+For a concrete example of the [above](#FormalizationGeneral), consider the class of [[Chern-Simons theories]] and [[Rozansky-Witten theories]]. As [[Lagrangian field theories]] they are very different, but after [[perturbative quantum field theory|perturbative quantization]], their [[Lagrangian density|Lagrangian data]] maps to the same  abstract vector space of [[quantum observables]]: the [[Vassiliev knot invariants]].
 
-Concretely, in these cases the map from [[Lagrangian density|Lagrangian data]] to [[quantum observables]] is given by the assignment of [[weight systems]] on [[Jacobi diagrams]], namely
+Concretely, in both cases the map from [[Lagrangian density|Lagrangian data]] to [[quantum observables]] is given by the assignment of [[weight systems]] on [[Jacobi diagrams]], namely:
 
 1) [[Lie algebra weight systems]] for [[Chern-Simons theory]]
 
@@ -210,20 +214,32 @@ Concretely, in these cases the map from [[Lagrangian density|Lagrangian data]] t
 <img src="https://ncatlab.org/nlab/files/AssignRozanskyWittenWeightSystems.jpg" width="440">
 </center>
 
-and the corresponding [[Wilson loop]] [[quantum observables]] are the evaluation of these [[weight systems]] on the [[universal Vassiliev invariant]]
 
-1) 
+The corresponding [[Wilson loop]] [[quantum observables]] are the evaluation of these [[weight systems]] on the [[universal Vassiliev invariant]]
+
+1) [[Chern-Simons theory]] [[Wilson loop observables]]:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/TheGrandStoryOfVassilievKnotInvariantsIII.jpg" width="800">
 </center>
 
-2) 
+2) [[Rozansky-Witten theory]] [[Wilson loop observables]]:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/TheGrandStoryOfRozanskyWittenKnotInvariantsIII.jpg" width="800">
 </center>
 
+Hence in total we have the following quantization map from Lagrangian data to observables:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/AssignCSAndRWObservables.jpg" width="440">
+</center>
+
+To the extent that all observables of these theories, on the [[3-sphere]], are [[Wilson loop observables]], we must regard as physically equivalent any two elements on the left of this map (Lagrangian field theories) whose image on the right coincides. The space of such pairs is the [[fiber product]] of this quantization map with itself:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/DualitiesOfCSAndRWTheories.jpg" width="400">
+</center>
 
 
 
@@ -234,7 +250,7 @@ According to [[Albert Schwarz]],
 
 >I am convinced that the mathematical notion of [[Morita equivalence]] of [[associative algebras]] and its generalization for [[differential algebra|differential associative algebras]] should be regarded as the mathematical foundation of [[duality in string theory|dualities in string/M-theory]]. ([My life in science](https://www.math.ucdavis.edu/~schwarz/bion.pdf))
 
-Schwarz showed that [[KK-compactifications]] on [[Morita equivalent|Morita equivalent]] [[noncommutative tori]] are physically equivalent ([Schwarz98](#Schwarz98)). This work is followed up in relation to [[T-duality]] in [Pioline99](#Pioline99) and [CNS11](#CNS11).
+Schwarz showed that [[KK-compactifications]] on [[Morita equivalence|Morita equivalent]] [[noncommutative tori]] are physically equivalent ([Schwarz98](#Schwarz98)). This work is followed up in relation to [[T-duality]] in [Pioline99](#Pioline99) and [CNS11](#CNS11).
 
 [BMRS08](#BMRS08) discusses an axiomatic definition of [[topological T-duality]] generalizing and refining T-duality between noncommutative spaces in terms of Morita equivalence to a special type of [[KK-theory|KK-equivalence]], which defines a T-duality action that is of order two up to Morita equivalence.
 
@@ -261,6 +277,10 @@ There is also a duality in the _description_ of physics:
 
 ## References
 
+* {#Schwarz98} [[Albert Schwarz]], _Morita equivalence and duality_ ([arXiv:hep-th/9805034](http://arxiv.org/abs/hep-th/9805034))
+
+* {#Pioline99} B. Pioline, [[Albert Schwarz]], _Morita equivalence and T-duality (or $B$ versus $\Theta$)_ ([arXiv:hep-th/9908019](http://arxiv.org/abs/hep-th/9908019))
+ 
 * {#Polchinski14} [[Joseph Polchinski]], _Dualities_ ([arXiv:1412.5704](http://arxiv.org/abs/1412.5704))
 
 * [[Cumrun Vafa]], around 3:30, 12:00 of _On Mathematical Aspects of String Theory_ ([video](https://www.youtube.com/watch?v=yreUdrIbt2Q))
@@ -269,11 +289,9 @@ There is also a duality in the _description_ of physics:
 
 * {#Okada09} So Okada, _Homological mirror symmetry of Fermat polynomials_ ([arXiv:0910.2014](http://arxiv.org/abs/0910.2014))
 
-* B. Pioline, [[Albert Schwarz]], _Morita equivalence and T-duality (or $B$ versus $\Theta$)_, ([arXiv:hep-th/9908019](http://arxiv.org/abs/hep-th/9908019))
 
-* {#CNS11} Ee Chang-Young, Hiroaki Nakajima, Hyeonjoon Shin, _Fermionic T-duality and Morita Equivalence_, ([arXiv:1101.0473](http://arxiv.org/abs/1101.0473))
+* {#CNS11} Ee Chang-Young, Hiroaki Nakajima, Hyeonjoon Shin, _Fermionic T-duality and Morita Equivalence_ ([arXiv:1101.0473](http://arxiv.org/abs/1101.0473))
 
-* {#Schwarz98} [[Albert Schwarz]], _Morita equivalence and duality_, ([arXiv:hep-th/9805034](http://arxiv.org/abs/hep-th/9805034))
 
 * {#Corfield17} [[David Corfield]], _Duality as a category-theoretic concept_, Studies in History and Philosophy of Modern Physics Volume 59, August 2017, Pages 55-61 ([doi:10.1016/j.shpsb.2015.07.004](https://doi.org/10.1016/j.shpsb.2015.07.004))
 
