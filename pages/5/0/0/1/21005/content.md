@@ -5,7 +5,8 @@
 
 Review of [[Coulomb branches]] of [[D=3 N=4 super Yang-Mills theory]]:
 
-* [[Marcus Sperling]], _Two aspects of gauge theories : higher-dimensional instantons on cones over Sasaki-Einstein spaces and Coulomb branches for 3-dimensional $\mathcal{N}=4$ gauge theories_ ([spire:1495766/](http://inspirehep.net/record/1495766/))
+* [[Marcus Sperling]], _Two aspects of gauge theories : higher-dimensional instantons on cones over Sasaki-Einstein spaces and Coulomb branches for 3-dimensional $\mathcal{N}=4$ gauge theories_ ([spire:1495766/](http://inspirehep.net/record/1495766),  [pdf](https://www.itp.uni-hannover.de/fileadmin/arbeitsgruppen/ag_lechtenf/Theses/sperling.pdf), [[SperlingGaugeTheory.pdf:file]])
+
 
 On [[D=6 N=(1,0) SCFT]] and [[heterotic M-theory on ADE-orbifolds]]:
 
