@@ -1,5 +1,5 @@
 
-* [webpage](http://www.physics1.howard.edu/people/facultyandstaff_thubsch.html)
+* [webpage](http://tristan.nfshost.com/index.html)
 
 ## related $n$Lab entries
 
