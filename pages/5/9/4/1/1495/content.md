@@ -63,6 +63,7 @@ A standard monograph on algebraic spaces is
 Lecture notes include
 
 * [[James Milne]], section 7 of _[[Lectures on Étale Cohomology]]_
+* G. B. Winters, _An elementary lecture on algebraic spaces_, in: P. Salmon (eds) Categories and Commutative Algebra. C.I.M.E. Summer Schools __58__ (Varena 1971), C.I.M.E., Ed. Cremonese, Roma 1973; reprint Springer 2010, [doi 2010](https://doi.org/10.1007/978-3-642-10979-9_9) 
 
 Definition in [[E-∞ geometry]] is in 
 
