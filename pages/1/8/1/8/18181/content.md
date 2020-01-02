@@ -13,21 +13,27 @@
 
   _Kritik der Reinen Vernunft_ (Critique of Pure Reason), abbreviated KrV.
 
-  * [first edition 1781](#1stEd). Normally and in this article denoted by "A", e.g. "A111" refers to page 111 of the original first edition. But the Akademieausgabe uses A¹.
+  * [first edition 1781](#1stEd). Usually and in this article denoted by "A", e.g. "A111" refers to page 111 of the original first edition. But the Akademieausgabe uses A¹.
 
-  * [second edition 1787](#2ndEd). Normally and in this article denoted by "B". Akademieausgabe uses A².
+  * [second edition 1787](#2ndEd). Usually and in this article denoted by "B". Akademieausgabe uses A².
 
-  The second edition comprises a considerable extension of the first addition, though some passages were left out in former.
+  The second edition was "improved here and there"; some passages have been replaced entirely, like [in the Transcendental Induction](#deductionA).
 
-## Contents
+#Contents#
+* table of contents
+{:toc}
 
-### Transcendental Doctrine of Elements
 
-#### Transcendental Aesthetics
+
+## __Introduction__ and Prefaces
+
+## __I. Transcendental Doctrine of Elements__
+
+### __First Part.__ Transcendental Aesthetics
 
 > The science of all the principles of sensibility a priori, I call transcendental aesthetic.* There must, then, be such a science forming the first part of the transcendental doctrine of elements, in contradistinction to that part which contains the principles of pure thought, and which is called transcendental logic. 
 
-##### Of Space
+#### __First Secton.__ On Space.
 
 For Kant space is not a concept but an intuition, more precisely an intuition, "which serves for the foundation of all external intuitions". Kant develops this view in the following steps (A24-25/B38-40)
 
@@ -54,23 +60,28 @@ Actually, all three possibilities discussed by Kant appear in modern mathematics
 
 
 
-##### Of Time
+#### __Second Section.__ On Time.
 
-#### Transcendental Logic
+### __Second Part.__ Transcendental Logic
 
 Achourioti and van Lambalgen ([2011/2012](#AchouriotiVanLambalgen)) offered a formalization of Kant's logic in terms of [[geometric logic]].
 
-##### Introduction (General Logic and Transcendental Logic)
+#### __Introduction.__ The Idea of a Transcendental Logic. (General Logic and Transcendental Logic)
 
 In the development of Kant's distinction between general logic and transcendental logic Kant's _[[Attempt to Introduce the Concept of Negative Quantities into Philosophy]]_ from 1763 constitutes a crucial step.
 
-##### Of the Transcendental Clue [Leitfaden] to the Discovery of all Pure Conceptions of the Understanding
+#### __First Division.__ The Transcendental Analytic
 
-##### Transcendental Deduction
+##### __First Book.__ The Analytik of Concepts
 
-##### Transcendental Deduction in first edition 
+###### _First Chapter._ On the Transcendental Clue [Leitfaden] to the Discovery of all Pure Concepts of the Understanding
 
-###Transcendental Doctrine of Methods
+###### _Second Chapter._ On the Deduction of the Pure Concepts of
+the Understanding ("Transcendental Deduction")
+
+###### {#deductionA}_A edition:_ Transcendental Deduction
+
+## __II. Transcendental Doctrine of Methods__
 
 
 ## On Aristotelian logic
@@ -82,7 +93,7 @@ Regarding [[Aristotelian logic]]:
 
 Compare to the identification of concepts with the [[types]] in the sense of [[type theory]], see the references [here](Science+of+Logic#ReferencesConceptLogicAsTypeTheory).
 
-....
+...
 
 
 ## Related entries
