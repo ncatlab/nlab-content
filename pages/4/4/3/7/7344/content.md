@@ -156,6 +156,10 @@ Discussion of the [[Witten index]] of [[D=3 N=4 super Yang-Mills theory]]:
 
 * [[Davide Gaiotto]], Tadashi Okazaki, _Sphere correlation functions and Verma modules_ ([arXiv:1911.11126](https://arxiv.org/abs/1911.11126))
 
+using discussion in
+
+* [[Andrei Okounkov]], Section 3.4 of: _Lectures on K-theoretic computations in enumerative geometry_ ([arXiv:1512.07363](https://arxiv.org/abs/1512.07363))
+
 See also on the [[Witten index]] for [[D=3 N=2 super Yang-Mills theory]]:
 
 * [[Mathew Bullimore]], Andrea E. V. Ferrari, Heeyeon Kim, _The 3d Twisted Index and Wall-Crossing_ ([arXiv:1912.09591](https://arxiv.org/abs/1912.09591))
