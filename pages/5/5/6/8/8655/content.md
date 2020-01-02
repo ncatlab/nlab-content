@@ -205,6 +205,14 @@ In [Okada09](#Okada09) a variant of [[mirror symmetry]] is shown to be a form of
 
 Morita theoretic ideas are also involved in [[factorization homology]], the [[blob complex]] and premodular TQFTS, see [MW10](#MW10), [BZBJ15](#BZBJ15), and [Scheimbauer](#Scheimbauer) for the Morita $(\infty, n)$-category of $E_n$-algebras.
 
+## Duality after compactification
+
+> Since we have seen that the full string theories are all interrelated by a sequence of [[duality in string theory|dualities]], one would expect that their [[KK-compactification|compactifications]] are also related by dualities. As it turns out, these relations are so abundant that we can make the following observation:
+
+> **"Conjecture"**: Whenever the dimension, number of preserved [[supercharges]], and [[chiralities]] of two different compactifications of string theory match, there are choices of compactification geometries such that they are dual descriptions of the same physical theory.
+
+> Surprisingly, we are aware of no known counter examples. In this sense, dualities in lower dimensional theories are not hard to find, but rather are  hard to prevent! One rationale for the existence of dualities is as Sergio Cecotti puts it, “the scarcity of rich structures”. In particular the very existence of quantum systems of gravity is hard to arrange and if we succeed to get more than one theory with a given symmetry, there is a good chance we have landed on the same theory. ([Brennan, Carta &amp; Vafa 17, p. 7](#BrennanCartaVafa17))
+
 
 ## Related concepts
 
@@ -237,6 +245,8 @@ There is also a duality in the _description_ of physics:
 * {#MW10} [[Scott Morrison]], [[Kevin Walker]], _The blob complex_, ([arXiv:1009.5025](http://arxiv.org/abs/1009.5025))
 
 * {#Scheimbauer} Claudia Scheimbauer, _Factorization Homology as a Fully Extended Topological Field Theory_, ([pdf](http://math.unice.fr/~cazanave/Gdt/FH/ScheimbauerThesisJuly4FINAL.pdf))
+
+* {#BrennanCartaVafa17} T. Daniel Brennan, Federico Carta, [[Cumrun Vafa]], _The String Landscape, the Swampland, and the Missing Corner_ ([arXiv:1711.00864](https://arxiv.org/abs/1711.00864))
 
 
 [[!redirects dualities in physics]]
