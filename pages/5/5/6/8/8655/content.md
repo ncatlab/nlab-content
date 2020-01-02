@@ -194,7 +194,7 @@ It is one of the clauses of the [[Giraud theorem]] in [[(∞,1)-topos theory]] t
 
 ### Examples
 
-For a concrete example, consider the class of [[Chern-Simons theories]] and [[Rozanzky-Witten theories]]. As [[Lagrangian field theories]] they are very different, but after [[perturbative quantum field theory|perturbative quantization]], their [[Lagrangian density|Lagrangian data]] maps to the same  abstract vector space of [[quantum observables]]: the [[Vassiliev knot invariants]].
+For a concrete example, consider the class of [[Chern-Simons theories]] and [[Rozansky-Witten theories]]. As [[Lagrangian field theories]] they are very different, but after [[perturbative quantum field theory|perturbative quantization]], their [[Lagrangian density|Lagrangian data]] maps to the same  abstract vector space of [[quantum observables]]: the [[Vassiliev knot invariants]].
 
 Concretely, in these cases the map from [[Lagrangian density|Lagrangian data]] to [[quantum observables]] is given by the assignment of [[weight systems]] on [[Jacobi diagrams]], namely
 
