@@ -47,6 +47,16 @@ See also
 
 * [[Mikhail Movshev]], [[Albert Schwarz]], _On maximally supersymmetric Yang-Mills theories_, Nucl.Phys. B681 (2004) 324-350 ([arXiv:hep-th/0311132](https://arxiv.org/abs/hep-th/0311132))
 
+Review of the grand perspective:
+
+* {#Steinacker10} [[Harold Steinacker]], _Emergent Geometry and Gravity from Matrix Models: an Introduction_, Class. Quant. Grav.27: 133001, 2010 ([arXiv:1003.4134](https://arxiv.org/abs/1003.4134))
+
+with emphasis on [[noncommutative geometry]] ([[fuzzy spheres]]):
+
+* [[Harold Steinacker]], _Non-commutative geometry and matrix models_, PoS QGQGS2011 (2011) 004 ([arXiv:1109.5521](https://arxiv.org/abs/1109.5521))
+
+
+
 Derivation from [[open string field theory]] is discussed in
 
 * [[Taejin Lee]], _Covariant Open String Field Theory on Multiple D$p$-Branes_ ([arXiv:1703.06402](https://arxiv.org/abs/1703.06402))
