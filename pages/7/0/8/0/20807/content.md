@@ -241,6 +241,13 @@ On the [[fuzzy 2-sphere]]:
 
 * [[John Madore]], _The Fuzzy sphere_, Class. Quant. Grav. 9 (1992) 69-88 ([spire:314358](http://inspirehep.net/record/314358))
 
+In the context of the [[IKKT matrix model]]:
+
+
+* [[Harold Steinacker]], _Non-commutative geometry and matrix models_, PoS QGQGS2011 (2011) 004 ([arXiv:1109.5521](https://arxiv.org/abs/1109.5521))
+
+
+
 See also:
 
 * Wikipedia, _[Fuzzy sphere](https://en.wikipedia.org/wiki/Fuzzy_sphere)_
