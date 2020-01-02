@@ -100,7 +100,7 @@ Lift to [[M-theory]]:
 
 Review of [[Coulomb branches]] of [[D=3 N=4 super Yang-Mills theory]]:
 
-* [[Marcus Sperling]], chapter III of: _Two aspects of gauge theories : higher-dimensional instantons on cones over Sasaki-Einstein spaces and Coulomb branches for 3-dimensional $\mathcal{N}=4$ gauge theories_ ([spire:1495766/](http://inspirehep.net/record/1495766/))
+* [[Marcus Sperling]], chapter III of: _Two aspects of gauge theories : higher-dimensional instantons on cones over Sasaki-Einstein spaces and Coulomb branches for 3-dimensional $\mathcal{N}=4$ gauge theories_ ([spire:1495766/](http://inspirehep.net/record/1495766),  [pdf](https://www.itp.uni-hannover.de/fileadmin/arbeitsgruppen/ag_lechtenf/Theses/sperling.pdf), [[SperlingGaugeTheory.pdf:file]])
 
 
 Identification of the [[Coulomb branch]] of [[D=3 N=4 super Yang-Mills theory]] with the [[moduli space of monopoles]] in [[Yang-Mills theory]]:
