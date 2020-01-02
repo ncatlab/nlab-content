@@ -84,7 +84,7 @@ Original articles:
 
 * {#Konsevich97} [[Maxim Kontsevich]], _Rozansky&#8211;Witten invariants via formal geometry_, Compositio Mathematica 115: 115&#8211;127, 1999, [doi](http://dx.doi.org/10.1023/A:1000619911308), [arXiv:dg-ga/9704009](http://arxiv.org/abs/dg-ga/9704009), [MR2000h:57057](http://www.ams.org/mathscinet-getitem?mr=2000h:57057) 
 
-* {#Kapranov99} [[Mikhail Kapranov]], _Rozansky&#8211;Witten invariants via Atiyah classes_,  Compositio Math.  __115__ (1999), no. 1, 71--113, [MR2000h:57056](http://www.ams.org/mathscinet-getitem?mr=2000h:57056), [doi](http://dx.doi.org/10.1023/A:1000664527238), [alg-geom/9704009](http://arxiv.org/abs/alg-geom/9704009)
+* {#Kapranov99} [[Mikhail Kapranov]], _Rozansky&#8211;Witten invariants via Atiyah classes_,  Compositio Math.  __115__ (1999), no. 1, 71--113 ([MR2000h:57056](http://www.ams.org/mathscinet-getitem?mr=2000h:57056), [doi](http://dx.doi.org/10.1023/A:1000664527238), [alg-geom/9704009](http://arxiv.org/abs/alg-geom/9704009))
 
 * [[Justin Roberts]], [[Justin Sawon]], _Generalisations of Rozansky-Witten invariants_, Geom. Topol. Monogr. 4 (2002) 263-279 ([arXiv:math/0112210](https://arxiv.org/abs/math/0112210))
 
