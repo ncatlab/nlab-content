@@ -10,6 +10,6 @@
 
 * [[Skolem's paradox]]
 
-* [[Some remarks on axiomatized set theory]] [Einige Bemerkungen zur axiomatischen Begr&#252;ndung der Mengenlehre], talk given in 1922
+* [[Some remarks on axiomatized set theory]]$\,\!$ [Einige Bemerkungen zur axiomatischen Begründung der Mengenlehre], talk given in 1922
 
 category: people
