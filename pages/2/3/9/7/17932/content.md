@@ -9,6 +9,10 @@ On the [[Gromov-Witten/Donaldson-Thomas correspondence]]:
 
 * [[Davesh Maulik]], [[Alexei Oblomkov]], [[Andrei Okounkov]], [[Rahul Pandharipande]], _Gromov-Witten/Donaldson-Thomas correspondence for toric 3-folds_ ([arXiv:0809.3976](https://arxiv.org/abs/0809.3976v1))
 
+Discussion of [[Witten indices]] and [[K-theory|K-theoretic]] [[enumerative geometry]] (with [[Hilbert schemes]]):
+
+* [[Andrei Okounkov]], _Lectures on K-theoretic computations in enumerative geometry_ ([arXiv:1512.07363](https://arxiv.org/abs/1512.07363))
+
 
 On [[Lie theory]]:
 
