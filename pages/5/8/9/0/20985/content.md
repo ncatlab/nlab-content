@@ -17,7 +17,7 @@
 
 ## Idea
 
-Where a [[weight system]] on [[chord diagrams]] is equivalently a [[weight system]] on [[Jacobi diagrams]] (since [[chord diagrams modulo 4T are Jacobi diagrams modulo STU]]) and hence an assignment of [[Feynman amplitude]]-factors to [[Chern-Simons theory]] [[Feynman diagrams]] (in the presence of a [[Wilson loop]]), a _stringy weight system_ assigns such amplitude factors instead to the [[ribbon graph]] [[surfaces]] of [[open string]] [[worldsheets]] which become [[Jacobi diagrams]] in the [[worldline formalism|point particle limit]].
+Where a [[weight system]] on [[chord diagrams]] is equivalently a [[weight system]] on [[Jacobi diagrams]] (since [[chord diagrams modulo 4T are Jacobi diagrams modulo STU]]) and hence an assignment of [[Feynman amplitude]]-factors to [[Chern-Simons theory|Chern-Simons-]][[Feynman diagrams]] (in the presence of a [[Wilson loop]]), a _stringy weight system_ assigns such amplitude factors instead to the [[ribbon graph]] [[surfaces]] of [[open string]] [[worldsheets]] which become [[Jacobi diagrams]] in the [[worldline formalism|point particle limit]].
 
 ## Properties
 
@@ -29,9 +29,7 @@ Where a [[weight system]] on [[chord diagrams]] is equivalently a [[weight syste
 
 ## Related concepts
 
-* [[Lie algebra weight systems]]
-
-* [[Rozansky-Witten weight systems]]
+[[!include chord diagrams and weight systems -- table]]
 
 ## References
 
