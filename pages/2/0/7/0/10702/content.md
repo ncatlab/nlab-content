@@ -205,6 +205,8 @@ $$
 
 * [[power operation]]
 
+* [[Adams operation on Jacobi diagrams]]
+
 ## References
 
 ### General
@@ -233,5 +235,10 @@ Adams operations on the [[representation ring]] (the [[equivariant K-theory]] of
 
 * Ehud Meir, Markus Szymik, _Adams operations and symmetries of representation categories_ ([arXiv:1704.03389](https://arxiv.org/abs/1704.03389))
 
+### In knot theory
+
+Adams operations on [[Jacobi diagrams]] [[quotient vector space|modulo]] [[STU relations]] ([[Adams operation on Jacobi diagrams]]) are discussed in 
+
+* {#BarNatan95} [[Dror Bar-Natan]], Theorem 7, Def. 3.11 and Section 6.3.4 of:  _On the Vassiliev knot invariants_, Topology Volume 34, Issue 2, April 1995, Pages 423-472 (<a href="https://doi.org/10.1016/0040-9383(95)93237-2">doi:10.1016/0040-9383(95)93237-2</a>, [pdf](https://www.math.toronto.edu/drorbn/papers/OnVassiliev/OnVassiliev.pdf))
 
 [[!redirects Adams operations]]
