@@ -452,7 +452,7 @@ see also
 
 and in relation to [[B-meson]] physics
 
-* Mohammad Ahmady, _Holographic light-front QCD in B meson phenomenology_ ([arXiv:2001.00266](https://arxiv.org/abs/2001.00266))
+* [[Mohammad Ahmady]], _Holographic light-front QCD in B meson phenomenology_ ([arXiv:2001.00266](https://arxiv.org/abs/2001.00266))
 
 
 
@@ -707,6 +707,7 @@ See also
 * Nicolas Kovensky, Andreas Schmitt, _Heavy Holographic QCD_ ([arxiv:1911.08433](https://arxiv.org/abs/1911.08433))
 
 
+[[!include application of holographic QCD to B-meson physics -- references]]
 
 
 ### Application to defects
