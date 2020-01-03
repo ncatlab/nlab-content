@@ -1,5 +1,5 @@
 
-> This entry is about standard round chord diagrams. For [[linear chord diagrams]] or [[horizontal chord diagrams]] or [[Jacobi diagrams]] see there.
+> This entry is about standard round chord diagrams. For [[linear chord diagrams]] or [[horizontal chord diagrams]] or [[Jacobi diagrams]] or [[Sullivan chord diagrams]] see there.
 
 ***
 
