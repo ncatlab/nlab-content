@@ -7,9 +7,9 @@
 +-- {: .hide}
 [[!include duality in string theory -- contents]]
 =--
-#### Quantum field theory
+#### Quantum Field Theory
 +--{: .hide}
-[[!include functorial quantum field theory - contents]]
+[[!include AQFT and operator algebra contents]]
 =--
 =--
 =--
@@ -440,7 +440,7 @@ The extreme form of bottom-up holographic model building is explored in
 
 where an appropriate [[bulk]] geometry is computer-generated from specified boundary behaviour.
 
-The light-front holography approach is reviewed in
+A [[semiclassical approximation]] of bottom-up AdS/QCD is _[[holographic light front QCD]]_, reviewed in
 
 * {#ZhouDosch18} Liping Zou, H.G. Dosch, _A very Practical Guide to Light Front Holographic QCD_, ([arXiv:1801.00607](https://arxiv.org/abs/1801.00607))
 
@@ -450,6 +450,9 @@ see also
 
 * Stanley J. Brodsky, _Color Confinement and Supersymmetric Properties of Hadron Physics from Light-Front Holography_ ([arXiv:1912.12578](https://arxiv.org/abs/1912.12578))
 
+and in relation to [[B-meson]] physics
+
+* Mohammad Ahmady, _Holographic light-front QCD in B meson phenomenology_ ([arXiv:2001.00266](https://arxiv.org/abs/2001.00266))
 
 
 
