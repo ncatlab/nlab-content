@@ -35,6 +35,6 @@ See also
 
 * Stanley J. Brodsky, _Color Confinement and Supersymmetric Properties of Hadron Physics from Light-Front Holography_ ([arXiv:1912.12578](https://arxiv.org/abs/1912.12578))
 
-Application to [[B-meson]] physics:
+Application of [[holographic QCD]] ([[holographic light cone QCD]]) to [[B-meson]] physics:
 
-* Mohammad Ahmady, _Holographic light-front QCD in B meson phenomenology_ ([arXiv:2001.00266](https://arxiv.org/abs/2001.00266))
+* [[Mohammad Ahmady]], _Holographic light-front QCD in B meson phenomenology_ ([arXiv:2001.00266](https://arxiv.org/abs/2001.00266))
