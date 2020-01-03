@@ -174,7 +174,7 @@ Original articles
 
 * {#KrickerSpenceAitchison97} A. Kricker, B. Spence and I. Aitchison, _Cabling the Vassiliev invariants_, J. Knot Theory Ramifications 6 (1997) 327–358
 
-* {#Kneissler97} Jan Kneissler, _The number of primitive Vassiliev invariants up to degree 12_ ([arXiv:q-alg/9706022](https://arxiv.org/abs/q-alg/9706022))
+* {#Kneissler97} [[Jan Kneissler]], _The number of primitive Vassiliev invariants up to degree 12_ ([arXiv:q-alg/9706022](https://arxiv.org/abs/q-alg/9706022))
 
 * {#Willerton99} [[Simon Willerton]], _The Kontsevich integral and algebraic structures on the space of diagrams_ in: Knots in Hellas ’98. Series on Knots and Everything, vol. 24, World Scientific, 2000, 530–546 ([arXiv:math/9909151](https://arxiv.org/abs/math/9909151))
 
