@@ -250,7 +250,7 @@ For target space a [[classifying space]] of a [[finite group]] or [[compact spac
 
 Arguments that this string-topology [[HQFT]] should refine to a chain-level theory -- a [[TCFT]] -- were given in
 
-* {#Costello} [[Kevin Costello]],  _Topological conformal field theories and Calabi-Yau $A_\infty$-categories_ (2004) , ([arXiv:0412149](http://arxiv.org/abs/0412149))
+* {#Costello} [[Kevin Costello]],  _Topological conformal field theories and Calabi-Yau $A_\infty$-categories_ (2004) , ([arXiv:0412149](https://arxiv.org/abs/math/0412149))
  
 
 and 
@@ -261,8 +261,7 @@ and
 
 For the string product and the BV-operator this extension has been known early on, it yields a [[homotopy BV algebra]] considered around page 101 of
 
-* [[Scott Wilson]], _On the Algebra and Geometry of a Manifold's
-Chains and Cochains_ (2005) ([pdf](http://qcpages.qc.cuny.edu/~swilson/main.pdf))
+* [[Scott Wilson]], _On the Algebra and Geometry of a Manifold's Chains and Cochains_ (2005) ([pdf](http://qcpages.qc.cuny.edu/~swilson/main.pdf))
 
 Evidence for the existence of the [[TCFT]] version by exhibiting a [[dg-category]] that looks like it ought to be the dg-category of string-topology [[branes]] (hence ought to correspond to the TCFT under the suitable version of the [[TCFT]]-version of the [[cobordism hypothesis]]) is discussed in
 
