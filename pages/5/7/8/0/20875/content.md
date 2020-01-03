@@ -1,4 +1,10 @@
 
+| [[chord diagrams]] | [[weight systems]] | 
+|--|--|
+| [[linear chord diagrams]], <br/> [[round chord diagrams]]  <br/> [[Jacobi diagrams]], <br/>[[Sullivan chord diagrams]] | [[Lie algebra weight systems]], <br/> [[stringy weight system]], <br/> [[Rozansky-Witten weight systems]] |
+
+\linebreak
+
 | [[knots]] | [[braids]] |
 |-----------|------------|
 | [[chord diagram]], <br/> [[Jacobi diagram]] | [[horizontal chord diagram]] |
