@@ -69,43 +69,44 @@ Achourioti and van Lambalgen ([2011/2012](#AchouriotiVanLambalgen)) offered a fo
 #### __Introduction.__ The Idea of a Transcendental Logic. [General Logic and Transcendental Logic]
 
 1. On logic in general. (A50-5/B74-9)
-The Purpose of I. is to define the scope of logic as a science, distinguishing it from aesthetics and structuring its subdisciplines, to then be able to show the place of transcendental logic among them in II. .
 
-To do so, Kant firstly provides a plethora of definitions, to then distinguish between the science of aesthetics and logic, the former concerning the rules of sensibility and the latter the rules of thinking. (The termini defined are “receptivity of impressions”, “spontaneity of concepts”, “cognition”, “pure”, “empirical”, “sensibility”, “receptivity”,”aesthetics” and “logic”.) (A50-2/B74-6)
-Secondly, he divides the science of logic into general logic (synonymous with elementary logic) which contains the necessary rules of thinking, regardless of its object and particular logic which contains the necessary rules of thinking about certain kinds of objects. (The termini defined are “general logic”, and “particular logic”.) (A52/B76)
-General logic is then again subdivided into pure general logic which only deals with the pure, meaning a priori principles of thinking in general and applied general logic, which deals with the conditions of thinking “under the subjective empirical conditions that psychology teaches us” which are only given a posteriori, and which can all be given only empirically (The termini defined are “general but pure logic” and “general but empirical logic”.) (A53-5/B77-9) 
+    The Purpose of I. is to define the scope of logic as a science, distinguishing it from aesthetics and structuring its subdisciplines, to then be able to show the place of transcendental logic among them in II. .
+
+    To do so, Kant firstly provides a plethora of definitions, to then distinguish between the science of aesthetics and logic, the former concerning the rules of sensibility and the latter the rules of thinking. (The termini defined are “receptivity of impressions”, “spontaneity of concepts”, “cognition”, “pure”, “empirical”, “sensibility”, “receptivity”, ”aesthetics” and “logic”.) (A50-2/B74-6)
+    Secondly, he divides the science of logic into general logic (synonymous with elementary logic) which contains the necessary rules of thinking, regardless of its object and particular logic which contains the necessary rules of thinking about certain kinds of objects. (The termini defined are “general logic”, and “particular logic”.) (A52/B76)
+    General logic is then again subdivided into pure general logic which only deals with the pure, meaning a priori principles of thinking in general and applied general logic, which deals with the conditions of thinking “under the subjective empirical conditions that psychology teaches us” which are only given a posteriori, and which can all be given only empirically (The termini defined are “general but pure logic” and “general but empirical logic”.) (A53-5/B77-9) 
 
 1. On transcendental logic. (A55-7/B79-82)
 The Purpose of II. is to establish the concept of transcendental logic, in contrast to pure general logic. Pure general logic abstracts from all contents of cognition [Erkenntnis] and is only concerned with the form of thinking in
 general. Transcendental logic, contains the “rules of pure thinking of an object” (A55/B80).
-Kant then notes the difference between cognition a priori and transcendental cognition. The former is merely any cognition obtained without recourse to intuition. The latter is cognition concerning the possibility or use of cognition a priori. (A56-7/B80-1) 
-Hence, transcendental aesthetics would describe the pure forms of intuition, which can then be drawn on to justify eg. the possibility of geometric cognition a priori. Analogously there would need to be a transcendental logic, which would be __the science of the possibilities and rules of thinking about objects a priori__. (A56-7/B81-2)
+    Kant then notes the difference between cognition a priori and transcendental cognition. The former is merely any cognition obtained without recourse to intuition. The latter is cognition concerning the possibility or use of cognition a priori. (A56-7/B80-1) 
+    Hence, transcendental aesthetics would describe the pure forms of intuition, which can then be drawn on to justify eg. the possibility of geometric cognition a priori. Analogously there would need to be a transcendental logic, which would be __the science of the possibilities and rules of thinking about objects a priori__. (A56-7/B81-2)
 
 1. On the division of general logic into analytic and dialectic.(A58-62/B82-6)
-The purpose of III. is to establish general logic as a negative criterion of truth, while arguing against its capability to serve as a positive (sufficient) criterion.
-To show, that general pure logic is only capable of providing a negative criterion of truth, Kant firstly supposes a definition of truth which is: Truth “is the agreement of cognition with its object” (A58/B82)
-Now, using this supposition as a premise, he attempts to prove the self-contradictory nature of a “certain and general criterion of truth of any cognition” (A58/B82) according to the following schema:
+    The purpose of III. is to establish general logic as a negative criterion of truth, while arguing against its capability to serve as a positive (sufficient) criterion.
+    To show, that general pure logic is only capable of providing a negative criterion of truth, Kant firstly supposes a definition of truth which is: Truth “is the agreement of cognition with its object” (A58/B82)
+    Now, using this supposition as a premise, he attempts to prove the self-contradictory nature of a “certain and general criterion of truth of any cognition” (A58/B82) according to the following schema:
     
-P1: Truth “is the agreement of cognition with its object” (A58/B82), hence “a cognition is false if it does not agree with the object to which it is related even if it contains something that could well be valid of other objects”
-P2: “[A] general criterion of truth [found in general logic] would be that which was valid of all cognitions without any distinction among their objects” (A58/B83) since general logic abstracts from all objects and only concerns the pure form of thinking.
-C: A general criterion of truth found in general logic is self-contradictory. (A59/B83)
+    P1: Truth “is the agreement of cognition with its object” (A58/B82), hence “a cognition is false if it does not agree with the object to which it is related even if it contains something that could well be valid of other objects”
+    P2: “[A] general criterion of truth [found in general logic] would be that which was valid of all cognitions without any distinction among their objects” (A58/B83) since general logic abstracts from all objects and only concerns the pure form of thinking.
+    C: A general criterion of truth found in general logic is self-contradictory. (A59/B83)
  
-Nevertheless, since “[g]eneral logic analyses the entire formal business of the understanding and reason into its elements, and presents these as principles of all logical assessment of our cognition. This part of logic can therefore be called an __analytic__ [our emphasis], and is on that very account at least the negative touchstone of truth”(A60/B84) 
-On the other hand, "general logic, which is merely a __canon__ for judging, has been used as if it were an __organon__ for the actual production of at least the semblance of objective assertions, and thus in fact it has thereby been misused. Now general logic, as a putative organon, is called __dialectic__." (A61/B85)
+    Nevertheless, since “[g]eneral logic analyses the entire formal business of the understanding and reason into its elements, and presents these as principles of all logical assessment of our cognition. This part of logic can therefore be called an __analytic__ [our emphasis], and is on that very account at least the negative touchstone of truth”(A60/B84) 
+   On the other hand, "general logic, which is merely a __canon__ for judging, has been used as if it were an __organon__ for the actual production of at least the semblance of objective assertions, and thus in fact it has thereby been misused. Now general logic, as a putative organon, is called __dialectic__." (A61/B85)
  
 1. On the division of transcendental logic into the transcendental analytic and dialectic. (A62-4/B87-8)  
 
-The purpose of  IV. is to narrow down the scope of transcendental logic, applying the division established in III. .
-"The use of this pure cognition [described in transcendental logic],however, depends on this as its condition: that objects are given to us in intuition, to which it can be applied. For without intuition all of our cognition would lack objects and therefore remain completely empty. The part of transcendental logic, therefore, that expounds the elements of the pure cognition of the understanding and the principles without which no object can be thought at all, is the __transcendental analytic and at the same time a logic of truth__  [our emphasis] For no cognition can contradict it without at the same time losing all content, i.e., all relation to any object” (A62-3/B87) 
+    The purpose of  IV. is to narrow down the scope of transcendental logic, applying the division established in III. .
+    "The use of this pure cognition [described in transcendental logic],however, depends on this as its condition: that objects are given to us in intuition, to which it can be applied. For without intuition all of our cognition would lack objects and therefore remain completely empty. The part of transcendental logic, therefore, that expounds the elements of the pure cognition of the understanding and the principles without which no object can be thought at all, is the __transcendental analytic and at the same time a logic of truth__  [our emphasis] For no cognition can contradict it without at the same time losing all content, i.e., all relation to any object” (A62-3/B87) 
 
-One may summarize, that the transcendental logic, in its analytic part, provides the necessary criterion of truth, not only regarding its logical form, which is already accomplished by general pure logic, but also regarding the necessary form truth has to have as it necessarily relates to objects.
+    One may summarize, that the transcendental logic, in its analytic part, provides the necessary criterion of truth, not only regarding its logical form, which is already accomplished by general pure logic, but also regarding the necessary form truth has to have as it necessarily relates to objects.
 
-Transcendental logic “should properly be only a canon for the assessment of empirical use [of pure cognitions of the understanding], it is misused if one […] dares to synthetically judge, assert, and decide about objects in general with the pure understanding alone. The use of the pure understanding would in this case therefore be dialectical. __The second part of the transcendental logic must therefore be a critique of this dialectical illusion__ [our emphasis].” (A63/B88) 
-
-
+    Transcendental logic “should properly be only a canon for the assessment of empirical use [of pure cognitions of the understanding], it is misused if one […] dares to synthetically judge, assert, and decide about objects in general with the pure understanding alone. The use of the pure understanding would in this case therefore be dialectical. __The second part of the transcendental logic must therefore be a critique of this dialectical illusion__ [our emphasis].” (A63/B88) 
 
 
-In the development of Kant's distinction between general logic and transcendental logic Kant's _[[Attempt to Introduce the Concept of Negative Quantities into Philosophy]]_ from 1763 constitutes a crucial step.
+
+
+    In the development of Kant's distinction between general logic and transcendental logic Kant's _[[Attempt to Introduce the Concept of Negative Quantities into Philosophy]]_ from 1763 constitutes a crucial step.
 
 #### __First Division.__ The Transcendental Analytic
 
