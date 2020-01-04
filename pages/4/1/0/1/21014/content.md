@@ -10,7 +10,7 @@
 
 Sullivan chord diagrams are like [[Jacobi diagrams]], but with possibly more than one (disjointly) embedded circle.
 
-Via their [[worldline formalism|fattening]] to [[ribbon graphs]], Sullivan chord diagrams parametrize certain operations in [[string topology]] and [[action|act]] on [[Hochschild homology]]/[[cyclic homology]].
+Via their [[worldline formalism|fattening]] to [[ribbon graphs]] and hence to [[surfaces]], Sullivan chord diagrams parametrize operations in [[string topology]] and [[action|act]] on [[Hochschild homology]]/[[cyclic homology]].
 
 ## Properties
 
