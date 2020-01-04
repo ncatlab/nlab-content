@@ -68,40 +68,52 @@ Achourioti and van Lambalgen ([2011/2012](#AchouriotiVanLambalgen)) offered a fo
 
 #### __Introduction.__ The Idea of a Transcendental Logic. [General Logic and Transcendental Logic]
 
-1. On logic in general. (A50-5/B74-9)
+1. __"On logic in general." ([A50](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_050.png)-5/B74-9)__
 
-    The Purpose of I. is to define the scope of logic as a science, distinguishing it from aesthetics and structuring its subdisciplines, to then be able to show the place of transcendental logic among them in II. .
+    The scope of logic as a science is clarified, distinguishing it from aesthetics and structuring its subdisciplines, to then be able to show the place of transcendental logic among them in the following paragraph, Paragraph II.
 
-    To do so, Kant firstly provides a plethora of definitions, to then distinguish between the science of aesthetics and logic, the former concerning the rules of sensibility and the latter the rules of thinking. (The termini defined are “receptivity of impressions”, “spontaneity of concepts”, “cognition”, “pure”, “empirical”, “sensibility”, “receptivity”, ”aesthetics” and “logic”.) (A50-2/B74-6)
-    Secondly, he divides the science of logic into general logic (synonymous with elementary logic) which contains the necessary rules of thinking, regardless of its object and particular logic which contains the necessary rules of thinking about certain kinds of objects. (The termini defined are “general logic”, and “particular logic”.) (A52/B76)
-    General logic is then again subdivided into pure general logic which only deals with the pure, meaning a priori principles of thinking in general and applied general logic, which deals with the conditions of thinking “under the subjective empirical conditions that psychology teaches us” which are only given a posteriori, and which can all be given only empirically (The termini defined are “general but pure logic” and “general but empirical logic”.) (A53-5/B77-9) 
+    To do so, Kant firstly provides a plethora of definitions, to then distinguish between the science of aesthetics and logic, the former concerning the rules of sensibility and the latter the rules of thinking. The termini defined are “receptivity of impressions”, “spontaneity of concepts”, “cognition”, “pure”, “empirical”, “sensibility”, “receptivity”, ”aesthetics”, and “logic” ([A50](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_050.png)-2/B74-6).
 
-1. On transcendental logic. (A55-7/B79-82)
-The Purpose of II. is to establish the concept of transcendental logic, in contrast to pure general logic. Pure general logic abstracts from all contents of cognition [Erkenntnis] and is only concerned with the form of thinking in
-general. Transcendental logic, contains the “rules of pure thinking of an object” (A55/B80).
-    Kant then notes the difference between cognition a priori and transcendental cognition. The former is merely any cognition obtained without recourse to intuition. The latter is cognition concerning the possibility or use of cognition a priori. (A56-7/B80-1) 
-    Hence, transcendental aesthetics would describe the pure forms of intuition, which can then be drawn on to justify eg. the possibility of geometric cognition a priori. Analogously there would need to be a transcendental logic, which would be __the science of the possibilities and rules of thinking about objects a priori__. (A56-7/B81-2)
+    Secondly, he divides the science of logic into general logic (synonymous with elementary logic) which contains the necessary rules of thinking, regardless of its object and particular logic which contains the necessary rules of thinking about certain kinds of objects. The termini defined are “general logic”, and “particular logic” ([A52](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_052.png)/B76).
 
-1. On the division of general logic into analytic and dialectic.(A58-62/B82-6)
-    The purpose of III. is to establish general logic as a negative criterion of truth, while arguing against its capability to serve as a positive (sufficient) criterion.
-    To show, that general pure logic is only capable of providing a negative criterion of truth, Kant firstly supposes a definition of truth which is: Truth “is the agreement of cognition with its object” (A58/B82)
-    Now, using this supposition as a premise, he attempts to prove the self-contradictory nature of a “certain and general criterion of truth of any cognition” (A58/B82) according to the following schema:
+    General logic is then again subdivided into pure general logic which only deals with the pure, meaning a priori principles of thinking in general and applied general logic, which deals with the conditions of thinking “under the subjective empirical conditions that psychology teaches us” which are only given a posteriori, and which can all be given only empirically. The termini defined are “general but pure logic” and “general but empirical logic” ([A53](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_053.png)-5/B77-9).
+
+1. __"On transcendental logic." ([A55](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_055.png)-7/B79-82)__
+
+    The concept of transcendental logic is established, contrasting it to pure general logic. Pure general logic abstracts from all contents of cognition [Erkenntnis] and is only concerned with the form of thinking in general. Transcendental logic contains the “rules of pure thinking of an object” ([A55](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_055.png)/B80).
+    Kant then notes the difference between cognition a priori and transcendental cognition. The former is merely any cognition obtained without recourse to intuition. The latter is cognition concerning the possibility or use of cognition a priori. ([A56](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_056.png)-7/B80-1) 
+    Hence, transcendental aesthetics would describe the pure forms of intuition, which can then be drawn on to justify eg. the possibility of geometric cognition a priori. Analogously there would need to be a transcendental logic, which would be __the science of the possibilities and rules of thinking about objects a priori__. ([A56](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_056.png)-7/B81-2)
+
+1. __"On the division of general logic into analytic and dialectic." 
+([A58](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_058.png)-62/B82-6)__
+
+    General logic is established as a negative criterion of truth, while arguing against its capability to serve as a positive (sufficient) criterion.
+    To show, that general pure logic is only capable of providing a negative criterion of truth, Kant firstly supposes a definition of truth which is: Truth “is the agreement of cognition with its object” ([A58](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_058.png)/B82)
+    Now, using this supposition as a premise, he attempts to prove the self-contradictory nature of a “certain and general criterion of truth of any cognition” ([A58](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_058.png)/B82) according to the following schema:
     
-    P1: Truth “is the agreement of cognition with its object” (A58/B82), hence “a cognition is false if it does not agree with the object to which it is related even if it contains something that could well be valid of other objects”
-    P2: “[A] general criterion of truth [found in general logic] would be that which was valid of all cognitions without any distinction among their objects” (A58/B83) since general logic abstracts from all objects and only concerns the pure form of thinking.
-    C: A general criterion of truth found in general logic is self-contradictory. (A59/B83)
- 
-    Nevertheless, since “[g]eneral logic analyses the entire formal business of the understanding and reason into its elements, and presents these as principles of all logical assessment of our cognition. This part of logic can therefore be called an __analytic__ [our emphasis], and is on that very account at least the negative touchstone of truth”(A60/B84) 
-   On the other hand, "general logic, which is merely a __canon__ for judging, has been used as if it were an __organon__ for the actual production of at least the semblance of objective assertions, and thus in fact it has thereby been misused. Now general logic, as a putative organon, is called __dialectic__." (A61/B85)
- 
-1. On the division of transcendental logic into the transcendental analytic and dialectic. (A62-4/B87-8)  
+    P1
+    : Truth “is the agreement of cognition with its object” ([A58](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_058.png)/B82), hence “a cognition is false if it does not agree with the object to which it is related even if it contains something that could well be valid of other objects”
 
-    The purpose of  IV. is to narrow down the scope of transcendental logic, applying the division established in III. .
-    "The use of this pure cognition [described in transcendental logic],however, depends on this as its condition: that objects are given to us in intuition, to which it can be applied. For without intuition all of our cognition would lack objects and therefore remain completely empty. The part of transcendental logic, therefore, that expounds the elements of the pure cognition of the understanding and the principles without which no object can be thought at all, is the __transcendental analytic and at the same time a logic of truth__  [our emphasis] For no cognition can contradict it without at the same time losing all content, i.e., all relation to any object” (A62-3/B87) 
+    P2
+    : “[A] general criterion of truth [found in general logic] would be that which was valid of all cognitions without any distinction among their objects” ([A58](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_058.png)/B83) since general logic abstracts from all objects and only concerns the pure form of thinking.
+    
+    C
+    : A general criterion of truth found in general logic is self-contradictory. ([A59](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_059.png)/B83)
+ 
+    Nevertheless, since “[g]eneral logic analyses the entire formal business of the understanding and reason into its elements, and presents these as principles of all logical assessment of our cognition. This part of logic can therefore be called an __analytic__ [our emphasis], and is on that very account at least the negative touchstone of truth”([A60](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_060.png)/B84) 
+   On the other hand, "general logic, which is merely a __canon__ for judging, has been used as if it were an __organon__ for the actual production of at least the semblance of objective assertions, and thus in fact it has thereby been misused. Now general logic, as a putative organon, is called __dialectic__." ([A61](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_061.png)/B85)
+ 
+1. __"On the division of transcendental logic into the transcendental analytic and dialectic." ([A62](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_062.png)-4/B87-8)__
+
+    The purpose of this paragraph is to narrow down the scope of transcendental logic, applying the division established in the last paragraph. From [A62](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_062.png)-3/B87:
+
+>The use of this pure cognition [described in transcendental logic],however, depends on this as its condition: that objects are given to us in intuition, to which it can be applied. For without intuition all of our cognition would lack objects and therefore remain completely empty. The part of transcendental logic, therefore, that expounds the elements of the pure cognition of the understanding and the principles without which no object can be thought at all, is the __transcendental analytic and at the same time a logic of truth__  [our emphasis] For no cognition can contradict it without at the same time losing all content, i.e., all relation to any object ...
+
+* 
 
     One may summarize, that the transcendental logic, in its analytic part, provides the necessary criterion of truth, not only regarding its logical form, which is already accomplished by general pure logic, but also regarding the necessary form truth has to have as it necessarily relates to objects.
 
-    Transcendental logic “should properly be only a canon for the assessment of empirical use [of pure cognitions of the understanding], it is misused if one […] dares to synthetically judge, assert, and decide about objects in general with the pure understanding alone. The use of the pure understanding would in this case therefore be dialectical. __The second part of the transcendental logic must therefore be a critique of this dialectical illusion__ [our emphasis].” (A63/B88) 
+    Transcendental logic “should properly be only a canon for the assessment of empirical use [of pure cognitions of the understanding], it is misused if one […] dares to synthetically judge, assert, and decide about objects in general with the pure understanding alone. The use of the pure understanding would in this case therefore be dialectical. __The second part of the transcendental logic must therefore be a critique of this dialectical illusion__ [our emphasis].” ([A63](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_063.png)/B88) 
 
 
 
@@ -118,13 +130,13 @@ general. Transcendental logic, contains the “rules of pure thinking of an obje
 
 ###### {#deductionA}_A edition:_ Transcendental Deduction
 
-In the first edition Kant provides a more thorough description on how the formation of concepts in our mind works. This description was left out in the the corresponding part of the second edition ("B" deduction). Concepts are created in three steps:
+In the first edition Kant provides a more thorough description on how the formation of concepts in our mind works. This description was left out in the corresponding chapter of the second edition ("B" deduction). Concepts are created in three steps:
 
-1. "On the synthesis of apprehension in the intuition" ([A98](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_098.png)).
+1. "On the synthesis of __apprehension in the intuition.__" ([A98](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_098.png))
 
     All representations belong, "as modifications of the mind [...] to inner sense, and as such all of our cognitions are in the end subjected to the formal condition of inner sense, namely time"([A99](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_099.png))
 
-    "Every intuition[Anschauung] contains a manifold in itself."([A99](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_099.png)) The mind distinguishes between every moment of impression.
+    "Every intuition [Anschauung] contains a manifold in itself."([A99](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_099.png)) The mind distinguishes between every moment of impression.
 
     We want a  _Unity of intuition_ to come from these impressions.
     This process is called _Synthesis of apprehension_:
@@ -136,7 +148,7 @@ In the first edition Kant provides a more thorough description on how the format
     * This process has to happen a priori.
 
 
-1. "On the synthesis of reproduction in the imagination" ([A100](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_100.png)).
+1. "On the synthesis of __reproduction in the imagination.__" ([A100](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_100.png))
 
     "It is [..] a merely empirical law in accordance with which rep­resentations that have often followed or accompanied one another are finally associated with each other and thereby placed in a connection in accordance with which, even without the presence of the object, one of these representations brings about a transition of the mind to the other in accordance with a constant rule[beständige Regel]." ([A100](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_100.png))
 
@@ -150,19 +162,19 @@ In the first edition Kant provides a more thorough description on how the format
     * the similar limiting process as in the synthesis of apprehension has to occur
 
 
-1. "On the synthesis of recognition in the concept" ([A103](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_103.png)).
+1. "On the synthesis of __recognition in the concept.__" ([A103](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_103.png))
 
     If that which we think of  is the same, it has to give rise to the same representation.
 
-    We have __one__ concept: "It is this __one__ consciousness that unifies the _manifold_ that has been suc­cessively intuited, and then also reproduced, into one representation." ([A103](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_103.png))
+    We have __one__ concept: "It is this __one__ consciousness that unifies the manifold that has been suc­cessively intuited, and then also reproduced, into one representation." ([A103](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_103.png))
 
-    "The unity that the object makes necessary can [only be] the formal unity of the consciousness in the syn­thesis of the _manifold_ of the representations. [Therefore] we cog­nize the object if we have effected synthetic unity in the manifold of intuition." ([A105](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_105.png))
+    "The unity that the object makes necessary can [only be] the formal unity of the consciousness in the syn­thesis of the manifold of the representations. [Therefore] we cog­nize the object if we have effected synthetic unity in the manifold of intuition." ([A105](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_105.png))
 
     for that we need:
 
     * A rule, which guarantees that the reproduction happens a priori and can always be exhibited. This is called "unity of rule".
 
-    * The concept in which the representations unite. ("All cognition requires a concept"([A106](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_106.png)))
+    * The concept in which the representations unite. ("All cognition requires a concept", [A106](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_106.png))
 
 
     To sum up crucial features: transcendental apperception
