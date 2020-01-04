@@ -80,6 +80,72 @@ In the development of Kant's distinction between general logic and transcendenta
 
 ###### {#deductionA}_A edition:_ Transcendental Deduction
 
+
+This part contains the different steps in which the Transcendental Deduction can happen. The A edition has a more thorough discription.
+
+1. On the synthesis of apprehension in the intuition.(A98)
+
+    All representations belong, "as modifications of the mind [...] to inner sense, and as such all of our cognitions are in the end subjected to the formal condition of inner sense, namely time"(A99)
+
+    "Every intuition[Anschauung] contains a _manifold_ in itself."(A99) The mind distinguishes between every moment of impression.
+
+    We want a  _Unity of intuition_ to come from these impressions.
+
+    This process is called _Synthesis of apprehension_:
+
+    * Run through all manifolds of impressions (these are not modified) and take them together.
+
+    * If we have _One representation_ such a limiting process has to occur
+
+    * This process has to happen "a priori"
+
+
+1. On the synthesis of reproduction in the imagination.(A100)
+
+    It is [..] a merely empirical law in accordance with which rep­resentations that have often followed or accompanied one another arefinally assocated with each other and thereby placed in a connection inaccordance with which, even without the presence of the object, one ofthese representations brings about a transition of the mind to the other in accordance with a constant rule[beständige Regel].(A100)
+
+    The obvious formalization of a constant rule between two states, when thinking about states as sets, is a [[relation]] between both sets.  But it is not clear from Kant's formulation if one should restrict to a specific kind of relation, e.g. a fuction in one direction.
+
+
+    This is formulted in the __Law of reproduction__:
+
+    * the appearances of objects are associated with the manifold of their representation
+
+    * the similar limiting process as in the synthesis of apprehension has to occur
+
+
+1. On the synthesis of recognition in the concept.(A103)
+
+    If that which we think of  is the same, it has to give rise to the same representation.
+
+    We have __one__ concept: "It is this __one__ consciousness that unifies the _manifold_ that has been suc­cessively intuited, and then also reproduced, into one representation." [A103]
+
+    "The unity that the object makes necessary can [only be] the formal unity of the consciousness in the syn­thesis of the _manifold_ of the representations. [Therefore] we cog­nize the object if we have effected synthetic unity in the manifold of intuition."[A105]
+
+    for that we need:
+
+    * A rule, which guarantees that the reproduction happens "a priori" and can always be exhibited. This is called "unity of rule".
+
+    * The concept in which the representations unite. ("All cognition requiers a concept"(A106))
+
+
+    To sum up crucial features: transcendental apperception
+
+    * must precede all experiences, i.e. has to be "a piori"
+
+    * is a pure, original, unchanging consciousness
+
+    * Grounds "a priori" concepts (similar as Space and Time grounds the intuition of sensibility)
+
+
+    While in view of the transcendental object: it
+
+    * Is the object in which the trancendental apperception grounds "a priori" concepts
+
+    * Its pure concept is that, which in all of our empirical concepts in general can provide relation to an object, i.e., objective reality.
+
+    * Cannot contain any determined intuition at all - just the that unity which must be encountered in a manifold of cognition insofar as it stands in relation to an object.
+
 ## __II. Transcendental Doctrine of Methods__
 
 
