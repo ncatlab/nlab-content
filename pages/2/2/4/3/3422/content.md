@@ -1008,6 +1008,6 @@ Discussion in terms of [[lax (infinity,1)-colimits]] is in
 
 Section 1 of this paper reviews properties of the Grothendieck construction for quasicategories:
 
-* [[Aaron Mazel-Gee]], _All about the Grothendieck construction_ ([arXiv:1510.03525][https://arxiv.org/abs/1510.03525])
+* [[Aaron Mazel-Gee]], _All about the Grothendieck construction_ ([arXiv:1510.03525](https://arxiv.org/abs/1510.03525))
 
 [[!redirects (∞,1)-Grothendieck construction]]
