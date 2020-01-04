@@ -84,6 +84,8 @@ For $\mathcal{C}$ a [[category]] with [[terminal object]] $\ast$, the [[coslice 
 
 * The basic example are [[pointed sets]].
 
+* [[Natural numbers object]]s, [[monoid object]]s, and [[group object]]s in a category are pointed objects. 
+
 * [[pointed topological spaces]] and [[pointed simplicial sets]] are important in [[homotopy theory]] (where they are often called **based**) for instance for the discussion of [[homotopy fibers]], [[loop space objects]] etc. See also at _[[classical model structure on pointed topological spaces]]_, which makes them be models for [[pointed homotopy types]].
 
 * Pointed $n$-[[n-categories]] figure prominently in the [[delooping hypothesis]]; see also [[k-tuply monoidal n-category]].  In particular, a fancy name for a pointed set is a _0-tuply monoidal 0-category_.
