@@ -70,7 +70,7 @@ This terminology is used notably in the context of the _[[first-order formulatio
 
 We discuss here how a choice of vielbein on a [[manifold]] is equivalently the [[reduction of structure groups|reduction of the structure group]] of the [[tangent bundle]] from the [[general linear group]] $GL(n)$ to its [[maximal compact subgroup]], the [[orthogonal group]].
 
-The following also introduces the description of this in terms of [[smooth infinity-groupoid|smooth]] [[twited cohomology|twisted]] [[cohomology]]. While of course this is not necessary to understand vielbeins, it does give a very natural conceptual description with the advantage that it seamlessly generalizes to notions of _[[generalized vielbein]]_ fields and generally to [[twisted differential c-structures]].
+The following also introduces the description of this in terms of [[smooth infinity-groupoid|smooth]] [[twisted cohomology|twisted]] [[cohomology]]. While of course this is not necessary to understand vielbeins, it does give a very natural conceptual description with the advantage that it seamlessly generalizes to notions of _[[generalized vielbein]]_ fields and generally to [[twisted differential c-structures]].
 
 #### The class of the tangent bundle
  {#ClassOfTheTangentBundle}
