@@ -80,29 +80,27 @@ In the development of Kant's distinction between general logic and transcendenta
 
 ###### {#deductionA}_A edition:_ Transcendental Deduction
 
+In the first edition Kant provides a more thorough description on how the formation of concepts in our mind works. This description was left our in the the corresponding part of the second edition ("B" deduction). Concepts are created in three steps:
 
-This part contains the different steps in which the Transcendental Deduction can happen. The A edition has a more thorough discription.
-
-1. On the synthesis of apprehension in the intuition.(A98)
+1. "On the synthesis of apprehension in the intuition" (A98).
 
     All representations belong, "as modifications of the mind [...] to inner sense, and as such all of our cognitions are in the end subjected to the formal condition of inner sense, namely time"(A99)
 
-    "Every intuition[Anschauung] contains a _manifold_ in itself."(A99) The mind distinguishes between every moment of impression.
+    "Every intuition[Anschauung] contains a manifold in itself."(A99) The mind distinguishes between every moment of impression.
 
     We want a  _Unity of intuition_ to come from these impressions.
-
     This process is called _Synthesis of apprehension_:
 
-    * Run through all manifolds of impressions (these are not modified) and take them together.
+    * Run through all manifolds of impressions (these are not modified) and take them together. In modern terminology this ma be called a limiting process.
 
-    * If we have _One representation_ such a limiting process has to occur
+    * In order to have _One representation_ such a limiting process must have occured.
 
-    * This process has to happen "a priori"
+    * This process has to happen "a priori".
 
 
-1. On the synthesis of reproduction in the imagination.(A100)
+1. "On the synthesis of reproduction in the imagination" (A100).
 
-    It is [..] a merely empirical law in accordance with which rep­resentations that have often followed or accompanied one another arefinally assocated with each other and thereby placed in a connection inaccordance with which, even without the presence of the object, one ofthese representations brings about a transition of the mind to the other in accordance with a constant rule[beständige Regel].(A100)
+    "It is [..] a merely empirical law in accordance with which rep­resentations that have often followed or accompanied one another arefinally assocated with each other and thereby placed in a connection inaccordance with which, even without the presence of the object, one ofthese representations brings about a transition of the mind to the other in accordance with a constant rule[beständige Regel]." (A100)
 
     The obvious formalization of a constant rule between two states, when thinking about states as sets, is a [[relation]] between both sets.  But it is not clear from Kant's formulation if one should restrict to a specific kind of relation, e.g. a fuction in one direction.
 
@@ -114,7 +112,7 @@ This part contains the different steps in which the Transcendental Deduction can
     * the similar limiting process as in the synthesis of apprehension has to occur
 
 
-1. On the synthesis of recognition in the concept.(A103)
+1. "On the synthesis of recognition in the concept" (A103).
 
     If that which we think of  is the same, it has to give rise to the same representation.
 
