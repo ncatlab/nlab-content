@@ -66,7 +66,7 @@ Actually, all three possibilities discussed by Kant appear in modern mathematics
 
 Achourioti and van Lambalgen ([2011/2012](#AchouriotiVanLambalgen)) offered a formalization of Kant's logic in terms of [[geometric logic]].
 
-#### __Introduction.__ The Idea of a Transcendental Logic. (General Logic and Transcendental Logic) 
+#### __Introduction.__ The Idea of a Transcendental Logic. [General Logic and Transcendental Logic]
 
 I. On logic in general.
 The Purpose of I. (B74-79) is to define the scope of logic as a science, distinguishing it from aesthetics and structuring its subdisciplines, to then be able to show the place of transcendental logic among them in II. .
