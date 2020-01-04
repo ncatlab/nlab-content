@@ -109,16 +109,12 @@ Achourioti and van Lambalgen ([2011/2012](#AchouriotiVanLambalgen)) offered a fo
 
 >The use of this pure cognition [described in transcendental logic],however, depends on this as its condition: that objects are given to us in intuition, to which it can be applied. For without intuition all of our cognition would lack objects and therefore remain completely empty. The part of transcendental logic, therefore, that expounds the elements of the pure cognition of the understanding and the principles without which no object can be thought at all, is the __transcendental analytic and at the same time a logic of truth__  [our emphasis] For no cognition can contradict it without at the same time losing all content, i.e., all relation to any object ...
 
-* 
+$ \, $
+: One may summarize, that the transcendental logic, in its analytic part, provides the necessary criterion of truth, not only regarding its logical form, which is already accomplished by general pure logic, but also regarding the necessary form truth has to have as it necessarily relates to objects. Kant continues ([A63](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_063.png)/B88):
 
-    One may summarize, that the transcendental logic, in its analytic part, provides the necessary criterion of truth, not only regarding its logical form, which is already accomplished by general pure logic, but also regarding the necessary form truth has to have as it necessarily relates to objects.
+> [Transcendental logic] should properly be only a canon for the assessment of empirical use [of pure cognitions of the understanding], it is misused if one […] dares to synthetically judge, assert, and decide about objects in general with the pure understanding alone. The use of the pure understanding would in this case therefore be dialectical. __The second part of the transcendental logic must therefore be a critique of this dialectical illusion__ [our emphasis].
 
-    Transcendental logic “should properly be only a canon for the assessment of empirical use [of pure cognitions of the understanding], it is misused if one […] dares to synthetically judge, assert, and decide about objects in general with the pure understanding alone. The use of the pure understanding would in this case therefore be dialectical. __The second part of the transcendental logic must therefore be a critique of this dialectical illusion__ [our emphasis].” ([A63](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_063.png)/B88) 
-
-
-
-
-    In the development of Kant's distinction between general logic and transcendental logic Kant's _[[Attempt to Introduce the Concept of Negative Quantities into Philosophy]]_ from 1763 constitutes a crucial step.
+In the development of Kant's distinction between general logic and transcendental logic Kant's _[[Attempt to Introduce the Concept of Negative Quantities into Philosophy]]_ from 1763 constitutes a crucial step.
 
 #### __First Division.__ The Transcendental Analytic
 
