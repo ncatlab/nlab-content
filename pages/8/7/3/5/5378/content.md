@@ -1,6 +1,6 @@
 ##Algebraic homotopy
 
-This book by [[Baues]] gives an acoount of the author's interpretation of  [[Henry Whitehead]]'s [[Algebraic Homotopy Theory]] as described in his ICM talk (1950) and his famous papers, _[[Combinatorial homotopy I]]_, (1949), and _[[Combinatorial homotopy II]]_, again (1949). Although the material contained in the first of these papers became central to the development of homotopy theory (CW complexes etc.) soon after its publication, the second paper, treating harder ideas including those of [[crossed complexes]], was relatively 'unstudied' until much more recently. This book gives one interpretation of the ideas it developed from a modern point of view. That development continued in [[Combinatorial Homotopy and 4-Dimensional Complexes]].
+This book by [[Baues]] gives an account of the author's interpretation of  [[Henry Whitehead]]'s [[Algebraic Homotopy Theory]] as described in his ICM talk (1950) and his famous papers, _[[Combinatorial homotopy I]]_, (1949), and _[[Combinatorial homotopy II]]_, again (1949). Although the material contained in the first of these papers became central to the development of homotopy theory (CW complexes etc.) soon after its publication, the second paper, treating harder ideas including those of [[crossed complexes]], was relatively 'unstudied' until much more recently. This book gives one interpretation of the ideas it developed from a modern point of view. That development continued in [[Combinatorial Homotopy and 4-Dimensional Complexes]].
 
 
 #Contents#
