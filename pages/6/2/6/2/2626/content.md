@@ -103,7 +103,10 @@ The study of knots is very pictorial.  There are various knot-related SVGs that 
 
 Expositions:
 
+* [[Aaron Lauda]], _Knot theory explained (1:24 min lightning idea)_,  USC Dornsife College of Letters, Arts and Sciences ([video](https://www.youtube.com/embed/kxaWqKM5JyQ)
+
 * [[Abhijit Champanerkar]], _The geometry of knot complements_ ([pdf](https://www.math.csi.cuny.edu/~abhijit/talks/knot-geometry-h.pdf), [[ChampanerkarKnotComplements.pdf:file]])
+
 
 
 General:
