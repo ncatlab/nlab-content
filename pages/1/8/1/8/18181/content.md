@@ -112,7 +112,7 @@ In the development of Kant's distinction between general logic and transcendenta
 >The use of this pure cognition [described in transcendental logic],however, depends on this as its condition: that objects are given to us in intuition, to which it can be applied. For without intuition all of our cognition would lack objects and therefore remain completely empty. The part of transcendental logic, therefore, that expounds the elements of the pure cognition of the understanding and the principles without which no object can be thought at all, is the __transcendental analytic and at the same time a logic of truth__  [our emphasis] For no cognition can contradict it without at the same time losing all content, i.e., all relation to any object ...
 
 $ \, $
-: <span style="font-size:18px;">One may summarize, that the transcendental logic, in its analytic part, provides the necessary criterion of truth, not only regarding its logical form, which is already accomplished by general pure logic, but also regarding the necessary form truth has to have as it necessarily relates to objects. Kant continues ([A63](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_063.png)/B88):</span>
+: <span style="font-size:18px;">One may summarize, that the transcendental logic, in its analytic part, provides the necessary criterion of truth, not only regarding its logical form, which is already accomplished by general pure logic, but also regarding the necessary form which truth has to have as it necessarily relates to objects. Kant continues ([A63](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_063.png)/B88):</span>
 
 > [Transcendental logic] should properly be only a canon for the assessment of empirical use [of pure cognitions of the understanding], it is misused if one […] dares to synthetically judge, assert, and decide about objects in general with the pure understanding alone. The use of the pure understanding would in this case therefore be dialectical. __The second part of the transcendental logic must therefore be a critique of this dialectical illusion__ [our emphasis].
 
@@ -211,25 +211,25 @@ In the first edition Kant provides a more thorough description on how the format
 
     "I am therefore conscious of the identi­cal self in regard to the manifold of the representations that are given to me in an intuition because I call them all together __my__ representa­tions, which constitute __one__."(B135).
 
-    With the cognition, which is only able to work with concepts, not with intuitions, he can define how understanding in the following way: 
+    Presupposing that the human understanding only operates with concepts  rather than with intuitions, Kant can define "understanding" in the following way: 
 
     "__Understanding__ is, generally speaking, the faculty of __cognitions__."(B137)
 
-    and he need the synthetic unity because:
+    To advance his argument, Kant then needs the synthetic unity, because:
 
     "The synthetic unity of con­sciousness is ... an objective condition of all cognition, ..."(B138).
 
-    Now it is a question what is the benefits of the categories Kant wrote about that the
+    Now a question regarding the purpose of the categories arises, since Kant 
 
-    "[Categories] therefore __cognizes__ nothing at all by itself, but only combines and orders the material for cognition, the in­tuition, which must be given to it through the object."(B145).
+    "[The Categories] are only rules for an understanding whose entire capacity consists in thinking, i.e., in the action of bringing the synthesis of the manifold that is given to it in intuition from elsewhere to the unity of apperception, which therefore __cognizes__ nothing at all by itself, but only combines and orders the material for cognition, the in­tuition, which must be given to it through the object."(B145).
 
-    The conditions of the experience he found out that "Space and time are valid, as conditions of the possibility of how objects can be given to us, no further than for objects of the senses, hence only for ex­perience."(B148) to clarify the role of space and time.
+    While "Space and time are valid, as conditions of the possibility of how objects can be given to us, no further than for objects of the senses, hence only for ex­perience."(B148) the categories are rules regarding how understanding may occur.
 
-    To give the connection between laws, which he is able to derive in nature, and the categories, which are conditions of possible experience:
+    The following quote enlightens the connection between natural laws, which Kant describes as derivable from nature, and the categories, which are conditions of possible experience:
 
     "Particular laws, because they concern em­pirically determined appearances, __cannot__ be __completely derived__ from the categories, although they all stand under them."(B165)
 
-    In the end he got the result that "Consequently no a priori cognition is possible for us except solely of objects of possible experience."(B166)
+    In the end Kant arrives at the result that "Consequently no a priori cognition is possible for us except solely of objects of possible experience."(B166)
 
 
 #### Achourioti and van Lambalgen's formalization
