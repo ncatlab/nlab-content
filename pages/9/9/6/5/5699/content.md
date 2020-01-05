@@ -54,6 +54,14 @@ On [[topological string theory]]:
 ## Selected writings
  {#SelectedWritings}
 
+On the [[large N limit]]:
+
+* M. Bershadsky, Z. Kakushadze, [[Cumrun Vafa]], _String expansion as large $N$ expansion of gauge theories_, Nucl.Phys. B523 (1998) 59-72 ([hep-th/9803076](http://arxiv.org/abs/hep-th/9803076), <a href="http://dx.doi.org/10.1016/S0550-3213(98)00272-7">doi</a>)
+
+* S. Sinha, [[Cumrun Vafa]], _$SO$ and $Sp$ Chern-Simons at Large $N$_ ([arXiv:hep-th/0012136](https://arxiv.org/abs/hep-th/0012136))
+
+  (for [[Chern-Simons theory]] and [[topological string theory]])
+
 On [[Landau-Ginzburg models]]:
 
 * {#VafaWarner89} [[Cumrun Vafa]], [[Nicholas Warner]], _Catastrophes and the Classification of Conformal Theories_, Phys.Lett. B218 (1989) 51 (<a href="https://doi.org/10.1016/0370-2693(89)90473-5">doi:10.1016/0370-2693(89)90473-5</a>)
