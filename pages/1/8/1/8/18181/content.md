@@ -196,24 +196,22 @@ In the first edition Kant provides a more thorough description on how the format
 
 1. "__On the a priori grounds for the possibility of experience__"([B116)
 
-    Kant understand in transcendental deduction:
+    Kant explains the transcendental deduction as follows:
 
     "I therefore call the explanation of the way in which concepts can relate to objects a priori their __transcenden­tal deduction__" (B117).
 
 
 1. "__Transcendental deduction of the pure concepts of the understanding__"(B129)
 
-    Kant want to combine intuituions, what Kant explained with:
+    Kant begins by describing the way in which the manifold of intuition is combined:
 
     "Yet the __combination__ (conjunctio) of a manifold in general can never come to us through the senses, and therefore cannot already be contained in the pure form of sensible intuition; for it is an act of the spontaneity of the power of representation"(B129). 
 
-    Now he need to collect my combinations in one identity what he call transcendental unit.
-
-    He justified the transcendental unity with the following sentence:
+    He justifies the transcendental unity in the following sentence:
 
     "I am therefore conscious of the identi­cal self in regard to the manifold of the representations that are given to me in an intuition because I call them all together __my__ representa­tions, which constitute __one__."(B135).
 
-    With the cognition, what is only able to work with concepts, not with intuitions, he can define how understanding in the following way: 
+    With the cognition, which is only able to work with concepts, not with intuitions, he can define how understanding in the following way: 
 
     "__Understanding__ is, generally speaking, the faculty of __cognitions__."(B137)
 
