@@ -4,6 +4,10 @@ __Hirosi Ooguri__ is a [[string theory|string theorist]] at CalTech.
 
 ## Selected writings
 
+On [[large N limit]] of [[Chern-Simons theory]]:
+
+* {#OoguriVafa02} [[Hirosi Ooguri]], [[Cumrun Vafa]], _Worldsheet Derivation of a Large $N$ Duality_, Nucl. Phys. B641:3-34, 2002 ([arXiv:hep-th/0205297](https://arxiv.org/abs/hep-th/0205297))
+
 On [[mirror symmetry]] between [[Higgs branches]]/[[Coulomb branches]] of [[D=3 N=4 super Yang-Mills theory]] (with emphasis of [[Hilbert schemes of points]]):
 
 * [[Jan de Boer]], [[Kentaro Hori]], [[Hirosi Ooguri]], [[Yaron Oz]], _Mirror Symmetry in Three-Dimensional Gauge Theories, Quivers and D-branes_, Nucl. Phys. B493:101-147, 1997 ([arXiv:hep-th/9611063](https://arxiv.org/abs/hep-th/9611063))
