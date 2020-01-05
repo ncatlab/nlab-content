@@ -47,4 +47,10 @@ This is a refinement to [[spectra]] of the [[Dennis trace]].
 
 * [[Andrew Blumberg]], [[David Gepner]], [[Goncalo Tabuada]], _Uniqueness of the multiplicative cyclotomic trace_ ([arXiv:1103.3923](http://arxiv.org/abs/1103.3923))
 
+* [[David Ayala]], [[Aaron Mazel-Gee]], [[Nick Rozenblyum]], _The geometry of the cyclotomic trace_, ([arXiv:1710.06409](https://arxiv.org/abs/1710.06409))
+
+For a very brief, very elementary introduction, see
+
+* [[Aaron Mazel-Gee]], _The geometry of the cyclotomic trace_, ([pdf](https://etale.site/writing/cyclo-summary.pdf))
+
 For more see the references at _[[topological Hochschild homology]]_.
