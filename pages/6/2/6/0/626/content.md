@@ -172,6 +172,10 @@ Introductions to and surveys of string diagram calculus:
 
 * {#Selinger09} [[Peter Selinger]], _A survey of graphical languages for monoidal categories_, in: [[Bob Coecke]] (ed.) _New Structures for Physics_, Lecture Notes in Physics, vol 813. Springer, Berlin, Heidelberg (2010) ([arXiv:0908.334](http://arxiv.org/abs/0908.3347), [doi:10.1007/978-3-642-12821-9_4](https://doi.org/10.1007/978-3-642-12821-9_4))
 
+* [[Predrag Cvitanović]], _Group Theory: Birdtracks, Lie's, and Exceptional Groups_, Princeton University Press July 2008 ([PUP](https://press.princeton.edu/books/paperback/9780691202983/group-theory), [birdtracks.eu](http://birdtracks.eu/), [pdf](http://www.birdtracks.eu/version9.0/GroupTheory.pdf))
+
+  (aimed at [[Lie theory]] and [[gauge theory]])
+
 * [[John Baez]], QG Seminar Fall 2000 ([web](http://math.ucr.edu/home/baez/qg-fall2000/)), Winter 2001 ([web](http://math.ucr.edu/home/baez/qg-winter2001/)), Fall 2006 ([web](http://math.ucr.edu/home/baez/qg-fall2006/index.html#computation)).
 
 * [[John Baez]], [[Mike Stay]], _Physics, Topology, Logic and Computation: A Rosetta Stone_ ([arXiv:0903.0340](http://arxiv.org/abs/0903.0340))
