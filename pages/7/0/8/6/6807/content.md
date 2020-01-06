@@ -17,9 +17,9 @@
 
 ## Idea
 
-The _BFSS matrix model_ ([Banks-Fischler-Shenker-Susskind 96](#BanksFischlerShenkerSusskind96), [Seiberg 97](#Seiberg97)) is the description of the [[worldline]] dynamics of interacting  [[D0-branes]]. In the [[large N limit]] of a large number of [[D0-branes]] this is  supposed to encode the [[non-perturbative quantum field theory|strong coupling limit]] of [[type IIA string theory]] known as _[[M-theory]]_.
+The _BFSS matrix model_ ([Banks-Fischler-Shenker-Susskind 96](#BanksFischlerShenkerSusskind96), [Seiberg 97](#Seiberg97)) is the description of the [[worldline]] dynamics of interacting  [[D0-branes]]. In the [[large N limit]] of a large number of [[D0-branes]] this is  supposed to encode the [[non-perturbative quantum field theory|strong coupling limit]] of [[type IIA string theory]] known as _[[M-theory]]_  at least in certain corners of its [[moduli space]].
 
-The BFSS matrix model was argued to arise in several equivalent ways: 
+The BFSS matrix model was argued to arise in several seemingly rather different (but apparently secretly equivalent) ways: 
 
 1. as the [[worldline]] theory of a large number of [[D0-branes]] in [[type IIA string theory]], 
 
