@@ -93,6 +93,8 @@ This is the problem of [[non-perturbative quantum field theory|non-perturbative]
 
 * [[minimal coupling]]
 
+* [['t Hooft double line notation]]
+
 * [[Einstein-Yang-Mills theory]]
 
   * [[Einstein-Maxwell theory]]
