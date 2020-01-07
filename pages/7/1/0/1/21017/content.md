@@ -48,7 +48,7 @@ For the case $\mathfrak{so}(N)$ see also
 
 Furthermore, one may regard the resulting double-line diagrams as a [[ribbon graph]] thickening of the original [[Feynman diagrams]], and  thus as [[surfaces]] [[manifold with boundary|with boundary]] and with markings on the [[boundary]].
 
-In the case $\mathfrak{g} = \mathfrak{so}(N)$ this means that a single [[virtual particle|virtual]] [[gluon]] line is represented by the [[formal linear combination]] of a strip (marked [[disk]] and a twisted strip:
+In the case $\mathfrak{g} = \mathfrak{so}(N)$ this means that a single [[virtual particle|virtual]] [[gluon]] line is represented by the [[formal linear combination]] of a strip (marked [[disk]]) and a twisted strip:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/tHooftDoubleLineToSurfaces.jpg" width="600">
@@ -73,6 +73,8 @@ This exhibits [[open string]] [[worldsheets]]. Regarding them as such in the cas
 
 For [[AdS/CFT duality]] relating [[super Yang-Mills theory]] to [[closed strings]] there is an operation of gluing in [[faces]] to turn these [[open strings]] into [[closed string]] [[worldsheets]], see [Marino 04, Section III, p. 14](#Marino04).
 [[open/closed string duality|Open/closed string duality]] plays a subtle role in interpreting the [['t Hooft double line notation]] of [[gauge theory]] [[Feynman diagrams]] in the [[large N limit]] alternatively as [[open string]] or as [[closed string]] [[worldsheets]], see [Gopakumar-Vafa 98](#GopakumarVafa98), [Gaiotto-Rastelli 03](#GaiottoRastelli03), [Gopakumar 04](#Gopakumar04).
+
+
 
 ## Applications
 
