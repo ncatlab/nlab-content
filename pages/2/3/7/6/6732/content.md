@@ -98,7 +98,7 @@ But see at _[[AdS/CFT correspondence]]_ for a more comprehensive list of referen
 
 Further discussion:
 
-* {:Witten79} [[Edward Witten]], _Baryons in the $1/n$ Expansion_, Nucl. Phys. B160 (1979) 57-115 ([spire:140391](http://inspirehep.net/record/140391), <a href="https://doi.org/10.1016/0550-3213(79)90232-3">doi:10.1016/0550-3213(79)90232-3</a>)
+* {#Witten79} [[Edward Witten]], _Baryons in the $1/n$ Expansion_, Nucl. Phys. B160 (1979) 57-115 ([spire:140391](http://inspirehep.net/record/140391), <a href="https://doi.org/10.1016/0550-3213(79)90232-3">doi:10.1016/0550-3213(79)90232-3</a>)
 
   (on [[mesons]] and [[baryons]] in the [[large N limit]])
 
@@ -117,7 +117,7 @@ Further discussion:
 
 * S. Sinha, [[Cumrun Vafa]], _$SO$ and $Sp$ Chern-Simons at Large $N$_ ([arXiv:hep-th/0012136](https://arxiv.org/abs/hep-th/0012136))
 
-  (for [[Chern-Simons theory]] and [[topological string theory]])
+  (for [[Chern-Simons theory as a topological string theory]])
 
 * Hiroyuki Fuji, Yutaka Ookouchi, _Confining Phase Superpotentials for $SO/Sp$ Gauge Theories via Geometric Transition_, JHEP 0302:028, 2003 ([arXiv:hep-th/0205301](https://arxiv.org/abs/hep-th/0205301))
 
