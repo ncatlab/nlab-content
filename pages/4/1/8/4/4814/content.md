@@ -66,7 +66,7 @@ The observation that the BF-theory action functional looks like it should be rea
 
 The observation that coupled to [[topological Yang-Mills theory]] it can be read as the [[schreiber:∞-Chern-Simons theory]] action functional on [[connections on 2-bundles]] is in 
 
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _$L_\infty$-conections_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>))
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _$L_\infty$-conections_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
 {#SSSI}
 
 and a more comprehensive discussion is in section 4.3 of 
@@ -86,5 +86,10 @@ in
 BF gravity
 
 * Mariano Celada, Diego Gonz&#225;lez, Merced Montesinos, _BF gravity_, [arxiv/1610.02020](https://arxiv.org/abs/1610.02020)
+
+For the use of a version of BF-theory in [[arithmetic]] to deal with the non-[[orientation|orientability]] of [[arithmetic schemes]] see
+
+* [[Magnus Carlson]], [[Minhyong Kim]], _A note on abelian arithmetic BF-theory_, ([arXiv:1911.02236](https://arxiv.org/abs/1911.02236))
+
 
 [[!redirects BF theory]]
