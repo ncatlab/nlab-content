@@ -74,6 +74,11 @@ In the application of [[QCD]] to [[particle physics]] [[phenomenology]], the mas
 
 This is widely and well known, but particle physics does not quite share the mathematician's culture of succinctly highlighting open problems. Here are some sources that make this explicit:
 
+* [[Edward Witten]], _Baryons in the $1/n$ Expansion_, Nucl. Phys. B160 (1979) 57-115 ([spire:140391](http://inspirehep.net/record/140391), <a href="https://doi.org/10.1016/0550-3213(79)90232-3">doi:10.1016/0550-3213(79)90232-3</a>)
+
+> many of the essential  properties that the theory $[$QCD$]$ is presumed to have, including  confinement, dynamical mass generation, and chiral symmetry  breaking, are only poorly understood. And apart from the low-lying bound states of heavy quarks, which we believe can be  described by a nonrelativistic Schroedinger equation, we are unable to derive from the basic theory even the grossest  features of the partticle spectrum, or of traditional strong  interaction phenomenology
+
+
 * {#Kutschke96} Robert Kutschke, section 3.1 _Heavy flavour spectroscopy_, in D. Bugg (ed.), _Hadron Spectroscopy and the Confinement Problem_, Proceedings of a NATO Advanced Study Institute, Plenum Press 1996  ([doi:10.1007/978-1-4613-0375-6](https://www.springer.com/cn/book/9780306453038))
 
 > While it is generally believed that QCD is the correct fundamental theory of the strong interactions there are, as yet, no practical means to produce full QCD calculations of hadron masses and their decay widths.
