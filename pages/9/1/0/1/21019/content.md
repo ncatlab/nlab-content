@@ -3,13 +3,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### String theory
+#### Duality in string theory
 +-- {: .hide}
-[[!include string theory - contents]]
-=--
-#### Algebraic Quantum Field Theory
-+--{: .hide}
-[[!include AQFT and operator algebra contents]]
+[[!include duality in string theory -- contents]]
 =--
 =--
 =--
@@ -48,5 +44,12 @@ The original article:
 * {#GopakumarVafa98} [[Rajesh Gopakumar]], [[Cumrun Vafa]], _On the Gauge Theory/Geometry Correspondence_, Adv. Theor. Math. Phys. 3 (1999) 1415-1443 ([arXiv:hep-th/9811131](https://arxiv.org/abs/hep-th/9811131))
 
 * S. Sinha, [[Cumrun Vafa]], _$SO$ and $Sp$ Chern-Simons at Large $N$_ ([arXiv:hep-th/0012136](https://arxiv.org/abs/hep-th/0012136))
+
+Including [[Wilson loop observables]]:
+
+* [[Hirosi Ooguri]], [[Cumrun Vafa]], _Knot Invariants and Topological Strings_, Nucl. Phys. B 577:419-438, 2000 ([arXiv:hep-th/9912123](https://arxiv.org/abs/hep-th/9912123))
+
+
+[[!redirects Chern-Simons theory as a topological string theory]]
 
 [[!redirects Chern-Simons theory as an open topological string theory]]
