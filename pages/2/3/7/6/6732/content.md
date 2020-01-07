@@ -64,7 +64,7 @@ Lecture notes:
 
 * [[Gerard 't Hooft]], _Large $N$_, workshop lecture ([hep-th/0204069](http://arxiv.org/abs/hep-th/0204069))
 
-* A. V. Manohar, _Large $N$ QCD_, L:es Houches Lecture 2004, [pdf](http://einstein.ucsd.edu/manohar/pdf/LesHouches.pdf)
+* A. V. Manohar, _Large $N$ QCD_, Les Houches Lecture 2004, ([https://arxiv.org/abs/hep-ph/9802419](https://arxiv.org/abs/hep-ph/9802419), [pdf](http://einstein.ucsd.edu/manohar/pdf/LesHouches.pdf))
 
 * Markus Gross, _Large $N$_, 2006 ([[GrossLargeN.pdf:file]])
 
