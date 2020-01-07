@@ -94,6 +94,11 @@ But see at _[[AdS/CFT correspondence]]_ for a more comprehensive list of referen
 
 Further discussion:
 
+* {:Witten79} [[Edward Witten]], _Baryons in the $1/n$ Expansion_, Nucl. Phys. B160 (1979) 57-115 ([spire:140391](http://inspirehep.net/record/140391), <a href="https://doi.org/10.1016/0550-3213(79)90232-3">doi:10.1016/0550-3213(79)90232-3</a>)
+
+  (on [[mesons]] and [[baryons]] in the [[large N limit]])
+
+
 
 * A. Jevicki, _Instantons and the $1/N$ expansion in nonlinear $\sigma$ models_, Phys. Rev. D 20, 3331&#8211;3335 (1979) [pdf](http://prd.aps.org/pdf/PRD/v20/i12/p3331_1)
 
