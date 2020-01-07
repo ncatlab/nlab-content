@@ -1,13 +1,17 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 
 ## Idea
 
-In [[Yang-Mills theory]]/[[QCD]] with [[coupling constant]] $g_{YM}$ and with $N_c$ [[colour charge|colours]], the _'t Hooft coupling_ is the expression
+In [[Yang-Mills theory]]/[[QCD]] with [[coupling constant]] $g_{YM}$ and with $N_c$ [[colour charge|colours]], the _’t Hooft coupling_ is the expression
 
 $$
   \lambda
   \;\coloneqq\;
-  g_{YM^2} N_c
+  g_{YM}^2 N_c
   \,.
 $$
 
@@ -15,18 +19,18 @@ $$
 
 ### In the large $N$ limit
 
-The study of [[Yang-Mills theory]] in the [[large N limit]] but at fixed 't Hooft coupling controls the [[AdS/CFT correspondence]]:
+The study of [[Yang-Mills theory]] in the [[large N limit]] but at fixed ’t Hooft coupling controls the [[AdS/CFT correspondence]]:
 
-[[large N limit]] $N_c \to \infty$ at fixed [['t Hooft coupling]] $\lambda = g_{YM^2} N_c$
+[[large N limit]] $N_c \to \infty$ at fixed [['t Hooft coupling]] $\lambda = g_{YM}^2 N_c$
 
 
 | $\lambda \lt 1$ | $\lambda \gt 1$ |
 |--|--|
-| [[perturbative quantum field theory|perturbative]] [[Yang-Mills theory]] | [[perturbative quantum gravity]] on [[AdS spacetime]]
+| [[perturbative quantum field theory|small coupling limit]]  of [[Yang-Mills theory]] | low-energy [[supergravity]] limit  of [[string theory]] on asymptotically [[AdS spacetime]]
 
 
 
-([Aharony-Gubser-Maldacena-OoguriOz 99, p. 11](#AharonyGubserMaldacenaOoguriOz99), [Nastase 07, Section 8](#Nastase07))
+(e. g. [Aharony-Gubser-Maldacena-OoguriOz 99, p. 11, p. 60](#AharonyGubserMaldacenaOoguriOz99), [Nastase 07, Section 8](#Nastase07))
 
 (...)
 
