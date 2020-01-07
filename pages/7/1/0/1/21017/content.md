@@ -69,7 +69,9 @@ This construction respects the [[STU relation]] on [[Jacobi diagrams]] ([Bar-Nat
 
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
-This shows [[open string]] [[worldsheets]]. Often authors consider gluing in [[faces]] to turn these into [[closed string]] [[worldsheets]].
+This exhibits [[open string]] [[worldsheets]]. Regarding them as such in the case of [[Chern-Simons theory]] exhibits [[Chern-Simons theory as an open topological string theory]] even before passing to the [[large N limit]].
+
+For [[AdS/CFT duality]] relating [[super Yang-Mills theory]] to [[closed strings]] there is an operation of gluing in [[faces]] to turn these [[open strings]] into [[closed string]] [[worldsheets]], see [Marino 04, Section III, p. 14](#Marino04).
 [[open/closed string duality|Open/closed string duality]] plays a subtle role in interpreting the [['t Hooft double line notation]] of [[gauge theory]] [[Feynman diagrams]] in the [[large N limit]] alternatively as [[open string]] or as [[closed string]] [[worldsheets]], see [Gopakumar-Vafa 98](#GopakumarVafa98), [Gaiotto-Rastelli 03](#GaiottoRastelli03), [Gopakumar 04](#Gopakumar04).
 
 ## Applications
@@ -163,5 +165,7 @@ critical point $t_c$ where diagrams with a diverging number of holes dominate.
 with h holes to be replaced by a closed Riemann surface of the same genus g and with h punctures: each hole is filled and replaced by a single closed string insertion.
 
 * {#Gopakumar04} [[Rajesh Gopakumar]], _Free Field Theory as a String Theory?_, Comptes Rendus Physique 5 (2004) 1111-1119 ([hep-th/0409233](https://arxiv.org/abs/hep-th/0409233))
+
+* {#Marino04} [[Marcos Marino]], _Chern-Simons Theory and Topological Strings_, Rev. Mod. Phys. 77:675-720, 2005 ([arXiv:hep-th/0406005](https://arxiv.org/abs/hep-th/0406005))
 
 
