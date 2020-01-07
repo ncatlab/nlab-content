@@ -39,6 +39,9 @@ Since closed string excitations induce [[gravity]] while open string excitations
 
 * [[Justin Khoury]], [[Herman Verlinde]], _On Open/Closed String Duality_ ([arXiv:hep-th/0001056](http://arxiv.org/abs/hep-th/0001056))
 
+* [[Davide Gaiotto]], [[Leonardo Rastelli]], _A paradigm of open/closed duality: Liouville D-branes and the Kontsevich model_, JHEP 0507:053,2005 ([hep-th/0312196](https://arxiv.org/abs/hep-th/0312196))
+
+
 * [[Leonardo Rastelli]], _Lectures on open/closed string duality_, PiTP 2004 ([pdf](http://www.sns.ias.edu/pitp2/2004/IASrastelli.pdf), [[RastelliStringDuality.pdf:file]])
 
 
