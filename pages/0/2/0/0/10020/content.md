@@ -2,17 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $\infty$-Chern-Simons theory
+#### Chern-Simons theory
 +--{: .hide}
 [[!include infinity-Chern-Simons theory - contents]]
 =--
-#### Quantum field theory
-+--{: .hide}
-[[!include functorial quantum field theory - contents]]
-=--
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
+#### Duality in string theory
++-- {: .hide}
+[[!include duality in string theory -- contents]]
 =--
 =--
 =--
