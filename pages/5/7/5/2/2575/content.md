@@ -656,7 +656,7 @@ This phenomenon is captured by [[instanton Floer homology]].
 
 ### As an effective background for topological string theory
 
-In ([Witten94](#Witten94)) an argument was given that Chern-Simons theory can be understood as the effective target space [[string theory]] of the [[A-model]] or [[B-model]] [[TCFT]]. This argument has later been made more precise in the language of [[TCFT]]. See [TCFT -- Effective background theories](#http://nlab.mathforge.org/nlab/show/TCFT#ActionFunctionals) for more on this.
+In ([Witten94](#Witten94)) an argument was given that Chern-Simons theory can be understood as the effective target space [[string theory]] of the [[A-model]] or [[B-model]] [[TCFT]]. This argument has later been made more precise in the language of [[TCFT]]. See [TCFT -- Effective background theories](TCFT#ActionFunctionals) for more on this.
 
 ### As 3-dimensional gravity
 
