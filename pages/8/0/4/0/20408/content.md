@@ -41,9 +41,17 @@
 
 **string-QFT duality**
 
-* [[AdS-CFT correspondence]] (an [[open/closed string duality]])
+* [[AdS-CFT duality]] 
 
-  [[AdS-QCD correspondence]]
+  (an [[open/closed string duality]])
+
+  * [[AdS2/CFT1 duality]]
+
+  * [[AdS3/CFT2 duality]]
+
+  * [[AdS-QCD correspondence]]
+
+* [[Chern-Simons theory as topological string theory]]
 
 **QFT-QFT duality**:
 
