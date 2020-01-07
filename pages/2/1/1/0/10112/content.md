@@ -84,6 +84,12 @@ See also
 
 * Wikipedia, _[Meson](http://en.wikipedia.org/wiki/Meson)_
 
+### In the large $N$ limit
+
+In the [[large N limit]]:
+
+* {:Witten79} [[Edward Witten]], _Baryons in the $1/n$ Expansion_, Nucl. Phys. B160 (1979) 57-115 ([spire:140391](http://inspirehep.net/record/140391), <a href="https://doi.org/10.1016/0550-3213(79)90232-3">doi:10.1016/0550-3213(79)90232-3</a>)
+
 
 ### In Witten-Sakai-Sugimoto model for AdS-QCD
 
