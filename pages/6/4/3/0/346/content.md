@@ -122,7 +122,7 @@ which is required to satisfy the following axioms.
   & _{[ev_x,Z]}\searrow & \downarrow^{[ [X,Y],ev_x]} \\
   && [ [X,Y],Z]} $$
 
-The second and third axioms, plus naturality of $ev$, should imply a more general form of the second axiom: for any $f:X\to Y$, the composite $[Y,Z] \xrightarrow{L^X_{Y Z}} [ [X,Y],[X,Z]] \xrightarrow{ev_f} [X,Z]$ equals the functorial action $[f,Z]$.
+The third and fourth axioms, plus naturality of $ev$, should imply a more general form of the third axiom: for any $f:X\to Y$, the composite $[Y,Z] \xrightarrow{L^X_{Y Z}} [ [X,Y],[X,Z]] \xrightarrow{ev_f} [X,Z]$ equals the functorial action $[f,Z]$.
 
 +--{: .standout}
 I haven't worked out exactly what axioms are required here.
