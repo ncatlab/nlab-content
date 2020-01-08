@@ -127,8 +127,9 @@ Table of judgements
 
 |        |                   |               |
 |--------|-------------------|---------------|
-|  $\,$  | __Quantity of judgments__ <br/> Universal <br/> Particular <br/>  Singular | $\,$|
-| $\,$ | $\,$ | $\,$|
+|  $\,$  | __Quantity of judgments__ <br/> [[universal quantifier|Universal]] <br/> [[existential quantifier|Particular]] <br/>  Singular | $\,$|
+| __Quality__ <br/> Affirmative<br/> [[negation|Negative]]<br/> [[infinite judgement|Infinite]] | $\,$ | __Relation__<br/> Categorical<br/> [[hypothetical judgement|Hypothetical]]<br/> [[disjunction|Disjunctive]]|
+|   | __[[modality|Modality]]__<br/> [[possibility|Problematic]]<br/> Assertoric<br/> [[necessity|Apodictic]] |   |
 
 
 
