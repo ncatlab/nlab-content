@@ -139,7 +139,7 @@ If the apparent small positive [[cosmological constant]] were but an artifact of
 ### Non-Observation
  {#NonObservation}
 
-Cautioning against the interpretation of type Ia [[supernovae]] as indicative of a small positive cosmoplogical constant ([[de Sitter spacetime]]) as in the current [[standard model of cosmology]] includes the following (see also at [[inhomogeneous cosmology]]):
+Cautioning against the interpretation of type Ia [[supernovae]] as indicative of a small positive cosmological constant ([[de Sitter spacetime]]) as in the current [[standard model of cosmology]] includes the following (see also at [[inhomogeneous cosmology]]):
 
 * [[Subir Sarkar]], _Is the evidence for dark energy secure?_, Gen. Rel. Grav. 40:269-284, 2008 ([arXiv:0710.5307](https://arxiv.org/abs/0710.5307))
 
