@@ -129,6 +129,7 @@ See also [Selinger 09](#Selinger09).
  {#Examples}
 
 ### In Lie theory
+ {#ExamplesInLieTheory}
 
 For applications of string diagram calculus in [[Lie theory]], see at 
 
@@ -139,6 +140,15 @@ For applications of string diagram calculus in [[Lie theory]], see at
 * _[[metric Lie representation]]_
 
 * _[[Lie algebra weight system]]_.
+
+* _[[M2-brane 3-algebra]]_
+
+### In perturbative quantum field theory
+ {#ExamplesInpQFT}
+
+For applications of string diagram calculus in [[perturbative quantum field theory]], see at 
+
+* [['t Hooft double line notation]]
 
 (...)
 
