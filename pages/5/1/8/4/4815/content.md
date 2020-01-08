@@ -151,7 +151,7 @@ Cautioning against the interpretation of type Ia [[supernovae]] as indicative of
 
 * Yijung Kang, Young-Wook Lee, Young-Lo Kim, Chul Chung, Chang Hee Ree, _Early-type Host Galaxies of Type Ia Supernovae. II. Evidence for Luminosity Evolution in Supernova Cosmology_, Astrophysical Journal  ([arXiv:1912.04903](https://arxiv.org/abs/1912.04903))
 
-  exposition in
+  exposition:
 
   _[New evidence shows that the key assumption made in the discovery of dark energy is in error](https://phys.org/news/2020-01-evidence-key-assumption-discovery-dark.amp?__twitter_impression=true)_
 
