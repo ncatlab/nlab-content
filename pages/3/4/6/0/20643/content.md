@@ -24,9 +24,13 @@ Still consistent with experiment, suggested by flavour physics, and implied by [
 
 ### General 
 
-Exposition:
+Exposition and review:
 
 * David B. Cline, _Beyond Truth and Beauty: A Fourth Family of Particles, _Scientific American Vol. 259, No. 2 (AUGUST 1988), pp. 60-67 ([jstor:24989195](https://www.jstor.org/stable/24989195))
+
+* Bob Holdom, WS Hou, Tobias Hurth, Michelangelo L Mangano, Saleh Sultansoy, Gokhan Ünel 
+_Four statements about the fourth generation_, PMC Phys A 3, 4 (2009) ([doi:10.1186/1754-0410-3-4](https://doi.org/10.1186/1754-0410-3-4))
+
 
 ### Experimental constraints
  {#ReferencesExperimentalConstraints}
