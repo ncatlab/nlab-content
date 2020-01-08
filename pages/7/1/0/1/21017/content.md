@@ -69,10 +69,10 @@ This construction respects the [[STU relation]] on [[Jacobi diagrams]] ([Bar-Nat
 
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
-This exhibits [[open string]] [[worldsheets]]. Regarding them as such in the case of [[Chern-Simons theory]] exhibits [[Chern-Simons theory as an open topological string theory]] even before passing to the [[large N limit]].
+This exhibits [[open string]] [[worldsheets]]. Regarding them as such in the case of [[Chern-Simons theory]] exhibits [[Chern-Simons theory as an open topological string theory]] ([Witten 92](#Witten92)) even before passing to the [[large N limit]].
 
-For [[AdS/CFT duality]] relating [[super Yang-Mills theory]] to [[closed strings]] there is an operation of gluing in [[faces]] to turn these [[open strings]] into [[closed string]] [[worldsheets]], see [Marino 04, Section III, p. 14](#Marino04).
-[[open/closed string duality|Open/closed string duality]] plays a subtle role in interpreting the [['t Hooft double line notation]] of [[gauge theory]] [[Feynman diagrams]] in the [[large N limit]] alternatively as [[open string]] or as [[closed string]] [[worldsheets]], see [Gopakumar-Vafa 98](#GopakumarVafa98), [Gaiotto-Rastelli 03](#GaiottoRastelli03), [Gopakumar 04](#Gopakumar04).
+For [[AdS/CFT duality]] relating [[super Yang-Mills theory]] to _[[closed strings|closed]]_ [[string theory]] and open to _closed_ [[topological string theory]] there is an operation of gluing in [[faces]] to turn these [[open strings]] into [[closed string]] [[worldsheets]] ([Gopakumar-Vafa 98](#GopakumarVafa98), see [Marino 04, Section III, p. 14](#Marino04) for a clear statement).
+Here [[open/closed string duality]] plays a subtle role in interpreting the [['t Hooft double line notation]] of [[gauge theory]] [[Feynman diagrams]] in the [[large N limit]] alternatively as [[open string]] or as [[closed string]] [[worldsheets]], see also, [Gaiotto-Rastelli 03](#GaiottoRastelli03), [Gopakumar 04](#Gopakumar04).
 
 
 
@@ -136,9 +136,9 @@ Further discussion of the case of $\mathfrak{so}(N)$ in the context of the [[lar
 
 ### For Chern-Simons theory
 
-Discussion of [['t Hooft double line notation]] for [[Chern-Simons theory]] (leading to [[Chern-Simons theory as topological string theory]]):
+Discussion of [['t Hooft double line notation]] for [[Chern-Simons theory]], exhibiting [[Chern-Simons theory as topological string theory]]:
 
-* [[Edward Witten]], _Chern-Simons Gauge Theory As A String Theory_, Prog. Math. 133: 637-678, 1995 ([arXiv:hep-th/9207094](https://arxiv.org/abs/hep-th/9207094))
+* {#Witten92} [[Edward Witten]], _Chern-Simons Gauge Theory As A String Theory_, Prog. Math. 133: 637-678, 1995 ([arXiv:hep-th/9207094](https://arxiv.org/abs/hep-th/9207094))
 
 * S. Sinha, [[Cumrun Vafa]], _$SO$ and $Sp$ Chern-Simons at Large $N$_ ([arXiv:hep-th/0012136](https://arxiv.org/abs/hep-th/0012136))
 
