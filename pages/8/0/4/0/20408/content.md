@@ -49,7 +49,10 @@
 
   * [[AdS3/CFT2 duality]]
 
+    * [[p-adic AdS/CFT duality]]
+
   * [[AdS-QCD correspondence]]
+
 
 * [[Chern-Simons theory as topological string theory]]
 
