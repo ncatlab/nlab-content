@@ -37,12 +37,14 @@ Generally, the development of string theory has shown that its [[worldsheet]] is
 
 ## References
 
-### Textbooks
+### General
+
+Textbooks:
 
 * {#VVZ95} Vasili&#301; Vladimirov, I. V. Volovich, E. I. Zelenov, _$p$-Adic analysis and mathematical physics_, World Scientific, 1995
 
 
-### Reviews
+Reviews:
 
 * L. Brekke, P. Freund, $p$-adic numbers in physics, Phys. Rep. 233 (1993)
 
@@ -55,6 +57,11 @@ Generally, the development of string theory has shown that its [[worldsheet]] is
 * B. Dragovich, A. Yu. Khrennikov, S. V. Kozyrev, I. V. Volovich, _$p$-Adic Mathematical Physics_ ([arXiv:0904.4205](http://arxiv.org/abs/0904.4205))
 
 * B. Dragovich, A. Yu. Khrennikov, S. V. Kozyrev, I. V. Volovich, E. I. Zelenov, _$p$-Adic Mathematical Physics: The First 30 Years_ ([arXiv:1705.04758](https://arxiv.org/abs/1705.04758))
+
+Further development
+
+* An Huang, Dan Mao, Bogdan Stoica, _From p-adic to Archimedean Physics: Renormalization Group Flow and Berkovich Spaces_ ([arXiv:2001.01725](https://arxiv.org/abs/2001.01725))
+
 
 ### String theory
 
