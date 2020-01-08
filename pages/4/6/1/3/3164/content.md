@@ -81,6 +81,13 @@ $$
 
 * [[Frobenioid]]
 
+* [[p-adic physics]]
+
+  * [[p-adic string theory]]
+
+  * [[p-adic AdS/CFT correspondence]]
+
+
 ## References
 
 * Dino Lorenzini, _An Invitation to Arithmetic Geometry_ (Graduate Studies in Mathematics, Vol 9) GSM/9
