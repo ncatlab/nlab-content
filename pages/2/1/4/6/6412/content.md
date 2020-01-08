@@ -181,6 +181,8 @@ This self-duality figures in Tate's thesis; for more, see [[ring of adeles]].
 
   * [[p-adic string theory]]
 
+  * [[p-adic AdS/CFT correspondence]]
+
 ## References
  {#References}
 
