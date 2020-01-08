@@ -25,15 +25,20 @@ Generally, the development of string theory has shown that its [[worldsheet]] is
 
 * [[number theory and physics]]
 
+* [[p-adic string theory]]
+
+* [[p-adic AdS/CFT correspondence]]
+
+* [[arithmetic Chern-Simons theory]]
+
+
 * [[p-adic geometry]]
 
 * [[p-adic homotopy]]
 
 * [[p-adic cohomology]]
 
-* [[p-adic string theory]]
 
-* [[p-adic AdS-CFT]]
 
 ## References
 
@@ -60,7 +65,7 @@ Reviews:
 
 Further development
 
-* An Huang, Dan Mao, Bogdan Stoica, _From p-adic to Archimedean Physics: Renormalization Group Flow and Berkovich Spaces_ ([arXiv:2001.01725](https://arxiv.org/abs/2001.01725))
+* An Huang, Dan Mao, [[Bogdan Stoica]], _From p-adic to Archimedean Physics: Renormalization Group Flow and Berkovich Spaces_ ([arXiv:2001.01725](https://arxiv.org/abs/2001.01725))
 
 
 ### String theory
