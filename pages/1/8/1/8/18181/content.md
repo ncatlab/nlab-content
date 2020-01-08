@@ -62,11 +62,12 @@ Actually, all three possibilities discussed by Kant appear in modern mathematics
 
 #### __Second Section.__ On Time.
 
+"Time is nothing other than the form of inner sense, i.e., of the intuition of our self and our inner state." ([A33](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_033.png)/B50)
+
 ### __Second Part.__ Transcendental Logic
 
 
-#### __Introduction.__ The Idea of a Transcendental Logic. [General Logic and Transcendental Logic]
-
+#### __Introduction.__ The Idea of a Transcendental Logic. 
 
 In the development of Kant's distinction between general logic and transcendental logic Kant's _[[Attempt to Introduce the Concept of Negative Quantities into Philosophy]]_ from 1763 constitutes a crucial step.
 
@@ -78,13 +79,13 @@ In the development of Kant's distinction between general logic and transcendenta
 
     Secondly, he divides the science of logic into general logic (synonymous with elementary logic) which contains the necessary rules of thinking, regardless of its object and particular logic which contains the necessary rules of thinking about certain kinds of objects. Such a set of rules is called "organon of this or that science". In modern language this is the [[methodology]] of a [[science|scientific discipline]]. The termini defined are “general logic”, and “particular logic” ([A52](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_052.png)/B76).
 
-    General logic is then again subdivided into pure logic, which "abstract[s] from all empirical conditions under which our understanding is exercised", and applied general logic, which deals with the conditions of thinking “under the subjective empirical conditions that psychology teaches us”, which are only given a posteriori, and which can all be given only empirically. The termini defined are “general but pure logic” and “general but empirical logic” ([A53](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_053.png)-5/B77-9).
+    General logic is then again subdivided into pure logic---which "abstract[s] from all empirical conditions under which our understanding is exercised"---and applied logic---which deals with the conditions of thinking “under the subjective empirical conditions that psychology teaches us”, which are only given a posteriori, and which can all be given only empirically. The termini defined are “general but pure logic” and “general but empirical logic” ([A53](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_053.png)-5/B77-9).
 
 1. __"On transcendental logic." ([A55](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_055.png)-7/B79-82)__
 
-    In this paragraph, the concept of transcendental logic is established, contrasting it to pure general logic. Pure general logic abstracts from all contents of cognition [Erkenntnis] and is only concerned with the form of thinking in general. Transcendental logic contains the “rules of pure thinking of an object” ([A55](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_055.png)/B80).
+    In this paragraph, the concept of transcendental logic as a particular kind of applied logic is established, contrasting it to pure logic. Pure logic abstracts from all contents of cognition [Erkenntnis] and is only concerned with the form of thinking in general. Transcendental logic contains the “rules of pure thinking of an object” ([A55](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_055.png)/B80).
     Kant then notes the difference between cognition a priori and transcendental cognition. The former is merely any cognition obtained without recourse to intuition. The latter is cognition concerning the possibility or use of cognition a priori. ([A56](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_056.png)-7/B80-1) 
-    Hence, transcendental aesthetics would describe the pure forms of intuition, which can then be drawn on to justify eg. the possibility of geometric cognition a priori. Analogously there would need to be a transcendental logic, which would be __the science of the possibilities and rules of thinking about objects a priori__. ([A56](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_056.png)-7/B81-2)
+    Hence, transcendental aesthetics would describe the pure forms of intuition, which can then be drawn on to justify e.g. the possibility of geometric cognition a priori. Analogously there would need to be a transcendental logic, which would be __the science of the possibilities and rules of thinking about objects a priori__. ([A56](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_056.png)-7/B81-2)
 
 1. __"On the division of general logic into analytic and dialectic." 
 ([A58](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_058.png)-62/B82-6)__
