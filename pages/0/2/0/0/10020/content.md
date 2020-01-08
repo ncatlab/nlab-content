@@ -36,6 +36,8 @@ A general argument that in sectors of the [[AdS-CFT correspondence]] the [[confo
 
 ## Related concepts
 
+* [[p-adic AdS/CFT correspondence]]
+
 * [[3d quantum gravity]]
 
 * [[BTZ black hole]]
