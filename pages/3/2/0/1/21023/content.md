@@ -45,8 +45,13 @@ Here the [[arithmetic geometry]]-version of the [[bulk]] [[AdS spacetime]] is id
 
 * [[Matthew Heydeman]], [[Matilde Marcolli]], [[Ingmar Saberi]], [[Bogdan Stoica]], _Tensor networks, $p$-adic fields, and algebraic curves: arithmetic and the $AdS_3/CFT_2$ correspondence_ ([arXiv:1605.07639](https://arxiv.org/abs/1605.07639))
 
-
 * [[Steven Gubser]], Sarthak Parikh, _Geodesic bulk diagrams on the Bruhat-Tits tree_ ([arXiv:1704.01149](https://arxiv.org/abs/1704.01149))
+
+* Arpan Bhattacharyya, Ling-Yan Hung, Yang Lei, Wei Li, _Tensor network and (p-adic) AdS/CFT_, ([arXiv:1703.05445](https://arxiv.org/abs/1703.05445))
+
+An expository account is given in
+
+* [[Ingmar Saberi]], _Holography and local fields_, ([arXiv:1801.04942](https://arxiv.org/abs/1801.04942))
 
 
 
