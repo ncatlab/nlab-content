@@ -13,7 +13,12 @@ She was a recipient of the Sonja Kovalevskaja prize and worked for several years
 
 On relation of [[AdS3/CFT2]] to [[hyperbolic geometry]] and [[Arakelov geometry]] of [[algebraic curves]]:
 
-* [[Yuri Manin]], [[Matilde Marcolli]], _Holography principle and arithmetic of algebraic curves_, Adv. Theor. Math. Phys. 5 (2002) 617-650 ([arXiv:hep-th/0201036](https://arxiv.org/abs/hep-th/0201036)
+* [[Yuri Manin]], [[Matilde Marcolli]], _Holography principle and arithmetic of algebraic curves_, Adv. Theor. Math. Phys. 5 (2002) 617-650 ([arXiv:hep-th/0201036](https://arxiv.org/abs/hep-th/0201036))
+
+On the [[p-adic AdS/CFT correspondence]] and [[tensor networks]]:
+
+* [[Matthew Heydeman]], [[Matilde Marcolli]], [[Ingmar Saberi]], [[Bogdan Stoica]], _Tensor networks, $p$-adic fields, and algebraic curves: arithmetic and the $AdS_3/CFT_2$ correspondence_ ([arXiv:1605.07639](https://arxiv.org/abs/1605.07639))
+
 
 category: people, noncommutative geometry
 
