@@ -29,7 +29,7 @@ Roughly, it is a unified construction of various $p$-adic cohomology theories, i
 
 ## References
 
-* [[Bhargav Bhatt]], _Prismatic cohomology_, course at U. Michigan, 2018 [lecture notes](http://www-personal.umich.edu/~bhattb/teaching/prismatic-columbia/)
+* [[Bhargav Bhatt]], _Prismatic cohomology_, course at Columbia University, 2018 [lecture notes](http://www-personal.umich.edu/~bhattb/teaching/prismatic-columbia/)
 
 * [[Bhargav Bhatt]], [[Peter Scholze]], _Prisms and Prismatic Cohomology_, preprint (2019) arXiv:[1905.08229](https://arxiv.org/abs/1905.08229)
 
