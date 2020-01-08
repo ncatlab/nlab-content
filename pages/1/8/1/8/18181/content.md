@@ -123,6 +123,15 @@ $ \, $
 
 ###### _First Chapter._ On the Transcendental Clue [Leitfaden] to the Discovery of all Pure Concepts of the Understanding
 
+Table of judgements
+
+|        |                   |               |
+|--------|-------------------|---------------|
+|  $\,$  | __Quantity of judgments__ <br/> Universal <br/> Particular <br/>  Singular | $\,$|
+| $\,$ | $\,$ | $\,$|
+
+
+
 ###### _Second Chapter._ On the Deduction of the Pure Concepts of the Understanding ("Transcendental Deduction")
 
 ###### {#deductionA}_A edition:_ Transcendental Deduction
