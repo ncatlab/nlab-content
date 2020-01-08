@@ -359,7 +359,7 @@ A review is
 
 See also
 
-* [Oxford Holography Group](http://www-thphys.physics.ox.ac.uk/people/AndreiStarinets/oxford_holography_group/holography_seminar/group_members.html), _[Background materian for holography](http://www-thphys.physics.ox.ac.uk/people/AndreiStarinets/oxford_holography_group/holography_seminar/material.html)_
+* [Oxford Holography Group](http://www-thphys.physics.ox.ac.uk/people/AndreiStarinets/oxford_holography_group/holography_seminar/group_members.html), _[Background material for holography](http://www-thphys.physics.ox.ac.uk/people/AndreiStarinets/oxford_holography_group/holography_seminar/material.html)_
 
 ### AdS/CFT
 
