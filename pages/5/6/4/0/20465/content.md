@@ -71,6 +71,9 @@ Original articles include
 
 * [[Clay Cordova]], [[Daniel Jafferis]], _Complex Chern-Simons from M5-branes on the Squashed Three-Sphere_ ([arXiv:1305.2891](https://arxiv.org/abs/1305.2891))
 
+* [[Du Pei]], Ke Ye, _A 3d-3d appetizer_, JHEP 11 (2016) 008 ([arXiv:1503.04809](https://arxiv.org/abs/1503.04809))
+
+
 * Sungbong Chun, [[Sergei Gukov]], Sunghyuk Park, Nikita Sopenko, _3d-3d correspondence for mapping tori_ ([arxiv:1911.08456](https://arxiv.org/abs/1911.08456))
 
 * Hee-Joong Chung, _Index for a Model of 3d-3d Correspondence for Plumbed 3-Manifolds_ ([arXiv:1912.13486](https://arxiv.org/abs/1912.13486))
