@@ -197,7 +197,7 @@ General discussion includes
 
   (in [[D'Auria-Fre formulation of supergravity]])
 
-* W. D. Linch III, Markus A. Luty, J. Phillips, _Five dimensional supergravity in $N = 1$ superspace_, Phys.Rev.D68:025008,2003 ([arXiv:hep-th/0209060](https://arxiv.org/abs/hep-th/0209060))
+* [[William Linch III]], Markus A. Luty, J. Phillips, _Five dimensional supergravity in $N = 1$ superspace_, Phys.Rev.D68:025008,2003 ([arXiv:hep-th/0209060](https://arxiv.org/abs/hep-th/0209060))
 
 * {#GGHPR02} [[Jerome Gauntlett]], [[Jan Gutowski]], [[Christopher Hull]], Stathis Pakis, [[Harvey Reall]], _All supersymmetric solutions of minimal supergravity in five dimensions_, Class.Quant.Grav. 20 (2003) 4587-4634 ([arXiv:hep-th/0209114](http://arxiv.org/abs/hep-th/0209114))
 
@@ -205,7 +205,7 @@ General discussion includes
 
 * [[Eric Bergshoeff]], Sorin Cucu, Tim de Wit, Jos Gheerardyn, Stefan Vandoren, [[Antoine Van Proeyen]], _$N=2$ supergravity in five dimensions revisited_ ([arXiv:hep-th/0403045](http://arxiv.org/abs/hep-th/0403045))
 
-* [[Katrin Becker]], [[Melanie Becker]], Daniel Butter, William D. Linch III, Stephen Randall, _Five-dimensional Supergravity in N = 1/2 Superspace_ ([arXiv:1909.09208](https://arxiv.org/abs/1909.09208))
+* [[Katrin Becker]], [[Melanie Becker]], Daniel Butter, [[William Linch III]], Stephen Randall, _Five-dimensional Supergravity in N = 1/2 Superspace_ ([arXiv:1909.09208](https://arxiv.org/abs/1909.09208))
 
 
 ### Via M-theory on Calabi-Yau 3-folds
