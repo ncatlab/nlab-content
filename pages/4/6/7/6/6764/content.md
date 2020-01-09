@@ -1,3 +1,4 @@
+_The concept of a $\delta$-ring appearing in this article is distinct from that appearing in [[arithmetic differential geometry]]._
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
