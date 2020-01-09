@@ -194,4 +194,7 @@ with h holes to be replaced by a closed Riemann surface of the same genus g and 
 
 * {#Marino04} [[Marcos Marino]], _Chern-Simons Theory and Topological Strings_, Rev. Mod. Phys. 77:675-720, 2005 ([arXiv:hep-th/0406005](https://arxiv.org/abs/hep-th/0406005))
 
+[[!redirects 't Hooft double line notations]]
 
+[[!redirects 't Hooft double line construction]]
+[[!redirects 't Hooft double line constructions]]
