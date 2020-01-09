@@ -31,9 +31,22 @@ One obtains Sullivan chord diagrams with $p$ disjoint embedded circles from [[ho
 
 ## References
 
+### In string topology
+
+In [[string topology]]:
+
 * [[Moira Chas]], [[Dennis Sullivan]], _Closed string operators in topology leading to Lie bialgebras and higher string algebra_,  In: O.A. Laudal , R. Piene (eds.) _The Legacy of Niels Henrik Abel_, Springer 2004 ([arXiv:math/0212358](https://arxiv.org/abs/math/0212358), [doi:10.1007/978-3-642-18908-1_27](https://doi.org/10.1007/978-3-642-18908-1_27))
 
 * [[Ralph Cohen]], [[Veronique Godin]], _[[A Polarized View of String Topology]]_, In: [[Graeme Segal]], [[Ulrike Tillmann]] (eds.) _Topology, Geometry and Quantum Field Theory_, LMS, Lecture Notes Series 308, 2004 ([arXiv:math/0303003](https://arxiv.org/abs/math/0303003), [doi:10.1017/CBO9780511526398.008](https://doi.org/10.1017/CBO9780511526398.008))
+
+* [[Ralph Cohen]], [[Alexander Voronov]], around Def. 3.2.2 in
+_Notes on string topology_ ([arXiv:math/0503625](https://arxiv.org/abs/math/0503625))
+
+
+
+### Action on Hochschild homology
+
+Action on [[Hochschild homology]]:
 
 * [[Thomas Tradler]], [[Mahmoud Zeinalian]], _On the Cyclic Deligne Conjecture_, Journal of Pure and Applied Algebra, Volume 204, Issue 2, 1 February 2006, Pages 280-299 ([arXiv:math/0404218](https://arxiv.org/abs/math/0404218), [doi:10.1016/j.jpaa.2005.04.009](https://doi.org/10.1016/j.jpaa.2005.04.009))
 
