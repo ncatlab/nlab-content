@@ -33,19 +33,19 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[length 
 
   * [[hydrogen line]]
 
-* [[FRW model]], [[standard model of cosmology]]
+* [[big bang]], [[steady state model of cosmology]]
 
-* [[inhomogeneous cosmology]]
+* [[FRW model]], [[standard model of cosmology]]
 
 * [[structure formation]]
 
-* [[cosmological constant]]
+* [[cosmological constant]], [[dark energy]]
 
-* [[big bang]], [[steady state model of cosmology]]
+  * [[inhomogeneous cosmology]]
+
+  * [[Witten's Dark Fantasy]]
 
 * [[dark matter]], [[fuzzy dark matter]]
-
-* [[dark energy]], [[cosmological constant]],
 
 * [[cosmic inflation]]
 
