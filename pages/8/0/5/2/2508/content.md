@@ -60,7 +60,7 @@ The interpretation of the D'Auria-Fr&#233;-formalism in terms of [[∞-Lie algeb
 
 Apart from that the first vague mention of the observation that the "FDA"-formalism for supergravity is about higher categorical Lie algebras (as far as [[Urs Schreiber|I]] am aware, would be grateful for further references) is page 2 of
 
-* [[Pietro Fré]], [[Pietro Antonio Grassi]], _Free differential algebras, rheonomy and pure spinors_ ([arXiv](http://arxiv.org/abs/0801.3076))
+* [[Pietro Fré]], [[Pietro Antonio Grassi]], _Free differential algebras, rheonomy and pure spinors_ ([arXiv:0801.3076](http://arxiv.org/abs/0801.3076))
 
 An attempt at a comprehensive discussion of the formalism in the context of [[cohesive (∞,1)-topos]]-theory for 
 [[smooth super ∞-groupoid]]s is in the last section of 
@@ -71,11 +71,10 @@ Here are some more references:
 
 * [[Pietro Fré]], _M-theory FDA, twisted tori and Chevalley cohomology_ ([arXiv] (http://www.arxiv.org/abs/hep-th/0510068))
 
-* [[Pietro Fré]], Pietro Antonio Grassi,
+* [[Pietro Fré]], [[Pietro Antonio Grassi]],
 _Pure spinors, free differential algebras, and the supermembrane_ ([arXiv:hep-th/0606171] (http://www.arxiv.org/abs/hep-th/0606171))
 
-* [[Pietro Fré]] and Pietro Antonio Grassi, _Free differential algebras, rheonomy, and pure spinors_ 
-([arXiv:0801.3076] (http://www.arxiv.org/abs/0801.3076))
+* [[Pietro Fré]], [[Pietro Antonio Grassi]], _Free differential algebras, rheonomy, and pure spinors_ ([arXiv:0801.3076](http://www.arxiv.org/abs/0801.3076))
 
 
 category: reference
