@@ -17,13 +17,13 @@ Via their [[worldline formalism|fattening]] to [[ribbon graphs]] and hence to [[
 ### Relation to horizontal chord diagrams
  {#RelationToHorizontalChordDiagrams}
 
-One obtains Sullivan chord diagrams with $p$ disjoint embedded circles from [[horizontal chord diagrams]] by closing up strands after acting with a [[permutation]] with $p$ cycles ([[orbits]])
+One obtains Sullivan chord diagrams with $p$ disjoint embedded circles from [[horizontal chord diagrams]] by closing up strands after acting with a [[permutation]] with $p$ cycles ($p$ [[orbits]])
 
 <center>
-<img src="https://ncatlab.org/nlab/files/ClosingHorizontalChordsToSullivanChordsII.jpg" width="800">
+<img src="https://ncatlab.org/nlab/files/ClosingHorizontalChordsToSullivanChordsIII.jpg" width="800">
 </center>
 
-> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+> from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 ## Related concepts
 
