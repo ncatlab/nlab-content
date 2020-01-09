@@ -424,4 +424,8 @@ In fact, much of the broad structure of M-theory and its relation to the various
 
 By passing to [[automorphism]] algebras, this reproduces the polyvector extensions of the [[super Poincaré Lie algebra]], which enter the traditional discussion of M-theory, such as the [[M-theory super Lie algebra]] (which arises as the symmetries of the [[M5-brane]] [[schreiber:∞-Wess-Zumino-Witten theory]]). 
 
+### Activity
+
+* Conference series _[[M-Theory and Mathematics]]_
+
 [[!redirects non-perturbative string theory]]
