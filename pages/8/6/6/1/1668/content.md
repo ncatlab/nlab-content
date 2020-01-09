@@ -919,7 +919,7 @@ T(T A \times T B) & \stackrel{T\alpha}{\to} & T T(A \times B) & \\
 
 ([Seal 12, section 2.2 and theorem 2.5.5](#Seal12))
 
-This construction carries over to the wider context of monoidal monads. 
+This construction carries over to the wider context of monoidal monads, see [[tensor product of algebras over a commutative monad]].
 
 ## References
 
