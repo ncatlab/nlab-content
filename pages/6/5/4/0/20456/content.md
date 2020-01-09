@@ -23,9 +23,14 @@
 
 ## Idea
 
-A type of [[cohomology]] attached to prisms, which are [[delta-ring|$\delta$-rings]] equipped with an ideal satisfying some conditions. (The pair $(A, I)$ is a prism when $I$ is an [[ideal]] of a $\delta$-ring $A$ defining a [[Cartier divisor]] on its [[spectrum of a commutative ring|spectrum]] $Spec(A)$ such that $A$ is derived $(p,I)$-complete, and $p \in I + \phi(I)A$.)
+A type of [[cohomology]] attached to prisms, which are $\delta$-rings equipped with an ideal satisfying some conditions. (The pair $(A, I)$ is a prism when $I$ is an [[ideal]] of a $\delta$-ring $A$ defining a [[Cartier divisor]] on its [[spectrum of a commutative ring|spectrum]] $Spec(A)$ such that $A$ is derived $(p,I)$-complete, and $p \in I + \phi(I)A$.)
 
 Roughly, it is a unified construction of various $p$-adic cohomology theories, including [[étale cohomology]], [[de Rham cohomology]] and [[crystalline cohomology]], as well as the so far conjectural $q$-de Rham cohomology of [[Peter Scholze]].
+
+## Related entries
+
+* [[arithmetic differential geometry]]
+* [[Borger's absolute geometry]]
 
 ## References
 
