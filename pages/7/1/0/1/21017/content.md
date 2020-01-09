@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
 =--
 =--
 
@@ -31,7 +35,7 @@ What is called _’t Hooft double line notation_ (following [’t Hooft 74](#tHo
 
 
 {#MetricContractionOfFundamentalLieAction} 2)  replacing any remaining internal gluon line together with the [[quark]] [[interaction]] [[vertices]] at its ends (equivalently: an [[M2-brane 3-algebra]] [[tensor]])
-by (a [[linear combination]] of) _double_ [[quark]]-lines , according to the following rules:
+by (a [[linear combination]] of) _double_ [[quark]]-lines, according to the following rules:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/MetricActionContraction.jpg" width="600">
@@ -80,8 +84,11 @@ Using this on the reduction of internal gluon vertices by the [[Jacobi identity]
 
 This gives [[open string]] [[worldsheets]]. Regarding them as such in the case of [[Chern-Simons theory]] exhibits [[Chern-Simons theory as an open topological string theory]] ([Witten 92, see Figures 1 & 2](#Witten92)) even before passing to the [[large N limit]].
 
-For [[AdS/CFT duality]] relating [[super Yang-Mills theory]] to _[[closed strings|closed]]_ [[string theory]] and open to _closed_ [[topological string theory]] there is an operation of gluing in [[faces]] to turn these [[open strings]] into [[closed string]] [[worldsheets]] ([Gopakumar-Vafa 98](#GopakumarVafa98), see [Marino 04, Section III, p. 14](#Marino04) for a clear statement).
-Here [[open/closed string duality]] plays a subtle role in interpreting the [['t Hooft double line notation]] of [[gauge theory]] [[Feynman diagrams]] in the [[large N limit]] alternatively as [[open string]] or as [[closed string]] [[worldsheets]], see also, [Gaiotto-Rastelli 03](#GaiottoRastelli03), [Gopakumar 04](#Gopakumar04).
+For [[AdS/CFT duality]] relating [[super Yang-Mills theory]] to _[[closed strings|closed]]_ [[string theory]] and open to _closed_ [[topological string theory]] ([Gopakumar-Vafa 98](#GopakumarVafa98)) there is an operation of gluing in [[faces]] to turn these [[open strings]] into [[closed string]] [[worldsheets]], see
+[Gaiotto-Rastelli 03, Section 1.1](#GaiottoRastelli03)
+and see [Marino 04, Section III, p. 14](#Marino04) for a clear statement).
+
+Here [[open/closed string duality]] plays a subtle role in interpreting the [['t Hooft double line notation]] of [[gauge theory]] [[Feynman diagrams]] in the [[large N limit]] alternatively as [[open string]] or as [[closed string]] [[worldsheets]], see also [Gopakumar 04](#Gopakumar04).
 
 ### As a surface-valued weight system
 
@@ -92,6 +99,8 @@ After averaging over the $n!$ permutations of the ordering of the $n$ external v
 </center>
 
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
+This means that [[stringy weight systems]] pull back to ordinary [[weight systems]] along this map, corresponding to taking their [[worldline formalism|point-particle limit]]. Under this map [[stringy weight systems span classical Lie algebra weight systems]].
 
 
 
