@@ -180,6 +180,16 @@ $$
 
 ([Bar-Natan 96, p. 3](#BarNatan96))
 
+### Trace to Sullivan chord diagrams
+
+More generally, one obtains [[Sullivan chord diagrams]] with $p$ disjoint embedded circles from [[horizontal chord diagrams]] by closing up strands after acting with a [[permutation]] with $p$ cycles ($p$ [[orbits]])
+
+<center>
+<img src="https://ncatlab.org/nlab/files/ClosingHorizontalChordsToSullivanChordsIII.jpg" width="800">
+</center>
+
+> from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
 ## Related concepts
 
 [[!include chord diagrams and weight systems -- table]]
