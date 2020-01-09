@@ -134,6 +134,13 @@ which completes the proof.
 =-- 
 
 
+## Tensor product of algebras
+
+In many situations, [[algebra over a monad|algebras]] over a commutative monad are canonically equipped with a [[tensor product]] analogous to the [[tensor product of modules]] over a ring. 
+For the details, see [[tensor product of algebras over a commutative monad]]. 
+
+
+
 ## References
 
 * {#Seal12} Gavin J. Seal, _Tensors, monads and actions_ ([arXiv:1205.0101](http://arxiv.org/abs/1205.0101))
