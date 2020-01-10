@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Graph theory
++-- {: .hide}
+[[!include graph theory - contents]]
+=--
 #### Knot theory
 +-- {: .hide}
 [[!include knot theory - contents]]
