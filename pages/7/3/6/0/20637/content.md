@@ -84,6 +84,7 @@ The analog of the [[Weyl group]] for $G_3$ is $\mathbb{Z}/2 \times GL(3,\mathbb{
 
 
 ### Homotopy coset space $G_3/Spin(7)$
+ {#HomotopyCosetSpace}
 
 $G_3$ receives a homomorphism from [[Spin(7)]]. The [[homotopy fiber]] of the corresponding [[delooping]] map is a homotopy-[[coset space]] 
 
@@ -91,7 +92,7 @@ $$
   G_3/Spin(7)
 $$
 
-The [[ordinary cohomology]] with [[coefficients]] in the [[prime field]] $\mathbb{F}_2$ of this space has [[Euler characteristic]] 7 ([Notbohm 03, 2.3 Remark](#Notbohm), [Aguad&eacute; 10, p. 4133](#Aguade10)), equal to the index of the respective [[Weyl groups]]. (Note this corrects an error in ([Dwyer-Wilkerson 93, Theorem 1.8](#DwyerWilkerson93)).)
+The [[ordinary cohomology]] with [[coefficients]] in the [[prime field]] $\mathbb{F}_2$ of this space has [[Euler characteristic]] 7 ([Notbohm 03, Remark 2.3](#Notbohm), [Aguad&eacute; 10, p. 4133](#Aguade10)), equal to the index of the respective [[Weyl groups]]. (Note this corrects an error in ([Dwyer-Wilkerson 93, Theorem 1.8](#DwyerWilkerson93)).)
 
 
 ### Relation to the Conway group, $Co_3$
