@@ -121,6 +121,11 @@ Relation to actual [[quantum gravity]] induced by quantized maps from [[spacetim
 
 * {#Connes17} [[Alain Connes]], section 4 of _Geometry and the Quantum_, in _Foundations of Mathematics and Physics One Century After Hilbert_, Springer 2018. 159-196 ([arXiv:1703.02470](https://arxiv.org/abs/1703.02470), [doi:10.1007/978-3-319-64813-2](https://www.springer.com/gp/book/9783319648125))
 
+With [[spin^c structure]]:
+
+* Arkadiusz Bochniak, Andrzej Sitarz, _A spectral geometry for the Standard Model without the fermion doubling_ ([arXiv:2001.02902](https://arxiv.org/abs/2001.02902))
+
+
 [[!redirects Connes-Lott-Chamseddine-Barrett models]]
 
 [[!redirects Connes-Lott-Chamseddine model]]
