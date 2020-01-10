@@ -91,15 +91,8 @@ $$
   G_3/Spin(7)
 $$
 
-The [[ordinary cohomology]] with [[coefficients]] in the [[prime field]] $\mathbb{F}_2$ of this space
+The [[ordinary cohomology]] with [[coefficients]] in the [[prime field]] $\mathbb{F}_2$ of this space has [[Euler characteristic]] 7 ([Notbohm 03, 2.3 Remark](#Notbohm), [Aguad&eacute; 10, p. 4133](#Aguade10)), equal to the index of the respective [[Weyl groups]]. (Note this corrects an error in ([Dwyer-Wilkerson 93, Theorem 1.8](#DwyerWilkerson93)).)
 
-1. is concentrated in even degrees,
-
-1. has [[Euler characteristic]] 24.
-
-([Dwyer-Wilkerson 93, Theorem 1.8](#DwyerWilkerson93))
-
-> {#EulerCharIssue} maybe this contradicts [Aguad&eacute; 10, p. 4133](#Aguade10), see discussion [here](https://nforum.ncatlab.org/discussion/10257/dwyerwilkerson-hspace/?Focus=82259#Comment_82259)
 
 ### Relation to the Conway group, $Co_3$
 {#RelationtoCo3}
