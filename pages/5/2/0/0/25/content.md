@@ -61,6 +61,10 @@ But for a more precise statement one needs a more conceptual way to think of Lie
 [[Urs Schreiber|Urs]]: good point. We should say this at the beginning and split the list of examples in two sorts 
 =--
 
++--{: .query}
+[[Theresa May]]: Could a [[quiver]] be said to be a horizontal categorification of a [[set]], even though quivers are not categories?
+=--
+
 ## Further discussion
 
 Related $n$-Caf&#233;-discussion is in 
