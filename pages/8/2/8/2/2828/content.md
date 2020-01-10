@@ -28,7 +28,24 @@ structures in profinite homotopy theory,
 
 ## Selected writings
 
+On [[localization of a space|localization in homotopy theory]]:
+
 * Dennis Sullivan, [Geometric Topology: Localization, Periodicity, and Galois Symmetry (The 1970 MIT notes)](http://www.maths.ed.ac.uk/~aar/books/gtop.pdf)
+
+
+Introducing [[string topology]]:
+
+*  {#ChasSullivan} [[Moira Chas]], [[Dennis Sullivan]], _String topology_, Ann. Math. [math.GT/9911159](http://arxiv.org/abs/math/9911159)
+
+*  [[Ralph Cohen]], John R. Klein, [[Dennis Sullivan]], _The homotopy invariance of the string topology loop product and string bracket_, J. of Topology 2008 __1__(2):391-408; [doi](http://dx.doi.org/10.1112/jtopol/jtn001) 
+
+
+Exposition of the perspective of regarding [[string topology]]-operations as the [[TQFT]] of a [[topological string]] [[sigma model]]:
+
+* [[Dennis Sullivan]], _Sigma models and string topology_, in: Mikhail Lyubich, Leon Takhtajan (eds.), _Graphs and Patterns in Mathematics and Theoretical Physics_, Proc. Symp. Pure Math. 73 (2005) ([doi:10.1090/pspum/073](https://doi.org/10.1090/pspum/073), [spire:1697823](http://inspirehep.net/record/1697823))
+ 
+* [[Dennis Sullivan]], _Open and closed string field theory interpreted in classical algebraic topology_, chapter 11 in: [[Ulrike Tillmann]] (ed.) _Topology, Geometry and Quantum Field Theory_, Cambridge University Press (2005) ([doi:10.1017/CBO9780511526398.014](https://doi.org/10.1017/CBO9780511526398.014))
+
 
 On [[homotopy theory]] and the [[Adams conjecture]]:
 
