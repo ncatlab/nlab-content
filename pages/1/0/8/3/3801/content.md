@@ -211,9 +211,7 @@ The original references include the following:
 
 * [[Ralph Cohen]], [[Alexander Voronov]], _Notes on string topology_, [math.GT/05036259](http://arxiv.org/abs/math/0503625), 95 pp. published as a part of R. Cohen, [[Kathryn Hess|K. Hess]], A. Voronov, _String topology and cyclic homology_, CRM Barcelona courseware, Springer, [description](http://www.springer.com/birkhauser/mathematics/book/978-3-7643-2182-6), [doi](http://dx.doi.org/10.1007/3-7643-7388-1), [pdf](http://gen.lib.rus.ec/get?md5=adde9464705ede0fea6b435edb58fbe7)
 
-* [[Dennis Sullivan]], _Open and closed string field theory interpreted in classical algebraic topology_,  Topology, geometry, and quantum field theory, 344&#8211;357. London Math. Soc. Lec. Notes __308__, Cambridge Univ. Press. 2004.
-
-*  [[Ralph Cohen]], John R. Klein, Dennis Sullivan, _The homotopy invariance of the string topology loop product and string bracket_, J. of Topology 2008 __1__(2):391-408; [doi](http://dx.doi.org/10.1112/jtopol/jtn001) 
+*  [[Ralph Cohen]], John R. Klein, [[Dennis Sullivan]], _The homotopy invariance of the string topology loop product and string bracket_, J. of Topology 2008 __1__(2):391-408; [doi](http://dx.doi.org/10.1112/jtopol/jtn001) 
 
 * [[Ralph Cohen]], _Homotopy and geometric perspectives on string topology_, [pdf](http://math.stanford.edu/~ralph/skyesummary.pdf)
 
@@ -242,7 +240,12 @@ A detailed discussion and generalization to the open-closed [[HQFT]] in the pres
 The generalization to multiple [[D-brane]]s is discussed in
 
 * {#Kupers} [[Sander Kupers]], _String topology operations_ MS thesis (2011) ([pdf](http://math.stanford.edu/~kupers/thesis7thjune2011.pdf))
+
+Exposition of the perspective of regarding [[string topology]]-operations as the [[TQFT]] of a [[topological string]] [[sigma model]]:
+
+* [[Dennis Sullivan]], _Sigma models and string topology_, in: Mikhail Lyubich, Leon Takhtajan (eds.), _Graphs and Patterns in Mathematics and Theoretical Physics_, Proc. Symp. Pure Math. 73 (2005) ([doi:10.1090/pspum/073](https://doi.org/10.1090/pspum/073), [spire:1697823](http://inspirehep.net/record/1697823))
  
+* [[Dennis Sullivan]], _Open and closed string field theory interpreted in classical algebraic topology_, chapter 11 in: [[Ulrike Tillmann]] (ed.) _Topology, Geometry and Quantum Field Theory_, Cambridge University Press (2005) ([doi:10.1017/CBO9780511526398.014](https://doi.org/10.1017/CBO9780511526398.014))
 
 For target space a [[classifying space]] of a [[finite group]] or [[compact space|compact]] [[Lie group]] this is discussed in
 
