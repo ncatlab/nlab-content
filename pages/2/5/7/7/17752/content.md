@@ -8,7 +8,7 @@ More generally, a form of the theorem holds in any [[homological category]].
 
 ## References
 
-* [[David Speyer]], _The Jordan-H&#246;lder theorem_ ([pdf](http://www.math.lsa.umich.edu/~speyer/594/JordanHolder.pdf))
+* [[David Speyer]], _The Jordan-H&#246;lder theorem_ ([pdf](http://www.math.lsa.umich.edu/~speyer/594_2013/JordanHolder.pdf))
 
 [[!redirects Jordan-Holder theorem]]
 
