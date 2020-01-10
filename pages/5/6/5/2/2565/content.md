@@ -76,3 +76,10 @@ A treatment of collective statistical inference as resulting in the partition fu
 
 * [[Jonathan Heckman]], _Statistical Inference and String Theory_, ([arXiv:1305.3621](https://arxiv.org/abs/1305.3621))
 
+More in the context of [[quantum field theory]]:
+
+
+* Johanna Erdmenger, Kevin T. Grosvenor, Ro Jefferson, _Information geometry in quantum field theory: lessons from simple examples_ ([arXiv:2001.02683](https://arxiv.org/abs/2001.02683))
+
+
+
