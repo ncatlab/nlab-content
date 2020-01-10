@@ -51,7 +51,7 @@ If $C$ is $V$-enriched with copowers, e.g. if $V=C$, then $V$ acts on $C$. In th
 
 * [[Max Kelly]] and [[John Power]], *Adjunctions whose counits are coequalizers and presentations of finitary enriched monads*, Journal of Pure and Applied Algebra vol 89, 1993. ([pdf](https://core.ac.uk/download/pdf/82761050.pdf)).
 
-* [[John Power]] _Enriched Lawvere theories_, ([tac](http://www.tac.mta.ca/tac/volumes/6/n7/6-07abs.html))
+* [[John Power]], _Enriched Lawvere theories_, ([tac](http://www.tac.mta.ca/tac/volumes/6/n7/6-07abs.html))
 
 * [[Eduardo Dubuc]], _Kan Extensions in Enriched Category Theory_, Springer, 1970.
 
@@ -63,6 +63,8 @@ If $C$ is $V$-enriched with copowers, e.g. if $V=C$, then $V$ acts on $C$. In th
 * [[additive monad]]
 
 * [[monad (in computer science)]]
+
+* [[tensorial strength]]
 
 * [[enriched adjunction]]
 
