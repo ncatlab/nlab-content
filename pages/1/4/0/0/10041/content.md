@@ -94,7 +94,7 @@ Formulation in terms of an equivalence between sheaves and cosheaves is in
 
 * [[Justin Curry]], _Sheaves, Cosheaves and Applications_ ([arXiv:1303.3255](http://arxiv.org/abs/1303.3255))
 
-* [[Jacob Lurie]], section 5.3.5 of _[[Higher Algebra]]_
+* [[Jacob Lurie]], section 5.5.5 of _[[Higher Algebra]]_
 
 Discussion in the context of prestacks and diagrams of schemes
 
