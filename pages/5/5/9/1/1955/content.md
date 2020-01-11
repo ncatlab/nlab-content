@@ -233,7 +233,7 @@ $$
   \,.
 $$
 
-Under mild conditions the anaous statement is true for higher K&#228;hler differentials and higher Hochschild homology: this is the [[Hochschild-Kostant-Rosenberg theorem]].
+Under mild conditions the analogous statement is true for higher K&#228;hler differentials and higher Hochschild homology: this is the [[Hochschild-Kostant-Rosenberg theorem]].
 
 
 ### Over smooth rings regarded as ordinary rings {#SmoothOrPlain}
