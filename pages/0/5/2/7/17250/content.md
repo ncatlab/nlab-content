@@ -26,7 +26,7 @@
 
 An **infinite judgement**, also called a limitative or indeterminate judgement, is a type of [[judgment|judgement]] in traditional logic that differs from a positive judgement by containing a negation operator and from a negative judgement by negating only the predicate term.
 
-Infinite judgements enjoy a rather controversial status in traditional logic but have gained importance by being elevated to third position among the qualities of judgement in the table of judgement forms in Kant's _Kritik der reinen Vernunft_ (1781). 
+Infinite judgements enjoy a rather controversial status in traditional logic but have gained importance by being elevated to third position among the qualities of judgement in the table of judgement forms in Kant's [[Critique of pure reason|_Kritik der reinen Vernunft_]](1781). 
 
 ## Preliminaries
 
@@ -67,17 +67,19 @@ solches Urtheil aber, wo sie nicht die copula afficirt, sondern das praedicat, w
 
 Kant ([1966](#KantXXIV2),pp.930-31).
 
-Interestingly in contrast with _KdrV_ or the _Vienna-logic_, the later _J&#228;sche-Logik_ from 1800 seems to pair infinite judgments with negative judgments:
+The _J&#228;sche-Logik_ from 1800 points out that the semantic difference between infinite and negative judgments vanishes in common or "formal" logic where the [[excluded middle|tertium non datur]] is assumed:
 
 >Nach dem Principium der Ausschlie&#223;ung jedes Dritten (exclusi tertii) ist die Sph&#228;re eines Begriffs relativ auf eine andre entweder ausschlie&#223;end oder einschlie&#223;end. - Da nun die Logik blo&#223; mit der Form des Urteils, nicht mit den Begriffen ihrem Inhalte nach, es zu tun hat: so ist die Unterscheidung der unendlichen von den negativen Urteilen nicht zu dieser Wissenschaft geh&#246;rig.
 
 Kant ([1800](#Jaesche), p.535).
 
-One suggestion to clarify the tricky question of infinite judgement in Kant employing the language of modern logic would be to link it to the [[coherent logic|Morleyization]] of finitary first-order formulas:
+In that context even the difference between positive and negative judgment becomes purely syntactic since every predicate is now semantically a [[complement]]: _A is B_ becomes equivalent to _not(A is not-B)_. It seems likely though that Kant would not apply his terminology to compound judgments like the latter.
+
+One suggestion to clarify the question of infinite judgement in Kant employing the language of modern logic would be to link it to the [[coherent logic|Morleyization]] of finitary first-order formulas:
 
 This is a systematic way to replace formulas containing negation with formulas without negation by defining via extra symbols and axioms negative versions of all predicates e.g. for predicate $P(x)$, add $\bar{P} (x)$ together with stipulations that $P(x)\wedge \bar{P}(x)=\bot$ and $P(x)\vee \bar{P}(x)=\top$. One can then show that a first-order theory $\mathbb{T}$ and its Morleyization $\mathbb{T}'$ have exactly the same models over coherent [[Boolean category|Boolean categories]] (cf. [Johnstone 2002](#JT02), p.859).
 
-This would capture the syntactic systematicity of turning negative judgements into formally positive infinite judgements as well as the semantic equivalence over classical formal logic i.e. the difference between a formula $\varphi (x)$ and its Morleyization $\varphi '(x)$ only comes to the surface when one considers non-Boolean models - the difference between positive and infinite judgements is relevant for transcendental (=intuitionistic) logic only.
+Now one could try to adapt this procedure for pseudocomplements i.e. leaving out the stipulation that $P(x)\vee \bar{P}(x)=\bot$ and sticking in further axioms for $\bar{P}(x)$ in order that the $\bar{P}(x)$ are interpreted as pseudocomplements turning into complements when valued in Boolean categories whence the difference between negative and infinite judgements vanishes in that context. One could then define "formal" logic as this transcendental logic valued in classical models. Depending on how much logic one is willing to grant Kant in an attempt to completely formalize transcendental logic with a modern constructive logic one might even bypass any pseudo-Morleyization and formalize infinite judgments simply as intuitionistic negation applied to predicate terms. This would suggest a possibility to formalize the difference between not-mortal and immortal as that between an intuitionistic and a weaker constructive negation e.g. minimal negation.
 
 ## Fichte's take
 
@@ -169,6 +171,8 @@ To sum up: it seems that the most promising direction to spell out a concept of 
 * [[absolute conclusion]]
 
 * [[construction in philosophy]]
+
+* [[Critique of pure reason]]
 
 * [[Attempt to Introduce the Concept of Negative Quantities into Philosophy|Concept of Negative Quantities]]
 
