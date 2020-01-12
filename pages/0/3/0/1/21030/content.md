@@ -25,7 +25,7 @@ The _[[BMN matrix model]]_ ([Berenstein-Maldacena-Nastase 02, Section 5 and Appe
 ### Relation to black M2/M5-brane backgrounds 
 
 
-The [[pp-wave spacetime]]-backgroudn fot he BMN matrix model may be thought of as an [[Inönü-Wigner contraction]] of the [[anti de Sitter spacetime|AdS4]]$\times$[[7-sphere]] [[near horizon geometry]] of both the [[black brane|black]] [[M2-brane]] spacetime $AdS_4 \times S^7$, as well as the [[anti de Sitter spacetime|AdS7]]$\times$[[4-sphere]] [[near horizon geometry]] of [[black brane|black]] [[M5-branes]] ([BMN 02, Section 2](#BerensteinMaldacenaNastase02)).
+The [[pp-wave spacetime]]-background for the BMN matrix model may be thought of as an [[Inönü-Wigner contraction]] of the [[anti de Sitter spacetime|AdS4]]$\times$[[7-sphere]] [[near horizon geometry]] of both the [[black brane|black]] [[M2-brane]] spacetime $AdS_4 \times S^7$, as well as the [[anti de Sitter spacetime|AdS7]]$\times$[[4-sphere]] [[near horizon geometry]] of [[black brane|black]] [[M5-branes]] ([BMN 02, Section 2](#BerensteinMaldacenaNastase02)).
 
 ### Ground states
 
