@@ -1,21 +1,36 @@
-\begin{tikzcd}[row sep=5mm]
-& TB \ar[shorten <=12mm,shorten >=12mm, Rightarrow, dddl]\arrow[rd] \arrow[dd] & & & & TB\ar[shorten <=4mm,shorten >=4mm, Rightarrow, dd] \arrow[rd] & \\
-TA \arrow[ru] \arrow[dd] & & TD\arrow[dd] & & TA \arrow[rd] \arrow[ru] \arrow[dd] & & TD \ar[shorten <=12mm,shorten >=12mm, Rightarrow, dddl] \arrow[dd] \\
-& B\ar[shorten <=4mm,shorten >=4mm, Rightarrow, ur] \ar[shorten <=4mm,shorten >=4mm, Rightarrow, dd]\arrow[rd] & & = & & TC \arrow[ru] \arrow[dd] & \\
-A \arrow[ru] \arrow[rd] & & D & & A \arrow[rd] \ar[shorten <=4mm,shorten >=4mm, Rightarrow, ur] && D \\
- & C \arrow[ru] & & & & C \arrow[ru] & 
-\end{tikzcd}
 
-\begin{xymatrix}
-A\downarrow{a}\ar[r]^q \ar@/_2pc/[dd]_{p} \ar@<-.5ex>[d]
-& V\ar[d]^e \\
-E\ar[r]_q\ar[d]_p& U\\
-A&
-\end{xymatrix}
+For $n \in \mathbb{N}$ write 
+
+\[
+  \label{OrderedConfigurationSpaceofnPointsinC}
+  \underset{{}^{\{1,\cdots,n\}}}{Conf}(\mathbb{R}^2)
+  \;\coloneqq\;
+  (\mathbb{R}^2)^n \backslash FatDiagonal
+\]
+
+for the [[ordered configuration space of n points]] in the [[plane]], regarded as a [[smooth manifold]].
+
+Identifying this with the [[complex plane]] $\mathbb{C}$, we have canonical [[coordinate functions]]
+
+\[
+  \label{CoordinateFunctionsOnConfC}
+  (z_1, \cdots, z_n)
+  \;\colon\;
+  \underset{{}^{\{1,\cdots,n\}}}{Conf}(\mathbb{R}^2)
+  \longrightarrow
+  \mathbb{C}^n
+  \,.
+\]
 
 
-agination” ([A100](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_100.png)).
+Write moreover
 
-“It is [..] a merely empirical law in accordance with which rep­resentations that have often followed or accompanied one another arefinally assocated with each other and thereby placed in a connection inaccordance with which, even without the presence of the object, one ofthese representations brings about a transition of the mind to the other in accordance with a constant rule[beständige Regel].” ([A100](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_100.png))
+$$
+  \mathcal{A}^{{}^{pb}}_{n}
+  \;\coloneqq\;
+  Span\big(\mathcal{D}^{{}^{pb}}\big)/4T
+$$
 
-The obvious formalization of a constant rule between two states, when thinkin
+for the [[quotient vector space]] of the [[linear span]] of [[horizontal chord diagrams]] on $n$ strands by the [[4t relations]] ([[infinitesimal braid relations]]), regarded as an [[associative algebra]] under [[concatenation]] of strands ([here](horizontal+chord+diagram#AlgebraOfHorizontalChordDiagrams)).
+
+Then the _[[Knizhnik-Zamolodchikov form]]_ is the [[horizontal chord diagram]]-[[Lie algebra valued differential form|algebra valued differential form]] on the [[configuration space of points]]  (eq:OrderedConfigurationSpaceofnPointsinC)$ 
