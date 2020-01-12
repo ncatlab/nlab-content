@@ -49,6 +49,11 @@ The model was introduced in
 
 (which is otherwise about [[single trace operators]] in the [[AdS/CFT correspondence]]).
 
+Discussion of the [[large N limit]]:
+
+* Corneliu Sochichiu, _Continuum limit(s) of BMN matrix model: Where is the (nonabelian) gauge group?_, Phys.Lett. B574 (2003) 105-110 ([arXiv:hep-th/0206239](https://arxiv.org/abs/hep-th/0206239))
+
+
 Discussion of [[chaos]] in the [[M2-brane]] physics described by the BMN matrix model:
 
 * Minos Axenides, Emmanuel Floratos, Georgios Linardopoulos, _M2-brane Dynamics in the Classical Limit of the BMN Matrix Model_, Phys. Lett. B773 (2017) 265 ([arXiv:1707.02878](https://arxiv.org/abs/1707.02878))
