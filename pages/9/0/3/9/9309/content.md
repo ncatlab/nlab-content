@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -21,6 +22,10 @@
 ## Idea
 
 The [[Green-Schwarz action functional]] for super [[D-branes]] contains a generalization of the [[Nambu-Goto action]] in which the [[volume form]] is modified by the [[field strength]] of the [[Chan-Paton gauge field]] on the [[worldvolume]] of the [[D-brane]]. This modified [[Nambu-Goto action]] is referred to as the _Dirac-Born-Infeld action_ or _DBI action_, for short.
+
+## Related concepts
+
+* [[Myers effect]]
 
 ## References
 
@@ -140,6 +145,8 @@ Relation of [[single trace observables]] in the [[non-abelian DBI action]] on [[
 [[!redirects nonabelian Born-Infeld actions]]
 [[!redirects non-abelian Born-Infeld action]]
 [[!redirects non-abelian Born-Infeld actions]]
+
+[[!redirects nonabelian DBI action]]
 
 [[!redirects Dirac-Born-Infeld action functional]]
 [[!redirects DBI action functional]]
