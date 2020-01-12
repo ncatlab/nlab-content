@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On the [[BMN matrix model]] and [[nonabelian T-duality]]:
+
+* [[Yolanda Lozano]], [[Carlos Nunez]], Salomon Zacarias, _BMN Vacua, Superstars and Non-Abelian T-duality_, JHEP 09 (2017) 008 ([arXiv:1703.00417](https://arxiv.org/abs/1703.00417))
+
 On [[black brane|black]]$\;$[[D6-D8-brane bound states]] in [[massive type IIA string theory]], with [[defect QFT|defect]] [[D2-D4-brane bound states]] inside them realizing [[AdS3-CFT2]] as [[defect field theory]] "inside" [[AdS7-CFT6]]:
 
 
