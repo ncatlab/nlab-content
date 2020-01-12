@@ -118,6 +118,19 @@ See also
 
 * E. Mukhin, V. Tarasov, A. Varchenko, _KZ characteristic variety as the zero set of classical Calogero-Moser Hamiltonians_, [arxiv/1201.3990](http://arxiv.org/abs/1201.3990)
 
+[[!redirects Knizhnik-Zamolodchikov equations]]
+
+[[!redirects Knizhnik-Zamolodchikov form]]
+[[!redirects Knizhnik-Zamolodchikov forms]]
+
 [[!redirects Knizhnik-Zamolodchikov connection]]
+[[!redirects Knizhnik-Zamolodchikov connections]]
+
+
 [[!redirects KZ equation]]
+[[!redirects KZ equations]]
+
 [[!redirects KZ connection]]
+[[!redirects KZ connections]]
+
+
