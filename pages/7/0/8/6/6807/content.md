@@ -89,16 +89,16 @@ The original articles are
 
 * {#BanksFischlerShenkerSusskind96} [[Tom Banks]], [[Willy Fischler]], [[Stephen Shenker]], [[Leonard Susskind]], _M Theory As A Matrix Model: A Conjecture_  Phys. Rev. D55 (1997). ([arXiv:hep-th/9610043](http://arxiv.org/abs/hep-th/9610043))
 
-* {#Sen97} [[Ashoke Sen]], _D0 Branes on $T^n$ and Matrix Theory_, Adv.Theor.Math.Phys.2:51-59, 1998 ([arXiv:hep-th/9709220](https://arxiv.org/abs/hep-th/9709220))
+* {#Sen97} [[Ashoke Sen]], _D0 Branes on $T^n$ and Matrix Theory_, Adv. Theor. Math. Phys.2:51-59, 1998 ([arXiv:hep-th/9709220](https://arxiv.org/abs/hep-th/9709220))
 
-* {#Seiberg97} [[Nathan Seiberg]], _Why is the Matrix Model Correct?_, Phys.Rev.Lett.79:3577-3580, 1997 ([arXiv:hep-th/9710009](https://arxiv.org/abs/hep-th/9710009))
+* {#Seiberg97} [[Nathan Seiberg]], _Why is the Matrix Model Correct?_, Phys. Rev. Lett. 79:3577-3580, 1997 ([arXiv:hep-th/9710009](https://arxiv.org/abs/hep-th/9710009))
 
 
 Review includes
 
 * [[Tom Banks]], _Matrix Theory_, Nucl.Phys.Proc.Suppl. 67 (1998) 180-224 ([arXiv:hep-th/9710231](https://arxiv.org/abs/hep-th/9710231))
 
-* [[Washington Taylor]], _M(atrix) Theory: Matrix Quantum Mechanics as a Fundamental Theory_, Rev.Mod.Phys.73:419-462,2001 ([arXiv:hep-th/0101126](https://arxiv.org/abs/hep-th/0101126))
+* [[Washington Taylor]], _M(atrix) Theory: Matrix Quantum Mechanics as a Fundamental Theory_, Rev. Mod. Phys. 73:419-462, 2001 ([arXiv:hep-th/0101126](https://arxiv.org/abs/hep-th/0101126))
 
 A review of further developments is in 
 
@@ -106,7 +106,7 @@ A review of further developments is in
 
 See also
 
-* [[Paul Townsend]], _M(embrane) theory on $T^0$_, Nucl.Phys.Proc.Suppl.68:11-16,1998 ([arXiv:hep-th/9708034](http://arxiv.org/abs/hep-th/9708034))
+* [[Paul Townsend]], _M(embrane) theory on $T^0$_, Nucl. Phys. Proc. Suppl. 68:11-16, 1998 ([arXiv:hep-th/9708034](http://arxiv.org/abs/hep-th/9708034))
 
 Discussion as a solution to the open problem of defining [[M-theory]] is in 
 
