@@ -3,7 +3,12 @@
 
 ## Selected writings
 
-On the [[AdS-CFT correspondence]] between [[single trace operators]] and [[superstring]]-excitations:
+On the [[AdS-CFT correspondence]]:
+
+* [[Alexander Polyakov]], _The wall of the cave_, Int. J. Mod. Phys. A14 (1999) 645-658 ([arXiv:hep-th/9809057](https://arxiv.org/abs/hep-th/9809057))
+
+
+and specifically between [[single trace operators]] and [[superstring]]-excitations:
 
 * {#Polyakov02} [[Alexander Polyakov]], _Gauge Fields and Space-Time_, Int. J. Mod. Phys. A17S1 (2002) 119-136 ([arXiv:hep-th/0110196](https://arxiv.org/abs/hep-th/0110196)):
 
