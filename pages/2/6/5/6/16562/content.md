@@ -21,6 +21,19 @@
 
 Regarding the [[string theory|quantum string]] as a [[2-spectral triple]], it defines a [[spectral geometry]] (typically but not necessarily a [[noncommutative geometry]]) which is the [[effective field theory|effective]] [[spacetime]] as seen by this quantum string (as read of from, notably, its [[energy]] [[spectrum of a linear operator|spectrum]]). For the [[open string]] the most prominent aspect of its [[2d SCFT]] [[worldsheet]] theory are its [[boundary conditions]]. In the spectral interpretation these correspond to the presence of [[D-branes]] in the effective [[target spacetime]]. Much geometric information is contained in these D-brane states, and the resulting concept of (noncommutative) geometry has accordingly been called _D-brane geometry_ or _D-geometry_ for short.
 
+## Examples
+
+### Fuzzy spheres
+
+The [[fuzzy spheres]] appear in [[D-brane geometry]]:
+
+1. the [[fuzzy funnels]] of [[Dp-D(p+2)-brane intersections]] have [[fuzzy 2-sphere]] slices
+
+1. the [[fuzzy funnels]] of [[Dp-D(p+4)-brane intersections]] have [[fuzzy 4-sphere]] slides
+
+1. the [[supersymmetry|supersymmetric]] [[classical field theory|classical]] solutions of the [[BMN matrix model]] are precisely [[fuzzy 2-sphere]] configurations ([BMN 02 (5.4)](BMN+matrix+model#BerensteinMaldacenaNastase02)).
+
+
 ## References
 
 * [[Michael Douglas]], _Two Lectures on D-Geometry and Noncommutative Geometry_ ([arxiv:hep-th/9901146](http://arxiv.org/abs/hep-th/9901146))
