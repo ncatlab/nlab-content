@@ -21,6 +21,15 @@
 
 In [[string theory]], the term _giant graviton_ refers to [[wrapped brane]]-configurations which behave like massless [[relativistic particles]], notably [[gravitons]].
 
+## Examples
+
+### In the BMN matrix model
+
+The [[supersymmetry|supersymmetric]] [[classical field theory|classical]] solutions of the [[BMN matrix model]]  are configurations of  [[fuzzy 2-spheres]], corresponding to [[M2-brane]]-[[giant gravitons]] ([BMN 02 (5.4)](BMN+matrix+model#BerensteinMaldacenaNastase02),
+[DSJVR 02](BMN+matrix+model#DSJVR02)).
+
+
+
 ## Related concepts
 
 * [[wrapped brane]], [[M2-M5 brane bound state]]
