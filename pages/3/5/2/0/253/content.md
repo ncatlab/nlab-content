@@ -70,7 +70,7 @@ equipped with
 *  for each $a,b,c$, $f\colon a \to b$, $g,h\colon b \to c$, and $\eta\colon g \Rightarrow h$, a _right whiskering_ $\eta \triangleright f\colon g \circ f \Rightarrow h \circ f$,
 *  for each $f\colon a \to b$, a _left unitor_ $\lambda_f\colon \id_b \circ f \Rightarrow f$, and an _inverse left unitor_ $\bar{\lambda}_f\colon f \Rightarrow \id_b \circ f$,
 *  for each $f\colon a \to b$, a _right unitor_ $\rho_f\colon f \circ \id_a \Rightarrow f$ and an _inverse right unitor_ $\bar{\rho}_f\colon f \Rightarrow f \circ \id_a$, and
-*  for each $a \overset{f}\to b \overset{g}\to c \overset{h}\to d$, an _associator_ $\alpha_{f,g,h}\colon h \circ (g \circ f) \Rightarrow (h \circ g) \circ f$ and an _inverse associator_ $\bar{\alpha}_{f,g,h}\colon (h \circ g) \circ f \Rightarrow h \circ (g \circ f)$,
+*  for each $a \overset{f}\to b \overset{g}\to c \overset{h}\to d$, an _associator_ $\alpha_{h,g,f}\colon (h \circ g) \circ f \Rightarrow h \circ (g \circ f)$ and an _inverse associator_ $\bar{\alpha}_{h,g,f}\colon h \circ (g \circ f) \Rightarrow (h \circ g) \circ f$,
 
 such that
 
@@ -81,15 +81,15 @@ such that
 *  for each $f\colon a \to b$ and $g \overset{\eta}\Rightarrow h \overset{\theta}\Rightarrow i\colon b \to c$, the vertical composite $(\theta \triangleright f) \bullet (\eta \triangleright f)$ equals the whiskering $(\theta \bullet \eta) \triangleright f$,
 *  for each $\eta\colon f \Rightarrow g\colon a \to b$, the vertical composites $\lambda_g \bullet (\id_b \triangleleft \eta)$ and $\eta \bullet \lambda_f$ are equal,
 *  for each $\eta\colon f \Rightarrow g\colon a \to b$, the vertical composites $\rho_g \bullet (\eta \triangleright \id_a)$ and $\eta \bullet \rho_f$ are equal,
-*  for each $a \overset{f}\to b \overset{g}\to c$ and $\eta\colon h \Rightarrow i\colon c \to d$, the vertical composites $\alpha_{f,g,i} \bullet (\eta \triangleright (g \circ f))$ and $((\eta \triangleright g) \triangleright f) \bullet \alpha_{f,g,h}$ are equal,
-*  for each $f\colon a \to b$, $\eta\colon g \Rightarrow h\colon b \to c$, and $i\colon c \to d$, the vertical composites $\alpha_{f,h,i} \bullet (i \triangleleft (\eta \triangleright f))$ and $((i \triangleleft \eta) \triangleright f) \bullet \alpha_{f,g,i}$ are equal,
-*  for each $\eta\colon f \Rightarrow g\colon a \to b$ and $b \overset{h}\to c \overset{i}\to d$, the vertical composites $\alpha_{g,h,i} \bullet (i \triangleleft (h \triangleleft \eta))$ and $((i \circ h) \triangleleft \eta) \bullet \alpha_{f,h,i}$ are equal,
+*  for each $a \overset{f}\to b \overset{g}\to c$ and $\eta\colon h \Rightarrow i\colon c \to d$, the vertical composites $\bar{\alpha}_{i,g,f} \bullet (\eta \triangleright (g \circ f))$ and $((\eta \triangleright g) \triangleright f) \bullet \alpha_{h,g,f}$ are equal,
+*  for each $f\colon a \to b$, $\eta\colon g \Rightarrow h\colon b \to c$, and $i\colon c \to d$, the vertical composites $\bar{\alpha}_{i,h,f} \bullet (i \triangleleft (\eta \triangleright f))$ and $((i \triangleleft \eta) \triangleright f) \bullet \bar{\alpha}_{i,g,f}$ are equal,
+*  for each $\eta\colon f \Rightarrow g\colon a \to b$ and $b \overset{h}\to c \overset{i}\to d$, the vertical composites $\bar{\alpha}_{i,h,g} \bullet (i \triangleleft (h \triangleleft \eta))$ and $((i \circ h) \triangleleft \eta) \bullet \bar{\alpha}_{i,h,f}$ are equal,
 *  for each $\eta\colon f \Rightarrow g\colon a \to b$ and $\theta\colon h \Rightarrow i\colon b \to c$, the vertical composites $(i \triangleleft \eta) \bullet (\theta \triangleright f)$ and $(\theta \triangleright g) \bullet (h \triangleleft \eta)$ are equal,
 *  for each $f\colon a \to b$, the vertical composites $\lambda_f \bullet \bar{\lambda}_f\colon f \Rightarrow f$ and $\bar{\lambda}_f \bullet \lambda_f\colon \id_b \circ f \Rightarrow \id_b \circ f$ equal the appropriate identity $2$-morphisms,
 *  for each $f\colon a \to b$, the vertical composites $\rho_f \bullet \bar{\rho}_f\colon f \Rightarrow f$ and $\bar{\rho}_f \bullet \rho_f\colon f \circ \id_a \Rightarrow f \circ \id_a$ equal the appropriate identity $2$-morphisms,
-*  for each $a \overset{f}\to b \overset{g}\to c \overset{h}\to d$, the vertical composites $\alpha_{f,g,h} \bullet \bar{\alpha}_{f,g,h}\colon (h \circ g) \circ f \Rightarrow (h \circ g) \circ f$ and $\bar{\alpha}_{f,g,h} \bullet \alpha_{f,g,h}\colon h \circ (g \circ f) \Rightarrow h \circ (g \circ f)$ equal the appropriate identity $2$-morphisms,
-*  for each $a \overset{f}\to b \overset{g}\to c$, the vertical composite $(\rho_g \triangleright f) \bullet \alpha_{f,\id_b,g}$ equals the whiskering $g \triangleleft \lambda_f$, and
-*  for each $a \overset{f}\to b \overset{g}\to c \overset{h}\to d \overset{i}\to e$, the vertical composites $((\alpha_{g,h,i} \triangleright f) \bullet \alpha_{f,h \circ g,i}) \bullet (i \triangleleft \alpha_{f,g,h})$ and $\alpha_{f,g,i \circ h}\bullet \alpha_{g \circ f,h,i} $ are equal.
+*  for each $a \overset{f}\to b \overset{g}\to c \overset{h}\to d$, the vertical composites $\bar{\alpha}_{h,g,f} \bullet \alpha_{h,g,f}\colon (h \circ g) \circ f \Rightarrow (h \circ g) \circ f$ and $\alpha_{h,g,f} \bullet \bar{\alpha}_{h,g,f}\colon h \circ (g \circ f) \Rightarrow h \circ (g \circ f)$ equal the appropriate identity $2$-morphisms,
+*  for each $a \overset{f}\to b \overset{g}\to c$, the vertical composite $(\rho_g \triangleright f) \bullet \bar{\alpha}_{g,\id_b,f}$ equals the whiskering $g \triangleleft \lambda_f$, and
+*  for each $a \overset{f}\to b \overset{g}\to c \overset{h}\to d \overset{i}\to e$, the vertical composites $((\bar{\alpha}_{i,h,g} \triangleright f) \bullet \bar{\alpha}_{i,h \circ g,f}) \bullet (i \triangleleft \bar{\alpha}_{h,g,f})$ and $\bar{\alpha}_{i \circ h,g,f}\bullet \bar{\alpha}_{i,h,g \circ f} $ are equal.
 
 It is quite possible that there are errors or omissions in this list, although they should be easy to correct.  The point is not that one would *want* to write out the definition in such elementary terms (although apparently I just did anyway) but rather that one *can*.
 
