@@ -90,6 +90,11 @@ The idea generalizes to [[relativistic field theory]] [[perturbative quantum fie
 
 See at _[[time-ordered product]]_ and _[[S-matrix]]_ for details.
 
+## Examples
+
+### Kontsevich integral is Dyson formula of KZ-connection
+
+[[!include Knizhnik-Zamolodchikov-Kontsevich construction -- definition]]
 
 ## Related concepts
 
