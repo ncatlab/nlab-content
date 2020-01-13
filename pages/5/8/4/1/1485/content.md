@@ -226,6 +226,8 @@ These definitions need to be carefully checked against known examples (e.g., the
 
 * [[closed manifold]]
 
+* [[product manifold]]
+
 ## References
 
 * John Loftin, _The real definition of a smooth manifold_ ([pdf](http://andromeda.rutgers.edu/~loftin/difffal03/manifold.pdf))
