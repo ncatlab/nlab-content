@@ -154,7 +154,9 @@ $$
 This is due to ([ChasSullivan](#ChasSullivan)).
 
 
-## String operations as operators in a topological quantum field theory
+## Properties
+
+### As a TQFT
  {#InTermsOfTQFTs}
 
 The structures studied in the _string topology_ of a [[smooth manifold]] $X$ may be understood as being essentially the data of a 2-dimensional [[topological field theory]] [[sigma model]] with [[target space]] $X$, or rather its linearization to an [[HQFT]] (with due care on some technical subtleties). 
@@ -209,15 +211,13 @@ The original references include the following:
 *  {#ChasSullivan} [[Moira Chas]], [[Dennis Sullivan]], _String topology_, Ann. Math. [math.GT/9911159](http://arxiv.org/abs/math/9911159)
 
 
-* [[Ralph Cohen]], [[Alexander Voronov]], _Notes on string topology_, [math.GT/05036259](http://arxiv.org/abs/math/0503625), 95 pp. published as a part of R. Cohen, [[Kathryn Hess|K. Hess]], A. Voronov, _String topology and cyclic homology_, CRM Barcelona courseware, Springer, [description](http://www.springer.com/birkhauser/mathematics/book/978-3-7643-2182-6), [doi](http://dx.doi.org/10.1007/3-7643-7388-1), [pdf](http://gen.lib.rus.ec/get?md5=adde9464705ede0fea6b435edb58fbe7)
-
 *  [[Ralph Cohen]], John R. Klein, [[Dennis Sullivan]], _The homotopy invariance of the string topology loop product and string bracket_, J. of Topology 2008 __1__(2):391-408; [doi](http://dx.doi.org/10.1112/jtopol/jtn001) 
 
 * [[Ralph Cohen]], _Homotopy and geometric perspectives on string topology_, [pdf](http://math.stanford.edu/~ralph/skyesummary.pdf)
 
 In 
 
-* {#CohenJones} [[Ralph Cohen]] and J.D.S. Jones, _A homotopy theoretic realization of string topology_ , Math. Ann. 324
+* {#CohenJones} [[Ralph Cohen]], [[John David Stuart Jones]], _A homotopy theoretic realization of string topology_ , Math. Ann. 324
 (2002), no. 4, ([arXiv:0107187](http://arxiv.org/abs/math/0107187))
  
 
@@ -225,8 +225,7 @@ the string product was realized as genuine pull-push (in terms of dual [[fiber i
 
 The interpretation of closed string topology as an [[HQFT]] is discussed in
 
-* {#CohenGodin03} [[Ralph Cohen]], [[Veronique Godin]], 
-  _[[A Polarized View of String Topology]]_ ([arXiv:math/0303003](http://arxiv.org/abs/math/0303003))
+* {#CohenGodin03} [[Ralph Cohen]], [[Veronique Godin]], _[[A Polarized View of String Topology]]_ ([arXiv:math/0303003](http://arxiv.org/abs/math/0303003))
  
 
 * {#Tamanoi07} Hirotaka Tamanoi, _Loop coproducts in string topology and triviality of higher genus TQFT operations_ (2007) ([arXiv](http://arxiv.org/abs/0706.1276))
@@ -237,11 +236,13 @@ A detailed discussion and generalization to the open-closed [[HQFT]] in the pres
 * {#Godin} [[Veronique Godin]], _Higher string topology operations_ (2007)([arXiv:0711.4859](http://arxiv.org/abs/0711.4859))
  
 
-The generalization to multiple [[D-brane]]s is discussed in
+The generalization to multiple [[D-branes]] is discussed in
 
 * {#Kupers} [[Sander Kupers]], _String topology operations_ MS thesis (2011) ([pdf](http://math.stanford.edu/~kupers/thesis7thjune2011.pdf))
 
 Exposition of the perspective of regarding [[string topology]]-operations as the [[TQFT]] of a [[topological string]] [[sigma model]]:
+
+* [[Ralph Cohen]], [[Alexander Voronov]], _Notes on string topology_, in: [[Ralph Cohen]], [[Kathryn Hess]], [[Alexander Voronov]], _String topology and cyclic homology_, Advanced courses in mathematics CRM Barcelona, Birkhäuser 2006 ([math.GT/05036259](http://arxiv.org/abs/math/0503625), [doi:10.1007/3-7643-7388-1](https://doi.org/10.1007/3-7643-7388-1), [pdf](http://gen.lib.rus.ec/get?md5=adde9464705ede0fea6b435edb58fbe7))
 
 * [[Dennis Sullivan]], _Sigma models and string topology_, in: Mikhail Lyubich, Leon Takhtajan (eds.), _Graphs and Patterns in Mathematics and Theoretical Physics_, Proc. Symp. Pure Math. 73 (2005) ([doi:10.1090/pspum/073](https://doi.org/10.1090/pspum/073), [spire:1697823](http://inspirehep.net/record/1697823))
  
@@ -262,14 +263,14 @@ and
  {#Lurie}
 (see example 4.2.16, remark 4.2.17).
 
-For the string product and the BV-operator this extension has been known early on, it yields a [[homotopy BV algebra]] considered around page 101 of
+For the string product and the BV-operator this extension has been known early on, it yields a [[homotopy BV algebra]] considered  in
 
-* [[Scott Wilson]], _On the Algebra and Geometry of a Manifold's Chains and Cochains_ (2005) ([pdf](http://qcpages.qc.cuny.edu/~swilson/main.pdf))
+* [[Scott Wilson]], around page 101 of: _On the Algebra and Geometry of a Manifold's Chains and Cochains_ (2005) ([pdf](http://qcpages.qc.cuny.edu/~swilson/main.pdf))
 
 Evidence for the existence of the [[TCFT]] version by exhibiting a [[dg-category]] that looks like it ought to be the dg-category of string-topology [[branes]] (hence ought to correspond to the TCFT under the suitable version of the [[TCFT]]-version of the [[cobordism hypothesis]]) is discussed in
 
-* [[Andrew Blumberg]], [[Ralph Cohen]], [[Constantin Teleman]], _Open-closed field theories, string topology, and Hochschild homology_ ([arXiv:0906.5198](http://arxiv.org/abs/0906.5198))
- {#BlumbergCoheneTeleman09}
+* {#BlumbergCoheneTeleman09} [[Andrew Blumberg]], [[Ralph Cohen]], [[Constantin Teleman]], _Open-closed field theories, string topology, and Hochschild homology_ ([arXiv:0906.5198](http://arxiv.org/abs/0906.5198))
+ 
 
 Refinements of string topology from [[homology groups]] to the full [[ordinary homology]]-[[spectra]] is discussed in ([Blumberg-Cohen-Teleman 09](#BlumbergCoheneTeleman09)) and in
 
