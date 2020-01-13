@@ -24,7 +24,7 @@ The _[[BMN matrix model]]_ ([Berenstein-Maldacena-Nastase 02, Section 5 and Appe
 ### Relation to black M2/M5-brane backgrounds 
 
 
-The [[pp-wave spacetime]]-background for the BMN matrix model may be thought of as an [[Inönü-Wigner contraction]] of the [[anti de Sitter spacetime|AdS4]]$\times$[[7-sphere]] [[near horizon geometry]] of both the [[black brane|black]] [[M2-brane]] spacetime $AdS_4 \times S^7$, as well as the [[anti de Sitter spacetime|AdS7]]$\times$[[4-sphere]] [[near horizon geometry]] of [[black brane|black]] [[M5-branes]] ([BMN 02, Section 2](#BerensteinMaldacenaNastase02)).
+The [[pp-wave spacetime]]-background for the BMN matrix model arises as the [[Penrose limit]] ([[Inönü-Wigner contraction]]) of the [[anti de Sitter spacetime|AdS4]][[product manifold|x]][[7-sphere]] [[near horizon geometry]] of both the [[black brane|black]] [[M2-brane]] spacetime $AdS_4 \times S^7$, as well as the [[anti de Sitter spacetime|AdS7]]$\times$[[4-sphere]] [[near horizon geometry]] of [[black brane|black]] [[M5-branes]] ([BMN 02, Section 2](#BerensteinMaldacenaNastase02)).
 
 ### Ground states: Giant gravitons/$D0\perp D2$ bound states
 
@@ -42,6 +42,8 @@ The [[supersymmetry|supersymmetric]] [[classical field theory|classical]] soluti
 * [[membrane matrix model]]
 
 ## References
+
+### General
 
 The original articles:
 
@@ -78,7 +80,7 @@ See also
 
 * [[Jens Hoppe]]. Ki-Myeong Lee, _New BPS Configurations of BMN Matrix Theory_, JHEP 0806:041, 2008 ([arXiv:0712.3616](https://arxiv.org/abs/0712.3616))
 
-
 * [[Yolanda Lozano]], [[Carlos Nunez]], Salomon Zacarias, _BMN Vacua, Superstars and Non-Abelian T-duality_, JHEP 09 (2017) 008 ([arXiv:1703.00417](https://arxiv.org/abs/1703.00417))
 
+[[!include pp-waves as Penrose limits of AdS spacetimes -- references]]
 
