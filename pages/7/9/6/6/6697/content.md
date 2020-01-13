@@ -113,6 +113,8 @@ Asymptotically anti-de Sitter spaces play a central role in the realization of t
 
 ## References
 
+### General
+
 * [[Matthias Blau]], chapter 38 of _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
 
 
@@ -147,6 +149,8 @@ Discussion of [[black holes in anti de Sitter spacetime]]:
 
 * Jakob Gath, _The role of black holes in the AdS/CFT correspondence_ ([pdf](https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/theoretical-physics/msc/dissertations/2009/Jakob-Gath-Dissertation-2009.pdf))
 
+
+[[!include pp-waves as Penrose limits of AdS spacetimes -- references]]
 
 [[!redirects anti de Sitter space]]
 [[!redirects anti de Sitter spaces]]
