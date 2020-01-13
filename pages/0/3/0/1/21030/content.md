@@ -51,7 +51,7 @@ The original articles:
 
   (which is otherwise about [[single trace operators]] in the [[AdS/CFT correspondence]]).
 
-* {#DSJVR02} [[Keshav Dasgupta]], Mohammad M. Sheikh-Jabbari, [[Mark Van Raamsdonk]], _Matrix Perturbation Theory For M-theory On a PP-Wave_, JHEP 0205:056, 2002 ([arXiv:hep-th/0205185](https://arxiv.org/abs/hep-th/0205185))
+* {#DSJVR02} [[Keshav Dasgupta]], [[Mohammad Sheikh-Jabbari]], [[Mark Van Raamsdonk]], _Matrix Perturbation Theory For M-theory On a PP-Wave_, JHEP 0205:056, 2002 ([arXiv:hep-th/0205185](https://arxiv.org/abs/hep-th/0205185))
 
 
 Discussion of the [[large N limit]]:
@@ -79,6 +79,9 @@ In relation to the [[Myers effect]] and [[D0-D2 brane bound states]]:
 See also
 
 * [[Jens Hoppe]]. Ki-Myeong Lee, _New BPS Configurations of BMN Matrix Theory_, JHEP 0806:041, 2008 ([arXiv:0712.3616](https://arxiv.org/abs/0712.3616))
+
+* Masanori Hanada, Lorenzo Mannelli, Yoshinori Matsuo, _Four-dimensional $\mathcal{N}=1$ super Yang-Mills from matrix model_, Phys. Rev. D 80, 125001 ([arXiv:0905.2995](https://arxiv.org/abs/0905.2995))
+
 
 * [[Yolanda Lozano]], [[Carlos Nunez]], Salomon Zacarias, _BMN Vacua, Superstars and Non-Abelian T-duality_, JHEP 09 (2017) 008 ([arXiv:1703.00417](https://arxiv.org/abs/1703.00417))
 
