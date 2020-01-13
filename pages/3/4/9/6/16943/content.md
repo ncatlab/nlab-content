@@ -10,6 +10,12 @@ On [[M-theory on S1/G_HW times H/G_ADE]]:
 
 * {#GKSTY02} E. Gorbatov, [[Vadim Kaplunovsky]], J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, _On Heterotic Orbifolds, M Theory and Type I' Brane Engineering_, JHEP 0205:015, 2002 ([arXiv:hep-th/0108135](https://arxiv.org/abs/hep-th/0108135))
 
+
+Discussion of [[pp-wave spacetimes]] as [[Penrose limits]] of [[anti de Sitter spacetime|AdSp]] [[product manifold|x]] [[n-sphere|S^q]] spacetimes and of the corresponding limit of the [[AdS5-CFT4 correspondence]]:
+
+* Nakwoo Kim, Ari Pankiewicz, Soo-Jong Rey, [[Stefan Theisen]], _Superstring on PP-Wave Orbifold from Large-N Quiver Gauge Theory_, Eur. Phys. J. C25:327-332, 2002 ([arXiv:hep-th/0203080](https://arxiv.org/abs/hep-th/0203080))
+
+
 On [[TT deformations]]:
 
 * George Jorjadze, [[Stefan Theisen]], _Canonical maps and integrability in $T \bar T$ deformed 2d CFTs_ ([arXiv:2001.03563](https://arxiv.org/abs/2001.03563))
