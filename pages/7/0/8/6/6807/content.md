@@ -155,6 +155,9 @@ Analogous regularizations lead to matrix model descriptions of [[D-branes]]:
 
 There remains the problem of existence of a sensible ground state of the BFSS model. 
 
+* [[Bryce de Wit]], M. Luscher, [[Hermann Nicolai]], _The Supermembrane Is Unstable_, Nucl.Phys. B320 (1989) 135-159 ([spire:266584](http://inspirehep.net/record/266584))
+ 
+
 For a new attempt and pointers to previous attempts see
 
 * L. Boulton, M.P. Garcia del Moral, A. Restuccia, _The ground state of the D=11 supermembrane and matrix models on compact regions_, Nuclear Physics B
