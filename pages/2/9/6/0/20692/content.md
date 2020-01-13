@@ -7,6 +7,15 @@ On [[D=11 N=1 supergravity]] solutions for the [[near horizon geometry]] of [[bl
 
 * [[Jerome Gauntlett]], [[Nakwoo Kim]], [[Daniel Waldram]],  _M-Fivebranes Wrapped on Supersymmetric Cycles_, Phys. Rev. D63 (2001) 126001 ([arXiv:hep-th/0012195](https://arxiv.org/abs/hep-th/0012195))
 
+On the [[BMN matrix model]]:
+
+* [[Nakwoo Kim]], [[Jan Plefka]], _On the Spectrum of PP-Wave Matrix Theory_, Nucl. Phys. B643:31-48, 2002 ([arXiv:hep-th/0207034](https://arxiv.org/abs/hep-th/0207034))
+
+On the [[BMN matrix model]] as a [[KK-compactification]] of [[D=4 N=4 super Yang-Mills theory]] on the [[3-sphere]]:
+
+* [[Nakwoo Kim]], [[Thomas Klose]], [[Jan Plefka]], _Plane-wave Matrix Theory from N=4 Super Yang-Mills on $\mathbb{R} \times S^3$_, Nucl. Phys. B671:359-382, 2003 ([arXiv:hep-th/0306054](https://arxiv.org/abs/hep-th/0306054))
+
+
 
 Specifically on [[D=11 N=1 supergravity]] solutions for the [[near horizon geometry]] of [[black brane|black]] [[M5-branes]] [[wrapped brane|wrapped]] on [[hyperbolic 3-manifolds]] $\Sigma^3 = H^3/\Gamma$:
 
