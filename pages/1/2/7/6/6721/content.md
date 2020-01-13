@@ -19,6 +19,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -64,20 +65,19 @@ Seiberg duality is formalized by [[equivalence of categories|equivalences]] of [
 
 ### Toric duality
 
-_Toric Duality_ is Seiberg duality for $N=1$ theories with toric [[moduli spaces]].
+_Toric Duality_ is Seiberg duality for $N=1$ theories with [[toric variety|toric]] [[moduli spaces]].
 
-* Bo Feng, [[Amihay Hanany]] and Y.-H. He, _D-brane gauge theories from toric singularities and toric duality, Nucl. Phys. B 595 (2001) 165 [hep-th/0003085].
+* [[Bo Feng]], [[Amihay Hanany]], [[Yang-Hui He]], _D-brane gauge theories from toric singularities and toric duality, Nucl. Phys. B 595 (2001) 165 ([arXiv:hep-th/0003085](https://arxiv.org/abs/hep-th/0003085))
 
-* C.E. Beasley and [[M. Ronen Plesser]], _Toric duality is Seiberg duality_, J. High Energy Phys. 12 (2001) 001 [hep-th/0109053].
-JHEP02(2004)070
+* [[Chris Beasley]], [[M. Ronen Plesser]], _Toric duality is Seiberg duality_, J. High Energy Phys. 12 (2001) 001 ([hep-th/0109053](https://arxiv.org/abs/hep-th/0109053))
 
-* Bo Feng, [[Amihay Hanany]] and Y.-H. He, _Phase structure of D-brane gauge theories and toric duality_ , J. High Energy Phys. 08 (2001) 040 [hep-th/0104259].
+* [[Bo Feng]], [[Amihay Hanany]], [[Yang-Hui He]], _Phase structure of D-brane gauge theories and toric duality_ , J. High Energy Phys. 08 (2001) 040 ([hep-th/0104259](https://arxiv.org/abs/hep-th/0104259))
 
-* Bo Feng, [[Amihay Hanany]], Y.-H. He and A.M. Uranga, _Toric duality as Seiberg duality and brane diamonds, J. High Energy Phys. 12 (2001) 035 [hep-th/0109063].
+* [[Bo Feng]], [[Amihay Hanany]], [[Yang-Hui He]], [[Angel Uranga]], _Toric duality as Seiberg duality and brane diamonds, J. High Energy Phys. 12 (2001) 035 ([hep-th/0109063](https://arxiv.org/abs/hep-th/0109063))
 
-* Bo Feng, S. Franco, [[Amihay Hanany]] and Y.-H. He, _Unhiggsing the del Pezzo_, J. High Energy Phys. 08 (2003) 058 [hep-th/0209228].
+* [[Bo Feng]], S. Franco, [[Amihay Hanany]], [[Yang-Hui He]], _Unhiggsing the del Pezzo_, J. High Energy Phys. 08 (2003) 058 ([hep-th/0209228](https://arxiv.org/abs/hep-th/0209228))
 
-* S. Franco and [[Amihay Hanany]], _Toric duality, Seiberg duality and Picard-Lefschetz transformations_ , Fortschr. Phys. 51 (2003) 738 [hep-th/0212299].
+* S. Franco and [[Amihay Hanany]], _Toric duality, Seiberg duality and Picard-Lefschetz transformations_ , Fortschr. Phys. 51 (2003) 738 ([hep-th/0212299](https://arxiv.org/abs/hep-th/0212299))
 
 
 ### From D-branes on del Pezzo singularities
@@ -179,3 +179,5 @@ See also section 22 of
 * Philip Argyres, _Introduction to supersymmetry_ ([pdf](http://www.physics.uc.edu/~argyres/661/susy1996.pdf))
 
 [[!redirects Seiberg dualities]]
+
+[[!redirects toric duality]]
