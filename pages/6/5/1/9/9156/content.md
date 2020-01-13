@@ -11,6 +11,13 @@ __John David Stuart Jones__ (J.D.S. Jones) is a mathematician at the University 
 
 * [[Ezra Getzler]], [[John Jones]], _Operads, homotopy algebra and iterated integrals for double loop spaces_ ([arXiv:hep-th/9403055](https://arxiv.org/abs/hep-th/9403055))
 
+On [[string topology]]:
+
+* {#CohenJones} [[Ralph Cohen]], [[John David Stuart Jones]], _A homotopy theoretic realization of string topology_ , Math. Ann. 324 (2002), no. 4, ([arXiv:0107187](http://arxiv.org/abs/math/0107187))
+
+* [[Ralph Cohen]], [[John Jones]], _Gauge theory and string topology_ ([arXiv:1304.0613](http://arxiv.org/abs/1304.0613))
+
+
 
 
 ## related $n$Lab entries
