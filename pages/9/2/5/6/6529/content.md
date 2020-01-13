@@ -3,7 +3,14 @@
 
 ## Selected writings
 
-* _Lecture notes on [[general relativity]]_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
+On [[general relativity]] ([[gravity]]):
+
+* [[Matthias Blau]], _Lecture notes on [[general relativity]]_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
+
+On [[pp-wave spacetimes]] and [[Penrose limits]]:
+
+* [[Matthias Blau]], _Plane waves and Penrose limits_, 2011 ([pdf](http://www.blau.itp.unibe.ch/lecturesPP.pdf), [[BlauPlaneWavesAndPenroseLimit.pdf:file]])
+
 
 On relation between [[Rozansky-Witten invariants]] and [[Seiberg-Witten invariants]] of [[3-manifolds]]:
 
