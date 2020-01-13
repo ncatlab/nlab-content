@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -35,7 +36,26 @@ The [[supersymmetry|supersymmetric]] and [[rotation]]-[[invariant]] multi trace 
 
 Discussion of the gravitational [[AdS-CFT duality|AdS-CFT dual]] of multi-trace operators:
 
+* [[Ofer Aharony]], [[Micha Berkooz]], [[Eva Silverstein]], _Multiple-Trace Operators and Non-Local String Theories_, JHEP 0108:006, 2001 ([arXiv:hep-th/0105309](https://arxiv.org/abs/hep-th/0105309))
+
+
+* [[Ofer Aharony]], [[Micha Berkooz]], [[Eva Silverstein]], _Non-local string theories on $AdS_3$ times $S^3$ and stable non-supersymmetric backgrounds_, Phys. Rev. D65:106007, 2002 ([arXiv:hep-th/0112178](https://arxiv.org/abs/hep-th/0112178))
+
+
+
 * [[Edward Witten]], _Multi-Trace Operators, Boundary Conditions, And AdS/CFT Correspondence_ ([arXiv:hep-th/0112258](https://arxiv.org/abs/hep-th/0112258))
+
+* [[Steven Gubser]], Indrajit Mitra, _Double-trace operators and one-loop vacuum energy in AdS/CFT_, Phys. Rev. D67 (2003) 064018 ([arXiv:hep-th/0210093](https://arxiv.org/abs/hep-th/0210093))
+
+* [[Vijay Balasubramanian]], [[Jan de Boer]], [[Bo Feng]], [[Yang-Hui He]], Min-xin Huang, Vishnu Jejjala, Asad Naqvi, _Multi-Trace Superpotentials vs. Matrix Models_, Commun. Math. Phys. 242:361-392, 2003 ([arXiv:hep-th/0212082](https://arxiv.org/abs/hep-th/0212082))
+
+
+* [[Steven Gubser]], [[Igor Klebanov]], _A universal result on central charges in the presence of double-trace deformations_, Nucl. Phys. B656 (2003) 23-36 ([arXiv:hep-th/0212138](https://arxiv.org/abs/hep-th/0212138))
+
+
+
+* Thomas Hartman, [[Leonardo Rastelli]], _Double-Trace Deformations, Mixed Boundary Conditions and Functional Determinants in AdS/CFT_, JHEP 0801:019, 2008 ([arXiv:hep-th/0602106](https://arxiv.org/abs/hep-th/0602106))
+
 
 
 [[!redirects multi-trace operators]]
@@ -49,3 +69,14 @@ Discussion of the gravitational [[AdS-CFT duality|AdS-CFT dual]] of multi-trace 
 
 [[!redirects multi trace operator]]
 [[!redirects multi trace operators]]
+
+
+
+
+[[!redirects double trace operator]]
+[[!redirects double trace operators]]
+
+[[!redirects double trace operator]]
+[[!redirects double trace operators]]
+
+
