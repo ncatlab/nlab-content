@@ -1,4 +1,3 @@
-[[!redirects T-barT deformation]]
 
 
 +-- {: .rightHandSide}
@@ -38,6 +37,11 @@ Review:
 
 * Yunfeng Jiang, _Lectures on solvable irrelevant deformations of 2d quantum field theory_ ([arXiv:1904.13376](https://arxiv.org/abs/1904.13376))
 
+See also
+
+* George Jorjadze, [[Stefan Theisen]], _Canonical maps and integrability in $T \bar T$ deformed 2d CFTs_ ([arXiv:2001.03563](https://arxiv.org/abs/2001.03563))
+
+
 ### In $AdS_3/CFT_2$
 
 The interpretation of the $T \bar T$-deformation in [[AdS3-CFT2 duality]] is due to 
@@ -50,4 +54,7 @@ Proposal of a non-abelian [[DBI-action]] via $T \bar T$-deformation:
 
 * T. Daniel Brennan, Christian Ferko, [[Savdeep Sethi]], _A Non-Abelian Analogue of DBI from $T \bar T$ ([arXiv:1912.12389](https://arxiv.org/abs/1912.12389))
 
+[[!redirects TT deformations]]
+
+[[!redirects T-barT deformation]]
 [[!redirects T-barT deformations]]
