@@ -307,6 +307,8 @@ The [[singular homology]] of product topological spaces is informed by
 
 ## Related concepts
 
+* [[product manifold]]
+
 * [[tensor product of chain complexes]]
 
 [[!include universal constructions of topological spaces -- table]]
