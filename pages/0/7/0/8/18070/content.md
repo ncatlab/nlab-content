@@ -923,6 +923,10 @@ between
 =--
 
 
+### Knizhnik-Zamolodchicov connection
+
+[[!include Knizhnik-Zamolodchikov-Kontsevich construction -- definition]]
+
 
 ### Action by little $n$-disk operad and by Goodwillie derivatives
 
