@@ -30,7 +30,9 @@ $$T^\mathfrak{f}: f \mapsto \int f dW + b$$
    
 One can now, for instance, define an 1-hidden layer operator network to be the composition of two operator layers:
 
-$$F[f] = (T^\mathfrak{o}\circ g \circ T^\mathfrak{o})[f]$$
+$$F[f] = (T^\mathfrak{o}\circ g \circ T^\mathfrak{o})[f] = s \mapsto b'(s) + \int_{K''}g\left(\int_K f dW_t + b(t) \right)dW_s$$
+
+where $(W_t \ll \mu)_{t \in K''}$, $(W_s\ll\mu)_{s \in K'}$ are families of absolutely continuous measures w.r.t. the Lebesgue measure $\mu$, $b$ and $b'$ are measurable bias functions over compact domains $K''$ and $K'$ respectively, and $g$ an activation function.
 
 ## Related concepts
 
