@@ -80,3 +80,4 @@ Useful references are for instance
 
 
 [[!redirects tangent microbundle]]
+[[!redirects microbundles]]
