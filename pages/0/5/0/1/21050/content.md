@@ -21,6 +21,17 @@
 {:toc}
 
 
+## Idea 
+
+The idea of a commutative monad could be motivated as either
+
+* The [[monad]] equivalent of a [[commutative algebraic theory]], generalized to either non-finitary theories or to categories other than [[Set]];
+* A [[monad]] on a [[monoidal category]] whose underlying functor is [[monoidal functor|lax monoidal]], and whose unit and multiplication are [[monoidal natural transformation|monoidal]]. The interpretation is that the monad plays well with the monoidal product of the category, encoding for example products of formal expressions;
+* A [[monad]] on a [[monoidal category]] whose [[strong monad|strength]] and [[strong monad|costrength]] commute with each other. 
+
+It turns out that all these concepts coincide (see below, as well as the articles on [[commutative algebraic theories]] and [[monoidal monads]]).
+
+
 ## Definition 
 
 Let $(T,\mu,\eta)$ be a [[monad]] on a [[symmetric monoidal category]] $C$, equipped with a [[strong monad|strength]] $\sigma$ (and with the costrength $\tau$ induced from $\sigma$ and the [[braiding]]). 
@@ -37,6 +48,29 @@ We say that $T$ (or $\sigma$) is **commutative** if the following diagram commut
 A commutative monad is equivalently a [[monoidal monad]], namely a [[monad#definition|monad in the bicategory]] of [[monoidal categories]], [[lax monoidal functors]] and [[monoidal natural transformations]]. 
 
 For the details see [[monoidal monad]].
+
+
+
+## Tensor product of algebras and multimorphisms
+
+In many situations, [[algebra over a monad|algebras]] over a commutative monad are canonically equipped with a [[tensor product]] analogous to the [[tensor product of modules]] over a ring. 
+In particular, commutative monads come equipped with a notion of [[multimorphisms]] of algebras, analogous to [[bilinear]] and [[multilinear maps]].
+For the details, see [[tensor product of algebras over a commutative monad]], and the [[tensor product of algebras over a commutative monad#bimorphisms_and_universal_property|section on the universal property]] for multimorphisms. 
+
+
+## Examples
+
+In many of the examples, one can see how the property of commutativity (as opposed to just the structure of a [[strong monad|strength]]) has really the meaning of the operations being commutative.
+
+* The free _commutative_ monoid monad on [[Set]] is commutative, the free monoid monad is not.
+* If $M$ is a [[monoid]], the "action monad" $X\mapsto R\times X$ on [[Set]] is commutative if and only if $M$ is commutative as a monoid. 
+* More generally, in an arbitrary [[symmetric monoidal category]], the monad induced by tensoring with an [[internal monoid]] is commutative if and only the monoid object is commutative. (See for example [Seal, Example 6.3.12](Seal12).)
+
+Since commutative monads are the same as monoidal monads, monads encoding structures which admit products are commutative:
+
+* Most [[probability monads]] are commutative, with monoidal structure given by forming the [[product probability]].
+* The [[power set]] monad is commutative, with monoidal structure given by forming the product of subsets.
+
 
 ## See also
 
