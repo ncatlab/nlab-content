@@ -23,7 +23,7 @@
 
 ## Idea
 
-[[algebra over a monad|Algebras]] over a [[monoidal monad|commutative monad]], in many cases, admit a [[tensor product]] analogous to the traditional [[tensor product of modules]] over a [[ring]]. 
+[[algebra over a monad|Algebras]] over a [[commutative monad]], in many cases, admit a [[tensor product]] analogous to the traditional [[tensor product of modules]] over a [[ring]]. 
 
 This tensor product satisfies a universal property analogous to the one of the tensor product of modules, namely it [[representable multicategory|represents]] [[multimorphisms]] in the same way in which the tensor product of modules represents [[bilinear maps]]. 
 
@@ -65,7 +65,7 @@ Moreover, if $\otimes$ is [[symmetric monoidal category|symmetric]], $\otimes_T$
 
 ## Bimorphisms and universal property
 
-[[monoidal monad|Commutative monads]] admit a notion of [[multimorphism]] of algebras analogous to the notion of [[bilinear]] and [[multilinear map]]. 
+[[commutative monad|Commutative monads]] admit a notion of [[multimorphism]] of algebras analogous to the notion of [[bilinear]] and [[multilinear map]]. 
 
 **Caveat.** Some authors call the analogue of a bilinear map a _bimorphism_. This is a distinct notion from the one given [[bimorphism|in this page]] (a morphism which is both epi and mono). 
 A less ambiguous term is [[binary morphism]].
