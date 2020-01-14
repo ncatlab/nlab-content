@@ -58,6 +58,11 @@ Discussion in relation to the [[Fulton-MacPherson compactifications]] of [[confi
 
 * {#FultonMacPherson94} [[William Fulton]], [[Robert MacPherson]], p. 189 of: _A compactification of configuration spaces_, Ann. of Math. (2), 139(1):183–225, 1994 ([jstor:2946631](https://www.jstor.org/stable/2946631))
 
+Discussion of [[Euler numbers]] of [[Hilbert schemes of points]]:
+
+* [[Hiraku Nakajima]], _Euler numbers of Hilbert schemes of points on simple surface singularities and quantum dimensions of standard modules of quantum affine algebras_ ([arXiv:2001.03834](https://arxiv.org/abs/2001.03834))
+
+
 ### As moduli spaces of instantons
 
 Discussion in their role as [[moduli spaces]] of [[instantons]]:
