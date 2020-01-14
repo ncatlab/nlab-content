@@ -25,11 +25,13 @@ A procedure for producing ([[Lagrangians]] for) [[topological quantum field theo
 
 ## Examples
 
-Topological twists of the [[type II string theory|type II]] [[superstring]] are the [[A-model]], [[B-model]] and [[half-twisted model]] versions of the [[topological string]].
+* Topological twists of the [[type II string theory|type II]] [[superstring]] are the [[A-model]], [[B-model]] and [[half-twisted model]] versions of the [[topological string]].
 
-For the topological twist of [[D=4 super Yang-Mills theory]] see at _[[topologically twisted D=4 super Yang-Mills theory]]_.
+* For the topological twist of [[D=4 super Yang-Mills theory]] see at _[[topologically twisted D=4 super Yang-Mills theory]]_.
 
-A topological twist of [[D=3 N=4 super Yang-Mills theory]] is [[Rozansky-Witten theory]].
+* A topological twist of [[D=3 N=4 super Yang-Mills theory]] is [[Rozansky-Witten theory]].
+
+* [[topologically twisted supergravity]]
 
 ## Related concepts
 
