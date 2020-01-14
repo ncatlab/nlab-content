@@ -371,7 +371,7 @@ The $\Theta$-categories were introduced in
 
 A discussion with lots of pictures is in [chapter 7](http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf#page=131) of
 
-* [[Eugenia Cheng]], [[Aaron Lauda]], _Higher-dimensional categories: an illustrated guidebook_ ([pdf](http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf))
+* [[Eugenia Cheng]], [[Aaron Lauda]], _Higher-dimensional categories: an illustrated guidebook_ ([pdf](http://eugeniacheng.com/wp-content/uploads/2017/02/cheng-lauda-guidebook.pdf))
 
 More discussion is in 
 
