@@ -39,4 +39,11 @@ Classification results are discussed in
 
 * Martin Kuchynka, Tomáš Málek, [[Vojtěch Pravda]], Alena Pravdová, _Almost universal spacetimes in higher-order gravity theories_ ([arXiv:1810.02178](https://arxiv.org/abs/1810.02178))
 
+
+Discussion for [[Einstein-Yang-Mills theory]]:
+
+* Martin Kuchynka, _Einstein-Yang-Mills fields immune to quantum corrections_ ([arXiv:2001.03768](https://arxiv.org/abs/2001.03768))
+
+
+
 [[!redirects universal spacetimes]]
