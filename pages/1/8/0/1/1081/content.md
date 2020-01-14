@@ -153,6 +153,8 @@ where $\mathbb{S}$ is the [[sphere spectrum]]. For more see [[generalized homolo
 
 ## Related concepts
 
+* [[homology of loop spaces]]
+
 * [[effective homology]]
 
 * [[persistent homology]]
