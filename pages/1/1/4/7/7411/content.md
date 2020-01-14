@@ -141,6 +141,12 @@ In particular, commutative monoids come equipped with a notion of [[multimorphis
 For the details, see [[tensor product of algebras over a commutative monad]], and the [[tensor product of algebras over a commutative monad#bimorphisms_and_universal_property|section on the universal property]] for multimorphisms. 
 
 
+## See also
+
+* [[strong monad]], [[tensorial strength]]
+* [[monoidal functor]]
+* [[commutative monad]], [[commutative algebraic theory]]
+
 
 ## References
 
