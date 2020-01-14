@@ -19,12 +19,19 @@
 
 ### For horizontal chord diagrams
 
++-- {: .num_remark #HomologyOfBasedLoopSpaceIsHopfAlgebra}
+###### Remark
+**([[Hopf algebra]]-[[mathematical structure|structures]])**
+
+Both the [[ordinary homology]] of a [[based loop space]] as well as the [[universal enveloping algebra]] of a [[Lie algebra]] are canonically [[Hopf algebras]], the former via the [[Pontrjagin ring]]-[[mathematical structure|structure]].
+
+=--
 
 +-- {: .num_prop #HomologyOfLoopSpaceOfConfigurationSpaceIsUniversalEnvelopingOfInfinitesimalBraids}
 ###### Proposition
 **([[ordinary homology]] of [[based loop space]] of [[ordered configuration space of points]] is [[universal enveloping algebra]] of [[infinitesimal braid Lie algebra]])**
 
-For $D, n \in \mathbb{N}$ and for any [[ground field]] $\mathbb{F}$ (in fact over every [[commutative ring]]) the [[ordinary homology]] of the [[based loop space]] of the [[ordered configuration space of points]] in the [[Cartesian space]]/[[Euclidean space]] $\mathbb{R}^D$ is [[isomorphism|isomorphic]], as a [[Hopf algebra]],  to the [[universal enveloping algebra]] of the [[infinitesimal braid Lie algebra]]:
+For $D, n \in \mathbb{N}$ [[natural numbers]] and for any [[ground field]] $\mathbb{F}$ (in fact over every [[commutative ring]]) the [[ordinary homology]] of the [[based loop space]] of the [[ordered configuration space of points]] in the [[Cartesian space]]/[[Euclidean space]] $\mathbb{R}^D$ is [[isomorphism|isomorphic]], as a [[Hopf algebra]] (Remark \ref{HomologyOfBasedLoopSpaceIsHopfAlgebra}),  to the [[universal enveloping algebra]] of the [[infinitesimal braid Lie algebra]]:
 
 $$
   H_\bullet
@@ -76,7 +83,7 @@ $$
 =--
  
 
-The combination of Prop. \ref{HomologyOfLoopSpaceOfConfigurationSpaceIsUniversalEnvelopingOfInfinitesimalBraids} and Prop. \ref{UniversalEnvelopingOfInfinitesimalBraidsIsHorizontalChords} fields:
+The combination of Prop. \ref{HomologyOfLoopSpaceOfConfigurationSpaceIsUniversalEnvelopingOfInfinitesimalBraids} and Prop. \ref{UniversalEnvelopingOfInfinitesimalBraidsIsHorizontalChords} yields:
 
 +-- {: .num_cor #HomologyOfLoopSpaceOfConfigurationSpaceIsAlgebraOfHorizontalChordDiagrams}
 ###### Corollary
