@@ -240,7 +240,7 @@ Deformation quantization of chiral algebras are studied by
 
 A class of "free" vertex algebras are also quantized using [[Batalin-Vilkovisky formalism]], with results important for understanding [[mirror symmetry]], in
 
-* Si Li, _Vertex algebras and quantum master equation_, [arxiv/1612.01292](https://arxiv.org/abs/1612.01292)
+* [[Si Li]], _Vertex algebras and quantum master equation_([arxiv/1612.01292](https://arxiv.org/abs/1612.01292))
 
 
 ### Further references
