@@ -290,7 +290,7 @@ Discussion of D-brane charge this way is in ([Maldacena-Moore-Seiberg 01](#Malda
 
 The original article is
 
-* {#Polchinski95} [[Joseph Polchinski]], _Dirichlet-Branes and Ramond-Ramond Charges_, Phys.Rev.Lett.75:4724-4727,1995 ([arXiv:hep-th/9510017](https://arxiv.org/abs/hep-th/9510017))
+* {#Polchinski95} [[Joseph Polchinski]], _Dirichlet-Branes and Ramond-Ramond Charges_, Phys. Rev. Lett. 75:4724-4727, 1995 ([arXiv:hep-th/9510017](https://arxiv.org/abs/hep-th/9510017))
 
   from p.7:
 
