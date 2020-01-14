@@ -19,4 +19,10 @@ On [[equivariant Tietze extension theorems]]:
 
 * [[Richard Lashof]], _The Equivariant Extension Theorem_, Proceedings of the American Mathematical Society Vol. 83, No. 1 (Sep., 1981), pp. 138-140 ([jstor:2043909](https://www.jstor.org/stable/2043909))
 
+On [[microbundles]]:
+
+* [[N. H. Kuiper]] and [[Richard Lashof|R. K. Lashof]], _Microbundles and Bundles I. Elementary Theory_, Invent. Math., 1, (1966), 1 – 17. 
+
+* [[N. H. Kuiper]] and [[Richard Lashof|R. K. Lashof]], _Microbundles and Bundles II. Semisimplicial Theory_, Invent. Math., 1, (1966), 243 – 259.
+
 category: people
