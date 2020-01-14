@@ -7,7 +7,7 @@ On [[homology of iterated loop spaces]]:
 
 * [[Eldon Dyer]], [[Richard Lashof]], _Homology of Iterated Loop Spaces_,  American Journal of Mathematics Vol. 84, No. 1 (Jan., 1962), pp. 35-88 ([jstor:2372804 ](https://www.jstor.org/stable/2372804))
 
-Other papers include
+On [[Mayer-Vietoris sequences]] as [[homotopy fiber sequences]]:
 
 *  [[Eldon Dyer]], Joseph Roitberg, _Note on sequence of Mayer-Vietoris type_, Proceedings of the AMS, volume 80, number 4 (1980) ([pdf](http://www.ams.org/journals/proc/1980-080-04/S0002-9939-1980-0587950-8/S0002-9939-1980-0587950-8.pdf))
 
