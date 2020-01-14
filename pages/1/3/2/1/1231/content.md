@@ -101,6 +101,8 @@ formulas for the [[six operations]] on D-modules.
 
 * [[bar and cobar construction]]
 
+* [[holography as Koszul duality]]
+
 ## References
 
 Other historical references on Koszul duality include
