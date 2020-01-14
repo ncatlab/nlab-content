@@ -27,9 +27,7 @@ Review:
 
 * [[Natalie Paquette]], _Koszul Duality  in Field Theory and Holography_, 2019 ([pdf](https://www.math.ksu.edu/research/m-center/paquette_koszulduality.pdf), [[PaquetteKoszulDuality.pdf:file]])
 
-Precursor:
-
-On [[topologically twisted supergravity]]:
+Precursor on  [[topologically twisted supergravity]]:
 
 * [[Kevin Costello]], [[Si Li]], _Twisted supergravity and its quantization_ ([arXiv:1606.00365](https://arxiv.org/abs/1606.00365), [spire:1466640](http://inspirehep.net/record/1466640))
 
