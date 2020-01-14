@@ -1,6 +1,8 @@
 
 * [webpage](https://www.ias.edu/scholars/sherman-eldon-dyer)
 
+* [Wikipedia (German)](https://de.wikipedia.org/wiki/Eldon_Dyer)
+
 ## Selected writings
 
 On [[homology of iterated loop spaces]]:
@@ -9,6 +11,6 @@ On [[homology of iterated loop spaces]]:
 
 On [[Mayer-Vietoris sequences]] as [[homotopy fiber sequences]]:
 
-*  [[Eldon Dyer]], Joseph Roitberg, _Note on sequence of Mayer-Vietoris type_, Proceedings of the AMS, volume 80, number 4 (1980) ([pdf](http://www.ams.org/journals/proc/1980-080-04/S0002-9939-1980-0587950-8/S0002-9939-1980-0587950-8.pdf))
+*  [[Eldon Dyer]], Joseph Roitberg, _Note on sequences of Mayer-Vietoris type_, Proceedings of the AMS, volume 80, number 4 (1980) ([pdf](http://www.ams.org/journals/proc/1980-080-04/S0002-9939-1980-0587950-8/S0002-9939-1980-0587950-8.pdf))
 
 category: people
