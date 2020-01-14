@@ -136,9 +136,12 @@ which completes the proof.
 
 ## Tensor product of algebras and multimorphisms
 
-In many situations, [[algebra over a monad|algebras]] over a commutative monad are canonically equipped with a [[tensor product]] analogous to the [[tensor product of modules]] over a ring. 
-In particular, commutative monoids come equipped with a notion of [[multimorphisms]] of algebras, analogous to [[bilinear]] and [[multilinear maps]].
-For the details, see [[tensor product of algebras over a commutative monad]], and the [[tensor product of algebras over a commutative monad#bimorphisms_and_universal_property|section on the universal property]] for multimorphisms. 
+See [[commutative monad#tensor_product_of_algebras_and_multimorphisms|here]].
+
+
+## Examples
+
+See [[commutative monad|examples of commutative monads]].
 
 
 ## See also
