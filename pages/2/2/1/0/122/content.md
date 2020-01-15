@@ -194,6 +194,11 @@ For functors with more complicated shapes than $C \rightrightarrows D$, see [[ex
 * See [[natural transformation (discussion)]] for an informal discussion about natural transformations.
 
 
+## References
+
+See [[category theory#references|category theory - references]].
+
+
 [[!redirects natural transformations]]
 
 [[!redirects naturality square]]
