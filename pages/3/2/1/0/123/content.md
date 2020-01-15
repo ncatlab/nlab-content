@@ -384,6 +384,11 @@ which provides an alternative expression of the functoriality condition as simpl
 * [[(∞,n)-functor]]
 
 
+## References
+
+See [[category theory#references|category theory - references]].
+
+
 [[!redirects functors]]
 [[!redirects covariant functor]]
 [[!redirects covariant functors]]
