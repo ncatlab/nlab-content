@@ -53,17 +53,10 @@ $$
 
 ([Witten 01, Section 3](#Witten01))
 
-
-### As Lie weight systems in BMN matrix model
- {#AsLieWeightSystemsInBMNModel}
-
-The [[supersymmetry|supersymmetric]] and [[rotation]]-[[invariant]] multi trace observables of the $N \times N$-[[BMN matrix model]] are precisely the values of [[special unitary Lie algebra|su(N)]]-[[Lie algebra weight systems]] on [[Sullivan chord diagrams]], namely on [[all horizontal weight systems are partitioned Lie algebra weight systems|permuted closures]] of [[horizontal chord diagrams]]:
-
-<img src="https://ncatlab.org/nlab/files/MultiTraceObservableFromSullivanChordDiagram.jpg" width="800">
+## Examples
 
 
-> from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
-
+[[!include chord diagrams as multi-trace observables in BMN matrix model -- example]]
 
 ## References
 
