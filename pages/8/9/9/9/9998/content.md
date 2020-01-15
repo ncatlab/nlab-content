@@ -35,6 +35,12 @@
 
 ### General
 
+Original articles:
+
+* [[Hugh Osborn]], _$\mathcal{N}=1$ Superconformal Symmetry in Four Dimensional Quantum Field Theory_, Annals Phys. 272:243-294, 1999 ([arXiv:hep-th/9808041](https://arxiv.org/abs/hep-th/9808041))
+
+Review:
+
 * Yuji Tachikawa, _Lectures on $4d$ $N=1$ dynamics and related topics_ ([arXiv:1812.08946](https://arxiv.org/abs/1812.08946))
 
 See also at _[[N=2 D=4 super Yang-Mills theory]]_.
