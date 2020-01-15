@@ -74,7 +74,7 @@ in computer science and quantum physics (not to mention pure mathematics itself)
   * [Lecture 32 - Chapter 2: Enriched Functors](https://forum.azimuthproject.org/discussion/2169/lecture-32-chapter-2-enriched-functors/p1)
   * [Lecture 33 - Chapter 2: Tying Up Loose Ends](https://forum.azimuthproject.org/discussion/2192/lecture-33-chapter-2-tying-up-loose-ends/p1)
 
-* [[David I Spivak]], _Category theory for the sciences._ MIT Press, 2014.
+* [[David Spivak]], _Category theory for the sciences._ MIT Press, 2014.
 
 * [[Brandon Coya]], _Circuits, Bond Graphs, and Signal-Flow Diagrams: A Categorical Perspective_, [arXiv:1805.08290](https://arxiv.org/abs/1805.08290)
 
