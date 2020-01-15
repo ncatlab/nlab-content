@@ -53,6 +53,13 @@ $$
 * [[monad (in computer science)]]
 
 
+## References
+
+Some introductory material on [[comonads]], [[coalgebras]] and [[co-Kleisli morphisms]] can be found in
+
+* [[Paolo Perrone]], _Notes on Category Theory with examples from basic mathematics_, Chapter 5. ([arXiv](http://arxiv.org/abs/1912.10642))
+
+
 [[!redirects co-Kleisli categories]]
 [[!redirects coKleisli category]]
 [[!redirects coKleisli categories]]
