@@ -27,7 +27,7 @@ A _multi trace observable_ in a [[gauge theory]] is a [[polynomial]] in [[single
 
 ### Under AdS/CFT correspondence
 
-Under the [[AdS/CFT correspondence]], [[single trace observables]] in the gauge theory correspond to single particle/string excitations on the [[gravity]]-side, while multi-trace observables correspond to multi-particle/string excitations ([Liu 98, p. 7](#Liu98), [Andrianapoli-Ferrara 99, p. 13](#AndrianapoliFerrara99), [Chalmers-Schalm 00, Section 7](#ChalmersSchalm00), [Aharony-Gubser-Maldacena-Ooguri-Oz 99, p. 75](#AharonyGubserMaldacenaOoguriOz9))
+Under the [[AdS/CFT correspondence]], [[single trace observables]] in the gauge theory correspond to single particle/string excitations on the [[gravity]]-side, while multi-trace observables correspond to multi-particle/string excitations ([Liu 98, p. 6 (7 of 39)](#Liu98), [Andrianapoli-Ferrara 99, p. 13](#AndrianapoliFerrara99), [Chalmers-Schalm 00, Section 7](#ChalmersSchalm00), [Aharony-Gubser-Maldacena-Ooguri-Oz 99, p. 75](#AharonyGubserMaldacenaOoguriOz9))
 
 The [[asymptotic boundary|asymptotic]] [[boundary conditions]] for [[field (physics)|fields]] $\Phi$ on the AdS-side 
 
@@ -83,6 +83,8 @@ Discussion of [[multi-trace operators]] in [[super Yang-Mills theory]] and of th
 
 * Witold Skiba, _Correlators of Short Multi-Trace Operators in $\mathcal{N}=4$ Supersymmetric Yang-Mills_, Phys. Rev. D 60, 105038 (1999) ([arXiv:hep-th/9907088](https://arxiv.org/abs/hep-th/9907088))
 
+* [[Eric D'Hoker]], [[Daniel Freedman]], [[Samir Mathur]], A. Matusis, [[Leonardo Rastelli]], _Extremal Correlators in the AdS/CFT Correspondence_, in: _[[The many faces of the superworld]]_ ([arXiv:hep-th/9908160](https://arxiv.org/abs/hep-th/9908160))
+
 * [[Gleb Arutyunov]], [[Sergey Frolov]], A. C. Petkou, _Perturbative and instanton corrections to the OPE of CPOs in $\mathcal{N}=4$ $SYM_4$_, Nucl. Phys. B602:238-260, 2001; Erratum-ibid. B609:540, 2001 ([arXiv:hep-th/0010137](https://arxiv.org/abs/hep-th/0010137))
 
 
@@ -91,6 +93,7 @@ Discussion of [[multi-trace operators]] in [[super Yang-Mills theory]] and of th
 
 * [[Ofer Aharony]], [[Micha Berkooz]], [[Eva Silverstein]], _Non-local string theories on $AdS_3$ times $S^3$ and stable non-supersymmetric backgrounds_, Phys. Rev. D65:106007, 2002 ([arXiv:hep-th/0112178](https://arxiv.org/abs/hep-th/0112178))
 
+* L. Hoffmann, L. Mesref, A. Meziane, W. Rühl, _Multi-trace quasi-primary fields of $\mathcal{N}=4$ $SYM_4$ from AdS $n$-point functions_, Nucl. Phys. B641 (2002) 188-222 ([arXiv:hep-th/0112191](https://arxiv.org/abs/hep-th/0112191))
 
 
 * {#Witten01} [[Edward Witten]], _Multi-Trace Operators, Boundary Conditions, And AdS/CFT Correspondence_ ([arXiv:hep-th/0112258](https://arxiv.org/abs/hep-th/0112258))
@@ -100,8 +103,11 @@ Discussion of [[multi-trace operators]] in [[super Yang-Mills theory]] and of th
 * [[Vijay Balasubramanian]], [[Jan de Boer]], [[Bo Feng]], [[Yang-Hui He]], Min-xin Huang, Vishnu Jejjala, Asad Naqvi, _Multi-Trace Superpotentials vs. Matrix Models_, Commun. Math. Phys. 242:361-392, 2003 ([arXiv:hep-th/0212082](https://arxiv.org/abs/hep-th/0212082))
 
 
+
 * [[Steven Gubser]], [[Igor Klebanov]], _A universal result on central charges in the presence of double-trace deformations_, Nucl. Phys. B656 (2003) 23-36 ([arXiv:hep-th/0212138](https://arxiv.org/abs/hep-th/0212138))
 
+
+* P. J. Heslop, [[Paul Howe]], _Aspects of $\mathcal{N}$=4 SYM_, JHEP 0401 (2004) 058 ([arXiv:hep-th/0307210](https://arxiv.org/abs/hep-th/0307210))
 
 
 * Thomas Hartman, [[Leonardo Rastelli]], _Double-Trace Deformations, Mixed Boundary Conditions and Functional Determinants in AdS/CFT_, JHEP 0801:019, 2008 ([arXiv:hep-th/0602106](https://arxiv.org/abs/hep-th/0602106))
