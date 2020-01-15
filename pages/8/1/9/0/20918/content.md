@@ -422,6 +422,9 @@ This is the statement of [Bar-Natan 96, Corollary 2.6](#BarNatan96).
 <img src="https://ncatlab.org/nlab/files/PartitionedLieAlgebraWeightSystem.jpg" width="840">
 </center>
 
+## Applications
+
+[[!include chord diagrams as multi-trace observables in BMN matrix model -- example]]
 
 
 ## References
