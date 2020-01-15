@@ -114,10 +114,18 @@ The quantization program and the study of [[integrable systems]] brought about a
 
 Noncommutative formal geometry, concerned with objects like infinitesimal neighborhoods of subvariaties, power series in noncommutative variables and so on, has been appearing more sporadically than the operator algebraic and algebro-geometric frameworks. Among pioneering works, there are [[Kontsevich]]'s (formal) noncommutative symplectic geometry (1992) and [[Kapranov's noncommutative geometry]] "based on commutator expansions". Noncommutative [[analytic geometry]] is even now only vaguely outlined in existing works. 
 
-
+[[!redirects noncommutative geometries]]
 
 [[!redirects non-commutative geometry]]
+[[!redirects non-commutative geometries]]
 
 
 [[!redirects noncommutative space]]
 [[!redirects noncommutative spaces]]
+
+[[!redirects non-commutative space]]
+[[!redirects non-commutative spaces]]
+
+
+
+
