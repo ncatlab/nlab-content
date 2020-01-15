@@ -278,6 +278,8 @@ Other references:
 
 * Martin Schmidt, _Functorial Approach to Graph and Hypergraph Theory_, ([arXiv:1907.02574](https://arxiv.org/abs/1907.02574))
 
+See also [[quiver#references|quiver - references]].
+
 Discussion of use of [[simplicial complexes]] in graph theory:
 
 * MO, _[What have simplicial complexes ever done for graph theory?](http://mathoverflow.net/questions/161586/what-have-simplicial-complexes-ever-done-for-graph-theory)_
