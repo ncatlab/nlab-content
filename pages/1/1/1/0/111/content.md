@@ -277,13 +277,16 @@ The standard textbook is
 
 Expositions include
 
+* A. Martini, H. Ehrig, and D. Nunes, [Elements of basic category theory](http://citeseer.ist.psu.edu/martini96element.html), Technical Report 96-5, Technical University Berlin.
+
 * Jaap van Oosten, [Basic category theory] (http://www.math.uu.nl/people/jvoosten/syllabi/catsmoeder.pdf).
+
+* [[Paolo Perrone]], _Notes on Category Theory with examples from basic mathematics_. ([arXiv](http://arxiv.org/abs/1912.10642))
 
 * Andrea Schalk and H. Simmons, [An introduction to category theory in four easy movements](http://www.cs.man.ac.uk/~hsimmons/BOOKS/CatTheory.pdf), notes for a course offered as part of the MSc. in Mathematical Logic, Manchester University.
 
 * Daniele Turim, [Category theory lecture notes](http://www.dcs.ed.ac.uk/home/dt/CT/categories.pdf), 1996-2001.  Based on Mac Lane's book (1998).
 
-* A. Martini, H. Ehrig, and D. Nunes, [Elements of basic category theory](http://citeseer.ist.psu.edu/martini96element.html), Technical Report 96-5, Technical University Berlin.
 
 A textbook that introduces categories by examples arising in [[mathematical physics]] is 
 
