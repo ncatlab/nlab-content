@@ -308,6 +308,7 @@ One proposal for a formalization of a toy version in the context of [[AQFT]] is 
 
 \linebreak
 
+
 ## References
 
 ### Original articles
@@ -326,6 +327,7 @@ The actual rule for matching [[bulk field theory|bulk]] [[states]] to [[generati
 
 See also
 
+* [[Tom Banks]], [[Michael Douglas]], [[Gary Horowitz]], [[Emil Martinec]], _AdS Dynamics from Conformal Field Theory_ ([arXiv:hep-th/9808016](https://arxiv.org/abs/hep-th/9808016), [spire:474214](http://inspirehep.net/record/474214))
 
 * {#Giraldo12} Carlos Andrés Cardona Giraldo, _Correlation functions in AdS/CFT correspondence_, 2012 ([spire:1652794](inspirehep.net/record/1652794), [pdf](https://digital.bl.fcen.uba.ar/download/tesis/tesis_n5179_CardonaGiraldo.pdf))
 
