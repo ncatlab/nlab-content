@@ -37,6 +37,11 @@ On the [[Witten index]] of [[D=3 N=1 super Yang-Mills theory]]:
 
 * [[Edward Witten]], _Supersymmetric Index Of Three-Dimensional Gauge Theory_, in: _[[The many faces of the superworld]]_ ([arXiv:hep-th/9903005](https://arxiv.org/abs/hep-th/9903005))
 
+On [[multi-trace operators]] in the [[AdS/CFT correspondence]]:
+
+* [[Eric D'Hoker]], [[Daniel Freedman]], [[Samir Mathur]], A. Matusis, [[Leonardo Rastelli]], _Extremal Correlators in the AdS/CFT Correspondence_, in: _[[The many faces of the superworld]]_ ([arXiv:hep-th/9908160](https://arxiv.org/abs/hep-th/9908160))
+
+
 
 
 * ...
