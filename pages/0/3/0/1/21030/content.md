@@ -63,11 +63,6 @@ On [[M5-branes]] in the [[BMN matrix model]]:
 * [[Hai Lin]], [[Juan Maldacena]], _Fivebranes from gauge theory_, Phys. Rev. D74:084014, 2006 ([arXiv:hep-th/0509235](https://arxiv.org/abs/hep-th/0509235))
 
 
-On the [[BMN matrix model]] as a [[KK-compactification]] of [[D=4 N=4 super Yang-Mills theory]] on the [[3-sphere]]:
-
-* [[Nakwoo Kim]], [[Thomas Klose]], [[Jan Plefka]], _Plane-wave Matrix Theory from N=4 Super Yang-Mills on $\mathbb{R} \times S^3$_, Nucl. Phys. B671:359-382, 2003 ([arXiv:hep-th/0306054](https://arxiv.org/abs/hep-th/0306054))
-
-
 
 
 Discussion of the [[large N limit]]:
@@ -82,9 +77,6 @@ Discussion of [[chaos]] in the [[M2-brane]] physics described by the BMN matrix 
 Discussion of [[thermodynamics]], [[phase transitions]] and [[thermal field theory]] of the BMN matrix model:
 
 * Miguel S. Costa, Lauren Greenspan, Joao Penedones, [[Jorge Santos]], _Thermodynamics of the BMN matrix model at strong coupling_, JHEP 03 (2015) 069 ([arXiv:1411.5541](https://arxiv.org/abs/1411.5541))
-
-
-
 
 * Yuhma Asano, Veselin G. Filev, Samuel Kováčik, Denjoe O'Connor, _The non-perturbative phase diagram of the BMN matrix model_, JHEP 1807 (2018) 152 ([arXiv:1805.05314](https://arxiv.org/abs/1805.05314))
 
@@ -102,6 +94,17 @@ See also
 * [[Yolanda Lozano]], [[Carlos Nunez]], Salomon Zacarias, _BMN Vacua, Superstars and Non-Abelian T-duality_, JHEP 09 (2017) 008 ([arXiv:1703.00417](https://arxiv.org/abs/1703.00417))
 
 * Yuhma Asano, Samuel Kováčic, Denjoe O'Connor, _The Confining Transition in the Bosonic BMN Matrix Model_ ([arXiv:2001.03749](https://arxiv.org/abs/2001.03749))
+
+
+### KK-compactification from $D=4$ $\mathcal{N}=4$ SYM
+
+On the [[BMN matrix model]] as a [[KK-compactification]] of [[D=4 N=4 super Yang-Mills theory]] on the [[3-sphere]]:
+
+* [[Nakwoo Kim]], [[Thomas Klose]], [[Jan Plefka]], _Plane-wave Matrix Theory from N=4 Super Yang-Mills on $\mathbb{R} \times S^3$_, Nucl. Phys. B671:359-382, 2003 ([arXiv:hep-th/0306054](https://arxiv.org/abs/hep-th/0306054))
+
+Using the [[KK-compactification]] of [[D=4 N=4 super Yang-Mills theory]] to the [[BMN matrix model]] for [[lattice gauge theory]]-computations in [[D=4 N=4 SYM]] and for numerical checks of the [[AdS-CFT correspondence]]:
+
+* Masazumi Honda, Goro Ishiki, Sang-Woo Kim, Jun Nishimura, Asato Tsuchiya, _Direct test of the AdS/CFT correspondence by Monte Carlo studies of N=4 super Yang-Mills theory_, JHEP 1311 (2013) 200 ([arXiv:1308.3525](https://arxiv.org/abs/1308.3525))
 
 
 [[!include pp-waves as Penrose limits of AdS spacetimes -- references]]
