@@ -17,9 +17,42 @@
 
 ## Idea
 
-A _multi trace observable_ in a [[gauge theory]] is a [[polynomial]] in [[single trace operators]] (see there for more background). Under the [[AdS/CFT correspondence]], [[single trace observables]] in the gauge theory correspond to single particle/string excitations on the [[gravity]]-side, while multi-trace observables correspond to multi-particle/string excitations ([Liu 98, p. 7](#Liu98), [Andrianapoli-Ferrara 99, p. 13](#AndrianapoliFerrara99)).
+A _multi trace observable_ in a [[gauge theory]] is a [[polynomial]] in [[single trace operators]] (see there for more background). 
+
+
+
+
 
 ## Properties
+
+### Under AdS/CFT correspondence
+
+Under the [[AdS/CFT correspondence]], [[single trace observables]] in the gauge theory correspond to single particle/string excitations on the [[gravity]]-side, while multi-trace observables correspond to multi-particle/string excitations ([Liu 98, p. 7](#Liu98), [Andrianapoli-Ferrara 99, p. 13](#AndrianapoliFerrara99), [Chalmers-Schalm 00, Section 7](#ChalmersSchalm00), [Aharony-Gubser-Maldacena-Ooguri-Oz 99, p. 75](#AharonyGubserMaldacenaOoguriOz9))
+
+The [[asymptotic boundary|asymptotic]] [[boundary conditions]] for [[field (physics)|fields]] $\Phi$ on the AdS-side 
+
+$$
+  \Phi(\vec x, r)
+  \overset{r \to 0}
+  \sum_i
+  \alpha_i (\vec x)
+  r^{d -\lambda_i}
+  + 
+  \cdots
+$$
+
+that correspond to multi-trace observables $W(\{\mathcal{O}_i\})$ have [[coefficients]] given by the [[derivative]] of the multi-trace [[polynomial]] by its single-trace variables $\mathcal{O}_i$:
+
+$$
+  \alpha_i
+  =
+  \partial_{\mathcal{O}_i}
+  W
+  (\{\langle\mathcal{O}_i\rangle\})
+$$
+
+([Witten 01, Section 3](#Witten01))
+
 
 ### As Lie weight systems in BMN matrix model
  {#AsLieWeightSystemsInBMNModel}
@@ -42,7 +75,9 @@ Discussion of [[multi-trace operators]] in [[super Yang-Mills theory]] and of th
 
 * {#AndrianapoliFerrara99} [[Laura Andrianopoli]], [[Sergio Ferrara]], _On short and long $SU(2,2/4)$ multiplets in the AdS/CFT correspondence_, Lett. Math.Phys. 48 (1999) 145-161 ([arXiv:hep-th/9812067](https://arxiv.org/abs/hep-th/9812067))
 
-* Gordon Chalmers, Koenraad Schalm, _Holographic Normal Ordering and Multi-particle States in the AdS/CFT Correspondence_, Phys. Rev. D61:046001, 2000 ([arXiv:hep-th/9901144](https://arxiv.org/abs/hep-th/9901144))
+* {#ChalmersSchalm00} Gordon Chalmers, Koenraad Schalm, _Holographic Normal Ordering and Multi-particle States in the AdS/CFT Correspondence_, Phys. Rev. D61:046001, 2000 ([arXiv:hep-th/9901144](https://arxiv.org/abs/hep-th/9901144))
+
+* {#AharonyGubserMaldacenaOoguriOz99} [[Ofer Aharony]], [[Steven Gubser]], [[Juan Maldacena]], [[Hirosi Ooguri]], [[Yaron Oz]], _Large $N$ Field Theories, String Theory and Gravity_, Phys. Rept. 323:183-386, 2000 ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
 
 * Massimo Bianchi, Stefano Kovacs, Giancarlo Rossi, Yassen S. Stanev, _On the logarithmic behaviour in $\mathcal{N}=4$ SYM theory_, JHEP 9908 (1999) 020 ([arXiv:hep-th/9906188](https://arxiv.org/abs/hep-th/9906188))
 
@@ -58,7 +93,7 @@ Discussion of [[multi-trace operators]] in [[super Yang-Mills theory]] and of th
 
 
 
-* [[Edward Witten]], _Multi-Trace Operators, Boundary Conditions, And AdS/CFT Correspondence_ ([arXiv:hep-th/0112258](https://arxiv.org/abs/hep-th/0112258))
+* {#Witten01} [[Edward Witten]], _Multi-Trace Operators, Boundary Conditions, And AdS/CFT Correspondence_ ([arXiv:hep-th/0112258](https://arxiv.org/abs/hep-th/0112258))
 
 * [[Steven Gubser]], Indrajit Mitra, _Double-trace operators and one-loop vacuum energy in AdS/CFT_, Phys. Rev. D67 (2003) 064018 ([arXiv:hep-th/0210093](https://arxiv.org/abs/hep-th/0210093))
 
