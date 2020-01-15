@@ -7,6 +7,11 @@ On [[string phenomenology]] via [[D=2 N=(2,0) SCFT]]:
 
 * {#BDFF88} [[Tom Banks]], [[Lance Dixon]], [[Dan Friedan]], [[Emil Martinec]], _Phenomenology and Conformal Field Theory or Can String Theory Predict the Weak Mixing Angle?_, Nucl. Phys. B299 (1988) 613.  ([pdf](http://www.slac.stanford.edu/cgi-wrap/getdoc/slac-pub-4377.pdf))
 
+On the [[AdS/CFT correspondence]]:
+
+* [[Tom Banks]], [[Michael Douglas]], [[Gary Horowitz]], [[Emil Martinec]], _AdS Dynamics from Conformal Field Theory_ ([arXiv:hep-th/9808016](https://arxiv.org/abs/hep-th/9808016), [spire:474214](http://inspirehep.net/record/474214))
+
+
 On the [[BFSS matrix model]] ([[M-theory]] as [[D0-brane]] [[quantum mechanics]] in [[non-perturbative effect|non-perturbative]] [[type IIA string theory]]):
 
 * {#BanksFischlerShenkerSusskind96} [[Tom Banks]], [[Willy Fischler]], [[Stephen Shenker]], [[Leonard Susskind]], _M Theory As A Matrix Model: A Conjecture_  Phys. Rev. D55 (1997). ([arXiv:hep-th/9610043](http://arxiv.org/abs/hep-th/9610043))
