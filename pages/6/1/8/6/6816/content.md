@@ -69,6 +69,7 @@ There is a natural reformulation of the theory using [[twistor]] [[field (physic
 There is a topological twist of 4d SYM to a [[TQFT]] -- the [[Kapustin-Witten TQFT]]. Its [[S-duality]] is supposed to contain [[geometric Langlands duality]] as a special case.
 
 See at _[[topologically twisted D=4 super Yang-Mills theory]]_.
+
 ## Related concepts
 
 * [[super Yang-Mills theory]]
@@ -90,19 +91,24 @@ See at _[[topologically twisted D=4 super Yang-Mills theory]]_.
 
 ### General
 
-An introduction to $d=4$ SYM is in 
+Discussion of [[D=4 N=4 SYM]] with emphasis on [[multi-trace operators]]:
 
-* Joseph A. Minahan _Review of AdS/CFT Integrability, Chapter I.1: Spin Chains in $N=4$ Super Yang-Mills_ ([arXiv:1012.3983](http://arxiv.org/abs/1012.3983))
+* P. J. Heslop, [[Paul Howe]], _Aspects of $\mathcal{N}$=4 SYM_, JHEP 0401 (2004) 058 ([arXiv:hep-th/0307210](https://arxiv.org/abs/hep-th/0307210))
+
+[[superconformal group|Superconformal]] invariance of $\mathcal{N}=4$, $D=4$ SYM can be shown with the result of 
+
+* Robert Leigh, [[Matthew Strassler]], _Exactly Marginal Operators and Duality in Four Dimensional $\mathcal{N}=1$ Supersymmetric Gauge Theory_ ([arXiv:hep-th/9503121](http://arxiv.org/abs/hep-th/9503121))
+
+(after regarding it as $\mathcal{N}=1$ SYM with three adjoint chiral [[superfield]]s).
+
+
+Introductions in view of [[single trace operators]] as [[spin chain]] [[integrable systems]] in the [[AdS/CFT correspondence]]:
+
+* Joseph A. Minahan _Review of AdS/CFT Integrability, Chapter I.1: Spin Chains in $\mathcal{N}=4$ Super Yang-Mills_ ([arXiv:1012.3983](http://arxiv.org/abs/1012.3983))
 
 More recent results are in 
 
 * Simon Caron-Huot, _Superconformal symmetry and two-loop amplitudes in planar N=4 super Yang-Mills_ ([arXiv:1105.5606](http://arxiv.org/abs/1105.5606))
-
-Superconformal invariance of $N=4$, $D=4$ SYM can be shown with the result of 
-
-* Robert Leigh, [[Matthew Strassler]], _Exactly Marginal Operators and Duality in Four Dimensional N=1 Supersymmetric Gauge Theory_ ([arXiv:hep-th/9503121](http://arxiv.org/abs/hep-th/9503121))
-
-(after regarding it as $N=1$ SYM with three adjoint chiral [[superfield]]s).
 
 ### Matrix model description
 
@@ -110,6 +116,11 @@ Superconformal invariance of $N=4$, $D=4$ SYM can be shown with the result of
 On the [[BMN matrix model]] as a [[KK-compactification]] of [[D=4 N=4 super Yang-Mills theory]] on the [[3-sphere]]:
 
 * [[Nakwoo Kim]], [[Thomas Klose]], [[Jan Plefka]], _Plane-wave Matrix Theory from N=4 Super Yang-Mills on $\mathbb{R} \times S^3$_, Nucl. Phys. B671:359-382, 2003 ([arXiv:hep-th/0306054](https://arxiv.org/abs/hep-th/0306054))
+
+Using the [[KK-compactification]] of [[D=4 N=4 super Yang-Mills theory]] to the [[BMN matrix model]] for [[lattice gauge theory]]-computations in [[D=4 N=4 SYM]] and for numerical checks of the [[AdS-CFT correspondence]]:
+
+* Masazumi Honda, Goro Ishiki, Sang-Woo Kim, Jun Nishimura, Asato Tsuchiya, _Direct test of the AdS/CFT correspondence by Monte Carlo studies of N=4 super Yang-Mills theory_, JHEP 1311 (2013) 200 ([arXiv:1308.3525](https://arxiv.org/abs/1308.3525))
+
 
 ### Planar sector, integrability, MHV amplitudes
 
