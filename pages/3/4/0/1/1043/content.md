@@ -120,6 +120,17 @@ Some or all of these have analogs in [[higher category theory]], notably in [[2-
 * [[adjoint (∞,1)-functor]]
 
 
+## References
+
+An introductory but thorough treatment of universal properties and their relationship with the [[Yoneda lemma]] is given in 
+
+* [[Emily Riehl]], _Category Theory in context_, Chapter 2. ([pdf](http://www.math.jhu.edu/~eriehl/context.pdf))
+
+A more informal and intuitive account is given in
+
+* [[Paolo Perrone]], _Notes on Category Theory with examples from basic mathematics_, Chapter 2. ([arXiv](http://arxiv.org/abs/1912.10642))
+
+
 [[!redirects universal construction]]
 [[!redirects universal constructions]]
 [[!redirects universal mapping]]
