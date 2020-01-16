@@ -46,3 +46,7 @@ Textbook accounts:
 
 * {#Pfeifer} Walter Pfeifer, _The Lie algebra $\mathfrak{su}(2)$_, In: _The Lie Algebras $\mathfrak{su}(N)$, Birkhäuser, Basel (2003) ([doi:10.1007/978-3-0348-8097-8_3](https://doi.org/10.1007/978-3-0348-8097-8_3), [pdf](https://link.springer.com/content/pdf/10.1007/978-3-0348-8097-8_3.pdf))
 
+See also
+
+* Wikipedia, _<a href="https://en.m.wikipedia.org/wiki/Representation_theory_of_SU(2)">Representation theory of SU(2)</a>_
+
