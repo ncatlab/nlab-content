@@ -37,11 +37,23 @@ It is open whether there exists a more direct proof, in particular a proof using
 
 ## References
 
+### General
+
 * wikipedia: [Fermat curve](http://en.wikipedia.org/wiki/Fermat_curve), [Fermat's last theorem](http://en.wikipedia.org/wiki/Fermat%27s_last_theorem)
 
 * [[eom]]: [Fermat's last theorem](http://www.encyclopediaofmath.org/index.php?title=p/f110070)
 
 * {#McLarty10} [[Colin McLarty]], _What does it take to prove Fermat's last theorem? Grothendieck and the logic of number theory_, Bull. Symbolic Logic __16__ (2010), no. 3, 359&#8211;377 [jstor](http://www.jstor.org/stable/20749620)
+
+### Applications
+
+Discussion of [[anomaly cancellation]] on the [[standard model of particle physics]]:
+
+* Nakarin Lohitsiri, [[David Tong]], _Hypercharge Quantisation and Fermat's Last Theorem_ ([arXiv:1907.00514](https://arxiv.org/abs/1907.00514))
+
+
+
+
 
 [[!redirects Fermat's last theorem]]
 [[!redirects Fermat equation]]
