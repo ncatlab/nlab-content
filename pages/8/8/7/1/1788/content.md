@@ -1,4 +1,26 @@
 
+scale weight system by
+
+$4\pi/\sqrt{N^2-1}$ overall
+
+and by 
+
+$4/(N^2-1)$ for each degree
+
+So then
+
+$1/\sqrt{N^2-1}\cdot \mathbf{N}$ is M2-brane states
+
+while
+
+$N/\sqrt{N^2-1}\cdot \mathbf{1}$ is M5-brane states
+
+
+
+
+
+
+
 **Cohomotopy theory and Microscopic brane physics**
 
 As reviewed in H. Sati's talk, assuming that the C-field is charge-quantized in the generalized cohomology theory called J-twisted Cohomotopy  ("Hypothesis H") implies a list of M-theoretic anomaly cancellation conditions, such a shifted flux quantization, DMW anomaly cancellation and C-field tadpole cancellation on 8-manifolds. In this talk I review the further geometric refinement of the cohomology theory to equivariant Cohomotoy theory and to differential Cohomotopy theory. Now we find that Hypothesis H implies also the Witten mechanism of multiple M5-branes on MO5 ADE-orientifolds, hence RR-field tadpole cancellation in IIA, as well as a multitude of effects associated with Dp/D(p+2)-brane intersections: Chan-Paton factors, BMN matrix model fuzzy funnel states and BLG 3-algebras, the Hanany-Witten rules, AdS3-gravity observables, supersymmetric indices of Coulomb branches as well as gauge/gravity duality between all these.
