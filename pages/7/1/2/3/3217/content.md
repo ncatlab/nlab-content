@@ -655,6 +655,10 @@ More general issues of index theory in noncommutative geometry applied to foliat
 
 * W. P. Thurston, _Existence of codimension-one foliations_,  Ann. of Math. (2) __104__  (1976), no. 2, 249--268 ([doi](http://dx.doi.org/10.1007/BF02566730)); _Foliations and groups of diffeomorphisms_, Bull. Amer. Math. Soc. 80  (1974), 304--307 ([pdf](http://www.ams.org/bull/1974-80-02/S0002-9904-1974-13475-0/S0002-9904-1974-13475-0.pdf)); _The theory of foliations of codimension greater than one_,  Comment. Math. Helv.  49  (1974), 214--231 ([link](http://resolver.sub.uni-goettingen.de/purl?GDZPPN00206135X))
 
+The first of a series on foliations in [[derived geometry]]
+
+* [[Bertrand Toën]], [[Gabriele Vezzosi]], _Algebraic foliations and derived geometry: the Riemann-Hilbert correspondence_, ([arXiv:2001.05450](https://arxiv.org/abs/2001.05450))
+
 
 [[!redirects foliations]]
 [[!redirects leaf space]]
