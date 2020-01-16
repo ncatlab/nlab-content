@@ -30,11 +30,11 @@ For $N \in \mathbb{N}$, $j \geq 2$, the _fuzzy 2-sphere_ of $N$ bits is the [[fo
 
 More in detail:
 
-With $\mathfrak{su}(2)$ the [[Lie algebra]] of [[SU(2)]], write
+With $\mathfrak{su}(2)$ the [[Lie algebra]] [[su(2)]] of [[SU(2)]], write
 
 $$
   \sigma_i \in \mathfrak{su}(2)
-  \,\,\,
+  ,\,\,
   i \in \{1,2,3\}
 $$
 
@@ -70,7 +70,7 @@ $$
   Mat_{N \times N}
 $$
 
-be the $N$-dimensional [[irreducible representation|irreducible]] [[Lie algebra representation]] of $\mathfrak{su}(2)$, and write
+be the $N$-dimensional [[complex numbers|complex]] [[irreducible representation|irreducible]] [[Lie algebra representation]] of [[su(2)]] (hence of $\mathfrak{sl}(2,\mathbb{C})$), and write
 
 $$
   X_i 
@@ -81,7 +81,7 @@ $$
     \rho_N(\sigma_i)
 $$
 
-for the matrices representing the generators $\sigma_i$ in this representation, suitably normalized. 
+for the [[square matrices]] representing the generators $\sigma_i$ in this representation, suitably normalized. 
 
 Due to the normalization, the commutation relation (eq:CommutationRelationsu2) in this representation reads
 
