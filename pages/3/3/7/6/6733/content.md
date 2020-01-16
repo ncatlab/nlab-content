@@ -555,13 +555,9 @@ Further developments include
 
 * Sheng-Lan Ko, [[Dmitri Sorokin]], Pichet Vanichchapongjaroen, _The M5-brane action revisited_ ([arXiv:1308.2231](http://arxiv.org/abs/1308.2231))
 
-### Matrix model description
 
-On [[M5-branes]] in the [[BMN matrix model]]:
 
-* [[Juan Maldacena]], [[Mohammad Sheikh-Jabbari]], [[Mark Van Raamsdonk]], _Transverse Fivebranes in Matrix Theory_, JHEP 0301:038, 2003 ([arXiv:hep-th/0211139](https://arxiv.org/abs/hep-th/0211139))
-
-* [[Hai Lin]], [[Juan Maldacena]], _Fivebranes from gauge theory_, Phys. Rev. D74:084014, 2006 ([arXiv:hep-th/0509235](https://arxiv.org/abs/hep-th/0509235))
+[[!include M5-branes in the BMN matrix model -- references]]
 
 
 ### Worldvolume theory
