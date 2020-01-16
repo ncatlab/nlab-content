@@ -61,7 +61,7 @@ Claims that proton decay may be entirely avoided in [[GUTs]] after all are discu
 
 and in particular in [[gauge-Higgs grand unification]] (such as [[Spin(11)]]- ("[[SO(11)]]"-) and [[Spin(12)]]- ("[[SO(12)]]"-) models):
 
- {#HosotaniYamatsu15} Yutaka Hosotani, Naoki Yamatsu, _Gauge–Higgs grand unification_, Progress of Theoretical and Experimental Physics, Volume 2015, Issue 11, November 2015 ([arXiv:1504.03817](https://arxiv.org/abs/1504.03817), [doi:10.1093/ptep/ptw116](https://doi.org/10.1093/ptep/ptw116))
+* {#HosotaniYamatsu15} Yutaka Hosotani, Naoki Yamatsu, _Gauge–Higgs grand unification_, Progress of Theoretical and Experimental Physics, Volume 2015, Issue 11, November 2015 ([arXiv:1504.03817](https://arxiv.org/abs/1504.03817), [doi:10.1093/ptep/ptw116](https://doi.org/10.1093/ptep/ptw116))
 
 * {#FuruiHosotaniYamatsu16} Atsushi Furui, Yutaka Hosotani, Naoki Yamatsu, _Toward Realistic Gauge-Higgs Grand Unification_, Progress of Theoretical and Experimental Physics, Volume 2016, Issue 9, September 2016, 093B01 ([arXiv:1606.07222](https://arxiv.org/abs/1606.07222))
 
@@ -71,4 +71,7 @@ Discussion in  [[SemiSpin(32)]]-[[heterotic string|heterotic]] [[string phenomen
 
 * Saul Ramos-Sanchez, Section 5.4 of _Towards Low Energy Physics from the Heterotic String_,   Fortsch. Phys. 10:907-1036, 2009 ([arXiv:0812.3560](https://arxiv.org/abs/0812.3560))
 
+See also 
+
+* Yuta Hamada, Masahiro Ibe, Yu Muramatsu, Kin-ya Oda, Norimi Yokozaki, _Proton Decay and Axion Dark Matter in $SO(10)$ Grand Unification via Minimal Left-Right Symmetry_ ([arXiv:2001.05235](https://arxiv.org/abs/2001.05235))
 
