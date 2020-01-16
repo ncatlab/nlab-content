@@ -1,4 +1,4 @@
-[Tilman Bauer's Homepage](http://www.few.vu.nl/~tilman/)
+[Tilman Bauer's Homepage](https://people.kth.se/~tilmanb/)
 
 ### Related pages
 
