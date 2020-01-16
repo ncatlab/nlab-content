@@ -40,6 +40,12 @@ On [[triality]] and its application on [[string theory]]
 
 * {#TongTurner19} [[David Tong]], Carl Turner, _Notes on 8 Majorana Fermions_ ([arXiv:1906.07199](https://arxiv.org/abs/1906.07199))
 
+Discussion of [[anomaly cancellation]] on the [[standard model of particle physics]]:
+
+* Nakarin Lohitsiri, [[David Tong]], _Hypercharge Quantisation and Fermat's Last Theorem_ ([arXiv:1907.00514](https://arxiv.org/abs/1907.00514))
+
+  (relating to [[Fermat's last theorem]])
+
 ## Selected talks
 
 On [[The Unreasonable Effectiveness of Physics in the Mathematical Sciences]]:
