@@ -16,7 +16,7 @@
 
 ## Idea
 
-The _[[BMN matrix model]]_ ([Berenstein-Maldacena-Nastase 02, Section 5 and Appendix B](#BerensteinMaldacenaNastase02)) is a deformation of the [[BFSS matrix model]] by [[mass]]-terms which correspond to a deformation of the [[Minkowski spacetime]] background to a [[pp-wave spacetime]]. 
+The _[[BMN matrix model]]_ ([Berenstein-Maldacena-Nastase 02, Section 5 and Appendix B](#BerensteinMaldacenaNastase02)) is a deformation of the [[BFSS matrix model]] by [[mass]]-terms and a [[Chern-Simons theory|Chern-Simons]]-term which together correspond to a deformation of the [[Minkowski spacetime]] background to a [[pp-wave spacetime]]: that [[mass]] is proprtional to the [[B-field]] [[flux density]] in the pp-wave [[string theory vacuum|vacuum]].
 
 ## Properties
 
@@ -58,11 +58,7 @@ The original articles:
 * [[Nakwoo Kim]], [[Jan Plefka]], _On the Spectrum of PP-Wave Matrix Theory_, Nucl. Phys. B643:31-48, 2002 ([arXiv:hep-th/0207034](https://arxiv.org/abs/hep-th/0207034))
 
 
-On [[M5-branes]] in the [[BMN matrix model]]:
 
-* [[Juan Maldacena]], [[Mohammad Sheikh-Jabbari]], [[Mark Van Raamsdonk]], _Transverse Fivebranes in Matrix Theory_, JHEP 0301:038, 2003 ([arXiv:hep-th/0211139](https://arxiv.org/abs/hep-th/0211139))
-
-* [[Hai Lin]], [[Juan Maldacena]], _Fivebranes from gauge theory_, Phys. Rev. D74:084014, 2006 ([arXiv:hep-th/0509235](https://arxiv.org/abs/hep-th/0509235))
 
 
 
@@ -107,6 +103,12 @@ On the [[BMN matrix model]] as a [[KK-compactification]] of [[D=4 N=4 super Yang
 Using the [[KK-compactification]] of [[D=4 N=4 super Yang-Mills theory]] to the [[BMN matrix model]] for [[lattice gauge theory]]-computations in [[D=4 N=4 SYM]] and for numerical checks of the [[AdS-CFT correspondence]]:
 
 * Masazumi Honda, Goro Ishiki, Sang-Woo Kim, Jun Nishimura, Asato Tsuchiya, _Direct test of the AdS/CFT correspondence by Monte Carlo studies of N=4 super Yang-Mills theory_, JHEP 1311 (2013) 200 ([arXiv:1308.3525](https://arxiv.org/abs/1308.3525))
+
+
+[[!include M5-branes in the BMN matrix model -- references]]
+
+
+
 
 
 [[!include pp-waves as Penrose limits of AdS spacetimes -- references]]
