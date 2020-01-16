@@ -115,3 +115,7 @@ On [[D=6 N=(1,0) SCFTs]] via [[geometric engineering of QFT|geometric engineerin
 
 [[!redirects geometric engineering of QFT]]
 [[!redirects geometric engineering of QFTs]]
+
+[[!redirects Hanany-Witten theory]]
+[[!redirects Hanany-Witten rule]]
+[[!redirects Hanany-Witten rules]]
