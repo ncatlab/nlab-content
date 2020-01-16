@@ -388,6 +388,10 @@ which would cancel against the first term $\tfrac{1}{24} p_2$ in (eq:FiberIntegr
 
 \linebreak
 
+[[!include M2-M5 brane bound states in the BMN matrix model -- subsection]]
+
+\linebreak
+
 ## Related concepts
 
 * [[Perry-Schwarz action]]
