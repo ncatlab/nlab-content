@@ -1,4 +1,34 @@
 
+
+$N = 2 j + 1$
+
+$j = \tfrac{1}{2}(N-1)$
+
+
+$$
+  j^2 + j
+  =
+  \tfrac{1}{4}(N-1)^2
+  +
+  \tfrac{1}{2}(N-1)
+  =
+    \tfrac{1}{4}N^2 - \tfrac{1}{2}N + \tfrac{1}{4} 
+  + \tfrac{1}{2}N - \tfrac{1}{2}
+  =
+  \tfrac{1}{4}N^2 - \tfrac{1}{4}
+  =
+  \tfrac{N^2 - 1}{4}
+$$
+
+\linebreak
+\linebreak
+
+\linebreak
+\linebreak
+
+\linebreak
+
+
 scale weight system by
 
 $4\pi/\sqrt{N^2-1}$ overall
