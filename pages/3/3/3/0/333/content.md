@@ -90,8 +90,11 @@ In noncommutative geometry various homotopical and (co)homological invariants we
 
 ### General
 
-* [[Alain Connes]], _[[Noncommutative Geometry]]_
- {#Connes}
+* [[José Gracia-Bondia]], [[Joseph Varilly]], H&#233;ctor Figueroa, _Elements of noncommutative geometry_, Birkh&#228;user 2001. xviii+685 pp. ([doi:10.1007/978-1-4612-0005-5](https://link.springer.com/book/10.1007/978-1-4612-0005-5), [gBooks](http://books.google.hr/books?id=2yJIwWbh1isC&lpg=PP1&ots=ex0Xfmh_UU&dq=Varilly%20noncommutative&hl=en&pg=PP1#v=onepage&q=Varilly%20noncommutative&f=false))
+
+
+* {#Connes} [[Alain Connes]], _[[Noncommutative Geometry]]_
+ 
 
 * {#Connes95} [[Alain Connes]], _Noncommutative geometry and reality_, J. Math. Phys. 36 (11), 1995 ([pdf](http://www.alainconnes.org/docs/reality.pdf))
 
