@@ -111,6 +111,19 @@ $$
 
 for the [[linear map]] which sends a [[formal linear combination]] or representations to the [[weight system]] on [[Sullivan chord diagrams]] with $n \in \mathbb{N}$ chords which is given by [[trace|tracing]] in the given representation.
 
-Then the normalization  
+Then the proper normalization, as discussed at [[fuzzy 2-sphere]], is
 
+$$
+  \tfrac{
+    1
+  }{
+    \sqrt{(N^{(M2)})^2 - 1}
+    \sqrt{(N^{(M5)})^2 - 1}
+  }
+  N^{(M2)}
+  \cdot
+  \mathbf{N}^{(M5)}
+$$
+
+(...)
 
