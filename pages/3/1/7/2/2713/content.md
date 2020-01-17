@@ -205,9 +205,7 @@ See also
 
 A discussion of spectral triples as [[FQFT]] data encoding a [[representation]] of a category of 1-dimensional [[cobordisms]] with [[Riemannian manifold|Riemannian]] structure and vertices is in section 1.4 of 
 
-* {#Soibelman11} [[Yan Soibelman]], _Collapsing Conformal Field Theories, spaces with
-non-negative Ricci curvature and
-non-commutative geometry_, in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS 2011
+* {#Soibelman11} [[Yan Soibelman]], _Collapsing Conformal Field Theories, spaces with non-negative Ricci curvature and non-commutative geometry_, in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS 2011
 
 A brief indication of some of the central ideas going into this is at
 
@@ -262,6 +260,15 @@ Relation to [[K-theory]] and [[KK-theory]] is discussed in
 * [[Bram Mesland]], _Spectral triples and KK-theory: A survey_ ([arXiv:1304.3802](http://arxiv.org/abs/1304.3802))
 
 * [[Alan Carey]], John Philips, Adam Rennie, _Spectral triples: examples and index theory_, in Alan Carey (ed.) _Noncommutative geometry and physics, Renormalization, Motives, Index theory_ (2011)
+
+### Examples
+
+On the [[spectral triple|spectral]] [[Riemannian geometry]] of the [[fuzzy 2-sphere]]:
+
+* [[Francesco D'Andrea]], [[Fedele Lizzi]], [[Joseph Várilly]], _Metric Properties of the Fuzzy Sphere_, Lett. Math. Phys.103 (2013), 183-205 ([arXiv:1209.0108](https://arxiv.org/abs/1209.0108))
+
+
+
 
 [[!redirects spectral triples]]
 [[!redirects graph field theory]]
