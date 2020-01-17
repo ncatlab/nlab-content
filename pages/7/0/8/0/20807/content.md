@@ -30,10 +30,20 @@ For $N \in \mathbb{N}$, $j \geq 2$, the _fuzzy 2-sphere_ of $N$ bits is the [[fo
 
 More in detail:
 
-With $\mathfrak{su}(2)$ the [[Lie algebra]] [[su(2)]] of [[SU(2)]], write
+With $\mathfrak{su}(2)$ the [[Lie algebra]] [[su(2)]] of [[SU(2)]], with [[complexification]]
 
 $$
-  \sigma_i \in \mathfrak{su}(2)
+  \mathfrak{su}(2) \otimes_{\mathbb{R}} \mathbb{C}
+  \;\simeq\;
+  \mathfrak{sl}(2,\mathbb{C})
+$$
+
+write
+
+$$
+  \sigma_i 
+    \;\in\; 
+  \mathfrak{su}(2) \otimes_{\mathbb{R}} \mathbb{C}
   ,\,\,
   i \in \{1,2,3\}
 $$
@@ -109,6 +119,7 @@ and the image of the [[Casimir element]] (eq:TheUnrepresentedR2) under this repr
     \\
     & =
     I
+    \,.
   \end{aligned}
 \]
 
@@ -128,6 +139,50 @@ $$
 $$
 
 #### Integration
+
+With the above, the volume density of the fuzzy 2-sphere scales with 
+$\tfrac{1}{\sqrt{N^2-1}}$
+
+$$
+  \begin{aligned}
+   \tfrac{-i}{3!}
+   \epsilon^{i j k } 
+    X_i \cdot X_j \cdot X_k
+    & =
+    \tfrac{-i}{3!}
+    \tfrac{1}{2}
+    \epsilon^{i j k } 
+    [X_i, X_j] \cdot X_k
+    \\
+    & =
+    \tfrac{-i}{3!}
+    \tfrac
+      {i}
+      {\sqrt{N^2-1}}
+    \epsilon^{i j k } 
+    \epsilon_{i j l} 
+    X^l \cdot X_k
+    \\
+    & =
+    \tfrac{-i}{3!}
+    \tfrac
+      {2i}
+      {\sqrt{N^2-1}}
+    X^k \cdot X_k
+    \\
+    & =
+    \tfrac{-i}{3!}
+    \tfrac
+      {2i}
+      {\sqrt{N^2-1}}
+    \\
+    & =
+    \tfrac{1}{3}
+    \tfrac
+      {1}
+      {\sqrt{N^2-1}}
+  \end{aligned}   
+$$
 
 In this vein, one defines the fuzzy refinement of the [[integral]] of functions over the [[2-sphere]], against its canonical [[volume form]], to be given by the matrix [[trace]], normalized as follows
 
@@ -249,7 +304,13 @@ On the [[fuzzy 2-sphere]]:
 
 #### General
 
+The [[fuzzy 2-sphere]] was introduced in:
+
 * [[John Madore]], _The Fuzzy sphere_, Class. Quant. Grav. 9 (1992) 69-88 ([spire:314358](http://inspirehep.net/record/314358))
+
+Discussion of the [[spectral triple|spectral]] [[Riemannian geometry]] of the [[fuzzy 2-sphere]]:
+
+* [[Francesco D'Andrea]], [[Fedele Lizzi]], [[Joseph Várilly]], _Metric Properties of the Fuzzy Sphere_, Lett. Math. Phys.103 (2013), 183-205 ([arXiv:1209.0108](https://arxiv.org/abs/1209.0108))
 
 In the context of the [[IKKT matrix model]]:
 
