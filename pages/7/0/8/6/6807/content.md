@@ -69,7 +69,7 @@ A similar assessment has been given by [[Greg Moore]], from pages 43-44 of his _
 ### Ground state
  {#ProblemsGroundState}
 
-There are furcher technical open issues, such as the open question whether the theory has a decent ground state the way it needs to have to make sense (see the references below [below](#ReferencesGroundStateProblem)).
+There are furcher technical open issues, such as the open question whether the theory has a decent ground state the way it needs to have to make sense (see the references [below](#ReferencesGroundStateProblem)).
 
 ## Related concepts
 
@@ -154,6 +154,15 @@ Analogous regularizations lead to matrix model descriptions of [[D-branes]]:
 
 * Qiang Jia, _On matrix description of D-branes_ ([arXiv:1907.00142](https://arxiv.org/abs/1907.00142))
 
+### Relation to M5-branes
+
+Discussion of longitudinal [[M5-branes]] in the [[BFSS matrix model]] (for transversal M5s see at _[[BMN matrix model]]_:
+
+* Judith Castelino, Sangmin Lee, [[Washington Taylor]], _Longitudinal 5-branes as 4-spheres in Matrix theory_, Nucl. Phys. B526:334-350, 1998 ([arXiv:hep-th/9712105](https://arxiv.org/abs/hep-th/9712105))
+
+  (introducing the [[fuzzy 4-sphere]])
+
+
 ### Ground state problem
   {#ReferencesGroundStateProblem}
 
@@ -162,7 +171,7 @@ There remains the problem of existence of a sensible ground state of the BFSS mo
 * [[Bernard de Wit]], M. Luscher, [[Hermann Nicolai]], _The Supermembrane Is Unstable_, Nucl.Phys. B320 (1989) 135-159 ([spire:266584](http://inspirehep.net/record/266584), <a href="https://doi.org/10.1016/0550-3213(89)90214-9">doi:10.1016/0550-3213(89)90214-9</a>)
  
 
-For a new attempt and pointers to previous attempts see
+For a new attempt at solving this problem, and for pointers to previous attempts see
 
 * L. Boulton, M.P. Garcia del Moral, A. Restuccia, _The ground state of the D=11 supermembrane and matrix models on compact regions_, Nuclear Physics B
 Volume 910, September 2016, Pages 665-684 ([arXiv:1504.04071](https://arxiv.org/abs/1504.04071))
