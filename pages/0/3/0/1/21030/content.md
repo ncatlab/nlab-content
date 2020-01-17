@@ -16,24 +16,22 @@
 
 ## Idea
 
-The _[[BMN matrix model]]_ ([Berenstein-Maldacena-Nastase 02, Section 5 and Appendix B](#BerensteinMaldacenaNastase02)) is a deformation of the [[BFSS matrix model]] by [[mass]]-terms and a [[Chern-Simons theory|Chern-Simons]]-term which together correspond to a deformation of the [[Minkowski spacetime]] background to a [[pp-wave spacetime]]: that [[mass]] is proprtional to the [[B-field]] [[flux density]] in the pp-wave [[string theory vacuum|vacuum]].
+The _[[BMN matrix model]]_ ([BMN 02](#BerensteinMaldacenaNastase02), [DSJVR 02](#DSJVR02)) is a [[deformation]] of the [[BFSS matrix model]] by [[mass]]-terms and by a [[Chern-Simons theory|Chern-Simons]]-term, which together correspond to a deformation of the [[Minkowski spacetime]] [[background field|background]] to a [[pp-wave spacetime]]: the [[mass]] is proportional to the [[B-field]] [[flux density]] in the pp-wave [[string theory vacuum|vacuum]].
 
 ## Properties
 
-
-### Relation to black M2/M5-brane backgrounds 
-
-
-The [[pp-wave spacetime]]-background for the BMN matrix model arises as the [[Penrose limit]] ([[Inönü-Wigner contraction]]) of the [[anti de Sitter spacetime|AdS4]][[product manifold|x]][[7-sphere]] [[near horizon geometry]] of both the [[black brane|black]] [[M2-brane]] spacetime $AdS_4 \times S^7$, as well as the [[anti de Sitter spacetime|AdS7]]$\times$[[4-sphere]] [[near horizon geometry]] of [[black brane|black]] [[M5-branes]] ([BMN 02, Section 2](#BerensteinMaldacenaNastase02)).
-
-### Ground states: Giant gravitons/$D0\perp D2$ bound states
+### Ground states: $D0\perp D2$ and $M2/M5$ bound states 
 
 While the [[BFSS matrix model]] notoriously suffers from issues with the definition of its ground state (see [there](BFSS+matrix+model#ProblemsGroundState)) this problem is fixed in the BMN matrix model by the mass term: 
 
 The [[supersymmetry|supersymmetric]] [[classical field theory|classical]] solutions are configurations of  [[fuzzy 2-spheres]], corresponding to [[M2-brane]]-[[giant gravitons]] ([BMN 02 (5.4)](#BerensteinMaldacenaNastase02),
 [DSJVR 02, Section 4.2](#DSJVR02)), which under the [[duality between M-theory and type IIA string theory]] become [[D0-D2 brane bound states]] ([Lin04](#Lin04)).
 
+In fact, [[duality in string theory|dually]] these gound states encode also transversal [[M5-branes]] and [[M2-M5 brane bound states]], see [below](#M2M5BraneBoundStatesInTheBMNMatrixModel).
 
+### Relation to black M2/M5-brane backgrounds 
+
+The [[pp-wave spacetime]]-background for the BMN matrix model arises as the [[Penrose limit]] ([[Inönü-Wigner contraction]]) of the [[anti de Sitter spacetime|AdS4]][[product manifold|x]][[7-sphere]] [[near horizon geometry]] of both the [[black brane|black]] [[M2-brane]] spacetime $AdS_4 \times S^7$, as well as the [[anti de Sitter spacetime|AdS7]]$\times$[[4-sphere]] [[near horizon geometry]] of [[black brane|black]] [[M5-branes]] ([BMN 02, Section 2](#BerensteinMaldacenaNastase02)).
 
 
 \linebreak
@@ -61,7 +59,7 @@ The [[supersymmetry|supersymmetric]] [[classical field theory|classical]] soluti
 
 The original articles:
 
-* {#BerensteinMaldacenaNastase02} [[David Berenstein]], [[Juan Maldacena]], [[Horatiu Nastase]], Sections 5 and B of: _Strings in flat space and pp waves from $\mathcal{N} = 4$ Super Yang Mills_, JHEP 0204 (2002) 013 ([arXiv:hep-th/0202021](https://arxiv.org/abs/hep-th/0202021))
+* {#BerensteinMaldacenaNastase02} [[David Berenstein]], [[Juan Maldacena]], [[Horatiu Nastase]], Sections 5 and Appendix B of: _Strings in flat space and pp waves from $\mathcal{N} = 4$ Super Yang Mills_, JHEP 0204 (2002) 013 ([arXiv:hep-th/0202021](https://arxiv.org/abs/hep-th/0202021))
 
   (which is otherwise about [[single trace operators]] in the [[AdS/CFT correspondence]]).
 
