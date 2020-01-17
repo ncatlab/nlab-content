@@ -33,8 +33,9 @@ The Lie algebra $\mathfrak{su}(2)$ is equivalently given as follows:
 ## Properties
 
 ### Complexification
+ {#Complexification}
 
-The [[complexification]] of $\mathfrak{su}(2)$ is the [[special linear Lie algebra]] $\mathfrak{sl}(2)$ (see at [[sl(2)]]) (...)
+The [[complexification]] of $\mathfrak{su}(2)$ is the [[special linear Lie algebra]] $\mathfrak{sl}(2, \mathbb{C})$ (see at [[sl(2)]]) (...)
 
 ## Related concepts
 
@@ -54,3 +55,5 @@ See also
 
 * Wikipedia, _<a href="https://en.m.wikipedia.org/wiki/Representation_theory_of_SU(2)">Representation theory of SU(2)</a>_
 
+
+[[!redirects su2]]
