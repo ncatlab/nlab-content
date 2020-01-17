@@ -24,7 +24,7 @@ A [[category]] is **small** if it has a [[small set]] of [[object]]s and a [[sma
 
 In other words, a small category is an [[internal category]] in the category [[Set]].
 
-A category which is not small is called [[large category|large]].
+A category which is not small may be called [[large category|large]], especially when it is not *essentially* small (see below).
 
 
 ## Properties
