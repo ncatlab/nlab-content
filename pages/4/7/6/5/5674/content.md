@@ -26,7 +26,7 @@ There are at least 3 groups of ideas to define noncommutative vector bundles
 
 * Zoran &#352;koda, _Coherent states for Hopf algebras_, Letters in Mathematical Physics __81__, N.1, pp. 1-17, July 2007, [pdf](http://www.irb.hr/korisnici/zskoda/skodacohstates.pdf), (earlier different arXiv version: [math.QA/0303357](http://arxiv.org/abs/math.QA/0303357))
 
-* Jos&#233; M. Gracia-Bond&#237;a, Joseph C. V&#225;rilly, H&#233;ctor Figueroa, _Elements of noncommutative geometry_, Birkh&#228;user 2001. xviii+685 pp. [gBooks](http://books.google.hr/books?id=2yJIwWbh1isC&lpg=PP1&ots=ex0Xfmh_UU&dq=Varilly%20noncommutative&hl=en&pg=PP1#v=onepage&q=Varilly%20noncommutative&f=false)
+* [[José Gracia-Bondia]], [[Joseph Varilly]], H&#233;ctor Figueroa, _Elements of noncommutative geometry_, Birkh&#228;user 2001. xviii+685 pp. ([doi:10.1007/978-1-4612-0005-5](https://link.springer.com/book/10.1007/978-1-4612-0005-5), [gBooks](http://books.google.hr/books?id=2yJIwWbh1isC&lpg=PP1&ots=ex0Xfmh_UU&dq=Varilly%20noncommutative&hl=en&pg=PP1#v=onepage&q=Varilly%20noncommutative&f=false))
 
 * R. Coquereaux, A. O. Garc&#237;, R. Trinchero, _Associated quantum vector bundles and symplectic structure on a quantum plane_, [arXiv:math-ph/9908007](http://arxiv.org/pdf/math-ph/9908007)
 
