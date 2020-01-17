@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Noncommutative geometry
++--{: .hide}
+[[!include noncommutative geometry - contents]]
+=--
 #### Spheres
 +--{: .hide}
 [[!include spheres -- contents]]
@@ -24,13 +28,18 @@ A _fuzzy sphere_ is a variant of an [[n-sphere]] in [[noncommutative geometry]].
 ### Fuzzy 2-sphere
  {#Fuzzy2SphereDefinition}
 
-For $N \in \mathbb{N}$, $j \geq 2$, the _fuzzy 2-sphere_ of $N$ bits is the [[formal duality|formal dual]] to the [[associative algebra]] which is the sub-algebra in the [[matrix algebra]] $Mat_{j \times j}$ generated from the elements of the $N$-dimensional [[irreducible representation|irreducible]] [[Lie algebra representation]] of [[su(2)]].
+For $N \in \mathbb{N}$, $N \geq 2$, the _fuzzy 2-sphere_ of $N$ bits is the [[formal duality|formal dual]] to the [[associative algebra]] which is the sub-algebra in the [[matrix algebra]] $Mat_{j \times j}$ generated from the elements of the $N$-dimensional [[complex numbers|complex]] [[irreducible representation|irreducible]] [[Lie algebra representation]] of [[su(2)]].
 
-#### Algebra of functions
+We now say this more in detail:
 
-More in detail:
+#### Conventions and Normalizations
+ {#ConventionsAndNormalizations}
 
-With $\mathfrak{su}(2)$ the [[Lie algebra]] [[su(2)]] of [[SU(2)]], with [[complexification]]
+First to introduce relevant notation and to set out the proper choices of normalizations. 
+
+\linebreak
+
+With $\mathfrak{su}(2)$ the [[Lie algebra]] [[su(2)]] of [[SU(2)]], with [[complexification]] the [[special linear Lie algebra]] [[sl(2)]] (see [here](su2#Complexification))
 
 $$
   \mathfrak{su}(2) \otimes_{\mathbb{R}} \mathbb{C}
@@ -40,13 +49,14 @@ $$
 
 write
 
-$$
+\[
+  \label{CanonicalBasisOfsu2C}
   \sigma_i 
     \;\in\; 
   \mathfrak{su}(2) \otimes_{\mathbb{R}} \mathbb{C}
   ,\,\,
   i \in \{1,2,3\}
-$$
+\]
 
 for a choice of [[linear basis]] such that the [[Lie bracket]] takes the form
 
@@ -57,6 +67,8 @@ for a choice of [[linear basis]] such that the [[Lie bracket]] takes the form
   i \underset{k}{\sum} \epsilon_{i j k} \sigma_k
   \,.
 \]
+
+(Here $\epsilon$ is the [[Levi-Civita symbol]], hence $\epsilon_{\sigma(1), \sigma(2)\sigma(3)} \in \{\pm 1\}$ is the [[signature of a permutation|signature]] of the [[permutation]] $\sigma \in Sym(3)$.)
 
 Notice that the element
 
@@ -72,15 +84,76 @@ is a [[Casimir element]] in the [[universal enveloping algebra]].
 
 Let then 
 
-$$
-  \rho_j
+\[
+  \label{TheNDimensionalRepresentation}
+  \rho
   \;\colon\;
   \mathfrak{su}(2)
   \longrightarrow
   Mat_{N \times N}
+\]
+
+be the [[complex numbers|complex]] $N$-[[dimension|dimensional]] [[complex numbers|complex]] [[irreducible representation|irreducible]] [[Lie algebra representation]] of [[su(2)]] (hence of $\mathfrak{sl}(2,\mathbb{C})$).
+
+
+In the discussion of [[angular momentum]] in [[quantum mechanics]] the image  
+
+\[
+  \label{TheUnnormalizedR2}
+  \underset{i}{\sum}
+  \rho_i \circ \rho_i
+  \;\in\;
+  Mat_{N \times N}
+\]
+
+of the [[Casimir element]] (eq:TheUnrepresentedR2) under the representation (eq:TheNDimensionalRepresentation) is traditionally denoted $J^2$, and the canonical [[linear basis]] for the N-dimensional representation $\rho$ is then traditionally denoted $\{\vert j, m \rangle\}_{m = -j}^{m = +j}$ with
+
+\[
+  \label{EigenvaluesOfCasimir}
+  J^2 \vert j,m\rangle \;=\; j(j+1)
+  \phantom{AAA}
+  m \in \{-j, -j+1, \cdots, j-1, j\}
+  \,.
+\]
+
+hence with 
+
+$$
+  N(j) = 2 j + 1  
+  \;\;
+  \Leftrightarrow
+  \;\;
+  j(N) = \tfrac{1}{2}(N - 1)
+  \,.
 $$
 
-be the $N$-dimensional [[complex numbers|complex]] [[irreducible representation|irreducible]] [[Lie algebra representation]] of [[su(2)]] (hence of $\mathfrak{sl}(2,\mathbb{C})$), and write
+This means that the [[eigenvalues]] of (eq:TheUnnormalizedR2) as a function not of the [[angular momentum]] $j$ but of the [[dimension]] $N$ of the given [[irreducible representation]] are:
+
+\[
+  \label{EigenvaluesOfCasimir}
+  \begin{aligned}
+    j(N)\big(j(N)+1\big)
+    & =
+    \tfrac{1}{4}(N-1)^2
+    +
+    \tfrac{1}{2}(N-1)
+    \\
+    & =
+    \phantom{+}  \tfrac{1}{4}N^2 - \tfrac{1}{2}N + \tfrac{1}{4}
+    \\
+    & \phantom{=} 
+    + \tfrac{1}{2}N - \tfrac{1}{2}
+    =
+    \tfrac{1}{4}N^2 - \tfrac{1}{4}
+    =
+    \tfrac{N^2 - 1}{4}
+  \end{aligned}
+\]
+
+
+#### Algebra of functions
+
+Write now
 
 $$
   X_i 
@@ -91,7 +164,7 @@ $$
     \rho_N(\sigma_i)
 $$
 
-for the [[square matrices]] representing the generators $\sigma_i$ in this representation, suitably normalized. 
+for the [[square matrices]] representing the generators $\sigma_i$ (eq:CanonicalBasisOfsu2C) in the $N$-dimensional complex irrep (eq:TheNDimensionalRepresentation), suitably normalized. 
 
 Due to the normalization, the commutation relation (eq:CommutationRelationsu2) in this representation reads
 
@@ -106,7 +179,7 @@ Due to the normalization, the commutation relation (eq:CommutationRelationsu2) i
   \underset{k}{\sum} \epsilon_{i j k} X_k
 \]
 
-and the image of the [[Casimir element]] (eq:TheUnrepresentedR2) under this representation is the [[identity matrix]]
+and, by (eq:EigenvaluesOfCasimir), the image of the [[Casimir element]] (eq:TheUnrepresentedR2) under this representation is the [[identity matrix]]:
 
 \[
   \label{RadiusOfFuzzy2Sphere}
