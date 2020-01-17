@@ -31,9 +31,9 @@ In the [[string diagram]] calculus for [[ribbon categories]], the twist is repre
 
 ## References
 
-This definition is taken from [Jeff Egger](http://www.mscs.dal.ca/~jegger/4micah.pdf) (Appendix C), but the original definition is due to [[Andre Joyal|Joyal]] and [[Ross Street|Street]].
+This definition is taken from [Jeff Egger](http://www.mscs.dal.ca/~jegger/4micah.pdf) (Appendix C), but the original definition can be found in chapter 4 of this paper by [[Andre Joyal|Joyal]] and [[Ross Street|Street]]:
 
-
+* A. Joyal, R. Street, _The geometry of tensor calculus I_,  Adv. Math.  __88__(1991),  no. 1, 55--112, [doi](http://dx.doi.org/10.1016/0001-8708%2891%2990003-P).
 
 [[!redirects balancing]]
 [[!redirects balance]]
