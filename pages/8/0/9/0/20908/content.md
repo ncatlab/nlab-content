@@ -40,6 +40,8 @@ The [[complexification]] of $\mathfrak{su}(2)$ is the [[special linear Lie algeb
 
 * [[fuzzy 2-sphere]]
 
+* [[SU(2)]]
+
 ## References
 
 Textbook accounts:
@@ -47,6 +49,8 @@ Textbook accounts:
 * {#Pfeifer} Walter Pfeifer, _The Lie algebra $\mathfrak{su}(2)$_, In: _The Lie Algebras $\mathfrak{su}(N)$, Birkhäuser, Basel (2003) ([doi:10.1007/978-3-0348-8097-8_3](https://doi.org/10.1007/978-3-0348-8097-8_3), [pdf](https://link.springer.com/content/pdf/10.1007/978-3-0348-8097-8_3.pdf))
 
 See also
+
+* [[Qiaochu Yuan]], _[The representation theory of SU(2)](https://qchu.wordpress.com/2011/06/26/the-representation-theory-of-su2/)_
 
 * Wikipedia, _<a href="https://en.m.wikipedia.org/wiki/Representation_theory_of_SU(2)">Representation theory of SU(2)</a>_
 
