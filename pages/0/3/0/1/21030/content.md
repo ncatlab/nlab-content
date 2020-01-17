@@ -34,13 +34,16 @@ The [[supersymmetry|supersymmetric]] [[classical field theory|classical]] soluti
 [DSJVR 02, Section 4.2](#DSJVR02)), which under the [[duality between M-theory and type IIA string theory]] become [[D0-D2 brane bound states]] ([Lin04](#Lin04)).
 
 
-\linebreak
 
-[[!include M2-M5 brane bound states in the BMN matrix model -- subsection]]
 
 \linebreak
 
 [[!include chord diagrams as multi-trace observables in BMN matrix model -- example]]
+
+\linebreak
+
+[[!include M2-M5 brane bound states in the BMN matrix model -- subsection]]
+
 
 \linebreak
 
