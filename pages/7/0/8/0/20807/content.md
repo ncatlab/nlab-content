@@ -332,7 +332,6 @@ For more see at _[[weight systems on chord diagrams in physics]]_.
 <img src="https://ncatlab.org/nlab/files/WeightSystemsAsShapeObservabesOnFuzzySphere.jpg" width="400">
 </div>
 
-
 \linebreak
 
 
@@ -370,6 +369,9 @@ At $k = 2$ there are, under the integral (eq:FuzzyS2Integration), two radius obs
 Similarly for higher $k$, where the number of possible orderings increases rapidly. The [[combinatorics]] that appears here is familiar in [[knot theory]]:
 
 Every ordering of operators, up to cyclic permutation, in the [[single trace observable]] $Tr(R^2)^n$ is encoded in a [[chord diagram]] and the value of the corresponding [[single trace observable]] is the value of the [[su(2)]]-[[Lie algebra weight system]] on this chord diagram.
+
+> from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
 
 ## Appearance in D-brane geometry
 
