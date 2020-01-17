@@ -298,6 +298,10 @@ by [[SU(n)|SU(N)]]-matrices and the resulting equivalence of the [[quantization]
 
 * [[Gijs van den Oord]], _On Matrix Regularisation of Supermembranes_, 2006 ([pdf](http://web.science.uu.nl/itf/Teaching/2006/vandenOord.pdf))
 
+The analogous argument on [[pp-wave spacetimes]] (then leading to the [[BMN matrix model]]):
+
+* {#DSJVR02} [[Keshav Dasgupta]], [[Mohammad Sheikh-Jabbari]], [[Mark Van Raamsdonk]], Section 2 of: _Matrix Perturbation Theory For M-theory On a PP-Wave_, JHEP 0205:056, 2002 ([arXiv:hep-th/0205185](https://arxiv.org/abs/hep-th/0205185))
+
 
 ### As a black brane
 
@@ -305,7 +309,7 @@ The back membrane solution of [[11-dimensional supergravity]] was found in
 
 * {#DuffStelle91} [[Mike Duff]], [[Kellogg Stelle]], _Multi-membrane solutions of $D = 11$ supergravity_, Phys. Lett. B 253, 113 (1991) ([spire:299386](http://inspirehep.net/record/299386), <a href="https://doi.org/10.1016/0370-2693(91)91371-2">doi:10.1016/0370-2693(91)91371-2</a>)
 
-Its regularity throughout the [[event horizon]] is due to
+Its regularity across the [[event horizon]] is due to
 
 * {#DuffGibbonsTownsend94} [[Mike Duff]], [[Gary Gibbons]], [[Paul Townsend]], _Macroscopic superstrings as interpolating solitons_, Phys.Lett.B332:321-328,1994 ([arXiv:hep-th/9405124](https://arxiv.org/abs/hep-th/9405124))
 
