@@ -18,6 +18,10 @@ On the [[BFSS matrix model]] ([[M-theory]] as [[D0-brane]] [[quantum mechanics]]
 
 * [[Tom Banks]], _Matrix Theory_, Nucl.Phys.Proc.Suppl. 67 (1998) 180-224 ([arXiv:hep-th/9710231](https://arxiv.org/abs/hep-th/9710231))
 
+Discussion of longitudinal [[M5-branes]] in the [[BFSS matrix model]]:
+
+* [[Tom Banks]], [[Nathan Seiberg]], [[Stephen Shenker]], _Branes from Matrices_, Nucl. Phys. B490:91-106, 1997 ([arXiv:hep-th/9612157](https://arxiv.org/abs/hep-th/9612157))
+
 On [[black holes in string theory]] via the [[BFSS matrix model]]:
 
 * [[Tom Banks]], [[Willy Fischler]], [[Igor Klebanov]], [[Leonard Susskind]],  _Schwarzschild Black Holes from Matrix Theory_, Phys.Rev.Lett.80:226-229,1998 ([arXiv:hep-th/9709091](https://arxiv.org/abs/hep-th/9709091))
