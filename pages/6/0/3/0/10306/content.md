@@ -29,7 +29,9 @@ The [[bound states]] of [[protons]] and [[neutrons]] (jointly: [[nucleons]]) in 
 
 * [[neutron star]]
 
-[[!include fields and quanta - table]]
+* [[proton]]
+
+* [[Lambda baryon]]
 
 
 ## References
