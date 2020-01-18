@@ -167,4 +167,5 @@ The observation that the condition is implied by [[supergravity C-field|C-field]
 [[!redirects Page charge]]
 [[!redirects Page charges]]
 
+[[!redirects C-field flux quantization]]
 
