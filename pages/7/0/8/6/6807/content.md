@@ -27,7 +27,7 @@ The BFSS matrix model was argued to arise in several seemingly rather different 
 
 1. as the [[Kaluza-Klein compactification]] of [[10d super Yang-Mills theory]] to 1+0 space dimensions, 
 
-1. {#AsM2Regularization} as a certain non-commutative regularization  of the [[Green-Schwarz sigma-model]] for the [[M2-brane]] ([Nicolai-Helling 98](#NicolaiHelling98), [Dasgupta-Nicolai-Plefka 02](#DasguptaNicolaiPlefka02)). 
+1. {#AsM2Regularization} as a certain non-commutative regularization  of the [[light-cone gauge quantization]] of the [[Green-Schwarz sigma-model]] for the [[M2-brane]] ([Nicolai-Helling 98](#NicolaiHelling98), [Dasgupta-Nicolai-Plefka 02](#DasguptaNicolaiPlefka02)). 
 
    In this picture matrix blocks around the diagonal correspond to blobs of [[membrane]], while off-diagonal matrix elements correspond to thin tubes of membrane connecting these blobs.
 
@@ -91,6 +91,8 @@ There are furcher technical open issues, such as the open question whether the t
 The original articles are
 
 * {#BanksFischlerShenkerSusskind96} [[Tom Banks]], [[Willy Fischler]], [[Stephen Shenker]], [[Leonard Susskind]], _M Theory As A Matrix Model: A Conjecture_,  Phys. Rev. D55 (1997). ([arXiv:hep-th/9610043](http://arxiv.org/abs/hep-th/9610043))
+
+* [[Leonard Susskind]], _Another Conjecture about M(atrix) Theory_ ([arXiv:https://arxiv.org/abs/hep-th/9704080](https://arxiv.org/abs/hep-th/9704080)) 
 
 * {#Sen97} [[Ashoke Sen]], _D0 Branes on $T^n$ and Matrix Theory_, Adv. Theor. Math. Phys.2:51-59, 1998 ([arXiv:hep-th/9709220](https://arxiv.org/abs/hep-th/9709220))
 
