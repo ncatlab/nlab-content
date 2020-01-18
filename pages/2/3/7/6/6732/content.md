@@ -41,6 +41,8 @@ For non-[[supersymmetry|supersymmetric]] [[gauge theories]] such as [[QCD]] this
 
 * [['t Hooft coupling]]
 
+* [[light-cone gauge quantization]]
+
 * [[AdS-CFT duality]]
 
 * [[BFSS matrix model]]
