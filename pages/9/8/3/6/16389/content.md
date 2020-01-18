@@ -99,6 +99,10 @@ All the standard introductory texts on [[string theory]] have sections devoted t
 
 [[!redirects DLCQ]]
 
+[[!redirects light cone momentum]]
+[[!redirects light-cone momentum]]
+[[!redirects lightcone momentum]]
+
 [[!redirects light cone longitudal]]
 [[!redirects light cone transversal]]
 [[!redirects light-cone longitudal]]
