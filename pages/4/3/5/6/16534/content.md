@@ -133,6 +133,11 @@ The lift to [[11d supergravity]]/[[M-theory]] via [[membrane triple junctions]] 
 [[!redirects intersecting brane]]
 [[!redirects intersecting branes]]
 
+[[!redirects coincident brane]]
+[[!redirects coincident branes]]
+[[!redirects stack of coincident branes]]
+[[!redirects stacks of coincident branes]]
+
 [[!redirects brane web]]
 [[!redirects brane webs]]
 
@@ -141,4 +146,5 @@ The lift to [[11d supergravity]]/[[M-theory]] via [[membrane triple junctions]] 
 
 [[!redirects bound state of D-branes]]
 [[!redirects bound states of D-branes]]
+
 
