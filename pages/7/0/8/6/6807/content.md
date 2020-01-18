@@ -141,24 +141,13 @@ Relation to the [[6d (2,0)-supersymmetric QFT]]:
 
 
 
-### Relation to super-membranes
-  {#ReferencesRelationToSuperMembranes}
+[[!include quantization of M2-brane on Minkowski spacetime to BFSS matrix model -- references]]
 
-The interpretation of the BFSS model as a regularized [[M2-brane]] [[worldvolume]] theory is discussed in
 
-* {#NicolaiHelling98} [[Hermann Nicolai]], Robert Helling, _Supermembranes and M(atrix) Theory_, In: [[Mike Duff]], [[Ergin Sezgin]], [[Brian Greene]] et. al. (eds.) _[Nonperturbative aspects of strings, branes and supersymmetry](https://doi.org/10.1142/9789814527651)_, World Scientific 1999 ([arXiv:hep-th/9809103](http://arxiv.org/abs/hep-th/9809103), [spire:476366](http://inspirehep.net/record/476366))
-
-* [[Jens Hoppe]], _Membranes and Matrix Models_ ([arXiv:hep-th/0206192](https://arxiv.org/abs/hep-th/0206192))
-
-* {#DasguptaNicolaiPlefka02} Arundhati Dasgupta, [[Hermann Nicolai]], [[Jan Plefka]], _An Introduction to the Quantum Supermembrane_, Grav. Cosmol. 8:1, 2002; Rev. Mex. Fis. 49S1:1-10, 2003 ([arXiv:hep-th/0201182](http://arxiv.org/abs/hep-th/0201182))
-
-Analogous regularizations lead to matrix model descriptions of [[D-branes]]:
-
-* Qiang Jia, _On matrix description of D-branes_ ([arXiv:1907.00142](https://arxiv.org/abs/1907.00142))
 
 ### Relation to M5-branes
 
-Discussion of longitudinal [[M5-branes]] in the [[BFSS matrix model]] (for transversal M5-s see at _[[BMN matrix model]]_):
+Discussion of [[light cone longitudal]] [[M5-branes]] in the [[BFSS matrix model]] (for [[light cone transversal]] M5-s see at _[[BMN matrix model]]_):
 
 * [[Tom Banks]], [[Nathan Seiberg]], [[Stephen Shenker]], _Branes from Matrices_, Nucl. Phys. B490:91-106, 1997 ([arXiv:hep-th/9612157](https://arxiv.org/abs/hep-th/9612157))
 
