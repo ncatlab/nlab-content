@@ -241,7 +241,9 @@ For the [[type II string theory]]-version see at _[[NS5-brane]]_ the sectoin _[N
 
 ### As a fundamental brane (GS-type $\sigma$-model)
 
-The [[Green-Schwarz sigma-model]]-type formulation of the supermembrane (as in the [[brane scan]]) first appears in 
+[[fundamental M2-brane sigma-model -- references]]
+
+The [[Green-Schwarz sigma-model]]-type formulation of the [[supermembrane]] in 11d (as in the [[brane scan]]) first appears in 
 
 * {#BergshoeffSezginTownsend87} [[Eric Bergshoeff]], [[Ergin Sezgin]], and [[Paul Townsend]], _Supermembranes and eleven-dimensional supergravity_, Phys. Lett. B189 (1987) 75&#8211;78. ([spire:248230](http://inspirehep.net/record/248230/))
 
@@ -256,7 +258,6 @@ and the [[Lagrangian density]] for the super membrane is derived via the [[super
 Discussion from the point of view of [[Green-Schwarz action functional]]-[[schreiber:∞-Wess-Zumino-Witten theory]] is in
 
 * {#FSS2013} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ (2013)
-
 
 
 The [[double dimensional reduction]] of the M2-brane to the [[Green-Schwarz superstring]] was observed in
@@ -278,7 +279,7 @@ See also
 
 * [[Igor Bandos]], [[Paul Townsend]], _SDiff Gauge Theory and the M2 Condensate_ ([arXiv:0808.1583](http://arxiv.org/abs/0808.1583))
 
-Discussion of $G7$-[[C-field charge quantization]] in the $G_4$-fluxed case:
+Discussion of $G7$-[[C-field flux quantization]] in the $G_4$-fluxed case:
 
  {#FSS19b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Prop. 4.31 of: _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ ([arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
 
@@ -287,7 +288,7 @@ Discussion of $G7$-[[C-field charge quantization]] in the $G_4$-fluxed case:
 
  
 
-### As a black brane
+### Super-membrane/M2-brane as a black brane
  {#ReferencesAsABlackBrane}
 
 The [[black brane|black]] membrane solution of [[11-dimensional supergravity]] was found in
@@ -336,6 +337,13 @@ The generalization of this to $\geq 1/2$ BPS sugra solutions of the form $AdS_4 
 * {#MFFGME09} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], [[Sunil Gadhia]], [[Elena Méndez-Escobar]], _Half-BPS quotients in M-theory: ADE with a twist_, JHEP 0910:038,2009 ([arXiv:0909.0163](http://arxiv.org/abs/0909.0163), [pdf slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
 
 * {#MedeirosFigueroa10} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
+
+Discussion of $G7$-[[C-field flux quantization]] in the $G_4$-fluxed case:
+
+ {#FSS19b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Prop. 4.31 of: _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ ([arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
+
+* {#FSS19c} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 4 of: _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization|Twisted Cohomotopy implies level quantization of the full 6d Wess-Zumino-term of the M5-brane]]_ ([arXiv:1906.07417](https://arxiv.org/abs/1906.07417))
+
 
 [[!include quantization of M2-brane on Minkowski spacetime to BFSS matrix model -- references]]
 
