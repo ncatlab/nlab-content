@@ -17,9 +17,13 @@
 
 A **$\Delta$-generated space** is a [[topological space]] $X$ whose topology is the [[final structure|final topology]] induced by all maps $\Delta^n \to X$, where $\Delta^n$ runs over all the standard [[simplices]].
 
+Equivalently, the class of $\Delta$-generated spaces is the closure of $\Delta^n$
+under [[small colimits]] in [[topological spaces]].
+
 ## Properties
 
-The category of $\Delta$-generated spaces is [[coreflective subcategory|coreflective]] in [[Top]].  It is also [[locally presentable category|locally presentable]], and supports a [[model structure on topological spaces|model structure]].  Thus, it is a [[nice category of spaces]].
+The category of $\Delta$-generated spaces is [[coreflective subcategory|coreflective]] in [[Top]].
+It is also [[locally presentable category|locally presentable]] and [[cartesian closed]], and supports a [[model structure on topological spaces|model structure]].  Thus, it is a [[nice category of spaces]].
 
 ## References
 
