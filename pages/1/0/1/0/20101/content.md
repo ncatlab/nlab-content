@@ -80,6 +80,16 @@ After the discovery of the [[Higgs field]] at the two major other detectors of [
 
 * [[LHCb collaboration]], _Search for lepton-universality violation in $B^+ \to K^+ \ell^+ \ell^-$ decays_ ([cern:2668514](https://cds.cern.ch/record/2668514))
 
+* {#LHCb19} [[LHCb collaboration]], _Lepton flavour universality in charged-current $B$ decays_ ([arXiv:1907.01500](https://arxiv.org/abs/1907.01500))
+
+* [[LHCb collaboration]], _Test of lepton universality with $\Lambda^0_b\to p K^-\ell^+\ell^-$ decays_ ([arXiv:1912.08139](https://arxiv.org/abs/1912.08139))
+
+  also:
+
+  CERN courier, _[LHCb explores the beauty of lepton universality](https://home.cern/news/news/physics/lhcb-explores-beauty-lepton-universality)_
+
+  (first measurement of lepton universality for $\Lambda^0_b$ [[Lambda baryons]], finding the [[flavour anomaly]] at (only) 1 [[standard deviation|sigma]] but pointing in the same direction as seen in other channels)
+
 
 ## References
 
