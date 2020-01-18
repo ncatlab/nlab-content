@@ -38,13 +38,20 @@ There is
 
 ## Related entries
 
+* [[relativistic particle]]
+
+* [[relativistic string]]
+
+* [[relativistic membrane]]
+
+
 * [[string theory]]
 
-* [[string scattering amplitudes]]
+  * [[string scattering amplitudes]]
 
-* [[string field theory]]
+  * [[string field theory]]
 
-* [[string theory FAQ]]
+  * [[string theory FAQ]]
 
 $\,$
 
