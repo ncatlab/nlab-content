@@ -6,7 +6,7 @@ Discussion of [[pp-wave spacetimes]] as [[Penrose limits]] ([[Inönü-Wigner con
 
 * N. Itzhaki, [[Igor Klebanov]], [[Sunil Mukhi]], _PP Wave Limit and Enhanced Supersymmetry in Gauge Theories_, JHEP 0203 (2002) 048 ([arXiv:hep-th/0202153](https://arxiv.org/abs/hep-th/0202153))
 
-* Nakwoo Kim, Ari Pankiewicz, Soo-Jong Rey, [[Stefan Theisen]], _Superstring on PP-Wave Orbifold from Large-N Quiver Gauge Theory_, Eur. Phys. J. C25:327-332, 2002 ([arXiv:hep-th/0203080](https://arxiv.org/abs/hep-th/0203080))
+* [[Nakwoo Kim]], Ari Pankiewicz, Soo-Jong Rey, [[Stefan Theisen]], _Superstring on PP-Wave Orbifold from Large-N Quiver Gauge Theory_, Eur. Phys. J. C25:327-332, 2002 ([arXiv:hep-th/0203080](https://arxiv.org/abs/hep-th/0203080))
 
 * E. Floratos, [[Alex Kehagias]], 
 _Penrose Limits of Orbifolds and Orientifolds_, JHEP 0207 (2002) 031 ([arXiv:hep-th/0203134](https://arxiv.org/abs/hep-th/0203134))
