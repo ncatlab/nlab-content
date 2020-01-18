@@ -24,6 +24,7 @@
 [[!include flavors of fundamental particles -- table]]
 
 
+
 * [[neutrino]]
 
 * [[muon]]
@@ -45,6 +46,8 @@
     * [[proton]]
 
     * [[neutron]]
+
+  * [[Lambda baryon]]
 
   * [[pentaquark]]
   
