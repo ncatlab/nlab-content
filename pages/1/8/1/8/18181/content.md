@@ -281,7 +281,9 @@ Publications of Kant's original work include:
 
 * [english translation](http://www.gutenberg.org/files/4280/4280-h/4280-h.htm) by [J. M. D. Meiklejohn](https://en.wikipedia.org/wiki/John_Meiklejohn)
 
-Other primary literature from Kant comprises
+* [comparison on first and second edition](http://www.zbk-online.de/texte/A0368.htm) (German), Bär, Jochen A. (ed.) (2010 ff.): _Zentralbegriffe der klassisch-romantischen „Kunstperiode“ (1760–1840). Wörterbuch zur Literatur- und Kunstreflexion der Goethezeit._ [http://www.zbk-online.de](http://www.zbk-online.de).
+
+Related primary literature from Kant comprises
 
 * {#Jaesche} G. B. J&#228;sche (ed.), _Immanuel Kants Logik ein Handbuch zu Vorlesungen_, pp. 419-582 in Kant, _Schriften zur Metaphysik und Logik 2_, Suhrkamp Frankfurt a. M. 1985[1800].
 
