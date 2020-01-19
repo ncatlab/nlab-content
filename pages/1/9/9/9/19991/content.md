@@ -10,6 +10,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -19,9 +20,9 @@
 
 A **space group** in [[dimension]] $n$, also known as a **crystallographic group**, is a [[subgroup]] of the corresponding [[Euclidean group]], hence of the [[isometry group]] of [[Euclidean space]] $\mathbb{R}^n$, that contains some [[lattice in a vector space|lattice]] in $\mathbb{R}^n$ as a [[subgroup]], and is contained within the [[automorphism group]] of that lattice. In other words, it is a subgroup of the automorphism group of the lattice that contains all the [[translations]] by elements of the lattice itself.
 
-Equivalently, a crystallographic group on a [[Euclidean space]] $E$ is a [[finite group|finite]] [[subgroup]] $S \subset Iso(E)$ of the [[isometry group]] of $E$ (its [[Euclidean group]]) that contains a [[lattice (discrete subgroup)|lattice]] $N \subset E \subset Iso(E)$ of [[translation group|translations]] as a [[normal subgroup]] $N \subset S$. The corresponding [[quotient group]] $G \coloneqq S/N$ is called the _[[point group]]_ of the crystallographic group. 
+Equivalently, a crystallographic group on a [[Euclidean space]] $E$ is a [[finite group|finite]] [[subgroup]] $S \subset Iso(E)$ of the [[isometry group]] of $E$ (its [[Euclidean group]]) that contains a [[lattice (discrete subgroup)|lattice]] $N \subset E \subset Iso(E)$ of [[translation group|translations]] as a [[normal subgroup]] $N \subset S$, such that the corresponding [[quotient group]], called the _[[point group]]_ of the crystallographic group, is a subgroup $G \coloneqq S/N \;\subset\; O(E)$ of the [[orthogonal group]].
 
-This situation is reflected in [[short exact sequences]]
+In short, a crystallographic groups is exhibited by an inclusion of [[short exact sequences]] of ([[nonabelian group|non-abelian]]) [[groups]], as follows:
 
 $$
   \array{
