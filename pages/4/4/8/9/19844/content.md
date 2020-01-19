@@ -26,7 +26,7 @@ In the current [[standard model of particle physics]] the [[fundamental particle
 
 Flavor universality pertains in particular to [[scattering amplitude|decays]] of [[bottom quarks]], denoted $b$ (in the third [[generation of fundamental particles|generation]]), into [[electron]]/[[positron]] pairs, denoted $e^+ e^-$ (in the first [[generation of fundamental particles|generation]]) or [[muon]]/[[antiparticle|anti]][[muon]] pairs, denoted $\mu^+ \mu^-$ (in the second [[generation of fundamental particles|generation]]), the latter two jointly denoted $\ell^+ \ell^-$ (for "[[leptons]]") in this context.
 
-Since [[quarks]] never appear in isolation (due to [[confinement]]) but always as [[bound states]] to [[hadrons]], [[scattering amplitude|decays]] specifically of [[bottom quarks]] manifest themselves in [[scattering amplitude|decays]] of [[mesons]] that contain a $b$ -- [[B-mesons]], denoted $B$ --
+Since [[quarks]] never appear in isolation (due to [[confinement]]) but always as [[bound states]] to [[hadrons]], [[scattering amplitude|decays]] specifically of [[bottom quarks]] manifest themselves in [[scattering amplitude|decays]] of [[mesons]] that contain $b$ -- [[B-mesons]], denoted $B$ --
 
 \begin{center}
 \begin{imagefromfile}
@@ -37,7 +37,7 @@ Since [[quarks]] never appear in isolation (due to [[confinement]]) but always a
 
 > graphics grabbed from [Cartelle 18](#Cartelle18) -- here $s$ denotes a [[strange quark]]
 
-or as [[scattering amplitude|decays]] of [[baryons]] that contain a $b$ -- [[Lambda baryons]], denoted $\Lambda_b$ (measured only more recently ([LHCb 19120.8139](#LHCb191208139))).
+or as [[scattering amplitude|decays]] of [[baryons]] that contain $b$ -- [[Lambda baryons]], denoted $\Lambda_b$ (measured only more recently ([LHCb 19120.8139](#LHCb191208139))).
 
 Hence flavour universality in the [[standard model of particle physics]] demands, for example, that the _[[ratios]]_ of decay rates (branching fractions) of [[B-mesons]] into [[electrons]] are the same as into [[muons]], hence that the [[ratio]] 
 
@@ -55,7 +55,7 @@ $$
 
 is essentially equal to 1. Any [[statistical significance|significant]] departure of this [[observable]] from 1 would be a _flavour anomaly_ and would mean that there are fundamental processes at play which are not described by the current [[standard model of particle physics]] ("New Physics").
 
-Moreover, in the [[standard model of particle physics|standard model]] the decays involved here are "forbidden" (have vanishing decay rate) at [[tree level]], so that only [[loop orders]] contribute to any possible flavour anomaly. But these loop contributions are sensitive to effects from putative undicovered [[fundamental particles]] which "run in the loops" as [[virtual particles]], and which thus may show up as a flavour anomaly even if their [[mass]] is too large for them to be seen as scattering products (i.e. as actual, non-[[virtual particles]]). This way tests of lepton flavour universality provide a means to potentially detect New Physics with high-luminosity/high-precision [[experiments]], complementary to the traditional high-energy direct detection measurements.
+Moreover, in the [[standard model of particle physics|standard model]] the decays involved here are "forbidden" (have vanishing decay rate) at [[tree level]], so that only [[loop orders]] contribute to any possible flavour anomaly. But these loop contributions are sensitive to effects from putative undiscovered [[fundamental particles]] which "run in the loops" as [[virtual particles]], and which thus may show up as a flavour anomaly even if their [[mass]] is too large for them to be seen as scattering products (i.e. as actual, non-[[virtual particles]]). This way tests of lepton flavour universality provide a means to potentially detect New Physics with high-luminosity/high-precision [[experiments]], complementary to the traditional high-energy direct detection measurements.
 
 See [Alonso 19](#Alonso19) for general introduction to an audience with basic background in [[quantum field theory]].
 
