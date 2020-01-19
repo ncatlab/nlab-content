@@ -145,7 +145,8 @@ turns the universal [[Knizhnik-Zamolodchikov form]] (eq:UniversalKnizhnikZamolod
 
 =--
 
-The universal formulation (eq:UniversalKnizhnikZamolodchikovForm) is highlighted for instance in [Lescop 00, p. 7](Kontsevich+integral#Lescop00). Most authors state the version after evaluation in a [[Lie algebra weight system]], e.g. [Kohno 14, Section 5](Kontsevich+integral#Kohno14).
+The universal formulation (eq:UniversalKnizhnikZamolodchikovForm) is highlighted for instance in [Bat-Natan 95, Section 4.2](Vassiliev+invariant#BarNatan95), 
+[Lescop 00, p. 7](Kontsevich+integral#Lescop00). Most authors state the version after evaluation in a [[Lie algebra weight system]], e.g. [Kohno 14, Section 5](Kontsevich+integral#Kohno14).
 
 +-- {: .num_prop #KnizhnikZamolodchikovConnectionIsFlat}
 ###### Proposition
