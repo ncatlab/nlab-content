@@ -28,3 +28,5 @@ yields this:
 \linebreak
 
 ***
+
+* [[John Baez]], _Torsors made easy_, [web](http://math.ucr.edu/home/baez/torsors.html)
