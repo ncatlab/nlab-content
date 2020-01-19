@@ -36,6 +36,8 @@ In [[quantum electrodynamics]] the electron [[interaction|interacts]] with the [
 
 * [[quantum electrodynamics]]
 
+* the [[antiparticle]] of the [[electron]] is the [[positron]]
+
 \linebreak
 
 [[!include flavors of fundamental particles -- table]]
