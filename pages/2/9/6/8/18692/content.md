@@ -98,7 +98,7 @@ Denote pullback powers of $p$ as $T_n(M)$.
     \end{tikzcd}
 \end{center}
 \begin{center}
-    \begin{tikzcd} T \ar[r, "\ell"] \ar[rd, "\ell"] & T^2 \ar[d, "c"] \\ & T \end{tikzcd}
+    \begin{tikzcd} T \ar[r, "\ell"] \ar[rd, "\ell"] & T^2 \ar[d, "c"] \\ & T^2 \end{tikzcd}
 \end{center}
 
 In the monoidal category $[\mathbb{X}, \mathbb{X}]$, the first diagram corresponds to $\ell: T \Rightarrow TT$ being a cosemigroup. The second diagram corresponds to $c: TT \Rightarrow TT$ acting as a symmetry, and the third and fourth diagrams state that $\ell$ is a symmetric cosemigroup.
