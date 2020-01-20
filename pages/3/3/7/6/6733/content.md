@@ -328,35 +328,7 @@ This result used to be "somewhat puzzling" ([Witten 96, p. 35](#Witten96)) since
 
 (For more details on computations involved this and the following arguments, see also [Bilal-Metzger 03](#BilalMetzger03)).
 
-A resolution was proposed in ([Freed-Harvey-Minasian-Moore 98](#FreedHarveyMinasianMoore98)), further clarified in ([Monnier 13](#Monnier13)), see also ([Bah-Bonetti-Minasian-Nardoni 18](#BahBonettiMinasianNardoni18)). There it is asserted that 
-
-1. the correct bulk anomaly inflow is not just that from $I_8$ itself, but includes also a contribution from the class $G_4$ of the [[supergravity C-field]], as per (eq:FiberIntegration) below ([Monnier 13, around (3.11)](#Monnier13));
-
-1. for $G^{M5}_4$ the "restriction" of the class of the [[supergravity C-field]] to $Q_{M5}$, the term $I^{M5}_{C}$ in (eq:IM5) should have a further summand $-\tfrac{1}{2}\big( G_4^{M5} \big)^2$ ([Monnier 13, around (3.7)](#Monnier13), using [Monnier 14b, (2.13)](#Monnier14b))
-
-
-
-1. for 11d spacetime a [[4-sphere]]-[[fiber bundle]], 
-
-   $$
-     \array{
-        S^4 &\longrightarrow& X^{(11)} 
-        \\
-        && \big\downarrow^{\mathrlap{\pi}}
-        \\
-        && X^{(6)}
-     }
-   $$ 
-  
-   as befits the [[near horizon geometry]] of a [[black brane|black]] [[M5-brane]], the [[supergravity C-field]] should be taken to be of the form ([Monnier 13, (3.12)](#Monnier13))
-
-   $$
-     G_4 =\coloneqq \tfrac{1}{2}\chi + \pi^\ast(G^{M5}_4)
-   $$ 
-   
-   with $\tfrac{1}{2}\chi$ the degree-4 [[Euler class]], whose integral over the 4-sphere fiber is unity ([this Prop.](Sullivan+model+of+a+spherical+fibration#SullivanModelForSphericalFibration)), reflecting the presence of a single M5.
-
-By this proposal (also [Bah-Bonetti-Minasian-Nardoni 18 (5)](#BahBonettiMinasianNardoni18), [BBMN 19 (2.9) and appendix A.4, A.5](#BBMN19)), the anomaly inflow from the bulk would not be just $I_8$, as in (eq:I8AnomalyInflow) but would be all of the following [[fiber integration]] 
+A resolution was proposed in [Freed-Harvey-Minasian-Moore 98](#FreedHarveyMinasianMoore98), also [Bah-Bonetti-Minasian-Nardoni 18 (5)](#BahBonettiMinasianNardoni18), [BBMN 19 (2.9) and appendix A.4, A.5](#BBMN19). By this proposal, the anomaly inflow from the bulk would not be just $I_8$, as in (eq:I8AnomalyInflow) but would be all of the following [[fiber integration]] 
 
 \[
   \label{FiberIntegration}
@@ -384,7 +356,7 @@ $$
   2 p_2
 $$
 
-which would cancel against the first term $\tfrac{1}{24} p_2$ in (eq:FiberIntegration). Hence with this proposal, the remaining M5-brane anomaly (eq:SumOfM5AndInflowAnomalyIsp2) would be canceled.
+which would cancel against the first term $\tfrac{1}{24} p_2$ in (eq:FiberIntegration). Hence with this proposal, the remaining M5-brane anomaly (eq:SumOfM5AndInflowAnomalyIsp2) would be canceled -- except for a remaining term $\tfrac{1}{2}(G^{M5}_4)^2$ which is ignored by fiat.
 
 \linebreak
 
@@ -654,15 +626,6 @@ left a remnant term of $\tfrac{1}{24} p_2$. It was argued in
 
 that this term disappears (cancels) when properly taking into account the singularity of the [[supergravity C-field]] at the locus of the [[black brane|black]] [[M5-brane]].
 
-A more transparent version of this argument was offered in
-
-* {#Monnier13} Samuel Monnier, _Global gravitational anomaly cancellation for five-branes_, Advances in Theoretical and Mathematical Physics, Volume 19 (2015) 3 ([arXiv:1310.2250](https://arxiv.org/abs/1310.2250)) 
-
-based on a refined discussion of the quantum anomaly of the [[self-dual higher gauge field]] on the M5-brane in 
-
-* {#Monnier14a} Samuel Monnier, _The anomaly line bundle of the self-dual field theory_, Comm. Math. Phys. 325 (2014) 41-72 ([arXiv:1109.2904](http://arxiv.org/abs/1109.2904))
-
-* {#Monnier14b} Samuel Monnier, _The global gravitational anomaly of the self-dual field theory_, Comm. Math. Phys. 325 (2014) 73-104 ([arXiv:1110.4639](http://arxiv.org/abs/1110.4639), [pdf slides](http://www.physics.rutgers.edu/het/video/monnier11b.pdf))
 
 This formulation via an anomaly 12-form is (re-)derived also in
 
