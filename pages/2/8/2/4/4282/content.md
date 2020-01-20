@@ -58,6 +58,7 @@ Arguably, one should require that the map $*$ be an [[isometry]] (which follows 
 
 * More generally the [[category convolution algebra]] of a [[dagger-category]] is a $*$-algebra, with the involution being the pullback along the $\dagger$ operation.
 
+* The algebra of [[horizontal chord diagrams]] is a star-algebra under reversal of orientation of strands (see [here](horizontal+chord+diagram#StarAlgebraStructure)).
 
 ## Related concepts
 
