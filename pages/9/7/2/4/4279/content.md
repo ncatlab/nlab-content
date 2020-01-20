@@ -76,7 +76,7 @@ such that
 
 1. (positivity) for all $A \in \mathcal{A}$ the value of $\rho$ on the product $A^\ast A$ is 
 
-   1. [[real part|real]] $\rho(A^\ast A) \in \mathbb{R} \hookrightarrow \mathbb{C}$ 
+   1. [[real part|real]] $\,\rho(A^\ast A) \in \mathbb{R} \hookrightarrow \mathbb{C}$ 
 
    1. as such [[non-negative real number|non-negative]]: $\rho(A^\ast A) \geq 0$.
 
