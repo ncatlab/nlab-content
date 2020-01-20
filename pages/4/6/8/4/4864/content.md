@@ -37,8 +37,6 @@ On the open problem of formulating [[M-theory]]:
 
 > Indeed future historians may judge the late 20th century as a time when theorists were like  children  playing  on  the  seashore, diverting themselves with the smoother pebbles or prettier shells of superstrings while the great ocean of M-theory lay undiscovered before them.
 
-\linebreak
-
 [Duff 98b, p. 6](#Duff98b):
 
 > we are only just beginning to scratch the surface of the ultimate meaning of M-theory, and for the time being therefore, M stands for Magic and Mystery too.
