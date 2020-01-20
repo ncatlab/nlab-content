@@ -167,6 +167,10 @@ Full formalization of this book in [[Coq]] (as [[synthetic geometry]] but follow
 A formalisation of Euclid using diagrammatic reasoning is in
 
 * J. Avigad, E. Dean, J. Mumma, _A formal system for Euclid's Elements_ , [arXiv:0810.4315](http://arxiv.org/abs/0810.4315v3) (2009).
+
+Another formalization of Euclidean geometry in [[Coq]]:
+
+* {#Ivashkevich19} Evgeny V. Ivashkevich, _On Constructive-Deductive Method For Plane Euclidean Geometry_ ([arXiv:1903.05175](https://arxiv.org/abs/1903.05175))
  
 [[!redirects Euclidean geometry]]
 [[!redirects Euclidean geometries]]
