@@ -147,7 +147,7 @@ being
 
 * for $n \geq 1$ 
 
-  * the two outer face maps $d_0$ and $d_n$ are given by forgetting the first and the last morphism in such a sequence, respectively; 
+  * the two outer face maps $d_0$ and $d_{n+1}$ are given by forgetting the first and the last morphism in such a sequence, respectively; 
 
   * the $n-1$ inner face maps $d_{0 \lt k \lt n}$ are given by composing the $k$th morphism with the $k+1$st in the sequence.
 
