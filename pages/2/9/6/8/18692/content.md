@@ -119,15 +119,15 @@ There is a vast literature on the notion of a "Weil functor". A particularly imp
 
 #### Weil Algebras
 
-Consider a commutative ring $R$. For this section an$R$-algebras is a commutative, unital, associative $R$-algebra. A _Weil Algebra_ over $R$ is an augmented $R$-algebra so that:
+Consider a commutative ring $R$. For this section an $R$-algebra is a commutative, unital, associative $R$-algebra. A _Weil Algebra_ over $R$ is an augmented $R$-algebra $V$ so that:
 
 1. The underlying $R$-module of $V$ is $R^n$.
-1. The \emph{kernel of augmentation} of $\pi: V \to R$ is nilpotent: there exists
+1. The _kernel of augmentation_ of $\pi: V \to R$ is nilpotent: there exists
   a natural number $k$ so that for every $x \in \mathsf{ker}(\pi)$, $x^k = 0$. 
 
 The category of Weil algebras is the full subcategory of $R-\mathsf{alg}/R$ whose objects are Weil algebras.
 
-+-- {: .num_prop }
++-- {: .num_prop #cat_of_R_weil }
 ###### Proposition 
 
 1. $R$-Weil algebras have products.
@@ -138,19 +138,19 @@ The category of Weil algebras is the full subcategory of $R-\mathsf{alg}/R$ whos
 
 It is often useful to consider a presentation of $R$-Weil algebras.
 
-+-- {: .num_prop }
++-- {: .num_prop #presentation_of_R_weil }
 ###### Proposition 
 
 1. Weil algebras may be presented as $R[X_i]/I$, where $I$ is an ideal of $R[X_i]$.
-1. The product of Weil algebras $R[X_i]/I, R[Y_j]/J$ may be presented as  $R[X_i,Y_j]/(I \cup J \cup XY)$, where $XY = \{ X_iY_j \}$, the coproduct as $R[X_i,Y_j]/(I \cup J)$. 
+1. The product of Weil algebras $R[X_i]/I, R[Y_j]/J$ may be presented as  $R[X_i,Y_j]/(I \cup J \cup XY)$, where $XY = \{ X_i Y_j \}$, the coproduct as $R[X_i,Y_j]/(I \cup J)$. 
 1. The following diagram is a pullback:
-  \begin{center}
-    \begin{tikzcd}
-      R[X,Y]/(X^2,Y^2, XY) \ar[r, "X \mapsto XY", "Y \mapsto Y"'] \ar[d, "X{,}Y \mapsto 0"]
-      & R[X,Y]/(X^2,Y^2) \ar[d, "Y \mapsto 0{,} X \mapsto X"] \\
-      R \ar[r, "0"] & R[X]/X^2
-    \end{tikzcd}
-  \end{center}
+    \begin{center}
+      \begin{tikzcd}
+        R[X,Y]/(X^2,Y^2, XY) \ar[r, "X \mapsto XY", "Y \mapsto Y"'] \ar[d, "X{,}Y \mapsto 0"]
+        & R[X,Y]/(X^2,Y^2) \ar[d, "Y \mapsto 0{,} X \mapsto X"] \\
+        R \ar[r, "0"] & R[X]/X^2
+      \end{tikzcd}
+    \end{center}
 1. For any Weil algebra $U$, the endofunctor $U \oplus (-)$ preserves products and the above pullback.
 
 =--
