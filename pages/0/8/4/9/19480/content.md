@@ -3914,10 +3914,10 @@ $$
 be an [[adjoint triple]] with induced [[adjoint modality]] (Def. \ref{AdjointModality}) to be denoted
 
 $$
-  \left( \Box \;\coloneqq\; C \circ R\right)
+  \left( \Box \;\coloneqq\; C \circ L\right)
   \;\dashv\;
   \left(
-    \bigcirc \;\coloneqq\; C \circ L
+    \bigcirc \;\coloneqq\; C \circ R
   \right)
 $$
 
@@ -4049,11 +4049,11 @@ with induced [[adjoint modality]] (Def. \ref{AdjointModality}) to be denoted
 
 $$
   \left( 
-    \Box \;\coloneqq\; C \circ R 
+    \Box \;\coloneqq\; C \circ L 
   \right)
   \;\dashv\;
   \left(
-    \bigcirc \;\coloneqq\; C \circ L 
+    \bigcirc \;\coloneqq\; C \circ R 
   \right)
 $$
 
@@ -4089,7 +4089,7 @@ Then for all $X \in \mathcal{C}$ the following two [[natural transformations]], 
   \right)
   \phantom{AAAAAAA}
   \array{
-    \Gamma X 
+    R X 
     & \overset{
        \Gamma \eta^{\bigcirc}_X
    }{\longrightarrow} & 
@@ -4350,7 +4350,7 @@ On some [[category]] $\mathcal{C}$, consider an inclusion of [[adjoint modalitie
 
 $$
   \array{
-    \Box_1 &\dashv& \bigcirc_2
+    \Box_2 &\dashv& \bigcirc_2
     \\
     \vee && \vee
     \\
@@ -4360,10 +4360,10 @@ $$
 
 We say:
 
-1. This provides _right [[Aufhebung]] of the opposition_ exhibited by $\box_1 \dashv \bigcirc_1$ if there is also the diagonal inclusion
+1. This provides _right [[Aufhebung]] of the opposition_ exhibited by $\Box_1 \dashv \bigcirc_1$ if there is also the diagonal inclusion
 
    $$
-     \box_1 \lt \bigcirc_2
+     \Box_1 \lt \bigcirc_2
      \phantom{AAA}
      equivalently
      \phantom{AAA}
@@ -4385,7 +4385,7 @@ We say:
    $$
 
 
-1. This provides _left [[Aufhebung]] of the opposition_ exhibited by $\box_1 \dashv \bigcirc_1$ if there is also the diagonal inclusion
+1. This provides _left [[Aufhebung]] of the opposition_ exhibited by $\Box_1 \dashv \bigcirc_1$ if there is also the diagonal inclusion
 
    $$
      \bigcirc_1 \lt \Box_2
