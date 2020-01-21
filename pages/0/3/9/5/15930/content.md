@@ -30,6 +30,8 @@ A brief version of roughly this material is in _[[Encyclopedia of the Philosophi
 
 * To help to bring philosophy nearer to the form of science &#8211; that goal where it can lay aside the name of love of knowledge and be actual knowledge &#8211; that is what I have set before me.
 
+(See also [SoL, Vorr. &#167;8](Science+of+Logic#8).)
+
 > {#ArbeitDesBegriffs} Wahre Gedanken und wissenschaftliche Einsicht ist nur in der Arbeit des Begriffs zu gewinnen.
 
 > Er allein kann die Allgemeinheit des Wissens hervorbringen,  welche weder die gemeine Unbestimmtheit und D&#252;rftigkeit des gemeinen Menschenverstandes, sondern gebildete und vollst&#228;ndige Erkenntnis,  noch die ungemeine Allgemeinheit der durch Tr&#228;gheit und Eigend&#252;nkel von Genie sich verderbenden Anlage der Vernunft,  sondern die zu ihrer einheimischen Form gediehene Wahrheit, - welche f&#228;hig ist, das Eigentum aller selbstbewu&#223;ten Vernunft zu sein.
