@@ -24,6 +24,8 @@
 
 In the current [[standard model of particle physics]] the [[fundamental particles]] in the three [[generations of fermions]] have identical properties from one generation to the next, except for their [[mass]], a state of affairs referred to as _[[lepton]] flavour universality_ (LFU). A possible violation of lepton flavour universality is called a _[[flavour in particle physics|flavour]] anomaly_, which would be a sign of "New Physics" (NP) beyond the [[standard model of particle physics|standard model]].
 
+The presence -- or not -- of flavour anomalies is part of the general _[[flavour problem]]_ of the [[standard model of particle physics]].
+
 Flavor universality pertains in particular to [[scattering amplitude|decays]] of [[bottom quarks]], denoted $b$ (in the third [[generation of fundamental particles|generation]]), into [[electron]]/[[positron]] pairs, denoted $e^+ e^-$ (in the first [[generation of fundamental particles|generation]]) or [[muon]]/[[antiparticle|anti]][[muon]] pairs, denoted $\mu^+ \mu^-$ (in the second [[generation of fundamental particles|generation]]), the latter two jointly denoted $\ell^+ \ell^-$ (for "[[leptons]]") in this context.
 
 Since [[quarks]] never appear in isolation (due to [[confinement]]) but always as [[bound states]] to [[hadrons]], [[scattering amplitude|decays]] specifically of [[bottom quarks]] manifest themselves in [[scattering amplitude|decays]] of [[mesons]] that contain $b$ -- [[B-mesons]], denoted $B$ --
@@ -39,6 +41,12 @@ Since [[quarks]] never appear in isolation (due to [[confinement]]) but always a
 
 or as [[scattering amplitude|decays]] of [[baryons]] that contain $b$ -- [[Lambda baryons]], denoted $\Lambda_b$ (measured only more recently ([LHCb 19120.8139](#LHCb191208139))).
 
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/AltmannshoferRKDecay.jpg" width="300"/>
+</div>
+
+[[AltmannshoferRKDecay.jpg:file]]
+
 Hence flavour universality in the [[standard model of particle physics]] demands, for example, that the _[[ratios]]_ of decay rates (branching fractions) of [[B-mesons]] into [[electrons]] are the same as into [[muons]], hence that the [[ratio]] 
 
 \[
@@ -52,9 +60,11 @@ Hence flavour universality in the [[standard model of particle physics]] demands
   }
 \]
 
-(where $K$ is a "strange meson", a [[meson]] containing a [[strange quark]])
+(where $K$ is a [[kaon]], a [[meson]] containing a [[strange quark]])
 
 is essentially equal to 1. Any [[statistical significance|significant]] departure of this [[observable]] from 1 would be a _flavour anomaly_ and would mean that there are fundamental processes at play which are not described by the current [[standard model of particle physics]] ("New Physics").
+
+> graphics from [Altmannshofer 14](flavor+problem#Altmannshofer14)
 
 Moreover, in the [[standard model of particle physics|standard model]] the decays involved here are "forbidden" (have vanishing decay rate) at [[tree level]], so that only [[loop orders]] contribute to any possible flavour anomaly. But these loop contributions are sensitive to effects from putative undiscovered [[fundamental particles]] which "run in the loops" as [[virtual particles]], and which thus may show up as a flavour anomaly even if their [[mass]] is too large for them to be seen as scattering products (i.e. as actual, non-[[virtual particles]]). This way tests of lepton flavour universality provide a means to potentially detect New Physics with high-luminosity/high-precision [[experiments]], complementary to the traditional high-energy direct detection measurements.
 
@@ -474,7 +484,7 @@ General [[effective field theory]] parametrization:
 * Marco Ciuchini, António M. Coutinho, Marco Fedele, Enrico Franco, Ayan Paul, Luca Silvestrini, Mauro Valli, _New Physics in $b \to s \ell^+ \ell^-$ confronts new data on Lepton Universality_ ([arXiv:1903.09632](https://arxiv.org/abs/1903.09632))
 
 
-* Jason Aebischer, Wolfgang Altmannshofer, Diego Guadagnoli, Meril Reboud, Peter Stangl, David M. Straub, _B-decay discrepancies after Moriond 2019_ ([arXiv:1903.10434](https://arxiv.org/abs/1903.10434))
+* Jason Aebischer, [[Wolfgang Altmannshofer]], Diego Guadagnoli, Meril Reboud, Peter Stangl, David M. Straub, _B-decay discrepancies after Moriond 2019_ ([arXiv:1903.10434](https://arxiv.org/abs/1903.10434))
 
 * Alakabha Datta, Jacky Kumar, David London, _The $B$ Anomalies and New Physics in $b \to s e^+ e^-$_ ([arXiv:1903.10086](https://arxiv.org/abs/1903.10086))
 
@@ -619,7 +629,7 @@ explanations via assumption of [[Z'-bosons]]:
 
 * Joe Davighi, _Connecting neutral current $B$ anomalies with the heaviness of the third family_, Contribution to the [2019 QCD session](http://moriond.in2p3.fr/2019/QCD/) of the [54th Rencontres de Moriond](http://moriond.in2p3.fr/2019/) ([arXiv:1905.06073](https://arxiv.org/abs/1905.06073))
 
-* Wolfgang Altmannshofer, Joe Davighi, Marco Nardecchia, _Gauging the accidental symmetries of the Standard Model, and implications for the flavour anomalies_ ([arXiv:1909.02021](https://arxiv.org/abs/1909.02021))
+* [[Wolfgang Altmannshofer]], Joe Davighi, Marco Nardecchia, _Gauging the accidental symmetries of the Standard Model, and implications for the flavour anomalies_ ([arXiv:1909.02021](https://arxiv.org/abs/1909.02021))
 
 #### Other
 
