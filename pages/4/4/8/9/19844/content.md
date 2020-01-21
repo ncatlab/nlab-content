@@ -185,7 +185,7 @@ In conclusion, with currently available data, the observed flavour anomalies are
 
 In any case, further and more sensitive experiments are needed to  confirm and explore the effect, such as possibly the "[HL-LHC](http://hilumilhc.web.cern.ch)" or "HE-LHC" experiment. General outlook, prospects and suggestions for future collider design in this respect are discussed in detail in [Allanach-Gripaios-You 17](#AllanachGripaiosYou17), [Crivellin et al.  18](#CrivellinEtAl18).
 
-From [Isodori 19, slide 6](#Isodori19):
+From [Isidori 19, slide 6](#Isidori19):
 
 \begin{center}
 \begin{imagefromfile}
@@ -386,7 +386,7 @@ Outlook:
 
 * {#CrivellinEtAl18} A. Cerri, [[Andreas Crivellin]] et. al. _Opportunities in Flavour Physics at the HL-LHC and HE-LHC_, Report from Working Group 4 on the [Physics of the HL-LHC, and Perspectives at the HE-LHC](https://indico.cern.ch/event/686494/) ([arXiv:1812.07638](https://arxiv.org/abs/1812.07638))
 
-* {#Isodori19} Gino Isodori, _Flavor physics & CP violation_, talk at [Symposium on the European Strategy for Particle Physics](https://indico.cern.ch/event/808335/timetable/#20190513.detailed) 2019 ([pdf](https://indico.cern.ch/event/808335/contributions/3365125/attachments/1842875/3022853/Granada_GI_13May.pdf))
+* {#Isidori19} [[Gino Isidori]], _Flavor physics & CP violation_, talk at [Symposium on the European Strategy for Particle Physics](https://indico.cern.ch/event/808335/timetable/#20190513.detailed) 2019 ([pdf](https://indico.cern.ch/event/808335/contributions/3365125/attachments/1842875/3022853/Granada_GI_13May.pdf))
 
 * {#LKLR19} Luca Di Luzio, Matthew Kirk, Alexander Lenz, Thomas Rauh, _$\Delta M_s$ theory precision confronts flavour anomalies_ ([arXiv:1909.11087](https://arxiv.org/abs/1909.11087))
 
@@ -538,7 +538,7 @@ explanation via assumption of [[leptoquarks]]:
 
 * Jason Aebischer, [[Andreas Crivellin]], Christoph Greub, _QCD Improved Matching for Semi-Leptonic B Decays with Leptoquarks_ ([arXiv:1811.08907](https://arxiv.org/abs/1811.08907))
 
-* Michael J. Baker, Javier Fuentes-Martin, Gino Isidori, Matthias König, _High-pT Signatures in Vector-Leptoquark Models_ ([arXiv:1901.10480](https://arxiv.org/abs/1901.10480))
+* Michael J. Baker, Javier Fuentes-Martin, [[Gino Isidori]], Matthias König, _High-pT Signatures in Vector-Leptoquark Models_ ([arXiv:1901.10480](https://arxiv.org/abs/1901.10480))
 
 * {#MVT19} Ivo de Medeiros Varzielas, Jim Talbert, _Simplified Models of Flavourful Leptoquarks_ ([arXiv:1901.10484](https://arxiv.org/abs/1901.10484))
 
@@ -576,7 +576,7 @@ explanation via assumption of [[leptoquarks]]:
 
 * C. Hati, J. Kriewald, J. Orloff, A.M. Teixeira, _A nonunitary interpretation for a single vector leptoquark combined explanation to the B-decay anomalies_ ([arXiv:1907.05511](https://arxiv.org/abs/1907.05511))
 
-* Javier Fuentes-Martin, Gino Isidori, Matthias König, Nudzeim Selimovic, _Vector Leptoquarks Beyond Tree Level_ ([arxiv:1910.13474](https://arxiv.org/abs/1910.13474))
+* Javier Fuentes-Martin, [[Gino Isidori]], Matthias König, Nudzeim Selimovic, _Vector Leptoquarks Beyond Tree Level_ ([arxiv:1910.13474](https://arxiv.org/abs/1910.13474))
 
 
 [[leptoquarks]] within a [[Randall-Sundrum model]]:
