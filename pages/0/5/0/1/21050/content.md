@@ -64,8 +64,8 @@ For the details, see [[tensor product of algebras over a commutative monad]], an
 In many of the examples, one can see how the property of commutativity (as opposed to just the structure of a [[strong monad|strength]]) has really the meaning of the operations being commutative.
 
 * The free _commutative_ monoid monad on [[Set]] is commutative, the free monoid monad is not.
-* If $M$ is a [[monoid]], the "action monad" $X\mapsto M\times X$ on [[Set]] is commutative if and only if $M$ is commutative as a monoid. 
-* More generally, in an arbitrary [[symmetric monoidal category]], the monad induced by tensoring with an [[internal monoid]] is commutative if and only the monoid object is commutative. (See for example [Brandenburg, Example 6.3.12](#Brandenburg2014).)
+* If $M$ is a [[monoid]], the [[action monad]] $X\mapsto M\times X$ on [[Set]] is commutative if and only if $M$ is commutative as a monoid. 
+* More generally, in an arbitrary [[symmetric monoidal category]], the [[action monad]] induced by tensoring with an [[internal monoid]] is commutative if and only the monoid object is commutative. (See for example [Brandenburg, Example 6.3.12](#Brandenburg2014).)
 
 Since commutative monads are the same as monoidal monads, monads encoding structures which admit products are commutative:
 
