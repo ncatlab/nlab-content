@@ -200,7 +200,7 @@ Review
 
 * [[Paolo Di Vecchia]], _Green-Schwarz anomaly cancellation_ (2010) (slides [[DiVecchiaAnomaly.pdf:file]])
 
-* [[Jeffrey Harvey]], _TASI 2003 Lectures on Anomalies_ ([arXiv:hep-th/0509097v1](https://arxiv.org/abs/hep-th/0509097), [spire:692082](http://inspirehep.net/record/692082))
+* [[Jeffrey Harvey]], _TASI 2003 Lectures on Anomalies_ ([arXiv:hep-th/0509097](https://arxiv.org/abs/hep-th/0509097), [spire:692082](http://inspirehep.net/record/692082))
 
 The mathematical formulation of this in terms of [[index theory]] is due to
 
