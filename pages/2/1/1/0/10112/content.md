@@ -1,11 +1,8 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Physics
-+-- {: .hide}
-[[!include physicscontents]]
-=--
 #### Fields and quanta
 +-- {: .hide}
 [[!include fields and quanta - table]]
@@ -18,9 +15,10 @@
 * table of contents
 {:toc}
 
+
 ## Idea
 
-In [[QCD]] a [[bound state]] of two [[quarks]] via the [[strong nuclear force]]. For instance a [[pion]].
+In [[QCD]] a _meson_ is a [[bound state]] of two [[quarks]] via the [[strong nuclear force]]. 
 
 ## Examples
 
@@ -29,6 +27,8 @@ In [[QCD]] a [[bound state]] of two [[quarks]] via the [[strong nuclear force]].
 * [[π-meson]]
 
 * [[ρ-meson]]
+
+* [[kaon]]
 
 ## Properties
 
