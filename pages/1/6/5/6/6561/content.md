@@ -151,11 +151,14 @@ See also the references and discussion at _[[M5-brane]]_.
 
 * {#Witten11} [[Edward Witten]], Sections 4 and 5 of _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216)) 
 
+* {#Hu13} Shan Hu, _6D $(2,0)$ theory and M5 branes: A KK mode approach_, 2013 ([hdl:1969.1/151094](http://hdl.handle.net/1969.1/151094))
+
+
 * [[Chris Hull]], [[Neil Lambert]], _Emergent Time and the M5-Brane_, JHEP06(2014)016 ([arXiv:1403.4532](https://arxiv.org/abs/1403.4532))
 
 * [[Andreas Gustavsson]], _Five-dimensional Super-Yang-Mills and its Kaluza-Klein tower_. JHEP01(2019)222 ([arXiv:1812.01897](https://arxiv.org/abs/1812.01897))
 
-* [[Neil Lambert]], Sec. 3.1 and 3.4.3. of _Lessons from M2's and Hopes for M5's_, _Proceedings of the [LMS-EPSRC Durham Symposium](http://www.maths.dur.ac.uk/lms/):_ _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html), August 2018_ Fortschritte der Physik, 2019 ([arXiv:1903.02825](https://arxiv.org/abs/1903.02825), [slides pdf](http://www.maths.dur.ac.uk/lms/109/talks/1877lambert.pdf), [video recording](http://www.maths.dur.ac.uk/lms/109/movies/1877lamb.mp4))
+* {#Lambert19} [[Neil Lambert]], Sec. 3.1 and 3.4.3. of _Lessons from M2's and Hopes for M5's_, _Proceedings of the [LMS-EPSRC Durham Symposium](http://www.maths.dur.ac.uk/lms/):_ _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html), August 2018_ Fortschritte der Physik Volume 67, Issue 8-9 2019 ([arXiv:1903.02825](https://arxiv.org/abs/1903.02825), [doi:10.1002/prop.201910011]( https://doi.org/10.1002/prop.201910011), [slides pdf](http://www.maths.dur.ac.uk/lms/109/talks/1877lambert.pdf), [video recording](http://www.maths.dur.ac.uk/lms/109/movies/1877lamb.mp4))
 
 
 ### Compactification to 4d super-Yang-Mills
@@ -298,11 +301,10 @@ a summary of
 [[!redirects D=6 N=(2,0) SCFT]]
 [[!redirects D=6 N=(2,0) SCFTs]]
 
-
 [[!redirects D=6 N=(1,1) SCFT]]
 
 [[!redirects 6d (2,0)-supersymmetric QFT]]
 
-
+[[!redirects 6dN20SCFT]]
 
 
