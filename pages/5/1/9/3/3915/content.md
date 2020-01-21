@@ -26,7 +26,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-For $i : X \hookrightarrow Y$ an [[immersion]] (notably an [[embedding]]) of [[smooth manifolds]], the **normal bundle** of $X$ in $Y$ relative to $i$ is the the [[vector bundle]] 
+For $i : X \hookrightarrow Y$ an [[immersion]] (notably an [[embedding]]) of [[smooth manifolds]], the **normal bundle** of $X$ in $Y$ relative to $i$ is the  [[vector bundle]] 
 
 $$
   N_i X  \to X
@@ -38,7 +38,7 @@ $$
   N_i X =\frac{i^* T Y}{T X}  
 $$
 
-If $Y$ is equipped with [[Riemannian metric]] structure then this is equivalently the space of [[tangent vectors]] to $Y$ which a [[normal vectors]] to the [[tangent vectors]] to $X$, whence the name.
+If $Y$ is equipped with [[Riemannian metric]] structure then this is equivalently the space of [[tangent vectors]] to $Y$ which are [[normal vectors]] to the [[tangent vectors]] to $X$, whence the name.
 
 =--
 
