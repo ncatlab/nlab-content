@@ -8,7 +8,7 @@
 +--{: .hide}
 [[!include physicscontents]]
 =--
-#### Algebraic Qunantum Field Theory
+#### Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
@@ -61,6 +61,8 @@ See at _[[QCD trace anomaly]]_.
 * [[AdS/QCD correspondence]]
 
 * [[Gross-Neveu model]]
+
+* [[QCD cosmology]]
 
 * [[quantum field theory]]
 
