@@ -73,6 +73,8 @@ See the references [below](#ReferencesInEarlyUniverseCosmology).
 
 * In as far as the quark-gluon plasma is described by [[fluid dynamics]], the [[fluid/gravity correspondence]] applies.
 
+* [[QCD cosmology]]
+
 ## References
 
 ### General
