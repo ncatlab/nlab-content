@@ -122,7 +122,7 @@ As a potential solution of the apparent [[B meson]] [[flavour anomaly]]:
 
 * {#MVT19} Ivo de Medeiros Varzielas, Jim Talbert, _Simplified Models of Flavourful Leptoquarks_ ([arXiv:1901.10484](https://arxiv.org/abs/1901.10484))
 
-* Michael J. Baker, Javier Fuentes-Martin, Gino Isidori, Matthias König, _High-pT Signatures in Vector-Leptoquark Models_ ([arXiv:1901.10480](https://arxiv.org/abs/1901.10480))
+* Michael J. Baker, Javier Fuentes-Martin, [[Gino Isidori]], Matthias König, _High-pT Signatures in Vector-Leptoquark Models_ ([arXiv:1901.10480](https://arxiv.org/abs/1901.10480))
 
 * Natascia Vignaroli, _Seeking leptoquarks in the $t \bar t$ plus missing energy channel at the high-luminosity LHC_ ([arXiv:1808.10309](https://arxiv.org/abs/1808.10309))
 
@@ -144,7 +144,7 @@ As a potential solution of the apparent [[B meson]] [[flavour anomaly]]:
 
 * {#BGV19} Innes Bigaran, John Gargalionis, Raymond R. Volkas, _A near-minimal leptoquark model for reconciling flavour anomalies and generating radiative neutrino masses_ ([arXiv:1906.01870](https://arxiv.org/abs/1906.01870))
 
-* Javier Fuentes-Martin, Gino Isidori, Matthias König, Nudzeim Selimovic, _Vector Leptoquarks Beyond Tree Level_ ([arxiv:1910.13474](https://arxiv.org/abs/1910.13474))
+* Javier Fuentes-Martin, [[Gino Isidori]], Matthias König, Nudzeim Selimovic, _Vector Leptoquarks Beyond Tree Level_ ([arxiv:1910.13474](https://arxiv.org/abs/1910.13474))
 
 
 within [[GUT]]-models and specifically within [[Pati-Salam models]]:
