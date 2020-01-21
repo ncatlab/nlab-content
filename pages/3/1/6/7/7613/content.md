@@ -25,6 +25,7 @@ The "reasons to doubt" that interpretation is that the [[M2-brane]] does not sup
 
 The defining characteristic of M-theory is that it exhibits [[duality between M-theory and type IIA string theory|duality with type IIA string theory]] in the following way:
 
+
 $$
   \array{
       M-Theory(?) &\stackrel{low\;energy\;limit}{\to}& 11d Supergravity
@@ -273,6 +274,28 @@ to study the problem.
 
 > $[$The proposal of [FHMM 98](M5-brane#FreedHarveyMinasianMoore98)$]$ probably should not be viewed as a final understanding of the
 problem. One would eventually hope for a microscopic formulation of M-theory which makes some of the manipulations $[$proposed in [FHMM 98](M5-brane#FreedHarveyMinasianMoore98)$]$ appear more natural.
+
+\linebreak
+
+### Coincident M5-branes
+ {#OpenProblemCoincidentM5Branes}
+
+Formulating the [[D=6 N=(2,0) SCFT]] expected on [[coincident brane|coincident]] [[M5-branes]] (and thus the [[gauge enhancement]] on [[coincident brane|coincident]] [[D4-branes]] under [[duality between M-theory and type IIA string theory]]) remains an open problem:
+
+
+[Hu 13, p. 1](6dN20SCFT#Hu13):
+
+> The low energy effective theoryon multiple M2 branes has been well understood in recent years.  However, the low energy effective theory on multiple M5 branes is still an open problem.
+
+[Lambert 19, Section 3.6](6dN20SCFT#Lambert19):
+
+> 3.6  Open problems and wishes
+
+> Let me close this discussion of M5-branes with some open problems and wish list of results:
+
+> i) Provide a field definition/construction of the (2,0) theory $[$...$]$
+
+> ii) Find the mathematical structures that best capture aspects of the (2,0) theory $[$...$]$
 
 \linebreak
 
