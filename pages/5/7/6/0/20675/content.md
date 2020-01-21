@@ -21,6 +21,10 @@
 
 In [[thermodynamics]] the _equation of state_ of a system is an [[equation]] that relates its state variables to each other. For instance for a [[gas]] the equation of state relates [[pressure]], [[volume]] and [[temperature]].
 
+## Related concepts
+
+* [[QCD cosmology]]
+
 ## References
 
 See also:
