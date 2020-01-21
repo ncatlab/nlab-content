@@ -5,6 +5,12 @@
 
 On the [[flavour problem]]:
 
+
+* [[Gino Isidori]], _Kaon decays and the flavour problem_, 	Annales Henri Poincare 4 (2003) S97-S109 ([arXiv:hep-ph/0301159](https://arxiv.org/abs/hep-ph/0301159))
+
+  (emphasis on [[kaon]] [[scattering|decays]])
+
+
 * [[Gino Isidori]], _The flavor problem_, 2016 ([pdf](https://indico.cern.ch/event/504502/contributions/2147710/attachments/1287372/1915547/SWHEPPS_Talk.pdf), [[IsidoriFlavor16.pdf:file]])
 
 On [[flavour physics]] and [[flavour anomalies]]:
