@@ -232,6 +232,7 @@ The following is a collection of quotes from authors that highlight the open pro
 
 [Duff 19, USN interview](Michael+Duff#WeDontKnowWhatItIs):
 
+
 > The problem we face is that we have a patchwork understanding of M-theory, like a quilt. We understand this corner and that corner, but what's lacking is the overarching big picture. So directly or indirectly, my research hopes to explain what M-theory really is. We don't know what it is. 
 
 > In a certain sense, and this is not a popular statement, I think it's premature to be asking: "What are the empirical consequences", because it's not yet in a mature enough state, where we can sensibly make falsifiable prediction.
@@ -285,7 +286,7 @@ Formulating the [[D=6 N=(2,0) SCFT]] expected on [[coincident brane|coincident]]
 
 [Hu 13, p. 1](6dN20SCFT#Hu13):
 
-> The low energy effective theoryon multiple M2 branes has been well understood in recent years.  However, the low energy effective theory on multiple M5 branes is still an open problem.
+> The low energy effective theory on multiple M2 branes has been well understood in recent years.  However, the low energy effective theory on multiple M5 branes is still an open problem.
 
 [Lambert 19, Section 3.6](6dN20SCFT#Lambert19):
 
