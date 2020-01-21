@@ -114,7 +114,7 @@ $$
 
 Given that a monad in a bicategory $\mathcal{B}$ is nothing but a [[monoid object]] in a hom-category $\mathcal{B}(a,a)$, it is natural to consider a [[module]] over this monoid: a [[module for a monad]].  This notion of module is more general than a module in a [[monoidal category]], however, since it need not live in $\mathcal{B}(a,a)$ but can be in $\mathcal{B}(b,a)$ (for left modules) or $\mathcal{B}(a,c)$ (for right modules).
 
-In a [[Cat]]-like [[bicategory]], left modules over a monad are usually called _algebras over the monad_.  This terminology is confusing from the point of view of monads as monoids, but is justified because in [[Cat]] itself, such algebras with domain [[terminal category|1]] are just algebras for a monad in the classical sense.  Such algebras are a powerful tool to encode general algebraic structures; this is the topic of [[universal algebra]].  The algebras over a monad form its [[Eilenberg-Moore category]], which is characterized by a [[universal property]].
+In a [[Cat]]-like [[bicategory]], left modules over a monad are usually known as _[[algebras over a monad|algebras over the monad]]_.  This terminology is confusing from the point of view of monads as monoids, but is justified because in [[Cat]] itself, such algebras with domain [[terminal category|1]] are just algebras for a monad in the classical sense.  Such algebras are a powerful tool to encode general algebraic structures; this is the topic of [[universal algebra]].  The algebras over a monad form its [[Eilenberg-Moore category]], which is characterized by a [[universal property]].
 
 Some monads arise from [[operad]]s, in which case algebras for the monad are the same as algebras for the operad.  A [[Lawvere theory]] is another special sort of monad in $Cat$.
 
@@ -232,7 +232,7 @@ in [section 3](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=93) of
 ## Related concepts
 
 
-* [[adjunction]], [[comonad]], [[adjoint monad]], [[algebra over a monad]], [[monad with arities]], [[distributive law]], [[monoidal monad]], [[cartesian monad]]
+* [[adjunction]], [[comonad]], [[adjoint monad]], [[algebra over a monad]], [[module over a monad]], [[monad with arities]], [[distributive law]], [[monoidal monad]], [[cartesian monad]]
 
 * [[extension system]]
 
