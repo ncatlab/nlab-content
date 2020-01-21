@@ -1,10 +1,6 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### 2-Category theory
-+--{: .hide}
-[[!include 2-category theory - contents]]
-=--
 #### Higher algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
@@ -24,6 +20,9 @@ There are different, related ways in which one could view the notion of algebra 
 * If one views monads as a generalization of [[algebraic theories]] (see [[algebraic theory#RelationToMonads|algebraic theory -  relation to monads]]), an algebra over a monad is the correspondent generalization of an [[algebra over a Lawvere theory|algebra over a theory]]. In particular, if one views a monad as a way of prescribing particular [[operations]], an algebra is a context where those specified formal expressions can be evaluated to an actual result.
 * From the 2-dimensional point of view, an algebra over a monad is a special case of a [[module over a monad]] for the bicategory [[Cat]], where the arrow is from the [[terminal category]].
 * If one views monads as a way to model computational effects (see [[monad in computer science]]), an algebra is a context in which the extra effects can be reincorporated into the main data. 
+
+Algebras over a monad are usually objects equipped with extra [[structure]], not just [[properties]].
+
 
 ## Definition
 
@@ -48,16 +47,42 @@ A \ar{r}{f} & B
 
 The category of $T$-algebras and their morphisms is called the **[[Eilenberg-Moore category]]** and denoted by $C^T$.
 
+### Free algebras
+
+Given a monad $(T,\mu,\eta)$ on a category $C$, for every object $X$ of $C$, the object $T X$ is canonically equipped with a $T$-algebra structure, given by the multiplication map $\mu$. The relevant diagrams commute by the monad axioms.
+
+Algebras of this sort are called **free algebras**. 
+
+Given any morphism $f:X\to Y$ of $C$, the map $T f:T X\to T Y$ is a morphism of algebras, by naturality of $\mu$. Not every morphism of algebras between $T X$ and $T Y$ arises this way.
+
+The subcategory of free algebras and their morphisms is (equivalent to) the **[[Kleisli category]]**.
+
 
 ## Examples
 
-(...)
+Many monads are named after their (free) algebras. 
+
+* The algebras of the _free monoid monad_ on [[Set]] are [[monoids]], and the morphisms of algebras the monoid homomorphisms.
+* The algebras of the _free commutative monoid monad_ on [[Set]] are [[commutative monoids]], and their morphisms the monoid homomorphisms between them. 
+* The algebras of the _free group monad_ on [[Set]] are groups, and their monoids are the group homomorphisms.
+* ...and so on. 
+
+In these cases, the notion of _free group_, _free monoid_, et cetera coincide with the notion of free algebra given above.
+
+
+* Given a [[monoid]] or [[group]] $M$, the algebras of the $M$-[[action monad]] on [[Set]] are the $M$-sets, i.e. sets equipped with an [[action]] of $M$. The morphisms are the [[equivariant maps]]. 
+* The example above generalizes to [[action monads]] given by [[monoid objects]] in a general [[monoidal category]]. Famous examples of this construction in mathematics are smooth actions of [[Lie groups]] on [[manifolds]] and actions of [[rings]] on their [[modules]].
+
+
+* The algebras of the [[power set]] monad are the sup-[[semilattices]].
+* The algebras of the [[distribution monad]] are [[convex spaces]], and more generally algebras of [[probability monads]] correspond to generalized [[convex spaces]] or [[conical spaces]].
+
 
 ## Generalizations
 
 An algebra over a monad is a special case of a [[module over a monad]] in a bicategory. See there for more information.
 
-The Eilenberg-Moore category is also a special case of a more general construction, namely the [[Eilenberg-Moore object]]. See there for more information.
+The Eilenberg-Moore and Kleisli categories is also special cases of more general 2-dimensional [[universal constructions]], namely the [[Eilenberg-Moore object]] and the [[Kleisli object]]. See there for more information.
 
 
 ## Related concepts
@@ -84,7 +109,12 @@ The Eilenberg-Moore category is also a special case of a more general constructi
 
 ## References 
 
-(...)
+An introduction to the basic ideas, which gives some intuition for newcomers, can be found in
+
+* [[Paolo Perrone]], _Notes on Category Theory with examples from basic mathematics_, Chapter 5. ([arXiv](http://arxiv.org/abs/1912.10642))
+
+See also the [[monad#references|references of the article on monads]].
+
 
 [[!redirects algebra for a monad]]
 [[!redirects algebra over a monad]]
