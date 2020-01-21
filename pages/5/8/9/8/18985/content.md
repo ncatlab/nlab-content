@@ -1,12 +1,37 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 [[length]]$\,$[[scale]]
 
+## In physics
+
+[[energy]] and [[length scales]] in the [[observable universe]] (from [[cosmological constant|cosmic]] scales, over [[fundamental particle]]-[[masses]] around the [[electroweak symmetry breaking]] to [[GUT scale]] and [[Planck scale]]):
+
+<center>
+<img src="https://ncatlab.org/nlab/files/ScalesInFundamentalPhysics.jpg" width="700">
+</center>
+
+> graphics grabbed from [Zupan 19](flavour+in+particle+physics#Zupan19)
+
+\begin{center}
+<img src="https://ncatlab.org/nlab/files/EnergyScales.jpg" width="600">
+\end{center}
+
+> graphics grabbed from [here](http://sten.astronomycafe.net/the-particle-desert/)
+
+
 ## Related concepts
+
+* [[Planck scale]]
+
+* [[GUT scale]]
 
 * [[scaling transformation]]
 
-* [[GUT scale]]
 
 ## References
 
