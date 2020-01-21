@@ -10,8 +10,6 @@
 =--
 
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -25,10 +23,17 @@ For the [[leptons]] these flavor quantum numbers are _[[electron]] number_, _[[m
 
 For the [[quarks]] the flavor quantum numbers are _[[isospin]]_, _[[charm quark|charm]]_, _[[strange quark|strange]]-ness_,  _[[bottom quark|bottom]]-ness_ and _[[top quark|top]]-ness_.
 
-[[!include flavors of fundamental particles -- table]]
 
+<center>
+<img src="https://ncatlab.org/nlab/files/AltmannshoferFlavorSector.jpg" width="700">
+</center>
+
+> slide grabbed from [Altmannshofer 14](#Altmannshofer14)
 
 See [yotams](#yotams) for a good quick introduction.
+
+
+
 
 ## Properties
 
@@ -119,10 +124,15 @@ See also
 ### The flavour problem
  {#ReferencesFlavorProblem}
 
+On the [[flavour problem]]:
 
+* [[Gino Isidori]], _Kaon decays and the flavour problem_, 	Annales Henri Poincare 4 (2003) S97-S109 ([arXiv:hep-ph/0301159](https://arxiv.org/abs/hep-ph/0301159))
+
+  (emphasis on [[kaon]] [[scattering|decays]])
 
 * [[Gino Isidori]], _The flavor problem_, 2016 ([pdf](https://indico.cern.ch/event/504502/contributions/2147710/attachments/1287372/1915547/SWHEPPS_Talk.pdf), [[IsidoriFlavor16.pdf:file]])
 
+* {#Altmannshofer14} [[Wolfgang Altmannshofer]], _The Flavor Puzzle_, Aspen 2014 ([pdf](https://www.aspenphys.org/science/colloquia/2014_slides/altmannshofer.pdf), [[AltmannshoferFlavorProblem.pdf:file]])
 
 ### Flavour anomalies
 
