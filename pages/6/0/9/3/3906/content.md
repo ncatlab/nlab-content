@@ -4,6 +4,15 @@ _Richard Ewen Borcherds_ is a professor of mathematics at University of Californ
 
 * [wikipedia](http://en.wikipedia.org/wiki/Richard_Borcherds)
 
+## Selected writings
+
+On the [[Monster vertex algebra]]:
+
+* {#Borcherds86} [[Richard Borcherds]], _Vertex algebras, Kac-Moody algebras, and the Monster_, PNAS May 1, 1986 83 (10) 3068-3071 ([doi:10.1073/pnas.83.10.3068](https://doi.org/10.1073/pnas.83.10.3068), [pdf](https://pdfs.semanticscholar.org/a3bb/2d2772ccc0c1582f0216f9ab87c1b8a11eb6.pdf))
+
+* {#BorcherdsConwayQueenSloane} [[Richard Borcherds]], [[John Conway]], L. Queen, N. J. A. Sloane, _A Monster Lie Algebra?_, In: _Sphere Packings, Lattices and Groups_, Grundlehren der mathematischen Wissenschaften (A Series of Comprehensive Studies in Mathematics), vol 290. Springer 1993 ([doi:10.1007/978-1-4757-2249-9_30](https://doi.org/10.1007/978-1-4757-2249-9_30), [pdf](http://neilsloane.com/doc/Me99.pdf))
+
+
 [[!redirects R. E. Borcherds]]
 [[!redirects Richard Ewen Borcherds]]
 [[!redirects Richard E. Borcherds]]
