@@ -55,12 +55,16 @@ Higgs and [[quark]] factors.)
 
 Broadly, _the flavor problem_ (see the references [below](#ReferencesFlavorProblem)) is the fact that the nature and principles behind the flavor sector of the standard are much less understood than those of the gauge sector (the "color sector"). More concretely, the flavor problem in models going beyond the standard model (such as [[GUT]] models and/or the [[MSSM]]) is that introducing any New Physics while satisfying observational constraints on flavor physics seems to demand a high level of [[fine-tuning]] in the flavor sector.
 
+Moreover, all observed [[CP violation]] is related to flavor-changing [[interactions]].
+
+Finally, due to [[confinement]], the flavor-changing transitions between [[quarks]] are not seen in isolation by collider [[experiments]], but are only seen via the induced decays of the [[mesons]] and/or [[baryons]] that the [[quarks]] are [[bound state|bound]] in. This way the flavor problem is tied to the [confinement problem](confinement#OpenProblem) and hence to the problem of formulating [[QCD]] [[non-perturbative quantum field theory|non-perturbatively]] (e.g. via [[AdS/QCD]]).
+
 All this suggests that the flavor sector is controlled by mechanisms that are not understood or identified yet.
 
 
 ### Flavor anomalies
 
-The flavor sector of the [[standard model of particle physics]] is maybe the least well understood in detail; in any case persistent [[flavor anomalies]] reflect a discrepancy between [[experiment]] ([[LHCb]], [[Belle experiment|Belle]], [[BaBar experiment|BaBar]]) and theoretical computations. 
+Due to the [flavor problem](#TheFlavorProblem), the flavor sector of the [[standard model of particle physics]] is the least well understood in detail. Indeed, persistent [[flavor anomalies]] reflect a discrepancy between [[experiment]] ([[LHCb]], [[Belle experiment|Belle]], [[BaBar experiment|BaBar]]) and theoretical computations, which keeps being seen at a global [[statistical significance]] of $\sim 4\sigma$ across all experiments and decay channels. If these [[flavour anomalies]] are real they signify New Physics in the flavor sector.
 
 
 
