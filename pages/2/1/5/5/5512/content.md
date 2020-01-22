@@ -38,7 +38,7 @@ In [[representation theory]], **Frobenius reciprocity** (sometimes _Frobenious_)
 Specifically for $H \hookrightarrow G$ an [[subgroup]] inclusion, there is an [[adjunction]]
 
 $$
-  (Ind \dashv Red) \;\colon\;
+  (Ind \dashv Res) \;\colon\;
   Rep_G
     \stackrel{\overset{Ind}{\leftarrow}}{\underset{Red}{\longrightarrow}} 
   Rep_H
@@ -49,7 +49,7 @@ between the [[categories]] of $G$-[[representations]] and $H$-[[representations]
 Sometimes also the _[[projection formula]]_
 
 $$
-  Ind(Red(W) \otimes V) \simeq W \otimes Ind(V)
+  Ind(Res(W) \otimes V) \simeq W \otimes Ind(V)
 $$
 
 is referred to as _Frobenius reciprocity_ in representation theory (e.g. [here on PlanetMath](http://planetmath.org/frobeniusreciprocity)). See below the general discussion [in Wirthm&#252;ller contexts](#InWirthmuellerContexts).
