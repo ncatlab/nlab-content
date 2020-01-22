@@ -35,7 +35,7 @@ See [yotams](#yotams) for a good quick introduction.
 ### The flavor problem
  {#TheFlavorProblem}
 
-In the [[standard model of particle physics]], the sector involving [[flavor physics]] (the [[Yukawa coupling]]- and [[CKM matrix]]-sector in the [[Lagrangian density]] of the [[Einstein-Yang-Mills-Dirac-Higgs theory]] that defines the standard model) has some striking characteristics different from the sector that does not. 
+In the [[standard model of particle physics]], the sector involving [[flavor physics]] -- hence the [[Higgs boson]] [[interaction]] with the [[generations of fermions]], hence the [[Yukawa coupling]]- and [[CKM matrix]]-sector in the [[Lagrangian density]] of the [[Einstein-Yang-Mills-Dirac-Higgs theory]] that defines the standard model --  has some striking characteristics different from the sector that does not:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/AltmannshoferFlavorSector.jpg" width="700">
@@ -50,12 +50,16 @@ In the [[standard model of particle physics]], the sector involving [[flavor phy
 
 > slide grabbed from [Isidori 16](#Isidori16)
 
-Broadly, _the flavor problem_ (see the references [below](#ReferencesFlavorProblem)) is the fact that the nature and principles behind the flavor sector of the standard are much less understood than that of the gauge sector (the "color sector"). More concretely, the flavor problem in models going beyond the standard model is that introducing any New Physics while satisfying observational constraints on flavor physics seems to demand a high level of [[fine-tuning]] in the flavor sector.
+Broadly, _the flavor problem_ (see the references [below](#ReferencesFlavorProblem)) is the fact that the nature and principles behind the flavor sector of the standard are much less understood than those of the gauge sector (the "color sector"). More concretely, the flavor problem in models going beyond the standard model (such as [[GUT]] models and/or the [[MSSM]]) is that introducing any New Physics while satisfying observational constraints on flavor physics seems to demand a high level of [[fine-tuning]] in the flavor sector.
+
+All this suggests that the flavor sector is controlled by mechanisms that are not understood or identified yet.
 
 
 ### Flavor anomalies
 
 The flavor sector of the [[standard model of particle physics]] is maybe the least well understood in detail; in any case persistent [[flavor anomalies]] reflect a discrepancy between [[experiment]] ([[LHCb]], [[Belle experiment|Belle]], [[BaBar experiment|BaBar]]) and theoretical computations. 
+
+
 
 See at _[[flavour anomalies]]_ for more.
 
