@@ -28,21 +28,105 @@ The details vary depending on the monad and on the category under consideration.
 Many choices of categories and of monads are possible, depending on which aspects of measure theory or probability one wants to study. 
 See [the table below](#detailed_list) for more details.
 
-The term "probability monad" was coined by Giry herself (see [here](#giry80)).
+Note that "probability monad" and "measure monad" are not used here as technical terms with a definition. Here we just explain what most monads of this kind looks like. 
+(There are ongoing works which may give a general, precise definition of probability monad.)
+The term "probability monad" was coined by Giry herself (see [here](#giry80)), to refer to what we today call the [[Giry monad]].
 
 ## Functor, unit and multiplication
 
-(...work in progress...)
+### The functor: random outcomes
 
-## Algebras
+The basic idea, that holds for all monads of this sort, is that of forming spaces of [[random elements]], or rather their [[law of a random variable|laws]]. 
 
-(...work in progress...)
+Consider a category $C$, whose objects we can think of as "spaces of outcomes" with possibly extra structure, such as [[measurable spaces]], or [[topological spaces]], or even just [[sets]]. 
+A _probability monad_ assigns to each space $X$ a space $P X$ which we can think of as a space of "laws of random outcomes on $X$" or other measure-like entities.
+For example,
 
-## Kleisli morphisms
+* The [[distribution monad]] assigns to each [[set]] the [[distribution monad#finite_distributions|space of finite distributions]] on it.
+* The [[Giry monad]] assigns to each [[measurable space]] the [[Giry monad#definition|space of probability measures]] over it.
+* The [[extended probabilistic powerdomain]] assigns to each [[topological space]] the [[extended probabilistic powerdomain#spaces_of_valuations|space of continuous valuations]] on it.
+* The [[Kantorovich monad]] assigns to each [[metric space]] the [[Kantorovich monad#wasserstein_spaces|Wasserstein space]] over it.
 
-(...work in progress...)
+(See also the table [below](#detailed_list).)
 
-## Monoidal structure
+A possible interpretation of probability monads, which uses the interpretation of [[monads]] as encoding generalized [[theories]], is that $P X$ is a space of "formal generalized convex combinations" (in the sense of [[convex space]]) of points of $X$. 
+For instance, for the [[distribution monad]], given the set $\{heads,tails\}$ of possible outcomes of a coin flip, the set $P X$ contains for example the distribution that assigns probability $1/2$ to both outcomes. This can be thought of as the formal convex combination
+$$
+\frac{1}{2}\, heads + \frac{1}{2}\,tails.
+$$
+
+On the morphisms, the functor gives for example the [[pushforward of measures]]. 
+
+
+### The unit: deterministic random variables
+
+The [[unit]] of the [[monad]] gives, for each space of outcomes, a map $X\to P X$, which we can think of as picking out "those outcomes which are not really random", or "Dirac delta" (see [[Dirac measure]] and [[valuation (measure theory)#dirac_valuation|Dirac valuation]]. 
+
+These can be seen as the laws of a deterministic random variable.
+
+
+### The multiplication: mixing probability measures.
+
+The multiplication of the monad is a map $P P X\to P X$ for all objects $X$. This can be thought of as of "mixing" or "averaging" probability measures. 
+
+The following example is taken from [Perrone '19, Example 5.1.2](#notesperrone). 
+Suppose that you have two coins in your pocket. Suppose that one coin is fair, with "heads" on one face and "tails" on the other face; suppose the second coin has "heads" on both sides. Suppose now that you draw a coin randomly, and flip it.  We can sketch the probabilities in the following way:
+  \begin{tikzcd}
+   &&& ? \ar{dll}[swap]{1/2} \ar{drr}{1/2} \\
+   & \mathrm{coin} \,1 \ar{dl}[swap]{1/2} \ar{dr}{1/2} &&&& \mathrm{coin} \,2 \ar{dl}[swap]{1} \ar{dr}{0} \\
+   \mathrm{heads} && \mathrm{tails} && \mathrm{heads} && \mathrm{tails}
+  \end{tikzcd}
+ Let $X$ be the set $\{heads,tails\}$. A coin gives a _law_ according to which we will obtain "heads" or "tails" so it determines an element of $P X$. Since the choice of coin is also random (we also have a _law on the coins_), the law on the coins determines an element of $P P X$.
+ By averaging, the resulting overall probabilities are 
+
+  \begin{tikzcd}
+   & ? \ar{dl}[swap]{3/4} \ar{dr}{1/4} \\
+   \mathrm{heads} && \mathrm{tails}
+  \end{tikzcd}
+
+ In other words, the "average" or "mixture" can be thought of as an assignment $E:P P X\to P X$, from laws of "random random variables" to laws of ordinary random variables.
+
+
+## Algebras: expectation values
+
+
+According to the interpretation of probability monads in terms of "formal generalized convex combinations", the [[algebra over a monad|algebras]] of a probability monad are then spaces equipped with a way of evaluating these expressions to a result, which we can see as a generalized "[[midpoint]]", "average", or "[[expectation value]]".
+(Expectation values play a very important role in probability: probability monads can encode them via their algebras.)
+
+In other words, algebras of probability monads can be thought of as generalizations of [[convex sets]], depending on the actual category and monad in question. For example,
+
+* The [[algebra over a monad|algebras]] of the [[distribution monad]] are [[convex spaces]].
+* The [[algebra over a monad|algebras]] of the [[Radon monad]] are [[compact space|compact]] convex subsets of [[locally convex topological vector spaces]].
+* The [[algebra over a monad|algebras]] of the [[Kantorovich monad]] are closed convex subsets of [[Banach spaces]].
+
+(See also the table [below](#detailed_list).)
+
+If the measure are not required to be normalized, instead of (generalized) convex combinations one should think of linear combinations with non-negative coefficients, and so as algebra one gets a generalization of [[conical spaces]] instead.
+
+
+## Kleisli morphisms: random maps
+
+The basic interpretation of a Kleisli morphism, i.e. a map $X\to P Y$, is that of a _map with a random outcome_. 
+For example,
+
+* For the [[distribution monad]], Kleisli morphisms are [[stochastic maps]] (or [[stochastic matrices]]).
+* For the [[Giry monad]], Kleisli morphisms are [[Markov kernels]].
+* ...and so on. 
+
+The [[Kleisli category|Kleisli composition]] recovers exactly the [[Chapman-Kolmogorov formula]] for the composition of stochastic maps. In the language of [[conditional probability]], this reads as 
+$$
+p(z|x) = \sum_y p(z|y) \, p (y|x)
+$$
+for the discrete case, and as
+$$
+p(A|x) = \int_Y p(A|y) \, dp(y|x)
+$$
+for the continuous case. 
+
+(See [Giry's original article](#giry80) for the details, as well as the introductions given in [Perrone '18, Section 1.1](#thesisperrone) and [Perrone '19, Example 5.1.13](#notesperrone)).
+
+
+## Monoidal structure: products and marginals
 
 (...work in progress...)
 
@@ -177,7 +261,7 @@ The term "probability monad" was coined by Giry herself (see [here](#giry80)).
 
 * {#Heckmann96} Reinhold Heckmann, _Spaces of valuations_, Papers on General Topology and Ap-plications, 1996 ([doi:10.1111/j.1749-6632.1996.tb49168.x](https://doi.org/10.1111/j.1749-6632.1996.tb49168.x),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.45.5845&rep=rep1&type=pdf))
 
-* {#jung} Mauricio Alvarez-Manilla, Achin Jung, [[Klaus Keimel]], _The probabilistic powerdomain for stably compact spaces_, Theoretical Computer Science 328, 2004. [Link here](https://www.sciencedirect.com/science/article/pii/S0304397504004074).
+* {#jung} Mauricio Alvarez-Manilla, Achim Jung, [[Klaus Keimel]], _The probabilistic powerdomain for stably compact spaces_, Theoretical Computer Science 328, 2004. [Link here](https://www.sciencedirect.com/science/article/pii/S0304397504004074).
 
 * {#jonesplotkin} C. Jones and [[Gordon. D. Plotkin]], _A probabilistic powerdomain of evaluations_, LICS 4, 1989. ([doi:10.1109/LICS.1989.39173](https://doi.org/10.1109/LICS.1989.39173))
 
@@ -198,6 +282,12 @@ The term "probability monad" was coined by Giry herself (see [here](#giry80)).
 ([doi:10.1016/j.jlamp.2016.11.006](https://doi.org/10.1016/j.jlamp.2016.11.006))
 
 * {#fritzconvex} [[Tobias Fritz]], _Convex spaces I: definitions and examples_, 2009. ([arXiv:0903.5522](https://arxiv.org/abs/0903.5522))
+
+An introduction to some of the concepts can be also found in:
+
+* {#notesperrone} [[Paolo Perrone]], _Notes on Category Theory with examples from basic mathematics_, Chapter 5. ([arXiv](http://arxiv.org/abs/1912.10642))
+
+* {#thesisperrone} [[Paolo Perrone]], _Categorical probability and stochastic dominance in metric spaces_, PhD thesis, Chapter 1. ([pdf](http://www.paoloperrone.org/phdthesis.pdf))
 
 
 [[!redirects probability monad]]
