@@ -290,5 +290,7 @@ Other attempted axiomatizations of the same idea "something that acts like the c
 
 * [blog post](http://rfcwalters.blogspot.com/2009/10/categorical-algebras-of-relations.html) showing that any bicategory of relations is an [[allegory]]. Indeed, a bicategory of relations is equivalent to a unitary pretabular allegory.
 
+* 2017 article on [Knowledge Representation in Bicategories of Relations](https://www.epatters.org/assets/papers/2017-relational-ologs.pdf) by Evan Patterson, shows how one can model RDF (Resource Description Framework) and parts of OWL (Ontology Web Language) in bicategories of relations, whose internal logic is [[regular logic]]. He ends by showing how one can extend these to [[distributive bicategories of relations]] whose internal logic is [[coherent logic]], which is equivalent in expressivity to first order logic.
+
 
 [[!redirects bicategories of relations]]
