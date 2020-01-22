@@ -153,10 +153,16 @@ Let $M$ be a monoid, and let's write it additively. Denote by $T_M$ its _right_ 
 ## Related concepts
 
 * [[action]], [[G-set]], [[equivariant map]]
+
 * [[internalization]]
+
 * [[monoidal category]], [[monoid object]], [[group object]], [[module object]]
+
 * [[monad]], [[algebra over a monad]]
-* [[monad in computer science]], [[function monad]], [[writer comonad]]
+
+* [[monad in computer science]], 
+
+  * [[function monad]], [[writer comonad]]
 
 
 ## References 
