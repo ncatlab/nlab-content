@@ -77,14 +77,14 @@ In these cases, the notion of _free group_, _free monoid_, et cetera coincide wi
 
 
 * The algebras of the [[power set]] monad are the sup-[[semilattices]].
-* The algebras of the [[distribution monad]] are [[convex spaces]], and more generally algebras of [[probability monads]] correspond to generalized [[convex spaces]] or [[conical spaces]].
+* The algebras of the [[distribution monad]] are [[convex spaces]], and more generally algebras of [[probability monads]] correspond to generalized [[convex spaces]] or [[conical spaces]] (see [[probability monad#algebras_expectation_values|probability monad - algebras]]).
 
 
 ## Generalizations
 
-An algebra over a monad is a special case of a [[module over a monad]] in a bicategory. See there for more information.
+An algebra over a monad is a special case of a [[module over a monad]] in a [[bicategory]]. See there for more information.
 
-The Eilenberg-Moore and Kleisli categories is also special cases of more general 2-dimensional [[universal constructions]], namely the [[Eilenberg-Moore object]] and the [[Kleisli object]]. See there for more information.
+The Eilenberg-Moore and Kleisli categories are also special cases of more general 2-dimensional [[universal constructions]], namely the [[Eilenberg-Moore object]] and the [[Kleisli object]]. See those pages for more information.
 
 
 ## Related concepts
