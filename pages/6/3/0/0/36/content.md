@@ -101,6 +101,9 @@ A very different sort of general result has to do with the [[internal logic]] of
 * [[internal logic]]
 
 [[!redirects Internalization]]
+[[!redirects internal]]
 [[!redirects internal to]]
+[[!redirects internally]]
+[[!redirects internally to]]
 [[!redirects internalisation]]
 [[!redirects internalization]]
