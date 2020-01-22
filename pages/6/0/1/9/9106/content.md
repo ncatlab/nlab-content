@@ -3,13 +3,12 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Physics
-+-- {: .hide}
-[[!include physicscontents]]
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
 =--
 =--
 =--
-
 
 #Contents#
 * table of contents
@@ -17,7 +16,7 @@
 
 ## Idea
 
-An issue in [[phenomenology]] and [[model (in theoretical physics)|model building]], notably in the [[standard model of particle physics]], concerning discrepancies between the [[electroweak]] and [[Planck scale]]. For instance, the masses of the [[W-boson|W]] and [[Z-boson|Z]] particles, the force carriers of the [[weak nuclear force]], are about 10,000 trillion times smaller than the [[Planck mass]]. Thus there is a huge hierarchy in the mass scales of [[weak nuclear forces]] and [[gravity]]. See [Strassler](#Strassler) for review.
+What is called the _hierarchy problem_ is an issue in [[phenomenology]] and [[model (in theoretical physics)|model building]], notably in the [[standard model of particle physics]], concerning discrepancies between the [[electroweak]] and [[Planck scale]]. For instance, the masses of the [[W-boson|W]] and [[Z-boson|Z]] particles, the force carriers of the [[weak nuclear force]], are about 10,000 trillion times smaller than the [[Planck mass]]. Thus there is a huge hierarchy in the mass scales of [[weak nuclear forces]] and [[gravity]]. See [Strassler](#Strassler) for review.
 
 ## Proposed solutions
 
