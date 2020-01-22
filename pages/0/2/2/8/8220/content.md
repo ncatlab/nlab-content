@@ -25,7 +25,7 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[length 
 
 ## Related entries
 
-* [[redshift]]
+* [[redshift]], [[comoving time]]
 
 * [[gravity]], [[standard model of particle physics]]
 
