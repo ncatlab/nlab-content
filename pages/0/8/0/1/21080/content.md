@@ -17,7 +17,7 @@
 
 ## Idea
 
-Generally, _nucleosynthsis_ refers to the formation of [[bound states]] of [[nucleons]] ([[protons]] and [[neutrons]]) to [[atomic nuclei]]. Specifically, _primordial nuceosynthesis_ (often meant by default) is this process taking place in the early [[observable universe]] some [[comoving time]] after the [[big bang]] (see also at _[[QCD cosmology]]_). Other natural processes of nucleosynthesis happened and happen in [[stars]] and in [[supernovae]].
+Generally, _nucleosynthesis_ refers to the formation of [[bound states]] of [[nucleons]] ([[protons]] and [[neutrons]]) to [[atomic nuclei]]. Specifically, _primordial nucleosynthesis_ (often meant by default) is this process taking place in the early [[observable universe]] some [[comoving time]] after the [[big bang]] (see also at _[[QCD cosmology]]_). Other natural processes of nucleosynthesis happened and happen in [[stars]] and in [[supernovae]].
 
 
 
