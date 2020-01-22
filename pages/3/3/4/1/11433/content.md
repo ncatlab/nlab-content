@@ -164,6 +164,10 @@ $$
 
 * [[Planck mass]]
 
+## Related concepts
+
+* [[comoving time]]
+
 ## References
 
 Discussion in the context of [[philosophy of science]] includes
