@@ -60,4 +60,4 @@ $$
 
 * Ramakrishnan, Valenza, _Fourier analysis on number fields_
 
-* [[Clark Barwick]], _Exercises on locally compact abelian groups: An invitation to harmonic analysis_  ([pdf](isites.harvard.edu/fs/docs/icb.topic651578.files/suppprobsLCA.pdf))
+* [[Clark Barwick]], _Exercises on locally compact abelian groups: An invitation to harmonic analysis_  ([pdf](https://www.maths.ed.ac.uk/~cbarwick/papers/suppprobsLCA.pdf))
