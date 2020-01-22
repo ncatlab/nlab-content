@@ -23,12 +23,12 @@ Confinement (e.g [Espiru 94](#Espiru94)) is the (expected) phenomenon in [[Yang-
 
 Part of the issue is that confinement is a [[non-perturbative effect]] (e.g [Espiru 94](#Espiru94)) outside the range of validity of [[perturbative quantum field theory]].
 
-## Open problem
+## The open problem
  {#OpenProblem}
 
-While [[experiment]] as well as [[lattice gauge theory]]-computer simulation clearly show that confinement takes place, a real theoretical understanding is missing (see also at _[[mass gap problem]]_).
+While [[experiment]] as well as [[lattice gauge theory]]-computer simulation clearly show that [[confinement]] takes place, a real theoretical understanding has been missing (though [[AdS-QCD]] is now on a good track). This is the _confinement problem_. (The same problem from the point of view of [[mathematics]] is called the _[[mass gap problem|mass gap]] [Millenium Problem](quantization+of+Yang-Mills+theory#ReferencesNonperturbativeTheoryAndMassGap)_).
 
-Here are quotes from some references highlighting the open problem:
+The following is a list of quotes highlighting the open problem:
 
 * [[Edward Witten]], _Baryons in the $1/n$ Expansion_, Nucl. Phys. B160 (1979) 57-115 ([spire:140391](http://inspirehep.net/record/140391), <a href="https://doi.org/10.1016/0550-3213(79)90232-3">doi:10.1016/0550-3213(79)90232-3</a>)
 
