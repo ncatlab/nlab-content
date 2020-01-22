@@ -70,7 +70,7 @@ More abstractly, the monads $s$ and $t$ in $K$ give rise to ordinary monads $s^*
 ### Algebras for monads in Cat
  {#AlgebrasForMonadsInCat}
 
-If $K =$ [[Cat]] and $(T,\eta,\mu)$ is a monad on a [[category]] $C$, then a left $T$-module $A \colon 1 \to C$, where $1$ is the [[terminal category]], is usually called a **$T$-algebra** (see also at _[[universal algebra]]_): it is given by an object $A \in C$ together with a morphism $\alpha \colon T A \to A$, such that
+If $K =$ [[Cat]] and $(T,\eta,\mu)$ is a monad on a [[category]] $C$, then a left $T$-module $A \colon 1 \to C$, where $1$ is the [[terminal category]], is usually called an **[[algebra over a monad|algebra over $T$]]** or **$T$-algebra** (see there): it is given by an object $A \in C$ together with a morphism $\alpha \colon T A \to A$, such that
 $$ \array {
   T(T(A))              & \stackrel{\mu_A}\rightarrow  & T(A) \\
   T(\alpha) \downarrow &                              & \downarrow \alpha \\
@@ -120,7 +120,7 @@ More generally, $Mod(Span(C))$, for $C$ any category with coequalizers and pullb
 
 ## Related concepts
 
-* **module over a monad**, [[algebra over a monad]], [[algebra over an endofunctor]], [[coalgebra over an endofunctor]], [[algebra over a profunctor]]
+* **algebra over a monad**, [[algebra over an endofunctor]], [[coalgebra over an endofunctor]], [[algebra over a profunctor]]
 
   [[∞-algebra over an (∞,1)-monad]] 
 
