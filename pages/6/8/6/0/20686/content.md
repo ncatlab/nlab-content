@@ -19,9 +19,13 @@
 
 ## References
 
+### General
+
 See also 
 
 * Wikipedia, _[Form factor (quantum field theory)](https://en.wikipedia.org/wiki/Form_factor_(quantum_field_theory)_
+
+### In relation to flavour anomalies
 
 [[hadron|Hadronic]] form factors in relation to the [[flavour anomalies]]:
 
