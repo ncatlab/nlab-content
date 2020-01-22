@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include 2-category theory - contents]]
 =--
+#### Enriched category theory
++--{: .hide}
+[[!include enriched category theory contents]]
+=--
 =--
 =--
 
@@ -158,7 +162,7 @@ T((x\circ !_Y),id_Y)\circ y\ : 1 \to T(X\times Y)
 Hence if $1$ is a [[generator]], i.e. $C(1,-):C\to Set$ is faithful, then there is at most one strength for any ordinary monad on $C$. 
 =--
 
-In other words, a monad being strong is a property rather than structure in a category with enough points. 
+In other words, a monad being strong is a [[property]] rather than a [[structure]] in a category with enough points. 
 
 ## Related concepts
 
@@ -188,3 +192,8 @@ Strong monads are important in Moggi's theory of notions of computation (see [[m
 * {#moggi89} [[Eugenio Moggi]]. Computational Lambda-Calculus and Monads. Proceedings of the Fourth Annual Symposium on Logic in Computer Science. 1989. p. 14&#8211;23. 
 
 [[!redirects strong monads]]
+[[!redirects strength of a monad]]
+[[!redirects costrong monads]]
+[[!redirects costrength of a monad]]
+[[!redirects co-strong monads]]
+[[!redirects co-strength of a monad]]
