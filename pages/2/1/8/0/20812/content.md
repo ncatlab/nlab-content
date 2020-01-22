@@ -53,7 +53,9 @@ Proposals for encoding this condition by a [[Wu class]]-shifted variant of [[gen
 
 It turns out that the shifted flux quantization condition on the C-field is naturally implied ([FSS1 19b, Prop. 4.12](#FSS19b)) by the requirement that $G_4$ is the differential form datum underlying, via [[Sullivan model|Sullivan's theorem]], a [[cocycle]] in unstable [[J-homomorphism|J-]] [[twisted Cohomotopy]] in degree 4 ([[schreiber:Hypothesis H]]).
 
+
 ## For the electric $G_7$-flux
+ {#ForElectricG7Flux}
 
 In the presence of non-vanishing [[C-field]] [[flux]] $G_4$, the electric [[flux density]] of [[M2-branes]] is not $G_7 \coloneqq \star G_4$ alone, but receives corrections, first due to the quadratic [[C-field]] self-interaction in [[D=11 supergravity]], but then also due to the [[shifted C-field flux quantization]] expected in [[M-theory]]:
 
