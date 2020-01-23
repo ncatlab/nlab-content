@@ -344,5 +344,7 @@ Relation of [[Dp-D(p+2)-brane bound states]] ([hence](Dp-Dp+2-brane+bound+states
 [[!redirects Yang-Mills monopole]]
 [[!redirects Yang-Mills monopoles]]
 
+[[!redirects monopole in Yang-Mills theory]]
+[[!redirects monopoles in Yang-Mills theory]]
 
 
