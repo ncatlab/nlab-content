@@ -79,9 +79,19 @@ Q: In your interview by Farmelo, last year, you said: "The problem we face is th
 
 (12:58) Going back to how the M-theory has developed: One curious feature of the big story is the AdS/CFT correspondence. Because when Maldacena wrote his paper, he had three examples: $AdS_4 \times S^7$, $AdS_5 \times S^5$, $AdS_7 \times S^4$. Two of those were 11-dimensional M-theory compactifications and the other one was type IIB.
 
-(13:33) But if you look at the paper that have been written since Maldacena's seminal contribution, the vast majority of them have been on the $AdS_5 \times S^5$-story. 
+(13:33) But if you look at the papers that have been written since Maldacena's seminal contribution, the vast majority of them have been on the $AdS_5 \times S^5$-story. 
 
+(13:47) For whatever reason there hasn't been the same progress in M-theory, as a result of that.
 
+(13:58) The AdS/CFT correspondence in a way diverted attention away from the goal of finding a unified theory of all the fundamental forces, starting from 11 dimensions. 
+
+(14:13) It's been tremendously succesful in its own right, Maldacena's paper is the most highly cited paper in history. But it has not, strangely enough, contributed to how we unify the strong, weak and electromagnetic forces with gravity. At least I don't think it has. That's a different problem. I would have been happier, I think, looking back, if we were further down that road, since 1995, than we are.
+
+(14:48) But I am still optimistic that we are on the right track. 
+
+Q: So you believe we ought to get back to the original big question about what's the nature of M-theory.
+
+(15:03) That's my view, yes.
 
 
 
