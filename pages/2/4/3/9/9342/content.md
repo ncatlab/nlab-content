@@ -22,7 +22,7 @@ An important [[non-perturbative effect]] in experimentally observed [[quantum ph
 
 Presently non-perturbative quantum field theories have been constructed only in simple toy examples, such as for [[free field theories]] (no interaction) or in low [[spacetime]] [[dimension]] (e.g. [[2d CFTs]]) or for [[topological quantum field theories]]. 
 
-Indeed the example of non-perturbative [[quantization of Yang-Mills theory]] (see there) in 4 dimensions, or even just enough of it to find the expected [[mass gap]] of the theory, is listed as one of the open "Millenium Problems" by the Clay Mathematics Institute.
+Indeed the example of non-perturbative [[quantization of Yang-Mills theory]] (see there) in 4 dimensions, or even just enough of it to find the expected [[mass gap]] of the theory, is listed as one of the open "Millennium Problems" by the Clay Mathematics Institute.
 
 One attempt to construct non-perturbative quantum field theories on [[Minkowski spacetime]] was to make rigorous sense of the [[path integral]] for the [[Wick rotation|Wick-rotated]] Euclidean theory by construction of suitable [[measures]]. This approach is known as "[[constructive quantum field theory]]". It worked for [[scalar field theory]] such as [[phi^4 theory]]  in spacetime dimension 2 and 3, but (so far) not in dimension 4.
 
