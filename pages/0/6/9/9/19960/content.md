@@ -490,6 +490,9 @@ Review:
 
 * {#CaiLi17} Wenhe Cai, Si-wen Li, _Holographic three flavor baryon in the Witten-Sakai-Sugimoto model with the D0-D4 background_, Eur. Phys. J. C (2018) 78: 446 ([arXiv:1712.06304](https://arxiv.org/abs/1712.06304))
 
+
+
+
 #### Baryons as instantons
 
 [[baryons]] as [[instantons]]:
@@ -602,6 +605,12 @@ JHEP 1008:007,2010 ([arxiv:1003.3698](https://arxiv.org/abs/1003.3698))
 * {#Suzuki01} Kenji Suzuki, _D0-D4 system and $QCD_{3+1}$_, Phys.Rev. D63 (2001) 084011 ([arXiv:hep-th/0001057](https://arxiv.org/abs/hep-th/0001057))
 
 * S.S. Afonin, A.D. Katanaeva, _Glueballs and deconfinement temperature in AdS/QCD_ ([arXiv:1809.07730](https://arxiv.org/abs/1809.07730))
+
+
+* S. S. Afonin, A. D. Katanaeva, E. V. Prokhvatilov, M. I. Vyazovsky, _Deconfinement temperature in AdS/QCD from the spectrum of scalar glueballs_ ([arXiv:2001.07990](https://arxiv.org/abs/2001.07990))
+
+
+
 
 
 
