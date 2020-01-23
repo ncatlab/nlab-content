@@ -107,7 +107,7 @@ According to
 
 * {#Hopkins99} [[Mike Hopkins]], section 4 of _Complex oriented cohomology theories and the language of stacks_, course notes 1999 ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
 
-the best reference as of turn of the millenium was still
+the best reference as of turn of the millennium was still
 
 * {#Adams74} [[Frank Adams]], part II, section 6-8 of _[[Stable homotopy and generalised homology]]_, Chicago lectures in mathematics, 1974
 
