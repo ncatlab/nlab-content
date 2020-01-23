@@ -465,6 +465,10 @@ On [[perturbative string theory]]-corrections (for small [['t Hooft coupling]] $
 
 * Csaba Csaki, [[Matthew Reece]], John Terning, _The AdS/QCD Correspondence: Still Undelivered_, JHEP 0905:067, 2009 ([arXiv:0811.3001](https://arxiv.org/abs/0811.3001))
 
+Discussion of [[large N limit|small N]] effects in [[M-theory]] [[AdS4/CFT3]] and using the [[conformal bootstrap]]:
+
+* Nathan B. Agmon, Shai M. Chester, Silviu S. Pufu, _Solving M-theory with the Conformal Bootstrap_, JHEP 06 (2018) 159 ([arXiv:1711.07343](https://arxiv.org/abs/1711.07343))
+
 
 
 
