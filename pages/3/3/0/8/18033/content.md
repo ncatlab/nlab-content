@@ -72,6 +72,11 @@ Discussion of [[superconformal bootstrap]] in view of [[AdS/CFT]], hence as a pr
 
 * {#ABP18} [[Luis Alday]], [[Agnese Bissi]], [[Eric Perlmutter]], _Genus-One String Amplitudes from Conformal Field Theory_, JHEP06(2019) 010 ([arXiv:1809.10670](https://arxiv.org/abs/1809.10670))
 
+
+Discussion of [[large N limit|small N]] effects in [[M-theory]] [[AdS4/CFT3]] using the [[conformal bootstrap]]:
+
+* Nathan B. Agmon, Shai M. Chester, Silviu S. Pufu, _Solving M-theory with the Conformal Bootstrap_, JHEP 06 (2018) 159 ([arXiv:1711.07343](https://arxiv.org/abs/1711.07343))
+
 The [[D=6 N=(2,0) SCFT]] on the [[M5-brane]]:
 
 * {#ChesterPerlmutter18} Shai M. Chester, [[Eric Perlmutter]], _M-Theory Reconstruction from $(2,0)$ CFT and the Chiral Algebra Conjecture_, J. High Energ. Phys. (2018) 2018: 116 ([arXiv:1805.00892](https://arxiv.org/abs/1805.00892))
