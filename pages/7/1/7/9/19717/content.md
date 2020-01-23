@@ -36,6 +36,12 @@ One generalization considers the lenses from the previous section as _monomorphi
 
 An [[optic (in computer science)|optic]] defines a symmetric monoidal functor from SymmMonCat to itself. Evaluating the result for different symmetric monoidal categories gives these various generalizations such as Prisms which use the disjoint union in Set. ([Riley Theorem 2.0.8](#Riley))
 
+## Related entries
+
+* [[optic (in computer science)]]
+
+* [[polynomial functor]]
+
 ##References
 
 * Bohannon, A., Vaughan, J. and Pierce, B. (2006)  _Relational Lenses: A language for updatable views._ Proceedings of Principles of Database Systems (PODS) 2006
@@ -52,5 +58,7 @@ An [[optic (in computer science)|optic]] defines a symmetric monoidal functor fr
 * {#Hedges} [[Jules Hedges]], _Lenses for philosophers_, [blog post](https://julesh.com/2018/08/16/lenses-for-philosophers/)
 
 * {#Riley} [[Mitchell Riley]], _Categories of optics_, ([arXiv:1809.00738](https://arxiv.org/abs/1809.00738))
+
+* [[David Spivak]], _Lenses:  applications and generalizations_, [slides](http://math.ucr.edu/home/baez/ACTUCR2019/ACTUCR2019_spivak.pdf) of talk at ACT 19. 
 
 [[!redirects lenses (in computer science)]]
