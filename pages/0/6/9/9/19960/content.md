@@ -459,6 +459,15 @@ and in relation to [[B-meson]] physics
 * [[Mohammad Ahmady]], _Holographic light-front QCD in B meson phenomenology_ ([arXiv:2001.00266](https://arxiv.org/abs/2001.00266))
 
 
+### String- and M-theory corrections
+
+On [[perturbative string theory]]-corrections (for small [['t Hooft coupling]] $\lambda = g_{YM}^2 N$) and/or [[M-theory]]-corrections (for [[large N limit|small N]]) to the [[supergravity]]-approximation of the [[AdS/CFT correspondence]]:
+
+* Csaba Csaki, [[Matthew Reece]], John Terning, _The AdS/QCD Correspondence: Still Undelivered_, JHEP 0905:067, 2009 ([arXiv:0811.3001](https://arxiv.org/abs/0811.3001))
+
+
+
+
 
 
 
