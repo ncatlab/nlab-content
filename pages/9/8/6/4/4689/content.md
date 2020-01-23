@@ -25,7 +25,7 @@ A theory of _quantum gravity_ (QG) is supposed to be a [[quantum field theory]] 
 
 The key technical problem with quantum gravity as a [[non-perturbative quantum field theory]] is that all known constructions of QFTs quantize [[field (physics)|fields]] defined _on_ a given [[spacetime]] [[background field|background]], while, in contrast, the field of [[gravity]] _is_ that spacetime. 
 
-Since even for field theories that are defined on space-time backgrounds, such as [[Yang-Mills theory]], [[non-perturbative quantum field theory|non-perturbative]] quantization is a big open problem away from toy examples (for Yang-Mills theory it has been dubbed one of the _Millenium Problems_, see at _[[quantization of Yang-Mills theory]]_) this means that non-perturbative quantum gravity is an even wider open problem.
+Since even for field theories that are defined on space-time backgrounds, such as [[Yang-Mills theory]], [[non-perturbative quantum field theory|non-perturbative]] quantization is a big open problem away from toy examples (for Yang-Mills theory it has been dubbed one of the _Millennium Problems_, see at _[[quantization of Yang-Mills theory]]_) this means that non-perturbative quantum gravity is an even wider open problem.
 
 However, the [[Einstein-Hilbert action]] that defines gravity may be expanded around any of its solutions to the [[Einstein equations]] and the resulting [[perturbation]] of the field of gravity around this background behaves, to low order, like an ordinary [[field (physics)|field]] on a fixed spacetime background. This allows to treat _perturbative quantum gravity_ (pQG) as a [[perturbative quantum field theory]], see the references [below](#ReferencesAsAnEffectiveFieldTheory).
 
