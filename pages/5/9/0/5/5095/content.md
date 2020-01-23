@@ -48,7 +48,7 @@ There is also a generalization to $\Sigma_n$-definability involving [[C(n)-exten
 
 Supercompact cardinals are discussed for instance in
 
-* T. Jech _Set Theory_ The Third Millenium Edition, Revised and Expanded.
+* T. Jech _Set Theory_ The Third Millennium Edition, Revised and Expanded.
 Springer Monographs in Mathematics. Springer-Verlag, Berlin, Heidelberg (2003)
 
 * A. Kanamori, _The Higher Infinite: Large Cardinals in Set Theory from Their
