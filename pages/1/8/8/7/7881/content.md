@@ -17,7 +17,7 @@
 
 > Cantor's continuum problem is simply the question: How many points are there on a straight line in Euclidean space? In other terms, the question is: How many different sets of integers do there exist?  K. G&#246;del ([1947](#Goedel47), p.515)
 
-The **continuum hypothesis** is a famous problem of [[set theory]] concerning the cardinality of the&#160;[[real numbers]] (the "[[continuum]]"). The hypothesis in its classical form goes back to [[Georg Cantor|G. Cantor]] and was on top of [[Hilbert's problems|Hilbert's millenium list]] of open problems in mathematics in 1900.
+The **continuum hypothesis** is a famous problem of [[set theory]] concerning the cardinality of the&#160;[[real numbers]] (the "[[continuum]]"). The hypothesis in its classical form goes back to [[Georg Cantor|G. Cantor]] and was on top of [[Hilbert's problems|Hilbert's list]] of open problems in mathematics in 1900.
 
 In concise form the continuum hypothesis ($CH$) reads: $\quad 2^{\aleph_0}=\aleph _1\quad$; which roughly says that every [[subset]] of the [[real numbers]] is either [[countable set|countable]] or has the same [[cardinality]] as the set of all real numbers.
 
