@@ -1,9 +1,16 @@
-*For the computer science construction, see [[optic (in computer science)]].*
+> For the concept of the same name in [[computer science]] see at _[[optic (in computer science)]]_.
 
-<div class="rightHandSide toc">
+***
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
 [[!include physicscontents]]
-</div>
-
+=--
+=--
+=--
 
 
 #Contents#
@@ -13,8 +20,27 @@
 
 ## Idea
 
-**Optics** studies light. **Light** is an electromagnetic phenomenon and it corresponds to the special solutions of the Maxwell equations for the [[electromagnetic field]]. Of course, specific methods and applications pertain to optics, which are not used that much in the rest of electromagnetism. 
+**Optics** is the study of propagation of [[light]], i.e. of [[electromagnetic waves]], especially in dependence of the ambient medium, of light [[reflection]] etc.
 
-Light has both a corpuscular and a [[wave]] nature. Corpuscular nature is represented by quanta of [[electromagnetic field]], photons. 
+In the limiting case of essentially [[plane waves]] (light rays) one speaks of [[geometrical optics]].
 
-For applications but also fundamental theoretical consideration there is an important approximation of [[geometrical optics]].
+## Related concepts
+
+* [[electromagnetic wave]]
+
+* [[electromagnetism]], [[QED]]
+
+* [[photon]]
+
+## References
+
+Textbooks:
+
+* Ariel Lipson, Stephen G. Lipso, Henry Lipson, _Optical Physics_, Cambridge University Press ([publisher page](https://www.cambridge.org/ae/academic/subjects/physics/optics-optoelectronics-and-photonics/optical-physics-4th-edition?format=HB&isbn=9780521493451))
+
+
+See also
+
+* Wikipedia, _[Optics](https://en.wikipedia.org/wiki/Optics)_
+
+
