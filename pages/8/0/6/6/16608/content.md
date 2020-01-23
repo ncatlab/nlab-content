@@ -1,3 +1,7 @@
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 **Tambara functors** are algebraic structures similar to [[Mackey functors]], but with multiplicative norm maps as well as additive transfer maps, and a rule governing their interaction. They were introduced by Tambara, as TNR-functors, to encode the relationship between Trace (additive transfer), Norm (multiplicative transfer) and Restriction maps in the representation theory and cohomology theory of finite groups ([Tam93](#Tam93)).
@@ -33,3 +37,5 @@ Some other examples are related to [[Witt-Burnside functors]], Witt rings in the
 * Kristen Mazur, _On the Structure of Mackey Functors and Tambara Functors_, ([thesis](http://sites.lafayette.edu/mazurk/files/2013/07/Mazur-Thesis-4292013.pdf))
 * {#Hill17} [[Michael Hill]], _On the Andre-Quillen homology of Tambara functors_, ([arXiv:1701.06219](https://arxiv.org/abs/1701.06219))
 * [[Andrew Blumberg]], [[Michael Hill]], _Incomplete Tambara functors_, ([arXiv:1603.03292](https://arxiv.org/abs/1603.03292))
+
+[[!redirects Tambara functors]]
