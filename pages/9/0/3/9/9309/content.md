@@ -147,6 +147,7 @@ Relation of [[single trace observables]] in the [[non-abelian DBI action]] on [[
 [[!redirects non-abelian Born-Infeld actions]]
 
 [[!redirects nonabelian DBI action]]
+[[!redirects nonabelian DBI-action]]
 
 [[!redirects Dirac-Born-Infeld action functional]]
 [[!redirects DBI action functional]]
