@@ -10,7 +10,7 @@ on the rigorous [[path integral]] formulation of [[quantum mechanics]] and [[qua
 
 In order to construct a fully rigorous definition of a [[quantum field theory]], the authors use the Osterwalder-Schrader axioms to define a notion of a quantum field that is equivalent to the [[Wightman axioms]], see [[Osterwalder-Schrader theorem]]. 
 
-Note that the ultimate goal of the program, namely the fully rigorous construction of the [[standard model of particle physics]], has not been achived (yet) and has become one of the famous millenium problems of the Clay institute.
+Note that the ultimate goal of the program, namely the fully rigorous construction of the [[standard model of particle physics]], has not been achived (yet) and has become one of the famous Millennium Problems of the Clay institute.
 
 There are two editions, the first one from 1981, the second one from 1987.
 Online *reviews* of the first edition of the book (the first one along with a book of B. Simon):
