@@ -32,7 +32,7 @@ For example some properties of the [[quark gluon plasma]] in [[quantum chromodyn
 
 The fluid/gravity correspondence involves the _relativistic_ [[Navier-Stokes equation]] on the fluid side. ([BKLS 12](#BKLS12) see [Thillaisundaram 17](#Thillaisundaram17))
 
-But it seems to remain open whether the correspondence sheds much light on the non-relativistic [[Navier-Stokes equation]] (the one whose stability is a [Millenium Problem](Navier-Stokes+equation#CMI)).
+But it seems to remain open whether the correspondence sheds much light on the non-relativistic [[Navier-Stokes equation]] (the one whose stability is a [Millennium Problem](Navier-Stokes+equation#CMI)).
 
 ## Related concepts
 
