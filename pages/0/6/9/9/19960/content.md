@@ -462,13 +462,25 @@ and in relation to [[B-meson]] physics
 ### String- and M-theory corrections
  {#StringAndMTheoryCorrection}
 
-On [[perturbative string theory]]-corrections (for small [['t Hooft coupling]] $\lambda = g_{YM}^2 N$) and/or [[M-theory]]-corrections (for [[large N limit|small N]]) to the [[supergravity]]-approximation of the [[AdS/CFT correspondence]]:
+On [[perturbative string theory]]-corrections (for small [['t Hooft coupling]] $\lambda = g_{YM}^2 N$) and/or [[M-theory]]-corrections (for [[large N limit|small N]]) to the [[supergravity]]-approximation of the [[AdS/CFT correspondence]], i.e. the [[large 1/N limit]] of the correspondence:
 
 On the general need for [[M-theory]] at small $N_c$ in gauge/gravity duality:
 
+* [[Leonard Susskind]], _Another Conjecture about M(atrix) Theory_ ([arXiv:hep-th/9704080](https://arxiv.org/abs/hep-th/9704080)) 
+
 * [[Nissan Itzhaki]], [[Juan Maldacena]], [[Jacob Sonnenschein]], [[Shimon Yankielowicz]], Section 6 of: _Supergravity and The Large $N$ Limit of Theories With Sixteen Supercharges_, Phys. Rev. D 58, 046004 (1998) ([arXiv:hep-th/9802042](https://arxiv.org/abs/hep-th/9802042))
 
+On stringy corrections in the [[AdS/QCD correspondence]]:
+
+* B. Basso, _Cusp anomalous dimension in planar maximally supersymmetric Yang-Mills theory_ ([spire:858223](http://inspirehep.net/record/858223))
+
+  > "The result $[$(29)$]$ coincides exactly with the recent two-loop stringy correction computed in [Alday-Maldacena 07](https://arxiv.org/abs/0708.0672), providing a striking confirmation of the AdS/CFT correspondence."
+
 Specifically for AdS/QCD:
+
+* H. Dorn, H.-J. Otto, _On Wilson loops and $Q\bar Q$-potentials from the AdS/CFT relation at $T\geq 0$_, In: A. Ceresole, C. Kounnas , [[Dieter Lüst]], [[Stefan Theisen]]  (eds.) _Quantum Aspects of Gauge Theories, Supersymmetry and Unification_ Lecture Notes in Physics, vol 525. Springer 2007 ([arXiv:hep-th/9812109](https://arxiv.org/abs/hep-th/9812109), 
+[doi:10.1007/BFb0104268](https://doi.org/10.1007/BFb0104268))
+
 
 * Csaba Csaki, [[Matthew Reece]], John Terning, _The AdS/QCD Correspondence: Still Undelivered_, JHEP 0905:067, 2009 ([arXiv:0811.3001](https://arxiv.org/abs/0811.3001))
 
