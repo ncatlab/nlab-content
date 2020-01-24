@@ -28,6 +28,11 @@ Relation of the [[colored Jones polynomial]] to [[Lie algebra weight systems]] o
 
 * [[Dror Bar-Natan]], [[Stavros Garoufalidis]], _On the Melvin–Morton–Rozansky conjecture_, Invent math (1996) 125: 103 ([doi:10.1007/s002220050070](https://doi.org/10.1007/s002220050070), [[BarNatanGaroufaldis96.pdf:file]])
 
+On the [[logical equivalence]] between the [[four-colour theorem]] and a statement about transition from the [[small N limit]] to the [[large N limit]] for [[Lie algebra weight systems]] on [[Jacobi diagrams]] via the [['t Hooft double line construction]]:
+
+* [[Dror Bar-Natan]], _Lie Algebras and the Four Color Theorem_, Combinatorica 17-1(1997) 43–52  ([arXiv:q-alg/9606016](https://arxiv.org/abs/q-alg/9606016), [doi:10.1007/BF01196130](https://doi.org/10.1007/BF01196130))
+
+
 
 Computation of the perturbative [[Wilson loop observable]] ([[universal Vassiliev invariant]] of the [[unknot]] ("[[Wheels theorem]]"):
 
