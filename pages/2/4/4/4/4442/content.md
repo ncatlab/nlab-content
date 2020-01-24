@@ -738,10 +738,7 @@ On the [[deep learning]] algorithm on [[neural networks]] as analogous to the [[
 [[!redirects AdS-CFT duality]]
 [[!redirects AdS/CFT duality]]
 
-[[!redirects gauge/gravity duality]]
-[[!redirects gauge-gravity duality]]
-[[!redirects gauge/gravity dualities]]
-[[!redirects gauge-gravity dualities]]
+
 
 [[!redirects AdS7-CFT6]]
 [[!redirects AdS7-CFT6 duality]]
