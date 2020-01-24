@@ -25,7 +25,7 @@ Hence, more generally one could reasonably say that the "number of colors" of a 
 
 ## Related concepts
 
-* [[large N limit]]
+* [[large N limit]], [[large 1/N limit]]
 
 * [[flavour (particle physics)]]
 
