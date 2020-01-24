@@ -39,6 +39,8 @@ For non-[[supersymmetry|supersymmetric]] [[gauge theories]] such as [[QCD]] this
 
 * [[planar limit]]
 
+* [[large 1/N limit]]
+
 * [['t Hooft coupling]]
 
 * [[light-cone gauge quantization]]
