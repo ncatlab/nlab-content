@@ -642,6 +642,24 @@ $$\frac{\begin{array}{l}
 \end{array}}
 {\Gamma \vdash \{x:A | B\} \lt\!\!:\;\{x:A' | B'\}}$$
 
+This rule can be strengthened, since $B$ is proof irrelevant:
+
+$$\frac{\begin{array}{l}
+\Gamma,x:A' \vdash B'\,type \\
+\Gamma \vdash A \lt\!\!:\;A' \qquad
+\Gamma,x:A \vdash m \Vdash B \to B'
+\end{array}}
+{\Gamma \vdash \{x:A | B\} \lt\!\!:\;\{x:A' | B'\}}$$
+
+The intersection rule can be strengthened too, since the "argument" is irrelevant, but it's not as pretty, because the type dependency is *not* irrelevant:
+
+$$\frac{\begin{array}{l}
+\Gamma \vdash A\,type \qquad \Gamma,x:A \vdash B\,type \\
+\Gamma \vdash m \Vdash A' \to A \qquad
+\Gamma,x:A' \vdash B[m\,x/x] \lt\!\!:\;B'
+\end{array}}
+{\Gamma \vdash (\cap x:A.B) \lt\!\!:\;(\cap x:A'.B')}$$
+
 ## PER theory {#PERtheory}
 
 We have [seen](#UsuPiIn) that in CLF (as in Nuprl) whether two terms are equal depends on what type we compare them at, and that we [need to care](#OpenEq) about whether one type respects ($\prec$) another's equality. This gives rise to three different ($\subseteq$) basic ($\lt\!\!:$) preorders ($\sqsubseteq$) on types, whereas [[material set theory]] has just one. What does all this extra complexity buy us?
