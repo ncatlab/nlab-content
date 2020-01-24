@@ -463,6 +463,12 @@ and in relation to [[B-meson]] physics
 
 On [[perturbative string theory]]-corrections (for small [['t Hooft coupling]] $\lambda = g_{YM}^2 N$) and/or [[M-theory]]-corrections (for [[large N limit|small N]]) to the [[supergravity]]-approximation of the [[AdS/CFT correspondence]]:
 
+On the general need for [[M-theory]] at small $N_c$ in gsuge/gravity duality:
+
+* [[Nissan Itzhaki]], [[Juan Maldacena]], [[Jacob Sonnenschein]], [[Shimon Yankielowicz]], Section 6 of: _Supergravity and The Large $N$ Limit of Theories With Sixteen Supercharges_, Phys. Rev. D 58, 046004 (1998) ([arXiv:hep-th/9802042](https://arxiv.org/abs/hep-th/9802042))
+
+Specifically for AdS/QCD:
+
 * Csaba Csaki, [[Matthew Reece]], John Terning, _The AdS/QCD Correspondence: Still Undelivered_, JHEP 0905:067, 2009 ([arXiv:0811.3001](https://arxiv.org/abs/0811.3001))
 
 Discussion of [[large N limit|small N]] effects in [[M-theory]] [[AdS4/CFT3]] and using the [[conformal bootstrap]]:
