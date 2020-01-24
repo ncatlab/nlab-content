@@ -54,3 +54,5 @@ The notion of $C$-action (hence a $C$-actegory) is easily extendable to [[bicate
 * P. Schauenburg, _Actions of monoidal categories and generalized Hopf smash products_, J. Algebra __270__ (2003) 521&#8211;563 (remark: actegories with action in the strong monoidal sense)
 
 * [[Zoran Škoda]], _Distributive laws for actions of monoidal categories_, [arxiv:0406310](http://arxiv.org/abs/math/0406310), _Equivariant monads and equivariant lifts versus a 2-category of distributive laws_, [arxiv:0707.1609](http://arxiv.org/abs/0707.1609)
+
+[[!redirects actegories]]
