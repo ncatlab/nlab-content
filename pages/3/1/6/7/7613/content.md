@@ -304,6 +304,8 @@ Formulating the [[D=6 N=(2,0) SCFT]] expected on [[coincident brane|coincident]]
 
 ## Related entries
 
+* [[large 1/N limit]]
+
 * [[supergravity C-field]]
 
   * [[shifted C-field flux quantization]]
