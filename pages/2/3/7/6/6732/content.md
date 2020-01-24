@@ -133,6 +133,13 @@ Further discussion:
 
 * Semyon Klevtsov, _Random normal matrices, Bergman kernel and projective embeddings_, [arxiv/1309.7333](http://arxiv.org/abs/1309.7333)
 
+
+On the [[logical equivalence]] between the [[four-colour theorem]] and a statement about transition from the [[small N limit]] to the [[large N limit]] for [[Lie algebra weight systems]] on [[Jacobi diagrams]] via the [['t Hooft double line construction]]:
+
+* [[Dror Bar-Natan]], _Lie Algebras and the Four Color Theorem_, Combinatorica 17-1(1997) 43–52  ([arXiv:q-alg/9606016](https://arxiv.org/abs/q-alg/9606016), [doi:10.1007/BF01196130](https://doi.org/10.1007/BF01196130))
+
+
+
 ### Open/closed string duality
 
 On the role of [[open/closed string duality]] in interpreting the [[large N limit]]:
