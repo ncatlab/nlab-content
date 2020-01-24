@@ -93,6 +93,8 @@ The original articles are
 
 * [[Leonard Susskind]], _Another Conjecture about M(atrix) Theory_ ([arXiv:hep-th/9704080](https://arxiv.org/abs/hep-th/9704080)) 
 
+  (argument for [[small N limit|small N]]-validity)
+
 * {#Sen97} [[Ashoke Sen]], _D0 Branes on $T^n$ and Matrix Theory_, Adv. Theor. Math. Phys.2:51-59, 1998 ([arXiv:hep-th/9709220](https://arxiv.org/abs/hep-th/9709220))
 
 * {#Seiberg97} [[Nathan Seiberg]], _Why is the Matrix Model Correct?_, Phys. Rev. Lett. 79:3577-3580, 1997 ([arXiv:hep-th/9710009](https://arxiv.org/abs/hep-th/9710009))
