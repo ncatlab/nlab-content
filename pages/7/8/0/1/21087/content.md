@@ -63,11 +63,11 @@ Using the [[conformal bootstrap]] for [[CFT]]s at small N to deduce [[M-theory]]
 
 
 
-For the [[BLG-model]]/[[ABJM model]] on the [[M2-brane]]:
+For the [[BLG-model]]/[[ABJM model]] on [[coincident brane|coincident]] [[M2-branes]]:
 
 * Nathan B. Agmon, Shai M. Chester, Silviu S. Pufu, _Solving M-theory with the Conformal Bootstrap_, JHEP 06 (2018) 159 ([arXiv:1711.07343](https://arxiv.org/abs/1711.07343))
 
-For the [[D=6 N=(2,0) SCFT]] on the [[M5-brane]]:
+For the [[D=6 N=(2,0) SCFT]] on [[coincident brane|coincident]] [[M5-branes]]:
 
 * {#ChesterPerlmutter18} Shai M. Chester, [[Eric Perlmutter]], _M-Theory Reconstruction from $(2,0)$ CFT and the Chiral Algebra Conjecture_, J. High Energ. Phys. (2018) 2018: 116 ([arXiv:1805.00892](https://arxiv.org/abs/1805.00892))
 
