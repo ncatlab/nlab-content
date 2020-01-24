@@ -613,19 +613,34 @@ In the current CLF rules though, it doesn't seem possible to derive such rules. 
 
 ### Fun with subsets
 
-### Subtyping (Planned)
+### Subtyping
 
-Subtyping variance rules should be derivable for the type constructors. They probably aren't yet, though. Here's an example of this kind of rule:
+Subtyping variance rules should be derivable for the type constructors. Here are some for the primitive type constructors:
 
 $$\frac{\begin{array}{l}
 \Gamma \vdash A\,type \qquad \Gamma,x:A \vdash B\,type \\
-\Gamma \vdash A'\,type \qquad \Gamma,x:A' \vdash B'\,type \\
 \Gamma \vdash A' \lt\!\!:\;A \qquad
 \Gamma,x:A' \vdash B \lt\!\!:\;B'
 \end{array}}
 {\Gamma \vdash (\Pi x:A.B) \lt\!\!:\;(\Pi x:A'.B')}$$
 
-Yes, contravariance for function domains. A difference from subsetting in [[material set theory]].
+Yes, contravariance for function domains. A difference from subsetting in [[material set theory]]. Family intersections are completely analogous:
+
+$$\frac{\begin{array}{l}
+\Gamma \vdash A\,type \qquad \Gamma,x:A \vdash B\,type \\
+\Gamma \vdash A' \lt\!\!:\;A \qquad
+\Gamma,x:A' \vdash B \lt\!\!:\;B'
+\end{array}}
+{\Gamma \vdash (\cap x:A.B) \lt\!\!:\;(\cap x:A'.B')}$$
+
+Subset is covariant in both positions:
+
+$$\frac{\begin{array}{l}
+\Gamma,x:A' \vdash B'\,type \\
+\Gamma \vdash A \lt\!\!:\;A' \qquad
+\Gamma,x:A \vdash B \lt\!\!:\;B'
+\end{array}}
+{\Gamma \vdash \{x:A | B\} \lt\!\!:\;\{x:A' | B'\}}$$
 
 ## PER theory {#PERtheory}
 
