@@ -13,13 +13,23 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-In [[string theory]] a given [[worldsheet]] [[manifold with boundary|with boundaries]] ([[Riemann surface]] with punctures) may typically be read in at least two different ways as describing either a [[closed string]] or an [[open string]] [[string scattering|scattering]]-process. But since the corresponding [[string scattering amplitude]] is the same no matter which perspective is taken, this exhibits an equivalence ("[[duality in string theory|duality]]") between these open- and closed string amplitudes.
+In [[string theory]] a given [[worldsheet]] [[manifold with boundary|with boundaries]] ([[Riemann surface]] with punctures) may typically be read in at least two different ways as describing either a [[closed string]] or an [[open string]] [[string scattering|scattering]]-process. 
+
+<center>
+<img src="https://ncatlab.org/nlab/files/OpenClosedStringWorldsheetEndingOnBrane.jpg" width="400">
+</center>
+
+> graphics grabbed from [Schomerus 07, Figure 4](#Schomerus07)
+
+
+But since the corresponding [[string scattering amplitude]] is the same no matter which perspective is taken, this exhibits an equivalence ("[[duality in string theory|duality]]") between these open- and closed string amplitudes.
 
 For example, a [[cylinder]] [[worldsheet]] stretching between two [[D-brane]] [[worldvolumes]] manifestly represents equivalently the following two rather different-seeming [[string scattering]]-processes:
 
@@ -27,8 +37,13 @@ For example, a [[cylinder]] [[worldsheet]] stretching between two [[D-brane]] [[
 
 1. an open string with ends on both branes going around a [[1-loop]] [[vacuum diagram]].
 
-(see e.g [Schomerus 07, Figure 4](#Schomerus07),
-[Peschanskia 09, Figure 1](#Peschanskia09))
+<center>
+<img src="https://ncatlab.org/nlab/files/OpenClosedCylinderWorldsheetEndingOnBranes.jpg" width="400">
+</center>
+
+
+> graphics grabbed from [Schomerus 07, Figure 4](#Schomerus07), see also e.g.
+[Peschanskia 09, Figure 1](#Peschanskia09)
 
 Since 
 
