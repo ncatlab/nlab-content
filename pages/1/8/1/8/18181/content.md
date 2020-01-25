@@ -73,12 +73,10 @@ In the development of Kant's distinction between general logic and transcendenta
 ###### "__I. On logic in general.__" ([A50](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_050.png)-5/B74-9)
 
 In this paragraph, the scope of logic as a science is clarified, distinguishing it from aesthetics and structuring its subdisciplines, to then be able to show the place of transcendental logic among them in the following paragraph, Paragraph II.
+To do so, Kant firstly provides a plethora of terminology (“receptivity of impressions”, “spontaneity of concepts”, “empirical”, “sensibility”, “receptivity”), to then distinguish between the science of aesthetics and logic, the former concerning the rules of sensibility and the latter the rules of thinking. ([A50](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_050.png)-2/B74-6).
 
-To do so, Kant firstly provides a plethora of definitions, to then distinguish between the science of aesthetics and logic, the former concerning the rules of sensibility and the latter the rules of thinking. The termini defined are “receptivity of impressions”, “spontaneity of concepts”, “cognition”, “pure”, “empirical”, “sensibility”, “receptivity”, ”aesthetics”, and “logic” ([A50](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_050.png)-2/B74-6).
-
-Secondly, he divides the science of logic into general logic (synonymous with elementary logic) which contains the necessary rules of thinking, regardless of its object and particular logic which contains the necessary rules of thinking about certain kinds of objects. Such a set of rules is called "organon of this or that science". In modern language this is the [[methodology]] of a [[science|scientific discipline]]. The termini defined are “general logic”, and “particular logic” ([A52](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_052.png)/B76).
-
-General logic is then again subdivided into pure logic---which "abstract[s] from all empirical conditions under which our understanding is exercised"---and applied logic---which deals with the conditions of thinking “under the subjective empirical conditions that psychology teaches us”, which are only given a posteriori, and which can all be given only empirically. The termini defined are “general but pure logic” and “general but empirical logic” ([A53](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_053.png)-5/B77-9).
+Secondly ([A52](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_052.png)/B76), Kant divides the science of logic into __general logic__ (synonymous with __elementary logic__) which contains the necessary rules of thinking, regardless of its object and __particular logic__ which contains the necessary rules of thinking about certain kinds of objects. Such a set of rules is called "organon of this or that science". In modern language this is the [[methodology]] of a [[science|scientific discipline]].
+Finally ([A53](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_053.png)-5/B77-9), general logic is then again subdivided into __pure logic__---which "abstract[s] from all empirical conditions under which our understanding is exercised"---and __applied logic__---which deals with the conditions of thinking “under the subjective empirical conditions that psychology teaches us”, which are only given a posteriori, and which can all be given only empirically.
 
 ###### "__II. On transcendental logic.__" ([A55](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_055.png)-7/B79-82)
 
@@ -295,7 +293,7 @@ Publications of Kant's original work include:
 
 * [english translation](http://www.gutenberg.org/files/4280/4280-h/4280-h.htm) by [J. M. D. Meiklejohn](https://en.wikipedia.org/wiki/John_Meiklejohn)
 
-* [comparison of first and second edition](http://www.zbk-online.de/texte/A0368.htm) (German), Bär, Jochen A. (ed.) (2010 ff.): _Zentralbegriffe der klassisch-romantischen „Kunstperiode“ (1760–1840). Wörterbuch zur Literatur- und Kunstreflexion der Goethezeit._ [http://www.zbk-online.de](http://www.zbk-online.de).
+* [comparison of first and second editions](http://www.zbk-online.de/texte/A0368.htm) (German), Bär, Jochen A. (ed.) (2010 ff.): _Zentralbegriffe der klassisch-romantischen „Kunstperiode“ (1760–1840). Wörterbuch zur Literatur- und Kunstreflexion der Goethezeit._ [http://www.zbk-online.de](http://www.zbk-online.de).
 
 Related primary literature from Kant comprises
 
