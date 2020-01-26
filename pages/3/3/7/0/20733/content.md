@@ -67,7 +67,7 @@ The original articles;
 Further discussion:
 
 
-* Rafe Mazzeo, [[Edward Witten]], _The Nahm Pole Boundary Condition_, In: _The influence of Solomon Lefschetz in geometry and topology_, Contemporary Mathematics 621 (2014): 171 ([doi:10.1090/conm/621](http://dx.doi.org/10.1090/conm/621))
+* Rafe Mazzeo, [[Edward Witten]], _The Nahm Pole Boundary Condition_, In: _The influence of Solomon Lefschetz in geometry and topology_, Contemporary Mathematics 621 (2014): 171 ([arXiv:1311.3167](https://arxiv.org/abs/1311.3167), [doi:10.1090/conm/621](http://dx.doi.org/10.1090/conm/621))
 
 
 
