@@ -17,4 +17,9 @@ On [[black brane|black]]$\;$[[D6-D8-brane bound states]] in [[massive type IIA s
 
 See also
 
-* Andrea Legramandi, [[Niall Macpherson]],  _$AdS_3$ solutions with $\mathcal{N}=(3,0)$ from $S^3 \timesS^3$ fibrations_, ([arXiv:1912.10509](https://arxiv.org/abs/1912.10509)
+* Andrea Legramandi, [[Niall Macpherson]],  _$AdS_3$ solutions with $\mathcal{N}=(3,0)$ from $S^3 \timesS^3$ fibrations_, ([arXiv:1912.10509](https://arxiv.org/abs/1912.10509))
+
+On [[JT-gravity]] and [[AdS2/CF1]] in [[M-theory]]:
+
+* Junho Hong, [[Niall Macpherson]], Leopoldo A. Pando Zayas, _Aspects of $AdS_2$ classification in M-theory: Solutions with mesonic and baryonic charges_, JHEP 11 (2019) 127 ([arXiv:1908.08518](https://arxiv.org/abs/1908.08518))
+
