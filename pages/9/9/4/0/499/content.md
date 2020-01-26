@@ -87,7 +87,7 @@ $$
   \,.
 $$
 
-The Yoneda embedding is sometimes denoted by &#x3088;, the [hiragana kata](https://en.wikipedia.org/wiki/Yo_(kana%29) for "Yo"; see the references [below](#ReferencesNotation).
+The Yoneda embedding is sometimes denoted by &#x3088;, the [hiragana kana](https://en.wikipedia.org/wiki/Yo_(kana%29) for "Yo"; see the references [below](#ReferencesNotation).
 
 
 ## Remarks
@@ -182,7 +182,7 @@ See at _[[Yoneda lemma]]_ the list of references given [there](Yoneda+lemma#Refe
 ### Notation
  {#ReferencesNotation}
 
-It seems that the notation "&#x3088;" for the Yoneda embedding (the [hiragana kata](https://en.wikipedia.org/wiki/Yo_(kana%29) for "Yo") was first used in
+It seems that the notation "&#x3088;" for the Yoneda embedding (the [hiragana kana](https://en.wikipedia.org/wiki/Yo_(kana%29) for "Yo") was first used in
 
 * [[Theo Johnson-Freyd]], Claudia Scheimbauer, p. 33 of _(Op)lax natural transformations, twisted quantum field theories, and "even higher" Morita categories_,  ([arxiv:1502.06526](https://arxiv.org/pdf/1502.06526.pdf))
 
