@@ -79,6 +79,15 @@ Realization of [[JT-gravity]] as [[Kaluza-Klein reduction]] of [[D=6 supergravit
 
 * Iosif Bena, Pierre Heidmann, David Turton, _$AdS_2$ Holography: Mind the Cap_, JHEP 1812 (2018) 028 ([arXiv:1806.02834](https://arxiv.org/abs/1806.02834))
 
+* [[Giuseppe Dibitetto]], [[Nicolò Petri]], _$AdS_2$ solutions and their massive IIA origin_, JHEP 05 (2019) 107 ([arXiv:1811.11572](https://arxiv.org/abs/1811.11572))
+
+
+* Junho Hong, [[Niall Macpherson]], Leopoldo A. Pando Zayas, _Aspects of $AdS_2$ classification in M-theory: Solutions with mesonic and baryonic charges_, JHEP 11 (2019) 127 ([arXiv:1908.08518](https://arxiv.org/abs/1908.08518))
+
+
+
+
+
 ### In terms of weight systems on chord diagrams
 
 Discussion of ([[Lie algebra weight system|Lie algebra]]-)[[weight systems]] on [[chord diagrams]] encoding [[JT gravity]] [[observables]]
