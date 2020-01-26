@@ -20,7 +20,7 @@ For $p$ a [[prime number]], the _Fermat quotient_ of any [[integer]] $a$ is the 
 
 $$
   \partial_p a \coloneqq
-  \frac{a^p - a}{p}
+  \frac{a - a^p}{p}
 $$
 
 of the difference between the $p$th power of $a$ and $a$ itself by $p$. By [[Fermat's little theorem]] this is indeed an [[integer]], i.e. conversely one has for all $a\in \mathbb{Z}$ that
