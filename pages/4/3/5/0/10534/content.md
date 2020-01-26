@@ -1,6 +1,4 @@
 
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -11,16 +9,16 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 A _convex function_ is a [[real numbers|real]]-valued [[function]] defined on a [[convex set]] whose [[graph]] is the boundary of a [[convex set]].
 
 There is another context where people say a function is convex if it is a [[Lipschitz function]] between [[metric spaces]] with Lipschitz constant (or Lipschitz modulus) 1. These are different concepts of convexity, although there are relations between convexity and Lipschitz continuity, as we shall see below. 
+
 
 ## Definition 
 
@@ -32,7 +30,10 @@ whenever $0 \leq t \leq 1$.
 
 This definition obviously extends to functions $f \colon D \to I$ where $I$ is an [[interval]] of $\mathbb{R}$ (whether open or closed or half-open, it doesn't matter). 
 
-The function $f$ is called **concave** if it satisfy the reverse inequality to the one given above.
+The function $f$ is called **concave** if it satisfy the reverse inequality to the one given above, or equivalently if $-f$ is convex.
+
+A function $f$ is __strictly convex__ if the inequality holds strictly whenever $0 \lt t \lt 1$.  In high-school mathematics, one often says _concave upward_ for strictly convex and _concave downward_ of strictly concave.
+
 
 ## Examples 
 
@@ -58,7 +59,7 @@ In the next two examples, $I \subseteq \mathbb{R}$ is an [[interval]].
 
 * However, if $f: I \to \mathbb{R}$ is both [[monotone function|monotone increasing]] and convex, then for any convex function $g: D \to I$, the composite $f \circ g: D \to \mathbb{R}$ is convex (as is easily shown). 
 
-A special case of the last class of examples are functions of the form $e^f = \exp \circ f$ where $f$ is convex. We say a function $f: D \to (0, \infty)$ is *log-convex* if $\log f$ is convex. We see then that log-convex functions are also convex. 
+A special case of the last class of examples are functions of the form $e^f = \exp \circ f$ where $f$ is convex. We say a function $f: D \to (0, \infty)$ is __log-convex__ if $\log f$ is convex. We see then that log-convex functions are also convex.  The [[identity function]] on $\mathbb{R}$ is an example of a convex function that is *not* log-convex (or use $x \mapsto x^2$ for a strict example).
 
 
 ## Properties 
