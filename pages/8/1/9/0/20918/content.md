@@ -36,6 +36,8 @@ Given any [[ground field]] $\mathbb{F}$ (or in fact just any [[commutative ring|
 <img src="https://ncatlab.org/nlab/files/HorizontalChordDiagramsModulo2TAnd4T.jpg" width="900">
 </center>
 
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
 regarded as a [[graded vector space]], graded by the number of chords,
 
 and write
@@ -115,7 +117,7 @@ For example:
 <img src="https://ncatlab.org/nlab/files/HorizontalChordDiagramPartitioningGenericII.jpg" width="700">
 </center>
 
-
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 \linebreak
 
@@ -422,9 +424,14 @@ This is the statement of [Bar-Natan 96, Corollary 2.6](#BarNatan96).
 <img src="https://ncatlab.org/nlab/files/PartitionedLieAlgebraWeightSystem.jpg" width="840">
 </center>
 
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
+\linebreak
+
 ## Applications
 
 [[!include chord diagrams as multi-trace observables in BMN matrix model -- example]]
+
 
 
 ## References
