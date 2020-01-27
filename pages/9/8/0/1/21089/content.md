@@ -207,7 +207,7 @@ Duff:
 
 (18:36) The problem of why you pick one physical vacuum from an infinity of mathematically possible vacua is a problem that is going to be there whether you do string theory/M-theory or not.
 
-(18:55) I am agnostic about the [[multiverse]]. I don't know whether we live in one universe or many. But there, again, we have to keep beavering away, and hopefully the truth will [inaduible word].
+(18:55) I am agnostic about the [[multiverse]]. I don't know whether we live in one universe or many. But there, again, we have to keep beavering away, and hopefully the truth will out.
 
 Q: Do you envision any role for mathematics? If you are able to map M-theory to mathematics, would you think mathematics would have something to say?
 
@@ -232,7 +232,7 @@ Q: How do you envision the future of activity in M-theory should look like?
 
 Duff:
 
-(20:54) There again I don't want to make any [rushed?] predictions.
+(20:54) There again I don't want to make any rash predictions.
 
 (21:00) My view of research is a Darwinian one: You find the brightest people, you give them the money, you let them get on with it and they will go wherever they will go. I don't think one should try and engineer, from above,  the directions that research should take. Let the imagination of the best people -- let their imagination run them, and we'll see where it takes us.
 
