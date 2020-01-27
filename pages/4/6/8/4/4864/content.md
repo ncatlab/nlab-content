@@ -16,20 +16,33 @@ He made foundational contributions to [[string theory]] and [[M-theory]]. $\;\;$
 
 \linebreak
 
+## Students
+
 Among Duff's former students is [[Hisham Sati]].
 
 \linebreak
 
-[[Duff interview at M-Theory-Mathematics 2020]]
+## Intervies
+
+* Interview by
+Graham Fermelo, _The universe speaks in numbers -- Interview 14_ ([web](https://grahamfarmelo.com/the-universe-speaks-in-numbers-interview-14/))
+
+* Interview by [[Hisham Sati]], [[Urs Schreiber]], at _[[M-Theory and Mathematics]]_ 2020:
+
+  see: _[[Duff interview at M-Theory-Mathematics 2020]]_
 
 
 ## Quotes
 
 On the open problem of formulating [[M-theory]]:
 
+\linebreak
+
 [Duff 96, totality of Section 6](#Duff96):
 
 > The overriding problem in superunification in the coming years will be to take the Mystery out of M-theory, while keeping the Magic and the Membranes.
+
+\linebreak
 
 [Duff 98a, last paragraph (p. 6)](#Duff98):
 
@@ -39,19 +52,44 @@ On the open problem of formulating [[M-theory]]:
 
 > Indeed future historians may judge the late 20th century as a time when theorists were like  children  playing  on  the  seashore, diverting themselves with the smoother pebbles or prettier shells of superstrings while the great ocean of M-theory lay undiscovered before them.
 
+\linebreak
+
 [Duff 98b, p. 6](#Duff98b):
 
 > we are only just beginning to scratch the surface of the ultimate meaning of M-theory, and for the time being therefore, M stands for Magic and Mystery too.
 
+\linebreak
+
 [Duff 99, p.330](#Duff99):
 
 > future historians may judge the period 1984-95 as a time when theorists were like boys playing by the sea shore, and diverting themselves with the smoother pebbles or prettier shells of perturbative ten-dimensiorial superstrings while the great ocean of non-perturbative eleven-dimensional M-theory lay all undiscovered before them. 
+
+\linebreak
 
 Interview with [[Mike Duff]] by Graham Fermelo, _The universe speaks in numbers -- Interview 14_ ([web](https://grahamfarmelo.com/the-universe-speaks-in-numbers-interview-14/)):
 
 > {#WeDontKnowWhatItIs} (17:04) The problem we face is that we have a patchwork understanding of M-theory, like a quilt. We understand this corner and that corner, but what's lacking is the overarching big picture. So directly or indirectly, my research hopes to explain what M-theory really is. We don't know what it is. 
 
 > In a certain sense, and this is not a popular statement, I think it's premature to be asking: "What are the empirical consequences", because it's not yet in a mature enough state, where we can sensibly make falsifiable prediction.
+
+\linebreak
+
+
+[[Duff interview at M-Theory-Mathematics 2020]]:
+
+> (06:59) But the matrix model itself was not all of M-theory; it was a corner of M-theory, and it told us certain interesting things, but there were interesting things about M-theory that it didn't tell us. 
+
+> (07:13) I think we are still looking, in fact, for what M-theory really is.  
+
+> (07:19) We have a patchwork picture. We understand various corners. But the overarching big picture of M-theory is still waiting to be discovered, in my view. 
+
+> (08:12) M-theory in 1995 was very promising, and it's taught us a lot about the fundamental interactions; but the final theory is still not with us. 
+
+> (12:46) I wouldn't like to predict what the ultimate picture of M-theory will be; I imagine it will be something quite different from what we can imagine now. 
+
+> (16:36) That's why I think M-theory is not yet in a mature enough stage for us to make falsifiable predictions.
+
+> (16:44) We don't understand the theory sufficiently well yet to do so.
 
 
 ## Selected writing
