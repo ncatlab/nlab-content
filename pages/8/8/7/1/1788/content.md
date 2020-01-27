@@ -5,7 +5,7 @@ Q: You had codiscovered, early in the 1980s, some core ingredients of M-theory, 
 
 (00:49) The story of M-theory began with the story of eleven dimensions. 
 
-(00:54) It was 1978, I think, when Werner Nahm pointed out, that supersymmetry places an upper limit on the dimension of spacetime, which is 11. 
+(00:54) It was 1978, I think, when Werner Nahm pointed out $[$ [Nahm 78](supersymmetry+Nahm78) $]$, that supersymmetry places an upper limit on the dimension of spacetime, which is 11. 
 
 (01:05) And so in the early 80s, my colleagues and I looked to 11-dimensional supergravity as a candidate for a unified theory of the fundamental forces. 
 
