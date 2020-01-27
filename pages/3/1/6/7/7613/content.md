@@ -238,6 +238,24 @@ The following is a collection of quotes from authors that highlight the open pro
 
 > In a certain sense, and this is not a popular statement, I think it's premature to be asking: "What are the empirical consequences", because it's not yet in a mature enough state, where we can sensibly make falsifiable prediction.
 
+\linebreak
+
+[[Duff interview at M-Theory-Mathematics 2020]]:
+
+> (06:59) But the matrix model itself was not all of M-theory; it was a corner of M-theory, and it told us certain interesting things, but there were interesting things about M-theory that it didn't tell us. 
+
+> (07:13) I think we are still looking, in fact, for what M-theory really is.  
+
+> (07:19) We have a patchwork picture. We understand various corners. But the overarching big picture of M-theory is still waiting to be discovered, in my view. 
+
+> (08:12) M-theory in 1995 was very promising, and it's taught us a lot about the fundamental interactions; but the final theory is still not with us. 
+
+> (12:46) I wouldn't like to predict what the ultimate picture of M-theory will be; I imagine it will be something quite different from what we can imagine now. 
+
+> (16:36) That's why I think M-theory is not yet in a mature enough stage for us to make falsifiable predictions.
+
+> (16:44) We don't understand the theory sufficiently well yet to do so.
+
 
 ### Non-abelian DBI-action
  {#OpenProblemNonabelianDBI}
