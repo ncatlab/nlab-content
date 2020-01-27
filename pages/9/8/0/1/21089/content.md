@@ -98,7 +98,7 @@ Q: In your famous review "M-Theory (The theory formerly known as strings)", in t
 
 (08:12) M-theory in 1995 was very promising, and it's taught us a lot about the fundamental interactions; but the final theory is still not with us. 
 
-(08:24) My view, and I consistently held this view since I first started in quantum [inaudible word ("gravity"?)] is that we have to take a long-term stance. 
+(08:24) My view, and I consistently held this view since I first started in [[quantum gravity]] is that we have to take a long-term stance. 
 
 (08:37) There'll be no overnight miracles; we have to keep beavering away, chipping away, and hopefully, one day, we'll find the answers.
 
