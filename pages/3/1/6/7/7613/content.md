@@ -345,7 +345,7 @@ The article that convinced the community of M-theory was
 
 A public talk announcing the conjecture that the [[non-perturbative field theory|strong-coupling limit]] of [[type IIA string theory]] is [[11-dimensional supergravity]] [[KK-compactification|KK-compactified]] on a circle is at 15:12 in
 
-* {#Witten95Talk} [[Edward Witten]], [video](https://youtu.be/1HYa4wxqe8Y))
+* {#Witten95Talk} [[Edward Witten]], talk at University of Southern California, 1995 ([video](https://youtu.be/1HYa4wxqe8Y))
 
    19:33: "Ten years ago we had the embarrassment that there were five consistent string theories plus a close cousin, which was 11-dimensional supergravity." (19:40): "I promise you that by the end of the talk we have just one big theory."
 
