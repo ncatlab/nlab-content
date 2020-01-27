@@ -84,7 +84,7 @@ The strong monad, being a [[monad]] in this [[lax functor]] [[bicategory]] is gi
 
 By the general logic of $(2,1)$-[[(n,k)-transformation|transformations]] the components of $T$ are themselves a certain [[functor]].
 
-Then the [usual diagrams](http://en.wikipedia.org/wiki/Strong_monad) that specify a strong monad
+Then the [usual diagrams](#concrete_definition) that specify a strong monad
 
 
 * unitalness and functoriality of the component functor of $T$;
