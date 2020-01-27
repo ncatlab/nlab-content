@@ -685,7 +685,7 @@ So we expect $R$ be a family on a pair of $T$s, which means that $T$ equality is
 
 In case $R$ is also reflexive for members of $T$: ($\Gamma,y:T \vdash r \Vdash R[y,y/x1,x2]$), then we also have ($T \subseteq \{x = y:T | R\}$). Combining with respect, we get ($T \lt\!\!:\;\{x = y:T | R\}$). In this case $\{x = y:T | R\}$ is a (full) quotient of $T$, and ($\lambda x.x$) realizes the quotient *projection* mapping from $T$ to $\{x = y:T | R\}$.
 
-Taking stock, with $R$ a pseudo-equivalence relation on $T$, we have:
+Taking stock, with $R$ a [[regular and exact completions#TheExLexCompletion|pseudo-equivalence relation]] on $T$, we have:
 
 * $\{x = y:T | R\} \subseteq T$
 * $T \subseteq \{x = y:T | R\}$
