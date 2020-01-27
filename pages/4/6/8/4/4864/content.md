@@ -20,6 +20,8 @@ Among Duff's former students is [[Hisham Sati]].
 
 \linebreak
 
+[[Duff interview at M-Theory-Mathematics 2020]]
+
 
 ## Quotes
 
