@@ -103,7 +103,9 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 **Slides and Talk notes:**
 
-to appear
+* [[Duff interview at M-Theory-Mathematics 2020|Duff - opening remarks]]
+
+more to appear...
 
 \linebreak
 
