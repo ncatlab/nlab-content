@@ -1,0 +1,84 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The formalism of Markov categories can be thought of as a way to express certain aspects of [[probability]] and [[statistics]] [[analytic versus synthetic|synthetically]]. In other words, it consists of [[structures]] and [[axioms]] which one can think of as "fundamental" in probability and statistics, which one can use to prove theorems, without having to use [[measure theory]] directly. One then proves that the usual measure-theoretic treatment is a [[model]] (or [[semantics]]) of this theory.
+
+Intuitively, for the purposes of probability a Markov category can be seen as a category where morphisms behave like "random functions", or "[[Markov kernels]]" (hence the name). Canonical examples are [[Kleisli categories]] of [[probability monads]].
+The formalism is however way more general. 
+
+**Caveat**: some of the content of this page reflects work in progress. Content may change.
+
+
+
+## Definition
+
+A **Markov category** is a [[semicartesian monoidal category|semicartesian monoidal category]] [[symmetric monoidal category]] $(C,\otimes,1)$ in which every object $X$ is equipped with the structure of an [[internal monoid|internal comonoid]].
+We denote the [[counit]] and [[comultiplication]] maps by $copy: X \to X \otimes X$ and $delete: X\to 1$. 
+
+We require the following compatibility property between the copy map and the tensor product: for all objects $X$ and $Y$, 
+$$
+copy_{X\otimes Y} \; =\; (id_X\otimes b_{Y,X} \otimes id_Y) ( copy_X \otimes copy_Y ),
+$$
+where $b$ denotes the [[braiding]].
+
+Note that the copy map is _not_ required to be [[natural transformation|natural]].
+
+
+### In terms of string diagrams
+
+(...)
+
+
+## Examples 
+
+(...)
+
+
+## Deterministic morphisms
+
+A morphism $f:X\to Y$ in a Markov category is called **deterministic** if it commutes with the copy map,
+$$
+copy \circ f \;=\; (f\otimes f) \circ copy .
+$$
+
+A way to motivate the definition is the following. Suppose that $f$ is a "random" function between real numbers, which adds to the input the result of the roll of a die. Given a number $x$, we can roll a die, add the resulting value (say, $n$) to $x$, and then copy the result, to get $(x+n,x+n)$. Or, we could copy the value $x$, roll two dice (or roll the die twice), and add the two resulting values (say, $m$ and $n$) to the two copies of $x$, obtaining $(x+m,x+n)$. The two results are likely to differ. 
+One can take this as a _definition_ of randomness: it's a process that may give a different result if you do it twice. Or equivalently, that copying the information before or after the process has taken place gives different results.
+
+A _deterministic_ morphisms is instead one that does _not_ exhibit this behavior, i.e. that commutes with the copy map.
+
+(...)
+
+
+## See also
+
+* [[probability monad]]
+* [[probability theory]]
+* [[statistics]]
+* [[zero-one law]]
+* [[doctrine]]
+
+
+## References
+
+(...more to come...)
+
+* [[Tobias Fritz]], _A synthetic approach to Markov kernels, conditional independence and theorems on sufficient statistics_, 2019. ([arXiv:1908.07021](http://arxiv.org/abs/1908.07021))
+
+* [[Tobias Fritz]] and Eigil Fjeldgren Rischel, _The zero-one laws of Kolmogorov and Hewitt--Savage in categorical probability_, 2019. ([arXiv:1912.02769](http://arxiv.org/abs/1912.02769))
