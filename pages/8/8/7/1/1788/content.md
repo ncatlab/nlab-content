@@ -78,7 +78,7 @@ Q: In your famous review "M-Theory (The theory formerly known as strings)", in t
 
 (08:48) I am optimistic that there is an M-theory without nagging mystery, but I wouldn't like to put a time-scale on how long it's going totake us to find it.
 
-(09:01) My argument would be for patience.; this is what we need right now. Of course that's not popular with the journalists, critics or [for?] gratification. 
+(09:01) My argument would be for patience.; this is what we need right now. Of course that's not popular with the journalists, or for quick gratification. 
 
 (09:16) But if we look at the discussions that had the greatest impacts, recently: the Higgs boson took 50 years between its prediction and its discovery; the cosmological constant, if indeed that's what dark energy is, would be a hundred years between the prediction and the discovery; similarly gravitational waves.
 
@@ -99,7 +99,7 @@ Q: In the late 90s you wrote in Scientific American and also in your book on M-t
 
 (11:23) But in my view, that's not the criterion for what is fundamental and what isn't. 
 
-(11:29) [inaudible word] does not do perturbation theory, perturbation theory is what we do because we don't know any better.
+(11:29) Nature (?) does not do perturbation theory, perturbation theory is what we do because we don't know any better.
 
 (11:38) So the fact that branes do not admit a perturbative treatment, as strings do, is not, in my view, a reason for thinking that branes are less fundamental than strings -- especially since strings are just a limiting case, as we see, of branes.
 
