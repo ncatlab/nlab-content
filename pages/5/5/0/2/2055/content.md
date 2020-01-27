@@ -207,6 +207,8 @@ Martin Davis, Andreas Blass, William Tait, John Baldwin and Alasdair Urquhart.
 
 * [Mathematics without Apologies](https://mathematicswithoutapologies.wordpress.com) (Michael Harris)
 
+* [mathlight's blog](http://mathlight.wordpress.com) ([[Zoran Škoda]], noncommutative and derived geometry, mathematical physics, sci publishing)
+
 * [Mathlinks / Art of Problem Solving](http://www.artofproblemsolving.com/Forum/portal.php?ml=1) community, math olympiad style problems discussed
 
 * [Mathlog](http://www.scienceblogs.de/mathlog) (in German, variety of topics from Open Access journals to Klein groups and geometry)
@@ -344,8 +346,6 @@ Martin Davis, Andreas Blass, William Tait, John Baldwin and Alasdair Urquhart.
 * [Mathematics and Physics](http://borcherds.wordpress.com) (Richard Borcherds -- last update January 2008)
 
 * [Mathematics Expressions](http://mathexpressions.wordpress.com/) (Colin Tan: complex geometry -- last update April 2010)
-
-* [mathlight](http://mathlight.wordpress.com) (by an $n$lab regular--last update December 2010)
 
 * [Noncommutative geometry with point](http://noncommutativeag.wordpress.com), by a grad student at Kansas--last updated September 2010
 
