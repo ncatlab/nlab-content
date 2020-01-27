@@ -42,7 +42,7 @@ $$ h_\mu(A) \coloneqq \mu(A) \sigma_\mu(A) = -\mu(A) \log \mu(A) = -\log(\mu(A)^
 
 We have not specified the base of the [[logarithm]], which amounts to a constant factor (proportional to the logarithm of the base), which we think of as specifying the [[unit of measurement]] of entropy.  Common choices for the base are $2$ (whose unit is the [[bit]], originally a unit of memory in computer science), $256$ (for the byte, which is $8$ bits), $3$ (for the trit), $\mathrm{e}$ (for the nat or neper), $10$ (for the bel, originally a unit of relative power intensity in telegraphy, or ban, dit, or hartley), and $\root{10}{10}$ (for the decibel, $1/10$ of a bel).  In applications to [[statistical physics]], common bases are exactly (since 2019) 
 $$
-\mathrm{e}^{10^{29}/1\,380\,649} \approx 10^{10^{22.497\,701\,028\,622\,30}} \qquad \text{(for the joule per kelvin)},
+\mathrm{e}^{10^{29}/1\,380\,649} \approx 10^{3.145\,582\,127\,704\,085\,743 \times 10^{22}} \qquad \text{(for the joule per kelvin)},
 $$ 
 or
 $$
