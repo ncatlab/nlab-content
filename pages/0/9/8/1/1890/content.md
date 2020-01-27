@@ -149,7 +149,7 @@ Every monad on [[Set]] with its [[cartesian product]] is canonically strong (see
 
 * The strength for the [[list monad]] works in the following way. Given sets $X$ and $Y$, the strength is the map
 $$
-(x,[y_1,\dots,y_n) \; \longmapsto \; [(x,y_1),\dots,(x,y_n)] .
+(x,[y_1,\dots,y_n]) \; \mapsto \; [(x,y_1),\dots,(x,y_n)] .
 $$
 In other words, it turns an element of $X$ and a list of elements of $Y$ into a list of elements of $X\times Y$, canonically.
 
@@ -162,7 +162,7 @@ In that case, this strength is [[commutative monad|commutative]] precisely if $M
 
 * For [[probability monads]] on [[cartesian monoidal categories]], the strength creates "slices", or probability distributions which are deterministic in one variable. For the [[Giry monad]], for example, the strength for measurable spaces $X$ and $Y$ is the map
 $$
-(x,p) \;\longmapsto\; \delta_x\otimes p.
+(x,p) \;\mapsto\; \delta_x\otimes p
 $$
 for all $x\in X$ and $y\in P Y$. This strength is [[commutative monad|commutative]] and it allows to define easily the [[product of measures]]. Most probability monads behave analogously.
 (Note that the category [[Meas]] has another [[monoidal structure]], which is closed, different from the [[cartesian product]]. For that monoidal structure, the Giry monad is not strong - see [Sato '16](#sato).)
