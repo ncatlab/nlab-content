@@ -65,6 +65,11 @@ Discussion incluces
 
 * {#Falkowski18} [[Adam Falkowski]], _[21cm to dark matter](http://resonaances.blogspot.fr/2018/03/21cm-to-dark-matter.html)_, March 2018
 
+Calling this argument into question:
+
+* Richard Hills, Girish Kulkarni, P. Daniel Meerburg, Ewald Puchwein, _Concerns about Modelling of the EDGES Data_ ([arXiv:1805.01421](https://arxiv.org/abs/1805.01421))
+
+
 Arguments that this detection of the 21cm line rules out substantial contributions of [[fuzzy dark matter]]:
 
 * {#Nebrin17} Olof Nebrin, _Cosmic Dawn in a Fuzzy Universe: Constraining the nature of Dark Matterwith 21 cm Cosmology_, Stockholm 2017 ([diva2:1195402](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1195402&dswid=-8037), [urn:nbn:se:su:diva-154861](http://su.diva-portal.org/smash/record.jsf?pid=diva2%3A1195402&dswid=6755))
