@@ -45,7 +45,7 @@ For Kant space is not a concept but an intuition, more precisely an intuition, "
 The intuition (in the ordinary sense) Kant has concerning space is similar to a number theorist who considers "the" [[natural number|natural numbers]] as the object of her studies, though she certainly has limitations in specifying what she means. Indeed, common way to do so have limitation: for instance, one can not uniquely determine the natural numbers by a list of axioms, as [[incompleteness theorem|Gödel's fist incompleteness theorem]] demonstrates, nor is it satisfying to describe the natural numbers by a concrete model, because there are several ways to do so.
 
 Due to his intuition that there is "one" space, Kant discards the first two out of the three possibilities he discusses.
-Since Kant this intuition has been dropped mostly by geometers in favor of the first introducing pioneering concepts like [[On the hypotheses which underlie geometry|Riemannian manifolds in 1854]]. In his very early work [[Bertrand Russell]] tried to adapt Kant's work to this new view (see [[An Essay on the Foundations of Geometry]]). Later Kant's idea appeared again in the framework of [[noncommutative geometry]] ([Petitot 2009](#Petitot09)) 
+Since Kant this intuition has been dropped mostly by geometers in favor of the first introducing pioneering concepts like [[On the hypotheses which underlie geometry|Riemannian manifolds in 1854]]. In his very early work [[Bertrand Russell]] tried to adapt Kant's work to this new view (see [[An Essay on the Foundations of Geometry]]). Later Kant's idea appeared again in the framework of [[noncommutative geometry]] ([Petitot 2009](#Petitot09)).
 
 Actually, all three possibilities discussed by Kant appear in modern mathematics:
 
@@ -68,7 +68,7 @@ Actually, all three possibilities discussed by Kant appear in modern mathematics
 
 ### __Introduction.__ The Idea of a Transcendental Logic. 
 
-In the development of Kant's distinction between general logic and transcendental logic Kant's _[[Attempt to Introduce the Concept of Negative Quantities into Philosophy]]_ from 1763 constitutes a crucial step.
+In the development of Kant's distinction between general logic and transcendental logic his _[[Attempt to Introduce the Concept of Negative Quantities into Philosophy]]_ from 1763 constitutes a crucial step.
 
 ###### "__I. On logic in general.__" ([A50](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_050.png)-5/B74-9)
 
@@ -285,7 +285,7 @@ Compare to the identification of concepts with the [[types]] in the sense of [[t
 Publications of Kant's original work include:
 
 
-* Cambridge University Press, First and second editions, English translation. _Critique of Pure Reason_ (1998) (The Cambridge Edition of the Works of Immanuel Kant) (P. Guyer & A. Wood, Eds.). doi:10.1017/CBO9780511804649
+* Cambridge University Press, First and second editions, English translation. _Critique of Pure Reason_ (1998) (The Cambridge Edition of the Works of Immanuel Kant) (P. Guyer & A. Wood, Eds.). 
 
 * {#1stEd}Wikisource, [First edition, German](https://de.wikisource.org/wiki/Critik_der_reinen_Vernunft_%281781%29) (1781) and [several English translations](https://en.wikisource.org/wiki/Critique_of_Pure_Reason)
 
@@ -299,12 +299,13 @@ Related primary literature from Kant comprises
 
 * {#Jaesche} G. B. J&#228;sche (ed.), _Immanuel Kants Logik ein Handbuch zu Vorlesungen_, pp. 419-582 in Kant, _Schriften zur Metaphysik und Logik 2_, Suhrkamp Frankfurt a. M. 1985[1800].
 
-Secondary literature include:
+Secondary literature includes:
 
 * Wikipedia, _[Critique of Pure Reason](https://en.wikipedia.org/wiki/Critique_of_Pure_Reason)_
 
-* Bitbol, Michel, Kerszberg, Pierre, Petitot, Jean (Eds.), _Constituting Objectivity: Transcendental Perspectives on Modern Physics_ Springer (2009)
-  * {#Petitot09}Jean Petitot, _[Noncommutative Geometry and Transcendental Physics](http://topologicalmedialab.net/xinwei/classes/readings/Petitot/Petitot_NoncommutativeGeometry.pdf)_, pp. 415-455
+* {#Petitot09}Jean Petitot, _[Noncommutative Geometry and Transcendental Physics](http://topologicalmedialab.net/xinwei/classes/readings/Petitot/Petitot_NoncommutativeGeometry.pdf)_, pp. 415-455. 
+In: Bitbol, Michel, Kerszberg, Pierre, Petitot, Jean (Eds.), _Constituting Objectivity: Transcendental Perspectives on Modern Physics_ Springer (2009)
+
 
 
 {#AchouriotiVanLambalgen}Achourioti and van Lambalgen's approach appeared in
