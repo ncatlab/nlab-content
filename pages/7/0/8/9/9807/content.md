@@ -148,7 +148,7 @@ On this consider the following joint [[Cartan calculus]] operations: for each fK
     \big)
     \otimes
     W(\mathfrak{g})
-  \Big)^\bullet
+  \Big)^{\bullet}
   \longrightarrow
   \Big(
     \Omega
