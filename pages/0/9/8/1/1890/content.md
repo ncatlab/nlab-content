@@ -97,7 +97,7 @@ Then the [usual diagrams](#concrete_definition) that specify a strong monad
 A _strong monad_ over a [[monoidal category]] $(C,\otimes,1)$ is a monad $(T, \eta, \mu)$ together with a natural transformation $t_{A,B}:A \otimes T B \to T(A\otimes B)$, called the _strength_, such that the following diagrams commute.
 
 "Strengthening with 1 is irrelevant" (and plays well with the [[unitors]]):
-\begin{tikzcd}
+\begin{tikzcd}[sep=small, nodes={scale=1.25}]
 1 \otimes TA \ar{dd}[swap]{t_{1,A}} \ar{dr}{\cong} \\
 & TA \ar{dl}{\cong} \\
 T(1\otimes A)
@@ -110,7 +110,7 @@ A \otimes (B\otimes TC) \ar{r}{A\otimes t_{B,C}} & A\otimes T(B\otimes C) \ar{r}
 \end{tikzcd}
 
 "Strength commutes with the monad unit":
-\begin{tikzcd}
+\begin{tikzcd}[column sep=small, nodes={scale=1.25}]
 & A \otimes B \ar{ddl}[swap]{A\otimes\eta_B} \ar{ddr}{\eta_{A\otimes B}} \\ \\
 A\otimes TB \ar{rr}{t_{A,B}} && T(A\otimes B)
 \end{tikzcd}
@@ -127,6 +127,9 @@ More generally, if a monoidal category $V$ acts on a category $C$
 \]
 then a $V$-strength for a monad $T$ on $C$ is a family of morphisms
 $t_{A,B}:A\bullet T(B)\to T(A\bullet B)$ satisfying similar commutative diagrams. 
+
+
+In particular, the underlying [[endofunctor]] of a strong monad is a [[strong functor]].
 
 
 ### Costrength
@@ -168,7 +171,68 @@ for all $x\in X$ and $y\in P Y$. This strength is [[commutative monad|commutativ
 (Note that the category [[Meas]] has another [[monoidal structure]], which is closed, different from the [[cartesian product]]. For that monoidal structure, the Giry monad is not strong - see [Sato '16](#sato).)
 
 
-## On monoidal closed categories
+## On closed monoidal categories
+
+If the category $C$ is [[monoidal closed]], strength and costrength induce particular structures on the [[internal homs]]. 
+
+In this section, let $(C,\otimes 1)$ be monoidal closed, with internal hom denoted by $[-,-]$. Denote the [[unit of an adjunction|unit of the hom-tensor adjunction]] by $\eta_X:X \to [Y,X\otimes Y]$ and the counit (or _evaluation map_, see [[internal hom#EvaluationMap|internal hom - evaluation map]]) by $\epsilon_Y:X\otimes [X,Y]\to Y$.
+
+### Strong monads are enriched monads
+
+(See also the explanation at [[tensorial strength#description|the related discussion for strong endofunctors]].)
+
+First of all, a strong endofunctor $T$ on a closed monoidal category $C$ is "the same thing" as a $C$-enriched endofunctor. To see this, note that an enriched endofunctor amounts to a natural transformation 
+$$
+[X,Y] \;\to\; [T X, T Y] .
+$$
+Notice that a map as above, by the hom-tensor adjunction (or [[currying]]) is equivalently specified by a map
+$$
+[X,Y] \otimes T X \;\to\; T Y.
+$$
+The latter is provided by the strength $t$ as follows,
+\begin{tikzcd}
+{[X,Y]} \otimes T X \ar{r}{t} & T\big({[X,Y]}\otimes X \big) \ar{r}{T\epsilon} & TY.
+\end{tikzcd}
+
+Conversely, given an isomorphism $t':[X,Y] \otimes T X \to T Y$ natural in $Y$ and [[extranatural]] in $X$, one can define a strength as
+\begin{tikzcd}
+X \otimes T Y \ar{r}{\eta\otimes \mathrm{id}} & {[Y,X\otimes Y]} \otimes T Y \ar{r}{t'} & T(X\otimes Y).
+\end{tikzcd}
+
+One can verify that these assignments are inverse to each other. Moreover, the strength diagrams for $t$ commute if and only the resulting assigment is indeed an enriched monad, and vice versa. 
+
+#### Example in Set
+
+_Every monad on [[Set]] is [[Set]]-enriched. In particular, it is strong._
+
+Given a monad $T$ on [[Set]], the assignment 
+$$
+[X,Y] \;\to\; [T X, T Y] 
+$$
+is just the action of $T$ on the morphisms,
+$$
+\mathrm{Hom}(X,Y) \;\to\; \mathrm{Hom}(T X, T Y) .
+$$
+Under [[currying]], this corresponds to the map 
+\begin{tikzcd}[row sep=0, column sep=large, nodes={scale=1.25}]
+\mathrm{Hom}(X,Y) \times T X \ar{r} & T Y \\
+(f,k) \ar[mapsto]{r} & Tf (k) .
+\end{tikzcd}
+For example, for the [[list monad]], the map is given by
+\begin{tikzcd}[row sep=0, column sep=large, nodes={scale=1.25}]
+\mathrm{Hom}(X,Y) \times L X \ar{r} & L Y \\
+(f,{[x_1,\dots,x_n]}) \ar[mapsto]{r} & {[f(x_1),\dots,f(x_n)]} .
+\end{tikzcd}
+
+The strength obtained this way is the usual strength of the list monad,
+\begin{tikzcd}[row sep=0, column sep=large, nodes={scale=1.25}]
+X \times T Y \ar{r}{\eta\times \mathrm{id}} & \mathrm{Hom}(Y,X\times Y) \times T Y \ar{r}{t'} & T(X\times Y) \\
+(x,{[y_1,\dots,y_n]}) \ar[mapsto]{r} & \big( y\mapsto (x,y) , {[y_1,\dots,y_n]}\big) \ar[mapsto]{r} & {[(x,y_1),\dots,(x,y_n)]}.
+\end{tikzcd}
+(Compare with the [example above](#examples).)
+
+
+### Pointwise structure
 
 (...)
 
