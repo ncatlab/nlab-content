@@ -11,6 +11,10 @@ Comparison between the two main [[universal Vassiliev invariants]]: the [[Kontse
 
 * [[Christine Lescop]], _On configuration space integrals for links_, Geom. Topol. Monogr. 4 (2002) 183-199 ([arXiv:math/0211062](https://arxiv.org/abs/math/0211062))
 
+On [[universal Vassiliev invariants]] and the [[Kontsevich integral]]:
+
+* {#Lescop20} [[Christine Lescop]], _Invariants of links and 3-manifolds from graph configurations_ ([arXiv:2001.09929](https://arxiv.org/abs/2001.09929))
+
 
 category: people
 
