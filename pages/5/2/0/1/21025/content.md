@@ -103,9 +103,15 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 **Slides and Talk notes:**
 
-* [[Duff interview at M-Theory-Mathematics 2020|Duff - opening remarks]]
+* [[Michael Duff]]:
 
-more to appear...
+  _[[Duff interview at M-Theory-Mathematics 2020|opening remarks on early history]]_
+
+* [[Urs Schreiber]]: 
+
+  _[[schreiber:Microscopic Brane Physics from Cohomotopy]]_
+
+more to appear here...
 
 \linebreak
 
