@@ -74,7 +74,7 @@ that if you [[wrapped brane|wrap]] this [[M2-brane|11-dimensional membrane aroun
 (04:06) And then, as you know, [[Edward Witten]] made this startling speech at the University of Southern California
 $[$[Witten 95](M-theory#Witten95Talk)$]$, where he pointed out that the five consistent string theories and 11-dimensional supergravity were not, as we previously thought, six rival Theories of Everything: They were six different corners in the deeper and more profound theory that he called "[[M-theory]]". 
 
-(04:38) Now, given that we have been arguing in favour of membranes, the fact that the theory got called "M" was something of a Pyrrhic victory. 
+{#0438} (04:38) Now, given that we have been arguing in favour of membranes, the fact that the theory got called "M" was something of a Pyrrhic victory. 
 
 (04:50) It was saying: "Well, maybe membranes, we're not completely sure." $[$see [Hořava-Witten 95, p. 2](M-theory#NonCommittal)$]$
 
@@ -90,7 +90,7 @@ $[$[Witten 95](M-theory#Witten95Talk)$]$, where he pointed out that the five con
 
 **Duff**:
 
-(06:30) It was quite usual for discoveries that were made in the 80s to re-appear in the 90s. 
+{#0630} (06:30) It was quite usual for discoveries that were made in the 80s to re-appear in the 90s. 
 
 
 (06:39) I don't want to diminish the importance of the matrix model. It was very important. They built on earlier work -- for what we would now call D0-branes -- of the late 80s.
