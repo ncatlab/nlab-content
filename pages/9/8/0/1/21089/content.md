@@ -3,19 +3,29 @@
 
 * [[Mike Duff]] 
 
+  \linebreak
+
   interview/opening remarks at 
 
-  _[[M-Theory and Mathematics]] 2020_
+  _[[M-Theory and Mathematics]]_
+
+  January 2020
 
   \linebreak
 
-  recording:
+  view recording:
 
   * [lead-in and first min](https://youtu.be/hCCmYwwKmhc)
 
-  * [full video stream](https://nyu.zoom.us/rec/share/zJBpF4Ch-39JWdLy62vjQvQiGaq6aaa8hCQX_qILzRpfMN17dpCEJSXld0pzPxFC?startTime=1579698234000)
+  * **[full video stream](https://nyu.zoom.us/rec/share/zJBpF4Ch-39JWdLy62vjQvQiGaq6aaa8hCQX_qILzRpfMN17dpCEJSXld0pzPxFC?startTime=1579698234000)**
 
-on the early history and the perspective of [[M-theory]].
+on the early history of and the perspective of [[M-theory]].
+
+\linebreak
+
+#Contents
+* table of contents
+{:toc}
 
 ## Transcript
 
@@ -27,7 +37,7 @@ Duff:
 
 (00:49) The story of M-theory began with the story of eleven dimensions. 
 
-(00:54) It was 1978, I think, when Werner Nahm pointed out $[$[Nahm 78](supersymmetry#Nahm78)$]$ that [[supersymmetry]] places an upper limit on the dimension of spacetime, which is 11. 
+(00:54) It was 1978, I think, when [[Werner Nahm]] pointed out $[$[Nahm 78](supersymmetry#Nahm78)$]$ that [[supersymmetry]] places an upper limit on the dimension of spacetime, which is 11. 
 
 (01:05) And so in the early 80s, my colleagues and I looked to [[11-dimensional supergravity]] as a candidate for a unified theory of the fundamental forces. 
 
@@ -69,7 +79,7 @@ $[$[Witten 95](M-theory#Witten95Talk)$]$, where he pointed out that the five con
 
 (04:56) For me, anyway, it was clear that branes were just as important as strings. 
 
-(05:05) [[Joseph Conlon]], writing in a recent book on string theory, says that when he saw our paper $[$ [Duff-Howe-Inami-Stelle 87](double+dimensional+reduction#DuffHoweInamiStelle87) $]$ about wrapping the brane around the 11th dimension, from the late 80s, he was shocked, because the history of the theory that he had been brought up with would not allow such a thing until 1995. 
+(05:05) [[Joseph Conlon]], writing in a recent book on string theory, says that when he saw our paper $[$[Duff-Howe-Inami-Stelle 87](double+dimensional+reduction#DuffHoweInamiStelle87)$]$ about wrapping the brane around the 11th dimension, from the late 80s, he was shocked, because the history of the theory that he had been brought up with would not allow such a thing until 1995. 
 
 (05:31) So, M-theory had a strange history.
 
@@ -84,15 +94,13 @@ Duff:
 
 (06:39) I don't want to diminish the importance of the matrix model. It was very important. They built on earlier work -- for what we would now call D0-branes -- of the late 80s.
 
-> (that sentence seems to have been meant differently?)
-
 (06:59) But the matrix model itself was not all of M-theory; it was a corner of M-theory, and it told us certain interesting things, but there were interesting things about M-theory that it didn't tell us. 
 
 (07:13) I think we are still looking, in fact, for what M-theory really is.  
 
 (07:19) We have a patchwork picture. We understand various corners. But the overarching big picture of M-theory is still waiting to be discovered, in my view. 
 
-Q: In your famous review "M-Theory (The theory formerly known as strings)", in the concluding section, you wrote: "The overriding problem in super-unification, in the coming years, will be to take the Mystery out of M-theory, while keeping the Magic and the Membranes." What do you think is the status of this "overriding problem" today?
+Q: In your famous review "M-Theory (The theory formerly known as strings)" $[$[Duff 96](#Duff96)$]$, in the concluding section, you wrote: "The overriding problem in super-unification, in the coming years, will be to take the Mystery out of M-theory, while keeping the Magic and the Membranes." What do you think is the status of this "overriding problem" today?
 
 (08:08) It's still there, of course. 
 
@@ -237,6 +245,29 @@ Duff:
 (21:00) My view of research is a Darwinian one: You find the brightest people, you give them the money, you let them get on with it and they will go wherever they will go. I don't think one should try and engineer, from above,  the directions that research should take. Let the imagination of the best people -- let their imagination run them, and we'll see where it takes us.
 
 \linebreak
+
+
+\linebreak
+
+## Further reading
+
+A commented collection of the early articles on the [[super-membrane]] and what came to be called [[M-theory]]:
+
+* {#Duff99} [[Michael Duff]], 
+ 
+  _[[The World in Eleven Dimensions]]_ 
+
+  IoP (1999)
+
+Further early exposition of [[M-theory]]:
+
+* {#Duff96} [[Michael Duff]], _M-Theory (the Theory Formerly Known as Strings)_,  Int. J. Mod. Phys. A11 (1996) 5623-5642 ([arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117))
+
+* {#Duff98} [[Michael Duff]], _The Theory Formerly Known as Strings_, Scientific American 1998 ([pdf](https://www.nikhef.nl/pub/services/biblio/bib_KR/sciam14395569.pdf), [[DuffFormerlyStrings98.pdf:file]])
+
+* {#Duff98b} [[Michael Duff]], _A Layman's Guide to M-theory_, 	Abdus Salam Memorial Meeting, Trieste, Italy, 19 - 22 Nov 1997, pp.184-213 ([arXiv:hep-th/9805177](https://arxiv.org/abs/hep-th/9805177), [cds:355721](https://cds.cern.ch/record/355721))
+
+  
 
 ***
 
