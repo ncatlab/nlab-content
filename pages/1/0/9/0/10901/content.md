@@ -76,7 +76,7 @@ between the [[closed monoidal category|closed]] [[symmetric monoidal category]] 
 
 If there is only the [[strong monoidal functor]] $\Sigma \;\colon\; S \longrightarrow \mathcal{C}$ without possibly a [[right adjoint]], then ([Barber 97, p. 21 (27)](#Barber97)) speaks of the _structural [[fragment]]_ of [[linear type theory]].
 
-In ([Ponto-Shulman 12](#PontoShulman12)) it is observed that this in turn is canonically induced if $\mathcal{C} \simeq \mathcal{C}_\ast$ is the linear type theory over the trivial context of a [[dependent linear type theory]]/[[indexed closed monoidal category]] with category of contexts being $S$. See at _[dependent linear type theory -- Properties -- Canonical co-modality](http://ncatlab.org/nlab/show/dependent+linear+type+theory#TheCanonicalComodality)_ for more on this.
+In ([Ponto-Shulman 12](#PontoShulman12)) it is observed that this in turn is canonically induced if $\mathcal{C} \simeq \mathcal{C}_\ast$ is the linear type theory over the trivial context of a [[dependent linear type theory]]/[[indexed closed monoidal category]] with category of contexts being $S$. See at _[indexed monoidal (infinity,1)-category -- Exponential modality and Fock spaces](https://ncatlab.org/nlab/show/indexed+monoidal+%28infinity%2C1%29-category#TheCanonicalComodality)_ for more on this.
 
 ## History of linear categorical semantics
  {#HistoryCategoricalSemantics}
