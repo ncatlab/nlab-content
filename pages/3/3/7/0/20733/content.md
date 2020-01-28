@@ -68,9 +68,7 @@ Further discussion:
 
 * Rafe Mazzeo, [[Edward Witten]], _The Nahm Pole Boundary Condition_, In: _The influence of Solomon Lefschetz in geometry and topology_, Contemporary Mathematics 621 (2014): 171 ([arXiv:1311.3167](https://arxiv.org/abs/1311.3167), [doi:10.1090/conm/621](http://dx.doi.org/10.1090/conm/621))
 
-Making explicit the completion of $\mathfrak{su}(2)_{\mathbb{C}} \simeq \mathfrak{sl}(2,\mathbb{C})$ to $\mathfrak{gl}(2,\mathbb{C})$:
 
-* [[Sergey Cherkis]], _Instantons on Gravitons_, around (21) in: Commun. Math. Phys. 306:449-483, 2011 ([arXiv:1007.0044](https://arxiv.org/abs/1007.0044))
 
 
 Review:
@@ -120,6 +118,12 @@ For transversal [[D6-D8 brane intersections]] (with an eye towards [[AdS/QCD]]):
 and as transversal [[D6-D8-brane bound states]] on a [[half NS5-brane]] in [[type I' string theory]]:
 
 * {#HananyZaffaroni99} [[Amihay Hanany]], [[Alberto Zaffaroni]], _Monopoles in String Theory_, JHEP 9912 (1999) 014 ([arxiv:hep-th/9911113](https://arxiv.org/abs/hep-th/9911113))
+
+Making explicit the completion of the $\mathfrak{su}(2)_{\mathbb{C}} \simeq \mathfrak{sl}(2,\mathbb{C})$-representation to a $\mathfrak{gl}(2,\mathbb{C})$-representation by adjoining the gauge field component $A_y$ to the scalar fields $\vec X$:
+
+* [Gaiotto-Witten 08, Section 3.1.1](#GaiottoWitten08)
+
+* [[Sergey Cherkis]], _Instantons on Gravitons_, around (21) in: Commun. Math. Phys. 306:449-483, 2011 ([arXiv:1007.0044](https://arxiv.org/abs/1007.0044))
 
 ### Lift to M-theory
 
