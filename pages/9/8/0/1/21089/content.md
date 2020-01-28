@@ -164,11 +164,11 @@ $[$[Maldacena 97](AdS-CFT#Maldacena97a)$]$, he had three examples: $AdS_4 \times
 
 (13:48) There hasn't, for whatever reason, been the same progress in M-theory, as a result of that.
 
-(13:58) The [[AdS/CFT correspondence]] in a way diverted attention away from the goal of finding a unified theory of all the fundamental forces, starting from 11 dimensions. 
+{#1358} (13:58) The [[AdS/CFT correspondence]] in a way diverted attention away from the goal of finding a unified theory of all the fundamental forces, starting from 11 dimensions. 
 
 (14:13) It's been tremendously successful in its own right, Maldacena's paper $[$[Maldacena 97](AdS-CFT#Maldacena97a)$]$ is the most highly cited paper in history. 
 
-(14:22) But it has not, strangely enough, contributed to how we unify the strong, weak and electromagnetic forces with gravity. At least I don't think it has. 
+{#1422} (14:22) But it has not, strangely enough, contributed to how we unify the strong, weak and electromagnetic forces with gravity. At least I don't think it has. 
 
 (14:35) That's a different problem. 
 
@@ -194,9 +194,9 @@ $[$[Maldacena 97](AdS-CFT#Maldacena97a)$]$, he had three examples: $AdS_4 \times
 
 (16:19) My view is that Theories of Everything are going to similarly require a large timeline between the original idea and the confirmation.
 
-(16:36) That's why I think M-theory is not yet in a mature enough stage for us to make falsifiable predictions.
+{#1636} (16:36) That's why I think [M-theory is not yet in a mature enough stage](M-theory#TheOpenProblem) for us to make falsifiable predictions.
 
-(16:44) We don't understand the theory sufficiently well yet to do so.
+{#1644} (16:44) We don't understand the theory sufficiently well yet to do so.
 
 **Q**: Should we try to focus on understanding it first, and then it would naturally give us predictions?
 
@@ -237,7 +237,7 @@ $[$[Banks 19](swampland#Banks19)$]$. Do you think it's possible that an actual f
 
 (20:17) Mathematical consistency has a vital part to play. 
 
-(20:21) As you and your colleagues are aware, sophisticated mathematics is becoming more and more important in understanding M-theory; and it is going to require the kind of mathematical approaches that you are doing.
+{#2021} (20:21) As you and your colleagues are aware, sophisticated mathematics is becoming more and more important in understanding M-theory; and it is going to require the kind of mathematical [approaches that you are doing](https://ncatlab.org/schreiber/show/Hypothesis+H).
 
 (20:37) You'll sort it all out, I am sure.
 
