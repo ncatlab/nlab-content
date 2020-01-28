@@ -90,6 +90,10 @@ Review:
 
 * {#Kohno14} [[Toshitake Kohno]], Section 5 of: _Local Systems on Configuration Spaces, KZ Connections and Conformal Blocks_,  Acta Math Vietnam 39, 575–598 (2014)  ([doI;10.1007/s40306-014-0088-6](doi:10.1007/s40306-014-0088-6), [pdf](https://www.ms.u-tokyo.ac.jp/~kohno/papers/kohno_config.pdf))
 
+Textbook account:
+
+* {#Lescop20} [[Christine Lescop]], _Invariants of links and 3-manifolds from graph configurations_ ([arXiv:2001.09929](https://arxiv.org/abs/2001.09929))
+
 [[!include perturbative quantization of Chern-Simons theory -- references]]
 
 [[!redirects Kontsevich integrals]]
