@@ -297,13 +297,19 @@ TX \otimes Y \ar{r}{\eta\otimes Y} & T{[Y,X\otimes Y]} \otimes Y \ar{r}{s'\otime
 
 
 \begin{tikzcd}[row sep=0, column sep=small, nodes={scale=1.25}]
-L{[X,A]} \ar{r}{\eta} & {[X,L{[X,A]}\times X]} \ar{r}{{[X,s]}} & {[X,L({[X,A]}\times X)]} \ar{r}{{[X,L\epsilon]}} & {[X,LA]} \ar{r}{{[X,a]}} & {[X,A]} \\
-{[f,g,h]} \ar[mapsto]{r} & \big( x\mapsto ({[f,g,h]},x) \big) \ar[mapsto]{r} & \big( x\mapsto {[(f,x), (g,x), (h,x)]}\big) \ar[mapsto]{r} & \big( x\mapsto {[f(x),g(x),h(x)]} \big) \ar[mapsto]{r} & \big( x\mapsto f(x) + g(x) + h(x) \big)
+L{[X,Y]} \ar{r}{\eta} & {[X,L{[X,Y]}\times X]} \ar{r}{{[X,s]}} & {[X,L({[X,Y]}\times X)]} \ar{r}{{[X,L\epsilon]}} & {[X,LY]} \\
+{[f,g,h]} \ar[mapsto]{r} & \big( x\mapsto ({[f,g,h]},x) \big) \ar[mapsto]{r} & \big( x\mapsto {[(f,x), (g,x), (h,x)]}\big) \ar[mapsto]{r} & \big( x\mapsto {[f(x),g(x),h(x)]} \big) 
 \end{tikzcd}
 
 (...)
 
 
+\begin{tikzcd}[row sep=0, column sep=small, nodes={scale=1.25}]
+L{[X,A]} \ar{r} & {[X,LA]} \ar{r}{{[X,a]}} & {[X,A]} \\
+{[f,g,h]} \ar[mapsto]{r} & \big( x\mapsto {[f(x),g(x),h(x)]} \big) \ar[mapsto]{r} & \big( x\mapsto f(x) + g(x) + h(x) \big)
+\end{tikzcd}
+
+(...)
 
 
 ## Moggi's typing rules and parameterized definition
