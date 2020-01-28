@@ -120,7 +120,8 @@ Q: In your famous review "M-Theory (The theory formerly known as strings)" $[$[D
 
 (09:51) We just have to keep hoping for the best.
 
-Q: In the late 90s you wrote in Scientific American and also in your book on M-theory: "Future historians may judge the late 20th century as a time when theorists were like children playing on the sea shore, diverting themselves with the smoother pebbles or prettier shells of superstrings, while the great ocean of M-theory lay undiscovered before them." How do you look at his prediction 20 years into the 21st century?
+Q: In the late 90s you wrote in Scientific American $[$[Duff 98](#Duff98)$]$ and also in your book on M-theory
+$[$[Duff 99](#Duff99)$]$: "Future historians may judge the late 20th century as a time when theorists were like children playing on the sea shore, diverting themselves with the smoother pebbles or prettier shells of superstrings, while the great ocean of M-theory lay undiscovered before them." How do you look at his prediction 20 years into the 21st century?
 
 Duff:
 
