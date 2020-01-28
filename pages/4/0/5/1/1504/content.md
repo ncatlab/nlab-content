@@ -637,6 +637,8 @@ Older reviews include
 
 More recently there is
 
+
+
 * Tomoyuki Takezaki, _Open superstring field theory including the Ramond sector based on the supermoduli space_ ([arXiv:1901.02176](https://arxiv.org/abs/1901.02176))
 
 ### Effective field theory
@@ -696,6 +698,9 @@ Discussion of the mathematical aspects is in
 * Korbinian M&#252;nster, [[Ivo Sachs]], _Quantum Open-Closed Homotopy Algebra and String Field Theory_ ([arXiv:1109.4101](http://arxiv.org/abs/1109.4101))
 
 * Korbinian M&#252;nster, [[Ivo Sachs]], _On Homotopy Algebras and Quantum String Field Theory_ ([arXiv:1303.3444](http://arxiv.org/abs/1303.3444))
+
+* {#DoubekJurcoMuenster13} Martin Doubek, [[Branislav Jurco]], Korbinian Muenster, _Modular operads and the quantum open-closed homotopy algebra_ ([arXiv:1308.3223](https://arxiv.org/abs/1308.3223))
+
 
 Surveys include
 
