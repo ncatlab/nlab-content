@@ -56,7 +56,7 @@ $$
   Rep(G)
     \underoverset
      {\underset{\iota^\ast}{\longrightarrow}}
-     {\overset{ind_H^G}{\longrightarrow}}
+     {\overset{ind_H^G}{\longleftarrow}}
      {\bot}
   Rep(H)
 $$
