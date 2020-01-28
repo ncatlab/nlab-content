@@ -251,7 +251,7 @@ Given an orthogonal representation $\mathfrak{g} \otimes V \overset{\rho}{\to} V
      \mathfrak{g}
    $$  
 
-   defined by
+   given by
 
    \[
      \label{DefiningEquationForD}
