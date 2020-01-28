@@ -29,9 +29,10 @@ on the early history of and the perspective of [[M-theory]].
 
 ## Transcript
 
-Q: You had codiscovered, early in the 1980s, some core ingredients of [[M-theory]], like [[M2-brane|membranes]]. Later on, in 1995, this came to be known as "M-theory". How do you reflect on that?
 
-Duff:
+**Q**: You had codiscovered, early in the 1980s, some core ingredients of [[M-theory]], like [[M2-brane|membranes]]. Later on, in 1995, this came to be known as "M-theory". How do you reflect on that?
+
+**Duff**:
 
 (00:43) Reflecting on M-theory is quite a big challenge. 
 
@@ -85,9 +86,9 @@ $[$[Witten 95](M-theory#Witten95Talk)$]$, where he pointed out that the five con
 
 (05:38) I could summarize my research in the early 1980s as arguing for spacetime dimensions greater than 4, and for worldvolume dimensions greater than two in the late 80s, and that struggle was by far the harder of the two.
 
-Q: Similarly in the late 80s, also the regularized quantization of the super-membrane led to the [[BFSS matrix model|matrix model]], which later on was re-discovered as [[D0-brane]] quantum mechanics, and then hailed as a contender for a definition of M-theory. How do you reflect on this curious M-theory conceivement?
+**Q**: Similarly in the late 80s, also the regularized quantization of the super-membrane led to the [[BFSS matrix model|matrix model]], which later on was re-discovered as [[D0-brane]] quantum mechanics, and then hailed as a contender for a definition of M-theory. How do you reflect on this curious M-theory conceivement?
 
-Duff:
+**Duff**:
 
 (06:30) It was quite usual for discoveries that were made in the 80s to re-appear in the 90s. 
 
@@ -100,7 +101,9 @@ Duff:
 
 (07:19) We have a patchwork picture. We understand various corners. But the overarching big picture of M-theory is still waiting to be discovered, in my view. 
 
-Q: In your famous review "M-Theory (The theory formerly known as strings)" $[$[Duff 96](#Duff96)$]$, in the concluding section, you wrote: "The overriding problem in super-unification, in the coming years, will be to take the Mystery out of M-theory, while keeping the Magic and the Membranes." What do you think is the status of this "overriding problem" today?
+**Q**: In your famous review "M-Theory (The theory formerly known as strings)" $[$[Duff 96](#Duff96)$]$, in the concluding section, you wrote: "The overriding problem in super-unification, in the coming years, will be to take the Mystery out of M-theory, while keeping the Magic and the Membranes." What do you think is the status of this "overriding problem" today?
+
+**Duff**:
 
 (08:08) It's still there, of course. 
 
@@ -120,10 +123,10 @@ Q: In your famous review "M-Theory (The theory formerly known as strings)" $[$[D
 
 (09:51) We just have to keep hoping for the best.
 
-Q: In the late 90s you wrote in Scientific American $[$[Duff 98](#Duff98)$]$ and also in your book on M-theory
+**Q**: In the late 90s you wrote in Scientific American $[$[Duff 98](#Duff98)$]$ and also in your book on M-theory
 $[$[Duff 99](#Duff99)$]$: "Future historians may judge the late 20th century as a time when theorists were like children playing on the sea shore, diverting themselves with the smoother pebbles or prettier shells of superstrings, while the great ocean of M-theory lay undiscovered before them." How do you look at his prediction 20 years into the 21st century?
 
-Duff:
+**Duff**:
 
 (10:30) I hope you recognize that most of these words were of Isaac Newton, I just made a few substitutions in the right places.
 
@@ -143,10 +146,10 @@ Duff:
 
 (12:08) So we have to treat them democratically.
  
-Q: In your interview by Farmelo, last year
+**Q**: In your interview by Farmelo, last year
 $[$[Farmelo interview Duff](https://grahamfarmelo.com/the-universe-speaks-in-numbers-interview-14/)$]$, you said: "The problem we face is that we have a patchwork understanding of M-theory, like a quilt: We understand this corner and that corner, but what's lacking is the overarching big picture. So directly or indirectly, my research hopes to explain what M-theory really is. We don't know what it is." Do you have a hunch what form the answer might eventually take?
 
-Duff:
+**Duff**:
 
 (12:44) No, actually I don't know. 
 
@@ -173,15 +176,17 @@ $[$[Maldacena 97](AdS-CFT#Maldacena97a)$]$, he had three examples: $AdS_4 \times
 
 (14:48) But I am still optimistic that we are on the right track. 
 
-Q: So you believe we ought to get back to the original big question about: what's the nature of M-theory.
+**Q**: So you believe we ought to get back to the original big question about: what's the nature of M-theory.
 
-Duff:
+**Duff**:
 
 (15:03) That's my view, yes.
 
 (15:05) But of course, in order to do that, you have to have some good ideas. We need more good ideas.
 
-Q: In that same interview with Farmelo, you said: "In a certain sense, and this is not a popular statement, I think it's premature to be asking: 'What are the empirical consequences?', because it's not yet in a mature enogh state, where we can sensibly make falsifiable predictions." Would you like to expand on that?
+**Q**: In that same interview with Farmelo, you said: "In a certain sense, and this is not a popular statement, I think it's premature to be asking: 'What are the empirical consequences?', because it's not yet in a mature enogh state, where we can sensibly make falsifiable predictions." Would you like to expand on that?
+
+**Duff**:
 
 (15:39) Yes, it was harking back to the remarks I made a few minutes ago, about the timeline between the germ of a theoretical idea and its ultimate empirical confirmation.
 
@@ -193,9 +198,9 @@ Q: In that same interview with Farmelo, you said: "In a certain sense, and this 
 
 (16:44) We don't understand the theory sufficiently well yet to do so.
 
-Q: Should we try to focus on understanding it first, and then it would naturally give us predictions?
+**Q**: Should we try to focus on understanding it first, and then it would naturally give us predictions?
 
-Duff:
+**Duff**:
 
 (17:00) That's what I would recommend.
 
@@ -203,10 +208,10 @@ Duff:
 
 (17:11) So I don't want to predict that progress will come from a particular direction. 
 
-Q: A similar point was made recently by [[Tom Banks]], in a critique of the 15 year old discussion of the [[landscape of string theory vacua|landscape]] of [[de Sitter spacetime|de Sitter]] [[string theory vacuum|vacua]]
+**Q**: A similar point was made recently by [[Tom Banks]], in a critique of the 15 year old discussion of the [[landscape of string theory vacua|landscape]] of [[de Sitter spacetime|de Sitter]] [[string theory vacuum|vacua]]
 $[$[Banks 19](swampland#Banks19)$]$. Do you think it's possible that an actual formulation of M-theory will show of the putative landscape of string theory is not actually there?
 
-Duff:
+**Duff**:
 
 (17:59) Superficially, I would say No, because M-theory has even more vacua than string theory has. 
 
@@ -218,15 +223,15 @@ Duff:
 
 (18:55) I am agnostic about the [[multiverse]]. I don't know whether we live in one universe or many. But there, again, we have to keep beavering away, and hopefully the truth will out.
 
-Q: Do you envision any role for mathematics? If you are able to map M-theory to mathematics, would you think mathematics would have something to say?
+**Q**: Do you envision any role for mathematics? If you are able to map M-theory to mathematics, would you think mathematics would have something to say?
 
-Duff:
+**Duff**:
 
 (19:25) It certainly does, because in the absence of empirical data, what do we have to guide us? We have consistency as our criterion.
 
 (19:37) Whatever our theories are, they must be, first of all, mathematically consistent -- no self-conradictions -- and they must be consistent with what we already know to be true. 
 
-(19:51) This is, in a way, a strightjacket, that constrains our speculations and our projections where the theory is going to go.
+(19:51) This is, in a way, a straightjacket, that constrains our speculations and our projections where the theory is going to go.
 
 (20:03) And its a very severe straightjacket: We can't just dream up any old thing and expect it to be mathematically consistent, or consistent with our knowledge.
 
@@ -237,9 +242,9 @@ Duff:
 (20:37) You'll sort it all out, I am sure.
 
 
-Q: How do you envision the future of activity in M-theory should look like?
+**Q**: How do you envision the future of activity in M-theory should look like?
 
-Duff:
+**Duff**:
 
 (20:54) There again I don't want to make any rash predictions.
 
