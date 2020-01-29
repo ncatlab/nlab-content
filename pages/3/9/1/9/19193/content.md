@@ -17,21 +17,33 @@
 
 ## Idea
 
-In the context of [[cosmology]], _structure formation_ refers to the process by which cosmological structures such as [[galaxy clusters]] form under [[gravity|gravitational]] collapse of a primordial gas.
+In the context of [[cosmology]], _structure formation_ refers to the process by which cosmological structures such as [[galaxy clusters]] and [[galaxies]] themselves form under [[gravity|gravitational]] collapse of a primordial gas.
 
 Various computer simulations ([Millennium I](#MillenniumI), [Millennium II](#MillenniumII), [Millennium XXL](#MillenniumXXL), [Illustris](#Illustris)) test theory against observations, such as those by the [[Planck Collaboration]], see [Springel 13](#Springel13) for survey.
+
+
 
 <img src="https://wwwmpa.mpa-garching.mpg.de/galform/virgo/millennium/poster_large.jpg" width="500">
 
 > graphics from _[The Millennium Simulation Project](https://wwwmpa.mpa-garching.mpg.de/galform/virgo/millennium/)_
 
+## Feedback mechanisms and realistic dark matter models
+ {#Feedback}
+
+A revolution in realism of computer simulations of galaxy structure formation occurred after ~2010 when hardware and software advances allowed to resolve various feedback mechanisms, such as notably the effect of star-formation inside a gas cloud collapsing to a galaxy. This advance is reflected in the naming of the [FIRE](#ReferencesFIRE)-project: _F_eedback _I_n _R_ealistic _E_nvironments.
+
+The resolution of such feedback mechanisms in simulation of  [[galaxy]] formation seems to resolve long-standing apparent discrepancies of [[dark matter]] models with observed galaxy-scale phenomena: For example [[galactic rotation curves]] are qualitatively reproduced  ([Hopkins 17, Figure 4, Figure 5](#Hopkins17)) as is the baryonic [[Tully-Fisher relation]] ([El-Badry 18, Figure 4](#ElBadry18)).
+
+For more on this see also at _[[dark matter]]_ the section _[On galactic scales](dark+matter#Properties)_.
+
+
 From [Vogelsberger et al. 14](#VogelsbergerEtAl14):
 
-> {#TheSimulationReproduces} The simulation reproduces reasonably well the cosmic star formation rate density, the galaxy luminosity function, and baryon conversion efficiency at $z=0$. It also qualitatively captures the impact of galaxy environment on the red fractions of galaxies. The internal velocity structure of selected well-resolved disk galaxies obeys the stellar and baryonic Tully-Fisher relation together with flat circular velocity curves. In the well-resolved regime the simulation reproduces the observed mix of early-type and late-type galaxies.
+> {#TheSimulationReproduces} The simulation reproduces reasonably well the cosmic star formation rate density, the galaxy luminosity function, and baryon conversion efficiency at $z=0$. It also qualitatively captures the impact of galaxy environment on the red fractions of galaxies. The internal velocity structure of selected well-resolved disk galaxies obeys the stellar and baryonic [[Tully-Fisher relation]] together with flat circular velocity curves. In the well-resolved regime the simulation reproduces the observed mix of early-type and late-type galaxies.
 
 See also [Illustris Project Website](#IllustrisProjectWebsite): _[What are we learning?](http://www.illustris-project.org/about/#public-three)_ and _[Preliminary Results](http://www.illustris-project.org/about/#astronomers-four)_.
 
-For structure on [[galaxy|galactic]] scales (such as [[galaxy rotation curves]] and [[Tully-Fisher relation]]) there is see [FIRE](https://fire.northwestern.edu/), see _[Hopkins et al 17](Hopkins17)_/
+
 
 ## Related concepts
 
@@ -71,6 +83,9 @@ There are various computer simulations for cosmic structure formation, listed be
 
 * [Kavli Institute for Cosmological Physics](http://cfcp.uchicago.edu/), _[Formation of the large-scale structure in the Universe: simulations](cosmicweb.uchicago.edu/sims.html)_
 
+* {#Springel19} Volker Springel, _Hydrodynamical galaxy formation simulations_, talk, December 2019 ([CCA announcement page](https://www.simonsfoundation.org/event/cca-colloquium-volker-springel), 
+[video recording](https://youtu.be/inbfOSzsGgA))
+
 
 
 #### Millennium Project
@@ -103,6 +118,8 @@ There are various computer simulations for cosmic structure formation, listed be
 * Wikipedia, _[Illustris project](https://en.wikipedia.org/wiki/Illustris_project)_
 
 * {#VogelsbergerEtAl14} Mark Vogelsberger, Shy Genel, Volker Springel, Paul Torrey, Debora Sijacki, Dandan Xu, Greg Snyder, Dylan Nelson, Lars Hernquist, _Introducing the Illustris Project: simulating the coevolution of dark and visible matter in the Universe_ ([arXiv:1405.2921](https://arxiv.org/abs/1405.2921))
+
+
 
 #### FIRE
  {#ReferencesFIRE}
