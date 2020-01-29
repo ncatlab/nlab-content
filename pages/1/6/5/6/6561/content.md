@@ -136,6 +136,13 @@ General survey includes
 Construction from [[F-theory]] [[KK-compactification]] is reviewed in 
 
 * {#HeckmanRudelius18} [[Jonathan Heckman]], [[Tom Rudelius]], _Top Down Approach to 6D SCFTs_, J. Phys. A: Math. Theor. 52 093001 2018 ([arXiv:1805.06467](https://arxiv.org/abs/1805.06467), [doi:10.1088/1751-8121/aafc81](https://doi.org/10.1088/1751-8121/aafc81))
+
+New approach to construction of candidate [[Lagrangian densities]] for [[D=6 N=(2,0) SCFTs]]:
+
+
+* [[Neil Lambert]], _$(2,0)$ Lagrangian Structures_, Physics Letters B Volume 798, 10 November 2019, 134948 ([arXiv:1908.10752](https://arxiv.org/abs/1908.10752))
+
+
  
 See also the references and discussion at _[[M5-brane]]_.
 
@@ -175,7 +182,7 @@ and the resulting relation to the [[geometric Langlands correspondence]] is disu
 
 For more references on this see at _[[N=2 D=4 super Yang-Mills theory]]_ the section _[References - Constructions from 5-branes](N%3D2+D%3D4+super+Yang-Mills+theory#ConstructionByCompactificationOf5Branes)_.
 
-Relation to [[BFSS matrix model]] on tori:
+Relation to [[BFSS matrix model]] on [[tori]]:
 
 * [[Micha Berkooz]], [[Moshe Rozali]], [[Nathan Seiberg]], _Matrix Description of M-theory on $T^3$ and $T^5$_ ([arXiv:hep-th/9704089](http://arxiv.org/abs/hep-th/9704089))
 
