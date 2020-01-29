@@ -57,6 +57,11 @@ The generalization to arbitrary black holes in 2+1-dimensional AdS gravity, with
  ([arXiv:gr-qc/9904083](https://arxiv.org/abs/gr-qc/9904083), [doi:10.1007/3-540-46671-1_6](https://doi.org/10.1007/3-540-46671-1_6)
 )
 
+See also:
+
+* Aritra Ghosh, Chandrasekhar Bhamidipati, _Thermodynamic geometry and interacting microstructures of BTZ black holes_ ([arXiv:2001.10510](https://arxiv.org/abs/2001.10510))
+
+
 
 
 ### Euclidean BTZ black holes
