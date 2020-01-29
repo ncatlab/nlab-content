@@ -39,6 +39,11 @@ On [[M2-M5 brane bound states]]:
 
 * [[Michael Green]], [[Neil Lambert]], [[George Papadopoulos]], [[Paul Townsend]], _Dyonic $p$-branes from self-dual $(p+1)$-branes_, Phys.Lett.B384:86-92, 1996 ([arXiv:hep-th/9605146](https://arxiv.org/abs/hep-th/9605146))
 
+New approach to construction of candidate [[Lagrangian densities]] for [[D=6 N=(2,0) SCFTs]]:
+
+
+* [[Neil Lambert]], _$(2,0)$ Lagrangian Structures_, Physics Letters B Volume 798, 10 November 2019, 134948 ([arXiv:1908.10752](https://arxiv.org/abs/1908.10752))
+
 
 ## Related $n$Lab entries
 
