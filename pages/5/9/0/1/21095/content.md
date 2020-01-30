@@ -1,3 +1,37 @@
-Let f(z) be a analytic function every point in and on a simply connected domain D and let C be a closed counture in D Then integration of f(z) along counture C will be zero. 
 
-          
+Some [[theorems]] named after [[Augustin Cauchy]]:
+
+* [[Cauchy's integral theorem]]
+
+  [[Cauchy's integral formula]]
+
+* [[Cauchy sum theorem]]
+
+* [[Cauchy group theorem]]
+
+See also:
+
+* [[Cauchy sequence]]
+
+  ([[Cauchy nets]], [[Cauchy filters]], [[Cauchy spaces]])
+
+* [[Cauchy–Riemann equations]]
+
+* [[Cauchy surface]]
+
+* [[Cauchy real number]]
+
+* [[Cauchy principal value]]
+
+
+
+category: disambiguation
+
+[[!redirects Cauchy's theorem]]
+[[!redirects Cauchy's theorem]]
+[[!redirects Cauchy\'s theorem]]
+
+[[!redirects Cauchy theorems]]
+[[!redirects Cauchy's theorems]]
+[[!redirects Cauchy's theorems]]
+[[!redirects Cauchy\'s theorems]]
