@@ -121,6 +121,7 @@ This gives a way to talk about monoid and group [[actions]] [[internally]] to an
 * For the case of group actions on sets, a $G$-set is [[free action|free as an action]] if and only if it is [[algebra over a monad#free_algebras|free as an algebra]] (up to isomorphism).
 * The action monad $X\mapsto M\times X$ on [[Set]] is canonically [[strong monad|strong]], with the strength given by the [[associator]] (see [[strong monad#examples]]). It is [[commutative monad|commutative]] if and only if $M$ is commutative as a monoid. 
 * More generally, in an arbitrary [[symmetric monoidal category]], the action monad induced by tensoring with an [[internal monoid]] is commutative if and only the monoid object is commutative. (See for example [Brandenburg, Example 6.3.12](#Brandenburg2014).)
+* Any action monad canonically [[distributive law|distributes]] over a [[strong monad]] $T$, with the distributive law $M \otimes T X \to T(M\otimes X)$ induced by the strength.
 
 ## In computer science
 
