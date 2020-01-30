@@ -59,7 +59,17 @@ An analogue in number theory is Iwasawa polynomial. Cf. for number theoretic ana
 Other works
 
 * Takefumi Nosaka, _Twisted cohomology pairings of knots I; diagrammatic computation_, [arxiv/1602.01129](http://arxiv.org/abs/1602.01129); _Twisted cohomology pairings of knots II; to classical invariants_, [arxivs/1602.01131](http://arxiv.org/abs/1602.01131) 
+
+
+* V. Mishnyakov, A. Sleptsov, N. Tselousov, _A new symmetry of the colored Alexander polynomial_ ([arXiv:2001.10596](https://arxiv.org/abs/2001.10596))
+
+
+
 [[!redirects Alexander polynomials]]
+
+
+
+
 
 category:knot theory
 
