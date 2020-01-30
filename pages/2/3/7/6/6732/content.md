@@ -138,6 +138,11 @@ On the [[logical equivalence]] between the [[four-colour theorem]] and a stateme
 
 * [[Dror Bar-Natan]], _Lie Algebras and the Four Color Theorem_, Combinatorica 17-1(1997) 43–52  ([arXiv:q-alg/9606016](https://arxiv.org/abs/q-alg/9606016), [doi:10.1007/BF01196130](https://doi.org/10.1007/BF01196130))
 
+On the [[large N limit]] in [[lattice gauge theory]]:
+
+* Margarita Garcia Perez, _Prospects for large $N$ gauge theories on the lattice_ ([arXiv:2001.10859](https://arxiv.org/abs/2001.10859))
+
+
 
 
 ### Open/closed string duality
