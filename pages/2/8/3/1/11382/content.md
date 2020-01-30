@@ -32,6 +32,8 @@ Further direct detections of gravitational wave events followed. The event GW170
 
 ## Related concepts
 
+* [[soft graviton theorem]]
+
 * [[electromagnetic wave]]
 
 * [[pp-wave spacetime]], [[M-wave]]
@@ -60,6 +62,11 @@ The reality of gravitational wave solutions however kept being a cause of concer
 A modern walk through the derivation of gravitational waves from linearization of [[Einstein's equations]] may be found for instance on pages 5-24 of
 
 * {#Guidry13} Mike Guidry, _[Astrophysics 616: General Relativity, Black Holes, and Cosmology](http://eagle.phys.utk.edu/guidry/astro616/)_ -- _Chapter 21 -- Gravitational waves_ ([pdf](http://eagle.phys.utk.edu/guidry/astro616/lectures/lecture_ch21.pdf))
+
+
+
+
+
 
 See also
 
@@ -92,6 +99,11 @@ Review of the theoretical predictions and their experimental verification is giv
 Discussion using the [[string theory results applied elsewhere|string theoretic]] [[KLT relation]]/[[double copy]]-approach for computing higher order corrections to gravitational wave-signatures of [[relativistic binary]] mergers for use with [[LIGO]]:
 
 * {#BCRSSZ19} [[Zvi Bern]], Clifford Cheung, Radu Roiban, Chia-Hsien Shen, Mikhail P. Solon, Mao Zeng, _Scattering Amplitudes and the Conservative Hamiltonian for Binary Systems at Third Post-Minkowskian Order_, Phys. Rev. Lett. 122, 201603 (2019) ([arXiv:1901.04424](https://arxiv.org/abs/1901.04424))
+
+Discussion in relation to the [[soft graviton theorem]]:
+
+
+* Arnab Priya Saha, Biswajit Sahoo, [[Ashoke Sen]], _Proof of the Classical Soft Graviton Theorem in $D=4$_ ([arXiv:1912.06413](https://arxiv.org/abs/1912.06413))
 
 
 ### Experimental observation
