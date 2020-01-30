@@ -196,6 +196,9 @@ If we (still arguably ahistorically) interpret convergence to mean to that $f_n(
 
 On the other hand (and this goes beyond what Lakatos wrote), one way to interpret Cauchy\'s claim that (eq:FourierPS) fails to converge when $x = 1/n$ is, using nonstandard analysis, simply that for any particular infinite value of $n$ and using the infinitesimal value $x = 1/n$, this partial sum is not infinitely close to $0$ (which is the value of the infinite sum at $x = \lim_n (1/n) = 0$).  This suggests interpreting convergence to mean that $f_n(c+h)$ is infinitely close to $f_\infty(c)$ whenever $n$ is infinite and $h$ is infinitesimal (for $c$ real), which again is equivalent (given continuity of $f_n$) to uniform convergence, again justifying Cauchy\'s proof.  However, proving that uniform convergence is equivalent to this is basically the same concept as the nonstandard proof of Theorem \ref{uniform} anyway.
 
+## Related concepts
+
+* [[Cauchy's theorems]]
 
 ## References
 
