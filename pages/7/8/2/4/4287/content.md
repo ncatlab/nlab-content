@@ -10,6 +10,11 @@
 
 * _Against philosophy_, in _Dreams of a final theory_ ([pdf](http://emilkirkegaard.dk/en/wp-content/uploads/Steven-Weinberg-%E2%80%9CAgainst-Philosophy%E2%80%9D.pdf))
 
+Deriving the [[soft graviton theorem]]:
+
+
+* {#Weinberg65} [[Steven Weinberg]], _Infrared photons and gravitons_, Phys. Rev. 140, B516 (1965) ([doi:10.1103/PhysRev.140.B516](https://doi.org/10.1103/PhysRev.140.B516))
+
 
 On classification of possible long-range [[forces]], hence of [[scattering]] processes of [[mass|massless]] [[field (physics)|fields]], by classification of suitably factorizing and decaying [[Poincaré group|Poincaré]]-[[invariant]] [[S-matrices]] depending on particle spin, leading to uniqueness statements about [[Maxwell theory|Maxwell]]/[[photon]]-, [[Yang-Mills theory|Yang-Mills]]/[[gluon]]-, [[gravity]]/[[graviton]]- and [[supergravity]]/[[gravitino]]-[[interactions]]:
 
