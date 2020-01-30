@@ -25,7 +25,7 @@
 
 The idea of a commutative monad could be motivated as either
 
-* The [[monad]] equivalent of a [[commutative algebraic theory]], generalized to either non-finitary theories or to categories other than [[Set]];
+* The [[monad]] equivalent of a [[commutative algebraic theory]], generalized to either non-finitary theories or to categories other than [[Set]]. Intuitively, the operations involved have a commutativity property analogous to [[commutative monoid|the one that monoids can have]];
 * A [[monad]] on a [[monoidal category]] whose underlying functor is [[monoidal functor|lax monoidal]], and whose unit and multiplication are [[monoidal natural transformation|monoidal]]. The interpretation is that the monad plays well with the monoidal product of the category, encoding for example products of formal expressions;
 * A [[monad]] on a [[monoidal category]] whose [[strong monad|strength]] and [[strong monad|costrength]] commute with each other. 
 
