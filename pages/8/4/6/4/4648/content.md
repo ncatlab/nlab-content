@@ -267,6 +267,9 @@ Discussion from the point of view of [[M-theory]] is in
 
 * [[Meng-Chwan Tan]], _M-Theoretic Derivations of 4d-2d Dualities: From a Geometric Langlands Duality for Surfaces, to the AGT Correspondence, to Integrable Systems_ ([arXiv:1301.1977](http://arxiv.org/abs/1301.1977))
 
+* [[Meer Ashwinkumar]], [[Meng-Chwan Tan]], _Unifying Lattice Models, Links and Quantum Geometric Langlands via Branes in String Theory_ ([arXiv:1910.01134](https://arxiv.org/abs/1910.01134))
+
+
 
 
 A relation to [[T-duality]] (of the group manifolds!) is discussed in
