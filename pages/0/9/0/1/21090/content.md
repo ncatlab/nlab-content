@@ -29,7 +29,7 @@ The formalism is however way more general.
 
 ## Definition
 
-A **Markov category** is a [[semicartesian monoidal category|semicartesian monoidal category]] [[symmetric monoidal category]] $(C,\otimes,1)$ in which every object $X$ is equipped with the structure of an [[internal monoid|internal comonoid]].
+A **Markov category** is a [[semicartesian monoidal category|semicartesian]] [[symmetric monoidal category]] $(C,\otimes,1)$ in which every object $X$ is equipped with the structure of an [[internal monoid|internal comonoid]].
 We denote the [[counit]] and [[comultiplication]] maps by $copy: X \to X \otimes X$ and $delete: X\to 1$. 
 
 We require the following compatibility property between the copy map and the tensor product: for all objects $X$ and $Y$, 
@@ -38,7 +38,7 @@ copy_{X\otimes Y} \; =\; (id_X\otimes b_{Y,X} \otimes id_Y) ( copy_X \otimes cop
 $$
 where $b$ denotes the [[braiding]].
 
-Note that the copy map is _not_ required to be [[natural transformation|natural]].
+Note that the map $delete: X\to 1$ is uniquely determined by the fact that 1 is [[terminal]], hence it is also [[natural transformation|natural]] in $X$ (see [[semicartesian monoidal category]] for more). On the other hand, the copy map is _not_ required to be natural.
 
 
 ### In terms of string diagrams
@@ -61,7 +61,7 @@ $$
 A way to motivate the definition is the following. Suppose that $f$ is a "random" function between real numbers, which adds to the input the result of the roll of a die. Given a number $x$, we can roll a die, add the resulting value (say, $n$) to $x$, and then copy the result, to get $(x+n,x+n)$. Or, we could copy the value $x$, roll two dice (or roll the die twice), and add the two resulting values (say, $m$ and $n$) to the two copies of $x$, obtaining $(x+m,x+n)$. The two results are likely to differ. 
 One can take this as a _definition_ of randomness: it's a process that may give a different result if you do it twice. Or equivalently, that copying the information before or after the process has taken place gives different results.
 
-A _deterministic_ morphisms is instead one that does _not_ exhibit this behavior, i.e. that commutes with the copy map.
+A _deterministic_ morphism is instead one that does _not_ exhibit this behavior, i.e. that commutes with the copy map.
 
 (...)
 
