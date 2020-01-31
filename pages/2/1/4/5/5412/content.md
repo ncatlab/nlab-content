@@ -172,7 +172,7 @@ $$
 in $\mathcal{E}$, hence an isomorphism
 
 $$
-  \mathcal{E}/Y(f_*(A \to X), (B \to Y)) \simeq
+  \mathcal{E}/Y(f_!(A \to X), (B \to Y)) \simeq
   \mathcal{E}/X((A \to X), f^*(B \to Y))
   \,.
 $$
