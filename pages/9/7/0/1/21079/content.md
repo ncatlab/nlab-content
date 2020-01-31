@@ -131,7 +131,7 @@ A way to motivate this name is to look at its Kleisli morphisms.
 The following explanation is taken from [Perrone, Example 5.1.14](#notesperrone).
 
 Let $M$ be a monoid, and let's write it additively. Denote by $T_M$ its _right_ writer monad. A Kleisli morphism of $T_M$ is a map $k:X\to Y\times M$. We can interpret it as a process which, when given an input $x\in X$, does not just produce an output $y\in Y$, but also an element of $M$. 
- For example, it could be energy released by a chemical reaction, or waste, or a cost of the transaction. In computer science, this is the behaviour of a function that computes a certain value, but that also writes into a log file (or to the standard output) that something has happened (the monoid operation being the concatenation of strings). For example, when you compile a tex document, a log file is produced alongside your output file. Hence the name ``writer monad''.
+ For example, it could be energy released by a chemical reaction, or waste, or a cost of the transaction. In computer science, this is the behaviour of a function that computes a certain value, but that also writes into a log file (or to the standard output) that something has happened (the monoid operation being the concatenation of strings). For example, when you compile a tex document, a log file is produced alongside your output file. Hence the name "writer monad".
  
  Let's now look at the Kleisli composition. If we have processes $k:X\to Y\times M$ and $h:Y\to Z\times M$, then $k\circ_{kl} Y:X\to Z\times M$ is given by
  \begin{tikzcd}[row sep=0, column sep=large, nodes={scale=1.25}]
