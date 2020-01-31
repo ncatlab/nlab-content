@@ -200,7 +200,7 @@ iff it is a minimal level which resolves the opposites of level $i$, i.e. iff $i
 
 The condition $\bigcirc_j \Box_i=\Box_i$ amounts to saying that every $i$-skeleton is a $j$-sheaf:
 
-Suppose the condition holds and $X$ is an $i$-skeleton ($\Box_i X= X$) then $\bigcirc_j \Box_i X =\bigcirc_j X=\Box_i X =X$ i.e. $X$ is a $j$-sheaf. Conversely, if every $i$-skeleton is a $j$-sheaf then, since by the idempotency of $\Box_i$ $i$-skeleta are precisely the objects of form $\Box_i X$ for some $X$, $\Box_i X$ is by assumption a $j$-sheaf and that's precisely what $\bigcirc_j \Box_i X=\Box_i X$ asserts.
+Suppose the condition holds and $X$ is an $i$-skeleton ($\Box_i X= X$) then $\bigcirc_j X =\bigcirc_j \Box_i X =\Box_i X =X$ i.e. $X$ is a $j$-sheaf. Conversely, if every $i$-skeleton is a $j$-sheaf then, since by the idempotency of $\Box_i$ $i$-skeleta are precisely the objects of form $\Box_i X$ for some $X$, $\Box_i X$ is by assumption a $j$-sheaf and that's precisely what $\bigcirc_j \Box_i X=\Box_i X$ asserts.
 
 The resolution condition $\bigcirc_j \Box_i=\Box_i$ ensures that $i$-skeleta are in the intersection of the $j$-skeleta and $j$-sheaves at the resolving level.
 
