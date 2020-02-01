@@ -1033,9 +1033,10 @@ The term _Bohrification_ and the investigations associated with it are initiated
 
 See also
 
-* [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], _Bohrification_ 
-in _Deep Beauty_ Cambridge University Press(2009) ([arXiv:0909.3468](http://arxiv.org/abs/0909.3468))
-  {#HLSDeep}
+* {#HLSDeep} [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], _Bohrification_, in: _Deep Beauty_ Cambridge University Press(2009) ([arXiv:0909.3468](http://arxiv.org/abs/0909.3468))
+  
+
+* {#Landsman17} [[Klaas Landsman]], Section 12 of: _Foundations of quantum theory -- From classical concepts to Operator algebras_, Springer Open 2017 ([doi:10.1007/978-3-319-51777-3](https://link.springer.com/book/10.1007/978-3-319-51777-3), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf))
 
 
 The computation of the internal Gelfand spectrum $\underline{\Sigma}$ was initiated in 
