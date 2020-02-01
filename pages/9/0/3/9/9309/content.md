@@ -136,6 +136,18 @@ Relation of [[single trace observables]] in the [[non-abelian DBI action]] on [[
 [[!redirects DBI field theory]]
 [[!redirects DBI field theories]]
 
+[[!redirects DBI model]]
+[[!redirects DBI-model]]
+[[!redirects DBI models]]
+[[!redirects DBI-models]]
+
+
+[[!redirects nonabelian DBI model]]
+[[!redirects nonabelian DBI-model]]
+[[!redirects nonabelian DBI models]]
+[[!redirects nonabelian DBI-models]]
+
+
 [[!redirects nonabelian DBI field theory]]
 [[!redirects nonabelian DBI field theories]]
 [[!redirects non-abelian DBI field theory]]
