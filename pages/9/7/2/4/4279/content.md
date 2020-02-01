@@ -317,7 +317,7 @@ More general states in this case are given by [[density matrices]].
 
 * {#FredenhagenLindner13} [[Klaus Fredenhagen]], Falk Lindner, _Construction of KMS States in Perturbative QFT and Renormalized Hamiltonian Dynamics_, Communications in Mathematical Physics Volume 332, Issue 3, pp 895-932, 2014-12-01 ([arXiv:1306.6519](https://arxiv.org/abs/1306.6519))
 
-* {#Landsman17} [[Klaas Landsman]], around def. 2.4 in _Foundations of quantum theory -- From classical concepts to Operator algebras_, Springer Open 2017 ([pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf))
+* {#Landsman17} [[Klaas Landsman]], around def. 2.4 in _Foundations of quantum theory -- From classical concepts to Operator algebras_, Springer Open 2017 ([doi:10.1007/978-3-319-51777-3](https://link.springer.com/book/10.1007/978-3-319-51777-3), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf))
 
 
 * {#Duetsch18} [[Michael Dütsch]], section 2.5 of _[[From classical field theory to perturbative quantum field theory]]_, 2018
