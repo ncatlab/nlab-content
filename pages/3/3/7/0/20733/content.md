@@ -26,11 +26,7 @@
 
 ## Properties
 
-### In string theory
-
-Transversal [[Dp-D(p+2)-brane intersections]] [[geometric engineering of QFT|geometrically engineer]] [[Yang-Mills monopoles]]: their [[moduli space]] is the [[moduli space of monopoles]]/solutions of [[Nahm's equation]]
-
-([Diaconescu 97](#Diaconescu97), [Hanany-Zaffaroni 99](#HananyZaffaroni99))
+[[!include Dp-D(p+2)-brane intersections in fuzzy funnels -- section]]
 
 ## Related concepts
 
