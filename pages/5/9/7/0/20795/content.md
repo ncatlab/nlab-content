@@ -10,7 +10,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -40,38 +39,147 @@ Parallel: dissolves ([Gava-Narain-Sarmadi 97](#GavaNarainSarmadi97))
  {#TransverseIntersection}
 
 
-#### The s-rule
-
-What has come to be known as the _[[s-rule]]_ is the conjecture that the configuration of [[Dp-D(p+2)-brane bound states]] with the [[D-brane|Dp-branes]] stretching from the [[D-brane|D(p+2)-branes]] to  [[NS5-branes]], can be [[supersymmetry|supersymmetric]] only if at most one D$p$-brane ends on any one D$(p+2)$-brane.
-
-For [[D4-D6 brane intersections]]:
-
-<center>
-<img src="https://ncatlab.org/nlab/files/D4D6BraneInsersectionSubjectToSRule.jpg" width="700">
-</center>
-
-> graphics grabbed from [Fazzi 17](D4-D6-brane+intersection#Fazzi17)
-
-For [[D6-D8 brane intersections]]:
-
-<center>
-<img src="https://ncatlab.org/nlab/files/D6D8BraneIntersectionsSubjetToSRule.jpg" width="600">
-</center>
-
-> graphics grabbed from [Fazzi 17](D6-D8-brane+intersection#Fazzi17)
-
-
-<img src="https://ncatlab.org/nlab/files/GaiottoNS5D6.jpg" width="600">
-
-> graphics grabbed from [Gaiotto-Tomasiello 14](D6-D8-brane+intersection#GaiottoTomasiello14)
-
-
 #### As fuzzy funnels/Yang-Mills monopoles
+ {#AsFuzzyFunnels}
 
 Transversally intersecting D$p$-D$(p+2)$-branes [[geometric engineering of QFT|geometrically engineer]] [[Yang-Mills monopoles]]: their [[moduli space]] is the [[moduli space of monopoles]]/solutions of [[Nahm's equation]]
 
-([Diaconescu 97](#Diaconescu97), [Hanany-Zaffaroni 99](#HananyZaffaroni99), [HLPY 08](#HLPY08), 
+([Diaconescu 97](#Diaconescu97), [Hanany-Zaffaroni 99](#HananyZaffaroni99), [Gaiotto-Witten 08, Section 2.4](#GaiottoWitten08)  [HLPY 08](#HLPY08), 
 [GZZ 09](#GZZ09))
+
+More explicitly, for $y \in (0,\infty$ the transversal distance along the stack of $N$ $\mathrm{D}p$-branes away from the $\mathrm{D}(p+2)$-brane, and for 
+
+$$
+  X^i \in C^\infty\big( (0,\infty], \mathfrak{u}(N) \big)
+  \phantom{AAA}
+  i \in \{1,2,3\}
+$$
+
+the three scalar fields on the worldvolume, the [[boundary condition]] is that
+
+$$
+  \frac{d}{d y}
+  X^3
+  +
+  [X^1, X^2]
+  \;=\;
+  0
+  \,,
+  \;\;\;
+  \frac{d}{d y}
+  X^1
+  +
+  [X^2, X^3]
+  \;=\;
+  0
+  \,,
+  \;\;\;
+  \frac{d}{d y}
+  X^2
+  +
+  [X^3, X^1]
+  \;=\;
+  0
+$$
+
+as $y \to 0$. This is solved by
+
+$$
+  X^i(y) = \frac{1}{y} \rho^i + \text{non-singular}
+$$
+
+where
+
+$$
+  \rho \;\colon\; \mathfrak{su}(2) \longrightarrow \mathfrak{u}(N)
+$$
+
+is a Lie algebra homomorphism from [[su(2)]] to the [[unitary Lie algebra]], and
+
+$$
+  \rho^i \coloneqq \rho(\sigma^i)
+$$
+
+is its complex-linear combination of values on the canonical [[Pauli matrix]] [[linear basis|basis]].
+
+Equivalently $\rho$ is an $N$-[[dimension|dimensional]] [[complex numbers|complex]] [[Lie algebra representation]] of [[su(2)]]. Any such is [[reducible representation|reducible]] as a [[direct sum]] of [[irreducible representations]] $\mathbf{N}^{(M5)}$, for which there is exactly one, up to [[isomorphism]], in each dimension $N^{(M5)} \in \mathbb{N}$:
+
+\[
+  \label{rhoAsADirectSumOfsu2Irreps}
+  \rho 
+  \;\simeq\;
+  \underset{
+    i 
+  }{\bigoplus}
+  \big(
+    N_i^{(M2)}
+    \cdot 
+    \mathbf{N}_i^{(M5)}
+  \big)
+  \,.
+\]
+
+(Here the notation follows the discussion at _[M2/M5-brane bound states in the BMN model](BMN+matrix+model#M2M5BraneBoundStatesInTheBMNMatrixModel)_, which is the [[duality between M-theory and type IIA string theory|M-theory lift]] of the present situation).
+
+Now each [[irrep]] $\mathbf{N}_i^{(M5)}$ may be interpreted as a [[fuzzy 2-sphere]] of [[radius]] $\propto \sqrt{ \left( N_i^{(M5)}\right)^2 - 1 }$, hence as the section of a [[fuzzy funnel]] at given $y = \epsilon$, whence the totality of (eq:rhoAsADirectSumOfsu2Irreps) represents a system of concentric [[fuzzy 2-spheres]]/[[fuzzy funnels]].
+
+\linebreak
+
+Moreover, since the [[complexification]] of [[su(2)]] is the [[sl(2)|complex special linear Lie algebra]] $\mathfrak{sl}(2,\mathbb{C})$ ([here](su2#Complexification)) the solutions to the boundary conditions are also identified with [[finite-dimensional vector space|finite-dimensional]] $\mathfrak{sl}(2,\mathbb{C})$ [[Lie algebra representations]]:
+
+\[
+  \label{RhoAsAnsl2Rep}
+  \rho \;\in\; \mathfrak{sl}(2,\mathbb{C}) Rep
+  \,.
+\]
+
+\linebreak
+
+This is what many authors state, but its not quite the full picture: 
+
+Also the worldvolume [[Chan-Paton gauge field]] component $A$ along $y$ participates in the brane intersection
+
+$$
+  A \in C^\infty\big( (0,\infty], \mathfrak{u}(N) \big)
+$$
+
+its boundary condition being that 
+
+$$
+  [A, X^i] \;=\; 0
+  \phantom{AAAA}
+  \text{for all}\; i \in \{1,2,3\}
+$$
+
+as $y \to 0$ ([Gaiotto-Witten 08, Section 3.1.1](#GaiottoWitten08))
+
+Together with (eq:RhoAsAnsl2Rep) this means that the quadruple of fields $(X^1,X^2,X^3,A)$ constitutes a [[Lie algebra representation]] of the [[general linear Lie algebra]]
+
+$$
+  \mathfrak{gl}(2,\mathbb{C})
+  \;\simeq\;
+  \underset{
+    \langle 
+      X^1, X^2, X^3
+    \rangle
+  }{
+  \underbrace{
+    \mathfrak{sl}(2,\mathbb{C})
+  }
+  }
+  \oplus
+  \underset{
+    \langle A \rangle
+  }{
+    \underbrace{
+      \mathbb{C}
+    }
+  }
+$$
+
+This makes little difference as far as bare [[Lie algebra representations]] are concerned, but it does make a crucial difference when these are regarded as [[metric Lie representations]] of [[metric Lie algebras]], since $\mathfrak{gl}(2,\mathbb{C})$ admits further invariant metrics...
+
+\linebreak
 
 Specifically for $p = 6$, i.e. for [[D6-D8 brane intersections]], this fits with the [[Witten-Sakai-Sugimoto model]] [[geometric engineering of QFT|geometrically engineering]] [[quantum chromodynamics]], and then gives a [[geometric engineering of QFT|geometric engineering]] of the [[Yang-Mills monopoles]] in actual [[QCD]] ([HLPY 08, p. 16](#HLPY08)).
 
@@ -106,6 +214,34 @@ Here we are showing
    (see at _[[D6-D8-brane bound state]]_)
 
 1. the [[NS5-branes]].
+
+
+#### The s-rule
+
+What has come to be known as the _[[s-rule]]_ is the conjecture that the configuration of [[Dp-D(p+2)-brane bound states]] with the [[D-brane|Dp-branes]] stretching from the [[D-brane|D(p+2)-branes]] to  [[NS5-branes]], can be [[supersymmetry|supersymmetric]] only if at most one D$p$-brane ends on any one D$(p+2)$-brane.
+
+For [[D4-D6 brane intersections]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/D4D6BraneInsersectionSubjectToSRule.jpg" width="700">
+</center>
+
+> graphics grabbed from [Fazzi 17](D4-D6-brane+intersection#Fazzi17)
+
+For [[D6-D8 brane intersections]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/D6D8BraneIntersectionsSubjetToSRule.jpg" width="600">
+</center>
+
+> graphics grabbed from [Fazzi 17](D6-D8-brane+intersection#Fazzi17)
+
+
+<img src="https://ncatlab.org/nlab/files/GaiottoNS5D6.jpg" width="600">
+
+> graphics grabbed from [Gaiotto-Tomasiello 14](D6-D8-brane+intersection#GaiottoTomasiello14)
+
+
 
 \linebreak
 
