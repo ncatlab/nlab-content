@@ -30,7 +30,7 @@
 
 [[algebra over a monad|Algebras]] over a [[commutative monad]], in many cases, admit an [[internal hom]] analogous to the one of [[modules]] over a [[commutative ring]]. 
 
-On a [[monoidal closed category]], this internal hom in many cases is [[adjoint functor|right-adjoint]] to a [[tensor product]], giving a [[hom-tensor adjunction]] for the algebras too. 
+On a [[monoidal closed category]], this internal hom is in many cases [[adjoint functor|right-adjoint]] to a [[tensor product of algebras over a commutative monad|tensor product]], giving a [[hom-tensor adjunction]] for the algebras too. 
 Again, this generalizes the case of [[modules]].
 
 
