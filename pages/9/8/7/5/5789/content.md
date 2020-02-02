@@ -99,6 +99,12 @@ Another survey is
 
 * Fred Cooper, Avinash Khare, Uday Sukhatme, _Supersymmetry and Quantum Mechanics_ Physics Reports Volume 251 (1995), 267-385. ([arXiv:hep-th/9405029](http://arxiv.org/abs/hep-th/9405029))
 
+
+On [[supersymmetric quantum mechanics]] in the perspective of [[supergeometry]] ([[integration over supermanifolds]], [[picture changing operators]]):
+
+* [[Leonardo Castellani]], [[Roberto Catenacci]], [[Pietro Grassi]], _Super Quantum Mechanics in the Integral Form Formalism_, Ann. Henri Poincaré (2018) 19: 1385 ([arXiv:1706.04704](https://arxiv.org/abs/1706.04704))
+
+
 ### Relation to Morse theory
  {#ReferencesRelationToMorseTheory}
 
