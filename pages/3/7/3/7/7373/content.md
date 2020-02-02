@@ -15,5 +15,7 @@ Applied Categorical Structures, 26, 287–308(2018), [arXiv](https://arxiv.org/a
 
 * Bicategorical colimits of tensor categories, 2020, [arXiv](https://arxiv.org/abs/2001.10123)
 * Tensor categorical foundations of algebraic geometry, PhD thesis, University of M&#252;nster, 2014, [arXiv](http://arxiv.org/abs/1410.1716)
+
+Errata for PhD thesis: The reflectors in 5.8.17, 5.8.18, 5.8.20, 5.8.21, 5.10.6 are not correct in general and should be removed.
  
 category: people
