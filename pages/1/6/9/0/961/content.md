@@ -57,7 +57,7 @@ Since $i$ is a [[monomorphism]], the maps $r$, $s$, and $t$ are necessarily uniq
 +-- {: .num_remark}
 ###### Remark
 
-Equivalently, a congruence on $X$ is an [[internal category]] with $X$ the object of [[objects]], such that the (source,target)-map is a [[monomorphism]] and such that if there is there is a morphism $x_1 \to x_2$ then there is also a morphism $x_2 \to x_1$ (internally).
+Equivalently, a congruence on $X$ is an [[internal category]] with $X$ the object of [[objects]], such that the (source,target)-map is a [[monomorphism]] and such that if there is a morphism $x_1 \to x_2$ then there is also a morphism $x_2 \to x_1$ (internally).
 
 =--
 
