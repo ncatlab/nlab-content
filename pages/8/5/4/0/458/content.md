@@ -47,7 +47,7 @@ $$
 $$
 That is, a locale $X$ "is" a frame, which we often write as $O(X)$ and call "the frame of open subspaces of $X$", and a **[[continuous map]]** $f\colon X \to Y$ of locales is a frame homomorphism $f^*\colon O(Y) \to O(X)$. If you think of a frame as an algebraic structure (a [[lattice]] satisfying a completeness condition), then this is an example of the [[duality]] of [[space and quantity]].
 
-It is also possible to think of a continuous map $f\colon X \to Y$ as a map of [[posets]] $f_*\colon O(X) \to O(Y)$: a [[function]] that preserves all [[meets]] (and therefore is [[monotone function|monotone]] and has a [[left adjoint]] $f^*\colon O(Y) \to O(X)$) and such that the left adjoint $f^*$ preserves all finite meets.  This has the arrow pointing in the "right" direction, at the cost of a less direct definition.  (In [[predicative mathematics]], we must explicitly add into this definition that $f_*$ has a left adjoint; compare the definition of [[geometric morphism]] one level up.)
+It is also possible to think of a continuous map $f\colon X \to Y$ as a map of [[posets]] $f_*\colon O(X) \to O(Y)$: a [[function]] that preserves all [[joins]] (and therefore is [[monotone function|monotone]] and has a [[left adjoint]] $f^*\colon O(Y) \to O(X)$) and such that the left adjoint $f^*$ preserves all finite meets.  This has the arrow pointing in the "right" direction, at the cost of a less direct definition.  (In [[predicative mathematics]], we would have to explicitly add into this definition that $f_*$ has a left adjoint; although since few locales even exist predicatively, we usually turn attention to [[base of a locale|bases]] of locales anyway.)
 
 This category is naturally enhanced to a [[2-category]]:
 +-- {: .num_defn}
@@ -82,7 +82,7 @@ If one views an element of $O(X)$ as a [[subspace]] of $X$, one usually means to
 
 ### Points
 
-As a locale, the __abstract [[point]]__ is the locale $q$ whose frame of opens is the frame of [[truth values]] (classically $\{\bot \lt \top\}$).  This is the [[terminal object]] in $Locale$, since we must have (for $f\colon X \to 1$) $f^*(\top) = \top_X$ and $f^*(\bot) = \bot_X$ (and most generally $f^*(p) = \bigvee \{\top_X \;|\; p\}$, since $p = \bigvee \{\top \;|\; p\}$).
+As a locale, the __abstract [[point]]__ is the locale $1$ whose frame of opens is the frame of [[truth values]] (classically $\{\bot \lt \top\}$).  This is the [[terminal object]] in $Locale$, since we must have (for $f\colon X \to 1$) $f^*(\top) = \top_X$ and $f^*(\bot) = \bot_X$ (and most generally $f^*(p) = \bigvee \{\top_X \;|\; p\}$, since $p = \bigvee \{\top \;|\; p\}$).
 
 Given a locale $X$, a __concrete [[point]]__ of $X$ may be defined in any of the following equivalent ways:
 
@@ -403,18 +403,19 @@ There is also a notion of [[internal locale]], see also [[internal site]].
 
 * [[localic homotopy theory]]
 
+
 ## References 
 
 An introduction to and survey of the use of locales instead of topological spaces ("[[point-free topology]]") is in
 
-* {#Johnstone83} [[Peter Johnstone]], _The point of pointless topology_ ,  Bull. Amer. Math. Soc. (N.S.) Volume 8, Number 1 (1983), 41-53. ([Bulletin AMS](http://www.ams.org/bull/1983-08-01/S0273-0979-1983-15080-2/home.html), [Euclid](http://projecteuclid.org/euclid.bams/1183550014))
+* {#Johnstone83} [[Peter Johnstone]], _The point of pointless topology_ ,  Bull. Amer. Math. Soc. (N.S.) Volume 8, Number 1 (1983), 41--53. ([Bulletin AMS](http://www.ams.org/bull/1983-08-01/S0273-0979-1983-15080-2/home.html), [Euclid](http://projecteuclid.org/euclid.bams/1183550014))
 
 This is, in its own words, to be read as the trailer for the book
 
 *  [[Peter Johnstone]], _[[Stone Spaces]]_, Cambridge Studies in Advanced Mathematics __3__, Cambridge University Press 1982. xxi+370 pp. [MR85f:54002](http://www.ams.org/mathscinet-getitem?mr=698074), reprinted 1986.
 
-
 that develops, among other things, much of standard [[topology]] entirely with the notion of locale used in place of that of [[topological space]]s. See [[Stone Spaces]] for details.
+
 
 Other textbook accounts include
 
@@ -435,7 +436,7 @@ where the latter develops topology from the point of view of its [[internal logi
 
 An introductory survey is
 
-* Jorge Picado, Ale&#353; Pultr, Anna Tozzi, _Locales_ , pp.49-101 in Pedicchio&Tholen (eds.), _Categorical Foundations_ , CUP 2004. ([draft](http://www.mat.uc.pt/~picado/publicat/Chapter2.pdf))
+* Jorge Picado, Ale&#353; Pultr, Anna Tozzi, _Locales_, pages 49--101 in Pedicchio&Tholen (eds.), _Categorical Foundations_ , CUP 2004. ([draft](http://www.mat.uc.pt/~picado/publicat/Chapter2.pdf))
 
 See also
 
@@ -444,7 +445,7 @@ See also
 
 Lex totality is the subject of an article of Street, 
 
-* {#Street} [[Ross Street]], _Notions of Topos_, Bull. Australian Math. Soc. 23 (1981), 199-208. 
+* {#Street} [[Ross Street]], _Notions of Topos_, Bull. Australian Math. Soc. 23 (1981), 199--208. 
 
 
 The connection between locales and toposes via lex totality plays a tacit role throughout the influential monograph 
