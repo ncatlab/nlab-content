@@ -36,7 +36,44 @@ Again, this generalizes the case of [[modules]].
 
 ## Construction 
 
-(...work in progress...)
+Let $C$ be a [[closed category]] with [[equalizers]], denote its [[unit]] by $1$ and its [[internal homs]] by $[X,Y]$.
+Let also $(T,\mu,\eta)$ be a [[commutative monad]] as defined for closed categories ([[commutative monad#on_closed_and_monoidal_closed_categories|here]]), with [[strong monad#strong_monads_are_enriched_monads|strength]] $t':[X,Y]\to [T X, T Y]$ and [[strong monad#costrength_and_pointwise_structure|costrength]] $s':T[X,Y]\to [X, T Y]$. 
+
+Let now $(A,a)$ and $(B,b)$ be $T$-[[algebra over a monad|algebras]]. Thanks to the costrength, the [[internal hom]] $[A,B]$ of $C$ has a canonical "pointwise" $T$-algebra structure,
+$$
+T[A,B] \to [A, T B] \to [A,B].
+$$
+(See [[strong monad#algebra_structure_on_the_internal_homs|here]] for the details.)
+
+The **internal hom** of $A$ and $B$ in $C^T$ is defined to be the [[equalizer]] of the following parallel pair:
+\begin{tikzcd}
+{[A,B]} \ar[bend right=10]{rr}[swap]{a^*} \ar{r}{t'} & {[TA, TB]} \ar{r}{b_*} & {[TA,B]}, \\
+\end{tikzcd}
+where $a^*:[A,B]\to [T A,B]$ is the internal precomposition with $a:T A\to A$, and $b_*:[T A,T B]\to [T A,B]$ is the internal postcomposition with $b:T B\to B$.
+
+
+(See [Brandenburg, Remark 6.4.1](#Brandenburd2014), as well as the original work [Kock '71, Section 2](#Kock71closed).)
+
+### Interpretation
+
+The internal hom $[A,B]$ of $A$ and $B$ in $C$ can be thought of as "containing all the morphisms $A\to B$ of $C$". However, not all those morphisms are necessarily [[algebra over a monad#morphisms_of_algebras|morphisms of $T$-algebras]]. A map $f:A\to B$ is a morphism of algebras if and only if $b\circ T f = f\circ a$. In terms of internal homs, this condition is exactly given by the parallel maps above. The equalizer of that pair can be thought of as of containing "all the maps satisfying that condition".
+
+
+## Examples and implications
+
+* The [[internal hom]] of [[modules]] over a [[commutative ring]] as the most prominent example. Note that the ring has to be commutative: this corresponds to the [[commutative monad|commutativity of the monad]]. 
+* The [[vector space]] of [[linear maps]] between two given vector spaces is a particular example.
+
+The fact that "linear maps form themselves a vector space" is a general phenomenon for [[commutative monads]] on categories with [[equalizers]]. For instance,
+
+* For the case of the [[distribution monad]], this says that _convex combinations of affine functions are affine_;
+* For the case of the [[power set]] monad, this says that _pointwise suprema of join-preserving maps between join-semilattices are join-preserving_.
+
+
+
+## On monoidal closed categories
+
+If the category $C$ is [[closed monoidal category|monoidal closed]], under some condition the internal hom of algebras is part of a closed monoidal structure on the algebras themselves. See [[tensor product of algebras over a commutative monad#for_monoidal_closed_categories|here]] for more information.
 
 
 ## See also 
