@@ -27,6 +27,8 @@ For the infinite-dimensional version see [[fermionic path integral]].
 
 * [[integration]], [[integral]]
 
+  [[integration over supermanifolds]]
+
 * [[superpoint]], [[Grassmann algebra]]
 
 * [[determinant]]
@@ -44,6 +46,10 @@ Exposition of the standard lore includes
 * [[Andreas Wipf]], _Chapter 10: Berezin integral_ ([pdf](https://www.tpi.uni-jena.de/qfphysics/homepage/wipf/lectures/pfad/pfad10.pdf))
 
 * [[Urs Schreiber]], [_Integration over supermanifolds_](http://www.math.uni-hamburg.de/home/schreiber/sin.pdf)
+
+Discussion in relation to the [[Hodge star operator]]:
+
+* [[Leonardo Castellani]], [[Roberto Catenacci]], [[Pietro Antonio Grassi]], _The Hodge Operator Revisited_ ([arXiv:1511.05105](https://arxiv.org/abs/1511.05105))
 
 
 A [[general abstract]] discussion in terms of [[D-module]] theory is in 
