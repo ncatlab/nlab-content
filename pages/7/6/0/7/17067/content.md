@@ -41,9 +41,9 @@ When the ambient category $\mathcal{C}$ is suitably monoidal, then the category 
 
 ## References
 
-The terminology "ex-spaces" is due to 
+The terminology "ex-spaces" is due to Ioan James.  See for instance:
 
-* {#James} James, ...
+* {#James} * [[Ioan Mackenzie James]], _[[Introduction to fibrewise homotopy theory]]_ in [[Ioan Mackenzie James]] (ed.), _[[Handbook of Algebraic Topology]]_ (1995)
 
 Discussion of their [[model category]] structures includes
 
