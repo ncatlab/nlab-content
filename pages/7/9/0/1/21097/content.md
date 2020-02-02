@@ -8,7 +8,7 @@ The [[boundary condition]] in the [[nonabelian DBI model]] of [[coincident brane
 1. [[geometric engineering of QFT|geometric engineering]] of [[Yang-Mills monopoles]] in the [[worldvolume]]-theory of the ambient $D(p+2)$-branes.
 
 ([Diaconescu 97](Dp-Dpplus2-brane+bound_state#Diaconescu97), 
-[Constable-Myers 99](Dp-Dpplus2-brane+bound+state#ConstableMyers99), [Hanany-Zaffaroni 99](Dp-Dpplus2-brane+bound+state#HananyZaffaroni99), [Gaiotto-Witten 08, Section 2.4](Dp-Dpplus2-brane+bound+state#GaiottoWitten08), [HLPY 08](Dp-Dpplus2-brane+bound+state#HLPY08), [GZZ 09](Dp-Dpplus2-brane+bound+state#GZZ09))
+[Constable-Myers-Fafjord 99](Dp-Dpplus2-brane+bound+state#ConstableMyers99), [Hanany-Zaffaroni 99](Dp-Dpplus2-brane+bound+state#HananyZaffaroni99), [Gaiotto-Witten 08, Section 2.4](Dp-Dpplus2-brane+bound+state#GaiottoWitten08), [HLPY 08](Dp-Dpplus2-brane+bound+state#HLPY08), [GZZ 09](Dp-Dpplus2-brane+bound+state#GZZ09))
 
 
 More explicitly, for $y \in (0,\infty ]$ the transversal distance along the stack of $N$ $\mathrm{D}p$-branes away from the $\mathrm{D}(p+2)$-brane, and for 
