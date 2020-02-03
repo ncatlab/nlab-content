@@ -152,6 +152,20 @@ For a reference, see [FPR '19, Proposition C.5](#support).
 See [[commutative monad#tensor_product_of_algebras_and_multimorphisms|here]].
 
 
+## Monoidal structure on the Kleisli category
+
+The [[Kleisli category]] of a monoidal monad $T$ on $C$ inherits the [[monoidal structure]] from $C$.
+In particular, the [[tensor product]] is given
+
+* On objects, by the tensor product $\otimes$ of $C$;
+* On morphisms, given $k:X\to TA$ and $h:Y\to TB$, their product is the map $X\otimes Y \to T(A\otimes B)$ obtained by the composition
+\begin{tikzcd}
+X\otimes Y \ar{r}{f\otimes g} & TA \otimes TB \ar{r}{\nabla} & T(A\otimes B),
+\end{tikzcd}
+where $\nabla$ is the monoidal multiplication of $T$.
+* The associator and unitor are induced by those of $C$.
+
+
 ## Examples
 
 See [[commutative monad#examples|examples of commutative monads]].
