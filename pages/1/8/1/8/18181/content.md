@@ -122,9 +122,9 @@ One may summarize, that the transcendental logic, in its analytic part, provides
 
 |        |Table of judgements|               |
 |--------|-------------------|---------------|
-|  $\,$  | __Quantity of judgments__ <br/> [[universal quantifier|Universal]] <br/> [[existential quantifier|Particular]] <br/>  Singular | $\,$|
-| __Quality__ <br/> Affirmative<br/> [[negation|Negative]]<br/> [[infinite judgement|Infinite]] | $\,$ | __Relation__<br/> Categorical<br/> [[hypothetical judgement|Hypothetical]]<br/> [[disjunction|Disjunctive]]|
-|   | __[[modality|Modality]]__<br/> [[possibility|Problematic]]<br/> Assertoric<br/> [[necessity|Apodictic]] |   |
+|  $\,$  | __1. Quantity of judgments__ <br/> [[universal quantifier|Universal]] <br/> [[existential quantifier|Particular]] <br/>  Singular | $\,$|
+| __2. Quality__ <br/> Affirmative<br/> [[negation|Negative]]<br/> [[infinite judgement|Infinite]] | $\,$ | __3. Relation__<br/> Categorical<br/> [[hypothetical judgement|Hypothetical]]<br/> [[disjunction|Disjunctive]]|
+|   | __4. [[modality|Modality]]__<br/> [[possibility|Problematic]]<br/> Assertoric<br/> [[necessity|Apodictic]] |   |
 
 Note that at least in ([Jäsche Logik, 1800](#Jaesche)) the negative and infinite judgements collapse in pure logic:
 
