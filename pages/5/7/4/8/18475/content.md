@@ -35,6 +35,10 @@ Similarly, as far as systems in [[condensed matter physics]] are described well 
 
 ## Related concepts
 
+* [[strange metal]]
+
+* [[superconductor]]
+
 * [[Sachdev-Ye-Kitaev model]]
 
 * [[quark-gluon plasma]]
@@ -42,15 +46,18 @@ Similarly, as far as systems in [[condensed matter physics]] are described well 
 ## References
 
 
-A comprehensive textbook account is in
+Textbook:
 
-* {#HartnollLucasSachdev16} Sean A. Hartnoll, Andrew Lucas, [[Subir Sachdev]], _Holographic quantum matter_, MIT Press 2018 ([arXiv:1612.07324](https://arxiv.org/abs/1612.07324), [publisher](https://mitpress.ublish.com/book/holographic-quantum-matter))
+* {#HartnollLucasSachdev16} [[Sean Hartnoll]], [[Andrew Lucas]], [[Subir Sachdev]], _Holographic quantum matter_, MIT Press 2018 ([arXiv:1612.07324](https://arxiv.org/abs/1612.07324), [publisher](https://mitpress.ublish.com/book/holographic-quantum-matter))
 
 
 
-Reviews include the following:
+Reviews and lectures:
 
-* A S T Pires, _Ads/CFT correspondence in condensed matter_ ([arXiv:1006.5838](http://arxiv.org/abs/1006.5838))
+* [[Sean Hartnoll]], _Lectures on holographic methods for condensed matter physics_, Class. Quant. Grav. 26:224002, 2009 ([arXiv:0903.3246](https://arxiv.org/abs/0903.3246))
+
+
+* A. Pires, _AdS/CFT correspondence in condensed matter_ ([arXiv:1006.5838](http://arxiv.org/abs/1006.5838))
 
 * [[Subir Sachdev]], _Condensed matter and AdS/CFT_ ([arXiv:1002.2947](http://arxiv.org/abs/1002.2947))
 
@@ -59,3 +66,18 @@ Reviews include the following:
 * Alberto Salvio, _Superconductivity, Superfluidity and Holography_ ([arXiv:1301.0201](http://arxiv.org/abs/1301.0201))
 
 * {#SantiagodeCompostela18} _[Holography and Extreme Chromodynamics](http://igfae.usc.es/~holoquark2018/)_, Santiago de Compostela, July 2018
+
+[[!redirects AdS/CFT in condensed matter physics]]
+
+[[!redirects AdS/CMT]]
+[[!redirects AdS-CMT]]
+
+[[!redirects AdS/CMT duality]]
+[[!redirects AdS-CMT duality]]
+
+[[!redirects AdS/CMT correspondence]]
+[[!redirects AdS-CMT correspondence]]
+
+
+
+
