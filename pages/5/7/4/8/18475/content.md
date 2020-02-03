@@ -33,6 +33,14 @@ Similarly, as far as systems in [[condensed matter physics]] are described well 
 
 > This is applied AdS/CFT as it should be. Solvable examples exhibit new connections which then can be proven to be correct more generally and are not limited to the toy models that were used to uncover them.
 
+Similarly [Hartnoll-Lucas-Sachdev 16, p. 8](#HartnollLucasSachdev16):
+
+> Our main objective here
+is to make clear that explicit examples of the duality are
+known in various dimensions and that they are found by
+using string theory as a bridge between quantum field
+theory and gravity.
+
 ## Related concepts
 
 * [[strange metal]]
