@@ -546,7 +546,7 @@ between
 
 \linebreak
 
-### Complex-rational Cohomotopy and moduli space of Yang-0Mills monopoles
+### Complex-rational Cohomotopy and moduli space of Yang-Mills monopoles
 
 The assignment of [[scattering amplitudes]] of [[monopoles]] in [[SU(2)]]-[[Yang-Mills theory]] is a  [[diffeomorphism]]
 
