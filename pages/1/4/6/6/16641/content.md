@@ -20,6 +20,8 @@ On the [[NSR superstring]] as [[2d CFT]]:
 
 * {#FriedanMartinecShenker86} [[Daniel Friedan]], [[Emil Martinec]], [[Stephen Shenker]], _Conformal invariance, supersymmetry and string theory_, Nucl. Phys., B271 (1986) 93 (<a href="https://doi.org/10.1016/S0550-3213(86)80006-2">doi:10.1016/S0550-3213(86)80006-2</a>)
 
+
+
 On [[random matrix theory]] for [[black hole entropy]] and [[JT gravity]]:
 
 * {#SaadShenkerStanford19} Phil Saad, [[Stephen Shenker]], [[Douglas Stanford]], _JT gravity as a matrix integral_ ([arXiv:1903.11115](https://arxiv.org/abs/1903.11115))
