@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _function spectrum_ or _mapping spectrum_ is the analog of a [[mapping space]] in the context of [[stable homotopy theory]]. It makes the [[stable homotopy category]] into a [[closed category]], and together with the [[smash product of spectra]] into a [[symmetric monoidal category|smmyetric]] [[closed monoidal category]]
+A _function spectrum_ or _mapping spectrum_ is the analog of a [[mapping space]] in the context of [[stable homotopy theory]]. It makes the [[stable homotopy category]] into a [[closed category]], and together with the [[smash product of spectra]] into a [[symmetric monoidal category|symmetric]] [[closed monoidal category]]
 
 Given two [[spectra]] $X$ and $E$, their _function spectrum_ $F(X,E)$ is the [[internal hom]] in a suitable category of spectra.
 
