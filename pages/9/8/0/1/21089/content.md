@@ -1,7 +1,11 @@
 
 
 
-* [[Mike Duff]] 
+* [[Mike Duff]]:
+
+  \linebreak
+
+  _Perspectives on M-Theory_
 
   \linebreak
 
