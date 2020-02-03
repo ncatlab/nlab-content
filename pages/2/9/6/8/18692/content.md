@@ -68,7 +68,7 @@ Denote pullback powers of $p$ as $T_n(M)$.
   and the following bundle morphism is additive:
   \begin{center}
     \begin{tikzcd}
-      T^2(M) \ar[r, "c"] \ar[d, "p"] & T^2(M) \ar[d, "T(p)"] \\
+      T^2(M) \ar[r, "c"] \ar[d, "p_T"] & T^2(M) \ar[d, "T(p)"] \\
       T(M) \ar[r, equals] & T(M)
     \end{tikzcd}
   \end{center}
@@ -101,7 +101,7 @@ Denote pullback powers of $p$ as $T_n(M)$.
     \begin{tikzcd} T \ar[r, "\ell"] \ar[rd, "\ell"] & T^2 \ar[d, "c"] \\ & T^2 \end{tikzcd}
 \end{center}
 
-In the monoidal category $[\mathbb{X}, \mathbb{X}]$, the first diagram corresponds to $\ell: T \Rightarrow TT$ being a cosemigroup. The second diagram corresponds to $c: TT \Rightarrow TT$ acting as a symmetry, and the third and fourth diagrams state that $\ell$ is a symmetric cosemigroup.
+In the monoidal category $[\mathbb{X}, \mathbb{X}]$, the first diagram corresponds to $\ell: T \Rightarrow T^2$ being a cosemigroup. The second diagram corresponds to $c: T^2 \Rightarrow T^2$ acting as a symmetry, and the third and fourth diagrams state that $\ell$ is a symmetric cosemigroup.
 
 * Universality of the vertical lift: Define the map $\mu := T(+) \circ \langle \ell \circ \pi_0, 0_T \circ \pi_1 \rangle$, we require the following diagram be a pullback:
 
