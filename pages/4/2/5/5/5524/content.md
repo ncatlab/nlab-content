@@ -628,7 +628,7 @@ $$
 ###### Proposition
 
 
-For all $n \in \mathbb{N}$ The canonical morphism
+For all $n \in \mathbb{N}$, $n \gt 0$, The canonical morphism
 
 $$
   \mathbf{\flat}_{inf} \mathbf{B}^n \mathbb{R}
