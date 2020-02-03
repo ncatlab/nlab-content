@@ -154,61 +154,57 @@ $$
 
 ## Free cocompletion of large categories
 
-In general, given a large category $\mathcal{A}$, we can define a locally small category of _small presheaves_ on $\mathcal{A}$ as the full subcategory of the functor category $Fun(\mathcal{A}^{\mathrm{op}},\operatorname{Set})$ spanned by those functors $F:\mathcal{A}^{\mathrm{op}} \to \operatorname{Set}$ such that there exists a functor $\gamma:\mathcal{C} \to \mathcal{A}$ with $\mathcal{C}$ small and a presheaf $F': \mathcal{C}^{\mathrm{op}}\to \operatorname{Set}$ such that
+In general, given a locally small (but possibly large) category $\mathcal{A}$, we can define a locally small category of _small presheaves_ on $\mathcal{A}$ as the full subcategory of the functor category $Fun(\mathcal{A}^{\mathrm{op}},\operatorname{Set})$ spanned by those functors  that are colimits of small diagrams of representables.  Equivalently, a _small presheaf_ is a functor $F:\mathcal{A}^{\mathrm{op}} \to \operatorname{Set}$ such that there exists a functor $\gamma:\mathcal{C} \to \mathcal{A}$ with $\mathcal{C}$ small and a presheaf $F': \mathcal{C}^{\mathrm{op}}\to \operatorname{Set}$ such that
 
 $$F=\operatorname{Lan}_{\gamma} F'.$$  
 
-In the case where $\mathcal{A}^{\mathrm{op}}$ is [[locally presentable]], the category of small presheaves on $\mathcal{A}$ is equivalent to the category of [[accessible functors]] $\mathcal{A}^{\mathrm{op}}\to \operatorname{Set}$. In this situation, the category of small functors has many nice properties and is often said to be _almost a topos_. In particular, under this assumption, the category of small presheaves is complete, cocomplete, and Cartesian-closed. See [Day-Lack](#DayLack) for more details.
+This process of free cocompletion defines a functor $L$ from the 2-category 
+
+$$ CAT = [locally \; small \; categories, \; functors, \; natural \; transformations ] $$
+
+to the 2-category 
+
+$$ Cocomp = [locally \; small \; cocomplete \; categories, \; cocontinuous \; functors, natural \; transformations ] $$
+
+where, just to be clear, 'cocomplete' means having all *small* colimits, as usual.   Moreover, this functor $L$ is part of a [[pseudoadjunction]] where the right adjoint $R: Cocomp \to CAT$ assigns each locally small coccomplete category its underlying category, and so on.
+
+In the case where $\mathcal{A}^{\mathrm{op}}$ is [[locally presentable]], the category of small presheaves on $\mathcal{A}$ is equivalent to the category of [[accessible functors]] $\mathcal{A}^{\mathrm{op}}\to \operatorname{Set}$. In this situation, the category of small functors has many nice properties and is often said to be _almost a topos_. In particular, under this assumption, the category of small presheaves is complete, cocomplete, and Cartesian-closed. 
+
+See [Day-Lack](#DayLack) for more details on all these matters. They handle the more general case of enriched categories.
 
 ## Free cocompletion as a pseudomonad
 
-[[David Corfield]]: So is this 'free cocompletion' part of  an adjunction between the category of categories and the category of cocomplete categories (modulo size worries?).
-Or should we think of it as part of a [[pseudoadjunction]] between _2-categories_?  (I would start a page on that, but how are naming conventions going in this area?)
+[[David Corfield]]: So is this 'free cocompletion' part of  an adjunction between the category of categories and the category of cocomplete categories (modulo size worries?).  Or should we think of it as part of a [[pseudoadjunction]] between _2-categories_?  (I would start a page on that, but how are naming conventions going in this area?)
 
-[[John Baez]]:  Equations between functors tends to hold only up to natural isomorphism.  So, your first guess should not be that there's an _adjunction_ between the _categories_ $Cat$ and $CocompleteCat$, but rather, a _pseudoadjunction_ between the _2-categories_ $Cat$ and $CocompleteCat$.   
+[[John Baez]]:  Equations between functors tends to hold only up to natural isomorphism.  So, your first guess should not be that there's an _adjunction_ between the _categories_ $CAT$ and $Cocomp$, but rather, a _pseudoadjunction_ between the _2-categories_ $CAT$ and $Cocomp$.   
 
-If this were true, what would it mean?  It would mean that there's a forgetful 2-functor:
+This means there's a forgetful 2-functor:
 
-$$ U: CocompleteCat \to Cat $$
+$$ R: Cocomp \to CAT $$
 
-together with a 'free cocompletion' 2-functor, which right now we've been calling 'hat':
+together with a 'free cocompletion' 2-functor:
 
-$$ F: Cat \to CocompleteCat $$
-$$  F: C \mapsto \widehat{C} = Set^{C^{op}}$$
+$$  L: CAT \to Cocomp $$
 
-And, it would mean there's an equivalence of categories
+And, it mean there's an equivalence of categories
 
-$$ hom_{CocompleteCat} (F C, D) \simeq
-   hom_{Cat} (C, U D)  $$
+$$ hom_{Cocomp} (F C, D) \simeq
+   hom_{CAT} (C, U D)  $$
 
-for every $C \in Cat$, $D \in CocompleteCat$.  And finally, it would also be saying that this equivalence is [[pseudonatural transformation|pseudonatural]] as a function of $C$ and $D$.
+for every $C \in CAT$, $D \in Cocomp$.  And finally, it means that this equivalence is [[pseudonatural transformation|pseudonatural]] as a function of $C$ and $D$.
 
 If we have a pseudonatural equivalence of categories
 
-$$ hom_{CocompleteCat} (F C, D) \simeq
-   hom_{Cat} (C, U D)  $$
+$$ hom_{Cocomp} (F C, D) \simeq
+   hom_{CAT} (C, U D)  $$
 
 instead of a natural isomorphism of sets, then we say we have a 'pseudoadjunction' instead of an adjunction.   A pseudoadjunction is the right generalization of adjunction when we go to 2-categories; if we were feeling in a modern mood we might just say 'adjunction' and expect people to know we meant 'pseudo'.
 
-Naively, it seems we _do_ have such a pseudoadjunction, at least _modulo size issues_---which unfortunately is sort of like saying "modulo truth"!  The problem is that if Cat is the 2-category of [[small category|small]] categories then to define the free cocompletion functor
+The details have been worked out by [Day-Lack](#DayLack) in even more generality: they consider enriched categories.  Note that the free cocompletion of a *small* category $C$ is the category of all presheaves on $C$, but for a more general *locally small* category it's just the category of small presheaves.
 
-$$ F : Cat \to CocompleteCat $$
+In [their work on species](http://www.lacim.uqam.ca/~gambino/species.pdf), Fiore, Gambino, Hyland and Winskel confronted the size issues in another way.  In one draft of this paper they had a very artful and sophisticated device for dealing with this size problem.  In the latest draft they seem to have sidestepped it entirely: you'll see they discuss the 'free symmetric monoidal category on a category' pseudomonad, but never the 'free cocomplete category on a category' pseudomonad, even though they _do_ use the $\widehat{C}$ construction all over the place.  Somehow they've managed to avoid the need to consider this construction as a pseudomonad!
 
-we need $CocompleteCat$ to be the 2-category of [[large category|large]] categories.  But if $CocompleteCat$ is the 2-category of [[large category|large]] categories then to define 
-
-$$ U: CocompleteCat \to Cat $$
-
-we need $Cat$ to be the 2-category of large categories!   So, instead of an honest pseudoadjunction that bounces us back and forth between two 2-categories, the size keeps ratcheting up each time we make a round trip!
-
-In particular, if we try to define a [[pseudomonad]]
-
-$$ U F : Cat \to Cat $$
-
-we're stuck: the '$Cat$' at right contains larger categories than the one at left.
-
-In [their work on species](http://www.lacim.uqam.ca/~gambino/species.pdf), Fiore, Gambino, Hyland and Winskel had to confront this issue.  In one draft of this paper they had a very artful and sophisticated device for dealing with this size problem.  In the latest draft they seem to have sidestepped it entirely: you'll see they discuss the 'free symmetric monoidal category on a category' pseudomonad, but never the 'free cocomplete category on a category' pseudomonad, even though they _do_ use the $\widehat{C}$ construction all over the place.  Somehow they've managed to avoid the need to consider this construction as a pseudomonad!
-
-Fiore, Gambino, Hyland and Winskel have since exhibited the free cocompletion of a small category as a [[relative pseudomonad]] from the 2-category Cat of small categories into the 2-category CAT of locally-small categories (via the 2-category COC of locally-small cocomplete categories). See [FGHW](#FGHW) for more details.
+Fiore, Gambino, Hyland and Winskel later exhibited the free cocompletion of a small category as a [[relative pseudomonad]] from the 2-category Cat of small categories into the 2-category CAT of locally-small categories (via the 2-category COC of locally-small cocomplete categories). See [FGHW](#FGHW) for more details.
 
 ## In higher category theory
 
