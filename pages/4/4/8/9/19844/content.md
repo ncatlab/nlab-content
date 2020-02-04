@@ -513,6 +513,11 @@ General [[effective field theory]] parametrization:
 
 * Suman Kumbhakar, Ashutosh Kumar Alok, Dinesh Kumar, S. Uma Sankar, _New Physics solutions for $b \to c \tau bar \nu$ anomalies after Moriond 2019_ ([arXiv:2001.06344](https://arxiv.org/abs/2001.06344))
 
+
+* Florian U. Bernlochner, Stephan Duell, Zoltan Ligeti, Michele Papucci, Dean J. Robinson, _Das ist der HAMMER: Consistent new physics interpretations of semileptonic decays_ ([arXiv:2002.00020](https://arxiv.org/abs/2002.00020))
+
+
+
 #### Leptoquarks
 
 explanation via assumption of [[leptoquarks]]:
