@@ -70,7 +70,7 @@ There is a [[monad]] on $MeasureSpaces$, $1 + -: Meas \to Meas$. A probability m
 
 The opposite of the [[Kleisli category]] of [[Giry's monad]] has as morphisms $X \to Y$, linear maps from bounded functions on $X$ to bounded functions on $Y$, which send the characteristic function on $X$ to the characteristic function on $Y$.
 
-For more details on Giry's monad and its variants see [[Giry's monad]].
+For more details on Giry's monad and its variants see [[probability monad]].
 
 ### Generalizations
 
