@@ -123,6 +123,10 @@ Critical comments are in
 
 * Matěj Hudec, [[Michal Malinský]], _Hierarchy and decoupling_ ([arXiv:1902.04470](https://arxiv.org/abs/1902.04470))
 
+* Goran Senjanovic, _Natural Philosophy versus Philosophy of Naturalness_ ([arXiv:2001.10988](https://arxiv.org/abs/2001.10988))
+
+
+
 See also
 
 * Wikipedia, _[Naturalness (physics)](http://en.wikipedia.org/wiki/Naturalness_%28physics%29)_ 
