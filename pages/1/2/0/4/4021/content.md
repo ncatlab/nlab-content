@@ -171,7 +171,7 @@ Discussion from a perspective of [[formal logic]]/[[type theory]] is in
 
 [[Mikhail Gromov]] on possible generalizations/modifications of probability theory (especially probability theory seen as, fundamentally, a ""functor" from a "complex category" to a "simple category""), as well as applications of probability within and without pure mathematics:
 
-* _Probability, symmetry, linearity. (six lectures)_. IHES, Nov 2014. ([videos](https://www.youtube.com/watch?v=aJAQVletzdY)) ([pdf](http://www.ihes.fr/~gromov/PDF/probability-huge-Lecture-Nov-2014.pdf)).
+* _Probability, symmetry, linearity. (six lectures)_. IHES, Nov 2014. ([videos](https://www.youtube.com/watch?v=aJAQVletzdY)) ([pdf](https://www.ihes.fr/~gromov/wp-content/uploads/2018/08/probability-huge-Lecture-Nov-2014.pdf)).
 
 category: probability
 [[!redirects probability]]
