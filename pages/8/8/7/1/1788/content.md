@@ -1,4 +1,5 @@
 
+$\ldots$
 
 Let $n \in \mathbb{N}$, $n \geq 2$.
 On the complex linear span $\mathbb{C}[Sym(n)]$ of the set of permutations on $n$ elements, consider the sesqui-linear form
