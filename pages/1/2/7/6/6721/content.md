@@ -47,7 +47,7 @@ $$
 
 Seiberg duality follows from phenomena in [[string theory]], where gauge theories arise as the [[worldvolume]] theories of [[D-branes]] ([[geometric engineering of quantum field theory]]). Seiberg duality is obtained for gauge theories of [[D-branes]] that stretch between two [[NS5-brane]]s. The duality operation corresponds to exchanging the two NS5-branes.
 
-* [[Amihay Hanany]] and [[Edward Witten]], _Type-IIB superstrings, BPS monopoles and three-dimensional gauge dynamics_ , Nucl. Phys. B 492 (1997) 152 ([hep-th/9611230]()).
+* [[Amihay Hanany]], [[Edward Witten]], _Type-IIB superstrings, BPS monopoles and three-dimensional gauge dynamics_ , Nucl. Phys. B 492 (1997) 152 ([hep-th/9611230]()).
 
 * S. Elitzur, A. Giveon, D. Kutasov, E. Rabinovici and A. Schwimmer, _Brane dynamics and $N = 1$ supersymmetric gauge theory, Nucl. Phys. B 505 (1997) 202 ([hep-th/9704104]())
 
@@ -82,7 +82,7 @@ _Toric Duality_ is Seiberg duality for $N=1$ theories with [[toric variety|toric
 
 ### From D-branes on del Pezzo singularities
 
-* Christopher P. Herzog, _Seiberg Duality is an Exceptional Mutation_ ([arXiv:hep-th/0405118](http://arxiv.org/abs/hep-th/0405118))
+* [[Christopher Herzog]], _Seiberg Duality is an Exceptional Mutation_ ([arXiv:hep-th/0405118](http://arxiv.org/abs/hep-th/0405118))
 
 * Subir Mukhopadhyay, Koushik Ray, _Seiberg duality as derived equivalence for some quiver gauge theories_ Journal of High Energy Physics Volume 2004 JHEP02(2004) 
 
