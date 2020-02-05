@@ -11,6 +11,12 @@ On [[AdS/CFT duality]]:
 * [[Gary Horowitz]], [[Joseph Polchinski]], _Gauge/gravity duality_ ([gr-qc/0602037](http://arxiv.org/abs/gr-qc/0602037))
 
 
+Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
+
+* [[Sean Hartnoll]], [[Christopher Herzog]], [[Gary 
+ Horowitz]], _Building an AdS/CFT superconductor_, Phys. Rev. Lett. 101:031601, 2008 ([arXiv:0803.3295](https://arxiv.org/abs/0803.3295))
+
+
 On the [[cosmic censorship hypothesis]] and the [[weak gravity conjecture]]:
 
 * {#HorowitzSantos19} [[Gary Horowitz]], [[Jorge Santos]], _Further evidence for the weak gravity - cosmic censorship connection_ ([arXiv:1901.11096](https://arxiv.org/abs/1901.11096))
