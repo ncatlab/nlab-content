@@ -5,6 +5,12 @@
 
 ## Selected writings
 
+Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
+
+* [[Sean Hartnoll]], [[Christopher Herzog]], [[Gary 
+ Horowitz]], _Building an AdS/CFT superconductor_, Phys. Rev. Lett. 101:031601, 2008 ([arXiv:0803.3295](https://arxiv.org/abs/0803.3295))
+
+
 On [[AdS/CFT in condensed matter physics]]:
 
 * [[Sean Hartnoll]], _Lectures on holographic methods for condensed matter physics_, Class. Quant. Grav. 26:224002, 2009 ([arXiv:0903.3246](https://arxiv.org/abs/0903.3246))
