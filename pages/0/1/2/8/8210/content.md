@@ -26,6 +26,10 @@ On the [[p-adic AdS/CFT correspondence]]:
 
 * [[Steven Gubser]], Sarthak Parikh, _Geodesic bulk diagrams on the Bruhat-Tits tree_ ([arXiv:1704.01149](https://arxiv.org/abs/1704.01149))
 
+* [[Steven Gubser]], Christian Jepsen, Brian Trundy, _Spin in $p$-adic AdS/CFT_, Journal of Physics A: Mathematical and Theoretical, Volume 52, Number 14 ([arXiv:1811.02538](https://arxiv.org/abs/1811.02538))
+
+  (including [[spinors]])
+
 
 
 ## Related $n$Lab entries
