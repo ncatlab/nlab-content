@@ -93,7 +93,7 @@ Discussion in the context of the [[p-adic AdS/CFT correspondence]]:
 
 * [[Matthew Heydeman]], [[Matilde Marcolli]], [[Ingmar Saberi]], [[Bogdan Stoica]], _Tensor networks, $p$-adic fields, and algebraic curves: arithmetic and the $AdS_3/CFT_2$ correspondence_ ([arXiv:1605.07639](https://arxiv.org/abs/1605.07639))
 
-* Arpan Bhattacharyya, Ling-Yan Hung, Yang Lei, Wei Li, _Tensor network and (p-adic) AdS/CFT_, ([arXiv:1703.05445](https://arxiv.org/abs/1703.05445))
+* Arpan Bhattacharyya, Ling-Yan Hung, Yang Lei, Wei Li, _Tensor network and (p-adic) AdS/CFT_, JHEP 1801 (2018) 139 ([arXiv:1703.05445](https://arxiv.org/abs/1703.05445))
 
 Discussion of [[asymptotic boundaries]] of hyperbolic tensor networks as [[quasicrystals]]:
 
