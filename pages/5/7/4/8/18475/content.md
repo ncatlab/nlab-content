@@ -97,6 +97,15 @@ Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
 
 * Alberto Salvio, _Superconductivity, Superfluidity and Holography_ ([arXiv:1301.0201](http://arxiv.org/abs/1301.0201))
 
+### Application to quasicrystals
+
+
+Discussion of [[asymptotic boundaries]] of [[hyperbolic space|hyperbolic]] [[tensor networks]] as conformal [[quasicrystals]]:
+
+* Latham Boyle, Madeline Dickens, Felix Flicker, _Conformal Quasicrystals and Holography_, Phys. Rev. X 10, 011009 (2020) ([arXiv:1805.02665](https://arxiv.org/abs/1805.02665))
+
+* Alexander Jahn, Zoltán Zimborás, Jens Eisert, _Central charges of aperiodic holographic tensor network models_ ([arXiv:1911.03485](https://arxiv.org/abs/1911.03485))
+
 
 [[!redirects AdS/CFT in condensed matter physics]]
 
@@ -108,6 +117,10 @@ Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
 
 [[!redirects AdS/CMT correspondence]]
 [[!redirects AdS-CMT correspondence]]
+
+[[!redirects AdS/CFT in solid state physics]]
+[[!redirects AdS-CFT in solid state physics]]
+
 
 
 
