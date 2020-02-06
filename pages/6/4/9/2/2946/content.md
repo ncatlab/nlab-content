@@ -152,7 +152,7 @@ It is not true that filtered colimits and finite limits commute in *any* categor
 =--  
 
 
-According to 1.5 and 1.21 in [[LPAC]], a category has $\kappa$-[[directed colimits]] precisely if it has $\kappa$-filtered ones, and a functor preserves $\kappa$-directed colimits iff it preserves $\kappa$-filtered ones. A proof of this result, following Adamek & Rosicky, may be found [[theorem:directed colimits imply filtered colimits|here]]. 
+According to 1.5 and 1.21 in [[LPAC]], a category has $\kappa$-[[directed colimits]] precisely if it has $\kappa$-filtered ones, and a functor preserves $\kappa$-directed colimits iff it preserves $\kappa$-filtered ones. A proof of this result, following Adamek & Rosicky, may be found [[directed colimits imply filtered colimits|here]]. 
 
 The fact that directed colimits suffice to obtain all filtered ones may be regarded as a convenience similar to the fact that all [[colimits]] can be constructed from [[coproducts]] and [[coequalizers]].  Of course, a [[duality|dual]] result holds for [[codirected limits]].
 
@@ -190,6 +190,8 @@ Elements in filtered colimits in [[Set]] and [[Grp]] are given as classes of equ
 * [[sifted colimit]], [[sifted (∞,1)-colimit]]
 
 * [[filtered (∞,1)-colimit]], [[filtered homotopy colimit]]
+
+* [[Kolmogorov product]]
 
 Filtered colimits are also important in the theory of [[locally presentable category|locally presentable]] and [[accessible category|accessible]] categories.  See also [[pro-object]] and [[ind-object]].
 
