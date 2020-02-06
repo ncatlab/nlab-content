@@ -9,13 +9,13 @@
 =--
 =--
 
-By a **generlized cohomology theory** is usually meant a contravariant functor on a [[homotopy category]] satisfying all abstract properties of [[ordinary cohomology]], except possibly for the dimension axiom. For more on this see at 
+By a **generalized cohomology theory** is usually meant a contravariant functor on a [[homotopy category]] satisfying all abstract properties of [[ordinary cohomology]], except possibly for the dimension axiom. For more on this see at 
 
 * **[[generalized (Eilenberg-Steenrod) cohomology]]**.
   
   (and for the dual concept see at _[[generalized homology]]_).
 
-But there are more general generalizations of the concept of ordiary cohomology, too. For instance there is also 
+But there are more general generalizations of the concept of ordinary cohomology, too. For instance there is also 
 
 * [[nonabelian cohomology]]
 
