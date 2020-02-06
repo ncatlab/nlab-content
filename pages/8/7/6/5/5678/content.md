@@ -84,9 +84,8 @@ An expository reviews are
 
 A proposal for a 4-dimensional [[quantum field theory]] whose [[observable]]s are given by Khovanov homology is discussed in
 
-* [[Edward Witten]], _Fivebranes and knots_, [arXiv:1101.3216](http://arxiv.org/abs/1101.3216), Quantum topology 3:1, 2012, 1&#8211;137
-[doi](http://dx.doi.org/10.4171/QT/26)
-{#Witten11}
+* {#Witten11} [[Edward Witten]], _Fivebranes and Knots_, Quantum Topology, Volume 3, Issue 1, 2012, pp. 1-137 ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216), [doi:10.4171/QT/26](https://www.ems-ph.org/journals/show_abstract.php?issn=1663-487X&vol=3&iss=1&rank=1))
+
 
 based on
 
