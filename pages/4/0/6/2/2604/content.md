@@ -52,7 +52,7 @@ Knot invariants arising in [[string theory]]/[[M-theory]]:
 Discussion of [[knot invariants]] in terms of [[BPS states]] of [[M5-branes]]:
 
 
-* [[Edward Witten]], _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216))
+* [[Edward Witten]], _Fivebranes and Knots_, Quantum Topology, Volume 3, Issue 1, 2012, pp. 1-137 ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216), [doi:10.4171/QT/26](https://www.ems-ph.org/journals/show_abstract.php?issn=1663-487X&vol=3&iss=1&rank=1))
 
 * [[Davide Gaiotto]], [[Edward Witten]], _Knot Invariants from Four-Dimensional Gauge Theory_, Advances in Theoretical and Mathematical Physics, Volume 16 (2012) Number 3 ([arxiv:1106.4789](https://arxiv.org/abs/1106.4789))
 
