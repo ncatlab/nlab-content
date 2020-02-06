@@ -2,6 +2,11 @@
 [[!include SYK-model and AdS2-CFT1 -- references]]
 
 
+Discussion of [[small N corrections]] via a [[lattice QFT]]-Ansatz on the AdS side:
+
+* Richard C. Brower, Cameron V. Cogburn, A. Liam Fitzpatrick, Dean Howarth, Chung-I Tan, _Lattice Setup for Quantum Field Theory in $AdS_2$_ ([arXiv:1912.07606](https://arxiv.org/abs/1912.07606))
+
+
 ### Random matrix theory in $AdS_2/CFT_1$
 
 
