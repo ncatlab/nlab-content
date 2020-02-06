@@ -14,7 +14,7 @@
 =--
 
 
-# Persistent homology
+#Contents#
 * table of contents
 {: toc}
 
@@ -34,10 +34,6 @@ so we get a 'filtration structure' on the complex.
 The idea of *persistent homology* is to look for features that persist for some range of parameter values.  Typically a feature, such as a hole, will initially not be observed, then will appear, and after a range of values of the parameter it will disappear again. A typical feature will be a [[Betti number]] of the complex, $S_\rho(X)$, which then will vary with the parameter $\rho$.
 
 
-## Talks
-
-* [[ACT-OIT.pdf|Slides:file]] for a talk by [[Tim Porter]] in 2008.
-
 
 ## Software
 
@@ -47,13 +43,23 @@ One can compute intervals for homological features algorithmically over field co
 
 * [[persistence module]]
 
+* [[well group]]
+
 ## References
 
 ### General
 
 A clear introduction to the use of persistent homology in data analysis is
 
-* [[Robert Ghrist]], _Barcodes: The Persistent Topology of Data_, ([pdf](https://www.math.upenn.edu/~ghrist/preprints/barcodes.pdf))
+* [[Robert Ghrist]], _Barcodes: The Persistent Topology of Data_, Bull. Amer. Math. Soc. 45 (2008), 61-75 ([doi:10.1090/S0273-0979-07-01191-3](https://doi.org/10.1090/S0273-0979-07-01191-3), [pdf](https://www.math.upenn.edu/~ghrist/preprints/barcodes.pdf))
+
+See also
+
+* [[Tim Porter]], _Observing Information: Applied Computational Topology_ 2008 ([[ACT-OIT.pdf|Slides:file]])
+
+* Sara Kališnik, _Persistent homology and duality_, 2013 ([pdf](http://www.matknjiz.si/doktorati/2013/Kalisnik-14521-4.pdf), [[KalisnikPersistent.pdf:file]])
+
+* Wikipedia, _[Persistent homology](https://en.wikipedia.org/wiki/Persistent_homology)_
 
 Bar-codes were discovered under the name of _canonical forms invariants of filtered complexes_ in 
 
@@ -96,8 +102,9 @@ training neural networks,
 
 ### Variants
 
-Discussion of persistent [[Cohomotopy]]:
+Discussion of persistent [[Cohomotopy]] as an improvement over homological [[well groups]]:
 
+* {#FranekKrcal16} [[Peter Franek]], [[Marek Krčál]], _On Computability and Triviality of Well Groups_, Discrete Comput Geom (2016) 56: 126 ([arXiv:1501.03641](https://arxiv.org/abs/1501.03641), [doi:10.1007/s00454-016-9794-2](https://doi.org/10.1007/s00454-016-9794-2))
 
 * [[Peter Franek]], [[Marek Krčál]], _Persistence of Zero Sets_, Homology, Homotopy and Applications, Volume 19 (2017) Number 2 ([arXiv:1507.04310](https://arxiv.org/abs/1507.04310), [doi:10.4310/HHA.2017.v19.n2.a16](http://dx.doi.org/10.4310/HHA.2017.v19.n2.a16))
 
