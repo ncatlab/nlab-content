@@ -22,11 +22,11 @@
 
 > Walfisch ist keine T&#252;r.[^ref]
 
-[^ref]: _The whale is no door_. Hegel ([1808/09](#Logik),p.108)
+[^ref]: _The whale is no door_. Hegel ([1808/09](#Logik), p.108)
 
 An **infinite judgement**, also called a limitative or indeterminate judgement, is a type of [[judgment|judgement]] in traditional logic that differs from a positive judgement by containing a negation operator and from a negative judgement by negating only the predicate term.
 
-Infinite judgements enjoy a rather controversial status in traditional logic but have gained importance by being elevated to third position among the qualities of judgement in the table of judgement forms in Kant's [[Critique of pure reason|_Kritik der reinen Vernunft_]](1781). 
+Infinite judgements enjoy a rather controversial status in traditional logic but have gained importance by being elevated to third position among the qualities of judgement in the table of judgement forms in Kant's [[Critique of Pure Reason|_Kritik der reinen Vernunft_]] (1781). 
 
 ## Preliminaries
 
@@ -172,7 +172,7 @@ To sum up: it seems that the most promising direction to spell out a concept of 
 
 * [[construction in philosophy]]
 
-* [[Critique of pure reason]]
+* [[Critique of Pure Reason]]
 
 * [[Attempt to Introduce the Concept of Negative Quantities into Philosophy|Concept of Negative Quantities]]
 
