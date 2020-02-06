@@ -95,6 +95,10 @@ Discussion in the context of the [[p-adic AdS/CFT correspondence]]:
 
 * Arpan Bhattacharyya, Ling-Yan Hung, Yang Lei, Wei Li, _Tensor network and (p-adic) AdS/CFT_, ([arXiv:1703.05445](https://arxiv.org/abs/1703.05445))
 
+Discussion of [[asymptotic boundaries]] of hyperbolic tensor networks as [[quasicrystals]]:
+
+* Latham Boyle, Madeline Dickens, Felix Flicker, _Conformal Quasicrystals and Holography_, Phys. Rev. X 10, 011009 (2020) ([arXiv:1805.02665](https://arxiv.org/abs/1805.02665))
+
 See also
 
 * Ning Bao, [[Geoffrey Penington]], Jonathan Sorce, Aron C. Wall, _Beyond Toy Models: Distilling Tensor Networks in Full AdS/CFT_ ([arXiv:1812.01171](https://arxiv.org/abs/1812.01171))
