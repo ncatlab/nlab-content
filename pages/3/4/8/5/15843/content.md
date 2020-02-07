@@ -2,7 +2,9 @@
 
 * [webpage](http://www.math.muni.cz/~cadek/)
 
-## selected writings
+## Selected writings
+
+On [[Sp(2).Sp(1)]]-[[G-structure|structures]] and related issues:
 
 * {#CadekVanzura92} [[Martin Čadek]], [[Jiří Vanžura]], _On oriented vector bundles over CW-complexes of dimension 6 and 7_, Comment. Math. Univ. Carolin. 33,4(1992)727–736 ([pdf](http://emis.impa.br/EMIS/journals/CMUC/pdf/cmuc9204/cadek.pdf)) 
 
@@ -22,7 +24,7 @@
 
 * {#CadekCrabbVanzura10} [[Martin Čadek]], Michael Crabb, [[Jiří Vanžura]], _Quaternionic structures_, Topology and its Applications Volume 157, Issue 18, 1 December (2010), Pages 2850-2863 ([doi:10.1016/j.topol.2010.09.005](https://doi.org/10.1016/j.topol.2010.09.005))
 
-On [[cohomotopy]]:
+On [[cohomotopy]]-sets in [[computational topology]]:
 
 * [[Martin Čadek]], [[Marek Krčál]], Jiří Matoušek, Francis Sergeraert, Lukáš Vokřínek, Uli Wagner, _Computing all maps into a sphere_, Journal of the ACM, Volume 61 Issue 3, May 2014 Article No. 1 ([arxiv:1105.6257](https://arxiv.org/abs/1105.6257))
 
