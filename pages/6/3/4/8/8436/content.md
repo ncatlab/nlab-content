@@ -80,7 +80,7 @@ Review:
 
 Examples:
 
-* A. Kshetrimayum, C. Balz, B. Lake, J. Eisert, _Tensor network investigation of the double layer Kagome compound $Ca_{10} Cr_{7} O_{28}$_ ([arXiv:1904.00028](https://arxiv.org/abs/1904.00028))
+* A. Kshetrimayum, C. Balz, B. Lake, [[Jens Eisert]], _Tensor network investigation of the double layer Kagome compound $Ca_{10} Cr_{7} O_{28}$_ ([arXiv:1904.00028](https://arxiv.org/abs/1904.00028))
 
 [[!redirects condensed matter physics]]
 
