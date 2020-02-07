@@ -27,7 +27,7 @@ Categorical quantum information refers to a program in which the cogent aspects 
 
 Brief synopsis of teleportation, [[entanglement]] swapping, BB84, E91, Deutsch-Jozsa, Shor should go here...
 
-## Categorical formulation
+## Category-theoretic formulation
 
 There is a formulation of (aspects of) [[quantum mechanics in terms of dagger-compact categories]]. This lends itself to (and is in fact motivated by) to a discussion of quantum information.
 
@@ -35,11 +35,10 @@ The linear adjoint $(-)^\dagger$ gives Hilbert spaces the structure of a [[†-c
 
 ### Graphical notation
 
-+--{: .query}
-[[Aleks Kissinger]]: Much of this could probably be incorporated into the page on [[string diagrams]].
-=--
+Graphical notation via [[Penrose notation]]/[[string diagrams]]/[[tensor networks]]:
 
-Morphisms in a monoidal category (and 2-categories in general) are inherently two dimensional, where $\circ$ is _vertical_ composition and $\otimes$ is _horizontal_ composition. These satisfy an interchange law:
+
+Morphisms in a [[monoidal category]] (and 2-categories in general) are inherently two dimensional, where $\circ$ is _vertical_ composition and $\otimes$ is _horizontal_ composition. These satisfy an [[interchange law]]:
 
 \[ (f_1 \otimes f_2) \circ (g_1 \otimes g_2) = (f_1 \circ g_1) \otimes (f_2 \circ g_2) \]
 
@@ -165,11 +164,15 @@ CPM, classical structures, ...
 
 * wikipedia [quantum information](https://en.wikipedia.org/wiki/Quantum_information), [Bures metric](https://en.wikipedia.org/wiki/Bures_metric)
 
-#### Related concepts in $n$Lab
+#### Related entries
 
-* [[quantum logic]], [[quantum theory]], [[Kochen-Specker theorem]]
+* [[quantum logic]], [[quantum theory]], 
+
+* [[Kochen-Specker theorem]]
 
 * [[quantum computation]], [[qbit]]
+
+* [[quantum error correcting code]]
 
 * [[information theory]], [[information geometry]]
 
@@ -183,7 +186,10 @@ CPM, classical structures, ...
 * Carmen Maria Constantin, _Sheaf-theoretic methods in quantum mechanics and quantum information theory_, PhD thesis, Oxford 2015 [arxiv/1510.02561](https://arxiv.org/abs/1510.02561)
 * Samson Abramsky, Adam Brandenburger, _The sheaf-theoretic structure of nonlocality and contextuality_, [arxiv/1102.0264](https://arxiv.org/abs/1102.0264)
 * Dominik Šafránek, _Simple expression for the quantum Fisher information matrix), Phys. Rev. A97 (2018) [doi](https://doi.org/10.1103/PhysRevA.97.042322)
-* Roman Orus, _Entanglement, quantum phase transitions and quantum algorithms_  arxiv:[quant-ph/0608013](https://arxiv.org/abs/quant-ph/0608013)
+
+On [[quantum information theory]], ([[holographic entanglement entropy|holographic]])  [[entanglement entropy]], [[tensor network states]] etc:
+
+* [[Roman Orus]], _Entanglement, quantum phase transitions and quantum algorithms_ ([arXiv:quant-ph/0608013](https://arxiv.org/abs/quant-ph/0608013))
 
 > In Chapter 1 we consider the irreversibility of renormalization group flows from a quantum information perspective by using majorization theory and conformal field theory.
 
