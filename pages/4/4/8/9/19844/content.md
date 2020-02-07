@@ -559,7 +559,8 @@ explanation via assumption of [[leptoquarks]]:
 
 * Natascia Vignaroli, _Seeking leptoquarks in the $t \bar t$ plus missing energy channel at the high-luminosity LHC_ ([arXiv:1808.10309](https://arxiv.org/abs/1808.10309))
 
-* {#AMM19} Ufuk Aydemir, Tanumoy Mandal, Subhadip Mitra, _A single TeV-scale scalar leptoquark in SO(10) grand unification and B-decay anomalies_ ([arXiv:1902.08108](https://arxiv.org/abs/1902.08108))
+* {#AMM19} Ufuk Aydemir, Tanumoy Mandal, Subhadip Mitra, 
+_Addressing the $R_{D^{(\ast)}}$ anomalies with an S1 leptoquark from $SO(10)$ grand unification_,  Phys. Rev. D 101, 015011 (2020) ([arXiv:1902.08108](https://arxiv.org/abs/1902.08108))
 
 * {#MVK19} Ivo de Medeiros Varzielas, Stephen F. King, _Origin of Yukawa couplings for Higgs and leptoquarks_ ([arXiv:1902.09266](https://arxiv.org/abs/1902.09266))
 
