@@ -37,9 +37,25 @@ This entry refers both [[topological order]] and [[SPT order]], and here is an c
 * SPT orders are described by group cohomology theory while [[topological order]]s are
 described by n-category theory. The SPT orders for free fermions are described by K-theory.
 
-## Literature
+## Related entries
 
-Related entries: [[TQFT]], [[quantum computing]], [[quantum Hall effect]], [[topological order]],[[modular tensor category]], [[quantum spin Hall effect]], [[entanglement]]
+* [[phase of matter]]
+
+* [[TQFT]]
+
+* [[quantum computing]]
+
+* [[tensor network state]]
+
+* [[quantum Hall effect]]
+
+* [[topological order]]
+
+* [[quantum spin Hall effect]]
+
+* [[entanglement]]
+
+## References
 
 ### Reviews
 
@@ -77,6 +93,12 @@ Int. J. Mod. Phys. B7, 4227 (1993). (for topological order described by [[TQFT]]
 * [[Edward Witten]], _Fermion path integrals and topological phases_, [arxiv/1508.04715](http://arxiv.org/abs/1508.04715)
 
 * Ping Ye, _(3+1)d anomalous twisted gauge theories with global symmetry_, [arxiv/1610.08645](https://arxiv.org/abs/1610.08645)
+
+Classification of [[topological phases of matter]] via [[tensor network states]]:
+
+* C. Wille, O. Buerschaper, [[Jens Eisert]], _Fermionic topological quantum states as tensor networks_, Phys. Rev. B 95, 245127 (2017) ([arXiv:1609.02574](https://arxiv.org/abs/1609.02574))
+
+* Andreas Bauer, [[Jens Eisert]], Carolin Wille, _Towards a mathematical formalism for classifying phases of matter_ ([arXiv:1903.05413](https://arxiv.org/abs/1903.05413))
 
 
 ### Other articles
