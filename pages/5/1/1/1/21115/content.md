@@ -5,7 +5,12 @@
 
 ## Selected writings
 
-On [[tensor network states]] ([[holographic entanglement entropy|holographic]]),  [[entanglement entropy]] and applications to [[solid state physics]]:
+
+
+On [[quantum information theory]], [[tensor network states]], ([[holographic entanglement entropy|holographic]]),  [[entanglement entropy]] and applications to [[solid state physics]]:
+
+
+* [[Roman Orus]], _Entanglement, quantum phase transitions and quantum algorithms_ ([arXiv:quant-ph/0608013](https://arxiv.org/abs/quant-ph/0608013))
 
 * [[Roman Orus]], _A Practical Introduction to Tensor Networks: Matrix Product States and Projected Entangled Pair States_, 	Annals of Physics 349 (2014) 117-158  ([arXiv:1306.2164](https://arxiv.org/abs/1306.2164))
 
