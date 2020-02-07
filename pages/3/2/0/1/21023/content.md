@@ -17,11 +17,31 @@
 * table of contents
 {:toc}
 
+
 ## Idea
 
 A version of the [[AdS/CFT correspondence]] (specifically: [[AdS3/CFT2 duality]]) for [[p-adic physics]], obtained by passing on the [[conformal field theory]]-side from the [[complex geometry]], hence (via [[GAGA]])[[algebraic geometry]] of [[2d CFT]] to [[arithmetic geometry]] over [[p-adic numbers]], and on the [[string theory]]-side to [[p-adic string theory]] (?)
 
-Here the [[arithmetic geometry]]-version of the [[bulk]] [[AdS spacetime]] is identified with the [[Bruhat-Tits tree]] for the [[projective general linear group]] $PGL(2,\mathbb{Q}_p)$.
+Here the [[arithmetic geometry]]-version of the [[bulk]] [[AdS spacetime]] is identified with the [[Bruhat-Tits tree]] for the [[projective general linear group]] $PGL(2,\mathbb{Q}_p)$:
+
+<center>
+  <img src="https://ncatlab.org/nlab/files/BruhatTitsTreeOfSL2.jpg" width="600">
+</center>
+
+> graphics from [Casselman 14](Bruhat-Tits+tree#Casselman14)
+
+When regarded (at some finite depth truncation) as a [[tensor network state]]: 
+
+<center>
+<img src="https://ncatlab.org/nlab/files/BruhatTitsTreeTensorNetworkStateFromMetricLie.jpg" width="300">
+</center>
+
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
+it validates the [[Ryu-Takayanagi formula]] for [[holographic entanglement entropy]].
+
+
+
 
 ## Related concepts
 
