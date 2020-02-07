@@ -1,37 +1,35 @@
 
-Some [[theorems]] named after [[Augustin Cauchy]]:
+Here are some of the many [[theorems]] named after [[Augustin Cauchy]]:
 
-* [[Cauchy's integral theorem]]
+* [[Cauchy's integral theorem]] (see also [[Cauchy's integral formula]])
 
-  [[Cauchy's integral formula]]
+* the [[Cauchy sum theorem]]
 
-* [[Cauchy sum theorem]]
+* the [[Cauchy group theorem]]
 
-* [[Cauchy group theorem]]
+* the Cauchy [[mean-value theorem]]
 
 See also:
 
-* [[Cauchy sequence]]
+* [[Cauchy sequences]] (also [[Cauchy nets]], [[Cauchy filters]], and [[Cauchy spaces]])
 
-  ([[Cauchy nets]], [[Cauchy filters]], [[Cauchy spaces]])
+* the [[Cauchy–Riemann equations]]
 
-* [[Cauchy–Riemann equations]]
+* [[Cauchy surfaces]]
 
-* [[Cauchy surface]]
+* [[Cauchy real numbers]]
 
-* [[Cauchy real number]]
-
-* [[Cauchy principal value]]
-
+* [[Cauchy principal values]]
 
 
 category: disambiguation
 
+[[!redirects Cauchy theorem]]
 [[!redirects Cauchy's theorem]]
-[[!redirects Cauchy's theorem]]
+[[!redirects Cauchy’s theorem]]
 [[!redirects Cauchy\'s theorem]]
 
 [[!redirects Cauchy theorems]]
 [[!redirects Cauchy's theorems]]
-[[!redirects Cauchy's theorems]]
+[[!redirects Cauchy’s theorems]]
 [[!redirects Cauchy\'s theorems]]
