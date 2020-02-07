@@ -68,7 +68,11 @@ Discussion of possible realization of the [[SYK-model]] in [[condensed matter ph
 
 * D. I. Pikulin, M. Franz, _Black hole on a chip: proposal for a physical realization of the SYK model in a solid-state system_, Phys. Rev. X 7, 031006 (2017) ([arXiv:1702.04426](https://arxiv.org/abs/1702.04426))
 
+### Tensor networks for exotic phases of matter
 
+Discussion if exotic [[phases of matter]] via [[tensor network states]]:
+
+* A. Kshetrimayum, C. Balz, B. Lake, J. Eisert, _Tensor network investigation of the double layer Kagome compound $Ca_{10} Cr_{7} O_{28}$_ ([arXiv:1904.00028](https://arxiv.org/abs/1904.00028))
 
 [[!redirects condensed matter physics]]
 
