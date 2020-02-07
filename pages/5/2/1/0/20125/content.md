@@ -75,9 +75,14 @@ In this context the [[Ryu-Takayanagi formula]] for [[holographic entanglement en
 
 ### General
 
+
+
 * [[Jacob Biamonte]], Ville Bergholm, _Tensor Networks in a Nutshell_, Contemporary Physics ([arxiv:1708.00006](https://arxiv.org/abs/1708.00006))
 
 * {#Biamonte19} [[Jacob Biamonte]], _Lectures on Quantum Tensor Networks_ ([arXiv:1912.10049](https://arxiv.org/abs/1912.10049))
+
+* Roman Orus, _Tensor networks for complex quantum systems_, Nature Reviews Physics 1, 538-550 (2019) ([arXiv:1812.04011](https://arxiv.org/abs/1812.04011), [doi:10.1038/s42254-019-0086-7](https://doi.org/10.1038/s42254-019-0086-7))
+
 
 
 Relation to [[spin chains]]:
