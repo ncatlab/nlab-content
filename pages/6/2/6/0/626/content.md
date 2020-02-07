@@ -261,7 +261,7 @@ following
 
 and in
 
-* [[André Joyal]], [[Ross Street]], _The geometry of tensor calculus I_, Advances in Math. 88 (1991) 55-112; MR92d:18011 ([pdf](http://tqft.net/other-papers/Geometry%20of%20Tensor%20Calculus%20-%20Joyal%20&%20Street.pdf), <a href="https://doi.org/10.1016/0001-8708(91)90003-P">doi:10.1016/0001-8708(91)90003-P</a>)
+* [[André Joyal]], [[Ross Street]], _The geometry of tensor calculus I_, Advances in Math. 88 (1991) 55-112; MR92d:18011 ([pdf](https://core.ac.uk/download/pdf/82659437.pdf), <a href="https://doi.org/10.1016/0001-8708(91)90003-P">doi:10.1016/0001-8708(91)90003-P</a>)
 
 * [[André Joyal]] and [[Ross Street]], _The geometry of tensor calculus II_  ([pdf](http://www.math.mq.edu.au/~street/GTCII.pdf))
 
