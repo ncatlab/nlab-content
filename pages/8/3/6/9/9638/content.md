@@ -41,6 +41,8 @@ There are arguments that a good formal context for quantum computing is (via [[c
 
 * [[quantum circuit]]
 
+* [[quantum error correcting code]]
+
 * [[quantum logic]], [[linear logic]]
 
 * [[quantum Hall effect]], [[Chern-Simons theory]].
