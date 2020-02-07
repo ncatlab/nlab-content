@@ -40,6 +40,10 @@ A left (right) [[Haar measure]] on a locally compact topological group is a nonz
 
 Again taking locally compact groups $G$ to be Hausdorff, such are [[complete space|complete]] both with respect to their left [[uniform space|uniformity]] and their right uniformity. For if $\{x_\alpha\}$ is a [[Cauchy net]] in $G$ and $U$ is a compact neighborhood of the identity $e$, then there is $\alpha$ so large that $x_\beta x_\alpha^{-1} \in U$ for all $\beta \geq \alpha$. Those elements converge to a point $x \in U$ since $U$ is compact, and the original net converges to $x \cdot x_\alpha$. A similar argument is used for the right uniformity. 
 
+### Kazhdan's property (T)
+
+_[[Kazhdan's property (T)]]_
+
 ## Related concepts
 
 * [[compact topological group]], [[compact Lie group]]
