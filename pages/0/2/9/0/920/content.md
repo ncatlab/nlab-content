@@ -5,7 +5,7 @@ Equivalently, $A$ is a decidable subset of $X$ if every element of $X$ either do
 
 A set $X$ has [[decidable equality]] if the [[equality relation]] is decidable as a subset of $X \times X$.  This generalises in topos theory to the notion of [[decidable object]].
 
-Working with decidable subsets of sets with decidable equality makes constructive mathematics very much like classical mathematics.  This is why constructivism has few consequences for basic combinatorics and algebra (although it does have important consequences for more advanced topics in those fields).  In analysis, in contrast, constructivism matters right away, because the set of [[real number]]s may have very few decidable subsets.
+Working with decidable subsets of sets with decidable equality makes constructive mathematics very much like classical mathematics.  This is why constructivism has few consequences for basic combinatorics and algebra (although it does have important consequences for more advanced topics in those fields).  In analysis, in contrast, constructivism matters right away, because the set of [[real numbers]] may have very few decidable subsets.  (For example, in [[intuitionistic mathematics]], [[Russian constructivism]], and the [[topos of sheaves over the real line]], albeit for different reasons in each case, every function from $\mathbb{R}$ to $\mathbf{2}$ must be at least pointwise-[[continuous map|continuous]] and thus [[constant function|constant]], and therefore there are exactly two decidable subsets of $\mathbb{R}$: the [[empty subset]] and $\mathbb{R}$ [[improper subset|itself]].)
 
 
 [[!redirects decidable subset]]
