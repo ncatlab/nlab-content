@@ -95,6 +95,26 @@ $$
 
 Asymptotically anti-de Sitter spaces play a central role in the realization of the [[holographic principle]] by [[AdS/CFT correspondence]].
 
+### In $p$-adic geometry
+
+A [[p-adic geometry|2-adic]] [[arithmetic geometry]]-version of [[AdS spacetime]] is identified with the [[Bruhat-Tits tree]] for the [[projective general linear group]] $PGL(2,\mathbb{Q}_p)$:
+
+<center>
+  <img src="https://ncatlab.org/nlab/files/BruhatTitsTreeOfSL2.jpg" width="600">
+</center>
+
+> graphics from [Casselman 14](Bruhat-Tits+tree#Casselman14)
+
+In the [[p-adic AdS/CFT correspondence]] this may be regarded (at some finite depth truncation) as a [[tensor network state]]: 
+
+<center>
+<img src="https://ncatlab.org/nlab/files/BruhatTitsTreeTensorNetworkStateFromMetricLie.jpg" width="300">
+</center>
+
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
+and as such validates the [[Ryu-Takayanagi formula]] for [[holographic entanglement entropy]].
+
 ## Related concepts
 
 * [[thermal AdS3]]
