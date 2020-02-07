@@ -3,6 +3,7 @@
 * table of contents
 {:toc}
 
+
 ## Idea
 
 A **building** (also **Tits building**, **Bruhat--Tits building**) is a combinatorial and geometric structure which simultaneously generalizes certain aspects of [[flag manifold]]s, finite [[projective plane]]s, and [[Riemannian manifold|Riemannian]] [[symmetric space]]s.
@@ -94,6 +95,8 @@ If the Coxeter group W is finite, the building is called **spherical**. The reas
 
 ## Related concepts
 
+* [[Bruhat-Tits tree]]
+
 * [[p-adic AdS/CFT correspondence]]
 
 ## References
@@ -134,5 +137,3 @@ A short introduction to spherical buildings (this notion will be explained below
 [[!redirects Bruhat--Tits buildings]]
 
 
-[[!redirects Bruhat-Tits tree]]
-[[!redirects Bruhat-Tits trees]]
