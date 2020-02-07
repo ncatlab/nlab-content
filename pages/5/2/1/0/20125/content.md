@@ -170,6 +170,11 @@ Review in
 
 * F. Verstraete, J. I. Cirac, V. Murg, _Matrix Product States, Projected Entangled Pair States, and variational renormalization group methods for quantum spin systems_, Adv. Phys. 57,143 (2008) ([arXiv:0907.2796](https://arxiv.org/abs/0907.2796))
 
+Tensor networks associated with [[Bruhat-Tits trees]] in [[p-adic AdS/CFT correspondence]]:
+
+* Arpan Bhattacharyya, Ling-Yan Hung, Yang Lei, Wei Li, _Tensor network and ($p$-adic) AdS/CFT_, JHEP 1801 (2018) 139 ([arXiv:1703.05445](https://arxiv.org/abs/1703.05445))
+
+
 See also
 
 * Alexander Jahn, Zoltán Zimborás, [[Jens Eisert]], _Central charges of aperiodic holographic tensor network models_ ([arXiv:1911.03485](https://arxiv.org/abs/1911.03485))
