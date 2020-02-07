@@ -5,9 +5,11 @@
 
 ## Idea
 
-[[entropy]] induced by [[entanglement]]
+[[entropy]] induced by [[entanglement]] in [[quantum physics]], really a synonym for [[subsystem]] entropy
 
 ## Related concepts
+
+* [[tensor network]]
 
 * [[holographic entanglement entropy]]
 
