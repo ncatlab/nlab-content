@@ -72,6 +72,17 @@ Discussion of possible realization of the [[SYK-model]] in [[condensed matter ph
 
 Discussion if exotic [[phases of matter]] via [[tensor network states]]:
 
+Review:
+
+* [[Jens Eisert]], M. Cramer, M.B. Plenio, _Area laws for the entanglement entropy - a review_, Rev. Mod. Phys. 82, 277 (2010) ([arXiv:0808.3773](https://arxiv.org/abs/0808.3773))
+
+
+* [[Roman Orus]], _A Practical Introduction to Tensor Networks: Matrix Product States and Projected Entangled Pair States_, 	Annals of Physics 349 (2014) 117-158  ([arXiv:1306.2164](https://arxiv.org/abs/1306.2164))
+
+* [[Jens Eisert]], _Entanglement and tensor network states_, Modeling and Simulation 3, 520 (2013) ([arXiv:1308.3318](https://arxiv.org/abs/1308.3318))
+
+Examples:
+
 * A. Kshetrimayum, C. Balz, B. Lake, J. Eisert, _Tensor network investigation of the double layer Kagome compound $Ca_{10} Cr_{7} O_{28}$_ ([arXiv:1904.00028](https://arxiv.org/abs/1904.00028))
 
 [[!redirects condensed matter physics]]
