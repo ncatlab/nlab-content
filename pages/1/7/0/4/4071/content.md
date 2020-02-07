@@ -2,6 +2,12 @@ __David Kazhdan__ (or Ka&#382;dan) is an Israeli mathematician educated in Mosco
 
 * [wikipedia](http://en.wikipedia.org/wiki/David_Kazhdan)
 
+## Selected writings
+
+Introducing [[Kazhdan's property (T)]]:
+
+* [[David Kazhdan]], _Connection of the dual space of a group with the structure of its close subgroups_, Funct Anal Its Appl (1967) 1: 63 ([doi:10.1007/BF01075866](https://doi.org/10.1007/BF01075866))
+
 category: people
 [[!redirects David Každan]]
 [[!redirects D. Kazhdan]]
