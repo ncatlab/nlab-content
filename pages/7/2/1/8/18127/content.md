@@ -4760,7 +4760,7 @@ $\,$
 
 A textbook account is in
 
-* {#tomDieck06} [[Tammo tom Dieck]], sections 2 an 3 of _Algebraic Topology_, EMS 2006 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/diecktop.pdf))
+* {#tomDieck06} [[Tammo tom Dieck]], sections 2 and 3 of _Algebraic Topology_, EMS 2006 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/diecktop.pdf))
 
 Lecture notes include
 
