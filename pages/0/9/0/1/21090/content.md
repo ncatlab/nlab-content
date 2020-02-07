@@ -48,7 +48,9 @@ Note that the map $delete: X\to 1$ is uniquely determined by the fact that 1 is 
 
 ## Examples 
 
-(...)
+- The category $\mathsf{FinStoch}$ of finite sets and stochastic matrices.
+- The category $\mathsf{Stoch}$ of [[measurable spaces]] and [[Markov kernels]]
+- For any [[cartesian monoidal category]] $\mathsf{C}$ equipped with a [[monoidal monad]] $T$, the [[Kleisli category]] $Kl(T)$ is a Markov category.
 
 
 ## Deterministic morphisms
@@ -64,7 +66,6 @@ One can take this as a _definition_ of randomness: it's a process that may give 
 A _deterministic_ morphism is instead one that does _not_ exhibit this behavior, i.e. that commutes with the copy map.
 
 (...)
-
 
 ## See also
 
