@@ -126,6 +126,9 @@ A [[C*-algebra]] $\mathcal{A}$ is a $C^\ast$-category with a single [[object]] $
 
 * [[Riesz representation theorem]]
 
+[[!include states and observables -- content]]
+
+
 ## References
  
 The original construction for [[C*-algebras]] and [[C*-representations]] is due to 
