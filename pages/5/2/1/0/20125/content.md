@@ -7,13 +7,12 @@
 +--{: .hide}
 [[!include monoidal categories - contents]]
 =--
-#### Physics
-+-- {: .hide}
-[[!include physicscontents]]
+#### Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
 =--
 =--
 =--
-
 
 #Contents#
 * table of contents
@@ -40,7 +39,19 @@ For instance, if $\mathfrak{g}$ is a [[metric Lie algebra]] (with [[string diagr
 <img src="https://ncatlab.org/nlab/files/TensorNetworkStateFromMetricLieAlgebra.jpg" width="300">
 </center>
 
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
+
 The [[quantum states]] arising this way are generically highly [[entangled state|entangled]]: roughly they are the more entangled the more [[vertices]] there are in the corresponding tensor network.
+
+The following is an example of what is called a [[matrix product state]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/MatrixProductStateFromMetricLieAlgebra.jpg" width="300">
+</center>
+
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
 
 Tree tensor network states in the form of [[Bruhat-Tits trees]] play a special role in the [[AdS/CFT correspondence]], either as
 
@@ -57,6 +68,15 @@ Tree tensor network states in the form of [[Bruhat-Tits trees]] play a special r
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 For [[tensor network states]] dual to tesselations of [[hyperbolic space]] and made from [[perfect tensors]] one finds that the [[entanglement entropy]] of the tensor subspace associated with an [[interval]] on the [[boundary]] becomes proportional, for large number of [[vertices]], to the [[hyperbolic space|hyperbolic]] bulk boundary [[length]] of the segment of the tree network that ends on this interval, according to the [[Ryu-Takayanagi formula]] ([PYHP 15, Theorem 2](#PYHP15)). Hence one speaks if _[[holographic entanglement entropy]]_. For more on this see [below](#ForHolographicEntanglementEntropy).
+
+
+General tensor network states are mixtures of the above examples. For instance in ... is the suggestion that [[BTZ black holes]] are encoded by networks that look like [[Bruhat-Tits trees]] towards the boundaries and like matrix product states towards the interior
+
+<center>
+<img src="https://ncatlab.org/nlab/files/BTZTensorNetworksStateFromLieAlgebra.jpg" width="350">
+</center>
+
+
 
 \linebreak
 
@@ -120,10 +140,8 @@ In this context the [[Ryu-Takayanagi formula]] for [[holographic entanglement en
 
 Review and exposition:
 
-* [[Jens Eisert]], M. Cramer, M.B. Plenio, _Area laws for the entanglement entropy - a review_, Rev. Mod. Phys. 82, 277 (2010) ([arXiv:0808.3773](https://arxiv.org/abs/0808.3773))
 
 * {#BCJ10} [[Jacob Biamonte]], Stephen R. Clark, Dieter Jaksch, _Categorical Tensor Network States_, AIP Advances 1(4), 042172 (2011) ([arXiv:1012.0531](https://arxiv.org/abs/1012.0531))
-
 
 * [[Roman Orus]], _A Practical Introduction to Tensor Networks: Matrix Product States and Projected Entangled Pair States_, 	Annals of Physics 349 (2014) 117-158  ([arXiv:1306.2164](https://arxiv.org/abs/1306.2164))
 
@@ -149,9 +167,12 @@ Further resources:
 
 ### Application in solid state physics
 
-Discussion of [[solud state physics]] via [[tensor network states]]:
+Discussion of [[solid state physics]] via [[tensor network states]]:
 
 General:
+
+* [[Jens Eisert]], M. Cramer, M.B. Plenio, _Area laws for the entanglement entropy - a review_, Rev. Mod. Phys. 82, 277 (2010) ([arXiv:0808.3773](https://arxiv.org/abs/0808.3773))
+
 
 * [[Roman Orus]], _A Practical Introduction to Tensor Networks: Matrix Product States and Projected Entangled Pair States_, 	Annals of Physics 349 (2014) 117-158  ([arXiv:1306.2164](https://arxiv.org/abs/1306.2164))
 
