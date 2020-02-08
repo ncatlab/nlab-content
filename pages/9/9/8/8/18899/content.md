@@ -31,9 +31,12 @@ $$
     \array{
       \mathbf{\Phi}^a(x) \mathbf{\Phi}^a(y) 
         &\vert& 
-      x\, \text{not in the past of}\ y
+      x \, \text{not in the past of}\, y
       \\
-      \mathbf{\Phi}^a(y) \mathbf{\Phi}^a(x) &\vert& \text{otherwise} 
+      \mathbf{\Phi}^a(y) 
+      \mathbf{\Phi}^a(x) 
+      &\vert& 
+      \text{otherwise} 
     }
   \right.
 $$
