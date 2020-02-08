@@ -15,6 +15,9 @@
 
 * [[black hole entropy]] via [[AdS-CFT duality]]
 
+[[!include states and observables -- content]]
+
+
 ## References
 
 * Matthew Headrick, _Lectures on entanglement entropy in field theory and holography_ ([arXiv:1907.08126](https://arxiv.org/abs/1907.08126))
