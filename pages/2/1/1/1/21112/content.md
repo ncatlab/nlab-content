@@ -19,7 +19,7 @@ The Bruhat-Tits tree of the [[special linear group]] $SL(2)$:
 
 > graphics from [Casselman 14](#Casselman14)
 
-In the [[p-adic AdS/CFT correspondence|2-adic AdS/CFT correspondence]] this tree plays the role of [[anti de Sitter spacetime]]. This may be regarded (at some finite depth truncation) as a [[tensor network state]] 
+In the [[p-adic AdS/CFT correspondence|2-adic AdS/CFT correspondence]] this tree plays the role of [[anti de Sitter spacetime]]. This may be regarded (at some finite depth truncation) as a [[tree tensor network|tree]]-[[tensor network state]] 
 
 <center>
 <img src="https://ncatlab.org/nlab/files/BruhatTitsTreeTensorNetworkStateFromMetricLie.jpg" width="300">
@@ -28,6 +28,7 @@ In the [[p-adic AdS/CFT correspondence|2-adic AdS/CFT correspondence]] this tree
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 
+(As in [HMSS 16](p-adic+AdS/CFT+correspondence#HMSS16), [HLM 19](p-adic+AdS/CFT+correspondence#HLM19). But  maybe one wants the Poincar&eacute;-dual networks, instead, as in [HMPS 18](p-adic+AdS/CFT+correspondence#HMPS18)?)
 
 
 ## Related concepts
