@@ -19,7 +19,7 @@ The Bruhat-Tits tree of the [[special linear group]] $SL(2)$:
 
 > graphics from [Casselman 14](#Casselman14)
 
-In the [[p-adic AdS/CFT correspondence|2-adic AdS/CFT correspondence]] this tree plays the role of [[anti de Sitter spacetime]]. When regarded (at some finite depth truncation) as a [[tensor network state]] 
+In the [[p-adic AdS/CFT correspondence|2-adic AdS/CFT correspondence]] this tree plays the role of [[anti de Sitter spacetime]]. This may be regarded (at some finite depth truncation) as a [[tensor network state]] 
 
 <center>
 <img src="https://ncatlab.org/nlab/files/BruhatTitsTreeTensorNetworkStateFromMetricLie.jpg" width="300">
@@ -27,7 +27,6 @@ In the [[p-adic AdS/CFT correspondence|2-adic AdS/CFT correspondence]] this tree
 
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
-it validates the [[Ryu-Takayanagi formula]] for [[holographic entanglement entropy]].
 
 
 
