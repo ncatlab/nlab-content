@@ -127,6 +127,9 @@ The original [[wave function]] is $\psi \in \mathcal{H}$, and after observing $P
 
 * [[propositions as projections]]
 
+[[!include states and observables -- content]]
+
+
 
 ## References
 
