@@ -46,13 +46,12 @@ These amplitudes are collected in the _[[scattering matrix]]_ of the [[perturbat
 
 ## Related concepts
 
-* [[quantum observable]]
-
-* [[quantum probability]]
-
 * [[quantum logic]]
 
 * [[interpretation of quantum mechanics]]
+
+[[!include states and observables -- content]]
+
 
 [[!redirects probability amplitude]]
 [[!redirects probability amplitudes]]
