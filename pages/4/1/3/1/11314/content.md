@@ -25,5 +25,7 @@ Application of [[tensor networks]] (specifically [[tree tensor networks]]) in qu
 
 * Naoki Nakatani, Garnet Kin-Lic Chan, _Efficient Tree Tensor Network States (TTNS) for Quantum Chemistry: Generalizations of the Density Matrix Renormalization Group Algorithm_, J. Chem. Phys. 138, 134113 (2013) ([arXiv:1302.2298](https://arxiv.org/abs/1302.2298))
 
+* Klaas Gunst, [[Frank Verstraete]], Sebastian Wouters, Örs Legeza, Dimitri Van Neck, _T3NS: three-legged tree tensor network states_, Chem. Theory Comput. 2018, 14, 4, 2026-2033 ([arXiv:1801.09998](https://arxiv.org/abs/1801.09998))
+
 * Henrik R. Larsson, _Computing vibrational eigenstates with tree tensor network states (TTNS)_, J. Chem. Phys. 151, 204102 (2019) ([arXiv:1909.13831](https://arxiv.org/abs/1909.13831))
 
