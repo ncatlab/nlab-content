@@ -68,6 +68,9 @@ Arguably, one should require that the map $*$ be an [[isometry]] (which follows 
 
 * [[star-representation]]
 
+[[!include states and observables -- content]]
+
+
 ## References
 
 See also 
