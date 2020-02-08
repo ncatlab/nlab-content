@@ -23,6 +23,7 @@ Notice that a quasi-state is naturally regarded as an actual state, but [[intern
 
 ## Related concepts
 
-* [[state]], [[state on an operator algebra]]
+[[!include states and observables -- content]]
+
 
 [[!redirects quasi-states]]
