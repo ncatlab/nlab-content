@@ -37,6 +37,8 @@ where $a = (a_1, \dots, a_n)$ is the output weight, $b'$ the output bias, $W_i$ 
 
 ## References
 
+### General
+
 On the learning algorithm as [[gradient descent]] of the loss functional:
 
 * {#ThierryMieg18} Jean Thierry-Mieg, _Connections between physics, mathematics and deep learning_, Letters in High Energy Physics, vol 2 no 3 (2019) ([arXiv:1811.00576](https://arxiv.org/abs/1811.00576), [doi:10.31526/lhep.3.2019.110](https://doi.org/10.31526/lhep.3.2019.110))
@@ -51,11 +53,22 @@ On the learning algorithm as analogous to the [[AdS/CFT correspondence]]:
 
 * {#HSTT18} [[Koji Hashimoto]], Sotaro Sugishita, Akinori Tanaka, Akio Tomiya, _Deep Learning and AdS/CFT_,  Phys. Rev. D 98, 046019 (2018) ([arxiv:1802.08313](https://arxiv.org/abs/1802.08313))
 
-A category theoretic treatment of back propagation:
+A [[category theory|category theoretic]] treatment of back propagation:
 
 * Brendan Fong, David Spivak, Rémy Tuyéras, _Backprop as Functor: A compositional perspective on supervised learning_, ([arXiv:1711.10455](https://arxiv.org/abs/1711.10455))
 
 
+### Relation to tensor networks
+
+Application of [[tensor networks]] and specifically [[tree tensor networks]]:
+
+* Ding Liu, Shi-Ju Ran, Peter Wittek, Cheng Peng, Raul Blázquez García, Gang Su, Maciej Lewenstein, _Machine Learning by Unitary Tensor Network of Hierarchical Tree Structure_, New Journal of Physics, 21, 073059 (2019) ([arXiv:1710.04833](https://arxiv.org/abs/1710.04833))
+
+* Song Cheng, Lei Wang, Tao Xiang, Pan Zhang, _Tree Tensor Networks for Generative Modeling_, Phys. Rev. B 99, 155131 (2019) ([arXiv:1901.02217](https://arxiv.org/abs/1901.02217))
+
+
 [[!redirects neural networks]]
+
+[[!redirects machine learning]]
 
 [[!redirects deep learning]]
