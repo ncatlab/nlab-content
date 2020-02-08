@@ -44,25 +44,9 @@ In [[non-perturbative quantum field theory]] the [[algebras of observables]] are
 
 ## Related concepts
 
-* [[local observable]]
+[[!include states and observables -- content]]
 
-* [[polynomial observable]]
-
-  * [[linear observable]]
-  
-    * [[field observable]]
-
-  * [[regular observable]]
-
-  * [[microcausal observable]]
-
-* [[quantum observable]]
-
-* [[space of states (in geometric quantization)]]
-
-* [[Wick algebra]], [[interacting field algebra of observables]]
-
-* [[beable]]
+\linebreak
 
 [[!include Isbell duality - table]]
 
