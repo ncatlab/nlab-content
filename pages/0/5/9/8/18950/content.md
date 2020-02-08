@@ -200,25 +200,7 @@ For **proof** see at _[[S-matrix]]_, [this prop.](S-matrix#ScatteringAmplitudeFr
 
 ## Related concepts
 
-* [[vacuum state]], [[Hadamard state]]
-
-* [[vacuum expectation value]], [[vacuum amplitude]], [[vacuum fluctuation]]
-
-* [[vacuum energy]]
-
-* [[interacting vacuum]]
-
-* [[vacuum diagram]]
-
-* [[vacuum stability]]
-
-* [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
-
-* [[theta vacuum]]
-
-* [[perturbative string theory vacuum]]
-
-* [[landscape of string theory vacua]]
+[[!include states and observables -- content]]
 
 
 
