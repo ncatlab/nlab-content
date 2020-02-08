@@ -279,17 +279,7 @@ More general states in this case are given by [[density matrices]].
 
 ## Related concepts
 
-* [[quantum probability theory]]
-
-* [[state]], [[quasi-state]]
-
-* [[quasi-free state]]
-
-* [[vacuum state]]
-   
-* [[Hadamard state]]
-
-* [[Alfsen-Shultz theorem]]
+[[!include states and observables -- content]]
 
 
 ## References 
