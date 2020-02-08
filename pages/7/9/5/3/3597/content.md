@@ -73,13 +73,11 @@ More controversially, two entirely different probabilisitic combinations of stat
 
 ## Related concepts
 
-* [[quantum state]]
-
-* [[quantum operation]]
-
 * [[quantum computation]]
 
-* [[quantum effect]]
+[[!include states and observables -- content]]
+
+
 
 ## References
 
