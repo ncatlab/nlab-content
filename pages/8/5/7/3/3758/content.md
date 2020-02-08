@@ -71,37 +71,10 @@ In this formulation the [[k-morphism|(n-1)-morphism]] in $\mathcal{C}$ assigned 
 
 ## Related concepts
 
-* [[state]]
+[[!include states and observables -- content]]
 
-  * [[quasi-free state]]
+\linebreak
 
-  * [[space of states (in geometric quantization)]]
-
-    * [[wave function]]
-
-  * [[classical state]], **quantum state**
-
-  * [[state in AQFT and operator algebra]]
-
-    * [[quasi-state]]
-
-    * [[quasi-free state]]
-
-    * [[vacuum state]]
-   
-    * [[Hadamard state]]
-
-  * [[bra-ket]]
-
-  * [[ground state]], [[excited state]]
-
-  * [[Fock space]], [[second quantization]]
-
-* [[observable]]
-
-  * [[algebra of observables]]
-
-  * [[GNS construction]]
 
 [[!include classical-to-quantum notions - table]]
 
