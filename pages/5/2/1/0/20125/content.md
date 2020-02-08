@@ -72,7 +72,7 @@ The [[tree tensor network states]] in the form of [[Bruhat-Tits trees]] play a s
 For [[tensor network states]] dual to tesselations of [[hyperbolic space]] and made from [[perfect tensors]] one finds that the [[entanglement entropy]] of the tensor subspace associated with an [[interval]] on the [[boundary]] becomes proportional, for large number of [[vertices]], to the [[hyperbolic space|hyperbolic]] bulk boundary [[length]] of the segment of the tree network that ends on this interval, according to the [[Ryu-Takayanagi formula]] ([PYHP 15, Theorem 2](#PYHP15)). Hence one speaks if _[[holographic entanglement entropy]]_. For more on this see [below](#ForHolographicEntanglementEntropy).
 
 
-General tensor network states are mixtures of the above examples. For instance in ... is the suggestion that [[BTZ black holes]] are encoded by networks that look like [[Bruhat-Tits trees]] towards the boundaries and like matrix product states towards the interior
+General tensor network states are mixtures of the above examples. For instance in ... is the suggestion that [[BTZ black holes]] are encoded by networks that look like [[Bruhat-Tits trees]] towards the boundaries and like [[matrix product states]] towards the interior:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/BTZTensorNetworksStateFromLieAlgebra.jpg" width="350">
@@ -242,7 +242,7 @@ Further interpretation of [[tensor networks]] in terms of [[quantum error correc
 
 * {#ADH14} [[Ahmed Almheiri]], Xi Dong, [[Daniel Harlow]], _Bulk Locality and Quantum Error Correction in AdS/CFT_, JHEP 1504:163,2015 ([arXiv:1411.7041](https://arxiv.org/abs/1411.7041))
 
-* {#PYHP15} Fernando Pastawski, Beni Yoshida, [[Daniel Harlow]], John Preskill, _Holographic quantum error-correcting codes: Toy models for the bulk/boundary correspondence_, JHEP 06 (2015) 149 ([arXiv:1503.06237](https://arxiv.org/abs/1503.06237))
+* {#PYHP15} Fernando Pastawski, Beni Yoshida, [[Daniel Harlow]], [[John Preskill]], _Holographic quantum error-correcting codes: Toy models for the bulk/boundary correspondence_, JHEP 06 (2015) 149 ([arXiv:1503.06237](https://arxiv.org/abs/1503.06237))
 
 reviewed in
 
