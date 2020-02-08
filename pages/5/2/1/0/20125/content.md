@@ -56,7 +56,7 @@ Tree tensor network states in the form of [[Bruhat-Tits trees]] play a special r
 
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
-For [[Bruhat-Tits tree]] [[tensor network states]] one finds that the [[entanglement entropy]] of the tensor subspace associated with an [[interval]] on the [[boundary]] becomes proportional, for large number of [[vertices]], to the [[hyperbolic space|hyperbolic]] bulk boundary [[length]] of the segment of the tree network that ends on this interval, according to the [[Ryu-Takayanagi formula]] ([PYHP 15, Theorem 2](#PYHP15)). Hence one speaks if _[[holographic entanglement entropy]]_. For more on this see [below](#ForHolographicEntanglementEntropy).
+For [[tensor network states]] dual to tesselations of [[hyperbolic space]] and made from [[perfect tensors]] one finds that the [[entanglement entropy]] of the tensor subspace associated with an [[interval]] on the [[boundary]] becomes proportional, for large number of [[vertices]], to the [[hyperbolic space|hyperbolic]] bulk boundary [[length]] of the segment of the tree network that ends on this interval, according to the [[Ryu-Takayanagi formula]] ([PYHP 15, Theorem 2](#PYHP15)). Hence one speaks if _[[holographic entanglement entropy]]_. For more on this see [below](#ForHolographicEntanglementEntropy).
 
 \linebreak
 
@@ -178,6 +178,10 @@ Tensor networks associated with [[Bruhat-Tits trees]] in [[p-adic AdS/CFT corres
 * [[Matthew Heydeman]], [[Matilde Marcolli]], [[Ingmar Saberi]], [[Bogdan Stoica]], _Tensor networks, $p$-adic fields, and algebraic curves: arithmetic and the $AdS_3/CFT_2$ correspondence_ ([arXiv:1605.07639](https://arxiv.org/abs/1605.07639))
 
 * Arpan Bhattacharyya, Ling-Yan Hung, Yang Lei, Wei Li, _Tensor network and ($p$-adic) AdS/CFT_, JHEP 1801 (2018) 139 ([arXiv:1703.05445](https://arxiv.org/abs/1703.05445))
+
+Discussion of [[BTZ black holes]] via [[tensor networks]] in the [[p-adic AdS/CFT correspondence]]:
+
+* Matthew Heydeman, [[Matilde Marcolli]], Sarthak Parikh, [[Ingmar Saberi]], _Nonarchimedean Holographic Entropy from Networks of Perfect Tensors_ ([arXiv:1812.04057](https://arxiv.org/abs/1812.04057))
 
 
 See also
