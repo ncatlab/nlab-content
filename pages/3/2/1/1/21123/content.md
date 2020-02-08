@@ -56,6 +56,9 @@ The [[tree tensor network states]] in the form of [[Bruhat-Tits trees]] play a s
 
 For more see the references at _[[tensor network state]]_.
 
+* Shi-Ju Ran, Emanuele Tirrito, Cheng Peng, Xi Chen, Luca Tagliacozzo, Gang Su, Maciej Lewenstein, Section 2.3.3 of: _Tensor Network Contractions_, Lecture Notes in Physics, Springer (2020) ([arXiv:1708.09213](https://arxiv.org/abs/1708.09213), [doi:10.1007/978-3-030-34489-4](https://link.springer.com/book/10.1007/978-3-030-34489-4))
+
+
 ### Application in solid state physics
 
 Application in [[solid state physics]]:
