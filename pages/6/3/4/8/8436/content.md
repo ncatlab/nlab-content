@@ -73,15 +73,19 @@ Discussion of possible realization of the [[SYK-model]] in [[condensed matter ph
 
 ### Tensor networks for exotic phases of matter
 
-Discussion if exotic [[phases of matter]] via [[tensor network states]]:
+Discussion of exotic [[phases of matter]] via [[tensor network states]]:
 
-Review:
+General:
 
 * [[Roman Orus]], _A Practical Introduction to Tensor Networks: Matrix Product States and Projected Entangled Pair States_, 	Annals of Physics 349 (2014) 117-158  ([arXiv:1306.2164](https://arxiv.org/abs/1306.2164))
 
 * [[Jens Eisert]], _Entanglement and tensor network states_, Modeling and Simulation 3, 520 (2013) ([arXiv:1308.3318](https://arxiv.org/abs/1308.3318))
 
-Examples:
+
+* Thorsten B. Wahl, _Tensor network states for the description of quantum many-body systems_ ([arXiv:1509.05984](https://arxiv.org/abs/1509.05984))
+
+
+Concrete materials:
 
 * A. Kshetrimayum, C. Balz, B. Lake, [[Jens Eisert]], _Tensor network investigation of the double layer Kagome compound $Ca_{10} Cr_{7} O_{28}$_ ([arXiv:1904.00028](https://arxiv.org/abs/1904.00028))
 
