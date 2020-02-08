@@ -180,9 +180,10 @@ Any effect algebra is automatically a D-poset under the difference $c := b \omin
 
 ## Related concepts
 
-* [[density matrix]]
-
 * [[separation algebra]]
+
+[[!include states and observables -- content]]
+
 
 ## Reference
 
