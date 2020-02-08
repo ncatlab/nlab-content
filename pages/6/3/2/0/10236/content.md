@@ -5,6 +5,7 @@ In a [[mechanical system]], a _ground state_ is a [[quantum state]] of minimal [
 
 ## Related concept
 
-* [[excited state]]
+[[!include states and observables -- content]]
+
 
 [[!redirects ground states]]
