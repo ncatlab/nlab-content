@@ -60,7 +60,8 @@ In any case, a pure state is a state of maximal information, while a mixed state
 
 ## Related concepts
 
-* [[wave function]], [[collapse of the wave function]]
+[[!include states and observables -- content]]
+
 
 ## References
 
