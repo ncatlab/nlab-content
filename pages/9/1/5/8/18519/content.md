@@ -31,7 +31,8 @@ This reflects the structure of the [[Wick algebra]] of [[quantum observables]] f
 
 ## Related concepts
 
-* [[coherent quantum state]]
+[[!include states and observables -- content]]
+
 
 ## References
 
