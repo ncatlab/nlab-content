@@ -53,10 +53,12 @@ For **[[proof]]** see [this prop.](S-matrix#PerturbativeQuantumObservablesIsLoca
 
 * [[quantum Møller operator]]
 
-* [[interaction picture]]
 
 
 [[!include products in pQFT -- table]]
+
+
+[[!include states and observables -- content]]
 
 
 ## References
