@@ -108,6 +108,12 @@ A derivation of these formulas from first principles is given in ([Fiorenza-Roge
 
 =--
 
+## Related concepts
+
+[[!include states and observables -- content]]
+
+
+
 ## References
 
 
