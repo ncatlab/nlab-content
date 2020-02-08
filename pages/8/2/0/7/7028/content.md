@@ -130,27 +130,15 @@ The [[space of quantum states]] forms a linear [[representation]] of a given [[a
 
 ## Related concepts
 
-* [[observable]]
-
-* [[Bogoliubov's formula]]
 
 [[!include products in pQFT -- table]]
-
-
-* [[causally local net of observables]]
-
-
-* [[order-theoretic structure in quantum mechanics]]
-
-  * [[Jordan algebra]], [[Bohr topos]]
-
-  * [[Harding-Döring-Hamhalter theorem]]
-
-* [[effect algebra]]
 
 * [[Hamiltonian operator]]
 
 * [[self-adjoint operator]], [[daseinisation]]
+
+
+[[!include states and observables -- content]]
 
 
 ## References
