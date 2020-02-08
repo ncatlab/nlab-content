@@ -40,6 +40,13 @@ This may be regarded (at some finite depth truncation) as a [[tensor network sta
 
 (As in [HMSS 16](#HMSS16), [HLM 19](#HLM19). But  maybe one wants the Poincar&eacute;-dual networks, instead, as in [HMPS 18](#HMPS18)?)
 
+There is the suggestion that [[BTZ black holes]] are encoded by networks that look like [[Bruhat-Tits trees]] towards the boundaries and like [[matrix product states]] towards the interior:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/BTZTensorNetworksStateFromLieAlgebra.jpg" width="350">
+</center>
+
+(As in [ESZ 19](p-adic+AdS/CFT+correspondence#ESZ19).)
 
 
 ## Related concepts
