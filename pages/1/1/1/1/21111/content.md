@@ -39,7 +39,7 @@ X_1 \ar{dr}[swap]{!} && X_2 \ar{dl}{!}\\
 & 1
 \end{tikzcd}
 
-More generally, let $\{X_1, \dots, X_n\}$ be a finite set of objects of $C$. All the possible projections of their product onto the factors form a finite [[Boolean lattice]].
+More generally, let $\{X_1, \dots, X_n\}$ be a finite set of objects of $C$. All the possible projections of their product onto the factors form a finite [[Boolean lattice]], or more precisely, a functor $B \to C$ from a finite Boolean lattice $B$ (considered as a [[thin category]]) to $C$.
 \begin{tikzcd}[column sep=small, nodes={scale=1.25}]
 && X_1\otimes \dots \otimes X_n \ar{d} \ar{dll} \ar{drr} \\
 X_1\otimes \dots \otimes X_{n-1} \ar{d} \ar{dr} && \dots \ar{dl} \ar{dr} && X_2\otimes \dots \otimes X_n \ar{dl} \ar{d} \\
