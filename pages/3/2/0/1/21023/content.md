@@ -38,6 +38,7 @@ This may be regarded (at some finite depth truncation) as a [[tensor network sta
 
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
+(As in [HLM 19](#HLM19). But  maybe one wants the Poincar&eacute;-dual networks, instead, as in [HMPS 18](#HMPS18)?)
 
 
 
@@ -73,6 +74,9 @@ Relation to [[tensor networks]]:
 
 * Arpan Bhattacharyya, Ling-Yan Hung, Yang Lei, Wei Li, _Tensor network and ($p$-adic) AdS/CFT_, JHEP 1801 (2018) 139 ([arXiv:1703.05445](https://arxiv.org/abs/1703.05445))
 
+* {#HLM19} Ling-Yan Hung, Wei Li, Charles M. Melby-Thompson, _$p$-adic CFT is a holographic tensor network_ ([arXiv:1902.01411](https://arxiv.org/abs/1902.01411))
+
+
 Including [[spinors]]:
 
 
@@ -80,7 +84,9 @@ Including [[spinors]]:
 
 Including [[BTZ black holes]]:
 
-* Matthew Heydeman, [[Matilde Marcolli]], Sarthak Parikh, [[Ingmar Saberi]], _Nonarchimedean Holographic Entropy from Networks of Perfect Tensors_ ([arXiv:1812.04057](https://arxiv.org/abs/1812.04057))
+* {#HMPS18} Matthew Heydeman, [[Matilde Marcolli]], Sarthak Parikh, [[Ingmar Saberi]], _Nonarchimedean Holographic Entropy from Networks of Perfect Tensors_ ([arXiv:1812.04057](https://arxiv.org/abs/1812.04057))
+
+* Stephen Ebert, Hao-Yu Sun, Meng-Yang Zhang, _Probing holography in $p$-adic CFT_ ([arXiv:1911.06313](https://arxiv.org/abs/1911.06313))
 
 
 An expository account is given in
