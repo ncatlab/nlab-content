@@ -9,6 +9,9 @@ Discussion of [[homotopy groups]] in [[computational topology]]:
 
 * [[Martin Čadek]], [[Marek Krčál]], Jiří Matoušek, [[Lukáš Vokřínek]], [[Uli Wagner]], _Polynomial-time computation of homotopy groups and Postnikov systems in fixed dimension_, SIAM J. Comput., 43(5), 1728–1780  ([arXiv:1211.3093](https://arxiv.org/abs/1211.3093), [doi:10.1137/120899029](https://doi.org/10.1137/120899029))
 
+* [[Martin Čadek]], [[Marek Krčál]], Jiří Matoušek, [[Lukáš Vokřínek]], [[Uli Wagner]], _Extendability of continuous maps is undecidable_, Discrete Comput Geom (2014) 51: 24 ([arXiv:1302.2370](https://arxiv.org/abs/1302.2370), [doi:10.1007/s00454-013-9551-8](https://doi.org/10.1007/s00454-013-9551-8))
+
+
 
 On [[persistence module|persistent]] [[Cohomotopy]] and its improvement over [[well groups]]:
 
