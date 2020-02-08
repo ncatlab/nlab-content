@@ -229,6 +229,10 @@ Likewise if there is a [[cylinder functor]], one gets functorially defined [[cyl
 
 See the references at _[[homotopy theory]]_ and at _[[model category]]_.
 
+Discussion in [[computational topology]]:
+
+* [[Marek Filakovský]], [[Lukáš Vokřínek]], _Are two given maps homotopic? An algorithmic viewpoint_, Found Comput Math (2019) ([arXiv:1312.2337](https://arxiv.org/abs/1312.2337), [doi:10.1007/s10208-019-09419-x](https://doi.org/10.1007/s10208-019-09419-x))
+
 [[!redirects left homotopy]]
 [[!redirects right homotopy]]
 
