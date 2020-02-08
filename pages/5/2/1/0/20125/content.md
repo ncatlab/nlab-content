@@ -159,10 +159,9 @@ Review and exposition:
 
 * {#Biamonte19} [[Jacob Biamonte]], _Lectures on Quantum Tensor Networks_ ([arXiv:1912.10049](https://arxiv.org/abs/1912.10049))
 
+With [[global symmetry]]:
 
-See also
-
-* Wikipedia, _[Matrix product state](https://en.m.wikipedia.org/wiki/Matrix_product_state)_
+* Sukhwinder Singh, Guifre Vidal, _Tensor network states and algorithms in the presence of a global $SU(2)$ symmetry_, Phys. Rev. B 86, 195114 (2012) ([arXiv:1208.3919](https://arxiv.org/abs/1208.3919))
 
 
 Further resources:
