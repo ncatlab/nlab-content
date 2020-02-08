@@ -26,29 +26,8 @@ In [[Yang-Mills theory]] on 4d [[Minkowski spacetime]] the _theta vacuum_ is a [
 
 * [[instanton sea]]
 
-* **[[vacuum]]**
 
-  * [[vacuum state]], [[Hadamard state]]
-
-  * [[interacting vacuum]]
-
-  * [[vacuum expectation value]], [[vacuum amplitude]], [[vacuum fluctuation]]
-
-  * [[vacuum energy]]
-
-  * [[vacuum diagram]]
-
-  * [[thermal vacuum]], [[KMS state]]
-
-  * [[vacuum stability]]
-
-  * [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
-
-  * [[theta vacuum]]
-
-  * [[perturbative string theory vacuum]]
-
-  * [[landscape of string theory vacua]]
+[[!include states and observables -- content]]
 
 
 ## References
