@@ -46,27 +46,9 @@ In view of the [above](#OneLoopContributionAndZetaFunction) relation of 1-loop v
 
 ## Related concepts
 
-* **[[vacuum]]**
+[[!include states and observables -- content]]
 
-  * [[vacuum state]], [[Hadamard state]]
-
-  * [[interacting vacuum]]
-
-  * [[vacuum expectation value]], [[vacuum amplitude]], [[vacuum fluctuation]]
-
-  * [[vacuum energy]]
-
-  * [[vacuum diagram]]
-
-  * [[vacuum stability]]
-
-  * [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
-
-  * [[theta vacuum]]
-
-  * [[perturbative string theory vacuum]]
-
-  * [[landscape of string theory vacua]]
+\linebreak
 
 * [[Riemann hypothesis and physics]]
 
