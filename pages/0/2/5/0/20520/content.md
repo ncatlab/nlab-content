@@ -8,7 +8,7 @@ By analogy with [[graded algebra]], a **$\mathcal{M}$-graded monad** in a catego
 
 Equivalently, a $\mathcal{M}$-graded monad is a lax [[2-functor]] from the [delooping](https://ncatlab.org/nlab/show/delooping#deloopings_of_higher_categorical_structures) (or "suspension") of $\mathcal{M}$, $\mathbf{B} \mathcal{M} \to Cat$. Just as [[monads]] may be defined in any 2-category, $K$, this suggests that we may generalize graded monads to lax 2-functors $\mathbf{B} \mathcal{M} \to K$.
 
-A further generalization is to category-valued monads, lax functors from any category to $Cat$ ([OrchWadEad](#OrchWadEad)).
+A further generalization is to category-valued monads, lax functors from any category to $Cat$ ([OrchWadEad](#OrchWadEad)), and then to 2-category-valued monads from any 2-category.
 
 Graded monads are also known as **parametric** monads. The grading idea may also be applied to [[comonads]].
 
