@@ -83,6 +83,15 @@ For application in [[quantum chemistry]]:
 
 * Henrik R. Larsson, _Computing vibrational eigenstates with tree tensor network states (TTNS)_, J. Chem. Phys. 151, 204102 (2019) ([arXiv:1909.13831](https://arxiv.org/abs/1909.13831))
 
+### Application to $p$-adic AdS/CFT correspondence:
+
+Discussion of [[Bruhat-Tits tree]]-tensor networks in the context of the [[p-adic AdS/CFT correspondence]]:
+
+* {#BHLL17} Arpan Bhattacharyya, Ling-Yan Hung, Yang Lei, Wei Li, _Tensor network and ($p$-adic) AdS/CFT_, JHEP 1801 (2018) 139 ([arXiv:1703.05445](https://arxiv.org/abs/1703.05445))
+
+* {#HLM19} Ling-Yan Hung, Wei Li, Charles M. Melby-Thompson, _$p$-adic CFT is a holographic tensor network_ ([arXiv:1902.01411](https://arxiv.org/abs/1902.01411))
+
+
 ### Application in machine learning
 
 Application in [[machine learning]]:
