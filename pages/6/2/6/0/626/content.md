@@ -182,7 +182,7 @@ Introductions to and surveys of string diagram calculus:
 
 * {#Selinger09} [[Peter Selinger]], _A survey of graphical languages for monoidal categories_, in: [[Bob Coecke]] (ed.) _New Structures for Physics_, Lecture Notes in Physics, vol 813. Springer, Berlin, Heidelberg (2010) ([arXiv:0908.334](http://arxiv.org/abs/0908.3347), [doi:10.1007/978-3-642-12821-9_4](https://doi.org/10.1007/978-3-642-12821-9_4))
 
-* [[Predrag Cvitanović]], _Group Theory: Birdtracks, Lie's, and Exceptional Groups_, Princeton University Press July 2008 ([PUP](https://press.princeton.edu/books/paperback/9780691202983/group-theory), [birdtracks.eu](http://birdtracks.eu/), [pdf](http://www.birdtracks.eu/version9.0/GroupTheory.pdf))
+* {#Cvitanovic08} [[Predrag Cvitanović]], _Group Theory: Birdtracks, Lie's, and Exceptional Groups_, Princeton University Press July 2008 ([PUP](https://press.princeton.edu/books/paperback/9780691202983/group-theory), [birdtracks.eu](http://birdtracks.eu/), [pdf](http://www.birdtracks.eu/version9.0/GroupTheory.pdf))
 
   (aimed at [[Lie theory]] and [[gauge theory]])
 
@@ -200,13 +200,27 @@ Introductions to and surveys of string diagram calculus:
 
 * [[Ross Street]], _Categorical structures_, in: M. Hazewinkel (ed.), _Handbook of algebra -- Volume 1_, Elsevier 1996 ([pdf](http://maths.mq.edu.au/~street/45.pdf), [978-0-444-82212-3](https://www.elsevier.com/books/handbook-of-algebra/hazewinkel/978-0-444-82212-3))
 
-  (discusses string diagrams in the generality of [[bicategories]])
+  (in the generality of [[bicategories]])
+
+From the point of view of [[finite quantum mechanics in terms of dagger-compact categories]]:
+
+* {#CoeckePicturalism} [[Bob Coecke]], _Quantum Picturalism_ ([arXiv:0908.1787](http://arxiv.org/abs/0908.1787))
+
+* {#CoeckeIntroducing} [[Bob Coecke]], _Introducing categories to the practicing physicist_ ([arXiv:0808.1032](http://arxiv.org/abs/0808.1032))
+
+* {#CoeckePractising} [[Bob Coecke]], _Categories for the practising physicist_ ([arXiv:0905.3010](http://arxiv.org/abs/0905.3010))
+
+* [[Bob Coecke]], [[Ross Duncan]], _Interacting Quantum Observables: Categorical Algebra and Diagrammatics_ ([arXiv:0906.4725](http://arxiv.org/abs/0906.4725))
+
+* {#HeunenVicary12} [[Chris Heunen]], [[Jamie Vicary]], _Lectures on categorical quantum mechanics_, 2012 ([pdf](https://www.cs.ox.ac.uk/files/4551/cqm-notes.pdf))
+
+
+From the point of view of [[tensor networks]] in [[solid state physics]]:
 
 * [[Jacob Biamonte]], Ville Bergholm, _Tensor Networks in a Nutshell_, Contemporary Physics ([arxiv:1708.00006](https://arxiv.org/abs/1708.00006))
 
 * [[Jacob Biamonte]], _Lectures on Quantum Tensor Networks_ ([arXiv:1912.10049](https://arxiv.org/abs/1912.10049))
 
-  (terminology: [[tensor network]])
 
 Some philosophical discussion is given in  
 
