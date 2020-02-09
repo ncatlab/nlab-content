@@ -30,6 +30,10 @@ On the [[ADE classification]] of [[black brane|black]] [[BPS state|BPS]]-[[M2-br
 
 * {#MedeirosFigueroa10} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
 
+On [[Spencer cohomology]] applied to the classification of [[BPS state|BPS solutions]] of [[D=11 supergravity]]:
+
+* {#FFS17} [[José Figueroa-O’Farrill]], Andrea Santi, _Spencer cohomology and eleven-dimensional supergravity_, Comm. Math. Phys. 349 (2017), 627-660 ([arXiv:1511.08737](https://arxiv.org/abs/1511.08737))
+
 
 ## Related $n$Lab entries
 
