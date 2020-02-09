@@ -153,7 +153,7 @@ Review and exposition:
 
 * [[Jacob Biamonte]], Ville Bergholm, _Tensor Networks in a Nutshell_, Contemporary Physics ([arxiv:1708.00006](https://arxiv.org/abs/1708.00006))
 
-* Shi-Ju Ran, Emanuele Tirrito, Cheng Peng, Xi Chen, Luca Tagliacozzo, Gang Su, Maciej Lewenstein, _Tensor Network Contractions_, Lecture Notes in Physics, Springer (2020) ([arXiv:1708.09213](https://arxiv.org/abs/1708.09213), [doi:10.1007/978-3-030-34489-4](https://link.springer.com/book/10.1007/978-3-030-34489-4))
+* Shi-Ju Ran, Emanuele Tirrito, Cheng Peng, Xi Chen, [[Luca Tagliacozzo]], Gang Su, Maciej Lewenstein, _Tensor Network Contractions_, Lecture Notes in Physics, Springer (2020) ([arXiv:1708.09213](https://arxiv.org/abs/1708.09213), [doi:10.1007/978-3-030-34489-4](https://link.springer.com/book/10.1007/978-3-030-34489-4))
 
 * [[Roman Orus]], _Tensor networks for complex quantum systems_, Nature Reviews Physics 1, 538-550 (2019) ([arXiv:1812.04011](https://arxiv.org/abs/1812.04011), [doi:10.1038/s42254-019-0086-7](https://doi.org/10.1038/s42254-019-0086-7))
 
@@ -161,7 +161,7 @@ Review and exposition:
 
 With [[global symmetry]]:
 
-* Sukhwinder Singh, Guifre Vidal, _Tensor network states and algorithms in the presence of a global $SU(2)$ symmetry_, Phys. Rev. B 86, 195114 (2012) ([arXiv:1208.3919](https://arxiv.org/abs/1208.3919))
+* Sukhwinder Singh, [[Guifre Vidal]], _Tensor network states and algorithms in the presence of a global $SU(2)$ symmetry_, Phys. Rev. B 86, 195114 (2012) ([arXiv:1208.3919](https://arxiv.org/abs/1208.3919))
 
 
 Further resources:
@@ -275,6 +275,15 @@ See also
 Relation to [[spin chains]]:
 
 * Mari Carmen Banuls, Michal P. Heller, Karl Jansen, Johannes Knaute, Viktor Svensson, _From spin chains to real-time thermal field theory using tensor networks_ ([arXiv:1912.08836](https://arxiv.org/abs/1912.08836))
+
+### Applcation to lattice gauge theory
+
+Application to [[lattice gauge theory]]:
+
+* M.C. Bañuls, R. Blatt, J. Catani, A. Celi, J.I. Cirac, M. Dalmonte, L. Fallani, K. Jansen, M. Lewenstein, S. Montangero, C.A. Muschik, B. Reznik, E. Rico, [[Luca Tagliacozzo]], K. Van Acoleyen, [[Frank Verstraete]], U.-J. Wiese, M. Wingate, J. Zakrzewski, P. Zoller, _Simulating Lattice Gauge Theories within Quantum Technologies_ ([arXiv:1911.00003](https://arxiv.org/abs/1911.00003))
+
+
+
 
 ### In higher parallel transport
 
