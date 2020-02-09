@@ -129,6 +129,11 @@ Discussion specifically of numerical computation of [[from factors]]:
 
 * B.B. Brandt, S. Capitani, M. Della Morte, D. Djukanovic, J. Gegelia, G. von Hippel, A. Juttner, B. Knippschild, H.B. Meyer, H. Wittig, _Form factors in lattice QCD_, Eur. Phys. J. ST 198:79-94, 2011 ([arXiv:1106.1554](https://arxiv.org/abs/1106.1554))
 
+Relation to [[tensor networks]]:
+
+* M.C. Bañuls, R. Blatt, J. Catani, A. Celi, J.I. Cirac, M. Dalmonte, L. Fallani, K. Jansen, M. Lewenstein, S. Montangero, C.A. Muschik, B. Reznik, E. Rico, [[Luca Tagliacozzo]], K. Van Acoleyen, [[Frank Verstraete]], U.-J. Wiese, M. Wingate, J. Zakrzewski, P. Zoller, _Simulating Lattice Gauge Theories within Quantum Technologies_ ([arXiv:1911.00003](https://arxiv.org/abs/1911.00003))
+
+
 ### Renormalization
 
 A proposal for a rigorous formulation of [[renormalization]] in lattice gauge theory is due to 
