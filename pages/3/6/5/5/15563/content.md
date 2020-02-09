@@ -31,7 +31,7 @@ This proposal seems to subsume many aspects of other existing proposals (see e.g
 ## Motivation
  {#Motivation}
 
-The following is an attempt to motivate or make intuitively clear why lifts of [[Frobenius morphisms]] may be related to "abolute geometry" over [[F1]].
+The following is an attempt to motivate or make intuitively clear why lifts of [[Frobenius morphisms]] may be related to "absolute geometry" over [[F1]].
 
 First of all, the [[function field analogy]] says that $\mathbb{Z}$ is analogous to the [[polynomial ring]] $k[z]$ over a finite field $k$, as well as to the ring $\mathcal{O}_{\mathbb{C}}$ of ([[entire function|entire]]) [[holomorphic functions]] on the [[complex plane]].
 
