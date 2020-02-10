@@ -6,9 +6,9 @@
 +-- {: .hide}
 [[!include constructivism - contents]]
 =--
-#### Physics
-+-- {: .hide}
-[[!include physicscontents]]
+#### Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
 =--
 =--
 =--
@@ -34,6 +34,8 @@ There are arguments that a good formal context for quantum computing is (via [[c
 ## Related entries
 
 * [[Bloch region]], [[quantum operation]]
+
+* [[Grover's algorithm]]
 
 * [[Shor's algorithm]]
 
@@ -71,6 +73,14 @@ General discussions include
 
 * [[Scott Aaronson]], Lecture notes _Quantum Computing Since Democritus_ 2006 ([web](http://www.scottaaronson.com/democritus/))
 
+
+### In terms of dagger-compact categories
+
+Discussion in terms of [[finite quantum mechanics in terms of dagger-compact categories]]:
+
+* [[Jamie Vicary]], Section 3 of: _The Topology of Quantum Algorithms_, (LICS 2013) Proceedings of 28th Annual ACM/IEEE Symposium on Logic in Computer Science, pages 93-102 ([arXiv:1209.3917](https://arxiv.org/abs/1209.3917))
+
+
 ### As linear logic
  {#ReferencesAsLinearLogic}
 
@@ -89,7 +99,6 @@ An exposition along these lines is in
 
 * [[John Baez]], [[Mike Stay]], _Physics, topology, logic and computation: a rosetta stone_, [arxiv/0903.0340](http://arxiv.org/abs/0903.0340); in "New Structures for Physics", ed. Bob Coecke, Lecture Notes in Physics __813__, Springer, Berlin, 2011, pp. 95-174
 
-See also the references at _[[finite quantum mechanics in terms of dagger-compact categories]]_.
 
 ### In terms of monads
  {#ReferencesInTermsOfMonads}
@@ -120,3 +129,7 @@ category: computer science, physics
 [[!redirects quantum computations]]
 [[!redirects topological quantum computing]]
 [[!redirects topological quantum computation]]
+
+[[!redirects quantum computer]]
+[[!redirects quantum computers]]
+
