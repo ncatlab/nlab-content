@@ -16,6 +16,10 @@ and with emphasis on [[noncommutative geometry]] ([[fuzzy spheres]], [[D-brane g
 
 * [[Harold Steinacker]], _Non-commutative geometry and matrix models_, PoS QGQGS2011 (2011) 004 ([arXiv:1109.5521](https://arxiv.org/abs/1109.5521))
 
+Emergence of [[higher spin gauge theory|higher spin]] [[gravity]] from the [[IKKT matrix model]]:
+
+* [[Harold Steinacker]], _Higher-spin gravity and torsion on quantized space-time in matrix models_ ([arXiv:2002.02742](https://arxiv.org/abs/2002.02742))
+
 
 ## Related $n$Lab entries
 
