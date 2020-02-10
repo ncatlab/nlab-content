@@ -1,4 +1,28 @@
 
+$$
+  \begin{aligned}
+    &
+    (\sigma_1,\sigma_2)
+    \mapsto 
+    exp(-t d(\sigma_1,\sigma_2))
+    \;\;
+    \text{is conditionally positive kernel}
+    \\
+    \\
+    \overset{??}{\Leftrightarrow}
+    \;\;\;\;
+     &
+    \frac{1}{n!} 
+    \sum_{\sigma \in Sym(n)} 
+    exp\big(
+      t \cdot cycles(\sigma)
+    \big)
+    \;\le\; 
+    \left(1+\frac{1}{n!}\right) e^{t n}
+  \end{aligned}
+$$
+
+
 $\ldots$
 
 Let $n \in \mathbb{N}$, $n \geq 2$.
