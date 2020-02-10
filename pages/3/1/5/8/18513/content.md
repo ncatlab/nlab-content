@@ -353,7 +353,7 @@ and
 $$
   A_1 \star_H A_2
   -
-  A_2 \star_H a_1
+  A_2 \star_H A_1
   \;=\;
   i \hbar \{A_1, A_2\}
   \;mod\;
