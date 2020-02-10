@@ -61,7 +61,7 @@ on the rationalized [[homotopy group]]s, i.e. when the morphism
 
 $$
   \pi_* \ell \otimes \mathbb{Q} : \pi_* X \otimes \mathbb{Q}
-   \to \pi_* Y \otimes Q \simeq \pi_* Y
+   \to \pi_* Y \otimes \mathbb{Q} \simeq \pi_* Y
 $$
 
 is an [[isomorphism]].
