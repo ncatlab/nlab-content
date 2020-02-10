@@ -100,16 +100,14 @@ Reviews and lectures:
 
 * [[Sean Hartnoll]], _Lectures on holographic methods for condensed matter physics_, Class. Quant. Grav. 26:224002, 2009 ([arXiv:0903.3246](https://arxiv.org/abs/0903.3246))
 
-
 * A. Pires, _AdS/CFT correspondence in condensed matter_ ([arXiv:1006.5838](http://arxiv.org/abs/1006.5838))
 
 * [[Subir Sachdev]], _Condensed matter and AdS/CFT_ ([arXiv:1002.2947](http://arxiv.org/abs/1002.2947))
 
-
 * K. Schalm and R. Davison, _A simple introduction to AdS/CFT
 and its application to condensed matter physics_,  D-ITP Advanced Topics in Theoretical Physics Fall 2013, ([[SchalmDavisonAdSCFT.pdf:file]])
 
-* Andrea Amoretti, _Condensed Matter Applications of AdS/CFT : Focusing on strange metals_, 2017 ([spire:1610363](http://inspirehep.net/record/1610363), [[AmorettiStrangeMetals.pdf:file]])
+* Andrea Amoretti, _Condensed Matter Applications of AdS/CFT: Focusing on strange metals_, 2017 ([spire:1610363](http://inspirehep.net/record/1610363), [[AmorettiStrangeMetals.pdf:file]])
 
 
 
