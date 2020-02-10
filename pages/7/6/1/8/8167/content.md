@@ -52,6 +52,11 @@ Theoretical predictions
 
 * Stefano Frixione, Benjamin Fuks, Valentin Hirschi, Kentarou Mawatari, Hua-Sheng Shao, Marthijn P. A. Sunder, Marco Zaro, _Automated simulations beyond the Standard Model: supersymmetry_ ([arXiv:1907.04898](https://arxiv.org/abs/1907.04898))
 
+Review:
+
+* S. F. King, S. Moretti, R. Nevzorov, _A Review of the Exceptional Supersymmetric Standard Model_ ([arXiv:2002.02788](https://arxiv.org/abs/2002.02788))
+
+
 
 ### Experimental status
 
