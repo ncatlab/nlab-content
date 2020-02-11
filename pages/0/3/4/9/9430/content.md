@@ -13,7 +13,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {: toc}
@@ -70,23 +69,26 @@ Bar-codes were discovered under the name of _canonical forms invariants of filte
 
 Other references:
 
-*  D. Le Peutrec, N. Nier, C. Viterbo, _Precise Arrhenius Law for p-forms: The Witten Laplacian and Morse–Barannikov Complex_, Annales Henri Poincaré __14__ (3): 567–610 (2013) [doi](https://10.1007/s00023-012-0193-9)
 
-* [[Robert MacPherson]], Benjamin Schweinhart, _Measuring shape with topology_, J. Math. Phys. __53__, 073516 (2012); [doi](http://dx.doi.org/10.1063/1.4737391)
 
-* A. Zomorodian, [[Gunnar Carlsson]], _Computing persistent homology_, Discrete Comput. Geom. __33__, 249&#8211;274 (2005)
+* A. Zomorodian, [[Gunnar Carlsson]], _Computing persistent homology_, Discrete Comput. Geom. __33__, 249&#8211;274 (2005) ([doi:10.1007/s00454-004-1146-y](https://doi.org/10.1007/s00454-004-1146-y))
 
-* Ulrich Bauer, Michael Kerber, Jan Reininghaus, _Clear and compress: computing persistent homology in chunks_, [arxiv/1303.0477](http://arxiv.org/abs/1303.0477)
+* [[Gunnar Carlsson]], V. de Silva, _Zigzag persistence_ ([arXiv:0812.0197](http://arxiv.org/abs/0812.0197))
 
-* Robert J. Adler, Omer Bobrowski, Matthew S. Borman, Eliran Subag, Shmuel Weinberger, _Persistent homology for random fields and complexes_ Institute of Mathematical Statistics Collections __6__:124&#8211;143, 2010 [arxiv/1003.1001](http://arxiv.org/abs/1003.1001)
+* [[Gunnar Carlsson]], _Topology and data_, Bull. Amer. Math. Soc. 46 (2009), no. 2, 255-308 ([doi:10.1090/S0273-0979-09-01249-X](https://doi.org/10.1090/S0273-0979-09-01249-X))
+
+* Robert J. Adler, Omer Bobrowski, Matthew S. Borman, Eliran Subag, Shmuel Weinberger, _Persistent homology for random fields and complexes_ Institute of Mathematical Statistics Collections __6__:124&#8211;143, 2010 ([arxiv/1003.1001](http://arxiv.org/abs/1003.1001))
+
+* Pawe&#322; D&#322;otko, Hubert Wagner, _Computing homology and persistent homology using iterated Morse decomposition_ ([arxiv/1210.1429](http://arxiv.org/abs/1210.1429))
+
+* [[Robert MacPherson]], Benjamin Schweinhart, _Measuring shape with topology_, J. Math. Phys. __53__, 073516 (2012) ([doi:10.1063/1.4737391](http://dx.doi.org/10.1063/1.4737391))
 
 * Robert J. Adler, Omer Bobrowski, Shmuel Weinberger, _Crackle: the persistent homology of noise_, [arxiv/1301.1466](http://arxiv.org/abs/1301.1466)
 
-* Pawe&#322; D&#322;otko, Hubert Wagner, _Computing homology and persistent homology using iterated Morse decomposition_, [arxiv/1210.1429](http://arxiv.org/abs/1210.1429)
+*  D. Le Peutrec, N. Nier, C. Viterbo, _Precise Arrhenius Law for p-forms: The Witten Laplacian and Morse–Barannikov Complex_, Annales Henri Poincaré __14__ (3): 567–610 (2013) [doi](https://10.1007/s00023-012-0193-9)
 
-* [[Gunnar Carlsson]], V. de Silva, _Zigzag persistence_, [arXiv:0812.0197](http://arxiv.org/abs/0812.0197)
+* Ulrich Bauer, Michael Kerber, Jan Reininghaus, _Clear and compress: computing persistent homology in chunks_, [arxiv/1303.0477](http://arxiv.org/abs/1303.0477)
 
-* [[Gunnar Carlsson]], _Topology and data_, Bull. Amer. Math. Soc. 46 (2009), no. 2, 255-308.
 
 * Francisco Belch&#237; Guillam&#243;n, Aniceto Murillo Mas, _A-infinity persistence_, [arxiv/1403.2395](http://arxiv.org/abs/1403.2395)
 
@@ -98,8 +100,7 @@ Other references:
 
 * H. Edelsbrunner, D. Morozov, _Persistent homology: theory and practice_ [pdf](http://mrzv.org/publications/persistent-homology-theory-practice/ecm)
 
-The following paper uses persistent homology to single out features relevant for
-training neural networks,
+The following paper uses persistent homology to single out features relevant for training [[neural networks]]:
 
 * Jean-Baptiste Bardin, Gard Spreemann, [[Kathryn Hess]], _Topological exploration of artificial neuronal network dynamics_, [arxiv/1810.01747](https://arxiv.org/abs/1810.01747)
 
