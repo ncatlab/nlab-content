@@ -17,7 +17,7 @@ This page collects material related to the book
 
 * {#Grassmann44} [[Hermann Grassmann]],
 
-  _Die Wissenschaft der extensive Gr&#246;ssen oder die Ausdehnungslehre_
+  _Die Wissenschaft der extensiven Gr&#246;ssen oder die Ausdehnungslehre_
 
     _Erster Teil, die lineale Ausdehnungslehre_,
 
