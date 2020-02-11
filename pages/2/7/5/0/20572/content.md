@@ -3,10 +3,11 @@
 
 ## Selected writings
 
-On [[tensor networks]] for [[holographic entanglement entropy]]:
+On the interpretation of [[tensor networks]] encoding [[holographic entanglement entropy]] as [[quantum error correcting codes]]:
 
 * {#ADH14} [[Ahmed Almheiri]], Xi Dong, [[Daniel Harlow]], _Bulk Locality and Quantum Error Correction in AdS/CFT_, JHEP 1504:163,2015 ([arXiv:1411.7041](https://arxiv.org/abs/1411.7041))
 
+* [[Ahmed Almheiri]], _Holographic Quantum Error Correction and the Projected Black Hole Interior_ ([arXiv:1810.02055](https://arxiv.org/abs/1810.02055))
 
 On the [[black hole firewall problem]]:
 
@@ -19,7 +20,7 @@ On [[AdS/CFT]]-duality for $AdS_2/CFT_1$ via [[Jackiw-Teitelboim gravity]]:
 
 Claim that the proper application of [[holographic entanglement entropy]] to the discussion of [[Bekenstein-Hawking entropy]] resolves the apparent [[black hole information paradox]]:
 
-* [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _Replica Wormholes and the Entropy of Hawking Radiation_ ([arXiv"1911.12333](https://arxiv.org/abs/1911.12333))
+* [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _Replica Wormholes and the Entropy of Hawking Radiation_ ([arXiv:1911.12333](https://arxiv.org/abs/1911.12333))
 
 
 category: people
