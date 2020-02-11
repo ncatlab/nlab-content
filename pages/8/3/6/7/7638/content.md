@@ -20,7 +20,7 @@ The [[categorical semantics]] of an $M$-type is a [[terminal coalgebra of an end
 
 ## References
 
-* [[Benno van den Berg]], de Marchi _Non-well-founded trees in categories_, APAL 146 (2007) 40&#8211;59.
+* [[Benno van den Berg]], de Marchi _Non-well-founded trees in categories_, APAL 146 (2007) 40&#8211;59. [link](https://arxiv.org/abs/math/0409158)
 
 * Benedikt Ahrens, Paolo Capriotti and Régis Spadotti, _Non-wellfounded trees in Homotopy Type Theory_, [link](https://hott.github.io/M-types/)
 
