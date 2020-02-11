@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -8,9 +9,9 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea {#sec:org4b65bd2}
 
@@ -29,6 +30,7 @@ theorem on arithmetic progressions can be reformulated as saying that
 for every coprime positive pair of numbers $a$ and $b$ there exists just
 one nonstandard prime congruent to $a$ modulo $b$.)
 
+
 ## Definition {#sec:org1621e14}
 
 A **nonstandard model of arithmetic** is a proper
@@ -42,6 +44,7 @@ model* $(\mathbb{N}, 0, 1, +, \times, S)$ of first-order
     ultrapower $\mathbb{R}^{\mathcal{U}}$ of $\mathbb{R}$, we can obtain
     the **hypernatural numbers** by taking a countable ultrapower
     $\mathbb{N}^{\mathcal{U}}$.
+
 
 ## Remarks {#sec:orgc4f9a0e}
 
@@ -63,6 +66,7 @@ This is all discussed in e.g. ([Gitman](#Gitman)).
 -   The usual ordering on the natural numbers is definable in
     [[Peano arithmetic|PA]] since
     $a \leq b \iff \exists c$ such that $a + c = b$.
+
 
 ## Denseness of ordering on nonstandard part {#sec:orgf41355d}
 
@@ -139,6 +143,7 @@ Again by the [[Los ultraproduct theorem]], the arithmetic operations in $^*\math
 
 =--
 
+
 ## Countable nonstandard models of arithmetic {#sec:org8d7c98e}
 
 Peano arithmetic is the quintessential [[stability in model theory|unstable theory]], and so there are plenty of
@@ -169,6 +174,7 @@ there would be nothing wrong with just adjoining a single point at infinity and
 generating a single copy of $\mathbb{Z}$ (possible with just the order because you can ask for the next or previous element in the ordering) around that for a countable
 elementary extension of $(\mathbb{N}, &lt;)$.
 
+
 ## Related entries {#sec:orgb56552f}
 
 -   [[natural number]]
@@ -179,6 +185,7 @@ elementary extension of $(\mathbb{N}, &lt;)$.
 
 -   [[Peano arithmetic]]
 
+
 ## References {#sec:org926dcee}
 
 -   {#Gitman}Victoria Gitman, [An introduction to nonstandard models
@@ -186,8 +193,14 @@ elementary extension of $(\mathbb{N}, &lt;)$.
 
 -   R. Kossak and J. H. Schmerl, The structure of models of Peano arithmetic, The Clarendon Press, Oxford University Press, Oxford, 2006, vol. 50. 
 
-[[!redirects nonstandard arithmetic]]
-[[!redirects hypernatural numbers]]
+
+[[!redirects nonstandard model of arithmetic]]
 [[!redirects nonstandard models of arithmetic]]
 [[!redirects nonstandard model of Peano arithmetic]]
 [[!redirects nonstandard models of Peano arithmetic]]
+[[!redirects nonstandard arithmetic]]
+
+[[!redirects hypernatural number]]
+[[!redirects hypernatural numbers]]
+[[!redirects nonstandard natural number]]
+[[!redirects nonstandard natural numbers]]
