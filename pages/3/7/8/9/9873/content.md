@@ -11,6 +11,8 @@ On [[persistent homology]]:
 
 * [[Robert MacPherson]], Benjamin Schweinhart, _Measuring shape with topology_, J. Math. Phys. __53__, 073516 (2012); [doi](http://dx.doi.org/10.1063/1.4737391)
 
+* [[Robert MacPherson]], Amit Patel, _Persistent Local Systems_ ([arXiv:1805.02539](https://arxiv.org/abs/1805.02539))
+
 
 ## Related $n$Lab entries
 
