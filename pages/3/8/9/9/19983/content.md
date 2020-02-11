@@ -47,7 +47,7 @@ on [[homotopy theory]], [[higher algebra]] and [[higher category theory]].
 
 1. [[Daniel Isaksen]], [[Paul Arne Østvær]], _Motivic stable homotopy groups_, ([arXiv:1811.05729](https://arxiv.org/abs/1811.05729))
 
-1. [[Tyler Lawson]], _$E_n$-ring spectra and Dyer-Lashof operations_, ([pdf](http://www-users.math.umn.edu/~tlawson/papers/dyerlashof.pdf))
+1. [[Tyler Lawson]], _$E_n$-ring spectra and Dyer-Lashof operations_, ([arXiv:2002.03889](https://arxiv.org/abs/2002.03889)) (differently-formatted [author pdf](http://www-users.math.umn.edu/~tlawson/papers/dyerlashof.pdf))
 
 1. [[Wolfgang Lueck]], _Assembly Maps_, ([arXiv:1805.00226](https://arxiv.org/abs/1805.00226))
 
