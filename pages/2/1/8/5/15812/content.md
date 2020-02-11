@@ -40,6 +40,10 @@ Discussion in comparison to [[knot|knotted]] states in [[superconductors]]:
 
 * Filipp N. Rybakov, Julien Garaud, Egor Babaev, _Kelvin knots in superconducting state_, Phys. Rev. B 100, 094515 (2019) ([arXiv:1807.02509](https://arxiv.org/abs/1807.02509))
 
+Discussion in relation to [[skyrmions]]:
+
+* {#RanadaTrueba01} Antonio Ranada, J. Trueba, _Force Lines, Vortex Atoms, Topology, and Physics_, Section I.A In: _Topological Electromagnetism with hidden nonlinearlity_ in: Myron Evans (ed.) _Modern Nonlinear Optics -- Part 3_, Wiley 2001 ([doi:10.1002/0471231495.ch2](https://doi.org/10.1002/0471231495.ch2))
+
 
 #Contents#
 * table of contents
@@ -63,6 +67,8 @@ However, according to ([Krage 02, p. 33](#Krage)):
 ## Similarity to concepts of modern particle physics
  {#SimilarityToParticlePhysics}
 
+### Baryogenersis
+
 It is however striking that the modern concept of [[baryogenesis]] via the [[chiral anomaly]] and its sensitivity to [[instantons]] is not too far away from Kelvin's intuition.
 
 To play this out in the most pronounced scenario, consider, for the sake of it, a [[no boundary proposal|Hartle-Hawking no-boundary spacetime]] carrying $N$ [[Yang-Mills instantons]]. Notice that an [[instanton]] is in a precise sense the modern higher dimensional and [[gauge theory|gauge theoretic]] version of what Kelvin knew as a fluid [[vortex]].
@@ -74,6 +80,14 @@ Hence while in the modern picture of baryogenesis via [[gauge anomaly]] an [[ele
 (If one doesn't want to consider a [[no boundary proposal|Hartle-Hawking-type]] Euclidean no-boundary spacetime but instead a [[globally hyperbolic spacetime]] then the conclusion still holds, just not relative to vanishing baryon number at the "south pole" of the cosmic 4-sphere, but relative to the net baryon  number at any chosen spatial reference slice. )
 
 For more on this see at _[baryogenesis -- Exposition](baryogenesis#Exposition)_.
+
+### Skyrmions
+
+[[Skyrmions]] realize [[baryons]] and [[atomic nuclei]] as "knotted states" (in fact as [[cohomotopy]] classes) of a [[meson]]-[[field (physics)|field]].
+
+According to [Ranada-Trueba 01, p. 200](#RanadaTrueba01):
+
+> Skyrme had studied with attention Kelvin's ideas on vortex atoms. 
 
 ## Related entries
 
