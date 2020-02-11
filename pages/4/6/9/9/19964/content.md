@@ -165,7 +165,7 @@ A review is in:
 
 Further development:
 
-* {#Manton11} [[Nicholas Manton]], _Classical Skyrmions -- Static Solutions and Dynamics_ ([arXiv:1106.1298](https://arxiv.org/abs/1106.1298))
+* {#Manton11} [[Nicholas Manton]], _Classical Skyrmions -- Static Solutions and Dynamics_, Mathematical Methods in the applied Sciences, Volume35, Issue10, 2012, Pages 1188-1204 ([arXiv:1106.1298](https://arxiv.org/abs/1106.1298), [doi:10.1002/mma.2512]( https://doi.org/10.1002/mma.2512))
 
 * {#NST11} Atsushi Nakamula, Shin Sasaki, Koki Takesue, _Atiyah-Manton Construction of Skyrmions in Eight Dimensions_, JHEP 03 (2017) 076 ([arXiv:1612.06957](https://arxiv.org/abs/1612.06957))
 
