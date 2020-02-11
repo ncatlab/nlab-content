@@ -4,14 +4,17 @@
 
 ## Selected writings
 
-On [[persistent homology]]:
+On [[topological data analysis]]:
 
+* [[Gunnar Carlsson]], _Topology and data_, Bull. Amer. Math. Soc. 46 (2009), 255-308 ([doi:10.1090/S0273-0979-09-01249-X](https://doi.org/10.1090/S0273-0979-09-01249-X))
+
+
+On [[persistent homology]]:
 
 * A. Zomorodian, [[Gunnar Carlsson]], _Computing persistent homology_, Discrete Comput. Geom. __33__, 249&#8211;274 (2005)
 
 * [[Gunnar Carlsson]], V. de Silva, _Zigzag persistence_, [arXiv:0812.0197](http://arxiv.org/abs/0812.0197)
 
-* [[Gunnar Carlsson]], _Topology and data_, Bull. Amer. Math. Soc. 46 (2009), no. 2, 255-308.
 
 
 ## Related $n$Lab entries 
