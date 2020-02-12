@@ -10,7 +10,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -65,11 +64,17 @@ The concept is due to
 
 * {#GSO77} F. Gliozzi, [[Joël Scherk]], D. I. Olive, _Supersymmetry, Supergravity Theories and the Dual Spinor Model_, Nucl. Phys. B 122 (1977), 253 ([spire](http://inspirehep.net/record/111434))
 
+
+
 Review includes
 
-* {#Majer} Imre Majer, sections 1.3 and 2_Superstrings_ ([pdf](http://edu.itp.phys.ethz.ch/fs13/cft/SuperS2_Majer.pdf), [[MajerSuperstrings.pdf:file]])
+* {#Majer} Imre Majer, sections 1.3 and 2 of: _Superstrings_ ([pdf](http://edu.itp.phys.ethz.ch/fs13/cft/SuperS2_Majer.pdf), [[MajerSuperstrings.pdf:file]])
 
 * _String primer_ around p. 43 in ([arXiv:hep-th/9810240](http://arxiv.org/abs/hep-th/9810240))
+
+See also 
+
+* Wikipedia, _[GSO projection](https://en.wikipedia.org/wiki/GSO_projection)_
 
 That the GSO projection implies [[spacetime]] [[supersymmetry]] is due to
 
@@ -81,20 +86,27 @@ That the GSO projection implies [[spacetime]] [[supersymmetry]] is due to
 
 Superconformal invariance of the spinning string was discussed in
 
-* {#Howe79} [[Paul Howe]], _Super Weyl transformations in two dimensions_ J. Phys. 12 (1979) 393. 
+* {#Howe79} [[Paul Howe]], _Super Weyl transformations in two dimensions_ J. Phys. 12 (1979) 393
+
 
 A review of the history of these developments is in 
 
 * [[John Schwarz]], _String theory origins of supersymmetry_, Nucl. Phys. Proc. Suppl. 101 (2001) 54-61 ([arXiv:hep-th/0011078](http://arxiv.org/abs/hep-th/0011078))
 
+Interpretation of the [[GSO projection]] as a [[sum]] over [[spin structures]]:
+
+* [[Nathan Seiberg]], [[Edward Witten]], _Spin Structures in String Theory_, Nucl. Phys. B276 (1986) 272 ([spire:227193](http://inspirehep.net/record/227193))
+
+
 For discussion in the context of [[D-branes]] ([[boundary conformal field theory]]) see
 
 * [[Jürgen Fuchs]], [[Christoph Schweigert]], J. Walcher, _Projections in string theory and boundary states for Gepner models_, Nucl.Phys. B588 (2000) 110-148 ([arXiv:hep-th/0003298](https://arxiv.org/abs/hep-th/0003298))
 
+Relation of the [[GSO projection]] to the [[K-theory classification of topological phases of matter]]:
 
-See also 
+* Justin Kaidi, Julio Parra-Martinez, [[Yuji Tachikawa]], _Topological Superconductors on Superstring Worldsheets_ ([arXiv:1911.11780](https://arxiv.org/abs/1911.11780))
 
-* Wikipedia, _[GSO projection](https://en.wikipedia.org/wiki/GSO_projection)_
+
 
 
 [[!redirects GSO projections]]
