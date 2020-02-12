@@ -78,7 +78,7 @@ $$ {|{f(b) - f(a)}|} \leq {|{b - a}|} \, \sup_{]{a,b}[} {|{f'}|} ,$$
 which is true even if the derivative is unbounded (in which case the right-hand side is [[infinity|infinite]]).
 =--
 
-In [[constructive mathematics]], the mean-value theorems generally cannot be proved, since it may be impossible to find the value $c$ (although some variations with stronger hypotheses or weaker conclusions can often be proved, similarly to the [[Intermediate-Value Theorem]]).  However, the mean-value inequality is true in constructive mathematics, as long $f$ is [[uniformly differentiable map|uniformly differentiable]] on $[a,b]$.
+In [[constructive mathematics]], the mean-value theorems generally cannot be proved, since it may be impossible to find the value $c$ (although some variations with stronger hypotheses or weaker conclusions can often be proved, similarly to the [[Intermediate-Value Theorem]]).  However, the mean-value inequality is true in constructive mathematics, as long as $f$ is [[uniformly differentiable map|uniformly differentiable]] on $[a,b]$.
 
 The second form of the mean-value inequality shows the relationship of differentiability to [[Lipschitz continuity]]: a continuous function on an interval with bounded derivative on the interior of the interval is Lipschitz continuous on that interval (and the [[supremum]] of the [[absolute value]] of the [[derivative]] is the [[Lipschitz constant]]).
 
