@@ -12,6 +12,8 @@ As is suitable for a member of the philosophical faculty of the university of K&
 
 * [[Dieter Wandschneider|D. Wandschneider]]
 
+* [[Stephan Wannowski]]
+
 ## Links
 
 * [Wikipedia entry(German)](http://de.wikipedia.org/wiki/Karl_Rosenkranz)
@@ -32,6 +34,11 @@ For his contribution to the Hegelian system consult e.g.:
 * K. Rosenkranz, _Wissenschaft der logischen Idee_ - 2 vols., K&#246;nigsberg 1858-59.
 
 * K. Rosenkranz, _Hegels Naturphilosophie und die Bearbeitung derselben durch den italienischen Philosophen Augusto V&#233;ra_ , Olms Hildesheim 1979[1868].
+
+His views on Kant are expressed in
+
+* {#Rosenkranz40} [[Karl Rosenkranz]], _Geschichte der Kant'schen Schule_, Akademie-Verlag Berlin 1987[1840].
+
 
 For a recent assessment of his contribution see
 
