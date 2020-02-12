@@ -27,6 +27,37 @@ Composing pullback of cohomology classes with fiber integration yields the notio
 
 ## Definition
 
+### Fiberwise integration of ordinary differential forms
+
+Consider a smooth [[submersion]]
+$$f\colon T\to B$$
+of [[smooth manifolds]],
+whose fibers have dimension $d$.
+The fiberwise integration of [[differential forms]]
+is a map
+$$f_*\colon\Omega^n(T)\to\Omega^{n-d}(B)$$
+defined as follows.
+Given $\omega\in\Omega^n(T)$,
+the differential $(n-d)$-form $f_*(\omega)$ is constructed as follows.
+
+The value of $f_*(\omega)$ at some
+collection of $(n-d)$ tangent vector fields $v_1$, …, $v_{n-d}$
+is computed as follows.
+
+First, lift each $v_i$ to a section of the quotient bundle
+$T(T)/T(f)$, where $T(f)$ is the [[relative tangent bundle]].
+Lift these sections to sections $u_i$ of $T(T)$ in some arbitrary way.
+Substitute the resulting vector fields on $T$ into the differential
+$n$-form $\omega$, obtaining a differential $d$-form $\psi$.
+Pull back $\psi$ to each of the fibers of the map $f\colon T\to B$,
+obtaining a $d$-form on each of these fibers,
+which does not depend on the choices of liftings $u_i$.
+Now integrate the resulting $d$-form over each of these fibers.
+This gives a number for each $b\in B$, which depends smoothly on $b$.
+This is the value of $f_*(\omega)$ on $v_1$, …, $v_{n-d}$.
+
+See Greub, Halperin, and Vanstone, Volume I, Section VII.7.12.
+
 ### In generalized cohomology via Pontryagin-Thom collapse maps
 
 #### Along maps of manifolds
