@@ -285,6 +285,13 @@ Relation of [[single trace observables]] in the [[non-abelian DBI action]] on [[
 * [[Constantinos Papageorgakis]], p. 161-162 of: _On matrix D-brane dynamics and fuzzy spheres_, 2006 ([[Papageorgakis06.pdf:file]])
 
 
+### In solid state physics
+
+Relation of [[Yang-Mills monopoles]] as [[Dp/D(p+2)-brane intersections]] and [[Yang-Mills instantons]] as [[Dp/D(p+4)-brane intersections]] to the [[K-theory classification of topological phases of matter]] via [[AdS/CFT duality in solid state physics]]:
+
+* [[Koji Hashimoto]], [[Taro Kimura]], _Band spectrum is D-brane_, Progress of Theoretical and Experimental Physics, Volume 2016, Issue 1 ([arXiv:1509.04676](https://arxiv.org/abs/1509.04676))
+
+
 
 [[!redirects Dp-D(p+2)-brane bound states]]
 
