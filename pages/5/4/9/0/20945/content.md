@@ -28,9 +28,15 @@ The [[bound states]]/[[brane intersections]] of [[D3-branes]] with [[D7-branes]]
 
 ## References
 
-Relation to [[spin chain]] for [[single-trace operators]]:
+Relation to [[spin chain]] for [[single trace operators]]:
 
 
 * Marius de Leeuw, Tamás Gombor, Charlotte Kristjansen, Georgios Linardopoulos, Balázs Pozsgay, _Spin Chain Overlaps and the Twisted Yangian_ ([arXiv:1912.09338](https://arxiv.org/abs/1912.09338))
+
+
+
+Relation to the [[K-theory classification of topological phases of matter]] via [[AdS/CFT duality in solid state physics]]:
+
+* Charlotte Kristjansen, Gordon W. Semenoff, _The D3-probe-D7 brane holographic fractional topological insulator_, JHEP10 (2016) 079 ([arXiv:1604.08548](https://arxiv.org/abs/1604.08548))
 
 [[!redirects D3-D7 brane bound states]]
