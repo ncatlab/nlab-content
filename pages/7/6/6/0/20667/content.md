@@ -106,6 +106,13 @@ Discussion as [[half M5-branes]]:
 * {#SatiSchreiber19} [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], Section 4.1 of: _[[schreiber:Equivariant Cohomotopy implies orientifold tadpole cancellation]]_ ([arXiv:1909.12277](https://arxiv.org/abs/1909.12277))
 
 
+### In solid state physics
+
+
+Relation of [[Yang-Mills monopoles]] as [[Dp/D(p+2)-brane intersections]] and [[Yang-Mills instantons]] as [[Dp/D(p+4)-brane intersections]] to the [[K-theory classification of topological phases of matter]] via [[AdS/CFT duality in solid state physics]]:
+
+* [[Koji Hashimoto]], [[Taro Kimura]], _Band spectrum is D-brane_, Progress of Theoretical and Experimental Physics, Volume 2016, Issue 1 ([arXiv:1509.04676](https://arxiv.org/abs/1509.04676))
+
 [[!redirects Dp-D(p+4)-brane bound states]]
 
 
@@ -122,3 +129,7 @@ Discussion as [[half M5-branes]]:
 
 [[!redirects Dp/D(p+4)-brane bound states]]
 [[!redirects Dp/D(p+4)-brane bound state]]
+
+
+[[!redirects Dp/D(p+4)-brane intersection]]
+[[!redirects Dp/D(p+4)-brane intersections]]
