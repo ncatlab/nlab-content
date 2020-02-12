@@ -102,7 +102,7 @@ Further intersection with [[orientifolds]]:
 
 * Gabi Zafrir, _Brane webs in the presence of an $O5^-$-plane and 4d class S theories of type D_, JHEP07 (2016) 035 ([arXiv:1602.00130](https://arxiv.org/abs/1602.00130))
 
-* Taro Kimura, Rui-Dong Zhu, Section 2 and 3  of _Web Construction of ABCDEFG and Affine Quiver Gauge Theories_ ([arXiv:1907.02382](https://arxiv.org/abs/1907.02382))
+* [[Taro Kimura]], Rui-Dong Zhu, Section 2 and 3  of _Web Construction of ABCDEFG and Affine Quiver Gauge Theories_ ([arXiv:1907.02382](https://arxiv.org/abs/1907.02382))
 
 [[!redirects (p,q)5-branes]]
 
