@@ -28,7 +28,7 @@ The [[phases of matter|phases]] of [[condensed matter physics|quantum materials]
 
 ## Properties
 
-### Holgraphic relation to K-theory classification of D-brane charge
+### Holographic relation to K-theory classification of D-brane charge
 
 Under [[AdS/CFT duality in solid state physics]] the [[K-theory classification of topological phases of matter]] corresponds to the [[K-theory classification of D-brane charge]] ([Ryu-Takayanagi 10a](#RyuTakayanagi10a), [Ryu-Takayanagi 10v](#RyuTakayanagi10b))
 
