@@ -114,9 +114,10 @@ Realization ([[geometric engineering of quantum field theory|geometric engineeri
 * {#AharonyHananyKrol97} [[Ofer Aharony]], [[Amihay Hanany]], [[Barak Kol]], _Webs of $(p,q)$ 5-branes, Five Dimensional Field Theories and Grid Diagrams_, JHEP 9801:002,1998 ([arXiv:hep-th/9710116](http://arxiv.org/abs/hep-th/9710116))
 
 * [[Oren Bergman]], Gabi Zafrir, _Lifting 4d dualities to 5d_, JHEP04 (2015) 141 ([arXiv:1410.2806](https://arxiv.org/abs/1410.2806))
+
 Further developments:
 
-* Taro Kimura, Rui-Dong Zhu, Section 2 of _Web Construction of ABCDEFG and Affine Quiver Gauge Theories_ ([arXiv:1907.02382](https://arxiv.org/abs/1907.02382))
+* [[Taro Kimura]], Rui-Dong Zhu, Section 2 of _Web Construction of ABCDEFG and Affine Quiver Gauge Theories_ ([arXiv:1907.02382](https://arxiv.org/abs/1907.02382))
 
 
 [[!redirects  D=5 sYM]]
