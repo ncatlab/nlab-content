@@ -125,6 +125,10 @@ Daniel Murfet has written notes for parts of EGA, see
 
 * [[Daniel Murfet]], [The Rising Sea](http://therisingsea.org/?page_id=3)
 
+Project of classification and transcription
+
+* [SGA, EGA, FGA](https://agrothendieck.github.io/SGAEGAFGA.html) By Mateo Carmona
+
 [[!redirects SGA]]
 [[!redirects FGA]]
 [[!redirects Éléments de géométrie algébrique]]
