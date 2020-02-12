@@ -33,7 +33,7 @@ Under [[AdS/CFT duality in solid state physics]] the [[K-theory]]-classification
 
 * [[Andreas Karch]], Joseph Maciejko, [[Tadashi Takayanagi]], _Holographic fractional topological insulators in 2+1 and 1+1 dimensions_,  Phys. Rev. D 82, 126003 (2010) ([arXiv:1009.2991](https://arxiv.org/abs/1009.2991))
 
-Relation to [[Yang-Mills monopoles]] as [[Dp/D(p+2)-brane bound states]] and [[Yang-Mills instantons]] as [[Dp/D(p+4)-brane bound states]]:
+Relation to [[Yang-Mills monopoles]] as [[Dp/D(p+2)-brane intersections]] and [[Yang-Mills instantons]] as [[Dp/D(p+4)-brane intersections]]:
 
 * [[Koji Hashimoto]], [[Taro Kimura]], _Band spectrum is D-brane_, Progress of Theoretical and Experimental Physics, Volume 2016, Issue 1 ([doi:1509.04676](https://arxiv.org/abs/1509.04676))
 
