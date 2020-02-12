@@ -28,6 +28,7 @@ Linguists may deploy formal methods to understand grammatical strings of words, 
 * [[continuation-passing style]]
 * [[linear logic]], [[modal logic]]
 * [[mathematical linguistics]]
+* [[transcendental grammar]]
 
 ## Literature
 
