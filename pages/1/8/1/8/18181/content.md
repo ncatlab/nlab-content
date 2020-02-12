@@ -318,6 +318,12 @@ Later the authors elaborated on the table of judgements in
 
 * Achourioti and van Lambalgen, _Kant’s Logic Revisited_ (January 2016). In: Proceedings of PhML 2012, Saint Petersburg. Also published (2017) in: The IfCoLog Journal of Logics and their Applications  4(4), 845-865.
 
+For criticism of Kant's work on the categories, see 
+
+* [[Gilbert Ryle]], _Categories_, Proceedings of the Aristotelian Society, New Series, Vol. 38 (1937 - 1938), pp. 189-206.
+
+> Kant's line of approach was, in principle, much more enlightened than Aristotle's had been. Unfortunately his execution was hopelessly misguided.
+
 category: reference
 
 
