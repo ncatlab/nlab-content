@@ -207,6 +207,20 @@ We can then iterate, obtaining the following hierarchy of differentiability.  Be
 
 * One step higher, we may ask whether $f$ is [[analytic function|analytic]] or $C^\omega$.
 
+
+### Uniform differentiability
+
+Note that $f$ is differentiable on a set $U$ iff there is a function $f'$ on $U$ (necessarily unique, assuming that $U$ has no [[isolated points]]) such that
+
+$$ \forall\, \epsilon \gt 0,\; \forall\, x \in U,\; \exists\, \delta \gt 0,\; \forall\, y \in U,\; {|{y - x}|} \lt \delta \;\Rightarrow\; {|{f(y) - f(x) - f'(x)(y - x)}|} \lt \epsilon \,{|{y - x}|} .$$
+
+Reverse quantifiers, and $f$ is __uniformly differentiable__ on $U$ iff there is a function $f'$ on $U$ such that
+
+$$ \forall\, \epsilon \gt 0,\; \exists\, \delta \gt 0,\; \forall\, x \in U,\; \forall\, y \in U,\; {|{y - x}|} \lt \delta \;\Rightarrow\; {|{f(y) - f(x) - f'(x)(y - x)}|} \lt \epsilon \,{|{y - x}|}.$$
+
+In [[classical mathematics]], $f$ is uniformly differentiable if and only if $f$ is differentiable and its derivative $f'$ is [[uniformly continuous map|uniformly continuous]]; in other words, $f$ is uniformly differentiable iff $f$ is _uniformly-continuously differentiable_.  In [[constructive mathematics]], however, the argument only goes one way, and uniform differentiability is stronger.  Furthermore, just as pointwise continuity is not as well behaved constructively as uniform continuity, so pointwise differentiability is not as well behaved constructively as uniform differentiability.  For this reason, uniform differentiability is particularly important in constructive mathematics.
+
+
 ### Symmetry of higher derivatives
 
 If $f:U\to \mathbb{R}^m$ is twice differentiable with $U\subseteq \mathbb{R}^n$, its second derivative
@@ -262,6 +276,7 @@ $$\frac{\partial^2 f}{\partial x_i \partial x_j} = \frac{\partial^2 f}{\partial 
 Continuity of the second-order partials implies that the first-order partials are differentiable, and hence so is the differential $d f$.
 =--
 
+
 ### A direct definition of the second derivative
 
 Note that the proof of the theorem implies that if $f$ is twice differentiable at $x$, then there exists a bilinear map $\partial^2 f_x : \mathbb{R}^n \times \mathbb{R}^n \to \mathbb{R}^m$ such that
@@ -281,6 +296,7 @@ $$ \lim_{\delta \to 0} E(v,\delta e_i) = \frac{d f_{x+v}(e_i) - d f_x(e_i) - \pa
 Now take the limit as $v\to 0$; on the left we get $0$ by assumption, so the function $y\mapsto d f_y(e_i)$ is differentiable at $x$ with derivative $\partial^2 f_x(-,e_i)$.  Thus, $d f$ is differentiable at $x$.
 
 On the other hand, this condition by itself does not even imply that $f$ is continuous.  For instance, if $f$ is a $\mathbb{Q}$-linear map $\mathbb{R}\to \mathbb{R}$, then the second-order difference $f(x+v+w) - f(x+v) - f(x+w) + f(x)$ is identically zero.
+
 
 ### Higher differentiability on tangent spaces and the chain rule
 
@@ -380,6 +396,8 @@ Similarly, in two dimensions we can consider functions such as
 $$ f(x,y) = (x^2+y^2)\sin(\frac{1}{\sqrt{x^2+y^2}}).$$
 together with $f(0,0) = 0$.  This is smooth away from $0$, and once differentiable at $0$, even in the strong sense that it is well-approximated by a linear function near $0$.  However, its derivative is not continuous at $0$.  In particular, this shows that the converse of the theorem "if the partial derivatives exist and are continuous at a point, then the function is differentiable there" fails, even in higher dimensions.
 
+Uniform differentiability is stronger than continuous differentiability but independent of twice differentiability.  For an example that is uniformly differentiable but not twice differentiable, use $f_3$ again.  For an example that that is twice differentiable (and hence continuously differentiable) but not uniformly differentiable, use $x \mapsto x^3$.  However, on a [[compact set|compact]] domain, any continuously differentiable function (and a fortiori any twice differentiable function) must be uniformly continuous (at least in [[classical mathematics|classical]] and [[intuitionistic mathematics]]).
+
 
 ### Symmetry of the second partial derivatives
 
@@ -453,11 +471,23 @@ so $E(v) = v (4\sin(\frac{1}{2v}) - \sin(\frac{1}{v})) \to 0$.
 [[!redirects differentiable maps]]
 [[!redirects differentiable function]]
 [[!redirects differentiable functions]]
+[[!redirects differentiability]]
+
+[[!redirects uniformly differentiable map]]
+[[!redirects uniformly differentiable maps]]
+[[!redirects uniformly differentiable function]]
+[[!redirects uniformly differentiable functions]]
+[[!redirects uniform differentiability]]
 
 [[!redirects twice differentiable map]]
 [[!redirects twice differentiable maps]]
+[[!redirects twice-differentiable map]]
+[[!redirects twice-differentiable maps]]
 [[!redirects twice differentiable function]]
+[[!redirects twice-differentiable functions]]
+[[!redirects twice-differentiable function]]
 [[!redirects twice differentiable functions]]
+[[!redirects twice differentiability]]
 
 [[!redirects C-n map]]
 [[!redirects C-n maps]]
@@ -475,6 +505,3 @@ so $E(v) = v (4\sin(\frac{1}{2v}) - \sin(\frac{1}{v})) \to 0$.
 [[!redirects C^k maps]]
 [[!redirects C^k function]]
 [[!redirects C^k functions]]
-
-
-[[!redirects differentiability]]
