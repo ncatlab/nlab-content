@@ -135,6 +135,8 @@ Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
 
 * Alberto Salvio, _Superconductivity, Superfluidity and Holography_ ([arXiv:1301.0201](http://arxiv.org/abs/1301.0201))
 
+* Rong-Gen Cai, Li Li, Li-Fang Li, Run-Qiu Yang, _Introduction to Holographic Superconductor Models_, Sci China-Phys Mech Astron, 2015, 58(6):060401 ([arXiv:1502.00437](https://arxiv.org/abs/1502.00437))
+
 ### Application to quasicrystals
 
 
