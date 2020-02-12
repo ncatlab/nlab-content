@@ -26,7 +26,9 @@ See also
 
 * Wikipedia, _[Gapped Hamiltonian](https://en.m.wikipedia.org/wiki/Gapped_Hamiltonian)
 
-### K-Theory classification of gapped topological phases of matter
+### K-Theory classification of topological phases of matter
+
+[[topological phases of matter via K-theory -- references]]
 
 Classification of [[condensed matter physics|condensed matter]] with [[gapped Hamiltonians]] ([[topological insulators]], [[topological phases of matter]]) by [[twisted K-theory|twisted]] [[equivariant K-theory|equivariant]] [[topological K-theory]]:
 
