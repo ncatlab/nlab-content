@@ -45,4 +45,12 @@ On [[AdS-CFT in condensed matter physics]]:
 > This is applied AdS/CFT as it should be. Solvable examples exhibit new connections which then can be proven to be correct more generally and are not limited to the toy models that were used to uncover them.
 
 
+On the [[K-theory classification of topological phases of matter]] translating under [[AdS/CFT duality in solid state physics]]  to the [[K-theory classification of D-brane charge]] in [[string theory]], allowing a dual description of the topological phases even at [[non-perturbative effects|strong coupling]] via [[AdS/CFT duality]]:
+
+* Carlos Hoyos-Badajoz, Kristan Jensen, [[Andreas Karch]], _A Holographic Fractional Topological Insulator_, Phys. Rev. D82:086001, 2010 ([arXiv:1007.3253](https://arxiv.org/abs/1007.3253))
+
+
+* [[Andreas Karch]], Joseph Maciejko, [[Tadashi Takayanagi]], _Holographic fractional topological insulators in 2+1 and 1+1 dimensions_,  Phys. Rev. D 82, 126003 (2010) ([arXiv:1009.2991](https://arxiv.org/abs/1009.2991))
+
+
 category: people
