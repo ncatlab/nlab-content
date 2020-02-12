@@ -15,11 +15,23 @@ Classification [[topological phases of matter]] ([[condensed matter physics|cond
 
 * Ralph M. Kaufmann, Dan Li, Birgit Wehefritz-Kaufmann, _Topological insulators and K-theory_ ([arXiv:1510.08001](https://arxiv.org/abs/1510.08001), [spire:1401095/](http://inspirehep.net/record/1401095/))
 
+
+
+* Charles Zhaoxi Xiong, _Classification and Construction of Topological Phases of Quantum Matter_ ([arXiv:1906.02892](https://arxiv.org/abs/1906.02892))
+
+Via [[cobordism cohomology]]:
+
+* [[Anton Kapustin]], [[Ryan Thorngren]], Alex Turzillo, Zitao Wang, _Electrons Fermionic Symmetry Protected Topological Phases and Cobordisms_, 	JHEP 1512:052, 2015 ([arXiv:1406.7329](https://arxiv.org/abs/1406.7329))
+
 * [[Daniel Freed]], [[Michael Hopkins]], _Reflection positivity and invertible topological phases_ ([arXiv:1604.06527](https://arxiv.org/abs/1604.06527))
 
 * [[Daniel Freed]], _Lectures on field theory and topology_ ([cds:2699265](https://cds.cern.ch/record/2699265))
 
-* Charles Zhaoxi Xiong, _Classification and Construction of Topological Phases of Quantum Matter_ ([arXiv:1906.02892](https://arxiv.org/abs/1906.02892))
+Relation to the [[GSO projection]]:
+
+* Justin Kaidi, Julio Parra-Martinez, [[Yuji Tachikawa]], _Topological Superconductors on Superstring Worldsheets_ ([arXiv:1911.11780](https://arxiv.org/abs/1911.11780))
+
+
 
 #### Holographic  
 
@@ -35,5 +47,8 @@ Under [[AdS/CFT duality in solid state physics]] the [[K-theory]]-classification
 
 Relation to [[Yang-Mills monopoles]] as [[Dp/D(p+2)-brane intersections]] and [[Yang-Mills instantons]] as [[Dp/D(p+4)-brane intersections]]:
 
-* [[Koji Hashimoto]], [[Taro Kimura]], _Band spectrum is D-brane_, Progress of Theoretical and Experimental Physics, Volume 2016, Issue 1 ([doi:1509.04676](https://arxiv.org/abs/1509.04676))
+* [[Koji Hashimoto]], [[Taro Kimura]], _Band spectrum is D-brane_, Progress of Theoretical and Experimental Physics, Volume 2016, Issue 1 ([arXiv:1509.04676](https://arxiv.org/abs/1509.04676))
+
+* Charlotte Kristjansen, Gordon W. Semenoff, _The D3-probe-D7 brane holographic fractional topological insulator_, JHEP10 (2016) 079 ([arXiv:1604.08548](https://arxiv.org/abs/1604.08548))
+
 
