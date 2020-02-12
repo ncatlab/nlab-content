@@ -1,11 +1,10 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Physics
+#### Solid state physics
 +-- {: .hide}
-[[!include physicscontents]]
+[[!include solid state physics -- contents]]
 =--
 =--
 =--
@@ -31,7 +30,7 @@
 
 * [[quark-gluon plasma]]
 
-* [[topological state of matter]]
+* [[topological phase of matter]], [[topological state of matter]]
 
   [[topological order]]
 
