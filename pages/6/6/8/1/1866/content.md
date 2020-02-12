@@ -53,9 +53,11 @@ The RR field derives its name from the way it shows up when the [[supergravity]]
 
 * [[D-brane charge]]
 
-* [[differential K-theory]]
+* [[K-theory classification of topological D-brane charge]]
 
-* [[KK-theory]]
+  * [[differential K-theory]]
+
+  * [[KK-theory]]
 
 [[!include table of branes]]
 
