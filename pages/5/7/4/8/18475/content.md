@@ -150,6 +150,8 @@ Proposed realization of aspects of [[p-adic AdS/CFT correspondence]] in [[solid-
 
 * Gregory Bentsen, Tomohiro Hashizume, Anton S. Buyskikh, Emily J. Davis, Andrew J. Daley, [[Steven Gubser]], Monika Schleier-Smith, _Treelike interactions and fast scrambling with cold atoms_, Phys. Rev. Lett. 123, 130601 (2019) ([arXiv:1905.11430](https://arxiv.org/abs/1905.11430))
 
+[[!include topological phases of matter via K-theory -- references]]
+
 
 
 [[!redirects AdS/CFT in condensed matter physics]]
