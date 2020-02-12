@@ -11,8 +11,14 @@
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
+#### Solid state physics
++-- {: .hide}
+[[!include solid state physics -- contents]]
 =--
 =--
+=--
+
+
 
 
 #Contents#
