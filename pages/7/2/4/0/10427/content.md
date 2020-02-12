@@ -90,6 +90,9 @@ Specifically for [[cohesive homotopy type theory]] see:
 
 * {#Wellen18} [[Felix Wellen]], _[[schreiber:thesis Wellen|Cartan Geometry in Modal Homotopy Type Theory]]_ ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966), [thesis pdf](http://www.math.kit.edu/iag3/~wellen/media/diss.pdf))
 
+* {#Myers08} [[David Jaz Myers]], _Good Fibrations through the Modal Prism_ ([arXiv:1908.08034v2](https://arxiv.org/abs/1908.08034))
+
+
 
 [[!redirects modal homotopy type theories]]
 
