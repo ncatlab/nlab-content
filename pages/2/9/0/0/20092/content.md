@@ -39,7 +39,7 @@ See also
 
 The [[skyrmion]] [[model (in theoretical physics)|model]] with $\rho$-mesons for light [[atomic nuclei]]:
 
-* {#NayaSutcliffe18} Carlos Naya, [[Paul Sutcliffe]], _Skyrmions and clustering in light nuclei_, Phys. Rev. Lett. 121, 232002 (2018) ([arXiv:1811.02064](https://arxiv.org/abs/1811.02064)) 
+* {#NayaSutcliffe18} [[Carlos Naya]], [[Paul Sutcliffe]], _Skyrmions and clustering in light nuclei_, Phys. Rev. Lett. 121, 232002 (2018) ([arXiv:1811.02064](https://arxiv.org/abs/1811.02064)) 
 
 
 [[!redirects rho mesons]]
