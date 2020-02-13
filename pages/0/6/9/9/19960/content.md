@@ -375,7 +375,7 @@ and based on
 
 further developed in 
 
-* {#Bartolini17} Lorenzo Bartolini, Stefano Bolognesi, Andrea Proto, _From the Sakai-Sugimoto Model to the Generalized Skyrme Model_, Phys. Rev. D 97, 014024 2018 ([arXiv:1711.03873](https://arxiv.org/abs/1711.03873))
+* {#Bartolini17} Lorenzo Bartolini, [[Stefano Bolognesi]], Andrea Proto, _From the Sakai-Sugimoto Model to the Generalized Skyrme Model_, Phys. Rev. D 97, 014024 2018 ([arXiv:1711.03873](https://arxiv.org/abs/1711.03873))
 
 reviewed in 
 
@@ -542,8 +542,7 @@ Review:
 * Hiroyuki Hata, Masaki Murata, _Baryons and the Chern-Simons term in holographic QCD with three flavors_ ([arXiv:0710.2579](https://arxiv.org/abs/0710.2579))
 
 
-
-* Salvatore Baldino, Stefano Bolognesi, Sven Bjarke Gudnason, Deniz Koksal, _A Solitonic Approach to Holographic Nuclear Physics_, Phys. Rev. D 96, 034008 (2017) ([arXiv:1703.08695](https://arxiv.org/abs/1703.08695))
+* Salvatore Baldino, [[Stefano Bolognesi]], Sven Bjarke Gudnason, Deniz Koksal, _A Solitonic Approach to Holographic Nuclear Physics_, Phys. Rev. D 96, 034008 (2017) ([arXiv:1703.08695](https://arxiv.org/abs/1703.08695))
 
 * Chandan Mondal, Dipankar Chakrabarti, Xingbo Zhao, _Deuteron transverse densities in holographic QCD_, Eur. Phys. J. A 53, 106 (2017) ([arXiv:1705.05808](https://arxiv.org/abs/1705.05808))
 
@@ -621,11 +620,12 @@ Original articles
 * Hovhannes R. Grigoryan, _Baryon as skyrmion-like soliton from the
 holographic dual model of QCD_, talk at _[From Strings to Things 2008](http://www.int.washington.edu/PROGRAMS/08-1.html)_ ([pdf](https://www.jlab.org/div_dept/theory/talks/2008/grigoryan08_INT.pdf))
 
-* Paul Sutcliffe, _Skyrmions, instantons and holography_, JHEP 1008:019, 2010 ([arXiv:1003.0023](https://arxiv.org/abs/1003.0023)) 
+* [[Paul Sutcliffe]], _Skyrmions, instantons and holography_, JHEP 1008:019, 2010 ([arXiv:1003.0023](https://arxiv.org/abs/1003.0023)) 
 
-* Paul Sutcliffe, _Holographic Skyrmions_, Mod.Phys.Lett. B29 (2015) no.16, 1540051 ([spire:1383608](http://inspirehep.net/record/1383608))
+* [[Stefano Bolognesi]], [[Paul Sutcliffe]], _The Sakai-Sugimoto soliton_, JHEP 1401:078, 2014 ([arXiv:1309.1396](https://arxiv.org/abs/1309.1396))
 
-* Stefano Bolognesi, Paul Sutcliffe, _The Sakai-Sugimoto soliton_, JHEP 1401:078, 2014 ([arXiv:1309.1396](https://arxiv.org/abs/1309.1396))
+* [[Paul Sutcliffe]], _Holographic Skyrmions_, Mod. Phys. Lett. B29 (2015) no. 16, 1540051 ([spire:1383608](http://inspirehep.net/record/1383608))
+
 
 
 
