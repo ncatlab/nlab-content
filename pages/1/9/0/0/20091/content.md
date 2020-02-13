@@ -15,9 +15,14 @@ Discussion relating [[skyrmions]] with [[instantons]], [[calorons]] and [[solito
 
 On [[skyrmions]] as [[model (in theoretical physics)|models]] of [[atomic nuclei]]:
 
-* {#BattyeMantonSutcliffe10} R. A. Battye, [[Nicholas Manton]], [[Paul Sutcliffe]], _Skyrmions and Nuclei_, pp. 3-39 (2010) ([doi:10.1142/9789814280709_0001](https://doi.org/10.1142/9789814280709_0001)) in:  M. Rho, Ismail Zahed (eds.) _The Multifaceted Skyrmion_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+* {#BattyeMantonSutcliffe10} R. A. Battye, [[Nicholas Manton]], [[Paul Sutcliffe]], _Skyrmions and Nuclei_, pp. 3-39 (2010) ([doi:10.1142/9789814280709_0001](https://doi.org/10.1142/9789814280709_0001)) in:  [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
-* {#NayaSutcliffe18} [[Carlos Naya]], [[Paul Sutcliffe]], _Skyrmions and clustering in light nuclei_, Phys. Rev. Lett. 121, 232002 (2018) ([arXiv:1811.02064](https://arxiv.org/abs/1811.02064)) 
+including beyond the [[pion]] also the [[rho-meson]]:
+
+
+* {#NayaSutcliffe18a} [[Carlos Naya]], [[Paul Sutcliffe]], _Skyrmions and clustering in light nuclei_, Phys. Rev. Lett. 121, 232002 (2018) ([arXiv:1811.02064](https://arxiv.org/abs/1811.02064)) 
+
+* {#NayaSutcliffe18b} [[Carlos Naya]], [[Paul Sutcliffe]], _Skyrmions in models with pions and rho_, JHEP 05 (2018) 174 ([arXiv:1803.06098](https://arxiv.org/abs/1803.06098))
 
   APS Synopsis: _[Revamping the Skyrmion Model](https://physics.aps.org/synopsis-for/10.1103/PhysRevLett.121.232002)_, 2018 
 
