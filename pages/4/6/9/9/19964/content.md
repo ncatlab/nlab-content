@@ -117,7 +117,7 @@ For Skyrmion models of nuclei to match well to [[experiment]], not just the [[pi
 ### As a holographic boundary theory
  {#AsBoundaryFieldTheory}
 
-With suitable care, the Skyrme model [above](#Definition) arises as the [[AdS-CFT|holographic]] [[boundary field theory]] of that of  5d $G$-[[Yang-Mills theory]] ([Sakai-Sugimoto 04, Section 5.2](#SakaiSugimoto04), [Sakai-Sugimoto 05, Section 3.3](#SakaiSugimoto05), reviewed in [Sugimoto 16, Section 15.3.4](#Sugimoto16), [Bartolini 17, Section 2](#Bartolini17)).
+With suitable care, the Skyrme model [above](#Definition) arises as the [[AdS-CFT|holographic]] [[boundary field theory]] of that of  5d $G$-[[Yang-Mills theory]] ([Sakai-Sugimoto 04, Section 5.2](#SakaiSugimoto04), [Sakai-Sugimoto 05, Section 3.3](#SakaiSugimoto05), reviewed in [Sugimoto 16, Section 15.3.4](#Sugimoto16), [Bartolini 17, Section 2](#Bartolini17), see also [Sutcliffe 10](#Sutcliffe10)).
 
 In this way Skyrmions (and hence [[baryons]] and [[atomic nuclei]], see [below](#AsAModelForBaryonsAndNuclei)) appear in the [[Witten-Sakai-Sugimoto model]], which realizes (something close to) [[non-perturbative quantum field theory|non-perturbative]] [[QCD]] as an [[intersecting D-brane model]] described by [[AdS-QCD correspondence]].
 
@@ -192,6 +192,10 @@ See also
 
 * Wikipedia, _[Skyrmion](https://en.wikipedia.org/wiki/Skyrmion)_
 
+Further resources
+
+* _[Geometric models of Nuclear Matter Conference 2014](https://www.kent.ac.uk/smsas/personal/skyrmions/conference.html)_ 
+
 ### As models for atomic nculei
  {#ReferencesAsModelsForAtomicNuclei}
 
@@ -205,6 +209,9 @@ Skyrmions modelling [[atomic nuclei]]:
 * {#Manton16} [[Nicholas Manton]], _Skyrmions and Nuclei_, talk at Brookhaven National Lab, November 2016 ([pdf](https://quark.phy.bnl.gov/~pisarski/talks/Manton_SkyBNL.pdf))
 
 * {#NayaSutcliffe18} Carlos Naya, [[Paul Sutcliffe]], _Skyrmions and clustering in light nuclei_, Phys. Rev. Lett. 121, 232002 (2018) ([arXiv:1811.02064](https://arxiv.org/abs/1811.02064)) 
+
+  APS Synopsis: _[Revamping the Skyrmion Model](https://physics.aps.org/synopsis-for/10.1103/PhysRevLett.121.232002)_, 2018 
+
 
 For [[carbon]]:
 
@@ -227,6 +234,8 @@ based on
 
 * {#Sutcliffe10} [[Paul Sutcliffe]], _Skyrmions, instantons and holography_, JHEP 1008:019, 2010 ([arXiv:1003.0023](https://arxiv.org/abs/1003.0023))
 
+which in turn relates to a [[Minkowski spacetime]]-version of the holographic realization of Skyrmions in the [[Sakai-Sugimoto model]] ([[AdS/QCD correspondence]]).
+
 ### In solid state physics
 
 In [[solid state physics]] skyrmions in the magnetization of thin atomic layers are known as magnetic skyrmions. 
@@ -237,7 +246,7 @@ See:
 
 
 
-### In string theory
+### Via holography in string theory
 
 In [[string theory]], specifically in the [[AdS-QCD correspondence]] in the form of the [[Witten-Sakai-Sugimoto model]] the skyrmion was found in
 
@@ -245,8 +254,15 @@ In [[string theory]], specifically in the [[AdS-QCD correspondence]] in the form
 
 * {#SakaiSugimoto05} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], section 3.3. of _More on a holographic dual of QCD_, Prog.Theor.Phys.114:1083-1118, 2005 ([arXiv:hep-th/0507073](https://arxiv.org/abs/hep-th/0507073))
 
-* {#Bartolini17} Lorenzo Bartolini, Stefano Bolognesi, Andrea Proto, _From the Sakai-Sugimoto Model to the Generalized Skyrme Model_, Phys. Rev. D 97, 014024 2018 ([arXiv:1711.03873](https://arxiv.org/abs/1711.03873))
+* {#Bartolini17} Lorenzo Bartolini, [[Stefano Bolognesi]], Andrea Proto, _From the Sakai-Sugimoto Model to the Generalized Skyrme Model_, Phys. Rev. D 97, 014024 2018 ([arXiv:1711.03873](https://arxiv.org/abs/1711.03873))
 
+See also
+
+* [Sutcliffe 10](#Sutcliffe10)
+
+* {#BolognesiSutcliffe13} [[Stefano Bolognesi]], [[Paul Sutcliffe]], _The Sakai-Sugimoto soliton_, JHEP 1401:078, 2014 ([arXiv:1309.1396](https://arxiv.org/abs/1309.1396))
+
+* {#Sutcliffe15} [[Paul Sutcliffe]], _Holographic Skyrmions_, Mod. Phys. Lett. B29 (2015) no. 16, 1540051 ([spire:1383608](http://inspirehep.net/record/1383608))
 
 Review is in
 
