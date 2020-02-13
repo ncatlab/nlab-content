@@ -93,7 +93,7 @@ A _classical Skyrmion_ is a solution to the corresponding [[Euler-Lagrange equat
 ### As a model for atomic nuclei
  {#AsAModelForBaryonsAndNuclei}
 
-Skyrmions are candidate models for [[baryons]] and even some aspects of [[atomic nuclei]] ([Riska 93](#Riska93), [Battye-Manton-Sutcliffe 10](#BattyeMantonSutcliffe10), [Manton 16](#Manton16), [Naya-Sutcliffe 18](#NayaSutcliffe18)).
+Skyrmions are candidate models for [[baryons]] and even some aspects of [[atomic nuclei]] ([Riska 93](#Riska93), [Battye-Manton-Sutcliffe 10](#BattyeMantonSutcliffe10), [Manton 16](#Manton16), [Naya-Sutcliffe 18a](#NayaSutcliffe18a), [Naya-Sutcliffe 18b](#NayaSutcliffe18b}).
 
 
 For instance various resonances of the [[carbon]] [[nucleus]] are modeled well by a Skyrmion with baryon number 12 ([Lau-Manton 14](#LauManton14)): 
@@ -104,7 +104,7 @@ For instance various resonances of the [[carbon]] [[nucleus]] are modeled well b
 
 > graphics grabbed form [Lau-Manton 14](#LauManton14)
 
-For Skyrmion models of nuclei to match well to [[experiment]], not just the [[pion field]] but also the heavier [[mesons]] need to be included in the construction. Including the [[rho meson]] gives good results for light nuclei ([Naya-Sutcliffe 18](#NayaSutcliffe18))
+For Skyrmion models of nuclei to match well to [[experiment]], not just the [[pion field]] but also the heavier [[mesons]] need to be included in the construction. Including the [[rho meson]] gives good results for light nuclei ([Naya-Sutcliffe 18a](#NayaSutcliffe18a), [Naya-Sutcliffe 18b](#NayaSutcliffe18b))
 
 
 \begin{center}
@@ -167,7 +167,7 @@ The original article is
 
 A review is in:
 
-* {#RhoZahed16} M. Rho, Ismail Zahed (eds.) _The Multifaceted Skyrmion_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+* {#RhoZahed16} [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
 Further development:
 
@@ -203,12 +203,15 @@ Skyrmions modelling [[atomic nuclei]]:
 
 * {#Riska93} D. O. Riska, _Baryons and nuclei as skyrmions_,  Czech J Phys (1993) 43: 449 ([doi:10.1007/BF01589856](https://doi.org/10.1007/BF01589856))
 
-* {#BattyeMantonSutcliffe10} R. A. Battye, [[Nicholas Manton]], [[Paul Sutcliffe]], _Skyrmions and Nuclei_, pp. 3-39 (2010) ([doi:10.1142/9789814280709_0001](https://doi.org/10.1142/9789814280709_0001)) in:  M. Rho, Ismail Zahed (eds.) _The Multifaceted Skyrmion_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+* {#BattyeMantonSutcliffe10} R. A. Battye, [[Nicholas Manton]], [[Paul Sutcliffe]], _Skyrmions and Nuclei_, pp. 3-39 (2010) ([doi:10.1142/9789814280709_0001](https://doi.org/10.1142/9789814280709_0001)) in:  [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
 
 * {#Manton16} [[Nicholas Manton]], _Skyrmions and Nuclei_, talk at Brookhaven National Lab, November 2016 ([pdf](https://quark.phy.bnl.gov/~pisarski/talks/Manton_SkyBNL.pdf))
 
-* {#NayaSutcliffe18} Carlos Naya, [[Paul Sutcliffe]], _Skyrmions and clustering in light nuclei_, Phys. Rev. Lett. 121, 232002 (2018) ([arXiv:1811.02064](https://arxiv.org/abs/1811.02064)) 
+* {#NayaSutcliffe18a} [[Carlos Naya]], [[Paul Sutcliffe]], _Skyrmions and clustering in light nuclei_, Phys. Rev. Lett. 121, 232002 (2018) ([arXiv:1811.02064](https://arxiv.org/abs/1811.02064)) 
+
+* {#NayaSutcliffe18b} [[Carlos Naya]], [[Paul Sutcliffe]], _Skyrmions in models with pions and rho_, JHEP 05 (2018) 174 ([arXiv:1803.06098](https://arxiv.org/abs/1803.06098))
+
 
   APS Synopsis: _[Revamping the Skyrmion Model](https://physics.aps.org/synopsis-for/10.1103/PhysRevLett.121.232002)_, 2018 
 
@@ -216,6 +219,22 @@ Skyrmions modelling [[atomic nuclei]]:
 For [[carbon]]:
 
 * {#LauManton14} P.H.C. Lau, [[Nicholas Manton]], _States of Carbon-12 in the Skyrme Model_,  Phys. Rev. Lett. 113, 232503 (2014) ([arXiv:1408.6680](https://arxiv.org/abs/1408.6680))
+
+### As models for neutron stars
+
+Discussion of [[model (in theoretical physics)|models]] of [[neutron stars]] by [[Skyrmions]]:
+
+* C. Adam, [[Carlos Naya]], J. Sanchez-Guillen, R. Vazquez, A. Wereszczynski, _BPS Skyrmions as neutron stars_, Physics Letters B
+Volume 742, 6 March 2015, Pages 136-142 ([arXiv:1407.3799](https://arxiv.org/abs/1407.3799))
+
+* C. Adam, [[Carlos Naya]], J. Sanchez-Guillen, R. Vazquez, A. Wereszczynski, _Neutron stars in the BPS Skyrme model: mean-field limit vs. full field theory_, Phys. Rev. C 92, 025802 (2015) ([arXiv:1503.03095](https://arxiv.org/abs/1503.03095))
+
+
+* Xiang-Hai Liu, Yong-Liang Ma, [[Mannque Rho]], _Topology change and nuclear symmetry energy in compact-star matter_, Phys. Rev. C 99, 055808 (2019) ([arXiv:1811.10012](https://arxiv.org/abs/1811.10012))
+
+
+
+* [[Carlos Naya]], _Neutron stars within the Skyrme model_, 	Int. J. Mod. Phys. E 28, 1930006 (2019) ([arXiv:1910.01145](https://arxiv.org/abs/1910.01145))
 
 
 ### Relation to instantons, calorons, solitons, monopoles
