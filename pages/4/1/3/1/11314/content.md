@@ -21,9 +21,16 @@ Since the nature of [[atoms]] is described by [[quantum mechanics]] and since [[
 
 ### Topological quantum chemistry
 
+In relation to nontrivial [[topology]] ([[knot]]-structure) of [[molecules]]:
+
+* [[Nils Baas]], [[Nadrian Seeman]], _On the chemical synthesis of new topological structures_, J Math Chem (2012) 50: 220 ([doi:10.1007/s10910-011-9907-3](https://doi.org/10.1007/s10910-011-9907-3))
+
+* [[Nils Baas]], [[Nadrian Seeman]], [[Andrew Stacey]], _Synthesising Topological Links_, J Math Chem. 2015 Jan; 53(1): 183–199 (<a href="https://link.springer.com/article/10.1007\%2Fs10910-014-0420-3">doi:10.1007\%2Fs10910-014-0420-3</a>)
+
 In relation to [[topological phases of matter]]:
 
 * Barry Bradlyn, L. Elcoro, Jennifer Cano, M. G. Vergniory, Zhijun Wang, C. Felser, M. I. Aroyo & B. Andrei Bernevig, _Topological quantum chemistry_, Nature volume 547, pages 298–305 (2017) ([doi:10.1038/nature23268](https://doi.org/10.1038/nature23268))
+
 
 
 ### Application of tensor network states
