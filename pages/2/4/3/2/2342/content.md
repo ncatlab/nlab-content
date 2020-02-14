@@ -314,7 +314,7 @@ These structures are useful in that the [[moduli stack]] of [[elliptic curves wi
 
 ### Group law 
 
-Given an [[elliptic curve]] over $R$, $E \to Spec R$, we get a [[formal group]] $\hat E$ by completing $D$ along its identity [[section]] $\sigma_0$
+Given an [[elliptic curve]] over $R$, $E \to Spec R$, we get a [[formal group]] $\hat E$ by completing $E$ along its identity [[section]] $\sigma_0$
 
 $$
   E \to Spec(R) \stackrel{\sigma_0}{\to} E
