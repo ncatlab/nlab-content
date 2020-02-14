@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+#### Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -27,8 +42,15 @@ Specifically via [[Chern-Simons theory]] and the [[quantum Hall effect]]:
 
 * D. Melnikov, A. Mironov, S. Mironov, A. Morozov, An. Morozov, _A modular functor which is universal for quantum computation_, Nucl. Phys. B926 (2018) 491-508 ([arXiv:1703.00431](https://arxiv.org/abs/1703.00431))
 
+* Eric C. Rowell, Zhenghan Wang, _Mathematics of Topological Quantum Computing_, Bull. Amer. Math. Soc. 55 (2018), 183-238 ([arXiv:1705.06206](https://arxiv.org/abs/1705.06206), [doi:10.1090/bull/1605](https://doi.org/10.1090/bull/1605))
+
 
 [[!redirects topological quantum computing]]
 
+[[!redirects topological quantum computation]]
+
+
 [[!redirects topological quantum computer]]
 [[!redirects topological quantum computers]]
+
+
