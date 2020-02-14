@@ -31,7 +31,9 @@ __Hydrodynamics__ is the dynamics of liquids, i.e. of low compressible fluids. I
 
 * L. D. Landau, E. M. Lifschitz, _Fluid mechanics_ (Russian original is _Hydrodynamics_), vol. 6 of the [[Landau-Lifschitz|Course of Theoretical Physics]], Pergamon Press
 
-* [[Vladimir I. Arnold]], Boris A. Khesin, _Topological methods in hydrodynamics_ Applied Mathematical Sciences __125__, Springer
+* [[Vladimir Arnold]], [[Boris Khesin]], _Topological methods in hydrodynamics_, Applied Mathematical Sciences __125__, Springer 1998 ([doi:10.1007/b97593](https://link.springer.com/book/10.1007/b97593))
+
+  (using methods of [[topology]] and [[homotopy theory]])
 
 * [[Dennis Sullivan]], _Algebra, topology and algebraic topology of 3D ideal fluids_, [arxiv/1010.2721](http://arxiv.org/abs/1010.2721) 
 
