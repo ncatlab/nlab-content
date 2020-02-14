@@ -115,6 +115,8 @@ General:
 
 * G. Burde, H. Zieschang, _Knots_, De Gruyter (1989).
 
+* [[Michael Atiyah]], _The Geometry and Physics of Knots_,  Cambridge University Press 1990 ([doi:10.1017/CBO9780511623868](https://doi.org/10.1017/CBO9780511623868))
+
 * [[N. D. Gilbert]], [[T. Porter]], _Knots and surfaces_, Oxford U.P., 1994.
 
 * Dale Rolfsen, _Knots and links_, AMS Chelsea, vol. __346__, 2003.
