@@ -83,6 +83,23 @@ If we define an **interval** to be a pair $(L,U)$ where $L$ is an extended lower
 Since the extended MacNeille reals are a reflective sub-poset of the extended lower reals and a coreflective sub-poset of the extended upper reals, they are closed in the former under [[infima]] and in the latter under [[suprema]].  In particular, they are a complete lattice.  Note, though, that neither infima nor suprema are constructed as set-theoretic unions (unlike infima of upper reals and suprema of lower reals), which makes them less useful for purposes of constructive analysis.  (On the other hand, the extended located real numbers are not, constructively, a complete lattice at all.)
 
 
+### Strict ordering
+
+Recall that the MacNeille reals are a poset in which $(L_1, U_1) \leq (L_2, U_2)$ iff $L_1 \subseteq L_2$ iff $U_1 \supseteq U_2$.  This relation $\leq$ may be called the _weak ordering_ on MacNeille reals.
+
+There is also a _strict (or strong) ordering_ $\lt$ defined by
+
+*  $(L_1, U_1) \lt (L_2, U_2)$ iff $U_1$ meets $L_2$ (meaning that the [[intersection]] $U_1 \cap L_2$ is [[inhabited subset|inhabited]]).
+
+That is, $x \lt y$ iff for some rational number $q$, $x \lt q \lt y$.
+
+This restricts to the usual strict order $\lt$ on Dedekind reals.  We also have for any rational number $q$ that $x \lt q$ by this new strict order iff $x \lt q$ in the previously known sense (that $q$ belongs to the upper set of $x$), and similarly for $x \gt q$.
+
+For Dedekind reals, the strict ordering is often taken to be the more basic concept, as the weak ordering can be derived from it ($\leq$ is the [[negation]] of $\gt$).  However, this is not so for the MacNeille reals, and the two orderings (weak and strict) exist separately.
+
+They are not entirely unrelated, however; we do have $x \lt z$ whenever $x \lt y \leq z$ or $x \leq y \lt z$.  Also, while neither of $\leq$ and $\gt$ is the negation of the other, they are mutually exclusive, and it is impossible for both to be false.
+
+
 ## References
 
 * Section D4.7 of [[Sketches of an Elephant]]
