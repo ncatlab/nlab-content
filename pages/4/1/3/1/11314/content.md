@@ -19,6 +19,13 @@ Since the nature of [[atoms]] is described by [[quantum mechanics]] and since [[
 
 * {#Feynman63} [[Richard Feynman]], _The Feynman Lectures on Physics, vol III_, Chapter 19, [Lectures](http://www.feynmanlectures.caltech.edu/III_toc.html)
 
+### Topological quantum chemistry
+
+In relation to [[topological phases of matter]]:
+
+* Barry Bradlyn, L. Elcoro, Jennifer Cano, M. G. Vergniory, Zhijun Wang, C. Felser, M. I. Aroyo & B. Andrei Bernevig, _Topological quantum chemistry_, Nature volume 547, pages 298–305 (2017) ([doi:10.1038/nature23268](https://doi.org/10.1038/nature23268))
+
+
 ### Application of tensor network states
 
 Application of [[tensor networks]] (specifically [[tree tensor networks]]) in quantum chemistry:
