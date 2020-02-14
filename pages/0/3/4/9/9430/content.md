@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {: toc}
@@ -60,6 +61,8 @@ See also
 * [[Tim Porter]], _Observing Information: Applied Computational Topology_ 2008 ([[ACT-OIT.pdf|Slides:file]])
 
 * Sara Kališnik, _Persistent homology and duality_, 2013 ([pdf](http://www.matknjiz.si/doktorati/2013/Kalisnik-14521-4.pdf), [[KalisnikPersistent.pdf:file]])
+
+* Bei Wang, _Topological Data Analysis_, Lecture 2010 ([[WangTopologicalDataAnalysis.pdf:file]])
 
 * Wikipedia, _[Persistent homology](https://en.wikipedia.org/wiki/Persistent_homology)_
 
