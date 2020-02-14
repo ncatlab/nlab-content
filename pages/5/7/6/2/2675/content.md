@@ -12,6 +12,10 @@ On the [[real cohomology]] of [[configuration spaces of points]]:
 
 * {#Arnold69} [[Vladimir Arnold]], _The cohomology ring of the colored braid group_, Mat. Zametki, 1969, Volume 5, Issue 2, Pages 227–231 ([mathnet:mz6827](http://mi.mathnet.ru/eng/mz6827))
 
+On methods of [[topology]] and [[homotopy theory]] in [[hydrodynamics]]:
+
+* [[Vladimir Arnold]], [[Boris Khesin]], _Topological methods in hydrodynamics_, Applied Mathematical Sciences __125__, Springer 1998 ([doi:10.1007/b97593](https://link.springer.com/book/10.1007/b97593))
+
 
 
 ## Related $n$Lab entries
