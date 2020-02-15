@@ -20,7 +20,7 @@ The category of [[pointed object|pointed objects]] $1\backslash \mathcal{E}$ of 
 
 ## Definition
 
-Let $\mathcal{E}$ be a topos. The _topos $^\bullet\mathcal{E}$ of pointed objects_ has objects the morphisms $1\to X$ and morphisms pulback squares:
+Let $\mathcal{E}$ be a topos. The _topos $^\bullet\mathcal{E}$ of pointed objects_ has objects the morphisms $1\to X$ and morphisms pullback squares:
 
 $$
 \begin{array}{cccc}1& \to  & X   \\
