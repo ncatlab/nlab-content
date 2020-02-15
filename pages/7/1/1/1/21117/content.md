@@ -20,6 +20,10 @@
 
 ### General
 
+* Simon J. Devitt, Kae Nemoto, William J. Munro, _Quantum Error Correction for Beginners_, Rep. Prog. Phys. 76 (2013) 076001 ([arXiv:0905.2794](https://arxiv.org/abs/0905.2794))
+
+See also
+
 * Wikipedia, _[Quantum error correction](https://en.m.wikipedia.org/wiki/Quantum_error_correction)_
 
 ### Via holographic tensor networks
