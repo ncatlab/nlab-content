@@ -16,4 +16,4 @@ On [[topology]] ([[knot]]-structure) of [[molecules]] in [[quantum chemistry]]:
 
 category: people
 
-redirects: Ned Seeman
+[!redirects: Ned Seeman]
