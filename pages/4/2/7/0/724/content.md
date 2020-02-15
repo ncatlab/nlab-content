@@ -23,7 +23,7 @@
 
 ## Definition
 
-If $x$ and $y$ are elements of a [[partial order|poset]] $P$, then their __join__ (or __supremum__ or __greatest lower bound__, abbreviated _glb_), is an element $x \vee y$ of the poset such that:
+If $x$ and $y$ are elements of a [[partial order|poset]] $P$, then their __join__ (or __supremum__ or __least upper bound__, abbreviated _lub_), is an element $x \vee y$ of the poset such that:
 
 * $x \leq x \vee y$ and $y \leq x \vee y$;
 * if $x \leq a$ and $y \leq a$, then $x \vee y \leq a$.
