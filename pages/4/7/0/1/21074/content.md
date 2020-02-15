@@ -34,5 +34,10 @@ On [[flavour physics]] and potential [[flavour anomalies]] in [[kaon]]-[[scatter
 
 * {#Buras18} [[Andrzej Buras]], _The Return of Kaon Flavour Physics_, Acta Phys. Pol. B 49, 1043 (2018) ([doi:10.5506/APhysPolB.49.1043](https://www.actaphys.uj.edu.pl/index_n.php?I=R&V=49&N=6#1043))
 
+* Xiao-Gang He, Xiao-Dong Ma, Jusak Tandean, German Valencia, _Breaking the Grossman-Nir Bound in Kaon Decays_ ([arXiv:2002.05467](https://arxiv.org/abs/2002.05467))
+
+
+
+
 [[!redirects kaons]]
 
