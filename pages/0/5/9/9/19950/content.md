@@ -398,6 +398,12 @@ and all degrees  must differ from that of the class of the [[identity function]]
 Volume 42, Issue 2, March 2003, Pages 447-465_ (<a href="https://doi.org/10.1016/S0040-9383(02)00015-0">doi:10.1016/S0040-9383(02)00015-0</a>)
 
 
+### Cocycle spaces
+
+Discussion of [[cocycle spaces]] in equivariant Cohomotopy:
+
+* [[Victor Vassiliev]], _Twisted homology of configuration spaces, homology of spaces of equivariant maps, and stable homology of spaces of non-resultant systems of real homogeneous polynomials_ ([arXiv:1809.05632](https://arxiv.org/abs/1809.05632))
+
 
 ### For M-brane charge quantization
 
