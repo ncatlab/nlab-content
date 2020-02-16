@@ -2,6 +2,7 @@ __Viktor A. Vassiliev__, a Russian geometer, a pupil of [[Vladimir Arnold]]. He 
 
 * [webpage](http://www.hse.ru/en/org/persons/1297545) at Higher School of Economics, Moscow
 
+
 ## Selected writings
 
 Introducing [[Vassiliev knot invariants]]:
@@ -16,6 +17,10 @@ Further:
 Selecta Math. (N.S.) 1 (1995), no. 3, 597&#8211;621, [MR96i:32037](http://www.ams.org/mathscinet-getitem?mr=1366625), [doi](http://dx.doi.org/10.1007/BF01589499)
 * _Complements of discriminants of smooth maps: topology and applications_, Amer. Math. Soc. 1992.
 * _Complexes of connected graphs_, [arxiv/1409.5999](http://arxiv.org/abs/1409.5999)
+
+On [[cocycle spaces]] in ([[equivariant cohomotopy|equivariant]]) [[Cohomotopy]]:
+
+* [[Victor Vassiliev]], _Twisted homology of configuration spaces, homology of spaces of equivariant maps, and stable homology of spaces of non-resultant systems of real homogeneous polynomials_ ([arXiv:1809.05632](https://arxiv.org/abs/1809.05632))
 
 ## Related entries
 
@@ -34,3 +39,5 @@ category: people
 
 [[!redirects V. A. Vassiliev]]
 [[!redirects Viktor A. Vassiliev]]
+
+[[!redirects Victor Vassiliev]]
