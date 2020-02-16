@@ -464,7 +464,7 @@ Discussion of application of linear logic to [[quantum logic]], [[quantum comput
 
 * [[Vaughan Pratt]], _Linear logic for generalized quantum mechanics_, in Proc. of _Workshop on Physics and Computation (PhysComp'92)_ ([pdf](http://boole.stanford.edu/pub/ql.pdf), [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.137.7817))
 
-* [[Ross Duncan]], _Types for quantum mechanics_, 2006 ([pdf](http://personal.strath.ac.uk/ross.duncan/papers/rduncan-thesis.pdf))
+* [[Ross Duncan]], _Types for quantum computation_, 2006 ([pdf](http://www.cs.ox.ac.uk/files/2425/Types%20for%20Quantum%20Computation.pdf))
 
 * Gianpiero Cattaneo, Maria Luisa Dalla Chiara, Roberto
 Giuntini and Francesco Paoli, section 9 of _Quantum Logic and Nonclassical Logics_, p. 127 in  Kurt Engesser, Dov M. Gabbay, Daniel Lehmann (eds.) _Handbook of Quantum Logic and Quantum Structures: Quantum Logic_, 2009 North Holland
