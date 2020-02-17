@@ -45,7 +45,7 @@ The concept of 2-category generalizes further in [[higher category theory]] to [
 
 ### Strict 2-categories
 
-The easiest definition of 2-category is that it is a category [[enriched category|enriched]] over the [[cartesian monoidal category]] [[Cat]].  Thus it has a collection of objects, and for each pair of objects a category $hom(x,y)$.  The objects of these hom-categories are the morphisms, and the morphisms of these hom-categories are the 2-morphisms.  This produces the classical notion of [[strict 2-category]].
+The easiest definition of 2-category is that it is a category [[enriched category|enriched]] over the [[cartesian monoidal category]] [[Cat]].  Thus it has a collection of objects,. and for each pair of objects a category $hom(x,y)$.  The objects of these hom-categories are the morphisms, and the morphisms of these hom-categories are the 2-morphisms.  This produces the classical notion of [[strict 2-category]].
 
 ### General 2-categories
  {#Weak}
@@ -284,7 +284,7 @@ A more detailed account of the definition, including a discussion of its  [[cohe
 
 A comprehensive monograph is
 
-* [[Niles Johnson]], [[Donald Yau]], _2-Dimensional Categories_ , arXiv:2002.06055 (2020). ([abstract](http://arxiv.org/abs/2002.06055v1))
+* [[Niles Johnson]], [[Donald Yau]], _2-Dimensional Categories_ ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055))
 
 Some 2-category theory, including [[2-limit]]s/2-colimit is discussed in
 
