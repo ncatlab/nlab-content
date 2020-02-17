@@ -385,6 +385,8 @@ Comprehensive overview of the latest world-averaged results to be found at:
 * {#London19} David London, _Anomalies in B Decays: A Sign of New Physics?_,
 talk at [XIth International Symposium on Quantum Theory and Symmetries](http://www.crm.umontreal.ca/2019/QTS2019/index_e.php), July 1-5, 2018 Centre de recherches mathématiques, Montréal, Canada ([arxiv:1911.06238](https://arxiv.org/abs/1911.06238))
 
+* Sneha Jaiswal, Soumitra Nandi, Sunando Kumar Patra, _Updates on SM predictions of $\vert V_{c b}\vert$ and $R(D^{(\ast)})$  in $B\to D^\ast \ell \nu_\ell$ decays_ ([arXiv:2002.05726](https://arxiv.org/abs/2002.05726))
+
 
 
 
@@ -517,6 +519,8 @@ General [[effective field theory]] parametrization:
 * Florian U. Bernlochner, Stephan Duell, Zoltan Ligeti, Michele Papucci, Dean J. Robinson, _Das ist der HAMMER: Consistent new physics interpretations of semileptonic decays_ ([arXiv:2002.00020](https://arxiv.org/abs/2002.00020))
 
 * Andrei Angelescu, Darius A. Faroughy, Olcyr Sumensari, _Lepton Flavor Violation and Dilepton Tails at the LHC_ ([arXiv:2002.05684](https://arxiv.org/abs/2002.05684))
+
+
 
 
 
