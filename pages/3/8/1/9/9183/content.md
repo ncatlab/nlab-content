@@ -165,6 +165,11 @@ Outlook on prospect of direct detection of dark matter, as of 2018:
 
 * Gianfranco Bertone, Tim M. P. Tait, _A New Era in the Quest for Dark Matter_, Nature volume 562, pages 51–56 (2018)  ([arXiv:1810.01668](https://arxiv.org/abs/1810.01668))
 
+Argument that dark matter has already be seen across a range of direct detection experiments, but mis-interpreted as noise, due to negligence of the possibility of [[inelastic scattering|inelastic]] [[plasmon]] excitations in [[crystal|crystalline]] detector materials:
+
+* {#KBKK20} Noah Kurinsky, Daniel Baxter, Yonatan Kahn, Gordan Krnjaic, _A Dark Matter Interpretation of Excesses in Multiple Direct Detection Experiments_ ([arXiv:2002.06937](https://arxiv.org/abs/2002.06937))
+
+
 
 ### Core-cusp problem
   {#ReferencesCoreCuspProblem}
