@@ -312,6 +312,8 @@ More general states in this case are given by [[density matrices]].
 
 * {#Duetsch18} [[Michael Dütsch]], section 2.5 of _[[From classical field theory to perturbative quantum field theory]]_, 2018
 
+* Nicolò Drago, [[Valter Moretti]], _The notion of observable and the moment problem for $\ast$-algebras and their GNS representations_ ([doi:1903.07496](https://arxiv.org/abs/1903.07496), [spire:1725528](http://inspirehep.net/record/1725528))
+
 
 For more references see at _[[operator algebra]]_.
 
