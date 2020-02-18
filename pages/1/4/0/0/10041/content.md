@@ -68,7 +68,7 @@ Accounts of the traditional notion include
 
 * Liviu Niculaescu, _The derived category of sheaves and the Poincar&#233;-Verdier duality_ ([pdf](http://www3.nd.edu/~lnicolae/Verdier-ams.pdf))
 
-* [[Jacob Lurie]], lecture notes on _Verdier duality_ ([pdf](http://www.math.harvard.edu/~lurie/283notes/Lecture17-Verdier.pdf), [pdf](http://www.math.harvard.edu/~lurie/287xnotes/Lecture19.pdf))
+* [[Jacob Lurie]], lecture notes on _Verdier duality_ ([2011 pdf](http://www.math.harvard.edu/~lurie/287xnotes/Lecture19.pdf), [2013 pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.348.5739&rep=rep1&type=pdf), [2014 pdf](http://people.math.harvard.edu/~lurie/282ynotes/LectureXXI-Verdier.pdf))
 
 A general abstract formalization is in 
 
