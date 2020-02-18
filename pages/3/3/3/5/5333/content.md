@@ -117,6 +117,8 @@ See also at _[[torsion constraints in supergravity]]_.
 
 * [[SemiSpin(16)]], [[SemiSpin(32)]]
 
+* [[small instanton]]
+
 * [[E-string]]
 
 * [[string theory]]
