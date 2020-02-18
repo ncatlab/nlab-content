@@ -10,7 +10,7 @@ An _overt_ space is a space that satisfies a condition [[de Morgan duality|logic
 
 ## Motivation
 
-Recall that a [[topological space]] $X$ is _compact_ if and only if, for every other space $Y$ and any open subspace $U$ of $X \times Y$, the subspace
+Notice (see [here](closed-projection+characterization+of+compactness#StillOtherCleverConstructions)) that a [[topological space]] $X$ is _compact_ if and only if, for every other space $Y$ and any open subspace $U$ of $X \times Y$, the subspace
 $$ \forall_X U = \{ b\colon Y \;|\; \forall\; a\colon X,\; (a, b) \in U \} $$
 is open in $Y$.
 
