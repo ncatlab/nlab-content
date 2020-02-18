@@ -101,6 +101,9 @@ Review:
 
 > In March 2013, following an accurate processing of available measurement data, the Planck Scientific Collaboration published the highest-resolution photograph ever of the early Universe when it was only a few hundred thousand years old. The photograph showed galactic seeds in sufficient detail to test some nontrivial theoretical predictions made more than thirty years ago. Most amazing was that all predictions were confirmed to be remarkably accurate. With no exaggeration, we may consider it established experimentally that quantum physics, which is normally assumed to be relevant on the atomic and subatomic scale, also works on the scale of the entire Universe, determining its structure with all its galaxies, stars, and planets.
 
+* George Efstathiou, Steven Gratton, _The evidence for a spatially flat Universe_ ([arXiv:2002.06892](https://arxiv.org/abs/2002.06892))
+
+
 
 A discussion of open problems is in 
 
