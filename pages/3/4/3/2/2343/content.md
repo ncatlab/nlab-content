@@ -63,7 +63,7 @@ Its value on $B$ is the relative cotangent complex $L_{B/A}$
 
 =--
 
-The [[Andre-Quillen cohomology]] of $R$ is the [[cohomology]] of $\mathbb{L}\Omega(R)$.
+The [[André-Quillen cohomology]] of $R$ is the [[cohomology]] of $\mathbb{L}\Omega(R)$.
 
 ### Explicit resolutions
 
@@ -105,7 +105,7 @@ $$
   \,.
 $$
 
-Accordingly, it follows that the [[Andre-Quillen cohomology]] of $R$ with values in $N$, which is the cohomology of the cosimplicial object 
+Accordingly, it follows that the [[André-Quillen cohomology]] of $R$ with values in $N$, which is the cohomology of the cosimplicial object 
 
 $$
   Hom((\mathbb{L}\Omega)(R), N)
@@ -141,7 +141,7 @@ $$
 
 
 If in the above $k$ is [[field]] of characteristic 0, then 
-[[Andre-Quillen cohomology]] of the $k$-algebra $R$ with coefficients in a [[module]] $N$ is a [[direct sum]]mand of the corresponding [[Hochschild cohomology]]:
+[[André-Quillen cohomology]] of the $k$-algebra $R$ with coefficients in a [[module]] $N$ is a [[direct sum]]mand of the corresponding [[Hochschild cohomology]]:
 
 $$
   H^q(Hom(\mathbb{L} \Omega (R)), N)
