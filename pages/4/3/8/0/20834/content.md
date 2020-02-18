@@ -137,6 +137,10 @@ Argument that the [[Planck collaboration|PLANCK satellite]] data prefers a [[clo
 * {#VMS19} Eleonora Di Valentino, Alessandro Melchiorri, Joseph Silk, _Planck evidence for a closed Universe and a possible crisis for cosmology_, Nature Astronomy 2019 ([doi:1911.02087](https://arxiv.org/abs/1911.02087))
 [doi:s41550-019-0906-9](https://www.nature.com/articles/s41550-019-0906-9)
 
+Rebuttal:
+
+* George Efstathiou, Steven Gratton, _The evidence for a spatially flat Universe_ ([arXiv:2002.06892](https://arxiv.org/abs/2002.06892))
+
 
 
 [[!redirects Witten's dark fantasy]]
