@@ -89,7 +89,7 @@ The original argument for charge quantization of the [[electromagnetic field]] i
 
 Review:
 
-* {#Frankel} [[Theodore Frankel]], section 16.4e of _[[The Geometry of Physics - An Introduction]]_ ([doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377))
+* {#Frankel} [[Theodore Frankel]], section 16.4e of _[[The Geometry of Physics - An Introduction]]_, Cambridge University Press 2011 ([doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377))
 
 * [Freed 00, Section 2](#Freed00)
 
