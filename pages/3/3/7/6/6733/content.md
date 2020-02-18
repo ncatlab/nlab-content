@@ -372,6 +372,8 @@ See also at _[M-theory -- Open problems -- M5-brane anomaly cancellation](M-theo
 
 * [[M5-brane instanton]]
 
+* [[small instanton]]
+
 * [[half M5-brane]]
 
 * [[string theory]]
