@@ -27,6 +27,8 @@ The [[D-brane]] of [[dimension]] $5+1$ in [[type IIB string theory]].
 
 * [[D3-D5 brane bound state]]
 
+* [[D5-D9 brane bound state]]
+
 ### Black hole entropy
 
 At low [[string coupling]] [[D1-D5 brane bound states]] are described by 2d [[CFT]], which is well understood. After passage to the corresponding strongly coupled [[black brane]] configurations in [[type IIB supergravity]], which are [[black hole]]s in the given [[Kaluza-Klein mechanism|compactification]], the [[entropy]] of these 2d CFTs matches the [[Bekenstein-Hawking entropy]] of these black holes.
