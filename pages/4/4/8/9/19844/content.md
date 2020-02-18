@@ -635,6 +635,9 @@ explanations via assumption of [[Z'-bosons]]:
 
 * {#GauldGoertzHaisch13} Rhorry Gauld, Florian Goertz, Ulrich Haisch, _An explicit Z'-boson explanation of the $B \to K^\ast \mu^+ \mu^-$ anomaly_, JHEP01(2014)069 ([arXiv:1310.1082](https://arxiv.org/abs/1310.1082))
 
+* Richard H. Benavides, Luis Muñoz, William A. Ponce, Oscar Rodríguez, Eduardo Rojas, _Minimal $Z^\prime$ models for flavor anomalies_ ([arXiv:1812.05077](https://arxiv.org/abs/1812.05077))
+
+
 
 * {#DAmbrosioIverPiccininiPolosa19} G. D'Ambrosio, A. M. Iyer, F. Piccinini, A.D. Polosa, _Confronting $B$ anomalies with atomic physics_ ([arXiv:1902.00893](https://arxiv.org/abs/1902.00893))
 
