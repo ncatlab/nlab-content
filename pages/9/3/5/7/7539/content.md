@@ -10,7 +10,7 @@ This is an entry on the notion of **complex of groups** introduced by [[André H
 
 ##Idea
 
-A _complex of groups_ is a [[diagram]] of [[groups]], [[homomorphisms]] and [[conjugations]], corresponding, abstractly, to the system of inclusions of the [[stabiliser]] subgroups of an [[action]] of a group on a [[simplicial cell complex]]. If the complex is 1-dimensional one gets a [[graph of groups]].
+A _complex of groups_ is a [[diagram]] of [[groups]], [[homomorphisms]] and [[conjugations]], corresponding, abstractly, to the system of inclusions of the [[stabiliser]] subgroups of an [[action]] of a group on a [[simplicial cell complex]] or equivalently on a [[small category without loops]]. If the complex is 1-dimensional one gets a [[graph of groups]].
 
 ##Definition
 
