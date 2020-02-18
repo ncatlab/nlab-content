@@ -217,7 +217,7 @@ Introductions to quantum probability theory
 
 Further discussion of quantum probability:
 
-* Nicolò Drago, [[Valter Moretti]], _The notion of observable and the moment problem for *-algebras and their GNS representations_ ([doi:1903.07496](https://arxiv.org/abs/1903.07496), [spire:1725528](http://inspirehep.net/record/1725528))
+* Nicolò Drago, [[Valter Moretti]], _The notion of observable and the moment problem for $\ast$-algebras and their GNS representations_ ([doi:1903.07496](https://arxiv.org/abs/1903.07496), [spire:1725528](http://inspirehep.net/record/1725528))
 
 [[!redirects quantum probability theories]]
 
