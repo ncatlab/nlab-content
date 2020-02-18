@@ -40,6 +40,9 @@ The _Monster vertex algebra_ is a [[super vertex operator algebra]] whose [[auto
 
 * {#GriessLam11} [[Robert Griess]] Jr., Ching Hung Lam, _A new existence proof of the Monster by VOA theory_ ([arXiv:1103.1414](https://arxiv.org/abs/1103.1414))
 
+* Lisa Carbone, Elizabeth Jurisich, Scott H. Murray, _Constructing a Lie group analog for the Monster Lie algebra_ ([arXiv:2002.06658](https://arxiv.org/abs/2002.06658))
+
+
 
 See also
 
