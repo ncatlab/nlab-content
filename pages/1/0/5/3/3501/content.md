@@ -37,7 +37,7 @@ In other words, a [[perverse sheaf]] is an object $C$ of the bounded derived cat
 
 The terminology "perverse sheaf" has an unfortunate connotation to it, at least in some languages (such as German, where it sounds no better than "idiotic sheaf" or the like). 
 
-Accordingly for instance [[Grothendieck]] wrote in _[[Récoltes et semailles]]_:
+Accordingly, for instance [[Grothendieck]] wrote in _[[Récoltes et semailles]]_:
 
 > What an idea to give such a name to a mathematical thing! Or to any other thing or living being, except in sternness towards a person&#8212;for it is evident that of all the 'things' in the universe, we humans are the only ones to whom this term could ever apply.
 
