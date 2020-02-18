@@ -64,6 +64,9 @@ Review:
 
 * {#Thillaisundaram17} Ashok Thillaisundaram, _Aspects of fluid dynamics and the fluid/gravity correspondence_, 2017 ([CambridgeRepositor:1810/267097](https://www.repository.cam.ac.uk/handle/1810/267097), [pdf](https://www.repository.cam.ac.uk/bitstream/handle/1810/267097/ThillaisundaramThesis.pdf?sequence=1&isAllowed=y))
 
+* Sumit Dey, Shounak De, Bibhas Ranjan Majhi, _Gravity dual of Navier-Stokes equation of an uniformly rotating fluid through parallel transport_ ([arXiv:2002.06801](https://arxiv.org/abs/2002.06801))
+
+
 
 [[!redirects fluid-gravity correspondence]]
 
