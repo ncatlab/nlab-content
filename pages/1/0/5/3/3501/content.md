@@ -57,7 +57,7 @@ The origin of the terminology is recalled by one of its inventors on [MO here](h
 
 * Ryan Reich, _Notes on Beilinson's "How to glue perverse sheaves"_, [arxiv/1002.1686](http://arxiv.org/abs/1002.1686)
 
-* Geordie Williamson, _An illustrated guide to perverse sheaves_, ([pdf](/http://people.mpim-bonn.mpg.de/geordie/perverse_course/lectures.pdf))
+* Geordie Williamson, _An illustrated guide to perverse sheaves_, ([pdf](http://people.mpim-bonn.mpg.de/geordie/perverse_course/lectures.pdf))
 
 An article aiming at the categorification of perverse sheaves is 
 
