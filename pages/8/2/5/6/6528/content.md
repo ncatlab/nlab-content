@@ -246,9 +246,9 @@ The lift to [[M-theory]] as [[M5-MO9 brane bound states]] is due to [Strominger 
 
 * [[instanton]]
 
-* [[contact instanton]]
-
 * [[Bogomolny equation]], [[Nahm transform]]
+
+* [[small instanton]]
 
 * [[caloron]]
 
