@@ -30,6 +30,8 @@ In [[QCD]] a _meson_ is a [[bound state]] of two [[quarks]] via the [[strong nuc
 
 * [[kaon]]
 
+* [[quarkonium]]
+
 ## Properties
 
 ### Conceptualization and computation in AdS/QCD
