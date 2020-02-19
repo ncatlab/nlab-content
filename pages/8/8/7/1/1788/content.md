@@ -1,23 +1,4 @@
 
-Today arxiv.org/abs/2002.06892 means to rebut 
-the recent contrarian claims
-in arxiv.org/abs/1908.09139
-and arxiv.org/abs/1911.02087
-that data actually prefers a spatially closed universe,
-(contrary to the "standard model")
-which made a splash in Nature
-www.nature.com/articles/s41550-019-0906-9
-But…
-
-…but:
-the intended rebuttal seems to
-rest on just the combination 
-of PLANCK+BAO+SN-data
-which the contrarians argued
-cannot be sensibly combined:
-
-arxiv.org/abs/1908.09139:
-"Conclusions which stem from the combination of these data should therefore be viewed with suspicion."
 
 $$
   \begin{aligned}
