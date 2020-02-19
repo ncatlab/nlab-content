@@ -36,7 +36,7 @@ A circumstantial but widely accepted argument ([[folklore]]) due to [Witten 96](
 
 Indeed, solutions of [[heterotic supergravity]] involving [[positive number|positive]]-[[radius]] [[Yang-Mills instantons]] had been interpreted as [[black brane|black]] [[NS5-branes]] of non-vanishing "thickness" in [Strominger 90](#Strominger90). This makes it plausible that these vanishing-radius small instantons correspond to fundamental hererotic 5-branes of vanishing thickness ([Witten 96, top of p. 9](#Witten96))
 
-More precisely, this $Sp(1)$-gauge field is argued to be a [[non-perturbative effect]] invisible in [[perturbative string theory]], hence distinct from the [[SemiSpin(32)]]- or [[E8]]$\times$[[E8]]-gauge field famously seen in [[perturbative string theory|pertubative]] [[heterotic string theory]]. 
+More precisely, this $Sp(1)$-gauge field is argued to be a [[non-perturbative effect]] invisible in [[perturbative string theory]], hence distinct from the [[SemiSpin(32)]]- or [[E8]]$\times$[[E8]]-gauge field famously seen in [[perturbative string theory|perturbative]] [[heterotic string theory]]. 
 
 There this interpretation of small instantons as [[wrapped brane|wrapped]] 5-branes really pertains to [[M5-branes]] in [[heterotic M-theory]].
 
