@@ -406,6 +406,9 @@ Outlook:
 
 * Monika Blanke, _Flavour Physics from Present to Future Colliders_ ([arxiv:1910.10662](https://arxiv.org/abs/1910.10662))
 
+* [[Andreas Crivellin]], Martin Hoferichter, _Beta decays as sensitive probes of lepton flavor universality_ ([arXiv:2002.07184](https://arxiv.org/abs/2002.07184))
+
+
 Emphasis of [[non-perturbative effects]]:
 
 * {#Nierste18} Ulrich Nierste, _Flavour Anomalies: Phenomenology and BSM Interpretations_, talk at [Planck 2018](https://indico.desy.de/indico/event/18498/), Bonn 2018 ([pdf](https://indico.desy.de/indico/event/18498/session/5/contribution/52/material/slides/0.pdf))
