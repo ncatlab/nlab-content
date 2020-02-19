@@ -360,6 +360,8 @@ which would cancel against the first term $\tfrac{1}{24} p_2$ in (eq:FiberIntegr
 
 See also at _[M-theory -- Open problems -- M5-brane anomaly cancellation](M-theory#OpenProblemM5BraneAnomalyCancellation)_.
 
+An argument that the remaing anomaly vanishes by [[schreiber:Hypothesis H]] is in [SS 20a](#SS20a).
+
 \linebreak
 
 [[!include M2-M5 brane bound states in the BMN matrix model -- subsection]]
@@ -639,7 +641,9 @@ This argument is recalled in
 
 * {#BBMN19} Ibrahima Bah, Federico Bonetti, [[Ruben Minasian]], Emily Nardoni, _Anomaly Inflow for M5-branes on Punctured Riemann Surfaces_ ([arXiv:1904.07250](https://arxiv.org/abs/1904.07250))
 
+Argument that the remaining term vanishes by [[schreiber:Hypothesis H]]:
 
+* {#SS20a} [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5-brane anomaly cancellation]]_ ([arXiv:2002.07737](https://arxiv.org/abs/2002.07737))
 
 
 ### Double dimensional reduction to D4-brane
