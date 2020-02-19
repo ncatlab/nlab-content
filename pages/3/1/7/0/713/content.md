@@ -75,7 +75,7 @@ If $C$ is not small, then its free cocompletion still exists, but it is not the 
 
 For $\mathcal{C}$ a [[small category]], its [[Yoneda embedding]] $\mathcal{C} \overset{y}{\hookrightarrow} [\mathcal{C}^{op}, Set]$ exhibits the [[category of presheaves]] $[\mathcal{C}^{op}, Set]$ as the _free co-completion_ of $\mathcal{C}$, in that it is a [[universal morphism]] (as in [this Def.](adjoint+functor#UniversalArrow)  but "up to natural isomorphism") into a [[cocomplete category]], in that:
 
-1. for $\mathcal{D}$ any [[cocomplete category]] [[category]];
+1. for $\mathcal{D}$ any [[cocomplete category]];
 
 1. for $F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ any [[functor]];
 
