@@ -206,6 +206,9 @@ and then developed in detail for [[QCD]] on [[D8-branes]] in the [[Sakai-Sugimot
 [[!redirects flavour physics]]
 [[!redirects flavor physics]]
 
+[[!redirects flavour sector]]
+[[!redirects flavor sector]]
+
 [[!redirects flavour problem]]
 [[!redirects flavor problem]]
 
