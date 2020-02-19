@@ -112,6 +112,7 @@ There are claims that numerical computer simulations (as in [[lattice gauge theo
 
 * F. R. Klinkhamer, _On the emergence of an expanding universe from a Lorentzian matrix model_ ([arXiv:1912.12229](https://arxiv.org/abs/1912.12229))
 
+* Konstantinos N. Anagnostopoulos, Takehiro Azuma, Yuta Ito, Jun Nishimura, Toshiyuki Okubo, Stratos Kovalkov Papadoudis, _Complex Langevin analysis of the spontaneous breaking of 10D rotational symmetry in the Euclidean IKKT matrix model_ ([arXiv:2002.07410](https://arxiv.org/abs/2002.07410))
 
 [[!redirects IIB matrix model]]
 
