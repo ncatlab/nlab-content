@@ -26,7 +26,7 @@ For $A$ a [[monoid]] equipped with an [[action]] on an object $V$, an **invarian
 
 A robust definition of invariants that generalizes to [[homotopy theory]] is via the expression of actions as [[action groupoids]] regarded as sitting over [[delooping]] [[groupoids]], as discussed at _[[infinity-action]]_ and at _[[geometry of physics -- representations and associated bundles]]_.
 
-We describe how the ordinary concept of invariants is recovered from this perspective and then consdider its immediate generalizations to [[(infinity,1)-topos theory]] and its formalization in [[homotopy type theory]].
+We describe how the ordinary concept of invariants is recovered from this perspective and then consider its immediate generalizations to [[(infinity,1)-topos theory]] and its formalization in [[homotopy type theory]].
 
 ### Via sections of action groupoid projections
  {#ViaSectionsOfActionGroupoidProjections}
@@ -78,7 +78,7 @@ $$
   \,.
 $$
 
-These $\sigma$ now are manifestly functors that are the identiy on the group labels of the morphisms
+These $\sigma$ now are manifestly functors that are the identity on the group labels of the morphisms
 
 $$
   \sigma_\bullet
