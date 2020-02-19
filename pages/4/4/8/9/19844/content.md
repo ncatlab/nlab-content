@@ -45,7 +45,6 @@ or as [[scattering amplitude|decays]] of [[baryons]] that contain $b$ -- [[Lambd
 <img src="https://ncatlab.org/nlab/files/AltmannshoferRKDecay.jpg" width="300"/>
 </div>
 
-[[AltmannshoferRKDecay.jpg:file]]
 
 Hence flavour universality in the [[standard model of particle physics]] demands, for example, that the _[[ratios]]_ of decay rates (branching fractions) of [[B-mesons]] into [[electrons]] are the same as into [[muons]], hence that the [[ratio]] 
 
@@ -204,6 +203,26 @@ From [Isidori 19, slide 6](#Isidori19):
 \end{imagefromfile} 
 \end{center}
 
+## Relation to other anomalies
+ {#RelationToOtherAnomalies}
+
+There is possibly a relation between the [[flavour anomalies]] and the  [anomalies](anomalous+magnetic+moment#Anomalies) observed in the [[anomalous magnetic moment]] of the [[electron]] and/or the [[muon]] (e.g. [Chiang-Okada 17](#ChiangOkada17)) which might point to a common origin of these anomalies in the [[flavour sector]] (e.g. [Crivellin-Hoferichter 20](#CrivellinHoferichter20)):
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/CrivellinRandAHints.jpg" width="300">
+</center>
+
+
+> graphics from [Crivellin-Hoferichter 20](#CrivellinHoferichter20) 
+
+> (here "$R$" refers to flavour anomalies in various channels, "$a$" refers to anomalies in the the anomalous magnetic moments of the electron and the muon, "LFUV" is shoft for "Lepton Flavor Universality Violation", and the numbers are the [[statistical significances]] of the effects seen)
+
+
+
+Indeed, [[leptoquark]] models preferred by the flavour anomalies (see [below](#Leptoquarks)) are also a candidate explanation of the anomaly seen at over 4$\sigma$ [[statistical significance]] in the [[anomalous magnetic moment]] of the [[muon]], see [there](anomalous+magnetic+moment#Anomalies).
+
+
 
 
 \linebreak
@@ -252,14 +271,6 @@ Other possible [[model (in theoretical physics)|models]] besides [[leptoquarks]]
 * [[right-handed neutrinos]] 
 
   ([MMR 19](#MMR19))
-
-
-## Relation to other anomalies
- {#RelationToOtherAnomalies}
-
-There is possibly a relation between the [[flavour anomalies]] an the  [anomalies](anomalous+magnetic+moment#Anomalies) observed in the [[anomalous magnetic moment]] of the [[electron]] and/or the [[muon]] (e.g. [Chiang-Okada 17](#ChiangOkada17))
-
-Indeed, [[leptoquark]] models preferred by the flavour anomalies are also a candidate explanation of the anomaly seen at over 4$\sigma$ [[statistical significance]] in the [[anomalous magnetic moment]] of the [[muon]], see [there](anomalous+magnetic+moment#Anomalies).
 
 
 
@@ -406,7 +417,7 @@ Outlook:
 
 * Monika Blanke, _Flavour Physics from Present to Future Colliders_ ([arxiv:1910.10662](https://arxiv.org/abs/1910.10662))
 
-* [[Andreas Crivellin]], Martin Hoferichter, _Beta decays as sensitive probes of lepton flavor universality_ ([arXiv:2002.07184](https://arxiv.org/abs/2002.07184))
+* {#CrivellinHoferichter20} [[Andreas Crivellin]], Martin Hoferichter, _Beta decays as sensitive probes of lepton flavor universality_ ([arXiv:2002.07184](https://arxiv.org/abs/2002.07184))
 
 
 Emphasis of [[non-perturbative effects]]:
@@ -523,7 +534,7 @@ General [[effective field theory]] parametrization:
 
 * Andrei Angelescu, Darius A. Faroughy, Olcyr Sumensari, _Lepton Flavor Violation and Dilepton Tails at the LHC_ ([arXiv:2002.05684](https://arxiv.org/abs/2002.05684))
 
-
+* Kingman Cheung, Zhuo-Ran Huang, Hua-Dong Li, Cai-Dian Lü, Ying-nan Mao, Ru-Ying Tang, _Revisit to the $b \to c \tau \nu$ transition: in and beyond the SM_ ([arXiv:2002.07272](https://arxiv.org/abs/2002.07272))
 
 
 
