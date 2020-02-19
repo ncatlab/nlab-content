@@ -1,7 +1,9 @@
 
 * [institute page](https://www.psi.ch/ltp-theory/people)
 
-## selected writings
+## Selected writings
+
+On the [[flavour anomalies]]:
 
 * {#CrivellinEtAl18} A. Cerri, [[Andreas Crivellin]] et. al. _Opportunities in Flavour Physics at the HL-LHC and HE-LHC_, Report from Working Group 4 on the [Physics of the HL-LHC, and Perspectives at the HE-LHC](https://indico.cern.ch/event/686494/) ([arXiv:1812.07638](https://arxiv.org/abs/1812.07638))
 
@@ -12,12 +14,12 @@
 * Pere Arnan, [[Andreas Crivellin]], Marco Fedele, Federico Mescia, _Generic Loop Effects of New Scalars and Fermions in $b \to s \ell^+ \ell^-$ and a Vector-like 4th Generation_ ([arXiv:1904.05890](https://arxiv.org/abs/1904.05890))
 
 
-
-  (on [[flavour anomalies]] seen at [[LHC]])
-
+* [[Andreas Crivellin]], Martin Hoferichter, _Beta decays as sensitive probes of lepton flavor universality_ ([arXiv:2002.07184](https://arxiv.org/abs/2002.07184))
 
 
-## related $n$Lab entries
+
+
+## Related entries
 
 * [[flavour anomaly]]
 
