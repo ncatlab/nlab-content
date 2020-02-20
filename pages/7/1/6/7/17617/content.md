@@ -7,7 +7,7 @@
 
 If $C$ is a category than an [[ind-object]] $x\in Ind(C)$ is a strict ind-object if it can be represented in $Ind(C)$ as the (vertex of) a colimit of a small filtered diagram whose objects are in $C$ and morphisms are [[monomorphism]]s in $C$.  
 
-([Grothendieck-Verdier 71, &#167;8.12.1](#GrothendieckVerdier71)). See also [Blanc 96, def. 4.1](#Blanc96).
+([Grothendieck-Verdier 71, Exposé I.&#167;8.12.1](#GrothendieckVerdier71)). See also [Blanc 96, def. 4.1](#Blanc96).
 
 Dually, strict [[pro-objects]] are limits of small cofiltered diagrams involving only [[epimorphism]]s. 
 
