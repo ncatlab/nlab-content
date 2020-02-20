@@ -56,9 +56,11 @@ The category $Ho(Top)_{he}$ can be studied by testing its objects with objects f
 
 * [[hypothèse inspiratrice]]
 
-* [[Ho(sSet)]]
+* [[Top]], [[Ho(Top)]]
 
-* [[Ho(∞Grpd)]]
+* [[sSet]], [[Ho(sSet)]]
+
+* [[∞Grpd]], [[Ho(∞Grpd)]]
 
 * [[stable homotopy category]]
 
