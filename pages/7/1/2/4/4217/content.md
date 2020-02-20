@@ -27,7 +27,7 @@ Assuming that (as in [[classical logic]]) the only truth values are true ($T$) a
 |$F$|$T$| |$T$|
 |$F$|$F$| |$F$|
 
-That is, $p \wedge q$ is true if and only if at least one of $p$ and $q$ is true.  Disjunction also exists in nearly every non-classical logic.
+That is, $p \vee q$ is true if and only if at least one of $p$ and $q$ is true.  Disjunction also exists in nearly every non-classical logic.
 
 More generally, if $p$ and $q$ are any two [[relations]] on the same domain, then we define their disjunction pointwise, thinking of a relation as a [[function]] to truth values.  If instead we think of a relation as a [[subset]] of its domain, then disjunction becomes [[union]].
 
