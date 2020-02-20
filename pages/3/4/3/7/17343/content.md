@@ -886,7 +886,7 @@ is homotopic to the identity on $X \times I$ by a homotopy that is pointwise in 
 A [[continuous function]] $f \colon X \longrightarrow Y$ is called  a **[[weak homotopy equivalence]]** if its image under all the [[homotopy group]] functors of def. \ref{HomotopyGroupsOftopologicalSpaces} is an [[isomorphism]], hence if
 
 $$
-  \pi_0(f) \;\colon\; \pi_0(X) \stackrel{\simeq}{\longrightarrow} \pi_0(X)
+  \pi_0(f) \;\colon\; \pi_0(X) \stackrel{\simeq}{\longrightarrow} \pi_0(Y)
 $$
 
 and for all $x \in X$ and all $n \geq 1$
