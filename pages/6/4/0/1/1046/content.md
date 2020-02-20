@@ -8,32 +8,25 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
 
-##Idea 
+## Idea 
 
-**$\infty Grpd$** is the [[(∞,1)-category]] of [[∞-groupoid]]s, i.e. of [[(∞,0)-categories]].
+**$\infty Grpd$** is the [[(∞,1)-category]] of [[∞-groupoids]], i.e. of [[(∞,0)-categories]]. This is the archetypical [[(∞,1)-topos]], the home of classical [[homotopy theory]].
 
-It is the full [[sub-quasi-category|subcategory]] of [[(∞,1)Cat]] on those [[(∞,1)-categories]] that are [[∞-groupoid]]s.
+[[equivalence of (∞,1)-categories|Equivalently]] this means all of the following:
 
-It is also the archetypical [[(∞,1)-topos]].
+1. $\infty Grpd$ is the [[simplicial localization]] of the [[category]] [[Top]]${}_k$ of ([[weakly Hausdorff topological space|weakly Hausdorff]]) [[locally compact topological spaces]] at the [[weak homotopy equivalences]]. As such it is the [[∞-category]]-enhancement of the [[classical homotopy category]]: $\tau_0(\infty Grpd) \simeq$ [[Ho(Top)]], itself [[presentable (∞,1)-category|presented]] by the [[classical model structure on topological spaces]]: $\infty Grpd \simeq L_{whe} Top_k$.
 
-## Incarnations
+1. $\infty Grpd$ is the [[simplicial localization]] of the [[category]] [[sSet]] of [[simplicial sets]] at the simplicial [[weak homotopy equivalences]]. As such it is the [[∞-category]]-enhancement of the [[classical homotopy category]]: $\tau_0(\infty Grpd) \simeq$ [[Ho(sSet)]], itself [[presentable (∞,1)-category|presented]] by the [[classical model structure on simplicial sets]]: $\infty Grpd \simeq L_{whe} sSet$. 
 
-### As an $sSet$-category
+   Hence, as a [[simplicially enriched category|Kan-complex enriched category]] (a [[fibrant object]] in the [[model structure on sSet-categories]]) $\infty Grpd$ is the [[full subcategory|full]] [[simplicially enriched category|sSet enriched]]-[[subcategory]] of [[sSet]] on the [[Kan complexes]].
 
-As a [[simplicially enriched category]] $\infty Grpd$ is the full [[SSet]]-[[enriched category|enriched subcategory]] of [[SSet]] on [[Kan complex]]es.
 
-### As an enriched model category
+1. $\infty Grpd$ is the [[full sub-(∞,1)-category]] of [[(∞,1)Cat]] on those [[(∞,1)-categories]] that are [[∞-groupoids]].
 
-$\infty Grpd$ is the [[(∞,1)-category]] that is [[presentable (∞,1)-category|presented]] by the Quillen [[model structure on simplicial sets]].
-
-As a [[simplicially enriched category|Kan-complex enriched category]] this is the full [[sSet]]-[[subcategory]] on fibrant-cofibrant objects of the Quillen [[model structure on simplicial sets]].
-
-Under the [[homotopy hypothesis]]-theorem, this means that $\infty Grpd$ is also the full $(\infty,1)$-subcategory of [[Top]] on spaces of the [[homotopy type]] of a [[CW-complex]].
 
 ## Properties
 
@@ -99,13 +92,17 @@ The statement for the colimit is corollary 3.3.4.6 in [[Higher Topos Theory|HTT]
 
 ##Subcategories
 
-The [[n-truncated object of an (infinity,1)-category|n-truncated objects]] of $\infty Grpd$ are the [[n-groupoid]]s (including [[(-1)-groupoid]]s and the [[(-2)-groupoid]]).
+The [[n-truncated object of an (infinity,1)-category|n-truncated objects]] of $\infty Grpd$ are the [[n-groupoids]] (including [[(-1)-groupoid]]s and the [[(-2)-groupoid]]).
 
 ## Related categories
 
 * [[Set]]
 
-* [[Grpd]], **$\infty Grpd$**
+* [[Grpd]], 
+
+  **$\infty Grpd$**
+
+  [[Top]], [[Ho(Top)]]
 
 * [[Cat]], [[(∞,1)Cat]]
 
