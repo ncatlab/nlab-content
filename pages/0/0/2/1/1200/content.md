@@ -44,8 +44,11 @@ From the perspective of structural [[set theory]], it is [[evil]] to care about 
 
 * An __ordinal__ is a [[well-ordered set]].
 
-However, one still may need sets of ordinals, that is sets that serve as the target of an ordinal rank function satisfying (1--3) on any (small) collection of well-ordered sets.  One can construct this as a [[quotient set]] of that collection.
++-- {: .query}
+_Madeleine Birchfield_: Wouldn't an ordinal number be an object of the [[decategorification]] of the category of [[well-ordered sets]], just as a [[natural number]] is an object of the decategorification of the category [[FinSet]]?
+=--
 
+However, one still may need sets of ordinals, that is sets that serve as the target of an ordinal rank function satisfying (1--3) on any (small) collection of well-ordered sets.  One can construct this as a [[quotient set]] of that collection.
 
 ## Properties
 
