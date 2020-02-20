@@ -532,7 +532,7 @@ For proof see [there](subspace+topology#pushout).
 
 * [[topological concrete category]] 
 
-* [[Ho(Top)]]
+* [[Ho(Top)]], [[∞Grpd]]
 
 * [[convenient category of topological spaces]]
 
