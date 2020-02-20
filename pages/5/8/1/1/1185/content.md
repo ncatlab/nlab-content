@@ -22,7 +22,6 @@
 
 The _cardinal numbers_ (or just _cardinals_) constitute a generalisation of a [[natural number|natural numbers]] to [[numbers]] of possibly infinite magnitudes.  Specifically, cardinal numbers generalise the concept of 'the number of ...'.  In particular, the number of natural numbers is the first infinite cardinal number.
 
-
 ## Definition 
 
 Na&#239;vely, a **cardinal number** should be an [[isomorphism]] class of [[sets]], and the **cardinality** of a set $S$ would be its isomorphism class.  That is:
@@ -50,6 +49,10 @@ In the absence of the appropriate axioms, the definitions above can still be use
 From the perspective of structural [[set theory]], it is [[evil]] to care about distinctions between isomorphic objects, and unnecessary to insist on a canonical choice of representatives for isomorphism classes.  Therefore, from this point of view it is natural to simply say:
 
 * A __cardinal__ is a [[set]] (that is, an object of [[Set]]).
+
++-- {: .query}
+_Madeleine Birchfield_: Wouldn't a cardinal number be an object of the [[decategorification]] of the category [[Set]], just as a [[natural number]] is an object of the decategorification of the category [[FinSet]]?
+=--
 
 However, one still may need sets of cardinals, that is sets that serve as the target of a cardinality function satisfying (1--3) on any (small) collection of sets.  One can construct this as a [[quotient set]] of that collection.
 
