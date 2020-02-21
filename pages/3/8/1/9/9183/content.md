@@ -171,12 +171,16 @@ Argument that dark matter has already be seen across a range of direct detection
 
 * Yonatan Kahn, from slide 27 on in: _Dark matter review_, talk at Lake Louise Winter Institute, 2020 ([cern:event/846070/contributions/3693217/](https://indico.cern.ch/event/846070/contributions/3693217/))
 
-Rebuttal:
+Claimed rebuttal:
 
 * Alan E. Robinson, Émile Michaud, _Comment on A dark matter interpretation of excesses in multiple direct detection experiments [arXiv:2002.06937]_ ([arXiv:2002.08893](https://arxiv.org/abs/2002.08893))
 
 
 > The result of [Kurinsky et al.](#KBKK20) should not be taken as evidence for dark matter, although it does highlight the ongoing need to investigate the effect of collective modes how [sic] we detect radiation.
+
+Reply from Gordan Krnjaic ([here](https://mobile.twitter.com/GordanKrnjaic/status/1230871980330692608)):
+
+> We are preparing a response. The "rebuttal" makes a potentially relevant point for one of the models we consider, but not the overall interpretation we present
 
 
 ### Core-cusp problem
