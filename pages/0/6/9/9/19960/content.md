@@ -777,6 +777,13 @@ Application to [[quarkonium]]:
 [[!include application of holographic QCD to B-meson physics -- references]]
 
 
+### Relation to holographic entanglement entropy
+
+Relating to [[holographic entanglement entropy]]:
+
+* Zhibin Li, Kun Xu, Mei Huang, _The entanglement properties of holographic QCD model with a critical end point_ ([arXiv:2002.08650](https://arxiv.org/abs/2002.08650))
+
+
 ### Application to defects
 
 Application to QCD [[QFT with defects|with defects]]:
