@@ -17,7 +17,7 @@
 
 ## Idea
 
-A filtered category is a [[categorification]] of the concept of [[directed set]].  In addition to having an upper bound (but not necessarily a [[coproduct]]) for every pair of objects, there must also be an upper bound (but not necessarily a [[coequaliser]]) for every pair of parallel morphisms.
+The concept of _filtered category_ is a [[categorification]] of the concept of [[directed set]]:  In addition to having an upper bound (but not necessarily a [[coproduct]]) for every pair of objects, there must also be an upper bound (but not necessarily a [[coequaliser]]) for every pair of parallel morphisms.
 
 A [[diagram]] $F:D\to C$ where $D$ is a filtered category is called a **filtered diagram**.  A colimit of a filtered diagram is called a **[[filtered colimit]]**.
 
@@ -87,10 +87,14 @@ If $\mathcal{J}$ is the class consisting of the [[terminal category]] and the [[
 * {#ABLR} [[Jiří Adámek]], [[Francis Borceux]], [[Stephen Lack]], and [[Jiří Rosický]], _A classification of accessible categories_, Journal of Pure and Applied Algebra 175:7-30, 2002, ([web page with PS fulltext](http://maths.mq.edu.au/~slack/papers/acc.html)).
 
 
-
 [[!redirects filtered categories]]
 [[!redirects cofiltered category]]
 [[!redirects cofiltered categories]]
 [[!redirects filtrant category]]
 [[!redirects filtrant categories]]
+
 [[!redirects filtered diagram]]
+[[!redirects filtered diagrams]]
+
+[[!redirects cofiltered diagram]]
+[[!redirects cofiltered diagrams]]
