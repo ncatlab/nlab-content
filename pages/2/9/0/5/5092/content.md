@@ -22,5 +22,6 @@ Ji&#345;&#237; Rosick&#253; is a pure [[category theory|category theorist]]. One
 [[!redirects J. Rosicky]]
 [[!redirects Jiří Rosicky]]
 [[!redirects J. Rosický]]
+[[!redirects Jiří Rosický]]
 
 category: people
