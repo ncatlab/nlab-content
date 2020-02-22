@@ -1,11 +1,14 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
 #### Category theory
 +--{: .hide}
 [[!include category theory - contents]]
+=--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
 =--
 =--
 =--
@@ -505,6 +508,8 @@ This is the starting point for the definition at [[ind-object in an (∞,1)-cate
 * [[pro-object]] / [[pro-object in an (∞,1)-category]]
 
 * [[ind-pro-object]]
+
+* [[strict ind-object]]
 
 * [[flat functor]]
 
