@@ -1,15 +1,30 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Definition
 
-If $C$ is a category than an [[ind-object]] $x\in Ind(C)$ is a strict ind-object if it can be represented in $Ind(C)$ as the (vertex of) a colimit of a small filtered diagram whose objects are in $C$ and morphisms are [[monomorphism]]s in $C$.  
+If $C$ is a [[category]] then an [[ind-object]] $x\in Ind(C)$ is a _strict ind-object_ if it can be represented in $Ind(C)$ as the (vertex of) a [[colimit]] of a small [[filtered diagram]] (whose [[objects]] are in $C$ and) whose [[morphisms]] are specifically [[monomorphisms]] in $C$.  
 
 ([Grothendieck-Verdier 71, Exposé I.&#167;8.12.1](#GrothendieckVerdier71)). See also [Blanc 96, def. 4.1](#Blanc96).
 
-Dually, strict [[pro-objects]] are limits of small cofiltered diagrams involving only [[epimorphism]]s. 
+[[abstract duality|Dually]], strict [[pro-objects]] are [[limits]] of small [[cofiltered diagrams]] involving only [[epimorphisms]].
 
 An ind-object isomorphic in $Ind(C)$ to a strict ind-object is sometimes called essentially monomorphic. A pro-object isomorphic in $Pro(C)$ to a strict pro-object is sometimes called essentially epimorphic. (This is not so good terminology unless we call strict pro-objects epimorphic which does not seem to be used.) 
 
