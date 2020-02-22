@@ -4262,7 +4262,7 @@ such that
     \stackrel{\sigma_{n+k-1}}{\longrightarrow} X_{n+k}
   $$
 
-  [[intertwiner|intertwines]] the $O(n) \times Ok()$-[[action]].
+  [[intertwiner|intertwines]] the $O(n) \times O(k)$-[[action]].
 
 A [[homomorphism]] of orthogonal spectra $f\colon X \longrightarrow Y$ is
 
