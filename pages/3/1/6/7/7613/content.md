@@ -178,7 +178,7 @@ The following is a collection of quotes from authors that highlight the open pro
 
 [Howe-Lambert-West 97, p. 2](DpDp2-brane+bound+state#HoweLambertWest97):
 
-> the still rather mysterious M theory governs many aspects of the lower dimensional string theories.  What little is known of M theory is powerful enough to lead us to new phenomena in stringtheory and indeed new string theories.  In particular the M theory fivebrane is strongly believed hold a new kind of self-dual string theory on its worldvolume. This new and somewhat elusive theory has also appeared in other contexts such as the compactification of type IIB string theory on K3 , M(atrix) theory on $\mathbb{T}^5$ and the S-duality of $N = 4$, $D = 4$ super-Yang-Mills. Thus one mayhope that a greater understanding of this self-dual string may lead directly to a greater understanding of duality, string theory and M theory.
+> the still rather mysterious M theory governs many aspects of the lower dimensional string theories.  What little is known of M theory is powerful enough to lead us to new phenomena in string theory and indeed new string theories.  In particular the M theory fivebrane is strongly believed hold a new kind of self-dual string theory on its worldvolume. This new and somewhat elusive theory has also appeared in other contexts such as the compactification of type IIB string theory on K3 , M(atrix) theory on $\mathbb{T}^5$ and the S-duality of $N = 4$, $D = 4$ super-Yang-Mills. Thus one may hope that a greater understanding of this self-dual string may lead directly to a greater understanding of duality, string theory and M theory.
 
 \linebreak
 
