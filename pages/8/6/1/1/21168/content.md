@@ -1,3 +1,4 @@
+
 \tableofcontents
 
 ## Idea
@@ -37,3 +38,7 @@ of cochains, as well as Steenrod's [[generalized cup products]].
 * [[simplicial chains]]
 
 * [[singular cochains]]
+
+* [[singular cohomology]]
+
+[[!redirects simplicial cochains]]
