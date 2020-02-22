@@ -120,7 +120,7 @@ The [[E-infinity ring]] structure of $KU$ is discussed in
 
 and the underlying [[H-infinity ring spectrum]] structure in 
 
-* {#McLure86} [[James McLure]], _$H_\infty$-ring spectra via space-level homotopy theory_ ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/BMMS8.pdf)), chapter VII in R. Bruner, [[Peter May]], [[James McLure]], M. Steinberger, _$H_\infty$-Ring Spectra and their Applications_, Lecture Notes in Mathematics 1176, Springer 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/h_infty.pdf))
+* {#McLure86} [[James McClure]], _$H_\infty$-ring spectra via space-level homotopy theory_ ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/BMMS8.pdf)), chapter VII in R. Bruner, [[Peter May]], [[James McClure]], M. Steinberger, _$H_\infty$-Ring Spectra and their Applications_, Lecture Notes in Mathematics 1176, Springer 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/h_infty.pdf))
 
 The uniqueness of the [[E-infinity ring]] structure on $KU$ is due to
 
