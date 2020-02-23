@@ -123,6 +123,8 @@ In [[enriched category theory]] there can be more types of absolute colimits.  F
 
 * in Lawvere [[metric spaces]], limits of Cauchy sequences are absolute.  This is the origin of the name "Cauchy colimit."
 
+* in [[posets]], suprema of subsets with a greatest element are absolute.
+
 * in categories [[bicategory-enriched category|enriched]] over the [[bicategory]] (or [[double category]]) of relations in a [[site]], *gluings* are absolute.  In this case the enriched categories can roughly be identified with [[separated presheaves]] and the Cauchy-complete ones with [[sheaves]].
 
 * in categories enriched over [[rational number|rational]] [[vector spaces]], quotients by finite [[group actions]] are absolute.
