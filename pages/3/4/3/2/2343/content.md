@@ -181,7 +181,16 @@ of the [[tangent (∞,1)-category]] projection $dom : T_C \to C$.
 
 In particular, when $C = ...$, then the cotangent complex assigns ... .
 
+
+
 ## Further properties and applications 
+
+### Characterization via universal properties
+
+See [[cotangent complex in derived geometry]]
+
+
+### Application: lifting properties of classical rings to derived rings
 
 For more background see [[deformation theory]].
 
