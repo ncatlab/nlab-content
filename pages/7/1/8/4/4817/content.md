@@ -50,7 +50,11 @@ Where the [[quantum anomaly]]-cancellation for the heterotic string involves the
 
 The heterotic [[NS5-brane]] (see also at _[[half M5-brane]]_) was found as a [[black brane]] in [[heterotic string theory]] in 
 
-* {#Strominger91} [[Andrew Strominger]], _Heterotic solitons_, Nucl. Phys. B343 (1990) 167-184 (<a href="https://doi.org/10.1016/0550-3213(90)90599-9">doi:10.1016/0550-3213(90)90599-9</a>) Erratum: Nucl. Phys. B353 (1991) 565-565 (<a href="https://doi.org/10.1016/0550-3213(91)90349-3">doi:10.1016/0550-3213(91)90349-3</a>) ([spire:27900](http://inspirehep.net/record/27900))
+* {#Strominger91} [[Andrew Strominger]], 
+
+  _Heterotic solitons_, Nucl. Phys. B343 (1990) 167-184 (<a href="https://doi.org/10.1016/0550-3213(90)90599-9">doi:10.1016/0550-3213(90)90599-9</a>) 
+
+  Erratum: Nucl. Phys. B353 (1991) 565-565 (<a href="https://doi.org/10.1016/0550-3213(91)90349-3">doi:10.1016/0550-3213(91)90349-3</a>, [spire:27900](http://inspirehep.net/record/27900))
 
 Discussion of the heterotic [[NS5-brane]] as a [[Green-Schwarz sigma-model]] and its fermion [[worldvolume]] [[quantum anomaly]]:
 
