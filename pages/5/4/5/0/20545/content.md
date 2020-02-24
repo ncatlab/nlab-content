@@ -48,10 +48,6 @@ reviewed in
 
 * [[Henning Samtleben]], [[Ergin Sezgin]], Robert Wimmer, Linus Wulff, _New superconformal models in six dimensions: Gauge group and representation structure_, PoS CORFU2011 (2011) 071 ([arXiv:1204.0542](https://arxiv.org/abs/1204.0542), [spire:1102894](http://inspirehep.net/record/1102894))
 
-Discussion of [[Killing spinors]] in the [SSW 11](#SSW11)-models:
-
-* Mehmet Akyol, [[George Papadopoulos]], _$(1,0)$ superconformal theories in six dimensions and Killing spinor equations_, JHEP 07 (2012) 070 ([arXiv:1204.2167](https://arxiv.org/abs/1204.2167))
-
 An attempt to understand the [SSW 11](#SSW11)-models as [[higher gauge theories]] for gauge-[[L-infinity algebras]] which are variants of the [[string Lie 2-algebra]] is due to:
 
 * [[Christian Saemann]], [[Lennart Schmidt]], _The Non-Abelian Self-Dual String and the $(2,0)$-Theory_ ([arXiv:1705.02353](https://arxiv.org/abs/1705.02353))
