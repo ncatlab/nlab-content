@@ -6,13 +6,13 @@
 
 ## Idea 
 
-If $G$ is a locally compact hausdorff [[topological group]], with $C_c(G)$ the algebra of compactly supported continuous functions from $C_c(G)$ to $\mathbb{R}$,  a _Haar integral_ $\int_G $ is a continuous linear map $C_c(G) \rightarrow \mathbb{R}$ which is invariant under the aparent action of $G$ on $C_c(G)$. It turns out that there exists a unique such integral, up to a scalar multiple. The Riesz representation theorem then allows one to conclude the existence of a unique _Haar measure_, which is a $G$-invariant Borel measure  on $G$.
+If $G$ is a locally compact Hausdorff [[topological group]], with $C_c(G)$ the algebra of compactly supported continuous functions from $C_c(G)$ to $\mathbb{R}$,  a _Haar integral_ $\int_G $ is a continuous linear map $C_c(G) \rightarrow \mathbb{R}$ which is invariant under the aparent action of $G$ on $C_c(G)$. It turns out that there exists a unique such integral, up to a scalar multiple. The Riesz representation theorem then allows one to conclude the existence of a unique _Haar measure_, which is a $G$-invariant Borel measure  on $G$.
 
 The archetypal example of Haar measure is the [[Lebesgue measure]] on the (additive group underlying) [[cartesian space]] $\mathbb{R}^n$.
 
 ##Definition
 
-Let $G$ be a locally compact hausdorff group. Let $C_c(G)$ denote the vector space of continuous real-valued functionals with compact support on $G$. This is a [[locally convex topological vector space]] where the locally convex structure is specified by the family of seminorms 
+Let $G$ be a locally compact Hausdorff group. Let $C_c(G)$ denote the vector space of continuous real-valued functionals with compact support on $G$. This is a [[locally convex topological vector space]] where the locally convex structure is specified by the family of seminorms 
 
 $$\rho_K(f) = \sup_{x \in K} |f(x)|$$ 
 
@@ -53,7 +53,7 @@ What corresponds to the Haar measure on $G$ is simply cardinality (though we mus
 
 Using the Haar integral, we may define [[convolution product]]: $* : C(G \times G) \rightarrow C(G)$ sending $f : G \times G \rightarrow \mathbb{R}$ to the map $G \rightarrow \mathbb{R}$ sending $\int_{h \in G} f(gh^{-1}, h) = \int_{hk = g} f(h, k)$. This is analogous to the map $*_{fin} : C(G_{fin} \times G_{fin}) \rightarrow C(G_{fin})$ sending $f$ to the map $C(G_{fin} )$ sending $g$ to $\frac{1}{|G_{fin}|} \sum_{h k = g} f(h, k)$.
 
-In both cases, we get a "[[bar construction]]". For the compact hausdorff case, we get:
+In both cases, we get a "[[bar construction]]". For the compact Hausdorff case, we get:
 $$
     \cdots
     \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
@@ -69,9 +69,20 @@ $$
     \stackrel{\stackrel{*_{fin} }{\longrightarrow}}{\stackrel{ f \mapsto \left( g \mapsto  \frac{1}{|G_{fin}|} \sum_{h \in G} f( g, h) \right)  }{\longrightarrow}}
     C(G_{fin}) \stackrel{f \mapsto \frac{1}{|G_{fin}|} \sum_{g \in G} f(g)}{\longrightarrow} \mathbb{R}
 $$
-Note that the monad involved has no unit, as $C(G)$ has no unit. However, convolution makes $C(G)$ an assocciative nonunitial algebra, so that the resolution is a _unitless_ monad. This explains why there are evident face maps without degeneracies. 
+Calling this a bar resolution is a slight abuse of terminology; the "monad" involved is actually has no unit, as $C(G)$ has no unit for the convolution product. However, convolution makes $C(G)$ an assocciative nonunitial algebra, so that the resolution is still a _unitless_ monad. Hence there are evident face maps without degeneracies.
 
-**Remark:** Define a map $C(G \times G) \rightarrow \mathbb{R}$ sending $f$ to $$\int_{g \in G} f(g, g)$$
+While $C(G)$ has no unit, there is a canonical way of adding units to it: take products with $\mathbb{R}[G]$. Write $\sum_{g \in G} a_g \delta_g$ for the elements of $\mathbb{R}[G]$; since $\delta_1$ is a formal unit for convolution, we may think of it as a Dirac delta function. Now the bar resolution
+$$
+    \cdots
+    \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
+   C(G  \times G) \prod \mathbb{R}[G]
+    \stackrel{\stackrel{* }{\longrightarrow}}{\stackrel{ f \mapsto \left( g \mapsto \int_{h \in G} f( g, h) \right)  }{\longrightarrow}}
+    C(G) \prod \mathbb{R}[G] \stackrel{\int_G}{\longrightarrow} \mathbb{R}
+$$
+has degeneracies as well.
+
+**Remark:** Define a map $C(G \times G) \rightarrow \mathbb{R}$ sending $f$ to
+ $$\int_{g \in G} f(g, g)$$
 This appears pleasingly similar to the coend 
 $$\int^{g  \in C} f(g, g)$$
 for a functor $f : C \times C^{op} \rightarrow \text{Set}$. Define a map $\circ : C(G \times G) \times C(G \times G) \rightarrow C(G \times G)$, where
@@ -83,7 +94,7 @@ $$f_1 \circ f_2(g_1, g_2) = \int^{h \in G} f_1(g_1, h) \otimes f_2(h, g_2)$$
 
 Any locally compact Hausdorff topological group $G$ admits a Haar integral (and therefore Haar measure) that is unique up to scalar multiple. This result was first proven by Weil. A proof by be found in these online [notes](http://simonrs.com/HaarMeasure.pdf) by Rubinstein-Salzedo. 
  
-We here give a lesser known proof of the existence of the Haar integral, specifically on compact hausdorff groups $G$, which uses convex sets and the Krein Milman theorem instead of measure theory. While the proof is only two paragraphs, it does not show positivity of the Haar Integral, making this a proof of the existence of a generalized Haar measure. Let $G \text{-Ban}$ be the category of Banach representations of $G$ (see "Analogy with the Finite Case").
+We here give a lesser known proof of the existence of the Haar integral, specifically on compact Hausdorff groups $G$, which uses convex sets and the Krein Milman theorem instead of measure theory. While the proof is only two paragraphs, it does not show positivity of the Haar Integral, making this a proof of the existence of a generalized Haar measure. Let $G \text{-Ban}$ be the category of Banach representations of $G$ (see "Analogy with the Finite Case").
 
 $C_c(G) = C(G)$ is such a Banach representation. We may view $\mathbb{R}$ as a Banach representation of $G$ as well, where $gz = z$ for each $z \in \mathbb{R}$ and each $g \in G$. $\mathbb{R}$ embeds into $C(G)$ as constant functions. We may then consider the exact sequence
 $$0 \rightarrow \mathbb{R} \rightarrow C(G) \rightarrow C(G)/ \mathbb{R} \rightarrow 0$$
@@ -108,8 +119,6 @@ Therefore $H$ is a singleton, and its unique element is a $G$-invariant function
 
 In particular, since $\mathbb{R}$ has been shown to be injective, the map $\text{Id}_{\mathbb{R}}  : \mathbb{R} \rightarrow \mathbb{R}$ lifts along the inclusion
 $$0 \rightarrow \mathbb{R} \rightarrow C(G)$$
-
-**Remark:** It can be shown that the constructed integral satisfies the [[Riesz representation theorem]], from which it follows that there is a unique Haar measure on $G$.
 
 ## Left and Right Haar Measures that Differ
 
