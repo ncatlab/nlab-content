@@ -1,4 +1,20 @@
-[[!redirects 6-dimensional supergravity]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+=--
+=--
+
+
+
 
 #Contents#
 * table of contents
@@ -32,9 +48,19 @@
 
   (in [[D'Auria-Fré formulation of supergravity]])
 
+* [[Fabio Riccioni]], _All Couplings of Minimal Six-dimensional Supergravity_, Nucl. Phys. B605 (2001) 245-265 ([arXiv:hep-th/0101074](https://arxiv.org/abs/hep-th/0101074))
+
 * Vijay Kumar, Daniel S. Park, [[Washington Taylor]], _6D supergravity without tensor multiplets_, JHEP 1104:080,2011 ([arXiv:1011.0726](http://arxiv.org/abs/1011.0726))
 
 * Ángel Murcia, C. S. Shahbazi, _Contact metric three manifolds and Lorentzian geometry with torsion in six-dimensional supergravity_ ([arXiv:1912.08723](https://arxiv.org/abs/1912.08723))
+
+### Killing spinors
+
+Discussion of [[Killing spinors]]/enhancement of [[number of supersymmetries]] in [[D=6 supergravity]]:
+
+* Mehmet Akyol, [[George Papadopoulos]], _Spinorial geometry and Killing spinor equations of 6-D supergravity_, Class. Quant. Grav. 28:105001, 2011 ([arXiv:1010.2632](https://arxiv.org/abs/1010.2632))
+
+* Mehmet Akyol, [[George Papadopoulos]], _$(1,0)$ superconformal theories in six dimensions and Killing spinor equations_, JHEP 07 (2012) 070 ([arXiv:1204.2167](https://arxiv.org/abs/1204.2167))
 
 
 
@@ -48,3 +74,5 @@ Realization of [[JT-gravity]] as [[Kaluza-Klein reduction]] of [[D=6 supergravit
 
 
 [[!redirects 6d supergravity]]
+
+[[!redirects 6-dimensional supergravity]]
