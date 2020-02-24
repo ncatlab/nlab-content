@@ -30,7 +30,7 @@ $$
   \frac{1}{6} \mathbf{p}_2 : \mathbf{B}String \to \mathbf{B}^7 U(1)
 $$
 
-in $\mathbf{H} :=$ [[?LieGrpd]], mapping from the [[delooping]] [[∞-Lie groupoid]] of the [[string Lie 2-group]] to that of the  <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle Lie 7-group</a>. This is the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfCocycles">Lie integration</a>  of the degree 7 [[∞-Lie algebra cocycle]] $\mu_7 : \mathfrak{string} \to b^6 \mathbb{R}$ on the [[string Lie 2-algebra]] which classified the [[fivebrane Lie 6-algebra]].
+in $\mathbf{H} :=$ [[∞LieGrpd]], mapping from the [[delooping]] [[∞-Lie groupoid]] of the [[string Lie 2-group]] to that of the  <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle Lie 7-group</a>. This is the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfCocycles">Lie integration</a>  of the degree 7 [[∞-Lie algebra cocycle]] $\mu_7 : \mathfrak{string} \to b^6 \mathbb{R}$ on the [[string Lie 2-algebra]] which classified the [[fivebrane Lie 6-algebra]].
 
 Therefore, by [[∞-Chern-Weil theory]], there is a refinement of this morphism to [[connection on an ∞-bundle|∞-bundles with connection]]
 
@@ -49,7 +49,7 @@ $$
 
 a map from [[string Lie 2-group]]-[[principal 2-bundle]]s with [[connection on a 2-bundle|connection]] to [[circle n-bundle with connection|circle 7-bundles with connection]], hence degree 8 [[ordinary differential cohomology]]. 
 
-For $(P,\nabla)$ a String-principal 2-bundle, we call the image $\frac{1}{6}\hat\mathbf{p}(\nabla) \in \mathbf{H}_{diff}(X,\mathbf{B}^z U(1))$ its **Chern-Simons circle 7-bundle with connection**.
+For $(P,\nabla)$ a String-principal 2-bundle, we call the image $\frac{1}{6}\hat\mathbf{p}(\nabla) \in \mathbf{H}_{diff}(X,\mathbf{B}^7 U(1))$ its **Chern-Simons circle 7-bundle with connection**.
 
 This is a differential refinement of the [[twisted cohomology|obstruction]] to lifting $P$ to a [[fivebrane Lie 6-group]]-bundle.
 
@@ -62,7 +62,7 @@ Therefore the [[higher parallel transport]] induced by $\frac{1}{6}\hat \mathbf{
 
 ## Construction
 
-Using the discusson at [[∞-Chern-Weil theory]] and in direct analogy to the constructin of the [[Chern-Simons circle 3-bundle]] we can model the [[(∞,1)-functor]]
+Using the discussion at [[∞-Chern-Weil theory]] and in direct analogy to the construction of the [[Chern-Simons circle 3-bundle]] we can model the [[(∞,1)-functor]]
 
 $$
   \mathbf{H}_{conn}(X, \mathbf{B}String)
