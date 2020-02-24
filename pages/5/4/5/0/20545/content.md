@@ -38,6 +38,28 @@ Arises from
 
 ## References
 
+### Lagrangian description
+
+A class of [[Lagrangian densities]] for [[D=6 N=(1,0) SCFTs]] with [[non-abelian group|non-abelian]] [[gauge group]] has been proposed in 
+
+* {#SSW11} [[Henning Samtleben]], [[Ergin Sezgin]], Robert Wimmer, _$(1,0)$ superconformal models in six dimensions_,  J. High Energ. Phys. 2011, 62 (2011) ([arXiv:1108.4060](https://arxiv.org/abs/1108.4060), <a href="https://doi.org/10.1007/JHEP12(2011)062">doi:10.1007/JHEP12(2011)062</a>)
+
+reviewed in 
+
+* [[Henning Samtleben]], [[Ergin Sezgin]], Robert Wimmer, Linus Wulff, _New superconformal models in six dimensions: Gauge group and representation structure_, PoS CORFU2011 (2011) 071 ([arXiv:1204.0542](https://arxiv.org/abs/1204.0542), [spire:1102894](http://inspirehep.net/record/1102894))
+
+Discussion of [[Killing spinors]] in the [SSW 11](#SSW11)-models:
+
+* Mehmet Akyol, [[George Papadopoulos]], _$(1,0)$ superconformal theories in six dimensions and Killing spinor equations_, JHEP 07 (2012) 070 ([arXiv:1204.2167](https://arxiv.org/abs/1204.2167))
+
+An attempt to understand the [SSW 11](#SSW11)-models as [[higher gauge theories]] for gauge-[[L-infinity algebras]] which are variants of the [[string Lie 2-algebra]] is due to:
+
+* [[Christian Saemann]], [[Lennart Schmidt]], _The Non-Abelian Self-Dual String and the $(2,0)$-Theory_ ([arXiv:1705.02353](https://arxiv.org/abs/1705.02353))
+
+* [[Christian Saemann]], [[Lennart Schmidt]], _Towards an M5-Brane Model I: A 6d Superconformal Field Theory_, J. Math. Phys. 59 (2018) 043502 ([arxiv:1712.06623](https://arxiv.org/abs/1712.06623))
+
+
+
 ### Geometric engineering on 5-branes
 
 On [[D=6 N=(1,0) SCFTs]] via [[geometric engineering of QFT|geometric engineering]] on [[M5-branes]]/[[NS5-branes]] at D-, E-type [[ADE-singularities]], notably from [[M-theory on S1/G_HW times H/G_ADE]], hence from [[orbifolds]] of [[type I' string theory]] (see at [half NS5-brane](NS5-brane#NSHalfBranes)):
