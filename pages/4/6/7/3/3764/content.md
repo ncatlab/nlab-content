@@ -160,7 +160,7 @@ For general unital [[star-algebras]]:
 in relation with the classical moment problem and the notion of [[POVM]]
 
 * {#DragoMoretti19} Nicolò Drago,  [[Valter Moretti]], 
- The notion of observable and the moment problem for *-algebras and their GNS representations ([arXiv.org:1903.07496](https://arxiv.org/abs/1903.07496))
+ The notion of observable and the moment problem for *-algebras and their GNS representations, Lett. Math. Phys. 2020 in print  ([arXiv.org:1903.07496](https://arxiv.org/abs/1903.07496))
 
 For [[formal power series algebras]] over $\mathbb{C}[ [ \hbar ] ]$:
 
