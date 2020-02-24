@@ -37,7 +37,7 @@ In accord with this the [AdS7-CFT6](AdS-CFT#AdS7CFT6) correspondence predicts th
 
 In the non-abelian case this is expected ([Witten 07](#Witten07)) that the compactification of such theories are at the heart of the phenomenon that leads to [[S-duality]] in [[super Yang-Mills theory]] and further to [[geometric Langlands duality]] ([Witten 09](#Witten09)).
 
-Due to the [[self-dual higher gauge theory|self-duality]] a characterization of these theories by an [[action functional]] is subtle. Therefore more direct descriptions are still under investigation (for instance [SSW11](#SSW11)). A review of recent developments is in ([Moore11](#Moore)).
+Due to the [[self-dual higher gauge theory|self-duality]] a characterization of these theories by an [[action functional]] is subtle. Therefore more direct descriptions are still under investigation (for instance [SSW11](#SSW11)). Review includes ([Moore11](#Moore11), [Moore 12](#Moore12)).
 
 ## Properties
 
@@ -126,9 +126,9 @@ Derivation of the abelian 6d theory to low order as the small fluctuations of th
 
 General survey includes
 
-* {#Moore}[[Greg Moore]], _On the role of six&#8208;dimensional $(2,0)$-theories in recent developments in Physical Mathematics_, talk at [Strings 2011](http://www2.physics.uu.se/external/strings2011/) ([pdf slides](http://www.physics.rutgers.edu/~gmoore/Strings2011FinalPDF.pdf))
+* {#Moore11} [[Greg Moore]], _On the role of six&#8208;dimensional $(2,0)$-theories in recent developments in Physical Mathematics_, talk at [Strings 2011](http://www2.physics.uu.se/external/strings2011/) ([pdf slides](http://www.physics.rutgers.edu/~gmoore/Strings2011FinalPDF.pdf))
   
-* [[Greg Moore]], _Applications of the six-dimensional (2,0) theories to Physical Mathematics_, [Felix Klein lectures Bonn (2012)](http://www.hcm.uni-bonn.de/events/eventpages/felix-klein-lectures/applications-of-the-six-dimensional-20-theories-to-physical-mathematics/) ([pdf](http://www.physics.rutgers.edu/~gmoore/FelixKleinLectureNotes.pdf), [[MooreKleinLectures12.pdf:file]])
+* {#Moore12} [[Greg Moore]], _Applications of the six-dimensional (2,0) theories to Physical Mathematics_, [Felix Klein lectures Bonn (2012)](http://www.hcm.uni-bonn.de/events/eventpages/felix-klein-lectures/applications-of-the-six-dimensional-20-theories-to-physical-mathematics/) ([pdf](http://www.physics.rutgers.edu/~gmoore/FelixKleinLectureNotes.pdf), [[MooreKleinLectures12.pdf:file]])
 
 
 * {#Workshop14}  [[Qiaochu Yuan]]: _[lecture notes](https://math.berkeley.edu/~qchu/Notes/6d/)_ for _[Mathematical Aspects of Six-Dimensional Quantum Field Theories](http://www.math.northwestern.edu/~celliott/workshop/)_, Berkeley, December 8th-12th, 2014 at the University of California, Berkeley
@@ -280,16 +280,6 @@ Relation to [[extended TQFT]] and [[quantum anomalies]] (motivated via [[M5-bran
 * [[Dan Freed]], _[[4-3-2 8-7-6]]_
 
 * [[David Ben-Zvi]], _Algebraic geometry of topological field theories_, talk at _[Reimagining the Foundations of Algebraic Topology April 07, 2014 - April 11, 2014](https://www.msri.org/workshops/689)_ ([web video](https://www.msri.org/workshops/689/schedules/18216))
-
-* [[Samuel Monnier]], _The global anomalies of (2,0) superconformal field theories in six dimensions_, JHEP09(2014)088 ([arXiv:1406.4540](https://arxiv.org/abs/1406.4540))
-
-* {#Monnier17} [[Samuel Monnier]], _The anomaly field theories of six-dimensional (2,0) superconformal theories_ ([arXiv:1706.01903](https://arxiv.org/abs/1706.01903))
-
-* [[Samuel Monnier]], [[Gregory Moore]], _A Brief Summary Of Global Anomaly Cancellation In Six-Dimensional Supergravity_, ([arXiv:1808.01335](https://arxiv.org/abs/1808.01335), 
-
-a summary of
-
-* [[Samuel Monnier]], [[Gregory Moore]], _Remarks on the Green-Schwarz terms of six-dimensional supergravity theories_, ([arXiv:1808.01334](https://arxiv.org/abs/1808.01334)
 
 
 
