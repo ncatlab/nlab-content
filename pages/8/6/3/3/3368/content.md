@@ -130,7 +130,7 @@ However, we do have the following:
 
 +-- {: .num_theorem}
 ###### Theorem
-**([[Higher Algebra|HA]] Lemma 7.3.5.14)**
+**([[Higher Algebra|HA]] Lemma 7.3.5.14 in older versions, [[Higher Topos Theory|HTT]] Proposition 4.4.5.20 in newer versions)**
 A morphism $e$ in an $(\infty,1)$-category $C$ is idempotent (i.e. $e:\Delta^1 \to C$ extends to $Idem$) if and only if there is a homotopy $h : e \sim e^2$ such that $h\circ 1 \sim 1\circ h$.
 =--
 
