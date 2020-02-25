@@ -62,3 +62,9 @@ Suggestion that the [[MSSM]] with R-parity violation could explain the [[flavour
 * {#WangYangYuan19} Dong-Yang Wang, Ya-Dong Yang, Xing-Bo Yuan, _$b \to c \tau \bar \nu$ decays in supersymmetry with R-parity violation_ ([arXiv:1905.08784](https://arxiv.org/abs/1905.08784))
 
 
+* Quan-Yi Hu, Lin-Lin Huang, 
+_Explaining $b\to s \ell^+ \ell^-$ data by sneutrinos in the R-parity violating MSSM_ ([arXiv:1912.03676](https://arxiv.org/abs/1912.03676))
+
+* Quan-Yi Hu, Ya-Dong Yang, Min-Di Zheng, _Revisiting the B-physics anomalies in R-parity violating MSSM_ ([arXiv:2002.09875](https://arxiv.org/abs/2002.09875))
+
+
