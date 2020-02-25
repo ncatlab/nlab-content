@@ -148,7 +148,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-This is essentially a [[categorification|categorified]] version of the familiar fact that the product $n\cdot m$ of two [[natural numbers]] can be identified with the sum $\overset{n}{\overbrace{m+\dots +m}}$ of $n$ copies of $m$.
+This is essentially a [[categorification|categorified]] version of the familiar fact that the exponentiation $m^n$ of two [[natural numbers]] can be identified with the product $\overset{n}{\overbrace{m\cdot\dots \cdot m}}$ of $n$ copies of $m$.
 
 =--
 
