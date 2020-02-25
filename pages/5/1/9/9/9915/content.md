@@ -4,6 +4,22 @@
 
 ## Selected writings
 
+On [[heterotic M-theory]]:
+
+* {#LalakLukasOvrut97} Zygmunt Lalak, Andr&eacute; Lukas, [[Burt Ovrut]], _Soliton Solutions of M-theory on an Orbifold_, Phys. Lett. B425 (1998) 59-70 ([arXiv:hep-th/9709214](https://arxiv.org/abs/hep-th/9709214))
+
+* {#Ovrut02} [[Burt Ovrut]], _Lectures on Heterotic M-Theory_, TASI 2001. 2004. 359-407  ([arXiv:hep-th/0201032](http://arxiv.org/abs/hep-th/0201032), [doi:10.1142/9789812702821_0007](https://doi.org/10.1142/9789812702821_0007))
+
+* {#Ovrut18} [[Burt Ovrut]], _Vacuum Constraints for Realistic Heterotic M-Theories_, Symmetry 2018, 10(12), 723 ([arXiv:1811.08892](https://arxiv.org/abs/1811.08892), [doi:10.3390/sym10120723](https://doi.org/10.3390/sym10120723))
+
+
+On [[string phenomenology]] in [[heterotic M-theory]]:
+
+* {#DOPW99} [[Ron Donagi]], [[Burt Ovrut]], [[Tony Pantev]], [[Daniel Waldram]], _Standard Models from Heterotic M-theory_, Adv. Theor. Math. Phys. 5 (2002) 93-137 ([arXiv:hep-th/9912208](https://arxiv.org/abs/hep-th/9912208))
+
+* {#DOPW00} [[Ron Donagi]], [[Burt Ovrut]], [[Tony Pantev]], [[Daniel Waldram]], _Standard Model Vacua in Heterotic M-Theory_, talk at [Strings '99](http://strings99.aei.mpg.de/), Potsdam, Germany, 19 - 24 Jul 1999 ([arXiv:hep-th/0001101](https://arxiv.org/abs/hep-th/0001101))
+
+
 On [[heterotic M-theory on ADE-orbifolds]]:
 
 * Michael Faux, [[Dieter Lüst]], [[Burt Ovrut]], _Intersecting Orbifold Planes and Local Anomaly Cancellation in M-Theory_, Nucl. Phys. B554: 437-483, 1999 ([arXiv:hep-th/9903028](https://arxiv.org/abs/hep-th/9903028))
@@ -24,6 +40,8 @@ Specifically on [[gaugino condensation]] in [[heterotic string theory]] and [[Ho
 
 
 ## Related $n$Lab pages
+
+* [[heterotic M-theory]]
 
 * [[string phenomenology]]
 
