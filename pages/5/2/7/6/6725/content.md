@@ -192,7 +192,7 @@ Review is in
 
 * [[Paul Townsend]], _Four Lectures on M-Theory_ ([arXiv:hep-th/9612121](http://arxiv.org/abs/hep-th/9612121)). 
 
-* {#Ovrut02} [[Burt Ovrut]], _Lectures on Heterotic M-Theory_ ([arXiv:hep-th/0201032](http://arxiv.org/abs/hep-th/0201032))
+* {#Ovrut02} [[Burt Ovrut]], _Lectures on Heterotic M-Theory_, TASI 2001. 2004. 359-407  ([arXiv:hep-th/0201032](http://arxiv.org/abs/hep-th/0201032), [doi:10.1142/9789812702821_0007](https://doi.org/10.1142/9789812702821_0007))
 
 * {#Falkowski} [[Adam Falkowski]], section 3 of _Five dimensional locally supersymmetric theories with branes_, Master Thesis, Warsaw ([[FalkowskiLecture.pdf:file]])
 
@@ -217,7 +217,18 @@ Disucussion of the [[duality between heterotic and type I string theory]] includ
 
 Discussion of [[string phenomenology]] in Horava-Witten theory:
 
-* {#Ovrut18} [[Burt Ovrut]], _Vacuum Constraints for Realistic Heterotic M-Theories_ ([arXiv:1811.08892](https://arxiv.org/abs/1811.08892))
+* {#Ovrut18} [[Burt Ovrut]], _Vacuum Constraints for Realistic Heterotic M-Theories_, Symmetry 2018, 10(12), 723 ([arXiv:1811.08892](https://arxiv.org/abs/1811.08892), [doi:10.3390/sym10120723](https://doi.org/10.3390/sym10120723))
+
+### Phenomenology
+
+Discussion of [[phenomenology]]/[[string phenomenology]] for the [[heterotic M-theory]], relating to the [[standard model of particle physics]]:
+
+
+* {#DOPW99} [[Ron Donagi]], [[Burt Ovrut]], [[Tony Pantev]], [[Daniel Waldram]], _Standard Models from Heterotic M-theory_, Adv. Theor. Math. Phys. 5 (2002) 93-137 ([arXiv:hep-th/9912208](https://arxiv.org/abs/hep-th/9912208))
+
+* {#DOPW00} [[Ron Donagi]], [[Burt Ovrut]], [[Tony Pantev]], [[Daniel Waldram]], _Standard Model Vacua in Heterotic M-Theory_, talk at [Strings '99](http://strings99.aei.mpg.de/), Potsdam, Germany, 19 - 24 Jul 1999 ([arXiv:hep-th/0001101](https://arxiv.org/abs/hep-th/0001101))
+
+
 
 ### Gaugino condensation and supersymmetry breaking
  {#ReferencesGauginoCondensation}
