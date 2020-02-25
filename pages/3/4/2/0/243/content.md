@@ -154,7 +154,7 @@ A $V$- **extranatural transformation**
 $$\theta: v \stackrel{\bullet}{\to} F$$ 
 from $v$ to $F$ consists of a family of arrows in $V$, 
 $$\theta_c: v \to F(c, c),$$ 
-indexed over objects $c$ of $C$, such that for every pair of objects $(c, d)$ in $V$, the composites of (1) and (2) agree: 
+indexed over objects $c$ of $C$, such that for every pair of objects $(c, d)$ in $C$, the composites of (1) and (2) agree: 
 $$v \otimes C(c, d) \stackrel{\theta_c \otimes 1}{\to} F(c, c) \otimes C(c, d) \stackrel{\lambda_{c, c, d}}{\to} F(c, d) \qquad (1)$$ 
 $$v \otimes C(c, d) \stackrel{\theta_d \otimes 1}{\to} F(d, d) \otimes C(c, d) \stackrel{\rho_{c, d, d}}{\to} F(c, d) \qquad (2)$$
 
