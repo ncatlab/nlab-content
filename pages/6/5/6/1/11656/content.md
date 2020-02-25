@@ -10,6 +10,14 @@
 
 * Lectures on [[K3]]-singularities in [[string theory]] ([here](https://sites.duke.edu/scshgap/dave-morrison-lectures/#09sep18))
 
+On [[small instantons]] under [[duality between F-theory and heterotic string theory]]:
+
+* {#AspinwallGross96} [[Paul Aspinwall]], [[Mark Gross]], _The $SO(32)$ Heterotic String on a K3 Surface_, Phys. Lett. B387 (1996) 735-742 ([arXiv:hep-th/9605131](https://arxiv.org/abs/hep-th/9605131))
+
+* {#AspinwallMorrison97} [[Paul Aspinwall]], [[David Morrison]], _Point-like Instantons on K3 Orbifolds_, Nucl. Phys. B503 (1997) 533-564 ([arXiv:hep-th/9705104](https://arxiv.org/abs/hep-th/9705104))
+
+
+
 On [[string theory]] [[perturbative string theory vacuum|vacua]] [[KK-compactification|compactified]] on [[orbifolds]] and [[orientifolds]]:
 
 * {#BDHKMMS01} [[Jan de Boer]], [[Robbert Dijkgraaf]], [[Kentaro Hori]], [[Arjan Keurentjes]], [[John Morgan]], [[David Morrison]], [[Savdeep Sethi]], section 3 of _Triples, Fluxes, and Strings_, Adv.Theor.Math.Phys. 4 (2002) 995-1186 ([arXiv:hep-th/0103170](https://arxiv.org/abs/hep-th/0103170))
