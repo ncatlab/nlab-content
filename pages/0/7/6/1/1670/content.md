@@ -42,7 +42,7 @@ on the [[subobject lattice]] of the given set.
 +-- {: .num_defn}
 ###### Definition
 
-Let $X$ be a [[set]], and let $\mathcal{C} \subset P X$ be a collection of [[subsets]] of $X$.  Then $\mathcal{C}$ is a __Moore collection__ if every [[intersection]] of members of $\mathcal{C}$ belongs to $\mathcal{C}$. 
+Let $X$ be a [[set]], and let $\mathcal{C} \subset \mathcal{P}X$ be a collection of [[subsets]] of $X$.  Then $\mathcal{C}$ is a __Moore collection__ if every [[intersection]] of members of $\mathcal{C}$ belongs to $\mathcal{C}$. 
 
 That is, given a family $(A_i)_i$ of sets in $X$,
 $$ \forall i,\; A_i \in \mathcal{C} \;\Rightarrow\; \bigcap_i A_i \in \mathcal{C} .$$
@@ -91,7 +91,7 @@ Furthermore, the two maps above, from closure operators to Moore collections and
 ### In terms of monads
  {#InTermsOfMonads}
 
-Moore closures on $X$ are precisely [[monads]] on  the [[subobject lattice]] $\mathcal{P}X$.  The property (1) of a closure operator, def. \ref{ClosureOperator} ,corresponds the action of the monad on morphisms, while (2,3) are the [[unit of an adjunction|unit]] and multiplication of the monad.  (The rest of the requirements of a monad are trivial in a [[poset]], since they state the equality of various morphisms with common source and target.)
+Moore closures on $X$ are precisely [[monads]] on  the [[subobject lattice]] $\mathcal{P}X$.  The property (1) of a closure operator, def. \ref{ClosureOperator}, corresponds to the action of the monad on morphisms, while (2,3) are the [[unit of an adjunction|unit]] and multiplication of the monad.  (The rest of the requirements of a monad are trivial in a [[poset]], since they state the equality of various morphisms with common source and target.)
 
 
 
