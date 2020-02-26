@@ -6,7 +6,7 @@
 ## Idea
 
 
-A cotangent complex is a certain [[spectrum object]] which exerts full control of the linear-order deformation & obstruction theory in a [[moduli problem]]. Consequently, a construction of a cotangent complex constitutes a complete understanding of the deformation theory of the situation.
+A _cotangent complex_ is a certain [[spectrum object]] which exerts full control of the linear-order [[deformation theory|deformation]] & [[obstruction]] theory in a [[moduli problem]]. Consequently, a construction of a cotangent complex constitutes a complete understanding of the [[deformation theory]] of the situation.
 
 There's both a *local* and *global* version of this idea. Let $X$ be a derived prestack. One can seek the following objects:
 
@@ -14,7 +14,7 @@ There's both a *local* and *global* version of this idea. Let $X$ be a derived p
 
 - $\mathbb{L}_X \in QCoh(X)$. The global cotangent complex.
 
-In the case that $X$ is a nice geometric object (e.g. an n-[[geometric stack]]), $\mathbb {L}_{X, x}$ can be viewed as the (derived) cotangent space at a point, and $\mathbb {L}_X$ the global cotangent bundle.
+In the case that $X$ is a nice geometric object (e.g. an n-[[geometric stack]]), $\mathbb {L}_{X, x}$ can be viewed as the ([[derived geometry|derived]]) [[cotangent space]] at a point, and $\mathbb {L}_X$ the global [[cotangent bundle]].
 
 That being said, the global cotangent complex exist for a much broader class of prestacks $X$ than just the geometric ones, allowing one to talk about the "existence of a good deformation theory everywhere" even when the moduli problem is not representable.
 
@@ -31,7 +31,7 @@ Before diving into the various variants of cotangent complexes, we summarize the
 
 We've already explained the global/local distinction above, we briefly discuss the absolute/relative distinction now.
 
-In algebraic geometry, relative notions are notions about families. e.g. flatness/smoothness/etaleness over a base scheme/stack. Relative cotangent complexes encode deformation theory of families. Of course these are analogous to relative cotangent bundles in differential geometry.
+In [[algebraic geometry]], relative notions are notions about families. e.g. [[flat morphism|flatness]]/[[formally smooth morphism|smoothness]]/[[formally etale morphism|etaleness]] over a base [[scheme]]/[[algebraic stack|stack]]. Relative cotangent complexes encode deformation theory of families. Of course these are analogous to [[vertical tangent bundle|relative]] cotangent bundles in [[differential geometry]].
 
 We also note that even if one is only interested in finding an absolute cotangent complex, some of the most useful computational lemmas require you to compute relative cotangent complexes. Hence the notion is truly ubiquitous in deformation theory.
 
