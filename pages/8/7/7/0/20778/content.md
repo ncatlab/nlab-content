@@ -128,7 +128,7 @@ For more details, see [F-P '19](#kantorovich19).
 
 * {#kantorovich19} [[Tobias Fritz]] and [[Paolo Perrone]], _A probability monad as the colimit of spaces of finite samples_, Theory and Applications of Categories 34, 2017. ([pdf](http://www.tac.mta.ca/tac/volumes/34/7/34-07.pdf))
 
-* {#orderedkantorovich} [[Tobias Fritz]] and [[Paolo Perrone]], _Stochastic order on metric spaces and the ordered Kantorovich monad_, submitted, 2018. ([arXiv:1808.09898](https://arxiv.org/abs/1808.09898))
+* {#orderedkantorovich} [[Tobias Fritz]] and [[Paolo Perrone]], _Stochastic order on metric spaces and the ordered Kantorovich monad_, Advances in Mathematics 366, 2020. ([arXiv:1808.09898](https://arxiv.org/abs/1808.09898))
 
 * {#villani} [[Cedric Villani]], _Optimal transport: old and new_, Springer, 2008.
 
