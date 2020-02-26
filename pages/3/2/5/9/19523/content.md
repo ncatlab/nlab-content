@@ -29,38 +29,34 @@ Of course the [[observable universe]] is clearly not _exactly_ homogeneous (due 
 It has been shown that the effect of such backreaction is small or invisible if the inhomogeneity is modeled in a non-[[relativistic field theory|relativistic]] (i.e. Newtonian) limit, instead of taking [[general relativity|relativity]] into account ([Buchert 00](#Buchert00), [Buchert-Ehlers 95](#BuchertEhlers95)), which however is the standard approximation currently used in comparing the [[standard model of cosmology]] to data.
 
 ## Effective dark energy from inhomogeneity?
+ {#EffectiveDarkEnergyFromInhomogeneity}
 
 The [[standard model of cosmology]] assumes that cosmic inhomogeneities may be neglected to zeroth order, and studies [[structure formation]] as a perturbation about a spatially homogeneous [[FRW model]] [[background field|background]] [[spacetime]].
 
 Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15](standard+model+of+cosmology#BCKRW15), [Riess et. al. 16](#RiessEtAl16)) related to _[[dark energy]]_ (a [[cosmological constant]], and possibly related issues such as [[cosmic inflation]]), it has been suggested that these may be but an artefact of the overly idealistic approximation of cosmic homogeneity, and that a more accurate inhomogeneous cosmology would not need to assume any [[dark energy]]/[[cosmological constant]].
 
-References suggesting/discussing/checking this idea include the following: [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Räsänen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Buchert 11](#Buchert11), [Buchert-Räsänen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Smoller-Temple-Vogler 14](#SmollerTempleVogler14), [Moffat 16](#Moffat16), [Colin-Mohayaee-Rameez-Sarkar 19](#SarkarEtAl18), [Sarkar 18](#Sarkar18), [Lombriser 19](#Lombriser19), [Deledicque 19](#Deledicque19).
+References suggesting/discussing/checking this idea include the following: [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Räsänen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Buchert 11](#Buchert11), [Buchert-Räsänen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Smoller-Temple-Vogler 14](#SmollerTempleVogler14), [Moffat 16](#Moffat16), [Colin-Mohayaee-Rameez-Sarkar 19](#SarkarEtAl18), [Sarkar 18](#Sarkar18), [Lombriser 19](#Lombriser19), [Deledicque 19](#Deledicque19), [Heinesen-Buchert 20](#HeinesenBuchert20).
 
 Discussion specifically of cosmic inhomogenity as the possible cause of the $H_0$-tension: [Bolejko 17](#Bolejko17).
 
 From [Koksbang 19, p. 3](#Koksbang19)
 
-> Cosmic backreaction is particularly interesting because it in principle has the potential
-to explain the apparent accelerated expansion of the Universe without introducing any
-exotic [[dark energy]] component as well as possibly being able to mimic [[dark matter]].
+> Cosmic backreaction is particularly interesting because it in principle has the potential to explain the apparent accelerated expansion of the Universe without introducing any exotic [[dark energy]] component as well as possibly being able to mimic [[dark matter]].
 
 > Less ambitiously, cosmic backreaction might solve the $H_0$-problem through the emergence of curvature ([Bolejko 17](#Bolejko17)), or a small backreaction may bias the values obtained from analyses of
-data based on FLRW models and must therefore be identified and taken into account in an era of precision cosmology. Yet another option is that cosmic backreaction is entirely
-negligible in the real universe. 
+data based on FLRW models and must therefore be identified and taken into account in an era of precision cosmology. Yet another option is that cosmic backreaction is entirely negligible in the real universe. 
 
 > Whichever is the case, a theoretical quantification of cosmic backreaction is necessary for getting the foundations of cosmology onto solid ground; the
-mathematics clearly shows that in principle backreaction terms affect the overall dynamics
-of the Universe. It is therefore an important goal of cosmologists to obtain a theoretical understanding of the size of cosmic backreaction in the real universe similarly to e.g. the
+mathematics clearly shows that in principle backreaction terms affect the overall dynamics of the Universe. It is therefore an important goal of cosmologists to obtain a theoretical understanding of the size of cosmic backreaction in the real universe similarly to e.g. the
 desire to theoretically understand the value of the vacuum energy density. 
 
 From [CosmoBack 18](#CosmoBack18):
 
 > Since the early 2000's a large debate emerged in the cosmology community around the so-called «averaging problem» (Buchert 2000; Ellis & Buchert 2005), a question introduced on a more general ground in general relativity by G.F.R. Ellis in 1962. Because on the non-linearity of the Einstein equations, a non-trivial backreaction effect of the small-scale matter inhomogeneities is expected on the average large-scale dynamics of the spacetime. The occurrence of the late-time accelerated expansion of the universe at the same epoch when structure formation becomes non-linear is a tempting coincidence encouraging the backreaction conjecture against the real need of a dark energy component, which is needed instead in a Friedmann-Lemaître-Robertson-Walker setting. Besides, the same backreaction mechanism also accounts for an energy source dynamically equivalent to the dark matter. These arguments are often supported by toy models but not demonstrated in general, both from a theoretical and observational point-of-view. Simplified inhomogeneous models have been proposed to interpret the non-trivial dynamics of structures and the light propagation on cosmological scales. Only recently cosmological fully general-relativistic N-body simulations have been realised, offering a valuable ground to investigate the geometry of a realistic, "lumpy" universe.
 
+### Qualitative mechanism
 
-
-
-{#Qualitative} A qualitative discussion of how inhomogeneity may cause accelerated cosmic expansion is given in [Räsänen 10, section 3: "Understanding acceleration"](#Rasanen10):
+{#Qualitative} A qualitative discussion of how cosmic inhomogeneity may cause accelerated cosmic expansion is given in [Räsänen 10, section 3: "Understanding acceleration"](#Rasanen10):
 
 > In general, underdense regions $[$"voids"$]$ are negatively curved and expand faster than the average, while overdense regions are positively curved and expand slower. ([Räsänen 03, p. 15](#Rasanen03))
 
@@ -77,10 +73,14 @@ rises, so the average expansion rate can rise ([Räsänen 10, p. 8](#Rasanen10))
 
 > $[...]$ So there is no ambiguity:  accelerated average expansion due to inhomogeneities is possible. The question is whether the distribution of structures in the universe is such that this mechanism is realised ([Räsänen 10, p. 10](#Rasanen10))
 
+### Data and models
+
 {#AbstractSmollerTempleVogler14} An analytic proof of this qualitative picture is claimed in [Smoller-Temple-Vogler 14](#SmollerTempleVogler14):
 
-> Our analysis is based on the discovery of a closed ansatz for perturbations of the SM during the p$ = 0$ epoch of the Big Bang which triggers instabilities that create unexpectedly large regions of accelerated uniform expansion  within  Einstein’s  original  theory  without  the  cosmological constant.  We prove that these accelerated regions introduce
-precisely the same range of corrections to redshift vs luminosity as are produced by the cosmological constant in the theory of Dark Energy. 
+> Our analysis is based on the discovery of a closed ansatz for perturbations of the SM during the p$ = 0$ epoch of the Big Bang which triggers instabilities that create unexpectedly large regions of accelerated uniform expansion  within  Einstein’s  original  theory  without  the  cosmological constant.  We prove that these accelerated regions introduce precisely the same range of corrections to redshift vs luminosity as are produced by the cosmological constant in the theory of Dark Energy. 
+
+A survey of the field of inhomogeneous cosmology and of attitudes in the community towards open issues, as of 2016, is in [Belejko-Korzyński 16](#BelejkoKorzynski16).
+
 
 A similar conclusion is reached in [Colin-Mohayaee-Rameez-Sarkar 19](#SarkarEtAl18), which in [Sarkar 18, slide 44](#Sarkar18) is summarized as follows:
 
@@ -94,8 +94,25 @@ A conclusion along these lines, albeit weaker, is also reached independently in 
 
 > some proposals suggest some local/environmental factors ($z \leq 0.03$) can  bias  the  local  determinations.  This would mean the locally measured $H_0$ cannot be interpreted as the global Hubble constant of the homogeneous universe. An example is a local underdense region (Lombriser 2019; Shanks et al. 2019). Recent studies have shown observational evidence supporting a  small-scale local underdense region (Boehringer et al. 2019; Pustilnik et al. 2019), though it has been argued that the likelihood for a local void to substantially affect the local measurement may be low (Kenworthyet al. 2019).   These local factors do not pose a problem tothe standard ΛCDM model at large scales, but instead point to the need for a more detailed description of our local environment to account for such a systematic effect that can shift all  local measurements in the same way. If all local measurements produce high values of $H_0$, it would favor such a local/environmental-factor explanation over systematic effects that may be unique to each observation.
 
+A strong claim is due to [Heinesen-Buchert 20](#HeinesenBuchert20), who present a model of inhomogeneous cosmology that is claimed to be (p. 14):
 
-Survey of the field of inhomogeneous cosmology and of attitudes in the community towards open issues is in [Belejko-Korzyński 16](#BelejkoKorzynski16).
+> a natural and consistent explanation of 
+
+> (i) dark energy, 
+
+> (ii) the coincidence problem (here conceptually,not quantitatively),
+
+> (iii) positive initial curvature, 
+
+> (iv) the small matter density cosmological parameterfound in local probes of the matter density, 
+
+> (v) the large angular diameter distance tothe CMB consistent with JLA supernova sample parameter constraints, 
+
+> and (vi) the local expansion rate measurements (removal of the 'Hubble tension').
+
+> We believe that this model architecture needs convincing arguments to be rejected as a physically viable show-case, on the basis of which the model ingredients can be improved in order to build a physical cosmology in the future.
+
+### Impact
 
 If the apparent small positive [[cosmological constant]] ([[dark energy]]) were but an artefact of neglecting backreaction of inhomogeneities, some theoretical puzzlements regarding [[quantum gravity]] on [[de Sitter spacetimes]] would disappear (see [Rajaraman 16](de+Sitter+spacetime#Rajaraman16) for general discussion and [Danielsson-VanRiet 18, p. 27](#DanielssonVanRiet18) for discussion of [[perturbative string theory vacua]]) and some theoretically attractive models could become phenomenologically viable again, such as "[[Witten's Dark Fantasy]]".
 
@@ -347,6 +364,9 @@ Dark Energy?_, 2009 ([[NotariInhomogeneousCosmology.pdf:file]])
 * {#Deledicque19} Vincent Deledicque, _Theoretical developments on the adequacy of the fitting of the FLRW metric on the universe's real metric_ ([arxiv:1907.01580](https://arxiv.org/abs/1907.01580))
 
 * {#LinMackHou19} Weikang Lin, Katherine J. Mack, Liqiang Hou, _Investigating the Hubble Constant Tension -- Two Numbers in the Standard Cosmological Model_ ([arXiv:1910.02978](https://arxiv.org/abs/1910.02978))
+
+* {#HeinesenBuchert20} Asta Heinesen, [[Thomas Buchert]], _Solving the curvature and Hubble parameter inconsistencies through structure formation-induced curvature_ ([arXiv:2002.10831](https://arxiv.org/abs/2002.10831))
+
 
 
 ### No effective dark energy from inhomogeneity
