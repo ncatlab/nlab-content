@@ -49,7 +49,7 @@ See also
 
 Discussion in terms of [[category theory]]:
 
-* [[William Lawvere]], [_Functional Remarks on the General Concept of Chaos_](http://www.ima.umn.edu/preprints/Functional-Remarks-General-Concept-Chaos), IMA reprint 87, 1984 ([pdf](http://www.ima.umn.edu/sites/default/files/87s.pdf))
+* [[William Lawvere]], [_Functorial Remarks on the General Concept of Chaos_](http://www.ima.umn.edu/preprints/Functional-Remarks-General-Concept-Chaos), IMA reprint 87, 1984 ([pdf](http://www.ima.umn.edu/sites/default/files/87s.pdf))
 
 * George Dimitrov, Fabian Haiden, [[Ludmil Katzarkov]], [[Maxim Kontsevich]], _Dynamical systems and categories_, [arxiv/1307.8418](http://arxiv.org/abs/1307.8418)
 
