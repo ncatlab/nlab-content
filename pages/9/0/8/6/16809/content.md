@@ -22,7 +22,7 @@ Given a smooth [[bundle]] $E \to \Sigma$ over a [[smooth manifold]] $\Sigma$, th
 
 1. the [[Euler-Lagrange operator]] $\delta_{El}$
 
-1. followed by the [[Helmholtz operator]] $\delta_{Heml}$
+1. followed by the [[Helmholtz operator]] $\delta_{Helm}$
 
 $$
  0 \to \mathbb{R}
