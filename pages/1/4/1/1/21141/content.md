@@ -39,7 +39,11 @@
 
 * Wolfram Hogrebe, _Kant und das Problem einer transzendentalen Semantik_ , Fink München 1974.
 
+* [[Immanuel Kant]], _Prolegomena zu einer jeden künftigen Metaphysik_ , Meiner Hamburg 2001[1783]. (§39, p.323)
+
 * Wilhelm Lütterfels, _Kant in der gegenwärtigen Sprachtheorie_ , pp.150-176 in Heidemann, Engelhard (eds.), _Warum Kant heute?_ , de Gruyter Berlin 2003.
+
+* [[Salomon Maimon]], _Versuch über die Transzendentalphilosophie_ , Meiner Hamburg 2004[1790]. (pp.263-333)
 
 * [[Karl Leonhard Reinhold]], _Das menschliche Erkenntnißvermögen, aus dem Gesichtspunkte des durch die Wortsprache vermittelten Zusammenhangs zwischen Sinnlichkeit und dem Denkvermögen_ , Akademische Buchhandlung Kiel 1816. ([wikisource](https://de.wikisource.org/wiki/Karl_Leonhard_Reinhold))
 
