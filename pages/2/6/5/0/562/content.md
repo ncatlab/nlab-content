@@ -33,7 +33,7 @@ Those fibrations corresponding to pseudofunctors that factor through [[Grpd]] ar
 
 ## Definition 
 
-Let $\phi:e'\to e$ be an arrow in $E$.  We say that $\phi$ is **[[cartesian morphism|cartesian]]** if for any arrow $\psi:e''\to e$ in $E$ and $g:p(e'')\to p(e')$ in $B$ such that $p(\phi)\circ g = p(\psi)$, there exists a unique $\chi:e''\to e'$ such that $\psi = \phi\circ \chi$ and $p(\chi) =g$. In other words, for any $\psi$, any filling of the image of the following diagram under $p$ can be lifted up to a filling in $E$:
+Let $\phi:e'\to e$ be an arrow in $E$.  We say that $\phi$ is **[[cartesian morphism|cartesian]]** if for any arrow $\psi:e''\to e$ in $E$ and $g:p(e'')\to p(e')$ in $B$ such that $p(\phi)\circ g = p(\psi)$, there exists a unique $\chi:e''\to e'$ such that $\psi = \phi\circ \chi$ and $p(\chi) =g$. In other words, for any $\psi$, any filling of the image of the following diagram under $p$ can be lifted uniquely up to a filling in $E$:
 
 $$
 \array{
