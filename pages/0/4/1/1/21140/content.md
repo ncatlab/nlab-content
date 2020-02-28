@@ -20,7 +20,7 @@
 
 
 
-**Stephan Wannowski** (1749-1812) was a preacher at the Polish reformed church (since 1775)[^Bio] and (since 1779) director of the reformed Latin school in Königsberg/East Prussia. He was part of the wider circle around [[Immanuel Kant]] whose philosophy he applied in theology[^Com]  and linguistics.
+**Stephan Wannowski** (1749-1812) was a preacher at the Polish reformed church (since 1775)[^Bio] and (since 1779) director of the reformed Latin school in Königsberg/East Prussia where E. T. A. Hofmann, the famous German poet, was among his pupils. Wannowski was part of the wider circle around [[Immanuel Kant]] whose philosophy he applied in theology[^Com]  and linguistics.
 
 [^Bio]: Before that he was preacher and teacher at the Königsberg orphanage. Some biographical information can be found in Goldbeek (1782) and Safranski (1984). Apparently he was of Polish origin from Ostraszym with his name sometimes spelled as Stefan Vannovsky. Surprisingly, he still figures as an anonymous author in the recension of his 1805 book in Rosenkranz' 1840 text, despite the latter being a professor at Königsberg!
 
