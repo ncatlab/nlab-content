@@ -417,7 +417,7 @@ $$
       {\Downarrow{\mathrlap{\eta}}}
   \mathcal{G}_3
     \overset{F_3}{\longrightarrow}
-  \mathcal{G}_3
+  \mathcal{G}_4
 $$
 
 be morphisms and a homotopy $\eta$. Then there is a homotopy
@@ -478,7 +478,7 @@ $$
 be two composable homotopies. We need to show that
 
 $$
-  F_3 \cdot (\eta_2 \circ \eta_1 \cdot F_1
+  F_3 \cdot (\eta_2 \circ \eta_1) \cdot F_1
   =
   ( F_3 \cdot \eta_2 \cdot F_1 ) \circ ( F_3 \cdot \eta_1 \cdot F_1 )
   \,.
@@ -488,7 +488,7 @@ Now for $x$ any object of $\mathcal{G}_1$ we find
 
 $$
   \begin{aligned}
-    (F_3 \cdot (\eta_2 \circ \eta_1 \cdot F_1)(x)
+    (F_3 \cdot (\eta_2 \circ \eta_1) \cdot F_1)(x)
       & \coloneqq
     F_2((\eta_2 \circ \eta_1)(F_1(X)))
       \\
@@ -693,7 +693,7 @@ $$
     \;\Rightarrow\;
   (  F'_3 (-) \cdot  F'_1 )
   \;\colon\;
-    Hom_{Grpd}(\mathcal{G}_2,\mathcal{G}_2)
+    Hom_{Grpd}(\mathcal{G}_2,\mathcal{G}_3)
       \longrightarrow
     Hom_{Grpd}(\mathcal{G}_1, \mathcal{G}_4)
   \,.
