@@ -3,7 +3,7 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Gordon_L._Kane)
 
-## selected writings
+## Selected writings
 
 * Nature article, _[Particle physics is at a turning point](http://www.nature.com/news/particle-physics-is-at-a-turning-point-1.9675)_, Dec. 2011
 
@@ -30,6 +30,10 @@ See also
 * {#Kane17} [[Gordon Kane]], _String theory and the real world_, Morgan & Claypool, 2017 (<a href="http://iopscience.iop.org/book/978-1-6817-4489-6">doi:0.1088/978-1-6817-4489-6</a>)
 
 * {#Kane18} [[Gordon Kane]], _Exciting Implications of LHC Higgs Boson Data_ ([arXiv:1802.05199](https://arxiv.org/abs/1802.05199))
+
+On [[Yukawa couplings]] in the [[G2-MSSM]]:
+
+* Eric Gonzalez, [[Gordon Kane]], Khoa Dang Nguyen, [[Malcolm Perry]], _Quark and lepton mass matrices from localization in M-theory on $G_2$ orbifold_ ([arXiv:2002.11820](https://arxiv.org/abs/2002.11820))
 
 
 ## Related $n$Lab entries
