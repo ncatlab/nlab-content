@@ -62,7 +62,7 @@ $ ^f x(a)\quad : \quad^f y(b)\qquad\cong\qquad ^f x(b)\quad :\quad^f a-1(y) $ .
 
 * {#LS55}[[Claude Lévi-Strauss]], _The Structural Study of Myth_ , J. American Folklore **78** no. 278 (1955) pp.428-444.
 
-* {#LS58}[[Claude Lévi-Strauss]], _Antropologie Structurale_ , Plon Paris 1958.
+* {#LS58}[[Claude Lévi-Strauss]], _Anthropologie Structurale_ , Plon Paris 1958.
 
 * {#LS85a}[[Claude Lévi-Strauss]], _D'un oiseau &#224; l'autre_ , L'Homme **25** no.93 (1985) pp.5-12. ([link](http://www.persee.fr/doc/hom_0439-4216_1985_num_25_93_368539))
 
@@ -74,11 +74,15 @@ $ ^f x(a)\quad : \quad^f y(b)\qquad\cong\qquad ^f x(b)\quad :\quad^f a-1(y) $ .
 
 * {#Maranda01}Pierre Maranda (ed.), _The Double Twist_ , University of Toronto Press 2001.
 
-* {#Morava03}[[Jack Morava]], _On the Canonical Formula of C. L&#233;vi-Strauss_ , arXiv.0306174v2 (2003). ([abstract](http://arxiv.org/abs/math/0306174))
+* {#Morava03}[[Jack Morava]], _On the Canonical Formula of C. L&#233;vi-Strauss_ , arXiv:2003.0306174v2 (2003). ([abstract](http://arxiv.org/abs/math/0306174))
 
 * {#Morava04}[[Jack Morava]], _Une interpr&#233;tation math&#233;matique de la formule canonique de Claude L&#233;vi-Strauss_ , Cahiers de L'Herne **88** (2004) pp.216-218.
 
 * {#Morava05}[[Jack Morava]], _From L&#233;vi-Strauss to Chaos and Complexity_ ,  in Mosko, Damon (eds.), _On the Order of Chaos_ , Berghahn Oxford 2005.
+
+* {#Morava20}[[Jack Morava]], _On the Canonical Formula of C. L&#233;vi-Strauss_ II, arXiv:2002.12813 (2020). ([abstract](https://arxiv.org/abs/2002.12813))
+
+* {#Oppitz92} Michael Oppitz, _Notwendige Beziehungen - Abriß der strukturalen Anthropologie_ , Suhrkamp Frankfurt am Main 1992. (pp.245ff)
 
 * {#Petitot88}[[Jean Petitot]], _Approche morphodynamique &#224; la formule cannonique des mythes_ , L'Homme **28** no.106-107 (1988) pp.24-50. ([link](http://www.persee.fr/doc/hom_0439-4216_1988_num_28_106_368968))
 
