@@ -54,6 +54,8 @@ $ ^f x(a)\quad : \quad^f y(b)\qquad\cong\qquad ^f x(b)\quad :\quad^f a-1(y) $ .
 
 * Num&#233;ro sp&#233;cial _La formule canonique des mythes_ , L'Homme **35** no.135 (1995). ([link](http://www.persee.fr/issue/hom_0439-4216_1995_num_35_135))
 
+* Mauro William Barbosa de Almeida, _A fórmula canônicado mito_ , ms. University of São Paulo 2009. (Available online)
+
 * Maurice Godelier, _L&#233;vi-Strauss_ , Seuil Paris 2013.
 
 * {#Lacan07}Jacques Lacan, _Le mythe individuel du n&#233;vros&#233;_ , Seuil Paris 2007.
@@ -80,7 +82,7 @@ $ ^f x(a)\quad : \quad^f y(b)\qquad\cong\qquad ^f x(b)\quad :\quad^f a-1(y) $ .
 
 * {#Morava05}[[Jack Morava]], _From L&#233;vi-Strauss to Chaos and Complexity_ ,  in Mosko, Damon (eds.), _On the Order of Chaos_ , Berghahn Oxford 2005.
 
-* {#Morava20}[[Jack Morava]], _On the Canonical Formula of C. L&#233;vi-Strauss_ II, arXiv:2002.12813 (2020). ([abstract](https://arxiv.org/abs/2002.12813))
+* {#Morava20}[[Jack Morava]], _On the Canonical Formula of C. L&#233;vi-Strauss II_ , arXiv:2002.12813 (2020). ([abstract](https://arxiv.org/abs/2002.12813))
 
 * {#Oppitz92} Michael Oppitz, _Notwendige Beziehungen - Abriß der strukturalen Anthropologie_ , Suhrkamp Frankfurt am Main 1992. (pp.245ff)
 
