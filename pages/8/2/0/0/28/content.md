@@ -255,7 +255,7 @@ $$
 
 is
 
-* for each object $x \in X_1$ of $\mathcal{G}_1$ a morphism $\eta_{x} \in Hom_{\mathcal{G}_2}(F(x), G(y))$
+* for each object $x \in X_1$ of $\mathcal{G}_1$ a morphism $\eta_{x} \in Hom_{\mathcal{G}_2}(F(x), G(x))$
 
 such that
 
@@ -413,7 +413,7 @@ $$
   \mathcal{G}_2
     \underoverset
       {\underset{\phantom{AA}F_2\phantom{AA}}{\longrightarrow}}
-      {\overset{\phantom{AA}F'_2\phantom{AA}}{\longrightarrow}}
+      {\overset{\phantom{AA}F^{'}_2\phantom{AA}}{\longrightarrow}}
       {\Downarrow{\mathrlap{\eta}}}
   \mathcal{G}_3
     \overset{F_3}{\longrightarrow}
@@ -427,17 +427,17 @@ $$
   \phantom{AAAA}
     \underoverset
       {\underset{F_3 \circ F_2\circ F_1}{\longrightarrow}}
-      {\overset{F_3 \circ F'_2\circ F_1}{\longrightarrow}}
-      {\Downarrow{\mathrlap{ F_2 \cdot \eta_ \cdot F_1 }}}
+      {\overset{F_3 \circ F^{'}_2\circ F_1}{\longrightarrow}}
+      {\Downarrow{\mathrlap{ F_3 \cdot \eta_ \cdot F_1 }}}
   \phantom{AAAA}\mathcal{G}_2
 $$
 
 between the respective composites, with components given by
 
 $$
-  (F_2 \cdot \eta \cdot F_1)(x)
+  (F_3 \cdot \eta \cdot F_1)(x)
     \;\coloneqq\;
-  F_2(\eta(F_1(x)))
+  F_3(\eta(F_1(x)))
   \,.
 $$
 
@@ -504,7 +504,7 @@ $$
   \,.
 $$
 
-Here all steps are unwinding of the definition of horizontal and of ordinary (vbertical)
+Here all steps are unwinding of the definition of horizontal and of ordinary (vertical)
 composition of homotopies, except the third equality, which is the functoriality of $F_2$.
 
 =--
