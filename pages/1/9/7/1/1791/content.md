@@ -54,7 +54,7 @@ Hence the ordinary category $sk_1 [C^{op}, sSet]$ has as objects [[enriched func
 ###### Definition
 **(global model structure)**
 
-Let be $C$ a [[simplicially enriched category]]. 
+Let $C$ be a [[simplicially enriched category]]. 
 
 The **global projective model structure** $sk_1[C^{op},sSet]_{proj}$ on $sk_1[C^{op}, sSet]$ 
 
