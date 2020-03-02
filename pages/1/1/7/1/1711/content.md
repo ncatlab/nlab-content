@@ -22,7 +22,7 @@ A **$k$-transfor** is an operation from one $n$-[[n-category|category]] $C$ to a
 * $n$-[[n-functor|functor]]s, which are 0-transfors
 * $n$-[[natural transformation]]s, which are 1-transfors
 * [[modifications]], which are 2-transfors,
-* [[perturbation]]s, which are 3-transfors,
+* perturbations, which are 3-transfors,
 * and so on.
 
 The word "transfor" was coined by Sjoerd Crans in [this paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.26.506&rep=rep1&type=pdf); it is a _portmanteau_ of "functor" and "transformation."  A collection of components which forms a transfor is said to be *transforial*, as a generalization of "functorial" and "natural."
