@@ -1,24 +1,27 @@
 [[!redirects topology - global countability axioms]]
 
-<div style="float:right; margin-left:.7em;">
 \begin{tikzcd}[row sep=huge, column sep=huge]
 	& \text{second countable}  
+	& \sigma\text{-locally discrete base} 
 	& \scriptsize \text{metrisable}
 	\\  
 	\text{separable} 
 	& \text{Lindel\"of}  
-	& \sigma\text{-locally discrete base}                      
+	& \sigma\text{-locally finite base} 
+	& 
 	\\
 	& \text{weakly Lindel\"of} 
-	& \sigma\text{-locally finite base} 
-	\\
-	& & \text{first countable}
-	\\
-	& & \text{Fr\'echet-Urysohn}
-	\\
-	& & \text{sequential}
-	\\
-	& & \text{countably tight}
+	& \text{first countable}
+	&
+	\\[-.9em]
+	\text{countable chain condition}
+	& 
+	& \text{Fr\'echet-Urysohn}
+	& 
+	\\[-.9em]
+	& & \text{sequential} &
+	\\[-.9em]
+	& & \text{countably tight} &
 	\arrow[Rightarrow, from=1-2, to=2-1, 
 	"\substack{\text{countable}\\ \text{choice}}"above left] 
 	\arrow[Rightarrow, from=1-2, to=2-2,
@@ -26,26 +29,20 @@
 	\arrow[Rightarrow, from=2-1, to=2-2, "\text{if $X$ metacompact}"] 
 	\arrow[Rightarrow, from=2-2, to=3-2]
 	\arrow[Rightarrow, from=2-1, to=3-2, "\text{AC}"]
-	\arrow[Rightarrow, from=1-2, to=2-3]
+	\arrow[Rightarrow, from=1-2, to=1-3]
+	\arrow[Rightarrow, from=2-1, to=4-1]
+	\arrow[Rightarrow, from=1-3, to=2-3]
 	\arrow[Rightarrow, from=2-3, to=3-3]
 	\arrow[Rightarrow, from=3-3, to=4-3]
 	\arrow[Rightarrow, from=4-3, to=5-3]
 	\arrow[Rightarrow, from=5-3, to=6-3]
-	\arrow[Rightarrow, from=6-3, to=7-3]
-	\arrow[Rightarrow, from=1-3, to=2-3]
-	\arrow[Rightarrow, from=3-3, to=1-3, %controls={+(4.3,2) and +(0,3)}, 
-		rounded corners,
-		to path={ 
-			--([xshift=2em]\tikztostart.east)
-			--([yshift=14em, xshift=2em]\tikztostart.east)
-			-- node[above] (B) {$\substack{\text{Nagata-Smirnov} \\ \text{metrization theorem:}\\ \text{if $X$ regular and } \mathrm{T}_2}$} ([yshift=14em]\tikztostart.center)
-			-- (\tikztotarget)}
-	]
-	\arrow[Leftrightarrow, from=3-2, to=3-3, controls={+(2.3,1.5) and +(-2.3,1.5)},
+	\arrow[Rightarrow, from=1-4, to=1-3]
+	\arrow[Rightarrow, from=3-3, to=1-4, bend right, "\substack{\text{Nagata-Smirnov} \\ \text{metrization theorem:}\\ \text{if $X$ regular and } \mathrm{T}_2}" below right]
+	\arrow[Leftrightarrow, from=3-2, to=2-3, controls={+(1.3,1.5) and +(-2.3,1.5)},
 		"\substack{\text{weakly Lindel\"of } \wedge \\ \sigma\text{-locally finite base}}" {description, name=A} ]
 	\arrow[Rightarrow, from=A, to=1-2] 
 \end{tikzcd}
-</div>
+
 
 ### Properties ###
 
@@ -66,6 +63,9 @@
 * [[countable choice]]: the [[natural number]]s is a [[projective object]] in [[Set]].
 
 * [[metacompact space|metacompact]]: every open cover has a point-finite open refinement.
+
+
+* [[countable chain condition]]: A family of pairwise disjoint open subsets is at most countable.
 
 * [[first-countable space|first-countable]]: every point has a countable [[neighborhood base]]
 
@@ -91,6 +91,8 @@
 * [[weakly Lindelöf spaces with countably locally finite base are second countable]].
 
 * [[separable metacompact spaces are Lindelöf]].
+
+* separable spaces satisfy the countable chain condition: given a dense set $D$ and a family $\{U_\alpha : \alpha \in A\}$, the map $D \to A$ assigning $d$ to the unique $\alpha \in A$ with $d \in U_\alpha$ is surjective.
 
 * separable spaces are weakly Lindelöf: given a countable dense subset and an open cover [[axiom of choice|choose]] for each point of the subset an open from the cover.
 
