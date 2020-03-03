@@ -1,9 +1,6 @@
 [[!redirects Geometric nerve of a bicategory]]
 [[!redirects Duskin nerve]]
-[[!redirects Duskin nerve]]
-[[!redirects Duskin nerve]]
-[[!redirects Duskin nerve]]
-[[!redirects Duskin nerve]]
+[[!redirects Duskin nerves]]
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
