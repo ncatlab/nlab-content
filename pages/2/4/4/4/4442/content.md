@@ -435,6 +435,10 @@ Surveys and introductions include
 
 * Johanna Erdmenger, _Introduction to Gauge/Gravity Duality_,  	PoS (TASI2017) 001 ([arXiv:1807.09872](https://arxiv.org/abs/1807.09872))
 
+* Nirmalya Kajuri, _ST4 Lectures on Bulk Reconstruction_ ([arXiv:2003.00587](https://arxiv.org/abs/2003.00587))
+
+
+
 See also
 
 * Wikipedia, _[AdS/CFT correspondence](http://en.wikipedia.org/wiki/AdS/CFT_correspondence)_
