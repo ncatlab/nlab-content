@@ -41,7 +41,7 @@ There is an analogy between Haar measure and scaled-cardinality on a [[finite gr
 
 Let $G_{fin}$ be a finite group.  Let $G_{fin} \text{-Rep}$ be the category of $G$-[[representations]] of $R$-modules, where $R$ is a ring in which $|G_{fin}|$ is invertible. This category is equivalent to $R[G]$-mod. We can view $R$ as a trivial $G_{fin}$-representation, where $ga = a$ for each $a \in R$ and each $g \in G$.
 
-Let $G$ be a [[compactum]]. Let $G \text{-Ban}$ be the category of Banach representations of $G$. Objects in $G \text{-Ban}$ are banach spaces $X$ over $\mathbb{R}$ with a continuous action $G \times X \rightarrow X$. Maps in $G \text{-Ban}$ are bounded, $G$-equivariant maps. (Alternatively, $G \text{-Ban}$ can be viewed as a category of certain $\mathbb{R}[G]$-modules.) We can view $\mathbb{R}$ as a trivial $G$-representation, where $ga = a$ for each $a \in \mathbb{R}$ and each $g \in G$.
+Let $G$ be a [[compactum]]. Let $G \text{-Ban}$ be the category of Banach representations of $G$. Objects in $G \text{-Ban}$ are banach spaces $X$ over $\mathbb{R}$ with a continuous norm preserving action $G \times X \rightarrow X$, i.e. $||gx|| = ||x|| \forall g \in G \forall x \in X$. Maps in $G \text{-Ban}$ are short maps which are $G$-equivariant. (Alternatively, $G \text{-Ban}$ can be viewed as a category of certain $\mathbb{R}[G]$-modules.) We can view $\mathbb{R}$ as a trivial $G$-representation, where $ga = a$ for each $a \in \mathbb{R}$ and each $g \in G$.
 
 Let $C(G_{fin})$ be the ring of set-maps from $G_{fin}$ to $R$. $G$ acts on $C(G_{fin})$ where $f^g : G_{fin} \rightarrow R$ sends $x$ to $f(gx)$. There is a map of abelian groups $\int_{G_{fin}} : C(G_{fin}) \rightarrow R$ sending $f$ to $\frac{1}{|G|} \sum_{g \in G} f(g)$, analogous to the Haar integral. Indeed,
 $$\int_{G_{fin}} f + g = \int_{G_{fin}} f + \int_{G_{fin}} g \forall f, g \in C(G_{fin}) $$
@@ -81,20 +81,11 @@ $$
 $$
 has degeneracies as well.
 
-**Remark:** Define a map $C(G \times G) \rightarrow \mathbb{R}$ sending $f$ to
- $$\int_{g \in G} f(g, g)$$
-This appears pleasingly similar to the coend 
-$$\int^{g  \in C} f(g, g)$$
-for a functor $f : C \times C^{op} \rightarrow \text{Set}$. Define a map $\circ : C(G \times G) \times C(G \times G) \rightarrow C(G \times G)$, where
-$$f_1 \circ f_2 (g_1, g_2) = \int_{h \in G} f_1(g_1, h)f_2(h, g_2)$$
-This bears a similarity to the composition of [[profunctors]] $f_1, f_2 : C \times C^{op} \rightarrow \text{Set}$,
-$$f_1 \circ f_2(g_1, g_2) = \int^{h \in G} f_1(g_1, h) \otimes f_2(h, g_2)$$ 
-
 ##Existence and Uniqueness
 
-Any locally compact Hausdorff topological group $G$ admits a Haar integral (and therefore Haar measure) that is unique up to scalar multiple. This result was first proven by Weil. A proof by be found in these online [notes](http://simonrs.com/HaarMeasure.pdf) by Rubinstein-Salzedo. 
+Any locally compact Hausdorff topological group $G$ admits a Haar integral (and therefore Haar measure) that is unique up to scalar multiple. This result was first proven by Weil. A proof can be found in these online [notes](http://simonrs.com/HaarMeasure.pdf) by Rubinstein-Salzedo. A different, constructive proof, due to E.M. Alfsen, can be found in the article "[A simplified and constructive proof of the existence and uniqueness of haar measure](https://www.mscand.dk/article/view/10675)".
  
-We here give a lesser known proof of the existence of the Haar integral, specifically on compact Hausdorff groups $G$, which uses convex sets and the Krein Milman theorem instead of measure theory. While the proof is only two paragraphs, it does not show positivity of the Haar Integral, making this a proof of the existence of a generalized Haar measure. Let $G \text{-Ban}$ be the category of Banach representations of $G$ (see "Analogy with the Finite Case").
+We here give a lesser known proof of the existence of the Haar integral, specifically on compact Hausdorff groups $G$, which uses convex sets and the Krein Milman theorem instead of measure theory. Let $G \text{-Ban}$ be the category of Banach representations of $G$ (see "Analogy with the Finite Case").
 
 $C_c(G) = C(G)$ is such a Banach representation. We may view $\mathbb{R}$ as a Banach representation of $G$ as well, where $gz = z$ for each $z \in \mathbb{R}$ and each $g \in G$. $\mathbb{R}$ embeds into $C(G)$ as constant functions. We may then consider the exact sequence
 $$0 \rightarrow \mathbb{R} \rightarrow C(G) \rightarrow C(G)/ \mathbb{R} \rightarrow 0$$
@@ -111,14 +102,32 @@ In some sense, we might wish to show that $\text{Ext}^1_{G \text{-Ban}}(C(G), \m
 $$0 \rightarrow \mathbb{R} \rightarrow C(G) \rightarrow C(G)/ \mathbb{R} \rightarrow 0$$
 splits by the usual characterization of extensions via $\text{Ext}^1$. On further contemplation, it is sufficient to show that the trivial $G$-representation $\mathbb{R}$ is an injective object in $G \text{-Ban}$. This could be seen as an equivariant Hahn-Banach theorem.
 
-**Proof:** We show that $\mathbb{R}$ is an injective object in $G \text{-Ban}$. Take an injection of Banach representations of $G$, $X \rightarrow Y$. Let $f : X \rightarrow \mathbb{R}$ be a map of Banach representations of $G$. By the (usual) Hahn-Banach theorem, there exists a functional $g : Y \rightarrow \mathbb{R}$ extending $f$, though it may lack $G$-invariance.
+**Proof:** We show that $\mathbb{R}$ is an injective object in $G \text{-Ban}$. Take an injection of Banach representations of $G$, $X \rightarrow Y$. Let $f : X \rightarrow \mathbb{R}$ be a map of Banach representations of $G$. By the (usual) Hahn-Banach theorem, there exists a map $g : Y \rightarrow \mathbb{R}$ in the category of Banach spaces and short maps extending $f$, though it may lack $G$-invariance.
 
-Consider the subset of all extensions of $f$ to $Y$. Let $S$ be the collection of $G$-invariant compact convex subsets of this set. $S$ contains the convex hull of $G g$, where $g$ is some chosen extension of $f$ to $Y$, so $S$ is nonempty. Using compactness and [[Zorn's Lemma]], we may find a minimal element of $S$ in this collection, where $S$ is ordered where $A \leq B$ when $A \subset B$. Call this element $H$. $H$ must be a singleton. If $H$ contains a point which is not extremal then it contains the convex hull of the orbit of that point, which would be a proper $G$-invariant compact convex subset of $H$ (see Krein Milman theorem).
-
-Therefore $H$ is a singleton, and its unique element is a $G$-invariant functional extending $f$.
+Consider the subset of all extensions of $f$ to $Y$. Let $S$ be the collection of $G$-invariant compact convex subsets of this set. $S$ contains the convex hull of $G g$, where $g$ is some chosen extension of $f$ to $Y$, so $S$ is nonempty. Using compactness and [[Zorn's Lemma]], we may find a minimal element of $S$ in this collection, where $S$ is ordered where $A \leq B$ when $A \subset B$. Call this element $H$. $H$ must be a singleton. If $H$ contains a point which is not extremal then it contains the convex hull of the orbit of that point, which would be a proper $G$-invariant compact convex subset of $H$ (see Krein Milman theorem). Therefore $H$ is a singleton, and its unique element is a $G$-invariant functional extending $f$.
 
 In particular, since $\mathbb{R}$ has been shown to be injective, the map $\text{Id}_{\mathbb{R}}  : \mathbb{R} \rightarrow \mathbb{R}$ lifts along the inclusion
 $$0 \rightarrow \mathbb{R} \rightarrow C(G)$$
+giving a retract $\int_G : C(G) \rightarrow \mathbb{R}$ for $0 \rightarrow \mathbb{R} \rightarrow C(G)$ in $G \text{-Ban}$.
+
+It follows that $\int_G$ has norm $1$, and from this positivity follows immediately.
+
+## Extensive and Intensive Properties
+
+In Lawvere's thinking about [extensive and intensive quantities](https://ncatlab.org/nlab/show/intensive+or+extensive+quantity),
+ 
+* $C(G)$ is a space of _intensive quantities_ on $G$.
+
+* $[C(G), \mathbb{R}]_{\text{Ban}}$ is the space of _extensive quantities_ on $X$, where $\text{Ban}$ is the category of Banach spaces with bounded maps as maps. The Haar integral is the unique $G$-invariant element of this space of norm $1$.
+
+* the [[integration]] map is the canonical [[evaluation]] pairing
+
+  $$
+    \int_G \;\colon\; C(G) \times [C(G), \mathbb{R}]_{\text{Ban}}  \longrightarrow \mathbb{R}
+    \,.
+  $$
+
+If we suggestively write $\int_G f d \phi$ for $\int_G (f, \phi) = \phi(f)$, then $\int_G - d \phi$ becomes a suggestive way of writing $\phi$. In particular, choosing $\phi$ to be the Haar measure, we can write $\phi$ as $\int_G - d \phi$.
 
 ## Left and Right Haar Measures that Differ
 
