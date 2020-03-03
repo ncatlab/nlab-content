@@ -93,7 +93,7 @@ In
 
 * [[Dmitry Roytenberg]], _Courant--Dorfman algebras and their cohomology_ ([arXiv](http://arxiv.org/abs/0902.4862))
 
-the analogous algebraic structure for [[Courant algebroid]]s is discussed. These "2-Lie--Rinehart algebras" are called [[Courant?Dorfman algebra]]s there.
+the analogous algebraic structure for [[Courant algebroid]]s is discussed. These "2-Lie--Rinehart algebras" are called [[Courant-Dorfman algebra]]s there.
 
 
 ## Related concepts
