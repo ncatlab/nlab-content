@@ -6,6 +6,12 @@ Discussion of [[small N corrections]] via a [[lattice QFT]]-Ansatz on the AdS si
 
 * Richard C. Brower, Cameron V. Cogburn, A. Liam Fitzpatrick, Dean Howarth, Chung-I Tan, _Lattice Setup for Quantum Field Theory in $AdS_2$_ ([arXiv:1912.07606](https://arxiv.org/abs/1912.07606))
 
+See also:
+
+
+* Gregory J. Galloway, Melanie Graf, Eric Ling, _A conformal infinity approach to asymptotically $AdS_2 \times S^{n-1}$ spacetimes_ ([arXiv:2003.00093](https://arxiv.org/abs/2003.00093))
+
+
 
 ### Random matrix theory in $AdS_2/CFT_1$
 
