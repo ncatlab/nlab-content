@@ -1,6 +1,5 @@
 [[!redirects Haar measure]]
 
-# Haar measure
 * table of contents
 {: toc}
 
@@ -127,7 +126,7 @@ In Lawvere's thinking about [extensive and intensive quantities](https://ncatlab
     \,.
   $$
 
-If we suggestively write $\int_G f d \phi$ for $\int_G (f, \phi) = \phi(f)$, then $\int_G - d \phi$ becomes a suggestive way of writing $\phi$. In particular, choosing $\phi$ to be the Haar measure, we can write $\phi$ as $\int_G - d \phi$.
+If we suggestively write $\int_G f d \phi$ for $\int_G (f, \phi) = \phi(f)$, then $\int_G - d \phi$ becomes a way of writing $\phi$. In particular, choosing $\phi$ to be the Haar measure, we can write $\phi$ as $\int_G - d \phi$.
 
 ## Left and Right Haar Measures that Differ
 
