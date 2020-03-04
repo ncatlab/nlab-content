@@ -61,7 +61,47 @@ In ([Lawvere 86](#Lawvere86)) it is amplified that this [[duality]] is generally
     \,.
   $$
 
+$$ (x, f) \mapsto f(x) $$
+
 See also at _[[Lawvere distribution]]_.
+
+The elusive connection between integration and (co)ends can here be explained:
+
+**Proposition:** Let $V$ be a monoidal closed category with tensor $\otimes_V$ and internal hom $[-, -]_V$. Suppose that the Kan extension $\text{Lan}_{\text{Id}_V} (\text{Id}_V)$ exists and is pointwise. Then
+ $$ X \cong \text{Id}_V (X) \cong \text{Lan}_{\text{Id}_V} (\text{Id}_V)(X) \cong \int^{Y \in V} [Y, X]_V \otimes_V Y$$
+and the structure maps are 
+$$ \epsilon_Y : [Y, X]_V \otimes_V Y \rightarrow X$$
+Occuring as counits in the supposed monoidal closed adjunction.
+
+This is an instance of the [coend formula for a Kan extension](https://ncatlab.org/nlab/show/Kan+extension#PointwiseByCoEnds). 
+
+We may think of $V$ as the category of $R$-module objects in a topos $\mathbf{H}$, or, more generally, some category $\mathbf{H}$ resembling spaces. In that case, we get:
+
+**Corollary:** Let $\mathbf{H}$ be a category with internal hom $[-, -]_{\mathbf{H}}$, and let $R$ be a commutative ring object in $\mathbf{H}$. Let $R \text{-mod}$ be the category of $R$-module objects in $\mathbf{H}$, with a chosen monoidal closed structure $\otimes_R$ (tensor product) and $[-, -]_R$ (internal Hom). Then, taking $V = R \text{-mod}$ above, and supposing that $\text{Lan}_{\text{Id}_{R \text{-mod}}} (\text{Id}_{R \text{-mod}})$ we have
+
+$$ R \cong  \int^{X \in R \text{-mod}} [X, R]_R  \otimes_R X  $$ 
+
+with structure maps:
+
+$$ \epsilon_X : [X, R]_R \otimes_R X \rightarrow R $$
+
+In the above notation, $ \epsilon_X = \int_X$. To make the analogy quite clear, consider the following example, which could naturally be called the example of "Lawvere Banach spaces", in direct analogy with "Lawvere metric spaces":
+
+**Example:** Let $\mathbf{H}$ be the category of [Lawvere metric spaces](https://ncatlab.org/nlab/show/metric+space#LawvereMetricSpace) (Note: this category is not a topos, but the corollary above will still apply).  Maps are short maps. $\mathbf{H}$ has an internal Hom consisting of bounded maps. Let $\mathbb{R}$ be the real numbers, with $d(x, y) = ||x - y||$ as Lawvere metric. $\mathbb{R} \text{-mod}$ is here the category of normed $\mathbb{R}$-modules, with short maps as maps, with the exception that $||x|| = 0$ does not imply that $x = 0$, and that $||x|| = \infty$ is possible. (This temporary notation is not to be confused with the category of real vector spaces over the real numbers, in which norms play no role).
+
+There is a natural notion of [completion](https://ncatlab.org/nlab/show/Cauchy+complete+category) on such spaces. The category of complete objects is essentially the category of Banach spaces over $\mathbb{R}$, except for the previously mentioned differences that $||x|| = 0$ does not imply that $x = 0$, and $||x|| = \infty$ is possible. Completion makes this category into a reflective subcategory of $\mathbb{R}$-mod. Write $\text{LawvBan}$ for the this category - it is a natural continuation of Lawvere metric spaces.
+
+There is a natural choice of monoidal closed structure on $\text{LawvBan}$; the tensor product is [projective tensor product](https://ncatlab.org/nlab/show/tensor+product+of+Banach+spaces) (note: slight tweaking is necessary to account for the differences between Lawvere Banach spaces and Banach spaces). The internal Hom consists of bounded maps. The corollary above applies to this setup, so that 
+
+$$ R \cong  \int^{X \in R \text{-mod}} [X, R]_R  \otimes_R X  $$ 
+
+where $\otimes_R$ is projective tensor product and $[X, R]_R$ consists of bounded maps from $X$ to $R$. There are structure maps
+
+$$ \epsilon_X : [X, R]_R \otimes_R X \rightarrow R $$
+
+sending $f \otimes x$ to $f(x)$, for which we suggestively write 
+
+$$ \int_X : [X, R]_R \otimes_R X \rightarrow R $$
 
 
 ### In higher geometry and higher algebra
