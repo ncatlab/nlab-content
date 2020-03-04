@@ -26,6 +26,10 @@ reviewed in
 
 * [[Henning Samtleben]], [[Ergin Sezgin]], Robert Wimmer, Linus Wulff, _New superconformal models in six dimensions: Gauge group and representation structure_, PoS CORFU2011 (2011) 071 ([arXiv:1204.0542](https://arxiv.org/abs/1204.0542), [spire:1102894](http://inspirehep.net/record/1102894))
 
+On [[Freund-Rubin compactifications]] in [[11d supergravity]]:
+
+
+* [[Ergin Sezgin]], _11D Supergravity on $AdS_4 \times S^7$ versus $AdS_7 \times S^4$_ ([arXiv:2003.01135](https://arxiv.org/abs/2003.01135))
 
 
 category: people
