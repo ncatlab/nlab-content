@@ -404,10 +404,12 @@ Remarks on Jordan algebras as [[algebras of observables]] in quantum physics are
 
 * {#BatesWeinstein} Sean Bates, [[Alan Weinstein]], p. 80 of _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
 
-Discussion of [[spectral triples]] over Jordan algebras:
+Discussion of [[spectral triples]] over Jordan algebras in the [[Connes-Lott model]]:
 
-* Latham Boyle, Shane Farnsworth,
+* [[Latham Boyle]], [[Shane Farnsworth]],
 _The standard model, the Pati-Salam model, and "Jordan geometry"_ ([arxiv:1910.11888](https://arxiv.org/abs/1910.11888))
+
+* [[Shane Farnsworth]], _The geometry of physical observables_ ([arXiv:2003.01708](https://arxiv.org/abs/2003.01708))
  
 
 
