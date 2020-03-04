@@ -85,7 +85,7 @@ Eventually the following will be a _commented_ list -- promised.
 
 * William Lawvere, _Taking categories seriously_ ([pdf](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf))
 
-* David Spivak, _Quasi-smooth derived manifolds_ ([pdf](http://math.berkeley.edu/~dspivak/thesis2.pdf))
+* David Spivak, _Quasi-smooth derived manifolds_ ([pdf](http://math.mit.edu/~dspivak/files/thesis1.pdf))
 
 * Andrew Stacey, _Comparative Smootheology_ ([arXiv](http://arxiv.org/abs/0802.2225))
 
