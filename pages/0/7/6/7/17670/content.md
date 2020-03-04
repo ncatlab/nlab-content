@@ -87,7 +87,7 @@ The modern version of the model that produces the correct fermionic content (and
 
 * {#Connes06} [[Alain Connes]], _Noncommutative Geometry and the standard model with neutrino mixing_, JHEP0611:081,2006 ([arXiv:hep-th/0608226](https://arxiv.org/abs/hep-th/0608226))
 
-* {#ChamseddineConnesMarcolli07} [[Ali Chamseddine]], [[Alain Connes]], [[Matilde Marcolli]], _Gravity and the standard model with neutrino mixing_, Adv.Theor.Math.Phys.11:991-1089,2007 ([arXiv:hep-th/0610241](http://arxiv.org/abs/hep-th/0610241))
+* {#ChamseddineConnesMarcolli07} [[Ali Chamseddine]], [[Alain Connes]], [[Matilde Marcolli]], _Gravity and the standard model with neutrino mixing_, Adv. Theor. Math. Phys.11:991-1089,2007 ([arXiv:hep-th/0610241](http://arxiv.org/abs/hep-th/0610241))
 
 A more succinct version of the axioms of the model is claimed in
 
@@ -96,6 +96,9 @@ A more succinct version of the axioms of the model is claimed in
 * [[Shane Farnsworth]], [[Latham Boyle]], _Rethinking Connes' approach to the standard model of particle physics via non-commutative geometry_, New J. Phys. 17, 023021 (2015) ([arXiv:1408.5367](https://arxiv.org/abs/1408.5367))
 
 * Christian Brouder, Nadir Bizi, Fabien Besnard, _The Standard Model as an extension of the noncommutative algebra of forms_ ([arXiv:1504.03890](https://arxiv.org/abs/1504.03890))
+
+
+
 
 Introduction of a [[scalar field]] to fix the prediction of the [[Higgs particle]] [[mass]]:
 
@@ -124,6 +127,14 @@ Relation to actual [[quantum gravity]] induced by quantized maps from [[spacetim
 With [[spin^c structure]]:
 
 * Arkadiusz Bochniak, Andrzej Sitarz, _A spectral geometry for the Standard Model without the fermion doubling_ ([arXiv:2001.02902](https://arxiv.org/abs/2001.02902))
+
+Discussion of [[spectral triples]] over [[Jordan algebras]] in the [[Connes-Lott model]]:
+
+* [[Latham Boyle]], [[Shane Farnsworth]],
+_The standard model, the Pati-Salam model, and "Jordan geometry"_ ([arxiv:1910.11888](https://arxiv.org/abs/1910.11888))
+
+* [[Shane Farnsworth]], _The geometry of physical observables_ ([arXiv:2003.01708](https://arxiv.org/abs/2003.01708))
+ 
 
 
 [[!redirects Connes-Lott-Chamseddine-Barrett models]]
