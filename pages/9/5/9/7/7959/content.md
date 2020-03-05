@@ -345,6 +345,9 @@ Realistic [[Yukawa couplings]] and [[fermion]] [[masses]] in an [[MSSM]] [[Pati-
 
 * Tianjun Li, Adeel Mansha, Rui Sun, _Generalized Supersymmetric Pati-Salam Models from Intersecting D6-branes_ ([arXiv:1912.11633](https://arxiv.org/abs/1912.11633))
 
+See also
+
+* Erik Parr, Patrick K.S. Vaudrevange, Martin Wimmer, _Predicting the orbifold origin of the MSSM_ ([arXiv:2003.01732](https://arxiv.org/abs/2003.01732))
 
 
 #### Type I string theory model
