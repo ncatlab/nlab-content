@@ -92,7 +92,7 @@ Also notice that at least the $SU(N)$-enhancement of the [[effective field theor
 ### Solutions with non-vanishing $C$-field strength
  {#TheCField}
 
-{#FluxBreaksSuSy} **Claim:** _There is no warped [[KK-compactification]] of M-theory on $X_4 \times F_7$ which retains at least $N = 1$ [[supersymmetry]] in 4d while at the same time having non-vanishning $G_4$-[[flux]] ([[field strength]] of the [[supergravity C-field]]). In other words, non-vanishing flux always breaks the supersymmetry._
+{#FluxBreaksSuSy} **Claim:** _There is no warped [[KK-compactification]] of M-theory on $X_4 \times F_7$ which retains at least $N = 1$ [[supersymmetry]] in 4d while at the same time having non-vanishing $G_4$-[[flux]] ([[field strength]] of the [[supergravity C-field]]). In other words, non-vanishing flux always breaks the supersymmetry._
 
 e.g. ([Acharya-Spence 00](#AcharyaSpence00)) see the Introduction of ([Beasley-Witten 02](#BeasleyWitten02))
 
