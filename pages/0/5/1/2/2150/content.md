@@ -15,29 +15,16 @@
 
 ## Definition 
 
-
 Let $X$ be a [[paracompact space|paracompact]] [[Hausdorff space]]. A [[sheaf]] $F$ of [[groups]] over $X$ is __fine__ if for every two disjoint closed subsets $A,B\subset X$, $A\cap B = \emptyset$, there is an [[endomorphism]] of the sheaf of groups $F\to F$ which restricts to the identity in a neighborhood of $A$ and to the $0$ endomorphism in a neighborhood of $B$. Every fine sheaf is [[soft sheaf|soft]].
 
-A slightly different definition is given in Voisin, in _Hodge Theory and Complex Algebraic Geometry I_, (definition 4.35):
+A slightly different definition is given in Voisin, in _Hodge Theory and Complex Algebraic Geometry I_ (Definition 4.35):
 
+A __fine sheaf__ $\mathcal{F}$ over $X$ is a sheaf of $\mathcal{A}$-modules, where $\mathcal{A}$ is a sheaf of rings such that, for every open cover $U_i$ of $X$, there is a partition of unity $1 = \sum f_i$ (where the sum is locally finite) subordinate to this covering.
 
-:A fine sheaf $\mathcal{F}$ over $X$ is a sheaf of $\mathcal{A}$-modules, where $\mathcal{A}$ is a sheaf of rings such that, for every open cover $U_i$ of $X$, there is a partition of unity $1 = \sum f_i$ (where the sum is locally finite) subordinate to this covering.
-
-## Discussion ##
-
-
-+-- {: .query}
-David Speyer asks: Voisin, in _Hodge Theory and Complex Algebraic Geometry I_, definition 4.35 makes a different definition of fine sheaf. I can see that they are related, but I can't see precisely what the relation is. 
-
-According to Voisin:
-
-:A fine sheaf $\mathcal{F}$ over $X$ is a sheaf of $\mathcal{A}$-modules, where $\mathcal{A}$ is a sheaf of rings such that, for every open cover $U_i$ of $X$, there is a partition of unity $1 = \sum f_i$ (where the sum is locally finite) subordinate to this covering.
-
-A technical point: I infer from context that, for Voisin, being subordinate to $U_i$ means that, for each $U_i$, there is an open set $V_i$ such that $X = U_i \cup V_i$ and $f|_{V_i}=0$. This is slightly stronger than requiring that $f|_{X \setminus U_i} =0$. When working on a regular (T3) space, I believe that, if partitions of unity exist in the weaker sense, than they also exist in the stronger sense.
-
-Zoran: paracompact Hausdorff space is automatically normal (Dieudonne's theorem) so *a fortiori* $T_3$. A partition of unity subordinate to the covering means as usual that for each $i$ there is $j$ such that $supp f_i \subset U_j$. Thanks for the other correction. 
-=--
-
+Another definition is given by Godement
+in _Topologie algébrique et théorie des faisceaux_
+(the paragraph after Theorem II.3.7.2):
+a sheaf $F$ is __fine__ if the internal hom $Hom(F,F)$ is a [[soft sheaf]].
 
 ## Related concepts
 
