@@ -1,6 +1,8 @@
 
 * [website](https://www.maths.ed.ac.uk/~cbarwick/)
 
+* SHIFTED: Stratified Homotopy Invariants, Field Theories, Exodromy, and Duality, ([github](https://shifted-project.github.io/))
+
 
 ## Selected writings
 
