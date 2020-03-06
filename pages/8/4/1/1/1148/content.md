@@ -342,7 +342,7 @@ This uses homotopical structures of a [[category of fibrant objects]] on complex
 
 * [[Mark Hovey]], _Model category structures on chain complexes of sheaves_, Trans. Amer. Math. Soc. 353, 6 ([pdf](http://www.mathaware.org/tran/2001-353-06/S0002-9947-01-02721-0/S0002-9947-01-02721-0.pdf))
 
-A discussion of the [[?ech cohomology]] description of sheaf cohomology along the above lines is in
+A discussion of the [[Čech cohomology]] description of sheaf cohomology along the above lines is in
 
 * [[Tibor Beke]], _Higher &#268;ech Theory_ ([web](http://www.math.uiuc.edu/K-theory/0646/), [pdf](http://www.math.uiuc.edu/K-theory/0646/cech.pdf))
 
