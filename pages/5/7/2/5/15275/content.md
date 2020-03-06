@@ -82,7 +82,7 @@ In [Gang-Kim-Lee 14b, 3.2](#GangKimLee14b), [Gang-Kim 18 (21)](#GangKim18) it is
 
 1. [[3d-3d correspondence]]
 
-for the situation of [[M5-branes]] [[wrapped brane|wrapped on]] $\Sigma^3$ ([DGKV 10](#DGKV10)):
+for the situation of [[M5-branes]] [[wrapped brane|wrapped on]] $\Sigma^3$ ([DGKV 10](3d-3d+correspondence#DGKV10)):
 
 <center>
 <img src="https://ncatlab.org/nlab/files/VolumeConjectureAsAdSCFTPlus3d3dDuality.jpg" width="660">
