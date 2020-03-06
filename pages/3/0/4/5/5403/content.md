@@ -56,7 +56,7 @@ More generally, an object $A$ in a [[symmetric monoidal category]] $\mathcal{M}$
 
 ##References
 
-* Wikipedia, [J&#243;nsson-Tarski algebra](http://en.wikipedia.org/wiki/J&#243;nsson&#8211;Tarski_algebra)
+* Wikipedia, [J&#243;nsson-Tarski algebra](https://en.wikipedia.org/wiki/J%C3%B3nsson%E2%80%93Tarski_algebra)
 
 * B. J&#243;nsson, [[A. Tarski]] , _On Two Properties of Free Algebras_ , Math. Scand. **9** (1961) pp.95-101. ([pdf](http://ojs.statsbiblioteket.dk/index.php/math/article/viewFile/10627/8648))
 
