@@ -1,5 +1,6 @@
+[[!redirects Frank&#39;a Waaldijk]]
 
-# Frank\'a Waaldijk
+# Franka Waaldijk
 (changed her name in 2019, it was 'Frank Waaldijk')
 
 * [webpage](https://www.fwaaldijk.nl/mathematics.html)
