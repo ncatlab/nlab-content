@@ -71,9 +71,11 @@ Pyknotic sets can be described as sheaves on several different sites.
 
 * {#BarHai19} [[Clark Barwick]], [[Peter Haine]], _Pyknotic objects, I.  Basic notions_, ([arXiv:1904.09966](https://arxiv.org/abs/1904.09966))
 
-* [[Clark Barwick]], [[Peter Haine]], _MSRI: Pyknotic/Condensed Seminar_, 
+* {#BarHaiMSRI} [[Clark Barwick]], [[Peter Haine]], _MSRI: Pyknotic/Condensed Seminar_, 
   * 1: _Who cares about pyknosis?_, ([video](https://www.msri.org/seminars/24809)); 
   * 2: _Pyknotic sets_, ([video](https://www.msri.org/seminars/24915))
+  * 3: _Pyknotic abelian groups_, ([video](https://www.msri.org/seminars/24919))
+  * 4: _Animating pyknotic sets (AKA pyknotic spaces)_, ([video](https://www.msri.org/seminars/24750))
 
 [[!redirects pyknotic sets]]
 [[!redirects pyknotic object]]
