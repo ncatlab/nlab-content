@@ -25,7 +25,7 @@ Given a [[bundle]] $\pi \colon P \to X$ of [[smooth manifolds]],
 
 * in the context of [[variational calculus]]: 
 
-  a differential form on the the total space $J^\infty_X(E)$ of the [[jet bundle]] of $E$ is horizontal if it is in the horizontal compoent of the [[variational bicomplex]] of $J^\infty(E)$.
+  a differential form on the the total space $J^\infty_X(E)$ of the [[jet bundle]] of $E$ is horizontal if it is in the horizontal component of the [[variational bicomplex]] of $J^\infty(E)$.
 
 
 ## Related concepts
