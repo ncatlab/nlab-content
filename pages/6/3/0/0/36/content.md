@@ -9,10 +9,8 @@
 =--
 =--
 
-
-
-# Internalisation#
-* table of contents
+# Contents
+* automatic table of contents goes here
 {: toc}
 
 ## Idea
