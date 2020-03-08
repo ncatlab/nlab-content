@@ -15,21 +15,27 @@ on [[Skyrmions]].
 {:toc}
 
 
-### Skyrmions and Nuclei
+### Hadrons and Nuclear Matter
+
+On [[Skyrmions]] as [[model (in theoretical physics)|models]] for [[atomic nuclei]] all the way up to [[carbon]]:
+
 
 **Chapter 1**
 
 * {#BattyeMantonSutcliffe10} R. A. Battye, [[Nicholas Manton]], [[Paul Sutcliffe]], _Skyrmions and Nuclei_, pp. 3-39 (2010) ([doi:10.1142/9789814280709_0001](https://doi.org/10.1142/9789814280709_0001)) 
 
-
-on [[Skyrmions]] as good models for [[atomic nuclei]] all the way up to [[carbon]].
-
-
-### ...
+(...)
 
 
+### Condensed matter
 
-### Skyrmions and string theory
+On [[Skyrmions]] in [[condensed matter physics]]:
+
+(...)
+
+
+
+### String theory
 
 On the [[skyrmion]] [[model (in theoretical physics)|model]] for [[baryons]] appearing within the [[Sakai-Sugimoto model]] of [[holographic quantum chromodynamics]] in [[string theory]], as the [[boundary field theory]] of [[D=5 super Yang-Mills theory]]:
 
@@ -71,11 +77,6 @@ both the [[pion]] decay constant $f_\pi$ and the [[mass]] of the first [[vector 
 > As we saw in this note, for low momentum processes, such as soft [[pion]] [[scattering amplitude|processes]], soft [[rho meson]] exchanges, and soft elastic scattering of [[photons]], the $[$holographic [[WSS model|WSS]]-$]$model's predictions compare extremely well with experimental data. It is somewhat mysterious that the [[baryon]] sector works out almost as well as the [[meson]] sector
 
 
-
-
-
-
-### ...
-
+(...)
 
 category: reference
