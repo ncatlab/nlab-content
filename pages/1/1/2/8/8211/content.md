@@ -115,6 +115,8 @@ Original articles:
 [[!redirects gauge-gravity duality]]
 [[!redirects gauge/gravity dualities]]
 [[!redirects gauge-gravity dualities]]
+[[!redirects gauge/gravity correspondence]]
+[[!redirects gauge-gravity correspondence]]
 
 
 
