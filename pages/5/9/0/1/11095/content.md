@@ -5,7 +5,7 @@
 
 ## Idea
 
-The  [[compact object in an (infinity,1)-category|compact objects]]in [[∞Grpd]] are the [[retracts]] of [[finite homotopy types]] ([[finite CW-complexes]]). Not every such retract is itself a finite homotopy type; the vanishing of _Wall's finiteness [[obstruction]] is a necessary and sufficient condition for this to happen.
+The  [[compact object in an (infinity,1)-category|compact objects]] in [[∞Grpd]] are the [[retracts]] of [[finite homotopy types]] ([[finite CW-complexes]]). Not every such retract is itself a finite homotopy type; the vanishing of _Wall's finiteness [[obstruction]] is a necessary and sufficient condition for this to happen.
 
 ## References
 
