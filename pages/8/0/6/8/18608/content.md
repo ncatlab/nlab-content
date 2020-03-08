@@ -96,6 +96,11 @@ This is widely and well known, but particle physics does not quite share the mat
 > QCD is a perennially problematic theory. Despite its decades of experimental support, the detailed low-energy physics remains beyond our calculational reach. The lattice provides a
 technique for answering nonperturbative questions, but to date there remain open questions that have not been answered
 
+* {#Yi09} [[Piljin Yi]], _Holographic Baryons_ ([arXiv:0902.4515](https://arxiv.org/abs/0902.4515), [doi:10.1142/9789814280709_0016](https://www.worldscientific.com/doi/abs/10.1142/9789814280709_0016)), Chapter 16 in: [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+
+> [[QCD]] is a challenging theory. Its most interesting aspects, namely the [[confinement]] of [[color charge|color]] and the [[chiral symmetry breaking]], have defied all analytical approaches. While there are now many data accumulated from the [[lattice gauge theory]], the methodology falls well short of giving us insights on how one may understand these phenomena analytically, nor does it give us a systematic way of obtaining a low energy theory of [[QCD]] below the [[confinement]] [[scale]]. 
+
+
 * {#Brambilla14} Brambilla et al., _QCD and strongly coupled gauge theories: challenges and perspectives_, Eur Phys J C Part Fields. 2014; 74(10): 2981 ([doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
 
 >  The success of the technique does not remove the challenge of understanding the non-perturbative aspects of the theory. The two aspects are
