@@ -67,25 +67,25 @@ Did you know that there is a [[star-autonomous category|*-autonomous category]] 
 
 There are many properties of locally compact Hausdorff abelian groups that implies properties of their Pontrjagin duals.  For example:
 
-* If $A$ is finite, $\widehat{A}$  is finite.
+* If $A$ is finite, then $\widehat{A}$  is finite.
 
-* If $A$ is compact, $\widehat{A}$ is discrete.
+* If $A$ is compact, then $\widehat{A}$ is discrete.
 
-* If $A$ is discrete, $\widehat{A}$  is compact.
+* If $A$ is discrete, then $\widehat{A}$  is compact.
 
-* If $A$ is torsion-free and discrete, $\widehat{A}$ is connected and compact.
+* If $A$ is torsion-free and discrete, then $\widehat{A}$ is connected and compact.
 
-* If $A$ is an abelian [[torsion group]] then $\widehat A$ is an abelian [[profinite group]] (for more see at _[[Pontryagin duality for torsion abelian groups]]_)
+* If $A$ is an abelian [[torsion group]], then $\widehat A$ is an abelian [[profinite group]] (for more see at _[[Pontryagin duality for torsion abelian groups]]_)
 
-* If $A$ is connected and compact, $\widehat{A}$ is torsion-free and discrete.
+* If $A$ is connected and compact, then $\widehat{A}$ is torsion-free and discrete.
 
-* If $A$ is a Lie group, $\widehat{A}$ has finite rank. (There must be a mistake here. $\mathbb{R}$ is a Lie group but $ \hat{\mathbb{R}} $ is isomorphic to $ \mathbb{R} $, which has infinite rank. It is enough to add the condition of compactness, but that just reduces to the case where $A$ is the product of a torus and a finite abelian group.)
+* If $A$ is a Lie group, then $\widehat{A}$ is compactly generated (there is a compact neighborhood that generates $\widehat{A}$ as a group). 
 
-* If A has finite rank, $\widehat{A}$ is a Lie group.
+* If A is compactly generated, then $\widehat{A}$ is a Lie group.
 
-* If $A$ is second countable, $\widehat{A}$ is second countable.
+* If $A$ is second countable, then $\widehat{A}$ is second countable.
 
-* If $A$ is separable, $\widehat{A}$ is metrizable.
+* If $A$ is separable, then $\widehat{A}$ is metrizable.
 
 For a discussion of these facts, with some references, try:
 
