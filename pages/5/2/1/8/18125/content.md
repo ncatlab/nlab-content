@@ -23,7 +23,7 @@ Every [[compact Hausdorff topological space]] is a [[normal topological space]].
 
 =--
 
-In fact a stronger statement hods: [[paracompact Hausdorff spaces are normal]].
+In fact a stronger statement holds: [[paracompact Hausdorff spaces are normal]].
 
 
 To prove this, consider the following lemma:
@@ -77,13 +77,13 @@ is still a cover.
 But the finite intersection 
 
 $$
-  U_x \coloneqq \underset{s \in S \subset Y}{\cap} U_{x,s}
+  U_x \coloneqq \underset{s \in S \subset Y}{\bigcap} U_{x,s}
 $$
 
 of the corresponding open neighbourhoods of $x$ is still open, and by construction it is disjoint from all the $U_{s}$, hence in particular from their union
 
 $$
-  U_Y \coloneqq \underset{s \in S \subset Y}{\cup}  U_s
+  U_Y \coloneqq \underset{s \in S \subset Y}{\bigcup}  U_s
   \,.
 $$
 
@@ -103,13 +103,13 @@ Next to show that $(X,\tau)$ is indeed normal, we apply the idea of the proof of
 Let $Y_1, Y_2 \subset X$ be two disjoint closed subspaces. By the previous statement then for every point $y_1 \in Y$ we find disjoint open neighbourhoods $U_{y_1} \subset \{y_1\}$ and $U_{Y_2,y_1} \supset Y_2$. The union of the $U_{y_1}$ is a cover of $Y_1$, and by compactness of $Y_1$ there is a finite subset $S \subset Y$ such that 
 
 $$
-  U_{Y_1} \coloneqq \underset{s \in S \subset Y_1}{\cup} U_{y_1}
+  U_{Y_1} \coloneqq \underset{s \in S \subset Y_1}{\bigcup} U_{y_1}
 $$
 
 is an open neighbourhood of $Y_1$ and 
 
 $$
-  U_{Y_2} \coloneqq \underset{s \in S \subset Y}{\cap} U_{Y_2,s}
+  U_{Y_2} \coloneqq \underset{s \in S \subset Y}{\bigcap} U_{Y_2,s}
 $$
 
 is an open neighbourhood of $Y_2$, and both are disjoint.
