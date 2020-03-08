@@ -28,9 +28,13 @@ $$
 
 (See at _[[Ward identity]]_.)
 
-In the [[standard model of particle physics]] this happens and plays a role for [[pion decay]] and for [[baryogenesis]]. Here the anomaly term is the Pontryagin 4-form $Anomaly = \langle F_\nabla \wedge F_\nabla\rangle$ of the [[gauge field]] $\nabla$, hence the [[curvature]] 4-form of the corresponding [[Chern-Simons line 3-bundle]].
+In the [[standard model of particle physics]] this happens and plays a role for [[pion]] decay and for [[baryogenesis]]. Here the anomaly term is the Pontryagin 4-form $Anomaly = \langle F_\nabla \wedge F_\nabla\rangle$ of the [[gauge field]] $\nabla$, hence the [[curvature]] 4-form of the corresponding [[Chern-Simons line 3-bundle]].
 
 If there are [[instantons]], i.e. if the [[gauge field]] [[principal connection]] $\nabla$ has a nontrivial underlying [[principal bundle]], then also the [[Chern-Simons line 3-bundle]] is topologically nontrivial the anomaly term $\langle F_\nabla \wedge F_\nabla\rangle$ is a non-exact integral form, hence the above equation is to be read as the _local_ expression identifying $\star j$ with the local [[3-connection]] on the CS 3-bundle.
+
+## Related concepts
+
+* [[chiral perturbation theory]]
 
 ## References
 
