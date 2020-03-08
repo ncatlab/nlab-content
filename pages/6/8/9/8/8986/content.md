@@ -46,6 +46,8 @@ Notice that the statement which one might expect, that a pointed endofunctor is 
 
 The [[terminal object]] of the category of endofunctors on $\mathcal{A}$ is the functor $T$ which sends all objects to $\ast$ and all morphisms to the unique morphism $\ast \to \ast$, where $\ast$ is the terminal object of the category $\mathcal{A}$. So a pointed object in the endofunctor category should be an endofunctor $S:\mathcal{A} \to \mathcal{A}$ equipped with a natural transformation $\sigma:T \to S$.
 
+Rather, a pointed endofunctor is equipped with a map from the [[unit object]] for the monoidal structure on the endofunctor category.
+
 
 ## Related concepts
 
