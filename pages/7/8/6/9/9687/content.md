@@ -80,7 +80,7 @@ _  ([pdf](http://www.infn.it/csn1/White_paper_documents/NPQCD.pdf))
 
 > Since 1973, quantum chromodynamics (QCD) has been established as the fundamental theory of the strong interaction. Nevertheless, it is very difficult to solve QCD directly in an analytical manner, and many effective models of QCD have been used instead of QCD, but most models cannot be derived from QCD and its connection to QCD is unclear. To analyze nonperturbative QCD, the lattice QCD Monte Carlo simulation has been also used as a first-principle calculation of the strong interaction. However, it has several weak points. For example, the state information (e.g. the wave function) is severely limited, because lattice QCD is based on the path-integral formalism. Also, it is difficult to take the chiral limit, because zero-mass pions require infinite volume lattices. There appears a notorious "sign problem" at finite density.
 
-> On the other hand, [[holographic QCD]] has a direct connection to QCD, and can be derived from QCD in some limit. In fact, [[holographic QCD]] is equivalent to infrared QCD in large $N_c$ and strong 't Hooft coupling $\lambda$, via gauge/gravity correspondence. Remarkably, holographic QCD is successful to reproduce many hadron phenomenology such as vector meson dominance, the KSRF relation, hidden local symmetry, the GSW model and the Skyrme soliton picture. Unlike lattice QCD simulations, holographic QCD is usually formulated in the chiral limit, and does not have the sign problem at finite density.
+> On the other hand, [[holographic QCD]] has a direct connection to QCD, and can be derived from QCD in some limit. In fact, [[holographic QCD]] is equivalent to infrared QCD in large $N_c$ and strong 't Hooft coupling $\lambda$, via gauge/gravity correspondence. Remarkably, holographic QCD is successful to reproduce many hadron phenomenology such as [[vector meson dominance]], the KSRF relation, hidden local symmetry, the GSW model and the [[Skyrmion|Skyrme soliton]] picture. Unlike [[lattice QCD]] simulations, [[holographic QCD]] is usually formulated in the chiral limit, and does not have the sign problem at finite density.
 
 
 * V. A. Petrov, _Asymptotic Regimes of Hadron Scattering in QCD_ ([arXiv:1901.02628](https://arxiv.org/abs/1901.02628))
@@ -217,6 +217,12 @@ This approach is suggested in [Atiyah-Witten 01, pages 84-85](#AtiyahWitten01). 
 ## Related concepts
 
 * [[asymptotic freedom]]
+
+* [[chiral perturbation theory]]
+
+* [[quark bag model]], [[Cheshire cat principle]]
+
+* [[vector meson dominance]]
 
 * [[quantization of Yang-Mills theory]]
 
