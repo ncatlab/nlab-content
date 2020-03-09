@@ -362,7 +362,7 @@ with comprehensive review in
 
 See also:
 
-* {#Kallel98} [[Sadok Kallel]], _Particle Spaces on Manifolds and Generalized Poincaré Dualities_ ([arXiv:math/9810067](https://arxiv.org/abs/math/9810067)) 
+* {#Kallel98} [[Sadok Kallel]], _Spaces of particles on manifolds and Generalized Poincaré Dualities_, The Quarterly Journal of Mathematics, Volume 52, Issue 1, 1 March 2001 ([doi:10.1093/qjmath/52.1.45](https://doi.org/10.1093/qjmath/52.1.45)) 
 
 * {#Salvatore01} [[Paolo Salvatore]], _Configuration spaces with summable labels_, In: Aguadé J., Broto C., [[Carles Casacuberta]]  (eds.) _Cohomological Methods in Homotopy Theory_. Progress in Mathematics, vol 196. Birkhäuser, Basel, 2001 ([arXiv:math/9907073](https://arxiv.org/abs/math/9907073))
 
