@@ -536,6 +536,8 @@ General [[effective field theory]] parametrization:
 
 * Kingman Cheung, Zhuo-Ran Huang, Hua-Dong Li, Cai-Dian Lü, Ying-nan Mao, Ru-Ying Tang, _Revisit to the $b \to c \tau \nu$ transition: in and beyond the SM_ ([arXiv:2002.07272](https://arxiv.org/abs/2002.07272))
 
+* Soumia Lebbal, Noureddine Mebarki, Jamal Mimouni, _Lepton Flavor Universality Violation in a 331 Model in $b \to s l^+ l^-$ Processes_ ([arXiv:2003.03230](https://arxiv.org/abs/2003.03230))
+
 
 
 
