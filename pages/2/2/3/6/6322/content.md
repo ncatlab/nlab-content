@@ -58,6 +58,12 @@ See at _[[QCD trace anomaly]]_.
 
 * [[lattice QCD]]
 
+* [[confinement]]
+
+  * [[chiral perturbation theory]]
+
+  * [[quark bag model]], [[Cheshire cat principle]]  
+
 * [[AdS/QCD correspondence]]
 
 * [[Gross-Neveu model]]
