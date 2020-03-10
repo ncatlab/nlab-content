@@ -1,3 +1,4 @@
+
 #Contents#
 * table of contents
 {:toc}
@@ -84,5 +85,29 @@ The category of I-almost 0 modules is a Serre subcategory of ModR. The "correct"
 
 ## Related entries
 
+* [[almost scheme]]
+
 * [[p-adic Hodge theory]]
+
 * [[perfectoid space]]
+
+## References
+
+* [[Bhargav Bhatt]],  _Almost Ring Theory I_, 2014 ([[BhattAlmostRing.pdf:file]])
+
+* [[Ofer Gabber]], Lorenzo Ramero, _Almost ring theory_ ([arXiv:math/0002064](https://arxiv.org/abs/math/0002064))
+
+* [[Gerd Faltings]], _Almost &#233;tale extensions_,  Cohomologies p-adiques et applications arithmétiques (II), Astérisque no. 279  (2002), p. 185-270 ([numdam:AST_2002__279__185_0](http://www.numdam.org/item/AST_2002__279__185_0))
+
+
+See also 
+
+* Wikipedia, _[Almost ring](https://en.wikipedia.org/wiki/Almost_ring)_
+
+[[!redirects almost modules]]
+
+[[!redirects almost ring]]
+[[!redirects almost rings]]
+
+[[!redirects almost mathematics]]
+
