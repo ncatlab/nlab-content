@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Algebraic Quantum Field Theory
+#### Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
@@ -16,6 +16,10 @@
 ## Idea
 
 (...)
+
+## Related concepts
+
+* [[vector meson dominance]]
 
 ## References
 
