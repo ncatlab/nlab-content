@@ -7,10 +7,6 @@
 +--{: .hide}
 [[!include fields and quanta - table]]
 =--
-#### Physics
-+-- {: .hide}
-[[!include physicscontents]]
-=--
 =--
 =--
 
@@ -108,7 +104,6 @@ The global (all channels and experiments combined) tension  with the standard mo
 
 This situation was confirmed with the completed measurements presented at [Moriond 2019](http://moriond.in2p3.fr/2019/), which showed ([Straub 19](#Straub19), [Allanach 19](#Allanach19)) smaller mean discrepancy but also had smaller uncertainty, thus keeping the [[statistical significance]] of the apparent anomaly essentially unaffected. But [Caria 19, slide 9](#Caria19)  reported new measurements by [[Belle collaboration|Belle]] according to which the previous [[statistical significance]] of $3.8 \sigma$ in the $R_D$ channel would decrease to $3.1 \sigma$ or $2.8 \sigma$ ([Gambino-Jung-Schacht 19 (6)](V_cb+puzzle#GambinoJungSchacht19)).  See [LHCb 19, p. 2](#LHCb19) for how the new numbers come about. The statistical significance over all sectors is still seen $\gt 4 \sigma$ ([London 19, p. 7](#London19)).
 
-
 Comprehensive assessments of the situation after [Moriond 2019](http://moriond.in2p3.fr/2019/) are given in [AHMSN 19](#AHMSN19), [Descotes-Genon 19](#DescotesGenon19), [Bardhan-Ghosh 19](#BardhanGhosh19), [Alguero 19](#Alguero19) and agree that the flavour anomalies have been confirmed:
 
 >  It appears the reason is that, given the amount of independent measurements (~180!) a smaller deviation because of new physics is easier to accommodate than a large one. Thus the new measurements actually fit better with new physics.
@@ -124,6 +119,17 @@ Comprehensive assessments of the situation after [Moriond 2019](http://moriond.i
 \end{center}
 
 > graphics grabbed from [Zupan 19](#Zupan19), see also [LHCb19, Fig. 5](#LHCb19)
+
+Similarly [Smith 20](#Smith20) (on behalf of the [[LHCb collaboration]]):
+
+\begin{center}
+\begin{imagefromfile}
+  "file_name": "SmithAtLHCbFlavourAnomalies.jpg",
+  "width": 540
+\end{imagefromfile}
+\end{center}
+
+
 
 The [[statistical significances]] of pull away from the [[standard model of particle physics|standard model]] for [[effective field theory|effective]] New Physics models:
 
@@ -213,10 +219,9 @@ There is possibly a relation between the [[flavour anomalies]] and the  [anomali
 <img src="https://ncatlab.org/nlab/files/CrivellinRandAHints.jpg" width="300">
 </center>
 
-
 > graphics from [Crivellin-Hoferichter 20](#CrivellinHoferichter20) 
 
-> (here "$R$" refers to flavour anomalies in various channels, "$a$" refers to anomalies in the the anomalous magnetic moments of the electron and the muon, "LFUV" is shoft for "Lepton Flavor Universality Violation", and the numbers are the [[statistical significances]] of the effects seen)
+> (here "$R$" refers to [[flavour anomalies]] in various channels, "$a$" refers to anomalies in the the [[anomalous magnetic moments]] of the [[electron]] and the [[muon]], "LFUV" is shoft for "Lepton Flavor Universality Violation", and the numbers are the [[statistical significances]] of the effects seen)
 
 
 
@@ -399,7 +404,7 @@ talk at [XIth International Symposium on Quantum Theory and Symmetries](http://w
 
 * Sneha Jaiswal, Soumitra Nandi, Sunando Kumar Patra, _Updates on SM predictions of $\vert V_{c b}\vert$ and $R(D^{(\ast)})$  in $B\to D^\ast \ell \nu_\ell$ decays_ ([arXiv:2002.05726](https://arxiv.org/abs/2002.05726))
 
-
+* {#Smith20} Eluned Smith on behalf of the [[LHCb collaboration]], _Update of the $B^0 \to K^{\ast 0} \mu^+ \mu^-$ angular analysis at LHCb_, 2020 ([[SmithatLHCbOnFlavourAnomalies2020.pdf:file]])
 
 
 Outlook:
