@@ -36,5 +36,5 @@ See also
 
 * Yuri D. Lensky, Xiao-Liang Qi, Pengfei Zhang, _Size of bulk fermions in the SYK model_ ([arXiv:2002.01961](https://arxiv.org/abs/2002.01961))
 
-
+* Xiao-Liang Qi, Pengfei Zhang, _The Coupled SYK model at Finite Temperature_ ([arXiv:2003.03916](https://arxiv.org/abs/2003.03916))
 
