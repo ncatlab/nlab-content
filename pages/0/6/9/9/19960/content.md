@@ -3,13 +3,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
+=--
 #### Duality in string theory
 +-- {: .hide}
 [[!include duality in string theory -- contents]]
-=--
-#### Quantum Field Theory
-+--{: .hide}
-[[!include AQFT and operator algebra contents]]
 =--
 =--
 =--
@@ -23,24 +23,141 @@
 ## Idea
  {#Idea}
 
-The [[geometric engineering of QFT|geometric engineering]] of [[quantum chromodynamics]] via [[D4-D8-brane bound state]] [[intersecting D-brane models]] is traditionally referred to as the _AdS/QCD correspondence_ or as _holographic QCD_, or similar, referring to the use of the _[[AdS/CFT correspondence]]_. (Notice "CFT" as opposed to "QCD").
-
-The [[AdS-CFT correspondence]] applies _exactly_ only to a few highly symmetric [[quantum field theories]], notably to [[N=4 D=4 super Yang-Mills theory]]. However, away from these special points in field theory space the correspondence does not completely break down, but continues to apply in some approximation and/or with suitable modifications on the [[gravity]]-side of the correspondence.
 
 
-Notably [[quantum chromodynamics]] (one sector of the [[standard model of particle physics]]) is crucially different from, but still similar enough to, [[N=4 D=4 super Yang-Mills theory]] that some of its [[observables]], in particular otherwise intractable [[non-perturbative effects]], have been argued to be usefully approximated by [[AdS-CFT]]-type [[duality in string theory|dual]] [[supergravity]]-[[observables]].
+\begin{imagefromfile}
+    "file_name": "HardWallModelPredictions.jpg",
+    "float": "right",
+    "width": 440,
+    "unit": "px",
+    "margin": {
+        "top": -50,
+        "right": 10,
+        "bottom": -40,
+        "left": 20
+    }
+\end{imagefromfile}
 
-In particular, the realization of [[quantum chromodynamics]] by [[intersecting D-brane models]] gives a conceptual analytic handle on [[confinement|confined]] [[hadron]] spectra, hence of the physics of ordinary [[atomic nuclei]] (see [below](#Hadrons)). This means ([Witten 98](#Witten98)) that AdS/QCD provides a conceptual solution to the _[[mass gap problem]]_ (albeit not yet a rigorous one), which is out of reach for [[perturbative quantum field theory|perturbation theory]] and otherwise computable only via the blind numerics of [[lattice QCD]].
+
+What is called _holographic QCD_ or _AdS/QCD correspondence_ or similar (review includes [Aharony 02](#Aharony02), [Erlich 09](#Erlich09), [Erlich 14](#Erlich14), [Rebhan 14](#Rebhan14), [Rho-Zahed 16](#RhoZahed16)) is a quantitatively predictive [[model (in theoretical physics)|model]] for [[quantum chromodynamics]] ("[[QCD]]", the [[strong nuclear force]]-sector of the [[standard model of particle physics]]) via "holography" (as in the [[AdS/CFT correspondence]]), hence regarding it as the [[boundary field theory]] of an (at least) [[D=5 super Yang-Mills theory|5-dimensional]] [[Yang-Mills theory]] ("[[bottom-up model building|bottom-up]] holographic QCD"), specifically one [[geometric engineering|geometrically engineered]] on [[intersecting D-brane model|intersecting D-branes]] ("[[top-down model building|top-down]] holographic QCD") and here specifically on [[D4-D8 brane intersections]] (the _[[Witten-Sakai-Sugimoto model]]_ due to [Witten 98](#Witten98), [Karch-Katz 02](#KarchKatz02), [Sakai-Sugimoto 04](#SakaiSugimoto04), [Sakai-Sugimoto 05](#SakaiSugimoto05)). 
+
+> table from [Erlich 09, section 1.2](#Erlich09)
+
+
+Holographic QCD captures the [[non-perturbative effect|non-perturbative]] [[confinement|confined]] regime of [[QCD]], which is otherwise elusive (the [[mass gap problem|Mass Gap Millennium Problem]]), where the would-be [[quarks]] are all [[bound state|bound]]/[[confinement|confined]] inside [[color charge|color]]-less [[hadrons]], with the [[meson]] [[field (physics)|fields]] instead being the [[gauge field]] of a [[flavour (particle physics)|flavour]]-[[chiral perturbation theory|gauge theory]] and the [[baryons]] being [[solitons]] of this flavour/meson field, namely _[[skyrmions]]_.
+
+\begin{imagefromfile}
+    "file_name": "IntersectingBranesSSWModel.jpg",
+    "float": "right",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -50,
+        "right": 10,
+        "bottom": -40,
+        "left": 20
+    }
+\end{imagefromfile}
+
+This [[duality in physics|dual]] description of the [[color charge|color]] [[gauge theory]] of [[quarks]] and [[gluons]] instead as [[flavour (particle physics)|flavour]] [[gauge theory]] of [[baryons]] and [[mesons]] is [[geometric engineering of QFT|geometrically brought out]] by the [[D4-D8 brane intersections]] of the [[Witten-Sakai-Sugimoto model|Witten-Sakai-Sugimoto]] [[intersecting D-brane model]]: Here the [[open strings]] on the [[D4-branes|D4]] _color branes_ give the [[color charge|color]]/[[gluon]] gauge field, while those on the [[D8-brane|D8]] _flavor branes_ give the [[flavour (particle physics)|flavour]]/[[meson]] gauge field, and those stretching between D4 and D8 give the [[quarks]]. (See at _[WSS brane configuration](#WSSBraneConfiguration)_ below.) This way [[color charge|color]]/[[flavour (particle physics)|flavor]] [[duality in physics|duality]] is mapped to [[open/closed string duality]] (as the [[D8-branes]] are treated as probe branes).
+
+> graphics from [Rebhan 14](#Rebhan14)
+
+
+Notice that the [[flavour physics|flavour sector]] is where most of the open problems regarding the [[standard model of particle physics]] are located ([[flavour problem]], [[flavour anomalies]]).
+
+
+\begin{imagefromfile}
+    "file_name": "SakaiSugimotoModel.jpg",
+    "float": "right",
+    "width": 570,
+    "unit": "px",
+    "margin": {
+        "top": -50,
+        "right": 10,
+        "bottom": -40,
+        "left": 20
+    }
+\end{imagefromfile}
+
+Various fundamental characteristics of [[QCD]] that remain mysterious in the [[color charge|colored]]-[[quark]] model readily find a conceptual explanation in terms of this [[geometric engineering of QFT|geometric engineering]] of the [[flavour physics]], notably the phenomena of [[confinement]] and of [[chiral symmetry breaking]], but also for instance [[vector meson dominance]] and the [[Cheshire cat principle]].
+
+> graphics grabbed from [Erlich 09, section 1.1](#Erlich09)
+
+\begin{imagefromfile}
+    "file_name": "AdSCFTForQCD.jpg",
+    "float": "right",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -50,
+        "right": 10,
+        "bottom": -40,
+        "left": 20
+    }
+\end{imagefromfile}
+
+
+Indeed, holographic QCD gives accurate quantitative predictions of [[confinement|confined]] [[hadron]] spectra, hence of the physics of ordinary [[atomic nuclei]] (see at _[Hadrons](#Hadrons)_ below) which is out of reach for [[perturbative quantum field theory|perturbation theory]] and otherwise computable, at best, via the blind numerics of [[lattice QCD]]. This means ([Witten 98](#Witten98)) that holographic QCD provides a conceptual solution to the _[[mass gap problem]]_ (not yet a rigorous proof, but a proof strategy).
+
+> graphics from [Aoki-Hashimoto-Iizuka 12](#AHI12)
+
+\begin{imagefromfile}
+    "file_name": "FirstEightSkyrmions.jpg",
+    "float": "right",
+    "width": 450,
+    "unit": "px",
+    "margin": {
+        "top": -50,
+        "right": 10,
+        "bottom": -40,
+        "left": 20
+    }
+\end{imagefromfile}
+
+
+Concretely, much of the [[phenomenology|phenomenological]] success of [[holographic QCD]] is (review in [Rho-Zahed 16, Chapter III](#RhoZahed16)) due to the holographic emergence of the time-honored but _ad hoc_ [[Skyrmion]]-[[model (in theoretical physics)|model]] of [[baryons]], as [[solitons]] in the [[meson]] [[flavour (particle physics)|flavour]]-[[gauge field]], in its modern improved form including the whole tower of [[vector mesons]] (the [[rho meson]] etc.)
+on top of the [[pion]] [[field (physics)|field]]:
+
+> graphics from [Manton 11](Skyrmion#Manton11)
+
+The mechanism behind the description of [[baryons]] via [[holographic QCD]] is the theorem of [Atiyah-Manton 89](skyrmion#AtiyahManton89) (highlighted as such in [Sutcliffe 10](skyrmion#Sutcliffe10)) which identifies [[Skyrmions]] in 3+1-dimensional [[Yang-Mills theory]] with [[Kaluza-Klein 
+mechanism|KK 0-modes]] (transversal [[holonomies]]) of [[instantons]] in 4+1-dimensional YM theory:
+
+$$
+  \text{baryons}
+  \;\;
+  \overset{\text{Skyrme}}{\leftrightarrow}
+  \;\;
+  {
+    {\text{Skyrmions}}
+    \atop
+    {\text{in}\; d=3+1}
+  }
+  \;\;
+  \overset{\text{Atiyah-Manton}}{\leftrightarrow}
+  \;\;
+  {
+    {\text{Instantons}}
+    \atop
+    {\text{in}\; d=4+1}
+  }
+$$
+
+This fact (of [[experiment]]/[[phenomenology]] on the left and of [[mathematics]] on the right) combined with the emergence of [[strings]] in the [['t Hooft limit]] of [[QCD]] reveals a _de facto_ [[AdS/CFT correspondence|holographic]] nature of [[QCD]]. The task in [[holographic QCD]] is to sort out the fine-print.
+
+A key open problem here is that the [[AdS/CFT correspondence]] is currently well understood only in the [[large N limit]], where the number $N_c$ of [[color charge|colors]] and the [['t Hooft coupling]] $\lambda$ are both large. But for [[QCD]] the number of colors is small, $N_c = 3$.  While the correspondence is thought to hold also in the [[small N limit]], here the [[classical field theory|classical]] [[supergravity|super]]-[[gravity]]-computations on the dual (AdS) side will receive [[small N limit|small-N corrections]] (highlighted for holographic QCD e.g. in [Sugimoto 16](#Sugimoto16), see references [below](#StringAndMTheoryCorrection)) from [[perturbative string theory]] (for small [['t Hooft coupling]]) which are hard to compute, and then from [[M-theory]] (for small $N_c$) which are largely unknown, as [formulating M-theory remains an open problem](M-theory#TheOpenProblem). Hence from the perspective of [[small N limit|small-N corrected]] [[holographic QCD]], the [[mass gap problem]]/[confinement problem](confinement#OpenProblem) translates to the problem of formulating [[M-theory]]:
 
 <center>
-<img src="https://ncatlab.org/nlab/files/AdSCFTForQCD.jpg" width="600" />
+<a href="https://ncatlab.org/schreiber/files/Schreiber-MTheoryMathematics2020-v200126.pdf#page=8">
+<img src="https://ncatlab.org/schreiber/files/ProblemQCDToProblemM230120.jpg" width="670">
+</a>
 </center>
 
-> graphics grabbed from [Aoki-Hashimoto-Iizuka 12](#AHI12)
 
-Another example of such observables is the [[shear viscosity]] of the [[quark-gluon plasma]]. 
+\linebreak
 
-This approach is hence called the _AdS/QCD-correspondence_ or _holographic QCD_ or similar (see also [[AdS-CFT in condensed matter physics]] for similar relations).
+\linebreak
 
 From [Yi 09](#Yi09):
 
@@ -97,7 +214,7 @@ From [Rho et a. 16](#RhoEtAl16):
 
 > $[...]$
 
-> One of the most noticeable results of this [[AdS/QCD|holographic model]] is the first derivation of [[vector meson dominance|vector dominance]] (VD) that holds both for [[mesons]] and for [[baryons]]. It has been somewhat of an oddity and a puzzle that Sakurai’s [[vector meson dominance|vector dominance]] — with the lowest [[vector mesons]] [[rho meson|ρ]] and ω — which held very well for [[pion|pionic]] [[form factors]] at low momentum transfers famously failed for nucleon form factors. In this [[AdS/QCD|holographic model]], the [[vector meson dominance|VD]] comes out automatically for both the [[pion]] and the [[nucleon]] provided that the infinite $[$[[Kaluza-Klein mechanism|KK-]]$]$tower is included. While the [[vector meson dominance|VD]] for the [[pion]] with the infinite tower is not surprising given the successful Sakurai VD, that the [[vector meson dominance|VD]] holds also for the [[nucleons]] is highly nontrivial. $[...]$ It turns out to be a consequence of a [[AdS/QCD|holographic]] [[Cheshire cat principle|Cheshire Cat phenomenon]] 
+> One of the most noticeable results of this [[AdS/QCD|holographic model]] is the first derivation of [[vector meson dominance|vector dominance]] (VD) that holds both for [[mesons]] and for [[baryons]]. It has been somewhat of an oddity and a puzzle that [[Jun John Sakurai|Sakurai's]] [[vector meson dominance|vector dominance]] — with the lowest [[vector mesons]] [[rho meson|ρ]] and ω — which held very well for [[pion|pionic]] [[form factors]] at low momentum transfers famously failed for [[nucleon]] [[form factors]]. In this [[AdS/QCD|holographic model]], the [[vector meson dominance|VD]] comes out automatically for both the [[pion]] and the [[nucleon]] provided that the infinite $[$[[Kaluza-Klein mechanism|KK-]]$]$tower is included. While the [[vector meson dominance|VD]] for the [[pion]] with the infinite tower is not surprising given the successful Sakurai VD, that the [[vector meson dominance|VD]] holds also for the [[nucleons]] is highly nontrivial. $[...]$ It turns out to be a consequence of a [[AdS/QCD|holographic]] [[Cheshire cat principle|Cheshire Cat phenomenon]] 
 
 \linebreak
 
@@ -111,7 +228,7 @@ In approaches to $AdS/QCD$ one distinguishes [[top-down model building]] -- wher
 <img src="https://ncatlab.org/nlab/files/BottomUpAndTopDownIntersDBraneModelBuilding.png" width="700"/>
 </center>
 
->  graphics grabbed from [Aldazabal-Ibáñez-Quevedo-Uranga 00](bottom-up+and+top-down+model+building#AldazabalIbanezQuevedoUranga00)
+>  graphics from [Aldazabal-Ibáñez-Quevedo-Uranga 00](bottom-up+and+top-down+model+building#AldazabalIbanezQuevedoUranga00)
 
 
 ### Top-down models
@@ -173,21 +290,8 @@ Here we are showing
 
 \linebreak
 
-Here are some further illustrations, taken from the literature:
 
 
-<center>
-<img src="https://ncatlab.org/nlab/files/SakaiSugimotoModel.jpg" width="600">
-</center>
-
-> graphics grabbed from [Erlich 09, section 1.1](#Erlich09)
-
-
-<center>
-<img src="https://ncatlab.org/nlab/files/IntersectingBranesSSWModel.jpg" width="700">
-</center>
-
-> graphics grabbed from [Rebhan 14](#Rebhan14)
 
 ##### Glueballs
  {#WSSModelGlueballs}
@@ -198,7 +302,7 @@ Already before adding the D8-branes (hence already in the pure Witten model) thi
 <img src="https://ncatlab.org/nlab/files/GlueballSpectrumSSWModel.jpg" width="700">
 </center>
 
-> graphics grabbed from [Rebhan 14](#Rebhan14)
+> graphics from [Rebhan 14](#Rebhan14)
 
 
 ##### Hadrons
@@ -231,7 +335,7 @@ For review see [Sugimoto 16](#Sugimoto16), [Yi 09](#Yi09), [Yi 11](#Yi11), [Yi 1
 <img src="https://ncatlab.org/nlab/files/BaryonsAsD4Branes.jpg" width="700">
 </center>
 
-> graphics grabbed from [Sugimoto 16](#Sugimoto16)
+> graphics from [Sugimoto 16](#Sugimoto16)
 
 
 Equivalently, these baryon states are the [[Yang-Mills instantons]] on the [[D8-brane]] giving the [[D4-D8 brane bound state]] ([Sakai-Sugimoto 04, 5.7](#SakaiSugimoto04)) as a special case of the general situation for [[Dp-D(p+4)-brane bound states]] (e.g. [Tong 05, 1.4](Dp-D%28p%2B4%29-brane+bound+state#Tong05)).
@@ -240,14 +344,14 @@ Equivalently, these baryon states are the [[Yang-Mills instantons]] on the [[D8-
 <img src="https://ncatlab.org/nlab/files/BaryonVertexDefectInAdSQCD.jpg" width="490">
 </center>
 
-> graphics grabbed from [Cai-Li 17](#CaiLi17)
+> graphics from [Cai-Li 17](#CaiLi17)
 
 
 <center>
 <img src="https://ncatlab.org/nlab/files/D6InD8InAdSQCD.jpg" width="700">
 </center>
 
-> graphics grabbed from [ABBCN 18](#ABBCN18)
+> graphics from [ABBCN 18](#ABBCN18)
 
 
 This already produces [[baryon]] [[mass]] spectra with moderate quantitative agreement with [[experiment]] ([HSSY 07](#HSSY07)):
@@ -257,7 +361,7 @@ This already produces [[baryon]] [[mass]] spectra with moderate quantitative agr
 <img src="https://ncatlab.org/nlab/files/BaryonSpectrumInSakaiSugimoto.jpg" width="700">
 </center>
 
-> graphics grabbed from [Sugimoto 16](#Sugimoto16)
+> graphics from [Sugimoto 16](#Sugimoto16)
 
 
 Moreover, the above 4-brane model for baryons is claimed to be equivalent to the old **[[Skyrmion]] model** (see [Sakai-Sugimoto 04, section 5.2](#SakaiSugimoto04), [Sakai-Sugimoto 05, section 3.3](#SakaiSugimoto05), [Sugimoto 16, 15.4.1](#Sugimoto16), [Bartolini 17](#Bartolini17)). 
@@ -270,7 +374,7 @@ For instance, various [[experiment|experimentally]] observed resonances of the [
 <img src="https://ncatlab.org/nlab/files/SkyrmionB12.jpg" width="200">
 \end{center}
 
-> graphics grabbed form [Lau-Manton 14](Skyrmion#LauMaonton14)
+> graphics form [Lau-Manton 14](Skyrmion#LauMaonton14)
 
 More generally, the [[Skyrmion]]-model of [[atomic nuclei]] gives good matches with [[experiment]] if not just the [[pi meson]] but also the [[rho meson]]-background is included ([Naya-Sutcliffe 18](Skyrmion#NayaSutcliffe18)):
 
@@ -278,7 +382,7 @@ More generally, the [[Skyrmion]]-model of [[atomic nuclei]] gives good matches w
 <img src="https://ncatlab.org/nlab/files/SkyrmionsWithRho.jpg" width="800">
 \end{center}
 
-> graphics grabbed form [Naya-Sutcliffe 18](Skyrmion#NayaSutcliffe18)
+> graphics form [Naya-Sutcliffe 18](Skyrmion#NayaSutcliffe18)
 
 
 <br/>
@@ -327,7 +431,7 @@ Computations due to [Katz-Lewandowski-Schwartz 05](#KatzLewandowskiSchwartz05) f
 <img src="https://ncatlab.org/nlab/files/HardWallModelPredictions.jpg" width="400">
 </center>
 
-> graphics grabbed from [Erlich 09, section 1.2](#Erlich09)
+> graphics from [Erlich 09, section 1.2](#Erlich09)
 
 Further refinement to the "soft-wall model" is due to [KKSS 06](#KKSS06) and further to "improved holographic QCD" is due to [Gursoy-Kiritsis-Nitti 07](#GursoyKiritsisNitti07), [Gursoy-Kiritsis 08](#GursoyKiritsis08), see [GKMMN 10](#GKMMN10).
 
@@ -336,14 +440,14 @@ Further refinement to the "soft-wall model" is due to [KKSS 06](#KKSS06) and fur
 <img src="https://ncatlab.org/nlab/files/GlueballMasses.jpg" width="660">
 </center>
 
-> graphics grabbed from [GKMMN 10](#GKMMN10)
+> graphics from [GKMMN 10](#GKMMN10)
 
 
 <center>
 <img src="https://ncatlab.org/nlab/files/ImprovedAdSQCD.jpg" width="680">
 </center>
 
-> graphics grabbed from [GKMMN 10](#GKMMN10)
+> graphics from [GKMMN 10](#GKMMN10)
 
 These computations shown so far all use just the field theory in the bulk, not yet the stringy modes ([[limit of a sequence|limit]] of vanishing [[string length]] $\sqrt{\alpha'} \to 0$). Incorporating bulk string corrections further improves these results, see [Sonnenschein-Weissman 18](#SonnenscheinWeissman18).
 
@@ -357,13 +461,22 @@ These computations shown so far all use just the field theory in the bulk, not y
 
 ## Related concepts
 
-* [[holographic entanglement entropy]]
+* [[confinement]]
+
+  * [[chiral perturbation theory]]
+
+  * [[quark bag model]], [[Cheshire cat principle]]
+
+  * [[Skyrmions]]
+
+* [[lattice QCD]]
 
 * [[AdS-CFT in condensed matter physics]]
 
+* [[holographic entanglement entropy]]
+
 * [[holography as Koszul duality]]
 
-* [[lattice QCD]]
 
 
 ## References
@@ -379,29 +492,21 @@ Review:
 
 * Marco Panero, _QCD thermodynamics in the large-$N$ limit_, 2010 ([[PaneroAdsQCD.pdf:file|pdf]])
 
-
-
-* Youngman Kim and Deokhyun Yi, _Holography at Work for Nuclear and Hadron Physics_, Advances in High Energy Physics, Volume 2011, Article ID 259025, 62 pages
-([arXiv:1107.0155](https://arxiv.org/abs/1107.0155), [doi:10.1155/2011/259025](http://dx.doi.org/10.1155/2011/259025))
+* Youngman Kim and Deokhyun Yi, _Holography at Work for Nuclear and Hadron Physics_, Advances in High Energy Physics, Volume 2011, Article ID 259025, 62 pages ([arXiv:1107.0155](https://arxiv.org/abs/1107.0155), [doi:10.1155/2011/259025](http://dx.doi.org/10.1155/2011/259025))
 
 
 * M. R. Pahlavani, R. Morad, _Application of AdS/CFT in Nuclear Physics_, Advances in High Energy Physics ([arXiv:1403.2501](https://arxiv.org/abs/1403.2501))
 
-* Jorge Casalderrey-Solana, Hong Liu, David Mateos, Krishna Rajagopal, Urs Achim Wiedemann,
+* Jorge Casalderrey-Solana, Hong Liu, David Mateos, Krishna Rajagopal, Urs Achim Wiedemann, _Gauge/string duality, hot QCD and heavy ion collisions_,  Cambridge University Press, 2014 ([arXiv:1101.0618](https://arxiv.org/abs/1101.0618))
 
-  _Gauge/string duality, hot QCD and heavy ion collisions_, 
 
-  Cambridge University Press, 2014 ([arXiv:1101.0618](https://arxiv.org/abs/1101.0618))
--7+9
-32
 * {#AHI12} Sinya Aoki, [[Koji Hashimoto]], Norihiro Iizuka, _Matrix Theory for Baryons: An Overview of Holographic QCD for Nuclear Physics_, Reports on Progress in Physics, Volume 76, Number 10 ([arxiv:1203.5386](https://arxiv.org/abs/1203.5386))
-
 
 
 * Youngman Kim, Ik Jae Shin, Takuya Tsukioka, _Holographic QCD: Past, Present, and Future_, Progress in Particle and Nuclear Physics
 Volume 68, January 2013, Pages 55-112 Progress in Particle and Nuclear Physics ([arXiv:1205.4852](https://arxiv.org/abs/1205.4852))
 
-* Joshua Erlich, _An Introduction to Holographic QCD for Nonspecialists_,  Contemporary Physics ([arXiv:1407.5002](https://arxiv.org/abs/1407.5002))
+* {#Erlich14} Joshua Erlich, _An Introduction to Holographic QCD for Nonspecialists_,  Contemporary Physics ([arXiv:1407.5002](https://arxiv.org/abs/1407.5002))
 
 * {#Guijosa16} Alberto Guijosa, _QCD, with Strings Attached_, IJMPE Vol. 25, No. 10 (2016) 1630006 ([arXiv:1611.07472](https://arxiv.org/abs/1611.07472))
 
@@ -421,8 +526,7 @@ The top-down Sakai-Sugimoto model is due to
 
 along the lines of
 
-* [[Andreas Karch]], [[Emanuel Katz]],  _Adding flavor to AdS/CFT_, JHEP 0206:043, 2002 ([arxiv:hep-th/0205236](https://arxiv.org/abs/hep-th/0205236))
-
+* {#KarchKatz02} [[Andreas Karch]], [[Emanuel Katz]],  _Adding flavor to AdS/CFT_, JHEP 0206:043, 2002 ([arxiv:hep-th/0205236](https://arxiv.org/abs/hep-th/0205236))
 
 and based on 
 
@@ -435,6 +539,8 @@ further developed in
 reviewed in 
 
 * {#Rebhan14} Anton Rebhan, _The Witten-Sakai-Sugimoto model: A brief review and some recent results_, 3rd International Conference on New Frontiers in Physics, Kolymbari, Crete, 2014 ([arXiv:1410.8858](https://arxiv.org/abs/1410.8858))
+
+* {#RhoZahed16} [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_,  World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
 More on [[D4-D8 brane bound states]]:
 
@@ -531,13 +637,12 @@ On the general need for [[M-theory]] at small $N_c$ in gauge/gravity duality:
 
 * [[Nissan Itzhaki]], [[Juan Maldacena]], [[Jacob Sonnenschein]], [[Shimon Yankielowicz]], Section 6 of: _Supergravity and The Large $N$ Limit of Theories With Sixteen Supercharges_, Phys. Rev. D 58, 046004 (1998) ([arXiv:hep-th/9802042](https://arxiv.org/abs/hep-th/9802042))
 
-On stringy corrections in the [[AdS/QCD correspondence]]:
+Small N-corrections specifically for AdS/QCD:
 
-* B. Basso, _Cusp anomalous dimension in planar maximally supersymmetric Yang-Mills theory_ ([spire:858223](http://inspirehep.net/record/858223))
+* {#Basso08} B. Basso, _Cusp anomalous dimension in planar maximally supersymmetric Yang-Mills theory_, Continuous Advances in QCD 2008, pp. 317-328 (2008) ([spire:858223](http://inspirehep.net/record/858223), [doi:10.1142/9789812838667_0027](https://doi.org/10.1142/9789812838667_0027))
 
   > "The result $[$(29)$]$ coincides exactly with the recent two-loop stringy correction computed in [Alday-Maldacena 07](https://arxiv.org/abs/0708.0672), providing a striking confirmation of the AdS/CFT correspondence."
 
-Specifically for AdS/QCD:
 
 * H. Dorn, H.-J. Otto, _On Wilson loops and $Q\bar Q$-potentials from the AdS/CFT relation at $T\geq 0$_, In: A. Ceresole, C. Kounnas , [[Dieter Lüst]], [[Stefan Theisen]]  (eds.) _Quantum Aspects of Gauge Theories, Supersymmetry and Unification_ Lecture Notes in Physics, vol 525. Springer 2007 ([arXiv:hep-th/9812109](https://arxiv.org/abs/hep-th/9812109), 
 [doi:10.1007/BFb0104268](https://doi.org/10.1007/BFb0104268))
@@ -709,6 +814,22 @@ JHEP 1008:007,2010 ([arxiv:1003.3698](https://arxiv.org/abs/1003.3698))
 * S. S. Afonin, A. D. Katanaeva, E. V. Prokhvatilov, M. I. Vyazovsky, _Deconfinement temperature in AdS/QCD from the spectrum of scalar glueballs_ ([arXiv:2001.07990](https://arxiv.org/abs/2001.07990))
 
 
+### Application to vector meson dominance
+
+Derivation of [[vector meson dominance]] via [[holographic QCD]]:
+
+* D.T. Son, M.A. Stephanov, _QCD and dimensional deconstruction_, Phys. Rev. D69 (2004) 065020 ([arXiv:hep-ph/0304182](https://arxiv.org/abs/hep-ph/0304182))
+
+* Sungho Hong, Sukjin Yoon, [[Matthew Strassler]], _On the Couplings of Vector Mesons in AdS/QCD_, JHEP 0604 (2006) 003 ([arXiv:hep-th/0409118](https://arxiv.org/abs/hep-th/0409118))
+
+* Sungho Hong, Sukjin Yoon, [[Matthew Strassler]], _On the Couplings of the Rho Meson in AdS/QCD_ ([cds:816440](https://cds.cern.ch/record/816440), [arXiv:hep-ph/0501197](https://arxiv.org/abs/hep-ph/0501197))
+
+* Leandro Da Rold, Alex Pomarol, _Chiral symmetry breaking from five dimensional spaces_, Nucl. Phys. B721:79-97, 2005 ([arXiv:hep-ph/0501218](https://arxiv.org/abs/hep-ph/0501218))
+
+and specifically in the [[Witten-Sakai-Sugimoto model]]:
+
+* {#SakaiSugimoto05} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], p. 18 and Section 5 of: _More on a holographic dual of QCD_, Progr. Theor. Phys. 114: 1083-1118, 2005 ([arXiv:hep-th/0507073](https://arxiv.org/abs/hep-th/0507073))
+
 
 
 
@@ -850,7 +971,6 @@ Relating to [[holographic entanglement entropy]]:
 Application to QCD [[QFT with defects|with defects]]:
 
 * Alexander Gorsky, Valentin Zakharov, Ariel Zhitnitsky, _On Classification of QCD defects via holography_, Phys. Rev. D79:106003, 2009 ([arxiv:0902.1842](https://arxiv.org/abs/0902.1842))
-
 
 
 [[!redirects AdS-QCD correspondences]]
