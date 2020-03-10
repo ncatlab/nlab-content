@@ -92,6 +92,7 @@ After the discovery of the [[Higgs field]] at the two major other detectors of [
 
   (first measurement of lepton universality for $\Lambda^0_b$ [[Lambda baryons]], finding the [[flavour anomaly]] at (only) 1 [[standard deviation|sigma]] but pointing in the same direction as seen in other channels)
 
+* [[LHCb collaboration]], _Measurement of CP-averaged observables in the $B^0 \to K^{\ast 0} \mu^+ \mu^-$ decay_ ([cds:2712641](http://cds.cern.ch/record/2712641))
 
 ## References
 
