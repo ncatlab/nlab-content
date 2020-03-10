@@ -140,7 +140,7 @@ See also
 
 Relation to [[gravity]] and the zeros of the [[Riemann zeta function]] (hence the [[Riemann hypothesis]]):
 
-* {#HuangStoicaYau19} [[An Huang]], [[Bogdan Stoica]], [[Shing-Tung Yau]], _General relativity from $p$-adic strings_ ([arXiv:1901.02013](https://arxiv.org/abs/1901.02013))
+* {#HuangStoicaYau19} [[An Huang]], [[Bogdan Stoica]], [[Shing-Tung Yau]], _General relativity from $p$-adic strings_ ([arXiv:1901.02013](https://arxiv.org/abs/1901.02013), [spire:1712659](http://inspirehep.net/record/1712659/))
 
 Discussion of [[BTZ black holes]]:
 
