@@ -20,7 +20,7 @@
 ## Idea and definition
 
 Condensed sets aim to provide a convenient setting
-in the framework of [[homotopical algebra]] for working with algebraic objects that have some sort of a [[topological space|topology]] on them.
+in the framework of [[homotopical algebra]] for working with algebraic objects that have some sort of a [[topological space|topology]] on them. A related alternative is provided by [[pyknotic sets]].
 
 \begin{definition}
 A _condensed set_ is a [[sheaf]] of sets on the [[pro-étale site]] of a point.
