@@ -7,15 +7,11 @@ _Under construction: Extracted from a series of tweets by Syzygay_
 
 ## Idea
 
-Let R be a (commutative unital) ring. Suppose I is a flat idempotent R-ideal. 
+Let $R$ be a (commutative unital) [[ring]]. Suppose $I$ is a flat idempotent $R$-ideal. To be a flat ideal means $-\otimes I$ is an [[exact functor]]. The tensor product is always right exact, so in particular, $-\otimes I$ preserves injections. To be idempotent, $I^2 = I$.
 
-To be a flat ideal means -⊗I is an exact functor. The tensor product is always right exact, so in particular, -⊗I preserves injections. 
+Fixing a pair $(R,I)$ like this, we construct the category of "$I$-almost $R$-modules", $alMod R$.
 
-To be idempotent, I² = I.
-
-Fixing a pair (R,I) like this, we construct the category of "I-almost R-modules", alModR.
-
-We take the full subcategory of R-modules spanned by M so that I⊗M≅M. (This is not the actual definition, but this is an equivalent category. See appendix for actual definition.)
+We take the full subcategory of $R$-modules spanned by $M$ so that $I\otimes M \equiv M$. (This is not the actual definition, but this is an equivalent category. The correct definition is the quotient of the category of $R$-modules by the category of $I$-almost $0$ modules. See below.)
 
 the category structure (it's the essential image of the functor ModR→ModR via M↦I⊗M, it's an Abelian category, and it's a localization of ModR).
 
@@ -73,7 +69,7 @@ One application is proving the tilting equivalence of perfectoid algebras. Given
 
 If K is a perfectoid field, then the category of perfectoid K-algebras is equivalent to the category of perfectoid K♭-algebras. Hence, we can reduce some problems in mixed char to char p.
 
-The category of I-almost 0 modules is a Serre subcategory of ModR. The "correct" definition of the category of I-almost R-modules is the quotient of the category of R-modules by the category of I-almost 0 modules.
+The category of I-almost 0 modules is a Serre subcategory of Mod R. The "correct" definition of the category of I-almost R-modules is the quotient of the category of R-modules by the category of I-almost 0 modules.
 
 
 
