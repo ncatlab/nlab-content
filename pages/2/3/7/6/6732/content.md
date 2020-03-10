@@ -201,6 +201,8 @@ category: physics
 [[!redirects 1/N expansion]]
 [[!redirects 1/N expansions]]
 
+[[!redirects 't Hooft limit]]
+[[!redirects 't Hooft limits]]
 
 
 
