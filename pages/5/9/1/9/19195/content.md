@@ -68,7 +68,7 @@ Since the definition of semisimplicial types requires an inductive definition of
 
 * Thorsten Altenkirch, Paolo Capriotti, Nicolai Kraus, _Extending Homotopy Type Theory with Strict Equality_, ([ arXiv:1604.03799](https://arxiv.org/abs/1604.03799))
 
-* Danil Annenkov, Paolo Capriotti, Nicolai Kraus, _Two-Level Type Theory and Applications_, ([arXiv:1705.03307](https://arxiv.org/abs/1705.03307))
+* Danil Annenkov, Paolo Capriotti, Nicolai Kraus, Christian Sattler, _Two-Level Type Theory and Applications_, ([arXiv:1705.03307](https://arxiv.org/abs/1705.03307))
 {#ACK17}
 
 [[!redirects 2-level type theory]]
