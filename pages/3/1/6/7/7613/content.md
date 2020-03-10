@@ -156,7 +156,7 @@ This approach to computing putative M-theory scattering amplitudes is due to  ([
 ## The open problem of formulating M-theory
  {#TheOpenProblem}
 
-The tight web of hints and plausiblity checks notwithstanding, an actual formulation of M-theory as an actual theory remains an open problem. 
+The tight web of hints and plausiblity checks notwithstanding, an actual formulation of M-theory as an actual [[theory (physics)|theory]] remains an open problem. 
 
 This is not outrageous in itself: In [[mathematics]] there are good examples of cases where a collection of situations was or is suspected to be limiting cases of a single unified theory, without that theory itself having been or being known. 
 
