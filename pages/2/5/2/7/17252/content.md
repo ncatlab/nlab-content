@@ -42,6 +42,8 @@ The two mathematicians are Jacques Hadamard, during WW2 a French expatriate in N
 
 * Dan Sperber, _On Anthropological Knowledge_ , chapter 3, Cambridge UP 1985. ([pdf](http://www.dan.sperber.fr/wp-content/uploads/On-Anthropological-Knowledge.pdf))
 
+* Terence S. Turner, _The crisis of late structuralism_ , pp.205-243 in Turner, _The Fire of the Jaguar_ , Hau books Chicago 2017. ([link](https://haubooks.org/the-fire-of-the-jaguar/))
+
 [[!redirects Levi-Strauss]]
 [[!redirects Claude Lévi-Strauss]]
 [[!redirects Lévi-Strauss]]
