@@ -32,6 +32,22 @@ Similarly there is the anomalous magenetic moment $g_\mu - 2$ of the [[muon]] an
 
 In fact, the anomalous magnetic moment of the [[muon]] $g_\mu - 2$ has become notorious for apparently showing a noticeable _discrepancy_ between [[theory (physics)|theoretic prediction]] from the [[standard model of particle physics]] and its value as determined in [[experiment]]. The discrepancy is now found to have [[statistical significance]] around 3.5[[standard deviation|σ]] ([DHMZ 17](#DHMZ17)) or 4[[standard deviation|σ]] ([Jegerlehner 18a](#Jegerlehner18a)). Recent measurements may even show a possible deviation around 2.5 [[standard deviation|σ]] for the electron's anomalous magnetic moment (see [Falkowski 18](#Falkowski18)). Details depend on understanding of [[non-perturbative effects]] ([Jegerlehner 18b, section 2](#Jegerlehner18b)).
 
+In particular, there seems to be inconsistencies in the theoretical understanding of the relevant [[lattice QCD]]-computations:
+
+\begin{imagefromfile}
+    "file_name": "LehnerMeyermug2Lattice.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -50,
+        "right": 10,
+        "bottom": -40,
+        "left": 20
+    }
+\end{imagefromfile}
+
+> graphics from [Lehner-Meyer 20, Fig 14](#LehnerMeyer20)
+
 If these experimental "anomalies" (in the sense of [[phenomenology]]) in the anomalous magnetic moment $g_\mu - 2$ (and possibly even in $g_e -2$) are real (the established rule of thumb is that deviations are established once their [[statistical significance]] reaches 5[[standard deviation|σ]], see [here](statistical+significance#ParticlePhysics)), they point to "new physics" beyond the [[standard model of particle physics]]. See also at _[[flavour anomaly]]_.
 
 In fact [Lyons 13b](#Lyons13b) argued that the detection-threshold of the [[statistical significance]] of anomalies here should be just 4[[standard deviation|σ]], which would mean that they should already count as being detected:
@@ -132,13 +148,7 @@ The computation of the anomalous magnetic dipole moment of the [[electron]] in [
 
 Discussion of [[QCD]] contributions via [[lattice QCD]]:
 
-
-* Sz. Borsanyi, Z. Fodor, J. N. Guenther, C. Hoelbling, S. D. Katz, L. Lellouch, T. Lippert, K. Miura, L. Parato K. K. Szabo, F. Stokes, B. C. Toth, Cs. Torok, L. Varnhorst:
-
-  _Leading-order hadronic vacuum polarization contribution to the muon magnetic moment from lattice QCD_ ([arXiv:2002.12347](https://arxiv.org/abs/2002.12347))
-
-> Surprisingly, our result eliminates the need to invoke new physics to explain the measurement of $(g_\mu - 2)$.
-
+* {#LehnerMeyer20} Christoph Lehner, Aaron S. Meyer, _Consistency of hadronic vacuum polarization between lattice QCD and the R-ratio_ ([arXiv:2003.04177](https://arxiv.org/abs/2003.04177))
 
 
 ### Gravity contributions
