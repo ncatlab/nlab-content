@@ -15,7 +15,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -44,7 +43,7 @@ What is called _holographic QCD_ or _AdS/QCD correspondence_ or similar (review 
 > table from [Erlich 09, section 1.2](#Erlich09)
 
 
-Holographic QCD captures the [[non-perturbative effect|non-perturbative]] [[confinement|confined]] regime of [[QCD]], which is otherwise elusive (the [[mass gap problem|Mass Gap Millennium Problem]]), where the would-be [[quarks]] are all [[bound state|bound]]/[[confinement|confined]] inside [[color charge|color]]-less [[hadrons]], with the [[meson]] [[field (physics)|fields]] instead being the [[gauge field]] of a [[flavour (particle physics)|flavour]]-[[chiral perturbation theory|gauge theory]] and the [[baryons]] being [[solitons]] of this flavour/meson field, namely _[[skyrmions]]_.
+Holographic QCD captures the [[non-perturbative effect|non-perturbative]] [[confinement|confined]] regime of [[QCD]], which is otherwise elusive (the [[mass gap problem|Mass Gap Millennium Problem]]), where the would-be [[quarks]] are all [[bound state|bound]]/[[confinement|confined]] inside [[color charge|color]]-less [[hadrons]], with the [[meson]] [[field (physics)|fields]] instead being the [[gauge field]] of a [[flavour (particle physics)|flavour]]-[[chiral perturbation theory|gauge theory]] ("[[hidden local symmetry]]") and the [[baryons]] being [[solitons]] of this flavour/meson field, namely _[[skyrmions]]_.
 
 \begin{imagefromfile}
     "file_name": "IntersectingBranesSSWModel.jpg",
@@ -479,12 +478,12 @@ See also  [Pomarol-Wulzer 09](#PomarolWulzer09):
 
 These computations shown so far all use just the field theory in the bulk, not yet the stringy modes ([[limit of a sequence|limit]] of vanishing [[string length]] $\sqrt{\alpha'} \to 0$). Incorporating bulk string corrections further improves these results, see [Sonnenschein-Weissman 18](#SonnenscheinWeissman18). 
 
-### Embedding into a full standard model
+### Embedding into the full standard model of particle physucs
 
 
 [Nastase 03, p. 2](#Nastase03):
 
-> An obvious question then is can one lift this D brane construction for the holographic dual of [[QCD]] to a [[standard model of particle physics|Standard Model]] embedding?  I study this question in the context of [[intersecting D-brane models|D-brane-world]] [[GUT]] models and find that one needs to have [[TeV-scale string theory]].
+> An obvious question then is can one lift this [[intersecting D-brane model|D brane construction]] for the [[holographic QCD|holographic dual of QCD]] to a [[standard model of particle physics|Standard Model]] embedding?  I study this question in the context of [[intersecting D-brane models|D-brane-world]] [[GUT]] models and find that one needs to have [[TeV-scale string theory]].
 
 
 ## Related concepts
@@ -512,7 +511,7 @@ These computations shown so far all use just the field theory in the bulk, not y
 ### General
  {#ReferencesGeneral}
 
-Review:
+#### Review and introduction
 
 * {#Aharony02} [[Ofer Aharony]], _The non-AdS/non-CFT correspondence, or three different paths to QCD_, Progress in string, field and particle theory. Springer, Dordrecht, 2003. 3-24 ([arXiv:hep-th/0212193](https://arxiv.org/abs/hep-th/0212193))
 
@@ -541,6 +540,8 @@ Volume 68, January 2013, Pages 55-112 Progress in Particle and Nuclear Physics (
 See also
 
 * Wikipedia, _[AdS/QCD correspondence](https://en.wikipedia.org/wiki/AdS/QCD_correspondence)_ 
+
+#### Top-down models (WSS model)
 
 Precursor developments:
 
@@ -599,6 +600,7 @@ and its relation to [[baryons]]:
 
 * {#SuganumaNakagawaMatsumoto16} Hideo Suganuma, Yuya Nakagawa, Kohei Matsumoto, _1+1 Large $N_c$ QCD and its Holographic Dual $\sim$ Soliton Picture of Baryons in Single-Flavor World_, JPS Conf. Proc. 13, 020013 (2017) ([arXiv:1610.02074](https://arxiv.org/abs/1610.02074))
 
+#### Bottom-up models
 
 
 The bottom-up hard-wall model is due to
@@ -608,10 +610,6 @@ The bottom-up hard-wall model is due to
 while the soft-wall refinement is due to 
 
 * {#KKSS06} [[Andreas Karch]], [[Emanuel Katz]], Dam T. Son, Mikhail A. Stephanov, _Linear Confinement and AdS/QCD_, Phys.Rev.D74:015005, 2006 ([arXiv:hep-ph/0602229](https://arxiv.org/abs/hep-ph/0602229))
-
-
-
-
 
 see also
 
@@ -654,10 +652,10 @@ and in relation to [[B-meson]] physics
 * [[Mohammad Ahmady]], _Holographic light-front QCD in B meson phenomenology_ ([arXiv:2001.00266](https://arxiv.org/abs/2001.00266))
 
 
-### String- and M-theory corrections
+#### String- and M-theory corrections
  {#StringAndMTheoryCorrection}
 
-On [[perturbative string theory]]-corrections (for small [['t Hooft coupling]] $\lambda = g_{YM}^2 N$) and/or [[M-theory]]-corrections (for [[large N limit|small N]]) to the [[supergravity]]-approximation of the [[AdS/CFT correspondence]], i.e. the [[large 1/N limit]] of the correspondence:
+Generally on [[perturbative string theory]]-corrections (for small [['t Hooft coupling]] $\lambda = g_{YM}^2 N$) and/or [[M-theory]]-corrections ([[large N limit|small N]]) to the [[supergravity]]-approximation of the [[AdS/CFT correspondence]], i.e. the [[small N corrections]] to the correspondence:
 
 On the general need for [[M-theory]] at small $N_c$ in gauge/gravity duality:
 
@@ -665,25 +663,26 @@ On the general need for [[M-theory]] at small $N_c$ in gauge/gravity duality:
 
 * [[Nissan Itzhaki]], [[Juan Maldacena]], [[Jacob Sonnenschein]], [[Shimon Yankielowicz]], Section 6 of: _Supergravity and The Large $N$ Limit of Theories With Sixteen Supercharges_, Phys. Rev. D 58, 046004 (1998) ([arXiv:hep-th/9802042](https://arxiv.org/abs/hep-th/9802042))
 
-Small N-corrections specifically for AdS/QCD:
+Discussion of [[large N limit|small N]] effects in [[M-theory]] [[AdS4/CFT3]] and using the [[conformal bootstrap]]:
+
+* Nathan B. Agmon, Shai M. Chester, Silviu S. Pufu, _Solving M-theory with the Conformal Bootstrap_, JHEP 06 (2018) 159 ([arXiv:1711.07343](https://arxiv.org/abs/1711.07343))
+
+\linebreak
+
+Specifically on [[small N corrections]] in [[holographic QCD]]:
 
 * {#Basso08} B. Basso, _Cusp anomalous dimension in planar maximally supersymmetric Yang-Mills theory_, Continuous Advances in QCD 2008, pp. 317-328 (2008) ([spire:858223](http://inspirehep.net/record/858223), [doi:10.1142/9789812838667_0027](https://doi.org/10.1142/9789812838667_0027))
 
   > "The result $[$(29)$]$ coincides exactly with the recent two-loop stringy correction computed in [Alday-Maldacena 07](https://arxiv.org/abs/0708.0672), providing a striking confirmation of the AdS/CFT correspondence."
 
-
 * H. Dorn, H.-J. Otto, _On Wilson loops and $Q\bar Q$-potentials from the AdS/CFT relation at $T\geq 0$_, In: A. Ceresole, C. Kounnas , [[Dieter Lüst]], [[Stefan Theisen]]  (eds.) _Quantum Aspects of Gauge Theories, Supersymmetry and Unification_ Lecture Notes in Physics, vol 525. Springer 2007 ([arXiv:hep-th/9812109](https://arxiv.org/abs/hep-th/9812109), 
 [doi:10.1007/BFb0104268](https://doi.org/10.1007/BFb0104268))
 
+* Masayasu Harada, Shinya Matsuzaki, and Koichi Yamawaki, _Implications of holographic QCD in chiral perturbation theory with hidden local symmetry_, Phys. Rev. D 74, 076004 (2006) ([doi:10.1103/PhysRevD.74.076004](https://doi.org/10.1103/PhysRevD.74.076004))
+
+  (with an eye towards [[hidden local symmetry]])
 
 * Csaba Csaki, [[Matthew Reece]], John Terning, _The AdS/QCD Correspondence: Still Undelivered_, JHEP 0905:067, 2009 ([arXiv:0811.3001](https://arxiv.org/abs/0811.3001))
-
-Discussion of [[large N limit|small N]] effects in [[M-theory]] [[AdS4/CFT3]] and using the [[conformal bootstrap]]:
-
-* Nathan B. Agmon, Shai M. Chester, Silviu S. Pufu, _Solving M-theory with the Conformal Bootstrap_, JHEP 06 (2018) 159 ([arXiv:1711.07343](https://arxiv.org/abs/1711.07343))
-
-
-
 
 
 
