@@ -1247,7 +1247,7 @@ and with structure maps
 
 $$
   \frac{
-    S^1 \wedge X^{seq}_n \stackrel{\sigma_n}{\longrightarrow} X^{seq}_n
+    S^1 \wedge X^{seq}_n \stackrel{\sigma_n}{\longrightarrow} X^{seq}_{n+1}
   }{
     S^1 \longrightarrow Maps(X^{seq}_n, X^{seq}_{n+1})_\ast
   }
