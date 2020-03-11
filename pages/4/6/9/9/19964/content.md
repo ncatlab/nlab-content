@@ -232,7 +232,7 @@ Further development:
 
 Relation to the [[complex Hopf fibration]]:
 
-* Sven Bjarke Gudnason, Muneto Nitta, _Linking number of vortices as baryon number_ ([arXiv:2002.01762](https://arxiv.org/abs/2002.01762))
+* {#GudnasonNitta20} Sven Bjarke Gudnason, [[Muneto Nitta]], _Linking number of vortices as baryon number_ ([arXiv:2002.01762](https://arxiv.org/abs/2002.01762), [spire:1778698/](http://inspirehep.net/record/1778698/))
 
 
 See also
