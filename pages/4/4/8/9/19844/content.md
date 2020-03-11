@@ -120,7 +120,7 @@ Comprehensive assessments of the situation after [Moriond 2019](http://moriond.i
 
 > graphics grabbed from [Zupan 19](#Zupan19), see also [LHCb19, Fig. 5](#LHCb19)
 
-Similarly [Smith 20](#Smith20) (on behalf of the [[LHCb collaboration]]):
+Similarly [Smith 20](#Smith20), [Lopes 20](#Lopes20) (on behalf of the [[LHCb collaboration]]):
 
 \begin{center}
 \begin{imagefromfile}
@@ -406,6 +406,8 @@ talk at [XIth International Symposium on Quantum Theory and Symmetries](http://w
 
 * {#Smith20} Eluned Smith on behalf of the [[LHCb collaboration]], _Update of the $B^0 \to K^{\ast 0} \mu^+ \mu^-$ angular analysis at LHCb_, 2020 ([[SmithatLHCbOnFlavourAnomalies2020.pdf:file]])
 
+
+* {#Lopes20} Ana Lopes, _[New LHCb analysis still sees previous intriguing results](https://home.cern/news/news/physics/new-lhcb-analysis-still-sees-previous-intriguing-results)_, CERN News 2020
 
 Outlook:
 
