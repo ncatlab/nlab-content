@@ -25,6 +25,10 @@
 
 (also: [[antiparticles]])
 
+**[[effective field theory|effective particles]]**
+
+* [[Goldstone bosons]]
+
 **[[hadron]]** ([[bound states]] of the above [[quarks]])
 
 * [[meson]]
