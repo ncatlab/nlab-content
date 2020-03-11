@@ -67,6 +67,7 @@ See also
 * Wikipedia, _[Vector meson dominance](https://en.wikipedia.org/wiki/Vector_meson_dominance)_
 
 ### Via holographic QCD
+ {#ReferencesViaHolographicQCD}
 
 Derivation of vector meson dominance via [[holographic QCD]]:
 
