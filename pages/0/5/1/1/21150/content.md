@@ -31,14 +31,21 @@ on [[Skyrmions]], particularly as a model for [[confinement]] in [[QCD]] of [[qu
 
 ### Hadrons and Nuclear Matter
 
-On [[Skyrmions]] as [[model (in theoretical physics)|models]] for [[atomic nuclei]] all the way up to [[carbon]]:
-
-
 **Chapter 1**
+
+On [[Skyrmions]] as [[model (in theoretical physics)|models]] for [[atomic nuclei]] all the way up to [[carbon]]:
 
 * {#BattyeMantonSutcliffe10} R. A. Battye, [[Nicholas Manton]], [[Paul Sutcliffe]], _Skyrmions and Nuclei_, pp. 3-39 (2010) ([doi:10.1142/9789814280709_0001](https://doi.org/10.1142/9789814280709_0001)) 
 
-(...)
+\linebreak
+
+**Chapter 6** 
+
+On [[mesons]] as [[gauge bosons]] of a [[hidden local symmetry]] and then as [[Kaluza-Klein mechanism|KK-modes]] of a 5-dimensional holographic [[Yang-Mills theory]]:
+
+* Hyun Kyu Lee, [[Mannque Rho]], _Half-Skyrmion Hadronic Matter at High Density_ ([doi:10.1142/9789814280709_0006](https://doi.org/10.1142/9789814280709_0006)), Chapter 6 in: [[Mannque Rho]] et al., _The Multifaceted Skyrmion_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+
+
 
 
 ### Condensed matter
