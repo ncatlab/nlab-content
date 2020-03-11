@@ -118,7 +118,7 @@ Specifically computation of [[hadron]]-[[masses]] (see [[mass gap problem]]) in 
 
   _Ab-initio Determination of Light Hadron Masses_,
 
-  Science 322:1224-1227,2008 ([arXiv:0906.3599](https://arxiv.org/abs/0906.3599))
+  Science 322:1224-1227, 2008 ([arXiv:0906.3599](https://arxiv.org/abs/0906.3599))
 
 reviewed in 
 
