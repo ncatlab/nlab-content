@@ -10,10 +10,6 @@
 =--
 =--
 
-
-
-#Contents#
-
 #Contents#
 * table of contents
 {:toc}
@@ -107,14 +103,14 @@ For instance various resonances of the [[carbon]] [[nucleus]] are modeled well b
 
 > graphics grabbed form [Lau-Manton 14](#LauManton14)
 
-For Skyrmion models of nuclei to match well to [[experiment]], not just the [[pion field]] but also the heavier [[mesons]] need to be included in the construction. Including the [[rho meson]] gives good results for light nuclei ([Naya-Sutcliffe 18a](#NayaSutcliffe18a), [Naya-Sutcliffe 18b](#NayaSutcliffe18b))
+{#IncludingTowerOfMesons} For Skyrmion models of nuclei to match well to [[experiment]], not just the [[pion field]] but also the tower of [[vector mesons]] need to be included in the construction. Including the [[rho meson]] gives good results for light nuclei ([Naya-Sutcliffe 18a](#NayaSutcliffe18a), [Naya-Sutcliffe 18b](#NayaSutcliffe18b))
 
 
 \begin{center}
 <img src="https://ncatlab.org/nlab/files/SkyrmionsWithRho.jpg" width="800">
 \end{center}
 
-> graphics grabbed form [Naya-Sutcliffe 18](#NayaSutcliffe18)
+> graphics grabbed form [Naya-Sutcliffe 18a](#NayaSutcliffe18a)
 
 
 ### As a holographic boundary theory
