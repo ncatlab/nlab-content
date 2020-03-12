@@ -37,9 +37,18 @@ The _strong nuclear force_ is described by a [[gauge field]] with [[gauge group]
 
 ## References
 
+See the references at
+
+* [[electroweak field]]
+
+* [[QCD]]
+
 * Wikipedia, _[Weak interaction](http://en.wikipedia.org/wiki/Weak_interaction)_
 
 * Wikipedia, _[Strong interaction](http://en.wikipedia.org/wiki/Strong_interaction)_
+
+
+
 
 
 [[!redirects nuclear force]]
