@@ -101,7 +101,9 @@ Critical review:
 
 * {#Shomer07} Assaf Shomer, _A pedagogical explanation for the non-renormalizability of gravity_ ([arXiv:0709.3555](https://arxiv.org/abs/0709.3555))
 
-* {#Donoghue19} [[John Donoghue]], _A Critique of the Asymptotic Safety Program_ ([arXiv:1911.02967](https://arxiv.org/abs/1911.02967)) 
+* {#Donoghue19} [[John Donoghue]], _A Critique of the Asymptotic Safety Program_,  
+Frontiers in Physics 8, 56 (2020)
+([arXiv:1911.02967](https://arxiv.org/abs/1911.02967), [doi:10.3389/fphy.2020.00056](https://www.frontiersin.org/articles/10.3389/fphy.2020.00056/full))
 
 See also
 
