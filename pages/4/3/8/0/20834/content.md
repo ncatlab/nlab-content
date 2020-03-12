@@ -89,6 +89,8 @@ That available experimental data supports neither a cosmological constant nor op
 
 ### Theory
 
+#### General idea
+
 The idea in rough form goes back to
 
 * {#Witten95a} [[Edward Witten]], _Strong coupling and the cosmological constant_, Mod. Phys. Lett. A 10:2153-2156, 1995 ([arXiv:hep-th/9506101](https://arxiv.org/abs/hep-th/9506101))
@@ -101,6 +103,9 @@ The observation that the idea should naturally embed in [[F-theory]], namely as 
 
 * {#Vafa96} [[Cumrun Vafa]], Section 4.3 of: _Evidence for F-Theory_, Nucl. Phys. B469:403-418, 1996 ([arxiv:hep-th/9602022](https://arxiv.org/abs/hep-th/9602022))
 
+#### Detailed implementation
+  {#DetailedImplementation} 
+
 A detailed implementation of the idea in [[F-theory on Spin(7)-manifolds]] is developed in:
 
 * {#BonettiGrimmPugh13} [[Federico Bonetti]], [[Thomas Grimm]], [[Tom Pugh]], _Non-Supersymmetric F-Theory Compactifications on $Spin(7)$ Manifolds_, JHEP 01 (2014) 112 ([arXiv:1307.5858](https://arxiv.org/abs/1307.5858))
@@ -110,6 +115,7 @@ A detailed implementation of the idea in [[F-theory on Spin(7)-manifolds]] is de
 * {#HeckmannLawrieLinZoccarato118} [[Jonathan Heckman]], Craig Lawrie, Ling Lin, Gianluca Zoccarato, _F-theory and Dark Energy_, Fortschritte der Physik  ([arXiv:1811.01959](https://arxiv.org/abs/1811.01959), [doi:10.1002/prop.201900057]( https://doi.org/10.1002/prop.201900057))
 
 * {#HeckmanLawrieLinSaksteinZoccarato19} [[Jonathan Heckman]], Craig Lawrie, Ling Lin, Jeremy Sakstein, Gianluca Zoccarato, _Pixelated Dark Energy_, Fortsch. d. Physik ([arXiv:1901.10489](https://arxiv.org/abs/1901.10489), [doi:10.1002/prop.201900071]( https://doi.org/10.1002/prop.201900071))
+
 
 ### Phenomenology
  {#ReferencesPhenomenology}
@@ -156,7 +162,7 @@ From the abstract of [Handley 19](#Handley19):
 
 #### Both or neither?
 
-Combined argument that experimental data disfavours both a [[cosmological constant]] as well as an open universe:
+Combined argument that experimental data disfavours both a [[cosmological constant]] (favoring instead effective [[phantom dark energy]]) as well as an open universe:
 
 * {#ValentinoMelchiorriSilk20} Eleonora Di Valentino, Alessandro Melchiorri, Joseph Silk, _Cosmic Discordance: Planck and luminosity distance data exclude LCDM_ ([arXiv:2003.04935](https://arxiv.org/abs/2003.04935))
 
