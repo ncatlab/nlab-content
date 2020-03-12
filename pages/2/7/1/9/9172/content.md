@@ -42,6 +42,10 @@ The history of [Weinberg 67](#Weinberg67) is recounted in
 
 * Frank Close, _[Birth of a Symmetry](http://cerncourier.com/cws/article/cern/70137)_, Cern Courier, Oct 13 2017
 
+See also
+
+* Michael Peskin, _Precision Theory of Electroweak Interactions_ ([arXiv:2003.05433](https://arxiv.org/abs/2003.05433))
+
 Discussion in [[causal perturbation theory]] is in
 
 * Andreas Aste, [[Michael Dütsch]], [[Günter Scharf]], _Perturbative gauge invariance: electroweak theory II_, Annalen Phys.8:389-404,1999 ([arXiv:hep-th/9702053](http://arxiv.org/abs/hep-th/9702053))
