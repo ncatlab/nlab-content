@@ -85,7 +85,7 @@ Already [Vafa 96, Section 4.3](#Vafa96) mentions the relation to [[Witten's Dark
 
 See also
 
-* [[Tom Pugh]], _M-theory on $Spin(7)$-manifold duals and their F-theory duals_ (<a href="http://indico.hep.manchester.ac.uk/getFile.py/access?contribId=282&sessionId=7&resId=0&materialId=slides&confId=4221">pdf</a>)
+* [[Tom Pugh]], _M-theory on $Spin(7)$-manifold duals and their F-theory duals_ ([pdf](/nlab/files/PughMTheoryOnSpin7.pdf))
 
 * [[Federico Bonetti]], [[Thomas Grimm]], [[Eran Palti]], [[Tom Pugh]], _F-Theory on Spin(7) Manifolds: Weak-Coupling Limit_, J. High Energ. Phys. (2014) 2014: 76 ([arXiv:1309.2287](https://arxiv.org/abs/1309.2287))
 
