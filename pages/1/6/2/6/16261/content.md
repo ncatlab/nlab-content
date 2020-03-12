@@ -26,6 +26,10 @@ While that hence gives consistent theories in themselves -- a set of [[different
 
 There are vrious conditions of various strengths considered in the literature. One is called the _dominant energy condition_ and that indeed implies the above asymptotic  positivity of mass distributions, this is the content of the _[[positive energy theorem]]_.
 
+## Related concepts
+
+* [[phantom dark energy]]
+
 ## References
 
 See also:
@@ -38,6 +42,11 @@ Discussion of the [[averaged null energy condition]]  for [[conformal field theo
 * Felipe Rosso, _Global aspects of conformal symmetry and the ANEC in dS and AdS_ ([arXiv:1912.08897](https://arxiv.org/abs/1912.08897))
 
 
-
 [[!redirects energy conditions]]
+
+[[!redirects null energy condition]]
+[[!redirects null energy conditions]]
+
 [[!redirects dominant energy condition]]
+
+
