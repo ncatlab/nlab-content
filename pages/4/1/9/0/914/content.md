@@ -429,10 +429,23 @@ In one direction, suppose that $f \colon X \to Y$ is continuous, and that $\nu \
 
 But since $f$ is continuous, the [[pre-image]] $f^{-1}(U_{f(x)}) \subset X$ is an open neighbourhood of $x$, and so by the assumption that $\nu$ converges there is an $i \in A$ such that $\nu(j) \in f^{-1}(U_{f(x)})$ for all $j \geq i$. By applying $f$, this is the required statement.
 
+We give two proofs of the other direction.
+
+_proof 1_
+
 Conversely, suppose that $f$ is not continuous. We need to find a net $\nu$ that converges to some $x \in X$, and show that $f \circ \nu$ does not converge to $f(x)$. (This is the [[contrapositive]] of the reverse implication, and by [[excluded middle]] equivalent to it.)
 
 Now that $f$ is not continuous means that there exists an open subset $U \subset Y$ such that the pre-image $f^{-1}(U)$ is not open. By prop. \ref{TopologyDetectedByNets} this means that there exists a net $\nu$ in $X \backslash f^{-1}(U)$ that converges to an element $x \in f^{-1}(U)$. But this means that $f \circ \nu$ is a net in the $Y \backslash U$, which is a [[closed subset]] by the assumption that $U$ is open. Again by prop. \ref{TopologyDetectedByNets} this means that $f\circ \nu$ converges to an element in $Y \backslash U$, and hence not to $f(x) \in U$. 
 
+_proof 2 (not using excluded middle)_
+
+Assume for every net $\nu \colon A \to X$ that converges to some limit point $x \in X$, the image net $f\circ \nu$ converges to  $f(x)\in Y$. It is sufficient to prove that $f$ is continuous.
+
+Let $V \subset Y$ be open. It is sufficient to prove that $f^{-1}(V)$ is open.
+
+Let $\nu$ be a net with range contained in $X \backslash f^{-1}(V)$. Let $x$ be a limit point of $\nu$. By \ref{TopologyDetectedByNets}, it is sufficient to prove that $x\notin f^{-1}(V)$.
+
+By our assumption, and since $f$ converges to $x$, $f \circ \nu$ converges to $f(x)$. So by \ref{TopologyDetectedByNets}, since $V$ is open, $f(x) \notin V$. So $x \notin f^{-1}(V)$.
 
 =--
 
