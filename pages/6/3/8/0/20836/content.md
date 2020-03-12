@@ -32,7 +32,7 @@ Based on the observation of [Vafa 96, Section 4.3](#Vafa96) that the argument sh
 
 The key technical point is the claim that a careful analysis of [[D=4 N=1 supergravity]] obtained after [[KK-compactification]] of  [[F-theory on Spin(7)-manifolds]] [[T-duality|T-dual to]] [[M-theory on Spin(7)-manifolds]] reveals a "1/2 supersymmetry" where 
 
-1. the [[vacuum state]] is [[supersymmetry|supersymnmetric]] and hence has vanishing [[cosmological constant]];
+1. the [[vacuum state]] is [[supersymmetry|supersymmetric]] and hence has vanishing [[cosmological constant]];
 
 1. but no [[finite number|finite]]-[[energy]]-excitation of the vacuum appears supersymmetrically, 
 
