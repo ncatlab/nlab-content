@@ -38,12 +38,12 @@
 \end{imagefromfile}
 
 
-What is called _holographic QCD_ or _AdS/QCD correspondence_ or similar (review includes [Aharony 02](#Aharony02), [Erlich 09](#Erlich09), [Erlich 14](#Erlich14), [Rebhan 14](#Rebhan14), [Rho-Zahed 16](#RhoZahed16)) is a quantitatively predictive [[model (in theoretical physics)|model]] for [[quantum chromodynamics]] ("[[QCD]]", the [[strong nuclear force]]-sector of the [[standard model of particle physics]]) via "holography" (as in the [[AdS/CFT correspondence]]), hence regarding it as the [[boundary field theory]] of an (at least) [[D=5 super Yang-Mills theory|5-dimensional]] [[Yang-Mills theory]] ("[[bottom-up model building|bottom-up]] holographic QCD"), specifically one [[geometric engineering|geometrically engineered]] on [[intersecting D-brane model|intersecting D-branes]] ("[[top-down model building|top-down]] holographic QCD") and here specifically on [[D4-D8 brane intersections]] (the _[[Witten-Sakai-Sugimoto model]]_ due to [Witten 98](#Witten98), [Karch-Katz 02](#KarchKatz02), [Sakai-Sugimoto 04](#SakaiSugimoto04), [Sakai-Sugimoto 05](#SakaiSugimoto05)). 
+What is called _holographic QCD_ or _AdS/QCD correspondence_ or similar (review includes [Aharony 02](#Aharony02), [Erlich 09](#Erlich09), [Kim-Yi 11](#KimYi11), [Erlich 14](#Erlich14), [Rebhan 14](#Rebhan14), [Rho-Zahed 16](#RhoZahed16)) is a quantitatively predictive [[model (in theoretical physics)|model]] for [[quantum chromodynamics]] ("[[QCD]]", the [[strong nuclear force]]-sector of the [[standard model of particle physics]]) via "holography" (as in the [[AdS/CFT correspondence]]), hence regarding it as the [[boundary field theory]] of an (at least) [[D=5 super Yang-Mills theory|5-dimensional]] [[Yang-Mills theory]] ("[[bottom-up model building|bottom-up]] holographic QCD"), specifically one [[geometric engineering|geometrically engineered]] on [[intersecting D-brane model|intersecting D-branes]] ("[[top-down model building|top-down]] holographic QCD") and here specifically on [[D4-D8 brane intersections]] (the _[[Witten-Sakai-Sugimoto model]]_ due to [Witten 98](#Witten98), [Karch-Katz 02](#KarchKatz02), [Sakai-Sugimoto 04](#SakaiSugimoto04), [Sakai-Sugimoto 05](#SakaiSugimoto05)). 
 
 > table from [Erlich 09, section 1.2](#Erlich09)
 
 
-Holographic QCD captures the [[non-perturbative effect|non-perturbative]] [[confinement|confined]] regime of [[QCD]], which is otherwise elusive (the [[mass gap problem|Mass Gap Millennium Problem]]), where the would-be [[quarks]] are all [[bound state|bound]]/[[confinement|confined]] inside [[color charge|color]]-less [[hadrons]], with the [[meson]] [[field (physics)|fields]] instead being the [[gauge field]] of a [[flavour (particle physics)|flavour]]-[[chiral perturbation theory|gauge theory]] ("[[hidden local symmetry]]") and the [[baryons]] being [[solitons]] of this flavour/meson field, namely _[[skyrmions]]_.
+Holographic QCD captures the [[non-perturbative effect|non-perturbative]] [[confinement|confined]] regime of [[QCD]], which is otherwise elusive (the [[mass gap problem|Mass Gap Millennium Problem]]), where the would-be [[quarks]] are all [[bound state|bound]]/[[confinement|confined]] inside [[color charge|color]]-less [[hadrons]], with the [[meson]] [[field (physics)|fields]] instead being the [[gauge field]] of a [[flavour (particle physics)|flavour]]-[[chiral perturbation theory|gauge theory]] (holographic dictionary, e.g. [Kim-Yi 11 (3.1)](#KimYi11), see also "[[hidden local symmetry]]") and the [[baryons]] being [[solitons]] of this flavour/meson field, namely _[[skyrmions]]_.
 
 \begin{imagefromfile}
     "file_name": "IntersectingBranesSSWModel.jpg",
@@ -519,7 +519,7 @@ These computations shown so far all use just the field theory in the bulk, not y
 
 * Marco Panero, _QCD thermodynamics in the large-$N$ limit_, 2010 ([[PaneroAdsQCD.pdf:file|pdf]])
 
-* Youngman Kim and Deokhyun Yi, _Holography at Work for Nuclear and Hadron Physics_, Advances in High Energy Physics, Volume 2011, Article ID 259025, 62 pages ([arXiv:1107.0155](https://arxiv.org/abs/1107.0155), [doi:10.1155/2011/259025](http://dx.doi.org/10.1155/2011/259025))
+* {#KimYi11} Youngman Kim, Deokhyun Yi, _Holography at Work for Nuclear and Hadron Physics_, Advances in High Energy Physics, Volume 2011, Article ID 259025, 62 pages ([arXiv:1107.0155](https://arxiv.org/abs/1107.0155), [doi:10.1155/2011/259025](http://dx.doi.org/10.1155/2011/259025))
 
 
 * M. R. Pahlavani, R. Morad, _Application of AdS/CFT in Nuclear Physics_, Advances in High Energy Physics ([arXiv:1403.2501](https://arxiv.org/abs/1403.2501))
@@ -683,6 +683,8 @@ Specifically on [[small N corrections]] in [[holographic QCD]]:
   (with an eye towards [[hidden local symmetry]])
 
 * Csaba Csaki, [[Matthew Reece]], John Terning, _The AdS/QCD Correspondence: Still Undelivered_, JHEP 0905:067, 2009 ([arXiv:0811.3001](https://arxiv.org/abs/0811.3001))
+
+* Salvatore Baldino, [[Stefano Bolognesi]], Sven Bjarke Gudnason, Deniz Koksal, _A Solitonic Approach to Holographic Nuclear Physics_, Phys. Rev. D 96, 034008 (2017) ([arXiv:1703.08695](https://arxiv.org/abs/1703.08695))
 
 
 
