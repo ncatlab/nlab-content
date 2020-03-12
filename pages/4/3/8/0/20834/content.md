@@ -20,17 +20,17 @@
 
 ## Idea
 
-What has been called _Witten's dark fantasy_ in [Heckmann-Lawrie-Lin-Zoccarato 19, Section 8](#HeckmannLawrieLinZoccarato19) is an argument, going back to [Witten 95a](#Witten95a), [Witten 95b, Sec. 3](#Witten95b), [Witten 00, p. 7](#Witten00) for the existence of [[non-perturbative effect|non-perturbative]] non-[[supersymmetry|supersymmetric]] 4d [[string vacua]]/[[string phenomenology]] with fundamentally _vanishing_ [[cosmological constant]] (i.e. vanishing "[[dark energy]]").
+What has been called _Witten's Dark Fantasy_ (in [Heckmann-Lawrie-Lin-Zoccarato 19, Section 8](#HeckmannLawrieLinZoccarato19)) is an argument, going back to [Witten 95a](#Witten95a), [Witten 95b, Sec. 3](#Witten95b), [Witten 00, p. 7](#Witten00) for the existence of [[non-perturbative effect|non-perturbative]] _non-_[[supersymmetry|supersymmetric]] 4d [[string vacua]]/[[string phenomenology]] with fundamentally _vanishing_ [[cosmological constant]] (i.e. vanishing "[[dark energy]]").
 
 The original idea was formulated in terms of 3d [[M-theory on 8-manifolds]] decompactified at strong coupling to 4d via [[duality between M-theory and type IIA string theory]] (recall the [[super 2-brane in 4d]]).
 
-Based on the observation of [Vafa 96, Section 4.3](#Vafa96) that the argument should have a natural realization in 4d [[F-theory on Spin(7)-manifolds]] ([[T-duality|T-dual]] to the previous perspective), a detailed construction was finally laid out in [Bonetti-Grimm-Pugh 13](#BonettiGrimmPugh13), [Heckmann-Lawrie-Lin-Zoccarato1 18](#HeckmannLawrieLinZoccarato118), [Heckman-Lawrie-Lin-Sakstein-Zoccarato 19](#HeckmanLawrieLinSaksteinZoccarato19).
+Based on an observation of [Vafa 96, Section 4.3](#Vafa96) that the argument should have a natural realization in 4d [[F-theory on Spin(7)-manifolds]] ([[T-duality|T-dual]] to the previous perspective), a detailed construction was finally laid out in [Bonetti-Grimm-Pugh 13](#BonettiGrimmPugh13), [Heckmann-Lawrie-Lin-Zoccarato1 18](#HeckmannLawrieLinZoccarato118), [Heckman-Lawrie-Lin-Sakstein-Zoccarato 19](#HeckmanLawrieLinSaksteinZoccarato19).
 
 ## Properties
 
 ### $1/2$-Supersymmetry
 
-The key technical point is the claim that a careful analysis of [[D=4 N=1 supergravity]] obtained after [[KK-compactification]] of  [[F-theory on Spin(7)-manifolds]] [[T-duality|T-dual to]] [[M-theory on Spin(7)-manifolds]] reveals, in contrast to the [[number of supersymmetries|N=1 supersymmetry]] of [[F-theory on CY4-folds]], an "$N= 1/2$ supersymmetry" where 
+The key technical point is the claim that a careful analysis of [[D=4 N=1 supergravity]] obtained after [[KK-compactification]] of  [[F-theory on Spin(7)-manifolds]] ([[T-duality|T-dual to]] [[M-theory on Spin(7)-manifolds]]) reveals, in contrast to the [[number of supersymmetries|N=1 supersymmetry]] of [[F-theory on CY4-folds]], an "$N= 1/2$ supersymmetry", where: 
 
 1. the [[vacuum state]] is [[supersymmetry|supersymmetric]] and hence has vanishing [[cosmological constant]];
 
@@ -55,13 +55,13 @@ The concrete realization of [[Witten's Dark Fantasy]] in the [[F-theory]] [[mode
 ### Phenomenology
  {#Phenomenology}
 
-When the idea of "Witten's dark fantasy" was proposed in [Witten 95a](#Witten95a), [Witten 95b](#Witten95b), [Witten 00](#Witten00) it was right before observation of [[red shifts]] of [[supernovae]] convinced cosmologists, in 2001, of a relatively small but [[positive number|positive]] [[cosmological constant]]. When this result became enshrined in what is now the [[standard model of cosmology]] the idea of vanishing cosmological constant in [[string theory]] fell out of favor, and a vocal sub-community instead embarked on arguing that [[de Sitter spacetime]]-[[string vacua]] with positive [[cosmological constant]] had to be searched at random in a large [[landscape of string theory vacua]].
+When the idea of "Witten's Dark Fantasy" was proposed in [Witten 95a](#Witten95a), [Witten 95b](#Witten95b), [Witten 00](#Witten00) it was right before observation of [[red shifts]] of [[supernovae]] convinced cosmologists, in 2001, of a relatively small but [[positive number|positive]] [[cosmological constant]]. When this result became enshrined in what is now the [[standard model of cosmology]], the idea of vanishing cosmological constant in [[string theory]] fell out of favor, and a vocal sub-community instead embarked on arguing that [[de Sitter spacetime]]-[[string vacua]] with [[positive number|positive]] [[cosmological constant]] had to be searched at random in a large [[landscape of string theory vacua]].
 
 However, debate remains over whether the apparently observed [[cosmological constant]] is actually real:
 
 1. The authors of [KLKCR 19](#KLKCR19) claim that temporal evolution of [[supernovae]] luminosity had been underappreciated, which makes the apparent evidence for a [[positive number|positive]] [[cosmological constant]] completely go away. Earlier, [NGS 16](#NielsenGuffantiSarkar16) had pointed out that even with the established interpretation of the data, a vanishing [[cosmological constant]] is not excluded by the data.
 
-1. Since around 2000 many authors have argued that the apparent [[cosmological constant]] may be an artefact of the usual [[FRW model]]-cosmologies not taking sizeable backreaction of [[inhomogeneous cosmology|cosmic inhomogeneities]] into account. The situation with this debate currently remains open (see at _[[inhomogeneous cosmology]]_). 
+1. Since around 2000 many authors have argued that the apparent [[cosmological constant]] may be an artifact of the usual [[FRW model]]-cosmologies not taking sizeable backreaction of [[inhomogeneous cosmology|cosmic inhomogeneities]] into account. The situation with this debate currently remains open (see at _[[inhomogeneous cosmology]]_). 
 
    While it is uncontroversial that [[inhomogeneous cosmology|cosmic inhomogeneity]] does have a measurable effect on cosmic expansion, the general current consensus seems to be that it is too small to explain all of the dark energy of the [[standard model of cosmology]]. But in view of the first item above, this would be a moot point.
 
@@ -71,15 +71,19 @@ However, debate remains over whether the apparently observed [[cosmological cons
 
 > from [KLKCR 19](#KLKCR19)
 
+
 In the extreme case, if re-analysis of the data, combined with effects of [[inhomogeneous cosmology|cosmic inhomogeneity]], and possibly combined with [[higher curvature corrections]] to [[gravity]] (such as control the observationally preferred [[Starobinsky model of cosmic inflation]]), would explain all of the apparently observed [[cosmological constant]], then _Witten's dark fantasy_ would again appear to be viable [[string phenomenology]].
 
 It is then interesting to notice that also the [[closed manifold|closed]] spatial slices found in the model [above](#ClosedSpatialSlices) have recently been argued to be preferred by observational data ([VMS 19](#VMS19)).
 
+That available experimental data supports neigher a cosmological constant nor open spatial slices is further argued in [Di Valentino-Melchiorri-Silk 20](#ValentinoMelchiorriSilk20).
+
+
 ## Related concepts
 
-* [[cosmology]]
+* [[cosmology]], [[inhomogeneous cosmology]]
 
-* [[M-theory]]
+* [[M-theory]], [[landscape of string theory vacua]]
 
 ## References
 
@@ -150,6 +154,11 @@ From the abstract of [Handley 19](#Handley19):
 
 > The curvature parameter tension between Planck 2018, cosmic microwave background lensing, and baryon acoustic oscillation data is measured using the suspiciousness statistic to be 2.5 to 3σ. Conclusions regarding the spatial curvature of the universe which stem from the combination of these data should therefore be viewed with suspicion. Without CMB lensing or BAO, Planck 2018 has a moderate preference for closed universes, with Bayesian betting odds of over 50:1 against a flat universe, and over 2000:1 against an open universe. 
 
+#### Both or neither?
+
+Combined argument that experimental data disfavours both a [[cosmological constant]] as well as an open universe:
+
+* {#ValentinoMelchiorriSilk20} Eleonora Di Valentino, Alessandro Melchiorri, Joseph Silk, _Cosmic Discordance: Planck and luminosity distance data exclude LCDM_ ([arXiv:2003.04935](https://arxiv.org/abs/2003.04935))
 
 
 [[!redirects Witten's dark fantasy]]
