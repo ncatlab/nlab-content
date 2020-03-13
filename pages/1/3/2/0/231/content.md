@@ -158,6 +158,28 @@ such that the following two kinds of [[commuting diagram|diagrams commute]], for
      }
    $$
 
+More succinctly, a monoidal category is a [pseudomonoid](https://ncatlab.org/nlab/show/pseudomonoid) in the [[cartesian monoidal category|cartesian]] monoidal 2-category [[Cat]].
+
+Note that, in accordance with the [microcosm principle](https://ncatlab.org/nlab/show/microcosm+principle), just as defining a monoid in a 1-category requires that the 1-category carry its own monoidal structure, defining a monoidal category in the 2-category of categories requires that the 2-category carry a monoidal structure as well. In this case we are implicitly employing the [cartesian monoidal structure](https://ncatlab.org/nlab/show/cartesian+monoidal+category) on Cat, so that if $\alpha\colon Cat\times (Cat\times Cat)\overset{\simeq}{\longrightarrow} (Cat\times (Cat\times Cat)$ is the cartesian [associator](https://ncatlab.org/nlab/show/associator), then the associator in $\mathcal{C}$ is actually an arrow 
+
+   $$
+     a 
+       \;\colon\; 
+     \alpha_\mathcal{C} \left[ ((-)\otimes (-)) \otimes (-)\right]
+       \overset{\simeq}{\longrightarrow}
+     (-) \otimes ((-)\otimes(-)),
+   $$
+
+and if $\Lambda\colon 1\times \text{Cat}\overset{\simeq}{\longrightarrow} \text{Cat}$ is the cartesian left unitor, then the left unitor in $\mathcal{C}$ is actually 
+
+   $$
+     \lambda 
+       \;\colon\; 
+     \Lambda_\mathcal{C}\left[ (1 \otimes (-)) \right]
+       \overset{\simeq}{\longrightarrow}
+     (-),
+   $$
+as well as a similar adjustment for the right unitor.
 
 =--
 
@@ -243,6 +265,8 @@ There is a [[strict 2-category]] MonCat with:
 * [[monoidal natural transformation]]s as 2-morphisms.
 
 One version of Mac Lane's Coherence Theorem states that in MonCat, every monoidal category is [[equivalence of categories|equivalent]] to a strict one.
+
+A strict monoidal category may be regarded as a [monoid](https://ncatlab.org/nlab/show/monoid+in+a+monoidal+category) in the [[cartesian monoidal category|cartesian]] monoidal 2-category [[Cat]].
 
 ## Properties 
  {#Properties}
