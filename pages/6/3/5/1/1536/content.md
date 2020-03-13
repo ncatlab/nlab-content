@@ -52,7 +52,7 @@ $$
 
 which is a [[2-functor]] from the [[2-category]] of pseudofunctors $C^{op} \to Cat$ to the [[overcategory]] of [[Cat]] over $C$.
 
-The essential image of this functor consists of [[Grothendieck fibration]]s and this establishes an [[equivalence of categories|equivalence]] of [[2-categories]]
+The essential image of this functor consists of [[Grothendieck fibration]]s and this establishes an [[equivalence of 2-categories]]
 
 $$
   \int : Func(C^{op}, Cat) \stackrel{\simeq}{\to} Fib(C) 
