@@ -47,7 +47,7 @@ This is because the various $V_i$ constitute open neighbourhoods for all points 
 
 Moreover, suppose that $\{V_j \subset X\}_{j \in J}$ is a cover by any subsets (not necessarily open), but that it is itself a [[locally finite set of subsets]]. Then if for all $j \in J$ there are a finite number of $i \in I$ such that $U_i$ intersects $V_j$, it follows again that also $\{U_i \subset X\}_{i \in I}$ is locally finite.
 
-This is because by the local finiteness of $\{V_j \subset X\}_{j \in J}$ we have for every point $x \in X$ an open neighbourhood $O_x \supset \{x\}$ which intersects only a finite number of the $V_j$, and since each of these intersects only a finite number of the $U_i$, in total also $O_x$ can only intesect a finite number of the $U_i$.
+This is because by the local finiteness of $\{V_j \subset X\}_{j \in J}$ we have for every point $x \in X$ an open neighbourhood $O_x \supset \{x\}$ which intersects only a finite number of the $V_j$, and since each of these intersects only a finite number of the $U_i$, in total also $O_x$ can only intersect a finite number of the $U_i$.
 
 
 =--
