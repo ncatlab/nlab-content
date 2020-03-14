@@ -17,3 +17,5 @@ Review:
 
 * Darius Sadri, [[Mohammad Sheikh-Jabbari]], _The Plane-Wave/Super Yang-Mills Duality_, Rev. Mod. Phys. 76:853, 2004 ([arXiv:hep-th/0310119](https://arxiv.org/abs/hep-th/0310119))
 
+* {#Ydri18} [[Badis Ydri]], Section 3.1.10 of: _Review of M(atrix)-Theory, Type IIB Matrix Model and Matrix String Theory_ ([arXiv:1708.00734](https://arxiv.org/abs/1708.00734)), published as: _Matrix Models of String Theory_, IOP 2018 ([ISBN:978-0-7503-1726-9](https://iopscience.iop.org/book/978-0-7503-1726-9))
+
