@@ -17,9 +17,26 @@
 
 ## Idea
 
-A [[vector meson]]. An [[isospin]] [[trivial representation|singlet]].
+In [[nuclear physics]], specifically in the [[chiral perturbation theory]] of [[quantum chromodynamics]], the _omega-meson_ is the [[isospin]]-[[trivial representation|singlet]] [[vector meson]] [[field (physics)|field]] in the first-[[generation of fermions]], i.e. a [[bound state]] of an [[up quark]] and a [[down quark]]:
 
-(...)
+\begin{imagefromfile}
+    "file_name": "FirstGenerationMesonFields.jpg",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": 0,
+        "right": 10,
+        "bottom": 0,
+        "left": 20
+    }
+\end{imagefromfile}
+
+
+\linebreak
+
+[[!include flavors of fundamental particles -- table]]
+
+
 
 ## Properties
 
@@ -32,6 +49,10 @@ $$
 $$
 
 with the [[chiral anomaly|chirally anomalous]] [[baryon current]] $B \coloneqq \star tr( (U^{-1} d U) \wedge (U^{-1} d U) \wedge (U^{-1} d U) )$, with $U$ is the exponential of the [[pion]]-[[field (physics)|field]] ([Adkins-Nappi 84, (1) and (2)](#AdkinsNappi84), [Park-Vento 09, (5.5.43) and above (5.5.50)](#ParkVento09)).
+
+## Related concepts
+
+* [[pion]], [[rho-meson]]
 
 ## References
 
@@ -51,6 +72,10 @@ Review:
 
 * Yongseok Oh, _Skyrmions with vector mesons: Single Skyrmion and baryonic matter_, 2013 ([[OhSkyrmionsWithVectorMesons.pdf:file]])
 
+[[!redirects ω-mesons]]
+
 [[!redirects omega-meson]]
+[[!redirects omega-mesons]]
 
 [[!redirects Omega-meson]]
+[[!redirects Omega-mesons]]
