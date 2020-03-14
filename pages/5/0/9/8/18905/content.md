@@ -293,6 +293,8 @@ See also
 
 [[!redirects thermal quantum field theory]]
 [[!redirects thermal quantum field theories]]
+[[!redirects thermal QFT]]
+
 
 [[!redirects thermal field theory]]
 [[!redirects thermal field theories]]
