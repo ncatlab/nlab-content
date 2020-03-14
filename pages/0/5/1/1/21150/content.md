@@ -39,6 +39,13 @@ On [[Skyrmions]] as [[model (in theoretical physics)|models]] for [[atomic nucle
 
 \linebreak
 
+**Chapter 2**
+
+* {#Holzwarth05} Gottfried Holzwarth, _Electromagnetic Form Factors of the Nucleon in Chiral Soliton Models_ ([arXiv:hep-ph/0511194](https://arxiv.org/abs/hep-ph/0511194)), Chapter 2 in: _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+
+
+\linebreak
+
 **Chapter 3**
 
 * [[Dmitri Diakonov]], [[Victor Petrov]], _Exotic baryon resonances in the Skyrme model_ ([arXiv:0812.1212](https://arxiv.org/abs/0812.1212), [doi:10.1142/9789814704410_0004](https://doi.org/10.1142/9789814704410_0004)), Chapter 3 in: _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
