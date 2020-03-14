@@ -82,6 +82,17 @@ automatically the Wess–Zumino term, with the correct coefficient!
 
 \linebreak
 
+**Chapter 5**
+
+On the [[Skyrmion model]] in [[thermal QFT]], with emphasis on the [[omega-meson]]/[[baryon current]]-coupling:
+
+* {#ParkVento09} Byung-Yoon Park, Vicente Vento, _Skyrmion approach to finite density and temperature_ ([arXiv:0906.3263](https://arxiv.org/abs/0906.3263), [doi:10.1142/9789814280709_0005](https://doi.org/10.1142/9789814280709_0005)), Chapter 5 in:  _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+
+
+
+\linebreak
+
+
 **Chapter 6** 
 
 On [[mesons]] as [[gauge bosons]] of a [[hidden local symmetry]] and then as [[Kaluza-Klein mechanism|KK-modes]] of a 5-dimensional holographic [[Yang-Mills theory]]:
