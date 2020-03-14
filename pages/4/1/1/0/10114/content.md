@@ -69,6 +69,8 @@ This produces [[baryon]] [[mass]] spectra with moderate quantitative agreement w
 
 ### General
 
+* Gernot Eichmann, Helios Sanchis-Alepuz, Richard Williams, Reinhard Alkofer, Christian S. Fischer, _Baryons as relativistic three-quark bound states_, Progress in Particle and Nuclear Physics Volume 91, November 2016, Pages 1-100 ([arXiv:1606.09602](https://arxiv.org/abs/1606.09602), [doi:10.1016/j.ppnp.2016.07.001](https://doi.org/10.1016/j.ppnp.2016.07.001))
+
 See also
 
 * Wikipedia, _[Baryon](http://en.wikipedia.org/wiki/Baryon)_
