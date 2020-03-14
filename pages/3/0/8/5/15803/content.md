@@ -32,6 +32,12 @@ In the [[standard model of particle physics]] this happens and plays a role for 
 
 If there are [[instantons]], i.e. if the [[gauge field]] [[principal connection]] $\nabla$ has a nontrivial underlying [[principal bundle]], then also the [[Chern-Simons line 3-bundle]] is topologically nontrivial the anomaly term $\langle F_\nabla \wedge F_\nabla\rangle$ is a non-exact integral form, hence the above equation is to be read as the _local_ expression identifying $\star j$ with the local [[3-connection]] on the CS 3-bundle.
 
+## Properties
+
+### Relation between Chiral anomaly, Skyrme model, Baryon current and WZ-term
+
+[physics.stackexchange.com/a/306242/5603](https://physics.stackexchange.com/a/306242/5603)
+
 ## Related concepts
 
 * [[chiral perturbation theory]]
