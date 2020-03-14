@@ -18,19 +18,31 @@
 
 * [[glueballs]] are bound states of [[gluons]]
 
-* [[mesons]] are bound states of two [[quarks]]
+* [[hadrons]] are bound states of [[quarks]]
 
-  * [[kaons]] ate [[bound states]] of a [[strange quark]] with an [[up quark|up-]] or [[down quark|down-]] ([[antiparticle|anti-]])[[quark]]
+  (at [[temperatures]] that these bound states decay one speaks of a _[[quark gluon plasma]]_)
 
-* [[hadrons]] are bound states of three [[quarks]]
+  * [[mesons]] are bound states of specifically of two [[quarks]]
 
-  (at temperature high enough that these bound states decay, one speaks of a _[[quark-gluon plasma]]_)
+    * [[pions]], [[rho-mesons]] and [[omega-mesons]] are bound states of an [[up quark]] with a [[down quark]]
+
+    * [[kaons]] are bound states of a [[strange quark]] with either an [[up quark]] or a [[down quark]]
+
+    * [[B-mesons]] are bound states of a [[bottom quark]] with either an [[up quark]] or a [[down quark]] or a [[strange quark]] or a [[charm quark]]
 
 
+  * [[baryons]] are bound states specifically of three [[quarks]]
 
-* [[atomic nuclei]] are bound states of certain [[hadrons]], namely of [[protons]] and [[neutrons]] ([[nucleons]])
+    * [[nuclei]] are bound states of three among the [[up quarks]] and the [[down quarks]]
 
-* [[atoms]] are [[bound states]] of [[nucleus (physics)|nuclei]] and [[electrons]]
+      * [[protons]] are bound states of 2 [[up quarks]] and 1 [[down quark]]
+
+      * [[neutrons]] are bound states of 1 [[up quarks]] and 2 [[down quark]]
+
+
+* [[atomic nuclei]] are bound states of of [[nuclei]] ([[protons]] and [[neutrons]])
+
+* [[atoms]] are [[bound states]] of [[atomic nuclei]] and [[electrons]]
 
   (at temperature high enough that these bound states decay, one speaks of a _[[plasma]]_)
 
