@@ -22,11 +22,13 @@ In [[QCD]] a _meson_ is a [[bound state]] of two [[quarks]] via the [[strong nuc
 
 ## Examples
 
-* [[B meson]]
-
 * [[π-meson]]
 
 * [[ρ-meson]]
+
+* [[ω-meson]]
+
+* [[B meson]]
 
 * [[kaon]]
 
