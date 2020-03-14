@@ -219,6 +219,31 @@ The original articles are
 
 Review:
 
+* [[Edward Witten]], _Skyrmions and QCD_, in: Current Algebra and Anomalies, pp. 529-537, World Scientific (1985) ([doi:10.1142/9789814503044_0010](https://doi.org/10.1142/9789814503044_0010))
+
+> If one assumes [[confinement]], then $[$[[SU(N)]]$]$-[[QCD]] is equivalent to a theory of [[mesons]] (and [[glueballs]]) in which the (quartic) [[meson]] [[coupling constant]] is $1/N$.
+
+> $[..]$
+
+> $[$here to stress that$]$ [[QCD]] is equivalent for any $N$, including $N=3$, to a meson theory in which $1/N$ is the coupling constant, [[large N limit|Large N]] is special only in that the meson coupling is only moderately weak.
+
+> $[..]$
+
+> These considerations remove all of the obstacles to interpreting baryons as the solitons of meson physics
+
+> $[..]$
+
+> There is every evidence that Skyrmions physics with varying couplings reproduces QCD baryons of varying $N$.
+
+
+> $[..]$
+
+> The [[large N limit|1/N expansion]] of [[QCD]], as understood from [[Feynman diagrams]], is the road map which makes the success of  [[Skyrmion]] physics rationally comprehensible.
+
+* {#BrownRho88} G. E. Brown, [[Mannque Rho]], _The Chiral Bag_, Comments Nucl. Part. Phys. 18 (1988) no.1, 1-29 ([spire:18025](http://inspirehep.net/record/18025))
+
+  (in relation to the [[bag model of quark confinement]])
+
 * {#Weigel96} [[Herbert Weigel]], _Baryons as Three Flavor Solitons_,  	Int. J. Mod. Phys. A11:2419-2544, 1996 ([arXiv:hep-ph/9509398](https://arxiv.org/abs/hep-ph/9509398), [cds:288541](http://cds.cern.ch/record/288541), [doi:10.1142/S0217751X96001218](https://doi.org/10.1142/S0217751X96001218))
 
 * {#Weigel08} [[Herbert Weigel]], _Chiral Soliton Models for Baryons_,  Lecture Notes in Physics book series, volume 743, Springer 2008 ([doi:10.1007/978-3-540-75436-7](https://doi.org/10.1007/978-3-540-75436-7))
@@ -252,7 +277,7 @@ Further resources
 
 * _[Geometric models of Nuclear Matter Conference 2014](https://www.kent.ac.uk/smsas/personal/skyrmions/conference.html)_ 
 
-### Inclusion of vector mesosns
+### Inclusion of vector mesosns ($\pi$-$\rho$-$\omega$-model)
  {#ReferencesInclusionOfVectorMesons}
 
 Inclusion of [[vector mesons]] into the [[Skyrmion model]]:
@@ -265,10 +290,18 @@ Original proposal for inclusion of the [[ρ-meson]]:
 
 * {#Adkins86} [[Gregory Adkins]], _Rho mesons in the Skyrme model_, Phys. Rev. D 33, 193 (1986) ([spire:16895](http://inspirehep.net/record/16895),  [doi:10.1103/PhysRevD.33.193](https://doi.org/10.1103/PhysRevD.33.193))
 
+The resulting $\pi$-$\rho$-$\omega$ model:
+
+* U.-G. Meissner, N.Kaiser, W.Weise, _Nucleons as skyrme solitons with vector mesons: Electromagnetic and axial properties_, Nuclear Physics A Volume 466, Issues 3–4, 11–18 May 1987, Pages 685-723 (<a href="https://doi.org/10.1016/0375-9474(87)90463-5">doi:10.1016/0375-9474(87)90463-5</a>)
+
+* Ulf -G. Meissner, Norbert Kaiser, Andreas Wirzba, Wolfram Weise, _Skyrmions with $\rho$ and $\omega$ Mesons as Dynamical Gauge Bosons_, Phys. Rev. Lett. 57, 1676 (1986) ([doi:10.1103/PhysRevLett.57.1676](https://doi.org/10.1103/PhysRevLett.57.1676))
+
+* Ju-Hyun Jung, Ulugbek T. Yakhshiev, Hyun-Chul Kim, _In-medium modified $\pi$-$\rho$-$\omega$ mesonic Lagrangian and properties of nuclear matter_, Physics Letters B Volume 723, Issues 4–5, 25 June 2013, Pages 442-447 ([arXiv:1212.4616](https://arxiv.org/abs/1212.4616), [doi:10.1016/j.physletb.2013.05.042](https://doi.org/10.1016/j.physletb.2013.05.042))
+
+
 Review:
 
 * {#Holzwarth05} Gottfried Holzwarth, Section 2.3 of: _Electromagnetic Form Factors of the Nucleon in Chiral Soliton Models_ ([arXiv:hep-ph/0511194](https://arxiv.org/abs/hep-ph/0511194)), Chapter 2 in: _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
-
 
 * Yongseok Oh, _Skyrmions with vector mesons: Single Skyrmion and baryonic matter_, 2013 ([[OhSkyrmionsWithVectorMesons.pdf:file]])
 
