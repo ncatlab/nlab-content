@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On [[baryons]] as [[Skyrmions]]:
+
+* {#AdkinsNappiWitten83} [[Gregory Adkins]], [[Chiara Nappi]], [[Edward Witten]], _Static Properties of Nucleons in the Skyrme Model_, Nucl. Phys. B228 (1983) 552 ([spire:190174](http://inspirehep.net/record/190174), <a href="https://doi.org/10.1016/0550-3213(83)90559-X">doi:10.1016/0550-3213(83)90559-X</a>)
+
 Inclusion of [[vector mesons]] into the [[Skyrmion model]]:
 
 Original proposal for inclusion of the [[ω-meson]]:
