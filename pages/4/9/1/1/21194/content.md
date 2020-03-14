@@ -42,6 +42,10 @@ The Cheshire Cat Principle follows in [[holographic QCD]], where the baryons are
 
 * Julius Kuti, Section 3 of: _Quark confinement and the quark model_, CERN - JINR School of Physics, Nafplion, Greece, 22 May - 4 Jun 1977, pp.79-128 (CERN-1977-018) ([doi:10.5170/CERN-1977-018.79](http://cds.cern.ch/record/878468), [[KutiQuarkModel.pdf:file]])
 
+In relation to the [[Skyrmion model]]:
+
+* {#BrownRho88} G. E. Brown, [[Mannque Rho]], _The Chiral Bag_, Comments Nucl. Part. Phys. 18 (1988) no.1, 1-29 ([spire:18025](http://inspirehep.net/record/18025))
+
 From the point of view of [[holographic QCD]]:
 
 * {#NielsenZahed09} Holger Bech Nielsen, [[Ismail Zahed]], _The Cheshire Cat Principle from Holography_ ([doi:10.1142/9789814280709_0017](https://doi.org/10.1142/9789814280709_0017), [arXiv:0904.0429](https://arxiv.org/abs/0904.0429)), Chapter 17 in: _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
