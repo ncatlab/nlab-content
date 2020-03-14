@@ -38,22 +38,22 @@ In ([Kim-Nishimura-Tsuchiya 12](#KimNishimuraTsuchiya12)) it is claimed that com
 
 The original articles are
 
-* {#IKKT96} N. Ishibashi, H. Kawai, Y. Kitazawa, A. Tsuchiya, _A Large-N Reduced Model as Superstring_, Nucl.Phys. B498 (1997) 467-491 ([arXiv:hep-th/9612115](http://arxiv.org/abs/hep-th/9612115))
+* {#IKKT96} [[Noboyuki Ishibashi]], [[Hikaru Kawai]], Y. Kitazawa, A. Tsuchiya, _A Large-$N$ Reduced Model as Superstring_, Nucl. Phys. B498 (1997) 467-491 ([arXiv:hep-th/9612115](http://arxiv.org/abs/hep-th/9612115), <a href="https://doi.org/10.1016/S0550-3213(97)00290-3">doi:10.1016/S0550-3213(97)00290-3</a>)
  
-
-* H. Aoki, S. Iso, H. Kawai, Y. Kitazawa, T. Tada, A. Tsuchiya, _IIB Matrix Model_, Prog.Theor.Phys.Suppl.134:47-83,1999 ([arXiv:hep-th/9908038](http://arxiv.org/abs/hep-th/9908038))
+* H. Aoki, S. Iso, [[Hikaru Kawai]], Y. Kitazawa, T. Tada, A. Tsuchiya, _IIB Matrix Model_, Prog.Theor.Phys.Suppl.134:47-83,1999 ([arXiv:hep-th/9908038](http://arxiv.org/abs/hep-th/9908038))
 
 See also
 
 * [[Mikhail Movshev]], [[Albert Schwarz]], _On maximally supersymmetric Yang-Mills theories_, Nucl.Phys. B681 (2004) 324-350 ([arXiv:hep-th/0311132](https://arxiv.org/abs/hep-th/0311132))
 
-Review of the grand perspective:
+Review of the grand perspective with emphasis on [[noncommutative geometry]] ([[fuzzy spheres]]):
 
 * {#Steinacker10} [[Harold Steinacker]], _Emergent Geometry and Gravity from Matrix Models: an Introduction_, Class. Quant. Grav.27: 133001, 2010 ([arXiv:1003.4134](https://arxiv.org/abs/1003.4134))
 
-with emphasis on [[noncommutative geometry]] ([[fuzzy spheres]]):
-
 * [[Harold Steinacker]], _Non-commutative geometry and matrix models_, PoS QGQGS2011 (2011) 004 ([arXiv:1109.5521](https://arxiv.org/abs/1109.5521))
+
+* {#Ydri18} [[Badis Ydri]], _Review of M(atrix)-Theory, Type IIB Matrix Model and Matrix String Theory_ ([arXiv:1708.00734](https://arxiv.org/abs/1708.00734)), published as: _Matrix Models of String Theory_, IOP 2018 ([ISBN:978-0-7503-1726-9](https://iopscience.iop.org/book/978-0-7503-1726-9))
+
 
 See also at _[[D-brane geometry]]_.
 
@@ -65,7 +65,7 @@ Derivation from [[open string field theory]] is discussed in
 
 Arguments that full [[Yang-Mills theory]] generalized to [[noncommutative geometry]] is recovered as the [[perturbation theory]] around classical solutions of the IKKT model are in 
 
-* H. Aoki, N. Ishibashi, S. Iso, H. Kawai, Y. Kitazawa, T. Tada, _Noncommutative Yang-Mills in IIB Matrix Model_, Nucl.Phys. B565 (2000) 176-192 ([arXiv:hep-th/9908141](http://arxiv.org/abs/hep-th/9908141))
+* H. Aoki, N. Ishibashi, S. Iso, [[Hikaru Kawai]], Y. Kitazawa, T. Tada, _Noncommutative Yang-Mills in IIB Matrix Model_, Nucl.Phys. B565 (2000) 176-192 ([arXiv:hep-th/9908141](http://arxiv.org/abs/hep-th/9908141))
 
 * Tatsuo Azeyanagi, Masanori Hanada, Tomoyoshi Hirata, _On Matrix Model Formulations of Noncommutative Yang-Mills Theories_, Phys.Rev.D78:105017,2008 ([arXiv:0806.3252](http://arxiv.org/abs/0806.3252))
 
@@ -77,7 +77,7 @@ Emergence of [[higher spin gauge theory|higher spin]] [[gravity]] from the [[IKK
 
 Arguments that [[closed string field theory]] arises from the [[dynamics]] of [[Wilson loops]] in the IKKT model are in 
 
-* M. Fukuma, H. Kawai, Y. Kitazawa, A. Tsuchiya, _String Field Theory from IIB Matrix Model_, Nucl.Phys.B510:158-174,1998 ([arXiv:hep-th/9705128](http://arxiv.org/abs/hep-th/9705128))
+* M. Fukuma, [[Hikaru Kawai]], Y. Kitazawa, A. Tsuchiya, _String Field Theory from IIB Matrix Model_, Nucl.Phys.B510:158-174,1998 ([arXiv:hep-th/9705128](http://arxiv.org/abs/hep-th/9705128))
 
 * Daiji Ennyu, Hiroshi Kawabe, Naohito Nakazawa, _Note on a Closed String Field Theory from Bosonic IIB Matrix Model_, JHEP 0301 (2003) 025 ([arXiv:hep-th/0212044](http://arxiv.org/abs/hep-th/0212044))
 
