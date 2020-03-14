@@ -11,7 +11,7 @@ Original proposal for inclusion of the [[ω-meson]]:
 
 Original proposal for inclusion of the [[ρ-meson]]:
 
-* {#Adkins86} [[Gregory Adkins]], _Rho mesons in the Skyrme model_, Phys. Rev. D 33, 193 (1986) ([doi:10.1103/PhysRevD.33.193](https://doi.org/10.1103/PhysRevD.33.193))
+* {#Adkins86} [[Gregory Adkins]], _Rho mesons in the Skyrme model_, Phys. Rev. D 33, 193 (1986) ([spire:16895](http://inspirehep.net/record/16895),  [doi:10.1103/PhysRevD.33.193](https://doi.org/10.1103/PhysRevD.33.193))
 
 category: people
 
