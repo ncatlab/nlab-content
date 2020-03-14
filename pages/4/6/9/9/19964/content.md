@@ -213,7 +213,9 @@ The original article is
 
 * {#Skyrme62} [[Tony Skyrme]], _A unified field theory of mesons and baryons_, Nuclear Physics Volume 31, March–April 1962, Pages 556-569 (<a href="https://doi.org/10.1016/0029-5582(62)90775-7">doi:10.1016/0029-5582(62)90775-7</a>)
 
-A review is in:
+Review:
+
+* {#Weigel08} Herbert Weigel, _Chiral Soliton Models for Baryons_,  Lecture Notes in Physics book series, volume 743, Springer 2008 ([doi:10.1007/978-3-540-75436-7](https://doi.org/10.1007/978-3-540-75436-7))
 
 * {#RhoZahed16} [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
@@ -255,7 +257,7 @@ Original proposal for inclusion of the [[ω-meson]]:
 
 Original proposal for inclusion of the [[ρ-meson]]:
 
-* {#Adkins86} [[Gregory Adkins]], _Rho mesons in the Skyrme model_, Phys. Rev. D 33, 193 (1986) ([doi:10.1103/PhysRevD.33.193](https://doi.org/10.1103/PhysRevD.33.193))
+* {#Adkins86} [[Gregory Adkins]], _Rho mesons in the Skyrme model_, Phys. Rev. D 33, 193 (1986) ([spire:16895](http://inspirehep.net/record/16895),  [doi:10.1103/PhysRevD.33.193](https://doi.org/10.1103/PhysRevD.33.193))
 
 Review:
 
