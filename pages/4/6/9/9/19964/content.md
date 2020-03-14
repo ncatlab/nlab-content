@@ -209,13 +209,19 @@ have eluded physicists, notably concepts such as the ‘Cheshire Cat phenomenon�
 
 ### General
 
-The original article is
+The original articles are
 
 * {#Skyrme62} [[Tony Skyrme]], _A unified field theory of mesons and baryons_, Nuclear Physics Volume 31, March–April 1962, Pages 556-569 (<a href="https://doi.org/10.1016/0029-5582(62)90775-7">doi:10.1016/0029-5582(62)90775-7</a>)
 
+
+* {#AdkinsNappiWitten83} [[Gregory Adkins]], [[Chiara Nappi]], [[Edward Witten]], _Static Properties of Nucleons in the Skyrme Model_, Nucl. Phys. B228 (1983) 552 ([spire:190174](http://inspirehep.net/record/190174), <a href="https://doi.org/10.1016/0550-3213(83)90559-X">doi:10.1016/0550-3213(83)90559-X</a>)
+
+
 Review:
 
-* {#Weigel08} Herbert Weigel, _Chiral Soliton Models for Baryons_,  Lecture Notes in Physics book series, volume 743, Springer 2008 ([doi:10.1007/978-3-540-75436-7](https://doi.org/10.1007/978-3-540-75436-7))
+* {#Weigel96} [[Herbert Weigel]], _Baryons as Three Flavor Solitons_,  	Int. J. Mod. Phys. A11:2419-2544, 1996 ([arXiv:hep-ph/9509398](https://arxiv.org/abs/hep-ph/9509398), [cds:288541](http://cds.cern.ch/record/288541), [doi:10.1142/S0217751X96001218](https://doi.org/10.1142/S0217751X96001218))
+
+* {#Weigel08} [[Herbert Weigel]], _Chiral Soliton Models for Baryons_,  Lecture Notes in Physics book series, volume 743, Springer 2008 ([doi:10.1007/978-3-540-75436-7](https://doi.org/10.1007/978-3-540-75436-7))
 
 * {#RhoZahed16} [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
@@ -260,6 +266,9 @@ Original proposal for inclusion of the [[ρ-meson]]:
 * {#Adkins86} [[Gregory Adkins]], _Rho mesons in the Skyrme model_, Phys. Rev. D 33, 193 (1986) ([spire:16895](http://inspirehep.net/record/16895),  [doi:10.1103/PhysRevD.33.193](https://doi.org/10.1103/PhysRevD.33.193))
 
 Review:
+
+* {#Holzwarth05} Gottfried Holzwarth, Section 2.3 of: _Electromagnetic Form Factors of the Nucleon in Chiral Soliton Models_ ([arXiv:hep-ph/0511194](https://arxiv.org/abs/hep-ph/0511194)), Chapter 2 in: _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+
 
 * Yongseok Oh, _Skyrmions with vector mesons: Single Skyrmion and baryonic matter_, 2013 ([[OhSkyrmionsWithVectorMesons.pdf:file]])
 
