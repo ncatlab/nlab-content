@@ -906,9 +906,9 @@ Another common case is the following, which puts the image to the right of the p
             "file_name": "FileName.xyz",
             "float": "right",
             "margin": {
-                "top": 0,
-                "right": 20,
-                "bottom": 10,
+                "top": -40,
+                "right": 0,
+                "bottom": 20,
                 "left": 20
             }
         \end{imagefromfile}
@@ -925,9 +925,9 @@ The full list of options is shown below. Except for "file_name", these are all e
             "unit": "px",
             "float": "right",
             "margin": {
-                "top": 0,
-                "right": 20,
-                "bottom": 10,
+                "top": -40,
+                "right": 0,
+                "bottom": 20,
                 "left": 20,
                 "unit": "px"
             },
@@ -936,7 +936,12 @@ The full list of options is shown below. Except for "file_name", these are all e
         \end{imagefromfile}
 </nowiki>
 
-These should be fairly self-explanatory. The `alt` parameter corresponds to the `<img>` attributen of the same name.
+These should be fairly self-explanatory. The `alt` parameter corresponds to the `<img>` attribute of the same name.
+
+Note in particular that a caption can be added. If one is floating the graphic and one uses a negative value for `top` in the values for `margin`, which is quite often a good idea, then one typically will need a positive value for `bottom` in order for text wrapping around the image not to obscure the caption.
+
+Be judicious when floating graphics. It may be easier to read a page, especially on a mobile phone, if the graphic is simply placed below a paragraph rather than floating to the side of it. 
+
 
 ### How to centre
 
