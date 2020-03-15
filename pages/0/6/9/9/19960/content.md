@@ -1,5 +1,3 @@
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -23,24 +21,22 @@
  {#Idea}
 
 
-
 \begin{imagefromfile}
     "file_name": "HardWallModelPredictions.jpg",
     "float": "right",
     "width": 440,
     "unit": "px",
     "margin": {
-        "top": -50,
-        "right": 10,
-        "bottom": -40,
-        "left": 20
-    }
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [Erlich 09, section 1.2](#Erlich09)"
 \end{imagefromfile}
 
 
 What is called _holographic QCD_ or _AdS/QCD correspondence_ or similar (review includes [Aharony 02](#Aharony02), [Erlich 09](#Erlich09), [Kim-Yi 11](#KimYi11), [Erlich 14](#Erlich14), [Rebhan 14](#Rebhan14), [Rho-Zahed 16](#RhoZahed16)) is a quantitatively predictive [[model (in theoretical physics)|model]] for [[quantum chromodynamics]] ("[[QCD]]", the [[strong nuclear force]]-sector of the [[standard model of particle physics]]) via "holography" (as in the [[AdS/CFT correspondence]]), hence regarding it as the [[boundary field theory]] of an (at least) [[D=5 super Yang-Mills theory|5-dimensional]] [[Yang-Mills theory]] ("[[bottom-up model building|bottom-up]] holographic QCD"), specifically one [[geometric engineering|geometrically engineered]] on [[intersecting D-brane model|intersecting D-branes]] ("[[top-down model building|top-down]] holographic QCD") and here specifically on [[D4-D8 brane intersections]] (the _[[Witten-Sakai-Sugimoto model]]_ due to [Witten 98](#Witten98), [Karch-Katz 02](#KarchKatz02), [Sakai-Sugimoto 04](#SakaiSugimoto04), [Sakai-Sugimoto 05](#SakaiSugimoto05)). 
-
-> table from [Erlich 09, section 1.2](#Erlich09)
 
 
 Holographic QCD captures the [[non-perturbative effect|non-perturbative]] [[confinement|confined]] regime of [[QCD]], which is otherwise elusive (the [[mass gap problem|Mass Gap Millennium Problem]]), where the would-be [[quarks]] are all [[bound state|bound]]/[[confinement|confined]] inside [[color charge|color]]-less [[hadrons]], with the [[meson]] [[field (physics)|fields]] instead being the [[gauge field]] of a [[flavour (particle physics)|flavour]]-[[chiral perturbation theory|gauge theory]] (holographic dictionary, e.g. [Kim-Yi 11 (3.1)](#KimYi11), see also "[[hidden local symmetry]]") and the [[baryons]] being [[solitons]] of this flavour/meson field, namely _[[skyrmions]]_.
@@ -51,18 +47,17 @@ Holographic QCD captures the [[non-perturbative effect|non-perturbative]] [[conf
     "width": 600,
     "unit": "px",
     "margin": {
-        "top": -50,
-        "right": 10,
-        "bottom": -40,
-        "left": 20
-    }
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [Rebhan 14](#Rebhan14)"
 \end{imagefromfile}
 
 This [[duality in physics|dual]] description of the [[color charge|color]] [[gauge theory]] of [[quarks]] and [[gluons]] instead as [[flavour (particle physics)|flavour]] [[gauge theory]] of [[baryons]] and [[mesons]] is [[geometric engineering of QFT|geometrically brought out]] by the [[D4-D8 brane intersections]] of the [[Witten-Sakai-Sugimoto model|Witten-Sakai-Sugimoto]] [[intersecting D-brane model]]: Here the [[open strings]] on the [[D4-branes|D4]] _color branes_ give the [[color charge|color]]/[[gluon]] gauge field, while those on the [[D8-brane|D8]] _flavor branes_ give the [[flavour (particle physics)|flavour]]/[[meson]] gauge field, those stretching between D4 and D8 give the [[quarks]] and the [[closed strings]] give the [[glueballs]].
 (See at _[WSS brane configuration](#WSSBraneConfiguration)_ below.) This way [[color charge|color]]/[[flavour (particle physics)|flavor]] [[duality in physics|duality]] is mapped to [[open/closed string duality]] (as the [[D8-branes]] are treated as probe branes).
-
-> graphics from [Rebhan 14](#Rebhan14)
-
+ 
 
 Notice that the [[flavour physics|flavour sector]] is where most of the open problems regarding the [[standard model of particle physics]] are located ([[flavour problem]], [[flavour anomalies]]).
 
@@ -73,16 +68,15 @@ Notice that the [[flavour physics|flavour sector]] is where most of the open pro
     "width": 570,
     "unit": "px",
     "margin": {
-        "top": -50,
-        "right": 10,
-        "bottom": -40,
-        "left": 20
-    }
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [Erlich 09, section 1.1](#Erlich09)"
 \end{imagefromfile}
 
 Various fundamental characteristics of [[QCD]] that remain mysterious in the [[color charge|colored]]-[[quark]] model readily find a conceptual explanation in terms of this [[geometric engineering of QFT|geometric engineering]] of  [[flavour physics]], notably the phenomena of [[confinement]] and of [[chiral symmetry breaking]], but also for instance [[vector meson dominance]] and the [[Cheshire cat principle]].
-
-> graphics grabbed from [Erlich 09, section 1.1](#Erlich09)
 
 \begin{imagefromfile}
     "file_name": "AdSCFTForQCD.jpg",
@@ -90,52 +84,36 @@ Various fundamental characteristics of [[QCD]] that remain mysterious in the [[c
     "width": 600,
     "unit": "px",
     "margin": {
-        "top": -50,
-        "right": 10,
-        "bottom": -40,
-        "left": 20
-    }
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [Aoki-Hashimoto-Iizuka 12](#AHI12)"
 \end{imagefromfile}
 
 
 Indeed, holographic QCD gives accurate quantitative predictions of [[confinement|confined]] [[hadron]] spectra, hence of the physics of ordinary [[atomic nuclei]] (see comparison between [[experiment]] and predictions of holographic QCD [below](#BottomUpModels)) which is out of reach for [[perturbative quantum field theory|perturbation theory]] and otherwise computable, at best, via the blind numerics of [[lattice QCD]]. This means ([Witten 98](#Witten98)) that holographic QCD provides a conceptual solution to the _[[mass gap problem]]_ (not yet a rigorous proof, but a proof strategy).
 
-> graphics from [Aoki-Hashimoto-Iizuka 12](#AHI12)
+Concretely, much of the [[phenomenology|phenomenological]] success of [[holographic QCD]] is (review in [Rho-Zahed 16, Chapter III](#RhoZahed16)) due to the holographic emergence of the time-honored but _ad hoc_ [[Skyrmion]]-[[model (in theoretical physics)|model]] of [[baryons]], as [[solitons]] in the [[meson]] [[flavour (particle physics)|flavour]]-[[gauge field]]. 
 
 \begin{imagefromfile}
     "file_name": "FirstEightSkyrmions.jpg",
-    "float": "right",
     "width": 450,
     "unit": "px",
-    "margin": {
-        "top": -50,
-        "right": 10,
-        "bottom": -40,
-        "left": 20
-    }
+    "caption": "From [Manton 11](Skyrmion#Manton11)"
 \end{imagefromfile}
-
-
-Concretely, much of the [[phenomenology|phenomenological]] success of [[holographic QCD]] is (review in [Rho-Zahed 16, Chapter III](#RhoZahed16)) due to the holographic emergence of the time-honored but _ad hoc_ [[Skyrmion]]-[[model (in theoretical physics)|model]] of [[baryons]], as [[solitons]] in the [[meson]] [[flavour (particle physics)|flavour]]-[[gauge field]]. 
-
-> graphics from [Manton 11](Skyrmion#Manton11)
-
-\begin{imagefromfile}
-    "file_name": "SkyrmionsWithRho.jpg",
-    "float": "right",
-    "width": 540,
-    "unit": "px",
-    "margin": {
-        "top": -50,
-        "right": 10,
-        "bottom": -40,
-        "left": 20
-    }
-\end{imagefromfile}
+ 
 
 Moreover, in holographic QCD this [[Skyrmion]] model of [[baryons]] emerges in its modern improved form, where the [[pion]] [[field (physics)|field]] is accompanied by the whole tower of [[vector mesons]] (the [[rho meson]] etc.): these [[meson]] species are holographically unified as the transversal [[KK-mechanism|KK-modes]] in the holographic theory. Already just adjoining the [[rho meson]] to the [[pion]] makes the resulting [[Skyrmions]], and hence holographic QCD, give accurate results for light [[nuclei]] all the way up to  [[carbon]] ([Naya-Sutcliffe 18a](Skyrmion#NayaSutcliffe18a), [Naya-Sutcliffe 18b](Skyrmion#NayaSutcliffe18b)).
 
-> graphics form [Naya-Sutcliffe 18](Skyrmion#NayaSutcliffe18)
+\begin{imagefromfile}
+    "file_name": "SkyrmionsWithRho.jpg",
+    "width": 540,
+    "unit": "px",
+    "caption": "From [Naya-Sutcliffe 18](Skyrmion#NayaSutcliffe18)"
+\end{imagefromfile}
+
 
 The mechanism behind this description of [[baryons]] and [[nuclei]] via [[holographic QCD]] is the theorem of [Atiyah-Manton 89](skyrmion#AtiyahManton89) (highlighted as such in [Sutcliffe 10](skyrmion#Sutcliffe10)) which identifies [[Skyrmions]] in 3+1-dimensional [[Yang-Mills theory]] with [[Kaluza-Klein 
 mechanism|KK modes]] (transversal [[holonomies]]) of [[instantons]] in 4+1-dimensional YM theory:
