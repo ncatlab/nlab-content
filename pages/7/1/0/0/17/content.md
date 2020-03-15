@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Contents {: .clickToReveal}
@@ -415,9 +414,16 @@ and then refer to it later in the text by typing
      see equation <nowiki>(eq:SomeEquation)</nowiki>.
 
 
-#### Automatic table of contents ##
+#### Table of contents
 
-Insert the symbols
+Since 2019, the recommended way to make a table of contents for a page (and almost any page should have a table of contents) is to write the following at the top of the page, or wherever the table of contents is to appear, without the space between the backslash and `tableofcontents`.
+
+```
+     \ tableofcontents
+```
+
+An older method is to write
+
 
 ```
      * table of contents 
