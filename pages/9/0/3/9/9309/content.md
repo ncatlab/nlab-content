@@ -48,7 +48,7 @@ In the low energy [[action functional]] for single [[D-branes]] the DBI action i
 
 * [[Efim Fradkin]], [[Arkady Tseytlin]], _Non-linear electrodynamics from quantized strings_, Physics Letters B Volume 163, Issues 1–4, 21 November 1985 (<a href="https://doi.org/10.1016/0370-2693(85)90205-9">doi:10.1016/0370-2693(85)90205-9</a>)
 
-* A.Abouelsaood, C.G.Callan, C.R.Nappi, S.A.Yost, _Open strings in background gauge fields_, Nuclear Physics B Volume 280, 1987, Pages 599-624 (<a href="https://doi.org/10.1016/0550-3213(87)90164-7">doi:10.1016/0550-3213(87)90164-7</a>)
+* A. Abouelsaood, C. G. Callan, [[Chiara Nappi]], S. A. Yost, _Open strings in background gauge fields_, Nuclear Physics B Volume 280, 1987, Pages 599-624 (<a href="https://doi.org/10.1016/0550-3213(87)90164-7">doi:10.1016/0550-3213(87)90164-7</a>)
 
 and a full $\kappa$-symmetric [[Green-Schwarz sigma-model]] for [[D-branes]]:
 
@@ -62,7 +62,7 @@ Review:
 * [[Arkady Tseytlin]], _Born-Infeld action, supersymmetry and string theory_, in: [[Mikhail Shifman]] (ed.)  _[[The many faces of the superworld]]_, pp. 417-452, World Scientific (2000) ([arXiv:hep-th/9908105](https://arxiv.org/abs/hep-th/9908105), [doi:10.1142/9789812793850_0025](https://doi.org/10.1142/9789812793850_0025))
 
 
-* {#Schwarz01} [[John Schwarz]], _Comments on Born-Infeld Theory_, in: Atish Dabholkar, [[Sunil Mukhi]], Spenta R. Wadia (eds.) _[Strings 2001: Proceedings, Strings 2001 Conference](http://inspirehep.net/record/944370)_, Tata Institute of Fundamental Research, Mumbai, India, January 5-10, 2001_ ([arXiv:hep-th/0103165](https://arxiv.org/abs/hep-th/0103165), [spire:554347](http://inspirehep.net/record/554347))
+* {#Schwarz01} [[John Schwarz]], _Comments on Born-Infeld Theory_, in: Atish Dabholkar, [[Sunil Mukhi]], Spenta R. Wadia (eds.) _[Strings 2001: Proceedings, Strings 2001 Conference](http://inspirehep.net/record/944370)_, Tata Institute of Fundamental Research, Mumbai, India, January 5-10, 2001 ([arXiv:hep-th/0103165](https://arxiv.org/abs/hep-th/0103165), [spire:554347](http://inspirehep.net/record/554347))
 
 
 Discussion in terms of D-branes as [[leaves]] of [[Dirac structures]] on [[Courant Lie 2-algebroids]] of [[type II geometry]] is in
@@ -114,7 +114,7 @@ and a completely different approach via [[TT deformation]] of the abelian DBI ac
 
 For actual derivation of [[gauge enhancement]] on coincident D-branes see the references [there](enhanced+gauge+symmetry#ReferencesOnCoincidentDBranes).
 
-### Single trace observables as weight systems on chord duagrams
+### Single trace observables as weight systems on chord diagrams
 
 Relation of [[single trace observables]] in the [[non-abelian DBI action]] on [[Dp-D(p+2)-brane bound states]] ([hence](Dp-Dp+2-brane+bound+states#ReferencesRelationToMonopoles)
 [[Yang-Mills monopoles]]) to [[su(2)]]-[[Lie algebra weight systems]] on [[chord diagrams]] computing [[radii]] averages of [[fuzzy spheres]]:
