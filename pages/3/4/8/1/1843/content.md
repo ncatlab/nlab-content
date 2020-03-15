@@ -119,7 +119,7 @@ argues that the string $B$-field is a cocycle in [[Čech cohomology]]--[[Deligne
 
 This is expanded on in 
 
-* {#CareyJohnsonMurray02} [[Alan Carey]], Stuart Johnson, [[Michael Murray]], _Holonomy on D-Branes_, Journal of Geometry and Physics Volume 52, Issue 2, October 2004, Pages 186-216 ([arXiv:hep-th/0204199](http://arxiv.org/abs/hep-th/0204199), [arXiv:10.1016/j.geomphys.2004.02.008](https://doi.org/10.1016/j.geomphys.2004.02.008))
+* {#CareyJohnsonMurray02} [[Alan Carey]], Stuart Johnson, [[Michael Murray]], _Holonomy on D-Branes_, Journal of Geometry and Physics Volume 52, Issue 2, October 2004, Pages 186-216 ([arXiv:hep-th/0204199](http://arxiv.org/abs/hep-th/0204199), [doi:10.1016/j.geomphys.2004.02.008](https://doi.org/10.1016/j.geomphys.2004.02.008))
 
 A more refined discussion of the [[differential cohomology]] of the Kalb-Ramond field and the fields that it interacts with is in
 
