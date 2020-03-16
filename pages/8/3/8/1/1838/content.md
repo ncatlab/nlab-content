@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -30,6 +31,8 @@ The corresponding [[quantum field theory]] is [[quantum electrodynamics]].
 * [[Dirac charge quantization]]
 
 * [[Einstein-Maxwell theory]]
+
+* [[Born-Infeld theory]]
 
 * [[quantum field theory]]
 
