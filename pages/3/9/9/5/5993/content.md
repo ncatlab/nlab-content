@@ -48,7 +48,7 @@ where
 Expressed equivalently in terms of the [[Levi-Civita symbol]] $\epsilon$ and using the [[Einstein summation convention]] the Pfaffian is
 
 \[
-  \label{PfaffianViaSignatureOfPermutations}
+  \label{PfaffianInTermsOfLCTensor}
   Pf(A)
   \;\coloneqq\;
   \frac{1}{2^n n!}  
@@ -77,14 +77,15 @@ Let $A = (A_{i,j})$ be a skew-symmetric $(2n \times 2n)$-[[matrix]]  with entrie
 
 Then the Pfaffian of $A$ (eq:PfaffianViaSignatureOfPermutations) is a [[square root]] of the [[determinant]] of $A$:
 
-$$
+\[
+  \label{DeterminantIsPfaffianSquared}
   \big(
     Pf(A)
   \big)^2
   \;=\;
   det(A)
   \,.
-$$
+\]
 
 =--
 
