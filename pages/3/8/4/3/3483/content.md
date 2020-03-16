@@ -3,7 +3,7 @@
 
 * [university website](https://www.maths.ox.ac.uk/people/andre.henriques)
 
-## related $n$Lab-entries
+## Related $n$Lab-entries
 
 * [[Lie integration]]
 
