@@ -22,17 +22,22 @@ The _Pfaffian_ of a [[skew-symmetric matrix]] is a [[square root]] of its [[dete
 
 Let $A = (A_{i,j})$ be a skew-symmetric $(2n \times 2n)$-[[matrix]]  with entries in some [[field]] (or [[ring]]) $k$.
 
-
 +-- {: .num_defn}
 ###### Definition
 
 The _Pfaffian_ $Pf(A) \in k$ is the element
 
-$$
-  \frac{1}{2^n n!}  \sum_{\sigma \in S_{2n}} sgn(\sigma) \prod_{i = 1}^n 
-  A_{\sigma(2i -1), \sigma(2i)}
+\[
+  \label{PfaffianViaSignatureOfPermutations}
+  Pf(A)
+  \;\coloneqq\;
+  \frac{1}{2^n n!}  
+  \sum_{\sigma \in Sym_{2n}} 
+   sgn(\sigma) 
+   \prod_{i = 1}^n 
+     A_{\sigma(2i -1), \sigma(2i)}
   \,,
-$$
+\]
 
 where 
 
@@ -40,9 +45,50 @@ where
 
 * $sgn(\sigma)$ is the [[signature of a permutation]].
 
+Expressed equivalently in terms of the [[Levi-Civita symbol]] $\epsilon$ and using the [[Einstein summation convention]] the Pfaffian is
+
+\[
+  \label{PfaffianViaSignatureOfPermutations}
+  Pf(A)
+  \;\coloneqq\;
+  \frac{1}{2^n n!}  
+  A_{i_1 j_1}
+  A_{i_2 j_2}
+  \cdots
+  A_{i_n j_n}
+  \epsilon^{ i_1 j_1 i_2 j_2 \cdots  i_n j_n }
+  \,.
+\]
+
+
 =--
 
+
+
 ## Properties
+
+### Relation to the determining
+
++-- {: .num_prop #PfaffianIsSquareRootOfDeterminant}
+###### Proposition
+([[Pfaffian]] is [[square root]] of [[determinant]])
+
+Let $A = (A_{i,j})$ be a skew-symmetric $(2n \times 2n)$-[[matrix]]  with entries in some [[field]] (or [[ring]]) $k$.
+
+Then the Pfaffian of $A$ (eq:PfaffianViaSignatureOfPermutations) is a [[square root]] of the [[determinant]] of $A$:
+
+$$
+  \big(
+    Pf(A)
+  \big)^2
+  \;=\;
+  det(A)
+  \,.
+$$
+
+=--
+
+Proofs are spelled out for instance in [Haber 15, Sections 2 and 3](#Haber15)
 
 ### In terms of Berezinian integrals
 
@@ -106,8 +152,16 @@ where $pfaff(M_{k l})$ denotes the Pfaffian of the matrix whose labels are $k,l$
 
 ### General
 
+Basics:
+
+* {#Haber15} Howard E. Haber, _Notes on antisymmetric matrices and the pfaffian_, 2015 ([pdf](http://scipp.ucsc.edu/~haber/webpage/pfaffian2.pdf), [[HaberPfaffian.pdf:file]])
+
+See also
+
 * J.-G. Luque, J.-Y. Thibon, _Pfaffian and hafnian identities in shuffle algebras_, [math.CO/0204026](http://arxiv.org/abs/math.CO/0204026)
+
 * Claudiu Raicu, Jerzy Weyman, _Local cohomology with support in ideals of symmetric minors and Pfaffians_, [arxiv/1509.03954](http://arxiv.org/abs/1509.03954)
+
 * Haber, _Notes on antisymmetric matrices and the pfaffian_, [pdf](http://scipp.ucsc.edu/~haber/webpage/pfaffian.pdf)
 
 There is also a deformed noncommutative version of Pfaffian related to [[quantum linear group]]s:
