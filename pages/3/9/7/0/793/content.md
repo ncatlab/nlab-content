@@ -299,6 +299,13 @@ Discussion at strong coupling ("[[F-theory]]") includes
 * {#Russo97} [[Jorge Russo]], _T-duality in M-theory and supermembranes_, Phys.Lett. B400 (1997) 37-42 ([arXiv:hep-th/9701188](https://arxiv.org/abs/hep-th/9701188))
 
 
+Dscussion in [[higher differential geometry]]:
+
+* {#Alfonsi19} [[Luigi Alfonsi]], _Global Double Field Theory is Higher Kaluza-Klein Theory_, Fortsch. d. Phys. 2020 ([arXiv:1912.07089](https://arxiv.org/abs/1912.07089), [doi:10.1002/prop.202000010](https://doi.org/10.1002/prop.202000010))
+
+  (relating [[Kaluza-Klein compactification]] on [[principal ∞-bundles]] to [[double field theory]], [[T-folds]], [[non-abelian T-duality]], [[type II geometry]], [[exceptional geometry]], ...)
+
+
 
 Geometric T-duality in terms of [[differential cohomology]] as an operation on [[twisted K-theory|twisted]] [[differential K-theory]] is discussed in
 
