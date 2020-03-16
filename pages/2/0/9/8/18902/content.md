@@ -9,6 +9,10 @@ On [[anomaly inflow]]:
 
 * [[Curtis Callan]], [[Jeffrey Harvey]], _Anomalies and Fermion Zero Modes on Strings and Domain Walls_, Nucl. Phys. B250 (1985) 427-436 (<a href="https://doi.org/10.1016/0550-3213(85)90489-4">doi:10.1016/0550-3213(85)90489-4</a>, [spire:15691](http://inspirehep.net/record/15691))
 
+The [[DBI action]] for single [[D-branes]]:
+
+* A. Abouelsaood, [[Curtis Callan]], [[Chiara Nappi]], S. A. Yost, _Open strings in background gauge fields_, Nuclear Physics B Volume 280, 1987, Pages 599-624 (<a href="https://doi.org/10.1016/0550-3213(87)90164-7">doi:10.1016/0550-3213(87)90164-7</a>)
+
 
 On microscopic explanation of [[Bekenstein-Hawking entropy]] via [[geometric engineering of QFT|geometric engineering]] of [[black holes in string theory]] as [[bound states of D-branes]]:
 
