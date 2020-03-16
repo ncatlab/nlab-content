@@ -21,7 +21,92 @@
 
 ## Idea
 
-The [[Green-Schwarz action functional]] for super [[D-branes]] contains a generalization of the [[Nambu-Goto action]] in which the [[volume form]] is modified by the [[field strength]] of the [[Chan-Paton gauge field]] on the [[worldvolume]] of the [[D-brane]]. This modified [[Nambu-Goto action]] is referred to as the _Dirac-Born-Infeld action_ or _DBI action_, for short.
+What is known as _Born-Infeld theory_ ([Born-Infeld 34](#BornInfeld34), often also attributed to [Dirac 62](#Dirac62) and abbreviated "DBI theory") is a [[deformation]] of  the [[theory (physics)|theory]] of [[electromagnetism]] which coincides with ordinary [[electromagnetism]] for small excitations of the [[electromagnetic field]] but is such that there is a maximal value for the [[field strength]] which can never be reached in a physical process.
+
+Just this theory happens to describe the [[Chan-Paton gauge field]] on single [[D-branes]] at low [[energy]], as deduced from [[open string|open]] [[string scattering amplitudes]] ([Fradkin-Tseytlin 85](#FradkinTseytlin85), [Abouelsaood-Callan-Nappi-Yost 87](#AbouelsaoodCallanNappiYost87), [Leigh 89](#Leigh89)).
+
+In this context the [[action functional]] corresponding to Born-Infeld theory arises as the low-energy [[effective action]] on the [[D-branes]], and this is referred to as the _DBI-action_. This is part of the full [[Green-Schwarz action functional]] for super [[D-branes]], being a deformation of the [[Nambu-Goto action]]-summand by the [[field strength]] of the [[Chan-Paton gauge fields]].
+
+On [[intersecting brane|coincident]] [[D-branes]], where one expects [[gauge enhancement]] of the [[Chan-Paton gauge field]] to a [[non-abelian group|non-abelian]] [[gauge group]], a further generalization of the DBI-action to non-abelian [[gauge fields]] is expected to be an analogous [[deformation]] of that of non-abelian [[Yang-Mills theory]].
+A widely used proposal is due to [Tseytlin 97](#Tseytlin97), [Myers 99](#Myers99), but a derivation from [[string theory]] of this non-abelian DBI action is lacking; and it is in fact known to be in conflict, beyond the first few orders of correction terms, with effects argued elsewhere in the string theory literature ([Hashimoto-Taylor 97](#HashimotoTaylor97), [Bain 99](#Bain99), [Bergshoeff-Bilal-Roo-Sevrin 01](#BergshoeffBilalRooSevrin01)). The issue remains open.
+
+## Definition
+
+In the simplest situation of flat 4-dimensonal [[Minkowski spacetime]] $\mathbb{R}^{3,1}$ and no other [[field (physics)|fields]] besides that of [[electromagnetism]], encoded in a [[Faraday tensor]] [[differential 2-form]]
+
+$$
+  F \;=\; F_{a b} d x^a \wedge d x^b
+$$
+
+the [[Lagrangian density]] of the Born-Infeld [[action functional]] is
+
+\[
+  \label{PlainMinkowskiDBIAction}
+  L_{BI}
+  \;=\;
+  \sqrt{ det( - (\eta + F) ) } \, dvol
+  \,.
+\]
+
+Here 
+
+* $\eta$ denotes the [[metric tensor]] of [[Minkowski spacetime]], regarded as a $4 \times 4$ [[matrix]]
+
+  $$
+    \eta \;=\; (\eta_{a b}) \;=\; diag(-1,1,1,1)
+    \,,
+  $$
+
+* $F$ is the [[Faraday tensor]], regarded as a $4 \times 4$ [[matrix]]
+
+  $$
+    F = (F_{a b})
+    \,,
+  $$
+
+* $det(\cdots)$ denotes the [[determinant]] of the [[sum]] of these [[matrices]]
+
+* $\sqrt{}$ denotes the [[positive number|positive]] [[square root]],
+
+* $dvol$ denotes the canonical [[volume form]] on [[Minkowski spacetime]]
+
+  \[
+    \label{VolumeForm}
+    dvol \;=\; d t \wedge d x^1 \wedge d x^2 \wedge d x^3
+  \]
+
+In the following, for $\omega_4$ any [[differential 4-form]] on $\mathbb{R}^{3,1}$ we write $\omega_4 / dvol$ for the unique [[smooth function]] $\mathbb{R}^{3,1} \to \mathbb{R}$ such tha
+
+$$
+  (\omega_4 / dvol) \cdot dvol \;=\; \omega_4
+  \,.
+$$
+
++-- {: .num_lemma}
+###### Lemma
+
+The [[determinant]] in (eq:PlainMinkowskiDBIAction) evaluates to
+
+$$
+  det( - (\eta + F) )
+  \;=\;
+  1 
+   -  
+ \tfrac{1}{6} (F \wedge \star F) / dvol 
+   -
+ ( (F\wedge F) / \mathrm{dvol} )^2
+  \,,
+$$
+
+where 
+
+* $F \wedge \star F$ is the 4-form [[wedge product]] of $F$ with its  [[Hodge duality|Hodge dual]], hence is the [[Lagrangian density]] of ordinary [[electromagnetism]],
+
+* $F \wedge F$ is the [[wedge product]] of $F$ with itself.
+
+=--
+
+
 
 ## Related concepts
 
@@ -31,24 +116,26 @@ The [[Green-Schwarz action functional]] for super [[D-branes]] contains a genera
 
 ### General
 
-Named after [[Paul Dirac]], [[Max Born]] and [[Leopold Infeld]].
+As a proposal for a modification of [[electromagnetism]] in [[spacetime]], the Dirac-Born-Infeld (DBI) action originates in
 
-Review:
+* {#BornInfeld34} [[Max Born]], [[Leopold Infeld]], _Foundations of the New Field Theory_,  Proceedings of the Royal Society of London. Series A, Containing Papers of a Mathematical and Physical Character, Vol. 144, No. 852 (Mar. 29, 1934), pp. 425-451 ([jstor:2935568](https://www.jstor.org/stable/2935568))
 
-* Paul Koerber, _Abelian and Non-abelian D-brane Effective Actions_, Fortsch. Phys. 52 (2004) 871-960 ([arXiv:hep-th/0405227](https://arxiv.org/abs/hep-th/0405227))
+The article by Dirac which came to be commonly cited in this context is
 
+* {#Dirac62} [[Paul Dirac]], _An Extensible Model of the Electron_, Proc. Roy. Soc. A268, (1962) 57-67 ([jstor:2414316](https://www.jstor.org/stable/2414316))
 
-Detailed discussion of the relation to the [[Polyakov action]] and the [[Nambu-Goto action]] is in
+  (which also proposed the [[membrane]] as a unification of the [[electron]] and the [[muon]])
 
-* {#Nieto01} J. A. Nieto, _Remarks on Weyl invariant p-branes and Dp-branes_ ([arXiv:hep-th/0110227](http://arxiv.org/abs/hep-th/0110227))
 
 ### For single D-branes
 
-In the low energy [[action functional]] for single [[D-branes]] the DBI action is due to
+As the low energy [[action functional]] for single [[D-branes]] the DBI action is due to
 
-* [[Efim Fradkin]], [[Arkady Tseytlin]], _Non-linear electrodynamics from quantized strings_, Physics Letters B Volume 163, Issues 1–4, 21 November 1985 (<a href="https://doi.org/10.1016/0370-2693(85)90205-9">doi:10.1016/0370-2693(85)90205-9</a>)
+* {#FradkinTseytlin85} [[Efim Fradkin]], [[Arkady Tseytlin]], _Non-linear electrodynamics from quantized strings_, Physics Letters B Volume 163, Issues 1–4, 21 November 1985 (<a href="https://doi.org/10.1016/0370-2693(85)90205-9">doi:10.1016/0370-2693(85)90205-9</a>)
 
-* A. Abouelsaood, C. G. Callan, [[Chiara Nappi]], S. A. Yost, _Open strings in background gauge fields_, Nuclear Physics B Volume 280, 1987, Pages 599-624 (<a href="https://doi.org/10.1016/0550-3213(87)90164-7">doi:10.1016/0550-3213(87)90164-7</a>)
+* {#AbouelsaoodCallanNappiYost87} A. Abouelsaood, [[Curtis Callan]], [[Chiara Nappi]], S. A. Yost, _Open strings in background gauge fields_, Nuclear Physics B Volume 280, 1987, Pages 599-624 (<a href="https://doi.org/10.1016/0550-3213(87)90164-7">doi:10.1016/0550-3213(87)90164-7</a>)
+
+* {#Leigh89} [[Robert Leigh]], _Dirac-Born-Infeld Action from Dirichlet Sigma Model_, Mod. Phys. Lett. A4 (1989) 2767 ([spire:26399](http://inspirehep.net/record/26399), [doi:10.1142/S0217732389003099](https://doi.org/10.1142/S0217732389003099))
 
 and a full $\kappa$-symmetric [[Green-Schwarz sigma-model]] for [[D-branes]]:
 
@@ -56,13 +143,17 @@ and a full $\kappa$-symmetric [[Green-Schwarz sigma-model]] for [[D-branes]]:
 
 * {#APPS97b} [[Mina Aganagic]], Jaemo Park, Costin Popescu, [[John Schwarz]], _Dual D-Brane Actions_, Nucl. Phys. B496 (1997) 215-230 ([arXiv:hep-th/9702133](https://arxiv.org/abs/hep-th/9702133))
 
-
 Review:
 
 * [[Arkady Tseytlin]], _Born-Infeld action, supersymmetry and string theory_, in: [[Mikhail Shifman]] (ed.)  _[[The many faces of the superworld]]_, pp. 417-452, World Scientific (2000) ([arXiv:hep-th/9908105](https://arxiv.org/abs/hep-th/9908105), [doi:10.1142/9789812793850_0025](https://doi.org/10.1142/9789812793850_0025))
 
-
 * {#Schwarz01} [[John Schwarz]], _Comments on Born-Infeld Theory_, in: Atish Dabholkar, [[Sunil Mukhi]], Spenta R. Wadia (eds.) _[Strings 2001: Proceedings, Strings 2001 Conference](http://inspirehep.net/record/944370)_, Tata Institute of Fundamental Research, Mumbai, India, January 5-10, 2001 ([arXiv:hep-th/0103165](https://arxiv.org/abs/hep-th/0103165), [spire:554347](http://inspirehep.net/record/554347))
+
+* Paul Koerber, _Abelian and Non-abelian D-brane Effective Actions_, Fortsch. Phys. 52 (2004) 871-960 ([arXiv:hep-th/0405227](https://arxiv.org/abs/hep-th/0405227))
+
+Detailed discussion of the relation to the [[Polyakov action]] and the [[Nambu-Goto action]] is in
+
+* {#Nieto01} J. A. Nieto, _Remarks on Weyl invariant p-branes and Dp-branes_ ([arXiv:hep-th/0110227](http://arxiv.org/abs/hep-th/0110227))
 
 
 Discussion in terms of D-branes as [[leaves]] of [[Dirac structures]] on [[Courant Lie 2-algebroids]] of [[type II geometry]] is in
@@ -78,7 +169,7 @@ See also
 
 ### For coincident (non-abelian) D-branes
 
-Discussion of the generalization of the DBI action to  [[non-abelian group|non-abelian]] [[Chan-Paton gauge fields]] (hence: for coincident [[D-branes]]) includes the following:
+Discussion of the generalization of the DBI action to  [[non-abelian group|non-abelian]] [[Chan-Paton gauge fields]] (hence: for [[intersecting branes|coincident]] [[D-branes]]) includes the following:
 
 A proposal for the formulation by using the symmetrized trace is due to
 
@@ -86,7 +177,7 @@ A proposal for the formulation by using the symmetrized trace is due to
 
 followed by
 
-* [[Robert Myers]], _Dielectric-Branes_, JHEP 9912 (1999) 022 ([arXiv:hep-th/9910053](https://arxiv.org/abs/hep-th/9910053))
+* {#Myers99} [[Robert Myers]], _Dielectric-Branes_, JHEP 9912 (1999) 022 ([arXiv:hep-th/9910053](https://arxiv.org/abs/hep-th/9910053))
 
   (introducing the [[Myers effect]])
 
@@ -96,17 +187,19 @@ Review includes:
 
 Issues with this proposal at higher order have been found in
 
-* [[Akikazu Hashimoto]], [[Washington Taylor]], _Fluctuation Spectra of Tilted and Intersecting D-branes from the Born-Infeld Action_, Nucl. Phys. B503: 193-219, 1997 ([arXiv:hep-th/9703217](https://arxiv.org/abs/hep-th/9703217))
 
-* [[Eric Bergshoeff]], [[Adel Bilal]], M. de Roo and A. Sevrin, _Supersymmetric non-abelian Born-Infeld revisited_, JHEP 0107, 029 (2001) ([arXiv:hep-th/0105274](https://arxiv.org/abs/hep-th/0105274))
+* {#HashimotoTaylor97} [[Akikazu Hashimoto]], [[Washington Taylor]], _Fluctuation Spectra of Tilted and Intersecting D-branes from the Born-Infeld Action_, Nucl. Phys. B503: 193-219, 1997 ([arXiv:hep-th/9703217](https://arxiv.org/abs/hep-th/9703217))
 
-* P. Bain, _On the non-abelian Born-Infeld action_, In: L. Baulieu , [[Michael Green]], Picco M., Windey P. (eds.) _Progress in String Theory and M-Theory_. NATO Science Series (Series C: Mathematical and Physical Sciences), vol 564. Springer, Dordrecht ([arXiv:hep-th/9909154](https://arxiv.org/abs/hep-th/9909154), [doi:10.1007/978-94-010-0852-5_12](https://doi.org/10.1007/978-94-010-0852-5_12))
+* {#Bain99} P. Bain, _On the non-abelian Born-Infeld action_, In: L. Baulieu , [[Michael Green]], Picco M., Windey P. (eds.) _Progress in String Theory and M-Theory_. NATO Science Series (Series C: Mathematical and Physical Sciences), vol 564. Springer, Dordrecht ([arXiv:hep-th/9909154](https://arxiv.org/abs/hep-th/9909154), [doi:10.1007/978-94-010-0852-5_12](https://doi.org/10.1007/978-94-010-0852-5_12))
+
+* {#BergshoeffBilalRooSevrin01} [[Eric Bergshoeff]], [[Adel Bilal]], M. de Roo and A. Sevrin, _Supersymmetric non-abelian Born-Infeld revisited_, JHEP 0107, 029 (2001) ([arXiv:hep-th/0105274](https://arxiv.org/abs/hep-th/0105274))
+
 
 Correction terms have been proposed in
 
 * {#TaylorVanRaamsdonk99} [[Washington Taylor]], [[Mark Van Raamsdonk]], _Multiple D$p$-branes in Weak Background Fields_, Nucl. Phys. B573:703-734, 2000 ([arXiv:hep-th/9910052](https://arxiv.org/abs/hep-th/9910052))
 
-and a completely different approach via [[TT deformation]] of the abelian DBI action is proposed in
+A completely different approach via [[TT deformation]] of the abelian DBI action is proposed in
 
 
 * T. Daniel Brennan, Christian Ferko, [[Savdeep Sethi]], _A Non-Abelian Analogue of DBI from $T \bar T$ ([arXiv:1912.12389](https://arxiv.org/abs/1912.12389))
@@ -126,6 +219,12 @@ Relation of [[single trace observables]] in the [[non-abelian DBI action]] on [[
 * {#McNamara06} [[Simon McNamara]], Section 4 of: _Twistor Inspired Methods in Perturbative FieldTheory and Fuzzy Funnels_, 2006 ([spire:1351861](http://inspirehep.net/record/1351861), [pdf](https://strings.ph.qmul.ac.uk/sites/default/files/Mcnamaraphd.pdf), [[McNamara06.pdf:file]])
 
 * [[Constantinos Papageorgakis]], p. 161-162 of: _On matrix D-brane dynamics and fuzzy spheres_, 2006 ([[Papageorgakis06.pdf:file]])
+
+
+[[!redirects Dirac-Born-Infeld actions]]
+
+[[!redirects Born-Infeld theory]]
+[[!redirects Born-Infeld theories]]
 
 [[!redirects DBI action]]
 [[!redirects DBI-action]]
