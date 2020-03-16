@@ -75,9 +75,10 @@ In modern language, the insight of ([Maxwell, 1865](#Maxwell)) is that locally, 
 
 $$
   \begin{aligned}
-    F & := E \wedge d t + B
+    F & \coloeqq E \wedge d t + B
       \\
-      &:= 
+      &
+      \coloeqq 
         E_1 d x^1 \wedge d t + 
         E_2 d x^2 \wedge d t + 
         E_3 d x^3 \wedge d t  
@@ -93,8 +94,9 @@ in $\Omega^2(U)$ and the [[electric charge]] density and current density combine
 
 $$
 \begin{aligned}
-    j_{el} &:= j\wedge dt - \rho d x^1 \wedge d x^2 \wedge d x^3 \\
-& :=    j_1 d x^2 \wedge d x^3 \wedge d t +
+    j_{el} & \coloeqq j\wedge dt - \rho d x^1 \wedge d x^2 \wedge d x^3 \\
+& \coloeqq
+        j_1 d x^2 \wedge d x^3 \wedge d t +
         j_2 d x^3 \wedge d x^1 \wedge d t +
         j_3 d x^1 \wedge d x^2 \wedge d t
         -
@@ -227,7 +229,7 @@ Therefore the above data is subject to the additional constraint that it induces
 
    $$
      hol(\gamma) 
-     :=
+     \coloeqq
      \prod_v \exp(i \int_{v} \gamma^* A_{\rho(v)})
      \prod_{e} \exp(i (-1)^{\sigma_{e,v}}
        \gamma^*\lambda_{\rho(e) \rho(v)}
@@ -287,7 +289,7 @@ Dirac originally presented the following reasoning, which captures the main poin
 
 He considered $X$ to be $\mathbb{R}^3$ without the origin, 
 $$
-  X := \mathbb{R}^3 \backslash \{0\}
+  X \coloeqq \mathbb{R}^3 \backslash \{0\}
   \,,
 $$ 
 
@@ -301,14 +303,14 @@ He imagined a situation with a magnetic charge supported on the point located at
 Then he considered a single coordinate patch
 
 $$
-  U := \mathbb{R}^3 \backslash \{x^1 \geq 0\} \subset X
+  U \coloeqq \mathbb{R}^3 \backslash \{x^1 \geq 0\} \subset X
 $$
 
 given by $X$ minus the right half of the first coordinate axis. 
 
 Traditionally physicist try to give that half-line a physical interpretation by imagining that it is the body of an idealized infinitely-thin and to one side infinitely-long solenoid. Indeed, such a solenoid would have a magnetic monopole charge on each of its ends, so if the one end is imagined to have disappeared to infinity, then the other one is the magnetic charge that Dirac imagines to sit at the origin of our setup.
 
-In this context the half-line $\{x^1 \geq 0\}$ is called a **Dirac string**. While there is the possibility to sensibly discuss the idea that this Dirac string actually models a physical entity like an idealized solenoid, its main purpose historically is to confuse physics students and keep them from understanding the theory of [[fiber bundle]]s. Therefore here we shall refrain from talking about Dirac strings and consider $U := \mathbb{R}^3 \backslash \{x^1 \geq 0\} \subset X$ as exactly what it is, by itself: an open subset that is part of a [[cover]] of $X$.  Unfortunately, of course, Dirac didn't mention the other open subsets in that [[cover]] (at least one more is needed for a decent discussion), so that the Dirac string keeps haunting physicists. 
+In this context the half-line $\{x^1 \geq 0\}$ is called a **Dirac string**. While there is the possibility to sensibly discuss the idea that this Dirac string actually models a physical entity like an idealized solenoid, its main purpose historically is to confuse physics students and keep them from understanding the theory of [[fiber bundle]]s. Therefore here we shall refrain from talking about Dirac strings and consider $U \coloeqq \mathbb{R}^3 \backslash \{x^1 \geq 0\} \subset X$ as exactly what it is, by itself: an open subset that is part of a [[cover]] of $X$.  Unfortunately, of course, Dirac didn't mention the other open subsets in that [[cover]] (at least one more is needed for a decent discussion), so that the Dirac string keeps haunting physicists. 
 
 > ...running out of time...just quickly now...
 
@@ -381,6 +383,8 @@ Which implies that with the magnetic charge being quantized, also the electric c
 * [[quantum electrodynamics]], [[Lamb shift]]
 
 * [[Yang-Mills field]]
+
+* [[Born-Infeld theory]]
 
 * [[B-field]], [[C-field]]
 
