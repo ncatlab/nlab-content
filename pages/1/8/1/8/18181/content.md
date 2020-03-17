@@ -66,11 +66,11 @@ Actually, all three possibilities discussed by Kant appear in modern mathematics
 ## __I. Transcendental Doctrine of Elements.__ __2nd Part.__ Transcendental Logic
 
 
-### __Introduction.__ The Idea of a Transcendental Logic. 
+### _Introduction._ __The Idea of a Transcendental Logic.__
 
 In the development of Kant's distinction between general logic and transcendental logic his _[[Attempt to Introduce the Concept of Negative Quantities into Philosophy]]_ from 1763 constitutes a crucial step.
 
-###### "__I. On logic in general.__" ([A50](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_050.png)-5/B74-9)
+###### _I._ On logic in general. ([A50](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_050.png)-5/B74-9)
 
 In this paragraph, the scope of logic as a science is clarified, distinguishing it from aesthetics and structuring its subdisciplines, to then be able to show the place of transcendental logic among them in the following paragraph, Paragraph II.
 To do so, Kant firstly provides a plethora of terminology (“receptivity of impressions”, “spontaneity of concepts”, “empirical”, “sensibility”, “receptivity”), to then distinguish between the science of aesthetics and logic, the former concerning the rules of sensibility and the latter the rules of thinking. ([A50](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_050.png)-2/B74-6).
@@ -78,13 +78,13 @@ To do so, Kant firstly provides a plethora of terminology (“receptivity of imp
 Secondly ([A52](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_052.png)/B76), Kant divides the science of logic into __general logic__ (synonymous with __elementary logic__) which contains the necessary rules of thinking, regardless of its object and __particular logic__ which contains the necessary rules of thinking about certain kinds of objects. Such a set of rules is called "organon of this or that science". In modern language this is the [[methodology]] of a [[science|scientific discipline]].
 Finally ([A53](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_053.png)-5/B77-9), general logic is then again subdivided into __pure logic__---which "abstract[s] from all empirical conditions under which our understanding is exercised"---and __applied logic__---which deals with the conditions of thinking “under the subjective empirical conditions that psychology teaches us”, which are only given a posteriori, and which can all be given only empirically.
 
-###### "__II. On transcendental logic.__" ([A55](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_055.png)-7/B79-82)
+###### _II._ On __transcendental logic__. ([A55](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_055.png)-7/B79-82)
 
 In this paragraph, the concept of transcendental logic as a particular kind of applied logic is established, contrasting it to pure logic. Pure logic abstracts from all contents of cognition [Erkenntnis] and is only concerned with the form of thinking in general. Transcendental logic contains the “rules of pure thinking of an object” ([A55](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_055.png)/B80).
 Kant then notes the difference between cognition a priori and transcendental cognition. The former is merely any cognition obtained without recourse to intuition. The latter is cognition concerning the possibility or use of cognition a priori. ([A56](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_056.png)-7/B80-1) 
 Hence, transcendental aesthetics would describe the pure forms of intuition, which can then be drawn on to justify e.g. the possibility of geometric cognition a priori. Analogously there would need to be a transcendental logic, which would be __the science of the possibilities and rules of thinking about objects a priori__. ([A56](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_056.png)-7/B81-2)
 
-###### "__III. On the division of general logic into analytic and dialectic.___" ([A58](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_058.png)-62/B82-6)
+###### _III._ On the division of general logic into __analytic__ and __dialectic__. ([A57](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_057.png)-62/B82-6)
 
 In this paragraph, general logic is established as a negative criterion of truth, while arguing against its capability to serve as a positive (sufficient) criterion.
 To show, that general pure logic is only capable of providing a negative criterion of truth, Kant firstly supposes a definition of truth which is: Truth “is the agreement of cognition with its object” ([A58](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_058.png)/B82).
@@ -102,7 +102,7 @@ C
 Nevertheless, since “[g]eneral logic analyses the entire formal business of the understanding and reason into its elements, and presents these as principles of all logical assessment of our cognition. This part of logic can therefore be called an __analytic__ [our emphasis], and is on that very account at least the negative touchstone of truth.” ([A60](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_060.png)/B84) 
 On the other hand, "general logic, which is merely a __canon__ for judging, has been used as if it were an __organon__ for the actual production of at least the semblance of objective assertions, and thus in fact it has thereby been misused. Now general logic, as a putative organon, is called __dialectic__." ([A61](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_061.png)/B85)
  
-###### "__IV. On the division of transcendental logic__ into the __transcendental analytic and dialectic.__" ([A62](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_062.png)-4/B87-8)
+###### _IV._ __On the division of transcendental logic__ into the __transcendental analytic__ and __dialectic.__ ([A62](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_062.png)-4/B87-8)
 
 The purpose of this paragraph is to narrow down the scope of transcendental logic, applying the division established in the last paragraph. From [A62](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_062.png)-3/B87:
 
@@ -165,12 +165,11 @@ The following quote enlightens the connection between natural laws, which Kant d
 
 In the end Kant arrives at the result that "__no a _priori___ cognition is possible for us except solely of objects of possible experience." (B166)
 
-#####{#deductionA} _Second Chapter_ __[A]__. On the a priori grounds for the possibility of experience. [A deduction]
+######{#deductionA} _Second Section_ __[A]__. On the a priori grounds for the possibility of experience. [A deduction]
 
 In the first edition Kant provides a more thorough description on how the formation of concepts in our mind works. This description was left out in the corresponding chapter of the second edition ("B deduction"). Concepts are created in three steps:
 
-###### _A.I.II.I.I.II.II.I On the synthesis of __apprehension in the intuition.__ ([A98](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_098.png))
-
+_A.I.II.I.I.II.II.I On the synthesis of __apprehension in the intuition.__ ([A98](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_098.png))
 All representations belong "as modifications of the mind ... to inner sense, and as such all of our cognitions are in the end subjected to the formal condition of inner sense, namely time" ([A99](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_099.png)).
 
 > Every intuition [Anschauung] contains a manifold in itself ... ([A99](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_099.png)) 
@@ -186,7 +185,7 @@ This process is called _Synthesis of apprehension_:
 * This process has to happen a priori.
 
 
-###### _A.I.II.I.I.II.II.II_ On the synthesis of __reproduction in the imagination.__ ([A100](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_100.png))
+_A.I.II.I.I.II.II.II_ On the synthesis of __reproduction in the imagination.__ ([A100](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_100.png))
 
 > It is ... a merely empirical law in accordance with which rep­resentations that have often followed or accompanied one another are finally associated with each other and thereby placed in a connection in accordance with which, even without the presence of the object, one of these representations brings about a transition of the mind to the other in accordance with a constant rule [beständige Regel]. ([A100](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_100.png))
 
@@ -200,8 +199,7 @@ This is formulated in the __Law of reproduction__:
 * the similar limiting process as in the synthesis of apprehension has to occur
 
 
-###### _A.I.II.I.I.II.II.III_ On the synthesis of __recognition in the concept.__ ([A103](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_103.png))
-
+_A.I.II.I.I.II.II.III_ On the synthesis of __recognition in the concept.__ ([A103](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_103.png))
 The crucial fact is that different impressions give rise to the same representation, i.e. we have __one__ concept: "It is this __one__ consciousness that unifies the manifold that has been suc­cessively intuited, and then also reproduced, into one representation" ([A103](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_103.png)).
 Kant continues:
 
