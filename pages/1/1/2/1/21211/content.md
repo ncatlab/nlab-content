@@ -1,4 +1,3 @@
-
 * [webpage](https://phy.princeton.edu/people/chiara-nappi)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Chiara_Nappi)
