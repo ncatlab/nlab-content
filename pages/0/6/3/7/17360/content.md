@@ -1,8 +1,6 @@
-# Contents
-* table of contents
-{: toc}
+\tableofcontents
 
-## Definition
+\section{Definition}
 
 We shall make use of notions introduced at [[cubical set]], and of the notation of this page.
 
@@ -17,7 +15,7 @@ $$
 $$
 \end{defn}
 
-## Homotopy groups
+\section{Homotopy groups}
 
 Cubical Kan complexes admit a notion of homotopy group. The theory of these homotopy groups can be developed analogously to the theory of homotopy groups of a topological space. See [[homotopy groups of a cubical Kan complex]].
 
