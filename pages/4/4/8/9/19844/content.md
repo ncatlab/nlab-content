@@ -681,7 +681,19 @@ explanations via assumption of [[Z'-bosons]]:
 
 * [[Wolfgang Altmannshofer]], Joe Davighi, Marco Nardecchia, _Gauging the accidental symmetries of the Standard Model, and implications for the flavour anomalies_ ([arXiv:1909.02021](https://arxiv.org/abs/1909.02021))
 
+#### Relation to $(g-2)$-anomalies
+
+Beyond their possible common origin in [[leptoquarks]], further possible joint explanation of [[flavour anomalies]] and the [anomalies](anomalous+magnetic+moment#Anomalies) observed in the [[muon]] [[anomalous magnetic moment]]:
+
+* {#ChiangOkada17} Cheng-Wei Chiang, Hiroshi Okada, _A simple model for explaining muon-related anomalies and dark matter_ ([arXiv:1711.07365](https://arxiv.org/abs/1711.07365))
+
+* Junichiro Kawamura, Stuart Raby, Andreas Trautner, _Complete Vector-like Fourth Family and new $U(1)'$ for Muon Anomalies_ ([arXiv:1906.11297](https://arxiv.org/abs/1906.11297))
+
+* Lorenzo Calibbi, M.L. López-Ibáñez, Aurora Melis, Oscar Vives, _Muon and electron $g-2$ and lepton masses in flavor models_ ([arXiv:2003.06633](https://arxiv.org/abs/2003.06633))
+
 #### Other
+
+Other possible explanations of the flavour anomalies:
 
 [[composite Higgs boson]]:
 
@@ -725,11 +737,7 @@ _Explaining $b\to s \ell^+ \ell^-$ data by sneutrinos in the R-parity violating 
 
 * Jong-Phil Lee, _$B$ anomalies in the nonminimal universal extra dimension model_ ([arXiv:1906.07345](https://arxiv.org/abs/1906.07345)) 
 
-Joint explanation with the [anomalies](anomalous+magnetic+moment#Anomalies) observed in the [[muon]] [[anomalous magnetic moment]]:
 
-* {#ChiangOkada17} Cheng-Wei Chiang, Hiroshi Okada, _A simple model for explaining muon-related anomalies and dark matter_ ([arXiv:1711.07365](https://arxiv.org/abs/1711.07365))
-
-* Junichiro Kawamura, Stuart Raby, Andreas Trautner, _Complete Vector-like Fourth Family and new $U(1)'$ for Muon Anomalies_ ([arXiv:1906.11297](https://arxiv.org/abs/1906.11297))
 
 Exotic [[Higgs field]] couplings to a [[hidden sector]]:
 
