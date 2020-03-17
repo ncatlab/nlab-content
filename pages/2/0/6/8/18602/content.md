@@ -70,6 +70,8 @@ Together with the [[flavour anomalies]], these anomalies relate to the [[flavour
 
 
 
+
+
 Possible explanations for the anomomalies in the anomalous magnetic moments is the existence of [[leptoquarks]] ([Bauer-Neubert 15](#BauerNeubert15), [CCDM 16](#CCDM16), [Falkowski 17](#Falkowski17), [Müller 18](#Mueller18)), which at the same time are a candidate for explaining the [[flavour anomalies]] (see also [Chiang-Okada 17](#ChiangOkada17)).
 
 
@@ -131,13 +133,15 @@ Discussion of precision experiment and possible deviation from theory:
 
 * {#Falkowski18} [[Adam Falkowski]], _[Both $g-2$ anomalies](http://resonaances.blogspot.com/2018/06/alpha-and-g-minus-two.html)_, June 2018
 
+### Relation to flavour anomalies
+
 Possible explanation of the anomaly in the anomalous magnetic moments in terms of [[leptoquarks]]:
 
 * {#BauerNeubert15} Martin Bauer, Matthias Neubert, _One Leptoquark to Rule Them All: A Minimal Explanation for $R_{D^{(\ast)}}$, $R_K$ and $(g-2)_\mu$_, Phys. Rev. Lett. 116, 141802 (2016) ([arXiv:1511.01900](https://arxiv.org/abs/1511.01900))
 
 * {#CCDM16} Estefania Coluccio Leskow, Andreas Crivellin, Giancarlo D'Ambrosio, Dario Müller, _$(g-2)_\mu$, Lepton Flavour Violation and Z Decays with Leptoquarks: Correlations and Future Prospects_, Phys. Rev. D 95, 055018 (2017) ([arXiv:1612.06858](https://arxiv.org/abs/1612.06858))
 
-* {BiswasShaw19} Anirban Biswas, Avirup Shaw, _Reconciling dark matter, $R_{K^{(\ast)}}$ anomalies and $(g-2)_\mu$ in an $L_\mu-L_\tau$ scenario_ ([arXiv:1903.08745](https://arxiv.org/abs/1903.08745))
+* {#BiswasShaw19} Anirban Biswas, Avirup Shaw, _Reconciling dark matter, $R_{K^{(\ast)}}$ anomalies and $(g-2)_\mu$ in an $L_\mu-L_\tau$ scenario_ ([arXiv:1903.08745](https://arxiv.org/abs/1903.08745))
 
 
 * {#Falkowski17} [[Adam Falkowski]], _[Leptoquarks strike back](http://resonaances.blogspot.com/2015/11/leptoquarks-strike-back.html)_, November 2017
@@ -148,6 +152,14 @@ Possible explanation of the anomaly in the anomalous magnetic moments in terms o
 * {#Mueller18} Dario Müller, _Leptoquarks in Flavour Physics_, EPJ Web of Conferences 179, 01015 (2018) ([arXiv:1801.03380](https://arxiv.org/abs/1801.03380))
 
 * Junichiro Kawamura, Stuart Raby, Andreas Trautner, _Complete Vector-like Fourth Family and new $U(1)'$ for Muon Anomalies_ ([arXiv:1906.11297](https://arxiv.org/abs/1906.11297))
+
+Further possible joint explanation of the [anomalies](anomalous+magnetic+moment#Anomalies) observed in the [[muon]] [[anomalous magnetic moment]] and the [[flavour anomalies]]:
+
+* {#ChiangOkada17} Cheng-Wei Chiang, Hiroshi Okada, _A simple model for explaining muon-related anomalies and dark matter_ ([arXiv:1711.07365](https://arxiv.org/abs/1711.07365))
+
+* Junichiro Kawamura, Stuart Raby, Andreas Trautner, _Complete Vector-like Fourth Family and new $U(1)'$ for Muon Anomalies_ ([arXiv:1906.11297](https://arxiv.org/abs/1906.11297))
+
+* Lorenzo Calibbi, M.L. López-Ibáñez, Aurora Melis, Oscar Vives, _Muon and electron $g-2$ and lepton masses in flavor models_ ([arXiv:2003.06633](https://arxiv.org/abs/2003.06633))
 
 ### QED contributions
 
