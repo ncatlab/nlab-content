@@ -1,4 +1,3 @@
-
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Leopold_Infeld)
 
 ## Selected writings
