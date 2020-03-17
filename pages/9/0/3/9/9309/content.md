@@ -98,7 +98,7 @@ $$
    \mathclap{
    {\color{blue}\text{Lagrangian of}}
    \atop
-   {\color{blue}\text{elecromagnetism}}   
+   {\color{blue}\text{electromagnetism}}   
    }
  }{
    \underbrace{
