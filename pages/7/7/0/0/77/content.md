@@ -1,7 +1,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $\infty$-Lie theory
+#### Lie theory
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
@@ -197,6 +197,8 @@ See
 
   * [[Lie ideal]]
  
+  * [[Chevalley basis]]
+
   * [[Kac-Moody algebra]]
 
   * [[complex Lie algebra]]
