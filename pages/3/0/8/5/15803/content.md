@@ -36,7 +36,56 @@ If there are [[instantons]], i.e. if the [[gauge field]] [[principal connection]
 
 ### Relation between Chiral anomaly, Skyrme model, Baryon current and WZ-term
 
-[physics.stackexchange.com/a/306242/5603](https://physics.stackexchange.com/a/306242/5603)
+The "topological"-part $B_{top}$ of the [[baryon]] [[current]] (the piece that is not generally [[conserved current|conserved]], reflecting the [[chiral anomaly]]), is the [[Wess-Zumino-Witten term]] of the [[exponentiated pion field]]:
+
+\[
+  \label{ExponentiatedPionField}
+  e^{i \vec \pi/f_\pi}
+  \;\colon\;
+  \mathbb{R}^{0,1} \times (\mathbb{R}^3)^{cpt}
+  \;=\;
+  \mathbb{R}^{0,1} \times S^3
+  \longrightarrow
+  S^3 
+  \simeq
+  SU(2)
+\]
+
+
+$$
+  \begin{aligned}
+  B_{top}
+  & \coloneqq \;
+  Tr
+  \big( 
+    ( e^{-i \vec \pi/f_\pi} d e^{i \vec \pi/f_\pi} )
+    \wedge
+    ( e^{-i \vec \pi/f_\pi} d e^{i \vec \pi/f_\pi} )
+    \wedge
+    ( e^{-i \vec \pi/f_\pi} d e^{i \vec \pi/f_\pi} )
+  \big)
+  \\
+  & =\;
+  \big\langle
+    (e^{i \vec \pi/f_\pi})^\ast(\theta)
+    \wedge
+    (e^{i \vec \pi/f_\pi})^\ast(\theta)
+    \wedge
+    (e^{i \vec \pi/f_\pi})^\ast(\theta)
+  \big\rangle
+  \;\;\in\;
+  \Omega^3(\mathbb{R}^{3,1})
+  \end{aligned}
+$$
+
+Here the expression in the first line uses the fact that [[SU(2)]] is a [[matrix group]], while the second line exporesses the same via [[pullback of differential forms|pullback]] of the [[Maurer-Cartan form]] $\theta$ from the group manifold.
+
+
+The [[homotopy class]] of the [[exponentiated pion field]] (eq:ExponentiatedPionField), as a [[continuous function]], is an element of the ([[cohomotopy|co-]])[[homotopy group of spheres]] $\pi_3(S^3) \simeq \pi^3(S^3) \simeq \mathbb{Z}$, is the [[Skyrmion]]-number, or, in fact, the [[baryon]]-number, encoded in the [knotted stucture](On+Vortex+Atoms#RanadaTrueba01) of the pion field.
+
+\linebreal
+
+See also [physics.stackexchange.com/a/306242/5603](https://physics.stackexchange.com/a/306242/5603)
 
 ## Related concepts
 
