@@ -348,6 +348,8 @@ For more on this see the references at _[[multiverse]]_ and _[[eternal inflation
 
 On the other hand, discussion casting doubt on the existence of a large number of [[de Sitter spacetime]] [[perturbative string theory vacua]] includes the following:
 
+* [[Tom Banks]], _Landskepticism: or Why Effective Potentials Don't Count String Models_ ([arXiv:hep-th/0412129](https://arxiv.org/abs/hep-th/0412129))
+
 * [[Tom Banks]], _The Top $10^{500}$ Reasons Not to Believe in the Landscape_ ([arXiv:1208.5715](https://arxiv.org/abs/1208.5715))
 
 * {#Banks19} [[Tom Banks]], _On the Limits of Effective Quantum Field Theory: Eternal Inflation, Landscapes, and Other Mythical Beasts_ ([arxiv:1910.12817](https://arxiv.org/abs/1910.12817))
