@@ -361,7 +361,9 @@ The article by Dirac which came to be commonly cited in this context is
   (which also proposed the [[membrane]] as a unification of the [[electron]] and the [[muon]])
 
 
-### For single D-branes
+### For single (abelian) D-branes
+
+#### Basic
 
 As the low energy [[action functional]] for single [[D-branes]] the DBI action is due to
 
@@ -399,6 +401,10 @@ See also
 * [[Martin Cederwall]], Alexander von Gussich, Aleksandar Mikovic, [[Bengt Nilsson]], Anders Westerberg, _On the Dirac-Born-Infeld Action for D-branes_,  Phys.Lett.B390:148-152, 1997 ([arXiv:hep-th/9606173](https://arxiv.org/abs/hep-th/9606173))
 
 * Ian I. Kogan, Dimitri Polyakov, _DBI Action from Closed Strings and D-brane second Quantization_, Int. J. Mod. Phys. A18 (2003) 1827 ([arXiv:hep-th/0208036](https://arxiv.org/abs/hep-th/0208036))
+
+#### Higher derivative corrections
+
+* Komeil Babaei Velni, Ali Jalali, _Higher derivative corrections to DBI action at $\alpha'{}^2$ order_, Phys. Rev. D 95, 086010 (2017) ([arXiv:1612.05898](https://arxiv.org/abs/1612.05898))
 
 
 ### For coincident (non-abelian) D-branes
