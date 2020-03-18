@@ -403,17 +403,20 @@ See also
 * Ian I. Kogan, Dimitri Polyakov, _DBI Action from Closed Strings and D-brane second Quantization_, Int. J. Mod. Phys. A18 (2003) 1827 ([arXiv:hep-th/0208036](https://arxiv.org/abs/hep-th/0208036))
 
 #### Higher derivative corrections
- {#ReferencesHigherDerivativeCorrections}
+{#ReferencesHigherDerivativeCorrections}
 
-On [[higher curvature corrections]] to the (abelian) DBI-action for D-branes:
+On [[higher curvature corrections]] to the (abelian) [[DBI-action]] for (single) [[D-branes]]:
 
 * [[Constantin Bachas]], P. Bain, [[Michael Green]], _Curvature terms in D-brane actions and their M-theory origin_, JHEP 9905:011, 1999 ([arXiv:hep-th/9903210](https://arxiv.org/abs/hep-th/9903210))
 
-* Mohammad R. Garousi, _S-duality of D-brane action at order $O(\alpha'{}^2)$_, Phys. Lett. B701:465-470, 2011 ([arXiv:1103.3121](https://arxiv.org/abs/1103.3121))
+* [[Mohammad Garousi]], _T-duality of curvature terms in D-brane actions_, JHEP 1002:002, 2010 ([arXiv:0911.0255](https://arxiv.org/abs/0911.0255))
 
-* Mohammad R. Garousi, _T-duality of curvature terms in D-brane actions_, JHEP 1002:002, 2010 ([arXiv:0911.0255](https://arxiv.org/abs/0911.0255))
+* [[Mohammad Garousi]], _S-duality of D-brane action at order $O(\alpha'{}^2)$_, Phys. Lett. B701:465-470, 2011 ([arXiv:1103.3121](https://arxiv.org/abs/1103.3121))
 
-* Ali Jalali, Mohammad R. Garousi, _On D-brane action at order $\alpha'{}^2$_, Phys. Rev. D 92, 106004 (2015) ([arXiv:1506.02130](https://arxiv.org/abs/1506.02130))
+* Ali Jalali, [[Mohammad Garousi]], _On D-brane action at order $\alpha'{}^2$_, Phys. Rev. D 92, 106004 (2015) ([arXiv:1506.02130](https://arxiv.org/abs/1506.02130))
+
+* [[Mohammad Garousi]], _An off-shell D-brane action at order $\alpha'{}^2$ in flat spacetime_, Phys. Rev. D 93, 066014 (2016) ([arXiv:1511.01676](https://arxiv.org/abs/1511.01676))
+
 
 * Komeil Babaei Velni, Ali Jalali, _Higher derivative corrections to DBI action at $\alpha'{}^2$ order_, Phys. Rev. D 95, 086010 (2017) ([arXiv:1612.05898](https://arxiv.org/abs/1612.05898))
 
