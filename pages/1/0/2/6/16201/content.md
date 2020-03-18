@@ -131,7 +131,7 @@ Discussion of higher curvature corrections in [[cosmology]] and [[cosmic inflati
 * Gustavo Arciniega, Pablo Bueno, Pablo A. Cano, Jose D. Edelstein, Robie A. Hennigar, Luisa G. Jaimem, _Geometric Inflation_ ([arXiv:1812.11187](https://arxiv.org/abs/1812.11187))
 
 
-### In 11d Supergravity
+### Higher curvature corrections to 11d Supergravity
 
 Discussion of higher curvature corrections to [[11-dimensional supergravity]] includes
 
@@ -181,22 +181,10 @@ and in view of [[de Sitter spacetime]] vacua:
 
 * Johan Blåbäck, [[Ulf Danielsson]], Giuseppe Dibitetto, Suvendu Giri, _Constructing stable de Sitter in M-theory from higher curvature corrections_ ([arXiv:1902.04053](https://arxiv.org/abs/1902.04053))
 
-### In D-brane DBI-actions
-
-On [[higher curvature corrections]] to the (abelian) [[DBI-action]] for (single) [[D-branes]]:
-
-* [[Constantin Bachas]], P. Bain, [[Michael Green]], _Curvature terms in D-brane actions and their M-theory origin_, JHEP 9905:011, 1999 ([arXiv:hep-th/9903210](https://arxiv.org/abs/hep-th/9903210))
-
-* [[Mohammad Garousi]], _T-duality of curvature terms in D-brane actions_, JHEP 1002:002, 2010 ([arXiv:0911.0255](https://arxiv.org/abs/0911.0255))
-
-* [[Mohammad Garousi]], _S-duality of D-brane action at order $O(\alpha'{}^2)$_, Phys. Lett. B701:465-470, 2011 ([arXiv:1103.3121](https://arxiv.org/abs/1103.3121))
-
-* Ali Jalali, [[Mohammad Garousi]], _On D-brane action at order $\alpha'{}^2$_, Phys. Rev. D 92, 106004 (2015) ([arXiv:1506.02130](https://arxiv.org/abs/1506.02130))
-
-* [[Mohammad Garousi]], _An off-shell D-brane action at order $\alpha'{}^2$ in flat spacetime_, Phys. Rev. D 93, 066014 (2016) ([arXiv:1511.01676](https://arxiv.org/abs/1511.01676))
 
 
-* Komeil Babaei Velni, Ali Jalali, _Higher derivative corrections to DBI action at $\alpha'{}^2$ order_, Phys. Rev. D 95, 086010 (2017) ([arXiv:1612.05898](https://arxiv.org/abs/1612.05898))
+[[!include DBI-action higher curvature corrections -- references]]
+
 
 
 [[!redirects higher order curvature corrections]]
