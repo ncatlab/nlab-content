@@ -47,7 +47,13 @@ On [[quantum field theory]]:
 
 * [[Tom Banks]], _Modern quantum field theory, A concise introduction_ ([pdf](http://web.phys.ntnu.no/~mika/banks.pdf))
 
-On the [[swampland conjectures]]/[[landscape of string theory vacua]] in view of [[non-perturbative effects]] in [[string theory]] (i.e. in [[M-theory]]):
+On the [[landscape of string theory vacua]] (or not):
+
+* [[Tom Banks]], _Landskepticism: or Why Effective Potentials Don't Count String Models_ ([arXiv:hep-th/0412129](https://arxiv.org/abs/hep-th/0412129))
+
+* [[Tom Banks]], _The Top $10^{500}$ Reasons Not to Believe in the Landscape_ ([arXiv:1208.5715](https://arxiv.org/abs/1208.5715))
+
+Specifically on the [[swampland conjectures]]/[[landscape of string theory vacua]] in view of [[non-perturbative effects]] in [[string theory]] (i.e. in [[M-theory]]):
 
 * [[Tom Banks]], _The Top $10^{500}$ Reasons Not to Believe in the Landscape_ ([arXiv:1208.5715](https://arxiv.org/abs/1208.5715))
 
