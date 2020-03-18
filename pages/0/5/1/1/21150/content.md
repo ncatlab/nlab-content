@@ -4,7 +4,9 @@ This page collectes material related to the book
 
   _The Multifaceted Skyrmion_, 
 
-  World Scientific 2016 
+  World Scientific 
+
+  Second edition, 2016 
 
   [doi:10.1142/9710](https://doi.org/10.1142/9710)
 
