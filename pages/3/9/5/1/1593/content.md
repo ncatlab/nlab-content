@@ -36,6 +36,65 @@ The quadratic pairing entering the [[11d Chern-Simons theory]] that governs the 
 
 ## Properties
 
+### Orientifold backreaction?
+ {#OrientifoldBackreactionOrNot}
+
+Essentially all existing results on orientifolds (such as [[O-plane]]-charges and [[RR-field tadpole cancellation]]) are derived for string [[sigma-models]] on [[flat orbifold]] ([[toroidal orbifold]]) or orientifolded [[Calabi-Yau manifold]] [[target spacetimes]], or for orientifoldings of algebraically defined [[rational CFT]] [[string vacua]] ([[Gepner models]], [[non-geometric vacua]]).
+
+#### No string-theory results on back-reacted orientifolds
+ {#NoResultOnBackreactedOrientifolds}
+ 
+There are to date no results in actual [[string theory]] for what one might expect to be the curved back-reacted geometry of [[orientifolds]], analogous to the curved [[near horizon geometry]] that is well-known for the case of [[black brane|black]] [[D-branes]].
+
+From [Banks-van den Broeck 06](#BanksBroeck06):
+
+> The discussion of these $[$orientifold$]$ compactifications is generally carried out in low energy [[effective field theory]] $[$[3a](https://arxiv.org/abs/hep-th/0412277), [3b](https://arxiv.org/abs/hep-th/0506066) $]$ $[$[4](https://arxiv.org/abs/hep-th/0412129)$]$, despite the fact that they all contain [[orientifold]] [[singularities]]. Further, there is no [[perturbative string theory|perturbative world sheet treatment]] of these backgrounds.
+
+> $[...]$
+
+> The inevitable orientifold of [[flux compactifications]] is one potential barrier to an [[effective field theory]] treatment $[$footnote 1 : [[Greg Moore|G. Moore]] and S. Ramanujam have emphasized to us the problems with the back reaction of the orientifold $[...$] $]$
+
+
+From [Cordova-de Luca-Tomasiello 19](#CordovaLucaTomasiello19) (p. 2 and p. 30):
+
+> To assess the validity  of these $[$assumed effective orientifold$]$ solutions in [[string theory]], one should  ideally use the full string theory action, or  switch to a [[duality in string theory|dual]] description. Unfortunately neither of  these options is available
+
+> $[...]$
+
+> the presence of [[O-planes]] is inferred by comparison with their flat-space behavior. Since the $[$spacetimes with orientifolds considered$]$ have strong curvature and coupling, [[higher curvature corrections|stringy corrections]] come into play, and it is impossible to decide with [[supergravity]] alone whether the solutions are valid.  
+
+> It is important to stress that this will be so for any solution with [[O-planes]]. It would be important, then,to develop techniques to decide  whether a solution with O-planes will survive in full string theory.  In other words, it would be important to understand what conditions one needs  to impose near the [[O-plane]] [[singularities]].
+
+> $[...]$
+
+>  We clearly need alternative procedures that are better justified physically.
+
+
+#### A popular assumption in effective field theory
+ {#AnAssumptionInEffectiveFieldTheory}
+
+Nevertheless, motivated from the fact that the computations for [[flat orbifolds]] show that the [[O-planes]] there are similar to (while clearly different from!) [[D-branes]] (*not* in their back-reacted form as [[black branes]], though!) with [[negative number|negative]] tension (i.e. negative [[energy]] density) it may seem plausible that the low energy [[effective field theory]] of [[perturbative string theory vacua]] including [[O-planes]] is a modification of [[supergravity]] where negative-energy source-terms are added to the [[equations of motion]] much like one might add [[black brane|black]] [[D-brane]]-contributions, but simply equipped with a negative sign prefactor.
+
+This _ad hoc_ effective field theory picture of orientifold backgrounds has been seminally advocated in [Giddings-Kachru-Polchinski 01](#GiddingsKachruPolchinski01) in a one-sentence argument (below (2.19)):
+
+> String theory does have such $[$negative tension$]$ objects, and so evades the no-go theorem $[$which rules out certain warped solutions of supergravity$]$.
+
+There this is followed by reference to a presumed example considered earlier in [Verlinde 00](#Verlinde00), where the statement is introduced in a similar manner (above (9)):
+
+> In a more complete treatment, we must also include the backreaction of the 64 orientifold planes. These have a negative tension equal to −1/4 times the D3-brane tension, which need to be taken into account. We can write an explicit form for the background metric $[$just as for D-branes but with a minus sign included$]$.
+
+One may feel this is plausible -- and it might even be right, sometimes -- but there does not exist a derivation of this statement from actual [[perturbative string theory]] (see [above](#NoResultOnBackreactedOrientifolds)), beyond the hand-waving leap of faith extrapolating from perturbative string theory on flat orientifolds to curved backreacted orientifold throat geometries (if such indeed exist).
+
+#### Its use in the landscape/swampland literature
+ {#UseInLandscapeSwamplandLiterature}
+
+Nevertheless, in the wave of the discussion of the [[landscape of string theory vacua|landscape]] (or not) of [[de Sitter spacetime|de Sitter]] [[string theory vacua]] and the [[swampland conjectures]] it became popular to rely on the handwaving argument of [Giddings-Kachru-Polchinski 01](#GiddingsKachruPolchinski01) and behave as if it is established that questions about [[effective field theory|low energy effective]] [[orientifold]] [[string theory vacua]] may be answered using a modification of [[supergravity]] where the [[equations of motion]] are changed -- by hand -- simply by including negative-tension source terms of some form. 
+
+This step happens for instance around (2.2) in [Junghans 20](#Junghans20) where it is justified without references, but with the words "As is standard in the literature" (footnote 5 in [Junghans 20](#Junghans20)).
+
+
+\linebreak
+
 ### Lifts to M-theory F-theory
 
 Lifts of orientifold background from [[type II string theory]] to [[F-theory]] go back to ([Sen 96](#Sen96), [Sen 97a](#Sen97a)). 
@@ -308,20 +367,17 @@ The "higher orientifold" appearing in [[Horava-Witten theory]] with circle 2-bun
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field|The E8 moduli 3-stack of the C-field in M-theory]]_ ([arXiv:1202.2455](http://arxiv.org/abs/1202.2455))
 
+### Orientifold backreaction
 
-### Orientifold backreaction?
+* {#Verlinde00} [[Herman Verlinde]], _Holography and Compactification_, Nucl. Phys. B580 (2000) 264-274 ([arXiv:hep-th/9906182](https://arxiv.org/abs/hep-th/9906182))
 
-Almost all existing results on orientifolds are derived for string [[sigma-models]] on [[flat orbifold]] ([[toroidal orbifold]]) [[target spacetimes]] (such as [[O-plane]]-charges and [[RR-field tadpole cancellation]]), or for algebraically defined [[rational CFT]] [[string vacua]] ([[non-geometric vacua]]).
- 
-There seems to be little to no result in actual [[string theory]] for the behaviour of [[orientifolds]] in curved [[target spacetimes]].
+* {#GiddingsKachruPolchinski01} [[Steven Giddings]], [[Shamit Kachru]], [[Joseph Polchinski]], _Hierarchies from Fluxes in String Compactifications_, Phys. Rev. D66:106006, 2002 ([arXiv:hep-th/0105097](https://arxiv.org/abs/hep-th/0105097))
 
-From the fact that the computations for [[flat orbifolds]] show that the [[O-planes]] there are similar to (while clearly different from) [[D-branes]] with [[negative number|negative]] tension (i.e. negative [[energy]] density) it may seem plausible that the low energy [[effective field theory]] of [[perturbative string theory vacua]] including [[O-planes]] is a modification of [[supergravity]] where negative-energy source-terms are added to the [[equations of motion]] -- in some way.
+* {#BanksBroeck06} [[Tom Banks]], K. van den Broek, _Massive IIA flux compactifications and U-dualities_, JHEP 0703:068, 2007 ([arXiv:hep-th/0611185](https://arxiv.org/abs/hep-th/0611185))
 
-This effecive field theory picture of orientifold backgrounds has been advocated in
+* {#CordovaLucaTomasiello19} [[Clay Cordova]], G. Bruno De Luca, [[Alessandro Tomasiello]], _New de Sitter Solutions in Ten Dimensions and Orientifold Singularities_ ([arXiv:1911.04498](https://arxiv.org/abs/1911.04498))
 
-* [[Steven Giddings]], [[Shamit Kachru]], [[Joseph Polchinski]], _Hierarchies from Fluxes in String Compactifications_, Phys. Rev. D66:106006, 2002 ([arXiv:hep-th/0105097](https://arxiv.org/abs/hep-th/0105097))
-
-
+* {#Junghans20} Daniel Junghans, _O-plane Backreaction and Scale Separation in Type IIA Flux Vacua_ ([arXiv:2003.06274](https://arxiv.org/abs/2003.06274))
 
 
 
