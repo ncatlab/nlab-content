@@ -39,7 +39,8 @@ $$
 
 \linebreak
 
-$$
+\[
+  \label{FaradayInTermsOfEAndB}
   \begin{aligned}
     F
     \;=\;
@@ -47,7 +48,7 @@ $$
     \;+\;
     \tfrac{1}{2} B^i \epsilon_{i j k} \, d x^j \wedge d x^k
   \end{aligned}
-$$
+\]
 
 \linebreak
 
@@ -175,15 +176,21 @@ $$
 
 ## For constant field strengths
 
-Consider constant field strength
+Consider constant field strength (eq:FaradayInTermsOfEAndB)
 
-$$
-  F_{\mu \nu}
+\[
+  \label{ConstantFieldStrength}
+  F
   \;=\;
-  E_i \, d x^i
+  E_i \, d x^i \wedge d x^0
   \;+\;
-  \tfrac{1}{2} B^i \, d x^j \wedge d x^k
-$$
+  \tfrac{1}{2} B^i \epsilon_{i j k} \, d x^j \wedge d x^k
+  \,,
+  \phantom{AAA}
+  d E_i = 0
+  \,,\;\;
+  d B^i = 0
+\]
 
 \linebreak
 
