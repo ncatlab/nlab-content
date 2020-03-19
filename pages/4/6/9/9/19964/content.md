@@ -260,6 +260,10 @@ Further development:
 
 * {#Manton17} [[Nicholas Manton]], _Lightly Bound Skyrmions, Tetrahedra and Magic Numbers_ ([arXiv:1707.04073](https://arxiv.org/abs/1707.04073))
 
+* Avner Karasik, _Skyrmions, Quantum Hall Droplets, and one current to rule them all_ ([arXiv:2003.07893](https://arxiv.org/abs/2003.07893))
+
+
+
 [[scattering amplitudes]]:
 
 * T.Gisiger, M. B. Paranjape, _Skyrmion-Skyrmion Scattering_ ([arXiv:hep-th/9310050](https://arxiv.org/abs/hep-th/9310050))
