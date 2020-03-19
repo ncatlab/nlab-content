@@ -35,8 +35,8 @@ can be completed to a morphism of $S$-sequences.
 (SP4) For any two morphisms $X\stackrel{f}\to Y$ and
 $Y\stackrel{g}\to Z$ there is a commuting diagram
 $$\array{
-X&\stackrel{f}\to &Y&\stackrel{g}\to &Z'&\to& S X\\
-=\downarrow&&f\downarrow&&\downarrow&&=\downarrow \\
+X&\stackrel{f}\to &Y&\stackrel{i}\to &Z'&\to& S X\\
+=\downarrow&&g\downarrow&&\downarrow&&=\downarrow \\
  X&\to &Z&\to &Y'&\to& S X\\
 &&\downarrow&&\downarrow&&\downarrow S f\\
  & &X'&\stackrel{id}\to &X'&\stackrel{j}\to& S Y\\
