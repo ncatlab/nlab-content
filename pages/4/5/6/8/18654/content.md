@@ -103,8 +103,8 @@ Especially in [[chiral perturbation theory]], the pion field is typically repres
   \,,
 \]
 
-called the _exponentiated pion field_ or often just _the chiral field_
-(e.g. [Adkins-Nappi 84, p. 3](#AdkinsNappi84), [Machleidt-Entem 11, (2.29)](#MachleidtEntem11), [Rho et al. 16, around (1)](#RhoEtAl16)).
+([Witten 83, (2)](#Witten83), [Adkins-Nappi 84, (1)-(3)](#AdkinsNappi84))
+nowadays called the _exponentiated pion field_ or often just _the chiral field_, for review see [Machleidt-Entem 11, (2.29)](#MachleidtEntem11), [Rho et al. 16, around (1)](#RhoEtAl16).
 
 
 
@@ -128,7 +128,7 @@ from (the [[time]]-axis [[product manifold|times]]) the [[3-sphere]] to [[SU(2)]
 
 ### Relation to baryon current
 
-Explicitly, the "topological"-part $B_{top}$ of the [[baryon]] [[current]] (the piece that is not generally [[conserved current|conserved]], reflecting the [[chiral anomaly]]), is the [[Wess-Zumino-Witten term]] (eq:ExponentiatedPionField):
+Explicitly, the "topological"-part $B_{top}$ of the [[baryon]] [[current]] (the piece that is not generally [[conserved current|conserved]], reflecting the [[chiral anomaly]]), is the [[Wess-Zumino-Witten term]] ([Witten 83b](#Witten83a), [Witten 83b](#Witten83b)):
 
 $$
   \begin{aligned}
@@ -187,9 +187,15 @@ See also
 
 ### Exponentiated pion field and Skyrmions
 
-* {#Witten83} [[Edward Witten]], _Global aspects of current algebra_, Nuclear Physics B Volume 223, Issue 2, 22 August 1983, Pages 422-432 (<a href="https://doi.org/10.1016/0550-3213(83)90063-9">doi:10.1016/0550-3213(83)90063-9</a>)
+Discussion of the exponentiated pion field ("chiral field") and the interpretation of its [[winding number]] as [[Skyrmion]]-number / [[baryon]]
+
+* {#Witten83a} [[Edward Witten]], _Global aspects of current algebra_, Nuclear Physics B Volume 223, Issue 2, 22 August 1983, Pages 422-432 (<a href="https://doi.org/10.1016/0550-3213(83)90063-9">doi:10.1016/0550-3213(83)90063-9</a>)
+
+* {#Witten83b} [[Edward Witten]], _Current algebra, baryons, and quark confinement_, Nuclear Physics B Volume 223, Issue 2, 22 August 1983, Pages 433-444 (<a href="https://doi.org/10.1016/0550-3213(83)90064-0">doi:10.1016/0550-3213(83)90064-0</a>)
 
 * {#AdkinsNappi84} [[Gregory Adkins]], [[Chiara Nappi]], _Stabilization of Chiral Solitons via Vector Mesons_, Phys. Lett. 137B (1984) 251-256 ([spire:194727](http://inspirehep.net/record/194727), <a href="https://doi.org/10.1016/0370-2693(84)90239-9">doi:10.1016/0370-2693(84)90239-9</a>)
+
+  (beware that the two copies of the text at these two sources differ!)
 
 
 * {#RhoEtAl16} [[Mannque Rho]] et al., _Introduction_, In: [[Mannque Rho]] et al. (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
@@ -210,6 +216,9 @@ Discussion via the [[AdS/QCD correspondence]]:
 
 [[!redirects pion field]]
 [[!redirects pion fields]]
+
+[[!redirects chiral field]]
+[[!redirects chiral fields]]
 
 [[!redirects exponentiated pion field]]
 [[!redirects exponentiated pion fields]]
