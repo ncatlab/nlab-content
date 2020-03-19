@@ -1,3 +1,5 @@
+[[!redirects functorial perspective]]
+[[!redirects functorial semantics]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
