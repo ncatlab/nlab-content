@@ -24,14 +24,14 @@ A _density_ on a [[manifold]] of [[dimension]] $n$ is a [[function]] that to eac
 
 ## Definition
 
-For $X$ a [[manifold]] its **density bundle** is the  real [[line bundle]] [[associated bundle|associated]] to the [[principal bundle]] underlying the [[tangent bundle]] by the 1-dimensional [[representation]] of the [[general linear group]] given by the [[determinant]] [[homomorphism]]
+For $X$ a [[manifold]] its **density bundle** is the  real [[line bundle]] [[associated bundle|associated]] to the [[principal bundle]] underlying the [[tangent bundle]] by the 1-dimensional [[representation]] of the [[general linear group]] given by the [[determinant]] [[homomorphism]] ([[sign representation]]):
 
 $$
   det \;\colon\; GL(n) \to GL(1) \simeq Aut_{Vect}(\mathbb{R}^1)
   \,.
 $$
 
-A [[section]] of the density bundle on $X$ is called a _density on $X$_. 
+A [[section]] of the density bundle on $X$ is called a _density on $X$_ (in [[physics]] also: a [[pseudoscalar]]). 
 
 This is the general object against which one has [[integration]] of functions on $X$.
 
@@ -65,6 +65,8 @@ One can define the [[integration]] against a fixed chosen [[measure]], but more 
 
 * [[canonical bundle]], [[determinant line bundle]]
 
+* [[pseudoscalar field]]
+
 * [[canonical Hilbert-space of half-densities]]
 
 * [[Verdier duality]]
@@ -80,8 +82,8 @@ A textbook account is for instance on p. 29 of
 
 Discussion of half-densities in the context of [[geometric quantization]] is in 
 
-* Sean Bates, [[Alan Weinstein]], _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
- {#BatesWeinstein}
+* {#BatesWeinstein} Sean Bates, [[Alan Weinstein]], _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
+ 
 
 
 [[!redirects density]]
