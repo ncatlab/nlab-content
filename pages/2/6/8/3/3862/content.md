@@ -173,7 +173,10 @@ See at _[[vacuum energy]]_
 
 * [[density bundle]]
 
+* [[pseudoscalar]]
+
 * [[theta function]]
+
 
 [[!include square roots of line bundles - table]]
 
