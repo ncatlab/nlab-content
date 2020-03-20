@@ -98,7 +98,7 @@ to the unknown [[phase of matter|state of matter]] at the cores of [[neutron sta
 \linebreak
 
 
-* {#MachleidtEntem11} R. Machleidt, D. R. Entem, _Chiral effective field theory and nuclear forces_, Phys. Rept. 503:1-75, 2011 ([arXiv:1105.2919](https://arxiv.org/abs/1105.2919))
+* {#MachleidtEntem11} [[Rupert Machleidt]], [[David Rodríguez Entem]], _Chiral effective field theory and nuclear forces_, Phys. Rept. 503:1-75, 2011 ([arXiv:1105.2919](https://arxiv.org/abs/1105.2919), [doi:10.1016/j.physrep.2011.02.001](https://doi.org/10.1016/j.physrep.2011.02.001))
 
 > The problem with a derivation of [[nuclear forces]] from [[QCD]] is that this theory is [[non-perturbative QFT|non-perturbative]] in the low-energy regime characteristic of [[nuclear physics]], which makes direct solutions very difficult. Therefore, during the first round of new attempts, [[QCD]]-inspired [[quark]] models became popular. The positive aspect of these models is that they try to explain [[hadron]] structure and hadron-hadron [[interactions]] on an equal footing and, indeed, some of the gross features of the [[nucleon]]-[[nucleon]] interaction are explained successfully. However, on a critical note, it must be pointed out that these quark-based approaches are nothing but another set of models and, thus, do not represent fundamental progress. For the purpose of describing hadron-hadron interactions, one may equally well stay with the simpler and much more quantitative [[meson]] models.
 
