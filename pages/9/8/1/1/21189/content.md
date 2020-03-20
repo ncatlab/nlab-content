@@ -121,8 +121,7 @@ Introduction and review:
 
 * Johan Bijnens, _Status of Strong ChPT_, PoS EFT09 (2009) 022 ([spire:818610](http://inspirehep.net/record/818610/))
 
-* R. Machleidt, D. R. Entem, _Chiral effective field theory and nuclear forces_, Phys. Rept. 503:1-75, 2011 ([arXiv:1105.2919](https://arxiv.org/abs/1105.2919))
-
+* {#MachleidtEntem11} [[Rupert Machleidt]], [[David Rodríguez Entem]], _Chiral effective field theory and nuclear forces_, Phys. Rept. 503:1-75, 2011 ([arXiv:1105.2919](https://arxiv.org/abs/1105.2919), [doi:10.1016/j.physrep.2011.02.001](https://doi.org/10.1016/j.physrep.2011.02.001))
 
 See also:
 
