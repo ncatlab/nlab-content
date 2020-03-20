@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On [[semi-holomorphic 4d Chern-Simons theory]]:
+
+* [[Meer Ashwinkumar]], _Integrable Lattice Models and Holography_ ([arXiv:2003.08931](https://arxiv.org/abs/2003.08931))
+
 On [[D-brane]]-realizations of [[semi-holomorphic 4d Chern-Simons theory]]:
 
 * [[Meer Ashwinkumar]], [[Meng-Chwan Tan]], Qin Zhao, _Branes and Categorifying Integrable Lattice Models_ ([arXiv:1806.02821](https://arxiv.org/abs/1806.02821))
