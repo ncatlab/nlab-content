@@ -32,6 +32,8 @@ $$
 
 ## Related concepts
 
+* [[scalar]]
+
 * The product of the scalar curvature with the [[volume form]] is the [[Lagrangian]] of the [[theory (physics)]] of [[gravity]]. The corresponding [[action functional]] is the [[Einstein-Hilbert action]].
 
 * [[Lichnerowicz formula]]
