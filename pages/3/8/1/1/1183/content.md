@@ -207,6 +207,11 @@ The content of this section is at
 
 ## References 
 
+The concept of [[sigma-models]] originates with the introduction of the [[σ-meson]] to [[chiral perturbation theory]] in
+
+* [[Murray Gell-Mann]], M. Lévy, _The axial vector current in beta decay_, Il Nuovo Cimento (1955-1965) volume 16, pages 705–726 (1960) ([doi:10.1007/BF02859738](https://doi.org/10.1007/BF02859738))
+
+
 A standard reference on 2-dimensional [[string]] $\sigma$-models is 
 
 
