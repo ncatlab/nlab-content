@@ -48,7 +48,7 @@ $$
 
 To be precise, this is the condition for a *left action*; a *right action* is defined dually in terms of a map $Y\times X\to Y$.  If $X$ has no algebraic structure, or if its relevant structure is commutative, then there is no essential difference between the two; but in general they can be quite different.
 
-This _action property_ can also often be identified with a [[functor]] property: it characterizes a [[functor]] from the [[delooping]] $\mathbf{B}X$ of the [[monoid]] $X$ to the [[category]] (such as [[Set]])  of which $Y$ is an object.
+This _action property_ can also often be identified with a [[functor]] property: it characterizes a [[functor]] from the [[delooping]] $\mathbf{B}X$ of the [[monoid]] $X$ to the [[category]] (such as [[Set]])  of which $Y$ is an object. The distinction between left and right actions is mirrored in the variance; acting on the left yields a covariant functor, whereas acting on the right is expressed via contravariance.
 
 In this way essentially every kind of [[functor]], [[n-functor]] and [[enriched functor]] may be thought of as defining a generalized kind of action. This perspective on actions is particularly prevalent in [[enriched category theory]], where for instance [[coends]] may be thought of as producing [[tensor products]] of actions in this general functorial sense.
 
