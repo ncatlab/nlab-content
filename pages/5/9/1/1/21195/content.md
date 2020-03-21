@@ -29,6 +29,12 @@ based on the assumption that -[[vector mesons]] dominate the [[interaction]] of 
 
 ### Derivation from holography
 
+From [OCPTW 95](#OCPTW95):
+
+> No direct translation between the [[standard model of particle physics|Standard Model]] and [[vector meson dominance|VMD]] has yet been made.
+
+\linebreak
+
 From [Rho et al. 16](AdS-QCD#RhoEtAl16):
 
 > One can make $[$[[chiral perturbation theory]]$]$ consistent with [[QCD]] by suitably matching the [[correlators]] of the [[effective field theory|effective theory]] to those of [[QCD]] at a [[scale]] near $\Lambda$. Clearly this procedure is not limited to only one set of [[vector mesons]]; in fact, one can readily generalize it to an infinite number of hidden [[gauge fields]] in an [[effective field theory|effective]] [[Lagrangian density|Lagrangian]]. In so doing, it turns out that a fifth dimension is "deconstructed" in a (4+1)-dimensional (or 5D) [[Yang-Mills theory|Yang–Mills]] type form. We will see in Part III that such a structure arises, [[top-down model building|top-down]], in [[string theory]].
@@ -57,10 +63,12 @@ Original articles:
 
 * [[Murray Gell-Mann]], Fredrik Zachariasen, _Form Factors and Vector Mesons_, Phys. Rev. 124, 953 (1961) ([doi:10.1103/PhysRev.124.953](https://doi.org/10.1103/PhysRev.124.953))
 
-* [[Jun John Sakurai]], _Currents and Mesons_, Chicago Lectures in Physics ([ISBN: 9780226733838](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3622598.html))
+* [[Jun John Sakurai]], Chapter III of: _Currents and Mesons_, Chicago Lectures in Physics, based on notes by George Barry, University of Chicago Press (1969) ([ISBN: 9780226733838](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3622598.html))
 
 
 Review:
+
+* {#OCPTW95} H. B. O'Connell, B. C. Pearce, A. W. Thomas, A. G. Williams, _Rho-omega mixing, vector meson dominance and the pion form-factor_, Prog. Part. Nucl. Phys.39:201-252, 1997 ([arXiv:hep-ph/9501251](https://arxiv.org/abs/hep-ph/9501251))
 
 * Dieter Schildknecht, _Vector Meson Dominance_, Acta Phys. Polon. B37:595-608, 2006 ([arXiv:hep-ph/0511090](https://arxiv.org/abs/hep-ph/0511090))
 
