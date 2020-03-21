@@ -63,6 +63,11 @@ automatically the Wess–Zumino term, with the correct coefficient!
 
 ## References
 
+Origin of [[effective field theory]] of [[mesons]] in [[nuclear physics]], via [[hidden local gauge symmetry]]:
+
+* [[Jun John Sakurai]], _Theory of strong interactions_, Annals Phys. 11 (1960) 1-48 ([spire:3218](http://inspirehep.net/record/3218), <a href="https://doi.org/10.1016/0003-4916(60)90126-3">doi:10.1016/0003-4916(60)90126-3</a>)
+
+
 Original articles:
 
 * Masako Bando, T. Kugo, S. Uehara, Koichi Yamawaki, and T. Yanagida, _Is the $\rho$ Meson a Dynamical Gauge Boson of Hidden Local Symmetry?_, Phys. Rev. Lett. 54, 1215 (1985) ([doi:10.1103/PhysRevLett.54.1215](https://doi.org/10.1103/PhysRevLett.54.1215))
@@ -91,3 +96,5 @@ Interpretation/derivation in [[holographic QCD]]:
 * Hyun Kyu Lee, [[Mannque Rho]], Section 6.2.1 of: _Half-Skyrmion Hadronic Matter at High Density_ ([doi:10.1142/9789814280709_0006](https://doi.org/10.1142/9789814280709_0006)), Chapter 6 in: [[Mannque Rho]] et al., _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
 [[!redirects hidden local symmetries]]
+
+[[!redirects hidden local gauge symmetry]]
