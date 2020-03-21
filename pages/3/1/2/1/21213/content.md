@@ -76,17 +76,30 @@ $$
   \end{aligned}
 $$
 
-([FFHNR 67](#FFHNR67))
+([Nambu 57, (a)](#Nambu57), [FFHNR 67](#FFHNR67))
 
 ## Related concepts
 
 * [[pion]], [[rho-meson]]
 
+
 ## References
 
 ### General
 
+The $\omega$-meson was first postulated by 
+
+* {#Nambu57} [[Yoichiro Nambu]], _Possible Existence of a Heavy Neutral Meson_, Phys. Rev. 106, 1366 (1957) ([doi:10.1103/PhysRev.106.1366](https://doi.org/10.1103/PhysRev.106.1366))
+
+as reviewed in
+
+* [[Jun John Sakurai]], p. 48-49 of: _Currents and Mesons_, Chicago Lectures in Physics, based on notes by George Barry, University of Chicago Press (1969) ([ISBN: 9780226733838](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3622598.html))
+
+  (in the context of [[vector meson dominance]])
+
 See also
+
+* Reinhard Alkofer, H. Reinhardt, H. Weigel, U. Zuckert, _The Isoscalar vector meson omega in the Nambu-Jona-Lasinio soliton_, Phys. Lett. B298 (1992) 132-140 ([spire:343052](http://inspirehep.net/record/343052), <a href="https://doi.org/10.1016/0370-2693(93)91719-4">doi:10.1016/0370-2693(93)91719-4</a>)
 
 * Wikipedia, _[Omega meson](https://en.wikipedia.org/?title=Omega_meson)_
 
