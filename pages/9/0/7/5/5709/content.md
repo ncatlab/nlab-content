@@ -1358,8 +1358,6 @@ Review includes
 * Andrey Grozin, _Effective field theories_ ([arXiv:2001.00434](https://arxiv.org/abs/2001.00434))
 
 
-
-
 A standard textbook adopting this perspective is
 
 * [[Steven Weinberg]], _The Quantum Theory of Fields_ (Cambridge University
@@ -1372,6 +1370,11 @@ whose author describes his goal as:
 Another book which takes the effective-field-theory approach to QFT is
 
 * Anthony Zee, _Quantum Field Theory in a Nutshell_ (Princeton University Press, second edition, 2010).
+
+Discussion for [[nuclear physics]]:
+
+* [[Mannque Rho]], _Lectures on Effective Field Theories for Nuclei, Nuclear Matter and Dense Matter_, 2002 ([arXiv:nucl-th/0202078](https://arxiv.org/abs/nucl-th/0202078), [cds:539674](https://cds.cern.ch/record/539674))
+
 
 Discussion with an eye towards [[condensed matter physics]] is in
 
