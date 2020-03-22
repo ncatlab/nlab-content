@@ -67,7 +67,7 @@ As discussed at _[[integral transforms on sheaves]]_ this kind of [[integral tra
 
 Indeed, the central kind of result of the theory (theorem \ref{OrlovTheorem}) says that every suitable linear functor $D(X)\to D(Y)$ arises as a Fourier-Mukai transform for some $E$, a statement which is the [[categorification]] of the standard fact from [[linear algebra]] that every [[linear function]] between finite dimensional [[vector spaces]] is represented by a [[matrix]].
 
-The original Fourier-Mukai transform proper is the special case of the above where $X$ is an [[abelian variety]], $Y = A^\vee$ its [[dual abelian variety]] and $E$ is the corresponding [[Poincaré line bundle]].
+The original Fourier-Mukai transform proper is the special case of the above where $X$ is an [[abelian variety]], $Y = X^\vee$ its [[dual abelian variety]] and $E$ is the corresponding [[Poincaré line bundle]].
 
 If $X$ is a [[moduli space of bundles|moduli space of line bundles]] over a suitable [[algebraic curve]], then a slight variant of the Fourier-Mukai transform is the [[geometric Langlands correspondence]] in the abelian case ([Frenkel 05, section 4.4, 4.5](#Frenkel05)).
 
