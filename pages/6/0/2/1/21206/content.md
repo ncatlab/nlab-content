@@ -43,6 +43,14 @@ Taken at face value a fundamental [[field (physics)]] with such an equation of s
 
 But apparent phantom dark energy may appear as an effective description of more fundamental effects, for instance of an [[inhomogeneous cosmology]] ([Ludwick 15](#Ludwick15), [Ludwick 18](#Ludwick18), review in [Ludwick 17, Section 6](#Ludwick17))
 
+## Related concepts
+
+* [[dark energy]]
+
+* [[quintessence]]
+
+* [[Witten's Dark Fantasy]]
+
 ## References
 
 
