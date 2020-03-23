@@ -62,7 +62,7 @@ The classical examples of elliptic complexes are discussed also in ([Gilkey sect
 
 ### de Rham complex
 
-Let $X$ be a compact smooth manifold. Then the [[de Rham complex]] is an ellptic complex. The corresponding [[index of an elliptic complex]] is the [[Euler characteristic]]
+Let $X$ be a compact smooth manifold. Then the [[de Rham complex]] is an elliptic complex. The corresponding [[index of an elliptic complex]] is the [[Euler characteristic]]
 
 $$
   Ind(\Omega^\bullet(X),d)  
