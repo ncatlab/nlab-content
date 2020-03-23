@@ -118,6 +118,8 @@ If the apparent small positive [[cosmological constant]] were but an artifact of
 
 * [[phantom dark energy]]
 
+* [[quintessence]]
+
 * [[FRW model]]
 
 * [[cosmology]]
