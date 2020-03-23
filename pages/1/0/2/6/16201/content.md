@@ -131,6 +131,16 @@ Discussion of higher curvature corrections in [[cosmology]] and [[cosmic inflati
 * Gustavo Arciniega, Pablo Bueno, Pablo A. Cano, Jose D. Edelstein, Robie A. Hennigar, Luisa G. Jaimem, _Geometric Inflation_ ([arXiv:1812.11187](https://arxiv.org/abs/1812.11187))
 
 
+### Higher curvature corrections to 4d supergravity
+
+Discussion of [[higher curvature corrections]] to [[D=4 supergravity]]:
+
+Relation to [[quintessence]]:
+
+* [[Fotis Farakos]], _Quintessence from higher curvature supergravity_ ([arXiv:2003.09366](https://arxiv.org/abs/2003.09366))
+
+
+
 ### Higher curvature corrections to 11d Supergravity
 
 Discussion of higher curvature corrections to [[11-dimensional supergravity]] includes
