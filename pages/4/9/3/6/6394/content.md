@@ -5,6 +5,18 @@ Paul Howe is emeritus professor in theoretical [[physics]] at King's College Lon
 
 ## Selected writings
 
+On the [[3-brane in 6d]] as a [[black brane]] in an [[M5-brane]]/[[NS5-brane]] [[worldvolume]] 
+
+* {#HoweLambertWest97} [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _The Threebrane Soliton of the M-Fivebrane_, Phys. Lett. B419 (1998) 79-83 ([arXiv:hep-th/9710033](http://arxiv.org/abs/hep-th/9710033))
+  
+and of its relation to [[D=4 N=2 super Yang-Mills theory]]:
+
+* [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _Classical M-Fivebrane Dynamics and Quantum $N=2$ Yang-Mills_, Phys. Lett. B418 (1998) 85-90 ([arXiv:hep-th/9710034](https://arxiv.org/abs/hep-th/9710034))
+
+
+* {#LambertWest98} [[Neil Lambert]], [[Peter West]], _$N=2$ Superfields and the M-Fivebrane_, Phys. Lett. B424 (1998) 281-287 ([arXiv:hep-th/9801104](https://arxiv.org/abs/hep-th/9801104))
+
+
 On how the [[torsion constraints in supergravity]] for [[11-dimensional supergravity]] already imply the [[equations of motion]]:
 
 * {#Howe97} [[Paul Howe]], _Weyl Superspace_, Physics Letters B, Volume 415, Issue 2, 11 December 1997, Pages 149&#8211;155 ([arXiv:hep-th/9707184](http://arxiv.org/abs/hep-th/9707184))
