@@ -5,6 +5,20 @@ Neil Lambert is professor for theoretical [[physics]] at King's College London.
 
 ## Selected writings
 
+On the [[3-brane in 6d]] as a [[black brane]] in an [[M5-brane]]/[[NS5-brane]] [[worldvolume]] 
+
+* {#HoweLambertWest97} [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _The Threebrane Soliton of the M-Fivebrane_, Phys. Lett. B419 (1998) 79-83 ([arXiv:hep-th/9710033](http://arxiv.org/abs/hep-th/9710033))
+  
+and of its relation to [[D=4 N=2 super Yang-Mills theory]]:
+
+* [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _Classical M-Fivebrane Dynamics and Quantum $N=2$ Yang-Mills_, Phys. Lett. B418 (1998) 85-90 ([arXiv:hep-th/9710034](https://arxiv.org/abs/hep-th/9710034))
+
+* [[Neil Lambert]], [[Peter West]], _Gauge Fields and M-Fivebrane Dynamics_, Nucl. Phys. B524 (1998) 141-158 ([arXiv:hep-th/9712040](https://arxiv.org/abs/hep-th/9712040))
+
+* {#LambertWest98} [[Neil Lambert]], [[Peter West]], _$N=2$ Superfields and the M-Fivebrane_, Phys. Lett. B424 (1998) 281-287 ([arXiv:hep-th/9801104](https://arxiv.org/abs/hep-th/9801104))
+
+* [[Neil Lambert]], [[Peter West]], _Monopole Dynamics from the M-Fivebrane_, Nucl. Phys. B556 (1999) 177-196 ([arXiv:hep-th/9811025](https://arxiv.org/abs/hep-th/9811025))
+
 
 On [[Dp-D(p+2) brane intersections]] (such as [[D1-D3 brane intersections]]) as spikes/[[BIons]] from the [[M5-brane]]:
 
