@@ -176,6 +176,23 @@ Discussion of construction of just [[N=1 D=4 super Yang-Mills theory]] this way 
 * Ibrahima Bah, Christopher Beem, Nikolay Bobev, Brian Wecht, _Four-Dimensional SCFTs from M5-Branes_ ([arXiv:1203.0303](http://arxiv.org/abs/1203.0303))
 
 
+### Relation to 3-branes in M5-branes (M5 self-intersections)
+
+Relation to the [[3-brane in 6d]]:
+
+* [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _Classical M-Fivebrane Dynamics and Quantum $N=2$ Yang-Mills_, Phys. Lett. B418 (1998) 85-90 ([arXiv:hep-th/9710034](https://arxiv.org/abs/hep-th/9710034))
+
+* [[Neil Lambert]], [[Peter West]], _Gauge Fields and M-Fivebrane Dynamics_, Nucl. Phys. B524 (1998) 141-158 ([arXiv:hep-th/9712040](https://arxiv.org/abs/hep-th/9712040))
+
+* {#LambertWest98} [[Neil Lambert]], [[Peter West]], _$N=2$ Superfields and the M-Fivebrane_, Phys. Lett. B424 (1998) 281-287 ([arXiv:hep-th/9801104](https://arxiv.org/abs/hep-th/9801104))
+
+* [[Neil Lambert]], [[Peter West]], _Monopole Dynamics from the M-Fivebrane_, Nucl. Phys. B556 (1999) 177-196 ([arXiv:hep-th/9811025](https://arxiv.org/abs/hep-th/9811025))
+
+and via [[F-theory]] in
+
+* Robert de Mello Koch, Alastair Paulin-Campbell, Joao P. Rodrigues, _Monopole Dynamics in $\mathcal{N}=2$ super Yang-Mills Theory From a Threebrane Probe_, Nucl. Phys. B559 (1999) 143-164 ([arXiv:hep-th/9903207](https://arxiv.org/abs/hep-th/9903207))
+
+
 [[!redirects N=2 D=4 sYM]]
 
 [[!redirects D=4 N=2 SYM]]
