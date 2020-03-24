@@ -35,7 +35,8 @@ The [[standard model of cosmology]] assumes that cosmic inhomogeneities may be n
 
 Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15](standard+model+of+cosmology#BCKRW15), [Riess et. al. 16](#RiessEtAl16)) related to _[[dark energy]]_ (a [[cosmological constant]], and possibly related issues such as [[cosmic inflation]] and the observational preference for [[phantom dark energy]]), it has been suggested that these may be but an artefact of the overly idealistic approximation of cosmic homogeneity, and that a more accurate inhomogeneous cosmology would not need to assume any [[dark energy]]/[[cosmological constant]].
 
-References suggesting/discussing/checking this idea include the following: [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Räsänen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Notari 09](#Notari09), [Blomqvist 10](#Blomqvist10), [Buchert 11](#Buchert11), [Buchert-Räsänen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Smoller-Temple-Vogler 14](#SmollerTempleVogler14), [Ludwick 15](#Ludwick15) [Moffat 16](#Moffat16), [Ludwick 18](#Ludwick18) [Colin-Mohayaee-Rameez-Sarkar 19](#SarkarEtAl18), [Sarkar 18](#Sarkar18), [Lombriser 19](#Lombriser19), [Deledicque 19](#Deledicque19), [Heinesen-Buchert 20](#HeinesenBuchert20).
+References suggesting/discussing/checking this idea include the following: [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Räsänen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Notari 09](#Notari09), [Blomqvist 10](#Blomqvist10), [Buchert 11](#Buchert11), [Buchert-Räsänen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Smoller-Temple-Vogler 14](#SmollerTempleVogler14), [Ludwick 15](#Ludwick15) [Moffat 16](#Moffat16), [Ludwick 18](#Ludwick18) [Colin-Mohayaee-Rameez-Sarkar 19](#SarkarEtAl18), [Colin-Mohayaee-Rameez-Sarkar 19b](#ColinMoymhayeeRamezSarkar19),
+ [Sarkar 18](#Sarkar18), [Lombriser 19](#Lombriser19), [Deledicque 19](#Deledicque19), [Heinesen-Buchert 20](#HeinesenBuchert20).
 
 Discussion specifically of cosmic inhomogenity as the possible cause of the $H_0$-tension is in [Bolejko 17](#Bolejko17).
 
@@ -368,6 +369,9 @@ Dark Energy?_, 2009 ([[NotariInhomogeneousCosmology.pdf:file]])
 * {#Sarkar18} [[Subir Sarkar]], _Is the universe isotropic?_, talk at _[Current Themes in High Energy Physics and Cosmology 2018](https://indico.nbi.ku.dk/event/973/)_ ([pdf](https://indico.nbi.ku.dk/event/973/contributions/8344/attachments/2648/3858/Sarkar_Copenhagen18_cosmo.pdf))
 
 * {#Rameez19} [[Mohamed Rameez]], _On the Real Inhomogeneous Universe and the Weirdness of 'Dark Energy'_ ([Nov. 14, 2019](https://4gravitons.com/2019/11/15/guest-post-on-the-real-inhomogeneous-universe-and-the-weirdness-of-dark-energy/))
+
+* {#ColinMoymhayeeRamezSarkar19} Jacques Colin, Roya Mohayaee, [[Mohamed Rameez]], [[Subir Sarkar]], _A response to Rubin & Heitlauf: "Is the expansion of the universe accelerating? All signs still point to yes"_ ([arXiv:1912.04257](https://arxiv.org/abs/1912.04257))
+
 
 * {#Lombriser19} Lucas Lombriser, _On the cosmological constant problem_, Phys. Lett. B 797, 134804 (2019) ([arXiv:1901.08588](https://arxiv.org/abs/1901.08588), [doi:10.1016/j.physletb.2019.134804](https://doi.org/10.1016/j.physletb.2019.134804)) 
 
