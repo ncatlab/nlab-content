@@ -138,7 +138,15 @@ The [[statistical significances]] of pull away from the [[standard model of part
 <img src="https://ncatlab.org/nlab/files/AlgueroBsll19Fits.jpg" width="600">
 </center>
 
-> table grabbed from [Alguero 19](#Alguero19)
+> table taken from [Alguero 19](#Alguero19)
+
+<center>
+<img src="https://ncatlab.org/nlab/files/Koppenburg20PullSummary.jpg" width="600">
+</center>
+
+> table taken from [Koppenburg 20](#Koppenburg20)
+
+
 
 There is the claim ([DGKV 19](#DGKV19)) that the discrepancy with the standard model increases further if non-trivial [[hadron|hadronic]] [[form factors]] are taken into account:
 
@@ -417,6 +425,9 @@ talk at [XIth International Symposium on Quantum Theory and Symmetries](http://w
 * {#CERNCourir200311} CERN Courier, _[Anomalies persist in flavour-changing B decays](https://cerncourier.com/a/anomalies-persist-in-flavour-changing-b-decays/)_, March 13 2020
 
   (on [LHCb2003.04831](#LHCb200304831))
+
+* {#Koppenburg20} [[Patrick Koppenburg]], _Beauty 2019 -- Conference summary_ ([arXiv:2001.11796](https://arxiv.org/abs/2001.11796))
+
 
 Outlook:
 
