@@ -129,7 +129,10 @@ It may very well be that [[Witten's Dark Fantasy]] is [[phenomenology|phenomenol
 
 Argument that the observed type Ia [[supernovae]] are actually consistent with a vanishing [[cosmological constant]]:
 
-* {#NielsenGuffantiSarkar16} J. T. Nielsen, A. Guffanti & [[Subir Sarkar]], _Marginal evidence for cosmic acceleration from Type Ia supernovae_, Nature Scientific Reports volume 6, Article number: 35596 (2016) ([arXiv:1506.01354](https://arxiv.org/abs/1506.01354), [web discussion](https://4gravitons.wordpress.com/2016/11/11/a-response-from-nielsen-guffanti-and-sarkar/))
+* {#NielsenGuffantiSarkar16} J. T. Nielsen, A. Guffanti, [[Subir Sarkar]], _Marginal evidence for cosmic acceleration from Type Ia supernovae_, Nature Scientific Reports volume 6, Article number: 35596 (2016) ([arXiv:1506.01354](https://arxiv.org/abs/1506.01354), [web discussion](https://4gravitons.wordpress.com/2016/11/11/a-response-from-nielsen-guffanti-and-sarkar/))
+
+* {#ColinMoymhayeeRamezSarkar19} Jacques Colin, Roya Mohayaee, [[Mohamed Rameez]], [[Subir Sarkar]], _A response to Rubin & Heitlauf: "Is the expansion of the universe accelerating? All signs still point to yes"_ ([arXiv:1912.04257](https://arxiv.org/abs/1912.04257))
+
 
 Stronger argument that the observed type Ia [[supernovae]] in fact _prefer_ a vanishing [[cosmological constant]] (due to time-dependency of SN brightness that had been missed):
 
