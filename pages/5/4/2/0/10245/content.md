@@ -50,7 +50,7 @@ and the understanding of this configuration as resulting from two intersecting M
 
 * [[George Papadopoulos]], [[Paul Townsend]], _Intersecting M-branes_, Phys. Lett. B380 (1996) 273 ([arXiv:hep-th/9603087](http://arxiv.org/abs/hep-th/9603087))
 
-* [[Arkady Tseytlin]], Nucl. Phys. B475 (1996) 149.
+* [[Arkady Tseytlin]], _Harmonic superpositions of M-branes_, Nucl. Phys. B475 (1996) 149 ([arXiv:hep-th/9604035](https://arxiv.org/abs/hep-th/9604035), <a href="https://doi.org/10.1016/0550-3213(96)00328-8">doi:10.1016/0550-3213(96)00328-8</a>)
 
 For more on this see
 
