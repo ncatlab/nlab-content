@@ -22,7 +22,11 @@
 
 ## Idea
 
-[[proton|Protons]] and [[neutrons]] are jointly called _nucleons_, since [[nucleus (physics)|atomic nuclei]] are [[bound states]] of these.
+[[proton|Protons]] and [[neutrons]] (both examples of [[baryons]], hence of [[hadrons]] are jointly called _nucleons_, since [[nucleus (physics)|atomic nuclei]] are [[bound states]] of these.
+
+## Related concepts
+
+* [[Walecka model]]
 
 ## References
 
