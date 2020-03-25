@@ -24,7 +24,7 @@ In [[cosmology]] and [[particle physics]],  by _baryogenesis_ one refers to the 
 
 1. departure from thermal equilibrium.
 
-Indeed, by a [[quantum anomaly]] in the [[standard model of particle physics]], the _[[axial anomaly]]_ (a [[chiral anomaly]]) (see e.g. [Jackiw 08](#Jackiw08)),  the [[divergence]] of the baryon number [[current]] (the chiral version of the [[Dirac current]]) does not quite vanish but is ([t'Hooft 76](#Hooft76)) in traditional physics notation
+Indeed, by a [[quantum anomaly]] in the [[standard model of particle physics]], the _[[axial anomaly]]_ (a [[chiral anomaly]]) (see e.g. [Jackiw 08](#Jackiw08)),  the [[divergence]] of the [[baryon current]] (the chiral version of the [[Dirac current]]) does not quite vanish but is ([t'Hooft 76](#Hooft76)) in traditional physics notation
 
 $$
   \partial_\mu j_b^\mu 
@@ -84,7 +84,7 @@ $$
   \,.
 $$
 
-Then Stokes's theorem gives that $d J$ is the local change of charge, because:
+Then [[Stokes's theorem]] gives that $d J$ is the local change of charge, because:
 
 $$
   \begin{aligned}
@@ -113,7 +113,7 @@ This is the famous _[[chiral anomaly]]_.
 
 So far this is highlighted in every textbook. But the following further crucial subtlety tends not to be recognized for what it is. 
 
-Namely on cosmological spacetimes that carry [[instantons]], then (as discussed at _[Yang-Mills instanton -- from the correct maths to the traditional physics story](Yang-Mills instanton#FromTheMathsToThePhysicsStory)_) the 4-form $\langle F_\nabla \wedge F_\nabla\rangle$ is not in fact globally exact. The above formulas hold only locally, on a chart of spacetime. But on intersections two such pieces of data need to be glued by a gauge transformation. If we do make the usual simple assumptions (for simplicity of the discussion), then this gauge transformation is that famous "Chern-Simons winding number" $S^3 \to SU(2)$, which they keep handing the physics students without properly explaining it (such as the one who I am reacting to [here](http://physicsoverflow.org/38243/topological-number-integral-theory-boundary-volume-forms)).
+Namely on cosmological spacetimes that carry [[instantons]], then (as discussed at _[Yang-Mills instanton -- from the correct maths to the traditional physics story](Yang-Mills+instanton#FromTheMathsToThePhysicsStory)_) the 4-form $\langle F_\nabla \wedge F_\nabla\rangle$ is not in fact globally exact. The above formulas hold only locally, on a chart of spacetime. But on intersections two such pieces of data need to be glued by a gauge transformation. If we do make the usual simple assumptions (for simplicity of the discussion), then this gauge transformation is that famous "Chern-Simons winding number" $S^3 \to SU(2)$, which they keep handing the physics students without properly explaining it (such as the one who I am reacting to [here](http://physicsoverflow.org/38243/topological-number-integral-theory-boundary-volume-forms)).
 
 As a result, in the presence of instantons, the integral of $\langle F_{\nabla} \wedge F_{\nabla}\rangle$ may be non-zero on a _closed_ cosmological spacetime.
 
