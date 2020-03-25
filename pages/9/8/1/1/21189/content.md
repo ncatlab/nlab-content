@@ -101,6 +101,8 @@ automatically the Wess–Zumino term, with the correct coefficient!
 
 * [[vector meson dominance]]
 
+* [[Walecka model]]
+
 * [[holographic QCD]]
 
 ## References
