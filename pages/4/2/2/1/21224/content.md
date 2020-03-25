@@ -63,6 +63,11 @@ On [[sigma-mesons]] and [[omega-mesons]] mediating [[baryon]] [[interaction]], d
 
 * Anatoly Dymarsky, Dmitry Melnikov, [[Jacob Sonnenschein]], _Attractive Holographic Baryons_, JHEP 06 (2011) 145 ([arXiv:1012.1616](https://arxiv.org/abs/1012.1616))
 
+and discussed in the [[Witten-Sakai-Sugimoto model]] on [[D4-D8 brane intersections]]:
+
+* [[Vadim Kaplunovsky]], [[Jacob Sonnenschein]], _Searching for an Attractive Force in Holographic Nuclear Physics_, JHEP 05 (2011) 058 ([arXiv:1003.2621](https://arxiv.org/abs/1003.2621))
+
+
 [[!redirects σ-mesons]]
 
 [[!redirects sigma-meson]]
