@@ -139,6 +139,12 @@ Volume 30, Issue 6, 10 November 1969, Pages 426-429 (<a href="https://doi.org/10
 
 * Florian Jonas, _Measurement of $\omega$ and $\eta$ mesons via their three pion decay with ALICE in pp collisions at $\sqrt{s} = t TeV$_, 2018 ([cds:2653176](https://cds.cern.ch/record/2653176))
 
+### In holographic QCD
+
+The [[omega-meson]] in [[holographic QCD]] ([[Witten-Sakai-Sugimoto model]]):
+
+
+* {#SakaiSugimoto05} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], Section 4.3 of: _More on a holographic dual of QCD_, Progr. Theor. Phys. 114: 1083-1118, 2005 ([arXiv:hep-th/0507073](https://arxiv.org/abs/hep-th/0507073))
 
 ### Mediating baryon interaction
 
