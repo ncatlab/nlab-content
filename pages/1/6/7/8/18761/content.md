@@ -41,6 +41,8 @@ For details see at _[[geometry of physics -- A first idea of quantum field theor
 
 ## Related concepts
 
+* [[baryon current]]
+
 * [[chiral anomaly]]
 
 * [[baryogenesis]]
