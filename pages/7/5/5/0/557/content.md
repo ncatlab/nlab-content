@@ -95,9 +95,9 @@ See [Pirashvili](#Pirashvili) for some more details on this prop.
 Given a set of colors $\mathfrak{C}$ and a [[closed category|closed]] [[symmetric monoidal category]] $E$ with a chosen collection of objects $\mathbf{X}=\{X_c\}_{c\in\mathfrak{C}}$, there is an  $E$-enriched PROP $End_{\mathbf{X}}$ with morphism $E$-mapping spaces $End_{\mathbf{X}}(\{X_i\},\{Y_j\})=E(\otimes_i X_i,\otimes_j Y_j)$.  
 
 
-## Relation to Polycategories
+## Relation to properads and polycategories
 
-Every PROP defines a [[polycategory]]; see there for more. PROPs can compose along many objects at once, whereas polycategories compose along a single object.
+[[Properads]] have a similar multiple compositional structure to PROPs, but without the tensor product of morphisms, meaning operations cannot be concatenated. [[Polycategories]] are also similar, but only allow composition along a single object at once. See [Polycategory: Relation to properads](https://ncatlab.org/nlab/show/polycategory#relation_to_properads) for a more detailed explanation.
 
 ## Related concepts
 
