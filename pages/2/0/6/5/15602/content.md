@@ -16,11 +16,22 @@ See &#167;1.2 in Vallette&#160;[1] for details.
 The idea is that operations in a properad can
 have multiple inputs and outputs, as opposed
 to a single output in an operad.
-On the other hand, a properad is less general
-than a [[prop]], because a prop also
-allows nonconnected graphs in the definition
-of the substitution product.
 
+### Relation to polycategories, dioperads and PROPs
+
+A coloured properad is more general than a [[polycategory]] in that it allows composition along more than one object. See [Polycategory: Relation to properads](https://ncatlab.org/nlab/show/polycategory#relation_to_properads) for a more detailed explanation.
+
+Unlike with polycategories and dioperads (and [[multicategories]] and [[operads]]), there doesn't appear to be different terminology in the literature for one-coloured versus multicoloured properads.
+
+Properads are less general than [[PROPs]], which also allow a "composition" of nonconnected graphs, by tensoring morphisms with $\otimes$.
+
+## Related concepts
+
+* [[PROP]]
+* [[polycategory]]
+* [[dioperad]]
+* [[multicategory]]
+* [[operad]]
 
 ## References
 
