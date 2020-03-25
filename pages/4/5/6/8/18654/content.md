@@ -128,7 +128,7 @@ from (the [[time]]-axis [[product manifold|times]]) the [[3-sphere]] to [[SU(2)]
 
 ### Relation to baryon current
 
-Explicitly, the "topological"-part $B_{top}$ of the [[baryon]] [[current]] (the piece that is not generally [[conserved current|conserved]], reflecting the [[chiral anomaly]]), is the [[Wess-Zumino-Witten term]] ([Witten 83b](#Witten83a), [Witten 83b](#Witten83b)):
+Explicitly, the [[baryon current]] is the [[Wess-Zumino-Witten term]] in the [[exponentiated pion field]] ([Witten 83b](#Witten83a), [Witten 83b](#Witten83b)):
 
 $$
   \begin{aligned}
