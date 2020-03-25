@@ -20,5 +20,9 @@ On [[baryons]] and [[mesons]] in [[holographic QCD]]:
 
 * {#SonnenscheinWeissman18} [[Jacob Sonnenschein]], Dorin Weissman, _Excited mesons, baryons, glueballs and tetraquarks: Predictions of the Holography Inspired Stringy Hadron model_, ([arXiv:1812.01619](https://arxiv.org/abs/1812.01619))
 
+On [[sigma-mesons]] and [[omega-mesons]] mediating [[baryon]] [[interaction]], discussed in [[holographic QCD]] via [[D3-D7 brane intersections]]:
+
+* Anatoly Dymarsky, Dmitry Melnikov, [[Jacob Sonnenschein]], _Attractive Holographic Baryons_, JHEP 06 (2011) 145 ([arXiv:1012.1616](https://arxiv.org/abs/1012.1616))
+
 
 category: people
