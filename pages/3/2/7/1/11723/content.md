@@ -19,7 +19,7 @@
 
 ## Idea
 
-Given a [[modal operator]] $\bigcirc$, then a [[type]] $X$ may be called _$\bigcirc$-comodal_ or _$\bigcirc$-connected_ if $\bigcirc X \simeq \ast$ (the [[unit type]]).
+Given a [[modal operator]] $\bigcirc$, then a [[type]] $X$ may be called _$\bigcirc$-comodal_ or _$\bigcirc$-connected_ (largely now the preferred term) if $\bigcirc X \simeq \ast$ (the [[unit type]]).
 
 Since a type $Y$ is called a _$\bigcirc$-[[modal type]]_ if $\bigcirc Y \simeq Y$, being comodal is in a sense the opposite extreme of being modal.
 
