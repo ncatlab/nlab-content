@@ -135,6 +135,13 @@ Volume 30, Issue 6, 10 November 1969, Pages 426-429 (<a href="https://doi.org/10
 
 * Florian Jonas, _Measurement of $\omega$ and $\eta$ mesons via their three pion decay with ALICE in pp collisions at $\sqrt{s} = t TeV$_, 2018 ([cds:2653176](https://cds.cern.ch/record/2653176))
 
+
+### Mediating baryon interaction
+
+On [[sigma-mesons]] and [[omega-mesons]] mediating [[baryon]] [[interaction]], discussed in [[holographic QCD]] via [[D3-D7 brane intersections]]:
+
+* Anatoly Dymarsky, Dmitry Melnikov, [[Jacob Sonnenschein]], _Attractive Holographic Baryons_, JHEP 06 (2011) 145 ([arXiv:1012.1616](https://arxiv.org/abs/1012.1616))
+
 [[!redirects ω-mesons]]
 
 [[!redirects omega-meson]]
