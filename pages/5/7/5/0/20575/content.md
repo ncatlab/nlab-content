@@ -10,4 +10,8 @@ On [[M-theory on S1/G_HW times H/G_ADE]]:
 
 * {#GKSTY02} E. Gorbatov, [[Vadim Kaplunovsky]], [[Jacob Sonnenschein]], [[Stefan Theisen]], [[Shimon Yankielowicz]], _On Heterotic Orbifolds, M Theory and Type I' Brane Engineering_, JHEP 0205:015, 2002 ([arXiv:hep-th/0108135](https://arxiv.org/abs/hep-th/0108135))
 
+On [[sigma-mesons]] and attractive [[nuclear forces]] between [[baryons]] in [[holographic QCD]] ([[Witten-Sakai-Sugimoto model]] on [[D4-D8 brane intersections]]):
+
+* [[Vadim Kaplunovsky]], [[Jacob Sonnenschein]], _Searching for an Attractive Force in Holographic Nuclear Physics_, JHEP 05 (2011) 058 ([arXiv:1003.2621](https://arxiv.org/abs/1003.2621))
+
 category: people
