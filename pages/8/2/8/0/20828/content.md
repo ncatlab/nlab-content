@@ -33,3 +33,7 @@ See also
 
 
 [[!redirects up quarks]]
+
+[[!redirects up-quark]]
+[[!redirects up-quarks]]
+
