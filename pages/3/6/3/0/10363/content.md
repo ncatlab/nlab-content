@@ -5,6 +5,10 @@
 
 ## Selected writings
 
+On the [[baryon current]] as a [[WZW-term]]/[[Skyrmion]] current (in the [[exponentiated pion field]]):
+
+* [[Jeffrey Goldstone]], [[Frank Wilczek]], _Fractional Quantum Numbers on Solitons_, Phys. Rev. Lett. 47, 986 (1981) ([doi:10.1103/PhysRevLett.47.986](https://doi.org/10.1103/PhysRevLett.47.986))
+
 Discussion of [[Spin(16)]]-[[grand unified theories]] (traditionally called "SO(16)" GUT):
 
 * {#WilczekZee82} [[Frank Wilczek]], [[Anthony Zee]], _Families from spinors_, Phys. Rev. D 25, 553 (1982) ([doi:10.1103/PhysRevD.25.55310.1103/PhysRevD.25.553](https://doi.org/10.1103/PhysRevD.25.553))
