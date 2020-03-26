@@ -3,6 +3,21 @@
 
 ## Selected writings
 
+On the [[Schwinger effect]]:
+
+* [[Gerald Dunne]], _The Heisenberg-Euler Effective Action: 75 years on_, Int. J. Mod.Phys. A27 (2012) 1260004 ([arXiv:1202.1557](https://arxiv.org/abs/1202.1557))
+
+* [[Gerald Dunne]], _Heisenberg-Euler Effective Lagrangians : Basics and Extensions_, in: _From Fields to Strings: Circumnavigating Theoretical Physics_, pp. 445-522 (2005) ([doi:10.1142/9789812775344_0014](https://doi.org/10.1142/9789812775344_0014))
+
+Discussion of the [[Schwinger effect]] via [[worldline formalism]]:
+
+* [[Gerald Dunne]], [[Christian Schubert]], _Worldline Instantons and Pair Production in Inhomogeneous Fields_, Phys. Rev. D72 (2005) 105004 ([arXiv:hep-th/0507174](https://arxiv.org/abs/hep-th/0507174))
+
+
+Discussion of [[experiments]] that could/should see the [[Schwinger effect]]:
+
+* {#Dunne09} [[Gerald Dunne]], _New Strong-Field QED Effects at ELI: Nonperturbative Vacuum Pair Production_, Eur. Phys. J.D55:327-340, 2009 ([arXiv:0812.3163](https://arxiv.org/abs/0812.3163))
+
 On the appearance of [[Bernoulli numbers]] in [[perturbative quantum field theory]] and [[string theory]]:
 
 * [[Gerald Dunne]], [[Christian Schubert]], _Bernoulli Number Identities from Quantum Field Theory and Topological String Theory_, Communications in Number Theory and Physics, Volume 7 (2013) Number 2, 225 - 249 ([arXiv:math/0406610](https://arxiv.org/abs/math/0406610))
