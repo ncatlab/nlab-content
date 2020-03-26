@@ -41,6 +41,10 @@ Related is _[[resurgence theory]]_. See also at _[perturbation theory -- Diverge
 ## Examples
 
 
+### Schwinger effect
+
+* [[Schwinger effect]]
+
 ### Confinement and the mass gap
 
 A central example of a non-perturbative effect is [[confinement]] (hence the "[[mass gap problem]]") in [[Yang-Mills theory]] at low [[temperature]]. Perturbation theory is not suited to explain this (e.g [Espiru 94, section 7](http://arxiv.org/abs/hep-ph/9410287)).
