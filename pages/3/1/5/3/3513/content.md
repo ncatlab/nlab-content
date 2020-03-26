@@ -130,7 +130,7 @@ An alternative characterization of this model structure is:
 
 +-- {: .num_theorem #AsLocalization}
 ###### Theorem
-The model structure for left fibrations is the left [[Bousfield localization]] of the [[model structure on an overcategory|overcategory]] model structure on $SSet/X$ induced by the [[model structure for quasicategories]] on $SSet$ at the set of maps $\{ \Delta^n_0 \hookrightarrow \Delta^n | n\ge 0, \Delta^n \to X \}$ indexed by all the simplices of $X$.
+The model structure for left fibrations is the left [[Bousfield localization]] of the [[model structure on an overcategory|overcategory]] model structure on $SSet/X$ induced by the [[model structure for quasicategories]] on $SSet$ at the set of maps $\{ \Lambda^n_0 \hookrightarrow \Delta^n | n\ge 0, \Delta^n \to X \}$ indexed by all the simplices of $X$.
 =--
 
 This is mentioned in [Heuts-Moerdijk](#HeutsMoerdijk13), p.5; see also [this discussion](http://nforum.ncatlab.org/discussion/915/model-structure-for-left-fibrations/?Focus=53814#Comment_53814).
