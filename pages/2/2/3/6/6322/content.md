@@ -60,7 +60,7 @@ See at _[[QCD trace anomaly]]_.
 
 * [[confinement]]
 
-  * [[chiral perturbation theory]]
+  * [[chiral perturbation theory]], [[quantum hadrodynamics]]
 
   * [[quark bag model]], [[Cheshire cat principle]]  
 
@@ -108,7 +108,9 @@ See at _[[QCD trace anomaly]]_.
 
 ### General
 
-Introductions include
+Introductions:
+
+* [[Jiri Chyla]], _Quarks, partons and Quantum Chromodynamics_, ([spire:674163/)](http://inspirehep.net/record/674163/), [[ChylaQuarksQCD.pdf:file]])
 
 * Peter Skands, _Introduction to QCD_ ([arXiv:1207.2389](https://arxiv.org/abs/1207.2389), [doi:10.1142/9789814525220_0008](https://doi.org/10.1142/9789814525220_0008))
 
