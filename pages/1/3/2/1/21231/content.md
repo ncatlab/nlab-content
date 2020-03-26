@@ -26,7 +26,7 @@ What came to be called the _Schwinger effect_ ([Sauter 31](#Sauter31), [Heisenbe
 
 The analogous effect in [[quantum chromodynamics]] would lead to [[deconfinement]] of [[quarks]] in a strong [[electric field]].
 
-While the effect is clearly predicted by established [[theory (physics)|theory]], it has not been observed in [[experiment]] yet, since the required electric field strengths are so large.
+While the effect is clearly predicted by established [[theory (physics)|theory]], it has not been observed in [[experiment]] yet, since the required electric field strengths are so large. But recent experiments get close to the required intensities ([Dunne 09](#Dunne09)).
 
 ## Properties
 
@@ -37,13 +37,15 @@ It has been argued that from the point of view of [[holographic QCD]] the Schwin
 
 ## References
 
-### General
+### In quantum electrodynamics
 
-The original articles:
+Discussion of the [[Schwinger effect]] in [[quantum electrodynamics]]:
+
+The original theoretical prediction:
 
 * {#Sauter31} F. Sauter, _Über das Verhalten eines Elektrons im homogenen elektrischen Feld nach der relativistischen Theorie Diracs_, Z. Physik 69, 742–764 (1931) ([doi:10.1007/BF01339461](https://doi.org/10.1007/BF01339461)) 
 
-* {#HeisenbergEuler36} [[Werner Heisenberg]], , H. Euler,  _Folgerungen aus der Diracschen Theorie des Positrons_, Z. Physik 98, 714–732 (1936) ([doi:10.1007/BF01343663](https://doi.org/10.1007/BF01343663))
+* {#HeisenbergEuler36} [[Werner Heisenberg]], [[Hans Euler]],  _Folgerungen aus der Diracschen Theorie des Positrons_, Z. Physik 98, 714–732 (1936) ([doi:10.1007/BF01343663](https://doi.org/10.1007/BF01343663))
 
 * {#Schwinger51} [[Julian Schwinger]], _On Gauge Invariance and Vacuum Polarization_, Phys. Rev. 82, 664 (1951) ([doi:10.1103/PhysRev.82.664](https://doi.org/10.1103/PhysRev.82.664))
 
@@ -51,9 +53,26 @@ The original articles:
 
 * {#AffleckAlvarezManton82} [[Ian Affleck]], [[Orlando Alvarez]], [[Nicholas Manton]], _Pair production at strong coupling in weak external fields_, Nuclear Physics B Volume 197, Issue 3 (1982) Pages 509-519 (<a href="https://doi.org/10.1016/0550-3213(82)90455-2">doi:10.1016/0550-3213(82)90455-2</a>)
 
+Discussion via [[worldline formalism]]:
+
+* [[Gerald Dunne]], [[Christian Schubert]], _Worldline Instantons and Pair Production in Inhomogeneous Fields_, Phys. Rev. D72 (2005) 105004 ([arXiv:hep-th/0507174](https://arxiv.org/abs/hep-th/0507174))
+
+
 Review:
 
+* [[Gerald Dunne]], _The Heisenberg-Euler Effective Action: 75 years on_, Int. J. Mod. Phys. A27 (2012) 1260004 ([arXiv:1202.1557](https://arxiv.org/abs/1202.1557))
+
+* [[Gerald Dunne]], _Heisenberg-Euler Effective Lagrangians : Basics and Extensions_, in: _From Fields to Strings: Circumnavigating Theoretical Physics_, pp. 445-522 (2005) ([doi:10.1142/9789812775344_0014](https://doi.org/10.1142/9789812775344_0014))
+
+
 * Francois Gelis, Naoto Tanji, _Schwinger mechanism revisited_, Progress in Particle and Nuclear Physics Volume 87, March 2016, Pages 1-49 ([arXiv:1510.05451](https://arxiv.org/abs/1510.05451))
+
+
+
+Discussion of [[experiments]] that could/should see the [[Schwinger effect]]:
+
+* {#Dunne09} [[Gerald Dunne]], _New Strong-Field QED Effects at ELI: Nonperturbative Vacuum Pair Production_, Eur. Phys. J. D55:327-340, 2009 ([arXiv:0812.3163](https://arxiv.org/abs/0812.3163))
+
 
 See also
 
@@ -61,29 +80,31 @@ See also
 
 * Wikipedia, _[Schwinger limit](https://en.wikipedia.org/wiki/Schwinger_limit)_
 
-### Holographic Schwinger effect
 
-[[holographic Schwinger effect -- references]]
+### In quantum chromodynamics
 
-Interpretation of the Schwinger effect in [[holographic QCD]] as exhibited by the [[DBI-action]] on [[flavor branes]]:
+Discussion of the [[Schwinger effect]] in [[quantum chromodynamics]]:
 
-* {#SemenoffZarembo11} [[Gordon Semenoff]], [[Konstantin Zarembo]], _Holographic Schwinger Effect_, Phys. Rev. Lett. 107, 171601 (2011) ([arXiv:1109.2920](https://arxiv.org/abs/1109.2920),  [doi:10.1103/PhysRevLett.107.171601](https://doi.org/10.1103/PhysRevLett.107.171601))
 
-* {#HashimotoOka13} [[Koji Hashimoto]], [[Takashi Oka]], _Vacuum Instability in Electric Fields via AdS/CFT: Euler-Heisenberg Lagrangian and Planckian Thermalization_, JHEP 10 (2013) 116 ([arXiv:1307.7423](https://arxiv.org/abs/1307.7423))
+* Paul H. Cox, Asim Yildiz, _$q \bar q$ pair creation: A field-theory approach_, Phys. Rev. D 32, 819 (1985) ([doi:10.1103/PhysRevD.32.819](https://doi.org/10.1103/PhysRevD.32.819))
 
-* {#HashimotoOkaSonoda14a} [[Koji Hashimoto]], [[Takashi Oka]], Akihiko Sonoda, _Magnetic instability in AdS/CFT : Schwinger effect and Euler-Heisenberg Lagrangian of Supersymmetric QCD_, J. High Energ. Phys. 2014, 85 (2014) ([arXiv:1403.6336](https://arxiv.org/abs/1403.6336))
+* Sho Ozaki, Takashi Arai, Koichi Hattori, Kazunori Itakura, _Euler-Heisenberg-Weiss action for QCD+QED_, Phys. Rev. D 92, 016002 (2015) ([arXiv:1504.07532](https://arxiv.org/abs/1504.07532))
 
-* {#HashimotoOkaSonoda14b} [[Koji Hashimoto]], [[Takashi Oka]], Akihiko Sonoda, _Electromagnetic instability in holographic QCD_,  J. High Energ. Phys. 2015, 1 (2015) ([arXiv:1412.4254](https://arxiv.org/abs/1412.4254))
+* Koichi Hattori, Kazunori Itakura, Sho Ozaki, _Note on all-order Landau-level structures of the Heisenberg-Euler effective actions for QED and QCD_ ([arXiv:2001.06131](https://arxiv.org/abs/2001.06131))
 
-* Xing Wu, _Notes on holographic Schwinger effect_, J. High Energ. Phys. 2015, 44 (2015)  ([arXiv:1507.03208](https://arxiv.org/abs/1507.03208), <a href="https://doi.org/10.1007/JHEP09(2015)044">doi:10.1007/JHEP09(2015)044</a>)
 
-* Kazuo Ghoroku, Masafumi Ishihara, _Holographic Schwinger Effect and Chiral condensate in SYM Theory_, J. High Energ. Phys. 2016, 11 (2016) (<a href="https://doi.org/10.1007/JHEP09(2016)011">doi:10.1007/JHEP09(2016)011</a>)
+In [[quantum hadrodynamics]]:
 
-* [[Koji Hashimoto]], Shunichiro Kinoshita, Keiju Murata, [[Takashi Oka]], _Electric Field Quench in AdS/CFT_, J. High Energ. Phys. 2014 ([arXiv:1407.0798](https://arxiv.org/abs/1407.0798))
 
-* Le Zhang, De-Fu Hou, Jian Li, _Holographic Schwinger effect with chemical potential at finite temperature_, Eur. Phys. J. A54 (2018) no.6, 94 ([spire:1677949](http://inspirehep.net/record/1677949), [doi:10.1140/epja/i2018-12524-4](https://doi.org/10.1140/epja/i2018-12524-4))
+* William R. Tavares, Sidney S. Avancini, _Schwinger mechanism in the $SU(3)$ Nambu--Jona-Lasinio model with an electric field_, Phys. Rev. D 97, 094001 (2018) ([arXiv:1801.10566](https://arxiv.org/abs/1801.10566))
 
-* Wenhe Cai, Kang-le Li, Si-wen Li, _Electromagnetic instability and Schwinger effect in the Witten-Sakai-Sugimoto model with D0-D4 background_,  Eur. Phys. J. C 79, 904 (2019) ([doi:10.1140/epjc/s10052-019-7404-1](https://doi.org/10.1140/epjc/s10052-019-7404-1))
+
+
+
+
+[[!include holographic Schwinger effect -- references]]
+
+
 
 [[!redirects Schwinger effects]]
 
