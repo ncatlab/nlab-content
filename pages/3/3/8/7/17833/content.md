@@ -3,7 +3,7 @@
 
 ## Selected writings
 
-Interpretation of the [[holographic Schwinger effect]] as exhibited by the [[DBI-action]] on [[flavor branes]]:
+Interpretation in [[holographic QCD]] of the [[Schwinger effect]] as exhibited by the [[DBI-action]] on [[flavor branes]]:
 
 * {#HashimotoOka13} [[Koji Hashimoto]], [[Takashi Oka]], _Vacuum Instability in Electric Fields via AdS/CFT: Euler-Heisenberg Lagrangian and Planckian Thermalization_, JHEP 10 (2013) 116 ([arXiv:1307.7423](https://arxiv.org/abs/1307.7423))
 
