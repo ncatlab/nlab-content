@@ -3,6 +3,16 @@
 
 ## Selected writings
 
+Interpretation of the [[holographic Schwinger effect]] as exhibited by the [[DBI-action]] on [[flavor branes]]:
+
+* {#HashimotoOka13} [[Koji Hashimoto]], [[Takashi Oka]], _Vacuum Instability in Electric Fields via AdS/CFT: Euler-Heisenberg Lagrangian and Planckian Thermalization_, JHEP 10 (2013) 116 ([arXiv:1307.7423](https://arxiv.org/abs/1307.7423))
+
+* {#HashimotoOkaSonoda14a} [[Koji Hashimoto]], [[Takashi Oka]], Akihiko Sonoda, _Magnetic instability in AdS/CFT : Schwinger effect and Euler-Heisenberg Lagrangian of Supersymmetric QCD_, J. High Energ. Phys. 2014, 85 (2014) ([arXiv:1403.6336](https://arxiv.org/abs/1403.6336))
+
+* {#HashimotoOkaSonoda14b} [[Koji Hashimoto]], [[Takashi Oka]], Akihiko Sonoda, _Electromagnetic instability in holographic QCD_,  J. High Energ. Phys. 2015, 1 (2015) ([arXiv:1412.4254](https://arxiv.org/abs/1412.4254))
+
+* [[Koji Hashimoto]], Shunichiro Kinoshita, Keiju Murata, [[Takashi Oka]], _Electric Field Quench in AdS/CFT_, J. High Energ. Phys. 2014 ([arXiv:1407.0798](https://arxiv.org/abs/1407.0798))
+
 
 Relation of [[Yang-Mills monopoles]] as [[Dp/D(p+2)-brane intersections]] and [[Yang-Mills instantons]] as [[Dp/D(p+4)-brane intersections]] to the [[K-theory classification of topological phases of matter]] via [[AdS/CFT duality in solid state physics]]:
 
@@ -16,12 +26,6 @@ On [[Montonen-Olive duality]] in [[D=4 super Yang-Mills theory]] via [[ABJM-mode
 On [[holographic QCD]]:
 
 * {#AHI12} Sinya Aoki, [[Koji Hashimoto]], Norihiro Iizuka, _Matrix Theory for Baryons: An Overview of Holographic QCD for Nuclear Physics_, Reports on Progress in Physics, Volume 76, Number 10 ([arxiv:1203.5386](https://arxiv.org/abs/1203.5386))
-
-On the [[DBI-action]] for [[flavor brane|flavor branes]] in [[holographic QCD]]:
-
-
-* [[Koji Hashimoto]], Takashi Oka, Akihiko Sonoda, _Electromagnetic instability in holographic QCD_,  J. High Energ. Phys. 2015, 1 (2015) ([arXiv:1412.4254](https://arxiv.org/abs/1412.4254))
-
 
 On the analogy between [[AdS/CFT duality]] and [[deep learning]]:
 
