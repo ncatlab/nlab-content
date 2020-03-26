@@ -139,7 +139,8 @@ Of course, there is a dual theorem for fibrations.
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_
 
-* Andrei Radulescu-Banu, *Cofibrations in Homotopy Theory*
+* Andrei Radulescu-Banu, *Cofibrations in Homotopy Theory*, ArXiv 0610009, [pdf](https://arxiv.org/pdf/math/0610009.pdf)
+
 
 [[!redirects two-out-of-six]]
 [[!redirects two-out-of-six-property]]
