@@ -20,9 +20,9 @@ Just as a symmetric multicategory with one object is also called an [[operad]], 
 
 ## Properties
 
-### Relation to properads
+### Relation to properads and PROPs
 
-(Coloured) [[properads]] are similar to polycategories: what distinguishes a polycategory from a properad is that in a polycategory, we can only compose along one object at once.  That is, we have a composition operation
+(Coloured) [[properads]] and [[PROPs]] are both similar to polycategories: what distinguishes polycategories from both properad and PROPs is that in a polycategory, we can only compose along one object at once.  That is, we have a composition operation
 
 $$\circ_D \colon Hom(A,B;C,D,E) \times Hom(F,D,G; H) \to Hom(F,A,B,G; C,H,E)$$
 
@@ -30,9 +30,9 @@ but not an operation such as
 
 $$\circ_{B,C} \colon Hom(A; B,C) \times Hom(B,C; D) \to Hom(A,D).$$
 
-In a properad (and also a [[PROP]]), we allow composition along multiple objects at once. This is analogous to the definition of (coloured) [[operads]] in terms of partial composition or multiple composition. However, though both kinds of operads are equivalent, there exist coloured properads that are not equivalent to polycategories. For instance, if we have polymorphisms $f : A \to B, B$ and $g : B, B \to C$, we can form the composite $g \circ f : A \to C$ in a properad, but not a polycategory.
+In properads and PROPs, we allow composition along multiple objects at once. This is analogous to the definition of (coloured) [[operads]] in terms of partial composition or simultaneous composition. However, though both kinds of operads are equivalent, there exist coloured properads that are not equivalent to polycategories. For instance, if we have polymorphisms $f : A \to B, B$ and $g : B, B \to C$, we can form the composite $g \circ f : A \to C$ in a properad, but not a polycategory.
 
-PROPs, in addition to having the multiple composition operator of properads, also have a tensoring operator (given by the action of $\otimes$ on morphisms) that allows for "composition" of nonconnected operations.
+PROPs generalise properads further by, in addition to having the multiple composition operator of properads, also having a tensoring operator (given by the action of $\otimes$ on morphisms) that allows for composition along _zero_ objects.
 
 ### Internal logic
 
