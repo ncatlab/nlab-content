@@ -449,10 +449,11 @@ For actual derivation of [[gauge enhancement]] on coincident D-branes see the re
 
 ### On flavor branes for holographic QCD
 
-Discussion of [[DBI-action]] for [[flavour physics|flavour]] branes in [[holographic QCD]]:
+Discussion of the [[DBI-action]] for [[flavor brane|flavor branes]] in [[holographic QCD]]:
 
 * [[Vadim Kaplunovsky]], [[Jacob Sonnenschein]], Section 6 of: _Searching for an Attractive Force in Holographic Nuclear Physics_, JHEP 05 (2011) 058 ([arXiv:1003.2621](https://arxiv.org/abs/1003.2621))
 
+* [[Koji Hashimoto]], Takashi Oka, Akihiko Sonoda, _Electromagnetic instability in holographic QCD_,  J. High Energ. Phys. 2015, 1 (2015) ([arXiv:1412.4254](https://arxiv.org/abs/1412.4254))
 
 
 [[!include DBI-action higher curvature corrections -- references]]
