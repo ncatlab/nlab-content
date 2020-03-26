@@ -27,6 +27,8 @@ Hence, more generally one could reasonably say that the "number of colors" of a 
 
 * [[large N limit]], [[large 1/N limit]]
 
+* [[color brane]]
+
 * [[flavour (particle physics)]]
 
 * [[electric charge]], [[magnetic charge]]
