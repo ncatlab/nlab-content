@@ -10,6 +10,13 @@ On [[gauge-Higgs unification]]:
 
 * {#Manton79} [[Nicholas Manton]], _A new six-dimensional approach to the Weinberg-Salam model_, Nuclear Physics B Volume 158, Issue 1, 8 October 1979, Pages 141-153 (<a href="https://doi.org/10.1016/0550-3213(79)90192-5">doi:10.1016/0550-3213(79)90192-5</a>)
 
+On the [[Schwinger effect]]:
+
+* {#AffleckManton82} [[Ian Affleck]], [[Nicholas Manton]], _Monopole pair production in a magnetic field_, Nuclear Physics B Volume 194, Issue 1, (1982) Pages 38-64 (<a href="https://doi.org/10.1016/0550-3213(82)90511-9">doi:10.1016/0550-3213(82)90511-9</a>
+
+* {#AffleckAlvarezManton82} [[Ian Affleck]], [[Orlando Alvarez]], [[Nicholas Manton]], _Pair production at strong coupling in weak external fields_, Nuclear Physics B Volume 197, Issue 3 (1982) Pages 509-519 (<a href="https://doi.org/10.1016/0550-3213(82)90455-2">doi:10.1016/0550-3213(82)90455-2</a>)
+
+
 On [[Yang-Mills monopoles]]:
 
 * {#GibbonsManton86} [[Gary Gibbons]], [[Nicholas Manton]], _Classical and Quantum Dynamics of BPS Monopoles_, Nucl. Phys. B274 (1986) 183-224 ([spire:18322](http://inspirehep.net/record/18322), <a href="https://doi.org/10.1016/0550-3213(86)90624-3">doi:10.1016/0550-3213(86)90624-3</a>)
