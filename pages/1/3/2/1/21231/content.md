@@ -97,7 +97,10 @@ Discussion of the [[Schwinger effect]] in [[quantum chromodynamics]]:
 
 * Paul H. Cox, Asim Yildiz, _$q \bar q$ pair creation: A field-theory approach_, Phys. Rev. D 32, 819 (1985) ([doi:10.1103/PhysRevD.32.819](https://doi.org/10.1103/PhysRevD.32.819))
 
-* Naoto Tanji, _Dynamical view of pair creation in uniform electric and magnetic fields_, Annals Phys.324:1691-1736, 2009 ([arXiv:0810.4429](https://arxiv.org/abs/0810.4429))
+* Naoto Tanji, _Dynamical view of pair creation in uniform electric and magnetic fields_, Annals Phys. 324:1691-1736, 2009 ([arXiv:0810.4429](https://arxiv.org/abs/0810.4429))
+
+* Yoshimasa Hidaka, Takumi Iritani, Hideo Suganuma, _Fast Vacuum Decay into Quark Pairs in Strong Color Electric and Magnetic Fields_, AIP Conference Proceedings 1388, 516 (2011) ([doi:10.1063/1.3647442]( https://doi.org/10.1063/1.3647442))
+
 
 * Sho Ozaki, Takashi Arai, Koichi Hattori, Kazunori Itakura, _Euler-Heisenberg-Weiss action for QCD+QED_, Phys. Rev. D 92, 016002 (2015) ([arXiv:1504.07532](https://arxiv.org/abs/1504.07532))
 
