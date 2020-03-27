@@ -12,7 +12,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -35,6 +34,8 @@ When the [[D-branes]] in question are interpreted as [[flavor branes]], then the
 ## Definition
  {#Definition}
 
+### On $4$-dimensional Minkowski spacetime
+
 In the simplest situation of flat 4-dimensional [[Minkowski spacetime]] $\mathbb{R}^{3,1}$ and no other [[field (physics)|fields]] besides that of [[electromagnetism]], encoded in a [[Faraday tensor]] [[differential 2-form]]
 
 $$
@@ -45,7 +46,7 @@ the [[Lagrangian density]] of the Born-Infeld [[action functional]] is
 
 \[
   \label{PlainMinkowskiDBIAction}
-  L_{BI}
+  \mathbf{L}_{BI}
   \;=\;
   \sqrt{ - det( \eta + F ) } \, dvol
   \,.
@@ -91,11 +92,12 @@ $$
 
 The [[determinant]] in (eq:PlainMinkowskiDBIAction) evaluates to
 
-$$
+\[
+  \label{TheDeterminant}
   det( \eta + F )
   \;=\;
   - 1 
-  +  
+  -  
  \tfrac{1}{2} 
  \underset{
    \mathclap{
@@ -124,7 +126,7 @@ $$
     }
     }
   \,,
-$$
+\]
 
 where 
 
@@ -350,23 +352,113 @@ We discuss the identifications of the resulting four summands shown under the br
 
 The expression (eq:PlainMinkowskiDBIAction) is supposed to be exact for [[constant function|constant]] [[field strength]] (e..g. [Bachas-Bain-Green 99, above (1.9)](#BachasBainGreen99)), and to pick up [[higher curvature corrections]] for non-constant field strength. The first derivative correction to (eq:PlainMinkowskiDBIAction) is supposed to arise at order $(\partial F)^4$. The explicit expression is given in [Garousi 15 (7)](#Garousi15) (argued there by appealing to [[T-duality]] and [[S-duality]] applied to earlier results on higher curvature corrections in other fields involved).
 
-On 4-dimensional [[Minkowski spacetime]] this computation reduces to (see also e.g. [Nastase 15, 9.4](#Nastase15)):
+\linebreak
+
+
+Consider now the [[Faraday tensor]] $F$ expressed in terms of the [[electric field]] $\vec E$ and [[magnetic field]] $\vec B$ as
 
 $$
+  \begin{aligned}
+    F_{0 i} & = \phantom{+} E_i
+    \\
+    F_{i 0} & = - E_i
+    \\
+    F_{i j} & = \epsilon_{i j k} B^k
+  \end{aligned}
+$$
+
+Then the general expression (eq:TheDeterminant) for the [[DBI-Lagrangian]] reduces to ([Born-Infeld 34, p. 437](#BornInfeld34), review in [Nastase 15, 9.4](#Nastase15)):
+
+\[
+  \label{InTermsOfElectricAndMagneticField}
+  \mathbf{L}_{BI}
+  \;=\;
   \sqrt{
     - det( \eta + F )
   }
+  \,
+  dvol_4
   \;=\;
   \sqrt{
     1 
-      + 
+    -
+    ( 
     \vec E \cdot \vec E 
       - 
     \vec B \cdot \vec B 
-      - 
+    )
+    - 
     (\vec B \cdot \vec E)^2
   }
+  \,
+  dvol_4
+\]
+
+Notice that this being well-defined, in that the [[square root]] is a [[real number]], hence its argument a non-[[negative number]], means that
+
 $$
+  \begin{aligned}
+    &
+    -
+    \mathrm{det}
+    \big(
+      (\eta_{\mu \nu})
+      +
+      (F_{\mu \nu})
+    \big)
+    \geq  0
+    \\
+    & \Leftrightarrow
+    \;
+  1
+  \;-\;
+  (E \cdot E - B \cdot B)
+  \;-\;
+  (B \cdot E)^2
+  \;\geq\;
+  0
+  \\
+  & \Leftrightarrow
+  \;
+  E^2 - B^2 + E^2 B_{\parallel}^2
+  \;\leq 1\;
+  \\
+  & \Leftrightarrow
+  \;
+  E^2
+  \;\leq\;
+  \frac{
+    1 + B^2
+  }{
+    1 + B_{\parallel}^2
+  }
+  \end{aligned}
+$$
+
+where 
+
+$$
+  B_{\parallel} \coloneqq  \tfrac{1}{\sqrt{E\cdot E}} B \cdot E
+$$
+
+is the component of the [[magnetic field]] which is parallel to the [[electric field]].
+
+The resulting maximal electric field strength
+
+$$
+  E_{crit}
+  \;\coloneqq\;
+  \sqrt{
+    \frac{
+      1 + B^2
+    }{
+      1 + B_{\parallel}^2
+    }
+  }
+$$
+
+turns out to be the [[Schwinger limit]] beyond which the electric field would cause [[deconfinement|deconfining]] [[quark]]-pair creation ([Hashimoto-Oka-Sonoda 14b, (2.17)](#HashimotoOkaSonoda14b)).
+
 
 
 ## Related concepts
@@ -377,7 +469,7 @@ $$
 
 ### General
 
-As a proposal for a modification of [[electromagnetism]] in [[spacetime]], the Dirac-Born-Infeld (DBI) action originates in
+As a proposal for a modification of [[electromagnetism]] in [[spacetime]], the (Dirac-)Born-Infeld (DBI) action originates in
 
 * {#BornInfeld34} [[Max Born]], [[Leopold Infeld]], _Foundations of the New Field Theory_,  Proceedings of the Royal Society of London. Series A, Containing Papers of a Mathematical and Physical Character, Vol. 144, No. 852 (Mar. 29, 1934), pp. 425-451 ([jstor:2935568](https://www.jstor.org/stable/2935568))
 
@@ -385,7 +477,7 @@ The article by Dirac which came to be commonly cited in this context is
 
 * {#Dirac62} [[Paul Dirac]], _An Extensible Model of the Electron_, Proc. Roy. Soc. A268, (1962) 57-67 ([jstor:2414316](https://www.jstor.org/stable/2414316))
 
-  (which also proposed the [[membrane]] as a unification of the [[electron]] and the [[muon]])
+  (which proposes a [[membrane]]-model as a unification of the [[electron]] and the [[muon]])
 
 
 ### For single (abelian) D-branes
@@ -479,7 +571,6 @@ Discussion of the [[DBI-action]] for [[flavor brane|flavor branes]] in [[hologra
 * [[Vadim Kaplunovsky]], [[Jacob Sonnenschein]], Section 6 of: _Searching for an Attractive Force in Holographic Nuclear Physics_, JHEP 05 (2011) 058 ([arXiv:1003.2621](https://arxiv.org/abs/1003.2621))
 
 
-
 [[!include holographic Schwinger effect -- references]]
 
 
@@ -509,12 +600,25 @@ Relation of [[single trace observables]] in the [[non-abelian DBI action]] on [[
 
 [[!redirects DBI action]]
 [[!redirects DBI-action]]
+[[!redirects DBI actions]]
+[[!redirects DBI-actions]]
 
 [[!redirects non-abelian DBI action]]
 [[!redirects non-abelian DBI-action]]
+[[!redirects non-abelian DBI actions]]
+[[!redirects non-abelian DBI-actions]]
+
+
+[[!redirects DBI Lagrangian]]
+[[!redirects DBI-Lagrangian]]
+[[!redirects DBI Lagrangians]]
+[[!redirects DBI-Lagrangians]]
+
 
 [[!redirects DBI field theory]]
 [[!redirects DBI field theories]]
+[[!redirects DBI-field theory]]
+[[!redirects DBI-field theories]]
 
 [[!redirects DBI model]]
 [[!redirects DBI-model]]
