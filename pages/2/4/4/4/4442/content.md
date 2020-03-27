@@ -422,6 +422,7 @@ Surveys and introductions include
 
 * [[Horatiu Nastase]], _Introduction to AdS-CFT_ ([arXiv:0712.0689](http://arxiv.org/abs/0712.0689))
 
+* [[Horatiu Nastase]], _Introduction to AdS/CFT correspondence_, Cambridge University Press, 2015 ([spire:1984145](http://cds.cern.ch/record/1984145), [doi:10.1017/CBO9781316090954](https://doi.org/10.1017/CBO9781316090954))
 
 * [[Jan de Boer]], _Introduction to AdS/CFT correspondence_, [pdf](http://www-library.desy.de/preparch/desy/proc/proc02-02/Proceedings/pl.6/deboer_pr.pdf)
 
