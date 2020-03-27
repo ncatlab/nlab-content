@@ -350,6 +350,24 @@ We discuss the identifications of the resulting four summands shown under the br
 
 The expression (eq:PlainMinkowskiDBIAction) is supposed to be exact for [[constant function|constant]] [[field strength]] (e..g. [Bachas-Bain-Green 99, above (1.9)](#BachasBainGreen99)), and to pick up [[higher curvature corrections]] for non-constant field strength. The first derivative correction to (eq:PlainMinkowskiDBIAction) is supposed to arise at order $(\partial F)^4$. The explicit expression is given in [Garousi 15 (7)](#Garousi15) (argued there by appealing to [[T-duality]] and [[S-duality]] applied to earlier results on higher curvature corrections in other fields involved).
 
+On 4-dimensional [[Minkowski spacetime]] this computation reduces to (see also e.g. [Nastase 15, 9.4](#Nastase15)):
+
+$$
+  \sqrt{
+    - det( \eta + F )
+  }
+  \;=\;
+  \sqrt{
+    1 
+      + 
+    \vec E \cdot \vec E 
+      - 
+    \vec B \cdot \vec B 
+      - 
+    (\vec B \cdot \vec E)^2
+  }
+$$
+
 
 ## Related concepts
 
@@ -393,6 +411,9 @@ Review:
 * {#Schwarz01} [[John Schwarz]], _Comments on Born-Infeld Theory_, in: Atish Dabholkar, [[Sunil Mukhi]], Spenta R. Wadia (eds.) _[Strings 2001: Proceedings, Strings 2001 Conference](http://inspirehep.net/record/944370)_, Tata Institute of Fundamental Research, Mumbai, India, January 5-10, 2001 ([arXiv:hep-th/0103165](https://arxiv.org/abs/hep-th/0103165), [spire:554347](http://inspirehep.net/record/554347))
 
 * Paul Koerber, _Abelian and Non-abelian D-brane Effective Actions_, Fortsch. Phys. 52 (2004) 871-960 ([arXiv:hep-th/0405227](https://arxiv.org/abs/hep-th/0405227))
+
+* {#Nastase15} [[Horatiu Nastase]], Section 9.2 and 9.4 of: _Introduction to AdS/CFT correspondence_, Cambridge University Press, 2015 ([cds:1984145](http://cds.cern.ch/record/1984145), [doi:10.1017/CBO9781316090954](https://doi.org/10.1017/CBO9781316090954))
+
 
 Detailed discussion of the relation to the [[Polyakov action]] and the [[Nambu-Goto action]] is in
 
