@@ -62,7 +62,7 @@ Further discussion in the context of [[higher algebra]] is in
 
 Infinitesimal neighborhoods of subvarieties play role in completion of subvarieties and various definitions of [[formal schemes]], the ring case of course plays a role, cf.
 
-* J. Illusie, Grothendieck tehorem [[FGA explained]]
+* J. Illusie, Grothendieck theorem [[FGA explained]]
 
 
 [[!redirects infinitesimal extensions]]
