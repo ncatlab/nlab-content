@@ -60,7 +60,7 @@ If $X$ is a [[smooth scheme]], there is a canonical [[equivalence]]
 of [[triangulated categories]].
 =--
 
-See [(SGA 6, Exp. I)](#SGA6).
+This follows from the previous proposition combined with [(SGA 6, Exp. I, Exemples 5.11)](#SGA6).
 
 ## Derived equivalence
 
