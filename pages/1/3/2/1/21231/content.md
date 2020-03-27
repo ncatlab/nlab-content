@@ -92,8 +92,12 @@ See also
 
 Discussion of the [[Schwinger effect]] in [[quantum chromodynamics]]:
 
+* Asim Yildiz, Paul H. Cox, _Vacuum Behavior in Quantum Chromodynamics_, Phys.Rev. D21 (1980) 1095 ([spire:7860](http://inspirehep.net/record/7860)
+
 
 * Paul H. Cox, Asim Yildiz, _$q \bar q$ pair creation: A field-theory approach_, Phys. Rev. D 32, 819 (1985) ([doi:10.1103/PhysRevD.32.819](https://doi.org/10.1103/PhysRevD.32.819))
+
+* Naoto Tanji, _Dynamical view of pair creation in uniform electric and magnetic fields_, Annals Phys.324:1691-1736, 2009 ([arXiv:0810.4429](https://arxiv.org/abs/0810.4429))
 
 * Sho Ozaki, Takashi Arai, Koichi Hattori, Kazunori Itakura, _Euler-Heisenberg-Weiss action for QCD+QED_, Phys. Rev. D 92, 016002 (2015) ([arXiv:1504.07532](https://arxiv.org/abs/1504.07532))
 
