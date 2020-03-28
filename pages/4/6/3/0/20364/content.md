@@ -53,7 +53,7 @@ For example [[locally compact topological space|locally compact]] [[abelian grou
 
 Pyknotic sets can be described as sheaves on several different sites. 
 
-1. Take $\mathcal{C}$ to be the Kleisli category for the ultrafilter monad: objects are sets and morphisms are functions between the sets of ultrafilters borne by those sets. Pynotic sets are functors $\mathcal{C}^{op}\to Set$ that carry coproducts in $\mathcal{C}$ to products in $Set$. So they can be understood as models for a large [[Lawvere theory]].
+1. Take $\mathcal{C}$ to be the Kleisli category for the ultrafilter monad: objects are sets and morphisms are functions between the sets of ultrafilters borne by those sets. Pyknotic sets are functors $\mathcal{C}^{op}\to Set$ that carry coproducts in $\mathcal{C}$ to products in $Set$. So they can be understood as models for a large [[Lawvere theory]].
 
 1. Take $\mathcal{C}$  to be the category of compact Hausdorff spaces (i.e., compacta) but where the sheaf condition is somewhat more elaborate, requiring in addition that $F$ carries the coequalizer displaying an epimorphism $K \to L$ as the cokernel of its kernel pair to monomorphism.
 
