@@ -91,7 +91,7 @@ Forming categories of operators is left 2-adjoint to forming the [[representable
 
 ## Related concepts
 
-* The ([[syntactic category]] of) a (homogeneous) [[globular theory]] is the category of operators a [[globular operad]].
+* The ([[syntactic category]] of) a (homogeneous) [[globular theory]] is the category of operators of a [[globular operad]].
 
 
 ## References
