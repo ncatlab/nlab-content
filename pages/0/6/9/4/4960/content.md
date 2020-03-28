@@ -695,7 +695,7 @@ $$
   \,.
 $$
 
-In one direction, assume that $ptp_{\mathbf{B}}$ is an epimorphism. By (eq:PiecesToPointsFromBase) we have $ptp_{\mathbf{H}} = Disc(ptp_{\mathbf{B}})$, but $Disc$ is a [[left adjoint]] and left adjoints preserve monomorphisms.
+In one direction, assume that $ptp_{\mathbf{B}}$ is an epimorphism. By (eq:PiecesToPointsFromBase) we have $ptp_{\mathbf{H}} = Disc(ptp_{\mathbf{B}})$, but $Disc$ is a [[left adjoint]] and left adjoints preserve epimorphisms.
 
 In the other direction, assume that $ptp_{\mathbf{H}}$ is an epimorphism. By (eq:PointsToPiecesInTheBase) and (eq:AdjunctOfptpH) we see that $ptp_{\mathbf{B}}$ is re-obtained from this by applying $\Gamma$ and then composition with isomorphisms. But $\Gamma$ is again a left adjoint, and hence preserves epimorphism, as does composition with isomorphisms.
 
