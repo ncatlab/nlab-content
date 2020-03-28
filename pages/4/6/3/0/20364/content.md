@@ -57,7 +57,7 @@ Pyknotic sets can be described as sheaves on several different sites.
 
 1. Take $\mathcal{C}$  to be the category of compact Hausdorff spaces (i.e., compacta) but where the sheaf condition is somewhat more elaborate, requiring in addition that $F$ carries the coequalizer displaying an epimorphism $K \to L$ as the cokernel of its kernel pair to monomorphism.
 
-1. Take $\mathcal{C} \subset Top$ to be the subcategory of tiny compact hausdorff spaces that are extremally disconnected, called **Stonean** spaces. A pyknotic set carries finite coproducts to products in $Set$.
+1. Take $\mathcal{C} \subset Top$ to be the subcategory of tiny compact hausdorff spaces that are extremally disconnected, called [[Stonean spaces]]. A pyknotic set carries finite coproducts to products in $Set$.
 
 ## Motivation
 
