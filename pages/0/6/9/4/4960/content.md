@@ -697,7 +697,7 @@ $$
 
 In one direction, assume that $ptp_{\mathbf{B}}$ is an epimorphism. By (eq:PiecesToPointsFromBase) we have $ptp_{\mathbf{H}} = Disc(ptp_{\mathbf{B}})$, but $Disc$ is a [[left adjoint]] and left adjoints preserve epimorphisms.
 
-In the other direction, assume that $ptp_{\mathbf{H}}$ is an epimorphism. By (eq:PointsToPiecesInTheBase) and (eq:AdjunctOfptpH) we see that $ptp_{\mathbf{B}}$ is re-obtained from this by applying $\Gamma$ and then composition with isomorphisms. But $\Gamma$ is again a left adjoint, and hence preserves epimorphism, as does composition with isomorphisms.
+In the other direction, assume that $ptp_{\mathbf{H}}$ is an epimorphism. By (eq:PointsToPiecesInTheBase) and (eq:AdjunctOfptpH) we see that $ptp_{\mathbf{B}}$ is re-obtained from this by applying $\Gamma$ and then composition with isomorphisms. But $\Gamma$ is again a left adjoint, and hence preserves epimorphisms, as does composition with isomorphisms.
 
 By applying (eq:PointsToPiecesInTheBase) again, we find in particular that _[[pieces have points]]_ is also equivalent to $\Pi \epsilon^\flat_{Disc S}$ being an epimorphism, for all $S \in \mathbf{B}$. But this is equivalent to
 
