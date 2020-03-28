@@ -84,6 +84,13 @@ Constraints from [[experiment]] ([[LHC]]):
 
 * ZEUS Collaboration, _Limits on contact interactions and leptoquarks at HERA_ ([arXiv:1902.03048](https://arxiv.org/abs/1902.03048))
 
+Alternative detection channel:
+
+* Priyotosh Bandyopadhyay, Saunak Dutta, Anirban Karan, _Investigating the Production of Leptoquarks by Means of Zeros of Amplitude at Photon Electron Collider_ ([arXiv:2003.11751](https://arxiv.org/abs/2003.11751))
+
+
+
+
 ### Relation to flavour anomalies
 
 As a potential solution of the apparent [[B meson]] [[flavour anomaly]]:
