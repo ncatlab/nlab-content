@@ -27,7 +27,7 @@ to the category of [[Boolean locales]]
 and [[Stonean locales]].
 The latter fact is also known as the (localic) __Stonean duality__.
 
-In presence of the [[axiom of choice]],
+In the presence of the [[axiom of choice]],
 the category of [[Stonean locales]] is equivalent
 to the category of [[Stonean spaces]],
 so the latter is contravariantly equivalent to the category
