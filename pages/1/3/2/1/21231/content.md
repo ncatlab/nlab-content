@@ -98,6 +98,8 @@ Discussion of the [[Schwinger effect]] in [[quantum chromodynamics]]:
 
 * Asim Yildiz, Paul H. Cox, _Vacuum Behavior in Quantum Chromodynamics_, Phys. Rev. D21 (1980) 1095 ([spire:7860](http://inspirehep.net/record/7860))
 
+* M. Claudson, Asim Yildiz, Paul H. Cox, _Vacuum behavior in quantum chromodynamics. II_, Phys. Rev. D 22, 2022 (1980) ([doi:10.1103/PhysRevD.22.2022](https://doi.org/10.1103/PhysRevD.22.2022))
+
 
 * Paul H. Cox, Asim Yildiz, _$q \bar q$ pair creation: A field-theory approach_, Phys. Rev. D 32, 819 (1985) ([doi:10.1103/PhysRevD.32.819](https://doi.org/10.1103/PhysRevD.32.819))
 
