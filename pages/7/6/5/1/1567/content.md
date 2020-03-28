@@ -227,7 +227,7 @@ where $hom$ denotes the internal hom of $FinPos$ regarded as a cartesian closed 
 
 $$ hom(-,2) \; \colon \; FinPoset^{op} \to FinPoset $$
 
-We can interpret this formula for $F$ as follows.   To compute $FP$ for a finite poset $P$, first form the poset of upsets in $P$ with the reverse ordering (this is the free finite meet completion).  Then form the distributive lattice of finitely generated downsets in that.
+We can interpret this formula for $F$ as follows.   To compute $F P$ for a finite poset $P$, first form the poset of upsets in $P$ with the reverse ordering (this is the free finite meet completion).  Then form the distributive lattice of finitely generated downsets in that.
 
 ### Categorification
 
