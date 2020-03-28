@@ -81,6 +81,9 @@ Discussion of [[experiments]] that could/should see the [[Schwinger effect]]:
 
 * {#Dunne09} [[Gerald Dunne]], _New Strong-Field QED Effects at ELI: Nonperturbative Vacuum Pair Production_, Eur. Phys. J. D55:327-340, 2009 ([arXiv:0812.3163](https://arxiv.org/abs/0812.3163))
 
+* Hidetoshi Taya, _Mutual assistance between the Schwinger mechanism and the dynamical Casimir effect_ ([arXiv:2003.12061](https://arxiv.org/abs/2003.12061))
+
+
 
 See also
 
