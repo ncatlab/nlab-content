@@ -14,7 +14,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -83,6 +82,7 @@ Discussion of [[experiments]] that could/should see the [[Schwinger effect]]:
 
 * Hidetoshi Taya, _Mutual assistance between the Schwinger mechanism and the dynamical Casimir effect_ ([arXiv:2003.12061](https://arxiv.org/abs/2003.12061))
 
+* Florian Hebenstreit, _A space-time resolved view  of the Schwinger effect_, Frontiers of intense laser physics – KITP 2014 ([[HebenstreitSchwingerEffect2014.pdf:file]])
 
 
 See also
