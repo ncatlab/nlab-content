@@ -1,3 +1,4 @@
+[[!redirects moment map]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -9,13 +10,13 @@
 =--
 =--
 
-# The moment map
+# The momentum map
 * table of contents
 {: toc}
 
 ## Idea
 
-A _moment map_ is a dual incarnation of a [[Hamiltonian action]] of a [[Lie group]] (or [[Lie algebra]]) on a [[symplectic manifold]].
+A _momentum map_ is a dual incarnation of a [[Hamiltonian action]] of a [[Lie group]] (or [[Lie algebra]]) on a [[symplectic manifold]].
 
 An [[action]] of a [[Lie group]] $G$ on a [[symplectic manifold]] $X$ by ([[Hamiltonian symplectomorphisms|Hamiltonian]]) [[symplectomorphisms]] corresponds [[infinitesimal space|infinitesimally]] to a Lie algebra [[homomorphism]] from the [[Lie algebra]] $\mathfrak{g}$ to the [[Hamiltonian vector fields]] on $X$. If this lifts to a coherent choice of [[Hamiltonians]], hence to a Lie algebra homomorphism $\mathfrak{g} \to (C^\infty(X), \{-,-\})$ to the [[Poisson bracket]], then, by [[dual vector space|dualization]], this is equivalently a [[Poisson manifold]] homomorphism of the form
 
@@ -24,14 +25,15 @@ $$
   \,.
 $$
 
-This $\mu$ is called the _moment map_ or _momentum map_ of the Hamiltonian action.
+This $\mu$ is called the _momentum map_ (or _moment map_[^name]) of the Hamiltonian action.
+[^name]: Moment map is a misnomer and physically incorrect. It is an erroneous translation of the French notion application moment. See [this mathoverflow question](https://mathoverflow.net/q/242468) for the history of the name.
 
 The name derives from the special and historically first case of [[angular momentum]] in the [[rigid body dynamics|dynamics of rigid bodies]], see _[Examples - Angular momentum](#AngularMomentum)_ below.
 
 
 ## Definition
 
-The [Preliminaries](#Preliminaries) below review some basics of [[Hamiltonian vector fields]]. The definition of the moment map itself is below in _[Hamiltonian action and the moment map](#HamiltonianActionAndTheMomentMap)_.
+The [Preliminaries](#Preliminaries) below review some basics of [[Hamiltonian vector fields]]. The definition of the momentum map itself is below in _[Hamiltonian action and the momentum map](#HamiltonianActionAndTheMomentumMap)_.
 
 ### Preliminaries
  {#Preliminaries}
@@ -65,12 +67,12 @@ See at _[Hamiltonian vector field -- Relation to Poisson bracket](Hamiltonian+ve
 
 
 
-### Hamiltonian action and moment map
- {#HamiltonianActionAndTheMomentMap}
+### Hamiltonian action and momentum map
+ {#HamiltonianActionAndTheMomentumMap}
 
 Let $(X, \omega)$ be a [[symplectic manifold]] and let $\mathfrak{g}$ be a [[Lie algebra]]. Write $(C^\infty(X), \{-,-\})$ for the [[Poisson bracket]] Lie algebra underlying the corresponding [[Poisson algebra]]. 
 
-+-- {: .num_defn #MomentMap}
++-- {: .num_defn #MomentumMap}
 ###### Definition
 
 A _[[Hamiltonian action]]_ of $\mathfrak{g}$ on $(X, \omega)$ is a [[Lie algebra]] [[homomorphism]]
@@ -92,7 +94,7 @@ $$
   \mu \;\colon\; x \mapsto \tilde \mu(-)(x)
 $$
 
-is the corresponding **moment map**.
+is the corresponding **momentum map**.
 
 =--
 
@@ -105,7 +107,7 @@ $$
   \langle -,-\rangle : \mathfrak{g}^* \otimes \mathfrak{g} \to \mathbb{R}
 $$
 
-then the equation characterizing $\mu$ in def. \ref{MomentMap} reads for all $x \in X$ and $v \in \mathfrak{g}$
+then the equation characterizing $\mu$ in def. \ref{MomentumMap} reads for all $x \in X$ and $v \in \mathfrak{g}$
 
 $$
   \langle \mu(x), v \rangle = \tilde \mu(v)(x)
@@ -129,7 +131,7 @@ $$
 
 The following are equivalent
 
-1. the linear map underlying $\tilde\mu$ in def. \ref{MomentMap} is [[Lie algebra]] [[homomorphism]];
+1. the linear map underlying $\tilde\mu$ in def. \ref{MomentumMap} is [[Lie algebra]] [[homomorphism]];
 
 1. its dual $\mu$ is a [[Poisson manifold]] [[homomorphism]] with respect to the [[Lie-Poisson structure]] on $\mathfrak{g}^\ast$.
 
@@ -192,11 +194,11 @@ and so $\tilde \mu$ is a Lie homomorphism.
 
 ## Examples
 
-### Angular moment
+### Angular momentum
  {#AngularMomentum}
 Consider the action of SO(3) on $\mathbb{R}^3$, which induces a Hamiltonian action on $T^*\mathbb{R}^3\cong\mathbb{R}^3\times\mathbb{R}^3$ via 
 $$(q,p)\xrightarrow{A\in\text{SO(3)}}(Aq,pA^{-1})$$
-where $q$ is a column vector and $p$ is a row vector. Then the moment map for this Hamiltonian action is 
+where $q$ is a column vector and $p$ is a row vector. Then the momentum map for this Hamiltonian action is 
 $$\mu\colon T^*(\mathbb{R}^3)\to \mathfrak{so}(3)^*,\quad \left\langle\mu(q,p),\;\vec\theta\cdot\begin{pmatrix}\Omega_1\\\Omega_2\\\Omega_3\end{pmatrix} \right\rangle\to (\vec{q}\times \vec p)\cdot\vec{\theta}$$
 where 
 $$\Omega_1=\begin{pmatrix}0&0&0\\0&0&-1\\0&1&0\end{pmatrix},\quad\Omega_2=\begin{pmatrix}0&0&1\\0&0&0\\-1&0&0\end{pmatrix},\quad \Omega_3=\begin{pmatrix}0&-1&0\\1&0&0\\0&0&0\end{pmatrix}$$
@@ -207,31 +209,31 @@ If we choose $\Omega_1,\Omega_2,\Omega_3$ as an orthonormal basis of $\mathfrak{
 
 ### Relation to conserved quantities
 
-The values of the moment map for each given Lie algebra generator may be regarded as the [[conserved current|conserved currents]] given by a _Hamiltonian [[Noether theorem]]_.
+The values of the momentum map for each given Lie algebra generator may be regarded as the [[conserved current|conserved currents]] given by a _Hamiltonian [[Noether theorem]]_.
 
-Specifically if $(X,\omega)$ is a [[symplectic manifold]] equipped with a "time evolution" [[Hamiltonian action]] $\mathbb{R} \to \mathfrak{Poisson}(X,\omega)$ given by a [[Hamiltonian]] $H$ and if $\mathfrak{g} \to \mathfrak{Poisson}(X,\omega)$ is some [[Hamiltonian action]] with moment $\Phi(\xi)$ for $\xi \in \mathfrak{g}$ which preserves the Hamiltonian in that the [[Poisson bracket]] vanishes
+Specifically if $(X,\omega)$ is a [[symplectic manifold]] equipped with a "time evolution" [[Hamiltonian action]] $\mathbb{R} \to \mathfrak{Poisson}(X,\omega)$ given by a [[Hamiltonian]] $H$ and if $\mathfrak{g} \to \mathfrak{Poisson}(X,\omega)$ is some [[Hamiltonian action]] with momentum $\Phi(\xi)$ for $\xi \in \mathfrak{g}$ which preserves the Hamiltonian in that the [[Poisson bracket]] vanishes
 
 $$
   \{\Phi^\xi, H\} = 0
 $$
 
-then of course also the time evolution of the moments vanishes
+then of course also the time evolution of the momentum vanishes
 
 $$
   \frac{d}{d t} \Phi^\xi = \{H, \Phi^\xi\} = 0
   \,.
 $$
 
-See at _[Noether theorem -- In terms of moment maps/Hamiltonian Noether theorem ](Noether%27s+theorem#HamiltonianNoetherTheorem)_.
+See at _[Noether theorem -- In terms of momentum maps/Hamiltonian Noether theorem ](Noether%27s+theorem#HamiltonianNoetherTheorem)_.
 
 ### Relation to constrained mechanics
  {#RelationToConstrainedMechanics}
 
-In the context of [[constrained mechanics]] the components of the moment map (as the Lie algebra argument varies) are called [[first class constraints]]. See _[[symplectic reduction]]_ for more.
+In the context of [[constrained mechanics]] the components of the momentum map (as the Lie algebra argument varies) are called [[first class constraints]]. See _[[symplectic reduction]]_ for more.
 
 ## Related concepts
 
-The moment map is a crucial ingredient in the construction of Marsden--Weinstein [[symplectic quotients]] and in other variants of symplectic reduction.
+The momentum map is a crucial ingredient in the construction of Marsden--Weinstein [[symplectic quotients]] and in other variants of symplectic reduction.
 
 
 
@@ -276,9 +278,9 @@ quivers_, Compositio Math. __126__ (2001), no. 3, 257-293.
 
 See also
 
-* wikipedia, _[moment map](http://en.wikipedia.org/wiki/Moment_map)_
+* wikipedia, _[momentum map](http://en.wikipedia.org/wiki/Moment_map)_
 
-Moment maps in [[higher geometry]], [[schreiber:Higher geometric prequantum theory]], are discussed in 
+Momentum maps in [[higher geometry]], [[schreiber:Higher geometric prequantum theory]], are discussed in 
 
 * [[Yael Fregier]], [[Chris Rogers]], [[Marco Zambon]], _Homotopy moment maps_ ([arXiv:1304.2051](http://arxiv.org/abs/1304.2051))
 
@@ -297,13 +299,13 @@ Relation to [[equivariant cohomology]]:
 
 * [[Michael Atiyah]], [[Raoul Bott]], _The moment map and equivariant cohomology_, Topology vol. 23 No. 1 1984  ([pdf](https://www.math.sunysb.edu/~mmovshev/MAT570Spring2008/BOOKS/atiyahbott_moment.pdf))
 
-### Generalization: group-valued moment maps
+### Generalization: group-valued momentum maps
 
 * [[Anton Alekseev]], Anton Malkin, [[Eckhard Meinrenken]], _Lie group valued moment maps_, J. Differential Geom. Volume 48, Number 3 (1998), 445-495. [euclid](http://projecteuclid.org/euclid.jdg/1214460860), [MR1638045](http://www.ams.org/mathscinet-getitem?mr=1638045)
 
 * [[Eckhard Meinrenken]], _Lectures on group-valued moment maps and Verlinde formulas_, 35 pages, January 2012, [pdf](http://www.math.toronto.edu/mein/research/NotreLectures.pdf)
 
-The relation between moment maps and [[conserved currents]]/[[Noether's theorem]] is amplied for instance in
+The relation between momentum maps and [[conserved currents]]/[[Noether's theorem]] is amplied for instance in
  
 * {#Fan} Huijun Fan, _Lecture 8, Moment map and symplectic reduction_ ([pdf](http://www.math.pku.edu.cn/teachers/fanhj/courses/symp-8.pdf))
  
@@ -311,7 +313,7 @@ The relation between moment maps and [[conserved currents]]/[[Noether's theorem]
 ### In thermodynamics
  {#ReferencesInThermodynamics}
 
-Since moment maps generalize [[energy]]-functionals, they provide a covariant formulation of [[thermodynamics]]:
+Since momentum maps generalize [[energy]]-functionals, they provide a covariant formulation of [[thermodynamics]]:
 
 
 * [[Jean-Marie Souriau]], _Thermodynamique et g&#233;om&#233;trie_,  Lecture Notes in Math. 676 (1978), 369&#8211;397 ([scan](http://www-lib.kek.jp/cgi-bin/kiss_prepri.v8?KN=197810025))
