@@ -27,7 +27,178 @@ The analogous effect in [[quantum chromodynamics]] would lead to [[deconfinement
 
 While the effect is clearly predicted by established [[theory (physics)|theory]], it has not been observed in [[experiment]] yet, since the required electric field strengths are so large. But recent experiments get close to the required intensities ([Dunne 09](#Dunne09)).
 
+## Description
+
+Let $(\vec E, \vec B)$ be a constant [[electromagnetic field]] on 4d [[Minkowski spacetime]] in a given Lorentz frame. 
+
+Write
+
+$$
+  \begin{aligned}
+    E 
+    & \coloneqq
+    \sqrt{
+      \vec E \cdot \vec E
+    }
+    \\
+    B 
+    & \coloneqq
+    \sqrt{
+      \vec B \cdot \vec B
+    }
+  \end{aligned}
+$$
+
+for the [[norm]] of these field vectors. These, of course, depend on the choice of Lorentz frame. For the Schwinger effect the relevant [[Lorentz group|Lorentz]] [[invariants]] are
+
+
+
+$$
+  \begin{aligned}
+    \mathcal{E}
+     \;\coloneqq\;
+     \sqrt{
+      \sqrt{  
+        \left(
+          \tfrac{1}{2}
+            \big(
+              \vec E \cdot \vec E
+              - 
+              \vec B \cdot \vec B
+            \big)
+        \right)^2
+        +
+        \big(
+          \vec E \cdot \vec B
+        \big)^2
+      }
+      +
+      \tfrac{1}{2}
+      \big(
+        \vec E \cdot \vec E
+        - 
+        \vec B \cdot \vec B
+      \big)
+    }
+    \\
+    \mathcal{B}
+     \;\coloneqq\;
+    \sqrt{
+      \sqrt{  
+        \left(
+          \tfrac{1}{2}
+            \big(
+              \vec B \cdot \vec B
+              - 
+              \vec E \cdot \vec E
+            \big)
+        \right)^2
+        +
+        \big(
+          \vec E \cdot \vec B
+        \big)^2
+      }
+      +
+      \tfrac{1}{2}
+      \big(
+        \vec B \cdot \vec B
+        - 
+        \vec E \cdot \vec E
+      \big)
+    }
+  \end{aligned}
+$$
+
+Noticing that if $\vec E \cdot \vec B \neq 0$ then there is a [[Lorentz transformation]] to $(\vec E', \vec B')$ such that the electric field is strictly parallel to the magentic field $\vec E \parallel \vec B$, these invariants are more explicity given as follows:
+
+$$
+  \begin{aligned}
+  \mathcal{E}
+  \; = \;
+  \left\{
+    \array{
+      \sqrt{
+        \vec E \cdot \vec E - \vec B \cdot \vec B
+      }
+      &
+      \vert
+      &
+      \mathrlap{
+        \vec E \cdot \vec B = 0
+      }
+      \\
+      E'
+      &\vert&
+      \mathrlap{
+      \vec E \cdot \vec B \neq 0
+      \;\;
+      \Rightarrow
+      \underset{
+        {
+          Lorentz   
+          \atop
+          transformation
+        }
+        \atop
+        {
+          (\vec E, \vec B) 
+          \mapsto 
+          (\vec E', \vec B')
+        }
+      }{\exists}
+        \vec E' \parallel \vec B'
+      }
+    }
+  \right.
+  \\
+  \mathcal{B}
+  \; = \;
+  \left\{
+    \array{
+      0
+      &
+      \vert
+      &
+      \mathrlap{
+        \vec E \cdot \vec B = 0
+      }
+      \\
+      
+      &\vert&
+      \mathrlap{
+      \vec E \cdot \vec B \neq 0
+      \;\;
+      \Rightarrow
+      \underset{
+        {
+          Lorentz   
+          \atop
+          transformation
+        }
+        \atop
+        {
+          (\vec E, \vec B) 
+          \mapsto 
+          (\vec E', \vec B')
+        }
+      }{\exists}
+        \vec E' \parallel \vec B'
+      }
+    }
+  \right.
+  \end{aligned}
+$$
+
+
 ## Properties
+
+### Critical electric field
+
+(...) [Martin 07, (40)](#Martin07) 
+
+(...)
+
+
 
 ### In holographic QCD
  {#InHolographicQCD}
@@ -83,6 +254,11 @@ Discussion of [[experiments]] that could/should see the [[Schwinger effect]]:
 * Hidetoshi Taya, _Mutual assistance between the Schwinger mechanism and the dynamical Casimir effect_ ([arXiv:2003.12061](https://arxiv.org/abs/2003.12061))
 
 * Florian Hebenstreit, _A space-time resolved view  of the Schwinger effect_, Frontiers of intense laser physics – KITP 2014 ([[HebenstreitSchwingerEffect2014.pdf:file]])
+
+Discussion in [[cosmic inflation|inflationary]] [[cosmology]]:
+
+* {#Martin07} Jerome Martin, _Inflationary Perturbations: the Cosmological Schwinger Effect_, Lect. Notes Phys. 738:193-241, 2008 ([arXiv:0704.3540](https://arxiv.org/abs/0704.3540), [doi:10.1007/978-3-540-74353-8_6](https://doi.org/10.1007/978-3-540-74353-8_6))
+
 
 
 See also
