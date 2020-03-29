@@ -12,6 +12,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -48,7 +49,17 @@ the [[Lagrangian density]] of the Born-Infeld [[action functional]] is
   \label{PlainMinkowskiDBIAction}
   \mathbf{L}_{BI}
   \;=\;
-  \sqrt{ - det( \eta + F ) } \, dvol
+  \sqrt{ 
+    - 
+    det
+    \big( 
+      (\eta_{\mu\nu}) 
+      + 
+      \tfrac{1}{T}
+      (F_{\mu\nu})
+    \big) 
+  } 
+  \, dvol
   \,.
 \]
 
@@ -68,7 +79,9 @@ Here
     \,,
   $$
 
-* $det(\cdots)$ denotes the [[determinant]] of the [[sum]] of these [[matrices]]
+* $T = \frac{1}{2\pi \, \alpha'} = \frac{1}{2\pi \, \ell_2^2}$ is the [[string tension]],
+
+* $det(\cdots)$ denotes the [[determinant]] of the [[sum]] of these [[matrices]],
 
 * $\sqrt{}$ denotes the [[positive number|positive]] [[square root]],
 
@@ -374,7 +387,7 @@ Then the general expression (eq:TheDeterminant) for the [[DBI-Lagrangian]] reduc
   \mathbf{L}_{BI}
   \;=\;
   \sqrt{
-    - det( \eta + F )
+    - det\left( \eta + \tfrac{1}{T} F \right)
   }
   \,
   dvol_4
@@ -382,19 +395,24 @@ Then the general expression (eq:TheDeterminant) for the [[DBI-Lagrangian]] reduc
   \sqrt{
     1 
     -
+    \tfrac{1}{T^2}
     ( 
     \vec E \cdot \vec E 
       - 
     \vec B \cdot \vec B 
     )
     - 
+    \tfrac{1}{T^4}
     (\vec B \cdot \vec E)^2
   }
   \,
   dvol_4
 \]
 
-Notice that this being well-defined, in that the [[square root]] is a [[real number]], hence its argument a non-[[negative number]], means that
+### Critical field strength
+  {#CriticalFieldStrength}
+
+For the DBI-action (eq:InTermsOfElectricAndMagneticField) to be well-defined, in that the [[square root]] is a [[real number]], hence its argument a non-[[negative number]], requires that
 
 $$
   \begin{aligned}
@@ -404,6 +422,7 @@ $$
     \big(
       (\eta_{\mu \nu})
       +
+      \tfrac{1}{T}
       (F_{\mu \nu})
     \big)
     \geq  0
@@ -412,25 +431,48 @@ $$
     \;
   1
   \;-\;
+  \tfrac{1}{T^2}
   (E \cdot E - B \cdot B)
   \;-\;
+  \tfrac{1}{T^4}
   (B \cdot E)^2
   \;\geq\;
   0
   \\
   & \Leftrightarrow
   \;
-  E^2 - B^2 + E^2 B_{\parallel}^2
+  \tfrac{1}{T^2}
+  E^2 
+  -
+  \tfrac{1}{T^2} 
+  B^2 
+  +
+  \tfrac{1}{T^4} 
+  E^2 B_{\parallel}^2
   \;\leq 1\;
   \\
   & \Leftrightarrow
   \;
+  \tfrac{1}{T^2}
   E^2
   \;\leq\;
   \frac{
-    1 + B^2
+    1 + \tfrac{1}{T^2} B^2
   }{
-    1 + B_{\parallel}^2
+    1 + \tfrac{1}{T^2} B_{\parallel}^2
+  }
+  \\
+  & \Leftrightarrow
+  \;
+  E
+  \;\leq\;
+  T
+  \sqrt{
+  \frac{
+    T^2 + B^2
+  }{
+    T^2 + B_{\parallel}^2
+  }
   }
   \end{aligned}
 $$
@@ -448,16 +490,17 @@ The resulting maximal electric field strength
 $$
   E_{crit}
   \;\coloneqq\;
+  T
   \sqrt{
     \frac{
-      1 + B^2
+      T^2 + B^2
     }{
-      1 + B_{\parallel}^2
+      T^2 + B_{\parallel}^2
     }
   }
 $$
 
-turns out to be the [[Schwinger limit]] beyond which the electric field would cause [[deconfinement|deconfining]] [[quark]]-pair creation ([Hashimoto-Oka-Sonoda 14b, (2.17)](#HashimotoOkaSonoda14b)).
+turns out to be the [[Schwinger limit]] (see [there](Schwinger+effect#CriticalFieldStrength)) beyond which the electric field would cause [[deconfinement|deconfining]] [[quark]]-pair creation ([Hashimoto-Oka-Sonoda 14b, (2.17)](#HashimotoOkaSonoda14b)). 
 
 
 
