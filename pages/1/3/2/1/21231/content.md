@@ -27,9 +27,11 @@ The analogous effect in [[quantum chromodynamics]] would lead to [[deconfinement
 
 While the effect is clearly predicted by established [[theory (physics)|theory]], it has not been observed in [[experiment]] yet, since the required electric field strengths are so large. But recent experiments get close to the required intensities ([Dunne 09](#Dunne09)).
 
-## Description
 
-Let $(\vec E, \vec B)$ be a constant [[electromagnetic field]] on 4d [[Minkowski spacetime]] in a given Lorentz frame. 
+
+## The field strengths
+
+We consider $(\vec E, \vec B)$ be a constant [[electromagnetic field]] on 4d [[Minkowski spacetime]] in a given Lorentz frame. 
 
 Write
 
@@ -51,9 +53,8 @@ $$
 
 for the [[norm]] of these field vectors. These, of course, depend on the choice of Lorentz frame. For the Schwinger effect the relevant [[Lorentz group|Lorentz]] [[invariants]] are
 
-
-
-$$
+\[
+  \label{LorentzInvariantFieldStrenghts}
   \begin{aligned}
     \mathcal{E}
      \;\coloneqq\;
@@ -107,7 +108,9 @@ $$
       \big)
     }
   \end{aligned}
-$$
+\]
+
+(reviewed in [Dunne 04, (1.6)](#Dunne04))
 
 Noticing that if $\vec E \cdot \vec B \neq 0$ then there is a [[Lorentz transformation]] to $(\vec E', \vec B')$ such that the electric field is strictly parallel to the magentic field $\vec E \parallel \vec B$, these invariants are more explicity given as follows:
 
@@ -155,7 +158,11 @@ $$
   \; = \;
   \left\{
     \array{
-      0
+      \sqrt{
+        \vec B \cdot \vec B
+        - 
+        \vec E \cdot \vec E 
+      }
       &
       \vert
       &
@@ -163,7 +170,7 @@ $$
         \vec E \cdot \vec B = 0
       }
       \\
-      
+      B'
       &\vert&
       \mathrlap{
       \vec E \cdot \vec B \neq 0
@@ -189,6 +196,208 @@ $$
   \end{aligned}
 $$
 
+\linebreak
+
+
+## The Schwinger effect
+
+### For general field strength at weak coupling
+
+Assuming
+
+* **parallel field components:**  $\vec E \cdot \vec B \neq 0$;
+
+and
+
+* **weak coupling**: $e$ small;
+
+the rate of pair creation out of the [[vacuumn]] of [[spinor]] [[particles]] of [[electric charge]] $e$ and [[mass]] $m$ is
+
+$$
+  \Gamma_{
+   {
+     e\,small
+   }
+  }
+  \;=\;
+  \frac
+  {
+    e^2 \mathcal{E} \mathcal{B}
+  }{
+    8 \pi^2
+  }
+  \underoverset
+    {n = 1}
+    {\infty}
+    {\sum}
+  \frac{1}{n}
+  \coth
+  \left(
+    \frac{\mathcal{B}}{\mathcal{E}} n \pi
+  \right)  
+  \exp
+  \left(
+    - 
+    \frac{
+      m^2 \pi n
+    }{
+      e \mathcal{E}
+    }
+  \right)
+$$
+
+([Nikishov 69](#Nikishov69), [Bunkin-Tugov 70](#BunkinTugov70), reviewed in [Dunne 04, (1.28)](#Dunne04))
+
+In the [[limit of a sequence]] $\mathcal{B} \to 0$, using that
+
+$$
+  \underset{
+    \underset{
+      x \to 0
+    }{
+      \longrightarrow
+    }
+  }{\lim}
+  \,
+  x \coth(x) 
+  \;=\;
+  x
+  \,,
+$$
+
+this reduces to
+
+\[
+  \label{ForVanishingBFieldAtWeakCoupling}
+  \Gamma_{
+   {
+    {
+      \mathcal{B} = 0
+    }
+   }
+   \atop
+   {
+     e\,small
+   }
+  }
+  \;\coloneqq\;
+  \underset{
+    \underset{
+      B \to 0
+    }{
+      \longrightarrow
+    }
+  }{\lim}
+  \,
+  \Gamma
+  \;=\;
+  \frac
+  {
+    e^2 \mathcal{E}^2
+  }{
+    8 \pi^3
+  }
+  \underoverset
+    {n = 1}
+    {\infty}
+    {\sum}
+  \frac{1}{n^2}
+  \exp
+  \left(
+    - 
+    \frac{
+      m^2 \pi n
+    }{
+      e \mathcal{E}
+    }
+  \right)
+\]
+
+This is due to [Schwinger 51](#Schwinger51) (review in [Dunne 04, (1.25)](#Dunne04))
+
+### For weak fields at weak coupling
+
+Assuming in addition
+
+* **weak fields:**: $\mathcal{E}$ small compared to $m$
+
+the expression (eq:ForVanishingBFieldAtWeakCoupling) simplifies to
+
+\[
+  \label{ForWeakFieldsAndWeakCoupling}
+  \Gamma_{
+   {
+    {
+      \mathcal{B} = 0
+    }
+    \atop
+    {
+      \mathcal{E}\, small
+    }
+   }
+   \atop
+   {
+     e\,small
+   }
+  }
+  \;\coloneqq\;
+  \frac
+  {
+    e^2 \mathcal{E}^2
+  }{
+    8 \pi^3
+  }
+  \exp
+  \left(
+    - 
+    \frac{
+      m^2 \pi
+    }{
+      e \mathcal{E}
+    }
+  \right)
+\]
+
+This is originally due to [Heisenberg-Euler 36](#HeisenbergEuler36), reviewed in [Dunne 04, (1.10)](#Dunne04).
+
+
+### Weak fields, strong coupling
+
+For strong coupling $e$ the expression (eq:ForWeakFieldsAndWeakCoupling) is corrected to 
+
+$$
+  \Gamma_{
+   {
+    {
+      \mathcal{E}\, small
+    }
+    \atop
+    {
+      \mathcal{B} = 0
+    }
+   }
+  }
+  \;=\;
+  \frac
+  {
+    e^2 \mathcal{E}^2
+  }{
+    8 \pi^3
+  }
+  \exp
+  \left(
+    - 
+    \frac{
+      m^2 \pi 
+    }{
+      e \mathcal{E}
+    }
+    + 
+    \tfrac{1}{4}e^2
+  \right)
+$$
+
+This was argued in [Affleck-Alvarez-Manton 82](#AffleckAlvarezManton82).
 
 ## Properties
 
@@ -221,6 +430,11 @@ The original theoretical prediction:
 
 * {#Schwinger51} [[Julian Schwinger]], _On Gauge Invariance and Vacuum Polarization_, Phys. Rev. 82, 664 (1951) ([doi:10.1103/PhysRev.82.664](https://doi.org/10.1103/PhysRev.82.664))
 
+* {#Nikishov69} A. I. Nikishov, _Pair production by a constant external field_, Zh. Eksp. Teor. Fiz. 57 (1969) 1210-1216 ([spire:59436](http://inspirehep.net/record/59436))
+
+* {#BunkinTugov70} F. V. Bunkin, I. I. Tugov, _Possibility of creating electron-positron pairs in avacuum by the focusing of laser radiation_, Sov. Phys. Dokl.14 (1970), 678
+
+
 * {#AffleckManton82} [[Ian Affleck]], [[Nicholas Manton]], _Monopole pair production in a magnetic field_, Nuclear Physics B Volume 194, Issue 1, (1982) Pages 38-64 (<a href="https://doi.org/10.1016/0550-3213(82)90511-9">doi:10.1016/0550-3213(82)90511-9</a>
 
 * {#AffleckAlvarezManton82} [[Ian Affleck]], [[Orlando Alvarez]], [[Nicholas Manton]], _Pair production at strong coupling in weak external fields_, Nuclear Physics B Volume 197, Issue 3 (1982) Pages 509-519 (<a href="https://doi.org/10.1016/0550-3213(82)90455-2">doi:10.1016/0550-3213(82)90455-2</a>)
@@ -235,7 +449,7 @@ Review:
 * Walter Dittrich, Holger Gies, _Probing the Quantum Vacuum --
 Perturbative Effective Action Approach in Quantum Electrodynamics and its Application_, Springer Tracts in Modern Physics, Vol. 166 ([ISBN 978-3-540-45585-1](https://www.springer.com/gp/book/9783540674283))
 
-* [[Gerald Dunne]], _Heisenberg-Euler Effective Lagrangians : Basics and Extensions_, in: _From Fields to Strings: Circumnavigating Theoretical Physics_, pp. 445-522 (2005) ([arXiv:hep-th/0406216](https://arxiv.org/abs/hep-th/0406216), [doi:10.1142/9789812775344_0014](https://doi.org/10.1142/9789812775344_0014))
+* {#Dunne04} [[Gerald Dunne]], _Heisenberg-Euler Effective Lagrangians : Basics and Extensions_, in: _From Fields to Strings: Circumnavigating Theoretical Physics_, pp. 445-522 (2005) ([arXiv:hep-th/0406216](https://arxiv.org/abs/hep-th/0406216), [doi:10.1142/9789812775344_0014](https://doi.org/10.1142/9789812775344_0014))
 
 
 * [[Gerald Dunne]], _The Heisenberg-Euler Effective Action: 75 years on_, Int. J. Mod. Phys. A27 (2012) 1260004 ([arXiv:1202.1557](https://arxiv.org/abs/1202.1557))
