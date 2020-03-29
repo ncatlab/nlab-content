@@ -18,7 +18,6 @@
 * table of contents
 {:toc}
 
-
 ## Idea
 
 What came to be called the _Schwinger effect_ ([Sauter 31](#Sauter31), [Heisenberg-Euler 36](#HeisenbergEuler36), [Schwinger 51](#Schwinger51), [Affleck-Manton 82](#AffleckManton82), [Affleck-Alvarez-Manton 82](#AffleckAlvarezManton82)) is a [[non-perturbative effect]] of [[vacuum polarization]] expected in [[quantum electrodynamics]], where a strong [[electric field]] causes [[electron]]/[[positron]]-[[pairs]] to appear out of the [[vacuum]]. 
@@ -35,7 +34,8 @@ We consider $(\vec E, \vec B)$ be a constant [[electromagnetic field]] on 4d [[M
 
 Write
 
-$$
+\[
+  \label{ActualFieldStrengths}
   \begin{aligned}
     E 
     & \coloneqq
@@ -49,7 +49,7 @@ $$
       \vec B \cdot \vec B
     }
   \end{aligned}
-$$
+\]
 
 for the [[norm]] of these field vectors. These, of course, depend on the choice of Lorentz frame. For the Schwinger effect the relevant [[Lorentz group|Lorentz]] [[invariants]] are
 
@@ -201,7 +201,7 @@ $$
 
 ## The Schwinger effect
 
-### For general field strength at weak coupling
+### For general field strength at small coupling
 
 Assuming
 
@@ -211,9 +211,10 @@ and
 
 * **weak coupling**: $e$ small;
 
-the rate of pair creation out of the [[vacuumn]] of [[spinor]] [[particles]] of [[electric charge]] $e$ and [[mass]] $m$ is
+the rate of pair creation out of the [[vacuum]] of [[spinor]] [[particles]] of [[electric charge]] $e$ and [[mass]] $m$ is
 
 $$
+  \label{SchwingerEffectAtGeneralFieldStrengthForWeakCoupling}
   \Gamma_{
    {
      e\,small
@@ -246,7 +247,7 @@ $$
   \right)
 $$
 
-([Nikishov 69](#Nikishov69), [Bunkin-Tugov 70](#BunkinTugov70), reviewed in [Dunne 04, (1.28)](#Dunne04))
+For [[electron]]/[[positron]] pair-creation in [[electromagnetism]] this is due to [Nikishov 69](#Nikishov69), [Bunkin-Tugov 70](#BunkinTugov70), reviewed in [Dunne 04, (1.28)](#Dunne04). For [[quark]]/[[antiparticle|ani-]][[quark]] pair creation in [[quantum chromodynamics]] the analogous formula is due to [Suganuma-Tatsumin 91](#SuganumaTatsumin91), [Suganuma-Tatsumi 93](#SuganumaTatsumi93), reviewed in [Hidaka-Iritani-Suganuma 11, (2)](#HidakaIritaniSuganuma11).
 
 In the [[limit of a sequence]] $\mathcal{B} \to 0$, using that
 
@@ -315,7 +316,8 @@ this reduces to
 
 This is due to [Schwinger 51](#Schwinger51) (review in [Dunne 04, (1.25)](#Dunne04))
 
-### For weak fields at weak coupling
+
+### For small field strength at small coupling
 
 Assuming in addition
 
@@ -358,12 +360,13 @@ the expression (eq:ForVanishingBFieldAtWeakCoupling) simplifies to
   \right)
 \]
 
-This is originally due to [Heisenberg-Euler 36](#HeisenbergEuler36), reviewed in [Dunne 04, (1.10)](#Dunne04).
+For [[electron]]/[[positron]] pair-creation in [[electromagnetism]] this is originally due to [Heisenberg-Euler 36](#HeisenbergEuler36), reviewed in [Dunne 04, (1.10)](#Dunne04). For [[quark]]/[[antiparticle|ani-]][[quark]] pair creation in [[quantum chromodynamics]] the analogous formula is due to [Suganuma-Tatsumin 91](#SuganumaTatsumin91), [Suganuma-Tatsumi 93](#SuganumaTatsumi93), reviewed in [Hidaka-Iritani-Suganuma 11, (3)](#HidakaIritaniSuganuma11).
 
 
-### Weak fields, strong coupling
 
-For strong coupling $e$ the expression (eq:ForWeakFieldsAndWeakCoupling) is corrected to 
+### For small field strength at strong coupling
+
+For strong coupling $e$ the expression (eq:ForWeakFieldsAndWeakCoupling) get corrected to 
 
 $$
   \Gamma_{
@@ -399,14 +402,56 @@ $$
 
 This was argued in [Affleck-Alvarez-Manton 82](#AffleckAlvarezManton82).
 
+
+
+
+
 ## Properties
 
-### Critical electric field
+### Critical electric field strength
+ {#CriticalFieldStrength}
 
-(...) [Martin 07, (40)](#Martin07) 
+From (eq:SchwingerEffectAtGeneralFieldStrengthForWeakCoupling) 
+one deduces a critical [[electric field|electric]] [[field strength]] $\mathcal{E}_{crit}$ which sets the [[scale]] beyond which the [[vacuum polarization]] due to the [[Schwinger effect]] counteracts the ambient electric field and/or leads to [[vacuum decay]]. 
 
-(...)
+As a [[Lorentz group|Lorentz]] [[invariant]] (eq:LorentzInvariantFieldStrenghts) this critical field strength is:
 
+\[
+  \label{CriticalFieldStrengthLorentzInvariant}
+  \mathcal{E}_{crit}  
+  \;\coloneqq\;
+  \frac{
+    m^2 c^3
+  }{
+    e \hbar
+  }
+\]
+
+([Dunne 04, (1.3)](#Dunne04), [Martin 07, (40)](#Martin07))
+
+Expressing (eq:CriticalFieldStrengthLorentzInvariant) in terms of the corresponding critical value $E_{crit}$ of the actual [[electric field|electric]] [[field strength]] (eq:ActualFieldStrengths) in the given Lorentz frame yields ([Hashimoto-Oka-Sonoda 14b, (2.17)](#HashimotoOkaSonoda14b), [check](https://www.wolframalpha.com/input/?i=solve+for+e+%3A+c++%3D+Sqrt%5B+Sqrt%5B+%281%2F4%29*%28+e%5E2+-+b%5E2+%29%5E2+%2B+%28p%5E2%29*%28e%5E2%29+%5D+%2B+%281%2F2%29*+%28e%5E2+-+b%5E2%29++%5D+)):
+
+$$
+  \mathcal{E}(E_{crit}, B)
+  \;=\;
+  \mathcal{E}_{crit}
+  \phantom{AA}
+   \Leftrightarrow
+  \phantom{AA}
+  E_{crit}
+  \;=\;
+  \mathcal{E}_{crit}
+  \sqrt{
+    \frac{
+      \mathcal{E}_{crit}^2 + B^2
+    }
+    {
+      \mathcal{E}_{crit}^2 + B_{\parallel}^2
+    }
+  }
+$$
+
+This happens to coincide with the critical field strength of the [[DBI-action]], see [there](DBI-action#CriticalFieldStrength).
 
 
 ### In holographic QCD
@@ -493,14 +538,13 @@ Discussion of the [[Schwinger effect]] in [[quantum chromodynamics]]:
 
 * Paul H. Cox, Asim Yildiz, _$q \bar q$ pair creation: A field-theory approach_, Phys. Rev. D 32, 819 (1985) ([doi:10.1103/PhysRevD.32.819](https://doi.org/10.1103/PhysRevD.32.819))
 
-* Hideo Suganuma, Toshitaka Tatsumim, _On the behavior of symmetry and phase transitions in a strong electromagnetic field_, Annals of Physics
-Volume 208, Issue 2, June 1991, Pages 470-508 (<a href="https://doi.org/10.1016/0003-4916(91)90304-Q">doi:10.1016/0003-4916(91)90304-Q</a>)
+* {#SuganumaTatsumin91} Hideo Suganuma, Toshitaka Tatsumim, _On the behavior of symmetry and phase transitions in a strong electromagnetic field_, Annals of Physics Volume 208, Issue 2, June 1991, Pages 470-508 (<a href="https://doi.org/10.1016/0003-4916(91)90304-Q">doi:10.1016/0003-4916(91)90304-Q</a>)
 
-* Hideo Suganuma, Toshitaka Tatsumi, _Chiral Symmetry and Quark-Antiquark Pair Creation in a Strong Color-Electromagnetic Field_, Progress of Theoretical Physics, Volume 90, Issue 2, August 1993, Pages 379–404 ([spire:318092](http://inspirehep.net/record/318092), [doi:10.1143/ptp/90.2.379](https://doi.org/10.1143/ptp/90.2.379))
+* {#SuganumaTatsumi93} Hideo Suganuma, Toshitaka Tatsumi, _Chiral Symmetry and Quark-Antiquark Pair Creation in a Strong Color-Electromagnetic Field_, Progress of Theoretical Physics, Volume 90, Issue 2, August 1993, Pages 379–404 ([spire:318092](http://inspirehep.net/record/318092), [doi:10.1143/ptp/90.2.379](https://doi.org/10.1143/ptp/90.2.379))
 
 * Naoto Tanji, _Dynamical view of pair creation in uniform electric and magnetic fields_, Annals Phys. 324:1691-1736, 2009 ([arXiv:0810.4429](https://arxiv.org/abs/0810.4429))
 
-* Yoshimasa Hidaka, Takumi Iritani, Hideo Suganuma, _Fast Vacuum Decay into Quark Pairs in Strong Color Electric and Magnetic Fields_, AIP Conference Proceedings 1388, 516 (2011) ([arXiv:1103.3097](https://arxiv.org/abs/1103.3097), [doi:10.1063/1.3647442]( https://doi.org/10.1063/1.3647442))
+* {#HidakaIritaniSuganuma11} Yoshimasa Hidaka, Takumi Iritani, Hideo Suganuma, _Fast Vacuum Decay into Quark Pairs in Strong Color Electric and Magnetic Fields_, AIP Conference Proceedings 1388, 516 (2011) ([arXiv:1103.3097](https://arxiv.org/abs/1103.3097), [doi:10.1063/1.3647442]( https://doi.org/10.1063/1.3647442))
 
 
 * Sho Ozaki, Takashi Arai, Koichi Hattori, Kazunori Itakura, _Euler-Heisenberg-Weiss action for QCD+QED_, Phys. Rev. D 92, 016002 (2015) ([arXiv:1504.07532](https://arxiv.org/abs/1504.07532))
