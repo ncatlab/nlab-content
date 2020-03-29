@@ -67,6 +67,13 @@ The category of [[topological abelian groups]], $AbTop$, is not [[abelian catego
  
 In [[Pontrjagin duality]], the pairing and double dual maps are not necessarily continuous outside of locally compact abelian groups. This occurs because the category of topological spaces does not have an [[internal hom]]. This is an indication of too many objects, and restriction to [[compactly generated spaces]] may be imposed.
 
+## Contrast with condensed mathematics
+
+> ...the indiscrete topological space $\{0,1\}$, viewed as a sheaf on the site of compacta, is pyknotic but not [[condensed set|condensed]] (relative to any universe). By allowing the presence of such pathological objects into the category of pyknotic sets, we guarantee that it is a topos, which is not true for the category of condensed sets. ([BarHai 19, sec 0.3](#BarHai19))
+
+> [Barwick and Haine] assume  the  existence  of  universes,  fixing  in  particular  a  "tiny" and a "small" universe, and look at sheaves on tiny profinite sets with values in small sets; they term these pyknotic sets. In our language, placing ourselves in the small universe, this would be $\kappa$-condensed sets for the first strongly inaccessible cardinal $\kappa$ they consider (the one giving rise to the tiny universe). ([Scholze 19, p. 7]())
+
+
 ## Related concepts
 
 * [[condensed set]]
@@ -84,6 +91,8 @@ In [[Pontrjagin duality]], the pairing and double dual maps are not necessarily 
   * 2: _Pyknotic sets_, ([video](https://www.msri.org/seminars/24915))
   * 3: _Pyknotic abelian groups_, ([video](https://www.msri.org/seminars/24919))
   * 4: _Animating pyknotic sets (AKA pyknotic spaces)_, ([video](https://www.msri.org/seminars/24750))
+
+* {#Scholze19} [[Peter Scholze]], _Lectures on Condensed Mathematics_, ([pdf](https://www.math.uni-bonn.de/people/scholze/Condensed.pdf)) 
 
 [[!redirects pyknotic sets]]
 [[!redirects pyknotic object]]
