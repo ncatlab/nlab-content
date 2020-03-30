@@ -44,9 +44,13 @@ In [[nuclear physics]], specifically in the [[chiral perturbation theory]] of [[
 
 Together with the [[sigma-meson]] the omega is responsible for most of the long-range [[interaction]] between [[baryons]], exhibiting the residual [[strong nuclear force]] between them (as modeled by [[Walecka model]] and [[quantum hadrodynamics]]).
 
-### Coupling to baryon current
+### Couplings
 
-The [[interaction]] term of the omega-meson in the [[Lagrangian density]] is by contraction 
+
+#### The $\omega$-$3 \pi$-coupling
+ {#TheOmega3PiCoupling}
+
+The [[interaction]] term of the omega-meson three [[pions]] is, in the [[Lagrangian density]], given by contraction 
 
 $$
   \omega_\mu B^\mu
@@ -62,7 +66,21 @@ $$
 
 (the "charged decay")
 
-### Other decay modes
+
+#### The $\omega$-$\rho$-$\pi$-coupling
+ {#TheOmegaRhoPiCoupling}
+
+Then there is an [[omega-meson|ω]]-[[rho-meson|ρ]]-[[pion|π]]-coupling
+
+$$
+  g_{\omega \rho \pi} 
+  \epsilon^{\mu \nu \kappa \lambda}
+  \partial_\mu \omega_\nu  \partial_\kappa \rho_\lambda \cdot \pi
+$$
+
+(e.g. [Renard 69](#Renard69), [Volkov-Ebert-Nagy 97, p. 12](#VolkovEbertNagy97), [Guetta-Singer 00, (1)](#GuettaSinger00) [GKSY 03, (1)](#GKSY03) [Gudino-Sanchez 12, (1)](#GudinoSanchez12))
+
+#### The radiative decays
 
 Then there is the "neutral decay"
 
@@ -80,12 +98,13 @@ $$
   \end{aligned}
 $$
 
-([Nambu 57, (a)](#Nambu57), [FFHNR 67](#FFHNR67), [Dolinsky et al. 89, (5)](#Dolinsky89))
+([Nambu 57, (a)](#Nambu57), [FFHNR 67](#FFHNR67), [Dolinsky et al. 89, 
+(5)](#Dolinsky89))
+
 
 ## Related concepts
 
 * [[pion]], [[rho-meson]]
-
 
 ## References
 
@@ -128,9 +147,9 @@ Review:
 
 * Yongseok Oh, _Skyrmions with vector mesons: Single Skyrmion and baryonic matter_, 2013 ([[OhSkyrmionsWithVectorMesons.pdf:file]])
 
-### Decay modes
+### Couplings
 
-On [[omega-meson]] [[decay modes]]:
+On [[omega-meson]] [[interactions]] and [[decay modes]]:
 
 * Stanley M. Flatté, Darrell O. Huwe, Joseph J. Murray, Janice Button-Shafer, Frank T. Solmitz, M. Lynn Stevenson, and Charles Wohl, _Decay Properties of the $\omega$ Meson_, Phys. Rev. 145, 1050 – Published 27 May 1966 ([doi:10.1103/PhysRev.145.1050](https://doi.org/10.1103/PhysRev.145.1050))
 
@@ -139,14 +158,28 @@ On [[omega-meson]] [[decay modes]]:
 * W. Deinet A. Menzione H.Müller, H. M.Staudenmaier, S.Buniatov, D.Schmitt, _Neutral decay modes of the $\omega^0$-meson_, Physics Letters B
 Volume 30, Issue 6, 10 November 1969, Pages 426-429 (<a href="https://doi.org/10.1016/0370-2693(69)90479-1">doi:10.1016/0370-2693(69)90479-1</a>)
 
+* {#Renard69} F. M. Renard, _The reaction $e^+ e^-  \to \pi^0 + \omega(\pi^+ \pi^- \pi^0) $ and the $\omega$-$\rho$-$\pi$ coupling_, Nuovo Cimento A (1965-1970) 64, 979–984 (1969) ([doi:10.1007/BF02758844](https://doi.org/10.1007/BF02758844))
+
+
+* {#VolkovEbertNagy97} M. K. Volkov, D. Ebert, M. Nagy, _Excited pions, $\rho$- and $\omega$-mesons and their decays in a chiral $SU(2) \times SU(2)$ Lagrangian_, Int. J. Mod. Phys. A13 (1998) 5443-5458 ([arXiv:hep-ph/9705334](https://arxiv.org/abs/hep-ph/9705334))
+
 * {#Dolinsky89} S. I. Dolinsky, et al., _Radiative Decays of $\rho$ and $\omega$ Mesons_, Z. Phys. C42 (1989) 511 ([spire:264694](http://inspirehep.net/record/264694), [doi:10.1007/BF01557655](https://doi.org/10.1007/BF01557655))
 
 * J. T. Dakin, M. G. Hauser, M. N. Kreisler, R. E. Mischke, _Measurement of the Branching Ratios for ω Neutral Decays_, Phys. Rev. D 6, 2321 (1972) ([doi:10.1103/PhysRevD.6.2321](https://doi.org/10.1103/PhysRevD.6.2321))
 
-* S. Leupold, M.F.M. Lutz, _Hadronic three-body decays of light vector mesons_, Eur. Phys. J. A39:205-212, 2009 ([arXiv:0807.4686](https://arxiv.org/abs/0807.4686))
+* {#GuettaSinger00} Dafne Guetta, Paul Singer, _$\omega$-$\rho$ Mixing and the $\omega \to \piu \pi \gamma$ Decay_, Phys. Rev. D63 (2001) 017502 ([arXiv:hep-ph/0005059](https://arxiv.org/abs/hep-ph/0005059))
+
+* {#GKSY03} A. Gokalp, A. Kucukarslan, S. Solmaz, O. Yilmaz, _$\sigma$-Meson and $\omega$-$\rho$ mixing effects in $\omega \to \pi^+ \pi^- \gamma$ decay_, Acta Phys.Polon. B34 (2003) 4095-4104 ([arXiv:hep-ph/0306044](https://arxiv.org/abs/hep-ph/0306044))
+
+* S. Leupold, M. F. M. Lutz, _Hadronic three-body decays of light vector mesons_, Eur. Phys. J. A39:205-212, 2009 ([arXiv:0807.4686](https://arxiv.org/abs/0807.4686))
+
+* {#GudinoSanchez12} D. Garcia Gudino, G. Toledo Sanchez, _The $\omega \rho \pi$ coupling in the VMD model revisited_, Int. J. Mod. Phys. A 27, 1250101 (2012) ([arXiv:1106.1467](https://arxiv.org/abs/1106.1467))
 
 
 * Florian Jonas, _Measurement of $\omega$ and $\eta$ mesons via their three pion decay with ALICE in pp collisions at $\sqrt{s} = t TeV$_, 2018 ([cds:2653176](https://cds.cern.ch/record/2653176))
+
+
+
 
 ### In holographic QCD
 
@@ -165,6 +198,13 @@ On [[sigma-mesons]] and [[omega-mesons]] mediating [[baryon]] [[interaction]], d
 
 [[!redirects omega-meson]]
 [[!redirects omega-mesons]]
+[[!redirects omega meson]]
+[[!redirects omega mesons]]
+
 
 [[!redirects Omega-meson]]
 [[!redirects Omega-mesons]]
+[[!redirects Omega meson]]
+[[!redirects Omega mesons]]
+
+
