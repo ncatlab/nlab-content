@@ -281,20 +281,45 @@ Further resources
 
 * _[Geometric models of Nuclear Matter Conference 2014](https://www.kent.ac.uk/smsas/personal/skyrmions/conference.html)_ 
 
+
+
+
 ### Inclusion of vector mesons ($\pi$-$\omega$-$\rho$-model)
  {#ReferencesInclusionOfVectorMesons}
 
-Inclusion of [[vector mesons]] into the [[Skyrmion model]]:
+Inclusion of [[vector mesons]] into the [[Skyrmion model]], in addition to the [[pion]]:
 
-Original proposal for inclusion of the [[ω-meson]]:
+
+Equivalence between [[hidden local symmetry]]- and [[massive Yang-Mills theory]]-description:
+
+* A. Hosaka, H. Toki, W. Weise, _Skyrme Solitons With Vector Mesons: Equivalence of the Massive Yang-Mills and Hidden Local Symmetry Scheme, 1988, Z. Phys. A332 (1989) 97-102 ([spire:24079](http://inspirehep.net/record/24079))
+
+
+#### Inclusion of $\omega$-meson
+
+Original proposal for inclusion of the [[ω-meson]] in the [[Skyrme model]]:
 
 * {#AdkinsNappi84} [[Gregory Adkins]], [[Chiara Nappi]], _Stabilization of Chiral Solitons via Vector Mesons_, Phys. Lett. 137B (1984) 251-256 ([spire:194727](http://inspirehep.net/record/194727), <a href="https://doi.org/10.1016/0370-2693(84)90239-9">doi:10.1016/0370-2693(84)90239-9</a>)
+
+Relating to [[nucleon]]-[[scattering]]:
+
+* J. M. Eisenberg, A. Erell, R. R. Silbar,  _Nucleon-nucleon force in a skyrmion model stabilized by omega exchange_, Phys. Rev. C 33, 1531 (1986) ([doi:10.1103/PhysRevC.33.1531](https://doi.org/10.1103/PhysRevC.33.1531))
+
+Combination of the [[omega-meson]]-stabilized [[Skyrme model]] with the [[bag model for quark confinement|bag model]] for [[nucleons]]:
+
+* Atsushi Hosaka, _Omega stabilized chiral bag model with a surface $\omega q q$ coupling_, Nuclear Physics A Volume 546, Issue 3, 31 (1992) Pages 493-508 (<a href="https://doi.org/10.1016/0375-9474(92)90544-T">doi:10.1016/0375-9474(92)90544-T</a>)
+
+
+
+#### Inclusion of the $\rho$-meson
 
 Original proposal for inclusion of the [[ρ-meson]]:
 
 * Y. Igarashi, M. Johmura, A. Kobayashi, H. Otsu, T. Sato, S. Sawada, _Stabilization of Skyrmions via $\rho$-Mesons_, Nucl.Phys. B259 (1985) 721-729 ([spire:213451](http://inspirehep.net/record/213451), <a href="https://doi.org/10.1016/0550-3213(85)90010-0">doi:10.1016/0550-3213(85)90010-0</a>)
 
 * {#Adkins86} [[Gregory Adkins]], _Rho mesons in the Skyrme model_, Phys. Rev. D 33, 193 (1986) ([spire:16895](http://inspirehep.net/record/16895),  [doi:10.1103/PhysRevD.33.193](https://doi.org/10.1103/PhysRevD.33.193))
+
+#### Inclusion of $\omega$- and $\rho$-meson
 
 The resulting $\pi$-$\rho$-$\omega$ model:
 
@@ -326,14 +351,19 @@ Review:
 
 * Yongseok Oh, _Skyrmions with vector mesons: Single Skyrmion and baryonic matter_, 2013 ([[OhSkyrmionsWithVectorMesons.pdf:file]])
 
+
+Combination of the [[omega-meson|omega]]-[[rho meson|rho]]-[[Skyrme model]] with the [[bag model of quark confinement]]:
+
+* H. Takashita, S. Yoro, H. Toki, _Chiral bag plus skyrmion hybrid model with vector mesons for nucleon_, Nuclear Physics A
+Volume 485, Issues 3–4, August 1988, Pages 589-605 (<a href="https://doi.org/10.1016/0375-9474(88)90555-6">doi:10.1016/0375-9474(88)90555-6</a>)
+
+#### Inclusion of the $\sigma$-meson
+
 Inclusion of the [[sigma-meson]]:
 
 * Thomas D. Cohen, _Explicit $\sigma$ meson, topology, and the large-$N$ limit of the Skyrmion_, Phys. Rev. D 37 (1988) ([doi:10.1103/PhysRevD.37.3344](https://doi.org/10.1103/PhysRevD.37.3344))
 
-Equivalence between [[hidden local symmetry]]- and [[massive Yang-Mills theory]]-description:
 
-
-* A. Hosaka, H. Toki, W. Weise, _Skyrme Solitons With Vector Mesons: Equivalence of the Massive Yang-Mills and Hidden Local Symmetry Scheme, 1988, Z. Phys. A332 (1989) 97-102 ([spire:24079](http://inspirehep.net/record/24079))
 
 
 ### As models for atomic nculei
