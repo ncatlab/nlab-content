@@ -105,9 +105,10 @@ becomes
 
 * [[axio-dilaton]]
 
-* [[string length scale]]
-
 * [[Yukawa coupling]]
+
+[[!include fundamental scales -- contents]]
+
 
 ## References
 
