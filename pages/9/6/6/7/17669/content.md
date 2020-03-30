@@ -17,5 +17,12 @@ From [[M-theory on G2-manifolds]]:
 
 * {#Acharya02} [[Bobby Acharya]], section 3.2.1 of _M Theory, $G_2$-manifolds and Four Dimensional Physics_,  Classical and Quantum Gravity Volume 19 Number 22, 2002  ([pdf](http://users.ictp.it/~pub_off/lectures/lns013/Acharya/Acharya_Final.pdf))
 
+On 3-[[Sasakian manifolds]]:
+
+* Nikolaos Iakovidis, Jian Qiu, Andreas Rocén, Maxim Zabzine, _7D supersymmetric Yang-Mills on hypertoric 3-Sasakian manifolds_ ([arXiv:2003.12461](https://arxiv.org/abs/2003.12461))
+
+
+
+
 
 [[!redirects 7d super Yang-Mills theory]]
