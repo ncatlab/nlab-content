@@ -67,9 +67,9 @@ Many of the formulas above rely on ${|\mathbf{v}|} \leq c$, or equivalently ${|\
 
 * [[spacetime]]
 
-* [[Planck mass]]
+[[!include fundamental scales -- contents]]
 
-* [[Compton wavelength]]
+
 
 [[!redirects mass]]
 [[!redirects masses]]
