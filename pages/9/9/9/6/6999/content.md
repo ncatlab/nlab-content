@@ -187,7 +187,7 @@ $$
   mono.
 $$
 
-This shows that $conc X \coloneqq im(\eta^\sharp_X)$ is indeed concret.
+This shows that $conc X \coloneqq im(\eta^\sharp_X)$ is indeed concrete.
 
 It remains to show that this construction is [[left adjoint]] to the inclusion.
 We claim that the [[adjunction unit]] of $(conc \dashv \iota_{conc})$ is provided by $\eta^{conc}$ (eq:ConcretificationUnitFromEpiMonoFactorization). 
