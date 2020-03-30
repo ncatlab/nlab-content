@@ -90,6 +90,7 @@ While therefore the premise of perturbative string theory is conceptually sugges
 ### Scales and (no) parameters
  {#Scales}
 
+[[fundamental scales -- contents]]
 
 * [[string tension]] $T = 1/(2\pi \alpha^\prime)$
 
