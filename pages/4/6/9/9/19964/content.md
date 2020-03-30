@@ -330,6 +330,11 @@ Inclusion of the [[sigma-meson]]:
 
 * Thomas D. Cohen, _Explicit $\sigma$ meson, topology, and the large-$N$ limit of the Skyrmion_, Phys. Rev. D 37 (1988) ([doi:10.1103/PhysRevD.37.3344](https://doi.org/10.1103/PhysRevD.37.3344))
 
+Equivalence between [[hidden local symmetry]]- and [[massive Yang-Mills theory]]-description:
+
+
+* A. Hosaka, H. Toki, W. Weise, _Skyrme Solitons With Vector Mesons: Equivalence of the Massive Yang-Mills and Hidden Local Symmetry Scheme, 1988, Z. Phys. A332 (1989) 97-102 ([spire:24079](http://inspirehep.net/record/24079))
+
 
 ### As models for atomic nculei
  {#ReferencesAsModelsForAtomicNuclei}
