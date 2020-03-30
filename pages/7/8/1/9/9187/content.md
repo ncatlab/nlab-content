@@ -17,6 +17,9 @@ In [[physics]] the [[scale]] of the [[Planck mass]] (about $10^{19}$ [[GeV]]) or
 
 > graphics grabbed from [Zupan 19](flavour+in+particle+physics#Zupan19)
 
+\linebreak
+
+[[!include fundamental scales -- contents]]
 
 ## References
 
