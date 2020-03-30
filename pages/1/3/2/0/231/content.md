@@ -160,7 +160,7 @@ such that the following two kinds of [[commuting diagram|diagrams commute]], for
 
 More succinctly, a monoidal category is a [pseudomonoid](https://ncatlab.org/nlab/show/pseudomonoid) in the [[cartesian monoidal category|cartesian]] monoidal 2-category [[Cat]].
 
-Note that, in accordance with the [microcosm principle](https://ncatlab.org/nlab/show/microcosm+principle), just as defining a monoid in a 1-category requires that the 1-category carry its own monoidal structure, defining a monoidal category in the 2-category of categories requires that the 2-category carry a monoidal structure as well. In this case we are implicitly employing the [cartesian monoidal structure](https://ncatlab.org/nlab/show/cartesian+monoidal+category) on Cat, so that if $\alpha\colon Cat\times (Cat\times Cat)\overset{\simeq}{\longrightarrow} Cat\times (Cat\times Cat)$ is the cartesian [associator](https://ncatlab.org/nlab/show/associator), then the associator in $\mathcal{C}$ is actually an arrow 
+Note that, in accordance with the [microcosm principle](https://ncatlab.org/nlab/show/microcosm+principle), just as defining a monoid in a 1-category requires that the 1-category carry its own monoidal structure, defining a monoidal category in the 2-category of categories requires that the 2-category carry a monoidal structure as well. In this case we are implicitly employing the [cartesian monoidal structure](https://ncatlab.org/nlab/show/cartesian+monoidal+category) on Cat, so that if $\alpha\colon (Cat\times Cat)\times Cat\overset{\simeq}{\longrightarrow} Cat\times (Cat\times Cat)$ is the cartesian [associator](https://ncatlab.org/nlab/show/associator), then the associator in $\mathcal{C}$ is actually an arrow 
 
    $$
      a 
