@@ -39,6 +39,8 @@ Unit and counit of an adjunction satisfy the [[triangle identities]].
 
 An [[adjunct]] is given by precomposition with a unit or postcomposition with a counit.
 
+The left adjoint $L : X \to Y$ is [[fully faithful]] if and only if the unit $\eta : id_X \to R \circ L$ is a natural isomorphism.
+
 ### Relation to monads
 
 Every [[adjunction]] $(L \dashv R)$ gives rise to a [[monad]] $T \coloneqq R \circ L$. The [[unit of a monad|unit of this monad]] $id \to T$ is the unit of the adjunction, $id \to R \circ L$.
