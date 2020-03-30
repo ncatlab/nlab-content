@@ -65,7 +65,7 @@ In more detail, we have two modes: $v$ for values and $c$ for computations. Then
 
 $$a:v,b:c \vdash a\otimes b : c$$
 
-to represent the combined context $\Gamma \pipe B$ and also a "point" for the computation types:
+to represent the combined context $\Gamma | B$ and also a "point" for the computation types:
 
 $$\vdash i : c$$
 
