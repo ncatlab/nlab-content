@@ -1,5 +1,5 @@
-* [[Oliver Lorscheid]], _The geometry of blueprints. Part I: Algebraic background and scheme theory_, [arxiv/1103.1745](http://front.math.ucdavis.edu/1103.1745); _The geometry of blueprints. Part II: Tits-Weyl models of algebraic groups_, [arxiv/1201.1324](http://front.math.ucdavis.edu/1201.1324); _Blueprints - towards absolute arithmetic_, [arxiv/1204.3129](http://front.math.ucdavis.edu/1204.3129); 
-_A blueprinted view on $\mathbb{F}_1$-geometry_, [arxiv/1301.0083](http://front.math.ucdavis.edu/1301.0083)
+* [[Oliver Lorscheid]], _The geometry of blueprints. Part I: Algebraic background and scheme theory_, [arxiv/1103.1745](https://arxiv.org/abs/1103.1745); _The geometry of blueprints. Part II: Tits-Weyl models of algebraic groups_, [arxiv/1201.1324](https://arxiv.org/abs/1201.1324); _Blueprints - towards absolute arithmetic_, [arxiv/1204.3129](https://arxiv.org/abs/1204.3129); 
+_A blueprinted view on $\mathbb{F}_1$-geometry_, [arxiv/1301.0083](https://arxiv.org/abs/1301.0083)
 * Javier L&#243;pez Pe&#241;a, Oliver Lorscheid, _Projective geometry for blueprints_, [arxiv/1203.1665](http://front.math.ucdavis.edu/1203.1665)
 * Claudio Bartocci, Andrea Gentili, Jean-Jacques Szczeciniarz, _Some remarks on blueprints and $\mathbb{F}_1$-schemes_, ([arXiv:1905.01183](https://arxiv.org/abs/1905.01183))
 
