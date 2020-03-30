@@ -75,9 +75,8 @@ $$
 
 ## Related entries
 
-* [[Planck length]]
+[[!include fundamental scales -- contents]]
 
-* [string theory -- scales](string+theory#scales)
 
 ## References
 
