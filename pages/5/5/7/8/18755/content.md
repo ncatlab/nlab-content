@@ -61,7 +61,7 @@ The inverse of the Compton wavelength appears as the [[mass]] term notably in th
 
 * [[wavelength]]
 
-* [[Planck mass]]
+[[!include fundamental scales -- contents]]
 
 ## References
 
