@@ -105,20 +105,7 @@ to the unknown [[phase of matter|state of matter]] at the cores of [[neutron sta
 
 ## Potential solutions
 
-### Via Calorons
- {#ViaCalorons}
 
-It has been argued that, after [[Wick rotation]], confinement may be derived from the behaviour of [[instantons]] ([Schaefer-Shuryak 96, section III D](#SchaeferShuryak96)), or rather their [[thermal field theory|positive temperature]]-incarnations as _[[calorons]]_, [Greensite 11, section 8.5](#Greensite11):
-
-> it is natural to wonder if [[confinement]] could be derived from some [[semiclassical approximation|semiclassical]] treatment of [[Yang–Mills theory]] based on the [[instanton]] solutions of [[nonabelian group|non-abelian]] [[gauge theories]]. The [[BPST instanton|standard]] [[instantons]], introduced by Belavin et al. ([40](BPTS-instanton#BelavinPolyakovSchwartzTyupkin75)), do not seem to work; their [[field strengths]] fall off too rapidly to produce the desired  magnetic  disorder  in  the  vacuum.  
-
-> In  recent years, however, it has been realized that instanton solutions at [[thermal field theory|finite temperature]], known as _[[calorons]]_, might do the job. These caloron solutions were introduced independently by Kraan and van Baal ([41](caloron#KraanVanBaal98), [42](caloron#KraanVanBaal98b)) and Lee and Lu ([43](caloron#LeeLu98)) (KvBLL), and they have the remarkable property of containing [[monopole]] constituents which may, depending on the type of [[caloron]], be widely separated.
-
-> $[...]$
-
-> The [[caloron]] idea is probably the most promising current version of [[monopole]] [[confinement]] in pure non-abelian gauge theories, but it is  basically  (in certain [[gauge fixing|gauges]]) a superposition of [[monopoles]] with spherically  symmetric abelian fields, and this leads to the same questions raised in connection with monopole Coulomb gases.
-
-See also at _[[glueball]]_.
 
 ### Via Skyrmions and D4-brane models
 
@@ -166,6 +153,13 @@ For review see [Sugimoto 16](Ads/QCD#Sugimoto16), also [Rebhan 14, around (18)](
 
 Equivalently, these baryon states are the [[Yang-Mills instantons]] on the [[D8-brane]] giving the [[D4-D8 brane bound state]] ([Sakai-Sugimoto 04, 5.7](Ads/QCD#SakaiSugimoto04)) as a special case of the general situation for [[Dp-D(p+4)-brane bound states]] (e.g. [Tong 05, 1.4](Dp-D%28p%2B4%29-brane+bound+state#Tong05)).
 
+Strictly speaking, since the number of [[color charge|colors]] in [[quantum chromodynamics]] is not [[large N limit|large]] ($N_c = 3$), an accurate formulation of such [[holographic QCD]] requires understanding [[small N corrections]]:
+
+<center>
+<a href="https://ncatlab.org/schreiber/files/Schreiber-MTheoryMathematics2020-v200126.pdf#page=8">
+<img src="https://ncatlab.org/schreiber/files/ProblemQCDToProblemM230120.jpg" width="670">
+</a>
+</center>
 
 For more on this see at
 
@@ -181,6 +175,11 @@ and at
 While confinement in plain [[Yang-Mills theory]] is still waiting for mathematical formalization and [[proof]] (see [Jaffe-Witten](#JaffeWitten)), there is a variant of [[Yang-Mills theory]] with more [[symmetry]], namely [[supersymmetry]], where the phenomenon has been giving a decent argument, namely in [[N=2 D=4 super Yang-Mills theory]] ([Seiberg-Witten 94](#SeibergWitten94)). 
 
 Also a strategy for a proof for [[N=1 D=4 super Yang-Mills theory]] has been proposed, see [below](#ForN1SYMViaMTheoryOnG2Manifolds).
+
+
+
+
+
 
 ### In $\mathcal{N} = 1$ super Yang-Mills theory via M-theory on $G_2$-manifolds
  {#ForN1SYMViaMTheoryOnG2Manifolds}
@@ -221,6 +220,26 @@ So in the first case a [[mass gap]] is manifest, while non-abelian gauge theory 
 But if there were an argument that [[M-theory on G2-manifolds]] is in fact equivalent for compactification both on $X_{1,\Gamma}$ and on $X_{2,\Gamma}$. To the extent that this is true, it looks like an argument that could demonstrate confinement in non-abelian 4d gauge theory.
 
 This approach is suggested in [Atiyah-Witten 01, pages 84-85](#AtiyahWitten01). An argument that this equivalence is indeed the case is then provided in sections 6.1-6.4, based on an argument in [Atiyah-Maldacena-Vafa 00](#AtiyahMaldacenaVafa00) 
+
+
+### Via Calorons
+ {#ViaCalorons}
+
+It has been argued that, after [[Wick rotation]], confinement may be derived from the behaviour of [[instantons]] ([Schaefer-Shuryak 96, section III D](#SchaeferShuryak96)), or rather their [[thermal field theory|positive temperature]]-incarnations as _[[calorons]]_, [Greensite 11, section 8.5](#Greensite11):
+
+> it is natural to wonder if [[confinement]] could be derived from some [[semiclassical approximation|semiclassical]] treatment of [[Yang–Mills theory]] based on the [[instanton]] solutions of [[nonabelian group|non-abelian]] [[gauge theories]]. The [[BPST instanton|standard]] [[instantons]], introduced by Belavin et al. ([40](BPTS-instanton#BelavinPolyakovSchwartzTyupkin75)), do not seem to work; their [[field strengths]] fall off too rapidly to produce the desired  magnetic  disorder  in  the  vacuum.  
+
+> In  recent years, however, it has been realized that instanton solutions at [[thermal field theory|finite temperature]], known as _[[calorons]]_, might do the job. These caloron solutions were introduced independently by Kraan and van Baal ([41](caloron#KraanVanBaal98), [42](caloron#KraanVanBaal98b)) and Lee and Lu ([43](caloron#LeeLu98)) (KvBLL), and they have the remarkable property of containing [[monopole]] constituents which may, depending on the type of [[caloron]], be widely separated.
+
+> $[...]$
+
+> The [[caloron]] idea is probably the most promising current version of [[monopole]] [[confinement]] in pure non-abelian gauge theories, but it is  basically  (in certain [[gauge fixing|gauges]]) a superposition of [[monopoles]] with spherically  symmetric abelian fields, and this leads to the same questions raised in connection with monopole Coulomb gases.
+
+See also at _[[glueball]]_.
+
+
+
+
 
 ## Related concepts
 
@@ -340,9 +359,9 @@ Reviews with discussion of the impact on confinement in plain YM include
 
 * {#Yung00} Alexei Yung, _What Do We Learn about Confinement from the Seiberg-Witten Theory_ ([arXiv:hep-th/0005088](http://arxiv.org/abs/hep-th/0005088))
 
-### Under the AdS/CFT correspondence
+### Under the AdS/QCD correspondence
 
-Discussion in the context of the [[AdS-CFT correspondence]] is in
+Discussion in the context of the [[AdS-QCD correspondence]] is in
 
 * {#Witten98} [[Edward Witten]], _Anti-de Sitter Space, Thermal Phase Transition, And Confinement In Gauge Theories_, Adv. Theor. Math. Phys.2:505-532, 1998 ([arXiv:hep-th/9803131](https://arxiv.org/abs/hep-th/9803131))
 
