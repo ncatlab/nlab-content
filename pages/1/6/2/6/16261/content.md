@@ -41,6 +41,11 @@ Discussion of the [[averaged null energy condition]]  for [[conformal field theo
 
 * Felipe Rosso, _Global aspects of conformal symmetry and the ANEC in dS and AdS_ ([arXiv:1912.08897](https://arxiv.org/abs/1912.08897))
 
+See also:
+
+
+* Taha A Malik, Rafael Lopez-Mobilia, _Proof of the quantum null energy condition for free fermionic field theories_ ([arXiv:1910.07594](https://arxiv.org/abs/1910.07594))
+
 
 [[!redirects energy conditions]]
 
