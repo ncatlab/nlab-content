@@ -61,22 +61,27 @@ automatically the Wess–Zumino term, with the correct coefficient!
 
 * [[holographic QCD]]
 
+
 ## References
 
 Origin of [[effective field theory]] of [[mesons]] in [[nuclear physics]], via [[hidden local gauge symmetry]]:
 
 * [[Jun John Sakurai]], _Theory of strong interactions_, Annals Phys. 11 (1960) 1-48 ([spire:3218](http://inspirehep.net/record/3218), <a href="https://doi.org/10.1016/0003-4916(60)90126-3">doi:10.1016/0003-4916(60)90126-3</a>)
 
+Early review:
 
-Original articles:
+* [[Masako Bando]], [[Taichiro Kugo]], Koichi Yamawaki, _Nonlinear realization and hidden local symmetries_, Physics Reports Volume 164, Issues 4–5, July 1988, Pages 217-314 (<a href="https://doi.org/10.1016/0370-1573(88)90019-1">doi:10.1016/0370-1573(88)90019-1</a>)
 
-* Masako Bando, T. Kugo, S. Uehara, Koichi Yamawaki, and T. Yanagida, _Is the $\rho$ Meson a Dynamical Gauge Boson of Hidden Local Symmetry?_, Phys. Rev. Lett. 54, 1215 (1985) ([doi:10.1103/PhysRevLett.54.1215](https://doi.org/10.1103/PhysRevLett.54.1215))
 
-* Masako Bando, Takanori Fujiwara, Koichi Yamawaki, _Generalized Hidden Local Symmetry and the $A_1$ Meson_, Progress of Theoretical Physics, Volume 79, Issue 5, May 1988, Pages 1140–1166 ([doi:10.1143/PTP.79.1140](https://doi.org/10.1143/PTP.79.1140))
 
-Review:
+Further original articles:
 
-* Masako Bando, Taichiro Kugo, Koichi Yamawaki, _Nonlinear realization and hidden local symmetries_, Physics Reports Volume 164, Issues 4–5, July 1988, Pages 217-314 (<a href="https://doi.org/10.1016/0370-1573(88)90019-1">doi:10.1016/0370-1573(88)90019-1</a>)
+* [[Masako Bando]], [[Taichiro Kugo]], S. Uehara, Koichi Yamawaki, and T. Yanagida, _Is the $\rho$ Meson a Dynamical Gauge Boson of Hidden Local Symmetry?_, Phys. Rev. Lett. 54, 1215 (1985) ([doi:10.1103/PhysRevLett.54.1215](https://doi.org/10.1103/PhysRevLett.54.1215))
+
+* [[Masako Bando]], Takanori Fujiwara, Koichi Yamawaki, _Generalized Hidden Local Symmetry and the $A_1$ Meson_, Progress of Theoretical Physics, Volume 79, Issue 5, May 1988, Pages 1140–1166 ([doi:10.1143/PTP.79.1140](https://doi.org/10.1143/PTP.79.1140))
+
+* [[Howard Georgi]], _Vector realization of chiral symmetry_, Nuclear Physics B Volume 331, Issue 2, 12 February 1990, Pages 311-330 (<a href="https://doi.org/10.1016/0550-3213(90)90210-5">doi:10.1016/0550-3213(90)90210-5</a>)
+
 
 With emphasis on [[Skyrmions]] involving [[vector mesons]]:
 
