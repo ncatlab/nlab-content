@@ -152,17 +152,9 @@ $$
 
 * [[electronvolt]], [[MeV]], [[GeV]], [[TeV]]
 
-* [[speed of light]]
 
-* [[Planck's constant]]
+[[!include fundamental scales -- contents]]
 
-* [[gravitational constant]]
-
-* [[Compton wavelength]]
-
-* [[Schwarzschild radius]]
-
-* [[Planck mass]]
 
 ## Related concepts
 
