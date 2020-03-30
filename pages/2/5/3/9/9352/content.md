@@ -49,15 +49,7 @@ There is good stuff to say here about how we only know this constant to about 6 
 
 ## Related concepts
 
-* [[physical unit]]
-
-* [[Schwarzschild radius]]
-
-* [[speed of light]]
-
-* [[Planck's constant]]
-
-* [[Planck mass]], [[Planck length]]
+[[!include fundamental scales -- contents]]
 
 
 
