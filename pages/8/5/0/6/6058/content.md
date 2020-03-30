@@ -38,7 +38,7 @@ which is the assertion that this setup naturally induces the T-duality operation
  {#FormalizationOfTheSetup}
 
 
-Let $\Lambda \subset \mathbb{R}^n$ be a [[lattice]] (an [[discrete group|discrete]] subgroup of the [[abelian group]] of [[real number]]s to the $n$th [[cartesian product|cartesian power]]).
+Let $\Lambda \subset \mathbb{R}^n$ be a [[lattice]] (a [[discrete group|discrete]] subgroup of the [[abelian group]] of [[real number]]s to the $n$th [[cartesian product|cartesian power]]).
 
 Write 
 
