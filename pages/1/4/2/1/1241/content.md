@@ -231,6 +231,8 @@ Discussion of [[string phenomenology]] of [[intersecting D-brane models]] [[KK-c
 
 * [[Connes-Lott-Chamseddine-Barrett model]]
 
+[[!include fundamental scales -- contents]]
+
 
 ## References 
  {#References}
