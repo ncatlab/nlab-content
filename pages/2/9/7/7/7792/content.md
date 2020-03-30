@@ -70,7 +70,7 @@ This analogy from [[classical mechanics]] also applies to [[quantum mechanics]] 
 
 In [[general relativity]], the concept of total energy of a system does not make sense, except in certain special cases.  General relativity is a [[field theory]] in which energy appears only as one of $10$ (or $({n \atop 2})$ in $n$ [[dimensions]] of [[spacetime]]) independent components of the [[stress-energy tensor]].  Mathematically, it makes no sense to integrate just this component over a region of space to determine a total energy in that region.  This makes it difficult to interpret general relativity in frameworks such as [[Hamiltonian mechanics]] and [[thermodynamics]] where energy is a primary concept.  This is called the [[problem of time]] (since energy and [[time]] are conjugate observables and the problem occurs with both).
 
-## Enrgy scales
+## Energy scales
 
 [[energy]] $\,$ [[scales]]:
 
@@ -83,6 +83,8 @@ In [[general relativity]], the concept of total energy of a system does not make
 
 
 ## Related concepts
+
+* [[rest energy]]
 
 * [[Dirichlet energy]], [[harmonic map]]
 
