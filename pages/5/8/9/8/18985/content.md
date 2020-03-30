@@ -23,12 +23,12 @@
 
 > graphics grabbed from [here](http://sten.astronomycafe.net/the-particle-desert/)
 
+\linebreak
+
+[[!include fundamental scales -- contents]]
+
 
 ## Related concepts
-
-* [[Planck scale]]
-
-* [[GUT scale]]
 
 * [[scaling transformation]]
 
