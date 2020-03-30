@@ -64,6 +64,8 @@ automatically the Wess–Zumino term, with the correct coefficient!
 
 ## References
 
+### General
+
 Origin of [[effective field theory]] of [[mesons]] in [[nuclear physics]], via [[hidden local gauge symmetry]]:
 
 * [[Jun John Sakurai]], _Theory of strong interactions_, Annals Phys. 11 (1960) 1-48 ([spire:3218](http://inspirehep.net/record/3218), <a href="https://doi.org/10.1016/0003-4916(60)90126-3">doi:10.1016/0003-4916(60)90126-3</a>)
@@ -87,6 +89,11 @@ With emphasis on [[Skyrmions]] involving [[vector mesons]]:
 
 * Yong-Liang Ma, Ghil-Seok Yang, Yongseok Oh, Masayasu Harada, _Skyrmions with vector mesons in the hidden local symmetry approach_, Phys. Rev. D87:034023, 2013 ([arXiv:1209.3554](https://arxiv.org/abs/1209.3554))
 
+Equivalence between [[hidden local symmetry]]- and [[massive Yang-Mills theory]]-description:
+
+* A. Hosaka, H. Toki, W. Weise, _Skyrme Solitons With Vector Mesons: Equivalence of the Massive Yang-Mills and Hidden Local Symmetry Scheme, 1988, Z. Phys. A332 (1989) 97-102 ([spire:24079](http://inspirehep.net/record/24079))
+
+### In D-brane models
 
 Interpretation/derivation in [[holographic QCD]]:
 
