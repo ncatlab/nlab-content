@@ -199,7 +199,7 @@ let $Ac \subset \mathcal{A}$ be the [[full subcategory]] on the $F$-[[acyclic ob
 +-- {: .proof}
 ###### Proof
 
-Consider the case that $F$ is right exact. The other case works dually.
+Consider the case that $F$ is left exact. The other case works dually.
 
 The first condition of def. \ref{FInjectives} is satisfied because every [[injective object]] is an $F$-[[acyclic object]] and by assumption there are enough of these. 
 
