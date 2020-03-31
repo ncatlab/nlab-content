@@ -366,6 +366,11 @@ Inclusion of the [[sigma-meson]]:
 
 
 
+[[!include WZW term of QCD chiral perturbation theory -- references]]
+
+
+
+
 ### As models for atomic nculei
  {#ReferencesAsModelsForAtomicNuclei}
 
