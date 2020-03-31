@@ -176,6 +176,8 @@ Volume 30, Issue 6, 10 November 1969, Pages 426-429 (<a href="https://doi.org/10
 
 * {#GKSY03} A. Gokalp, A. Kucukarslan, S. Solmaz, O. Yilmaz, _$\sigma$-Meson and $\omega$-$\rho$ mixing effects in $\omega \to \pi^+ \pi^- \gamma$ decay_, Acta Phys.Polon. B34 (2003) 4095-4104 ([arXiv:hep-ph/0306044](https://arxiv.org/abs/hep-ph/0306044))
 
+* [[Jeffrey Harvey]], Christopher T. Hill, Richard J. Hill, Section II.B of: _Standard Model Gauging of the WZW Term: Anomalies, Global Currents and pseudo-Chern-Simons Interactions_, Phys. Rev. D77:085017, 2008 ([arXiv:0712.1230](https://arxiv.org/abs/0712.1230))
+
 * S. Leupold, M. F. M. Lutz, _Hadronic three-body decays of light vector mesons_, Eur. Phys. J. A39:205-212, 2009 ([arXiv:0807.4686](https://arxiv.org/abs/0807.4686))
 
 * {#GudinoSanchez12} D. Garcia Gudino, G. Toledo Sanchez, _The $\omega \rho \pi$ coupling in the VMD model revisited_, Int. J. Mod. Phys. A 27, 1250101 (2012) ([arXiv:1106.1467](https://arxiv.org/abs/1106.1467))
