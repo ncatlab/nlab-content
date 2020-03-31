@@ -95,19 +95,23 @@ See also [physics.stackexchange.com/a/306242/5603](https://physics.stackexchange
 
 The orginal observation is due to
 
-* [[Stephen Adler]]. _Axial-Vector Vertex in Spinor Electrodynamics_ Physical Review 177 (5): 2426. (1969)
+* [[Stephen Adler]]. _Axial-Vector Vertex in Spinor Electrodynamics_, Physical Review 177 (5): 2426. (1969)
 
 * [[John Bell]], [[Roman Jackiw]], _A PCAC puzzle: $\pi^0 \to \gamma \gamma$ in the &#963;-model". Il Nuovo Cimento A 60: 47. (1969)
 
 A detailed mathematical derivation is in
 
-* [[Luis Alvarez-Gaumé]], [[Paul Ginsparg]], section 3 of _The structure of gauge and gravitational anomalies_ , Ann. Phys. 161 (1985) 423. ([spire](http://inspirehep.net/record/202565/?ln=en))
+* [[Luis Alvarez-Gaumé]], [[Paul Ginsparg]], section 3 of: _The structure of gauge and gravitational anomalies_ , Ann. Phys. 161 (1985) 423. ([spire](http://inspirehep.net/record/202565/?ln=en))
 
 Detailed argument for the [[theta vacuum]] ([[Yang-Mills instanton]] vacuum) from chiral symmetry breaking is offered in 
 
 * [[Curtis Callan]], R.F. Dashen, [[David Gross]], _The Structure of the Gauge Theory Vacuum_, Phys.Lett. 63B (1976) 334-340 ([spire](http://inspirehep.net/record/3673?ln=en))
 
 * G. Morchio, [[Franco Strocchi]], _Chiral symmetry breaking and theta vacuum structure in QCD_, Annals Phys.324:2236-2254, 2009 ([arXiv:0907.2522](https://arxiv.org/abs/0907.2522))
+
+Details for 2-[[flavor (particle physics)|flavor]] [[quantum chromodynamics]]:
+
+* {#Kaiser00} Roland Kaiser, _Anomalies and WZW-term of two-flavour QCD_, Phys. Rev. D63:076010, 2001 ([arXiv:hep-ph/0011377](https://arxiv.org/abs/hep-ph/0011377))
 
 
 Review includes
