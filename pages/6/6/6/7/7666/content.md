@@ -87,7 +87,7 @@ The essential point is an $(E,M)$-variant of the special adjoint functor theorem
 
 The following examples are discussed in Section 6.1 of Kelly's _Basic concepts of enriched category theory_.
 
-* [[locally presentable category|Locally presentable categories]] such as [[simplicial sets]], [[categories]], [[abelian groups]], [[Set|sets]].
+* [[locally presentable category|Locally presentable categories]] such as the categories of [[simplicial sets]], [[categories]], [[abelian groups]], [[Set|sets]].
 
 * [[compactly generated topological space|Compactly generated spaces]], and likewise based compactly generated spaces, with $E$ the surjections and $M$ the subspace inclusions. The point is an $(E,M)$-generator.
 
