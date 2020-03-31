@@ -749,6 +749,9 @@ See also
 * S. S. Afonin, _AdS/QCD without Kaluza-Klein modes: Radial spectrum from higher dimensional QCD operators_ ([arXiv:1905.13086](https://arxiv.org/abs/1905.13086))
 
 
+* Daisuke Fujii, [[Atsushi Hosaka]], _Heavy baryons in holographic QCD with higher dimensional degrees of freedom_ ([arXiv:2003.13415](https://arxiv.org/abs/2003.13415))
+
+
 
 #### Baryons as wrapped branes 
 
