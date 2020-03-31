@@ -3972,7 +3972,7 @@ where
 
 * $[-,-]$ denotes the <a href="http://nlab.mathforge.org/nlab/show/%28infinity,1%29-topos#ClosedMonoidalStructure">cartesian internal hom</a>;
 
-* $[\Sigma, \mathbf{B}^n A]_{diff} \stackrel{}{\to} conc_{n-dim \Sigma} [\Sigma, \mathbf{B}^n A]_{diff}$ is the [concretification projection](#NConcretfication) in degree $n - dim \Sigma$
+* $[\Sigma, \mathbf{B}^n A]_{diff} \stackrel{}{\to} conc_{n-dim \Sigma} [\Sigma, \mathbf{B}^n A]_{diff}$ is the [concretification projection](#NConcretification) in degree $n - dim \Sigma$
 
 * $conc_{n-dim \Sigma} [\Sigma, \mathbf{\flat}\mathbf{B}^n A] \stackrel{}{\to} \tau_{n - \dim \Sigma} conc_{n-dim \Sigma} [\Sigma, \mathbf{\flat} \mathbf{B}^n A]$ is the [[truncated|truncation projection]] in the same degree
 
@@ -4014,7 +4014,9 @@ See [[schreiber:∞-Chern-Simons theory]] for more discussion.
 
 ## Related concepts
 
-[[!include cohesion - table]]
+* [[!include cohesion - table]]
+* [[concretification]]
+
 
 ## References
 
