@@ -342,9 +342,11 @@ on [[quantization]] of the WZW model, see at
 
 ### Original references
 
-The Wess-Zumino gauge-coupling term goes back to
+The Wess-Zumino gauge-coupling term goes back to discussion of the [[chiral anomaly]] in [[QCD]]-[[chiral perturbation theory]]/[[quantum hadrodynamics]]:
 
-* {#WessZumino71} [[Julius Wess]], [[Bruno Zumino]], _Consequences of anomalous ward identities_. Phys. Lett. 37B, 95 (1971)
+* [[Julius Wess]], [[Bruno Zumino]], _Consequences of anomalous Ward identities_, Phys. Lett. B 37 (1971) 95-97 ([spire:67330](https://inspirehep.net/literature/67330), <a href="https://doi.org/10.1016/0370-2693(71)90582-X">doi:10.1016/0370-2693(71)90582-X</a>)
+
+* {#Witten83a} [[Edward Witten]], _Global aspects of current algebra_, Nuclear Physics B Volume 223, Issue 2, 22 August 1983, Pages 422-432 (<a href="https://doi.org/10.1016/0550-3213(83)90063-9">doi:10.1016/0550-3213(83)90063-9</a>)
 
 and was understood as yielding a 2-dimensional [[conformal field theory]] in 
 
@@ -426,8 +428,8 @@ See also
 
 Discussion of [[circle n-bundle with connection|circle 2-bundles with connection]] (expressed in terms of [[bundle gerbes]]) and discussion of the WZW-background [[B-field]] ([[WZW term]]) in this language is in 
 
-* [[Krzysztof Gawedzki]], Nuno Reis, _WZW branes and gerbes_, Rev.Math.Phys. 14 (2002) 1281-1334 ([arXiv:hep-th/0205233](http://arxiv.org/abs/hep-th/0205233))
- {#GW}
+* {#GW} [[Krzysztof Gawedzki]], Nuno Reis, _WZW branes and gerbes_, Rev.Math.Phys. 14 (2002) 1281-1334 ([arXiv:hep-th/0205233](http://arxiv.org/abs/hep-th/0205233))
+ 
 
 * {#SchweigertWaldorf07} [[Christoph Schweigert]], [[Konrad Waldorf]], _Gerbes and Lie Groups_, in _Trends and Developments in Lie Theory_, Progress in Math., Birkh&#228;user ([arXiv:0710.5467](http://arxiv.org/abs/0710.5467))
 
