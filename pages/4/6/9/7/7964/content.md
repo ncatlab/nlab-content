@@ -208,6 +208,8 @@ So for the Higgs particle prediction and experimental detection lie apart by abo
 
 * [[gauge-Higgs unification]]
 
+* [[massive Yang-Mills theory]]
+
 * [['t Hooft-Polyakov monopole]]
 
 * [[phi^n interaction]]
