@@ -1,7 +1,7 @@
 
 ### The WZW term of QCD chiral perturbation theory
 
-The [[WZW term]] of [[chiral perturbation theory]]/[[quantum hadrodynamics]] which reproduces the [[chiral anomaly]] of [[QCD]] in the [[effective field theory]] of [[mesons]] and [[Skyrmions]]:
+The [[gauged WZW model|gauged]] [[WZW term]] of [[chiral perturbation theory]]/[[quantum hadrodynamics]] which reproduces the [[chiral anomaly]] of [[QCD]] in the [[effective field theory]] of [[mesons]] and [[Skyrmions]]:
 
 The original articles:
 
@@ -18,6 +18,8 @@ Corrections and streamlining of the computations:
 _Chiral anomalies, effective lagrangians and differential geometry_, Physics Letters B Volume 140, Issues 5–6, 14 June 1984, Pages 403-407 (<a href="https://doi.org/10.1016/0370-2693(84)90780-9">doi:10.1016/0370-2693(84)90780-9</a>)
 
 * J. L. Mañes, _Differential geometric construction of the gauged Wess-Zumino action_, Nuclear Physics B Volume 250, Issues 1–4, 1985, Pages 369-384 (<a href="https://doi.org/10.1016/0550-3213(85)90487-0>doi:10.1016/0550-3213(85)90487-0</a>)
+
+* Tomáš Brauner, Helena Kolešová, _Gauged Wess-Zumino terms for a general coset space_, Nuclear Physics B Volume 945, August 2019, 114676 ([doi:10.1016/j.nuclphysb.2019.114676](https://doi.org/10.1016/j.nuclphysb.2019.114676))
 
 Interpretation as [[Skyrmion]]/[[baryon current]]:
 
@@ -40,3 +42,8 @@ Concrete form for 2-[[flavor (particle physics)|flavor]] [[quantum hadrodynamics
 
 
 * {#Kaiser00} Roland Kaiser, _Anomalies and WZW-term of two-flavour QCD_, Phys. Rev. D63:076010, 2001 ([arXiv:hep-ph/0011377](https://arxiv.org/abs/hep-ph/0011377), [spire:537600](https://inspirehep.net/literature/537600))
+
+Discussion for the full [[standard model of particle physics]]:
+
+* [[Jeffrey Harvey]], Christopher T. Hill, Richard J. Hill, _Standard Model Gauging of the WZW Term: Anomalies, Global Currents and pseudo-Chern-Simons Interactions_, Phys. Rev. D77:085017, 2008 ([arXiv:0712.1230](https://arxiv.org/abs/0712.1230))
+
