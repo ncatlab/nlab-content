@@ -132,7 +132,7 @@ Frequently, though, these covering families will satisfy at least some of the sa
 
 * For $X$ a [[topological space]] and $Op(X)$ its [[category of open subsets]], the collection of [[open cover]]s is a subcanonical coverage on $Op(X)$. I.e. a covering family on an open subset $U \subset X$ is a collection of further open subsets $\{U_i \subset X\}$ such that their union (in $X$) is $U$: $\cup_i U_i = U$. 
 
-  This is the standard choice of coverage on $Op(X)$. Sheaves for this coverage are the usual notion of sheaf on a topologcal space.  
+  This is the standard choice of coverage on $Op(X)$. Sheaves for this coverage are the usual notion of sheaf on a topological space.  
 
   A **[[basis for the topology]]** on $X$ is also a coverage on $X$, generating the same Grothendieck topology but in general not being closed under pullbacks (which in $Op(X)$ is intersection of open subsets). Notice that thence a basis for a topology on $X$ is not what is called a [[basis for a Grothendieck topology]] on $Op(X)$.
 
