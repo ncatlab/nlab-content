@@ -107,9 +107,7 @@ automatically the Wess–Zumino term, with the correct coefficient!
 
 ## References
 
-### General
-
-Introduction and review:
+### Introduction and review
 
 * [[Jürg Gasser]], _The QCD Vacuum and Chiral Symmetry_, In: Vautherin D., Lenz F., Negele J.W. (eds.) _Hadrons and Hadronic Matter_, NATO ASI Series (Series B: Physics), vol 228. Springer 1990 ([doi:10.1007/978-1-4684-1336-6_4](https://doi.org/10.1007/978-1-4684-1336-6_4))
 
@@ -143,7 +141,11 @@ As [[quantum hadrodynamics]]:
 
 
 
-Original articles:
+### Original articles
+
+* [[Sidney Coleman]], [[Julius Wess]], [[Bruno Zumino]], _Structure of Phenomenological Lagrangians. I_, Phys. Rev. 177, 2239 (1969) ([doi:10.1103/PhysRev.177.2239](https://doi.org/10.1103/PhysRev.177.2239))
+
+* [[Curtis Callan]], Jr., [[Sidney Coleman]], [[Julius Wess]], [[Bruno Zumino]], _Structure of Phenomenological Lagrangians. II_, Phys. Rev. 177, 2247 (1969) ([doi:10.1103/PhysRev.177.2247](https://doi.org/10.1103/PhysRev.177.2247))
 
 * {#Weinberg79} [[Steven Weinberg]], _Phenomenological Lagrangians_, Physica A: Statistical Mechanics and its Applications Volume 96, Issues 1–2, April 1979, Pages 327-340 (<a href="https://doi.org/10.1016/0378-4371(79)90223-1">doi:10.1016/0378-4371(79)90223-1</a>)
 
