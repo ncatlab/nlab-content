@@ -203,7 +203,7 @@ $$
 
 where $2 = \{0,1\}$ is the 2-element poset with $0 \lt 1$.
 
-This baby form of __Birkhoff duality__ is (in one form or another) mentioned in many places; the formulation in terms of hom-functors may be found in 
+This __Birkhoff duality__ is (in one form or another) mentioned in many places; the formulation in terms of hom-functors may be found in 
 
 * [[Gavin C. Wraith]], _Using the generic interval_, Cah. Top. G&#233;om. Diff. Cat. **XXXIV** 4 (1993) pp.259-266. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1993__34_4/CTGDC_1993__34_4_259_0/CTGDC_1993__34_4_259_0.pdf))
 
@@ -227,7 +227,19 @@ where $hom$ denotes the internal hom of $FinPos$ regarded as a cartesian closed 
 
 $$ hom(-,2) \; \colon \; FinPoset^{op} \to FinPoset $$
 
-We can interpret this formula for $F$ as follows.   To compute $F P$ for a finite poset $P$, first form the poset of upsets in $P$ with the reverse ordering (this is the free finite meet completion).  Then form the distributive lattice of finitely generated downsets in that.
+We can interpret this formula for $F$ as follows: to compute $F P$ for a finite poset $P$, form the poset of downsets in $P$. $U L$ for a finite distributive lattice $L$ is computed as the join-irreducible elements of $L$ (i.e. those for which no two other elements produce it as their join). The functorial nature of the correspondence also means that morphisms of finite posets (i.e. order-preserving maps) naturally correspond to morphisms of finite distributive lattices (i.e. order-preserving maps that also respect meet and join).
+
+It follows from Birkhoff's representation theorem that every finite distributive lattice can be seen as a lattice of sets (i.e. sets with join and meet given by union and intersection) -- in particular, sets whose elements are the join-irreducible elements of the lattice. Furthermore, a good intuition for why this duality holds is that either an element is generated as the join of existing elements, or it is join-irreducible. Hence given any existing poset, we can simply add all missing joins, and also a bottom (i.e. the nullary join). By general results (the adjoint functor theorem for posets) this suffices to ensure that all meets exist as well. This is analogous to the free colimit completion of a category, and indeed Birkhoff representation can be seen as a very special case of the Yoneda lemma as applied to (0,1)-category theory (i.e., order theory), since (0,1)-presheaves are functors into Bool rather than Set and hence correspond to [[lower set]]s
+
+Birkhoff duality does not hold over infinite distributive lattices. However, in the general case of not-necessarily-finite distributive lattices there is a correspondence not to posets, but instead to a class of spaces known as Priestley spaces. This is an instance of a general phenomena known as Stone-type duality.
+
+### The Free Distributive Lattice
+
+Posets also give rise to a "free" distributive lattice, which is not the same as their Birkhoff dual. Instead, it is formed by the following procedure: First, take the poset of upsets with the reverse ordering (this is the free finite meet completion). Then form the distributive lattice of finitely generated downsets in that.
+
+In the case that one begins with a discrete poset (i.e., a set) then the number of elements in the resultant free distributive lattice is known as a Dedekind number, which also counts the number of monotone Boolean functions in $n$ variables. Dedekind numbers increase extremely rapidly, and there is no good known closed-form summation to compute them. The first nine (and only known) Dedekind numbers are (starting at $n = 0$): 2, 3, 6, 20, 168, 7581, 7828354, 2414682040998, 56130437228687557907788
+
+
 
 ### Categorification
 
