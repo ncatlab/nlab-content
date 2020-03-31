@@ -1335,6 +1335,8 @@ The modern picture of effective low-energy QFT goes back to
 
 * L. P. Kadanoff, _Scaling laws for Ising models near $T_c$_ , Physica 2 (1966);
 
+
+
 * {#Wilson71} [[Kenneth Wilson]], _Renormalization group and critical phenomena 1. Renormalization  group  and  the  Kadanoff  scaling  picture_ , , Physical review B 4(9) (1971) ([doi:10.1103/PhysRevB.4.3174](https://doi.org/10.1103/PhysRevB.4.3174))
 
 * {#Wilson71b} [[Kenneth Wilson]], _Renormalization group and critical phenomena. 2. Phase space cell analysis of critical behavior_, Phys. Rev. B4 , 3184 (1971) ([doi:10.1103/PhysRevB.4.3184](https://doi.org/10.1103/PhysRevB.4.3184))
