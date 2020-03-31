@@ -10,6 +10,11 @@ The original articles:
 
 * {#Witten83a} [[Edward Witten]], _Global aspects of current algebra_, Nuclear Physics B Volume 223, Issue 2, 22 August 1983, Pages 422-432 (<a href="https://doi.org/10.1016/0550-3213(83)90063-9">doi:10.1016/0550-3213(83)90063-9</a>)
 
+See also:
+
+* O. Kaymakcalan, S. Rajeev, J. Schechter, _Nonabelian Anomaly and Vector Meson Decays_, Phys. Rev. D 30 (1984) 594 ([spire:194756](https://inspirehep.net/literature/194756))
+
+
 Corrections and streamlining of the computations:
 
 * Chou Kuang-chao, Guo Han-ying, Wu Ke, Song Xing-kang, _On the gauge invariance and anomaly-free condition of the Wess-Zumino-Witten effective action_, Physics Letters B Volume 134, Issues 1–2, 5 January 1984, Pages 67-69 (<a href="https://doi.org/10.1016/0370-2693(84)90986-9">doi:10.1016/0370-2693(84)90986-9</a>))
