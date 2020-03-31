@@ -63,6 +63,8 @@ Many of the formulas above rely on ${|\mathbf{v}|} \leq c$, or equivalently ${|\
 
 ## Related entries
 
+* [[Higgs mechanism]], [[massive Yang-Mills theory]]
+
 * [[space]], [[time]]
 
 * [[spacetime]]
