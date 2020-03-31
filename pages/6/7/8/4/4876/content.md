@@ -340,21 +340,20 @@ on [[quantization]] of the WZW model, see at
 ## References
  {#References}
 
-### Original references
 
-The Wess-Zumino gauge-coupling term goes back to discussion of the [[chiral anomaly]] in [[QCD]]-[[chiral perturbation theory]]/[[quantum hadrodynamics]]:
 
-* [[Julius Wess]], [[Bruno Zumino]], _Consequences of anomalous Ward identities_, Phys. Lett. B 37 (1971) 95-97 ([spire:67330](https://inspirehep.net/literature/67330), <a href="https://doi.org/10.1016/0370-2693(71)90582-X">doi:10.1016/0370-2693(71)90582-X</a>)
+[[!include WZW term of QCD chiral perturbation theory -- references]]
 
-* {#Witten83a} [[Edward Witten]], _Global aspects of current algebra_, Nuclear Physics B Volume 223, Issue 2, 22 August 1983, Pages 422-432 (<a href="https://doi.org/10.1016/0550-3213(83)90063-9">doi:10.1016/0550-3213(83)90063-9</a>)
 
-and was understood as yielding a 2-dimensional [[conformal field theory]] in 
+### Interpretation via CFT and gerbes
+
+Interpretation of the 3d WZW temr as defining a [[2d CFT]]
 
 * {#Witten84} [[Edward Witten]], _Non-Abelian bosonization in two dimensions_ Commun. Math. Phys. 92, 455 (1984)
 
 * {#KnizhnikZamolodchikov85} [[Vadim Knizhnik]], [[Alexander Zamolodchikov]], _Current algebra and Wess-Zumino model in two dimensions_, Nucl. Phys. B 247, 83-103 (1984)
 
-and hence (a possible part of) a [[string theory]] [[vacuum]]/[[target space]] in
+and hence as part of a [[perturbative string theory vacuum]]/[[target space]] 
 
 * [[Doron Gepner]], [[Edward Witten]], _String theory on group manifolds_, Nucl. Phys. B 278, 493-549 (1986) ([spire:230076](http://inspirehep.net/record/230076))
 
