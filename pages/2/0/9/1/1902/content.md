@@ -5,6 +5,8 @@
 
 * [webpage](http://www.ics.mq.edu.au/gen/person/domv.html)
 
+* [Departmental webpage](https://researchers.mq.edu.au/en/persons/dominic-verity)
+
 ## Some publications
 
 * _Enriched categories, internal categories and change of base_ Ph.D. thesis, Cambridge University (1992), reprinted as Reprints in Theory and Applications of Categories, No. 20 (2011) pp 1-266 ([TAC](http://www.tac.mta.ca/tac/reprints/articles/20/tr20abs.html))
