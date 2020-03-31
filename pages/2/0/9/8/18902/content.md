@@ -6,6 +6,12 @@
 
 ## Selected writings
 
+On [[chiral perturbation theory]]:
+
+
+* [[Curtis Callan]], Jr., [[Sidney Coleman]], [[Julius Wess]], [[Bruno Zumino]], _Structure of Phenomenological Lagrangians. II_, Phys. Rev. 177, 2247 (1969) ([doi:10.1103/PhysRev.177.2247](https://doi.org/10.1103/PhysRev.177.2247))
+
+
 On [[anomaly inflow]]:
 
 * [[Curtis Callan]], [[Jeffrey Harvey]], _Anomalies and Fermion Zero Modes on Strings and Domain Walls_, Nucl. Phys. B250 (1985) 427-436 (<a href="https://doi.org/10.1016/0550-3213(85)90489-4">doi:10.1016/0550-3213(85)90489-4</a>, [spire:15691](http://inspirehep.net/record/15691))
