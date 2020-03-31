@@ -1337,11 +1337,12 @@ The modern picture of effective low-energy QFT goes back to
 
 * {#Wilson71} [[Kenneth Wilson]], _Renormalization group and critical phenomena 1. Renormalization  group  and  the  Kadanoff  scaling  picture_ , , Physical review B 4(9) (1971) ([doi:10.1103/PhysRevB.4.3174](https://doi.org/10.1103/PhysRevB.4.3174))
 
-* {#Wilson71b} [[Kenneth Wilson]], _Renormalization group and critical phenomena. 2. Phase space cell analysis of critical behavior_, Phys. Rev. B4 , 3184 (1971). [doi:10.1103/PhysRevB.4.3184](https://doi.org/10.1103/PhysRevB.4.3184)
+* {#Wilson71b} [[Kenneth Wilson]], _Renormalization group and critical phenomena. 2. Phase space cell analysis of critical behavior_, Phys. Rev. B4 , 3184 (1971) ([doi:10.1103/PhysRevB.4.3184](https://doi.org/10.1103/PhysRevB.4.3184))
+
+* {#Weinberg79} [[Steven Weinberg]], _Phenomenological Lagrangians_, Physica A: Statistical Mechanics and its Applications Volume 96, Issues 1–2, April 1979, Pages 327-340 (<a href="https://doi.org/10.1016/0378-4371(79)90223-1">doi:10.1016/0378-4371(79)90223-1</a>)
 
 * {#Polchinski84} [[Joseph Polchinski]], _Renormalization and effective Lagrangians_ , Nuclear Phys. B B231, 1984 ([pdf](http://max2.physics.sunysb.edu/~rastelli/2016/Polchinski.pdf))
 
-* {#Weinberg79} [[Steven Weinberg]], Physica 96 A (1979) 327
 
 * {#Leutwyler94} H. Leutwyler, Ann. Phys., NY 235 (1994) 165.
 
