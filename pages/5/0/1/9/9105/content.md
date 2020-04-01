@@ -14,6 +14,10 @@ On [[near horizon geometries]] of [[black branes]] which [[KK-compactification|K
 
 * [[Mirjam Cvetič]], Paulo J. Porfírio, Alejandro Satz, _Gaussian null coordinates, near-horizon geometry and conserved charges on the horizon of extremal non-dilatonic black p-branes_ ([arXiv:2003.09304](https://arxiv.org/abs/2003.09304))
 
+Relating [[M-theory on Spin(7)-manifolds]] with [[F-theory on Spin(7)-manifolds]] via [[Higgs bundles]]:
+
+* {#CHRTZ20} [[Mirjam Cvetic]], [[Jonathan Heckman]], Thomas B. Rochais, Ethan Torres, [[Gianluca Zoccarato]], _Geometric Unification of Higgs Bundle Vacua_ ([arXiv:2003.13682](https://arxiv.org/abs/2003.13682))
+
 ## Related $n$Lab entries
 
 * [[string phenomenology]]
