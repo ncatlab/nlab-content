@@ -41,7 +41,7 @@ Famous bifunctors are
     Hom(-,-) : C^{op} \times C \to Set
   $$
 
-  on any [[small category]] $C$, or if $C$ is a [[closed category]], the [[internal hom]] functor
+  on any [[locally small category]] $C$, or if $C$ is a [[closed category]], the [[internal hom]] functor
 
   $$
     [-,-] : C^{op} \times C \to C
