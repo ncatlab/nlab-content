@@ -57,7 +57,15 @@ Original article:
 
 * {#NNZ85} S. Nadkarni, H.B. Nielsen and [[Ismail Zahed]], _Bosonization Relations As Bag Boundary Conditions_, Nucl. Phys. B 253 (1985) 308 (<a href="https://doi.org/10.1016/0550-3213(85)90533-4">doi:10.1016/0550-3213(85)90533-4</a>)
 
+Further developments:
+
+* [[Mannque Rho]], _Cheshire Cat Hadrons_, Phys. Rept. 240 (1994) 1-142 ([arXiv:hep-ph/9310300](https://arxiv.org/abs/hep-ph/9310300), <a href="https://doi.org/10.1016/0370-1573(94)90002-7">doi:10.1016/0370-1573(94)90002-7</a>)
+
+  updated as: _The Cheshire Cat Hadrons Revisited_ ([arXiv:hep-ph/0206003](https://arxiv.org/abs/hep-ph/0206003))
+
+
 Review:
+
 
 * [[Mannque Rho]], Lecture I in: _Lectures on Effective Field Theories for Nuclei, Nuclear Matter and Dense Matter_, 2002 ([arXiv:nucl-th/0202078](https://arxiv.org/abs/nucl-th/0202078), [cds:539674](https://cds.cern.ch/record/539674))
 
