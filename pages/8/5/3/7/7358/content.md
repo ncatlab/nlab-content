@@ -13,7 +13,6 @@
 =--
 =--
 
-# $\Gamma$-spaces
 * table of contents
 {: toc}
 
@@ -87,6 +86,8 @@ Monoidal Categories_, Advances in Mathematics (2003).
 * B. Badzioch, _Algebraic Theories in Homotopy Theory_, Annals of Mathematics, 155, 895--913 (2002).
 
 [[!redirects Gamma-spaces]]
+[[!redirects Γ-space]]
+[[!redirects Γ-spaces]]
 [[!redirects ∞-space]]
 [[!redirects ∞-spaces]]
 
@@ -94,7 +95,7 @@ Monoidal Categories_, Advances in Mathematics (2003).
 [[!redirects Gamma spaces]]
 
 [[!redirects Segal's category Gamma]]
-[[!redirects Segal's category ?]]
+[[!redirects Segal's category Γ]]
 
 [[!redirects model structure for Gamma-spaces]]
 [[!redirects model structure for ∞-spaces]]
