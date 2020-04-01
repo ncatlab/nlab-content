@@ -96,9 +96,9 @@ See also
 * Takeshi Sato, _On M-9-branes and their dimensional reductions_, Nucl. Phys. Proc. Suppl. 102 (2001) 107-112 ([arXiv:hep-th/0102084](http://arxiv.org/abs/hep-th/0102084))
 
 
-Discussion of open [[M5-branes]] ending on the M9 is in
+Discussion of open [[M5-branes]] ending on the [[M9-brane]] is in
 
-* [[Eric Bergshoeff]], [[Gary Gibbons]], [[Paul Townsend]], _Open M5-branes_, Phys. Rev. Lett. 97:231601 2006 ([arXiv:hep-th/0607193](http://arxiv.org/abs/hep-th/0607193))
+* [[Eric Bergshoeff]], [[Gary Gibbons]], [[Paul Townsend]], _Open M5-branes_, Phys. Rev. Lett. 97:231601 2006 ([arXiv:hep-th/0607193](http://arxiv.org/abs/hep-th/0607193), [doi:10.1103/PhysRevLett.97.231601](https://doi.org/10.1103/PhysRevLett.97.231601))
 
 
 
