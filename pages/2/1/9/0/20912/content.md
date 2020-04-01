@@ -40,5 +40,6 @@ On [[duality in string theory|duality]] of [[M-theory on G2-manifolds]] with [[h
 category: people
 
 [[!redirects Sakura Schäfer-Nameki]]
+[[!redirects Sakura Schaefer-Nameki]]
 [[!redirects Sakura Schafer-Nameki]]
 [[!redirects Sakura Sch&auml;fer-Nameki]]
