@@ -14,10 +14,15 @@ On [[Yang-Mills monopoles]]:
 
 * {#GibbonsManton86} [[Gary Gibbons]], [[Nicholas Manton]], _Classical and Quantum Dynamics of BPS Monopoles_, Nucl. Phys. B274 (1986) 183-224 ([spire:18322](http://inspirehep.net/record/18322), <a href="https://doi.org/10.1016/0550-3213(86)90624-3">doi:10.1016/0550-3213(86)90624-3</a>)
 
-*  [[Gary Gibbons]] and M.~C.~Werner,
-  Applications of the Gauss-Bonnet theorem to gravitational lensing,
-  Class. Quant. Grav. 25, 235009 (2008).
- arXiv:0807.0854 [gr-qc].
+On open [[M5-branes]] [[intersecting brane|intersecting]] [[M9-branes]] in a [[Yang monopole]]:
+
+* [[Eric Bergshoeff]], [[Gary Gibbons]], [[Paul Townsend]], _Open M5-branes_, Phys. Rev. Lett. 97:231601 2006 ([arXiv:hep-th/0607193](http://arxiv.org/abs/hep-th/0607193), [doi:10.1103/PhysRevLett.97.231601](https://doi.org/10.1103/PhysRevLett.97.231601))
+
+
+On [[gravitational lensing]] via the [[Gauss-Bonnet theorem]]:
+
+*  [[Gary Gibbons]] and M. C. Werner, _Applications of the Gauss-Bonnet theorem to gravitational lensing_, Class. Quant. Grav. 25, 235009 (2008) ([arXiv:0807.0854](https://arxiv.org/abs/0807.0854))
+ 
 
 
 ## Related $n$Lab entries
