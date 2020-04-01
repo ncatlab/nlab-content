@@ -98,6 +98,8 @@ See also at _[[C-field tadpole cancellation]]_.
 
 ## References
 
+### General
+
 * Christine Taylor, _Compact Manifolds with Holonomy Spin(7)_ (1996) ([pdf](https://people.maths.ox.ac.uk/joyce/theses/TaylorMSc.pdf))
 
 * [[Dominic Joyce]], _Compact Manifolds with Special Holonomy_, Oxford Mathematical Monographs, Oxford University Press (2000)
@@ -109,6 +111,12 @@ In terms of [[G-structure]] motivated from special [[supersymmetry]] (such as in
 * {#IshamPopeWarner88} [[Chris Isham]], [[Christopher Pope]], [[Nicholas Warner]], _Nowhere-vanishing spinors and triality rotations in 8-manifolds_,  Classical and Quantum Gravity, Volume 5, Number 10, 1988 ([cds:185144](http://cds.cern.ch/record/185144), [doi:10.1088/0264-9381/5/10/009](https://iopscience.iop.org/article/10.1088/0264-9381/5/10/009))
 
   (focus on [[Spin(7)-structure]])
+
+### Relation to Higgs bundles
+
+Relating [[M-theory on Spin(7)-manifolds]] with [[F-theory on Spin(7)-manifolds]] via [[Higgs bundles]]:
+
+* {#CHRTZ20} [[Mirjam Cvetic]], [[Jonathan Heckman]], Thomas B. Rochais, Ethan Torres, [[Gianluca Zoccarato]], _Geometric Unification of Higgs Bundle Vacua_ ([arXiv:2003.13682](https://arxiv.org/abs/2003.13682))
 
 
 [[!redirects Spin(7) manifolds]]
