@@ -29,7 +29,7 @@ The formalism is however way more general.
 
 ## Definition
 
-A **Markov category** is a [[semicartesian monoidal category|semicartesian]] [[symmetric monoidal category]] $(C,\otimes,1)$ in which every object $X$ is equipped with the structure of an [[internal monoid|internal comonoid]].
+A **Markov category** is a [[semicartesian monoidal category|semicartesian]] [[symmetric monoidal category]] $(C,\otimes,1)$ in which every object $X$ is equipped with the structure of a [[commutative]] [[internal monoid|internal comonoid]].
 We denote the [[counit]] and [[comultiplication]] maps by $copy: X \to X \otimes X$ and $delete: X\to 1$. 
 
 We require the following compatibility property between the copy map and the tensor product: for all objects $X$ and $Y$, 
