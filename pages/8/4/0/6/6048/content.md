@@ -239,6 +239,7 @@ For the [[type II string theory]]-version see at _[[NS5-brane]]_ the sectoin _[N
 
 ## References
 
+
 ### As a fundamental brane (GS-type $\sigma$-model)
 
 [[fundamental M2-brane sigma-model -- references]]
@@ -288,7 +289,7 @@ Discussion of $G7$-[[C-field flux quantization]] in the $G_4$-fluxed case:
 
  
 
-### Super-membrane/M2-brane as a black brane
+### As a black brane
  {#ReferencesAsABlackBrane}
 
 The [[black brane|black]] membrane solution of [[11-dimensional supergravity]] was found in
@@ -345,13 +346,26 @@ Discussion of $G7$-[[C-field flux quantization]] in the $G_4$-fluxed case:
 * {#FSS19c} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 4 of: _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization|Twisted Cohomotopy implies level quantization of the full 6d Wess-Zumino-term of the M5-brane]]_ ([arXiv:1906.07417](https://arxiv.org/abs/1906.07417))
 
 
+### In $AdS_4/CFT_3$
+
+In [[AdS4-CFT3 duality]]:
+
+Review:
+
+* Kazuo Hosomichi, _M2-branes and AdS/CFT: A Review_ ([arXiv:2003.13914](https://arxiv.org/abs/2003.13914))
+
+
 [[!include quantization of M2-brane on Minkowski spacetime to BFSS matrix model -- references]]
+
+
 
 ### History
 
 Discussion of the history includes
 
 * [[Mike Duff]], ([arXiv:1501.04098](http://arxiv.org/abs/1501.04098))
+
+
 
 ### Decoupled worldvolume theory
 
@@ -390,6 +404,8 @@ Discussion from the point of view of [[E11]]-[[U-duality]] and [[current algebra
 
 * [[Shotaro Shiba]], [[Hirotaka Sugawara]], _M2- and M5-branes in $E_{11}$ Current Algebra Formulation of M-theory_ ([arXiv:1709.07169](https://arxiv.org/abs/1709.07169))
 
+
+
 ### M2-M5 bound states
  {#ReferencesDyonic}
 
@@ -415,6 +431,7 @@ Discussion of [[M2-M5 brane bound states]], i.e.
 Further [[M2/M5-brane bound states]] to [[giant gravitons]]:
 
 * J. M. Camino, A. V. Ramallo, _M-Theory Giant Gravitons with C field_, Phys.Lett.B525:337-346,2002 ([arXiv:hep-th/0110096](https://arxiv.org/abs/hep-th/0110096))
+
 
 
 [[!redirects M2-branes]]
