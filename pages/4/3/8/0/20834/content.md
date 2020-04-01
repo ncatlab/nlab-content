@@ -112,9 +112,9 @@ A detailed implementation of the idea in [[F-theory on Spin(7)-manifolds]] is de
 
 * {#BonettiGrimmPugh13b} [[Federico Bonetti]], [[Thomas Grimm]], [[Eran Palti]], [[Tom Pugh]], _F-Theory on $Spin(7)$ Manifolds: Weak-Coupling Limit_, JHEP 02 (2014) 076 ([arXiv:1309.2287](https://arxiv.org/abs/1309.2287))
 
-* {#HeckmannLawrieLinZoccarato118} [[Jonathan Heckman]], Craig Lawrie, Ling Lin, Gianluca Zoccarato, _F-theory and Dark Energy_, Fortschritte der Physik  ([arXiv:1811.01959](https://arxiv.org/abs/1811.01959), [doi:10.1002/prop.201900057]( https://doi.org/10.1002/prop.201900057))
+* {#HeckmannLawrieLinZoccarato118} [[Jonathan Heckman]], Craig Lawrie, Ling Lin, [[Gianluca Zoccarato]], _F-theory and Dark Energy_, Fortschritte der Physik  ([arXiv:1811.01959](https://arxiv.org/abs/1811.01959), [doi:10.1002/prop.201900057]( https://doi.org/10.1002/prop.201900057))
 
-* {#HeckmanLawrieLinSaksteinZoccarato19} [[Jonathan Heckman]], Craig Lawrie, Ling Lin, Jeremy Sakstein, Gianluca Zoccarato, _Pixelated Dark Energy_, Fortsch. d. Physik ([arXiv:1901.10489](https://arxiv.org/abs/1901.10489), [doi:10.1002/prop.201900071]( https://doi.org/10.1002/prop.201900071))
+* {#HeckmanLawrieLinSaksteinZoccarato19} [[Jonathan Heckman]], Craig Lawrie, Ling Lin, Jeremy Sakstein, [[Gianluca Zoccarato]], _Pixelated Dark Energy_, Fortsch. d. Physik ([arXiv:1901.10489](https://arxiv.org/abs/1901.10489), [doi:10.1002/prop.201900071]( https://doi.org/10.1002/prop.201900071))
 
 
 ### Phenomenology
