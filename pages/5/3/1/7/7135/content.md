@@ -17,6 +17,10 @@ On [[D=7 supergravity]] (as [[gauged supergravity]]):
 * [[Paul Townsend]], [[Peter van Nieuwenhuizen]], _Gauged Seven-Dimensional Supergravity_ , Phys. Lett. 125B (1983) 41 ([spire:189055](http://inspirehep.net/record/189055), <a hraf="https://doi.org/10.1016/0370-2693(83)91230-3">doi:10.1016/0370-2693(83)91230-3</a>)
 
 
+On [[black brane|black]]$\,$[[D8-brane]]-solutions in [[massive type IIA supergravity]]/[[massive type IIA string theory]]:
+
+* {#BergshoessdeRooGreenPapadopoulosTownsend96} [[Eric Bergshoeff]], Mees de Roo, [[Michael Green]], [[George Papadopoulos]], [[Paul Townsend]], _Duality of Type II 7-branes and 8-branes_, Nucl. Phys. B470:113-135, 1996 ([arXiv:hep-th/9601150](https://arxiv.org/abs/hep-th/9601150))
+
 
 On [[M2-M5 brane bound states]]:
 
@@ -30,9 +34,11 @@ On [[higher curvature corrections]] to [[D=11 supergravity]] and [[M-theory on G
 
 * H. Lu, [[Christopher Pope]], [[Kellogg Stelle]], [[Paul Townsend]], _String and M-theory Deformations of Manifolds with Special Holonomy_, JHEP 0507:075, 2005 ([arXiv:hep-th/0410176](https://arxiv.org/abs/hep-th/0410176))
 
-On [[black brane|black]]$\,$[[D8-brane]]-solutions in [[massive type IIA supergravity]]/[[massive type IIA string theory]]:
+On open [[M5-branes]] [[intersecting brane|intersecting]] [[M9-branes]] in a [[Yang monopole]]:
 
-* {#BergshoessdeRooGreenPapadopoulosTownsend96} [[Eric Bergshoeff]], Mees de Roo, [[Michael Green]], [[George Papadopoulos]], [[Paul Townsend]], _Duality of Type II 7-branes and 8-branes_, Nucl. Phys. B470:113-135, 1996 ([arXiv:hep-th/9601150](https://arxiv.org/abs/hep-th/9601150))
+* [[Eric Bergshoeff]], [[Gary Gibbons]], [[Paul Townsend]], _Open M5-branes_, Phys. Rev. Lett. 97:231601 2006 ([arXiv:hep-th/0607193](http://arxiv.org/abs/hep-th/0607193), [doi:10.1103/PhysRevLett.97.231601](https://doi.org/10.1103/PhysRevLett.97.231601))
+
+
 
 
 ## Related $n$Lab entries
