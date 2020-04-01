@@ -73,7 +73,7 @@ See also
 
 * [[Eric Bergshoeff]], D C Jong and [[Ergin Sezgin]], _Noncompact gaugings, chiral reduction and dual sigma models in supergravity_ Class. Quantum Grav. 23 (2006) 2803&#8211;2831 ([pdf](http://iopscience.iop.org/0264-9381/23/9/003/pdf/0264-9381_23_9_003.pdf)) 
 
-* Der-Chyn Jong, _Aspects of 7D and 6D gauged supergravities_ PhD thesis (2007) ([web](http://repository.tamu.edu/handle/1969.1/85874))
+* Der-Chyn Jong, _Aspects of 7D and 6D gauged supergravities_ PhD thesis (2007) ([spire:776484](https://inspirehep.net/literature/776484), [web](https://oaktrust.library.tamu.edu/handle/1969.1/ETD-TAMU-2110))
 
 ### KK-Compactification on $S^1_{HW}$
 
