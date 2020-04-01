@@ -65,9 +65,9 @@ One may also consider entirely strict $\infty$-groupoids, usually called $\omega
 
 ### Relation to $\infty$-groups
 
-[[0-connected]] $\infty$-groupoids  are the [[delooping]] $\mathbf{B}G$ of [[∞-group]]s (see _[[looping and delooping]]_). 
+[[pointed object|Pointed]], [[0-connected]] $\infty$-groupoids  are the [[delooping]] $\mathbf{B}G$ of [[∞-group]]s (see _[[looping and delooping]]_). 
 
-These are presented by [[simplicial group]]s. Notably abelian simplicial groups are therefore a model for abelian $\infty$-groupoids. Under the [[Dold-Kan correspondence]] these are equivalent to non-negatively graded [[chain complex]]es, which therefore also are a model for abelian $\infty$-groupoids. This way much of [[homological algebra]] is secretly the study of special $\infty$-groupoids.
+These are presented by [[simplicial group]]s. Notably, abelian simplicial groups are therefore a model for abelian $\infty$-groupoids (more precisely, [[HA|H$\mathbb{Z}$]]-[[(∞,1)-module|modules]]). Under the [[Dold-Kan correspondence]] these are equivalent to non-negatively graded [[chain complex]]es, which therefore also are a model for abelian $\infty$-groupoids. This way much of [[homological algebra]] is secretly the study of special (structured) $\infty$-groupoids.
 
 ## Related concepts
 
