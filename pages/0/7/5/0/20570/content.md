@@ -55,6 +55,13 @@ Further development:
 
 * Andreas Blommaert, Thomas G. Mertens, Henri Verschelde, _Eigenbranes in Jackiw-Teitelboim gravity_ ([arXiv:1911.11603](https://arxiv.org/abs/1911.11603))
 
+Via [[twistors]]:
+
+* Wolfgang Wieland, _Twistor representation of Jackiw-Teitelboim gravity_ ([arXiv:2003.13887](https://arxiv.org/abs/2003.13887))
+
+
+
+
 [[!include AdS2-CFT1 -- references]]
 
 
