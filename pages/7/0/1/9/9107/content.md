@@ -22,6 +22,10 @@ Discussion of the [[gauged WZW model|gauged]] [[WZW term]] for the [[chiral anom
 
 * [[Jeffrey Harvey]], Christopher T. Hill, Richard J. Hill, _Standard Model Gauging of the WZW Term: Anomalies, Global Currents and pseudo-Chern-Simons Interactions_, Phys. Rev. D77:085017, 2008 ([arXiv:0712.1230](https://arxiv.org/abs/0712.1230))
 
+On relating the [[Monster vertex operator algebra]] abs its cousins to [[quantum error correction]]:
+
+
+* [[Jeffrey Harvey]], [[Gregory Moore]], _Moonshine, Superconformal Symmetry, and Quantum Error Correction_ ([arXiv:2003.13700](https://arxiv.org/abs/2003.13700))
 
 
 
