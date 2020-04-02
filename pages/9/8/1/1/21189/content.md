@@ -114,6 +114,9 @@ automatically the Wess–Zumino term, with the correct coefficient!
 * Volker Koch, _Aspects of Chiral Symmetry_, Int. J. Mod. Phys. E6 (1997) 203-250 ([arXiv:nucl-th/9706075](https://arxiv.org/abs/nucl-th/9706075))
 
 
+* Stefan Scherer, _Introduction to Chiral Perturbation Theory_, Adv. Nucl. Phys. 27 (2003) 277 ([arXiv:hep-ph/0210398](https://arxiv.org/abs/hep-ph/0210398))
+
+
 * Véronique Bernard, Ulf-G. Meißner, _Chiral perturbation theory_, Ann. Rev. Nucl. Part. Sci.57:33-60, 2007 ([arXiv:hep-ph/0611231](https://arxiv.org/abs/hep-ph/0611231))
 
 * Véronique Bernard, _Chiral Perturbation Theory and Baryon Properties_, Prog. Part. Nucl. Phys. 60:82-160, 2008 ([arXiv:0706.0312](https://arxiv.org/abs/0706.0312))
