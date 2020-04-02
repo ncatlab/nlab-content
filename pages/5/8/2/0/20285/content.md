@@ -92,7 +92,7 @@
 
 * [[separable metacompact spaces are Lindelöf]].
 
-* separable spaces satisfy the countable chain condition: given a dense set $D$ and a family $\{U_\alpha : \alpha \in A\}$, the map $D \to A$ assigning $d$ to the unique $\alpha \in A$ with $d \in U_\alpha$ is surjective.
+* separable spaces satisfy the countable chain condition: given a dense set $D$ and a family $\{U_\alpha : \alpha \in A\}$, the map $D \cap \bigcup_{\alpha \in A} U_\alpha \to A$ assigning $d$ to the unique $\alpha \in A$ with $d \in U_\alpha$ is surjective.
 
 * separable spaces are weakly Lindelöf: given a countable dense subset and an open cover [[axiom of choice|choose]] for each point of the subset an open from the cover.
 
