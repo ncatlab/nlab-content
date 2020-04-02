@@ -9,7 +9,7 @@ On the [[non-abelian DBI action]] and introducing the [[Myers effect]]:
 
 * {#Myers99} [[Robert Myers]], _Dielectric-Branes_, JHEP 9912 (1999) 022 ([arXiv:hep-th/9910053](https://arxiv.org/abs/hep-th/9910053))
 
-On [[D1-D3-brane intersections]] as [[fuzzy funnels]] on [[fuzzy 2-spheres]]
+On [[D1-D3-brane intersections]] as [[fuzzy funnels]]/[[BIons]] on [[fuzzy 2-spheres]]
 
 * [[Neil Constable]], [[Robert Myers]], Oyvind Tafjord, _The Noncommutative Bion Core_, Phys. Rev. D61 (2000) 106009 ([arXiv:hep-th/9911136](https://arxiv.org/abs/hep-th/9911136))
 
