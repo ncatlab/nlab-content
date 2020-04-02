@@ -43,7 +43,7 @@ For more see the references at _[[Dp-D(p+2)-brane bound state]]_:
 
 #### As spikes/BIons (D3-brane perspective)
 
-As spikes/BIons in the [[D3-brane]] [[DBI action|DBI-theory]]:
+As spikes/[[BIons]] in the [[D3-brane]] [[DBI action|DBI-theory]]:
 
 * [[Curtis Callan]], [[Juan Maldacena]], _Brane Dynamics From the Born-Infeld Action_, Nucl. Phys. B513 (1998) 198-212 ([arXiv:hep-th/9708147](https://arxiv.org/abs/hep-th/9708147))
 
