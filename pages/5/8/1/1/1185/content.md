@@ -216,3 +216,12 @@ which argues that Cantor's original meaning of _set_ was more like what today is
 [[!redirects cardinals]]
 [[!redirects cardinality]]
 [[!redirects cardinalities]]
+
+[[!redirects limit cardinal]]
+[[!redirects limit cardinals]]
+
+[[!redirects strong limit cardinal]]
+[[!redirects strong limit cardinals]]
+
+
+
