@@ -54,6 +54,8 @@ $$
 
 ## References
 
+### General
+
 Apparently the concept of the Ran space was first introduced in
 
 * {#BeilDrin04} [[Alexander Beilinson]], [[Vladimir Drinfeld]] , _Chiral algebras_, American Mathematical Society Colloquium Publications *51*, (2004).
@@ -65,6 +67,10 @@ Review includes
 Textbook accounts include
 
 * [[Jacob Lurie]], section 5.5.1 of _[[Higher Algebra]]_
+
+See also 
+
+* [Wikipedia](http://en.wikipedia.org/wiki/Ran_space)
 
 Ran spaces of the [[circle]] are discussed in 
 
@@ -90,9 +96,14 @@ Discussion in the context of [[conformal field theory]] includes
 * [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, [[David Kazhdan]], [[John Morgan]], [[David Morrison]] and [[Edward Witten]] (eds.) volume II, part III of _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
 
-See also 
 
-* [Wikipedia](http://en.wikipedia.org/wiki/Ran_space)
+
+### Relation to configuration spaces of points
+
+Expressing the [[rational cohomology]] of [[ordered configuration spaces of points]] via [[factorization homology]] and [[Ran spaces]]:
+
+* Quoc P. Ho, _Higher representation stability for ordered configuration spaces and twisted commutative factorization algebras_ ([arXiv:2004.00252](https://arxiv.org/abs/2004.00252))
+
 
 
 [[!redirects Ran spaces]]
