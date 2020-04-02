@@ -3,7 +3,7 @@
 ### Skyrme hadrodynamics with vector mesons ($\pi$-$\omega$-$\rho$-model)
  {#ReferencesSkyrmeHadrodynamicsWithVectorMesons}
 
-Inclusion of [[vector mesons]] ([[omega-meson]] and [[omega-meson]]) into the [[Skyrmion model]] of [[quantum hadrodynamics]], in addition to the [[pion]]:
+Inclusion of [[vector mesons]] ([[omega-meson]] and [[rho-meson]]/[[A1-meson]]) into the [[Skyrmion model]] of [[quantum hadrodynamics]], in addition to the [[pion]]:
 
 
 Equivalence between [[hidden local symmetry]]- and [[massive Yang-Mills theory]]-description of [[Skyrmion]] [[quantum hadrodynamics]]:
@@ -21,8 +21,6 @@ Relating to [[nucleon]]-[[scattering]]:
 
 * J. M. Eisenberg, A. Erell, R. R. Silbar,  _Nucleon-nucleon force in a skyrmion model stabilized by omega exchange_, Phys. Rev. C 33, 1531 (1986) ([doi:10.1103/PhysRevC.33.1531](https://doi.org/10.1103/PhysRevC.33.1531))
 
-* {#Kaiser00} Roland Kaiser, _Anomalies and WZW-term of two-flavour QCD_, Phys. Rev. D63:076010, 2001 ([arXiv:hep-ph/0011377](https://arxiv.org/abs/hep-ph/0011377), [spire:537600](https://inspirehep.net/literature/537600))
-
 
 Combination of the [[omega-meson]]-stabilized [[Skyrme model]] with the [[bag model for quark confinement|bag model]] for [[nucleons]]:
 
@@ -38,9 +36,23 @@ Original proposal for inclusion of the [[ρ-meson]]:
 
 * {#Adkins86} [[Gregory Adkins]], _Rho mesons in the Skyrme model_, Phys. Rev. D 33, 193 (1986) ([spire:16895](http://inspirehep.net/record/16895),  [doi:10.1103/PhysRevD.33.193](https://doi.org/10.1103/PhysRevD.33.193))
 
+Discussion for [[phenomenology]] of light [[atomic nuclei]]:
+
+* {#NayaSutcliffe18} [[Carlos Naya]], [[Paul Sutcliffe]], _Skyrmions and clustering in light nuclei_, Phys. Rev. Lett. 121, 232002 (2018) ([arXiv:1811.02064](https://arxiv.org/abs/1811.02064)) 
+
+* {#NayaSutcliffe18b} [[Carlos Naya]], [[Paul Sutcliffe]], _Skyrmions in models with pions and rho_, JHEP 05 (2018) 174 ([arXiv:1803.06098](https://arxiv.org/abs/1803.06098))
+
+
+  APS Synopsis: _[Revamping the Skyrmion Model](https://physics.aps.org/synopsis-for/10.1103/PhysRevLett.121.232002)_, 2018 
+
+
 #### Inclusion of $\omega$- and $\rho$-meson
 
 The resulting $\pi$-$\rho$-$\omega$ model:
+
+* {#MeissnerZahed86} [[Ulf-G. Meissner]], [[Ismail Zahed]], _Skyrmions in the Presence of Vector Mesons_, Phys. Rev. Lett. 56, 1035 (1986) ([doi:10.1103/PhysRevLett.56.1035](https://doi.org/10.1103/PhysRevLett.56.1035))
+
+  (includes also the [[A1-meson]])
 
 * [[Ulf-G. Meissner]], [[Norbert Kaiser]], [[Wolfram Weise]], _Nucleons as skyrme solitons with vector mesons: Electromagnetic and axial properties_, Nuclear Physics A Volume 466, Issues 3–4, 11–18 May 1987, Pages 685-723 (<a href="https://doi.org/10.1016/0375-9474(87)90463-5">doi:10.1016/0375-9474(87)90463-5</a>)
 
@@ -66,7 +78,10 @@ See also
 
 Review:
 
+* {#Kaiser00} Roland Kaiser, _Anomalies and WZW-term of two-flavour QCD_, Phys. Rev. D63:076010, 2001 ([arXiv:hep-ph/0011377](https://arxiv.org/abs/hep-ph/0011377), [spire:537600](https://inspirehep.net/literature/537600))
+
 * {#Holzwarth05} Gottfried Holzwarth, Section 2.3 of: _Electromagnetic Form Factors of the Nucleon in Chiral Soliton Models_ ([arXiv:hep-ph/0511194](https://arxiv.org/abs/hep-ph/0511194)), Chapter 2 in: _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+
 
 * Yongseok Oh, _Skyrmions with vector mesons: Single Skyrmion and baryonic matter_, 2013 ([[OhSkyrmionsWithVectorMesons.pdf:file]])
 
