@@ -176,7 +176,7 @@ Surveys and reviews include
 
 See also section 22 of 
 
-* Philip Argyres, _Introduction to supersymmetry_ ([pdf](http://www.physics.uc.edu/~argyres/661/susy1996.pdf))
+* [[Philip Argyres]], _Introduction to supersymmetry_ ([pdf](http://www.physics.uc.edu/~argyres/661/susy1996.pdf))
 
 [[!redirects Seiberg dualities]]
 
