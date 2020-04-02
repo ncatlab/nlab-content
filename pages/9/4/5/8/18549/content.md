@@ -104,7 +104,7 @@ This is well-defined also on [[complex numbers]], which makes it an [[entire hol
 +-- {: .num_prop}
 ###### Proposition
 
-The Fourier transform (def. \ref{FourierTransformOfTemperedDistribution}) of the [[convolution of distributions]] of a [[compactly supported distribution]] $u_1 \in \mathcal{E}'$ with a [[tempered distribution]] $u_2 \in \mathcal{S}'$ is the [[product of distributions]] of their separate Foruier transforms:
+The Fourier transform (def. \ref{FourierTransformOfTemperedDistribution}) of the [[convolution of distributions]] of a [[compactly supported distribution]] $u_1 \in \mathcal{E}'$ with a [[tempered distribution]] $u_2 \in \mathcal{S}'$ is the [[product of distributions]] of their separate Fourier transforms:
 
 $$
   \widehat {u_1 \star u_2}
