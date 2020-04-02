@@ -195,6 +195,10 @@ See the references at _[[chiral perturbation theory]]_.
 
 
 
+[[!include Skyrme hadrodynamics with vector mesons -- references]]
+
+
+
 ### In the large $N$ limit
 
 In the [[large N limit]]:
