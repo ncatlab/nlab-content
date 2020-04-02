@@ -1540,6 +1540,11 @@ General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configura
 
 * Roberto Pagaria, _The cohomology rings of the unordered configuration spaces of the torus_ ([arxiv:1901.01171](https://arxiv.org/abs/1901.01171))
 
+Expressing the [[rational cohomology]] of [[ordered configuration spaces of points]] via [[factorization homology]] and [[Ran spaces]]:
+
+* Quoc P. Ho, _Higher representation stability for ordered configuration spaces and twisted commutative factorization algebras_ ([arXiv:2004.00252](https://arxiv.org/abs/2004.00252))
+
+
 ### Homotopy
 
 Discussion of [[homotopy groups]] of configuration spaces:
