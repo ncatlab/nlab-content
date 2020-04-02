@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -380,7 +381,7 @@ $$
   \end{aligned}
 $$
 
-Then the general expression (eq:TheDeterminant) for the [[DBI-Lagrangian]] reduces to ([Born-Infeld 34, p. 437](#BornInfeld34), review in [Nastase 15, 9.4](#Nastase15)):
+Then the general expression (eq:TheDeterminant) for the [[DBI-Lagrangian]] reduces to ([Born-Infeld 34, p. 437](#BornInfeld34), review in [Gibbons 97, (56)](#Gibbons97), [Savvidy 99, (22)](#Savvidy99), [Nastase 15, 9.4](#Nastase15)):
 
 \[
   \label{InTermsOfElectricAndMagneticField}
@@ -541,6 +542,10 @@ and a full $\kappa$-symmetric [[Green-Schwarz sigma-model]] for [[D-branes]]:
 
 Review:
 
+* {#Gibbons97} [[Gary Gibbons]], _Born-Infeld particles and Dirichlet p-branes_, Nucl. Phys. B514:603-639, 1998 ([arXiv:hep-th/9709027](https://arxiv.org/abs/hep-th/9709027))
+
+* {#Savvidy99} Konstantin G. Savvidy, _Born-Infeld Action in String Theory_, 1999 ([arXiv:hep-th/9906075](https://arxiv.org/abs/hep-th/9906075), [spire:501510](https://inspirehep.net/literature/501510))
+
 * [[Arkady Tseytlin]], _Born-Infeld action, supersymmetry and string theory_, in: [[Mikhail Shifman]] (ed.)  _[[The many faces of the superworld]]_, pp. 417-452, World Scientific (2000) ([arXiv:hep-th/9908105](https://arxiv.org/abs/hep-th/9908105), [doi:10.1142/9789812793850_0025](https://doi.org/10.1142/9789812793850_0025))
 
 * {#Schwarz01} [[John Schwarz]], _Comments on Born-Infeld Theory_, in: Atish Dabholkar, [[Sunil Mukhi]], Spenta R. Wadia (eds.) _[Strings 2001: Proceedings, Strings 2001 Conference](http://inspirehep.net/record/944370)_, Tata Institute of Fundamental Research, Mumbai, India, January 5-10, 2001 ([arXiv:hep-th/0103165](https://arxiv.org/abs/hep-th/0103165), [spire:554347](http://inspirehep.net/record/554347))
@@ -568,9 +573,21 @@ See also
 
 ### For coincident (non-abelian) D-branes
 
-Discussion of the generalization of the DBI action to  [[non-abelian group|non-abelian]] [[Chan-Paton gauge fields]] (hence: for [[intersecting branes|coincident]] [[D-branes]]) includes the following:
+Proposals for the generalization of the DBI action to  [[non-abelian group|non-abelian]] [[Chan-Paton gauge fields]] (hence: for [[intersecting branes|coincident]] [[D-branes]]) includes the following:
 
-A proposal for the formulation by using the symmetrized trace is due to
+Via a plane [[trace]]:
+
+* T. Hagiwara, _A non-abelian Born-Infeld Lagrangian_, J. Phys., A14:3059, 1981 ([doi:10.1088/0305-4470/14/11/027](https://iopscience.iop.org/article/10.1088/0305-4470/14/11/027))
+
+Via an antisymmetrized [[trace]]:
+
+* [[Philip Argyres]], [[Chiara Nappi]], _Spin-1 effective actions from open strings_, Nuclear Physics B Volume 330, Issue 1, 22 January 1990, Pages 151-173 Nuclear Physics B (<a href="https://doi.org/10.1016/0550-3213(90)90305-W">doi:10.1016/0550-3213(90)90305-W</a>)
+
+Via a combination of spacetime and gauge indices:
+
+* Jeong-Hyuck Park, _A Study of a Non-Abelian Generalization of the Born-Infeld Action_, Phys. Lett. B458 (1999) 471-476 ([arXiv:hep-th/9902081](https://arxiv.org/abs/hep-th/9902081))
+
+The now widely accepted proposal via a symmetrized [[trace]] is due to
 
 * {#Tseytlin97} [[Arkady Tseytlin]], _On non-Abelian generalization of Born-Infeld action in string theory_, Nucl.Phys. B501 (1997) 41-52 ([spire:439767](http://inspirehep.net/record/439767))
 
@@ -579,6 +596,8 @@ followed by
 * {#Myers99} [[Robert Myers]], _Dielectric-Branes_, JHEP 9912 (1999) 022 ([arXiv:hep-th/9910053](https://arxiv.org/abs/hep-th/9910053))
 
   (introducing the [[Myers effect]])
+
+The symmetrized trace proposal has become widely accepted.
 
 Review includes:
 
@@ -621,7 +640,6 @@ Discussion of the [[DBI-action]] for [[flavor brane|flavor branes]] in [[hologra
 
 
 
-
 ### Single trace observables as weight systems on chord diagrams
 
 Relation of [[single trace observables]] in the [[non-abelian DBI action]] on [[Dp-D(p+2)-brane bound states]] ([hence](Dp-Dp+2-brane+bound+states#ReferencesRelationToMonopoles)
@@ -634,6 +652,25 @@ Relation of [[single trace observables]] in the [[non-abelian DBI action]] on [[
 * {#McNamara06} [[Simon McNamara]], Section 4 of: _Twistor Inspired Methods in Perturbative FieldTheory and Fuzzy Funnels_, 2006 ([spire:1351861](http://inspirehep.net/record/1351861), [pdf](https://strings.ph.qmul.ac.uk/sites/default/files/Mcnamaraphd.pdf), [[McNamara06.pdf:file]])
 
 * [[Constantinos Papageorgakis]], p. 161-162 of: _On matrix D-brane dynamics and fuzzy spheres_, 2006 ([[Papageorgakis06.pdf:file]])
+
+
+### Brane intersections as DBI-spikes/BIons
+
+On [[D1-D3 brane intersections]] as spikes/BIons in the [[D3-brane]] [[DBI action|DBI-theory]]:
+
+* [[Curtis Callan]], [[Juan Maldacena]], _Brane Dynamics From the Born-Infeld Action_, Nucl. Phys. B513 (1998) 198-212 ([arXiv:hep-th/9708147](https://arxiv.org/abs/hep-th/9708147))
+
+* [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _The Self-Dual String Soliton_, Nucl. Phys. B515 (1998) 203-216 ([arXiv:hep-th/9709014](https://arxiv.org/abs/hep-th/9709014))
+
+* [[Gary Gibbons]], _Born-Infeld particles and Dirichlet p-branes_,  	Nucl. Phys. B514: 603-639, 1998 ([arXiv:hep-th/9709027](https://arxiv.org/abs/hep-th/9709027))
+
+* [[Neil Constable]], [[Robert Myers]], Oyvind Tafjord, _The Noncommutative Bion Core_, Phys. Rev. D61 (2000) 106009 ([arXiv:hep-th/9911136](https://arxiv.org/abs/hep-th/9911136))
+
+
+From the [[M5-brane]]
+
+* {#HoweLambertWest97} [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _The Self-Dual String Soliton_, Nucl. Phys. B515 (1998) 203-216 ([arXiv:hep-th/9709014](https://arxiv.org/abs/hep-th/9709014))
+
 
 
 [[!redirects Dirac-Born-Infeld actions]]
