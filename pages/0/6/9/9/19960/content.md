@@ -906,6 +906,11 @@ Application to [[anomalous magnetic moment]] of the [[muon]]:
 * Luigi Cappiello, _What does Holographic QCD predict for anomalous $(g-2)_\mu$?_, 2015 ([pdf](https://agenda.infn.it/getFile.py/access?contribId=19&sessionId=5&resId=0&materialId=paper&confId=9430))
 
 
+* Josef Leutgeb, Anton Rebhan, _Axial vector transition form factors in holographic QCD and their contribution to the anomalous magnetic moment of the muon_ ([arXiv:1912.01596](https://arxiv.org/abs/1912.01596))
+
+
+
+
 ### Application to Higgs field
   {#ReferencesApplicationToHiggsField}
 
