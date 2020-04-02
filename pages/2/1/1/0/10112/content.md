@@ -188,6 +188,13 @@ See also
 
 * Wikipedia, _[Vector meson](https://en.wikipedia.org/wiki/Vector_meson)_
 
+
+### In chiral perturbation theory
+
+See the references at _[[chiral perturbation theory]]_.
+
+
+
 ### In the large $N$ limit
 
 In the [[large N limit]]:
