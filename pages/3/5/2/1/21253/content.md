@@ -43,10 +43,14 @@ Concrete form for $N$-[[flavor (particle physics)|flavor]] [[quantum hadrodynami
 
 * C. R. Lee, H. C. Yen, _A Derivation of The Wess-Zumino-Witten Action from Chiral Anomaly Using Homotopv Operators_, Chinese Journal of Physics, Vol 23 No. 1 (1985) ([spire:16389](https://inspirehep.net/literature/16389), [[LeeYenWZW85.pdf:file]])
 
-Concrete form for 2-[[flavor (particle physics)|flavor]] [[quantum hadrodynamics]] in 4d:
+Concrete form for 2-[[flavor (particle physics)|flavor]] [[quantum hadrodynamics]] in 4d ([[Skyrmion model]] with [[vector mesons]] included):
 
+* {#MeissnerZahed86} [[Ulf-G. Meissner]], [[Ismail Zahed]], equation (6) in: _Skyrmions in the Presence of Vector Mesons_, Phys. Rev. Lett. 56, 1035 (1986) ([doi:10.1103/PhysRevLett.56.1035](https://doi.org/10.1103/PhysRevLett.56.1035))
 
-* {#Kaiser00} Roland Kaiser, _Anomalies and WZW-term of two-flavour QCD_, Phys. Rev. D63:076010, 2001 ([arXiv:hep-ph/0011377](https://arxiv.org/abs/hep-ph/0011377), [spire:537600](https://inspirehep.net/literature/537600))
+* [[Ulf-G. Meissner]], [[Norbert Kaiser]], [[Wolfram Weise]], equation (2.18) in: _Nucleons as skyrme solitons with vector mesons: Electromagnetic and axial properties_, Nuclear Physics A Volume 466, Issues 3–4, 11–18 May 1987, Pages 685-723 (<a href="https://doi.org/10.1016/0375-9474(87)90463-5">doi:10.1016/0375-9474(87)90463-5</a>)
+
+* {#Kaiser00} Roland Kaiser, equation (12) in: _Anomalies and WZW-term of two-flavour QCD_, Phys. Rev. D63:076010, 2001 ([arXiv:hep-ph/0011377](https://arxiv.org/abs/hep-ph/0011377), [spire:537600](https://inspirehep.net/literature/537600))
+
 
 Discussion for the full [[standard model of particle physics]]:
 
