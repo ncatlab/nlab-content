@@ -120,7 +120,7 @@ One may summarize, that the transcendental logic, in its analytic part, provides
 
 ##### _First Chapter._ On the Transcendental Clue [Leitfaden] to the Discovery of all Pure Concepts of the Understanding
 
-|        |Table of judgements|               |
+|        |Table of Judgements|               |
 |--------|-------------------|---------------|
 |  $\,$  | __1. Quantity of judgments__ <br/> [[universal quantifier|Universal]] <br/> [[existential quantifier|Particular]] <br/>  Singular | $\,$|
 | __2. Quality__ <br/> Affirmative<br/> [[negation|Negative]]<br/> [[infinite judgement|Infinite]] | $\,$ | __3. Relation__<br/> Categorical<br/> [[hypothetical judgement|Hypothetical]]<br/> [[disjunction|Disjunctive]]|
@@ -129,6 +129,17 @@ One may summarize, that the transcendental logic, in its analytic part, provides
 Note that at least in ([Jäsche Logik, 1800](#Jaesche)) the negative and infinite judgements collapse in pure logic:
 
 > Nach dem Principium der Ausschließung jedes Dritten (exclusi tertii) ist die Sphäre eines Begriffs relativ auf eine andre entweder ausschließend oder einschließend. - Da nun die Logik bloß mit der Form des Urteils, nicht mit den Begriffen ihrem Inhalte nach, es zu tun hat: so ist die Unterscheidung der unendlichen von den negativen Urteilen nicht zu dieser Wissenschaft gehörig.
+
+"... there arise exactly as many pure concepts of the understanding ... as there were logical functions of all possible judgments in the previous table:" ([A79](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_079.png)/B105 f.)
+
+
+|        |Table of Categories|               |
+|--------|-------------------|---------------|
+|  $\,$  | __1. Of Quantity__ <br/> Unity <br/> Plurality <br/> Totality | $\,$|
+| __2. Of Quality__ <br/> Reality<br/> [[negation|Negation]]<br/> Limitation | $\,$ | __3. Of Relation__<br/> Of Inherence and Subsistence (*substantia et accidens*)<br/> Of Causality and Dependence (cause and effect)<br/> Of Community (reciprocity between agent and patient) |
+|   | __4. Of [[modality|Modality]]__<br/> [[possibility|Possibility]]<br/> Existence - Non-existence<br/> Necessity - Contingency |   |
+
+
 
 
 ##### _Second Chapter._ On the Deduction of the Pure Concepts of the Understanding [Transcendental Deduction]
