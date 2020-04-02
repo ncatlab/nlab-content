@@ -174,7 +174,14 @@ Further discussion of [[phenomenology]]:
 
 
 
+[[!include Skyrme hadrodynamics with vector mesons -- references ]]
+
+
+
+
 [[!include WZW term of QCD chiral perturbation theory -- references]]
+
+
 
 
 
