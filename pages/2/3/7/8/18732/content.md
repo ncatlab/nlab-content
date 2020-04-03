@@ -24,7 +24,7 @@ For $f$ a suitable ([[generalized function|generalized]]) [[function]] on an [[a
 
 +-- {: .num_defn #FourierTransformOfCompactlySupportedDistribution}
 ###### Proposition/Definition
-**(Foruier-Laplace transform of [[compactly supported distributions]])**
+**(Fourier-Laplace transform of [[compactly supported distributions]])**
 
 For $n \in \mathbb{N}$, let $u \in \mathcal{E}'(\mathbb{R}^n)$ be a compactly supported distribution on [[Cartesian space]] $\mathbb{R}^n$. Then its _[[Fourier transform of distributions]]_ is the function
 
