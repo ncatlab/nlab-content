@@ -3,7 +3,7 @@
 Recall that a [[topological space]] is [[weakly Lindelöf]] if every [[open cover]] has a [[countable set|countable]] subcollection the union of which is dense.
 
 \begin{theorem}
-Every [[weakly Lindelöf]] spaces with [[countably locally finite set of subsets|$\sigma$-locally finite]] [[topological base|base]] is [[second countable space|second countable]].
+Every [[weakly Lindelöf topological space|weakly Lindelöf]] space with [[countably locally finite set of subsets|$\sigma$-locally finite]] [[topological base|base]] is [[second countable space|second countable]].
 \end{theorem}
 
 \begin{proof}
