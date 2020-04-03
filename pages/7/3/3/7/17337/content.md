@@ -18,3 +18,5 @@ Refinement types are present in languages like LiquidHaskell and F-star. Refinem
 * [[Frank Pfenning]], _Church and Curry: Combining Intrinsic and Extrinsic Typing_, ([pdf](https://www.cs.cmu.edu/~fp/papers/andrews08.pdf))
 * [[Paul-André Melliès]], [[Noam Zeilberger]], _Type refinement and monoidal closed bifibrations_, [arXiv:1310.0263](http://arxiv.org/abs/1310.0263)
 * [[Paul-André Melliès]], [[Noam Zeilberger]], _Functors are Type Refinement Systems_, ([pdf](http://noamz.org/papers/funts.pdf) , [HAL](https://hal.inria.fr/hal-01096910))
+* [[Paul-André Melliès]], [[Noam Zeilberger]], _An Isbell Duality Theorem for Type Refinement Systems_, ([pdf](https://www.irif.fr/~mellies/papers/an-isbell-duality-theorem-for-type-refinement-systems.pdf))
+* [[Robert Atkey]], [[Patricia Johann]], [[Neil Ghani]], _When is a Type Refinement an Inductive Type?_, ([pdf](https://bentnib.org/inductive-refinement.pdf))
