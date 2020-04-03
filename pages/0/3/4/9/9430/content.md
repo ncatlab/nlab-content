@@ -45,6 +45,8 @@ One can compute intervals for homological features algorithmically over field co
 
 * [[well group]]
 
+* [[topological data analysis]]
+
 * [[computational topology]]
 
 
@@ -52,19 +54,29 @@ One can compute intervals for homological features algorithmically over field co
 
 ### General
 
-A clear introduction to the use of persistent homology in data analysis is
+Introduction and survey
+
+
+
 
 * [[Robert Ghrist]], _Barcodes: The Persistent Topology of Data_, Bull. Amer. Math. Soc. 45 (2008), 61-75 ([doi:10.1090/S0273-0979-07-01191-3](https://doi.org/10.1090/S0273-0979-07-01191-3), [pdf](https://www.math.upenn.edu/~ghrist/preprints/barcodes.pdf))
+
+* [[Gunnar Carlsson]], _Topology and data_, Bull. Amer. Math. Soc. 46 (2009), no. 2, 255-308 ([doi:10.1090/S0273-0979-09-01249-X](https://doi.org/10.1090/S0273-0979-09-01249-X))
+
+* [[Gunnar Carlsson]], _Persistent Homology and Applied Homotopy Theory_, in: [[Handbook of Homotopy Theory]], CRC Press, 2019 ([arXiv:2004.00738](https://arxiv.org/abs/2004.00738))
+
 
 See also
 
 * [[Tim Porter]], _Observing Information: Applied Computational Topology_ 2008 ([[ACT-OIT.pdf|Slides:file]])
 
-* Sara Kališnik, _Persistent homology and duality_, 2013 ([pdf](http://www.matknjiz.si/doktorati/2013/Kalisnik-14521-4.pdf), [[KalisnikPersistent.pdf:file]])
-
 * Bei Wang, _Topological Data Analysis_, Lecture 2010 ([[WangTopologicalDataAnalysis.pdf:file]])
 
 * Wikipedia, _[Persistent homology](https://en.wikipedia.org/wiki/Persistent_homology)_
+
+
+
+
 
 Bar-codes were discovered under the name of _canonical forms invariants of filtered complexes_ in 
 
@@ -78,7 +90,6 @@ Other references:
 
 * [[Gunnar Carlsson]], V. de Silva, _Zigzag persistence_ ([arXiv:0812.0197](http://arxiv.org/abs/0812.0197))
 
-* [[Gunnar Carlsson]], _Topology and data_, Bull. Amer. Math. Soc. 46 (2009), no. 2, 255-308 ([doi:10.1090/S0273-0979-09-01249-X](https://doi.org/10.1090/S0273-0979-09-01249-X))
 
 * Robert J. Adler, Omer Bobrowski, Matthew S. Borman, Eliran Subag, Shmuel Weinberger, _Persistent homology for random fields and complexes_ Institute of Mathematical Statistics Collections __6__:124&#8211;143, 2010 ([arxiv/1003.1001](http://arxiv.org/abs/1003.1001))
 
@@ -92,6 +103,7 @@ Other references:
 
 * Ulrich Bauer, Michael Kerber, Jan Reininghaus, _Clear and compress: computing persistent homology in chunks_, [arxiv/1303.0477](http://arxiv.org/abs/1303.0477)
 
+* Sara Kališnik, _Persistent homology and duality_, 2013 ([pdf](http://www.matknjiz.si/doktorati/2013/Kalisnik-14521-4.pdf), [[KalisnikPersistent.pdf:file]])
 
 * Francisco Belch&#237; Guillam&#243;n, Aniceto Murillo Mas, _A-infinity persistence_, [arxiv/1403.2395](http://arxiv.org/abs/1403.2395)
 
