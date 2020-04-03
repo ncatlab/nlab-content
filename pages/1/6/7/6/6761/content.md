@@ -5,7 +5,7 @@
 
 ## Statement
 
-The __representable functor theorem__ states that a [[Set]]-valued [[functor]] on a [[complete category]] is [[representable functor|representable]] if and only if it is [[continuous functor|continuous]] and has a [[solution set]].
+The __representable functor theorem__ states that a [[Set]]-valued [[functor]] on a [[complete category]] is [[representable functor|representable]] if and only if it is [[continuous functor|continuous]] and has a [[solution set condition|solution set]].
 
 
 ## Related facts
