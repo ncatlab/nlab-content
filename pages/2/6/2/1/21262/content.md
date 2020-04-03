@@ -1,6 +1,6 @@
 ## Statement
 
-Recall that a [[topological space]] $X$ is [[paracompact space|paracompact]] if every open cover has a [[refinement]] by a [[locally finite open cover]]. Further a space is called [[Lindelöf topological space|Lindelöf]] if every [[open cover]] has a [[countable cover|countable]] sub-cover. 
+Recall that a [[topological space]] $X$ is [[paracompact space|paracompact]] if every [[open cover]] has a [[refinement]] by a [[locally finite open cover]]. Further a space is called [[Lindelöf topological space|Lindelöf]] if every [[open cover]] has a [[countable cover|countable]] sub-cover. 
 
 \begin{theorem}
 Assuming the [[axiom of choice]]:
