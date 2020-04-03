@@ -38,6 +38,9 @@ The area of Topological Data Analysis (TDA) has emerged recently as being that p
 
 * Afra Zomorodian, _Topological data analysis_, In: _Advances in Applied and Computational Topology_, Proc. Symp. Applied Math vol 70, 2011 ([ams:psapm-70](https://bookstore.ams.org/psapm-70))
 
+* [[Gunnar Carlsson]], _Persistent Homology and Applied Homotopy Theory_, in: [[Handbook of Homotopy Theory]], CRC Press, 2019 ([arXiv:2004.00738](https://arxiv.org/abs/2004.00738))
+
+
 See also 
 
 * Wikipedia, _[Topological data analysis](http://en.wikipedia.org/wiki/Topological_data_analysis)_
