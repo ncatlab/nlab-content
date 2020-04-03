@@ -287,6 +287,9 @@ For the relation to Poisson Operads see
 
 [[!redirects little discs operad]]
 [[!redirects little disc operad]]
+[[!redirects little discs operads]]
+[[!redirects little disc operads]]
+
 [[!redirects little k-discs operad]]
 [[!redirects little n-discs operad]]
 [[!redirects little k-disc operad]]
