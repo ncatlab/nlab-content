@@ -107,7 +107,7 @@ $$
 +-- {: .num_example}
 ###### Example
 
-A _[[span]]_ diagram $X_1 \leftarrow X_0 \to X_1$ is projectively cofibrant precisely if the two morphisms are cofibrations in $\mathcal{D}$ and $X_0$, hence all three objects, are cofibrant.
+A _[[span]]_ diagram $X_1 \leftarrow X_0 \to X_2$ is projectively cofibrant precisely if the two morphisms are cofibrations in $\mathcal{D}$ and $X_0$, hence all three objects, are cofibrant.
 
 The colimit over such a diagram is the [[homotopy pushout]] of the span.
 
