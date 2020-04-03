@@ -189,7 +189,7 @@ The mind distinguishes between every moment of impression.
 These impressions should give rise to a _Unity of intuition_.
 This process is called _Synthesis of apprehension_:
 
-* Run through all manifolds of impressions (these are not modified) and take them together. In modern terminology this ma be called a limiting process.
+* Run through all manifolds of impressions (these are not modified) and take them together. In modern terminology this may be called a limiting process.
 
 * In order to have _One representation_ such a limiting process must have occurred.
 
