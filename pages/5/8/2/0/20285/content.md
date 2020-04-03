@@ -9,8 +9,8 @@
 	\\
 	& \text{second countable}
 	& 
-	& \sigma\text{-locally finite base} 
 	& \sigma\text{-locally discrete base} 
+	& \sigma\text{-locally finite base} 
 	& \text{first countable}
 	\\[.9em]
 	  \text{separable}
@@ -93,9 +93,9 @@
 
 * [[Nagata-Smirnov metrization theorem]]
 
-* a second-countable space has a [[countably locally finite set of subsets|$\sigma$-locally finite]] [[topological base|base]]:  take the the collection of singeltons of all elements of countable cover of $X$. 
+* a second-countable space has a [[countably locally finite set of subsets|$\sigma$-locally finite]] [[topological base|base]]:  take the the collection of singeltons of all elements of a countable cover of $X$. 
 
-* second-countable spaces are separable: use the axiom of [[countable choice]] to choose a point in each set of countable cover.
+* second-countable spaces are separable: use the axiom of [[countable choice]] to choose a point in each set of a countable cover.
 
 * [[second-countable spaces are Lindelöf]].
 
