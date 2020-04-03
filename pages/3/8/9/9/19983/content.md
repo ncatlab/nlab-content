@@ -24,9 +24,9 @@ on [[homotopy theory]], [[higher algebra]] and [[higher category theory]].
 
 1. [[Julia Bergner]], _A survey of models for $(\infty,n)$-categories_ ([arXiv:1810.10052](https://arxiv.org/abs/1810.10052))
 
-1. [[Gunnar Carlsson]], _Persistent homology and applied homotopy theory_
+1. [[Gunnar Carlsson]], _Persistent homology and applied homotopy theory_ ([arXiv:2004.00738](https://arxiv.org/abs/2004.00738))
 
-1. [[Natàlia Castellana]], _Algebraic models in the homotopy theory of classifying space_
+1. [[Natàlia Castellana]], _Algebraic models in the homotopy theory of classifying spaces_
 
 1. [[Ralph Cohen]], _Floer homotopy theory, revisited_ ([arXiv:1901.08694](https://arxiv.org/abs/1901.08694))
 
