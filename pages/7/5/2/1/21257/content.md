@@ -13,6 +13,8 @@ On [[nucleons]] as [[Skyrmions]] in [[quantum hadrodynamics]] with [[pions]], [[
 
 * [[Ulf-G. Meissner]], [[Norbert Kaiser]], Andreas Wirzba, [[Wolfram Weise]], _Skyrmions with $\rho$ and $\omega$ Mesons as Dynamical Gauge Bosons_, Phys. Rev. Lett. 57, 1676 (1986) ([doi:10.1103/PhysRevLett.57.1676](https://doi.org/10.1103/PhysRevLett.57.1676))
 
+* [[Ulf-G. Meissner]], _Low-energy hadron physics from effective chiral Lagrangians with vector mesons_, Physics Reports Volume 161, Issues 5–6, May 1988, Pages 213-361 (<a href="https://doi.org/10.1016/0370-1573(88)90090-7">doi:10.1016/0370-1573(88)90090-7</a>)
+
 
 category: people
 
