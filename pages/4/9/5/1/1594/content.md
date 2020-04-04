@@ -258,9 +258,13 @@ and then further developed notably in
 
 * [[Eric Zaslow]], _Topological orbifold models and quantum cohomology rings_, Comm. Math. Phys. 156 (1993), no. 2, 301&#8211;331.
 
-And discussion of [[blow-up]] of orbifold [[singularities]] in string theory:
+Discussion of [[blow-up]] of orbifold [[singularities]] in string theory:
 
 * [[Paul Aspinwall]], _Resolution of Orbifold Singularities in String Theory_ ([arXiv:hep-th/9403123](https://arxiv.org/abs/hep-th/9403123))
+
+In terms of [[vertex operator algebras]]:
+
+* [[Yi-Zhi Huang]], _Representation theory of vertex operator algebras and orbifold conformal field theory_ ([arXiv:2004.01172](https://arxiv.org/abs/2004.01172))
 
 For [[orbifolds]] in [[string theory]] also the references at 
 
