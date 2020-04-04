@@ -41,13 +41,16 @@ An [[(∞,1)-functor]] $f : C \to D$ is an **equivalence** in [[(∞,1)Cat]] if 
 
 * For every [[simplicial set]] $K$ the induced morphism $f_* : Core(SSet(K,C)) \to Core(SSet(K,D))$ on the maximal [[Kan complex]]es is a [[model structure on simplicial sets|equivalence of Kan complexes]] (a [[homotopy equivalence]]).
 
+* The induced morphism $f_* : Core(SSet(\Delta^n, C)) \to Core(SSet(\Delta^n, D))$ is an equivalence of Kan complexes for $n=0,1$
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-This is [[Higher Topos Theory|HTT, lemma 3.1.3.2]].
+The equivalence of the first three points is [[Higher Topos Theory|HTT, lemma 3.1.3.2]].
+
+Equivalence with the fourth point is given in [Cisinki](#Cisinki), theorem 3.9.2.
 
 =--
 
@@ -85,3 +88,6 @@ This is [[Higher Topos Theory|HTT, lemma 3.1.3.2]].
 [[!redirects equivalences of (infinity,1)-categories]]
 
 
+## References
+
+* {#Cisinksi} [[Denis-Charles Cisinski]], "Higher Categories and Homotopical Algebra"
