@@ -58,6 +58,8 @@ The resulting $\pi$-$\rho$-$\omega$ model:
 
 * [[Ulf-G. Meissner]], [[Norbert Kaiser]], Andreas Wirzba, [[Wolfram Weise]], _Skyrmions with $\rho$ and $\omega$ Mesons as Dynamical Gauge Bosons_, Phys. Rev. Lett. 57, 1676 (1986) ([doi:10.1103/PhysRevLett.57.1676](https://doi.org/10.1103/PhysRevLett.57.1676))
 
+* [[Ulf-G. Meissner]], _Low-energy hadron physics from effective chiral Lagrangians with vector mesons_, Physics Reports Volume 161, Issues 5–6, May 1988, Pages 213-361 (<a href="https://doi.org/10.1016/0370-1573(88)90090-7">doi:10.1016/0370-1573(88)90090-7</a>)
+
 * L. Zhang, Nimai C. Mukhopadhyay, _Baryon physics from mesons: Leading order properties of the nucleon and $\Delta(1232)$ in the $\pi \rho\omega a_1(f_1)$ chiral soliton model_, Phys. Rev. D 50, 4668 (1994) ([doi:10.1103/PhysRevD.50.4668](https://doi.org/10.1103/PhysRevD.50.4668), [spire:384906](http://inspirehep.net/record/384906))
 
 * Yong-Liang Ma, Ghil-Seok Yang, Yongseok Oh, Masayasu Harada, _Skyrmions with vector mesons in the hidden local symmetry approach_, Phys. Rev. D87:034023, 2013 ([arXiv:1209.3554](https://arxiv.org/abs/1209.3554))
