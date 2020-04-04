@@ -18,7 +18,7 @@
 
 A [[sheaf]] $F$ of [[set]]s on (the [[category of open subsets]] of) a [[topological space]] $X$ is __flabby__ (flasque) if for any open subset $U\subset X$, the restriction morphism $F(X)\to F(U)$ is [[surjection|onto]]. Equivalently, for any open $U\subset V\subset X$ the restriction $F(V)\to F(U)$ is surjective. In mathematical literature in English, the original French word __flasque__ is still often used instead of flabby here. 
 
-The concept generalizes in a straightforward manner to flabby sheaves on [[locales]].
+The concept generalizes in a straightforward manner to flabby sheaves on [[locale]]s.
 
 
 ## Properties
@@ -42,7 +42,7 @@ $$
 U \mapsto \prod_{x\in U} P_{\leq 1}(F_x)
 $$
 
-works, where $P_{\leq 1}(F_x)$ is the set of subsingletons of $F_x$.
+works, where $P_{\leq 1}(F_x)$ is the set of [[subsingleton]]s of $F_x$.
 
 
 ## Characterization using the internal language
