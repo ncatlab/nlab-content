@@ -49,6 +49,8 @@ Concrete form for 2-[[flavor (particle physics)|flavor]] [[quantum hadrodynamics
 
 * [[Ulf-G. Meissner]], [[Norbert Kaiser]], [[Wolfram Weise]], equation (2.18) in: _Nucleons as skyrme solitons with vector mesons: Electromagnetic and axial properties_, Nuclear Physics A Volume 466, Issues 3–4, 11–18 May 1987, Pages 685-723 (<a href="https://doi.org/10.1016/0375-9474(87)90463-5">doi:10.1016/0375-9474(87)90463-5</a>)
 
+* [[Ulf-G. Meissner]], equation (2.45) in: _Low-energy hadron physics from effective chiral Lagrangians with vector mesons_, Physics Reports Volume 161, Issues 5–6, May 1988, Pages 213-361 (<a href="https://doi.org/10.1016/0370-1573(88)90090-7">doi:10.1016/0370-1573(88)90090-7</a>)
+
 * {#Kaiser00} Roland Kaiser, equation (12) in: _Anomalies and WZW-term of two-flavour QCD_, Phys. Rev. D63:076010, 2001 ([arXiv:hep-ph/0011377](https://arxiv.org/abs/hep-ph/0011377), [spire:537600](https://inspirehep.net/literature/537600))
 
 
