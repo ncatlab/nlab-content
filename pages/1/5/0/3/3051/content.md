@@ -1,5 +1,3 @@
-# Jean B&#233;nabou
-
 Jean B&#233;nabou is a French mathematician working in [[category theory]]. He studied under the supervision of [[Charles Ehresmann]] and received his PhD from the University of Paris in 1966 on the topic of what we now call [[monoidal categories]].
 
 ## References
