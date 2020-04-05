@@ -195,9 +195,9 @@ An introduction to $\Theta_n$-spaces_ (2009) ([pdf](http://www.math.uiuc.edu/~re
 
 The definition of the categories $\Theta_n$ goes back to [[Andre Joyal]] who also intended to define [[n-category|n-categories]] using it. This has been achieved at about the same time by Simpson: 
 
-* [[Simpson, Carlos]], _A closed model structure for $n$-categories, internal $Hom$, $n$-stacks and generalized Seifert-Van Kampen_ ([arXiv:alg-geom/9704006](https://arxiv.org/abs/alg-geom/9704006))
+* [[Carlos Simpson]], _A closed model structure for $n$-categories, internal $Hom$, $n$-stacks and generalized Seifert-Van Kampen_ ([arXiv:alg-geom/9704006](https://arxiv.org/abs/alg-geom/9704006))
 
-* [[Simpson, Carlos]], _On the Breen-Baez-Dolan stabilization hypothesis for Tamsamani's weak n-categories_ ([arXiv:math/9810058](https://arxiv.org/abs/math/9810058))
+* [[Carlos Simpson]], _On the Breen-Baez-Dolan stabilization hypothesis for Tamsamani's weak n-categories_ ([arXiv:math/9810058](https://arxiv.org/abs/math/9810058))
 
 Discussion comparing $\Theta_{n+1}$-spaces to [[enriched (infinity,1)-categories]] in $\Theta_n$-spaces is in 
 
@@ -238,4 +238,8 @@ Relation to simplicial completion of the [[Cisinski model structure]] [[model st
 
 [[!redirects Theta_n space]]
 [[!redirects Theta_n spaces]]
+
+[[!redirects Theta-n space]]
+[[!redirects Theta-n spaces]]
+[[!redirects Theta-n spaces]]
 
