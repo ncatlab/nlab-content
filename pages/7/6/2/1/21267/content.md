@@ -1,6 +1,7 @@
 This page is to provide non-technical or maybe semi-technical discussion of the nature and role of [[homotopy theory]].
 For more technical details and further pointers see at [[homotopy theory]].
 
+
 #Contents#
 * table of contents
 {:toc}
