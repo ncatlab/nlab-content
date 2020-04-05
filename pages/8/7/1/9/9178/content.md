@@ -85,6 +85,10 @@ Textbooks:
 
 * {#HalzenMartin84} [[Francis Halzen]], [[Alan Martin]], _Quarks and Leptons: An Introductory Course in Modern Particle Physics_, Wiley 1984 ([pdf](http://ajbell.web.cern.ch/ajbell/Documents/eBooks/Quarks%20&%20Leptons.pdf), [spire:205394](https://inspirehep.net/record/205394))
 
+Quark [[masses]] in terms of [[chiral perturbation theory]]:
+
+* [[Jürg Gasser]], [[Heinrich Leutwyler]], _Quark masses_, Physics Reports Volume 87, Issue 3, July 1982, Pages 77-169 (<a href="https://doi.org/10.1016/0370-1573(82)90035-7">doi:10.1016/0370-1573(82)90035-7</a>)
+
 ### History
 
 The quark model was proposed independently in 1964 by
