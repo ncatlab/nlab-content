@@ -54,3 +54,48 @@ long as homotopy theory is classified under the umbrella of topology, there will
 
 > 5 I think of homotopy theory as an enrichment of the notion of equality, dedicated to the primacy of _structure over properties_.
 Simplistic and abstract though this idea is, it leads rapidly to a whole universe of nontrivial structures.
+
+## What is homotopy theory?
+
+We list some [[mathematical objects]] that are undoubtedly studied by [[homotopy theory]]:
+
+* The first object is known under various names: [[∞-groupoid]], (homotopy) space, (homotopy) type, more recent (and so far exotic) names include “anima”.
+See the [section on “spaces”](#spaces) for an explanation of why so many different names are used for (essentially) the same concept.
+These objects can be modeled by [[simplicial sets]] up to [[simplicial weak equivalence]], or [[topological spaces]] up to [[weak homotopy equivalence]],
+or many other models.
+See the [section on models](#models) for more details about models.
+
+* [[Spectra]] or [[stable homotopy types]].
+Specific [models](#models) include [[sequential spectra]] or [[symmetric spectra]] (valued in [[simplicial sets]] or [[topological spaces]]), [[orthogonal spectra]], [[reduced excisive functors]], etc.
+
+* [[∞-categories]], also known as [[(∞,1)-categories]], [[homotopy theories]], and other names.
+Specific [models](#models) include [[relative categories]], [[quasicategories]], [[simplicial categories]], [[Segal categories]], [[complete Segal spaces]], etc.
+See the [section on ∞-categories](#infinity) for more information.
+
+* [[(∞,n)-categories]], which can be [modeled](#models) by [[globular n-fold complete Segal spaces]], Rezk's [[Theta-n spaces]], etc.
+
+## What is algebraic topology?
+
+## What are “spaces” in homotopy theory?
+
+## What is a model in homotopy theory?
+{#models}
+
+## Why do we need models in homotopy theory?
+
+## What is homotopy type theory?
+
+## What is an ∞-category or (∞,1)-category?
+{#infinity}
+
+## How are model categories related to other models of ∞-categories?
+
+## What is homotopical algebra?
+
+## What is the relationship between category theory and homotopy theory?
+
+## What is a derived functor?
+
+## What is the homotopy category of an ∞-category?  What are its limitations?
+
+## What is a triangulated category?  What are its limitations?
