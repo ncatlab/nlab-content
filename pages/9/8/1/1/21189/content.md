@@ -111,13 +111,19 @@ automatically the Wess–Zumino term, with the correct coefficient!
 
 * [[Jürg Gasser]], _The QCD Vacuum and Chiral Symmetry_, In: Vautherin D., Lenz F., Negele J.W. (eds.) _Hadrons and Hadronic Matter_, NATO ASI Series (Series B: Physics), vol 228. Springer 1990 ([doi:10.1007/978-1-4684-1336-6_4](https://doi.org/10.1007/978-1-4684-1336-6_4))
 
+* A. Pich, _Chiral Perturbation Theory_ ([arXiv:hep-ph/9502366](https://arxiv.org/abs/hep-ph/9502366))
+
+
 * Volker Koch, _Aspects of Chiral Symmetry_, Int. J. Mod. Phys. E6 (1997) 203-250 ([arXiv:nucl-th/9706075](https://arxiv.org/abs/nucl-th/9706075))
 
 
 * Stefan Scherer, _Introduction to Chiral Perturbation Theory_, Adv. Nucl. Phys. 27 (2003) 277 ([arXiv:hep-ph/0210398](https://arxiv.org/abs/hep-ph/0210398))
 
+* Stefan Scherer, Matthias R. Schindler, _A Chiral Perturbation Theory Primer_ ([arXiv:hep-ph/0505265](https://arxiv.org/abs/hep-ph/0505265))
 
-* Véronique Bernard, Ulf-G. Meißner, _Chiral perturbation theory_, Ann. Rev. Nucl. Part. Sci.57:33-60, 2007 ([arXiv:hep-ph/0611231](https://arxiv.org/abs/hep-ph/0611231))
+
+
+* Véronique Bernard, [[Ulf-G. Meissner]], _Chiral perturbation theory_, Ann. Rev. Nucl. Part. Sci.57:33-60, 2007 ([arXiv:hep-ph/0611231](https://arxiv.org/abs/hep-ph/0611231))
 
 * Véronique Bernard, _Chiral Perturbation Theory and Baryon Properties_, Prog. Part. Nucl. Phys. 60:82-160, 2008 ([arXiv:0706.0312](https://arxiv.org/abs/0706.0312))
 
@@ -136,7 +142,7 @@ See also:
 
 As [[quantum hadrodynamics]]:
 
-* Brian D. Serot, _Quantum hadrodynamics_, Rept.Prog.Phys. 55 (1992) 1855-1946, ([http://inspirehep.net/record/333292](http://inspirehep.net/record/333292), [doi:10.1088/0034-4885/55/11/001](https://doi.org/10.1088/0034-4885/55/11/001))
+* Brian D. Serot, _Quantum hadrodynamics_, Rept.Prog.Phys. 55 (1992) 1855-1946, ([spire:333292](http://inspirehep.net/record/333292), [doi:10.1088/0034-4885/55/11/001](https://doi.org/10.1088/0034-4885/55/11/001))
 
 
 * Brian D. Serot, John Dirk Walecka, _Recent Progress in Quantum Hadrodynamics_, Int. J. Mod. Phys. E6:515-631, 1997 ([arXiv:nucl-th/9701058](https://arxiv.org/abs/nucl-th/9701058))
@@ -151,6 +157,8 @@ As [[quantum hadrodynamics]]:
 * [[Curtis Callan]], Jr., [[Sidney Coleman]], [[Julius Wess]], [[Bruno Zumino]], _Structure of Phenomenological Lagrangians. II_, Phys. Rev. 177, 2247 (1969) ([doi:10.1103/PhysRev.177.2247](https://doi.org/10.1103/PhysRev.177.2247))
 
 * {#Weinberg79} [[Steven Weinberg]], _Phenomenological Lagrangians_, Physica A: Statistical Mechanics and its Applications Volume 96, Issues 1–2, April 1979, Pages 327-340 (<a href="https://doi.org/10.1016/0378-4371(79)90223-1">doi:10.1016/0378-4371(79)90223-1</a>)
+
+* [[Jürg Gasser]], [[Heinrich Leutwyler]], _Quark masses_, Physics Reports Volume 87, Issue 3, July 1982, Pages 77-169 (<a href="https://doi.org/10.1016/0370-1573(82)90035-7">doi:10.1016/0370-1573(82)90035-7</a>)
 
 * [[Jürg Gasser]], [[Heinrich Leutwyler]], _Chiral Perturbation Theory: Expansions in the Mass of the Strange Quark_, Nucl. Phys. B 250 (1985) 465-516, ([spire:200027](https://inspirehep.net/literature/200027), <a href="https://doi.org/10.1016/0550-3213(85)90492-4">doi:10.1016/0550-3213(85)90492-4</a>))
 
