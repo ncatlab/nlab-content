@@ -11,7 +11,7 @@ on [[homotopy theory]], including [[higher algebra]] and [[higher category theor
 
 The editor, [[Haynes Miller]], comments in the introduction on the choice of title:
 
-> This volume may be regarded as a successor to the “Handbook of Algebraic Topology,” edited by Ioan James and published a quarter of a century ago. In calling it the “Handbook of Homotopy Theory,” I am recognizing that the discipline has expanded and deepened, and traditional questions of topology, as classically understood, are now only one of many distinct mathematical disciplines in which it has had a profound impact and which serve as sources of motivation for research directions within homotopy theory proper.
+> This volume may be regarded as a successor to the “[[Handbook of Algebraic Topology]],” edited by [[Ioan James]] and published a quarter of a century ago. In calling it the “Handbook of Homotopy Theory,” I am recognizing that the discipline has expanded and deepened, and traditional questions of topology, as classically understood, are now only one of many distinct mathematical disciplines in which it has had a profound impact and which serve as sources of motivation for research directions within homotopy theory proper.
 
 ## Contributions
 
@@ -153,6 +153,10 @@ The editor, [[Haynes Miller]], comments in the introduction on the choice of tit
 
    \linebreak
 
+   on [[En-algebra|E_n]]-[[ring spectra]] and [[power operations]]
+
+   \linebreak
+
 1. [[Wolfgang Lueck]], _Assembly Maps_, ([arXiv:1805.00226](https://arxiv.org/abs/1805.00226))
 
    \linebreak
@@ -165,7 +169,7 @@ The editor, [[Haynes Miller]], comments in the introduction on the choice of tit
 
    \linebreak
 
-   on [[power operations]]
+   on [[Lubin-Tate theory]] and [[power operations]]
 
    \linebreak
 
