@@ -156,6 +156,8 @@ This theme was taken up  by Baues, (1988), using a type of abstract homotopy the
 
 ## Related entries ##
 
+* [[homotopy theory FAQ]]
+
 * [[algebraic homotopy]]
 
 * [[proper homotopy theory]]
