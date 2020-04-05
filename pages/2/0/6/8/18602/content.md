@@ -104,7 +104,7 @@ Basic discussion:
 
 * {#Steinmann02} [[Othmar Steinmann]], _What is the Magnetic Moment of the Electron?_, Commun.Math.Phys. 237 (2003) 181-201 ([arXiv:hep-ph/0211187](https://arxiv.org/abs/hep-ph/0211187))
 
-* Kirill Melnikov, Arkady Vainshtein, _Theory of the Muon Anomalous Magnetic Moment_, Springer Tracts in Modern Physics 216, 2006
+* Kirill Melnikov, [[Arkady Vainshtein]], _Theory of the Muon Anomalous Magnetic Moment_, Springer Tracts in Modern Physics 216, 2006
 
 * [[Friedrich Jegerlehner]], _The Anomalous Magnetic Moment of the Muon_, Springer Tracts in Modern Physics 226, Springer-Verlag Berlin Heidelberg, 2008
 
