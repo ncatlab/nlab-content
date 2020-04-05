@@ -551,7 +551,7 @@ Review:
 * Walter Dittrich, Holger Gies, _Probing the Quantum Vacuum --
 Perturbative Effective Action Approach in Quantum Electrodynamics and its Application_, Springer Tracts in Modern Physics, Vol. 166 ([ISBN 978-3-540-45585-1](https://www.springer.com/gp/book/9783540674283))
 
-* {#Dunne04} [[Gerald Dunne]], _Heisenberg-Euler Effective Lagrangians : Basics and Extensions_, in: _From Fields to Strings: Circumnavigating Theoretical Physics_, pp. 445-522 (2005) ([arXiv:hep-th/0406216](https://arxiv.org/abs/hep-th/0406216), [doi:10.1142/9789812775344_0014](https://doi.org/10.1142/9789812775344_0014))
+* {#Dunne04} [[Gerald Dunne]], _Heisenberg-Euler Effective Lagrangians: Basics and Extensions_, in:  [[Misha Shifman]], [[Arkady Vainshtein]], [[John Wheater]] (eds.), _[[From Fields to Strings -- Circumnavigating Theoretical Physics]]_, pp. 445-522, World Scientific 2005 ([arXiv:hep-th/0406216](https://arxiv.org/abs/hep-th/0406216), [doi:10.1142/9789812775344_0014](https://doi.org/10.1142/9789812775344_0014))
 
 
 * [[Gerald Dunne]], _The Heisenberg-Euler Effective Action: 75 years on_, Int. J. Mod. Phys. A27 (2012) 1260004 ([arXiv:1202.1557](https://arxiv.org/abs/1202.1557))
