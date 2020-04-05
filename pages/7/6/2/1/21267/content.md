@@ -83,8 +83,65 @@ These include [[topological manifolds]], [[PL-manifolds]], and [[smooth manifold
 
 ## What are “spaces” in homotopy theory?
 
+These are some of the first and most important objects
+introduced in [[homotopy theory]].
+
+This is witnessed by the many names given to them,
+which all describe the same concept but have a slightly different emphasis:
+
+* [[∞-groupoid]], which emphasizes the categorical point of view;
+* (homotopy) space, which emphasizes the original [model](#models) using [[topological spaces]] up to [[weak homotopy equivalence]];
+the adjective “homotopy” can be used to distinguish
+this usage from [[topological spaces]];
+* [[homotopy type|homotopy type]], which emphasizes that objects in a [model](#models) are only considered up to [[weak homotopy equivalence]];
+* [[type]], which alludes to [[homotopy type theory]], which aims to treat such objects as first-class citizens without invoking specific models.
+
+Yet even this large variety of viewpoints is sometimes deemed insufficient,
+which leads mathematicians to introduce further names for such objects,
+such as “anima” used by [[Dustin Clausen]] and [[Peter Scholze]],
+alluding to the process of [[vertical categorification]],
+in its specific incarnation as groupoidal categorification,
+alias homotopification, which can be seen as “animating”
+1-categorical objects by introducing higher homotopies into them.
+
+We emphasize that these objects (except for [[types]] in [[homotopy type theory]])
+come with an associated notion of [[weak equivalence]],
+which is _not_ isomorphism.
+For example, when using [[topological spaces]] as [models](#models)
+for (homotopy) spaces, we are _not_ interested in invariants
+under [[homeomorphisms]], but rather only under [[weak homotopy equivalences]].
+See the [section on models](#models) for more details.
+
 ## What is a model in homotopy theory?
 {#models}
+
+Informal ideas of objects studied by [[homotopy theory]],
+such as (homotopy) spaces or [[(∞,1)-categories]],
+must be presented using rigorous mathematical definitions.
+As of April 2020, this most likely means defining
+them using some flavor of [[set theory]],
+although [[homotopy type theory]] may emerge as an alternative in the future.
+
+This process introduces artifacts that are not present
+in the original informal idea and have no meaning in that context.
+As an example, suppose we present a (homotopy) space
+using a [[simplicial set]].
+Then the [[set]] of 0-simplices or $n$-simplices for any $n\ge0$
+is a piece of data specific to our chosen presentation.
+Another presentation may have a set of 0-simplices of different cardinality, say.
+On the other hand, if we take the set of [[connected components]]
+of a [[simplicial set]], the resulting set describes
+a property of the underlying (homotopy) space and not just some specific presentation.
+This can be formalized by saying that the set of connected
+components is invariant under [[simplicial weak equivalences]].
+
+Thus [[simplicial sets]] up to [[simplicial weak equivalences]]
+_model_ (homotopy) spaces.
+
+One common way to encode models is to organize them
+in a [[relative category]]: the underlying category encodes
+the specific presentation, whereas weak equivalences
+encode the relevant notion of “sameness”.
 
 ## Why do we need models in homotopy theory?
 
