@@ -7,6 +7,12 @@ A book published on December 23, 2019 by Chapman and Hall/CRC (ISBN 978081536970
 on [[homotopy theory]], including [[higher algebra]] and [[higher category theory]].
 
 
+## Terminology
+
+The editor, [[Haynes Miller]], comments in the introduction on the choice of title:
+
+> This volume may be regarded as a successor to the “Handbook of Algebraic Topology,” edited by Ioan James and published a quarter of a century ago. In calling it the “Handbook of Homotopy Theory,” I am recognizing that the discipline has expanded and deepened, and traditional questions of topology, as classically understood, are now only one of many distinct mathematical disciplines in which it has had a profound impact and which serve as sources of motivation for research directions within homotopy theory proper.
+
 ## Contributions
 
 1. [[Gregory Arone]], [[Michael Ching]], _Goodwillie Calculus_, ([arXiv:1902.00803](https://arxiv.org/abs/1902.00803))
