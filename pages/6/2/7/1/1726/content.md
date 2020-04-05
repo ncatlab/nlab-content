@@ -148,3 +148,8 @@ For related references see at _[[(∞,n)-category]]_ .
 
 [[!redirects n-fold complete Segal spaces]]
 [[!redirects n-fold Segal spaces]]
+
+[[!redirects globular n-fold complete Segal space]]
+[[!redirects globular n-fold complete Segal spaces]]
+
+
