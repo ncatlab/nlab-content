@@ -173,7 +173,7 @@ This happens to coincide with the critical field strength of the [[DBI-action]],
 
 Review:
 
-* {#Dunne04} [[Gerald Dunne]], around (1.3) in: _Heisenberg-Euler Effective Lagrangians : Basics and Extensions_, in: _From Fields to Strings: Circumnavigating Theoretical Physics_, pp. 445-522 (2005) ([arXiv:hep-th/0406216](https://arxiv.org/abs/hep-th/0406216), [doi:10.1142/9789812775344_0014](https://doi.org/10.1142/9789812775344_0014))
+* {#Dunne04} [[Gerald Dunne]], _Heisenberg-Euler Effective Lagrangians: Basics and Extensions_, in:  [[Misha Shifman]], [[Arkady Vainshtein]], [[John Wheater]] (eds.), _[[From Fields to Strings -- Circumnavigating Theoretical Physics]]_, pp. 445-522, World Scientific 2005 ([arXiv:hep-th/0406216](https://arxiv.org/abs/hep-th/0406216), [doi:10.1142/9789812775344_0014](https://doi.org/10.1142/9789812775344_0014))
 
 * {#Martin07} Jerome Martin, around (40) in: _Inflationary Perturbations: the Cosmological Schwinger Effect_, Lect. Notes Phys. 738:193-241, 2008 ([arXiv:0704.3540](https://arxiv.org/abs/0704.3540), [doi:10.1007/978-3-540-74353-8_6](https://doi.org/10.1007/978-3-540-74353-8_6))
 
