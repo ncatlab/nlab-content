@@ -1,4 +1,4 @@
 
-* [webpage](http://www.math.uni-bonn.de/people/dyckerho/)
+* [webpage](https://www.math.uni-hamburg.de/home/dyckerhoff/)
 
 category: people
