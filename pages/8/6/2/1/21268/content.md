@@ -1,3 +1,10 @@
+[[!redirects mathematical objects]]
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Idea
 
 A mathematical object is an object studied by [[mathematics]].
