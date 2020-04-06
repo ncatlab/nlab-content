@@ -11,7 +11,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -155,6 +154,10 @@ This produces [[baryon]] [[mass]] spectra with moderate quantitative agreement w
 
 ## Related concepts
 
+* [[scalar meson]]
+
+* [[vector meson]]
+
 * [[hadron]], [[baryon]]
 
 * [[Skyrmion]]
@@ -237,13 +240,7 @@ Review
 [[!redirects meson field]]
 [[!redirects meson fields]]
 
-[[!redirects vector meson]]
-[[!redirects vector mesons]]
 
-[[!redirects pseudovector meson]]
-[[!redirects pseudovector mesons]]
-[[!redirects pseudo-vector meson]]
-[[!redirects pseudo-vector mesons]]
 
 [[!redirects scalar meson]]
 [[!redirects scalar mesons]]
@@ -251,7 +248,8 @@ Review
 [[!redirects meson field]]
 [[!redirects meson fields]]
 
-[[!redirects vector meson field]]
-[[!redirects vector meson fields]]
+
+
+
 
 
