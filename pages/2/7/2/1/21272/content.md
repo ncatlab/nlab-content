@@ -1,5 +1,15 @@
 
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -7,13 +17,21 @@
 
 ## Idea
 
-A [[meson]]:
+A [[vector meson]]:
 
-The [[Lorentz group|Lorentz]] [[vector representation|vector]] and [[isospin]] [[vector representation]] [[bound state|bound]] from [[up-quark|up]]/[[down-quarks]] in the [[first generation of fundamental particles]] and a [[strange quark]] in the [[second generation of fundamental particles]].
+The [[Lorentz group|Lorentz]] [[vector representation|vector]] and [[isospin]] [[fundamental representation|doublet]], [[bound state|bound]] from [[up-quark|up]]/[[down-quarks]] in the [[first generation of fundamental particles]] and a [[strange quark]] in the [[second generation of fundamental particles]].
 
 [[!include flavors of fundamental particles -- table]]
 
 ## Properties
+
+### Fusion from kaon and pion
+
+Fusion from [[kaon]] and [[pion]]:
+
+[Ozaki-Nagahiro-Hosaka 08, p. 4](#OzakiNagahiroHosaka08)
+
+[ICMB 16](#ICMB16)
 
 ### WZW term
 
@@ -38,7 +56,10 @@ The [[WZW term]] [[interaction]] with the [[photon]] and [[kaon]]:
 * {#OzakiNagahiroHosaka08}
 S. Ozaki, H. Nagahiro, A. Hosaka, _Magnetic interaction induced by the anomaly in kaon-photoproductions_, Physics Letters B Volume 665, Issue 4, 24 July 2008, Pages 178-181 ([arXiv:0710.5581](https://arxiv.org/abs/0710.5581), [doi:10.1016/j.physletb.2008.06.020](https://doi.org/10.1016/j.physletb.2008.06.020))
 
-* Andrej Ilner, Daniel Cabrera, Christina Markert, and Elena Bratkovskaya, _$K^\ast$-vector meson resonance dynamics in heavy-ion collisions_, Phys. Rev. C 95, 014903 (2017) ([doi:10.1103/PhysRevC.95.014903](https://doi.org/10.1103/PhysRevC.95.014903))
+* {#ICMB16} Andrej Ilner, Daniel Cabrera, Christina Markert, Elena Bratkovskaya, _$K^\ast$ vector meson resonances dynamics in heavy-ion collisions_, Phys. Rev. C 95, 014903 (2017) ([arXiv:1609.02778](https://arxiv.org/abs/1609.02778), [doi:10.1103/PhysRevC.95.014903](https://doi.org/10.1103/PhysRevC.95.014903))
+
+
+
 
 [[!redirects K* mesons]]
 
