@@ -1,4 +1,4 @@
-The material previously on this page may be found at [InterSciWiki](http://intersci.ss.uci.edu/wiki/index.php/Minimal_negation_operator).
+The material previously on this page is now located at the [Online Encyclopedia of Integer Sequences Wiki](https://oeis.org/wiki/Minimal_negation_operator).
 
 [[!redirects minimal negation]]
 [[!redirects minimal negations]]
