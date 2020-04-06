@@ -25,7 +25,7 @@ In [[perturbative quantum field theory]] the _KLT relations_ ([Kawai-Lewellen-Ty
 
 These relations are manifest in [[perturbative string theory]]-[[UV-completions]] of gravity+Yang-Mills theory, where they were originally found and from which the QFT relations have been deduced: in string theory the [[graviton]] is an excitation of the [[closed string]] and the [[gluon]] of the [[open string]]. But [[cylinder]]-shaped [[worldvolume]] may be read in two different ways: either as a [[closed string]] [[propagator]] or as an [[open string]] [[vacuum diagram]]. This [[open/closed string duality]] of [[string scattering amplitudes]] yields the KLT relations. 
 
-Moreover, a color-kinematics duality suggest that these relations extend from [[tree level]] to all [[loop order]] spring.
+Moreover, a color-kinematics duality suggest that these relations extend from [[tree level]] to all [[loop order]].
 
 Its [[classical field theory]] counterpart is named [[classical double copy]].
 
