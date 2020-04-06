@@ -270,7 +270,7 @@ It is often hard to separate homotopical algebra
 from homotopy theory.
 Typically, “homotopical algebra” is used
 to refer to arguments that use notions from [[model categories]]
-rather explicitly, as opposed to (say) [[quasicategorical]] argument.
+rather explicitly, as opposed to (say) [[quasicategorical]] arguments.
 We do note that setting up the theory of [[quasicategories]]
 relies heavily on [[homotopical algebra]] and much
 of Lurie's [[Higher Topos Theory]] is devoted
@@ -448,3 +448,10 @@ of triangulated categories that does not suffer from their defects.
 The most developed [model](#models) for [[stable (∞,1)-categories]]
 is stable [[quasicategories]], a detailed treatment
 can be found in Chapter 1 of [[Lurie]]'s [[Higher Algebra]].
+
+## References
+
+* [Do we still need model categories?](https://mathoverflow.net/questions/78400/do-we-still-need-model-categories)
+* [Why do we need model categories?](https://mathoverflow.net/questions/287091/why-do-we-need-model-categories)
+* [Is the ∞-category of spectra “convenient”?](https://mathoverflow.net/questions/322808/is-the-infty-category-of-spectra-convenient)
+* [Do we still need models of spectra other than the ∞-category Sp?](https://mathoverflow.net/questions/322832/do-we-still-need-models-of-spectra-other-than-the-infty-category-mathrmsp)
