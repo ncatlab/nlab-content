@@ -16,7 +16,7 @@
 
 ## Idea
 
-Broadly, a _scalar quantity_ is a "basic form of quantity", in terms of which more sophisticated objects of [[algebra]] are defined; and/or a "plain form of quantiy", not subject to non-trivial transformation laws.
+Broadly, a _scalar quantity_ is a "basic form of quantity", in terms of which more sophisticated objects of [[algebra]] are defined; and/or a "plain form of quantity", not subject to non-trivial transformation laws.
 
 Specifically:
 
