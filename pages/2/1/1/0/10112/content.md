@@ -188,6 +188,10 @@ See also
 
 * Wikipedia, _[Vector meson](https://en.wikipedia.org/wiki/Vector_meson)_
 
+The [[pole approximation]]:
+
+* [[Murray Gell-Mann]] and Fredrik Zachariasen, _Form Factors and Vector Mesons_, Phys. Rev. 124, 953 (1961) ([doi:10.1103/PhysRev.124.953](https://doi.org/10.1103/PhysRev.124.953))
+
 
 ### In chiral perturbation theory
 
@@ -203,7 +207,7 @@ See the references at _[[chiral perturbation theory]]_.
 
 In the [[large N limit]]:
 
-* {:Witten79} [[Edward Witten]], _Baryons in the $1/n$ Expansion_, Nucl. Phys. B160 (1979) 57-115 ([spire:140391](http://inspirehep.net/record/140391), <a href="https://doi.org/10.1016/0550-3213(79)90232-3">doi:10.1016/0550-3213(79)90232-3</a>)
+* {#Witten79} [[Edward Witten]], _Baryons in the $1/n$ Expansion_, Nucl. Phys. B160 (1979) 57-115 ([spire:140391](http://inspirehep.net/record/140391), <a href="https://doi.org/10.1016/0550-3213(79)90232-3">doi:10.1016/0550-3213(79)90232-3</a>)
 
 
 ### In Witten-Sakai-Sugimoto model for AdS-QCD
