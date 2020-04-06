@@ -228,6 +228,7 @@ An in-depth study of adjunctions between quasi-categories and the monadicity the
 [[!redirects quasi-categories]]
 [[!redirects quasicategory]]
 [[!redirects quasicategories]]
+[[!redirects quasicategorical]]
 
 [[!redirects inner Kan complex]]
 [[!redirects inner Kan complexes]]
