@@ -140,4 +140,4 @@ For more references see at _[[enriched category]]_.
 * [[model structure on homotopical presheaves]]
 
 [[!redirects Enriched Category Theory]]
-
+[[!redirects enriched]]
