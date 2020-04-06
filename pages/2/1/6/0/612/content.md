@@ -155,3 +155,4 @@ Application to [[moduli stack of elliptic curves]]:
 category: people
 
 [[!redirects J. Lurie]]
+[[!redirects Lurie]]
