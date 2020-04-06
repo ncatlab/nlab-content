@@ -16,12 +16,19 @@
 
 ## Idea
 
-A _kaon_ is a type of [[meson]], specifically a [[bound state]] of a [[strange quark]] with an [[up quark|up-]] or [[down quark|down-]] ([[antiparticle|anti-]])[[quark]]. 
+A _kaon_ is a type of [[meson]]:
+
+
+The [[Lorentz group|Lorentz]] [[trivial representation|scalar]] and [[isospin]] [[vector representation]] [[bound state|bound]] from [[up-quark|up]]/[[down-quarks]] in the [[first generation of fundamental particles]] and a [[strange quark]] in the [[second generation of fundamental particles]].
 
 \linebreak
 
 [[!include flavors of fundamental particles -- table]]
 
+
+## Related concepts
+
+* [[K* meson]]
 
 ## References
 
@@ -34,6 +41,9 @@ See also
 Via [[chiral perturbation theory]]:
 
 * V. Cirigliano, G. Ecker, H. Neufeld, A. Pich, J. Portoles, _Kaon Decays in the Standard Model_, Rev. Mod. Phys. 84 (2012) 399 ([arXiv:1107.6001](https://arxiv.org/abs/1107.6001))
+
+
+* S.Ozaki, H. Nagahiro, A. Hosaka, _Magnetic interaction induced by the anomaly in kaon-photoproductions_, Physics Letters B Volume 665, Issue 4, 24 July 2008, Pages 178-181 ([doi:10.1016/j.physletb.2008.06.020](https://doi.org/10.1016/j.physletb.2008.06.020))
 
 
 ### Flavour anomalies
