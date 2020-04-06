@@ -10,5 +10,5 @@
 | neutral  | [[electron neutrino]] | [[muon neutrino]] | [[tau neutrino]]  |
 |  |   |  |   |
 | **[[bound states]]:** |  |  |  |
-| **[[mesons]]** | [[pion]] ($u d$) <br/> [[rho-meson]] ($u d$) <br/> [[omega-meson]] ($u d$) | [[kaon]] ($q_{u/d} s$) <br/> [[eta-meson]] (u u + d d + s s) | [[B-meson]] ($q b$) |
+| **[[mesons]]** | [[pion]] ($u d$) <br/> [[rho-meson]] ($u d$) <br/> [[omega-meson]] ($u d$) | [[kaon]] ($q_{u/d} s$) <br/> [[eta-meson]] (u u + d d + s s <br/> [[K-star meson]] | [[B-meson]] ($q b$) |
 | **[[baryons]]** | [[proton]] $(u u d)$ <br/> [[neutron]] $(u d d)$  |  |  |
