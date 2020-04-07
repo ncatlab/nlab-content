@@ -32,7 +32,9 @@ $$
   (\Pi \dashv Disc \dashv \Gamma \dashv coDisc) : \mathbf{H} \to \infty Grpd
 $$ 
 
-with $Disc$ and $coDisc$ both [[full and faithful (∞,1)-functor]]s and such that $\Pi$ moreover preserves finite [[(∞,1)-limit|(∞,1)-product]]s. Here
+with $Disc$ and $coDisc$ both [[full and faithful (∞,1)-functor]]s and such that $\Pi$ moreover preserves finite [[(∞,1)-limit|(∞,1)-product]]s. (For a notion of cohesion _relative_ to a general base, see Remark \ref{relative}.)
+
+Here
 
 1. the existence of $coDisc$ induces a sub-[[(∞,1)-quasitopos]] $Conc(\mathbf{H}) \hookrightarrow \mathbf{H}$ of _[[concrete (∞,1)-sheaf|concrete objects]]_ that behave like [[∞-groupoid]]s _equipped with extra cohesive structure_ , such as with [[topology|continuous structure]], [[smooth structure]], etc.
 
@@ -93,11 +95,11 @@ An [[(∞,1)-topos]] $\mathbf{H}$ is **cohesive** if
 
 =--
 
-+-- {: .num_remark }
++-- {: .num_remark #relative}
 ###### Remark
 
 
-As always in [[topos theory]] and [[higher topos theory]], such definitions can be made sense of over any _base_ . Here: over any [[base (∞,1)-topos]].
+As always in [[topos theory]] and [[higher topos theory]], such definitions can be made sense of over any _base_ . Here: over any [[base (∞,1)-topos]]. For instance, it has been proposed that [[condensed mathematics]] be viewed with respect to cohesion over the base, $Sh_\infty(ProFinSet)$, $\infty$-sheaves over the [[pro-étale site]] of a point.
 
 Over the canonical base [[∞Grpd]] of [[∞-groupoid]]s, the definition of a cohesive $(\infty,1)$-topos is equivalently the following:
 
