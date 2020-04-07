@@ -102,6 +102,14 @@ to the unknown [[phase of matter|state of matter]] at the cores of [[neutron sta
 
 > The problem with a derivation of [[nuclear forces]] from [[QCD]] is that this theory is [[non-perturbative QFT|non-perturbative]] in the low-energy regime characteristic of [[nuclear physics]], which makes direct solutions very difficult. Therefore, during the first round of new attempts, [[QCD]]-inspired [[quark]] models became popular. The positive aspect of these models is that they try to explain [[hadron]] structure and hadron-hadron [[interactions]] on an equal footing and, indeed, some of the gross features of the [[nucleon]]-[[nucleon]] interaction are explained successfully. However, on a critical note, it must be pointed out that these quark-based approaches are nothing but another set of models and, thus, do not represent fundamental progress. For the purpose of describing hadron-hadron interactions, one may equally well stay with the simpler and much more quantitative [[meson]] models.
 
+\linebreak
+
+* Yonggoo Heo, C. Kobdaj, M.F.M. Lutz, _Constraints from a large-$N_c$ analysis on meson-baryon interactions at chiral order $Q^3$_, Phys. Rev. D 100, 094035 (2019) ([arXiv:1908.11816](https://arxiv.org/abs/1908.11816))
+
+> Still after many decades of vigorous studies the outstanding challenge of modern physics
+is to establish a rigorous link of QCD to low-energy hadron physics as it is observed in
+the many experimental cross section measurements. 
+
 
 ## Potential solutions
 
@@ -259,8 +267,9 @@ See also at _[[glueball]]_.
 
 * [[gapped Hamiltonian]]
 
-## References
 
+
+## References
 
 ### In Yang-Mills theory
  {#ReferencesInYangMillsTheory}
