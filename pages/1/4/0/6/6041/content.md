@@ -46,6 +46,8 @@ A [[curve]] $\gamma : \mathbb{R} \to X$ is called _timelike_  or _lightlike_ or 
 
 * [[light cone]], [[future cone]]
 
+* [[static spacetime]], [[stationary spacetime]]
+
 * [[Penrose limit]], [[pp-wave spacetime]]
 
 * [[Lorentzian spacetime]], [[Lorentzian geometry]]
