@@ -75,6 +75,8 @@ Given a general spacetime, there is not necessarily a globally defined coordinat
 
 ## Related concepts 
 
+* [[static spacetime]], [[stationary spacetime]]
+
 * [[universal spacetime]]
 
 * [[general covariance]]
