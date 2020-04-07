@@ -3,9 +3,14 @@
 
 ## Selected writings
 
+Inclusion of heavy [[flavor (particle physics)|flavors]] ([[strange quarks]]/[[kaons]], etc.) into the [[Skyrme model]]:
+
+* [[Curtis Callan]], [[Igor Klebanov]], _Bound-state approach to strangeness in the Skyrme model_, Nuclear Physics B Volume 262, Issue 2, 16 December 1985, Pages 365-382 (<a href="https://doi.org/10.1016/0550-3213(85)90292-5">doi10.1016/0550-3213(85)90292-5</a>)
+
+
 On [[black holes in string theory]] via the [[BFSS matrix model]]:
 
-* [[Tom Banks]], [[Willy Fischler]], [[Igor Klebanov]], [[Leonard Susskind]],  _Schwarzschild Black Holes from Matrix Theory_, Phys.Rev.Lett.80:226-229,1998 ([arXiv:hep-th/9709091](https://arxiv.org/abs/hep-th/9709091))
+* [[Tom Banks]], [[Willy Fischler]], [[Igor Klebanov]], [[Leonard Susskind]],  _Schwarzschild Black Holes from Matrix Theory_, Phys. Rev. Lett. 80:226-229,1998 ([arXiv:hep-th/9709091](https://arxiv.org/abs/hep-th/9709091))
 
 * [[Tom Banks]], [[Willy Fischler]], [[Igor Klebanov]], [[Leonard Susskind]], _Schwarzchild Black Holes in Matrix Theory II_, JHEP 9801:008,1998 ([arXiv:hep-th/9711005](https://arxiv.org/abs/hep-th/9711005))  
 
