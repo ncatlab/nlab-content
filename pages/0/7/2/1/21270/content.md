@@ -97,7 +97,7 @@ $$\array{{electric \; monopole} & \overset{{\;\; double \; copy \;\;}}{\to} & {S
 
 * {#BSW20} Nadia Bahjat-Abbas, Ricardo Stark-Muchão, Chris D. White, _Monopoles, shockwaves and the classical double copy_ ([arXiv:2001.09918](https://arxiv.org/abs/2001.09918))
 
-In the following paper it is shown that a [[S-duality]] on a gauge field corresponds to an Ehlers transformation of general relativity on its double copy:
+In the following paper it is shown that a [[S-duality]] on a gauge field corresponds to an [[Ehlers transformation]] on its double copy:
 
 * {#ABSP19} Rashid Alawadhi, [[David Berman]], Bill Spence, David Peinador Veiga, _S-duality and the Double Copy_ ([arXiv:1911.06797](https://arxiv.org/abs/1911.06797))
 
