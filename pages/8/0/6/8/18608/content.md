@@ -164,6 +164,15 @@ High-accuracy computation of [[hadron]]-[[masses]] in [[lattice QCD]]-simulation
 
 * S. Aoki et. al. _Review of lattice results concerning low-energy particle physics_ ([arXiv:1607.00299](https://arxiv.org/abs/1607.00299))
 
+
+\linebreak
+
+* Yonggoo Heo, C. Kobdaj, M.F.M. Lutz, _Constraints from a large-$N_c$ analysis on meson-baryon interactions at chiral order $Q^3$_, Phys. Rev. D 100, 094035 (2019) ([arXiv:1908.11816](https://arxiv.org/abs/1908.11816))
+
+> Still after many decades of vigorous studies the outstanding challenge of modern physics
+is to establish a rigorous link of QCD to low-energy hadron physics as it is observed in
+the many experimental cross section measurements. 
+
 (...)
 
 [[!redirects mass gap problem]]
