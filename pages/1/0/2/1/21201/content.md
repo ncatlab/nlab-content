@@ -70,9 +70,13 @@ Origin of [[effective field theory]] of [[mesons]] in [[nuclear physics]], via [
 
 * [[Jun John Sakurai]], _Theory of strong interactions_, Annals Phys. 11 (1960) 1-48 ([spire:3218](http://inspirehep.net/record/3218), <a href="https://doi.org/10.1016/0003-4916(60)90126-3">doi:10.1016/0003-4916(60)90126-3</a>)
 
-Early review:
+Review:
 
 * [[Masako Bando]], [[Taichiro Kugo]], Koichi Yamawaki, _Nonlinear realization and hidden local symmetries_, Physics Reports Volume 164, Issues 4–5, July 1988, Pages 217-314 (<a href="https://doi.org/10.1016/0370-1573(88)90019-1">doi:10.1016/0370-1573(88)90019-1</a>)
+
+* Yong-Liang Ma, Masayasu Harada, Section 6 of: _Lecture notes on the Skyrme model_ ([arXiv:1604.04850](https://arxiv.org/abs/1604.04850), [spire:1448311](https://inspirehep.net/literature/1448311))
+
+  (in relation to [[Skyrmions]])
 
 
 
