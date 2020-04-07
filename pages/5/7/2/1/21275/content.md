@@ -4,7 +4,7 @@
 
 ##Idea
 
-An **Ehlers transformation** maps solutions of the [[Einstein field equations]] to other solutions.
+An **Ehlers transformation** is a transformation that acts on the parameters of static solutions of the [[Einstein field equations]] and generates other solutions of the field equations that are in general stationary.
 
 ## Related entries
 
@@ -14,3 +14,4 @@ An **Ehlers transformation** maps solutions of the [[Einstein field equations]] 
 ##References
 
 * Wikipedia, [Ehlers group](https://en.wikipedia.org/wiki/Ehlers_group)
+* {#ABSP19} Rashid Alawadhi, [[David Berman]], Bill Spence, David Peinador Veiga, _S-duality and the Double Copy_ ([arXiv:1911.06797](https://arxiv.org/abs/1911.06797))
