@@ -6,7 +6,7 @@ Inclusion of [[heavy flavor|heavy]] [[flavor (particle physics)|flavors]] into t
 
 #### Strange quarks/Kaons
 
-Inclusion of [[strange quarks]]/[[kaons]]) into the [[Skyrme model]]:
+Inclusion of [[strange quarks]]/[[kaons]] into the [[Skyrme model]]:
 
 * [[Curtis Callan]], [[Igor Klebanov]], _Bound-state approach to strangeness in the Skyrme model_, Nuclear Physics B Volume 262, Issue 2, 16 December 1985, Pages 365-382 (<a href="https://doi.org/10.1016/0550-3213(85)90292-5">doi10.1016/0550-3213(85)90292-5</a>)
 
