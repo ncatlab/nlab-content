@@ -11,7 +11,7 @@ Equivalence between [[hidden local symmetry]]- and [[massive Yang-Mills theory]]
 * [[Atsushi Hosaka]], H. Toki, W. Weise, _Skyrme Solitons With Vector Mesons: Equivalence of the Massive Yang-Mills and Hidden Local Symmetry Scheme, 1988, Z. Phys. A332 (1989) 97-102 ([spire:24079](http://inspirehep.net/record/24079))
 
 
-#### Inclusion of $\omega$-meson
+#### Inclusion of the $\omega$-meson
 
 Original proposal for inclusion of the [[ω-meson]] in the [[Skyrme model]]:
 
@@ -46,7 +46,7 @@ Discussion for [[phenomenology]] of light [[atomic nuclei]]:
   APS Synopsis: _[Revamping the Skyrmion Model](https://physics.aps.org/synopsis-for/10.1103/PhysRevLett.121.232002)_, 2018 
 
 
-#### Inclusion of $\omega$- and $\rho$-meson
+#### Inclusion of the $\omega$- and $\rho$-meson
 
 The resulting $\pi$-$\rho$-$\omega$ model:
 
