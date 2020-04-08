@@ -43,6 +43,13 @@ On [[E11]]-[[exceptional generalized geometry]] for [[D=11 supergravity]]/[[M-th
 
 * {#West16} [[Peter West]], _A brief review of E theory_,  International Journal of Modern Physics A Vol. 31, No. 26, 1630043 (2016)  ([arXiv:1609.06863](http://arxiv.org/abs/1609.06863), [doi:10.1142/S0217751X1630043X](https://doi.org/10.1142/S0217751X1630043X))
 
+Discussion of the [[dual graviton]] in terms of [[E11]] [[U-duality]]:
+
+* {#Wess11} [[Peter West]], section N (pp. 19) of _Generalised geometry, eleven dimensions and $E_{11}$_ ([arXiv:1111.1642](http://arxiv.org/abs/1111.1642))
+
+* Keith Glennon, [[Peter West]],
+_Gravity, Dual Gravity and $A_1^{+++}$_ ([arXiv:2004.03363](https://arxiv.org/abs/2004.03363))
+
 
 On basics of [[string theory]]:
 
