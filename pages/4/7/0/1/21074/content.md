@@ -23,6 +23,7 @@ The [[Lorentz group|Lorentz]] [[trivial representation|scalar]] and [[isospin]] 
 
 Together with the [[K* mesons]], which are the corresponding [[vector mesons]], these are also called _K-mesons_ (alongside [[D-mesons]] and [[B-mesons]], etc.)
 
+The class of K-mesons goes alongside that of [[D-mesons]] ([[light mesons]] with a [[charm quark]]) and [[B-mesosn]] (mesons with a [[bottom quark]]).
 
 \linebreak
 
