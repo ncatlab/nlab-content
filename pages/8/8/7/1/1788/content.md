@@ -1,3 +1,7 @@
+
+Gg
+
+
 \begin{tikzcd}[column sep=normal, row sep=large]
 	& 
 	& 
