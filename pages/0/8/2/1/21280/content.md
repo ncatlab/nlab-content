@@ -24,9 +24,16 @@ The class of D-mesons goes alongside that of [[K-mesons]] ([[light mesons]] with
 
 ## References
 
+### General
+
 See also
 
 * Wikipedia, _[D-meson](https://en.wikipedia.org/wiki/D_meson)_
+
+
+[[!include Skyrme hadrodynamics with heavy mesons -- references]]
+
+
 
 [[!redirects D-mesons]]
 
