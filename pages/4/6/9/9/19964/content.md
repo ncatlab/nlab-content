@@ -246,6 +246,9 @@ Review:
 
 * [[Igor Klebanov]], _Strangeness in the Skyrme model_, in: D. Vauthrin, F. Lenz, J. W. Negele,  _Hadrons and Hadronic Matter_, Plenum Press 1989 ([doi:10.1007/978-1-4684-1336-6](https://link.springer.com/book/10.1007/978-1-4684-1336-6))
 
+  (with emphasis on includion [[heavy mesons]])
+
+* [[Maciej Nowak]], [[Mannque Rho]], [[Ismail Zahed]], Chapter 7 of: _[[Chiral Nuclear Dynamics]]_,  World Scientific 1996 ([doi:10.1142/1681](https://doi.org/10.1142/1681))
 
 * {#Weigel96} [[Herbert Weigel]], _Baryons as Three Flavor Solitons_,  	Int. J. Mod. Phys. A11:2419-2544, 1996 ([arXiv:hep-ph/9509398](https://arxiv.org/abs/hep-ph/9509398), [cds:288541](http://cds.cern.ch/record/288541), [doi:10.1142/S0217751X96001218](https://doi.org/10.1142/S0217751X96001218))
 
@@ -272,7 +275,7 @@ Further development:
 
 [[scattering amplitudes]]:
 
-* T.Gisiger, M. B. Paranjape, _Skyrmion-Skyrmion Scattering_ ([arXiv:hep-th/9310050](https://arxiv.org/abs/hep-th/9310050))
+* T. Gisiger, M. B. Paranjape, _Skyrmion-Skyrmion Scattering_ ([arXiv:hep-th/9310050](https://arxiv.org/abs/hep-th/9310050))
 
 Relation to the [[complex Hopf fibration]]:
 
