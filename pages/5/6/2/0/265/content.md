@@ -338,6 +338,10 @@ The double-categorical functoriality is in
 
 * {#Shulman} [[Mike Shulman]], _Comparing composites of left and right derived functors_, [NYJM](http://nyjm.albany.edu/j/2011/17-5.html)
  
+A more modern definition with better theoretical properties is given in
+
+* [[Vladimir Hinich]], _So, what is a derived functor?_,
+[arXiv](https://arxiv.org/abs/1811.12255).
 
 ### In homological algebra
 
@@ -353,12 +357,7 @@ and, similarly, in section 7 of
 
 * {#Schapira} [[Pierre Schapira]], _Categories and homological algebra_ (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
  
-
-
-
-
 [[!redirects derived functors]]
-
 [[!redirects left derived functor]]
 [[!redirects right derived functor]]
 [[!redirects left derived functors]]
