@@ -19,6 +19,8 @@
 
 In the [[standard model of particle physics]] a _B-meson_ is a [[meson]] which is a [[bound state]] of a [[bottom quark]] and any other [[quark]] from the first two [[generations of fermions]] ([[up quark]] or [[down quark]] or [[strange quark]] or [[charm quark]]).
 
+Hence the class of B-mesons goes along side that of [[K-mesons]] (light mnesons with a [[strange quark]]) and [[D-mesons]] (light meson with a [[charm quark]]).
+
 [[!include flavors of fundamental particles -- table]]
 
 Current [[experiments]] studying B-meson [[physics]] are the \
