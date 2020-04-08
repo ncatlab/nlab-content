@@ -50,6 +50,9 @@ Via [[chiral perturbation theory]]:
 * S.Ozaki, H. Nagahiro, A. Hosaka, _Magnetic interaction induced by the anomaly in kaon-photoproductions_, Physics Letters B Volume 665, Issue 4, 24 July 2008, Pages 178-181 ([doi:10.1016/j.physletb.2008.06.020](https://doi.org/10.1016/j.physletb.2008.06.020))
 
 
+[[!include Skyrme hadrodynamics with heavy mesons -- references]]
+
+
 ### Flavour anomalies
 
 On [[flavour physics]] and potential [[flavour anomalies]] in [[kaon]]-[[scattering|decays]]:
