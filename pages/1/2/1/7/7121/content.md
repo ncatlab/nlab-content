@@ -67,6 +67,9 @@ Further development
 
 * An Huang, Dan Mao, [[Bogdan Stoica]], _From p-adic to Archimedean Physics: Renormalization Group Flow and Berkovich Spaces_ ([arXiv:2001.01725](https://arxiv.org/abs/2001.01725))
 
+* Dmitry S. Ageev, Andrey A. Bagrov, Askar A. Iliasov, _Coleman-Weinberg potential in p-adic field theory_ ([arXiv:2004.03014](https://arxiv.org/abs/2004.03014))
+
+
 
 ### String theory
 
