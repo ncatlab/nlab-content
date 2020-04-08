@@ -395,6 +395,9 @@ of (∞,1)-categories.
 For instance, for [[relative categories]] we can formally
 invert all [[weak equivalences]], the resulting [[localization]]
 being the [[homotopy category]].
+(We note that inverting morphisms _up to homotopy_
+instead of strictly simply recovers the underlying [[(∞,1)-category]]
+of a [[relative category]].)
 
 The [[homotopy category]] is a useful tool
 for extracting invariants from a given [[(∞,1)-category]].
@@ -429,9 +432,14 @@ In reality, one axiomatizes [[triangulated categories]]
 as [[additive categories]] with additional data of distinguished triangles
 (basically, [[homotopy cofiber]] sequences)
 and suspension functor that satisfies a bunch of axioms.
-Indeed, a counterexample due to Muro, Schwede, and Strickland
+A counterexample due to Muro, Schwede, and Strickland
 constructs a triangulated category that does not arise
 as the [[homotopy category]] of an (∞,1)-category.
+
+[[Triangulated categories]] are a variation on the theme of
+[[homotopy categories]] and suffer from the same set of defects.
+In particular, computations with [[homotopy limits]] or [[homotopy colimits]]
+are extremely difficult or impossible beyond the simplest cases.
 
 Much work was put into rectifying this defect of triangulated categories.
 The resulting constructions are generically known as “enhancements”
@@ -445,13 +453,57 @@ albeit on a higher level.
 
 Thus, [[stable (∞,1)-categories]] due to their simplicity
 and generality can be reasonably seen as an “ultimate enhancement”
-of triangulated categories that does not suffer from their defects.
+of [[triangulated categories]] that does not suffer from their defects.
 
-The most developed [model](#models) for [[stable (∞,1)-categories]]
-is stable [[quasicategories]], a detailed treatment
-can be found in Chapter 1 of [[Lurie]]'s [[Higher Algebra]].
+The most developed [models](#models) for [[stable (∞,1)-categories]]
+are [[stable model categories]]
+and stable [[quasicategories]].
+The former are treated by [[Hovey]] in Chapter 7 of his book [[Model categories]]
+and the latter are treated in Chapter 1 of [[Lurie]]'s [[Higher Algebra]].
 
 ## What is a derived category?  What are its limitations?
+
+The [[derived (∞,1)-category]] of an [[abelian category]] $A$
+is an [[(∞,1)-category]] presented by the [[relative category]]
+whose underlying [[category]] is the category of [[chain complexes]]
+in $A$ and [[weak equivalences]] are [[quasi-isomorphisms]].
+The [[homotopy category]] of the [[derived (∞,1)-category]]
+recovers the traditional [[derived category]],
+which is a [[triangulated category]].
+
+The [[derived category]] of $A$ must not be confused
+with the [[homotopy category of chain complexes]] valued in $A$.
+The latter category is also defined as the [[homotopy category]]
+of the [[relative category]] of $A$-valued [[chain complexes]],
+but with [[weak equivalences]] being
+[[chain homotopy equivalences]] instead of [[quasi-isomorphisms]].
+
+The [[derived category]] (as well as the [[homotopy category of chain complexes]]) suffers from the same limitations
+as [[homotopy categories]] and [[triangulated categories]].
+In particular, any theoretical constructions
+that involve [[homotopy limits]] and [[homotopy colimits]]
+beyond the case of [[homotopy products]] or [[homotopy coproducts]]
+invariably run into severe difficulties, often insurmountable.
+
+One way to resolve this issue is to work with
+one of the models of the [[derived (∞,1)-category]] instead.
+By far the most popular choice in the literature
+amounts to working with the [[relative category]] described above,
+often augmented by additional formalisms such as [[model categories]].
+
+Under additional conditions on $A$,
+the [[relative category]] of [[chain complexes]] with values in $A$
+and [[quasi-isomorphisms]]
+can be equipped with various [[model structures]],
+of which the most important ones are the
+[[projective model structure on chain complexes]]
+and [[injective model structure on chain complexes]].
+These model structures provide a convenient conceptual
+framework for [[projective resolutions]] and [[injective resolutions]].
+
+Another treatment of [[derived (∞,1)-categories]]
+can be given using [[stable quasicategories]].
+See Chapter 1 in [[Lurie]]'s [[Higher Algebra]].
 
 ## References
 
