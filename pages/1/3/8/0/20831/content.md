@@ -1,7 +1,17 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 (...)
+
+## Properties
+
+### Spin-isospin transmutation
+
+* [[spin-isospin transmutation]]
 
 ## Related concepts
 
