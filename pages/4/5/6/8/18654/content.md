@@ -17,7 +17,7 @@
 
 ## Idea
 
-In [[nuclear physics]], specifically in the [[chiral perturbation theory]] of [[quantum chromodynamics]], the _pion_ or _pi-meson_ ($\pi$-meson) is the [[isospin]]-triplet scalar-[[meson]] [[field (physics)|field]] in the first-[[generation of fermions]], i.e. a [[bound state]] of an [[up quark]] and a [[down quark]]:
+In [[nuclear physics]], specifically in the [[chiral perturbation theory]] of [[quantum chromodynamics]], the _pion_ or _pi-meson_ ($\pi$-meson) is the [[isospin]]-triplet scalar-[[meson]] [[field (physics)|field]] in the first-[[generation of fermions]], i.e. a [[bound state]] of an [[up quark]] and a [[down quark]] (a [[light meson]]):
 
 [[!include flavors of fundamental particles -- table]]
 
