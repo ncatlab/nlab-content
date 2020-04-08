@@ -279,9 +279,14 @@ math&#233;matiques. Fasc. XVI, chapter Trav. Math., XVI, pp. 121-137. Univ. Luxe
 * [[Dmitry Roytenberg]], _Quasi-Lie bialgebroids and twisted Poisson manifolds_ , Letters in Mathematical
 Physics, 61(2):123-137 (2002) ([arXiv:math/0112152](http://arxiv.org/abs/math/0112152))
 
-Another useful summary of the theory of Courant algebroids is in [section 3](http://arxiv.org/PS_cache/math/pdf/0401/0401221v1.pdf#page=19) of
+Another useful summary of the theory of Courant algebroids is in  of
 
-* [[Marco Gualtieri]], _Generalized complex geometry_ ([arXiv:math/0401221](http://arxiv.org/abs/math/0401221))
+* [[Marco Gualtieri]], [section 3](http://arxiv.org/PS_cache/math/pdf/0401/0401221v1.pdf#page=19) of: _Generalized complex geometry_ ([arXiv:math/0401221](http://arxiv.org/abs/math/0401221))
+
+On the [[morphisms]] between Courant algebroids:
+
+* [[Jan Vysoky]], _Hitchhiker's Guide to Courant Algebroid Relations_ ([arXiv:1910.05347](https://arxiv.org/abs/1910.05347))
+
 
 A discussion of Courant algebroids with an eye towards the relation of the [[standard Courant algebroid]] to [[bundle gerbes]] is 
 
@@ -328,7 +333,6 @@ See also
 
 * Xu Xiaomeng, _Twisted Courant algebroids and coisotropic Cartan geometries_ ([arXiv:1206.2282](http://arxiv.org/abs/1206.2282))
 
-* [[Jan Vysoky]], _Hitchhiker's Guide to Courant Algebroid Relations_ ([arXiv:1910.05347](https://arxiv.org/abs/1910.05347))
 
 [[!redirects Courant Lie algebroid]]
 [[!redirects Courant Lie algebroids]]
