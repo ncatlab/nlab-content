@@ -128,3 +128,5 @@ See also
 
 
 [[!redirects Kan fibrant replacements]]
+[[!redirects Ex^∞]]
+[[!redirects Ex-infinity]]
