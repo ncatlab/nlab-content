@@ -14,6 +14,9 @@ Inclusion of further heavy [[flavor (particle physics)|flavors]], namle [[strang
 
 * [[Mannque Rho]], D. O. Riska, N. N. Scoccola, _Charmed baryons as soliton - D meson bound states_, Phys. Lett.B 251 (1990) 597-602 ([spire:297771](https://inspirehep.net/literature/297771), <a href="https://doi.org/10.1016/0370-2693(90)90802-D">doi:10.1016/0370-2693(90)90802-D</a>)
 
+* [[Mannque Rho]], _Massive-quark baryons as Skyrmions_,  Modern Physics Letters A, Vol. 06, No. 23 (1991) ([doi:10.1142/S0217732391002268](https://doi.org/10.1142/S0217732391002268))
+
+
 * [[Mannque Rho]], D. O. Riska, N. N. Scoccola, _The energy levels of the heavy flavour baryons in the topological soliton model_, Zeitschrift für Physik A Hadrons and Nuclei volume 341, pages343–352 (1992) ([doi:10.1007/BF01283544](https://doi.org/10.1007/BF01283544))
 
 On the [[Cheshire cat principle]] for the [[bag model of quark confinement]] in [[hadrons]]:
@@ -25,6 +28,10 @@ On the [[Cheshire cat principle]] for the [[bag model of quark confinement]] in 
 On [[effective field theory]] in [[nuclear physics]]:
 
 * [[Mannque Rho]], _Lectures on Effective Field Theories for Nuclei, Nuclear Matter and Dense Matter_, 2002 ([arXiv:nucl-th/0202078](https://arxiv.org/abs/nucl-th/0202078), [cds:539674](https://cds.cern.ch/record/539674))
+
+On [[nuclear physics]] via [[chiral perturbation theory]]/[[quantum hadrodynamics]]:
+
+* [[Maciej Nowak]], [[Mannque Rho]], [[Ismail Zahed]], _[[Chiral Nuclear Dynamics]]_,  World Scientific 1996 ([doi:10.1142/1681](https://doi.org/10.1142/1681))
 
 
 On [[Skyrmions]]:
