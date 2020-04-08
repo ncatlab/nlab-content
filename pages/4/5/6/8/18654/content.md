@@ -187,7 +187,7 @@ See also
 
 ### Exponentiated pion field and Skyrmions
 
-Discussion of the exponentiated pion field ("chiral field") and the interpretation of its [[winding number]] as [[Skyrmion]]-number / [[baryon]]
+Discussion of the exponentiated pion field ("chiral field") in [[chiral perturbation theory]] and the interpretation of its [[winding number]] as [[Skyrmion]]-number / [[baryon]]
 
 * {#Witten83a} [[Edward Witten]], _Global aspects of current algebra_, Nuclear Physics B Volume 223, Issue 2, 22 August 1983, Pages 422-432 (<a href="https://doi.org/10.1016/0550-3213(83)90063-9">doi:10.1016/0550-3213(83)90063-9</a>)
 
