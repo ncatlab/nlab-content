@@ -21,6 +21,9 @@ A _kaon_ is a type of [[meson]]:
 
 The [[Lorentz group|Lorentz]] [[trivial representation|scalar]] and [[isospin]] [[vector representation]] [[bound state|bound]] from [[up-quark|up]]/[[down-quarks]] in the [[first generation of fundamental particles]] and a [[strange quark]] in the [[second generation of fundamental particles]].
 
+Together with the [[K* mesons]], which are the corresponding [[vector mesons]], these are also called _K-mesons_ (alongside [[D-mesons]] and [[B-mesons]], etc.)
+
+
 \linebreak
 
 [[!include flavors of fundamental particles -- table]]
@@ -65,4 +68,11 @@ On [[flavour physics]] and potential [[flavour anomalies]] in [[kaon]]-[[scatter
 
 
 [[!redirects kaons]]
+
+[[!redirects K-meson]]
+[[!redirects K-mesons]]
+
+[[!redirects K meson]]
+[[!redirects K mesons]]
+
 
