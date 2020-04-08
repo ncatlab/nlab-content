@@ -189,8 +189,11 @@ Further discussion of [[phenomenology]]:
 
 
 
-[[!include Skyrme hadrodynamics with vector mesons -- references ]]
+[[!include Skyrme hadrodynamics with vector mesons -- references]]
 
+
+
+[[!include Skyrme hadrodynamics with heavy mesons -- references]]
 
 
 
