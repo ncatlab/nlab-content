@@ -57,9 +57,18 @@ All these are increasingly seeing [[flavour anomalies]] (see there) in $B$-meson
 
 ## References
 
+### General
+
 See also 
 
 * Wikipedia, _<a href="https://en.wikipedia.org/wiki/B_meson">B meson</a>_
+
+
+[[!include Skyrme hadrodynamics with heavy mesons -- references]]
+
+
+### In holographic QCD
+
 
 Discussion in [[holographic light front QCD]]:
 
