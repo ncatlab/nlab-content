@@ -55,9 +55,17 @@ Double-dual graviton:
 Discussion in terms of [[E11]] [[U-duality]] is in 
 
 * {#Wess11} [[Peter West]], section N (pp. 19) of _Generalised geometry, eleven dimensions and $E_{11}$_ ([arXiv:1111.1642](http://arxiv.org/abs/1111.1642))
-[[!redirects dual gravitons]]
+
+* Keith Glennon, [[Peter West]],
+_Gravity, Dual Gravity and $A_1^{+++}$_ ([arXiv:2004.03363](https://arxiv.org/abs/2004.03363))
+
+
+
+
 
 Coupling with topological [[BF-theory]] in
 
 * {#Bizdadea09} C. Bizdadea, E. M. Cioroianu, A. Danehkar, M. Iordache, S. O. Saliu, S. C. Sararu, _Consistent interactions of dual linearized gravity in D=5: couplings with a topological BF model_, The European Physical Journal C (Particles and Fields) October 2009, 63:491 ([arXiv:0908.2169](https://arxiv.org/abs/0908.2169))
+
+[[!redirects dual gravitons]]
 
