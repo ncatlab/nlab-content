@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On [[nuclear physics]] via [[chiral perturbation theory]]/[[quantum hadrodynamics]]:
+
+* [[Maciej Nowak]], [[Mannque Rho]], [[Ismail Zahed]], _[[Chiral Nuclear Dynamics]]_,  World Scientific 1996 ([doi:10.1142/1681](https://doi.org/10.1142/1681))
+
+
 On [[skyrmions]]:
 
 * {#RhoZahed16} [[Mannque Rho]], [[Ismail Zahed]] (eds.) _The Multifaceted Skyrmion_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
