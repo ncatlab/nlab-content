@@ -1,4 +1,4 @@
-The material previously on this page referred to [InterSciWiki](http://intersci.ss.uci.edu/wiki/index.php/Propositional_Equation_Reasoning_Systems).
+The material previously on this page is now located at the [Online Encyclopedia of Integer Sequences Wiki](https://oeis.org/wiki/Propositional_Equation_Reasoning_Systems).
 
 [[!redirects propositional equation reasoning systems]]
 [[!redirects Propositional Equation Reasoning Systems]]
