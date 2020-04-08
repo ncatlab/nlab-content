@@ -109,11 +109,14 @@ automatically the Wess–Zumino term, with the correct coefficient!
 
 ### Introduction and review
 
+
 * [[Jürg Gasser]], _The QCD Vacuum and Chiral Symmetry_, In: Vautherin D., Lenz F., Negele J.W. (eds.) _Hadrons and Hadronic Matter_, NATO ASI Series (Series B: Physics), vol 228. Springer 1990 ([doi:10.1007/978-1-4684-1336-6_4](https://doi.org/10.1007/978-1-4684-1336-6_4))
 
 * G. Ecker, _The standard model at low energies_, Czech. J. Phys. 44:405-430, 1995 ([arXiv:hep-ph/9309268](https://arxiv.org/abs/hep-ph/9309268))
 
 * A. Pich, _Chiral Perturbation Theory_ ([arXiv:hep-ph/9502366](https://arxiv.org/abs/hep-ph/9502366))
+
+* [[Maciej Nowak]], [[Mannque Rho]], [[Ismail Zahed]], _[[Chiral Nuclear Dynamics]]_,  World Scientific 1996 ([doi:10.1142/1681](https://doi.org/10.1142/1681))
 
 
 * Volker Koch, _Aspects of Chiral Symmetry_, Int. J. Mod. Phys. E6 (1997) 203-250 ([arXiv:nucl-th/9706075](https://arxiv.org/abs/nucl-th/9706075))
