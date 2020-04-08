@@ -111,7 +111,7 @@ It is equivalent to the general form of [[Szpiro's conjecture]].
 
 ## References
 
-### Genera;
+### General
 
 The abc conjecture was stated in 
 
@@ -165,6 +165,14 @@ Comments on the proof are at
 An popular account of the problem of the math community checking the proof is in 
 
 * Caroline Chen, _The Paradox of the Proof_ ([web](http://projectwordsworth.com/the-paradox-of-the-proof/))
+
+
+### Proposals for relation to physics
+
+Relating the [[abc conjecture]] to [[D=4 N=4 super Yang-Mills theory]]:
+
+* [[Yang-Hui He]], Zhi Hu, Malte Probst, James Read, _Yang-Mills Theory and the ABC Conjecture_,  International Journal of Modern Physics A Vol. 33, No. 13, 1850053 (2018)  ([arXiv:1602.01780](https://arxiv.org/abs/1602.01780), [doi:10.1142/S0217751X18500537](https://doi.org/10.1142/S0217751X18500537))
+
 
 
 [[!redirects abc-conjecture]]
