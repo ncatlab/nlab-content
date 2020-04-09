@@ -169,7 +169,7 @@ taken in the [[(2,1)-topos]] of [[(2,1)-sheaves]] on [[CartSp]]${}_{smooth}$.
 
 A detailed discussion of this is at [[Smooth∞Grpd]] in the section <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#LieGroups">on Lie groups</a>.
 
-Now write $\mathfrak{g}$ for the [[Lie algebra]] of $\mathfrak{g}$. Then consider the functor
+Now write $\mathfrak{g}$ for the [[Lie algebra]] of $G$. Then consider the functor
 
 $$
   \mathbf{B} G_{conn} 
