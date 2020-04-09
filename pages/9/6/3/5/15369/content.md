@@ -16,7 +16,7 @@
 
 ## Definition
 
-Given a [[metric space]] $(X,d)$, the _metric topology_ on $X$ is the structure of a [[topological space]] on $X$ which is generated from the [[basis of a  topology]] given by the [[open balls]] 
+Given a [[metric space]] $(X,d)$, the _metric topology_ on $X$ is the structure of a [[topological space]] $\mathcal{T}$ on $X$ which is generated from the [[topological base]] of $\mathcal{T}$ given by the [[open balls]] 
 
 $$
   B(x,r) \coloneqq \{y \in X \;|\; d(x,y) \lt r \}
