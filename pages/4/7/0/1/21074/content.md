@@ -19,11 +19,25 @@
 A _kaon_ is a type of [[meson]]:
 
 
-The [[Lorentz group|Lorentz]] [[trivial representation|scalar]] and [[isospin]] [[vector representation]] [[bound state|bound]] from [[up-quark|up]]/[[down-quarks]] in the [[first generation of fundamental particles]] and a [[strange quark]] in the [[second generation of fundamental particles]].
+The [[Lorentz group|Lorentz]] [[trivial representation|scalar]] and [[isospin]] [[vector representation]] [[bound state|bound]] from [[up-quark|up]]/[[down-quarks]] in the [[first generation of fundamental particles]] and a [[strange quark]] in the [[second generation of fundamental particles]].  Hence a [[heavy meson]] with respect to 2-flavor [[chiral perturbation theory]].
 
 Together with the [[K* mesons]], which are the corresponding [[vector mesons]], these are also called _K-mesons_ (alongside [[D-mesons]] and [[B-mesons]], etc.)
 
 The class of K-mesons goes alongside that of [[D-mesons]] ([[light mesons]] with a [[charm quark]]) and [[B-mesosn]] (mesons with a [[bottom quark]]).
+
+\begin{imagefromfile}
+    "file_name": "LightAndStrangeMesonFieldsPin.jpg",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": 0,
+        "right": 10,
+        "bottom": 0,
+        "left": 20
+    }
+\end{imagefromfile}
+
+
 
 \linebreak
 
