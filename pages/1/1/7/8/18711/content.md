@@ -1,4 +1,7 @@
 
+#Contents#
+* table of contents
+{:toc}
 
 ## Related concepts
 
@@ -35,6 +38,8 @@ Volume 742, 6 March 2015, Pages 136-142 ([arXiv:1407.3799](https://arxiv.org/abs
 
 
 * [[Carlos Naya]], _Neutron stars within the Skyrme model_, 	Int. J. Mod. Phys. E 28, 1930006 (2019) ([arXiv:1910.01145](https://arxiv.org/abs/1910.01145))
+
+* C. Adam, J. Sanchez-Guillen, R. Vazquez, A. Wereszczynski, _Adding crust to BPS Skyrme neutron stars_ ([arXiv:2004.03610](https://arxiv.org/abs/2004.03610))
 
 
 
