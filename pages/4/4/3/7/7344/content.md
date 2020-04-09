@@ -79,6 +79,11 @@ Via [[KK-compactification]] from [[little string theory]]:
 
 * Antonio Amariti, Gianmarco Formigoni, _A note on $4d$ $\mathcal{N} = 3$ from little string theory_ ([arXiv:2003.05983](https://arxiv.org/abs/2003.05983))
 
+See also:
+
+* Mikhail Evtikhiev, _$\mathcal{N} = 3$ SCFTs in 4 dimensions and non-simply laced groups_ ([arXiv:2004.03919](https://arxiv.org/abs/2004.03919))
+
+
 
 ### Mirror symmetry for $D=3$ $\mathcal{N}=4$ SYM
 
