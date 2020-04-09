@@ -175,7 +175,7 @@ More recent developments include
 
 * H. L. Dao, Parinya Karndumri, _Supersymmetric $AdS_5$ black holes and strings from 5D $N=4$ gauged supergravity_ ([arXiv:1812.10122](https://arxiv.org/abs/1812.10122))
 
-* {#CKJN18} Sunjin Choi, Joonho Kim, Seok Kim, June Nahmgoong, _Large AdS black holes from QFT_ ([arxiv:1810.12067](https://arxiv.org/abs/1810.12067))
+* {#CKJN18} Sunjin Choi, [[Joonho Kim]], [[Seok Kim]], June Nahmgoong, _Large AdS black holes from QFT_ ([arxiv:1810.12067](https://arxiv.org/abs/1810.12067))
 
 * Behnam Pourhassan, Mubasher Jamil, Mir Faizal, _Black Remnants from T-Duality_ ([arXiv:1912.09235](https://arxiv.org/abs/1912.09235))
 
