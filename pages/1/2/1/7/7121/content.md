@@ -83,6 +83,6 @@ See also
 
 * Branko Dragovich, _Nonlocal dynamics of p-adic strings_, ([arxiv/1011.0912](http://arxiv.org/abs/1011.0912))
 
-A relation of $p$-adic string theory to number-theoretic [[Langlands duality]] is hypothesized and explored somewhat it
+A relation of $p$-adic string theory to number-theoretic [[Langlands duality]] is hypothesized and explored somewhat in
 
 * Michele Nardelli, _On the link between the structure of A-branes observed in the homological mirror symmetry and the classical theory of automorphic forms: mathematical connections with the modular elliptic curves, $p$-adic and adelic numbers and $p$-adic and adelic strings_, in [p-adic and adelic physics](http://empslocal.ex.ac.uk/people/staff/mrwatkin/zeta/physics7.htm) ([pdf](http://empslocal.ex.ac.uk/people/staff/mrwatkin/zeta/nardelli_branes.pdf))
