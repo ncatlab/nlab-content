@@ -38,6 +38,10 @@ Arises from
 
 ## References
 
+### General
+
+* [[Kantaro Ohmori]], _Six-Dimensional Superconformal Field Theories and Their Torus Compactifications_, Springer Theses 2018 ([springer:book/9789811330919](https://www.springer.com/gp/book/9789811330919))
+
 ### Lagrangian description
 
 A class of [[Lagrangian densities]] for [[D=6 N=(1,0) SCFTs]] with [[non-abelian group|non-abelian]] [[gauge group]] has been proposed in 
