@@ -91,6 +91,16 @@ automatically the Wess–Zumino term, with the correct coefficient!
 
 \linebreak
 
+
+**Chapter 4**
+
+On [[Skyrmions]] with [[heavy mesons]]:
+
+* [[Norberto Scoccola]], _Heavy quark skyrmions_, ([arXiv:0905.2722](https://arxiv.org/abs/0905.2722), [doi:10.1142/9789814280709_0004](https://doi.org/10.1142/9789814280709_0004)), Chapter 4 in: _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+
+\linebreak
+
+
 **Chapter 5**
 
 On the [[Skyrmion model]] in [[thermal QFT]], with emphasis on the [[omega-meson]]/[[baryon current]]-coupling:
