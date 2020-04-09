@@ -10,14 +10,16 @@ On the [[bag model of quark confinement]] in relation to the [[Skyrmion model]]:
 
 Inclusion of further heavy [[flavor (particle physics)|flavors]], namle [[strange quark]]/[[kaons]], [[charm quarks]]/[[D-mesons]] and [[bottom quarks]]/[[B-mesons]], into the [[Skyrme model]]:
 
-* N. N. Scoccola, D. P. Min, H.Nadeau, [[Mannque Rho]], _The strangeness problem: An $SU(3)$ skyrmion with vector mesons_, Nuclear Physics A Volume 505, Issues 3–4, 25 December 1989, Pages 497-524 (<a href="https://doi.org/10.1016/0375-9474(89)90029-8">doi:10.1016/0375-9474(89)90029-8</a>)
+* [[Norberto Scoccola]], D. P. Min, H. Nadeau, [[Mannque Rho]], _The strangeness problem: An $SU(3)$ skyrmion with vector mesons_, Nuclear Physics A Volume 505, Issues 3–4, 25 December 1989, Pages 497-524 (<a href="https://doi.org/10.1016/0375-9474(89)90029-8">doi:10.1016/0375-9474(89)90029-8</a>)
 
-* [[Mannque Rho]], D. O. Riska, N. N. Scoccola, _Charmed baryons as soliton - D meson bound states_, Phys. Lett.B 251 (1990) 597-602 ([spire:297771](https://inspirehep.net/literature/297771), <a href="https://doi.org/10.1016/0370-2693(90)90802-D">doi:10.1016/0370-2693(90)90802-D</a>)
+* [[Mannque Rho]], D. O. Riska, [[Norberto Scoccola]], _Charmed baryons as soliton - D meson bound states_, Phys. Lett. B 251 (1990) 597-602 ([spire:297771](https://inspirehep.net/literature/297771), <a href="https://doi.org/10.1016/0370-2693(90)90802-D">doi:10.1016/0370-2693(90)90802-D</a>)
 
 * [[Mannque Rho]], _Massive-quark baryons as Skyrmions_,  Modern Physics Letters A, Vol. 06, No. 23 (1991) ([doi:10.1142/S0217732391002268](https://doi.org/10.1142/S0217732391002268))
 
+* Yongseok Oh, Dong-Pil Min, [[Mannque Rho]], [[Norberto Scoccola]], _Massive-quark baryons as skyrmions: Magnetic moments_, Nuclear Physics A
+Volume 534, Issues 3–4 (1991) Pages 493-512 (<a href="https://doi.org/10.1016/0375-9474(91)90458-I">doi:10.1016/0375-9474(91)90458-I</a>)
 
-* [[Mannque Rho]], D. O. Riska, N. N. Scoccola, _The energy levels of the heavy flavour baryons in the topological soliton model_, Zeitschrift für Physik A Hadrons and Nuclei volume 341, pages343–352 (1992) ([doi:10.1007/BF01283544](https://doi.org/10.1007/BF01283544))
+* [[Mannque Rho]], D. O. Riska, [[Norberto Scoccola]], _The energy levels of the heavy flavour baryons in the topological soliton model_, Zeitschrift für Physik A Hadrons and Nuclei volume 341, pages343–352 (1992) ([doi:10.1007/BF01283544](https://doi.org/10.1007/BF01283544))
 
 On the [[Cheshire cat principle]] for the [[bag model of quark confinement]] in [[hadrons]]:
 
