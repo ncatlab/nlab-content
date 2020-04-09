@@ -591,7 +591,9 @@ and its relation to [[baryons]]:
 
 
 
-##### Van Raamsdonk-White model
+##### Van Raamsdonk-Whyte model
+
+Variant with [[D4-brane|D4]] [[flavor branes]]:
 
 * [[Mark Van Raamsdonk]], Kevin Whyte, _Baryon charge from embedding topology and a continuous meson spectrum in a new holographic gauge theory_, JHEP 1005:073, 2010 ([arxiv:0912.0752](https://arxiv.org/abs/0912.0752))
 
@@ -1073,5 +1075,6 @@ Application to QCD [[QFT with defects|with defects]]:
 [[!redirects improved holographic quantum chromodynamics]]
 
 [[!redirects Ads/QCD]]
+
 
 
