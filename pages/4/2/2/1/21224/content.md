@@ -17,7 +17,23 @@
 
 The _sigma-meson_, now also called the _$f_0(500)$-resonance_, is the lightest [[Lorentz group|Lorentz]]-[[scalar]] and [[isospin]]-[[scalar]] [[meson]]. 
 
-Together with the [[omega-meson]] the sigma is responsible for most of the long-range [[interaction]] between [[baryons]], exhibiting the residual [[strong nuclear force]] between them (as modeled by [[Walecka model]] and [[quantum hadrodynamics]]).
+\begin{imagefromfile}
+    "file_name": "LightAndStrangeMesonFieldsPin.jpg",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": 0,
+        "right": 10,
+        "bottom": 0,
+        "left": 20
+    }
+\end{imagefromfile}
+
+
+Together with the [[omega-meson]] the sigma is responsible for most of the long-range [[interaction]] between [[baryons]], exhibiting the residual [[strong nuclear force]] between them, at least as modeled by [[Walecka model]] and [[quantum hadrodynamics]].
+
+Other models of [[quantum hadrodynamics]] do not contain the sigma at all. See [Pelaez 16](#Pelaez16) for review of the controversial and inconclusive understanding of the sigma-meson.
+
 
 ## Related concepts
 
@@ -36,7 +52,7 @@ Original articles:
 
 Review:
 
-* J. R. Pelaez, _From controversy to precision on the sigma meson: a review on the status of the non-ordinary $f_0(500)$ resonance_, Physics Reports 658 (2016) 1 ([arXiv:1510.00653](https://arxiv.org/abs/1510.00653))
+* {#Pelaez16} J. R. Pelaez, _From controversy to precision on the sigma meson: a review on the status of the non-ordinary $f_0(500)$ resonance_, Physics Reports 658 (2016) 1 ([arXiv:1510.00653](https://arxiv.org/abs/1510.00653))
 
 
 See also:
