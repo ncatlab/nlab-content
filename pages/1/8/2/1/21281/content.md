@@ -12,7 +12,7 @@ Inclusion of [[strange quarks]]/[[kaons]] into the [[Skyrme model]]:
 
 * [[Curtis Callan]], K. Hornbostel, [[Igor Klebanov]], _Baryon masses in the bound state approach to strangeness in the skyrme model_, Physics Letters B Volume 202, Issue 2, 3 March 1988, Pages 269-275 (<a href="https://doi.org/10.1016/0370-2693(88)90022-6">doi10.1016/0370-2693(88)90022-6</a>)
 
-* N. N. Scoccola, D. P. Min, H. Nadeau, [[Mannque Rho]], _The strangeness problem: An $SU(3)$ skyrmion with vector mesons_, Nuclear Physics A Volume 505, Issues 3–4, 25 December 1989, Pages 497-524 (<a href="https://doi.org/10.1016/0375-9474(89)90029-8">doi:10.1016/0375-9474(89)90029-8</a>)
+* [[Norberto Scoccola]], D. P. Min, H. Nadeau, [[Mannque Rho]], _The strangeness problem: An $SU(3)$ skyrmion with vector mesons_, Nuclear Physics A Volume 505, Issues 3–4, 25 December 1989, Pages 497-524 (<a href="https://doi.org/10.1016/0375-9474(89)90029-8">doi:10.1016/0375-9474(89)90029-8</a>)
 
 
 Review:
@@ -27,14 +27,19 @@ Review:
 
 Inclusion of [[charm quarks]]/[[D-mesons]] into the [[Skyrme model]]:
 
-* [[Mannque Rho]], D. O. Riska, N. N. Scoccola, _Charmed baryons as soliton - D meson bound states_, Phys. Lett.B 251 (1990) 597-602 ([spire:297771](https://inspirehep.net/literature/297771), <a href="https://doi.org/10.1016/0370-2693(90)90802-D">doi:10.1016/0370-2693(90)90802-D</a>)
+* [[Mannque Rho]], D. O. Riska, [[Norberto Scoccola]], _Charmed baryons as soliton - D meson bound states_, Phys. Lett.B 251 (1990) 597-602 ([spire:297771](https://inspirehep.net/literature/297771), <a href="https://doi.org/10.1016/0370-2693(90)90802-D">doi:10.1016/0370-2693(90)90802-D</a>)
+
+* Yongseok Oh, Dong-Pil Min, [[Mannque Rho]], [[Norberto Scoccola]], _Massive-quark baryons as skyrmions: Magnetic moments_, Nuclear Physics A
+Volume 534, Issues 3–4 (1991) Pages 493-512 (<a href="https://doi.org/10.1016/0375-9474(91)90458-I">doi:10.1016/0375-9474(91)90458-I</a>)
+
+
 
 
 #### Inclusion of bottom quarks/B-mesons
 
 Inclusion of further [[heavy flavor|heavy]] [[flavor (particle physics)|flavors]] beyond [[strange quark]]/[[kaons]], namely [[charm quarks]]/[[D-mesons]] and [[bottom quarks]]/[[B-mesons]], into the [[Skyrme model]]:
 
-* [[Mannque Rho]], D. O. Riska, N. N. Scoccola, _The energy levels of the heavy flavour baryons in the topological soliton model_, Zeitschrift für Physik A Hadrons and Nuclei volume 341, pages 343–352 (1992) ([doi:10.1007/BF01283544](https://doi.org/10.1007/BF01283544))
+* [[Mannque Rho]], D. O. Riska, [[Norberto Scoccola]], _The energy levels of the heavy flavour baryons in the topological soliton model_, Zeitschrift für Physik A Hadrons and Nuclei volume 341, pages 343–352 (1992) ([doi:10.1007/BF01283544](https://doi.org/10.1007/BF01283544))
 
 * Arshad Momen, Joseph Schechter, Anand Subbaraman, _Heavy Quark Solitons: Strangeness and Symmetry Breaking_, Phys. Rev. D49:5970-5978, 1994 ([arXiv:hep-ph/9401209](https://arxiv.org/abs/hep-ph/9401209))
 
@@ -43,6 +48,9 @@ Inclusion of further [[heavy flavor|heavy]] [[flavor (particle physics)|flavors]
 Review:
 
 * [[Mannque Rho]], _Massive-quark baryons as Skyrmions_,  Modern Physics Letters A, Vol. 06, No. 23 (1991) ([doi:10.1142/S0217732391002268](https://doi.org/10.1142/S0217732391002268))
+
+* [[Norberto Scoccola]], _Heavy quark skyrmions_, ([arXiv:0905.2722](https://arxiv.org/abs/0905.2722), [doi:10.1142/9789814280709_0004](https://doi.org/10.1142/9789814280709_0004)), Chapter 4 in: _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+
 
 
 
