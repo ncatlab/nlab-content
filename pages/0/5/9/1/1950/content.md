@@ -93,8 +93,8 @@ i.e., a transfinite composition of cobase changes of horn inclusions
 
 * $Ex^\infty$ preserves [[finite limits]] and [[filtered colimits]].
 
-* $Ex^\infty(f)$ is a simplicial weak equivalences
-if and only if $f$ is a simplicial homotopy equivalence.
+* $Ex^\infty(f)$ is a simplicial homotopy equivalence
+if and only if $f$ is a simplicial weak equivalence.
 
 
 ## Applications
