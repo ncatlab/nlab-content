@@ -21,6 +21,11 @@ On [[M5-branes]] in the [[BMN matrix model]]:
 
 * [[Juan Maldacena]], [[Mohammad Sheikh-Jabbari]], [[Mark Van Raamsdonk]], _Transverse Fivebranes in Matrix Theory_, JHEP 0301:038, 2003 ([arXiv:hep-th/0211139](https://arxiv.org/abs/hep-th/0211139))
 
+On a variant of the [[Witten-Sakai-Sugimoto model]] for [[holographic QCD]] with [[D4-brane|D4]] [[flavor branes]]:
+
+* [[Mark Van Raamsdonk]], Kevin Whyte, _Baryon charge from embedding topology and a continuous meson spectrum in a new holographic gauge theory_, JHEP 1005:073, 2010 ([arxiv:0912.0752](https://arxiv.org/abs/0912.0752))
+
+
 On [[holographic entanglement entropy]]:
 
 * [[Mark Van Raamsdonk]], _Building up spacetime with quantum entanglement_, Gen. Rel. Grav. 42:2323-2329, 2010; Int. J. Mod. Phys.D19:2429-2435,2010 ([arXiv:1005.3035](https://arxiv.org/abs/1005.3035)) 
