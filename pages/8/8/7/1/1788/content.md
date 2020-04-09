@@ -2,5 +2,3 @@
 $\phi$ 
 
 $\varphi$
-
-$\Phi$
