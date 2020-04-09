@@ -191,9 +191,9 @@ On [[flavour physics]] and potential [[flavour anomalies]] in [[kaon]]-[[scatter
 * {#Buras18} [[Andrzej Buras]], _The Return of Kaon Flavour Physics_, Acta Phys. Pol. B 49, 1043 (2018) ([doi:10.5506/APhysPolB.49.1043](https://www.actaphys.uj.edu.pl/index_n.php?I=R&V=49&N=6#1043))
 
 
-### Realization in intersecting D-brane models
+### Realization on flavor branes
 
-[[geometric engineering of QFT|geometric engineering]] of flavour physics in [[intersecting D-brane models]] ([[AdS/QCD]]) was originally understood in
+[[geometric engineering of QFT|geometric engineering]] of flavour physics in [[intersecting D-brane models]] ([[flavor branes]] in [[AdS/QCD]]) was originally understood in
 
 * {#KarchKatz02} [[Andreas Karch]], [[Emanuel Katz]],  _Adding flavor to AdS/CFT_, JHEP 0206:043, 2002 ([arxiv:hep-th/0205236](https://arxiv.org/abs/hep-th/0205236))
 
@@ -202,6 +202,16 @@ and then developed in detail for [[QCD]] on [[D8-branes]] in the [[Sakai-Sugimot
 * {#SakaiSugimoto04} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _Low energy hadron physics in holographic QCD_, Prog.Theor.Phys.113:843-882, 2005 ([arXiv:hep-th/0412141](https://arxiv.org/abs/hep-th/0412141))
 
 * {#SakaiSugimoto05} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _More on a holographic dual of QCD_, Prog.Theor.Phys.114:1083-1118, 2005 ([arXiv:hep-th/0507073](https://arxiv.org/abs/hep-th/0507073))
+
+### $SU(2)$-flavor symmetry on heterotic M5-branes
+
+Emergence of [[SU(2)]]  [[flavor (particle physics)|flavor]]-[[chiral symmetry|symmetry]] on [[M5-branes]] in [[heterotic M-theory]] (in the [[D=6 N=(1,0) SCFT]] on [[small instantons]] in [[heterotic string theory]]):
+
+* Abhijit Gadde, Babak Haghighat, [[Joonho Kim]], [[Seok Kim]], Guglielmo Lockhart, [[Cumrun Vafa]], Section 4.2 of: _6d String Chains_ ([arXiv:1504.04614](https://arxiv.org/abs/1504.04614))
+
+* [[Kantaro Ohmori]], Section 2.3.1 of: _Six-Dimensional Superconformal Field Theories and Their Torus Compactifications_, Springer Theses 2018 ([springer:book/9789811330919](https://www.springer.com/gp/book/9789811330919))
+
+
 
 
 
