@@ -828,6 +828,13 @@ JHEP 1008:007,2010 ([arxiv:1003.3698](https://arxiv.org/abs/1003.3698))
 
 * Matteo Rinaldi, _Double parton correlations in mesons within AdS/QCD soft-wall models: a first comparison with lattice data_ ([arXiv:2003.09400](https://arxiv.org/abs/2003.09400))
 
+
+
+[[!include heavy flavor hadrodynamics via holographic QCD -- references]]
+
+
+
+
 ### Flux string breaking
 
 * Oleg Andreev, _String Breaking, Baryons, Medium, and Gauge/String Duality_ ([arXiv:2003.09880](https://arxiv.org/abs/2003.09880))
@@ -1013,14 +1020,6 @@ Application to QCD [[QFT with defects|with defects]]:
 * Alexander Gorsky, Valentin Zakharov, Ariel Zhitnitsky, _On Classification of QCD defects via holography_, Phys. Rev. D79:106003, 2009 ([arxiv:0902.1842](https://arxiv.org/abs/0902.1842))
 
 
-### Heavy flavor in holographic QCD
-
-Discussion of [[heavy flavor]] in [[holographic QCD]]:
-
-
-* Nicolas Kovensky, Andreas Schmitt, _Heavy Holographic QCD_ ([arxiv:1911.08433](https://arxiv.org/abs/1911.08433))
-
-* Daisuke Fujii, [[Atsushi Hosaka]], _Heavy baryons in holographic QCD with higher dimensional degrees of freedom_ ([arXiv:2003.13415](https://arxiv.org/abs/2003.13415))
 
 
 
