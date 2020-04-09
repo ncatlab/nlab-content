@@ -35,6 +35,8 @@ Some standard examples are [[Fourier analysis]] on locally compact abelian group
 
 * [[sampling theory]]
 
+* [[Restriction Theory]]
+
 ## References
 
 * Wikipedia: [harmonic analysis](http://en.wikipedia.org/wiki/Harmonic_analysis)
