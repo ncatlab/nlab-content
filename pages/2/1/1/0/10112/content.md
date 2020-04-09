@@ -39,11 +39,12 @@ The mesons in the first [[generation of fermions]], being [[bound states]] of [[
 
 * [[ω-meson]]
 
-As [[linear representations]] of the [[Lorentz group]] ([[Pin group]]) and [[isospin]] [[flavour (particle physics)|flavour]] group ([[Wigner classification]]) these first-generation meson [[field (physics)|fields]] are given as follows:
+{#WignerClassification} As [[linear representations]] of the [[Lorentz group]] (or rather of the[[Pin group]]) and [[isospin]] [[flavour (particle physics)|flavour]] group (under [[Wigner classification]]) these first-generation meson [[field (physics)|fields]] are given as in the first of the following two tables:
+
 
 \begin{imagefromfile}
-    "file_name": "FirstGenerationMesonFieldsPin.jpg",
-    "width": 500,
+    "file_name": "LightAndStrangeMesonFieldsPin.jpg",
+    "width": 470,
     "unit": "px",
     "margin": {
         "top": 0,
@@ -83,6 +84,7 @@ $$
     }
   }
   \;=\;
+  \left(
   \array{
     \bar u \gamma^\mu \gamma^5 u
     &
@@ -92,18 +94,23 @@ $$
     &
     \bar d \gamma^\mu \gamma^5 d
   }
+  \right)
 $$
 
 
 ### Second-generation mesons
 
-Mesons containing [[strange quarks]] from the second [[generation of fermions]]:
+Mesons containing [[strange quarks]] (the first [[heavy mesons]] with respect to 2-flavor [[chiral perturbation theory]]) from the second [[generation of fermions]]:
 
-* [[kaon]]
+* [[eta-meson]]
+
+* [[kaon]], [[K*-meson]]
+
+* [[phi-meson]]
 
 ### Third-generation mesons
 
-Mesons containing [[bottom quarks]] from the second [[generation of fermions]]:
+[[heavy meson|Heavy mesons]] containing [[bottom quarks]] from the second [[generation of fermions]]:
 
 
 * [[B meson]]
