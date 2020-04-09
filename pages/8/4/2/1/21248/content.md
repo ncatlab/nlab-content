@@ -14,7 +14,7 @@ Combination of the [[omega-meson]]-stabilized [[Skyrme model]] with the [[bag mo
 * [[Atsushi Hosaka]], _Omega stabilized chiral bag model with a surface $\omega q q$ coupling_, Nuclear Physics A Volume 546, Issue 3, 31 (1992) Pages 493-508 (<a href="https://doi.org/10.1016/0375-9474(92)90544-T">doi:10.1016/0375-9474(92)90544-T</a>)
 
 
-On [[baryons]] in [[holographic QCD]] coming from higher [[KK-compactification|KK-modes]]:
+On [[heavy baryons]] in [[holographic QCD]] coming from higher [[KK-compactification|KK-modes]]:
 
 * Daisuke Fujii, [[Atsushi Hosaka]], _Heavy baryons in holographic QCD with higher dimensional degrees of freedom_ ([arXiv:2003.13415](https://arxiv.org/abs/2003.13415))
 
