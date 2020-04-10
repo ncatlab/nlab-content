@@ -595,7 +595,7 @@ and its relation to [[baryons]]:
 
 Variant with [[D4-brane|D4]] [[flavor branes]]:
 
-* [[Mark Van Raamsdonk]], Kevin Whyte, _Baryon charge from embedding topology and a continuous meson spectrum in a new holographic gauge theory_, JHEP 1005:073, 2010 ([arxiv:0912.0752](https://arxiv.org/abs/0912.0752))
+* [[Mark Van Raamsdonk]], Kevin Whyte, _Baryon charge from embedding topology and a continuous meson spectrum in a new holographic gauge theory_, JHEP 1005:073, 2010 ([arXiv:0912.0752](https://arxiv.org/abs/0912.0752))
 
 * Shigenori Seki, _Intersecting D4-branes Model of Holographic QCD and Tachyon Condensation_, JHEP 1007:091, 2010 ([arXiv:1003.2971](https://arxiv.org/abs/1003.2971))
 
