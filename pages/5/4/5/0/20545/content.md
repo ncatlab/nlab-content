@@ -96,4 +96,9 @@ The [[KK-compactification]] specifically of the [[D=6 N=(1,0) SCFT]] to [[D=4 N=
 
 
 
+[[!include flavor on heterotic M5-branes -- references]]
+
+
+
+
 [[!redirects D=6 N=(1,0) SCFTs]]
