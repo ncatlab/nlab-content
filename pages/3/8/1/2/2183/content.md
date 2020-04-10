@@ -1,4 +1,4 @@
-The material previously on this page may be found at [InterSciWiki](http://intersci.ss.uci.edu/wiki/index.php/Hypostatic_abstraction).
+The material previously on this page is now located at the [Online Encyclopedia of Integer Sequences Wiki](https://oeis.org/wiki/Hypostatic_abstraction).
 
 [[!redirects hypostasis]]
 [[!redirects hypostases]]
