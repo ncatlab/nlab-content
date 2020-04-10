@@ -3,9 +3,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Gravity
-+--{: .hide}
-[[!include gravity contents]]
+#### Cosmology
++-- {: .hide}
+[[!include cosmology -- contents]]
 =--
 #### String theory
 +-- {: .hide}
@@ -13,6 +13,8 @@
 =--
 =--
 =--
+
+
 
 #Contents#
 * table of contents
