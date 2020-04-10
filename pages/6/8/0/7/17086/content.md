@@ -6,8 +6,14 @@
 +-- {: .hide}
 [[!include physicscontents]]
 =--
+#### Cosmology
++-- {: .hide}
+[[!include cosmology -- contents]]
 =--
 =--
+=--
+
+
 
 ## Contents
 * table of contents
