@@ -28,7 +28,7 @@ $$
 
 This kind of line bundle is often referred to as the _Deligne line bundle_, following ([Deligne 91](#Deligne91)).
 
-They were originally motivated and used in a geometric construction of the [[Beilinson regulartor]] $c_{2,2}$, see at _[Beilinson regulator -- Geometic construction](higher+regulator#GeometricConstruction)_.
+They were originally motivated and used in a geometric construction of the [[Beilinson regulator]] $c_{2,2}$, see at _[Beilinson regulator -- Geometic construction](higher+regulator#GeometricConstruction)_.
 
 The universal version of this is the Deligne bundle on $\mathbb{G}_m \times \mathbb{G}_m$ with $f$ and $g$ the [[projection]] onto the first and onto the second factor, respectively (e.g. [Brylinski 00, p. 15](#Brylinski00)).
 
