@@ -868,7 +868,9 @@ P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} &  P(1)^{\mathrl
 
 But use Tikz wherever possible.
 
-###Image files
+### Image files
+  {#ImageFiles}
+
 
 One can upload an image to the nLab as follows. 
 
