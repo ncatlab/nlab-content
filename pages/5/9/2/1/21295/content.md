@@ -3,7 +3,7 @@
 
 Emergence of [[SU(2)]]  [[flavor (particle physics)|flavor]]-[[chiral symmetry|symmetry]] on single [[M5-branes]] in [[heterotic M-theory on ADE-orbifolds]] (in the [[D=6 N=(1,0) SCFT]] on [[small instantons]] in [[heterotic string theory]]):
 
-* Abhijit Gadde, Babak Haghighat, [[Joonho Kim]], [[Seok Kim]], Guglielmo Lockhart, [[Cumrun Vafa]], Section 4.2 of: _6d String Chains_ ([arXiv:1504.04614](https://arxiv.org/abs/1504.04614))
+* Abhijit Gadde, Babak Haghighat, [[Joonho Kim]], [[Seok Kim]], Guglielmo Lockhart, [[Cumrun Vafa]], Section 4.2 of: _6d String Chains_,   J. High Energ. Phys. 2018, 143 (2018) ([arXiv:1504.04614](https://arxiv.org/abs/1504.04614), <a href="https://doi.org/10.1007/JHEP02(2018)143">doi:10.1007/JHEP02(2018)143</a>)
 
 * [[Kantaro Ohmori]], Section 2.3.1 of: _Six-Dimensional Superconformal Field Theories and Their Torus Compactifications_, Springer Theses 2018 ([springer:book/9789811330919](https://www.springer.com/gp/book/9789811330919))
 
