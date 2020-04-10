@@ -162,7 +162,7 @@ Comments on the proof are at
 
 * MathOverflow, _[Philosophy behind Mochizuki's work on the ABC conjecture](http://mathoverflow.net/questions/106560/philosophy-behind-mochizukis-work-on-the-abc-conjecture/106658#106658)_
 
-An popular account of the problem of the math community checking the proof is in 
+A popular account of the problem of the math community checking the proof is in 
 
 * Caroline Chen, _The Paradox of the Proof_ ([web](http://projectwordsworth.com/the-paradox-of-the-proof/))
 
