@@ -30,6 +30,78 @@ $$
 $$
 since $X^*1$ is constant. Alternatively, we can use the fact that the integral of $X\vert f\vert$ along all the lines with the same direction equals $\left\Vert f\right\Vert_1$, which also implies the inclusion $X:L^1(\mathbb{R}^n)\to L^1(M_n)$. Any other bound of the X-ray transform can be interpolated with this bound to get further inequalities.
 
+The relation between that X-ray transform and the Kakeya set conjecture is the content of the following Theorem
+
++-- {: .num_theorem}
+###### Theorem
+
+If $n-sp\gt0$ and if the inclusion $X:W^{s,p}(\mathbb{R}^n)\to L^1_\sigma L^\infty_x(M_n)$ holds true, then the Hausdorff dimension of a Kakeya set is at least $n-sp$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+To compute the Hausdorff dimension we can use both balls $B_r(x)$ and dyadic cubes $Q_k := [l2^k,(l+1)2^k]^n$, for $k$ integer. In fact, we can cover a cube $Q_k$ with a ball of radius $\sqrt{n}2^{k-1}$, and conversely we can cover a ball of radius $r$ with a few cubes $Q_k$, for $2^{k-1}\lt r\le 2^k$. 
+
+Let $E\subset\mathbb{R}^n$ be a Kakeya set. Give any covering $\mathcal{C} = \{Q_k\}$ of $E$ at scale $0\lt\delta\le 1$, i.e. a covering such that for every cube $Q_k\in\mathcal{C}$ its side-length is $2^k\le\delta$, the goal is to show that if $0\le d\lt n-sp$ then
+$$
+\sum_{Q_k\in\mathcal{C}}l(Q_k)^d \to \infty \quad as\;\delta\to 0,
+$$
+where $l(Q_k) = 2^k$ is the side-length of the cube.
+
+Let $\mathcal{C}$ be a covering of $E$ at scale $\delta$, and let $\mathcal{C}_k$ be the collection of cubes in $\mathcal{C}$ with side-length $2^k$. We take a smooth function $\varphi$ such that $\varphi(x)\ge \frac{1}{2}$ for all $x\in [-\frac{1}{2},\frac{1}{2}]^n$, and such that $\hat{\varphi}$ is supported in the cube $[-2,2]^n$. If $T_{Q_k}$ is a linear transformation carrying $[-\frac{1}{2},\frac{1}{2}]^n$ to a cube $Q_k$, then $\varphi_{Q_k} := \varphi\circ T_{Q_k}^{-1}$ is morally supported in $Q_k$. Since $\mathcal{C}$ is a covering of $E$, then we have that
+$$
+1_E \le C\sum_k\sum_{Q_k\in \mathcal{C}_k}\varphi_{Q_k}.
+$$
+Since $E$ contains a unit line segment in every direction $\sigma$, then for every $\sigma\in \mathbb{P}^{n-1}$ it holds that $\Vert X1_E(\cdot,\sigma)\Vert_{L^\infty} \ge 1$, and then that
+$$
+1\le \Vert X1_E\Vert_{L^1_\sigma L^\infty_x}\le C\sum_{2^k\le\delta}\Vert X\big(\sum_{Q_k\in\mathcal{C}_k}\varphi_{Q_k}\big)\Vert_{L^1_\sigma L^\infty_x}.
+$$
+By the inclusion $X:W^{s,p}(\mathbb{R}^n)\to L^1_\sigma L^\infty_x(M_n)$ we have that
+$$
+\label{eqProofCovering}
+1\le C\sum_{2^k\le\delta} \Vert \sum_{Q_k\in\mathcal{C}_k}\varphi_{Q_k}\Vert_{W^{s,p}}.
+$$
+In general, the $W^{s,p}$-norm of a function $f$ with Fourier transform supported in frequencies $\vert \xi\vert\le R$ is
+$$
+\Vert f\Vert_{W^{s,p}}\le CR^s\Vert f\Vert_p;
+$$
+this may be proved by using Young's inequality for convolutions. Since the Fourier transform of $\varphi_{Q_k}$ is supported in frequencies $\vert\xi\vert\le C2^{-k}$, then 
+$$
+\Vert \sum_{Q_k\in\mathcal{C}_k}\varphi_{Q_k}\Vert_{W^{s,p}} \le 2^{-ks+\frac{nk}{p}}\vert \mathcal{C}_k\vert^\frac{1}{p}
+$$
+where $\vert \mathcal{C}_k\vert$ denotes the number of cubes in $\mathcal{C}_k$. We use this inequality in (eq:eqProofCovering) to get
+$$
+1 \le C\sum_{2^k\le\delta}2^{-ks+\frac{nk}{p}}\vert \mathcal{C}_k\vert^\frac{1}{p}.
+$$
+By hypothesis $n-sp\gt 0$, then for every $0\le d \lt n-sp$ we can apply Hölder inequality to get
+$$
+1 \le \Big(\sum_{2^k\le\delta} 2^{p'k(\frac{n-d}{p}-s)}\Big)^\frac{1}{p'}\Big(\sum_k 2^{kd}\vert\mathcal{C}_k\vert\Big)^\frac{1}{p} \le C\delta^\alpha\Big(\sum_{Q_k\in\mathcal{C}}l(Q_k)^d\Big)^\frac{1}{p},
+$$
+where $\alpha = \frac{n-d}{p}-s\gt 0$. The statement of the Theorem follows. 
+
+=--
+
+For a fixed direction $\sigma$, the X-ray transform maps $f$ to a function $x\mapsto Xf(x,\sigma)$ in $\mathbb{R}^{n-1}$. The function $Xf(\cdot,\sigma)$ turns out to be more regular than $f$. 
+
++-- {: .num_theorem}
+###### Theorem
+
+If $f\in L^2(\mathbb{R}^n)$ then
+$$
+\label{eqThmL2Bound}
+\left\Vert \vert D\vert^\frac{1}{2}Xf\right\Vert_{L^2(M_n)} \le C\left\Vert f\right\Vert_{L^2(\mathbb{R}^n)}.
+$$
+
+=--
+
+The Sobolev embedding Theorem $\Vert f\Vert_{L^\infty(\mathbb{R}^{n-1})}\le C\Vert f\Vert_{W^{s,2}(\mathbb{R}^{n-1})}$, for $s\gt \frac{n-1}{2}$, and the inequality (eq:eqThmL2Bound) allow us to conclude that
+$$
+\Vert f\Vert_{L^2_\sigma L^\infty_x}\le C \Vert f\Vert_{W^{s,2}(\mathbb{R}^n)}
+$$
+for $s\gt \frac{n}{2}-1$. Hence, the Hausdorff dimension of a Kakeya set $E\subset\mathbb{R}^n$ is at least 2. This result is the best possible in $\mathbb{R}^2$, but  far away from the expected dimension for $n\ge 3$.
+
 +-- {: .num_theorem}
 ###### Theorem
 **(Drury's $L^{\frac{n+1}{2},1}\to L^{n+1,\infty}$ Inclusion)
