@@ -24,6 +24,12 @@ X^*f = \int f\delta_{\{x\}}(l)\,d\mu(l);
 $$
 here $\delta_{\{x\}} := \lim_{\varepsilon\to 0}\varepsilon^{-n+1}1_{\{l\in M_n\mid \;l\cap B_\varepsilon(x)\neq\emptyset\}}$  ---this is a distribution in $M_n$, do not confuse with the typical Dirac delta $\delta_x$ centered at $x$. The distribution $\delta_{\{x\}}$ is the restriction of the measure $\mu$ in $M_n$ to the set of lines passing through $x\in\mathbb{R}^n$.
 
+The first bound we can get for the X-ray transform is
+$$
+\int \vert Xf\vert\,d\mu(l) \le \int X\vert f\vert\,1\,d\mu(l) = \int \vert f\vert\,X^*1\,dx = \int \vert f\vert\,dx,
+$$
+since $X^*1$ is constant. Alternatively, we can use the fact that the integral of $X\vert f\vert$ along all the lines with the same direction equals $\left\Vert f\right\Vert_1$, which also implies the inclusion $X:L^1(\mathbb{R}^n)\to L^1(M_n)$. Any other bound of the X-ray transform can be interpolated with this bound to get further inequalities.
+
 +-- {: .num_theorem}
 ###### Theorem
 **(Drury's $L^{\frac{n+1}{2},1}\to L^{n+1,\infty}$ Inclusion)
