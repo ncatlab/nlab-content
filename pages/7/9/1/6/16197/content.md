@@ -2,16 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
-=--
-#### Gravity
-+--{: .hide}
-[[!include gravity contents]]
+#### Cosmology
++-- {: .hide}
+[[!include cosmology -- contents]]
 =--
 =--
 =--
+
 
 
 
