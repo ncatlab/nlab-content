@@ -53,6 +53,8 @@ There this interpretation of small instantons as [[wrapped brane|wrapped]] 5-bra
 
 ## References
 
+### General
+
 * {#Strominger90} [[Andrew Strominger]], _Heterotic solitons_, _Nuclear Physics B, Volume 343, Issue 1, Pages 167-184, 1990 (<a href="https://doi.org/10.1016/0550-3213(90)90599-9">doi:10.1016/0550-3213(90)90599-9</a>)
 
 * {#Witten96} [[Edward Witten]], _Small Instantons in String Theory_, Nucl. Phys. B460:541-559, 1996 ([arXiv:hep-th/9511030](https://arxiv.org/abs/hep-th/9511030))
@@ -64,6 +66,11 @@ There this interpretation of small instantons as [[wrapped brane|wrapped]] 5-bra
 * {#AspinwallGross96} [[Paul Aspinwall]], [[Mark Gross]], _The $SO(32)$ Heterotic String on a K3 Surface_, Phys. Lett. B387 (1996) 735-742 ([arXiv:hep-th/9605131](https://arxiv.org/abs/hep-th/9605131))
 
 * {#AspinwallMorrison97} [[Paul Aspinwall]], [[David Morrison]], _Point-like Instantons on K3 Orbifolds_, Nucl. Phys. B503 (1997) 533-564 ([arXiv:hep-th/9705104](https://arxiv.org/abs/hep-th/9705104))
+
+
+
+[[!include flavor on heterotic M5-branes -- references]]
+
 
 
 [[!redirects small instantons]]
