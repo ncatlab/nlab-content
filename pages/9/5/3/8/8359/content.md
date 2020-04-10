@@ -1,17 +1,20 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Riemannian geometry
-+--{: .hide}
-[[!include Riemannian geometry - contents]]
+#### Cosmology
++-- {: .hide}
+[[!include cosmology -- contents]]
 =--
 #### Gravity
-+-- {: .hide}
++--{: .hide}
 [[!include gravity contents]]
 =--
 =--
 =--
+
+
 
 #Contents#
 * table of contents
