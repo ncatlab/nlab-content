@@ -7,12 +7,16 @@
 +--{: .hide}
 [[!include gravity contents]]
 =--
-#### Quantum Field Theory
-+--{: .hide}
-[[!include AQFT and operator algebra contents]]
+#### Cosmology
++-- {: .hide}
+[[!include cosmology -- contents]]
 =--
 =--
 =--
+
+
+
+
 
 
 #Contents#
