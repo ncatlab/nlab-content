@@ -67,7 +67,7 @@ is an [[equalizer]] for any [[surjection]] of [[profinite sets]] $S'\to S$.
 \end{definition}
 
 
-[Scholze, p.7](#Scholze) modifies this definition to deal with size issues: 
+[Scholze, p.7](#ScholzeLCM) modifies this definition to deal with size issues: 
 
 For any uncountable [[strong limit cardinal]] $\kappa$, the category of _$\kappa$-condensed sets_ is the [[category of sheaves]] on the [[site]] of profinite sets of [[cardinality]] less than $\kappa$, with finite jointly surjective families of maps as covers. 
 
@@ -83,7 +83,8 @@ The category of condensed sets is then the (large) [[colimit]] of the category o
 
 ## References
 
-* {#Scholze} [[Peter Scholze]], _Lectures on condensed mathematics_, [PDF](https://www.math.uni-bonn.de/people/scholze/Condensed.pdf)
+* {#ScholzeLCM} [[Peter Scholze]], _Lectures on condensed mathematics_, [pdf](https://www.math.uni-bonn.de/people/scholze/Condensed.pdf)
+* {#ScholzeLAG} [[Peter Scholze]], _Lectures on analytic geometry_, [pdf](https://www.math.uni-bonn.de/people/scholze/Analytic.pdf)
 
 [[!redirects condensed sets]]
 [[!redirects condensed object]]
