@@ -26,6 +26,10 @@ The class of D-mesons goes alongside that of [[K-mesons]] ([[light mesons]] with
 
 ### General
 
+On [[D-meson]] [[decays]]:
+
+* Marina Artuso, Brian Meadows, [[Alexey Petrov]], _Charm Meson Decays_, Ann. Rev. Nucl. Part. Sci.58:249-291, 2008 ([arXiv:0802.2934](https://arxiv.org/abs/0802.2934))
+
 See also
 
 * Wikipedia, _[D-meson](https://en.wikipedia.org/wiki/D_meson)_
