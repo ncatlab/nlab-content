@@ -1,7 +1,12 @@
 
 ### The WZW term of QCD chiral perturbation theory
+ {#WZWTermOfChiralPerturbationTheoryReferences}
 
 The [[gauged WZW model|gauged]] [[WZW term]] of [[chiral perturbation theory]]/[[quantum hadrodynamics]] which reproduces the [[chiral anomaly]] of [[QCD]] in the [[effective field theory]] of [[mesons]] and [[Skyrmions]]:
+
+
+#### General
+ {#WZWTermOfChiralPerturbationTheoryReferencesGeneral}
 
 The original articles:
 
@@ -38,12 +43,17 @@ Interpretation as [[Skyrmion]]/[[baryon current]]:
 
 * {#RhoEtAl16} [[Mannque Rho]] et al., _Introduction_, In: [[Mannque Rho]] et al. (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
-
 Concrete form for $N$-[[flavor (particle physics)|flavor]] [[quantum hadrodynamics]] in 2d:
 
 * C. R. Lee, H. C. Yen, _A Derivation of The Wess-Zumino-Witten Action from Chiral Anomaly Using Homotopv Operators_, Chinese Journal of Physics, Vol 23 No. 1 (1985) ([spire:16389](https://inspirehep.net/literature/16389), [[LeeYenWZW85.pdf:file]])
 
-Concrete form for 2-[[flavor (particle physics)|flavor]] [[quantum hadrodynamics]] in 4d ([[Skyrmion model]] with [[vector mesons]] included):
+
+
+#### Including light vector mesons
+ {#WZWTermOfChiralPerturbationTheoryReferencesIncludingLightVectorMesons}
+
+
+Concrete form for 2-[[flavor (particle physics)|flavor]] [[quantum hadrodynamics]] in 4d ([[Skyrmion model]] with [[light meson|light]] [[vector mesons]] included):
 
 * {#MeissnerZahed86} [[Ulf-G. Meissner]], [[Ismail Zahed]], equation (6) in: _Skyrmions in the Presence of Vector Mesons_, Phys. Rev. Lett. 56, 1035 (1986) ([doi:10.1103/PhysRevLett.56.1035](https://doi.org/10.1103/PhysRevLett.56.1035))
 
@@ -53,7 +63,12 @@ Concrete form for 2-[[flavor (particle physics)|flavor]] [[quantum hadrodynamics
 
 * {#Kaiser00} Roland Kaiser, equation (12) in: _Anomalies and WZW-term of two-flavour QCD_, Phys. Rev. D63:076010, 2001 ([arXiv:hep-ph/0011377](https://arxiv.org/abs/hep-ph/0011377), [spire:537600](https://inspirehep.net/literature/537600))
 
-Including [[heavy mesons]]: 
+
+
+#### Including heavy scalar mesons
+ {#WZWTermOfChiralPerturbationTheoryReferencesIncludingHeavyScalarMesons}
+
+Including [[heavy mesons|heavy]] [[scalar mesons]]: 
 
 specifically [[kaons]]:
 
@@ -68,12 +83,25 @@ specifically [[D-mesons]]:
 
 (...)
 
-and [[B-mesons]]:
+specifically [[B-mesons]]:
 
 * [[Mannque Rho]], D. O. Riska, N. N. Scoccola, above (2.1) in: _The energy levels of the heavy flavour baryons in the topological soliton model_, Zeitschrift für Physik A Hadrons and Nuclei volume 341, pages343–352 (1992) ([doi:10.1007/BF01283544](https://doi.org/10.1007/BF01283544))
 
 
 
+#### Including heavy vector mesons
+ {#WZWTermOfChiralPerturbationTheoryReferencesIncludingHeavyVectorMesons}
+
+Inclusion of [[heavy mesons|heavy]] [[vector mesons]]:
+
+specifically [[K*-mesons]]:
+
+* S. Ozaki, H. Nagahiro, [[Atsushi Hosaka]], Equations (3) and (9) in: _Magnetic interaction induced by the anomaly in kaon-photoproductions_, Physics Letters B Volume 665, Issue 4, 24 July 2008, Pages 178-181 ([arXiv:0710.5581](https://arxiv.org/abs/0710.5581), [doi:10.1016/j.physletb.2008.06.020](https://doi.org/10.1016/j.physletb.2008.06.020))
+
+
+
+#### Including electroweak interactions
+ {#WZWTermOfChiralPerturbationTheoryReferencesIncludingElectroweakInteractions}
 
 Including [[electroweak fields]]:
 
