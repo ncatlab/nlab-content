@@ -217,6 +217,10 @@ See the references at _[[chiral perturbation theory]]_.
 
 
 
+[[!include WZW term of QCD chiral perturbation theory -- references]]
+
+
+
 ### In the large $N$ limit
 
 In the [[large N limit]]:
