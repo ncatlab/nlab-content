@@ -5,6 +5,10 @@
 
 ## Selected writings
 
+On [[D-meson]] [[decays]]:
+
+* Marina Artuso, Brian Meadows, [[Alexey Petrov]], _Charm Meson Decays_, Ann. Rev. Nucl. Part. Sci.58:249-291, 2008 ([arXiv:0802.2934](https://arxiv.org/abs/0802.2934))
+
 On [[effective field theory]]:
 
 * {#PetrovBlechman16} [[Alexey Petrov]], Andrew E Blechman, _Effective Field Theories_, World Scientific 2016 ([doi:10.1142/8619](https://doi.org/10.1142/8619))
