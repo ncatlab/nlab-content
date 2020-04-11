@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -1075,6 +1074,3 @@ Application to QCD [[QFT with defects|with defects]]:
 [[!redirects improved holographic quantum chromodynamics]]
 
 [[!redirects Ads/QCD]]
-
-
-
