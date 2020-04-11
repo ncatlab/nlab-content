@@ -26,7 +26,7 @@ The operator dual to $X$, _i.e._ $\int Xh\,f\,d\mu = \int h\,X^*f\,dx$, acts on 
 $$
 X^*f = \int f\delta_{\{x\}}(l)\,d\mu(l);
 $$
-here $\delta_{\{x\}} := \lim_{\varepsilon\to 0}\varepsilon^{-n+1}1_{\{l\in M_n\mid \;l\cap B_\varepsilon(x)\neq\emptyset\}}$  ---this is a distribution in $M_n$, do not confuse with the typical Dirac delta $\delta_x$ centered at $x$. The distribution $\delta_{\{x\}}$ is the restriction of the measure $\mu$ in $M_n$ to the set of lines passing through $x\in\mathbb{R}^n$.
+here $\delta_{\{x\}} := \lim_{\varepsilon\to 0}\varepsilon^{-n+1}1_{\{l\in M_n\mid \;l\cap B_\varepsilon(x)\neq\emptyset\}}$  ---this is a distribution in $M_n$, do not confuse with the usual Dirac delta $\delta_x$ centered at $x$. The distribution $\delta_{\{x\}}$ is the restriction of the measure $\mu$ in $M_n$ to the set of lines passing through $x\in\mathbb{R}^n$.
 
 The first bound we can get for the X-ray transform is
 $$
@@ -62,8 +62,9 @@ The relation between that X-ray transform and the Kakeya set conjecture is the c
 
 +-- {: .num_theorem}
 ###### Theorem
+**([Bourgain 1991, Lemma 2.15](#bourgain1991))
 
-Let $n-sp\gt 0$. If for every function $f$ with support in $K$, for $K$ compact, it holds that
+Let $n-sp\gt 0$. If for every function $f$ such that $supp\,f\subset K$, for $K$ compact, it holds that
 $$
 \label{eqThmXRayKakeya}
 \Vert Xf\Vert_{L^1_\sigma L^\infty_x(M_n)}\le C_K\Vert f\Vert_{W^{s,p}(\mathbb{R}^n)},
@@ -158,19 +159,49 @@ For a fixed direction $\sigma$, the X-ray transform maps $f$ to a function $x\ma
 +-- {: .num_theorem}
 ###### Theorem
 
-If $f\in L^2(\mathbb{R}^n)$ then
+If $f\in L^2(\mathbb{R}^n)$ has support $supp f\subset K$, for $K$ compact, then
 $$
 \label{eqThmL2Bound}
-\left\Vert \vert D\vert^\frac{1}{2}Xf\right\Vert_{L^2(M_n)} \le C\left\Vert f\right\Vert_{L^2(\mathbb{R}^n)}.
+\left\Vert \vert \langle D\rangle^\frac{1}{2}Xf\right\Vert_{L^2(M_n)} \le C_K\left\Vert f\right\Vert_{L^2(\mathbb{R}^n)}.
 $$
 
 =--
 
-The Sobolev embedding Theorem $\Vert f\Vert_{L^\infty(\mathbb{R}^{n-1})}\le C\Vert f\Vert_{W^{s,2}(\mathbb{R}^{n-1})}$, for $s\gt \frac{n-1}{2}$, and the inequality (eq:eqThmL2Bound) allow us to conclude that
+###### Remark
+
+The Japanese bracket $\langle\cdot\rangle$ is defined as $\langle \xi\rangle := (1+\vert \xi\vert^2)^\frac{1}{2}$, and then $\langle D\rangle^2 = I-\Delta$.
+
++-- {: .proof}
+###### Proof
+
+We set $g := \langle D\rangle^\frac{1}{2} f$, and for a fixed direction $\sigma\in \mathbb{P}^{n-1}$ we compute the Fourier transform of the function $x\in\mathbb{R}^{n-1}\mapsto Xg(x,\sigma)$. By rotational symmetry we can assume that $\sigma = e_n$, so
+$$
+Xg(x,e_n) = \int g(x,t)\,dt.
+$$
+The Fourier transform is $(Xg(\cdot,e_n))^\wedge(\eta) = \hat{g}(\eta,0)$. If $\delta_{\perp\sigma} = \lim_{\varepsilon\to 0}\varepsilon^{-1}1_{\{\xi\mid \vert\langle \xi,\sigma\rangle\vert\le\varepsilon\}}$ is the Dirac delta of the plane normal to $\sigma$, then we may write
+$$
+\Vert Xg(\cdot,\sigma)\Vert_{L^2(\mathbb{R}^{n-1})}^2 = \int \vert \hat{g}\vert^2\delta_{\perp\sigma}\,d\xi.
+$$
+Hence,
+$$
+\Vert Xg(\cdot,\sigma)\Vert_{L^2(M_n)}^2 = \int\vert \hat{g}\vert^2\Big(\int_{S^{n-1}}\delta_{\perp\sigma}(\xi)\,dS(\sigma)\Big)\,d\xi = \int \langle \xi\rangle\vert\hat{f}\vert^2\frac{d\xi}{\vert \xi\vert}.
+$$
+For high frequencies we have that
+$$
+\int_{\vert\xi\vert\ge 1} \langle \xi\rangle\vert\hat{f}\vert^2\frac{d\xi}{\vert \xi\vert} \le C\Vert f\Vert_2^2.
+$$
+For low frequencies we have that
+$$
+\int_{\vert\xi\vert\le 1} \langle \xi\rangle\vert\hat{f}\vert^2\frac{d\xi}{\vert \xi\vert} \le C\Vert f\Vert_1^2 \le C_K\Vert f\Vert_2^2.
+$$
+The statement of the Theorem follows.
+=--
+
+The Sobolev embedding Theorem $\Vert f\Vert_{L^\infty(\mathbb{R}^{n-1})}\le C\Vert f\Vert_{W^{s,2}(\mathbb{R}^{n-1})}$, for $s\gt \frac{n-1}{2}$, and the inequality (eq:eqThmL2Bound) allow us to conclude that for $f$ such that $supp\,f\subset K$, for $K$ compact, we have that
 $$
 \Vert f\Vert_{L^2_\sigma L^\infty_x}\le C \Vert f\Vert_{W^{s,2}(\mathbb{R}^n)}
 $$
-for $s\gt \frac{n}{2}-1$. Hence, the Hausdorff dimension of a Kakeya set $E\subset\mathbb{R}^n$ is at least 2. This result is the best possible in $\mathbb{R}^2$, but  far away from the expected dimension for $n\ge 3$.
+for $s\gt \frac{n}{2}-1$. Hence, the Hausdorff dimension of a Kakeya set $E\subset\mathbb{R}^n$ is at least 2. This result is the best possible in $\mathbb{R}^2$ ([Córdoba 1977](#cordoba1977)), but  far away from the expected dimension for $n\ge 3$.
 
 +-- {: .num_defn #LorentzSpace}
 ###### Definition
@@ -188,7 +219,7 @@ $$
 
 +-- {: .num_theorem}
 ###### Theorem
-**(Drury, 1983)
+**([Drury 1983](#drury1983))
 
 If $E\subset \mathbb{R}^n$ is a measurable set, and $1_E$ is the characteristic function of $E$, then
 \[
@@ -250,10 +281,12 @@ which implies the restricted weak inequality (eq:eqThmDrury).
 
 ## References
 
-* [[Bourgain, J.]], Besicovitch type maximal function operators and applications to Fourier Analysis, Geom. Funct. Anal., 1, 1991
+* {#bourgain1991} [[Bourgain, J.]], Besicovitch type maximal function operators and applications to Fourier Analysis, Geom. Funct. Anal., 1, 1991
+
+* {#cordoba1977} [[Córdoba, A.]], The Kakeya Maximal Function and the Spherical Summation Multipliers, Amer. J. Math., 99, 1977
 
 * [[Christ, M.]], Estimates for the $k$-plane transform, Indiana Univ. Math. J., 33, 1984
 
-* [[Drury, S. W.]], $L^p$ estimates for the X-ray transform, Illinois J. Math., 27, 1983
+* {#drury1983} [[Drury, S. W.]], $L^p$ estimates for the X-ray transform, Illinois J. Math., 27, 1983
 
 * {#triebel1978} [[Triebel, H]], Interpolation Theory, Function Spaces, Differential Operators, North-Holland publishing company, 1978
