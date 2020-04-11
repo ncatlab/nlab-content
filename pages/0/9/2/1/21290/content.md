@@ -60,7 +60,7 @@ See ([Triebel 1978, Sec. 2.3.1](#triebel1978)).
 
 The relation between that X-ray transform and the Kakeya set conjecture is the content of the following Theorem
 
-+-- {: .num_theorem}
++-- {: .num_theorem #ThmXRayKakeya}
 ###### Theorem
 **([Bourgain 1991, Lemma 2.15](#bourgain1991))
 
@@ -135,7 +135,7 @@ If $s\neq$ integer, then we have to estimate the norm of $P_k f$; recall that $(
 $$
 \Vert P_k(\psi_l*f)\Vert_p \le \Vert \check{\varphi}_k\Vert_1\Vert \psi_l\Vert_1\Vert f\Vert_p \le C\Vert f\Vert_p.
 $$
-If $k\gt l$ then fix a number $2N\gt s$. We estimate the norm as $P_k f$ as
+If $k\gt l$ then fix a number $2N\gt s$. We estimate the norm of $P_k f$ as
 $$
 \Vert P_k(\psi_l*f)\Vert_p \le \Vert (\vert \xi\vert^{-2N}\varphi_k)^\vee\Vert_1 \Vert \Delta^N(\psi_l*f)\Vert_p.
 $$ 
@@ -197,11 +197,11 @@ $$
 The statement of the Theorem follows.
 =--
 
-The Sobolev embedding Theorem $\Vert f\Vert_{L^\infty(\mathbb{R}^{n-1})}\le C\Vert f\Vert_{W^{s,2}(\mathbb{R}^{n-1})}$, for $s\gt \frac{n-1}{2}$, and the inequality (eq:eqThmL2Bound) allow us to conclude that for $f$ such that $supp\,f\subset K$, for $K$ compact, we have that
+Sobolev embedding Theorem $\Vert f\Vert_{L^\infty(\mathbb{R}^{n-1})}\le C\Vert f\Vert_{W^{s,2}(\mathbb{R}^{n-1})}$, for $s\gt \frac{n-1}{2}$, and the inequality (eq:eqThmL2Bound) allow us to conclude that for every $f$ such that $supp\,f\subset K$, for $K$ compact, it holds that
 $$
-\Vert f\Vert_{L^2_\sigma L^\infty_x}\le C \Vert f\Vert_{W^{s,2}(\mathbb{R}^n)}
+\Vert f\Vert_{L^2_\sigma L^\infty_x}\le C_K \Vert f\Vert_{W^{s,2}(\mathbb{R}^n)},
 $$
-for $s\gt \frac{n}{2}-1$. Hence, the Hausdorff dimension of a Kakeya set $E\subset\mathbb{R}^n$ is at least 2. This result is the best possible in $\mathbb{R}^2$ ([Córdoba 1977](#cordoba1977)), but  far away from the expected dimension for $n\ge 3$.
+for $s\gt \frac{n}{2}-1$. Hence, by Theorem \ref{ThmXRayKakeya} the Hausdorff dimension of a Kakeya set $E\subset\mathbb{R}^n$ is at least 2. This result is the best possible in $\mathbb{R}^2$ ([Córdoba 1977](#cordoba1977)), but  far away from the expected dimension for $n\ge 3$.
 
 +-- {: .num_defn #LorentzSpace}
 ###### Definition
@@ -278,6 +278,16 @@ $$
 which implies the restricted weak inequality (eq:eqThmDrury).
 
 =--
+
+Drury's Theorem and the bound $L^1\to L^1$ imply that
+$$
+\Vert Xf\Vert_{L^q(M_n)}\le C\Vert f\Vert_{L^p(\mathbb{R}^n)},
+$$
+for $1\le p\lt \frac{n+1}{2}$ and $\frac{n-1}{q}+1 = \frac{n}{p}$. By Sobolev embedding Theorem $\Vert h\Vert_{L^\infty(\mathbb{R}^{n-1})} \le \Vert h\Vert_{W^{s,q}(\mathbb{R}^{n-1})}$, for $s\gt \frac{n-1}{q}$, we get further 
+$$
+\Vert Xf\Vert_{L^q_\sigma L^\infty_x(M_n)}\le C\Vert f\Vert_{W^{s,p}(\mathbb{R}^n)},
+$$
+for $1\le p\lt \frac{n+1}{2}$, $\frac{n-1}{q}+1 = \frac{n}{p}$ and $s\gt \frac{n}{p}-1$. Hence, by Theorem \ref{ThmXRayKakeya} the Hausdorff dimension of a Kakeya set $E\subset\mathbb{R}^n$ is at least $\frac{n+1}{2}$.
 
 ## References
 
