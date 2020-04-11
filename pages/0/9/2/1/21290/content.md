@@ -1,3 +1,7 @@
+A Kakeya Set is a set that contains a unit line segment for every direction. For example, a ball of radius one half is a Kakeya set.
+
+The Kakeya Set Conjecture asserts that every compact Kakeya set $E\subset\mathbb{R}^n$ has [[Hausdorff dimension]] $n$.
+
 ## X-Ray Transform
 
 The X-ray transform is the operator
@@ -16,7 +20,7 @@ We can write the X-ray transform of a function $f\in C_c^\infty(\mathbb{R}^n)$ a
 $$
 Xf(l) = \int f\delta_{l}(x)\,dx
 $$
-where $\delta_{l} := \lim_{\varepsilon\to 0}\varepsilon^{-n+1}1_{\{x\in\mathbb{R}^n\mid \;l\cap B_\varepsilon(x)\neq\emptyset\}}$. If $(\sigma,x)$ is a line $l\in M_n$, and $P_\sigma$ the projection to the plane $\{y\mid \langle y,\sigma\rangle = 0\}$, then $\delta_l$ is the pull-back $P_\sigma^*\delta_x = \delta_x\circ P_\sigma$, where $\delta_x$ is the Dirac delta centered at $x\in\mathbb{R}^{n-1}$.
+where $\delta_{l} := \lim_{\varepsilon\to 0}\varepsilon^{-n+1}1_{\{x\in\mathbb{R}^n\mid \;l\cap B_\varepsilon(x)\neq\emptyset\}}$. If $(\sigma,x)$ is a line $l\in M_n$, and $P_\sigma$ the projection to the plane $\{y\mid \langle y,\sigma\rangle = 0\}$, then $\delta_l$ is the [[pullback of a distribution|pullback]] $P_\sigma^*\delta_x = \delta_x\circ P_\sigma$, where $\delta_x$ is the Dirac delta centered at $x\in\mathbb{R}^{n-1}$.
 
 The operator dual to $X$, _i.e._ $\int Xh\,f\,d\mu = \int h\,X^*f\,dx$, acts on functions $f$ in $M_n$ as
 $$
@@ -32,7 +36,7 @@ since $X^*1$ is constant. Alternatively, we can use the fact that the integral o
 
 Besides $L^p$-spaces, we need to consider spaces of regular functions.
 
- +-- {: .num_defn #SobolevSlobodeckij}
++-- {: .num_defn #SobolevSlobodeckij}
 ###### Definition
 **([[Sobolev space]])
 
@@ -44,7 +48,7 @@ where $\varphi_0 := \tilde{\varphi}$ and $\varphi_k(\xi) := \varphi(\xi/2^k)$, f
 
 The Sobolev-Slobodeckij spaces $W^{s,p}(\mathbb{R}^n)$ are, for $1\lt p\lt \infty$ and $-\infty\lt s\lt \infty$, defined as
 $$
-\Vert f\Vert_{W^{s,p}(\mathbb{R}^n)} := \Big[\sum_{k\ge 0}(2^{sk}\Vert P_kf\Vert_{L^p(\mathbb{R}^n)})^p\Big]^\frac{1}{p}\quad if s \neq integer,
+\Vert f\Vert_{W^{s,p}(\mathbb{R}^n)} := \Big[\sum_{k\ge 0}(2^{sk}\Vert P_k f\Vert_{L^p(\mathbb{R}^n)})^p\Big]^\frac{1}{p}\quad if s \neq integer,
 $$
 and
 $$
@@ -59,7 +63,7 @@ The relation between that X-ray transform and the Kakeya set conjecture is the c
 +-- {: .num_theorem}
 ###### Theorem
 
-Let $n-sp\gt 0$. If for every function $f$ with compact support $K$ it holds that
+Let $n-sp\gt 0$. If for every function $f$ with support in $K$, for $K$ compact, it holds that
 $$
 \label{eqThmXRayKakeya}
 \Vert Xf\Vert_{L^1_\sigma L^\infty_x(M_n)}\le C_K\Vert f\Vert_{W^{s,p}(\mathbb{R}^n)},
@@ -168,6 +172,20 @@ $$
 $$
 for $s\gt \frac{n}{2}-1$. Hence, the Hausdorff dimension of a Kakeya set $E\subset\mathbb{R}^n$ is at least 2. This result is the best possible in $\mathbb{R}^2$, but  far away from the expected dimension for $n\ge 3$.
 
++-- {: .num_defn #LorentzSpace}
+###### Definition
+**(Lorentz Spaces)
+
+Let $(X,\nu)$ be a [[measure space]]. The quasinorm of the space $L^{p,q}(\nu)$, for $1\le p\lt\infty$ and $1\le q \lt\infty$, is
+$$
+\left\Vert f\right\Vert_{p,q} := \Big(p\int_0^\infty s^q\nu\{\vert f\vert\ge s\}^\frac{q}{p}\frac{ds}{s}\Big)^\frac{1}{q},
+$$
+and, for $1\le p\lt\infty$ and $q=\infty$, is
+$$
+\left\Vert f\right\Vert_{p,\infty} := \sup_{s\gt 0} (s\nu\{\vert f\vert\ge s\}^\frac{1}{p})
+$$
+=--
+
 +-- {: .num_theorem}
 ###### Theorem
 **(Drury, 1983)
@@ -182,14 +200,7 @@ If $E\subset \mathbb{R}^n$ is a measurable set, and $1_E$ is the characteristic 
 
 ###### Remark 
 
-This inequality corresponds to the restricted weak version of the point $(p,q,r) = (\frac{n+1}{2}, n+1, n+1)$. The quasinorm of the space $L^{p,q}(\nu)$, for $1\le p\lt\infty$ and $1\le q \lt\infty$, is
-$$
-\left\Vert f\right\Vert_{p,q} := \Big(p\int_0^\infty s^q\nu\{\vert f\vert\ge s\}^\frac{q}{p}\frac{ds}{s}\Big)^\frac{1}{q},
-$$
-and, for $1\le p\lt\infty$ and $q=\infty$, is
-$$
-\left\Vert f\right\Vert_{p,\infty} := \sup_{s\gt 0} (s\nu\{\vert f\vert\ge s\}^\frac{1}{p})
-$$
+This inequality corresponds to the restricted weak version of the point $(p,q,r) = (\frac{n+1}{2}, n+1, n+1)$.
 
 +-- {: .proof}
 ###### Proof
