@@ -24,8 +24,7 @@ From [Lichtenberg 99](##Lichtenberg99):
 
 > The reason for [[hadron supersymmetry]] is most transparent in the approximation
 to [[QCD]] known as the [[constituent quark model]]. In this model, the reason for [[hadron supersymmetry]] can be seen as follows: According to [[QCD]] an [[antiparticle|anti]][[quark]] belongs to a $\overline{\mathbf{3}}$ [[linear representation|multiplet]] of [[color charge|color]] [[SU(3)]]. A two-quark system, which I call a [[diquark]], can be in either a $\mathbf{6}$ or $\overline{\mathbf{3}}$ multiplet. Any two constituent quarks in a baryon must belong to the $\overline{\mathbf{3}}$ so that the baryon can be an overall color singlet. Now a meson contains a [[constituent quark]] and a constituent antiquark. If we replace the antiquark (a fermion) by a $\overline{\mathbf{3}}$ [[diquark]] (a [[boson]]), we make a [[supersymmetry|supersymmetric]] transformation of a [[meson]] into a [[baryon]]. This transformation does not change the color configuration. Because, in first approximation, the QCD interaction depends only on the [[color charge|color]] configuration, the [[force]] between the quark and diquark in a baryon should be approximately the same as the force between [[quark]] and [[antiparticle|anti]][[quark]] in a [[meson]]. Hence, we should be
-able to use [[supersymmetry]] to relate the properties of [[baryons]] to the properties of
-[[mesons]].
+able to use [[supersymmetry]] to relate the properties of [[baryons]] to the properties of [[mesons]].
 
 
 
