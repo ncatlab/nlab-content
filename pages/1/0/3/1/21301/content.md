@@ -10,7 +10,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -21,31 +20,71 @@
 
 Hadron supersymmetry 
 ([Miyazawa 66](#Miyazawa66), 
-[Miyazawa 68](#Miyazawa68)) is an approximate ([[supersymmetry breaking|dynamically broken]]) [[supersymmetry]] among the [[experiment|experimentally]] observed spectra of [[hadrons]], hence an approximate [[symmetry]] of [[quantum hadrodynamics]], relating the [[masses]] of [[mesons]] (which are [[bosons]]) to [[baryons]] (which are [[fermions]]).
+[Miyazawa 68](#Miyazawa68)) is an approximate ([[supersymmetry breaking|dynamically broken]]) [[supersymmetry]] among the [[experiment|experimentally]] observed spectra of [[hadrons]], hence an approximate [[symmetry]] of [[quantum hadrodynamics]], relating the [[masses]] of [[mesons]] (which are [[bosons]]) to [[baryons]] (which are [[fermions]]) and further to [[tetraquarks]] (which are again [[bosons]]).
 
-From the [[constituent quark model]] of [[hadrons]] in [[quantum chromodynamics]], the phenomenon of [[hadron supersymmetry]] follows ([Catto-Gürsey 85](#CattoGuersey85), [Catto-Gürsey 88](#CattoGuersey88)) from the fact that both single [[antiparticle|anti]][[quarks]] $\bar q$ as well as [[diquarks]] $q\!q$ carry the same [[color charge]] $\overline{\mathbf{3}} \in Rep_\mathbb{C}(SU(3)_c)$. Since:
+## Theory
+
+From the [[constituent quark model]] of [[hadrons]] in [[quantum chromodynamics]], the phenomenon of [[hadron supersymmetry]] follows ([Catto-Gürsey 85](#CattoGuersey85), [Catto-Gürsey 88](#CattoGuersey88)) from the fact that 
+
+1. both single [[antiparticle|anti]][[quarks]] $\bar q$ as well as [[diquarks]] $q\!q$ carry the same [[color charge]] $\overline{\mathbf{3}} \in Rep_\mathbb{C}(SU(3)_c)$,
 
 1. [[color charge]] predominantly determines the properties of states in [[QCD]], 
 
 1. the exchange of anti-quarks with diquarks inside the [[bound state]] with yet another [[quark]] exchanges [[mesons]] with [[baryons]] 
 
-this gives an approximate  [[supersymmetry]] of [[confinement|confined]] [[QCD]] of this form:
-
+this gives an approximate  [[symmetry]] of [[confinement|confined]] [[QCD]] as shown on the left here:
+  
 $$
   \array{
      \text{antiquark} & & \text{diquark}
      \\
      \phantom{q} \bar q & \leftrightarrow & \phantom{q} q\!q
      \\
-     q \bar q & \leftrightarrow & q q\!q
+     q \bar q & \leftrightarrow & q q\!q & \leftrightarrow & \bar q\!\!\bar{q} q\!q
      \\
-     \text{meson} &  &\text{baryon}
+     \text{meson} &  &\text{baryon} & & \text{tetraquark}
    }
 $$
 
-This transformation would be an exact [[symmetry]] of [[quantum hadrodynamics]] if [[anti-particle|anti]][[quarks]] and [[diquarks]] had not only the same [[color charge]] but also the same [[mass]] (and other properties), for instance if the quarks involved all had vanishing mass, as assumed, to lowest order, in [[chiral perturbation theory]]. Any discrepancy causes [[symmetry breaking|breaking of the symmetry]], hence here: [[supersymmetry breaking]].
+Dually, both [[quarks]] as well as [[antiparticle|anti]]-[[diquarks]] carry [[color charge]] $\mathbf{3} \in Rep_\mathbb{C}(SU(3)_c)$, which leads to a further such transformation exchanging [[baryons]] with [[tetraquarks]], as shown on the right.
+
+These transformations organize into a [[supersymmetry]] operation, successively relating [[mesons]], [[baryons]] and [[tetraquarks]]:
+
+\begin{imagefromfile}
+    "file_name": "HadronSupersymmetry.jpg",
+    "width": 600,
+    "unit": "px",
+    "caption": "from [Nielsen-Brodsky 18](#NielsenBrodsky18)"
+\end{imagefromfile}
+
+In the formulation of [[confinement|confined]] [[QCD]] as [[holographic light front QCD]], this [[hadron supersymmetry]] is brought out explicitly by the fact that the [[light cone gauge|light cone quantum mechanics]] of the system refines to [[supersymmetric quantum mechanics]] ([dTDB 14](#dTDB14), see e.g.
+[Nielsen-Brodsky 18](#NielsenBrodsky18)).
 
 
+This [[supersymmetry]] would be an exact [[symmetry]] of [[quantum hadrodynamics]] if [[anti-particle|anti]][[quarks]] and [[diquarks]] had not only the same [[color charge]] but also the same [[mass]] (and other properties), for instance if the quarks involved all had vanishing mass, as assumed, to lowest order, in [[chiral perturbation theory]]. Any discrepancy causes [[symmetry breaking|breaking of the symmetry]], hence here: [[supersymmetry breaking]].
+
+
+\linebreak
+
+## Phenomenology
+
+A direct consequence of [[hadron supersymmetry]] is the equality of [[slopes]] of the [[Regge trajectories]] of [[mesons]] and [[hadrons]]. This is indeed observed, with high accuracy:
+
+\begin{imagefromfile}
+    "file_name": "MesonBaryonReggeTrajectoriesKlemptMetsch.jpg",
+    "width": 420,
+    "unit": "px",
+    "caption": "from [Klempt-Metsch 12](Regge+trajectory#KlemptMetsch12)"
+\end{imagefromfile}
+
+
+
+\begin{imagefromfile}
+    "file_name": "MesonBaryonReggeTrajectories.jpg",
+    "width": 600,
+    "unit": "px",
+    "caption": "from [BTDL 16](#BTDL16)"
+\end{imagefromfile}
 
 
 
@@ -74,15 +113,6 @@ The argument that [[hadron supersymmetry]] is in fact implied by the [[constitue
 * {#CGNY19} S. Catto, Y. Gürcan, B. Nicolescu, E. Yu, _Effective Hadronic Supersymmetry from Quantum Chromodynamics_, Ukrainian Journal of Physics, Vol 64 No 12 (2019)  ([doi:10.15407/ujpe64.12.1096](https://doi.org/10.15407/ujpe64.12.1096))
 
 
-
-
-
-
-
-Further discussion:
-
-
-
 * [[Don Lichtenberg]], _Hadron Supersymmetry and Relations between Meson and Baryon Masses_, In: Kursunoglu B.N., Mintz S.L., Perlmutter A. (eds.) _Neutrino Mass, Dark Matter, Gravitational Waves, Monopole Condensation, and Light Cone Quantization_, Springer 1996 ([doi:10.1007/978-1-4899-1564-1_29](https://doi.org/10.1007/978-1-4899-1564-1_29))
 
 
@@ -90,18 +120,28 @@ Further discussion:
 Contribution to: _International Conference on Orbis Scientiae 1999: Quantum Gravity, Generalized Theory of Gravitation and Superstring Theory Based Unification_ (28th Conference on High-Energy Physics and Cosmology Since 1964), 203-208
 ([arXiv:hep-ph/9912280](https://arxiv.org/abs/hep-ph/9912280), [spire:511339](https://inspirehep.net/literature/511339))
 
+Review (with emphasis on [[holographic light front QCD]]):
+
+* {#Brodsky18} Stanley J. Brodsky, _Hadron Spectroscopy and Dynamics from Light-Front Holography and Superconformal Algebra_, Few-Body Syst 59, 83 (2018) ([arXiv:1802.08552](https://arxiv.org/abs/1802.08552))
+
 
 ### Via holographic light front QCD
 
-Via [[holographic light front QCD]]:
+Discussion of [[hadron supersymmetry]] via [[light cone gauge|light cone]] [[supersymmetric quantum mechanics]] in [[holographic light front QCD]]:
 
+* {#dTDB14}  Guy F. de Teramond, Hans Gunter Dosch, Stanley J. Brodsky, _Baryon Spectrum from Superconformal Quantum Mechanics and its Light-Front Holographic Embedding_, Phys. Rev. D 91, 045040 (2015) ([arXiv:1411.5243](https://arxiv.org/abs/1411.5243))
 
 
 * Hans Gunter Dosch, Guy F. de Teramond, Stanley J. Brodsky, _Supersymmetry Across the Light and Heavy-Light Hadronic Spectrum_, Phys. Rev. D 92, 074010 (2015) ([arXiv:1504.05112](https://arxiv.org/abs/1504.05112))
 
+
+* {#BTDL16}  Stanley J. Brodsky, Guy F. de Téramond, Hans Günter Dosch, Cédric Lorcé, _Meson/Baryon/Tetraquark Supersymmetry from Superconformal Algebra and Light-Front Holography_, International Journal of Modern Physics AVol. 31, No. 19, 1630029 (2016) ([arXiv:1606.04638](https://arxiv.org/abs/1606.04638))
+
+
+
 * Hans Gunter Dosch, Guy F. de Teramond, Stanley J. Brodsky, _Supersymmetry Across the Light and Heavy-Light Hadronic Spectrum II_, Phys. Rev. D 95, 034016 (2017) ([arXiv:1612.02370](https://arxiv.org/abs/1612.02370))
 
-* Marina Nielsen, Stanley J. Brodsky, _Hadronic Superpartners from Superconformal and Supersymmetric Algebra_, Phys. Rev. D 97, 114001 (2018) ([arXiv:1802.09652](https://arxiv.org/abs/1802.09652))
+* {#NielsenBrodsky18} Marina Nielsen, Stanley J. Brodsky, _Hadronic Superpartners from Superconformal and Supersymmetric Algebra_, Phys. Rev. D 97, 114001 (2018) ([arXiv:1802.09652](https://arxiv.org/abs/1802.09652))
 
 
 * Marina Nielsen, Stanley J. Brodsky, Guy F. de Téramond, Hans Günter Dosch, Fernando S. Navarra, Liping Zou, _Supersymmetry in the Double-Heavy Hadronic Spectrum_, Phys. Rev. D 98, 034002 (2018) ([arXiv:1805.11567](https://arxiv.org/abs/1805.11567))
