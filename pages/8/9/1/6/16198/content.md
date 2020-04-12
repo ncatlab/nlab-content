@@ -65,6 +65,8 @@ The _[[Scherk-Schwarz mechanism]]_ ([Scherk-Schwarz 79](Scherk-Schwarz+mechanius
 
 * [[soft supersymmetry breaking term]]
 
+* [[hadron supersymmetry]]
+
 * [[hidden sector]]
 
 * [[Starobinsky model of cosmic inflation]]
