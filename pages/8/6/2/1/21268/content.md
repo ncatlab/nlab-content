@@ -19,8 +19,9 @@ objects by interpreting them as terms in some [[universe]].
 
 ## Platonic view
 
-Of course, there is more to mathematical objects
-than their syntactic aspect exhibited above in the formalist definition.
+Using the Platonic viewpoint,
+one can identify mathematical objects
+that do not fit the formalist paradigm.
 
 A good example is the notion of an [[(∞,1)-category]],
 which exists at the Platonic level,
