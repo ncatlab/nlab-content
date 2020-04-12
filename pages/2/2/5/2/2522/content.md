@@ -967,6 +967,8 @@ In special dimensions supersymmetry super Lie algebras have [polyvector extensio
 
   * [[super vertex operator algebra]]
 
+* [[hadron supersymmetry]]
+
 * [[supergravity]], [[superstring theory]]
 
   * [[supersymmetry and Calabi-Yau manifolds]]
@@ -975,6 +977,8 @@ In special dimensions supersymmetry super Lie algebras have [polyvector extensio
 
 
 * [string theory FAQ -- Does string theory predict supersymmetry?](string+theory+FAQ#DoesSTPredictSupersymmetry)
+
+
 
 
 
