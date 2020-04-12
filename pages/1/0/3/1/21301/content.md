@@ -18,12 +18,34 @@
 ## Idea
 
 
-Hadron supersymmetry is an approximate ([[supersymmetry breaking|dynamically broken]]) [[supersymmetry]] among the [[experiment|experimentally]] observed spectrum of [[hadrons]], hence in [[quantum hadrodynamics]], relating the [[masses]] of [[mesons]] (which are [[bosons]]) to [[baryons]] (which are [[fermions]]).
+Hadron supersymmetry 
+([Miyazawa 66](#Miyazawa66), 
+[Miyazawa 68](#Miyazawa68)) is an approximate ([[supersymmetry breaking|dynamically broken]]) [[supersymmetry]] among the [[experiment|experimentally]] observed spectrum of [[hadrons]], hence an approximate [[symmetry]] of [[quantum hadrodynamics]], relating the [[masses]] of [[mesons]] (which are [[bosons]]) to [[baryons]] (which are [[fermions]]).
+
+From the [[constituent quark model]] of [[hadrons]] in [[quantum chromodynamics]], the phenomenon of [[hadron supersymmetry]] follows ([Catto-Gürsey 85](#CattoGuersey85)) from the fact that both single [[antiparticle|anti]][[quarks]] $\bar q$ as well as [[diquarks]] $q\!q$ carry the same [[color charge]] $\overline{\mathbf{3}} \in Rep_\mathbb{C}(SU(3)_c)$. Since 
+
+1. [[color charge]] predominantly determines the properties of states in [[QCD]], 
+
+1. the exchange of anti-quarks with diquarks inside the [[bound state]] with yet another [[quark]] exchanges [[mesons]] with [[baryons]] 
+
+this gives an approximate  [[supersymmetry]] of [[confinement|confined]] [[QCD]] of this form:
+
+$$
+  \array{
+     \bar q & \leftrightarrow & q\!q
+     \\
+     q \bar q & \leftrightarrow & q q\!q
+     \\
+     meson & \leftrightarrow & baryon
+   }
+$$
+
+
 
 From [Lichtenberg 99](##Lichtenberg99):
 
 > The reason for [[hadron supersymmetry]] is most transparent in the approximation
-to [[QCD]] known as the [[constituent quark model]]. In this model, the reason for [[hadron supersymmetry]] can be seen as follows: According to [[QCD]] an [[antiparticle|anti]][[quark]] belongs to a $\overline{\mathbf{3}}$ [[linear representation|multiplet]] of [[color charge|color]] [[SU(3)]]. A two-quark system, which I call a [[diquark]], can be in either a $\mathbf{6}$ or $\overline{\mathbf{3}}$ multiplet. Any two constituent quarks in a baryon must belong to the $\overline{\mathbf{3}}$ so that the baryon can be an overall color singlet. Now a meson contains a [[constituent quark]] and a constituent antiquark. If we replace the antiquark (a fermion) by a $\overline{\mathbf{3}}$ [[diquark]] (a [[boson]]), we make a [[supersymmetry|supersymmetric]] transformation of a [[meson]] into a [[baryon]]. This transformation does not change the color configuration. Because, in first approximation, the QCD interaction depends only on the [[color charge|color]] configuration, the [[force]] between the quark and diquark in a baryon should be approximately the same as the force between [[quark]] and [[antiparticle|anti]][[quark]] in a [[meson]]. Hence, we should be
+to [[QCD]] known as the [[constituent quark model]]. In this model, the reason for [[hadron supersymmetry]] can be seen as follows: According to [[QCD]] an [[antiparticle|anti]][[quark]] belongs to a $\overline{\mathbf{3}}$ [[linear representation|multiplet]] of [[color charge|color]] [[SU(3)]]. A two-quark system, which I call a [[diquark]], can be in either a $\mathbf{6}$ or $\overline{\mathbf{3}}$ multiplet. Any two constituent quarks in a baryon must belong to the $\overline{\mathbf{3}}$ so that the baryon can be an overall color singlet. Now a meson contains a [[constituent quark]] and a constituent antiquark. If we replace the antiquark (a fermion) by a $\overline{\mathbf{3}}$ [[diquark]] (a [[boson]]), we make a [[supersymmetry|supersymmetric]] transformation of a [[meson]] into a [[baryon]]. This transformation does not change the color configuration. Because, in first approximation, the QCD [[interaction]] depends only on the [[color charge|color]] configuration, the [[force]] between the quark and diquark in a baryon should be approximately the same as the force between [[quark]] and [[antiparticle|anti]][[quark]] in a [[meson]]. Hence, we should be
 able to use [[supersymmetry]] to relate the properties of [[baryons]] to the properties of [[mesons]].
 
 
@@ -32,13 +54,13 @@ able to use [[supersymmetry]] to relate the properties of [[baryons]] to the pro
 
 The phenomenon of [[hadron supersymmetry]] was first noted and formalized (together with early classification of [[supersymmetry]] [[super Lie algebras]]) in:
 
-* [[Hironari Miyazawa]], _Baryon Number Changing Currents_, Prog. Theor. Phys. 36 (1966) 6, 1266-1276 ([spire:1235194](https://inspirehep.net/literature/1235194), [doi:10.1143/PTP.36.1266](https://doi.org/10.1143/PTP.36.1266))
+* {#Miyazawa66} [[Hironari Miyazawa]], _Baryon Number Changing Currents_, Prog. Theor. Phys. 36 (1966) 6, 1266-1276 ([spire:1235194](https://inspirehep.net/literature/1235194), [doi:10.1143/PTP.36.1266](https://doi.org/10.1143/PTP.36.1266))
 
-* [[Hironari Miyazawa]], _Spinor Currents and Symmetries of Baryons and Mesons_, Phys. Rev. 170, 1586 (1968) ([doi:10.1103/PhysRev.170.1586](https://doi.org/10.1103/PhysRev.170.1586))
+* {#Miyazawa68} [[Hironari Miyazawa]], _Spinor Currents and Symmetries of Baryons and Mesons_, Phys. Rev. 170, 1586 (1968) ([doi:10.1103/PhysRev.170.1586](https://doi.org/10.1103/PhysRev.170.1586))
 
-The argument that [[hadron supersymmetry]] is in fact implied by [[quantum chromodynamics]]:
+The argument that [[hadron supersymmetry]] is in fact implied by the [[constituent quark model]] in [[quantum chromodynamics]]:
 
-* S. Catto,  F. Gürsey, _Algebraic treatment of effective supersymmetry_, Nuov Cim A 86, 201–218 (1985) ([doi:10.1007/BF02902548](https://doi.org/10.1007/BF02902548))
+* {#CattoGuersey85} S. Catto,  F. Gürsey, _Algebraic treatment of effective supersymmetry_, Nuov Cim A 86, 201–218 (1985) ([doi:10.1007/BF02902548](https://doi.org/10.1007/BF02902548))
  
 
 * S. Catto, Y. Gürcan, A. Khalfan, L. Kurt, B. Nicolescu, E. Yu, _Hadronic Supersymmetry from QCD_, Ukrainian Journal of Physics, Vol. 64 No. 8 (2019) ([doi:10.15407/ujpe64.8.672](https://doi.org/10.15407/ujpe64.8.672))
