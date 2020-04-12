@@ -158,3 +158,5 @@ category: foundational axiom
 [[!redirects Whitehead's theorem]]
 [[!redirects Whitehead's principle]]
 [[!redirects Whitehead principle]]
+
+[[!redirects simplicial Whitehead theorem]]
