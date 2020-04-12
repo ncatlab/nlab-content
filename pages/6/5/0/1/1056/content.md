@@ -82,3 +82,7 @@ Some posets that are cofibrant in the Thomason model structure are studied in
 The analog of the Thomason model structure for the _stable_ case -- an equivalence between connective [[stable homotopy theory]] and [[nerve]]s of [[symmetric monoidal categories]] -- is discussed in 
 
 * [[Robert Thomason]], _Symmetric monoidal categories model all connective spectra_, Theory and Applications of Categories, Vol. 1, No. 5, (1995) pp. 78-118
+
+
+[[!redirects Thomason weak equivalence]]
+[[!redirects Thomason weak equivalences]]
