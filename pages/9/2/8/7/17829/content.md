@@ -9,7 +9,7 @@
 * S. I. Volkova, A. A. Zheltukhin, _Glimpses of Dmitry Volkov's life and work_, Nuclear Physics B - Proceedings Supplements
 Volume 101, Issues 1–3, August 2001, Pages 20-25 (<a href="https://doi.org/10.1016/S0920-5632(01)01489-X">doi:10.1016/S0920-5632(01)01489-X</a>)
 
-* A.S. Bakai, S.V. Peletminskii, N.F. Shul'ga, Yu.V. Slyusarenko, D.V. Uvarov, A.A. Zheltukhin, _To the 90-th anniversary of Dmitry Vasilievich Volkov's birthday_, Ukrainian Journal of Physics v.60 N7 (2015) 675-677 ([arXiv:1506.03003](https://arxiv.org/abs/1506.03003))
+* A.S. Bakai, S. V. Peletminskii, N.F. Shul'ga, Yu.V. Slyusarenko, D.V. Uvarov, A.A. Zheltukhin, _To the 90-th anniversary of Dmitry Vasilievich Volkov's birthday_, Ukrainian Journal of Physics v.60 N7 (2015) 675-677 ([arXiv:1506.03003](https://arxiv.org/abs/1506.03003))
 
 * [[Steven Duplij]], _Supergravity was discovered by D.V. Volkov and V.A. Soroka in 1973, wasn't it?_, East Eur. J. Phys. p. 81-82 (2019) ([arXiv:1910.03259](https://arxiv.org/abs/1910.03259))
 
@@ -18,7 +18,7 @@ Volume 101, Issues 1–3, August 2001, Pages 20-25 (<a href="https://doi.org/10.
 
 The idea of [[supergravity]] was proposed by
 
-* [[Dmitry Volkov]], V.P. Akulov, _Possible universal neutrino interaction_, ZhETF Pis. Red. (JETP Letters, AIP translation), 16, n.11 (1972) 621 ([pdf](http://www.jetpletters.ac.ru/ps/1766/article_26864.shtml))
+* [[Dmitry Volkov]], V. P. Akulov, _Possible universal neutrino interaction_, ZhETF Pis. Red. (JETP Letters, AIP translation), 16, n.11 (1972) 621 ([pdf](http://www.jetpletters.ac.ru/ps/1766/article_26864.shtml))
 
 followed up by the first model of supergravity (in nonlinear realization) constructed in 
 
