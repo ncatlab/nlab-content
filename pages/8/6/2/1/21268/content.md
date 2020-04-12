@@ -7,7 +7,7 @@
 
 ## Idea
 
-A mathematical object is an object studied by [[mathematics]].
+A mathematical object is an object studied by [[mathematics]]. This notion gets involved as soon as one asks the question what mathematical objects consist of, or---more generally---what it does mean for such an object to "exist". A further question, depending on the answer to the first, is how we can know about mathematical objects.
 
 ## Formalist definition
 
@@ -17,7 +17,7 @@ we happen to be using at the moment.
 We can also consider [[types]] as mathematical
 objects by interpreting them as terms in some [[universe]].
 
-## Platonic view
+## Platonic views
 
 Using the Platonic viewpoint,
 one can identify mathematical objects
@@ -49,6 +49,6 @@ but so far no working definition has been exhibited yet.
 ## References
  {#References}
 
-For an overview of Platonism in the Philosophy of Mathematics see
+For an overview of Platonism in the philosophy of mathematics see
 
 * Linnebo, Øystein, _[Platonism in the Philosophy of Mathematics](https://plato.stanford.edu/entries/platonism-mathematics/)_, The Stanford Encyclopedia of Philosophy (Spring 2018 Edition), Edward N. Zalta (ed.).
