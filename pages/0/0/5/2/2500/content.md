@@ -539,6 +539,8 @@ S. Duplij, J. Bagger, W. Siegel (Eds.), Springer, 2004](http://www.springer.com/
 
 * [[Stanley Deser]], _A brief history of Supergravity: the first three weeks_ ([arXiv:1704.05886](https://arxiv.org/abs/1704.05886))
 
+See also _[supersymmetry -- History](supersymmetry#ReferencesHistory)_.
+
 
 ### Related
 
