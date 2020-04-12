@@ -88,6 +88,10 @@ This produces [[baryon]] [[mass]] spectra with moderate quantitative agreement w
 
 * [[flavour anomaly]]
 
+
+* [[hadron supersymmetry]]
+
+
 ## References
 
 ### General
