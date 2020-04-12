@@ -987,6 +987,14 @@ In special dimensions supersymmetry super Lie algebras have [polyvector extensio
 ### History
  {#ReferencesHistory}
 
+The notion of [[SU(n)]]-[[supergroup]] symmetry first appears in the proposal of [[hadron supersymmetry]] in
+
+* [[Hironari Miyazawa]], _Baryon Number Changing Currents_, Prog. Theor. Phys. 36 (1966) 6, 1266-1276 ([spire:1235194](https://inspirehep.net/literature/1235194), [doi:10.1143/PTP.36.1266](https://doi.org/10.1143/PTP.36.1266))
+
+* [[Hironari Miyazawa]], _Spinor Currents and Symmetries of Baryons and Mesons_, Phys. Rev. 170, 1586 (1968) ([doi:10.1103/PhysRev.170.1586](https://doi.org/10.1103/PhysRev.170.1586))
+ 
+but was ignored (see [CGNY 19](hadron+supersymmetry#CGNY19) for historical comments).
+
 The notion of [[super Poincaré Lie algebra|Poincaré supersymmetry]] was discovered in parallel by two groups in the early 1970s (separated and isolated at that time by "Cold War" nuisances):
 
 On the one hand, [[André Neveu]], [[Pierre Ramond]] and [[John Schwarz]] wrote down in 1971 the [[model (in theoretical physics)|model]] originally called the _[[spinning string]]_ -- a 2-dimensional [[quantum field theory]] with [[fermions]] -- and noticed that it just so happens to have an extra graded extension of 2-dimensional Poincar&#233; symmetry. Ever since the previously baptized [[spinning string]] became known as the _[[superstring]]_ (specifically: the _[[NSR-superstring]]_):
@@ -1009,7 +1017,7 @@ This then motivated [[Julius Wess]] and [[Bruno Zumino]] to study supersymmetric
 * {#WessZumino74} [[Julius Wess]], [[Bruno Zumino]], _Supergauge transformations in four dimensions_, Nucl. Phys. B70 (1974) 39; Phys. Letters 49B (1974) 52 ([doi:10.1142/9789814542340_0002](https://doi.org/10.1142/9789814542340_0002))
 
 
-Accounts of the history of the concept of supersymmetry:
+Accounts of the early history of the concept of supersymmetry:
 
 
 * {#Likhtman01} [[Evgeny Likhtman]], _Around SuSy 1970_, talk at "30 years of supersymmetry", Nucl.Phys.Proc.Suppl. 101 (2001) 5-14 ([arxiv:hep-ph/0101209](https://arxiv.org/abs/hep-ph/0101209))
@@ -1017,6 +1025,10 @@ Accounts of the history of the concept of supersymmetry:
 * [[John Schwarz]], _String theory origins of supersymmetry_, Nucl. Phys. Proc. Suppl. 101 (2001) 54-61 ([arXiv:hep-th/0011078](http://arxiv.org/abs/hep-th/0011078))
 
 * [[Pierre Ramond]], _SuSy: The Early Years (1966-1976)_, Eur. Phys. J. C (2014) 74: 2698 ([arxiv:1401.5977](https://arxiv.org/abs/1401.5977))
+
+See also at _[supergravity -- History](supergravity#History)_.
+
+
 
 ### Textbooks and lectures
  {#ReferencesTextbooksAndLectures}
