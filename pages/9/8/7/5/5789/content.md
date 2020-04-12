@@ -74,6 +74,8 @@ One way to make this rigorously precise would be to realize the [[Dirac-Ramond o
 
 ## Related entries
 
+* [[hadron supersymmetry]]
+
 * [[Morse theory]]
 
 * [[index]]
