@@ -100,7 +100,7 @@ $$
 $$
 In general, the $W^{s,p}$-norm of $\varphi_k*f$ is
 $$
-\Vert f\Vert_{W^{s,p}}\le C2^{-ks}\Vert f\Vert_p;
+\Vert \varphi_k*f\Vert_{W^{s,p}}\le C2^{-ks}\Vert f\Vert_p;
 $$
 see Lemma \ref{LemmSobolevConv} below. Hence,
 $$
@@ -197,9 +197,9 @@ $$
 The statement of the Theorem follows.
 =--
 
-Sobolev embedding Theorem $\Vert f\Vert_{L^\infty(\mathbb{R}^{n-1})}\le C\Vert f\Vert_{W^{s,2}(\mathbb{R}^{n-1})}$, for $s\gt \frac{n-1}{2}$, and the inequality (eq:eqThmL2Bound) allow us to conclude that for every $f$ such that $supp\,f\subset K$, for $K$ compact, it holds that
+Sobolev embedding Theorem $\Vert h\Vert_{L^\infty(\mathbb{R}^{n-1})}\le C\Vert h\Vert_{W^{s,2}(\mathbb{R}^{n-1})}$, for $s\gt \frac{n-1}{2}$, and the inequality (eq:eqThmL2Bound) allow us to conclude that for every $f$ such that $supp\,f\subset K$, for $K$ compact, it holds that
 $$
-\Vert f\Vert_{L^2_\sigma L^\infty_x}\le C_K \Vert f\Vert_{W^{s,2}(\mathbb{R}^n)},
+\Vert Xf\Vert_{L^2_\sigma L^\infty_x}\le C_K \Vert f\Vert_{W^{s,2}(\mathbb{R}^n)},
 $$
 for $s\gt \frac{n}{2}-1$. Hence, by Theorem \ref{ThmXRayKakeya} the Hausdorff dimension of a Kakeya set $E\subset\mathbb{R}^n$ is at least 2. This result is the best possible in $\mathbb{R}^2$ ([Córdoba 1977](#cordoba1977)), but  far away from the expected dimension for $n\ge 3$.
 
@@ -252,7 +252,7 @@ Here we can think of $X\delta_0$ as the distribution we defined earlier $\delta_
 
 On the other hand, we can also estimate the left side of (eq:eqProofDruryLower) as
 $$
-\int 1_F Xf\,X\delta_0\,d\mu(l) \le \int fX^*(1_F X\delta_0)\,dx \le  \left\Vert f\right\Vert_{L^{n,1}} \left\Vert X^*(1_F X\delta_0)\right\Vert_{L^{\frac{n}{n-1},\infty}},
+\int 1_F Xf\,X\delta_0\,d\mu(l) = \int fX^*(1_F X\delta_0)\,dx \le  \left\Vert f\right\Vert_{L^{n,1}} \left\Vert X^*(1_F X\delta_0)\right\Vert_{L^{\frac{n}{n-1},\infty}},
 $$
 The function $X^*(1_F X\delta_0)$ can be computed explicitly
 $$
