@@ -68,6 +68,8 @@ Alternatively, applying the light cone gauge quantization of the [[Green-Schwarz
 
 * [[large N limit]]
 
+* [[holographic light front QCD]]
+
 ## References
 
 ### General
