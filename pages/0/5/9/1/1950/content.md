@@ -13,7 +13,7 @@
 =--
 =--
 
-This entry describes special methods for the construction of  fibrant [[resolution]]s in the standard [[model structure on simplicial sets]].
+> This entry describes special methods for the construction of  fibrant [[resolutions]] in the [[classical model structure on simplicial sets]].
 
 
 #Contents#
@@ -116,7 +116,7 @@ A standard textbook reference is
 
 A summary of the basics is in 
 
-* Bertrand Guillou, _Kan's $Ex^\infty$-functor_ ([pdf](http://www.math.uiuc.edu/~bertg/KanEx.pdf))
+* [[Bertrand Guillou]], _Kan's $Ex^\infty$-functor_ ([pdf](http://www.math.uiuc.edu/~bertg/KanEx.pdf))
 
 Discussion in the context of [[simplicial presheaves]] is  section 3 of 
 
@@ -125,6 +125,11 @@ Discussion in the context of [[simplicial presheaves]] is  section 3 of
 See also
 
 * Sean Moss, _Another approach to the Kan-Quillen model structure_ ([arXiv:1506.04887](http://arxiv.org/abs/1506.04887))
+
+## Related concepts
+
+* [[simplicial weak equivalence]]
+
 
 
 [[!redirects Kan fibrant replacements]]
