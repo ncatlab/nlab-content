@@ -1,4 +1,4 @@
-The material previously on this page may be found at [PlanetMath](http://planetmath.org/sites/default/files/texpdf/40370.pdf).
+The material previously on this page is now located at the [Online Encyclopedia of Integer Sequences Wiki](https://oeis.org/wiki/Sign_relation#Semiotic_equivalence_relations).
 
 [[!redirects semiotic congruence]]
 [[!redirects semiotic congruences]]
