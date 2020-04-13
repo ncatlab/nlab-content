@@ -74,6 +74,11 @@ Alternatively, applying the light cone gauge quantization of the [[Green-Schwarz
 
 ### General
 
+For [[QCD]]:
+
+* [[Stanley Brodsky]], H-C Pauli, S. Pinsky, _Quantum Chromodynamics and Other Field Theories on the Light Cone_, Phys. Rept. 301:299-486, 1998 ([arXiv:hep-ph/9705477](https://arxiv.org/abs/hep-ph/9705477))
+
+
 Review 
 
 * {#Ydri18} [[Badis Ydri]], Section 3.9 of: _Review of M(atrix)-Theory, Type IIB Matrix Model and Matrix String Theory_ ([arXiv:1708.00734](https://arxiv.org/abs/1708.00734)), published as: _Matrix Models of String Theory_, IOP 2018 ([ISBN:978-0-7503-1726-9](https://iopscience.iop.org/book/978-0-7503-1726-9))
