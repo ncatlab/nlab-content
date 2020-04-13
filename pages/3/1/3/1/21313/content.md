@@ -4,6 +4,22 @@
 
 ## Selected writings
 
+On [[light cone gauge quantization]] of [[QCD]]:
+
+* [[Stanley Brodsky]], H-C Pauli, S. Pinsky, _Quantum Chromodynamics and Other Field Theories on the Light Cone_, Phys. Rept. 301:299-486, 1998 ([arXiv:hep-ph/9705477](https://arxiv.org/abs/hep-ph/9705477))
+
+
+Introducing [[holographic light front QCD]]:
+
+* [[Stanley Brodsky]], [[Guy de Teramond]], _Light-Front Hadron Dynamics and AdS/CFT Correspondence_, Phys. Lett. B582:211-221, 2004 ([arXiv:hep-th/0310227](https://arxiv.org/abs/hep-th/0310227))
+
+* [[Guy de Teramond]], [[Stanley Brodsky]], _Light-Front Holography: A First Approximation to QCD_, Phys. Rev. Lett. 102:081601, 2009 ([arXiv:0809.4899](https://arxiv.org/abs/0809.4899))
+
+Review:
+
+* [[Stanley Brodsky]], [[Guy de Teramond]],  [[Hans Günter Dosch]], [[Joshua Erlich]], 
+_Light-Front Holographic QCD and Emerging Confinement_, Physics Reports Volume 584, 8 July 2015, Pages 1-105 ([arXiv:1407.8131](https://arxiv.org/abs/1407.8131))
+
 On [[hadron supersymmetry]] via [[light cone gauge|light cone]] [[supersymmetric quantum mechanics]] in [[holographic light front QCD]];
 
 * {#dTDB14}  [[Guy de Teramond]], [[Hans Günter Dosch]], [[Stanley Brodsky]], _Baryon Spectrum from Superconformal Quantum Mechanics and its Light-Front Holographic Embedding_, Phys. Rev. D 91, 045040 (2015) ([arXiv:1411.5243](https://arxiv.org/abs/1411.5243))
@@ -22,5 +38,12 @@ On [[hadron supersymmetry]] via [[light cone gauge|light cone]] [[supersymmetric
 
 
 * [[Marina Nielsen]], [[Stanley Brodsky]], [[Guy de Téramond]], [[Hans Günter Dosch]], Fernando S. Navarra, Liping Zou, _Supersymmetry in the Double-Heavy Hadronic Spectrum_, Phys. Rev. D 98, 034002 (2018) ([arXiv:1805.11567](https://arxiv.org/abs/1805.11567))
+
+Review:
+
+* {#Brodsky18} [[Stanley Brodsky]], _Hadron Spectroscopy and Dynamics from Light-Front Holography and Superconformal Algebra_, Few-Body Syst 59, 83 (2018) ([arXiv:1802.08552](https://arxiv.org/abs/1802.08552))
+
+
+
 
 category: people
