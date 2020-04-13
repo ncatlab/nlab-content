@@ -19,8 +19,8 @@
 
 ## Idea
 
-Condensed sets aim to provide a convenient setting
-in the framework of [[homotopical algebra]] for working with [[algebra|algebraic]] objects that are equipped with sort of a [[topological space|topology]]. A related alternative is provided by [[pyknotic sets]].
+Condensed sets are basic objects in [[condensed mathematics]], whose aim is to provide a convenient setting
+in the framework for working with [[algebra|algebraic]] objects that are equipped with sort of a [[topological space|topology]]. A related alternative is provided by [[pyknotic sets]].
 
 ## Definition
 
@@ -87,6 +87,4 @@ The category of condensed sets is then the (large) [[colimit]] of the category o
 * {#ScholzeLAG} [[Peter Scholze]], _Lectures on analytic geometry_, [pdf](https://www.math.uni-bonn.de/people/scholze/Analytic.pdf)
 
 [[!redirects condensed sets]]
-[[!redirects condensed object]]
-[[!redirects condensed objects]]
-[[!redirects condensed mathematics]]
+
