@@ -122,7 +122,7 @@ Contribution to: _International Conference on Orbis Scientiae 1999: Quantum Grav
 
 Review (with emphasis on [[holographic light front QCD]]):
 
-* {#Brodsky18} Stanley J. Brodsky, _Hadron Spectroscopy and Dynamics from Light-Front Holography and Superconformal Algebra_, Few-Body Syst 59, 83 (2018) ([arXiv:1802.08552](https://arxiv.org/abs/1802.08552))
+* {#Brodsky18} [[Stanley Brodsky]], _Hadron Spectroscopy and Dynamics from Light-Front Holography and Superconformal Algebra_, Few-Body Syst 59, 83 (2018) ([arXiv:1802.08552](https://arxiv.org/abs/1802.08552))
 
 
 
@@ -131,12 +131,12 @@ Review (with emphasis on [[holographic light front QCD]]):
 Formulation via [[octonions]]:
 
 
-* Sultan Catto, Yasemin Gürcan, Amish Khalfan and Levent Kurt, _Algebraic formulation of hadronic supersymmetry based on octonions: new mass formulas and further applications_, Journal of Physics: Conference Series, Volume 563, XXII International Conference on Integrable Systems and Quantum Symmetries (ISQS-22) 23–29 June 2014, Prague, Czech Republic ([doi:10.1088/1742-6596/563/1/012006/meta](https://iopscience.iop.org/article/10.1088/1742-6596/563/1/012006/meta))
+* [[Sultan Catto]], Yasemin Gürcan, Amish Khalfan and Levent Kurt, _Algebraic formulation of hadronic supersymmetry based on octonions: new mass formulas and further applications_, Journal of Physics: Conference Series, Volume 563, XXII International Conference on Integrable Systems and Quantum Symmetries (ISQS-22) 23–29 June 2014, Prague, Czech Republic ([doi:10.1088/1742-6596/563/1/012006/meta](https://iopscience.iop.org/article/10.1088/1742-6596/563/1/012006/meta))
 
 
 See also:
 
-* Čestmir Burdik, Sultan Catto, Yasemin Giircan, Amish Khalfan, V. Kato La and Enxi Yu, _Generalized Four-Dimensional Effective Hadronic Supersymmetry based on QCD: New Results_, Journal of Physics: Conference Series, Volume 1416, XXVI International Conference on Integrable Systems and Quantum symmetries 8–12 July 2019, Prague, Czech Republic ([doi:10.1088/1742-6596/1416/1/012008](https://iopscience.iop.org/article/10.1088/1742-6596/1416/1/012008))
+* Čestmir Burdik, [[Sultan Catto]], Yasemin Giircan, Amish Khalfan, V. Kato La and Enxi Yu, _Generalized Four-Dimensional Effective Hadronic Supersymmetry based on QCD: New Results_, Journal of Physics: Conference Series, Volume 1416, XXVI International Conference on Integrable Systems and Quantum symmetries 8–12 July 2019, Prague, Czech Republic ([doi:10.1088/1742-6596/1416/1/012008](https://iopscience.iop.org/article/10.1088/1742-6596/1416/1/012008))
 
 
 
