@@ -306,6 +306,7 @@ Let $S$ be a strict [[Reedy category]] and let $G$ be a compatible $S$-crossed g
 ## Related concepts
 
 * A "more generalized" notion is a [[c-Reedy category]].
+* A more specialized notion is an [[Eilenberg-Zilber category]].
 
 ## References
 
