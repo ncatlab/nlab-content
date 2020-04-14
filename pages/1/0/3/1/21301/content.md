@@ -22,6 +22,10 @@ Hadron supersymmetry
 ([Miyazawa 66](#Miyazawa66), 
 [Miyazawa 68](#Miyazawa68)) is an approximate ([[supersymmetry breaking|dynamically broken]]) [[supersymmetry]] among the [[experiment|experimentally]] observed spectra of [[hadrons]], hence an approximate [[symmetry]] of [[quantum hadrodynamics]], relating the [[masses]] of [[mesons]] (which are [[bosons]]) to [[baryons]] (which are [[fermions]]) and further to [[tetraquarks]] (which are again [[bosons]]).
 
+This experimentally observed hadron [[flavor physics|flavor]] supersymmetry is in contrast to the more popular but also more speculative idea of [[color charge]] [[supersymmetry]] ([[super QCD]], [[MSSM]]), which hypothesizes that [[quarks]] and [[gluons]] have [[superpartners]]. While these ([[squarks]] and [[gluinos]]) have not been observed, even single [[quarks]] have never been observed, due to their [[confinement]] inside [[hadrons]].
+
+In terms of [[geometric engineering of QFT]] via [[intersecting D-brane models]], [[hadron supersymmetry]] means that the [[flavor brane]] is [[supersymmetry|supersymmetric]], while the [[color brane]] may not be.
+
 ## Theory
 
 From the [[constituent quark model]] of [[hadrons]] in [[quantum chromodynamics]], the phenomenon of [[hadron supersymmetry]] follows ([Catto-Gürsey 85](#CattoGuersey85), [Catto-Gürsey 88](#CattoGuersey88)) from the fact that 
@@ -129,17 +133,6 @@ Review (with emphasis on [[holographic light front QCD]]):
 
 
 
-### Via octonions
-
-Formulation via [[octonions]]:
-
-
-* [[Sultan Catto]], Yasemin Gürcan, Amish Khalfan and Levent Kurt, _Algebraic formulation of hadronic supersymmetry based on octonions: new mass formulas and further applications_, Journal of Physics: Conference Series, Volume 563, XXII International Conference on Integrable Systems and Quantum Symmetries (ISQS-22) 23–29 June 2014, Prague, Czech Republic ([doi:10.1088/1742-6596/563/1/012006/meta](https://iopscience.iop.org/article/10.1088/1742-6596/563/1/012006/meta))
-
-
-See also:
-
-* Čestmir Burdik, [[Sultan Catto]], Yasemin Giircan, Amish Khalfan, V. Kato La and Enxi Yu, _Generalized Four-Dimensional Effective Hadronic Supersymmetry based on QCD: New Results_, Journal of Physics: Conference Series, Volume 1416, XXVI International Conference on Integrable Systems and Quantum symmetries 8–12 July 2019, Prague, Czech Republic ([doi:10.1088/1742-6596/1416/1/012008](https://iopscience.iop.org/article/10.1088/1742-6596/1416/1/012008))
 
 
 
@@ -166,6 +159,20 @@ Discussion of [[hadron supersymmetry]] via [[light cone gauge|light cone]] [[sup
 
 * [[Marina Nielsen]], [[Stanley Brodsky]], Guy F. de Téramond, [[Hans Günter Dosch]], Fernando S. Navarra, Liping Zou, _Supersymmetry in the Double-Heavy Hadronic Spectrum_, Phys. Rev. D 98, 034002 (2018) ([arXiv:1805.11567](https://arxiv.org/abs/1805.11567))
 
+
+
+
+### Via octonions
+
+Formulation via [[octonions]]:
+
+
+* [[Sultan Catto]], Yasemin Gürcan, Amish Khalfan and Levent Kurt, _Algebraic formulation of hadronic supersymmetry based on octonions: new mass formulas and further applications_, Journal of Physics: Conference Series, Volume 563, XXII International Conference on Integrable Systems and Quantum Symmetries (ISQS-22) 23–29 June 2014, Prague, Czech Republic ([doi:10.1088/1742-6596/563/1/012006/meta](https://iopscience.iop.org/article/10.1088/1742-6596/563/1/012006/meta))
+
+
+See also:
+
+* Čestmir Burdik, [[Sultan Catto]], Yasemin Giircan, Amish Khalfan, V. Kato La and Enxi Yu, _Generalized Four-Dimensional Effective Hadronic Supersymmetry based on QCD: New Results_, Journal of Physics: Conference Series, Volume 1416, XXVI International Conference on Integrable Systems and Quantum symmetries 8–12 July 2019, Prague, Czech Republic ([doi:10.1088/1742-6596/1416/1/012008](https://iopscience.iop.org/article/10.1088/1742-6596/1416/1/012008))
 
 
 
