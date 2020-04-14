@@ -139,13 +139,13 @@ The most common application is when $M = SSet$.  Thus, for instance, every simpl
 
 * If $X$ is any presheaf on an elegant Reedy category $R$, then the opposite of its [[category of elements]] $(el X)^{op}$ is again an elegant Reedy category.  This is fairly easy to see from the fact that $Set^{el X}$ is equivalent to the slice category $Set^{R^{op}}/X$.
 
-* Every [[EZ-Reedy category]] is elegant.
+* Every [[EZ-Reedy category]] that is a strict Reedy category is elegant.
 
 Note that unlike the notion of [[Reedy category]], the notion of elegant Reedy category is not self-dual: if $R$ is elegant then $R^{op}$ will not generally be elegant.
 
 ## Related concepts
 
-* [[generalized Reedy category]]
+* [[generalized Reedy category]], [[Eilenberg-Zilber category]]
 
 * [[Reedy model structure]]
 
