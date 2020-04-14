@@ -32,9 +32,9 @@ From the [[constituent quark model]] of [[hadrons]] in [[quantum chromodynamics]
 
 1. both single [[antiparticle|anti]][[quarks]] $\bar q$ as well as [[diquarks]] $q\!q$ carry the same [[color charge]] $\overline{\mathbf{3}} \in Rep_\mathbb{C}(SU(3)_c)$,
 
-1. [[color charge]] predominantly determines the properties of states in [[QCD]], 
+1. [[color charge]] predominantly determines the properties of [[bound states]] in [[QCD]], 
 
-1. the exchange of anti-quarks with diquarks inside the [[bound state]] with yet another [[quark]] exchanges [[mesons]] with [[baryons]] 
+1. the exchange of anti-quarks with diquarks inside the [[bound state]] with yet another [[quark]] exchanges [[mesons]] with [[baryons]],
 
 this gives an approximate  [[symmetry]] of [[confinement|confined]] [[QCD]] as shown on the left here:
   
@@ -95,7 +95,16 @@ A direct consequence of [[hadron supersymmetry]] is the equality of [[slopes]] o
 
 ## References
 
-### General
+### Review
+
+Review (with emphasis on [[holographic light front QCD]]):
+
+* {#Brodsky18} [[Stanley Brodsky]], _Hadron Spectroscopy and Dynamics from Light-Front Holography and Superconformal Algebra_, Few-Body Syst 59, 83 (2018) ([arXiv:1802.08552](https://arxiv.org/abs/1802.08552))
+
+* [[Stanley Brodsky]], _Color Confinement and Supersymmetric Properties of Hadron Physics from Light-Front Holography_, International Conference on Beauty, Charm and Hyperon Hadrons (BEACH 2018) 17–23 June 2018, Peniche, Portugal ([arXiv:1912.12578](https://arxiv.org/abs/1912.12578))
+
+
+### Original articles
 
 The phenomenon of [[hadron supersymmetry]] was first noted and formalized (together with early classification of [[supersymmetry]] [[super Lie algebras]]) in:
 
@@ -109,7 +118,9 @@ The argument that [[hadron supersymmetry]] is in fact implied by the [[constitue
 
 * {#CattoGuersey85} [[Sultan Catto]], [[Feza Gürsey]], _New realizations of hadronic supersymmetry_, Nuov Cim A 99, 685–699 (1988) ([doi:10.1007/BF02730633](https://doi.org/10.1007/BF02730633))
 
- 
+* [[Sultan Catto]], _Algebraic Realization of Quark-Diquark Supersymmetry_ ([arXiv:hep-th/9811069](https://arxiv.org/abs/hep-th/9811069))
+
+
 
 * [[Sultan Catto]], Yasemin Gürcan, A. Khalfan, L. Kurt, B. Nicolescu, E. Yu, _Hadronic Supersymmetry from QCD_, Ukrainian Journal of Physics, Vol. 64 No. 8 (2019) ([doi:10.15407/ujpe64.8.672](https://doi.org/10.15407/ujpe64.8.672))
 
@@ -124,11 +135,7 @@ The argument that [[hadron supersymmetry]] is in fact implied by the [[constitue
 Contribution to: _International Conference on Orbis Scientiae 1999: Quantum Gravity, Generalized Theory of Gravitation and Superstring Theory Based Unification_ (28th Conference on High-Energy Physics and Cosmology Since 1964), 203-208
 ([arXiv:hep-ph/9912280](https://arxiv.org/abs/hep-ph/9912280), [spire:511339](https://inspirehep.net/literature/511339))
 
-Review (with emphasis on [[holographic light front QCD]]):
 
-* {#Brodsky18} [[Stanley Brodsky]], _Hadron Spectroscopy and Dynamics from Light-Front Holography and Superconformal Algebra_, Few-Body Syst 59, 83 (2018) ([arXiv:1802.08552](https://arxiv.org/abs/1802.08552))
-
-* [[Stanley Brodsky]], _Color Confinement and Supersymmetric Properties of Hadron Physics from Light-Front Holography_, International Conference on Beauty, Charm and Hyperon Hadrons (BEACH 2018) 17–23 June 2018, Peniche, Portugal ([arXiv:1912.12578](https://arxiv.org/abs/1912.12578))
 
 
 
@@ -143,6 +150,9 @@ Review (with emphasis on [[holographic light front QCD]]):
 Discussion of [[hadron supersymmetry]] via [[light cone gauge|light cone]] [[supersymmetric quantum mechanics]] in [[holographic light front QCD]]:
 
 * {#dTDB14}  [[Guy de Teramond]], [[Hans Günter Dosch]], [[Stanley Brodsky]], _Baryon Spectrum from Superconformal Quantum Mechanics and its Light-Front Holographic Embedding_, Phys. Rev. D 91, 045040 (2015) ([arXiv:1411.5243](https://arxiv.org/abs/1411.5243))
+
+* [[Hans Günter Dosch]], [[Guy de Teramond]], [[Stanley Brodsky]], _Superconformal Baryon-Meson Symmetry and Light-Front Holographic QCD_, Phys. Rev. D 91, 085016 (2015) ([arXiv:1501.00959](https://arxiv.org/abs/1501.00959))
+
 
 
 * [[Hans Günter Dosch]], [[Guy de Teramond]], [[Stanley Brodsky]], _Supersymmetry Across the Light and Heavy-Light Hadronic Spectrum_, Phys. Rev. D 92, 074010 (2015) ([arXiv:1504.05112](https://arxiv.org/abs/1504.05112))
