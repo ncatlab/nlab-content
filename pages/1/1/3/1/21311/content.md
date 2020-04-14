@@ -16,6 +16,8 @@ On [[hadron supersymmetry]] via [[light cone gauge|light cone]] [[supersymmetric
 
 * {#dTDB14}  [[Guy de Teramond]], [[Hans Günter Dosch]], [[Stanley Brodsky]], _Baryon Spectrum from Superconformal Quantum Mechanics and its Light-Front Holographic Embedding_, Phys. Rev. D 91, 045040 (2015) ([arXiv:1411.5243](https://arxiv.org/abs/1411.5243))
 
+* [[Hans Günter Dosch]], [[Guy de Teramond]], [[Stanley Brodsky]], _Superconformal Baryon-Meson Symmetry and Light-Front Holographic QCD_, Phys. Rev. D 91, 085016 (2015) ([arXiv:1501.00959](https://arxiv.org/abs/1501.00959))
+
 
 * [[Hans Günter Dosch]], [[Guy de Teramond]], [[Stanley Brodsky]], _Supersymmetry Across the Light and Heavy-Light Hadronic Spectrum_, Phys. Rev. D 92, 074010 (2015) ([arXiv:1504.05112](https://arxiv.org/abs/1504.05112))
 
