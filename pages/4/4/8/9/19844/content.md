@@ -11,6 +11,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -378,11 +379,13 @@ Comprehensive overview of the latest world-averaged results to be found at:
 
 * {#Guadagnoli17} Diego Guadagnoli, _Flavour anomalies on the eve of the Run-2 verdict_,  Modern Physics Letters AVol. 32, No. 07, 1730006 (2017) ([arXiv:1703.02804](https://arxiv.org/abs/1703.02804))
 
+* Greory Ciezarek, Manuel Franco Sevilla, Brian Hamilton, Robert Kowalewski, Thomas Kuhr, Vera Lüth, Yutaro Sato, _A challenge to lepton universality in B-meson decays_, Nature 546, 227–233 (2017) ([doi:10.1038/nature22346](https://doi.org/10.1038/nature22346))
+
 * [CernCourier](https://cerncourier.com/), _[Beauty quarks test lepton universality](https://cerncourier.com/beauty-quarks-test-lepton-universality/)_, March 2018
 
 * {#Cartelle18} Paula Alvarez Cartelle on behalf of the [[LHCb collaboration]], _New results on flavor anomalies at LHCb_, April 2018 ([pdf](https://cds.cern.ch/record/2311960/files/FlavourAnomaliesLHCbAlvarez.pdf))
 
-* {#Dey18} Biplab Dey on behalf of the [[LHCb collaboration]], _Flavor anomalies at LHCb_, May 2018 ([pdf](https://cds.cern.ch/record/2319877/files/Biplab_Dey_Reinterpretation 14.05.pdf))
+* {#Dey18} Biplab Dey on behalf of the [[LHCb collaboration]], _Flavor anomalies at LHCb_, May 2018 ([[DeyFlavourAnomalies2018.pdf:file]])
 
 * Vera Lüth, _A Challenge to Lepton Universality in B Meson Decays_, Invited tall at [7th Symposium on Symmetries in Subatomic Physics (SSP 2018)](https://indico.cern.ch/event/651952/) at RWTH Aachen University (Germany), June 11-15, 2018 ([arXiv:1808.02587](https://arxiv.org/abs/1808.02587))
 
