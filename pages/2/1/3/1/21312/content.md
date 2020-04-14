@@ -38,6 +38,15 @@ On [[hadron supersymmetry]] via [[light cone gauge|light cone]] [[supersymmetric
 
 * [[Marina Nielsen]], [[Stanley Brodsky]], [[Guy de Téramond]], [[Hans Günter Dosch]], Fernando S. Navarra, Liping Zou, _Supersymmetry in the Double-Heavy Hadronic Spectrum_, Phys. Rev. D 98, 034002 (2018) ([arXiv:1805.11567](https://arxiv.org/abs/1805.11567))
 
+
+Review:
+
+
+* [[Guy de Téramond]], _Superconformal and Supersymmetric Constraints to Hadron Masses in Light-Front Holographic QCD_, Trento 2017 ([[TeramondHadronSupersymmetry2017.pdf:file]])
+
+
+
+
 category: people
 
 [[!redirects Guy de Teramond]]
