@@ -80,6 +80,10 @@ due to [[Clemens Berger]] and [[Ieke Moerdijk]], avoids these problems.  There i
 
 The notion of [[elegant Reedy category]], introduced by [[Julie Bergner]] and [[Charles Rezk]], is a *restriction* of the notion which captures the property that the Reedy model structure and injective model structure coincide.  Several important Reedy categories are elegant, such as the $\Delta$ and $\Theta$.
 
+### Eilenberg-Zilber categories
+
+[[Eilenberg-Zilber categories]] are a special sort of generalized Reedy category that behave rather like an elegant strict Reedy category.
+
 ### Enriched Reedy categories
 
 There is also a generalization of the notion of Reedy category to the context of [[enriched category theory]]: this is an [[enriched Reedy category]].
