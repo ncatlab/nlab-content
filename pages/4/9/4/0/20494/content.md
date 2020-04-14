@@ -75,12 +75,49 @@ A \ar[r, "p"] \ar[d, "q"'] & B \ar[d, "m"] \\ C \ar[r, "n"'] & P
 \end{tikzcd}\end{center}
 is an absolute pushout if and only if either there exist
 
-1. A section $s:P\to C$, such that $n s = 1_P$;
-2. Morphisms $s_1,\dots,s_n : B \to A$ and $t_1,\dots,t_n : B\to A$, for some $n\ge 1$, such that $p s_1 = 1_C$, $p t_n = s n$, $q s_i = q t_i$, and $p t_i = p s_{i+1}$; and
-3. Morphisms ...
+1. A section $u:P\to B$, such that $m u = 1_P$.
+2. Morphisms $r_1,\dots,r_k : B \to A$ and $s_1,\dots,s_k : B\to A$, for some $k\ge 1$, such that $p s_1 = 1_B$, $q s_i = q r_i$ for all $i$, $p r_i = p s_{i+1}$ for all $i\lt k$, and $p r_k = u m$.
+3. Morphisms $t_1,\dots,t_{\ell+1} : C \to A$ and $v_1,\dots,v_{\ell} : C\to A$, for some $\ell \ge 0$, such that $q t_1 = 1_C$, $p t_i = p v_i$ for all $i\lt \ell$, $q v_i = q t_{i+1}$ for all $i\le \ell$, and $p t_{\ell+1} = s n$.
 
 or the transpose thereof (i.e. interchanging $B$ with $C$ and so on).
 \end{theorem}
+\begin{proof}
+For "if", suppose given a commutative square
+\begin{center}\begin{tikzcd}
+A \ar[r, "p"] \ar[d, "q"'] & B \ar[d, "b"] \\ C \ar[r, "c"'] & X.
+\end{tikzcd}\end{center}
+Since $m$ is a (split) epimorphism (by $s$), any factorization of this square through the given one will be unique, so it suffices to show that such a factorization exists.  Define $x = b u:P\to X$.  Then we have
+$$ x m = b u m = b p r_k = c q r_k = c q s_k = b p s_k = b t r_{k-1} = \dots = b p s_1 = b $$
+and
+$$ x n = b s n = b p t_\ell = c q t_\ell = c q v_{\ell-1} = b p v_{\ell-1} = b p t_{\ell-1} = \dots = c q t_1 = c. $$
+The transposed case is of course dual.
+
+Conversely, suppose the given square is an absolute pushout.  Thus, in particular the induced square
+\begin{center}\begin{tikzcd}
+\hom(P,A) \ar[r, "p"] \ar[d, "q"'] & \hom(P,B) \ar[d, "m"] \\ \hom(P,C) \ar[r, "n"'] & \hom(P,P)
+\end{tikzcd}\end{center}
+is a pushout in $Set$.  Thus, in particular, the function $\hom(P,B)+\hom(P,C) \to \hom(P,P)$ is surjective, and thus for $1_P\in \hom(P,P)$ there must be either a $u:P\to B$ such that $m u = 1_P$ or a $u':P\to C$ such that $n u' = 1_P$.  WLOG assume the former.
+
+Now the induced square
+\begin{center}\begin{tikzcd}
+\hom(B,A) \ar[r, "p"] \ar[d, "q"'] & \hom(B,B) \ar[d, "m"] \\ \hom(B,C) \ar[r, "n"'] & \hom(B,P)
+\end{tikzcd}\end{center}
+is also a pushout in $Set$.  We have two elements $1_B, u m \in \hom(B,B)$ that become equal in $\hom(B,P)$ (since $m 1_B = m = (1_P) m = m u m$), and in a pushout in $Set$ this means they must be related by a zigzag of elements of the vertex $\hom(B,A)$.  Unraveling this explicitly produces the morphisms $r_i,s_i$.
+
+Similarly, from the induced square
+\begin{center}\begin{tikzcd}
+\hom(C,A) \ar[r, "p"] \ar[d, "q"'] & \hom(C,B) \ar[d, "m"] \\ \hom(C,C) \ar[r, "n"'] & \hom(C,P)
+\end{tikzcd}\end{center}
+and the elements $1_C\in\hom(C,C)$ and $s n \in \hom(C,B)$, we obtain the morphisms $t_i,v_i$.
+\end{proof}
+
+In particular, when $k=1$ and $\ell=0$, the above data reduces to
+
+1. A section $u:P\to B$, such that $m u = 1_P$.
+2. Morphisms $r,s : B \to A$ such that $p s = 1_B$, $q s = q r$, and $p r = u m$.
+3. A morphism $t : C \to A$ such that $q t = 1_C$ and $p t = u n$.
+
+This is precisely the data of the above-defined notion of split pushout, together with the additional morphism $r:B\to A$ such that $q r = q s$ and $p r = u m$.  However, given a split pushout as above we can define $r = t q s$ and check $q r = q t q s = q s$ and $p r = p t q s = u n q s = u m p s = u m$.  This gives another proof that any split pushout is an absolute pushout. 
 
 ## Examples
 
