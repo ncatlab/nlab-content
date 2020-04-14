@@ -27,9 +27,11 @@ In [[particle physics]] the letters _MSSM_ are an abbreviation for "minimally su
 
 ## Related concepts
 
+* [[super QCD]]
+
 * [[R-parity]]
 
-* [[intersecting D-brane model ]]  
+* [[intersecting D-brane model]]  
 
 * [[gauge coupling unification]]
 
