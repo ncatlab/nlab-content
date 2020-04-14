@@ -71,8 +71,6 @@ Axioms: [[axiom of choice]] (AC), [[countable choice]] (CC).
 
 * [[weakly Lindelöf topological space|weakly Lindelöf]]: every [[open cover]] has a [[countable set|countable]] subcollection the union of which is dense.
 
-* [[countable choice]]: the [[natural number|natural numbers]] are a [[projective object]] in [[Set]].
-
 * [[metacompact space|metacompact]]: every open cover has a point-finite open refinement.
 
 
