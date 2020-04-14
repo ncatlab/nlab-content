@@ -58,6 +58,8 @@ See at _[[QCD trace anomaly]]_.
 
 * [[lattice QCD]]
 
+* [[super QCD]]
+
 * [[confinement]]
 
   * [[chiral perturbation theory]], [[quantum hadrodynamics]]
