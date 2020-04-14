@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On the [[Skyrme model]] including [[leptons]]:
+
+* [[Eric D'Hoker]], Edward Farhi, _The decay of the skyrmion_, Physics Letters B Volume 134, Issues 1–2, 5 January 1984, Pages 86-90 (<a href="https://doi.org/10.1016/0370-2693(84)90991-2">doi:10.1016/0370-2693(84)90991-2</a>)
+
 On [[multi-trace operators]] in the [[AdS/CFT correspondence]]:
 
 * [[Eric D'Hoker]], [[Daniel Freedman]], [[Samir Mathur]], A. Matusis, [[Leonardo Rastelli]], _Extremal Correlators in the AdS/CFT Correspondence_, in: _[[The many faces of the superworld]]_ ([arXiv:hep-th/9908160](https://arxiv.org/abs/hep-th/9908160))
