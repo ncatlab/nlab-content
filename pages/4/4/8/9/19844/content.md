@@ -23,7 +23,7 @@ In the current [[standard model of particle physics]] the [[fundamental particle
 
 The presence -- or not -- of flavour anomalies is part of the general _[[flavour problem]]_ of the [[standard model of particle physics]].
 
-Flavor universality pertains in particular to [[scattering amplitude|decays]] of [[bottom quarks]], denoted $b$ (in the third [[generation of fundamental particles|generation]]), into [[electron]]/[[positron]] pairs, denoted $e^+ e^-$ (in the first [[generation of fundamental particles|generation]]) or [[muon]]/[[antiparticle|anti]][[muon]] pairs, denoted $\mu^+ \mu^-$ (in the second [[generation of fundamental particles|generation]]), the latter two jointly denoted $\ell^+ \ell^-$ (for "[[leptons]]") in this context.
+Flavor universality pertains in particular to [[leptonic decays]] of [[bottom quarks]], denoted $b$ (in the third [[generation of fundamental particles|generation]]), into [[electron]]/[[positron]] pairs, denoted $e^+ e^-$ (in the first [[generation of fundamental particles|generation]]) or [[muon]]/[[antiparticle|anti]][[muon]] pairs, denoted $\mu^+ \mu^-$ (in the second [[generation of fundamental particles|generation]]), the latter two jointly denoted $\ell^+ \ell^-$ (for "[[leptons]]") in this context.
 
 Since [[quarks]] never appear in isolation (due to [[confinement]]) but always as [[bound states]] to [[hadrons]], [[scattering amplitude|decays]] specifically of [[bottom quarks]] manifest themselves in [[scattering amplitude|decays]] of [[mesons]] that contain $b$ -- [[B-mesons]], denoted $B$ --
 
@@ -410,7 +410,7 @@ Comprehensive overview of the latest world-averaged results to be found at:
 * Jon Butterworth, Section 1 in: _Highlights of EPS HEP 2019_, talk at [eps-hep2019](http://eps-hep2019.eu/)
  ([arxiv:1910.12768](https://arxiv.org/abs/1910.12768))
 
-* Antonio Pich, _Flavour Anomalies_ ([arxiv:1911.06211](https://arxiv.org/abs/1911.06211))
+* [[Antonio Pich]], _Flavour Anomalies_, PoS LHCP2019 (2019) 078 ([arxiv:1911.06211](https://arxiv.org/abs/1911.06211), [spire:1765034](https://inspirehep.net/literature/1765034))
 
 * {#London19} David London, _Anomalies in B Decays: A Sign of New Physics?_,
 talk at [XIth International Symposium on Quantum Theory and Symmetries](http://www.crm.umontreal.ca/2019/QTS2019/index_e.php), July 1-5, 2018 Centre de recherches mathématiques, Montréal, Canada ([arxiv:1911.06238](https://arxiv.org/abs/1911.06238))
