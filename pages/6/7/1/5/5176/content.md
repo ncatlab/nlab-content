@@ -108,4 +108,6 @@ Cosheaves of [[algebras]], or notions similar to this, appear in [[AQFT]] as [[l
 
 * Andrei V. Prasolov, _Cosheafification_ ([arXiv:1605.01555](https://arxiv.org/abs/1605.01555))
 
+* Andrei V. Prasolov, _Cosheaves_ ([arXiv:1804.07988](https://arxiv.org/abs/1804.07988))
+
 [[!redirects cosheaves]]
