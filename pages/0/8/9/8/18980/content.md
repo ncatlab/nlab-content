@@ -29,7 +29,9 @@ In the [[standard model of particle physics]], a _lepton_ is a [[fermion]] that 
 
 ## Related concepts
 
-* [[quark]]
+* [[hadron]]
+
+* [[leptonic decay]]
 
 ## References
 
