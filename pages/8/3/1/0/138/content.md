@@ -372,7 +372,9 @@ by computing for each hypercover $Y \to X$ the [[cochain cohomology]] of the [[M
 
 A proof of this result in terms of the structure of a [[category of fibrant objects]] on the category of simplicial presheaves appears in ([Brown 73, section 3](#Brown73)).
 
+## Related entries
 
+* [[hypersheaf]]
 
 ## Reference
 
