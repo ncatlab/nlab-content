@@ -24,7 +24,7 @@
 
 ## Idea
 
-A _hypercover_ is the generalization of a [[Cech nerve]] of a [[cover]]: it is a simplicial [[resolution]] of an object obtained by iteratively applying covering families.
+A _hypercover_ is the generalization of a [[Čech nerve]] of a [[cover]]: it is a simplicial [[resolution]] of an object obtained by iteratively applying covering families.
 
 ## Definition
 
@@ -138,7 +138,7 @@ $$
 
 =--
 
-([Dugger-Hollander-Isaksen 02, prop. 7.2](#DuggerHollanderIsaksen02)
+([Dugger-Hollander-Isaksen 02, prop. 7.2](#DuggerHollanderIsaksen02)).
 
 +-- {: .num_remark}
 ###### Remark
@@ -210,12 +210,12 @@ Consider the case that $X = const X_0$ is simplicially constant. Then the condit
 ### Existence and refinements
 
 
-#### Cech nerves
+#### Čech nerves
 
 +-- {: .num_prop}
 ###### Proposition
 
-For $U = \{U_i \to X\}$ a [[cover]], the [[Cech nerve]] projection $C(U) \to X$ is a hypercover of height 0.
+For $U = \{U_i \to X\}$ a [[cover]], the [[Čech nerve]] projection $C(U) \to X$ is a hypercover of height 0.
 
 =--
 
