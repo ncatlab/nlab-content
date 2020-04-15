@@ -193,7 +193,7 @@ When $C$ is [[small category|small]], a functor $F\colon C\to Set$ is Set-valued
 =--
 +-- {: .proof}
 ###### Proof
-This is prop. 6.1.3 in ([Borceux](#Borceux)).
+This is prop. 6.3.8 in ([Borceux](#Borceux)).
 =--
 
 +-- {: .num_prop #FlatnessIfYonedaExtensionPreservesFiniteLimits}
