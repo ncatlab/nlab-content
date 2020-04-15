@@ -92,7 +92,7 @@ A lax monoidal functor is the same thing as a [monoid for the Day convolution](h
 Computer Science 1376:223&#8211;237. Springer&#8211;Verlag, Berlin Heidelberg, 1998.
  
 
-* {#Morton} [[Jeffrey Morton]], _Belief propagation in monoidal categories_ In [[Bob Coecke]], I. Hasuo, P. Panangaden (eds.) _Quantum Physics and Logic_ 2014 (QPL 2014), EPTCS 172:262&#8211;269.
+* {#Morton} [[Jason Morton]], _Belief propagation in monoidal categories_ In [[Bob Coecke]], I. Hasuo, P. Panangaden (eds.) _Quantum Physics and Logic_ 2014 (QPL 2014), EPTCS 172:262&#8211;269.
  
 
 * {#FongSpivak} [[Brendan Fong]] and [[David Spivak]], *Hypergraph Categories* ([arxiv:1806.08304](https://arxiv.org/abs/1806.08304)) 
