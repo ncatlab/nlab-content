@@ -7,7 +7,7 @@
     "margin": {
         "top": -50,
         "right": 10,
-        "bottom": -40,
+        "bottom": -10,
         "left": 20
     }
 \end{imagefromfile}
