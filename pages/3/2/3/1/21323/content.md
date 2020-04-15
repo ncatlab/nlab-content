@@ -77,9 +77,7 @@ This is in contrast to
 
 ### General
 
-Lecture notes: section 17.2 in: [[WeakInteractionsSurvey.pdf:file]]
-
-* R. Casalbuoni, A. Deandrea, N.Di Bartolomeo, F. Feruglio, R. Gatto, G. Nardulli, _Phenomenology of Heavy Meson Chiral Lagrangians_, Phys. Rept. 281:145-238, 1997 ([arXiv:hep-ph/9605342](https://arxiv.org/abs/hep-ph/9605342))
+* R. Casalbuoni, A. Deandrea, N. Di Bartolomeo, F. Feruglio, R. Gatto, G. Nardulli, _Phenomenology of Heavy Meson Chiral Lagrangians_, Phys. Rept. 281:145-238, 1997 ([arXiv:hep-ph/9605342](https://arxiv.org/abs/hep-ph/9605342))
 
 ### For B-mesons
 
@@ -95,6 +93,10 @@ See also
 
 * Giovanni Banelli, Robert Fleischer, Ruben Jaarsma, Gilberto Tetlalmatzi-Xolocotzi, _Decoding (Pseudo)-Scalar Operators in Leptonic and Semileptonic B Decays_, The European Physical Journal C volume 78 ([arXiv:1809.09051](https://arxiv.org/abs/1809.09051))
 
+### Radiative leptonic decays
+
+* Chao-Hsi Chang, Jian-Ping Cheng, Cai-Dian Lu, _Radiative Leptonic Decays of Bc Meson_, Phys. Lett. B425 (1998) 166-170 ([arXiv:hep-ph/9712325](https://arxiv.org/abs/hep-ph/9712325))
+ 
 
 
 [[!redirects semileptonic decays]]
