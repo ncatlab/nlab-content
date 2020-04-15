@@ -114,6 +114,8 @@ automatically the Wess–Zumino term, with the correct coefficient!
 
 * [[hadron supersymmetry]]
 
+* [[leptonic decay]]
+
 * [[holographic QCD]]
 
 ## References
@@ -123,9 +125,9 @@ automatically the Wess–Zumino term, with the correct coefficient!
 
 * [[Jürg Gasser]], _The QCD Vacuum and Chiral Symmetry_, In: Vautherin D., Lenz F., Negele J.W. (eds.) _Hadrons and Hadronic Matter_, NATO ASI Series (Series B: Physics), vol 228. Springer 1990 ([doi:10.1007/978-1-4684-1336-6_4](https://doi.org/10.1007/978-1-4684-1336-6_4))
 
-* G. Ecker, _The standard model at low energies_, Czech. J. Phys. 44:405-430, 1995 ([arXiv:hep-ph/9309268](https://arxiv.org/abs/hep-ph/9309268))
+* [[Gerhard Ecker]], _The standard model at low energies_, Czech. J. Phys. 44:405-430, 1995 ([arXiv:hep-ph/9309268](https://arxiv.org/abs/hep-ph/9309268))
 
-* A. Pich, _Chiral Perturbation Theory_ ([arXiv:hep-ph/9502366](https://arxiv.org/abs/hep-ph/9502366))
+* [[Antonio Pich]], _Chiral Perturbation Theory_ ([arXiv:hep-ph/9502366](https://arxiv.org/abs/hep-ph/9502366))
 
 * [[Maciej Nowak]], [[Mannque Rho]], [[Ismail Zahed]], _[[Chiral Nuclear Dynamics]]_,  World Scientific 1996 ([doi:10.1142/1681](https://doi.org/10.1142/1681))
 
@@ -143,7 +145,7 @@ automatically the Wess–Zumino term, with the correct coefficient!
 
 * Véronique Bernard, _Chiral Perturbation Theory and Baryon Properties_, Prog. Part. Nucl. Phys. 60:82-160, 2008 ([arXiv:0706.0312](https://arxiv.org/abs/0706.0312))
 
-* Gerhard Ecker, _Status of chiral perturbation theory_, PoS Confinement 8:025, 2008 ([arXiv:0812.4196](https://arxiv.org/abs/0812.4196))
+* [[Gerhard Ecker]], _Status of chiral perturbation theory_, PoS Confinement 8:025, 2008 ([arXiv:0812.4196](https://arxiv.org/abs/0812.4196))
 
 
 * Johan Bijnens, _Chiral perturbation theory in the meson sector_, PoS CD09:031, 2009 ([arXiv:0909.4635](https://arxiv.org/abs/0909.4635))
@@ -191,7 +193,7 @@ As [[quantum hadrodynamics]]:
 
 Specifically for [[kaon]] decay:
 
-* V. Cirigliano, G. Ecker, H. Neufeld, A. Pich, J. Portoles, _Kaon Decays in the Standard Model_, Rev. Mod. Phys. 84 (2012) 399 ([arXiv:1107.6001](https://arxiv.org/abs/1107.6001))
+* V. Cirigliano, [[Gerhard Ecker]], [[Helmut Neufeld]], [[Antonio Pich]], J. Portoles, _Kaon Decays in the Standard Model_, Rev. Mod. Phys. 84 (2012) 399 ([arXiv:1107.6001](https://arxiv.org/abs/1107.6001))
 
 Further discussion of [[phenomenology]]:
 
@@ -228,10 +230,10 @@ On [[chiral perturbation theory]] including [[leptons]]:
 
 
 
-* M. Knecht, H. Neufeld, H. Rupertsberger, P. Talavera, _Chiral Perturbation Theory with Virtual Photons and Leptons_, Eur. Phys. J. C12:469-478, 2000 ([arXiv:hep-ph/9909284](https://arxiv.org/abs/hep-ph/9909284))
+* M. Knecht, [[Helmut Neufeld]], H. Rupertsberger, P. Talavera, _Chiral Perturbation Theory with Virtual Photons and Leptons_, Eur. Phys. J. C12:469-478, 2000 ([arXiv:hep-ph/9909284](https://arxiv.org/abs/hep-ph/9909284))
 
 
-* H. Neufeld, _Chiral Perturbation Theory with Photons and Leptons_, PiN Newslett. 15:189-192, 1999 ([arXiv:hep-ph/9912462](https://arxiv.org/abs/hep-ph/9912462))
+* [[Helmut Neufeld]], _Chiral Perturbation Theory with Photons and Leptons_, PiN Newslett. 15:189-192, 1999 ([arXiv:hep-ph/9912462](https://arxiv.org/abs/hep-ph/9912462))
 
 
 
@@ -246,7 +248,7 @@ Original articles:
 
 * [[Jürg Gasser]], [[Heinrich Leutwyler]], Appendix C of: _Chiral perturbation theory to one loop_, Annals of Physics Volume 158, Issue 1, November 1984, Pages 142-210 (<a href="https://doi.org/10.1016/0003-4916(84)90242-2">doi:10.1016/0003-4916(84)90242-2</a>)
 
-* G. Ecker, [[Jürg Gasser]], A. Pich, E. DeRafael, Sec 3 and Appendix A in: _The role of resonances in chiral perturbation theory_, Nuclear Physics B
+* [[Gerhard Ecker]], [[Jürg Gasser]], [[Antonio Pich]], E. DeRafael, Sec 3 and Appendix A in: _The role of resonances in chiral perturbation theory_, Nuclear Physics B
 Volume 321, Issue 2, 24 July 1989, Pages 311-342 (<a href="https://doi.org/10.1016/0550-3213(89)90346-5">doi:10.1016/0550-3213(89)90346-5</a>)
 
 Relation between the vector- and the antisymmetric tensor-representation of vector mesons:
