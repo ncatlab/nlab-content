@@ -347,7 +347,7 @@ Comprehensive overview of the latest world-averaged results to be found at:
 
 * [[LHCb collaboration]], _Test of lepton universality using $B^0\to K^{\ast 0} \ell^+ \ell^-$ decays_, JHEP 08 (2017) 055 ([arXiv:1705.05802](https://arxiv.org/abs/1705.05802))
 
-* [[LHCb collaboration]], _Measurement of the ratio of the $B^0 \to D^{\ast -} \tau^+ \vu_\tau$ and $B^0 \to D^{\ast - \mu^+ \nu_\mu}$ branching fractions using three-prong τ-lepton decays_ ([arXiv:1708.08856](https://arxiv.org/abs/1708.08856))
+* [[LHCb collaboration]], _Measurement of the ratio of the $B^0 \to D^{\ast -} \tau^+ \nu_\tau$ and $B^0 \to D^{\ast - }\mu^+ \nu_\mu$ branching fractions using three-prong τ-lepton decays_ ([arXiv:1708.08856](https://arxiv.org/abs/1708.08856))
 
 * [[Belle collaboration]], _Measurement of the $\tau$ lepton polarization and $R(D^\ast)$ in the decay $\bar B \to D^\ast \tau^- \bar \nu_\tau$ with one-prong hadronic τ decays at Belle_ ([arXiv:1709.00129](https://arxiv.org/abs/1709.00129))
 
