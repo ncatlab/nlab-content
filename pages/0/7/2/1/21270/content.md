@@ -30,7 +30,9 @@ The _classical double copy_-method is the counterpart in [[classical field theor
 
 ### Double copy and Kerr-Schild metric
 
-A [[Kerr-Schild spacetime|Kerr-Schild metric]] is a [[perturbation]] of a flat [[Minkowski metric]] $\eta_{\mu\nu}$ of the form
+#### Definitions
+
+* A [[Kerr-Schild spacetime|Kerr-Schild metric]] is a [[perturbation]] of a flat [[Minkowski metric]] $\eta_{\mu\nu}$ of the form
 
 $$ g_{\mu\nu} = \eta_{\mu\nu} + \kappa \phi k_{\mu}k_{\nu} $$
 
@@ -44,13 +46,31 @@ $$A_{\mu} = (c^a \mathbf{T}_a) \phi k_\mu$$
 
 where $c^a\mathbf{T}_a \in \mathfrak{g}$ is an arbitrary constant [[color charge]], specified by a [[vector]] $c^a$ in the [[linear basis|basis]] $\{\mathbf{T}_a\}$ of the [[Lie algebra]] $\mathfrak{g}$. 
 
-Conversely, if we start from a gauge field of the form $A_{\mu} = (c^a \mathbf{T}_a) \phi k_\mu$ for any constant [[color charge]] $c^a\mathbf{T}_a \in \mathfrak{g}$ and [[lightlike|null]] [[covector]] $k_\mu$ satisfying the [[geodesic]] property, we can define its _double copy_ gravitational field by the [[Kerr-Schild spacetime|Kerr-Schild metric]] $g_{\mu\nu}=\eta_{\mu\nu} + \kappa \phi k_{\mu}k_{\nu}$.
+* Conversely, if we start from a gauge field of the form $A_{\mu} = (c^a \mathbf{T}_a) \phi k_\mu$ for any constant [[color charge]] $c^a\mathbf{T}_a \in \mathfrak{g}$ and [[lightlike|null]] [[covector]] $k_\mu$ satisfying the [[geodesic]] property, we can define its _double copy_ gravitational field by the [[Kerr-Schild spacetime|Kerr-Schild metric]] $g_{\mu\nu}=\eta_{\mu\nu} + \kappa \phi k_{\mu}k_{\nu}$.
 
-Otherwise, if we repeat the procedure of replacing a covector $k_\mu$ with any fixed [[color charge]] $(\tilde{c}^b \tilde{\mathbf{T}}_b)\in\tilde{\mathfrak{g}}$ we can get a _zeroth copy_ [[scalar field]], defined by
+* Otherwise, if we repeat the procedure of replacing a covector $k_\mu$ with any fixed [[color charge]] $(\tilde{c}^b \tilde{\mathbf{T}}_b)\in\tilde{\mathfrak{g}}$ we can get a _zeroth copy_ [[scalar field]], defined by
 
 $$\Phi = (c^a \mathbf{T}_a)\otimes(\tilde{c}^b \tilde{\mathbf{T}}_b)\phi $$
 
 where the new [[gauge group]] $\tilde{G}$ can be chosen different from the previous $G$.
+
+#### Field equations
+
+By following ([MOW 15](#MOW15)) we have a comparison of the field equations. Assume without loss of generality that $k^0=1$. We get the following:
+
+* The vacuum [[Einstein equations]] for the metric $g_{\mu\nu}$ are $R=0$ (where $R$ is the [[Ricci curvature]]), which reduce to
+$$ R^0_{\;0} = \frac{1}{2}\nabla^2\phi = 0 $$
+$$ R^i_{\;0} = -\frac{1}{2}\partial^j \left(\partial^i(\phi k^j)-\partial^j(\phi k^i)\right) =0$$
+$$ R^i_{\;j} = \frac{1}{2}\partial_l \left(\partial^i(\phi k^lk^j)+\partial_j(\phi k^lk^i)-\partial^l(\phi k^ik_j)\right) =0$$
+
+* The [[Maxwell equations]] for the gauge field $A$ are $\mathrm{d} F = 0$, which reduce to
+$$ (\mathrm{d}F)^0 = \nabla^2\phi = 0 $$
+$$ (\mathrm{d}F)^i = \partial_j \left(\partial^j(\phi k^i)-\partial^i(\phi k^j)\right) = 0$$
+
+* The [[Klein–Gordon equation]] for the scalar field $\Phi$ are
+$$\nabla^2\Phi = 0$$
+
+#### Outlook
 
 Summarizing, we have the following table:
 
