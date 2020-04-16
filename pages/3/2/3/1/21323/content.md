@@ -95,7 +95,7 @@ See also
 
 ### Radiative leptonic decays
 
-* Chao-Hsi Chang, Jian-Ping Cheng, Cai-Dian Lu, _Radiative Leptonic Decays of Bc Meson_, Phys. Lett. B425 (1998) 166-170 ([arXiv:hep-ph/9712325](https://arxiv.org/abs/hep-ph/9712325))
+* Chao-Hsi Chang, Jian-Ping Cheng, Cai-Dian Lu, _Radiative Leptonic Decays of $B_c$ Meson_, Phys. Lett. B425 (1998) 166-170 ([arXiv:hep-ph/9712325](https://arxiv.org/abs/hep-ph/9712325))
  
 
 
