@@ -45,6 +45,16 @@ $$A_{\mu} = (c^a \mathbf{T}_a) \phi k_\mu$$
 
 where $c^a\mathbf{T}_a \in \mathfrak{g}$ is an arbitrary constant [[color charge]], specified by a vector $c^a$ in the basis $\{\mathbf{T}_a\}$ of $\mathfrak{g}$. We thus call the gravitational field $g_{\mu\nu}$ the _double copy_ ([MOW 15](#MOW15)) of any such gauge field $A_{\mu}$.
 
+If we repeat the procedure of replacing a covector $k_\mu$ with any fixed [[color charge]] $(\tilde{c}^b \tilde{\mathbf{T}}_b)\in\tilde{\mathfrak{g}}$ we can get a _zeroth copy_ scalar field, defined by
+
+$$\Phi = (c^a \mathbf{T}_a)\otimes(\tilde{c}^b \tilde{\mathbf{T}}_b)\phi $$
+
+where the new [[gauge group]] $\tilde{G}$ can be chosen different from the previous $G$.
+
+| zeroth copy | single copy | double copy |
+|--|--|--|
+| $\Phi = (c^a \mathbf{T}_a)\otimes(\tilde{c}^b \tilde{\mathbf{T}}_b)\phi$ | $A_{\mu} = (c^a \mathbf{T}_a) \phi k_\mu$ | $g_{\mu\nu} = \eta_{\mu\nu} + \kappa \phi k_{\mu}k_{\nu}$ |
+
 ## Examples
 
 Examples of classical double copy of gauge fields:
@@ -52,16 +62,54 @@ Examples of classical double copy of gauge fields:
 | [[gauge theory]] solution | [[gravity]] solution | ref. |
 |--|--|--|
 | electric monopole | [[Schwarzschild spacetime]] | ([MOW 15](#MOW15)) |
-| magnetic monopole | massless [[Taub-NUT space]] | ([LMOW 15](#LMOW15)) |
+| magnetic monopole | massless [[Taub-NUT spacetime]] | ([LMOW 15](#LMOW15)) |
 | planar wave | pp-wave | ([MOW 15](#MOW15)) |
 |planar shockwave | Aichelburg-Sexl shockwave | ([BSW 20](#BSW20)) |
 
-In terms of [[charges]] we have the following correspondence:
+## Double copy and topology
+
+From ([LMOW 15](#LMOW15)) we know that in terms of [[charges]] we have the following correspondence:
 
 | [[gauge theory]] solution | [[gravity]] solution |
 |--|--|
 | [[electric charge]] | [[mass]] |
-| [[magnetic charge]] | NUT charge |
+| [[magnetic charge]] | [[NUT charge]] |
+
+The topological consequences were explored by ([AWW 20](#AWW20)):
+
+* A [[magnetic monopole]] is geometrically a [[principal bundle]] of the form 
+$$\underset{ \text{worldline} }\underbrace{\mathbb{R}^{1}} \times \underset{ \text{transverse space} }\underbrace{ (\mathbb{R}^3-\{0\}) } \;\,\simeq_{\mathrm{diff}}\;\,  \underset{ \text{worldline} }\underbrace{\mathbb{R}^{0,1}} \times \underset{ \text{radial dir.} }\underbrace{\mathbb{R}^+} \times \underset{ \text{angular dir.} }\underbrace{S^2} \longrightarrow B U(1) $$
+which is trivial only on the worldline $\mathbb{R}^{1}$ of the monopole. Therefore, since we have the homotopy $\mathbb{R}^3-\{0\} \simeq S^2$, the [[first Chern class]] of the bundle will be an element $[F] \in H^2(S^2,\mathbb{Z})\cong \mathbb{Z}$. In other words we have
+$$ [F] = \tilde{g} [\mathrm{Vol}_{S^2}] $$
+where $\mathrm{Vol}_{S^2}$ is the volume form of $S^2$ and $\tilde{g}\in\mathbb{Z}$ is the quantized [[magnetic charge]].
+
+* The massless [[Taub-NUT spacetime]] with [[NUT charge]] $N$ is a [[circle bundle]] too. In fact it is diffeomorphic to the manifold $\mathbb{R}^+\times L(1,N)$, where $\times L(1,N)$ is the $3$-dimensional Lens space with quantized [[first Chern class]] $N\in\mathbb{Z}\cong H^2(S^2,\mathbb{Z})$. In this case the $S^1$ fiber has the interpretation of [[time]] direction, which is periodic and non-trivially fibrated on the sphere $S^2$ of the angular directions.
+
+Therefore the double copy procedure exchange the [[first Chern class]] of the [[magnetic monopole]] with the one of [[Taub-NUT spacetime]], i.e.
+$$ \tilde{g} \mapsto N. $$
+
+
+## Double copy and Wilson lines
+
+The classical double copy of [[Wilson lines]] was introduced by ([AWW 20](#AWW20)). We can use as gravitational [[Wilson lines]] on spacetime $M$ the [[action functional]] $e^{i S_{\mathrm{kin}}}: [S^1, M]\rightarrow U(1)$ of a test particle. For any loop $\gamma\in[S^1, M]$ we can then write
+
+$$ W_{\mathrm{grav}}(\gamma) = e^{i S_{\mathrm{kin}}}(\gamma) = \exp \left(im \int_\gamma \mathrm{d}s \left(g_{\mu\nu}\frac{\mathrm{d}x^\mu}{\mathrm{d}s}\frac{\mathrm{d}x^\nu}{\mathrm{d}s}\right)^{\frac{1}{2}} \right) \;\in\, U(1) $$
+
+If we assume that the metric is of the form $g_{\mu\nu} = \eta_{\mu\nu} + \kappa h_{\mu\nu}$, we can expand $W_{\mathrm{grav}}(\gamma)$ in $\kappa$ at first order and obtain
+
+$$ W_{\mathrm{grav}}(\gamma) = \exp \left(\frac{i \kappa}{2} \int_\gamma \mathrm{d}s\, h_{\mu\nu}\frac{\mathrm{d}x^\mu}{\mathrm{d}s}\frac{\mathrm{d}x^\nu}{\mathrm{d}s} \right) \;\in\, U(1) $$
+
+where the mass $m$ is absorbed into the new parameter $s$. If now we write the [[holonomy]] of the _single copy_ gauge field along the same path $\gamma$ we get
+
+$$ W_{\mathrm{gauge}}(\gamma) = \mathcal{P}\exp \left(i g \int_\gamma \mathrm{d}s\, A_{\mu}^a \frac{\mathrm{d}x^\mu}{\mathrm{d}s}\mathbf{T}_a \right) \;\in\, G$$
+
+Thus we immediately see that the double copy rules for a [[Wilson line]] are the following:
+
+$$ \mathbf{T}_a \mapsto  \frac{\mathrm{d}x^\nu}{\mathrm{d}s}, \quad\; g \mapsto  \frac{\kappa}{2}$$
+
+Notice that they precisely mirror the BCJ prescription of [[double copy]] for [[scattering amplitudes]] by exchanging color data with kinematic data and gauge coupling constant with its gravitational analogue. 
+
+This suggests that this formulation can be a bridge to formally connect [[classical double copy]] with [[double copy]] for [[scattering amplitudes]].
 
 ## Double copy and S-duality
 
@@ -89,6 +137,8 @@ $$\array{{electric \; monopole} & \overset{{\;\; double \; copy \;\;}}{\to} & {S
 
 ## References
 
+Fundamental bibliography:
+
 * {#MOW15} Ricardo Monteiro, Donal O'Connell, Chris D. White, _Black holes and the double copy_ ([arXiv:1410.0239](https://arxiv.org/abs/1410.0239))
 
 * {#LMOW15} Andrés Luna, Ricardo Monteiro, Donal O'Connell, Chris D. White, _The classical double copy for Taub-NUT spacetime_ ([arXiv:1507.01869](https://arxiv.org/abs/1507.01869))
@@ -100,6 +150,10 @@ $$\array{{electric \; monopole} & \overset{{\;\; double \; copy \;\;}}{\to} & {S
 * Kwangeon Kim, Kanghoon Lee, Ricardo Monteiro, Isobel Nicholson, David Peinador Veiga, _The Classical Double Copy of a Point Charge_ ([arXiv:1912.02177](https://arxiv.org/abs/1912.02177))
 
 * {#BSW20} Nadia Bahjat-Abbas, Ricardo Stark-Muchão, Chris D. White, _Monopoles, shockwaves and the classical double copy_ ([arXiv:2001.09918](https://arxiv.org/abs/2001.09918))
+
+Some global aspects of the [[classical double copy]] were explored in the following paper:
+
+* {#AWW20} [[Luigi Alfonsi]], Chris D. White, Sam Wikeley _Topology and Wilson lines: global aspects of the double copy_ ([arXiv:2004.07181](https://arxiv.org/abs/2004.07181))
 
 In the following paper it is shown that a [[S-duality]] on a gauge field corresponds to an [[Ehlers transformation]] on its double copy:
 
