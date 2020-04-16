@@ -666,7 +666,9 @@ Further generalization of the model structure for excisive functor, in particula
 
 [[!redirects model structure for excisive functors]]
 [[!redirects model structures for excisive functors]]
-
-
 [[!redirects model structure on excisive functors]]
 [[!redirects model structures on excisive functors]]
+[[!redirects model structure for reduced excisive functors]]
+[[!redirects model structures for reduced excisive functors]]
+[[!redirects model structure on reduced excisive functors]]
+[[!redirects model structures on reduced excisive functors]]
