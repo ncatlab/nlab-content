@@ -110,6 +110,12 @@ to the unknown [[phase of matter|state of matter]] at the cores of [[neutron sta
 is to establish a rigorous link of QCD to low-energy hadron physics as it is observed in
 the many experimental cross section measurements. 
 
+\linebreak
+
+* [[Rupert Machleidt]], _The Meson Theory of Nuclear Forces and Nuclear Structure_, In: Negele J.W., Vogt E. (eds.) _Advances in Nuclear Physics_ Advances in Nuclear Physics, vol 19. Springer 1989 ([doi:10.1007/978-1-4613-9907-0_2](https://doi.org/10.1007/978-1-4613-9907-0_2))
+
+> There  are theoretical attempts to connect the fundamental theory of [[QCD]] with the very successful [[meson]] picture at low energy. The [[Skyrme model]] is an  example. In other attempts, one tries to derive the NN  interaction more or less directly from [[QCD]].  At present, the predictions are more of a qualitative kind. For quantitative results, the one-[[pion]] and two-[[pion]] contributions have to be added by hand,  as they do not emerge naturally out of [[QCD]]-inspired models. Knowing  that $\pi$ and $2\pi$ are the most important parts of the [[nuclear force]], this defect of present [[quark]] model calculations is serious.
+
 
 ## Potential solutions
 
