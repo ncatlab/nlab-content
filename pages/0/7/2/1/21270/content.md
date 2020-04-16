@@ -6,7 +6,7 @@
 +-- {: .hide}
 [[!include gravity contents]]
 =--
-#### Algebraic Quantum Field Theory
+#### Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
@@ -18,24 +18,23 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-Classical double copy is the counterpart in [[classical field theory]] of [[double copy]] for [[scattering amplitudes]] in [[perturbative quantum field theory]]. It relates classical solutions of the field equations of a [[gauge theory]] with solutions of the [[Einstein equation]] in [[general relativity]].
+The _classical double copy_-method is the counterpart in [[classical field theory]] of the [[double copy]]-phenomenon for [[scattering amplitudes]] in [[perturbative quantum field theory]]. It relates classical solutions of the [[equation of motion|field equations]] of a [[Yang-Mills theory|Yang-Mills]] [[gauge theory]] with solutions of the [[Einstein equation]] in [[general relativity]].
 
 ## Double copy and classical field theory
 
 ### Double copy and Kerr-Schild metric
 
-A Kerr-Schild metric is a perturbation of a flat Minkowski metric $\eta_{\mu\nu}$ of the form
+A [[Kerr-Schild spacetime|Kerr-Schild metric]] is a [[perturbation]] of a flat [[Minkowski metric]] $\eta_{\mu\nu}$ of the form
 
 $$ g_{\mu\nu} = \eta_{\mu\nu} + \kappa \phi k_{\mu}k_{\nu} $$
 
-where $\kappa=\sqrt{32\pi G_{\mathrm{N}}}$ is a constant with $G_{\mathrm{N}}$ Newton constant, $\phi$ is a scalar field and $k_\mu$ is a null covector satisfying the geodesic property, i.e.
+where $\kappa=\sqrt{32\pi G_{\mathrm{N}}}$ is a constant with $G_{\mathrm{N}}$ [[Newton's constant]], $\phi$ is a [[scalar field]] and $k_\mu$ is a [[lightlike|null]] [[covector]] satisfying the [[geodesic]] property, i.e.
 
 $$ \eta_{\mu\nu}k^\mu k^\nu = g_{\mu\nu}k^\mu k^\nu =0, \quad (k\cdot\partial)k^\mu =0.$$
 
@@ -43,9 +42,9 @@ The _single copy_ gauge field ([MOW 15](#MOW15)) of this gravitational field is 
 
 $$A_{\mu} = (c^a \mathbf{T}_a) \phi k_\mu$$
 
-where $c^a\mathbf{T}_a \in \mathfrak{g}$ is an arbitrary constant [[color charge]], specified by a vector $c^a$ in the basis $\{\mathbf{T}_a\}$ of $\mathfrak{g}$. We thus call the gravitational field $g_{\mu\nu}$ the _double copy_ ([MOW 15](#MOW15)) of any such gauge field $A_{\mu}$.
+where $c^a\mathbf{T}_a \in \mathfrak{g}$ is an arbitrary constant [[color charge]], specified by a [[vector]] $c^a$ in the [[linear basis|basis]] $\{\mathbf{T}_a\}$ of the [[Lie algebra]] $\mathfrak{g}$. We thus call the gravitational field $g_{\mu\nu}$ the _double copy_ ([MOW 15](#MOW15)) of any such gauge field $A_{\mu}$.
 
-If we repeat the procedure of replacing a covector $k_\mu$ with any fixed [[color charge]] $(\tilde{c}^b \tilde{\mathbf{T}}_b)\in\tilde{\mathfrak{g}}$ we can get a _zeroth copy_ scalar field, defined by
+If we repeat the procedure of replacing a covector $k_\mu$ with any fixed [[color charge]] $(\tilde{c}^b \tilde{\mathbf{T}}_b)\in\tilde{\mathfrak{g}}$ we can get a _zeroth copy_ [[scalar field]], defined by
 
 $$\Phi = (c^a \mathbf{T}_a)\otimes(\tilde{c}^b \tilde{\mathbf{T}}_b)\phi $$
 
@@ -63,7 +62,7 @@ Examples of classical double copy of gauge fields:
 |--|--|--|
 | electric monopole | [[Schwarzschild spacetime]] | ([MOW 15](#MOW15)) |
 | magnetic monopole | massless [[Taub-NUT spacetime]] | ([LMOW 15](#LMOW15)) |
-| planar wave | pp-wave | ([MOW 15](#MOW15)) |
+| planar wave | [[pp-wave]] | ([MOW 15](#MOW15)) |
 |planar shockwave | Aichelburg-Sexl shockwave | ([BSW 20](#BSW20)) |
 
 ## Double copy and topology
