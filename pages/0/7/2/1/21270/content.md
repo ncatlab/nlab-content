@@ -61,7 +61,7 @@ By following ([MOW 15](#MOW15)) we have a comparison of the field equations. Ass
 * The vacuum [[Einstein equations]] for the metric $g_{\mu\nu}$ are $R=0$ (where $R$ is the [[Ricci curvature]]), which reduce to
 $$ R^0_{\;0} = \frac{1}{2}\nabla^2\phi = 0 $$
 $$ R^i_{\;0} = -\frac{1}{2}\partial^j \left(\partial^i(\phi k^j)-\partial^j(\phi k^i)\right) =0$$
-$$ R^i_{\;j} = \frac{1}{2}\partial_l \left(\partial^i(\phi k^lk^j)+\partial_j(\phi k^lk^i)-\partial^l(\phi k^ik_j)\right) =0$$
+$$ R^i_{\;j} = \frac{1}{2}\partial_l \left(\partial^i(\phi k^l k^j)+\partial_j(\phi k^l k^i)-\partial^l(\phi k^i k_j)\right) =0$$
 
 * The [[Maxwell equations]] for the gauge field $A$ are $\mathrm{d} F = 0$, which reduce to
 $$ (\mathrm{d}F)^0 = \nabla^2\phi = 0 $$
