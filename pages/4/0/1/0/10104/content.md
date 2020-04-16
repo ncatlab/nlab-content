@@ -14,7 +14,7 @@ $$ (X\oplus Y) \otimes Z \to (X\otimes Z) \oplus (Y\otimes Z) $$
 and
 $$ J \otimes Z \to J $$
 making the functor $(-\otimes Z)$ [[colax monoidal functor|colax monoidal]] with respect to $\oplus$, and perhaps some other coherence equations.  A **left colax-distributive** rig category has instead transformations
-$$ Z \otimes  (X\oplus Y) \to (Z\otimes X) \oplus (Z\otimes X) $$
+$$ Z \otimes  (X\oplus Y) \to (Z\otimes X) \oplus (Z\otimes Y) $$
 and
 $$ Z \otimes J \to J$$
 making $(Z\otimes -)$ colax monoidal, and a simply **colax-distributive** rig category has both.
