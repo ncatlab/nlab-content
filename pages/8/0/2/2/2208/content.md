@@ -18,7 +18,7 @@
 
 The **ultraproduct** construction is an important tool in [[model theory]] that permits to produce a new structure from an infinite family of structures. The construction has a decidedly 'algebraic' flavor and hence occurs naturally in applications of model theory to [[algebra]].
 
-It is closely related via the [[?o? ultraproduct theorem]] to the [[compactness theorem]]: suppose one is given a set of formulas $S$ in some first-order language and a family of structures such that any finite subset of formulas is modeled by all but a finite number of structures. Then an ultraproduct of those structures may be used to model the entire set $S$.[^compact] 
+It is closely related via the [[Łoś ultraproduct theorem]] to the [[compactness theorem]]: suppose one is given a set of formulas $S$ in some first-order language and a family of structures such that any finite subset of formulas is modeled by all but a finite number of structures. Then an ultraproduct of those structures may be used to model the entire set $S$.[^compact] 
 
 [^compact]: Due to the outstanding importance of the compactness theorem, it is possible to prove 'almost all' results in model theory by the use of ultraproducts. This approach to model theory is pursued in [Bell-Slomson (1969)](#BellSlomson). For contrast, compare with the more sober view of [Hodges (1993)](#Hodges93).
 
@@ -86,7 +86,7 @@ From Michael Barr's [Models of Sketches](http://archive.numdam.org/ARCHIVE/CTGDC
 
 There are various ways to formalize this: Henson's [[positive bounded logic]], [[continuous logic]], or ad hoc variants (e.g. "Banach space structures", "normed space structures", etc.)
 
-As one might expect, things which are only "approximately true" inside $X$ become "exactly true" in $X^{\mathcal{U}$. For example, if $\lambda$ is an [[approximate eigenvalue]] (e.g. on the boundary of the [[spectrum of an operator|spectrum]]) for a bounded operator $T$, then the germ of the sequence of approximate eigenvectors of $\lambda$ becomes a _bona fide_ [[eigenvector]] with eigenvalue $\lambda$ for $T^{\mathcal{U}}$ on $X^{\mathcal{U}}$.
+As one might expect, things which are only "approximately true" inside $X$ become "exactly true" in $X^{\mathcal{U}}$. For example, if $\lambda$ is an [[approximate eigenvalue]] (e.g. on the boundary of the [[spectrum of an operator|spectrum]]) for a bounded operator $T$, then the germ of the sequence of approximate eigenvectors of $\lambda$ becomes a _bona fide_ [[eigenvector]] with eigenvalue $\lambda$ for $T^{\mathcal{U}}$ on $X^{\mathcal{U}}$.
 
 ## Related entries
 
