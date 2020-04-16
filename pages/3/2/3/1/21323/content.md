@@ -96,6 +96,9 @@ See also
 ### Radiative leptonic decays
 
 * Chao-Hsi Chang, Jian-Ping Cheng, Cai-Dian Lu, _Radiative Leptonic Decays of $B_c$ Meson_, Phys. Lett. B425 (1998) 166-170 ([arXiv:hep-ph/9712325](https://arxiv.org/abs/hep-ph/9712325))
+
+* Gregory P. Korchemsky, Dan Pirjol, Tung-Mow Yan, _Radiative leptonic decays of B mesons in QCD_, Phys. Rev. D61:114510, 2000 ([arXiv:hep-ph/9911427](https://arxiv.org/abs/hep-ph/9911427))
+
  
 
 
