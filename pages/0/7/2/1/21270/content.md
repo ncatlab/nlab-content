@@ -42,17 +42,29 @@ The _single copy_ gauge field ([MOW 15](#MOW15)) of this gravitational field is 
 
 $$A_{\mu} = (c^a \mathbf{T}_a) \phi k_\mu$$
 
-where $c^a\mathbf{T}_a \in \mathfrak{g}$ is an arbitrary constant [[color charge]], specified by a [[vector]] $c^a$ in the [[linear basis|basis]] $\{\mathbf{T}_a\}$ of the [[Lie algebra]] $\mathfrak{g}$. We thus call the gravitational field $g_{\mu\nu}$ the _double copy_ ([MOW 15](#MOW15)) of any such gauge field $A_{\mu}$.
+where $c^a\mathbf{T}_a \in \mathfrak{g}$ is an arbitrary constant [[color charge]], specified by a [[vector]] $c^a$ in the [[linear basis|basis]] $\{\mathbf{T}_a\}$ of the [[Lie algebra]] $\mathfrak{g}$. 
 
-If we repeat the procedure of replacing a covector $k_\mu$ with any fixed [[color charge]] $(\tilde{c}^b \tilde{\mathbf{T}}_b)\in\tilde{\mathfrak{g}}$ we can get a _zeroth copy_ [[scalar field]], defined by
+Conversely, if we start from a gauge field of the form $A_{\mu} = (c^a \mathbf{T}_a) \phi k_\mu$ for any constant [[color charge]] $c^a\mathbf{T}_a \in \mathfrak{g}$ and [[lightlike|null]] [[covector]] $k_\mu$ satisfying the [[geodesic]] property, we can define its _double copy_ gravitational field by the [[Kerr-Schild spacetime|Kerr-Schild metric]] $g_{\mu\nu}=\eta_{\mu\nu} + \kappa \phi k_{\mu}k_{\nu}$.
+
+Otherwise, if we repeat the procedure of replacing a covector $k_\mu$ with any fixed [[color charge]] $(\tilde{c}^b \tilde{\mathbf{T}}_b)\in\tilde{\mathfrak{g}}$ we can get a _zeroth copy_ [[scalar field]], defined by
 
 $$\Phi = (c^a \mathbf{T}_a)\otimes(\tilde{c}^b \tilde{\mathbf{T}}_b)\phi $$
 
 where the new [[gauge group]] $\tilde{G}$ can be chosen different from the previous $G$.
 
+Summarizing, we have the following table:
+
 | zeroth copy | single copy | double copy |
 |--|--|--|
 | $\;\Phi = (c^a \mathbf{T}_a)\otimes(\tilde{c}^b \tilde{\mathbf{T}}_b)\phi\;$ | $\;A_{\mu} = (c^a \mathbf{T}_a) \phi k_\mu\;$ | $\;g_{\mu\nu} = \eta_{\mu\nu} + \kappa \phi k_{\mu}k_{\nu}\;$ |
+
+\begin{imagefromfile}
+"file_name": "doublecopy.png",
+"width": 700,
+"unit": "px",
+"caption": "Picture grabbed from ([BSW 20](#BSW20))."
+\end{imagefromfile}
+
 
 ## Examples
 
@@ -77,7 +89,7 @@ From ([LMOW 15](#LMOW15)) we know that in terms of [[charges]] we have the follo
 The topological consequences were explored by ([AWW 20](#AWW20)):
 
 * A [[magnetic monopole]] is geometrically a [[principal bundle]] of the form 
-$$\underset{ \text{worldline} }\underbrace{\mathbb{R}^{1}} \times \underset{ \text{transverse space} }\underbrace{ (\mathbb{R}^3-\{0\}) } \;\,\simeq_{\mathrm{diff}}\;\,  \underset{ \text{worldline} }\underbrace{\mathbb{R}^{0,1}} \times \underset{ \text{radial dir.} }\underbrace{\mathbb{R}^+} \times \underset{ \text{angular dir.} }\underbrace{S^2} \longrightarrow B U(1) $$
+$$\underset{ \text{worldline} }\underbrace{\mathbb{R}^{1}} \times \underset{ \text{transverse space} }\underbrace{ (\mathbb{R}^3-\{0\}) } \;\,\simeq_{\mathrm{diff}}\;\,  \underset{ \text{worldline} }\underbrace{\mathbb{R}^{1}} \times \underset{ \text{radial dir.} }\underbrace{\mathbb{R}^+} \times \underset{ \text{angular dir.} }\underbrace{S^2} \longrightarrow B U(1) $$
 which is trivial only on the worldline $\mathbb{R}^{1}$ of the monopole. Therefore, since we have the homotopy $\mathbb{R}^3-\{0\} \simeq S^2$, the [[first Chern class]] of the bundle will be an element $[F] \in H^2(S^2,\mathbb{Z})\cong \mathbb{Z}$. In other words we have
 $$ [F] = \tilde{g} [\mathrm{Vol}_{S^2}] $$
 where $\mathrm{Vol}_{S^2}$ is the volume form of $S^2$ and $\tilde{g}\in\mathbb{Z}$ is the quantized [[magnetic charge]].
@@ -94,7 +106,7 @@ The classical double copy of [[Wilson lines]] was introduced by ([AWW 20](#AWW20
 
 $$ W_{\mathrm{grav}}(\gamma) = e^{i S_{\mathrm{kin}}}(\gamma) = \exp \left(i m \int_\gamma \mathrm{d}s \left(g_{\mu\nu}\frac{\mathrm{d}x^\mu}{\mathrm{d}s}\frac{\mathrm{d}x^\nu}{\mathrm{d}s}\right)^{\frac{1}{2}} \right) \;\in\, U(1) $$
 
-If we assume that the metric is of the form $g_{\mu\nu} = \eta_{\mu\nu} + \kappa h_{\mu\nu}$, we can expand $W_{\mathrm{grav}}(\gamma)$ in $\kappa$ at first order and obtain
+If we assume that the metric is of the form $g_{\mu\nu} = \eta_{\mu\nu} + \kappa h_{\mu\nu}$, we can expand $W_{\mathrm{grav}}(\gamma)$ at first order in $\kappa$ and obtain
 
 $$ W_{\mathrm{grav}}(\gamma) = \exp \left(\frac{i \kappa}{2} \int_\gamma \mathrm{d}s\, h_{\mu\nu}\frac{\mathrm{d}x^\mu}{\mathrm{d}s}\frac{\mathrm{d}x^\nu}{\mathrm{d}s} \right) \;\in\, U(1) $$
 
