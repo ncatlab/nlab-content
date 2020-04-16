@@ -49,6 +49,8 @@ Given a general spacetime, there is not necessarily a globally defined coordinat
 
 * [[asymptotically flat spacetime]]
 
+* [[Kerr-Schild spacetime]]
+
 * [[piecewise flat spacetime]]
 
 * [[gravitational wave]]
