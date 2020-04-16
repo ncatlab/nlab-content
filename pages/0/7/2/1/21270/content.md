@@ -53,7 +53,7 @@ where the new [[gauge group]] $\tilde{G}$ can be chosen different from the previ
 
 | zeroth copy | single copy | double copy |
 |--|--|--|
-| $\Phi = (c^a \mathbf{T}_a)\otimes(\tilde{c}^b \tilde{\mathbf{T}}_b)\phi$ | $A_{\mu} = (c^a \mathbf{T}_a) \phi k_\mu$ | $g_{\mu\nu} = \eta_{\mu\nu} + \kappa \phi k_{\mu}k_{\nu}$ |
+| $\;\Phi = (c^a \mathbf{T}_a)\otimes(\tilde{c}^b \tilde{\mathbf{T}}_b)\phi\;$ | $\;A_{\mu} = (c^a \mathbf{T}_a) \phi k_\mu\;$ | $\;g_{\mu\nu} = \eta_{\mu\nu} + \kappa \phi k_{\mu}k_{\nu}\;$ |
 
 ## Examples
 
@@ -93,7 +93,7 @@ $$ \tilde{g} \mapsto N. $$
 
 The classical double copy of [[Wilson lines]] was introduced by ([AWW 20](#AWW20)). We can use as gravitational [[Wilson lines]] on spacetime $M$ the [[action functional]] $e^{i S_{\mathrm{kin}}}: [S^1, M]\rightarrow U(1)$ of a test particle. For any loop $\gamma\in[S^1, M]$ we can then write
 
-$$ W_{\mathrm{grav}}(\gamma) = e^{i S_{\mathrm{kin}}}(\gamma) = \exp \left(im \int_\gamma \mathrm{d}s \left(g_{\mu\nu}\frac{\mathrm{d}x^\mu}{\mathrm{d}s}\frac{\mathrm{d}x^\nu}{\mathrm{d}s}\right)^{\frac{1}{2}} \right) \;\in\, U(1) $$
+$$ W_{\mathrm{grav}}(\gamma) = e^{i S_{\mathrm{kin}}}(\gamma) = \exp \left(i m \int_\gamma \mathrm{d}s \left(g_{\mu\nu}\frac{\mathrm{d}x^\mu}{\mathrm{d}s}\frac{\mathrm{d}x^\nu}{\mathrm{d}s}\right)^{\frac{1}{2}} \right) \;\in\, U(1) $$
 
 If we assume that the metric is of the form $g_{\mu\nu} = \eta_{\mu\nu} + \kappa h_{\mu\nu}$, we can expand $W_{\mathrm{grav}}(\gamma)$ in $\kappa$ at first order and obtain
 
