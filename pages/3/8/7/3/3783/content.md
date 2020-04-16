@@ -210,6 +210,11 @@ The Kerr spactime admits an extra [[Killing tensor]] and [[Killing-Yano tensor]]
 
 ### General
 
+The original article:
+
+* [[Roy Kerr]], _Gravitational Field of a Spinning Mass as an Example of Algebraically Special Metrics_, Phys. Rev. Lett. 11, 237 (1963) ([doi:10.1103/PhysRevLett.11.237](https://doi.org/10.1103/PhysRevLett.11.237))
+
+
 Most textbooks about [[General Relativity]] have chapter about the Kerr spacetime, here is a monograph that specializes on the topic:
 
 * Barrett O'Neill, _The geometry of Kerr black holes._ ([ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0828.53078&format=complete))
@@ -260,6 +265,9 @@ Near-extremal spinnin black holes are being observed
 
 
 [[!redirects Kerr spacetimes]]
+
+[[!redirects Kerr black hole spacetime]]
+[[!redirects Kerr black hole spacetimes]]
 
 [[!redirects spinning black hole]]
 [[!redirects spinning black holes]]
