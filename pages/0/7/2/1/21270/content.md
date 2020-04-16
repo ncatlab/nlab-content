@@ -34,25 +34,25 @@ The _classical double copy_-method is the counterpart in [[classical field theor
 
 * A [[Kerr-Schild spacetime|Kerr-Schild metric]] is a [[perturbation]] of a flat [[Minkowski metric]] $\eta_{\mu\nu}$ of the form
 
-$$ g_{\mu\nu} = \eta_{\mu\nu} + \kappa \phi k_{\mu}k_{\nu} $$
+  $$ g_{\mu\nu} = \eta_{\mu\nu} + \kappa \phi k_{\mu}k_{\nu} $$
 
-where $\kappa=\sqrt{32\pi G_{\mathrm{N}}}$ is a constant with $G_{\mathrm{N}}$ [[Newton's constant]], $\phi$ is a [[scalar field]] and $k_\mu$ is a [[lightlike|null]] [[covector]] satisfying the [[geodesic]] property, i.e.
+  where $\kappa=\sqrt{32\pi G_{\mathrm{N}}}$ is a constant with $G_{\mathrm{N}}$ [[Newton's constant]], $\phi$ is a [[scalar field]] and $k_\mu$ is a [[lightlike|null]] [[covector]] satisfying the [[geodesic]] property, i.e.
 
-$$ \eta_{\mu\nu}k^\mu k^\nu = g_{\mu\nu}k^\mu k^\nu =0, \quad (k\cdot\partial)k^\mu =0.$$
+  $$ \eta_{\mu\nu}k^\mu k^\nu = g_{\mu\nu}k^\mu k^\nu =0, \quad (k\cdot\partial)k^\mu =0.$$
 
-The _single copy_ gauge field ([MOW 15](#MOW15)) of this gravitational field is defined for any [[gauge group]] $G$ by
+* The _single copy_ gauge field ([MOW 15](#MOW15)) of this gravitational field is defined for any [[gauge group]] $G$ by
 
-$$A_{\mu} = (c^a \mathbf{T}_a) \phi k_\mu$$
+  $$A_{\mu} = (c^a \mathbf{T}_a) \phi k_\mu$$
 
-where $c^a\mathbf{T}_a \in \mathfrak{g}$ is an arbitrary constant [[color charge]], specified by a [[vector]] $c^a$ in the [[linear basis|basis]] $\{\mathbf{T}_a\}$ of the [[Lie algebra]] $\mathfrak{g}$. 
+  where $c^a\mathbf{T}_a \in \mathfrak{g}$ is an arbitrary constant [[color charge]], specified by a [[vector]] $c^a$ in the [[linear basis|basis]] $\{\mathbf{T}_a\}$ of the [[Lie algebra]] $\mathfrak{g}$. 
 
 * Conversely, if we start from a gauge field of the form $A_{\mu} = (c^a \mathbf{T}_a) \phi k_\mu$ for any constant [[color charge]] $c^a\mathbf{T}_a \in \mathfrak{g}$ and [[lightlike|null]] [[covector]] $k_\mu$ satisfying the [[geodesic]] property, we can define its _double copy_ gravitational field by the [[Kerr-Schild spacetime|Kerr-Schild metric]] $g_{\mu\nu}=\eta_{\mu\nu} + \kappa \phi k_{\mu}k_{\nu}$.
 
 * Otherwise, if we repeat the procedure of replacing a covector $k_\mu$ with any fixed [[color charge]] $(\tilde{c}^b \tilde{\mathbf{T}}_b)\in\tilde{\mathfrak{g}}$ we can get a _zeroth copy_ [[scalar field]], defined by
 
-$$\Phi = (c^a \mathbf{T}_a)\otimes(\tilde{c}^b \tilde{\mathbf{T}}_b)\phi $$
+  $$\Phi = (c^a \mathbf{T}_a)\otimes(\tilde{c}^b \tilde{\mathbf{T}}_b)\phi $$
 
-where the new [[gauge group]] $\tilde{G}$ can be chosen different from the previous $G$.
+  where the new [[gauge group]] $\tilde{G}$ can be chosen different from the previous $G$.
 
 #### Field equations
 
