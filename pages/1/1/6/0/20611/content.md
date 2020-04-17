@@ -27,4 +27,6 @@ as witnessed by the [[MathSciNet]] statistics.
 |[ Proceedings of the American Mathematical Society](https://www.ams.org/proc/)|AMS|[[Mark Behrens|Behrens]]|subscription|
 |[New York Journal of Mathematics](http://nyjm.albany.edu/)|self|[[Michael Hopkins|Hopkins]]|open|
 |[Mathematische Zeitschrift](https://www.springer.com/journal/209)|Springer|[[Michael Hill|Hill]]|subscription|
+|[Quaestiones Mathematicae](https://www.tandfonline.com/toc/tqma20/current)|SAMS via Taylor and Francis|[[George Janelidze|Janelidze]]|subscription|
+|[Journal of Algebra and Its Applications](https://www.worldscientific.com/worldscinet/jaa)|World Scientific|[[Alberto Facchini|Facchini]]|subscription|
 |[Math. Proc. Camb. Phil. Soc.](https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society)               |Cambridge UP|None at present|subscription|
