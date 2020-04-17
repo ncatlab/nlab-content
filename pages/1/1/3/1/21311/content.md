@@ -11,6 +11,8 @@ _Light-Front Holographic QCD and Emerging Confinement_, Physics Reports Volume 5
 
 * {#ZhouDosch18} Liping Zou, [[Hans Günter Dosch]], _A very Practical Guide to Light Front Holographic QCD_, ([arXiv:1801.00607](https://arxiv.org/abs/1801.00607))
 
+* [[Stanley Brodsky]], [[Guy de Teramond]], [[Hans Günter Dosch]], _Light-Front Holography and Supersymmetric Conformal Algebra: A Novel Approach to Hadron Spectroscopy, Structure, and Dynamics_ ([arXiv:2004.07756](https://arxiv.org/abs/2004.07756))
+
 
 On [[hadron supersymmetry]] via [[light cone gauge|light cone]] [[supersymmetric quantum mechanics]] in [[holographic light front QCD]];
 
