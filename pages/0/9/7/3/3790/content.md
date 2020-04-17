@@ -10,8 +10,10 @@
 
 \section{Related nLab pages}
 
-* [[semi-graph]]
+* [[anabelioid]]
 * [[initial Θ-data]]
+* [[semi-graph]]
+
 
 category: people
 
