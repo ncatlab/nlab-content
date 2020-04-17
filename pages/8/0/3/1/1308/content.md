@@ -90,6 +90,17 @@ Every [[homotopy group]] $\pi_n$ for $n \geq 2$ is [[abelian group|abelian]].
 
 The beautiful and powerful Eckmann-Hilton argument is due to [[Beno Eckmann]] and [[Peter Hilton]].
 
+##Variation
+
+There are variations on the Eckmann-Hilton argument that do not assume units. For example, if a set is equipped with two symmetric $(a * b = b * a)$ and idempotent $(a * a = a)$ binary operations that commute with each other, then the operations coincide. 
+
+$$ a * b = (a * b) + (a * b) = (a * b) + (b * a) = (a + b) * (b + a) = (a + b) * (a + b) = a + b.$$
+
+For example, we might consider the algebraic theory of [[convex space|convex spaces]], and the algebraic theory of [[semilattice|semilattices]]. These theories both contain symmetric idempotent operations: in the theory of convex spaces, take the operation $a * b=c_{0.5}(a,b)$. Thus there can be no commutative algebraic theory that includes these two theories without conflating them. Furthermore, in any conflated theory, all the dyadic rationals are the same, e.g. 
+
+$$c_{0.25}(a,b)=c_{0.5}(c_{0.5}(a,b),b)=(a*b)*b=a*(b*b)=a*b=c_{0.5}(a,b).$$ 
+
+This is relevant in computer science because probability is modelled by the free convex spaces monad, and non-determinism is modelled by the free semilattice monad. These monads are both [[commutative monad|commutative monads]], but there can be no commutative monad that contains both these monads non-degenerately. 
 
 ## References
 
