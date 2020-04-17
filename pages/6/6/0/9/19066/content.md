@@ -59,6 +59,7 @@ The construction was then generalized in
 * {#HarpazPrasma14} [[Yonatan Harpaz]], [[Matan Prasma]], _The Grothendieck construction for model categories_, Advances in Mathematics, Volume 281, 20 August 2015, Pages 1306-1363 ([arXiv:1404.1852](https://arxiv.org/abs/1404.1852))
 
 Another approach is found in
+
 * [[Pierre Cagne]], [[Paul-André Melliès]], _On bifibrations of model categories_, ([arXiv:1709.10484](https://arxiv.org/abs/1709.10484))
 
 
