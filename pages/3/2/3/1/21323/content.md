@@ -69,13 +69,21 @@ This is in contrast to
 
 
 
+
 ## Related concepts
 
 * [[flavour anomaly]]
 
+* leptonic conversion decay: [Landsberg 85, (3.3)](#Landsberg85)
+
 ## References
 
 ### General
+
+* {#Landsberg85} L. G. Landsberg, _Electromagnetic decays of light mesons_, Physics Reports
+Volume 128, Issue 6, November 1985, Pages 301-376 (<a href="https://doi.org/10.1016/0370-1573(85)90129-2">doi:10.1016/0370-1573(85)90129-2</a>
+
+
 
 * R. Casalbuoni, A. Deandrea, N. Di Bartolomeo, F. Feruglio, R. Gatto, G. Nardulli, _Phenomenology of Heavy Meson Chiral Lagrangians_, Phys. Rept. 281:145-238, 1997 ([arXiv:hep-ph/9605342](https://arxiv.org/abs/hep-ph/9605342))
 
@@ -99,6 +107,11 @@ See also
 
 * Gregory P. Korchemsky, Dan Pirjol, Tung-Mow Yan, _Radiative leptonic decays of B mesons in QCD_, Phys. Rev. D61:114510, 2000 ([arXiv:hep-ph/9911427](https://arxiv.org/abs/hep-ph/9911427))
 
+* Ya-Bing Zuo, Chong-Xing Yue, Wei Yang, Yan-Nan Hao & Wei-Rong Zhang, _New gauge boson $W'$ and radiative leptonic decays of charged $B$ and $D$ mesons_, Eur. Phys. J. C 78, 571 (2018) ([https://doi.org/10.1140/epjc/s10052-018-6044-1](https://doi.org/10.1140/epjc/s10052-018-6044-1))
+
+
+
+
 ### For omega-mesons
 
 For [[omega-mesons]]:
@@ -106,7 +119,7 @@ For [[omega-mesons]]:
 * I. N. Mishustin, L. M. Satarov, H. Stoecker, W. Greiner, _Dilepton production by bremsstrahlung of meson fields in nuclear collisions_, Phys. Rev. C57:2552-2558, 1998 ([arXiv:hep-ph/9709384](https://arxiv.org/abs/hep-ph/9709384))
 
 
-* Anastasiya Kuzmenko et al. , _The Study of the Conversion Decays of Omega Meson to π0 $\pi^0$ Meson and $e^+ e^-$ Pair with the CMD-3 Detector_, CERN Proceedings Archives Vol 1 (2017) ([doi:10.23727/CERN-Proceedings-2017-001.91]( http://dx.doi.org/10.23727/CERN-Proceedings-2017-001.91)
+* Anastasiya Kuzmenko et al. , _The Study of the Conversion Decays of Omega Meson to $\pi^0$ Meson and $e^+ e^-$ Pair with the CMD-3 Detector_, CERN Proceedings Archives Vol 1 (2017) ([doi:10.23727/CERN-Proceedings-2017-001.91]( http://dx.doi.org/10.23727/CERN-Proceedings-2017-001.91)
  
 
 
