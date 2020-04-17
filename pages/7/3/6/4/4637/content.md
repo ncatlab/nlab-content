@@ -280,6 +280,9 @@ $$Spec(G)(c) = [C, \mathcal{V}](G, C(c, -)) \hookrightarrow \int_{t: T} \mathcal
 
 ## Properties
 
+###Relation to Yoneda embedding
+
+The [[codensity monad]] of the [[Yoneda embedding]] is isomorphic to the monad induced by the Isbell adjunction, $Spec \mathcal{O}$ ([Di Liberti 19, Thrm 2.7](#DiLiberti)).
 
 ### Respect for limits
 
@@ -601,6 +604,8 @@ Isbell self-dual [[∞-stack]]s over duals of commutative [[associative algebra]
 A generalization of this latter to $\infty$-stacks over duals of [[algebra over a Lawvere theory|algebras over arbitrary abelian Lawvere theories]] is the content of 
 
 * {#Stel} [[Herman Stel]], _$\infty$-Stacks and their function algebras -- with applications to $\infty$-Lie theory_, master thesis (2010) ([[schreiber:master thesis Stel|web]])
+
+* {#DiLiberti} [[Ivan Di Liberti]], _Codensity: Isbell duality, pro-objects, compactness and accessibility_, ([arXiv:1910.01014](https://arxiv.org/abs/1910.01014))
 
 See also
 
