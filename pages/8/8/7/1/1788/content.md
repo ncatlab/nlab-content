@@ -1,3 +1,118 @@
+
+$$
+  \left(
+    \array{
+      \mathbb{H}
+      \\
+      \mathbb{H}
+    }
+  \right) 
+$$
+
+
+$$
+  \left(
+    \array{
+      0 & j
+      \\
+      -j & 0
+    }
+  \right)
+$$
+
+
+$$
+  j 
+  \cdot
+  (a + j \cdot b)
+  \;=\;
+  (- b + j \cdot a)
+  \;=\;
+  \left( 
+    \array{
+      0 & 1
+      \\
+      -1 & 0
+    }
+  \right)
+$$
+
+$$
+  k
+  \cdot
+  (a + j \cdot b)
+  \;=\;
+  (- i \cdot b - j \cdot i a)
+  \;=\;
+  \left( 
+    \array{
+      0 & -i
+      \\
+      -i & 0
+    }
+  \right)
+$$
+
+$$
+  \left( 
+    \array{
+      0 & 1
+      \\
+      -1 & 0
+    }
+  \right)
+  \cdot
+  \left( 
+    \array{
+      (x_0 + x_1) & q
+      \\
+      \overline{q} & (x_0  - x_1)
+    }
+  \right)
+  =
+  \left( 
+    \array{
+      \overline{q} & (x_0 - x_1)
+      \\
+      -(x_0 + x_1) & - q
+    }
+  \right)
+$$
+
+
+$$
+  \left( 
+    \array{
+      (x_0 + x_1) & q
+      \\
+      \overline{q} & (x_0  - x_1)
+    }
+  \right)
+  \cdot
+  \left( 
+    \array{
+      0 & 1
+      \\
+      -1 & 0
+    }
+  \right)
+  =
+  \left( 
+    \array{
+      -q & (x_0 + x_1)
+      \\
+      -(x_0 - x_1) & \overline{q}
+    }
+  \right)
+$$
+
+
+
+\linebreak
+
+\linebreak
+
+
 If I understand well what you're after, you want to show that a ultracategory is just a $T$-algebra for a suitable monad.
 
 My claim is that the monad acts as follows on objects:
