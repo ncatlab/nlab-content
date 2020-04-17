@@ -59,13 +59,17 @@ The _classical double copy_-method is the counterpart in [[classical field theor
 By following ([MOW 15](#MOW15)) we have a comparison of the field equations. Assume without loss of generality that $k^0=1$. We get the following:
 
 * The vacuum [[Einstein equations]] for the metric $g_{\mu\nu}$ are $R=0$ (where $R$ is the [[Ricci curvature]]), which reduce to
-$$ R^0_{\;0} = \frac{1}{2}\nabla^2\phi = 0 $$
-$$ R^i_{\;0} = -\frac{1}{2}\partial^j \left(\partial^i(\phi k^j)-\partial^j(\phi k^i)\right) =0$$
-$$ R^i_{\;j} = \frac{1}{2}\partial_l \left(\partial^i(\phi k^l k^j)+\partial_j(\phi k^l k^i)-\partial^l(\phi k^i k_j)\right) =0$$
+$$\begin{aligned}
+R^0_{\;0} &= \frac{1}{2}\nabla^2\phi && = 0 \\
+R^i_{\;0} &= \frac{1}{2}\partial_j \left(\partial^j(\phi k^i)-\partial^i(\phi k^j)\right) && =0 \\
+R^i_{\;j} &= \frac{1}{2}\partial_l \left(\partial^i(\phi k^l k^j)+\partial_j(\phi k^l k^i)-\partial^l(\phi k^i k_j)\right) && =0
+\end{aligned}$$
 
 * The [[Maxwell equations]] for the gauge field $A$ are $\mathrm{d} F = 0$, which reduce to
-$$ (\mathrm{d}F)^0 = \nabla^2\phi = 0 $$
-$$ (\mathrm{d}F)^i = \partial_j \left(\partial^j(\phi k^i)-\partial^i(\phi k^j)\right) = 0$$
+$$\begin{aligned}
+(\mathrm{d}F)^0 &= \nabla^2\phi && = 0 \\
+(\mathrm{d}F)^i &= \partial_j \left(\partial^j(\phi k^i)-\partial^i(\phi k^j)\right) && = 0
+\end{aligned}$$
 
 * The [[Klein-Gordon equation]] for the scalar field $\Phi$ are
 $$\nabla^2\Phi = 0$$
