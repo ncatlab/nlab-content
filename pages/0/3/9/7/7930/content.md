@@ -1190,7 +1190,7 @@ $$
 $$
 
 Here on the right we are using the isomorphism from prop. \ref{SpacetimeAsMatrices} for identifying
-a spacetime vector with a $2 \times 2$-matrix, and we are using the trace reversal $\idetilde(-)$
+a spacetime vector with a $2 \times 2$-matrix, and we are using the trace reversal $\widetilde(-)$
 from def. \ref{TraceReversal}.
 
 =--
