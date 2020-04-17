@@ -138,30 +138,33 @@ $$
       - L_{e_5} & 0
     }
   \right)
+  \;=\;
+  - L_{e_4} L_{e_5}  
 $$
 
+Now we compute from the octonionic multiplication table
 
 
 $$
-  L_{e_4} L_{e_5} 1
+  L_{e_4} L_{e_6} 1
   \;=\;
   j
 $$
 
 $$
-  L_{e_4} L_{e_5} i
+  L_{e_4} L_{e_6} i
   \;=\;
   k = i j
 $$
 
 $$
-  L_{e_4} L_{e_5} j
+  L_{e_4} L_{e_6} j
   \;=\;
   - 1
 $$
 
 $$
-  L_{e_4} L_{e_5} k
+  L_{e_4} L_{e_6} k
   \;=\;
   - i
 $$
