@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -105,25 +104,6 @@ See also
 
 * Giovanni Banelli, Robert Fleischer, Ruben Jaarsma, Gilberto Tetlalmatzi-Xolocotzi, _Decoding (Pseudo)-Scalar Operators in Leptonic and Semileptonic B Decays_, The European Physical Journal C volume 78 ([arXiv:1809.09051](https://arxiv.org/abs/1809.09051))
 
-### Radiative leptonic decays
-
-* Chao-Hsi Chang, Jian-Ping Cheng, Cai-Dian Lu, _Radiative Leptonic Decays of $B_c$ Meson_, Phys. Lett. B425 (1998) 166-170 ([arXiv:hep-ph/9712325](https://arxiv.org/abs/hep-ph/9712325))
-
-* Gregory P. Korchemsky, Dan Pirjol, Tung-Mow Yan, _Radiative leptonic decays of B mesons in QCD_, Phys. Rev. D61:114510, 2000 ([arXiv:hep-ph/9911427](https://arxiv.org/abs/hep-ph/9911427))
-
-* Ya-Bing Zuo, Chong-Xing Yue, Wei Yang, Yan-Nan Hao & Wei-Rong Zhang, _New gauge boson $W'$ and radiative leptonic decays of charged $B$ and $D$ mesons_, Eur. Phys. J. C 78, 571 (2018) ([https://doi.org/10.1140/epjc/s10052-018-6044-1](https://doi.org/10.1140/epjc/s10052-018-6044-1))
-
-### For pions
-
-For [[pions]]:
-
-
-* Rene Unterdorfer, Hannes Pichl, _On the Radiative Pion Decay_, Eur. Phys. J. C55:273-283, 2008 ([arXiv:0801.2482](https://arxiv.org/abs/0801.2482))
-
-* Dinko Pocanic, Emil Frlez, Andries van der Schaaf, _Experimental study of rare charged pion decays_, Journal of Physics G: Nuclear and Particle Physics, Volume 41, Number 11 ([arXiv:1407.2865](https://arxiv.org/abs/1407.2865))
-
-
-
 
 ### For omega-mesons
 
@@ -133,6 +113,31 @@ For [[omega-mesons]]:
 
 
 * Anastasiya Kuzmenko et al. , _The Study of the Conversion Decays of Omega Meson to $\pi^0$ Meson and $e^+ e^-$ Pair with the CMD-3 Detector_, CERN Proceedings Archives Vol 1 (2017) ([doi:10.23727/CERN-Proceedings-2017-001.91]( http://dx.doi.org/10.23727/CERN-Proceedings-2017-001.91)
+
+### Radiative leptonic decays
+
+> this may need to go elsewhere
+
+* Chao-Hsi Chang, Jian-Ping Cheng, Cai-Dian Lu, _Radiative Leptonic Decays of $B_c$ Meson_, Phys. Lett. B425 (1998) 166-170 ([arXiv:hep-ph/9712325](https://arxiv.org/abs/hep-ph/9712325))
+
+* Gregory P. Korchemsky, Dan Pirjol, Tung-Mow Yan, _Radiative leptonic decays of B mesons in QCD_, Phys. Rev. D61:114510, 2000 ([arXiv:hep-ph/9911427](https://arxiv.org/abs/hep-ph/9911427))
+
+* Ya-Bing Zuo, Chong-Xing Yue, Wei Yang, Yan-Nan Hao & Wei-Rong Zhang, _New gauge boson $W'$ and radiative leptonic decays of charged $B$ and $D$ mesons_, Eur. Phys. J. C 78, 571 (2018) ([https://doi.org/10.1140/epjc/s10052-018-6044-1](https://doi.org/10.1140/epjc/s10052-018-6044-1))
+
+#### For pions
+
+For [[pions]]:
+
+
+* Rene Unterdorfer, Hannes Pichl, _On the Radiative Pion Decay_, Eur. Phys. J. C55:273-283, 2008 ([arXiv:0801.2482](https://arxiv.org/abs/0801.2482))
+
+* Dinko Pocanic, Emil Frlez, Andries van der Schaaf, _Experimental study of rare charged pion decays_, Journal of Physics G: Nuclear and Particle Physics, Volume 41, Number 11 ([arXiv:1407.2865](https://arxiv.org/abs/1407.2865))
+
+* V. Bolotov, _The radiative pion decays_ ([[BolotovRadiativePionDecay.pdf:file]])
+
+
+
+
  
 
 
