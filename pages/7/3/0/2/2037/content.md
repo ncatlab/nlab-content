@@ -63,7 +63,7 @@ $$
   a (\ell b) = \ell (\overline{a} b)
   \,,
   \phantom{AA}
-  a(\ell b) = (a \overline{b}) \ell
+  (a \ell) b = (a \overline{b}) \ell
   \,,
   \phantom{AA}
   (\ell a) (b \ell^{-1}) = \overline{a b}
