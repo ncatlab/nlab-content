@@ -56,7 +56,7 @@ $$
   + 
   \frac{1}{2}
   \hbar^2
-  \sum_{i,j,k, l} \pi^{k l} \pi^{i j} \frac{\partial^2 f}{\partial x^k\partial x^i}\cdot \frac{\partial^2 g}{\partial x^k \partial x^j}
+  \sum_{i,j,k, l} \pi^{k l} \pi^{i j} \frac{\partial^2 f}{\partial x^k\partial x^i}\cdot \frac{\partial^2 g}{\partial x^l \partial x^j}
    + 
   \cdots
 $$
