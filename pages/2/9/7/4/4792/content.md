@@ -32,6 +32,80 @@ The __octonions__, usually denoted $\mathbb{O}$, form the largest of the four [[
 +-- {: .num_defn #ComponentDefinition}
 ###### Definition
 
+The _octonions_ $\mathbb{O}$ are the elements of the [[nonassociative algebra|non-associative]] [[star-algebra]] over the [[real numbers]] which is the [[Cayley-Dickson double]] of the [[star-algebra]] of [[quaternions]] $\mathbb{H}$ (with $\overline{(-)}$ denoting the conjugation-operation).
+
+
+
+This means (see [there](Cayley-Dickson+construction#DefinitionByGeneratorsAndRelations)) that if $i, j, k \in \mathbb{H}$ denote an [[orthonormal basis]] of [[imaginary number|imaginary]] unit-[[quaternions]]
+
+\begin{imagefromfile}
+    "file_name": "QuaternionOctonionMultiplicationTable.jpg",
+    "float": "right",
+    "width": 400,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": ""
+\end{imagefromfile}
+
+
+$$
+  \begin{aligned}
+     & i^2 = j^2 = k^2 = -1
+     \\
+     &
+     i j = k, \, j i = - k \;\;\;\text{and cyclic}
+  \end{aligned}
+$$
+
+then the algebra $\mathbb{O}$ of octonions is [[generators and relations|generated]] from these $i, j , k$ and from one more element $\ell$, subject to these [[generators and relations|relations]]:
+
+$$
+  \begin{aligned}
+  \ell^2 \;=\; -1
+  \,,
+  \phantom{AAA}
+  \overline{\ell}
+  \;=\;
+  - \ell
+  \end{aligned}
+$$
+
+and
+
+$$
+  \begin{aligned}
+  q (\ell q') 
+  = 
+  \ell (\overline{q} q')
+  \\
+  (q \ell) q' 
+  = 
+  (q \overline{q}') \ell
+  \\
+  (\ell q) (q' \ell)
+  = 
+  - \overline{q q'}
+  \end{aligned}
+$$
+
+for all [[quaternions]] $q_1, q_2 \in \mathbb{H}$.
+
+This gives the multiplication table on the right, where any two consecutive arrows $a \to b \to c$ mean that $a b = c$, $c a = b$, $b c = a$ and $b a = -c$.
+
+=--
+
+
+Of course the labels of the generators is not fixed. Here is another version:
+
+
++-- {: .num_defn #ComponentDefinition}
+###### Definition
+
 The _octonions_ $\mathbb{O}$ is the [[nonassociative algebra]] over the [[real numbers]] which is [[generators and relations|generated]] from seven generators $\{e_1, \cdots, e_7\}$ subject to the [[generators and relations|relations]]
 
 1. for all $i$ 
@@ -46,9 +120,20 @@ The _octonions_ $\mathbb{O}$ is the [[nonassociative algebra]] over the [[real n
 
 {#FanoPlaneDiagram} $\,$
 
-<img src="https://ncatlab.org/nlab/files/OctonionMultiplicationTable.jpg" width="400" alt="octonion multiplication table">
 
-> (graphics grabbed from [Baez 02](#Baez02))
+\begin{imagefromfile}
+    "file_name": "OctonionMultiplicationTable.jpg",
+    "float": "right",
+    "width": 400,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "graphics from [Baez 02](#Baez02)"
+\end{imagefromfile}
 
 This becomes a [[star-algebra]] with star [[involution]]
 
