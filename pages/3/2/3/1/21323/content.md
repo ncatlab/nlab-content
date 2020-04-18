@@ -111,6 +111,12 @@ See also
 
 * Ya-Bing Zuo, Chong-Xing Yue, Wei Yang, Yan-Nan Hao & Wei-Rong Zhang, _New gauge boson $W'$ and radiative leptonic decays of charged $B$ and $D$ mesons_, Eur. Phys. J. C 78, 571 (2018) ([https://doi.org/10.1140/epjc/s10052-018-6044-1](https://doi.org/10.1140/epjc/s10052-018-6044-1))
 
+### For pions
+
+For [[pions]]:
+
+
+* Rene Unterdorfer, Hannes Pichl, _On the Radiative Pion Decay_, Eur. Phys. J. C55:273-283, 2008 ([arXiv:0801.2482](https://arxiv.org/abs/0801.2482))
 
 
 
