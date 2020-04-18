@@ -1,4 +1,110 @@
 
+
+
+
+\[
+  \label{DicksonRelations}
+  a (\ell b) 
+  = 
+  \ell (\overline{a} b)
+  \,,
+  \phantom{AA}
+  (a \ell) b 
+  = 
+  (a \overline{b}) \ell
+  \,,
+  \phantom{AA}
+  (\ell a) (b \ell^{-1})
+  = 
+  \overline{a b}
+\]
+
+$$
+  \begin{aligned}
+  a \ell 
+  & =
+  a (\ell 1)
+  \\
+  & =
+  \ell (\overline{a} 1)
+  \\
+  & =
+  \ell \overline{a}
+  \end{aligned}
+$$
+
+$$ 
+  \begin{aligned}
+  \ell a
+  & =
+  (1 \ell) a
+  \\
+  & =
+  (1 \overline{a}) \ell
+  \\
+  & =
+  \overline{a} \ell
+  \end{aligned}
+$$
+
+$$
+  \begin{aligned}
+    (\ell a) b
+    & =
+    (\overline{a} \ell ) b
+    \\
+    & =
+    (\overline{a} \overline{b}) \ell
+    \\
+    & =
+    \ell \overline{  
+      \overline{a} \overline{b}
+    }
+    \\ 
+    & =
+    \ell (b a)
+  \end{aligned}
+$$
+
+$$
+  \begin{aligned}
+  (\ell a) (\ell b)
+  & =
+  (\ell a) (\overline{b} \ell)
+  \\
+  & =
+  -(\ell a) (\overline{b} \ell^{-1})
+  \\
+  & =
+  - \overline{ a \overline{b} }
+  \\
+  & =
+  - b \overline{a}
+  \end{aligned}
+$$
+
+$$
+  \begin{aligned}
+    (a + \ell b)
+    (c + \ell d)
+    & =
+    a c + (\ell b)(\ell d)
+    +
+    a (\ell d) + (\ell b) c
+    \\
+    & =
+    a c - d \overline{b}
+    +
+    \ell ( 
+      \overline{a} d  
+      + 
+      c b
+    )
+  \end{aligned}
+$$
+
+
+
 $$
   \left(
     \array{
