@@ -32,9 +32,7 @@ In the context of [[quantum hadrodynamics]], the [[decay]]-mode of a [[hadron]] 
         "left": 20
     }
 \end{imagefromfile}
-
-
-* a _radiative leptonic decay_ if in addition a [[photon]] results, 
+ 
 
 * a _semileptonic decay_ if in addition another [[meson]] results
 
@@ -50,7 +48,11 @@ In the context of [[quantum hadrodynamics]], the [[decay]]-mode of a [[hadron]] 
     }
 \end{imagefromfile}
 
-This is in contrast to
+if in addition [[electromagnetism|electromagnetic]] interaction is involved there is
+
+* _radiative leptonic decay_ if in addition a [[photon]] results.
+
+All this is in contrast to
 
 * non-leptonic decays
 
@@ -117,6 +119,9 @@ For [[pions]]:
 
 
 * Rene Unterdorfer, Hannes Pichl, _On the Radiative Pion Decay_, Eur. Phys. J. C55:273-283, 2008 ([arXiv:0801.2482](https://arxiv.org/abs/0801.2482))
+
+* Dinko Pocanic, Emil Frlez, Andries van der Schaaf, _Experimental study of rare charged pion decays_, Journal of Physics G: Nuclear and Particle Physics, Volume 41, Number 11 ([arXiv:1407.2865](https://arxiv.org/abs/1407.2865))
+
 
 
 
