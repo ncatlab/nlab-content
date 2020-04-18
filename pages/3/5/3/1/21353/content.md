@@ -48,6 +48,9 @@ Further discussion of the Dalitz decay of [[pions]]:
 
 * Karol Kampf, Marc Knecht, Jiri Novotny, _The Dalitz decay $\pi^0 \to e^+ e^- \gamma$ revisited_, Eur. Phys. J. C46:191-217, 2006 ([arXiv:hep-ph/0510021](https://arxiv.org/abs/hep-ph/0510021))
 
+* Esther Weil, Gernot Eichmann, Christian S. Fischer, Richard Williams, section III.A of: _Electromagnetic decays of the neutral pion_, Phys. Rev. D 96, 014021 (2017) ([arXiv:1704.06046](https://arxiv.org/abs/1704.06046))
+
+
 Of [[pions]] and [[eta-mesons]]:
 
 * Sergi González-Solís, _Single and double Dalitz decays of $\pi^0$, $\eta$ and $\eta'$ mesons_, Nuclear and Particle Physics Proceedings Volumes 258–259, January–February 2015, Pages 94-97 ([doi:10.1016/j.nuclphysbps.2015.01.021](https://doi.org/10.1016/j.nuclphysbps.2015.01.021))
