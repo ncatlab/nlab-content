@@ -1,3 +1,3 @@
-* [webpage](http://www.cavehill.uwi.edu/fst/cmp/staff/jonathon-r--funk.aspx)
+* [webpage](https://www.qcc.cuny.edu/mathCS/people/jfunk.html)
 
 category:people
