@@ -60,6 +60,7 @@ The  _Cayley--Dickson double_ of the [[real numbers|real]] [[star-algebra]] $A$ 
 =--
 
 ### Definition by generators and relations
+ {#DefinitionByGeneratorsAndRelations}
 
 +-- {: .num_defn #CayleyDicksonDoubleByAdjoiningFurtherGenerator}
 ###### Definition
@@ -363,7 +364,38 @@ Generally speaking, the double $A^2$ of an algebra $A$ has a nice property iff $
 
 ## Examples
 
-The standard example is the sequence of consecutive doubles starting with $\mathbb{R}$ itself (with the [[identity map]] as involution); these are the __Cayley--Dickson algebras__: the [[real numbers]] $\mathbb{R}$, the [[complex numbers]] $\mathbb{C}$, the [[quaternions]] $\mathbb{H}$, the [[octonions]] (or Cayley numbers) $\mathbb{O}$, the [[sedenions]] $\mathbb{S}$, etc. These are the [[normed division algebras]] ($\mathbb{R}$, $\mathbb{C}$, $\mathbb{H}$, and $\mathbb{O}$), followed by further algebras which are not [[division algebras]].  All of these algebras are [[power-associative algebra|power-associative]], [[flexible algebra|flexible]], and unital, and have all [[inverse elements]]; the subalgebra with $\overline{x} = x$ is always just $\mathbb{R}$.
+\begin{imagefromfile}
+    "file_name": "QuaternionOctonionMultiplicationTable.jpg",
+    "float": "right",
+    "width": 400,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": ""
+\end{imagefromfile}
+
+
+The standard example is the sequence of consecutive doubles starting with $\mathbb{R}$ itself (with the [[identity map]] as involution); these are the __Cayley--Dickson algebras__: the [[real numbers]] $\mathbb{R}$, the [[complex numbers]] $\mathbb{C}$, the [[quaternions]] $\mathbb{H}$, the [[octonions]] (or Cayley numbers) $\mathbb{O}$, 
+
+These are the [[real normed division algebras]]
+
+
+The diagram on the right shows a basis of [[imaginary number|imaginary]] [[octonions]] obtained via Cayley-Dickson doubling from a standard basis $\{i,j,k\}$ of [[imaginary number|imaginary]] [[quaternions]].
+
+
+\linebreak
+
+\linebreak
+
+\linebreak
+
+
+Next, the CD-double of the [[octonions]] is the [[sedenions]] $\mathbb{S}$, etc. , followed by further algebras which are not [[division algebras]].  
+All of these algebras are [[power-associative algebra|power-associative]], [[flexible algebra|flexible]], and unital, and have all [[inverse elements]]; the subalgebra with $\overline{x} = x$ is always just $\mathbb{R}$.
 
 
 ## Related concepts 
