@@ -36,3 +36,6 @@ In other words, a copresheaf on $C$ is just a [[functor]] $C \to Set$. One speak
 
 [[!redirects co-presheaf]]
 [[!redirects co-presheaves]]
+
+[[!redirects precosheaf]]
+[[!redirects precosheaves]]
