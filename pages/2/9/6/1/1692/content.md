@@ -193,7 +193,7 @@ Chu(Set, 2)^{op} & \overset{(-)^*}{\to} & Chu(Set, 2)
 
 (where the vertical arrows are full embeddings as described above) commutes up to canonical isomorphism. 
 
-The same principle extends to other situations. For example, [[Pontryagin duality]] is fully embedded in the larger duality which obtains on $Chu(Top, S^1)$, where $Top$ is a [[nice category of spaces]]. 
+The same principle extends to other situations. For example, [[Pontryagin duality]] is fully embedded in the larger duality which obtains on $Chu(TopAb, S^1)$, where $TopAb$ is the category of abelian groups internal to a [[nice category of spaces]].  ([Barr](#BarrTobAb) has also shown that Pontryagin duality is embedded in a sub-$\ast$-autonomous category of $Chu(Ab,S^1)$, and one might conceivably hope to find it in $Chu(Top,S^1)$ as well by analogy to the above appearance of algebras inside $Chu(Set,2)$.)
 
 Similarly, the 2-Chu construction, $Chu(Cat, Set)$, exhibits dualities, such as [[Gabriel-Ulmer duality]].
 
@@ -245,6 +245,8 @@ As a special case of this universal property, if all the $\ast$-polycategories a
 * [[Vaughan Pratt]], *Linear process algebra*, [pdf](http://boole.stanford.edu/pub/bhub.pdf), uses $Chu(Set,K)$ where $K$ is a 4-element set to model concurrency.
 
 * {#Pavlovic97} Duško Pavlović, _Chu I: cofree equivalences, dualities and $\ast$-autonomous categories_, [doi](https://doi.org/10.1017/S0960129596002046)
+
+* {#BarrTobAb} Michael Barr, On duality of topological abelian groups, [PDF](http://www.math.mcgill.ca/barr/ftp/pdffiles/abgp.pdf)
 
 For categorifications and generalizations, see 
 
