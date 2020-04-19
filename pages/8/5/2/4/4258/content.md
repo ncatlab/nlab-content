@@ -1,4 +1,4 @@
-**Joel W. Robbin** is a mathematician at the University of Wisconsin at Madison. His thesis was in mathematical logics, under A. Church of Princeton; he also authored a textbook on logics and coauthored _Mathematical logic and computability_ with [Jerome Kiestler](http://www.math.wisc.edu/~keisler). 
+**Joel W. Robbin** is a mathematician at the University of Wisconsin at Madison. His thesis was in mathematical logics, under A. Church of Princeton; he also authored a textbook on logics and coauthored _Mathematical logic and computability_ with [Jerome Keisler](http://www.math.wisc.edu/~keisler). 
 
 From soon after his thesis, Robbin switches his main interests to [[dynamical system|dynamical systems]] of Morse--Smale type where he found several foundational results. He also worked in related questions of rigorous approaches to [[quantization]], [[symplectic geometry]] and [[symplectic topology]]; several of his articles are coauthored with [[Dietmar Salamon]]. 
 
