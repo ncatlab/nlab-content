@@ -23,11 +23,21 @@
 
 ## Idea
 
-An _octonion_ or _Cayley number_ is a kind of [[number]] similar to a [[quaternion number]] but with seven instead of just three [[square roots]] of unity adjoined, and satisfying certain relations.
+The _octonions_ or _Cayley numbers_ $\mathbb{O}$ ([Cayley 1845](#Cayley1845)) is a [[non-associative algebra|non-associative]] [[real numbers|real]] [[star-algebra]] similar to the [[complex numbers]] and the [[quaternions]] but with seven [[imaginary number|imaginary]] [[units]] adjoined, satisfying certain relations: 
 
-The __octonions__, usually denoted $\mathbb{O}$, form the largest of the four [[normed division algebras]] over the [[real numbers]].
+The octonions arise from the [[quaternions]] in analogy -- namely: by the [[Dickson double construction]] ([Dickson 1919, (6)](#Dickson1919)) -- of how the [[quaternions]] arise from the [[complex numbers]], and the [[complex numbers]] from the [[real numbers]]. These are precisely the [[normed division algebras]] over the [[real numbers]], the octonions being the largest of the four. While the further [[Dickson double]] of the quaternions exists, called the _[[sedenions]]_, it is no longer a [[normed division algebra]].
+
+In continuation of how the [[complex numbers]] and [[quaternions]] control [[spin groups]], [[real spin representations]] and [[supersymmetry]] up to [[dimension]] 7, the octonions control these up to the maximal dimension 11:
+
+[[!include exceptional spinors and division algebras -- table]]
+
+For more on this see at _[[supersymmetry and division algebras]]_.
+
+Generally, the algebra of octonions shows up, in one way or another, behind most, if not all, [[exceptional structures]] in [[group theory]], [[Lie theory]] and [[differential geometry]]. See also at _[[universal exceptionalism]]_ for more on this.
 
 ## Definition
+
+The following definition is in the style of [Dickson 1919](#Dickson1919), [Baez 02, second half of Section 2.2](#Baez02):
 
 +-- {: .num_defn #ComponentDefinition}
 ###### Definition
@@ -589,14 +599,24 @@ $$
 
 ## References
 
-Textbook account:
+The definition is originally due to 
 
-* {#SpringerVeltkamp00} [[Tonny Springer]], [[Ferdinand Veldkamp]], _Octonions, Jordan Algebras, and Exceptional Groups_, Springer Monographs in Mathematics, 2000
+* {#Cayley1845} [[Arthur Cayley]], _On certain results relating to quaternions_,  The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science Series 3 Volume 26, 1845 - Issue 171 ([doi:10.1080/14786444508562684](https://doi.org/10.1080/14786444508562684))
 
+The formulation as the [[Dickson double construction]] is due to
 
-A survey is in
+* {#Dickson1919} [[Leonard Dickson]], _On Quaternions and Their Generalization and the History of the Eight Square Theorem_, 
+Annals of Mathematics, Second Series, Vol. 20, No. 3 (Mar., 1919), pp. 155-171 ([jstor:1967865](https://www.jstor.org/stable/1967865))
 
-* {#Baez02} [[John Baez]], _The Octonions_,  Bull. Amer. Math. Soc. 39 (2002), 145-205. ([web](http://math.ucr.edu/home/baez/octonions/octonions.html)) 
+Review:
+
+* {#Baez02} [[John Baez]], _The Octonions_,  Bull. Amer. Math. Soc. 39 (2002), 145-205. ([web](http://math.ucr.edu/home/baez/octonions/octonions.html), [pdf](http://math.ucr.edu/home/baez/octonions/octonions.pdf) [doi:10.1090/S0273-0979-01-00934-X](https://doi.org/10.1090/S0273-0979-01-00934-X)) 
+
+Textbook accounts:
+
+* {#SpringerVeltkamp00} [[Tonny Springer]], [[Ferdinand Veldkamp]], _Octonions, Jordan Algebras, and Exceptional Groups_, Springer Monographs in Mathematics, 2000 ([doi:10.1007/978-3-662-12622-6](https://doi.org/10.1007/978-3-662-12622-6))
+
+* [[Tevian Dray]], [[Corinne Manogue]], _The Geomety of Octonions_, World Scientific 2015 ([doi:10.1142/8456](https://doi.org/10.1142/8456))
 
 The concept of "special triples" or ("basic triples") used above seems to go back to 
 
