@@ -78,9 +78,13 @@ See also at _[normed division algebra -- automorphism](normed+division+algebra#A
 
 ## References
 
-A survey is in
+Review
 
 * T. Y. Lam, _Hamilton's Quaternions_ ([ps](http://math.berkeley.edu/~lam/quat.ps))
+
+
+* [[Tevian Dray]], [[Corinne Manogue]], Section 3.1 of: _The Geomety of Octonions_, World Scientific 2015 ([doi:10.1142/8456](https://doi.org/10.1142/8456))
+
 
 See also
 
