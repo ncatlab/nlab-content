@@ -16,3 +16,7 @@ on [[algebraic stacks]] and [[functor of points|functorial]] [[algebraic geometr
 * Lecture 7: _Champs III_, [pdf](http://perso.math.univ-toulouse.fr/btoen/files/2015/02/cours7.pdf).
 * Lecture 8: _Champs IV_, [pdf](http://perso.math.univ-toulouse.fr/btoen/files/2015/02/cours81.pdf).
 * Lecture 9: _Quelques exercices_, [pdf](http://perso.math.univ-toulouse.fr/btoen/files/2015/02/cours92.pdf)
+
+## English translation
+
+* Ruìān Chén, [pdf](http://www-personal.umich.edu/~ruchen/articles/stacks.pdf)
