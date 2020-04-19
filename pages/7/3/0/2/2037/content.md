@@ -16,7 +16,7 @@
 
 ## Idea
 
-The _Cayley-Dickson construction_ or _Cayley-Dickson double_ ([Dickson 1919, around (6)](#Dickson1919)) takes a [[real numbers|real]] [[star-algebra]] $A$ to a new real [[star-algebra]] whose elements are [[pairs]] of elements of $A$, hence of twice the [[dimension]] of the original algebra. 
+The _Cayley-Dickson construction_ or _Cayley-Dickson double_ ([Dickson 1919, (6)](#Dickson1919)) takes a [[real numbers|real]] [[star-algebra]] $A$ to a new real [[star-algebra]] whose elements are [[pairs]] of elements of $A$, in generalization of how the [[complex numbers]] arise as a doubling of the [[real numbers]].
 
 When iteratively applied to the [[real numbers]], regarded as a [[star-algebra]] with [[identity morphism|trivial]] [[involution]], the Cayley-Dickson construction yields, consecutively, the [[complex numbers]], then the [[quaternions]], then the [[octonions]] (thus all four [[real normed division algebras]]), then the [[sedenions]], ...
 
@@ -59,6 +59,8 @@ The  _Cayley--Dickson double_ of the [[real numbers|real]] [[star-algebra]] $A$ 
 
 =--
 
+([Dickson 1919, (6)](#Dickson1919))
+
 ### Definition by generators and relations
  {#DefinitionByGeneratorsAndRelations}
 
@@ -100,6 +102,8 @@ and
 for all $a, b \in A$.
 
 =--
+
+([Baez 02, second half of 2.2](#Baez02))
 
 +-- {: .num_lemma #InducedRelations}
 ###### Lemma
@@ -324,7 +328,7 @@ $$
 
 Here in the last line we indeed find the component formula (eq:ProductInComponents).
 
-To see that $\phi$ respects we use (eq:TheNewGenerator) from Def. \ref{CayleyDicksonDoubleByAdjoiningFurtherGenerator} and (eq:al) from Lemma \ref{InducedRelations}:
+To see that $\phi$ respects the involution we use (eq:TheNewGenerator) from Def. \ref{CayleyDicksonDoubleByAdjoiningFurtherGenerator} and (eq:al) from Lemma \ref{InducedRelations}:
 
 $$
   \begin{aligned}
