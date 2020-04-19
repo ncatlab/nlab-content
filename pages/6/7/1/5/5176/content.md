@@ -17,17 +17,11 @@
 ## Idea
 
 For $C$ a [[small category]], and $PSh(C)$ its [[presheaf topos]], we have (by the discussion at _[Profunctor -- In terms of colimit preserving functors on presheaf categories](profunctor#FuncsOnPresheaves)_) that a cocontinuous,
- i.e., [[colimit]]-preserving, [[functor]] $PSh(C) \to Set$ is equivalently itself a [[copresheaf]] on $C$:
-$$
-  [PSh(C), Set]_{coc} \simeq CoPSh(C)
-  \,.
-$$
+i.e., [[colimit]]-preserving, [[functor]] $PSh(C) \to Set$ is equivalently itself a [[copresheaf]] on $C$:
+$$[PSh(C), Set]_{coc} \simeq CoPSh(C).$$
 
 If we replace in this statement presheaves with [[sheaves]], we obtain the notion of _cosheaf_ on $C$:
-$$
-  [Sh(C), Set]_{coc} \simeq CoSh(C)
-  \,.
-$$
+$$[Sh(C), Set]_{coc} \simeq CoSh(C).$$
 
 ## Definition
 
@@ -35,9 +29,7 @@ $$
 ###### Definition
 
 Let $C$ be a [[site]]. A **cosheaf** on $C$ is a [[copresheaf]]
-$$
-  F : C \to Set
-$$
+$$F : C \to Set$$
 such that it takes [[cover]]s to [[colimit]]s: for each covering family $\{U_i \to U\}$ in $C$ we have
 $$
   F(U) \simeq \lim_{\to}
@@ -80,6 +72,11 @@ between [[cosheaves]] of sets on a [[locale]] $X$ and [[complete spreads]] $L\to
 The analog of the [[etale space]] functor is the [[display locale]] functor.
 The analog of the [[sheaf of sections]] functor is the [[cosheaf of connected components]] functor.
 
+A decategorified version of this statement
+was obtained by [[Marta Bunge]] and [[Jonathon Funk]] in \cite{PLoc}:
+join-preserving maps $X\to\Omega$ are in bijection
+with [[overt]] [[weakly closed]] [[sublocales]] of $X$.
+(Here $\Omega$ is the poset of [[truth values]].)
 
 ## Examples
 
@@ -100,20 +97,21 @@ Cosheaves of [[algebras]], or notions similar to this, appear in [[AQFT]] as [[l
 
 ## References
 
-* G. E. Bredon, _Sheaf Theory_ , Springer Heidelberg 1997. (chap. V-VI)
+* [[Glen E. Bredon]], _Sheaf Theory_ , Springer Heidelberg 1997. (chap. V-VI)
 
 * [[Marta Bunge]] and [[Jonathon Funk]], _[[Singular coverings of toposes]]_ , Lecture Notes in Mathematics vol. 1890 Springer Heidelberg (2006). (sec. 1.4)
 
-* Justin M. Curry, _Abstract existence of cosheafification_ ([pdf](https://services.math.duke.edu/~curry/papers/abstract_cosheafification.pdf))
-
+* [[Justin M. Curry]], _Abstract existence of cosheafification_ ([pdf](https://services.math.duke.edu/~curry/papers/abstract_cosheafification.pdf))
 
 * [[Jonathon Funk]], _The Display Locale of a Cosheaf_ , Cah. Top. G&#233;om. Diff. Cat. **36** (1995) pp.53-93.
 
-* Andrei V. Prasolov, _Cosheafification_ ([arXiv:1605.01555](https://arxiv.org/abs/1605.01555))
+* [[Andrei V. Prasolov]], _Cosheafification_ ([arXiv:1605.01555](https://arxiv.org/abs/1605.01555))
 
-* Andrei V. Prasolov, _Cosheaves_ ([arXiv:1804.07988](https://arxiv.org/abs/1804.07988))
+* [[Andrei V. Prasolov]], _Cosheaves_ ([arXiv:1804.07988](https://arxiv.org/abs/1804.07988))
 
 * [[Steve Vickers]], _Cosheaves and Connectedness in Formal Topology_ , Ann. Pure Appl. Logic **163** no.2 (2012) pp.157-174. ([preprint](www.cs.bham.ac.uk/~sjv/ConnFT.pdf))
+
+\bibitem{PLoc} [[Marta Bunge]], [[Jonathon Funk]], _Constructive theory of the lower power locale_, Mathematical Structures in Computer Science, vol. 6, no. 1, pp. 69-83: [doi](https://doi.org/10.1017/s0960129500000876).
 
 
 [[!redirects cosheaves]]
