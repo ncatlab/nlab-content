@@ -39,7 +39,7 @@ Generally, the algebra of octonions shows up, in one way or another, behind most
 
 The following definition is in the style of [Dickson 1919](#Dickson1919), [Baez 02, second half of Section 2.2](#Baez02):
 
-+-- {: .num_defn #ComponentDefinition}
++-- {: .num_defn #QuaternionCompatibleComponentDefinition}
 ###### Definition
 
 The _octonions_ $\mathbb{O}$ are the elements of the [[nonassociative algebra|non-associative]] [[star-algebra]] over the [[real numbers]] which is the [[Cayley-Dickson double]] of the [[star-algebra]] of [[quaternions]] $\mathbb{H}$ (with $\overline{(-)}$ denoting the conjugation-operation).
@@ -49,7 +49,7 @@ The _octonions_ $\mathbb{O}$ are the elements of the [[nonassociative algebra|no
 This means (see [there](Cayley-Dickson+construction#DefinitionByGeneratorsAndRelations)) that if $i, j, k \in \mathbb{H}$ denote an [[orthonormal basis]] of [[imaginary number|imaginary]] unit-[[quaternions]]
 
 \begin{imagefromfile}
-    "file_name": "QuaternionOctonionMultiplicationTable.jpg",
+    "file_name": "QuaternionOctonionMultiplicationTableII.jpg",
     "float": "right",
     "width": 400,
     "unit": "px",
@@ -109,6 +109,94 @@ This gives the multiplication table on the right, where any two consecutive arro
 
 =--
 
++-- {: .num_example #FixedLocusOfe4e5e6e7}
+###### Example
+
+The following computation shows that the [[fixed point set]] inside the [[octonions]] $\mathbb{O}$ of the operation of consecutive left multiplication by the generators $\mathrm{e}_4$, $\mathrm{e}_5$, $\mathrm{e}_6$ $\mathrm{e}_7$ (according to Def. \ref{QuaternionCompatibleComponentDefinition}) is the [[linear subspace]] of [[quaternions]] (see [HSS 18, Lemma 4.13](#HSS18) for application of this fact to [[M-branes]]):
+
+$$
+  \begin{aligned}
+    \mathrm{e}_4
+    \Big(
+    \mathrm{e}_5
+    \big( 
+      \mathrm{e}_6  
+      (\mathrm{e}_7 x) 
+    \big)
+    \Big)
+    & =
+    \ell
+    \bigg(
+    (i \ell)
+    \Big(
+      (j \ell)
+      \big(
+        (k \ell) 
+        x
+      \big)
+    \Big)
+    \bigg)
+    \\
+    & =
+    \ell
+    \bigg(
+    (i \ell)
+    \Big(
+      (j \ell)
+      \big(
+        (k \overline{x}) 
+        \ell
+      \big)
+    \Big)
+    \bigg)
+    \\
+    & =
+    \ell
+    \Big(
+      (i \ell)
+      \big(
+        (x k) j
+      \big)
+    \Big)
+    \\
+    & =
+    \ell
+    \bigg(
+      \Big(
+        i
+        \big(
+          j
+          (k \overline{x}
+        \big)
+      \Big)
+    \ell
+    \bigg)
+    \\
+    & = 
+    \big(
+      (x k)
+      j
+    \big)
+    i
+      \\
+      & =
+      \left\{
+        \begin{array}{ccc}
+          \phantom{-}\, x & \text{if} & x \in \mathbb{H}\phantom{\ell} \hookrightarrow \mathbb{O}
+          \\
+          - x & \text{if} & x \in \mathbb{H}\ell \hookrightarrow \mathbb{O}
+        \end{array}
+      \right.
+  \end{aligned}
+$$
+
+=--
+
+
+
+\linebreak
+
+\linebreak
 
 Of course the labels of the generators is not fixed. Here is another version:
 
@@ -599,6 +687,8 @@ $$
 
 ## References
 
+### General
+
 The definition is originally due to 
 
 * {#Cayley1845} [[Arthur Cayley]], _On certain results relating to quaternions_,  The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science Series 3 Volume 26, 1845 - Issue 171 ([doi:10.1080/14786444508562684](https://doi.org/10.1080/14786444508562684))
@@ -626,6 +716,13 @@ Relation to the [[Leech lattice]]:
 
 * {#Wilson09} [[Robert A. Wilson]], _Octonions and the Leech lattice_, Journal of Algebra
 Volume 322, Issue 6, 15 September 2009, Pages 2186-2190, ([pdf](http://www.maths.qmul.ac.uk/~raw/pubs_files/octoLeech1.pdf), [slides](http://www.maths.qmul.ac.uk/~raw/talks_files/Cambridge09.pdf))
+
+### Relation to 10d/11d spin geometry 
+
+Application of [[octonion]]-algebra to analysis of [[spin representations]] and [[spin geometry]] specifically in 11d (for general discussion in other dimensions see at _[[supersymmetry and division algebras]]_):
+
+* {#HSS18} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_, Comm. Math. Phys. 371: 425. (2019) ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987))
+
 
 [[!redirects octonion]]
 [[!redirects octonions]]
