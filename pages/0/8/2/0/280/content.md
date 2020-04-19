@@ -125,11 +125,11 @@ The advantage of this is that it does not require the category $C$ to have inter
 
 As an example, within the category of [[profinite group]]s, not all objects have automorphism groups for which the natural topology is profinite, because of that profinite group actions are sometimes given in this form or are restricted to actions on objects for which the automorphism group is naturally profinite. 
 
-### Action of a profinite group
+### Actions of a profinite group
 
 See [[action of a profinite group]].
 
-### Action of a set
+### Actions of a set
 
 The action of a set on a set was defined above; it consists of a function $act: X\times Y\to Y$.  This can equivalently be represented by a [[quiver]] with $Y$ as its vertices, with its edges labeled by elements of $X$, and such that each vertex has exactly one arrow leaving it with each label.  (This is a sort of "Grothendieck construction".)  It is also the same as a simple (non halting) [[deterministic automaton]], with $Y$ the set of states and $X$ the set of inputs.
 
