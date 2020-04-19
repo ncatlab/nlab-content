@@ -513,6 +513,8 @@ Weakly closed sublocales are discussed in
 [[!redirects weakly closed nucleus]]
 [[!redirects weakly closed nuclei]]
 
+[[!redirects weakly closed]]
+
 [[!redirects closed space]]
 [[!redirects closed spaces]]
 [[!redirects closed topological space]]
