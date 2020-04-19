@@ -32,7 +32,7 @@ A **$sq$-coalgebra** is a two-pointed set $X$ together with a map $\xi: X \to X 
 
 +-- {: .un_theorem} 
 ###### Theorem (Freyd) 
-$(I, \alpha)$ is terminal in the category of $sq$-coalgebras. 
+$(I, \alpha)$ is [[terminal coalgebra for an endofunctor|terminal]] in the category of $sq$-coalgebras. 
 =-- 
 
 
