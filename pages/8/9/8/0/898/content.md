@@ -21,8 +21,7 @@ The concept of _filtered category_ is a [[categorification]] of the concept of [
 
 A [[diagram]] $F:D\to C$ where $D$ is a filtered category is called a **filtered diagram**.  A colimit of a filtered diagram is called a **[[filtered colimit]]**.
 
-A category whose opposite is filtered is called **cofiltered**.
-
+The dual notion of a filtered category is that of a [[cofiltered category]]: a category whose opposite is filtered.
 
 ## Definitions
 
@@ -88,13 +87,7 @@ If $\mathcal{J}$ is the class consisting of the [[terminal category]] and the [[
 
 
 [[!redirects filtered categories]]
-[[!redirects cofiltered category]]
-[[!redirects cofiltered categories]]
 [[!redirects filtrant category]]
 [[!redirects filtrant categories]]
-
 [[!redirects filtered diagram]]
 [[!redirects filtered diagrams]]
-
-[[!redirects cofiltered diagram]]
-[[!redirects cofiltered diagrams]]
