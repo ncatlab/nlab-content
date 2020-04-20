@@ -68,12 +68,12 @@ Notice that $D^2 = D\circ D$ is **not** isomorphic to the [[identity functor|ide
 This duality to some extent resembles the usual categorical duality for objects by **arrow reversal**. The reason is seen in the formula for $D S$ above, which can be interpreted as arrow reversal for representable functors. 
 In a more perfect world, like [[model categories]], the axioms are self-dual and a true categorical duality of the usual categorical kind holds for basic model-categorical notions. On the other hand Eckmann--Hilton duality is not only about the notions entering the axioms of model categories but there are dualities among a number of interesting homotopy theoretical functors in topological context. 
 
-One can see this in the fact that [[cohomology group]]s (for [[integral cohomology|ordinary cohomology]] using the [[Eilenberg–Mac Lane spectrum]]) consist of [[homotopy]] classes of maps into a space with a single nontrivial [[homotopy group]], while homotopy groups consist of homotopy classes of maps from a space with a single nontrivial cohomology group:
+One can see this in the fact that [[cohomology group]]s (for [[integral cohomology|ordinary cohomology]] using the [[Eilenberg-Mac Lane spectrum]]) consist of [[homotopy]] classes of maps into a space with a single nontrivial [[homotopy group]], while homotopy groups consist of homotopy classes of maps from a space with a single nontrivial cohomology group:
 
 * $H^n(X, \mathbb{Z}) \cong [X, K(\mathbb{Z},n)]$
 * $\pi_n(X) \cong [S^n, X]$
 
-Here, $K(\mathbb{Z},n)$ is an [[Eilenberg–Mac Lane space]], whose only interesting homotopy group is $\pi_n(K(\mathbb{Z},n)) = \mathbb{Z}$, while $S^n$ is a [[sphere]], whose only interesting ordinary cohomology group is the $H^n(S^n,\mathbb{Z}) = \mathbb{Z}$.
+Here, $K(\mathbb{Z},n)$ is an [[Eilenberg-Mac Lane space]], whose only interesting homotopy group is $\pi_n(K(\mathbb{Z},n)) = \mathbb{Z}$, while $S^n$ is a [[sphere]], whose only interesting ordinary cohomology group is the $H^n(S^n,\mathbb{Z}) = \mathbb{Z}$.
 
 Note, though, that the arrow reversal duality does not hold perfectly in [[Top]] (the arrow reversal "dual" theorems are not necessarily true).
 For example, a [[pullback]] of a cofibration by a fibration is a cofibration, but a pushforward of a fibration by a cofibration is not a fibration.
