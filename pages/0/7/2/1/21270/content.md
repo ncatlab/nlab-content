@@ -148,7 +148,7 @@ This suggests that this formulation can be a bridge to formally connect [[classi
 
 ## Double copy and S-duality
 
-In ([ABSP 19](#ABSP19)) it was proved that an electromagnetic duality ([[S-duality]]) transformation on the single copy gauge fields corresponds to an [[Ehlers transformation]] on the double copy gravitational field. In other words the following ideal diagram commutes:
+In ([ABSP 19](#ABSP19)) it was proved that an [[electric-magnetic duality]] (i.e. [[S-duality]]) transformation on the single copy gauge fields corresponds to an [[Ehlers transformation]] on the double copy gravitational field. In other words the following ideal diagram commutes:
 
 $$\array{{electric \; monopole} & \overset{{\;\; double \; copy \;\;}}{\to} & {Schwarzschild \; black \; hole}\\
 & \\
