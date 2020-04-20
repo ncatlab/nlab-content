@@ -149,6 +149,8 @@ The corresponding fact is also notably false for [[groupoids]], i.e. $Gpd(Stone)
 
 * [[Gelfand duality]]
 
+* [[Isbell duality]]
+
 ## References
 
 
