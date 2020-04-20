@@ -135,15 +135,15 @@ automatically the Wess–Zumino term, with the correct coefficient!
 * Volker Koch, _Aspects of Chiral Symmetry_, Int. J. Mod. Phys. E6 (1997) 203-250 ([arXiv:nucl-th/9706075](https://arxiv.org/abs/nucl-th/9706075))
 
 
-* Stefan Scherer, _Introduction to Chiral Perturbation Theory_, Adv. Nucl. Phys. 27 (2003) 277 ([arXiv:hep-ph/0210398](https://arxiv.org/abs/hep-ph/0210398))
+* [[Stefan Scherer]], _Introduction to Chiral Perturbation Theory_, Adv. Nucl. Phys. 27 (2003) 277 ([arXiv:hep-ph/0210398](https://arxiv.org/abs/hep-ph/0210398))
 
-* Stefan Scherer, Matthias R. Schindler, _A Chiral Perturbation Theory Primer_ ([arXiv:hep-ph/0505265](https://arxiv.org/abs/hep-ph/0505265))
+* [[Stefan Scherer]], Matthias R. Schindler, _A Chiral Perturbation Theory Primer_ ([arXiv:hep-ph/0505265](https://arxiv.org/abs/hep-ph/0505265))
 
 
 
-* Véronique Bernard, [[Ulf-G. Meissner]], _Chiral perturbation theory_, Ann. Rev. Nucl. Part. Sci.57:33-60, 2007 ([arXiv:hep-ph/0611231](https://arxiv.org/abs/hep-ph/0611231))
+* [[Véronique Bernard]], [[Ulf-G. Meissner]], _Chiral perturbation theory_, Ann. Rev. Nucl. Part. Sci.57:33-60, 2007 ([arXiv:hep-ph/0611231](https://arxiv.org/abs/hep-ph/0611231))
 
-* Véronique Bernard, _Chiral Perturbation Theory and Baryon Properties_, Prog. Part. Nucl. Phys. 60:82-160, 2008 ([arXiv:0706.0312](https://arxiv.org/abs/0706.0312))
+
 
 * [[Gerhard Ecker]], _Status of chiral perturbation theory_, PoS Confinement 8:025, 2008 ([arXiv:0812.4196](https://arxiv.org/abs/0812.4196))
 
@@ -221,19 +221,11 @@ See also
 [[!include WZW term of QCD chiral perturbation theory -- references]]
 
 
-### Inclusion of baryons
-
-Explicit inclusion of [[baryons]]:
-
-* Elizabeth Jenkins, Aneesh V. Manohar, _Baryon chiral perturbation theory using a heavy fermion lagrangian_, Physics Letters B Volume 255, Issue 4, 21 February 1991, Pages 558-562 (<a href="https://doi.org/10.1016/0370-2693(91)90266-S">doi:10.1016/0370-2693(91)90266-S</a>)
-
-* Robert Baur, Joachim Kambor, _Generalized Heavy Baryon Chiral Perturbation Theory_, Eur. Phys. J. C7:507-524, 1999 ([arXiv:hep-ph/9803311](https://arxiv.org/abs/hep-ph/9803311))
-
-* José Antonio Oller, Michela Verbeni and Joaquim Prades, _Meson-baryon effective chiral Lagrangians to Script $\mathcal{O}(q^3)$_,  Journal of High Energy Physics, Volume 2006, JHEP09(2006) ([doi:10.1088/1126-6708/2006/09/079](https://iopscience.iop.org/article/10.1088/1126-6708/2006/09/079))
 
 
-* Matthias Frink, [[Ulf-G. Meissner]], _On the chiral effective meson-baryon Lagrangian at third order_, Eur. Phys. J. A29:255-260, 2006 ([arXiv:hep-ph/0609256](https://arxiv.org/abs/hep-ph/0609256))
- 
+[[!include baryon chiral perturbation theory -- references]]
+
+
 
 
 
@@ -286,5 +278,8 @@ Further application of the antisymmetric tensor representation of vector mesons 
 [[!redirects chiral symmetry]]
 [[!redirects chiral symmetries]]
 
-[[!redirects quantum hadrodynamics]]
+[[!redirects baryon chiral perturbation theory]]
+
+
+
 
