@@ -25,7 +25,7 @@ The presence -- or not -- of flavour anomalies is part of the general _[[flavour
 
 Flavor universality pertains in particular to [[leptonic decays]] of [[bottom quarks]], denoted $b$ (in the third [[generation of fundamental particles|generation]]), into [[electron]]/[[positron]] pairs, denoted $e^+ e^-$ (in the first [[generation of fundamental particles|generation]]) or [[muon]]/[[antiparticle|anti]][[muon]] pairs, denoted $\mu^+ \mu^-$ (in the second [[generation of fundamental particles|generation]]), the latter two jointly denoted $\ell^+ \ell^-$ (for "[[leptons]]") in this context.
 
-Since [[quarks]] never appear in isolation (due to [[confinement]]) but always as [[bound states]] to [[hadrons]], [[scattering amplitude|decays]] specifically of [[bottom quarks]] manifest themselves in [[scattering amplitude|decays]] of [[mesons]] that contain $b$ -- [[B-mesons]], denoted $B$ --
+Since [[quarks]] never appear in isolation (due to [[confinement]]) but always as [[bound states]] to [[hadrons]], [[scattering amplitude|decays]] specifically of [[bottom quarks]] manifest themselves in [[leptonic decays]] of [[mesons]] that contain $b$ -- [[B-mesons]], denoted $B$ --
 
 \begin{center}
 \begin{imagefromfile}
@@ -36,7 +36,7 @@ Since [[quarks]] never appear in isolation (due to [[confinement]]) but always a
 
 > graphics grabbed from [Cartelle 18](#Cartelle18) -- here $s$ denotes a [[strange quark]]
 
-or as [[scattering amplitude|decays]] of [[baryons]] that contain $b$ -- [[Lambda baryons]], denoted $\Lambda_b$ (measured only more recently ([LHCb 19120.8139](#LHCb191208139))).
+or as [[leptonic decays]] of [[baryons]] that contain $b$ -- [[Lambda baryons]], denoted $\Lambda_b$ (measured only more recently ([LHCb 19120.8139](#LHCb191208139))).
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/AltmannshoferRKDecay.jpg" width="300"/>
@@ -649,6 +649,9 @@ _Addressing the $R_{D^{(\ast)}}$ anomalies with an S1 leptoquark from $SO(10)$ g
 
 * Javier Fuentes-Martin, [[Gino Isidori]], Matthias König, Nudzeim Selimovic, _Vector Leptoquarks Beyond Tree Level_ ([arxiv:1910.13474](https://arxiv.org/abs/1910.13474))
 
+* Shaikh Saad, Anil Thapa, _A Common Origin of Neutrino Masses and $R_{D^\ast}$, $R_{K^\ast}$ Anomalies_ ([arXiv:2004.07880](https://arxiv.org/abs/2004.07880))
+
+
 
 [[leptoquarks]] within a [[Randall-Sundrum model]]:
 
@@ -739,6 +742,10 @@ Other possible explanations of the flavour anomalies:
 
 
 * Rusa Mandal, Clara Murgui, Ana Peñuelas, [[Antonio Pich]], _The role of right-handed neutrinos in $b \to c \tau \bar \nu$ anomalies_ ([arXiv:2004.06726](https://arxiv.org/abs/2004.06726))
+
+[[MSSM]]:
+
+* Dris Boubaa, Shaaban Khalil, Stefano Moretti, _Explaining B decays anomalies in SUSY models_ ([arXiv:2004.07939](https://arxiv.org/abs/2004.07939))
 
 
 
