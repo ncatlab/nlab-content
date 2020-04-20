@@ -181,6 +181,8 @@ within [[GUT]]-models and specifically within [[Pati-Salam models]]:
 
 * Shyam Balaji, Michael A. Schmidt, _A unified $SU(4)$ theory for the $R_D^{(\ast)}$ and $R_K^{(\ast)}$ anomalies_ ([arXiv:1911.08873](https://arxiv.org/abs/1911.08873))
 
+* Shaikh Saad, Anil Thapa, _A Common Origin of Neutrino Masses and $R_{D^\ast}$, $R_{K^\ast}$ Anomalies_ ([arXiv:2004.07880](https://arxiv.org/abs/2004.07880))
+
 
 and within [[Randall-Sundrum models]]
 
