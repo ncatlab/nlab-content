@@ -1,5 +1,5 @@
 
-* [website](http://www.uni-regensburg.de/Fakultaeten/nat_Fak_I/gepner/)
+* [website](https://www.math.purdue.edu/~dgepner/)
 
 ## Related entries
 
