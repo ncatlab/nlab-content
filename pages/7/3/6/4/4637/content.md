@@ -43,7 +43,7 @@ To the extent that this adjunction descends to presheaves that are ([[higher top
 
 Objects preserved by the [[monad]] of this adjunction are called **Isbell self-dual**.
 
-Under the interpretation of [[presheaves]] as generalized [[spaces]] and [[copresheaves]] as generalized [[quantities]] modeled on $C$ ([Lawvere 86](#Lawvere86), see at _[[space and quantity]]_), Isbell duality is the archetype of the [[duality]] between [[geometry]] and [[algebra]] that permeates mathematics (such as [[Gelfand duality]] or the [[embedding of smooth manifolds into formal duals of R-algebras]]).
+Under the interpretation of [[presheaves]] as generalized [[spaces]] and [[copresheaves]] as generalized [[quantities]] modeled on $C$ ([Lawvere 86](#Lawvere86), see at _[[space and quantity]]_), Isbell duality is the archetype of the [[duality]] between [[geometry]] and [[algebra]] that permeates mathematics (such as [[Gelfand duality]], [[Stone duality]], or the [[embedding of smooth manifolds into formal duals of R-algebras]]).
 
 ## Definition
 
