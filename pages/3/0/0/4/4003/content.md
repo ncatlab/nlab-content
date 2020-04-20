@@ -184,6 +184,8 @@ See also
 
 * Charles Walker, *Universal properties of polynomials*, [arxiv](https://arxiv.org/abs/1806.10477)
 
+* [[Ross Street]], *Polynomials as spans*, Cahiers LXI-2 (2020], [pdf](http://cahierstgdc.com/wp-content/uploads/2020/04/STREET-LXI-2.pdf)
+
 [[!redirects polynomial functor]]
 [[!redirects polynomial functors]]
 [[!redirects polynomial endofunctor]]
