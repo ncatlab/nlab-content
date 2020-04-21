@@ -40,10 +40,10 @@ That the associativity and identity axioms hold follows immediately from the fac
 
 \begin{notn} We denote the category of Definition \ref{DefinitionCategoryOfProObjects} by pro-$\mathcal{C}$. \end{notn}
 
-\begin{rmk} For brevity, we sometimes write the [[hom set]] between $F:D\to C$ and $G:E\to C$ as 
+\begin{rmk} For brevity, we sometimes write the [[hom set]] between $F: \mathcal{D} \to \mathcal{C}$ and $G: \mathcal{E} \to \mathcal{C}$ as 
 
 \[
-  \underset{e\in E}{lim}\, \underset{d\in D}{colim} C(F d, G e),
+  \underset{e \in Ob(\mathcal{E})}{lim}\, \underset{d\in Ob(\mathcal{D})}{colim} \mathcal{C}(F d, G e),
 \]
 
 where the [[limit]] and [[colimit]] is taken in the category [[Set]] of sets. \end{rmk}
@@ -86,6 +86,8 @@ This exhibits that $f_{0} \sim f_{2}$, as required.
 With this equivalence relation $\sim$ to hand, we can give our explicit description of the arrows of pro-$\mathcal{C}$: an arrow of pro-$\mathcal{C}$ from a pro-object $F: \mathcal{D} \rightarrow \mathcal{C}$ to a pro-object $G: \mathcal{E} \rightarrow \mathcal{C}$ can be taken to be a set $\left\{ f_{e} : F\left(d_{e}\right) \rightarrow G(e) \right\}$ of arrows of $\mathcal{C}$, one for every object $e$ of $\mathcal{E}$, such that, for every arrow $g: e \rightarrow e'$ of $E$, $G(g) \circ f_{e} \sim G(g) \circ f_{e'}$. 
 
 In other words: a set $\left\{ f_{e} : F\left(d_{e}\right) \rightarrow G(e) \right\}$ of arrows of $\mathcal{C}$, one for every object $e$ of $\mathcal{E}$, such that, for every arrow $g: e \rightarrow e'$ of $E$, there is an object $d$ of $\mathcal{D}$, an arrow $g_{e} : d \rightarrow d_{e}$ of $\mathcal{D}$, and an arrow $g_{e'}: d \rightarrow d_{e'}$ of $\mathcal{D}$ such that $G(g) \circ f_{e} \circ F(g_{e}) = G(g) \circ f_{e'} \circ F(g_{e'})$.
+
+Two such sets $\left\{ f_{e} \right\}_{e \in Ob(\mathcal{E})}$ and $\left\{ f'_{e} \right\}_{e \in Ob(\mathcal{E})}$ are equal, i.e. define the same arrow from $F$ to $G$, if $f_{e} \sim f'_{e}$ for every object $e$ of $\mathcal{E}$.
 
 \end{rmk}
 
@@ -130,7 +132,7 @@ $$
 
 In some cases, pro-objects in a category $\mathcal{C}$ can be viewed as actual limits in a certain category. We prove here some results of this kind.
 
-\begin{prpn} \label{PropositionCategoriesEquivalentToProC} Let $\mathcal{C}$ be a category, and let $\mathcal{A}$ be a category with [[cofiltered limit|cofiltered limits]] and [[cofiltered colimit|cofiltered colimits]]. Suppose that there exists a [[fully faithful functor]] $R: \mathcal{C} \rightarrow \mathcal{A}$. Then $pro-\mathcal{C}$ is [[equivalence of categories|equivalent]] to the full subcategory $pro^{\mathcal{A}}-\mathcal{C}$ of $\mathcal{A}$ whose objects are isomorphic to $lim(R \circ D)$ for some diagram $D$ in $\mathcal{C}$ (this can be given a constructive interpretation according to whether the reader prefers to avoid the axiom of choice in the proof), where $lim$ is the limit functor for diagrams in $\mathcal{A}$.
+\begin{prpn} \label{PropositionCategoriesEquivalentToProC} Let $\mathcal{C}$ be a category, and let $\mathcal{A}$ be a category with [[cofiltered limit|cofiltered limits]]. Suppose that there exists a [[fully faithful functor]] $R: \mathcal{C} \rightarrow \mathcal{A}$. Then $pro-\mathcal{C}$ is [[equivalence of categories|equivalent]] to the full subcategory $pro^{\mathcal{A}}-\mathcal{C}$ of $\mathcal{A}$ whose objects are isomorphic to $lim(R \circ D)$ for some diagram $D$ in $\mathcal{C}$ (this can be given a constructive interpretation according to whether the reader prefers to avoid the axiom of choice in the proof), where $lim$ is the limit functor for diagrams in $\mathcal{A}$.
 
 An equivalence of categories is given by the functor $pro-\mathcal{C} \rightarrow pro^{\mathcal{A}}-\mathcal{C}$ which on objects sends a pro-object $d: \mathcal{D} \rightarrow \mathcal{C}$ to the limit of the functor $R \circ d: \mathcal{D} \rightarrow \mathcal{A}$, and on arrows sends the limit of the diagram in the category of sets
 
@@ -147,7 +149,7 @@ $$
 using the natural transformation arising from applying $R$, and then applies the natural isomorphism between the limit of the above diagram and the limit of the diagram in the category of sets
 
 $$
-Hom_{\mathcal{A}}\left(colim \left(R \circ d_{1}(-) \right), lim \left( R \circ d_{2}(-) \right) \right.
+Hom_{\mathcal{A}}\left(lim \left(R \circ d_{1}(-) \right), lim \left( R \circ d_{2}(-) \right) \right.
 $$ 
 
 \end{prpn}
@@ -172,6 +174,7 @@ is in fact a natural isomorphism. Since, by definition, the objects of $pro^{\ma
 \begin{rmk} \label{RemarkProfiniteGroupsEquivalentToCertainTopologicalGroups} Though it is less well-known, one can in Example \ref{ExampleProfiniteGroupsEquivalentToCertainTopologicalGroups} evidently replace $\mathsf{Top}$ in with any category $\mathcal{A}$ for which there is a fully faithful functor $\mathsf{Set} \rightarrow \mathcal{A}$ which preserves finite products. See [[discrete object]] for one general setting in which such a functor exists. For example, one can take $\mathcal{D}$ to be the category [[sSet]] of [[simplicial set|simplicial sets]]. \end{rmk}
 
 \begin{rmk} Both Example \ref{ExampleProfiniteGroupsEquivalentToCertainTopologicalGroups} and Remark \ref{RemarkProfiniteGroupsEquivalentToCertainTopologicalGroups} generalise from $\mathsf{Grp}$ to any [[finite product theory]], that is to say to the category of models of a [[finite product sketch]]. They generalise further to any [[finite limit theory]], that is to say to the category of models of  a [[finite limit sketch]], if the functor $\mathsf{Set} \rightarrow \mathcal{A}$ moreover preserves finite limits. \end{rmk}
+
 
 ## Examples
 
