@@ -77,6 +77,8 @@ Open/closed string duality plays a subtle role when interpreting the [['t Hooft 
 
 * [[duality in string theory]]
 
+* [[classical double copy]]
+
 * [['t Hooft double line construction]]
 
 * [[large N limit]], [[small N limit]]
