@@ -54,7 +54,7 @@ This relation $\sim$ is in fact an [[equivalence relation]]. Symmetry is obvious
 
 \begin{centre}
   \begin{tikzcd}
-          & d'_{0} \ar[dl]{g_{0}} \ar[dr]{g_{1}} & & d'_{1} \ar[dl]{g_{2}} \ar[dr]{g_{3}} &       \\
+          & d'_{0} \ar[dl, "g_{0}", swap] \ar[dr, "g_{1}"] & & d'_{1} \ar[dl, "g_{2}", swap] \ar[dr, "g_{3}"] &       \\
     d_{0} & & d_{1} & & d_{2}
   \end{tikzcd}
 \end{centre}
@@ -63,13 +63,13 @@ The fact that $\mathcal{D}$ is cofiltered ensures that there is an object $d''$ 
 
 \begin{centre}
   \begin{tikzcd}
-          & & d'' \ar[dl]{g'_{0}} \ar[dr]{g'_{1}} & & \\
-          & d'_{0} \ar[dl]{g_{0}} \ar[dr]{g_{1}} & & d'_{1} \ar[dl]{g_{2}} \ar[dr]{g_{3}} &       \\
+          & & d'' \ar[dl, "g'_{0}", swap] \ar[dr, "g'_{1}"] & & \\
+          & d'_{0} \ar[dl, "g_{0}", swap] \ar[dr, "g_{1}"] & & d'_{1} \ar[dl, "g_{2}", swap] \ar[dr, "g_{3}"] &       \\
     d_{0} & & d_{1} & & d_{2}
   \end{tikzcd}
 \end{centre}
 
-Suppose that we have arrows $f_{0} : F(d_{0}) \rightarrow G(e)$, $f_{1}: F(d_{1}) \rightarrow G(e)$, and $f_{2}: F(d_{2}) \rightarrow G(e)$. Then 
+Suppose that we have arrows $f_{0} : F(d_{0}) \rightarrow G(e)$, $f_{1}: F(d_{1}) \rightarrow G(e)$, and $f_{2}: F(d_{2}) \rightarrow G(e)$ such that $g_{0}$ and $g_{1}$ exhibit that $f_{0} \sim f_{1}$, and such that $g_{2}$ and $g_{3}$ exhibit that $f_{1} \sim f_{2}$. Then 
 
 $$
 \begin{aligned}
