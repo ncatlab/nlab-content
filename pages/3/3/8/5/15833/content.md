@@ -16,6 +16,13 @@ On [[superalgebra]], [[supergeometry]], [[supersymmetry]], [[supergravity]] and 
 
   [doi:10.1142/4332](https://doi.org/10.1142/4332)
 
+On [[quark-hadron duality]]:
+
+* [[Mikhail Shifman]], _Quark-Hadron Duality_, in: _At The Frontier of Particle Physics_, pp. 1447-1494 (2001) ([doi:10.1142/9789812810458_0032](https://doi.org/10.1142/9789812810458_0032))
+
+* [[Mikhail Shifman]], _Lectures on quark-hadron duality_, Czech J Phys 52, B102–B135 (2002) ([doi:10.1007/s10582-002-0080-6](https://doi.org/10.1007/s10582-002-0080-6))
+
+
 On [[quantum field theory]] and [[string theory]]:
 
 * [[Mikhail Shifman]], [[Arkady Vainshtein]], [[John Wheater]] (eds.), 
