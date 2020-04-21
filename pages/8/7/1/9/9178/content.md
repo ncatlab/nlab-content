@@ -49,6 +49,8 @@ However, at high [[temperature]] [[QCD]] goes through a _deconfinement_ [[phase 
 
   * [[AdS/QCD]]
 
+* [[quark-hadron duality]]
+
 * [[quark-gluon plasma]]
 
 * [[generation of fermions]]
