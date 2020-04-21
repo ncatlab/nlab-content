@@ -24,8 +24,8 @@ The [[Lorentz group|Lorentz]] [[vector representation|vector]] and [[isospin]] [
 Together with the [[kaons]], which are the corresponding [[scalar mesons]], these are also called the _[[K-mesons]]_ (alongide [[D-mesons]] and [[B-mesons]], etc.)
 
 \begin{imagefromfile}
-    "file_name": "LightAndStrangeMesonFieldsPin.jpg",
-    "width": 500,
+    "file_name": "LightAndChiralPartnerMesonFieldsPinII.jpg",
+    "width": 600,
     "unit": "px",
     "margin": {
         "top": 0,
