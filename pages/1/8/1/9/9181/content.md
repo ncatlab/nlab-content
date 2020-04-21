@@ -33,17 +33,26 @@
 
 * [[meson]]
 
-  * [[pion]]
+  * [[σ-meson]]
 
-  * [[ρ-meson]]
+  * [[pion]]
 
   * [[ω-meson]]
 
-  * [[σ-meson]]
+  * [[ρ-meson]]
+
+  * [[f1-meson]]
+
+  * [[a1-meson]]
+
+
+  * [[kaon]]
+
+  * [[D-meson]]
 
   * [[B-meson]]
 
-  * [[kaon]]
+
 
   * [[quarkonium]]
 
