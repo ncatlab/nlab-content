@@ -19,8 +19,8 @@
 The _sigma-meson_, now also called the _$f_0(500)$-resonance_, is the [[light meson|lightest]] [[Lorentz group|Lorentz]]-[[scalar]] and [[isospin]]-[[scalar]] [[meson]]. 
 
 \begin{imagefromfile}
-    "file_name": "LightAndStrangeMesonFieldsPin.jpg",
-    "width": 500,
+    "file_name": "LightAndChiralPartnerMesonFieldsPinII.jpg",
+    "width": 600,
     "unit": "px",
     "margin": {
         "top": 0,
