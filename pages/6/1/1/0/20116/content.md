@@ -67,4 +67,6 @@ Speculation that [[leptoquarks]] could (not only explain the [[flavour anomalies
 
 * {#ChauhanMohanty18} Bhavesh Chauhan, Subhendra Mohanty, _A common leptoquark solution of flavor and ANITA anomalies_ ([arXiv:1812.00919](https://arxiv.org/abs/1812.00919))
 
+* P. S. Bhupal Dev, Rukmani Mohanta, Sudhanwa Patra, Suchismita Sahoo, _Unified explanation of flavor anomalies, radiative neutrino mass and ANITA anomalous events in a vector leptoquark model_ ([arXiv:2004.09464](https://arxiv.org/abs/2004.09464))
+
 [[!redirects Antarctic Impulsive Transient Antenna]]
