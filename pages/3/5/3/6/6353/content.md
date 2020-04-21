@@ -84,6 +84,8 @@ Discussion for [[nonabelian T-duality]]:
 
 * Mark Bugden, _Non-abelian T-folds_ ([arXiv:1901.03782](https://arxiv.org/abs/1901.03782))
 
+* Ladislav Hlavatý, Ivo Petr, _T-folds as Poisson-Lie plurals_ ([arXiv:2004.08387](https://arxiv.org/abs/2004.08387)
+
 
 [[!redirects T-folds]]
 
