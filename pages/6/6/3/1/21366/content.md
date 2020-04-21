@@ -6,7 +6,7 @@ The notion of a cofiltered category is dual to that of a [[filtered category]]. 
 
 \section{Details}
 
-\begin{defn} A category $\mathcal{C}$} is _cofiltered_ if its [[opposite category]] $\mathcal{C}^{op}$ is [[filtered category|filtered]]. \end{defn}
+\begin{defn} A category $\mathcal{C}$ is _cofiltered_ if its [[opposite category]] $\mathcal{C}^{op}$ is [[filtered category|filtered]]. \end{defn}
 
 \begin{rmk} In other words, a cofiltered category is one in which every finite [[diagram]] in $\mathcal{C}$ has a [[cone]]. \end{rmk}
 
