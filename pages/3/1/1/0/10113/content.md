@@ -86,6 +86,8 @@ This produces [[baryon]] [[mass]] spectra with moderate quantitative agreement w
 
   * [[vector meson dominance]]
 
+* [[quark-hadron duality]]
+
 * [[proton spin crisis]]
 
 * [[flavour anomaly]]
