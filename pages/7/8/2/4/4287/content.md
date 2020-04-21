@@ -10,6 +10,10 @@
 
 * _Against philosophy_, in _Dreams of a final theory_ ([pdf](http://emilkirkegaard.dk/en/wp-content/uploads/Steven-Weinberg-%E2%80%9CAgainst-Philosophy%E2%80%9D.pdf))
 
+Introducing [[quark-hadron duality]]:
+
+* E. C. Poggio, H. R. Quinn, and [[Steven Weinberg]], _Smearing method in the quark model_, Phys. Rev. D 13, 1958 (1976) ([doi:10.1103/PhysRevD.13.1958](https://doi.org/10.1103/PhysRevD.13.1958))
+
 On [[effective field theory]] and [[chiral perturbation theory]]:
 
 * {#Weinberg79} [[Steven Weinberg]], _Phenomenological Lagrangians_, Physica A: Statistical Mechanics and its Applications Volume 96, Issues 1–2, April 1979, Pages 327-340 (<a href="https://doi.org/10.1016/0378-4371(79)90223-1">doi:10.1016/0378-4371(79)90223-1</a>)
