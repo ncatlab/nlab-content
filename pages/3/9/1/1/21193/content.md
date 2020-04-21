@@ -69,6 +69,10 @@ Review:
 
 * [[Mannque Rho]], Lecture I in: _Lectures on Effective Field Theories for Nuclei, Nuclear Matter and Dense Matter_, 2002 ([arXiv:nucl-th/0202078](https://arxiv.org/abs/nucl-th/0202078), [cds:539674](https://cds.cern.ch/record/539674))
 
+See also:
+
+* [[Mannque Rho]], _Fractionalized Quasiparticles and the Hadron-Quark Duality in Dense Baryonic Matter_ ([arXiv:2004.09082](https://arxiv.org/abs/2004.09082))
+
 Derivation from the [[AdS/QCD correspondence]]:
 
 * Holger Bech Nielsen, [[Ismail Zahed]], _The Cheshire Cat Principle from Holography_ ([doi:10.1142/9789814280709_0017](https://doi.org/10.1142/9789814280709_0017), [arXiv:0904.0429](https://arxiv.org/abs/0904.0429)), Chapter 17 in: _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
