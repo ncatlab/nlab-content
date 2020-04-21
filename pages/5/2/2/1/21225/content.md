@@ -20,8 +20,8 @@ A [[meson]]:
 The [[Lorentz group|Lorentz]] [[scalar]] and [[isospin]] [[scalar]], [[bound state|bound]] from [[up-quark|up]]/[[down-quarks]] in the [[first generation of fundamental particles]] and a [[strange quark]] in the [[second generation of fundamental particles]]. Hence a [[heavy meson]] with respect to 2-flavor [[chiral perturbation theory]].
 
 \begin{imagefromfile}
-    "file_name": "LightAndStrangeMesonFieldsPin.jpg",
-    "width": 500,
+    "file_name": "LightAndChiralPartnerMesonFieldsPinII.jpg",
+    "width": 600,
     "unit": "px",
     "margin": {
         "top": 0,
