@@ -52,9 +52,12 @@ Review includes
 * [[Konstadinos Sfetsos]], _Recent developments in non-Abelian T-duality in string theory_, Fortschr. Phys., Special Issue: Proceedings of the &#x201c;Schools and Workshops on Elementary Particle Physics and Gravity&#x201d; (CORFU 2010), 29 August &#x2013; 12 September 2010, Corfu (Greece) Volume59, Issue11‐12 ([arXiv:1105.0537](https://arxiv.org/abs/1105.0537))
 
 
-Discussion of nonabelian [[T-folds]]:
+Relation to [[T-folds]]:
 
 * Mark Bugden, _Non-abelian T-folds_ ([arXiv:1901.03782](https://arxiv.org/abs/1901.03782))
+
+* Ladislav Hlavatý, Ivo Petr, _T-folds as Poisson-Lie plurals_ ([arXiv:2004.08387](https://arxiv.org/abs/2004.08387)
+
 
 Discussion of the duality at the level of [[type II supergravity]] [[equations of motion]] is (using [[Riemannian geometry]] of [[Courant algebroids]]) due to
 
