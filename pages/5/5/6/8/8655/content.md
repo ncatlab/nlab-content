@@ -25,6 +25,9 @@ In fundamental physics, notably in [[quantum field theory]] and [[string theory]
 
 ## Examples
 
+* [[quark-hadron duality]]
+
+
 [[!include duality in string theory -- contents]]
 
 
