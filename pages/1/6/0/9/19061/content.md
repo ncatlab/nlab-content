@@ -23,7 +23,7 @@ Poisson-Lie T-duality may also be made manifest at the level of [[type II superg
 
 ## As a partial duality of string theory
 
-While ordinary abelian [[T-duality]] is supposedly a full [[duality in string theory]], in particular in that it is an equivalence on the [[string perturbation series]] to all orders of the squared [[string length]]/[[Regge slope]] $\alpha'$ and the [[string coupling constant]] $g_s$, it has apparntly been shown by [[Martin Roček]] (citation?) that there are topological [[obstructions]] at higher [[genus of a surface|genus]] for non-abelian T-duality, letting it break down in higher orders of $g_s$; and already a genus-0 ([[tree level]]) it apparently breaks down for the [[open string]] (i.e. on punctured [[disks]]) at some order of $\alpha'$. 
+While ordinary abelian [[T-duality]] is supposedly a full [[duality in string theory]], in particular in that it is an equivalence on the [[string perturbation series]] to all orders of the squared [[string length]]/[[Regge slope]] $\alpha'$ and the [[string coupling constant]] $g_s$, it has apparently been shown by [[Martin Roček]] (citation?) that there are topological [[obstructions]] at higher [[genus of a surface|genus]] for non-abelian T-duality, letting it break down in higher orders of $g_s$; and already a genus-0 ([[tree level]]) it apparently breaks down for the [[open string]] (i.e. on punctured [[disks]]) at some order of $\alpha'$. 
 
 
 
