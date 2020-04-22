@@ -55,13 +55,19 @@
 
 * [[Chern-Simons theory as topological string theory]]
 
-* [[classical double copy]] (relating [[gravity]], [[Kalb-Ramond field]] and [[dilaton]] to [[gauge theory]])
-
-  (an [[open/closed string duality]])
 
 **QFT-QFT duality**:
 
-* [[KLT relations]] (an [[open/closed string duality]])
+* [[effective QFT]] incarnations of [[open/closed string duality]], 
+  
+  relating ([[supergravity|super]]-)[[gravity]] to ([[super Yang-Mills theory|super]]-)[[Yang-Mills theory]]:
+
+  * [[KLT relations]]
+
+  * [[BCJ relations]]
+
+  * [[classical double copy]] 
+
 
 * [[Kramers-Wannier duality]]
 
