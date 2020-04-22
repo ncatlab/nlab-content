@@ -196,7 +196,7 @@ Procategories were used by Artin and Mazur in their work on [[étale homotopy]] 
 
 ###Shape theory. 
 
-The form of [[shape theory]] developed by  Marde&#353;i&#263; and Segal, at about the same time as the work in algebraic geometry, again used the pro-homotopy category. Strong shape, developed by Edwards and Hastings, Porter and also in further work by Marde&#353;i&#263; and Segal, used various forms of rigidification to get to the pro-category of spaces, or of simplicial sets.  There methods of model category theory could be used.
+The form of [[shape theory]] developed by  Marde&#353;i&#263; and Segal, at about the same time as the work in algebraic geometry, again used the pro-homotopy category. Strong shape, developed by Edwards and Hastings, [[Porter]] and also in further work by Marde&#353;i&#263; and Segal, used various forms of rigidification to get to the pro-category of spaces, or of simplicial sets.  There methods of model category theory could be used.
   
   
 
