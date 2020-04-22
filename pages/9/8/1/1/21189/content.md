@@ -100,6 +100,8 @@ automatically the Wess–Zumino term, with the correct coefficient!
 
 ## Related concepts
 
+[[!include effective field theories of nuclear physics -- contents]]
+
 * [[confinement]]
 
 * [[chiral symmetry breaking]]
@@ -114,11 +116,6 @@ automatically the Wess–Zumino term, with the correct coefficient!
 
 * [[quark bag model]], [[Cheshire cat principle]]
 
-* [[hidden local symmetry]]
-
-* [[vector meson dominance]]
-
-* [[Walecka model]]
 
 * [[hadron supersymmetry]]
 
