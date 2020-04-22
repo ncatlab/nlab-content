@@ -484,6 +484,8 @@ These computations shown so far all use just the field theory in the bulk, not y
 * [[holography as Koszul duality]]
 
 
+[[!include effective field theories of nuclear physics -- contents]]
+
 
 ## References
 
