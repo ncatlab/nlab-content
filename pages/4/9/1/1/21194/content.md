@@ -39,6 +39,8 @@ The Cheshire Cat Principle follows in [[holographic QCD]], where the baryons are
 
 * [[Cheshire cat principle]]
 
+[[!include effective field theories of nuclear physics -- contents]]
+
 ## References
 
 ### General
