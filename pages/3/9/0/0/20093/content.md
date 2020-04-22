@@ -19,6 +19,8 @@
 
 The [[physics]] of [[atomic nuclei]].
 
+[[!include effective field theories of nuclear physics -- contents]]
+
 ## Related entries
 
 * [[proton]], [[neutron]]
