@@ -491,7 +491,7 @@ Using this and the [[twisted cohomology]] available in [[tangent cohesion]] ([Bu
 
 
  
-* {#dcct} [[Urs Schreiber]] _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
+* {#dcct} [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
 
 
 * {#Schreiber13b} [[Urs Schreiber]], _[[schreiber:Classical field theory via Cohesive homotopy types]]_ ([arXiv:1311.1172](http://arxiv.org/abs/1311.1172))
