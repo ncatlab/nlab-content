@@ -26,4 +26,4 @@ where $Hom(2Pro(\mathcal{C}),Cat)_+$ is the full subcategory whose objects are t
 
 ## References
 
-* {#DescotteDubuc} M. Emilia Descotte, [[Eduardo Dubuc]], _A theory of 2-pro-objects (with expanded proofs)_, ([arXiv:1406.5762](https://arxiv.org/abs/1406.5762))
+* {#DescotteDubuc} [[Maria Emilia Descotte]], [[Eduardo Dubuc]], _A theory of 2-pro-objects (with expanded proofs)_, ([arXiv:1406.5762](https://arxiv.org/abs/1406.5762))
