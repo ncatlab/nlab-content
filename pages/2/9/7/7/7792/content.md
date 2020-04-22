@@ -98,6 +98,8 @@ Serious references discussing energy in general relativity include
 * S. Weinberg, _Gravitation and cosmology_, New York: Wiley 1972
 * R. Schoen, S. T. Yau, Comm. Math. Phys. 65 (1979), no. 1, 45--76; MR80j:83024
 
+## External Links
+[kinetic energy calculator by calculators.tech](https://www.calculators.tech/kinetic-energy-calculator)
 
 [[!redirects energy]]
 [[!redirects energies]]
