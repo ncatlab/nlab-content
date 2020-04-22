@@ -259,12 +259,6 @@ See also at _[[glueball]]_.
 
 * [[asymptotic freedom]]
 
-* [[chiral perturbation theory]]
-
-* [[quark bag model]], [[Cheshire cat principle]]
-
-* [[vector meson dominance]]
-
 * [[quantization of Yang-Mills theory]]
 
 * [[proton spin crisis]]
@@ -272,6 +266,8 @@ See also at _[[glueball]]_.
 * [[QCD cosmology]]
 
 * [[gapped Hamiltonian]]
+
+[[!include effective field theories of nuclear physics -- contents]]
 
 
 
