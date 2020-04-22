@@ -196,7 +196,7 @@ Procategories were used by Artin and Mazur in their work on [[étale homotopy]] 
 
 ### Shape theory. 
 
-The form of [[shape theory]] developed by  Marde&#353;i&#263; and Segal, at about the same time as the work in algebraic geometry, again used the pro-homotopy category. Strong shape, developed by Edwards and Hastings, [[Tim Porter|Porter]] and also in further work by Marde&#353;i&#263; and Segal, used various forms of rigidification to get to the pro-category of spaces, or of simplicial sets.  There methods of model category theory could be used.
+The form of [[shape theory]] developed by  [[Sibe Mardesic|Marde&#353;i&#263]] and [[Jack Segal|Segal]], at about the same time as the work in algebraic geometry, again used the pro-homotopy category. Strong shape, developed by Edwards and Hastings, and also [[Tim Porter|Porter]] and also in further work by [[Sibe Mardesic|Marde&#353;i&#263;]] and [[Jack Segal|Segal]], used various forms of rigidification to get to the pro-category of spaces, or of simplicial sets.  There methods of model category theory could be used.
   
   
 
@@ -235,7 +235,7 @@ The form of [[shape theory]] developed by  Marde&#353;i&#263; and Segal, at abou
 * {#Isaksen02} [[Dan Isaksen]], _Calculating limits and colimits in pro-categories_, Fund. Math. 175 (2002), no. 2, 175&#8211;194.
 
 
-* [[Sibe Mardesic|S. Marde&#353;i&#263;]], J. Segal, _Shape theory_, North Holland 1982
+* [[Sibe Mardesic|S. Marde&#353;i&#263;]], [[Jack Segal|J. Segal]], _Shape theory_, North Holland 1982
 
 * [[Jean-Louis Verdier]], _Equivalence essentielle des syst&#232;mes projectifs_, C. R.A.S. Paris261 (1965), 4950 - 4953.
 
