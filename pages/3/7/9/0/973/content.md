@@ -13,14 +13,15 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
-## Idea
-In a [[Lawvere theory]], one specifies an algebraic theory by giving a [[small category|small]] [[category]] $T$ with [[finite products]]. Then a [[model]] of the theory is given by a [[functor]] $T \to Set$ that [[preserved limit|preserves]] products. 
+\section{Idea}
 
-A **sketch** is a generalization of this idea, where we take a [[small category]] $T$, and pick some distinguished [[limit]] and [[colimit]] [[cones]]. Then a model of the sketch is a functor that preserves these limits and colimits.
+A sketch is one formalisation of the notion of a [[theory]], going back to [[Charles Ehresmann]]. It is highly diagrammatic, and has the advantage of being very close to category theory, allowing it to very naturally express the category theoretic structure which is required to construct a model of the theory (finite products, say). On the other hand, it is not a very concise notion: as Example \ref{ExampleSketchUnitalMagmas} illustrates, writing down the full details of a sketch even in the simplest examples takes time!
+
+There is a precise correspondence between categories of models of sketches and [[accessible category|accessible categories]] and [[locally presentable category|locally presentable categories]], discussed below.
+
+The notion of a sketch generalises that of a [[Lawvere theory]]. See Example \ref{ExampleLawvereTheory}.
 
 \section{Details}
 
@@ -69,7 +70,7 @@ The set of diagrams can be taken to be empty. The set of cones can be taken to b
 A model of this sketch necessarily sends the vertex $v_{1}$ to a product of the empty diagram, hence to a one element set $1$; sends the vertex $v_{2}$ to any set $X$; and sends the arrow from $v_{1}$ to $v_{2}$ to an arrow from $1$ to $X$, that is, to an element of $X$, as required. 
 \end{example}
 
-\begin{example} A sketch, more precisely a finite product sketch, for the theory of unital magmas (sets with a binary operation which has a two sided unit) can be constructed as follows. The directed graph can be taken to be the following.
+\begin{example} \label{ExampleSketchUnitalMagmas} A sketch, more precisely a finite product sketch, for the theory of unital magmas (sets with a binary operation which has a two sided unit) can be constructed as follows. The directed graph can be taken to be the following.
 
 \begin{centre}
   \begin{tikzpicture}
@@ -84,10 +85,92 @@ A model of this sketch necessarily sends the vertex $v_{1}$ to a product of the 
     \draw[shorten <= 0.5em, shorten >=0.5em, <-] (3, 0) to node[auto] {$m$} (6,0);
     \draw[shorten <= 0.5em, shorten >=0.5em, ->, transform canvas={yshift=0.1em}, bend right] (3, 3) to node[auto, swap] {$p_{1}$} (0,0);
     \draw[shorten <= 0.5em, shorten >=0.5em, ->] (3, 3) to node[auto] {$p_{2}$} (3,0);
-   \draw[shorten <= 0.5em, shorten >=0.5em, ->, transform canvas={yshift=-0.1em}, bend left] (3, 3) to node[auto] {$m, e$} (6,0);
-    \draw[shorten <= 0.5em, shorten >=0.5em, ->, transform canvas={yshift=0.1em}, bend left] (3, -3) to node[auto] {$p_{1}$} (0,0);
-    \draw[shorten <= 0.5em, shorten >=0.5em, ->] (3, -3) to node[auto, swap] {$p_{2}$} (3,0);
-   \draw[shorten <= 0.5em, shorten >=0.5em, ->, transform canvas={yshift=-0.1em}, bend right] (3, -3) to node[auto, swap] {$e, m$} (6,0);
+   \draw[shorten <= 0.5em, shorten >=0.5em, ->, transform canvas={yshift=-0.1em}, bend left] (3, 3) to node[auto] {$e, -$} (6,0);
+    \draw[shorten <= 0.5em, shorten >=0.5em, ->, transform canvas={yshift=0.1em}, bend left] (3, -3) to node[auto] {$p_{2}$} (0,0);
+    \draw[shorten <= 0.5em, shorten >=0.5em, ->] (3, -3) to node[auto, swap] {$p_{1}$} (3,0);
+   \draw[shorten <= 0.5em, shorten >=0.5em, ->, transform canvas={yshift=-0.1em}, bend right] (3, -3) to node[auto, swap] {$-, e$} (6,0);
+  \end{tikzpicture}
+\end{centre}
+
+The set of diagrams can be taken to have six elements, the first consisting of  
+
+\begin{centre}
+  \begin{tikzpicture}
+    \fill (3,0) circle[radius=0.1];
+    \fill (6,0) circle[radius=0.1];
+    \fill (3,3) circle[radius=0.1];
+    \draw[shorten <= 0.5em, shorten >=0.5em, <-] (3, 0) to node[auto] {$m$} (6,0);
+    \draw[shorten <= 0.5em, shorten >=0.5em, ->] (3, 3) to node[auto] {$p_{2}$} (3,0);
+   \draw[shorten <= 0.5em, shorten >=0.5em, ->, transform canvas={yshift=-0.1em}, bend left] (3, 3) to node[auto] {$e, -$} (6,0);
+  \end{tikzpicture}
+\end{centre}
+
+the second consisting of the following
+
+\begin{centre}
+  \begin{tikzpicture}
+    \fill (3,0) circle[radius=0.1];
+    \fill (6,0) circle[radius=0.1];
+    \fill (3,-3) circle[radius=0.1];
+    \draw[shorten <= 0.5em, shorten >=0.5em, <-] (3, 0) to node[auto] {$m$} (6,0);
+    \draw[shorten <= 0.5em, shorten >=0.5em, ->] (3, -3) to node[auto, swap] {$p_{1}$} (3,0);
+   \draw[shorten <= 0.5em, shorten >=0.5em, ->, transform canvas={yshift=-0.1em}, bend right] (3, -3) to node[auto, swap] {$-, e$} (6,0);
+  \end{tikzpicture}
+\end{centre}
+
+the third consisting of the following 
+
+\begin{centre}
+  \begin{tikzpicture}
+    \fill (0,0) circle[radius=0.1];
+    \fill (3,0) circle[radius=0.1];
+    \fill (6,0) circle[radius=0.1];
+    \fill (3,3) circle[radius=0.1];
+    \draw[shorten <= 0.5em, shorten >= 0.5em, ->] (0,0) to node[auto] {$e$} (3,0);
+    \draw[shorten <= 0.5em, shorten >=0.5em, <-, bend right=60] (3, 0) to node[auto, swap] {$p_{1}$} (6,0);
+    \draw[shorten <= 0.5em, shorten >=0.5em, ->, transform canvas={yshift=0.1em}, bend right] (3, 3) to node[auto, swap] {$p_{1}$} (0,0);
+   \draw[shorten <= 0.5em, shorten >=0.5em, ->, transform canvas={yshift=-0.1em}, bend left] (3, 3) to node[auto] {$e, -$} (6,0);
+  \end{tikzpicture}
+\end{centre}
+
+the fourth consisting of the following
+
+\begin{centre}
+  \begin{tikzpicture}
+    \fill (3,0) circle[radius=0.1];
+    \fill (6,0) circle[radius=0.1];
+    \fill (3,3) circle[radius=0.1];
+    \draw[shorten <= 0.5em, shorten >=0.5em, <-, bend left=60] (3, 0) to node[auto] {$p_{2}$} (6,0);
+    \draw[shorten <= 0.5em, shorten >=0.5em, ->] (3, 3) to node[auto] {$p_{2}$} (3,0);
+   \draw[shorten <= 0.5em, shorten >=0.5em, ->, transform canvas={yshift=-0.1em}, bend left] (3, 3) to node[auto] {$e, -$} (6,0);
+  \end{tikzpicture}
+\end{centre}
+
+the fifth consisting of the following
+
+\begin{centre}
+  \begin{tikzpicture}
+    \fill (3,0) circle[radius=0.1];
+    \fill (6,0) circle[radius=0.1];
+    \fill (3,-3) circle[radius=0.1];
+    \draw[shorten <= 0.5em, shorten >=0.5em, <-, bend right=60] (3, 0) to node[auto, swap] {$p_{1}$} (6,0);
+    \draw[shorten <= 0.5em, shorten >=0.5em, ->] (3, -3) to node[auto, swap] {$p_{1}$} (3,0);
+   \draw[shorten <= 0.5em, shorten >=0.5em, ->, transform canvas={yshift=-0.1em}, bend right] (3, -3) to node[auto, swap] {$-, e$} (6,0);
+  \end{tikzpicture}
+\end{centre}
+
+and the sixth consisting of the following.
+
+\begin{centre}
+  \begin{tikzpicture}
+    \fill (0,0) circle[radius=0.1];
+    \fill (3,0) circle[radius=0.1];
+    \fill (6,0) circle[radius=0.1];
+    \fill (3,-3) circle[radius=0.1];
+    \draw[shorten <= 0.5em, shorten >= 0.5em, ->] (0,0) to node[auto] {$e$} (3,0);
+    \draw[shorten <= 0.5em, shorten >=0.5em, <-, bend left=60] (3, 0) to node[auto, swap] {$p_{2}$} (6,0);
+    \draw[shorten <= 0.5em, shorten >=0.5em, ->, transform canvas={yshift=0.1em}, bend left] (3, -3) to node[auto] {$p_{2}$} (0,0);
+   \draw[shorten <= 0.5em, shorten >=0.5em, ->, transform canvas={yshift=-0.1em}, bend right] (3, -3) to node[auto, swap] {$-, e$} (6,0);
   \end{tikzpicture}
 \end{centre}
 
@@ -111,8 +194,8 @@ the third consisting of
     \fill (0,0) circle[radius=0.1];
     \fill (3,0) circle[radius=0.1];
     \fill (3,-3) circle[radius=0.1];
-    \draw[shorten <= 0.5em, shorten >=0.5em, ->, transform canvas={yshift=0.1em}, bend left] (3, -3) to node[auto] {$p_{1}$} (0,0);
-    \draw[shorten <= 0.5em, shorten >=0.5em, ->] (3, -3) to node[auto, swap] {$p_{2}$} (3,0);
+    \draw[shorten <= 0.5em, shorten >=0.5em, ->, transform canvas={yshift=0.1em}, bend left] (3, -3) to node[auto] {$p_{2}$} (0,0);
+    \draw[shorten <= 0.5em, shorten >=0.5em, ->] (3, -3) to node[auto, swap] {$p_{1}$} (3,0);
   \end{tikzpicture}
 \end{centre}
 
@@ -127,11 +210,73 @@ and the fourth consisting of the following.
   \end{tikzpicture}
 \end{centre}
 
+The set of co-cones can be taken to be empty.
 
+In a model of this sketch, the leftmost vertex is sent to a one element set $1$, the middle vertex is sent to an arbitrary set $X$, the top vertex is sent to the product $1 \times X$, the bottom vertex is sent to the product $X \times 1$, and the right vertex is sent to the product $X \times X$. The arrow $e$ picks out an element $e_{X}$ of $X$. 
+
+The arrow $e,-$ is sent to an arrow $e_{X} \times id: 1 \times X \rightarrow X \times X$, which is forced by the universal property of $X \times X$ and the fact that the diagrams 
+
+\begin{centre}
+  \begin{tikzcd}
+    1 \times X \ar[r, "e_{X} \times id"] \ar[d, "p_{1}", swap] & X \times X \ar[d, "p_{1}"] \\
+    1 \ar[r, "e_{X}", swap] & X 
+  \end{tikzcd}
+\end{centre}
+
+and
+
+\begin{centre}
+  \begin{tikzcd}
+    1 \times X \ar[r, "e_{X} \times id"] \ar[dr, "p_{2}", swap] & X \times X \ar[d, "p_{2}"] \\
+      & X 
+  \end{tikzcd}
+\end{centre}
+
+commute to really be the product of the arrows $e_{X}$ and $id$. Similarly, the arrow $-,e$ is sent to an arrow $id \times e_{X}: X \times 1 \rightarrow X \times X$, which is forced by the fact that the diagrams 
+
+\begin{centre}
+  \begin{tikzcd}
+    X \times 1 \ar[r, "id \times e_{X}"] \ar[dr, "p_{1}", swap] & X \times X \ar[d, "p_{1}"] \\
+      & X 
+  \end{tikzcd}
+\end{centre}
+
+and
+
+\begin{centre}
+  \begin{tikzcd}
+    X \times 1 \ar[r, "id \times e_{X}"] \ar[d, "p_{2}", swap] & X \times X \ar[d, "p_{2}"] \\
+    1 \ar[r, "e_{X}", swap] & X 
+  \end{tikzcd}
+\end{centre}
+
+commute to really be the product of the arrows $e_{X}$ and $id$.
+
+The arrow $m$ is sent to a map $m: X \times X \rightarrow X$ which is arbitrary except that the diagrams 
+
+\begin{centre}
+  \begin{tikzcd}
+    1 \times X \ar[r, "e_{X} \times id"] \ar[dr, "p_{2}", swap] & X \times X \ar[d, "m"] \\
+      & X
+  \end{tikzcd}
+\end{centre}
+
+and 
+
+\begin{centre}
+  \begin{tikzcd}
+    X \times 1 \ar[r, "id \times e_{X}"] \ar[dr, "p_{1}", swap] & X \times X \ar[d, "m"] \\
+      & X
+  \end{tikzcd}
+\end{centre}
+
+are forced to commute. 
+
+Putting all of this together, we see that we exactly have a unital magma. 
 
 \end{example}
 
-\begin{example} A [[Lawvere theory]] is a special case of a (limit-)sketch, where the category is one with a distinguished object $X$ such that all objects are ([[isomorphic]] to) powers of $X$, and $C = \emptyset$ and $L$ is the set of all product cones. \end{example}
+\begin{example} \label{ExampleLawvereTheory} A [[Lawvere theory]] is a special case of a (limit) sketch, where the category is one with a distinguished object $X$ such that all objects are ([[isomorphic]] to) powers of $X$, and $C = \emptyset$ and $L$ is the set of all product cones. \end{example}
 
 ## Properties
 
