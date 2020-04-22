@@ -14,7 +14,7 @@
 
 ##Idea
 
-Pro-homotopy theory involves the study of [[model category]] and other abstract homotopy theoretic structure on pro-categories of spaces or simplicial sets. (The term can also be used for any extension of homotopical structures for a category $C$ to the corresponding $Pro(C)$.)
+Pro-homotopy theory involves the study of [[model categories]] and other abstract [[homotopy theory|homotopy theoretic]] structure on pro-categories of [[topological spaces]] or [[simplicial sets]]. (The term can also be used for any extension of homotopical structures for a category $C$ to the corresponding category $Pro(C)$ of [[pro-objects]] in $C$.)
 
 ## Uses
 
