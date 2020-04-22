@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Algebraic Quantum Field Theory
+#### Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
@@ -38,6 +38,17 @@ Its [[classical field theory]] counterpart is named [[classical double copy]].
 * [[string theory results applied elsewhere]]
 
 * [[duality in physics]]
+
+* [[effective QFT]] incarnations of [[open/closed string duality]], 
+  
+  relating ([[supergravity|super]]-)[[gravity]] to ([[super Yang-Mills theory|super]]-)[[Yang-Mills theory]]:
+
+  * [[KLT relations]]
+
+  * [[BCJ relations]]
+
+  * [[classical double copy]] 
+
 
 
 ## References
