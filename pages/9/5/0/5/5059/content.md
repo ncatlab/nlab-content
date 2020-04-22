@@ -1107,6 +1107,9 @@ See also
 
 * [[Gleb Arutyunov]], [[Sergey Frolov]], _Foundations of the $AdS_5 x S^5$ Superstring. Part I_, J. Phys. A 42 (2009) ([arXiv:0901.4937](http://arxiv.org/abs/0901.4937))
 
+* [[John Schwarz]], _The $AdS_5 \times S^5$ Superstring_ ([arXiv:2004.09661](https://arxiv.org/abs/2004.09661))
+
+
 
 #### $AdS_4$ and $AdS_7$
  {#ReferencesAdS4Background}
