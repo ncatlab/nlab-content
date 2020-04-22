@@ -73,7 +73,7 @@ The worldline theory of solitonic interacting D0-branes is discussed in
  
 based on discussion of bound states of $N$ D0-branes in
 
-* [[Edward Witten]], _E.Witten, _Bound States of Strings and $p$-Branes_, Nucl.Phys. B 460, 1995, 335 ([arXiv:hep-th/9510135](http://arxiv.org/abs/hep-th/9510135)).
+* [[Edward Witten]], _Bound States of Strings and $p$-Branes_, Nucl.Phys. B 460, 1995, 335 ([arXiv:hep-th/9510135](http://arxiv.org/abs/hep-th/9510135)).
 
 ### As fundamental branes
 
