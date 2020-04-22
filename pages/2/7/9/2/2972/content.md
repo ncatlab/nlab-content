@@ -20,7 +20,7 @@
 
 ## Idea
 
-Generally in a context of [[Kaluza-Klein compactification]] a _dilaton_ is a [[field (physics)|fields]] in a [[theory (physics)|theory]] on a lower-dimensional [[spacetime]] which is a component of the field of [[gravity]] on a higher dimensional spacetime, in that it is part of the [[pseudo-Riemannian metric|metric]] of the [[fiber]]-spaces on which the KK-compactification takes place. Specifically for KK-compactification on a [[circle]] fiber "the dilaton" (or "radion") is the lowest [[Fourier series|Fourier]] mode of the metric of the circle, hence is the [[length]] (circumference) (or [[radius]], up to a factor) of the circle fiber.
+Generally in a context of [[Kaluza-Klein compactification]] a _dilaton_ is a [[field (physics)|field]]  on a lower-dimensional [[spacetime]] which is a component of the field of [[gravity]] on a higher dimensional spacetime, in that it is part of the [[pseudo-Riemannian metric|metric]] of the [[fiber]]-spaces on which the KK-compactification takes place. Specifically for KK-compactification on a [[circle]] fiber "the dilaton" (or "radion") is the lowest [[Fourier series|Fourier]] mode of the metric of the circle, hence is the [[length]] (circumference) (or [[radius]], up to a factor) of the circle fiber.
 
 The subtlety in [[Kaluza-Klein theory]] is that the dilaton should have small but approximately constant value in order to yields [[effective field theory]] gravity coupled to [[gauge theory]] in lower dimensions from pure gravity in higher dimensions. This is the problem of _[[moduli stabilization]]_.
 
