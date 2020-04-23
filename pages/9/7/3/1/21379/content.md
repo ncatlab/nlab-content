@@ -2,7 +2,7 @@
 
 \section{Introduction}
 
-_Gravity and grace_ is a collection of aphorisms written, probably without intent of publication, by Simone Weil, assembled by Gustav Thibon. It contains a chapter 'Algebra', which we reproduce below.
+_Gravity and grace_ (_La pesanteur et la grâce_) is a collection of aphorisms written, probably without intent of publication, by [[Simone Weil]], assembled by Gustav Thibon and originally published in 1947. It contains a chapter 'Algebra', which we reproduce below.
 
 It is possible to read (part of) this as a criticism of [[formalism]] in mathematics, and as a musing on the importance of [[semantics]] ("the relation of the sign to the thing signified") in the [[foundations of mathematics]].
 
@@ -74,5 +74,11 @@ spirit and the world in this very civilisation of which we form a
 >
 >Question: can this emancipation, won by society, be
  transferred to the individual?
+
+\section{References}
+
+The text of the original French can be found in
+
+* _La Pesanteur et la grâce_ ([web](http://classiques.uqac.ca/classiques/weil_simone/pesanteur_et_grace/pesanteur_et_grace.html))
 
 [[!redirects Gravity and grace]]
