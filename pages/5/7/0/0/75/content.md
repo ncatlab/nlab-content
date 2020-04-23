@@ -115,6 +115,10 @@ It may seem on first sight that foundational questions in mathematics are remote
 
 * [[synthetic mathematics]]
 
+\section{Philosophical musings}
+
+* [[Gravity and grace]], Simone Weil.
+
 ## References
 
 * [[Bertrand Russell]], _[[Principia Mathematica]]_, 1910 
