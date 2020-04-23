@@ -282,7 +282,7 @@ $$Spec(G)(c) = [C, \mathcal{V}](G, C(c, -)) \hookrightarrow \int_{t: T} \mathcal
 
 ###Relation to Yoneda embedding
 
-$Spec$ is the [[left Kan extension]] of the [[Yoneda embedding]] along the contravariant Yoneda embedding, while \mathcal{O} is the left Kan extension of the contravariant Yoneda embedding along the Yoneda embedding. 
+$Spec$ is the [[left Kan extension]] of the [[Yoneda embedding]] along the contravariant Yoneda embedding, while $\mathcal{O}$ is the left Kan extension of the contravariant Yoneda embedding along the Yoneda embedding. 
 
 The [[codensity monad]] of the [[Yoneda embedding]] is isomorphic to the monad induced by the Isbell adjunction, $Spec \mathcal{O}$ ([Di Liberti 19, Thrm 2.7](#DiLiberti)).
 
@@ -591,6 +591,8 @@ More recent discussion is in
 
 * {#DL19} Ivan Di Liberti, [[Fosco Loregian]], _On the Unicity of Formal Category Theories_, arXiv:1901.01594 (2019). ([abstract](https://arxiv.org/abs/1901.01594))
 
+* {#DiLiberti} [[Ivan Di Liberti]], _Codensity: Isbell duality, pro-objects, compactness and accessibility_, ([arXiv:1910.01014](https://arxiv.org/abs/1910.01014))
+
 Isbell conjugacy for [[(∞,1)-presheaves]] over the [[(∞,1)-category]] of duals of [[dg-algebra]]s is discussed around page 32 of
 
 * [[David Ben-Zvi]], [[David Nadler]], _Loop spaces and connections_ ([arXiv:1002.3636](http://arxiv.org/abs/1002.3636))
@@ -607,7 +609,6 @@ A generalization of this latter to $\infty$-stacks over duals of [[algebra over 
 
 * {#Stel} [[Herman Stel]], _$\infty$-Stacks and their function algebras -- with applications to $\infty$-Lie theory_, master thesis (2010) ([[schreiber:master thesis Stel|web]])
 
-* {#DiLiberti} [[Ivan Di Liberti]], _Codensity: Isbell duality, pro-objects, compactness and accessibility_, ([arXiv:1910.01014](https://arxiv.org/abs/1910.01014))
 
 See also
 
