@@ -90,7 +90,7 @@ Historically, the word “space” is often (ab)used to mean ∞-groupoid, due t
 
 The term “homotopy type” is also quite close in meaning to “∞-groupoid”.  Historically, it differed in that morphisms of homotopy types were mere homotopy classes of maps of ∞-groupoids, but more recently (especially with the advent of [[homotopy type theory]] some have used "homotopy type" synonymously with "$\infty$-groupoid".
 
-More radically, [[Dustin Clausen]] and [[Peter Scholze]] use the term “anima” (plural: anima), in particular in relation to [[condensed mathematics]].  Reference: [nCafe](https://golem.ph.utexas.edu/category/2020/03/pyknoticity_versus_cohesivenes.html#c057623).  In
+More radically, [[Dustin Clausen]] and [[Peter Scholze]] use the term “anima” (plural: anima) as a synonym for $\infty$-groupoid, in particular in relation to [[condensed mathematics]].  Reference: [nCafe](https://golem.ph.utexas.edu/category/2020/03/pyknoticity_versus_cohesivenes.html#c057623).  In
 _Purity for flat cohomology_ by
 Kęstutis Česnavičius and Peter Scholze they write
 “If the objects of $C$ are called widgets, then we call those of $Ani(C)$ animated widgets, except that we abbreviate $Ani(Set)$ to $Ani$ and the term ‘animated set’ to anima (plural: anima).”
