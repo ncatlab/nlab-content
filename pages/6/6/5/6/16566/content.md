@@ -44,7 +44,7 @@ Maietti ([05](#Maetti05),[10](#Maetti10)) proposed that list-arithmetic pretopos
 
 * {#Cockett97} [[Robin Cockett]], _Finite objects in a locos_, JPAA **116** (1997) pp.169-183.
 
-* {#vanDijkOldenziel20} Joost vaan Dijk, Alexander Gietelink Oldenziel, _Gödel's Incompleteness after Joyal_ , arXiv:2004.10482 (2020). ([abstract](https://arxiv.org/abs/2004.10482))
+* {#vanDijkOldenziel20} Joost van Dijk, Alexander Gietelink Oldenziel, _Gödel's Incompleteness after Joyal_ , arXiv:2004.10482 (2020). ([abstract](https://arxiv.org/abs/2004.10482))
 
 * {#Joyal05} [[André Joyal]], _The G&#246;del incompleteness theorem, a categorical approach_ , (abstract) Amiens 2005, Cah. Top. G&#233;om. Diff. Cat. **46** no.3 (2005) p.202. ([numdam](http://www.numdam.org/item/CTGDC_2005__46_3_163_0))
 
