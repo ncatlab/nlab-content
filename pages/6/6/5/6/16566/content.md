@@ -26,7 +26,7 @@ Using the (equivalent) definition given in [Cockett 1990](#Cockett90), a **param
 
 Discussion via its [[internal language]], which is a [[dependent type theory]]... ([Maietti 05](#Maietti05), [Maietti 10, p.6](#Maietti10)).
 
-Maietti ([05](#Maetti05),[10](#Maetti10)) proposed that list-arithmetic pretoposes serve as the **arithmetic universes** that [[André Joyal]] (cf. [Joyal 05](#Joyal05)) once suggested to use for discussion of [[incompleteness theorems]]; they are used directly as the definition of arithmetic universes e.g. in ([Maietti-Vickers 2012](#MaiettiVickers12)).
+Maietti ([05](#Maetti05),[10](#Maetti10)) proposed that list-arithmetic pretoposes serve as the **arithmetic universes** that [[André Joyal]] (cf. [Joyal 05](#Joyal05)) once suggested to use for discussion of [[incompleteness theorems]] (cf. [van Dijjk/Oldenziel 2020](#VanDijkOldenziel)); they are used directly as the definition of arithmetic universes e.g. in ([Maietti-Vickers 2012](#MaiettiVickers12)).
 
 ## Related entries
 
@@ -43,6 +43,8 @@ Maietti ([05](#Maetti05),[10](#Maetti10)) proposed that list-arithmetic pretopos
 * {#Cockett90} [[Robin Cockett]], _List-arithmetic distributive categories: Locoi_, JPAA **66** no.1 (1990) pp.1-29.
 
 * {#Cockett97} [[Robin Cockett]], _Finite objects in a locos_, JPAA **116** (1997) pp.169-183.
+
+* {#vanDijkOldenziel20} Joost vaan Dijk, Alexander Gietelink Oldenziel, _Gödel's Incompleteness after Joyal_ , arXiv:2004.10482 (2020). ([abstract](https://arxiv.org/abs/2004.10482))
 
 * {#Joyal05} [[André Joyal]], _The G&#246;del incompleteness theorem, a categorical approach_ , (abstract) Amiens 2005, Cah. Top. G&#233;om. Diff. Cat. **46** no.3 (2005) p.202. ([numdam](http://www.numdam.org/item/CTGDC_2005__46_3_163_0))
 
