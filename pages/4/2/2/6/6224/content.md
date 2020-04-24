@@ -41,7 +41,7 @@ Thus, central series are "witnesses" to nilpotency: a group is nilpotent if and 
 If we "expand out" the inductive definition of central series, and use the [[isomorphism theorems]], we see that it consists of a sequence of central extensions
 $$ 1 \to G_1 \to G \to G/G_1 \to 1 $$
 $$ 1 \to G_2/G_1 \to G/G_1 \to G/G_2 \to 1$$
-$$ 1 \to G_3/G_2 \to G/G_2 \to G/G_2 \to 1$$
+$$ 1 \to G_3/G_2 \to G/G_2 \to G/G_3 \to 1$$
 $$ \dots $$
 $$ 1 \to G/G_{n-1} \to G/G_{n-1} \to 1 \to 1$$
 and therefore a sequence of [[normal subgroups]]
