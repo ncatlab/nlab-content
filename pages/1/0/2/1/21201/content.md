@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -7,7 +18,9 @@
 
 In the [[effective field theory]] [[sigma-model|sigma-]][[model (in theoretical physics)|models]] for [[Goldstone bosons]] (such as [[mesons]] in [[chiral perturbation theory]] of [[QCD]]) the [[global symmetry]] (e.g. [[chiral symmetry]]) may typically be enhanced by a "hidden" [[local gauge symmetry]] that exhibits the Goldstone bosons as [[gauge fields]] of a ([[flavour (particle physics)|flavour]]) [[gauge theory]].
 
-In [[intersecting D-brane models]], such as in [[holographic QCD]], this is [[geometric engineering of QFT|geometrically brought out]] by [[open strings]] ending on "flavor branes" instead of "color branes".
+In [[chiral perturbation theory]], the [[gauge bosons]] of the hidden local [[chiral symmetry]] are identified with the [[mesons]]. The [[minimal coupling]] of these two the [[baryons]] yields the _[[vector meson dominance]]_-model of [[quantum hadrodynamics]].
+
+In [[intersecting D-brane models]], such as in [[holographic QCD]], this is [[geometric engineering of QFT|geometrically brought out]] by [[open strings]] ending on "[[flavor branes]]" instead of "[[color branes]]".
 
 
 ## Properties
