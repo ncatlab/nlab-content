@@ -16,6 +16,8 @@ Ultracategories are [[categories]] with [[extra structure]], called an _ultrastr
 
 * {#Makkai87} [[Mihaly Makkai]], _Stone duality for first-order logic_, Adv. Math. __65__ (1987) no. 2, 97--170, [doi](http://dx.doi.org/10.1016/0001-8708%2887%2990020-X),  [MR89h:03067](http://www.ams.org/mathscinet-getitem?mr=900266)
 
+* Marek W. Zawadowski, _Descent and duality_, Annals of Pure and Applied Logic __71__, n.2 (1995), 131&#8211;188
+
 * {#Lurie} [[Jacob Lurie]], _Ultracategories_, ([pdf](http://www.math.harvard.edu/~lurie/papers/Conceptual.pdf))
 
 For a [[2-monad|2-monadic]] treatment of ultracategories, see
