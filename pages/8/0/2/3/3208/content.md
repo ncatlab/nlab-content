@@ -241,6 +241,9 @@ In [[Coq]] theories are specified with the
 
 [[!redirects theories]]
 
+[[!redirects logical theory]]
+[[!redirects logical theories]]
+
 [[!redirects theory (logic)]]
 
 
