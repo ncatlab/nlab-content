@@ -26,7 +26,7 @@ In other words, a locally small category is a $Set$-category, i.e. a category [[
 
 If [[Grothendieck universe]]s are used to handle [[size issues]], then one speaks of a **locally $U$-small** category if all [[hom-set|hom-sets]] are elements of $U$, or of a $U\Set$-category or simply of a $U$-category.
 
-Compare with [[small category]]; a category is **small** if it is locally small and its set of objects is also a set.  (Some care must be taken if you want this definition to be non-[[evil]].)
+Compare with [[small category]]; a category is **small** if it is locally small and its set of objects is also a set.  (Some care must be taken if you want this definition to be [[principle of equivalence|equivalence-invariant]].)
 
 
 ## Remarks
