@@ -171,6 +171,7 @@ If the Yoneda embedding of a category has a [[left adjoint]], then that category
 * [[restricted Yoneda embedding]]
 * [[(infinity,1)-Yoneda embedding]]
 * [[singleton]] injection, the Yoneda embedding for 0-category theory.
+* [[Yoneda lemma for bicategories]]
 
 ## References
 
