@@ -54,4 +54,12 @@ See the references at _[[chiral perturbation theory]]_
 [[!include WZW term of QCD chiral perturbation theory -- references]]
 
 
+[[!include baryon chiral perturbation theory -- references]]
+
+
+
+
+
+
+
 
