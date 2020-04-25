@@ -69,7 +69,7 @@ As part of a possible solution to the [[confinement]]/[[mass gap]]-problem:
 
 ### Relation to heterotic string theory
 
-The _gauge solution_ of the [[NS5-brane]] in [[heterotic string theory]] contains a [[gauge field]] on the transverse space $\mathbb{R}^4$ which is a [[BPTS-instanton]]. Then, if we consider an array of [[NS5-brane]]s at fixed distance along the circle of a compactified transverse space $\mathbb{R}^3\times S^1$, we obtain a Harrington-Shepard [[caloron]]. If we send the radius to zero $R\rightarrow 0$ we obtain a smeared [[NS5-brane]] in [[heterotic string theory]].
+The _gauge solution_ of the [[NS5-brane]] in [[heterotic string theory]] contains a [[gauge field]] on the transverse space $\mathbb{R}^4$ which is a [[BPTS-instanton]]. Then, if we consider an array of [[NS5-brane]]s at fixed distance along the circle of a compactified transverse space $\mathbb{R}^3\times S^1$, we obtain a Harrington-Shepard [[caloron]] (see e.g. [SasYat16, pag.12](#SasakiYata16)). If we send the radius to zero $R\rightarrow 0$ we obtain a smeared [[NS5-brane]] in [[heterotic string theory]].
 
 ## History
 
@@ -138,6 +138,10 @@ Discussion as part of a solution to the [[confinement]]/[[mass gap]]-problem:
 * {#LarsenShuryak14}  Rasmus Larsen, [[Edward Shuryak]], _Classical interactions of the instanton-dyons with antidyons_, Nucl. Phys. A **950**, 110 (2016) ([arXiv:1408.6563](https://arxiv.org/abs/1408.6563))
 
 * {#LarsenShuryak15} Rasmus Larsen, [[Edward Shuryak]], _Interacting Ensemble of the Instanton-dyons and Deconfinement Phase Transition in the SU(2) Gauge Theory_, Phys. Rev. D 92, 094022, 2015 ([arXiv:1504.03341](https://arxiv.org/abs/1504.03341))
+
+### Relation to NS5-brane in heterotic string theory
+
+* {#SasakiYata16} Shin Sasaki and Masaya Yata, _Non-geometric five-branes in heterotic supergravity_,  JHEP **1611**, 064, 2016 ([arXiv:1608.01436](https://arxiv.org/abs/1608.01436))
 
 See also
 
