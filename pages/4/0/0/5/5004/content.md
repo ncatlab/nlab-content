@@ -5,7 +5,7 @@
 
 ## Idea
 
-Relational structures are models for a relational theory, that is, a logical theory whose [[signature (in logic)|signature]] is **relational**.
+Relational structures are [[models]] for a [[relational theory]], that is, a [[logical theory]] whose [[signature (in logic)|signature]] is **relational**.
 
 +-- {: .un_defn}
 ###### Definition
@@ -28,6 +28,18 @@ In their use in the Kripke semantics of [[modal logics]], the set $W$ is sometim
 
 5. a set $W$ with, on it, an equivalence relation, $\sim$, or, more generally, a family of equivalence relations, $\sim_i$, for $i$ in some indexing set.
 
+## References 
 
-[[!redirects relational structure]]
+See also
+
+* Wikipedia, _[Relational theory](https://en.m.wikipedia.org/wiki/Relational_theory)_
+
+
+
+
 [[!redirects relational structures]]
+
+[[!redirects relational theory]]
+[[!redirects relational theories]]
+
+
