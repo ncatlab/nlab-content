@@ -67,6 +67,10 @@ As part of a possible solution to the [[confinement]]/[[mass gap]]-problem:
 
 > The caloron idea is probably the most promising current version of [[monopole]] [[confinement]] in pure non-abelian gauge theories, but it is  basically  (in certain [[gauge fixing|gauges]]) a superposition of [[monopoles]] with spherically  symmetric abelian fields, and this leads to the same questions raised in connection with monopole Coulomb gases.
 
+### Relation to heterotic string theory
+
+The _gauge solution_ of the [[NS5-brane]] in [[heterotic string theory]] contains a [[gauge field]] on the transverse space $\mathbb{R}^4$ which is a [[BPTS-instanton]]. Then, if we consider an array of [[NS5-brane]]s at fixed distance along the circle of a compactified transverse space $\mathbb{R}^3\times S^1$, we obtain a Harrington-Shepard [[caloron]]. If we send the radius to zero $R\rightarrow 0$ we obtain a smeared [[NS5-brane]] in [[heterotic string theory]].
+
 ## History
 
 The paper [Harrington-Shepard 1978](#Harrington-Shepard_78) considers the contribution from periodic solutions at _positive, finite_ temperature to the [[Yang-Mills equations]] to the action of a 'Yang-Mills gas': an equilibrium ensemble of YM fields. They give explicit solutions to the classical equations of motion 'of charge 1' i.e. representing a generator in the [[homotopy group]] classifying topologically inequivalent solutions. 
@@ -78,9 +82,12 @@ The paper [Harrington-Shepard 1978](#Harrington-Shepard_78) considers the contri
 
 * [[instanton]], [[soliton]], [[vortex]]
 
+* [[thermal field theory]]
+
 * [[caloron correspondence]]
 
 * [[Nahm transform]]
+
 
 ## References
 
