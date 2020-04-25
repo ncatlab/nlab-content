@@ -122,6 +122,9 @@ Other references include
 
 * [[Joachim Lambek|J. Lambek]], B. A. Rattray, _Localization and Codensity Triples_ , Comm. Algebra **1** (1974) pp.145-164.
 
+* [[Jiří Adámek]], [[Lurdes Sousa]], _D-Ultrafilters and their Monads_, ([arXiv:1909.04950](https://arxiv.org/abs/1909.04950))
+
+* [[Andrei Sipos]], _Codensity and Stone spaces_, ([arXiv:1409.1370](https://arxiv.org/abs/1409.1370))
 
 [[!redirects codensity monads]]
 [[!redirects density comonad]]
