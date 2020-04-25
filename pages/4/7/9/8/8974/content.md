@@ -1,6 +1,23 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
+
+## Idea 
+
+(...)
 
 ## Functional programming languages
 
