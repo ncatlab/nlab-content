@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -72,6 +71,8 @@ A covariant formalization of thermodynamics in terms of [[moment maps]] in [[sym
 
 * [[Patrick Iglesias-Zemmour]], _Essai de «thermodynamique rationnelle» des milieux continus_, Annales de l'I.H.P. Physique théorique, Volume 34 (1981) no. 1,  p. 1-24 ([numdam:AIHPA_1981__34_1_1_0](http://www.numdam.org/item/AIHPA_1981__34_1_1_0))
 
+* [[Jean-Marie Souriau]], J.-M. Mécanique statistique, groupes de Lie et cosmologie. In Colloques int. du CNRS; numéro 237; Aix-en-Provence, France, 1974; pp. 24–28, 59–113. English translation by F. Barbaresco, April, 2020. Available online: https://www.academia.edu/42630654/Statistical_Mechanics_Lie_Group_and_Cosmology_1_st_part_Symplectic_Model_of_Statistical_Mechanics(access on 20 April 2020)
+
 Review includes
 
 * {#Marle16} Charles-Michel Marle, _From tools in symplectic and Poisson geometry to Souriau's theories of statistical mechanics and thermodynamics_, Entropy 2016, 18(10), 370 ([arXiv:1608.00103](https://arxiv.org/abs/1608.00103))
@@ -80,6 +81,8 @@ Review includes
 The Souriau model of thermodynamics has been extented for "geometric science of information" (Koszul information geometry) with a general definition of [[Fisher metric]], Euler-Poincar&#233; equation and variational definition of Souriau thermodynamics, as in:
 
 * Frederic Barbaresco, _Koszul information geometry and Souriau geometric, temperature_, Capacity of Lie Group Thermodynamics, MDPI Entropy, n&#176;16,  4521-4565 (2014) [pdf](http://www.mdpi.com/1099-4300/16/8/4521/pdf); _Symplectic structure of information geometry: Fisher metric and Euler-Poincar&#233; equation of Souriau Lie group thermodynamics_, GSI'15, Springer LCNS __9389__, 529-540 (2015) [doi](https://doi.org/10.1007/978-3-319-25040-3_57) 
+
+* Barbaresco, F.; Gay-Balmaz, F. Lie Group Cohomology and (Multi)Symplectic Integrators: New Geometric Tools for Lie Group Machine Learning Based on Souriau Geometric Statistical Mechanics. Entropy 2020, 22, 498. https://www.mdpi.com/1099-4300/22/5/498
 
 * {#Amari87} Shun-ichi Amari, Chapter 2: _Differential Geometrical Theory of Statistics_ in _Differential geometry in statistical inference_, Institute of Mathematical Statistics Lecture Notes - Monograph Series 1987, 19-94 ([euclid:1215467059](https://projecteuclid.org/euclid.lnms/1215467059))
 
