@@ -37,7 +37,7 @@ See the references at _[[chiral perturbation theory]]_
 
 ### General
 
-* [[Brian Serot]], _Quantum hadrodynamics_, Reports on Progress in Physics, Volume 55, Number 11 (1992) ([https://doi.org/10.1088/0034-4885/55/11/001](https://doi.org/10.1088/0034-4885/55/11/001))
+* [[Brian Serot]], _Quantum hadrodynamics_, Reports on Progress in Physics, Volume 55, Number 11 (1992) ([doi:10.1088/0034-4885/55/11/001](https://doi.org/10.1088/0034-4885/55/11/001))
 
 
 * [[Maciej Nowak]], [[Mannque Rho]], [[Ismail Zahed]], _[[Chiral Nuclear Dynamics]]_,  World Scientific 1996 ([doi:10.1142/1681](https://doi.org/10.1142/1681))
