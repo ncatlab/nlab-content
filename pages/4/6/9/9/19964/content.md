@@ -265,6 +265,11 @@ Review:
 
 * {#RhoZahed16} [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
+See also
+
+* Wikipedia, _[Skyrmion](https://en.wikipedia.org/wiki/Skyrmion)_
+
+
 Further development:
 
 * {#Manton11} [[Nicholas Manton]], _Classical Skyrmions -- Static Solutions and Dynamics_, Mathematical Methods in the applied Sciences, Volume35, Issue10, 2012, Pages 1188-1204 ([arXiv:1106.1298](https://arxiv.org/abs/1106.1298), [doi:10.1002/mma.2512]( https://doi.org/10.1002/mma.2512))
@@ -286,14 +291,20 @@ Further development:
 
 * T. Gisiger, M. B. Paranjape, _Skyrmion-Skyrmion Scattering_ ([arXiv:hep-th/9310050](https://arxiv.org/abs/hep-th/9310050))
 
+Mathematical discussion in [[differential geometry]]:
+
+* Christian Gross, _Differential Forms on the Skyrmion Bundle_, In: Antoine JP., Ali S.T., Lisiecki W., Mladenov I.M., Odzijewicz A. (eds.) _Quantization, Coherent States, and Complex Structures_, Springer 1995 ([doi:10.1007/978-1-4899-1060-8_7](https://doi.org/10.1007/978-1-4899-1060-8_7))
+
+and in [[algebraic topology]]:
+
+* Christian Gross, _Topology of the skyrmion bundle_, Journal of Mathematical Physics 36, 4406 (1995) ([doi:10.1063/1.530899](https://doi.org/10.1063/1.530899))
+
 Relation to the [[complex Hopf fibration]]:
 
 * {#GudnasonNitta20} Sven Bjarke Gudnason, [[Muneto Nitta]], _Linking number of vortices as baryon number_ ([arXiv:2002.01762](https://arxiv.org/abs/2002.01762), [spire:1778698/](http://inspirehep.net/record/1778698/))
 
 
-See also
 
-* Wikipedia, _[Skyrmion](https://en.wikipedia.org/wiki/Skyrmion)_
 
 Further resources
 
