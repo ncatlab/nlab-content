@@ -242,6 +242,10 @@ Review:
 
 > The [[large N limit|1/N expansion]] of [[QCD]], as understood from [[Feynman diagrams]], is the road map which makes the success of  [[Skyrmion]] physics rationally comprehensible.
 
+
+* [[Eric D'Hoker]], Edward Farhi, _The Proton as a Topological Twist: A model of elementary particles, without reference to quarks, contains topological structures whose properties match experimental observations remarkably well_, American Scientist Vol. 73, No. 6 (November-December 1985), pp. 533-540 ([jstor:27853483](https://www.jstor.org/stable/27853483))
+
+
 * {#BrownRho88} G. E. Brown, [[Mannque Rho]], _The Chiral Bag_, Comments Nucl. Part. Phys. 18 (1988) no.1, 1-29 ([spire:18025](http://inspirehep.net/record/18025))
 
   (in relation to the [[bag model of quark confinement]])
