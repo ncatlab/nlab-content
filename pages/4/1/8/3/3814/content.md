@@ -270,7 +270,7 @@ Further review and outlook:
 
 Review specifically with an eye towards [[grand unified theory]] is in
 
-* {#BaezHuerta09} [[John Baez]], [[John Huerta]], _The Algebra of Grand Unified Theories_, Bull.Am.Math.Soc.47:483-552,2010 ([arXiv:0904.1556](http://arxiv.org/abs/0904.1556))
+* {#BaezHuerta09} [[John Baez]], [[John Huerta]], _The Algebra of Grand Unified Theories_, Bull. Am. Math. Soc. 47:483-552, 2010 ([arXiv:0904.1556](http://arxiv.org/abs/0904.1556))
 
 and specificlly with an eye towards [[intersecting D-brane models]] in
 
