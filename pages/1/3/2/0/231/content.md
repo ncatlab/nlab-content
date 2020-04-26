@@ -30,7 +30,9 @@ For any monoidal category $M$, the operation of tensor product is actually a [[f
 
 $$\otimes : M \times M \to M$$
 
-This functor, which we can think of as a kind of 'multiplication', makes $M$ into a [[vertical categorification|vertically categorified]] version of a [[monoid]].  This explains the term 'monoidal category'.
+This functor, which we can think of as a kind of 'multiplication', makes $M$ into a [[vertical categorification|vertically categorified]] version of a [[monoid]].  This explains the term 'monoidal category'. 
+
+A monoidal category can also be considered a one-object [[bicategory]]. See there for more details. 
 
 
 ## Definition
