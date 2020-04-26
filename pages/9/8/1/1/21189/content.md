@@ -238,14 +238,18 @@ See also
 
 On [[chiral perturbation theory]] including [[leptons]]:
 
-* [[Eric D'Hoker]], Edward Farhi, _The decay of the skyrmion_, Physics Letters B Volume 134, Issues 1–2, 5 January 1984, Pages 86-90 (<a href="https://doi.org/10.1016/0370-2693(84)90991-2">doi:10.1016/0370-2693(84)90991-2</a>)
-
 
 
 * M. Knecht, [[Helmut Neufeld]], H. Rupertsberger, P. Talavera, _Chiral Perturbation Theory with Virtual Photons and Leptons_, Eur. Phys. J. C12:469-478, 2000 ([arXiv:hep-ph/9909284](https://arxiv.org/abs/hep-ph/9909284))
 
 
 * [[Helmut Neufeld]], _Chiral Perturbation Theory with Photons and Leptons_, PiN Newslett. 15:189-192, 1999 ([arXiv:hep-ph/9912462](https://arxiv.org/abs/hep-ph/9912462))
+
+Specifically in relation to the [[Skyrme model]]:
+
+* [[Eric D'Hoker]], Edward Farhi, _The decay of the skyrmion_, Physics Letters B Volume 134, Issues 1–2, 5 January 1984, Pages 86-90 (<a href="https://doi.org/10.1016/0370-2693(84)90991-2">doi:10.1016/0370-2693(84)90991-2</a>)
+
+
 
 
 
