@@ -66,6 +66,9 @@ Of [[charmonium]]:
 * _Study of the Dalitz decay $J/\psi \to e^+e^- \eta$_, Phys. Rev. D 99, 012006 (2019) ([arXiv:1810.03091](https://arxiv.org/abs/1810.03091))
 
 
+* Li-Min Gu, Hai-Bo Li, Xin-Xin Ma, Mao-Zhi Yang, _Study of the electromagnetic Dalitz decays ψ(Υ)→ηc(ηb)l+l−_ ([arXiv:1904.06085](https://arxiv.org/abs/1904.06085))
+
+
 
 
 [[!redirects Dalitz decays]]
