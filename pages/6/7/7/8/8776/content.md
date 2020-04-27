@@ -207,6 +207,8 @@ General discussion includes
 
 * [[Katrin Becker]], [[Melanie Becker]], Daniel Butter, [[William Linch III]], Stephen Randall, _Five-dimensional Supergravity in N = 1/2 Superspace_ ([arXiv:1909.09208](https://arxiv.org/abs/1909.09208))
 
+* Edoardo Lauria, [[Antoine Van Proeyen]], _$\mathcal{N}=2$ Supergravity in $D=4,5,6$ Dimensions_ ([arXiv:2004.11433](https://arxiv.org/abs/2004.11433))
+
 
 ### Via M-theory on Calabi-Yau 3-folds
 
