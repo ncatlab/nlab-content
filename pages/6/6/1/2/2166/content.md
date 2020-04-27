@@ -1,20 +1,33 @@
 
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 # Hypercomplex numbers
 * table of contents
 {: toc}
 
 ## Idea
 
-A __hypercomplex number system__ is an finite-dimensional [[nonassociative algebra|algebra]] over the field $\mathbb{R}$ of [[real numbers]].  A __hypercomplex number__ is an element of one of these algebras.
+A __hypercomplex number system__ is a [[finite-dimensional vector space|finite-dimensional]] [[nonassociative algebra|algebra]] over the [[field]] $\mathbb{R}$ of [[real numbers]].  A __hypercomplex number__ is an [[element]] of one of these algebras.
 
 
 ## Examples by dimension
 
-*  There is [[the|only one]] hypercomplex number system of dimension $0$, of course.
+*  There is [[the|only one]] hypercomplex number system of [[dimension]] $0$, of course.
 
 *  There is also only one hypercomplex number system of dimension $1$, which is $\mathbb{R}$ itself.
 
-*  Up to isomorphism, there are three hypercomplex number systems of dimension $2$, each of which is a [[commutative algebra]].  Since they each have one nontrivial [[automorphism]] (an [[involution]] called _conjugation_), there are only $3/2$ of these algebras by [[groupoid cardinality]].  Given the rule
+*  Up to [[isomorphism]], there are three hypercomplex number systems of dimension $2$, each of which is a [[commutative algebra]].  Since they each have one nontrivial [[automorphism]] (an [[involution]] called _conjugation_), there are only $3/2$ of these algebras by [[groupoid cardinality]].  Given the rule
    $$ e^2 = a + b e $$
    (for $a, b$ fixed real numbers), the algebra $\mathbb{R}[e]$ may be identified as one of these three cases by the sign of $b^2 - 4 a$.  They are:
    *  the [[complex numbers]] (elliptic case, $b^2 - 4 a \gt 0$),
