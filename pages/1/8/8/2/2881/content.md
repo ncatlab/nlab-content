@@ -48,8 +48,11 @@ If $H\rightarrowtail G$ is a localic subgroup, we construct its closure $\bar{H}
 
 * The [[Elephant]], chapter C5.
 
-* Isbell, K&#345;i&#382;, Pultr and Rosick&#253;, _Remarks on Localic Groups_
- {#IKPR}
+* [[John Isbell]], [[Igor Křiž]], [[Aleš Pultr]], [[Jiři Rosický]], _Remarks on Localic Groups_, Lecture Notes in Mathematics 1348 (1988), pp. 154-172: [doi](https://doi.org/10.1007/bfb0081357)
+{#IKPR}
 
+An expository account of the closed subgroup theorem can be found in
+
+* [[Gavin Wraith]], [_The Closed Subgroup Theorem_](http://www.wra1th.plus.com/gcw/math/closed.html)
 
 [[!redirects localic groups]]
