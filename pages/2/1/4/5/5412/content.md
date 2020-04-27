@@ -22,7 +22,7 @@
 
 For $\mathcal{T}$ a [[topos]] and $X \in \mathcal{T}$ any [[object]] the [[over category]] $\mathcal{T}/X$ -- the **slice topos** or **over-topos** -- is itself a topos: the "big [[little topos]]" incarnation of $X$.  This fact is sometimes called the "Fundamental Theorem of Topos Theory".
 
-More generally, given a [[fibred product]]-preserving functor $u : E \to F$ between [[toposes]], the [[comma category]] $(id_F/u)$ is again a [[topos]], called the [[Artin gluing]]. 
+More generally, given a functor $u : E \to F$ between [[toposes]] that preserves [[finite limits]], the [[comma category]] $(id_F/u)$ is again a [[topos]], called the [[Artin gluing]]. 
 
 ## Definition / Existence
  {#Definition}
@@ -429,7 +429,7 @@ The claim then follows with the assumption that $\mathcal{E}$ has enough points.
 
 * {#SGA4}[[Michael Artin]], [[Alexander Grothendieck]], [[Jean-Louis Verdier]], _Théorie des Topos et Cohomologie Etale des Schémas ([[SGA4]])_, Springer **LNM** vol.269 (1972). (In particular, exposé III.5 and exposé IV.5 on the "induced topos" - _topos induit_ = slice topos)
 
-* {#KS06} [[Masaki Kashiwara]], [[Pierre Schapira]], _Categories and Sheaves_ , Springer Heidelberg 2006.
+* {#KS06} [[Masaki Kashiwara]], [[Pierre Schapira]], _Categories and Sheaves_, Springer Heidelberg 2006.
 
 * {#MacLaneMoerdijk} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (Especially section IV.7)
 
