@@ -76,7 +76,7 @@ For a 2-dimensional analogue see the slides from a 2010 talk by Makkai: [pdf](ht
 
 A formal-categorical account using [[Yoneda structure|Yoneda structures]] can be found in
 
-* {#DL18} Ivan Di Liberti, [[Fosco Loregian]], _Accessibility and Presentability in 2-Categories_ , arXiv:1804.08710 (2018). ([abstract](https://arxiv.org/abs/1804.08710))
+* {#DL18} [[Ivan Di Liberti]], [[Fosco Loregian]], _Accessibility and Presentability in 2-Categories_ , ([arXiv:1804.08710](https://arxiv.org/abs/1804.08710))
 
 For a discussion of Gabriel--Ulmer duality and related dualities in the context of [[enriched category theory]] see 
 
