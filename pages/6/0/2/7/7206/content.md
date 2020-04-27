@@ -78,7 +78,7 @@ The role of 2-form fields (tensor multiplets, via the [[4d supergravity Lie 2-al
 
 * [[José de Azcárraga]], J. M. Izquierdo, _Minimal $D=4$ supergravity from the superMaxwell algebra_, Nucl. Phys. B 885, 34-45 (2014) ([arXiv:1403.4128](https://arxiv.org/abs/1403.4128))
 
-* {#AndrianopoliDAuriaSommovigo07} [[Laura Andrianopoli]], [[Riccardo D'Auria]], Luca Sommovigo, _$D=4$, $N=2$ Supergravity in the Presence of Vector-Tensor Multiplets and the Role of higher p-forms in the Framework of Free Differential Algebras_ ([arXiv:0710.3107](http://arxiv.org/abs/0710.3107))
+* {#AndrianopoliDAuriaSommovigo07} [[Laura Andrianopoli]], [[Riccardo D'Auria]], Luca Sommovigo, _$D=4$, $N=2$ Supergravity in the Presence of Vector-Tensor Multiplets and the Role of higher $p$-forms in the Framework of Free Differential Algebras_ ([arXiv:0710.3107](http://arxiv.org/abs/0710.3107))
 
 * {#AAST11} [[Laura Andrianopoli]], [[Riccardo D'Auria]], Luca Sommovigo, Mario Trigiante, _$D=4$, $N=2$ Gauged Supergravity coupled to Vector-Tensor Multiplets_, Nucl.Phys.B851:1-29,2011 ([arXiv:1103.4813](http://arxiv.org/abs/1103.4813))
 
@@ -191,8 +191,12 @@ following the proposal towards the end of
 
 ### On $N = 2$, $d = 4$ supergravity
 
-* L. Andrianopoli, M. Bertolini, A. Ceresole, [[Riccardo D'Auria]], S. Ferrara,
-[[Pietro Fré]], T. Magri. _$N = 2$ supergravity and $N = 2$ super Yang-Mills theory on general scalar manifolds: Symplectic covariance, gaugings and the momentum map_. J. Geom. Phys. 23, 111&#8211;189, 1997 ([arXiv:hep-th/9605032](https://arxiv.org/abs/hep-th/9605032))
+More on the case [[number of supersymmetries|N=2]]:
+
+* [[Laura Andrianopoli]], M. Bertolini, A. Ceresole, [[Riccardo D'Auria]], [[Sergio Ferrara]], [[Pietro Fré]], T. Magri, _$N = 2$ supergravity and $N = 2$ super Yang-Mills theory on general scalar manifolds: Symplectic covariance, gaugings and the momentum map_. J. Geom. Phys. 23, 111&#8211;189, 1997 ([arXiv:hep-th/9605032](https://arxiv.org/abs/hep-th/9605032))
+
+* Edoardo Lauria, [[Antoine Van Proeyen]], _$\mathcal{N}=2$ Supergravity in $D=4,5,6$ Dimensions_ ([arXiv:2004.11433](https://arxiv.org/abs/2004.11433))
+
 
 
 ### On $N=1$ $d = 4$ supergravity
