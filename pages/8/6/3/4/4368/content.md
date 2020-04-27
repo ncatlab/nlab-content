@@ -54,6 +54,8 @@ $$
 
 For instance, in the [[truth value]]-enriched case, the duality is between [[meet semilattices]] and [[algebraic lattices]]. 
 
+Gabriel-Ulmer duality is a duality exhibited by the 2-[[Chu construction]], $Chu(Cat,Set)$.
+
 ## References
 
 The original source is:
