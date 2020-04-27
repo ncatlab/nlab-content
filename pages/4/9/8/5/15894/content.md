@@ -39,7 +39,7 @@ This page is to provide non-technical or maybe semi-technical discussion of the 
 
 ### What is homotopy type theory?
 
-#### For laymen
+#### For the person on the street
 
 (...)
 
@@ -71,7 +71,7 @@ When one proves something in [[ZF]], it is automatically also true in all [[forc
 ### Why should I care?
  {#WhyShouldICare}
 
-#### For laymen
+#### For the person on the street
 
 #### For set theorists
  {#WhyShouldICareForSetTheorists}
@@ -102,7 +102,7 @@ It seems rather plausible that this is just a simple first example of a future w
 ### What role does the univalence axiom play?
  {#WhatRoleDoesTheUnivalenceAxiomPlay}
 
-#### For laymen
+#### For the person on the street
 
 The [[axiom]] of [[univalence]] may be thought of as a [[formal logic|formalization]] of what might be called the _[[principle of equivalence]]_ of [[mathematics]], which is the basic but important idea that [[mathematical structures]] which are [[equivalence|equivalent]] should behave the same, satisfy the same theorems and so forth.
 
