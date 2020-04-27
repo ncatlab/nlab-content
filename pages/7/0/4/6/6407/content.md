@@ -21,6 +21,8 @@ Not every noncommutative integral domain can be embedded at all into a division 
 
 * [[sheaf of rational functions]]
 
+* [[localization]]
+
 [[!redirects fields of fractions]]
 
 [[!redirects quotient field]]
