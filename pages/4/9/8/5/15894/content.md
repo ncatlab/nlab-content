@@ -203,4 +203,8 @@ If one wishes to prove statements that hold only in some class of $\infty$-topos
 ### Can $(\infty,1)$-categories be defined in homotopy type theory?
 
 
+## Related articles
+
+* [[homotopy theory FAQ]]
+
 [[!redirects HoTT FAQ]]
