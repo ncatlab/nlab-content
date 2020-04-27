@@ -75,6 +75,8 @@ This produces [[baryon]] [[mass]] spectra with moderate quantitative agreement w
 
 * [[skyrmion]]
 
+* [[baryon-lepton symmetry]]
+
 ## References
 
 ### General
