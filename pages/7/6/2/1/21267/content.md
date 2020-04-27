@@ -60,7 +60,7 @@ See the [section on models](#models) for more details about models.
 * [[Spectra]] or [[stable homotopy types]].
 Specific [models](#models) include [[sequential spectra]] or [[symmetric spectra]] (valued in [[simplicial sets]] or [[topological spaces]]), [[orthogonal spectra]], [[reduced excisive functors]], etc.
 
-* [[∞-categories]], also known as [[(∞,1)-categories]], [[homotopy theories]], and other names.
+* [[∞-categories]], also known as [[(∞,1)-categories]], [[homotopy theories]], etc.
 Specific [models](#models) include [[relative categories]], [[quasicategories]], [[simplicial categories]], [[Segal categories]], [[complete Segal spaces]], etc.
 See the [section on ∞-categories](#infinity) for more information.
 
@@ -173,7 +173,7 @@ For example, if we [model](#models) homotopy spaces
 by [[simplicial sets]] with [[simplicial weak equivalences]],
 then we can consider categories enriched in [[simplicial sets]],
 equipped with [[Dwyer–Kan equivalences]],
-which are [[enriched functors]] that induced a [[simplicial weak equivalence]]
+which are [[enriched functors]] that induce a [[simplicial weak equivalence]]
 on each mapping [[simplicial set]],
 and after passing to the [[homotopy category]]
 (which in this case amounts to replacing each mapping [[simplicial set]]
@@ -198,8 +198,9 @@ for example).
 
 ## Are quasicategories model-independent?
 
-No, for example, the set (or [[class]]) of 0-simplices of a [[quasicategory]]
-does not have any model-independent meaning.
+No, for example, the cardinality of the set of 0-simplices of a small [[quasicategory]]
+does not have any model-independent meaning,
+although it is an [[isomorphism]] invariant.
 
 Unfortunately, one often sees the adjective “model-independent”
 (ab)used to mean that only constructions that
@@ -207,7 +208,7 @@ are meaningful on the level of underlying [[(∞,1)-categories]]
 are used in a particular argument with [[quasicategories]].
 Of course, there is nothing special about [[quasicategories]]
 in this context: we often write “model-independent” arguments
-of such type also in [[model categories]], for example.
+of such type also using [[model categories]], for example.
 
 ## What is homotopy type theory?
 
@@ -296,7 +297,7 @@ have the same underlying [[(∞,1)-category]].
 Thus, the data of [[cofibrations]] and [[fibrations]]
 merely enhances the given presentation of an [[(∞,1)-category]]
 as a [[relative category]] with additional data
-that helps to organize various computation,
+that helps to organize various computations,
 e.g., to [derive functors](#derived).
 
 However, the ultimate answer to any computation with [[model categories]]
