@@ -40,7 +40,7 @@ The original article:
 
 Survey:
 
-* M. Kunkel, _Dalitz Decays of Pseudo-Scalar Mesons_ ([[KunkelDalitzDecay.pdf:file]])
+* M. Kunkel, _Dalitz Decays of Pseudo-Scalar Mesons_, talk at [Light Meson Decays Workshop August 5, 2012](https://www.jlab.org/conferences/lmd2012/) ([[KunkelDalitzDecay.pdf:file]])
 
 Further discussion of the Dalitz decay of [[pions]]:
 
