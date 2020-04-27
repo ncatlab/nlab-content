@@ -91,6 +91,9 @@ A direct consequence of [[hadron supersymmetry]] is the equality of [[slopes]] o
 \end{imagefromfile}
 
 
+## Related concepts
+
+* [[baryon-lepton symmetry]]
 
 
 ## References
