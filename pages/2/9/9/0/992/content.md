@@ -196,11 +196,11 @@ Alternately, one can first pass to a [[stable derivator]], and thence to a trian
 ### Models  
  {#alternativemodels}
 
-In direct analogy to how a general [[(∞,1)-category]] may be [[presentable (∞,1)-category|presented]] by [[model category]], a stable $(\infty,1)$-categories may be presented by a
+In direct analogy to how a general [[(∞,1)-category]] may be [[presentable (∞,1)-category|presented]] by [[model category]], a stable $(\infty,1)$-categories may be presented by any of the following models.
 
-* [[stable model category]].
+* [[stable model category]];
 
-or a
+* stable [[quasicategory]] (as devloped by [[Lurie]] in Chapter 1 of [[Higher Algebra]]);
 
 * pre-triangulated [[spectral category]].
 
@@ -475,4 +475,10 @@ The enrichment over spectra is made precise in
 [[!redirects stable ∞-category]]
 [[!redirects stable ∞-categories]]
 
+[[!redirects stable quasicategory]]
+[[!redirects stable quasicategories]]
+
 [[!redirects stable (infinity,1)-topos]]
+[[!redirects stable (infinity,1)-toposes]]
+[[!redirects stable (∞,1)-topos]]
+[[!redirects stable (∞,1)-toposes]]
