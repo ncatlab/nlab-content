@@ -322,13 +322,17 @@ Passage to left derived functors is a [[pseudofunctor]] from a [[2-category]] of
 
 ### General
 
-General discussion of derived functors in [[homotopy theory]] is for instance in 
+General discussion of derived functors in [[homotopy theory]]:
 
 * {#Adams74} [[Frank Adams]], part III, section 8 of _[[Stable homotopy and generalised homology]]_, 1974
 
 * [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]],  [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]_, volume 113 of Mathematical Surveys and Monographs
 
 * [[Bruno Kahn]], [[Georges Maltsiniotis]], _[[Structures de Dérivabilité]]_
+
+and with an eye towards [[abelian sheaf cohomology]]:
+
+* [[Ugo Bruzzo]], _Derived Functors and Sheaf Cohomology_, Contemporary Mathematics and Its Applications: Monographs, Expositions and Lecture Notes: Volume 2 ([doi:10.1142/11473](https://doi.org/10.1142/11473))
 
 Discussion in the context of [[(∞,1)-categories]] is in section 5.2.4 of 
 
