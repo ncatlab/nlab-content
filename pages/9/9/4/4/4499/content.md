@@ -78,4 +78,4 @@ Discussion in the context of [[moduli spaces]] includes
 
 [[!redirects GAGA principle]]
 
-catgeory: reference
+category: reference
