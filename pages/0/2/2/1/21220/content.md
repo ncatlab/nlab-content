@@ -51,7 +51,11 @@ If the [[fiber bundle]] in question is a "[[canonical bundle]]"/[[determinant li
 
 * The [[tensor product of representations]] of any type $X$ of representations with a [[determinant]]/[[sign representation]] (eq:DeterminantRepresentation) is often called a "pseudo-X representation". For instance of $X$ is "[[vector representation]]" then we get [[pseudovector representation]], etc.
 
+* [[pseudoscalar meson]]
+
 * [[scalar]], [[scalar field]]
+
+
 
 * [[density]], [[determinant line bundle]]
 
