@@ -45,7 +45,7 @@ A\mathrlap{\underoverset{\textsize{G_1}}{\textsize{F_1}}{\begin{matrix}\begin{sv
 {\phantom{a}\space{0}{0}{12}\Downarrow\mathrlap{\beta}\space{0}{0}{12}\phantom{a}} C
 \mapsto 
 A
-\mathrlap{\underoverset{\textsize{G_1\colon G_2}}{\textsize{F_1\colon F_2}}{\begin{matrix}\begin{svg}
+\mathrlap{\underoverset{\textsize{G_2\circ G_1}}{\textsize{F_2\circ F_1}}{\begin{matrix}\begin{svg}
 <svg width="86" height="39" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="3467">
  <g>
   <title>Layer 1</title>
@@ -59,12 +59,12 @@ A
  </defs>
 </svg>
 \end{svg}\includegraphics[width=65]{curvearrows3467}\end{matrix}}}
-{\phantom{a}\quad\Downarrow\mathrlap{\alpha\ast\beta}\space{0}{0}{20}\phantom{a}} C
+{\phantom{a}\quad\Downarrow\mathrlap{\beta\circ\alpha}\space{0}{0}{20}\phantom{a}} C
 $$
 
 ## Definition
 
-For [[categories]] $A,B,C$, if $\alpha\colon F_1\to G_1\colon A\to B$ and $\beta\colon F_2\to G_2\colon B\to C$ are [[natural transformation]]s of [[functor]]s, the components $(\alpha * \beta)_M$ of the Godement product $\alpha * \beta\colon F_1 ; F_2 \to G_1 ; G_2$ (or $\beta \circ \alpha\colon F_2\circ F_1\to G_2\circ G_1$) are defined by any of the two equivalent formulas:
+For [[categories]] $A,B,C$, if $\alpha\colon F_1\to G_1\colon A\to B$ and $\beta\colon F_2\to G_2\colon B\to C$ are [[natural transformation]]s of [[functor]]s, the components $(\beta \circ \alpha)_M$ of the Godement product $\beta \circ \alpha\colon F_2\circ F_1\to G_2\circ G_1\colon A\to C$ (or $\alpha \ast \beta\colon F_1 ; F_2 \to G_1 ; G_2\colon A\to C$) are defined by any of the two equivalent formulas:
 $$
 (\beta\circ\alpha)_M = \beta_{G_1(M)}\circ F_2(\alpha_M)
 $$
