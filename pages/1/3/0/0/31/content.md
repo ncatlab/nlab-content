@@ -115,7 +115,7 @@ proceedings of the 2007 Abel Symposium, eds. Nils Baas <i>et al</i>.
 spaces](http://arxiv.org/abs/0812.4969), with Aristide Baratin, Laurent Freidel and Derek Wise.
 
 [Physics, topology, logic and computation:
-a Rosetta Stone](http://arxiv.org/abs/0903.0340), with [[Mike Stay]], to appear in <i>New Structures in Physics</i>, ed. Bob Coecke. 
+a Rosetta Stone](http://arxiv.org/abs/0903.0340), with [[Mike Stay]], in <em>New structures for physics</em>, pp. 95-172. Springer, Berlin, Heidelberg, 2010.
 
 [Groupoidification made easy](http://arxiv.org/abs/0812.4864), with Alexander E. Hoffnung and Christopher D. Walker. 
 
