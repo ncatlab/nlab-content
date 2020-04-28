@@ -135,6 +135,8 @@ On the level of the [[DG enhancements]], it is true for all smooth proper $K$-[[
 
 * {#Huybrechts08} [[Daniel Huybrechts]], _Fourier-Mukai transforms_, 2008 ([pdf](http://www.math.uni-bonn.de/people/huybrech/Garda2.pdf))
 
+* C. Bartocci, [[Ugo Bruzzo]], D. Hernandez Ruiperez, _Fourier-Mukai and Nahm transforms in geometry and mathematical physics_, Progress in Mathematics 276, Birkhauser 2009.
+
 * {#RVdB2015} Alice Rizzardo, [[Michel Van den Bergh]], _An example of a non-Fourier-Mukai functor between derived categories of coherent sheaves_ 
 ([arXiv:1410.4039](http://arxiv.org/abs/1410.4039))
 
