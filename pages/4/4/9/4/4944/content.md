@@ -213,7 +213,7 @@ the model structure on homotopy $T$-algebras is discussed and its Quillen equiva
 
 A related discussion showing that simplicial $T$ algebras model all $\infty$-$T$-algebras is in
 
-* [[Julie Bergner]], _Rigidification of algebras over multi-sorted theories_ , Algebraic and Geometric Topoogy 7, 2007.
+* [[Julie Bergner]], _Rigidification of algebras over multi-sorted theories_, Algebraic and Geometric Topology 7, 2007.
 {#Bergner}
 
 The model structure on homotopy $T$-algebras for $T = $ [[CartSp]] the Lawvere theory of [[smooth algebra]]s is considered in 
