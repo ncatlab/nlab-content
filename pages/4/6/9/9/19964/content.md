@@ -147,7 +147,9 @@ For instance various resonances of the [[carbon]] [[nucleus]] are modeled well b
 
 > graphics grabbed form [Lau-Manton 14](#LauManton14)
 
-{#IncludingTowerOfMesons} For Skyrmion models of nuclei to match well to [[experiment]], not just the [[pion field]] but also the tower of [[vector mesons]] need to be included in the construction. Including the [[rho meson]] gives good results for light nuclei ([Naya-Sutcliffe 18a](#NayaSutcliffe18a), [Naya-Sutcliffe 18b](#NayaSutcliffe18b))
+{#IncludingTowerOfMesons} For Skyrmion models of nuclei to match well to [[experiment]], not just the [[pion field]] but also the tower of [[vector mesons]] need to be included in the construction. 
+
+Including the [[rho meson]] gives good results for light nuclei ([Naya-Sutcliffe 18a](#NayaSutcliffe18a), [Naya-Sutcliffe 18b](#NayaSutcliffe18b))
 
 
 \begin{center}
@@ -155,6 +157,8 @@ For instance various resonances of the [[carbon]] [[nucleus]] are modeled well b
 \end{center}
 
 > graphics grabbed form [Naya-Sutcliffe 18a](#NayaSutcliffe18a)
+
+An analogous discussion for inclusion of [[omega-mesons]] is in [Gudnason-Speight 20](#GudnasonSpeight20).
 
 
 ### As a holographic boundary theory
@@ -301,7 +305,7 @@ and in [[algebraic topology]]:
 
 Relation to the [[complex Hopf fibration]]:
 
-* {#GudnasonNitta20} Sven Bjarke Gudnason, [[Muneto Nitta]], _Linking number of vortices as baryon number_ ([arXiv:2002.01762](https://arxiv.org/abs/2002.01762), [spire:1778698/](http://inspirehep.net/record/1778698/))
+* {#GudnasonNitta20} [[Sven Bjarke Gudnason]], [[Muneto Nitta]], _Linking number of vortices as baryon number_ ([arXiv:2002.01762](https://arxiv.org/abs/2002.01762), [spire:1778698/](http://inspirehep.net/record/1778698/))
 
 
 
