@@ -16,7 +16,7 @@
 
 ## Idea
 
-In [[nuclear physics]], the term _baryon-lepton symmetry_ refers to the observation that [[interactions]] involving the [[weak nuclear force]] are close to invariant under joint exchange if the [[light baryons|light]] [[baryons]] ([[protons]], [[neutrons]]) with the "[[light leptons|light]] [[leptons]]" ([[electron]] and its [[neutrino]]), i.e. within the [[first generation of fermions]].
+In [[nuclear physics]], the term _baryon-lepton symmetry_ ([Gamba-Marshak-Okubo 59](#GambaMarshakOkubo59)) refers to the observation that [[interactions]] involving the [[weak nuclear force]] are close to invariant under joint exchange if the [[light baryons|light]] [[baryons]] ([[protons]], [[neutrons]]) with the "[[light leptons|light]] [[leptons]]" ([[electron]] and its [[neutrino]]), i.e. within the [[first generation of fermions]].
 
 
 ## Related concepts
@@ -28,7 +28,7 @@ In [[nuclear physics]], the term _baryon-lepton symmetry_ refers to the observat
 
 The original article:
 
-* A. Gamba, [[Robert Marshak]], S. Okubo, _On a symmetry in weak interactions_, PNAS June 1, 1959 45 (6) 881-885 ([doi:10.1073/pnas.45.6.881](https://doi.org/10.1073/pnas.45.6.881))
+* {#GambaMarshakOkubo59} A. Gamba, [[Robert Marshak]], S. Okubo, _On a symmetry in weak interactions_, PNAS June 1, 1959 45 (6) 881-885 ([doi:10.1073/pnas.45.6.881](https://doi.org/10.1073/pnas.45.6.881))
 
 
 Review:
