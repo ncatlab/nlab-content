@@ -12,6 +12,7 @@ Equivalence between [[hidden local symmetry]]- and [[massive Yang-Mills theory]]
 
 
 #### Inclusion of the $\omega$-meson
+  {#SkyrmeModelWithOmegaMesonsReferences}
 
 Original proposal for inclusion of the [[ω-meson]] in the [[Skyrme model]]:
 
@@ -25,6 +26,10 @@ Relating to [[nucleon]]-[[scattering]]:
 Combination of the [[omega-meson]]-stabilized [[Skyrme model]] with the [[bag model for quark confinement|bag model]] for [[nucleons]]:
 
 * [[Atsushi Hosaka]], _Omega stabilized chiral bag model with a surface $\omega q q$ coupling_, Nuclear Physics A Volume 546, Issue 3, 31 (1992) Pages 493-508 (<a href="https://doi.org/10.1016/0375-9474(92)90544-T">doi:10.1016/0375-9474(92)90544-T</a>)
+
+Discussion of [[nucleon]] [[phenomenology]] for the $\omega$-stabilized Skyrme model:
+
+* {#GudnasonSpeight20} [[Sven Bjarke Gudnason]], James Martin Speight, _Realistic classical binding energies in the $\omega$-Skyrme model_ ([arXiv:2004.12862](https://arxiv.org/abs/2004.12862))
 
 
 
