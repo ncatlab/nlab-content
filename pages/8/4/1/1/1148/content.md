@@ -326,7 +326,10 @@ $$
 
 ## References 
 
-The traditional definition of sheaf cohomology in terms of the right [[derived functor]] of the [[global sections]] functor can be found recalled for instance in these notes:
+The traditional definition of sheaf cohomology in terms of the right [[derived functor]] of the [[global sections]] functor:
+
+* [[Ugo Bruzzo]], _Derived Functors and Sheaf Cohomology_, Contemporary Mathematics and Its Applications: Monographs, Expositions and Lecture Notes: Volume 2 ([doi:10.1142/11473](https://doi.org/10.1142/11473))
+
 
 * Ch&#234;nevert, Kassaei, _Sheaf Cohomology_ ([pdf](http://www.math.mcgill.ca/goren/SeminarOnCohomology/Sheaf_Cohomology.pdf))
 
