@@ -55,7 +55,8 @@ Bull. London Math. Soc. (1980) 12 (6): 476-478, [doi](http://dx.doi.org/10.1112/
 * J. S. Milne, _Abelian varieties_, course notes, [pdf](http://www.jmilne.org/math/CourseNotes/AV.pdf)
 * [[Daniel Huybrechts]], _Fourier-Mukai transforms in algebraic geometry_, Oxford Mathematical Monographs. 2006. 307 pages.
 * Andr&#233; Weil, _Courbes alg&#233;briques et vari&#233;t&#233;s ab&#233;liennes_, Paris: Hermann 1971
-* C. Bartocci, Ugo Bruzzo, D. Hernandez Ruiperez, _Fourier-Mukai and Nahm transforms in geometry and mathematical physics_, Progress in Mathematics __276__, Birkhauser 2009.
+
+* C. Bartocci, [[Ugo Bruzzo]], D. Hernandez Ruiperez, _Fourier-Mukai and Nahm transforms in geometry and mathematical physics_, Progress in Mathematics __276__, Birkhauser 2009.
 
 ## Complex-analytic approach
 
