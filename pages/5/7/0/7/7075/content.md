@@ -287,7 +287,7 @@ For more discussion in [[homotopy type theory]] see also at
 Relation to [[skyrmions]]:
 
 
-* Sven Bjarke Gudnason, Muneto Nitta, _Linking number of vortices as baryon number_ ([arXiv:2002.01762](https://arxiv.org/abs/2002.01762))
+* [[Sven Bjarke Gudnason]], [[Muneto Nitta]], _Linking number of vortices as baryon number_ ([arXiv:2002.01762](https://arxiv.org/abs/2002.01762))
 
 Discussion of [[supersymmetry|supersymmetric]] Hopf fibrations:
 
