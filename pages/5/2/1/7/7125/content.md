@@ -131,7 +131,7 @@ Now suppose given [[topos|toposes]] $E$, $E'$ and a [[left exact functor]] $\Phi
 
 $$E \times E' \stackrel{\delta \times 1}{\to} E \times E \times E' \stackrel{1 \times \Phi \times 1}{\to} E \times E' \times E' \stackrel{1 \times product}{\to} E \times E' \qquad (3)$$ 
 
-whose category of coalgebras is again (by a basic theorem of topos theory; see for instance [here](http://ncatlab.org/toddtrimble/published/Three+topos+theorems+in+one)) a topos, called the **Artin gluing** construction for $\Phi$, denoted $\mathbf{Gl}(\Phi)$. 
+whose category of coalgebras is again (by a basic theorem of topos theory; see for instance [here](http://ncatlab.org/toddtrimble/published/Three+topos+theorems+in+one)) a topos, called the **Artin gluing** construction for $\Phi$, denoted $\mathbf{Gl}(\Phi)$.   
 
 Objects of $\mathbf{Gl}(\Phi)$ are triples $(e, e', f \colon e' \to \Phi(e))$. A morphism from $(e_0, e_0^', f_0)$ to $(e_1, e_1^', f_1)$ consists of a pair of maps $g \colon e_0 \to e_1$, $g'\colon e_0^' \to e_1^'$ which respects the maps $f_0, f_1$ :
 
@@ -145,7 +145,7 @@ $$
   }
 $$
 
-In other words, the Artin gluing is just the [[comma category]] $E' \downarrow \Phi$. 
+In other words, the Artin gluing is just the [[comma category]] $E' \downarrow \Phi$.  (In fact, this comma category is a topos whenever $\Phi$ preserves pullbacks.)
 
 On the other hand, if $E$ is a topos and $U\in E$ is a [[subterminal object]], then it generates two [[subtoposes]] that are [[complement|complements]] in the [[lattice of subtoposes]], namely, an [[open subtopos]] whose [[reflector]] is $(-)^U$, and a [[closed subtopos]] whose reflector is the [[pushout]] $A\mapsto A +_{A\times U} U$.  If $E=Sh(X)$ is the topos of sheaves on a locale, then $U$ corresponds to an element of $O(X)$, hence an open sublocale with complement $K$ (say), and the open subtopos can be identified with $Sh(U)$ and the closed one with $Sh(K)$.
 
