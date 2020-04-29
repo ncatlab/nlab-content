@@ -151,6 +151,11 @@ An analogous discussion for [[derived categories]] of coherent sheaves is in
 
 * [[Tom Bridgeland]], [[Alastair King]], [[Miles Reid]], _The McKay correspondence as an equivalence of derived categories_ ([pdf](http://www.ams.org/journals/jams/2001-14-03/S0894-0347-01-00368-X/S0894-0347-01-00368-X.pdf))
 
+See also:
+
+* Duiliu-Emanuel Diaconescu, Mauro Porta, Francesco Sala, _McKay correspondence, cohomological Hall algebras and categorification_ ([arXiv:2004.13685](https://arxiv.org/abs/2004.13685))
+
+
 
 Introductions and surveys include
 
@@ -165,7 +170,7 @@ Master Thesis in Physics_ ([pdf](http://www.diva-portal.org/smash/get/diva2:1184
 
 * [[John Baez]], _The Geometric McKay Correspondence_, ([Part I](https://golem.ph.utexas.edu/category/2017/06/the_geometric_mckay_correspond.html), [Part II](https://golem.ph.utexas.edu/category/2017/07/the_geometric_mckay_correspond_1.html))
 
-Literature collection
+Literature collection:
 
 * [[Miles Reid]], _[Links to papers on McKay correspondence](http://homepages.warwick.ac.uk/staff/Miles.Reid/McKay/)_
 
