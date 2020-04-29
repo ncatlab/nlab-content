@@ -16,9 +16,18 @@
 
 ## Idea
 
-An _object_ in the sense of _object-oriented_ [[programming languages]] (OOP) is a language construct that groups [[data types]] together with [[function types]] of functionalities ("methods") that read/write this data. Often there is an emphasis on the possibility of defining such object specifications successively ("inheritance"), with one object definition inheriting the collection of data and functions from another one, and then adding its own.
+An _object_ in the sense of _object-oriented_ [[programming languages]] (OOP) is an encapsulated unit of state and behavior that operates on this state. Given an object, you cannot directly access its state, but only invoke its behavior by calling its "methods". When constructing an object (or defining a class that constructs objects), you have direct access to the state when implementing the methods.
 
-There exist various different frameworks for OOP, including the class-based approach of [Java](https://en.wikipedia.org/wiki/Java_(programming_language), the prototype-based approach of [Self](https://en.wikipedia.org/wiki/Self_(programming_language)), and the 'everything is an object' approach of [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk). Alan Kay, one of the creators of Smalltalk, famously said "I made up the term 'object-oriented', and I can tell you I did not have C++ in mind."
+OOP should be contrasted with the use of [[abstract data types]] (ADTs), since they are deceptively similar. Both involve a distinction between a private implementation and a public interface, but with ADTs, the implementation is "private to the type", while with OOP it's "private to the object", and an object is not a type. Assuming the language in question has [[types]], different objects of the same type generally have different implementations of the same interface.
+
+Many OOP languages allow class definitions, which are a way to share the implementations of methods among the objects "instantiated" from the class (constructed by it). In some languages, classes are treated as types, while in others, they're only used for object construction.
+
+Often there is an emphasis on the possibility of constructing objects successively ("inheritance"), with one object inheriting the implementation and interface from another one, and then typically adding more. This is usually managed via the class definitions, which can have a "superclass". But in some languages it can be done directly between objects, where an object can have a "prototype". Some languages also support multiple inheritance, which tends to greatly complicate the semantics.
+
+Sometimes [[subtyping]] is thought of as inheritance of an interface, with no associated implementation. Accordingly, typed object-oriented languages often support subtyping. Multiple inheritance of interfaces has less complicated semantics than multiple inheritance of implementations, since there are no coherence issues.
+
+
+There exist various different frameworks for OOP, including the class-based approach of [Java](https://en.wikipedia.org/wiki/Java_(programming_language), the prototype-based approach of [Self](https://en.wikipedia.org/wiki/Self_(programming_language), and the 'everything is an object'-approach of [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk). Alan Kay, one of the creators of Smalltalk, famously said "I made up the term 'object-oriented', and I can tell you I did not have C++ in mind."
 
 ## Relation to category theory
 
