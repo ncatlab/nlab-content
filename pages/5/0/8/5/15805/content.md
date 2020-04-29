@@ -33,6 +33,10 @@ See also
 
 * Wikipedia, _[CP violation](http://en.wikipedia.org/wiki/CP_violation)_
 
+On [[flavour physics]], [[CP violation]] and [[flavour anomalies]]:
+
+* [[Antonio Pich]], _Flavour Dynamics and Violations of the CP Symmetry_, Lectures at the 2017 and 2019 CERN - Latin-American Schools of High-Energy Physics ([arXiv:1805.08597](https://arxiv.org/abs/1805.08597))
+
 
 Discussion in the context of [[string theory]] is in
 
