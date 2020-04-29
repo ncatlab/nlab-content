@@ -13,7 +13,7 @@
 
 
 [[!redirects Initial Θ-data]]
-[[!redirects Initial Θ-data]]
+
 
 #Contents#
 * table of contents
