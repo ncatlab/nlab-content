@@ -78,6 +78,14 @@ See also
 
 * Wikipedia, _[Vector meson dominance](https://en.wikipedia.org/wiki/Vector_meson_dominance)_
 
+More:
+
+* {#BDDL09a}  M. Benayoun, P. David, L. DelBuono, O. Leitner, _A Global Treatment Of VMD Physics Up To The $\phi$: I. $e^+ e^-$ Annihilations, Anomalies And Vector Meson Partial Widths_, Eur. Phys. J. C65:211-245, 2010 ([arXiv:0907.4047](https://arxiv.org/abs/0907.4047))
+
+* {#BDDL09a} M. Benayoun, P. David, L. DelBuono, O. Leitner, _A Global Treatment Of VMD Physics Up To The $\phi$: II. %\tau$ Decay and Hadronic Contributions To $g-2$_, Eur. Phys. J. C68:355-379, 2010 ([arXiv:0907.5603](https://arxiv.org/abs/0907.5603))
+
+
+
 ### Via holographic QCD
  {#ReferencesViaHolographicQCD}
 
