@@ -56,7 +56,7 @@ The right adjoint $[\mathcal{B},Set]^{op}\to \mathcal{A}$ is the canonical funct
 
 * The codensity monad of the inclusion [[FinSet]] $\hookrightarrow$[[Set]] is the [[ultrafilter]] monad.
 
-* The codensity monad of the inclusion $FinGrp \hookrightarrow$ [[Grp]], is the [[profinite completion of a group|profinite completion]] monad, whose algebras may be identified with [[profinite groups]] -- that is, [[topological groups]] whose underlying topological space is profinite.
+* The codensity monad of the inclusion $FinGrp \hookrightarrow$ [[Grp]], is the [[profinite completion of a group|profinite completion]] monad, whose algebras may be identified with [[profinite groups]] -- that is, [[topological groups]] whose underlying topological space is profinite ([Avery 17,Prop. 2.7.10](#Avery17)).
 
 
 
@@ -112,9 +112,13 @@ The role in shape theory is discussed in
 
 For a description of the [[Giry monad]] as a codensity monad, see
 
-* {#Avery14} [[Tom Avery]], _Codensity and the Giry monad_, ([arXiv:1410.4432](https://arxiv.org/abs/1410.4432))
+* {#Avery14} [[Tom Avery]], _Codensity and the Giry monad_, ([arXiv:1708.01050](https://arxiv.org/abs/1708.01050))
+
+
 
 Other references include
+
+* {#Avery17} [[Tom Avery]], _Structure and Semantics_, ([arXiv:1410.4432](https://arxiv.org/abs/1410.4432))
 
 * C. Casacuberta, A. Frei, _Localizations as idempotent approximations to completions_ , JPAA **142** (1999) no. 1 pp.25–33. ([draft](http://atlas.mat.ub.es/personals/casac/articles/cfre1.pdf))
 
