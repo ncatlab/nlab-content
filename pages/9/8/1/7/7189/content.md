@@ -56,6 +56,8 @@ The right adjoint $[\mathcal{B},Set]^{op}\to \mathcal{A}$ is the canonical funct
 
 * The codensity monad of the inclusion [[FinSet]] $\hookrightarrow$[[Set]] is the [[ultrafilter]] monad.
 
+* The codensity monad of the inclusion $FinGrp \hookrightarrow$ [[Grp]], is the [[profinite completion of a group|profinite completion]] monad, whose algebras may be identified with [[profinite groups]] -- that is, [[topological groups]] whose underlying topological space is profinite.
+
 
 
 ## Properties
