@@ -148,6 +148,12 @@ We can carry out the same kind of implementation in Javascript. Javascript is no
 
 Object oriented programming languages (OOP) should be contrasted with the use of [[abstract data types]] (ADTs), since they are deceptively similar. Both involve a distinction between a private implementation and a public interface, but with ADTs, the implementation is "private to the type", while with OOP it's "private to the object", and an object is not a type. Assuming the language in question has [[types]], different objects of the same type generally have different implementations of the same interface.
 
+As a general rule, it's easy to add new data variants with OOP, because that just involves adding more objects, while it's harder to add new operations, as that involves adding to the implementations of all the existing objects. With ADT's, the reverse is true, as new operations are easy to add, while adding data variants involve changing the definition of the ADT and the implementations of all existing operations. See also [William R. Cook's essay](#Cook2009) on the differences between objects and ADTs.
+
+This tension leads to the so-called [expression problem](http://homepages.inf.ed.ac.uk/wadler/papers/expression/expression.txt) in programming: How to design a language that makes both kinds of extension simultaneously easy.
+
+The complementarity between user-defined types and objects was observed already by [Reynolds in 1978](#Reynolds1978).
+
 \section{Related concepts}
 
 * [[functional programming]]
@@ -160,6 +166,8 @@ Object oriented programming languages (OOP) should be contrasted with the use of
 
 * Wikipedia, _[Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)_
 
+* {#Cook2009} [[William R. Cook]], _[On  Understanding  Data  Abstraction,  Revisited](https://www.cs.utexas.edu/~wcook/Drafts/2009/essay.pdf)_, OOPSLA, 2009
+
 * Alan Kay, _[The Computer Revolution hasn't happened yet](https://www.youtube.com/watch?v=oKg1hTOQXoY)_, OOPSLA Keynote, 1997
 
 * {#Jacobs1995a} [[Bart Jacobs]], _Inheritance and Cofree Constructions_, 1995 ([pdf](https://ir.cwi.nl/pub/4938/4938D.pdf))
@@ -167,6 +175,8 @@ Object oriented programming languages (OOP) should be contrasted with the use of
 * {#Jacobs1995b} [[Bart Jacobs]], _Objects and Classes, Co-algebraically_, Object Orientation with Parallelism and Persistence, 1995 ([pdf](https://static.aminer.org/pdf/PDF/000/137/588/objects_and_classes_co_algebraically.pdf))
 
 * {#Jacobs2003} [[Bart Jacobs]], Erik Poll, _Coalgebras and monads in the semantics of Java_, Theoretical Computer Science Volume 291 Issue 3, 2003 ([doi:10.1016/S0304-3975(02)00366-3](https://www.sciencedirect.com/science/article/pii/S0304397502003663))
+
+* {#Reynolds1978} [[John C. Reynolds]], _[User-Defined Types and Procedural Data Structures as Complementary Approaches to Data Abstraction](https://www.cs.tufts.edu/~nr/cs257/archive/john-reynolds/procedural-data-structures.pdf)_, In: Gries D. (eds) Programming Methodology. Texts and Monographs in Computer Science. Springer, New York, NY
 
 * {#Story2018} Henry Story, _[Why is functional programming seen as the opposite of OOP rather than an addition to it?](https://www.quora.com/Why-is-functional-programming-seen-as-the-opposite-of-OOP-rather-than-an-addition-to-it/answer/Henry-Story)_, 2018
 
