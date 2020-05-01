@@ -78,6 +78,8 @@ somewhat of an oddity and a puzzle that [[Jun John Sakurai|Sakurai's]] [[vector 
 
 * [[form factor]]
 
+* [[hadron current]]
+
 [[!include effective field theories of nuclear physics -- contents]]
 
 
