@@ -2,10 +2,6 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Physics
-+-- {: .hide}
-[[!include physicscontents]]
-=--
 #### Fields and quanta
 +-- {: .hide}
 [[!include fields and quanta - table]]
@@ -77,6 +73,8 @@ This produces [[baryon]] [[mass]] spectra with moderate quantitative agreement w
 
 
 ## Related concepts
+
+* [[hadron current]]
 
 * [[confinement]]
 
