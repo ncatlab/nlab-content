@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On the [[current-field identity]] in [[quantum hadrodynamics]] ([[vector meson dominance]]):
+
+* {#KrollLeeZumino76} Norman M. Kroll, T. D. Lee, [[Bruno Zumino]], _Neutral Vector Mesons and the Hadronic Electromagnetic Current_, Phys. Rev. 157, 1376 (1967) ([arXiv:10.1103/PhysRev.157.1376](https://doi.org/10.1103/PhysRev.157.1376))
+
 On [[chiral perturbation theory]]:
 
 * [[Sidney Coleman]], [[Julius Wess]], [[Bruno Zumino]], _Structure of Phenomenological Lagrangians. I_, Phys. Rev. 177, 2239 (1969) ([doi:10.1103/PhysRev.177.2239](https://doi.org/10.1103/PhysRev.177.2239))
