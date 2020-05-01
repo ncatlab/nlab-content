@@ -576,6 +576,10 @@ General [[effective field theory]] parametrization:
 
 * {#AHRS20} Rafael Aoude, Tobias Hurth, Sophie Renner, William Shepherd, _The impact of flavour data on global fits of the MFV SMEFT_ ([arXiv:2003.05432](https://arxiv.org/abs/2003.05432))
 
+* Aritra Biswas, Soumitra Nandi, Ipsita Ray, Sunando Kumar Patra, 
+_New physics in $b\to s \ell \ell$ decays with complex Wilson coefficients_ ([arXiv:2004.14687](https://arxiv.org/abs/2004.14687))
+
+
 
 
 #### Leptoquarks
