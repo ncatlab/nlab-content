@@ -39,3 +39,5 @@ This is on contrast to [[quantum hadrodynamics]] of the form of [[baryon chiral 
 
 * K. Saito, K. Tsushima, A. W. Thomas, _Variation of hadron masses in finite nuclei_, Phys. Rev. C 55, 2637 (1997) ([doi:10.1103/PhysRevC.55.2637](https://doi.org/10.1103/PhysRevC.55.2637))
 
+[[!redirects quark-meson coupling models]]
+
