@@ -168,6 +168,11 @@ Discussion of [[black holes in anti de Sitter spacetime]]:
 
 * Jakob Gath, _The role of black holes in the AdS/CFT correspondence_ ([pdf](https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/theoretical-physics/msc/dissertations/2009/Jakob-Gath-Dissertation-2009.pdf))
 
+Relation to [[Teichmüller theory]]:
+
+* Francesco Bonsante, Andrea Seppi, _Anti-de Sitter geometry and Teichmüller theory_ ([arXiv:2004.14414](https://arxiv.org/abs/2004.14414))
+
+
 ### As string vacua
 
 On (in-)stability of non-[[supersymmetry|supersymmetric]] [[AdS spacetimes]] as [[perturbative string theory vacua]]:
