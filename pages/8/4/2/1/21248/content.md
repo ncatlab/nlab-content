@@ -6,7 +6,7 @@
 
 Equivalence between [[hidden local symmetry]]- and [[massive Yang-Mills theory]]-description of [[Skyrmion]] [[quantum hadrodynamics]]:
 
-* [[Atsushi Hosaka]], H. Toki, W. Weise, _Skyrme Solitons With Vector Mesons: Equivalence of the Massive Yang-Mills and Hidden Local Symmetry Scheme, 1988, Z. Phys. A332 (1989) 97-102 ([spire:24079](http://inspirehep.net/record/24079))
+* [[Atsushi Hosaka]], H. Toki, [[Wolfram Weise]], _Skyrme Solitons With Vector Mesons: Equivalence of the Massive Yang-Mills and Hidden Local Symmetry Scheme, 1988, Z. Phys. A332 (1989) 97-102 ([spire:24079](http://inspirehep.net/record/24079))
 
 
 Combination of the [[omega-meson]]-stabilized [[Skyrme model]] with the [[bag model for quark confinement|bag model]] for [[nucleons]]:
