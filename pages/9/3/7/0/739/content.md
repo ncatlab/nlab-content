@@ -144,6 +144,10 @@ Introductory lectures include
 * [[Hendrik Lenstra]], _Profinite groups_ ([pdf](http://websites.math.leidenuniv.nl/algebra/Lenstra-Profinite.pdf))
  {#Lenstra}
 
+A survey is given in
+
+* Alexander Lubowsky, _Book review_, BAMS 38(4), pp. 475-479, ([pdf](https://www.ams.org/journals/bull/2001-38-04/S0273-0979-01-00914-4/))
+
 A fairly recent textbook is
 
 * L. Ribes and P. Zalesskii, 2000, _Profinite groups_, volume 40 of Ergebnisse der Mathematik und ihrer Grenzgebiete. 3. Folge, Springer-Verlag, 
