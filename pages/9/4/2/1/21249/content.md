@@ -4,7 +4,6 @@
 {:toc}
 
 
-
 ## Idea
 
 While [[Yang-Mills theory]] with a fundamental [[mass]]-term (as opposed to a [[spontaneous symmetry breaking|dynamical]] mass via a [[Higgs mechanism]]) cannot be both [[renormalizability|renormalizable]] and unitary ([Delbourgo-Twisk-Thompson 88](#DelbourgoTwiskThompson88)), it does appear in certain [[effective field theories]], notably in [[quantum hadrodynamics]].
@@ -28,4 +27,4 @@ While [[Yang-Mills theory]] with a fundamental [[mass]]-term (as opposed to a [[
 
 Equivalence between [[hidden local symmetry]]- and [[massive Yang-Mills theory]]-description of [[Skyrmion]] [[quantum hadrodynamics]]:
 
-* [[Atsushi Hosaka]], H. Toki, W. Weise, _Skyrme Solitons With Vector Mesons: Equivalence of the Massive Yang-Mills and Hidden Local Symmetry Scheme, 1988, Z. Phys. A332 (1989) 97-102 ([spire:24079](http://inspirehep.net/record/24079))
+* [[Atsushi Hosaka]], H. Toki, [[Wolfram Weise]], _Skyrme Solitons With Vector Mesons: Equivalence of the Massive Yang-Mills and Hidden Local Symmetry Scheme, 1988, Z. Phys. A332 (1989) 97-102 ([spire:24079](http://inspirehep.net/record/24079))
