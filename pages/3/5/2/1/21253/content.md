@@ -47,13 +47,17 @@ Concrete form for $N$-[[flavor (particle physics)|flavor]] [[quantum hadrodynami
 
 * C. R. Lee, H. C. Yen, _A Derivation of The Wess-Zumino-Witten Action from Chiral Anomaly Using Homotopv Operators_, Chinese Journal of Physics, Vol 23 No. 1 (1985) ([spire:16389](https://inspirehep.net/literature/16389), [[LeeYenWZW85.pdf:file]])
 
+Concrete form for 2 [[flavor physics|flavors]] in 4d:
+
+* Masashi Wakamatsu, _On the electromagnetic hadron current derived from the gauged Wess-Zumino-Witten action_,  ([arXiv:1108.1236](https://arxiv.org/abs/1108.1236), [spire:922302](https://inspirehep.net/literature/922302))
+
 
 
 #### Including light vector mesons
  {#WZWTermOfChiralPerturbationTheoryReferencesIncludingLightVectorMesons}
 
 
-Concrete form for 2-[[flavor (particle physics)|flavor]] [[quantum hadrodynamics]] in 4d ([[Skyrmion model]] with [[light meson|light]] [[vector mesons]] included):
+Concrete form for 2-[[flavor (particle physics)|flavor]] [[quantum hadrodynamics]] in 4d with [[light meson|light]] [[vector mesons]] included ([[omega-meson]] and [[rho-meson]]):
 
 * {#MeissnerZahed86} [[Ulf-G. Meissner]], [[Ismail Zahed]], equation (6) in: _Skyrmions in the Presence of Vector Mesons_, Phys. Rev. Lett. 56, 1035 (1986) ([doi:10.1103/PhysRevLett.56.1035](https://doi.org/10.1103/PhysRevLett.56.1035))
 
