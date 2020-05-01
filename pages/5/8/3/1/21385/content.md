@@ -90,7 +90,7 @@ $$
 $$ 
 1. The method getSuccessorOf is roughly akin to a [[computation rule]]. Indeed, it can be thought of as being of the following form. 
 $$
-\frac{n : \mathbb{N} \vdash successor(n) : \mathbb{N}}{successorOf(successor(n)) = n : \mathbb{N}}
+\frac{n : \mathbb{N} \vdash successor(n) : \mathbb{N}}{getSuccessorOf(successor(n)) = n : \mathbb{N}}
 $$
 1. The method add is roughly akin to an [[elimination rule]] combined with two computation rules. Indeed, the elimination rule can be thought of as being of the form 
 $$
