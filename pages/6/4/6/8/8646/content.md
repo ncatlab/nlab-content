@@ -39,7 +39,9 @@ The _strong nuclear force_ is described by a [[gauge field]] with [[gauge group]
 
 See the references at
 
-* [[electroweak field]]
+* [[electroweak field]], [[electroweak symmetry breaking]]
+
+* [[leptonic decay]]
 
 * [[QCD]]
 
