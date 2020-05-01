@@ -169,7 +169,7 @@ and the resulting relation to the [[geometric Langlands correspondence]] is disc
 
 The corresponding dual theory under [[AdS-CFT duality]] is discussed in
 
-* [[Davide Gaiotto]], [[Nathan Seiberg]], _The gravity duals of N=2 superconformal field theories_ ([arXiv:0904.4466](http://arxiv.org/abs/0904.4466))
+* [[Davide Gaiotto]], [[Juan Maldacena]], _The gravity duals of N=2 superconformal field theories_ ([arXiv:0904.4466](http://arxiv.org/abs/0904.4466))
 
 Discussion of construction of just [[N=1 D=4 super Yang-Mills theory]] this way is in 
 
