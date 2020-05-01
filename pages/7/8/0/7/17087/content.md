@@ -75,6 +75,11 @@ For mathematical discussion in the case of [[D=3 N=4 super Yang-Mills theory]]:
 
 * [[Ben Webster]], _Koszul duality between Higgs and Coulomb categories $\mathcal{O}$_, ([ arXiv:1611.06541](https://arxiv.org/abs/1611.06541))
 
+See also
+
+* Justin Hilburn, Joel Kamnitzer, Alex Weekes, _BFN Springer Theory_ ([arXiv:2004.14998](https://arxiv.org/abs/2004.14998))
+
+
 On [[mirror symmetry]] between [[Higgs branches]]/[[Coulomb branches]] of [[D=3 N=4 super Yang-Mills theory]] (with emphasis of [[Hilbert schemes of points]]):
 
 * [[Jan de Boer]], [[Kentaro Hori]], [[Hirosi Ooguri]], [[Yaron Oz]], _Mirror Symmetry in Three-Dimensional Gauge Theories, Quivers and D-branes_, Nucl. Phys. B493:101-147, 1997 ([arXiv:hep-th/9611063](https://arxiv.org/abs/hep-th/9611063))
