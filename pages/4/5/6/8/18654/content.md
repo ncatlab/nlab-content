@@ -192,6 +192,24 @@ On $\gamma \to \pi^0 + \pi^+ + \pi^-$:
 
 * {#BDDL09}  M. Benayoun, P. David, L. DelBuono, O. Leitner, _A Global Treatment Of VMD Physics Up To The $\phi$: I. $e^+ e^-$ Annihilations, Anomalies And Vector Meson Partial Widths_, Eur. Phys. J. C65:211-245, 2010 ([arXiv:0907.4047](https://arxiv.org/abs/0907.4047))
 
+On the [[Dalitz decay]] of the pion:
+
+* {#Dalitz51} [[Richard Dalitz]], _On an alternative decay process for the neutral $\pi$-meson_, Proceedings of the Physical Society. Section A 64 (7), 667, 1951 ([doi:10.1088/0370-1298/64/7/115](https://doi.org/10.1088/0370-1298/64/7/115))
+
+* {#KKN02} Karol Kampf, Marc Knecht, Jiri Novotny, _Some aspects of Dalitz decay $\pi^0 \to e^+ e^- \gamma$_,  presented at Int. Conf. Hadron Structure '02, September 2002, Slovakia ([arXiv:hep-ph/0212243](https://arxiv.org/abs/hep-ph/0212243))
+
+* {#KKN06} Karol Kampf, Marc Knecht, Jiri Novotny, _The Dalitz decay $\pi^0 \to e^+ e^- \gamma$ revisited_, Eur. Phys. J. C46:191-217, 2006 ([arXiv:hep-ph/0510021](https://arxiv.org/abs/hep-ph/0510021))
+
+* {#Berghauser10} Henning Berghäuser, _Investigation of the Dalitz decays and the electromagnetic form factors of the $\eta$ and $\pi^0$-meson_, 2010 ([spire:1358057](https://inspirehep.net/literature/1358057))
+
+* {#Kunkel12} M. Kunkel, _Dalitz Decays of Pseudo-Scalar Mesons_, talk at [Light Meson Decays Workshop August 5, 2012](https://www.jlab.org/conferences/lmd2012/) ([[KunkelDalitzDecay.pdf:file]])
+
+* Sergi González-Solís, _Single and double Dalitz decays of $\pi^0$, $\eta$ and $\eta'$ mesons_, Nuclear and Particle Physics Proceedings Volumes 258–259, January–February 2015, Pages 94-97 ([doi:10.1016/j.nuclphysbps.2015.01.021](https://doi.org/10.1016/j.nuclphysbps.2015.01.021))
+
+* Esther Weil, Gernot Eichmann, Christian S. Fischer, Richard Williams, section III.A of: _Electromagnetic decays of the neutral pion_, Phys. Rev. D 96, 014021 (2017) ([arXiv:1704.06046](https://arxiv.org/abs/1704.06046))
+
+
+
 ### Exponentiated pion field and Skyrmions
 
 Discussion of the exponentiated pion field ("chiral field") in [[chiral perturbation theory]] and the interpretation of its [[winding number]] as [[Skyrmion]]-number / [[baryon]]
