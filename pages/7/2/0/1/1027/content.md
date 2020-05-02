@@ -56,6 +56,8 @@ From products and equalizers, we can get arbitrary limits.
 
 * [[(∞,1)-pullback]], [[homotopy pullback]]
 
+* [[connected limit]] 
+
 ## References
 
 * [[Robert Paré]], *Simply connected limits*.  Can. J. Math., Vol. XLH, No. 4, 1990, pp. 731-746, [CMS](http://math.ca/10.4153/CJM-1990-038-6)
