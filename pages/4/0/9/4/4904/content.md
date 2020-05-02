@@ -243,6 +243,7 @@ This allows us to think of ordinary $T$-algebras a sitting inside $\infty$-$T$-a
 
 
 > all this is certainly true for ordinary $k$-algebras. Need to spell out general proof.
+> I believe this is the Badzioch paper cited above - JB
 
 
 ## Examples
