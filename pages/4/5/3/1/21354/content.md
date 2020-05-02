@@ -25,4 +25,6 @@ A _dilepton_ is a [[pair]] consisting of a [[lepton]] and its [[antiparticle]], 
 
 * [[Dalitz decay]]
 
+* [[vector meson dominance]]
+
 [[!redirects dileptons]]
