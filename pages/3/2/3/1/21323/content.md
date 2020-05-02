@@ -33,7 +33,7 @@ In the context of [[quantum hadrodynamics]], the [[decay]]-mode of a [[meson]] v
 \end{imagefromfile}
  
 
-* a **semileptonic decay** if in addition another [[meson]] is produced:
+* a **semileptonic decay** if, in addition to the [[dilepton]], another [[meson]] is produced (see also: _[[semileptonic Dalitz decay]]_):
 
 \begin{imagefromfile}
     "file_name": "SemileptonicDecay.jpg",
@@ -48,7 +48,7 @@ In the context of [[quantum hadrodynamics]], the [[decay]]-mode of a [[meson]] v
 \end{imagefromfile}
 
 
-* a **radiative leptonic decay** ([[Dalitz decay]]) if in addition a [[photon]] results:
+* a **radiative leptonic decay** if, in addition to the [[dilepton]], a [[photon]] results (see also _[[radiative Dalitz decay]]_):
 
 
 All this is in contrast to
