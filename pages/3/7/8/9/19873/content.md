@@ -35,6 +35,8 @@ All these are increasingly seeing [[flavour anomalies]] (see there) in $B$-meson
 
 ## Related concepts
 
+* [[upsilon-meson]]
+
 * [[pion]], [[rho meson]]
 
 * B-meson [[experiments]]
