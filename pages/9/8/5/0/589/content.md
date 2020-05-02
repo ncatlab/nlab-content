@@ -19,11 +19,11 @@
 
 ## Definition
 
-A [[category]] $C$ is **complete** if it has all small [[limit|limits]]: that is, if every diagram 
+A [[category]] $C$ is **complete** if it has all [[small limit|small]] [[limit|limits]]: that is, if every [[small diagram|small]] [[diagram]]
 
 $$ F: D \to C$$
 
-where $D$ is a [[small category]] has a limit in $C$.
+where $D$ is a [[small category]] has a [[limit]] in $C$.
 
 Sometimes one says that $C$ is __small-complete__ to stress that $D$ must be small; compare [[finitely complete category]].  Also compare [[complete small category]], which is different; here we see that any [[small category]] that is also small-complete must be [[thin category|thin]] (at least classically).
 
@@ -38,6 +38,10 @@ A common situation is that of a category of algebras for a [[monad]] in a comple
 
 
 ## Related concepts
+
+* [[cocomplete category]]
+
+* [[bicomplete category]]
 
 * [[M-complete category]]
 
