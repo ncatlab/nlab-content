@@ -18,7 +18,7 @@
 
 ## Idea
 
-In [[quantum hadrodynamics]] a _Dalitz decay_ is the [[leptonic decay]] of an [[electromagnetism|electromagnetically]] neutral [[meson]] into a [[photon]] and a [[dilepton]]
+In [[quantum hadrodynamics]] a _Dalitz decay_ ([Dalitz 51](#Dalitz51)) is the [[leptonic decay]] of an [[electromagnetism|electromagnetically]] neutral [[meson]] into a [[photon]] and a [[dilepton]]
 
 $$
   M \,\to\, l^+ \,+\, l^- \,+\, \gamma
@@ -32,11 +32,53 @@ $$
   \,.
 $$
 
+The [[Feynman amplitude]] of the process is proportional to
+
+$$
+  \epsilon^{\mu_1 \mu_2 \nu \kappa}
+  \underset{ 
+    photon 
+  }{
+    \underbrace{
+      q_{\mu_1} 
+      \epsilon_{\mu_2}
+    }
+  }
+  \underset{ 
+    {scalar} 
+    \atop 
+    {meson} 
+  }{
+    \underbrace{
+      p_\nu
+    }
+  }
+  \underset{
+    dilepton
+  }{
+    \underbrace{
+      \overline{L} \!\cdot\! \gamma_\kappa  \!\cdot\! L
+    }
+  }
+$$
+
+where 
+
+* $\epsilon^{\mu_1 \mu_2 \nu \kappa}$ is the [[Levi-Civita symbol]],
+
+* $q_{\mu_1}$ is the [[wave vector]] and $\epsilon_{\mu_2}$ the [[polarization]] of the [[photon]],
+
+* $p_\mu$ is the [[momentum]] of the (pseudo-)[[scalar meson]],
+
+* $\overline{L} \!\cdot\! \gamma_\kappa  \!\cdot\! L$ is the [[lepton current]].
+
+
+
 ## References
 
 The original article:
 
-* R. H. Dalitz, _On an alternative decay process for the neutral $\pi$-meson_, Proceedings of the Physical Society. Section A 64 (7), 667, 1951 ([doi:10.1088/0370-1298/64/7/115](https://doi.org/10.1088/0370-1298/64/7/115))
+* {#Dalitz51} R. H. Dalitz, _On an alternative decay process for the neutral $\pi$-meson_, Proceedings of the Physical Society. Section A 64 (7), 667, 1951 ([doi:10.1088/0370-1298/64/7/115](https://doi.org/10.1088/0370-1298/64/7/115))
 
 Survey:
 
@@ -65,8 +107,9 @@ Of [[charmonium]]:
 
 * _Study of the Dalitz decay $J/\psi \to e^+e^- \eta$_, Phys. Rev. D 99, 012006 (2019) ([arXiv:1810.03091](https://arxiv.org/abs/1810.03091))
 
+Of [[upsilon-mesons]]:
 
-* Li-Min Gu, Hai-Bo Li, Xin-Xin Ma, Mao-Zhi Yang, _Study of the electromagnetic Dalitz decays ψ(Υ)→ηc(ηb)l+l−_ ([arXiv:1904.06085](https://arxiv.org/abs/1904.06085))
+* {#GLMY19} Li-Min Gu, Hai-Bo Li, Xin-Xin Ma, Mao-Zhi Yang, _Study of the electromagnetic Dalitz decays $\psi(\Upsilon) \to \eta_c(\eta_b) l^+ l^-$_, Phys. Rev. D 100, 016018 (2019) ([arXiv:1904.06085](https://arxiv.org/abs/1904.06085))
 
 
 
