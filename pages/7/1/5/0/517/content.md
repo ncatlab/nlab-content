@@ -28,3 +28,4 @@ On [[equivariant stable homotopy theory]]:
 category: people
 
 [[!redirects May]]
+[[!redirects J. Peter May]]
