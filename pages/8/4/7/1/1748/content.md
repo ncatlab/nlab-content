@@ -194,7 +194,7 @@ For more see at _[[homotopy in a model category]]_.
 
 ### In (co-)fibration categories
 
-Clearly the concepf of left homotopy in def. \ref{PathAndCylinderObjectsInAModelCategory} only needs part of the model category axioms and thus makes sense more generally in suitable [[cofibration categories]]. Dually, the concepf of path ojects in def. \ref{PathAndCylinderObjectsInAModelCategory} makes sense more generally in suitable [[fibration categories]] such as [[categories of fibrant objects]] in the sense of Brown.
+Clearly the concept of left homotopy in def. \ref{PathAndCylinderObjectsInAModelCategory} only needs part of the model category axioms and thus makes sense more generally in suitable [[cofibration categories]]. Dually, the concepf of path ojects in def. \ref{PathAndCylinderObjectsInAModelCategory} makes sense more generally in suitable [[fibration categories]] such as [[categories of fibrant objects]] in the sense of Brown.
 
 Likewise if there is a [[cylinder functor]], one gets functorially defined [[cylinder objects]], etc.
 
