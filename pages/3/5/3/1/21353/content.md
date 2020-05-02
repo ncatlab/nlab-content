@@ -114,7 +114,7 @@ where
 +-- {: .num_remark} 
 ###### Remark
 
-The corresponding [[interaction]] [[Lagrangian density]] for the [[Feynman amplitude]] (eq:FeynmanAmplitudedRadiativeDalitzDecay) (hence essentially its [[Fourier transform]] times the [[volume form]]) is (all on 4d [[Minkowski spacetime]])
+The corresponding [[interaction]] [[Lagrangian density]] for the [[Feynman amplitude]] (eq:FeynmanAmplitudedRadiativeDalitzDecay) (hence essentially its [[Fourier transform]] times the [[volume form]]) is, at fixed  $(p_1 + p_2)^2$ (all on 4d [[Minkowski spacetime]]):
 
 \[
   \label{LagrangianDensityForRadiativeDalitzDecay}
@@ -206,7 +206,7 @@ where
 +-- {: .num_remark} 
 ###### Remark
 
-The corresponding [[interaction]] [[Lagrangian density]] for the [[Feynman amplitude]] (eq:FeynmanAmplitudedSemileptonicDalitzDecay) (hence essentially its [[Fourier transform]] times the [[volume form]]) is
+The corresponding [[interaction]] [[Lagrangian density]] for the [[Feynman amplitude]] (eq:FeynmanAmplitudedSemileptonicDalitzDecay) (hence essentially its [[Fourier transform]] times the [[volume form]]) is, at fixed $(p_1 + p_2)^2$:
 
 \[
   \label{LagrangianDensityForSemileptonicDalitzDecay}
