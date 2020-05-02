@@ -455,6 +455,18 @@ The concept originates in
 
 * [[Emily Riehl]], _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014.
 
+#### Coverage table for major sources
+
+|Topic                                      |Quillen|Hovey|Hirschhorn|DHKS|May-Ponto|Riehl|Lurie|
+|-------------------------------------------|-------|-----|----------|----|---------|-----|-----|
+|[[combinatorial model categories]]         |no     |no   |no        |no  |no*      |yes  |yes  |
+|[[monoidal model categories]]              |no     |yes  |no        |no  |yes      |yes  |yes  |
+|[[enriched model categories]]              |no     |no   |no        |no  |yes      |yes  |yes  |
+|[[homotopy colimits]]                      |no     |no   |yes       |yes |no*      |yes  |yes  |
+|[[Bousfield localizations]]                |no     |no   |yes       |no  |yes      |no   |yes  |
+|[[transferred model structures]]           |yes    |no   |yes       |no  |no       |yes  |yes  |
+|[[Reedy model structures]]                 |no     |yes  |yes       |yes |no       |yes  |yes  |
+
 #### Book chapters
 
 * {#GoerssJardine99} [[Paul Goerss]], [[Rick Jardine]], Chapters 1 and 2 of _[[Simplicial homotopy theory]]_, Birkhäuser, 1999, 2009.
