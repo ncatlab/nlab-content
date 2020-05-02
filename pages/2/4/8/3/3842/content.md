@@ -186,7 +186,35 @@ $$i^{-1}(f)(A, p \in P(A)) = f_A^{-1}(p)\;.$$
 
 For a proof see [Kashiwara-Schapira (2006, Lemma 1.4.12, p. 26)](#KS06). For a more general statement involving slices of Grothendieck toposes see [Mac Lane-Moerdijk (1994, p.157)](#MacLaneMoerdijk).
 
-In particular, this equivalence shows that _slices of presheaf toposes are presheaf toposes_.
+In particular, this equivalence shows that _slices of presheaf toposes are presheaf toposes_. 
+
+
+### Artin gluings 
+
+The statements of the preceding [subsection](#RelWithOvercategories) may be generalized further:  
+
++-- {: .num_theorem} 
+###### Theorem 
+Let $T: Set^{C^{op}} \to Set^{D^{op}}$ be a functor that preserves [[wide pullbacks]]. Then the [[Artin gluing]] $(Set^{D^{op}} \downarrow T)$ is also a presheaf topos. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+The functor $T$ is [[parametric right adjoint|familially representable]]: there is a functor $D^{op} \to Fam(Set^{C^{op}})$ into the small [[free cartesian category|coproduct cocompletion]] of $Set^{C^{op}}$, taking $d \in Ob(D)$ to a formal coproduct $\sum_{x \in T(1)(d)} W_{(d, x)}$ of presheaves $W_{(d, x)}: C^{op} \to Set$, such that $T(F)$ is given by the formula 
+
+$$T(F)(d) = \sum_{x \in T(1)(d)} Set^{C^{op}}(W_{(d, x)}, F).$$ 
+
+The Artin gluing itself is then describable as the [[collage]] of the [[profunctor]] $W: C \nrightarrow (y_D \downarrow T(1))$ defined by the formula 
+
+$$W(c; (d, x: D(-, d) \to T(1))) = W_{(d, x)}(c).$$ 
+For details, see for example Appendix C.3 of [Leinster](#Lein). The result is due to [Carboni and Johnstone](#cj). 
+=-- 
+
+In passing, we note that the small coproduct cocompletion $Fam(Set^{C^{op}})$ is itself a presheaf topos: there are [[equivalence of categories|equivalences]] 
+
+$$Fam(Set^{C^{op}}) \simeq Set^{C^{op}} \downarrow \Delta \simeq Set^{C_+^{op}}$$ 
+
+where $\Delta: Set \to Set^{C^{op}}$ is the [[diagonal functor]], and $C_+$ is the result of freely adjoining an [[initial object]] to $C$, i.e., the [[ordinal sum of categories]] $1 +_\sigma C$ of categories ($1$ being [[terminal object|terminal]]), aka the [[cone]] of $C$. 
 
 ### Finite presheaves
 
@@ -236,7 +264,15 @@ The characterizations of categories of presheaves are discussed in
 
 * {#CarboniVitale98}[[Aurelio Carboni|A. Carboni]], [[Enrico Vitale|E. M. Vitale]], _Regular and exact completions_ , JPAA **125** (1998) pp.79-116.
 
-* {#CentazzoVitale04}C. Centazzo, [[Enrico Vitale|E. M. Vitale]], _Sheaf theory_ , pp.311-358 in Pedicchio, Tholen (eds.), _Categorical Foundations_ , Cambridge UP 2004. ([draft](https://perso.uclouvain.be/enrico.vitale/chapter7.pdf))
+* {#CentazzoVitale04}C. Centazzo, [[Enrico Vitale|E. M. Vitale]], _Sheaf theory_ , pp.311-358 in Pedicchio, Tholen (eds.), _Categorical Foundations_ , Cambridge UP 2004. ([draft](https://perso.uclouvain.be/enrico.vitale/chapter7.pdf)) 
+
+The result about Artin gluings of presheaf toposes is due to Carboni and Johnstone, 
+
+* {#cj} [[Aurelio Carboni]] and [[Peter Johnstone]], *Connected limits, familial representability and Artin glueing*, Mathematical Structures in Computer Science, Volume 5, Issue 4 (December 1995), 441-459. ([link](https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science/article/connected-limits-familial-representability-and-artin-glueing/54E93903F7D7321B98B64AE7CB3E7AE0))  
+
+and is explained in section C.3 of Tom Leinster's book, 
+
+* {#Lein} [[Tom Leinster]], *Higher Categories, Higher Operads*, ([https://arxiv.org/abs/math/0305049](https://arxiv.org/abs/math/0305049)). 
 
 [[!redirects categories of presheaves]]
 [[!redirects presheaf category]]
