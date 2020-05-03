@@ -1,4 +1,18 @@
 
+$$
+  \begin{aligned}
+    \star_4 d \star_4 d f
+    & = 
+    \star_4 d \star_4 \partial_\mu f d x^\mu
+    \\
+    & =
+    \star_4 d \epsilon_{\mu_1 \mu_2 \mu_3 \mu_4} 
+    (\partial^{\mu_1} f) d x^{\mu_2 } \wedge d x^{\mu_3} \wedge d x^{\mu_4}
+    \\
+    & =
+  \end{aligned}
+$$
+
 
 
 $$
@@ -22,6 +36,18 @@ $$
   e^{- x^4} \,  B_{\mu_1 \mu_2} \, d x^4
   - 
   e^{- x^4} \, d ( B_{\mu_1 \mu_2} )
+$$
+
+\linebreak
+
+$$
+  \begin{aligned}
+    \star_4 d \star_{4} d f
+    & =
+    \epsilon^{\mu_1 \mu_2 \mu_3 \mu_4}
+    \star_4 d \partial_{\mu_1} f d x_{\mu_2} \wedge d x_{\mu_3} \wedge d x_{\mu_4}
+    
+  \end{aligned}
 $$
 
 \linebreak
@@ -54,23 +80,36 @@ $$
   \begin{aligned}
     H_3 
     & = \;
-    e^{- x^4}
+    e^{- x^4 E}
     \big(
       d A \wedge d x^{5'}
+      -
+      E\, A \wedge d x^4 \wedge d x^{5'}
       +
-      A \wedge d x^4 \wedge d x^{5'}
-      +
-      \overline{L_l} \!\cdot\! \gamma_\mu \!\!\!\cdot\! L_l
-       \, d x^4 \wedge d x^{5'}
-    \\
-    & \;\;
-    +
-    B \wedge d x^4
-    +
-    d B 
+      d B 
+      -
+      E \, B \wedge d x^4
     \big)
   \end{aligned}
 $$
+
+$$
+  \begin{aligned}
+    \star_{{}_{6'}} H_3 
+    & = \;
+    e^{- x^4}
+    \big(
+      \star_4 d A \wedge d x^4
+      -
+      E \, \star_4 A 
+      +
+      \star_4 d B  \wedge d x^4 \wedge d x^{5'}
+      +
+      E \, \star_4 B \wedge d x^{5'}
+    \big)
+  \end{aligned}
+$$
+
 
 \linebreak
 
@@ -85,7 +124,7 @@ $$
     \begin{aligned}
       E \, B & =  \star_{{}_4} d A
       \\
-      \star_{{}_4} d B & = E \, (A + J^{el})
+      \star_{{}_4} d B & = - E \, (A + J^{el})
     \end{aligned}
   \right.
   \;\;\;
@@ -96,7 +135,7 @@ $$
       B & = \frac{1}{E} \star_{{}_4} d (A + J^{el})
       \\
       \star_{{}_4} d \star_{{}_4} d (A + J^{el}) & = 
-      E^2 ( A + J^{el} )
+      - E^2 ( A + J^{el} )
     \end{aligned}
   \right.
 $$
