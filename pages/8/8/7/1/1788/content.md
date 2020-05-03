@@ -1,291 +1,108 @@
 
-$\omega$ $\rho$ $\phi$
 
-$\ell$
-
-$\Upsilon$
-
-$\eta$
-
-$\mathbb{O}$
-
-$q \in \mathbb{H}$
-
-\[
-  \label{DicksonRelations}
-  a (\ell b) 
-  = 
-  \ell (\overline{a} b)
-  \,,
-  \phantom{AA}
-  (a \ell) b 
-  = 
-  (a \overline{b}) \ell
-  \,,
-  \phantom{AA}
-  (\ell a) (b \ell^{-1})
-  = 
-  \overline{a b}
-\]
 
 $$
-  \begin{aligned}
-  a \ell 
-  & =
-  a (\ell 1)
-  \\
-  & =
-  \ell (\overline{a} 1)
-  \\
-  & =
-  \ell \overline{a}
-  \end{aligned}
-$$
-
-$$ 
-  \begin{aligned}
-  \ell a
-  & =
-  (1 \ell) a
-  \\
-  & =
-  (1 \overline{a}) \ell
-  \\
-  & =
-  \overline{a} \ell
-  \end{aligned}
-$$
-
-$$
-  \begin{aligned}
-    (\ell a) b
-    & =
-    (\overline{a} \ell ) b
-    \\
-    & =
-    (\overline{a} \overline{b}) \ell
-    \\
-    & =
-    \ell \overline{  
-      \overline{a} \overline{b}
-    }
-    \\ 
-    & =
-    \ell (b a)
-  \end{aligned}
-$$
-
-$$
-  \begin{aligned}
-  (\ell a) (\ell b)
-  & =
-  (\ell a) (\overline{b} \ell)
-  \\
-  & =
-  -(\ell a) (\overline{b} \ell^{-1})
-  \\
-  & =
-  - \overline{ a \overline{b} }
-  \\
-  & =
-  - b \overline{a}
-  \end{aligned}
-$$
-
-$$
-  \begin{aligned}
-    (a + \ell b)
-    (c + \ell d)
-    & =
-    a c + (\ell b)(\ell d)
+  \sigma^\ast( e_{\mu 5'} )
+  \;=\;
+  e^{- x^4 E} 
+  \big(
+    d ( A_\mu )
+    -  
+    E\, A_\mu \, d x^4
     +
-    a (\ell d) + (\ell b) c
-    \\
-    & =
-    a c - d \overline{b}
-    +
-    \ell ( 
-      \overline{a} d  
-      + 
-      c b
-    )
-  \end{aligned}
+    E 
+    \overline{L_l} \!\cdot\! \gamma_\mu \!\!\!\cdot\! L_l
+    \, d x^4
+  \big)
 $$
 
-
-
 $$
-  \left(
-    \array{
-      \mathbb{H}
-      \\
-      \mathbb{H}
-    }
-  \right) 
-$$
-
-
-$$
-  \left(
-    \array{
-      0 & j
-      \\
-      -j & 0
-    }
-  \right)
-$$
-
-
-$$
-  j 
-  \cdot
-  (a + j \cdot b)
+  \sigma^\ast( e_{\mu_1 \mu_2} )
   \;=\;
-  (- b + j \cdot a)
-  \;=\;
-  \left( 
-    \array{
-      0 & 1
-      \\
-      -1 & 0
-    }
-  \right)
+  e^{- x^4} \,  B_{\mu_1 \mu_2} \, d x^4
+  - 
+  e^{- x^4} \, d ( B_{\mu_1 \mu_2} )
 $$
 
 $$
-  k
-  \cdot
-  (a + j \cdot b)
-  \;=\;
-  (- i \cdot b - j \cdot i a)
-  \;=\;
-  \left( 
-    \array{
-      0 & -i
-      \\
-      -i & 0
-    }
-  \right)
-$$
-
-$$
-  \left( 
-    \array{
-      0 & 1
-      \\
-      -1 & 0
-    }
-  \right)
-  \cdot
-  \left( 
-    \array{
-      (x_0 + x_1) & q
-      \\
-      \overline{q} & (x_0  - x_1)
-    }
-  \right)
-  =
-  \left( 
-    \array{
-      \overline{q} & (x_0 - x_1)
-      \\
-      -(x_0 + x_1) & - q
-    }
-  \right)
-$$
-
-
-$$
-  \left( 
-    \array{
-      (x_0 + x_1) & q
-      \\
-      \overline{q} & (x_0  - x_1)
-    }
-  \right)
-  \cdot
-  \left( 
-    \array{
-      0 & 1
-      \\
-      -1 & 0
-    }
-  \right)
-  =
-  \left( 
-    \array{
-      -q & (x_0 + x_1)
-      \\
-      -(x_0 - x_1) & \overline{q}
-    }
-  \right)
+  H_3
+  \;\coloneqq\;
+  \sigma^\ast
+  \big(
+    e_{a_1 a_2}
+   \wedge 
+   e^{a_1}
+   \wedge 
+   e^{a_2}
+  \big)
 $$
 
 \linebreak
 
-The 6d spinors in $\mathbb{H}^2$ decompose as pairs of 4d spinors under
+$$
+  \begin{aligned}
+    H_3 
+    & = \;
+    e^{- x^4}
+    \big(
+      d A \wedge d x^{5'}
+      +
+      A \wedge d x^4 \wedge d x^{5'}
+      +
+      \overline{L_l} \!\cdot\! \gamma_\mu \!\!\!\cdot\! L_l
+       \, d x^4 \wedge d x^{5'}
+    \\
+    & \;\;
+    +
+    B \wedge d x^4
+    +
+    d B 
+    \big)
+  \end{aligned}
+$$
+
+\linebreak
 
 $$
-  \mathbb{H}
-  \;\simeq_{\mathbb{R}}\;
-  \mathbb{C} \oplus \mathbb{C} j
-  \,.
-$$
-
-What's the residual action of $SU(2)_R$ on these? The one generated from $\mathbf{\Gamma}_6 \mathbf{\Gamma}_7$?
-
-The corresponding octonionic matrix is
-
-$$
-  \mathbf{\Gamma}_6 \mathbf{\Gamma}_7
+  \star_{{}_{6'}} H_3 
   \;=\;
-  \left( 
-    \array{
-      0 & L_{e_4}
+  H_3
+  \;\;\;
+    \Leftrightarrow
+  \;\;\;
+  \left\{
+    \begin{aligned}
+      E \, B & =  \star_{{}_4} d A
       \\
-      - L_{e_4} & 0
-    }
-  \right)
-  \left( 
-    \array{
-      0 & L_{e_5}
+      \star_{{}_4} d B & = E \, (A + J^{el})
+    \end{aligned}
+  \right.
+  \;\;\;
+  \Leftrightarrow
+  \;\;\;
+  \left\{
+    \begin{aligned}
+      B & = \frac{1}{E} \star_{{}_4} d (A + J^{el})
       \\
-      - L_{e_5} & 0
-    }
-  \right)
+      \star_{{}_4} d \star_{{}_4} d (A + J^{el}) & = 
+      E^2 ( A + J^{el} )
+    \end{aligned}
+  \right.
+$$
+
+\linebreak
+
+$$
+  \mathbf{A}_\mu
   \;=\;
-  - L_{e_4} L_{e_5}  
+  e^{- x^4} A_\mu
 $$
 
-Now we compute from the octonionic multiplication table
+\linebreak
+  
+\linebreak
 
-
-$$
-  L_{e_4} L_{e_6} 1
-  \;=\;
-  j
-$$
-
-$$
-  L_{e_4} L_{e_6} i
-  \;=\;
-  k = i j
-$$
-
-$$
-  L_{e_4} L_{e_6} j
-  \;=\;
-  - 1
-$$
-
-$$
-  L_{e_4} L_{e_6} k
-  \;=\;
-  - i
-$$
-
-
-
+***
 
 
 \linebreak
