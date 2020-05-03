@@ -24,17 +24,28 @@ $$
   e^{- x^4} \, d ( B_{\mu_1 \mu_2} )
 $$
 
+\linebreak
+
 $$
-  H_3
-  \;\coloneqq\;
-  \sigma^\ast
-  \big(
-    e_{a_1 a_2}
+  \begin{aligned}
+    H_3
+    & \coloneqq\;
+    \sigma^\ast
+    \big(
+      e_{a_1 a_2}
+     \wedge 
+     e^{a_1}
+     \wedge 
+     e^{a_2}
+    \big)
+    \\
+    & +
+    e_{ a_1 a_2 5'}{}^{4 5}
    \wedge 
-   e^{a_1}
-   \wedge 
-   e^{a_2}
-  \big)
+    e^{a_1} 
+    \wedge 
+    e^{a_2}
+  \end{aligned}
 $$
 
 \linebreak
