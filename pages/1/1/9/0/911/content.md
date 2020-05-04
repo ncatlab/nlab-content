@@ -99,7 +99,7 @@ The functor $el : \mathbf{Set}^{C} \to \mathbf{Cat}$ is [[cocontinuous functor|c
 =--
 +-- {: .proof}
 ###### Proof
-As remarked above, $el$ is a strict [[weighted colimit]] [[2-colimit]], hence we have an isomorphism
+As remarked above, $el$ is a strict [[weighted colimit|weighted]] [[2-colimit]], hence we have an isomorphism
 $$ el(P) \cong \int^{c\in C} J(c) \times disc(P(c)) $$
 where the weight $J:C^{op} \to \mathbf{Cat}$ is the functor $c\mapsto c/C$, and $disc:\mathbf{Set}\hookrightarrow \mathbf{Cat}$ is the inclusion of the [[discrete categories]].  But since $disc$ (regarded purely as a 1-functor) has a right adjoint (the functor which sends a -small- category $C$ into its set of elements $C_0$), it preserves (1-categorical) colimits.  Since colimits also commute with colimits, the composite operation $\el$ also preserves colimits.
 =--
