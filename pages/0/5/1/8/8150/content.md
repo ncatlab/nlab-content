@@ -88,6 +88,26 @@ By direct unwinding of the definitions.
 =--
 
 
+### As Day convolution
+
+The following section is copied form an answer by [[Alexander Campbell]]
+on [MathOverflow](https://mathoverflow.net/revisions/359316/6).
+
+The tensor product of chain complexes is a [[Day convolution]] product. The important thing to note is that, to define a [[Day convolution]] [[monoidal structure]] on the $\mathcal{V}$-[[enriched functor]] category $[\mathcal{C},\mathcal{V}]$ (where $\mathcal{V}$ is a complete and cocomplete [[symmetric monoidal closed category]], e.g. $\mathbf{Ab}$), we needn't demand $\mathcal{C}$ to be a monoidal $\mathcal{V}$-category: it suffices for $\mathcal{C}$ to be a **[[promonoidal]]** $\mathcal{V}$-category. This is the generality at which [[Day convolution]] was originally defined in [Day's thesis](http://web.science.mq.edu.au/~street/DayPhD.pdf) (see also [his earlier paper in the Reports of the Midwest Category Seminar IV](https://web.math.rochester.edu/people/faculty/doug/otherpapers/DayReport.pdf), where the word "premonoidal" was used).
+
+A [[promonoidal structure]] on a small $\mathcal{V}$-category $\mathcal{C}$ consists of tensor product and unit "[[profunctors]]", i.e. $\mathcal{V}$-functors $P \colon \mathcal{C}^\mathrm{op}\times\mathcal{C}^\mathrm{op} \times \mathcal{C} \to \mathcal{V}$ and $J \colon \mathcal{C} \to \mathcal{V}$, together with associativity and unit constraints subject to the usual two 
+"[[pentagon]]" and "triangle" axioms. Given a [[promonoidal structure]] on $\mathcal{C}$, we may construct the **[[Day convolution]]** [[monoidal structure]] on $[\mathcal{C},\mathcal{V}]$, whose tensor product is given at a pair of $\mathcal{V}$-functors $F,G \in [\mathcal{C},\mathcal{V}]$ by the coend
+$$F\ast G = \int^{A,B \in \mathcal{C}} P(A,B;-) \otimes FA \otimes GB$$
+in $\mathcal{V}$, 
+and whose unit object is the $\mathcal{V}$-functor $J \in [\mathcal{C},\mathcal{V}]$, and so on. This [[monoidal structure]] on $[\mathcal{C},\mathcal{V}]$ is biclosed (i.e., the tensor product $\mathcal{V}$-functor has a right $\mathcal{V}$-adjoint -- equivalently, preserves (weighted) [[colimits]] -- in each variable). In fact, every [[biclosed monoidal structure]] on $[\mathcal{C},\mathcal{V}]$ arises in this way from some [[promonoidal structure]] on $\mathcal{C}$. (For instance, one recovers the $\mathcal{V}$-functor $P$ from the tensor product $\ast$ by $P(A,B;C) = (\mathcal{C}(A,-) \ast \mathcal{C}(B,-))C$.)
+
+So, since the $\mathbf{Ab}$-category $\mathbf{Ch}$ of chain complexes is (equivalent to) an $\mathbf{Ab}$-[[enriched functor]] category $[\mathcal{C},\mathbf{Ab}]$ (for the $\mathbf{Ab}$-category $\mathcal{C}$ described in the question to which you linked), and since the standard [[monoidal structure]] on $\mathbf{Ch}$ is $\mathbf{Ab}$-enriched and biclosed, this [[monoidal structure]] must be the [[Day convolution]] [[monoidal structure]] for some [[promonoidal]] structure on $\mathcal{C}$. And it isn't too hard to describe that [[promonoidal]] structure. For instance, (presuming I haven't bungled the calculation) the functor $P$ is defined on objects by $$P(i,j;k) = \begin{cases}
+\mathbb{Z}  & \mathrm{if} i+j=k, \cr
+\mathbb{Z} \oplus \mathbb{Z} &  \mathrm{if} i+j=k+1, \cr
+\mathbb{Z} &  \mathrm{if} i+j=k+2, \cr
+0 & \mathrm{else}. \cr
+\end{cases} $$
+
 ## Examples
 
 ### Square as tensor product of interval with itself
@@ -489,8 +509,5 @@ For instance section 2.7 of
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
 
 [[!redirects tensor products of chain compexes]]
-
 [[!redirects tensor product of cochain complexes]]
 [[!redirects tensor products of cochain complexes]]
-
-
