@@ -60,8 +60,9 @@ This is the special case of [[Einstein-Yang-Mills theory]] for the [[gauge group
 
 ## Related concepts
 
-* [[charged black hole]]
+* [[D=5 Einstein-Maxwell theory]]
 
+* [[charged black hole]]
 
 * [[Einstein-Hilbert action]]
 
