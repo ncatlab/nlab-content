@@ -35,12 +35,15 @@ For $n \in \mathbb{N}$ a  [[natural number]], the _$n$th Hermite polynomial_ is 
   \,,
 \]
 
-where $\exp(-)$ denotes the [[exponential function]] and $d/d x^n$ denotes the $n$th [[derivative]] with respect to $x$.
+where $\exp(-)$ denotes the [[exponential function]] and $d/d x^n$ denotes the $n$th [[derivative]] with respect to $x$. 
+
+Sometimes one writes $H_n(x)$ for the polynomial above, times $\exp\left( 
+-\tfrac{1}{2} x^2\right)$. We will follow that custom below. 
 
 
 ## Properties
 
-### Orhtonormality
+### Orthonormality
 
 Regarded as [[smooth functions]] $H_n \colon \mathbb{R} \to \mathbb{R}$ on the [[real line]], the Hermite polynomials (eq:RodriguezFormulaForHermitePolynomials) form an [[orthonormal basis]] of [[square-integrable functions]] with respect to the [[p-norm|2-norm]], in that the [[integration]] over their product satisfies
 
