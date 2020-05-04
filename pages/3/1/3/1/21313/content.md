@@ -4,9 +4,12 @@
 
 ## Selected writings
 
-On [[light cone gauge quantization]] of [[QCD]]:
+On [[light-front quantization]] of [[QCD]]:
 
 * [[Stanley Brodsky]], H-C Pauli, S. Pinsky, _Quantum Chromodynamics and Other Field Theories on the Light Cone_, Phys. Rept. 301:299-486, 1998 ([arXiv:hep-ph/9705477](https://arxiv.org/abs/hep-ph/9705477))
+
+* Philip D. Mannheim, Peter Lowdon, [[Stanley Brodsky]], 
+_Comparing light-front quantization with instant-time quantization_ ([arXiv:2005.00109](https://arxiv.org/abs/2005.00109))
 
 
 Introducing [[holographic light front QCD]]:
