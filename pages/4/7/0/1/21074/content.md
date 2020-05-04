@@ -26,7 +26,7 @@ Together with the [[K* mesons]], which are the corresponding [[vector mesons]], 
 The class of K-mesons goes alongside that of [[D-mesons]] ([[light mesons]] with a [[charm quark]]) and [[B-mesons]] (mesons with a [[bottom quark]]).
 
 \begin{imagefromfile}
-    "file_name": "LightAndChiralPartnerMesonFieldsPinII.jpg",
+    "file_name": "LightAndChiralPartnerMesonFieldsPinIII.jpg",
     "width": 600,
     "unit": "px",
     "margin": {
