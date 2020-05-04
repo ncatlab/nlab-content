@@ -48,6 +48,12 @@ Replacing "finite" by "of cardinality less than $\kappa$" everywhere, for some [
 
 * [[Top]], [[FinSet]] are not lfp.
 
+## References
+
+A good introductory account is in
+
+* Maru Sarazola, _An introduction to locally finitely presentable categories_, ([pdf](https://pi.math.cornell.edu/~maru/documents/locally_finitely_presentable_cats.pdf))
+
 [[!redirects locally finitely presentable categories]]
 [[!redirects lfp category]]
 [[!redirects lfp categories]]
