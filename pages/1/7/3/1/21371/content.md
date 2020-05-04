@@ -16,12 +16,12 @@
 
 ## Idea
 
-The _$f_1$-meson_ is the [[light meson|light]] [[meson]] which (in the [[Wigner classification]]) is the [[Lorentz group|Lorentz]] [[spin group]] [[vector representation]] sn [[isospin]] [[scalar]].
+The _$f_1$-meson_ is the [[light meson|light]] [[meson]] which (in the [[Wigner classification]]) is the [[Lorentz group|Lorentz]] [[spin group]] [[pseudo-vector representation]] and [[isospin]] [[scalar]].
 
 This is the [[chiral partner]] of the [[omega-meson]].
 
 \begin{imagefromfile}
-    "file_name": "LightAndChiralPartnerMesonFieldsPinII.jpg",
+    "file_name": "LightAndChiralPartnerMesonFieldsPinIII.jpg",
     "width": 600,
     "unit": "px",
     "margin": {
