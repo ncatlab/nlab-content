@@ -279,6 +279,13 @@ Theories_, Addison-Wesley Publ. Comp., (1987)
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 1.4 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
+Textbook accounts:
+
+* [[Paul Wesson]], _Space-Time-Matter: Modern Kaluza-Klein Theory_, World Scientific 1989 ([doi:10.1142/3889](https://doi.org/10.1142/3889))
+
+* [[Paul Wesson]], James M. Overduin, _Principles of Space-Time-Matter: Cosmology, Particles and Waves in Five Dimensions_, World Scientific 2018 ([doi:10.1142/10871](https://doi.org/10.1142/10871))
+
+
 Review specifically for [[supergravity]]:
 
 * {#DuffNilssonPope86} [[Mike Duff]], [[Bengt Nilsson]], [[Christopher Pope]], _Kaluza-Klein supergravity_, Physics Reports Volume 130, Issues 1–2, January 1986, Pages 1-142 ([spire:229417](https://inspirehep.net/record/229417), <a href="https://doi.org/10.1016/0370-1573(86)90163-8">doi:10.1016/0370-1573(86)90163-8</a>)
