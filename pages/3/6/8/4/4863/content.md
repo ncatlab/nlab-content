@@ -268,18 +268,20 @@ As usual with [[KK-reduction]], some care must be exercised to ensure that the c
 
 ### General
 
-Reviews include
+Brief reviews:
 
-* D. Bailin and A. Love, _Kaluza-Klein theories_, Rept. Prog. Phys. 50 (1987) 1087&#8211;1170.
-
-* T. Applequist, A. Chodos and [[Peter Freund]], _Modern Kaluza-Klein
-Theories_, Addison-Wesley Publ. Comp., (1987)
+* D. Bailin and A. Love, _Kaluza-Klein theories_, Rept. Prog. Phys. 50 (1987) 1087&#8211;1170 ([spire:253064](https://inspirehep.net/literature/253064), [doi:10.1088/0034-4885/50/9/001](https://iopscience.iop.org/article/10.1088/0034-4885/50/9/001))
 
 * [[Matthias Blau]], chapter 43 of _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 1.4 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
+
 Textbook accounts:
+
+* T. Applequist, A. Chodos, [[Peter Freund]], _Modern Kaluza-Klein
+Theories_, Addison-Wesley Publ. Comp., (1987) ([spire](https://inspirehep.net/literature/255996))
+
 
 * [[Paul Wesson]], _Space-Time-Matter: Modern Kaluza-Klein Theory_, World Scientific 1989 ([doi:10.1142/3889](https://doi.org/10.1142/3889))
 
