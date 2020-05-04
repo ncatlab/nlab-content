@@ -170,6 +170,15 @@ Since $x - a$ is monic, we may write $p(x) = (x - a)q(x) + r$ where $\deg(r) \lt
 
 This observation may be exploited in various neat ways. One is that if $p(x)$ is a polynomial, then $p(y) = p(x) + (y - x)q(x, y)$ for some unique $q(x, y) \in k[x, y]$. A consequence is that the Lawvere theory of commutative $k$-algebras is a [[Fermat theory]]. The [[derivative]] of $p$ may be defined to be $q(x, x) \in k[x]$. 
 
+## Examples
+
+* [[Hermite polynomial]]
+
+* [[Jones polynomial]], [[Alexander polynomial]] ([[knot theory]])
+
+* [[Wick polynomial]]
+
+
 ## Related concepts
 
 * [[monomial]]
@@ -186,13 +195,10 @@ This observation may be exploited in various neat ways. One is that if $p(x)$ is
 
 * [[variety]], [[Diophantine equation]]
 
-* [[Jones polynomial]], [[Alexander polynomial]] ([[knot theory]])
-
 * [[spectral polynomial algebra]]
 
 * [[polynomial Poisson algebra]]
 
-* [[Wick polynomial]]
 
 
 [[!redirects polynomial]]
