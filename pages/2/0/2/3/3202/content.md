@@ -29,7 +29,7 @@ Beware that sometimes the notation '$L_p$' is used as a synonym for $L^p$; somet
 ## Definitions
  {#Definition}
 
-If $1 \leq p \lt \infty$ is a [[real number]] and $(\Omega,\mu)$ is a [[measure space]], one considers the **$L^p$ space** $L_p(\Omega)$, which is the [[vector space]] of [[equivalence classes]] of those [[measurable function|measurable]] (complex- or real-valued) functions $f\colon \Omega \to \mathbb{K}$ whose (absolute values of) $p$th powers are integrable, in that the integral
+If $1 \leq p \lt \infty$ is a [[real number]] and $(\Omega,\mu)$ is a [[measure space]], one considers the **$L^p$ space** $L_p(\Omega)$, which is the [[vector space]] of [[equivalence classes]] of those [[measurable function|measurable]] (complex- or real-valued) functions $f\colon \Omega \to \mathbb{K}$ whose (absolute values of) $p$th powers are integrable, in that the [[integration|integral]]
 
 $$ 
   {\|f\|_p} 
