@@ -101,12 +101,16 @@ $$F\ast G = \int^{A,B \in \mathcal{C}} P(A,B;-) \otimes FA \otimes GB$$
 in $\mathcal{V}$, 
 and whose unit object is the $\mathcal{V}$-functor $J \in [\mathcal{C},\mathcal{V}]$, and so on. This [[monoidal structure]] on $[\mathcal{C},\mathcal{V}]$ is biclosed (i.e., the tensor product $\mathcal{V}$-functor has a right $\mathcal{V}$-adjoint -- equivalently, preserves (weighted) [[colimits]] -- in each variable). In fact, every [[biclosed monoidal structure]] on $[\mathcal{C},\mathcal{V}]$ arises in this way from some [[promonoidal structure]] on $\mathcal{C}$. (For instance, one recovers the $\mathcal{V}$-functor $P$ from the tensor product $\ast$ by $P(A,B;C) = (\mathcal{C}(A,-) \ast \mathcal{C}(B,-))C$.)
 
-So, since the $\mathbf{Ab}$-category $\mathbf{Ch}$ of chain complexes is (equivalent to) an $\mathbf{Ab}$-[[enriched functor]] category $[\mathcal{C},\mathbf{Ab}]$ (for the $\mathbf{Ab}$-category $\mathcal{C}$ described in the question to which you linked), and since the standard [[monoidal structure]] on $\mathbf{Ch}$ is $\mathbf{Ab}$-enriched and biclosed, this [[monoidal structure]] must be the [[Day convolution]] [[monoidal structure]] for some [[promonoidal]] structure on $\mathcal{C}$. And it isn't too hard to describe that [[promonoidal]] structure. For instance, (presuming I haven't bungled the calculation) the functor $P$ is defined on objects by $$P(i,j;k) = \begin{cases}
-\mathbb{Z}  & \mathrm{if} i+j=k, \cr
-\mathbb{Z} \oplus \mathbb{Z} &  \mathrm{if} i+j=k+1, \cr
-\mathbb{Z} &  \mathrm{if} i+j=k+2, \cr
-0 & \mathrm{else}. \cr
-\end{cases} $$
+So, since the $\mathbf{Ab}$-category $\mathbf{Ch}$ of chain complexes is (equivalent to) an $\mathbf{Ab}$-[[enriched functor]] category $[\mathcal{C},\mathbf{Ab}]$ (for the $\mathbf{Ab}$-category $\mathcal{C}$ described in the question to which you linked), and since the standard [[monoidal structure]] on $\mathbf{Ch}$ is $\mathbf{Ab}$-enriched and biclosed, this [[monoidal structure]] must be the [[Day convolution]] [[monoidal structure]] for some [[promonoidal]] structure on $\mathcal{C}$. And it isn't too hard to describe that [[promonoidal]] structure. For instance, (presuming I haven't bungled the calculation) the functor $P$ is defined on objects by 
+
+$$
+P(i,j;k) = \begin{cases}
+\mathbb{Z}  & \mathrm{if } \, i+j=k, \\
+\mathbb{Z} \oplus \mathbb{Z} &  \mathrm{if } \, i+j=k+1, \\
+\mathbb{Z} &  \mathrm{if } \, i+j=k+2, \\
+0 & \mathrm{else}.
+\end{cases} 
+$$
 
 ## Examples
 
