@@ -116,13 +116,13 @@ The following are closely interrelated, and depend on having a suitable universe
 
 *(... clarify ...)*
 
-###### Goedel completeness theorem
+###### G&ouml;del's completeness theorem
 
 Given a first-order theory $T$ in some language $L$, $T$ is consistent iff there is a model of $T$ in $V$ --- that is, iff $M\models T$ for some $M\in V$.
 
 See at _[[completeness theorem]]_.
 
-###### Goedel's compactness theorem
+###### G&ouml;del's compactness theorem
 
 Under the same hypotheses, $T$ is consistent iff every finite subset of $T$ is consistent; expressed semantically, a theory $T$ has a model iff every finite subset of $T$ has a model.
 
@@ -131,6 +131,8 @@ See at _[[compactness theorem]]_.
 ###### &#321;o&#347; ultraproduct theorem
 
 *(...think of a good way to state this...)*
+
+See at [[Łoś ultraproduct theorem]].
 
 ##### Corollaries worth thinking about
 
@@ -213,7 +215,7 @@ Discussion of aspects of [[category theory]] and [[categorical logic]] ([[access
 
 * {#MakkaiPare89} [[Michael Makkai]], [[Robert Paré]], _Accessible categories: the foundations of categorical model theory_, Contemporary mathematics vol 104, AMS 1989
 
-* {#BekeRosicky11} [[Tibor Beke]], [[Ji?í Rosický]], _Abstract elementary classes and accessible categories_, 2011   ([pdf](http://www.math.muni.cz/~rosicky/papers/elem7.pdf))
+* {#BekeRosicky11} [[Tibor Beke]], [[Jiří Rosický]], _Abstract elementary classes and accessible categories_, 2011   ([pdf](http://www.math.muni.cz/~rosicky/papers/elem7.pdf))
 
 * B.Hart et. al (eds.), _Models, Logics, and Higher-dimensional Categories,  A Tribute to the Work of Mihali Makkai_, AMS (2011)
 
