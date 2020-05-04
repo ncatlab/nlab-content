@@ -184,3 +184,10 @@ Discussion of the [[Hodge star operator]] on [[supermanifolds]] (in terms of [[p
 [[!redirects Hodge duals]]
 
 [[!redirects Hodge duality]]
+[[!redirects Hodge dualities]]
+
+[[!redirects Hodge pairing]]
+[[!redirects Hodge pairings]]
+
+
+
