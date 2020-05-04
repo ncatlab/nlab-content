@@ -38,6 +38,11 @@ In any [[Heyting category]] (such as a [[topos]]), the subobjects of $X$ form a 
 
 The reader can probably think of other variations on this theme.
 
+If $f : X \to Y$ is a morphism that has pullbacks along monomorphisms, then pullback along $f$ induces a poset morphism $f^* : Sub(Y) \to Sub(X)$, called __inverse image__. This is functoral in the sense that if $g : Y \to Z$ also has this property, then $f^* \circ g^* = (g \circ f)^*$.
+
+If $C$ has pullbacks of monomorphisms, $Sub$ is often used to denote the contravariant functor $C^{op} \to Poset$ whose action on morphisms is $Sub(f) = f^*$.
+
+
 ## Related concepts
 
 * If one opts for the alternative[^1] definition that subobjects _are_ monomorphisms into the object (not isomorphism classes thereof), then one gets a [[preorder]] of subobjects instead. In any case, the *poset* of [[subobjects]] $Sub(X)$ in our sense is the posetal reflection of the preorder $Mono(X)$ of subobjects in the alternative sense, and of course the reflection quotient map $Mono(X) \to Sub(X)$ is an [[equivalence]]. 
