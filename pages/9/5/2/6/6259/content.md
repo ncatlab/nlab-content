@@ -208,6 +208,10 @@ A quick review as a warm-up for the higher dimensional case is in
 The [[worldvolume]] theory of the [[M5-brane]], the
 [[6d (2,0)-superconformal QFT]], contains a self-dual 2-form field. Its [AdS7-CFT6 holographic](AdS-CFT#AdS7CFT6) description by 7-dimensional Chern-Simons theory is due to ([Witten 96](#Witten96)).
 
+
+[[!include relation between 5d Maxwell theory and self-dual 3-forms in 6d -- section]]
+
+
 ### RR-Fields in 10d (on the "9-brane")
  {#RRFieldsin10d}
 
