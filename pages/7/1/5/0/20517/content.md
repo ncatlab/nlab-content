@@ -19,7 +19,12 @@
 
 ## Idea
 
-A [[Lagrangian density]]/[[action functional]] for the [[self-dual higher gauge field]] in 6d and/or the [[M5-brane]] [[Green-Schwarz sigma model]], after [[KK-compactification]] to 5 [[worldvolume]] [[dimensions]].
+The _Perry-Schwarz Lagrangian_ is [[Lagrangian density]]/[[action functional]] for the [[self-dual higher gauge field]] in 6d and/or the [[M5-brane]] [[Green-Schwarz sigma model]], after [[KK-compactification]] to 5 [[worldvolume]] [[dimensions]].
+
+The construction is closely related to the following basic fact relating [[self-dual higher gauge theory|self-dual]] [[differential 3-forms]] on 6d [[Minkowski spacetime]] and [[D=5 Maxwell theory]]:
+
+[[!include relation between 5d Maxwell theory and self-dual 3-forms in 6d -- section]]
+
 
 ## Details
 
