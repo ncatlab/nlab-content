@@ -68,15 +68,13 @@ This is due to ([ChristodoulouKlainerman 1993](#ChristodoulouKlainerman)).
 
 ## References
 
-Due to 
+The notion of Minkowski spacetime originates with
 
 * {#Minkowski07} [[Hermann Minkowski]], _Die Grundgleichungen für die elektromagnetischen Vorgänge in bewegten Körpern_,  Math. Ann. (1910) 68: 472, reprinted from: Nachrichten der Kgl. Ges. d. Wiss. zu Göttingen, Math.-phys. Kl., Sitzung vom 21. Dezember 1907 ([doi:10.1007/BF01455871](https://doi.org/10.1007/BF01455871))
 
 > {#TheViewsOfSpaceAndTime} The views of space and time that I wish to lay before you have sprung from the soil of experimental physics, and therein lies their strength. They are radical. Henceforth space by itself, and time by itself, are doomed to fade away into mere shadows, and only a kind of union of both will retain an independent reality.
 
 > (Address to the 80th Assembly of German Natural Scientists and Physicians, (Sep 21, 1908), see [WikiQuote](https://en.wikiquote.org/wiki/Hermann_Minkowski))
-
-
 
 See also 
 
