@@ -1,4 +1,4 @@
-<div style="float:right;margin:0 10px 10px 0;"><img src="http://www.math.uchicago.edu/~may/logo.gif" alt="Peter May" /></div>
+<div style="float:right;margin:10px 10px 10px 10px;"><img src="http://www.math.uchicago.edu/~may/logo.gif" alt="Peter May" /></div>
 
 J. Peter May is a [[homotopy theory|homotopy theorist]] at the University of Chicago, inventor of [[operads]] as a technique for studying [[infinite loop spaces]] and [[spectrum|spectra]].
 
@@ -8,6 +8,27 @@ J. Peter May is a [[homotopy theory|homotopy theorist]] at the University of Chi
 
 ## Selected writings
 
+On [[infinite loop spaces]]:
+
+* {#May1972} [[Peter May]], _The geometry of iterated loop spaces_, 1972 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/gils.pdf))
+
+* [[Peter May]], _Infinite loop space theory_, Bull. Amer. Math. Soc. Volume 83, Number 4 (1977), 456-494. ([Euclid](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183538891))
+
+  _Infinite loop space theory revisited_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/28.pdf))
+
+On [[module spectra]]:
+
+* [[Peter May]], _Equivariant and non-equivariant module spectra_, Journal of Pure and Applied Algebra Volume 127, Issue 1, 1 May 1998, Pages 83&#8211;97 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/modfinal.pdf))
+
+On [[operads]] and [[motives]]:
+
+* [[Igor Kriz]], [[Peter May]], _Operads, algebras, modules and motives_, Ast&#233;risque __233__, Soci&#233;t&#233; Math&#233;matique de France (1995).
+
+On [[algebraic topology]]
+
+* [[Peter May]], _[[A concise course in algebraic topology]]_
+
+* [[Peter May]], [[Kate Ponto]], _[[More concise algebraic topology]]_
 
 On [[equivariant stable homotopy theory]]:
 
