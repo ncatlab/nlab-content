@@ -71,7 +71,7 @@ Assuming that the 5d [[vector potential]] $\widehat A \in \Omega^1(\mathbb{R}^{4
     V^{(n)}(\{x^\mu\})
 \]
 
-We assume now (_not_ following [Sutcliffe 10](#Sutcliffe10) here!) that $V^{(n)}_4 = 0$, hence that the $V^{(n)}$ are [[pullback of differential forms|pulled back]] from 4d spacetime, and we take these 4d [[vector potentials]] to be in 4d [[Lorenz gauge]]
+We assume now (*not& following [Sutcliffe 10](#Sutcliffe10) in this) that $V^{(n)}_4 = 0$, hence that the $V^{(n)}$ are [[pullback of differential forms|pulled back]] from 4d spacetime, and we take these 4d [[vector potentials]] to be in 4d [[Lorenz gauge]]
 
 \[
   \label{4dLorenzGauge}
@@ -147,7 +147,7 @@ $$
   \,.
 $$
 
-(Notice the sign reversal of the last two terms. A quick way to see this is to notice the [[Hodge pairing]]-relation (see [there](Hodge+star+operator#HodgePairing), and the fact that commuting the [[differential 3-form|3-form]] $\star_4 V^{(n)}$ past the [[differential 1-form|1-form]] $d x^4$ produces a sign.)
+(Notice the sign reversal of the last two terms. A quick way to see this is to notice the [[Hodge pairing]]-relation (see [there](Hodge+star+operator#HodgePairing)) and the fact that commuting the [[differential 3-form|3-form]] $\star_4 V^{(n)}$ past the [[differential 1-form|1-form]] $d x^4$ produces a sign.)
 
 Now using once more the differential recursion relation (eq:DifferentialRecursionRelationOfHermiteFunctions) of the [[Hermite functions]], the [[de Rham differential]] of this Hode dual field strength is
 
