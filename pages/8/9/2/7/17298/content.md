@@ -22,7 +22,7 @@ This page collects material related to
 
   Proceedings of the London Mathematical Society Volume 82, Issue 2, 2000 
 
-  ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf), [publisher](http://plms.oxfordjournals.org/content/82/2/441.short?rss=1&ssource=mfc))
+  ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf), [doi:10.1112/S0024611501012692]( https://doi.org/10.1112/S0024611501012692))
 
 on a unified construction and comparison of the [[Bousfield-Friedlander model structure|model structure on sequential spectra]], [[model structure on symmetric spectra]], [[model structure on orthogonal spectra]], [[model structure on excisive functors]].
 
