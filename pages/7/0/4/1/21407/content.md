@@ -81,7 +81,7 @@ We assume now (_not_ following [Sutcliffe 10](#Sutcliffe10) here!) that $V^{(n)}
   \,.
 \]
 
-By the differential recursion relation of Hermite functions (see [there](Hermite+polynomial#eq:DifferentialRecursionRelationForHermiteFunctions))
+By the differential recursion relation of [[Hermite functions]] (see [there](Hermite+polynomial#eq:DifferentialRecursionRelationForHermiteFunctions))
 
 \[
   \label{DifferentialRecursionRelationOfHermiteFunctions}
