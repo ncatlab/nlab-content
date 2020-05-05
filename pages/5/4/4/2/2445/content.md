@@ -245,18 +245,35 @@ The elements of the Clifford algera (eq:CliffordGeneratorsAnticommutator) given 
 
 \[
   \label{CliffordLieAlgebra}
-  r_{a_1 a_2}
-  \;\coloneqq\;
-  \tfrac{1}{2}
-  \Gamma_{a_1}
-  \Gamma_{2_2}
+  \begin{aligned}
+    r_{a_1 a_2}
+    & \coloneqq\;
+    \tfrac{1}{4}
+    \big[
+      \Gamma_{a_1},
+      \Gamma_{a_2} 
+    \big]
+    \\
+    & =
+    \left\{
+    \array{
+      \tfrac{1}{2}
+      \Gamma_{a_1}
+      \Gamma_{a_2}
+      &\vert&
+      a_1 \neq a_2
+      \\
+      0 &\vert& otherwise
+    }
+    \right.
+  \end{aligned}
 \]
 
-for all $a_1 \neq a_2 \;\in\; \{1, \cdots, n\}$, 
+for all $a_1, a_2 \;\in\; \{1, \cdots, n\}$, 
 
 and equipped with the [[commutator bracket]] $[a,b] \coloneqq a b - b a$  
 
-[[linear span|span]] a [[Lie algebra]] which is [[isomorphism|isomorphic]] to the [[special orthogonal Lie algebra]] $\mathfrak{so}(n,g)$ with respect to $g$, in that 
+[[linear span|span]] a [[Lie algebra]] which is [[isomorphism|isomorphic]] to the [[special orthogonal Lie algebra]] $\mathfrak{so}(n,g)$ with respect to $g$, in that their [[commutator]] [[Lie bracket]] is:
 
 $$
   \big[
@@ -323,56 +340,61 @@ First observe that
 
 Here the first step may be thought of as the _graded_ [[Jacobi identity]] in the Clifford [[super Lie algebra]], but it is also immediately verified by inspection. The second step evaluates the defining anti-commutators (eq:CliffordLieActionOnVectorsInComponents).
 
-With this we compute as follows:
+With this we compute as follows, assuming, without restriction of generality, that $a_1 \neq a_2$ and $b_1 \neq b_2$:
 
 $$
   \begin{aligned}
     \big[
-      \tfrac{1}{2}
-      \Gamma_{a_1} \Gamma_{a_2},
+      \tfrac{1}{4}
+      [\Gamma_{a_1}, \Gamma_{a_2}]
+      ,
       \;
-      \tfrac{1}{2}
-      \Gamma_{b_1} \Gamma_{b_2}
+      \tfrac{1}{4}
+      [\Gamma_{b_1}, \Gamma_{b_2}]
     \big]
     & =
-    \tfrac{1}{2}
-    \big[
-      \tfrac{1}{2}
-      \Gamma_{a_1} \Gamma_{a_2},
-      \;
-      \Gamma_{b_1} 
-    \big]
-    \Gamma_{b_2}
-    + 
-    \tfrac{1}{2}
-    \Gamma_{b_1} 
-    \big[
-      \tfrac{1}{2}
-      \Gamma_{a_1} \Gamma_{a_2},
-      \;
+    \tfrac{1}{4}
+    \Big[
+      \big[
+        \tfrac{1}{4}
+        [\Gamma_{a_1},\Gamma_{a_2}]
+        ,\,
+        \Gamma_{b_1} 
+      \big]
+      ,\,
       \Gamma_{b_2}
-    \big]
+    \Big]
+    + 
+    \tfrac{1}{4}
+    \Big[
+      \Gamma_{b_1},
+      \big[
+        \tfrac{1}{4}
+        [\Gamma_{a_1},\Gamma_{a_2}]
+        ,\,
+        \Gamma_{b_2}
+      \big]
+    \Big]
     \\
     & =    
     g_{a_2 b_1}
-    \tfrac{1}{2}
-    \Gamma_{a_1} \Gamma_{b_2}
+    \tfrac{1}{4}
+    [\Gamma_{a_1},\Gamma_{b_2}]
     -
     g_{a_1 b_1}
-    \tfrac{1}{2}
-    \Gamma_{a_2} \Gamma_{b_2}
+    \tfrac{1}{4}
+    [\Gamma_{a_2},\Gamma_{b_2}]
     +
     g_{a_2 b_2}
-    \tfrac{1}{2}
-    \Gamma_{b_1}
-    \Gamma_{a_1}
+    \tfrac{1}{4}
+    [\Gamma_{b_1},\Gamma_{a_1}]
     -
     g_{a_1 b_2}
-    \tfrac{1}{2}
-    \Gamma_{b_1} 
-    \Gamma_{a_2}
+    \tfrac{1}{4}
+    [\Gamma_{b_1}, \Gamma_{a_2}]
   \end{aligned}
 $$
+
 
 Here the first step is again the graded [[Jacobi identity]] (and is again also immediely checked by inspection), while the second step uses (eq:CliffordLieActionOnVectorsInComponents).
 
@@ -482,7 +504,6 @@ For a program that promotes the use of Clifford algebra as a good expositional t
 See also the discussion of [[Majorana spinors]]
 
 * {#FigueroaOFarrill} [[José Figueroa-O'Farrill]], _Majorana spinors_ ([pdf](http://www.maths.ed.ac.uk/~jmf/Teaching/Lectures/Majorana.pdf))
-
 
 
 [[!redirects Clifford algebras]]
