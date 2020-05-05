@@ -619,12 +619,12 @@ Here is a more random list (using material from [Wikipedia](#Wikipedia)). Eventu
 
 * [[Adams spectral sequence]] in [[stable homotopy theory]]
 
-* [[Adams?Novikov spectral sequence]], converging to [[homotopy groups]] of [[connective spectra]]
+* [[Adams-Novikov spectral sequence]], converging to [[homotopy groups]] of [[connective spectra]]
 
-*  [[chromatic spectral sequence]] for calculating the initial terms of the [[Adams?Novikov spectral sequence]]
+*  [[chromatic spectral sequence]] for calculating the initial terms of the [[Adams-Novikov spectral sequence]]
 
 
-* [[Atiyah?Hirzebruch spectral sequence]] of an [[extraordinary cohomology theory]];
+* [[Atiyah-Hirzebruch spectral sequence]] of an [[extraordinary cohomology theory]];
 
 * [[descent spectral sequence]]
 
@@ -632,15 +632,15 @@ Here is a more random list (using material from [Wikipedia](#Wikipedia)). Eventu
 
 * [[Barratt spectral sequence]] converging to the [[homotopy]] of the initial space of a [[cofibration]]
 
-* [[Bloch?Lichtenbaum spectral sequence]] converging to the [[algebraic K-theory]] of a [[field]]
+* [[Bloch-Lichtenbaum spectral sequence]] converging to the [[algebraic K-theory]] of a [[field]]
     
 * [[Bockstein spectral sequence]] relating the [[homology]] with $mod p$ coefficients and the homology reduced $mod p$
 
-* [[Bousfield?Kan spectral sequence]] converging to the [[homotopy colimit]] of a [[functor]]
+* [[Bousfield-Kan spectral sequence]] converging to the [[homotopy colimit]] of a [[functor]]
 
-* [[Cartan?Leray spectral sequence]] converging to the [[homology]] of a [[quotient space]]
+* [[Cartan-Leray spectral sequence]] converging to the [[homology]] of a [[quotient space]]
 
-* [[Cech-to-derived functor spectral sequence]] from [[?ech cohomology]] to [[abelian sheaf cohomology]]
+* [[Čech-to-derived functor spectral sequence]] from [[Čech cohomology]] to [[abelian sheaf cohomology]]
  
 * [[change of rings spectral sequences]] for calculating [[Tor]] and [[Ext]] groups of modules
 
@@ -649,7 +649,7 @@ Here is a more random list (using material from [Wikipedia](#Wikipedia)). Eventu
 
 * [[EHP spectral sequence]] converging to [[stable homotopy groups of spheres]]
 
-* [[Eilenberg?Moore spectral sequence]] for the [[singular cohomology]] of the [[pullback]] of a [[fibration]]
+* [[Eilenberg-Moore spectral sequence]] for the [[singular cohomology]] of the [[pullback]] of a [[fibration]]
 
 * [[Federer spectral sequence]] converging to [[homotopy groups]] of a function space
 
@@ -659,7 +659,7 @@ Here is a more random list (using material from [Wikipedia](#Wikipedia)). Eventu
 
 * [[Grothendieck spectral sequence]] for composing [[derived functors]]
 
-* [[Hodge?de Rham spectral sequence]] converging to the algebraic [[de Rham cohomology]] of a [[variety]]
+* [[Hodge-de Rham spectral sequence]] converging to the algebraic [[de Rham cohomology]] of a [[variety]]
 
 * [[Hurewicz spectral sequence]] for calculating the [[homology]] of a space from its [[homotopy groups]]
 
@@ -669,10 +669,10 @@ Here is a more random list (using material from [Wikipedia](#Wikipedia)). Eventu
 
 * [[Leray spectral sequence]] converging to [[abelian sheaf cohomology]]
 
-* [[Leray?Serre spectral sequence]] of a [[fibration]]
+* [[Leray-Serre spectral sequence]] of a [[fibration]]
 
 
-* [[Lyndon?Hochschild?Serre spectral sequence]] in [[group cohomology]]
+* [[Lyndon-Hochschild?Serre spectral sequence]] in [[group cohomology]]
 
 * [[May spectral sequence]] for calculating the [[Tor]] or [[Ext]] groups of an algebra
 
