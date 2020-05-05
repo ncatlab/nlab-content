@@ -455,7 +455,7 @@ See also  [Pomarol-Wulzer 09](#PomarolWulzer09):
 
 These computations shown so far all use just the field theory in the bulk, not yet the stringy modes ([[limit of a sequence|limit]] of vanishing [[string length]] $\sqrt{\alpha'} \to 0$). Incorporating bulk string corrections further improves these results, see [Sonnenschein-Weissman 18](#SonnenscheinWeissman18). 
 
-### Embedding into the full standard model of particle physucs
+### Embedding into the full standard model of particle physics
 
 
 [Nastase 03, p. 2](#Nastase03):
