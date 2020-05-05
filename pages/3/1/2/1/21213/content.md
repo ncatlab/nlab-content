@@ -142,6 +142,11 @@ Phenomenology:
 
 * Cheng-Qun Pang, Ya-Rong Wang, Jing-Fu Hu, Tian-Jie Zhang, Xiang Liu, _Study of the $\omega$ meson family and newly observed $\omega$-like state $X(2240)$_ ([arXiv:1910.12408](https://arxiv.org/abs/1910.12408))
 
+* M. K. Volkov, A. A. Pivovarov, K. Nurlan, _On the mixing angle of the vector mesons $\omega(782)$ and $\phi(1020)$_ ([arXiv:2005.00763](https://arxiv.org/abs/2005.00763))
+
+
+
+
 ### Decays
 
 The direct decay $\omega \to \pi^0 + \pi^+ + \pi^-$:
