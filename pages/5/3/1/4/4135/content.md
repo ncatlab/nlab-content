@@ -90,18 +90,121 @@ $$
 
 ## Properties
 
-### Component formulas
+### Component expression
+ {#ComponentExpression}
 
-If $e_1,\dots,e_n$ is a [[local frame|local basis]] on $X$ and $e^1,\dots,e^n$ is the [[dual basis]], so that $\alpha = \frac{1}{k!} \alpha_{i_1,\dots,i_k} e^{i_1} \wedge \cdots \wedge e^{i_k}$, then
+Let $X$ be a ([[pseudo-Riemannian manifold|pseudo]]-)[[Riemannian manifold]] of [[dimension]] $D$, and locally, on some [[open subset]] $U \subset X$, let
 
 $$
-\star \alpha = \frac{1}{k!(n-k)!} \epsilon_{i_1,\dots,i_n} \sqrt{|det(g)|} \alpha_{j_1,\dots,j_k} g^{i_1,j_1} \cdots g^{i_k,j_k} e^{i_{k+1}} \wedge \cdots \wedge e^{i_n},
+  e^1, \dots, e^D
+  \;\in\;
+  \Omega^1(U)
+$$ 
+
+be a frame of [[differential 1-forms]] (a [[vielbein]]). For example if $\{x^i\}$ is a [[coordinate chart]] on $U$, then $e^i \coloneqq d x^i$ is such a frame.
+
+With this choice, any [[differential p-form]] $\alpha \in \Omega^p(U)$ has a component expansion
+
+$$
+  \alpha 
+  \;=\; 
+  \frac{1}{p!} 
+  \alpha_{i_1 \dots i_p} 
+  \, e^{i_1} \wedge \cdots \wedge e^{i_p}
 $$
 
-where $\epsilon_{i_1,\dots,i_n}$ (the [[Levi-Civita symbol]]) is the [[signature of a permutation|sign]] of the [[permutation]] $(1,2,\dots,n)\mapsto (i_1,i_2,\dots,i_n)$ and $det(g)$ is the [[determinant]] of $g$ in the local basis.
+for [[smooth function]]-components $\{\alpha_{i_1 \cdots i_p}\}$ (where here and in the following we use the [[Einstein summation convention]]).
+
+In terms of these components, the Hodge dual $\star \alpha$ of $\alpha$ is expressed by the following formula:
+
+\[
+  \begin{aligned}
+    \star \alpha 
+    & = \; 
+    \frac{1}{
+      p!
+     (D-p)!
+    } 
+    \sqrt{
+      \left\vert 
+       det\big((g_{i j})\big) 
+      \right\vert
+    }
+    \, 
+    \alpha_{
+      \color{green} j_1 \dots j_p
+    } 
+    g^{
+     {\color{green} j_1 }
+     {\color{cyan} i_1 }
+    }
+    \cdots 
+    g^{
+     {\color{green} j_p }
+     {\color{cyan} i_p }
+    }
+    \epsilon_{
+      {\color{cyan} i_1 \dots i_p i }
+      {\color{orange} i_{p+1} \cdots i_D }
+    } 
+    e^{
+      \color{orange} i_{p+1}
+    } 
+     \wedge 
+     \cdots 
+     \wedge 
+    e^{
+      \color{orange} i_D
+    }
+    \\
+    & =
+    \frac{1}{
+      p! (D-p)!
+    } 
+    \sqrt{
+      \left\vert 
+       det\big((g_{i j})\big) 
+      \right\vert
+    }
+    \,
+    \alpha^{ \color{green} i_1 \dots i_p }   
+    \epsilon_{
+      { \color{green} i_1 \dots i_p }
+      { \color{orange} i_{p + 1} \cdots i_D }
+     } 
+     e^{
+       \color{orange}
+       i_{p + 1}
+     } 
+     \wedge 
+       \cdots 
+     \wedge 
+     e^{
+       \color{orange}
+       i_{D}
+     } 
+  \end{aligned}
+\]
+
+Here 
+
+* $p!$, $(D-p)!$ are the [[factorials]] of $p$ and $(D-p)$, respectivel, 
+
+* $\epsilon_{i_1,\dots,i_n} \in \{+1, ,-1\}$ (the [[Levi-Civita symbol]]) is the [[signature of a permutation|signature]] of the [[permutation]] $(1,2,\dots,D) \mapsto (i_1,i_2,\dots,i_D)$ 
+
+* $(g_{i j})$ is the [[square matrix]] of components of the [[metric tensor]] in the chosen basis, i.e. such that
+
+  $$
+    g \;=\;
+    g_{i j} e^i \otimes e^j
+  $$
+
+* $det(g)$ is the [[determinant]] of $(g_{i j})$
+
+* $\left\vert g \right\vert$ is the [[absolute value]] of the determinant.
 
 
-### Basic properties (Basis-independent formulas)
+### Basic properties 
  {#BasicProperties}
 
 Let $(X,g)$ be a [[Riemannian manifold]] of [[dimension]] $n$ and let $\omega,\lambda \in \Omega^k(X)$. Then the following holds:
