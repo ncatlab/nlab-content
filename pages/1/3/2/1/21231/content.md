@@ -557,9 +557,13 @@ Perturbative Effective Action Approach in Quantum Electrodynamics and its Applic
 * [[Gerald Dunne]], _The Heisenberg-Euler Effective Action: 75 years on_, Int. J. Mod. Phys. A27 (2012) 1260004 ([arXiv:1202.1557](https://arxiv.org/abs/1202.1557))
 
 
-
-
 * Francois Gelis, Naoto Tanji, _Schwinger mechanism revisited_, Progress in Particle and Nuclear Physics Volume 87, March 2016, Pages 1-49 ([arXiv:1510.05451](https://arxiv.org/abs/1510.05451))
+
+See also
+
+* Wikipedia, _[Schwinger effect](https://en.wikipedia.org/wiki/Schwinger_effect)_
+
+* Wikipedia, _[Schwinger limit](https://en.wikipedia.org/wiki/Schwinger_limit)_
 
 
 
@@ -575,13 +579,14 @@ Discussion in [[cosmic inflation|inflationary]] [[cosmology]]:
 
 * {#Martin07} Jerome Martin, _Inflationary Perturbations: the Cosmological Schwinger Effect_, Lect. Notes Phys. 738:193-241, 2008 ([arXiv:0704.3540](https://arxiv.org/abs/0704.3540), [doi:10.1007/978-3-540-74353-8_6](https://doi.org/10.1007/978-3-540-74353-8_6))
 
+See also:
+
+* Shintaro Takayoshi, Jianda Wu, Takashi Oka, _Twisted Schwinger Effect: Pair Creation in Rotating Fields_ ([arXiv:2005.01755](https://arxiv.org/abs/2005.01755))
 
 
-See also
 
-* Wikipedia, _[Schwinger effect](https://en.wikipedia.org/wiki/Schwinger_effect)_
 
-* Wikipedia, _[Schwinger limit](https://en.wikipedia.org/wiki/Schwinger_limit)_
+
 
 
 ### In quantum chromodynamics
