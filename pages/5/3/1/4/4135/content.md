@@ -88,6 +88,11 @@ $$
   \,.
 $$
 
+### Generalizations
+
+The [[Riemannian metric|metric]] $g$ is used in two places in the specification of the Hodge operator: in the inner product on forms and in the volume form.  If $X$ is equipped only with a [[volume form]] (not necessarily coming from a metric), then the Hodge operator still takes $k$-forms to $(n-k)$-[[multivector field|vector fields]].  If the manifold is not oriented, then the metric only gives a [[volume pseudoform]], but the Hodge operator still takes $k$-forms to $(n-k)$-[[pseudoforms]].  Finally, if $X$ is equipped with only a volume pseudoform (which is equivalent to an [[absolutely continuous measure|absolutely continuous]] [[Radon measure]] on $X$), then the Hodge operator takes $k$-forms to $(n-k)$-pseudovector fields.  (Of course, in every case, one might apply the operator to pseudoforms or multivector fields to begin with.)
+
+
 ## Properties
 
 ### Component expression
@@ -118,6 +123,7 @@ for [[smooth function]]-components $\{\alpha_{i_1 \cdots i_p}\}$ (where here and
 In terms of these components, the Hodge dual $\star \alpha$ of $\alpha$ is expressed by the following formula:
 
 \[
+  \label{ComponentFormulaForHodgeStar}
   \begin{aligned}
     \star \alpha 
     & = \; 
@@ -250,10 +256,12 @@ $$
 
 
 
-## Generalisations
 
-The [[Riemannian metric|metric]] $g$ is used in two places in the specification of the Hodge operator: in the inner product on forms and in the volume form.  If $X$ is equipped only with a [[volume form]] (not necessarily coming from a metric), then the Hodge operator still takes $k$-forms to $(n-k)$-[[multivector field|vector fields]].  If the manifold is not oriented, then the metric only gives a [[volume pseudoform]], but the Hodge operator still takes $k$-forms to $(n-k)$-[[pseudoforms]].  Finally, if $X$ is equipped with only a volume pseudoform (which is equivalent to an [[absolutely continuous measure|absolutely continuous]] [[Radon measure]] on $X$), then the Hodge operator takes $k$-forms to $(n-k)$-pseudovector fields.  (Of course, in every case, one might apply the operator to pseudoforms or multivector fields to begin with.)
+## Related concepts
 
+* [[Laplace-Beltrami operator]]
+
+* [[self-dual higher gauge field]]
 
 ## References
 
