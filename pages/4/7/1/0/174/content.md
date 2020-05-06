@@ -186,11 +186,11 @@ The corresponding table has been called the **[[brane scan]]**
 
 * [[string]], [[superstring]] 
 
-* [[membrane]], [[M2-brane]], [[M5-brane]]
+* [[membrane]], [[M2-brane]], [[M5-brane]], [[M-brane]]
 
 * [[NS5-brane]]
 
-* [[D-brane]]
+* [[black brane]]
 
 * [[electric eigenbrane]]. [[magnetic eigenbrane]]
 
