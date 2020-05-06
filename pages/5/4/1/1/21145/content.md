@@ -3,7 +3,7 @@
 
 ## Selected writings
 
-On [[skyrmions]]/[[solitons]] in the [[Sakai-Sugimoto model]] ([[AdS/QCD correspondence]]):
+On [[skyrmions]]/[[solitons]] in the [[Sakai-Sugimoto model]] ([[AdS/QCD correspondence]] via [[D=5 Maxwell theory]]):
 
 * [[Stefano Bolognesi]], [[Paul Sutcliffe]], _The Sakai-Sugimoto soliton_, JHEP 1401:078, 2014 ([arXiv:1309.1396](https://arxiv.org/abs/1309.1396))
 
