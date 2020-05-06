@@ -1,12 +1,20 @@
+## Position
+
+PhD student in theoretical physics at the [Centre for Research in String Theory](https://www.qmul.ac.uk/spa/strings/) at [Queen Mary University of London](https://www.qmul.ac.uk/), under the supervision of prof. [[David Berman]].
+
+## Research
+
+My main research interest lies in the global geometric structures underlying the [[dualities]] of [[string theory]] and [[M-theory]], to join the dots between [[double field theory]], [[gerbes]], [[generalized geometry]], [[non-geometry]] and [[T-folds]].
+
+## Links
 
 * [webpage](https://www.qmul.ac.uk/spa/people/research-students/profiles/lalfonsi.html)
 
-* [ResearchGate](https://www.researchgate.net/profile/Luigi_Alfonsi)
+* [at InSpire-Hep](https://inspirehep.net/authors/1776881)
 
+* [at ResearchGate](https://www.researchgate.net/profile/Luigi_Alfonsi)
 
-## Contacts
-
-[l.alfonsi@qmul.ac.uk](mailto:l.alfonsi@qmul.ac.uk)
+* email: [l.alfonsi@qmul.ac.uk](mailto:l.alfonsi@qmul.ac.uk)
 
 ## Selected writings
 
@@ -16,18 +24,23 @@ On global [[double field theory]] formulated in [[higher differential geometry]]
 
   (relating [[Kaluza-Klein compactification]] on [[principal ∞-bundles]] to [[double field theory]], [[T-folds]], [[non-abelian T-duality]], [[type II geometry]], [[exceptional geometry]], ...)
 
-On other global geometric aspects of theoretical physics:
+On other global geometric aspects of theoretical physics (e.g. [[classical double copy]]):
 
 * {#AWW20} [[Luigi Alfonsi]], Chris D. White, Sam Wikeley, _Topology and Wilson lines: global aspects of the double copy_ ([arXiv:2004.07181](https://arxiv.org/abs/2004.07181))
 
 
 ## Related $n$Lab entries
 
-* [[double field theory]], [[T-folds]]
+* [[double field theory]]
+
+* [[non-geometry]]
+  * [[T-folds]]
+  * [[exotic branes]]
 
 * [[generalized complex geometry]], [[exceptional geometry]], [[type II geometry]]
 
-* [[Kaluza-Klein compactification]], [[Kaluza-Klein monopole]]
+* [[Kaluza-Klein compactification]]
+  *[[Kaluza-Klein monopole]]
 
 category: people
 
