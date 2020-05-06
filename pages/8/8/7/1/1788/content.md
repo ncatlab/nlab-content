@@ -220,7 +220,7 @@ Now specialize to the the case at hand, where
 
 1. $\partial_\mu \eta^{\mu \nu} A_\nu = 0$ 
 
-1. $g_{\mu nu} = H \eta_{\mu \nu}$
+1. $g_{\mu \nu} = H \eta_{\mu \nu}$
 
 1. $\partial_\mu H = 0$
 
@@ -335,6 +335,69 @@ $$
     \,
     g_{ {\color{magenta} z } r }
     d x^{  r }
+    \\
+    & =
+    \tfrac{
+      (-1)^{D-1}
+    }{2}
+    H^{-2}
+    \big(
+      \underset{
+        = 0
+      }{
+      \underbrace{
+      \partial_{\mu_2}
+      \partial_{\mu_1}
+      A^{\mu_2}
+      }
+      }
+    \big)
+    H^1
+    d x^{\mu_1}
+    -
+    (-1)^{D-1}
+    \tfrac{1}{2}
+    H^{-2}
+    \big(
+      \partial_{\mu_2}
+      \partial^{\mu_2}
+    A^{\mu_1}
+    \big)
+    H^1
+    d x^{\mu_1}
+    \\
+    & \phantom{=}\;
+    -
+    (-1)^{D-1}
+    \tfrac{1}{2}
+    H^{-3/2}
+    \partial_z
+    \left( 
+      H^{3/2}
+      \partial_{z}
+      A_{\mu_1}
+    \right)
+    H^1
+    d x^{\mu_1}
+    \\
+    & \phantom{=}\;
+    +
+    (-1)^{D-1}
+    \tfrac{1}{2}
+    H^{-3/2}
+    \underset{
+      = 0
+    }{
+    \underbrace{
+    \partial_{\mu_2}
+    \left( 
+      H^{3/2}
+      \partial_z
+      A^{\mu_2}
+    \right)
+    }
+    }
+    H^{-1} d z
   \end{aligned}
 $$
 
