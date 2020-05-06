@@ -79,6 +79,7 @@ The [[perturbation theory]] is considered in
 
 * [[Zvi Bern]], John Joseph Carrasco, [[Lance Dixon]], [[Michael Douglas]], Matt von Hippel, Henrik Johansson, _$D = 5$ maximally supersymmetric Yang-Mills theory diverges at six loops_ ([arXiv:1210.7709](http://arxiv.org/abs/1210.7709))
 
+
 ### From $D = 6$ SCFT
  {#ReferencesRelationToD=6SCFT}
 
@@ -104,6 +105,9 @@ Relation to the [[D=6 N=(2,0) SCFT]] via [[KK-compactification]] on a [[circle]]
 
 * Lakshya Bhardwaj, Patrick Jefferson, Hee-Cheol Kim, Houri-Christina Tarazi, [[Cumrun Vafa]], _Twisted Circle Compactification of 6d SCFTs_ ([arXiv:1909.11666](https://arxiv.org/abs/1909.11666))
 
+* Lakshya Bhardwaj, _More 5d KK theories_ ([arXiv:2005.01722](https://arxiv.org/abs/2005.01722))
+
+
 ### From M-theory on Calabi-Yau 3-folds
 
 From [[M-theory on Calabi-Yau 3-folds]]:
@@ -111,6 +115,8 @@ From [[M-theory on Calabi-Yau 3-folds]]:
 * {#CDS18} Cyril Closset, Michele Del Zotto, Vivek Saxena, _Five-dimensional SCFTs and gauge theory phases: an M-theory/type IIA perspective_ ([arXiv:1812.10451](https://arxiv.org/abs/1812.10451))
 
 * Vivek Saxena, _Rank-two 5d SCFTs from M-theory at isolated toric singularities: a systematic study_, High Energ. Phys. 2020, 198 (2020)  ([arXiv:1911.09574](https://arxiv.org/abs/1911.09574))
+
+
 
 
 
