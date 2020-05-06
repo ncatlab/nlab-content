@@ -1,4 +1,6 @@
 
+
+
 Consider the 5d metric
 
 $$
@@ -9,7 +11,7 @@ $$
   H^{-1} d z \otimes d z
 $$
 
-for $H$ a function of $z$.
+for $H$ a [[smooth function]] of $z$.
 
 Notice
 
@@ -23,7 +25,318 @@ $$
   H^{3/2}
 $$
 
-Consider $A$ a 1-form pulled back from 4d, and in Lorenz gauge ($d \star A = 0$). Then:
+Consider 
+
+$$
+  A
+  \in 
+  \Omega^1(\mathbb{R}^{3,1})
+  \overset{i^\ast}{\longrightarrow}
+  \Omega^1(\mathbb{R}^{4,1})
+$$
+
+a 1-form pulled back from 4d, and in Lorenz gauge ($d \star A = 0$). Then the [[Laplace-Beltrami-operator]] on $A$ is given by
+
+$$
+  \begin{aligned}
+    \big( 
+      \star d \star \pm d \star d \star 
+    \big) 
+    d A
+    \;=\;
+    H^{-2} \eta^{\mu \nu}\partial_\mu \partial_\nu A
+    +
+    H^{-3/2}
+    \partial_z
+    \left(
+      H^{3/2} \partial_z A
+    \right)
+  \end{aligned}
+  \,.
+$$
+
+Proof:
+
+First notice the general formula, akin to that of the Laplace-Beltrami operator on functions:
+
+$$
+  \begin{aligned}
+    \star d \star d A
+    & =
+    \star d \star (\partial_{j_1} f) A_{j_2} d x^{j_1} \wedge d x^{j_2}
+    \\
+    & = 
+    \star d
+    \left( 
+      \tfrac{1}{ 2 \color{green}  (D-2)! }
+      \sqrt{
+        \left\vert
+           det\big( (g_{i j}) \big)
+        \right\vert
+      }
+      \,
+      g^{ i_1  j_1 } 
+      g^{ i_2  j_2 } 
+      (\partial_{j_1} A_{j_2})
+      \,
+      \epsilon_{
+        i_1 i_2
+        {\color{green} k_3 \cdots k_{D} }
+      }
+      d x^{
+        \color{green} k_3
+      } 
+      \wedge \cdots \wedge 
+      d x^{
+        \color{green} k_{D}
+      }
+    \right)
+    \\
+    & =
+    \star
+    \partial_{ \color{magenta} k_2}
+    \left( 
+      \tfrac{1}{ 2 \color{green} (D-2)! }
+      \sqrt{
+        \left\vert
+           det\big( (g_{i j}) \big)
+        \right\vert
+      }
+      \,
+      g^{ i_1 j_1 } 
+      g^{ i_2 j_2 } 
+      (\partial_{j_1} A_{j_2} )
+      \,
+      \epsilon_{
+        i_1 i_2
+        {\color{green} k_3 \cdots k_{D} }
+      }
+      d x^{ \color{magenta} k_2 }
+      \wedge 
+      d x^{
+        \color{green} k_3
+      } \wedge \cdots \wedge 
+      d x^{
+        \color{green} k_{D}
+      }
+    \right)
+    \\
+    & =
+    \sqrt{
+      \left\vert
+        det\big( (g_{i j}) \big)
+      \right\vert
+    }
+    \underset{
+      = 
+      \det\big( (g_{i j})^{-1}  \big)
+      \tfrac{1}{2}
+      \delta^{ \color{magenta} k_1 k_2 }_{i_1 i_2}
+    }{
+    \underbrace{
+    \tfrac{
+      (-1)^{D-1}
+    }{ 
+       { \color{orange} (D-1)! }
+       2 { \color{green} (D-2)! }
+    }
+    \epsilon_{ 
+      l_1
+      { \color{orange} l_2 \cdots l_{D} }
+    }
+    g^{ 
+      { \color{orange} l_1 }
+      { \color{magenta} k_1  } 
+    }
+    g^{ 
+      { \color{orange} l_2 }
+      { \color{magenta} k_2  } 
+    }
+    g^{ 
+      { \color{orange} l_3 }
+      { \color{green} k_3  } 
+    }
+    \cdots
+    g^{ 
+      { \color{orange} l_D} 
+      { \color{green} k_D } 
+    }
+    \epsilon_{
+      i_1 i_2
+      {\color{green} k_3 \cdots k_{D} }
+    }
+    }
+    }
+    \,
+    \partial_{ \color{magenta} k_2 }
+    \left( 
+      \sqrt{
+        \left\vert
+          det\big( (g_{i j}) \big)
+        \right\vert
+      }
+      g^{ i_1  j_1 } 
+      g^{ i_2  j_2 } 
+      (\partial_{j_1} A_{j_2})
+    \right)    
+    \, 
+    g_{ {\color{magenta} k_1} r }
+    d x^{ \color{magenta} r  }
+    \\
+    & =
+    \frac{
+      (-1)^{D-1}
+    }{  
+       \sqrt{
+        \left\vert
+          det\big( (g_{i j}) \big)
+        \right\vert
+      }
+    }
+    \tfrac{1}{2}
+    \delta^{ \color{magenta} k_1 k_2 }_{i_1 i_2}
+    \partial_{ \color{magenta} k_2 }
+    \left( 
+      \sqrt{
+        \left\vert
+          det\big( (g_{i j}) \big)
+        \right\vert
+      }
+      g^{ i_1  j_1 } 
+      g^{ i_2  j_2 } 
+      (\partial_{j_1} A_{j_2})
+    \right)    
+    \,
+    g_{ {\color{magenta} k_1 } r }
+    d x^{  r }
+  \end{aligned}
+$$
+
+Now specialize to the the case at hand, where 
+
+1. $A = A_\mu d x^{\mu} A_z d^z $ 
+
+1. $A_z = 0$
+
+1. $\partial_\mu \eta^{\mu \nu} A_\nu = 0$ 
+
+1. $g_{\mu nu} = H \eta_{\mu \nu}$
+
+1. $\partial_\mu H = 0$
+
+$$
+  \begin{aligned}
+    & 
+    \frac{
+      (-1)^{D-1}
+    }{  
+       \sqrt{
+        \left\vert
+          det\big( (g_{i j}) \big)
+        \right\vert
+      }
+    }
+    \tfrac{1}{2}
+    \delta^{ \color{magenta} k_1 k_2 }_{i_1 i_2}
+    \partial_{ \color{magenta} k_2 }
+    \left( 
+      \sqrt{
+        \left\vert
+          det\big( (g_{i j}) \big)
+        \right\vert
+      }
+      g^{ i_1  j_1 } 
+      g^{ i_2  j_2 } 
+      (\partial_{j_1} A_{j_2})
+    \right)    
+    \,
+    g_{ {\color{magenta} k_1 } r }
+    d x^{  r }
+    \\
+    & =
+    \frac{
+      (-1)^{D-1}
+    }{  
+       \sqrt{
+        \left\vert
+          det\big( (g_{i j}) \big)
+        \right\vert
+      }
+    }
+    \tfrac{1}{2}
+    \delta^{ \color{magenta} \mu_1 \mu_2 }_{i_1 i_2}
+    \partial_{ \color{magenta} \mu_2 }
+    \left( 
+      \sqrt{
+        \left\vert
+          det\big( (g_{i j}) \big)
+        \right\vert
+      }
+      g^{ i_1  j_1 } 
+      g^{ i_2  j_2 } 
+      (\partial_{j_1} A_{j_2})
+    \right)    
+    \,
+    g_{ {\color{magenta} \mu_1 } r }
+    d x^{  r }
+    \\
+    & \phantom{=}\;
+    +
+    \frac{
+      (-1)^{D-1}
+    }{  
+       \sqrt{
+        \left\vert
+          det\big( (g_{i j}) \big)
+        \right\vert
+      }
+    }
+    \tfrac{1}{2}
+    \delta^{ \color{magenta} \mu_1 z }_{i_1 i_2}
+    \partial_{ \color{magenta} z }
+    \left( 
+      \sqrt{
+        \left\vert
+          det\big( (g_{i j}) \big)
+        \right\vert
+      }
+      g^{ i_1  j_1 } 
+      g^{ i_2  j_2 } 
+      (\partial_{j_1} A_{j_2})
+    \right)    
+    \,
+    g_{ {\color{magenta} \mu_1 } r }
+    d x^{  r }
+    \\
+    & \phantom{=}\;
+    +
+    \frac{
+      (-1)^{D-1}
+    }{  
+       \sqrt{
+        \left\vert
+          det\big( (g_{i j}) \big)
+        \right\vert
+      }
+    }
+    \tfrac{1}{2}
+    \delta^{ \color{magenta} z \mu_2 }_{i_1 i_2}
+    \partial_{ \color{magenta} \mu_2 }
+    \left( 
+      \sqrt{
+        \left\vert
+          det\big( (g_{i j}) \big)
+        \right\vert
+      }
+      g^{ i_1  j_1 } 
+      g^{ i_2  j_2 } 
+      (\partial_{j_1} A_{j_2})
+    \right)    
+    \,
+    g_{ {\color{magenta} z } r }
+    d x^{  r }
+  \end{aligned}
+$$
 
 $$
   \begin{aligned}
