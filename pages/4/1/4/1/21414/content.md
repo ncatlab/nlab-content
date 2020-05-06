@@ -50,8 +50,8 @@ to the left and right induced [[semimodel structures]] coincide.
 
 ## References
 
-* [[Simon Henry]], _Weak model categories in classical and constructive mathematics_, [arXiv:1807.02650](https://arxiv.org/abs/1807.02650).
+* [[Simon Henry]], _Weak model categories in classical and constructive mathematics_ ([arXiv:1807.02650](https://arxiv.org/abs/1807.02650))
 
-* [[Simon Henry]], _Combinatorial and accessible weak model categories_, [arXiv:2005.02360](https://arxiv.org/abs/2005.02360).
+* [[Simon Henry]], _Combinatorial and accessible weak model categories_ ([arXiv:2005.02360](https://arxiv.org/abs/2005.02360))
 
 [[!redirects weak model categories]]
