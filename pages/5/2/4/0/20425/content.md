@@ -62,7 +62,7 @@ The [[2d SCFT]] defining the [[heterotic string]] is the [[direct sum]] of two r
 
 1. the holomorphic part, say, is one chiral half of a [[superstring]] [[sigma model]] on 10d [[Minkowski spacetime]]
 
-1. the antiholomorphic part is one chiral half of the [[bosonic string]] on a 26d-dimensional [[Minkowski spacetime]] that is [[KK-compactification|compactified]] on the [[Leech lattice]].
+2. the antiholomorphic part is one chiral half of the [[bosonic string]] on a 26d-dimensional [[Minkowski spacetime]] that is [[KK-compactification|compactified]] on the [[Leech lattice]].
 
 While the [[direct sum]] of these two [[super vertex operator algebras]] is again a consistent [[super vertex operator algebra]], in this combination this is not a [[sigma-model]] anymore, even if its two halves do arise in (two distinct!) sigma-models.
 
@@ -141,5 +141,6 @@ Non-geometric [[flux compactification]]:
 [[!redirects non-geometric background]]
 [[!redirects non-geometric backgrounds]]
 
+[[!redirects non-geometry]]
 
 
