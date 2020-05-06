@@ -65,6 +65,14 @@ Examples of [[pseudo-vector mesons]]:
 
 * Eef van Beveren, George Rupp, _Scalar and axial-vector mesons_, Eur. Phys. J. A31:468-473, 2007 ([arXiv:hep-ph/0610199](https://arxiv.org/abs/hep-ph/0610199))
 
+See also:
+
+* Wikipedia, _[Vector meson](https://en.wikipedia.org/wiki/Vector_meson)_
+
+
+
+
+
 [[!redirects vector mesons]]
 
 [[!redirects pseudovector meson]]
