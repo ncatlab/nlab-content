@@ -93,7 +93,8 @@ If $T = \mathsf{ACF}$ the [[theory of algebraically closed fields]], this recove
 
 If $T = \mathsf{DCF}$ the [[theory of differentially closed fields]], this recovers [[differential Galois theory]]. (In fact, Kolchin's work was what inspired Poizat to introduce imaginaries and work out classical Galois theory in a model-theoretic setting.)
 
-Any theory $T$ can be conservatively interpreted inside a theory $T^{\operatorname{eq}}$ which eliminates imaginaries and hence "admits a Galois theory." This is the [[coherent logic|coherent]] special case of a result Olivia Caramello spells out in very general terms in her monograph on topological (toposic) Galois theory.
+Any theory $T$ can be conservatively interpreted inside a theory $T^{\operatorname{eq}}$ which eliminates imaginaries and hence "admits a Galois theory." This is the [[coherent logic|coherent]] special case of a result [[Olivia Caramello]] spells out in very general terms in her article ([Caramello 13](#Caramello13)) on topological (toposic) Galois theory.
+
 ## Discussion
 
 ## Related concepts
@@ -109,5 +110,7 @@ Any theory $T$ can be conservatively interpreted inside a theory $T^{\operatorna
 * Bruno Poizat, _A Course in Model Theory_.
 
 * Alice Medvedev and Ramin Takloo-Bighash, [_An invitation to model-theoretic Galois theory_](http://arxiv.org/abs/0909.4340)
+
+* {#Caramello13} [[Olivia Caramello]], _Topological Galois theories_, ([arXiv: 1301.0300](http://arxiv.org/abs/1301.0300))
 
 [[!redirects model theoretic Galois theory]]
