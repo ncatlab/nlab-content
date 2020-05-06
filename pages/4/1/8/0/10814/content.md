@@ -164,7 +164,7 @@ Similarly in DFT, when $M$ is an (integrable) para-hermitian manifold we make a 
 
 * [[exceptional field theory]]
 
-* [[T-fold]]
+* [[T-fold]], [[non-geometry]]
 
 
 ## References
