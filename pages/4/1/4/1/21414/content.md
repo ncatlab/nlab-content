@@ -14,6 +14,26 @@ $$A\to P_X A\to A\times_X A,$$
 where the right map is a [[fibration]] and its first component $P_X A\to A$
 is an [[acyclic fibration]].
 
+## Relation to model categories
+
+[[Model categories]] can be singled out from weak model categories
+by adding the following properties.
+
+1.  Every [[fibrant object]] admits a strong path object and
+every [[cofibrant object]] admits a strong cylinder object.
+
+1.  All [[acyclic cofibrations]] are [[trivial cofibrations]]
+and all [[acyclic fibrations]] are [[trivial fibrations]].
+(Trivial maps are given as data for a [[premodel category]],
+whereas acyclic (co)fibrations are defined as (co)fibrations
+that satisfy a right (left) lifting property with respect to the class
+of cofibrations with cofibrant source (respectively fibrations with
+fibrant target.)
+
+1.  The two classes of [[weak equivalence]] corresponding
+to the left and right induced [[semimodel structures]] coincide.
+
+
 ## References
 
 * [[Simon Henry]], _Weak model categories in classical and constructive mathematics_, [arXiv:1807.02650](https://arxiv.org/abs/1807.02650).
