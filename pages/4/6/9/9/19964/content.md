@@ -166,7 +166,7 @@ An analogous discussion for inclusion of [[omega-mesons]] is in [Gudnason-Speigh
 
 With suitable care, the Skyrmions in 4d spacetime [above](#Definition) are the [[AdS-CFT|holographic]] reduction of [[instantons]] 5d [[Yang-Mills theory]] ([Sakai-Sugimoto 04, Section 5.2](#SakaiSugimoto04), [Sakai-Sugimoto 05, Section 3.3](#SakaiSugimoto05), reviewed in [Sugimoto 16, Section 15.3.4](#Sugimoto16), [Bartolini 17, Section 2](#Bartolini17).
 
-This phenomenon is essentially the theorem of [Atiyah-Manton 89](#AtiyahManton89), as highlighted in [Sutcliffe 10](#Sutcliffe10).
+This phenomenon is essentially the theorem of [Atiyah-Manton 89](#AtiyahManton89), this is highlighted in [Sutcliffe 10](#Sutcliffe10), [Sutcliffe 15](#Sutcliffe15).
 
 In this way Skyrmions (and hence [[baryons]] and [[atomic nuclei]], see [below](#AsAModelForBaryonsAndNuclei)) appear in the [[Witten-Sakai-Sugimoto model]], which realizes (something close to) [[non-perturbative quantum field theory|non-perturbative]] [[QCD]] as a [[D4-D8-brane intersection|D4/D8]-[[intersecting D-brane model]] described by the [[AdS-QCD correspondence]] ("[[holographic QCD]]").
 
