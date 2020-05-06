@@ -291,10 +291,13 @@ General:
 
 * [[Paul Wesson]], James M. Overduin, Chapter 6 of: _Principles of Space-Time-Matter: Cosmology, Particles and Waves in Five Dimensions_, World Scientific 2018 ([doi:10.1142/10871](https://doi.org/10.1142/10871))
 
-Relation to [[vector mesons]] and the [[Skyrmion model]]:
+Relation to [[vector mesons]] and the [[Skyrmion model]] via the [[Sakai-Sugimoto model]] and variants:
 
 * {#Sutcliffe10} [[Paul Sutcliffe]], Section 3 of: _Skyrmions, instantons and holography_, JHEP 1008:019, 2010 ([arXiv:1003.0023](https://arxiv.org/abs/1003.0023))
 
+* {#BolognesiSutcliffe13} [[Stefano Bolognesi]], [[Paul Sutcliffe]], _The Sakai-Sugimoto soliton_, JHEP 1401:078, 2014 ([arXiv:1309.1396](https://arxiv.org/abs/1309.1396))
+
+* {#Sutcliffe15} [[Paul Sutcliffe]], _Holographic Skyrmions_, Mod. Phys. Lett. B29 (2015) no. 16, 1540051 ([spire:1383608](http://inspirehep.net/record/1383608))
 
 
 [[!redirects 5d Maxwell theory]]
