@@ -34,7 +34,7 @@ $$
   V_1 \otimes_k V_2 \in Vect
 $$
 
-whose elements are [[equivalence classes]] of  [[tuples]] of elements $(v_1,v_2)$ with $v_i \in V_i$, for the [[equivalence relation]] given by
+whose elements are [[equivalence classes]] of formal linear combinations of [[tuples]] of elements $(v_1,v_2)$ with $v_i \in V_i$, for the [[equivalence relation]] given by
 
 $$
   (k v_1 , v_2) \;\sim\; k( v_1 , v_2) \;\sim\; (v_1, k v_2)
