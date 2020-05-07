@@ -63,9 +63,12 @@ See the general references at _[[supergravity]]_.
 
 * [[Joseph Polchinski]], chapter 12.1 of _String Theory Vol 2: Superstring and beyond_
 
-Via [[KK-compactification]] from [[11d supergravity]]:
+Construction of [[type IIA supergravity]] via [[KK-compactification]] from [[11d supergravity]]:
 
-* M. Huq, M. A. Namazie, _Kaluza-Klein Supergravity In Ten Dimensions_, Class. Quantum Grav. 2 (1985) 293
+* M. Huq, M. A. Namazie, _Kaluza-Klein Supergravity In Ten Dimensions_, Class. Quantum Grav. 2 (1985) 293 ([spire:196711](https://inspirehep.net/literature/196711))
+
+* {#DFGT08} [[Riccardo D'Auria]], [[Pietro Fré]], [[Pietro Grassi]], Trigiante, _Pure Spinor Superstrings on Generic type IIA Supergravity Backgrounds_ [arXiv:0803.1703](https://arxiv.org/abs/0803.1703)
+
 
 Duality-symmetric formulation:
 
