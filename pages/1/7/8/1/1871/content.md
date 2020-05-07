@@ -91,6 +91,14 @@ This is the problem of [[non-perturbative quantum field theory|non-perturbative]
 
 ## Related concepts
 
+* [[D=5 Yang-Mills theory]]
+
+* [[massive Yang-Mills theory]]
+
+* [[self-dual Yang-Mills theory]]
+
+* [[super Yang-Mills theory]]
+
 * [[minimal coupling]]
 
 * [['t Hooft double line notation]]
@@ -115,19 +123,14 @@ This is the problem of [[non-perturbative quantum field theory|non-perturbative]
 
   * [[electroweak field]]
 
-* [[self-dual Yang-Mills theory]]
 
 * [[Yang monopole]], [['t Hooft-Polyakov monopole]]
-
-* [[super Yang-Mills theory]]
 
 * [[S-duality]], [[Montonen-Olive duality]]
 
   * [[electric-magnetic duality]]
 
   * [[geometric Langlands duality]]
-
-* [[massive Yang-Mills theory]]
 
 * [[Chern-Simons theory]]
 
