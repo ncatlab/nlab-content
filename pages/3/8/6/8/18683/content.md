@@ -49,7 +49,7 @@ A concise collection of the details over [[Minkowski spacetime]] is in
 
 with background on [[spinor]] [[field (physics)|fields]] in 
 
-* {#DermisekI8} [[Radovan Dermisek]] _qft I-8_, 2009 ([pdf](http://www.physics.indiana.edu/~dermisek/QFT_09/qft-I-8-4p.pdf), [[DermisekSpinorField.pdf:file]])
+* {#DermisekI8} [[Radovan Dermisek]], _qft I-8_, 2009 ([pdf](http://www.physics.indiana.edu/~dermisek/QFT_09/qft-I-8-4p.pdf), [[DermisekSpinorField.pdf:file]])
 
 
 A textbook account in the context of [[causal perturbation theory]] is in
