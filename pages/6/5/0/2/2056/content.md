@@ -1,9 +1,17 @@
-# Idea #
+## Definition
 
-The notion of a _Thomason model category_ is a slight variant of that of a (Quillen) [[model category]]. It is designed to be such that a [[functor category]] with values in a Thomason model category is automatically again a Thomason model category and hence yields a notion of [[global model structure on functors]].
+A __Thomason model category__ is a (Quillen) [[model category]]
+such that [[functorial factorizations]] exist.
 
+## Properties
 
-#References#
+A [[functor category]] with values in a Thomason model category is automatically again a Thomason model category and hence yields a notion of [[global model structure on functors]].
+
+[[Mark Hovey]] later popularized this addition, including the data
+of functorial factorizations (and just their existence)
+into his definition of a [[model category]].
+
+## References
 
 * Charles Weibel, _Homotopy Ends and Thomason Model Categories_ ([arXiv](http://arxiv.org/abs/math/0106052))
 
