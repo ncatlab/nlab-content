@@ -43,6 +43,8 @@ After the discovery of the [[Higgs field]] at the two major other detectors of [
 
   * [[pentaquark]]
 
+  * [[XYZ particle]]
+
 
 ## Selected publications
 
