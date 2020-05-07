@@ -658,7 +658,7 @@ More on this:
 
 ##### Holographic light-front QCD
 
-The holographic formulation of [[light cone gauge|light cone quantizrd]] [[QCD] as [[holographic light front QCD]]:
+The holographic formulation of [[light cone gauge|light cone quantized]] [[QCD]] as [[holographic light front QCD]]:
 
 Original articles:
 
