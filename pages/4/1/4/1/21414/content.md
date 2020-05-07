@@ -21,7 +21,8 @@ that still allow for a rich theory largely analogous
 to that of [[model categories]].
 
 In particular, one can construct left and right [[Bousfield localizations]]
-in this setting without [[properness]] assumptions.
+in this setting without assuming the [[model category]]
+to be [[left proper]] respectively [[right proper]].
 
 ## Definition
 
