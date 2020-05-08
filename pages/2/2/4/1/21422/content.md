@@ -13,6 +13,6 @@ His research interests include [[statistical mechanics]] and [[condensed matter 
 
 ## Recorded talks
 
-* [MPPM](https://www.youtube.com/watch?v=oehDq-cvFyM) on-line seminar on 28 April 2020, Title: _Statistical Mechanics and Fusion Categories_.  The talk includes discussion of relation to knot invariants and lattice topological defects.
+* [MPPM](https://www.youtube.com/watch?v=oehDq-cvFyM) on-line seminar from 28 April 2020, Title: _Statistical Mechanics and Fusion Categories_.  The talk includes discussion of relation to knot invariants and lattice topological defects.
 
 category: people
