@@ -104,7 +104,7 @@ The global (all channels and experiments combined) tension  with the standard mo
 
 
 This situation was confirmed with the completed measurements presented at [Moriond 2019](http://moriond.in2p3.fr/2019/), which showed ([Straub 19](#Straub19), [Allanach 19](#Allanach19)) smaller mean discrepancy but also had smaller uncertainty, thus keeping the [[statistical significance]] of the apparent anomaly essentially unaffected. But [Caria 19, slide 9](#Caria19)  reported new measurements by [[Belle collaboration|Belle]] ([Belle 1910](#Belle1910))
-according to which the previous [[statistical significance]] of $3.8 \sigma$ in the $R_D$ channel would decrease to $3.1 \sigma$ or $2.8 \sigma$ ([Gambino-Jung-Schacht 19 (6)](V_cb+puzzle#GambinoJungSchacht19)).  See [LHCb 19, p. 2](#LHCb19) for how the new numbers come about. The statistical significance over all sectors is still seen $\gt 4 \sigma$ ([London 19, p. 7](#London19)) or $\sim 3\sigma$ ([Jaiswal-Nandi-Patra 20](#JaiswalNandiPatra20)).
+according to which the previous [[statistical significance]] of $3.8 \sigma$ in the $R_D$ channel would decrease to $3.1 \sigma$ or $2.8 \sigma$ ([Gambino-Jung-Schacht 19 (6)](V_cb+puzzle#GambinoJungSchacht19)).  See [LHCb 19, p. 2](#LHCb19) for how the new numbers come about. The [[statistical significance]] over all sectors is still seen $\gt 4 \sigma$ ([London 19, p. 7](#London19)) or $\sim 3\sigma$ ([Jaiswal-Nandi-Patra 20](#JaiswalNandiPatra20)). Moreover, the theoretical prediction is being corrected further away from these measured values ([BDKL 20, footnote 1](#BDKL20)).
 
 Comprehensive assessments of the situation after [Moriond 2019](http://moriond.in2p3.fr/2019/) are given in [AHMSN 19](#AHMSN19), [Descotes-Genon 19](#DescotesGenon19), [Bardhan-Ghosh 19](#BardhanGhosh19), [Alguero 19](#Alguero19) and agree that the flavour anomalies have been confirmed:
 
@@ -581,6 +581,9 @@ General [[effective field theory]] parametrization:
 
 * Aritra Biswas, Soumitra Nandi, Ipsita Ray, Sunando Kumar Patra, 
 _New physics in $b\to s \ell \ell$ decays with complex Wilson coefficients_ ([arXiv:2004.14687](https://arxiv.org/abs/2004.14687))
+
+* {#BDKL20}   Bhubanjyoti Bhattacharya, Alakabha Datta, Saeed Kamali, David London, _A Measurable Angular Distribution for $\bar B \to D^\ast \tau^- \bar \nu_\tau$ Decays_ ([arXiv:2005.03032](https://arxiv.org/abs/2005.03032))
+
 
 
 
