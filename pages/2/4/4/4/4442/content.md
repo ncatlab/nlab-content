@@ -342,6 +342,8 @@ One proposal for a formalization of a toy version in the context of [[AQFT]] is 
 
 * [[Sachdev-Ye-Kitaev model]]
 
+* [[flat space holography]]
+
 * [[p-adic AdS-CFT]]
 
 * [[dS/CFT correspondence]]
