@@ -15,7 +15,7 @@ The observation that the result of [Atiyah-Manton 89](#AtiyahManton89) becomes a
 
 * {#Sutcliffe15} [[Paul Sutcliffe]], _Holographic Skyrmions_, Mod. Phys. Lett. B29 (2015) no. 16, 1540051 ([spire:1383608](http://inspirehep.net/record/1383608), [doi:10.1142/S0217984915400515](https://doi.org/10.1142/S0217984915400515))
 
-In the [[Sakai-Sugimoto model]] of [[holographic QCD]] the [[D=5 Yang-Mills theory]] whose [[Kaluza-Klein theory|KK reduction]] yields the 4d [[hadrons]] is identified with the [[worldvolume]]-theory of [[D8-brane|D8]]-[[flavour branes]] [[D4/D8-brane intersection|intersected with D4-branes]] in an [[intersecting D-brane model]]:
+In the [[Sakai-Sugimoto model]] of [[holographic QCD]] the [[D=5 Yang-Mills theory]] of this [[hadron Kaluza-Klein theory]] is identified with the [[worldvolume]]-theory of [[D8-brane|D8]]-[[flavour branes]] [[D4/D8-brane intersection|intersected with D4-branes]] in an [[intersecting D-brane model]]:
 
 * {#SakaiSugimoto04} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], section 5.2 of _Low energy hadron physics in holographic QCD_, Prog.Theor.Phys.113:843-882, 2005 ([arXiv:hep-th/0412141](https://arxiv.org/abs/hep-th/0412141))
 
