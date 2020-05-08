@@ -34,7 +34,11 @@ For more on this see at _[[intersecting D-brane models]]_ the section _[Cosmolog
 
 ## Related concepts
 
-* [[D=5 Einstein-Maxwell theory]]
+* [[D=5 Yang-Mills theory]], [[D=5 Einstein-Maxwell theory]]
+
+* [[hadron Kaluza-Klein theory]], [[hadron supersymmetry]]
+
+  * [[flavor brane]]
 
 * [[anti de Sitter gravity]]
 
