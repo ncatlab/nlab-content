@@ -33,6 +33,11 @@ In the first case one speaks of _color branes_, in the second of _flavor branes_
 
 1.  $N_f \in \mathbb{N}$ for the number of flavor branes, leading to [[flavor (particle physics)|flavor]]-[[symmetry group]] ("[[chiral symmetry]]") [[unitary group|SU]]$(N_f)$ (e.g. [[isospin]] for $N_f = 2$).
 
+| | [[color charge]] | [[flavor physics|flavor charge]] |
+|----|----|-----|
+| **[[gauge bosons]]** | [[gluons]] <br/>  ([[gauge group]]-[[local symmetry]])  | [[mesons]] <br/> ([[flavor physics|flavor]]-[[hidden local symmetry]]) |
+| **[[fermions]]** | [[quarks]] | [[baryons]] |
+
 
 ## Examples
 
