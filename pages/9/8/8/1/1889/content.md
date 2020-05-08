@@ -29,6 +29,8 @@ This means that the definition of lax functor involves a choice of orientation o
 
 Often the term lax functor is used for $n$-functors $F : C \to D$ whose domain $C$ is an ordinary [[category]] (regarded as an $n$-category with only trivial higher morphisms), while the codomain $D$ is often taken to be a [[2-category]].
 
+A **normal lax functor** preserves identities strictly.
+
 
 ## Definition
 
@@ -90,3 +92,5 @@ Isn't it odd not to require any extra condition at all on the coherence morphism
 [[!redirects oplax 2-functors]]
 [[!redirects colax 2-functor]]
 [[!redirects colax 2-functors]]
+[[!redirects normal lax functor]]
+[[!redirects normal lax functors]]
