@@ -199,6 +199,8 @@ of the Universe.
 
 Indeed, [Smoller-Temple-Vogler 14](#SmollerTempleVogler14) claim an analytic solution which does exhibit inhomogeneity effects mimicking dark energy (see [above](#AbstractSmollerTempleVogler14)) and a similar conclusion is claimed in [Colin-Mohayaee-Rameez-Sarkar 19](#SarkarEtAl18) (see [above](#SarkarFlowQuote)).  Also relativistic numerical simulation, albeit in their infancy, seem to exhibit noticeable backreaction (see [above](#NumericalSimulation)).
 
+A new analytical approach is suggested by [Ginat 20](#Ginat20), where non-negligible but small effects due to ingomogeneity are found.
+
 
 
 
@@ -302,6 +304,9 @@ See also
 * {#Rasanen18} [[Syksy Räsänen]], _Ways to settle the backreaction conjecture_, talk at [CosmoBack 2018](https://cosmoback.sciencesconf.org) ([[RasanenWaysToSettle18.pdf:file]])
 
 * {#Macpherson19} Hayley J. Macpherson, _Inhomogeneous cosmology in an anisotropic Universe_ ([arxiv:1910.13380](https://arxiv.org/abs/1910.13380))
+
+* {#Ginat20} Yonadav Barry Ginat, _Multiple-Scales Approach for Addressing The Averaging Problem in Cosmology_ ([arXiv:2005.03026](https://arxiv.org/abs/2005.03026))
+
 
 
 
