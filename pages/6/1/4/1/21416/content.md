@@ -47,7 +47,11 @@ This way, via the equivalence between [[D4-D8-brane intersections]] with [[insta
 
 (...)
 
-### Relation to Skyrmions in 4d 
+### Relation to Skyrmions in 4d
+
+ Observation that interpreting the tower of [[vector mesons]] via [[hidden local symmetry]]-models makes them appear as [[Kaluza-Klein theory|Kaluza-Klein modes]] of [[D=5 Yang-Mills theory]]:
+
+* D. T. Son, M. A. Stephanov, _QCD and dimensional deconstruction_, Phys. Rev. D69 (2004) 065020 ([arXiv:hep-ph/0304182](https://arxiv.org/abs/hep-ph/0304182), [doi:10.1103/PhysRevD.69.065020](https://doi.org/10.1103/PhysRevD.69.065020))
 
 Derivation of [[vector meson]]-correvted [[Skyrmions]] by [[holographic QCD|holographic]] [[KK-compactification]] of [[D=5 Yang-Mills theory]], by the [[Sakai-Sugimoto model]] ([[D4/D8-brane intersections]]) and variants:
 
