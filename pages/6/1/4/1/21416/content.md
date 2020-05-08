@@ -11,7 +11,13 @@ For [[U(1)]]-[[gauge group]] this reduces to [[D=5 Maxwell theory]]. Under [[KK-
 
 ## Properties
 
-### Relation to Skyrmions in 4d
+### Hadrons as KK-modes of 5d Yang-Mills theory
+
+The suggestion that the [[pion]] togethher with the tower of observed [[vector mesons]], when regarded as [[gauge fields]] of [[hidden local symmetry|hidden local symmetries]] of [[chiral perturbation theory]], is reasonably modeled as a [[Kaluza-Klein theory|Kaluza-Klein tower]] of [[D=5 Yang-Mills theory]]:
+
+* D. T. Son, M. A. Stephanov, _QCD and dimensional deconstruction_, Phys. Rev. D69 (2004) 065020 ([arXiv:hep-ph/0304182](https://arxiv.org/abs/hep-ph/0304182), [doi:10.1103/PhysRevD.69.065020](https://doi.org/10.1103/PhysRevD.69.065020))
+
+
 
 On [[Skyrmions]] in 4d as [[AdS/QCD|holographic]]/[[KK reduction|KK-theoretic]] reduction of [[instantons]] in [[D=5 Yang-Mills theory]]:
 
