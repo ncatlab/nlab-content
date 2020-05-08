@@ -44,7 +44,7 @@ $$
 
 obtained by [[composition|composing]] [[elements]] of $AC$ with those of $AF$, is closed under the [[2-out-of-3 property]].
 
-The members of AC are called __anodyne cofibrations__ and the members of AF are called __anodyne fibrations__.
+The members of AC are called __anodyne cofibrations__ and the members of AF are called __anodyne fibrations__ (as in _[[anodyne morphism]]_).
 
 ## Anodyne and trivial (co)fibrations
 
