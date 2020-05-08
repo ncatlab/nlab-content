@@ -77,6 +77,14 @@ Here we are showing
 
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
+## Phenomenology
+
+The [[geometric engineering of QFT]] on flavor branes (as in the [[Witten-Sakai-Sugimotomodel]]) realizes, at least qualitatively, the following [[experiment|experimentall]] phenomena:
+
+* [[hadron supersymmetry]]
+
+* [[hadron Kaluza-Klein theory]]
+
 
 ## References
 
