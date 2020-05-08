@@ -437,9 +437,13 @@ Review is in
 
 * {#Sugimoto16} [[Shigeki Sugimoto]], _Skyrmion and String theory_, chapter 15 in [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
-An alternative scenario with [[M5-branes]] instead of [[D4/D8-brane intersections]]:
+A derivation of 4d [[Skyrmions]] by [[KK-compactification]] of [[D=5 Yang-Mills theory]] on a [[closed interval]], motivated by [[M5-branes]] instead of by [[D4/D8-brane intersections]] as in the [[Sakai-Sugimoto model]]:
 
-* Tatiana A. Ivanova, [[Olaf Lechtenfeld]], Alexander D. Popov, _Skyrme model from 6d $\mathcal{N}= (2,0)$ theory_, Physics Letters B Volume 783, 10 August 2018, Pages 222-226 ([arXiv:1805.07241](https://arxiv.org/abs/1805.07241))
+* [[Tatiana Ivanova]], [[Olaf Lechtenfeld]], [[Alexander Popov]], _Skyrme model from 6d $\mathcal{N}= (2,0)$ theory_, Physics Letters B Volume 783, 10 August 2018, Pages 222-226 ([arXiv:1805.07241](https://arxiv.org/abs/1805.07241))
+
+following
+
+* [[Tatiana Ivanova]], [[Olaf Lechtenfeld]], [[Alexander Popov]], _Non-Abelian sigma models from Yang-Mills theory compactified on a circle_, Physics Letters B Volume 781, 10 June 2018, Pages 322-326 ([arXiv:1803.07322](https://arxiv.org/abs/1803.07322))
 
 
 
