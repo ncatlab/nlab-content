@@ -71,6 +71,8 @@ This produces [[baryon]] [[mass]] spectra with moderate quantitative agreement w
 
 > graphics grabbed from [Sugimoto 16](#Sugimoto16)
 
+For more see at _[[hadron Kaluza-Klein theory]]_.
+
 
 ## Related concepts
 
