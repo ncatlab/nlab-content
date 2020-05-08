@@ -18,8 +18,11 @@
 The concept of _weak model categories_ is a relaxation of that of [[model categories]],
 even weaker than the concept of [[semimodel categories]], but such that it still allows for a rich theory largely analogous to that of actual [[model categories]].
 
-In particular, one can construct left and right [[Bousfield localizations]] in this setting without assuming the [[model category]] to be [[left proper]] respectively [[right proper]].
-
+For instance, left and right [[Bousfield localizations]] that in the setting
+of [[combinatorial model categories]] require [[left properness]]
+respectively [[right properness]] of the given [[combinatorial model category]],
+can be constructed without these assumptions
+in the setting of combinatorial weak model categories.
 
 ## Definition
 
@@ -65,3 +68,6 @@ by a zigzag of [[Quillen equivalences]].
 * [[Simon Henry]], _Combinatorial and accessible weak model categories_ ([arXiv:2005.02360](https://arxiv.org/abs/2005.02360))
 
 [[!redirects weak model categories]]
+[[!redirects weak model structure]]
+[[!redirects weak model structures]]
+
