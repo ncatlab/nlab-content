@@ -22,6 +22,11 @@ In [[chiral perturbation theory]], the [[gauge bosons]] of the hidden local [[ch
 
 In [[intersecting D-brane models]], such as in [[holographic QCD]], this is [[geometric engineering of QFT|geometrically brought out]] by [[open strings]] ending on "[[flavor branes]]" instead of "[[color branes]]".
 
+| | [[color charge]] | [[flavor physics|flavor charge]] |
+|----|----|-----|
+| **[[gauge bosons]]** | [[gluons]] <br/>  ([[gauge group]]-[[local symmetry]])  | [[mesons]] <br/> ([[flavor physics|flavor]]-[[hidden local symmetry]]) |
+| **[[fermions]]** | [[quarks]] | [[baryons]] |
+
 
 ## Properties
 
