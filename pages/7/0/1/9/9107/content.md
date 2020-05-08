@@ -22,6 +22,14 @@ Discussion of the [[gauged WZW model|gauged]] [[WZW term]] for the [[chiral anom
 
 * [[Jeffrey Harvey]], Christopher T. Hill, Richard J. Hill, _Standard Model Gauging of the WZW Term: Anomalies, Global Currents and pseudo-Chern-Simons Interactions_, Phys. Rev. D77:085017, 2008 ([arXiv:0712.1230](https://arxiv.org/abs/0712.1230))
 
+On [[holographic QCD]] including [[h1-mesons]] and [[b1-mesons]]:
+
+* {#DHR11} Sophia K. Domokos, [[Jeffrey Harvey]], Andrew B. Royston, _Completing the framework of AdS/QCD: $h_1$/$b_1$ mesons and excited $\omega$/$\rho$'s_, JHEP 05(2011)107 ([arXiv:1101.3315](https://arxiv.org/abs/1101.3315))
+
+* {#DHR12}  Sophia K. Domokos, [[Jeffrey Harvey]], Andrew B. Royston, _Successes and Failures of a More Comprehensive Hard Wall AdS/QCD_, JHEP 04(2013)104 ([arXiv:1210.6351](https://arxiv.org/abs/1210.6351))
+
+
+
 On relating the [[Monster vertex operator algebra]] abs its cousins to [[quantum error correction]]:
 
 
