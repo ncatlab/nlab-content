@@ -126,6 +126,14 @@ Here we are showing
 
 * [[flavor brane]]
 
+* [[quantum hadrodynamics]]
+
+  * [[hadron supersymmetry]]
+
+  * [[hadron Kaluza-Klein theory]]
+
+
+
 ## References
 
 ### General
