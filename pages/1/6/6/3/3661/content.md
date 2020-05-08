@@ -77,7 +77,7 @@ A functor can then be shown to be a weak Conduch&#233; functor if and only if it
 
 ## Conduch&#233; functors and 2-functors to Prof
 
-The Conduch&#233; criterion can be reformulated in a more conceptual way by analogy with [[Grothendieck fibrations]].  We first observe that to give a functor $p\colon E\to B$ is essentially the same as to give a normal [[lax 2-functor]] $B\to Prof$ from $B$ to the 2-category of [[profunctors]].  The latter is also known as a [[displayed category]]; see there for more on this correspondence.
+The Conduch&#233; criterion can be reformulated in a more conceptual way by analogy with [[Grothendieck fibrations]].  We first observe that to give a functor $p\colon E\to B$ is essentially the same as to give a [[normal lax functor|normal]] [[lax 2-functor]] $B\to Prof$ from $B$ to the 2-category of [[profunctors]].  The latter is also known as a [[displayed category]]; see there for more on this correspondence.
 
 Specifically, given a functor $p$, we define $B\to Prof$ as follows.  Each object $b\in B$ is sent to the fiber category $p^{-1}(b)$ of objects lying over $b$ and morphism lying over $1_b$.  And each morphism $f\colon a\to b$ in $B$ to the profunctor $H_f\colon p^{-1}(a) &#8696; p^{-1}(b)$ for which $H_f(x,y)$ is the set of arrows $x\to y$ in $E$ lying over $f$.  The lax structure maps $H_f \otimes H_g \to H_{g f}$ are given by composition in $E$.  The converse construction of a functor $p$ from a normal lax 2-functor into $Prof$ is an evident generalization of the [[Grothendieck construction]].  Now we can say that:
 
@@ -102,7 +102,7 @@ As in the 1-categorical case, ordinary $(\infty,1)$-transformations between func
 
 * The above considerations show that any Grothendieck fibration *or* opfibration is a (strict) Conduch&#233; functor, while any [[Street fibration]] or opfibration is a non-strict Conduch&#233; functor.
 
-* If $\mathbf{2}$ denotes the [[interval category]], then any normal lax functor out of $\mathbf{2}$ is necessarily pseudo, since there are no composable pairs of nonidentity arrows in $\mathbf{2}$.  It follows that, as pointed out by Jean Benabou, *any* functor with codomain $\mathbf{2}$ is a Conduch&#233; functor.  Note that functors with codomain $\mathbf{2}$ can also be identified with [[profunctors]], the two fiber categories being the source and target of the corresponding profunctor.
+* If $\mathbf{2}$ denotes the [[interval category]], then any [[normal lax functor]] out of $\mathbf{2}$ is necessarily pseudo, since there are no composable pairs of nonidentity arrows in $\mathbf{2}$.  It follows that, as pointed out by Jean Benabou, *any* functor with codomain $\mathbf{2}$ is a Conduch&#233; functor.  Note that functors with codomain $\mathbf{2}$ can also be identified with [[profunctors]], the two fiber categories being the source and target of the corresponding profunctor.
 
 * As with [[exponentiable morphisms]] in any category, Conduch&#233; functors are closed under composition.
 
