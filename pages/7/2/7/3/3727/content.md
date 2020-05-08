@@ -1,7 +1,7 @@
 
 * [website](http://www.nd.edu/~wgd/)
 
-## Selected writings 
+## Selected articles 
 
 On [[p-compact groups]]:
 
