@@ -18,7 +18,8 @@
 
 ## Idea
 
-A **relative category** is an extremely weak version of a [[category with weak equivalences]], providing the bare minimum needed to present an [[(∞,1)-category]]. The idea goes back to at least Dwyer and Kan [1980], but was first studied systematically by Barwick and Kan [2012].
+A **relative category** is an extremely weak version of a [[category with weak equivalences]], providing the bare minimum needed to present an [[(∞,1)-category]]. The idea was first explored in a series of papers by Dwyer and Kan in 1980s.
+A model structure on relative categories was constructed by Barwick and Kan [2012].
 
 ## Definition
 
@@ -35,6 +36,18 @@ The **homotopy category** of a relative category $C$ is the ordinary category $H
 * A [[homotopical category]] is a relative category $C$ such that $weq C$ has the [[two-out-of-six property]]; note that this automatically makes $C$ a category with weak equivalences.
 
 * A **saturated homotopical category** is a relative category $C$ such that a morphism is a weak equivalence _if and only if_ it is invertible in $Ho C$; note that any such relative category must be a homotopical category in particular.
+
+## Model structures
+
+A relative category can be equipped with a [[weak model structure]],
+left or right [[semimodel structure]], or a [[model structure]].
+(These are listed from less restrictive to more restrictive structures.)
+
+These structures do not change the underlying [[(∞,1)-category]].
+However, the do provide constructions to perform computations
+in the underlying [[(∞,1)-category]].
+Different structures yield different constructions,
+but all resulting answers are weakly equivalent.
 
 ## Examples
 
