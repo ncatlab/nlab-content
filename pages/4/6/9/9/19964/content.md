@@ -417,7 +417,11 @@ See:
 
 ### Via holography in string theory
 
-In [[string theory]], specifically in the [[AdS-QCD correspondence]] in the form of the [[Witten-Sakai-Sugimoto model]] the skyrmion was found in
+Observation that interpreting the tower of [[vector mesons]] via [[hidden local symmetry]]-models makes them appear as [[Kaluza-Klein theory|Kaluza-Klein modes]] of [[D=5 Yang-Mills theory]]:
+
+* D. T. Son, M. A. Stephanov, _QCD and dimensional deconstruction_, Phys. Rev. D69 (2004) 065020 ([arXiv:hep-ph/0304182](https://arxiv.org/abs/hep-ph/0304182), [doi:10.1103/PhysRevD.69.065020](https://doi.org/10.1103/PhysRevD.69.065020))
+
+In [[string theory]], specifically in the [[AdS-QCD correspondence]] in the form of the [[Witten-Sakai-Sugimoto model]] the [[Skyrmion]]-model is was found from [[D=5 Yang-Mills theory]] on on [[D4/D8-brane intersections]] in
 
 * {#SakaiSugimoto04} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], section 5.2 of _Low energy hadron physics in holographic QCD_, Prog.Theor.Phys.113:843-882, 2005 ([arXiv:hep-th/0412141](https://arxiv.org/abs/hep-th/0412141))
 
