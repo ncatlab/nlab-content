@@ -2,6 +2,9 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_Atiyah)
 
+* Notices of the AMS, _Memories of Sir Michael Atiyah_ ([pdf](https://www.ams.org/journals/notices/201911/rnoti-p1834.pdf), [[MemoriesOfAtiyah.pdf:file]])
+
+  * [[Bernd Schroers]], _Michael Atiyah and Physics: the Later Years_,  ([arXiv:1910.10630](https://arxiv.org/abs/1910.10630))
 
 * [[Alain Connes]], Joseph Kouneiher, _Sir Michael Atiyah, a Knight Mathematician A tribute to Michael Atiyah, an inspiration and a friend_ ([arxiv:1910.07851](https://arxiv.org/abs/1910.07851))
 
@@ -50,7 +53,7 @@ On [[knot theory]] and [[Chern-Simons theory]]:
 * [[Michael Atiyah]], _The Geometry and Physics of Knots_,  Cambridge University Press 1990 ([doi:10.1017/CBO9780511623868](https://doi.org/10.1017/CBO9780511623868))
 
 
-On [[skyrmions]]:
+On [[skyrmions]] from [[Kaluza-Klein theory|KK-reduction]] of [[instantons]] in [[D=5 Yang-Mills theory]]:
 
 * {#AtiyahManton89} [[Michael Atiyah]], [[Nicholas Manton]], _Skyrmions from instantons_, Phys.  Lett.  B, 222(3):438–442, 1989 (<a href="https://doi.org/10.1016/0370-2693(89)90340-7">doi:10.1016/0370-2693(89)90340-7</a>)
 
