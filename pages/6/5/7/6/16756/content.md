@@ -1,7 +1,13 @@
 
-* [webpage](http://ncatlab.org/nlab/new/Olaf+Lechtenfeld)
+* [webpage](http://olaf-lechtenfeld.de)
 
 ## Selected writings
+
+On [[Sasakian manifolds]] and [[quiver gauge theory]]:
+
+* [[Olaf Lechtenfeld]], Alexander Popov, [[Richard Szabo]], _Sasakian quiver gauge theories and instantons on Calabi-Yau cones_ ([arXiv:1412.4409](http://arxiv.org/abs/1412.4409))
+
+
 
 On the [[Skyrme model]] from [[D=5 Yang-Mills theory]] on compactified [[M5-branes]]:
 
