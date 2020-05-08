@@ -115,9 +115,13 @@ With emphasis on [[Skyrmions]] involving [[vector mesons]]:
 
 
 
+[[!include hadrons as KK-modes of 5d Yang-Mills theory -- references]]
+
+
+
 ### In D-brane models
 
-Interpretation/derivation in [[holographic QCD]]:
+Further interpretation/derivation of [[hidden local symmetry]] in [[holographic QCD]]:
 
 * D. T. Son, M. A. Stephanov, _QCD and dimensional deconstruction_, Phys. Rev. D69 (2004) 065020 ([arXiv:hep-ph/0304182](https://arxiv.org/abs/hep-ph/0304182), [doi:10.1103/PhysRevD.69.065020](https://doi.org/10.1103/PhysRevD.69.065020))
 
