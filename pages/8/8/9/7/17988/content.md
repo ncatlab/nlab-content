@@ -121,3 +121,10 @@ but see p. 17 of
 
 and for more see at _[Higgs field -- Asymptotic safety?](https://ncatlab.org/nlab/show/Higgs%20field#AsymtoticSafetyOrNot)_
 
+Application to [[scattering amplitudes]]:
+
+* Jan H. Kwapisz, Krzysztof A. Meissner, _Asymptotic safety and quantum gravity amplitudes_ ([arXiv:2005.03559](https://arxiv.org/abs/2005.03559))
+
+
+
+
