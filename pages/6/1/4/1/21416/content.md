@@ -49,6 +49,7 @@ This way, via the equivalence between [[D4-D8-brane intersections]] with [[insta
 
 ### Relation to Skyrmions in 4d 
 
+Derivation of [[vector meson]]-correvted [[Skyrmions]] by [[holographic QCD|holographic]] [[KK-compactification]] of [[D=5 Yang-Mills theory]], by the [[Sakai-Sugimoto model]] ([[D4/D8-brane intersections]]) and variants:
 
 * {#SakaiSugimoto04} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], section 5.2 of _Low energy hadron physics in holographic QCD_, Prog.Theor.Phys.113:843-882, 2005 ([arXiv:hep-th/0412141](https://arxiv.org/abs/hep-th/0412141))
 
@@ -66,6 +67,15 @@ This way, via the equivalence between [[D4-D8-brane intersections]] with [[insta
 
 
 * {#Bartolini17} Lorenzo Bartolini, [[Stefano Bolognesi]], Andrea Proto, _From the Sakai-Sugimoto Model to the Generalized Skyrme Model_, Phys. Rev. D 97, 014024 2018 ([arXiv:1711.03873](https://arxiv.org/abs/1711.03873))
+
+
+An alternative scenario of derivation of 4d [[Skyrmions]] by [[KK-compactification]] of [[D=5 Yang-Mills theory]] on a [[closed interval]], motivated by [[M5-branes]] instead of by [[D4/D8-brane intersections]] as in the [[Sakai-Sugimoto model]]:
+
+* [[Tatiana Ivanova]], [[Olaf Lechtenfeld]], [[Alexander Popov]], _Skyrme model from 6d $\mathcal{N}= (2,0)$ theory_, Physics Letters B Volume 783, 10 August 2018, Pages 222-226 ([arXiv:1805.07241](https://arxiv.org/abs/1805.07241))
+
+following
+
+* [[Tatiana Ivanova]], [[Olaf Lechtenfeld]], [[Alexander Popov]], _Non-Abelian sigma models from Yang-Mills theory compactified on a circle_, Physics Letters B Volume 781, 10 June 2018, Pages 322-326 ([arXiv:1803.07322](https://arxiv.org/abs/1803.07322))
 
 
 
