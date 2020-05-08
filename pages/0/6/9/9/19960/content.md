@@ -465,7 +465,9 @@ These computations shown so far all use just the field theory in the bulk, not y
 
 ## Related concepts
 
-* [[D=5 Maxwell theory]]
+* [[hadron supersymmetry]], [[hadron Kaluza-Klein theory]]
+
+* [[D=5 Yang-Mills theory]] 
 
 * [[confinement]]
 
