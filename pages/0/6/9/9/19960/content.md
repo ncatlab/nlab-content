@@ -750,6 +750,14 @@ Specifically on [[small N corrections]] in [[holographic QCD]]:
 
 
 
+
+[[!include hadrons as KK-modes of 5d Yang-Mills theory -- references]]
+
+
+
+
+
+
 ### Hadron physics
 
 Application to [[confinement|confined]] [[hadron]]-physics:
