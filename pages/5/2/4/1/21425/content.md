@@ -16,7 +16,7 @@
 
 ## Idea
 
-One of the [[light meson|light]] [[vector mesons]], with [[Wigner classification]] being a [[Lorentz group]] [[bivector]] ([DHR 12](#DHR12)) and [[isospin]] [[scalar]].
+One of the [[light meson|light]] [[vector mesons]], with [[Wigner classification]] being a [[Lorentz group]] [[bivector]] ([DHR 11](#DHR11), [DHR 12](#DHR12)) and [[isospin]] [[scalar]].
 
 ## Related concepts
 
@@ -28,6 +28,9 @@ One of the [[light meson|light]] [[vector mesons]], with [[Wigner classification
 
 Discussion within [[holographic QCD]]:
 
-* {#DHR12}  Sophia K. Domokos, Jeffrey A. Harvey, Andrew B. Royston, _Successes and Failures of a More Comprehensive Hard Wall AdS/QCD_, JHEP 04(2013)104 ([arXiv:1210.6351](https://arxiv.org/abs/1210.6351))
+* {#DHR11} Sophia K. Domokos, [[Jeffrey Harvey]], Andrew B. Royston, _Completing the framework of AdS/QCD: $h_1$/$b_1$ mesons and excited $\omega$/$\rho$'s_, JHEP 05(2011)107 ([arXiv:1101.3315](https://arxiv.org/abs/1101.3315))
+
+
+* {#DHR12}  Sophia K. Domokos, [[Jeffrey Harvey]], Andrew B. Royston, _Successes and Failures of a More Comprehensive Hard Wall AdS/QCD_, JHEP 04(2013)104 ([arXiv:1210.6351](https://arxiv.org/abs/1210.6351))
 
 [[!redirects h1-mesons]]
