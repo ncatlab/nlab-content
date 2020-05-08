@@ -233,6 +233,9 @@ See the references at _[[chiral perturbation theory]]_.
 
 
 
+[[!include hadrons as KK-modes of 5d Yang-Mills theory -- references]]
+
+
 ### In the large $N$ limit
 
 In the [[large N limit]]:
@@ -240,26 +243,11 @@ In the [[large N limit]]:
 * {#Witten79} [[Edward Witten]], _Baryons in the $1/n$ Expansion_, Nucl. Phys. B160 (1979) 57-115 ([spire:140391](http://inspirehep.net/record/140391), <a href="https://doi.org/10.1016/0550-3213(79)90232-3">doi:10.1016/0550-3213(79)90232-3</a>)
 
 
-### In Witten-Sakai-Sugimoto model for AdS-QCD
 
 
-* {#Witten98b} [[Edward Witten]], _Baryons And Branes In Anti de Sitter Space_, JHEP 9807:006, 1998 ([arXiv:hep-th/9805112](https://arxiv.org/abs/hep-th/9805112))
-
-* {#GrossOoguri98} [[David Gross]], [[Hirosi Ooguri]], _Aspects of Large N Gauge Theory Dynamics as Seen by String Theory_, Phys.Rev.D58:106002,1998 ([arXiv:hep-th/9805129](https://arxiv.org/abs/hep-th/9805129))
-
-* {#SakaiSugimoto04} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _Low energy hadron physics in holographic QCD_, Prog.Theor.Phys.113:843-882, 2005 ([arXiv:hep-th/0412141](https://arxiv.org/abs/hep-th/0412141))
-
-* {#SakaiSugimoto05} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _More on a holographic dual of QCD_, Prog.Theor.Phys.114:1083-1118, 2005 ([arXiv:hep-th/0507073](https://arxiv.org/abs/hep-th/0507073))
-
-* {#HSSY07} Hiroyuki Hata, [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], Shinichiro Yamato, _Baryons from instantons in holographic QCD_, Prog.Theor.Phys.117:1157, 2007 ([arXiv:hep-th/0701280](https://arxiv.org/abs/hep-th/0701280))
 
 
-Review
 
-* {#Rebhan14} Anton Rebhan, _The Witten-Sakai-Sugimoto model: A brief review and some recent results_, 3rd International Conference on New Frontiers in Physics, Kolymbari, Crete, 2014 ([arXiv:1410.8858](https://arxiv.org/abs/1410.8858))
-
-
-* {#Sugimoto16} [[Shigeki Sugimoto]], _Skyrmion and String theory_, chapter 15 in [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
 
 [[!redirects mesons]]
