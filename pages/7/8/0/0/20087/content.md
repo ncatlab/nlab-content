@@ -22,7 +22,7 @@ On [[Yang-Mills monopoles]]:
 * {#GibbonsManton86} [[Gary Gibbons]], [[Nicholas Manton]], _Classical and Quantum Dynamics of BPS Monopoles_, Nucl. Phys. B274 (1986) 183-224 ([spire:18322](http://inspirehep.net/record/18322), <a href="https://doi.org/10.1016/0550-3213(86)90624-3">doi:10.1016/0550-3213(86)90624-3</a>)
 
 
-On constructing [[Skyrmions]] from [[instantons]]:
+On constructing [[Skyrmions]] from [[instantons]] in [[D=5 Yang-Mills theory]] ([[hadron Kaluza-Klein theory]]):
 
 * {#AtiyahManton89} [[Michael Atiyah]], [[Nicholas Manton]], _Skyrmions from instantons_, Phys.  Lett.  B, 222(3):438–442, 1989 (<a href="https://doi.org/10.1016/0370-2693(89)90340-7">doi:10.1016/0370-2693(89)90340-7</a>)
 
