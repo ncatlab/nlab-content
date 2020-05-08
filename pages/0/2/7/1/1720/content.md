@@ -519,3 +519,5 @@ Examples of nonproper model structures can be found in
 
 [[!redirects left proper]]
 [[!redirects right proper]]
+[[!redirects left properness]]
+[[!redirects right properness]]
