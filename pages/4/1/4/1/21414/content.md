@@ -20,9 +20,8 @@ even weaker than the concept of [[semimodel categories]], but such that it still
 
 For instance, left and right [[Bousfield localizations]] that in the setting
 of [[combinatorial model categories]] require [[left properness]]
-respectively [[right properness]] of the given [[combinatorial model category]],
-can be constructed without these assumptions
-in the setting of combinatorial weak model categories.
+respectively [[right properness]] of the given [[combinatorial model category]]. For combinatorial _weak_ model categories these localisations 
+can be constructed without either properness assumption.
 
 ## Definition
 
