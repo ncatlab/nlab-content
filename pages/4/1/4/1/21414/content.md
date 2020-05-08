@@ -15,20 +15,17 @@
 
 ## Idea
 
-The concept of _weak model categories_ is a relaxation of that of [[model categories]],
-even weaker than the concept of [[semimodel categories]], but such that it still allows for a rich theory largely analogous to that of actual [[model categories]].
+The concept of _weak model categories_ is a relaxation of that of [[model categories]], even weaker than the concept of [[semimodel categories]], but such that it still allows for a rich theory largely analogous to that of actual [[model categories]]: 
 
-For instance, left and right [[Bousfield localizations]] that in the setting
-of [[combinatorial model categories]] require [[left properness]]
-respectively [[right properness]] of the given [[combinatorial model category]]. For combinatorial _weak_ model categories these localisations 
-can be constructed without either properness assumption.
+The weak analogue of the construction of the [[homotopy category of a model category]] still exists, as do notions of [[Quillen adjunction]] and [[Quillen equivalence]].
+
+Also, for example, an analogue of left or right _[[Bousfield localization of model categories]]_ still makes sense for weak model categories; and, as a bonus in contrast to the usual case, it does not require the assumption of left or right [[proper model category|properness]].
 
 ## Definition
 
 A __weak model category__ is a [[premodel category]] that satisfies the following two [[axioms]]:
 
-1. __Cylinder axiom__: Every [[cofibration]] $A\to X$ from a [[cofibrant object]]
-to a [[fibrant object]] admits a __relative strong cylinder object__ 
+1. __Cylinder axiom__: Every [[cofibration]] $A\to X$ from a [[cofibrant object]] to a [[fibrant object]] admits a __relative strong cylinder object__ 
 $$X\sqcup_A X\to I_A X\to X,$$ 
 where the left map is a [[cofibration]] and its first component $X\to I_A X$
 is an [[acyclic cofibration]].
