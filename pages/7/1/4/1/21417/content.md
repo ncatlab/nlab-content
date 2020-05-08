@@ -15,9 +15,11 @@
 
 ## Idea
 
-_XYZ particles_ are [[charmonium]]-like _exotic [[mesons]]_ which are increasingly being observed in [[experiment]] (typically in [[B-meson]]-experiments such as [[Belle collaboration|Belle]], [[LHCb experiment|LHCb]], , [[BaBar experiment|BaBar]]), but whch are hard to interpret as [[bound states]] in the traditional [[quark]] [[model (in theoretical physics)]] of [[quantum chromodynamics]].
+_XYZ particles_ are [[charmonium]]-like [[exotic meson|exotic mesons]] which are increasingly being observed in [[experiment]] (typically in [[B-meson]]-experiments such as [[Belle collaboration|Belle]], [[LHCb experiment|LHCb]], , [[BaBar experiment|BaBar]]), but whch are hard to interpret as [[bound states]] in the traditional [[quark]] [[model (in theoretical physics)]] of [[quantum chromodynamics]].
 
 ## Related concepts
+
+* [[tetraquark]]
 
 * [[quantum hadrodynamics]]
 
