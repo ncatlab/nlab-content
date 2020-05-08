@@ -8,7 +8,9 @@ On [[generalized cup products]]:
 _Multivariable cochain operations and little $n$-cubes_
 ([arXiv:math/0106024v3](https://arxiv.org/abs/math/0106024v3))
 
+## Books
 
+* [[Homotopy Limit Functors on Model Categories and Homotopical Categories]]
 
 ## Related $n$Lab entries
 
