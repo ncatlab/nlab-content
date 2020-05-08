@@ -168,7 +168,7 @@ The Skyrmions in 4d spacetime [above](#Definition), with [[vector meson]]-contri
 
 This phenomenon is essentially the theorem of [Atiyah-Manton 89](#AtiyahManton89), this is highlighted and developed in [Sutcliffe 10](#Sutcliffe10), [Sutcliffe 15](#Sutcliffe15).
 
-In this way Skyrmions (and hence [[baryons]] and [[atomic nuclei]], see [below](#AsAModelForBaryonsAndNuclei)) appear in the [[Witten-Sakai-Sugimoto model]], which realizes (something close to) [[non-perturbative quantum field theory|non-perturbative]] [[QCD]] as a [[D4-D8-brane intersection|D4/D8]-[[intersecting D-brane model]] described by the [[AdS-QCD correspondence]] ("[[holographic QCD]]").
+In this way Skyrmions (and hence [[baryons]] and [[atomic nuclei]], see [below](#AsAModelForBaryonsAndNuclei)) appear in the [[Witten-Sakai-Sugimoto model]], which realizes (something close to) [[non-perturbative quantum field theory|non-perturbative]] [[QCD]] as a [[D4-D8-brane intersection|D4/D8]]-[[intersecting D-brane model]] described by the [[AdS-QCD correspondence]] ("[[holographic QCD]]").
 
 This way, via the equivalence between [[D4-D8-brane intersections]] with [[instantons]] in the [[D8-brane]]-[[worldvolume]], the Skyrme model becomes equivalent to a model of [[baryons]] by [[wrapped brane|wrapped]] [[D4-branes]] ([Sugimoto 16, 15.4.1](#Sugimoto16)):
 
