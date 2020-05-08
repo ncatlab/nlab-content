@@ -117,7 +117,9 @@ automatically the Wess–Zumino term, with the correct coefficient!
 * [[quark bag model]], [[Cheshire cat principle]]
 
 
-* [[hadron supersymmetry]]
+* [[hadron supersymmetry]], [[hadron Kaluza-Klein theory]]
+
+  * [[flavor brane]]
 
 * [[leptonic decay]]
 
