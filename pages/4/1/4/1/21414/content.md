@@ -94,6 +94,12 @@ Every [[combinatorial]] weak model category can
 be connected to a [[combinatorial model category]]
 by a zigzag of [[Quillen equivalences]].
 
+## Related concepts
+
+* [[model category]]
+
+* [[premodel category]]
+
 ## References
 
 * [[Simon Henry]], _Weak model categories in classical and constructive mathematics_ ([arXiv:1807.02650](https://arxiv.org/abs/1807.02650))
