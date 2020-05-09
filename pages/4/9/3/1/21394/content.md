@@ -55,6 +55,12 @@ The notion of premodel category doesn't come with a good general notion of weak 
 
 In principle one must also distinguish a third class of cofibrations that have the left lifting property with respect to fibrations between fibrant objects. However, in a relaxed premodel category, these are trivial cofibrations. ([Barton, Prop 3.5.2](#Barton))
 
+## Related concepts
+
+* [[model category]]
+
+* [[weak model category]]
+
 ## References
 
 * {#Barton} [[Reid William Barton]], _A model 2-category of enriched combinatorial premodel categories_ ([arXiv:2004.12937](https://arxiv.org/abs/2004.12937))
