@@ -38,7 +38,7 @@ There are many variations of the paradox, depending for instance on what precise
 ## In type theory: Girard's paradox
  {#GirardParadox}
 
-As formulated in [[type theory]] by [[Jean-Yves Girard]], the Burali-Forti paradox shows that the original version of [[Per Martin-Löf]]'s type theory, which allowed a [[type of types]] $Type$ containg itself as a [[term]] $Type \colon Type$, is [[inconsistency|inconsistent]], in the precise sense that it contains (non-normalizing) [[proofs]] of [[false]].
+As formulated in [[type theory]] by [[Jean-Yves Girard]], the Burali-Forti paradox shows that the original version of [[Per Martin-Löf]]'s type theory, which allowed a [[type of types]] $Type$ containing itself as a [[term]] $Type \colon Type$, is [[inconsistency|inconsistent]], in the precise sense that it contains (non-normalizing) [[proofs]] of [[false]].
 
 Moreover, by an adaptation of the proof, one can construct a [[looping combinator]] in this type theory, which implies the [[decidability|undecidability]] of type-checking.
 
