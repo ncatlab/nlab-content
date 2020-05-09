@@ -21,13 +21,6 @@
 
 **Barr's theorem** was originally conjectured by [[William Lawvere]] as an infinitary generalization of the [[Deligne completeness theorem]] for [[coherent toposes]] which can be expressed as the existence of a surjection $\mathcal{S}/K\to\mathcal{E}$ for a coherent topos $\mathcal{E}$ with set of points $K$. General toposes $\mathcal{E}$ may fail to have [[enough points]] but [[Michael Barr]] showed that a surjection from a suitable [[Boolean topos]] still exists.
 
-As surjections permit the transfer of logical properties, Barr's theorem has the following important consequence:
-
-> If a statement in [[geometric logic]] is deducible from a [[geometric theory]] using classical [[logic]] and the [[axiom of choice]], then it is also
-deducible from it in [[constructive mathematics]]. 
-
-The proof of Barr's theorem itself, however, is highly non-constructive. 
-
 ## Statement
 
 +-- {: .num_theorem}
@@ -46,6 +39,25 @@ where $\mathcal{F}$ satisfies the [[axiom of choice]].
 ## Remark
 
 [[Deligne completeness theorem|Deligne's completeness theorem]] says that a coherent Grothendieck topos has enough points in $Set$ and this corresponds to the G&#246;del-Henkin completeness theorem for first-order theories. Similarly, Barr's theorem can interpreted as saying that a Grothendieck topos has sufficient _Boolean-valued_ points and is in turn closely related to Mansfield's **Boolean-valued completeness theorem** for infinitary first-order theories.
+
+## Constructive proof and classical detour
+
+Let $\mathbb{T}$ be a [[geometric theory]] and $U_\mathbb{T}$ its [[classifying topos|universal model]]. Recall that $U_\mathbb{T}$ represents deducibility in geometric logic in the sense that a geometric sequent $ \sigma$ is deducible from $\mathbb{T}$ precisely iff $U_\mathbb{T}\models \sigma $.
+
+Suppose that $M=f^*(U_\mathbb{T})$ is a $\mathbb{T}$-model in a topos $\mathcal{E}$ where $f:\mathcal{E}\to Set[U_\mathbb{T}]$ is a [[surjective geometric morphism]] to the [[classifying topos]] of $\mathbb{T}$ and let $ (\varphi \vdash_{\vec{x}} \psi) $ be a geometric sequent such that $M\models (\varphi \vdash_{\vec{x}} \psi) $. Now by the definition of the satisfaction relation, this is the same as to say that the monomorphism $\{\vec{x}.\varphi\wedge\psi\}_M\hookrightarrow\{\vec{x}.\varphi\}_M$ is an isomorphism but, $f$ being surjective, $f^*$ is [[conservative functor|conservative]] whence $U_\mathbb{T}\models (\varphi \vdash_{\vec{x}} \psi) $ and, accordingly, $(\varphi \vdash_{\vec{x}} \psi)$ is deducible from $\mathbb{T}$ in geometric logic.
+
+This together with the existence of a Boolean cover assured by Barr's theorem implies the following important
+
++-- {: .num_theorem}
+###### Corollary
+
+Let $\mathbb{T}$ be a [[geometric theory]] and $\sigma$ a geometric sequent that holds in all $\mathbb{T}$-models in Boolean toposes. Then $\sigma$ is deducible from $\mathbb{T}$ in geometric logic.
+
+=--
+
+
+In other words, if a statement in [[geometric logic]] is deducible from a [[geometric theory]] using classical [[logic]] and the [[axiom of choice]], then it is also deducible from it in [[constructive mathematics]]. Unfortunately, the proof of Barr's theorem itself is highly non-constructive whence is of no direct help in finding such constructive replacements for classical proofs of geometric statements. 
+
 
 ## Related entries
 
@@ -69,7 +81,7 @@ A proof sketch and a survey of its model-theoretic context is in
 
 * [[Gonzalo Reyes|Gonzalo E. Reyes]], _Sheaves and concepts: A model-theoretic interpretation of Grothendieck topoi_ , Cah. Top. Diff. G&#233;o. **Cat. XVIII** no.2 (1977) pp.405-437. ([numdam](http://www.numdam.org/item?id=CTGDC_1977__18_2_105_0))
 
-For a discussion of the importance of this theorem in constructive algebra see also
+For a discussion of the importance of the corollary in constructive algebra see also
 
 * [[Gavin Wraith]], _Intuitionistic algebra: some recent developments in topos theory_  In: Proceedings of the International Congress of Mathematicians (Helsinki, 1978), pages 331&#8211;337, Helsinki, 1980. Acad. Sci. Fennica. ([pdf](http://www.mathunion.org/ICM/ICM1978.1/Main/icm1978.1.0331.0338.ocr.pdf))
  {#Wraith}
