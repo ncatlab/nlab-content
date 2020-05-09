@@ -38,7 +38,7 @@ This is relevant in [[enriched homotopy theory]], which pairs [[enriched categor
 
 Let $C$ be a [[closed monoidal category|closed]] [[monoidal category|symmetric monoidal category]] equipped with a [[model category]] structure. 
 
-Then $C$ satisfies the _pushout-product axiom_ if for any pair of cofibrations $f : X \to Y$ and $f' : X' \to Y'$ their [[pushout-product]], hence the induced morphism out of the [[coproduct]]
+Then $C$ satisfies the _pushout-product axiom_ if for any pair of [[cofibrations]] $f : X \to Y$ and $f' \colon X' \to Y'$ their [[pushout-product]], hence the induced morphism out of the [[coproduct]]
 
 $$
   (X \otimes Y') \coprod_{X \otimes X'} (Y \otimes X')
@@ -47,17 +47,17 @@ $$
   \,,
 $$
 
-is itself a cofibration, which, furthermore, is acyclic if $f$ or $f'$ is.
+is itself a cofibration, which, furthermore, is [[acyclic cofibration|acyclic]] if $f$ or $f'$ is.
 
 This means that the [[tensor product]]
 
 $$
-  \otimes : C \times C \to C
+  \otimes \colon C \times C \to C
 $$ 
 
 is a left [[Quillen bifunctor]].
 
-If the monoidal category underlying $C$ is a closed monoidal category, one can dually define the _pullback-power axiom_ to mean that if $f : A \to B$ is a cofibration and $g : X \to Y$ is a fibration, their [[pullback power]] 
+If the monoidal category underlying $C$ is a [[closed monoidal category]], one can [[formal duality|dually]] define the _pullback-power axiom_ to mean that if $f \colon A \to B$ is a [[cofibration]] and $g \colon X \to Y$ is a [[fibration]], their [[pullback power]] 
 
 $$
   [B, X]
@@ -66,13 +66,13 @@ $$
   \,,
 $$
 
-is a fibration, which, furthermore, is acyclic if $f$ or $g$ is.
+is a fibration, which, furthermore, is [[acyclic fibration|acyclic]] if $f$ or $g$ is.
 
 However, by [[Joyal-Tierney calculus#IteratedLifting|Joyal-Tierny calculus]], the pullback-power axiom holds if and only if the pushout-power axiom holds.
 
 ## Remarks
 
-* This implies in particular that tensoring with cofibrant objects preserves cofibrations and acyclic cofibrations.
+* This implies in particular that tensoring with [[cofibrant objects]] preserves cofibrations and acyclic cofibrations.
 
 * However the tensor product of two (acyclic) cofibrations is in general not an (acyclic) cofibration.
 
@@ -80,8 +80,14 @@ However, by [[Joyal-Tierney calculus#IteratedLifting|Joyal-Tierny calculus]], th
 
 ## Related concepts
 
-* [[monoidal model category]], [[enriched model category]]
+
+* [[monoidal model category]]
+
+* [[enriched model category]]
 
 * [[Joyal-Tierney calculus]]
 
 [[!redirects pushout product axiom]]
+
+
+[[!redirects pullback power axiom]]
