@@ -57,6 +57,19 @@ $$
 
 is a left [[Quillen bifunctor]].
 
+If the monoidal category underlying $C$ is a closed monoidal category, one can dually define the _pullback-power axiom_ to mean that if $f : A \to B$ is a cofibration and $g : X \to Y$ is a fibration, their [[pullback power]] 
+
+$$
+  [B, X]
+  \to
+  [A, X] \times_{[A,Y]} [B, Y]
+  \,,
+$$
+
+is a fibration, which, furthermore, is acyclic if $f$ or $g$ is.
+
+However, by [[Joyal-Tierney calculus#IteratedLifting|Joyal-Tierny calculus]], the pullback-power axiom holds if and only if the pushout-power axiom holds.
+
 ## Remarks
 
 * This implies in particular that tensoring with cofibrant objects preserves cofibrations and acyclic cofibrations.
