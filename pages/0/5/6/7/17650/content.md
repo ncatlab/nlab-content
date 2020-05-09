@@ -60,6 +60,8 @@ into the evident [[fiber product]] on the right.
 
 ## Related concepts
 
+* [[pullback power axiom]]
+
 * [[powering]]
 
 * [[Joyal-Tierney calculus]]
