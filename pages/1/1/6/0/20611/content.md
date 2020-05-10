@@ -13,7 +13,6 @@ order of the number of articles they publish in the area of category theory, as 
 |[New York Journal of Mathematics](http://nyjm.albany.edu/)|self|[[Michael Hopkins|Hopkins]]|open|
 |[Mathematische Zeitschrift](https://www.springer.com/journal/209)|Springer|[[Michael Hill|Hill]]|subscription|
 |[Quaestiones Mathematicae](https://www.tandfonline.com/toc/tqma20/current)|SAMS via Taylor and Francis|[[George Janelidze|Janelidze]]|subscription|
-|[Math. Proc. Camb. Phil. Soc.](https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society)               |Cambridge UP|None at present|subscription|
 
 
 ###Category Theory and Categorical Logic### 
@@ -57,7 +56,7 @@ order of the number of articles they publish in the area of category theory, as 
 |[Theoretical Computer Science](https://www.journals.elsevier.com/theoretical-computer-science)|Elsevier|varies|subscription|
 |[Compositionality](http://www.compositionality-journal.org/)|self|all|open|
 |[Logical Methods in Computer Science](https://lmcs.episciences.org/)|self  |[[Valeria de Paiva|de Paiva]]; Jagadeesan; Schröder|open|
-|[Math. Proc. Camb. Phil. Soc.](https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society)               |Cambridge UP|None at present|subscription|
 |[Annals of Pure and Applied Logic](https://www.journals.elsevier.com/annals-of-pure-and-applied-logic)               |Elsevier|Philip Scott?|subscription|
 |[Logica Universalis](https://www.springer.com/journal/11787)               |Springer|Caramello, de Paiva|subscription|
+|[The Journal of Symbolic Logic](https://www.cambridge.org/core/journals/journal-of-symbolic-logic)               |Cambridge UP|McLarty|subscription|
 
