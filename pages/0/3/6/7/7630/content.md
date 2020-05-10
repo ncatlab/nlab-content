@@ -1,31 +1,51 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### Enriched category theory
++--{: .hide}
+[[!include enriched category theory contents]]
+=--
+=--
+=--
+
+
+
 # Promonoidal categories
 * table of contents
 {: toc}
 
 ## Idea
 
-A **promonoidal category** is like a [[monoidal category]] in whose structure (namely, tensor product and unit object) we have replaced [[functors]] by [[profunctors]].  It is a categorification of the idea of a [[boolean algebra]].
+A **promonoidal category** is like a [[monoidal category]] in whose structure (namely, [[tensor product]] and [[unit object]]) we have replaced [[functors]] by [[profunctors]].  It is a [[categorification]] of the idea of a [[boolean algebra]].
 
 ## Definition
 
 A **promonoidal category** is a [[pseudomonoid]] in the [[monoidal bicategory]] [[Prof]].  This means that it is a [[category]] $A$ together with
 
-* A profunctor $P \colon A\times A &#8696; A$.
+* A [[profunctor]] $P \colon A\times A &#8696; A$.
 * A profunctor $J\colon 1$ &#8696; $A$.
-* Associativity and unit isomorphisms $P \odot (P\times 1) \cong P\odot (1\times P)$, $P\odot (J\times 1) \cong 1$, and $P\odot (1\times J) \cong 1$.
-* The usual pentagon and unit conditions hold, as in a [[monoidal category]].
+* [[associator|Associativity]] and [[unitor|unit isomorphisms]] $P \odot (P\times 1) \cong P\odot (1\times P)$, $P\odot (J\times 1) \cong 1$, and $P\odot (1\times J) \cong 1$.
+* The usual [[pentagon identity|pentagon]] and unit conditions hold, as in a [[monoidal category]].
 
-Recalling that a profunctor $A$ &#8696; $B$ is defined to be a functor $B^{op}\times A \to Set$, we can make this more explicit.  We can also generalize it by replacing $Set$ by a [[Benabou cosmos]] $V$ and $A$ by a $V$-[[enriched category]]; then a profunctor is a $V$-functor $B^{op}\times A \to V$.
+Recalling that a profunctor $A$ &#8696; $B$ is defined to be a functor of the form $B^{op}\times A \to Set$, we can make this more explicit.  We can also generalize it by replacing [[Set]] by a [[Benabou cosmos]] $V$ and $A$ by a $V$-[[enriched category]]; then a profunctor is a $V$-[[enriched functor]] $B^{op}\times A \to V$.
 
-Thus, we obtain the following as an explicit definition of **promonoidal $V$-category**: we have the following data
+Thus, we obtain the following as an explicit definition of **promonoidal $V$-category**: 
 
-1. A $V$-category $A$.
+We have the following data
 
-1. A $3$-ary functor $P:A^\op \otimes A \otimes A\to V$.  For notational clarity, we may write $P(a,b,c)$ as $P(a,b \diamond c)$.
+1. A $V$-[[enriched category]] $A$.
+
+1. A $3$-ary [[enriched functor]] $P:A^\op \otimes A \otimes A\to V$.  For notational clarity, we may write $P(a,b,c)$ as $P(a,b \diamond c)$.
 
 1. A $V$-functor $J:A^{op}\to V$.
 
-and natural isomorphisms
+and [[enriched natural isomorphisms]]
 
 1. $\lambda_{ab}:\int^x (J(x) \otimes P(b,a \diamond x))\to A(b,a)$
 
@@ -35,17 +55,22 @@ and natural isomorphisms
 
 satisfying the pentagon and unit axioms for promonoidal categories. Explicitly, writting $P^{A}_{B,C}$ for $P(A,B;C)$, $\mathsf{h}^{A}_{B}$ for $\mathrm{Hom}_{A^\mathrm{op}}(A,B)$, $J_X$ for $J(X)$, and $\diamond$ for composition of profunctors, we require the following conditions to hold:
 
-1. **The triangle identity for promonoidal categories.** For each $A,B,C\in\mathrm{Obj}(A)$, the diagram
-\begin{imagefromfile}
-    "file_name": "pro-triangle.svg"
-\end{imagefromfile}
-commutes;
+1. **The triangle identity for promonoidal categories.** For each $A,B,C\in\mathrm{Obj}(A)$, the [[diagram]]
 
-2․ **The pentagon identity for promonoidal categories.** For each $A,B,C,D,E\in\mathrm{Obj}(A)$, the diagram
-\begin{imagefromfile}
-    "file_name": "pro-pentagon.svg"
-\end{imagefromfile}
-commutes.
+   \begin{imagefromfile}
+       "file_name": "pro-triangle.svg"
+   \end{imagefromfile}
+
+   [[commuting diagram|commutes]];
+
+1. **The pentagon identity for promonoidal categories.** For each $A,B,C,D,E\in\mathrm{Obj}(A)$, the [[diagram]]
+
+   \begin{imagefromfile}
+       "file_name": "pro-pentagon.svg"
+   \end{imagefromfile}
+
+   [[commuting diagram|commutes]].
+
 
 ## Properties
 
