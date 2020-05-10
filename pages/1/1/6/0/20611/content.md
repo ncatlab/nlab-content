@@ -21,7 +21,7 @@ order of the number of articles they publish in the area of category theory, as 
 |Journal                                    |Publisher         |Relevant editor(s) |Access|
 |-------------------------------------------|------------------|-------------------|------|
 |[Theory and Application of Categories](http://www.tac.mta.ca/tac/)|self                  |all|open|
-|[Journal of Pure and Applied Algebra](https://www.journals.elsevier.com/journal-of-pure-and-applied-algebra)|Elsevier|[[Jiri Adamek|Adamek]], Riehl, Rosolini|subscription|
+|[Journal of Pure and Applied Algebra](https://www.journals.elsevier.com/journal-of-pure-and-applied-algebra)|Elsevier|[[Jiri Adamek|Adamek]], [[Emily Riehl|Riehl]], Rosolini|subscription|
 |[Applied Categorical Structures](https://link.springer.com/journal/10485)|Springer|all|subscription|
 |[Cahiers de topologie et géométrie différentielle catégoriques](http://cahierstgdc.com/)|self|all|open|
 |[Compositionality](http://www.compositionality-journal.org/)|self|all|open|
