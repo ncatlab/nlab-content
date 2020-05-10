@@ -307,7 +307,7 @@ See also
 
 * [[John Duskin]], _The Azumaya complex of a commutative ring_, in: Categorical algebra and its applications (Louvain-La-Neuve, 1987), 107&#8211;117, Lecture Notes in Math. __1348__, Springer 1988. 
 
-* {#Street} [[Ross Street]], _Descent_, Oberwolfach preprint (sec. 6, _Brauer groups_) [pdf](http://www.math.mq.edu.au/~street/Descent.pdf); _Some combinatorial aspects of descent theory_, Applied categorical structures __12__ (2004) 537-576, [math.CT/0303175](http://arxiv.org/abs/math/0303175) (sec. 12, _Brauer groups_)
+* {#Street} [[Ross Street]], _Descent_, Oberwolfach preprint (sec. 5, _Brauer groups_) [pdf](http://www.math.mq.edu.au/~street/Descent.pdf); _Some combinatorial aspects of descent theory_, Applied categorical structures __12__ (2004) 537-576, [math.CT/0303175](http://arxiv.org/abs/math/0303175) (sec. 12, _Brauer groups_)
  
 
 The relation to [[cohomology]]/[[etale cohomology]] is discussed in
