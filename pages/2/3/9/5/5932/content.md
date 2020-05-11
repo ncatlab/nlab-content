@@ -18,8 +18,7 @@
 
 A [[homomorphism]] of [[schemes]] $f \colon Y\to X$ is 
 
-1. __finitely presented at__ $x\in X$ if there is an affine 
-[[open neighborhood]] $U\ni x$ and an affine open set $V\subset Y$, $f(V)\subset U$ such that $\mathcal{O}_Y(V)$ is [[finitely presented algebra|finitely presented]] as an $\mathcal{O}_X(U)$-[[associative algebra|algebra]]. 
+1. __finitely presented at__ $x\in X$ if there is an affine [[open neighborhood]] $U$ containing $x$ and an affine open set $V\subseteq Y$ with $f(V)\subseteq U$ such that $\mathcal{O}_Y(V)$ is [[finitely presented algebra|finitely presented]] as an $\mathcal{O}_X(U)$-[[associative algebra|algebra]]. 
 
 1. __locally finitely presented__ if it is finitely presented at each $x\in X$. 
 
