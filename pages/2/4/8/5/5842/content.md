@@ -61,7 +61,7 @@ thickenings of  affine $Y$-schemes. Thus $f$ is formally unramified if for each 
 
 The notion of unramified morphism is stable under base change and composition. 
 
-[[etale morphism|Etale morphism]] is by (one of the equivalent definitions) a morphism of schemes which is [[flat morphism|flat]] and unramified.
+An [[etale morphism]] of schemes is, by one of the equivalent definitions, a morphism that is [[flat morphism|flat]] and unramified.
 
 Every [[open immersion of schemes]] is formally etale hence a fortiori formally unramified. A morphism which is locally of finite type is unramified iff the diagonal morphism $X\to X\times_Y X$ is an open immersion. 
 
