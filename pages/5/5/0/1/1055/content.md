@@ -1,3 +1,4 @@
+[[!redirects étalé space]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -6,7 +7,7 @@
 +--{: .hide}
 [[!include topology - contents]]
 =--
-#### &#201;tale morphisms
+#### étale morphisms
 +--{: .hide}
 [[!include etale morphisms - contents]]
 =--
@@ -23,7 +24,7 @@
 
 Let [[Top]] be a category of [[topological space]]s and $B$ an object in $Top$ (the 'base' space). The [[over category|slice category]] $Top/B$ is called the category of (topological) spaces over $B$ (or sometimes simply bundles).
 
-An __&#233;tal&#233; space__ (or _[[étale map]]_) over $B$ is an object $p:E\to B$ in $Top/B$ such that $p$ is a [[local homeomorphism]]: that is, for every $e\in E$, there is an open set $U \ni e$ such that the [[image]] $p(U)$ is open in $B$ and the restriction of $p$ to $U$ is a [[homeomorphism]] $p|_U: U \to p(U)$. 
+An __étale space__ (or _[[étale map]]_) over $B$ is an object $p:E\to B$ in $Top/B$ such that $p$ is a [[local homeomorphism]]: that is, for every $e\in E$, there is an open set $U \ni e$ such that the [[image]] $p(U)$ is open in $B$ and the restriction of $p$ to $U$ is a [[homeomorphism]] $p|_U: U \to p(U)$. 
 
 The set $E_x = p^{-1}(x)$ where $x\in B$ is called the __[[stalk]]__ of $p$ over $x$.  
 
@@ -36,30 +37,30 @@ The underlying set of the _total space_ $E$ is the union of its stalks (notice t
 
 Let $p:E\to B$ be in $Top/B$.  The (local) __[[sections]]__ of $p$ over an open set $U\subseteq B$ are the [[continuous maps]] $s:U\to E$ such that $p\circ s = \mathrm{id}_U$. It is an elementary but central fact that for an &#233;tale map $p$, _the images of local sections form a base for the topology_ of the total space $E$. The topology of $E$ is then typically non-[[Hausdorff space|Hausdorff]].
 
-The set of sections of $p$ over $U$ is denoted by $\Gamma_U p = (\Gamma p)(U) = \Gamma_U E = (\Gamma E)(U)$ and may be shown to extend to a [[functor]] $\Gamma : Top/B\to PShv_B$ where $PShv_B$ is the [[category of presheaves]] over $B$.  The functor $\Gamma$ has a [[left adjoint]] $L : PShv_B\to Top/B$, whose [[essential image]] is the [[full subcategory]] $Et/B$ of &#233;tal&#233; spaces over $B$.  The [[essential image]] of the functor $\Gamma$ is the [[category of sheaves]] $Shv_B$  over $B$, and this [[adjunction]] restricts to an [[equivalence of categories]] between $Et/B$ and $Shv_B$ (that is, it is an [[idempotent adjunction]]).
+The set of sections of $p$ over $U$ is denoted by $\Gamma_U p = (\Gamma p)(U) = \Gamma_U E = (\Gamma E)(U)$ and may be shown to extend to a [[functor]] $\Gamma : Top/B\to PShv_B$ where $PShv_B$ is the [[category of presheaves]] over $B$.  The functor $\Gamma$ has a [[left adjoint]] $L : PShv_B\to Top/B$, whose [[essential image]] is the [[full subcategory]] $Et/B$ of étale spaces over $B$.  The [[essential image]] of the functor $\Gamma$ is the [[category of sheaves]] $Shv_B$  over $B$, and this [[adjunction]] restricts to an [[equivalence of categories]] between $Et/B$ and $Shv_B$ (that is, it is an [[idempotent adjunction]]).
 
-If $P:Open(B)^{op}\to Set$ is a [[sheaf]], then one sometimes calls the total space $E(P)$ of the &#233;tal&#233; space $L(P) = (E(P)\to B)$ the __space of the sheaf__ $P$, having in mind the adjoint equivalence above.  (This is also called the __sheaf space__ or the __display space__; compare also a [[display morphism]] of [[contexts]].)  The associated sheaf functor $a:PShv_B\to Shv_B\hookrightarrow PShv_B$ decomposes as $a = \Gamma\circ L$, and $a$ may be considered as an endofunctor part of an [[idempotent monad]] in $PShv_B$ whose corresponding [[reflective subcategory]] is $Shv_B$.
+If $P:Open(B)^{op}\to Set$ is a [[sheaf]], then one sometimes calls the total space $E(P)$ of the étale space $L(P) = (E(P)\to B)$ the __space of the sheaf__ $P$, having in mind the adjoint equivalence above.  (This is also called the __sheaf space__ or the __display space__; compare also a [[display morphism]] of [[contexts]].)  The associated sheaf functor $a:PShv_B\to Shv_B\hookrightarrow PShv_B$ decomposes as $a = \Gamma\circ L$, and $a$ may be considered as an endofunctor part of an [[idempotent monad]] in $PShv_B$ whose corresponding [[reflective subcategory]] is $Shv_B$.
 
 (e.g. [MacLane-Moerdijk, section II.5, II.6](#MacLaneMoerdijk))
 
 ### Relation to covering spaces
 
-Every [[covering space]] (even in the more general sense not requiring any connectedness axiom) is &#233;tal&#233; but not vice versa: 
+Every [[covering space]] (even in the more general sense not requiring any connectedness axiom) is étale but not vice versa: 
 
-* for a covering space the [[inverse image]] of some [[open subset]] in the base $B$ needs to be, by the definition, a [[disjoint union]] of homeomorphic open sets in $E$; however the 'size' of the [[open neighborhoods]] over various $e$ in the same [[stalk]] required in the definition of &#233;tal&#233; space may differ, hence the intersection of their projections does not need to be an open set, if there are infinitely many points in the stalk.
+* for a covering space the [[inverse image]] of some [[open subset]] in the base $B$ needs to be, by the definition, a [[disjoint union]] of homeomorphic open sets in $E$; however the 'size' of the [[open neighborhoods]] over various $e$ in the same [[stalk]] required in the definition of étale space may differ, hence the intersection of their projections does not need to be an open set, if there are infinitely many points in the stalk.
 
-* even if the the stalks of the &#233;tal&#233; space are finite, it need not be locally trivial. For instance the [[disjoint union]] $\coprod_i U_i$ of a collection of [[open subsets]] of a topological space $X$ with the obvious projection $(\coprod_i U_i) \to X$ is &#233;tale, but does not have a typical fiber: the fiber over a given point has [[cardinality]] the number of open sets $U_i$ that contain this particular point.
+* even if the the stalks of the étale space are finite, it need not be locally trivial. For instance the [[disjoint union]] $\coprod_i U_i$ of a collection of [[open subsets]] of a topological space $X$ with the obvious projection $(\coprod_i U_i) \to X$ is étale, but does not have a typical fiber: the fiber over a given point has [[cardinality]] the number of open sets $U_i$ that contain this particular point.
 
 
 ## Grammar note
 {#grammar}
 
-In French, the verb '&#233;taler' means, roughly, to spread out; '-er' becomes '-&#233;' to make a past participle.  So an 'espace &#233;tal&#233;' is a space that has been spread out over $B$.  On the other hand, '&#233;tale' is a (relatively obscure, distantly related) nautical adjective that can be translated as 'calm' or 'slack'.  
+In French, the verb 'étaler' means, roughly, to spread out; '-er' becomes '-é' to make a past participle.  So an 'espace étalé' is a space that has been spread out over $B$.  On the other hand, 'étale' is a (relatively obscure, distantly related) nautical adjective that can be translated as 'calm' or 'slack'.  
 
 
 To quote from the [Wiktionnaire française](https://fr.wiktionary.org/wiki/%C3%A9tale):
 
-> '&#233;tale' _qualifie la mer qui ne monte ni ne descend &#224; la fin du flot ou du jusant_ 
+> 'étale' _qualifie la mer qui ne monte ni ne descend &#224; la fin du flot ou du jusant_ 
 ('flot' = 'flow' and 'jusant' = 'ebb').
 
 
