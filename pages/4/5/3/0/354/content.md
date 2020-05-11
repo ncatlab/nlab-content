@@ -851,6 +851,8 @@ Other concepts:
 
 * [[weak Kan complex]]
 
+* [[Kan fibration]]
+
 
 ## References
 
