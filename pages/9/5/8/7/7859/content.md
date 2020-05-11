@@ -312,8 +312,7 @@ See also
 
 The relation to [[cohomology]]/[[etale cohomology]] is discussed in
 
-* [[James Milne]], _&#201;tale cohomology_, Princeton Mathematical Series, vol. 33, Princeton University Press, Princeton, New
-Jersey (1980)
+* [[James Milne]], _&#201;tale cohomology_, Princeton Mathematical Series, vol. 33, Princeton University Press, Princeton, New Jersey (1980)
  {#Milne}
 
 * [[Jean Giraud]], _Cohomologie non abelienne_, Die Grundlehren der mathematischen Wissenschaften, vol. 179, Springer-Verlag, Berlin, 1971.
