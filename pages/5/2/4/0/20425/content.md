@@ -51,6 +51,8 @@ In the point-particle limit, these non-geometric string vacua correspond to [[sp
 
   * [[T-folds]]
 
+  * [[exotic branes]] backgrounds
+
 * [[exceptional generalized geometry]]
 
 ### Heterotic string vacua
