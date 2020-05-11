@@ -397,6 +397,8 @@ See at _[[universal Kan fibration]]_.
 
   * [[acyclic Kan fibration]]
 
+* [[Kan complex]]
+
 * [[right/left Kan fibration]], [[right/left anodyne map]]
 
 * [[inner fibration]]
