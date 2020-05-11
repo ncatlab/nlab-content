@@ -20,7 +20,7 @@
 
 ## Idea
 
-A _numerable open cover_ (alais _normal cover_) is an [[open cover]] of a [[topological space]] that admits a subordinate [[partition of unity]]. 
+A _numerable open cover_ (alias _normal cover_) is an [[open cover]] of a [[topological space]] that admits a subordinate [[partition of unity]]. 
 
 ## Definition
 
@@ -57,8 +57,7 @@ for which the composition $Y\to U\to Y$ is identity;
 * $U$ can be refined by a locally finite open cover consisting of cozero sets;
 * (Michael \cite[Theorem 1]{Michael}, Morita \cite[Theorem 1.2]{Morita2}.)
 $U$ can be refined by an open cover given by the union of a countable collection of locally finite families of cozero sets.
-* (Michael \cite[Proposition 1]{Michael}, Hoshina \cite[Theorem 1.1 and 1.2]{Hoshina}.)
-$U$ can be refined by an open cover given by the union of a countable collection of discrete families of cozero sets.
+* (Michael \cite[Proposition 1]{Michael}, Hoshina \cite[Theorem 1.1 and 1.2]{Hoshina}.) $U$ can be refined by an open cover given by the union of a countable collection of discrete families of cozero sets.
 \end{proposition}
 
 ## Properties
