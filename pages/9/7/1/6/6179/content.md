@@ -312,6 +312,7 @@ Exposition of this is in
 
 * [[Edward Frenkel]],  _What Do Fermat's Last Theorem and Electro-magnetic Duality Have in Common?_ KITP talk 2011 ([web](http://online.kitp.ucsb.edu/online/bblunch/frenkel/))
 
+[[!redirects complexified S-dualities]]
 
 [[!redirects Montonen-Olive duality]]
 
