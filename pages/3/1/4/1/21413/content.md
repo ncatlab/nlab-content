@@ -30,7 +30,7 @@ Exotic branes are non-perturbative [[branes]] in [[non-perturbative string theor
         "unit": "px",
         "alt": "exotic branes"
 \end{imagefromfile}
->Figure grabbed from ([BMO19](#BMO19)). <<A comparison of the objects covered by the geometric solutions (backed by orange hashing) and non-geometric solutions (backed by green hashing) out of all the [[branes]] down to codimension-$2$ and $0\leq\alpha\leq -2$, as well as their [[M-theory]] lifts. Red lines denote [[T-duality]], blue lines denote lifts/reductions and black lines denote [[S-dualities]].>>
+>Figure grabbed from ([BMO19](#BMO19)). <<A comparison of the objects covered by the geometric solutions (backed by orange hashing) and [[non-geometric solutions]] (backed by green hashing) out of all the [[branes]] down to codimension-$2$ and $0\leq\alpha\leq -2$, as well as their [[M-theory]] lifts. Red lines denote [[T-duality]], blue lines denote lifts/reductions and black lines denote [[S-dualities]].>>
 
 ## Related concepts
 
