@@ -59,6 +59,12 @@ The appendix of
 
 talks about "stacked covers": these are useful for 'decomposing' numerable covers of products to a sort of parameterised version depending on a numerable cover of the first factor. This is important in looking at concordance of numerable bundles.
 
++-- {: .query}
+
+[[arsmath|walt]] I think there is a related notion in general topology called a "normal cover".  It must be strictly more general for non-Hausdorff spaces, since you don't have partitions of unity in that setting.  I haven't seen the details written down anywhere, but Dold mentions the connection in passing.
+
+=--
+
 [[!redirects numerable open covers]]
 
 [[!redirects numerable cover]]
