@@ -344,7 +344,7 @@ $$
 
 ### &#201;tale geometry
 
-If we regard the ordinary [[étale site]] as a pregeometry $\mathcal{T}_{et}$, then its geometric envelope $\mathcal{G}_{et}$ is the [[étale (∞,1)-site]]. See <a href="http://nlab.mathforge.org/nlab/show/%C3%A9tale+(infinity%2C1)-site#AsDerivedGeometry">derived &#233;tale geometry</a> for the precise statement
+If we regard the ordinary [[étale site]] as a pregeometry $\mathcal{T}_{et}$, then its geometric envelope $\mathcal{G}_{et}$ is the [[étale (∞,1)-site]]. See [[étale (∞,1)-site#AsDerivedGeometry|derived &#233;tale geometry]] for the precise statement.
 
 
 +-- {: .un_prop}
