@@ -536,7 +536,7 @@ The [[Mandelbrot set]], regarded as a [[subspace]] of the [[plane]], is a compac
 
 +-- {: .num_example} 
 ###### Example 
-Any set when equipped with the [[cofinite topology]] forms a compact space. This space is also $T_1$ (i.e., [[singletons]] are closed), but is not Hausdorff if the underlying set is [infinite set|infinite]]. 
+Any set when equipped with the [[cofinite topology]] forms a compact space. This space is also $T_1$ (i.e., [[singletons]] are closed), but is not Hausdorff if the underlying set is [[infinite set|infinite]]. 
 =-- 
 
 
