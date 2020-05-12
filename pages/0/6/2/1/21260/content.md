@@ -6,9 +6,15 @@
 Inclusion of [[vector mesons]] ([[omega-meson]] and [[rho-meson]]/[[A1-meson]]) into the [[Skyrmion model]] of [[quantum hadrodynamics]], in addition to the [[pion]]:
 
 
-Equivalence between [[hidden local symmetry]]- and [[massive Yang-Mills theory]]-description of [[Skyrmion]] [[quantum hadrodynamics]]:
+First, on the equivalence between [[hidden local symmetry]]- and [[massive Yang-Mills theory]]-description of [[Skyrmion]] [[quantum hadrodynamics]]:
 
 * [[Atsushi Hosaka]], H. Toki, [[Wolfram Weise]], _Skyrme Solitons With Vector Mesons: Equivalence of the Massive Yang-Mills and Hidden Local Symmetry Scheme, 1988, Z. Phys. A332 (1989) 97-102 ([spire:24079](http://inspirehep.net/record/24079))
+
+See also
+
+* Marcelo Ipinza, Patricio Salgado-Rebolledo, _Meron-like topological solitons in massive Yang-Mills theory and the Skyrme model_ ([arXiv:2005.04920](https://arxiv.org/abs/2005.04920))
+
+
 
 
 #### Inclusion of the $\omega$-meson
