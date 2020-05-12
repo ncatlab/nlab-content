@@ -76,7 +76,35 @@ Many classical theorems concerning [[fiber bundles]] are stated for the numerabl
 
 ## References ##
 
-* [[Albrecht Dold]], _Partitions of unity in the theory of fibrations_, Ann. of Math. (2) 78 1963 223&#8211;255 [MR0155330](http://www.ams.org/mathscinet-getitem?mr=155330) [jstor](http://www.jstor.org/stable/1970341) [doi](http://dx.doi.org/10.2307/1970341)
+\bibitem{Stone} [[Arthur H. Stone]],
+_Paracompactness and product spaces_,
+Bulletin of the American Mathematical Society 54:10 (1948), 977–983.
+doi:10.1090/s0002-9904-1948-09118-2.
+
+\bibitem{Michael} [[Ernest Michael]],
+_A note on paracompact spaces_.
+Proceedings of the American Mathematical Society 4:5 (1953), 831–838.
+doi:10.1090/s0002-9939-1953-0056905-8.
+
+\bibitem{Morita} [[Kiiti Morita]],
+_Paracompactness and product spaces_.
+Fundamenta Mathematicae 50:3 (1962), 223–236.
+doi:10.4064/fm-50-3-223-236.
+
+\bibitem{Morita2} [[Kiiti Morita]],
+_Products of normal spaces with metric spaces_.
+Mathematische Annalen 154:4 (1964), 365–382.
+doi:10.1007/bf01362570.
+
+* [[Albrecht Dold]], _Partitions of unity in the theory of fibrations_, Ann. of Math. (2) 78 1963 223–255 [MR0155330](http://www.ams.org/mathscinet-getitem?mr=155330) [jstor](http://www.jstor.org/stable/1970341) [doi](http://dx.doi.org/10.2307/1970341)
+
+\bibitiem{MardesicSegal} [[Sibe Mardešić]], [[Jack Segal]],
+_Shape Theory_.
+North-Holland Mathematical Library 26 (1982).
+
+\bibitem{Hoshina} [[Takao Hoshina]],
+_Extensions of mappings II_.
+Topics in General Topology, Elsevier (1989).
 
 The appendix of
 
@@ -87,6 +115,9 @@ talks about "stacked covers": these are useful for 'decomposing' numerable cover
 +-- {: .query}
 
 [[arsmath|walt]] There is a notion in general topology called a "normal cover" which may be the same thing.  Dold mentions the connection in passing.  The equivalence can be found as Theorem 1.2 in Morita and Hoshina, Extensions of Mappings, II.
+
+THIS IS ALREADY ANSWERED ABOVE!
+PLEASE READ THE [nForum THREAD](https://nforum.ncatlab.org/discussion/11282/numerable-open-cover/).
 
 =--
 
