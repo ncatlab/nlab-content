@@ -63,6 +63,9 @@ See also
 
 * Harun Omer, _Embedding LFHQCD in Worldsheet String Theory_ ([arXiv:1909.12866](https://arxiv.org/abs/1909.12866))
 
+* Alfredo Vega, Miguel Angel Martin Contreras, _Two-body light front wave functions from general AdS/QCD models_ ([arXiv:2005.04501](https://arxiv.org/abs/2005.04501))
+
+
 
 
 Application to [[B-meson]] physics:
