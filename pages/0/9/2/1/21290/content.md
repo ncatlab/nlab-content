@@ -76,7 +76,7 @@ then the Hausdorff dimension of a Kakeya set is at least $n-sp$.
 +-- {: .proof}
 ###### Proof
 
-To compute the Hausdorff dimension we can use both balls $B_r(x)$ and dyadic cubes $Q_k := [l2^k,(l+1)2^k]^n$, for $k$ integer. In fact, we can cover a cube $Q_k$ with a ball of radius $\sqrt{n}2^{k-1}$, and conversely we can cover a ball of radius $r$ with a few cubes $Q_k$, for $2^{k-1}\lt r\le 2^k$. 
+To compute the Hausdorff dimension we can use either balls $B_r(x)$ or dyadic cubes $Q_k := [l2^k,(l+1)2^k]^n$, for $k$ integer. In fact, we can cover a cube $Q_k$ with a ball of radius $\sqrt{n}2^{k-1}$, and conversely we can cover a ball of radius $r$ with a few cubes $Q_k$, for $2^{k-1}\lt r\le 2^k$. 
 
 Let $E\subset\mathbb{R}^n$ be a Kakeya set. Give any covering $\mathcal{C} = \{Q_k\}$ of $E$ at scale $0\lt\delta\le 1$, i.e. a covering such that for every cube $Q_k\in\mathcal{C}$ its side-length is $2^k\le\delta$, the goal is to show that if $0\le d\lt n-sp$ then
 $$
