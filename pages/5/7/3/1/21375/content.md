@@ -33,11 +33,17 @@ This is on contrast to [[quantum hadrodynamics]] of the form of [[baryon chiral 
 * D. Ebert, T. Feldmann, R. Friedrich, H. Reinhardt, _Effective Meson Lagrangian with Chiral and Heavy Quark Symmetries from Quark Flavor Dynamics_, Nucl.Phys. B434 (1995) 619-646 ([arXiv:hep-ph/9406220](https://arxiv.org/abs/hep-ph/9406220))
 
 
-
 * P. A. M. Guichon, K. Saito, E. Rodionov, A. W. Thomas, _The role of nucleon structure in finite nuclei_, Nucl. Phys. A601:349-379, 1996 ([arXiv:nucl-th/9509034](https://arxiv.org/abs/nucl-th/9509034))
 
 
 * K. Saito, K. Tsushima, A. W. Thomas, _Variation of hadron masses in finite nuclei_, Phys. Rev. C 55, 2637 (1997) ([doi:10.1103/PhysRevC.55.2637](https://doi.org/10.1103/PhysRevC.55.2637))
+
+Relation to [[quantum hadrodynamics]]:
+
+* Koichi Saito, _Relationship between Quark-Meson Coupling Model and Quantum Hadrodynamics_, Prog. Theor. Phys. 108 (2002) 609-614 ([arXiv:nucl-th/0207053](https://arxiv.org/abs/nucl-th/0207053))
+
+
+
 
 [[!redirects quark-meson coupling models]]
 
