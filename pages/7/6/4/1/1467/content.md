@@ -109,22 +109,20 @@ The closed-subset formulations of compactness appear frequently and are often mo
 
 ### Compactness for locales 
 
-In another context, the definition (\ref{hb}) also works for [[locales]], since it refers only to the [[frame]] of open sets.  Here is an equivalent way to phrase it that is often convenient for locale theory. 
-
-Firstly, note that unions of finite opens give a [[direction]] on any [[open cover]].  This gives us the notion of a directed open cover, which is useful for locales.
+In another direction, the definition (\ref{hb}) also works for [[locales]], since it refers only to the [[frame]] of open sets.  Here is an equivalent way to phrase it that is often convenient for locale theory. 
 
 +-- {: .num_prop #directed}
 ###### Proposition
 
-A space is compact iff every directed open cover of it has the entire space as one of its opens.
+$X$ is compact iff given any [[direction|directed]] collection of opens whose union is $X$ (a directed open cover), $X$ belongs to the collection.
 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-For the "only if" case: Let $\mathcal{U}$ be a directed open cover of compact $X$, with the direction defined by unioning. By the open-cover definition of compactness, $X$ is the union of finitely many opens $U_i$ of $\mathcal{U}$. By directedness, these $U_i$ have an upper bound in $\mathcal{U}$. Since the only upper bound of opens unioning to $X$ is $X$, it follows that $X$ belongs to $\mathcal{U}$. 
+For the "only if" direction: if $\mathcal{U}= \{U_i\}_{i \in I}$ is a directed open cover, then by the open-cover definition of compactness, $X$ is the union of finitely many $U_i$. But by definition of directedness, any finite subfamily of $\mathcal{U}$ has an upper bound in $\mathcal{U}$; since the only upper bound of $X$ is $X$, it follows that $X$ belongs to $\mathcal{U}$. 
 
-For the "if" case: given an open cover $\mathcal{U}$ of $X$, let $\mathcal{U}'$ be all the unions of finitely many opens of $\mathcal{U}$. $\mathcal{U}'$ is an open cover of $X$ since $\mathcal{U}$ is. Taking the upper bound for a direction as unioning, clearly $\mathcal{U}'$ is directed. So, by hypothesis, $X$ belongs to $\mathcal{U}'$. So $X$ is a union of finitely many opens of $\mathcal{U}$. This shows $X$ is compact according to Definition \ref{hb}. 
+For the "if" direction: given an open cover $\mathcal{U}$ of $X$, let $\mathcal{U}'$ be the family of open sets that are unions of finite subfamilies of $\mathcal{U}$. This $\mathcal{U}'$ is clearly directed, and an open cover of $X$ since $\mathcal{U}$ is. By hypothesis, $X$ belongs to $\mathcal{U}'$, so $X$ is a union of finitely many elements of $\mathcal{U}$. This shows $X$ is compact according to Definition \ref{hb}. 
 =-- 
 
 As the union is a [[colimit]] in the [[category of open subsets]] $Op(X)$, we can also say
