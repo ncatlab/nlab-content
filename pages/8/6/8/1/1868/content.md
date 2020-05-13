@@ -444,8 +444,7 @@ The observation that twisted vector bundles may be understood as higher-order [[
 
 A discussion of this with [[connection on a bundle|2-connections]] taken into account is in section 4.4.3 of 
 
-* [[Urs Schreiber]], [[Konrad Waldorf]], _Connections on non-abelian Gerbes and their Holonomy_ ([arXiv:0808.1923
-](http://arxiv.org/abs/0808.1923))
+* [[Urs Schreiber]], [[Konrad Waldorf]], _Connections on non-abelian Gerbes and their Holonomy_ ([arXiv:0808.1923](http://arxiv.org/abs/0808.1923))
 
 A discussion in the context of [[principal infinity-bundles]] (as opposed to higher vector bundles), is in section "2.3.5 Twisted cohomology and sections" and then in section  "3.3.7.2 Twisted 1-bundles -- twisted K-theory"
 
