@@ -26,7 +26,7 @@ About [[Ehlers transformation]] being the double copy of [[S-duality]] in [[clas
 * {#ABSP19} Rashid Alawadhi, [[David Berman]], Bill Spence, David Peinador Veiga, _S-duality and the Double Copy_ ([arXiv:1911.06797](https://arxiv.org/abs/1911.06797))
 
 
-## related $n$Lab entries
+## Related $n$Lab entries
 
 * [[double field theory]]
 
