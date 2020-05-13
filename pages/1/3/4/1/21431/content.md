@@ -35,13 +35,15 @@ Let $(\mathcal{C},J)$ be a small site. The **theory of J-continuous flat functor
 
 * axioms $\top\vdash_{x:A,y:B}\underset{A\overset{f}{\leftarrow} C\overset{g}{\rightarrow B}}{\bigvee}\exists (z:\lceil C\rceil)\big(\lceil f\rceil (z:\lceil C\rceil)=x:\lceil A\rceil\wedge \lceil g\rceil (z:\lceil C\rceil)=y:\lceil B\rceil\big)$ where the disjunction ranges over all cones on the discrete diagram consisting of $A$ and $B$.
 
-* axioms $\lceil f\rceil (x:\lceil A\rceil)=\lceil g\rceil (x:\lceil A\rceil)\vdash_{x:\lceil A\rceil}\bigvee_{h:C\to A|f\circ h=g\circ h} \exists(z:\lceil C\rceil)\big(\lceil h\rceil(z:\lceil C\rceil)=x:\lceil A\rceil\big)$ for any pair $f,g:A\to B$, the disjunction ranging over all equalizers of $f,g$.
+* axioms $\lceil f\rceil (x:\lceil A\rceil)=\lceil g\rceil (x:\lceil A\rceil)\vdash_{x:\lceil A\rceil}\bigvee_{h:C\to A|f\circ h=g\circ h} \exists(z:\lceil C\rceil)\big(\lceil h\rceil(z:\lceil C\rceil)=x:\lceil A\rceil\big)$ for any pair $f,g:A\to B$, the disjunction ranging over all $h$ equalizing $f,g$.
 
 * axioms $\top\vdash_{x:\lceil A\rceil}\bigvee_{i\in I}\exists (y_i:\lceil B_i\rceil) \big(\lceil f_i\rceil(y_i:\lceil B_i\rceil)=x:\lceil A\rceil\big)$ for each J-covering $\{f_i:B_i\to A|i\in I\}$.
 
 ### Remark
 
-Given a small category $\mathcal{C}$, the theory of flat functors on $\mathcal{C}$ is $\mathbb{T}_{J_0}^{\mathcal{C}}$ where $J_0$ is the [[trivial topology]]. Since the last axiom schema expresses J-continuity which is trivial for the maximal sieves these axioms might as well be dropped whence the first five axiom schemata suffice to axiomatize the notion of a flat functor on $\mathcal{C}$.
+The first two axiom schemata correspond to functoriality, the third to fith to [[filtered category|filteredness]] (this being a notion equivalent to flatness), and the last to J-continuity (turning J-covers into epimorphic families).
+
+Given a small category $\mathcal{C}$, $Set^{\mathcal{C}^{op}}\simeq Sh(\mathcal{C},J_0)$ where $J_0$ is the [[trivial topology]]. The theory of flat functors on $\mathcal{C}$ coincides with $\mathbb{T}_{J_0}^{\mathcal{C}}$ since the last axiom schema becomes redundant for the maximal sieves whence the first five axiom schemata axiomatize the notion of a flat functor on $\mathcal{C}$ and the resulting **theory of flat functors** is seen to be of [[theory of presheaf type|presheaf type]].
 
 
 ## Examples
