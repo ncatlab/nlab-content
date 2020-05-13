@@ -29,7 +29,7 @@ Let $(\mathcal{C},J)$ be a small site. The **theory of J-continuous flat functor
 
 * axioms $\top\vdash_x \lceil i\rceil(x)=x$ for all identity morphisms $i$.
 
-* axioms $\top_x\vdash\lceil f\rceil(x)=\lceil h\rceil(\lceil g\rceil (x))$ for all triples $f,g,h$ with $f=g\circ h$.
+* axioms $\top\vdash_x\lceil f\rceil(x)=\lceil h\rceil(\lceil g\rceil (x))$ for all triples $f,g,h$ with $f=g\circ h$.
 
 * an axiom $\top\vdash\underset{A\in\mathcal{C}}{\bigvee} (\exists x:\lceil A\rceil) \top$.
 
@@ -41,7 +41,7 @@ Let $(\mathcal{C},J)$ be a small site. The **theory of J-continuous flat functor
 
 ### Remark
 
-The first two axiom schemata correspond to functoriality, the third to fith to [[filtered category|filteredness]] (this being a notion equivalent to flatness), and the last to J-continuity (turning J-covers into epimorphic families).
+The first two axiom schemata correspond to functoriality, the third to fifth to [[filtered category|filteredness]] (this being a notion equivalent to flatness), and the last to J-continuity (turning J-covers into epimorphic families).
 
 Given a small category $\mathcal{C}$, $Set^{\mathcal{C}^{op}}\simeq Sh(\mathcal{C},J_0)$ where $J_0$ is the [[trivial topology]]. The theory of flat functors on $\mathcal{C}$ coincides with $\mathbb{T}_{J_0}^{\mathcal{C}}$ since the last axiom schema becomes redundant for the maximal sieves whence the first five axiom schemata axiomatize the notion of a flat functor on $\mathcal{C}$ and the resulting **theory of flat functors** is seen to be of [[theory of presheaf type|presheaf type]].
 
