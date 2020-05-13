@@ -7,11 +7,15 @@
 
 _Mathematica_ is a computer algebra software package.
 
-## Related concepts
+## Related entries
+
+* [[list of mathematics software]]
 
 * [[Coq]], [[Agda]]
 
 * [[ELF]]
+
+* [[Sage]]
 
 ##Other packages etc.
 
