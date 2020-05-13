@@ -120,7 +120,9 @@ Discussion of [[Rozansky-Witten theory]] as a [[boundary field theory]]:
 _Three-dimensional topological field theory and symplectic algebraic geometry I_ ([arXiv:0810.5415](https://arxiv.org/abs/0810.5415))
 
 
+See also:
 
+* [[Sergei Gukov]], Po-Shen Hsin, Hiraku Nakajima, Sunghyuk Park, Du Pei, Nikita Sopenko, _Rozansky-Witten geometry of Coulomb branches and logarithmic knot invariants_ ([arXiv:2005.05347](https://arxiv.org/abs/2005.05347))
 
 
 
