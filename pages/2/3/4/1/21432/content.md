@@ -6,7 +6,7 @@ https://ncatlab.org/nlab/show/compact+space#compactness_for_locales
 
 In another context, the definition 2.2 also works for [[locales]], since it refers only to the [[frame]] of open sets.  Here is an equivalent way to phrase it that is often convenient for locale theory. 
 
-Firstly, note that unions of finite opens give a [[direction]] on any [[open cover]].  This gives us the notion of a directed open cover, which is useful for locales.
+Firstly, note that given any open cover, adding to it the closure of all unions of finite opens defines a [[direction]] on any [[open cover]].  This directed open cover is useful for locales.
 
 +-- {: .num_prop #directed}
 ###### Proposition
