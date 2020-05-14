@@ -185,8 +185,7 @@ The 2-categorical version of $T Mod$ is useful in generalization of the [[spectr
 
 ## Properties
 
-* [[Barr's theorem]] says, that if a statement in [[geometric logic]] is deducible from a [[geometric theory]] using classical [[logic]] and the [[axiom of choice]], then it is also
-deducible from it in [[constructive mathematics]]. 
+* [[Barr's theorem]] says, that if a statement in [[geometric logic]] is deducible from a [[geometric theory]] using classical [[logic]] and the [[axiom of choice]], then it is also deducible from it in [[constructive mathematics]]. 
 
 ## Related concepts
 
